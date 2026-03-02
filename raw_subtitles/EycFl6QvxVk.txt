@@ -1,0 +1,336 @@
+[Speaker 0]: 本期视频继续为大家讲解 open cloud 高级用法。
+[Speaker 0]: 在视频的开始，
+[Speaker 0]: 我会分享一下我最近使用 open cloud 一些小技巧，
+[Speaker 0]: 然后我会为大家重点讲解 open cloud 记忆蒸馏的方式，
+[Speaker 0]: 还有使用方法以及效果。
+[Speaker 0]: 通过记忆蒸馏的方式，
+[Speaker 0]: 我们能够大幅度节省在使用 open cloud 时候所消耗的 token 成本。
+[Speaker 0]: 因为正常情况下，
+[Speaker 0]: 我们都会用主 agent 执行多种复杂的任务。
+[Speaker 0]: 在这种情况下，
+[Speaker 0]: 我们为主 agent 分配的模型就要更强而更强的模型，
+[Speaker 0]: 它消耗的 token 价格也更贵。
+[Speaker 0]: 而且由于主 agent 它执行多种场景，
+[Speaker 0]: 所以在每次新开 session 的时候，
+[Speaker 0]: 它所加载的上下文也更多。
+[Speaker 0]: 所以本期视频将为大家重点介绍与 open 记忆争馏相关的步骤，
+[Speaker 0]: 还有操作方式。
+[Speaker 0]: 本期视频的点赞量如果破千的话，
+[Speaker 0]: 下期视频我将为大家分享 clouopen cloud 更高级的用法。
+[Speaker 0]: 好，
+[Speaker 0]: 下面先为大家分享一下我最近总结的使用 open cloud 一些比较实用的小技技巧，
+[Speaker 0]: 还有经验。
+[Speaker 0]: 首先，
+[Speaker 0]:  open cloud 它是由开源社区维护，
+[Speaker 0]: 而且 en en 的版本迭代也非常快，
+[Speaker 0]: 几乎每天都会发布更新，
+[Speaker 0]: 但每次 clouopen class 发布更新总能引入很多 bug，
+[Speaker 0]: 尤其 opopen clck 最近发布的二零二六二点二四版本，
+[Speaker 0]: 这一个版本的 bug 就更多。
+[Speaker 0]: 所以大家在使用 open 的时候，
+[Speaker 0]: 非必要千万不要去升级。
+[Speaker 0]:  clouopen 比较稳定的版本是二零二六二点二二这一个版本。
+[Speaker 0]: 如果大家想每天都将 clouopen 更新的到最新版，
+[Speaker 0]: 那么可以将 open cloud 官方文档直接做成 skill，
+[Speaker 0]: 将这个 skill 给 cloud code 进行安装。
+[Speaker 0]: 我们只需要用自然语言描述，
+[Speaker 0]: 让它安装这个 skill，
+[Speaker 0]: 再跟上仓库链接就可以。
+[Speaker 0]: 如果没有 cloud code 的话，
+[Speaker 0]: 也可以直接安装到 codex，
+[Speaker 0]: 或者安装到 anti gravity。
+[Speaker 0]: 嗯，
+[Speaker 0]: 下面我们只可以让 ani gravity 帮我们来升级 open cloud。
+[Speaker 0]: 然后我们只需要在对话框输入升级 open cloud 到最新版本。
+[Speaker 0]: 这样的话，
+[Speaker 0]:  anti gravity 就会率先读取这个 skill 中与 open 升级相关的这一些命令。
+[Speaker 0]: 还有注意事项，
+[Speaker 0]: 在等待了不到一分钟左右，
+[Speaker 0]: 这里它就提示升级完成。
+[Speaker 0]: 然后它需要运行这条命令来检查一下，
+[Speaker 0]: 我们直接让它运行就可以。
+[Speaker 0]: 当它完成升级后，
+[Speaker 0]: 它就检测到两个注意事项。
+[Speaker 0]: 然后这里提示建议自动修复，
+[Speaker 0]: 安全问题在输入框我们就可以输入请修复，
+[Speaker 0]: 让它来自动帮我们修复这个问题。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 我们就保证了在升级的时候，
+[Speaker 0]: 一旦遇到问题，
+[Speaker 0]:  clouopen 就可能崩溃。
+[Speaker 0]: 但我们我们直接让 ani gravity 来升级，
+[Speaker 0]: 或者是让 cloud code 帮我们来升级，
+[Speaker 0]: 这样就能保证在升级的过程中，
+[Speaker 0]: 遇到任何问题，
+[Speaker 0]: 都能由 anti gravity 或者 cloud code 或者其他 AI 编程助手帮我们来修复这些问题。
+[Speaker 0]: 因为在这段时间使用 open cloud 的时候，
+[Speaker 0]: 每次升级它都很容易崩溃。
+[Speaker 0]: 所以在这里我就单独创建了这个 open cloud scale，
+[Speaker 0]: 然后为 cloud code code x 或者 anti gravity 等任 AA 编编程具进行安装，
+[Speaker 0]: 然后完全由这些 AI 编程工具负责。
+[Speaker 0]: 帮我升级好，
+[Speaker 0]: 这里 anti gravity，
+[Speaker 0]: 它就提示这些警告都已经修修复。
+[Speaker 0]: 我们不想使用用 en en oud 最新版本的时候，
+[Speaker 0]: 然后我们也可以找一个稳定版本，
+[Speaker 0]: 来回滚到更加稳定的版本。
+[Speaker 0]: 比如说我们就用这个版本进行测试。
+[Speaker 0]: 然后我们只需要在 anti gravity 中用自然语言描述就可以。
+[Speaker 0]: 我输入的是将 open 回滚到这个版本，
+[Speaker 0]: 然里我们直接发送好这里，
+[Speaker 0]: 它就提示安装完成，
+[Speaker 0]: 正在运行这个版本。
+[Speaker 0]: 这里它就提示 clouopen 这个版本已成功回滚到二零二六点二点二，
+[Speaker 0]: 而且 gateway 运行正常。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 我们就通过这个 skill，
+[Speaker 0]: 让 AI 编程助手学到了如何帮我们管理 open cloud，
+[Speaker 0]: 并无论论升升版本还是回滚版本，
+[Speaker 0]: 它都能轻轻松帮们完成。
+[Speaker 0]: 好，
+[Speaker 0]: 下面就为大家讲解一下主 open cloud 记忆蒸六相关的操作。
+[Speaker 0]: 因为平时我们在使用 open 的时候，
+[Speaker 0]: 在主 clouagent 中，
+[Speaker 0]: 我们可能让主 agent 的执行了各种场景的任务。
+[Speaker 0]: 当使用了一段时间之后，
+[Speaker 0]: 主 agent 中所积累的这些一些记忆以及记忆的类别可能就非常多了。
+[Speaker 0]: 在这种情况下，
+[Speaker 0]: 我们就可以将主 agent 中特定的记忆单独提取出来，
+[Speaker 0]: 然后赋予给其他的 agent。
+[Speaker 0]: 这就比较像面向对象编程中的继承，
+[Speaker 0]: 也就是由其他 agent 来继承主 agent 中相关的特定记忆。
+[Speaker 0]: 比如说在我这个主 agent 中，
+[Speaker 0]: 我可以让它列出来当前它有哪些类型的记忆。
+[Speaker 0]: 我输入的提示词是列出你目前具备的哪些不同场景或者主题的记忆。
+[Speaker 0]: 然后我们直接发送让主 a 诊的检索记忆库，
+[Speaker 0]: 然后列出他当前所存在的哪些类型的记忆。
+[Speaker 0]: 好，
+[Speaker 0]: 这里他很快检索到了这些记忆。
+[Speaker 0]: 在这里，
+[Speaker 0]: 他按照主题进行了归类，
+[Speaker 0]: 比如说与 open cloud 运维相关的这些记忆。
+[Speaker 0]: 第二个主题就是与这个开源插件项目的维护相关的记忆。
+[Speaker 0]: 在上期视频中，
+[Speaker 0]: 我也为大家演示了这个记忆插件的使用方式。
+[Speaker 0]: 而且最近几天也有大佬开始为这个项目 TPR。
+[Speaker 0]: 第三个主题就是与调用 cloud code 相关的这些记忆。
+[Speaker 0]: 下面我们就可以提取主 agent 中特定主题的记忆，
+[Speaker 0]: 将特定主题的记忆专门新建一个 agent。
+[Speaker 0]: 并且将这个记忆赋予这个 agent。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 我们就可以用一个专职的 agent 来负责特定的任务。
+[Speaker 0]: 下面我们就可以测试一下，
+[Speaker 0]: 让他将 lengs DB 这个插件相关的这些记忆全部提取出来，
+[Speaker 0]: 赋予给一个新的 agent。
+[Speaker 0]: 因为这个记忆的产生是我在 open 中让 clouopen en oud 来分析我这个 length DB 记忆插件相关的这些 issues，
+[Speaker 0]: 还有 PR 的合并，
+[Speaker 0]: 甚至还包括版本的发布。
+[Speaker 0]: 在这个主 agent 中与与这插插相关的的这些记忆积累的足够多了。
+[Speaker 0]: 这样的话，
+[Speaker 0]: 我们就可以将这个记忆单独赋予给一个 agenent，
+[Speaker 0]: 让这个 agenent 专门为我们处理与这个项目仓库库关的这这些 susues 分分析，
+[Speaker 0]: 还 PP 的合并，
+[Speaker 0]: 还有版本的发布等工作流程。
+[Speaker 0]: 下面我们就可以输入我们的任务。
+[Speaker 0]: 我输入的是提取与这个插件相关的记忆，
+[Speaker 0]: 然后创建一个新的 agent，
+[Speaker 0]: 并为这个 agent 创建独立的 work space。
+[Speaker 0]: 然后将这个插件相关的记忆赋予给这个 agent，
+[Speaker 0]: 并且让它绑定到这一个 boat。
+[Speaker 0]: 然后这里是与这个 boat 相关的这个 token，
+[Speaker 0]: 下面我们就可以点击发送，
+[Speaker 0]: 让我们的主 agent 自动为我们执行这个流程。
+[Speaker 0]: 好，
+[Speaker 0]: 在等待了两分钟之后，
+[Speaker 0]: 这里提示他已经全部完成，
+[Speaker 0]: 并且这里还给出了汇总。
+[Speaker 0]: 这里是他创建的这个 agent 的 ID，
+[Speaker 0]: 这里叫 length DB。
+[Speaker 0]:  dive 在这里就将创建了这个 agent，
+[Speaker 0]: 绑定到了这个 boat。
+[Speaker 0]: 在这里就是列出的这个 agent，
+[Speaker 0]: 他的 worspspace 和这这个 agent 是是独立的 work space，
+[Speaker 0]: 他们互相不干扰。
+[Speaker 0]: 然后为这个 agent 赋予的模型是 GBT 五点二模型。
+[Speaker 0]: 在下面这里，
+[Speaker 0]: 他还将与身份定义相关的内容，
+[Speaker 0]: 还有与人格与操作规则相关的这些内容全部为我们写好了。
+[Speaker 0]: 在词 agenm d 这个文件中，
+[Speaker 0]: 他将这个操作规则，
+[Speaker 0]: 包括 bug 修复流程，
+[Speaker 0]: 还有冒烟测试，
+[Speaker 0]: 还有 schema 规则等内容，
+[Speaker 0]: 全部都帮我们放到这个文件中了。
+[Speaker 0]: 下面这里就是这个专属记忆，
+[Speaker 0]: 包括修复工作流，
+[Speaker 0]: 还有冒烟测试套件，
+[Speaker 0]: 甚至还包括 NTM 发布流程。
+[Speaker 0]: 只要是与维护我们这个仓库相关的记忆，
+[Speaker 0]: 它全部都提取，
+[Speaker 0]: 并且单独赋予给了刚才我们让它创建的这个 agent 哈。
+[Speaker 0]: 好，
+[Speaker 0]: 下面我们就可以测试一下被赋予了 luns BB 记忆插件相关操作的这一个 out。
+[Speaker 0]: 在输入框我们就可以输入提示词，
+[Speaker 0]: 我直接输入你有哪些记忆，
+[Speaker 0]: 然后直接发送在这里。
+[Speaker 0]: 他提到了与这个插件相关的事实，
+[Speaker 0]: 还有决策，
+[Speaker 0]: 还有之前所踩的这些坑。
+[Speaker 0]: 然后我们可以继续输入提示词，
+[Speaker 0]: 让他详细讲解与这个插件相关的记忆。
+[Speaker 0]: 然后他就很快输出了与这个插件相关的这些记忆，
+[Speaker 0]: 还括这个插件的定位位，
+[Speaker 0]: 还有边界，
+[Speaker 0]: 还有相关的这些配置，
+[Speaker 0]: 还有就是存储与检索架构。
+[Speaker 0]: 这里还提到了典型的踩坑经历，
+[Speaker 0]: 可以看到他检索的这个记忆非常非常详细。
+[Speaker 0]: 这个 agent 就继承了主 agenent 关于这个开源插件开发与维护相关的这些记忆相。
+[Speaker 0]: 这的话当这个开源项目出现新的 a 属的时候，
+[Speaker 0]: 我们就可以直接让这一个 agents 来处理相关的 session。
+[Speaker 0]: 下面我们可以新开一个 session，
+[Speaker 0]: 然后在主 agent 中也新开一个 session。
+[Speaker 0]: 我们对比一下这两个 agent 哪一个 agent 加载的上下文要更少。
+[Speaker 0]: 然后我们直接用斜杠命令加 status。
+[Speaker 0]: 先看一下这个主 agent 它所加载的上下文。
+[Speaker 0]: 在新绘画中，
+[Speaker 0]: 它会加载十七 k 的上下文。
+[Speaker 0]: 然后我们再测试一下，
+[Speaker 0]: 继承了主 agent 的这个 agent，
+[Speaker 0]: 它的新 session 会加载多少 k 的上下文？
+[Speaker 0]: 可以看到这个新的 agent 呢，
+[Speaker 0]: 它只加载十一 k 上下文，
+[Speaker 0]: 这个上下文长度要远小于我们刚才看的这个主 agent 它所加载的上下文长度。
+[Speaker 0]: 而且这个主 agent 我们使用的模型是 cloud opens 四点六。
+[Speaker 0]: 然后新建的这个 agent 呢，
+[Speaker 0]: 它使用的模型是 GBD 五点二。
+[Speaker 0]: 在 open en cloud 这个主 agent ent 使用 oppos 四点六，
+[Speaker 0]: 可以应对各种 agent 相关的任务。
+[Speaker 0]: 在刚才它为我们创建了这个 agent 中，
+[Speaker 0]: 使用 GBD 五点二就更适合用于开源项目的分析以及代码修改等相关任务。
+[Speaker 0]: 而且这个 agent 它加载的上下文就远小于我们这个主 agent 所加载的上下文。
+[Speaker 0]: 因为这一个 agent 它加载的上下文全部都是与这一个项目相关的这些上下文。
+[Speaker 0]: 像。
+[Speaker 0]: 这样的话，
+[Speaker 0]: 我们就实现了特定任务由特定 agent 来完成，
+[Speaker 0]: 就不需要所有的对话全部在主 agent 中去完成。
+[Speaker 0]: 因为主 agent 它负责的综合性的操作比较多，
+[Speaker 0]: 所以它一次加载的上下文就要更多，
+[Speaker 0]: 而且为主 agent 分配的 cloud 斯四点六模型，
+[Speaker 0]: 它的 opbtoken 也更贵。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 我们就完成了 open 记忆蒸馏。
+[Speaker 0]: 从主主 agent 的中的始始，
+[Speaker 0]: 记忆蒸馏出特定主题相关的记忆，
+[Speaker 0]: 将蒸馏出的这些知识赋予给新的 a 号，
+[Speaker 0]: 并且可以为新的 ena 套赋予一个更便宜的模型。
+[Speaker 0]: 比如说我们这里使用的 geng PT 五点二模型，
+[Speaker 0]: 并且我们还可以不断迭代。
+[Speaker 0]: 刚才我们测试的这个步骤是直接将主 a 诊 t 中相关主题的记忆，
+[Speaker 0]: 原封不动的赋予给新的 a 诊套。
+[Speaker 0]: 如果想让新的 a 诊头能更加高效的执行它记忆中的这些流程和步骤。
+[Speaker 0]: 然后我们还可以直接让主的将这个主题的记忆直接做成 agenskill 为刚才创建的这个的进行安装。
+[Speaker 0]: 下面我们就可以直接输入提示词。
+[Speaker 0]: 我输入的提示词是从记忆中提取这个插件，
+[Speaker 0]: 相关的记忆，
+[Speaker 0]: 将记记忆成成 agenskill，
+[Speaker 0]: 并且为刚才创建的这一个 agent 的安装这个 skill。
+[Speaker 0]: 这里我还提醒他这个 agent，
+[Speaker 0]: 他的工作空间是这个。
+[Speaker 0]: 因为刚才他已经输出了，
+[Speaker 0]: 他为我们创建建了这个这的工作空间。
+[Speaker 0]: 在这里我们告诉他一遍这个工作空间，
+[Speaker 0]: 防止他放错了工作空间。
+[Speaker 0]: 然后我们就可以直接发送，
+[Speaker 0]: 让这个主 agent 将记忆中与这一个插件相关的这些记忆直接固化成 skill。
+[Speaker 0]: 这样的话安装到这个新的 agent 中的时候，
+[Speaker 0]: 这个这的 agenent 就能够直接通过 skill 来维护我们这个开源项目。
+[Speaker 0]: 相比这一个新的 agent 直接读取记忆，
+[Speaker 0]: 它通过 skill 这一个方式效率会更高。
+[Speaker 0]: 这里这个主 agent 他给出了输出，
+[Speaker 0]: 他先把相关记忆和 skill 创建指南都拉出来，
+[Speaker 0]: 然后这里是 skill 的安装路径。
+[Speaker 0]: 在这里他给出了一些结构分析。
+[Speaker 0]: 在这里，
+[Speaker 0]: 他提示提取了三十多条记忆，
+[Speaker 0]: 去重合并后组织成结构化的文档。
+[Speaker 0]: 然后这里提到，
+[Speaker 0]: 刚才他新建了这个 agent，
+[Speaker 0]: 在处理插件开发任务时就会自动匹配这个 skill。
+[Speaker 0]: 下面我们就可以回到刚才他为我们创建了这一个 agent 啊。
+[Speaker 0]: 然后我们直接输入提示词，
+[Speaker 0]: 列出你目前可用的 skill，
+[Speaker 0]: 看一下它是否真正加载了这个主 agent 哈，
+[Speaker 0]: 为它创建并且安装了 scale。
+[Speaker 0]: 他目前可用的 skill 包含这些默认的 skill，
+[Speaker 0]: 在最后这里就是主的为他创建了与这个插件相关的 agenskill。
+[Speaker 0]: 下面我们就可以在这个新的 agent 中测试一下，
+[Speaker 0]: 让它合并这个 PR。
+[Speaker 0]: 正好这里有大佬提交了一个 PR，
+[Speaker 0]: 然后我们直接复制这个 PR 的链接，
+[Speaker 0]: 然后回到 open cloud 这个新创建的 agagent t 中，
+[Speaker 0]: 我们就可以输入提示词。
+[Speaker 0]: 我输入的提示词是分析这个 PR，
+[Speaker 0]: 如果没问题，
+[Speaker 0]: 请合并并测试测试通过，
+[Speaker 0]: 请发布新版本直接发送。
+[Speaker 0]: 这样的话这个 agent 就会调用刚才这个主 agent 为为创建，
+[Speaker 0]: 并且安装了了这 skskill 根据 skill 中的工作流来分析这个 PR。
+[Speaker 0]: 好，
+[Speaker 0]: 这里他输出了分析，
+[Speaker 0]: 然后我们可以详细看一下，
+[Speaker 0]: 这里是他对这个 PR 的分析结论，
+[Speaker 0]: 这里提到比原来要更正确。
+[Speaker 0]: 他说他也合并，
+[Speaker 0]: 并且跑了测试。
+[Speaker 0]: 第四步就是发布新版本，
+[Speaker 0]: 并且已经推送到了 get up。
+[Speaker 0]: 在这里他提示是否需要补 read me，
+[Speaker 0]: 还有 release note，
+[Speaker 0]: 然后我们让他补 read me，
+[Speaker 0]: 还有 release note。
+[Speaker 0]: 在这里它就提示新版本已经发布，
+[Speaker 0]: 并且这里给出了版本号。
+[Speaker 0]: 然后我们回到仓库刷新之后，
+[Speaker 0]: 这里我们就看到了他刚才发布的新版本，
+[Speaker 0]: 在这里就显示这个 PR 已经合并。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 我们从主 agent 中通过记忆中馏创建了一个新的 agent，
+[Speaker 0]: 它就属于一个特定任务的 agent 号，
+[Speaker 0]: 它就能够更好的处理我们这个项目仓库的管理维护，
+[Speaker 0]: 还有 PR 合并，
+[Speaker 0]: 还有新版本发布等任务。
+[Speaker 0]: 最关键的是，
+[Speaker 0]: 新 session，
+[Speaker 0]: 它加载了上下文，
+[Speaker 0]: 也大幅度变小了。
+[Speaker 0]: 可以看到，
+[Speaker 0]: 刚才我们创建 skill 之后，
+[Speaker 0]: 它加载了上下文，
+[Speaker 0]: 变成了九点三 k 在没创建 skill 的时候，
+[Speaker 0]: 它加载了上下文，
+[Speaker 0]: 为十一 k 而有了 skill 之后，
+[Speaker 0]: 它加载了上下文就进一步减小。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 当我们主 agent 中这些记忆足够多的时候，
+[Speaker 0]: 我们就可以按照这种思路，
+[Speaker 0]: 通过记忆蒸馏的方式提取特定主题的记忆，
+[Speaker 0]: 赋予给一个新的 agent，
+[Speaker 0]: 甚至可以将记忆直接固化为 skill，
+[Speaker 0]: 然后赋予给这个新的 agent。
+[Speaker 0]: 这样的话，
+[Speaker 0]: 新的的 agent 中新筛选中，
+[Speaker 0]: 它加载的上下文就会大幅度减小，
+[Speaker 0]: 而且处理特定任务的效率也会大幅度提高。
+[Speaker 0]: 像我们这个思路可以用于多种场景，
+[Speaker 0]: 比如说自动化发布，
+[Speaker 0]: 自媒体，
+[Speaker 0]: 可以将它固化成一个 skill，
+[Speaker 0]: 并且为特定的 agenca 分配更加便宜的模型。
+[Speaker 0]: 因为有了 skill 的加持，
+[Speaker 0]: 哪怕更便宜一些的开源模型也能很好的完成特定的任务。
+[Speaker 0]: 啊，
+[Speaker 0]: 本节视频就做到这里，
+[Speaker 0]: 欢迎大家点赞、
+[Speaker 0]: 关注和转发，
+[Speaker 0]: 谢谢大家观看。
