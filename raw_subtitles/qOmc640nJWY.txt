@@ -1,0 +1,338 @@
+Do you remember where you were
+when you first heard The Sugarhill Gang?
+“Now what you hear is not a test
+I'm rapping to the beat
+And me, the groove and my friends
+We’re going to try to move your feet.”
+OK, you kind of remember it?
+(Laughter)
+OK, I'm a professor, so here's your quiz.
+Everybody say “Hotel, motel” --
+Audience: "... Holiday Inn."
+RF: OK, stop that.
+(Laughter)
+We can't have that kind of fun,
+I work at Harvard.
+(Laughter)
+I first heard that song --
+It's, like, 1985.
+It was a block party
+in Daytona Beach, Florida,
+and people were moving
+in ways I'd never seen before.
+Now, I'm not talking
+about my friend Manman.
+I'm talking about my grandmother.
+She was doing stuff I can't unsee.
+(Laughter)
+She was like, down in here,
+and I was like, “Whoa, grandma!”
+(Laughter)
+That was 40 years ago.
+And hip-hop has taken over.
+It is the most popular
+music genre in the world,
+particularly among young people.
+It has. its effect on music, on language,
+on clothing, on social media,
+even to a data nerd like me,
+is immeasurable.
+But somehow, that's all obvious, right?
+It didn't really dawn on me
+until a few months ago.
+I'm a Peloton addict.
+And I went to New York for the live ride.
+And I'm in the studio ...
+we’re 35 minutes in -- I was thinking,
+“How do you simulate the bicycle?”
+Here we go.
+I was 35 minutes in,
+I peeped the person next to me,
+and her handle was RideorDie2000.
+And they get us up
+out of our saddles, 35 minutes in ...
+and, on beat,
+she gets up out of the saddle,
+she starts screaming,
+and pounding the handlebars,
+"Kill, kill, kill,
+Murder, murder, murder"
+(Laughter)
+Scared the crap out of me.
+(Laughter)
+In that moment, I realized two things.
+Number one:
+hip-hop done made it, y'all.
+(Laughter)
+There is a middle-aged white woman
+from Charleston, South Carolina,
+talking about murdering
+somebody in public.
+(Laughter)
+And number two:
+According to some of y'all,
+because of those lyrics,
+she's likely to murder
+someone this afternoon.
+(Laughter)
+And I'm selfish. I want to know who.
+(Laughter)
+Hip-hop is everywhere.
+I collected data, we collected data,
+a team of us collected data
+on every radio station in America.
+And for every radio station,
+we know the genre of the songs.
+So as this interactive graph
+gets more red,
+that is the spread of hip-hop
+across every county in America.
+Now to collect the data,
+first we went and got
+literally every radio handle.
+And for every radio handle,
+we have the broadcast frequency
+and range from each one of them.
+And then, we have the genre.
+And then, for some of the radio stations,
+we actually have the playlists
+that were on the radio.
+And for those playlists,
+of course, we have the songs.
+We analyzed every lyric
+that has been played
+on many radio stations in America.
+Now it took a team of us to do this,
+and with the advances in AI,
+we made more progress
+in the last six months
+than we made in the first 10 years.
+Now you can imagine
+having research assistants
+sit and listen to a bunch
+of hip-hop and score it all day long.
+AI has been much, much more helpful.
+This shows you we've looked
+at the evolution of the types of hip-hop
+played on the radio
+over the last 40 years.
+The bottom is what I call alternative,
+or what they call alternative
+or experimental hip-hop.
+Think OutKast.
+It's a small portion,
+but this is the kind of hip-hop
+that pushes boundaries.
+The second, the yellow,
+is conscious or lyrical hip-hop.
+Think Kendrick Lamar,
+who was brilliant enough to win
+a Pulitzer Prize for his lyrics.
+That's the next sliver.
+The big part in the middle
+is mainstream hip-hop,
+the type that's played
+on the radio most of the time.
+Think Jay-Z
+or -- I'm a little older -- Run-DMC.
+Now at the top,
+that’s where the controversy is.
+That is street rap --
+think Dr. Dre, Tupac.
+What I want you to get from this
+is that that was a small portion
+of the overall hip-hop played
+on the radio for the last 40 years.
+Now of course, it increases
+in the last 10 years,
+but even still, a minority
+of the hip-hop playing.
+Now as I said, we have hundreds
+of thousands of songs we’ve processed,
+and we have the lyrics
+for each one of these songs.
+So I have a graph here to show you
+how lyrics have evolved
+over the last 40 years.
+We trained the AI to grade each song
+in terms of how misogynistic it was,
+how violent the content is,
+how profane the language is
+and the drug references.
+Over the last 40 years,
+hip-hop music has gotten
+five times more misogynistic,
+five times more violent,
+five times more profane ...
+but only two-and-a-half times
+as many drug references.
+Now what are you supposed to do?
+I've heard about this my entire life.
+My grandmother, who raised me,
+she'd find a CD I was hiding, and say,
+"I know you don't listen
+to this filth, honey."
+(Laughter)
+What do you do?
+Maybe we should lean in.
+You know, maybe we should
+just have an award
+for the most extreme hip-hop song, right?
+I've always wanted to go to the Grammys.
+Now I don’t think
+the Grammys are going to do it,
+so maybe we should have a “Grimmy.”
+(Laughter)
+This is my only chance.
+(Laughter)
+So what we did was we scored
+every single song
+on the four dimensions I described,
+and we took a look and we said,
+"Who is the winner for the most extreme
+hip-hop song of all time?"
+Now before I tell you ...
+one song was so extreme
+that the AI refused to grade it.
+(Laughter)
+I'm not lying to you. (Laughs)
+We heard about AI being self-referential.
+Well clearly the Achilles’ heel
+of AI is hip-hop,
+because AI refused to look at it.
+(Laughter)
+I got an email from Claude that said,
+“Man, I just got this job.
+I'm not reading this stuff at work."
+(Laughter and applause)
+OK, I didn't get that email,
+but in my head, it would be interesting.
+(Laughter)
+The winner of the first annual
+and only-ever
+Grimmy Award goes to ...
+"Bout Dat" by Master P.
+Audience: Whoa.
+RF: Whoa.
+(Laughter)
+Now, I wanted to rap you a few bars.
+During rehearsal, they were like,
+"Nope, cut that part out."
+(Laughter)
+What to do?
+I agree these lyrics are crazy.
+And people have been talking
+about it for a long time.
+You remember Geraldo said,
+"Hip-hop has done more damage
+to Black people than racism."
+Cynthia Tucker said,
+"You can't listen to all this language
+and have it not affect you."
+Cynthia Tucker is amazing,
+civil rights activist.
+Do you know she actually sued Tupac?
+Do you know how tough you have to be ...
+(Laughter)
+to sue Tupac?
+But the question really is,
+at least to an economist,
+does it actually hurt?
+Because there have been
+times in my life
+in which the things
+that you would view as profane
+were actually comforting to me.
+In 1993, I was 15 years old,
+and I drove to a prison
+to visit my father.
+And after our little visit,
+I got back in the car.
+That's actually how I learned
+how to drive a stick shift.
+I drove second gear all the way there.
+I got back in the car,
+and I put in the "Menace
+II Society" soundtrack.
+And MC Eiht came across the speakers,
+and he said,
+"A fucked-up childhood is why the way I am
+Has got me in the state
+where I don’t give a damn
+Somebody help me
+But no, y’all don’t hear me though
+I guess I’ll be another
+victim of the ghetto
+Now that would score high
+on profanity and violence.
+But in that moment,
+it scored high on comfort.
+And so the question I've asked myself
+for more than a decade
+is: Does this actually help,
+or does it hurt?
+Now that animation
+I showed you at the beginning
+provides a beautiful natural experiment,
+because we have places where hip-hop went
+before it went to other places.
+And because of those radio
+frequencies I talked about,
+I can actually see in the data,
+there are kids who have
+very similar backgrounds,
+live in similar homes,
+have similar parents.
+One is exposed to some type of lyrics,
+and another is exposed to another.
+And we can relate those,
+and we do, to 40 different variables
+that measure social and economic progress:
+things like teen pregnancy,
+things like unemployment, income, crime.
+And here's what the evidence shows.
+On every dimension, all 40 of them,
+we find zero evidence
+that hip-hop has a negative effect
+on any outcomes.
+(Applause)
+What this shows you
+on the vertical axis
+is the homicide rate,
+and on the horizontal axis
+is exposure to hip-hop.
+And what you see,
+statistically, is no relationship,
+but, if anything,
+slightly downward-sloping,
+which means exposure to hip-hop
+made things, if anything,
+better, not worse.
+And I know some of you are thinking:
+What about the lyrics?
+I've got two daughters I adore.
+We listen to hip-hop, but not Master P.
+(Laughter)
+What about those lyrics?
+Look ...
+blaming hip-hop for its unvarnished truths
+is like faulting a photograph
+for the subject matter.
+I was told, my entire life,
+that hip-hop causes inequality.
+Well if you actually process
+hundreds of thousands of songs
+and relate it to outcomes,
+the data actually suggests the opposite,
+that inequality causes hip-hop.
+(Cheers and applause)
+So the solution is simple.
+If we want gentler lyrics,
+how about we work together
+to change the social conditions
+that produce the lyrics?
+Thank you.
+(Cheers and applause)
+And we can dance.
+It's not going to hurt you.
+(Cheers and applause)
