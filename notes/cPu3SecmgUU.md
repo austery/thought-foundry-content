@@ -1,78 +1,71 @@
 ---
-area: "work-career"
-category: ai-ml
-companies_orgs:
-- Google
-- Anthropic
+author: Dwarkesh Patel
 date: '2024-03-29'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-media_books:
-- gw's scaling hypothesis post
-people:
-- Sholto Douglas
-- Trenton Bricken
-- Tristan Hume
-- Andy Jones
-products_models:
-- Transformers
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=cPu3SecmgUU
 speaker: Dwarkesh Patel
-status: evergreen
-summary: 本期播客探讨了**Sholto Douglas**和**Trenton Bricken**如何在短短一年到一年半的时间内，通过展现出极强的**主动性（agency）**、对问题的**深度投入**以及精准的**高杠杆问题选择**，在AI研究领域做出重要贡献。节目还深入剖析了他们各自的职业发展路径，包括如何通过积极主动地研究、参与学术交流以及与顶尖研究者建立联系，从而抓住机遇，实现快速成长，并强调了系统并非总是对个人有利，主动出击的重要性。
 tags:
-- ai-research
-- career-development
-- history
-- problem
-- technology
-title: How They Became Leading AI Researchers in Just 1 Year – Sholto Douglas & Trenton
-  Bricken
+  - agency
+  - research-methodology
+  - career-growth
+  - ai-research
+  - contributions
+title: AI研究者如何在一年内成为顶尖：Sholto Douglas与Trenton Bricken的经验分享
+summary: 本次访谈深入探讨了两位顶尖AI研究者（Sholto Douglas和Trenton Bricken）如何在短时间内取得突破性成就。他们分享了个人成长经历、关键的机遇、‘agency’和‘caring’等核心品质的重要性。内容涵盖了从机器人学到大规模模型研究的跨领域探索，以及如何通过积极主动、深入研究和拥抱不确定性来应对复杂挑战，从而在AI领域脱颖而出。
+insight: ''
+draft: true
+series: ''
+category: ai-ml
+area: tech-engineering
+project: []
+people:
+  - Sholto Douglas
+  - Trenton Bricken
+companies_orgs:
+  - Google
+  - Anthropic
+  - Berkeley
+products_models:
+  - Transformers
+  - Signs of Life
+media_books: []
+status: evergreen
 ---
-### 快速成长之路
+### 贡献与快速成长之路
 
-主持人 **Dwarkesh Patel** 感到好奇，想了解嘉宾 **Sholto Douglas** 和 **Trenton Bricken** 是如何在一年或一年半的时间里，在各自的领域做出重要贡献的。他提到，这其中固然有运气成分，但他也感觉自己很幸运，在职业发展的不同阶段，时机都恰到好处，帮助他迈向了新的成长高度。
+**Interviewer**: How in a year or a year and a half have you guys been, you know, made important contributions to your field?
 
-**Sholto Douglas** 分享了他加入**可解释性（Interpretability）**团队的经历。他加入时团队只有五个人，如今已壮大不少。当时团队中有许多想法亟待实现，需要快速执行、建立反馈闭环并进行严谨的实验。正是这些努力催生了“Signs of Life”等成果，并使团队得以规模化发展。他认为，这便是他为团队最大的价值贡献，其中大部分工作虽然并非纯粹的工程，但极具启发性。
+**Sholto Douglas**: It goes without saying luck, obviously, and I feel like I've been very lucky in the timing of different progressions. It has been just really good in terms of advancing to the next level of growth. Um, I feel like for the interpretability team specifically, I joined when we were five people. We've now grown quite a lot. Um, but there were so many ideas floating around, and we just needed to like, really execute on them and have like quick feedback loops and like do careful experimentation, um, that led to like **Signs of Life** and have now allowed us to like really scale. Um, and I feel like that's kind of been my biggest value add to the team. Um, which, it's not all engineering, but quite a lot of it has been interesting.
 
-主持人据此总结道，**Sholto** 加入的时期，团队已积累了大量科学研究成果，但需要有人能够“疯狂地”将其执行出来。**Sholto** 进一步解释说，这并非全是工程工作，而是包含运行各种实验，凭借直觉判断问题所在，甚至深入模型内部探究其学习机制，并尝试不同的方法。他强调，自己能够做到非常细致、深入但又快速地调查各种想法，很少被阻碍。即使遇到代码问题，他也会主动去解决或临时修复，而不是像有些人那样轻易放弃。
+**Interviewer**: So you're saying like you came at a point where like there had been a lot of science done and there was a lot of like good research letting around, but they needed someone to like just take that, like maniacally execute on it.
 
-他曾听闻管理层抱怨缺乏这种主动性的人才。例如，有人在接到任务后一个月甚至一周仍未开始，当被问及进展时，他们会说“需要找律师来处理法规问题”。主持人追问为何不主动去联系律师，**Sholto** 认为，无论做什么事，最重要的一点就是“**主动性（Agency）**”（中文: 主动性/能动性: 指个体在特定情境下采取行动、做出选择并影响其环境的能力），即坚持不懈地追求目标，不惜一切代价去实现它。他坚信，只要全力以赴，就能成功。
+**Sholto Douglas**: Yeah, yeah. And and and there's, this is why it's not all engineering, because it's like running different experiments and like having a hunch for why it might not be working, and then like opening up the model or opening up the weights and like, what is it learning? Okay, well, let me try and do this instead. And that sort of thing. But, um, a lot of it has just been being able to do like very careful, thorough, but quick, um, investigation of different ideas. I just don't get blocked very often. Like if I'm trying to write some code and like something isn't working, even if it's like in another part of the codebase, I'll often just go in and fix that thing or at least hack it together to be able to get results. And I've seen other people where they're just like, 'Help, I can't!' and it's like, no, that's not a good enough excuse. Like, go all the way down. I've definitely heard like people in management type positions talk about the lack of such people. Where they'll check in on somebody a month after they give them a test, a week after they give them a test. I'm like, 'How's it going?' and they say, 'Well, you know, we need to do this thing which requires lawyers because it requires talking about this regulation.' It's like, 'How's that going?' I was like, 'Well, we need lawyers.' And like, why didn't you get lawyers? I think that's arguably the most important quality in like almost anything. It's just pursuing it to like the end of the Earth and like whatever you need to do to make it happen, you'll make it happen. If you do everything, you win. If you do everything, you win. Exactly.
 
-### 职业机遇与背景
+### Agency and High-Leverage Problems
 
-**Sholto** 认为，**主动性**在他的工作中至关重要。他提到，**Google** 有成千上万的工程师，在软件工程能力上可能与他相当，甚至在完成明确任务时表现更好。但他之所以能脱颖而出，是因为他善于选择“**高杠杆（high leverage）**”的问题，即那些尚未得到很好解决、可能因结构性因素（如团队协作障碍）而停滞不前的问题。他会选择“垂直解决整个问题”。
+**Sholto Douglas**: I think from my side, uh, definitely that quality has been important, like agency in the work. There are thousands, I would even like, probably tens of thousands of Engineers at **Google** who are like, you know, basically like we're all like equivalent, like software engineering ability, let's say. Like, you know, if you gave us like a very well-defined task, um, then we'd probably do it like equival-. Well, a bunch of them would do it a lot better than me, you know, in all likelihood. Um, but what I've been, like, one of the reasons that I've been impactful so far is I've been very good at picking extremely high leverage problems. So problems that haven't been like particularly well solved so far, um, perhaps as a result of like frustrating structural factors, like the ones that you pointed out in like that scenario before, where they're like, 'Oh, we can't do X because this team won't do Y.' Or like, and then going, 'Okay, well, I'm just going to like vertically solve the entire thing.'
 
-随后，主持人提议探讨嘉宾是如何被聘用的，认为这是一个有趣的故事。**Sholto** 分享了他的背景：本科学习机器人学，课余时间（每晚10点至凌晨2点）和周末（每天6-8小时）进行大量个人研究和编程项目。在阅读了 **gw** 的“**规模假设（scaling hypothesis）**”文章后，他深受启发，认为解决机器人学问题的关键在于扩展“**大型多模态模型（Large Multimodal Models）**”（中文: 大型多模态模型: 指能够处理和理解多种类型数据（如文本、图像、音频）的AI模型，通常规模巨大）。他当时正研究如何有效扩展这些模型。
+### Transition to Scaling and Early Career
 
-**James Bradbury**（当时在**Google**，现任职于**Anthropic**）注意到了他在网上提出的关于如何正确扩展模型的问题。**James** 惊讶于**Sholto** 的提问深度，并结合他博客上发布的机器人学研究，主动联系了他，邀请他进行交流并探讨合作机会。**Sholto** 被聘用，他理解这被视为一次实验，旨在将一个充满热情和**主动性**的人与顶尖工程师配对。他认为，来自优秀导师的指导是他取得影响力的原因之一。
+**Interviewer**: We should talk about, uh, how you guys got hired because I think that's a really interesting story. So like the T- the of this is, I studied Robotics and undergrad, and in the meantime, on nights and weekends, basically every night from 10 p.m. till 2 a.m., I would do, uh, my own like research and every weekend for like at least six to eight hours each day, I would do my own research and coding projects and this kind of stuff. That sort of switched in part from like quite robotic specific work to after reading, uh, GW's scaling hypothesis post, I got completely scaling-pilled and was like, 'Okay, like clearly the way that you solve robotics is by like scaling large multimodal models.' I was trying to work out how to scale that effectively. And, um, **James Bradbury**, uh, who at the time was at **Google** and is now at **Anthropic**, um, saw some of my questions online where I was trying to work out how to do this properly. He was like, 'I thought I knew all the people in the world who were like asking these questions. Who on Earth are you?' Um, and, uh, he, you know, he looked at that and he looked at some of like the robotic stuff that I've been putting up on my blog and that kind of thing. And he reached out and said, 'Hey, do you want to have a chat? And you want to, um, like explore working with us here?' Um, and, uh, I was hired, I, as I understand it, later as an experiment in trying to take someone with extremely high enthusiasm and agency and pairing them with some of the best Engineers that he knew. Um, and so one another, one of the reasons I could say like, I've been impactful is I, I had this like dedicated mentorship from utterly wonderful people.
 
-主持人 **Dwarkesh Patel** 认为，这种立即获得指导的经历，可能让**Sholto** 在短时间内全面掌握信息，获得全局视野，而非像读研究生那样只深入研究某个特定领域（如强化学习RL）。这种方式可能比传统招聘更有回报。**Sholto** 同意，他认为这让他能以“新鲜的视角”看待问题。但他补充说，在自我探索期间，他曾“痴迷地”阅读了大量论文。现在工作占据了他的大部分时间，反而阅读得更少了。他曾拥有一个广泛的视角，能看到不同子领域（如NLP、计算机视觉、机器人学）之间模式的涌现，这预示了他之后的工作方向。
+**Interviewer**: What you mentioned about being, um, being bootstrapped immediately by these people might have meant that since you're getting up to speed on everything at the same time, rather than spending grad school going deep on like one specific way of doing RL, you actually can take the global view and aren't like totally bought in on one thing. So not only can it is it something that's possible, but like has greater returns than just hiring somebody out of grad school. Potentially, you come at everything with fresh eyes, um, and come and locked to any particular field.
 
-接着，主持人问**Trenton Bricken** 的经历是否类似。**Trenton** 表示，他的故事更为“巧合”。他最初进入计算神经科学领域，但感觉自己“没太多理由”在那里。他的第一篇论文是将小脑映射到**Transformers**（英文: Transformers: 一种深度学习模型架构，尤其在自然语言处理领域表现出色，以其自注意力机制闻名）的注意力机制。之后，他开始研究大脑稀疏性启发的网络稀疏性。
+**Sholto Douglas**: Um, now, what, like, one caveat to that is that before, like, during my self-experimentation and stuff, I was reading everything I could. I was like obsessively reading papers every night. Um, and like, actually, funnily enough, I, I like read much less widely now that I, like, my day is occupied by working on things. Um, and in some respect, I had like this very broad perspective before where, not that many people, even, even like in a PhD program, you, like, focus on a particular area. Um, if you just like, read all the NLP work and all the computer vision work and like all the robotics work, you, like, see all these patterns just start to emerge across subfields, um, in a way that I guess, like, foreshadowed some of the work that I would later do.
 
-在此期间，他遇到了 **Tristan Hume**。当时**Anthropic** 正在研究“softmax 线性输出单元”的工作，这与**Trenton** 的稀疏性研究非常相关，目标是让神经元的激活变得稀疏，从而获得模型的可解释性。这次交流促成了**Trenton** 成为**Tristan** 的访问学者，并最终转为全职。在此期间，他还作为访问研究员去了**Berkeley**，与**Bruno Olous** 合作。**Bruno Olous** 在1997年发明了“**稀疏编码（Sparse Coding）**”（中文: 稀疏编码: 一种信号表示方法，旨在用最少的激活单元来表示输入数据，常用于理解神经编码和模型结构）。**Trenton** 的研究方向与可解释性团队的目标不谋而合，因此与团队合作顺理成章。
+### Research Journey and Academic Connections
 
-### 主动性与机遇
+**Interviewer**: And Trenton, does this map onto any of your experience? I think Sh's story is more, more exciting.
 
-**Dwarkesh Patel** 观察到，人们在讲述自己的成功故事时，倾向于归因于“偶然性”，但在听别人讲述时，则认为“理应如此”。**Trenton** 认同这一点，并回忆起自己与 **Tristan Hume** 的相遇，纯属偶然——在一次会议上，他偶然加入了一个聊天小组，恰好**Tristan** 在那里，他随口提到了自己的研究，这引发了后续的对话。他认为自己最终还是会申请**Anthropic**，但可能会晚一年。他仍然觉得能为可解释性做出有意义的贡献，这令人难以置信。
+**Trenton Bricken**: Um, mine was just very serendipitous in that I, I got into computational Neuroscience. Didn't have much business being there. Um, my first paper was mapping the cerebellum to the attention operation and **Transformers**. My next ones were looking at, like, you wrote that, uh, it was my first year of grad school, okay? Um, so 22. Oh yeah, but, uh, yeah, my, my next work was on, uh, sparsity in networks, like inspired by sparsity in the brain. Uh, which was when I met **Tristan Hume**, uh, and **Anthropic** was doing the solution, the softmax linear output unit work, which was very related in quite a few ways. Of like, let's make the, uh, activation of neurons across a layer really sparse. And if we do that, then we can get some interpretability of what neuron's doing. That started the conversation. I shared drafts of that paper with Tristan. He was excited about it. And and then, and and that was basically what led me to become Tristan's resident and then convert to full-time. Um, but during that period, I also moved as a visiting researcher to **Berkeley**, uh, and started working with **Bruno Olous**. And Bruno Olen basically invented sparse coding back in 1997. And so it was like, the, the, the, my research agenda and the interpretability team seemed to just be running in parallel, um, in in with just research taste and and so it, yeah, it made a lot of sense for for me to work with the team.
 
-**Dwarkesh** 补充说，这其中存在“**射门（shots on goal）**”的因素，即主动去参加会议等行为，本身就是将自己置于更有可能发生好运的位置。他认为，自己之前的努力也是在“**制造运气**”，并试图做一些有意义的事情来获得关注。
+**Sholto Douglas**: Um, well, and it's been a dream. Since one thing I've noticed when people tell stories about their careers or their successes, they ascribe it way more to contingency, but when they hear about other people's stories, they're like, 'Of course, it wasn't contingent.' You know what I mean? It's like, if that didn't happen, something else would have happened. Yeah. But I mean, like, I literally met Tristan at a conference and like wasn't, didn't have a scheduled meeting or anything, just like joined a little group of people chatting, and he happened to be standing there, and I happened to mention what I was working on, and that led to more conversations. And I think I probably would have applied to **Anthropic** at some point anyways, but I would have waited at least another year. I, I, I, yeah. It's still crazy to me that I can like actually contribute to interpretability in a meaningful way.
 
-他指出，那些认为求职过程“清晰明了、机械化”的人是错误的。实际上，人们更看重那些具有**主动性**、勇于展示自己的人。他认为，雇主看重两点：一是**主动性**和自我展示的能力；二是能够做出“世界级”成就的能力。
+**Sholto Douglas**: I think there's an important aspect of like, shots on goal, there so to speak, right? Where like you, even just going to choosing to go to conferences itself is like putting yourself in a position where you're, where luck is more likely to happen. My own was my own way of like, trying to manufacture luck, so to speak, um, and and like, try and do something meaningful enough that it got noticed. For the people who are like, 'just assuming that the other end of the job board is like just like super legible and mechanical, this is not how it works.' And in fact, like people are looking for the sort of different way, different kind of person who's agentic and putting stuff out there. And I think specifically what people are looking for there is two things: one is agency, and like putting yourself out there. Uh, and the second is the ability to do world-class something. Yeah, **Andy Jones** from **Anthropic** did an amazing paper, um, on scaling laws as applied to board games. It didn't require much resources, it demonstrated incredible engineering skill, it demonstrated incredible understanding of like the most topical problem of the time. Um, and he didn't come from a like typical academic background or whatever. As I understand it, basically, like as soon as he came out with that paper, both ends, R and Open AI were like, 'We would desperately like to hire you.'
 
-他举例说，**Andy Jones**（来自**Anthropic**）发表了一篇关于将“**规模法则（Scaling Laws）**”（中文: 规模法则: 指AI模型性能与模型大小、数据量、计算量等因素之间存在可预测的数学关系）应用于棋盘游戏的论文。这篇论文资源投入不多，却展现了卓越的工程技能和对当时热门问题的深刻理解。据他了解，**Andy Jones** 并无典型的学术背景，但该论文发表后，**OpenAI** 和 **Anthropic** 都急切地想聘用他。
+### The System and the Importance of Caring
 
-**Dwarkesh** 引用了一句话：“**系统**并非你的朋友”。他解释说，这并非说系统是你的敌人，而是它“并非为你着想”。因此，很多时候需要主动出击，因为“房间里没有大人”，你必须自己决定生活的方向并付诸实践。他认为，有时必须“勇往直前”地去尝试某些事情，才能取得成就，而不是被期望所裹挟。
+**Sholto Douglas**: There's this line: 'The system is not your friend,' right? Uh, and it's not necessarily to say it's it's actively against you, it's your sworn enemy. Um, it's just not looking out for you, right? And so I think that's where a lot of the proactiveness comes in. Of like, there are no adults in the room, or like, and and like you have to come to some decision for what you want your life to look like and execute on it. And and yeah, hopefully you can then update later, um, if you're too headstrong in the wrong way. But but I think you almost have to just kind of charge at certain things to get much of anything done, not be swept up in the tide of whatever the expectations are.
 
-### 深度投入与努力
-
-最后，**Dwarkesh** 补充了一个关键点：除了**主动性**，还有一个极其重要的因素是“**难以置信地在乎（caring an unbelievable amount）**”。当一个人真正投入并深切关心某事时，他会关注所有细节，理解可能出错的地方，这比人们想象的要重要得多，因为很多人往往“不够在乎”。
-
-他引用了**LeBron James** 的话，**LeBron** 曾担心进入联盟后会遇到太多顶尖对手，但后来发现，一旦人们获得财务稳定，就会有所放松。**Dwarkesh** 认为，在AI研究领域情况并非完全如此，因为大多数人确实非常投入。但他区分了“关心你的问题”和“关心整个技术栈”。他强调，要主动去解决那些“不属于你职责范围”的问题，因为这能整体上提升技术栈的质量。
-
-他引用一位朋友的话：“令人惊叹的是，你能够多么迅速地在某个领域达到世界级水平，仅仅因为大多数人并没有那么努力，或者他们实际投入的时间并没有你想象的那么多。”因此，他总结道，如果你“全力以赴”（go ham），就能快速取得长足的进步。
+**Sholto Douglas**: There's like one final thing I want to add, which is like, we talked a lot about agency and this kind of stuff, but I think actually, like surprisingly enough, one of the most important things is just caring an unbelievable amount. Um, and when you care an unbelievable amount, you, like, you check all the details and you have like this understanding of like what could have gone wrong. And you, like, you, uh, it just, it matters more than you think. Because people end up not caring, not caring enough. Uh, this is like **LeBron** quote where he talks about how when he sort of before he started in the league, he was like worried that everyone would be like incredibly good. And and then he gets there and he like realizes that actually once people hit financial stability, then they, um, like they relax a bit. And he's like, 'Oh, this is going to be easy.' Um, and I don't think that's quite true because I think in like AI research, because most people actually care quite deeply. Um, but there's caring about your problem and there's also just caring about the entire stack and everything goes up and down. Like going explicitly going and fixing things that aren't your responsibility to fix because overall it makes the stack better. I, something that a friend said to me a while back, but I think has stuck, is like, 'It's amazing how quickly you can become world class at something just because most people aren't trying that hard and like are only working like, I don't know, the actual like 20 hours that they're actually spending on this thing or something.' And so yeah, if you just go ham, then like you can, you can get really far, pretty fast.
