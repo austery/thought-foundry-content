@@ -1,87 +1,63 @@
 ---
-area: "society-thinking"
-category: culture
-companies_orgs:
-- American Airlines
-- U.S. Supreme Court
+author: 超級歪 SuperY
 date: '2022-04-01'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-media_books:
-- 《圣经》
-people:
-- Chris Rock
-- Paul
-- Ketanji Brown Jackson
-- Sigmund Freud
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=MKUDGCXP7JQ
 speaker: 超級歪 SuperY
-status: evergreen
-summary: 本文深入探讨了奥斯卡颁奖典礼上威尔·史密斯掌掴事件背后的笑话心理学。文章从女性光头被视为笑料的现象切入，分析了头发作为性别和社会规范象征的历史，以及黑人女性因发型遭受的种族歧视。通过引用弗洛伊德的理论，文章阐释了笑话的本质在于颠覆权威，并强调了听众在笑话成立及其伦理责任中的关键作用，呼吁反思社会对弱势群体的嘲讽。
 tags:
-- audience-responsibility
-- gender
-- psychology
-- racial-discrimination
-- social-power-dynamic
-title: 笑话的心理学：从奥斯卡巴掌事件看性别与种族歧视
+  - joke-psychology
+  - social-norms
+  - power-dynamics
+  - gender-race-politics
+title: “幽默的心理學：從奧斯卡事件探討權力、性別與種族的幽默倫理”
+summary: “本文以奧斯卡事件為引，深入解析幽默的心理學與倫理。探討了玩笑如何 subvert 權威、揭示潛意識慾望，以及性別、種族與權力關係在幽默中的複雜交織。強調觀眾在定義玩笑存在及其倫理上的關鍵作用。”
+insight: ''
+draft: true
+series: ''
+category: psychology
+area: society-thinking
+project: []
+people: []
+companies_orgs: []
+products_models: []
+media_books: []
+status: evergreen
 ---
-### 奥斯卡巴掌事件：笑话的起点
+### 奧斯卡事件與光頭的雙重標準 (The Oscar Incident and the Double Standard of Baldness)
 
-在第94届奥斯卡金像奖颁奖典礼上，主持人克里斯·洛克对贾达·萍克特·史密斯开了一个玩笑。他说：“贾达，我爱你。迫不及待想看你出演《魔鬼女大兵2》。”这个玩笑暗指贾达的光头造型，与电影《魔鬼女大兵》中参军的女主角形象相似。随后，她的丈夫威尔·史密斯上台给了克里斯·洛克一巴掌，这成为了电视史上最具戏剧性的一刻。
+The 94th Academy Awards ceremony featured a notable incident where host Chris Rock made a joke about Jada Pinkett Smith's bald head, referencing the movie "GI Jane 2." This remark, alluding to her appearance akin to a military heroine, prompted her husband, Will Smith, to walk onto the stage and slap Rock. This moment became one of the most dramatic in television history, igniting an online debate about the two parties involved. One perspective argued that Will Smith's physical retaliation was wrong, while another contended that Chris Rock initiated verbal violence by mocking Jada's shaved head due to illness. Following the incident, Will Smith issued a public apology to conclude the dispute. However, a crucial aspect often overlooked is the event's starting point: why are bald women perceived as a subject for jokes? This contrasts with depictions in media, such as Stephen Chow's "Shaolin Football," where baldness is not necessarily treated as an alien characteristic or a joke, and in Hollywood, where bald men are often portrayed with masculine and handsome imagery. The central question posed is: why does a man's bald head contribute to a masculine myth, while a woman's bald head is reduced to a joke?
 
-事件发生后，网络上引发了一场关于双方责任的激烈辩论。一派观点认为威尔·史密斯动手打人是错误的，而另一派则认为克里斯·洛克首先实施了言语暴力，嘲笑患病而剃光头的贾达。威尔·史密斯事后发表了公开道歉，试图平息这场争议。然而，整个事件的起点——为什么女性光头会被视为一个笑话——却鲜少被深入讨论。
+### 幽默的社會學根源 (Social Roots of Humor)
 
-我们是否在周星驰的电影《少林足球》中也见过类似的笑话？电影中，女性光头被塑造成外星人的形象，并被告知“快点回火星，地球是很危险的”。无论是周星驰的电影还是克里斯·洛克的玩笑，我们都看到光头女性被当作异类或女兵来对待。如果威尔·史密斯今天因重病剃了光头，可能就不会被当作笑话。在好莱坞，光头男性一直被塑造成阳刚、帅气的形象。那么，我们不禁要问：为什么男性的光头能塑造阳刚神话，而女性的光头却成了笑话？
+To understand this, let's consider historical and cultural perspectives on appearance and societal norms. At the end of the 19th century, the first batches of Chinese students studying abroad in the Qing Dynasty retained their long hair, which was then mocked by Americans as "pigtails." If talk shows had existed then, the long hair of Han Chinese might have become a joke. Indeed, in 1930, American Van Buren Studios produced an animation called "Laundry Blues" that ridiculed Chinese people, depicting them with pigtail-like hair and exaggerated "Chinese accents." This animation later spawned a sequel, "Chop Suey." The reason why certain hairstyles, like these, become objects of ridicule is often because they do not conform to socially expected gender norms.
 
-### 头发的性别政治：社会规范与身体形象
+In Western societies, hair has historically symbolized the maintenance of the **性别二元对立**（gender binary） distinction. The Apostle Paul's writings in the Bible suggest it is unnatural for a man to have long hair, while it is an honor for a woman. Long hair thus became a gender symbol imposed on women. Concurrently, societal expectations dictate that girls should not have beards or leg hair, whereas boys are expected to keep them. Through this configuration of hair, society establishes a system of classification to maintain gender distinctions. This was highlighted in 1968 when American feminists launched the Miss America protest, symbolically discarding "feminine symbols" imposed on women, such as hair clips, false eyelashes, and fake long hair. If this system of gender classification based on hair did not exist, the mockery of 19th-century Chinese hairstyles or Jada Pinkett Smith's appearance today would not have occurred.
 
-让我们从一个反向案例开始。在19世纪末，清朝第一批出国留学的中国学生因留着长辫子，被美国人嘲笑为“pigtail”（猪尾巴）。如果19世纪有脱口秀，汉族男性的长发也可能成为笑话。事实上，在1930年，美国范布伦工作室就制作了一部嘲笑中国人的动画片，名为《洗衣店蓝调》。片中的中国人留着猪尾辫，并配有奇怪的“中国口音”。这部动画片后来还制作了续集《杂碎》。
+### 種族與外貌歧視的交織 (Intersection of Race and Appearance Discrimination)
 
-中国人的发型之所以成为嘲笑对象，是因为它不符合社会预期的性别规范。在西方，自古以来头发就是维持**性别二元区分**（Gender Binary Distinction: 将性别严格分为男性和女性的社会观念）的象征。保罗在《圣经》中提到，男人留长发是不自然的羞辱，而女人留长发则是荣耀。长发因此成为强加在女性身上的性别符号。但与此同时，女孩不能有胡须和腿毛，而男孩则必须保留胡须和腿毛。通过这种头发的配置，社会建立了一套分类系统来维持性别区分。因此，在1968年，美国女权主义者曾发起“美国小姐抗议”运动，将所有强加在女性身上的“女性符号”，如发夹、假睫毛、假长发等，扔进垃圾桶。如果没有这套头发的性别分类系统，19世纪的中国人以及今天的贾达就不会成为笑话。
+However, Jada Pinkett Smith is not just a woman; she is also a Black woman, and "**脱发**"（Alopecia）, the condition she suffers from, is more prevalent among Black women. This is a significant reason why the Black women's community largely supported Will Smith after the incident. Black women's hair has a complex history in America; from a young age, they are often taught that conforming to hair that resembles that of a white woman enhances their social standing. This pressure leads many Black women to perm their hair straight, hoping to meet societal expectations of "white aesthetics." The long-term damage from such practices unfortunately increases the likelihood of hair loss. Therefore, behind this seemingly simple physical condition lies the problem of racial oppression.
 
-### 种族歧视的交织：黑人女性头发的困境
+This oppression of Black women's hair is even recognized by the system. In 1981, a Black female flight attendant sued American Airlines because the company prohibited her from wearing **编织发辫**（cornrows）, demanding she tie her hair into a bun for work. The flight attendant argued this was racist against Black women, as cornrows have a long history and are part of their cultural identity. Being asked to change her hairstyle was akin to severing cultural roots. However, the U.S. court dismissed the case, stating the airline did not demand she cut her hair but only that she tie it up during work hours, allowing her to wear her preferred style afterward. This ruling effectively institutionalized discrimination against Black women's hairstyles. Controversies regarding Black female students' hair not conforming to school "hair" rules have been frequent in the United States.
 
-然而，贾达不仅是女性，她还是黑人。她所患的**斑秃**（Alopecia: 一种自身免疫性疾病，导致头发或体毛脱落）在黑人女性中尤为常见。这也是为什么事件发生后，黑人女性群体普遍支持威尔·史密斯的原因。因为黑人女性的头发在美国有着复杂的历史。她们从小就被教导：如果你的头发看起来更像白人女性，你就能在社会上更好地立足。因此，黑人女性经常把头发烫直，希望能符合社会所期待的“**白人审美**”（White Aesthetics: 以白人特征为美的审美标准）。长期对头发的损伤导致黑人女性更容易患上脱发症。所以，看似简单的身体疾病背后，隐藏着种族压迫的问题。
+In 1996, Brazilian comedian Tiririca released a song titled "Olha o Cabelo Dela" (Look at Her Hair), describing Black women's hairstyles as ridiculous. The lyrics, which included phrases like "looks like a scrubbing pad" and derogatory terms, were met with laughter and were seen as a joke. However, this was certainly not funny to Black women in Brazil, who took legal action. Consequently, in 2012, a Brazilian court ordered Sony Music, the song's publisher, to pay $650,000 in damages. These cases illustrate how Black women's hair has become an intersection of gender and racial politics. Black women face a dilemma: whether they have hair or not, they are scrutinized. When they have hair, they cannot choose hairstyles from their own cultural traditions, while society expects them to emulate white women. When they lack hair, they are used as laughing stock by talk show hosts. Conversely, a man with a bald head can ascend to become a Hollywood superstar. This is why, when Black women achieve a certain social status, they often deliberately do not compromise on their hair choices, such as when Black American Judge Ketanji Brown Jackson deliberately wore her "sisterlocks" hairstyle to her U.S. Supreme Court hearing. Similarly, Jada Pinkett Smith could have worn a wig to cater to mainstream aesthetics but chose to show her bald head. These choices are political acts reflecting gender and race.
 
-这种对黑人女性头发的压迫甚至得到了制度上的认可。1981年，一名黑人女性空乘人员起诉美国航空公司，因为公司不允许她梳**玉米辫**（Cornrows: 一种非洲裔文化中常见的紧贴头皮编织的发型），并要求她在工作时把头发盘成发髻。这位空乘人员认为这是对黑人女性的种族歧视，因为玉米辫在黑人社区有着悠久的历史，是她们文化身份的一部分。要求改变发型几乎等同于切断文化根源。然而，美国法院驳回了诉讼，认为航空公司并未要求她剪发，只是要求她在工作时间把头发盘起来，下班后仍可恢复原发型，因此这项规定并未侵犯其传统。这一判例将美国对黑人女性发型的歧视变成了制度上认可的歧视。在美国的许多学校，黑人女学生的头发不符合“发型”规定的争议也屡见不鲜。
+### 幽默的本質：顛覆與潛意識 (The Essence of Humor: Subversion and the Unconscious)
 
-1996年，巴西喜剧演员蒂里里卡甚至创作了一首名为《看她的头发》的歌曲，描述黑人女性发型有多么可笑。歌词中写道：“看，看，看她的头发！看起来像洗锅的钢丝球。我已经叫她洗了，但她就是不听。这个臭黑人，臭得要命，比臭鼬还臭。”这首歌发布后被视为笑柄，但对巴西的黑人女性来说，这绝不好笑，她们因此将歌曲告上法庭。2012年，巴西法院判决发行这首歌的索尼音乐公司支付65万美元的赔偿金。
+The paradox lies in that today's mainstream media framing of gender and racial inequality often originates from Hollywood, which first created the myth of the ideal white female image, only to then mock those who deviate from it. This raises the question: isn't such an analysis overly politically correct? Can we no longer make jokes about race and gender in the future? This leads us to a deeper inquiry: what is the essence of a joke, and where does the comedic effect truly come from?
 
-从这些案例中我们发现，黑人女性的头发已经成为性别和种族政治的交汇点。黑人女性不能没有头发，也不能有头发。当她们有头发时，却不能选择自己文化传统的发型，同时被社会要求像白人女性一样。当她们没有头发时，又会被脱口秀演员当作笑柄。相反，光头男性却能成为好莱坞巨星。
+Let's examine a classic passage from Rowan Atkinson, who plays the devil. In one scene, he is grouping people arriving in hell: "Now, murderers? Murderers over here, please. Looters and Pillagers over here. Thieves, if you could join them, and lawyers, you are in this group and Lawyers, you're in that lot too. French, are you here?" The unexpected happens when the audience, expecting only villains, finds lawyers and French people in hell. This unexpected element reveals unconscious desires masked by civilization: unscrupulous lawyers of high social class and arrogant French people are all considered "going to hell."
 
-### 发型选择：性别与种族的政治宣言
+Sigmund Freud theorized that the comic effect is derived from this **打破秩序**（subversion of order） established by recognized authority. Because when jokes upend the order, people's **潛意識慾望**（unconscious desires） can be released from **社會壓抑**（social repression）. This is why hearing other people's verbal slips can be funny: consciousness does not anticipate them and they are closer to the truth of desire. In a classroom roll call scene, Rowan Atkinson embodies this Freudian concept classically. The teacher calls out names that sound like crude words: "Anal? Anus? A Jia? Arsebandit? Ass? Bottom? Acne? Clitoris? Where did you go, Clitoris?" The classroom order, and the teacher's authority, are confused by names that sound like sex organs.
 
-这就是为什么当黑人女性达到一定的社会地位时，会刻意在发型上不妥协。例如，美国最高法院的黑人女法官凯坦吉·布朗·杰克逊在听证会上，就刻意梳着黑人姐妹锁（sisterlocks）发型出席。同样，贾达·萍克特·史密斯也可以戴假发来迎合主流审美，但她选择了展示自己的光头。因为这些选择本身就是一种性别和种族的政治行为。
+If the essence of a joke is to transcend or challenge a social framework to reveal the logic of its operation, and society is composed of those with authority and those who obey, then the "coolness" derived from a joke must come from making fun of others. Freud found that few jokes are completely politically correct; the question is who the joke offends and to what extent. This is why talk show actors constantly challenge societal limits, as the legitimacy of so-called "**地狱梗**"（hell terriers） involves the social relationship between the speaker and the listener.
 
-然而，矛盾的是，今天主流媒体对性别和种族不平等的框架却来自好莱坞。好莱坞首先创造了白人女性理想形象的神话，当有人不符合这种理想形象时，便会成为笑话。
+### 權力、弱勢與幽默的界限 (Power, the Vulnerable, and the Boundaries of Humor)
 
-### 笑话的本质：颠覆权威与释放欲望
+Historians have noted that during World War II, Jews in concentration camps would tell "hell terriers" to each other. For instance, a Jew seeing his friend's head cut off by the Nazis might say, "Wow, I've never had a free haircut in my life!" Laughing with friends in that immediate context, humor became a possibility for Jews to transcend despair. It is those who have experienced hell together who can share such dark humor. American literary writer Wylie Sypher suggested that comedy arises when we realize it's not the best of all possible worlds, allowing us to face reality's insurmountable shortcomings. Being able to laugh at evil and wrong means we have, in a sense, transcended them. Therefore, it's not that talk show actors cannot discuss dark topics, but rather that they allow people who have experienced such hardships to recognize it as a shared meme. For example, a well-known meme might joke with patients, but if telling politically incorrect jokes causes harm, whose problem is it? Are comedians too excessive, abusing free speech, or is the person being laughed at unable to "take a joke"?
 
-等等，这样的分析是不是太“政治正确”了？难道以后就不能开种族和性别的玩笑了？这就引出了一个更深层次的问题：笑话的本质是什么？喜剧效果又从何而来？
+Freud's answer to this dilemma was: neither. To clarify the question of responsibility for jokes, we must first answer: where is the essence of jokes? We tend to think jokes reside in the speaker's head before being told to the audience. However, Freud believed the true ontological order is that a sentence only becomes a joke when the audience laughs at it. As demonstrated in the example: "I live right here in the city, with my mother." If a joke doesn't resonate with the audience, it does not constitute a joke at all. In another example: "Hello, I'm the police. It's the police, ma'am. Your son's been hit by a drunk driver. He's dead." The audience's reaction is "Oh no, you cannot joke about that. Yeah, that's not funny."
 
-让我们从罗温·艾金森先生的一个经典片段开始。饰演魔鬼的罗温·艾金森正在给刚到地狱的人们分组。他先是把杀人犯、抢劫犯、盗贼分到一组，然后说：“律师，你们也在这组。”接着他问：“法国人，你们在这里吗？”在这个片段中，当观众期待地狱里都是坏人时，却出现了律师和法国人，这种出乎意料的安排产生了喜剧效果。而这种出乎意料揭示了被文明掩盖的无意识欲望：那些社会地位高的不择手段的律师，以及傲慢的法国人，都应该“下地狱”。
+Therefore, the audience serves simultaneously as an obstacle to the realization of a joke and as the possibility for its realization. It is the person who *listens* to the joke, not the person who tells it, who ultimately decides whether a joke exists. We cannot laugh at our own jokes; jokes are meant to make others laugh. This leads to a very special time structure: the cause happens *after* the effect. The joke does not exist when the speaker is talking; it begins when the audience laughs.
 
-弗洛伊德认为，喜剧效果来源于对既定权威所建立秩序的颠覆。因为当笑话颠覆秩序时，人们的无意识欲望就能从社会压抑中得到释放，从而暂时宣泄精神能量。这就是为什么我们听到别人说漏嘴时会觉得好笑，因为意识没有预料到，这更接近欲望的真相。在一段扮演老师点名的片段中，罗温·艾金森更经典地体现了弗洛伊德的这一概念。他点名时，将一些听起来像性器官的名字混入其中，原本课堂的秩序和老师的权威，被这些听起来像性器官的名字所混淆。
-
-如果笑话的本质是超越、挑战一个社会框架，以揭示其运作逻辑，而社会又是由拥有权威者和服从权威者构成，那么笑话中获得的“爽感”必然来自于嘲笑他人。所以弗洛伊德发现，很少有完全政治正确的笑话。问题在于笑话冒犯了谁，以及冒犯的程度如何。在刚才引用的例子中，被颠覆的对象都是权威，而不是弱者。这使得人们认为这类笑话更为高级。因为权威的权力越大，笑话冒犯他们所产生的效果就越强。例如，古希腊喜剧作家阿里斯托芬就曾嘲笑雅典的政治家，就像古希腊版的《国家宝藏》。他那些政治不正确的言论甚至威胁到雅典城邦的形象，却被后世奉为喜剧之父，因为他的笑话揭露了社会中的权力关系。
-
-### “地狱梗”的边界：冒犯与超越
-
-反之，如果笑话冒犯的是弱势群体，这种笑话就会变成“**地狱梗**”（Hell Joke: 指涉及敏感、禁忌或冒犯性话题的笑话）。而地狱梗的接受程度因人而异。这也是脱口秀演员不断挑战社会底线的原因。因为地狱梗的合法性实际上涉及说话者与听众之间的社会关系。历史学家惊讶地发现，在二战期间，集中营里的犹太人之间竟然也喜欢开“地狱梗”。例如，一个犹太人看到他的朋友也被纳粹剃了头，就对他说：“哇，我这辈子还没免费理过发呢。”当场嘲笑朋友。在这种情况下，幽默成为犹太人超越绝望的可能性。正是这些共同经历过地狱的人，才能互相开地狱梗。
-
-美国文学作家威利·赛弗认为，喜剧的意义在于，当我们意识到这不是一个尽善尽美的世界时，喜剧允许我们面对现实中无法逾越的缺点。因为能够嘲笑邪恶和错误，意味着我们已经超越了邪恶和错误。所以，并非脱口秀演员不能讲地狱梗，而是要让经历过地狱的人，能够认同这是一个梗。例如，这个知名的梗就是在和病人开玩笑。
-
-但是，如果讲政治不正确的笑话伤害了别人，这究竟是谁的问题？是喜剧演员太过分，滥用言论自由？还是被嘲笑的人不懂幽默，“开不起玩笑”？弗洛伊德的答案是：两者都不是。
-
-### 笑话的伦理：听众的共谋与选择
-
-要厘清笑话的责任问题，我们必须首先回答：笑话的本质何在？我们通常认为笑话在讲述给听众之前就储存在说话者的头脑中。但弗洛伊德认为，真正的**本体论**（Ontology: 哲学中研究存在、实在的本质和结构的学问）顺序是：一句话只有在听众发笑时，才构成一个笑话。如果一个笑话没有引起听众的共鸣，它就根本不构成一个笑话。
-
-所以，听众既是笑话实现的障碍，同时也是笑话实现的可能性。决定一个笑话是否存在的人，是听笑话的人，而不是讲笑话的人。因为我们无法嘲笑自己的笑话，笑话是用来让别人笑的。因此，笑话具有一个非常特殊的时间结构：原因发生在结果之后。笑话在说话者讲述时并不存在，它始于听众发笑的那一刻。
-
-这引出了一个非常重要的结论：政治笑话的责任不仅仅是讲笑话的人和被开玩笑的人之间的问题，它更关乎让笑话存在于这个世界上的听众。对立双方的背后，隐藏着一个更关键的第三方。如果当克里斯·洛克讲光头笑话时，现场观众一片沉默，那么尴尬的将是他自己，因为他的话根本不构成一个笑话。但当在场的每个人都笑了，观众的笑声就认可了他正在讲一个笑话。也正是在这一刻，贾达成为了笑柄。笑话的本体论因此转向了笑话的伦理学。当我们决定一起笑或不笑时，我们就是在参与或拒绝在这个世界上创造一个新的笑话。
+This leads to a crucial conclusion: the responsibility for political jokes is not solely the domain of the teller or the person being joked about. It is, more importantly, about the audience who allows jokes to exist in this world. Hidden behind the opposing sides is a more critical third party. If, when Chris Rock told bald jokes, the audience had remained silent, it would have been he who experienced embarrassment, as his words would not have constituted a joke at all. But when everyone there laughed, the audience's laughter acknowledged his utterance as a joke. It was at this precise moment that Jada became a laughing stock. The ontology of jokes thus shifts to the ethics of jokes. When we collectively decide to laugh or not to laugh, we are either participating in or refusing to create a new joke in the world.
