@@ -1,49 +1,2286 @@
 ---
-area: society-thinking
-category: history
+author: Dwarkesh Patel
 date: '2024-04-06'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-people:
-- Stalin
-- Hitler
-products_models: []
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=X3tuS9bgBfo
 speaker: Dwarkesh Patel
-status: evergreen
-summary: 本期节目深入探讨了‘死亡之地’概念在历史战争中的应用，分析了俄罗斯、乌克兰和日本在极端压力下的韧性表现，以及战争如何塑造国家认同。节目还对比了不同战略目标和文化背景对军队士气的影响，并探讨了历史的假设性选择及其深远后果。
 tags:
-- death-ground
-- national-identity
-- strategy
-- war
-title: 希特勒将俄军逼入绝境：战争韧性与国家认同的深层解析
+  - death-ground
+  - wwii-strategy
+  - national-identity
+  - military-morale
+  - historical-analysis
+title: 历史的韧性：从“死亡地面”概念透视战争中的国家意志与民族认同
+summary: 本文深入分析了“死亡地面”这一战略概念在解析历史冲突中的作用，从二战俄德战争的俄罗斯韧性，到现代俄乌冲突中乌克兰民族认同的形成。文章对比了不同国家的战争策略、文化背景如何影响军队士气与国民心态，并探讨了日本在二战中的复杂决策及其历史反思，以及一个关于日本联合中国国民党对抗共产主义的引人深思的“反事实”设想。
+insight: ''
+draft: true
+series: ''
+category: geopolitics
+area: geopolitics
+project: []
+people: []
+companies_orgs: []
+products_models: []
+media_books: []
+status: evergreen
 ---
+### 俄罗斯的二战韧性：“死亡地面”下的国家意志
 
-### 俄罗斯的顽强抵抗
+俄罗斯在二战中为何能承受数千万士兵的损失，国家却未崩溃，反而能生产出先进坦克？这引发了关于中央计划经济有效性、**斯大林**高压统治下政府为何未倒台等诸多谜团。与此相对，**希特勒**虽也残暴，但其统治的帝国内部并未出现类似沙皇俄国在一战中的瓦解。问题的核心在于，在极端压力下，一个国家或民族是否被推至了“死亡地面”。 Samuel Griffith 对孙子兵法的翻译引入了“死亡地面”这一概念：当敌人将你逼入绝境，你别无选择，只能殊死搏斗，即便胜算渺茫，这是唯一的生存之道。
 
-俄罗斯为何起初并不强劲，但最终却能如此顽强地抵抗德国人？尽管损失了数千万人，政府却未像**沙皇**在一战时那样崩溃。不仅如此，一个共产主义国家竟然能大量、可靠地生产出先进的坦克。这其中充满了许多谜团：中央计划经济为何奏效？政府为何没有崩溃，尽管**斯大林**你知道杀害了那么多人，本应被憎恨？但**希特勒**杀的人更多，也更遭人恨。你现在思考的是俄罗斯做了什么，我将换个角度，思考德国人做了什么。
+<details>
+<summary>Original English</summary>
 
-### 死亡之地概念
+why
+ was
+ Russia
+ so
+ robust
+ against
+ not
 
-一个有用的概念源自塞缪尔·格里菲斯对《孙子兵法》的翻译，其中提到了**死亡之地**（Death Ground: 敌人将你逼入绝境，让你别无选择只能拼死一搏的境地）。什么是“死亡之地”？就是当你的敌人将你逼入“死亡之地”，意味着他们要杀死你，因此你别无选择，只能战斗，因为如果你不战斗，你就死定了。即使你战斗，胜算也很渺茫，但至少那是你唯一的出路。
 
-### 战争塑造国家认同
+initially
+ but
+ eventually
+ so
+ robust
 
-乌克兰人起初欢迎德国人，原因在于**斯大林**及其同伙在 20 世纪 30 年代初对他们施加了可怕的饥荒，他们无法想象还有什么会比这更糟。直到他们遇到了**纳粹**，纳粹让他们挖自己的乱葬坑。乌克兰人重新审视了这一切，如果你这样对待人民，你就会招致一个强大的敌人。这就是发生在俄罗斯身上的事，你现在也能亲眼看到它发生在乌克兰身上。回到 2014 年克里米亚入侵之前，乌克兰政府非常腐败，人们对是要做乌克兰人还是俄罗斯人摇摆不定。快进到如今，俄罗斯人正在消灭那些最忠于他们的人，该国东部地区的人们，他们没有离开的公寓楼被俄罗斯人夷为平地。乌克兰人想：啊哈，我们能与这些人共存的想法已经结束了。讽刺的是，**普京**正在塑造乌克兰的国家认同，战争常常如此。在美国，我们最初有 13 个殖民地，它们彼此差异很大。独立战争之后，国家认同开始形成，到内战结束时，北军至少走遍了全国，他们对国家有了真正的认同感。
 
-### 战略与士气差异
+against
+ pushing
+ back
+ against
+ the
+ Germans
 
-有趣的是，我们对德国和日本采取的战略是无条件投降。你认为这与我们没有实施种族灭绝有所不同吗？但你认为这与德国在乌克兰或日本在中国所拥有的那种……嗯，完全不受限制的政策目标不同吗？我们也在内战中对南方实行了无条件投降，对吧？那么，你如何看待这个问题？因为这也是一种背水一战的情况。为什么那没有导致同样的士气？因为美国没有将这些国家的人民置于“死亡之地”。领导层却将自己置于“死亡之地”。对**东条英机**来说，如果他退让任何事情，他就会下台，他不知道之后会发生什么。所以他个人处于“职业生涯死亡之地”，甚至可能认为他会在战争结束时被处决。但日本人民最终意识到他们并不处于“死亡之地”。事实上，日本人民因整场战争而筋疲力尽，社会也因此破碎。但美国从未打算像俄罗斯屠杀**波兰人**那样，开始屠杀德国人民。德国人屠杀了波兰人，**第二次世界大战**中波兰人死亡八九百万，想想看，这是一个庞大的数字。这是因为他们被大规模屠杀。但也有东京和柏林的轰炸，我记得在你书中提到，东京一次夜间轰炸就有 84,000 人死亡。这太可怕了。为什么这没有让他们陷入“死亡之地”的心态？嗯，我不知道。但 B，日本自 1931 年起就与中国开战了。他们派遣了大量军队，这不像近期的美国战争，如伊拉克和阿富汗的反叛乱。他们派遣了数十万军队占领中国东北。中国人不屈服，战争旷日持久。到 1945 年，这已经是很长的时间了。他们在中国犯下了暴行，并且非常清楚。当有受伤的日本士兵时，他们的指挥官命令战友处决他们，因为他们不想让残疾人回家，他们无法处理。所以，与其让他们被带走，不如就地处决。你能想象日本士兵对此的感受吗？
 
-### 日本文化与士气
+despite
+ losing
+ tens
+ of
+ millions
+ of
 
-我们如何解释日本军队那闻名的高昂士气？他们即使接到上级命令也拒绝投降，尽管他们知道你提到的那些事情。是的，这是因为文化不同。在日本文化中，你属于内群体或外群体。日本人最大的内群体是日本人，然后是其他人。但在日本国内，你来自某个省份、某个地区等，你去学校接受教育，在各种地方，你属于一份工作，你的工作中有各种单位，你负有忠诚义务。在西方，一切都关乎自由和我的权利；在东方，则关乎对他人的义务。因此，你对所有这些组织都负有义务。当士兵们思考战争时，他们想的不是宏观战略，而是战役的成功。所以，一旦你作为士兵开始输掉一场战斗，在西方，你可以撤退，可以投降，这并不丢人，因为你会活下来继续战斗。但在日本，你就是个失败者。因此，如果你作为一个失败的士兵回家，你会给你自己、你的家人、你的地区、你所关联的任何人带来耻辱。所以，他们很难投降。然而，到了战争结束时，他们已经筋疲力尽了。想想看，他们的经济……我记不清确切的统计数据了，大概是我们经济的十分之一，他们的煤炭或钢铁产量大概是我们经济的十三分之一。他们没有本地的石油产量，他们是粮食进口国，也得不到粮食。所以到 1945 年，他们已经精疲力尽，社会也随之瓦解。最后，在战争的最后阶段，出现了**裕仁天皇**。他很清楚，如果他早些时候表示反对，他就会被暗杀或被宣布为精神错乱。他有一个很好的未成年儿子可以作为傀儡。他知道自己对此无能为力。直到最后，当他意识到自己即将被核打击时，他才介入打破僵局。在内阁会议上，有各种各样的人身居高位，他们都意识到大势已去。裕仁能早些时候介入吗？我对此表示怀疑。
 
-### 历史的假设与现实
+soldiers
+ the
+ government
+ doesn't
+ collapse
 
-如果他介入……嗯，当日本在中国过度扩张时，他有可能成功吗？我怀疑他是否考虑过日本在中国过度扩张的问题。他有什么专业知识？他喜欢孔雀鱼，喜欢研究后院的鱼，他没有任何专业知识。当然，还有那种“我们将主宰这个地方”的傲慢心态。他们把中国人看作是一个完全无能、落后的地方，充斥着军阀混战，但他们没有意识到，正是由于他们在中国的极端残暴，中国人最终明白了：问题不在我们，而在日本人。正是日本人的行为促使了中国的发展，并成为民族建设的巨大动力。你可以看到与**希特勒**在俄罗斯做的事情有相似之处。还有现在，**普京**正忙于“神化”**泽连斯基**，并正在将乌克兰打造成一个永不会忘记这些正在发生的事件的真正国家。嗯，我从你的书中了解到一些非常有趣且悲剧性的东西，特别是关于反事实的。你提出的一种策略是，如果日本能像一个大陆强国那样思考，它本可以与国民党结盟，击败俄国的共产党。也许可以发动一场三线战争：德国、国民党和日本联手击败共产党，阻止共产党在中国掌权。考虑到共产主义在俄国和中国造成的后果，以及如果希特勒和共产党都被击败，本可以拯救多少生命。日本的选择似乎太悲剧了。假设他们那样做了，那就意味着希特勒永远存在，这意味着，如果你不是一个“纯种雅利安人”，你的日子就屈指可数了。这无疑将是欧洲历史上规模最庞大的种族清洗。
+
+like
+ the
+ Zars
+ did
+ in
+ World
+ War
+ I
+ and
+ not
+
+
+only
+ that
+ but
+ a
+ communist
+ country
+ is
+
+
+able
+ to
+ produce
+ these
+ really
+ Advanced
+
+
+tanks
+ in
+ large
+ and
+ reliable
+ numbers
+
+
+there's
+ so
+ many
+ Mysteries
+ are
+ like
+ why
+
+
+central
+ planning
+ worked
+ why
+ the
+
+
+government
+ didn't
+ collapse
+ despite
+ the
+
+
+fact
+ that
+ Stalin
+ you
+ know
+ killed
+ all
+ so
+
+
+many
+ people
+ he
+ would
+ have
+ been
+ hated
+
+
+right
+ so
+ ah
+ but
+ Hitler
+ killed
+ more
+ and
+
+
+was
+ more
+ hated
+ uh
+ what
+ you're
+ thinking
+
+
+about
+ is
+ what
+ did
+ the
+ Russians
+ do
+ I'm
+
+
+going
+ to
+ flip
+ it
+ what
+ do
+ the
+ Germans
+ do
+
+
+a
+ useful
+ concept
+ comes
+ from
+ the
+ Samuel
+
+
+Griffith
+ translation
+ of
+ sunzo
+ which
+
+
+talks
+ about
+ death
+ ground
+ what's
+ death
+
+
+ground
+ it's
+ when
+ your
+ enemy
+ puts
+ you
+ on
+
+
+death
+ ground
+ which
+ means
+ they're
+ going
+
+
+to
+ kill
+ you
+ and
+ therefore
+ you
+ have
+ no
+
+
+choice
+ but
+ to
+ fight
+ because
+ if
+ you
+ don't
+
+
+fight
+ you're
+ dead
+ and
+ even
+ if
+ you
+ fight
+
+
+your
+ odds
+ are
+ poor
+ but
+ at
+ least
+ that's
+
+
+the
+ only
+ way
+ you're
+ going
+ to
+ get
+ out
+</details>
+
+### 乌克兰的抵抗与民族认同的锻造
+
+乌克兰人民在二战初期曾因斯大林强加的饥荒而对德国入侵者抱有复杂态度，认为“再糟糕也比不过过去的苦难”。然而，纳粹的暴行——强迫乌克兰人挖掘万人坑——彻底改变了他们的看法，将德国变成了必须抵抗的敌人。这种因外部极端压迫而激发的强大反抗力量，不仅体现在俄罗斯身上，也正被乌克兰经历。回溯至2014年克里米亚危机前，腐败的乌克兰政府使民众在“乌克兰化”与“俄罗斯化”之间摇摆不定。但时至今日，俄罗斯军队对东部地区民众的毁灭性打击，迫使乌克兰人认识到与俄罗斯“共存”的可能性已不复存在。讽刺的是，**弗拉基米尔·普京**的行动正在无意中锻造出一个前所未有的、坚定的乌克兰民族认同，正如历史上美国独立战争促成了北美十三殖民地的联合国家认同。
+
+<details>
+<summary>Original English</summary>
+
+the
+
+
+ukrainians
+ initially
+ welcomed
+ the
+
+
+Germans
+ why
+ because
+ Stalin
+ and
+ friends
+
+
+had
+ imposed
+ the
+ uh
+ terrible
+ Famine
+ of
+
+
+the
+ early
+
+
+1930s
+ on
+ them
+ and
+ they
+ couldn't
+ imagine
+
+
+that
+ anything
+ would
+ be
+ worse
+ than
+ that
+
+
+until
+ they
+ met
+ Nazis
+ who
+ then
+ had
+ them
+
+
+dig
+ their
+ own
+ Mass
+ Graves
+ the
+ ukrainians
+
+
+rethought
+ that
+ whole
+ thing
+ and
+ if
+ you
+ do
+
+
+this
+ to
+ people
+ you
+ will
+ conjure
+ a
+
+
+formidable
+ enemy
+ so
+ that's
+ what
+ happened
+
+
+to
+ Russia
+ you
+ can
+ see
+ it
+ happening
+ to
+
+
+Ukraine
+ now
+ before
+ your
+ eyes
+ go
+ back
+ uh
+
+
+before
+ the
+ invasion
+ of
+ Crimea
+ in
+ 2014
+
+
+you
+ got
+ Ukraine
+ which
+ has
+ very
+ corrupt
+
+
+government
+ and
+ people
+ were
+ sixes
+ and
+
+
+sevens
+ about
+ whether
+ they
+ want
+ to
+ do
+
+
+Ukrainian
+ things
+ or
+ Russian
+ things
+ okay
+
+
+fast
+ forward
+ to
+ now
+ where
+ you
+ have
+
+
+Russians
+ blowing
+ away
+ the
+ people
+ who
+
+
+were
+ most
+ loyal
+ to
+ them
+ in
+ the
+ eastern
+
+
+part
+ of
+ the
+ country
+ who
+ didn't
+ leave
+
+
+their
+ apartment
+ buildings
+ are
+ being
+
+
+leveled
+ by
+ Russians
+ ukrainians
+ think
+ aha
+
+
+you
+ know
+ this
+ idea
+ that
+ we
+ can
+ coexist
+
+
+with
+ these
+ people
+ is
+ over
+ and
+ and
+ our
+
+
+irony
+ is
+ Putin's
+ forging
+ Ukrainian
+
+
+national
+ identity
+ and
+ Wars
+ often
+ do
+ this
+
+
+in
+ the
+ United
+ States
+ uh
+ we
+ start
+ out
+
+
+with
+ our
+ 13
+ colonies
+ and
+ they're
+ all
+
+
+very
+ different
+ after
+ the
+ Revolutionary
+
+
+War
+ that
+ starts
+ forging
+ a
+ national
+
+
+identity
+ and
+ by
+ the
+ time
+ you
+ get
+ to
+ the
+
+
+end
+ of
+ the
+ Civil
+ War
+ where
+ you
+ have
+
+
+northern
+ armies
+ at
+ least
+ those
+ people
+
+
+have
+ been
+ all
+ over
+ the
+ country
+ they
+ have
+
+
+a
+ real
+ sense
+ of
+ nature
+</details>
+
+### 比较战争策略：“无条件投降”与文化驱动的士气
+
+美国在二战及内战中奉行的“无条件投降”策略，与轴心国在乌克兰或中国提出的极端政策目标存在本质区别——美国并未进行种族灭绝。那么，为何美国的策略未导致其对手国家（如德国、日本）出现与俄国在二战初期类似的崩溃？关键在于，美国并未将对手国的民众置于“死亡地面”。相反，在许多情况下，是对手国的领导层（如**东条英机**）将自身推入了“职业生涯的死亡地面”，因为任何退让都意味着政治生命的终结，甚至可能面临处决。尽管如此，日本民众最终并未感受到“死亡地面”的绝望，其社会结构因战争长期消耗而濒临破碎。美国也从未像俄罗斯屠杀波兰人那样，大规模屠杀德国平民。然而，1945年东京经历的毁灭性火烧（一晚造成8.4万人死亡）等惨剧，为何未能使日本人陷入“死亡地面”的绝境？
+
+<details>
+<summary>Original English</summary>
+
+by
+ the
+ end
+ of
+ that
+ one
+ it's
+ interesting
+
+
+because
+ the
+ strategy
+ we
+ pursued
+ with
+
+
+Germany
+ and
+ Japan
+ was
+ unconditional
+
+
+surrender
+ now
+ do
+ you
+ think
+ of
+ that
+ is
+
+
+different
+ than
+ obviously
+ we
+ didn't
+
+
+commit
+ genocide
+ or
+ anything
+ but
+ you
+
+
+think
+ that
+ is
+ different
+ than
+ the
+ sort
+ of
+
+
+um
+ total
+ unlimited
+ policy
+ objectives
+
+
+that
+ for
+ example
+ Germany
+ had
+ in
+ Ukraine
+
+
+or
+ Japan
+ had
+ in
+ China
+ or
+ we
+ also
+ pursued
+
+
+unconditional
+ surrender
+ against
+ the
+
+
+south
+ in
+ the
+ Civil
+ War
+ right
+ so
+ how
+ do
+
+
+you
+ think
+ about
+ because
+ that's
+ also
+
+
+something
+ where
+ your
+ back
+ is
+ up
+ against
+
+
+the
+ wall
+ why
+ did
+ that
+ not
+ result
+ in
+ the
+
+
+same
+ kind
+ of
+ morale
+ because
+ because
+ the
+
+
+United
+ States
+ did
+ not
+ put
+ the
+ people
+ of
+
+
+these
+ countries
+ on
+ death
+ ground
+ the
+
+
+leadership
+ had
+ self-
+ put
+ themselves
+ on
+
+
+death
+ ground
+ by
+ where
+ the
+ basically
+ the
+
+
+problem
+ for
+ Tojo
+ hiedi
+ is
+ if
+ he
+ backs
+
+
+down
+ on
+ anything
+ he's
+ out
+ of
+ office
+ and
+
+
+then
+ he
+ doesn't
+ know
+ what
+ happens
+ after
+
+
+that
+ so
+ he
+ personally
+ is
+ on
+ Career
+ death
+
+
+ground
+ and
+ possibly
+ he
+ thinks
+ uh
+ well
+ we
+
+
+would
+ we
+ we
+ were
+ planning
+ to
+ that
+ he
+
+
+would
+ get
+ executed
+ at
+ the
+ end
+ of
+ the
+ war
+
+
+but
+ the
+ Japanese
+ people
+ eventually
+
+
+figured
+ out
+ that
+ they
+ weren't
+ on
+ J
+ death
+
+
+ground
+ and
+ in
+ fact
+ the
+ Japanese
+ people
+
+
+were
+ so
+ exhausted
+ by
+ the
+ whole
+ thing
+
+
+that
+ they
+ the
+ society
+ shattered
+ um
+ but
+
+
+the
+ United
+ States
+ was
+ never
+ uh
+ going
+ to
+
+
+put
+ the
+ German
+ people
+ start
+ massacring
+
+
+them
+ in
+ the
+ way
+ that
+ the
+ Russians
+
+
+massacred
+ the
+ poles
+ when
+ they
+ moved
+ in
+
+
+the
+ Germans
+ massacred
+ the
+ poles
+ how
+ do
+
+
+you
+ wind
+ up
+ with
+ eight
+ or
+ nine
+ million
+
+
+polish
+ deaths
+ in
+ World
+ War
+ II
+ think
+
+
+about
+ that's
+ a
+ large
+ number
+ it's
+ because
+
+
+they're
+ massing
+ they're
+ being
+ massed
+ but
+
+
+there
+ was
+ a
+ fire
+ bombing
+ you
+ know
+ Tokyo
+
+
+and
+ Dron
+ and
+ Berlin
+ I
+ think
+ it
+ was
+ in
+
+
+your
+ book
+ that
+ 84,000
+ people
+ died
+ in
+
+
+that
+ one
+ night
+ fire
+ bombing
+ in
+ Tokyo
+
+
+it's
+ terrible
+ why
+ did
+ that
+ not
+ make
+ them
+
+
+put
+ them
+ in
+ the
+ mind
+ frame
+ of
+ a
+ sort
+ of
+
+
+total
+ uh
+ death
+ ground
+ well
+ a
+ I
+ don't
+
+
+know
+ but
+ B
+ Japan
+ had
+ been
+ at
+ War
+ since
+</details>
+
+### 日本的文化、战争疲惫与天皇的角色
+
+日本的战争状态自1931年起就已持续，其军队在中国战场消耗巨大。在二战后期，日本国内已承受了长期战争的重压，经济产值远低于美国，且面临严峻的粮食和资源短缺，社会几近崩溃。尽管如此，日本军队却以极高的士气闻名，拒绝投降。这背后深层原因是日本独特的文化——强调对“内团体”（ingroups）的忠诚与义务，而非西方强调的“自由”和“权利”。士兵们在战场上并非考虑战略，而是对行动单位的成功负有义务。一旦战败，他们将为自己、家庭乃至所属团体带来耻辱，投降意味着彻底的失败。
+
+这种文化背景也体现在内部管理上：日本指挥官曾命令士兵处决受伤同袍，以避免“残疾士兵”回国带来的耻辱。在战争的最后关头，**裕仁天皇**（Emperor Hirohito）介入，打破了内阁的僵局。此前，他因缺乏相关专业知识（其兴趣在于研究后院的鱼类）而未干预日本对外扩张的决策。然而，当面临原子弹威胁时，他挺身而出，避免了可能导致的最大规模的种族清洗。
+
+<details>
+<summary>Original English</summary>
+
+1931
+ in
+ China
+ uh
+ they
+ had
+ been
+ sending
+
+
+large
+ armies
+ this
+
+
+isn't
+ like
+ recent
+ us
+ Wars
+ the
+
+
+counterinsurgencies
+ in
+ Iraq
+ and
+
+
+Afghanistan
+ this
+ is
+ their
+ sending
+
+
+hundreds
+ of
+ of
+ thousands
+ of
+ troops
+ to
+
+
+occupy
+ Manchuria
+ the
+ Chinese
+ don't
+ give
+
+
+up
+ it
+ goes
+ on
+ and
+ on
+ and
+ on
+ so
+ by
+ the
+
+
+time
+ you're
+ getting
+ to
+ 1945
+ it's
+ a
+ long
+
+
+time
+ also
+ they
+ had
+ committed
+ atrocities
+
+
+in
+ China
+ and
+ they
+ knew
+ all
+ about
+ it
+ and
+
+
+the
+ atrocities
+ got
+ even
+ better
+ when
+
+
+there
+ were
+ wounded
+ Japanese
+ soldiers
+
+
+their
+
+
+commanders
+ ordered
+ their
+ fellow
+ soldiers
+
+
+to
+ execute
+ them
+ because
+ they
+ didn't
+ want
+
+
+cripples
+ going
+ home
+ they
+ couldn't
+ deal
+
+
+with
+ them
+ there
+ and
+ so
+ rather
+ than
+ have
+
+
+the
+ pick
+ them
+ up
+ they
+ executed
+ them
+ in
+
+
+place
+ you
+ can
+ you
+ imagine
+ how
+ Japanese
+
+
+soldiers
+ felt
+ about
+ this
+ how
+ do
+ we
+
+
+explain
+ the
+ high
+ morale
+ the
+ famously
+
+
+High
+ morale
+ of
+ the
+ Japanese
+ military
+
+
+where
+ they
+ would
+ refuse
+ to
+ surrender
+
+
+even
+ after
+ given
+ orders
+ by
+ their
+
+
+superiors
+ despite
+ knowing
+ about
+ um
+ these
+
+
+things
+ that
+ you
+ were
+ talking
+ about
+ uh
+
+
+it's
+ true
+ um
+ it's
+ because
+ it's
+ a
+
+
+different
+ culture
+ so
+ in
+ Japanese
+ culture
+
+
+you
+ belong
+ to
+ ingroups
+ or
+ out
+ groups
+ so
+
+
+the
+ biggest
+ ingroup
+ the
+ Japanese
+ belong
+
+
+to
+ was
+ Japanese
+ people
+ and
+ everybody
+
+
+else
+ but
+ within
+ Japan
+ you
+ come
+ from
+ a
+
+
+province
+ a
+ locality
+ Etc
+ you
+ go
+ school
+
+
+education
+ various
+ places
+ you
+ belong
+ to
+ a
+
+
+job
+ wherever
+ you
+ have
+ and
+ there
+ are
+
+
+various
+ units
+ within
+ your
+ job
+ and
+ you
+
+
+owe
+ loyalty
+ it's
+ obligations
+ in
+ the
+ west
+
+
+it's
+ all
+ about
+ Liberties
+ and
+ my
+ rights
+
+
+in
+ the
+ East
+ it's
+ about
+ obligations
+ to
+
+
+other
+ people
+ and
+ so
+ you
+ owe
+ obligations
+
+
+to
+ all
+ of
+ these
+ uh
+
+
+organizations
+ and
+ when
+ they
+ soldiers
+ are
+
+
+thinking
+ about
+ war
+ they're
+ not
+ thinking
+
+
+about
+ Grant
+ strategy
+ they're
+ thinking
+
+
+about
+ operational
+ success
+ so
+ the
+ moment
+
+
+you
+ as
+ a
+ soldier
+ start
+ losing
+ a
+ battle
+
+
+instead
+ of
+ in
+ the
+ west
+ where
+ you
+ can
+
+
+Retreat
+ you
+ can
+ surrender
+ and
+ it's
+ not
+
+
+dishonorable
+ because
+ you're
+ going
+ to
+
+
+live
+ to
+ fight
+ another
+ day
+ in
+ Japan
+
+
+you're
+ a
+ failure
+ and
+ therefore
+ if
+ you
+ go
+
+
+come
+ home
+ back
+ as
+ a
+ failed
+ Soldier
+ you
+
+
+bring
+ dishonor
+ to
+ yourself
+ your
+ family
+
+
+uh
+ your
+ locality
+ anyone
+ you
+ are
+
+
+associated
+ with
+ so
+ that's
+ why
+ it
+ is
+ so
+
+
+difficult
+ to
+ for
+ them
+ to
+ surrender
+
+
+however
+ by
+ the
+ time
+ you
+ get
+ to
+ the
+ end
+
+
+of
+ the
+ war
+ they
+ are
+ so
+ exhausted
+ think
+
+
+about
+ it
+ their
+ economy
+ is
+ I
+ don't
+ know
+ I
+
+
+can't
+ remember
+ the
+ statistics
+ exactly
+
+
+something
+ like
+ a
+ tenth
+ of
+ our
+ economy
+
+
+they
+ have
+ something
+ like
+ a
+ 13th
+ of
+ our
+ I
+
+
+can't
+ remember
+ was
+ coal
+ or
+ steel
+
+
+production
+ and
+ they
+ don't
+ have
+ any
+ um
+
+
+local
+ oil
+ production
+ uh
+ they're
+
+
+importers
+ of
+ food
+ and
+ they're
+ not
+
+
+getting
+ that
+ food
+ so
+ by
+ the
+ time
+ you
+ get
+
+
+to
+ 45
+ they're
+
+
+exhausted
+ and
+ it's
+ um
+ it's
+ a
+ shattering
+
+
+that
+ occurs
+ and
+ um
+ finally
+ at
+ the
+ very
+
+
+end
+ you
+ have
+ emperor
+ hero
+ who
+ knew
+ full
+
+
+well
+ earlier
+ if
+ he
+ disagreed
+ and
+ he
+
+
+didn't
+ disagree
+ for
+ a
+ long
+ time
+ that
+ he
+
+
+would
+ be
+ assassinated
+ or
+ be
+ proclaimed
+
+
+deranged
+ and
+ he
+ had
+ a
+ perfectly
+ good
+
+
+underage
+ son
+ to
+ be
+ used
+ as
+ a
+ figure
+ head
+
+
+he
+ knew
+ that
+ he
+ couldn't
+ do
+ much
+ about
+
+
+it
+ uh
+ at
+ the
+ very
+ end
+ when
+ he
+ decided
+ he
+
+
+was
+ about
+ to
+ get
+
+
+nuked
+ that's
+ when
+ he
+ intervenes
+ to
+ break
+
+
+the
+ deadlock
+ and
+ at
+ the
+ cabinet
+ meetings
+
+
+and
+ there
+ are
+ a
+ variety
+ of
+ people
+ at
+ the
+
+
+very
+ top
+ who
+ realizes
+ it's
+ over
+ could
+
+
+heroo
+ have
+ intervened
+ earlier
+ I
+ doubt
+ it
+</details>
+
+### 日本的扩张主义与中国的民族觉醒
+
+日本曾以为其极度残暴的侵华政策能助其征服“落后”的中国，却未料到正是这种极端暴行，最终促使中国人民团结起来，将日本人视为共同的敌人，从而成为中华民族崛起的强大动力。这种侵略行为最终适得其反。当前，**普京**在乌克兰的行动也存在类似的讽刺效果，他正在“加冕”**泽连斯基**，并为乌克兰锻造出一种前所未有的、坚强的国家认同，永不会忘记当下事件。
+
+<details>
+<summary>Original English</summary>
+
+let's
+ go
+ back
+ more
+ than
+ five
+ years
+ if
+ he
+
+
+intervenes
+ um
+ when
+ Japan
+ is
+
+
+overextending
+ in
+ China
+ is
+ there
+ any
+
+
+chance
+ that
+ he
+ could
+ have
+ succeeded
+ I
+
+
+doubt
+ he
+ uh
+ thought
+ of
+ Japan
+
+
+overextending
+ in
+ China
+ what
+ expertise
+
+
+does
+ he
+ have
+ he
+ liked
+ Guppies
+ he
+ likes
+
+
+studying
+ fish
+ in
+ his
+
+
+backyard
+ he
+ has
+ no
+ expertise
+ and
+ then
+ of
+
+
+course
+ there's
+ the
+ Hubers
+ of
+ it
+ all
+ that
+
+
+we're
+ going
+ to
+ dominate
+ this
+ place
+ and
+
+
+they
+ look
+ at
+ the
+ Chinese
+ as
+ an
+
+
+absolutely
+ feckless
+ backward
+ place
+
+
+that's
+ had
+ all
+ these
+ warlord
+ things
+
+
+going
+ on
+ and
+ it
+ doesn't
+ Dawn
+ on
+ them
+
+
+that
+ by
+ their
+ extreme
+ brutality
+ in
+ China
+
+
+the
+ Chinese
+ finally
+ get
+ it
+ going
+ uh
+
+
+we're
+ not
+ the
+ problem
+ the
+ Japanese
+ are
+
+
+the
+ problem
+ and
+ it
+ is
+ uh
+ what
+ the
+
+
+Japanese
+ do
+ that
+ superlu
+ China
+ and
+ is
+
+
+the
+ great
+ impetus
+ to
+ n
+ nation
+ building
+
+
+you
+ can
+ see
+ parallels
+ with
+ Hitler
+ doing
+
+
+the
+ same
+ thing
+ in
+ Russia
+ and
+ and
+ also
+
+
+right
+ now
+ um
+ uh
+ Putin's
+ busy
+ canonizing
+
+
+uh
+ zalinski
+ and
+ uh
+ creating
+ a
+ real
+
+
+Nation
+ out
+ of
+ Ukraine
+ that's
+ never
+ going
+
+
+to
+ forget
+ these
+ ongoing
+ events
+ yeah
+ well
+</details>
+
+### 反事实设想：日本联合国民党对抗共产主义的可能
+
+从您著作中受到的一个深刻且略带悲剧色彩的启示是，日本本可以采取一种“大陆强权”的战略思维，联合中国的**国民党**，共同对抗俄国的**共产主义**势力。这种三线作战（德国、国民党、日本）的策略，或许能阻止共产主义在中国和俄罗斯的崛起。考虑到共产主义在两国造成的巨大生命损失，若能实现这一目标，将挽救无数生命。然而，日本最终选择了与德国结盟，这一决策在如今看来，若采取了另一条路径，例如与国民党合作，则可能意味着**希特勒**的永恒统治，并可能导致欧洲发生历史上最浩大的种族清洗。
+
+<details>
+<summary>Original English</summary>
+
+what
+ I
+ learned
+ from
+ your
+ book
+ that
+ I
+
+
+thought
+ was
+ really
+ interesting
+ and
+ also
+
+
+tragic
+ because
+ of
+ the
+ counterfactual
+ was
+
+
+one
+ of
+ the
+ strategies
+ you
+ suggested
+ what
+
+
+could
+ have
+ been
+ that
+ Japan
+ could
+ have
+ if
+
+
+it
+ thought
+ like
+ a
+ continental
+ power
+ it
+
+
+could
+ have
+ allied
+ with
+ the
+ Nationalist
+
+
+to
+ beat
+ the
+ Communist
+ in
+ Russia
+ maybe
+
+
+waged
+ almost
+ a
+ three-
+ front
+ war
+ with
+
+
+Germany
+ the
+ Nationalist
+ and
+ Japan
+ beat
+
+
+the
+ Communist
+ and
+ prevented
+ the
+
+
+Communists
+ from
+ taking
+ hold
+ in
+ China
+ and
+
+
+given
+ the
+ consequences
+ of
+ Communism
+ in
+
+
+Russia
+ and
+ China
+ and
+ how
+ many
+ lives
+
+
+could
+ have
+ been
+ saved
+ if
+ you
+ know
+ I
+
+
+guess
+ Hitler
+ was
+ beaten
+ and
+ the
+
+
+Communists
+ are
+ beaten
+ that
+ Japanese
+
+
+choice
+ just
+ seems
+ so
+ tragic
+ let's
+ say
+
+
+they
+ do
+ it
+ uh
+ that
+ means
+ Hitler
+ forever
+
+
+and
+ that
+ means
+ if
+ you're
+ anything
+ but
+ a
+
+
+nice
+
+
+Aran
+ uh
+ your
+ days
+ are
+ numbered
+ certainly
+
+
+it
+ would
+ be
+ the
+ have
+ been
+ the
+ most
+
+
+massive
+ ethnic
+ cleanse
+ ever
+ in
+
+
+Europe
+</details>
