@@ -1,53 +1,67 @@
 ---
-area: "geopolitics"
-category: geopolitics
-companies:
-- intellectual-responsibility
-companies_orgs:
-- 中央电视台
+author: 柴静 Chai Jing
 date: '2024-07-20'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-media_books:
-- 《张居正》
-- 《水流云在》
-- 《废墟夕阳》
-people:
-- 柴静
-products_models: []
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=_VrA94WCsx0
 speaker: 柴静 Chai Jing
-status: evergreen
-summary: 资深媒体人柴静就“六四告密案”采访作家熊召政，试图了解其在野夫因该案入狱事件中的角色。面对柴静对历史真相、个人形象和知识分子责任的追问，熊召政选择沉默，称时机未到，历史终将还原真相。柴静强调了其回应的重要性，以避免被视为告密者形象，并引用其他知识分子晚年反思的案例，呼吁其为历史和自我作出解释。
 tags:
-- historical
-- history
-- informant-case
-- political-persecution
-title: 柴静访熊召政：六四告密案、历史真相与知识分子的沉默
+  - historical-truth
+  - memory
+  - informant-accusation
+  - intellectual-responsibility
+title: 柴静访熊召政：谈“六四”往事与告密者争议
+summary: 记者柴静联系熊召政，希望就“六四”期间一段涉及“野夫”的往事进行采访，特别是关于“告密者”的指控。熊召政始终不愿多谈，表示历史自有真相，也不想辩解。柴静通过引用他人的经历，并提及过往承诺，试图鼓励他表达，以更客观地面对历史。
+insight: ''
+draft: true
+series: ''
+category: politics-society
+area: society-thinking
+project: []
+people:
+  - 柴静
+  - 熊召政
+  - 野夫
+companies_orgs:
+  - 海外民阵
+products_models: []
+media_books: []
+status: evergreen
 ---
-### 开场与采访缘由
+### 访谈开端与背景介绍
 
-资深媒体人柴静在一次电话采访中，向熊召政先生表明身份，并告知其正在制作一期关于野夫的独立采访节目。柴静指出，野夫在采访中谈及了**六四事件**（1989年春夏之交发生在中国北京的民主运动）期间与熊先生的一段往事。为了能够准确和公正地呈现这件事情，柴静希望熊先生能够对此事发表看法。
+**柴静**: Hello, is this Mr. Xiong Zhaozheng? Mr. Xiong Zhaozheng? Hello, I am **柴静**. Yes, I used to be a reporter at the **中央电视台**. Now I am doing an independent interview show. 然后这个星期呢,我要播出一期对于**野夫**的采访他谈到了在**六四**期间跟您的一段往事所以出于我希望能够准确和公正的来呈现这件事情所以我想给您打个电话看看您是否能够谈一谈
 
-### 熊召政的沉默与柴静的劝说
+### 熊召政的回应与顾虑
 
-熊召政先生回应称，他一直不愿谈论此事，认为历史真相总有一天会大白于天下，而过去该说的他都已说过，现在三十多年过去，他也不想再说太多。柴静追问，熊先生曾表示想找一个恰当的时机谈论，且今年已七十岁，是否现在可能是一个开诚布公讲述此事的时机。熊先生再次表示，现在还不是合适的时机，并认为一个人不应为那一点事情一直纠结输赢，人生也不值得用这种方式去回忆，因为历史的真相总会有一天还原。
+**熊召政**: 哎呀 我一直不想談這件事情因為歷史總會有一天會得相出來以前該說的我都說過了 但我也不想說太多 因為現在已經三十多年過去了 對吧您一直說找一個恰當的時間想談一談您今年也七十歲了所以我想知道說會不會有現在有可能是一個時機你們能夠開聲不公的講一講這件事呢
 
-柴静指出，熊先生与野夫曾是同学、兄弟和朋友，野夫也一直非常尊重熊先生。然而，野夫确实因此事入狱并牺牲了自由，在生活中遭受了巨大的创伤，因此他认为自己值得一个真相。熊先生再次以身处乡村道路、信号可能随时中断为由，表示不愿谈论此事。柴静强调，她非常尊重熊先生，也拜读过其作品，尤其是在创作**《张居正》**（一部关于明朝改革家张居正的历史小说）时的心理感受，她多少有所了解，认为熊先生也是一个在意声誉的人。柴静表示，不希望以目前这种状况呈现：如果野夫的陈述得不到熊先生的回应或反驳，那么熊先生的个人形象就有可能被视为**告密者**（指秘密告发他人罪行的人），甚至是陷害者。柴静认为，这并非一个人或一个知识分子希望留在历史上的形象，因此希望给予熊先生表达的机会。
+**熊召政**: 我還是覺得現在還不是強的時候那什麼時候您覺得合適呢?我還是覺得因為一個人就那一點事情要一直扛延的就不想去輸贏 人生也不需要也不值得用這種方式去回憶因為有歷史的真相它總會有一天還原的
 
-### 核心疑问：告密者之谜
+### 柴静的切入与尊重
 
-熊先生回应称，究竟谁是告密者，他现在不想讲，他也不是，也不需要辩解什么。柴静进一步解释了野夫的困惑：当年他应熊先生的要求到广州递送这份文件，熊先生告诉他文件已被**海外民阵**（指流亡海外的中国民主运动组织）的人拿走。然而，后来检察院提出的诉讼中，既没有熊先生的名字，也没有海外民阵人员的名字，且文件也都在。因此，野夫对此感到非常迷惑，其心情是可以理解的。柴静直言不讳地问道：“为什么您没有入罪，而他服了牢狱之灾？”
+**柴静**: Yes, Mr. Xu, you and your father were also classmates, brothers, and friends. He also respected you very much. He was indeed imprisoned and self-sacrificed for this matter. He suffered a lot of trauma in life, so he thinks he is worth a truth. Ah, this...
 
-### 知识分子的历史责任与晚年反思
+**柴静**: 慢慢的 因為你才好怕因為我現在在這個鄉村路上走可能幸好隨時就會斷掉因為我也不想去談這些事情熊先生 我是很尊重您的我也看過您的作品我也知道就是在**张居正**这个作品写作当中您的心理的感受我也多多少少有所瞭解我覺得您也是在意深厚明的 我也不希望以目前这种,因为如果以野夫的这段陈述,您不予回应或者是反驳的话,那么呈现出来的个人形象就有可能会是一个**告密者**,甚至是**陷害者**。我不认为这是一个人或者一个知识分子希望留在历史上的形象,所以我希望给您机会表达。
 
-柴静再次尝试沟通，询问熊先生是否仍在忙碌，并表示如果他不想谈，可以直接告知，她会尊重其意愿。她认为熊先生心中可能仍有思量，并提及自己曾读过熊先生的诗词文章，深知他拥有许多中国知识分子所不具备的古典修养和一份傲气。柴静表示，回到那个历史年代，每个人或许都有解释的理由，也可能获得理解。如果熊先生能开口，无论是对当年的朋友，还是对自己，或许都是一种交代。她注意到熊先生虽然保持沉默但并未挂断电话，于是继续说道：**英若诚**（著名表演艺术家、翻译家，曾任文化部副部长）晚年撰写了**《水流云在》**（英若诚的口述自传），**冯亦代**（著名翻译家、散文家）晚年也写下了**《废墟夕阳》**（冯亦代的晚年回忆录）。她认为，知识分子心中若有未尽之言，终究会希望向历史、向自己、向朋友作出解释，因为历史复杂，人性深邃。因此，她希望在未来人们评价熊先生时，能有一个他本人陈述的角度，让其家人后辈和未来一代人能更客观地看待这段历史。
+### 熊召政的简短否认
 
-### 沉默的代价与最终的等待
+**熊召政**: 究竟誰是下函者告密者現在我認為至少我不想講這些因為我不是 我也不需要辯解什麼
 
-柴静提醒熊先生，从1990年至今，他曾多次承诺会给野夫一个解释，甚至说过会在刘主席等同学面前向野夫道歉，讲述这段往事。她因此认为熊先生内心可能一直有澄清的愿望。然而，如果他持续保持沉默和回避，相信他心中也承受着沉重的负担，那种负担绝不好受。柴静引用冯亦代晚年无法安睡的例子，以及英若诚在医院时向其女儿倾诉，认为身边每个人都是告密者、间谍，过得非常不舒坦的经历，来进一步说明这种内心负担。她再次向熊先生表示，如果他有想说的话，她愿意倾听和理解。柴静感知到熊先生仍在电话的另一端，并未挂断，但她不希望这次电话记录成为他面对历史的最终态度。她表示会一直等待下去，直到熊先生开口说话，或者挂断电话。
+### 柴静阐述野夫的困惑
+
+**柴静**: 他可能比较不能够理解的是说,当年他应您的要求到广州去送这份文件,您告诉他**海外民阵**的人拿走了,但后来检察院提出的这个诉讼当中没有您的名字,也没有海外民阵的人的名字,文件也都在,所以他有很多的迷惑,这个我想心情是可以理解的,对吧?就是为什么您没有入罪,而他服了牢狱之灾。
+
+### 柴静的持续沟通与观察
+
+**柴静**: Mr. Xiu, are you still busy? Mr. Xiu Mr. Xiu, it's okay. If you don't want to talk, you can tell me. I will respect your wishes.
+
+**柴静**: 在我的心中,我认为您可能还是有思量。我看过您的诗词和文章,您也有很多中国知识分子其实没有的古典的修养。 I think you have a sense of pride. So, back to that historical era, everyone may have a reason to explain, and may also understand. If you can say it, I think whether it's to your friends back then, or to yourself, maybe it's all a kind of show. Don't you think so?
+
+**柴静**: You remain silent, but you didn't hang up my phone. Then let me say a few more words. When **英若诚** was in the late years, he wrote "The Clouds of Water and the Clouds of Clouds". When **冯亦代** was in the late years, he wrote "The Sunset of the Ruins". When intellectuals have something in their hearts, they still want to explain to history, to themselves, to their friends. Because history is very complicated, and humanity is also very deep.
+
+**柴静**: 所以我想 就是如果说未来人们评价您的时候,我希望能够有一个您陈述的角度,将您自己的家人后辈,未来的那一代人,可以更客观地来看这段历史。 你想想 從1990 Until now, you have promised Yefu to give him an explanation. You can sit down and talk. You even said that you would apologize to him in front of **President Liu** and other classmates and tell them about this past. So I always feel that you may have this desire to clear the land. But if you keep silent like this, that is, keep avoiding it, I believe you also have a heavy burden in your heart.
+
+**柴静**: 对了,我不觉得那种负担是好受的。我看到冯亦代说他晚年的时候,他就是没有办法睡着觉。我看到阴若诚晚年在医院的时候,他跟阴大说,他认为他身边的每一个人都是告密者,都是间谍。他过得很不舒坦。
+
+**柴静**: So if you had to say something that you wanted to say, I would like to tell you that I am listening. I am willing to understand. Would you like to say it? I know you are still here. You didn't hang up on me. You may still be here. 但是我不希望这个电话的记录成为你面对这个历史的最终态度。 我會一直等下去等到要么您說話要么您把這個電話掛斷
