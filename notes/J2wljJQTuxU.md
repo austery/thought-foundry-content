@@ -1,53 +1,40 @@
 ---
-area: "life-family"
-category: career
-companies_orgs: []
-date: '2025-11-15'
-draft: true
+author: Peter Pang
+date: '2025-10-12'
 guest: ''
-insight: ''
 layout: post.njk
-media_books:
-- 《十月新娘》
-products_models: []
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=J2wljJQTuxU
 speaker: Peter Pang
-status: evergreen
-summary: 这篇文章深入探讨了职场人士在简历撰写和职业发展中面临的挑战。针对“工作经验多反而不知如何写简历”的问题，提出了将个人项目、比赛获奖等非传统经历纳入简历的策略，并强调简历内容应以吸引面试官兴趣为核心。同时，文章也回应了职场年龄焦虑，鼓励持续学习新技能（如C#），拓宽职业道路，并调整心态，认识到职业生涯的漫长与多样性。
 tags:
-- career
-- lifelong-learning
-- optimization
-- personal
-- skill
-title: 工作经验丰富反而不会写简历？资深编辑教你优化简历与应对职场焦虑
+  - resume-writing
+  - personal-projects
+  - age-anxiety
+  - continuous-learning
+  - career-advice
+title: 简历项目与年龄焦虑：一次深入的职业发展对话
+summary: 本次访谈聚焦简历撰写策略，包括个人项目的重要性及与工作经历的权衡，并深入探讨了年龄带来的职业焦虑。专家建议以吸引面试官为导向调整简历，强调个人项目和比赛获奖可与学历并列，并鼓励以积极心态拥抱职业生涯，将年龄视为持续学习和拓宽知识面的机会，而非限制。
+insight: ''
+draft: true
+series: ''
+category: career-development
+area: work-career
+project: []
+people: []
+companies_orgs: []
+products_models: []
+media_books: []
+status: evergreen
 ---
-### 简历中个人项目的价值与取舍
+### 项目经验与简历吸引力
 
-关于简历中是否可以写个人项目的问题，答案是肯定的，为什么不可以呢？简历本身并非一个定稿，其内容只有一个目的，那就是让面试官感兴趣。因此，在某种程度上，你仍然需要针对不同的职位进行调整。但如果从一个宏观角度来看，简历是展示你自己的工具。
+**提问者**: Can I write my own project in the resume? Because I didn't have any projects before. It feels like I don't have any attractiveness or place to be promoted.
 
-我们可以先设定一个限制，比如两页纸的篇幅。在这个有限的空间内，简历的撰写就成了一个零和游戏：有你没我。这意味着你必须将所有能展示自己的内容摆上台面，然后进行筛选。一样样地放进去，直到空间所剩无几，这时就要看哪一项内容更具吸引力，就优先放入，剩下的则淘汰掉。
+**专家**: Yes, why not? As I mentioned earlier, it's not a fixed thing. The content you express has only one purpose: to make the **interviewer** interested. So, to some extent, you still need to adjust each one. But if you don't consider such detailed operations, from a macro perspective, it's a way to showcase yourself. For example, let's set a limit, say **two pages**. Within the scope of two pages, it's a **zero-sum game**. If you have it, I don't. So, everything is put on the table. One goes in, the second goes in, the third goes in, and finally, there's not much space left. Who is more attractive than whom? Then put them in first, and discard the rest. So it's not that your **work experience** must be prioritized over your **personal projects**, or your **education** must be prioritized over a small **competition** you won. I think that education is quite embarrassing. I'd rather put my award from that competition. Or if you have education, try to write it a bit shorter to leave space for the award. Because for general interviewers, there isn't much difference between schools, unless there's a big difference in ranking. For ordinary schools, is there a difference between being ranked 123rd, 125th, or 118th nationally? No difference. No one even cares about this point. But I know some people directly look at the school, directly look at the beginning. If you have a connection, or something else, or a common topic, right? You have a topic. See, I'll go back to this. You need to pique their interest. You need a topic. Look at those resume templates, except for the name, there's really nothing else that's necessary. Make it two pages. One page is too ridiculous. Really. You can put out the two-page paper you have experienced and then cut it out. You can put out more than two pages of paper. You can sleep well. It's impossible not to have enough.
 
-所以，并非你的工作经历就一定要优先于个人项目，或者学历就一定要优先于某个小型比赛的获奖。如果你觉得学历背景不那么突出，甚至有些“丢人”，完全可以把比赛获奖经历放上去，或者尽量缩短学历描述，把空间留给更有价值的获奖经历。因为对于一般的面试官来说，学校之间并没有很大的区别，除非是等级上存在巨大的差异。一般的学校，它的全国排名是123、125还是118，有区别吗？没有。甚至很少有人会关心这一点。当然，我也知道有些面试官会直接看学校，看前面那个地方是否有老乡或某种渊源，以便有个话题。但你看，我还是回到这个点：你要让对方提起兴趣，想要有个话题。除了名字之外，那些面试简历的模板上，真的没有任何东西是“必要”的。你先弄成两页纸，一页纸真的太离谱了。你可以把所有经历都写出来，超过两页也没关系，然后进行删减。你会有很多内容可以写，不可能不够。
+### 年龄焦虑与职业心态
 
-### 职场年龄焦虑与应对策略
+**提问者**: The last question is about age. Considering that I am now really old, I feel I'm getting a bit old. When facing younger colleagues, I also sigh. At the age of 29 or 28, the future seems a bit confusing. Should I continue to compete? I'm still quite interested in this. If I'm not interested at the moment, that's fine. I'm waiting for that sentence. That sentence is not about pushing. In this case, I'm quite interested. In the past two months before the new year, I've also encountered some things I like, for example, graphics, wishing... these things I find interesting. Regarding languages, like the video you posted a couple of days ago or today, saying language isn't that important. I feel the same way. I've seen it, and it's opened up a perspective for me. I also think C# is not bad and feels more comfortable to write than Go. But the premise is that it can't be too pushy for me. Because I feel quite anxious right now, and sometimes it's hard to shake that feeling after work. But this anxiety and this technology are two different things, they just happened to overlap. Your anxiety is not caused by it; your anxiety is a matter of emotional level. Another point is the one brought by age, the age aspect. I didn't have a good grasp of it after graduation. It's like wasting or wasting. So now technology is not compatible with the year line. So I'm a little anxious. Think like this. No one says how many experiences you need at a certain age. This is the first one.
 
-最后一个问题是关于年龄。考虑到现在感觉自己确实有些大了，面对一些年轻同事时也会感慨。在28、29岁这个年纪，未来确实会有些迷茫，不知道是继续“**卷**”（指在竞争激烈的环境中，过度投入精力进行内耗式竞争）下去，还是寻求其他发展。
+**专家**: You haven't reached a certain level. In fact, as you mentioned about Xisha, that's a good mindset. From the perspective of a social person, your **career** has just begun, okay? You're still far from retirement. So in such a long timeline, you can't just stick to one thing and work on Go for a lifetime. Yes. In this situation, it's better to start early to contact more technologies and enrich your **knowledge**. In a sense, it gives you more options. Including, you think about applying for jobs, you can only apply for Go positions. The Go circle is not small, but looking at the whole big picture, it's actually a very small piece. It's a good opportunity to **learn something new**. Why shouldn't I do it? If I don't have this opportunity at work, I would have to spend my spare time, or even spend my own money, to do a personal project to practice this skill. Now I have an opportunity to learn and practice this new skill while being paid. This is like going back to school, but without paying tuition, and even getting a subsidy. In the process of accumulating your career, your strength doesn't grow linearly. It's really compressed. When your ten years of life are squeezed into two pages, many subtle one or two months may be directly ignored. They can no longer occupy any space on the resume. It's not that every minute, every day, every week, every month, you have to achieve something that makes you proud for your next interview or job application. Some days will be ignored by time. As you said, my career has just started. This is just the beginning. Unless you think about it now, some years may be particularly valuable, and some years may be worthless. I'm also... I'm counting it as 12 years now. There are some... There's a whole year of... If you look at my previous video "The Bride of October," I talked about my own... The most final... I talked about this in 4 minutes. I erased that entire year from my life. The only thing I've left is to harshly scold the person who was parachuted in at that time in this video. I haven't let him leave any trace on my resume. I think your main issue now is a mindset issue. First, get the mindset right. I think you're a bit too concerned about past details. As I said, consider these things yourself.
 
-如果你当下对某些领域仍然感兴趣，那就足够了。我等的就是这句话：不是被强迫，而是你仍然感兴趣。我最近在一两年前也接触过一些自己喜欢的东西，比如**Rust**（一种系统编程语言，以其内存安全和并发性著称）、图形渲染这些，都觉得挺有意思的。我对编程语言的看法也和您前两天发的视频一样，认为语言本身没那么重要。对此我深有同感，它也给我打开了一个思路。我也觉得**C#**（一种由微软开发的面向对象的编程语言，广泛应用于Windows桌面应用、游戏开发和Web服务）也未尝不可，而且写起来感觉比**Java**（一种广泛使用的面向对象编程语言，以其“一次编写，到处运行”的特性闻名）要舒服一点。但前提是不能给我太大的压力，因为我现在觉得挺焦虑的，有时候下班后也很难摆脱那种心情。
-
-然而，这种焦虑与技术本身是两回事，只不过刚好叠加在一起了。你的焦虑并非技术带来的，而是一个更深层次的心态问题，其中也包括年龄带来的焦虑。毕业后，我没有很好地把握住时间，感觉有些虚度，所以现在技术能力与年龄不匹配，因此有些焦虑。
-
-### 职业生涯的漫长与多样性
-
-其实，你可以这样想：没有人规定你在某个年龄需要有多少经验。这是第一点。你刚才提到C#的心态就很好。从一个社会人的角度来说，你的职业生涯才刚刚开始，离退休还很远。在这么长的时间里，你不可能只做一样东西，一辈子死守着Java。在这种情况下，你早点接触更多技术，让自己的知识面丰富起来，某种程度上来说，是给自己多了一条路。
-
-甚至包括你现在觉得投简历只能投Java相关的职位。Java圈子不小，但从整个大的职业市场来看，它其实是很小的一片。如果刚好有一个带薪学习的机会，我为什么不做呢？如果我工作里面没有这个机会，我反而还得花自己的业余时间，甚至可能要自己掏钱去做一个个人项目来练习这个技能。现在我有一个带薪的、可以一边学一边练新技能的机会，这简直就像是回去上课，而且不用交学费，还有补贴。
-
-在不断积累职业生涯的过程中，你的简历并非一直无限增长。当你十年的人生被压缩到两页纸里面时，很多细微的一两个月的时间可能就已经被直接忽略掉了，它已经没有办法在简历里面占据什么空间了。并非每一分钟、每一天、每一个星期、每一个月都要做出一些可以让你在下一次面试或投简历时可以很自豪的东西。有些日子会被时间忽略。
-
-正如你所说，我的职业生涯才刚刚开始，这只是个开端。除非你现在就认为，有些年份可能特别有价值，有些年份可能一文不值。我现在也算了一下，大概有12年了。其中有一整年的时间，如果你看过我之前的视频《十月新娘》，我提到了我人生中最彻底的……我在4分钟内讲完了这件事。那一整年我直接从我的人生中抹去了。我现在唯一给他留下的，就是在那个视频里我狠狠地又骂了一下当年空降的那个人。我没有让他在我的简历里面留下任何痕迹。
-
-我觉得你现在主要是一个心态问题，你先找对心态。我觉得你可能稍微有点太在意那些过去的细节了。刚才说的这些你自己考虑一下。我感觉还是有些没自信吧。如果没自信的话，那就再积累吧。因为你现在不是55岁，也不是58岁，你现在还没有到没有办法的时候，你现在办法多的是。你这么想，比如说我之前接触好多那些博士，在你这个年龄的时候都还没有出校园，就一头蒙圈。谢谢，感谢。
+**提问者**: I feel I'm still a bit lacking in confidence, perhaps I need to accumulate more. Because you're not 55 or 58 yet. You haven't reached a point where there are no options. You still have plenty of options. Think about it this way: for example, I've met many PhDs who, at your age, haven't even left campus and are completely bewildered. Thank you, thank you. OK OK, thank you.
