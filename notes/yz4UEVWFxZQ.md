@@ -1,54 +1,58 @@
 ---
-area: "finance-wealth"
-category: business
-companies_orgs:
-- OpenAI
-- Google
-- Meta
-- Alibaba
-- DeepSeek
-- Anthropic
-date: '2025-11-15'
-draft: true
+author: 金融汪
+date: '2025-11-05'
 guest: ''
-insight: ''
 layout: post.njk
-people:
-- Sam Altman
-products_models:
-- Gemini
-- Qwen
-- Claude
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=yz4UEVWFxZQ
 speaker: 金融汪
-status: evergreen
-summary: 尽管OpenAI曾在大模型领域占据领先地位，但当前正面临来自谷歌Gemini、Meta开源AI、DeepSeek和阿里千问等竞争对手的严峻商业挑战。这些竞争者以极低的成本甚至免费提供高性能服务，并能通过现有云服务或庞大用户群实现盈利，从而侵蚀OpenAI的定价权和市场份额。文章分析了OpenAI在API服务、代码生成和消费级市场等方面的劣势，指出其盈利模式受到冲击，未来突破路径不明朗。
 tags:
-- ai-competition
-- business-model-challenge
-- large-language-model
-- market
-- open-source-ai
-title: 大模型竞争白热化：OpenAI商业模式面临严峻挑战
+  - large-model-competition
+  - ai-business-models
+  - open-source-ai
+  - pricing-strategy
+  - cloud-services
+title: 大模型竞争格局：OpenAI 的商业困境与开源冲击
+summary: 本次访谈深入剖析了当前大语言模型市场的竞争态势，重点关注 OpenAI 面临的商业化挑战。内容指出，尽管 OpenAI 曾占据领先地位，但谷歌 Gemini、Meta 的开源策略以及深鉴科技（DeepSeek）、阿里千问（Qwen）等国内外竞争对手的快速崛起，正严重挤压其盈利空间。文章强调，云服务等成熟的商业模式成为主要收入来源，而 AI 模型本身盈利困难，开源模型的低成本和高性能进一步加剧了这一困境，预示着 OpenAI 的未来充满危险。
+insight: ''
+draft: true
+series: ''
+category: ai-ml
+area: tech-engineering
+project: []
+people: []
+companies_orgs:
+  - OpenAI
+  - Google
+  - Meta
+  - Alibaba
+  - DeepSeek
+products_models:
+  - Gemini
+  - GPT series
+  - Qwen
+  - DeepSeek
+  - Cloudy
+media_books: []
+status: evergreen
 ---
-### OpenAI的领先优势不再明显
+### 大模型竞争的失速与盈利困境
 
-当前，**大模型**（Large Model: 指参数量巨大、拥有强大理解和生成能力的人工智能模型）的竞争优势已不再明显。尽管OpenAI曾领先两到三年，但市场很快发现，其他竞争者在各个领域都取得了快速进展。
+当前，大模型的竞争能力已不再是压倒性优势。OpenAI 曾在此领域领先两到三年，然而，市场迅速发现，**谷歌 Gemini** (Gmini) 的出现及其每月数十万美元的营收和极快的响应速度，展现了AI应用在核心领域的巨大吸引力，其表现超越了传统的“熵”（此处可能为语音识别错误，意指特定衡量标准或领域）。但这并非最致命的挑战。
 
-### 谷歌Gemini与开源模型的冲击
+### 开源模型的冲击与商业模式的重塑
 
-例如，谷歌的**Gemini**（谷歌开发的多模态大模型）推出后，其运行速度极快，每月成本仅需几十万美元。Gemini在核心应用领域的成功，使其更具吸引力。然而，这并非OpenAI面临的最致命问题。最致命的是，OpenAI的模型推出后，我原以为它能继续保持一段时间的领先，但现在看来，它甚至可能不如**DeepSeek**（一家中国人工智能公司开发的大模型）。在中国公司入局后，OpenAI的盈利模式已受到多家公司的严峻挑战。
+真正构成致命威胁的是，自从 OpenAI 模型发布以来，虽然其曾被预期能长期领先，甚至超越 **DeepSeek** (DeepC) 等竞争对手，但中国公司的崛起，如 **Alibaba Qwen** (Ali千文)，极大地挑战了其盈利模式。若非这些竞争者（文中提及的 DPC 可能指代特定力量或策略）未能有效进入中国市场，OpenAI 或许还能维持高价策略。然而，开源模型的崛起彻底改变了游戏规则。开源方案的成本极低，性能却能与闭源模型媲美，导致所有大模型都面临盈利困难。即使是某些能赚钱的竞争对手，OpenAI 本身也陷入了盈利的泥沼。
 
-如果DeepSeek等中国公司没有进入市场，OpenAI或许还能维持较高的定价。但随着这些公司，特别是**开源**（Open Source: 指源代码可被公众自由使用、修改和分发的软件）模型的出现，其成本极低，而性能与OpenAI的差距却微乎其微。因此，你会发现所有大模型都很难盈利。甚至OpenAI的竞争对手能够赚钱，但OpenAI自己却难以实现盈利。
+### API 服务与生态盈利的差异化
 
-### 竞争对手的盈利策略与OpenAI的困境
+以提供模型 API 服务为例，市场普遍认为 **DeepSeek** (Dbc) 在此方面表现更优。在代码生成领域，**Cloudy**（此为直译，可能为语音识别错误或特定产品）也被广泛采用。模型通信和调用能力，在“这个解免来上来以后，几乎都免费的”这一趋势下，变得触手可及，使用成本极低。那么 **Gemini** (Jimny) 的优势何在？谷歌通过 Gemini API 提供了免费服务，这是一种能够通过搜索自身云服务实现的服务，对用户而言是免费的。
 
-例如，在提供**API服务**（Application Programming Interface: 允许不同软件应用相互通信的接口）方面，大家会发现DeepSeek的表现更优。在代码生成领域，大家普遍倾向于使用**Claude**（Anthropic公司开发的一系列大型语言模型，尤其擅长处理长文本和代码）。此外，在模型交互和使用能力方面，谷歌的Gemini API几乎是免费的。谷歌通过其**云服务**（Cloud Service: 通过互联网提供计算资源和数据存储的服务）为用户提供免费的Gemini API，从而实现其自身的服务整合和推广。
+### Meta 的用户导向策略与云服务的商业基石
 
-Meta的情况也类似。即使是其AI产品，也无需直接收费，因为它采取开源策略，免费提供。Meta能够利用其AI连接庞大的用户群，通过用户互动来改变其生态环境，从而间接实现价值。换言之，在所有这些商业模式中，云服务提供商和硬件制造商都在赚钱，谷歌能够做到，但OpenAI却不行。通过提供通用API来赚钱的模式，也受到了DeepSeek和**阿里千问**（阿里巴巴开发的大模型，英文名Qwen）的冲击。阿里千问的API服务几乎免费或价格极低，但阿里巴巴可以通过其云服务和电商业务来盈利。如果OpenAI想争取消费级客户，Meta也已占据优势。Meta拥有巨大的用户量，能够将AI融入其社交应用等领域，在这方面OpenAI也落后于Meta。在代码生成和公共开发领域，其优势最容易被瓦解。
+**Meta**（Facebook）同样采取了不同的策略。即使是其 AI 技术，也无需直接变现。**Meta** 坚持开源，免费提供，但其核心在于利用 AI 连接庞大的用户基础，并通过用户交互的时间和环境变化来深化其价值。换言之，在多元化的商业模式中，云服务才是当前制造商赖以盈利的坚实基础，**谷歌**便成功地做到了这一点，而这恰恰是 **OpenAI** 所缺少的。
 
-### 结论：OpenAI的突破之路何在？
+### OpenAI 的战略围困与未来风险
 
-因此，我无法想象OpenAI将如何实现突破。我认为OpenAI的处境确实非常危险。从始至终，我最想印证的迹象是，**Sam Altman**（OpenAI首席执行官）目前所展现的非凡商业才华，似乎正在面临严峻考验。如果进行正常的市场分析，并比较各方的优势，OpenAI在每一个点上都显得非常脆弱。它刚觉得自己在过去一年大幅领先，就突然发现不知从哪里冒出的竞争对手给了它沉重一击。因此，OpenAI的优势基本上已被围攻，在各个竞争点上都被对手卡住。我认为其中开源模型，如DeepSeek和阿里千问的冲击是最大的，因为它们不仅带来了市场竞争，更是彻底切断了OpenAI的潜在盈利路径。
+在代码开发和公共领域的生态中，云服务是最容易被颠覆的“果实”（此为直译，意指领域或市场）。因此，我无法设想 **OpenAI** 将如何突围。基于此，我认为 **OpenAI** 的处境确实非常危险。
+
+如果从头到尾审视，最需要印证的迹象，便是 **Sam Altman** 所展现出的非凡商业才华。然而，从正常的局面分析来看，若要比较各方的优势，**OpenAI** 在每一方面都显得十分“秤”（此为直译，可能意指“受限”或“小心翼翼”）。他刚认为自己在这一年取得了大幅领先，却突然发现不知从何处冒出了一个打击。因此，其优势基本上已被围攻，在各个关键点上都被竞争对手所制约。其中，像 **DeepSeek** (DeepThick) 和 **Qwen** (千万) 这样的开源模型，其冲击最为巨大。因为它们的冲击不仅在于带来了市场竞争行为，更是真正地切断了（OpenAI）的商业发展路径。
