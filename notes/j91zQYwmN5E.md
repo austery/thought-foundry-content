@@ -1,121 +1,49 @@
 ---
-area: "finance-wealth"
-category: business
-companies_orgs:
-- Uber
-- Spotify
-- Airbnb
-- Booking
-- 特斯拉
-- Google
-- 亚马逊
-- 穆迪
-- 摩根士丹利
-- Nvidia
+author: Shijun Tang
 date: '2025-03-17'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-media_books:
-- 《财富》
-- 《华尔街日报》
-people:
-- 唐石峻
-- 巴菲特
-products_models: []
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=j91zQYwmN5E
 speaker: Shijun Tang
-status: evergreen
-summary: 本文深入剖析Uber从烧钱到盈利的转型路径、亚马逊多元业务结构及其护城河，以及穆迪作为信用评级巨头的稳定现金流模式，揭示平台型公司在自动化冲击下的长期竞争力与投资价值。
 tags:
-- financial
-- flow
-- network-effect
-- platform-business-model
-- technology
-title: Uber、亚马逊与穆迪：平台型企业的盈利转型与护城河分析
+  - marketplace-model
+  - autonomous-vehicles
+  - business-diversification
+  - credit-ratings
+  - investment-analysis
+title: Uber、亚马逊、穆迪：深度财报分析与投资洞察
+summary: 本视频深度解析了Uber的转型之路及其面临的自动驾驶挑战，随后剖析了亚马逊多元化的业务帝国（电商、AWS、广告、订阅）和其稳健的增长潜力，最后聚焦穆迪公司，阐述了其信用评级和数据分析业务的稳定现金流及对投资者的吸引力，为观众提供全面的财务与投资视角。
+insight: ''
+draft: true
+series: ''
+category: investment-assets
+area: finance-wealth
+project: []
+people: []
+companies_orgs:
+  - Uber
+  - Amazon
+  - Moody's
+products_models: []
+media_books: []
+status: evergreen
 ---
-### Uber的盈利转型：从烧钱巨头到平台赢家
+Uber这次财报亮了！对我来说，这是一家让我心情非常复杂 Thus, the company's current financial health is solid, with ample cash and cash flow to meet its debt obligations without pressure. The Net Profit Margin (LLC) performance is extremely impressive, soaring from 7.89% last quarter to 35.23%. We will elaborate on these reasons later. Revenue reached a new high, operating profit reached a new high, and the current profit margin is 6.367%. This profit margin is still very low, but this is a common situation for marketplace companies. Operating expenses (ANZ) are high, as platform maintenance, precise navigation systems, and food delivery systems require significant R&D investment. This is also a common characteristic of high-tech stocks. Capital Expenditure (CAPEX) is minimal, which is understandable as there is not much investment in physical assets. Additionally, it's worth noting that Uber seems to be buying back its IPO shares this quarter, although the company is still issuing new shares overall.
 
-Uber这次财报亮了！对于我来说，它是一家让我心情非常复杂的公司。早几年，我一直把它当成反面教材——典型的“一分钱不赚、靠融资和增发烧钱”的企业。它的财报曾是我最讨厌的类型：营收增长，亏损扩大，毫无盈利希望。
+I've spent considerable time detailing both viewpoints. How do I see it recently? I actually hold a neutral stance. However, I believe Uber will not be significantly impacted in the short term. After the latest financial report, according to my scoring system, Uber now scores seventy-five points. Frankly, I did not foresee this. The company scores almost zero on share buybacks, operating expenses (Rd), and SBC (Stock-Based Compensation) distribution, yet it still achieves seventy-five points. This indicates that the company's performance in other areas is excellent, which is why it received such a score. Furthermore, one point I haven't seen any blogger mention is that in the latest financial report, Uber released its accumulated losses from its early-stage massive deficits. This quarter, they directly released six billion US dollars. Wow, a six-billion-dollar tax credit on the income statement. The most direct impact, as I mentioned earlier, is that its Net Profit Margin (LLC) jumped from over 7% last quarter to over 25%. While this is a conventional move for tech giants just before achieving substantial profitability, Apple and Google have done similar things before. However, this undoubtedly indicates that management anticipates the company will soon achieve significant profitability.
 
-但就在最近两三年，它和Spotify一起，成为最能“啪啪打脸”的公司。随着其开始实现盈利，我对Uber的看法彻底转变。财报数据肉眼可见地持续改善，也一次次刷新了我对它的认知。
+Welcome to these common-sense wealth experiences. If this is your first time watching my videos, my name is Tang Shi. I entered the financial market in 2015. My purpose is singular: to help you achieve freedom and happiness through investment.
 
-Uber的核心业务其实与Airbnb和Booking非常相似——它们本质上都是“市场中的中间人”。目前Uber的业务主要分两块：一是出行业务（送人），二是Uber Eats（送餐与配送）。关于它如何从一个创始人能力不足、濒临崩溃的初创企业，成长为行业龙头，我过去已有详细分析，在此不再赘述。
+Amazon's stock fell by 21.313%. Compared to the other Magnificent Seven giants, Amazon's drop isn't the largest. With such a significant market adjustment, will it continue to fall, or is the current price a reasonable level for buying or adding to positions? Today, we will take a detailed look. Amazon's latest financial report is fresh out. Its data in all aspects remains unique in the world. This is why I often say there's no second company like Amazon in the world, because there simply isn't a second company in the world doing business like Amazon. You might not be fully aware that Amazon's business has long since moved beyond e-commerce. According to the latest financial report, Amazon's e-commerce platform, plus third-party e-commerce services, which is what we typically define as e-commerce, currently accounts for only 65.5% of Amazon's total revenue. While it remains the largest portion, roughly two-thirds, it's no longer Amazon's sole business. Amazon's second-largest business is its cloud computing service, AWS. It is the world's largest cloud computing provider, bar none. Currently, AWS-related business accounts for 15.4% of total revenue. Another point worth noting is that AWS's annualized growth rate is 19%, which is quite rapid growth.
 
-简单总结：早期创始人虽然有颠覆性的点子，但缺乏规模化能力。而新管理层采取了极其激进的策略——在早期疯狂让利：给司机补贴、给乘客折扣、给商户优惠。即便财报亏损惨重，也通过价格战迅速占领了全球市场。
+Next is Amazon's advertising business. Yes, like Google and Microsoft, Amazon is also an advertising company. Although it's already an advertising giant, you rarely hear people talk about Amazon's advertising business. Its Amazon Advertising has become a significant player in the advertising industry. Currently, advertising revenue accounts for 9.2% of total revenue, and Amazon's advertising business is also one of its fastest-growing segments, with an annualized growth rate of eighteen percent. Finally, I want to mention Amazon's subscription business, primarily referring to Amazon Prime. It's no exaggeration to say that Amazon Prime is the glue that connects Amazon's entire ecosystem. Prime members not only enjoy free or discounted shipping on Amazon but also access all content from Amazon Prime Video and live streams. Additionally, Prime members can enjoy value-added services, such as discounts at Whole Foods or Amazon Fresh, and a series of offline benefits. Many people may not be aware that while Netflix is the leader in the streaming market, the second place isn't Disney, but Amazon Video. And another subscription service, Amazon Music, is also a strong competitor to Spotify. Based on current data, subscription revenue accounts for 6.81% of total revenue. Of course, Amazon also has some offline businesses, such as Whole Foods and Fresh mentioned earlier.
 
-如今，江山已定，Uber开始转向“变现”。但这也引发了争议：**自动驾驶汽车**（Autonomous Vehicle: 指无需人类驾驶员即可运行的智能车辆）是否会在未来彻底取代Uber的司机网络？
+Let's look at this chart. These are Amazon's latest quarterly financial data. First, we see financial health: cash and cash flow indicate no significant pressure to repay debt. Net Profit Margin (LLC) is average at 13.44%. Revenue is at a new high, net profit is at a new high, and the current profit margin is 10.75%. We see that even Amazon's profit margin is higher than Uber's. Andy Jassy's strategy involves significant SBC (Stock-Based Compensation) distribution and substantial Kubernetes investment. Another major characteristic of Amazon is that the company neither pays dividends nor repurchases shares. After the latest financial report, in my scoring system, Amazon is not alone at 66.5. This score actually increased by one point last quarter. I've always believed Amazon is one of the few undervalued companies in my scoring system because Amazon receives zero points in many categories within my system. The company's circulating shares have a seven-fold increase in SBC distribution. These tech giants' usual practices—Amazon always goes full throttle, directly taking the maximum for LS1—result in a low score for Amazon. Yet, this company's industries are either first or second, and Amazon never stops innovating. Amazon is constantly trying new businesses, which sets it apart from many giant companies worldwide. Other companies generally slacken after conquering their territory, like Nokia, Boeing, Intel, and so on. This is why I like Amazon's corporate culture. In summary, no matter how you view its performance, you cannot help but respect Amazon's efforts.
 
-### 自动驾驶的威胁与平台护城河
+Moody's stock has also fallen by 18.13%. Besides S&P Global, another rating agency I greatly admire is Moody's. In the past, I have not hesitated to share my fondness for this company. Its stock has undergone a significant adjustment. Will Moody's be a good opportunity? We will analyze this in detail today. If you frequently check the portfolios of investment banks, you will find that Moody's is a company that many super-investors particularly favor. For instance, Buffett's Berkshire Hathaway has consistently held a very large position in Moody's. Although it currently accounts for only 4.37% of Berkshire's total portfolio, it represents a substantial twelve percent of the total position. It's not just Buffett; fifteen super-investors in the US alone hold shares in Moody's, including many well-known names. In previous videos, I introduced some of them, such as Greg Garrison, Descartes, You are Glass, Francis, and so on. Of course, this also includes the aforementioned investment guru, Buffett. There are reasons why these best of the best like Moody's so much.
 
-支持“自动驾驶将取代Uber”的一方认为：AI不需要激励，没有抱怨。一旦技术成熟，特斯拉、Google或未来某家科技公司可以直接运营自己的自动驾驶车队，绕过Uber这个中间人。你为何还要支付高额平台抽成？为什么不直接对接消费者和商户？
+Currently, Moody's business can be divided into two segments: the credit rating business and the data analytics business. The credit rating business is similar to S&P Global's rating business; it is stable and provides a service that is always needed, regardless of market conditions, thus acting as a hedge against risk. Moody's Data Analytics, the other segment, generates revenue primarily through subscriptions, making it a recurring revenue model with very strong cash flow. In previous videos, I compared S&P Global and Moody's to companies selling shovels and carts in the gold mine of the financial market. I still believe this today, which is why not only super-investors like it, but I do too.
 
-但另一方投资人提出了强有力的反驳。他们指出，**平台型网络效应**（Network Effects: 用户越多、数据越丰富，平台价值呈指数增长）才是核心护城河。他们用两个现实案例证明：
+Let's look at this chart. This shows Moody's latest financial report data. First, we see financial health: cash and free cash flow mean no pressure to repay debt. Revenue has returned to over 20% and reached a new high. Operating profit is currently at 42.06%. Moody's operating profit significantly outperforms the previous companies, Uber and Amazon. We see they are very good at generating cash flow, and their SBC (Stock-Based Compensation) and CAPEX (Capital Expenditure) are not high. The company has no dividend index and its initial investment in companies is not large. Its biggest feature is stable dividends and significant share buybacks. It's clear that Moody's prioritizes shareholder interests. After the latest financial report, Moody's scores 78.5 in my scoring system. This score is quite high. The company is very stable, with almost no weaknesses. If I had to pick a flaw, it might be that the speed of share buybacks is not fast enough, and the company's profit growth rate is not fast enough. However, this is understandable because Moody's is not a growth-oriented tech stock; it is a long-established credit rating company. Therefore, overall, I still believe Moody's is a very good company.
 
-1. **Airbnb与Booking**：全球有数百万家酒店、民宿和房东，为何不自建平台直接卖房？因为他们无法复制Airbnb与Booking积累的海量用户数据、信任体系和全球预订网络。
-2. **亚马逊**：无数商家拥有自己的官网或Shopify店铺，为何仍选择在亚马逊上销售？因为亚马逊的平台已形成无法绕过的“流量黑洞”——它拥有最庞大的客户群、最精准的推荐算法和最强的物流基础设施。
-
-同样，Uber的核心护城河并非“司机资源”，而是它多年积累的**用户数据网络**——包括出行偏好、时间规律、支付习惯、区域热力图等。即便特斯拉能造出完美的自动驾驶汽车，它仍需从零重建一个全球性的出行服务平台。这个过程可能需要5到10年，而Uber在这段时间里完全可以持续盈利。
-
-更现实的是：那些小型车队运营商或个体车主，即便拥有自动驾驶车辆，大概率仍会选择接入Uber平台——因为其品牌信任、调度系统和客户基础不可替代。这反而可能催生“自动驾驶车队运营商接入Uber平台”的新商业模式。
-
-### 财报数据揭示的盈利真相
-
-我们来看Uber最新财报的核心亮点：
-
-- **财务健康**：现金充足，无偿还压力。
-- **经营利润率**：首次达到6.37%，虽仍偏低，但符合平台型公司的普遍特征——高运营成本（导航、算法、客服）。
-- **CAPEX极低**：无需大量实体资产投资，符合轻资产模式。
-- **关键突破**：本季度释放了60亿美元的**递延所得税资产**（Deferred Tax Asset: 企业因历史亏损而累积、未来可抵扣税款的资产）。这直接推高了净利润率，从7%跃升至25%以上。
-
-这一操作并非异常——苹果、谷歌等科技巨头在实现大规模盈利前均曾类似操作。它清晰地表明：管理层已确信，公司即将进入稳定盈利阶段。
-
-### 亚马逊：多元帝国的结构密码
-
-我们再看另一个平台巨头——**亚马逊**（Amazon）。它常被误认为只是电商公司，但最新财报揭示了它的真正结构：
-
-- **电商平台+第三方卖家服务**：占总营收65.5% —— 仍是基本盘。
-- **AWS（亚马逊云服务）**：占营收10.5%，年化增长达19% —— 全球最大云服务商。
-- **广告业务**（Amazon Advertising）：占营收9.2%，年化增长18% —— 与谷歌、Meta并列的广告巨头。
-- **订阅业务**（Amazon Prime）：占营收6.81% —— 包含免运费、Prime Video、Fresh生鲜服务等，是整个生态系统的“粘合剂”。
-
-亚马逊的模式堪称教科书级：**用电商引流，用云服务赚钱，用广告变现，用订阅锁客**。它不发股息、不回购股票，却在研发与股权激励（SBC）上“踩死油门”。它不满足于“守成”，而是持续探索新边界——这正是其企业文化最令人敬畏之处。
-
-在我们的评分体系中，亚马逊虽因SBC和增发获得零分，但凭借其在行业中的绝对领先地位与持续创新能力，仍获得66.5分——它被严重低估。
-
-### 穆迪：信用评级的“卖铲人”逻辑
-
-最后看一家常被忽视的巨头——**穆迪**（Moody's）。它虽非科技公司，却是金融系统中最稳健的“卖铲人”。
-
-它的业务分为两块：
-
-1. **信用评级**：与标普类似，为债券和企业出具信用等级——是金融市场运行的基础设施。
-2. **数据分析与订阅服务**（ModelS）：提供风险模型、数据洞察，收入来自长期订阅——现金流极稳定。
-
-正如我曾比喻的：穆迪不是在卖黄金，而是在**金融金矿里卖铲子和推车**。无论经济繁荣或衰退，市场都需要信用评级与风险分析。
-
-财报数据显示：
-
-- **经营利润率高达42%**，远超Uber和亚马逊。
-- SBC与CAPEX极低，无沉重研发投入压力。
-- **股息稳定且股份回购积极**——真正重视股东回报。
-
-在我们的评分体系中，穆迪获得78.5分——几乎无短板。它不是高增长的科技股，但它是**低波动、高现金流、强护城河的价值型典范**。
-
-### 总结：平台时代的赢家逻辑
-
-综合来看，Uber、亚马逊和穆迪代表了三种不同的“系统性胜利”：
-
-- **Uber**：通过激进烧钱赢得市场，再靠数据网络实现盈利转型。
-- **亚马逊**：用生态闭环（电商+云+广告+订阅）构建无法复制的护城河。
-- **穆迪**：凭借金融基础设施地位，实现稳定、可预测的现金流。
-
-无论自动驾驶如何发展，平台型企业的核心价值不在于“控制资源”，而在于**掌控连接与信任的网络结构**。真正的赢家，不是造车的人，而是让亿万用户持续依赖其平台的人。
-
-欢迎观看这些常识性财富体验。如果这是你第一次观看我的视频，我叫唐石峻，2015年进入金融市场。我创造这一切的目的只有一个：帮助你通过投资实现自由与快乐。
-
-感谢收看，祝您投资顺利，我们再见。
+That's all for this episode. The individual stock research reports I usually publish are only a small part of the full report. If you want to access the full research report, my daily watch list, and receive my real-time trading information and position information in a timely manner, don't forget to subscribe to the website membership. The link is in the description. If you are interested in my value investment philosophy, you can also try the value investment course I compiled. The link is also in the description. NVIDIA's recent decline has been quite dramatic. If you are interested in NVIDIA's future development, don't miss this video. Thank you for watching. I wish you successful investments. See you.
