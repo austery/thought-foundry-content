@@ -1,104 +1,120 @@
 ---
-area: "work-career"
-category: ai-ml
-companies_orgs: []
+author: Dwarkesh Patel
 date: '2025-10-04'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-media_books:
-- 《苦涩的教训》
-people:
-- Richard Sutton
-- Ilya Sutskever
-products_models:
-- AlphaGo
-- AlphaZero
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=u3HBJVjpXuw
 speaker: Dwarkesh Patel
-status: evergreen
-summary: 本文深入探讨了**理查德·萨顿**（Richard Sutton）关于AI学习的观点，特别是其“**苦涩的教训**”（The Bitter Lesson）理论。演讲者反思了当前大型语言模型（LLM）的训练模式，认为其依赖人类数据且效率低下，并提出了持续学习和模仿学习作为未来AI发展的关键方向，以期实现更接近人类和动物的学习能力。
 tags:
-- learning
-- reinforcement-learning
-- world-model
-title: 对萨顿访谈的思考：AI学习范式与未来
+  - bitter-lesson
+  - continual-learning
+  - imitation-learning
+  - reinforcement-learning
+  - agi
+title: 深度解读Sutton访谈：AI学习范式的演进与挑战
+summary: 本文深入解析了对Richard Sutton“Bitter Lesson”的理解，强调AI应最有效地利用算力。作者反思了当前LLM训练模式的低效和局限，特别是对人类数据的过度依赖，并提出了模仿学习与强化学习（RL）的互补性，以及持续学习对实现AGI的重要性。文章还探讨了LLM能否真正构建世界模型，并展望了未来AI架构的演进方向，认为Sutton的批判指出了模型关键的不足之处。
+insight: ''
+draft: true
+series: ''
+category: ai-ml
+area: tech-engineering
+project: []
+people: []
+companies_orgs: []
+products_models: []
+media_books: []
+status: evergreen
 ---
-### 对萨顿观点的理解
+### 对 Sutton 访谈的思考与理解
 
-大家对**萨顿**（Sutton）的访谈有很多想法。我自己也一直在思考，现在对萨顿的视角有了比采访时更清晰的理解。我想分享一下我如何理解他的世界观。理查德（Richard），如果还有任何错误或误解，请多包涵。从你的想法中学到东西非常有益。这是我对理查德（Richard）立场的“钢人”（Steelman）式理解。
+**Speaker**: Boy do you guys have a lot of thoughts about the Sutton interview. I’ve been thinking about it myself and I think I have a much better understanding now of Sutton’s perspective than I did during the interview itself. So I wanted to reflect on how I understand his worldview now.
+Richard, apologies if there's still any errors or misunderstandings. It’s been very productive to learn from your thoughts. Here's my understanding of the steelman of Richard's position. Obviously he wrote this famous essay, **The Bitter Lesson**. What is this essay about? It's not saying that you just want to throw away as much **compute** as you possibly can. The bitter lesson says that you want to come up with techniques which most effectively and scalably leverage compute.
+Most of the **compute** that's spent on an **LLM** is used in running it during deployment. And yet it’s not learning anything during this entire period. It’s only learning during this special phase we call **training**. That is obviously not an effective use of compute. What's even worse, this training period by itself is highly inefficient, these models are usually trained on the equivalent of 10s of 1000s of years of human experience.
 
-### 苦涩的教训
+<details>
+<summary>Original English</summary>
 
-他写了著名的文章《**苦涩的教训**》（The Bitter Lesson）。这篇文章是关于什么的？它并不是说你只想尽可能多地浪费计算资源。苦涩的教训指出，你应该开发那些最有效、最可扩展地利用计算资源的技术。
+**Speaker**: Boy do you guys have a lot of thoughts about the Sutton interview. I’ve been thinking about it myself and I think I have a much better understanding now of Sutton’s perspective than I did during the interview itself. So I wanted to reflect on how I understand his worldview now.
+Richard, apologies if there's still any errors or misunderstandings. It’s been very productive to learn from your thoughts. Here's my understanding of the steelman of Richard's position. Obviously he wrote this famous essay, **The Bitter Lesson**. What is this essay about? It's not saying that you just want to throw away as much **compute** as you possibly can. The bitter lesson says that you want to come up with techniques which most effectively and scalably leverage compute.
+Most of the **compute** that's spent on an **LLM** is used in running it during deployment. And yet it’s not learning anything during this entire period. It’s only learning during this special phase we call **training**. That is obviously not an effective use of compute. What's even worse, this training period by itself is highly inefficient, these models are usually trained on the equivalent of 10s of 1000s of years of human experience.
 
-### LLM训练的低效性
+</details>
 
-在大型语言模型（LLM）上花费的大部分计算资源都用于部署运行阶段。然而，在整个部署阶段，模型并没有学习任何东西，它只在训练这个特殊阶段学习。这显然不是计算资源的有效利用方式。更糟糕的是，这个训练阶段本身就非常低效。这些模型通常需要相当于数千年人类经验的数据进行训练。
+### 对人类数据的依赖与世界模型的构建
 
-### 依赖人类数据的局限性
+**Speaker**: What’s more, during this training phase, all of their learning is coming straight from **human data**. This is an obvious point in the case of pretraining data. But it’s even kind of true for the **RLVR** that we do with these LLMs: these RL environments are human furnished playgrounds to teach LLMs the specific skills we have prescribed for them.
+The agent is in no substantial way learning from organic and self-directed engagement with the world. Having to learn only from **human data**, which is an inelastic and hard-to-scale resource, is not a scalable way to use compute.
+Furthermore, what these LLMs learn from training is not a true **world model**, which would tell you how the environment changes in response to different actions that you take. Rather, they are building a model of what a human would say next. And this leads them to rely on human-derived concepts. A way to think about this would be, suppose you trained an LLM on all the data up to the year 1900. That LLM probably wouldn't be able to come up with relativity from scratch.
+And here's a more fundamental reason to think this whole paradigm will eventually be superseded. LLMs aren’t capable of **learning on-the-job**, so we’ll need some new architecture to enable this kind of **continual learning**. And once we do have this architecture, we won’t need a special training phase — the agent will just be able to learn on-the-fly, like all humans, and in fact, like all animals are able to do. And this new paradigm will render our current approach with LLMs —and their special training phase that's super sample inefficient— totally obsolete.
+That's my understanding of Richard's position. My main difference with Rich is just that I don't think the concepts he's using to distinguish LLMs from true intelligence are actually that mutually exclusive or dichotomous.
 
-而且，在训练阶段，它们所有的学习都直接来自人类数据。这一点在预训练数据上很明显。但在我们对这些LLM进行的**RLHF**（Reinforcement Learning from Human Feedback: 通过人类反馈进行强化学习）中，情况也是如此：这些强化学习环境是人类提供的“游乐场”，用来教LLM我们预设的特定技能。智能体并没有通过与世界的有机、自主的互动来学习。
+<details>
+<summary>Original English</summary>
 
-只能从人类数据中学习，而人类数据是一种缺乏弹性且难以扩展的资源，这并非利用计算资源的有效方式。此外，这些LLM在训练中学到的不是一个真正的“**世界模型**”（World Model: 能够预测环境如何响应不同行动的模型），而是它们正在构建一个关于人类接下来会说什么的模型。这导致它们依赖于人类衍生的概念。
+**Speaker**: What’s more, during this training phase, all of their learning is coming straight from **human data**. This is an obvious point in the case of pretraining data. But it’s even kind of true for the **RLVR** that we do with these LLMs: these RL environments are human furnished playgrounds to teach LLMs the specific skills we have prescribed for them.
+The agent is in no substantial way learning from organic and self-directed engagement with the world. Having to learn only from **human data**, which is an inelastic and hard-to-scale resource, is not a scalable way to use compute.
+Furthermore, what these LLMs learn from training is not a true **world model**, which would tell you how the environment changes in response to different actions that you take. Rather, they are building a model of what a human would say next. And this leads them to rely on human-derived concepts. A way to think about this would be, suppose you trained an LLM on all the data up to the year 1900. That LLM probably wouldn't be able to come up with relativity from scratch.
+And here's a more fundamental reason to think this whole paradigm will eventually be superseded. LLMs aren’t capable of **learning on-the-job**, so we’ll need some new architecture to enable this kind of **continual learning**. And once we do have this architecture, we won’t need a special training phase — the agent will just be able to learn on-the-fly, like all humans, and in fact, like all animals are able to do. And this new paradigm will render our current approach with LLMs —and their special training phase that's super sample inefficient— totally obsolete.
+That's my understanding of Richard's position. My main difference with Rich is just that I don't think the concepts he's using to distinguish LLMs from true intelligence are actually that mutually exclusive or dichotomous.
 
-可以这样想：假设你用1900年之前的所有数据训练了一个LLM，它可能无法从零开始推导出相对论。
+</details>
 
-### 持续学习的必要性
+### 模仿学习、强化学习与 AGI 的融合
 
-这里有一个更根本的原因，说明这种范式最终会被取代：LLM无法进行“**在职学习**”（On-the-job Learning: 在实际工作或应用中进行学习）。因此，我们需要新的架构来实现这种持续学习。一旦我们有了这样的架构，就不再需要特殊的训练阶段——智能体将能够像所有人类一样，甚至像所有动物一样，即时学习。这种新范式将使我们当前的方法，以及LLM超乎寻常的低样本效率的特殊训练阶段，变得完全过时。
+**Speaker**: For example, I think **imitation learning** is continuous with and complementary to **RL**. Relatedly, models of humans can give you a prior which facilitates learning "true" world models. I also wouldn’t be surprised if some future version of test-time fine-tuning could replicate continual learning, given that we've already managed to accomplish this somewhat with in-context learning.
+Let's start with my claim that imitation learning is continuous with and complementary to RL. I tried to ask Richard a couple of times whether pretrained LLMs can serve as a good prior on which we can accumulate the experiential learning (aka do the RL) which will lead to **AGI**.
+Ilya Sutskever gave a talk a couple of months ago that I thought was super interesting, and he compared pretraining data to fossil fuels. I think this analogy has remarkable reach. Just because fossil fuels are not a renewable resource does not mean that our civilization ended up on a dead-end track by using them. In fact they were absolutely crucial. You simply couldn't have transitioned from the water wheels of 1800 to solar panels and fusion power plants. We had to use this cheap, convenient and plentiful intermediary to get to the next step.
+**AlphaGo** (which was conditioned on human games) and **AlphaZero** (which was bootstrapped from scratch) were both superhuman Go players. Of course AlphaZero was better. So you can ask the question, will we, or will the first AGIs, eventually come up with a general learning technique that requires no initialization of knowledge and that just bootstraps itself from the very start? And will it outperform the very best AIs that have been trained to that date? I think the answer to both these questions is probably yes. But does this mean that imitation learning must not play any role whatsoever in developing the first AGI, or even the first **ASI**?
+No. AlphaGo was still superhuman, despite being initially shepherded by human player data. The human data isn’t necessarily actively detrimental. It's just that at enough scale it just isn’t significantly helpful. AlphaZero also used much more compute than AlphaGo.
+The accumulation of knowledge over tens of thousands of years has clearly been essential to humanity’s success. In any field of knowledge, thousands (and probably millions) of previous people were involved in building up our understanding and passing it on to the next generation. We obviously didn't invent the language we speak, nor the legal system we use. Also, most of the technologies in our phone were not directly invented by the people who are alive today. This process is more analogous to imitation learning than it is to RL from scratch.
+Now, of course, are we literally predicting the next token, like an LLM would, in order to do this cultural learning? No, of course not. Even the imitation learning that humans are doing is not like the **supervised learning** that we do for pretraining LLMs. But neither are we running around trying to collect some well defined scalar reward. No ML learning regime perfectly describes human learning. We're doing things that are both analogous to RL and to supervised learning. What planes are to birds, supervised learning might end up being to human cultural learning.
+I also don't think these learning techniques are categorically different. Imitation learning is just short horizon RL. The episode is a token long. The LLM is making a conjecture about the next token based on its understanding of the world and how the different pieces of information in the sequence relate to each other. And it receives reward in proportion to how well it predicted the next token.
+Now, I already hear people saying: “No no, that’s not **ground truth**! It’s just learning what a human was likely to say.” And I agree. But there’s a different question which I think is more relevant to understanding the scalability of these models: can we leverage this imitation learning to help models learn better from ground truth? And I think the answer is, obviously yes? After RLing the pre-trained base models we've gotten them to win Gold in IMO competitions and to code up entire working applications from scratch. These are “ground truth” examinations. Can you solve this unseen math olympiad question? Can you build this application to match a specific feature request? But you couldn’t have RLed a model to accomplish these tasks from scratch. Or at least we don't know how to do that yet. You needed a reasonable prior over human data in order to kick start this RL process.
+Whether you want to call this prior a proper "world model", or just a model of humans, I don't think is that important and honestly seems like a semantic debate. Because what you really care about is whether this model of humans helps you start learning from ground truth – AKA become a “true” world model.
+It’s a bit like saying to someone pasteurizing milk, “Hey stop boiling that milk because we eventually want to serve it cold!” Of course. But this is an intermediate step to facilitate the final output.
+By the way, LLMs are clearly developing a deep representation of the world, because their training process is incentivizing them to develop one. I use LLMs to teach me about everything from biology to AI to history, and they are able to do so with remarkable flexibility and coherence. Now, are LLMs specifically trained to model how their actions will affect the world? No, they're not.
+But if we're not allowed to call their representations a “world model,” then we're defining the term “world model” by the process we think is necessary to build one, rather than by the obvious capabilities the concept implies.
 
-这就是我对理查德（Richard）立场的理解。我与理查德（Rich）的主要分歧在于，我认为他用来区分LLM与真正智能的概念，实际上并没有那么互斥或截然对立。
+<details>
+<summary>Original English</summary>
 
-### 模仿学习与RL的连续性
+**Speaker**: For example, I think **imitation learning** is continuous with and complementary to **RL**. Relatedly, models of humans can give you a prior which facilitates learning "true" world models. I also wouldn’t be surprised if some future version of test-time fine-tuning could replicate continual learning, given that we've already managed to accomplish this somewhat with in-context learning.
+Let's start with my claim that imitation learning is continuous with and complementary to RL. I tried to ask Richard a couple of times whether pretrained LLMs can serve as a good prior on which we can accumulate the experiential learning (aka do the RL) which will lead to **AGI**.
+Ilya Sutskever gave a talk a couple of months ago that I thought was super interesting, and he compared pretraining data to fossil fuels. I think this analogy has remarkable reach. Just because fossil fuels are not a renewable resource does not mean that our civilization ended up on a dead-end track by using them. In fact they were absolutely crucial. You simply couldn't have transitioned from the water wheels of 1800 to solar panels and fusion power plants. We had to use this cheap, convenient and plentiful intermediary to get to the next step.
+**AlphaGo** (which was conditioned on human games) and **AlphaZero** (which was bootstrapped from scratch) were both superhuman Go players. Of course AlphaZero was better. So you can ask the question, will we, or will the first AGIs, eventually come up with a general learning technique that requires no initialization of knowledge and that just bootstraps itself from the very start? And will it outperform the very best AIs that have been trained to that date? I think the answer to both these questions is probably yes. But does this mean that imitation learning must not play any role whatsoever in developing the first AGI, or even the first **ASI**?
+No. AlphaGo was still superhuman, despite being initially shepherded by human player data. The human data isn’t necessarily actively detrimental. It's just that at enough scale it just isn’t significantly helpful. AlphaZero also used much more compute than AlphaGo.
+The accumulation of knowledge over tens of thousands of years has clearly been essential to humanity’s success. In any field of knowledge, thousands (and probably millions) of previous people were involved in building up our understanding and passing it on to the next generation. We obviously didn't invent the language we speak, nor the legal system we use. Also, most of the technologies in our phone were not directly invented by the people who are alive today. This process is more analogous to imitation learning than it is to RL from scratch.
+Now, of course, are we literally predicting the next token, like an LLM would, in order to do this cultural learning? No, of course not. Even the imitation learning that humans are doing is not like the **supervised learning** that we do for pretraining LLMs. But neither are we running around trying to collect some well defined scalar reward. No ML learning regime perfectly describes human learning. We're doing things that are both analogous to RL and to supervised learning. What planes are to birds, supervised learning might end up being to human cultural learning.
+I also don't think these learning techniques are categorically different. Imitation learning is just short horizon RL. The episode is a token long. The LLM is making a conjecture about the next token based on its understanding of the world and how the different pieces of information in the sequence relate to each other. And it receives reward in proportion to how well it predicted the next token.
+Now, I already hear people saying: “No no, that’s not **ground truth**! It’s just learning what a human was likely to say.” And I agree. But there’s a different question which I think is more relevant to understanding the scalability of these models: can we leverage this imitation learning to help models learn better from ground truth? And I think the answer is, obviously yes? After RLing the pre-trained base models we've gotten them to win Gold in IMO competitions and to code up entire working applications from scratch. These are “ground truth” examinations. Can you solve this unseen math olympiad question? Can you build this application to match a specific feature request? But you couldn’t have RLed a model to accomplish these tasks from scratch. Or at least we don't know how to do that yet. You needed a reasonable prior over human data in order to kick start this RL process.
+Whether you want to call this prior a proper "world model", or just a model of humans, I don't think is that important and honestly seems like a semantic debate. Because what you really care about is whether this model of humans helps you start learning from ground truth – AKA become a “true” world model.
+It’s a bit like saying to someone pasteurizing milk, “Hey stop boiling that milk because we eventually want to serve it cold!” Of course. But this is an intermediate step to facilitate the final output.
+By the way, LLMs are clearly developing a deep representation of the world, because their training process is incentivizing them to develop one. I use LLMs to teach me about everything from biology to AI to history, and they are able to do so with remarkable flexibility and coherence. Now, are LLMs specifically trained to model how their actions will affect the world? No, they're not.
+But if we're not allowed to call their representations a “world model,” then we're defining the term “world model” by the process we think is necessary to build one, rather than by the obvious capabilities the concept implies.
 
-例如，我认为模仿学习与强化学习（RL）是连续且互补的。同样，对人类的建模可以为你提供一个先验知识，从而促进学习“真正”的世界模型。我也不惊讶于未来某种形式的“**测试时微调**”（Test-time Fine-tuning: 在模型进行预测时进行微调）能够复制持续学习，因为我们已经通过“**上下文学习**”（In-context Learning: 在输入上下文中提供示例来指导模型行为）在一定程度上实现了这一点。
+</details>
 
-让我们从我的观点开始：模仿学习与RL是连续且互补的。我曾几次问理查德（Richard），预训练的LLM是否可以作为一个良好的先验，让我们在其上积累经验学习（即进行RL），从而导向**AGI**（Artificial General Intelligence: 通用人工智能）。
+### 持续学习与未来 AI 架构
 
-**伊利亚·萨茨基弗**（Ilya Sutskever）几个月前做了一个非常有趣的演讲，他把预训练数据比作化石燃料。我认为这个类比非常有启发性。化石燃料不是可再生资源，但这并不意味着我们的文明在使用它们时走上了死胡同。事实上，它们至关重要。你无法直接从1800年代的水车直接过渡到太阳能电池板和聚变反应堆。我们必须使用这种廉价、方便且充足的中间媒介来达到下一步。
+**Speaker**: **Continual learning**. Sorry to bring up my hobby horse again. I'm like a comedian who's only come up with one good bit, but I'm gonna milk it for all it's worth. An LLM being RLed on outcome-based rewards learns on the order of 1 bit per episode, and an episode may be tens of thousands of tokens long.
+Obviously, animals and humans are clearly extracting more information from interacting with our environment than just the reward signal at the end of each episode. Conceptually, how should we think about what is happening with animals? I think we’re learning to model the world through observations. This outer loop RL is incentivizing some other learning system to pick up maximum signal from the environment. In Richard’s **OaK architecture**, he calls this the transition model.
+If we were trying to pigeonhole this feature spec into modern LLMs, what you’d do is to fine tune on all your observed tokens. From what I hear from my researcher friends, in practice the most naive way of doing this actually doesn’t work well.
+Being able to continuously learn from the environment in a high throughput way is obviously necessary for true AGI. And it clearly doesn’t exist with LLMs trained on RLVR. But there might be some relatively straightforward ways to shoehorn continual learning atop LLMs. For example, one could imagine making **SFT** a tool call for the model. So the outer loop RL is incentivizing the model to teach itself effectively using supervised learning, in order to solve problems that don't fit in the context window.
+I'm genuinely agnostic about how well techniques like this will work—I'm not an AI researcher. But I wouldn't be surprised if they basically replicate continual learning. Models are already demonstrating something resembling human continual learning within their context windows. The fact that in-context learning emerged spontaneously from the training incentive to process long sequences makes me think that if information could flow across windows longer than the current context limit, models could meta-learn the same flexibility that they already show in-context.
 
-### AlphaGo与AlphaZero的启示
+<details>
+<summary>Original English</summary>
 
-**AlphaGo**（它以人类游戏为条件进行训练）和**AlphaZero**（它从零开始进行引导训练）都是超人类的围棋选手。当然，AlphaZero更好。所以你可以问：我们，或者第一批AGI，最终会开发出一种不需要知识初始化、能够从一开始就自我引导的通用学习技术吗？它会超越当时训练出的最优秀的AI吗？我认为这两个问题的答案都可能是肯定的。
+**Speaker**: **Continual learning**. Sorry to bring up my hobby horse again. I'm like a comedian who's only come up with one good bit, but I'm gonna milk it for all it's worth. An LLM being RLed on outcome-based rewards learns on the order of 1 bit per episode, and an episode may be tens of thousands of tokens long.
+Obviously, animals and humans are clearly extracting more information from interacting with our environment than just the reward signal at the end of each episode. Conceptually, how should we think about what is happening with animals? I think we’re learning to model the world through observations. This outer loop RL is incentivizing some other learning system to pick up maximum signal from the environment. In Richard’s **OaK architecture**, he calls this the transition model.
+If we were trying to pigeonhole this feature spec into modern LLMs, what you’d do is to fine tune on all your observed tokens. From what I hear from my researcher friends, in practice the most naive way of doing this actually doesn’t work well.
+Being able to continuously learn from the environment in a high throughput way is obviously necessary for true AGI. And it clearly doesn’t exist with LLMs trained on RLVR. But there might be some relatively straightforward ways to shoehorn continual learning atop LLMs. For example, one could imagine making **SFT** a tool call for the model. So the outer loop RL is incentivizing the model to teach itself effectively using supervised learning, in order to solve problems that don't fit in the context window.
+I'm genuinely agnostic about how well techniques like this will work—I'm not an AI researcher. But I wouldn't be surprised if they basically replicate continual learning. Models are already demonstrating something resembling human continual learning within their context windows. The fact that in-context learning emerged spontaneously from the training incentive to process long sequences makes me think that if information could flow across windows longer than the current context limit, models could meta-learn the same flexibility that they already show in-context.
 
-但这是否意味着模仿学习在开发第一个AGI，甚至第一个**ASI**（Artificial Superintelligence: 超级人工智能）中不能扮演任何角色呢？不。AlphaGo仍然是超人类的，尽管它最初是由人类玩家数据引导的。人类数据不一定是有害的。只是在足够大的规模下，它不再有显著的帮助。AlphaZero也比AlphaGo使用了更多的计算资源。
+</details>
 
-### 人类文化的学习类比
+### 总结性思考与未来展望
 
-数万年来知识的积累显然对人类的成功至关重要。在任何知识领域，成千上万（甚至可能数百万）的前人参与了我们理解的构建，并将其传给下一代。我们显然不是发明了我们所说的语言，也不是我们使用的法律体系。同样，我们手机中的大多数技术也不是由今天活着的人直接发明的。这个过程更类似于模仿学习，而不是从零开始的RL。
-
-当然，我们是在像LLM那样预测下一个token来完成这种文化学习吗？不，当然不是。即使是人类进行的模仿学习，也不像我们为LLM预训练所做的监督学习。但我们也不是到处寻找某个明确定义的标量奖励。没有哪种机器学习范式能完美描述人类的学习。我们所做的事情既类似于RL，也类似于监督学习。
-
-就像飞机之于鸟类，监督学习可能最终会成为人类文化学习的“飞机”。
-
-### 学习技术的连续性
-
-我也不认为这些学习技术在本质上是不同的。模仿学习只是短视界的RL。一个“回合”（Episode）就是一次预测一个token。LLM基于其对世界的理解以及序列中不同信息片段之间的关系，对下一个token做出猜测。它会根据预测下一个token的准确程度获得奖励。
-
-现在，我听到有人说：“不，不，那不是真实情况！它只是在学习人类可能说什么。”我同意。但有一个不同的问题，我认为这对于理解这些模型的**可扩展性**（Scalability: 指系统处理不断增长的工作负载的能力）更为重要：我们能否利用这种模仿学习来帮助模型从“**真实情况**”（Ground Truth: 指客观事实或数据本身）中学习得更好？
-
-我认为答案是，显而易见的是，是的。在对预训练的基础模型进行RL后，我们已经让它们赢得了IMO（International Mathematical Olympiad: 国际数学奥林匹克）竞赛的金牌，并从零开始编写了完整的应用程序。这些是“真实情况”的检验。你能解决这个未见过的数学奥林匹克问题吗？你能构建这个应用程序来匹配特定的功能请求吗？但你无法从零开始通过RL让模型完成这些任务。至少我们目前还不知道如何做到。你需要一个合理的人类数据先验来启动这个RL过程。
-
-你是否想把这个先验称为“世界模型”，还是仅仅是人类模型，我认为并不重要，老实说，这似乎是一个语义上的争论。因为你真正关心的是，这个人类模型是否能帮助你开始从真实情况中学习——也就是成为一个“真正的”世界模型。
-
-这有点像对一个正在给牛奶巴氏消毒的人说：“嘿，别再煮牛奶了，因为我们最终想把它冷着喝！”当然。但这只是一个促进最终产出的中间步骤。
-
-### LLM对世界的表征
-
-顺便说一句，LLM显然正在发展对世界的深刻表征，因为它们的训练过程激励它们这样做。我使用LLM来学习从生物学到AI再到历史的各种知识，它们能够以惊人的灵活性和连贯性做到这一点。
-
-那么，LLM是否专门被训练来模拟其行为如何影响世界？不，它们没有。但如果我们不允许称它们的表征为“世界模型”，那么我们就是根据构建模型所需的**过程**来定义“世界模型”这个术语，而不是根据这个概念所暗示的明显能力来定义。
-
-### 持续学习的挑战
-
-持续学习。抱歉又提起我的老调重弹。我像个只写了一个好段子的喜剧演员，但我会把它榨干。一个通过基于结果的奖励进行RL的LLM，每个回合大约学习1比特的信息，而一个回合可能包含数万个token。显然，动物和人类从与环境的互动中提取的信息量，远不止每个回合的奖励信号。
-
-概念上，我们应该如何看待动物身上发生的事情？我认为我们是通过观察来学习建模世界。这种外层RL激励着其他学习系统从环境中提取最大信号。在理查德（Richard）的OaK架构中，他称之为“**转移模型**”（Transition Model: 描述状态如何从一个转移到另一个的模型）。
-
-如果我们试图将这个功能规格归入现代LLM，你会做的是对所有观察到的token进行微调。据我所知，我的研究员朋友们说，实际上最简单的方法效果并不好。
-
-以高吞吐量持续从环境中学习，对于真正的AGI显然是必要的。而这显然不存在于
+**Speaker**: Some concluding thoughts. Evolution does meta-RL to make an RL agent. That agent can selectively do imitation learning. With LLMs, we’re going the opposite way. We first made a base model that does pure imitation learning. And we're hoping that we do enough RL on it to make a coherent agent with goals and self-awareness. Maybe this won't work!
+But I don't think these super first-principle arguments (for example, about how these LLM don't have a true world model) are actually proving much. I also don't think they’re strictly accurate for the models we have today, which are undergoing a lot of RL on “ground truth”.
+Even if Sutton's Platonic ideal doesn’t end up being the path to first AGI, his first principles critique is identifying some genuine basic gaps these models have. We don’t even notice because they are so pervasive in the current paradigm, but because he has this decades-long perspective they're obvious to him. It's the lack of continual learning, it's the abysmal sample efficiency of these models, it's their dependence on exhaustible human data. If the LLMs do get to AGI first, which is what I expect to happen, the successor systems that they build will almost certainly be based on Richard's vision.
