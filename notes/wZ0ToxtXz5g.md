@@ -1,47 +1,1351 @@
 ---
-area: "work-career"
-category: ai-ml
-companies_orgs: []
+author: Dwarkesh Patel
 date: '2024-06-13'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-products_models:
-- LLM
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=wZ0ToxtXz5g
 speaker: Dwarkesh Patel
-status: evergreen
-summary: 本次对话探讨了人工智能的通用性问题，重点关注了ARC基准测试。嘉宾认为，如果一个多模态模型能达到人类80%的水平解决ARC，则可能预示着AGI的到来。讨论深入到智能的本质，将其类比为寻路算法，并对比了人类学习与LLM训练中的“记忆”与“推理”界限。文章还触及了通过大规模数据生成和自动化在静态分布下的潜力，以及当前模型相对于人脑的参数限制。
 tags:
-- agi
-- intelligence
-- llm
-- memorization
-title: If an LLM solves this then we'll probably have AGI – Francois Chollet
+  - agi
+  - intelligence
+  - arc-benchmark
+  - memorization
+  - brute-force
+title: AI智能的本质：从Arc基准到‘暴力破解’的思考
+summary: 本次讨论探讨了AI模型若能解决Arc基准测试（达到人类80%水平）是否标志着AGI的到来。发言者质疑了基准测试的有效性，认为其可能被规模化数据“作弊”或“暴力破解”。文章深入剖析了智能的本质，将其比作路径寻找算法，并挑战了AI“记忆”与人类“推理”的二元划分，认为两者可能处于同一连续光谱上，且人类学习过程本身也包含大量算法记忆。
+insight: ''
+draft: true
+series: ''
+category: ai-ml
+area: tech-engineering
+project: []
+people: []
+companies_orgs: []
+products_models:
+  - arc
+media_books: []
+status: evergreen
 ---
-### ARC基准与AGI的可能迹象
+### AI智能的本质：从Arc基准到“暴力破解”的思考
 
-假设一年后，一个**多模态模型**（能够处理多种类型数据（如文本、图像、音频）的AI模型）能够解决**ARC**（A.R.C.: AI Reasoning Challenge，一个衡量AI推理能力的基准测试），并达到人类平均水平的80%，那么**AGI**（Artificial General Intelligence: 人工通用智能）很可能就指日可待了。主持人**Dwarkesh Patel**和嘉宾**Francois Chollet**对此进行了探讨。嘉宾表示，他个人希望看到一个**LLM**（Large Language Model: 大型语言模型）类型的模型能以80%的准确率解决ARC，但前提是其训练信息不包含明确旨在预测ARC测试集的内容。
+讨论的核心在于，如果一个多模态模型能在一年内解决“Arc”基准测试，并达到人类平均水平的80%，这是否意味着通用人工智能（AGI）的出现？对此，演讲者提出了一种设想：期望看到一个LLM类型的模型能够以80%的准确率解决Arc，但其训练数据不应是明确为预测该测试集而准备的。然而，Arc基准测试的意义在于，它每次都呈现新的图谱和智能挑战，使得作弊变得不可能。如果Arc是一个完美无瑕的基准，那么在测试集内是无法被预测的。Arc测试已发布四年多，至今仍能抵抗“死记硬略”式的解决方案，在一定程度上经受住了时间的考验。但演讲者也指出，如果通过手工创建数十万个Arc任务，再通过程序化生成变体，最终可能产生数亿个任务，那么训练数据与测试集之间很可能会产生足够的重叠，从而能够获得极高的分数。这引出了一个观点：拥有足够的规模，总能“作弊”。
 
-### 智能的本质与基准测试的局限
+<details>
+<summary>Original English</summary>
 
-嘉宾进一步阐述，ARC的核心在于其每次都呈现一种新型的**智能**（intelligence）挑战，而非固定模式。如果ARC是一个完美的基准测试，那么其内容就不应被预测。ARC自四年前发布以来，一直难以被“**记忆**”（memorization）所攻克，这在一定程度上证明了其有效性。然而，嘉宾也指出，如果通过手工创建数十万个ARC任务，再通过程序化生成数亿种变体，那么在训练数据和测试集之间就可能产生足够的重叠，从而导致模型得分虚高。这表明，在足够大的规模下，模型可能“作弊”。
+so
+ suppose
+ that
+ it's
+ the
+ case
+ that
+ in
+ a
 
-### 智能的计算视角
 
-如果一个模型可以通过“作弊”的方式解决所有需要智能的任务，那么智能本身的意义何在？嘉宾提出，或许智能就是一种可以被“**暴力破解**”（Brute Force）的能力。他将**intelligence**类比为一种“**寻路算法**”（pathfinding algorithm: 在图形或网络中寻找从起点到终点的最优路径的算法），在未来的情境空间中寻找路径。这类似于**即时战略游戏开发**（RTS game development: 一种电子游戏类型，玩家需要实时管理资源和单位进行战斗）中的地图探索，存在“**战争迷雾**”（fog of war: 游戏或战略中，指玩家对地图未知区域的遮蔽），玩家拥有的是部分信息，并且只能了解过去的地图状态而非当前状态。
+year
+ a
+ multimodal
+ model
+ can
+ solve
+ Arc
 
-### 现实世界的约束与类比
 
-然而，这种寻路算法受到可用信息的严格约束，无法在未知领域找到路径，也无法预测变化。如果拥有关于地图的完整信息，路径寻找问题可以通过纯粹的记忆来解决。但在现实生活中，由于未来是不断变化的，我们无法做到这一点。嘉宾认为，在讨论人类学习时，我们很少使用“记忆”这个词。例如，当孩子学会代数再学微积分，我们称之为“学习”，而非“记忆微积分”。人类的学习和推理并非纯粹的记忆或纯粹的逻辑推导，这很大程度上源于我们对人类行为的语义化标签。
+let's
+ say
+ get
+ 80%
+ whatever
+ the
+ average
 
-### LLM与人类学习的对比
 
-当LLM通过基准测试解决数学问题时，这种行为常被归类为“记忆”。嘉宾认为，人类学习加法等基础技能，本质上也是在记忆一个算法或程序，而非实时合成。虽然人类发明了加法，但孩子学习加法并非从零开始推导。嘉宾的观点是，学校教育内容主要是记忆，而当前的AI模型在参数量和计算量上远不及人脑，因此它们无法像最聪明的人类那样创造新定理，但大多数人也做不到。大多数人类所做的，与嘉宾所称的“记忆”——即回忆学到的技能或技巧——非常相似。
+human
+ would
+ get
+ then
+ AGI
+ quite
+ possibly
 
-### 自动化与未来工作
 
-嘉宾进一步探讨了这种“记忆”模式在自动化中的应用。如果所有远程工作者都被模型取代，而这些模型是通过记录他们的屏幕操作并从中提取技能而训练出来的**synthetic data**（合成数据），那么我们是否仍然处于“记忆”的范畴？在这种情况下，我们将产生数万亿美元的经济活动。嘉宾总结道，通过记忆确实可以自动化几乎任何任务，前提是任务所处的环境是静态分布，且无需应对变化。
+yes
+ I
+ think
+ if
+ you
+ if
+ you
+ start
+ so
+
+
+honestly
+ what
+ I
+ would
+ like
+ to
+ see
+ is
+ uh
+
+
+an
+ llm
+ type
+ model
+ solving
+ Arc
+ at
+ like
+
+
+80%
+ but
+ only
+ trained
+ on
+ information
+ that
+
+
+is
+ not
+ um
+ explicitly
+ trying
+ to
+
+
+anticipate
+ what
+ it's
+ going
+ to
+ be
+ in
+ the
+
+
+AR
+ test
+ set
+ but
+ isn't
+ the
+ isn't
+ the
+
+
+whole
+ point
+ of
+ Arc
+ that
+ you
+ can't
+ sort
+
+
+of
+ it's
+ a
+ new
+ chart
+ of
+ type
+ of
+
+
+intelligence
+ every
+ single
+ time
+ is
+ the
+
+
+point
+ so
+ if
+ Arc
+ were
+ perfect
+ Flawless
+
+
+Benchmark
+ it
+ would
+ be
+ impossible
+ to
+
+
+anticipate
+ within
+ the
+ test
+ set
+ and
+ you
+
+
+know
+ Arc
+ was
+ released
+ uh
+ more
+ than
+ four
+
+
+years
+ ago
+ and
+ so
+ far
+ it's
+ been
+ resistant
+
+
+to
+ memorization
+ so
+ I
+ think
+ it
+ has
+ uh
+ to
+
+
+some
+ extent
+ passed
+ a
+ test
+ of
+ time
+ but
+ I
+
+
+don't
+ think
+ it's
+ perfect
+ I
+ think
+ if
+ you
+
+
+try
+ to
+ make
+ by
+ hand
+ uh
+ hundreds
+ of
+
+
+thousands
+ of
+ AR
+ tasks
+ and
+ then
+ you
+ try
+
+
+to
+ multiply
+ them
+ uh
+ uh
+ by
+
+
+programmatically
+ generating
+ variations
+
+
+and
+ then
+ you
+ end
+ up
+ with
+ maybe
+ hundreds
+
+
+of
+ millions
+ of
+ tasks
+ uh
+ just
+ by
+ brute
+
+
+forcing
+ the
+ task
+ space
+ there
+ will
+ be
+
+
+enough
+ overlap
+ between
+ what
+ you're
+ train
+
+
+on
+ and
+ what's
+ in
+ the
+ test
+ set
+ that
+ you
+
+
+can
+ actually
+ score
+ very
+ highly
+ so
+ you
+
+
+know
+ with
+ enough
+ scale
+ you
+ can
+ always
+
+
+cheat
+</summary>
+</details>
+
+### 智能的路径寻找与“暴力破解”的界限
+
+演讲者进一步探讨了智能的本质，提出了一种比喻：可以将智能视为一种在未来情境空间中寻找路径的算法。这类似于实时战略（RTS）游戏开发中的概念，玩家在一个地图上拥有部分信息（存在战争迷雾），无法完全了解未知区域或过去区域的现状。智能的目标是，一旦设定了目标，就能找到通往该目标的最佳路径。然而，这种路径寻找受限于已知信息，无法预见未知或变化。如果能完全掌握地图的所有信息，路径寻找问题可以通过死记硬略所有可能的路径来解决，即通过纯粹的记忆来完成。但在现实生活中，由于未来充满不确定性，生命是不断变化的，因此纯粹的记忆或死记硬略是不现实的。演讲者暗示，如果世界的“分布”是静态的（例如，在一种“病态的分布”下），那么通过“暴力破解”所有可能的行为空间来“强制获得”智能是可能的。
+
+<details>
+<summary>Original English</summary>
+
+if
+ you
+ can
+ do
+ this
+ for
+ every
+
+
+single
+ thing
+ that
+ supposedly
+ requires
+
+
+intelligence
+ then
+ what
+ good
+ is
+
+
+intelligence
+ apparently
+ you
+ can
+ just
+
+
+Brute
+ Force
+ intelligence
+ if
+ if
+ the
+ world
+
+
+if
+ your
+ life
+ were
+ athetic
+ distribution
+
+
+uh
+ then
+ sure
+ you
+ could
+ just
+ bruteforce
+
+
+the
+ space
+ of
+ possible
+ behaviors
+ could
+
+
+like
+ you
+ know
+ the
+ way
+ we
+ think
+ about
+
+
+intelligence
+ there
+ are
+ several
+ metaphors
+
+
+SEL
+ actives
+ but
+ one
+ of
+ them
+ is
+ you
+ can
+
+
+think
+ of
+ intelligence
+ as
+ a
+ past
+ finding
+
+
+algorithm
+ in
+ future
+ situation
+ space
+ like
+
+
+I
+ don't
+ know
+ if
+ you're
+ familiar
+ with
+
+
+game
+ development
+ like
+ RTS
+ game
+
+
+development
+ but
+ you
+ have
+ a
+ map
+ right
+ and
+
+
+and
+ you
+ have
+ it's
+ like
+ a
+ 2d
+ 2D
+ 2D
+ map
+
+
+and
+ um
+ you
+ have
+ partial
+ information
+
+
+about
+ it
+ like
+ there
+ is
+ some
+ fog
+ of
+ War
+
+
+on
+ your
+ map
+ there
+ are
+ areas
+ that
+ you
+
+
+haven't
+ explored
+ yet
+ you
+ know
+ nothing
+
+
+about
+ them
+ and
+ then
+ there
+ are
+ areas
+ that
+
+
+you've
+ explored
+ but
+ um
+ you
+ only
+ know
+ how
+
+
+they
+ were
+ like
+ in
+ the
+ past
+ you
+ don't
+
+
+know
+ how
+ they
+ like
+ today
+ and
+
+
+um
+ and
+ and
+ now
+ instead
+ of
+ thinking
+ about
+
+
+Tod
+ I
+ think
+ about
+ the
+ space
+ of
+ possible
+
+
+future
+ situations
+ that
+ you
+ might
+
+
+encounter
+ and
+ how
+ they're
+ connected
+ to
+
+
+each
+ other
+ intelligence
+ is
+ a
+ past
+
+
+finding
+ algorithm
+ so
+ once
+ you
+ set
+ a
+ goal
+
+
+it
+ will
+ tell
+ you
+ uh
+ how
+ to
+ get
+ there
+
+
+Optimum
+
+
+um
+ but
+ of
+ course
+ it's
+ it's
+ constrained
+
+
+by
+ the
+ information
+ you
+ have
+ uh
+ it
+ it
+
+
+cannot
+ pass
+ fine
+ in
+ an
+ area
+ that
+ you
+
+
+know
+ nothing
+ about
+ it
+ cannot
+ also
+
+
+anticipate
+ uh
+ uh
+ changes
+ and
+ um
+ the
+ the
+
+
+the
+ thing
+ is
+ if
+ you
+ had
+ complete
+
+
+information
+ about
+ the
+ map
+ uh
+ then
+ you
+
+
+could
+ solve
+ the
+ pathf
+ finding
+ Problem
+ by
+
+
+simply
+ memorizing
+ every
+ possible
+ path
+
+
+every
+ mapping
+ from
+ uh
+ point
+ A
+ to
+ point
+ B
+
+
+uh
+ you
+ could
+ you
+ could
+ solve
+ the
+ problem
+
+
+with
+ pure
+ memory
+ but
+ where
+ the
+ reason
+
+
+you
+ cannot
+ do
+ that
+ in
+ real
+ life
+ is
+
+
+because
+ you
+ don't
+ actually
+ know
+ what's
+
+
+going
+ to
+ happen
+ in
+ the
+ future
+ life
+ is
+
+
+Ever
+ Changing
+</summary>
+</details>
+
+### 人类与AI的学习光谱：记忆还是推理？
+
+演讲者对“记忆”与“推理”的界限提出了质疑，认为这种区分在人类和AI之间可能过于简化。当一个孩子学习代数或微积分时，我们不会说他们“记住了”微积分，而是说他们“学会了”微积分。然而，当AI解决类似的数学问题时，这种能力却常被贴上“记忆”的标签。演讲者认为，人类学习过程，包括掌握加法算法、代数或微积分，本质上也是在学习和应用算法或程序，这与AI的学习过程在根本上是相似的。如果AI通过学习大量技能和技术，即使它们能自动化几乎任何任务，只要分布是静态的，就可能被归类为“记忆”。演讲者进一步推测，如果远程工作技能可以通过记录屏幕并训练模型来合成数据，从而导致大量远程工人失业，而AI创造了巨大的经济价值，那么这种情形下的AI能力是否仍应被视为“记忆”？核心观点是，人类和AI在处理信息和解决问题的方式上可能共享一个连续的光谱，而非截然不同的类别。
+
+<details>
+<summary>Original English</summary>
+
+I
+ feel
+ like
+ you're
+ using
+
+
+words
+ like
+ memorization
+ which
+ we
+ never
+
+
+use
+ for
+ human
+ children
+ if
+ if
+ like
+ your
+
+
+kid
+ learns
+ to
+ do
+ algebra
+ and
+ then
+ like
+
+
+now
+ learns
+ to
+ do
+ calculus
+ you
+ wouldn't
+
+
+say
+ they
+ memorized
+ Calculus
+ if
+ they
+ can
+
+
+just
+ solve
+ any
+ arbitrary
+ algebraic
+
+
+problem
+ you
+ wouldn't
+ say
+ like
+ they've
+
+
+memorized
+ algebra
+ they
+ say
+ they've
+
+
+learned
+ algebra
+ humans
+ are
+ never
+ really
+
+
+doing
+ pure
+ memorization
+ or
+ pure
+
+
+reasoning
+ but
+ that's
+ only
+ because
+ you're
+
+
+semantically
+ labeling
+ when
+ the
+ human
+
+
+does
+ the
+ skill
+ it's
+ a
+ memorization
+ when
+
+
+the
+ exact
+ same
+ skill
+ is
+ done
+ by
+ the
+ llm
+
+
+as
+ you
+ can
+ measure
+ by
+ these
+ bench
+
+
+marks
+ and
+ you
+ can
+ just
+ like
+ plug
+ in
+ any
+ sort
+
+
+of
+ math
+ problem
+ humans
+ are
+ doing
+ the
+
+
+exact
+ same
+ as
+ LM
+ is
+ doing
+ which
+ is
+ just
+
+
+for
+ instance
+ I
+ know
+ if
+ you
+ learn
+ to
+ add
+
+
+numbers
+ you're
+ memorizing
+ an
+ algorithm
+
+
+you're
+ memorizing
+ a
+ program
+ and
+ then
+ you
+
+
+you
+ can
+ reapply
+ it
+ you
+ are
+ not
+
+
+synthesizing
+ on
+ the
+ Fly
+ uh
+ the
+ addition
+
+
+program
+ so
+ obviously
+ at
+ some
+ point
+ some
+
+
+human
+ had
+ to
+ figure
+ out
+ how
+ to
+ do
+
+
+addition
+ but
+ like
+ the
+ way
+ a
+ kid
+ learns
+
+
+it
+ is
+ not
+ that
+ they
+ sort
+ of
+ out
+ from
+ the
+
+
+accents
+ of
+ SE
+ Theory
+ how
+ to
+ do
+ addition
+
+
+I
+ think
+ what
+ you
+ learn
+ in
+ school
+
+
+is
+ mostly
+ memorization
+ right
+ so
+ my
+ claim
+ is
+
+
+that
+ listen
+ these
+ models
+ are
+ vastly
+
+
+underparameterized
+ relative
+ to
+ how
+ many
+
+
+flops
+ or
+ how
+ many
+ parameters
+ you
+ have
+ in
+
+
+the
+ human
+ brain
+ and
+ so
+ yeah
+ they're
+
+
+they're
+ not
+ going
+ to
+ be
+ like
+ coming
+ up
+
+
+with
+ new
+ theorems
+ like
+ the
+ smartest
+
+
+humans
+ can
+ but
+ most
+ humans
+ can't
+ do
+ that
+
+
+either
+ um
+ what
+ most
+ humans
+ do
+ it
+ sounds
+
+
+like
+ a
+ similar
+ to
+ what
+ you're
+ calling
+
+
+memorization
+ which
+ is
+ memorizing
+ skills
+
+
+or
+
+
+memorizing
+ um
+ you
+ know
+ uh
+ techniques
+
+
+that
+ you've
+ learned
+ and
+ so
+ it
+ sounds
+
+
+like
+ it's
+ compatible
+ in
+ your
+ tell
+ me
+ if
+
+
+this
+ is
+ wrong
+ is
+ it
+ compatible
+ in
+ your
+
+
+world
+ if
+ like
+ all
+ the
+ remote
+ workers
+ are
+
+
+gone
+ but
+ they're
+ doing
+ skills
+ which
+ we
+
+
+can
+ potentially
+ make
+ synthetic
+ data
+ of
+
+
+so
+ we
+ record
+ everybody's
+ screen
+ and
+
+
+every
+ single
+ remote
+ worker
+ screen
+ we
+
+
+sort
+ of
+ understand
+ the
+ skills
+ they're
+
+
+performing
+ there
+ and
+ now
+ we've
+ trained
+ a
+
+
+model
+ that
+ can
+ do
+ all
+ this
+ all
+ the
+
+
+remote
+ workers
+ are
+ unemployed
+ we're
+
+
+generating
+ trillions
+ of
+ dollars
+ of
+
+
+economic
+ activity
+ from
+ Mii
+ uh
+ remote
+
+
+workers
+ in
+ that
+ world
+ is
+ are
+ we
+ still
+ in
+
+
+the
+ memorization
+ regime
+ so
+ sure
+ uh
+ with
+
+
+memorization
+ you
+ can
+ automate
+ almost
+
+
+anything
+ as
+ long
+ as
+ it's
+ it's
+ a
+ static
+
+
+distribution
+ as
+ long
+ as
+ you
+ don't
+ have
+
+
+to
+ deal
+ with
+ change
+</summary>
+</details>
