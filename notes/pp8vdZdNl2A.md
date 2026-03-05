@@ -1,97 +1,535 @@
 ---
-area: tech-engineering
-category: ai-ml
-companies_orgs:
-- TED
-- Nvidia
-- Palantir
+author: TED
 date: '2025-12-19'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-media_books:
-- 《皇帝的新衣》
-people:
-- Charlie Munger
-- Warren Buffett
-products_models:
-- Bitcoin
-- Ethereum
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=pp8vdZdNl2A
 speaker: TED
-status: evergreen
-summary: 演讲者 Henrik Zeberg 警告称，当前人工智能（AI）和加密货币市场存在巨大的金融泡沫，并将其与历史上著名的泡沫事件（如郁金香狂热、南海泡沫、互联网泡沫）进行对比。他引用了**沃伦·巴菲特**和**查理·芒格**的观点，并深入分析了**FOMO**（害怕错过）心理和群体动力学在其中扮演的角色。演讲者预测，随着经济放缓和市场回调，**比特币**等资产可能面临高达95%的崩盘。
 tags:
-- bubble
-- crypto
-- investing
-- investment
-title: AI 泡沫即将破裂？
+  - financial-bubbles
+  - fear-of-missing-out
+  - crowd-psychology
+  - crypto-bubble
+  - market-crash
+title: \"泡沫的心理学：警惕 AI 与加密货币的狂热\"
+summary: \"本次演讲深入探讨了金融泡沫的形成机制，从“詹特法则”和人类深层的“错失恐惧症”（FOMO）出发，结合历史上如郁金香狂热、互联网泡沫等经典案例，揭示了群体心理如何驱动资产价格非理性上涨。演讲者通过数据和历史对比，指出当前AI与加密货币市场的巨大泡沫，并预测经济放缓和衰退将导致其破裂，强调识别并警惕这种集体非理性行为的重要性。\"
+insight: ''
+draft: true
+series: ''
+category: investment-assets
+area: finance-wealth
+project: []
+people: []
+companies_orgs:
+  - OpenAI
+  - Nvidia
+  - Palantir
+products_models:
+  - Bitcoin
+  - Ethereum
+media_books: []
+status: evergreen
 ---
-### 引言
+### 泡沫心理学：集体非理性与风险警示
 
-“别以为你很特别。别以为你比我们懂得多。” 这些是出自**延特法**（Jante Law: 源自虚构作品的一套规则，宣扬墨守成规，反对个人成就或炫耀）的论断。我认为这是危险的，它正在驱动一种可能带来灾难性后果的普遍思维。今天我想谈论一个可能比刚才听到的内容更枯燥的话题：**比特币**、加密货币以及金融泡沫。
+我们常常被一些“群体共识”所裹挟，即使它们可能带来危险的后果。正如“詹特法则”（Law of Jante）所警示的，不要认为自己比他人更特别、更优越。这种思维定势在金融市场中尤为明显，常常导致我们低估风险，忽视警告。当前，围绕着**比特币**、加密货币乃至**AI**的狂热，正是这种集体非理性的一个缩影。就连世界上最成功的投资者之一**沃伦·巴菲特**（Warren Buffett）和已故的**查理·芒格**（Charlie Munger）都曾用极为尖锐的言辞形容比特币，例如称其为“性病”（venereal disease）或“老鼠药的平方”（rat poison squared）。他们对加密货币的警惕，恰恰源于对金融泡沫的深刻理解。
 
-### 专家观点与质疑
+尽管**比特币**一路走来创造了惊人的回报，吸引了无数追随者，甚至催生了“Lambo Guy”这样的现象，但理解那些成功投资者的警告至关重要。他们凭借数十年的投资经验，实现了数百万百分比的回报，他们的观点绝非空穴来风。
 
-“**比特币是一种性病**。” “**比特币是老鼠药的平方**。” 这些话并非出自我的口，而是来自**查理·芒格**和**沃伦·巴菲特**——他们是这个世界上最杰出的投资者之二。他们拥有辉煌的投资生涯，回报率高达五百万个百分点，这本身就说明了一切。因此，当他们发言时，我们必须倾听。**查理·芒格**先生已故，但他们过去的话语依然具有分量。
+<details>
+<summary>Original English</summary>
 
-**比特币**当然经历了一段辉煌的历程，我们都应该赞赏它多年来带来的惊人回报。但当我们听到这些时，我们不禁要问：为什么世界上最成功的两位投资者会如此贬低它？
+So, don't think you're special.
+Don't think that you know more than we do.
+These are some of the statements
+from the Law of Jante.
+And I think that is dangerous.
+I think that is actually driving
+a common thinking
+that can bring, you know, hazard outcomes.
+And today I want to talk about something
+that may be a little more dry
+than what we have just heard,
+which is Bitcoin, crypto,
+bubbles, financial bubbles.
+"Bitcoin
+is a venereal disease."
+"Bitcoin is rat poison squared."
+These are not my words.
+These are the words
+of Charlie Munger and Warren Buffett,
+two of the most prominent investors
+this world has ever seen.
+Most successful investors.
+Five million percent in returns
+over their investment careers,
+speaks for itself.
+So when they talk and speak,
+and unfortunately, Mr. Munger is dead,
+but when they did talk
+or when they they'd speak,
+we have to listen.
+And I definitely listen.
+Bitcoin has, of course,
+had a fantastic journey
+and we all need to praise, of course,
+the amazing returns
+that that has given over the years.
+But when we hear about it,
+of course, we have to wonder
+why are the two most successful
+investors in the world
+talking about it like rat poison?
 
-### 个人经历与FOMO
+</details>
 
-我来分享一个个人故事。2016年，我曾考虑投资**比特币**，计划购买约15万美元的比特币，这笔投资今天的价值约为2000万至2500万美元。我最终没有行动，主要是因为当时从银行转账到加密货币钱包存在诸多不便。然而，我的一位朋友却抓住了机会，他投资了**以太坊**（Ethereum），当时价格仅为50美分，并一直持有到价格涨至约1400美元，实现了2800倍的回报。在加密货币领域，他并非唯一一个获利丰厚的人。
+### FOMO与群体动力学：驱动泡沫的心理根源
 
-我们都听说过那些“兰博基尼（Lambo）男孩”，或者那些投身于看似荒谬事物却最终获得百倍回报的人。我不知道你们的感受，但我确实能感受到**FOMO**（Fear Of Missing Out，害怕错过）。
+驱动人们在泡沫中狂热追逐的，是一种深植于人类本能的心理机制——**错失恐惧症**（FOMO，Fear of Missing Out）。这种恐惧源于我们作为狩猎采集者的祖先，群体生存的保障（食物、安全、繁衍）使得与群体保持一致成为生存的关键。脱离群体意味着危险。这种古老的本能，在现代社会被放大，尤其是在信息爆炸和快速变化的金融市场中。当我们看到他人因某种资产获得巨额收益时，**FOMO**会让我们产生“不参与就落后”的焦虑，从而冲动决策。
 
-### FOMO心理剖析
+历史上有许多名人也未能幸免于**FOMO**的陷阱。例如，伟大的科学家**艾萨克·牛顿**（Sir Isaac Newton）在1700年代就曾投资于“南海泡沫”（South Sea bubble）。他早期获利后退出，但看到朋友们因此变得更加富有，他便因**FOMO**再次投入巨资，最终在泡沫破裂时损失惨重。他痛苦地总结道：“我可以计算天体的运行，却无法计算人性的疯狂。”
 
-**FOMO**，害怕错过，是深植于人类心智的一种情感。它源于我们作为狩猎采集者群体生活的时代。成为群体的一员意味着食物、安全和繁衍的保障，而脱离群体则是危险的。这种心理至今仍影响着我们。如果我们不属于某个群体，如果我们不随波逐流，就像**延特法**所倡导的那样，那就会被视为危险。
+**群体动力学**（crowd dynamics）是泡沫形成的另一重要因素。1968年的一项“烟雾房间实验”（smoked room experiment）揭示了这一点：在一个房间里，八名假扮者对门缝中冒出的烟雾视而不见，当真正的申请者独自一人时，他更有可能报告异常情况。这表明，群体行为和从众心理会改变个体的判断和行动，即使面对显而易见的问题。
 
-因此，**FOMO**深藏于我们内心，它可能驱使我们做出并非出于本意的决定，甚至做出违背自身利益的事情。这并非仅仅是“愚蠢的人”或“不理解事物的人”才会有的行为。
+<details>
+<summary>Original English</summary>
 
-### 历史上的FOMO与泡沫
+I can tell this personal story.
+In 2016, I was close
+to investing in Bitcoin.
+Actually buying around maybe
+150,000 dollar's worth of Bitcoin,
+which today would have had a value
+of around 20 to 25 million dollars.
+I didn't do it, I didn't get to it
+because of the difficulties
+in actually getting the money transferred
+from a bank to a wallet back then.
+But one of my friends actually did enter,
+did take the crypto plunge,
+and he entered Ethereum,
+which is another crypto,
+at a time when it was at 50 cents.
+And he held on to it
+until the moment it actually
+reached around 1,400 dollars.
+So 2,800 times.
+And he's not the only one
+that has done well
+when it comes to crypto.
+We've all heard of these Lambo guys,
+or people that have jumped
+into something that seems ridiculous,
+only to see it go up 100 times.
+I don't know about you,
+but I definitely can feel the FOMO.
+FOMO, what is that?
+FOMO, fear of missing out.
+Well fear of missing out is something
+that is very deep in the human mind.
+It goes back to the times
+as we lived as hunters
+and gatherers in groups.
+Being part of the group
+ensured food, security, mating,
+and being outside was dangerous.
+And that's something
+we have taken on to us today, also.
+If we're not part of the group,
+if we don't think alike,
+like, the Jante law
+is also kind of commending.
+Well then it's dangerous.
+So fear of missing out, FOMO,
+is something that is deeply in us,
+and is something that can make us
+maybe come up to conclusions
+or do things we don't necessarily would do
+if we were just ourselves.
+And this is not something
+just maybe I, as a stupid person,
+or people that don't
+understand things, do.
+Sir Isaac Newton
+is probably one of the most intelligent
+people that has ever lived.
+And in the 1700s,
+he actually were a victim of FOMO.
+So that was the time
+of the South Sea bubble.
+Newton invested in,
+saw his stock rise,
+earned a good money, got out,
+but saw his friends actually staying in
+and becoming even more rich.
+He FOMO-ed in,
+invested more, actually a lot.
+And the bubble burst.
+He famously said afterwards,
+"I can calculate the movement
+of heavenly bodies,
+but not of the madness of men."
+So FOMO can make us
+do things we don’t want,
+that can be against what we actually --
+what is good for us.
+And that is actually also very visible,
+that crowd dynamics that is a part of,
+when we talk about what is called
+the smoked room experiment.
+This is an experiment from 1968,
+where a group of applicants to a job
+is invited in to a room.
+Eight of the nine applicants are actors.
+They are told to stay seated,
+just work on their assignment
+no matter what happens.
+One person is a real applicant.
+All of a sudden,
+while they do their application,
+smoke comes through the door.
+When there are other people,
+the other eight actors are in the room,
+90 percent of the time people stay seated
+and do not report on the smoke,
+on the potential hazardous event
+that is unfolding.
+But when that person,
+the applicant is alone,
+75 percent of them got up
+and actually reported on the smoke.
+So crowd dynamics is something
+that changes the way we think.
+And that is what actually also is part
+of why we see financial
+bubbles developing.
 
-连伟大的**艾萨克·牛顿爵士**（Sir Isaac Newton）也曾是**FOMO**的受害者。在18世纪，他投资了**南海泡沫**（South Sea bubble）时期的股票，看到股价上涨并获利后退出，但看到朋友们继续持有并变得更加富有。他因此产生了**FOMO**心理，追加了大量投资，最终泡沫破裂。他后来名言道：“**我可以计算天体的运行，却无法计算人性的疯狂。**”
+</details>
 
-**FOMO**会让我们做出违背自己意愿、不利于自身的事情。这种群体动力学也体现在著名的“烟雾室实验”（smoked room experiment）中。1968年的一项实验显示，当一群求职者在房间里工作时，如果有人注意到房间里开始冒烟，并且其他人（假扮的求职者）都无动于衷时，绝大多数人也会选择保持沉默，即使存在潜在危险。而当被试者独自一人时，他们更有可能报告烟雾情况。这表明群体动力学可以改变我们的思维方式，这也是金融泡沫形成的原因之一。
+### 历史上的泡沫：技术浪潮与非理性繁荣
 
-### 历史上的金融泡沫
+金融泡沫并非新近事物，其模式在历史长河中反复上演。从17世纪的“郁金香狂热”（Tulip Mania）到20世纪末的互联网泡沫，每一次泡沫的形成都伴随着新的技术或概念的出现，点燃了人们的想象，并最终因非理性繁荣而破灭。
 
-纵观历史，金融泡沫屡见不鲜。1630年代的**郁金香狂热**（Tulip Mania）是其中一个早期例子。当时，郁金香从奥斯曼帝国传入，成为人们追逐的焦点。人们购买郁金香并非出于其使用价值，而是寄希望于第二天能以更高的价格卖出获利。泡沫在狂热顶峰时破裂，一个郁金香球茎的价格曾相当于一栋房子。
+*   **郁金香狂热（1630年代）**：一种来自奥斯曼帝国的新奇植物，在荷兰引发了史无前例的投机狂潮。人们购买郁金香并非因为其观赏价值或实用性，而是寄希望于第二天能以更高的价格转售。泡沫破裂时，一颗郁金香球茎的价格甚至相当于一栋房子的价值。
+*   **19世纪40年代英国的铁路热潮**：蒸汽机和火车头的出现曾被视为改变世界的革命性技术。无数公司应运而生，市场充斥着“绝不会赔钱”的乐观情绪。然而，这种过度投资最终导致了泡沫的破裂，许多人损失惨重，尽管火车技术本身确实改变了世界。
+*   **20世纪20年代的“咆哮的二十年代”**：一战后的电气化、汽车和广播技术的普及，为人们带来了前所未有的新奇体验。然而，这种对新时代的狂热也催生了巨大的金融泡沫，最终在1929年股市崩盘后引发了大萧条。
+*   **互联网泡沫（Dot-com bubble）**：上世纪末，互联网的兴起被视为“新经济”的开端。市场不再关注盈利能力，而是过度投资于营销和概念，**华尔街**和媒体（如**Webvan**和**Pets.com**）的追捧更是将泡沫推向顶峰。尽管互联网无疑改变了世界，但市场对公司价值的判断却陷入了非理性狂热。
 
-再到1840年代的英国，蒸汽机和火车头的出现带来了革命性的技术。然而，人们普遍认为这将带来巨大的财富机会，于是纷纷涌入投资，成立了数千家公司。人们认为这是“稳赚不赔”的机会。但最终，泡沫破裂，许多人损失惨重，尽管技术本身是革命性的。
+这些历史案例清晰地表明，即使是革命性的技术，也不能保证市场不会出现非理性繁荣和随后的崩溃。
 
-进入20世纪20年代（Roaring '20s），第一次世界大战结束，电气化、汽车和收音机等新技术层出不穷。想象一下，在寂静的家中突然能听到收音机里传来的声音，或是汽车取代马匹。那是一个技术飞跃的时代。但同样，人们再次因**FOMO**而疯狂涌入，认为这是一个全新的时代，抛弃旧世界。一个巨大的泡沫随之形成并最终破裂，导致了股市崩盘和经济大萧条。
+<details>
+<summary>Original English</summary>
 
-到了我们可能还记得的**互联网泡沫**（dot-com bubble）时期。互联网作为一项颠覆性技术出现，再次引发了**FOMO**。人们认为这是“新经济”的绝佳机会，投资不再看重盈利能力，而是营销投入。华尔街和媒体都对此推波助澜，**Webvan**和**Pets.com**等公司成为媒体宠儿。互联网确实改变了世界，但这并不意味着市场不会崩溃，人们不会变得狂热。
+If we look at financial bubbles,
+then we saw one of the largest
+financial bubbles back in the 1630s,
+which was called the Tulip Mania.
+It was at a time where the tulip had been
+introduced from the Ottoman Empire,
+and for some reason,
+it became the center of attention.
+People start buying it,
+and market rose up,
+and people kept buying
+this tulip or the tulips,
+not because of its utility,
+but because they thought
+they could sell it off the next day
+to earn money.
+The bubble burst at the peak
+of that hype, of that mania,
+and that's just to explain
+how mad it can become.
+One tulip bulb had the price
+of a house at that time.
+Then we can fast forward
+to the 1840s Britain.
+And this was at a time where a fantastic
+technology came out.
+Steam engine, the locomotive,
+promised to change the world,
+and it certainly did.
+But the thing was, everybody thought
+that this is now changing ways,
+also, we will earn money,
+and everybody FOMO-ed in.
+Thousands of companies
+rose up, were established.
+People thought this is
+a cannot-lose opportunity.
+And again,
+we saw how a bubble burst,
+and a lot of people actually lost money.
+And this was still because,
+even though there was
+a really fantastic technology
+that changed the world.
+We can then fast-forward
+to the roaring '20s
+and try and imagine, that was the time
+where we have just seen
+the end of the first World War.
+We saw the electrification,
+we saw the technology of a car.
+We saw radio coming out.
+Try and imagine sitting there
+in your silent home,
+all of a sudden you can turn on the radio
+and you can hear people speaking to you.
+That was quite something.
+Turning on the light,
+getting yourself into the car and driving
+instead of having horses.
+We think we have seen leap in technology.
+Well, I can tell you, that was special.
+And what happened then?
+Again, we saw people FOMO into it.
+Because this is, of course,
+a new world, this new time,
+forget about the old world.
+And a massive bubble unfolded.
+Again it burst.
+And as we probably know,
+as we heard from school,
+we saw the stock market crashing,
+we saw the large depression
+in the US and elsewhere,
+because of this FOMO.
+And then we can fast forward to something
+we may be able to remember,
+at least some of us
+with a little more gray hair.
+So that was dot-com bubble.
+And this was at a time where
+another new technology came out,
+just like the steam engine and the radio.
+And now we had the internet,
+and everybody again FOMO-ed in.
+What's not to like?
+Fantastic opportunity.
+The world is new,
+new economy, they called it.
+And it's no longer
+about how much you earn.
+It's about how much
+you spend on marketing.
+And there was a fantastic support to this.
+Wall Street were all behind it,
+media were all behind it.
+There were media darlings
+like Webvan and Pets.com.
+So the media were all over this.
+Everybody was praising this new,
+fantastic and brave world.
+Did the internet change the world?
+Absolutely.
+But is that the same as a promise
+that you cannot see
+that the market can crash,
+or that people get exuberant?
+No.
 
-### 当前的AI与加密货币泡沫
+</details>
 
-现在，我想谈谈**比特币**。我认为**比特币**就是当前金融泡沫的典型代表，即**AI与加密货币泡沫**。但在此之前，我想讲一个故事。我来自丹麦，我们有位著名的童话作家**汉斯·克里斯蒂安·安徒生**（Hans Christian Andersen），他写了**《皇帝的新衣》**（The Emperor’s New Clothes）的故事。
+### 当前泡沫：AI与加密货币的“皇帝新衣”
 
-故事讲述了一位虚荣的皇帝，两位骗子声称能制作出最华丽的衣服，但只有聪明或称职的人才能看见。皇帝派了大臣去查看，大臣看不见衣服，却害怕被视为愚蠢或不称职，于是谎称衣服非常精美。皇帝亲自去看，同样看不见，也害怕暴露自己的无知，便继续沉默。
+现在，我们将目光转向当前最受瞩目的两个领域：**AI**与加密货币，尤其是**比特币**。演讲者认为，这构成了我们目前所见的**最大金融泡沫**。他援引**沃伦·巴菲特**提出的“市值对GDP比率”作为衡量泡沫大小的指标。历史上，1929年为89%，2000年为136%，2007年为107%。而当前这一比率已飙升至惊人的226%。
 
-到了展示新衣的日子，皇帝赤身裸体地走上街头，人群和精英们都假装赞美。直到一个天真的孩子喊出：“**他根本没穿衣服！**” 这个故事的寓意是，有时需要一个纯真、或许有些天真的视角，才能指出显而易见的事实。
+与此同时，一些科技公司如**英伟达**（Nvidia）和**Palantir**，在15年内实现了高达94,000%的回报，这显然是“非常泡沫化”（frothy）的。**比特币**自2012年以来更是上涨了120万%。这种惊人的涨幅，以及**比特币**与**纳斯达克**指数之间的高度相关性，预示着风险。**纳斯达克**在2001年就曾经历过85%的崩盘，而如今的泡沫规模远大于当时。演讲者大胆预测，当泡沫破裂时，**比特币**的跌幅可能高达95%。
 
-### 泡沫的量化与预测
+这种现象，如同**汉斯·克里斯蒂安·安徒生**（Hans Christian Andersen）的童话《**皇帝的新衣**》：故事中的皇帝因虚荣而相信了两名骗子的话，让他们为自己制作“看不见的”新衣。即使在臣民和顾问都无法看见的情况下，人们因害怕被视为愚蠢或不称职而不敢说出真相。最终，只有一个天真的孩子喊出了那句显而易见的事实：“他根本没穿衣服！”。演讲者以此类比，指出当前市场中，许多人可能正因害怕被视为不懂**AI**或**加密货币**潮流而被抛弃，而不敢质疑那些显而易见的泡沫迹象。
 
-现在，我回到**比特币**。正如我所说，我们正经历着有史以来最大的金融泡沫。我刚才提到了四个巨大的泡沫，而我认为现在的泡沫更大。**沃伦·巴菲特**和**查理·芒格**有一个衡量泡沫的指标：**市值与GDP之比**（Market capitalization to GDP ratio: 一种衡量股市估值的指标，比较总市值与国家GDP）。这个比值越高，泡沫越大。1929年为89%，2000年为136%，2007年为107%。而今天，这个比值达到了惊人的**226%**。
+<details>
+<summary>Original English</summary>
 
-看看今天表现出色的公司，如**英伟达**（Nvidia）和**Palantir**。这在我看来就像是**郁金香狂热**的重演。你不需要懂太多金融知识，就能看到**英伟达**在15年内上涨了94000%。**纳斯达克**（Nasdaq）和**比特币**的表现也十分惊人。自2012年以来，**比特币**已上涨了120万个百分点。
+So now I want to talk about Bitcoin.
+Because I think Bitcoin
+is the very definition
+of this financial bubble
+we have at this point.
+AI and crypto bubble.
+But before I do that,
+now we talked about Jante,
+but I'm from Denmark.
+In Denmark, we have
+a famous fairytale teller,
+Hans Christian Andersen,
+who had the story or told the story
+of “The Emperor’s New Clothes.”
+And this is the story,
+for the ones who don't know it
+already, of course,
+this is about the emperor
+who lived in his empire.
+And one day,
+two fraudsters came to town.
+And those were tailors.
+They would be able to make the most
+fantastic clothes that he had ever seen,
+so he could stand out really nice.
+He was very vain.
+And he, of course, got intrigued.
+There was, however, this one caveat to it.
+That if people were especially stupid
+or were not good at what they do,
+they would not be able to see the clothes.
+And the emperor thought
+that was interesting,
+and he sent them off
+and they started to work,
+the two fraudsters, on their looms,
+weaving and making the clothes.
+The emperor got impatient
+and sent off his best advisor and said,
+"Can you go to check on how it's going?"
+The advisor came to the fraudsters
+and couldn't see the clothes.
+And he thought,
+"What is that going to tell of me
+if I can't see the clothes?
+I'm not going to do that."
+So he went back to the emperor,
+said, “Oh, that’s amazing, sir.
+You love it, it's fantastic."
+And then the emperor thought,
+“OK, I’ve got to go see myself.”
+And he went.
+And again, he couldn't see the clothes.
+And he thought, "What is that going
+to tell my people about who I am?"
+Oh, sorry about that.
+There we go.
+"And how I run the country."
+So what he did was,
+again, like his advisor,
+to simply just keep silent.
+And the day came where he was supposed
+to walk down the street,
+as we do when we get new clothes,
+we like to show it off.
+And the fraudsters
+helped him put on the clothes
+and he walked down the street.
+And everybody, all in the crowd,
+were saying how fantastic this was,
+especially the elite.
+"Wow. Amazing garment."
+Until a little boy cried out,
+"But why isn't he wearing any clothes?"
+Now why am I saying that?
+What is the moral?
+Of course, that sometimes
+it takes an innocent mind,
+naive mind maybe,
+to point out what is obvious.
+And now I want to turn to Bitcoin,
+because, as I said,
+we currently have the largest
+financial bubble that we have ever seen.
+I have just told you
+about four massive bubbles,
+and I'm claiming we have one
+that is even bigger.
+Warren Buffett and Charlie Munger
+had a way of looking at that.
+That is the market
+capitalization to GDP ratio.
+Let's just put it there.
+The higher it is, the bigger the bubble.
+In 1929, 89 was the number there.
+2000, massive bubble.
+We laughed at it afterwards.
+It was 136 percent.
+2007, it was at 107 percent.
+These are the two lumps you see there.
+This is where we are today, 226 percent.
+And we can just look
+at some of the businesses
+that are doing well today.
+As I said, a crypto and AI bubble.
+Nvidia, Palantir.
+It looks like the Tulip bubble to me.
+I mean, you don't need
+to know much about finance
+to see that 94,000 percent
+in a matter of 15 years.
+That's pretty frothy.
+Nasdaq, Bitcoin.
+Bitcoin is up 1.2 million percent
+since 2012.
+So now people say, yeah,
+but, you know, it can keep going up.
+Well if you have a bubble and it bursts
+and you can see that Nasdaq and Bitcoin
+are following each other
+very, very closely,
+and you also know
+that Nasdaq actually tumbled,
+crashed 85 percent after 2001,
+in that massive bubble that is way smaller
+than what we have today.
+Now guess what is going
+to happen to Bitcoin.
+When Bitcoin crashes much, much more,
+every time we see a decline in Nasdaq.
+I say Bitcoin is going
+to crash by 95 percent.
+That's not what we hear
+when we hear the media,
+the academia, the crowd
+and the emperor’s new clothes
+talking about this.
 
-有人会说，它还会继续上涨。但如果泡沫破裂，并且我们看到**纳斯达克**和**比特币**的走势高度相关，同时我们也知道**纳斯达克**在2001年那个规模远小于今天的泡沫中曾下跌85%，那么我们可以猜测**比特币**将会发生什么。我预测**比特币**将下跌高达**95%**。这与媒体、学术界和大众在谈论此事时所呈现的观点截然不同。
+</details>
 
-### 经济放缓与泡沫破裂的风险
+### 经济放缓与泡沫的终结
 
-此外，我们正面临经济放缓的局面，这一点非常明显。我们不需要成为经济学家就能看到这些“圆底”形态。这是美国的失业率图表，每次失业率上升，就会出现经济衰退。而经济衰退正是泡沫破裂之时。当泡沫破裂时，持有那些正在下跌资产的人将遭受重创。
+与此同时，经济放缓的迹象日益明显。失业率的上升常常预示着经济衰退的到来，而**衰退**正是泡沫破裂的催化剂。当前，我们正处于一个比2001年**纳斯达克**崩盘时规模更大的泡沫之中。当经济滑入衰退，市场信心崩溃，**AI**和加密货币等资产的估值将面临严峻考验。
 
-假设我的预测是正确的，经济衰退即将来临，**纳斯达克**在2001年下跌了85%，而这次的泡沫规模更大。如果经济陷入衰退，**纳斯达克**开始崩盘，在这个**AI**泡沫中，**比特币**和加密货币会怎样？
+演讲者最终总结道，**比特币**和加密货币确实代表了一种技术创新，但这并不等同于投资回报的保证。它们很可能是一个即将破裂的巨大泡沫，其影响将是深远的。正如**巴菲特**和**芒格**所言，它们可能就像一种“venereal disease”，对那些沉迷其中的投资者造成严重的、难以摆脱的伤害。识别并警惕这种由**FOMO**和群体心理驱动的非理性繁荣，是保护个人财富的关键。
 
-我认为**比特币**和加密货币是一个巨大的泡沫。这并不否定其背后可能存在的革命性技术，就像蒸汽机、火车头、收音机一样。但技术本身并不等同于有保障的回报。我认为在不久的将来，我们将看到这个泡沫破裂。我同意**沃伦·巴菲特**和**查理·芒格**的观点：**比特币**和加密货币，就像一种性病。
+<details>
+<summary>Original English</summary>
 
-谢谢大家。
-(掌声)
+So ...
+And then we also have a situation
+where we have a slowdown in the economy.
+It's very visible.
+We don't need to know much about economy
+to see these rounding bottoms.
+This is unemployment level in the US.
+Every time they move up,
+you get a recession.
+A recession is where bubbles burst.
+And when a bubble bursts,
+you're going to hurt if you have
+those assets that are crashing.
+So let's say I'm right.
+We have a recession coming,
+and Nasdaq dropped by 85 percent in 2001.
+And we have a larger bubble
+this time, much larger.
+What is going to happen
+if the economy falls into a recession
+and we see Nasdaq crashing,
+in this AI bubble we have?
+I say Bitcoin,
+crypto, is a massive bubble.
+It doesn't take away
+that there is a technology
+just like in the locomotive, steam engine,
+and also what we saw
+with the radio and so on.
+But it's not the same
+as guaranteed returns.
+And I think we're going to see this
+in a not too distant future.
+It's a bubble that is going to burst.
+I think Warren Buffett
+and Charlie Munger are right.
+Bitcoin, crypto,
+is like a venereal disease.
+Thank you.
+(Applause)
+
+</details>
