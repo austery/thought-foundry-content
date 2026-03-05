@@ -1,47 +1,59 @@
 ---
-area: "work-career"
-category: ai-ml
-companies_orgs: []
+author: Dwarkesh Patel
 date: '2025-02-20'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-people:
-- Satya Nadella
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=itkvrQUSJC0
 speaker: Dwarkesh Patel
-status: evergreen
-summary: 本文介绍了量子计算领域的重大突破，特别是通过制造**马约拉纳零模**实现了**拓扑相**的物理学进展，并成功开发了**马约拉纳一号**芯片。这一成就为构建**实用规模**和**容错量子计算机**奠定了基础，预计在
-  2027-2029 年实现。同时，文章强调了**AI**、**HPC**与**量子计算**的协同作用，预示着在模拟、化学、物理等领域将有更广泛的应用前景。
 tags:
-- llm
-- majorana-zero-mode
-- quantum-computing
-title: 萨提亚·纳德拉展示首款马约拉纳 1 号量子计算芯片
+  - quantum-computing
+  - majorana-zero-modes
+  - topological-qubit
+  - fault-tolerance
+  - computational-physics
+title: 微软马约拉纳芯片：量子计算的“晶体管时刻”与百万比特愿景
+summary: 微软 CEO Satya Nadella 揭秘了量子计算的重大物理突破——马约拉纳零能模（Majorana zero modes）的成功实现。这一进展被视为量子计算的“晶体管时刻”，标志着从理论走向可扩展、实用化规模（Utility Scale）的关键转折。通过马约拉纳 1 芯片，微软计划在 2027-2029 年间构建容错量子计算机，并展示了量子计算与 AI、高性能计算（HPC）协同运作的未来混合架构。
+insight: ''
+draft: true
+series: ''
+category: ai-ml
+area: tech-engineering
+project: []
+people:
+  - Satya Nadella
+companies_orgs:
+  - Microsoft
+products_models:
+  - Majorana 1
+media_books: []
+status: evergreen
 ---
-### 核心突破
-我相信我们现在就到了。是的，就是这样。我很难想象我们竟然能在如此小的设备中构建一个拥有**百万量子比特**的量子计算机，这简直令人难以置信。我认为这就是问题的关键：除非我们能够做到这一点，否则你无法梦想构建一个**实用规模的量子计算机**（Utility-Scale Quantum Computer: 指能够解决实际问题，并比经典计算机具有显著优势的量子计算机）。你提到最终的百万量子比特将集成在一块芯片上。
+### 马约拉纳零能模：量子计算的“晶体管时刻”
 
-### 马约拉纳零模
-这太棒了。这里的根本性突破，我们一直以来的愿景是，你需要一个物理学上的突破，才能构建一个能够正常工作的实用规模量子计算机。因此，我们选择了这条道路，也就是采取一种策略：要获得一个噪声更小、更可靠的量子比特，就必须依赖一种物理性质，这种性质按其定义就更可靠。这正是引导我们走向**马约拉纳零模**（Majorana Zero Modes: 一种理论上存在的准粒子，在量子计算中因其拓扑保护特性而被视为构建稳定量子比特的候选）的原因，它在 20 世纪 30 年代就被理论化了。
+在量子计算的发展史中，如何从实验室原型迈向**实用化规模**（Utility Scale）一直是行业核心痛点。微软 CEO Satya Nadella 展示了其最新研发的 **Majorana 1** 芯片，并将其定义为量子计算领域的“晶体管时刻”。这一突破的核心在于利用了 1930 年代理论化的**马约拉纳零能模**（Majorana zero modes），通过在一种全新的物质相——**拓扑相位**（Topological phase）中运行，成功实现了量子信息的可靠隐藏与测量。
 
-### 拓扑相与制造
-所以问题是，我们能否实际制造出这些东西？我们能否真正地构建它们？所以，重大突破，我记得你和陈（Chan）谈过，就是我们现在终于有了**马约拉纳零模**存在的证明，以及在一种新的**拓扑相**（Topological Phase: 一种特殊的物质状态，其性质由拓扑学决定，对局部扰动具有鲁棒性，非常适合存储量子信息）中的物理学突破。所以，这就是为什么我们喜欢将其比作**量子计算的晶体管时刻**。我们实际上拥有了一个新的拓扑相，它更可靠，这意味着我们可以可靠地隐藏量子信息并对其进行测量，而且我们可以制造它。
+相比于其他路径，这种物理层面的突破解决了量子位（Cubit）高度敏感、易受干扰的顽疾。通过这种**基础制造技术**（Foundational fabrication technique），微软能够在指甲盖大小的芯片上集成多达一百万个物理量子比特，并在此基础上产生数千个经过**纠错**（Error corrected）的逻辑量子比特。这不仅是数量级的跃迁，更是从“实验演示”向“实际应用”的质变，使得构建一台真正的实用规模量子计算机在物理架构上变得触手可及。
 
-### 未来芯片与实用规模
-既然我们已经掌握了这项核心的、基础性的制造技术，我们就可以开始构建**马约拉纳芯片**，即**马约拉纳一号**（Majorana One）。我认为它将成为第一款能够实现物理上百万量子比特的芯片，然后在此基础上实现数千个逻辑量子比特，并进行错误纠正。之后，游戏就开始了，对吧？你突然就有了构建真正**实用规模量子计算机**的能力。对我来说，这现在变得可行多了。我们一直在努力，因为没有这样的东西，你仍然可以实现里程碑，但你永远无法构建一个实用规模的计算机。所以这就是我们对此感到兴奋的原因。
+<details><summary>Original English Source</summary>
+I believe this is it right here... to think of the fact that we were able to build a million Cubit quantum computer in a thing of this size is just unbelievable... the vision that we've always had is you need a physics breakthrough in order to build a utility scale quantum computer that works. And so we took that path... to bet on a physical property that by definition is more reliable and that's kind of what led us to those Majorana zero modes... which was theorized in the 1930s. Effectively, we now finally have existence proof and a physics breakthrough of a Majorana zero modes in a new phase of matter effectively. So this is why I think we like the analogy of thinking of this as the transistor moment of quantum Computing where we effectively have a new phase which is the topological phase where we can even now reliably hide the quantum information and measure it. And so now that we have it, we feel like with that core foundational fabrication technique out of the way, we can start building a Majorana chip, that Majorana one which I think is going to basically be the first chip that will be capable of a million cubits physical and then on that thousands of logical cubits error corrected. And then it's game on.
+</details>
 
-### 时间线与摩尔定律
-太棒了。那么，拥有百万量子比特、数千个逻辑量子比特，扩展到这个规模的估计时间线是多久？如果这是第一代晶体管，这里的**摩尔定律**（Moore's Law: 指集成电路上可容纳的晶体管数目，约每隔 18 个月便会增加一倍，性能也将提升一倍）看起来是怎样的？我们显然为此工作了 30 年。我很高兴我们现在有了制造技术、物理学突破和制造上的突破。我希望我们能拥有一台量子计算机，因为说实话，量子计算机将允许我们做的第一件事就是构建量子计算机，因为模拟这些新的**量子门**（Quantum Gates: 量子计算的基本操作单元，类似于经典计算中的逻辑门）的原子级结构将变得容易得多。
+### 容错之路：从原子级模拟到 2029 落地时间表
 
-### 容错量子计算机
-但无论如何，我认为接下来的真正大事是，既然我们有了制造技术，就让我们去构建第一台**容错量子计算机**（Fault-Tolerant Quantum Computer: 能够抵抗噪声和错误，并执行复杂计算的量子计算机）。这将会是合乎逻辑的一步。所以，我现在可以说，哦，也许在 27、28、29 年，我们将能够真正地构建它。所以，既然我们有了这个单量子比特门，我能否将其集成到集成电路中，然后将这些集成电路放入一台真正的计算机中？我认为这是下一步的逻辑。
+随着底层物理突破的完成，量子计算的演进逻辑将遵循一种类似“摩尔定律”的指数级增长。Nadella 预测，首台**容错量子计算机**（Fault-tolerant quantum computer）有望在 2027 至 2029 年间问世。这一进程中最具吸引力的特征是量子计算的“自我加速”属性：由于量子计算机在模拟自然界的原子级构造方面具有天然优势，第一代量子计算机的首要任务将是辅助设计更为先进、更易制造的下一代量子门和量子电路。
 
-### AI、HPC 与量子协同
-你预计在 27、28 年它就能运行了。它是通过 API 访问的吗？还是你们内部用于自身研究、材料和化学的？你看，我一直很兴奋的一件事是，即使在当今世界，因为我们有一个量子项目，我们可以说，“嘿，这里有一些 API”。大约两年前，我们取得的突破是开始将**HPC（高性能计算）堆栈**（HPC Stack: 指用于执行大规模计算任务的硬件和软件集合）、**AI 堆栈**（AI Stack: 指用于开发和部署人工智能应用的硬件和软件集合）和**量子计算**结合起来思考。事实上，如果你仔细想想，**AI**就像一个模拟器（Emulator）的模拟器，而**量子计算**则像大自然的模拟器。量子计算将做什么呢？顺便说一句，量子计算不会取代经典计算。量子计算在它擅长的领域非常出色，经典计算也会继续存在。因为你不可能……量子计算对于那些数据量不大的、但需要更多状态空间探索的领域将是极其出色的。
+目前的挑战已从基础物理发现转向了**集成电路**（Integrated circuit）的大规模工程化。将单一的量子门封装进集成电路，再将这些电路组装成完整的计算机系统，是未来三年的核心路线图。这标志着量子计算正从物理学家的实验台，全面进入电气工程与计算机科学的系统集成阶段，为未来通过 API 提供量子算力铺平道路。
 
-### 应用与未来展望
-也就是说，它应该是数据量小但需要探索指数级状态的。你知道，模拟是一个很好的应用领域，比如化学、物理、生物学等等。所以，我们开始做的一件事就是真正地将 AI 用作**仿真引擎**（Emulation Engine: 用于模拟或复制另一系统行为的软件或硬件）。然后你可以进行训练。所以，我的想法是，如果你拥有 AI 加量子计算，也许你可以利用量子计算生成**合成数据**（Synthetic Data: 人工生成的数据，用于训练机器学习模型），然后这些数据被 AI 用来训练更好的模型，这些模型知道如何模拟化学、物理等。这两者将一起使用。所以，即使在今天，这基本上就是我们将 HPC 和 AI 结合起来正在做的事情。我希望用量子计算机取代 HPC 的一部分。
+<details><summary>Original English Source</summary>
+I wish we had a quantum computer because by the way, the first thing the quantum computer will allow us to do is build quantum computers because it's going to be so much easier to simulate atom by atom construction of these new Quantum Gates essentially. But in any case, to me I think the next real thing is now that we have the fabrication technique, let us go build that first fault tolerant quantum computer... I would say now I can say oh maybe 27, 28, 29 we will be able to actually build this. So now that we have this one gate, can I put the thing into an integrated circuit and then actually put these integrated circuits into a real computer, that I think is where the next logical step is.
+</details>
+
+### 协同演化：AI 模拟器与量子仿真器的深度融合
+
+量子计算并不会取代传统经典计算（Classical computing），而是与其形成互补的混合架构。Nadella 提出了一个深刻的洞察：**AI 是仿真器的模拟器**（AI is an emulator of the simulator）。量子计算本质上是自然界的**仿真器**（Simulator），特别擅长处理“数据轻量、状态重型”的探索任务，例如化学、物理和生物领域中涉及**指数级状态空间**（Exponential states）的分子结构模拟。
+
+在这种新架构中，**人工智能**（AI）将作为**仿真引擎**（Emulation engine）发挥作用。未来的工作流将是：利用量子计算机生成反映自然界真实物理规律的**合成数据**（Synthetic data），再用这些高精度数据训练 AI 模型，从而让 AI 掌握模拟化学反应或物理过程的深层规律。这种由**高性能计算**（HPC）、AI 与量子计算构成的“三位一体”栈，将彻底重塑科研与工业开发的范式，使得人类能够在数字世界中完整地模拟和理解现实世界的物质属性。
+
+<details><summary>Original English Source</summary>
+The breakthrough we had maybe two years ago was to sort of think of this HPC stack and AI stack and Quantum together. In fact, if you think about it, AI is like an emulator of the simulator... Quantum is like a simulator of nature. Quantum is not going to replace classical; Quantum is going to be fantastic for anything that is not data heavy but it's got more exploration heavy in terms of the state space. Data light but exponential states that you want to explore, and simulation is a great one... chemical, physics, biology. One of the things that we've started doing is really using AI as the emulation engine. If you have AI plus Quantum, maybe you'll use quantum to generate synthetic data that then gets used by AI to train better models that know how to model something like chemistry or physics. And these two things will get used together. I hope to replace some of the HPC pieces with quantum computers.
+</details>
