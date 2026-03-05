@@ -1,78 +1,801 @@
 ---
-area: society-thinking
-category: politics-society
-companies_orgs:
-- Russia
+author: Dwarkesh Patel
 date: '2024-03-13'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-media_books:
-- 《Journal of military history》
-people:
-- Sarah Paine
-- Donald Trump
-- Vladimir Putin
-- Adolf Hitler
-- Joe Biden
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=oEahPLq1qBU
 speaker: Dwarkesh Patel
-status: evergreen
-summary: 本讲稿探讨了海权与陆权两种截然不同的国际秩序模式。海权秩序以商业、国际法和合作共赢为基础，而陆权模式则侧重领土控制和零和博弈。演讲者分析了俄罗斯当前行为的陆权逻辑及其破坏性，强调了国际法和机构在维护全球和平与繁荣中的关键作用，并指出一个包容性的、多方参与的海权秩序是理想的未来方向。
 tags:
-- law
-- power
-- russia-ukraine-war
-title: 海权与陆权：国际秩序的演变与未来
+  - maritime-power
+  - continental-power
+  - international-law
+  - geopolitics
+  - win-win-order
+title: 海上与大陆力量：解析全球秩序的演变
+summary: 本文深入剖析了海上力量与大陆力量两种截然不同的世界观。作者阐述了以贸易、国际法和合作（海上秩序）为基础的“共赢”模式，如何优于以领土控制为核心、具有“负和”特性的“大陆”模式。通过历史案例和地缘政治分析，文章强调了国际制度和规则在促进全球繁荣与和平中的关键作用，并呼吁建立一个包容性的、可进化的全球秩序。
+insight: ''
+draft: true
+series: ''
+category: geopolitics
+area: geopolitics
+project: []
+people: []
+companies_orgs: []
+products_models: []
+media_books: []
+status: evergreen
 ---
+### 海上秩序：规则与商业的守护
 
-### 海权秩序与安全边界
+我们生活在由**海上秩序**（Maritime Order）所构筑的“城堡围墙”之内。人们遵循规则，从而获得外部的保护。然而，一旦这些围墙被**独裁**或极其愚蠢的“大战略”所突破——正如我们国家过去几年中曾**濒临险境**——其后果不堪设想。演讲者分享了一个重要的职业洞察：他曾在《**军事史杂志**》发表的“马歇尔讲座”中，总结了他对“大陆力量”与“海上力量”之间差异的看法。这两种力量代表着一种根本不同的世界观。普京式的思维模式，即“控制领土即安全”，与海上强国（如**英国**）的逻辑截然不同。海上强国追求通过最大化**商业**收入来积累财富，进而能够购买强大的**海军**和盟友，最终实现安全。这种模式的核心在于依据**国际法**来组织贸易，**荷兰共和国**及其先驱**雨果·格老秀斯**（国际法之父）在此过程中起到了关键作用。他们致力于通过法律来规范交易，构建了一种**“共赢”**（Win-Win）的国际秩序。加入其中，你不仅能获得安全保障，还能对秩序的演进过程拥有发言权，因为它是一个持续**“在进步”**的体系。
 
-你生活在这个**海权秩序**（英文: Maritime order: 以海洋贸易、国际法和联盟为基础的全球秩序）的城堡围墙之内，人们遵循规则，然后在外部得到保护。我们有军事力量等等。如果这些围墙被独裁统治或非常愚蠢的战略所攻破，就像我们的国家在过去几年里曾多次濒临的危险一样，如果**特朗普**当时在**乌克兰**被入侵时是总统，**乌克兰**将不复存在。**俄军**将兵临**波兰**边境。
+<details>
+<summary>Original English</summary>
 
-### 海权与陆权的根本区别
+you
+ live
+ within
+ the
+ castle
+ walls
+ of
+ this
 
-现在，我曾发表过**马歇尔讲座**（英文: Marshall lecture: 一种学术讲座系列，通常由知名学者发表），该讲座发表在**《军事历史杂志》**（中文: 《Journal of military history》: 一份军事历史领域的学术期刊）上。在讲座中，我总结了我对**大陆**（英文: Continental power: 以陆地领土控制和军事力量为核心的国家力量模式）与**海权**（英文: Maritime power: 以海洋贸易、国际法和联盟为基础的国家力量模式）之间区别的看法。这是我职业生涯中的一个重要收获。这是一种从根本上不同的看待世界的方式。
 
-### 普京的陆权逻辑与共赢的海权秩序
+Maritime
+ order
+ that
+ people
+ follow
+ the
 
-所以，**普京**（Vladimir Putin）看待世界的方式是：“如果我控制了领土，那就能使我感到安全。”而**海权国家**（Maritime Powers）则以**英国**（Britain）为开端，它们认为：“嘿，如果我能最大化商业利润，我就安全了。”因为那样我就可以购买海军，并用军队和物资购买盟友。然后最终，这种通过**国际法**（英文: international law: 规范国家之间关系的法律体系）组织贸易的秩序，**荷兰共和国**（中文: 荷兰共和国: 1581年至1795年存在于西欧的共和国）在这方面起到了关键作用，**雨果·格老秀斯**（中文: 雨果·格老秀斯: 荷兰法学家，被誉为国际法的奠基人之一）是国际法的奠基人。他们希望通过法律来处理交易。这是一种**共赢的国际秩序**（英文: international order that's win-win: 一种互利共赢的国际秩序，参与者都能从中获益）。你加入它，就能获得安全，你就能对它的发展方向发表意见，因为它是一个进行中的工作。
 
-### 大陆模式的负和博弈与乌克兰的代价
+rules
+ and
+ then
+ you're
+ protected
+ on
+ the
 
-而这种**大陆**（Continental）模式是**负和博弈**（英文: Negative sum: 指一种零和博弈或负和博弈，一方的收益必然伴随另一方的损失，甚至总收益为负），你可以在**乌克兰**（Ukraine）看到这一点。所以，**普京**想要更多的领土。好的，他有了一个区域，对吧？他占领了**乌克兰**东部，并在2014年占领了**克里米亚**（Crimea）。但这却是负和博弈，因为他摧毁了在顿巴斯地区本已建立的商业，并且他彻底扼杀了大部分旅游业。
 
-### 欧洲的利益与俄国的选择
+outside
+ we
+ have
+ military
+ things
+ Etc
+ if
 
-如果你把**欧洲**（Europe）看作一个半岛，那么拥有更多来自**俄罗斯**（Russia）的缓冲比没有要好。欧洲人作为一个整体都明白，拥有一个坚不可摧的**乌克兰**边境绝对符合他们的利益。这保护了他们所有人。难道不令人着迷吗，那些曾经永远中立的**芬兰人**（Finns）和**瑞典人**（Swedes）现在也卷入了其中？**欧洲**并不威胁**俄罗斯**；如果**俄罗斯**能加入进来，加入这个基于规则的秩序，他们将非常高兴。你将赚钱，你将过得很好。除了那些寡头，那些真正少数的掌权者，以及**普京**，他们个人不会过得那么好。他们随时都可以加入**海权秩序**。这正是冷战结束时，每个人都希望他们做的事情。每个人都希望**普京**加入。
 
-### 普京的战略失误与俄罗斯的潜力
+those
+ walls
+ are
+ breached
+ by
+ dictatorship
 
-俄罗斯人，如果你想想**普京**花了多少钱在他那些疯狂的军事项目上，想象一下如果他把这些钱花在**俄罗斯**（Russian）的道路系统上会怎么样，因为他们的道路系统很糟糕。再想象一下，如果他把精力投入到建立一个更好的法律体系，这样人们就可以创办小企业，发展壮大，而不用担心有人来敲诈保护费。想想**俄罗斯**现在会是什么样子？它会好得多。他们拥有如此多的能源，如此多的原材料，哦，他们有如此多有才华的人。但俄罗斯人不是这样看的；他们看到了**大陆视角**（Continental View），而他们必须面对自己内心的想法。
 
-### 遏制战略与海权秩序的运作
+or
+ by
+ really
+ stupid
+ Grand
+ strategy
+ like
 
-与此同时，这就是为什么**遏制**（英文: Containment: 冷战时期美国等西方国家用来遏制苏联及其盟国扩张的战略）是如此出色。与此同时，我们这些加入**海权秩序**的人需要相互合作，然后我们通过说：“在你们表现好之前，你们不能平等地加入我们。你们将获得一次暂停。”来遏制问题。你们将从全球秩序中获得一次暂停，但我们会欢迎你们回来。
 
-### 领土扩张的破坏性与工业革命的启示
+our
+ country's
+ come
+ perilously
+ close
+ in
 
-所以，你谈论的是人们进行领土征服，对吧？掠夺他人。你们屠杀很多人，你们以惊人的速度摧毁财富。你可以这样做，但这真的是**财富毁灭**（英文: wealth destroying: 指一种行为或策略，其结果是财富的巨大损失而非增长）。自西方的**工业革命**（中文: 工业革命: 18世纪末至19世纪初，以机器生产取代手工劳动的技术、经济和社会变革时期）以来，人们越来越普遍地认为，那可能不是做事情的方式。我们更擅长构建**国际机构**（英文: International institutions: 旨在促进国际合作和解决全球性问题的组织或框架）、**国际法**（International laws: 规范国家之间关系的法律体系）、我们签署的条约，然后我们遵守它们。这使得我们能够走遍世界，进行我们的信用卡交易，没有人会杀我们，而且你可以从中赚取大量财富。
 
-### 工业革命后的新选择与大陆帝国的旧模式
+the
+ last
+ few
+ years
+ perilously
+ close
+ if
 
-而结论是：自**工业革命**以来，谁在赚钱？那些拥抱该体系的人。而**希特勒**（Adolf Hitler）的领土扩张，在某种程度上，它是一种回归工业革命前管理国家安全的方式。这就是传统**大陆帝国**（Continental Empires）一直以来的做法。**工业革命**带来了经济增长，复利的经济增长，提供了一个完全不同的选择，即我们将通过制定大家都能遵守的规则来实现财富的复利增长，然后我们以此方式进行商业交易。
 
-### 机构的重要性与不断演变的海权秩序
+Trump
+ had
+ been
+ president
+ at
+ the
+ time
+ uh
 
-**机构**（Institutions）非常重要。机构塑造决策。现在，要弄清楚要建立什么样的机构非常困难。当你看到它们出现问题时，你会想：“下次我必须做些什么。”但这再次证明了我们所处的这个不断演变的海权秩序的 [brilliance]（精彩之处），即人们签署他们认为符合自身利益的协议，就像你签署条约一样。然后，你为你不想要的部分设置了例外条款，你加入了这些**国际组织**（International organizations），然后你影响它们的发展等等。
 
-### 二战后机构的和平作用与对霸权的批判
+Ukraine
+ was
+ invaded
+ Ukraine
+ would
+ be
+ no
 
-因此，这些组织起到了关键作用，特别是在**第二次世界大战**（World War II）后建立的那些组织，在维护和平方面。这是我职业生涯中最大的收获：如果我们通过**国际法**和**国际机构**……这不是一个……政治科学家喜欢谈论“啊，**美国**是**霸主**（英文: Hegemon: 指在国际体系中拥有压倒性力量和影响力的国家或领导者）”对吧？世界上没有其他国家想要一个美国的霸主。美国国内可能有些人认为这看起来很棒，但没有人会接受一个美国作为霸主，随意欺凌其他国家的国际秩序。
 
-### 共赢的海权秩序与拜登的外交策略
+more
+ we
+ would
+ have
+ Russian
+ armies
+ right
 
-我明白。我们很强大，我们很有影响力。其他人也很有影响力。但这个**海权秩序**，是的，我们是其中重要的一部分，但也有许多其他人参与其中，这是一个共赢的局面。你可以看看，现在**拜登**（Biden）正在与欧洲人举行所有这些会议，讨论如何管理**乌克兰**（Ukraine）正在发生的事情等等，这是基于所有这些不同国家共同努力的协议，无论大小。那些愿意相互合作、不侵略、协商处理分歧、通过**国际组织**（International organizations）解决问题、改进**国际组织**的国家——这样的世界是你想要保护的。而且你希望允许人们加入。所以，如果**俄罗斯**（Russia）改变主意，换了新政府等等，你想让他们重新加入，就像**日本**（Japan）和**德国**（Germany）被重新接纳一样。你想永远保护这种秩序。我们的繁荣就建立在它之上。
+
+up
+ to
+ the
+ Polish
+ border
+ now
+ I
+ gave
+ the
+
+
+Marshall
+ lecture
+ was
+ published
+ in
+ the
+
+
+Journal
+ of
+ military
+ history
+ and
+ in
+ it
+ I
+
+
+summarized
+ my
+ views
+ on
+ what
+ the
+
+
+difference
+ between
+ a
+ continental
+ and
+
+
+Maritime
+ power
+ and
+ that's
+ one
+ of
+ my
+ big
+
+
+career
+ takeaways
+ it's
+ a
+ fundamentally
+
+
+different
+ way
+ of
+ looking
+ at
+ the
+ world
+ so
+
+
+Putin
+ honestly
+ looks
+ at
+ the
+ world
+ that
+
+
+if
+ I
+ control
+ territory
+ that's
+ what
+ makes
+
+
+me
+ secure
+ Maritime
+ Powers
+ they
+ start
+
+
+with
+ Britain
+ which
+ is
+ hey
+ M
+ secure
+ if
+ I
+
+
+can
+ maximize
+ money
+ from
+ Commerce
+ because
+
+
+then
+ I
+ can
+ buy
+ navy
+ and
+ buy
+ allies
+ with
+
+
+armies
+ and
+ stuff
+ and
+ then
+ eventually
+
+
+this
+ order
+ of
+ of
+ organizing
+ trade
+ by
+
+
+international
+ law
+ and
+ the
+ Dutch
+ Republic
+
+
+is
+ instrumental
+ in
+ this
+ with
+ Hugo
+ grodus
+
+
+who
+ is
+ the
+ founding
+ father
+ of
+
+
+international
+ law
+ they
+ want
+ to
+ run
+
+
+transactions
+ by
+ law
+ Etc
+ this
+ is
+ um
+ an
+
+
+international
+ order
+ that's
+ win-win
+ you
+
+
+join
+ it
+ you
+ get
+ security
+ um
+ you
+ have
+
+
+input
+ on
+ how
+ it
+ evolves
+ because
+ it's
+ a
+
+
+work
+ in
+ progress
+
+</details>
+
+### 大陆霸权：领土控制的危险
+
+与之相对，**大陆**模式则是一种**“负和”**（Negative Sum）游戏。乌克兰的局势便是明证：普京寻求更多领土，占领了东乌克兰和2014年的**克里米亚**，但这种扩张却**摧毁**了当地原有的商业活动，并**扼杀**了旅游业。从地缘政治角度看，**欧洲**作为一个半岛，其安全福祉更在于与俄罗斯保持**“隔绝”**。欧洲各国普遍认识到，在乌克兰边境建立一道**“坚不可摧”**的屏障，对整体安全至关重要。值得注意的是，长期奉行**“中立”**的**芬兰**和**瑞典**如今也积极参与其中。欧洲并非意图威胁俄罗斯，他们反而乐见俄罗斯能够加入现有的**“基于规则的秩序”**，共同发展，实现繁荣。然而，少数**寡头**和以普京为代表的俄罗斯当权者，因个人利益考量，未能拥抱这种模式。他们本可以随时加入**海上秩序**，这正是冷战结束后各国对俄罗斯的期望。俄罗斯若能将用于军事的巨额资金投入到**俄国糟糕的道路系统**，或是致力于建立健全的**法律体系**，鼓励**小企业**发展，而非受制于人，其国力必将**大幅提升**。俄罗斯拥有丰富的能源、资源和**大量人才**，但他们未能从**大陆视角**之外审视自身。最终，俄罗斯自身必须直面并调整其固有的战略思维。
+
+<details>
+<summary>Original English</summary>
+
+whereas this Continental thing is negative sum and you can see it in Ukraine so Putin wants more territory
+
+
+okay he's got a zone right he took the
+
+
+eastern Ukraine and he uh took Crimea in
+
+
+2014 but it's negative sum because he
+
+
+destroys whatever businesses had been
+
+
+being run in in dbass and he absolutely
+
+
+kills the T most of the tourist industry
+
+
+if you look at Europe as a peninsula uh
+
+
+you're better off with more insulation
+
+
+from Russia than not and Europeans uh as
+
+
+a group understand that it is absolutely
+
+
+in their interest to have an impregnable
+
+
+border around Ukraine it protects them
+
+
+all and isn't it fascinating that the
+
+
+fins and the swedes who forever were
+
+
+neutral are now all over this Europe
+
+
+doesn't threaten Russia they would love
+
+
+it if Russia would join the party join
+
+
+the rules Bas order you'll make money
+
+
+you'll do well except uh the oligarchs
+
+
+in question this real minority of people
+
+
+who run Russia and Putin they personally
+
+
+won't do as well um they could join the
+
+
+maritime order any day that is what um
+
+
+at the end of the Cold War everyone
+
+
+wanted them to do everyone wanted Putin
+
+
+to join it the Russians if you think
+
+
+about all the money Putin has spent on
+
+
+his crazy military stuff imagine what
+
+
+would have happened if he'd spent all
+
+
+that on the Russian Road system because
+
+
+their Road system's deplorable and
+
+
+imagine if he had devoted his attention
+
+
+to trying to uh have have a better legal
+
+
+system so people could start small
+
+
+businesses get bigger without having
+
+
+someone then come in on them for
+
+
+protection money think where Russia
+
+
+would be now it would be dramatically
+
+
+better they have so much energy so many
+
+
+raw resources oh they have so many
+
+
+talented people but Russians don't see
+
+
+it that way they see it in this
+
+
+Continental View and they're the ones
+
+
+who have to come to terms with what they
+
+
+think
+
+</details>
+
+### 工业革命的遗产：制度驱动财富增长
+
+在此期间，**“遏制”**策略显得尤为高明。这意味着，我们这些遵循**海上秩序**的国家需要紧密合作，共同遏制那些不守规矩的力量。我们通过明确告知，在行为端正之前，对方**“无法平等加入”**，实际上是将其置于**“暂停观察期”**。尽管如此，我们始终欢迎其重返国际大家庭。相较于**领土扩张**和**掠夺**行为——这会**屠杀民众**并**迅速摧毁财富**——自西方的**工业革命**以来，一种日益增长的共识是，这种旧式的“大陆帝国”模式已不再适用。如今，我们更倾向于通过构建**国际制度**（International Institutions）、**国际法**和**条约**来实现**“财富的复合增长”**。通过签署并遵守我们认为符合自身利益的规则，我们得以在全球范围内安全地进行**商业交易**，并积累可观财富。历史上，**希特勒**式的领土扩张，本质上是**前工业革命时代**国家安全管理模式的回溯。而工业革命及其带来的**经济增长**，提供了一种截然不同的替代方案：建立一套普适的**规则**，并在此基础上实现**商业交易**。**制度**因此变得至关重要，它们塑造着**决策过程**。尽管设计和完善**国际机构**充满挑战，面对其失灵之处，我们需要不断迭代。这正是我们所处的、不断演变的**海上秩序**的精妙之处——各国在符合自身利益的前提下，自主选择加入并影响其发展。
+
+<details>
+<summary>Original English</summary>
+
+in the meantime this is why containment is brilliant is in the meantime those of us who join the
+
+
+maritime order need to work with each
+
+
+other and then we contain the problem by
+
+
+saying you cannot join us on equal
+
+
+footing till you behave yourselves you
+
+
+get a timeout right if you if you you
+
+
+get a timeout from the global order but
+
+
+we would welcome you back in so you're
+
+
+talking about people doing territorial
+
+
+conquests right and taking things you're
+
+
+butchering a lot of people you're
+
+
+destroying wealth in an incredibly rapid
+
+
+clip you can do that but it's really
+
+
+wealth destroying since the Industrial
+
+
+Revolution in the west uh there has been
+
+
+a growing consensus that that's probably
+
+
+not the way to do things we are far
+
+
+better uh crafting International
+
+
+institutions International laws treaties
+
+
+that we sign on to the parts that we
+
+
+want to and then we adhere to them and
+
+
+then that allows us to go all over the
+
+
+world running our little credit card
+
+
+transactions no one kills us and uh you
+
+
+can make a lot of wealth right doing
+
+
+that and that was the conclude that if
+
+
+you look at uh since the Industrial
+
+
+Revolution who's making all the money
+
+
+people who buy into that system and uh
+
+
+the Hitler uh territorial expansion is
+
+
+in a way it's a real throwback to a
+
+
+pre-industrial revolution way of
+
+
+managing your National Security this
+
+
+is how traditional Continental Empires
+
+
+always did it the Industrial Revolution
+
+
+with economic growth compounding
+
+
+economic growth offers a completely
+
+
+different alternative which says we're
+
+
+going to do compounding wealth by having
+
+
+rules that we can all adhere to and then
+
+
+we'll run our commercial transactions
+
+
+that way institutions are really
+
+
+important institutions structure
+
+
+decision making now it's very difficult
+
+
+to figure out what types of Institutions
+
+
+to build and uh when you see failings in
+
+
+them you go I got to do something next
+
+
+time but this again is the Brilliance of
+
+
+this evolving Maritime order in which we
+
+
+live where people sign on on to the
+
+
+things in which it's in their interest
+
+
+to sign on to them like you sign on to
+
+
+treaties and then you have provisors of
+
+
+the parts you don't want and you join
+
+
+these International organizations and
+
+
+then you influence how they develop Etc
+
+</details>
+
+### 全球秩序：合作超越霸权
+
+第二次世界大战后建立的**国际组织**，在维护和平方面发挥了**巨大作用**——这是演讲者最大的职业体会。通过**国际法**和**国际制度**，我们得以构建一个稳定的世界。政治科学家们热衷于讨论**“美国霸权”**（American Hegemon），但现实是，**没有哪个国家**真心希望看到一个由美国主导、予取予求的**“霸权秩序”**。尽管美国拥有强大的影响力和资源，但一个真正理想的**海上秩序**，应当是**多国参与**的、**“共赢”**的。正如当前**拜登政府**正在与欧洲各国进行的一系列会议，共同商议**乌克兰**等事务，其基础是**各国（无论大小）的共识与贡献**。这些愿意**合作**、**协商**分歧、并通过**国际组织**解决问题的国家，共同构成了我们期望保护的世界。我们希望**邀请**和**接纳**那些改变心意的国家（如**俄罗斯**，或过去如**日本**和**德国**）重新加入。保护并发展这样的秩序，是确保我们**世代繁荣**的基石。
+
+<details>
+<summary>Original English</summary>
+
+so these organizations have been instrumental the ones built right after
+
+
+World War II in holding to peace that
+
+
+that's my biggest career takeaway is
+
+
+that um if we go through international
+
+
+law and international institutions and
+
+
+this is not a hge political scientists
+
+
+love to talk about ah America the
+
+
+hegemon
+
+
+right no other country in the world
+
+
+wants an American hedgemon there may be
+
+
+some people in the United States who
+
+
+thinks that looks great but no one's
+
+
+going to buy on uh buy into a world
+
+
+order in which the United States is the
+
+
+hegemon who pushes everyone else around
+
+
+I get it we're big and we're influential
+
+
+other people influential too uh but this
+
+
+Maritime order where yeah we're an
+
+
+important part of it but have many other
+
+
+people in it it's a win-win and you can
+
+
+look it's um with Biden right now he's
+
+
+doing all of these meetings with
+
+
+Europeans of managing of what's going to
+
+
+go on in um Ukraine Etc and it's based
+
+
+on agreement of all of these different
+
+
+countries chipping in big and small
+
+
+those countries that are willing to
+
+
+cooperate with each other not invade
+
+
+negotiate um their disagreement work
+
+
+through International organizations
+
+
+improve International
+
+
+organizations that world is what you
+
+
+want to protect and you want um to allow
+
+
+people to come and join so if Russia
+
+
+changes its mind uh new government Etc
+
+
+you want to bring them back into just
+
+
+the way um Japan and Germany were
+
+
+brought back in uh you want to protect
+
+
+that order forever our our prosperity is
+
+
+based on it
+
+</details>
