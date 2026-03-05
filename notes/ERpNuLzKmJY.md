@@ -1,73 +1,98 @@
 ---
-area: "work-career"
-category: ai-ml
-companies_orgs:
-- OpenAI
-- Google
+author: Dwarkesh Patel
 date: '2024-05-20'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-people:
-- John Schulman
-products_models:
-- GPT-3
-- GPT-3.5
-- GPT-4
-- ChatGPT
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=ERpNuLzKmJY
 speaker: Dwarkesh Patel
-status: evergreen
-summary: 本次访谈深入探讨了大型语言模型（LLM）的发展历程，从OpenAI的基础模型到指令遵循模型，再到ChatGPT的诞生。演讲者**John Schulman**回顾了早期模型面临的挑战，如提示复杂性，以及Google等公司在聊天AI领域的探索。他重点介绍了**GPT-3.5**和**GPT-4**的演进，**强化学习（RL）**在模型训练中的作用，以及如何通过混合指令和聊天数据，最终打造出更易用、行为更合理的**ChatGPT**。访谈还触及了微调API的局限性以及模型在可靠性和事实性方面的挑战。
 tags:
-- instruction-following
-- llm
-- technology
-title: ChatGPT诞生内幕：OpenAI联合创始人John Schulman的讲述
+  - llm-development
+  - prompt-engineering
+  - conversational-ai
+  - instruction-following-models
+title: ChatGPT的诞生：从基础模型到对话助手的演进之路
+summary: 本期内容深入探讨了ChatGPT的诞生历程，揭示了从早期基础模型到指令遵循模型，再到最终实现对话助手的关键技术演进。演讲者分享了OpenAI在模型开发中的探索，包括如何通过指令遵循和对话数据优化模型，以及GPT-3.5和GPT-4在这一过程中的作用。对话还触及了Google在聊天机器人领域的早期研究，并阐述了为何对话式AI比指令式AI在用户交互和模型行为上更具优势，以及自研ChatGPT的非易事性，特别是多轮微调和RLHF的重要性。
+insight: ''
+draft: true
+series: ''
+category: ai-ml
+area: tech-engineering
+project: []
+people: []
+companies_orgs:
+  - OpenAI
+  - Google
+products_models:
+  - ChatGPT
+  - GPT-3.5
+  - GPT-4
+  - Lambda
+  - Mina
+  - Web GPT
+media_books: []
+status: evergreen
 ---
-### LLM的未来与聊天机器人
+### ChatGPT的演进之路
 
-你是在什么时候，**OpenAI**联合创始人**John Schulman**，意识到**大型语言模型（LLM）**是未来的方向，并且开发一个像**ChatGPT**这样的聊天机器人，或者某种指令遵循的方式来指导它们，会是一件有用的事情？在**ChatGPT**出现之前，**OpenAI**就已经有了**指令遵循模型（Instruction Following Models）**。当时的想法是，我们有基础模型（base models），人们可以通过复杂的方式来提示它们。但这些模型很难提示，它们本质上是进行自动补全，所以你需要设置一个非常好的提示，并包含一些示例。
+**John Schulman**: 在ChatGPT之前，OpenAI拥有**指令遵循模型**。而当时的想法是，我们有**基础模型**，人们可以以复杂的方式提示它们，但提示它们很困难，因为它们本质上是自动补全，所以你需要用一些例子设置一个非常好的提示。因此，OpenAI的人们正在努力，只是拿来基础模型并让它们更容易被提示，这样如果你只写一个问题，它就会回答问题，而不是给你更多问题。我们有了这些指令遵循模型，它们就像基础模型，但更容易使用。这些是在API中部署的原始模型，GPT-3之后，它们是下一代模型。
 
-### 指令遵循模型的演进
+<details>
+<summary>Original English</summary>
 
-因此，**OpenAI**的团队正在努力，他们尝试在基础模型的基础上，让模型更容易被提示。这样，如果你只是写一个问题，模型就能直接回答问题，而不是反问你更多问题。所以，我们有了这些指令遵循模型，它们有点像基础模型，但使用起来更简单一些。这些模型是部署在API中的原始模型，或者是在**GPT-3**之后推出的下一代模型。
+**John Schulman**: Before ChatGPT, OpenAI had these **instruction-following models**. And, uh, that was, B, the idea. There was, um, we had **base models** and people can, um, prompt them in elaborate ways, um, but, uh, they're also kind of hard to prompt. You had to, uh, they basically do autocomplete, so you have to set up a very good prompt with some examples. So, uh, people at **OpenAI**, uh, were working on, um, just taking the base models and making them easier to prompt, so that if you just wrote a question, it would answer the question instead of giving you more questions or something. Uh, so we had these instruction-following models which were kind of like base models but a little easier to use. Um, and those were the original ones deployed in the API, uh, after, um, **GPT-3**. Those were the next, uh, generation of models.
 
-### 早期聊天AI探索
+</details>
 
-与此同时，也有很多人在思考‘聊天’（chat）的可能性。比如**Google**发表了一些论文，提到了**Lambda**和更早的**Mina**，他们开发了聊天机器人。根据论文中的例子来看，这些模型更多用于有趣的场景，比如让模型扮演某个角色，进行角色扮演，而不是像‘帮我重构代码’这样具有实际功能的任务。
+**John Schulman**: 同时，也有很多人在思考**聊天**。比如，**Google**发布了一些论文，像是有**Lambda**和更早的**Mina**。它们有这些聊天机器人，更像是一个专门用于聊天任务的基础模型，非常擅长聊天。根据论文的例子，它们更多地用于有趣的应用程序，比如模型会扮演某个角色。它不像“帮我重构代码”那样功能化。所以，是的，确实有人在思考聊天。我之前在一个名为**Web GPT**的项目上工作过，它更多地是通过网络浏览和检索来进行问答。当你进行问答时，它确实想进入聊天状态，因为你总是想问后续问题，或者有时需要澄清，模型应该问一个澄清问题，因为问题本身含糊不清。所以，在我们完成了第一个版本后，很明显下一版本应该是对话式的。
 
-### Web GPT与会话式AI
+<details>
+<summary>Original English</summary>
 
-所以，确实有很多人在思考聊天。我之前也参与过一个关于聊天的项目，叫做**Web GPT**，它更侧重于利用网络浏览和检索来回答问题。当你进行问答时，模型确实更适合处于聊天模式，因为你总是想追问，或者有时模型需要提出一个澄清性的问题，因为原始问题可能存在歧义。因此，在开发了**Web GPT**的第一个版本后，我们很清楚下一版本应该是会话式的。
+**John Schulman**: Um, then at the same time, there were definitely a lot of people thinking about, um, chat. So, uh, so **Google** had some papers, uh, like they had, uh, **Lambda** and, um, earlier **Mina**. So they had these chat bots, and it was more like, um, uh, like you had a, it was more like a base model that was really specialized to, um, the task of chat, really good at chat. And, uh, like, I think, at least looking at the examples from the paper, it was more, uh, used for sort of fun applications, like, um, where the model would, would, uh, like take on some persona and pretend to be that persona. It was not so functional, like, um, like, help me refactor my code. Um, so, yeah, there are definitely people thinking about chat. I had worked on a project before, uh, looking at chat called, uh, **Web GPT**, which was more about doing question answering with the help of web browsing and retrieval. And, well, when you do question answering, uh, it really wants to be in a chat because, um, you always want to ask follow-up questions, or sometimes you need a clar, the, the model should ask a clarifying question because the question is ambiguous. So it was kind of clear after we did the first version of that that we should, the next version should be conversational.
 
-### 基于GPT-3.5的开发
+</details>
 
-于是，我们开始着手开发一个会话式聊天助手。这个助手是基于**GPT-3.5**构建的，它在2022年初完成了训练。**GPT-3.5**在语言和代码方面表现出色，所以我们很快意识到它在编程辅助方面也非常强大，这是让我们感到兴奋的一点。我们为此投入了大部分时间，还加入了网络浏览功能。但后来我们逐渐淡化了这项功能，因为模型的内部知识已经足够丰富，网络浏览并不是它最吸引人的地方。
+**John Schulman**: 因此，我们开始着手开发一个**对话式聊天助手**。这个助手是基于**GPT-3.5**构建的，它在2022年初完成了训练。那个模型在语言和代码方面都相当不错，所以我们很快意识到它在**编码辅助**方面actually相当出色，这是我们感到兴奋的一点。所以，我们花了将近一年的时间来研究它，我们还加入了浏览功能。但后来我们逐渐淡化了它，因为模型的内部知识已经足够好，浏览功能并不是最吸引人的部分。
 
-### GPT-4与RLHF的挑战
+<details>
+<summary>Original English</summary>
 
-之后，我们考虑进行公开发布，此前它已经经过一段时间的内测，并向亲友开放。但就在那时，**GPT-4**在当年8月完成了训练。实际上，**OpenAI**当时最核心的**强化学习（RL）**工作是指令遵循模型，因为这些模型将被部署到生产环境中。所以，**GPT-4**的早期微调就使用了这整套技术栈。这些模型非常出色，大家在看到**GPT-4**的指令微调模型后都非常兴奋。它们偶尔能产生惊人的输出，但模型也明显不太可靠，经常出现幻觉，有时会给出非常离谱的输出，显然还没有完全准备好公开发布，尽管它本身非常优秀。
+**John Schulman**: So anyway, we started working on, uh, like a conversational chat assistant. Um, and, uh, we, uh, this was built on top of **GPT-3.5**, which was done training at the beginning of '22. And, uh, that model was quite good at language and code. So we quickly realized that it was actually, uh, quite good at **coding help**, and that was one of the things we were excited about. So, yeah, we worked on that. Uh, we worked on that for, for most of the year. And we had, we had browsing, um, as another feature, and it, though we ended up, uh, like deemphasizing that later on because the, like, the model's internal knowledge was so good that we didn't, that the browsing, um, wasn't the most interesting thing about it.
 
-### 融合指令与聊天数据
+</details>
 
-我想，在那之后，大家似乎暂时忘记了聊天（chat）这个分支。但我们继续推进，并将指令遵循数据和聊天数据混合在一起，试图融合两者的优点。我认为，聊天模型显然更易于使用，行为也更合理，模型能更好地认识到自身的局限性。
+**John Schulman**: 接着，我们在2022年8月，**GPT-4**完成了训练。当时，OpenAI的主要**RL（强化学习）**工作是指令遵循模型，因为这些模型将被部署到生产环境。因此，GPT-4的第一个微调版本使用了那整套技术栈。这些模型非常好，大家看到它们后都很兴奋。但它们有时会提供惊人的输出，但模型明显不太可靠，经常会产生幻觉，有时会给出相当离谱的输出，显然还没有准备好。
 
-### 任务定义的差异
+<details>
+<summary>Original English</summary>
 
-聊天的另一个优势在于，我们之前的指令模型所面临的任务，比如‘以一种友好的或有帮助的方式完成这段文本’，这是一个定义模糊的任务。我认为这个任务既让模型感到困惑，也让负责数据标注的人类感到困惑。而对于聊天，人们似乎有一种直观的理解，知道一个‘有帮助的机器人’应该是什么样的。因此，更容易让人们理解模型应该做什么。
+**John Schulman**: Um, and then, uh, we were thinking about, we had it out for beta testing or to friends and family for a while, and we were thinking about doing a public release. Um, but, um, at that time, uh, actually **GPT-4** finished training in August, or, um, yeah, in August that year. And, um, actually, the, um, like the flagship **RL** effort at OpenAI was the instruction-following effort because that was the models that were being deployed into production. So, um, like the first fine-tunes of GPT-4 used that, um, that whole stack, and that was, um, yeah, those models were really good, and everyone got really excited about that after seeing the, uh, like, instru, fine-tune GPT-4s. Uh, but so they were really, really good. They would occasionally give you amazing outputs, but they were also, like, a little bit, the model was clearly, like, pretty unreliable. Like, it would sometimes hallucinate it a lot, and it was like pretty, it would sometimes give you pretty unhinged outputs. So it was clearly not quite ready for prime time, but it was, like, obviously very good.
 
-### 模型个性的塑造
+</details>
 
-因此，结果是模型拥有了更连贯的个性，并且更容易获得鲁棒的、合理的行为。那么，任何人是否都可以利用你们公开的微调API来制造出类似ChatGPT的产品？不完全是。我想，如果你当时能够使用**GPT-3.5**进行微调，你或许可以做出一个相当接近的东西。但我不太确定你是否能只进行一次微调，使用纯粹由人类编写的数据进行训练。我认为你需要进行多次迭代。
+**John Schulman**: 然后，大家在一段时间内似乎忘记了聊天。但我们继续推进，将**指令**和**聊天**的数据集混合在一起，试图获得两者的最佳结合。聊天模型显然更易于使用，行为更合理，能意识到自身的局限性。另一个关于聊天的方面是，对于指令模型，像“以友好的方式或有帮助的方式完成这段文字”这样的任务定义非常模糊，对模型和人工标注者都很困惑。而对于聊天，人们对“有帮助的机器人”应该是什么样子有更直观的理解。因此，更容易让人们理解模型的预期功能。结果是，模型拥有更连贯的个性，并且具有更稳健、合理的行为。
 
-### API微调的局限性
+<details>
+<summary>Original English</summary>
 
-如果你不采用**强化学习（RL）**（我们确实使用了），你就需要进行某种迭代式的监督微调，让**人类编辑模型生成的输出**。因为如果只用人类生成的数据训练，即使质量很高，模型也很难完美地拟合，因为它可能无法生成类似的数据。所以你需要进行迭代，使其更接近RL的模式。我认为，如果你那样做，或许能得到一个相当接近的结果，但这并非易事。
+**John Schulman**: Um, and, uh, yeah, so I guess that, um, people forgot about chat for a little while after that. C, about this, like, alternative branch. Uh, but then we, we ended up, um, we pushed it further, and we ended up, like, mixing together all the datasets, like the instruct and the chat data, and to try to get something that was the best of both worlds. And, uh, I think the, yeah, the models we, the chat models were like, uh, were clearly more, um, like, it was an easy, easier to use. It was sort of more, um, it sort of, uh, like, automatically had much more sensible behavior in terms of, like, the model knowing its own limitations. The other thing about chat was that when we had these instruct models, uh, like the task of, uh, complete this text, but in a nice way, or in a helpful way, that's like a pretty poorly defined task. So I think, uh, like, I think that task is like both confusing for the model and for the human who's supposed to do the data labeling. Whereas for chat, um, I think people had an intuitive sense of, uh, like, what a helpful robot should be like. So I think it was, uh, just much easier to tell people, uh, like, uh, to, to get, for people to get the idea of what, what the model was supposed to do. Yeah.
 
-### 另一RL模型的优劣
+</details>
 
-另外，我们还有一个通过**RL**训练的指令遵循模型，它比**ChatGPT**早一点发布。如果你给它加上一个聊天的‘包装器’，也能得到一个相当不错的结果。但那个模型在某些方面有所不同，比如它擅长写作和诗歌，但它不太擅长认识到自身的局限性以及事实的准确性等方面。
+**John Schulman**: 那么，任何人是否都能使用你们公开的微调API来制作ChatGPT？不完全是。假设当时我们有3.5可供微调，你可以做出相当接近的东西。但我不确定你是否能只通过一次**微调**就能做到，即只用人工编写的数据进行微调。我认为你需要进行多次迭代。如果你不进行RL（强化学习），而我们确实做了，那么你需要进行某种**迭代式监督微调**，即让人类编辑模型生成的输出来进行微调。因为如果只用人类生成的数据训练，即使质量很高，模型也难以完美拟合，因为它可能无法输出这样的内容。所以你需要进行一些更接近RL的迭代。那样可以得到非常接近的结果，但这并不简单。
+
+<details>
+<summary>Original English</summary>
+
+**John Schulman**: Um, and, uh, so that, so as a result, I think the, um, like the model had a much more coherent personality and, uh, like it was much, like, easier to get, um, like, robust, like, sensible behavior. Robustly. Is it the case that anybody could have made ChatGPT using your publicly available fine-tuning API? Not exactly. I mean, uh, they could have, um, I don't remember the status of which models were available for fine-tuning. Uh, you, assuming we had 3.5 available for fine-tuning at the time, you could have made something pretty decently close. But I'm not sure you would have, um, I don't think you would have been able to do just one iteration of fine-tuning where you have like, purely human-written data, and you fine-tune on that. I think you would want, like, you'd want to do several iterations. Like if you're not going to do RL, um, which, which we did, um, you'd want to do some kind of **iterative supervised fine-tuning** where you have like, humans edit the model-generated outputs. Because it's really hard to get people to, like, if you train on human-generated data, even if it's really high quality, it's just hard for a model to fit that data perfectly because it might not be, like, it might not be something a model is capable of outputting. Uh, so you need to do something iterative that looks a little bit more like RL.
+
+</details>
+
+**John Schulman**: 但是，我们也有一个在ChatGPT之前发布的、用RL训练的指令遵循模型。所以，如果你给它加上一个聊天的包装器，你就能得到一个相当接近的东西。但那个模型，如果你只是用聊天方式提示它，它在某些方面就有差异，比如它很擅长写作和诗歌，但不太擅长认识到自己的局限性以及事实准确性等方面。
+
+<details>
+<summary>Original English</summary>
+
+**John Schulman**: Uh, so I think if you had done that, you could have gotten something pretty close. But, um, that would have been kind of non-trivial. Um, but we also had another, uh, like instruction-following model trained with RL that was released a little before ChatGPT. So I think if you put a chat, like wrapper on that, you would get something decently close. Uh, but it, like, that model, um, like if you just prompted it with chat, um, so, but that model had some, uh, differences in, uh, strengths. Like, it was like that model was pretty good at writing and poetry and so forth, but it wasn't, uh, it sort of, it wasn't as good at knowing its limitations and, uh, at factuality and so forth.
+
+</details>
