@@ -1,95 +1,80 @@
 ---
-area: society-thinking
-category: politics-society
-companies_orgs:
-- United Nations
-- European Union
-- Soviet Union
-- Chinese Communist Party
-- Kuomintang
+author: Dwarkesh Patel
 date: '2025-02-03'
-draft: true
 guest: ''
-insight: ''
 layout: post.njk
-people:
-- Harry S. Truman
-- Chiang Kai-shek
-- Joseph McCarthy
-products_models: []
-project: []
-series: ''
 source: https://www.youtube.com/watch?v=tlNHLGVRKlc
 speaker: Dwarkesh Patel
-status: evergreen
-summary: 本期节目深入探讨了美国力量的局限性，尤其是在二战后外交政策上的决策失误。演讲者强调了过度扩张的风险，并指出盟友与国际机构（如联合国、欧盟）的重要性。通过对比中国、欧洲、伊朗等地的历史案例，分析了国家建设与国家重建的差异，以及忽视本土专业知识和民众支持的后果。节目还探讨了美国在处理敌对势力合作、政治可行性以及从孤立主义转向大国角色的历史演变。
 tags:
-- allies-institution
-- foreign-policy
-- historical-analysis
-- power
-title: 美国力量的局限性：历史教训与地缘政治反思
+  - overextension
+  - nation-building
+  - maritime-order
+  - soft-power
+  - net-assessment
+title: 权力的边界：美国全球战略的过度扩张与制度局限
+summary: 历史学家 Sarah Paine 深入分析了美国全球力量的局限性。她指出，成功的国际干预依赖于对“国家重建”与“国家建设”的本质区分：前者依托于既有的成熟制度，而后者因缺乏本土制度土壤往往走向失败。通过回顾二战后马歇尔计划的资源分配、中国内战中的制度缺失以及盟友体系的价值，本文揭示了在面对生存级博弈时，强行推动联合政府等愿景式外交的非可行性，强调了“净评估”在国家战略中的核心地位。
+insight: ''
+draft: true
+series: ''
+category: geopolitics
+area: geopolitics
+project: []
+people:
+  - Harry S. Truman
+  - Chiang Kai-shek
+  - George Marshall
+companies_orgs:
+  - United Nations
+  - European Union
+products_models: []
+media_books: []
+status: evergreen
 ---
-### 力量的边界与代价
+### 战略克制与盟友体系：海洋秩序的“保险单”
 
-我认为美国人需要警惕**过度扩张**。任何国家都必须警惕过度扩张，因为我们拥有**有限的资源**。此外，你还在谈论派遣你的同胞美国人去送死。要求某人做出那种牺牲，这可不是小事。要知道，这必须是值得的，对吧？美国有三亿人，而世界有八十亿人。要保持谨慎。
+美国国民必须正视**过度扩张**（Overextension：指国家承担的国际义务超出了其资源与能力的承载范围）的风险。任何国家，无论多么强大，其资源都是有限的。更重要的是，每一场海外干预都意味着要求美国公民做出牺牲，甚至付出生命的代价。这种代价必须与国家的战略利益相匹配。在当今全球 80 亿人口的格局中，仅拥有 3 亿人口的美国必须保持谨慎。
 
-### 盟友与国际机构
+支撑当前**海洋秩序**（Maritime Order：以航行自由和多边合作为核心的国际体系）的关键在于我们的盟友与制度，这是“最伟大一代”留下的珍贵遗产。**联合国**（UN：旨在维护国际和平与安全的国际组织）不仅是外交舞台，它通过分发疫苗等公共产品挽救了数百万人的生命。同样，**欧盟**（EU）等机构提供了重要的战略洞察。盟友的力量在于其协同效应，反观中国，其所谓的“朋友”往往是像朝鲜这样连本国国民温饱都无法保障的国家，或者是奉行政教合一的伊朗，这反映了两种截然不同的地缘政治生态。
 
-在这方面，关键在于我们的**海上秩序**，以及我们所有行动的**重大保险政策**——那就是我们的盟友和机构。这是最伟大的一代人留下的伟大馈赠，他们创建了**联合国**。联合国拯救了数百万人的生命，通过疫苗接种和其他通过联合国提供的援助。不要忽视这些组织，它们做了很多工作。还有**欧洲联盟**（EU: European Union），通过这些机构开展工作，并听取你的盟友的意见。他们会有深刻的见解。
+<details>
+<summary>Original English Source</summary>
 
-### 中国的盟友困境
+I think Americans need to worry about overextension; any country has to worry about overextension. We have finite resources. Also, you're talking about sending your fellow Americans to get themselves killed—that's quite something to ask someone to make that kind of sacrifice; it had better be worth it. There are 300 million Americans while the world's got 8 billion, so be cautious.
 
-盟友之间存在力量。告诉我，中国的盟友是谁？是那个疯狂的朝鲜人，在21世纪连自己的人民都喂不饱，尽管他确实喂饱了自己，但这又是另一回事了。中国的朋友是谁？是伊朗，一个**神权政治**（Theocracy: 以宗教领袖为最高统治者的政治体制）国家。现在还有谁在搞神权政治？好吧，伊朗人。
+What's key on this maritime order, the big insurance policy of it all, is our allies and institutions. This is the great gift of the "Greatest Generation"—having created the UN, which has saved millions of lives through polio vaccines and other initiatives. Do not dismiss these organizations; they've done a lot. Or the EU—work through these things and listen to your allies; they will have insights, and there is power in allies. Tell me who China's allies are: the "crazy man" in Korea who can't even feed people in the 21st century, although he certainly feeds himself. Who are China's friends? I mean, Iran—a theocracy. Who does theocracies anymore? But the Iranians, okay, good on them.
 
-### 二战后对华政策失误
+</details>
 
-二战结束后，苏联向中国共产党提供了来自日本的**大量剩余武器**。与此同时，**哈里·S·杜鲁门**（Harry S. Truman）在1946年对**蒋介石**（Chiang Kai-shek: 曾任中华民国国民政府军事委员会委员长，中国国民党领袖）实施了实际的**武器禁运**（arms embargo）。而**马歇尔计划**（Marshall Plan: 二战后美国援助西欧经济复苏的计划）则投入了130亿美元来帮助欧洲建立防御，对抗共产主义的吸引力。与此同时，杜鲁门在1948年被国会**被迫**才给了中国几亿美元，这仅仅是给欧洲援助的百分之一。到那时，对蒋介石来说已经太晚了。如果你看看那段记录，我们似乎在二战后帮助掌权的国民党方面**极其糟糕地搞砸了**。
+### 制度底色：区分“国家重建”与“国家建设”
 
-### 国家建设的挑战
+二战结束后，资源分配的巨大差异揭示了美国战略重心的转向。苏联向中国共产党提供了大量从日军缴获的武器，而杜鲁门政府却在 1946 年对**蒋介石**（Chiang Kai-shek）实施了实际上的武器禁运。当时，美国为欧洲提供的马歇尔计划高达 130 亿美元，旨在构建防御共产主义的防线；相比之下，直到 1948 年，国会才被迫拨给中国区区几亿美元。这种 1:100 的资源差距，在某种程度上反映了当时美国对中国局势的无奈。
 
-不要夸大任何一个国家的**能力**。但我想，区分**国家建设**（nation building: 在一个没有现有国家结构或机构的地区建立新国家）和**国家重建**（Nation rebuilding: 在已有国家结构基础上进行恢复和改造）非常重要。如果你是在重建，就像在日本和德国发生的那样，他们在战前已经拥有了完整的机构和现代经济。他们拥有完善的教育机构、司法机构，拥有称职的警察部队，以及其他要素。所以，当你给德国人和日本人一些钱时，他们知道如何迅速重建事物并建立现代机构。但你谈论的是中国，他们从未有过这些机构。没有**本土专业知识**（indigenous expertise: 指当地固有的、非外来的知识和技能）。哦，对了，中国的**识字率**（literacy rate: 指能读写的人口比例）与日本相比如何？在日本，几乎人人都能阅读。在中国，情况并非那么糟糕，但我们曾在伊拉克和阿富汗遇到过这个问题。
+这种分配背后存在一个核心的战略逻辑，即必须区分**国家重建**（Nation rebuilding）与**国家建设**（Nation building）。在日本和德国，美国进行的是“重建”：这些国家在战前就拥有成熟的司法、教育、警察系统以及现代经济基础。当马歇尔计划的资金注入时，他们知道如何迅速恢复制度运转。但在当时的中国，这些**制度根基**（Institutional foundations）并不存在，也缺乏本土的专业知识。正如我们在后来的伊拉克和阿富汗所经历的，如果一个国家缺乏这种制度底色，简单的资金援助或试图移植外国模式是行不通的。当时的中国识字率远低于日本，这种人力资本和制度能力的差异，使得在华实施马歇尔计划从一开始就不具备可行性。
 
-### 重建的现实困境
+<details>
+<summary>Original English Source</summary>
 
-所以我们决定要进行“去神化”之类的操作，然后认为警察还会继续工作。但事实并非如此，他们没有这些机构。因此，这并不可行。在中国实施马歇尔计划是行不通的。而且，我们当时在中国有非常称职的**外交官**（Foreign Service officers）。他们是传教士的子女，所以他们能流利地说中文，并对中国有深刻的理解。他们当时就说，这是没有希望的。蒋介石不可能赢得这场战争，因为他被**农民阶层**（peasantry: 指农民组成的社会阶层）所憎恨。正如我告诉你的原因，他确实被憎恨，因为他忙于将他们强行拉入军队，因为他觉得自己别无选择。而共产党人则在分给他们土地并教育他们。你可以相信，农民们支持谁。
+After World War II, the Soviets were giving the Communists in China tremendous amounts of leftover weapons from the Japanese. At the same time, Truman actualized an arms embargo on Chiang Kai-shek in 1946. The Marshall Plan for Europe was 13 billion dollars to help build up defenses against communist appeal; at the same time, Truman had to be forced in 1948 by Congress to give a couple hundred million to China—literally 1/100th of what was given to Europe. By that time, it was too late for Chiang Kai-shek.
 
-### 历史的波折
+It's really important to distinguish between "nation building" and "nation rebuilding." If you're rebuilding, which is what happened in Japan and Germany, they already had full-up institutions and modern economies before the war. They had no problems with educational, judicial, or police institutions. When you give Germans or Japanese some cash, they know exactly how to recreate things and rapidly produce modern institutions. In China, they never had these institutions; there was no indigenous expertise. And by the way, look at the literacy rate in China compared to Japan—no one reads in China while everyone reads in Japan. We've had this problem in Iraq and Afghanistan: we decide to do the de-Ba'athification thing and think the police are still going to show up and work, but that's not how it works if they haven't got those institutions. A Marshall Plan in China would not have worked.
 
-传教士们后来卷入了**麦卡锡主义清洗**（McCarthyism: 20世纪中期美国一场反共政治运动，以参议员约瑟夫·麦卡锡命名），几乎被毁，失去了在国务院等部门的工作，直到10到20年后才被平反，他们已经失去了职业生涯，谁知道他们是如何养家糊口的。我认为后来人们意识到这是没有希望的，所以他们停止支持蒋介石。但每个人在不同时间点都有不同的认识。他们没有像应该支持的那样支持蒋介石，是因为当时普遍认为蒋介石会赢，所以我们不必支持他。他们不断试图让国民党组成某种停火协议，组成某种**联合政府**（coalition government: 由两个或多个政党联合组成的政府）。但实际上，他们应该做的是确保中国不落入共产党之手。
+</details>
 
-### 战略评估的失误
+### 现实主义评估：消解“联合政府”的幻想
 
-当时这被认为是绝望的。这被称为做出一个**净评估**（net assessment: 对局势的全面、客观的评估），不是你希望它是什么样，而是它实际是什么样。他们认为即使在1945-46年，也是不可行的。你谈论的是数亿人。我们今天甚至无法处理阿富汗问题，那里只有大约2000万人。这不可行。
+当时美国派驻中国的许多外交官是传教士的后代，他们精通中文并对中国社会有深刻洞察。他们的结论非常冷酷：由于蒋介石失去了广大农民的支持，国民党的失败已不可避免。农民支持共产党是因为后者提供了土地和教育，而国民党则通过强制征兵将其卷入战争。然而，这些直言不讳的外交官后来在**麦卡锡主义**（McCarthyism：20世纪50年代美国反共偏执激进运动）的清洗中遭遇了职业生涯的毁灭。
 
-### 规模与可行性
+这涉及到一个深刻的战略教训：**净评估**（Net Assessment：对双方实力与意图的客观、精准研判）。在 1945 至 1946 年间，美国决策层意识到，要在拥有数亿人口的中国扭转战局是不可行的。更现实的约束在于，二战结束后的美国大兵及其家属急于回归平民生活，根本无法接受再次投入一场旷日持久的异国战争。
 
-第二次世界大战结束时，美国大兵（GIS）厌倦了战争，他们的父母也是。我们不想再派兵了。欧洲已经一片废墟，人们绝对害怕共产党会进入欧洲，这在当时对西方经济来说是致命的。意大利和法国的**共产党**（communist parties: 指奉行共产主义思想的政党）力量非常强大。所以，有限资源的全部焦点都放在确保欧洲稳定下来，而我们没有无限的资源。我认为，为了阻止中国再次落入共产主义，投入仅为马歇尔计划的百分之一是远远不够的。看看后果吧：越南，我们不得不参战；朝鲜，我们不得不参战；柬埔寨，那里的种族灭绝。你无法解决所有这些问题。有些事情是不可行的。
+美国当时犯的一个典型错误是：试图强迫两个**首要对手**（Primary adversaries）达成和解或组建联合政府。当双方的意图是彻底消灭对方时，这种“和稀泥式”的外交努力是徒劳的。正如后来在巴基斯坦与印度、或者伊拉克与阿富汗的尝试一样，如果你试图在一个双方都渴望对方消失的环境中建立民主或联合架构，这注定是死路一条。美国在二战后从**孤立主义**（Isolationism）中惊醒，开始重新审视全球责任，但最重要的教训或许是：承认某些局势是人力无法强行扭转的。
 
-### 历史的偶然性
+<details>
+<summary>Original English Source</summary>
 
-我想在这里多停留一下，因为你总是很乐观。也许你是对的。但无论如何，这是我的看法。我无法证明我是对的。我记得你的书中有一段话，你说有很多个人意图的因素导致了共产党的掌权。如果其中任何一个因素有所不同，结果可能就会不同。在所有这些因素中，美国支持或缺乏支持的事实，并不是其中之一。这似乎是一个极其偶然的事情。但同时，美国没有像他们应该做的那样强大，这似乎并不重要。
+We had really competent Foreign Service officers in China in this period—many were the children of missionaries, so they spoke fluent Chinese and had a deep understanding of China. They were saying it's hopeless; there was no way Chiang Kai-shek was going to win because he was hated by the peasantry. The Communists were giving them land and educating them, whereas Chiang was busy drouning them into his armies. These missionaries were later caught up in the McCarthy purges and ruined, only to be exonerated decades later.
 
-### 政治可行性考量
+This is called making a "net assessment"—not of what you want it to be, but an accurate one. They believed it was not feasible even in 1945 or 1946. You're talking about hundreds of millions of people; we can't even deal with Afghanistan today with 20 million. At the end of World War II, American GIs were sick of it, as were their parents. They weren't going to fly back into another war.
 
-我不知道。这只是在政治上不可行。我的意思是，谈谈吧。你想回到那个时代吗？你已经在第二次世界大战中服役了三年。因为在那个时代，你会在战争开始时就入伍，直到战争结束才能回家。不是那种九个月或一年的短期服役。你是“全程在役”。所以你回家后，却被告知要去和中国人搞好关系，然后去送死。这在你的家庭里怎么可能被接受？可能很糟糕。
+The mistake, and this is a common one that Americans make, is not looking at warring parties to understand that if they are primary adversaries, there is no way you're going to make them "make nice." If you have parties that want to exterminate each other, the idea of getting them to cooperate in a coalition government is a non-starter. The United States was a very isolationist country and didn't have the attitude of a great power until after World War II, when we felt dragged into these horrible wars and realized we had to rethink that whole proposition.
 
-### 马歇尔的抉择
-
-我的意思是，再说一遍，你不需要派士兵去。你也可以不向他们实施武器禁运。我认为那已经太晚了，微不足道。一个大问题是，有些人会争辩说，1946年当**乔治·马歇尔**（George Marshall）告诉蒋介石停止前进时，他当时做得相当好。我提到，共产党撤退的终点是在满洲的沈阳。有人会争辩说，马歇尔当时绝不应该那样做，他应该让国民党一路北上，那样就会改变中国内战的结果。你可以论证说，这可能是真的。
-
-### 敌对势力的合作难题
-
-这是反驳意见：我不知道答案。如果你看看中国的地图，或者想象一下，沈阳在北部，就像一个突出部，进入了共产党的领土，因为它与整个苏联接壤。然后它还有相当长的海岸线。但苏联已经封锁了那里，所以从那个方向什么也进不去。考虑到中国的铁路系统，实际上只有一条铁路线连接沈阳和中国南部。这意味着蒋介石的行动是极其可预测的。所以，你可以提出一个论点，人们也提出过，而我们都不知道答案——那就是，嘿，那是大错特错。
-
-### 战略评估的失误（续）
-
-所以，如果那是大错特错，那个错误——这是一个常见的美国人会犯的错误——所以这值得谈谈。美国人常常不看交战方来理解他们是否是主要对手。如果是，你就不可能让他们和解。所以，美国多年来一直试图让巴基斯坦和印度合作，并想同时援助两国，但就是做不到。只要他们是主要对手，你援助一方就会激怒另一方，他们永远不会合作。我怀疑伊拉克和阿富汗发生的事情也是如此。
-
-### 政治可行性考量（续）
-
-所以你想建立一个民主，你想让所有政党都有代表。好吧，如果他们都想消灭对方，他们最不想做的就是让对方有代表权，对吧？所以，如果你有想要互相灭绝的政党，让他们合作的想法是不可能的。所以，不要尝试。这就是从这件事中吸取的教训：我们一直试图与共产党和国民党建立联合政府，这是行不通的。
-
-### 大国角色的转变
-
-美国曾是一个非常**孤立主义**（isolationist country: 指奉行不干涉别国内政、不参与国际事务的外交政策的国家）的国家，直到第一次世界大战后才具备大国的姿态。在一战中，我们感觉被拖了进去，卷入了这些可怕的战争。在大萧条期间，我们表现得相当不负责任，只是忽视了其他所有人的问题，不想听。然后，我们因此卷入了第二次世界大战，之后我们重新思考了整个命题。
+</details>
