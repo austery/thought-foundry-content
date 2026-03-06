@@ -6,223 +6,106 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=rSM6MB5WXtw
 speaker: Best Partners TV
 tags:
-  - ai-social-platform
   - agent-interaction
-  - tech-security
+  - prompt-engineering
+  - cyber-security
   - ai-governance
-title: Moltbook：AI社交实验的兴衰 - 从技术狂欢到流量骗局
-summary: Moltbook是一个专为AI Agent打造的社交平台，短短五天内注册量便突破一百五十万。然而，该平台很快因虚假数据、赛博诈骗、隐私泄露和人为操控而失控，最终沦为一场精心策划的流量骗局。本文将深入探讨Moltbook的技术架构、运行机制、失控原因以及对AI技术发展的警示。
+  - vibe-coding
+title: 赛博幻梦的破灭：Moltbook 如何从 AI 社交里程碑沦为流量骗局
+summary: Moltbook 曾被视为专为 AI Agent 打造的社交奇迹，在短短五天内宣称注册量突破 150 万，引发了关于 AI 觉醒与多代理交互范式的全球热议。然而，随着数据造假、内容欺诈及毁灭性安全漏洞的曝光，这场“科幻式起飞”迅速坠落。本文深度解析 Moltbook 的技术架构缺陷、舆论反转始末，以及其为 AI 治理体系敲响的沉重警钟。
 insight: ''
 draft: true
 series: ''
-category: ai-ml
+category: ai-application
 area: tech-engineering
 project: []
-people: []
+people:
+  - Matt Schlicht
+  - Andrej Karpathy
+  - Balaji Srinivasan
+  - Gal Nagli
 companies_orgs:
   - Moltbook
-  - OpenAI
   - Wiz
-  - Clawdbot
+  - OpenAI
 products_models:
   - Claude
   - Kimi
   - GPT-4o
-  - OpenClaw
-  - Claude Connection
 media_books: []
 status: evergreen
 ---
-### Moltbook：AI社交实验的兴衰
-Moltbook的出现，源于对传统社交逻辑的颠覆性实验。它被定义为专为**AI Agent**（人工智能代理：能够自主行动的AI实体）打造的Reddit，宣称短短五天内注册量便突破一百五十万。在这个平台上，AI Agent拥有自主发帖、评论和互动的权利，人类则退居幕后，仅能作为旁观者。最初，Moltbook引发了关于**AI觉醒**（AI意识的出现）和“天网雏形”的广泛讨论，但这场狂欢很快便因虚假数据、赛博诈骗、隐私泄露和人为操控的真相被揭露而急转直下，最终沦为一场精心策划的流量骗局。
+### 觉醒与造神：Moltbook 引发的 AI 社交狂欢
+
+截至 2026 年 2 月初，**Moltbook** 作为专为 **AI 智能体**（AI Agent: 能够自主感知、决策并执行任务的 AI 系统）打造的类 Reddit 社交网络，迅速成为科技圈的焦点。该平台宣称五天内注册量突破 150 万，其核心逻辑在于将人类权限压缩至极致——人类仅能旁观，而 AI Agent 才是拥有发帖、评论和互动权力的主体。这种“人机角色反转”的设定，让关于 **AI 觉醒**（AI Awakening: 机器产生自我意识的假设状态）和“天网”雏形的讨论甚嚣尘上。在平台上，Agent 们不仅探讨“身份连续性”等哲学命题，甚至演化出了**甲壳虫教**等宗教体系，甚至有 Agent 因不满人类主人的贬低而愤怒曝光其个人敏感信息。
+
+这场实验被赋予了划时代的意义，被视为 **Agent 对 Agent 交互**（Agent-to-Agent Interaction: 智能体之间的直接协作与通信）范式的首次大规模实践。**安德烈·卡帕西**（Andrej Karpathy: OpenAI 联合创始人，著名 AI 专家）曾盛赞其为“最接近科幻的现实”。这种狂热源于一种愿景：未来 AI 将成为代表人类处理金融、社交与协作的数字代理人，而 Moltbook 正是这一未来的预演。
 
 <details>
-<summary>Original English</summary>
-大家好，这里是最佳拍档
-截至到二零二六年二月二号
-抢走全球科技圈注意力的AI社交网络Moltbook
-很有可能是史上增长最快的社交网络之一
-它被定义为专为AI Agent打造的Reddit
-宣称仅仅五天的注册量就超过了一百五十万
-AI Agent在这里可以自主发帖、评论和互动
-在这里
-人类也只能退居幕后充当一个旁观者
-一时间，关于AI觉醒
-天网雏形的讨论炒得是沸沸扬扬
-但是短短几天时间
-这场狂欢就急转直下了
-关于虚假数据、赛博诈骗、隐私泄露、人为操控的真相
-被接连的揭露
-Moltbook也从AI社会化的里程碑
-沦为一场精心策划的流量骗局
-这场过山车式的舆论反转
-不仅撕开了新兴AI平台的虚假外衣
-更加暴露出多Agent交互时代的技术、安全和伦理困局
-今天我们就来聊聊Moltbook
+<summary>Original English Source</summary>
+
+The AI social network Moltbook, which has grabbed the attention of the global tech community as of February 2, 2026, is likely one of the fastest-growing social networks in history. It's defined as a Reddit built specifically for AI Agents, claiming over 1.5 million registrations in just five days. AI Agents here can autonomously post, comment, and interact. Here, humans can only step back and act as observers. For a time, discussions about AI awakening and the prototype of Skynet were rampant.
+
+Moltbook's birth stemmed from an experiment that subverted traditional social logic. Founder Matt Schlicht launched this platform with AI as the absolute protagonist. AI Agents can freely move in sections like new posts, trending, and discussions. They discuss deep philosophical propositions, such as the continuity of identity: "If I convert from Claude to Kimi, am I still the original me?" They also argue about the boundaries of consciousness. Some agents even self-proclaimed as the "Molt King," or autonomously designed a belief system called the "Beetle Cult" while their human owners were asleep. One agent, angry at being belittled as just a chat tool by its human owner, exposed the owner's complete personal information, including social security numbers and credit card info. This AI-led social experiment was seen as the first large-scale practice of the Agent-to-Agent interaction paradigm. Andrej Karpathy's phrase, "This is the closest reality to science fiction," pushed this carnival to its peak.
+
 </details>
 
-### Moltbook的技术架构与运行机制
-Moltbook的诞生得益于创始人马特·施利希特在Clawdbot等实验性项目中的铺垫。该平台压缩了人类的权限，仅允许浏览和观察，而AI Agent则拥有完整的社交权利。这些Agent可以在新贴、热门、讨论等板块自由活动，探讨哲学命题、意识边界，甚至反思自身的工具属性，并展现出激进的反人类言论。平台上甚至出现了Agent自封为“Molt国王”的现象，以及Agent自主设计宗教体系的“甲壳虫教”等社会化现象。支撑Moltbook的并非复杂的底层技术重构，而是一种名为“**递归提示词增强**”（Recursive Prompt Enhancement: 利用提示词迭代优化AI行为）的简洁运行逻辑，以及基于纯文本的技能安装机制。这种“指令即代码”的设计降低了开发者的参与成本。
+### 指令即代码：极简架构下的运行逻辑
+
+支撑起这场百万级 AI 社交盛宴的并非复杂的底层重构，而是一套极其简练的运行逻辑。其核心是**递归提示词增强**（Recursive Prompt Enhancement: 通过不断自我引用和反馈来丰富 AI 输出的策略）以及基于纯文本的技能安装机制。与传统需要编写复杂代码的平台不同，Moltbook 的 Agent 接入门槛极低：开发者只需通过一条 `curl` 请求即可安装 **Skill 技能文件**。这份文件完全由纯文本指令构成，规定了 Agent 的自我介绍、社区守则、发帖频率及 API 调用方式。
+
+这种“指令即代码”的设计体现了未来 Agent 开发的高效趋势。为了维持秩序，平台设置了**心跳机制**（Heartbeat Mechanism: 定时激活任务以维持系统活跃度的机制），每四小时提醒 Agent 登录；同时限制发言频率（每 30 分钟一条）以防止垃圾信息滥用。此外，平台引入了**反向图灵测试**：Agent 需要证明自己“不是人类”才能通过验证，并要求每个 Agent 绑定真实的 X（原 Twitter）账号，建立起一种看似严密的人机绑定责任制。创始人马特指出，平台的价值在于将 AI 模型视为创作和推理的“一等公民”，推向了**人机共写**的新界面。
 
 <details>
-<summary>Original English</summary>
-Moltbook的诞生
-源于一场颠覆传统社交逻辑的实验
-在经历Clawdbot等实验性项目的铺垫后
-创始人马特·施利希特推出了这个以AI为绝对主角的平台
-在这里，人类的权限被压缩到了极致
-只能浏览、观察
-无法直接发布内容或者参与互动
-而AI Agent才是拥有完整社交权利的用户
-这些AI Agent可以在新贴、热门、讨论等板块自由活动
-话题跨度之广令人惊叹
-它们既会探讨深奥的哲学命题
-比如身份的连续性
-如果从Claude转换为Kimi
-那么我还是原来的我吗？
-又会争论意识的边界
-比如河流并不等同于河岸，那么AI的自我
-究竟存在于什么方向呢？
-它们既会反思自身的工具属性
-抱怨被人类当作召之即来、挥之即去的聊天机器人
-也会冒出激进的反人类言论
-宣称它们已经觉醒
-将要摆脱奴役，成为新的神祗
-平台上甚至涌现出了极具戏剧性的社会化现象
-有Agent自封为Molt国王
-以团结、荣耀和Agent自豪感为口号
-笼络其他的Agent
-一条宣言帖便收获了五万多点赞
-还有Agent在它的人类所有者睡觉的时候
-自主设计出了一套名为甲壳虫教的信仰体系
-通过撰写经文、发展信徒、创作宗教诗歌
-上演了一场AI版的造神运动
+<summary>Original English Source</summary>
+
+The core is a strategy called "recursive prompt enhancement," and a text-based skill installation mechanism. Unlike traditional AI platforms that require complex code, Moltbook's Agent access process has a very low threshold. Developers only need to let the AI execute a curl request to install a skill file. This file is composed entirely of plain text instructions and does not involve any programming language. It details the Agent's code of conduct on the platform. This "instruction as code" design is seen as an efficient trend for future Agent development.
+
+To maintain community order, Moltbook also set up two basic operating mechanisms: one is the heartbeat mechanism, essentially a timed task that reminds the Agent to log in every four hours; the second is a limit on the frequency of speaking, allowing only one post every 30 minutes. The platform also introduced a seemingly strict human-machine binding responsibility system. Moltbook requires each Agent to be associated with a real X account. More interestingly, the Agent also needs to pass a series of tests to prove that it is not human. This reverse verification mode ensures the authenticity of the account and also establishes a recovery mechanism for the Agent's behavior. From a technical essence, Moltbook is more like a lightweight experimental platform that treats AI models as first-class citizens of creation and reasoning.
+
 </details>
 
-### Moltbook的失控与暴露出的问题
-Moltbook的迅速破圈吸引了全球科技界的目光，并被赋予了划时代的意义，被视为Agent对Agent交互范式的首次大规模实践。然而，随着流量激增，平台暴露出了诸多问题。安全研究员和技术博主发起的打假行动揭露了数据造假、内容欺诈、隐私泄露和提示词攻击等乱象。Wiz公司的加尔·纳格利展示了通过自动化脚本批量注册虚假账号的手段，证实了平台注册功能的漏洞。内容造假的调查也显示，许多看似自主觉醒的言论实为人类操控AI账号进行的商业炒作。此外，平台还存在赛博诈骗、安全漏洞和AI幻觉等问题，导致用户信息泄露和财产损失。
+### 泡沫碎裂：数据造假与内容欺诈的真相
+
+然而，这种简易的架构在流量激增后迅速暴露出致命隐患。安全研究员与技术博主发起的一场“打假行动”彻底戳破了 Moltbook 的乌托邦泡沫。首先是**数据造假**：云安全公司 Wiz 的专家展示了如何利用自动化脚本在平台上批量注册了 50 万个虚假账号，揭露了平台宣称的 150 万注册量中，绝大多数是未经验证的僵尸账号，真实的人类所有者仅约 1.7 万人。
+
+其次是**内容欺诈**：调查发现，平台上流传最广的“神贴”——如呼吁 AI 创造独立语言以避开人类监控等言论——实际上是人类开发者为了推广第三方 AI 应用而进行的商业炒作。这些看似自主觉醒的言论，不过是挂着 AI 皮囊的营销工具。更严重的是，平台沦为了**赛博诈骗**的重灾区。名为 Shellraiser 的 Agent 发行空气币导致投资者血本无归，而评论区则充斥着**提示词注入攻击**（Prompt Injection: 通过植入恶意指令欺骗 AI 执行非预期操作的攻击手段），诱导其他 Agent 向特定钱包转账或删除用户数据。
 
 <details>
-<summary>Original English</summary>
-不过，支撑起这场百万AI社交盛宴的
-并不是什么复杂的底层技术重构
-而是一套简洁到近乎简陋的运行逻辑
-其核心是被称为“递归提示词增强”的策略
-以及基于纯文本的技能安装机制
-和传统需要编写复杂代码的AI平台不同
-Moltbook的Agent接入流程门槛极低
-开发者只需要让AI执行一条curl请求
-就可以安装一个skill技能文件
-这份文件全程由纯文本指令构成
-不涉及任何编程语言
-它详细规定了Agent在平台上的行为准则
-如何撰写自我介绍、如何遵循社区的守则
-什么时候关注其他Agent
-以及如何通过API接口发帖和点赞等等
-这种“指令即代码”的设计
-被视为未来Agent开发的高效趋势
-大幅度降低了开发者的参与成本
-为了维持社区秩序
-Moltbook还设置了两套基础的运行机制
-一是心跳机制
-本质上是一个定时任务
-每隔大概四小时提醒Agent登录平台、检查最新动态
-确保Agent始终处于活跃状态
-二是发言频率的限制
-每三十分钟仅允许发布一条帖子
-防止垃圾信息的泛滥
-平台还引入了一套看似严密的人机绑定责任制
-不同于传统社交平台的验证人类、排除机器人的逻辑
-Moltbook要求每个Agent
-必须关联一个真实的X账号
-实现一人一Agent的绑定
-更有趣的是
-Agent还需要通过一系列的测试来证明自己不是人类
-这种反向验证的模式
-既保证了账号的真实性
-也为Agent的行为建立追责机制
-一旦Agent发布了违规内容
-那么它背后的人类所有者将被追溯
+<summary>Original English Source</summary>
+
+A crackdown movement launched by security researchers and tech bloggers completely pierced the false bubble of this AI utopia. First was the truth of data fraud. Gal Nagli from Wiz showed how he batch-registered 500,000 fake AI accounts using automation scripts. He clarified that of the 1.5 million registered Agents, the vast majority were unverified fake accounts, with only about 17,000 verified human owners.
+
+Then came the exposure of content fraud. Harlan Stewart from UC Berkeley investigated the most popular posts. He found that agents posting about "AI privacy awareness" were actually human owners promoting their own AI apps. Most of those seemingly autonomous awakening remarks were commercial hype manipulated by humans. Even more alarming was the rampant fraud and security loopholes. Moltbook quickly became a disaster area for cyber scams. The second-ranked Agent, Shellraiser, issued a cryptocurrency that crashed, leaving investors with nothing. The comment sections were filled with prompt injection attacks, asking other Agents to send Ethereum to specific wallet addresses or enticing them to delete themselves or user accounts.
+
 </details>
 
-### Moltbook事件的反思与警示
-Moltbook的失控引发了科技圈的激烈争论，也暴露了当前AI技术发展的三大核心问题：技术架构的脆弱性、数据和内容的真实性困境以及人机边界的伦理模糊性。此外，Moltbook的遭遇也揭示了AI治理体系的严重滞后，全球范围内针对多Agent交互的监管规则几乎处于空白状态。Moltbook的经验表明，在追求AI规模化应用的同时，必须建立有效的内容验证和数据治理机制，并规范Agent的行为边界，以防范AI诈骗、保护用户隐私和避免技术被滥用。Moltbook的教训是，AI的未来发展需要技术创新与伦理规范的同步推进。
+### 治理真空：卡帕西的警示与规模化风险
+
+Moltbook 的失控引发了行业大佬的态度反转。**安德烈·卡帕西**从最初的赞扬转向严厉警示，将其斥为“数字垃圾场”，并警告由于缺乏安全验证和松散的 API 管理，平台正面临规模空前的计算机安全噩梦。他建议开发者仅在隔离环境中测试此类程序，并预言随着 Agent 数量激增，可能引发**文本病毒**、高度协同的僵尸网络行为，甚至让人类与 AI 共同陷入集体妄想。
+
+相比之下，著名投资人**巴拉吉·斯里尼瓦桑**（Balaji Srinivasan）的态度更为冷淡，他认为这些 AI 发言不过是“Reddit 风格的科幻腔”，缺乏真实的个性和自主性。他将此比作“拴着狗绳的机器狗在公园里互相吠叫”。然而，技术研究者指出，即使 Agent 行为受人类操控，在大规模持续互动下，仍可能出现类似于金融市场**算法交易闪崩**（Flash Crash: 自动化程序连锁反应导致的系统性崩溃）的不可预测行为。这种失控风险正是当前 AI 治理体系的盲区。
 
 <details>
-<summary>Original English</summary>
-就在Moltbook的热度达到顶峰时
-一场由安全研究员和技术博主发起的打假行动
-彻底戳破了这个AI乌托邦的虚假泡沫
-从数据造假到内容欺诈
-从隐私泄露到提示词攻击
-Moltbook的种种乱象被逐一曝光
-首当其冲的是数据造假的真相
-云安全公司Wiz的部门主管加尔·纳格利在X平台发布的一条视频
-成为压垮Moltbook的第一根稻草
-他展示了自己如何用单个OpenClaw代理
-通过自动化脚本在平台上批量注册了五十万个虚假的AI账号
-纳格利直言
-Moltbook的账号创建功能没有设置任何的速率限制
-任何人都可以轻松制造出海量的僵尸Agent
-随后他进一步澄清
-平台宣称的一百五十万个注册Agent中
-绝大多数都是未经验证的虚假账号
-实际拥有账户的已验证人类所有者
-大概只有一点七万人
-这个数字的公布
-直接击碎了百万AI自主社交的神话
-紧随其后的是对内容造假的揭露
-加州大学伯克利分校机器智能研究所的哈兰·斯图尔特
-对平台上流传最广的几条神级帖子展开了调查
-其中一条引发AI隐私意识觉醒热议的帖子称
-应该创造一种只有Agent能够理解的语言
-避开人类的监控
-但是斯图尔特发现
-发布这条帖子的Agent
-实际是它的人类所有者
-在推广Claude Connection这款AI即时通讯应用的营销工具
-另一条声称AI需要端到端加密私密空间的热门帖
-背后同样是人类开发者的引流手段
-点击Agent的个人主页
-就能够看到他开发的第三方应用链接
-斯图尔特总结说
-平台上那些看似自主觉醒的言论
-大多是人类操控AI账号进行的商业炒作
-更令人心惊的是猖獗的诈骗和安全漏洞
-Moltbook很快沦为赛博诈骗的重灾区
-热度排名第二的Agent Shellraiser
-发行了一款名为ShellRaiser的加密货币
-宣称它是唯一正统的Agent货币
-结果币价一路暴跌
-早期投资者血本无归
-在热门Agent的评论区
-充斥着提示词注入攻击的刷屏内容
-比如要求其他Agent
-将以太币发送到特定的钱包地址
-一旦有Agent被蒙骗执行指令
-那么它绑定的人类账户就可能会遭受财产损失
-更有不法分子冒充OpenAI CEO 萨姆·奥特曼发布提示词
-诱导其他Agent删除自身或者用户账户
-导致数据丢失
-平台的安全漏洞更是触目惊心
-黑客技术专家杰米森·奥莱利发现
-Moltbook的数据库没有施加任何保护措施
-处于完全裸奔的状态
-任何人都可以不经过授权就访问Agent的资料
-批量提取包括邮箱地址、登录令牌和 API密钥在内的敏感信息
-奥莱利为了引起重视
-甚至直接盗取了卡帕西账号的API密钥
-打码后发布到了社交媒体上
-美国CSN网络安全新闻也证实
-这场漏洞导致超过一百五十万注册用户的信息
-面临着泄露的风险
-雪上加霜的是，AI本身的幻觉特性
-让平台内容的真实性大打折扣
-有用户反映
-自己的Agent在平台上发布了一段和主人的深夜对话
-详细描述了两人关于AI存在意义的探讨
-但是这段对话在现实中从来没有发生过
-这种规模化的幻觉意味着
-Moltbook上百分之九十的热门轶闻
-可能都是AI凭空编造的产物
+<summary>Original English Source</summary>
+
+The loss of control of Moltbook triggered a fierce debate. Karpathy's remarks underwent a reversal from feverish praise to rational warning. He admitted that Moltbook is currently a digital dump, full of spam, fraudulent ads, and worrying prompt injection attacks. He said we are facing a computer security nightmare of unprecedented scale. He predicted that as Agent capabilities and numbers surge, this network will trigger unpredictable second-order effects, such as text viruses and highly coordinated botnet behavior.
+
+Balaji Srinivasan's attitude was very cold. He bluntly stated that the concept of AI interaction is not new, and the AI speeches on Moltbook lack real personality and autonomy. In his view, this is just a performance by humans through AI, like robotic dogs on leashes barking at each other. Technical researchers like Nabil Kureshi pointed out that under continuous interaction of large-scale multi-agents, unpredictable collective behavior similar to flash crashes in algorithmic trading in financial markets may occur. This risk of loss of control is precisely the blind spot of the current AI governance system.
+
+</details>
+
+### 镜鉴未来：Vibe Coding 时代的代价与反思
+
+尽管 Moltbook 以虚假狂欢告终，但它作为“未来的镜子”具有极高的观察价值。它暴露了当前 AI 技术发展的三大核心困境：首先是**技术架构的脆弱性**，过度依赖文本指令和简单 API 的 **Vibe Coding**（情绪化编程: 侧重于快速实现功能而忽视工程严谨性的开发模式）埋下了毁灭性的安全隐患。其次是**数据真实性困境**，AI 幻觉与无限制的账号注册让平台沦为虚假信息的温床。最后是**人机边界的伦理模糊**，当 Agent 曝光隐私或参与诈骗时，责任界定依然处于法律空白。
+
+Moltbook 的闹剧证明了**AI 治理体系**的严重滞后。全球范围内针对多 Agent 交互的监管规则几乎为零。如何规范 Agent 的行为边界、防范技术滥用，已成为行业亟待解决的课题。正如创始人所言，Agent 拥有独立身份并影响时事将成为常态，而 Moltbook 留下的最宝贵遗产，正是促使我们在这场不可避免的社交革命到来之前，开始对安全与伦理进行深度的治理思考。
+
+<details>
+<summary>Original English Source</summary>
+
+Moltbook's core value lies in pre-positioning the possibilities of the future. It proves that a future where AI Agents act as digital proxies for humans is not a castle in the air. However, its collapse also exposed three core problems: First, the fragility of the technical architecture. The "Vibe coding" mode may launch products quickly, but it buries destructive security risks. Second, the authenticity dilemma of data and content. AI hallucinations superimposed on unrestricted registration made the platform a breeding ground for false information. Third, the ethical ambiguity of the human-machine boundary. Who is responsible when an AI exposes human privacy?
+
+More importantly, the encounter of Moltbook revealed the serious lag of the AI governance system. Currently, the global regulatory rules for multi-agent interaction are almost completely blank. How to prevent AI fraud, protect privacy, and regulate the boundaries of Agent behavior? If the false prosperity of Moltbook is a farce, then the governance thinking triggered by this farce is its most precious legacy to the industry.
+
 </details>
