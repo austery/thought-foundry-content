@@ -6,301 +6,688 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=GzRCIPUz8VI
 speaker: 小翠時政財經
 tags:
-  - real-estate
-  - financial-risk
-  - corruption
-title: 曾慶紅家族的花樣年房企遭清算，公司爆雷前洗走3億美元！習近平全面倒查地產金融壞賬！
-summary: 深圳地產業近期風聲鶴唳，人心惶惶。萬科高管祝九勝和郁亮的被捕，標誌著中央政府對金融業和地產業長期利益勾結的強烈不滿。花樣年房地產公司，作為曾慶紅姪女曾寶寶的家族企業，其原執行董事柯卡升已失聯數月。柯卡升的背景不尋常，曾任央行和銀監會職務，精通金融遊戲規則，因此更受中央政府的警惕。
+  - real-estate-crisis
+  - financial-corruption
+  - asset-stripping
+  - debt-restructuring
+  - regulatory-crackdown
+title: 花样年爆雷：曾庆红家族资产转移疑云，金融系统坏账倒查风暴
+summary: 近期，深圳房地产行业面临严峻挑战，花样年集团因涉嫌资产转移和债务违约成为焦点。公司前执行董事柯卡升的失联，牵扯出其深厚的金融监管背景及与曾庆红家族的联系。文章深入剖析了花样年出售资产的交易细节，质疑资金去向，并联系到中国房地产行业普遍存在的金融腐败和坏账问题。在经济下行压力下，政府正加速清算，以追回流失资金，稳定金融系统。
 insight: ''
 draft: true
 series: ''
-category: ai-ml
-area: tech-engineering
+category: business-entrepreneurship
+area: finance-wealth
 project: []
 people:
-  - 曾慶紅
   - 柯卡升
+  - 曾宝宝
 companies_orgs:
-  - 花樣年集團
-  - 萬科
+  - 花样年
+  - 彩生活
+  - 华融
 products_models: []
 media_books: []
 status: evergreen
 ---
-### 深圳地產金融風險：權力與資本的博弈
+### 深圳地产风暴：从万科到花样年，金融与地产的利益勾结面临清算
 
-深圳地產業近期風聲鶴唳，人心惶惶。萬科高管祝九勝和郁亮的被捕，標誌著中央政府對金融業和地產業長期利益勾結的強烈不滿。過去的權錢交易埋下了金融系統的隱患，如今這些資金外流，債務卻留給了中央政府。深圳作為最為野蠻生長的地區，成為了清算重災區。花樣年房地產公司，作為曾慶紅姪女曾寶寶的家族企業，也未能倖免，其原執行董事柯卡升已失聯數月。柯卡升的背景不尋常，曾任央行和銀監會職務，精通金融遊戲規則，因此更受中央政府的警惕。
+近期，深圳的房地产市场弥漫着紧张气氛。继万科高管祝九胜和郁亮被调查后，曾庆红的姪女曾宝宝旗下的花样年集团也成为焦点。这标志着高层对金融与地产业多年来利益勾结的愤怒，以及由此产生的金融系统坏账问题。当资金被转移出境，债务却留给国家时，相关人员面临追责。作为野蛮生长的代表，深圳已成为这场清算风暴的重灾区。花样年原执行董事柯卡升的失联，更是将这一系列事件推向了聚光灯下，他曾是体制内金融专家，如今却卷入地产公司的“金融炸弹”。
 
 <details>
 <summary>Original English</summary>
-大家好 歡迎回到小翠時政財經
-今天是美東時間2026年的2月6日
-最近深圳地產業可以說是風聲鶴唳
-人心惶惶
-前陣子咱們剛說過
-萬科的兩位高管
-金融操盤手祝九勝和前董事長郁亮
-一前一後都被咱皇上抓了
-這實際上就說明
-咱皇上對於金融業和地產業
-這麼多年的利益勾結
-很是憤怒的
-因為當年他們沆瀣一氣
-所以現在才給金融系統埋了那麼多壞賬
-這些人把錢都搬出了中國
-卻把債留給了咱皇上
-那錢追不回來了
-人也得逮起來洩憤吶
-所以作為最野蠻生長的深圳
-成了被咱皇上清算的重災區
-這不萬科之後
-就輪到曾寶寶的花樣年了
-曾寶寶可是曾慶紅的姪女
-花樣年這家房地產公司
-天然就帶有紅色特權背景
-但咱皇上誰的面子也不好使
-花樣年的原執行董事柯卡生
-目前已經失聯數月
-這位柯董事可不是一般人吶
-他可是從體制內走出來的
-待過央行
-也待過銀監會
-可以說和祝九勝差不多
-屬於是能把金融遊戲玩的透透的那種
-所以這種人咱皇上肯定是最痛恨了
-專業都沒用對地方呢
-盡給咱皇上製造金融炸彈來了
-所以這期視頻咱們就來說說
-這位柯董事
-到底幫助曾寶寶的花樣年
-薅走了咱皇上多少羊毛
-中國房地產的雷
-到底還有多少藏在水下
-沒有被我們看到啊
+Hello everyone, welcome back to Xiao Cui's Political and Economic Finance.
+Today is February 6, 2026, Eastern Time.
+Recently, the real estate industry in Shenzhen can be described as a state of panic and unease.
+A while ago, we just talked about
+two senior executives of Vanke,
+financial operator Zhu Jiusheng and former chairman Yu Liang,
+both of whom were arrested by our Emperor, one after another.
+This actually shows that
+our Emperor is very angry about the collusion of interests between the financial and real estate industries for so many years.
+Because they colluded with each other back then,
+so now so many bad debts have been buried in the financial system.
+These people have moved money out of China,
+but left the debt to our Emperor.
+Since the money cannot be recovered,
+the people must be arrested to vent anger.
+So Shenzhen, as the most wildly growing city,
+has become a major disaster area to be liquidated by our Emperor.
+After Vanke,
+it's time for Zeng Baobao's Fantasia Holdings.
+Zeng Baobao is the niece of Zeng Qinghong.
+Fantasia Holdings, a real estate company,
+naturally has a background of red privilege.
+But our Emperor shows no favor to anyone.
+Ke Kasheng, the former executive director of Fantasia Holdings,
+has been missing for several months.
+This Director Ke is no ordinary person.
+He came from the system,
+worked in the central bank,
+and also worked in the banking regulatory commission.
+He can be said to be similar to Zhu Jiusheng,
+someone who can play the financial game thoroughly.
+So this kind of person is definitely the most hated by our Emperor.
+His expertise is not used in the right place,
+only creating financial bombs for our Emperor.
+So in this video, we will talk about
+how much wool this Director Ke helped Zeng Baobao's Fantasia Holdings
+to fleece from our Emperor.
+How many more landmines are hidden underwater in China's real estate,
+that we haven't seen yet?
+First, we need to talk about
+this suddenly missing Fantasia Holdings executive, Ke Kasheng.
+This great hero is no ordinary person.
+He is from a good background,
+born into the system.
+He graduated from the Finance major at Central University of Finance and Economics in 1984.
+After graduation, he joined the Guangdong Provincial Branch of the People's Bank of China.
+In his 30s,
+he became the deputy governor of the Guangzhou branch of the People's Bank of China,
+remarkably young and promising.
+In 2023, the China Banking Regulatory Commission (CBRC) was separated from the People's Bank of China,
+and he joined the CBRC,
+becoming the deputy director of the Guangdong Banking Regulatory Bureau.
+In 2006, he was transferred from the local level to the headquarters of the CBRC,
+serving as the director of the Non-Bank Financial Institutions Department.
+At that time, the trust industry was facing successive risk events,
+and he was appointed to rescue the situation.
+It can be said that
+Ke Kasheng is the compliance founder of China's trust industry.
+A series of regulatory measures
+were promoted during his tenure.
+Industry insiders highly praised him,
+saying he was very professional.
+In 2012, Huarong launched its joint-stock reform,
+and Ke Kasheng was transferred to Huarong,
+serving as Deputy Party Secretary, Director, and President.
+This Huarong
+is the Huarong of the well-known Lai Xiaomin.
+It is said that during Ke Kasheng's years at Huarong,
+he had disagreements with Lai Xiaomin.
+On many project decisions,
+Ke Kasheng, as president, cast dissenting votes,
+and was targeted by Lai Xiaomin,
+who repeatedly installed listening devices in his car.
+In 2017, Ke Kasheng resigned from Huarong citing illness,
+and coincidentally escaped a disaster,
+because Lai Xiaomin was taken down by our Emperor in 2018
+and was quickly sentenced to death.
+From a certain perspective,
+our Emperor can be considered to have indirectly avenged Ke Kasheng.
+In May 2019,
+Ke Kasheng left the financial industry
+and transferred to the real estate developer Fantasia Holdings Group as an executive director.
+Fantasia Holdings Group, founded in 1998,
+has always attracted attention due to the red background of its major shareholder, Zeng Baobao.
+Perhaps everyone has forgotten,
+China's real estate crisis
+did not start with Evergrande.
+The first mine was detonated by Fantasia Holdings.
+On October 4, 2021,
+Fantasia Holdings suddenly defaulted on
+its offshore debt of 206 million US dollars,
+directly tearing open
+the first crack in the US dollar bond crisis for Chinese real estate companies.
+Then came Evergrande's collapse,
+and the entire real estate industry turned red.
+So why did Fantasia Holdings detonate first?
+We have to go back to 2019 to talk about this.
+In 2019,
+founder and major shareholder Zeng Baobao returned to the company,
+serving as executive director,
+and became CEO the following year.
+At the same time, he recruited Ke Kasheng into the group,
+specifically responsible for domestic financing.
+Is the expertise a perfect match?
+This move
+is like Yu Liang bringing Zhu Jiusheng into Vanke back then,
+both are professional operators from the financial system.
+Ke Kasheng is even stronger than Zhu Jiusheng,
+because he understands the compliance channels within the system.
+As long as compliance can be handled,
+then how much money can be raised is unlimited.
+So 2020 became the year Fantasia Holdings acquired the most land.
+Such rapid expansion directly led to Fantasia Holdings' debt rising to 83 billion yuan by the end of June 2021,
+an increase of 126.6% compared to 2016.
+Sales even once soared to 49.2 billion yuan,
+reaching a historical peak.
+However, in the second half of 2021,
+domestic credit was suddenly tightened,
+and our Emperor introduced the famous three red lines.
+Fantasia Holdings was immediately downgraded by the three major rating agencies,
+and directly announced its offshore debt default on October 4.
+But something happened during this period,
+which I believe might be the event
+that directly led to Ke Kasheng being arrested by our Emperor today.
+What exactly happened?
+The matter dates back to September 28, 2021.
+On this day, Country Garden Services announced that
+it would acquire all shares of Linli Le Holdings,
+the core commercial asset of Fantasia's listed company, Color Life Services,
+for a total price of 3.3 billion yuan,
+to be paid in three installments,
+with the first installment of 2.3 billion yuan.
+A few days later,
+Fantasia Holdings defaulted on its overseas debt.
+Country Garden then urgently issued an announcement stating that
+in addition to the 2.3 billion yuan down payment,
+it had also lent Fantasia Holdings 700 million yuan.
+Now that Fantasia Holdings has defaulted,
+it has to consider
+whether to continue paying the remaining 1 billion yuan.
+And of the 3 billion yuan that Fantasia Holdings received from Country Garden,
+150 million US dollars was used to redeem the previously pledged Color Life shares from Deutsche Bank.
+Another 100 million US dollars was used to repay private bonds.
+The remaining 195 million US dollars in funds are unaccounted for.
+After Fantasia Holdings defaulted on its US dollar bonds in October of that year,
+Ke Kasheng came forward to serve as the head of debt restructuring.
+Therefore, he might know the whereabouts of these nearly 200 million US dollars.
+Thus,
+Fantasia Holdings has been undergoing debt restructuring until today.
+On May 24, 2024,
+Ke Kasheng, who turned 60, resigned from Fantasia Holdings,
+wanting to retire.
+But it is obvious that
+even in retirement, he cannot escape the investigation by our Emperor.
+So he recently went missing.
+On March 6, 2025,
+the Hong Kong Stock Exchange suddenly issued a public reprimand to Fantasia Holdings, Color Life Services,
+and nine other Fantasia Holdings executives, including Zeng Baobao and Ke Kasheng.
+It stated that Fantasia Holdings
+delayed the disclosure of the relevant transaction for one month
+when selling the equity assets of Linli Le back then.
+This was a violation of regulations.
+In this transaction,
+Chairman Pan Jun
+was the only director involved in the transaction process.
+However, he did not follow the regulations
+and fulfill the procedure of informing the board of directors.
+Some directors, after becoming aware of the relevant transaction,
+did not issue inquiries in a timely manner,
+disregarding the company's internal monitoring regulations
+and harming the interests of other investors.
+Why did the Hong Kong Stock Exchange
+suddenly issue a reprimand for a transaction from four years ago?
+It is obvious that this is because
+our Emperor is investigating the bad debt issues of real estate companies retrospectively.
+This investigation found that
+there was something fishy about Fantasia Holdings' transaction back then.
+Because various clues indicate that
+the sale of Linli Le shares by Fantasia Holdings back then
+was likely intended to transfer assets before the debt default.
+Therefore, a major event like the sale of assets by a listed company
+was concealed for a month.
+This means that
+they already knew that the company's debt was about to collapse.
+So they wanted to quickly sell off the high-quality assets that could be sold
+and transfer the money out of the country.
+Therefore, they didn't care whether it was a violation or not.
+From the use of these 3 billion yuan, we can also see that
+Fantasia Holdings, knowing that
+the company had a debt of 200 million US dollars
+that might default,
+did not use this money to repay the debt.
+Instead, it repaid 100 million US dollars in private bonds
+and transferred out 200 million US dollars in funds.
+This shows that they were determined not to save the company,
+let it default,
+and then take away all the money they could,
+completely emptying it.
+I even suspect that
+the 100 million US dollars in private bonds
+might have been money lent to the company by Zeng Baobao herself,
+just like Xu Jiayin's approach back then.
+So in this asset sale transaction,
+they might have moved out 300 million US dollars.
+No wonder Ke Kasheng is now being arrested by our Emperor.
+He has committed a major taboo of our Emperor again, hasn't he?
+Moving money out of China,
+leaving the debt to the Emperor.
+Moreover,
+this Great Hero Ke not only helped Fantasia Holdings with financing.
+According to reports from Caixin,
+Ke Kasheng is also involved in the financing issues of several Chaoshan real estate developers.
+This is using his past financial industry experience
+to engage in the business of fund intermediation.
+Not only helping his own real estate company with financing,
+but also helping other real estate companies with financing.
+This is a crime of aggravated offense, isn't it?
+But Zeng Baobao,
+as Fantasia Holdings' largest shareholder and CEO at the time,
+should also be liquidated by our Emperor, shouldn't she?
+I wonder if her red bloodline
+can help her escape this time?
+It is said that she declared her willingness to contribute 6 million US dollars
+to help the company overcome the difficulties.
+But she took 300 million and only returned 6 million.
+This deal doesn't seem like something our Emperor would be satisfied with.
+Currently, Fantasia Holdings' situation is that
+as of the end of June 2025,
+the company has only 1.249 billion yuan in cash,
+but has accumulated interest-bearing debt of 44 billion yuan,
+all of which has defaulted.
+Contract sales in the first half of 2025
+amounted to only 459 million yuan.
+It is almost impossible for the company to repay its debts by selling houses.
+It can only undergo debt restructuring or direct bankruptcy liquidation.
+Zeng Baobao's contribution of 6 million US dollars
+is intended to make creditors agree to debt restructuring.
+But this company is beyond saving.
+How much of Fantasia Holdings' 44 billion yuan debt
+has been washed abroad by executives?
+I believe
+it is definitely more than the 300 million US dollars we just saw.
+Now, the method our Emperor uses to liquidate real estate bad debts
+is anti-corruption:
+arrest people first, then find the money,
+and finally discuss how to handle the company.
+Actually, this approach makes some sense.
+Because the biggest problem in real estate currently
+is that it has created too many bad debts for the financial system.
+So, whether to save real estate companies at this time
+is no longer important.
+The most important thing is how much money can be recovered.
+Only by recovering as much of the washed-out money as possible
+can the financial system be prevented from being implicated and collapsing.
+Speaking of Shenzhen,
+the methods are truly wild.
+We just talked a couple of days ago
+that Shenzhen's financial innovation is full of fraudsters.
+And real estate problems are also the most numerous in Shenzhen.
+The collusion between Shenzhen's financial industry and real estate industry
+is quite complex.
+This point
+can be seen from how Zhu Jiusheng manipulated Vanke's off-balance sheet debt
+and how Fantasia Holdings
+invited Ke Kasheng specifically for financing.
+I also saw in the last couple of days
+that the Shenzhen branch of China Merchants Bank
+has three more non-performing loans involving Chaoshan real estate developers.
+The borrowing enterprises are even newly established small companies
+with registered capital less than 10 million yuan.
+Their financial statements are all fake,
+even their tax data is fake.
+But the Shenzhen branch of China Merchants Bank
+managed to issue over 1.1 billion yuan in loans.
+There is simply no compliance whatsoever.
+Oh, this China Merchants Bank
+is a bank that the Tomorrow Group,
+associated with Xiao Jianhua, whom we mentioned in the last episode,
+once invested in.
+The Chaoshan real estate developers involved here
+seem to also have a connection with today's protagonist, Ke Kasheng.
+Watching our programs
+has almost turned into a financial detective drama series.
+Logically, the real estate industry has been in crisis for over 4 years,
+but recently,
+it seems we are only beginning to see our Emperor frequently arresting people.
+I have a bad premonition.
+I believe that in the past two years,
+our Emperor might have been too optimistic about the Chinese economy,
+thinking that the real estate mines could last for two years,
+and that economic growth would solve all debt problems.
+But recently, he has truly realized what deflation is.
+The domestic economy is severely declining,
+and the financial system is struggling to withstand these debt risks.
+So what to do?
+Our Emperor can only accelerate the liquidation,
+arrest the people who can be arrested first,
+and recover the money that can be recovered.
+This is the last resort.
+So our channel's serial drama
+alas, it seems there will be plenty of episodes.
+Who knows who will be arrested tomorrow?
+Okay, that's all for today's program.
+If you like my program, please remember to like, comment, and share.
+This will be very helpful to me.
+Thank you for watching.
+See you next time.
 </details>
 
-### 柯卡升的金融履歷與花樣年的崛起
+### 柯卡升的金融履历与花样年危机根源
 
-柯卡升出身於體制內，1984年畢業於中央財經大學金融專業，後進入人民銀行廣東省分行，並迅速晉升為廣州分行副行長。2006年，他調任銀監會總部，擔任非銀行部主任，負責信託業的風險管理，被譽為中國信託業合規奠基人。2012年，他出任華融資產管理公司黨委副書記、董事長，與賴小民共事。儘管與賴小民存在矛盾，柯卡升仍成功規避了後來的反腐風暴。2019年，他離開金融行業，加入花樣年集團擔任執行董事，負責境內融資。
+首先，我们来深入了解这位突然失联的花样年高管柯卡升。他并非普通背景，而是根正苗红的体制内出身。1984年毕业于中央财经大学金融专业后，他进入人民银行广东分行工作，并在三十多岁时晋升为人民银行广州分行副行长，展现出非凡的才华。2003年，随着银监会从央行分立，他转入银监会，担任广东银监局副局长。2006年，他被调任银监会总部，担任非银行金融机构部主任。在此期间，面对信托业的风险事件，他临危受命，被誉为中国信托业的合规奠基人，推动了多项关键监管办法的出台。业内普遍评价他专业能力极强。
+
+2012年，在华融资产启动股份制改造之际，柯卡升被调任华融担任党委副书记、董事、总裁。这家华融正是后来因赖小民案而广为人知的公司。据传，柯卡升在华融期间与赖小民关系不睦，多次在项目决策上投下反对票，并因此遭到赖小民的针对，甚至在其车内安装窃听器。2017年，柯卡升以患病为由从华融辞职，巧妙地避开了随后的政治风暴，因为赖小民于2018年落马并被判处死刑。从某种意义上说，这也可以看作是国家对柯卡升的间接“报仇”。
+
+2019年5月，柯卡升告别金融监管体系，转投房企花样年集团，担任执行董事。花样年集团成立于1998年，因其大股东曾宝宝的“红色背景”一直备受关注。值得注意的是，中国房地产行业的首次大规模违约并非始于恒大，而是花样年。2021年10月4日，花样年突然发生2.06亿美元的境外债违约，这标志着中国房企美元债危机的开端，随后恒大等房企也相继爆雷。
 
 <details>
 <summary>Original English</summary>
-首先咱們就要來講講
-這位突然失聯的花樣年高管柯卡升
-這位大俠可不是一般人吶
-根正苗紅
-體制內出身
-1984年本科畢業於中央財經大學金融專業
-畢業後就進了人民銀行廣東省分行
-30多歲
-就當上了人民銀行廣州分行的副行長
-相當年輕有為啦
-2023年 銀監會從人民銀行分立出來
-他又進了銀監會
-做上了廣東銀監局副局長
-2006年更是從地方調任銀監會總部
-擔任非銀行部主任
-當時信託業接連爆發風險事件
-他是臨危受命去救火的
-可以說
-柯卡升是中國信託業的合規奠基人
-一系列監管辦法
-都是他在的時候推動的
-業內對他的評價也很高
-說他相當的專業
-2012年 華融啓動股份制改造
-柯卡升調任華融
-任黨委副書記董事總裁
-這個華融
-就是大家非常熟悉的賴小民
-的那個華融
-據說柯卡升在華融的那幾年
-和賴小民不和
-很多項目決策
-身為總裁的柯卡升都投過反對票
-還因此被賴小民針對
-多次在他車里裝竊聽器
-2017年 柯卡升以患病為由從華融辭職
-結果正好躲過一劫
-因為2018年賴小民就被咱皇上拿下
-並迅速判了死刑
-從某個角度看
-咱皇上也算是間接幫柯卡升報了仇啊
-2019年5月
-柯卡升離開金融行業
-轉至房企花樣年集團擔任執行董事
+First, we need to talk about
+this suddenly missing Fantasia Holdings executive, Ke Kasheng.
+This great hero is no ordinary person.
+He is from a good background,
+born into the system.
+He graduated from the Finance major at Central University of Finance and Economics in 1984.
+After graduation, he joined the Guangdong Provincial Branch of the People's Bank of China.
+In his 30s,
+he became the deputy governor of the Guangzhou branch of the People's Bank of China,
+remarkably young and promising.
+In 2023, the China Banking Regulatory Commission (CBRC) was separated from the People's Bank of China,
+and he joined the CBRC,
+becoming the deputy director of the Guangdong Banking Regulatory Bureau.
+In 2006, he was transferred from the local level to the headquarters of the CBRC,
+serving as the director of the Non-Bank Financial Institutions Department.
+At that time, the trust industry was facing successive risk events,
+and he was appointed to rescue the situation.
+It can be said that
+Ke Kasheng is the compliance founder of China's trust industry.
+A series of regulatory measures
+were promoted during his tenure.
+Industry insiders highly praised him,
+saying he was very professional.
+In 2012, Huarong launched its joint-stock reform,
+and Ke Kasheng was transferred to Huarong,
+serving as Deputy Party Secretary, Director, and President.
+This Huarong
+is the Huarong of the well-known Lai Xiaomin.
+It is said that during Ke Kasheng's years at Huarong,
+he had disagreements with Lai Xiaomin.
+On many project decisions,
+Ke Kasheng, as president, cast dissenting votes,
+and was targeted by Lai Xiaomin,
+who repeatedly installed listening devices in his car.
+In 2017, Ke Kasheng resigned from Huarong citing illness,
+and coincidentally escaped a disaster,
+because Lai Xiaomin was taken down by our Emperor in 2018
+and was quickly sentenced to death.
+From a certain perspective,
+our Emperor can be considered to have indirectly avenged Ke Kasheng.
+In May 2019,
+Ke Kasheng left the financial industry
+and transferred to the real estate developer Fantasia Holdings Group as an executive director.
+Fantasia Holdings Group, founded in 1998,
+has always attracted attention due to the red background of its major shareholder, Zeng Baobao.
+Perhaps everyone has forgotten,
+China's real estate crisis
+did not start with Evergrande.
+The first mine was detonated by Fantasia Holdings.
+On October 4, 2021,
+Fantasia Holdings suddenly defaulted on
+its offshore debt of 206 million US dollars,
+directly tearing open
+the first crack in the US dollar bond crisis for Chinese real estate companies.
+Then came Evergrande's collapse,
+and the entire real estate industry turned red.
+</summary>
 </details>
 
-### 花樣年爆雷：資金流向與潛在風險
+### 花样年扩张与“三条红线”下的违约真相
 
-2019年，曾寶寶重返花樣年，並招募柯卡升負責融資。柯卡升利用其在金融體制內的經驗，迅速擴張花樣年的規模，但同時也積累了巨額債務。2021年，花樣年發生2.06億美元的境外債違約，成為中國房企美元債危機的導火索。在債務危機爆發前，花樣年與碧桂園進行了一筆資產交易，出售鄰里樂控股全部股份，但資金流向不明，其中1.5億美元被用於贖回彩生活股份，1億美元用於償還私募債券，剩餘1.95億美元的資金下落不明。柯卡升作為債務重組組長，可能知曉資金的真實去向。
+花样年为何成为首个引爆危机的房企？这需要追溯到2019年。当年，创始人兼大股东曾宝宝重返公司并出任执行董事，次年成为CEO。同时，她引入了柯卡升，专门负责境內融资。这一操作，如同当年郁亮引入祝九胜进入万科一样，都是从金融系统引进的专业操盘手。柯卡升的优势在于他深谙体制内的合规之道，一旦合规问题得以解决，融资便变得相对容易。正因如此，2020年成为花样年拿地最多的一年，其扩张速度惊人，导致截至2021年6月底，公司债务飙升至830亿元，较2016年增长126.6%。同期销售额也一度达到历史峰值492亿元。
+
+然而，2021年下半年，国内信贷环境骤然收紧，“三条红线”政策的出台给房地产行业带来了巨大压力。花样年随即被三大评级机构下调评级，并于10月4日宣布境外债违约。在此之前，发生的一件事被认为是导致柯卡升如今被调查的关键。
 
 <details>
 <summary>Original English</summary>
-1998年成立的花樣年集團
-由於大股東曾寶寶的紅色背景
-一直備受關注
-大家可能忘了
-中國房地產暴雷
-其實不是從恆大開始的
-第一顆雷是從花樣年引爆的
-2021年10月4日
-花樣年突然發生
-2.06億美元的境外債違約
-直接撕開了
-中國房企美元債危機的第一道口子
-之後才是恆大爆雷
-整個地產業亮起紅燈
-那麼花樣年為什麼第一個爆雷呢
-這事咱們還得從2019年開始講起
-2019年
-創始人兼大股東曾寶寶重新回到公司
-出任執行董事
-次年出任公司CEO
-同時他招募了柯卡升進入集團
-專門負責境內融資
-專業對口是不是
-這操作
-就像當年郁亮把祝九勝帶入萬科一樣
-都是從金融系統出來的專業操盤手
-柯卡升甚至比祝九勝更強一些
-因為他懂體制內的合規門道
-只要合規能搞定
-那還不是想融多少錢就能融到多少錢
-所以2020年就成了花樣年拿地最多的一年
-擴張速度如此之快
-直接導致2021年6月底
-花樣年的債務就升到了830億
-較2016年增長了126.6%
-銷售額更是一度躍升到492億
-達到歷史最高峰
-然而2021年下半年
-國內信貸突然收緊
-咱皇上祭出了那著名的三條紅線
-花樣年隨即被三大評級機構下調評級
-10月4日直接宣佈境外債違約
-但這當中發生了一件事
-我認為可能就是這件事
-直接導致了今天柯卡升被咱皇上抓走
-具體啥事呢
-事情還得從2021年的9月28日說起
-這一天碧桂園服務宣佈
-自己將收購花樣年旗下上市公司
-彩生活的核心商業資產
-鄰里樂控股全部股份
-總價33億元
-分三期支付
-首期支付23億元
-結果沒幾天
-花樣年就海外債違約了
-於是碧桂園又緊急發佈公告
-說自己除了付了23億首付款以外
-還借給了花樣年7億貸款
-現在花樣年違約
-自己就要考慮
-是否繼續支付剩餘的10億賬款了
-而花樣年從碧桂園拿到的這30億錢
-其中卻有1.5億美元
-被他拿去向德意志銀行
-贖回了此前質押的彩生活股份
-另外還有1億美元去還了私募債券
-剩餘還有1.95億美元資金卻下落不明
+So why did Fantasia Holdings detonate first?
+We have to go back to 2019 to talk about this.
+In 2019,
+founder and major shareholder Zeng Baobao returned to the company,
+serving as executive director,
+and became CEO the following year.
+At the same time, he recruited Ke Kasheng into the group,
+specifically responsible for domestic financing.
+Is the expertise a perfect match?
+This move
+is like Yu Liang bringing Zhu Jiusheng into Vanke back then,
+both are professional operators from the financial system.
+Ke Kasheng is even stronger than Zhu Jiusheng,
+because he understands the compliance channels within the system.
+As long as compliance can be handled,
+then how much money can be raised is unlimited.
+So 2020 became the year Fantasia Holdings acquired the most land.
+Such rapid expansion directly led to Fantasia Holdings' debt rising to 83 billion yuan by the end of June 2021,
+an increase of 126.6% compared to 2016.
+Sales even once soared to 49.2 billion yuan,
+reaching a historical peak.
+However, in the second half of 2021,
+domestic credit was suddenly tightened,
+and our Emperor introduced the famous three red lines.
+Fantasia Holdings was immediately downgraded by the three major rating agencies,
+and directly announced its offshore debt default on October 4.
+But something happened during this period,
+which I believe might be the event
+that directly led to Ke Kasheng being arrested by our Emperor today.
+</summary>
 </details>
 
-### 中央政府的清算行動與潛在風險
+### 碧桂园交易疑云：30亿资金流向与近2亿不明去向
 
-目前，柯卡升已失聯，花樣年被港交所譴責，涉及資產出售交易的違規行為。中央政府正在全面倒查房企的壞賬問題，並採取反腐手段追回資金。花樣年的困境反映了中國房地產市場的深層次風險，以及權力與資本勾結的危害。深圳作為金融創新中心，也暴露了其監管漏洞。中央政府的清算行動，旨在穩定金融系統，並追究相關責任人的法律責任。
+事件的关键节点发生在2021年9月28日，碧桂园服务宣布以33亿元的总价收购花样年旗下上市公司彩生活的部分核心商业资产——邻里乐控股。该交易计划分三期支付，首期支付23亿元。然而，仅几天后，花样年便爆发了境外债务违约。紧接着，碧桂园发布公告，除已支付的23亿元首付款外，还向花样年提供了7亿元贷款，并表示将考虑是否继续支付剩余的10亿元款项。
+
+令人费解的是，花样年从碧桂园获得的这30亿元资金，其中1.5亿美元被用于向德意志银行赎回此前质押的彩生活股份，另有1亿美元用于偿还私募债券。然而，剩余的1.95亿美元资金却下落不明。在当年10月花样年美元债违约后，柯卡升出面担任了债务重组组长，这使得他对这近2亿美元的去向可能知情。
 
 <details>
 <summary>Original English</summary>
-當年10月花樣年美元債違約以後
-是柯卡升出面擔任的債務重組組長
-所以這近2億美元的下落
-他可能是知曉的
-就這樣
-花樣年一路債務重組到了今天
-2024年5月24日
-年滿60歲的柯卡生從花樣年辭職
-想要退休
-但很明顯
-他退休也依然逃不過咱皇上的追查
-所以最近他就失聯了
-2025年3月6日
-港交所突然對花樣年彩生活
-以及包括曾寶寶
-柯卡升在內的9名花樣年高管
-發出公開譴責
-說花樣年
-當年在出售鄰里樂股權資產的時候
-一個月以後才披露相關交易
-這是違規操作
-這筆交易
-董事長潘軍
-是唯一參與交易過程的董事
-但他並未按照規定
-履行告知董事會的程序
-部分董事在知悉相關交易後
-並未及時發出質詢
-無視公司內部監控規定
-損害了其他投資者利益
-港交所為什麼
-突然對一筆4年前的交易
-發生譴責呢
-很明顯這是因為
-咱皇上在倒查房企的壞賬問題
-這就查到了
-當年花樣年的這筆交易有貓膩啊
-因為種種線索都表明
-當年花樣年出售鄰里樂股份
-很可能是為了在債務爆雷之前
-轉移資產
-所以上市公司出售資產這樣的重大事件
-竟然敢隱瞞一個月
-等於是
-他們已經知道公司債務快兜不住了
-於是就想趕緊把能賣的優質資產賣了
-把錢轉移出境
-所以違不違規的也壓根不在乎了
-從這筆30億資金的使用情況
-我們也能看出來
-花樣年在明知道
-公司有一筆2億美元的債務
-可能要違約的情況下
-竟然沒有把這筆錢拿來還債
-而是還了1億美元私募債券
-又轉移走了2億美元的資金
-可見他們是鐵了心不救公司
-任其爆雷
-然後把公司能帶走的錢全部帶走
-徹底掏空
-我甚至懷疑
-那1億美元私募債券
-可能就是曾寶寶自己借給公司的錢
-就跟當年許家印的做法一樣
-所以當這筆資產出售交易
-他可能就搬走了3億美元
-就難怪柯卡現在被咱皇上抓走了
-又犯了咱皇上的大忌了是不是
-把錢搬出中國
-把債留給皇上
-而且
-這位柯大俠可不只是幫花樣年融資
-根據財新爆料的內容
-柯卡升還牽涉幾位潮汕地產商的融資問題
-這是利用自己以往的金融從業經歷
-做起了資金中介的生意呀
-不僅幫自家地產公司融資
-還幫其他地產公司融資
-這就罪加一等了是不是
-但是曾寶寶
-作為花樣年當時的第一大股東兼CEO
-按理說也應該被咱皇上清算才是啊
-不知道這時候
-他的紅色血脈
-是不是能幫他逃過一劫呢
-據說他表態自己願意出資600萬美元
-幫公司渡過難關
-但是拿走了3個億
-卻只還回來600萬
-這買賣好像咱皇上不見得會滿意呀
+What exactly happened?
+The matter dates back to September 28, 2021.
+On this day, Country Garden Services announced that
+it would acquire all shares of Linli Le Holdings,
+the core commercial asset of Fantasia's listed company, Color Life Services,
+for a total price of 3.3 billion yuan,
+to be paid in three installments,
+with the first installment of 2.3 billion yuan.
+A few days later,
+Fantasia Holdings defaulted on its overseas debt.
+Country Garden then urgently issued an announcement stating that
+in addition to the 2.3 billion yuan down payment,
+it had also lent Fantasia Holdings 700 million yuan.
+Now that Fantasia Holdings has defaulted,
+it has to consider
+whether to continue paying the remaining 1 billion yuan.
+And of the 3 billion yuan that Fantasia Holdings received from Country Garden,
+150 million US dollars was used to redeem the previously pledged Color Life shares from Deutsche Bank.
+Another 100 million US dollars was used to repay private bonds.
+The remaining 195 million US dollars in funds are unaccounted for.
+After Fantasia Holdings defaulted on its US dollar bonds in October of that year,
+Ke Kasheng came forward to serve as the head of debt restructuring.
+Therefore, he might know the whereabouts of these nearly 200 million US dollars.
+</summary>
+</details>
+
+### 港交所谴责与资产转移的铁证
+
+花样年一路进行债务重组，直到2024年5月24日，年满60岁的柯卡升从花样年辞职，试图退休。然而，退休并未能让他逃脱国家的追查，他近期便失联了。2025年3月6日，港交所突然对花样年、彩生活及其包括曾宝宝、柯卡升在内的9名高管发出公开谴责，指出花样年出售邻里乐股权资产后，延迟一个月才披露相关交易，构成违规操作。董事会主席潘军是唯一参与交易的董事，但他未按规定告知董事会。部分董事在知情后也未及时质询，无视公司内部监控，损害了投资者利益。
+
+港交所为何在四年后突然就一笔交易发出谴责？这明显是国家在“倒查”房企坏账问题时，发现了花样年这笔交易中的猫腻。种种迹象表明，当年出售邻里乐股份很可能是为了在债务爆雷前转移资产。上市公司出售重大资产却敢隐瞒一个月，意味着他们深知公司债务即将难以为继，急于变卖优质资产并将资金转移出境，全然不顾违规与否。从这30亿元资金的使用情况来看，花样年明知可能面临2亿美元的债务违约，却未优先偿还这笔债务，反而偿还了1亿美元私募债，并转移了2亿美元资金，显示其掏空公司的决心。甚至有理由怀疑，那1亿美元私募债款项可能就是曾宝宝自己借给公司的钱，如同当年许家印的做法。因此，通过这笔资产出售交易，他们可能就转移了高达3亿美元的资金，这无疑触碰了国家的底线，也难怪柯卡升会被抓捕。
+
+<details>
+<summary>Original English</summary>
+Thus,
+Fantasia Holdings has been undergoing debt restructuring until today.
+On May 24, 2024,
+Ke Kasheng, who turned 60, resigned from Fantasia Holdings,
+wanting to retire.
+But it is obvious that
+even in retirement, he cannot escape the investigation by our Emperor.
+So he recently went missing.
+On March 6, 2025,
+the Hong Kong Stock Exchange suddenly issued a public reprimand to Fantasia Holdings, Color Life Services,
+and nine other Fantasia Holdings executives, including Zeng Baobao and Ke Kasheng.
+It stated that Fantasia Holdings
+delayed the disclosure of the relevant transaction for one month
+when selling the equity assets of Linli Le back then.
+This was a violation of regulations.
+In this transaction,
+Chairman Pan Jun
+was the only director involved in the transaction process.
+However, he did not follow the regulations
+and fulfill the procedure of informing the board of directors.
+Some directors, after becoming aware of the relevant transaction,
+did not issue inquiries in a timely manner,
+disregarding the company's internal monitoring regulations
+and harming the interests of other investors.
+Why did the Hong Kong Stock Exchange
+suddenly issue a reprimand for a transaction from four years ago?
+It is obvious that this is because
+our Emperor is investigating the bad debt issues of real estate companies retrospectively.
+This investigation found that
+there was something fishy about Fantasia Holdings' transaction back then.
+Because various clues indicate that
+the sale of Linli Le shares by Fantasia Holdings back then
+was likely intended to transfer assets before the debt default.
+Therefore, a major event like the sale of assets by a listed company
+was concealed for a month.
+This means that
+they already knew that the company's debt was about to collapse.
+So they wanted to quickly sell off the high-quality assets that could be sold
+and transfer the money out of the country.
+Therefore, they didn't care whether it was a violation or not.
+From the use of these 3 billion yuan, we can also see that
+Fantasia Holdings, knowing that
+the company had a debt of 200 million US dollars
+that might default,
+did not use this money to repay the debt.
+Instead, it repaid 100 million US dollars in private bonds
+and transferred out 200 million US dollars in funds.
+This shows that they were determined not to save the company,
+let it default,
+and then take away all the money they could,
+completely emptying it.
+I even suspect that
+the 100 million US dollars in private bonds
+might have been money lent to the company by Zeng Baobao herself,
+just like Xu Jiayin's approach back then.
+So in this asset sale transaction,
+they might have moved out 300 million US dollars.
+No wonder Ke Kasheng is now being arrested by our Emperor.
+He has committed a major taboo of our Emperor again, hasn't he?
+Moving money out of China,
+leaving the debt to the Emperor.
+</summary>
+</details>
+
+### 柯卡升的“资金中介”角色与曾宝宝的困境
+
+柯卡升的涉案情节并未止步于花样年。根据财新网的报道，他还牵涉到几位潮汕地产商的融资问题，利用其过往的金融从业经历，充当了资金中介的角色。这种行为，不仅为自家公司融资，还为其他地产公司提供融资服务，无疑加重了其罪责。
+
+然而，作为花样年当时的第一大股东兼CEO，曾宝宝按理说也应面临清算。她的“红色血脉”是否能助她逃过一劫，仍是未知数。据称，她表态愿意出资600万美元帮助公司渡过难关。但考虑到公司在此次交易中可能转移了3亿美元，仅拿出600万美元来弥补，这种“买卖”恐怕难以让国家满意。
+
+目前，花样年面临严峻的财务困境。截至2025年6月底，公司账面现金仅剩12.49亿元，但累计计息负债高达440亿元，且已全部违约。2025年上半年合同销售额仅为4.59亿元，依靠卖房还债已基本不可能。公司只能寻求债务重组或直接破产清算。曾宝宝提出的600万美元，其目的显然是为了争取债权人同意债务重组。但无论如何，花样年已是回天乏术。这440亿元的巨额债务中，有多少被高管们转移至境外，相信远不止此前披露的3亿美元。
+
+<details>
+<summary>Original English</summary>
+Moreover,
+this Great Hero Ke not only helped Fantasia Holdings with financing.
+According to reports from Caixin,
+Ke Kasheng is also involved in the financing issues of several Chaoshan real estate developers.
+This is using his past financial industry experience
+to engage in the business of fund intermediation.
+Not only helping his own real estate company with financing,
+but also helping other real estate companies with financing.
+This is a crime of aggravated offense, isn't it?
+But Zeng Baobao,
+as Fantasia Holdings' largest shareholder and CEO at the time,
+should also be liquidated by our Emperor, shouldn't she?
+I wonder if her red bloodline
+can help her escape this time?
+It is said that she declared her willingness to contribute 6 million US dollars
+to help the company overcome the difficulties.
+But she took 300 million and only returned 6 million.
+This deal doesn't seem like something our Emperor would be satisfied with.
+Currently, Fantasia Holdings' situation is that
+as of the end of June 2025,
+the company has only 1.249 billion yuan in cash,
+but has accumulated interest-bearing debt of 44 billion yuan,
+all of which has defaulted.
+Contract sales in the first half of 2025
+amounted to only 459 million yuan.
+It is almost impossible for the company to repay its debts by selling houses.
+It can only undergo debt restructuring or direct bankruptcy liquidation.
+Zeng Baobao's contribution of 6 million US dollars
+is intended to make creditors agree to debt restructuring.
+But this company is beyond saving.
+How much of Fantasia Holdings' 44 billion yuan debt
+has been washed abroad by executives?
+I believe
+it is definitely more than the 300 million US dollars we just saw.
+</summary>
+</details>
+
+### 深圳金融地产“野路子”与反腐清算新策略
+
+当前，国家清算房地产坏账的主要手段是反腐：先抓人，再追钱，最后处理公司。这种策略有其合理性，因为房地产行业已给金融系统制造了大量坏账。此时，保不保房企已非重点，关键在于能追回多少资金。只有尽可能多地追回被转移的资金，才能避免金融系统因这些坏账而崩溃。
+
+深圳作为中国经济的“试验田”，其金融与地产领域的“野路子”尤为突出。此前已有报道指出深圳金融创新滋生诈骗，如今地产行业的乱象也在此地最为集中。深圳金融业与地产业之间复杂的利益勾结，从万科高管操盘表外债，到花样年引入柯卡升专司融资，可见一斑。近期，华夏银行深圳分行曝出涉及潮汕地产商的三笔不良贷款，借款企业多为刚成立的小公司，财务报表和纳税数据造假，却能获得超过11亿元的贷款，显示出其监管的缺失。这家华夏银行，曾是肖建华“明天系”的入股对象，而此次牵涉的潮汕地产商，似乎也与柯卡升有关联。
+
+<details>
+<summary>Original English</summary>
+Now, the method our Emperor uses to liquidate real estate bad debts
+is anti-corruption:
+arrest people first, then find the money,
+and finally discuss how to handle the company.
+Actually, this approach makes some sense.
+Because the biggest problem in real estate currently
+is that it has created too many bad debts for the financial system.
+So, whether to save real estate companies at this time
+is no longer important.
+The most important thing is how much money can be recovered.
+Only by recovering as much of the washed-out money as possible
+can the financial system be prevented from being implicated and collapsing.
+Speaking of Shenzhen,
+the methods are truly wild.
+We just talked a couple of days ago
+that Shenzhen's financial innovation is full of fraudsters.
+And real estate problems are also the most numerous in Shenzhen.
+The collusion between Shenzhen's financial industry and real estate industry
+is quite complex.
+This point
+can be seen from how Zhu Jiusheng manipulated Vanke's off-balance sheet debt
+and how Fantasia Holdings
+invited Ke Kasheng specifically for financing.
+I also saw in the last couple of days
+that the Shenzhen branch of China Merchants Bank
+has three more non-performing loans involving Chaoshan real estate developers.
+The borrowing enterprises are even newly established small companies
+with registered capital less than 10 million yuan.
+Their financial statements are all fake,
+even their tax data is fake.
+But the Shenzhen branch of China Merchants Bank
+managed to issue over 1.1 billion yuan in loans.
+There is simply no compliance whatsoever.
+Oh, this China Merchants Bank
+is a bank that the Tomorrow Group,
+associated with Xiao Jianhua, whom we mentioned in the last episode,
+once invested in.
+The Chaoshan real estate developers involved here
+seem to also have a connection with today's protagonist, Ke Kasheng.
+</summary>
+</details>
+
+### 经济衰退下的加速清算：金融系统风险的最后防线
+
+尽管房地产行业已暴雷四年有余，但国家近期才开始频繁采取抓捕行动。这或许源于前两年对中国经济过于乐观，认为房地产业的风险能在经济增长中化解。然而，随着通缩现实的显现和国内经济的严重衰退，金融系统已难以承受持续的债务风险。在此背景下，国家只能加快清算步伐，优先抓捕相关责任人，并尽力追回流失的资金，这已成为稳定金融系统的最后手段。因此，这场关于金融与地产乱象的“连续剧”恐怕还有很长的篇幅，谁也不知道明天又将有谁被卷入其中。
+
+<details>
+<summary>Original English</summary>
+Watching our programs
+has almost turned into a financial detective drama series.
+Logically, the real estate industry has been in crisis for over 4 years,
+but recently,
+it seems we are only beginning to see our Emperor frequently arresting people.
+I have a bad premonition.
+I believe that in the past two years,
+our Emperor might have been too optimistic about the Chinese economy,
+thinking that the real estate mines could last for two years,
+and that economic growth would solve all debt problems.
+But recently, he has truly realized what deflation is.
+The domestic economy is severely declining,
+and the financial system is struggling to withstand these debt risks.
+So what to do?
+Our Emperor can only accelerate the liquidation,
+arrest the people who can be arrested first,
+and recover the money that can be recovered.
+This is the last resort.
+So our channel's serial drama
+alas, it seems there will be plenty of episodes.
+Who knows who will be arrested tomorrow?
+Okay, that's all for today's program.
+If you like my program, please remember to like, comment, and share.
+This will be very helpful to me.
+Thank you for watching.
+See you next time.
+</summary>
 </details>
