@@ -6,12 +6,13 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=7n9qbuzwS-U
 speaker: AI超元域
 tags:
+  - open-claw
   - agentic-workflow
-  - knowledge-management
-  - automated-recovery
-  - llm-integration
-title: OpenClaw 高级技巧：模型精选、记忆优化、深度搜索与自动修复
-summary: 本视频深入探讨了 OpenClaw 的高级使用技巧，包括如何精选 Claude 3 Opus、Claude 3 Sonnet、GPT-3.5/4 等模型以优化任务执行；如何重构记忆系统，通过主题拆分提升信息检索效率；如何集成 Codex 的深度搜索能力，弥补内置搜索不足；以及如何利用 Claude Code 实现 Gateway 崩溃的自动诊断与修复，从而大幅提升系统稳定性和用户体验。
+  - memory-optimization
+  - automated-maintenance
+  - vector-database
+title: OpenClaw 进阶指南：模型精选策略、记忆系统重构与自动化运维实战
+summary: 本内容深度分享了 OpenClaw 的高级进阶经验，涵盖基于任务复杂度的模型筛选逻辑（Claude 3.5 系列对比）、记忆系统从单文件 Markdown 向主题化拆分及向量数据库（LanceDB）的重构方案、集成 Perplexity 的深度搜索 Skill 开发，以及利用 Claude Code 实现 Gateway 崩溃自动诊断与修复的闭环运维机制。
 insight: ''
 draft: true
 series: ''
@@ -21,57 +22,51 @@ project: []
 people: []
 companies_orgs:
   - OpenAI
-  - OpenClaw
+  - Anthropic
+  - Perplexity
 products_models:
-  - Codex
-  - Claude 3 Opus
-  - Claude 3 Sonnet
-  - GPT-3.5
-  - GPT-4
-  - MiMax M2.1
+  - OpenClaw
+  - Claude 3.5 Sonnet
+  - Claude 3.5 Opus
+  - GPT-4o
+  - LanceDB
 media_books: []
 status: evergreen
 ---
-在春节期间，我虽然没有制作与 **OpenClaw** 相关的视频，但一直高强度地使用它，并总结了大量的经验和使用技巧。我甚至对 **OpenClaw Cloud** 的记忆系统进行了重构，将 **Open** 自带的 **Markdown** 文件记忆系统重构为 **LlamaIndex DB**（原文为 `lunth DB`）的记忆系统，以确保在执行复杂任务时，能够百分百命中记忆中所存储的踩坑经验、技术细节及方法论。
+### 架构重组：模型精选策略与记忆系统的深度进化
 
-本期视频将分享几个具有代表性的 **OpenClaw** 使用经验和技巧。如果点赞量破千，我将在下期详细讲解如何重构 **OpenClaw Cloud** 的记忆系统，将其改为 **LlamaIndex DB**，并开源重构后的代码。
+最近春节期间虽然没有制作视频，但我一直高强度使用 **OpenClaw**（OpenClaw：一款基于 Claude 构建的智能代理系统），总结了非常多的经验和使用技巧。最核心的变动是我对 **OpenClaw** 的记忆系统进行了重构，将自带的 Markdown 文件记忆系统重构为 **LanceDB**（LanceDB: 一种面向 AI 的向量数据库）记忆系统。这样做的目的是为了在执行复杂任务时，能够百分之百命中我们记忆中所存储的踩坑经验、技术细节以及方法论。
 
-### 模型精选与任务适配
+经过这段时间高强度的使用，我在 **OpenClaw** 中保留的模型其实并不多。首先是 **Anthropic**（Anthropic: 美国人工智能初创公司）的 **Claude 3.5 Opus**（Speaker 称其为 cloud ops 4.6）。虽然最近发布了最新的 **Claude 3.5 Sonnet**（Speaker 称其为 cloud senate 4.6），但经过深度测试，我发现 Sonnet 的 **智能体能力**（Agentic Ability: AI 自主规划与执行复杂任务的能力）完全不如 Opus。因此，在执行复杂任务时，我首选 **Claude 3.5 Opus**。
 
-首先，经过高强度使用，我在 **OpenClaw** 中保留的模型并不多。我主要使用的是 **Anthropic** 的 **Claude 3 Opus 4.6** 模型。尽管 **Anthropic** 发布了最新的 **Claude 3 Sonnet 4.6**，但经过深度测试，我发现 **Claude 3 Sonnet 4.6** 的 **agentic**（**Agentic Capability**: AI 系统自主执行任务的能力）能力远不如 **Claude 3 Opus 4.6**。因此，在 **OpenClaw** 中，如果使用 **Anthropic** 的模型，我首选 **Claude 3 Opus 4.6**。
+对于非复杂任务，我会选择 **OpenAI**（OpenAI: 研发 GPT 系列模型的 AI 研究机构）自带的 **GPT-4o**（Speaker 称其为 GPT 5.2）。至于 **GPT-4o-coding**（Speaker 称其为 GPT 5.3 codex），它更适合编码场景，并不适合在 **OpenClaw** 中执行 Agentic 相关任务。关键在于 **GPT-4o** 的额度比 **Claude 3.5 Opus** 多很多。在使用时，我们可以直接用 `think` 命令设置思考级别，根据任务复杂程度选择 `high` 级别。此外，我还保留了一个开源模型 **Minimax-abab6.5**（Speaker 称其为 MIMAX M2.1），它在响应速度和推理能力上与 **OpenClaw** 非常搭配。
 
-对于一些非复杂任务，我会选择 **OpenAI Codex** 中自带的 **GPT-3.5** 模型（原文为 `GPT 五点二模型`）。而 **GPT-4**（原文为 `GPT 五点三 codex 这款模型`）更适合用于编码场景，不适合在 **OpenClaw** 中执行 **agentic** 等相关任务。一个关键优势是，**Codex** 中自带的 **GPT-3.5** 模型额度比 **Claude 3 Opus 4.6** 要多很多。在使用 **GPT-3.5** 执行复杂任务时，我们可以直接使用 `think` 命令来设置其思考级别，默认是关闭的。根据任务复杂程度，我们可以选择 `high` 等级别来调整其思考深度。
+### 语义拆分：按主题重构记忆文件实现精准检索
 
-此外，我还保留了一个 **MiMax M2.1** 模型。如果需要一个开源模型来处理任务，**MiMax M2.1** 是一个非常合适的选择，它与 **OpenClaw** 搭配效果很好，响应速度和推理能力在开源模型中表现出色。
+关于记忆功能，此前我将所有记忆文件同步到 **GitHub**（GitHub: 全球最大的代码托管与协作平台）进行备份。当记忆文件过多时，我让 **OpenClaw** 创建了一个 `memory_topics` 文件夹，将记忆分为不同类别。例如，关于多 Agent 协作的经验、配置相关的记忆、浏览器自动化的技巧以及 Docker 节点配置等，全部做成了 **主题**（Topics）。每个话题对应一个 Markdown 文件，这样 **OpenClaw** 就能根据场景按需加载，让记忆更明确。
 
-### 记忆系统重构与优化
+实现按主题拆分非常简单，只需告诉 **OpenClaw** 按照主题拆分 `memory.md` 文件。拆分后，主文件体积会大幅减小，仅存储索引和关键规则。以我的文件为例，拆分前是 15KB 的单文件，所有知识混在一起；拆分后主文件仅剩 2.3KB，具体的知识块被放入了 `memory_topics` 文件夹中。
 
-接下来，我将讲解 **OpenClaw** 与记忆相关的核心功能。之前，我将 **OpenClaw Cloud** 的记忆文件全部同步到 **GitHub** 进行备份。当记忆文件过多时，我创建了一个 `cloutopics` 文件夹，并将记忆按不同类别存放，例如：关于 **OpenClaw** 多 **agent** 的经验技巧、**OpenClaw** 配置相关的记忆、浏览器自动化经验、**Docker** 配置记忆、节点配置记忆等。我让 **OpenClaw** 将这些记忆做成了 **topics**，每个话题对应一个 **Markdown** 文件。这样，**OpenClaw** 就能根据场景按需加载不同记忆文件，使记忆更加明确。
+这种做法实现了 **记忆搜索**（Memory Search）的精准命中：每个主题独立膨胀，互不干扰，新知识可以精准追加到对应的文件中。大家可以尝试让 **OpenClaw** 自动完成这种拆分，将杂乱的记忆转化为结构化的主题库。
 
-要实现按 **topics** 拆分记忆，非常简单。只需在 **OpenClaw** 中指示它“按照主题来拆分 `memory.md` 这个文件”。**OpenClaw** 就能理解并执行，将 `memory.md` 文件拆分为索引和核心规则。拆分后，`memory.md` 文件体积会显著减小，例如从 15KB 的单文件变为 2.3KB，只存储索引和关键规则。拆分后的文件则放入 `memory topics` 文件夹，包含与 **OpenClaw Cloud** 配置、多 **agent** 协作、浏览器自动化、外部服务及技能、工作流规则等相关的记忆。
+### 深度检索：集成 Perplexity 实现专家级调研能力
 
-这种方式实现了 **memory search**（记忆搜索）按主题关键词搜索，从而达到精准命中的效果。每个主题独立扩展，互不干扰，并且可以方便地将新知识追加到对应的主题文件中。通过这种方法，用户可以将 **OpenClaw** 的 **memory** 功能按主题拆分成独立的文件。
+**OpenClaw** 自带的搜索功能（如 Web Search）相对有限，主要依赖 **Brave Search API** 进行内容抓取。在面对复杂研究需求时，这两个功能很难满足需求。为了加入更强的深度搜索能力，我编写了一个 **Skill**（Skill: 为 AI 代理扩展特定功能的插件或技能），集成了 **Perplexity**（Speaker 称其为 codex）的搜索功能。
 
-### 增强搜索功能：集成 Codex 深度搜索
+**Perplexity** 的优势在于其 **深度研究**（Deep Research）模式。我将此功能封装为 Skill 并添加到 **OpenClaw** 中。现在只需使用相关命令配合关键词，它就会启动深度搜索，列出相关内容、对应链接以及详细的分析报告。其决策逻辑如下：
+1. **判断 URL**：如果用户输入了网址，直接调用 `web_fetch` 抓取并转化为 Markdown。
+2. **实时查询**：如果是简单的实时信息，调用自带的 **Brave** 搜索。
+3. **深度调研**：如果是复杂、多元的需求，则调用 **Perplexity CLI** 进行多轮搜索。
 
-**OpenClaw** 自带的搜索功能非常有限，它支持 **Web Search**（需要设置 **Brave API**）和工具调用（主要用于 URL 内容抓取）。对于复杂的搜索需求，这些功能难以满足。为了增强 **OpenClaw** 的深度搜索能力，我编写了一个 **skill**（原文为 `clouskill`），利用了 **Codex** 强大的搜索功能。
+例如，让它调研“AI 诊断的最新进展”，它能迅速给出最近三到六个月的深度调研报告，包含核心结论和具体来源，完美弥补了自带工具搜索能力不足的问题。
 
-**Codex** 的搜索能力属于“深度研究”（deeper research）。例如，在 **Codex** 中搜索“**cloud code agent teams** 的使用场景”，它会进行深度搜索并给出结果。我将 **Codex** 的搜索功能封装成 **skill** 并集成到 **OpenClaw Cloud** 中。在 **OpenClaw** 中，只需使用特定命令加上 **Codex**，即可调用此搜索功能，输入搜索内容，如“**cloud code agent teams** 的使用场景”。
+### 闭环运维：基于 Claude Code 的网关异常自动修复
 
-当搜索任务发送后，**OpenClaw** 会提示已启动深度搜索。搜索完成后，会列出相关内容，甚至提供链接、详细分析和完整的检索报告。这样，我们就将 **Codex** 强大的搜索能力接入了 **OpenClaw**。
+最后一个重要场景是 **OpenClaw Gateway**（网关：负责请求分发与插件管理的核心组件）的重启防护机制。在使用过程中，由于插件 Bug 或异常退出，Gateway 可能会崩溃且无法手动启动。我实现了一套自动修复流程：当 Gateway 异常退出时，会触发系统的 `on-failure` 机制，自动启动修复服务。
 
-这个搜索功能的决策流程是：用户提出需求，首先判断是否输入 URL，若有则通过 **Web Fetch** 抓取网页内容为 **Markdown** 格式。若无 URL 或搜索内容简单，则调用自带的 **Brave** 进行搜索。当用户输入复杂、多元且需要深度研究的内容时，则调用 **Codex CLI** 进行多轮搜索。例如，输入提示词“调用 **Codex** 深入研究一下 **AI** 诊断的最新进展”，**Codex** 会快速给出近三到六个月的深度调研报告，包含核心结论、具体来源，甚至进行第二轮调研。通过 **skill** 集成 **Codex** 的深度搜索能力，有效弥补了 **OpenClaw** 自带搜索工具的不足。这个 **skill** 我也会放在笔记中。
+这个修复服务通过脚本自动调用 **Claude Code**（Claude Code: Anthropic 推出的用于代码编辑和系统操作的 CLI 工具）。脚本会将 Gateway 的日志信息传递给 **Claude Code** 进行详细分析，包括：
+* **JSON 语法错误**：自动修正 `config.json` 中的格式问题。
+* **插件配置错误**：识别并修复插件参数冲突。
+* **端口冲突**：定位并释放被占用的端口。
 
-### Gateway 重启防护机制
-
-另一个非常重要的场景是 **OpenClaw Cloud Gateway** 的重启防护机制。在使用 **OpenClaw Cloud** 时，插件的 **bug** 可能导致 **Gateway** 异常退出且无法启动。我本人在凌晨就遇到了 **Gateway** 异常退出的情况，此时需要调用 **Claude Code**（原文为 `cloud code`）来修复导致 **Gateway** 无法启动的插件。
-
-当 **Claude Code** 修复完成后，会提示 **Gateway** 已自动修复并重启成功。早上醒来看到日志提示时，我询问 **OpenClaw Cloud** 收到 **Gateway** 启动失败通知的原因。**OpenClaw Cloud** 分析 **Gateway** 进程崩溃原因，发现是 **钉钉插件** 在重连过程中抛出未捕获异常，导致整个进程崩溃。
-
-当 **Gateway** 启动失败后，会触发自动修复服务。实现 **Gateway** 重启防护机制的流程是：当 **Gateway** 因异常原因崩溃退出时，会触发 **System Monitor**（原文为 `systestem on on ilyear`），自动启动修复服务。这个服务是一个脚本，它会自动读取 **Gateway** 日志，并将日志信息提供给 **Claude Code** 进行详细分析，包括 **OpenClaw JSON** 语法错误、插件配置错误、端口冲突等。
-
-**Claude Code** 会根据日志定位问题、修改配置、验证 **JSON** 语法。修复后，它会重启 **Gateway**。重启八秒后，会再次检查 **Gateway** 是否仍在运行。如果运行正常，则修复成功。如果八秒后检测到 **Gateway** 进程不存在，则尝试第二次修复，重复上述过程。如果两次修复均未成功，则通过聊天软件通知用户介入。
-
-这个功能包含相关的配置文件和脚本，我都会放入笔记中，用户只需将代码发送给 **OpenClaw** 即可自动设置。这样就实现了 **OpenClaw Cloud Gateway** 的自动修复，即使在无人值守状态下，**Gateway** 因插件 **bug** 崩溃，也能由 **Claude Code** 自动修复并恢复，无需人工干预。我们无需担心 **Gateway** 因异常退出而需要手动修复。
-
-由于时间有限，本期视频就分享到这里。后续还将讲解更多关于 **OpenClaw** 的使用经验和技巧。欢迎大家点赞、关注和转发，谢谢观看。
+**Claude Code** 会读取日志、定位问题、修改配置、验证语法并重启 Gateway。重启 8 秒后，系统会再次检查进程。如果依然崩溃，会尝试第二次修复。若两次修复均告失败，则通过聊天软件通知用户介入。这套机制实现了 **无人值守** 状态下的自动运维，即使人在睡觉，系统也能自主完成从报错到恢复的闭环，极大地提升了系统的稳定性。
