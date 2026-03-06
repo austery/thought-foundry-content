@@ -1,0 +1,238 @@
+[Speaker 1]: 最近 open cloud 越来越火，
+[Speaker 1]: 但我发现一个问题就是好多非技术出身的用户在部署和配置 open 的时候会非常吃力，
+[Speaker 1]: 要么是 clouopen cloud 的复杂配置，
+[Speaker 1]: 让用户望而却步。
+[Speaker 1]: 看到这些命令行，
+[Speaker 1]: 让非技术出身的用户不知道是什么意思，
+[Speaker 1]: 不知道该进行哪些配置。
+[Speaker 1]: 要么就是 toking 成本不可控，
+[Speaker 1]: 要么就是学习曲线太陡峭，
+[Speaker 1]: 为了让非技术出身的用户也能用上 open，
+[Speaker 1]: 甚至比 clouopen cloud 更强大的 AI agent 的工具。
+[Speaker 1]: 所以本期视频我将为大家介绍，
+[Speaker 1]: 并且演示一款叫做 skyboat 的工具。
+[Speaker 1]: 它有 open 级别的规划和执行能力。
+[Speaker 1]: 和 clouopen 相比的话，
+[Speaker 1]: 它最大的优势就是不需要我们做任何配置。
+[Speaker 1]: 开箱即用，
+[Speaker 1]: 最关键的是它是云端二十四小时运行的，
+[Speaker 1]: 哪怕我们关闭我们自己的电脑，
+[Speaker 1]: 在云端，
+[Speaker 1]:  clouskyboard 也会持续运行。
+[Speaker 1]:  skyboat 它是集成在 sky work 中的。
+[Speaker 1]: 在之前那视频中，
+[Speaker 1]: 我也有为大家演示过如何用 sky work 制作 PPT。
+[Speaker 1]: 而且 sky work 最近更新了二点零版本，
+[Speaker 1]: 二点零版本，
+[Speaker 1]: 最大的变化就是完全移，
+[Speaker 1]: 除了积分系统，
+[Speaker 1]: 不再使用积分计数器，
+[Speaker 1]: 不再需要计算，
+[Speaker 1]: 你用一次到底值不值？
+[Speaker 1]: 在每个会员层级内包含的代理都可以无限使用。
+[Speaker 1]: 因为我们在使用 AI 的时候，
+[Speaker 1]: 最怕的就是用着用着突然额度没了，
+[Speaker 1]: 或者是每次使用之前都先想一下这一次用的值不值。
+[Speaker 1]: 所以有了二点零版本的 sky work，
+[Speaker 1]: 大家就可以放心大胆的反复使用，
+[Speaker 1]: 不用有任何额度焦虑或者次数焦虑。
+[Speaker 1]: 下面我们就可以来看一下 skyboat。
+[Speaker 1]: 在右上角这里我们就可以看到 syboout computer 这一个标志。
+[Speaker 1]: 然后我们只需要点击进入，
+[Speaker 1]: 这样的话我们就进入到了 skyboat 的操作界面。
+[Speaker 1]: 在这个区域就是聊天界面，
+[Speaker 1]: 在这个位置我们就可以输入任何内容，
+[Speaker 1]: 在网页中直接与 skyboat 进行对话。
+[Speaker 1]: 在右侧这里我们就看到了运行 skybot 的这个桌面环境。
+[Speaker 1]: 在这里我们还可以点击让它全屏显示。
+[Speaker 1]: 这个桌面环境可以看到桌面环境中包含浏览器，
+[Speaker 1]: 我们可以直接打开看一下，
+[Speaker 1]: 这样的话我们就打开了它自带的浏览器，
+[Speaker 1]: 看自带开源的办公套件。
+[Speaker 1]: 下面我们就可以在这个对话框输入一个任务，
+[Speaker 1]: 让它来执行一下。
+[Speaker 1]: 看一下这个效果。
+[Speaker 1]: 在底部的对话框，
+[Speaker 1]: 我们就可以输入一个任务，
+[Speaker 1]: 让它打开我的博客，
+[Speaker 1]: 进入第一篇博客，
+[Speaker 1]: 用五十字总结第一篇博客的内容。
+[Speaker 1]: 这里我放入了我博客的链接，
+[Speaker 1]: 然后我们直接发送。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到这里，
+[Speaker 1]: 它自动调用浏览器，
+[Speaker 1]: 打开了我的博客，
+[Speaker 1]: 然后就立即进入到了第一篇博客。
+[Speaker 1]: 可以看到这个速度真的是超级快。
+[Speaker 1]: 然后这里就立即总结了第一篇博客的内容，
+[Speaker 1]: 可以看到他这个操作速度真的是超乎想象。
+[Speaker 1]: 像这个速度，
+[Speaker 1]: 我们在使用 open cloud 时候是根本达不到的。
+[Speaker 1]: 而且 sybot 不需要我们进行任何配置，
+[Speaker 1]: 打开之后，
+[Speaker 1]: 我们就可以在对话框中去使用了。
+[Speaker 1]: 而且也不需要像使用 open cloud 那样去执行命令。
+[Speaker 1]: 所以针对新手小白来说，
+[Speaker 1]: 直接上手就可以使用，
+[Speaker 1]: 不需要执行任何命令，
+[Speaker 1]: 甚至不需要设置任何大模型的 API。
+[Speaker 1]: 而且我们还可以直接将 skybot 接入我们的聊天软件。
+[Speaker 1]: 想接入聊天软件非常简单，
+[Speaker 1]: 我们只需要找到这个叫 boat father 的，
+[Speaker 1]: 然后点击进入，
+[Speaker 1]: 然后直接输入斜杠，
+[Speaker 1]: 直接选中第一个按一下 int 键。
+[Speaker 1]: 然后这里就会提示让我们设置一个 boat 的名称。
+[Speaker 1]: 比如说我们这里随便填入一个，
+[Speaker 1]: 然后发送，
+[Speaker 1]: 然后这里需要我们设置一个 bbot 的用户名，
+[Speaker 1]: 然后我们可以直接完整的复制它给出的这段内容。
+[Speaker 1]: 再回到 int t 在输入框，
+[Speaker 1]: 我们就可以直接输入提示词。
+[Speaker 1]: 我输入的是为我接入这个聊天软件，
+[Speaker 1]: 然后将刚才复制的内容粘贴在下面，
+[Speaker 1]: 我们直接发送，
+[Speaker 1]: 让 skyboat 全自动为我们进行设置。
+[Speaker 1]: 这样的话就不需要我们去执行任何其他命令和操作了。
+[Speaker 1]: 然后这里就提示一切都设置好，
+[Speaker 1]: 然后我们就回到聊天软件测试一下，
+[Speaker 1]: 然们直接点击这个 boat 的名称，
+[Speaker 1]: 再点击这个 start，
+[Speaker 1]: 可以看到这里连接成功。
+[Speaker 1]: 下面我们就可以输入一个问题测试一下，
+[Speaker 1]: 然后我们发送，
+[Speaker 1]: 然他立即给出了响应，
+[Speaker 1]: 他说他是 skybot 像。
+[Speaker 1]: 这样的话，
+[Speaker 1]: 我们就可以在聊天软件中与云端的 skyboat 进行交互。
+[Speaker 1]: 下面我们们可以在我们的聊天软件中为云端的 syboout 设置一个定时任务。
+[Speaker 1]: 我这里输入提示词要求它设置定时任务，
+[Speaker 1]: 每五小时抓取这一个平台的最新的十篇与 AI 相关的文章。
+[Speaker 1]: 并且让他记得去重已经抓过的帖子，
+[Speaker 1]: 不要继续抓，
+[Speaker 1]: 然后我们直接发送好，
+[Speaker 1]: 可以看到这里，
+[Speaker 1]: 它响应速度非常快。
+[Speaker 1]: 他说他已经设置好了定时任务，
+[Speaker 1]: 每隔五小时，
+[Speaker 1]: 他会抓取最新的十篇帖子。
+[Speaker 1]: 像这个任务，
+[Speaker 1]: 我在之前测试的时候已经测试成功。
+[Speaker 1]: 下面我们就可以看一下。
+[Speaker 1]: 在之前我设置的这个任务中，
+[Speaker 1]: 他给抓取的这个平台的这些帖子。
+[Speaker 1]: 这里就是他抓取到的这个平台更新的这些内容。
+[Speaker 1]: 而且他是用中文输出的，
+[Speaker 1]: 在这里还会给出原文的链接，
+[Speaker 1]: 我们就可以点击阅读原文。
+[Speaker 1]: 然后我们还可以测试一下，
+[Speaker 1]: 让他抓取当前桌面的截图给我们。
+[Speaker 1]: 我输入的是截图，
+[Speaker 1]: 当前桌面发给我。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到这里，
+[Speaker 1]: 他就很快发给我们了一个当前桌面的截图。
+[Speaker 1]: 我们点击放大看一下，
+[Speaker 1]: 这是他给出的当前桌面的截图。
+[Speaker 1]: 相信的话，
+[Speaker 1]: 哪怕在聊天软件中，
+[Speaker 1]: 我们都可以让他以截图的方式，
+[Speaker 1]: 让我们实时查看当前桌面的状态。
+[Speaker 1]: 刚才我们测测的都是非常简单图的务。
+[Speaker 1]: 下面我们还可以加大难度，
+[Speaker 1]: 我们直接让他为我们开发一个简单的网站。
+[Speaker 1]: 这里我可以直接输入提示词，
+[Speaker 1]: 用 next JS 创建一个个截图的状态。
+[Speaker 1]: 网站包含首页项目展示、
+[Speaker 1]: 联系页面使用，
+[Speaker 1]:  tell witness s 完成后自动启动，
+[Speaker 1]: 并测试所有页面是否正常。
+[Speaker 1]: 我们直接发送看一下它能否在云端为我们完成这一个比较复杂的任务。
+[Speaker 1]: 然后在这里我们就可以看到，
+[Speaker 1]: 它已经打开了这个浏览器，
+[Speaker 1]: 我们将它放大。
+[Speaker 1]: 可以看到这里，
+[Speaker 1]: 它开始为我们测试它开发的这个网站，
+[Speaker 1]: 可以看到它会自动点击，
+[Speaker 1]: 而且这个网站的效果也非常不错。
+[Speaker 1]: 下面我们再回到聊天软件，
+[Speaker 1]: 让他开启一个公网链接，
+[Speaker 1]: 让我们也可以访问我输入的技术词是为刚才开发的项目设置一个公网可访问的链接。
+[Speaker 1]: 然后这里他给出了这个公网可访问的地址，
+[Speaker 1]: 我们点开看一下效果，
+[Speaker 1]: 可以看到这些配色效果还是非常不错的。
+[Speaker 1]: 然后我们点击这个项目查看一下。
+[Speaker 1]: 好，
+[Speaker 1]: 这里是最近项目相关的这些内容。
+[Speaker 1]: 而且这里面它都为我们加入了对应的图像。
+[Speaker 1]: 可以看到我们在没有调用其他编程工具的情况下，
+[Speaker 1]: 然后 sybot 就帮我们直接开发完成了个人作品及网站。
+[Speaker 1]: 而且他完成开发之后，
+[Speaker 1]: 还调用云端的浏览器进行了测试。
+[Speaker 1]: 像刚才我们测试的是一些非常简单的任务，
+[Speaker 1]: 下面我们就加大难度。
+[Speaker 1]: 在聊天软件中，
+[Speaker 1]: 我直接输入提示词，
+[Speaker 1]: 我输入的是创建一个每天早上八点运行的定时任务追踪这个平台上最近一周的 AI 发布筛选出评分最高的产品，
+[Speaker 1]: 生成一份竞品分析报告。
+[Speaker 1]: 我们直接发送在这里，
+[Speaker 1]: 它就提示他已经为我们设定好啊，
+[Speaker 1]: 定时任务。
+[Speaker 1]: 为了立即看到效果，
+[Speaker 1]: 我们可以直接现在就让他运行一下这个定时任务。
+[Speaker 1]: 然后我直接输入提示词，
+[Speaker 1]: 现在就运行一下这个定时任务，
+[Speaker 1]: 以便我能看到效果，
+[Speaker 1]: 然后他就很快输出了。
+[Speaker 1]:  AI 竞频报告。
+[Speaker 1]: 这里包含热门产品，
+[Speaker 1]: 还包含 AI 基础设施与安全。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 我们每天早上起来就可以从手机上的聊天软件，
+[Speaker 1]: 或者是从电脑上的聊天软件直接看到每周的 AI 竞频分析报告。
+[Speaker 1]: 我们你就可以将各种任务交 sskyboat，
+[Speaker 1]: 让他在云端去帮我们执行。
+[Speaker 1]: 哪怕我们在休息，
+[Speaker 1]:  skyboat 也能根据我们设定的定时任务，
+[Speaker 1]: 在云端，
+[Speaker 1]: 按时按计划为我们执行相关的任务。
+[Speaker 1]: 最后我们再总结一下，
+[Speaker 1]:  skybot 跟 open clout 相比，
+[Speaker 1]: 它的核心区别有哪些。
+[Speaker 1]: 首先，
+[Speaker 1]:  skybot 它面向所有人，
+[Speaker 1]: 包括初学者而 open clout，
+[Speaker 1]: 只面向懂技术的的一些用户。
+[Speaker 1]: 第二，
+[Speaker 1]:  skyboat 无需设置箱即用，
+[Speaker 1]: 我们只需要点击这个图标就可以打开 skyboat。
+[Speaker 1]: 而且我们还可以接入到各种聊天软件中，
+[Speaker 1]: 所以 skyboat 没有任何学习曲线开箱即用。
+[Speaker 1]: 第三，
+[Speaker 1]: 它是全天候在线。
+[Speaker 1]: 即便我们离开我们当前的电脑，
+[Speaker 1]: 或者将我们当前的电脑关机，
+[Speaker 1]: 然后 skyboat 在云端也能持续工作。
+[Speaker 1]: 第四，
+[Speaker 1]:  skybot 的价格只需要每月四十多美金。
+[Speaker 1]: 我们就可以拥有一个七乘二十四小时在线的云端个人助理。
+[Speaker 1]: 第五，
+[Speaker 1]: 它内置了七十多种 skills，
+[Speaker 1]: 所以不需要我们手动安装其他的任何插件，
+[Speaker 1]: 就可以覆盖我们的各种需求。
+[Speaker 1]: 第六，
+[Speaker 1]: 它支持接入各种聊天软件。
+[Speaker 1]: 所以我们在手机或者电脑上就可以通过聊天软件与 skyboat 进方交互，
+[Speaker 1]: 或者向他发送任务。
+[Speaker 1]: 所以，
+[Speaker 1]: 不论你是高级工程师，
+[Speaker 1]: 还是完全不懂技术的小白，
+[Speaker 1]: 都可以使用 skyboat 大幅度提升我们的办公效率。
+[Speaker 1]: 我们只需要进入 skyboook 官方网站注册账号之后，
+[Speaker 1]: 点击右上角就可以使用 skyboat。
+[Speaker 1]: 好，
+[Speaker 1]: 分析期视频就做到这里，
+[Speaker 1]: 欢迎大家点赞、
+[Speaker 1]: 关注和转发，
+[Speaker 1]: 谢谢大家观看。
