@@ -1,0 +1,313 @@
+[Speaker 1]:  open AI 今天凌晨发布了最新的 GPT 五点四模型，
+[Speaker 1]: 这款模型的定位就是为专业工作而生的前沿模型。
+[Speaker 1]:  open AI 为 GPT 五点四，
+[Speaker 1]: 全面整合了推理、
+[Speaker 1]: 编程、
+[Speaker 1]: 智能体、
+[Speaker 1]: 工作流和计算机操控能力。
+[Speaker 1]: 而且我们可以直接在 cht GPT 网页版中使用 GPT 五点四模型，
+[Speaker 1]: 还可以在 codex 中使用 GPT 五点四模型。
+[Speaker 1]: 而且它的推理级别支持 low、
+[Speaker 1]:  medium、
+[Speaker 1]:  high，
+[Speaker 1]: 还有 extra high，
+[Speaker 1]: 我们就可以根据任务的复杂度来选择不同的思考级别。
+[Speaker 1]: 本期视频我们将在 open cloud 来测试这一款模型的综合能力。
+[Speaker 1]: 因为最近 open cloud 越来越火，
+[Speaker 1]: 但是为了发挥出 open cloud 更强的能力，
+[Speaker 1]: 所以驱动 open cloud 模型也必须要足够强。
+[Speaker 1]: 在最近两个月深度使用 open cloud 的过程中，
+[Speaker 1]: 我最大的体会就是在 open cloud 中使用 cloud ops 四点六模型才能发挥出 open 真正的能力。
+[Speaker 1]: 但是 cloucloud opens 四点六模型，
+[Speaker 1]: 它 token 价格要更高。
+[Speaker 1]: 所以 open NI 今天发布了 GPT 五点四模型，
+[Speaker 1]: 那我们就在 open cloud 中调调用 GPT 五点四模型进行综合测试。
+[Speaker 1]: 看一下 GPT 五点四模型在 open cloud 中能否让 open 变得更聪明，
+[Speaker 1]: 能够执行多种复杂任务。
+[Speaker 1]: 在测试之前，
+[Speaker 1]: 我们先看一下 cloug PT 五点四它有哪些重大突破。
+[Speaker 1]: 首先就是它的上下文窗口支持一百万 tokens，
+[Speaker 1]: 这比之前 open NI 发布的 GPT 五点零 GPT 五点一等模型的上降温窗口要大两倍一百万 tokkings，
+[Speaker 1]: 相当于一部三体三部曲。
+[Speaker 1]: 而且 GPT 五点四模型的知识库截止日期达到了二零二五年八月一号。
+[Speaker 1]: 这意味着它的知识库截止日期要比 cloud oppos 四点六模型还要新，
+[Speaker 1]: 而且它在多项基准测试中都超过了 cloud ops 四点六模型。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们就在 open cloud 来测试 GPT 五点四。
+[Speaker 1]: 在之前的视频中，
+[Speaker 1]: 我为大家演示的我开发的这个用于为 open cloud 提升记忆的这个插件，
+[Speaker 1]: 最近获得了 luns VB 官方的认可和推荐。
+[Speaker 1]: 而且这个项目在 get up 上已经超过一千 star 了，
+[Speaker 1]: 而且为这个项目 TPR 的贡献者已经快达到二十位了，
+[Speaker 1]: 大家可以踊跃参与这个项目的开发，
+[Speaker 1]: 欢迎大家递交 PR。
+[Speaker 1]: 在下期视频中，
+[Speaker 1]: 我将为大家开源，
+[Speaker 1]: 并且演示我为 open clore 开发的另一个插件。
+[Speaker 1]: 这一个插件能让 open cloud 实现跨机 pget way，
+[Speaker 1]: 通过谷歌的 a to a 协议进行通信，
+[Speaker 1]: 想在 open 中使用 cloug PT 五点四非常简单。
+[Speaker 1]: 在本期视频录制的时候，
+[Speaker 1]:  open clour 官方还没有发布最新版来支持 GPT 五点四模型。
+[Speaker 1]: 但是在 open 仓库的 cloup r 中，
+[Speaker 1]: 已经有了支持 GBP 五点点模模的 PR。
+[Speaker 1]: 我们只需要找到这一个 PR，
+[Speaker 1]: 然后直接复制这个 PR 的链接，
+[Speaker 1]: 回到 open en 或或者回 ouen cloux，
+[Speaker 1]: 让 en dex，
+[Speaker 1]: 或者让 open 来分析这个 cloup r，
+[Speaker 1]: 并且在 open cloud 原代码基础上加入对 GPD 五点四的支是如果直接在 open cloud 中，
+[Speaker 1]: 让 open 为我们加入这个功能的话。
+[Speaker 1]: 首先我们要确保模型，
+[Speaker 1]: 我们一定要选一个非常强的模型。
+[Speaker 1]: 我这里选的是 cloucloud oppos 四点六模型，
+[Speaker 1]: 将 ops 四点六模型的思考级别调到了 high。
+[Speaker 1]: 然后我们就可以直接输入提示词，
+[Speaker 1]: 让它检查当前 open cloud 仓库里关于 GPT 五点四的这一个 PR。
+[Speaker 1]: 这里是我们给他的链接，
+[Speaker 1]: 让他分析 PR 里的代码作为参考。
+[Speaker 1]: 然后为我们本机上的 open cloud 加入对 GPT 五点四的支持，
+[Speaker 1]: 然后直接发送给他就行。
+[Speaker 1]: 发送给他之后，
+[Speaker 1]: 等个几分钟，
+[Speaker 1]: 我们就问他怎么样了，
+[Speaker 1]: 然后这里他就提示补丁全部到位。
+[Speaker 1]: 然后紧接着我们就可以输入斜杠命令加 models。
+[Speaker 1]: 在这里我们就可以选择 GPT 五点四模型。
+[Speaker 1]: 选中之后，
+[Speaker 1]: 这里就会显示我们切换到了 GPT 五点四模型。
+[Speaker 1]: 然后大家如果没有这个命令的话，
+[Speaker 1]: 我们也可以直接在输入框中手动输入斜杠命令加 model，
+[Speaker 1]: 再加上这个模型的 ID，
+[Speaker 1]: 然后直接发送。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 我们就手动将模型设置 GPT 五点四模型。
+[Speaker 1]: 如果大家在 open 中没有登录 cloug PP 账号的话也非常简单。
+[Speaker 1]: 我们只需要打开终端，
+[Speaker 1]: 命令行 windows 用户户开开 CMD，
+[Speaker 1]: 在终端命令行中用 open 这一条命令，
+[Speaker 1]: 就可以设置用 clouchd GBD 来登录。
+[Speaker 1]: 这里我们就选择 yes，
+[Speaker 1]: 然后再选第一项。
+[Speaker 1]: 在这里我们就选择 open AI，
+[Speaker 1]: 直接按一下 int 键。
+[Speaker 1]: 在这里我们就选 open AI codex。
+[Speaker 1]: 像这样的话它就会在浏览器中自动打开一个链接。
+[Speaker 1]: 然后这里我们只需要登录我们自己的账号，
+[Speaker 1]: 当登录成功之后，
+[Speaker 1]: 会跳转到这一个页面，
+[Speaker 1]: 我们直接点击下一步，
+[Speaker 1]: 在这里会提示认证成功。
+[Speaker 1]: 下面我们就回到终端命令行，
+[Speaker 1]: 然后这里就到了选模型的阶段。
+[Speaker 1]: 我们可以先默认选择 GBT 五点二模型，
+[Speaker 1]: 然后再按照我刚才的这一个步骤，
+[Speaker 1]: 将 PR 给他，
+[Speaker 1]: 让他参考 PR 增加对 GBT 五点四模型的支持。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 我们就可以在 open 中来使用 cloug BT 五点四模型了。
+[Speaker 1]: 在 open 中不调用网络搜索的情况下，
+[Speaker 1]: 我们问他知识库截止日期，
+[Speaker 1]: 他回答是二零二四年六月，
+[Speaker 1]: 既然 open NAI 官方 GBD 五点四非常强大，
+[Speaker 1]: 那我们就用一个个非常复杂场场景。
+[Speaker 1]: 在 open 中中来测试 clg BD 五点四，
+[Speaker 1]: 它的 agent 能力力到怎么样？
+[Speaker 1]: 我这里直接输入提示词，
+[Speaker 1]: 我输入了一个非常复杂杂任务，
+[Speaker 1]: 这个任任务就是在 open cllow 使使用 GBD 四，
+[Speaker 1]: 让我们当的 clouopopen cllow 在我另一台服务器上为我安装，
+[Speaker 1]: 并且配置 open，
+[Speaker 1]: 也就是在我另一台没有安装 clouopen 的服务器上，
+[Speaker 1]: 让当前的 open cloud 全自动为我们进行安装和配置。
+[Speaker 1]: 然后我们可以看一下我输入的提示词，
+[Speaker 1]: 让他先阅读 open 官方文档，
+[Speaker 1]: 了解部署和配置方式。
+[Speaker 1]: 这里就是 clouopen 官方文档的链接。
+[Speaker 1]: 然后紧接着告诉他，
+[Speaker 1]: 通过 clous SH 为我的服务器配置 open clore 要求用 mini max 的 API 模型选择 m 二点一，
+[Speaker 1]: 并且实现和 boat 配对。
+[Speaker 1]: 然后这里是我给他的 boat 的 toking。
+[Speaker 1]: 在这里我告诉他了 mini max 的 API PIK，
+[Speaker 1]: 这是完整的 APIK。
+[Speaker 1]: 下面这里就告诉他，
+[Speaker 1]: 服务器的 IP 是什么，
+[Speaker 1]: 用户名是什么，
+[Speaker 1]: 密码是什么？
+[Speaker 1]: 像我这里提到的这些 APIK，
+[Speaker 1]: 还有服务器这些密码。
+[Speaker 1]: 我在测试完之后都会重置并且删除。
+[Speaker 1]: 这就是我们这个任务的完整提示词。
+[Speaker 1]: 然后我们直接发送。
+[Speaker 1]: 然后现在我们就等待它能否为我们配置好 open cloud，
+[Speaker 1]: 并且设置好 APIK，
+[Speaker 1]: 为这个 boat 进行配对。
+[Speaker 1]: 当它完成配对之后，
+[Speaker 1]: 我们就在这个聊天软件中与它配置的这个 boat 进行对话，
+[Speaker 1]: 看一下是否真的成功。
+[Speaker 1]: 因为很多 open cloud 用户可能有几台机器都需要部署 open cloud，
+[Speaker 1]: 但每次我们手动部署又都非常麻烦，
+[Speaker 1]: 如果直接能让 open 通过 clous SH 连接到对应的设备为对应的设备全自主配置 open 的话，
+[Speaker 1]: 那这样的话就能大大节省省我们时间和精力。
+[Speaker 1]: 因为我们在手动配置的时候还是非常麻烦的。
+[Speaker 1]: 既要安装这一些环境与依赖，
+[Speaker 1]: 还要安装 clouopen、
+[Speaker 1]:  cloud 这一些安装包，
+[Speaker 1]: 还需要在命令行中进行各种交互。
+[Speaker 1]: 像我们一上来就用了一个极其复杂的多步骤任务，
+[Speaker 1]: 对 GBD 五点四进行测试。
+[Speaker 1]: 它如果能全自动为我们完成这个配置，
+[Speaker 1]: 那真的说明 GBD 五点四它的 agent 的能力确实极强。
+[Speaker 1]: 好，
+[Speaker 1]: 这里它开始输出这些结果，
+[Speaker 1]: 然后我们看一下它是否配置成功了。
+[Speaker 1]: 他说需要在 boat 中给他发个内容测试一下。
+[Speaker 1]: 然后我们给 boat 随便发一个内容测试，
+[Speaker 1]: 测试 hello 的的的给 bat t 发了内之后没有出现任何响应。
+[Speaker 1]: 然后我们将这个情况告诉他，
+[Speaker 1]: 然后输入提示词告诉他，
+[Speaker 1]: 我输入了如下内容，
+[Speaker 1]: 但是没有任何响应。
+[Speaker 1]: 首先是输入了一个斜杠命令，
+[Speaker 1]: 又输入了一个 hi，
+[Speaker 1]: 然后我们直接发送看一下它能否为我们配置成功。
+[Speaker 1]: 然后在刚才这个 boat 中，
+[Speaker 1]: 我们看到它这里输出了内容，
+[Speaker 1]: 然后我们再执行一下这条命令，
+[Speaker 1]: 再发送一个内容。
+[Speaker 1]: 看一下。
+[Speaker 1]: 好，
+[Speaker 1]: 当我们发送内容之后，
+[Speaker 1]: 这里这个 boat 给出了回答，
+[Speaker 1]: 这样看来这个问题已经修好了。
+[Speaker 1]: 然后我们再回答 GBD 五点四，
+[Speaker 1]: 他给出的分析就是没有开启这个功能。
+[Speaker 1]: 然后他现在已经修好了，
+[Speaker 1]: 他让我们再发一句。
+[Speaker 1]: 然后刚才我们已经发了，
+[Speaker 1]: 然后他也给出了回答。
+[Speaker 1]: 然后我们直接问他你是什么模型。
+[Speaker 1]: 因为刚才我们让 GBD 五点四为大家设置的模型是 MIMX 模型。
+[Speaker 1]: 然后我们看一下他回答的是什么模型。
+[Speaker 1]: 他说他是 MI max m 二点一模型，
+[Speaker 1]: 这个是完全没问题的。
+[Speaker 1]: 然后紧接着我们再提问一下你的 open class 版本号，
+[Speaker 1]: 他说他的版本号就是二零二六点三点二，
+[Speaker 1]: 这个版本就是目前 open class 最新的版本。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 我们在 open 中使用 cloug BD 五点四模型只用了非常简短的提示词描述我们的任务。
+[Speaker 1]: 它就在我们这台服务器上，
+[Speaker 1]: 为我们真正配置好了 open clall，
+[Speaker 1]: 并且连接到了我们这个聊天软件。
+[Speaker 1]: 而且整个过程我们只让它修复了一遍，
+[Speaker 1]: 它就全自动为我们修复了这个问题。
+[Speaker 1]: 而且这个 bot 可以正常使用，
+[Speaker 1]: 它所对应的 open class 就运行在刚才 GBD 五点四为我们配置的这个服务器上，
+[Speaker 1]: 像这个非常复杂的流程。
+[Speaker 1]:  GBD 五点四在 open cloud 只需要要两对对话，
+[Speaker 1]: 就为我们完全配置好了。
+[Speaker 1]: 而且整个过程需需要们去登录服务器，
+[Speaker 1]: 不需要我们们去执行命。
+[Speaker 1]: 这样看来，
+[Speaker 1]:  GBD 五点四的 a 检测能力真的非常非常强。
+[Speaker 1]: 下面我们在这个任务上继续测试，
+[Speaker 1]: 让他将刚才的执行步骤还有学到的经验直接做成 skill，
+[Speaker 1]: 并且将 skill 同步到我们的 github 仓库。
+[Speaker 1]: 下面我直接输入提示词，
+[Speaker 1]: 将刚才你自主为我配置 open cloud 方法和和验验以及流程固化成 skill，
+[Speaker 1]: 并且将 skill 同步到 get up。
+[Speaker 1]: 仓库要求他新建一个公开的仓库，
+[Speaker 1]: 写清楚中文，
+[Speaker 1]:  read me，
+[Speaker 1]: 还有英文，
+[Speaker 1]:  read me。
+[Speaker 1]: 然后我们直接发送，
+[Speaker 1]: 让他在刚才操作的基础上，
+[Speaker 1]: 直接将他学到的经验，
+[Speaker 1]: 还有这一些方法，
+[Speaker 1]: 直接固化成一个 skill。
+[Speaker 1]: 有了 skill，
+[Speaker 1]: 下次我们让 open clill 在其他设备上为我们部署 open 的时候，
+[Speaker 1]: 他就不会踩刚才的这种坑，
+[Speaker 1]: 只需要用一轮对话就可以让他完成配置。
+[Speaker 1]: 像我们让他创建 skill 的任务，
+[Speaker 1]: 这也是一个比较复杂的任务。
+[Speaker 1]: 因为他需要将刚才学到的这些经验，
+[Speaker 1]: 还有流程做成 skill，
+[Speaker 1]: 而且还要创建一个 get up 仓库，
+[Speaker 1]: 并且同步到仓库上，
+[Speaker 1]: 在等待了大概五分钟左右。
+[Speaker 1]: 这里他为我们写好了这个 skill，
+[Speaker 1]: 然后我们看一下，
+[Speaker 1]: 然后这里是他给出的仓库地址，
+[Speaker 1]: 他说他提炼成了一个可复用的 skill。
+[Speaker 1]: 这是他为我们创建了这个 get up 仓库。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 下次我我们再让 open cloud，
+[Speaker 1]: 我们在其他设备上配置 open en oud 时候，
+[Speaker 1]: 我们就可以直接让 open 调用这个 clouskill。
+[Speaker 1]: 就不需要输入一大堆提示词了。
+[Speaker 1]: 这时候我们用两个非常复杂的场景进行了测试，
+[Speaker 1]: 下面我们继续加大难度。
+[Speaker 1]: 为了体现任务的难度，
+[Speaker 1]: 这里我直接在 open 官方仓库的 cloup r 这里找了一个 PR。
+[Speaker 1]: 然后我们的任务就是让 open cloud 中的 GPT 五点四模型将这个 PR 直接合并到当前正在运行的这个 open 上。
+[Speaker 1]: 看一下它合并之后 clouopen clore 能否还能正常响应。
+[Speaker 1]: 然后我们直接复制这个 PR 的链接，
+[Speaker 1]: 然后回到 open。
+[Speaker 1]: 在这里我们新开一个 clousession，
+[Speaker 1]: 在模型这里，
+[Speaker 1]: 我们还是使用了 GPT 五点四模型。
+[Speaker 1]: 然后我们直接输入提示词，
+[Speaker 1]: 将这个 PR 合并到当前 open。
+[Speaker 1]: 这里就是 cloup r 的链接。
+[Speaker 1]: 我们直接发送看一下 GPT 五点四能否将这个 PR 合并成功，
+[Speaker 1]: 并且不会导致 open 崩溃。
+[Speaker 1]: 好，
+[Speaker 1]: 现在过去了，
+[Speaker 1]: 大概八分钟，
+[Speaker 1]: 我们问它怎么样了。
+[Speaker 1]: 然后这里他很快给出了回答，
+[Speaker 1]: 已经把 PR 的核心修补到了这台机器上。
+[Speaker 1]: 正在运行的 open clall 安装里，
+[Speaker 1]: 并重启了 geate way。
+[Speaker 1]: 现在服务是正常的，
+[Speaker 1]: 也没有出现任何 bug。
+[Speaker 1]: 而且整个过程我们是直接在 open 里让 cloug BT 五点四为我们完成的，
+[Speaker 1]: 完全没有调用其他 AI 编程工具。
+[Speaker 1]: 这三个任务都是比较复杂的任务，
+[Speaker 1]: 能够真正检验 GBT 五点四它的 a 检查能力以及长链路任务的执行能力。
+[Speaker 1]: 下面我们测试一下第五点四它的 SVG 生成能力。
+[Speaker 1]: 我这里输入提示词，
+[Speaker 1]: 用 SVG 画一只骑自行车的鹈鹕正在追一只梨花猫，
+[Speaker 1]: 背景是草地和蓝天白云以及飞翔的鸟，
+[Speaker 1]: 要求具备真正的动画效果，
+[Speaker 1]: 然后直接发送。
+[Speaker 1]: 因为在之前测试中，
+[Speaker 1]:  GBD 系列模型，
+[Speaker 1]: 它生成 SVG 的能力和斯四点六模型生成 oppos VG 的能力有很大的差距。
+[Speaker 1]: 然后我们再输入提示词，
+[Speaker 1]: 让他画好发给我。
+[Speaker 1]: 然后紧接着他就画好发给了我们我们点开看一下。
+[Speaker 1]: 好，
+[Speaker 1]: 打开之后可以看到这只鹈鹕和这只猫都跑到了天上，
+[Speaker 1]: 然后这只猫显示的也不完整。
+[Speaker 1]: 天上飘的云和鸟还有太阳效果还是比较不错的。
+[Speaker 1]: 可能这种前端测试题对他来说还是有一定难度的。
+[Speaker 1]: 但通过我们刚才这三个非常复杂的长链路任务的测试，
+[Speaker 1]: 可以发现，
+[Speaker 1]:  GBD 五点四在 open cloud 中，
+[Speaker 1]: 它确确实实能让 open clck 变得更加聪明，
+[Speaker 1]: 执行这些复杂任务也不在话下。
+[Speaker 1]: 所以我们在 open 中完全可以将好的 ops 四点六模型真正替换成 GBT 五点四模型。
+[Speaker 1]: 由于时间有限，
+[Speaker 1]: 本期视频我们就用这几个比较有代表性，
+[Speaker 1]: 而且难度非常大的案例为大家测试了 GBD 五点四在 open 中执行复杂任务的能力。
+[Speaker 1]: 刚才由 cloug BT 五点四模型创建了这个 skill，
+[Speaker 1]: 我也会放在视频下方的描述栏或者评论区置顶。
+[Speaker 1]: 下期视频我就会为大家分享享开开发的这个用于 open 跨 clouopen clate way，
+[Speaker 1]: 通过 a to a 协议进行通信的 open clour 插件。
+[Speaker 1]: 本期视频就做到这里，
+[Speaker 1]: 欢迎大家点赞、
+[Speaker 1]: 关注和转发，
+[Speaker 1]: 谢谢大家观看。
