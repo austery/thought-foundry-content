@@ -6,85 +6,116 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=fhOAwcT2zT0
 speaker: 记者易速利
 tags:
-  - supreme-court-ruling
-  - tariffs
-  - presidential-power
-  - trade-policy
+  - tariff-policy
+  - constitutional-law
   - separation-of-powers
-title: 最高法院关税判决：特朗普的工具箱与权力制衡
-summary: 美国最高法院裁定特朗普政府征收全球关税违宪，引发了对其经济政策和总统权力的深刻讨论。本文梳理了裁决的背景、特朗普对关税的执念、相关法律依据以及法院的‘重大问题原则’。尽管面临法律约束，特朗普仍可通过多种现有法律工具继续推行贸易政策。判决也凸显了司法系统在制衡行政权力中的作用，并呼吁国会承担起其宪法责任。
+  - trade-regulation
+  - international-emergency-economic-powers-act
+title: 最高法院裁定关税违宪：特朗普的‘工具箱’与美国三权分立的制衡
+summary: 本文深度解析了美国最高法院裁定特朗普行政当局征收全球关税违宪的重大判决。尽管面临核心经济议程的法律挫败，特朗普仍计划利用《1974年贸易法》等替代法律工具维持关税政策。判决不仅体现了宪法对国会征税权的保护，也展示了美国司法系统在权力制衡中的核心职能，反驳了关于‘独裁’的舆论焦虑。
 insight: ''
 draft: true
 series: ''
 category: macro-economy
 area: geopolitics
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - Donald J. Trump
+  - John Roberts
+  - Brett Kavanaugh
+  - Neil Gorsuch
+  - Amy Coney Barrett
+  - Scott Bessent
+companies_orgs:
+  - US Supreme Court
+  - White House
+  - US Congress
+products_models:
+  - IEEPA
+  - Section 301
+  - Section 232
+  - Section 122
+media_books:
+  - The New York Times
 status: evergreen
 ---
-### 裁决突袭：白宫早餐会上的意外消息
+### 最高法院的意外裁决
 
-上周五早上十点半左右，美国总统特朗普正在白宫国宴厅与全美各州州长们举行年度工作早餐会。就在此时，他收到一张纸条，告知了最高法院在关税议题上的最新判决。助手简要说明，最高法院裁定总统征收的全球关税违宪，因为在没有国会明确授权的情况下，此举超出了法律授予总统的权力。尽管裁决未明确要求退还已收缴的关税，这一消息还是迅速传达给了在场的州长们。
+**[Speaker 0]**: Ladies and gentlemen, the President of the United States, Donald J. Trump. Thank you very much for being here, it's a great honor, and the media, thank you. You can leave now.
 
-对于这一突如其来的消息，州长们的反应也大致遵循了党派界限。共和党州长们认为特朗普表面平静，而民主党州长们则认为他内心在发火，甚至有民主党州长预测特朗普“头都要炸了”。特朗普随即缩短了早餐会问答环节，提前离开以应对这一裁决。不久后，他的几位顶级经济顾问聚集到其办公室。
+**[Speaker 2]**: 上周五早上大概十点半左右，在**白宫**的国宴厅里，**特朗普**正跟全美各州的州长们开年度工作早餐会。就在这时候，他得知了**最高法院**在关税议题上的判决结果。他的一位助手给他递上了一张纸条，特朗普问：“所以这是一场失败，对吧？”
 
-实际上，最高法院受理此案已有一段时间。案件于2025年9月上庭，11月进行辩论，财政部长也到场旁听，这极为罕见。从庭审过程中大法官们提出的问题和提问方式，多数人已预测到特朗普可能会输。因此，特朗普政府自那时起一直在为可能不利的判决做准备。特朗普曾在公开场合向法官喊话，警告推翻关税将引发经济灾难，同时也私下向助手表达了对不利判决的担忧。因此，周五的结果虽令人震惊，但并非完全出乎意料。
+这位助理简单介绍说，最高法院刚刚裁定，总统征收的全球关税是**违宪**的。在没有**国会**明确授权的情况下，征收关税超出了法律授予总统的权利。虽然裁决当中没有说明特朗普行政当局是否必须退还已经收缴的关税，特朗普还是将这个消息转告给了坐在他面前的州长们。
 
-裁决公布后的下午两点，特朗普在白宫新闻简报室与记者见面，进行了长达四十五分钟的回应。为了配合他的讲话，简报室的灯光被大幅调暗，这被认为是特朗普为营造戏剧效果而采取的专家级手法，有助于他表达强烈情绪。
+面对同一个现场，大家的判断大致也是按照党派划线的。带着“红色滤镜”的共和党州长们认为，特朗普至少表面上看起来很平静；而戴着“蓝色眼镜”的民主党州长们则认为，特朗普内心里在发火。康涅狄格州的民主党州长**拉蒙特**干脆觉得特朗普头都要炸了。
 
-### 关税信仰：特朗普经济议程的核心驱动力
+当时，特朗普缩短了问答环节，提前离开着手应对这项裁决。很快，他的几位顶级经济顾问就聚集到了**椭圆形办公室**。最高法院受理这个案子是在2025年9月，11月进行辩论。当时财政部长**贝森特**甚至亲自到场旁听，这是极为罕见的。从当时九位大法官提出的问题和提问方式来预测，其实多数人早就认为特朗普会输，所以周五的结果并不是晴天霹雳。
 
-**关税**（tariff: 对进口或出口商品征收的税款）是特朗普推进其经济议程的核心工具之一，也是他最初投身政治的重要推动力。他认为，美国政府和多数主流经济学家对关税的理解存在偏差，经济学家们仍停留在数据层面，而关税对特朗普而言，早已上升为一种“信仰问题”。在他看来，一本包含“自由”、“平等”、“民主”等重要词汇的字典里，最美的词莫过于“关税”。由此可见，关税在他心中的分量非同一般。
+### 特朗普的关税信仰与回应
 
-早在1980年代，当冷战仍是国际焦点时，特朗普已在《纽约时报》买下版面，抨击日本“抢了美国的饭碗”，并强调只有关税壁垒才能起到防御作用。他公开表示：“我想要自由贸易，但希望是公平的，至少能打个平手。”他认为，其他国家（如日本）能够轻易进入美国市场销售产品，而美国企业却难以进入对方市场。
+**[Speaker 0]**: Wow, a lot of people.
 
-特朗普的关税政策虽然在美国内外都招致广泛批评，但也赢得了众多支持者。例如，私营企业主**德鲁格林·布莱特**（Drew Greenblatt）便是其坚定支持者。他的工厂生产钢丝制品，有百余名员工，面临来自中国和欧洲的竞争。德鲁格林坚定支持特朗普通过关税来重新平衡全球贸易的做法，即使在最高法院判决前几小时，他的立场也毫不动摇。
+**[Speaker 2]**: 周五下午两点裁决公布以后，过了三个多小时，特朗普在白宫的新闻简报室跟记者见面了45分钟，首次做出回应。为了配合他的讲话，简报室里的灯光大幅度调暗了。特朗普作为真人秀节目的老手，制造电视效果当然是专家级别，调暗灯光有助于他表达强烈的对抗情绪。
 
-### 法律挑战：最高法院的“重大问题原则”
+**[Speaker 0]**: They are against anything that makes America strong, healthy and great again. They also are a, frankly, disgraced to our nation. Those justices. There are no, no matter how good a case you have, it just don't... no.
 
-特朗普的关税政策，在最高法院的裁决中遭遇了重大挫折。该裁决围绕着1977年国会通过的**《国际紧急经济权力法》**（International Emergency Economic Powers Act, IEEPA）。这项法律授权总统在由异常且特别的威胁引发的国家紧急状态下，有权规范与管理（regulate）进口。IEEPA的立法背景是1974年水门事件后，国会对总统权力滥用的高度警觉，旨在限制总统对国际贸易的管理权限，仅限于涉及国家安全、外交政策或经济的异常且特别威胁的环境下。
+**[Speaker 2]**: **关税**是特朗普推进经济议程的核心工具之一。他对政治感兴趣，最终下决心投身政治，关税也是最初的推动力。他觉得美国政府和大多数主流经济学家对关税的理解有偏差。对他来说，关税已经是一个**信仰问题**。他认为字典里最美的词就是“关税”（Tariff）。早在1980年代，当大多数人还纠结于冷战时，特朗普就在《**纽约时报**》买下版面，痛斥日本抢了美国的饭碗，认为只有关税壁垒才能起到防御作用。
 
-然而，IEEPA的法律文本中并未出现“关税”（tariff）一词，也没有包含“税捐”（duty）或“进口税”（imposition）等近似词汇。从2025年4月起，特朗普政府重新解读IEEPA，认为只要总统宣布存在紧急状态，即可在未经国会批准的情况下，随时随地对任何国家征收任何想要的关税。这种解读在某些情况下有道理，但也存在牵强之处，例如针对加拿大蜂糖浆采集技术征收25%的永久性关税。
+**[Speaker 3]**: Japan committed every right into our markets and trade. 
 
-最高法院的多数派（六位大法官）认为，总统并不具备通过IEEPA 征收关税的权利。判决书明确指出：“总统无权对来自任何国家的任何产品，以任何税率在任何时间征收关税。”下级联邦法院此前的裁决也认为，真正的国家紧急状态需要进一步明确，仅仅存在贸易逆差或来自加拿大的非法贩运激增等因素，未必是总统实施大规模关税的充分理由。
+**[Speaker 0]**: I want free trade, but I want it to be like... at least we break even, right? We do something.
 
-此次判决的核心依据之一是“**重大问题原则**”（major questions doctrine）。该原则要求，当国会授予行政部门具有重大经济和政治意义的决策权力时，必须在法律中清晰表达。行政当局不能仅凭宽泛模糊的法律语言（如IEEPA中“规范与管理出口”）来主张影响宪法明确授予国会的征税权。虽然关税确实可以作为“规范与管理”的手段，但多数派法官认为，国会授予总统规范与管理进口权时，并未明确赋予总统凭借个人意志征收关税的权利。
+**[Speaker 3]**: If you ever go to Japan right now, try to sell something, forget about it. It's almost impossible. They come over here, they sell their cars, their VCRs, they knock hell out of our companies.
 
-### 寻找替代：特朗普的关税工具箱
+### 支持者的声音与关税的经济功能
 
-尽管最高法院的裁决刺痛了特朗普，但他从中也看到了积极因素。他认为，裁决明确了他作为总统寻求其他法律来征收关税的权利。裁决公布当晚，特朗普便在社交媒体上宣布，已签署一项命令，对美国所有贸易伙伴征收10%的全球关税。
+**[Speaker 2]**: 特朗普的关税政策遭到了广泛批评，但也赢得了众多的支持者。私营企业主**德鲁·格林布拉特**（Drew Greenblatt）一直都是坚定的支持者。他的工厂生产钢丝制品，面临的竞争主要来自中国和欧洲。他在最高法院判决前几小时依然毫不动摇。
 
-与IEEPA相比，其他可调用的法律可能带来更多约束，但也提供了替代方案：
+**[Speaker 4]**: We've got this major decision today from the Supreme Court, which carries the potential to overturn the president's tariffs. What is your view on that possibility?
 
-1.  **《1974年贸易法》第122条**：该条款授权总统在150天内，可对任何国家征收最高15%的关税，以应对巨大且严重的国际收支逆差。特朗普首先宣布的10%全球关税即出自此条款。然而，150天窗口期结束后，关税必须由国会重新授权，并可能遭遇法律挑战。这更像是一种缓兵之计，为行政当局争取时间寻找新方案。
+**[Speaker 5]**: It's inconceivable the Supreme Court is going to overturn this policy. It would be madness to have 535 Washington representatives and senators negotiating deals with China and Canada and Mexico. We should have one person, the President, negotiate the deal. You should be cutting deals. This president is putting in policies so that it's level, so our factory workers have a shot to compete with China, Mexico, Canada, and Europe.
 
-2.  **《1974年贸易法》第301条**：该条款允许针对其他国家的不公平贸易行为征收任何实质性、永久性关税，且没有上限。此权利包含严格的行政程序：启动正式调查、编制详尽报告、提供公众告示和评论期。第122条的150天窗口期正好可以用于完成这些程序。第301条有扎实的宪法基础，特朗普政府和拜登政府都曾利用此条款对中国商品加征或提高关税。只要行政当局遵守程序，法院通常会予以尊重。
+**[Speaker 2]**: 对于特朗普来说，关税同时具备实际加征和谈判手段两种功能。这一次重返白宫，他希望重塑美国对外贸易体系。按照白宫的预测，自2025年4月实施新关税后，未来十年联邦政府将征收**2.3万亿美元**。特朗普甚至已经畅想过怎么花这笔钱：增加国防预算、发钱给农民、向纳税人发放2000美元现金，甚至建立**美国主权财富基金**。
 
-3.  **《1962年贸易扩张法》第232条**：该条款授权总统征收涉及国家安全的关税，税率和执行期限均无明确上限，前提是商务部需开展国安调查。目前针对钢铁、铝制品、半导体产品的关税即基于此条款，不受最高法院最新判决的影响。
+### 司法独立与对大法官的批评
 
-4.  **《1930年斯穆特·霍利关税法》第338条**：允许总统在认定某国对美采取歧视性贸易政策时，征收最高50%的关税。
+**[Speaker 0]**: They're just being fools and lapdogs for the Rhinos and the radical left Democrats. They are very unpatriotic and disloyal to our Constitution.
 
-这些替代方案虽然存在，但相比IEEPA，它们需要更长的准备时间，并且在程序上耗费更多精力，这无疑会削弱特朗普灵活运用关税大棒的威慑力。他曾频繁使用突如其来的关税威胁来惩罚不合作的国家，但最高法院的判决后，这种“即时性”和“灵活性”将大打折扣。
+**[Speaker 2]**: 特朗普猛烈批评了投下多数票的六位大法官，称他们“不爱国”。**尼尔·戈萨奇**（Neil Gorsuch）和**艾米·康尼·巴雷特**（Amy Coney Barrett）这两位由他任命的大法官承受了最猛烈的火力。只有**布雷特·卡瓦诺**（Brett Kavanaugh）坚持了对他有利的判决，被特朗普称赞为“天才”。
 
-### 三权制衡：国会、法院与行政权力的博弈
+目前最高法院形成了保守派占据六席、自由派占据三席的格局。虽然保守派大法官在大多数案例中对特朗普相对友好，但这次关税判决是一个重要的例外。
 
-在混乱的贸易政策领域，**国会**（Congress: 美国立法机构）是唯一能够终结混乱的机构。然而，近年来两党在国会运作中存在严重分歧，导致立法效率低下，陷入“立法无能”的境地。行政当局频繁出现在法庭上，正是国会缺失的体现。宪法赋予国会的终极权利是管理国家财政，而特朗普通过关税获得的收入，理论上可由行政当局直接支配，这在宪法意义上削弱了国会的权力。
+**[Speaker 6]**: The ruling strikes a stunning blow at the centerpiece of the president's economic agenda. It also marks the first major ruling by the high court against the president's expanded use of power in office.
 
-最高法院首席大法官**约翰·罗伯茨**（John Roberts）在判决书中强调，关税权是征税权的一部分，宪法审慎地将此权利保留给了国会。他指出，在IEEPA近50年的历史中，没有任何一位总统曾援引该法来征收如此规模的关税。多数派大法官还援引了“重大问题原则”，认为特朗普政府对IEEPA的解读，未能清晰证明国会授予了其征收关税的重大权限。
+**[Speaker 2]**: 这次判决应该让那些嘲笑最高法院是“特朗普工具”的人做些反省。法官们虽然有理念之争，但仍然在努力就事论事。保守派大法官在阐释宪法时，通常对**权力分立**和制衡要求更为严格。
 
-值得注意的是，最高法院在过去几年中，也曾运用“重大问题原则”禁止了拜登政府的几项政策，如学生贷款减免和暂停驱逐令。与这些政策相比，特朗普的关税直接触及了国会掌握税收权这一更根本的议题。法院在此次判决中，将同一原则应用于不同总统的政策，显示出法官是依据自身对法律的理解来判案，而非偏袒特定党派。
+### 法律工具箱：特朗普的备选方案
 
-尽管保守派大法官们在过去倾向于支持总统的广泛豁免权和**单一行政权力理论**（unitary executive theory），但此次关税判决也对特朗普施加了重大约束。
+**[Speaker 0]**: I want to be very well-behaved because I didn't want to do anything that would affect the decision of the court. I have very effectively utilized tariffs over the past year to make America great again.
 
-### 司法信心：在不完美中维系宪法职能
+**[Speaker 2]**: 尽管遭遇重大挫败，特朗普并没有表现出蔑视法庭裁决的迹象，而是转向了其他可利用的法律机制。
 
-总结来看，美国贸易体系确实需要重大调整，但具体实施过程需要更多耐心。特朗普希望“拆掉漏雨的房子盖新楼”，但现实可能更像是“一根木头一根木头去换”，每次都需要经过国会（出资人）和法院（质检员）的批准。
+**[Speaker 0]**: The good news is, there are methods, practices, statutes, and authorities as recognized by the entire court in this terrible decision, which are even stronger than the IEEPA tariffs available to me as President of the United States.
 
-通过此次关税判决，公众应保持对美国司法体系的基本信心。它远非完美，但仍在履行核心的宪法职能。最高法院的九位大法官，无论其保守派或自由派理念如何，都能以诚实智慧的方式将法律哲学应用于具体案例，他们更多地是在维护司法自身的尊严，而非直接为白宫站台。在美国三权分立的机制下，法院以相对被动、不明显的方式维系着体制的健康，如同人体的免疫系统。
+**[Speaker 2]**: 这次争议的核心是1977年的《**国际紧急经济权力法**》（**IEEPA**）。该法律授权总统在紧急状态下“规范与管理”（Regulate）进口，但文本中并未明确出现“关税”（Tariff）一词。最高法院裁定，总统无权凭借该法在任何时间对任何产品征收任何税率的关税。
 
-虽然特朗普可能无法再像过去那样随时挥舞关税大棒，但他仍有多种法律工具可供选择，只是需要更多程序上的准备。对于已经缴纳额外关税的企业是否能获得退税，理论上可能，但实际操作将非常复杂，且最终可能不会有普通消费者看到退税支票。
+虽然**IEEPA**这条路被堵死了，但特朗普的工具箱里还有其他手段：
+1.  **《1974年贸易法》第122条款**：授权总统在150天内应对严重的国际收支逆差，征收最高15%的关税。特朗普已经宣布以此恢复被废除关税的70%。
+2.  **《1974年贸易法》第301条款**：针对不公平贸易行为，没有征税上限，但需要走完行政程序（如正式调查和公众评论期）。
+3.  **《1962年贸易扩张法》第232条款**：基于国家安全征收关税。现存针对钢铁、铝材、半导体的关税大多基于此条款，不受此次判决影响。
 
-最终，国会需要承担起其应有的责任，通过立法来明确贸易政策的方向和总统的权力边界。
+**[Speaker 0]**: So we can use other of the statutes, other of the tariff authorities, which have also been confirmed and are fully allowed. Therefore, effective immediately, all national security tariffs under Section 232 and existing Section 301 tariffs...
+
+### 权力的平衡与司法韧性
+
+**[Speaker 2]**: 最高法院判决后，特朗普失去的是“随时随地”寄出关税大棒的灵活性，他现在需要更长的准备时间。这显示出，美国司法体系仍然在履行其核心职能。
+
+**[Speaker 8]**: And now, California Governor Newsom and Illinois Governor Pritzker are demanding the Trump administration pay out refunds to businesses and Americans.
+
+**[Speaker 2]**: 至于退税，理论上有可能，但实际操作极难。联邦退税通过进口商完成，而这些成本早已通过涨价转嫁给了消费者。你买雅诗兰黛化妆品多付的钱，基本上不可能拿回来。
+
+**[Speaker 0]**: I have the right to do tariffs, and I always had the right to do tariffs.
+
+**[Speaker 2]**: 首席大法官**约翰·罗伯茨**在判决书中强调，关税权是征税权的一部分，宪法审慎地将其保留给了国会。这与此前针对拜登政府“学生贷款减免政策”的**重大问题原则**（Major Questions Doctrine）逻辑是一致的：行政部门在做出重大决策时，必须有国会的明确授权。
+
+总结来说，美国贸易体系确实需要调整，但实施过程需要耐心。特朗普原本想拆房盖新楼，现在只能一根木头一根木头地换，且每次都要经过国会这个“出资人”和法院这个“质检员”的签字。这正说明美国的三权分立机制像“免疫系统”一样，依然在维系着体制的健康。
