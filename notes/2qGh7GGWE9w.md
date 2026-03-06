@@ -6,104 +6,254 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=2qGh7GGWE9w
 speaker: 小翠時政財經
 tags:
-- financial
-- china
-- economics
-- fraud
-- government
-- business
-- economy
-- scandal
-title: 金融黑洞的清算与赵薇的新债
-summary: 本文详细分析了明天系金融帝国的清算过程。肖建华通过控制677家关联公司和44家金融机构，从中国金融系统中转移超过6500亿资金，最终留下8000多亿的债务窟窿。清算九年后仅追回数百亿资产，赵薇因与明天系的股权交易成为债权追讨对象。
+  - financial-empire
+  - asset-stripping
+  - bankruptcy-liquidation
+  - debt-recovery
+  - corporate-malfeasance
+title: 明天系清算：肖建華金融帝國的覆滅與趙薇的債務追討
+summary: 本文深度解析了明天系金融帝國的破產清算案，揭示了肖建華如何掏空中國金融系統，造成上萬億壞賬。從677家關聯公司、資產負債懸殊，到趙薇牽涉的3900萬債務，詳述了中國政府追討損失的艱難歷程。
 insight: ''
 draft: true
 series: ''
-category: macro-economy
-area: geopolitics
+category: business-entrepreneurship
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
+people:
+  - 肖建华
+  - 赵薇
+companies_orgs:
+  - 明天系
 products_models: []
 media_books: []
 status: evergreen
 ---
+### 明天系帝國的隕落與萬億壞賬的追討
 
-### 金融黑洞的清算与赵薇的新债
-
-大家好，欢迎回到小翠时政财经。今天是美东时间2026年的2月3日，距明天系掌门人肖建华被中国政府从香港带回内地受审已经整整九年了。2017年的大年夜，这一事件首次让公众知道了“明天系”这个金融帝国的存在。过去几年中，节目曾专门讨论过肖建华如何通过层层嵌套和隐蔽交易控制多家银行、保险公司及信托机构，从中国金融系统中“搬运”了上万亿资金。
-
-2019年，明天系旗下的包商银行直接倒闭。对于中国政府来说，这种“资产外流、债务留中”的行为无疑是触犯了底线。肖建华尽管试图通过入股国家领导人亲属相关公司来争取关系和缓，最终也未能逃脱法律的制裁。
-
-从2017年肖建华归案算起，到今天已经过去整整九年。中国政府没有闲着，最终将明天系的“烂账”算清楚了。
-
-那么，肖建华到底从中国金融系统中搬走了多少资金？中国政府能追回来多少？最终又需要承担多大的损失？
-
-根据最新的清算结果，明天系涉及的677家公司是本次破产清算的重点。这是中国《企业破产法》实施以来规模最大的企业合并破产案，没有之一。
-
-许多观众可能会疑惑，为什么一个“明天系”会牵扯出这么多公司？677家公司从何而来，普通人能管理得过来吗？
-
-要回答这个问题，我们首先要回顾一下明天系当年的金融版图。根据不完全统计，明天系巅峰时期控股了9家上市公司，并参股控制多达44家金融机构。这些机构涵盖了城市商业银行、证券公司、信托公司、保险公司和基金公司等，明天系堪称一个横跨银行、证券、保险、信托、期货、基金和资管的“全牌照金融帝国”。
-
-据估算，明天系当时掌控的金融资产超过三万亿元。拥有全套金融牌照意味着其几乎具备了“钞能力”，可以不依赖自身资金，通过空手套白狼的方式逐步将金融系统中的钱转移到自己的口袋中。银行提供贷款，保险公司利用保费进行投资，信托理财和资管则用于转移风险。证券公司还会帮助从资本市场直接融资并包装资产。
-
-司法机关的通报显示，肖建华及其控制的明天控股在2010年至2017年之间通过非法手段吸纳了大量资金。例如，通过操纵新時代信託、天安財險等机构非法吸资3,116亿元；通过包商银行转移资金至自己掌控，金额高达1,486亿元。而通过操纵华夏天安人寿等保险公司转移保险资金，违法运作的资金达1,909亿元。这些资金主要用于收购金融机构、进行证券交易和海外投资。
-
-仅官方通报的数字，肖建华就至少从中国金融系统中搬走了6,500亿资金。但这只是冰山一角，其对中国金融系统的潜在影响可能相当于一个“恒大”，甚至更为严重。
-
-我们仅从肖建华所控制的677家公司数量，就能看出他洗钱的能力有多强。有明天系内部人士回忆说，在公司巅峰时期，仅负责资金收付的出纳就多达上百人。想象一下，一个公司养着上百名员工每天从事资金转移工作，目的只有一个：掏空中国金融系统。
-
-这些公司最终留下的是一笔巨额债务，全部甩给了中国政府。难怪政府必须将肖建华抓回来——钱已经没了，人还能跑吗？
-
-根据《财新》独家披露的数据，在677家公司中，资产总额为428亿元人民币，而负债却高达8,900亿。资产负债率高达惊人的2,088%，导致的净亏损超过八千亿人民币。
-
-然而，债权人申报的债务金额更是高达一亿两千万。也就是说，明天系所欠的债务远超其资产总和。
-
-清算过程中发现，677家公司中现金仅剩约106亿人民币。这些资金是清算管理人在3千多个银行账户中收集，并拍卖了三家村镇银行股权后才勉强凑出来的。而真正有价值的非现金资产包括一些金融机构的股份和艺术品。
-
-这些股权主要集中在富德人寿、广发银行等几家公司上，价值大约三十多亿人民币。其他还包括一些国内艺术家的作品，如娄正刚的80多幅画作。
-
-这些剩余资产最终被打包进一个为期五年的破产信托中，债权人将根据清算结果分得相应的资金。
-
-清算明天系确实是一项庞大的工程。中国政府花了整整九年才完成这一任务。最初三年，明天系试图通过借新债还旧债的方式维持运营，但2019年监管出手直接让包商银行破产。至2020年，明天系的另外九家非银金融机构也被政府接管。
-
-包括华夏人寿、天安财险、新华信托等在内的主要金融机构被共产党接管后，其他关联企业才统一进入破产清算环节。
-
-今天我们看到的这六百多家公司所造成的八千亿账面损失，已经剔除了上述十家金融机构的数据。因此，并非明天系全部的债务窟窿。
-
-根据明天系当年公开数据，其掌控的金融资产超过三万亿。然而如今677家公司剩余资产还不到几百亿，剩下的两万多亿资金究竟去了哪里？
-
-大致有三种可能：其一是转移出境；其二是变成了纸面资产，例如股权和应收账款，在清算时大幅贬值。第三类则是用于“拆东墙补西墙”的资金在借新还旧的过程中被消耗掉了。
-
-财新的报道中特别提到了明天系677家关联公司的应收账款水分问题。根据账面记录，这些公司总应收账款高达两万亿多元人民币，但其中绝大部分是内部资金流转。最终确认的应收金额只有27亿多。
-
-此外，在审计过程中还意外发现，赵薇竟然是一笔三千万人民币应收账款的债务人。原来在2016年，赵薇与明天系公司天津盛华金科签订了一份股权代持协议。2019年，赵薇未能全额支付股权转让款，导致明天系对其拥有3,900万的债权。
-
-这使得赵薇一夜之间成为政府讨债的对象。尽管赵薇夫妇试图与肖建华撇清关系，但账本上的记录已经清楚地揭示了他们之间的资金往来。这不仅暴露了赵薇夫妇在阿里影业和万家文化的资本运作中曾向肖建华借款的事实，也使得她的国内事业几乎宣告终结。
-
-赵薇的前夫黄有龙与肖建华关系密切。2017年肖建华被抓后，赵薇夫妇极力与他划清界限。而如今的账本已经戳破了当年的谎言，赵薇想要在国内复出也几乎不可能了。
-
-有消息称，她的直播间曾被关停，可能是由于3,900万旧债的追讨问题。赵薇想要通过直播赚钱缓解资金压力，但这条路似乎也不太容易走通。
-
-总结而言，从明天系的清算结果来看，在其被中国政府接管的几大金融机构之外，仍有677家关联公司。而这些公司的债权债务总额超过一万亿人民币。
-
-尽管最终确认的债权为七千三百亿，但清算组一年的努力却只搜集到了四百多亿资产。仅从账面数字来看，债权人至少要损失七千亿人民币。
-
-而明天系的债权人都有谁？官方没有透露，但可以推测主要就是金融系统内的机构。例如破產信託管理委员会中出现的保险公司、银行和证券公司，都可以视为相关方。
-
-其中存款保险基金便是为了追讨包商银行的旧账而来。当年包商银行破产时，个人存款50万以内必须全额兑付，这使得基金不得不倒贴了大量资金。
-
-回顾整个事件，我们不禁感叹：一个泥腿子肖建华竟能在国家领导人眼皮底下将中国金融系统掏空，等到问题被发现时，他已掌控四十四家金融机构，并搬走了巨额资金。只留下一个上万亿的债务大坑。
-
-如果中国金融系统某天也“爆雷”，肖建华的责任无疑将被再次追究。大家是否认同这个观点？
-
-好，今天的节目就到这里。如果你喜欢我的节目，请记得点赞、留言和转发，这对我非常有帮助。谢谢大家的收看，我们下期再见！
+本文深入剖析了“明天系”金融帝國的崩潰及其破產清算過程，揭示了其掌門人肖建華如何通過層層嵌套、交叉持股及隱蔽交易，掏空中國金融系統，最終留下超過萬億的巨額壞賬。事件歷時九年，涉及677家關聯公司，動搖了中國金融體系的穩定性。
 
 <details>
 <summary>Original English</summary>
 
-Hello everyone, welcome back to Xiao Cui's political economy program today. Today is February 3rd, Eastern Time Zone of China year 2026,...
+Hello everyone, and welcome back to Xiaocui's Politics and Finance.
+Today is February 3, 2026, Eastern Time.
+On Lunar New Year's Eve, January 28, 2017, Xiao Jianhua, the head of Tomorrow Holdings, was arrested from Hong Kong and brought back to mainland China for trial.
+At this point, the public first learned of the existence of Tomorrow Holdings, this financial empire.
+In the past two years, I specifically produced a program discussing how Xiao Jianhua's Tomorrow Holdings, through layers of nesting, cross-shareholding, hidden transactions, controlled multiple banks, insurance companies, trust institutions, and securities companies in China, effectively moving over a trillion yuan out of China.
+As a result, in 2019, Baoshang Bank, under Tomorrow Holdings, directly collapsed.
+We all know that the "Emperor" most despises these major parasites who empty China, moving assets out while leaving debts in China. This is equivalent to directly stealing the Emperor's money.
+Therefore, even though Xiao Jianhua used methods like acquiring shares in the Emperor's own sister's company to gain favor with the Emperor's family, he ultimately could not escape the Emperor's iron fist.
+So, nine full years have passed since Xiao Jianhua's arrest.
+But during these nine years, the Emperor has not been idle.
+Now, the messy accounts of Tomorrow Holdings are finally being settled.
+So, in this program, let's look at how much wealth Xiao Jianhua actually moved out of China's financial system, how much the Emperor can recover, and the ultimate losses.
+Who were the people involved, and who was harmed by this massive bad debt?
+After Tomorrow Holdings collapsed, the scope of bankruptcy liquidation was ultimately determined by the court to include Tomorrow Holdings Co., Ltd. and 677 other companies.
+This is the largest enterprise merger and bankruptcy case since the implementation of China's bankruptcy law, bar none.
+Many friends may wonder why Tomorrow Holdings ended up involving so many companies. Where did these 677 companies come from? Can ordinary people manage them?
+To answer this question, we must first review how large Tomorrow Holdings' financial map was back then.
+According to incomplete statistics, at its peak, Tomorrow Holdings controlled 9 listed companies.
+And it had stakes in or controlled as many as 44 financial institutions.
+These financial institutions included city commercial banks, securities companies, trust companies, insurance companies, and fund companies.
+In other words, Tomorrow Holdings was a full-license financial empire spanning banking, securities, insurance, trusts, futures, funds, and asset management.
+According to estimates at the time, the financial assets it controlled exceeded 3 trillion yuan.
+You know, when you hold a complete set of financial licenses, it means you almost have a "money-printing ability."
+That is, you don't need to spend a penny of your own money; you can use a "money-grabbing" method to slowly wash all the money in the financial system into your own pockets.
+Banks can give you loans, insurance companies can use public premiums for your investments, trust management and asset management are responsible for providing channels to transfer risks, and securities companies can also help you directly raise funds from the capital market and package assets.
+According to information from judicial authorities, between 2010 and 2017, Tomorrow Holdings and its actual controller, Xiao Jianhua, illegally absorbed funds from the public by issuing wealth management and insurance products through institutions like New Era Trust, Tianan Property Insurance, and Tianan Financial Exchange, totaling 311.6 billion yuan.
+By manipulating Baoshang Bank, funds were transferred to Tomorrow Holdings for its use, and customer funds and entrusted property were arbitrarily utilized, totaling 148.6 billion yuan.
+By manipulating insurance institutions such as Huaxia Life, Tianan Life, and Yi'an Property Insurance, insurance funds were transferred to Tomorrow Holdings for its use, illegally operating funds of 190.9 billion yuan.
+The above funds were mainly used by Xiao Jianhua for acquiring financial institutions, securities trading, and overseas investments.
+The figures officially reported alone show that Xiao Jianhua moved at least 650 billion yuan from financial institutions.
+But this is just the tip of the iceberg.
+In fact, the risks Xiao Jianhua buried in China's financial system are at least equivalent to one Evergrande.
+And because Tomorrow Holdings primarily drained money from financial institutions, the damage to the Emperor might be even more severe than Evergrande.
+Just looking at how many shell companies Xiao Jianhua had tells you how good he was at money laundering.
+677 companies – the liquidation is overwhelming.
+A former insider from Tomorrow Holdings recalled that during the company's peak, there were over a hundred cashiers responsible for fund transfers alone.
+Imagine this scene: a company supporting a hundred cashiers, all doing one thing every day: transferring money between different accounts and financial institutions.
+Ultimately, emptying China.
+So, these companies were just tools for Xiao Jianhua to hollow out China's financial system. The money is long gone, leaving only massive debt for the Emperor.
+No wonder the Emperor was determined to arrest Xiao Jianhua. If the money is gone, how could he let the person responsible escape?
+According to exclusive data disclosed by Caixin, the total assets of these 677 merged and liquidated companies are 42.807 billion yuan, with liabilities exceeding 890 billion yuan, and an asset-liability ratio of up to 2,088.03%. The net loss incurred exceeds 800 billion yuan.
+However, the total amount of claims declared by creditors is as high as 1.23 trillion yuan.
+In other words, the creditors demanding repayment from Tomorrow Holdings claimed 1.23 trillion yuan, but the court could only find assets of 42.8 billion yuan among the liquidating companies.
+Of this 42.8 billion yuan, only 10.68 billion yuan is in cash. This is after the liquidation administrators accumulated funds from over 3,000 bank accounts and auctioned off equity in 3 rural commercial banks to find this small amount of cash.
+The remaining non-cash assets with some value include equity in several financial institutions, such as 6.711% in Fude Life, 6.97% in Guangfa Bank, 9.52% in Great Wall Life, and 7.1% in Xingfu Life. These equities are estimated to be worth around 3 billion yuan.
+Then there are some paintings and calligraphy, mostly works by domestic artists, like Lou Zhenggang's over 80 pieces.
+It's unknown how much they will eventually fetch.
+In any case, these non-cash assets with some value have been packaged into a 5-year bankruptcy trust. Once they are liquidated, the proceeds will be distributed.
+Liquidating Tomorrow Holdings is indeed a monumental task. The Emperor spent a full 9 years on it.
+For the first three years, Tomorrow Holdings tried to survive by borrowing new to repay old debts, trying to deceive the Emperor.
+Finally, in 2019, regulators directly intervened and caused Baoshang Bank to go bankrupt.
+In 2020, regulators took over Tomorrow Holdings' other nine non-bank financial institutions, including Huaxia Life, Tianan Property Insurance, Tianan Life, Yi'an Property Insurance, New Era Trust, Xinhua Trust, New Era Securities, Guosheng Securities, and Guosheng Futures.
+After the major financial institutions were taken over by the Communist Party, the other affiliated enterprises entered the bankruptcy liquidation process uniformly.
+So, the 800 billion yuan in book losses caused by the 677 affiliated enterprises you see now are figures remaining after excluding the aforementioned 10 financial institutions. This is not the entirety of Tomorrow Holdings' debt hole.
+Because according to Tomorrow Holdings' own published figures at the time, the financial assets they controlled exceeded 3 trillion yuan, but now these 677 companies only have a few hundred billion yuan left.
+Where did the remaining over 2 trillion yuan go? It's easy to guess: there are three main destinations.
+The first is transfer out of the country, as this was the true purpose of Tomorrow Holdings' existence.
+The second destination is to become paper assets. Assets like equity and accounts receivable are heavily discounted during liquidation.
+The third destination is that it was burned during the process of borrowing new to repay old debts to stay afloat. To avoid a collapse, they had to shift funds from one place to another, inevitably burning a lot of money.
+Here, Caixin disclosed the extent of the inflation in accounts receivable for Tomorrow Holdings' 677 affiliated companies. According to book records, the total accounts receivable for these 677 companies reached 2.39 trillion yuan.
+However, the vast majority of this was actually internal transfer payments. Among a total of 19,200 receivable items, 11,800 were internal transfers between these 677 companies.
+Therefore, the actual accounts receivable were only 651.766 billion yuan. After write-offs and provision for bad debts, the finally confirmable amount was only 2.745 billion yuan. Here, bad debts accounted for over 600 billion yuan.
+While auditing these companies' accounts receivable, it was also unexpectedly discovered that Zhao Wei was a debtor for a 39 million yuan receivable.
+This immediately made Zhao Wei a target for the Emperor's debt collection.
+It turns out that in December 2016, Zhao Wei and a Tomorrow Holdings company, Tianjin Shenghua Jinke Co., Ltd., signed a nominee shareholding agreement, stipulating that Zhao Wei would act as a nominee to acquire and hold a 4% stake in Zhejiang Xinyi Technology Supply Chain Management Co., Ltd. Xinyi Technology is an e-commerce logistics enterprise and a key warehousing service provider for Tmall Supermarket. In 2025, it was acquired by Alibaba's Cainiao Network.
+In November 2019, Shenghua Jinke and Zhao Wei signed an agreement stipulating that Zhao Wei would sell the nominated shares and pay the transfer fee.
+Theoretically, Zhao Wei should have paid 139 million yuan, but she only paid 100 million yuan, still owing 39 million yuan.
+This debt, the Emperor will definitely demand from Zhao Wei. It's a clear record that cannot be escaped.
+Zhao Wei's ex-husband, Huang Youlong, had close ties with Xiao Jianhua. But after Xiao Jianhua was arrested in 2017, Zhao Wei and her husband vehemently denied any relationship with Xiao Jianhua.
+Now, their past lies have been exposed because the ledgers clearly record the money borrowed from Xiao Jianhua in various capital operations such as Zhao Wei and her husband's investment in Alibaba Pictures and the acquisition of Wanjia Culture, some of which have not been repaid.
+This explains why these old debts are being brought up now, sealing Zhao Wei's fate. She will never be able to recover in China.
+Reportedly, a few days ago, she appeared in her own winery's live-streaming room to sell products, but the live-streaming room was shut down within 10 minutes.
+Perhaps she was being pursued for this old debt of 39 million yuan, hence her desire to make a comeback to ease financial pressure.
+Okay, let's summarize. Based on the current liquidation results of Tomorrow Holdings, we found that in addition to the financial institutions already taken over by the Chinese government, Tomorrow Holdings has 677 affiliated companies.
+Creditors are demanding over 1 trillion yuan in debt. The finally confirmed claims are 730 billion yuan.
+But after a full year of effort by the liquidation team, only 42.8 billion yuan in assets were recovered.
+Based on these book figures alone, creditors will lose at least 700 billion yuan.
+And who are the creditors of Tomorrow Holdings? This is considered a core secret and will not be disclosed by officials.
+But we can all guess that they are mainly financial institutions.
+If you don't believe it, just look at who is on the board of the bankruptcy service trust.
+There's the Deposit Insurance Fund, CITIC Trust, Zhonghui Life, Zhongtai Securities, Huaxia Jiuying, Founder Fubon, and Tai'an Bank.
+The appearance of these names itself indicates that they are related parties and creditors.
+Among them, the Deposit Insurance Fund is there to pursue the old debts of Baoshang Bank. When Baoshang Bank went bankrupt, personal deposits up to 500,000 yuan had to be fully compensated, which caused the Deposit Insurance Fund to lose a lot of money. Naturally, they have to come to claim their debt.
+It's truly miraculous. Xiao Jianhua, a nobody, almost emptied China's financial system under the Emperor's nose.
+By the time the Emperor belatedly realized there was a problem, he already controlled 44 financial institutions and had already moved an unknown amount of assets out, leaving the Emperor with a trillion-yuan debt pit.
+If China's financial system collapses one day, Xiao Jianhua will undoubtedly have contributed to it. What do you all think?
+Okay, that's all for today's program. If you like my program, please remember to like, comment, and share. It will be very helpful to me. Thank you for watching, and we'll see you next time.
 
-[Full English transcript omitted due to length restrictions.]
+</details>
+
+### 肖建華金融帝國的龐大規模與“鈔能力”
+
+明天系在巔峰時期，僅控股的上市公司就有9家，參股控制的金融機構多達44家，涵蓋銀行、證券、保險、信託、期貨、基金、資管等全牌照。其金融資產一度超過3萬億元。擁有全套金融牌照意味著幾乎擁有“鈔能力”，無需自有資金，便能通過金融體系將資金轉移至個人口袋。
+
+<details>
+<summary>Original English</summary>
+
+At its peak, Tomorrow Holdings controlled 9 listed companies and had stakes in or controlled as many as 44 financial institutions, including city commercial banks, securities companies, trust companies, insurance companies, and fund companies.
+In other words, Tomorrow Holdings was a full-license financial empire spanning banking, securities, insurance, trusts, futures, funds, and asset management.
+According to estimates at the time, the financial assets it controlled exceeded 3 trillion yuan.
+You know, when you hold a complete set of financial licenses, it means you almost have a "money-printing ability."
+That is, you don't need to spend a penny of your own money; you can use a "money-grabbing" method to slowly wash all the money in the financial system into your own pockets.
+Banks can give you loans, insurance companies can use public premiums for your investments, trust management and asset management are responsible for providing channels to transfer risks, and securities companies can also help you directly raise funds from the capital market and package assets.
+
+</details>
+
+### 非法吸資與資金轉移的驚人數字
+
+根據司法機關通報，2010年至2017年間，明天控股及其控制人肖建華通過操縱多家機構，非法吸收公眾資金共計3,116億元。此外，還擅自運用客戶資金及受託財產1,486億元，並違法運作保險資金1,909億元。這些資金主要用於收購金融機構、證券交易及海外投資，官方通報的數字顯示肖建華至少從金融機構搬走了6,500億元。這筆債務窟窿因主要掏空金融機構，其危害可能比恆大事件更為嚴重。
+
+<details>
+<summary>Original English</summary>
+
+According to information from judicial authorities, between 2010 and 2017, Tomorrow Holdings and its actual controller, Xiao Jianhua, illegally absorbed funds from the public by issuing wealth management and insurance products through institutions like New Era Trust, Tianan Property Insurance, and Tianan Financial Exchange, totaling 311.6 billion yuan.
+By manipulating Baoshang Bank, funds were transferred to Tomorrow Holdings for its use, and customer funds and entrusted property were arbitrarily utilized, totaling 148.6 billion yuan.
+By manipulating insurance institutions such as Huaxia Life, Tianan Life, and Yi'an Property Insurance, insurance funds were transferred to Tomorrow Holdings for its use, illegally operating funds of 190.9 billion yuan.
+The above funds were mainly used by Xiao Jianhua for acquiring financial institutions, securities trading, and overseas investments.
+The figures officially reported alone show that Xiao Jianhua moved at least 650 billion yuan from financial institutions.
+But this is just the tip of the iceberg.
+In fact, the risks Xiao Jianhua buried in China's financial system are at least equivalent to one Evergrande.
+And because Tomorrow Holdings primarily drained money from financial institutions, the damage to the Emperor might be even more severe than Evergrande.
+
+</details>
+
+### 677家公司破產清算：天文數字的資產負債缺口
+
+明天系爆雷後，法院確定破產清算範圍包含明天控股等677家公司，這是中國破產法實施以來規模最大的企業合併破產案。據財新披露，這677家公司資產總額僅為428.07億元，負債卻超過8,900億元，資產負債率高達2,088.03%，淨損失超過8,000億元。債權人申報債權金額達1.23萬億元，實際可清算資產遠不及債務總額。
+
+<details>
+<summary>Original English</summary>
+
+After Tomorrow Holdings collapsed, the scope of bankruptcy liquidation was ultimately determined by the court to include Tomorrow Holdings Co., Ltd. and 677 other companies.
+This is the largest enterprise merger and bankruptcy case since the implementation of China's bankruptcy law, bar none.
+According to exclusive data disclosed by Caixin, the total assets of these 677 merged and liquidated companies are 42.807 billion yuan, with liabilities exceeding 890 billion yuan, and an asset-liability ratio of up to 2,088.03%. The net loss incurred exceeds 800 billion yuan.
+However, the total amount of claims declared by creditors is as high as 1.23 trillion yuan.
+In other words, the creditors demanding repayment from Tomorrow Holdings claimed 1.23 trillion yuan, but the court could only find assets of 42.8 billion yuan among the liquidating companies.
+
+</details>
+
+### 剩餘資產的拍賣與破產信託
+
+在428億元的總資產中，現金僅剩106.8億元。剩餘非現金資產主要包括富德人壽、廣發銀行等幾家金融機構的股權（價值約30多億元）以及國內藝術家的字畫作品。這些有價值的資產已被打包進一個為期5年的破產信託進行處理，後續收益將用於分配。
+
+<details>
+<summary>Original English</summary>
+
+Of this 42.8 billion yuan in total assets, only 10.68 billion yuan is in cash.
+The remaining non-cash assets with some value include equity in several financial institutions, such as 6.711% in Fude Life, 6.97% in Guangfa Bank, 9.52% in Great Wall Life, and 7.1% in Xingfu Life. These equities are estimated to be worth around 3 billion yuan.
+Then there are some paintings and calligraphy, mostly works by domestic artists, like Lou Zhenggang's over 80 pieces.
+It's unknown how much they will eventually fetch.
+In any case, these non-cash assets with some value have been packaged into a 5-year bankruptcy trust. Once they are liquidated, the proceeds will be distributed.
+
+</details>
+
+### 政府接管與超過2萬億的資金去向成謎
+
+在耗時九年的清算過程中，中國政府逐步接管了明天系旗下的10家主要金融機構，包括包商銀行、華夏人壽等。而677家關聯企業的8,000億元賬面損失，並非明天系全部的債務窟窿，因其巔峰時控制的金融資產超過3萬億元。剩餘的2萬多億資金去向成謎，可能已被轉移出境、變為紙面資產，或在續命過程中被消耗。
+
+<details>
+<summary>Original English</summary>
+
+Liquidating Tomorrow Holdings is indeed a monumental task. The Emperor spent a full 9 years on it.
+For the first three years, Tomorrow Holdings tried to survive by borrowing new to repay old debts, trying to deceive the Emperor.
+Finally, in 2019, regulators directly intervened and caused Baoshang Bank to go bankrupt.
+In 2020, regulators took over Tomorrow Holdings' other nine non-bank financial institutions, including Huaxia Life, Tianan Property Insurance, Tianan Life, Yi'an Property Insurance, New Era Trust, Xinhua Trust, New Era Securities, Guosheng Securities, and Guosheng Futures.
+After the major financial institutions were taken over by the Communist Party, the other affiliated enterprises entered the bankruptcy liquidation process uniformly.
+So, the 800 billion yuan in book losses caused by the 677 affiliated enterprises you see now are figures remaining after excluding the aforementioned 10 financial institutions. This is not the entirety of Tomorrow Holdings' debt hole.
+Because according to Tomorrow Holdings' own published figures at the time, the financial assets they controlled exceeded 3 trillion yuan, but now these 677 companies only have a few hundred billion yuan left.
+Where did the remaining over 2 trillion yuan go? It's easy to guess: there are three main destinations.
+The first is transfer out of the country, as this was the true purpose of Tomorrow Holdings' existence.
+The second destination is to become paper assets. Assets like equity and accounts receivable are heavily discounted during liquidation.
+The third destination is that it was burned during the process of borrowing new to repay old debts to stay afloat. To avoid a collapse, they had to shift funds from one place to another, inevitably burning a lot of money.
+
+</details>
+
+### 應收賬款水分巨大，趙薇成3900萬債務人
+
+財新披露，明天系677家關聯公司應收賬款賬面高達2.39萬億元，但其中絕大部分是內部往來款，實際應收賬款僅6,517.66億元，核銷後確認僅27.45億元，壞賬損失超過6,000億元。審計過程中意外發現，趙薇作為股權代持協議下的債務人，拖欠3,900萬元，這筆舊賬將成為其在中國境內翻身的重大阻礙。
+
+<details>
+<summary>Original English</summary>
+
+Here, Caixin disclosed the extent of the inflation in accounts receivable for Tomorrow Holdings' 677 affiliated companies. According to book records, the total accounts receivable for these 677 companies reached 2.39 trillion yuan.
+However, the vast majority of this was actually internal transfer payments. Among a total of 19,200 receivable items, 11,800 were internal transfers between these 677 companies.
+Therefore, the actual accounts receivable were only 651.766 billion yuan. After write-offs and provision for bad debts, the finally confirmable amount was only 2.745 billion yuan. Here, bad debts accounted for over 600 billion yuan.
+While auditing these companies' accounts receivable, it was also unexpectedly discovered that Zhao Wei was a debtor for a 39 million yuan receivable.
+This immediately made Zhao Wei a target for the Emperor's debt collection.
+It turns out that in December 2016, Zhao Wei and a Tomorrow Holdings company, Tianjin Shenghua Jinke Co., Ltd., signed a nominee shareholding agreement, stipulating that Zhao Wei would act as a nominee to acquire and hold a 4% stake in Zhejiang Xinyi Technology Supply Chain Management Co., Ltd. Xinyi Technology is an e-commerce logistics enterprise and a key warehousing service provider for Tmall Supermarket. In 2025, it was acquired by Alibaba's Cainiao Network.
+In November 2019, Shenghua Jinke and Zhao Wei signed an agreement stipulating that Zhao Wei would sell the nominated shares and pay the transfer fee.
+Theoretically, Zhao Wei should have paid 139 million yuan, but she only paid 100 million yuan, still owing 39 million yuan.
+This debt, the Emperor will definitely demand from Zhao Wei. It's a clear record that cannot be escaped.
+Zhao Wei's ex-husband, Huang Youlong, had close ties with Xiao Jianhua. But after Xiao Jianhua was arrested in 2017, Zhao Wei and her husband vehemently denied any relationship with Xiao Jianhua.
+Now, their past lies have been exposed because the ledgers clearly record the money borrowed from Xiao Jianhua in various capital operations such as Zhao Wei and her husband's investment in Alibaba Pictures and the acquisition of Wanjia Culture, some of which have not been repaid.
+This explains why these old debts are being brought up now, sealing Zhao Wei's fate. She will never be able to recover in China.
+Reportedly, a few days ago, she appeared in her own winery's live-streaming room to sell products, but the live-streaming room was shut down within 10 minutes.
+Perhaps she was being pursued for this old debt of 39 million yuan, hence her desire to make a comeback to ease financial pressure.
+
+</details>
+
+### 債權人與明天系對中國金融系統的深遠影響
+
+明天系的債權人主要為金融機構，包括存款保險基金、中信信託、華夏人壽等。此次清算導致債權人至少損失7,000億元。肖建華巧妙利用中國金融系統的漏洞，在被察覺前已建立龐大金融版圖，其行為對中國金融系統的穩定性造成了深遠影響，是潛在的爆雷因素之一。
+
+<details>
+<summary>Original English</summary>
+
+Okay, let's summarize. Based on the current liquidation results of Tomorrow Holdings, we found that in addition to the financial institutions already taken over by the Chinese government, Tomorrow Holdings has 677 affiliated companies.
+Creditors are demanding over 1 trillion yuan in debt. The finally confirmed claims are 730 billion yuan.
+But after a full year of effort by the liquidation team, only 42.8 billion yuan in assets were recovered.
+Based on these book figures alone, creditors will lose at least 700 billion yuan.
+And who are the creditors of Tomorrow Holdings? This is considered a core secret and will not be disclosed by officials.
+But we can all guess that they are mainly financial institutions.
+If you don't believe it, just look at who is on the board of the bankruptcy service trust.
+There's the Deposit Insurance Fund, CITIC Trust, Zhonghui Life, Zhongtai Securities, Huaxia Jiuying, Founder Fubon, and Tai'an Bank.
+The appearance of these names itself indicates that they are related parties and creditors.
+Among them, the Deposit Insurance Fund is there to pursue the old debts of Baoshang Bank. When Baoshang Bank went bankrupt, personal deposits up to 500,000 yuan had to be fully compensated, which caused the Deposit Insurance Fund to lose a lot of money. Naturally, they have to come to claim their debt.
+It's truly miraculous. Xiao Jianhua, a nobody, almost emptied China's financial system under the Emperor's nose.
+By the time the Emperor belatedly realized there was a problem, he already controlled 44 financial institutions and had already moved an unknown amount of assets out, leaving the Emperor with a trillion-yuan debt pit.
+If China's financial system collapses one day, Xiao Jianhua will undoubtedly have contributed to it. What do you all think?
+Okay, that's all for today's program. If you like my program, please remember to like, comment, and share. It will be very helpful to me. Thank you for watching, and we'll see you next time.
 
 </details>
