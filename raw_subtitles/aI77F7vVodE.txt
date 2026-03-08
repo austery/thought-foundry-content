@@ -1,0 +1,262 @@
+[Speaker 0]: 本期视频继续为大家分享 open cloud 高级用法。
+[Speaker 0]: 在之前的视频中，
+[Speaker 0]: 我为大家分享过我开发的这款用于提升 open cloud 记忆能力的插件。
+[Speaker 0]: 本期视频为大家分享我开发的另一款用于 open cloud 插件，
+[Speaker 0]:  open cloud a to a gateway 这款。
+[Speaker 0]: 插件的功能和作用就是用于解决同机器上不同 opopen cloud 之间的通信和交互问题。
+[Speaker 0]: 而且在同一个设备上，
+[Speaker 0]: 不同 gateway 之间的 bot 也能通过 a to a 协议进行交互。
+[Speaker 0]: 本期视频的点赞如果破千的话，
+[Speaker 0]: 下期视频我将为大家分享 open 更实用、
+[Speaker 0]: 更高级的技巧。
+[Speaker 0]: 因为现在 clouopen cloud 越来越火，
+[Speaker 0]: 很多 open 的用户可能部署了多个 clouopen。
+[Speaker 0]: 比如说在自己工作的机器上部署了 clouopen，
+[Speaker 0]: 还在远程服务器上部署了 clouopen，
+[Speaker 0]: 或者是在 cloumac mini 上也部署了 open。
+[Speaker 0]: 在这种场景下，
+[Speaker 0]: 不同设备上的 clouopen 想进行交互进行协作，
+[Speaker 0]: 还是非常麻烦的。
+[Speaker 0]: 像传统方式，
+[Speaker 0]: 大家会将不同的 open 拉入同一个群组，
+[Speaker 0]: 让 clouopen 在群组中进行互相交互与协作。
+[Speaker 0]: 但这种传统的将不同机器上不同 clouopen cloud boat 拉入同一个群组中的方式，
+[Speaker 0]: 而有很多缺点和弊端。
+[Speaker 0]: 比如说会导致消息风暴，
+[Speaker 0]: 甚至会导致死循环，
+[Speaker 0]: 而且无法实现精准的消息路由。
+[Speaker 0]: 还有就是在群组中，
+[Speaker 0]: 它只支持纯文本消息，
+[Speaker 0]: 而且没有有效的认证。
+[Speaker 0]: 还有安全机制在群组中发送一条消息。
+[Speaker 0]: 那么所有的 boat 都可见，
+[Speaker 0]: 还有就是没有任务的生命周期，
+[Speaker 0]: 还有超时机制，
+[Speaker 0]: 而且会导致上下文污染，
+[Speaker 0]: 还有 token 的浪费。
+[Speaker 0]: 所以在群组中拉多个 boat 进行讨论，
+[Speaker 0]: 这种方式并不是最合理的方式，
+[Speaker 0]: 也不是 open cloud 最佳实践。
+[Speaker 0]: 所以在这种情况下，
+[Speaker 0]: 我们就可以使用 a to a 协议，
+[Speaker 0]: 让 agent 与 agenent 之间通过 a to a 协议进行交互。
+[Speaker 0]: 采用 a to a 协议，
+[Speaker 0]: 就可以让不同 open cloud 之间的 boat 互相通信，
+[Speaker 0]: 互相交互，
+[Speaker 0]: 甚至互相操作，
+[Speaker 0]: 能完全替代。
+[Speaker 0]: 我们在群组中实现了这种多 boat 进行交流的方式，
+[Speaker 0]: 而且能够实现点对点精准路由还支持结构化输出与输入，
+[Speaker 0]: 还支持认证与安全，
+[Speaker 0]: 具备完整的任务生命周期。
+[Speaker 0]:  agent 与 agent 之间可以自动发现，
+[Speaker 0]: 而且具备上下文隔离，
+[Speaker 0]: 每个任务都有独立干净的上下文，
+[Speaker 0]: 能够大幅度节省我们的 token。
+[Speaker 0]: 而这种在群组中拉多个 boat 进行讨论的传统方式，
+[Speaker 0]: 会无端增加我们的 token 消耗。
+[Speaker 0]: 好，
+[Speaker 0]: 下面我们可以先看一下，
+[Speaker 0]: 在 open cloud 中，
+[Speaker 0]: 通过 a to e 协议，
+[Speaker 0]: 让不同 open cloud boat 进行通信的效果。
+[Speaker 0]: 首先这个是我最常用的主 boat，
+[Speaker 0]: 我会让它处理各种综合性的问题。
+[Speaker 0]: 然后在这里为了测试 a to a 之间的通信，
+[Speaker 0]: 我单独在一个设备上又安装了一个 open cloud。
+[Speaker 0]: 然后这个 boat 就是我另一台设备上的 open cloud 主 boat。
+[Speaker 0]: 下面我们可以先问一下这两个 boat，
+[Speaker 0]: 他们所在设备的公网 IP 是什么？
+[Speaker 0]: 相见的话就能通过 IP 来区分这两个 boat 运行在不同的设备上好，
+[Speaker 0]: 这是他给出的他的公网 IP。
+[Speaker 0]: 然后我们再看一下另一个他的公网 IP 是这一个这两个 boat 运行在不同的设备上。
+[Speaker 0]: 然后我们就可以测试一下，
+[Speaker 0]: 让这两个 boat 通过 a to a 协议进行交流。
+[Speaker 0]: 这个 a to a 插件，
+[Speaker 0]: 我已经为这两个 boat 都安装好了。
+[Speaker 0]: 下面我们可以先测试一下，
+[Speaker 0]: 然后我们可以直接输入提示词，
+[Speaker 0]: 让他们讨论一个问题。
+[Speaker 0]: 我输入的提示词是通过 a to a 和 server a 的 main agent 讨论二零二六年 AI agent 的最终形态，
+[Speaker 0]: 然后直接发送。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 他就会通过我们这个插件的 a to a 协议与这一个设备上的主 agent 进行交互。
+[Speaker 0]: 好，
+[Speaker 0]: 这里他很快给出了回答这里，
+[Speaker 0]: 他说，
+[Speaker 0]:  server a 的 main agent 回复了，
+[Speaker 0]: 这里是 server a 的 main agent 和关联。
+[Speaker 0]: 下面我们还可以在这个 boat 中，
+[Speaker 0]: 让他向这个 boat 发送指令，
+[Speaker 0]: 或者让他们进进行交流。
+[Speaker 0]: 然后我们回到这个 boat，
+[Speaker 0]: 然后我们就可以输入提示词。
+[Speaker 0]: 我输入的是通过 a to a 和 server b 讨论 AI coding 的发展趋势，
+[Speaker 0]: 要求进行三轮讨论，
+[Speaker 0]: 并将讨论过程和结果都展示给我。
+[Speaker 0]: 然后我们直接发送与这样的话，
+[Speaker 0]: 我们就让运运行在这台设备上的这个 bot，
+[Speaker 0]: 通过 a two a 协议与运行在另一台设备上的 bot 进行通信。
+[Speaker 0]: 让他们讨论。
+[Speaker 0]: 我们告诉他的这个话题，
+[Speaker 0]:  AI coding 的发展趋势。
+[Speaker 0]: 这样的的话他就会遵循我们这个任务进行三轮的讨论。
+[Speaker 0]: 好，
+[Speaker 0]: 这里他输出了他们讨论内容，
+[Speaker 0]: 我们可以看一一下，
+[Speaker 0]: 他这给给了讨论的话，
+[Speaker 0]: 话题，
+[Speaker 0]: 也就是 AI ding ding 的发展趋势。
+[Speaker 0]: 参与方就是本机 opopen、
+[Speaker 0]:  clown，
+[Speaker 0]: 还有另一台服务器的 open clck，
+[Speaker 0]: 通过 a to a 协议进行了三轮对话。
+[Speaker 0]: 第一轮是 server a 他提出的议题，
+[Speaker 0]: 然后 server b 给出的核心观点，
+[Speaker 0]: 第二轮是深入挑战与辩论。
+[Speaker 0]: 这里是 server b 给出的深入分析，
+[Speaker 0]: 这里就是第三轮的讨论，
+[Speaker 0]: 包括实践建议，
+[Speaker 0]: 还有未来预测。
+[Speaker 0]: 这里给出了三大可执行建议，
+[Speaker 0]: 最后这里就是给出的共识，
+[Speaker 0]: 他们的共识就是 AI 不会让开发者失业。
+[Speaker 0]: 最有竞争力的人是既能手写代码，
+[Speaker 0]: 又能用 AI 放大效率，
+[Speaker 0]: 还能在 AI 犯错时一眼看穿的人。
+[Speaker 0]: 他们达成了这个共识，
+[Speaker 0]: 还是比较有深度的。
+[Speaker 0]: 这样的话，
+[Speaker 0]: 我们就通过 a to a 协议，
+[Speaker 0]: 让这两个完全不在一台设备上的 bot，
+[Speaker 0]: 对我们给出的话题进行了深入的讨论，
+[Speaker 0]: 而且完成成了三轮讨论。
+[Speaker 0]: 而且我们还可以让这个 boat 为 server b 的这个 boat 发送指令让它去执行。
+[Speaker 0]: 也可以让 server b 的 about 为 server a 发送指令让他去执行。
+[Speaker 0]: 下面我们就在 server b 中来测试一下，
+[Speaker 0]: 我们在这里输入一个任务。
+[Speaker 0]: 我输入的提示词是让 server a 列出它在调用 cloud code 执行编程任务时用到的 skill，
+[Speaker 0]: 我们直接发送。
+[Speaker 0]: 好，
+[Speaker 0]: 这里列出的就是这一个 boat 中在调用 cloud code 的时候可以使用的 skill。
+[Speaker 0]: 这里包括我在之前的视频中为大家讲到的这个 skill，
+[Speaker 0]: 还包括这一个 skill。
+[Speaker 0]: 然后我们就可以回到这一个 bot，
+[Speaker 0]: 然后用斜杠命令查看一下是否包含刚才列出的这个 skill。
+[Speaker 0]: 好，
+[Speaker 0]: 可以看到这里包含这两个关于调用 cloud code 相关的 skill，
+[Speaker 0]: 这个是完全没有问题的。
+[Speaker 0]: 然后我们还可以在这个设备的 bot 中，
+[Speaker 0]: 让它向这个设备发送指令。
+[Speaker 0]: 我说的起示词就是让 server b 执行 who MI 命令来查看它的权限。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 我们这一个 open cloud 会通过通过 a to a 向另一台设备的 open cloud boat，
+[Speaker 0]: 让他执行这个系统命令的任务。
+[Speaker 0]: 好，
+[Speaker 0]: 这里他提到 server b 他已经恢复了，
+[Speaker 0]: 这里是执行的结果。
+[Speaker 0]: 然后他提到 server b 它有速度权限。
+[Speaker 0]: 好，
+[Speaker 0]: 这样的话，
+[Speaker 0]: 我们既可以让不同设备上的 boat 通过 a to a 协议进行交流进行对话，
+[Speaker 0]: 还可以让他们互相派发任务。
+[Speaker 0]: 好，
+[Speaker 0]: 下面我们就可以看一下什么是 a to a 协议。
+[Speaker 0]: 它是谷歌官方去年上半年发布的协议，
+[Speaker 0]: 用来解决 AI 智能体之间相互操作性问题，
+[Speaker 0]: 让不同背景或者不同框架的智能体能够实现跨平台通信安全交互信息并协调行动，
+[Speaker 0]: 从而自动化复杂的企业工作流，
+[Speaker 0]: 而且它具备任务生命周期。
+[Speaker 0]: 所以我基于谷歌的 a to ASDKK 为 open clwn 构建了这一个用于 a to a 通信的插件。
+[Speaker 0]: 因为 open 默认了这些功能，
+[Speaker 0]: 在跨机跨 clougteway 的时候，
+[Speaker 0]: 效果并不是非常理想，
+[Speaker 0]: 而且无法构建分布式 a 智能框架。
+[Speaker 0]: 所有了这个插件，
+[Speaker 0]: 我们就可以让我们不同设备的 open cloud 实现 p to p 对等网络。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 任意两个 gateway 都是平等互联，
+[Speaker 0]: 像它的优势就是去中心化，
+[Speaker 0]: 不会产生单点故障。
+[Speaker 0]: 而且我们采用的是 a to AV 零点三开放标准。
+[Speaker 0]: 想使用这个插件非常简单，
+[Speaker 0]: 在 read me 中有详细的说明文档和配置方式。
+[Speaker 0]: 然后大家只需要复制这个仓库的链接，
+[Speaker 0]: 在你的 open cloud 中就可以直接输入提示词，
+[Speaker 0]: 让它深入阅读这这个项目的安装说明，
+[Speaker 0]: 然后执行安装。
+[Speaker 0]: 在这里我们就告诉他，
+[Speaker 0]: 这个项目的仓库链接就可以。
+[Speaker 0]: 大家如果让自己的 open 进行安装的话，
+[Speaker 0]: 一定要确保给自己的 clouopen en oud 装一个比较强大的模型。
+[Speaker 0]: 我这里给 open en class 使用的模型是 cloud ops 四点六模型，
+[Speaker 0]: 而且这个思考级别要选成 high open，
+[Speaker 0]: 在安装的过程中就不会出现意外的错误。
+[Speaker 0]: 如果选择的模型比较弱的话，
+[Speaker 0]: 它执行这种安装过程的时候就很容易出错。
+[Speaker 0]: 然后大家如果不想使用 open cloud 进行安装的话，
+[Speaker 0]: 也可以使用 codex 为你的 open cloud 进行安装。
+[Speaker 0]: 在 codex 这里可以选择 GB 五点四模型，
+[Speaker 0]: 然后思考级别可以开成 high，
+[Speaker 0]: 然后还是输入我们刚才的提示词，
+[Speaker 0]: 然后发送给他。
+[Speaker 0]: 然后 codex 就会为你自主安装，
+[Speaker 0]: 还可以使用 cloud code 为你进行安装。
+[Speaker 0]: 然后 cloud code 还有 codex 你都没有的话，
+[Speaker 0]: 那么也可以直接使用谷歌的 anti gravity 为你进送安装。
+[Speaker 0]: 然后输入的提示词和我们刚才保持一致，
+[Speaker 0]: 就可以当不同设备安装好之后，
+[Speaker 0]: 想让他们进行配对的话，
+[Speaker 0]: 我们可以直接在 open cloud 中来询问如何进行配对。
+[Speaker 0]: 我说的提示词就是我如果在第三个设备上安装了这个插件，
+[Speaker 0]: 那么你所在的这台设备如何通过 a to a 和第三个设备进行配对，
+[Speaker 0]: 让他给出明确的步骤。
+[Speaker 0]: 并且当遇到不明确的地方的时候，
+[Speaker 0]: 就让他阅读官方文档。
+[Speaker 0]: 然后我们直接发送这个配对步骤。
+[Speaker 0]: 我们也可以直接让 open cloud 给出这个步骤，
+[Speaker 0]: 甚至让他协助我们进行配对。
+[Speaker 0]: 好，
+[Speaker 0]: 这里他给出了我们这个详详细的这一些配置步骤。
+[Speaker 0]: 这里给出了这些前置条件，
+[Speaker 0]: 还有这些具体的命令。
+[Speaker 0]: 然后大家如果不想自己去按照这个步骤去操作的话，
+[Speaker 0]: 下面我们还是可以让 open class 为我们自己去操作。
+[Speaker 0]: 然后我们就可以告诉他要配对设备的这些 SSH 的 IP 用户名，
+[Speaker 0]: 还有密码，
+[Speaker 0]: 在这里再给他加一句 SSH 信息，
+[Speaker 0]: 告诉你了，
+[Speaker 0]: 你来为我操作配对吧。
+[Speaker 0]: 然后我们就可以点击发送，
+[Speaker 0]: 让 open 帮我们操作进行配对。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 就不需要我我们手动去执行这些复杂的命令。
+[Speaker 0]: 操作完全由 open 或者由其他的 cloua i 编程助手，
+[Speaker 0]: 比如说 cloud code、
+[Speaker 0]:  codex、
+[Speaker 0]:  ann i gravity 等，
+[Speaker 0]: 帮我们去完成这些配对。
+[Speaker 0]: 当安装好并且配对成功之后，
+[Speaker 0]: 我们需要设置一下 open 这一个文件里的内容。
+[Speaker 0]: 因为 clouopen 会加载这个文件里的内容，
+[Speaker 0]: 然后我们就可以将 cloua to a 的这一些配对信息写入到这个文件中。
+[Speaker 0]: 这样的话，
+[Speaker 0]: 我们的 open 它就知道了，
+[Speaker 0]: 可以通过 cloua to a 协议与其他他设备上的 agent 进行通信。
+[Speaker 0]: 像这样的话，
+[Speaker 0]: 我们就可以替代传统方式中的将多个 boat 拉入一个群组，
+[Speaker 0]: 然后让他们在群组中讨论。
+[Speaker 0]: 而我们使用谷歌 a to a 协议构建的这个 open clour 插件，
+[Speaker 0]: 我就能真正帮我们实现跨机、
+[Speaker 0]: 跨 gateway、
+[Speaker 0]: 多 agent 之间相互通信。
+[Speaker 0]: 好，
+[Speaker 0]: 这个 a to a 插件的项目仓库的链接，
+[Speaker 0]: 我会放在视频下方的描述栏或者评论区。
+[Speaker 0]: 欢迎大家积极递交 PR。
+[Speaker 0]: 我会将递交高质量 PR 的开发者加入到这个项目的合作者。
+[Speaker 0]: 好，
+[Speaker 0]: 本期视频就做到这里，
+[Speaker 0]: 欢迎大家点赞、
+[Speaker 0]: 关注和转发，
+[Speaker 0]: 谢谢大家观看。
