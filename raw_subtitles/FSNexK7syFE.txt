@@ -1,0 +1,6270 @@
+From
+ the
+ New
+ York
+ Times,
+ I'm
+ Natalie
+
+
+Kitroof.
+ This
+ is
+ the
+ Daily.
+
+
+As
+ the
+ US
+ bombardment
+ of
+ Iran
+ has
+
+
+escalated,
+ it's
+ become
+ increasingly
+
+
+clear
+ just
+ how
+ much
+ the
+ US
+ military
+ has
+
+
+been
+ relying
+ on
+ sophisticated
+ artificial
+
+
+intelligence.
+ And
+ that's
+ made
+ the
+
+
+Defense
+ Department's
+ bitter
+ fight
+ with
+
+
+the
+ AI
+ giant
+ Anthropic
+ over
+ who
+ controls
+
+
+that
+ technology
+ one
+ of
+ the
+ most
+
+
+highstakes
+ strategic
+ battles
+ of
+ our
+
+
+time.
+
+
+Today,
+ my
+ colleague
+ Shira
+ Frankle
+ on
+ the
+
+
+standoff
+ between
+ the
+ Trump
+
+
+administration
+ and
+ Anthropic
+ and
+ what
+ it
+
+
+really
+ reveals
+ about
+ the
+ future
+ of
+
+
+warfare.
+ It's
+ Monday,
+ March
+ 9th.
+
+
+Shira,
+ it's
+ wonderful
+ to
+ have
+ you
+ back
+
+
+on
+ the
+ daily.
+
+
+>> Thank
+ you
+ for
+ having
+ me.
+
+
+>> So,
+ as
+ this
+ war
+ in
+ the
+ Middle
+ East
+ has
+
+
+progressed,
+ we've
+ been
+ hearing
+ more
+ and
+
+
+more
+ about
+ the
+ US
+ using
+ AI
+ and
+ its
+
+
+attacks
+ on
+ Iran.
+ It's
+ one
+ of
+ the
+ first
+
+
+times
+ really
+ where
+ this
+ technology
+ is
+
+
+very
+ clearly
+ having
+ a
+ practical
+
+
+application
+ for
+ the
+ US
+ military.
+ we
+ are
+
+
+seeing
+ it
+ in
+ action
+ and
+ at
+ the
+ same
+ time
+
+
+in
+ the
+ background
+ there
+ has
+ been
+ this
+
+
+ongoing
+ bubbling
+ battle
+ over
+ the
+ use
+ of
+
+
+that
+ technology.
+ So
+ we're
+ going
+ to
+ get
+
+
+into
+ the
+ specifics
+ of
+ all
+ of
+ that
+ but
+
+
+first
+ can
+ you
+ just
+ lay
+ out
+ what
+ this
+
+
+fight
+ is
+ fundamentally
+ about?
+
+
+>> Well
+ this
+ fight
+ is
+ so
+ much
+ bigger
+ than
+
+
+one
+ company
+ and
+ this
+ particular
+ moment
+
+
+with
+ the
+ Pentagon.
+ It's
+ really
+ about
+ the
+
+
+future
+ of
+ warfare
+ and
+ the
+ role
+ that
+ AI
+
+
+is
+ going
+ to
+ play
+ in
+ war.
+ Right
+ now
+ in
+
+
+the
+ Middle
+ East,
+ as
+ the
+ US
+ looks
+ for
+
+
+targets
+ to
+ strike,
+ it
+ is
+ using
+
+
+anthropics
+ technology
+ to
+ analyze
+
+
+intelligence,
+ analyze
+ satellite
+ imagery,
+
+
+and
+ figure
+ out
+ where
+ it
+ wants
+ to
+ hit.
+ AI
+
+
+can
+ analyze
+ data
+ for
+ the
+ military
+ faster
+
+
+than
+ a
+ human
+ being
+ possibly
+ could.
+ It's
+
+
+proving
+ its
+ worthiness
+ every
+ single
+ day.
+
+
+And
+ so
+ in
+ a
+ sense,
+ these
+ private
+
+
+technology
+ companies
+ based
+ in
+ Silicon
+
+
+Valley
+ and
+ the
+ Pentagon
+ need
+ each
+ other
+
+
+more
+ than
+ ever.
+ But
+ there's
+ a
+ question
+
+
+about
+ how
+ they're
+ going
+ to
+ work
+ together
+
+
+going
+ forward.
+
+
+>> Mhm.
+ We
+ all
+ hurdle
+ towards
+ this
+ vision
+
+
+of
+ robot
+ wars
+ of,
+ you
+ know,
+ AI
+ backed
+
+
+weapons,
+ fighting
+ AI
+ backed
+ weapons.
+
+
+They're
+ trying
+ to
+ figure
+ out
+ who
+ gets
+ to
+
+
+say
+ what's
+ safe
+ and
+ what's
+ not.
+ So
+ on
+
+
+one
+ side
+ you
+ have
+ these
+ private
+ Silicon
+
+
+Valley
+ companies.
+ You
+ have
+ Enthropic,
+
+
+which
+ is
+ the
+ first
+ AI
+ company
+ that
+ was
+
+
+authorized
+ to
+ work
+ on
+ classified
+ US
+
+
+military
+ systems.
+ You
+ have
+ OpenAI,
+ which
+
+
+is
+ this
+ behemoth
+ of
+ AI
+ companies.
+ You
+
+
+have
+ longstanding
+ companies
+ like
+ Google
+
+
+and
+ Microsoft,
+ which
+ have
+ AI
+ divisions.
+
+
+So,
+ you
+ really
+ have
+ a
+ number
+ of
+ very
+
+
+powerful
+ companies
+ in
+ the
+ valley
+ that
+
+
+want
+ to
+ do
+ business
+ with
+ the
+ Pentagon
+
+
+and
+ are
+ in
+ some
+ cases
+ doing
+ some
+
+
+business
+ with
+ the
+ Pentagon
+ figuring
+ out
+
+
+how
+ to
+ navigate
+ that
+ relationship.
+ And
+
+
+on
+ the
+ other
+ side,
+ you
+ have
+ the
+
+
+Pentagon,
+ which
+ is
+ thinking
+ about
+ this
+
+
+global
+ AI
+ arms
+ race
+ against
+ China,
+ Iran,
+
+
+and
+ Russia,
+ and
+ how
+ America
+ is
+ going
+ to
+
+
+fair
+ in
+ that.
+
+
+>> And
+ just
+ to
+ get
+ a
+ lay
+ of
+ the
+ land
+ here,
+
+
+can
+ you
+ just
+ explain
+ how
+ the
+ Pentagon
+ is
+
+
+broadly
+ making
+ use
+ of
+ this
+ technology,
+
+
+what
+ function
+ it
+ plays?
+
+
+>> So,
+ right
+ now,
+ AI
+ plays
+ a
+ huge
+ role
+ in
+
+
+what's
+ called
+ sigant
+ or
+ signals
+
+
+intelligence.
+ What
+ I
+ mean
+ by
+ that
+ is
+
+
+that
+ the
+ military
+ at
+ any
+ given
+ time
+ is
+
+
+ingesting
+ an
+ incredible
+ amount
+ of
+ data.
+
+
+Text
+ messages,
+ postings
+ on
+ social
+ media
+
+
+pages,
+ phone
+ calls,
+ all
+ of
+ this
+ is
+
+
+intelligence
+ that's
+ gathered
+ by
+ the
+
+
+military
+ and
+ then
+ used
+ to
+ make
+ critical
+
+
+decisions.
+ Now,
+ in
+ the
+ past,
+ there
+ was
+ a
+
+
+room
+ full
+ of
+ human
+ beings
+ that
+ would
+
+
+have
+ to
+ sit
+ there
+ and
+ analyze
+ all
+ this
+
+
+intelligence.
+ But
+ now,
+ we
+ have
+ AI,
+ and
+
+
+this
+ is
+ exactly
+ what
+ AI
+ is
+ really
+ good
+
+
+at.
+ It
+ ingests
+ data,
+ and
+ then
+ it
+ tells
+
+
+you,
+ here's
+ an
+ important
+ note
+ you
+ should
+
+
+take
+ out
+ of
+ this.
+ Here's
+ my
+ summary.
+
+
+here's
+ one
+ phone
+ call
+ that's
+ better
+ than
+
+
+all
+ the
+ other
+ phone
+ calls
+ that
+ you
+
+
+should
+ actually
+ be
+ listening
+ to.
+ And
+ so
+
+
+this
+ is
+ critically
+ important
+ right
+ now
+
+
+in
+ the
+ Middle
+ East
+ where
+ we're
+ seeing
+
+
+this
+ AI
+ technology
+ being
+ used.
+ But
+
+
+spinning
+ forward,
+ it's
+ only
+ going
+ to
+
+
+become
+ more
+ important
+ as
+ AI
+ gets
+ better
+
+
+and
+ better
+ and
+ the
+ military
+ wants
+ to
+
+
+integrate
+ it
+ into
+ more
+ parts
+ of
+ it
+
+
+weapons
+ arsenal.
+
+
+>> Okay.
+ So
+ a
+ hugely
+ important
+ debate
+
+
+happening
+ at
+ a
+ very
+ important
+ time.
+ Just
+
+
+orient
+ us,
+ Shar.
+ How
+ did
+ this
+ whole
+
+
+fight
+ start?
+
+
+It
+ actually
+ starts
+ in
+ this
+ very
+
+
+positive,
+ optimistic
+ way
+ in
+ that
+ the
+
+
+Pentagon
+ issues
+ a
+ call
+ out
+ last
+ year
+
+
+saying
+ it
+ wants
+ to
+ introduce
+ AI.
+ It
+
+
+invites
+ all
+ these
+ AI
+ companies
+ to
+
+
+basically
+ come
+ into
+ the
+ military
+ and
+
+
+show
+ them
+ how
+ they
+ can
+ be
+ helpful.
+ How
+
+
+can
+ the
+ Pentagon,
+ the
+ Department
+ of
+
+
+Defense
+ start
+ integrating
+ AI
+ into
+ its
+
+
+own
+ systems?
+ And
+ they
+ immediately
+ get
+ a
+
+
+lot
+ of
+ takers.
+ You've
+ got
+ Silicon
+
+
+Valley's
+ biggest
+ AI
+ companies,
+ Google,
+
+
+XAI,
+ Anthropic,
+ and
+ OpenAI
+ all
+ raise
+
+
+their
+ hands
+ and
+ say,
+ "We
+ want
+ to
+
+
+participate.
+ We
+ want
+ to
+ work
+ with
+ the
+
+
+Pentagon."
+ And
+ of
+ all
+ the
+ AI
+ companies
+
+
+that
+ begin
+ working
+ with
+ the
+ Pentagon,
+
+
+Enthropic
+ emerges
+ as
+ kind
+ of
+ the
+ best
+
+
+and
+ the
+ most
+ seamlessly
+ integrated
+ into
+
+
+the
+ Pentagon
+ systems.
+ It's
+ working
+ with
+
+
+Palunteer,
+ this
+ data
+ analytics
+ company.
+
+
+It's
+ one
+ of
+ the
+ only
+ ones
+ that
+ is
+
+
+approved
+ to
+ work
+ on
+ classified
+ systems.
+
+
+And
+ so
+ people
+ across
+ the
+ DoD
+ tell
+ us
+
+
+that
+ it
+ really
+ quickly
+ became
+ absolutely
+
+
+fundamental
+ to
+ their
+ work
+ and
+ made
+ their
+
+
+lives
+ easier.
+
+
+>> Okay,
+ so
+ I
+ just
+ want
+ to
+ pause
+ here
+
+
+because
+ from
+ what
+ I
+ know
+ of
+ Anthropic,
+
+
+this
+ is
+ a
+ company
+ that
+ brands
+ itself
+ as
+
+
+the
+ socially
+ responsible
+ AI
+ company,
+ the
+
+
+company
+ that
+ emphasizes
+ AI
+ safety
+ a
+ lot.
+
+
+And
+ so
+ it's
+ just
+ kind
+ of
+ interesting
+ to
+
+
+me
+ to
+ hear
+ that
+ they
+ were
+ the
+ first
+ ones
+
+
+to
+ be
+ so
+ embedded
+ within
+ the
+ US
+
+
+military.
+
+
+>> That's
+ true.
+ This
+ is
+ a
+ company
+ that
+ was
+
+
+founded
+ by
+ people
+ who
+ left
+ OpenAI
+
+
+because
+ they
+ wanted
+ a
+ safer
+ AI
+ company.
+
+
+They
+ said
+ they
+ wanted
+ more
+ safeguards.
+ I
+
+
+mean,
+ this
+ is
+ their
+ entire
+ premise
+ and
+
+
+how
+ they
+ draw
+ employees
+ to
+ work
+ there.
+
+
+What
+ they
+ also
+ are,
+ however,
+ is
+ a
+
+
+company
+ that
+ really
+ believes
+ in
+ working
+
+
+with
+ the
+ government.
+ We've
+ seen
+ their
+
+
+top
+ executives
+ say
+ that
+ they
+ think
+ AI
+
+
+can
+ make
+ our
+ country
+ safer.
+ It
+ can
+ help
+
+
+the
+ US
+ military
+ defend
+ against
+
+
+adversaries.
+ They
+ are
+ by
+ all
+ accounts
+
+
+deeply
+ patriotic
+ as
+ well.
+ And
+ so
+ while
+
+
+the
+ two
+ things
+ don't
+ seem
+ to
+ naturally
+
+
+go
+ handinand,
+ I
+ think
+ in
+ the
+ minds
+ of
+
+
+their
+ chief
+ executives,
+ at least
+ from
+
+
+people
+ that
+ are
+ sitting
+ in
+ the
+ room
+ with
+
+
+them,
+ they
+ say
+ yes,
+ they
+ wanted
+ to
+ work
+
+
+with
+ the
+ government
+ and
+ they
+ thought
+
+
+they
+ could
+ be
+ the
+ ones
+ to
+ do
+ it
+ safely.
+
+
+>> Okay.
+ So
+ that
+ explains
+ why
+ at
+ this
+ point
+
+
+in
+ the
+ story,
+ all
+ sides
+ are
+ working
+ well
+
+
+together.
+ When
+ do
+ things
+ start
+ to
+
+
+change?
+
+
+>> Things
+ start
+ to
+ change
+ on
+ January
+ 9th
+
+
+when
+ the
+ Secretary
+ of
+ Defense
+ Pete
+
+
+Hexath
+ comes
+ out
+ with
+ this
+ pretty
+ big
+
+
+memo.
+
+
+And
+ he
+ tells
+ the
+ military,
+ he
+ tells
+
+
+everyone
+ across
+ Silicon
+ Valley
+ that
+
+
+things
+ are
+ about
+ to
+ change.
+ AI
+ is
+
+
+critical
+ for
+ the
+ future
+ of
+ warfare.
+
+
+China's
+ developing
+ AI
+ weapons.
+ Russia
+ is
+
+
+developing
+ AI
+ weapons.
+ If
+ the
+ US
+ wants
+
+
+to
+ be
+ competitive,
+ AI
+ has
+ to
+ be
+ at
+ the
+
+
+center
+ of
+ everything.
+ from
+ autonomous
+
+
+weapons
+ like
+ drones
+ or
+ fighter
+ jets
+ that
+
+
+have
+ no
+ pilots
+ to
+ data
+ systems.
+ And
+ this
+
+
+kicks
+ off
+ a
+ need
+ for
+ new
+ contracts
+ with
+
+
+all
+ the
+ AI
+ companies.
+ And
+ they
+ do
+ what
+
+
+companies
+ do.
+ Their
+ lawyers
+ start
+
+
+sending
+ contracts
+ back
+ and
+ forth
+ with
+
+
+the
+ Pentagon's
+ lawyers
+ trying
+ to
+ figure
+
+
+out
+ how
+ they
+ can
+ come
+ to
+ some
+ sort
+ of
+
+
+new
+ agreement
+ about
+ this.
+ And
+ how
+ does
+
+
+that
+ go?
+ They
+ have
+ differences.
+ is
+ they
+
+
+have
+ things
+ that
+ they're
+ trying
+ to
+
+
+figure
+ out,
+ but
+ it's
+ all
+ sort
+ of
+
+
+happening
+ quietly
+ behind
+ the
+ scenes
+ when
+
+
+all
+ of
+ a
+ sudden
+ something
+ happens
+ that
+
+
+ends
+ up
+ escalating
+ tensions
+ between
+
+
+Anthropic
+ and
+ the
+ Pentagon.
+ News
+ reports
+
+
+emerge
+ that
+ Anthropic's
+ clawed
+
+
+technology
+ was
+ used
+ as
+ part
+ of
+ the
+
+
+capture
+ of
+ Nicholas
+ Madura,
+ Venezuela's
+
+
+leader.
+
+
+Right?
+ I
+ remember
+ when
+ that
+ came
+ out.
+ It
+
+
+was
+ this
+ surprising
+ moment
+ to
+ find
+ out
+
+
+that
+ an
+ AI
+ model
+ was
+ used
+ to
+ do
+
+
+something
+ like
+ that.
+ Like
+ this
+ very
+ on
+
+
+the
+ ground
+ operation
+ that
+ involved
+ boots
+
+
+on
+ the
+ ground
+ and
+ lots
+ of
+ planning.
+ AI
+
+
+was
+ in
+ the
+ middle
+ of
+ it.
+
+
+>> Yeah.
+ I
+ mean,
+ I
+ think
+ it
+ was
+ even
+
+
+surprising,
+ confusing
+ for
+ people
+ who
+
+
+worked
+ at
+ Anthropic
+ who
+ did
+ not
+ know
+ if
+
+
+their
+ technology
+ was
+ used
+ in
+ the
+ Madura
+
+
+raid.
+ It
+ even
+ came
+ up
+ in
+ a
+ meeting
+ that
+
+
+happened
+ between
+ one
+ employee
+ at
+
+
+Anthropic
+ and
+ another
+ employee
+ at
+
+
+Palunteer.
+ The
+ anthropic
+ guy
+ asked,
+ "Do
+
+
+you
+ know
+ anything
+ about
+ this?
+ You
+ know,
+
+
+is
+ our
+ technology
+ being
+ used?"
+ It
+ was
+
+
+not
+ something
+ that
+ they
+ appeared
+ aware
+
+
+of.
+ But
+ whether
+ or
+ not
+ Anthropic's
+
+
+technology
+ was
+ used
+ at
+ the
+ Pentagon,
+ the
+
+
+fact
+ that
+ a
+ private
+ Silicon
+ Valley
+
+
+company
+ would
+ even
+ be
+ raising
+ questions
+
+
+about
+ this
+ was
+ seen
+ as
+ inappropriate.
+
+
+You
+ had
+ the
+ Secretary
+ of
+ Defense,
+
+
+Hexath,
+ telling
+ people
+ around
+ him
+ that
+
+
+he
+ didn't
+ like
+ anthropic,
+ even
+ asking
+
+
+questions
+ about
+ how
+ their
+ technology
+ was
+
+
+being
+ used.
+ And
+ in
+ the
+ midst
+ of
+ all
+
+
+these
+ kind
+ of
+ sensitive
+ negotiations
+
+
+happening
+ about
+ the
+ future
+ of
+ Anthropic
+
+
+and
+ the
+ Pentagon,
+ this
+ was
+ kind
+ of
+ the
+
+
+kindling
+ that
+ they
+ didn't
+ need.
+
+
+>> So
+ basically,
+ the
+ defense
+ department
+
+
+sees
+ this
+ inquiry
+ by
+ this
+ employee
+ at
+
+
+Anthropic
+ as
+ a
+ sign
+ that
+ the
+ company
+ is
+
+
+challenging
+ the
+ military's
+ use
+ of
+ the
+
+
+technology.
+
+
+>> Yeah,
+ exactly.
+ They
+ see
+ it
+ as
+ a
+ sign
+
+
+that
+ this
+ private
+ company
+ that's
+ talked
+
+
+a
+ lot
+ about
+ safety
+ is
+ going
+ to
+ try
+ and
+
+
+impose
+ its
+ own
+ rules,
+ its
+ own
+
+
+guardrails,
+ its
+ own
+ ideas
+ of
+ safety
+ onto
+
+
+the
+ Pentagon.
+ And
+ in
+ the
+ midst
+ of
+ all
+
+
+these
+ sensitive
+ negotiations,
+ it
+
+
+suddenly
+ becomes
+ a
+ crisis.
+ It
+ suddenly
+
+
+spills
+ over
+ from
+ emails
+ back
+ and
+ forth
+
+
+between
+ lawyers
+ to
+ big
+ public
+ statements
+
+
+by
+ senior
+ figures
+ at
+ the
+ Pentagon.
+
+
+>> And
+ what
+ is
+ the
+ crux
+ of
+ the
+ crisis
+
+
+itself?
+
+
+The
+ crux
+ of
+ the
+ crisis
+ is
+ over
+ anthropic
+
+
+wanting
+ to
+ define
+ safety
+ and
+ wanting
+ to
+
+
+limit
+ two
+ specific
+ ways
+ in
+ which
+ the
+
+
+Pentagon
+ can
+ use
+ their
+ technology.
+ They
+
+
+want
+ it
+ codified
+ into
+ their
+ contract
+
+
+with
+ the
+ Pentagon
+ that
+ their
+ technology
+
+
+will
+ not
+ be
+ used
+ for
+ the
+ mass
+
+
+surveillance
+ of
+ Americans
+ and
+ it
+ will
+
+
+not
+ be
+ used
+ for
+ autonomous
+ weapons.
+ And
+
+
+why
+ has
+ Anthropic
+ drawn
+ those
+ red
+ lines
+
+
+on
+ these
+ uses
+ of
+ AI?
+ Like
+ what's
+ the
+
+
+rationale
+ here?
+
+
+>> Well,
+ they're
+ worried
+ about
+ a
+ few
+
+
+different
+ things
+ here.
+ First
+ and
+
+
+foremost,
+ they're
+ not
+ sure
+ that
+ AI
+ is
+
+
+ready.
+ AI
+ might
+ have
+ a
+ 1%
+ or
+ 2%
+ error
+
+
+rate,
+ but
+ when
+ it
+ comes
+ to
+ something
+
+
+like
+ picking
+ a
+ target
+ to
+ hit
+ with
+ a
+
+
+missile,
+ that
+ kind
+ of
+ error
+ rate
+ can
+
+
+mean
+ life
+ or
+ death,
+
+
+>> right?
+ Huge
+ consequences.
+
+
+>> Huge.
+ Now,
+ imagine
+ secondly,
+ the
+ PR
+
+
+disaster.
+ If
+ a
+ news
+ story
+ comes
+ out
+ that
+
+
+Anthropics
+ AI
+ was
+ used
+ to
+ hit
+ a
+ target
+
+
+that
+ ended
+ up
+ being
+ wrong,
+
+
+>> suddenly
+ this
+ company
+ has
+ an
+ absolute
+ PR
+
+
+nightmare
+ on
+ their
+ hands
+ where
+ Americans
+
+
+are
+ contending
+ with
+ this
+ very
+ real
+ life
+
+
+use
+ case
+ where
+ AI
+ or
+ you
+ know
+ in
+ science
+
+
+fiction
+ books
+ they
+ always
+ say
+ the
+ robot
+
+
+you
+ know
+ it
+ chose
+ the
+ wrong
+ target
+ and
+
+
+humans
+ were
+ killed.
+
+
+>> And
+ you
+ know
+ thirdly
+ they've
+ got
+ to
+
+
+worry
+ about
+ their
+ own
+ employees.
+ People
+
+
+who
+ work
+ there
+ are
+ not
+ comfortable
+ with
+
+
+working
+ with
+ the
+ military.
+ People
+ who
+
+
+work
+ there
+ are
+ worried
+ about
+ the
+ use
+ of
+
+
+AI
+ in
+ war.
+ they
+ really
+ risk
+ alienating
+ a
+
+
+lot
+ of
+ the
+ people
+ that
+ they
+ paid
+ a
+ lot
+
+
+of
+ money
+ to
+ come
+ work
+ at
+ that
+ company.
+
+
+>> Right.
+ It's
+ worth
+ saying
+ that
+ these
+
+
+employees
+ are
+ very
+ valuable,
+ right?
+
+
+There's
+ a
+ total
+ talent
+ war
+ on
+ to
+ attract
+
+
+these
+ people
+ and
+ you
+ don't
+ want
+ to
+ risk
+
+
+losing
+ them.
+
+
+>> Yeah,
+ that's
+ right.
+ There's
+ some
+ of
+ the
+
+
+most
+ highly
+ sought
+ after
+ engineers
+
+
+across
+ Silicon
+ Valley
+ and
+ that's
+ saying
+
+
+a
+ lot.
+ We're
+ talking
+ about
+ contracts
+
+
+potentially
+ worth
+ tens
+ of
+ millions
+ of
+
+
+dollars
+ to
+ acquire
+ some
+ of
+ these
+ people.
+
+
+>> Got
+ it.
+ So,
+ it
+ sounds
+ like
+ there
+ is
+ a
+
+
+broad
+ set
+ of
+ reasons
+ why
+ Anthropic
+ is
+
+
+not
+ wanting
+ to
+ do
+ this.
+ What
+ about
+ the
+
+
+Pentagon?
+ What
+ do
+ they
+ make
+ of
+ this?
+
+
+>> The
+ Pentagon
+ is
+ mad.
+ They're
+ sitting
+
+
+there
+ and
+ saying,
+ "Hey,
+ you
+ are
+ a
+
+
+private
+ company.
+ You
+ do
+ not
+ get
+ to
+ make
+
+
+these
+ calls.
+ Whoever
+ decides
+ that
+ AI
+ is
+
+
+ready
+ to
+ control
+ a
+ weapon
+ should
+ be
+
+
+sitting
+ here
+ in
+ the
+ Pentagon,
+ in
+ the
+
+
+military.
+ We
+ are
+ the
+ ones
+ that
+ make
+
+
+these
+ calls.
+ And
+ really,
+ how
+ dare
+ you
+ is
+
+
+their
+ view
+ as
+ a
+ private
+ company
+ try
+ to
+
+
+tell
+ us
+ how
+ to
+ build
+ our
+ weapon
+
+
+systems."
+ They're
+ saying
+ it's
+ not
+ your
+
+
+role.
+ It's
+ our
+ role.
+ That's
+ our
+ job.
+
+
+>> Exactly.
+ And
+ the
+ Pentagon
+ is
+ saying
+ we
+
+
+are
+ going
+ to
+ implement
+ all
+ lawful
+ uses
+
+
+of
+ this
+ technology.
+ So
+ they're
+ making
+
+
+the
+ argument
+ that
+ Anthropic
+ is
+ really
+
+
+asking
+ for
+ something
+ that
+ isn't
+
+
+necessary.
+
+
+So
+ things
+ escalate
+ and
+ escalate
+ and
+ they
+
+
+result
+ in
+ this
+ meeting
+ between
+ the
+
+
+Secretary
+ of
+ Defense
+ Pete
+ Hexf
+ and
+ the
+
+
+chief
+ executive
+ of
+ Anthropic,
+ Dario
+
+
+Amuay.
+ The
+ CEO
+ of
+ one
+ of
+ the
+ biggest
+ AI
+
+
+companies
+ in
+ the
+ world
+ is
+ meeting
+ with
+
+
+Defense
+ Secretary
+ Pete
+ Hegsath
+ today
+ as
+
+
+the
+ Pentagon
+ threatens
+ to
+ essentially
+
+
+blacklist
+ that
+ company
+ Anthropic
+ from
+
+
+lucrative
+ government
+ contracts
+ if
+ the
+ AI
+
+
+company
+
+
+>> civil
+ for
+ the
+ most
+ part
+ until
+ the
+ very
+
+
+end.
+
+
+>> Defense
+ Secretary
+ Pete
+ Haggsith
+ gave
+ CEO
+
+
+Daario
+ Amade
+ until
+ the
+ end
+ of
+ the
+ week
+
+
+to
+ sign
+ a
+ document
+ ensuring
+ the
+ military
+
+
+would
+ have
+ full
+ access
+ to
+ the
+ company's
+
+
+AI
+ model.
+ The
+ secretary
+ tells
+ Dario
+
+
+Amude,
+ "Hey,
+ you
+ have
+ until
+ Friday,
+ 5:00
+
+
+p.
+ p.m.
+ Eastern
+ time
+ to
+ compromise.
+ Work
+
+
+it
+ out.
+ Figure
+ it
+ out,
+ but
+ we
+ are
+ giving
+
+
+you
+ a
+ hard
+ deadline
+ or
+ we
+ going
+ to
+ take
+
+
+some
+ type
+ of
+ action
+ against
+ you."
+
+
+>> And
+ what
+ is
+ the
+ action?
+ What's
+ the
+
+
+threat?
+
+
+>> So,
+ there's
+ actually
+ there's
+ two
+ threats
+
+
+made
+ against
+ Enthropic
+ and
+ they're
+
+
+pretty
+ opposed
+ to
+ one
+ another.
+ One
+ is
+
+
+that
+ anthropic
+ will
+ be
+ labeled
+ a
+ supply
+
+
+chain
+ risk.
+ And
+ this
+ is
+ a
+ a
+ designation
+
+
+that
+ America
+ has
+ used
+ in
+ the
+ past
+ mostly
+
+
+for
+ foreign
+ companies
+ who
+ produce
+
+
+something
+ abroad
+ and
+ which
+ America
+ feels
+
+
+is
+ not
+ safe
+ for
+ national
+ security
+
+
+reasons
+ for
+ the
+ government
+ to
+ be
+ buying.
+
+
+So
+ they
+ would
+ be
+ essentially
+ saying
+ hey
+
+
+anthropic
+ we
+ think
+ you're
+ dangerous
+ as
+ a
+
+
+company
+ for
+ national
+ security
+ and
+ nobody
+
+
+in
+ the
+ government
+ can
+ use
+ you.
+ The
+ other
+
+
+threat
+ would
+ see
+ them
+ invoke
+ this
+
+
+Defense
+ Production
+ Act,
+ which
+ labels
+ a
+
+
+company
+ so
+ necessary
+ to
+ national
+
+
+security
+ that
+ they
+ have
+ to
+ work
+ with
+ the
+
+
+federal
+ government.
+ These
+ seem
+ like
+
+
+pretty
+ extreme
+ threats.
+ I
+ mean,
+ the
+
+
+government
+ is
+ saying,
+ "We're
+ either
+
+
+going
+ to
+ force
+ Anthropic
+ to
+ comply
+ or
+
+
+inflict
+ a
+ ton
+ of
+ pain
+ on
+ this
+ company
+ by
+
+
+punishing
+ anybody
+ else
+ that
+ does
+
+
+business
+ with
+ them
+ essentially."
+
+
+>> Yeah.
+ I
+ mean,
+ they
+ are
+ extreme.
+ And
+ it
+
+
+leads
+ to
+ this
+ rare
+ moment
+ of
+ solidarity
+
+
+across
+ Silicon
+ Valley.
+ These
+ companies
+
+
+who
+ usually
+ I
+ mean
+ quite
+ honestly
+ hate
+
+
+each
+ other
+ suddenly
+ come
+ together
+ and
+
+
+they
+ say
+ we
+ stand
+ behind
+ Anthropic.
+ The
+
+
+AI
+ community
+ stands
+ behind
+ Anthropic
+ and
+
+
+their
+ red
+ lines.
+ And
+ I
+ think
+ of
+ all
+ the
+
+
+voices
+ that
+ emerged
+ the
+ most
+ interesting
+
+
+is
+ Sam
+ Alman
+ who's
+ the
+ chief
+ executive
+
+
+of
+ OpenAI.
+ He
+ historically
+ has
+ not
+
+
+gotten
+ along
+ with
+ anthropic.
+ These
+ are
+ a
+
+
+bunch
+ of
+ guys
+ that
+ left
+ his
+ company
+ and
+
+
+said
+ his
+ company
+ wasn't
+ safe
+ and
+ started
+
+
+their
+ own
+ company.
+ There
+ is
+ no
+ no
+ love
+
+
+lost
+ between
+ the
+ leadership
+ at
+ OpenAI
+
+
+and
+ the
+ leadership
+ at
+ Anthropic.
+ And
+ he
+
+
+even
+ stands
+ up
+ and
+ he
+ says,
+ "No,
+ no,
+ I
+
+
+back
+ them.
+ I
+ back
+ Anthropic."
+ And
+ here
+
+
+we
+ should
+ just
+ disclose
+ for
+ transparency
+
+
+that
+ the
+ New
+ York
+ Times
+ is
+ currently
+
+
+suing
+ OpenAI
+ over
+ the
+ use
+ of
+ its
+ models.
+
+
+>> That's
+ right.
+ So
+ all
+ of
+ Friday,
+ tension
+
+
+is
+ building.
+ People
+ are
+ tweeting
+ in
+
+
+support
+ of
+ Anthropic.
+ They're
+ telling
+
+
+the
+ company
+ to
+ hold
+ the
+ red
+ lines.
+
+
+Anthropics
+ executives,
+ their
+ lawyers
+ are
+
+
+on
+ the
+ phone.
+ I
+ mean,
+ minutes
+ minutes
+
+
+before
+ the
+ deadline
+ hits,
+ they're
+ still
+
+
+on
+ the
+ phone
+ with
+ the
+ Pentagon
+ trying
+ to
+
+
+figure
+ this
+ all
+ out.
+ And
+ then
+ the
+
+
+deadline
+ happens,
+ 14
+ minutes
+ pass,
+ and
+
+
+two
+ things
+ quickly
+ happen.
+
+
+Now,
+ to
+ major
+ development
+ in
+ the
+ clash
+
+
+between
+ the
+ US
+ Department
+ of
+ Defense
+ and
+
+
+Anthropic.
+ President
+ Trump
+ has
+ ordered
+
+
+the
+ federal
+ government
+ to
+ stop
+ using
+ its
+
+
+technology
+ after
+ the
+ AI
+ firm
+ refused
+ to
+
+
+lift
+ guard.
+ One
+ is
+ that
+ the
+ DoD
+
+
+announces
+ there
+ is
+ no
+ deal.
+
+
+>> Defense
+ Secretary
+ Pete
+ Hgsth
+ says
+ he
+
+
+will
+ designate
+ Anthropic
+ a
+ supply
+ chain
+
+
+risk
+ to
+ national
+ security.
+
+
+>> Anthropic
+ is
+ a
+ supply
+ chain
+ risk.
+ It's
+
+
+going
+ to
+ be
+ booted
+ banned
+ from
+ the
+
+
+entire
+ federal
+ government
+
+
+>> saying
+ any
+ contractor
+ that
+ does
+ business
+
+
+with
+ the
+ US
+ military
+ will
+ not
+ be
+ allowed
+
+
+to
+ conduct
+ commercial
+ activity
+ with
+
+
+Anthropic.
+ President
+ Trump
+ called
+
+
+Anthropic
+ a
+ radical
+ left
+ woke
+ company
+
+
+which
+ will
+ not
+ dictate
+ how
+ the
+ United
+
+
+States
+ fights
+ and
+ wins
+ wars.
+ He
+ accused
+
+
+and
+ then
+ they
+ issue
+ another
+ surprise.
+
+
+They
+ actually
+ have
+ an
+ ace
+ in
+ their
+ back
+
+
+pocket.
+
+
+>> Anthropic's
+ relationship
+ appears
+ to
+ have
+
+
+ended,
+ but
+ Open
+ AI
+ is
+ ready
+ to
+ make
+ a
+
+
+deal.
+
+
+>> This
+ whole
+ time
+ in
+ the
+ background,
+
+
+they've
+ been
+ quietly
+ negotiating
+
+
+directly
+ with
+ Sam
+ Alman,
+ the
+ chief
+
+
+executive
+ of
+ Open
+ AAI.
+
+
+>> Wow.
+ And
+ this
+ whole
+ time
+ he's
+ been
+
+
+negotiating
+ himself
+ directly
+ with
+ the
+
+
+Pentagon.
+ And
+ Sam
+ Alman
+ says
+ that
+ he
+ got
+
+
+exactly
+ the
+ deal
+ that
+ Anthropic
+ wanted,
+
+
+but
+ he
+ had
+ actually
+ decided
+ to
+ take
+ a
+
+
+very
+ different
+ approach
+ to
+ the
+ entire
+
+
+negotiation.
+
+
+We'll
+ be
+ right
+ back.
+
+
+Okay,
+ Shira,
+ you
+ said
+ that
+ Sam
+ Alman
+
+
+took
+ a
+ much
+ different
+ tack
+ with
+ the
+
+
+Pentagon
+ in
+ these
+ negotiations.
+ What
+ do
+
+
+you
+ mean
+ by
+ that?
+ So,
+ Anthropic
+ had
+ been
+
+
+asking
+ this
+ entire
+ time
+ for
+ certain
+
+
+things
+ to
+ be
+ codified
+ into
+ their
+
+
+contract.
+ They
+ wanted
+ established
+ that
+
+
+their
+ technology
+ could
+ not
+ be
+ used
+ in
+
+
+these
+ very
+ specific
+ ways
+ that
+ were
+
+
+important
+ to
+ the
+ company.
+ What
+ Sam
+ Alman
+
+
+did
+ was
+ say,
+ "Hey,
+ we
+ don't
+ need
+ that
+
+
+type
+ of
+ language
+ into
+ the
+ contract.
+ What
+
+
+we're
+ going
+ to
+ do
+ is
+ write
+ our
+ own
+ guard
+
+
+rails,
+ our
+ own
+ safety
+ measures
+ into
+ the
+
+
+code
+ itself.
+ Engineers
+ call
+ this
+ writing
+
+
+into
+ the
+ stacks.
+ And
+ it's
+ something
+ that
+
+
+AI
+ companies
+ do
+ all
+ the
+ time.
+ They
+
+
+update
+ their
+ safety
+ measures.
+ They
+ quote
+
+
+write
+ into
+ the
+ stacks
+ guardrails
+ that
+
+
+they
+ think
+ are
+ important.
+ And
+ so
+ he's
+
+
+saying,
+ "It's
+ not
+ on
+ you.
+ It's
+ on
+ us.
+
+
+Whatever
+ is
+ important
+ to
+ us,
+ whatever
+
+
+safety
+ measures
+ we
+ have
+ as
+ open
+ AI,
+ we
+
+
+are
+ going
+ to
+ make
+ sure
+ are
+ there."
+
+
+and
+ just
+ explain
+ why
+ that
+ version
+ of
+
+
+things
+ where
+ the
+ company
+ is
+ in
+ control
+
+
+of
+ writing
+ these
+ safeguards
+ into
+ the
+
+
+models,
+ why
+ that
+ wasn't
+ good
+ enough
+ for
+
+
+Anthropic.
+
+
+People
+ who
+ work
+ at
+ Anthropic
+ make
+ the
+
+
+argument
+ that
+ when
+ you
+ write
+ something
+
+
+into
+ the
+ stacks,
+ it
+ can
+ be
+ unwritten.
+
+
+You
+ can
+ write
+ something
+ else
+ the
+ next
+
+
+day.
+ It
+ is
+ not
+ permanent.
+ These
+ stacks
+
+
+get
+ changed
+ daily.
+ They
+ could
+ even
+ be
+
+
+changed
+ hourly.
+ And
+ in
+ their
+ view,
+ there
+
+
+was
+ not
+ enough
+ to
+ stop
+ the
+ Pentagon
+ from
+
+
+saying,
+ "Okay,
+ well,
+ you
+ wrote
+ that
+ into
+
+
+the
+ stacks
+ today,
+ but
+ tomorrow
+ we're
+
+
+telling
+ you
+ to
+ do
+ something
+ else."
+
+
+Essentially,
+ you're
+ saying
+ their
+ fear
+ is
+
+
+that
+ this
+ kind
+ of
+ guard
+ rail
+ is
+ much
+
+
+more
+ movable.
+ It's
+ not
+ permanent
+ enough.
+
+
+It
+ doesn't
+ guarantee
+ that
+ the
+ limits
+
+
+will
+ be
+ respected
+ long
+ term.
+
+
+>> Exactly.
+
+
+So
+ the
+ Pentagon
+ came
+ out
+ of
+ this
+
+
+winning.
+ It
+ sounds
+ like
+
+
+>> I
+ mean
+ I
+ think
+ that
+ from
+ their
+ point
+ of
+
+
+view,
+ from
+ the
+ DoD
+ folks
+ we've
+ talked
+
+
+to,
+ they
+ are
+ happy
+ they
+ got
+ open
+ AI
+ on
+
+
+board.
+ I
+ think
+ that
+ where
+ the
+ Pentagon
+
+
+may
+ run
+ into
+ problems
+ long
+ term
+ is
+ the
+
+
+broader
+ AI
+ community
+ in
+ Silicon
+ Valley
+
+
+and
+ how
+ this
+ has
+ really
+ brought
+ to
+ the
+
+
+forefront
+ this
+ bigger
+ question
+ of
+ AI
+ and
+
+
+weapons,
+ AI
+ and
+ the
+ government.
+ Is
+ AI
+
+
+going
+ to
+ be
+ dangerous
+ and
+ is
+ the
+
+
+government
+ thinking
+ about
+ it
+ in
+ a
+
+
+responsible
+ way?
+ I
+ think
+ that
+ whole
+
+
+debate
+ is
+ now
+ in
+ the
+ public
+
+
+consciousness,
+
+
+>> right?
+ And
+ I
+ have
+ to
+ imagine
+ that
+ the
+
+
+extent
+ to
+ which
+ this
+ administration
+ was
+
+
+willing
+ to
+ really
+ throw
+ the
+ book
+ at
+ this
+
+
+American
+ AI
+ company,
+ that
+ has
+ to
+ have
+
+
+had
+ something
+ of
+ a
+ chilling
+ effect
+ in
+
+
+the
+ industry,
+ right?
+
+
+>> Oh,
+ definitely.
+ I
+ spoke
+ to
+ someone
+ who
+
+
+works
+ at
+ Google
+ who
+ said,
+ you
+ know,
+
+
+that's
+ that's
+ terrifying.
+ If
+ they
+ can
+
+
+threaten
+ to
+ label
+ Anthropic
+ a
+ supply
+
+
+chain
+ risk
+ or
+ to
+ use
+ this
+ defense
+
+
+production
+ act
+ against
+ them,
+ what's
+ to
+
+
+stop
+ them
+ from
+ doing
+ it
+ to
+ any
+ tech
+
+
+company
+ in
+ Silicon
+ Valley
+ if
+ they
+ don't
+
+
+get
+ their
+ way?
+ And
+ so
+ there's
+ there's
+
+
+been
+ this
+ moment
+ of
+ of
+ trust
+ building
+
+
+between
+ Silicon
+ Valley
+ and
+ and
+ the
+
+
+Pentagon
+ that's
+ happened
+ slowly
+ over
+ the
+
+
+Trump
+ administration
+ and
+ we've
+ really
+
+
+seen
+ a
+ lot
+ of
+ that
+ shattered
+ in
+ the
+ last
+
+
+week
+ or
+ so.
+ And
+ what
+ about
+ the
+ companies
+
+
+at
+ the
+ center
+ of
+ this,
+ Shira?
+ Like
+ how
+
+
+do
+ they
+ net
+ out?
+ Because
+ obviously
+
+
+OpenAI
+ has
+ this
+ victory
+ in
+ terms
+ of
+
+
+getting
+ the
+ contract,
+ but
+ at
+ the
+ same
+
+
+time
+ it's
+ hard
+ to
+ ignore
+ the
+ PR
+ benefits
+
+
+that
+ have
+ come
+ out
+ of
+ this
+
+
+philanthropic.
+ This
+ company
+ was
+ very
+
+
+popular
+ among
+ software
+ engineer
+ types,
+
+
+but
+ before
+ all
+ this,
+ it
+ was
+ by
+ no
+ means
+
+
+well
+ known
+ among
+ the
+ general
+ public.
+ And
+
+
+now
+ all
+ of
+ a
+ sudden,
+ anthropic
+ is
+ this
+
+
+topic
+ of
+ national
+ conversation,
+
+
+>> right?
+ I
+ mean,
+ we
+ saw
+ that
+ in
+ the
+
+
+immediate
+ aftermath
+ of
+ all
+ this,
+
+
+Anthropics
+ claw
+ technology
+ shoots
+ to
+ the
+
+
+top
+ of
+ the
+ app
+ store
+ for
+ the
+ first
+ time
+
+
+in
+ the
+ company's
+ history.
+
+
+>> They
+ have
+ not
+ just
+ become
+ a
+ household
+
+
+name,
+ but
+ they've
+ become
+ a
+ household
+
+
+name
+ that's
+ synonymous
+ with
+ security,
+
+
+with
+ safe
+ AI.
+ And
+ that's
+ a
+ huge
+ PR
+ win
+
+
+in
+ a
+ moment
+ where
+ so
+ many
+ people
+ are
+
+
+still
+ afraid
+ of
+ AI.
+
+
+>> Right.
+ You're
+ saying
+ it's
+ not
+ just
+ that
+
+
+people
+ are
+ talking
+ about
+ the
+ company,
+
+
+it's
+ that
+ they're
+ talking
+ about
+ it
+ as
+ a
+
+
+company
+ that
+ values
+ safety
+ and
+
+
+responsibility.
+ And
+ you
+ can
+ see
+ why
+ that
+
+
+might
+ be
+ appealing.
+
+
+>> That's
+ right.
+ Out
+ here
+ in
+ Silicon
+
+
+Valley,
+ I
+ think
+ Anthropic
+ is
+ really
+
+
+emerging
+ as
+ a
+ winner
+ in
+ terms
+ of
+ the
+ PR
+
+
+battle
+ for
+ the
+ hearts
+ and
+ minds
+ of
+
+
+engineers.
+ And
+ right
+ now,
+ Anthropic
+ is
+
+
+really
+ being
+ seen
+ as
+ an
+ ethical
+ company
+
+
+that
+ stood
+ by
+ its
+ guns
+ and
+ did
+ what
+ it
+
+
+said
+ it
+ was
+ going
+ to
+ do
+ in
+ terms
+ of
+
+
+safety
+ measures.
+ And
+ here
+ in
+ Silicon
+
+
+Valley,
+ engineers
+ are
+ talking
+ about
+ how
+
+
+they
+ want
+ to
+ go
+ work
+ for
+ them.
+ And
+ so
+
+
+that
+ could
+ net
+ out
+ really
+ as
+ a
+ big
+ win
+
+
+for
+ Anthropic.
+ H
+ after
+ Altman
+ signed
+ the
+
+
+deal,
+ there
+ was
+ a
+ lot
+ of
+ blowback
+ across
+
+
+Silicon
+ Valley
+ for
+ the
+ terms
+ that
+ he
+ had
+
+
+reached
+ with
+ the
+ Pentagon.
+ I
+ actually
+
+
+saw
+ people
+ in
+ the
+ streets
+ of
+ San
+
+
+Francisco
+ holding
+ up
+ a
+ sign
+ saying
+
+
+Anthropic
+ stands
+ strong.
+
+
+>> Wow.
+
+
+>> And
+ you
+ see
+ online
+ people
+ who
+ work
+ at
+
+
+these
+ companies
+ voicing
+ both
+ support
+ for
+
+
+Anthropic
+ and
+ dismay
+ with
+ Open
+ AI.
+ And
+
+
+that
+ push
+ back
+ from
+ engineers
+ has
+
+
+complicated
+ things
+ for
+ Sam
+ Alman.
+ He's
+
+
+had
+ to
+ meet
+ with
+ his
+ own
+ employees
+ more
+
+
+than
+ once
+ to
+ assure
+ them
+ that
+ he's
+ going
+
+
+to
+ seek
+ a
+ safe
+ contract
+ with
+ the
+
+
+Pentagon.
+ And
+ he's
+ had
+ to
+ do
+ a
+ lot
+ of
+
+
+kind
+ of
+ internal
+ PR
+ work
+ among
+ people
+ at
+
+
+his
+ company
+
+
+>> to
+ try
+ to
+ do
+ damage
+ control
+ it
+ sounds
+
+
+like
+ with
+ his
+ own
+ employees.
+
+
+>> Exactly.
+ And
+ we've
+ seen
+ him
+ announce
+
+
+subsequently
+ that
+ he
+ may
+ have
+ made
+ a
+
+
+mistake
+ rushing
+ too
+ quickly
+ into
+ a
+ deal
+
+
+with
+ the
+ Pentagon
+ and
+ that
+ he's
+ actually
+
+
+sought
+ new
+ language
+ now
+ around
+ the
+ mass
+
+
+surveillance
+ of
+ Americans
+ and
+ and
+ other
+
+
+asurances
+ so
+ that
+ his
+ employees
+ will
+ not
+
+
+be
+ as
+ upset
+ as
+ they
+ have
+ been
+ in
+ the
+
+
+last
+ few
+ days
+ about
+ this
+ contract
+ with
+
+
+the
+ Pentagon.
+ So
+ where
+ this
+ stands
+ now
+
+
+is
+ that
+ you
+ have
+ two
+ of
+ Silicon
+ Valley's
+
+
+largest
+ companies
+ basically
+ battling
+ it
+
+
+out
+ over
+ what
+ safe
+ AI
+ looks
+ like.
+ On
+ one
+
+
+hand
+ you
+ have
+ Sam
+ Alman
+ open
+ AI
+ and
+ his
+
+
+version
+ of
+ working
+ with
+ the
+ Pentagon
+ and
+
+
+on
+ the
+ other
+ you
+ have
+ Dario
+ Amade
+ and
+
+
+Anthropic
+ sort
+ of
+ saying
+ this
+ is
+ how
+ we
+
+
+think
+ safe
+ AI
+ should
+ play
+ out
+ and
+ Shira
+
+
+through
+ all
+ this
+ it's
+ clear
+ that
+ both
+
+
+companies
+ are
+ trying
+ to
+ win
+ the
+ optics
+
+
+battle
+ in
+ all
+ of
+ this.
+ Both
+ are
+ claiming
+
+
+the
+ mantle
+ of
+ safety,
+ asserting
+ or
+
+
+reassuring
+ people,
+ their
+ own
+ employees,
+
+
+that
+ that's
+ what
+ they
+ care
+ about.
+ But
+ I
+
+
+just
+ want
+ to
+ push
+ on
+ what
+ they
+ actually
+
+
+mean
+ by
+ that,
+ by
+ safety.
+ Because
+ when
+ we
+
+
+were
+ talking
+ earlier
+ about
+ the
+ red
+
+
+lines,
+ Anthropic
+ insisting
+ that
+ its
+
+
+model
+ shouldn't
+ be
+ used
+ for
+ mass
+
+
+surveillance
+ or
+ autonomous
+ weapons,
+ they
+
+
+were
+ saying
+ their
+ models
+ just
+ aren't
+
+
+ready
+ yet.
+ they're
+ still
+ errorprone.
+ And
+
+
+so
+ it
+ sounds
+ like
+ they're
+ arguing
+ it's
+
+
+not
+ safe
+ to
+ use
+ their
+ model
+ in
+ those
+
+
+ways
+ now.
+ But
+ do
+ you
+ think
+ these
+
+
+companies
+ are
+ opposed
+ to
+ those
+ models
+
+
+being
+ used
+ for
+ mass
+ surveillance,
+ for
+
+
+autonomous
+ weapons
+ ever?
+
+
+No.
+ I
+ I
+ think
+ ultimately
+ these
+ companies
+
+
+are
+ well
+ aware
+ that
+ the
+ way
+ the
+ world
+ is
+
+
+headed
+ is
+ that
+ AI
+ is
+ going
+ to
+ be
+ at
+ the
+
+
+center
+ of
+ pretty
+ much
+ everything
+ the
+
+
+government
+ does
+ from
+ surveillance
+ to
+
+
+weapon
+ systems
+ AI
+ is
+ going
+ to
+ play
+ a
+
+
+role
+ right
+
+
+>> you
+ also
+ have
+ to
+ remember
+ these
+ these
+
+
+companies
+ are
+ really
+ competitive
+ they're
+
+
+technologists
+ who
+ love
+ what
+ they
+ do
+ they
+
+
+love
+ the
+ future
+ of
+ AI
+ and
+ so
+ there's
+
+
+also
+ sort
+ of
+ a
+ personal
+ vested
+ interest
+
+
+in
+ making
+ the
+ AI
+ good
+ enough
+ to
+ play
+
+
+this
+ really
+ central
+ role
+ across
+ the
+
+
+government,
+
+
+>> right?
+ I
+ mean,
+ and
+ there's
+ billions
+ at
+
+
+stake,
+ we
+ should
+ say,
+ in
+ this
+ industry
+
+
+being
+ invested.
+ These
+ companies
+ are
+
+
+locked
+ into
+ competition
+ with
+ each
+ other
+
+
+and
+ there's
+ no
+ going
+ back
+ is
+ what
+ you're
+
+
+saying.
+
+
+>> There
+ is
+ no
+ going
+ back.
+ When
+ you
+ speak
+
+
+to
+ some
+ of
+ these
+ technologists,
+ they
+
+
+describe
+ what
+ the
+ world
+ looks
+ like
+ in
+
+
+the
+ future.
+ And
+ honestly,
+ depending
+ on
+
+
+how
+ much
+ sci-fi
+ you've
+ read
+ in
+ your
+
+
+life,
+ that
+ is
+ a
+ very
+ attractive
+ vision
+
+
+or
+ a
+ really
+ scary
+ vision
+ of
+ the
+ future.
+
+
+So
+ they
+ look
+ forward
+ and
+ they
+ imagine
+ a
+
+
+war
+ in
+ which
+ there's
+ no
+ human
+ soldier
+ on
+
+
+the
+ battlefield
+ where
+ back
+ in
+ Washington
+
+
+or
+ wherever
+ on
+ some
+ military
+ base
+
+
+there's
+ a
+ guy
+ with
+ a
+ headset
+ who's
+
+
+controlling
+ a
+ fleet
+ of
+ drones
+ or
+
+
+submarines
+ or
+ fighterless
+ jets
+ and
+
+
+they're
+ fighting
+ against
+ another
+ nation
+
+
+state
+ which
+ has
+ very
+ much
+ the
+ same.
+ The
+
+
+surveillance
+ of
+ all
+ these
+ targets
+ is
+
+
+happening
+ through
+ AI
+ systems
+ that
+ can
+
+
+comb
+ through
+ imagery
+ faster
+ than
+ the
+
+
+human
+ brain
+ can
+ process
+ a
+ single
+
+
+photograph.
+ and
+ all
+ these
+ decisions
+ are
+
+
+happening
+ at
+ lightning
+ speeds.
+ That's
+
+
+what
+ they
+ see
+ all
+ of
+ us
+ kind
+ of
+ h
+
+
+hurtling
+ towards.
+
+
+>> What
+ you're
+ saying
+ is
+ this
+ fight
+ that
+
+
+we've
+ been
+ describing
+ between
+ Anthropic
+
+
+and
+ the
+ Pentagon
+ and
+ Open
+ AI,
+ it
+ didn't
+
+
+actually
+ forstall
+ the
+ future.
+ In
+ some
+
+
+ways,
+ it
+ just
+ made
+ clear
+ to
+ everyone
+
+
+that
+ it's
+ coming.
+ That's
+ right.
+
+
+They
+ are
+ all
+ clear
+ that
+ it's
+ inevitable.
+
+
+And
+ what
+ all
+ these
+ companies
+ agree
+ on,
+
+
+what
+ the
+ Pentagon
+ agrees
+ on,
+ is
+ that
+
+
+they're
+ all
+ active
+ partners
+ in
+ making
+
+
+this
+ a
+ reality.
+
+
+Shira,
+ thank
+ you
+ so
+ much.
+
+
+>> Thank
+ you
+ for
+ having
+ me.
+
+
+We'll
+ be
+ right
+ back.
+
+
+Here's
+ what
+ else
+ you
+ need
+ to
+ know.
+
+
+Iran
+ has
+ named
+ a
+ new
+ supreme
+ leader,
+
+
+Mushtaba
+ Ham.
+ Ham
+ is
+ the
+ 56-year-old
+ son
+
+
+of
+ the
+ recently
+ killed
+ Supreme
+ Leader,
+
+
+and
+ his
+ appointment
+ signals
+ the
+
+
+government's
+ desire
+ for
+ continuity.
+ Ham
+
+
+has
+ been
+ coordinating
+ military
+ and
+
+
+intelligence
+ operations
+ at
+ his
+ father's
+
+
+office,
+ and
+ he
+ has
+ very
+ close
+ ties
+ to
+
+
+the
+ powerful
+ Islamic
+ Revolutionary
+ Guard
+
+
+Corps.
+
+
+President
+ Trump
+ has
+ called
+ the
+ younger
+
+
+Hami
+ an
+ unacceptable
+ choice.
+ Before
+ the
+
+
+announcement,
+ Trump
+ told
+ ABC
+ that
+
+
+whoever
+ is
+ selected
+ as
+ Iran's
+ next
+
+
+leader
+ is
+ quote
+ not
+ going
+ to
+ last
+ long
+
+
+without
+ the
+ approval
+ of
+ the
+ United
+
+
+States.
+
+
+And
+
+
+over
+ the
+ weekend,
+ the
+ US
+ and
+ Israel
+
+
+intensify
+ their
+ attacks
+ on
+ Iranian
+
+
+military
+ targets
+ and
+ vital
+ energy
+
+
+infrastructure.
+ Israeli
+ warplanes
+ bombed
+
+
+several
+ fuel
+ depots
+ in
+ and
+ around
+
+
+Tyrron,
+ saying
+ they
+ were
+ being
+ used
+ by
+
+
+Iran's
+ military.
+
+
+The
+ air
+ strikes
+ created
+ an
+ apocalyptic
+
+
+scene
+ in
+ the
+ capital,
+ setting
+ off
+ oil
+
+
+fires
+ that
+ turned
+ the
+ horizon
+ orange
+ and
+
+
+blanketed
+ the
+ city
+ with
+ dark,
+ oily
+
+
+smoke.
+
+
+Water
+ desalination
+ plants
+ were
+ also
+
+
+struck
+ in
+ Iran
+ and
+ on
+ the
+ Persian
+ Gulf
+
+
+island
+ of
+ Bahrain,
+ threatening
+ to
+
+
+further
+ disrupt
+ the
+ lives
+ of
+ millions
+ in
+
+
+the
+ region
+ who
+ depend
+ on
+ desalination
+
+
+for
+ drinking
+ water.
+
+
+Finally,
+ on
+ Sunday
+ evening,
+ oil
+ prices
+
+
+surged
+ to
+ over
+ $100
+ a
+ barrel
+ for
+ the
+
+
+first
+ time
+ in
+ four
+ years.
+ a
+ worrying
+
+
+sign
+ about
+ the
+ war's
+ potential
+ effect
+ on
+
+
+gas
+ prices.
+ Trump
+ said
+ in
+ a
+ truth
+ social
+
+
+post
+ on
+ Sunday
+ that
+ higher
+ oil
+ prices
+
+
+would
+ be
+ short-lived
+ and
+ called
+ them
+ a
+
+
+quote
+ very
+ small
+ price
+ to
+ pay
+ for
+ peace.
+
+
+Today's
+ episode
+ was
+ produced
+ by
+ Ricky
+
+
+Nevetski,
+ Michelle
+ Banja,
+ Diana
+ Wyn,
+
+
+Eric
+ Krupkkey,
+ and
+ Michael
+ Simon
+ Johnson
+
+
+with
+ help
+ from
+ Mary
+ Wilson.
+ It
+ was
+
+
+edited
+ by
+ Mark
+ George,
+ and
+ Lisa
+ Chow.
+
+
+Contains
+ music
+ by
+ Marian
+ Lozano,
+ Rowan
+
+
+Nemisto,
+ and
+ Dan
+ Powell.
+ Our
+ theme
+ music
+
+
+is
+ by
+ Wonderly.
+
+
+This
+ episode
+ was
+ engineered
+ by
+ Alyssa
+
+
+Moxley.
+
+
+That's
+ it
+ for
+ the
+ daily.
+ I'm
+ Natalie
+
+
+Kitroth.
+ See
+ you
+ tomorrow.
