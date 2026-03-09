@@ -1,0 +1,9527 @@
+Today
+ we're
+ going
+ to
+ talk
+ about
+ AI
+ at
+ uh
+
+
+RAMP.
+ And
+ uh
+ I'm
+ going
+ to
+ give
+ an
+
+
+introduc
+ quick
+ introduction
+ into
+ what
+
+
+RAMP
+ is.
+ Um
+ really
+ briefly
+ we're
+ going
+
+
+to
+ walk
+ through
+ the
+ simplest
+ possible
+
+
+expense
+ use
+ case
+ that
+ you
+ guys
+ can
+ all
+
+
+resonate
+ because
+ I
+ see
+ everybody's
+
+
+drinking
+ coffee.
+ And
+ um
+ then
+ we're
+ going
+
+
+to
+ uh
+ talk
+ quickly
+ about
+ a
+ lesson
+ that
+
+
+we
+ learned
+ uh
+ this
+ year
+ while
+ we
+ were
+
+
+building
+ gazillion
+ agents
+ um
+ and
+ sort
+ of
+
+
+the
+ pivot
+ in
+ the
+ paradigm
+ that's
+
+
+happening
+ especially
+ after
+ February
+ 6.
+
+
+And
+ um
+ then
+ we're
+ going
+ to
+ double
+ click
+
+
+onto
+ how
+ we
+ built
+ one
+ of
+ our
+ most
+
+
+popular
+ agents,
+ the
+ policy
+ agent.
+ Um
+ and
+
+
+then
+ finally
+ we'll
+ dig
+ in
+ into
+ the
+
+
+infrastructure
+ build
+ that
+ this
+ is
+
+
+requiring
+ requiring
+ to
+ do
+ on
+ our
+ side
+
+
+and
+ in
+ my
+ mind
+ most
+ importantly
+ the
+
+
+culture
+ shift
+ that
+ needs
+ to
+ happen
+ on
+
+
+everyone's
+ teams
+ in
+ order
+ to
+ be
+ able
+ to
+
+
+operate
+ in
+ a
+ way
+ that
+ delivers
+ products
+
+
+into
+ the
+ hands
+ of
+ your
+ customers
+ in
+ the
+
+
+fastest
+ and
+ most
+ impactful
+ way.
+ Uh
+ so
+
+
+without
+ further
+ ado
+ uh
+ quick
+ intro
+ about
+
+
+RAMP.
+ Uh
+ we
+ are
+ number
+ one
+ finance
+
+
+platform
+ for
+ modern
+ businesses.
+ We
+ have
+
+
+50,000
+ plus
+ customers
+ and
+ we're
+ in
+ the
+
+
+business
+ of
+ saving
+ you
+ time
+ and
+ money.
+
+
+Uh
+ we
+ have
+ uh
+ I've
+ seen
+ some
+ of
+ the
+ uh
+
+
+some
+ of
+ those
+ names
+ on
+ the
+ on
+ the
+ name
+
+
+tags
+ here.
+ So
+ thank
+ you
+ for
+ being
+ REM
+
+
+customers.
+ Uh
+
+
+really
+ exciting.
+ Uh
+ really
+ quickly.
+ So
+ a
+
+
+cup
+ of
+ coffee
+ uh
+ takes
+ uh
+ usually
+ about
+
+
+15
+ minutes
+ of
+ your
+ time
+ um
+ because
+ you
+
+
+got
+ to
+ do
+ this
+ three
+ simple
+ things
+ which
+
+
+unfortunately
+ take
+ minutes.
+ Um
+ this
+
+
+compounds
+ through
+ the
+ company
+ and
+ uh
+
+
+what
+ RAM
+ does
+ in
+ the
+ simplest
+ possible
+
+
+way
+ we
+ just
+ condense
+ time
+ and
+ uh
+ return
+
+
+money
+ back.
+ Uh
+ so
+ a
+ simple
+ story
+ of
+ a
+
+
+transaction
+ from
+ tapping
+ the
+ card
+ to
+
+
+writing
+ a
+ memo
+ to
+ classifying
+ the
+
+
+transaction
+ according
+ to
+ your
+ GL
+ to
+
+
+sourcing
+ the
+ receipt
+ attaching
+ the
+
+
+receipt
+ um
+ normalizing
+ the
+ merchant
+ to
+
+
+your
+ um
+ inventory
+ of
+ merchants
+ uh
+ is
+ all
+
+
+done
+ agentically
+ at
+ ramp
+ and
+ this
+ was
+
+
+our
+ first
+ foray
+ uh
+ probably
+ by
+ now
+ uh
+
+
+you
+ guys
+ still
+ still
+ here?
+ probably
+ by
+
+
+now
+ about
+ 3
+ years
+ ago
+ we
+ started
+ doing
+
+
+this
+ oneshot
+ things
+ with
+ AI
+ uh
+ normalize
+
+
+merchant
+ write
+ a
+ memo
+ and
+ it's
+ been
+
+
+working
+ really
+ really
+ well
+ as
+ the
+ models
+
+
+get
+ better
+ uh
+ what
+ else
+ is
+ going
+ on
+ at
+
+
+the
+ company
+ well
+ literally
+ every
+ persona
+
+
+uh
+ at
+ the
+ company
+ is
+ wasting
+ time
+ on
+ a
+
+
+lot
+ of
+ manual
+ work
+ uh
+ so
+ from
+ AP
+ clerks
+
+
+to
+ your
+ finance
+ team
+ from
+ your
+
+
+purchasing
+ teams
+
+
+uh
+ keep
+ going
+ more
+ finance
+ work.
+ Your
+
+
+data
+ teams
+ uh
+ at
+ RAMP
+ we
+ used
+ to
+ have
+ a
+
+
+channel
+ called
+ help
+ data
+ where
+ somebody
+
+
+will
+ ask
+ for
+ a
+ CSV
+ and
+ a
+ poor
+ person
+
+
+will
+ go
+ and
+ write
+ a
+ SQL
+ query.
+ Uh
+ it
+ we
+
+
+replaced
+ it
+ about
+ a
+ year
+ and
+ a
+ half
+ ago.
+
+
+Uh
+ so
+ a
+ lot
+ of
+ time
+ being
+ spent
+ and
+ the
+
+
+complexity
+ has
+ a
+ ramp
+ shape.
+ It
+ only
+
+
+increases
+ as
+ you
+ go
+ through
+ different
+
+
+jobs
+ to
+ be
+ done.
+ Um
+ so
+ if
+ you
+ guys
+ watch
+
+
+Super
+ Bowl
+ uh
+ you
+ might
+ familiar
+ with
+
+
+Brian
+ um
+ our
+ agent.
+ Uh
+ so
+ we've
+ been
+
+
+writing
+ a
+ lot
+ of
+ agents
+ literally
+ for
+
+
+every
+ job
+ to
+ be
+ done
+ to
+ cover
+ the
+
+
+entirety
+ in
+ the
+ end
+ state
+ the
+ entirety
+
+
+of
+ what
+ admins
+ employees
+ and
+ finance
+
+
+teams
+ are
+ doing
+ that
+ is
+ not
+ directly
+
+
+related
+ to
+ making
+ the
+ money.
+ We
+ want
+ you
+
+
+all
+ to
+ be
+ making
+ money
+ and
+ focus
+ on
+ your
+
+
+customers
+ not
+ on
+ how
+ to
+ close
+ the
+ books.
+
+
+Uh
+ but
+ what's
+ been
+ happening
+ for
+ the
+
+
+past
+ few
+ weeks
+ is
+ uh
+ that
+ we're
+ living
+
+
+through
+ the
+ most
+ exciting
+ paradigm
+ shift
+
+
+in
+ software.
+ Um
+ and
+ it
+ requires
+ complete
+
+
+rethink
+ and
+ with
+ rethink
+ simplification
+
+
+of
+ your
+ stack.
+ Um
+ so
+ what
+ we
+ learned
+ is
+
+
+you
+ don't
+ need
+ to
+ build
+ a
+ thousand
+
+
+agents.
+ We
+ intentionally
+ last
+ year
+
+
+allowed
+ each
+ individual
+ team
+ to
+ go
+ and
+
+
+experiment
+ and
+ we
+ ended
+ up
+ maybe
+ with
+
+
+four
+ different
+ ways
+ of
+ doing
+ the
+ same
+
+
+thing
+ both
+ for
+ synchronous
+ agents
+ as
+
+
+well
+ as
+ for
+ background
+ agents.
+ Um
+ but
+
+
+instead
+ you
+ want
+ to
+ drive
+ your
+ framework
+
+
+towards
+ a
+ single
+ agent
+ with
+ a
+ thousand
+
+
+skills.
+ Uh
+ so
+ let's
+ talk
+ about
+ what
+ the
+
+
+software
+ traditionally
+ used
+ to
+ focus
+ on.
+
+
+So
+ every
+ process
+ um
+ especially
+ in
+ the
+
+
+modern
+ modern
+ AI
+ stack
+ boils
+ down
+ to
+
+
+having
+ an
+ event.
+ Um
+ so
+ a
+ you
+ can
+
+
+receive
+ an
+ invoice
+ and
+ you
+ want
+ to
+ pay
+
+
+it.
+ Um
+ some
+ prompt
+ instructions
+ of
+ what
+
+
+you
+ want
+ to
+ do
+ with
+ it
+ and
+ some
+
+
+guardrails
+ like
+ a
+ policy
+ uh
+ like
+ an
+
+
+expense
+ policy
+ or
+ a
+ payables
+ policy.
+ Um
+
+
+context
+ what
+ is
+ the
+ data
+ that
+ the
+ agent
+
+
+should
+ consider
+ and
+ then
+ finally
+ tools.
+
+
+These
+ are
+ APIs
+ and
+ actions
+ that
+ you
+ can
+
+
+do.
+ And
+ traditionally
+ software
+ would
+
+
+focus
+ on
+ only
+ four
+ and
+ five.
+ Uh
+ in
+ the
+
+
+new
+ paradigm
+ software
+ is
+ doing
+
+
+everything.
+ So
+ you
+ want
+ to
+ focus
+ on
+
+
+building
+ an
+ autonomous
+ system
+ of
+ action
+
+
+that
+ can
+ react,
+ reason
+ and
+ act
+ without
+ a
+
+
+human
+ or
+ with
+ very
+ little
+ human
+
+
+supervision.
+
+
+Uh
+ so
+ what
+ does
+ it
+ mean
+ in
+ terms
+ of
+ what
+
+
+we're
+ building?
+
+
+So
+ first
+ uh
+ we
+ decided
+ we're
+ going
+ to
+
+
+consolidate
+ the
+ interactions
+
+
+um
+ verbal
+ interactions
+ uh
+ with
+ the
+
+
+agents
+ to
+ a
+ single
+ conversational
+ UX.
+ Uh
+
+
+we
+ literally
+ at
+ the
+ end
+ of
+ last
+ year
+ we
+
+
+had
+ about
+ five
+ different
+ conversational
+
+
+UXs.
+ We
+ now
+ have
+ consolidated
+ it
+ into
+
+
+what
+ we
+ call
+ an
+ omnihat.
+ Omni
+ meaning
+
+
+for
+ omniresent.
+ It
+ is
+ now
+ being
+ deployed
+
+
+to
+ every
+ surface
+ of
+ the
+ product.
+ And
+ it
+
+
+works
+ well
+ with
+ the
+ traditional
+ UX
+
+
+because
+ you
+ still
+ need
+ tables
+ and
+
+
+buttons
+ and
+ uh
+ you
+ don't
+ always
+ want
+ to
+
+
+be
+ talking
+ uh
+ to
+ your
+ software.
+ Um
+ but
+
+
+this
+ is
+ a
+ good
+ example
+ of
+ what
+ omnihat
+
+
+looks
+ like.
+ Uh
+ please
+ on
+ board
+ a
+ new
+
+
+employee.
+ Uh
+ Omnihat
+ can
+ resolve
+ an
+
+
+employee
+ to
+ uh
+ an
+ employee
+ ID
+ and
+ look
+
+
+up
+ through
+ an
+ HIS
+ tool
+ uh
+ their
+
+
+corporate
+ structure.
+ And
+ it
+ found
+ a
+
+
+workflow,
+ a
+ genic
+ workflow
+ that
+ we
+
+
+created
+ previously
+ called
+ the
+ new
+ hire
+
+
+playbook.
+ and
+ the
+ agent
+ is
+ asking
+ would
+
+
+you
+ like
+ me
+ to
+ to
+ onboard
+ the
+ person
+
+
+using
+ this
+ playbook?
+ How
+ is
+ this
+
+
+possible?
+ We
+ built
+ a
+ in-house
+
+
+lightweight
+ agent
+ framework
+ uh
+ that
+
+
+provides
+ orchestration
+ with
+ uh
+ tools
+
+
+that
+ engineers
+ are
+ very
+ quickly
+ building
+
+
+and
+ most
+ recently
+ uh
+ we
+ have
+ one
+ product
+
+
+manager
+ VIP
+ code
+ at
+ about
+ 20
+ tools.
+ So
+
+
+engineers
+ are
+ no
+ longer
+ needed
+ to
+ build
+
+
+those
+ tools.
+ Um
+ and
+ sometimes
+ your
+
+
+workflows
+ are
+ involved
+ such
+ as
+
+
+employment
+ boarding
+ consists
+ of
+ four
+
+
+steps.
+ So
+ you
+ can
+ just
+ go
+ on
+ ramp
+ and
+
+
+describe
+ what
+ do
+ you
+ want
+ to
+ happen
+ when
+
+
+a
+ new
+ employee
+ joins.
+ Give
+ them
+ a
+ card.
+
+
+Um
+ make
+ sure
+ they
+ get
+ receipts
+ for
+ every
+
+
+transaction.
+ Congratulate
+ them
+ on
+ on
+
+
+Slack
+ and
+ check
+ in
+ with
+ them
+ in
+ two
+
+
+weeks.
+ We
+ now
+ are
+ able
+ to
+ compile
+ this
+
+
+into
+ a
+ runnable
+ deterministic
+ workflow
+
+
+um
+ and
+ then
+ give
+ it
+ to
+ the
+ agent
+ to
+
+
+execute.
+ Uh
+ playbooks
+ make
+ use
+ of
+ tools
+
+
+and
+ how
+ this
+ all
+ comes
+ together.
+ Um
+ this
+
+
+is
+ an
+ example
+ which
+ uh
+ Viral
+ is
+ going
+ to
+
+
+double
+ click.
+ Next
+ is
+ uh
+ upon
+ swiping
+
+
+the
+ card
+ uh
+ there's
+ a
+ real-time
+ policy
+
+
+review
+ that's
+ happening
+ uh
+ directly
+ in
+
+
+the
+ software
+ and
+ policy
+ agent
+ enforces
+
+
+your
+ company
+ requirements
+ with
+ regard
+ to
+
+
+spend.
+ Um
+ therefore
+ it's
+ very
+ safe
+ to
+
+
+give
+ RAM
+ cards
+ to
+ literally
+ every
+
+
+employee
+ in
+ your
+ company.
+ And
+ there's
+ a
+
+
+handoff
+ happening
+ with
+ uh
+ an
+ accounting
+
+
+coding
+ agent
+ that
+ uh
+ classifies
+ this
+
+
+transaction
+ applies
+ the
+ rules
+ of
+ your
+
+
+back
+ office
+ team
+ of
+ your
+ finance
+ team
+ as
+
+
+an
+ employer
+ have
+ no
+ idea
+ how
+ certain
+
+
+transaction
+ should
+ match
+ to
+ our
+ GL
+ and
+
+
+that's
+ what
+ typical
+ traditional
+ products
+
+
+would
+ do.
+ They
+ will
+ expose
+ it
+ to
+ you.
+ Um
+
+
+so
+ the
+ agent
+ is
+ much
+ better
+ at
+ doing
+ it
+
+
+because
+ it
+ has
+ the
+ full
+ context
+ of
+ your
+
+
+chart
+ of
+ accounts.
+ it
+ understands
+ your
+
+
+ERP
+ and
+ then
+ it
+ can
+ either
+ auto
+ approve
+
+
+or
+ in
+ the
+ worst
+ case
+ scenario
+ it
+ will
+
+
+involve
+ uh
+ the
+ human
+ in
+ the
+ loop
+ to
+
+
+review
+ materiality
+ or
+ notify
+ that
+ there
+
+
+is
+ an
+ out
+ of
+ policy
+ spend.
+ Uh
+ with
+ that
+
+
+uh
+ please
+ welcome
+ Viral
+ who'll
+ uh
+ dive
+
+
+deeper
+ into
+ the
+ policy
+ agent.
+
+
+Thanks
+ Nick.
+
+
+Awesome.
+ So,
+ a
+ lot
+ of
+ finance
+ teams
+ are
+
+
+looking
+ at
+ receipts
+ like
+ this
+ basically
+
+
+every
+ day
+ and
+ maybe
+ they
+ might
+ have
+
+
+hundreds
+ or
+ thousands
+ of
+ these.
+ If
+ you
+
+
+told
+ me
+ to
+ look
+ at
+ this
+ and
+ decide
+ if
+ I
+
+
+should
+ approve
+ or
+ reject
+ this
+
+
+transaction,
+ I'm
+ probably
+ going
+ to
+ make
+
+
+a
+ mistake.
+
+
+So,
+ policy
+ agent
+ basically
+ reasons
+ on
+
+
+this
+ image
+ and
+ all
+ the
+ transaction
+ data
+
+
+that
+ we
+ have
+ and
+ told
+ me
+ that
+ there
+ were
+
+
+eight
+ guests
+ in
+ the
+ receipt.
+ I
+ could
+
+
+barely
+ see
+ that
+ when
+ I
+ was
+ looking
+ at
+
+
+it.
+ Uh,
+ it
+ was
+ below
+ the
+ $80
+ a
+ person
+
+
+cap
+ that
+ we
+ have
+ internally.
+ uh
+ they
+
+
+were
+ going
+ for
+ a
+ team
+ welcome
+ dinner
+ uh
+
+
+and
+ so
+ because
+ the
+ amount
+ was
+ verified
+
+
+as
+ well
+ and
+ the
+ merchant
+ uh
+ policy
+ agent
+
+
+told
+ me
+ to
+ approve
+ this
+ transaction.
+
+
+Similarly
+ for
+ this
+ OpenAI
+ transaction,
+
+
+Anand
+ was
+ testing
+ out
+ um
+ some
+ some
+
+
+chatbt
+ features
+ and
+ so
+ policy
+ agent
+ told
+
+
+me
+ this
+ was
+ a
+ valid
+ B
+ uh
+ business
+
+
+expense
+ and
+ told
+ me
+ to
+ approve
+ it
+ and
+
+
+then
+ this
+ $3
+ bakery
+ charge
+ was
+ told
+ uh
+
+
+was
+ was
+ uh
+ rejected
+ because
+ uh
+ it
+ wasn't
+
+
+uh
+ part
+ of
+ an
+ overtime
+ purchase
+ and
+ it
+
+
+didn't
+ happen
+ on
+ the
+ weekend.
+
+
+So
+ really
+ we
+ looked
+ at
+ this
+ as
+ an
+
+
+opportunity
+ to
+ rethink
+ how
+ ramp
+ was
+ set
+
+
+up.
+ um
+ controllers
+ and
+ finance
+ teams
+ are
+
+
+looking
+ at
+ transactions
+ like
+ these
+ and
+
+
+and
+ making
+ these
+ decisions
+ every
+ day.
+
+
+And
+ a
+ Fortune
+ 500
+ company
+ that
+ is
+ one
+ of
+
+
+our
+ customers
+ was
+ coming
+ to
+ us
+ and
+
+
+saying,
+ "Hey,
+ can
+ you
+ uh
+ make
+ sure
+ that
+
+
+you
+ approve
+ these
+ types
+ of
+ expenses
+ and
+
+
+reject
+ these
+ types
+ of
+ expenses?"
+ And
+
+
+they
+ basically
+ had
+ a
+ list
+ of
+ all
+ the
+
+
+rules
+ that
+ uh
+ RAMP
+ uh
+ should
+ should
+
+
+follow.
+ And
+ we
+ kind
+ of
+ saw
+ this
+ as
+ an
+
+
+opportunity
+ not
+ to
+ kind
+ of
+ add
+ more
+
+
+incremental
+ deterministic
+ rules
+ that
+
+
+kind
+ of
+ defined
+ our
+ product.
+ and
+ I
+
+
+worked
+ on
+ some
+ of
+ the
+ first
+ versions
+ of
+
+
+these
+ um
+ but
+ actually
+ kind
+ of
+ take
+ out
+ a
+
+
+page
+ from
+ Andre
+ Karpathy
+ saying
+ that
+
+
+English
+ is
+ the
+ new
+ programming
+ language
+
+
+and
+ kind
+ of
+ turn
+ the
+ expense
+ policy
+ into
+
+
+the
+ rules
+ themselves.
+ So
+ um
+ you
+ can
+ you
+
+
+can
+ see
+ ramps
+ expense
+ policy
+ on
+ the
+ left
+
+
+and
+ and
+ this
+ is
+ a
+ screenshot
+ from
+ our
+
+
+production
+ environment
+ but
+ we
+ are
+ seeing
+
+
+really
+ great
+ uh
+ use
+ out
+ of
+ our
+ policy
+
+
+agent
+ product
+ and
+ it
+ kind
+ of
+ needed
+ to
+
+
+start
+ it
+ kind
+ of
+ needed
+ to
+ start
+ really
+
+
+um
+ organically.
+ So
+ we
+ kind
+ of
+ operated
+
+
+like
+ a
+ early
+ stage
+ startup.
+ We're
+
+
+already
+ very
+ incremental
+ and
+ and
+ and
+
+
+fast
+ at
+ ramp
+ but
+ uh
+ we
+ found
+ some
+ design
+
+
+partners
+ like
+ that
+ Fortune
+ 500
+ company.
+
+
+We
+ iterated
+ really
+ quickly
+ and
+ we
+ had
+
+
+weekly
+ weekly
+ meetings
+ with
+ all
+ of
+ them
+
+
+to
+ kind
+ of
+ understand
+ exactly
+ what
+ uh
+
+
+feedback
+ we
+ wanted
+ to
+ hear
+ and
+ what
+ what
+
+
+we
+ could
+ improve.
+
+
+I
+ think
+ one
+ of
+ the
+ main
+ important
+ um
+ I
+
+
+guess
+ things
+ that
+ we
+ realized
+ across
+ uh
+
+
+ramp
+ is
+ that
+ we
+ really
+ needed
+ to
+ lean
+
+
+into
+ the
+ fact
+ that
+ AI
+ products
+ cannot
+ be
+
+
+oneshotted.
+ You
+ need
+ to
+ start
+ with
+
+
+something
+ simple.
+ And
+ so
+ as
+ long
+ as
+
+
+everyone
+ on
+ your
+ team,
+ PMs,
+ designers,
+
+
+engineers
+ are
+ aligned,
+ that
+ you're
+ not
+
+
+going
+ to
+ have
+ perfection
+ on
+ day
+ one.
+ I
+
+
+think
+ that
+ was
+ actually
+ one
+ of the
+ main
+
+
+like
+ cultural
+ learnings.
+ Um,
+ and
+ so
+ we
+
+
+dog
+ fooded
+ a
+ lot
+ of
+ this
+ work
+ internally
+
+
+uh
+ and
+ started
+ with
+ an
+ even
+ more
+
+
+constrained
+ problem
+ of
+ trying
+ to
+ decide
+
+
+whether
+ our
+ coffee
+ with
+ a
+ colleague
+
+
+transaction
+ should
+ be
+ approved
+ or
+
+
+rejected.
+ These
+ are
+ single
+ uh
+ uh
+ dollar
+
+
+amount
+ transactions
+ that
+ are
+ low
+ risk
+ um
+
+
+uh
+ according
+ to
+ our
+ finance
+ team.
+ And
+ so
+
+
+we
+ started
+ uh
+ with
+ these
+ transactions
+
+
+and
+ uh
+ one
+ of
+ the
+ early
+ learnings
+
+
+especially
+ as
+ we
+ kind
+ of
+ released
+ this
+
+
+uh
+ into
+ production
+ was
+ that
+ a
+ lot
+ of
+ the
+
+
+reason
+ that
+ policy
+ agent
+ would
+ be
+ wrong
+
+
+would
+ be
+ less
+ on
+ the
+ models
+ themselves
+
+
+and
+ more
+ about
+ the
+ context
+ that
+ we
+ were
+
+
+giving
+ uh
+ to
+ to
+ LLMs
+ themselves.
+ So
+ uh
+
+
+we
+ we
+ could
+ have
+ sat
+ down
+ and
+ thought
+
+
+about
+ all
+ the
+ context
+ in
+ the
+ beginning
+
+
+before
+ we
+ even
+ kicked
+ off
+ any
+
+
+engineering
+ work.
+ Uh
+ but
+ we
+ realized
+
+
+actually
+ the
+ best
+ thing
+ would
+ be
+ to
+
+
+learn
+ from
+ some
+ of
+ our
+ live
+ internal
+
+
+data.
+ And
+ so
+ uh
+ for
+ example
+ we
+ learned
+
+
+that
+ the
+ role
+ and
+ the
+ title
+ of
+ an
+
+
+employee
+ is
+ super
+ important
+ when
+ looking
+
+
+at
+ expense
+ policy
+ docs
+ certain
+ levels
+
+
+seuite
+ for example
+ might
+ have
+ higher
+
+
+limits
+ maybe
+ they
+ can
+ fly
+ on
+ first
+ class
+
+
+for
+ for
+ certain
+ flights
+ and
+ so
+ we
+
+
+started
+ extracting
+ more
+ information
+ from
+
+
+receipts
+ started
+ uh
+ pulling
+ in
+
+
+information
+ from
+ HRS
+ fields
+ that
+ are
+
+
+already
+ on
+ ramp
+ and
+ so
+ um
+ will
+ is
+ going
+
+
+to
+ kind
+ of
+ talk
+ you
+ through
+ exactly
+ the
+
+
+iterations
+ that
+ we
+ went
+ through
+ to
+
+
+implement
+ policy
+ agent
+ and
+ and
+ uh
+ some
+
+
+of
+ the
+ learnings
+ along
+ the
+
+
+down.
+ It's
+ down.
+
+
+>> Yeah.
+
+
+>> All right.
+ Cool.
+ Um,
+ awesome.
+ Um,
+ so
+
+
+when
+ we
+ first
+ started
+ building
+ the
+
+
+policy
+ agent
+ internally,
+ um,
+ we
+ dream,
+
+
+we
+ went
+ big.
+ We're
+ like,
+ hey,
+ let's
+
+
+automate
+ all
+ of
+ finance.
+ Let's
+ automate
+
+
+all
+ reviews.
+ But
+ when
+ it
+ came
+ down
+ to
+
+
+it,
+ we
+ actually
+ had
+ to
+ start
+ small.
+ Um,
+
+
+is
+ that
+ cup
+ of
+ coffee,
+ you
+ know,
+ in
+ your
+
+
+expense
+ policy?
+ And
+ the
+ reason
+ that
+ we
+
+
+did
+ that
+ was
+ because
+ even
+ though
+ the
+
+
+problem
+ sounds
+ simple
+ to
+ automate,
+ you
+
+
+know,
+ is
+ this
+ a
+ simple
+ question.
+ Is
+ this
+
+
+in
+ policy
+ or
+ not?
+ Um,
+ it
+ was
+ going
+ to
+
+
+grow
+ to
+ be
+ complex.
+ Kind
+ of
+ like
+ Vir
+
+
+said,
+ we
+ could
+ have
+ gone
+ down
+ and
+ we
+
+
+could
+ have
+ figured
+ out
+ what
+ context
+ do
+
+
+we
+ have,
+ how
+ can
+ we
+ add
+ it,
+ how
+ can
+ we
+
+
+put
+ it
+ all
+ together
+ in
+ a
+ way
+ that
+ Ellen
+
+
+can
+ understand
+ and
+ you
+ know,
+ put
+ it
+ all
+
+
+together
+ from
+ the
+ get-go.
+ But
+ we
+ knew
+
+
+that
+ even
+ if
+ we
+ aimed
+ and
+ got
+ everything
+
+
+right
+ the
+ first
+ time,
+ it
+ was
+ probably
+
+
+going
+ to
+ be
+ wrong
+ once
+ you
+ applied
+ and
+
+
+generalized
+ it
+ and
+ went
+ to
+ another
+
+
+business.
+ Um,
+ so
+
+
+the
+ simpler
+ the
+ system,
+ I
+ think
+ the
+
+
+easier
+ it
+ is
+ to
+ iterate
+ on
+ top
+ of
+ it.
+
+
+And
+ once
+ you
+ iterate,
+ you
+ know
+ what's
+
+
+going
+ to
+ work,
+ you
+ know
+ what's
+ not,
+ and
+
+
+you
+ can
+ kind
+ of
+ layer
+ complexity
+ on
+ top
+
+
+of
+ that.
+ And
+ I
+ think
+ that's
+ pretty
+
+
+important
+ to
+ um,
+ keep
+ in
+ mind
+ when
+
+
+you're
+ building
+ a
+ um,
+ LM
+ or
+ an
+ agent
+
+
+starter.
+ So
+ for
+ us
+ we
+ started
+ really
+
+
+simple
+ very
+ very
+ um
+ kind
+ of
+ the
+ classic
+
+
+you
+ know
+ we
+ have
+ an
+ expense
+ come
+ in
+
+
+retrieve
+ the
+ context
+ around
+ it
+ we
+ pass
+
+
+it
+ through
+ a
+ series
+ of
+ LM
+ calls
+ that
+ are
+
+
+very
+ well
+ defined
+ of
+ like
+ hey
+ is
+ this
+ in
+
+
+policy
+ why
+ is
+ it
+ in
+ policy
+ how
+ can
+ we
+
+
+show
+ the
+ user
+ that's
+ in
+ policy
+ and
+ then
+
+
+give
+ an
+ output
+ that
+ uh
+ makes
+ sense
+ in
+
+
+this
+ way
+ to
+ the
+ user
+ eventually
+ we
+
+
+learned
+ that
+ each
+ expense
+ is
+ kind
+ of
+
+
+different
+ we
+ can
+ classify
+ an
+ expense
+
+
+based
+ on
+ is
+ it
+ travel
+ is
+ it
+ a
+ meal
+ is
+ it
+
+
+entertainment
+ do
+ conditional
+ prompting
+
+
+and
+ then
+ retrieve
+ context
+ based
+ on
+ that
+
+
+and
+ and
+ passages
+ here's
+ LM
+ calls
+ and
+
+
+give
+ it
+ some
+ tools
+ so
+ that
+ it
+ can
+ also
+
+
+autonomously
+ decide
+ hey
+ um
+ I
+ need
+ flight
+
+
+information
+ actually
+ or
+ I
+ need
+ this
+
+
+employees
+ level
+ um
+ and
+ kind
+ of
+ layer
+
+
+that
+ on
+ top
+ and
+ a
+ few
+ iterations
+ later
+
+
+we
+ came
+ to
+ a
+ full
+ on
+ agentic
+ workflow
+ um
+
+
+we
+ ended
+ up
+ with
+ um
+ complex
+ tools
+ to
+
+
+read
+ across
+ all
+ of
+ our
+ platform
+ and
+
+
+these
+ tools
+ are
+ shared
+ across
+ our
+ all
+ of
+
+
+our
+ agents
+ it's
+ not
+ just
+ for
+ policy
+
+
+agent
+ we
+ have
+ a
+ company
+ internal
+ toolbox
+
+
+that
+ all
+ of
+ our
+ agents
+ are
+ easily
+ can
+
+
+you
+ know
+ reach
+ into
+ and
+ And
+ we
+ gave
+ it
+
+
+the
+ um
+ we
+ gave
+ it
+ the
+ um
+ capability
+ to
+
+
+write
+ as
+ well.
+ So
+ it's
+ now
+ writing
+
+
+decisions.
+ It's
+ writing
+ uh
+ reasoning.
+
+
+It's
+ writing
+ auto
+ approving
+ expenses
+ on
+
+
+users
+ behalf.
+ Um
+ and
+ it
+ goes
+ in
+ a
+ loop.
+
+
+So
+ um
+ you
+ know
+ now
+ it's
+ more
+ of
+ a
+ black
+
+
+box.
+ And
+ that's
+ kind
+ of
+ the
+ trade-off
+
+
+you
+ get.
+ Um
+ as
+ you
+ go
+ from
+ simple
+ to
+
+
+complex
+ systems
+ um
+ your
+ capability
+ goes
+
+
+up,
+ your
+ uh
+ autonomy
+ goes
+ up,
+ your
+
+
+agents
+ are
+ able
+ to
+ do
+ more,
+ your
+ AI
+ can
+
+
+do
+ more,
+ your
+ AI
+ seems
+ smarter.
+ But
+ in
+
+
+exchange,
+ you're
+ going
+ to
+ be
+ able
+ to
+
+
+you're
+ losing
+ traceability
+ and
+
+
+explainability.
+ Uh
+ we
+ look
+ at
+ it
+ now,
+ we
+
+
+can
+ kind
+ of
+ look
+ at
+ the
+ reasoning
+ tokens
+
+
+that
+ the
+ LM
+ gives
+ us,
+ but
+ in
+ the
+ end,
+ we
+
+
+have
+ no
+ control
+ over
+ it.
+ It's
+ going to
+
+
+do
+ what
+ it
+ thinks
+ it's
+ right.
+ It's
+ going
+
+
+to
+ make
+ the
+ tool
+ calls.
+ It's
+ going
+ to
+
+
+tell
+ you
+ it's
+ right
+ or
+ wrong.
+ So
+ a
+
+
+smaller
+ black
+ box
+ becomes
+ a
+ bigger
+ black
+
+
+box
+ as
+ the
+ system
+ becomes
+ more
+ complex.
+
+
+So
+ one
+ thing
+ that
+ is
+ really
+ important
+ uh
+
+
+when
+ doing
+ something
+ like
+ this
+ is
+ from
+
+
+the
+ beginning
+ you
+ need
+ really
+ good
+
+
+auditability.
+ Um,
+ assume
+ even
+ if
+ you
+
+
+know
+ how
+ it
+ works,
+ assume
+ that
+ your
+
+
+inputs
+ and
+ outputs
+ are
+ all
+ you
+ know
+ and
+
+
+make
+ sure
+ that
+ it's
+ correct.
+ Um,
+ so
+ if
+
+
+it
+ was
+ a
+ blackbox
+ system
+ and
+ you
+ only
+
+
+saw
+ the
+ input
+ output,
+ can
+ you
+ verify
+
+
+that
+ it
+ did
+ the
+ right
+ thing?
+ And
+ even
+ if
+
+
+that
+ blackbox
+ changes,
+ you
+ should
+ be
+
+
+able
+ to
+ reason
+ about
+ whether
+ the
+ output
+
+
+is
+ correct.
+ Um,
+ as
+ with
+ many
+ products
+
+
+that
+ we
+ built
+ at
+ ramp
+ and
+ across,
+ you
+
+
+know,
+ other
+ companies,
+ we
+ thought
+ that
+
+
+the
+ users
+ would
+ be
+ correct.
+ Uh,
+ you
+
+
+know,
+ if
+ the
+ user
+ says
+ approve,
+ the
+
+
+agent
+ should
+ approve.
+ If
+ the
+ user
+ says
+
+
+reject,
+ the
+ agent
+ should
+ reject.
+ But
+
+
+turns
+ out
+ the
+ users
+ are
+ actually
+
+
+incorrect.
+ They're
+ wrong.
+ They
+ are
+
+
+sometimes,
+ you
+ know,
+ they
+ don't
+ know
+ the
+
+
+expense
+ policy.
+ You
+ know,
+ they
+ trust
+
+
+their
+ employees.
+ They're
+ lazy.
+ It's
+ a
+
+
+Sunday.
+ Who
+ knows?
+ Um,
+ so
+ turns
+ out
+ we
+
+
+can't
+ always
+ do
+ what
+ the
+ users
+ are
+ doing
+
+
+because
+ sometimes
+ that's
+ where
+ uh
+
+
+finance
+ teams
+ come
+ back
+ to
+ you
+ and
+ are
+
+
+like,
+ "Hey,
+ this
+ is
+ wrong.
+ This
+
+
+shouldn't
+ be
+ on
+ the
+ uh
+ company
+ card."
+
+
+So,
+ we
+ had
+ to
+ define
+ our
+ own
+ definition
+
+
+of
+ correctness.
+ Um
+ and
+ to
+ do
+ that
+ uh
+ we
+
+
+had
+ a
+ weekly
+ labeling
+ session
+ with
+
+
+across
+ functions
+ that
+ are
+ working
+ on
+
+
+this
+ product.
+ Um
+ and
+ that
+ had
+ two
+ um
+
+
+kind
+ of
+ really
+ good
+ outcomes.
+ One
+ was
+
+
+that
+ we
+ had
+ a
+ ground
+ truth
+ data
+ set
+ that
+
+
+we
+ could
+ always
+ test
+ against
+ and
+ we
+ knew
+
+
+that
+ this
+ was
+ correct.
+ And
+ two
+ was
+ that
+
+
+everyone
+ was
+ on
+ the
+ same
+ page.
+ If
+ our
+
+
+agent
+ got
+ something
+ wrong,
+ everyone
+ knew
+
+
+that
+ it
+ got
+ it
+ wrong.
+ Or
+ you
+ know
+ our
+
+
+agent
+ is
+ missing
+ context,
+ everyone
+ knew
+
+
+that
+ it's
+ missing
+ that
+ context.
+ So
+ there
+
+
+was
+ less
+ communication.
+ everyone's
+ on
+
+
+the
+ same
+ page
+ and
+ um
+ they
+ could
+ focus
+ on
+
+
+what's
+ really
+ priority
+ and
+ kind
+ of
+ have
+
+
+alignment
+ on
+ that.
+
+
+Initially
+ um
+ getting
+ all
+ those
+ people
+
+
+together
+ in
+ a
+ room
+ every
+ week
+ giving
+
+
+them
+ homework
+ to
+ label
+ a
+ 100
+ data
+ points
+
+
+it's
+ expensive
+ you
+ know
+ that
+ everyone
+
+
+everyone
+ has
+ things
+ to
+ do
+ and
+ know
+ it's
+
+
+sometimes
+ they
+ don't
+ come
+ back
+ with
+
+
+their
+ homework
+ done
+ it's
+ just
+ like
+ kind
+
+
+of
+ like
+ come
+ almost
+ becomes
+ tedious
+ even
+
+
+though
+ it's
+ so
+ important
+ so
+ we
+ wanted
+ to
+
+
+make
+ it
+ as
+ simple
+ as
+ possible
+ and
+ the
+
+
+way
+ we
+ did
+ that
+ was
+ that
+ we
+ looked
+ for
+
+
+third
+ party
+ vendors
+ that
+ could
+ provide
+
+
+us
+ the
+ tools
+ to
+ label
+ data
+ and
+ collect
+
+
+the
+ data
+ but
+ turns
+ out
+ some
+ tools
+ are
+
+
+too
+ specific
+ to
+ a
+ use
+ case
+ some
+ tools
+
+
+are
+ too
+ general
+ and
+ we
+ could
+ have
+ spent
+
+
+weeks
+ trying
+ out
+ different
+ tools,
+ but
+ we
+
+
+decided
+ let's
+ just
+ build
+ our
+ own.
+ Um,
+ so
+
+
+we
+ used
+ clock
+ code
+ using
+ streamllet.
+ We
+
+
+basically
+ oneshotted
+ all
+ of
+ this.
+ And
+
+
+the
+ greatest
+ part
+ of
+ it
+ all
+ is
+ that
+ it's
+
+
+low
+ maintenance
+ um
+ low
+ risk.
+ It's
+ in
+ a
+
+
+part
+ of
+ the
+ codebase
+ that
+ if
+ it
+ breaks,
+
+
+we
+ can
+ fix
+ it
+ right
+ away.
+ Deploys
+ happen
+
+
+in
+ like
+ instant
+ seconds.
+ And
+
+
+non-engineers
+ can
+ go
+ and
+ personalize
+ it.
+
+
+They
+ can
+ they
+ can
+ vive
+ code
+ it.
+ They
+ can
+
+
+clock
+ code.
+ And
+ this
+ was
+ in
+ Opus
+ 4.
+ So
+
+
+now
+ with
+ Opus
+ 4.6,
+ I
+ expect
+ it's
+ even
+
+
+better.
+ And
+ uh
+ with
+ something
+ like
+ that,
+
+
+it's
+ definitely
+ easier
+ and
+ cheaper
+
+
+sometimes
+ to
+ do
+ something
+ oneoff
+ like
+
+
+this.
+
+
+And
+
+
+with
+ that,
+ with
+ the
+ ground
+ truth
+ data
+
+
+set,
+ we
+ were
+ able
+ to
+ make
+ quick
+
+
+iterations.
+ We
+ were
+ able
+ to
+ find
+ out,
+
+
+hey,
+ we
+ need
+ employee
+ levels,
+ add
+ that.
+
+
+How
+ does
+ that
+ work?
+ Run
+ it
+ against
+ this
+
+
+data
+ set.
+ Does
+ it
+ actually
+ catch
+ it?
+ And
+
+
+now
+ say
+ accept
+ or
+ approve.
+ Um,
+ and
+ we
+
+
+were
+ able
+ to
+ make
+ really
+ quick
+
+
+iterations
+ and
+ that
+ was
+ kind
+ of
+ the
+ key
+
+
+um
+ that
+ was
+ actually
+ kind
+ of
+ a
+ key
+ point
+
+
+in
+ developing
+ this.
+ uh
+ we
+ had
+ really
+
+
+early
+ confidence
+ that
+ this
+ could
+
+
+actually
+ work
+ and
+ we
+ were
+ able
+ to
+
+
+actually
+ buy
+ get
+ a
+ lot
+ of
+ buy
+ in
+ um
+ get
+
+
+a
+ lot
+ of
+ customers
+ on
+ boarded
+ and
+ kind
+
+
+of
+ try
+ it
+ out
+ as
+ a
+ design
+ partner.
+ Um
+
+
+and
+ as
+ part
+ of
+ like
+ doing
+ that
+ iteration
+
+
+with
+ the
+ data
+ set
+ you
+ had
+ evals
+ and
+ I
+
+
+feel
+ like
+ evals
+ are
+ being
+ you
+ know
+
+
+obviously
+ everyone
+ I
+ think
+ in
+ this
+ room
+
+
+now
+ knows
+ about
+ evals
+ and
+ what
+ they
+ mean
+
+
+but
+ um
+ it's
+ pretty
+ important
+ to
+ have
+
+
+them
+ early
+ on.
+ I
+ wouldn't
+ say
+ that
+ you
+
+
+know
+ don't
+ let
+ perfectionism
+ you
+ know
+
+
+get
+ in
+ the
+ way.
+ You
+ don't
+ need
+ a
+ full
+
+
+data
+ set
+ of
+ a
+ thousand
+ data
+ points.
+ So
+
+
+you're
+ testing
+ against
+ every
+ iteration.
+
+
+We
+ started
+ with
+ five,
+ you
+ know,
+ and
+ we
+
+
+knew
+ that
+ those
+ five
+ we
+ were
+ not
+ going
+
+
+to
+ fail.
+ We
+ kept
+ adding
+ and
+ adding
+ and
+
+
+adding
+ and
+ you
+ know
+ make
+ sure
+ it's
+ easy
+
+
+to
+ run.
+ Anyone
+ could
+ go
+ and
+ just
+ run
+
+
+that
+ command
+ and
+ then
+ make
+ sure
+ that
+ the
+
+
+results
+ are
+ really
+ easy
+ to
+ understand.
+
+
+Um
+ they
+ are
+ able
+ to
+ look
+ at
+ it
+ get
+
+
+instant
+ you
+ know
+ output
+ like
+ and
+
+
+understand
+ like
+ hey
+ this
+ is
+ what
+ the
+
+
+model's
+ doing.
+ this
+ is
+ like
+ good,
+ this
+
+
+is
+ bad.
+ And
+ like
+ if
+ you
+ run
+ it
+ as
+ part
+
+
+of
+ your
+ CI,
+ then
+ everyone
+ now
+ can
+ safely
+
+
+merge
+ in
+ code.
+ Um
+ because
+ whenever
+ um
+
+
+whenever
+ you
+ think
+ you're
+ doing
+
+
+something
+ right
+ for
+ the
+ LMS
+ or
+ agent,
+
+
+giving
+ more
+ context,
+ giving
+ a
+ tool,
+ more
+
+
+likely
+ than
+ not,
+ it's
+ probably
+ going
+ to
+
+
+have
+ some
+ kind
+ of
+ bad,
+ you
+ know,
+
+
+consequence
+ that
+ you
+ didn't
+ see
+
+
+happening.
+ Context
+ rot.
+ Um
+ whether
+ it
+ be
+
+
+the
+ tool
+ instructions
+ are
+ wrong
+ or
+ maybe
+
+
+the
+ dock
+ string
+ was
+ like
+ a
+ little
+
+
+confusing
+ and
+ conflicting.
+ Um
+ so
+ it
+
+
+might
+ have
+ consequences.
+ You
+ just
+ want
+
+
+to
+ you
+ just
+ want
+ to
+ make
+ sure
+ you're
+
+
+catching
+ against
+ those.
+ Um,
+ and
+ then
+
+
+I'll
+ touch
+ on
+ it
+ briefly,
+ but
+ online
+
+
+evals
+ are
+ also
+ great.
+ So,
+ these
+ are
+
+
+offline.
+ You
+ have
+ a
+ data
+ set,
+ it's
+
+
+historical,
+ you're
+ testing
+ it,
+ but
+ if
+
+
+you
+ can,
+ online
+ evals
+ can
+ be
+ a
+ little
+
+
+more
+ confusing
+ and
+ uh
+ harder
+ to
+ kind
+ of
+
+
+measure,
+ but
+ if
+ you
+ can
+ measure
+ anything
+
+
+that
+ as
+ your
+ users
+ are
+ interacting
+ with
+
+
+the
+ system,
+ definitely
+ as
+ a
+ leading
+
+
+metric,
+ I'll
+ set
+ them
+ up.
+ And
+ for
+ us,
+
+
+part
+ of
+ that
+ was
+ hey,
+ how
+ many
+ are
+ rates
+
+
+of
+ like
+ decisions?
+ We
+ had
+ an
+ unsure
+
+
+decision,
+ which
+ is
+ which
+ just
+ meant
+ that
+
+
+the
+ agent
+ didn't
+ have
+ enough
+
+
+information.
+ So,
+ we
+ could
+ measure
+ that
+
+
+online.
+ know
+ it's
+ much
+ simple
+ eval
+ but
+
+
+that
+ also
+ gave
+ us
+ a
+ pretty
+ good
+ health
+
+
+check
+ um
+ as
+ our
+ system
+ was
+ running.
+
+
+>> Cool.
+ And
+ another
+ great
+ part
+ about
+ evals
+
+
+is
+ that
+ with
+ evals
+ you
+ can
+ make
+
+
+confident
+ model
+ changes.
+ Uh
+ whenever
+ a
+
+
+new
+ model
+ comes
+ out
+ open
+ 46
+ GPT53
+ you
+
+
+want
+ to
+ make
+ sure
+ that
+ you
+ can
+ leverage
+
+
+those
+ new
+ models
+ because
+ sometimes
+ that
+
+
+could
+ mean
+ the
+ difference
+ between
+ you
+
+
+know
+ your
+ system
+ getting
+ one
+ part
+ of
+ the
+
+
+problem
+ right
+ to
+ wrong.
+ But
+ it
+ could
+
+
+also
+ mean
+ the
+ opposite.
+ it
+ could
+ have
+ it
+
+
+could
+ actually
+ be
+ not
+ good
+ without
+ any
+
+
+prompt
+ changes
+ or
+ changing
+ how
+ your
+
+
+system
+ works.
+ So
+ um
+ having
+ evos
+ really
+
+
+set
+ up
+ and
+ being
+ able
+ to
+ benchmark
+
+
+really
+ helps
+ um
+ make
+ confident
+ model
+
+
+changes.
+
+
+Cool.
+ Um
+ so
+ now
+ that
+ policy
+ agent
+ we've
+
+
+been
+ developing
+ this
+ for
+ a
+ while
+ it's
+
+
+available
+ for
+ everyone
+ on
+ the
+ RAM
+
+
+platform.
+ Some
+ of
+ the
+ things
+ that
+ we
+
+
+learned
+ along
+ the
+ way
+ is
+ that
+ um
+ cloud
+
+
+code
+ as
+ engineers
+ is
+ very
+ exciting.
+ We
+
+
+have
+ full
+ control.
+ We
+ get
+ to
+ modify
+ our
+
+
+cloud
+ MD.
+ We
+ get
+ to
+ make
+ sure
+ you
+ know
+
+
+tell
+ it
+ to
+ not
+ leave
+ comments.
+ it
+ won't
+
+
+leave
+ comments
+ hopefully.
+ Um,
+ turns
+ out
+
+
+it's
+ not
+ just
+ us.
+ Um,
+ finance
+ people
+
+
+also
+ really
+ like
+ to
+ have
+ you
+ know
+ modify
+
+
+their
+ cloud
+ MD
+ which
+ is
+ their
+ expense
+
+
+policy.
+ So
+ if
+ something
+ went
+ wrong
+ with
+
+
+the
+ decision
+ then
+ we
+ just
+ like
+ tell
+ them
+
+
+hey
+ go
+ update
+ your
+ policy
+ doc
+ which
+ to
+
+
+them
+ it's
+ a
+ little
+ scary
+ concept
+ to
+
+
+begin
+ like
+ this
+ is
+ a
+ document
+ like
+ you
+
+
+know
+ you
+ don't
+ mess
+ with
+ that.
+ Um
+ you
+
+
+have
+ to
+ go
+ through
+ a
+ lot
+ of
+ hoops
+ if
+ you
+
+
+want
+ to
+ mess
+ with
+ that
+ but
+ it
+ turns
+ out
+
+
+if
+ you
+ get
+ them
+ really
+ excited
+ about
+ the
+
+
+feedback
+ loop
+ hey
+ change
+ that
+ you'll
+ see
+
+
+it
+ right
+ away.
+ Turns
+ out
+ they'll
+ be
+ like
+
+
+really
+ excited
+ to
+ do
+ this.
+ Um
+ and
+ then
+
+
+trust
+ builds
+ over
+ time.
+ So
+ some
+ of
+ the
+
+
+earlier
+ customers
+ that
+ we
+ had
+ were
+ some
+
+
+of
+ the
+ Fortune
+ 500s.
+ We
+ actually
+ started
+
+
+with
+ the
+ really
+ big,
+ you
+ know,
+ um
+
+
+enterprise
+ customers
+ that
+ we
+ had
+ because
+
+
+we
+ thought
+ that
+ they
+ would
+ have
+ the
+ most
+
+
+value.
+ They
+ have
+ the
+ most
+ expenses
+
+
+coming
+ in.
+ They
+ have
+ the
+ most
+ time
+ spent
+
+
+on
+ reviewing
+ coffee
+ expenses.
+ Um
+ so
+ out
+
+
+to
+ them,
+ let
+ them
+ have
+ the
+ trust.
+ Don't
+
+
+we
+ didn't
+ do
+ any
+ autonomous
+ action.
+
+
+We're
+ just
+ like,
+ "Hey,
+ we're
+ going to
+
+
+give
+ you
+ a
+ suggestion."
+ That's
+ that's
+
+
+how
+ that's
+ kind
+ of
+ how
+ we
+ phrased
+ it,
+
+
+suggestions.
+ And
+ eventually
+ they
+ came
+ to
+
+
+us
+ and
+ were
+ like,
+ "Okay,
+ you
+ know what?
+
+
+I
+ want
+ to
+ go
+ from
+ suggestions
+ to
+ auto
+
+
+approvals.
+ Like
+ anything
+ under
+ $200,
+ you
+
+
+guys
+ are
+ mostly
+ right.
+ I
+ don't
+ care
+
+
+about
+ this.
+ Let
+ me
+ just
+ go
+ auto
+ approve
+
+
+it."
+ So
+ we
+ gave
+ them
+ the
+ autonomy
+
+
+slider.
+ We
+ gave
+ them
+ a
+ way
+ to
+ just
+ like
+
+
+turn
+ it
+ on
+ and
+ then
+ they
+ actually
+ could
+
+
+do
+ it
+ themselves.
+ And
+ then
+ last
+ but
+ not
+
+
+least,
+ um
+ similar
+ to
+ LMS,
+ users
+ thrive,
+
+
+you
+ know,
+ in
+ product
+ feedback
+ loops.
+ Um
+
+
+so
+ you
+ know
+ when
+ you're
+ building
+ an
+ AI
+
+
+product
+ and
+ you
+ have
+ a
+ full
+ way
+ of
+ like
+
+
+LMS
+ can
+ test
+ if
+ it's
+ code
+ was
+ right
+ and
+
+
+it's
+ able
+ to
+ iterate
+ users
+ are
+ the
+ same
+
+
+way
+ um
+ give
+ them
+ in
+ product
+ ways
+ to
+
+
+improve
+ the
+ expense
+ policy
+ doc
+ improve
+
+
+the
+ agent
+ and
+ how
+ it
+ operates
+ and
+ um
+
+
+they're
+ more
+ than
+ excited
+ to
+ kind
+ of
+
+
+take
+ it
+ over
+ themselves
+ and
+ um
+ kind
+ of
+
+
+improve
+ it
+ and
+ personalize
+ it
+ for
+ them.
+
+
+So
+ um
+ from
+ here
+ I'll
+ pass
+ it
+ on
+ to
+ Ian
+
+
+who's
+ going
+ to
+ kind
+ of
+ talk
+ about
+ the
+
+
+infrastructure
+ and
+ the
+ culture
+ that
+ we
+
+
+have
+ at
+ ramp
+ that
+ kind
+ of
+ it
+ led
+ us
+ to
+
+
+building
+ the
+ policy
+ agent.
+
+
+>> Hey
+ everybody.
+
+
+So
+ you've
+ heard
+ a
+ little
+ a
+ little
+ bit
+
+
+about
+ like
+ how
+ we're
+ kind
+ of
+ getting
+
+
+leverage
+ to
+ all
+ of
+ the
+ different
+ finance
+
+
+teams
+ as
+ we
+ operate
+ on
+ top
+ of
+ their
+
+
+financial
+ infrastructure
+ and
+ really
+ try
+
+
+to
+ get
+ leverage
+ for
+ our
+ customers.
+ Um
+
+
+but
+ I
+ think
+ a
+ big
+ thing
+ that
+ we
+ also
+
+
+spend
+ a
+ lot
+ of
+ time
+ thinking
+ about
+ is
+
+
+how
+ can
+ we
+ get
+ leverage
+ for
+ ramp
+ itself
+
+
+the
+ engineers
+ our
+ XFN
+ orgs
+ all
+ the
+
+
+people
+ that
+ we
+ work
+ with
+ um
+ every
+ single
+
+
+day
+ and
+ this
+ slide
+ is
+ this
+ section
+ is
+
+
+pretty
+ intentionally
+ named
+ AI
+
+
+infrastructure
+ and
+ culture
+ because
+ we
+
+
+think
+ that
+ this
+ is
+ both
+ like
+ a
+ really
+
+
+challenging
+ infrastructure
+ problem
+ but
+
+
+it's
+ also
+ really
+ challenging
+ culture
+
+
+problem
+ and
+ changing
+ how
+ you
+ work
+ as
+
+
+well
+ is
+ a
+ big
+ part
+ of
+ the
+ story
+
+
+and
+ so
+ to
+ kind
+ of
+ start
+ on
+ the
+
+
+infrastructure
+ side.
+ The
+ core
+ of
+ how
+
+
+most
+ of
+ applied
+ AI
+ happens
+ at
+ RAMP
+ is
+
+
+our
+ applied
+ AI
+ surface
+ service.
+ And
+ at
+
+
+like
+ a
+ 10,000
+ foot
+ view,
+ this
+ looks
+
+
+something
+ kind
+ of
+ like
+ an
+ LM
+ proxy
+ or
+
+
+something
+ like
+ light
+ LLM.
+ But
+ there's
+
+
+really
+ three
+ kind
+ of
+ main
+ extensions
+
+
+that
+ we've
+ invested
+ in
+ to
+ make
+ this
+ a
+
+
+lot
+ more
+ powerful
+ for
+ a
+ lot
+ of
+ our
+ use
+
+
+cases.
+ The
+ first
+ is
+ like
+ structured
+
+
+output
+ and
+ consistent
+ API
+ and
+ SDKs
+
+
+across
+ different
+ model
+ providers.
+ This
+
+
+can
+ be
+ pretty
+ tricky
+ to
+ do,
+ especially
+
+
+with
+ how
+ quickly
+ the
+ APIs
+ are
+ changing,
+
+
+but
+ it's
+ a
+ problem
+ that
+ we
+ don't
+ want
+
+
+downstream
+ product
+ teams
+ to
+ have
+ to
+
+
+think
+ about.
+ So,
+ if
+ you
+ have
+ an
+ idea
+ of
+
+
+I
+ want
+ to
+ switch
+ from
+ uh
+ GPT
+ 5.3
+ to
+ Opus
+
+
+or
+ I
+ want
+ to
+ try
+ Gemini
+ 3
+ Pro,
+ you
+
+
+should
+ be
+ able
+ to
+ do
+ that
+ with
+ a
+ config
+
+
+change
+ and
+ really
+ quickly
+ be
+ able
+ to
+
+
+iterate
+ on
+ semantic
+ similarity
+ and
+
+
+trying
+ to
+ do
+ a
+ bunch
+ of
+ different
+ um
+ you
+
+
+know,
+ code
+ sandboxing
+ and
+ structured
+
+
+output
+ calls
+ that
+ way.
+ The
+ other
+ thing
+
+
+that
+ we've
+ spent
+ a
+ ton
+ of
+ time
+ thinking
+
+
+about
+ is
+ kind
+ of
+ batch
+ processing
+ and
+
+
+workflow
+ handling.
+ This
+ is
+ really
+ useful
+
+
+for
+ eval
+ if
+ you're
+ doing
+ like
+ bulk
+ for
+
+
+us
+ bulk
+ document
+ or
+ data
+ analysis.
+ Um
+
+
+and
+ that's
+ something
+ that
+ we
+ also
+ don't
+
+
+want
+ teams
+ to
+ have
+ to
+ spend
+ a
+ bunch
+ of
+
+
+time
+ on
+ of
+ how
+ do
+ you
+ want
+ to
+ batch
+ this
+
+
+and
+ handle
+ it
+ with
+ rate
+ limits
+ and
+ do
+ we
+
+
+want
+ to
+ do
+ this
+ on
+ an
+ offline
+ or
+ online
+
+
+job
+ with
+ something
+ like
+ Enthropic.
+ We
+
+
+just
+ want
+ to
+ handle
+ that
+ for
+ downstream
+
+
+consumers
+ so
+ they
+ can
+ just
+ focus
+ on
+
+
+providing
+ value
+ for
+ downstream
+
+
+customers.
+ And
+ then
+ the
+ last
+ which
+ is
+ a
+
+
+pretty
+ big
+ deal
+ is
+ the
+ ability
+ to
+ trace
+
+
+different
+ costs
+ across
+ teams
+ and
+ against
+
+
+products
+ as
+ well.
+ And
+ this
+ allows
+ us
+ to
+
+
+kind
+ of
+ identify
+ the
+ parado
+ you
+ know
+
+
+curve
+ of
+ like
+ what
+ is
+ the
+ best
+ kind
+ of
+
+
+model
+ performance
+ for
+ cost?
+ How
+ are
+
+
+these
+ evolving
+ over
+ time?
+ What
+ teams
+ are
+
+
+actually
+ not
+ you
+ know
+ building
+ something
+
+
+that's
+ going to
+ be
+ sustainable
+ long
+ term
+
+
+for
+ different
+ product
+ surfaces.
+ And
+ this
+
+
+can
+ be
+ really
+ really
+ important
+ to
+ just
+
+
+remove
+ all
+ this
+ work
+ from
+ internal
+ teams
+
+
+h
+ having
+ to
+ think
+ about
+ this.
+ And
+ the
+
+
+last
+ thing
+ that's
+ kind
+ of
+ I
+ think
+ funny
+
+
+to
+ think
+ about,
+ we
+ often
+ joke
+ about
+
+
+that,
+ you
+ know,
+ our
+ customers
+ are
+
+
+actually
+ using
+ the
+ front
+ more
+ of
+ a
+
+
+frontier
+ model
+ than
+ they
+ may
+ even
+ know
+
+
+even
+ is
+ out
+ yet
+ is
+ it
+ allows
+ us
+ to
+ stay
+
+
+at
+ the
+ frontier
+ when
+ a
+ new
+ model
+ comes
+
+
+out.
+ It's
+ a
+ oneline
+ config
+ change
+ that
+
+
+impacts
+ every
+ single
+ SDK
+ downstream.
+ And
+
+
+so
+ rather
+ than
+ teams
+ having
+ to
+ learn
+ the
+
+
+SDK
+ or
+ go
+ into
+ 12
+ or
+ dozens
+ of
+ different
+
+
+call
+ sites,
+ they
+ can
+ just
+ change
+ it
+ in
+
+
+one
+ place
+ for
+ their
+ specific
+ team.
+ and
+
+
+they
+ now
+ get
+ the
+ benefit
+ of
+ being
+ on
+ the
+
+
+latest
+ and
+ greatest
+ models
+ um
+ that
+ we've
+
+
+kind
+ of
+ vetted
+ and
+ built
+ into
+ the
+ rest
+
+
+of
+ the
+ system.
+
+
+Our
+
+
+product
+ as
+ you've
+ kind
+ of
+ heard
+ earlier
+
+
+earlier
+ works
+ on
+ a
+ lot
+ of
+ like
+ very
+
+
+sensitive
+ data
+ and
+ very
+ sensitive
+
+
+workflows
+ and
+ I
+ think
+ oftent
+ times
+ uh
+
+
+you
+ know
+ something
+ that
+ I
+ hear
+ from
+
+
+engineers
+ in
+ the
+ space
+ is
+ this
+ kind
+ of
+
+
+concept
+ of
+ hallucination
+ and
+ safety
+ and
+
+
+how
+ are
+ you
+ actually
+ going
+ to
+ be
+ able
+ to
+
+
+produce
+ a
+ lot
+ of
+ these
+ things
+ to
+ have
+
+
+benefits
+ to
+ downstream
+ finance
+ teams
+ and
+
+
+we're
+ pretty
+ big
+ believers
+ that
+ it
+ all
+
+
+comes
+ down
+ to
+ the
+ catalog
+ of
+ tools
+ that
+
+
+teams
+ are
+ building
+ and
+ integrating
+ with
+
+
+a
+ daily
+ basis
+ and
+ so
+ what
+ you're
+ seeing
+
+
+here
+ is
+ is
+ our
+ internal
+ tool
+ catalog.
+ So
+
+
+an
+ example
+ would
+ be
+ like
+ get
+ a
+ policy
+
+
+snippet
+ or
+ PDM
+ rate
+ or
+ recent
+
+
+transactions.
+ And
+ these
+ are
+ built
+
+
+alongside
+ of
+ product
+ teams
+ to
+ really
+
+
+understand
+ a
+ lot
+ of
+ the
+ nuances
+ in
+ the
+
+
+data
+ and
+ the
+ use
+ case.
+ And
+ what's
+ really
+
+
+cool
+ about
+ this
+ is
+ not
+ only
+ can
+ you
+ see
+
+
+where
+ there's
+ gaps
+ in
+ our
+ offering
+ that
+
+
+oh
+ we
+ actually
+ don't
+ have
+ a
+ tool
+ for
+
+
+this
+ specific
+ use
+ case.
+ These
+ can
+ be
+
+
+used
+ both
+ in
+ internal
+ repos
+ and
+ our
+ core
+
+
+product.
+ And
+ so
+ if
+ you
+ have
+ an
+ idea
+ of
+ I
+
+
+want
+ to
+ do
+ a
+ cool
+ reimbursement
+ agent
+
+
+idea,
+ here
+ are
+ the
+ different
+ ways
+ to
+
+
+integrate
+ the
+ tools,
+ the
+ different
+ APIs
+
+
+and
+ systems
+ that
+ they
+ integrate
+ with.
+
+
+And
+ now
+ you
+ can
+ prototype
+ that
+ on
+ a
+
+
+totally
+ new
+ product
+ and
+ vibe
+ coded
+
+
+surface
+ area
+ without
+ having
+ to
+ worry
+
+
+about
+ like
+ learning
+ all
+ of
+ these
+ things
+
+
+from
+ scratch
+ or
+ building
+ the
+ tools
+ on
+
+
+your
+ own.
+ We're
+ up
+ to
+ like
+ many
+ hundreds
+
+
+of
+ these
+ tools
+ today
+ and
+ we
+ as
+ Nick
+
+
+mentioned
+ earlier
+ thinks
+ that
+ this
+ could
+
+
+be
+ like
+ multiple
+ thousands
+ over
+ time.
+
+
+On
+ the
+ topic
+ of
+ context,
+ another
+ big
+
+
+thing
+ we
+ think
+ about
+ is
+ context
+ for
+ our
+
+
+customers
+ of
+ how
+ do
+ we
+ actually
+
+
+integrate
+ the
+ financial
+ stack
+ and
+ allow
+
+
+them
+ to
+ be
+ a
+ lot
+ more
+ productive.
+ But
+ we
+
+
+notice
+ like
+ a
+ very
+ similar
+ problem
+
+
+internally
+ um
+ on
+ our
+ engineering
+ team.
+
+
+And
+ I
+ think
+ something
+ that's
+ like
+ not
+ as
+
+
+always
+ obvious
+ is
+ that
+ you
+ know
+ even
+ if
+
+
+you're
+ using
+ something
+ like
+ cloud
+ code
+
+
+or
+ codeex
+ there's
+ all
+ this
+ fragmentation
+
+
+of
+ actually
+ what
+ you
+ do
+ on
+ a
+ daily
+ basis
+
+
+to
+ get
+ work
+ done
+ in
+ your
+ company
+ that
+
+
+that's
+ not
+ integrated
+ too.
+ There's
+ logs
+
+
+in
+ data
+ dog.
+ There's
+ a
+ production,
+ you
+
+
+know,
+ database
+ that
+ has
+ a
+ bunch
+ of
+
+
+things
+ going
+ on.
+ There's
+ different
+
+
+alerting
+ systems.
+ There's
+ incident
+ IO.
+
+
+There's
+ a
+ Slack
+ message
+ you
+ have
+ to
+ pull
+
+
+in.
+ There's
+ a
+ notion
+ doc.
+ And
+ then
+
+
+there's
+ a
+ lot
+ of
+ like
+ knowledge
+ that
+
+
+those
+ actual
+ specific
+ product
+ teams
+ have
+
+
+of
+ how
+ they
+ actually
+ need
+ to
+ get
+ work
+
+
+done
+ as
+ well.
+ And
+ so
+ at
+ the
+ end
+ of
+ last
+
+
+year,
+ we
+ decided
+ to
+ start
+ out
+ and
+ try
+ to
+
+
+solve
+ this
+ problem
+ of
+ how
+ can
+ we
+
+
+actually
+ integrate
+ all
+ this
+ context
+ and
+
+
+build
+ our
+ own
+ internal
+ background
+ coding
+
+
+agent,
+ which
+ we've
+ called
+ ramp
+ inspect.
+
+
+You
+ may
+ have
+ seen
+ this
+ on
+ LinkedIn
+ or
+ X.
+
+
+We
+ actually
+ have
+ open
+ sourced
+ the
+
+
+blueprint
+ of
+ how
+ we've
+ built
+ this
+ and
+ at
+
+
+the
+ end
+ I
+ can
+ definitely
+ show
+ you
+ guys
+ a
+
+
+link
+ of
+ where
+ to
+ find
+ that.
+ And
+ the
+ the
+
+
+progress
+ has
+ been
+ pretty
+ phenomenal
+ of
+
+
+actually
+ integrating
+ this
+ into
+ a
+
+
+background
+ agent
+ that
+ can
+ run
+
+
+autonomously
+ as
+ people
+ are
+ in
+ meetings
+
+
+if
+ as
+ bug
+ fixes
+ come
+ up
+ and
+ things
+ like
+
+
+that.
+ And
+ currently
+ this
+ month,
+ Ramp
+
+
+Inspect
+ is
+ responsible
+ for
+ over
+ 50%
+ of
+
+
+PRs
+ that
+ we
+ merge
+ to
+ production.
+ I
+ have
+
+
+some
+ interesting
+ we're
+ like
+ really
+ big
+
+
+nerds
+ with
+ uh
+ stats
+ and
+ numbers
+ and
+
+
+things
+ like
+ that.
+ So
+ we
+ have
+ this
+
+
+dashboard
+ to
+ kind
+ of
+ create
+ this
+ like
+
+
+interesting
+ one
+ like
+ subtle
+ healthy
+
+
+competition
+ but
+ also
+ inspire
+ people
+ that
+
+
+they
+ can
+ actually
+ use
+ this
+ as
+ well.
+ And
+
+
+so
+ you
+ can
+ see
+ engineering
+ uh
+ has
+ a
+ huge
+
+
+lead
+ of
+ the
+ amount
+ of
+ sessions,
+ but
+ you
+
+
+also
+ have
+ product,
+ you
+ also
+ have
+ design,
+
+
+there's
+ risk,
+ legal,
+ corporate,
+ finance,
+
+
+and
+ even
+ marketing
+ and
+ CX
+ teams
+ using
+
+
+ramp
+ inspect.
+ And
+ they're
+ doing
+ things
+
+
+like
+ simple
+ copy
+ changes.
+ They're
+ doing
+
+
+logic
+ fixes.
+ They're
+ trying
+ to
+ respond
+
+
+to
+ incidents
+ or
+ bugs.
+ And
+ what's
+ been
+
+
+really
+ cool
+ to
+ see
+ as
+ this
+ has
+ evolved
+
+
+over
+ time
+
+
+is
+ how
+ we've
+ actually
+ designed
+ a
+ couple
+
+
+of
+ these
+ things
+ um
+ with
+ some
+ core
+
+
+principles
+ to
+ be
+ really
+ powerful.
+ So
+
+
+what
+ you're
+ seeing
+ here
+ is
+ a
+ ramp
+ and
+
+
+spec
+ session.
+ I
+ think
+ this
+ is
+ an
+ example
+
+
+of
+ like
+ a
+ query
+ that
+ we
+ were
+ trying
+ to
+
+
+fix.
+ This
+ spins
+ up
+ in
+ the
+ background
+
+
+really
+ fast
+ um
+ modal
+ code
+ sandbox.
+ This
+
+
+allows
+ us
+ to
+ like
+ resume
+ spin
+ up
+ and
+
+
+spin
+ down
+ these
+ containers
+ in
+ an
+
+
+isolated
+ environment
+ which
+ has
+ the
+ same
+
+
+environment
+ that
+ you
+ would
+ have
+ if
+
+
+you're
+ developing
+ a
+ ramp.
+ There's
+ a
+
+
+series
+ of
+ tasks
+ to
+ keep
+ it
+ on
+ track
+ and
+
+
+it
+ creates
+ a
+ GitHub
+ branch
+ and
+
+
+integrates
+ with
+ all
+ of
+ the
+ context
+
+
+documents,
+ our
+ data
+ dog,
+ our
+ read
+
+
+replica
+ so
+ it
+ can
+ actually
+ write
+ queries
+
+
+and
+ different
+ context
+ documents
+ that
+
+
+product
+ teams
+ have
+ um
+ have
+ put
+ together.
+
+
+And
+ what's
+ really
+ uh
+ I
+ think
+ subtle
+
+
+about
+ how
+ we've
+ designed
+ this
+ is
+ we've
+
+
+designed
+ it
+ to
+ be
+ multiplayer
+ first.
+ And
+
+
+that
+ means
+ that
+ as
+ you
+ integrate
+ or
+ you
+
+
+try
+ to
+ pair
+ with
+ like
+ a
+ designer
+ or
+
+
+somebody
+ on
+ the
+ PM
+ team,
+ they
+ you
+ can
+
+
+actually
+ help
+ them
+ like
+ level
+ up
+ their
+
+
+own
+ prompting
+ skills,
+ they
+ can
+ give
+ us
+
+
+feedback
+ of,
+ hey,
+ click
+ on
+ this
+ link.
+
+
+This
+ actually
+ failed
+ in
+ a
+ way
+ that
+ I
+
+
+wasn't
+ expecting.
+ And
+ so
+ that
+ can
+ be
+ a
+
+
+really
+ great
+ source
+ of
+ like
+
+
+crossunctional
+ collaboration
+ that
+ was
+ a
+
+
+very
+ subtle
+ design
+ choice
+ that
+ we
+ made
+
+
+that
+ ended
+ up
+ being
+ a
+ really
+ big
+ impact
+
+
+for
+ the
+ company.
+ And
+ then
+ these
+ can
+ be
+
+
+kicked
+ off
+ either
+ via
+ a
+ canban
+ UI,
+ we
+
+
+have
+ an
+ API,
+ and
+ then
+ also
+ a
+ Slack
+
+
+thread.
+ and
+ we
+ can
+ take
+ the
+ full
+ context
+
+
+of
+ the
+ Slack
+ thread
+ when
+ it
+ has
+ actually
+
+
+kicked
+ off.
+ So
+ you
+ don't
+ have
+ to
+
+
+reprompt
+ it
+ with
+ a
+ bunch
+ of
+ conversation
+
+
+that
+ happened
+ earlier.
+
+
+What
+ you
+ see
+ here
+ is
+ um
+ we
+ also
+ have
+ a
+
+
+full
+ VS
+ code
+ environment.
+ We
+ run
+ VNC
+
+
+inside
+ of
+ a
+ modal
+ sandbox
+ as
+ well.
+ So
+
+
+this
+ allows
+ us
+ to
+ have
+ Chrome
+ dev
+ tools
+
+
+and
+ MCP.
+ So
+ it
+ can
+ actually
+ do
+ full
+
+
+stack
+ work
+ which
+ is
+ pretty
+ cool.
+ And
+ it
+
+
+has
+ access
+ to
+ the
+ 150
+ plus
+ thousand
+
+
+tests
+ that
+ we
+ have.
+ So,
+ it
+ also
+ knows
+ if
+
+
+things
+ are
+ broken,
+ can
+ respond
+ to
+ the
+ CI
+
+
+inside
+ of
+ GitHub,
+ and
+ actually
+ patch
+
+
+fixes
+ before
+ it
+ actually
+ pings
+ you
+ that
+
+
+the
+ PR
+ is
+ done.
+
+
+Um,
+ the
+ link
+ for
+ this
+ is
+
+
+builders.ramp.com.
+
+
+I
+ think
+ it's
+ like
+ one
+ of
+ the
+ first
+ uh
+
+
+blog
+ posts
+ that
+ we
+ have
+ or
+ the
+ most
+
+
+recent
+ blog
+ post
+ that
+ we
+ have
+ and
+ we
+
+
+open
+ source
+ like
+ the
+ whole
+ blueprint
+ of
+
+
+how
+ to
+ build
+ this
+ and
+ put
+ this
+ together
+
+
+as
+ well.
+ I
+ think
+ there's
+ also
+ a
+ GitHub
+
+
+repo
+ called
+ Open
+ Inspect
+ which
+ is
+ an
+
+
+open
+ source
+ implementation
+ of
+ this
+ as
+
+
+well.
+
+
+So,
+ it's
+ been
+ pretty
+ interesting
+ to
+ see
+
+
+the
+ impact
+ that
+ ramp
+ inspect
+ has
+ had
+
+
+where
+ over
+ 50%
+ of
+ PRs
+ that
+ we
+ merge
+ on
+ a
+
+
+weekly
+ basis
+ goes
+ through
+ the
+ system.
+
+
+And
+ so
+ with
+ all
+ this
+ time
+ not
+ spent
+ on
+
+
+thinking
+ about
+ these
+ really
+ low-level
+
+
+firefighting
+ tasks
+ or
+ really
+ low-level
+
+
+small
+ fixes
+ or
+ tweaks
+ that
+ can
+ be
+ kind
+
+
+of
+ democratized
+ across
+ the
+ company,
+
+
+we're
+ really
+ rethinking
+ like
+ how
+ our
+
+
+engineering
+ teams
+ operate
+ and
+ think
+
+
+about
+ their
+ job
+ and
+ how
+ they
+ can
+
+
+actually
+ be
+ really
+ impactful
+ and
+ this
+
+
+new
+ kind
+ of
+ AI
+ native
+ future.
+
+
+And
+ so
+ as
+ a
+ thought
+ experiment,
+ um
+ we
+
+
+let's
+ pretend
+ we
+ have
+ two
+ different
+
+
+teams.
+ I'm
+ sure
+ everyone
+ in
+ this
+ room
+
+
+has
+ worked
+ with
+ like
+ their
+ handful
+ of
+
+
+extraordinary
+ teams,
+ maybe
+ teams
+ that
+
+
+are
+ finding
+ their
+ footing.
+ And
+ you'll
+
+
+notice
+ that
+ there's
+ like
+ a
+ couple
+ of
+
+
+different
+ qualities
+ that
+ may
+ sound
+ that
+
+
+may
+ resonate.
+ So
+ we
+ have
+ team
+ A
+ on
+ the
+
+
+left
+ here.
+ And
+ let's
+ say
+ that
+ they
+
+
+really
+ care
+ about
+ impact.
+ They
+ handle
+
+
+ambiguous
+ problems.
+ They
+ understand
+ the
+
+
+product,
+ business,
+ and
+ data.
+ They
+ adopt
+
+
+new
+ tools.
+ They
+ can
+ find
+ creative
+
+
+solutions
+ and
+ they
+ obsess
+ over
+ like
+ the
+
+
+user
+ experience.
+ And
+ then
+ team
+ B
+ may
+
+
+also
+ resonate
+ with
+ some
+ people.
+ You
+
+
+know,
+ they
+ debate
+ libraries.
+ They
+ add
+
+
+process
+ when
+ things
+ start
+ to
+ feel
+
+
+chaotic.
+ They
+ constantly
+ complain
+ about
+
+
+headcount.
+ They
+ bike
+ shed
+ the
+ details
+
+
+instead
+ of
+ actually
+ focusing
+ on
+ the
+ user
+
+
+experience
+ like
+ hey
+ should
+ we
+ use
+ you
+
+
+know
+ functional
+ programming
+ paradigm
+
+
+here
+ or
+ what
+ version
+ of
+ you
+ know
+
+
+different
+ typescript
+ libraries
+ do
+ we
+
+
+want
+ to
+ use
+ and
+ then
+ they
+ build
+ before
+
+
+understanding
+ the
+ problem
+ right
+ they
+
+
+just
+ say
+ hey
+ we're
+ going
+ to
+ just
+ vibe
+
+
+code
+ this
+ bro
+ don't
+ worry
+ or
+ they
+ focus
+
+
+on
+ you
+ know
+ performative
+ code
+ quality
+ or
+
+
+nitpicks
+ that
+ may
+ not
+ actually
+ that
+ may
+
+
+be
+ very
+ much
+ like
+ a
+ subjective
+ kind
+ of
+
+
+matter
+ of
+ fact
+ as
+ well
+ I've
+ worked
+ on
+
+
+both
+ of
+ these
+ teams
+ and
+ I
+ think
+ the
+
+
+argument
+ that
+ I'm
+ going
+ to
+ make
+ today
+ is
+
+
+that
+ there's
+ going
+ to
+ be
+ divergence
+ I
+
+
+think
+ depending
+ on
+ what
+ side
+ of
+ the
+
+
+aisle
+ you
+ land
+ there.
+ This
+ is
+ a
+ study
+
+
+from
+ Harvard
+ that
+ was
+ out
+ uh
+ I
+ think
+ the
+
+
+end
+ of
+ last
+ year
+ and
+ it
+ was
+ very
+ much
+
+
+geared
+ towards
+ juniors
+ and
+ in
+ seniors
+ in
+
+
+terms
+ of
+ what's
+ actually
+ happening
+ with
+
+
+hiring
+ trends
+ in
+ uh
+ in
+ engineering
+ since
+
+
+AI
+ tools
+ have
+ accelerated.
+ And
+ I
+ think
+
+
+what
+ this
+ glosses
+ over
+ is
+ I
+ don't
+ think
+
+
+it's
+ just
+ a
+ years
+ of
+ experience
+ problem.
+
+
+I
+ actually
+ think
+ it's
+ very
+ much
+ um
+ all
+
+
+of
+ the
+ different
+ qualities
+ that
+ I
+ said
+
+
+in
+ team
+ A
+ versus
+ team
+ B
+ that
+ really
+ make
+
+
+it
+ apparent
+ that
+ like
+ coding
+ was
+ never
+
+
+really
+ the
+ hardest
+ part
+ of
+ a
+ lot
+ of
+ jobs
+
+
+for
+ a
+ lot
+ for
+ a
+ long
+ time.
+ There's
+ all
+
+
+these
+ other
+ engineering
+ principles
+ that
+
+
+become
+ really
+ important
+ than
+ just
+ raw
+
+
+coding
+ speed.
+ So
+ when
+ you
+ think
+ about
+
+
+like
+ a
+ staff
+ or
+ a
+ staff
+ plus
+ engineer,
+
+
+you're
+ really
+ compensating
+ those
+ people
+
+
+more
+ for
+ a
+ lot
+ of
+ the
+ judgment
+ that
+ they
+
+
+bring
+ to
+ the
+ table,
+ the
+ context,
+ the
+
+
+ability
+ to
+ see
+ around
+ corners,
+ all
+ the
+
+
+learning
+ that
+ they
+ have,
+ the
+ actual
+ like
+
+
+scar
+ tissue.
+ And
+ so
+ if
+ you
+ know
+ you
+ ask
+
+
+Opus
+ 46
+ to
+ do
+ something,
+ they'll
+ have
+
+
+the
+ knowledge
+ to
+ actually
+ know
+ if
+ that
+
+
+is
+ not
+ going
+ to
+ work
+ or
+ that's
+ actually
+
+
+a
+ bad
+ idea.
+ And
+ I
+ think
+ one
+ thing
+ that
+ a
+
+
+lot
+ of the
+ narratives
+ that
+ we
+ see
+ in
+ the
+
+
+media
+ gets
+ get
+ wrong
+ about
+ coding
+ agents
+
+
+is
+ they
+ don't
+ really
+ identify
+ the
+ fact
+
+
+that
+ you
+ could
+ still
+ build
+ the
+ wrong
+
+
+thing
+ just
+ a
+ lot
+ faster
+ and
+ you
+ can
+
+
+build
+ like
+ bigger
+ messes.
+ And
+ I
+ think
+
+
+that
+ having
+ a
+ lot
+ of
+ these
+ skills
+ of
+ a
+
+
+team
+ A
+ and
+ really
+ focusing
+ on
+ like
+ what
+
+
+is
+ the
+ context
+ and
+ reason
+ behind
+ this
+
+
+will
+ only
+ become
+ more
+ important
+ um
+ in
+
+
+AI.
+
+
+And
+ so
+ what
+ does
+ that
+ actually
+ look
+
+
+like?
+ We
+ hit
+ on
+ some
+ of
+ these
+ things.
+
+
+figuring
+ out
+ what
+ to
+ build
+ and
+
+
+understanding
+ users
+ well
+ enough.
+ Selling
+
+
+an
+ idea
+ to
+ skeptical
+ stakeholders.
+ This
+
+
+is
+ still
+ something
+ when
+ we
+ decided
+ to
+
+
+build
+ a
+ a
+ background
+ coding
+ agent.
+ This
+
+
+was
+ not
+ something
+ that
+ was
+ obvious
+ that
+
+
+we
+ should
+ be
+ spending
+ time
+ on
+ this.
+
+
+Having
+ good
+ design
+ design
+ decisions
+ with
+
+
+incomplete
+ information
+ and
+ maintaining
+
+
+momentum
+ through
+ the
+ long
+ middle
+ of
+ this
+
+
+project,
+ which
+ can
+ be
+ really
+ gnarly.
+ And
+
+
+I
+ think
+ this
+ last
+ bit,
+ you
+ know,
+
+
+everyone
+ in
+ this
+ room,
+ I'm
+ sure,
+ is
+
+
+painfully
+ aware
+ of,
+ you
+ know,
+ the
+
+
+conversation
+ around
+ SAS
+ and
+ and
+ the
+
+
+stock
+ market
+ and
+ things
+ like
+ that.
+ And
+ I
+
+
+think
+ this
+ is
+ like
+ a
+ big
+ element
+ that
+
+
+they
+ gloss
+ over,
+ which
+ is
+ that
+ yes,
+ it's
+
+
+easy
+ to
+ vibe
+ code
+ something,
+ but
+
+
+actually
+ going
+ through
+ that
+ middle
+
+
+process
+ is
+ like
+ why
+ you
+ need
+ really
+ good
+
+
+engineers
+ to
+ actually
+ get
+ something
+
+
+deployed
+ that
+ has
+ product
+ market
+ fit
+
+
+that
+ people
+ are
+ really
+ excited
+ about.
+
+
+Um,
+ and
+ I
+ think
+ not
+ enough
+ people
+
+
+recognize
+ that.
+
+
+And
+ so
+ where
+ does
+ that
+ leave
+ us?
+
+
+Personally,
+ I
+ think
+ there's
+ a
+ lot
+ of
+
+
+kind
+ of
+ dumerism
+ and
+ scariness
+ around
+ a
+
+
+lot
+ of
+ the
+ AI
+ narratives,
+ but
+ I
+ think
+
+
+it's
+ also
+ a
+ really
+ exciting
+ time
+ to
+ be
+
+
+building.
+ Unlike
+ maybe
+ factory
+ work
+ or
+
+
+farming,
+ software
+ is
+ never
+ done.
+ We
+ have
+
+
+this
+ uh
+ really
+ kind
+ of
+ like
+ meme
+
+
+internally
+ where
+ we
+ say,
+ you
+ know,
+ jobs
+
+
+not
+ finished.
+ You've
+ probably
+ seen
+ in
+
+
+the
+ marketing
+ as
+ well.
+ And
+ I
+ think
+
+
+software
+ is
+ perpetually
+ not
+ finished.
+
+
+And
+ so
+ with
+ all
+ this
+ extra
+ capacity,
+
+
+with
+ people
+ focusing
+ less
+ on
+ this
+ kind
+
+
+of
+ low-level
+ work
+ and
+ more
+ on
+ high
+
+
+leverage
+ engineering
+ tasks,
+ I
+ think
+ four
+
+
+things
+ are
+ going
+ to
+ really
+ happen.
+ I
+
+
+think
+ companies
+ are
+ just
+ going
+ to
+ chase
+
+
+opportunities
+ they
+ couldn't
+ afford
+ to
+
+
+pursue.
+ I
+ don't
+ know
+ if
+ we
+ would
+ be
+
+
+chasing
+ these
+ like
+ agentic
+ workflows
+ and
+
+
+really
+ thinking
+ about
+ bigger
+ scale
+
+
+problems
+ in
+ the
+ financial
+ stack
+ if
+ this
+
+
+technology
+ didn't
+ exist.
+ People
+ are
+
+
+going
+ to
+ enter
+ adjacent
+ markets.
+ They're
+
+
+going
+ to
+ try
+ to
+ stitch
+ together
+ more
+
+
+value
+ for
+ customers.
+ It's
+ not
+ going
+ to
+
+
+be
+ like
+ because
+ everyone's
+ 2x
+ more
+
+
+productive,
+ you
+ need
+ two
+ less
+ or
+ half
+
+
+the
+ people.
+ You're
+ going to
+ rebuild
+
+
+systems
+ that
+ are
+ too
+ expensive
+ to
+ touch.
+
+
+I
+ think
+ building
+ an
+ internal
+ background
+
+
+coding
+ agent
+ uh
+ for
+ a
+ company
+ that
+ does
+
+
+financial
+ operations
+ um
+ software
+ felt
+
+
+like
+ probably
+ a
+ pretty
+ crazy
+ idea,
+ but
+
+
+now
+ that
+ makes
+ a
+ ton
+ of
+ sense
+ and
+ raise
+
+
+the
+ bar
+ for
+ what
+ good
+ enough
+ means.
+ I
+
+
+think,
+ you
+ know,
+ being
+ able
+ to
+ kind
+ of
+
+
+build
+ more
+ mind-blowing
+ experiences
+ for
+
+
+users,
+ provide
+ a
+ lot
+ more
+ value
+ is
+ going
+
+
+to
+ be
+ the
+ narrative
+ of
+ the
+ next
+ decade.
+
+
+And
+ I'm
+ super
+ excited
+ to
+ be
+ able
+ to
+
+
+build
+ some
+ of
+ these
+ things
+ and
+ see
+ what
+
+
+everyone
+ in
+ this
+ room
+ is
+ going
+ to
+ build,
+
+
+too.
+ So,
+ thank
+ you.
