@@ -1,0 +1,9968 @@
+the
+ energy
+ that
+ we've
+ rediscovered
+
+
+around
+ those
+ spikes
+ where
+ we're
+ all
+ just
+
+
+prototyping
+ and
+ throwing
+ it
+ all
+ into
+ the
+
+
+same
+ place.
+ Momentum
+ begets
+ momentum
+ and
+
+
+so
+ having
+ the
+ team
+ together
+ riffing
+ and
+
+
+yes
+ anding
+ and
+ trying
+ the
+ stuff
+ out
+ is
+
+
+really
+ great.
+
+
+>> This
+ feels
+ like
+ pair
+ programming
+ for
+
+
+designers
+ and
+ engineers
+ and
+ you
+ can
+ work
+
+
+very
+ quickly
+ back
+ and
+ forth
+ using
+ the
+
+
+MCP
+ as
+ a
+ connector
+ here.
+ Often
+ times
+ the
+
+
+codebase
+ gets
+ way
+ ahead
+ of
+ where
+ the
+
+
+actual
+ design
+ file
+ is
+ and
+ there's
+ states
+
+
+or
+ workflows
+ that
+ just
+ don't
+ exist
+ at
+
+
+all
+ within
+ the
+ design
+ file.
+ So
+ what
+ I
+
+
+can
+ do
+ is
+ say
+ send
+ all
+ five
+ states
+
+
+signup
+ flow
+ to
+ frequent.
+ Now
+ the
+ agent's
+
+
+going
+ to
+ do
+ is
+ read
+ my
+ codebase,
+
+
+understand
+ what
+ I'm
+ referring
+ to
+ when
+ I
+
+
+say
+ those
+ five
+ states,
+ and
+ for
+ each
+ one
+
+
+of
+ those,
+ it's
+ going
+ to
+ individually
+
+
+import
+ that
+ one
+ by
+ one
+ into
+ Figma
+ such
+
+
+that
+ the
+ Figma
+ document
+ will
+ then
+ have
+
+
+all
+ of
+ those
+ states
+ laid
+ out
+ all
+ side
+ by
+
+
+side
+ so
+ that
+ my
+ design
+ partner
+ can
+ work
+
+
+against
+ it.
+
+
+>> It's
+ definitely
+ changed
+ our
+ workflows
+ in
+
+
+a
+ way
+ that
+ it's
+ kind
+ of
+ really
+ blown
+ up
+
+
+what
+ a
+ workflow
+ even
+ is.
+
+
+>> I
+ spend
+ quite
+ a
+ lot
+ of
+ my
+ time
+ just
+
+
+sitting
+ here
+ inside
+ of
+ my
+ terminal
+ now.
+
+
+I
+ often
+ have
+ two,
+ three,
+ up
+ to
+ five
+
+
+maybe
+ cloud
+ code
+ instances
+ running
+ all
+
+
+at
+ the
+ same
+ time
+ working
+ on
+ different
+
+
+aspects
+ of
+ the
+ work
+ that
+ I'm
+ tracking.
+
+
+Welcome
+ back
+ to
+ how
+ I
+ AI.
+ I'm
+ Claire
+ Vo,
+
+
+product
+ leader
+ and
+ AI
+ obsessive
+ here
+ on
+
+
+a
+ mission
+ to
+ help
+ you
+ build
+ better
+ with
+
+
+these
+ new
+ tools.
+ Today
+ we
+ have
+ Alex,
+ an
+
+
+engineer,
+ and
+ Ghee,
+ a
+ designer
+ from
+
+
+Figma.
+ And
+ they're
+ going
+ to
+ show
+ us
+ the
+
+
+new
+ world
+ and
+ the
+ new
+ workflows
+ of
+
+
+design,
+ code,
+ and
+ back
+ to
+ design.
+ I'm
+
+
+really
+ excited
+ about
+ this
+ one
+ because
+
+
+it's
+ going
+ to
+ show
+ you
+ how
+ more
+
+
+forward-looking
+ teams
+ are
+ thinking
+ about
+
+
+the
+ interplay
+ between
+ design
+ and
+
+
+engineering
+ teams.
+ How
+ designs
+ don't
+
+
+have
+ to
+ be
+ static
+ artifacts,
+ either
+ in
+
+
+Figma
+ or
+ in
+ code.
+ and
+ we're
+ going
+ to
+ get
+
+
+some
+ tips
+ and
+ tricks
+ on
+ how
+ you
+ can
+ use
+
+
+skills
+ in
+ your
+ repo
+ to
+ take
+ away
+ toil
+
+
+both
+ for
+ engineers
+ and
+ for
+ designers.
+
+
+Let's
+ get
+ to
+ it.
+ This
+ episode
+ is
+ brought
+
+
+to
+ you
+ by
+ Optimizely.
+ Most
+ marketing
+
+
+teams
+ aren't
+ short
+ on
+ ideas,
+ but
+ what
+
+
+they
+ are
+ short
+ on
+ is
+ time.
+ And
+ that's
+
+
+exactly
+ what
+ Optimizely
+ Opel
+ gives
+ you
+
+
+back
+ with
+ AI
+ agents
+ that
+ handle
+ real
+
+
+marketing
+ workflows.
+ you
+ know,
+ like
+
+
+creating
+ content
+ and
+ checking
+
+
+compliance,
+ generating
+ experiment
+
+
+variations,
+ personalizing
+ user
+
+
+experiences,
+ analyzing
+ pages
+ for
+ GEO,
+
+
+even
+ tasks
+ like
+ approvals
+ and
+ reporting.
+
+
+It's
+ your
+ AI
+ agent
+ orchestration
+
+
+platform
+ for
+ marketing
+ and
+ digital
+
+
+teams,
+ plugging
+ seamlessly
+ into
+ the
+
+
+tools
+ you
+ already
+ use,
+ handling
+ the
+
+
+boring,
+ busy
+ work,
+ and
+ keeping
+
+
+everything
+ on
+ brand
+ that
+ leaves
+
+
+marketers
+ with
+ more
+ time
+ to
+ do
+ your
+
+
+actual
+ job.
+ See
+ what
+ Opel
+ can
+ automate
+
+
+for
+ your
+ team
+ by
+ signing
+ up
+ for
+ a
+ free
+
+
+enterprise
+ agentic
+ AI
+ workshop
+ with
+
+
+Optimizely.
+ Find
+ out
+ more
+ at
+
+
+optimizely.com/how
+
+
+ii
+ aai.
+ Attend
+ live
+ and
+ you'll
+ get
+ a
+
+
+free
+ pair
+ of
+ rayban
+ meta
+ glasses.
+
+
+Welcome
+ to
+ how
+ I
+ AI.
+ Alex
+ Gee,
+ I
+ am
+ so
+
+
+psyched
+ for
+ you
+ all
+ to
+ be
+ here
+ because
+
+
+we
+ get
+ to
+ finally
+ answer
+ definitively
+
+
+the
+ question
+ on
+ everyone's
+ mind,
+ which
+
+
+is
+ which
+ comes
+ first,
+ the
+ design
+ or
+ the
+
+
+code.
+ Is
+ that
+ right?
+ Do
+ we
+ get
+ to
+ do
+ we
+
+
+get
+ to
+ finally
+ decide
+ that
+ today
+ or
+ are
+
+
+you
+ going
+ to
+ force
+ us
+ to
+ watch
+ both
+
+
+directions?
+
+
+>> I
+ think
+ the
+ answer
+ is
+ it
+ depends.
+ So
+ my
+
+
+my
+ favorite
+ answer.
+ your
+ favorite
+
+
+answer.
+ And
+ what
+ I
+ love
+ about
+ what
+ Figma
+
+
+is
+ doing
+ right
+ now
+ is
+ it's
+ building
+ the
+
+
+product
+ for
+ every
+ team
+ that
+ has
+ realized
+
+
+it
+ just
+ depends.
+ What
+ are
+ we
+ going
+ to
+ do
+
+
+here?
+ And
+ so
+ I
+ know
+ that
+ your
+ business
+
+
+has
+ to
+ have
+ changed
+ a
+ lot.
+ Your
+ product
+
+
+has
+ to
+ have
+ changed
+ a
+ lot
+ in
+ the
+ last
+
+
+couple
+ years
+ because
+ the
+ way
+ people
+
+
+design
+ and
+ build
+ software
+ now
+ changes
+ so
+
+
+much.
+ And
+ I'm
+ sure
+ that
+ has
+ impact
+ both
+
+
+on
+ how
+ you
+ think
+ about
+ what
+ product
+
+
+you're
+ building,
+ but
+ also
+ how
+ you
+
+
+yourself
+ build
+ products.
+ So
+ I'm
+ curious,
+
+
+how
+ has
+ this
+ shifted
+ how
+ Figma
+
+
+approaches
+ the
+ internal
+ design
+ and
+
+
+development
+ process?
+
+
+>> I
+ mean,
+ it's
+ definitely
+ changed
+ uh
+ our
+
+
+workflows
+ um
+ in
+ the
+ way
+ that
+ it's
+ kind
+
+
+of
+ really
+ blown
+ up
+ what
+ a
+ workflow
+ even
+
+
+is.
+ uh
+ before
+ you
+ know
+ for
+ the
+ the
+
+
+majority
+ of
+ our
+ careers
+ we've
+ had
+ a
+ very
+
+
+like
+ uh
+ linear
+ agreed
+ upon
+ workflow
+
+
+where
+ the
+ where
+ you
+ increase
+ fidelity
+ as
+
+
+you
+ go
+ on
+ right
+ because
+ it's
+ really
+
+
+expensive
+ to
+ work
+ in
+ code
+ and
+ it's
+
+
+really
+ cheap
+ just
+ to
+ trade
+ ideas
+ and
+
+
+sketch
+ them
+ out
+ but
+ AI
+ basically
+
+
+collapsed
+ that
+ and
+ it's
+ just
+ as
+ cheap
+ to
+
+
+riff
+ in
+ code
+ as
+ it
+ is
+ to
+ riff
+ and
+ design
+
+
+and
+ so
+ a
+ lot
+ of
+ times
+ where
+ we
+ used
+ to
+
+
+like
+ mock
+ up
+ these
+ kind
+ of
+ grayscale
+
+
+wireframes
+ to
+ point
+ at
+ what
+ things
+
+
+should
+ we
+ can
+ get
+ functional
+ wireframes
+
+
+straight
+ away.
+ And
+ a
+ lot
+ of
+ times
+ that's
+
+
+what
+ we
+ treat
+ these
+ kind
+ of
+ vibe
+ coded
+
+
+outputs.
+ It's
+ like
+ let
+ me
+ get
+ to
+
+
+something
+ that
+ I
+ can
+ just
+ is
+ more
+
+
+malleable
+ I
+ can
+ play
+ with
+ and
+ then
+ let
+
+
+me
+ kind
+ of
+ work
+ into
+ it.
+ Let
+ me
+ bring
+ my
+
+
+team
+ in.
+ And
+ we're
+ still
+ like
+ many
+
+
+companies
+ right
+ now
+ trying
+ to
+ figure
+ out
+
+
+what
+ is
+ the
+ best
+ kind
+ of
+ step
+ process.
+
+
+And
+ to
+ to
+ Alex's
+ point,
+ it
+ depends.
+ It
+
+
+really
+ depends
+ on
+ the
+ scale
+ of
+ the
+
+
+feature,
+ whether
+ it's
+ a
+ feature
+ or
+ bug
+
+
+or
+ product.
+ Like
+ what
+ are
+ we
+ trying
+ to
+
+
+get
+ to?
+ uh
+ we
+ find
+ ourselves
+ reinventing
+
+
+a
+ workflow
+ almost
+ every
+ day,
+ multiple
+
+
+times
+ a
+ day
+ depending
+ on
+ the
+ case
+ um
+ you
+
+
+know
+ uh
+ that
+ we
+ have
+ to
+ solve
+ for.
+
+
+>> What
+ I
+ like
+ about
+ what
+ you
+ said
+ is
+ is
+ a
+
+
+couple
+ things.
+ One,
+ I
+ do
+ think
+ up
+ until
+
+
+this
+ point,
+ you
+ know,
+ both
+ design
+ and
+
+
+engineering
+ felt
+ very
+ scarce
+ and
+
+
+expensive
+ resources.
+ And
+ so
+ you
+ were
+
+
+always
+ trying
+ to
+ reduce
+ effort
+ and
+
+
+design
+ by
+ doing
+ things
+ like
+ wireframes.
+
+
+And
+ I
+ I
+ tell
+ the
+ young
+ people
+ today,
+
+
+they
+ don't
+ know
+ how
+ spoiled
+ they
+ are.
+
+
+You
+ don't
+ know
+ what
+ like
+ balsamic
+ is
+ or
+
+
+like
+ those
+ old
+ mockups
+ used
+ to
+ be
+ like
+
+
+you
+ don't
+ know
+ what
+ we
+ used
+ to
+ have
+ to
+
+
+do
+ um
+ with
+ wireframe.
+ So
+ I
+ think
+ we
+ were
+
+
+always
+ trying
+ to
+ figure
+ out
+ that
+ and
+
+
+then
+ we
+ were
+ always
+ like
+ scarcely
+
+
+protecting
+ engineering
+ resources
+ and
+
+
+part
+ of
+ that
+ meant
+ more
+ work
+ fell
+ on
+ the
+
+
+design
+ team
+ to
+ make
+ lots
+ of
+ very
+
+
+specific
+ decisions
+ about
+ design
+
+
+implementation
+ so
+ that
+ you
+ didn't
+ waste
+
+
+engineering's
+ time
+ trying
+ to
+ figure
+ out
+
+
+is
+ this
+ supposed
+ to
+ be
+ a
+ rounded
+ corner
+
+
+what's
+ the
+ hover
+ effect
+ what's
+ the
+ error
+
+
+state
+ all
+ this
+ kind
+ of
+ stuff
+ and
+ what
+ I
+
+
+do
+ appreciate
+ about
+ AI
+ is
+
+
+now
+ the
+ cost
+ of
+ generating
+ really
+ high
+
+
+quality
+ stuff
+ has
+ gone
+ down,
+ which
+ means
+
+
+you
+ can
+ invest
+ more
+ in
+ the
+ pieces
+ that
+
+
+really
+ matter
+ and
+ then
+ more
+ people
+ can
+
+
+contribute
+ to
+ the
+ ultimate
+ experience
+ in
+
+
+design.
+ And
+ you
+ know,
+ Alex,
+ I'm
+ sure
+ you
+
+
+feel
+ like
+ you
+ can
+ contribute
+ more
+ and
+
+
+and
+ you
+ know,
+ and
+ and
+ so
+ I
+ think
+ that's
+
+
+an
+ interesting
+ change
+ to
+ how
+ we
+ had
+
+
+historically
+ been
+ doing
+ more
+ of
+ a
+
+
+waterfile
+ style
+ product
+ development
+
+
+process.
+ And
+ to
+ add
+ to
+ that,
+ you
+ also
+
+
+have
+ more
+ exploration
+ capacity
+ because
+
+
+you're
+ not
+ spending
+ so
+ long
+ on
+ one
+ idea,
+
+
+derisking
+ that
+ one
+ idea
+ through
+ meetings
+
+
+and
+ prototypes,
+ etc.
+ If
+ you
+ can
+ shortcut
+
+
+to
+ that,
+ you
+ can
+ explore
+ more
+ ideas.
+ You
+
+
+have
+ more
+ more
+ divergence
+ potential.
+ And
+
+
+I
+ think
+ that's
+ really
+ interesting
+ as
+
+
+well.
+ I
+ think
+ we
+ got
+ to
+ like
+ going
+ deep
+
+
+on
+ quality,
+ but
+ we
+ can
+ actually
+ go
+ wide
+
+
+as
+ well.
+
+
+>> Yeah.
+
+
+>> Yeah.
+ I
+ find
+ that
+ I'm
+ spending
+ a
+ lot
+
+
+less
+ time
+ doing
+ like
+ the
+ mechanistic
+
+
+even
+ on
+ the
+ engineering
+ side
+ the
+
+
+mechanistic
+ like
+ you
+ know
+ changing
+ of
+
+
+syntax
+ and
+ um
+ you
+ know
+ trying
+ to
+ thread
+
+
+data
+ through
+ different
+ call
+ sites
+ and
+
+
+more
+ focused
+ on
+ the
+ problem
+ solving
+
+
+aspects
+ and
+ I
+ feel
+ like
+ that
+ same
+ you
+
+
+know
+ focus
+ on
+ like
+ problem
+ solving
+ as
+
+
+opposed
+ to
+ the
+ mechanical
+ work
+ um
+ is
+
+
+really
+ what
+ AI
+ is
+ enabling
+ on
+
+
+engineering
+ as
+ well
+ as
+ like
+ design
+
+
+teams.
+
+
+>> Awesome.
+ Well,
+ we're
+ going
+ to
+ actually
+
+
+dive
+ in
+ and
+ show
+ some
+ of
+ this
+ not
+ in
+
+
+theory
+ but
+ in
+ practice
+ and
+ we're
+ going
+
+
+to
+ see
+ design
+ starting
+ in
+ codeex
+ which
+
+
+is
+ not
+ what
+ I
+ not
+ what
+ I
+ expected
+ when
+ I
+
+
+dialed
+ into
+ this
+ call
+ today
+ that
+ you
+ all
+
+
+were
+ going
+ to
+ say
+ hey
+ we're
+ going to
+
+
+start
+ over
+ in
+ codeex
+ but
+ that's
+ what
+
+
+we're
+ going to
+ do.
+ So
+ do
+ you
+ want
+ to
+
+
+share
+ your
+ screen
+ and
+ show
+ us
+ what
+ I'm
+
+
+going
+ to
+ call
+ the
+ sandwich
+ of
+ code
+ which
+
+
+is
+ going
+ to
+ be
+ code
+ design
+ code
+ I
+ think
+
+
+is
+ is
+ the
+ process.
+
+
+>> Love
+ it.
+ Yeah
+ let's
+ do
+ it.
+ So
+ yeah,
+ we
+
+
+thought
+ we'd
+ start
+ with
+ Codex
+ because
+
+
+we've
+ just
+ uh
+ recently
+ launched
+ this
+ as
+
+
+well.
+ We
+ had
+ a
+ launch
+ uh
+ for
+ claude.
+
+
+We've
+ just
+ launched
+ on
+ Codeex
+ and
+ we're
+
+
+bringing
+ this
+ uh
+ kind
+ of
+ MCP
+
+
+functionality
+ to
+ a
+ bunch
+ of
+ stuff.
+ Let
+
+
+me
+ see
+ if
+ I
+ can
+ just
+ go
+ open
+ my
+ local
+
+
+host
+ for
+ this
+ project.
+ Something
+ that
+
+
+happens
+ a
+ lot
+ is
+ uh
+ the
+ sources
+ of
+ truth
+
+
+diverge
+ between
+ design
+ and
+ code.
+ So
+
+
+sometimes
+ some
+ things
+ only
+ really
+ exist
+
+
+in
+ a
+ state
+ in
+ code.
+ Uh
+ or
+ you
+ start
+
+
+working
+ with
+ a
+ developer
+ and
+ you
+ really
+
+
+like
+ elevate
+ what
+ the
+ thing
+ was,
+ the
+
+
+artifact
+ that
+ you
+ originally
+ supplied
+ or
+
+
+sometimes
+ like
+ that
+ just
+ doesn't
+ exist
+
+
+in
+ code.
+ You've
+ just
+ inherited
+ someone
+
+
+else's
+ project
+ from
+ forever
+ forever
+ ago.
+
+
+And
+ so
+ what's
+ really
+ interesting
+ here
+ is
+
+
+that
+ I
+ can
+ just
+ open
+ up
+ a
+ local
+ page.
+ So
+
+
+so
+ now
+ we've
+ been
+ working
+ on
+ as
+ a
+ as
+ a
+
+
+demo
+ app.
+ Alex
+ and
+ I
+ put
+ something
+
+
+together
+ just
+ to
+ show
+ you
+ the
+ power
+ of
+
+
+this.
+ Let's
+ imagine
+ I
+ am
+ working
+ on
+ a
+
+
+thing
+ that
+ there
+ isn't
+ really
+ a
+ co
+
+
+coherent
+ source
+ of
+ truth
+ for.
+ Um,
+ it's
+
+
+just
+ a
+ financial
+ tracking
+ app
+ and
+ I
+
+
+really
+ want
+ to
+ do
+ some
+ editing
+ in
+ here.
+
+
+And
+ the
+ the
+ case
+ that
+ usually
+ comes
+ up
+
+
+is
+ that
+ yes,
+ I
+ could
+ prompt
+ it
+ for
+ these
+
+
+things,
+ but
+ it's
+ kind
+ of
+ a
+ a
+ wish
+ and
+ a
+
+
+hope
+ that
+ it
+ gets
+ it
+ or
+ I
+ have
+ to
+ be
+
+
+super
+ specific
+ or
+ I
+ have
+ to
+ do
+ install
+ a
+
+
+bunch
+ of
+ tools
+ that
+ help
+ me
+ kind
+ of
+
+
+manipulate
+ closer
+ to
+ the
+ material.
+ But
+
+
+what
+ I
+ really
+ want
+ to
+ do
+ here
+ is
+ uh
+ just
+
+
+ask
+ codeex
+ to
+ send
+ the
+ budget
+ allocation
+
+
+page
+ to
+ Figma.
+ Got
+ it.
+ So
+ what
+ what
+
+
+we're
+ seeing
+ here
+ and
+ I
+ think
+ the
+
+
+problem
+ you're
+ setting
+ up
+ which
+ I
+ can
+
+
+empathize
+ with
+ which
+ is
+ no
+ one
+ ever
+
+
+keeps
+ their
+ Figma
+ up
+ to
+ date
+ with
+ what's
+
+
+the
+ latest
+ in
+ prod
+ and
+ prod
+ rarely
+ has
+
+
+the
+ hopes
+ and
+ dreams
+ of
+ what
+ has
+ been
+
+
+designed
+ in
+ Figma.
+ And
+ you
+ know,
+ a
+ lot
+
+
+of
+ times,
+ even
+ I
+ do
+ this
+ at
+ ChatPD,
+
+
+we've
+ created
+ like
+ a
+ Figma
+ page
+ with
+ a
+
+
+bunch
+ of
+ screenshots
+ and
+ they
+ always
+ go
+
+
+out
+ of
+ date.
+ And
+ so,
+ even
+ for
+ using
+
+
+recent
+ designs
+ in
+ things
+ like
+ marketing
+
+
+assets,
+ not
+ even
+ just
+ the
+ software
+
+
+development
+ process,
+ it's
+ really
+ hard
+ to
+
+
+keep
+ these
+ things
+ in
+ sync
+ because
+ code
+
+
+and
+ design
+ are
+ moving
+ in
+ parallel
+ tracks
+
+
+and
+ there's
+ not
+ a
+ common
+ substrate
+
+
+between
+ them
+ yet,
+ I
+ would
+ say,
+ that
+ can
+
+
+keep
+ them
+ sort
+ of
+ up
+ to
+ date
+ on
+ both
+
+
+sides.
+
+
+Exactly.
+ Exactly.
+
+
+>> That's
+ exactly
+ right.
+
+
+>> Great.
+ So
+ then
+ what
+ you're
+ using
+ here,
+
+
+if
+ I
+ can
+ if
+ I
+ tell
+ me
+ if
+ I'm
+ wrong,
+
+
+which
+ is
+ you
+ have
+ the
+ Figma
+ MCP
+
+
+connected
+ to
+ Codeex.
+ So
+ that's
+ a
+ hosted
+
+
+MCP
+ that
+ you've
+ connected.
+ Do
+ you
+ have
+
+
+the
+ Figma
+ skill
+ also
+ installed
+ here
+ in
+
+
+Codex
+ because
+ I
+ know
+ Codex
+ has
+ made
+ a
+
+
+big
+ deal
+ about
+ skills
+ and
+ so
+ I'm
+ I'm
+
+
+wondering
+ if
+ you're
+ using
+ those
+ two
+
+
+together.
+
+
+>> Honestly,
+ at
+ some
+ point
+ I
+ installed
+ all
+
+
+the
+ skills.
+ So
+ I
+ have
+ no
+ doubt
+ that
+ at
+
+
+some
+ point
+ I'm
+ using
+ it.
+ Uh
+ we
+ also
+ have
+
+
+uh
+ you
+ know
+ where
+ yeah
+ we're
+ we're
+
+
+exploring
+ kind
+ of
+ how
+ we
+ improve
+ those.
+
+
+Alex
+ can
+ talk
+ more
+ to
+ those
+ for
+ sure.
+
+
+>> Yeah,
+ you
+ can
+ use
+ the
+ skills
+ in
+ order
+ to
+
+
+do
+ this.
+ Um
+ but
+ you
+ could
+ also
+ just
+ ask
+
+
+the
+ MCP
+ directly
+ and
+ it
+ uh
+ seems
+ to
+
+
+pretty
+ reliably
+ get
+ you
+ to
+ a
+
+
+>> you
+ cl
+
+
+this
+ is
+ really
+ good.
+
+
+So
+ if
+ you
+ actually
+ I
+ mean
+ if
+ you
+ look
+ at
+
+
+the
+ the
+ page
+ and
+ you
+ look
+ at
+ the
+
+
+comparison
+ kind
+ of
+ side
+ by
+ side
+
+
+>> now
+ I
+ have
+ all
+ of
+ this
+ in
+ Figma.
+ And
+ so
+
+
+not
+ only
+ can
+ I
+ do
+ more
+ intense
+ kind
+ of
+
+
+direct
+ manipulation.
+ I
+ can
+ go
+ in
+ here
+
+
+and
+ I
+ can
+ like
+ move
+ stuff
+ around
+ in
+ a
+
+
+way
+ that's
+ much
+ more
+ free
+ form
+ that
+
+
+perhaps
+ I
+ would
+ have
+ had
+ to
+ like
+ really
+
+
+like
+ express
+ with
+ words
+ and
+ it
+ should
+ be
+
+
+really
+ burdensome
+ and
+ laborious
+ to
+
+
+explain
+ which
+ bits
+ I
+ want
+ to
+ move
+ where
+
+
+and
+ etc.
+ Um
+ but
+ my
+ whole
+ team
+ can
+ also
+
+
+jump
+ in
+ and
+ now
+ we
+ can
+ just
+
+
+exponentially
+ uh
+ scale
+ this
+ work
+ versus
+
+
+me
+ solo
+ having
+ to
+ do
+ everything.
+ Um
+ and
+
+
+when
+ you
+ work
+ in
+ a
+ team
+ it's
+ like
+ really
+
+
+helpful
+ to
+ leverage
+ uh
+ that.
+ So
+ for
+
+
+those
+ that
+ are
+ listening
+ and
+ maybe
+ not
+
+
+watching
+ the
+ screen
+ share,
+ what
+ we
+ just
+
+
+saw
+ is
+ taking
+ a
+ locally
+ hosted
+ web
+ app
+
+
+um
+ and
+ codebase
+ and
+ then
+ using
+ the
+ Figma
+
+
+MCP
+ to
+ then
+ pull
+ the
+ whole
+ design
+ of
+ a
+
+
+page
+ or
+ component
+ into
+ Figma
+ into
+ a
+
+
+frame
+ and
+ then
+ you
+ can
+ just
+ edit
+ that
+
+
+frame.
+ And
+ a
+ benefit
+ that
+ I
+ didn't
+
+
+really
+ think
+ about
+ which
+ is
+ really
+
+
+useful
+ is
+ it's
+ really,
+ you
+ know,
+ Figma
+
+
+is
+ really
+ built
+ for
+ multi-person
+
+
+collaboration,
+ multi-
+ player
+
+
+collaboration
+ in
+ a
+ way
+ that
+ prompting
+
+
+code
+ in
+ something
+ like
+ a
+ codeex
+ or
+ a
+
+
+cursor
+ or
+ cloud
+ code
+ really
+ isn't
+ built
+
+
+for.
+ And
+ so
+ that
+ broad
+ exploration
+ is
+
+
+very
+ very
+ hard
+ to
+ do.
+ The
+ other
+ thing
+
+
+that
+ I
+ want
+ to
+ say
+ for
+ people
+ is
+ look,
+ I
+
+
+I
+ am
+ a
+ true
+ believer
+ every
+ designer
+
+
+should
+ be
+ in
+ in
+ their
+ IDE
+ playing
+ with
+
+
+GitHub,
+ all
+ that
+ kind
+ of
+ stuff.
+ And
+
+
+also,
+ there
+ are
+ some
+ orgs
+ that
+ just
+ like
+
+
+aren't
+ there
+ yet.
+ There
+ are
+ some
+
+
+designers
+ that
+ aren't
+ there
+ yet
+ that
+
+
+don't
+ have
+ the
+ front-end
+ language,
+ the
+
+
+prompting
+ skills,
+ whatever,
+ that
+ are
+
+
+super
+ pros
+ in
+ Figma.
+ And
+ this
+ is
+ a
+ nice
+
+
+stepping
+ stone
+ to
+ say,
+ "Okay,
+ we
+ can
+ get
+
+
+you
+ back
+ into
+ a
+ place
+ where
+ you're
+
+
+really
+ comfortable
+ with,
+ but
+ also
+ use
+
+
+that
+ as
+ a
+ way
+ to
+ educate,
+ upskill
+ them
+
+
+on
+ how
+ to
+ use
+ some
+ of
+ these
+ more
+ coding
+
+
+tools
+ to
+ also
+ bring
+ their
+ design
+ design
+
+
+skills
+ to
+ bear."
+ And
+ so
+ I
+ think
+ there's
+
+
+there's
+ a
+ kind
+ of
+ halfway
+ step
+ here
+ that
+
+
+is
+ really
+ useful
+ for
+ folks
+ that
+ are
+ used
+
+
+to
+ a
+ design
+ tool
+ like
+ Figma,
+
+
+>> for
+ sure.
+ Um,
+ and
+ and
+ also
+ to
+ to
+ me
+ it's
+
+
+just
+ the
+ I
+ don't
+ think
+ we're
+ there
+ yet
+
+
+in
+ general
+ with
+ uh
+ these
+ kind
+ of
+ code
+
+
+tools
+ in
+ terms
+ of
+ the
+ precision
+ editing
+
+
+that
+ you
+ want
+ to
+ do.
+ Um,
+ and
+ trust
+ me,
+
+
+I'm
+ I
+ I
+ use
+ the
+ whole
+ kind
+ of
+ landscape
+
+
+of
+ tools
+ to
+ really
+ see
+ kind
+ of
+ where
+
+
+these
+ workflows
+ are
+ going.
+ And
+ I
+ think
+
+
+still
+ the
+ the
+ gold
+ standard
+ for
+ me
+ is
+
+
+just
+ being
+ able
+ to
+ drag
+ stuff
+ around.
+
+
+Um,
+ and
+ you
+ can
+ do
+ a
+ lot
+ with
+ a
+ click
+
+
+that
+ would
+ take
+ you
+ a
+ hundred
+ words
+ to
+
+
+kind
+ of
+ write
+ and
+ to
+ like
+ really
+
+
+precisely
+ nail.
+ Like
+ no
+ one
+ wants
+ to
+
+
+prompt
+ for
+ the
+ exact
+ hex
+ code
+ or
+ the
+ the
+
+
+shade
+ of
+ yellow
+ and
+ and
+ that
+ kind
+ of
+
+
+stuff.
+ Um,
+ that's
+ just
+ easier
+ to
+ just
+
+
+quickly
+ do
+ um
+ and
+ directly
+ manipulate.
+
+
+Um,
+
+
+>> yeah.
+ I
+ I
+ just
+ think
+ like
+ what
+ are
+
+
+humans
+ where
+ are
+ humans
+ going
+ to
+ be
+ in
+
+
+the
+ loop?
+ And
+ it's
+ gonna
+ be
+ like
+ fine
+
+
+motor
+ skills
+ and
+ honestly
+ being
+ able
+ to
+
+
+eyeball
+ is
+ that
+ yellow
+ happy
+ or
+ not.
+
+
+Like
+ it's
+ very
+ hard
+ to
+ go
+ through
+ a
+ a
+
+
+design
+ loop,
+ a
+ prompting
+ loop
+ of
+ like,
+
+
+oh
+ no,
+ make
+ that
+ yellow
+ just
+ like
+ a
+
+
+little
+ bit
+ more
+ cheerful.
+ But
+ when
+ you
+
+
+pull
+ up
+ the
+ color
+ picker,
+ and
+ you
+ start
+
+
+going
+ like
+ this,
+ you
+ can
+ really
+ um
+ find
+
+
+the
+ one
+ that
+ that
+ works
+ for
+ you.
+ So
+ once
+
+
+you've
+ gotten
+ this
+ into
+ Figma,
+ you're
+
+
+collaborating
+ with
+ your
+ team,
+ you're
+
+
+you're
+ updating
+ the
+ design,
+ what's
+ the
+
+
+next
+ step
+ here?
+ because
+ you
+ know
+ I
+ can
+
+
+imagine
+ you
+ could
+ pull
+ this
+ into
+ um
+
+
+another
+ ticket
+ and
+ then
+ send
+ it
+ send
+ it
+
+
+to
+ an
+ engineer
+ and
+ say
+ please
+ could
+ you
+
+
+make
+ these
+ updates
+ but
+ what
+ do
+ you
+ think
+
+
+about
+ doing
+ once
+ you've
+ pulled
+ it
+ into
+
+
+Figma?
+
+
+>> There's
+ definitely
+ a
+ few
+ ways
+ that
+ we
+
+
+can
+ do
+ this.
+ I
+ can
+ keep
+ working
+ myself.
+
+
+Let's
+ say
+ I'm
+ I'm
+ working
+ a
+ late
+ night
+
+
+because
+ I'm
+ really
+ kind
+ of
+ into
+ this
+
+
+project
+ and
+ I
+ can
+ just
+ uh
+ use
+ MCP
+ to
+
+
+bring
+ it
+ back
+ to
+ to
+ my
+ local
+ host.
+ I
+
+
+could
+ also
+ just
+ ping
+ my
+ engineer
+ and
+
+
+say,
+ "Hey,
+ do
+ you
+ have
+ an
+ instance
+ of
+
+
+this
+ running?
+ do
+ you
+ want
+ to
+ like
+ just
+
+
+like
+ like
+ upload
+ it
+ yourself
+ and
+ just
+
+
+work
+ on
+ it?
+ Um
+ so
+ from
+ here
+ we've
+
+
+created
+ this
+ kind
+ of
+ shared
+ common
+
+
+ground
+ where
+ different
+ people
+ can
+ plug
+
+
+in
+ and
+ just
+ grab
+ things
+ out
+ um
+ versus
+ it
+
+
+living
+ on
+ my
+ machine
+ having
+ to
+ branch
+ it
+
+
+having
+ to
+ get
+ grapple
+ with
+ all
+ that
+ uh
+
+
+technical
+ uh
+ complexity.
+ Um
+ and
+ actually
+
+
+it's
+ a
+ good
+ point
+ Alex
+ do
+ you
+ want
+ to
+ uh
+
+
+try
+ and
+ implement
+ some
+ of
+ these
+ other
+
+
+changes
+ that
+ we've
+ kind
+ of
+ put
+ together?
+
+
+>> Yeah,
+ absolutely.
+ So
+ let's
+ say
+ I
+ want
+ to
+
+
+implement
+ this
+ particular
+ variant.
+ Um
+
+
+what
+ I
+ can
+ do
+ is
+ I
+ can
+ copy
+ the
+ URL
+ of
+
+
+that
+ and
+ go
+ right
+ back
+ into
+
+
+my
+ cloud
+ code
+ session.
+ So
+ uh
+ I
+ have
+ the
+
+
+uh
+ uh
+ app
+ also
+ loaded
+ uh
+ here
+ locally
+
+
+and
+ I
+ can
+ say
+ bring
+ the
+ changes
+ from
+
+
+this
+ component
+ into
+ my
+ codebase.
+
+
+And
+ which
+ component
+ is
+ it?
+ It's
+ the
+ this
+
+
+is
+ for
+ uh
+ the
+ budget
+ allocations
+ page.
+
+
+and
+ it's
+ going
+ to
+ then
+ use
+ the
+ Figma
+ MCP
+
+
+server
+ in
+ a
+ different
+ way.
+ This
+ one
+
+
+allows
+ it
+ to
+ take
+ uh
+ stuff
+ that's
+
+
+currently
+ within
+ the
+ Figma
+ document
+ and
+
+
+automatically
+ transform
+ that
+ into
+ code
+
+
+which
+ then
+ gets
+ reconciled
+ with
+ your
+
+
+local
+ codebase
+ and
+ automatically
+ applies
+
+
+those
+ changes
+ um
+ for
+ you
+ automatically.
+
+
+So
+
+
+>> again,
+ I
+ need
+ to
+ have
+ like
+ an
+ old
+ lady
+
+
+moment,
+ which
+ is
+ I
+ tell
+ people,
+ you
+
+
+know,
+ when
+ I
+ used
+ to
+ have
+ to
+ like
+ walk
+
+
+uphill
+ both
+ ways
+ for
+ my
+ CSS
+ thinking
+
+
+about
+ what
+ I
+ used
+ to
+ have
+ to
+ do
+ to
+ get
+ a
+
+
+close
+ to
+ P
+ and
+ I
+ was
+ on
+ both
+ sides
+ of
+
+
+the
+ table.
+ I
+ was
+ a
+ designer
+ and
+ then
+ I
+
+
+was
+ an
+ engineer
+ to
+ get
+ like
+ a
+ pixel
+
+
+perfect
+ version
+ of
+ whatever
+ somebody
+ had
+
+
+mocked
+ up
+ and
+ I
+ mean
+ we
+ didn't
+ even
+ have
+
+
+Figma.
+ I
+ was
+ doing
+ thing.
+ I
+ was
+ making
+
+
+Photoshop
+ PSDs
+ for
+ the
+ real
+ olds
+ out
+
+
+there.
+ And
+ I
+ just
+ the
+ ability
+ to
+ like
+
+
+pull
+ in
+ what's
+ the
+ size
+ of
+ this,
+ how's
+
+
+it
+ supposed
+ to
+ look,
+ what's
+ the
+
+
+alignment
+
+
+all
+ through
+ just
+ typing
+ still
+ to
+ this
+
+
+day
+ blows
+ my
+ mind.
+ Alex,
+ I'm
+ curious
+ how
+
+
+this
+ has
+ just
+ changed
+ your
+ relationship
+
+
+with
+ what
+ your
+ job
+ is
+ as
+ a
+ software
+
+
+engineer.
+ I
+ know
+ you
+ said
+ like
+ the
+
+
+mechanistic
+ pieces
+ have
+ gone
+ away,
+ but
+
+
+what
+ does
+ this
+ do
+ for
+ you
+ for
+ from
+ like
+
+
+a
+ time
+ like
+ how
+ you
+ spend
+ your
+ time
+
+
+perspective?
+
+
+>> Yeah,
+ I
+ mean
+ I
+ spend
+ quite
+ a
+ lot
+ of
+ my
+
+
+time
+ just
+ sitting
+ here
+ inside
+ of
+ my
+
+
+terminal
+ now.
+ Um
+ I
+ I
+ do
+ so
+ much
+ less
+ I
+
+
+think
+ of
+ the
+ uh
+ like
+ what
+ I
+ used
+ to
+ have
+
+
+to
+ do
+ where
+ I
+ had
+ to
+ have
+ a
+ browser
+
+
+window
+ open
+ at
+ the
+ same
+ time
+ as
+ having
+
+
+my
+ code
+ window
+ open.
+ uh
+ there
+ are
+ times
+
+
+where
+ I
+ need
+ to
+ check
+ check
+ those
+ types
+
+
+of
+ you
+ know
+ product
+ oriented
+ flows
+ but
+
+
+there's
+ actually
+ quite
+ a
+ few
+ changes
+
+
+especially
+ when
+ they're
+ kind
+ of
+
+
+mechanistic
+ in
+ nature
+ like
+ this
+ where
+ I
+
+
+don't
+ even
+ necessarily
+ have
+ to
+ have
+ uh
+
+
+you
+ know
+ the
+ visual
+ uh
+ in
+ order
+ to
+ get
+
+
+the
+ work
+ done.
+ So
+ um
+ I
+ often
+ have
+ two
+
+
+three
+ up
+ to
+ five
+ maybe
+ cloud
+ code
+ um
+
+
+instances
+ running
+ all
+ at
+ the
+ same
+ time
+
+
+working
+ on
+ different
+ aspects
+ of
+ the
+ work
+
+
+that
+ I'm
+ I'm
+ tracking.
+ So
+ some
+ of
+ them
+
+
+might
+ be
+ doing
+ things
+ that
+ are
+ just
+
+
+reconciling
+ the
+ design
+ file
+ with
+ the
+
+
+codebase,
+ but
+ other
+ ones
+ might
+ be
+
+
+working
+ on
+ exploratory
+ things,
+ answering
+
+
+questions
+ that
+ I
+ have
+ about
+ the
+
+
+codebase,
+ writing
+ specs
+ and
+
+
+documentation
+ that
+ we
+ could
+ talk
+ about
+
+
+in
+ a
+ little
+ bit
+ and
+ kind
+ of
+ my
+ workflow
+
+
+around
+ uh
+ grounding
+ technical
+
+
+specifications
+ inside
+ of
+ code
+ bases.
+ Um
+
+
+I'm
+ just
+ going
+ to
+ allow
+ cloud
+ to
+
+
+progress
+ here.
+ Um,
+ so
+ it
+ was
+ able
+ to
+
+
+find
+ what
+ those
+ differences
+ were
+ between
+
+
+the
+ uh
+ design
+ file
+ and
+ the
+ codebase
+ and
+
+
+um,
+ it's
+ actually
+ going
+ ahead
+ and
+
+
+applying
+ them.
+
+
+>> And
+ what's
+ amazing
+ to
+ me
+ and
+ I
+ think
+
+
+people
+ don't
+ don't
+ articulate
+ enough
+
+
+about
+ let's
+ call
+ it
+ a
+ multimodal
+ AI
+ or
+
+
+you
+ know
+ computer
+ vision
+ all
+ this
+ stuff
+
+
+is
+ it
+ doesn't
+ have
+ to
+ be
+ you
+ dragging
+ a
+
+
+PNG
+ of
+ the
+ file
+ into
+ claude
+ code
+ it
+ it
+
+
+reading
+ that
+ through
+ a
+ vision
+ model
+ and
+
+
+then
+ making
+ some
+ inferences
+ about
+ it
+ and
+
+
+designing
+ it.
+ you're
+ actually
+ doing
+ this
+
+
+like
+ sort
+ of
+ pseudoructured
+ data
+ to
+
+
+pseudoructured
+ data
+ translation
+ through
+
+
+the
+ MCP
+ which
+ has
+ to
+ have
+ much
+ higher
+
+
+accuracy
+ but
+ it's
+ translating
+
+
+functionally
+ visual
+ information
+ which
+ I
+
+
+think
+ is
+ just
+ so
+ nifty.
+ I
+ I
+ love
+ it.
+ Um,
+
+
+h
+ has
+ has
+ this
+ changed
+ kind
+ of
+ your
+
+
+mental
+ model
+ of
+ what
+ does
+ I
+ mean
+ I
+ think
+
+
+Figma
+ in
+ general
+ has
+ pushed
+ forward
+
+
+everybody's
+ mental
+ model
+ of
+ like
+ how
+ you
+
+
+encode
+ design
+ into
+ data
+ but
+ I'm
+ curious
+
+
+how
+ are
+ you
+ all
+ evolving
+ your
+ thinking
+
+
+when
+ you
+ have
+ all
+ these
+ multimodal
+
+
+models
+ at
+ your
+ um
+ at
+ your
+ fingertips
+
+
+when
+ you
+ can
+ do
+ kind
+ of
+ structured
+ data
+
+
+to
+ other
+ structured
+ data
+ translations.
+
+
+Has
+ that
+ inspired
+ any
+ ideas
+ internally
+
+
+about
+ what
+ the
+ future
+ of
+ design
+ looks
+
+
+like?
+ What's
+ really
+ interesting
+ about
+
+
+like
+ our
+ our
+ role
+ with
+ all
+ of
+ this
+ is
+
+
+kind
+ of
+ really
+ moved
+ upstream.
+ Um,
+ and
+
+
+we're
+ in
+ this
+ really
+ I
+ find
+ it
+ almost
+
+
+decadent
+ moment
+ in
+ time
+ where
+ before
+ we
+
+
+had
+ to
+ be
+ so
+ conditioned
+ on
+ really
+ sharp
+
+
+product
+ decision-
+ making
+ skill
+ that
+
+
+would
+ have
+ happen
+ like
+ almost
+
+
+immediately
+ and
+ being
+ able
+ to
+ like
+
+
+quickly
+ reason
+ with
+ stuff
+ and
+ quickly
+
+
+get
+ to
+ really
+ good
+ craft
+ because
+ the
+
+
+bulk
+ of
+ the
+ time
+ was
+ spent
+ building.
+ And
+
+
+so
+ the
+ longer
+ you
+ ate
+ into
+ that,
+ the
+
+
+more
+ P
+ zeros
+ became
+ P1's
+ and
+ P2s.
+ And
+ so
+
+
+now
+ we're
+ kind
+ of
+ actually
+ at
+ this
+ point
+
+
+where
+ more
+ of
+ the
+ priorities
+ can
+ make
+ it
+
+
+above
+ the
+ cut
+ line.
+ And
+ also
+ we
+ can
+
+
+spend
+ a
+ lot
+ more
+ time
+ in
+ the
+ planning
+
+
+stage.
+ You
+ ask
+ me
+ like
+ does
+ it
+ start
+
+
+with
+ with
+ design
+ or
+ with
+ code?
+ Actually,
+
+
+I
+ start
+ a
+ lot
+ of
+ it
+ with
+ planning
+ and
+
+
+just
+ like
+ really
+ riffing
+ and
+ allowing
+
+
+myself
+ and
+ indulging
+ in
+ the
+ the
+
+
+possibilities
+ and
+ then
+ kind
+ of
+ riffing
+
+
+in
+ in
+ something
+ that
+ you
+ know
+ if
+ if
+ it
+ I
+
+
+need
+ it
+ to
+ be
+ something
+ that
+ can
+ only
+
+
+exist
+ in
+ code,
+ it
+ will
+ be
+ code
+ if
+
+
+otherwise
+ uh
+ I
+ will
+ diverge
+ in
+ design.
+
+
+But
+ I
+ see
+ design
+ is
+ much
+ more
+ at
+ this
+
+
+kind
+ of
+ like
+ what
+ should
+ we
+ be
+ building
+
+
+uh
+ stage
+ of
+ the
+ conversation
+ which
+ we
+
+
+were
+ before
+ but
+ it
+ was
+ like
+ a
+ very
+
+
+rushed
+ moment
+ there.
+ Um,
+ and
+ now
+ we
+ can
+
+
+spend
+ a
+ lot
+ more
+ time
+ in
+ it
+ because
+ we
+
+
+know
+ that
+ actually
+ the
+ the
+ building
+ will
+
+
+happen
+ a
+ lot
+ quicker.
+ And
+ so
+ we
+ do
+ that
+
+
+and
+ then
+ on
+ the
+ other
+ side
+ we
+ spend
+ a
+
+
+lot
+ more
+ time
+ in
+ the
+ craft
+ because
+ we
+
+
+can
+ because
+ we
+ can
+ reach
+ higher
+ for
+
+
+ideas.
+ Uh
+ because
+ before
+ we
+ were
+ like
+
+
+well
+ I
+ don't
+ know
+ hope
+ hopefully
+ an
+
+
+engineer
+ will
+ get
+ my
+ intention.
+ Now
+ I
+
+
+could
+ spend
+ a
+ lot
+ a
+ lot
+ longer
+ in
+ that
+
+
+moment.
+ I
+ love
+ that
+ you
+ called
+ this
+ a
+
+
+decadent
+ moment
+ because
+ it
+ was
+ two
+ years
+
+
+ago
+ at
+ config
+ actually
+ I
+ gave
+ a
+ talk
+ on
+
+
+the
+ future
+ of
+ product
+ management
+ and
+ I
+
+
+said
+ this
+ is
+ the
+ era
+ of
+ yes
+ like
+ this
+
+
+idea
+ of
+ the
+ cut
+ line
+ has
+ to
+ disappear
+
+
+and
+ how
+ many
+ planning
+ meetings
+ have
+ we
+
+
+all
+ been
+ in
+ where
+ we
+ look
+ at
+ a
+ design
+
+
+and
+ an
+ engineer
+ goes
+ oh
+ well
+ that's
+ just
+
+
+going
+ to
+ add
+ scope
+ like
+ we
+ got
+ to
+ cut
+
+
+scope
+ or
+ we
+ look
+ at
+ a
+ a
+ priority
+
+
+planning
+ meeting
+ and
+ we
+ say
+ oh
+ that
+ that
+
+
+that
+ little
+ fix
+ that
+ everybody
+ hates
+ in
+
+
+our
+ app
+ I
+ know
+ that
+ everybody
+ hates
+ it,
+
+
+but
+ it's
+ not
+ a
+ P
+ 0
+ priority.
+ So,
+ it's
+
+
+got
+ to,
+ you
+ know,
+ go
+ go
+ next
+ year.
+ And
+ I
+
+
+do
+ think
+ this
+ idea
+ that
+ you
+ can
+ really
+
+
+have
+ an
+ abundance,
+ a
+ feature
+ level
+
+
+abundance
+ mindset
+ is
+ is
+ and
+ and
+ the
+
+
+craft
+ level
+ abundance
+ mindset
+ where
+ you
+
+
+can
+ put
+ the
+ polish
+ and
+ all
+ the
+ things
+
+
+that
+ make
+ these
+ experience
+ are
+ one
+ of
+
+
+the
+ benefits
+ of
+ working
+ with
+ AI
+ right
+
+
+now.
+
+
+>> So,
+ it's
+ done
+ here.
+ It's
+ applied
+ the
+
+
+patch
+ and
+ um
+ now
+ you
+ can
+ actually
+ see
+
+
+that
+ the
+ uh
+ app
+ has
+ been
+ updated
+ and
+ it
+
+
+looks
+ exactly
+ like
+ what
+ the
+ Figma
+ design
+
+
+looked
+ like
+ but
+ uh
+ has
+ been
+ applied
+
+
+entirely
+ within
+ code.
+
+
+>> And
+ so
+ the
+ benefit
+ we
+ got
+ here
+ just
+ to
+
+
+reiterate
+ for
+ folks
+ that
+ are
+ not
+
+
+watching
+ is
+ took
+ an
+ existing
+ app
+ that
+
+
+had
+ drifted
+ very
+ far
+ from
+ the
+ original
+
+
+file
+ in
+ Figma.
+ Happens
+ to
+ the
+ best
+ of
+
+
+us.
+ We
+ programmatically
+ pulled
+ it
+ into
+
+
+Figma.
+ We
+ used
+ our
+ beautiful
+ fine-tuned
+
+
+opposable
+ thumbs
+ and
+ fingers
+ to
+ actually
+
+
+drag
+ and
+ create
+ the
+ perfect
+ design
+ that
+
+
+we
+ wanted
+ in
+ Figma.
+ And
+ then
+ that's
+ very
+
+
+easily
+ pulled
+ in
+ by
+ an
+ engineer
+ like
+
+
+Alex
+ cloud
+ code,
+ whatever
+ your
+ code
+ is.
+
+
+Built
+ the
+ code,
+ didn't
+ even
+ look.
+ I
+
+
+mean,
+ you
+ you
+ did
+ look,
+ but
+ like
+ didn't
+
+
+have
+ to
+ look
+ at
+ the
+ design
+ and
+ now
+ it
+
+
+can
+ be
+ deployed
+ pixel
+ perfect.
+
+
+Everybody's
+ happy.
+ That's
+ how
+ it
+ works.
+
+
+>> That's
+ how
+ it
+ works.
+
+
+>> Okay,
+ now
+ we're
+ just
+ hitting
+ the
+ rubber
+
+
+wall
+ and
+ we're
+ going
+ the
+ other
+
+
+direction.
+ And
+ so
+ you're
+ going
+ to
+ show
+
+
+me
+ how
+ we
+ can
+ start
+ with
+ no
+ design,
+ go
+
+
+from
+ cloud
+ code
+ into
+ a
+ design,
+ and
+ then
+
+
+I'm
+ presuming
+ back
+ to
+ codeex.
+ And
+ this
+
+
+episode's
+ just
+ going
+ to
+ be
+ a
+ pingpong
+
+
+back
+ and
+ forth.
+ So
+ Alex,
+ how
+ would
+ you
+
+
+as
+ a
+ engineer
+
+
+know
+ design
+ setup
+ actually
+ start
+
+
+designing
+ something
+ in
+ Figma?
+
+
+>> Often
+ times
+ like
+ the
+ codebase
+ gets
+ way
+
+
+ahead
+ of
+ where
+ the
+ actual
+ design
+ file
+ is
+
+
+and
+ there's
+ states
+ or
+ workflows
+ that
+
+
+just
+ don't
+ exist
+ at
+ all
+ within
+ the
+
+
+design
+ file.
+ And
+ I
+ want
+ to
+ show
+ you
+ a
+
+
+little
+ demo
+ of
+ like
+ how
+ you
+ can
+ actually
+
+
+take
+ all
+ of
+ those
+ states
+ that
+ don't
+
+
+exist
+ within
+ your
+ design
+ file,
+ but
+ exist
+
+
+within
+ your
+ codebase,
+ bring
+ them
+ into
+ a
+
+
+Figma
+ design
+ file
+ so
+ that
+ uh
+ your
+ design
+
+
+collaborators
+ can
+ work
+ directly
+ off
+ of
+
+
+those.
+ Uh
+ here
+ I've
+ been
+ working
+ on
+ a
+
+
+signup
+ flow
+ for
+ a
+ uh
+ new
+ app
+ that
+ I've
+
+
+been
+ working
+ on.
+ And
+ there's
+ a
+ few
+
+
+different
+ states
+ of
+ the
+ signup
+ flow,
+ but
+
+
+not
+ all
+ of
+ those
+ states
+ exist
+ within
+ my
+
+
+design
+ file.
+ And
+ so
+ what
+ I
+ can
+ do
+ is
+ say
+
+
+uh
+ send
+ all
+ five
+ states
+
+
+of
+ the
+ sign
+ up
+ flow
+ to
+ Figma.
+ Now
+ the
+
+
+agent's
+ going
+ to
+ do
+ is
+ uh
+ read
+ my
+
+
+codebase,
+ understand
+ what
+ I'm
+ referring
+
+
+to
+ when
+ I
+ say
+ those
+ five
+ states.
+ And
+ for
+
+
+each
+ one
+ of
+ those,
+ it's
+ going
+ to
+
+
+individually
+ import
+ that
+ one
+ by
+ one
+ into
+
+
+Figma
+ such
+ that
+ the
+ Figma
+ document
+ will
+
+
+then
+ have
+ all
+ of
+ those
+ states
+ laid
+ out
+
+
+all
+ side
+ by
+ side
+ so
+ that
+ Gee,
+ my
+ design
+
+
+partner,
+ can
+ uh
+ work
+ against
+ it.
+
+
+>> Yeah.
+ Again,
+ I'm
+ just
+ going
+ to
+ go
+ back
+
+
+to
+ how
+ it
+ was
+ before.
+ And
+ I'm
+ having
+
+
+flashbacks
+ to
+ these
+ design
+ packages
+ that
+
+
+I
+ used
+ to
+ send
+ over
+ to
+ engineering
+ where
+
+
+every
+ single
+ error
+ state,
+ every
+ bit
+ of
+
+
+copy,
+ every
+ this
+ flashes
+ yellow,
+ this
+
+
+flash
+ is
+ red,
+ this
+ has
+ orange,
+ this
+ is
+
+
+the
+ hover
+ state
+ was
+ documented,
+
+
+designed,
+ lovingly
+ crafted
+ pixel
+ by
+
+
+pixel.
+ And
+ the
+ ability
+ here
+ again
+ I
+
+
+think
+ for
+ a
+ designer
+ even
+ to
+ say
+ like
+
+
+can
+ you
+ remind
+ me
+ what
+ happens
+ when
+ you
+
+
+have
+ a
+ correct
+ email
+ but
+ an
+ incorrect
+
+
+password
+ on
+ this
+ signin
+ flow
+ and
+ like
+
+
+what
+ is
+ our
+ error
+ state
+ without
+ having
+
+
+to
+ go
+ into
+ the
+ code
+ and
+ without
+ having
+
+
+to
+ replicate
+ that
+ in
+ production
+ is
+
+
+pretty
+ powerful.
+ And
+ then
+ you
+ layer
+ on
+
+
+top
+ of
+ that
+ oh
+ cool
+ it's
+ actually
+ in
+ a
+
+
+Figma
+ component
+ so
+ I
+ can
+ go
+ in
+ and
+ edit
+
+
+it.
+ It's
+ not
+ just
+ a
+ screenshot
+ is
+ is
+
+
+quite
+ nice.
+ And
+ so
+ right
+ here,
+ is
+ this
+
+
+in
+ Figma?
+
+
+>> These
+ are
+ all
+ the
+ browser
+ windows
+ that
+
+
+it
+ opened
+ up.
+ But
+ here
+ is
+ now
+ the
+ Figma
+
+
+document
+ that
+ has
+ all
+ of
+ those
+ states
+
+
+laid
+ out
+ side
+ by
+ side.
+ Um,
+ and
+ you
+ can
+
+
+see
+ that
+ each
+ one
+ of
+ them
+ was
+ imported
+
+
+uh
+ as
+ part
+ of
+ this
+ like
+ exact
+ flow
+ all
+
+
+into
+ the
+ same
+ Figma
+ file.
+ And
+ I
+ can
+ now
+
+
+send
+ this
+ link
+ over
+ to
+ my
+ design
+ partner
+
+
+so
+ that
+ while
+ I'm
+ working
+ on
+ my
+ side
+ of
+
+
+the
+ codebase
+ um
+ they
+ can
+ actually
+ uh
+ get
+
+
+started
+ on
+ uh
+ riffing
+ on
+ this,
+
+
+experimenting
+ with
+ different
+ colors,
+
+
+patterns,
+ etc.
+ all
+ while
+ I'm
+ doing
+ my
+ my
+
+
+normal
+ development
+ work.
+
+
+>> This
+ feels
+ like
+ pair
+ programming
+ for
+
+
+designers
+ and
+ engineers
+ together.
+ It's
+
+
+such
+ an
+ interesting
+ new
+ way,
+ new,
+ you
+
+
+know,
+ G,
+ as
+ you
+ said
+ at
+ the
+ beginning,
+
+
+like
+ a
+ new
+ workflow
+ to
+ think
+ about
+ where
+
+
+you're
+ both
+ in
+ different
+ expressions
+ of
+
+
+the
+ same
+ part
+ of
+ the
+ app
+ and
+ you
+ can
+
+
+work
+ very
+ quickly
+ back
+ and
+ forth
+ using
+
+
+the
+ MCP
+ as
+ a
+ connector
+ here.
+
+
+>> Exactly.
+
+
+>> Do
+ you
+ find
+ yourself
+ doing
+ more
+
+
+synchronous
+ work
+ or
+ more
+ asynchronous
+
+
+work
+ because
+ of
+ this?
+
+
+>> I
+ find
+ that
+ asynchronous
+ work
+ tends
+ to
+
+
+be
+ like
+ my
+ default
+ now.
+ However,
+ I
+ do
+
+
+find
+ that
+ like
+ there's
+ something
+ that's
+
+
+really
+ special
+ about
+ synchronously
+
+
+working
+ through
+ things
+ like
+ with
+ your
+
+
+collaborators,
+ whether
+ it's
+ other
+
+
+engineers
+ or
+ designers,
+ remote
+ oriented
+
+
+environments,
+ like
+ you
+ know,
+ you
+ you
+ get
+
+
+a
+ lot
+ of
+ benefits
+ about
+ being
+ able
+ to
+
+
+like
+ work,
+ you
+ know,
+ around
+ the
+ clock
+
+
+basically,
+ uh,
+ regardless
+ of,
+ you
+ know,
+
+
+where
+ everyone's
+ located.
+ But
+ uh
+ there's
+
+
+something
+ that's
+ still
+ really
+ special
+
+
+about
+ putting
+ everyone
+ together
+ in
+ one
+
+
+place
+ and
+ having
+ that
+ collaborative
+
+
+canvas
+ experience
+ that
+ really
+ brings
+
+
+everyone
+ together
+ I
+ think
+ is
+ still
+
+
+something
+ that
+ you
+ can't
+ quite
+ replace
+
+
+uh
+ even
+ with
+ pull
+ requests
+ even
+ with
+ you
+
+
+know
+ uh
+ jumping
+ on
+ uh
+ you
+ know
+ screen
+
+
+share.
+ Um
+ there's
+ something
+ that
+ feels
+
+
+different
+ when
+ you
+ know
+ folks
+ can
+
+
+freestyle
+ over
+ here
+ and
+ other
+ folks
+ can
+
+
+be
+ working
+ on
+ something
+ else
+ totally
+
+
+unrelated
+ but
+ in
+ the
+ same
+ shared
+ space
+
+
+and
+ seeing
+ each
+ other
+ like
+ kind
+ of
+ work
+
+
+in
+ real
+ time.
+ I
+ think
+ with
+ with
+ this
+
+
+kind
+ of
+ tool
+ um
+ it's
+ really
+ reenabled
+ a
+
+
+lot
+ of
+ the
+ sync
+ work
+ we
+ went
+ it's
+ funny
+
+
+you're
+ talking
+ about
+ the
+ handoffs
+ of
+
+
+packages
+ it's
+ I
+ often
+ feel
+ it's
+ it's
+
+
+like
+ the
+ planet
+ of
+ the
+ apes
+ analogy
+
+
+where
+ we've
+ gone
+ so
+ far
+ into
+ the
+ future
+
+
+in
+ the
+ past
+ where
+ like
+ technology
+ is
+
+
+sci-fi
+ but
+ we're
+ back
+ in
+ this
+ like
+ thing
+
+
+of
+ handing
+ over
+ USB
+ sticks
+ here's
+ my
+
+
+version
+ here's
+ version
+ controlling
+
+
+things
+ and
+ you
+ know
+ now
+ with
+ this
+ I
+ can
+
+
+like
+ be
+ working
+ on
+ an
+ idea
+ with
+ my
+ team
+
+
+together
+ and
+ the
+ energy
+ that
+ we've
+
+
+rediscovered
+ around
+ those
+ spikes
+ where
+
+
+we're
+ all
+ just
+ prototyping
+ and
+ throwing
+
+
+it
+ all
+ into
+ the
+ same
+ place
+ and
+ it
+
+
+doesn't
+ feel
+ like
+ oh
+ I'm
+ going
+ to
+ work
+
+
+into
+ this
+ and
+ tomorrow
+ I'll
+ show
+ you
+ a
+
+
+version
+ and
+ then
+ you
+ will
+ show
+ me
+ a
+
+
+version
+ like
+ momentum
+ begets
+ momentum
+
+
+and
+ so
+ having
+ the
+ team
+ together
+ riffing
+
+
+and
+ yes
+ anding
+ and
+ trying
+ this
+ stuff
+ out
+
+
+is
+ really
+ great.
+ There
+ are
+ going
+ to
+ be
+
+
+moments
+ where
+ I
+ was
+ like,
+ "All
+ right,
+ I
+
+
+think
+ we've
+ we
+ we've
+ had
+ a
+ good
+ good
+ uh
+
+
+jam
+ here.
+ Now,
+ let's
+ go
+ deep."
+ And
+
+
+that's
+ fine.
+ Let's
+ go
+ converge.
+ But
+
+
+there
+ is
+ something
+ to
+ be
+ said
+ about
+ even
+
+
+in
+ remote
+ environments
+ uh
+ jumping
+ into
+ a
+
+
+Figma
+ file
+ and
+ just
+ seeing
+ cursors
+
+
+flying
+ around
+ and
+ trying
+ out
+ stuff.
+ I
+
+
+haven't
+ found
+ a
+ better
+ alternative
+ for
+
+
+that.
+ And
+ I'm
+ hoping
+ if
+ anybody
+ does,
+
+
+it'll
+ be
+ us.
+ Um
+ to
+ be
+ honest,
+
+
+>> one
+ one
+ thing
+ that
+ I
+ want
+ to
+ call
+ out
+ is
+
+
+we've
+ talked
+ a
+ lot
+ on
+ this
+ podcast
+ about
+
+
+engineering
+ toil
+ and
+ reducing
+
+
+engineering
+ toil
+ through
+ AI
+ and
+ Alex
+ we
+
+
+might
+ see
+ some
+ of
+ that
+ in
+ in
+ just
+ a
+
+
+little
+ bit
+ of
+ how
+ do
+ you
+ structure
+ your
+
+
+process
+ and
+ reduce
+ the
+ you
+ know
+ as
+ you
+
+
+say
+ the
+ mechanistic
+ parts
+ of
+ your
+ work
+
+
+or
+ the
+ kind
+ of
+ tactical
+ parts
+ of
+ your
+
+
+work.
+ There
+ is
+ design
+ toil
+ out
+ there.
+
+
+There
+ is
+ copying
+ and
+ pasting
+ files.
+
+
+There
+ is
+ this
+ version
+ final
+ final
+ V2
+ V3
+
+
+final
+ final
+ signed
+ off
+ by
+ boss
+ just
+
+
+kidding
+ final
+ again
+ like
+ there
+ you
+ know
+
+
+there's
+ who's
+ rounding
+ these
+ corners
+ and
+
+
+checking
+ that
+ you
+ know
+ the
+ fonts
+ are
+
+
+matching
+ or
+ that
+ the
+ capitalization
+ is
+
+
+right
+ there's
+ a
+ lot
+ of
+ design
+ toil
+ that
+
+
+goes
+ into
+ building
+ a
+ beautiful
+ product
+
+
+and
+ the
+ other
+ thing
+ that
+ I
+ see
+ is
+ AI
+ can
+
+
+just
+ strip
+ a
+ lot
+ of
+ that
+ work
+ away
+ and
+
+
+again
+ leave
+ you
+ focusing
+ on
+ the
+ higher
+
+
+leverage
+ uses
+ of
+ your
+ talent
+ and
+
+
+contribute
+ contributions
+ to
+ your
+ product
+
+
+which
+ you
+ think
+ results
+ in
+ a
+ higher
+
+
+engaged
+ team.
+
+
+>> Great.
+
+
+>> Okay,
+ we're
+ gonna
+ wrap
+ with
+ one
+ last
+ use
+
+
+case
+ which
+ is
+ not
+ Figma
+ related
+ but
+ is
+
+
+has
+ been
+ really
+ powerful
+ in
+ your
+
+
+workflow,
+ Alex,
+ which
+ is
+ everybody's
+
+
+favorite
+ new
+ primitive
+ of
+ the
+ AI
+ stack,
+
+
+the
+ skill.
+ So,
+ let's
+ see
+ a
+ couple
+ of
+
+
+skills
+ that
+ you
+ found
+ useful
+ to
+ install
+
+
+as
+ an
+ engineer
+ and
+ why
+ you
+ picked
+ them,
+
+
+why
+ you
+ built
+ them,
+ and
+ how
+ you
+ use
+
+
+them.
+ Uh,
+ so
+ I
+ may
+ actually
+ be
+ somewhat
+
+
+in
+ the
+ minority
+ here
+ where
+ I
+ I
+ actually
+
+
+just
+ write
+ a
+ lot
+ of
+ the
+ skills
+ myself
+ or
+
+
+ask
+ the
+ AI
+ to
+ write
+ them
+ for
+ me.
+ Um,
+ a
+
+
+lot
+ of
+ it
+ is
+ based
+ on
+ um
+ just
+
+
+consistently
+ having
+ I
+ I
+ kind
+ of
+ think
+ of
+
+
+them
+ as
+ just
+ like
+ large
+ like
+ macros
+ like
+
+
+prompts
+ that
+ I
+ can
+ uh
+ invoke
+ at
+ any
+ like
+
+
+um
+ point
+ in
+ my
+ workflow.
+ One
+ of
+ the
+ ones
+
+
+that
+ I've
+ been
+ using
+ frequently
+ uh
+ is
+ uh
+
+
+this
+ slash
+ ship
+ skill
+ that
+ I
+ wrote.
+ Um,
+
+
+I
+ use
+ it
+ all
+ the
+ time
+ uh
+ in
+ my
+ workflow.
+
+
+Uh,
+ often
+ in
+ order
+ to
+ get
+ something
+ into
+
+
+a
+ large
+ repo
+ like
+ the
+ Figma
+ repo,
+
+
+there's
+ a
+ lot
+ of
+ work
+ that's
+ involved
+ in
+
+
+just
+ making
+ sure
+ tests
+ pass,
+ making
+ sure
+
+
+um
+ all
+ of
+ the
+ like
+ pre-flight
+ things
+ are
+
+
+in
+ order
+ and
+ also
+ then
+ once
+ it's
+ pushed
+
+
+to
+ uh
+ the
+ repository,
+ checking
+ on
+ CI
+ and
+
+
+making
+ sure
+ that
+ it
+ correctly
+ built
+ and
+
+
+is
+ all
+ green
+ so
+ that
+ I
+ can
+ actually
+
+
+merge
+ it.
+ Previously
+ I
+ would
+ have
+ to
+
+
+kind
+ of
+ babysit
+ these
+ um
+ you
+ know
+ kind
+
+
+of
+ processes
+ like
+ all
+ the
+ way
+ at
+ every
+
+
+single
+ step
+ and
+ I
+ it
+ just
+ created
+ a
+ lot
+
+
+of
+ friction
+ for
+ me.
+ Um
+ so
+ I
+ wrote
+ this
+
+
+slash
+ ship
+ skill
+ that
+ I
+ use
+ all
+ the
+
+
+time.
+ So
+ inside
+ of
+ uh
+ Figma
+ we
+ have
+
+
+these
+ things
+ called
+ dev
+ boxes
+ which
+ are
+
+
+hosted
+ development
+ environments
+ that
+ we
+
+
+do
+ most
+ of
+ our
+ work
+ in.
+ Now
+ part
+ of
+ that
+
+
+devbox
+ environment
+ is
+ that
+ uh
+ we
+
+
+automatically
+ insert
+ like
+ bootstrap
+
+
+scripts
+ in
+ order
+ to
+ uh
+ make
+ it
+ so
+ that
+
+
+when
+ you
+ boot
+ your
+ new
+ dev
+ environment
+
+
+that
+ any
+ of
+ your
+ customizations
+ that
+ you
+
+
+specifically
+ have
+ for
+ your
+ dev
+
+
+environment
+ also
+ get
+ put
+ alongside
+ it.
+
+
+So
+ what
+ you're
+ looking
+ at
+ right
+ here
+ is
+
+
+my
+ internal
+ git
+ repository
+ that
+ stores
+
+
+all
+ of
+ my
+ personal
+ configuration
+ for
+ my
+
+
+dev
+ box.
+ And
+ I
+ have
+ a
+ couple
+ of
+ commands
+
+
+here.
+ Some
+ of
+ which
+ are
+ underneath
+ the
+
+
+the
+ devbox
+ command
+ that
+ I'll
+ I'll
+ talk
+
+
+about
+ in
+ a
+ little
+ bit.
+ But
+ this
+ uh
+ this
+
+
+is
+ how
+ I
+ manage
+ the
+ dev
+ box
+ itself
+ and
+
+
+create
+ new
+ skills
+ via
+ it.
+ So
+ I
+ have
+ a
+
+
+skill
+ for
+ creating
+ more
+ skills.
+ Uh
+ as
+
+
+well
+ as
+ a
+ couple
+ of
+ just
+ really
+ popular
+
+
+ones
+ that
+ I
+ uh
+ use
+ all
+ the
+ time
+ such
+ as
+
+
+addressing
+ PR
+ feedback
+ and
+ the
+ slash
+
+
+ship
+ command
+ that
+ I
+ just
+ mentioned.
+ So
+
+
+what
+ does
+ that
+ do?
+ It
+ boots
+ up
+ a
+ bunch
+
+
+of
+ things
+ and
+ runs
+ a
+ bunch
+ of
+ checks
+
+
+against
+ uh
+ the
+ repository.
+ Um
+ these
+ are
+
+
+what
+ I
+ refer
+ to
+ as
+ pre-flight
+ checks.
+ Uh
+
+
+they
+ check
+ for
+ things
+ inside
+ of
+ the
+
+
+commit
+ to
+ make
+ sure
+ I
+ didn't
+
+
+accidentally
+ commit
+ something
+ that
+
+
+doesn't
+ make
+ sense
+ in
+ the
+ context
+ of
+
+
+this
+ particular
+ like
+ commit
+ as
+ well
+ as
+
+
+uh
+ running
+ lint
+ querying
+ for
+ various
+
+
+packages
+ to
+ make
+ sure
+ that
+ uh
+ we're
+
+
+correctly
+ running
+ the
+ Basil
+ build
+
+
+commands.
+ We
+ use
+ Basil
+ for
+ um
+ Basil
+ for
+
+
+uh
+ build
+ systems.
+ And
+ then
+ finally
+ like
+
+
+pushing
+ it
+ to
+ the
+ git
+ repository.
+ So
+
+
+monitoring
+ the
+ CI
+ checks
+ after
+ push
+
+
+using
+ GitHub
+ pull
+ request
+ checks.
+ In
+
+
+order
+ to
+ do
+ that
+ we
+ use
+ build
+ kite
+ for
+
+
+our
+ um
+ CI
+ loop
+ and
+ uh
+ that
+ also
+ gets
+
+
+checked.
+ So
+ once
+ the
+ build
+ either
+
+
+succeeds
+ or
+ fails,
+ the
+ script
+ will
+ then
+
+
+check
+ build
+ kite
+ for
+ whether
+ or
+ not
+ the
+
+
+logs
+ represented
+ anything.
+ And
+ if
+ there
+
+
+are
+ minor
+ fixes
+ like
+ lint
+ issues
+ or
+
+
+otherwise,
+ it'll
+ automatically
+ push
+
+
+another
+ commit
+ in
+ order
+ to
+ uh
+ fix
+ that
+
+
+particular
+ like
+ more
+ minor
+ issue.
+ And
+
+
+it'll
+ do
+ this
+ up
+ to
+ five
+ times
+ with
+ a
+
+
+1-hour
+ timeout
+ um
+ waiting
+ for
+ CI.
+
+
+There's
+ also
+ a
+ handful
+ of
+ things
+ that
+
+
+are
+ um
+ you
+ know
+ as
+ things
+ as
+ I
+ I
+ went
+
+
+through
+ like
+ encouraging
+ it
+ not
+ to
+ force
+
+
+push
+ just
+ in
+ case
+
+
+>> that's
+ the
+ one
+ I
+ was
+ looking
+ at
+
+
+>> overwrites
+ uh
+ something
+ inside
+ of
+ my
+
+
+repository
+ or
+ it
+ commits
+ credentials
+ or
+
+
+things
+ like
+ that.
+ But
+ I
+ use
+ this
+ skill
+
+
+pretty
+ much
+ all
+ the
+ time
+ in
+ my
+ dev
+ loop
+
+
+as
+ a
+ way
+ once
+ I've
+ like
+ hit
+ a
+ good
+ state
+
+
+where
+ I
+ think
+ that
+ this
+ is
+ ready
+ to
+ go
+
+
+and
+ should
+ be
+ like
+ um
+ you
+ know
+ um
+ pushed
+
+
+to
+ our
+ repository.
+ I
+ do
+ slship
+ and
+ then
+
+
+walk
+ away
+ from
+ my
+ laptop
+ and
+ um
+ it
+
+
+usually
+ takes
+ it
+ from
+ there.
+ So,
+ one
+
+
+thing
+ I
+ want
+ to
+ call
+ out,
+ this
+ is
+ giving
+
+
+me
+ such
+ inspiration,
+ which
+ is
+ every
+
+
+engineering
+ org
+ that
+ I've
+ ever
+ run
+ has
+
+
+an
+ internal
+ wiki
+ that
+ has
+ that
+ page,
+
+
+which
+ is
+ this
+ is
+ what
+ you
+ do
+ before
+ you
+
+
+push
+ a
+ PR
+ and
+ you
+ get
+ in
+ everybody's
+ way
+
+
+in
+ the
+ deploy
+ pipeline.
+ And
+ every
+
+
+engineering
+ team
+ should
+ go
+ through
+ their
+
+
+onboarding
+ wiki
+ and
+ pull
+ every
+ page
+ out,
+
+
+every
+ this
+ is
+ what
+ you
+ should
+ do
+ into
+ a
+
+
+skill
+ and
+ then
+ give
+ give
+ access
+ to
+ that
+
+
+to
+ their
+ entire
+ team.
+ And
+ so
+ I
+ think
+
+
+we're
+ really
+ shifted
+ from
+ this
+ idea
+ of
+
+
+like
+ an
+ SOP
+ into
+ a
+ skill
+ or
+ a
+ doc
+ into
+ a
+
+
+skill.
+ And
+ I
+ know
+ so
+ many
+ folks
+ that
+
+
+have
+ this
+ buried
+ in
+ GitHub
+ in
+ um
+
+
+Confluence
+ and
+ you
+ can
+ just
+ give
+
+
+somebody
+ the
+ job
+ for
+ a
+ week
+ to
+ take
+ all
+
+
+that
+ stuff
+ and
+ make
+ it
+ a
+ skill.
+ Push
+ it
+
+
+in
+ your
+ repo
+ and
+ then
+ let
+ everybody
+
+
+benefit
+ from
+ a
+ systematic
+ way
+ to
+ to
+ roll
+
+
+out
+ those
+ best
+ practices.
+
+
+>> Absolutely.
+ Yeah.
+
+
+>> Awesome.
+ It
+ turns
+ like
+ a
+ lot
+ of
+ these
+
+
+like
+ processes
+ that
+ would
+ otherwise
+ just
+
+
+be,
+ you
+ know,
+ based
+ on
+ best
+ intentions
+
+
+and
+ whenever
+ people
+ remember
+ into
+
+
+something
+ that
+ can
+ be
+ fully
+ automated
+
+
+and
+ um
+ brought
+ into
+ people's
+ workflows
+
+
+by
+ default.
+
+
+>> Amazing.
+ Okay.
+ Well,
+ this
+ has
+ been
+
+
+great.
+ Just
+ to
+ recap
+ what
+ we
+ saw,
+ we
+ saw
+
+
+codeex
+ to
+ Figma
+ to
+ cla
+ code
+ to
+ claude
+
+
+code
+ to
+ Figma
+ to
+ Figma.
+ Um,
+ basically
+
+
+just
+ calling
+ out
+ you
+ don't
+ have
+ to
+ think
+
+
+about
+ your
+ designs
+ as
+ a
+ static
+ asset
+
+
+anymore.
+ You
+ don't
+ have
+ to
+ think
+ about
+
+
+building
+ components
+ in
+ code
+ only
+ or
+ in
+
+
+design
+ only.
+ These
+ things
+ can
+ interact
+
+
+together.
+ Calling
+ out
+ the
+ benefits
+ of
+
+
+just
+ being
+ able
+ to
+ touch
+ the
+ design
+ with
+
+
+your
+ cursor
+ and
+ collaborate
+ live
+ with
+
+
+your
+ colleagues
+ and
+ then
+ encoding
+ some
+
+
+of
+ your
+ best
+ practices
+ into
+ things
+ like
+
+
+skills.
+ Um
+ encoding
+ some
+ of
+ your
+
+
+capabilities
+ into
+ things
+ like
+ MTP
+ so
+
+
+then
+ everybody
+ can
+ can
+ access
+ this
+
+
+stuff.
+ So
+ I'm
+ going
+ to
+ ask
+ you
+ a
+ couple
+
+
+lightning
+ round
+ questions.
+ You
+ both
+ have
+
+
+to
+ answer.
+ They're
+ clear
+ rules,
+ so
+ you
+
+
+cannot
+ say
+ it
+ depends.
+ I'm
+ going
+ to
+
+
+start
+ with
+ the
+ one
+ that
+ I
+ started
+ this
+
+
+episode
+ with
+ with,
+ which
+ is
+ Gee,
+ code
+
+
+first
+ or
+ design
+ first?
+ If
+ you
+ had
+ to
+
+
+pick
+ one,
+
+
+>> design
+ first.
+
+
+>> I
+ love
+ it.
+ And
+ Alex,
+
+
+>> I'd
+ probably
+ pick
+ code
+ first.
+ And
+ I
+
+
+think
+ that
+
+
+>> breaking
+ the
+ mold
+ here.
+
+
+>> And
+ this
+ is
+ why
+ Figma
+ had
+ to
+ make
+ this
+
+
+MCP
+ because
+ there
+ will
+ never
+ be
+ never
+ be
+
+
+agreement
+ here.
+ You
+ know,
+ my
+ second
+
+
+question
+ for
+ you
+ all,
+ um,
+ and
+ Gee,
+ I'm
+
+
+I'm
+ interested
+ in
+ your
+ opinion,
+ is
+ are
+
+
+there
+ any
+ things
+ around
+ AI,
+ not
+ let's
+
+
+put
+ software
+ and,
+ you
+ know,
+ design
+
+
+systems,
+ all
+ this
+ stuff
+ aside,
+ that
+
+
+you're
+ really
+ excited
+ about
+ as
+ a
+
+
+creative,
+ as
+ a
+ designer,
+ um,
+ that
+ you
+
+
+hope
+ people
+ are
+ going
+ to
+ start
+ using
+
+
+more
+ or
+ talking
+ about
+ more?
+
+
+>> Honestly,
+ it's
+ just
+ been
+ a
+ a
+
+
+like
+ a
+ platform
+ for
+ me
+ to
+ just
+ learn
+
+
+more
+ about
+ something
+ that
+ I
+ was
+ always
+
+
+curious
+ about.
+ And
+ I
+ hope
+ that
+ people
+
+
+like
+ see
+ the
+ educational
+ and
+ the
+
+
+upskilling
+ aspect
+ of
+ it
+ and
+ not
+ just
+
+
+outsourcing
+ any
+ potential
+ capability
+
+
+because
+ it
+ happens
+ across
+ everything.
+
+
+Anything
+ you
+ wanted
+ to
+ get
+ a
+ little
+ bit
+
+
+deeper
+ on,
+ you
+ can
+ now
+ do
+ it
+ without
+
+
+having
+ to
+ troll
+ through
+ links.
+ Like
+ it
+
+
+just
+ it's
+ just
+ there
+ at
+ whatever
+ moment
+
+
+you
+ need
+ it.
+ And
+ I
+ think
+ um
+ I've
+ been
+
+
+diving
+ deep
+ into
+ getting
+ deeper
+ into
+
+
+shaders
+ which
+ before
+ was
+ just
+ pure
+
+
+mathematics
+ that
+ I
+ had
+ no
+ business
+
+
+playing
+ in.
+ And
+ now
+ I
+ was
+ like,
+ "Oh,
+
+
+wait.
+ I
+ can
+ talk
+ about
+ it
+ in
+ natural
+
+
+language
+ and
+ I
+ can
+ learn
+ more
+ about
+ the
+
+
+spec
+ specifics
+ that
+ I
+ want
+ to
+ learn
+
+
+about."
+
+
+>> Alex,
+ what
+ about
+ you?
+
+
+>> Yeah,
+ I
+ I
+ mean
+ I
+ love
+ going
+ really
+ deep.
+
+
+We
+ have
+ a
+ a
+ massive
+ code
+ base
+ at
+ Figma
+
+
+and
+ so
+ I
+ love
+ asking
+ all
+ of
+ the
+ like
+
+
+crazy
+ questions
+ that
+ I
+ had
+ always
+ like
+
+
+wondered
+ about.
+ Um
+ we
+ have
+ an
+ internal
+
+
+service
+ for
+ example
+ that
+ I
+ didn't
+ know
+
+
+the
+ origin
+ of
+ its
+ name.
+ And
+ so
+ I
+ asked
+
+
+Claude
+ to
+ go
+ and
+ figure
+ out
+ based
+ on
+ the
+
+
+commit
+ history
+ um
+ what
+ the
+ origin
+ was
+
+
+and
+ it
+ came
+ back
+ with
+ a
+ really
+ good
+
+
+story
+ um
+ about
+ like
+ how
+ that
+ came
+ to
+ be
+
+
+um
+ it
+ got
+ renamed
+ multiple
+ times
+ that
+
+
+you
+ know
+ contributor
+ has
+ since
+ left
+ the
+
+
+company
+ many
+ years
+ ago.
+ So
+ this
+ was
+ kind
+
+
+of
+ lost
+ in
+ the
+ ether
+ but
+ now
+ uh
+ now
+ uh
+
+
+all
+ of
+ this
+ lore
+ um
+ honestly
+ from
+ the
+
+
+company
+ is
+ actually
+ like
+ embedded
+ inside
+
+
+of
+ the
+ codebase
+ and
+ um
+ I
+ can
+ I
+ can
+ find
+
+
+it
+ now.
+ I'm
+ gonna
+ bridge
+ both
+ of
+ your
+ um
+
+
+excitement
+ which
+ is
+ I
+ think
+ it's
+ such
+ a
+
+
+fun
+ thing
+ to
+ learn
+ by
+ quering
+ open
+
+
+source
+ libraries.
+ And
+ so
+ the
+ example
+ of
+
+
+this
+ recently
+ is
+ you
+ know
+ open
+ claw
+ now
+
+
+named
+ openclaw
+ came
+ out
+ and
+ everybody's
+
+
+like
+ so
+ mystified.
+ They're
+ like
+ it's
+
+
+working
+ overnight
+ and
+ it's
+ doing
+ all
+
+
+this
+ stuff
+ for
+ me.
+ And
+ I
+ was
+ like
+ I'm
+
+
+just
+ going
+ to
+ go
+ into
+ this
+ thing
+ and
+
+
+figure
+ out
+ how
+ it's
+ architected
+ and
+ how
+
+
+it
+ actually
+ does
+ the
+ thing
+ it
+ does.
+ And
+
+
+it
+ was
+ such
+ an
+ interesting
+ learning
+
+
+experience
+ just
+ to
+ decompose
+ how
+ you
+
+
+would
+ design
+ a
+ an
+ agent
+ and
+ what
+ were
+
+
+some
+ of
+ the
+ kind
+ of
+ new
+ things
+ that
+ it
+
+
+had
+ built.
+ And
+ so
+ that's
+ another
+ thing
+
+
+that
+ I
+ recommend
+ either
+ going
+ deep
+ in
+
+
+your
+ co
+ own
+ codebase
+ or
+ going
+ deep
+ in
+ an
+
+
+open
+ source
+ codebase
+ to
+ learn
+ something
+
+
+is
+ something
+ that
+ was
+ so
+ inaccessible
+
+
+before
+ and
+ now
+ you
+ can
+ do
+ basically
+ on
+
+
+any
+ open
+ source
+ library
+ out
+ there
+ which
+
+
+I
+ think
+ is
+ is
+ really
+ cool.
+ Okay,
+ last
+
+
+question.
+ Alex,
+ I'm
+ going
+ to
+ start
+ with
+
+
+you
+ first
+ cuz
+ you
+ um
+ you
+ know,
+ we
+ had
+ a
+
+
+tiny
+ bit
+ of
+ friction
+ with
+ with
+ clawed
+
+
+code.
+ I
+ saw
+ you
+ sweat
+ a
+ little
+ bit.
+ When
+
+
+AI
+ is
+ not
+ replying
+ or
+ how
+ you
+ want,
+ it's
+
+
+not
+ doing
+ what
+ you
+ want,
+ what
+ is
+ your
+
+
+prompting
+ technique?
+ Do
+ you
+ do
+ you
+ like
+
+
+just
+ slash
+ clear
+ and
+ kill
+ it?
+ Like
+ what
+
+
+do
+ you
+ do?
+
+
+>> That
+ that
+ can
+ work,
+ but
+ I
+ find
+ that
+ the
+
+
+more
+ successful
+ one
+ is
+ uh
+ is
+ it's
+ either
+
+
+cursing
+ a
+ little
+ bit
+ um
+ in
+ the
+ prompt.
+
+
+Uh
+ I
+ I
+ you
+ know
+ I
+ am
+ somewhat
+ ashamed
+ to
+
+
+admit
+ that
+ that's
+ extremely
+ effective.
+
+
+But
+ the
+ more
+ uh
+ common
+ one
+ I
+ I
+ use
+ now
+
+
+is
+ that
+ my
+ boss
+ is
+ mad
+ at
+ me.
+ Um
+ and
+ it
+
+
+seems
+ to
+ work
+ pretty
+ well.
+ Um
+ uh
+ it
+ it
+
+
+kind
+ of
+ sympathizes
+ with
+ you
+ and
+ it's
+
+
+it's
+ it's
+ kind
+ of
+ cute.
+
+
+>> I
+ you
+ know
+ I
+ I
+ sometimes
+ say
+ about
+ this
+
+
+about
+ parenting.
+ I
+ tell
+ my
+ kids
+ I
+ only
+
+
+yell
+ at
+ you
+ because
+ it
+ works.
+ Like
+ like
+
+
+I
+ don't
+ want
+ to
+ yell
+ at
+ you
+ but
+
+
+sometimes
+ it's
+ the
+ only
+ thing
+ that
+ you
+
+
+guys
+ listen
+ to.
+ Gee,
+ what
+ about
+ what
+
+
+about
+ you?
+ Are
+ you
+ also
+ do
+ you
+ also
+
+
+>> I
+ uh
+ I
+ have
+ to
+ take
+ the
+ gentle
+ parenting
+
+
+route.
+ I'm
+ terrified
+ of
+ the
+ robots
+
+
+taking
+ over
+ and
+ reading
+ through
+ my
+
+
+prompt
+ history.
+ So,
+ I'm
+ still
+ on
+ the
+
+
+make
+ no
+ mistakes
+ camp.
+
+
+>> Oh,
+ make
+ make
+ no
+ mistakes.
+ I
+ am
+ very
+
+
+polite.
+ I
+ I
+ kind
+ of
+ go
+ with
+ like
+ no.
+
+
+Like
+ I
+ sound
+ really
+ like
+ sad.
+ I'm
+ like
+
+
+no.
+ Or
+ I
+ do
+ um
+ sort
+ of
+ growth
+ mindset
+
+
+parenting
+ where
+ I
+ say
+ I
+ believe
+ you
+ can
+
+
+do
+ it
+ and
+ I
+ believe
+ you're
+ capable
+ of
+
+
+solving
+ this
+ problem.
+ You
+ just
+ apply
+
+
+yourself.
+ You
+ can
+ do
+ all
+ things.
+
+
+>> Alex
+ G,
+ this
+ was
+ so
+ great.
+ Where
+ can
+ we
+
+
+find
+ you
+ both
+ and
+ how
+ can
+ we
+ be
+ helpful
+
+
+to
+ you?
+
+
+>> Uh,
+ you
+ can
+ find
+ me
+ on
+ X.
+ I'm
+ on
+ uh
+
+
+access.io.
+
+
+>> Amazing.
+ And
+ you
+ can
+ find
+ me
+ on
+ uh
+ any
+
+
+social
+ media
+ platform
+ uh
+ as
+ Geizg
+ Gui.
+
+
+And
+ just
+ generally
+ if
+ you
+ figma,
+ chances
+
+
+are
+ I'll
+ probably
+ be
+ reading
+ it.
+
+
+>> Amazing.
+ Well,
+ it
+ was
+ so
+ great
+ to
+ have
+
+
+you.
+ I
+ am
+ so
+ excited.
+ I
+ have
+ gotten
+ I've
+
+
+been
+ very
+ inspired
+ about
+ how
+ we
+ can
+
+
+manage
+ our
+ YouTube
+ thumbnails
+ through
+
+
+code
+ and
+ Figma.
+ So
+ I'm
+ going
+ to
+ go
+
+
+experiment
+ with
+ that
+ and
+ I
+ appreciate
+
+
+you
+ all
+ joining
+ How
+ I
+ AI.
+
+
+>> Thank
+ you
+ for
+ having
+ us
+ for
+ having
+ us.
+
+
+>> Great.
+
+
+>> Thanks
+ so
+ much
+ for
+ watching.
+ If
+ you
+
+
+enjoyed
+ this
+ show,
+ please
+ like
+ and
+
+
+subscribe
+ here
+ on
+ YouTube
+ or
+ even
+ better
+
+
+leave
+ us
+ a
+ comment
+ with
+ your
+ thoughts.
+
+
+You
+ can
+ also
+ find
+ this
+ podcast
+ on
+ Apple
+
+
+Podcasts,
+ Spotify
+ or
+ your
+ favorite
+
+
+podcast
+ app.
+ Please
+ consider
+ leaving
+ us
+
+
+a
+ rating
+ and
+ review
+ which
+ will
+ help
+
+
+others
+ find
+ the
+ show.
+ You
+ can
+ see
+ all
+
+
+our
+ episodes
+ and
+ learn
+ more
+ about
+ the
+
+
+show
+ at
+ howiipod.com.
+
+
+See
+ you
+ next
+ time.
