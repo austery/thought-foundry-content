@@ -1,0 +1,1798 @@
+[Speaker 1]:  i don't think i said this publicly before，
+[Speaker 1]:  but i just call locking was like local locky。
+[Speaker 1]:  like if this doesn't have PMF by the end the year，
+[Speaker 1]:  like we'll just like return all the money to you just saying that i don't want to work on this。
+[Speaker 1]:  i'm lessson to really working。
+[Speaker 1]:  so we want to give it the best shot this year。
+[Speaker 1]:  and i we're really going to go for it。
+[Speaker 1]:  we're going to hiire bunch st。
+[Speaker 1]:  people who was going to be honest with everyone，
+[Speaker 1]:  like when i don't know how to play a game。
+[Speaker 1]:  i just play with open cars。
+[Speaker 1]:  lucky was the only person that didn't that didn't freak out。
+[Speaker 2]:  he was like i've never heard anyone say that before the everyone welcome to the ladience space pocs。
+[Speaker 2]:  this is a les u on their kernel，
+[Speaker 2]:  lets，
+[Speaker 2]:  and i'm join best weeks at a ribladispace ace。
+[Speaker 3]:  uh。
+[Speaker 3]:  so so they recording in the kernel stuo over the first time，
+[Speaker 3]:  very excited。
+[Speaker 3]:  and today，
+[Speaker 3]:  we're joined by simon escals，
+[Speaker 3]:  where i of turrible profforo p take you so much having ving a turbble profer as i really gone on a huge tair。
+[Speaker 3]:  and i do have to mention that like you are one of you're not my US member，
+[Speaker 3]:  the danish acus mafia，
+[Speaker 3]:  where like there's a lot of legendary programmers have come out of it like beyond shoestrub rusbes learned off at this houseberg。
+[Speaker 3]:  and the VA team and goooole maths team you're mostly a canadian now，
+[Speaker 3]:  but is it not interesting？
+[Speaker 3]:  they're so much like strong daish presents？
+[Speaker 1]:  yeah，
+[Speaker 1]:  i was writing a post um not that long ago about sort of the influences。
+[Speaker 1]:  so i grew up in demarcrat。
+[Speaker 1]:  i left，
+[Speaker 1]:  i leve it when i was eighteen to go to canada to to work at shop phy。
+[Speaker 1]:  um and so II would still say that i feel more dinners than than canadian。
+[Speaker 1]:  this is also the weird accient。
+[Speaker 1]:  i can say TH，
+[Speaker 1]:  because this is like that。
+[Speaker 1]:  i don't you know，
+[Speaker 1]:  my wife is also canadian。
+[Speaker 1]:  um and i think 嗯，
+[Speaker 1]:  i think like one of the things in in denmarkisis，
+[Speaker 1]:  like there's just such a ruthless pragmaticism。
+[Speaker 1]:  and there's also a big focus on just aesthetics like they're like very people really care about like where what things look like。
+[Speaker 1]:  and and canada has a lot of attributes。
+[Speaker 1]:  US has as a lot of attributes，
+[Speaker 1]:  but i think there's been lot of the great thing to carry。
+[Speaker 1]:  i don't know what's in lot water and ohoto。
+[Speaker 1]:  um and i don't know that i could be considered part of the most matthew mafia quite yet。
+[Speaker 1]:  um compared to there。
+[Speaker 1]:  it's phenomenal individuals who just mentioned。
+[Speaker 1]:  but asus，
+[Speaker 1]:  as noodoff is also dinish canadian。
+[Speaker 1]:  okay，
+[Speaker 1]:  yeah，
+[Speaker 1]:  i don't know where he lives now，
+[Speaker 1]:  but and he's the PHP。
+[Speaker 3]:  yeah。
+[Speaker 3]:  and obviously ld be german。
+[Speaker 3]:  the multiclic canada。
+[Speaker 3]:  yeah。
+[Speaker 3]:  this is ssake import that，
+[Speaker 3]:  that，
+[Speaker 3]:  that is is interesting talillet move。
+[Speaker 2]:  i think i would love to get promute the cistion of turturble buffer，
+[Speaker 2]:  because i think you could be a vctor or DB，
+[Speaker 2]:  which maybe a bad war。
+[Speaker 2]:  now，
+[Speaker 2]:  on some circles，
+[Speaker 2]:  you could be a third pofer like leggstart there。
+[Speaker 2]:  and then will maybe run through the history of how you get to this point。
+[Speaker 1]:  for sure。
+[Speaker 1]:  yes，
+[Speaker 1]:  a turbble puffer is at this point time。
+[Speaker 1]:  a search engine，
+[Speaker 1]:  right？
+[Speaker 1]:  we do full tex search and we do vetor search。
+[Speaker 1]:  and that's really what we're specialized。
+[Speaker 1]:  then if you're trying to do much board than that might，
+[Speaker 1]:  then this might not be the right place yet。
+[Speaker 1]:  but throw of of offer is all about search。
+[Speaker 1]:  the other way that i think about it is that we can take all of the world's knowledge，
+[Speaker 1]:  all of the exhibiits and exhibits of data that there is。
+[Speaker 1]:  and we can use those tokens to train a model，
+[Speaker 1]:  but we can compress all of that into a few terribtes of weights，
+[Speaker 1]:  right？
+[Speaker 1]:  we can press ss a few terriers，
+[Speaker 1]:  rightes of weight，
+[Speaker 1]:  how to reason with the world，
+[Speaker 1]:  how to make sense of the knowledge，
+[Speaker 1]:  but we have to somehow connected to something external。
+[Speaker 1]:  it actually holds that like in full fdelity and truth um and that's the thing that we intend to become right。
+[Speaker 1]:  that's like a very holier and now kind of phrazing right？
+[Speaker 1]:  but being the surge engengine for unstructured on structure data is the focus s turcobubuffer at this point in time，
+[Speaker 2]:  and let's break them。
+[Speaker 2]:  so people may say，
+[Speaker 2]:  well，
+[Speaker 2]:  then in alastic search already do this。
+[Speaker 2]:  and then some of ter people may say，
+[Speaker 2]:  is this search on my data？
+[Speaker 2]:  is this like closer to rag g？
+[Speaker 2]:  and it's like AXR like a public search thing，
+[Speaker 2]:  like，
+[Speaker 1]:  how do you segment like the different types of search the way that i generally think about this is like there's a lot of database companies。
+[Speaker 1]:  and i think if you want to build a really big database company，
+[Speaker 1]:  sort of you need a couple of ingredients to be in the air and need only happens roughly every fifteen years。
+[Speaker 1]:  you need a new workload。
+[Speaker 1]:  you basically need an ambibithat。
+[Speaker 1]:  every single company，
+[Speaker 1]:  the on earth is going to have data in your database multiple times。
+[Speaker 1]:  you look at a company like like oracle，
+[Speaker 1]:  right you like，
+[Speaker 1]:  i think think you can find a company on earth with a digital presence that it not doesn't somehow have some data in an oracle database，
+[Speaker 1]:  right？
+[Speaker 1]:  and i think at this point，
+[Speaker 1]:  that's also true th ssnowflake and data breaks，
+[Speaker 1]:  right，
+[Speaker 1]:  fifteen years later，
+[Speaker 1]:  it's or even more than that，
+[Speaker 1]:  there is not a company on earth that doesn't indirectly or directly is consuming snowflake，
+[Speaker 1]:  or or data breaks，
+[Speaker 1]:  or any the big inalytics databasright。
+[Speaker 1]:  and i think you're in that kind of moment now，
+[Speaker 1]:  right？
+[Speaker 1]:  and i think think you're going to find a company over the next few years that doesn't directly indirectly um have all their data available for for search and connected to AI。
+[Speaker 1]:  so you need that new workload like you need something to be happening when there's a new workload that causes that to happen。
+[Speaker 1]:  and that new workload is connecting very large amounts of data to AI。
+[Speaker 1]:  the second thing you need the second condition to build the big database companies that you need some new underlying change in the storage architecture that is not possible from the databases that have come before you。
+[Speaker 1]:  if you look at snowfleg and data bricks，
+[Speaker 1]:  right commotities ze like massive fleet of HD ds like that was not possible in。
+[Speaker 1]:  it just wasn't in the air in the nineties，
+[Speaker 1]:  right？
+[Speaker 1]:  you just didn't redistted built these systems as three and so on was not around。
+[Speaker 1]:  and i think the architecture is now possible that wasn't possible fifteen years ago is to go all in on NBMESD is recods AA particular type of architecture for the atababthat that didifficult to rather fit onto the databases that are already there，
+[Speaker 1]:  including the one she just mentioned。
+[Speaker 1]:  the second thing is to go all in auomic storage more。
+[Speaker 1]:  so that be couooted on fifteen years diago like we don't have a consensus layer。
+[Speaker 1]:  we don't really have anything。
+[Speaker 1]:  in fact，
+[Speaker 1]:  you could turn off all the servers turturble offer has，
+[Speaker 1]:  and we would not lose any data because we have or completely all lononbiic storage。
+[Speaker 1]:  and this means that our architecture is just so simple。
+[Speaker 1]:  so that's the second condition，
+[Speaker 1]:  right？
+[Speaker 1]:  first being a new workload，
+[Speaker 1]:  that means that every company on earth，
+[Speaker 1]:  i do indirectly your directly that using your database。
+[Speaker 1]:  second being，
+[Speaker 1]:  there's some new storage architeteture ture means ans，
+[Speaker 1]:  the the companies that have come before you can do what you're doing。
+[Speaker 1]:  i think the third thing you meds to do to build a big database company is that means time you have to influent more as every cororay plan on the data。
+[Speaker 1]:  what that means is that you，
+[Speaker 1]:  you can't just get stuck like this is the one thing that the database does，
+[Speaker 1]:  it has to be ever evolving。
+[Speaker 1]:  because when someone has data in the database，
+[Speaker 1]:  they over time，
+[Speaker 1]:  expect to be able to ask it more less every every tion。
+[Speaker 1]:  so you have to do that to get the storage architecture to the limit of what what it's capable of。
+[Speaker 1]:  those are the three conditions。
+[Speaker 3]:  i just wanted to get a little bit of ate to motivation，
+[Speaker 3]:  right？
+[Speaker 3]:  like so you left shoplify your like principlier ininfrguguy。
+[Speaker 3]:  you also had of kernel leves inside a shopphfieric。
+[Speaker 3]:  and then you can sole it for read wise。
+[Speaker 3]:  and it kind of give you that，
+[Speaker 3]:  that idea。
+[Speaker 3]:  i just want to you to tell that story。
+[Speaker 3]:  um maybe i 've told it before，
+[Speaker 3]:  but uh just introduced it the people to like the the new worloload and oohmmoment at tople poff，
+[Speaker 1]:  for sure。
+[Speaker 1]:  so yeah，
+[Speaker 1]:  i spent almost the decade at shoppify。
+[Speaker 1]:  i was on the infrastructure team from the fairly fairly early days around twenty thirteen。
+[Speaker 1]:  at the time，
+[Speaker 1]:  it felt like it was growing so quickly and everything all the metrics were，
+[Speaker 1]:  you know，
+[Speaker 1]:  doubling here on year for are to to do what companies are contending with today。
+[Speaker 1]:  it's very cute and growth。
+[Speaker 1]:  i feel like my luck。
+[Speaker 1]:  km companies are seen that month over month。
+[Speaker 1]:  of course，
+[Speaker 1]:  shoppify compound has been compounding for a very long time now，
+[Speaker 1]:  but i spent a decade doing that。
+[Speaker 1]:  and the majority of that was just make sure the site is up today and make sure it's up a year from now。
+[Speaker 1]:  and a lot of that was really just the，
+[Speaker 1]:  you know uh，
+[Speaker 1]:  the kadashians would drive very，
+[Speaker 1]:  very large amounts of of data to to to shoppify as they were rotating through all the merch and building out their businesses。
+[Speaker 1]:  and we just needed to make sure we could handle that right。
+[Speaker 1]:  and sometimes these were events for a million requests per second。
+[Speaker 1]:  and so you know，
+[Speaker 1]:  we had our own data centors back in today，
+[Speaker 1]:  and we move to the class and there re's so much sharting work in all of that that we were doing。
+[Speaker 1]:  there's been a decade just scaling databes because that fundamentally was the most difficult thing to scale about these sites。
+[Speaker 1]:  the database that was the most difficult for me to scale doing that time。
+[Speaker 1]:  and that was the most aggravating to be on call for was elelastic search。
+[Speaker 1]:  it was very，
+[Speaker 1]:  very difficult to deal with。
+[Speaker 1]:  and i saw a lot of project that wewas just being held back in their ambition by using it。
+[Speaker 1]:  and i mean，
+[Speaker 1]:  self host，
+[Speaker 1]:  self host，
+[Speaker 1]:  yeah and thewas，
+[Speaker 1]:  so self like like grabibiright。
+[Speaker 1]:  so it's like a very particular vintage，
+[Speaker 1]:  right。
+[Speaker 1]:  it's probably better a lot of these things。
+[Speaker 1]:  now um it was difficult to content with，
+[Speaker 1]:  and i'm just like i just think about it's an inverted index is should ply good at these kinds of corories and do all of this。
+[Speaker 1]:  and it was we often couldn't get it to do exacteable。
+[Speaker 1]:  we needed to do or basically mlucine to do like exposed mcine ine raw to to what we needed to do。
+[Speaker 1]:  um so that was like just something that we did on decided like a panic scale when we needed to，
+[Speaker 1]:  but not a particular focus of mine。
+[Speaker 1]:  so i left，
+[Speaker 1]:  and when i laugh，
+[Speaker 1]:  i um wasn't sure exactly what i want anto do。
+[Speaker 1]:  i mean spent like a decade inded the same company，
+[Speaker 1]:  i that grown up there。
+[Speaker 1]:  i started working there。
+[Speaker 1]:  there was eighteen。
+[Speaker 1]:  you only do rails，
+[Speaker 1]:  yeah。
+[Speaker 1]:  i mean，
+[Speaker 1]:  yeah。
+[Speaker 1]:  rails and neees are rails guy ah，
+[Speaker 1]:  lolove else so good。
+[Speaker 2]:  um we all wish we could still work in rails。
+[Speaker 3]:  i know i know i know，
+[Speaker 3]:  but some i try learning rube。
+[Speaker 3]:  it's just too much like too many options to do the same thing。
+[Speaker 3]:  i know know，
+[Speaker 1]:  i know know know there's a way to do。
+[Speaker 1]:  i love it。
+[Speaker 1]:  i don't know that i would use it now by given cloud code and and cursor in everything，
+[Speaker 1]:  but um but but still，
+[Speaker 1]:  if i'm learning writing a tesonal code，
+[Speaker 1]:  that's how i think，
+[Speaker 1]:  but alway i laughed，
+[Speaker 1]:  and i wasn't i talk to a couple companies，
+[Speaker 1]:  as like，
+[Speaker 1]:  i don't II need to see a little bit more of the world here to know what i'm going to like，
+[Speaker 1]:  focus on next。
+[Speaker 1]:  and so what i decided ded，
+[Speaker 1]:  i was going to，
+[Speaker 1]:  i call it like angle engineering，
+[Speaker 1]:  where i just hothe round ound of my friends companies in three months in comments。
+[Speaker 1]:  and just help them out read something right and just invested a bit equity and solved some interesting infrastructure problem。
+[Speaker 1]:  so we're with a bunch of companies at the time。
+[Speaker 1]:  um realise es，
+[Speaker 1]:  one of them replicate was one of them。
+[Speaker 1]:  um caual。
+[Speaker 1]:  i don't know if you ed，
+[Speaker 1]:  ed this，
+[Speaker 1]:  it's like it's a spretchy engine。
+[Speaker 1]:  yeah，
+[Speaker 1]:  where you can do distribution。
+[Speaker 1]: 嗯，
+[Speaker 1]:  they sold recently。
+[Speaker 1]:  uh，
+[Speaker 1]:  we we used that an fba um a turbal of offer。
+[Speaker 1]:  um so bunch al companies like this and was super fun。
+[Speaker 1]:  and so when the chageby of teep moment happened，
+[Speaker 1]:  i was with with revice for a stent，
+[Speaker 1]:  we were preparing for the reader launch，
+[Speaker 1]:  right？
+[Speaker 1]:  which is where you UQ articles have read them later，
+[Speaker 1]:  but i was just getting their posters ws up to snoff like which which basally borres out of tuning auto vacuum。
+[Speaker 1]:  so i was doing that。
+[Speaker 1]:  and then this happened，
+[Speaker 1]:  and we're like，
+[Speaker 1]:  oh，
+[Speaker 1]:  maybe you should build a little recommendation engine and some features to try to hook in the other limps。
+[Speaker 1]:  there were not that good yet，
+[Speaker 1]:  but it was do something there。
+[Speaker 1]:  and so i built a small recommendation engine。
+[Speaker 1]:  just okay，
+[Speaker 1]:  let's take the articles。
+[Speaker 1]:  and you reason read right，
+[Speaker 1]:  like ebeed all the articles and then do recommendations。
+[Speaker 1]:  it was good enough that when i randed on one of the coal founders，
+[Speaker 1]:  every buys，
+[Speaker 1]:  like i found found out，
+[Speaker 1]:  i got articles about about having a child about。
+[Speaker 1]:  oh，
+[Speaker 1]:  my god，
+[Speaker 1]:  d didn't like，
+[Speaker 1]:  i didn't know that they rehaa a ine。
+[Speaker 1]:  DI wasn't what what do with that information。
+[Speaker 1]:  but the recommendation engine was good enououthat that it was suggesting articles um about that。
+[Speaker 1]:  and so there was there was recommendations，
+[Speaker 1]:  and it actually worked really well。
+[Speaker 1]:  but this was a company that was spending maybe five grand a month in total on all their infrastructure。
+[Speaker 1]:  and when i did the napkin mass on running the embeddings of all the articles putting them in to a vector index，
+[Speaker 1]:  putting it in prid。
+[Speaker 1]:  it's going to be like thirty grand a month that just wasn't tennible，
+[Speaker 1]:  right？
+[Speaker 1]:  i read wise is a privty bootstrappcompany and sppaying thirty grand for infrastructure for one feature was is fightly。
+[Speaker 1]:  it's just wasn't tennible。
+[Speaker 1]:  so sort of in the bucket of this is useful。
+[Speaker 1]:  it's pretty good。
+[Speaker 1]:  but let us let's return to it when when cost cost come did did see，
+[Speaker 3]:  say，
+[Speaker 3]:  scaling featfeature。
+[Speaker 3]:  so the five to thirty is by the number of like what what's the scaling factors is？
+[Speaker 3]:  did you see it groaling articles that you eved it does？
+[Speaker 1]:  but what i meant，
+[Speaker 1]:  what that is like five grand for like all of the other，
+[Speaker 1]:  like the her vocal dinoos postgrss，
+[Speaker 1]:  like all the other and disvent，
+[Speaker 1]:  a storage is thirty yeah。
+[Speaker 1]:  and then like thirty grand for one feature，
+[Speaker 1]:  right，
+[Speaker 1]:  which is like what other articles are related to this one。
+[Speaker 1]:  um so it 's just too much right to power everything。
+[Speaker 1]:  their budget would have been maybe a few thousand dollars，
+[Speaker 1]:  which still would have been a oed。
+[Speaker 1]:  and so we put it in the bucket of，
+[Speaker 1]:  okay。
+[Speaker 1]:  we're going to do that later。
+[Speaker 1]:  wewawait will wait for the cost to come down。
+[Speaker 1]:  and that haunted me。
+[Speaker 1]:  i couldn't stop thinking about it。
+[Speaker 1]:  i was like，
+[Speaker 1]:  okay，
+[Speaker 1]:  there's clearly some laden demand here。
+[Speaker 1]:  if the cost have been a tenth，
+[Speaker 1]:  we would to ship that。
+[Speaker 1]:  and this was really the only data point that i had right，
+[Speaker 1]:  didn't i didn't。
+[Speaker 1]:  i didn't go out and talk to anyone else。
+[Speaker 1]:  it was just。
+[Speaker 1]:  so i started reading，
+[Speaker 1]:  right。
+[Speaker 1]:  i couldn't。
+[Speaker 1]:  i couldn't help myself like i didn't know what like a vector index is。
+[Speaker 1]:  i've generally barely do about how to generate the vectors。
+[Speaker 1]:  there is a lot of hype about this is a early twenty twenty twenty three。
+[Speaker 1]:  there's a lot of hype about vector databases there。
+[Speaker 1]:  raising a lot of money，
+[Speaker 1]:  as i did really didn't know anything about it。
+[Speaker 1]:  like，
+[Speaker 1]:  you know，
+[Speaker 1]:  trying these little models find tuning。
+[Speaker 1]:  um i was just trying to get sort of a lay of the land。
+[Speaker 1]:  so i just sat down。
+[Speaker 1]:  i have this get a popostical ical，
+[Speaker 1]:  napkin，
+[Speaker 1]:  mh h and a naapkin math。
+[Speaker 1]:  there's just um rose of like，
+[Speaker 1]:  oh，
+[Speaker 1]:  this is how much ban with，
+[Speaker 1]:  like this is how many you know you can do twenty five gagabbytes per second on average diram。
+[Speaker 1]:  you can do，
+[Speaker 1]:  you know，
+[Speaker 1]:  five giaga bytes per second of right to an SS ers。
+[Speaker 1]:  but about all of these numbers，
+[Speaker 1]:  right？
+[Speaker 1]:  and s three，
+[Speaker 1]:  how many you can do，
+[Speaker 1]:  how much gagaby can you drive per connection？
+[Speaker 1]:  i was to sitting down is like wn't anyone build the database。
+[Speaker 1]:  ase，
+[Speaker 1]:  you just just put everything on obic per orage。
+[Speaker 1]:  and then you pofit into into dirame，
+[Speaker 1]:  when you use the data and you pofit into d ram of you，
+[Speaker 1]:  you're ccoring at a wiyes。
+[Speaker 1]:  it's like 嗯，
+[Speaker 1]:  this seems fairly obvious。
+[Speaker 1]:  and you，
+[Speaker 1]:  the only real downside to that is that if you go all in on opopic storage，
+[Speaker 1]:  every ride will take couple hundred miles seconds of lydsea。
+[Speaker 1]:  but from there，
+[Speaker 1]:  it's really all upside，
+[Speaker 1]:  right？
+[Speaker 1]:  you do the first corory takes half a second，
+[Speaker 1]:  and it's sort of acccurto music。
+[Speaker 1]:  well，
+[Speaker 1]:  the architecture is really good for that is really good for obbig stories。
+[Speaker 1]:  it's really good for NVMSSSD。
+[Speaker 1]:  it's well just could dn't have done that ten years ago back to what we're talking about before you really have to build the database where you want have a bounound tribs as possible，
+[Speaker 1]:  right？
+[Speaker 1]:  this is how CPSS ps today。
+[Speaker 1]:  it's how how the MSS these work。
+[Speaker 1]:  it's how how as three works that you want to have a very large amount of outstanding requests，
+[Speaker 1]:  right？
+[Speaker 1]:  like basically go to us s three do like，
+[Speaker 1]: 好的好的的好的，
+[Speaker 1]:  that thousand request asked for data in one round trip。
+[Speaker 1]:  wait for that，
+[Speaker 1]:  get that like make a new decision，
+[Speaker 1]:  do it again and try to do that。
+[Speaker 1]:  maybe a maximum with three times，
+[Speaker 1]:  but no databases were designed that way with enthe。
+[Speaker 1]:  m is as these，
+[Speaker 1]:  these，
+[Speaker 1]:  you can drive it within you within within a very low multiple of dram band with，
+[Speaker 1]:  if you use it that way and same it as three，
+[Speaker 1]:  right？
+[Speaker 1]:  you can fully max out the network card，
+[Speaker 1]:  which is generally is not maxed down。
+[Speaker 1]:  you get very，
+[Speaker 1]:  like very，
+[Speaker 1]:  very good band with and but no one had built a database like that。
+[Speaker 1]:  so was like，
+[Speaker 1]:  okay，
+[Speaker 1]:  band with can't you just，
+[Speaker 1]:  you know，
+[Speaker 1]:  take all the vectors，
+[Speaker 1]:  right and plock them in the proverbial ordinate system，
+[Speaker 1]:  get the clusters，
+[Speaker 1]:  put a file on estory called clusters dodjason on。
+[Speaker 1]:  and then put another file for every cluster。
+[Speaker 1]:  we，
+[Speaker 1]:  you know，
+[Speaker 1]:  cluster one doj son，
+[Speaker 1]:  cluster two dodj son。
+[Speaker 1]:  you know that like it's two round trips，
+[Speaker 1]:  right？
+[Speaker 1]:  so you get the clusters，
+[Speaker 1]:  you find the closest clusters，
+[Speaker 1]:  and then you download the cluster files like the the closees end，
+[Speaker 1]:  and you do this this two roundtrips ps you and near your neighbors locally。
+[Speaker 1]:  yes，
+[Speaker 1]:  yes。
+[Speaker 1]:  and then and you would build this this file way，
+[Speaker 1]:  just like ulter simplistic，
+[Speaker 1]:  but it's not a far shot from what the first version，
+[Speaker 2]:  that of overwas that what has anyone done that in that moment from a work work perpect of you're thinking，
+[Speaker 2]:  this is going to be like a reheavy，
+[Speaker 2]:  but because the you redend that because the fact that like right，
+[Speaker 2]:  right，
+[Speaker 2]:  it's are so expensive。
+[Speaker 2]:  now，
+[Speaker 2]:  oh，
+[Speaker 2]:  with eh，
+[Speaker 2]:  you're actually not writing that much at that point。
+[Speaker 1]:  i hadn't really thought too much about。
+[Speaker 1]:  well，
+[Speaker 1]:  no，
+[Speaker 1]:  actually，
+[Speaker 1]:  it was always good to me that there was going to be a lot of rights because that shop bify the search clusters were doing。
+[Speaker 1]:  you know，
+[Speaker 1]:  i don't know tens or hundreds of group QPS rikers just have to have a human sydden type end。
+[Speaker 1]:  but we did，
+[Speaker 1]:  you know，
+[Speaker 1]:  i don't know how many updates that work per second of sure was in the millions right into the cluster。
+[Speaker 1]:  so i always knew there was like a ten to one hundred ratio on the read right in the readwise use case。
+[Speaker 1]:  it's um even even in the redrise se use case。
+[Speaker 1]:  there probably be a lot fewer reads and reright，
+[Speaker 1]:  right？
+[Speaker 1]:  there's just a lot of turn on the amount of stuff that was going through versus the amount of courries。
+[Speaker 1]:  i wasasn't ininking much about that。
+[Speaker 1]:  i was mostly just thinking about what's the fundamentally cheapest way to all the database in the cloud today using the primitives that you have available。
+[Speaker 1]:  and this is it right？
+[Speaker 1]:  you just now you have one machine，
+[Speaker 1]:  and you know，
+[Speaker 1]:  let's say，
+[Speaker 1]:  you have a terribite of data in s three，
+[Speaker 1]:  you paid two one dollars ammonth for that。
+[Speaker 1]:  and then maybe five to ten percent of that data neethen to be an five to MSSD and less than that indid m。
+[Speaker 1]:  well，
+[Speaker 1]:  you just you paying very，
+[Speaker 1]:  very little to infate the data a。
+[Speaker 3]:  but when you say no one else is done that，
+[Speaker 3]:  um would you consider in new um to be on a similar path inteters of being set of SSV first and separparating the computing storage？
+[Speaker 1]:  yeah，
+[Speaker 1]:  i think what i meant with that is uh just built a completely new database。
+[Speaker 1]:  i don't know we were the first，
+[Speaker 1]:  like it was very much。
+[Speaker 1]:  it was，
+[Speaker 1]:  i mean，
+[Speaker 1]:  i hadn't。
+[Speaker 1]:  i just looked at the nactic mathoters。
+[Speaker 1]:  like this seems really obvious ous sure。
+[Speaker 1]:  like a one people，
+[Speaker 1]:  people up up with the same time，
+[Speaker 1]:  like the light bulbin every invention ever，
+[Speaker 1]:  right。
+[Speaker 1]:  it was just in the air。
+[Speaker 1]:  i think me on neon was was first to，
+[Speaker 1]:  and they're trying to retrofitted and onto pocpress，
+[Speaker 1]:  right？
+[Speaker 1]:  and then they built this whole architecture words，
+[Speaker 1]:  you have。
+[Speaker 1]:  you have an memory。
+[Speaker 1]:  and then sort of like，
+[Speaker 1]:  you know，
+[Speaker 1]:  i'm map back to s three。
+[Speaker 1]:  i think that was very novel at the time to do a for for all TP。
+[Speaker 1]:  but i hadn't seen a database that was truly all in right，
+[Speaker 1]:  not retrofitting at the database field billed purely for this。
+[Speaker 1]:  no consensus layer even using comparisswa b on obbig stories to do consensus。
+[Speaker 1]:  i hadn't seen anyone to go that all in。
+[Speaker 1]:  and i mean，
+[Speaker 1]:  there there，
+[Speaker 1]:  i'm sure there re's strconconsistance before PI don't know that this is looking at the napkmalayer。
+[Speaker 3]:  when you say consensus layer，
+[Speaker 3]:  uh，
+[Speaker 3]:  you strongly relying on history，
+[Speaker 3]:  strong consistency，
+[Speaker 3]:  you are okay。
+[Speaker 3]:  so that is your consiis layer。
+[Speaker 1]:  it is the later。
+[Speaker 1]:  and i think also like this is something that that most people don't realize，
+[Speaker 1]:  but actually only only became consistent in december of twenty twenty。
+[Speaker 3]:  i remember discoming are doing cove，
+[Speaker 3]:  and like people were like oh，
+[Speaker 3]:  like it was like you'just just a free ockid。
+[Speaker 3]:  yeah ah there just they just announced that we saw consistency guys that like take cool。
+[Speaker 1]:  and i'm sure that they just they probably had it in proud for a while，
+[Speaker 1]:  but like it's done，
+[Speaker 1]:  but and people like okay，
+[Speaker 1]:  cool，
+[Speaker 1]:  but that's the big moment，
+[Speaker 1]:  right？
+[Speaker 1]:  like any the MS stties were also not in the cloud until around twenty seventeen，
+[Speaker 1]:  right？
+[Speaker 1]:  you just sort of had like twenty seventeen and the MMSS is and be were like，
+[Speaker 1]:  okay，
+[Speaker 1]:  cool。
+[Speaker 1]:  there's like one scuter doesn't whatever right takes a few years。
+[Speaker 1]:  and then the second thing is that era becomes consistent in twenty twenty。
+[Speaker 1]:  so now it means you don't have to have is like big foundation DB，
+[Speaker 1]:  or like zookeeper，
+[Speaker 1]:  whatever sitting they are contending with the keys，
+[Speaker 1]:  which is how you know that's what snowflake others that has cerlly do it 're gone exactly just gone，
+[Speaker 1]:  right？
+[Speaker 1]:  right？
+[Speaker 1]:  so just push sh to the，
+[Speaker 1]:  you know，
+[Speaker 1]:  whatever，
+[Speaker 1]:  how many hundreds people people have working on on stthree solved。
+[Speaker 1]:  and then comparrent swap was not in us three at this point in time。
+[Speaker 3]:  rather way，
+[Speaker 3]:  i don't know what it is。
+[Speaker 1]:  so yybe want to experiin。
+[Speaker 1]:  yes，
+[Speaker 1]:  yes。
+[Speaker 1]:  so so what comparent's wap is is basically，
+[Speaker 1]:  you can imagine that if you have a database，
+[Speaker 1]:  it might be really nice to have a file call meddata or jason and meddata or jason on，
+[Speaker 1]:  could say，
+[Speaker 1]:  things like，
+[Speaker 1]:  hey，
+[Speaker 1]:  these keys are here。
+[Speaker 1]:  and this file means that，
+[Speaker 1]:  and there's lots of meddata that you have to operate in the database，
+[Speaker 1]:  right？
+[Speaker 1]:  but it does a simple of way to it。
+[Speaker 1]:  it。
+[Speaker 1]:  now you have you，
+[Speaker 1]:  you might have a lot of servers that want to change the meddatata。
+[Speaker 1]:  they might have dten that file and want the meddata a contain that，
+[Speaker 1]:  that ile ile。
+[Speaker 1]:  but you have a hundred note that are trying to contain with this meddata or jason。
+[Speaker 1]:  well，
+[Speaker 1]:  what comparents what allows you to do is basically just the downloadad the file，
+[Speaker 1]:  you make the modifications，
+[Speaker 1]:  and then you write it only if it hasn't changed while you did the modification。
+[Speaker 1]:  and if not you retried right，
+[Speaker 1]:  did you just have this retried loops？
+[Speaker 1]:  now you can imagine 've have one hundred nodes doing that it could have be really slow，
+[Speaker 1]:  but it will converge over time that primitive was not available in us。
+[Speaker 1]:  three。
+[Speaker 1]:  it wasn't available in us。
+[Speaker 1]:  three，
+[Speaker 1]:  until late，
+[Speaker 1]:  twenty and twenty four，
+[Speaker 1]:  but it was available in gc p。
+[Speaker 1]:  the real story of this is certainly not that i sat down and like big brain it as like，
+[Speaker 1]:  okay，
+[Speaker 1]:  we're going to start on g cs，
+[Speaker 1]:  like s three is going to get it later like it was really not that we started。
+[Speaker 1]:  we got really lucky，
+[Speaker 1]:  and we started on g cp，
+[Speaker 1]:  and we started on GCP because we shupify ran on gc p。
+[Speaker 1]: 没没有。
+[Speaker 1]:  and so that was the proplatform。
+[Speaker 1]:  i was most available with right um and i knew the canadian teenaer because i worked at with them at shuppify，
+[Speaker 1]:  and it was natural for us to start there。
+[Speaker 1]:  and so when we start ted building the database or like yeah ah，
+[Speaker 1]:  we have to build and we really thought we had to build a consensus layer，
+[Speaker 1]:  like have a zookeeper per something to do this。
+[Speaker 1]:  but then we discovered the comparrenswap，
+[Speaker 1]:  like，
+[Speaker 1]:  oh，
+[Speaker 1]:  we can kick the can like we just do made data or js on。
+[Speaker 1]:  and just it's fine。
+[Speaker 1]:  it's probably fine um and we just kept kicking the can until we had very，
+[Speaker 1]:  very strong conviction in the idea。
+[Speaker 1]:  um and then we kind of just hined the company on the fact that s three probably was gonna get this。
+[Speaker 1]:  it started getting really painful like mid，
+[Speaker 1]:  twenty，
+[Speaker 1]:  twenty twenty four because we were closing deals with um um notion，
+[Speaker 1]:  actually，
+[Speaker 1]:  that was running in aws and were like trust us。
+[Speaker 1]:  you，
+[Speaker 1]:  you really want us to run this in GCP，
+[Speaker 1]:  like they're like that，
+[Speaker 1]:  like don't don't know about that like werning everything in AWS。
+[Speaker 1]:  and they ydn't see across the count were so big，
+[Speaker 1]:  and we had so much conviction that we bought。
+[Speaker 1]:  like you know，
+[Speaker 1]:  dark fibrer between the AW ws regions in in organ，
+[Speaker 1]:  like in the interexchange。
+[Speaker 1]:  and GCP is like we've never en en ststart like like what's going going on here。
+[Speaker 1]:  and we're just like，
+[Speaker 1]:  no，
+[Speaker 1]:  we don't want to do this brutuning like TCP windows like everything，
+[Speaker 1]:  get the levcy down because we so so high vicicin not doing ing，
+[Speaker 1]:  get a meddata layer on s three。
+[Speaker 1]:  so those were the three conditions，
+[Speaker 1]:  right comparrent swap to do，
+[Speaker 1]:  made a data which wasn't in s three until late，
+[Speaker 1]:  twenty，
+[Speaker 1]:  twenty four，
+[Speaker 1]:  s three being consistent，
+[Speaker 1]:  which isn't happened until december twenty，
+[Speaker 1]:  twenty，
+[Speaker 1]:  twenty，
+[Speaker 1]:  twenty。
+[Speaker 1]:  and in NVMUS，
+[Speaker 1]:  these we didn't name in the cld until twenty seventeen。
+[Speaker 3]:  i mean，
+[Speaker 3]:  in some ways like a very big，
+[Speaker 3]:  like cloud success story that like you 're able to like um put this all together，
+[Speaker 3]:  but also doing things are doing buying，
+[Speaker 3]:  dour favor that，
+[Speaker 3]:  that actually is isonally。
+[Speaker 3]:  i never heard。
+[Speaker 1]:  i mean，
+[Speaker 1]:  it's very common when you're big company。
+[Speaker 1]:  i do like connecting your own like data center，
+[Speaker 1]:  whatever。
+[Speaker 1]:  but it's like it was uniquely just a pain with notion because the the orlike，
+[Speaker 1]:  like most of ly，
+[Speaker 1]:  like if you buying in ashbnn，
+[Speaker 1]:  virginia，
+[Speaker 1]:  right like US east，
+[Speaker 1]:  the google like the GCP and and AWS data centers like within the mild second only only each other on the public exchanges，
+[Speaker 1]:  but in organ uniquely the GCP data censits，
+[Speaker 1]:  like but a couple hundred kilometers like east，
+[Speaker 1]:  the parortland，
+[Speaker 1]:  but the AWS region sits importortland ent，
+[Speaker 1]:  but the neork k exchange they go through through seattle。
+[Speaker 1]:  so it's like a fall like fourteen million seconds or something like that。
+[Speaker 1]:  and so a ah it's so we were like，
+[Speaker 1]:  okay，
+[Speaker 1]:  we can't we have to go through an examge importortlim。
+[Speaker 1]:  yeah，
+[Speaker 3]:  and you rather do this than like run is zookeeper。
+[Speaker 3]:  er yes way，
+[Speaker 1]:  rather doesn't have state。
+[Speaker 1]:  i don't want state and two systems，
+[Speaker 1]:  um anything i all that is just been formed by juin ing mico founder。
+[Speaker 1]:  and i had just been on call for so long。
+[Speaker 1]:  and the worst outagers are the ones where you have state in multiple places that not thinking up。
+[Speaker 1]:  so it really came them。
+[Speaker 1]:  yea，
+[Speaker 1]:  like just a very pure source of pain，
+[Speaker 1]:  of just imagining what we would be ok，
+[Speaker 1]:  being wooken up and three AM about and having something in zookeeper was not one of them。
+[Speaker 3]:  so talking to econnotion tion or something do they are are or they they just did they just care about lamy，
+[Speaker 3]:  y lamsey costs。
+[Speaker 3]:  it。
+[Speaker 1]:  they just care about lamsey，
+[Speaker 1]:  right？
+[Speaker 1]:  and we just absorb the costs。
+[Speaker 1]:  we're just like we have high connection in this。
+[Speaker 1]:  at some point，
+[Speaker 1]:  we can move and wait WUS，
+[Speaker 1]:  right？
+[Speaker 1]:  so so just just will buy the fiber。
+[Speaker 1]:  it doesn't matter right um and it's like fight e。
+[Speaker 1]:  and we usually when you buy fiber，
+[Speaker 1]:  you buy like multiple lines，
+[Speaker 1]:  and we're like we can only afford。
+[Speaker 1]:  and we it just test it that when it goes over the public internet，
+[Speaker 1]:  it's this super smooth。
+[Speaker 1]:  and so we did did a lot at it it ah。
+[Speaker 2]:  it's so it's just 不 imagine talking the GCP wrap。
+[Speaker 2]:  and it's like，
+[Speaker 2]:  no，
+[Speaker 2]:  we're gonna buy because we know we're gonna n wewe're going to turn from you guys。
+[Speaker 2]:  i go to WS and and like six months。
+[Speaker 2]:  and the mean an，
+[Speaker 2]:  we'll do this。
+[Speaker 1]:  i mean，
+[Speaker 1]:  like they，
+[Speaker 1]:  you know，
+[Speaker 1]:  this world load still runs on GCP for what it's worworright because it so it was just it was so reliable，
+[Speaker 1]:  right？
+[Speaker 1]:  it was never about moving off。
+[Speaker 1]:  GCP was just about honesty was just about giving notion the labeny y。
+[Speaker 1]:  they desered right um and we didn't want him to have to care about any of this。
+[Speaker 1]:  we also they were like，
+[Speaker 1]:  oh，
+[Speaker 1]:  egresses going to be bad was like，
+[Speaker 1]:  okay，
+[Speaker 1]:  screit，
+[Speaker 1]:  like we're just going to like this VP c。
+[Speaker 1]:  peer with you in AWS will eat the cost。
+[Speaker 1]:  yeah，
+[Speaker 1]:  whatever needs to be done。
+[Speaker 2]:  and what were the actual worklods？
+[Speaker 2]:  because i think when you think about AII，
+[Speaker 2]:  like forty miltes，
+[Speaker 2]:  ageninthis，
+[Speaker 2]:  like really doesn't really matter in the scheme of like a model generation。
+[Speaker 2]:  yeah，
+[Speaker 1]:  we were told the late and sea right that we had to bat。
+[Speaker 1]:  so so we're just looking at the traces，
+[Speaker 1]:  right。
+[Speaker 1]:  and then sort of like handa，
+[Speaker 1]:  like you know，
+[Speaker 1]: 好的好的，
+[Speaker 1]:  kind of like looking at the trace。
+[Speaker 1]:  and then thinking，
+[Speaker 1]:  what are the other extension of the trace，
+[Speaker 1]:  right？
+[Speaker 1]:  and there re's a lot more to it because it's also when you have if you have four teen years ars seven milmilseconds，
+[Speaker 1]:  right，
+[Speaker 1]:  you can fit in another roundtrip。
+[Speaker 1]:  so we have to two in TCP to try to send as much data in every round trip prewarm all the connections。
+[Speaker 1]:  and there is there's a lot of things that compound from having these kinds of round trips。
+[Speaker 1]:  but in the gram scheme was just like，
+[Speaker 1]:  well，
+[Speaker 1]:  we have to beat the labency of whatever we're up against，
+[Speaker 3]:  which is like they i mean，
+[Speaker 3]:  motion is a database company。
+[Speaker 3]:  they could have done this themselves。
+[Speaker 3]:  they they do lots of bit of be injured in themselves。
+[Speaker 3]:  i'd even get in the door like，
+[Speaker 3]:  yeah。
+[Speaker 3]:  this。
+[Speaker 1]:  they talked through that kind of last time was inteferenance ago。
+[Speaker 1]:  i was talking to one of the engineers actually，
+[Speaker 1]:  who who was one of our champions um at notion tion，
+[Speaker 1]:  they were。
+[Speaker 1]:  they were just trying to make sure that the you know per user cost match the economics that they needed。
+[Speaker 1]:  you know，
+[Speaker 1]:  like it's the the way i think about，
+[Speaker 1]:  like i have the earn a return on whatever the cloud charge me。
+[Speaker 1]:  and then my customers have to earn a return on that。
+[Speaker 1]:  it's like very simple，
+[Speaker 1]:  right？
+[Speaker 1]:  and so there has to be gross margin all the way up，
+[Speaker 1]:  and that's how you build the product。
+[Speaker 1]:  and so then our customers have to make the right set of trade off the turbo pofer makes。
+[Speaker 1]:  and if they're happy with that，
+[Speaker 3]:  that's great。
+[Speaker 3]:  do you feel like you're competing？
+[Speaker 3]:  we'll build internally versus by or by versus by yeah。
+[Speaker 1]:  so sorry，
+[Speaker 1]:  this was sought to build up to a question。
+[Speaker 1]:  so one of the notion engineers told me that they'd sat and probably on a nacking like drawn out like why has n't anyone built this？
+[Speaker 1]:  or then they saw turbo poverers。
+[Speaker 1]:  that was the literally by yes。
+[Speaker 1]:  so and i think ai has also changed the bivers has build equation。
+[Speaker 1]:  in terms of it's not really about can we build up，
+[Speaker 1]:  it's about do we have time to build it？
+[Speaker 1]:  and i think they，
+[Speaker 1]:  i think they felt like，
+[Speaker 1]:  okay，
+[Speaker 1]:  if this is a team，
+[Speaker 1]:  they can do that and they feel enough like an extension of our team。
+[Speaker 1]:  well，
+[Speaker 1]:  then we can go a lot faster，
+[Speaker 1]:  which would be very，
+[Speaker 1]:  very good for them。
+[Speaker 1]:  and i mean，
+[Speaker 1]:  they put us booit through the test，
+[Speaker 1]:  right？
+[Speaker 1]:  like we put some very，
+[Speaker 1]:  very long nights right to do that nipoc，
+[Speaker 1]:  right？
+[Speaker 1]:  they were really our biggest our second big custr after cursor，
+[Speaker 1]:  which also was a lot of late ghts。
+[Speaker 1]:  right？
+[Speaker 3]:  yeah，
+[Speaker 3]:  i mean，
+[Speaker 3]:  to we going to this story，
+[Speaker 3]:  which was AA crisistory。
+[Speaker 3]:  they a lot。
+[Speaker 3]:  um they created you a lot for uh，
+[Speaker 3]:  working very closely with uah。
+[Speaker 3]:  so i just want to hear like i heard this。
+[Speaker 3]:  uh sorry from swalleis one of you，
+[Speaker 3]:  but like uncurious。
+[Speaker 3]:  so what it was like figure er said，
+[Speaker 1]:  i actually haven't heard it from swalle's point in views。
+[Speaker 1]:  so maybe you can now cross the referency the way that i remember it was that the day after after reloch，
+[Speaker 1]:  which was just just know，
+[Speaker 1]:  i'd worked the whole summer on on the first version。
+[Speaker 1]:  just team wasn't part of the diad because i just i didn't tell anyone that summer because i was working on this。
+[Speaker 1]:  i was just locked in on building it because very easy otherwise to confuse talking about something to actually doing it。
+[Speaker 1]:  and so it's like i'm not going to do that。
+[Speaker 1]:  i'm just going to do the think i launched it。
+[Speaker 1]:  and at this point，
+[Speaker 1]:  turbo hufer is like a rush binary running on a single aid corore machine in a temox instance。
+[Speaker 1]:  and me deplying。
+[Speaker 1]:  it was like like look at the request log and and contcontand seeing it and like control seeing it to just like，
+[Speaker 1]:  okay，
+[Speaker 1]:  there's no request that's upgrade the binary。
+[Speaker 1]:  like it was like literally the the scrappest thing you could imagine it was on purpose because just like a shop of how we did that all all time。
+[Speaker 1]:  like we like move，
+[Speaker 1]:  like we ran things in teamos all the time to begin with before something had，
+[Speaker 1]:  like at least the enkling of pmf。
+[Speaker 1]:  this was like，
+[Speaker 1]:  ok，
+[Speaker 1]:  is anyone is going to hear about this。
+[Speaker 1]:  and one of the cursor cofounders arbit reached out。
+[Speaker 1]:  and he just，
+[Speaker 1]:  you know，
+[Speaker 1]:  the the cursor team were like all IYIO，
+[Speaker 1]:  like um contenders，
+[Speaker 1]:  i said they just speak in bullepoints。
+[Speaker 1]:  and facfacit's was like this azzing email exchange just of this。
+[Speaker 1]:  so many，
+[Speaker 1]:  many PS we have。
+[Speaker 1]:  this is what we're paying。
+[Speaker 1]:  this is what we're going。
+[Speaker 1]:  bubba blinds of ridous conversing in bullet points。
+[Speaker 1]:  and i tried to get a call it them a few times，
+[Speaker 1]:  but they were so they were going really of writing the PMF four here。
+[Speaker 1]:  this like late，
+[Speaker 1]:  ate twenty twenty three。
+[Speaker 1]:  and one time swallet emails me，
+[Speaker 1]:  i'd like，
+[Speaker 1]:  no，
+[Speaker 1]:  no，
+[Speaker 1]:  what was it？
+[Speaker 1]:  four am pacific time saying，
+[Speaker 1]:  like，
+[Speaker 1]:  hey，
+[Speaker 1]:  are you put for a call now？
+[Speaker 1]:  and i'm on the east coast and night。
+[Speaker 1]:  it was like seventy every day，
+[Speaker 1]:  yeah，
+[Speaker 1]:  great shirt whatever。
+[Speaker 1]:  and we just started talking in something，
+[Speaker 1]:  then i didn't know anything about sales。
+[Speaker 1]:  it would something it just compell me。
+[Speaker 1]:  i have to go see this team like there's something here。
+[Speaker 1]:  so i went to to seference is go。
+[Speaker 1]:  and i went to their office and the way that i remember it is that postcriis was was oubt。
+[Speaker 1]:  and i went over the office。
+[Speaker 1]:  it's while i tell you this。
+[Speaker 1]:  no。
+[Speaker 1]:  okay。
+[Speaker 1]:  so postgris was down now，
+[Speaker 1]:  it's just like they were distracting with that。
+[Speaker 1]:  and i was trying my best to see if i could if i could help in any way，
+[Speaker 1]:  II knew a little bit about databases back to tuning auof vuums。
+[Speaker 1]:  like i think you have to two autovacuums all i um and so we we talked about that。
+[Speaker 1]:  and then that evening just talked about like what，
+[Speaker 1]:  but it look like，
+[Speaker 1]:  what would it like like to work with us？
+[Speaker 1]:  and i just sit well like i we're all in like we would just do what we will do。
+[Speaker 1]:  whatever，
+[Speaker 1]:  whatever you tell us，
+[Speaker 1]:  right。
+[Speaker 1]:  they migrated everything over the next，
+[Speaker 1]:  like weekor two，
+[Speaker 1]:  and we reduced to a cost by ninety five percent，
+[Speaker 1]:  which i think like kind of fixed per user economics um and it's all a lot of other things。
+[Speaker 1]:  and we were just just in this is also when i asked just steine to come on as my cofounders。
+[Speaker 1]:  she was the best engineer that i ever worwork with at shoppify。
+[Speaker 1]:  she lived two blocks away，
+[Speaker 1]:  and we were just okay。
+[Speaker 1]:  we're just going to get this done um and we did。
+[Speaker 1]:  and so we have the migrate。
+[Speaker 1]:  and we just worked like how over the next，
+[Speaker 1]:  like curthor two to make sure that we were never an issue。
+[Speaker 1]:  and that was that was the cursa story。
+[Speaker 3]:  yeah，
+[Speaker 3]:  and it's code a different workload than normal text that i don't know is，
+[Speaker 3]:  is it just text that is the same thing？
+[Speaker 1]:  yeah，
+[Speaker 1]:  of course，
+[Speaker 1]:  workloload is basically they um they will embedding entire code bace，
+[Speaker 1]:  so they they will chunk it up in whatever they would they do。
+[Speaker 1]:  they have their own embedding model。
+[Speaker 1]:  um they've been public about um the've，
+[Speaker 1]:  also it on on their evalils。
+[Speaker 1]:  there's one one other evalils words like a twenty five percent improvement on a very particular workload。
+[Speaker 1]:  they have a bunch of lololopoto about it。
+[Speaker 1]:  um i think it works best on larger code bases。
+[Speaker 1]:  they've trained their own embedding model to do this。
+[Speaker 1]:  um and so you'll see it，
+[Speaker 1]:  if you use the curse or agent，
+[Speaker 1]:  it will do searches。
+[Speaker 1]:  and they've also worbetter around um how they，
+[Speaker 1]:  i think they posttrain their model to be very good at semantic search as well。
+[Speaker 1]:  um and that's that's how they use it。
+[Speaker 1]:  and so it's very good。
+[Speaker 1]:  like can you find me on other code that similar to this or code that does it is？
+[Speaker 1]:  and just in this scories，
+[Speaker 1]:  they also use grapp to supplemented。
+[Speaker 1]:  yeah，
+[Speaker 3]:  of course，
+[Speaker 3]:  it's been a big topic discussion is ragdid because grapt，
+[Speaker 1]:  you know，
+[Speaker 1]:  i mean，
+[Speaker 1]:  like just just we see lots of dedeand from they coding completing search every part，
+[Speaker 3]:  yes，
+[Speaker 3]:  ah，
+[Speaker 1]:  we we see demand。
+[Speaker 1]:  and so i mean，
+[Speaker 1]:  i'm，
+[Speaker 0]:  i like case studies。
+[Speaker 0]:  i don't like like just doing like thought pieces on this is worit's going。
+[Speaker 0]:  and like trying to be all macroeconomic about AI。
+[Speaker 0]:  that's as turned out to be a giant waste um because no one can really predict any of this。
+[Speaker 0]:  um i just collect case studies，
+[Speaker 0]:  and i mean，
+[Speaker 0]:  cursor has done in great job talking about what they're doing。
+[Speaker 0]:  and i hope some of the other coding lamps that use turbal pofer will do the same um，
+[Speaker 0]:  but it does seem to make a difference for particular chories。
+[Speaker 0]:  um i mean，
+[Speaker 0]:  we can also do tax。
+[Speaker 0]:  we can also do rejects，
+[Speaker 0]:  but i should also say that cursors like security poshure into a turbal pofer is except right。
+[Speaker 0]:  they have their own embedding model，
+[Speaker 0]:  which makes a very difficult to reverse engineer。
+[Speaker 0]:  they office cuate the file paths。
+[Speaker 0]:  they they like you。
+[Speaker 0]:  it's very difficult to learn anything about a code base by looking at it。
+[Speaker 0]:  and the other thing they do too，
+[Speaker 0]:  is that for their customers，
+[Speaker 0]:  they encrypt it with their encryption keys internal pofers bucket。
+[Speaker 0]:  um so it's it's it's really just well designed。
+[Speaker 1]:  and so this is like extra safety did to work with you because you are not particusor。
+[Speaker 1]:  so this is just best practice when working。
+[Speaker 1]:  any any native is not just you guys。
+[Speaker 1]:  yeah yeah，
+[Speaker 1]:  resents。
+[Speaker 1]:  yeah。
+[Speaker 1]:  think think like that。
+[Speaker 1]:  the learning is kind of like you like all works loa hybrid，
+[Speaker 1]:  like you know，
+[Speaker 1]:  like you want the semantic，
+[Speaker 1]:  you want the text，
+[Speaker 1]:  you want the regx x，
+[Speaker 1]:  you want equal。
+[Speaker 1]:  i don't um but like it's silly to like be all in on，
+[Speaker 1]:  like one，
+[Speaker 1]:  particularly qurey pattern。
+[Speaker 0]:  i think like i really like the way that um um that's why it accourse are talked about it，
+[Speaker 0]:  which is，
+[Speaker 0]:  i'm i'm an a butchred it um and you know，
+[Speaker 0]:  i'm a deoma database，
+[Speaker 0]:  scalleability person of not of II。
+[Speaker 0]:  don't know anything about training models other than um what the internet tells me um and and what the way he describes that this is just like cash compute，
+[Speaker 0]:  right？
+[Speaker 0]:  it's like you have a pointed time where you're looking at some particular context and focused on some chunk。
+[Speaker 0]:  and you say this is the layer of the neural net at this point in time。
+[Speaker 0]:  that seems fundamentanally really useful to do cash compute like that。
+[Speaker 0]:  and um how the value that will change over time。
+[Speaker 0]:  i'm i'm not sure。
+[Speaker 2]:  but there seems to be a lot of value in that maybe talk computer about the evolution of the workload because even like search，
+[Speaker 2]:  like maybe two years to go was like one search at the start of like an elean inquiry to build the context。
+[Speaker 2]:  now you have agentic search ever。
+[Speaker 2]:  you want to call that we're the momol was built writing。
+[Speaker 2]:  and changing the code and it's searching it again later。
+[Speaker 2]:  yeah，
+[Speaker 2]:  whatever，
+[Speaker 2]:  maybe some of the new types of work thes are like changes you about to make to your architecture where i think you're right，
+[Speaker 0]:  when i think of rag，
+[Speaker 0]:  i think of，
+[Speaker 0]:  hey，
+[Speaker 0]:  there re's an eight thousand token，
+[Speaker 0]:  a context window，
+[Speaker 0]:  you better make it count um and search was a way to do that。
+[Speaker 0]:  now yeah，
+[Speaker 0]:  everything is moving towards the just let the agent do its thing，
+[Speaker 0]:  right？
+[Speaker 0]:  and so back to the thing before，
+[Speaker 0]:  right，
+[Speaker 0]:  the LM is very good at reasoning with with ddata。
+[Speaker 0]:  and so we're just tool call，
+[Speaker 0]:  right。
+[Speaker 0]:  and that's increasingly what we see our customers doing。
+[Speaker 0]:  um what we're seeing more demand from from our customers now is to do a lot of concurrency，
+[Speaker 0]:  right？
+[Speaker 0]:  like notion does a ridiculous amount corories and every round ound trip just because they can't and notion。
+[Speaker 0]:  now，
+[Speaker 0]:  when i use the cursor agent，
+[Speaker 0]:  i also see them doing more concurrency than not ever seen before。
+[Speaker 0]:  so a bit similar to how we decided to database drive as much concurrency in every roundtrip as possible。
+[Speaker 0]:  that's also what the agents are doing。
+[Speaker 0]:  so that's new。
+[Speaker 0]:  it means just that enenmous ous about a couriies。
+[Speaker 0]:  all it wants to the datasset。
+[Speaker 0]:  while it's warm in a few turns as possible。
+[Speaker 1]:  can they clarify one thing on that？
+[Speaker 1]:  yes，
+[Speaker 1]:  a they batching multiple users or one users driving multiple one user，
+[Speaker 0]:  driving more like one agser driparparosearching，
+[Speaker 1]:  a bunch of things exactly。
+[Speaker 1]:  so for the condition of this，
+[Speaker 1]:  for the fast contetesting，
+[Speaker 1]:  like eight parallel once yes。
+[Speaker 1]:  and in like an interesting problem is，
+[Speaker 1]:  well，
+[Speaker 1]:  how do you make sure you have enough diversity？
+[Speaker 1]:  so you're not making the the same request eight times？
+[Speaker 0]:  and i think like that's probably also where the hybrid comes in，
+[Speaker 0]:  where that's another way to diversify a completely different way to to do the search。
+[Speaker 0]:  that's a big change，
+[Speaker 0]:  right？
+[Speaker 0]:  so before it was really just like one call，
+[Speaker 0]:  and then you know，
+[Speaker 0]:  the LMM talk，
+[Speaker 0]:  however，
+[Speaker 0]:  many seconds to return。
+[Speaker 0]:  but now we just see an enormous amount of corriies。
+[Speaker 0]:  so the um we just see more corries。
+[Speaker 0]:  so we've like try to reduce corcorry。
+[Speaker 0]:  we've reduce corcorprpricum。
+[Speaker 0]:  um we probbe the first first maxtion am saying that，
+[Speaker 0]:  but the corry prpricing is being reduced five five XX。
+[Speaker 0]:  and we've probably tried to rece it even more to accommodate some of these workloads of just doing very large amount of chories。
+[Speaker 0]:  um that's one thing is changed。
+[Speaker 0]:  i think the right the right ratio is still very high，
+[Speaker 0]:  right，
+[Speaker 0]:  like they're still an enormous amount rights per read。
+[Speaker 0]:  but we're starting probably to see that change if people really leaning into this pattern。
+[Speaker 2]:  can we talk a little bbit about the pricing？
+[Speaker 2]:  i'm curious uh because traditionally a atababase a charge on storage，
+[Speaker 2]:  but now you you have the cogan generation that is so expensive，
+[Speaker 2]:  where like the actutulittle value of like a good search query is like much higher because you're like saving influence time down the line。
+[Speaker 2]:  how do you structure that is like what are people receptive to on the other side to yeah，
+[Speaker 0]:  the turbble bufer pricing in the beginning was just very simple。
+[Speaker 0]:  the pricing on these on for search engines before turrible buffer er was very servvful，
+[Speaker 0]:  right？
+[Speaker 0]:  it was like，
+[Speaker 0]:  here's the VM。
+[Speaker 0]:  here's the per hour，
+[Speaker 0]:  cause right？
+[Speaker 0]:  great。
+[Speaker 0]:  and i just sat down would like a piece of paper and said，
+[Speaker 0]:  like if turbal pufer was like really good。
+[Speaker 0]:  this is probably what if would cost with it a bit of margin。
+[Speaker 0]:  and that was the first pricing of turbble buffer。
+[Speaker 0]:  and i just like set down was like，
+[Speaker 0]:  okay，
+[Speaker 0]:  oay like this is like probably the storage。
+[Speaker 0]:  and but whatever on a piece of paper，
+[Speaker 0]:  i'm very，
+[Speaker 0]:  very pracing。
+[Speaker 0]:  it was very bad price，
+[Speaker 0]:  and i got it wrong。
+[Speaker 0]:  oh，
+[Speaker 0]:  um what i didn't get it wrong。
+[Speaker 0]:  but like turbo，
+[Speaker 0]:  puffeer wasn't at the first principle pricicing，
+[Speaker 0]:  right？
+[Speaker 0]:  so when turcil came on turbo puffer，
+[Speaker 0]:  it was like i didn't know any vcs。
+[Speaker 0]:  i didn't know IIII don't know。
+[Speaker 0]:  i don't know about raising money。
+[Speaker 0]:  anything like that。
+[Speaker 0]:  i just saw that my GCP bill was was was a lot of higher than the kirsor bill。
+[Speaker 0]:  so just didn't i was，
+[Speaker 0]:  well，
+[Speaker 0]:  we have to optimize it。
+[Speaker 0]:  and i mean to the shagrein now of it of the vc it，
+[Speaker 0]:  that means that were profitable because we've had so much pricing pressure in the beginning because it was running on my credit card。
+[Speaker 0]:  and just dinner，
+[Speaker 0]:  i spent like like ten of thousand hundred dollars on like compute bills and like spending off the company and like very like bad canadian lawyers，
+[Speaker 0]:  and like things like to like get all of of ddown，
+[Speaker 0]:  because we just like we didn't know right。
+[Speaker 0]:  if you're like steep in saanfrancsco，
+[Speaker 0]:  you just like you just know，
+[Speaker 0]:  okay，
+[Speaker 0]:  like you go raise a preceed around。
+[Speaker 0]:  ah i never heard of we're preceed at this point in time。
+[Speaker 0]:  we you curcurse ly a notion，
+[Speaker 1]:  you，
+[Speaker 1]:  you know，
+[Speaker 0]:  no something what course have。
+[Speaker 0]:  we had no funding。
+[Speaker 0]:  yeah。
+[Speaker 0]:  and by the time we had notion，
+[Speaker 0]:  lucky，
+[Speaker 0]:  lucky was here。
+[Speaker 0]:  yeah。
+[Speaker 0]:  so it was really just with vide przit one hundred present from first principles。
+[Speaker 0]:  but it wasn't it was not performing at first principles。
+[Speaker 0]:  so we just did everything we could to optimize at the beginning for that。
+[Speaker 0]:  so that at least we could have like five percent marmarin or something。
+[Speaker 0]:  so i wasn't freaking out because my curer's bill was also going like this as they were growing。
+[Speaker 0]:  and so my liability and my credit limit was like actively，
+[Speaker 0]:  because like my gin，
+[Speaker 0]:  like i need a bigger margins。
+[Speaker 0]:  yeah。
+[Speaker 0]:  anyway，
+[Speaker 0]:  that was the beginning。
+[Speaker 0]:  yeah，
+[Speaker 0]:  but the pricing was yeah，
+[Speaker 0]:  like storage，
+[Speaker 0]:  right and quiry right？
+[Speaker 0]:  and the the pricing we have today is basically just that pricing with dock tape and sped to try to approach like you know，
+[Speaker 0]:  like as a margin on the physical underlying hardware。
+[Speaker 0]:  and we're doing this year，
+[Speaker 0]:  you're going to see more and more pricing changes from us yeah。
+[Speaker 1]:  and like，
+[Speaker 1]:  is how much this still AVVC periparing matter because you're working in AWS land where e gresses charity to know that you know，
+[Speaker 0]:  we probably don't like we have i an enterprise plan that just has like a base fee because we have ving a time to figure out skill pices for all of this。
+[Speaker 0]:  um but i mean，
+[Speaker 0]:  yeah，
+[Speaker 0]:  you can run turbo puffer，
+[Speaker 0]:  either in saars，
+[Speaker 0]:  right？
+[Speaker 0]:  that's where curser does。
+[Speaker 0]:  you can run it in a single tenant clusters。
+[Speaker 0]:  that's just you。
+[Speaker 0]:  that's what notion does and you can run it in in in BYOC，
+[Speaker 0]:  where everything is inside the customers VBC。
+[Speaker 0]:  that's what i'm，
+[Speaker 0]:  for example，
+[Speaker 0]:  and topic s like。
+[Speaker 1]:  what i'm hearing is that this is probably the best CRO job for somebody who can come in in。
+[Speaker 1]:  i mean，
+[Speaker 0]:  up you with this like turbbpoffer higher，
+[Speaker 0]:  like i don't know what one number is was，
+[Speaker 0]:  but we had a full time。
+[Speaker 0]:  CFO is like the twelve higher something a turbble buffer。
+[Speaker 0]:  um i think hear a lot of complet。
+[Speaker 0]:  i don't how they do it like they have a hundred employees and not ACFO。
+[Speaker 1]:  it's i having ACF is a really out of business man like like，
+[Speaker 0]:  you know，
+[Speaker 0]:  it's so good。
+[Speaker 0]:  yeah，
+[Speaker 0]:  like money might like he just just，
+[Speaker 0]:  you know，
+[Speaker 0]:  just standled the money and a lot of the business stuff。
+[Speaker 0]:  and so he came in and just top ed，
+[Speaker 0]:  a lot of the operational side of the business。
+[Speaker 0]:  so like COOA cf o，
+[Speaker 0]:  like summer in between，
+[Speaker 1]:  you just quick mention a lucky，
+[Speaker 1]:  just just some uncurious。
+[Speaker 1]:  and i've a lucky，
+[Speaker 1]:  and he's 's viously，
+[Speaker 1]:  very good inveinveor or on physical telgence。
+[Speaker 1]:  um i call a journalist superangel，
+[Speaker 1]:  right？
+[Speaker 1]:  he invesen everything。
+[Speaker 1]:  um and i always wonder like，
+[Speaker 1]:  you know，
+[Speaker 1]:  is there something appealing about focusing on developatto tely and focusing on data basis going like i ve invested for ten years in databases，
+[Speaker 1]:  veris being like a lucky where he can maybe like connecyou to all the customers you need it。
+[Speaker 0]:  this is an excellent question。
+[Speaker 0]:  no，
+[Speaker 0]:  no one asked me this。
+[Speaker 0]:  um why lucky，
+[Speaker 0]:  because there re's a couple of people that we're talking to at the time and when we were raising，
+[Speaker 0]:  we're almost a little earar like a bit distress because one of our one of our peers that just launch something that was very similar，
+[Speaker 0]:  the terrible buffer。
+[Speaker 0]:  and someone just gave me the advice at the time of just choose the person where you just feel like you can just pick up the phone and not prepare anything。
+[Speaker 0]:  and just be complehononst st。
+[Speaker 0]:  i don't think think said this，
+[Speaker 0]:  this public ty before，
+[Speaker 0]:  but i just call locking was like local lucky like if this doesn't have PMF the end of the year，
+[Speaker 0]:  but we'll just like return all the money to you。
+[Speaker 0]:  but it's think i don't really just think that i don't don't on the money money。
+[Speaker 0]:  the ununit's really like working。
+[Speaker 0]:  so we want to give it the best shot this year and wewere really going to go for it。
+[Speaker 0]:  we're going to hire a bunch of people that were just going to be honest with everyone，
+[Speaker 0]:  like when i don't know how to play a game，
+[Speaker 0]:  i just play with open cards。
+[Speaker 0]:  and lucky was the only person that didn't didn't dn't ak out。
+[Speaker 0]:  he was like i've never heard anyone saat up before。
+[Speaker 0]:  as i said，
+[Speaker 0]:  i didn't even know what a seder preceed round was like before，
+[Speaker 0]:  i probably even at this time。
+[Speaker 0]:  so it's just like very honest with him。
+[Speaker 0]:  and i asked him like，
+[Speaker 0]:  lucky if you ever if you ever invested in databcompany company was just like no。
+[Speaker 0]:  and at the time i was like，
+[Speaker 0]:  and i dumlike like，
+[Speaker 0]:  but i think there is something they was just really，
+[Speaker 0]:  really rum y to lucky。
+[Speaker 0]:  he is so authentic，
+[Speaker 0]:  so honest，
+[Speaker 0]:  like，
+[Speaker 0]:  and there's something just like，
+[Speaker 0]:  i just felt i could just play like to say everything openly。
+[Speaker 0]:  and that was，
+[Speaker 0]:  i think that was like a perfect match at the time。
+[Speaker 0]:  and and honestly，
+[Speaker 0]:  still is he，
+[Speaker 0]:  he just like，
+[Speaker 0]:  okay，
+[Speaker 0]:  that's great this。
+[Speaker 0]:  this，
+[Speaker 0]:  like the most honest，
+[Speaker 0]:  ridiculous thing i've ever heard anyone say to me，
+[Speaker 0]:  but like that，
+[Speaker 0]:  my why is is a competitior launch？
+[Speaker 1]:  ch？
+[Speaker 0]:  this me know worout out the that was more is just like if this doesn't work out，
+[Speaker 0]:  i'm going going to close up shop by the end of the the year，
+[Speaker 0]:  right？
+[Speaker 0]:  like it was，
+[Speaker 0]:  i don't know，
+[Speaker 0]:  maybe it's common。
+[Speaker 0]:  i don't know。
+[Speaker 0]:  no，
+[Speaker 0]:  don't tome。
+[Speaker 0]:  it was on on on，
+[Speaker 0]:  right？
+[Speaker 0]:  i don't know。
+[Speaker 0]: 对，
+[Speaker 0]:  um that's why we chose him，
+[Speaker 0]:  and he been phenomenal。
+[Speaker 0]:  the other people were talking at at the time，
+[Speaker 0]:  where databasase experts like they，
+[Speaker 0]:  you know，
+[Speaker 0]:  kknew a of databases and lucky didn't this turnot not be be phphenomenal asset，
+[Speaker 0]:  right？
+[Speaker 0]:  i like seeing that i know a lot of databases，
+[Speaker 0]:  the people that rehire know a lot about databases。
+[Speaker 0]:  what we needed was just someone who didn't know a lot about databases，
+[Speaker 0]:  didn't pretend to know a lot about databases and just wanted to help us with candidates and customers。
+[Speaker 0]:  and he did 嗯，
+[Speaker 0]:  and i have a list right of the investors that i have a relationship with。
+[Speaker 0]:  and lockey is just performed excellent in the number of supplelets of what we can to triyou back to him，
+[Speaker 0]:  just absolutely incredible。
+[Speaker 0]:  and when people talk about like no ego and just the best thing for the founder，
+[Speaker 0]:  i like，
+[Speaker 0]:  i don't think that anyone i giving my lawyers is like lockey is like the most friendly person you will find。
+[Speaker 0]: 嗯，
+[Speaker 1]:  okay，
+[Speaker 1]:  this is my most glory recommendation。
+[Speaker 0]:  he deserves it。
+[Speaker 0]:  he's very special。
+[Speaker 1]:  yeah。
+[Speaker 1]:  okay，
+[Speaker 1]:  amazing。
+[Speaker 2]:  since ce，
+[Speaker 2]:  he mentioned candidates，
+[Speaker 2]:  maybe we can talk about team building。
+[Speaker 2]:  you know，
+[Speaker 2]:  like especially in a self。
+[Speaker 2]:  it feels like it's just easier to start a company then to join a company。
+[Speaker 2]:  um i'm curious，
+[Speaker 2]:  you're experiexperience，
+[Speaker 2]:  especially not being in a saff for time and doing something that is maybe，
+[Speaker 2]:  you know，
+[Speaker 2]:  a very low level of detail and technical detail。
+[Speaker 2]:  yes，
+[Speaker 0]:  so joining it was a starting。
+[Speaker 0]:  i never thought that i would be a founder would started like turbble ofver started this a block post。
+[Speaker 0]:  and then then it became a project and then sort of almost accidentally became a company。
+[Speaker 0]:  and now it feels like it's it's like becoming a bigger company that was never the intention。
+[Speaker 0]:  the intentions were very here here。
+[Speaker 0]:  it's like，
+[Speaker 0]:  why hasn't anyone done is？
+[Speaker 0]:  and like i want to be the like。
+[Speaker 0]:  i want to be the first person do it。
+[Speaker 0]:  it。
+[Speaker 0]:  i some some ounders have this like，
+[Speaker 0]:  like i want to for anyone，
+[Speaker 0]:  one se，
+[Speaker 0]:  like i really don't feel that way like it's just like i want to see this happen。
+[Speaker 0]:  and i want to see it happened with some people that i really enjoy working with。
+[Speaker 0]:  and i want to have fun doing it。
+[Speaker 0]:  it's this。
+[Speaker 0]:  this is all felt very natural on that on that sense。
+[Speaker 0]:  so it was never i like join versus s vers found it was just just found me at the bright moment。
+[Speaker 0]:  like，
+[Speaker 2]:  well，
+[Speaker 2]:  i think there's an argument for you should have join cursor，
+[Speaker 2]:  right？
+[Speaker 2]:  so i'm curious like how you evaluated。
+[Speaker 2]:  okay，
+[Speaker 2]:  i should actually go raise money，
+[Speaker 2]:  make this accompany verses。
+[Speaker 2]:  like this is like a company that is like growing like crazy。
+[Speaker 2]:  it's like an interesting technical problem。
+[Speaker 2]:  i should just build it within curcern，
+[Speaker 2]:  then they don't have to encrupt all the stuff。
+[Speaker 2]:  they don't have optisgate things like，
+[Speaker 0]:  was that on your mind at all or before taking the the small check from locky，
+[Speaker 0]:  i did have like a hard like look at myself in the mirror of like，
+[Speaker 0]:  okay。
+[Speaker 0]:  do i really want to do this？
+[Speaker 0]:  and because if i take the money，
+[Speaker 0]:  i really have to do it right。
+[Speaker 0]:  and so the way i almost think of us is like，
+[Speaker 0]:  couldn't need to like you coulneed to be like，
+[Speaker 0]:  fucked up enough，
+[Speaker 0]:  gh wonto go all the way。
+[Speaker 0]:  and that was the conversation was like，
+[Speaker 0]:  okay。
+[Speaker 0]:  this is going to be part of my live journey to build this company and do it in the best way that i possibly can。
+[Speaker 0]:  because if i asked people to join me，
+[Speaker 0]:  ask people to get on the captable，
+[Speaker 0]:  then i have an ultimate responsibility to give it everything。
+[Speaker 0]:  and i don't。
+[Speaker 0]:  i think some people it doesn't occur to me that everyone takes it that seriously，
+[Speaker 0]:  and maybe i take it too seriously。
+[Speaker 0]:  i don't know。
+[Speaker 0]:  but that was like a very intentional omomand。
+[Speaker 0]:  so then it was very clear like，
+[Speaker 0]:  okay，
+[Speaker 0]:  i'm gonna do this。
+[Speaker 0]:  and i'm i'm going to give it everything。
+[Speaker 0]: 对对对，
+[Speaker 2]:  a lot of people don't take it this seriously。
+[Speaker 1]:  well，
+[Speaker 1]:  h，
+[Speaker 1]:  let's talk about you have this concept of the penant in engengineer。
+[Speaker 1]:  h。
+[Speaker 1]:  people are ten xing。
+[Speaker 1]:  everyone，
+[Speaker 1]:  saying，
+[Speaker 1]:  miitle。
+[Speaker 1]:  maybe engineers out of her job。
+[Speaker 1]:  i don't know，
+[Speaker 1]:  but you definitely see a peana in that engineer。
+[Speaker 1]:  and i was when you's talk about it。
+[Speaker 0]:  yes。
+[Speaker 0]:  so the ninety nine engineer was just a term that we started using eternomy to talk about candidates and talk about how we wanted to build the company。
+[Speaker 0]:  and you know，
+[Speaker 0]:  like everyone else，
+[Speaker 0]:  like you want to talent，
+[Speaker 0]:  dense company。
+[Speaker 0]:  and i think that's almost become tred at this point。
+[Speaker 0]:  what i credit the cursor founders a lot with is that they just arrive there from first principles of like we just need a talendance um talendance team。
+[Speaker 0]:  and i think i've seen some teams that weren't it talendance。
+[Speaker 0]:  and like seen the counterfactual run，
+[Speaker 0]:  which if you run in in in in a large company，
+[Speaker 0]:  you would to see that like it's just logically will happen at a large company um and so that was super important to me。
+[Speaker 0]:  and just in and it's very difficult to maintain。
+[Speaker 0]:  and so we just needed we needed wording for it。
+[Speaker 0]:  um and so i have a document calall traits，
+[Speaker 0]:  its of the pee，
+[Speaker 0]:  ninety nine engineer，
+[Speaker 0]:  and it's a bullly point list。
+[Speaker 0]:  and i look at that list after every single interview that i do。
+[Speaker 0]:  and in every single recaup that we do。
+[Speaker 0]:  and every reak up we end with i've end with some version of i'm going to reject this candidate completely，
+[Speaker 0]:  regardless of what the discourse was，
+[Speaker 0]:  because i want to see people fight for this person because the default should not be。
+[Speaker 0]:  we're going to hire this person。
+[Speaker 0]:  the default should be。
+[Speaker 0]:  we're definitely not hiring this person，
+[Speaker 0]:  and you know，
+[Speaker 0]:  if everyone was like，
+[Speaker 0]:  oh，
+[Speaker 0]:  maybe throw a punch，
+[Speaker 0]:  then this is not the right，
+[Speaker 1]:  do do every like。
+[Speaker 1]:  if there's one，
+[Speaker 1]:  there must have at least one champion on who's like，
+[Speaker 1]:  yes，
+[Speaker 1]:  i will put my career on on on the for for，
+[Speaker 1]:  you know，
+[Speaker 0]:  actually know，
+[Speaker 0]:  career on on lie。
+[Speaker 0]:  yeah，
+[Speaker 0]:  you know，
+[Speaker 0]:  like um i would say someone needs to like have both fised up and be like i'd fight right？
+[Speaker 0]:  and if one person said it，
+[Speaker 0]:  then okay，
+[Speaker 0]:  let's do it right um and it doesn't have to absosolueveryone one right。
+[Speaker 0]:  and the interinterws is always always sigsign youyou，
+[Speaker 0]:  be careon for this tributes。
+[Speaker 0]:  and if someone is like knocking out of the park in every single attribute，
+[Speaker 0]:  that's that's fairly rare um but that's really important。
+[Speaker 0]:  and so the traits of the p，
+[Speaker 0]:  nine，
+[Speaker 0]:  nine engineer，
+[Speaker 0]:  there's lots of them。
+[Speaker 0]:  there's also the traits of the pee，
+[Speaker 0]:  like triple nine engineer and the credopal nine engineer，
+[Speaker 0]:  right？
+[Speaker 0]:  this is like it's a long liit。
+[Speaker 0]:  okay。
+[Speaker 0]:  um i'll give you some samples right of what we will be look for。
+[Speaker 0]:  i think that the p，
+[Speaker 0]:  ty nine engineer has some history of having bent like their cherdiactory or something to their will，
+[Speaker 0]:  right，
+[Speaker 0]:  some moment where it was just，
+[Speaker 0]:  they just，
+[Speaker 0]:  you know，
+[Speaker 0]:  made the computer，
+[Speaker 0]:  do what it needed to do。
+[Speaker 0]:  there's something i that and it will。
+[Speaker 0]:  it will ccur r have them them at some point in their career，
+[Speaker 0]:  and hopefully，
+[Speaker 0]:  multiple times，
+[Speaker 0]:  right。
+[Speaker 1]:  you mewe're were one of the engineers that late。
+[Speaker 0]:  i'll give it。
+[Speaker 0]:  so we we we launch a thing called NNV three。
+[Speaker 0]:  um we could。
+[Speaker 0]:  we're also working on v four four，
+[Speaker 0]:  the five，
+[Speaker 0]:  right，
+[Speaker 0]:  right，
+[Speaker 0]:  but ANNV three can search a hundred billion vectors with AP fifty of one four million seconds and AP in，
+[Speaker 0]:  i going now of two hundred miles seconds。
+[Speaker 0]:  um maybe other people have done this。
+[Speaker 0]:  i'm sure google and others have done this，
+[Speaker 0]:  but i we haven't seen anyone um leleast not dn't like a public consuable sas that can do this。
+[Speaker 0]:  and that was an engineer，
+[Speaker 0]:  the chief architecturcerrocofer nathan，
+[Speaker 0]:  um who moralialied just bent this，
+[Speaker 0]:  the software was not capable able of。
+[Speaker 0]:  and and you just made it capable for a very particular workload in，
+[Speaker 0]:  like，
+[Speaker 0]:  you know，
+[Speaker 0]:  six to eight week period with the help of a lot of a team i had been a bit。
+[Speaker 0]:  there's numerous of examples of that i at a turbal buffeer。
+[Speaker 0]:  but that's like really pending the software and XA ty six to your well，
+[Speaker 0]:  it was incredible to watch。
+[Speaker 0]:  um you want to see some moments like，
+[Speaker 1]:  isn't that triple lane？
+[Speaker 0]:  um i think one equally group on that was was many。
+[Speaker 1]:  it's like this is too higher。
+[Speaker 0]:  nanananais is nanais is gathers ers lot lot lot nine。
+[Speaker 0]:  okay off that IP。
+[Speaker 0]:  so i think that's one trade。
+[Speaker 0]:  i think another trade is that um PP ty nine spends a lot of time looking at maps。
+[Speaker 0]:  generally，
+[Speaker 0]:  it's their preferred ux。
+[Speaker 0]:  this is love looking at baps you ever seen someone who just like sits in their phone and just like strols around them a map？
+[Speaker 0]:  or did you not look at maps a lot？
+[Speaker 0]:  he guess，
+[Speaker 1]:  don't look at map。
+[Speaker 1]:  i guess，
+[Speaker 1]:  not not there。
+[Speaker 1]:  you know，
+[Speaker 0]:  very you just this qute。
+[Speaker 0]:  and what are it trains you like trains？
+[Speaker 1]:  um i mean，
+[Speaker 1]:  they're laough。
+[Speaker 1]:  okay，
+[Speaker 1]:  this is just just weaponnice autism。
+[Speaker 0]:  is what i call it like like it's i love looking a map like it's like my preferred you acts，
+[Speaker 0]:  and just like，
+[Speaker 0]:  you know，
+[Speaker 0]:  i like lots about it。
+[Speaker 2]:  it of like random places like，
+[Speaker 1]:  you know，
+[Speaker 1]:  yes，
+[Speaker 1]:  okay，
+[Speaker 2]:  there you got sorory set of like random places like，
+[Speaker 2]:  how do you explore it the maps？
+[Speaker 0]:  it's it's just the jokes。
+[Speaker 1]:  it's it's a leves。
+[Speaker 1]:  it's like you are just obsessed by something，
+[Speaker 1]:  and you like studying a thing。
+[Speaker 0]:  the origin of this was that at some point，
+[Speaker 0]:  i read an interview with some II goal meddlest。
+[Speaker 0]:  and it's like，
+[Speaker 0]:  what do you do in your spare time？
+[Speaker 0]:  it was like，
+[Speaker 0]:  i like looking at map。
+[Speaker 0]:  it was like i feel so seeen like i just like love like roelling us like okay。
+[Speaker 0]:  it is so big wor're bad。
+[Speaker 0]:  and i don't think i don't know。
+[Speaker 0]:  i love ve it anyway。
+[Speaker 0]:  so though trees of nine，
+[Speaker 0]:  tween en nine，
+[Speaker 0]:  nine is obsessive，
+[Speaker 0]:  right？
+[Speaker 0]:  like just just like you fine traits of that。
+[Speaker 0]:  we do an interview and at AA turbple。
+[Speaker 0]:  ffer are like multiple interviews that just try to screen for some of these things。
+[Speaker 0]:  um so there's a lot of others，
+[Speaker 0]:  but these are the kind of traits that we look for。
+[Speaker 1]:  i'll tell you as some people listen for exexon dedever l，
+[Speaker 1]:  ff uh h。
+[Speaker 1]:  do raabout dedever al。
+[Speaker 1]:  as mauum，
+[Speaker 1]:  you draw a map for people um map show you the uh。
+[Speaker 1]:  what is commonly agree to be the geographical features of what a boundary is？
+[Speaker 1]:  and it also shows you what is not doing。
+[Speaker 1]:  and i think think a lot of like dedevelopatooous company try ge how you they can do everything，
+[Speaker 1]:  but like let's that's be real。
+[Speaker 1]:  like you。
+[Speaker 1]:  you are three land marks a here。
+[Speaker 1]:  everyone comes here and and here and here and enjoy map。
+[Speaker 1]:  and and then you draw journey through the map and like that to me。
+[Speaker 1]:  and that's dedeveloper relations looks like。
+[Speaker 1]:  so i do think a lot things that way。
+[Speaker 0]:  i think the pennine ty nine things in trade office，
+[Speaker 0]:  right？
+[Speaker 0]:  the penninety nine is very clear about，
+[Speaker 0]:  you know，
+[Speaker 0]:  hey，
+[Speaker 0]:  turbal puffer。
+[Speaker 0]:  you can't run a high transaction workload on turbal puffer，
+[Speaker 0]:  right？
+[Speaker 0]:  it's like the right linsees a hotter meal seconds。
+[Speaker 0]:  that's a clear trade off ff。
+[Speaker 0]:  i think the p ninety nine is very good at articulating the trade offs in every decision，
+[Speaker 0]:  which is exactly what the map is in your case，
+[Speaker 0]:  right？
+[Speaker 1]:  yeah yeah yeah，
+[Speaker 1]:  my wallds my wald。
+[Speaker 2]:  how how do you reconcile ze some of these things when you're saying you bend the will the computer versus the tratradofs s know？
+[Speaker 2]:  i think sometimes times like，
+[Speaker 2]:  well，
+[Speaker 2]:  these are the tratrados，
+[Speaker 2]:  but the three nints is like actually does not a real tradeff s because we can make something that nonobody is ever made before and actually make it work。
+[Speaker 0]:  the way i think about the banning tratralecture to your will is um if you sit down and do the nafka math，
+[Speaker 0]:  right，
+[Speaker 0]:  where you just like，
+[Speaker 0]:  okay，
+[Speaker 0]:  like if i have a hundred machines，
+[Speaker 0]:  they have this many terriby of this。
+[Speaker 0]:  they have this ban with whatever right？
+[Speaker 0]:  and you sit down and just just the like high school and nap in math on this is how many QPS we should be be able to drive to it similar or how i did the vde pricing，
+[Speaker 0]:  right？
+[Speaker 0]:  if you can sit down and do that，
+[Speaker 0]:  and then you observe the real system and you see，
+[Speaker 0]:  or were off by like tennex benfreaction to your will is like just making this softwt a closer and closer to that first principle line，
+[Speaker 0]:  the peni deny might even be able to cross the line right by finding even more optimizations than than from first principal。
+[Speaker 0]:  so enning，
+[Speaker 0]:  this suffered to your real is about that，
+[Speaker 0]:  right？
+[Speaker 0]:  like a hundred miltes。
+[Speaker 0]:  second，
+[Speaker 0]:  PI deny to um to s three。
+[Speaker 0]:  i mean，
+[Speaker 0]:  now you're talking like someone really high agency that like goes to seattle，
+[Speaker 0]:  finds the s three teens like how we going to make this ten。
+[Speaker 0]:  you know，
+[Speaker 0]:  like that is not quite all we talk about，
+[Speaker 0]:  right？
+[Speaker 0]:  yeah。
+[Speaker 1]:  what's the future turbo puffer？
+[Speaker 0]:  turbo puffer started out act。
+[Speaker 0]:  one of turbo puffer was vector search。
+[Speaker 0]:  that's was all all we did to begin with。
+[Speaker 0]:  actwo of turbo buffer is is and was full tech search turribbuffer today has a fairly start of the state of the art full tech search engine。
+[Speaker 0]:  um we beat lucene on some courriies，
+[Speaker 0]:  in particular，
+[Speaker 0]:  very long courriies that we've optimize for because those are the text search corories BC today，
+[Speaker 0]:  they're generated by alalams or augmated by alliams。
+[Speaker 0]:  and we we see him on webscale datasts，
+[Speaker 0]:  right？
+[Speaker 0]:  like someone searching for a very long correing on all of common crol。
+[Speaker 0]:  we be loocenine on some of those benchmarks，
+[Speaker 0]:  and we expect to continue to be loocenine on more and more courriies best of performance and scale。
+[Speaker 0]:  turbo offered does phenomenally now at full tech search performance and scale。
+[Speaker 0]:  what we work on now is more and more features for full tech search。
+[Speaker 0]:  people expect a lot of features with full tech search and full tech search is still very valuable。
+[Speaker 0]:  right？
+[Speaker 0]:  if you go in and you could press command k and you search for si and embedding pay search might be like，
+[Speaker 0]:  oh，
+[Speaker 0]:  this is something agreeable because that seat that，
+[Speaker 0]:  yes，
+[Speaker 0]:  and spanish，
+[Speaker 0]:  right，
+[Speaker 2]:  when in ice on is hhling too。
+[Speaker 0]:  but in for my search，
+[Speaker 0]:  that's the prefix of maybe a document of like，
+[Speaker 0]:  you know，
+[Speaker 0]:  these are the reasons i hate simon right like this。
+[Speaker 0]:  this is like that's a completely difference。
+[Speaker 0]:  so auaugmentation to how how the human brainworks and mapping like data to user is impimpant。
+[Speaker 0]:  but it's it's a lot of features and feature gme，
+[Speaker 0]:  just what we're firmly on。
+[Speaker 0]:  and you will see us just adding to the change bufer every month，
+[Speaker 0]:  just more and more full tech search features。
+[Speaker 0]:  um so we're like fully compatible。
+[Speaker 0]:  and we see we're seeing people move from some of more traditional search and enterturbble buffer。
+[Speaker 0]:  um for that，
+[Speaker 0]:  that's a big focus of towepufer this year。
+[Speaker 0]:  the other，
+[Speaker 0]:  the other focus of of turgo puff for this year is just on scale。
+[Speaker 0]:  we're seeing more and more companies that want to search ically common call level types of datassets。
+[Speaker 0]:  um both internally accompanies in an externally and at a time like corry，
+[Speaker 0]:  like a hundred billion vectors，
+[Speaker 0]:  like a hundred billion documents at once。
+[Speaker 0]:  this is tricky，
+[Speaker 0]:  and we want to make a cheaper。
+[Speaker 0]:  we want to make it faster。
+[Speaker 0]:  um that's a big focus for turbo puffeer this year。
+[Speaker 0]:  that's you know，
+[Speaker 0]:  we just release ed NNV three，
+[Speaker 0]:  which we talk about before。
+[Speaker 0]:  we 're working on an NVV before，
+[Speaker 0]:  and we 're also a plan wewe're going，
+[Speaker 0]:  do it it and NV five，
+[Speaker 0]:  right。
+[Speaker 0]:  and then on full tech search，
+[Speaker 0]:  we're working a lot。
+[Speaker 0]:  these features will be like FTSV three，
+[Speaker 0]:  but it will all roll out incrementally。
+[Speaker 0]:  um those are some of the really big features。
+[Speaker 0]:  and then the other thing is um our dashboard and any if you ever locked into the turrible hoffever dashboard。
+[Speaker 0]: 对对对，
+[Speaker 0]:  it's not very much there。
+[Speaker 0]:  it almost looks like if um a founder two years ago，
+[Speaker 0]:  just sat down and wrote enough dashboard，
+[Speaker 0]:  there was at least something there and then other people to sort of added stuff on for the dix to like the following two years。
+[Speaker 0]:  and then it's so point as a so another other things to just catch up and may may may not have what happened，
+[Speaker 0]:  but adding，
+[Speaker 0]:  like i want PHP my admin back like due due guys。
+[Speaker 0]:  remember，
+[Speaker 0]:  i guess，
+[Speaker 0]:  it's so good，
+[Speaker 0]:  right？
+[Speaker 0]:  and i think that，
+[Speaker 0]:  that like softhur harder integration between twen，
+[Speaker 0]:  the the the dashboard，
+[Speaker 0]:  the concerl of the database and the database ititself。
+[Speaker 0]:  um i'm really excited for self。
+[Speaker 0]:  um there's lots about other things um that are 're going to come out in the exterof，
+[Speaker 0]:  like we talk a it about about some pricing and things like that。
+[Speaker 0]:  but those would be some of the big cators right now。
+[Speaker 1]:  you talk the errors of too of，
+[Speaker 1]:  like i'm just i have to ask，
+[Speaker 1]:  like，
+[Speaker 1]:  yes，
+[Speaker 1]:  this is stuff working on this year。
+[Speaker 1]:  but like i'm sure in your mind already have the next phase that you're already thinking about act。
+[Speaker 1]:  three，
+[Speaker 1]:  yes，
+[Speaker 1]:  act four，
+[Speaker 0]:  yeah，
+[Speaker 0]:  act five。
+[Speaker 0]:  what i'll think about that，
+[Speaker 0]:  i can。
+[Speaker 1]:  you don't have to decide yeah，
+[Speaker 1]:  but you know，
+[Speaker 0]:  i'll just say say，
+[Speaker 0]:  if if you want to build big big dababase company，
+[Speaker 0]:  the database over time has to inflement more or less every qurey plan。
+[Speaker 0]:  because when you have your data in a database，
+[Speaker 0]:  you expected it over time，
+[Speaker 0]:  not just search，
+[Speaker 0]:  but also，
+[Speaker 0]:  hey，
+[Speaker 0]:  i want to aggregate。
+[Speaker 0]:  this column want want jojoin this data all of that。
+[Speaker 0]:  but when are start up，
+[Speaker 0]:  your only mode is really just focus。
+[Speaker 0]:  so we have to lay out of that。
+[Speaker 0]:  so you have to not get over eager。
+[Speaker 0]:  and i think we've seen some of our appeers get very over eager and over extend themselves。
+[Speaker 0]:  and what i keep telling the team was just having breakfast，
+[Speaker 0]:  the tening with our cto and and chief architecture，
+[Speaker 0]:  we're talking about like what we're most likely regret at the end of the year is just having try to do too much。
+[Speaker 0]:  um and so acthree candidates could be，
+[Speaker 0]:  you know，
+[Speaker 0]:  a bunch of simpler old app orries。
+[Speaker 0]:  it could be um lending ourselves a little bit more and to be sees some people who want to do traces and logging and things like got some very simple use cases could be that right？
+[Speaker 0]:  it could be maybe sometimes serious people people trying to do that right？
+[Speaker 0]:  like there's lots of different things that you can do with turbo hufer。
+[Speaker 0]:  but for now，
+[Speaker 0]:  right，
+[Speaker 0]:  if you're trying trying to do not search on turbo ofverers，
+[Speaker 0]:  the primary use case you probably shouldn't，
+[Speaker 0]:  but we see some some customers that are like，
+[Speaker 0]:  oh，
+[Speaker 0]:  um i get some point。
+[Speaker 0]:  ers are moved like twenty there，
+[Speaker 0]:  bites，
+[Speaker 0]:  a postcuous data into turbo buffer because that it die it there it works。
+[Speaker 0]:  and these particular qurey plans，
+[Speaker 0]:  we know work well and said，
+[Speaker 0]:  they just moved it all to differ sharting。
+[Speaker 0]:  um so we look for patterns like that in what future acts of turbo buffer are going to be before firmly doubling down on them。
+[Speaker 0]:  but we wouldn't，
+[Speaker 0]:  if today you're using turbo buffer，
+[Speaker 0]:  it should be because search is very important to you，
+[Speaker 0]:  and then we might do a lot of acililiary careers that，
+[Speaker 0]:  that，
+[Speaker 0]:  but that should not be the main reason to go to terbo bufer at this point in time。
+[Speaker 0]:  yeah，
+[Speaker 1]:  you didn't mention one thing else looking for。
+[Speaker 1]:  it was graph type queries。
+[Speaker 1]:  i grapft databtes graph。
+[Speaker 1]:  uh queries，
+[Speaker 1]:  can you basically trively replicate this with what alalready，
+[Speaker 0]:  because we some some people doing right，
+[Speaker 1]:  because you have parallel queries and there's the same thing exactly。
+[Speaker 0]:  so we see some people doing that right？
+[Speaker 0]:  like at the underer，
+[Speaker 0]:  like totoof over is just the KV right。
+[Speaker 0]:  and then we exposed things on top of it。
+[Speaker 0]:  so we are seeing people do that。
+[Speaker 0]:  and i think you know，
+[Speaker 0]:  our road map is very much just 嗯 the database that connect AI to a very large amount of data is what the path is to do that in the right order，
+[Speaker 0]:  which is what a good start of is around。
+[Speaker 0]:  what is the order to do things in our customers are PI nine，
+[Speaker 0]:  ty nine，
+[Speaker 0]:  and they will tell us what they care more th about next。
+[Speaker 0]:  and so some of them are doing graphs。
+[Speaker 0]:  now the'll need more graph database features，
+[Speaker 0]:  they'll be dok，
+[Speaker 0]:  graphdoor and more priorities accordingly，
+[Speaker 0]:  t okay，
+[Speaker 1]:  give us the t。
+[Speaker 1]:  uh，
+[Speaker 1]:  you kindly gift it us，
+[Speaker 1]:  your favorite。
+[Speaker 1]:  this is yabo keita，
+[Speaker 1]:  come come rrica uh from the en tea show。
+[Speaker 1]:  that's right。
+[Speaker 1]:  so like your levty，
+[Speaker 0]:  yeah，
+[Speaker 0]:  we we were just talking beforehand about um um caffeine。
+[Speaker 0]:  i think um and especially when i'm on a trip like this dissempence lego，
+[Speaker 0]:  i consusume lot lot of ffeine。
+[Speaker 0]:  um but this is my preferred um preferred caffeine。
+[Speaker 0]:  it's this green tea。
+[Speaker 0]:  i have an airtable table with hundred hundred ties。
+[Speaker 0]:  i'i tried over time over the past，
+[Speaker 0]:  like fifteen years。
+[Speaker 0]:  and this one is my favorite。
+[Speaker 0]:  now，
+[Speaker 0]:  when you drink a tea now when different different ters，
+[Speaker 0]:  like six different types of AI，
+[Speaker 0]:  like green tea in physcular，
+[Speaker 0]:  i generally prefer chinese green tea，
+[Speaker 0]:  and i don't really like japanese green tea。
+[Speaker 0]:  but this little prefecture，
+[Speaker 0]:  summer in japan has specialized in like the're，
+[Speaker 0]:  like japanese，
+[Speaker 0]:  but doing it the chinese way，
+[Speaker 0]:  and it's just phenomenal。
+[Speaker 0]:  but then the interesting thing about the tea world is that the of the different，
+[Speaker 0]:  um like you can find this particular tea，
+[Speaker 0]:  there's lovely，
+[Speaker 0]:  you know hundreds of 对，
+[Speaker 0]: 有 places that sell it。
+[Speaker 0]:  but they all go to a different family，
+[Speaker 0]:  right on whatever mountain that they have。
+[Speaker 0]:  these like commalalious sentences，
+[Speaker 0]:  push bushes on。
+[Speaker 0]:  and this woman japanese woman in toronto from the green tea shop。
+[Speaker 0]:  um i don't know if you just like has found a really good family because that's the best one，
+[Speaker 0]:  the best time of year to get this is in a few months when they do the spring harvest。
+[Speaker 0]:  um it's it's kind kind of old。
+[Speaker 0]:  it's just like i love the spring for the fresh tip。
+[Speaker 0]:  so i hope you enjoy it，
+[Speaker 0]:  but it's not the right time time of year。
+[Speaker 1]:  it's out of season。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i actually didn't even know TS seasons。
+[Speaker 1]:  this is unshiscated，
+[Speaker 1]:  but i think，
+[Speaker 1]:  think like it ties in with like you loloving maps and being obsessed um being key and you know everything you do。
+[Speaker 1]:  um you have it。
+[Speaker 2]:  that's great awesome。
+[Speaker 2]:  as we were the thing，
+[Speaker 2]:  we have insein how water a kernel，
+[Speaker 2]:  though，
+[Speaker 0]:  um any feet lover and combine i have a little ticket where i bring a um where i bring like a little thermeter，
+[Speaker 0]:  too，
+[Speaker 0]:  like a little frameworks ththmometer。
+[Speaker 0]:  um last friday，
+[Speaker 0]:  when we do demos，
+[Speaker 0]:  i have this thing，
+[Speaker 0]:  where，
+[Speaker 0]:  if there's not enough the most that fafail the remaining time talking about something completely ridiculous as an incentive for people to actually demo。
+[Speaker 0]:  and last night time，
+[Speaker 0]:  i spent twenty minutes stop walking through my air table and going through my entire tea travel kit，
+[Speaker 0]:  including the the the teperatature monitor。
+[Speaker 0]:  because like get you will grow up，
+[Speaker 0]:  there's only a boil。
+[Speaker 0]:  you can't get it to the right you ah，
+[Speaker 0]:  you need this the eighty degrees for anyway。
+[Speaker 0]:  yeah，
+[Speaker 0]:  sorry，
+[Speaker 0]:  you ah。
+[Speaker 2]:  we know elector cattle with the temperatured thing at home。
+[Speaker 1]:  now i would wash this。
+[Speaker 1]:  you should started a company youtube，
+[Speaker 1]:  but it doesn't have anything about search。
+[Speaker 1]:  it just fixed like other runs。
+[Speaker 0]:  i don't think i could talk，
+[Speaker 0]:  but something that i started doing due due to know same lamber of good。
+[Speaker 1]:  and it scale of courum very elspooking guy。
+[Speaker 0]:  i love the guy，
+[Speaker 0]:  and we just time we just last like last week，
+[Speaker 0]:  we just went on x life and just sudden like shot the shed for like an hour。
+[Speaker 0]:  well，
+[Speaker 0]:  i don't will probably do that again。
+[Speaker 0]:  yes。
+[Speaker 0]:  so probably come up again。
+[Speaker 0]:  and i don't probably call maybe people in nine limaybe p ty nine point or or something like that ypeople people people poit uh cool。
+[Speaker 1]:  what then isonwas retitime，
+[Speaker 1]:  you know，
+[Speaker 1]:  if you go ah，
+[Speaker 1]:  but this is a blast and youclearly very passionate and coasmetic。
+[Speaker 1]:  so IHT you'get get some anana engineers undof this procyeah thank you so much for having me。
+[Speaker 0]:  it was a pleasure。
