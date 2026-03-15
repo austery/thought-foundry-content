@@ -16,8 +16,8 @@ summary: \"本文以摩尔线程上市后的异常表现为例，揭示了中国
 insight: ''
 draft: true
 series: ''
-category: '"investment-assets"'
-area: '"finance-wealth"'
+category: "investment-assets"
+area: "finance-wealth"
 project: []
 people: []
 companies_orgs:
