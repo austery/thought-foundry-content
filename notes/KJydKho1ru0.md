@@ -17,7 +17,7 @@ insight: ''
 draft: true
 series: ''
 category: politics-society
-area: politics-society
+area: society-thinking
 project: []
 people:
   - 李步云
