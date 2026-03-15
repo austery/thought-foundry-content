@@ -16,8 +16,8 @@ summary: \"本视频深度解析美股博通（AVGO），这家在AI浪潮中扮
 insight: ''
 draft: true
 series: ''
-category: '"ai-ml"'
-area: '"tech-engineering"'
+category: ai-ml
+area: tech-engineering
 project: []
 people: []
 companies_orgs:
