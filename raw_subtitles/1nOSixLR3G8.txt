@@ -1,0 +1,2668 @@
+[Speaker 1]: 我一会儿直接把我们这三个小组的成员直接就邀请上来。
+[Speaker 0]:  ok hello，
+[Speaker 0]:  tommy，
+[Speaker 1]: 我直接邀请上来了啊，
+[Speaker 1]: 因为我们都是要一起分享的，
+[Speaker 1]: 你可以闭麦闭摄像头都可以。
+[Speaker 0]:  hello，
+[Speaker 0]: 赵老师，
+[Speaker 1]: 我在群里边说一下，
+[Speaker 0]: 嗯，
+[Speaker 0]: 邀请大家目前拍下都能看到吗？
+[Speaker 2]: 嗯，
+[Speaker 2]: 可以没问题。
+[Speaker 0]: 嗯嗯，
+[Speaker 1]: 麦克风和摄像头，
+[Speaker 1]: 麦克风摄像头不用管。
+[Speaker 0]:  hello hello hello 麦克。
+[Speaker 2]: 哎，
+[Speaker 1]: 镇江军，
+[Speaker 0]: 我们这在将军来分享，
+[Speaker 1]: 因为他现在在欧洲是凌晨，
+[Speaker 1]: 还有在凌晨，
+[Speaker 1]: 还有在欧洲的朋友吗？
+[Speaker 1]: 我们可以让我们先开始，
+[Speaker 1]: 然后走。
+[Speaker 1]: 可以啊，
+[Speaker 3]: 没事没事。
+[Speaker 3]: 呃，
+[Speaker 3]: 其实我们小组讨论的是我们小组要在一起啊啊在一起，
+[Speaker 3]: 因为是有相关的，
+[Speaker 3]: 所以我可以我可以跟我们小组一起。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那 OK，
+[Speaker 0]: 如果说呃，
+[Speaker 1]: 小西瓜，
+[Speaker 1]: 你们小组有有欧洲的吗？
+[Speaker 2]: 嗯，
+[Speaker 2]: 我帮他分享了，
+[Speaker 2]: 没有了。
+[Speaker 2]: 哦，
+[Speaker 1]: 那你帮他分享的话，
+[Speaker 1]: 那要不然就你们小组先 topic 二先开始吧。
+[Speaker 1]: 第二小组先开始，
+[Speaker 1]: 我们先后调整一下，
+[Speaker 1]: 好不好啊？
+[Speaker 3]: 可以啊，
+[Speaker 1]: 我先呃等一下这人还没来齐 OK，
+[Speaker 3]: 那我再稍等一下。
+[Speaker 1]: 嗯嗯，
+[Speaker 0]: 对，
+[Speaker 1]: 那我先说一下规则，
+[Speaker 1]: 我们等一下 cindy 来了，
+[Speaker 1]: 我们等一下会有呃每个成员上来分享的时候，
+[Speaker 1]: 呃，
+[Speaker 1]: 我右我的左上角大家应该可以看到是一个计时器，
+[Speaker 1]: 我点然后大家就根据这六分钟在六分钟之内讲完自己的分享。
+[Speaker 1]: 它会有在结束剩一分钟的时候，
+[Speaker 1]: 它会有一提示，
+[Speaker 1]: 有一这声音提示能听见吗？
+[Speaker 1]:  ok 然后数之后呃六分钟结束了，
+[Speaker 1]: 它会有这个提示，
+[Speaker 1]: 所以大家尽量让自己的时间保持在六分钟以内。
+[Speaker 1]: 因为我们十五个人还是人还是挺多的，
+[Speaker 1]: 想让大家尽量都分享到，
+[Speaker 1]: 呃，
+[Speaker 1]: 是稍微超过一点没有关系啊，
+[Speaker 1]: 就只是这个时间是给大家一个呃一个标志。
+[Speaker 0]: 你记你记得有这么一个事儿就行啊。
+[Speaker 1]: 呃，
+[Speaker 1]: 给不是小组成员的朋友们介绍一下。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我们这次的活动是给专门给 mini haackson 这个四个小组活动，
+[Speaker 1]: 三个小组活动的 demo day，
+[Speaker 1]: 就是最后一天展示我们前我们三个小组前一个月四周的成果。
+[Speaker 1]: 但不不是说专门给给这几个人啊，
+[Speaker 1]: 一共是十五个人，
+[Speaker 1]: 每个人六分钟，
+[Speaker 1]: 但不是呃，
+[Speaker 1]: 但但是每个人都可以来看，
+[Speaker 1]: 然后我们即将会开放我们的第二次迷你海客嗓活动。
+[Speaker 1]: 然后主题可能会有跟这次重合的地方，
+[Speaker 1]: 呃，
+[Speaker 1]: 就是有有重合的一个主题。
+[Speaker 1]: 大家如果等一下在说的过程中有任何主题的推荐，
+[Speaker 1]: 或者你觉得你想做哪个方面的，
+[Speaker 1]: 你这一个月想做一个哪方面的产品或者是工具，
+[Speaker 1]: 你就随时在我们的聊天室里面建议一下。
+[Speaker 1]: 我们也想听取大家的建议。
+[Speaker 1]: 因为目前还没有确定最终的主题，
+[Speaker 1]: 对问题也可以随时在这面问。
+[Speaker 1]: 奥斯卡张丽好像也是，
+[Speaker 1]: 对吧？
+[Speaker 0]: 看一下 the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the ethe 啊，
+[Speaker 1]: 不是 OK。
+[Speaker 1]: 那我们先开始先从第二组开始吧，
+[Speaker 1]: 因为哎第二组来齐了吗？
+[Speaker 3]: 一我我还差一一个人 OK，
+[Speaker 3]: 或者们可以按照顺序来。
+[Speaker 3]: 因为我这边是准备今天熬夜的，
+[Speaker 3]: 没关系的啊。
+[Speaker 1]: 如果你现在准备好了，
+[Speaker 3]: 可以现在说呃我是准备好了，
+[Speaker 3]: 但是我们现在缺一个组员。
+[Speaker 1]: 好好，
+[Speaker 1]: 那小西瓜组员来齐了吗？
+[Speaker 2]: 嗯，
+[Speaker 2]: 我组员也没有来齐，
+[Speaker 1]: 嗯，
+[Speaker 2]: 那我们就对你说可以先聊一下，
+[Speaker 5]: 大家有什么问题吗？
+[Speaker 5]: 对，
+[Speaker 5]: 我们可以先先聊一下，
+[Speaker 5]: 或者是有什么值得分享的吗？
+[Speaker 2]: 对我觉得没关系，
+[Speaker 2]: 那我就开始我分享，
+[Speaker 0]: 也就是反正大家之间也是相互之间的时候，
+[Speaker 2]: 就从我们小组开始。
+[Speaker 1]: 哦，
+[Speaker 1]: 我刚听见，
+[Speaker 2]: 可以等一下，
+[Speaker 1]: 我给你计时啊，
+[Speaker 1]: 你开始了吗？
+[Speaker 2]: 哦，
+[Speaker 2]: 我开始 ok 那我先帮我组员个 eer 分享一下，
+[Speaker 2]: 就是他做了一个很有意思的一个网站。
+[Speaker 2]: 大家可以看一下，
+[Speaker 2]: 大家可以现在可以看见我的 screen 吗？
+[Speaker 2]: 可以嗯稍等，
+[Speaker 2]: 然后把他那个网站打开，
+[Speaker 2]: 就他做了这么样，
+[Speaker 2]: 他是做音乐的。
+[Speaker 2]: 然后的话他有做那个教程，
+[Speaker 2]: 在 youtube 上也也做的挺好的。
+[Speaker 2]: 然后有七千的粉丝啊。
+[Speaker 2]: 然后的话现在他自己有在做产品，
+[Speaker 2]: 这个是他就是在我们组内就这一个月做出来的一个产品。
+[Speaker 2]: 然后它是一块可以点击的一个纸板。
+[Speaker 2]: 白板有什么用呢？
+[Speaker 2]: 就是它你可以看见它有它的风格设计，
+[Speaker 2]: 它其实有点像参考。
+[Speaker 2]: 这个就是 x college 这一个风格，
+[Speaker 2]: 就是极简的这种手写化的这种风格。
+[Speaker 2]: 然后的话他去做了一下微调，
+[Speaker 2]: 包括像这些配色啊，
+[Speaker 2]: 来就是他的设计上有一个很大的调整。
+[Speaker 2]: 就相比他之前就是在这个这个月的话，
+[Speaker 2]: 他相比他之前的一些设计，
+[Speaker 2]: 他做了一个很大的一个微调。
+[Speaker 2]: 就之前的设计就是大概是这个样子的。
+[Speaker 2]: 然后的话他现在就是做了一个很好的设计，
+[Speaker 2]: 然后这个产品它自己做的很满意他的一个功能，
+[Speaker 2]: 我可以给大家展示一下。
+[Speaker 2]: 就然后的话还有就是付费解锁完整版的这种功能。
+[Speaker 2]: 嗯，
+[Speaker 2]: 稍后网址我也可以贴在评论区，
+[Speaker 2]: 然后对这个就是它进入到这这里面的一个界面，
+[Speaker 2]: 就是点击进入它试用的那个功能的一个界面。
+[Speaker 2]: 当然我这个是免费版本的，
+[Speaker 2]: 就是它点击这里之后，
+[Speaker 2]: 它就会显示这里被标记了嘛，
+[Speaker 2]: 然后就有这么样的一个标记的一个功能。
+[Speaker 2]: 然后最后的话它可以导出就是一个录像的那种感觉，
+[Speaker 2]: 就是呃有点像白板。
+[Speaker 2]: 就是大家最近不知道有没有看中那种白板录屏工具，
+[Speaker 2]: 然后它这个就是有点像 remotion 去渲染那一种呃直板的那种功能。
+[Speaker 2]: 然后它会有一个呃音频的效果，
+[Speaker 2]: 以及说在弹奏的这个效果。
+[Speaker 2]: 对，
+[Speaker 2]: 然后这里就会有一个视频，
+[Speaker 0]: 哎哦，
+[Speaker 2]: 他他应该仅限完整版才可以把这个视频给下载下来。
+[Speaker 2]: 对，
+[Speaker 2]: 这就是他做的大概这么样的一个产品。
+[Speaker 2]: 然后他最近更多的是在做他的一个频道，
+[Speaker 2]: 就是包括像他做的这个频道，
+[Speaker 2]: 他的频道主要就是做这些呃，
+[Speaker 2]: 像就是这些关于音乐相关的一个方面。
+[Speaker 2]: 然后的话然后的话他在里面的话就会呃同时去宣传自己的产品。
+[Speaker 0]: 对，
+[Speaker 5]: 哇，
+[Speaker 5]: 七千个 subscribe 好厉害害。
+[Speaker 2]: 对对对，
+[Speaker 2]: 然后我就觉得他做的还是很好的很好的，
+[Speaker 2]: 但是他最近可能做的比较少，
+[Speaker 2]: 所以说自制视频的一个流量就不太稳定。
+[Speaker 2]: 对，
+[Speaker 2]: 然后他他他的一个效果你也可以看见，
+[Speaker 2]: 做的很用心。
+[Speaker 2]: 对，
+[Speaker 2]: 大概就是这样子的一个分享。
+[Speaker 2]: 对，
+[Speaker 0]: 简单分享一个这是用什么做的视频呀？
+[Speaker 1]: 聪明问哦，
+[Speaker 2]: 我我这个我不太清楚，
+[Speaker 2]: 因为我不是本人，
+[Speaker 2]: 我到时候再去问一下。
+[Speaker 1]:  ok ok 我们等一个来的时候，
+[Speaker 1]: 或者可以让他分享一下欧时间。
+[Speaker 2]: 他是欧洲时间，
+[Speaker 2]: 他现在已经睡觉了。
+[Speaker 2]: 对，
+[Speaker 1]: 我知道我知道可以之后，
+[Speaker 1]: 让他发帖分享一下，
+[Speaker 1]: 他自己是用什么做的。
+[Speaker 2]: 可以可以，
+[Speaker 2]: 然后就他们他们第二小组的来吗？
+[Speaker 2]: 来吗？
+[Speaker 2]: 还没来的话，
+[Speaker 2]: 我就我就继续，
+[Speaker 3]: 我分享我我们第二小组的应该是来来齐了。
+[Speaker 2]: 哦哦哦哦，
+[Speaker 2]: 哎我们邀请他下来。
+[Speaker 3]: 嗯，
+[Speaker 0]: 是呃，
+[Speaker 3]: 如果你们第一小组没来齐的话，
+[Speaker 3]: 我们可以第二小组先开始。
+[Speaker 2]: 没事，
+[Speaker 2]: 你你们可以先开始。
+[Speaker 2]: 对，
+[Speaker 3]: 可以啊。
+[Speaker 3]: 对，
+[Speaker 3]: 呃，
+[Speaker 3]: 因为我是在欧洲，
+[Speaker 3]: 我说话不是很方便，
+[Speaker 3]: 我准备了一个 demo 视频。
+[Speaker 3]: 然后因为啊咱们规定是六分钟，
+[Speaker 3]: 我多了一分钟的组内介绍啊，
+[Speaker 3]: 然后给大家分享一下。
+[Speaker 3]: 好，
+[Speaker 0]: 给我去边。
+[Speaker 3]: 好，
+[Speaker 3]: 那我开始了。
+[Speaker 6]: 大家好，
+[Speaker 6]: 我是迷你 hexon 这家可以听见我的声音吗？
+[Speaker 2]: 可以可以啊。
+[Speaker 6]: 小组的领队六，
+[Speaker 6]: 我们小组的主题是个人音频工作流的工具。
+[Speaker 6]: 那因此我们的目标是打造一个能够语音对话的个人知识与生活助理。
+[Speaker 6]: 接下来，
+[Speaker 6]: 我将简短的介绍每位成员的 cledemo 重点。
+[Speaker 6]: 首先他们会进行更详细、
+[Speaker 6]: 细自自展展示。
+[Speaker 6]: 首先我设的一一个音个人助理的外 b 客户端，
+[Speaker 6]: 那可以记录我的生活灵感。
+[Speaker 6]: 那最后以晨报的形式进行输出啊，
+[Speaker 6]:  cd 呢开发了一一个 APP，
+[Speaker 6]: 它设计了一套语音输入、
+[Speaker 6]: 结构化笔记顾问团解读的知识管理库的一个流程。
+[Speaker 6]: 那最终可以产出一个时光电台。
+[Speaker 6]:  tommy 呢构建了早报系统，
+[Speaker 6]: 包含了天气代办，
+[Speaker 6]: 全球要闻，
+[Speaker 6]: 生成每日晨报，
+[Speaker 6]: 并通过 telegram 进行互动。
+[Speaker 6]: 硬是呃，
+[Speaker 6]: 使用 what's up open cloud，
+[Speaker 6]: 实现语音存储和调用的功能。
+[Speaker 6]: 作为日常语音交互与晚报的生成工具，
+[Speaker 6]: 驾驶用 n 八 n 分流器构建了一个不同方面的生活资料库，
+[Speaker 6]: 就是语音日记。
+[Speaker 6]: 时间截图是论台呃，
+[Speaker 6]: 转文章。
+[Speaker 1]:  hello hello 哎，
+[Speaker 1]: 友，
+[Speaker 1]: 你的视频没有显示出来，
+[Speaker 1]: 我们只能看到一个呃网页页面，
+[Speaker 1]: 你可能应该要分享全屏不好？
+[Speaker 3]:  helsorry，
+[Speaker 3]: 不好意思好，
+[Speaker 3]: 我重新 stop 一下。
+[Speaker 0]: 哎，
+[Speaker 1]: 你分享的应该是全屏吗？
+[Speaker 0]: 等一下窗口整个屏幕哦，
+[Speaker 3]: 对我要分享整个屏幕，
+[Speaker 0]: 不好意思啊，
+[Speaker 3]: 现在能看到吗？
+[Speaker 1]: 可以了可以了，
+[Speaker 3]: 那我继续吧，
+[Speaker 0]: 贝等自动化流程。
+[Speaker 6]: 那因此我们的目标就是呃把分散的语音啊，
+[Speaker 6]: 用分散的想法，
+[Speaker 6]: 用语音输入输出的形式制呃制造一个主动提醒你建议的个人智能化助手。
+[Speaker 6]: 那接下来我以我的呃 demo 作为一个展示我的个人生活助理叫做声计。
+[Speaker 6]: 通过这个名，
+[Speaker 6]: 大家可以认出我希望用声音来管理我的生活。
+[Speaker 6]: 就像贾维啊钢铁侠当中的贾维斯一样，
+[Speaker 6]: 我只需要与 AI 进行呃语音对话，
+[Speaker 6]:  AI 就可以帮助我整理信息，
+[Speaker 6]: 分类记录，
+[Speaker 6]: 并且给出一些分析建议。
+[Speaker 6]: 但通过这个升级助手，
+[Speaker 6]: 我可以记录我的灵感、
+[Speaker 6]: 读书笔记、
+[Speaker 6]: 生活提醒、
+[Speaker 6]: 工作状态，
+[Speaker 6]: 所有的内容都将会保存到一个个人的数据库当中。
+[Speaker 6]: 然后每天早晨呢哎呀也会根据这些数据库生成一个专属的个人的晨报播客总结昨天发生的事情，
+[Speaker 6]: 并提出今天的计划。
+[Speaker 0]:  helh 我有我的一个。
+[Speaker 6]: 那让我们来看一看它是如何工作的啊，
+[Speaker 6]: 首先我需要一个语音输入系统，
+[Speaker 6]: 所以我制作了一个升级助手。
+[Speaker 6]: 这个升级助手可以作为一个实时的语音，
+[Speaker 6]: 转入 AI 自动分类整理，
+[Speaker 6]: 并且归档到数据库当中。
+[Speaker 6]: 当我之后我 AI 对话的时候，
+[Speaker 6]: 它就可以我调用我这些数据库内容，
+[Speaker 6]: 帮助我完成思考、
+[Speaker 6]: 整理和规划。
+[Speaker 6]: 不是，
+[Speaker 6]: 那我分为六大智能模块，
+[Speaker 6]: 灵感记录、
+[Speaker 6]: 财务管理、
+[Speaker 6]: 工作状态、
+[Speaker 6]: 生活提醒、
+[Speaker 6]: 读书感悟和晨邦播客。
+[Speaker 6]: 每一个模块都可以通过语音的输入或者是文字的输入、
+[Speaker 6]: 灵啊图片识别方式来进行啊交互。
+[Speaker 6]: 我以灵感记录为例来展示一下我的一个呃模块。
+[Speaker 0]: 你说什？
+[Speaker 6]: 那大家都知道灵感是转瞬即逝的啊，
+[Speaker 6]: 就像流星一样。
+[Speaker 6]: 那因此当我有一个灵感的时候，
+[Speaker 6]: 我直接通过语音来告诉我这个助手，
+[Speaker 6]: 让他帮我记录到这个呃数据库当中。
+[Speaker 6]: 然后我希望更多的是记录之后呢，
+[Speaker 6]: 他能够在背后帮我搜索一些资料来去做一些整理和判断，
+[Speaker 6]: 并且在承包的过程当中给我一些建议。
+[Speaker 6]: 那最近我有一个灵感 idea，
+[Speaker 6]: 就是我用了很多不同的大元模型，
+[Speaker 6]: 每个大元模型都有它各自的优势。
+[Speaker 6]: 但是作为用户来说，
+[Speaker 6]: 我希望最简单的方式就是我把一个问题丢给一个窗口。
+[Speaker 6]: 那这个窗口可以调用不同大元模型，
+[Speaker 6]: 那根据他们的反馈结果进行分析对比，
+[Speaker 6]: 给我一个最优的一个答案即可。
+[Speaker 6]: 那这是我的一个灵感，
+[Speaker 6]: 像其他模块我也可以类似的一个形式。
+[Speaker 6]: 那接下来我做一个展示助手，
+[Speaker 6]: 你好，
+[Speaker 7]: 我在呢有什么可以帮你的吗？
+[Speaker 0]: 我最近的一个灵感是什么？
+[Speaker 7]: 你最近的一个灵感是想开发一个 app 用来整合并调用不同的 AI 语言模型，
+[Speaker 7]: 解决现在 AI 工具太分散的问题。
+[Speaker 7]: 我已经帮你记在灵感库里了，
+[Speaker 6]: 请问请帮我记一笔账。
+[Speaker 6]: 我今天在食品上花费了四元。
+[Speaker 7]: 好的，
+[Speaker 7]: 已经帮你记好了。
+[Speaker 7]: 今天在食品上花费了四欧元，
+[Speaker 6]: 请问我昨天的工作状态如何？
+[Speaker 7]: 你昨天的相关记录比较少，
+[Speaker 7]: 主要是提到在 open AI 上有一些开支。
+[Speaker 7]: 不过从睡眠来看你昨晚入睡比较早，
+[Speaker 7]: 质量也达到了八十二分。
+[Speaker 7]: 今天应该挺有精神的吧。
+[Speaker 6]: 啊，
+[Speaker 6]: 我明天有什么计划？
+[Speaker 0]: 嗯，
+[Speaker 7]: 明天是三月十五日，
+[Speaker 7]: 你的计划挺充实的。
+[Speaker 7]: 凌晨有一场黑客松演示，
+[Speaker 7]: 上午十点是排球比赛，
+[Speaker 7]: 下午一点半参加新传小组直播，
+[Speaker 7]: 接着三点是网球训练，
+[Speaker 7]: 五点，
+[Speaker 7]: 还有两小时的半马训练，
+[Speaker 7]: 加油，
+[Speaker 7]: 非常有活力的一天。
+[Speaker 0]: 我最近在读什么书？
+[Speaker 7]: 你最近正在读 psychocybrietics 这本书，
+[Speaker 7]: 目前的状态是正在阅读中。
+[Speaker 7]: 你书架上其他的书都已经读完了，
+[Speaker 7]: 这本也加油读完它吧 OK。
+[Speaker 6]: 那有了这些数据库呃之后呢，
+[Speaker 6]: 那么他就可以啊根据我的数据库进行一个汇总，
+[Speaker 6]: 将它 AI 来生成一个脚本，
+[Speaker 6]: 最终以语音的形式来做一个晨报。
+[Speaker 6]: 比如我周日的承包是这样的，
+[Speaker 8]: 早上好，
+[Speaker 8]: 朋友，
+[Speaker 8]: 今天是二零二六年，
+[Speaker 8]: 三月十四日星期六，
+[Speaker 8]: 我是你的生计助手。
+[Speaker 8]: 又到了我们一天中最温暖的时刻。
+[Speaker 8]: 一起回顾昨天展望，
+[Speaker 8]: 今天先来说说昨天的睡眠，
+[Speaker 8]: 你休息的相当不错，
+[Speaker 8]: 整整四百九十五分钟，
+[Speaker 8]: 也就是八小时 OK。
+[Speaker 6]: 那呃为了实现这些内容，
+[Speaker 6]: 我有一个技术框架，
+[Speaker 6]: 其实前端后端主要通过 levverable 来实现的。
+[Speaker 6]: 我做的工作主要是 AI 语言的一个调用。
+[Speaker 6]: 整个一个窗口的 idea 的一个优化。
+[Speaker 6]: 那最终我也用 n 八 n 实现自动化的一些流程。
+[Speaker 6]: 比如说 google drive 的数据备份，
+[Speaker 6]:  apple watch 的数据同步，
+[Speaker 6]: 以及调用了呃 google 的 TDS 作为一个语音备用。
+[Speaker 6]: 那呃我觉得我的这个呃最终我希望 voice note 呢，
+[Speaker 6]: 它不仅是一个记录工具，
+[Speaker 6]: 而且是一个真正理解我的 AI 生活助手。
+[Speaker 6]: 以上是我的项目介绍，
+[Speaker 6]: 谢谢大家。
+[Speaker 1]: 哇，
+[Speaker 1]: 感谢 tommy 问了一下，
+[Speaker 1]: 呃，
+[Speaker 1]: 可以问一下健康记录是怎么拿到的吗？
+[Speaker 3]:  OK 呃，
+[Speaker 3]: 我可以大家好好，
+[Speaker 3]: 那我哦不好意思，
+[Speaker 3]: 我有个我的健康记录。
+[Speaker 3]: 其实刚开始我是跟着麦克呃 IOS 的 APP 开发，
+[Speaker 3]: 但是后来发现这个路径没有走通，
+[Speaker 3]: 调试了很长时间。
+[Speaker 3]: 啊，
+[Speaker 3]: 现在目前的整个的一个方案是呃通过那个呃 i 呃 apple 它的快捷方式，
+[Speaker 3]: 然后它可以可以到我的呃 m 八 n 里边。
+[Speaker 3]: 然后我的 m 八 n 会呃把这个所有的数据再同步到我的网站里边。
+[Speaker 3]: 比如说嗯可以给大家看一下。
+[Speaker 1]:  ok 对，
+[Speaker 1]: 就是通 n 八 n 自动化到你的网站里，
+[Speaker 1]:  n 八作为你的后端数据库了，
+[Speaker 1]: 对吧？
+[Speaker 3]: 啊，
+[Speaker 3]:  MI 其实并不它是一个桥梁，
+[Speaker 3]: 我的大部分数据是存在 google drive 里面。
+[Speaker 1]: 哦，
+[Speaker 1]:  OK。
+[Speaker 1]: 好，
+[Speaker 1]: 那我们先进行下一位，
+[Speaker 1]: 谢谢感谢感谢可友的分享，
+[Speaker 1]: 特别充实。
+[Speaker 0]: 感谢。
+[Speaker 3]: 好，
+[Speaker 3]: 谢谢大家。
+[Speaker 1]:  cindy cindy，
+[Speaker 1]: 你准备好了吗？
+[Speaker 4]: 嗯，
+[Speaker 4]: 可以可以，
+[Speaker 1]:  ok 那你瞧一瞧。
+[Speaker 1]: 好，
+[Speaker 1]: 等我一下啊。
+[Speaker 0]: 哎点好，
+[Speaker 4]: 现在应该是一个黑屏，
+[Speaker 4]: 对吗？
+[Speaker 1]: 对，
+[Speaker 4]: 好好，
+[Speaker 4]: 那我好，
+[Speaker 4]: 我我等一下会有搭配影片，
+[Speaker 4]: 然后我就现在开始 OK。
+[Speaker 4]: 呃，
+[Speaker 4]: 大家好，
+[Speaker 4]: 我是 cindy。
+[Speaker 4]: 那我今天要分享的是 PKS 然它是可以做语音输入、
+[Speaker 4]: 文字输入等等的功能。
+[Speaker 4]: 但更重要的是，
+[Speaker 4]: 它不只是解决我如何做笔记的问题，
+[Speaker 4]: 而是让笔记在记录之后能够消化再生长，
+[Speaker 4]: 然后成为真正可以持续使用的知识。
+[Speaker 4]: 那我们接下来看影片，
+[Speaker 4]: 好，
+[Speaker 4]: 接下来是语音输入的功能。
+[Speaker 0]: 嗯嗯，
+[Speaker 9]: 我最近在看卡片和笔记里面有有句话，
+[Speaker 9]: 我觉得蛮有意思的。
+[Speaker 9]: 他说做笔记不应该只是复制叠上，
+[Speaker 9]: 而是要用你的话重新说一遍你的理解。
+[Speaker 9]: 我觉得这不只是在做笔记，
+[Speaker 9]: 我们面对很多事情也都应该要这样。
+[Speaker 9]: 如果我们只是听从其他人的意见，
+[Speaker 9]: 看书收集了很多的想法，
+[Speaker 9]: 这最终也还是别人的。
+[Speaker 9]: 只有用自己的经验去消化它，
+[Speaker 9]: 用自己的语言再讲一遍，
+[Speaker 9]: 这些知识才会真正的长在我的脑里。
+[Speaker 9]:  PKS core 就是想要做这件事情，
+[Speaker 9]: 给我一个空间，
+[Speaker 9]: 让我的想法和别人的观点产生碰撞，
+[Speaker 9]: 最后长出一个属于自己的东西。
+[Speaker 4]: 那我们说完之后，
+[Speaker 4]:  AI 可以自动帮我们整理成结构化它的笔记。
+[Speaker 4]: 然后这样不只是省时间，
+[Speaker 4]: 而是在你说话的过程当中，
+[Speaker 4]: 其实内心在消化自己的想法。
+[Speaker 4]: 然后你也可以触发顾问团，
+[Speaker 4]: 像是十多个哲学的三个维度，
+[Speaker 4]: 有控制预想跟行动，
+[Speaker 4]: 重新解读你刚刚的想法，
+[Speaker 4]: 或是呃选这个纳瓦尔然，
+[Speaker 4]: 他也会帮助你去用新的哲学视角来看看自己的盲点。
+[Speaker 4]: 那你整理完的笔记，
+[Speaker 4]: 你也可以提炼成有知识点的卡片，
+[Speaker 4]: 然后你可以去做确认啊，
+[Speaker 4]: 或是略过之后也可以再重新绘出。
+[Speaker 4]: 比如说你可以回到黑帕贝 ase 或是 FC 点，
+[Speaker 4]: 再重新再制。
+[Speaker 4]: 那接下来是呃你可以把书本上的文字笔记拍照进你的知识库，
+[Speaker 4]: 并且找到对应的书名做储存。
+[Speaker 4]: 然后下一次你可以去啊选取书本，
+[Speaker 4]: 然后找到所有的相关笔记。
+[Speaker 4]: 那这个是知识回声，
+[Speaker 4]: 你问的问题，
+[Speaker 4]: 他不是去搜寻网络，
+[Speaker 4]: 而是从我的笔记，
+[Speaker 4]: 我的书斋里面找答案，
+[Speaker 4]: 像是我对知识管理有什么样的看法。
+[Speaker 4]: 这里的每一个回复，
+[Speaker 4]: 每个观点都是有来源的。
+[Speaker 4]: 然后他都是从我曾经读过记过的东西，
+[Speaker 4]: 这就是专属于我的呃回复的系统。
+[Speaker 4]: 好，
+[Speaker 4]: 接下来是时光电台。
+[Speaker 4]: 蔡蒙格曾经说过，
+[Speaker 4]: 要真正理解一件事情，
+[Speaker 4]: 你要能够重返，
+[Speaker 4]: 我没有，
+[Speaker 10]: 我就不投时结诉他。
+[Speaker 4]: 这就所以在这里做的事情是你提出一个想法，
+[Speaker 4]:  AI 会用我的知识库去扮演正方跟反方，
+[Speaker 4]: 然后去让你思考你原本想象的这个概念。
+[Speaker 11]: 哎，
+[Speaker 11]: 一定要有用的筛选机制其实是在帮你的未来设限嘛。
+[Speaker 11]: 对对对，
+[Speaker 11]: 如果你只学那些现在有用的东西，
+[Speaker 11]: 你基本上只是在重复现在的自己，
+[Speaker 11]: 而不是在开拓新的可能性。
+[Speaker 10]: 但人的时间有限呐，
+[Speaker 10]: 以前我也会因为焦虑，
+[Speaker 10]: 什么都学，
+[Speaker 10]: 结果什么都留不住。
+[Speaker 10]: 现在我学会了断舍离。
+[Speaker 10]: 只有当我知道这项技能能解决当前的痛点时，
+[Speaker 10]: 我才会有动力去深钻。
+[Speaker 10]: 这种目标感让我更敢于做决定，
+[Speaker 10]: 也让我现在的生活更有节奏，
+[Speaker 10]: 而不是盲目的向外抓取资源慢着。
+[Speaker 12]: 你说的节奏会不会只是一种对焦虑的防御机制？
+[Speaker 12]: 你说以前会因为怕被看不起而勉强消费，
+[Speaker 12]: 现在则是为了有效率而精准选择，
+[Speaker 12]: 这两者本质上都在追求一种安全感。
+[Speaker 12]: 如果你所有的学习都必须服务于一个具体的结果，
+[Speaker 12]: 那你其实根本不敢面对无用之用带来的意外惊喜，
+[Speaker 12]: 对吧？
+[Speaker 10]: 这个嘛我倒不觉得是安全感，
+[Speaker 10]: 像我最近在研究指牙定位，
+[Speaker 10]: 发现自己的专长跟热爱，
+[Speaker 4]: 请好 PKS cos 我思想回神经，
+[Speaker 4]: 谢谢。
+[Speaker 0]: 大家好，
+[Speaker 4]: 我们想完了，
+[Speaker 1]: 谢谢谢谢分享。
+[Speaker 1]: 你哇你的页面好整洁，
+[Speaker 1]: 就是简洁哦。
+[Speaker 1]: 现在这个视频哎也不错，
+[Speaker 1]: 这种风格很好，
+[Speaker 1]: 我喜欢，
+[Speaker 1]: 我也喜欢这个设计，
+[Speaker 1]: 小奇葩说喜欢这个设计。
+[Speaker 1]: 那我们小组的下一下一位米上上来准备好了吗？
+[Speaker 0]: 汤米。
+[Speaker 13]: 呃，
+[Speaker 13]: 好的，
+[Speaker 13]: 稍等一下，
+[Speaker 13]: 我分享一下音。
+[Speaker 0]: 嗯嗯，
+[Speaker 13]: 大家可以看到我的这个窗口啊，
+[Speaker 13]: 我做的是一个呃早报的呃系统，
+[Speaker 13]: 就是我每天在通勤的时候我可以去听一下。
+[Speaker 13]: 哎，
+[Speaker 13]: 今天的天气怎么样？
+[Speaker 13]: 我有哪些 to do。
+[Speaker 13]: 然后呢，
+[Speaker 13]: 呃今天是有什么变化？
+[Speaker 13]: 呃，
+[Speaker 13]: 我目前是在东京，
+[Speaker 13]: 然是呢呃所以说一开始可能会有一些日本的这种新闻啊，
+[Speaker 13]: 呃然后呢除了此之外，
+[Speaker 13]: 如果我之前可能是因为通勤时间了解，
+[Speaker 13]: 就只会看去看这个北京的新闻。
+[Speaker 13]: 但那除此之外，
+[Speaker 13]: 我觉得呃全球化的视野还是非常重要的。
+[Speaker 13]: 呃，
+[Speaker 13]: 所以说呃通过这个早报系统也加了像华杰、
+[Speaker 13]:  sport 和金融 sport。
+[Speaker 13]: 我可以大概给大家听一下，
+[Speaker 13]: 就是每天早上差不多哦，
+[Speaker 13]: 八点左右就会有一个呃我的 open cloud，
+[Speaker 13]: 就会有一个这样的一个信息条哦，
+[Speaker 13]: 自动的发给我，
+[Speaker 13]: 这样我在同讯时间就可以去听。
+[Speaker 13]: 哎，
+[Speaker 13]: 稍等啊，
+[Speaker 13]: 稍微有一点卡。
+[Speaker 13]: 哎，
+[Speaker 1]: 大家我好像听不见你的声音，
+[Speaker 1]: 您我是没分享这个系统声音哦，
+[Speaker 13]: 我那我再分享一下，
+[Speaker 13]: 稍等啊。
+[Speaker 13]: 等下下这个是要在哪里选的吗？
+[Speaker 3]: 还是说自己就是可以听得见这个和咱们的谷歌呃会议是一样的。
+[Speaker 3]: 就是你在分享的时候，
+[Speaker 3]: 底下有个选项，
+[Speaker 1]: 右下角有一个，
+[Speaker 13]: 然哦我再看一下，
+[Speaker 13]: 稍等右下角对吧？
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是那个让你分享的那个窗口，
+[Speaker 1]: 它就是在分享上面有一个小的分享，
+[Speaker 1]: 开启 audio 系统，
+[Speaker 0]:  audio 的好像没有看到，
+[Speaker 13]:  ok 我我我再试一下吧。
+[Speaker 13]: 好，
+[Speaker 13]: 现在可以看得见，
+[Speaker 13]: 对吧？
+[Speaker 13]: 但是听不见对不对？
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 还是听不见哦，
+[Speaker 13]:  ok OK，
+[Speaker 13]: 那我就先不给大家听了。
+[Speaker 13]: 呃，
+[Speaker 13]: 因为它其实大家其实里面的内容也主要就是说哎今天天气是什么？
+[Speaker 13]: 因为我化粉之后也会去查呃调查最近的就是说花粉的一个情报。
+[Speaker 13]: 然后呢，
+[Speaker 13]: 今天代办这里，
+[Speaker 13]: 我是呃连到了滴答清单这里。
+[Speaker 13]: 呃，
+[Speaker 13]: 因为滴答清单是我主要去管理起我的这个 to do 的的一个功能。
+[Speaker 13]: 然后哦它的一个 interface 也不错。
+[Speaker 13]: 他是直接拿到叠价清单的，
+[Speaker 13]:  API 可以添加，
+[Speaker 13]: 可以删除，
+[Speaker 13]: 可以更改。
+[Speaker 13]: 叠价清单里面的内容就是通过呃我和他的交流。
+[Speaker 13]: 然后呢，
+[Speaker 13]: 剩下就是说他可以从呃像日经新闻，
+[Speaker 13]: 它可以去呃实际上的用 chrome 去进入我的这个日经新闻里面的付费账号里面去少很很多篇的这种内容。
+[Speaker 13]: 然后帮我总结呃六到十句呃比较重要的一些行为。
+[Speaker 13]: 然后除此之外也会有一些像 worsly journal 啊然后之类的呃，
+[Speaker 13]: 然后 financial time。
+[Speaker 13]: 但是呢因为其实我是没有这个 worth y 交通和 financial time 的一个付费账号的这一块。
+[Speaker 13]: 它主要是呃通过在付费墙前面的内容，
+[Speaker 13]: 再加上他会用这个前面的内容进行一个交叉搜索，
+[Speaker 13]: 去与查一些呃其他媒体的报道，
+[Speaker 13]: 然后去走，
+[Speaker 13]: 从而给我一个就完整性的一个东西，
+[Speaker 13]: 是这样子。
+[Speaker 13]: 再就是巴伦周刊，
+[Speaker 13]: 对，
+[Speaker 13]: 然后呢，
+[Speaker 13]: 这个具体是怎么实现的？
+[Speaker 13]: 我可以给大家看一下，
+[Speaker 13]: 我用的是这个 open en cloud 这个 chrome jobs 功能。
+[Speaker 13]: 然后呢，
+[Speaker 13]: 呃其实有很多就是在呃走过的一些弯路啊，
+[Speaker 13]: 比如说像因为日经是英语，
+[Speaker 13]: 然后巴伦周刊什么是英语？
+[Speaker 13]: 呃，
+[Speaker 13]: 日日经日语，
+[Speaker 13]: 然后巴伦周刊是英语。
+[Speaker 13]: 然后呢呃我就是说可能有时候会出现日语，
+[Speaker 13]: 有的时候会出现英语，
+[Speaker 13]: 然后我这样子让你全部翻译成嗯文文啊之类的然。
+[Speaker 13]: 然后他有的时候也会只去读呃一个 title，
+[Speaker 13]: 然后就给我编一个整整篇的文章啊，
+[Speaker 13]: 然后这这个是非常不好的，
+[Speaker 13]: 所以我一定要让他把全文全都读之后再给我再要。
+[Speaker 13]: 对，
+[Speaker 13]: 然后呃整个的 flow 差不多是这样。
+[Speaker 13]: 然后 SOP 是先通过 mini max 去生成它的 TTS，
+[Speaker 13]: 然后再去发语音，
+[Speaker 13]: 然后最后给我去发文字稿。
+[Speaker 13]: 对，
+[Speaker 13]: 是这样子的。
+[Speaker 13]: 然后除此之外我也可以给大家看一下，
+[Speaker 13]: 呃，
+[Speaker 13]: 我的呃小龙虾是整体部署在呃共享屏幕上面的。
+[Speaker 0]: 稍等小屏幕。
+[Speaker 13]: 呃，
+[Speaker 13]: 对我是通过呃苹果这个 demo demo control l 功能。
+[Speaker 13]: 然后这里面小的这个窗口其实就是另了一台的 mini max。
+[Speaker 13]: 这样我就可以在呃同一台电脑，
+[Speaker 13]: 就我我自己用的这个电脑哦，
+[Speaker 13]: 去直接去控制小龙虾在的这个它的主机上面。
+[Speaker 13]: 然后大家可以看到，
+[Speaker 13]: 就是每天早上他都会自己打开，
+[Speaker 13]: 呃，
+[Speaker 13]: 你给然后我自己打开，
+[Speaker 13]: 翻到小 time，
+[Speaker 13]: 然后从中发出文章来去呃给我去进行总结。
+[Speaker 13]: 好的，
+[Speaker 13]: 嗯，
+[Speaker 13]: 我的分享到这里，
+[Speaker 13]: 谢谢。
+[Speaker 1]: 好，
+[Speaker 1]: 小西瓜说看你帖子，
+[Speaker 1]: 觉得你的小龙虾为了好多钱给他呃，
+[Speaker 13]: 也没有也没有。
+[Speaker 13]: 我我我我是开了那个 cloud code 的那个呃 max max 两一个月两百刀的，
+[Speaker 13]: 然后可以用的盔还是蛮多的对，
+[Speaker 13]: 所以说感觉差差不多就在这个两百刀之内进行呃就是说运作。
+[Speaker 13]: 然后我又设定了一个 tobackup 的一个 model，
+[Speaker 13]: 就是实在这个就比如说呃 open cloud code，
+[Speaker 13]: 它可能有五小时的这个 laate limit。
+[Speaker 13]: 如果这个用完之后，
+[Speaker 13]: 我可能还还剩一两个小时。
+[Speaker 13]: 就是说三个小时用完了，
+[Speaker 13]: 它会自动从把那个小龙虾的那个模型切换到那个 code 呃，
+[Speaker 13]: 呃呃，
+[Speaker 13]:  g 千角 GBT 五点四。
+[Speaker 13]: 对，
+[Speaker 13]: 这样的话就会。
+[Speaker 13]: 对对对，
+[Speaker 13]: 有一个这样，
+[Speaker 13]: 万一有点什么事情也可以，
+[Speaker 13]: 就实时回复给我。
+[Speaker 13]: 对，
+[Speaker 1]:  ok 谢谢。
+[Speaker 1]:  ok 感谢汤米。
+[Speaker 1]: 感谢汤米我们小组的下一位赵老师周老师，
+[Speaker 1]: 你在吗？
+[Speaker 1]: 准备好的话，
+[Speaker 1]: 也可以开始了。
+[Speaker 0]: 小肥龙虾，
+[Speaker 1]: 哎，
+[Speaker 1]: 是换我吗？
+[Speaker 1]: 不是换不是呃，
+[Speaker 2]: 我们下一小组的应该是硬纸。
+[Speaker 2]: 对哦，
+[Speaker 0]:  ok ok，
+[Speaker 0]: 那就硬直。
+[Speaker 0]: 不好意思，
+[Speaker 1]: 我不不知道。
+[Speaker 3]: 没事没事，
+[Speaker 0]: 你给我车车下。
+[Speaker 5]:  ok 大家可以看到我的视频吗？
+[Speaker 5]: 可以好呃，
+[Speaker 5]: 我这个我的思路刚才跟其他有一些会员有点像，
+[Speaker 5]: 呃，
+[Speaker 5]: 我我我正在学习这个 open call，
+[Speaker 5]: 所以呢我也我也在喂龙虾，
+[Speaker 5]: 然后我在想用怎么样最最省钱的方式最简洁，
+[Speaker 5]: 用我有的绝 ver 的爱和我现在就刚刚刚刚呃加入了这个 cloud，
+[Speaker 5]: 然后用他们的作为我的这个 model。
+[Speaker 5]: 然后界面呢是从呃是从这个 what tyup 一个 chat 里面，
+[Speaker 5]: 呃，
+[Speaker 5]: 然后我自己呢也写了一个小型小的一个呃 web up，
+[Speaker 5]: 可以也可以呃录音转化成文字。
+[Speaker 5]: 嗯，
+[Speaker 5]: 两两个方面都哪个比较容易。
+[Speaker 5]: 我就那时候什么时候我我喜欢用，
+[Speaker 5]: 我就我都试试。
+[Speaker 5]: 呃，
+[Speaker 5]: 然后呢，
+[Speaker 5]: 这个 what's up 里面呢，
+[Speaker 5]: 就根据这个 word model 里面，
+[Speaker 5]: 它会呃他把这个音频转成文字。
+[Speaker 5]: 然后呢存储到我的那个 google drive 里面。
+[Speaker 5]: 然后这个我的 AS stuo 个 app 呢，
+[Speaker 5]: 也是这样子同一个想法，
+[Speaker 5]: 但是用的是 AS stuo 里面的呃自己的一个 model，
+[Speaker 5]: 把它转化呃效果也是不错的。
+[Speaker 5]: 我最后都存到这个 google drive 里面，
+[Speaker 5]: 呃，
+[Speaker 5]:  google 专业里面，
+[Speaker 5]: 那都变成了一个个文档。
+[Speaker 5]: 然后在每天晚上呢呃我有一个呃 open call 里面就会把它呃把它呃呃文字呃归类给他总结。
+[Speaker 5]: 然后呢呃我现在正在试尝试着，
+[Speaker 5]: 让他能给我一些新的想法，
+[Speaker 5]: 有些新的建议。
+[Speaker 5]: 嗯，
+[Speaker 5]: 呃反正我先给大家演示一下吧。
+[Speaker 5]: 嗯，
+[Speaker 5]: 这个就是我在这个界面嗯，
+[Speaker 5]: 跟跟汤米那个很像，
+[Speaker 5]: 嗯，
+[Speaker 5]: 大概就是我我我录一下。
+[Speaker 5]: 然后呢，
+[Speaker 5]: 他就会回答，
+[Speaker 5]: 你好，
+[Speaker 5]: 请问我有没有任何需要做的事情吗？
+[Speaker 7]:  subject，
+[Speaker 7]:  you're to do list astrrogastrisk taxes，
+[Speaker 7]:  astrrogastrisk receipt eight，
+[Speaker 7]:  ten fifteen，
+[Speaker 7]:  ten thirty。
+[Speaker 5]: 它它其实它是转化成从从文字转化成啊声音，
+[Speaker 5]: 所以好像有些东西它不需需要说的这我还在调整，
+[Speaker 5]: 待待，
+[Speaker 5]: 会得成功。
+[Speaker 7]:  subject demo day 你好，
+[Speaker 5]: 请帮我记录一下，
+[Speaker 5]: 祝大家 demo day 成功。
+[Speaker 7]:  subject demo day party poper astroscastrisk demo day，
+[Speaker 7]:  google drive HTTPS coluland slight。
+[Speaker 5]: 对，
+[Speaker 5]: 这些都其实还有一些需要需要整理。
+[Speaker 5]: 但是呃这个呢是另外一个，
+[Speaker 5]: 就是我这个新 catch，
+[Speaker 5]: 就是 AIC 九六里面的。
+[Speaker 5]: 它可以呃也会转化成文字记录吧。
+[Speaker 5]: 然后呢，
+[Speaker 5]: 它会给你分类，
+[Speaker 5]: 然后可以存到这个 drive，
+[Speaker 5]: 这个呢就是自己掌控的比较好。
+[Speaker 5]: 就是说呃我我需我觉得好的话，
+[Speaker 5]: 我就可以存进去，
+[Speaker 5]: 要不然我就就 delay。
+[Speaker 5]: 最后呢每一天呢他就会他会收集很多这种各种各样的呃文字，
+[Speaker 5]: 我自己想的东西。
+[Speaker 5]: 呃，
+[Speaker 5]: 这个这个呃玩这个这个 party 的时候，
+[Speaker 5]: 就以前都没有这么多想法。
+[Speaker 5]: 现在每每一小时，
+[Speaker 5]: 我的那个我的 what's up 就会问我，
+[Speaker 5]: 你有没有什么想法，
+[Speaker 5]: 你有没有说想法，
+[Speaker 5]: 现在逼着我自己去会去多想想我觉得挺好的一个事情。
+[Speaker 5]: 然后晚上他做出来的这个这个呃我晚报呢就是也放在这个我的一个 drive 里面，
+[Speaker 5]: 我可以呃跟大家，
+[Speaker 5]: 我可以那个自己选择跟谁分享。
+[Speaker 5]: 嗯，
+[Speaker 5]: 大概就是每一个大概就是 welcome back to your stream，
+[Speaker 7]:  catch digest。
+[Speaker 7]:  i'm your host warm today。
+[Speaker 7]:  we've got an interesting mix of system feedback，
+[Speaker 7]:  a test checking and a family update。
+[Speaker 7]:  first，
+[Speaker 5]:  let's look at the system c 大概就是这样。
+[Speaker 5]: 谢谢谢谢大家，
+[Speaker 0]: 谢谢谢谢殷池的梦享，
+[Speaker 0]: 非常感谢。
+[Speaker 0]: 那但我 demo 得成功。
+[Speaker 0]: 好，
+[Speaker 0]: 如果没有什么问题的话，
+[Speaker 0]: 我们下一位赵老师。
+[Speaker 1]:  hello，
+[Speaker 1]: 大家好，
+[Speaker 1]: 我是 josh。
+[Speaker 3]: 可以听见啊，
+[Speaker 1]: 我也先我我直接录了一个 demo 的影片，
+[Speaker 1]: 所以我就直接放那个影片吧。
+[Speaker 1]: 呃，
+[Speaker 1]: 荧幕了玩笑哦，
+[Speaker 1]: 共享此荧幕好，
+[Speaker 1]: 先看听，
+[Speaker 1]: 不听得到声音，
+[Speaker 1]: 听得到你的声音吗？
+[Speaker 1]: 这个在哪里看一下啊，
+[Speaker 1]: 这个是要在哪里处理。
+[Speaker 2]: 就是你在分享屏幕的点过之后，
+[Speaker 2]: 对第一个窗口下面有第一个窗口同时分享标签页的音频看一下，
+[Speaker 1]: 等我一下不哎哦要要要要用那个吗？
+[Speaker 1]:  google ground 会比较好吗？
+[Speaker 1]: 我试一下好了，
+[Speaker 3]: 那我那我那我重新我稍等一下，
+[Speaker 0]: 大家有任何问题或者是嗯建议都可以发在我们的聊天室里。
+[Speaker 4]:  oh hello，
+[Speaker 1]: 看见了吗？
+[Speaker 1]: 自窗音频。
+[Speaker 1]: 好，
+[Speaker 1]: 大家大家看得到荧幕吗？
+[Speaker 0]: 可以看到这是黑，
+[Speaker 1]: 我看一下啊，
+[Speaker 1]: 不是黑屏吗？
+[Speaker 1]: 你你应该要分享整个哎我不是我分享这个东西的，
+[Speaker 1]: 很可惜了，
+[Speaker 1]: 不好意思不好意思哦，
+[Speaker 1]: 整个荧幕画面是吧？
+[Speaker 1]:  sorry sorry 没关系。
+[Speaker 1]: 好，
+[Speaker 1]: 这样应该可以了，
+[Speaker 1]: 我们开始吧。
+[Speaker 9]: 嗯 hello，
+[Speaker 9]: 我在家好家，
+[Speaker 1]: 这个声音好像断不掉。
+[Speaker 1]: 呃，
+[Speaker 1]: 目前声音有任何问题吗？
+[Speaker 0]: 不是你的声音本身录制的就是小机器人的声么？
+[Speaker 0]: 就是加速加录制的那种声音是吗？
+[Speaker 1]: 哎，
+[Speaker 1]: 应该没有啊，
+[Speaker 1]: 你们我因为我我这边听起来好像蛮正常的，
+[Speaker 1]: 我不太确定你们那边听起来嗯就是它压缩了，
+[Speaker 11]: 它压缩了，
+[Speaker 11]: 它压缩了，
+[Speaker 11]: 然后你的音量就变得很高哦。
+[Speaker 1]: 好，
+[Speaker 1]: 那不然我再试另外一个方式，
+[Speaker 1]: 等我一下，
+[Speaker 1]: 我直接拨，
+[Speaker 1]: 我把它上传到 youtube 的版本试试看啊，
+[Speaker 1]: 等一下啊，
+[Speaker 1]: 可以，
+[Speaker 0]: 你可以把 youtube 链接也发给我。
+[Speaker 1]: 哦，
+[Speaker 1]: 好好好没事，
+[Speaker 3]: 我帮你好，
+[Speaker 1]: 我看一下啊，
+[Speaker 1]: 我我先把它发上去，
+[Speaker 1]: 如果说乙防有任何问题。
+[Speaker 1]: 嗯，
+[Speaker 1]: 好，
+[Speaker 1]: 那我们哎不是这个，
+[Speaker 1]: 我们看看这样子 o 不 OK，
+[Speaker 9]: 然后现在可以参加这个录音开庭。
+[Speaker 1]: 那我们这个各主任，
+[Speaker 1]: 请问目前的声音是 OK 的吗？
+[Speaker 1]: 当然是按是音音讲不不一样。
+[Speaker 3]: 嗯，
+[Speaker 0]: 他还是有鸭子声音，
+[Speaker 11]: 他是声音声音关了，
+[Speaker 11]: 然后你进你一边介绍就可关下，
+[Speaker 11]: 然后有这个有有这个屏幕就可以啊。
+[Speaker 1]: 没关系，
+[Speaker 1]: 那我直接整抽，
+[Speaker 1]: 我直接自己自己 babble 吧。
+[Speaker 1]: 嗯，
+[Speaker 1]: 好，
+[Speaker 1]: 那我开一下，
+[Speaker 1]: 等我一下哟。
+[Speaker 1]: 那基本上我一边开，
+[Speaker 1]: 我一边讲一下，
+[Speaker 1]: 就是整个做的东西。
+[Speaker 1]: 其实我做的东西一开始主要是希望说能够做到，
+[Speaker 1]: 就是像是一般。
+[Speaker 1]: 因为像啊瑞他在上课的时候，
+[Speaker 1]: 他都会做那个就是按一个快捷键之后，
+[Speaker 1]: 然后就是直接语音输入，
+[Speaker 1]: 然后他就直接变成文字嘛。
+[Speaker 1]: 然后不过一般现在其实有蛮多这种类似的 APP，
+[Speaker 1]: 就是什么 with book pro 啊、
+[Speaker 1]:  typlas 啊、
+[Speaker 1]:  voice、
+[Speaker 1]:  ink。
+[Speaker 1]: 那那那时候就想说，
+[Speaker 1]: 哎，
+[Speaker 1]: 那不然我也自己做一个自己的。
+[Speaker 1]: 所以那个时候就是像我现在已经按了一个快捷键，
+[Speaker 1]: 然后他就会进入录音模式，
+[Speaker 1]: 然后再按一次快捷键走之后，
+[Speaker 1]: 他就会把它送到哦，
+[Speaker 1]: 就是呼叫 whisper，
+[Speaker 1]: 然后就贴回来。
+[Speaker 1]: 像其实现在这边大大家可以看到嘛，
+[Speaker 1]: 就是他已经复制贴上，
+[Speaker 1]: 这就是 STT 最最基本底层的样子。
+[Speaker 1]: 那后来我就在思考说这个东西对我也到底可以有什么样的用处。
+[Speaker 1]: 所以我就希望说，
+[Speaker 1]: 那不然我就是呃我想要让他来帮助我，
+[Speaker 1]: 帮助我更好的去记录我的所有的状态。
+[Speaker 1]: 因为我觉得在 AI 时代，
+[Speaker 1]: 其实记录是非常重要的。
+[Speaker 1]: 你把这些东西都记录下来，
+[Speaker 1]: 而且分类把它储存在各种不同的资料库，
+[Speaker 1]: 让 AI 可以很方便的去存取的时候，
+[Speaker 1]: 你其实不需要自己去看这些记录，
+[Speaker 1]: 对吧？
+[Speaker 1]: 因为你只要让 AI 有个 skill，
+[Speaker 1]: 他知道在什么样的情况下需要去看哪一个资料库，
+[Speaker 1]: 给出对应的回忆，
+[Speaker 1]: 那就好了。
+[Speaker 1]: 所以说对我们来讲，
+[Speaker 1]: 把东西记录好才是最重要的。
+[Speaker 1]: 我们开始有记录，
+[Speaker 1]: 我们一年后、
+[Speaker 1]: 两年后，
+[Speaker 1]: 我们不要讲那么久啊，
+[Speaker 1]: 一个月两个月后，
+[Speaker 1]: 你让 AI 可以去帮你梳理你的生活轨迹这样子。
+[Speaker 1]: 所以于是我又做了第二个快捷键。
+[Speaker 1]: 那这个第二个快捷键它就是会变成是串接到 n 八 n 这个快捷键触发的时候，
+[Speaker 1]: 他送的东西会送到另外一个呃流程去。
+[Speaker 1]: 就是他会帮我我会请 AI 先帮我针对这个讯息做分类。
+[Speaker 1]: 然后接下来他帮我读取分类是哎这个讯息它可能是对应到哪些种类，
+[Speaker 1]: 然后帮我存到对应的资料库。
+[Speaker 1]: 对，
+[Speaker 1]: 那接下来的话就在就是变成是说，
+[Speaker 1]: 那我既然已经有对应的资料库之后，
+[Speaker 1]: 所以我就可以变成是我有一个前端的页面，
+[Speaker 1]: 可以去看我的这些资料库啊。
+[Speaker 1]: 例如说我这些 to do，
+[Speaker 1]: 我可能就讲讲了一些我的想法之后，
+[Speaker 1]: 就帮我存成 to do 或者是灵感这样子。
+[Speaker 1]: 然后 to do 的话，
+[Speaker 1]: 我来帮他做了一个类似像的一个周版。
+[Speaker 1]: 我可以看到我每日的每周的主题啊，
+[Speaker 1]: 正在待安排的 calendto do 啊跟我每天要做的事情类类似。
+[Speaker 1]: 像这样，
+[Speaker 1]: 然后呃我也可以去记录我的时间，
+[Speaker 1]: 快我可以去去看一下我这一周我花的时间到底呃做了些什么。
+[Speaker 1]: 然后以及一些健身的资讯就是都一样。
+[Speaker 1]: 都是用口头显录之后，
+[Speaker 1]: 他就自动帮我判断，
+[Speaker 1]: 要要存到哪里，
+[Speaker 1]: 然后就可以直接在前端显示出来。
+[Speaker 1]: 例如说我可能做了重讯，
+[Speaker 1]: 他帮我把它整理好好，
+[Speaker 1]: 然后也可以看到一些可能这个数数据的一些料料的分类。
+[Speaker 1]: 类似像这个样子。
+[Speaker 1]: 然后嗯基本上其实暂时就是做到这样，
+[Speaker 1]: 就是我们已经可以很顺利的去记录。
+[Speaker 1]: 那当然我我用我用 iphone 也可以做记录。
+[Speaker 1]:  iphone 的话我是用捷径的方式一样送到一样的 n 八 n 的工作流里面去。
+[Speaker 1]: 那等于说记录的部分已经 OK 了。
+[Speaker 1]: 那接下来我会我还没有做的事情。
+[Speaker 1]: 其实就是像刚刚呃我的其他组员也有做，
+[Speaker 1]: 就是他可以把灵感转化成呃后续的一些呃，
+[Speaker 1]: 例如说有个顾问团啊，
+[Speaker 1]: 可以帮你去参考你的灵感啊，
+[Speaker 1]: 或者是我其实自己想做的，
+[Speaker 1]: 是因为我我的这些资料已经在了。
+[Speaker 1]: 那我是打算在例如说 cloucode 上面去做一个 skill。
+[Speaker 1]: 然后就是当我在跟他讨论的时候，
+[Speaker 1]: 他会自动帮我读我的资料库，
+[Speaker 1]: 以及我以前写过的所有的其他的文章，
+[Speaker 1]: 然后帮我做一个呃关于我的资料啊，
+[Speaker 1]: 关关于我的灵感里面，
+[Speaker 1]: 然后把它变这着我的文章，
+[Speaker 1]: 然后跟我跟我讨论之后写出来，
+[Speaker 1]: 然后让我可以发文或者之后再做自动化发文。
+[Speaker 1]: 类似像这样子的东西，
+[Speaker 1]: 我希望把这个已经存进去的东西，
+[Speaker 1]: 后续可以更往后推，
+[Speaker 1]: 这个是还没有做到，
+[Speaker 1]: 就是慢慢的会再去调整。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那大概是这样吧。
+[Speaker 1]: 对，
+[Speaker 1]: 然后当然也有可能有些日记啊，
+[Speaker 1]: 然后他会针对我的记录，
+[Speaker 1]: 做一些周回报。
+[Speaker 1]: 就是我会让他看到我这周所有的资料，
+[Speaker 1]: 然后让他给我做一个 email 的一个周回顾的一个算是电子报这样子。
+[Speaker 1]: 嗯，
+[Speaker 1]: 大概是这样。
+[Speaker 0]:  ok 谢谢谢谢赵老师经理说他还想做进来买好，
+[Speaker 0]: 那我们就呃小西瓜这一组继续。
+[Speaker 0]: 小西瓜。
+[Speaker 0]: 我看你们小组好像没有来，
+[Speaker 11]: 就我和 cherry。
+[Speaker 11]: 然后呃另外有一个他是就是吐了呕吐，
+[Speaker 11]: 然后就是身体不舒服。
+[Speaker 11]: 然后这两天都是没有办法，
+[Speaker 11]: 嗯，
+[Speaker 11]: 然后还有一个是在赶飞机，
+[Speaker 11]: 那么我们就开始吧，
+[Speaker 11]: 就我和 cherry。
+[Speaker 11]:  ok 那从我我开始分享了，
+[Speaker 11]: 还是 cherry，
+[Speaker 14]: 你要先分享你下来吧。
+[Speaker 14]: 小徐啊。
+[Speaker 11]:  ok 那我就睡一下我的 screen。
+[Speaker 11]: 嗯，
+[Speaker 11]:  ok 大家可以看见吗？
+[Speaker 11]: 嗯，
+[Speaker 11]: 首先可以跟大家分享一下我这个 bought 就是的 open en rowd 的话，
+[Speaker 11]: 我觉得我主要把把它当做我秘秘书使用。
+[Speaker 11]: 然后的话就是之前前话我还会就是他他他就是会我会跟他说，
+[Speaker 11]: 然后的话他他跟我说的时候我会回他，
+[Speaker 11]: 但现在可能不会回他。
+[Speaker 11]: 然后例如说我为什么要把它做成这样的一个事情呢？
+[Speaker 11]: 因为他真的能够就做到我需要调整计划的时候，
+[Speaker 11]: 他能够帮我调整计划。
+[Speaker 11]: 例如说我有一个呃呃锦标赛我要去跑。
+[Speaker 11]: 那么我就这个我是跟他说，
+[Speaker 11]: 一开始这个是一个十二月，
+[Speaker 11]: 我就说我今年年底的时候，
+[Speaker 11]: 我要达到能跑全码的一个状态。
+[Speaker 11]: 所以说我就跟他说，
+[Speaker 11]: 你跟我一个一整套训练计划安排下来了，
+[Speaker 11]: 就安排下来之后，
+[Speaker 11]: 中间可能会有一些变动嘛，
+[Speaker 11]: 就调整也很方便。
+[Speaker 11]: 比如说这里的话，
+[Speaker 11]: 我就让他帮我调整一下，
+[Speaker 11]: 然后他就 ok，
+[Speaker 11]: 我帮你更新好了。
+[Speaker 11]: 然后的话其实我还有一个展示的页面，
+[Speaker 11]: 不过现在就懒得去做了。
+[Speaker 11]: 然后的话他也可以做一个自动的更更新，
+[Speaker 11]: 嗯，
+[Speaker 11]: 就有点像 agentic 的那个网站嘛。
+[Speaker 11]: 然后后面的话他就就有时候要 debug，
+[Speaker 11]: 那现在已经稳定了，
+[Speaker 11]: 就是他会每天给我发，
+[Speaker 11]: 就是包括力量训练，
+[Speaker 11]: 还有说呃轻松跑，
+[Speaker 11]: 或者说间歇跑这些东西，
+[Speaker 11]: 他就每天给我发，
+[Speaker 11]: 还有什么休息日。
+[Speaker 11]: 然后这里就有啊，
+[Speaker 11]: 我今天要出门爬山了，
+[Speaker 11]: 我要让他帮我调整一下计划，
+[Speaker 11]: 就觉得他给他建议非常好，
+[Speaker 11]: 就是呃就区分为不同的爬山嘛。
+[Speaker 11]: 就是如果说你是强度轻到中等，
+[Speaker 11]: 那么你就视为今天的一个常优想训练。
+[Speaker 11]: 然后如果说破很多爬门，
+[Speaker 11]: 但就是一个高负荷的腿部训练，
+[Speaker 11]: 那么明天的一个呃计划就要变。
+[Speaker 11]: 所以说我就觉得我的那个 boss 做的这个秘书的话，
+[Speaker 11]: 他做的真的很好。
+[Speaker 11]: 那时候给大家分享一下这个我们超级个体户类型的这个一个用法。
+[Speaker 11]: 对，
+[Speaker 11]: 然后还有另外一个，
+[Speaker 11]: 我觉得我用的比较多的是 antigravity。
+[Speaker 11]: 然后为什么他为什么要用他呢？
+[Speaker 11]: 因为他在这里面的话，
+[Speaker 11]: 他在不同的 workspace 里面，
+[Speaker 11]: 他有不同的文文件夹。
+[Speaker 11]: 然后的话这些对话都很好管理。
+[Speaker 11]: 包括像它有一个叫做 playground 的一个概念，
+[Speaker 11]: 也可以去很轻松的开启对话。
+[Speaker 11]: 然后我先从我这个对话开始，
+[Speaker 11]: 就跟大家介绍的这一个是我在就导出我自己的一个 screen time 的一个使用。
+[Speaker 11]: 我发现它很方便。
+[Speaker 11]: 我现在在这里面，
+[Speaker 11]: 我但我想要用它去做一些东西的时候，
+[Speaker 11]: 我我很方便的就能够让他帮我导出来。
+[Speaker 11]: 然后的话就是不需要去搞一奇奇怪怪怪的工具，
+[Speaker 11]: 或者说让电脑中毒啊什么的。
+[Speaker 11]: 然后包括导出一一些我之前的我之前有在用华为，
+[Speaker 11]: 然后的话我包括想导出我的一些华为的笔记。
+[Speaker 11]: 现在的话用 AI 的话，
+[Speaker 11]: 我不需要去找一些奇奇怪怪的工具，
+[Speaker 11]: 然后就可以很方便的就导出。
+[Speaker 11]: 然后的话把我的所有的那个呃东西全部都放在一个地方。
+[Speaker 11]: 对，
+[Speaker 11]: 然后我看看下面还有一个可以分享的。
+[Speaker 11]: 包括像这种就我们呃社群内部有那个 learning pass 的这种东西嘛，
+[Speaker 11]: 它里面有这个 c 就是我们要同步的时候，
+[Speaker 11]: 呃，
+[Speaker 11]: 用这这个工作流，
+[Speaker 11]: 它 antigravity 它有个概念，
+[Speaker 11]: 就是 skill 和 work flow。
+[Speaker 11]: 就这里面的话你点个 slash，
+[Speaker 11]: 例如说点个 slash，
+[Speaker 11]: 然后点个 learning learning pass 的这个同步。
+[Speaker 11]: 然后的话他就一整套就帮我同步了。
+[Speaker 11]: 然后的话中间还可以设置，
+[Speaker 11]: 就是你需要停下来问我一些问题。
+[Speaker 11]: 然后的话 OK 就是一整套的一个都非常的可视化。
+[Speaker 11]: 然后的话我也能够去操控它，
+[Speaker 11]: 每一步进行到哪，
+[Speaker 11]: 以及说我后面我要去微调这个工作流也可以很好。
+[Speaker 11]: 所以说我觉得要用 antigravity 来做内勤这一套，
+[Speaker 11]: 包括像呃工作学习一整套我都是混在一起，
+[Speaker 11]: 都是用这个工具是作我的一个主力的，
+[Speaker 11]: 包括像可以和大家分享一下。
+[Speaker 11]: 呃，
+[Speaker 11]: 当我要做一个演示文稿的时候，
+[Speaker 11]: 我是就呃就直接跟他，
+[Speaker 11]: 我就嘴巴，
+[Speaker 11]: 然后就说哎哎我就我要怎么样怎么怎么样，
+[Speaker 11]: 然后他就让他帮我做一个呃 PPT 出来，
+[Speaker 11]: 然后这个 ppt 的效果也非常好，
+[Speaker 11]: 我可以跟大家展示一下。
+[Speaker 3]: 嗯，
+[Speaker 11]: 稍等啊可能嗯，
+[Speaker 3]: 好，
+[Speaker 3]: 嗯，
+[Speaker 11]: 哦，
+[Speaker 11]: 那算了吧，
+[Speaker 11]: 就是那这个之后有时间再跟大家展示。
+[Speaker 11]: 然后这一个的话跟大家展示一下，
+[Speaker 11]: 平时我是怎么做学习的，
+[Speaker 11]: 就是呃就不知道大家有没有看过那个帖子，
+[Speaker 11]: 一个这一外网有一个很很出名的那个怎么用的 book LN 去做学习。
+[Speaker 11]: 就是说一个学生嘛，
+[Speaker 11]: 他去问问他提了三个问题。
+[Speaker 11]: 就第一个是关于思维模型的。
+[Speaker 11]: 第二个是关于这个学科里面的不同专家之间的那些有分歧的，
+[Speaker 11]: 他共共识的后第第三个是呃就是十个能够区分真正理了解这个学科的人。
+[Speaker 11]: 还有说那些只是去记忆一些呃知识点的人。
+[Speaker 11]: 然后的话它里面就有一些上传到非常重要的材料，
+[Speaker 11]: 就包括像一些这些 electure 的一些组织稿。
+[Speaker 11]: 然后还有说呃不同的教科书。
+[Speaker 11]: 因为最好的学习方式就是对比不同的教科书嘛。
+[Speaker 11]: 然后还有就是一个是呃呃哦前沿的 paper，
+[Speaker 11]: 然后我是用到的 notebook LN 这个工具，
+[Speaker 11]: 我会搭配用 any gravity 去导入一些呃东西。
+[Speaker 11]: 然后 notebook LN 的话，
+[Speaker 11]: 我不知道我还剩下多少分钟看一下哦，
+[Speaker 11]: 剩下三十秒可以跟大家展示一下我的 notebook LN 的这个啊。
+[Speaker 11]: 我看一下可以快速展示一下这个 rich helmman 就是我怎么选讲座。
+[Speaker 11]: 我觉得这个其实可能会很有帮助。
+[Speaker 11]: 就是 AI 时代，
+[Speaker 11]: 这大家有这么多的呃咨询这么多的知识，
+[Speaker 11]: 大家怎么去就是挑你真正要去听的那个内容呢？
+[Speaker 11]: 因为我觉得真正自己去听的那个感悟，
+[Speaker 11]: 还是和你呃就好的，
+[Speaker 11]: 就直接去 AI 搜索 AI 总结的那个效果是差别很多的。
+[Speaker 11]: 所以说我会用这个把他的一个人，
+[Speaker 11]: 就这个人我想听他的讲讲，
+[Speaker 11]: 我把他所有的讲座都放在里面。
+[Speaker 11]: 包括像这个和之前那个学科学习是同样的一个逻辑。
+[Speaker 11]: 然后的话就问他问题，
+[Speaker 11]: 就他每做个反思是怎么做的，
+[Speaker 11]: 他就告诉我他具体的一个操作方式。
+[Speaker 11]: 然后还有说我想要了解他的一个 mental model，
+[Speaker 11]: 这个就是跟那个呃那个提问的那个帖子学的，
+[Speaker 11]: 然后的话就学会一个提问的一个方式，
+[Speaker 11]: 然后一步一步问下来。
+[Speaker 11]: 最后的话，
+[Speaker 11]: 我就问他啊，
+[Speaker 11]: 就是最最推荐我去听哪个讲座，
+[Speaker 11]: 那么我就可以去找到这个讲座去听。
+[Speaker 11]: 然后的话呃就就就学习起来，
+[Speaker 11]: 学习起来的那个效果就很方方便了。
+[Speaker 11]: 你就不需要去根据一些比较粗糙的一些呃评价，
+[Speaker 11]: 去选你自己想要真正学习的内容。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃正好张将军有一个问题，
+[Speaker 0]: 他问你是怎么配置你的 box 来做马拉松规划的这我想知道怎么配置啊，
+[Speaker 11]: 那我可以给大家看一下，
+[Speaker 11]: 我最开始是怎么怎么做的。
+[Speaker 11]: 嗯，
+[Speaker 11]: 最开始我看到最开始我都忘记了，
+[Speaker 11]: 你能做我的跑步教练吗？
+[Speaker 11]: 然后我记得我们之前学过这个 skill，
+[Speaker 11]: 就大家看我之前有一个 open crowd 的教学视频，
+[Speaker 11]: 里面有那个 ocean skill。
+[Speaker 11]: 我有给大家展示，
+[Speaker 11]: 就是里面有个 skill，
+[Speaker 11]:  ls 嗯是做这个呃就跑教练练。
+[Speaker 11]: 然后的话其实就是一个 coach skill 嘛，
+[Speaker 11]: 你也可以让他自己去写。
+[Speaker 11]: 然后的话开始之后，
+[Speaker 11]: 呃，
+[Speaker 11]: 然后这里我是从那个 discort 搬到这边，
+[Speaker 11]: 所以说可能会不太直观。
+[Speaker 11]: 然后我就有我就跟把我 stava a 连上去嘛，
+[Speaker 11]: 就是 java 就是一个运动的一个软件，
+[Speaker 11]: 就是我会把我的一个运动数据同步到上面，
+[Speaker 11]: 然后的话就打开他的这个 API。
+[Speaker 11]: 然后的话他他能够把我的 PI，
+[Speaker 11]: 就是他能够调用我的这个 API 数据去看我怎么跑的嘛。
+[Speaker 11]: 然后对，
+[Speaker 11]: 然后的话就跟他说没有做过一定训练，
+[Speaker 11]: 然后没有想法没有在在操作。
+[Speaker 11]: 就是他会问就是这个扣取的话，
+[Speaker 11]: 他会问你一些问题，
+[Speaker 11]: 去确认你的一个大概情况嘛。
+[Speaker 11]: 然后之后的话给他，
+[Speaker 11]: 然后就就就这样子去配置。
+[Speaker 11]: 然后的话我觉得慢慢微调下来，
+[Speaker 11]: 就大概知道呃自己需要什么样的一个 boat，
+[Speaker 11]: 怎么去和它微调。
+[Speaker 0]: 对嗯 ok 广马十二月的问题。
+[Speaker 0]:  ok 不好意思，
+[Speaker 0]:  OK 啊。
+[Speaker 0]: 嗯那我们下一位查理，
+[Speaker 0]: 他请问现在这个界面是哪一个？
+[Speaker 11]: 刚才他那界面是 slack，
+[Speaker 11]: 这对对，
+[Speaker 11]: 这个这个页面是 slack。
+[Speaker 11]: 然后的话刚才问到 notebook LN 能不能导入那个呃就是 any gravty 能不能和 notebook LN，
+[Speaker 11]: 他是可以的。
+[Speaker 11]: 他有一个有一个叫做呃 notebook LN，
+[Speaker 0]: 有回，
+[Speaker 0]: 他有回答，
+[Speaker 11]: 他告诉他那那没问题。
+[Speaker 11]:  ok 好 ok 那我的分享就到这儿，
+[Speaker 0]: 谢谢谢谢小西瓜。
+[Speaker 1]: 嗯，
+[Speaker 14]: 好嘞，
+[Speaker 14]: 谢谢小西瓜。
+[Speaker 14]: 他之前在我们组内分享的时候，
+[Speaker 14]: 我就觉得他做这个东西特别的牛逼。
+[Speaker 14]: 就虽然说他这个还没有说形成一个那种就是拿那个产品外壳包装起来。
+[Speaker 14]: 但是我觉得他里面那个原理非常的就是深奥，
+[Speaker 14]: 我找我很多东西也不知道他是怎么搞的。
+[Speaker 14]: 所以当时就问了他有很多问题 OK 啊，
+[Speaker 14]: 我来分享下我的屏幕啊，
+[Speaker 14]:  ok 大家能看到吗？
+[Speaker 0]: 可以 OK。
+[Speaker 14]: 呃，
+[Speaker 14]: 我做的这个产品呢，
+[Speaker 14]: 它叫 mini valuator valuator，
+[Speaker 14]: 它是在这里是什么意思呢？
+[Speaker 14]: 它指的是股票上的估值。
+[Speaker 14]: 呃，
+[Speaker 14]: 如果比较熟悉我的朋友，
+[Speaker 14]: 大家都知道我其实对美股的这个价值投资是特别感兴趣的。
+[Speaker 14]: 所以说我其实在会用了靠扣之后，
+[Speaker 14]: 我就一直在想办法呃，
+[Speaker 14]: 用这个 AI 来去解决我投资里面的我觉得一些比较难的一些问题。
+[Speaker 14]: 这个然后我最近呢我就刚好我们有这个黑客松这个项目，
+[Speaker 14]: 我就发现说每股投资里面其实非常重要的一环，
+[Speaker 14]: 它就是估值。
+[Speaker 14]: 因为我们要决定买一家公司的股票，
+[Speaker 14]: 我们是要呃判断一下这个股票，
+[Speaker 14]: 它现在的价值和它的价格相比是买贵了，
+[Speaker 14]: 还是现在买是会很便宜的买到。
+[Speaker 14]: 所以说我觉得这一环呃它很重要。
+[Speaker 14]: 但是呢对于我们普通的散户投资者来讲，
+[Speaker 14]: 它难度很大。
+[Speaker 14]: 首先它的理论就比较比较复杂。
+[Speaker 14]: 其次来讲，
+[Speaker 14]: 这个活儿一般来讲它是那些投资银行的分析师他们去做的。
+[Speaker 14]: 呃，
+[Speaker 14]: 所以对普通人来讲，
+[Speaker 14]: 门槛会比较高一些。
+[Speaker 14]: 一般都是说他们会开好几个那种 excel 表格，
+[Speaker 14]: 然后去去搞折腾，
+[Speaker 14]: 一下午可能也不一定能折腾出来。
+[Speaker 14]: 呃，
+[Speaker 14]: 所以呢我的一个想法就是说我想用我这几年的一个投资方面积累的一个认知。
+[Speaker 14]: 我用 AI 把它产品化解决的就是估值这方面一个问题。
+[Speaker 14]: 呃，
+[Speaker 14]: 然后这款迷 i 八六 v 它和一般的这个就是说市市面上现有的这些估值工具，
+[Speaker 14]: 它有什么区别呢？
+[Speaker 14]: 首先我这一款呃，
+[Speaker 14]: 像我刚刚说的，
+[Speaker 14]: 我的第一个目标，
+[Speaker 14]: 就是说我这款工具主要是呃一部分是面向小白用的。
+[Speaker 14]: 所以说你看它每一个这种重要的参数，
+[Speaker 14]: 它其实都会有一个 two tips，
+[Speaker 14]: 它都会给给出来解释。
+[Speaker 14]: 像是呃 EPS 呀，
+[Speaker 14]: 然后包括 PE 的这样一个倍数啊这些的。
+[Speaker 14]: 呃，
+[Speaker 14]: 然后呢呃这样的小白的话，
+[Speaker 14]: 它其实呃我我自己觉得是大家读了之后是会相对对这个来东西，
+[Speaker 14]: 对这些概念有一个比较清楚的了解。
+[Speaker 14]: 然后第二块就是说呃在每个新手第一次进来的时候，
+[Speaker 14]: 他会出来一个这样一个一个 two，
+[Speaker 14]: 就是这样一个一个 gap。
+[Speaker 14]: 然后会告诉啊哦应该是对会告诉你，
+[Speaker 14]: 就是说每一步对你来说有一个引导。
+[Speaker 14]: 好，
+[Speaker 14]: 然后现在就到了这个正式的这个这个产品的环节，
+[Speaker 14]: 我来给大家演示一下吧。
+[Speaker 14]: 比如说呃就用最经典的苹果公司，
+[Speaker 14]: 然后我们首先就在这个搜索框搜索一下这个苹果。
+[Speaker 14]: 然后呢从这一堆这个呃股票列表里边，
+[Speaker 14]: 我们找到这个苹果。
+[Speaker 14]: 好，
+[Speaker 14]: 然后呢这个 valuator 它就会自动的去铺它去拉这个数据，
+[Speaker 14]: 只要这些数据都是就是 live 的。
+[Speaker 14]: 也就是说它是最新的这样一个数据，
+[Speaker 14]: 唯一需要啊，
+[Speaker 14]: 大家手动去调整的，
+[Speaker 14]: 就是这样一个 annew growth rate。
+[Speaker 14]: 因为这个增长率它是每个人呃是你预测它未来五年它的一个年化增长率，
+[Speaker 14]: 所以每个人的判断是不一样的。
+[Speaker 14]: 呃，
+[Speaker 14]: 当然如果说你不确定这个东这块该怎么填的话，
+[Speaker 14]: 它底下还有分析师的这样一个预测。
+[Speaker 14]: 所以这个它其实这就是我的我的一个设计这方面的一个一个巧思吧。
+[Speaker 14]: 就是说如果大家不会填，
+[Speaker 14]: 你可以看分析师是怎样子写的。
+[Speaker 14]: 呃，
+[Speaker 14]: 我我不知道我我我觉得这个东西应该在那些专业的那些估值工具软件里面，
+[Speaker 14]: 应该是没有的对。
+[Speaker 14]: 所以比如说我们直接用分析师的这样一个预测，
+[Speaker 14]: 它的整个股票的呃这个价值，
+[Speaker 14]: 它就已经算出来了。
+[Speaker 14]: 所以你看如果我们用这个假设的话，
+[Speaker 14]: 它算出来它是啊大概是二百八十二美金一股。
+[Speaker 14]: 但是它现在的这个市场价值，
+[Speaker 14]: 它是二百五十美金一股。
+[Speaker 14]: 所以说如果说我们现在买的话，
+[Speaker 14]: 其实是可以稍微的比较便宜的去买到这个价格啊，
+[Speaker 14]: 买买到这个股票。
+[Speaker 14]: 对，
+[Speaker 14]: 然后还有一个特点，
+[Speaker 14]: 就是说在我们去调这些参数的时候，
+[Speaker 14]: 呃，
+[Speaker 14]: 它的这些旁边这些数据它是会实时变化的。
+[Speaker 14]: 哦，
+[Speaker 14]: 我先跟大家介绍一下这个 sensitivity analysis 吧。
+[Speaker 14]: 这个就是说呃当然你看啊就是说它这个假设当我们把这个假设它在变化的时候，
+[Speaker 14]: 它其实它估出来的这个结果它是不一样的。
+[Speaker 14]: 比如说呃我来给大家调整一下这个 annual growth rate。
+[Speaker 14]: 我在滑动这个滑块的时候，
+[Speaker 14]: 大家可以发现它底下这个数字它是在变的。
+[Speaker 14]: 所以这个它的这个呃 idea 它这个意义是什么呢？
+[Speaker 14]: 就是说因为我们这个估值它不一定是一个 exact，
+[Speaker 14]: 就是一个精确的一个数字，
+[Speaker 14]: 它一定是有些误差在的。
+[Speaker 14]: 所以说我们可以通过调整这些参数，
+[Speaker 14]: 然后来去让整个的就是说让整个的这个估值它达到一个范围，
+[Speaker 14]: 而不只是局限于一个精确的数字。
+[Speaker 14]: 所以这样就让我们的这个估值的整个结果还会更加的精确这样子。
+[Speaker 14]: 然后呃除此之外还大家还可以把这个估值的结果就是下载成一个图片。
+[Speaker 14]: 但是这个图片啊，
+[Speaker 14]: 因为我知道这个切换 tap 展示不太方便。
+[Speaker 14]: 我等一下给大家展示它那个大概会长长什么样子。
+[Speaker 14]: 然后其次就是还有一个历史记录的这样一个功能。
+[Speaker 14]: 因为我是想把它做成一个比较稍微全面的一个产品的。
+[Speaker 14]: 我觉得历史记录这个这个是呃必不可少的。
+[Speaker 14]: 呃，
+[Speaker 14]: 就是比如说我们点历史记录里面一只股票，
+[Speaker 14]: 它就会完整的呈现出你当时最后一次输入的状态。
+[Speaker 14]: 哪怕这些假设是你自己做的，
+[Speaker 14]: 就它不是不是 live，
+[Speaker 14]: 它也能呈现的出来。
+[Speaker 14]: 对，
+[Speaker 14]: 然后这个就大概是核心的这样一个产品。
+[Speaker 14]: 对，
+[Speaker 14]: 然后呃给大家看一下这个图片吧。
+[Speaker 14]: 它这个图片大概下载下来，
+[Speaker 14]: 就是呃大概就是就就是这样一个样子，
+[Speaker 14]: 它里面就会有写你的你的对什么股票工作值，
+[Speaker 14]: 然后呢，
+[Speaker 14]: 你的一个内在价值是多少？
+[Speaker 14]: 呃，
+[Speaker 14]: 然后呢你的一个这些参数啊，
+[Speaker 14]: 它什么的都会有，
+[Speaker 14]: 包括我们刚刚看的那个啊 senativanalysis。
+[Speaker 14]: 对呃然后就是说对呃整个的这个落地页，
+[Speaker 14]: 我也是稍微的去设计了一下。
+[Speaker 14]: 因为你们看这个 hero 区域，
+[Speaker 14]: 它这个它整个的这个页面它是会变动的。
+[Speaker 14]: 因为这个是我自己问了一下 AI 啊，
+[Speaker 14]: 我就是想问一下，
+[Speaker 14]: 他说这个东西怎样子能够更加的吸引人。
+[Speaker 14]: 然后 AI 他就给我用那个他用那个 skills。
+[Speaker 14]: 呃，
+[Speaker 14]: 大家应该听说有个很火的一个 skills，
+[Speaker 14]: 叫那个叫 front front n design，
+[Speaker 14]: 就是一个前端设计的一个 skills。
+[Speaker 14]: 他就给我分析了一下，
+[Speaker 14]: 他说你这个 hero 有一点有点 sorry。
+[Speaker 14]: 呃，
+[Speaker 14]: 这样子就是导致大家就是很多人他进来之后，
+[Speaker 14]: 他会马上点出去，
+[Speaker 14]: 因为觉得这个很无聊，
+[Speaker 14]: 帮帮 ry 会比较高。
+[Speaker 14]: 所以说他就建议我把它设计成一个这样一个动态的，
+[Speaker 14]: 我觉得还挺有意思的。
+[Speaker 14]: 其实这个原理我也不是很懂，
+[Speaker 14]: 大概就是一个好像叫 CSS 的一个一个渲染吧。
+[Speaker 14]: 大概它其实中间它是放一张截屏上上来的对，
+[Speaker 14]: 就就是个个的一个落地页这样一个一个设计，
+[Speaker 14]: 包括底下这两张也是这样子，
+[Speaker 14]: 只不过他们不不动态态的。
+[Speaker 14]: 然后最后的话，
+[Speaker 14]: 我其实想说一下，
+[Speaker 14]: 我这个产品它和呃市面上现有的产品有什么不同？
+[Speaker 14]: 首先第一个最明显的就是说呃它的一个价格，
+[Speaker 14]: 你像一些比较专业的一些那种股票的一种那种全分期的工具。
+[Speaker 14]: 他们一般都很少有面向就是投资者个人投资者去订阅他们很多都是一个比较大的一种机构的。
+[Speaker 14]: 它可能呃收收收年费，
+[Speaker 14]: 就收上上千美元啊，
+[Speaker 14]: 就很贵这样子，
+[Speaker 14]: 这是第一个点。
+[Speaker 14]: 然后我这一款它它也有收费，
+[Speaker 14]: 但是它非常非非常的便宜。
+[Speaker 14]: 呃，
+[Speaker 14]: 他我就是只是专注就是估值这一项这个功能，
+[Speaker 14]: 然后这是第一点。
+[Speaker 14]: 然后第二点其实就是说呃一般来讲呃，
+[Speaker 14]: 一般来讲像那些呃比较专业的一些那些金融工具。
+[Speaker 14]: 因为他们最重要，
+[Speaker 14]: 他们最在意的是专业性。
+[Speaker 14]: 他们要保证他们的用户是呃用这个东西。
+[Speaker 14]: 它是有一种就是说就是哪怕它那个东西它不好用，
+[Speaker 14]: 因为我觉得很多 saars 是这样子，
+[Speaker 14]: 他很他不很很不好用，
+[Speaker 14]: 但他要保证这个数据的精准啊，
+[Speaker 14]: 就这些方面的指标。
+[Speaker 14]: 但是呃我这个产品它就是说呃我我觉得整体设计下来它还是比较亲民的。
+[Speaker 14]: 就它没有说那么的小白，
+[Speaker 14]: 可能点进来一看就哇一头雾水，
+[Speaker 14]: 这东西还怎么做？
+[Speaker 14]: 我是刻意的，
+[Speaker 14]: 加了很多托，
+[Speaker 14]: 加了很多引导进去的。
+[Speaker 14]: 呃，
+[Speaker 14]: 所以我感觉小白上手会相对容易一些。
+[Speaker 14]: 然后呃其次就是说我觉得呃包括我这次的整个的这个这个这个字体，
+[Speaker 14]: 大家发现我整个这个产品的这个风格，
+[Speaker 14]: 其实就是它这个字体其实就有点那种代码程序员那那那种字体呃，
+[Speaker 14]: 对他这个字体名字叫啥我忘了。
+[Speaker 14]: 但是我刻意没有把它设成那个就是那种他金融很多时候他常用的那种给给人看起来非常严肃的那种字体。
+[Speaker 14]: 所以总结下来我这个产品的一个核心的一个 idea，
+[Speaker 14]: 就是说让每一个人初学股票的这个股票初学者都能够很好的去上手整个的这样一个估值。
+[Speaker 14]: 所以说也欢迎大家去试用我这个产品。
+[Speaker 14]: 我前两天在我们群里面呃发了一个帖子，
+[Speaker 14]: 其实是有预先就是就是说给大家呃让大家了解一下这个这个产品啊。
+[Speaker 14]: 然后大家也可以点进去这个链接去去试用，
+[Speaker 14]: 然后给我提提建议啊什么的都可以啊。
+[Speaker 14]: 如果你们的建议，
+[Speaker 14]: 我觉得就特别有 valuable 的话，
+[Speaker 14]: 我会给你们免费送。
+[Speaker 14]: 对，
+[Speaker 14]: 是这样子，
+[Speaker 14]: 谢谢大家。
+[Speaker 14]: 嗯，
+[Speaker 0]: 谢谢谢谢查理。
+[Speaker 0]: 你可以把你网页的链接放进我们的聊天框里面。
+[Speaker 0]: 呃，
+[Speaker 0]: 事后好的可以总结进我们的那个直播总结里。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃这里边有一些问题，
+[Speaker 0]: 你等一下可以私自回回答他们，
+[Speaker 0]: 因为我们呃可以开始进行下一位了，
+[Speaker 0]: 谢谢谢谢您的分享。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 那小西瓜的第一组是不是？
+[Speaker 11]: 嗯，
+[Speaker 11]: 我我还可以我还可以帮 aaron 分享一下。
+[Speaker 11]: 就是因为我们录屏有录屏嘛，
+[Speaker 11]: 所以说我可以帮他 share 一，
+[Speaker 11]: 我觉得他做的的东也蛮有意思的。
+[Speaker 11]: 呃，
+[Speaker 11]: 快速跟大家讲一下，
+[Speaker 11]: 然后给下一组留更多的时间。
+[Speaker 11]: 嗯，
+[Speaker 11]: 就是 aroon 他做的这一个，
+[Speaker 11]: 我觉得更就是在我们超级个体户内勤里面是最最符合这个主题的。
+[Speaker 11]: 哦，
+[Speaker 11]: 然后的话他做的就是因为他有那个 apple watch 的数据，
+[Speaker 11]: 然后他他把那些全部都就是用他是用那个苹果 app 的一个方式去导入到呃就是他的 open crown 能够去调用的一个方式。
+[Speaker 11]: 然后的话他包括像他的一个睡眠，
+[Speaker 11]: 以及说他的一个经历分析，
+[Speaker 11]: 包括像他的活动饮食什么的，
+[Speaker 11]: 他因为他会拍照嘛，
+[Speaker 11]: 然后的话都是存在在一个地方。
+[Speaker 11]: 然后的话他每天 open crowd 的话，
+[Speaker 11]: 它就会作为一个每日的一个回复，
+[Speaker 11]: 它就是把 open crowd 作为什么样的一个端口。
+[Speaker 11]: 嗯，
+[Speaker 11]: 对，
+[Speaker 11]: 和前面的可能有点像，
+[Speaker 11]: 那他们有自己做了一个 app 出来。
+[Speaker 11]: 对，
+[Speaker 11]: 然后还有一个就是这一个是他做的一个晨报，
+[Speaker 11]: 就是他把他的 open crown 接的他的 oppoedium 可能这边有点吵，
+[Speaker 11]: 然后对他的他接了他的那个 opsedium。
+[Speaker 11]: 然后的话他的 open crown 有他 opsediding 的一个权限。
+[Speaker 11]: 然后他是买了 opsedium 的那个会员的，
+[Speaker 11]: 所以说他有那个 opposidium 的那个云端同步。
+[Speaker 11]: 所以说他每天早上的话，
+[Speaker 11]: 他会用 open crown 去帮他看。
+[Speaker 11]: 呃，
+[Speaker 11]: 各个社交媒体就是他关注的那个信息浪潮的一个行业前沿。
+[Speaker 11]: 然后的话直直接生成就是一个呃在 opp c 点，
+[Speaker 11]: 不管是在手机还是在电脑，
+[Speaker 11]: 都可以看的这么样的一个文档。
+[Speaker 11]: 然我觉得这个他做的就很好。
+[Speaker 11]: 对，
+[Speaker 11]: 然后对，
+[Speaker 11]: 大概就是这个样子，
+[Speaker 11]: 还是分享一下这个吧。
+[Speaker 11]: 对，
+[Speaker 3]: 可以哦，
+[Speaker 0]: 谢谢小西瓜，
+[Speaker 0]: 谢谢。
+[Speaker 0]: 那我们开始进行。
+[Speaker 0]: 第三组，
+[Speaker 0]: 就是我作为领队的小组，
+[Speaker 0]: 我们小组一共有五位成员。
+[Speaker 0]: 那 jessica 和阿斯 asa 都在线上了。
+[Speaker 0]: 呃，
+[Speaker 0]:  jessica，
+[Speaker 0]: 你先分享你的项目吧，
+[Speaker 0]: 有有两个成员是等会儿我会放他们的呃录屏，
+[Speaker 0]: 因为他们没有办法来现场了，
+[Speaker 12]: 你放他们的录屏吧，
+[Speaker 12]: 我觉得我的很糟糕，
+[Speaker 12]: 你你你给你你和思考先分享，
+[Speaker 0]: 不然那我就先放录屏吧，
+[Speaker 0]: 先那等一下啊，
+[Speaker 0]: 稍等一下，
+[Speaker 15]: 哎，
+[Speaker 15]: 哎，
+[Speaker 15]: 用来发电。
+[Speaker 15]: 然后发完了之后呢，
+[Speaker 15]: 它会有一个大的那个展示。
+[Speaker 0]: 嗯，
+[Speaker 11]: 你那边播放视频之后，
+[Speaker 11]: 可能会变得很卡，
+[Speaker 11]: 就是会有红点。
+[Speaker 0]:  ok 可以看到这个吗？
+[Speaker 0]: 我现在分享完了，
+[Speaker 1]: 可以可以 OK，
+[Speaker 0]: 那我开始了，
+[Speaker 0]: 这是 gary 的分享。
+[Speaker 0]: 我们的主题是社交媒体自动分发。
+[Speaker 16]: 大家好，
+[Speaker 16]: 我是做做内流通的，
+[Speaker 16]: 有自动化的这一部分。
+[Speaker 11]: 然后到了有呢回有回回有回应，
+[Speaker 16]: 应去我我完完全全全去开我的工具展，
+[Speaker 16]: 选择是用的 open en ck，
+[Speaker 16]: 我马上给大家展示一下，
+[Speaker 16]: 我都做了哪些我的一些感想是什么么？
+[Speaker 16]: 是不个。
+[Speaker 16]: 当时我想说，
+[Speaker 16]: 我要拍一个视频的话，
+[Speaker 16]: 可能会从表本选择到拍摄，
+[Speaker 16]: 到界面，
+[Speaker 16]: 到剪辑，
+[Speaker 16]: 再到上字幕，
+[Speaker 16]: 再封封做做多平台发。
+[Speaker 16]: 我就想去尽量去优化嘛，
+[Speaker 16]: 一步步我马上给大家展示一下，
+[Speaker 16]: 我都做了哪些 sill 去去抱这些部分。
+[Speaker 16]: 对啊，
+[Speaker 16]: 第一个 skills 有有时候会拿着手机。
+[Speaker 16]: 比如说我些想法的时候，
+[Speaker 16]: 我会直接记录下来，
+[Speaker 16]: 用那个手拍 iphone 自带源备忘录。
+[Speaker 16]: 所以说我就想做一 skills，
+[Speaker 16]: 能够把我这些杂乱的想法呢去把它转成是一个我大概还可以的第一版本的口播稿稿，
+[Speaker 16]: 并且呢还能生成各种平台的标题。
+[Speaker 16]: 因为我要发不同同步的平台，
+[Speaker 16]: 它的标题可能不太一样，
+[Speaker 16]: 再加上一些标签。
+[Speaker 16]: 所以说这个工作流大概是我给他一个语音，
+[Speaker 16]: 它能自动用 elevl lix 去转成文字，
+[Speaker 16]: 再进行利用 gerry 的 refash 的模型去去给它进行口语化，
+[Speaker 16]: 或者生成一些口播稿正文。
+[Speaker 16]: 并且呢可能还有一个前面的户补是前面请要抓助观众不同的论坛的标题、
+[Speaker 16]: 麦的标题和这段标签。
+[Speaker 16]: 是的好的好的，
+[Speaker 16]: 当比如说已经有了口播稿，
+[Speaker 16]: 那我去录录，
+[Speaker 16]: 因为录这一部分，
+[Speaker 16]: 我觉得对我来说不是一个特别难的。
+[Speaker 16]: 录完之后呢，
+[Speaker 16]: 就要到剪辑视频了。
+[Speaker 16]: 我一开始的初心其实是希望也能够帮我们去剪辑自动化的。
+[Speaker 16]: 因为我一开始呢是剪映，
+[Speaker 16]: 如果大家有用过的话，
+[Speaker 16]: 剪映里剪口播短视频其实还是不错的。
+[Speaker 16]: 还有那种智能去删除你的不同的啊你的口误啊，
+[Speaker 16]: 包括延迟等等。
+[Speaker 16]: 所以呢，
+[Speaker 16]: 那但是我当时想说，
+[Speaker 16]: 我能不能试置自动化一下，
+[Speaker 16]: 我当时也在社群里发过帖子，
+[Speaker 16]: 我在网上大概找了这么 excuse，
+[Speaker 16]: 这个可能有点小，
+[Speaker 16]: 它基本上就有三个功两个功能，
+[Speaker 16]: 一个是它自主动添加字幕。
+[Speaker 16]: 第二个是它进行剪口，
+[Speaker 16]: 我其实跟剪映是一样的。
+[Speaker 16]: 但是他这个字幕是更新的，
+[Speaker 16]: 失误率很低。
+[Speaker 16]: 如果大家用过剪映的话，
+[Speaker 16]: 他这个失误率其实是很高的，
+[Speaker 16]: 而且他没有学习能力。
+[Speaker 16]: 第三个呢，
+[Speaker 16]: 我当时在图之间，
+[Speaker 16]: 我去做了一个别的东西。
+[Speaker 16]: 我当时可能想做一些短视频功能，
+[Speaker 16]: 是 shorts，
+[Speaker 16]: 可能是完完全全是用 AI 自动化的。
+[Speaker 16]: 我当时看了一篇文章，
+[Speaker 16]: 就有点走火入魔了，
+[Speaker 16]: 说这个我不需要真人出镜，
+[Speaker 16]: 完完全全从选题到录制到上字幕，
+[Speaker 16]: 崩完了是用 AI 做的。
+[Speaker 16]: 当时我就找了一篇文章，
+[Speaker 16]: 我基本是用它复刻，
+[Speaker 16]: 在我 open call。
+[Speaker 16]: 基本上也就是说啊给一个你的选题出来，
+[Speaker 16]: 用克隆你自己的语音，
+[Speaker 16]: 用 mini i max。
+[Speaker 16]: 你呢你把它以后，
+[Speaker 16]: 你就都拥有克隆我们自己的语言。
+[Speaker 16]: 并且呢你做 remotion 渲染可以做一些这样的风格，
+[Speaker 16]: 相当于是用 AI 帮你做视频，
+[Speaker 16]: 最后还可以帮你做字幕。
+[Speaker 16]: 还有一部分呢最后一个 skills，
+[Speaker 16]: 我在用的也就是这个封面生成。
+[Speaker 16]: 因为我要上传到不同的平台的话，
+[Speaker 16]: 它有不同的大小。
+[Speaker 16]: 那我也希望这部分分完了，
+[Speaker 0]: 我卡了，
+[Speaker 10]: 连那个吧啊，
+[Speaker 0]: 天哪，
+[Speaker 11]: 是我卡住了吗？
+[Speaker 12]: 还是不是在你那边卡住了，
+[Speaker 3]: 我卡住了，
+[Speaker 0]: 过年了。
+[Speaker 0]: 哎呀，
+[Speaker 0]: 我这边电脑卡死了，
+[Speaker 0]: 我他还没办法继续了啊，
+[Speaker 11]: 要不就阿苏卡继续先开始吧，
+[Speaker 11]: 然后你把它存一下，
+[Speaker 1]: 可以用下继续啊。
+[Speaker 0]: 好，
+[Speaker 0]: 那那先开始吧，
+[Speaker 17]: 可以可以，
+[Speaker 17]: 那我先开始吧，
+[Speaker 17]: 我调一下那个我看一下，
+[Speaker 17]: 我来设置一下屏幕，
+[Speaker 17]: 这个然后可以看到吧。
+[Speaker 17]: 这个是我做了一个内容生产自动化的一个引擎，
+[Speaker 17]: 就是他可以把我的口语稿我丢给他口语稿，
+[Speaker 17]: 然后他去润色之后再去 AI 味，
+[Speaker 17]: 然后做中英配图排版。
+[Speaker 17]: 就是一连串看的这样的一个流程。
+[Speaker 17]: 那时间有限，
+[Speaker 17]: 我就一边跟大家展示，
+[Speaker 17]: 然后一边介绍吧。
+[Speaker 17]: 比方说我最近我写了一个口语稿，
+[Speaker 17]: 就是我最近有一个感悟，
+[Speaker 17]: 那我感觉好像遇到 AI，
+[Speaker 17]: 遇到了边界。
+[Speaker 17]: 其实你自己的边界怎么讲呢？
+[Speaker 17]: 巴拉巴拉巴拉，
+[Speaker 17]: 我写了一封这样的口语稿，
+[Speaker 17]: 是用语音输入的。
+[Speaker 17]: 放在这个里面之后哦，
+[Speaker 17]: 它这个市面就开始有一些呃高级配置。
+[Speaker 17]: 可以，
+[Speaker 17]: 比方说你可以呃生成图片，
+[Speaker 17]: 比方说我在这儿让他帮我直接配图，
+[Speaker 17]: 然后这配图风格你也可以选是什么商务风、
+[Speaker 17]: 插画风、
+[Speaker 17]: 摄影风之类的几张。
+[Speaker 17]: 那我就先默认三张，
+[Speaker 17]: 然然后我就可以在这里开始一个呃，
+[Speaker 17]: 让他先用 AI 帮我润色一下。
+[Speaker 17]: 然后这个过程大概会持续一到两分钟左右，
+[Speaker 17]: 他会给你一个总的进度条，
+[Speaker 17]: 告诉你呃做到多少了。
+[Speaker 17]: 那这润色完成了，
+[Speaker 17]: 然后去 AI 位也完成了，
+[Speaker 17]: 然后翻译完成了，
+[Speaker 17]: 它接下来它会生成一嗯一个六个爆款标题，
+[Speaker 17]: 然后让你去选择你用哪一个标题放到你的文章里面去。
+[Speaker 17]: 然后它会生成配图的这个地方会稍微慢一点。
+[Speaker 17]: 然后我自己用下来的感觉，
+[Speaker 17]: 它其实去 AI 位这个地方会花一点时间，
+[Speaker 17]: 因为你让 AI 去改成去 AI 位，
+[Speaker 17]: 就是嗯你可能给他一些 skill，
+[Speaker 17]: 然后嗯哦我还要把我自己过去的文章喂给他，
+[Speaker 17]: 然后让他去尽量生成贴合我风格的。
+[Speaker 17]: 但是我发现我其实过去写的文章也不多，
+[Speaker 17]: 所以给他学习的嗯内容也不是很多。
+[Speaker 17]: 然后他就是会做这样的一个一系列的呃处理吧。
+[Speaker 17]: 然后他会帮你生成小红书的文章，
+[Speaker 17]:  substck 的文章，
+[Speaker 17]: 然后还会生成 twitter 的中文的推文串和英文的推文串。
+[Speaker 17]: 然后他会帮你做排版。
+[Speaker 17]: 最后还有一个三方会审的环节，
+[Speaker 17]: 这个等一下等他生成好了，
+[Speaker 17]: 我会展示给大家看好。
+[Speaker 17]: 然没有啊，
+[Speaker 17]: 这个地方他就已经呃生成好了，
+[Speaker 17]: 他会给了六个爆款标题给你那。
+[Speaker 17]: 你可以从中选一个放到你的文章里面去，
+[Speaker 17]: 但是不喜欢的话，
+[Speaker 17]: 你可以再换一批。
+[Speaker 17]: 那我比方说假设我就选了一个这个，
+[Speaker 17]: 然后把它放到我的文章里面，
+[Speaker 17]: 在这个地方就可以看到。
+[Speaker 17]: 他已经把刚才的那个标题呃放到我的 substack 里面了。
+[Speaker 17]: 他在这里生成了一个已经排版好了的一篇文章，
+[Speaker 17]: 然后这里是小红书的爆款图文。
+[Speaker 17]: 呃，
+[Speaker 17]: 然后呃配图是在后面，
+[Speaker 17]: 然后 twitter 这边它有一个中文的推文串和英文推文串各有六个啊，
+[Speaker 17]: 这些你都可以改，
+[Speaker 17]: 你都可以改。
+[Speaker 17]: 如果你满意的话，
+[Speaker 17]: 其实是可以复制或者导出的。
+[Speaker 17]: 然后这边是啊有一个图片生成失败了，
+[Speaker 17]: 然后这个这个两片两个图片是生成成功了，
+[Speaker 17]: 他也给会给你提示词。
+[Speaker 17]: 如果你不满意的话，
+[Speaker 17]: 你也可以再去再去再去修改这样子。
+[Speaker 17]: 然后我们就呃以 substack 为例，
+[Speaker 17]: 我这篇文章如果我要让呃 AI 再去帮我进行一个三方会审的话，
+[Speaker 17]: 我可以在这里点击一个修改并送审。
+[Speaker 17]: 然后呃比方说我有的地方不要，
+[Speaker 17]: 我就把它删掉，
+[Speaker 17]: 然后其他的地方你就可，
+[Speaker 1]: 给自己在这边做一些加工修改，
+[Speaker 1]: 你把它嗯改成你你自己想要的效果。
+[Speaker 1]: 然后在这里可以点一个确认送审，
+[Speaker 1]: 然后这个最有意思的地方就来了，
+[Speaker 1]: 它会开启一个这个所谓的三方会审。
+[Speaker 1]: 它有两个呃两个模式，
+[Speaker 1]: 一个是嗯都调用 GPT 的模型，
+[Speaker 1]: 然后它会通过逻辑共情和事实三个视角去帮你分析你这篇文章。
+[Speaker 1]: 然后它还有一个模式是这个同时用 open AI、
+[Speaker 1]:  gimmany night 和 cloud 这三模模式三个模型去一起去审你的这篇文章写出优缺点。
+[Speaker 1]: 那时间有限，
+[Speaker 1]: 我就不能同时放两个，
+[Speaker 1]: 我就以这个三三巨头的这个模式来给大家展示。
+[Speaker 1]: 然后这就是我刚才的呃一篇这篇文章，
+[Speaker 1]: 但是我也可以有的地方我也不需要的话，
+[Speaker 1]: 我可以嗯删掉，
+[Speaker 1]: 就会做一些修改。
+[Speaker 1]: 然后你觉得 ok 了之后，
+[Speaker 1]: 你就会在这里启动会审程序。
+[Speaker 1]: 这个时候嗯嗯，
+[Speaker 1]: 因为我都是同时接入了这三个模型嘛，
+[Speaker 1]: 然后他现在会在给你分析你的文章。
+[Speaker 1]: 然后左最左边是 open AI，
+[Speaker 1]: 中间是 gimmy，
+[Speaker 1]: 这边是 cloud 哦，
+[Speaker 1]:  open AI 的，
+[Speaker 1]: 这个已经出来了。
+[Speaker 1]: 那就说你这些文章里面怎么怎么样，
+[Speaker 1]: 然后它的审查亮点是什么？
+[Speaker 1]: 但是同时有四处隐患需要呃优化的，
+[Speaker 1]: 怎么怎么样可以优化你的呃描述过于抽象啊，
+[Speaker 1]: 或者是有的部分用词较为口语化之类的。
+[Speaker 1]: 然后他会给你一个分，
+[Speaker 1]: 这边给了个八分，
+[Speaker 1]: 然后米娜这边也是，
+[Speaker 1]: 然后也给了一些啊嗯跳掉了，
+[Speaker 1]: 然后就最后他会给你一个综合实整稿的报告。
+[Speaker 1]: 那 cloud 给的分数就四分，
+[Speaker 1]: 他比较严格。
+[Speaker 1]: 然后他全局会给你一个六点七分，
+[Speaker 1]: 他会给你一个总体的评价。
+[Speaker 1]: 然后有哪些地方需要修改三个需要修改的问题。
+[Speaker 1]: 然后你的核心优势是什么？
+[Speaker 1]: 一句话得修改建议。
+[Speaker 1]: 然后你可以根据他的这个修改建议呢嗯点击这个注入模嗯魔法兵重新润色。
+[Speaker 1]: 然后它会基于你的这个三方会审的结果进行一个魔法重写，
+[Speaker 1]: 它会这个是一个原始的底稿。
+[Speaker 1]: 然后他会你在这里也还可以继续做配图修改啊，
+[Speaker 1]: 或者是你可以跳过，
+[Speaker 1]: 这样的话会快一些。
+[Speaker 1]: 然后你在这里点击开始魔法转换，
+[Speaker 1]: 就是它就会可以进行下一轮的修改了。
+[Speaker 1]: 那时间有限我就不展示了，
+[Speaker 1]: 反正最后他就是成成，
+[Speaker 1]: 最后他就会给你。
+[Speaker 1]: 最后你不断的修改，
+[Speaker 1]: 最后形成一篇文章，
+[Speaker 1]: 然后这篇文章然后就可以发布。
+[Speaker 1]: 然后对，
+[Speaker 1]: 这就是然后你之前所有做过的东西在这里都有历史记录，
+[Speaker 1]: 自己我自己做测试就做过很多这样子。
+[Speaker 1]: 所以我的呃我自己用下来感觉就是有一有有有几点要嗯要注意的就是你的 typeless。
+[Speaker 1]: 我我用语音输入的时候，
+[Speaker 1]:  typeless 呃，
+[Speaker 1]: 如果用 timeless 做做语音输入的话，
+[Speaker 1]: 它就已已经有了一层那个 AI 的加工。
+[Speaker 1]: 然后你在二次加工的时候，
+[Speaker 1]: 其实他那个 AI 位就已经很重了。
+[Speaker 1]: 所以我在用口语稿的时候，
+[Speaker 1]: 我会尽量让他只用 whisper floor 或者是别的语音输入，
+[Speaker 1]: 让他尽量去留着你的那个属于你的口语化的那一部分。
+[Speaker 1]: 嗯，
+[Speaker 1]: 目前没有填。
+[Speaker 1]: 对，
+[Speaker 1]: 我就是这样的一个一个一个一个一个内容自动化的一个东西。
+[Speaker 1]: 一开始我们是想要做成全平台分发，
+[Speaker 1]: 但是就是那种一键，
+[Speaker 1]: 然后全部分发。
+[Speaker 1]: 但是其实大家试下来之后，
+[Speaker 1]: 很多人也都说这个好像还不如呃你自己手首发。
+[Speaker 1]: 因为我们也不是做矩证，
+[Speaker 1]: 不需要一次发那么多，
+[Speaker 1]: 你你发了你还是会去看嘛。
+[Speaker 1]: 所以就是这个所谓的一键分发的这个部分，
+[Speaker 1]: 我就没有放在那个里面。
+[Speaker 1]: 对我的分享到此为止，
+[Speaker 3]:  OK。
+[Speaker 3]: 哇，
+[Speaker 3]: 感谢感谢阿斯卡很完整了。
+[Speaker 3]: 好，
+[Speaker 3]: 阿斯卡如果有事的话，
+[Speaker 3]: 可以先离开。
+[Speaker 3]: 然后那我继续说，
+[Speaker 3]: 刚才 gary 的那个分享再试一下啊，
+[Speaker 2]: 再给 OK。
+[Speaker 3]: 可以看到的话，
+[Speaker 4]: 我就继续或者说我刚才说的主题，
+[Speaker 5]: 他对生成气的本它的声音声音和音就这样样。
+[Speaker 4]: 这个大字是一定放在我这个封面背面能够去吸引观众的。
+[Speaker 4]: 并且我还给了我要选择用户照片，
+[Speaker 4]: 就是我自己的照片。
+[Speaker 4]: 因为我希望我真人出镜嘛，
+[Speaker 4]: 所以说我的封面也是希望我来出镜的。
+[Speaker 4]: 基可能再给一些参考图片，
+[Speaker 4]: 基本上就用一些豆包的字节的 c dream 模型费用基本上就在这里面写了。
+[Speaker 4]: 他基本上要给他一些 prm，
+[Speaker 4]: 然后就输出成三比四四比三十六比九的同年面。
+[Speaker 4]: 然后给大家稍微展示一下吧，
+[Speaker 4]: 就是大概什么样的结果。
+[Speaker 4]: 比如说从口播稿，
+[Speaker 4]: 如果我给一个杂乱想法的话，
+[Speaker 4]: 这里我只没有展示口播稿。
+[Speaker 4]: 因为有时候口播稿不是很好用，
+[Speaker 4]: 它呢基本上就是给了一些各个平台的标题。
+[Speaker 4]: 你看这个编好还给了一些标签，
+[Speaker 4]: 我觉得还是不错的。
+[Speaker 4]: 然后呢，
+[Speaker 4]: 第二个呢就是这个剪映视频剪辑视频这个思路。
+[Speaker 4]: 其实我后来发现不怎么用的，
+[Speaker 4]: 是因为对我来说，
+[Speaker 4]: 其实剪映其实剪起来挺快的。
+[Speaker 4]: 我可能用不了多长时间。
+[Speaker 4]: 然后呢，
+[Speaker 4]: 可能用 open 靠去调配这个东西是更费时间的。
+[Speaker 4]: 所以我就放弃了。
+[Speaker 4]: 然后呢，
+[Speaker 4]: 第三个 AI 生成视频呢，
+[Speaker 4]: 我给大家看一下，
+[Speaker 4]: 稍微是这样的结果。
+[Speaker 4]: 但是呢我没有怎么去，
+[Speaker 4]: 我没有去发出去，
+[Speaker 4]: 是因为我觉得还有很多要调配，
+[Speaker 4]: 但是因为太花时间了，
+[Speaker 4]: 所以我就放暂时先放弃掉。
+[Speaker 4]: 然后这个就是这个视频大概的样子没有个关系，
+[Speaker 4]: 他需要花大量的时间精跟你跟你得到说，
+[Speaker 4]: 然后你看他可以这些这些完完全全都是它自动去生成的，
+[Speaker 4]: 就随便给了个点子或者口头稿子，
+[Speaker 4]: 然后它就会这样生成这样的风格格。
+[Speaker 4]: 然后这个项目对样可能格，
+[Speaker 4]: 然后最后一个大概的封面生成大概就会展示成这样。
+[Speaker 4]: 就是我比如说我前两天开了一个视频，
+[Speaker 4]: 是我做了一个 open 靠牵引。
+[Speaker 4]: 因为我我旧旧电脑对不不了了，
+[Speaker 4]: 需要用新的电脑。
+[Speaker 4]: 然后后基本上我再给我生成一个封面，
+[Speaker 4]: 我给大家放大一点。
+[Speaker 4]: 它基本上就是生成三比四的比例，
+[Speaker 4]: 比四比三的例例加上上十比九的比例。
+[Speaker 4]:  OK。
+[Speaker 4]: 最后说一说我的感想吧，
+[Speaker 4]: 坐进这三四周下来啊，
+[Speaker 4]: 我觉得第一个感受就是 open call 真的是挺不稳定的，
+[Speaker 4]: 而且他经常会出错。
+[Speaker 4]: 然后经常我遇到过好几次，
+[Speaker 4]: 就是聊着聊着他就挂了，
+[Speaker 4]: 我就找不到他了。
+[Speaker 4]: 我可能需要花几个小时才能把它搞回来。
+[Speaker 4]: 有时候运气好，
+[Speaker 4]: 可能很快就做回来，
+[Speaker 4]: 搞回来了。
+[Speaker 4]: 但是很多时候是我真的需要去打开我的 open call，
+[Speaker 4]: 然后呢我去看一看到底发生了什么配置，
+[Speaker 4]: 然后要把额外的观点去做配置。
+[Speaker 4]: 啊，
+[Speaker 4]: 第二个感受呢是我觉着自动化可能本身做这个事情没什么问题，
+[Speaker 4]: 但是还是要去多提升质量内容的质量。
+[Speaker 4]: 如果你的内容的质量本身不好的话，
+[Speaker 4]: 自动化的话只会让我做出来更多垃圾。
+[Speaker 4]: 但是自动化好处就是能够让我更好的去节省一些啊，
+[Speaker 4]: 是嗯一些我需要画啊，
+[Speaker 4]: 比如说标题生成啊，
+[Speaker 4]: 封面生成啊，
+[Speaker 4]: 多分发平台这种的一些的杂乱的一些没那么重要的一些的事情上。
+[Speaker 4]: 所以呢我的下一步就是说还是要去少自动化一点点，
+[Speaker 4]: 然后去多去提升内容质量。
+[Speaker 4]: 尤其是要学习一些其他的。
+[Speaker 4]: 比如说优秀的博主，
+[Speaker 4]: 他们是怎么样去做视频的，
+[Speaker 4]: 他们的到底是怎么样去展示的，
+[Speaker 4]: 他们的优点在哪里啊，
+[Speaker 4]: 这就是我的一些感想。
+[Speaker 4]: 然后呢，
+[Speaker 4]: 就像这些，
+[Speaker 4]: 感谢大家看我的视频啊啊，
+[Speaker 3]: 说出来有点不好意思，
+[Speaker 3]: 我其实已经交接作作业了，
+[Speaker 3]: 没用进去好好忽噜了不习惯。
+[Speaker 0]: 但是说是在你这样，
+[Speaker 3]: 下一我这网又不行了，
+[Speaker 3]: 下一个再次再次来分享一下吧。
+[Speaker 3]: 还是可以，
+[Speaker 6]: 可是虽然我没有完成，
+[Speaker 6]: 所以不过我我分享吧。
+[Speaker 6]: 嗯，
+[Speaker 6]: 我这是应该第一个分享，
+[Speaker 6]: 因为我真的不会我真的没有完成。
+[Speaker 6]: 其实我主要是说我我没有完成，
+[Speaker 6]: 所以我觉得我分享一下我学了什么跟思路吧。
+[Speaker 6]: 哎我怎么 OK 等一下哈 OK。
+[Speaker 6]: 所以我稍微介绍一下自己，
+[Speaker 6]: 我其实需要做的事情是因为我有一个画展将要进行在五月尾，
+[Speaker 6]: 所以我需要抛这些 social media 的东西，
+[Speaker 6]: 所以我才参与这个活动的。
+[Speaker 6]: 然后我发现我做这个时候，
+[Speaker 6]: 我 research 大部分三每个人如果需要很长分享这些创作的话，
+[Speaker 6]: 我们需要大概三点五个小时去呃做个人的这些自媒体的事情，
+[Speaker 6]: 其实是很花时间的。
+[Speaker 6]: 然后我主要是学习了怎样，
+[Speaker 6]: 因为我刚开始的时候其实没有很大的一个对 AI 的功能。
+[Speaker 6]: 所以我主要是把东西放去 noble LM，
+[Speaker 6]: 然后学习了怎么样就 fit 完我。
+[Speaker 6]: 所以我需学学的东西跟我做整个呃画展的一些概念跟一些呃画的状况，
+[Speaker 6]: 跟所有的资料给他。
+[Speaker 6]: 我发现其实是很好的 nob。
+[Speaker 6]:  LM 是我这一次觉得说真的有深深的学习跟深深的认识到他的好处。
+[Speaker 6]: 然后其实我比较需要的是做 IG 跟 youtube，
+[Speaker 6]: 我发现 IG 本身是你需要有嗯 business 的 account，
+[Speaker 6]: 你才可以分享，
+[Speaker 6]: 你才可以自动化分享。
+[Speaker 6]: 然后像 youtube 跟 linking，
+[Speaker 6]: 你就是需要申请就好了。
+[Speaker 2]: 没有没有没有好，
+[Speaker 6]: 所以我用 nob MM。
+[Speaker 6]: 我我给给他所有的东西，
+[Speaker 6]: 未给他所有的资料的时候，
+[Speaker 6]: 我希望他可以帮我生成一个啊排周表，
+[Speaker 6]: 就是排我每天要发些什么资料跟啊所有的东西在 google ship 里面是本来的目标是要从呃 MBI 里面拿，
+[Speaker 6]: 我是了了一个别人已经做好的，
+[Speaker 6]: 我想要试试看，
+[Speaker 6]: 可不可以用。
+[Speaker 6]: 因为我本人不太会做这件事情，
+[Speaker 6]: 所以我到了来试试看。
+[Speaker 6]: 然后它是可以直接去 dogoogle 去里面把里面的东西拿出来用，
+[Speaker 6]: 然后可以 pose 出来。
+[Speaker 6]: 可是这个东西本身我的啊优秀那边卡着了，
+[Speaker 6]: 我没有没有达成这个 api 的事情。
+[Speaker 6]: 是的，
+[Speaker 6]: 所以我就觉得这个东西没有做完。
+[Speaker 6]: 但可是我分享一下，
+[Speaker 6]: 我学了些什么东西，
+[Speaker 6]: 跟我觉得这整个东西是怎么样形成的吧，
+[Speaker 6]: 给任何想要做这件事情的人一些啊一些想法吧。
+[Speaker 6]: 嗯，
+[Speaker 6]: 对，
+[Speaker 6]: 你来就可能不太好用，
+[Speaker 6]: 我也分享一下我做了些什么吧。
+[Speaker 6]: 然这是当中要做的风选的一个啊。
+[Speaker 6]: 对，
+[Speaker 2]: 还有就是这个也是嗯这不需要声音，
+[Speaker 2]:  ok sorry。
+[Speaker 2]:  so 就然后就觉得其实我觉得 AI 跟呃最主要是我们自己本身需要有很大作为。
+[Speaker 6]: 呃人类来讲，
+[Speaker 6]: 我觉得我们有很大的一个东西是需要去创建一些跟 AI 相关联。
+[Speaker 6]: 可是我们要创建一些我们自己的东西的情况。
+[Speaker 6]: 好了，
+[Speaker 6]: 我讲完了，
+[Speaker 6]: 我就没有完成吧。
+[Speaker 6]: 所以呃谢谢做了一个学习的过程。
+[Speaker 3]: 嗯，
+[Speaker 3]: 我觉得做就是做 mini 克 hason，
+[Speaker 3]: 我们没有说一定要要求每个人都完成自己的项目。
+[Speaker 3]: 最重要的是开始你已经开始了，
+[Speaker 3]: 不是吗？
+[Speaker 3]: 而且我看到了你完整的展示，
+[Speaker 3]: 我也有很多启发，
+[Speaker 3]: 我觉得这就是最有价值的地方。
+[Speaker 3]: 好，
+[Speaker 2]: 谢谢。
+[Speaker 3]: 没有没有好，
+[Speaker 3]: 我们下一位我们组的 jama 他赶上来了，
+[Speaker 3]: 那我就不帮他放他的他的那个 demo 了，
+[Speaker 3]:  jama 你自己可以分享吗？
+[Speaker 3]: 卷马，
+[Speaker 3]: 你的麦克风没有开。
+[Speaker 7]:  ok hello hello 嗯，
+[Speaker 2]: 好吧，
+[Speaker 3]:  hello，
+[Speaker 7]: 我屏幕怎么分享不了了。
+[Speaker 3]: 我这个哦那你可以先修一下，
+[Speaker 3]: 或者换一个呃浏览器，
+[Speaker 2]: 然后我可以先开始要，
+[Speaker 7]: 要不然你先放我那个我这个整个屏幕怎么点不了分享。
+[Speaker 3]:  ok 那我那我放那我播啊，
+[Speaker 7]: 可以了可以了哦，
+[Speaker 3]: 可以了。
+[Speaker 3]: 嗯，
+[Speaker 3]: 好，
+[Speaker 3]: 可以了。
+[Speaker 2]: 嗯，
+[Speaker 7]:  hello 呃，
+[Speaker 7]: 我是原本想要做那个自动化的一个呃流程嘛，
+[Speaker 7]: 就那种像前后端，
+[Speaker 7]: 后来我就发现做那个就比较麻烦。
+[Speaker 7]: 再加上国内平台它很多的限制，
+[Speaker 7]: 没有那种 API 通道目前就能够自动发的。
+[Speaker 7]: 我现在在做的就是 take talk，
+[Speaker 7]: 然后 you k 还有呃 in，
+[Speaker 7]: 然后这这三个是自动发的，
+[Speaker 7]:  x 的话，
+[Speaker 7]: 他查的也比较严。
+[Speaker 7]: 然后嗯然后国内平台的话呢，
+[Speaker 7]: 全部都是用这种 skill。
+[Speaker 7]: 那这里面的话呢，
+[Speaker 7]: 不没有这个是我做的一个 HDML 给大家展示用的工作流程。
+[Speaker 7]: 大概是分为这样几大项，
+[Speaker 7]: 一个是尝视频，
+[Speaker 7]: 然后灵感速发。
+[Speaker 7]: 还有一个是数据分析。
+[Speaker 7]: 这里面的这个长视频呢，
+[Speaker 7]: 就比如说我告诉他一个嗯全文案发送，
+[Speaker 7]: 然后他就会给我出选题呀，
+[Speaker 7]: 然后出这个发布方案，
+[Speaker 7]: 然后包括像标题，
+[Speaker 7]: 然后封面嗯，
+[Speaker 7]: 还有呃什么 tag 啊，
+[Speaker 7]: 然后之类的，
+[Speaker 7]: 全部都会给我。
+[Speaker 7]: 还有一个灵感抒发呢，
+[Speaker 7]: 就是说我有一些小的灵感给他给他了之后呢，
+[Speaker 7]: 他会帮我去呃撰写成一段小文字，
+[Speaker 7]: 然后再去给我用那个泥塑风去配图。
+[Speaker 7]: 因为我现在刚转成 antigraphity 来去给我这个工作流嘛，
+[Speaker 7]: 之前是用 cloud，
+[Speaker 7]: 直接是配上 no bl LM 它的一个输出，
+[Speaker 7]: 配上泥塑感的那个图就全部都出来了。
+[Speaker 7]: 现在是用 antigraphity，
+[Speaker 7]: 它里面自带了一个三 d 渲染啊，
+[Speaker 7]: 就可以直接出图了。
+[Speaker 7]: 然后这个的话呢就是发 x 啊小红书这这这些的。
+[Speaker 7]: 然后反应好的话，
+[Speaker 7]: 再拓展成长文。
+[Speaker 7]: 然后分析数据的话呢，
+[Speaker 7]: 就是它形成了一个闭环嘛，
+[Speaker 7]: 然后把所有平台的数据，
+[Speaker 7]: 然后定期反馈给他之后，
+[Speaker 7]: 他帮我分析之后再反馈给我下一次的一个标题啊什么就各种文案这种的。
+[Speaker 7]: 然后呃他这里面的话还会给我一些逐字稿啊什么的，
+[Speaker 7]: 就全平台发布。
+[Speaker 7]: 呃，
+[Speaker 7]: 这是一些展示内容分析呀，
+[Speaker 7]: 然后标题、
+[Speaker 7]: 封面、
+[Speaker 7]: 简介、
+[Speaker 7]: 发布时间，
+[Speaker 7]: 然后发布方案这些全部都有。
+[Speaker 7]: 然后复用的话呢，
+[Speaker 7]: 就是就比如说像灵感速发呀、
+[Speaker 7]: 长句复用啊、
+[Speaker 7]: 周期，
+[Speaker 7]: 就是我还我还在做 substct，
+[Speaker 7]: 还有那个 news later。
+[Speaker 7]: 然后 news later 的话呢，
+[Speaker 7]: 就是他每周都帮我自动积攒素材。
+[Speaker 7]: 就比如说是呃从就是短视频啊，
+[Speaker 7]: 然后图文啊，
+[Speaker 7]: 然后长视频啊，
+[Speaker 7]: 然后包括我的长文啊，
+[Speaker 7]: 这些全部都积攒出来。
+[Speaker 7]: 然后播客的话呢是目前正在做的播客，
+[Speaker 7]: 就是嗯我会让他每两周帮我就是搜集一下我过往的一些素材，
+[Speaker 7]: 然后自动去整理成那种播客，
+[Speaker 7]: 大概嗯十到十五分钟，
+[Speaker 7]: 然后去用那个 AI 的声音就 copy 我的声音，
+[Speaker 7]: 然后去输出这样的。
+[Speaker 7]: 然后目前我想要做的就是小宇宙，
+[Speaker 7]: 然后 pocast，
+[Speaker 7]: 还有那个公众号，
+[Speaker 7]: 还有一个喜马拉雅，
+[Speaker 7]: 就这样。
+[Speaker 7]: 然后分析的话就这样。
+[Speaker 7]: 嗯，
+[Speaker 7]: 这个这个 HDML 呢它呃整体让人互动不了的，
+[Speaker 7]: 但是它可以复制。
+[Speaker 7]: 就是比如说这里面还会看一下我什么时候发了哪一些平台啊，
+[Speaker 7]: 这些的，
+[Speaker 7]: 还有我的一些后台数据啊，
+[Speaker 7]: 然后这样的包括这里面有一些偏好设置，
+[Speaker 7]: 每个平台它的呃一些用词啊，
+[Speaker 7]: 然后这些都是有的，
+[Speaker 7]: 还有发发布历史。
+[Speaker 7]: 然后内容的话就是哪一个哪一个视频表现的比较好啊，
+[Speaker 7]: 这些全部都有，
+[Speaker 7]: 还有平台规则。
+[Speaker 7]: 比如说这些小的一些细节的东西，
+[Speaker 7]: 就是比如说什么短标题呀，
+[Speaker 7]: 视频号要有短标题呀，
+[Speaker 7]: 然后这些细节全部都有。
+[Speaker 7]: 然后这些就全部都是在自动更新的，
+[Speaker 7]: 然后我觉得之后会越用越好。
+[Speaker 7]: 就是这些的话就点一下，
+[Speaker 7]: 它就自己就 copy 了，
+[Speaker 7]: 就然后我再去发给他就可以了。
+[Speaker 7]: 有的时候因为这个口令太多了，
+[Speaker 7]: 我记不住，
+[Speaker 7]: 所以我有时候我就是来这里找一下，
+[Speaker 7]: 然后点一下复制，
+[Speaker 7]: 然后再发给他就可以。
+[Speaker 7]: 然后整体上呢它是这样的一个大的循环。
+[Speaker 7]: 就是目前就是你看有长视频啊，
+[Speaker 7]: 然后在这里然后短视频长文博客长视频的话就给主题之后，
+[Speaker 7]: 然后他给出逐字稿。
+[Speaker 7]: 然后我去剪映剪辑的时候，
+[Speaker 7]: 他去做 bio，
+[Speaker 7]: 然后然后就就然后根据我自己的风格呀，
+[Speaker 7]: 然后给产出就可以，
+[Speaker 7]: 这是自动的。
+[Speaker 7]: 现在有一点我自己的风格了，
+[Speaker 7]: 就是现在还在初期阶段，
+[Speaker 7]: 然后慢慢我觉得循环起来应该会更好一点。
+[Speaker 7]: 然后我觉得剪映里面的话就是配字幕啊或者是美颜呀，
+[Speaker 7]: 然后就更好一点。
+[Speaker 7]: 还有就是呃我在做尝试视频的时候呢，
+[Speaker 7]: 就是导出视频和字幕。
+[Speaker 7]: 其实它的效果给到这个给到这个呃 AI，
+[Speaker 7]: 它效果是一样的。
+[Speaker 7]: 但是视频的话它比较浪费时间，
+[Speaker 7]: 所以我一般都会给它字幕，
+[Speaker 7]: 然后来帮我去生成全平台文案，
+[Speaker 7]: 然后这样去给。
+[Speaker 7]: 然后它这里面就包含了这一些，
+[Speaker 7]: 就是最后他们这些全部都给到了数据分析，
+[Speaker 7]: 给到了数据分析了之后呢，
+[Speaker 7]: 然后再在最后然后根据全平台的分析给出下一次的主题优化。
+[Speaker 7]: 这样反哺就整体上是这样的一个大的循环。
+[Speaker 7]: 然后还有一些这样的我的分享完毕了，
+[Speaker 3]: 呃，
+[Speaker 3]: 有和 clbetty 都有一些问题，
+[Speaker 3]: 你先回答，
+[Speaker 3]: 有的天系嗯，
+[Speaker 3]: 你听不见我说话吗？
+[Speaker 7]:  hello 嘿 hello hello，
+[Speaker 5]: 可以听见吗？
+[Speaker 5]: 我我可以听见。
+[Speaker 5]:  hello，
+[Speaker 5]: 嗯，
+[Speaker 5]: 他可能那边耳机有问题，
+[Speaker 3]:  ok 那我们就听见嗯，
+[Speaker 3]: 我们可以听见你在吗？
+[Speaker 9]: 啊，
+[Speaker 9]: 好了，
+[Speaker 7]: 我现在好了。
+[Speaker 3]: 呃，
+[Speaker 3]:  clear，
+[Speaker 3]: 我有一个问题，
+[Speaker 3]: 分析功能上可以分析小红书的数据吗？
+[Speaker 8]: 嗯，
+[Speaker 8]: 可以，
+[Speaker 8]: 就是他这个全平台分析的话，
+[Speaker 8]: 我是喂给他了一些资料，
+[Speaker 8]: 就是告诉他要到底是分析哪方面的。
+[Speaker 8]: 然后我刚刚没有看，
+[Speaker 8]: 就是这里面的话，
+[Speaker 8]: 他分析，
+[Speaker 8]: 比如说这个平台分析的话呢，
+[Speaker 8]: 它有一个这个五步流程，
+[Speaker 8]: 就是五五个维度这样去分析的。
+[Speaker 2]: 嗯嗯，
+[Speaker 3]: 你是上就是让浏览器去控制小红书的页面，
+[Speaker 3]: 然后让他自己去看，
+[Speaker 3]: 而不是获取了什么公开的 api，
+[Speaker 3]: 对吧？
+[Speaker 8]: 啊，
+[Speaker 8]: 这个没有 API，
+[Speaker 8]: 就是但是他小红书的话不是让他去看。
+[Speaker 8]: 因为我发现用 cloud 他去看那个网页的时候，
+[Speaker 8]: 他不是太好。
+[Speaker 8]: 但是我最近发现哈我转到 antigravity 了之后呢，
+[Speaker 8]: 我发现那个 chrome 的配合就很好，
+[Speaker 8]: 还会有鼠标去动这样的。
+[Speaker 8]: 就是整体上我觉得会比 cloud 去控制这个页面会好很多。
+[Speaker 8]: 然后我去分析小红书的这个后台数据的时候呢，
+[Speaker 8]: 他是我我去去后台去下载那个表格，
+[Speaker 8]: 他有一个那个下载的键啊，
+[Speaker 8]: 然后直接就下载一下，
+[Speaker 8]: 就也挺方便的，
+[Speaker 7]: 直接导给他，
+[Speaker 7]: 那就分期了 OK。
+[Speaker 3]: 然后 betty 还有一个问题，
+[Speaker 3]: 你可以私下回复他嘛。
+[Speaker 3]: 呃因为他这个问题还是比较复杂的。
+[Speaker 3]: 他有问多平台发布 API 取得的问题是怎么取得这些 API 的啊，
+[Speaker 3]: 你可以回复东西啊，
+[Speaker 8]: 就全都是 AI 帮忙的。
+[Speaker 8]: 我之前用苦老的人，
+[Speaker 8]: 他都给我连好了。
+[Speaker 8]: 就是我觉得懒人有懒办法吧，
+[Speaker 8]: 就是我就跟他说我是小白，
+[Speaker 8]: 尽量让我简单一点，
+[Speaker 8]: 然后他就给我挺简单自己去试。
+[Speaker 8]: 然后哪一条最简单告诉我，
+[Speaker 8]: 然后如果我觉得还有点难的话，
+[Speaker 8]: 他就全部就帮我代工。
+[Speaker 8]: 就包括其实刚一开始我用号的时候，
+[Speaker 8]: 他全部都是帮我复制好。
+[Speaker 8]: 比如说我要发哪个一个平台了，
+[Speaker 8]: 他说好的，
+[Speaker 8]: 我帮你准备好，
+[Speaker 8]: 然后帮我复制好，
+[Speaker 8]: 文案之后，
+[Speaker 8]: 我直接去粘贴就好了。
+[Speaker 2]: 嗯，
+[Speaker 3]: 对，
+[Speaker 3]: 谢谢点亮。
+[Speaker 3]: 而且这个其实已经开始实现了，
+[Speaker 3]: 他的社交平台已经发了很多内容了，
+[Speaker 3]: 他还就是边学边分享的 leararning public。
+[Speaker 8]: 对对，
+[Speaker 8]: 因为我觉得这样边学边分享的话，
+[Speaker 8]: 正反馈还蛮多的，
+[Speaker 8]: 而且还能督促我学习上进。
+[Speaker 3]: 好，
+[Speaker 3]: 谢谢展马啊。
+[Speaker 3]: 对，
+[Speaker 3]: 麦克刚刚发了一个，
+[Speaker 3]: 他自己做的是是你自己做的吧。
+[Speaker 3]: 这个对对对，
+[Speaker 3]: 这个 chrome 的对的，
+[Speaker 10]: 是我先是我也在用，
+[Speaker 3]: 很好用超好用。
+[Speaker 3]: 那现在好像只有五个。
+[Speaker 10]: 嗯，
+[Speaker 10]: 对，
+[Speaker 10]: 然后有什么 bug 就找我就好了，
+[Speaker 10]: 我我自己也在用，
+[Speaker 3]: 然后呢，
+[Speaker 3]: 它不自动问对哦，
+[Speaker 10]: 这个我去 prompt 一下，
+[Speaker 10]:  fix 一下好啊，
+[Speaker 3]: 昨天刚还在用。
+[Speaker 3]:  ok 那最后也就是我来压轴了。
+[Speaker 3]: 那个我来我想在分享之前，
+[Speaker 3]: 我我先计时啊，
+[Speaker 3]: 我声儿有点太多了，
+[Speaker 3]: 呃，
+[Speaker 3]: 想继续。
+[Speaker 3]:  ok 呃，
+[Speaker 3]: 我想先问大家一个问题，
+[Speaker 3]: 就是呃你们有没有过这种感受？
+[Speaker 3]: 脑子里突然有个响应回声，
+[Speaker 6]: 你有这个风声音得关掉了己个。
+[Speaker 2]: 那那个要看一下自己的问题，
+[Speaker 3]: 那我把这个哦我知道了，
+[Speaker 3]: 那我就不能这样可以了吗？
+[Speaker 5]: 感觉这样子是好像还是会有回声，
+[Speaker 3]: 那那可能是因为这个这些戏的事儿，
+[Speaker 3]: 我我可不可以关掉这个这些戏呢？
+[Speaker 3]: 就是反正我受错了了，
+[Speaker 10]: 给再试一一下，
+[Speaker 10]: 那退掉了。
+[Speaker 10]: 那个 OBS 可能导致的，
+[Speaker 6]: 大家稍等 OBS 有时候会这样子，
+[Speaker 10]: 他主要是两个声音，
+[Speaker 10]: 他那个时间不太同步，
+[Speaker 10]: 听着有点累，
+[Speaker 10]: 如果是完全同步的话，
+[Speaker 10]: 就没事。
+[Speaker 5]: 嗯，
+[Speaker 5]: 他回来了回来了，
+[Speaker 3]: 现在还有回音吗？
+[Speaker 5]: 没有 ok 没有了，
+[Speaker 3]: 但是看不见我的头了。
+[Speaker 3]: 哎呀，
+[Speaker 10]: 对你下次要用的话，
+[Speaker 10]: 可以多几个那种什么 things，
+[Speaker 10]: 多几个那个场景的话，
+[Speaker 10]: 可能就好切了。
+[Speaker 3]: 不是，
+[Speaker 2]: 是哎呀，
+[Speaker 3]: 我那电脑太慢了，
+[Speaker 6]: 好好，
+[Speaker 6]: 也跟设定有关关，
+[Speaker 6]: 你可以尝尝试看看。
+[Speaker 5]: 嘿，
+[Speaker 5]: 是我卡了吗？
+[Speaker 5]: 嗯嗯，
+[Speaker 10]: 没有没有，
+[Speaker 10]: 赵明，
+[Speaker 10]: 还没进来哦，
+[Speaker 5]: 那他还没进来，
+[Speaker 5]:  jama 你也可以看看，
+[Speaker 5]: 有一个问题你也可以回复一下。
+[Speaker 5]: 就是他问到了，
+[Speaker 5]: 就我把 sport line 一下吧，
+[Speaker 5]: 就是获取小红书后台数据的方法，
+[Speaker 5]: 具具体你会定期下载数据到 CSV 方。
+[Speaker 8]: 就是呃我会我会自己去下载，
+[Speaker 8]: 因为我觉得自己下载更方便。
+[Speaker 8]: 如果要是用那个 AI 去控制的话，
+[Speaker 8]: 它有时候需要登录，
+[Speaker 8]: 特别是国内的像小红书啊、
+[Speaker 8]: 抖音啊，
+[Speaker 8]: 然后视频号这些的话，
+[Speaker 8]: 需要反复登录就比较麻烦。
+[Speaker 8]: 还不如我自己的那个 chrome 账户。
+[Speaker 8]: 然后登上了之后，
+[Speaker 8]: 然后他有那个记忆嘛，
+[Speaker 8]: 然后直接登上去点一下下载就可以了。
+[Speaker 8]: 这样的话就更方变一遍。
+[Speaker 8]: 然后他会提醒我提醒我就是哎这一期的视频，
+[Speaker 8]: 你该去看一看数据了，
+[Speaker 8]: 然后我就去了理解，
+[Speaker 2]: 嗯，
+[Speaker 5]: 就是有一些还是手动方便。
+[Speaker 5]: 哎，
+[Speaker 5]: 我看对明姐你 OK 了吗？
+[Speaker 3]: 嗯，
+[Speaker 3]: 我 OK 了，
+[Speaker 3]: 但是我好像不能分享屏幕，
+[Speaker 3]: 我换了一个浏览器，
+[Speaker 3]: 但这个浏览器不能分享屏幕，
+[Speaker 5]: 要不你文件发我，
+[Speaker 5]: 我帮你分享，
+[Speaker 3]: 没有文件。
+[Speaker 5]: 那靠靠嘴说靠嘴说也可以。
+[Speaker 10]: 我觉得啊我想想，
+[Speaker 10]: 那为什么你的 chrome 会两个声音？
+[Speaker 3]: 呃，
+[Speaker 3]: 我不知道现在也是两个声音吗？
+[Speaker 5]: 不是，
+[Speaker 5]: 现在不会，
+[Speaker 10]: 你可能有一个什么 input mix 文件导致的那个软件导致的。
+[Speaker 3]: 我先我看一下分享屏幕可不可以啊，
+[Speaker 3]: 可以吗？
+[Speaker 3]: 应该不可以。
+[Speaker 10]: 嗯，
+[Speaker 10]: 还没有看到，
+[Speaker 3]: 应该是不可以。
+[Speaker 2]: 嗯，
+[Speaker 10]: 那你就切回那个浏览器再试一遍，
+[Speaker 3]: 那个浏览器显示所有的麦克都不能用哦，
+[Speaker 10]: 这 circle bug 估计是 OK。
+[Speaker 3]: 呃，
+[Speaker 3]: 如果大家还有什么问题可以继续在这个聊天室里面问啊，
+[Speaker 3]: 实在抱歉，
+[Speaker 3]: 我这儿因为任务比较多出了一些问题。
+[Speaker 10]: 对，
+[Speaker 10]: 这个王王浩说也是就是反方中挺狠的。
+[Speaker 10]: 对我觉得如果低频率的还行，
+[Speaker 10]: 但是我觉得现在由于 open clour 太多了，
+[Speaker 10]: 大家都在反爬中就就挺烦的。
+[Speaker 10]: 有时候你输个验证码，
+[Speaker 10]: 然后就变成手动了。
+[Speaker 10]: 然后别人手动的话，
+[Speaker 10]: 然后你就得登到 open cloud 电脑上去搞，
+[Speaker 10]: 然后就就比较尴尬。
+[Speaker 10]: 那这个呃国外网站我觉得稍微还好一点，
+[Speaker 10]: 然后什么我是 reddit 看的比较多，
+[Speaker 10]: 然后我觉得还好一点，
+[Speaker 10]: 剩下的我觉得确实都挺烦的，
+[Speaker 10]: 确实是这样。
+[Speaker 2]: 对嗯，
+[Speaker 10]: 对，
+[Speaker 10]:  antigragravity 可以去操控 from 去。
+[Speaker 10]: 但是我觉得他好像会告诉那个网站，
+[Speaker 10]: 你是 AI。
+[Speaker 10]: 然后比如说我用它去操控那个 popularity，
+[Speaker 10]: 然后他就永远打不开，
+[Speaker 10]: 然后连验证码都没有。
+[Speaker 10]: 所以就我不是做那个插件嘛，
+[Speaker 10]: 上面有放那插件，
+[Speaker 10]: 然后然后就很尴尬，
+[Speaker 10]: 然后我只能用那个 play right 就就很尴尬。
+[Speaker 10]: 看一下大家还有什么问题吗？
+[Speaker 10]: 对，
+[Speaker 10]: 小红书的数据确实是有办法抓是最好的。
+[Speaker 10]: 还有前面那个比如说拿这个 health 的 data，
+[Speaker 10]: 确实苹果这个限制很多。
+[Speaker 10]: 然后我记得是前段时间那个卓 andclasass 啊逆向了一下，
+[Speaker 10]: 但是我估计也挺麻烦的，
+[Speaker 10]: 要花好久时间去做这个苹果。
+[Speaker 10]: 如就是现在我们都是把各种数据喂给 AI 就可以做好，
+[Speaker 10]: 多事情确实是得得想办法。
+[Speaker 10]: 去我看一下啊，
+[Speaker 10]:  andreid capaci apple health data，
+[Speaker 2]: 看看有没有 apple health，
+[Speaker 10]: 那就不是，
+[Speaker 10]: 那我记错是谁了，
+[Speaker 10]: 反正然后他要把他那个苹果的数据全部导出来了，
+[Speaker 10]: 用用一个那个 cloucode 还是谁谁弄的，
+[Speaker 10]: 我觉得挺有意思。
+[Speaker 2]:  both is michael recover new health。
+[Speaker 10]: 哦，
+[Speaker 10]: 他这个帖子不是不是苹果的 health，
+[Speaker 10]: 我没记错的话，
+[Speaker 10]: 我找到他这个帖子了，
+[Speaker 10]: 就挺有意思的。
+[Speaker 3]:  OK 现在可以了，
+[Speaker 5]: 现在看一下，
+[Speaker 3]: 看一下一下实在抱歉啊。
+[Speaker 3]: 那个啊这样我想先问大家一个问题，
+[Speaker 3]: 呃，
+[Speaker 3]: 有没有过觉得脑子里突然有一想法，
+[Speaker 3]: 觉得哎这也挺有意思的，
+[Speaker 3]: 想分享一下，
+[Speaker 3]: 然后就没有然后了，
+[Speaker 3]: 我有而且很频繁。
+[Speaker 3]: 我其实平时有很多想法，
+[Speaker 3]: 但是我想分享到社交媒体，
+[Speaker 3]: 但我就是苦于嗯怎么把念头落地变成可以发布的东西。
+[Speaker 3]: 所以这次的 hacklong 活动呢，
+[Speaker 3]: 我想解决就是呃作为社交媒体新手，
+[Speaker 3]: 从灵感到发布，
+[Speaker 3]: 这个距离到底有多远，
+[Speaker 3]: 我能不能缩短这段距离？
+[Speaker 3]: 所以我做了一个工具叫 sprout。
+[Speaker 3]: 呃，
+[Speaker 3]: 我先给大家看一个很简单的东西，
+[Speaker 3]: 我这是我的手机，
+[Speaker 3]: 就是在就是看我这个我的分析，
+[Speaker 3]: 我不是分享屏幕啊。
+[Speaker 3]: 我平时如果有什么想法，
+[Speaker 3]: 就会打开我这个 action button，
+[Speaker 3]: 然后它就会自动开始录音。
+[Speaker 3]: 现在是北京时间的三月十五号，
+[Speaker 3]: 十月二十十点二十三，
+[Speaker 3]: 然后结束录音，
+[Speaker 3]: 它就会自动生成一个呃自动转录我的文字，
+[Speaker 3]: 然后进入我的 opposiding 里面，
+[Speaker 3]: 这个就是已经加入我的 opposiding 里了。
+[Speaker 3]: 然后现在看我的电脑屏幕，
+[Speaker 3]: 我刷新一下这个页面，
+[Speaker 3]: 它可能哦他已经出现了录音，
+[Speaker 3]: 但是文字还没有转录过来，
+[Speaker 3]: 需要一些时间。
+[Speaker 3]: 呃，
+[Speaker 3]: 我平时有什么想法，
+[Speaker 3]: 就打开手机对着他说一句话，
+[Speaker 3]: 然后他可以把我 opposian 的每日笔记实时同步过来。
+[Speaker 3]: 这个是通过 API 呃实现的。
+[Speaker 3]: 每天的笔记里呢可我会用四个 slash 来把内容切成很多块。
+[Speaker 3]: 因为我每天的想法其实是很散的，
+[Speaker 3]: 我需要能够分块的去选择我的想法。
+[Speaker 3]: 比如三月九号这个对应的有有三块嘛，
+[Speaker 3]: 然后它对应的就是三个素材，
+[Speaker 3]: 我就可以选。
+[Speaker 3]: 因为它们是不相关的，
+[Speaker 3]: 我就可以选不同的想法。
+[Speaker 3]: 然后刚才的那句话看看他过没哦，
+[Speaker 3]: 他过来了，
+[Speaker 3]: 他会现在是北京时间这刚才那那我录的那句话，
+[Speaker 3]: 他已经过来了。
+[Speaker 3]: 那我现在呢想要开始做一个跑步相关的视频，
+[Speaker 3]: 那我就把这跟这个主题相关的片段选出来。
+[Speaker 3]: 就在三月五号这儿，
+[Speaker 3]: 我选加入素材库，
+[Speaker 3]: 然后选好了下一步我选我的个人账号。
+[Speaker 3]: 因为我有时候还会做社群媒体的社群的账号，
+[Speaker 3]: 这次就是个人账号。
+[Speaker 3]: 然后这时候他就会引导我去我的 antigravity 里面告诉我，
+[Speaker 3]: 开始 call right。
+[Speaker 3]: 我直接给大家展示一下我们当时 call right 的呃，
+[Speaker 2]: 结果在哎呀这儿哦，
+[Speaker 3]: 对他先是读取了我的笔记，
+[Speaker 3]: 然后开始问我。
+[Speaker 3]: 第一个问题他会问我三个问题。
+[Speaker 3]: 第一个问题是我做 webrons，
+[Speaker 3]:  webrons 是我想做的那个跑步的 app 起心动念是什么？
+[Speaker 3]: 然后我就回复他，
+[Speaker 3]: 我的起心动念是什么？
+[Speaker 3]: 中间我还让他帮我做一个 research，
+[Speaker 3]: 帮我证实一下是不是我的这个想法是对的。
+[Speaker 3]: 然后他不仅帮我做了 research，
+[Speaker 3]: 还问我下一个问题，
+[Speaker 3]: 问我的内容，
+[Speaker 3]: 想传达什么情绪，
+[Speaker 3]: 给我给了我三个选项。
+[Speaker 3]: 然后第三个问题，
+[Speaker 3]: 希望我的内容里有多少技术和产品细节。
+[Speaker 3]: 我把问题都回复他之后，
+[Speaker 3]: 他就我可以给我生成一个生成一个完整的文章出来。
+[Speaker 3]: 也一我觉得就是最好的地方，
+[Speaker 3]: 就是他这三个问题是由浅入深的，
+[Speaker 3]: 每一个都能帮我把原本很凌乱的想法理清楚了。
+[Speaker 3]: 呃，
+[Speaker 3]: 问完之后，
+[Speaker 3]: 我自己都发现我自己好像更清楚自己到底想干什么了。
+[Speaker 3]: 呃，
+[Speaker 3]: 看最后的产出已经是一个非常完整的有条理的文章，
+[Speaker 3]: 而且完全是我自己的东西。
+[Speaker 3]: 呃，
+[Speaker 3]: 我我给他要求的是不只是把我说的话整理一遍，
+[Speaker 3]: 还要加入他自己的观点。
+[Speaker 3]: 所以你看他最后他说他作为我的他作为我的 corwriter，
+[Speaker 3]: 他加了三个自己的视角。
+[Speaker 3]: 一个是呃这个脑科学的，
+[Speaker 3]: 然后行为心理学的他自己加了一些视角，
+[Speaker 3]: 然后最妙的是，
+[Speaker 3]: 他说 vibrons 这个 app 要解决的问题是烧是抓住稍纵，
+[Speaker 3]: 即即逝想法。
+[Speaker 3]: 而本本身就是我跑步时候一个稍纵即逝的想法。
+[Speaker 3]: 就是他说这是一个 vibrrumata 讽刺，
+[Speaker 3]: 这是我完全没想到的。
+[Speaker 3]: 我觉得这就是我做 creright 最有意思的地方，
+[Speaker 3]:  AI 他可以帮我或者说陪我想到我自己都想想不到的东西。
+[Speaker 3]: 然后这个脚本是可以完全直接拿去用了，
+[Speaker 3]: 我直接就拿去用了，
+[Speaker 3]: 去拍了一个视频。
+[Speaker 3]: 然后我用了一个剪辑软件，
+[Speaker 3]: 非常推荐大家使用，
+[Speaker 3]: 叫 descript。
+[Speaker 3]: 他就直接把我直接把我的视频生成了字幕，
+[Speaker 3]: 然后我根据这个字幕就可以直接剪，
+[Speaker 3]: 可以给大家看一小我不知道是不是因为我训练的程度不够，
+[Speaker 3]: 但我从来都没有在跑完步之后后悔过。
+[Speaker 3]: 然后拍完之后我这个还没剪完啊。
+[Speaker 3]: 如果我剪完的话，
+[Speaker 3]: 我就会直接呃剪完了发布了，
+[Speaker 3]: 我就会直接回到我这个 sprout 页面里，
+[Speaker 3]: 然后点击去发布。
+[Speaker 3]: 我就把我发布的帖子的链接贴到这里面，
+[Speaker 3]: 它这个会自动识别我这个帖子的标题，
+[Speaker 3]: 我只存档我的标题和链接。
+[Speaker 3]: 因为呃未来可能会加数据看板。
+[Speaker 3]: 因为我觉得嗯我不想要存档这个视频，
+[Speaker 3]: 原原视频它都可以存在我的本地和 google drive 里面。
+[Speaker 3]: 我还不打算放在呃就是做数据分析的话，
+[Speaker 3]: 其实没有必要看我我的那个视频本身嘛。
+[Speaker 3]: 然后我有做完这个东西，
+[Speaker 3]: 我有两个想法。
+[Speaker 3]: 第一就是关于自动化，
+[Speaker 3]: 我最开始做这个想就是跟那个我们的阿斯卡想法也也很像。
+[Speaker 3]: 我最开始做这个项目的时候，
+[Speaker 3]: 想的是所有平台都接入 APIAI，
+[Speaker 3]: 它可以自动给我产出，
+[Speaker 3]: 内容自动发布，
+[Speaker 3]: 我完全不用管，
+[Speaker 3]: 但是开始做了才才发现，
+[Speaker 3]: 基本不可能。
+[Speaker 3]: 首先国内很多平台就没有开放的 api 其次就算他真的做到了。
+[Speaker 3]: 嗯，
+[Speaker 3]: 谁能忍住不再去看一眼呢？
+[Speaker 3]: 所以人在场这个事儿根本躲不掉。
+[Speaker 3]: 我认为与其花时间做一个呃可能根本用不上的自动化，
+[Speaker 3]: 不如把时间用在做好内容上。
+[Speaker 3]: 第二个也是阿斯卡说过，
+[Speaker 3]: 呃，
+[Speaker 3]: 关于语音输入，
+[Speaker 3]: 我试了好几个工具，
+[Speaker 3]: 呃，
+[Speaker 3]:  typeless 它会自动帮我整理。
+[Speaker 3]: 我说的话用来 prompt AI，
+[Speaker 3]: 它是很好用的，
+[Speaker 3]: 但是想保留真人味，
+[Speaker 3]: 不让 AI 叠加 AI。
+[Speaker 3]: 我我会更推荐原生的语音转录。
+[Speaker 3]: 比如说 whisper flow，
+[Speaker 3]: 它不会改变我们的用词，
+[Speaker 3]: 因为我认为太完美的东西反而是不真实的。
+[Speaker 3]: 呃，
+[Speaker 3]: 最后虽然我们这个 topic 叫社交媒体自动分发，
+[Speaker 3]: 但我更想解决的是怎么让真实的我能够更顺畅的出现在社交媒体上，
+[Speaker 3]: 让内容来自于我，
+[Speaker 3]: 而不是 AI。
+[Speaker 3]: 谢谢，
+[Speaker 3]: 这是我的分享。
+[Speaker 10]: 哇，
+[Speaker 10]: 这个思思考好，
+[Speaker 10]: 深入也是 echo 了。
+[Speaker 10]: 我觉得社情一下哇，
+[Speaker 10]: 产品直接就退掉了啊，
+[Speaker 10]: 直接就这样。
+[Speaker 10]: 我再说一遍，
+[Speaker 10]: 我最后思考很深入，
+[Speaker 10]: 也是 echo 了。
+[Speaker 10]: 我觉得其他的也是，
+[Speaker 10]: 我觉得也是我的想法，
+[Speaker 10]: 其实就是分发嘛，
+[Speaker 10]: 其实最多就是分发。
+[Speaker 10]: 创意的话还是就像也志瑞说的，
+[Speaker 10]: 就是不能够规模化，
+[Speaker 10]: 其实确实很难规模化。
+[Speaker 10]: 对。
+[Speaker 2]: 嗯，
+[Speaker 3]: 好，
+[Speaker 3]: 我现在给大家让大家那个就是好，
+[Speaker 3]: 我们今天基基本上就也到时间了。
+[Speaker 3]: 然后晚一点我会把我们这期的直播分享发发布。
+[Speaker 3]: 然后如果大家有任何新的点子，
+[Speaker 3]: 随时可以在那个总结帖下面回复，
+[Speaker 3]: 我们都会参考的。
+[Speaker 3]: 然后第二期如 mini 克桑的活动也即将马上，
+[Speaker 3]: 但是目目前还没有定时间啊，
+[Speaker 3]: 应该会在四月之前开发布。
+[Speaker 3]: 好，
+[Speaker 3]: 那如果大家没有什么其他的问题，
+[Speaker 3]: 我们今天就到这里，
+[Speaker 3]: 谢谢大家的参与，
+[Speaker 3]: 非常感谢大家。
+[Speaker 2]: 这四四周也就谢再见再见，
+[Speaker 2]: 再见再见对对。
