@@ -1,0 +1,188 @@
+[Speaker 1]:  open 在昨天发布的最新版二零二六三点一三中新增了一个非常强大的新特性。
+[Speaker 1]:  clouchrome dime ttooth MC atatach ach de chrome demb tooth MCP 是谷歌官方发布的一款用于 chrome 浏览器调试的 MCP。
+[Speaker 1]: 而且在之前的视频中，
+[Speaker 1]: 我也有为大家演示过这款 MCP 的详细用法。
+[Speaker 1]: 通过 open 新增的这一个新功能，
+[Speaker 1]: 我们就可以在我们的 clouopen cloud 中来直接操控我们当前所使用的 chrome 浏览器。
+[Speaker 1]: 你是也就是 open 可以直接发起请求来操控控。
+[Speaker 1]: 我们当已已经登录了各种账号的 clouchrome 浏览器。
+[Speaker 1]: 因为在之前版本的 open 中，
+[Speaker 1]: 它无法直接调用我们当前所使用的 clouchrome 浏览器，
+[Speaker 1]: 也就是我们日常在用的 chrome 浏览器。
+[Speaker 1]: 为了让大家更直观的感受 open en oul 新增的这一个新特性。
+[Speaker 1]: 下面我们就可以回到 open oud 中，
+[Speaker 1]: 来测试一下它新增的这一个新功能。
+[Speaker 1]: 下面我在 open cloud 中直接使用命令新开一个 session，
+[Speaker 1]: 然后我再用小杠命令将当前这一款模型它的思考级别调成 high。
+[Speaker 1]: 下面我们就可以输入一个任务，
+[Speaker 1]: 测试一下它调用浏览器的能力。
+[Speaker 1]: 我输入的提示词是通过浏览器打开这个平台，
+[Speaker 1]: 并发布一篇 post 测试浏览器调用能力。
+[Speaker 1]: 然后我们直接发送好发送之后，
+[Speaker 1]: 我们看一下它能否为我们自动发一篇 x post。
+[Speaker 1]: 在这里它提示它已经为我们写了一篇 x 内容，
+[Speaker 1]: 然后这里我们只需要回复发或者发布就可。
+[Speaker 1]: 然后我这里直接输入发，
+[Speaker 1]: 让它直接为我们自动化发布。
+[Speaker 1]: 然后我们就可以在右侧看一下它能否成功调用浏览器自动为我们发布这篇 x post。
+[Speaker 1]: 好，
+[Speaker 1]: 这里它提示需要调用浏览器，
+[Speaker 1]: 我们这里点击允许，
+[Speaker 1]: 然后我们就可以看到它在这里打开了我的 x 主页。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到他点击了填写 x 内容的这个输入框。
+[Speaker 1]: 好，
+[Speaker 1]: 这里它提示它需要先点击为免框，
+[Speaker 1]: 然后再粘贴内容。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到这里它自动粘贴了这个内容。
+[Speaker 1]: 在这里我们还可以看到它截了一张图，
+[Speaker 1]: 然后它又自动点击了发布按钮，
+[Speaker 1]: 这里已经发布成功。
+[Speaker 1]: 在这里它又截了一张图，
+[Speaker 1]: 在就是发布成功后的这个状态，
+[Speaker 1]: 以便它通过这个截图来辨认。
+[Speaker 1]: 好，
+[Speaker 1]: 这里就提示内容发布成功。
+[Speaker 1]: 然后这里提示浏览器自动化能力测试通过，
+[Speaker 1]: 像整个过程它直接调用的我们当前在用的这个 chrome 浏览器。
+[Speaker 1]: 因为我当前在用的 chrome 浏览器，
+[Speaker 1]: 这些账号都处于登录状态。
+[Speaker 1]: 所以 open 在调用浏览器的时候，
+[Speaker 1]: 就不需要我们单独再登录一遍我们的账号了。
+[Speaker 1]: 像这样的话，
+[Speaker 1]:  clouopen cloud 只需要发起浏览器请求，
+[Speaker 1]: 然后会解析配置文件，
+[Speaker 1]: 再通过 chrome dive、
+[Speaker 1]:  tooth MCP 来自动发现 chrome 浏览器。
+[Speaker 1]: 然后 chrome 浏览器会需要我们审批 t 也就是刚才我们点击的允许他访问浏览器的那个弹出按钮。
+[Speaker 1]: 然后 open cloud gateway 就会通过 call to 来发送各种操作。
+[Speaker 1]: 而且在整个执行过程中，
+[Speaker 1]: 它还可以实现截取浏览器的屏幕，
+[Speaker 1]: 以便判断它输入的这些内容是否成功。
+[Speaker 1]: 但 open 具备浏览器自动化能力的时候，
+[Speaker 1]: 我们就可以使用 clouopen cloud 自动化，
+[Speaker 1]: 去执行各种复杂的任务。
+[Speaker 1]: 而且整个流程不需要我们单独去登录各种账。
+[Speaker 1]: 好，
+[Speaker 1]: 它通过调用我们当前在用的酷 m 浏览器，
+[Speaker 1]: 这样就避免了我们需要重新登录各种账号的麻烦。
+[Speaker 1]: 在调用浏览器的过程中，
+[Speaker 1]: 还不会出现弹出人机交互这一些比较麻烦的验证。
+[Speaker 1]: 下面先为大家演示一下我们如何在 open 中来启用这个浏览器自动化能力。
+[Speaker 1]: 首先我们要确保我们已经将 clouopen class 升级到了二零二六点三点一三这个最新的版本。
+[Speaker 1]: 还要确保我们已经下载，
+[Speaker 1]: 并且安装了 choome 浏览器。
+[Speaker 1]: 然后我们在 prom 浏览器的地址栏直接输入这段内容，
+[Speaker 1]: 然后按一下 enter 键，
+[Speaker 1]: 在远程调试这里这里我们一定要确保将这个给启用，
+[Speaker 1]: 然后我们就可以设置 open cloud 配置文件。
+[Speaker 1]: 想设置它的配置文件非常简单，
+[Speaker 1]: 我们可以直接在命令行中用 model 命令后面跟上它的配置文件的这个完整路径。
+[Speaker 1]: 然后大家也可以用记事本来打开这个配置文件，
+[Speaker 1]: 也可以直接让 open 来帮你设置这个配置文件。
+[Speaker 1]: 但是用 clouopen clore 来设置的话，
+[Speaker 1]: 可能容易出错。
+[Speaker 1]: 所以在这里我就选择直接使用谷歌的 anti gravity 来打开这个配置文件。
+[Speaker 1]: 然后我这里直接输入 anti gravity 命令跟上这个文件路径，
+[Speaker 1]: 我们直接按下 enter 键就可以。
+[Speaker 1]: 这样的话，
+[Speaker 1]: 它就会在 antigravity 中来打开这个配置文件，
+[Speaker 1]: 在配置文件中我们只需要增加这一段内容就可以。
+[Speaker 1]: 然后大家如果不知道将这段内容放置在哪里的话，
+[Speaker 1]: 可以直接让 antigravity 帮你放置。
+[Speaker 1]: 比如说我们就可以直接输入自然文件，
+[Speaker 1]: 在输入的自然语言，
+[Speaker 1]: 就是帮我把这个配置内容放入配置文件。
+[Speaker 1]: 在下面这里就是我放置的刚才我们查看的这一段配置文件，
+[Speaker 1]: 然后直接点击发送 anti gravity，
+[Speaker 1]: 就会为你配置好。
+[Speaker 1]: 刚才的这段内容当配置好之后，
+[Speaker 1]: 我们在终端命令行执行一下，
+[Speaker 1]: 重启 get way 的这个命令令重启启后，
+[Speaker 1]: 下面我们就可以在 open en oud 中来使用这一个功能了。
+[Speaker 1]: 刚才我们测试了让它自动发一篇 x post，
+[Speaker 1]: 下面我们还可以继续测试。
+[Speaker 1]: 我这里再新开一个选，
+[Speaker 1]: 然后我们就可以输入一个浏览器自动化任务。
+[Speaker 1]: 我输入的任务是在浏览器中打开 chat GPT，
+[Speaker 1]: 让 chat GPT 搜索 open clour 新增了哪些新特性，
+[Speaker 1]: 然后直接发送。
+[Speaker 1]: 好这里，
+[Speaker 1]: 它提示需要我们允许。
+[Speaker 1]: 可以看到这里，
+[Speaker 1]: 它自动打开了 chat GPT，
+[Speaker 1]: 这里它在输入框中输入了要搜索的内容，
+[Speaker 1]: 然后它自动点击了发送，
+[Speaker 1]: 现在拆 DGBT 正在搜索，
+[Speaker 1]: 我们这里要稍等一下，
+[Speaker 1]: 这里拆 DGBT 完成搜索，
+[Speaker 1]: 然后我们的 open class 这里它也在总结这里提到的 open class，
+[Speaker 1]: 最新版就是二零二六点三点一三。
+[Speaker 1]: 在这里还可以说了这些改进的内容。
+[Speaker 1]: 相见的话，
+[Speaker 1]: 我们的 open 就成功调用了 clouchen，
+[Speaker 1]:  GBT 完成了搜索。
+[Speaker 1]: 所以大家如果没有为 open class 设置搜索 API 的话，
+[Speaker 1]: 那么就可以让 open class 通过浏览器调用的方式，
+[Speaker 1]: 在浏览器中使用 chat GPT，
+[Speaker 1]: 为我们完成相关的搜索。
+[Speaker 1]: 而且通过浏览器调用 chat GPT 完成搜索的这个工作流，
+[Speaker 1]: 我们还可以直接让它固化成 skill。
+[Speaker 1]: 下面我们就可以在输入框中输入提示词。
+[Speaker 1]: 我输入提示词是将刚才通过浏览器调用 chat GPT 实现搜索的工作流固化成 skill。
+[Speaker 1]: 下次再需要 chat GPT 搜索的时候直接调用 skill。
+[Speaker 1]: 然后我们直接发送，
+[Speaker 1]: 让它将刚才的这个工作流直接固化成 skill。
+[Speaker 1]: 因为如果不固化成 skill 的话，
+[Speaker 1]: 它下次再调用拆 DGPD 进行搜索的时候，
+[Speaker 1]: 它需要重新去查找输入框的元素。
+[Speaker 1]:  ID 是什么，
+[Speaker 1]: 并且还需要重新查找发送按钮的 ID 是什么。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 既浪费 token 又浪费时间，
+[Speaker 1]: 所以我们需要将它固化成一个 skill。
+[Speaker 1]: 这里它提示这个 skill 已经创建成功。
+[Speaker 1]: 下面我们就可以输入提示词，
+[Speaker 1]: 让它测试一下这个 skill，
+[Speaker 1]: 然后直接发送看一下它能否成功。
+[Speaker 1]: 通过这 skill，
+[Speaker 1]:  e 次调调 chd GPT 完成搜索，
+[Speaker 1]: 这里需要我们允许他调用浏览器。
+[Speaker 1]: 好，
+[Speaker 1]: 这里成功打开了浏览器。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到他在浏览器中自动输入了要搜索的内容，
+[Speaker 1]: 然后它自动完成了，
+[Speaker 1]: 点击发送按钮。
+[Speaker 1]: 在这里我们还可以看到它执行了这一些步骤，
+[Speaker 1]: 每一个步骤它都标的非常清晰。
+[Speaker 1]: 这里 chat GPT 输出完成，
+[Speaker 1]: 然后 open 开始对它输出的内容进行整理，
+[Speaker 1]: 这就是它整理出的 clouchat GPT 搜索的这些结果。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 我们就将 open 调用 clouchrome 浏览器完成搜索的这个工作流固化成了 skill。
+[Speaker 1]: 当后续我们再让它调用浏览器，
+[Speaker 1]: 通过 chat GPT 实现搜索的时候，
+[Speaker 1]: 它就会直接通过这个工作流去执行，
+[Speaker 1]: 就不会浪费时间，
+[Speaker 1]: 也不会浪费 token。
+[Speaker 1]: 下面我们还可以继续输入提示词，
+[Speaker 1]: 让它创建个 get up 仓库，
+[Speaker 1]: 将这个 skill 同步到仓库，
+[Speaker 1]: 我们直接发送。
+[Speaker 1]: 好，
+[Speaker 1]: 这里提示它已经将这个 scale 同步到了 get up 仓库。
+[Speaker 1]: 这样的话大家就可以从这个 get up 仓库下载来使用。
+[Speaker 1]: 好，
+[Speaker 1]: 通过我们这几个简单案例的测试，
+[Speaker 1]: 可以发现 chrodab tooth MCP attach mode，
+[Speaker 1]: 在 open 中的效果还是非常不错的。
+[Speaker 1]: 有了这个功能，
+[Speaker 1]: 我们就可以在 clouopen 闹钟非常灵活的调用。
+[Speaker 1]: 我们当前在用的 chrome 浏览器完成各种浏览器自动化任务。
+[Speaker 1]: 好，
+[Speaker 1]: 本期视频就做到这里，
+[Speaker 1]: 欢迎大家点赞、
+[Speaker 1]: 关注和转发，
+[Speaker 1]: 谢谢大家观看。
