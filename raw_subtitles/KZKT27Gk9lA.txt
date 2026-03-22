@@ -1,0 +1,148 @@
+[Speaker 1]: 最近两个月为大家制作了多期与 open class 相关的视频，
+[Speaker 1]: 而今天微信终于支持接入 open class 了。
+[Speaker 1]: 我们可以直接在手机微信上直接与我们本地安装的 open class 或者服务器上安装的 open class 进行交互。
+[Speaker 1]: 为了方便演示，
+[Speaker 1]: 我将手机微信投屏到了电脑上。
+[Speaker 1]: 下面我们就可以输入提示词，
+[Speaker 1]: 你运行在什么设备上，
+[Speaker 1]: 然后我们直接发送好这里，
+[Speaker 1]: 提示对方正在输入好这里，
+[Speaker 1]: 它输出了它运行在我的 macbook 上好下。
+[Speaker 1]: 下面就为大家演示我们如何在微信上接入我们的 open class。
+[Speaker 1]: 首先我们要确保我们已经在我们的设备上或者远程服务器上已经安装了 open class。
+[Speaker 1]: 我们只需要运行 open clougeteway restart 就可以来检测一下。
+[Speaker 1]: 然后大家如果没有安装的话，
+[Speaker 1]: 就可以根据 open 官方给出的安装命令。
+[Speaker 1]: 然后在桌面命令行中用 clouopen 官方给出的命令进行安装，
+[Speaker 1]: 就可以更加详细的安装步骤。
+[Speaker 1]: 我会放在笔记中，
+[Speaker 1]: 大家可以从我视频下方的笔记去查看就可以。
+[Speaker 1]: 下面我们就可以通过微信的 open clour 插件与我们手机端的微信进行连接。
+[Speaker 1]: 首先要保证我们的微信已经升级到了最新版本。
+[Speaker 1]: 我们可以点击这个关于微信，
+[Speaker 1]: 要确保微信的版本是八点零点七零。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们就开始将微信连接到我们的 open clour。
+[Speaker 1]: 然后我们只需要进入设置找到插件，
+[Speaker 1]: 这里，
+[Speaker 1]: 然后这里就会显示微信 clall about。
+[Speaker 1]: 然后我们点击详情，
+[Speaker 1]: 点击详情之后，
+[Speaker 1]: 这里给出了在电脑上安装这个插件的命令。
+[Speaker 1]: 我们只需要复制这一条命令，
+[Speaker 1]: 这里显示已复制。
+[Speaker 1]: 然后在电脑上，
+[Speaker 1]: 我们打开终端，
+[Speaker 1]: 命令行 windows 用户，
+[Speaker 1]: 打开 CMD，
+[Speaker 1]: 然后我们直接粘贴刚才的这一条命令，
+[Speaker 1]: 运行这条命令来安装 open cloud 微信插件。
+[Speaker 1]: 然后这里提示已找到本地安装的 open clore，
+[Speaker 1]: 现在正在安装插件，
+[Speaker 1]: 这里我们要稍等一下。
+[Speaker 1]: 好，
+[Speaker 1]: 这里提示插件已就绪，
+[Speaker 1]: 开始首次连接。
+[Speaker 1]: 然后这里就会出现这个和二维码。
+[Speaker 1]: 我这里打开手机微信，
+[Speaker 1]: 然后直接扫描这个二维码扫描之后，
+[Speaker 1]: 我再投屏到电脑上。
+[Speaker 1]: 然后我们点击这个连接，
+[Speaker 1]: 这里提示正在连接，
+[Speaker 1]: 这里就提示与微信连接成功。
+[Speaker 1]: 然后我们就可以在微信中与我们本地的龙虾进行交互。
+[Speaker 1]: 好，
+[Speaker 1]: 这里他就输出了，
+[Speaker 1]: 有什么可以帮你的。
+[Speaker 1]: 然后我还可以问他他的 agent ID 是什么，
+[Speaker 1]: 我们看一下他是否绑定的 open cloud 主 agent，
+[Speaker 1]: 它的 agent ID 是 main，
+[Speaker 1]: 也就是绑定的主 agent。
+[Speaker 1]: 下面我们还可以继续测试我输入的提示词，
+[Speaker 1]: 是抓取今天的 AI 资讯。
+[Speaker 1]: 然后我们直接发送这里，
+[Speaker 1]: 他就通过我设置的 skill 抓取到了今天的这些 AI 资讯。
+[Speaker 1]: 下面我们测试一下他能否将电脑上的文件直接传送到微信上，
+[Speaker 1]: 让他将我电脑桌面上名为 test 的图像发给我。
+[Speaker 1]: 我们直接发送看一下他能否将我桌面上的文件通过微信发送给我们。
+[Speaker 1]: 好在等了几分钟之后，
+[Speaker 1]: 这里并没有将我们所需要的这个图像发给我们。
+[Speaker 1]: 然后这里还是提示正在输入。
+[Speaker 1]: 下面我们可以打开 cloud code，
+[Speaker 1]: 让 cloud 分析一下微信的 open cloud 插件是否支持发送文件。
+[Speaker 1]: 这里我打开终端命令行，
+[Speaker 1]: 然后启动 cloud code。
+[Speaker 1]: 我在 cloud code 中输入的提示词是分析这条命令安装的 open cloud 插件是否支持文件传输功能。
+[Speaker 1]: 然后我们直接发送让 cloud code 帮我们分析微信插件的这个功能。
+[Speaker 1]: 在这里，
+[Speaker 1]: 它还是没有将这个图像发送给我们。
+[Speaker 1]: 然后我们就借助 cloud code 进行分析，
+[Speaker 1]: 或者让 cloud code 为我们加入这个功能。
+[Speaker 1]: 在 cloud code 分析代码的时候，
+[Speaker 1]: 我打开手机查看，
+[Speaker 1]: 然后这里提示已经将图像发送给了我们这里，
+[Speaker 1]: 他给出了原因。
+[Speaker 1]: 他说微信 CDN 上传一直超时，
+[Speaker 1]: 可能是网络或微信服务端的问题。
+[Speaker 1]: 然后他换了个方式，
+[Speaker 1]: 将图像压缩到了七十七 k 才将图像上传成功。
+[Speaker 1]: 这里提示微信 CDN 对大文件上传不太稳定。
+[Speaker 1]: 然后我们打开这个图像，
+[Speaker 1]: 可以看到这个图像效果还是不错的。
+[Speaker 1]: 然后这个图像被压缩到了七十五 TB 微信 open cloud 的插件还是支持传输图像的。
+[Speaker 1]: 只是因为刚才这个 CDN 不稳定，
+[Speaker 1]: 导致我们这个比较大的图像发送失败。
+[Speaker 1]: 然后 open cloud，
+[Speaker 1]: 将这个图像压缩到了七十多 k 后就上传成功。
+[Speaker 1]: 下面我们还可以测试一下将手机上的图像传给电脑。
+[Speaker 1]: 我从手机相册随便找一张图像，
+[Speaker 1]: 然后我输入提示词将图像放在电脑的当录的文件夹里。
+[Speaker 1]: 然后我们看一下它能否将我们手机的图像传输给我们的电脑。
+[Speaker 1]: 好，
+[Speaker 1]: 这里它直接输出了对我们这个图像的分析。
+[Speaker 1]: 然后这里提示已经将文件保存在了当 load 文件夹里，
+[Speaker 1]: 图像约二百一十六 k 然后我们打开当 load 文件夹，
+[Speaker 1]: 这里我们就看到了这个海棠花点开之后，
+[Speaker 1]: 就是它从手机上传输到我们电脑上的这个图像。
+[Speaker 1]: 像这样看来，
+[Speaker 1]: 这个微信插件现在做的还是比较完善的。
+[Speaker 1]: 虽然它刚发布，
+[Speaker 1]: 但传输文件的功能做的还是比较完善的。
+[Speaker 1]: 既可以从电脑上向手机传输文件，
+[Speaker 1]: 又可以从手机上向电脑传输文件。
+[Speaker 1]: 然后我们再看一下 class code 对微信插件功能的分析。
+[Speaker 1]: 这里它提示支持文本类型的传输，
+[Speaker 1]: 还支持图像类型的传输，
+[Speaker 1]: 还支持接收音频文件，
+[Speaker 1]: 还支持任意文件类型，
+[Speaker 1]: 还有视频文件的传输。
+[Speaker 1]: 这里还给出了不同文件类型的接收的步骤。
+[Speaker 1]: 这里还有发送的步骤，
+[Speaker 1]: 这里还有发送来源等内容。
+[Speaker 1]: 他提到，
+[Speaker 1]: 语音仅支持接收发送文免的话，
+[Speaker 1]: 限制在四千字符，
+[Speaker 1]: 而且不支持群聊。
+[Speaker 1]: 也就是我们无法将当前的微信 clouabout 拉入到我们的群聊。
+[Speaker 1]: 下面我们再让 cloud code 分析一下插件代码是否有安全漏洞。
+[Speaker 1]: 因为大家最关注的就是 open cloud 它是否足够的安全。
+[Speaker 1]: 所以我在使用 open cloud 的时候，
+[Speaker 1]: 只要下载 scale 或者是 MCP，
+[Speaker 1]: 我都会先让 cloud code 或者 codex 分析一下这些源代码是否有安全漏洞。
+[Speaker 1]: 对于有安全漏洞的，
+[Speaker 1]: 我就直接选择不安装。
+[Speaker 1]: 好，
+[Speaker 1]: 这是 cloud code 给出的审查结论。
+[Speaker 1]: 他说，
+[Speaker 1]: 个人麦 c 本地使用可以放心用，
+[Speaker 1]: 保持这个配对机制开启只允许我们自己的微信 ID，
+[Speaker 1]: 这样大家就可以放心的来使用 open class 插件。
+[Speaker 1]: 因为它并不存在影响我们本地使用的一些漏洞。
+[Speaker 1]: 本期视频为大家演示了如何在微信中接入 open，
+[Speaker 1]: 并且进行测试，
+[Speaker 1]:  clouopen 更多更高级的用法。
+[Speaker 1]: 大家可以查看我之前发布的视频，
+[Speaker 1]: 本期视频就做到这里，
+[Speaker 1]: 欢迎大家点赞、
+[Speaker 1]: 关注和转发，
+[Speaker 1]: 谢谢大家观看。
