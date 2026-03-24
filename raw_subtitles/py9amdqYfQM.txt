@@ -1,0 +1,230 @@
+[Speaker 1]:  cloud 今天发布了最新的桌面版应用。
+[Speaker 1]: 在这个最新的桌面版应用中，
+[Speaker 1]: 我们可以实现真正的用 cloud 来操作电脑，
+[Speaker 1]: 而且这个功能强大到足以替代 open cloud。
+[Speaker 1]: 最强大的是它可以直接操控我们电脑上的国际象棋游戏。
+[Speaker 1]: 因为这个国际象棋游戏并不是网页版的，
+[Speaker 1]: 而是真正的桌面版的这个演示步骤。
+[Speaker 1]: 我会放在视频的后半部分下面。
+[Speaker 1]: 我们可以先简单来测试一下，
+[Speaker 1]: 在测试之前，
+[Speaker 1]: 大家首先要保证将我们的 cloud code 更新到最新版本。
+[Speaker 1]: 我们只需要点击下载并安装 cloud 桌面版应用，
+[Speaker 1]: 就可以更新到最新版之后，
+[Speaker 1]: 在这里我们可以看到 cowork 在右侧还有 code 这个 cowork 的选项以及 code 的选项，
+[Speaker 1]: 我们都可以用来操控电脑。
+[Speaker 1]: 我这里就先选择 code 测试一下。
+[Speaker 1]: 下面我输入一个最简单的任务来测试一下，
+[Speaker 1]: 让它将我桌面上关于视频封面的所有图片都放在一个文件夹在位置这里我就选择的我的桌面在模型这里我选的是斯四点六，
+[Speaker 1]: 它的上下文长度达到了一百万，
+[Speaker 1]: 然后我们就点击发送。
+[Speaker 1]: 可以看到我桌面上放了非常多的与视频封面相关的这些图像。
+[Speaker 1]: 然后我们就看一下它能否正确的将这些与封面相关的图像都放在一个文件夹里，
+[Speaker 1]: 它会读取桌面上的这一些图像文件。
+[Speaker 1]: 这里他提到已识别完所有图片，
+[Speaker 1]: 这里需要我们授权一下权限，
+[Speaker 1]: 让他去操作。
+[Speaker 0]: 是的是的是的是的，
+[Speaker 1]: 这个这个在他操作的同时，
+[Speaker 1]: 我们也可以看到桌面上与视频封面相关的图像现在已经看不到了，
+[Speaker 1]: 它就提示这个任务已经完成。
+[Speaker 1]: 在桌面创建了这个文件夹。
+[Speaker 1]: 然后我们打开这个文件夹，
+[Speaker 1]: 看一下这里面的图像。
+[Speaker 1]: 我们先点开第一张，
+[Speaker 1]: 可以看到，
+[Speaker 1]: 这是我上上期视频制作的视频封面。
+[Speaker 1]: 然后我们再找一张其他的这也是在之前的视频中，
+[Speaker 1]: 我制作的视频封面可以看到 cloud。
+[Speaker 1]: 它精准的将我桌面上的这些视频封面都整理到了一个文件夹里。
+[Speaker 1]: 这个操作速度还有准确度还是挺超乎想象的。
+[Speaker 1]: 这是我演示的一个最简单的案例。
+[Speaker 1]: 演示到这里，
+[Speaker 1]: 大家肯定会问，
+[Speaker 1]:  open cloud 它可以用手机与我们电脑上的 open cloud 进行交互，
+[Speaker 1]: 而 cloud 能否用手机与我们电脑进行交互呢？
+[Speaker 1]: 答案是完全可以的。
+[Speaker 1]: 下面我就演示一下，
+[Speaker 1]: 直接在手机上向电脑上的 cloud 发送任务，
+[Speaker 1]: 然后让电脑上的 cloud 为我们执行任务。
+[Speaker 1]: 为了方便查看效果，
+[Speaker 1]: 将 cloud 放在左侧，
+[Speaker 1]: 然后将浏览器放在右侧。
+[Speaker 1]: 同时我开启手机上的录屏。
+[Speaker 1]: 在手机上这里我打开了 cloud 的 app，
+[Speaker 1]: 然后我点击这里的 dispatch，
+[Speaker 1]: 也就是发送任务到电脑。
+[Speaker 1]: 在这里我输入一个任务，
+[Speaker 1]: 我输入的任务是调用浏览器，
+[Speaker 1]: 打开我的博客，
+[Speaker 1]: 并进入第二篇文章，
+[Speaker 1]: 然后总结文章内容，
+[Speaker 1]: 然后点击发送。
+[Speaker 1]: 然后我们看一下电脑上它能否通过浏览器来操控。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到这里，
+[Speaker 1]: 它成功打开了一个新的标签页，
+[Speaker 1]: 看一下它能否打开我的博客。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到这里，
+[Speaker 1]: 它打开了我的博客，
+[Speaker 1]: 再看一下它能否进入第二篇博客。
+[Speaker 1]: 好，
+[Speaker 1]: 他成功点击进入了第二篇博客。
+[Speaker 1]: 然后我们看一下手机上能否输出他总结的博客内容。
+[Speaker 1]: 因为现在手机上我还在录屏。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到在手机上这里它输出了总结的第二篇博客的内容。
+[Speaker 1]: 这里是这篇博客是关于 open clouchrome deb tooth MCP 的配置教程。
+[Speaker 1]: 核心内容是如何让 open cloud 接管本机的真实的 chrome 浏览器。
+[Speaker 1]: 然后这里就是给出了解决痛点，
+[Speaker 1]: 还有核心配置、
+[Speaker 1]: 使用前提等等。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 我们就成功通过手机上的 cloud 实现了让它操控我们的电脑来执行相关的任务。
+[Speaker 1]: 哪怕我们不在电脑前，
+[Speaker 1]: 也可以使用手机来操控我们的电脑。
+[Speaker 1]: 而且整个过程不需要我们进行任何复杂的配置。
+[Speaker 1]: 我们只需要同时在电脑上还有手机上安装好 cloud 应用就可以了，
+[Speaker 1]: 根本不需要进行任何复杂的配置。
+[Speaker 1]: 好，
+[Speaker 1]: 刚才为大家演示的场景是非常简单的场景。
+[Speaker 1]: 下面我们加大难度来测试一下 cloud 桌面版 computer use 的功能。
+[Speaker 1]: 我输入一个提示词，
+[Speaker 1]: 让它将我桌面上的这个 mark d 文件的格式转为 PDF。
+[Speaker 1]: 在这里我们可以看到我电脑上有这个 markdown 格式的文件，
+[Speaker 1]: 然后我们直接点击发送好这里。
+[Speaker 1]: 它提示已经将这个 markdown 文件转为了 PDF 格式。
+[Speaker 1]: 然后我们可以看一下这个效果，
+[Speaker 1]: 我们直接打开可以看到。
+[Speaker 1]: 这也是他将我们的 markdown 文件转为 PDF 格式的这个效果。
+[Speaker 1]: 可以看到这个效果还是非常不错的这是我们测试的比较简单的任务。
+[Speaker 1]: 下面我们还可以继续加大难度。
+[Speaker 1]: 然后我输入提示词，
+[Speaker 1]: 让他先用浏览器查询特斯拉、
+[Speaker 1]: 苹果、
+[Speaker 1]: 微软，
+[Speaker 1]: 还有英伟达最新股票信息，
+[Speaker 1]: 从可靠的财经网站获取当前的股价。
+[Speaker 1]: 然后打开我电脑上的 numbers，
+[Speaker 1]: 也就是表格软件创建一个新的表格，
+[Speaker 1]: 制作一张对比表，
+[Speaker 1]: 然后我们就可以点击发送。
+[Speaker 1]: 因为这个任务涉及到浏览器调用，
+[Speaker 1]: 可以看到在这里它新开了一个浏览器的标签页，
+[Speaker 1]: 还需要打开我电脑的 numbers。
+[Speaker 1]: 这个应用，
+[Speaker 1]: 这也是苹果自带的表格应用。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到它现在正在从雅虎 finance 来查找这些股票信息。
+[Speaker 1]: 然后在这里他已经打开了多个刚才我们提到的这些股票信息。
+[Speaker 1]: 在这里可以看到他提取的这些数据。
+[Speaker 1]: 然后我们看一下他能否成功调用 numbers 表格。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到这里，
+[Speaker 1]: 他成功打开了表格，
+[Speaker 1]: 然后成功在里面输入了这些内容。
+[Speaker 1]: 而且输入的时候，
+[Speaker 1]: 我们还可以看到他输入的步骤。
+[Speaker 1]: 然后在这里它就提示表格已经保存在了桌面上，
+[Speaker 1]: 可以看到整个步骤，
+[Speaker 1]: 它操作的非常非常丝滑。
+[Speaker 1]: 下面我们让它在刚才抓取的信息的基础上做成 PPT。
+[Speaker 1]: 我输入的提示词是，
+[Speaker 1]: 然后打开 keynote，
+[Speaker 1]: 创建一个新的演示文稿，
+[Speaker 1]: 并使用类似苹果发布会风格的主题设计一页对比幻灯片。
+[Speaker 1]: 然后我们直接发送看一下他能否根据刚才查询的信息来帮我们制作 PPT。
+[Speaker 1]: 因为这个 keynote 是苹果自带的制作 PPT 文件的一个 app。
+[Speaker 1]: 好，
+[Speaker 1]: 这是它提示它为我们创建了这个 ppt。
+[Speaker 1]: 然后我们播放一下，
+[Speaker 1]: 看一下 PPT 的效果，
+[Speaker 1]: 可以看到这个 PPT 效果还算可以，
+[Speaker 1]: 只是有个别文字有重叠。
+[Speaker 1]: 但这个主题和背景色是符合我们提示词要求的。
+[Speaker 1]: 下面我们在这个任务的基础上继续测试我输入的提示词，
+[Speaker 1]: 然后打开 pages，
+[Speaker 1]: 创建空白文档，
+[Speaker 1]: 撰写一份对比报告，
+[Speaker 1]: 对比这几家公司关键股票数据。
+[Speaker 1]: 然后我们直接发送看一下它能否创建一个文档。
+[Speaker 1]: 因为这个 pages 它也是苹果自带的文档应用。
+[Speaker 1]: 它提示这个 pages 报告已经创建完成，
+[Speaker 1]: 可以看到这个效果已经创较不错，
+[Speaker 1]: 只是它用的是英文内容，
+[Speaker 1]: 然后我们可以让它改成中文，
+[Speaker 1]: 我这里输入让它改成中文内容。
+[Speaker 1]: 在这里它提示这个文档已经制作完成，
+[Speaker 1]: 我们可以看一下，
+[Speaker 1]: 这样看起来这个效果就非常不错了，
+[Speaker 1]: 而且这个拍板效果也算比较不错。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们再加大难度。
+[Speaker 1]: 我们看一下它能否去操作。
+[Speaker 1]: 我们电脑上自带的这些游戏。
+[Speaker 1]: 我这里打开了电脑上自带的这个象棋游戏，
+[Speaker 1]: 它并不是网页版的象棋游戏，
+[Speaker 1]: 而是真正的桌面版象棋游戏。
+[Speaker 1]: 然后我输入提示词，
+[Speaker 1]: 现在我为你打开了 micros 自带的国际象棋游戏，
+[Speaker 1]: 请帮我下象棋，
+[Speaker 1]: 所有决策由你完成，
+[Speaker 1]: 不要问我，
+[Speaker 1]: 然后我们直接发送看一下它能否为我们操控桌面版的这个国际象棋游戏。
+[Speaker 1]: 在这里可以看到它已经截取了屏幕。
+[Speaker 1]: 好，
+[Speaker 1]: 可以看到非常神奇的是，
+[Speaker 1]: 他竟然真的移动了这个相棋的棋子。
+[Speaker 0]: 然后我们继续看好，
+[Speaker 1]: 可以看到他又成功移动了一个棋子，
+[Speaker 1]: 这个效果还是超乎想象的。
+[Speaker 1]: 因为他现在操作的是真正的桌面上的软件，
+[Speaker 1]: 并不是网页版里的国际象棋。
+[Speaker 1]: 因为网页版里的国际象机，
+[Speaker 1]: 它可以根据倒模来定位元素。
+[Speaker 1]: 然后他又移动了这个棋子，
+[Speaker 1]: 可以看到现在这个速度要快多了，
+[Speaker 1]: 比刚才要快很多。
+[Speaker 1]: 好。
+[Speaker 1]: 他又在移动棋子，
+[Speaker 1]: 可以看到这个效果还是非常丝滑的。
+[Speaker 1]: 好，
+[Speaker 1]: 它又在移动七次。
+[Speaker 1]: 好，
+[Speaker 1]: 他还在走动棋子可以看到整个过程，
+[Speaker 1]: 他似乎真的在思考。
+[Speaker 1]: 好，
+[Speaker 1]: 他还在走动棋子，
+[Speaker 1]: 这个速度还是很快的。
+[Speaker 1]: 好，
+[Speaker 1]: 为了节省时间，
+[Speaker 1]: 这里我们就不再让他继续下国际象棋了。
+[Speaker 1]: 可以看到整个效果真的是超乎我们的想象。
+[Speaker 1]: 因为它可以直接操控桌面上的这个游戏，
+[Speaker 1]: 而不是操控网页里的游戏。
+[Speaker 1]: 通过我们多个案例的测试，
+[Speaker 1]: 可以发现 cloud 它真的能够完美的操控我们的电脑。
+[Speaker 1]: 而且我们还可以从手机上向电脑上的 cloud 来发送任务，
+[Speaker 1]: 让电脑上的 cloud 来执行任务。
+[Speaker 1]: 像这样看来，
+[Speaker 1]: 它真的比 open cloud 要强大，
+[Speaker 1]: 非常多了。
+[Speaker 1]: 对，
+[Speaker 1]:  open 简直就是降维打击。
+[Speaker 1]: 因为想让 open cloud 达到如此丝滑的电脑操作的效果，
+[Speaker 1]: 我们需要花费非常长的时间。
+[Speaker 1]: 对 open cloud 进行配置。
+[Speaker 1]: 而 cloud 我们几乎就是开箱即用，
+[Speaker 1]: 甚至根本不需要做任何配置。
+[Speaker 1]: 对于专业人士，
+[Speaker 1]: 尤其是开发者，
+[Speaker 1]: 真的可以完全使用 cloud 来替代 open cloud，
+[Speaker 1]: 因为使用 open cloud 光各种配置以及 bug 修复都会浪费我们非常多的时间。
+[Speaker 1]: 而 cloud 直接开箱即用，
+[Speaker 1]: 不需要做任何配置，
+[Speaker 1]: 就可以完完成复杂的 computer use 任务。
+[Speaker 1]: 本期视频就做到这里，
+[Speaker 1]: 欢迎大家点赞、
+[Speaker 1]: 关注和转发，
+[Speaker 1]: 谢谢大家观看。
