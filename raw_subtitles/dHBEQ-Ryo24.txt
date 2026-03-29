@@ -1,0 +1,1833 @@
+[Speaker 0]:  yeah，
+[Speaker 0]:  it litererdiscussts me like i literally think it's in humane。
+[Speaker 0]:  my mission remains the same as it has been for，
+[Speaker 0]:  like twenty years，
+[Speaker 0]:  which is to stop people working like this jeremy howard，
+[Speaker 1]:  a deep learning pioneer。
+[Speaker 1]:  er a cangle grandmaster。
+[Speaker 1]:  he is a huge advocates for actually understanding what we are building through an interactive loop，
+[Speaker 1]:  a notebook，
+[Speaker 1]:  a repple the acts of poking at a problem until it pushes back back。
+[Speaker 1]:  he argues this is where real ininght happens，
+[Speaker 0]:  and this hunny thing they're both right right LM cospplay understanding things like they pretend to understand things，
+[Speaker 0]:  no one's actually creating shift times more high quality software than they were before。
+[Speaker 0]:  so we've actually just stone a study of this，
+[Speaker 0]:  and there's a tiny uptic，
+[Speaker 0]:  tiny uptic and what people are actually shipping。
+[Speaker 0]:  they thing about AI based coding is that it's like a slot machine and that you you have an illusion of control。
+[Speaker 0]:  you know，
+[Speaker 0]:  you can get the craft you're prompt and your list of mc pys and your skills and whatever。
+[Speaker 0]:  and then，
+[Speaker 0]:  but in the indiof，
+[Speaker 0]:  a pull l lvor，
+[Speaker 0]:  right，
+[Speaker 0]:  here's a piece of code that，
+[Speaker 0]:  that would understands。
+[Speaker 0]:  and am i going to bet my company's product on it？
+[Speaker 0]:  and i the answers i don't know because like II don't like like i don't know what to do now because no one's like being in in this situthat，
+[Speaker 0]:  they're really bad。
+[Speaker 0]:  it's software engineering uh。
+[Speaker 0]:  and then i think that's possibly always going to be true。
+[Speaker 0]:  they the idea that a human can do a lot more with a computer when the human can like manipulate the objects in inside that computer in real time，
+[Speaker 0]:  study them，
+[Speaker 0]:  move them around and combine them together。
+[Speaker 0]:  whoever you listen to。
+[Speaker 0]:  we know whether they move them or whatever like is，
+[Speaker 0]:  if you always always here from the great scientists，
+[Speaker 0]:  how they build deeper intuition by by building mental models，
+[Speaker 0]:  which they get overtime by interacting with the things that they're learning about a machine called kind kind of build at effective hiereracio distractions，
+[Speaker 0]:  about what the world isn't，
+[Speaker 0]:  how it works entirely through looking at the statisticcorrelations of a huge coppus of text using a declloning model that was my premise。
+[Speaker 1]:  this video is brought to you by envideo GTC。
+[Speaker 1]:  it's running much the sixteen until the nineteen teen ince and hoza and streaming free online。
+[Speaker 1]:  the key topics this year are agentic，
+[Speaker 1]:  AI and reasoning，
+[Speaker 1]:  high performance，
+[Speaker 1]:  inference and training，
+[Speaker 1]:  open models and physical AI and robot tics。
+[Speaker 1]:  i'm so excited about the DGX spari've been on the waiting list for over a year。
+[Speaker 1]:  now it's a personal supercomputer that is about the size of a mac mini。
+[Speaker 1]:  so the perfect aornment to a macbook pro by the way，
+[Speaker 1]:  and you can find tune a seventy billion parameter language model with one of these things。
+[Speaker 1]:  and i'm giving one away for free。
+[Speaker 1]:  well，
+[Speaker 1]:  you have to do is sign n to the the conference and attend one of the sessions using the link in the description。
+[Speaker 1]:  as for the sessions，
+[Speaker 1]:  i'm interested in attending amen，
+[Speaker 1]:  sang 's talk。
+[Speaker 1]:  so he's the cto of as and a session is code with context，
+[Speaker 1]:  build and ergentic tic d。
+[Speaker 1]:  the truly understandand your code base。
+[Speaker 1]:  now，
+[Speaker 1]:  obviously，
+[Speaker 1]:  jenson's kino is on mars to sixteen。
+[Speaker 1]:  he said he's going to unvy LA new ship that will surprise the world。
+[Speaker 1]:  so their gengenerararchitecture very a rubin is already in full producture theyre's speculation。
+[Speaker 1]:  we might even get an early glimpse of their new finineman architecture。
+[Speaker 1]:  if you don't forget focused，
+[Speaker 1]:  the link is in the description。
+[Speaker 1]:  if you're attending virtually，
+[Speaker 1]:  it's completely free。
+[Speaker 1]:  don't miss it。
+[Speaker 1]:  join me how to welcome to MLSTI。
+[Speaker 0]:  mean，
+[Speaker 0]:  welcome to my home。
+[Speaker 0]:  thanks are coming。
+[Speaker 0]:  yeah，
+[Speaker 1]:  where where where are we now？
+[Speaker 0]:  we are in beautiful motin bay in southeast queensland。
+[Speaker 0]:  we are by the sea in my backyard，
+[Speaker 1]:  whether didn't disappoint II certainly didn't。
+[Speaker 0]:  it doesn't often。
+[Speaker 0]:  but if you were here yesterday would have been very different。
+[Speaker 1]:  well，
+[Speaker 1]:  i don't know way to start i'i've ve been a huge fan，
+[Speaker 1]:  probably since about two thousand and seventy eighty。
+[Speaker 1]:  and of course，
+[Speaker 1]:  you had the famous you were in fit paper。
+[Speaker 1]:  and when i was at microsoft，
+[Speaker 1]:  i member doing a presentation about that because it is actually，
+[Speaker 1]:  i mean，
+[Speaker 1]:  now we take it for granted that we find tune language models on a copies of text。
+[Speaker 1]:  and then we kind of like continue to join them。
+[Speaker 1]:  and and specialize them，
+[Speaker 1]:  but apparently this was not received wisdom。
+[Speaker 0]:  now this was the first time it happened。
+[Speaker 0]:  yeah，
+[Speaker 0]:  kind of the first old second。
+[Speaker 0]:  so cockly and andrew die had done something a few years ago，
+[Speaker 0]:  but admissed the key point，
+[Speaker 0]:  which is the thing you pray train on has to be a general purpose coppus。
+[Speaker 0]:  so no one quite rezze this key thing。
+[Speaker 0]:  and maybe i had a bit of fortune here that my background was in philosophy。
+[Speaker 0]:  and cocology of science。
+[Speaker 0]:  and so i spbeen some decades thinking about this，
+[Speaker 1]:  the technical architecture of of ULM it。
+[Speaker 1]:  it just ckechch that up。
+[Speaker 0]:  i'm a huge fan of regusization。
+[Speaker 0]:  i'm a huge fan of taking a model that's incredibly flexible and then making it more more constrrained，
+[Speaker 0]:  not by decreasing the size of the architecture by bbby adding regularization。
+[Speaker 0]:  so even that at the time was extremely controversial，
+[Speaker 0]:  but that was by no mains a unique inside of of hours。
+[Speaker 0]:  so what's steven marity had done as you taken the extreme flexibility of an LSM kind of the classic stateful recurrent 're own it towards switch。
+[Speaker 0]:  things are kind of gradually heading back towards now。
+[Speaker 0]:  it is added five different types of regularizzation。
+[Speaker 0]:  he added every type of regularization you can imagine。
+[Speaker 0]:  and then that was the my starting point。
+[Speaker 0]:  this is say，
+[Speaker 0]:  okay，
+[Speaker 0]:  II have mmassively ly lelexible deep mining model that can be as powerful as i wanted to be。
+[Speaker 0]:  and it could also be as constrained as i neeit to be。
+[Speaker 0]:  and then i needed a really big corpposive text from enough。
+[Speaker 0]:  this is also even he had been a common crawl。
+[Speaker 0]:  and i think he helped or made the wikipedia data set you，
+[Speaker 0]:  then i realized actually the wikipedia data set made lots of assumptions。
+[Speaker 0]:  it had all these like ank for unknown words，
+[Speaker 0]:  because it all is huuned plastic NLP approaches。
+[Speaker 0]:  so i read the whole thing created a new weicoppedia data set。
+[Speaker 0]:  et now it's my general corpus，
+[Speaker 0]:  and then i used AWDLTM trained of。
+[Speaker 0]:  so it's actually overnight。
+[Speaker 0]:  so for eight hours on a gaming gpu，
+[Speaker 0]:  you know，
+[Speaker 0]:  because at the university of sentences ago，
+[Speaker 0]:  we didn't have hapes of resources，
+[Speaker 0]:  probably like a twenty IDTI or something i suspect。
+[Speaker 0]:  and then next morning，
+[Speaker 0]:  when i woke up，
+[Speaker 0]:  then it's the same three stage architecture that we do today。
+[Speaker 0]:  you know，
+[Speaker 0]:  pretraining the training post training。
+[Speaker 0]:  so then i figured it okay。
+[Speaker 0]:  now that i've trained something to predict the next way of wikipedia，
+[Speaker 0]:  let must know a lot about the world。
+[Speaker 0]:  i then figured，
+[Speaker 0]:  if i then fine tunit on a corpa specifics of what we could alcohol to pervised fine toting dataset，
+[Speaker 0]:  which，
+[Speaker 0]:  in this case was the dataset of movie reviews。
+[Speaker 0]:  it would become especially good at predicting the next word of those。
+[Speaker 0]:  so i'd learned a lot about movies did that for like an hour。
+[Speaker 0]:  and then like a few minutes of fine trauning，
+[Speaker 0]:  the downduring classifier，
+[Speaker 0]:  which was a classic academic data stets kind of considered the the ghdest one，
+[Speaker 0]:  which was to take like five thousand word movie reviews。
+[Speaker 0]:  and to say，
+[Speaker 0]:  like was a positive tive negative sentiment today is considered easy it at that time。
+[Speaker 0]:  you know，
+[Speaker 0]:  the other things that did it quite well，
+[Speaker 0]:  were highly specialized models that people wrote the whole phds on that。
+[Speaker 0]:  i beate all of their results。
+[Speaker 0]:  you know，
+[Speaker 0]:  five minutes later，
+[Speaker 0]:  what it five shooing that that model was amazing。
+[Speaker 1]:  and the other interesting thing is this kind of methodology around how you do the fine tuning air。
+[Speaker 0]:  so the how would we do？
+[Speaker 0]:  the finine ununing was something we dedeveloed at fast day。
+[Speaker 0]:  i so this is kind of yeah one of fast day eyes。
+[Speaker 0]:  so it's still still an every early days。
+[Speaker 0]:  and one of the extremely controversial things we did was，
+[Speaker 0]:  we felt that we should focus on fine tuning existing models because we thought fine tuning was important。
+[Speaker 0]:  uh some other folks were doing good contemporonouously that。
+[Speaker 0]:  so um jason is since keid，
+[Speaker 0]:  it's really，
+[Speaker 0]:  really great。
+[Speaker 0]:  um research，
+[Speaker 0]:  i thing it's during his phd，
+[Speaker 0]:  um how to find tratrade models and how good they can be in sather folks in the in the computer vision world。
+[Speaker 0]:  we were，
+[Speaker 0]:  you know，
+[Speaker 0]:  amongst first，
+[Speaker 0]:  there's a bunch of us kind of really investing in fine shooting。
+[Speaker 0]:  and so yeah，
+[Speaker 0]:  we felt that using a single learning rate to find true in the whole thing，
+[Speaker 0]:  all at once made no sense，
+[Speaker 0]:  because the different layers have different behaviors。
+[Speaker 0]:  and this is one of the things jacon you since kess research are so showed we developed this idea of like all。
+[Speaker 0]:  it's also way faster if you just train the last layer，
+[Speaker 0]:  right？
+[Speaker 0]:  because it really has to backproup the last layer。
+[Speaker 0]:  and then once that's pretty good backrop the next the last two。
+[Speaker 0]:  and then the last three and then we use something called discriminative learning rates。
+[Speaker 0]:  so different layers，
+[Speaker 0]:  we would give different learning rates too。
+[Speaker 0]:  and then another critical inside that no one realized for years，
+[Speaker 0]:  even though we'd told everybody was that you actually have to find tune every batch norm。
+[Speaker 0]:  so all the normalization is，
+[Speaker 0]:  you do actually have to find tune because that's moving the whole thing up and down。
+[Speaker 0]:  no，
+[Speaker 0]:  changing it scale。
+[Speaker 0]:  so yeah，
+[Speaker 0]:  when you do that，
+[Speaker 0]:  you can often just find you in the last layer or two，
+[Speaker 0]:  and we found that actually with you AM fit，
+[Speaker 0]:  although we did end up and freezing all the layers，
+[Speaker 0]:  only the last two were really needed to get the close to stay ad。
+[Speaker 0]:  the other result took like took like seconds。
+[Speaker 1]:  yeah，
+[Speaker 1]:  because the discriminaof learning rate thing is interesting because i think the received wisdom at the time was when you find una model。
+[Speaker 1]:  if the learning rate is too high，
+[Speaker 1]:  you kind of blow out the representations tions。
+[Speaker 1]:  so i guess the wisdom was，
+[Speaker 1]:  if if you don't have a really low learning rate，
+[Speaker 1]:  you're just destroy the representations。
+[Speaker 0]:  i know there was no received wisdom，
+[Speaker 0]:  because nobody talked about it。
+[Speaker 0]:  no one caare。
+[Speaker 0]:  i mean，
+[Speaker 0]:  there just no tight like on not nearly no one care。
+[Speaker 0]:  transfer learning was just not something anybody thought about。
+[Speaker 0]:  and racheland，
+[Speaker 0]:  i felt like it matters more than anything，
+[Speaker 0]:  you know，
+[Speaker 0]:  because only one purs and has to train a really big model once。
+[Speaker 0]:  and then the rest of us cannot plangunit。
+[Speaker 0]:  so i think we just to learn how to do that really well。
+[Speaker 0]:  so we spend a lot of time，
+[Speaker 0]:  just trying lots of things。
+[Speaker 0]:  but in the end，
+[Speaker 0]:  the intuition was pretty straightforward。
+[Speaker 0]:  and what intuitively saying like it all to work，
+[Speaker 0]:  basically always did work，
+[Speaker 0]:  which has another big difference between how people still today tend to do mail research，
+[Speaker 0]:  as i think it's all about abolations，
+[Speaker 0]:  and you can't make any assumptions or guesses。
+[Speaker 0]:  it's not at all true。
+[Speaker 0]:  i find nearly everything that i ct to work almost always works first time because i spent a lot of time building up。
+[Speaker 0]:  there's intuitions that kind of understanding of hell，
+[Speaker 0]:  gradients，
+[Speaker 0]:  behave。
+[Speaker 1]:  i think there's a diiccosto me though，
+[Speaker 1]:  between continual learning，
+[Speaker 1]:  which is when we want to keep training the thing，
+[Speaker 1]:  but maintain generality versus find ine uning a thing to do something specifis that there's always been this idea that，
+[Speaker 1]:  yes，
+[Speaker 1]:  you can make a model specific，
+[Speaker 1]:  you can bend it to your will，
+[Speaker 1]:  but you lose generality and you kind of degrade the representation。
+[Speaker 1]:  so tell me about that。
+[Speaker 0]:  yeah，
+[Speaker 0]:  there's some truth in that，
+[Speaker 0]:  although not as much as you might think think the whole，
+[Speaker 0]:  the big problem is that people don't actually look at their activations and don't actually look at their gradients。
+[Speaker 0]:  so something we do and our software and now fast day are software。
+[Speaker 0]:  we have built into what this ability as to seeing in a glance，
+[Speaker 0]:  what your entire network looks like。
+[Speaker 0]:  ononce，
+[Speaker 0]:  you've done a few times。
+[Speaker 0]:  it just takes a couple of hours to learn。
+[Speaker 0]:  you can immediately see。
+[Speaker 0]:  oh，
+[Speaker 0]:  i see this over tratraor under trained or this layer that something went wrong。
+[Speaker 0]:  it's not a mystery。
+[Speaker 0]:  it also basically what happens is，
+[Speaker 0]:  for example，
+[Speaker 0]:  you end up with dead ad urons that go to a point，
+[Speaker 0]:  whether they've got zero gradient regardless of what you do with that often happens if they get of head off towards infinity，
+[Speaker 0]:  you cannot always fix that。
+[Speaker 0]:  so yeah，
+[Speaker 0]:  it's not as bad as people think by any means something that trains well for continuous learning when done properly can also be done well to train well for a particular task。
+[Speaker 1]:  if you're careful in a sense，
+[Speaker 1]:  you do want the neurons to dial and and explain why what i mean by this，
+[Speaker 1]:  like we want to bend the behavior of models to introduce implicit constrainths。
+[Speaker 1]:  because，
+[Speaker 1]:  without constraints，
+[Speaker 1]:  there is no creativity。
+[Speaker 1]:  there is no reasoning，
+[Speaker 1]:  and so not so possiso。
+[Speaker 1]:  so in a sense，
+[Speaker 1]:  you actually wanted to say，
+[Speaker 1]:  don't do that。
+[Speaker 1]:  you wanted to do something else。
+[Speaker 0]:  i don't think of it that way like to be。
+[Speaker 0]:  it's more like i find thinyou humans extremely helpful when it comes to think about ai。
+[Speaker 0]:  i find they behave more similarly than differently。
+[Speaker 0]:  and my intriition about each tends to work quite well，
+[Speaker 0]:  you know，
+[Speaker 0]:  with a human when you learn something new。
+[Speaker 0]:  it's not about unlearning something else。
+[Speaker 0]:  and so something i always found is when i got models to try to learn to do to somewhat similar tasks，
+[Speaker 0]:  they almost always got better at both of them。
+[Speaker 0]:  that one that，
+[Speaker 0]:  that only learned one of them。
+[Speaker 1]:  i was reminded a little bit of，
+[Speaker 1]:  you know，
+[Speaker 1]:  where the dino paper from lecoon。
+[Speaker 1]:  and so this whole kind of regime of selsusupervised learning with with mean that，
+[Speaker 1]:  that was that，
+[Speaker 1]:  that was a vision model so that the idea was tracase。
+[Speaker 1]:  we're doing pretraining，
+[Speaker 1]:  and we want to maintain as much diversity and fidelity as possible。
+[Speaker 1]:  so that when we do the downstream task，
+[Speaker 1]:  we can kind of we got more things that we can latch on。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah，
+[Speaker 0]:  but 嗯，
+[Speaker 0]:  you know，
+[Speaker 0]:  sei，
+[Speaker 0]:  supervised and self supervised learning was such an unappreciated area。
+[Speaker 0]:  and yeah，
+[Speaker 0]:  young lukon was absolute in one of the guys who was also working on it。
+[Speaker 0]:  yeah，
+[Speaker 0]:  actually did a post because i was so annoyed healthy people。
+[Speaker 0]:  people cared about semi supervised learning。
+[Speaker 0]:  i did a whole post about it years ago。
+[Speaker 0]:  younlekcorn looked it for me as well，
+[Speaker 0]:  and you know suggested a few other pieces of work that i i'd missed。
+[Speaker 0]:  and but i was kind of surprised that how you know how incredibly suits useful it is to basically say，
+[Speaker 0]:  look，
+[Speaker 0]:  as you come come of the pretext task，
+[Speaker 0]:  right？
+[Speaker 0]:  so in i we did this envision before，
+[Speaker 0]:  you will them fit。
+[Speaker 0]:  so it's like in medical imaging，
+[Speaker 0]:  he ttake a histology slide and predict，
+[Speaker 0]:  you know，
+[Speaker 0]:  mask ked，
+[Speaker 0]:  a few squares and predict what is to be there。
+[Speaker 0]:  so some of my students USFI had doing stuff with that，
+[Speaker 0]:  it was basically entirely taking stuff the way and others had already done in vision。
+[Speaker 0]:  yes，
+[Speaker 0]:  ah，
+[Speaker 0]:  like this idea of masking out squares，
+[Speaker 0]:  we didn't invent it asking out words。
+[Speaker 0]:  but the obvivithing，
+[Speaker 0]:  you know know in ideidea，
+[Speaker 0]:  um gradually unfreezing layers。
+[Speaker 0]:  we had done before in computer vision。
+[Speaker 0]:  the whole idea of starting with a pretrained model that was general purpose have been in computer vision。
+[Speaker 0]:  there's a really classic paper actually in computer vision in i've been around twenty fifteen was entirely and miracle paper saying，
+[Speaker 0]:  look what it happens when we take a pretrained image net model，
+[Speaker 0]:  predicting what sculptor created this sculpture or predicting what architecture style this is。
+[Speaker 0]:  and like an an every task get got the state of yet result。
+[Speaker 0]:  and it really surprised me，
+[Speaker 0]:  people didn't look at that and think like i bet that ought to work in every other area as well，
+[Speaker 0]:  whether it be genome sequences or a language or whatever。
+[Speaker 0]:  but people have that of a lack of imation imagination。
+[Speaker 0]:  i find they tend to assume things only work in one particular field。
+[Speaker 0]:  that's really true。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i guess ss，
+[Speaker 1]:  there's two things。
+[Speaker 1]:  i mean，
+[Speaker 1]:  festival。
+[Speaker 1]:  we were kind of hinting at this notion of almost good hearts law or the short that rule that you get exactly where you optimised for the cost of everything else。
+[Speaker 1]:  but that doesn't seem to be the case because we can，
+[Speaker 1]:  you know，
+[Speaker 1]:  optimize for perplexity in the case of language models。
+[Speaker 1]:  and actually say，
+[Speaker 1]:  what seems to happen is we're getting into the distributional hypothessary a little bit。
+[Speaker 1]:  so you know，
+[Speaker 1]:  you，
+[Speaker 1]:  you know，
+[Speaker 1]:  the word by the company kekeps。
+[Speaker 1]:  so when we have an incredible amounts of associtive data，
+[Speaker 1]:  it might be master red to prediction，
+[Speaker 1]:  or any of these things like that。
+[Speaker 1]:  the model seems to build some thing that we might cool。
+[Speaker 0]:  and understanding II foralways thought of it as a higher acacof of strstractions。
+[Speaker 0]:  if it's it's got a predict，
+[Speaker 0]:  you know，
+[Speaker 0]:  if the document is here was the little little opening that it old that bubby fisher used and has chest notation to predict the next thing it needs to know something about chest notation at least openings。
+[Speaker 0]:  if it's like，
+[Speaker 0]:  uh know know this。
+[Speaker 0]:  this was totoed by the nineteen and fifty six US president comma。
+[Speaker 0]:  you need to know like you don't even did，
+[Speaker 0]:  don't just need to know who the president was。
+[Speaker 0]:  but the idea that there are presidents and they folght the idea that there are leaders and theyfoll the idea that there are groups of people who have hieracy es，
+[Speaker 0]:  and they thoufore that there are people，
+[Speaker 0]:  and they thought that there are objects。
+[Speaker 0]:  and you can't predict the next way of a sentence well，
+[Speaker 0]:  without knowing all of these things。
+[Speaker 0]:  so that knowing my hypothesis for where i created you will enfit was to say it would end to to comppress that as well as possible to get that knowledge。
+[Speaker 0]:  it would have to create these abstractions these hierarchh's obstractions somewhere deep inside its model。
+[Speaker 0]:  otherwise，
+[Speaker 0]:  how could it possibly do a good job of predict an expert？
+[Speaker 0]:  you don't want because deep leadning models are universal learning machines，
+[Speaker 0]:  you know，
+[Speaker 0]:  and we had a universal way to train them。
+[Speaker 0]:  i think it，
+[Speaker 0]:  if if we get the data right tion，
+[Speaker 0]:  if the pt was good enough than in theory，
+[Speaker 0]:  we ought to be able to build that next word predicting machine，
+[Speaker 0]:  which ought to implicitly build a hiarchical structural understanding of the things that have being described by the text that it is learning to predict。
+[Speaker 1]:  i think that they can know in quite they they know in quite a superficial way。
+[Speaker 1]:  so there's a myriad of surface statistical relationships and they generalize extrorordinary。
+[Speaker 1]:  well，
+[Speaker 1]:  it's no exmiraculous is，
+[Speaker 1]:  but the thing thing is want want to conrost this with other comments you've made about creativities。
+[Speaker 1]:  and i think knowledge is about constraints，
+[Speaker 1]:  and i think creativity is about evolutionship of knowledge respecting those constraints。
+[Speaker 1]:  therefore，
+[Speaker 1]:  AI is not creative。
+[Speaker 1]:  and and you've said the same thing，
+[Speaker 1]:  you've said，
+[Speaker 1]:  AI isn't creative。
+[Speaker 1]:  so like on the one hand，
+[Speaker 1]:  how can you say that they know and not think that they can be created？
+[Speaker 0]:  i mean，
+[Speaker 0]:  i think think have fused that exact expression。
+[Speaker 0]:  you know，
+[Speaker 0]:  i have actually remember chatting with peter norvada on camera，
+[Speaker 0]:  and both of us said，
+[Speaker 0]:  well，
+[Speaker 0]:  actually，
+[Speaker 0]:  they kind of are creative like。
+[Speaker 0]:  so we just could be a good careful about that choices of words。
+[Speaker 0]:  i guess，
+[Speaker 0]:  so um know，
+[Speaker 0]:  pilter wasn't yet who's a guy。
+[Speaker 0]:  i really really respect who could of rediscovered space prepeative learning，
+[Speaker 0]:  built the supermemo system and is the modern day greuru of memory。
+[Speaker 0]:  the entire reason he's based his life around remembering things is because he believes the creativity comes from having a lot of stuff remembered，
+[Speaker 0]:  which is to say，
+[Speaker 0]:  putting together stuff you've remembered in interesting ways。
+[Speaker 0]:  it's is a great way to be creative。
+[Speaker 0]:  lms are actually quite good at that，
+[Speaker 0]:  but there's a kind of creativity。
+[Speaker 0]:  they're not at all good at，
+[Speaker 0]:  which is you know，
+[Speaker 0]:  moving outside the distribution。
+[Speaker 0]:  so which i think is where you're heading with your question。
+[Speaker 0]:  um but i just kind of i'm framing it this way to say you have to be so you once about this stuff，
+[Speaker 0]:  because if you say like they're not creative，
+[Speaker 0]:  i gives you the can give you the wrong idea，
+[Speaker 0]:  because they can do very creative saming things。
+[Speaker 0]:  but if it's like well，
+[Speaker 0]:  can they really extrapoulate outside the trading distribution？
+[Speaker 0]:  yes，
+[Speaker 0]:  there's no they can't。
+[Speaker 0]:  but the training english speciation is so big and the number of ways to interpreate between them is so vast。
+[Speaker 0]:  we don't really know yet what the limitations of that is，
+[Speaker 0]:  but i see it every day，
+[Speaker 0]:  you know，
+[Speaker 0]:  because i my my work is irond。
+[Speaker 0]:  i'm constantly on the edge of and outside the training data。
+[Speaker 0]:  i'm doing things that haven't been done before，
+[Speaker 0]:  and this is weird thing。
+[Speaker 0]:  i don't know you''ve ever seen it before。
+[Speaker 0]:  i see，
+[Speaker 0]:  but i see it moderal times every day，
+[Speaker 0]:  where the l en goes from being incredibly clever to like worse than stupid，
+[Speaker 0]:  like like not understanding the most basic fundamental premises about how the world works。
+[Speaker 0]:  yeah and is like，
+[Speaker 0]:  oh，
+[Speaker 0]:  worps。
+[Speaker 0]:  i feel outside the training data distribution。
+[Speaker 0]:  it's gone dumb，
+[Speaker 0]:  and then like it's no point 我是你家人 having that discussionary faith。
+[Speaker 0]:  yes，
+[Speaker 0]:  yes，
+[Speaker 0]:  know know ''ve asted at that point。
+[Speaker 1]:  yes。
+[Speaker 1]:  i mean，
+[Speaker 1]:  i love the margagat bobodens。
+[Speaker 1]:  she had this kind of iarqi of creativities。
+[Speaker 1]:  there's like combatorial exploratory and and transformative，
+[Speaker 1]:  but what models can certainly do commondatorial creativity。
+[Speaker 1]:  but for me，
+[Speaker 1]:  it's what about constraints。
+[Speaker 1]:  but that mean，
+[Speaker 1]:  it's is about bodendensaid and you've anido diventiy，
+[Speaker 1]:  he said the creativities，
+[Speaker 1]:  what about constraints and and you've spoken。
+[Speaker 1]:  and and we talk about this dialogue engineering。
+[Speaker 1]:  but what happens is when we we talk about language models，
+[Speaker 1]:  it's a specification acquisition problem。
+[Speaker 1]:  so we go back and for often，
+[Speaker 1]:  actually，
+[Speaker 1]:  when we think the process of intelligence is about building this imaginary lego block in our mind and respecting vous constraints。
+[Speaker 1]:  and when you respect those constraints and you just continue to evolve，
+[Speaker 1]:  then those things are said to be creative。
+[Speaker 1]:  so language models，
+[Speaker 1]:  when you add constraints to them。
+[Speaker 1]:  so this could be via supervision via tictics for a verifies，
+[Speaker 1]:  then they are creative，
+[Speaker 1]:  and we alpha evolve。
+[Speaker 1]:  we see many examples of this，
+[Speaker 1]:  but the illusion sion is on their own constraints。
+[Speaker 1]:  obviously，
+[Speaker 1]:  ly，
+[Speaker 1]:  they have this behavioral shaping stuff that we're talking lob that don't have hard constraints，
+[Speaker 1]:  and that's why they can't go outside their distribution。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i think they can't go outside their distribution because it's just something that uum that type of mathebetical model can't do。
+[Speaker 0]:  you know？
+[Speaker 0]:  i mean，
+[Speaker 0]:  it can do it，
+[Speaker 0]:  but it wonder it。
+[Speaker 0]:  well，
+[Speaker 0]:  you know，
+[Speaker 0]:  when you look at the kind of two d case of of fitting a curve to data，
+[Speaker 0]:  once you go outside the area that the data covers the curves disappear off into space in wild directions，
+[Speaker 0]:  you know，
+[Speaker 0]:  and that's what we're doing that。
+[Speaker 0]:  we're doing it in multiple dimensions yethink。
+[Speaker 0]:  i boboden might be pretty shocked at alfa。
+[Speaker 0]:  compositional。
+[Speaker 0]:  creativity can go when you can compose the entirety of the human knowledge corpus。
+[Speaker 0]:  and i think this is where people often get confused，
+[Speaker 0]:  because，
+[Speaker 0]:  as i so，
+[Speaker 0]:  for example，
+[Speaker 0]:  as talking to chris latner yesterday about have clad anthroropic ito，
+[Speaker 0]:  had had got lalad d write the sick compililer。
+[Speaker 0]:  and they were like，
+[Speaker 0]:  oh，
+[Speaker 0]:  this is a clean room sakon pilot。
+[Speaker 0]:  you can。
+[Speaker 0]:  it's it's clean room because it was creit in rest，
+[Speaker 0]:  you know。
+[Speaker 0]:  and that's a chris credit that kind of you know，
+[Speaker 0]:  i guess it's probably the top most widely used to say，
+[Speaker 0]:  say，
+[Speaker 0]:  plus class compiled out，
+[Speaker 0]:  it is playing on top of LLVM，
+[Speaker 0]:  which is the most widely used kind of foundation for compilers。
+[Speaker 0]:  though i go。
+[Speaker 0]:  chris didn't is rest this，
+[Speaker 0]:  you know，
+[Speaker 0]:  and we didn't give it access to what he compile a source code。
+[Speaker 0]:  it's a clean room implementation，
+[Speaker 0]:  but that misunderstands how LMS work，
+[Speaker 0]:  right，
+[Speaker 0]:  which is all of chris 's work，
+[Speaker 0]:  wasn't the training data。
+[Speaker 0]:  many，
+[Speaker 0]:  many times。
+[Speaker 0]:  LLVM is used widely and lots and lots of things are built on it，
+[Speaker 0]:  creating lots of sea and c plus plus compilers，
+[Speaker 0]:  converting a terruisn't，
+[Speaker 0]:  an interpulation between parts of the training data。
+[Speaker 0]:  you know，
+[Speaker 0]:  it's a style transfer problem。
+[Speaker 0]:  um so it's definitely compositional creativity at most，
+[Speaker 0]:  if you can call it creative at all。
+[Speaker 0]:  and you actually see it when you look at the the repole that it created，
+[Speaker 0]:  it's copied parts of the ellaa vencode，
+[Speaker 0]:  which today，
+[Speaker 0]:  chris says，
+[Speaker 0]:  like，
+[Speaker 0]:  oh，
+[Speaker 0]:  i made a mistake。
+[Speaker 0]:  i shouldn't have done it that way。
+[Speaker 0]:  nobody else does it that way。
+[Speaker 0]:  you know，
+[Speaker 0]:  oh，
+[Speaker 0]:  well，
+[Speaker 0]:  look，
+[Speaker 0]:  they're the only other one that did it that way you that doesn't happen accidentally that happens because you're not actually being creative。
+[Speaker 0]:  you're actually just finding the kind of non linear average point in your training data between like finding the building and compilor things。
+[Speaker 1]: 好的 all of that as tram mean，
+[Speaker 1]:  first stivlife。
+[Speaker 1]:  i think we shouldn't underestimate these size of how big this combinatorial creativity is。
+[Speaker 1]:  so all of that is true。
+[Speaker 1]:  so the code is on the internet，
+[Speaker 1]:  but also they had a whole bunch of sts，
+[Speaker 1]:  which was scacuffolded，
+[Speaker 1]:  which meant that every single time some code was was committed。
+[Speaker 1]:  they could run the test and and they basically had a critic，
+[Speaker 1]:  and they could then do this autonomous ous feedback loop。
+[Speaker 1]:  so in ina sense，
+[Speaker 1]:  it's very similar to the recent research by open ai and geerine。
+[Speaker 1]:  i you，
+[Speaker 1]:  you're trying to solve a problem in math，
+[Speaker 1]:  and you already have an evaluation function。
+[Speaker 1]:  the same on the ok，
+[Speaker 1]:  ze，
+[Speaker 1]:  right？
+[Speaker 1]:  you have an evaluation function，
+[Speaker 1]:  and what people discount is，
+[Speaker 1]:  even knowledge of what the evaluation function is，
+[Speaker 1]:  is partial knowledge of the problem。
+[Speaker 1]:  so you can then brute for search，
+[Speaker 1]:  you can use the statisticpattern match and use the verifiy as a constraint，
+[Speaker 1]:  and you can actually，
+[Speaker 0]:  and they don't even need to do that，
+[Speaker 0]:  right？
+[Speaker 0]:  like you literally already know how to pass those tests because it's lots of software ether already does it。
+[Speaker 0]:  so it just uses that and translates them to us。
+[Speaker 0]:  i guess that's all it did um which is impressive um and if i'm much less similar with math than i am computer science，
+[Speaker 0]:  but from talking to mathematicians，
+[Speaker 0]:  they tell me that that's also what's happening with like adults，
+[Speaker 0]:  problems and stuff。
+[Speaker 0]:  it's some of them are newly solved。
+[Speaker 2]:  yeah，
+[Speaker 0]:  but they are not sparks of insight。
+[Speaker 0]:  you know，
+[Speaker 0]:  theare solving ones that you can solve by mesing up together very close regulated things。
+[Speaker 0]:  so humans already figured out so on the subject of claud code。
+[Speaker 1]:  now i know you spoke an extensively about five coding。
+[Speaker 1]:  i'd actually rachel had some interesting workout。
+[Speaker 1]:  i mean，
+[Speaker 1]:  she quoted the the meter study，
+[Speaker 1]:  which showed that productivity actually went down when people were vipe coding。
+[Speaker 1]:  but i think and i thought that they went when i wwand and think was there was the anthrotics study mean。
+[Speaker 1]:  and maybe we should rewonder of that mendario had the SA out the other day，
+[Speaker 1]:  i think，
+[Speaker 1]:  was called the athlesence of technology gy something like that。
+[Speaker 1]:  and he was basically saying，
+[Speaker 1]:  look，
+[Speaker 1]:  you know，
+[Speaker 1]:  and we have all these amazing suffreiengineers and ropic，
+[Speaker 1]:  and they are just so productive，
+[Speaker 1]:  and he was extrapulating to the average sofreengineers。
+[Speaker 1]:  so there's going to be mass unemployment because soon we're going to be to automate all of this where they are。
+[Speaker 1]:  i mean，
+[Speaker 0]:  it doesn't make any sense。
+[Speaker 0]:  um elon musquks said something a bit similar few days ago，
+[Speaker 0]:  saying like，
+[Speaker 0]:  oh，
+[Speaker 0]:  hellems have just spit out the machine code directly。
+[Speaker 0]:  we want need libraries，
+[Speaker 0]:  programming languages，
+[Speaker 0]:  yeah yeah。
+[Speaker 0]:  look，
+[Speaker 0]:  the thing is none of these guys have have been ssofare engineinerecently。
+[Speaker 0]:  i'm not sure sharrias have have been a software engineer at all software engineering as a unusual discipline，
+[Speaker 0]:  and a lot of people mimike it for being the same as typing code into an ie coding is another one of these style transfer problems。
+[Speaker 0]:  you take a specification of the problem to solve，
+[Speaker 0]:  and you can use your compositional creativity to find out the parts of the training data，
+[Speaker 0]:  which interpulated between them，
+[Speaker 0]:  solve that problem and interprelate that with syin tax of the target language。
+[Speaker 0]:  and you have get cold。
+[Speaker 0]:  there's a very famous sa o pread brooks written ten many decades ago，
+[Speaker 0]:  no silver bullet，
+[Speaker 0]:  and which it almost sounded like he was talking about today。
+[Speaker 0]:  he was specifically saying something he was just putting saying very similar，
+[Speaker 0]:  which is those days as all like ah，
+[Speaker 0]:  what about all these new fourth generation languages and stuff like that？
+[Speaker 0]:  you know，
+[Speaker 0]:  we're not going to need any need coatas anymore any software engineers anymore because softwis now so easy to write anybody can write it um。
+[Speaker 0]:  and he said，
+[Speaker 0]:  well，
+[Speaker 0]:  i guess you could could at maximum m thirty percent ent improvement。
+[Speaker 0]:  specispecifically said a thirty percent improvement in the next decade。
+[Speaker 0]:  but i don't think he needed to limit that much because the vast majority of work in software engineering isn't typing in the code。
+[Speaker 0]:  um so in some sense，
+[Speaker 0]:  parts of watdariia said，
+[Speaker 0]:  we're right just like for quite a few people。
+[Speaker 0]:  now most of their code is being typed by a language model。
+[Speaker 0]:  that's true for me，
+[Speaker 0]:  say，
+[Speaker 0]:  like maybe ninety percent，
+[Speaker 0]:  but it doesn't make me that much more productive because that was never the slow bit。
+[Speaker 0]:  it's also helped me with kind of the research charge and figuring out，
+[Speaker 0]:  you know which files are going to be touched。
+[Speaker 0]:  but any time i've made any attempt getting an an lemonto lake design，
+[Speaker 0]:  a solution to something that hasn't been designed lots of times before。
+[Speaker 0]:  it's it's horrible because what it actually every time gives me is the design of something that looks on its surface a bit similar。
+[Speaker 0]:  and often，
+[Speaker 0]:  that's gta be an absolute disaster because things that look on this surface bit similar。
+[Speaker 0]:  and like i'm literally trying to create something new to get away from the similar thing。
+[Speaker 0]:  it's very misleading。
+[Speaker 1]:  first of all，
+[Speaker 1]:  i'm i'm exhauerated by what i see as the tech bro prede election to misunderstand coglesitive signs and philosophand。
+[Speaker 1]:  i'm on us because we've we spoken to so many really interesting people on emolesty，
+[Speaker 1]:  like，
+[Speaker 1]:  for example，
+[Speaker 1]:  says a hiddewgo，
+[Speaker 1]:  he wrote to mispoook the laws of knowledge and and even a movii to erimmoter。
+[Speaker 1]:  she's a philosopopher of neuroscience。
+[Speaker 1]:  and she was talking all about，
+[Speaker 1]:  you know，
+[Speaker 1]:  lithe ficicting。
+[Speaker 1]:  it basically that knowledge is protein。
+[Speaker 1]:  so yeah，
+[Speaker 1]:  i think that that knowledge is perspect divial。
+[Speaker 1]:  i don't think that knowledge can be this abstract perspective free thing that can exist on wikipepediand。
+[Speaker 1]:  and i also think that knowledge is evoldiand。
+[Speaker 1]:  it's alive。
+[Speaker 1]:  it's it's something that exists in in us。
+[Speaker 1]:  and the purpose of an organization is to preserve and evolve knowledge。
+[Speaker 1]:  so when you start delegaate eighating cognitive task to language models，
+[Speaker 1]:  you actually have this weird paradoxicical effect that you erode the knowledge inside the organization。
+[Speaker 1]:  well，
+[Speaker 0]:  that's true and that's terrifying。
+[Speaker 0]:  it's often these these arguments online between people who are like ellams don't understand anything。
+[Speaker 0]:  they're just pretending to understand。
+[Speaker 0]:  and then other people were like you don't be ridiculous。
+[Speaker 0]:  look，
+[Speaker 0]:  what this LE mm is did for me，
+[Speaker 0]:  right？
+[Speaker 0]:  and it's one thing is theyy're both right。
+[Speaker 0]:  l lms cos play understanding things，
+[Speaker 0]:  they pretend to understand things。
+[Speaker 0]:  and this is the interesting thing about the early kind of work with，
+[Speaker 0]:  like popular science ence work with，
+[Speaker 0]:  like daniel dinner。
+[Speaker 0]:  um that's basically what the chinese room experiment is is you've got a guy in a room who can't speak chinese at all，
+[Speaker 0]:  but he sure looks like he does，
+[Speaker 0]:  because you can fading questions，
+[Speaker 0]:  and he gives you back answers。
+[Speaker 0]:  but all he's actually doing is looking up things in a huge array of books or machines，
+[Speaker 0]:  or whatever the difference between pretending to being intelligent and actually being intelligent is entirely unimportant，
+[Speaker 0]:  as long as you're in the region in which the pretense is actually effective，
+[Speaker 0]:  you know。
+[Speaker 0]:  so so it's actually fine for great many tasks that ellenms only pretend to be intelligent，
+[Speaker 0]:  because for all intense and purposes，
+[Speaker 0]:  it just doesn't matter until you get to the point where i can't pretend anymore。
+[Speaker 0]:  and then he realize like，
+[Speaker 0]:  oh，
+[Speaker 0]:  my god，
+[Speaker 0]:  this thing so stupid。
+[Speaker 1]:  i'm a fan of。
+[Speaker 1]:  so by the way。
+[Speaker 1]:  so you know，
+[Speaker 1]:  he said that i'm understanding is cosely reduceable，
+[Speaker 1]:  but ontologically irreduceable，
+[Speaker 1]:  and he was saying there was a phenomenal components underunderstand。
+[Speaker 1]:  we don't even need to go that like the interesting thing about knowledge being protein。
+[Speaker 1]:  is this idea that，
+[Speaker 1]:  you know，
+[Speaker 1]:  spbasically，
+[Speaker 1]:  this cantian idea，
+[Speaker 1]:  the world is a complex thing。
+[Speaker 1]:  none of the understanding。
+[Speaker 1]:  it's like the blind men in the elephant。
+[Speaker 1]:  we all have different perspectives through a complex thing。
+[Speaker 1]:  and so we all we all do this kind of modeling ling。
+[Speaker 1]:  but the interesting thing is that the language model sscitimes，
+[Speaker 1]:  they seem to understand and they understand，
+[Speaker 1]:  because the supervisor places them in a frame。
+[Speaker 1]:  so inside that frame。
+[Speaker 1]:  so when you have that perspective of the elephants，
+[Speaker 1]:  they're actually surprisingly coherent，
+[Speaker 1]:  but we discount the supervisor，
+[Speaker 1]:  placing the models in that frame。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yes。
+[Speaker 0]:  so so cell vis is neor or vers cell。
+[Speaker 0]:  and then it but what everybody was talking about when i back when i was doing my undergrade in phosophy y does。
+[Speaker 0]:  so inconsciousness explained came out about then probably chinese room little bit before that's interesting because the discussions were the same discussions were having now，
+[Speaker 0]:  but they've gone from being abstract discussions to being real discussions。
+[Speaker 0]:  it's helpfully people go back to the abstract discussions because it's it helps you get out of your，
+[Speaker 0]:  you know，
+[Speaker 0]:  it's very distracting at the moment to look at something that's cause playing intelligence so well and go back to the fundamental question。
+[Speaker 0]:  um anyway，
+[Speaker 0]:  i just want to mention that kind of this。
+[Speaker 0]:  this is interesting situation were now in where it's very easy to really get the wrong idea about what i can do，
+[Speaker 0]:  particularly when you don't understand the difference between coding and and soft engineering。
+[Speaker 0]:  yeah，
+[Speaker 0]:  then takes video point point。
+[Speaker 0]:  are your question about about the implications of that for organizyes？
+[Speaker 0]:  you know，
+[Speaker 0]:  a lot of organizations basbasally batting their featachres on a culative premise，
+[Speaker 0]:  which is AI，
+[Speaker 0]:  is gotta be able to do everything better than humans。
+[Speaker 0]:  ah，
+[Speaker 0]:  h least everything encoding better than humans。
+[Speaker 0]:  II worry about AA，
+[Speaker 0]:  both both the organanizations and for the humans，
+[Speaker 0]:  you know，
+[Speaker 0]:  for the humans when you're not actively using your design and engineering and coding muscles，
+[Speaker 0]:  you don't grow，
+[Speaker 0]:  you might even wither，
+[Speaker 0]:  but you at least don't grow and youyou。
+[Speaker 0]:  know speaking of the CEO of an marane start up。
+[Speaker 0]:  you know，
+[Speaker 0]:  if my stuff aren't growing and we gotta fail。
+[Speaker 0]:  you know，
+[Speaker 0]:  we can't let that happen and getting better at the particular prompting skills，
+[Speaker 0]:  whatever details with the current generation of AICI frameworks isn't growing。
+[Speaker 0]:  you know，
+[Speaker 0]:  that's that's like that's as helpful as learning about the details of some AWS api when you don't not want to understand how the internet works。
+[Speaker 0]:  you know，
+[Speaker 0]:  it's not。
+[Speaker 0]:  it's not reusable knowledge。
+[Speaker 0]:  it's a femoral knowledge。
+[Speaker 0]:  so like if you wanted to，
+[Speaker 0]:  you can actually use it as learning superpower，
+[Speaker 0]:  but also it can do the opposite。
+[Speaker 0]:  it know a natural thing。
+[Speaker 0]:  it's going to do with remove your competence over time。
+[Speaker 1]:  i agree that that's the natural thing。
+[Speaker 1]:  so and this，
+[Speaker 1]:  this is especially personal view，
+[Speaker 1]:  because your career has been around，
+[Speaker 1]:  basically educating people to forget，
+[Speaker 1]:  you know，
+[Speaker 1]:  technology in AI literacy。
+[Speaker 1]:  so the deep behavior is very similar to a self driving car that you know，
+[Speaker 1]:  there's this tipping point where，
+[Speaker 1]:  at some point，
+[Speaker 1]:  you're not engaged anymore，
+[Speaker 1]:  you're not paying attention and you get this delegation of competence，
+[Speaker 1]:  and you get understanding dead。
+[Speaker 1]:  that's the deep potention。
+[Speaker 1]:  so the study from anthropic couple of weeks ago。
+[Speaker 1]:  so contradicted diario completely because it even said，
+[Speaker 1]:  yeah，
+[Speaker 1]:  there were a few people in the study that were asking conceptual questions that are actually kind of keeping on top of things。
+[Speaker 1]:  and they have a gradient of learning，
+[Speaker 1]:  but most people didn't。
+[Speaker 1]:  and my hypothesis about that is，
+[Speaker 1]:  you know，
+[Speaker 1]:  the ideal situation for jn AI coding。
+[Speaker 1]:  is that like us，
+[Speaker 1]:  we've been writing ssoftware for decades。
+[Speaker 1]:  we already have this abstract understanding。
+[Speaker 1]:  we're using it in demands that we know well，
+[Speaker 1]:  and we can specify。
+[Speaker 1]:  we can remove loads of ambiguity。
+[Speaker 1]:  we can track and we can go back and forth，
+[Speaker 1]:  and we can we can stay in touch of the process。
+[Speaker 1]:  but what happens is that，
+[Speaker 1]:  that the default the track is for people to just go into this autopilot mode，
+[Speaker 1]:  and they got no idea what happening。
+[Speaker 1]:  and it's actually making them dummmi。
+[Speaker 0]:  i created a，
+[Speaker 0]:  the，
+[Speaker 0]:  the first deep learning for medicine company called dealytic。
+[Speaker 0]:  c acking was elect twenty fourteen，
+[Speaker 0]:  and our initial focus was on ideology，
+[Speaker 0]:  and a lot of people were worried。
+[Speaker 0]:  this would caused radiologists to become less effective or radiology。
+[Speaker 0]:  and i strongly felt the opposite，
+[Speaker 0]:  which is that i did quite a bit of research into this，
+[Speaker 0]:  like what what happens when re's like，
+[Speaker 0]:  fly by wire in eraplanes or antiop breaks in cars，
+[Speaker 0]:  whatever，
+[Speaker 0]:  if you can successfully automate parts of a task that really are automable，
+[Speaker 0]:  you can allow the the expert to focus on the things that they need to focus on。
+[Speaker 0]:  and we WW happhapps so radiology we found if we could automate identifying the possible nojeells in a long CT skcan。
+[Speaker 0]:  we were actually go at it，
+[Speaker 0]:  which we were。
+[Speaker 0]:  and then we've that the radiologist thing can focus on looking at the nodules and try to decide if they're malignant are what to do about it。
+[Speaker 0]:  so again，
+[Speaker 0]:  it's one of these sebtle things。
+[Speaker 0]:  so if it's things which you can fully automate effectively in a way that you can remove that cocktatative burden from a human so that they can focus on things that they need to focus on that can be good。
+[Speaker 0]:  you know，
+[Speaker 0]:  i don't know where we sit in software development because i've been coding for for forty bish years。
+[Speaker 0]:  so ve written a lot of code，
+[Speaker 0]:  and i can plance at a screen of code，
+[Speaker 0]:  and then don't don't less，
+[Speaker 0]:  it's something quite。
+[Speaker 0]:  we're not specisticated。
+[Speaker 0]:  i can immediately tell you what it does and whether it works。
+[Speaker 0]:  and whatever i can kind of see intuitively things that could be improved，
+[Speaker 0]:  you know，
+[Speaker 0]:  possible things to be careful love，
+[Speaker 0]:  and not sure i could have got to that point if i hadn't have written a lot of code。
+[Speaker 0]:  so the people i'm finding who can really benefit from AI right now，
+[Speaker 0]:  either really junior people who can't code it all who can now write some apps。
+[Speaker 0]:  they haven't 't hidden。
+[Speaker 0]:  it's long as they work reasonably quickly with the current i capabilities，
+[Speaker 0]:  then they happy。
+[Speaker 0]:  and then really experiences people people like me or like chris latina，
+[Speaker 0]:  because we can basically have a dosome of a typing for us，
+[Speaker 0]:  you know。
+[Speaker 0]:  and some of our research for us，
+[Speaker 0]:  people in the middle，
+[Speaker 0]:  which is most people，
+[Speaker 0]:  most of the time。
+[Speaker 0]:  it really worries me because how do you get from point eight of point b，
+[Speaker 0]:  yes，
+[Speaker 0]:  without typing code，
+[Speaker 0]:  it might be possible。
+[Speaker 0]:  but we don't have a we have no experience with that。
+[Speaker 0]:  we don't is it possible。
+[Speaker 0]:  how would you do it like？
+[Speaker 0]:  is it kind of like going back to school？
+[Speaker 0]:  we're a primary school。
+[Speaker 0]:  we don't let kids use calculators so that they develop their number muscle。
+[Speaker 0]:  do we need to do that for like first five years as a developer，
+[Speaker 0]:  you have to write all the coach yourself。
+[Speaker 0]:  i don't know，
+[Speaker 0]:  but if i wasn't it，
+[Speaker 0]:  the seen like two and twenty years of experience developer，
+[Speaker 0]:  i'll be asking that question of myself a lot，
+[Speaker 0]:  because otherwise you might be in the procesve，
+[Speaker 0]:  making yourself obsolete。
+[Speaker 1]:  yeah。
+[Speaker 1]:  well，
+[Speaker 1]:  this is another thing about knowledge that this sessor hadoggo guys said。
+[Speaker 1]:  so he said that knowledge is not fununible，
+[Speaker 1]:  and that which means they can't be exchanged。
+[Speaker 1]:  so what what he means by that is，
+[Speaker 1]:  the process of learning is in some important sense，
+[Speaker 1]:  not reducable，
+[Speaker 1]:  right？
+[Speaker 1]:  so you have to have the experience of the experience has to have friction。
+[Speaker 1]:  and when we build models of the world，
+[Speaker 1]:  and we actually learn you，
+[Speaker 1]:  you。
+[Speaker 1]:  there's this phrase reality pushes back。
+[Speaker 1]:  so we make lots of mistakes，
+[Speaker 1]:  and we update on models wewe're just placing these coherence constraints in in our in our model，
+[Speaker 1]:  and that's how we come to learn to use core code。
+[Speaker 1]:  and there's so little friction in the process that's exactly what they stustudy from。
+[Speaker 1]:  anthropics said is said there is so little friction。
+[Speaker 1]:  they didn't learn anything，
+[Speaker 1]:  right？
+[Speaker 0]:  yeah。
+[Speaker 0]:  now exactly um desirable difficulty is the concept that kind of comes up in education。
+[Speaker 0]:  but even going back to the work of uebing house，
+[Speaker 0]:  who was the original respect，
+[Speaker 0]:  repeatea space learning guy in the one nine hundred and century。
+[Speaker 0]:  and then peta wasn't near more recently，
+[Speaker 0]:  it we find the same。
+[Speaker 0]:  we we know that memories don't get formed unless it is hard work to form them ah。
+[Speaker 0]:  so you know，
+[Speaker 0]:  that's way you kind of get this somewhat surprising result that is revising true often is a bad idea because it comes to mind too quickly。
+[Speaker 0]:  and so with repetitedly space learning with stuff like anki and supermemo，
+[Speaker 0]:  the algorithm tries to schedule the flashcards at a just before the moment you're about to forget。
+[Speaker 0]:  so then it's hard work。
+[Speaker 0]:  so II studied chinese for ten years um in order to try to learn about learning myself，
+[Speaker 0]:  and i really noticed this that i is dankiy。
+[Speaker 0]:  and because it was always scheduling my cards s。
+[Speaker 0]:  just before i was about to forget them，
+[Speaker 0]:  it was always incredibly hard work，
+[Speaker 0]:  you know，
+[Speaker 0]:  to do reviews because almost all the cards through once。
+[Speaker 0]:  so this on the verge of forgetting，
+[Speaker 0]:  i was absolutely exhausting，
+[Speaker 0]:  but my god，
+[Speaker 0]:  it worked well here i am。
+[Speaker 0]:  i don't really haven't done any study for，
+[Speaker 0]:  fifteen in plus years，
+[Speaker 0]:  and that's still all remember my chinese。
+[Speaker 1]:  i know i may also me coming back to your radiology example。
+[Speaker 1]:  um like one example，
+[Speaker 1]:  people give is cool centres。
+[Speaker 1]:  so you know，
+[Speaker 1]:  we have this notion that an organization。
+[Speaker 1]:  we have high intelligence roles and low intelligence roles。
+[Speaker 1]:  and for me，
+[Speaker 1]:  intelligence is just the adapted acquliztion and synthesis of knowledge。
+[Speaker 1]:  so we assume that，
+[Speaker 1]:  that know the low intelligence roles and low intelligence roff。
+[Speaker 1]:  and it doesn't adapt，
+[Speaker 1]:  which means we can there are cercertain that that an organization does that do not change。
+[Speaker 1]:  so we could automate，
+[Speaker 1]:  and we don't need to update on knowledge。
+[Speaker 1]:  and i think that discounts actually may be with the radiology example that having this holistic knowledge，
+[Speaker 1]:  like you know，
+[Speaker 1]:  in a core centre，
+[Speaker 1]:  there are so many weird educaes that comin so many weird things happen，
+[Speaker 1]:  and that filt is up in the organization，
+[Speaker 1]:  and we adapt over time。
+[Speaker 1]:  so when you start to automate things and you actually lose the competence to create the process，
+[Speaker 1]:  which created the thing in the in the first place。
+[Speaker 1]:  and you lose the evolizility of that knowledge in your organization。
+[Speaker 1]:  you're actually kind of cutting your legs off。
+[Speaker 0]:  yeah，
+[Speaker 0]:  absolutely。
+[Speaker 0]:  and um so i know know i know was in in my company。
+[Speaker 0]:  i just i tell our stuff all the time。
+[Speaker 0]:  almost the only thing i care about is how much your your personal human capabilities are growing。
+[Speaker 0]:  you know，
+[Speaker 0]:  i don't actually care how many PS you're doing everyfeatfeatres you're doing like there's that nice yeah johnose to help the tc yoga brrecently released some of his，
+[Speaker 0]:  his stanford friday take away lextures。
+[Speaker 0]:  and he has his nice one called a little bit of slope，
+[Speaker 0]:  makes up for a lot of intercept。
+[Speaker 0]:  just basically the idea that，
+[Speaker 0]:  that you know，
+[Speaker 0]:  in your life，
+[Speaker 0]:  if you can focus on doing things that caused you to grow faster，
+[Speaker 0]:  it's way better than focusing on focusing on the things that you 're already good at。
+[Speaker 0]:  you know，
+[Speaker 0]:  that has that i intercepcept。
+[Speaker 0]:  so the only thing i really care about，
+[Speaker 0]:  and i think，
+[Speaker 0]:  is the only thing that matters for my company is that my team i'm focusing on their slope。
+[Speaker 0]:  if you focus on just driving out results at the limit of whatever AI can do right now，
+[Speaker 0]:  you're only caring about the intercept，
+[Speaker 0]:  you know。
+[Speaker 0]:  so i think it's basically a pass to obsolessons through out the company and the people who in it。
+[Speaker 0]:  it's i've really surprise how many executives of big companies are pushing this now because it feels like if they're wrong，
+[Speaker 0]:  which they probably are，
+[Speaker 0]:  and they have nowhere to tell if they are，
+[Speaker 0]:  because this is an area they're not at all familiar with。
+[Speaker 0]:  they ever learned ted their mba thethey're basically setting up their companies to be destroyed and really surprised that you know，
+[Speaker 0]:  shareholders would let them do that。
+[Speaker 0]:  you'll set up such an incredibly speculative action。
+[Speaker 0]:  yeah，
+[Speaker 0]:  here we ah feels like a lot of companies you're gonna fail as a result of the amass tech that that causes them to not be able to maintain or build their products anymore there there。
+[Speaker 1]:  lolos of folks out that are like france was relallike。
+[Speaker 1]:  he really，
+[Speaker 1]:  really gethis it。
+[Speaker 1]:  is he understand this？
+[Speaker 1]:  and you know，
+[Speaker 1]:  so he's always said that it's it's about kind kind of mmetic sharing of cognitive models about the domain and how we refine it together on the sharing thing。
+[Speaker 1]:  this is another big scaling problem with gena。
+[Speaker 1]:  i coding this。
+[Speaker 1]:  so the the ideal case i've done this，
+[Speaker 1]:  i know ddeain really well，
+[Speaker 1]:  and i can specify with exquisite detail，
+[Speaker 1]:  and i told cloud code gogoing 't do this thing。
+[Speaker 1]:  and the models in my mind doesn't matter um and then you go into an organization，
+[Speaker 1]:  and now i need to share like my knowledge of all of the other code。
+[Speaker 1]:  and i'm sure you have this sennual companwell like you need to that。
+[Speaker 1]:  this knowledge acquisition。
+[Speaker 1]:  bottneck is a real serious problem in an organizations。
+[Speaker 1]:  so when it's just me，
+[Speaker 1]:  i think i'm probably about of times more productive using clawd code。
+[Speaker 1]:  it's absolutely magic。
+[Speaker 1]:  and i can see why people are so excited about it。
+[Speaker 1]:  but people，
+[Speaker 1]:  i you seem to understand the bottonic and and how that doesn't really translate to many real world organization。
+[Speaker 0]:  no one's actually creating fifty ty more high quality ality software than they were before。
+[Speaker 0]:  so we've actually stand to study of this。
+[Speaker 0]:  and there's a tiny up，
+[Speaker 0]:  tick，
+[Speaker 0]:  tiny upck and what people are actually shipping。
+[Speaker 0]:  that's the fact，
+[Speaker 0]:  obviously，
+[Speaker 0]:  i ve an enthusiasst of AI and what it can do。
+[Speaker 0]:  but also，
+[Speaker 0]:  my wife，
+[Speaker 0]:  actual recently pointed out an article，
+[Speaker 0]:  all of the pieces that make gambling addictive are present in。
+[Speaker 0]:  yeah，
+[Speaker 0]:  dog flow。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i was。
+[Speaker 1]:  it's it about voting。
+[Speaker 0]:  yeah。
+[Speaker 0]:  it's this really awkward situation where it's very awkwding know。
+[Speaker 0]:  it's very，
+[Speaker 0]:  very thuusitic about eepowered coding in recent months have totally changed their mind about it when they finally went back and looked it like how much stuff that i built during those days recquired enthusiasm，
+[Speaker 0]:  am am i using today？
+[Speaker 0]:  my customers using today，
+[Speaker 0]:  am i making money from today？
+[Speaker 0]:  almost all the money is being made by influences，
+[Speaker 0]:  you know，
+[Speaker 0]:  or by the companies that produce the tokens。
+[Speaker 0]:  they think about AI based coding is that it's like a slot machine and that you，
+[Speaker 0]:  you have an illusion of control。
+[Speaker 0]:  you know，
+[Speaker 0]:  you can get the craft you're prompt in your list of mc pays and your skills and whatever。
+[Speaker 0]:  and then but in the end，
+[Speaker 0]:  your ll vlavor，
+[Speaker 0]:  right you put in the prompt and something comes back。
+[Speaker 0]:  and it's like cherry cherry，
+[Speaker 0]:  as like oh，
+[Speaker 0]:  next time i'll changed my prompt a bit。
+[Speaker 0]:  i'd a bit more context，
+[Speaker 0]:  pull the lave or again pull the lavor。
+[Speaker 0]:  again，
+[Speaker 0]:  it's this darastic thing。
+[Speaker 0]:  you get the occasional win。
+[Speaker 0]:  that's like，
+[Speaker 0]:  oh，
+[Speaker 0]:  i won。
+[Speaker 0]:  i got a feature，
+[Speaker 0]:  so it's got。
+[Speaker 0]:  it's got all these horacks of like lost disguised as a wind of somewhat sarcastic feeling of control，
+[Speaker 0]:  all the stuff that gaming companies try to engineer into their gaming rooms。
+[Speaker 0]:  another，
+[Speaker 0]:  that means that AI is not useful，
+[Speaker 0]:  but gosh 's had to tell。
+[Speaker 1]:  i know，
+[Speaker 1]:  and rachel just just just to be close。
+[Speaker 1]:  sure。
+[Speaker 1]:  she also said that one of the hormarks of gambling is that you kind of delude yourself that you have some awareness。
+[Speaker 1]:  so what's going on？
+[Speaker 1]:  but it，
+[Speaker 1]:  but actually you don't，
+[Speaker 1]:  but let's do the bull case a little bit。
+[Speaker 1]:  so on the i do think in restricted cases it it is it is very useful。
+[Speaker 1]:  and these are cases where we understand。
+[Speaker 1]:  and and we can place constraints specificficbut。
+[Speaker 1]:  but even in those cases，
+[Speaker 1]:  you could argue on the one hand that we're not。
+[Speaker 1]:  we're not going to be unemployed anytime soon because you just just do more work on the addiction thing。
+[Speaker 1]:  i've noticed that。
+[Speaker 1]:  so i've had forty hour clawd code marathon sessions。
+[Speaker 1]:  and and i actually feel addicted to it like a spot machine。
+[Speaker 1]:  you know it，
+[Speaker 1]:  it really is，
+[Speaker 0]:  and they too absolutely yeah。
+[Speaker 1]:  i know it's and just i've never felt more drained writing，
+[Speaker 1]:  and i actually need to take a rest after it's like a few days rest，
+[Speaker 1]:  because it it completely。
+[Speaker 0]:  and i re's crap，
+[Speaker 0]:  you know，
+[Speaker 0]:  yeah，
+[Speaker 0]:  definitely。
+[Speaker 0]:  i had some successes，
+[Speaker 0]:  right？
+[Speaker 0]:  and so in fact，
+[Speaker 0]:  we've spent the last couple of years building a whole product based around where we know the successes are going to a be，
+[Speaker 0]:  which is when you're working on recently，
+[Speaker 0]:  small pieces that you can fully understand and that you can design，
+[Speaker 0]:  and you can build up your only only as abstraction to create things that are bigger than the patthat。
+[Speaker 0]:  you're building out of had a very interesting situation recently where i just kind kind of experiment，
+[Speaker 0]:  basically，
+[Speaker 0]:  which is we we rely very heavily on something called ipe kernel，
+[Speaker 0]:  which is the thing that's powers，
+[Speaker 0]:  stupid and nobooks。
+[Speaker 0]:  and they're been a major version release of vii pacanal from six to seven，
+[Speaker 0]:  and it stopped working。
+[Speaker 0]:  and it stopped working。
+[Speaker 0]:  and both of the products that we were try to use it with。
+[Speaker 0]:  one was whowas called today ND classic，
+[Speaker 0]:  which is see original jupiter dotebook，
+[Speaker 0]:  and then our own product called solve it。
+[Speaker 0]:  it were just ranomly crash um and ipad canandls over five thousand lines of code。
+[Speaker 0]:  it's very complex code multiple threads events，
+[Speaker 0]:  locks interfaces with i python，
+[Speaker 0]:  you know，
+[Speaker 0]:  with with said MQ，
+[Speaker 0]:  you know，
+[Speaker 0]:  all kinds of different pieces，
+[Speaker 0]:  debag pie。
+[Speaker 0]:  and i couldn't get my head around it，
+[Speaker 0]:  and i couldn't see where it was crashing the test to all passing。
+[Speaker 0]:  i wonder if AIE consolve this get us like i'm always interested the question of like how bigger chunk today。
+[Speaker 0]:  i handle on its own right now。
+[Speaker 0]:  the answer turned out to be。
+[Speaker 0]:  yes。
+[Speaker 0]:  i think it can just it was like，
+[Speaker 0]:  so it's been a couple of weeks。
+[Speaker 0]:  i didn't develop a lot of understanding about how ipad phone or really work in the process，
+[Speaker 0]:  but i did。
+[Speaker 0]:  it's been quite a child kind of pulling out separate comment like，
+[Speaker 0]:  so the answer was in two hours codex five point。
+[Speaker 0]:  i think it was popwite two at that time or maybe three year，
+[Speaker 0]:  just come out，
+[Speaker 0]:  couldn't do it。
+[Speaker 0]:  then if i got the two hundred dollar a month，
+[Speaker 0]:  GPT five point three pro to fix the problems equal。
+[Speaker 0]:  and so by rolling back between those two pieces of software and those too much models，
+[Speaker 0]:  i could get things working uh over a couple of week's period and luck。
+[Speaker 0]:  y say，
+[Speaker 0]:  wasn't at all，
+[Speaker 0]:  thought it very tiring，
+[Speaker 0]:  and it felt stressed because it wasn't really in control。
+[Speaker 0]:  but the interesting thing is，
+[Speaker 0]:  i now am in a situation where i have the only implementation of an of a python jupparkernel that actually works correctly as fas。
+[Speaker 0]:  i can tell with these new version，
+[Speaker 0]:  seven protocoal improveonments。
+[Speaker 0]:  and now like this is fascinating because we don't have a kind of a software engineering theory of what to do。
+[Speaker 0]:  now，
+[Speaker 0]:  like here's a piece of code that，
+[Speaker 0]:  that would understands。
+[Speaker 0]:  am i going to bet my company's product on it？
+[Speaker 0]:  and i the answers，
+[Speaker 0]:  i don't know because like II don't like II don't know to do do now，
+[Speaker 0]:  no one's like been in this situation。
+[Speaker 0]:  and like，
+[Speaker 0]:  will it does it have memory leagues？
+[Speaker 0]:  will it still work a years time if this mind to change the protocol？
+[Speaker 0]:  is there some weird edge case that's going to destroy everything？
+[Speaker 0]:  no one knows because no one understands his code。
+[Speaker 0]:  it's a really curious situation。
+[Speaker 1]:  it mean festival，
+[Speaker 1]:  we should acknowledge the peninicious erosion of control。
+[Speaker 1]:  so at the very beginning，
+[Speaker 1]:  you have ten percent AI generated code，
+[Speaker 1]:  and then you can just see how it creeps up and up。
+[Speaker 1]:  and then at some point，
+[Speaker 1]:  six months down the line PR comes in。
+[Speaker 1]:  and now you know，
+[Speaker 1]:  sixty percent of the code is i generated。
+[Speaker 1]:  and and and you see what you see what happens you，
+[Speaker 1]:  you see slowly become disconnected。
+[Speaker 1]:  but the bullcase for this，
+[Speaker 1]:  you know，
+[Speaker 1]:  in AOI，
+[Speaker 1]:  there is an idea called functionalism that we don't care what the intelligent thing is made out of as long as it and does all of the right things。
+[Speaker 1]:  then we know，
+[Speaker 1]:  you know，
+[Speaker 1]:  we would say it's AI，
+[Speaker 1]:  and it's the same thing of software。
+[Speaker 1]:  so the bull cases II understand the demand，
+[Speaker 1]:  i don't need to rights and don't need to know how to write the quick sore alaloriththm。
+[Speaker 1]:  i just need to。
+[Speaker 1]:  i just need to understand it。
+[Speaker 1]:  and then and then you know，
+[Speaker 1]:  so i just need to have all of these tests，
+[Speaker 1]:  and it needs to go into deployment。
+[Speaker 1]:  and these things need to happen。
+[Speaker 1]:  and at that point，
+[Speaker 1]:  you know，
+[Speaker 1]:  i don't actually care。
+[Speaker 1]:  and i could also，
+[Speaker 0]:  i quite that i quite that be clear。
+[Speaker 0]:  i quite like that framing，
+[Speaker 0]:  but you're what that actually does says，
+[Speaker 0]:  well，
+[Speaker 0]:  software engineering sure is important。
+[Speaker 0]:  then because after engineering is all about finding what those pieces are and how they should behave，
+[Speaker 0]:  and then power，
+[Speaker 0]:  you can put them together to create a bigger piece。
+[Speaker 0]:  and then how you can put them together to create a bigger piece。
+[Speaker 0]:  and if we do that well that in tenious time，
+[Speaker 0]:  we could have software that it's far more capable than anything we could even imagine today。
+[Speaker 0]:  but you're really gonna get that we're really great sofoftware engineering。
+[Speaker 0]:  yeah，
+[Speaker 0]:  you want to be careful。
+[Speaker 0]:  i think in the end，
+[Speaker 0]:  like i pad coranel，
+[Speaker 0]:  i'm finding，
+[Speaker 0]:  for example，
+[Speaker 0]:  it's just two bigger pace，
+[Speaker 0]:  right？
+[Speaker 0]:  because in the end，
+[Speaker 0]:  the time that made the original ipc ernewe're not able to create a set of tests that correctly exercised it。
+[Speaker 0]:  and therefore，
+[Speaker 0]:  real world downraam projects，
+[Speaker 0]:  including the original NA classic hknow，
+[Speaker 0]:  which is what ipc cha was exjected from，
+[Speaker 0]:  didn't work anymore。
+[Speaker 0]:  so this，
+[Speaker 0]:  this is kind of where our focuses are now on the development side at that answer。
+[Speaker 0]:  i it's finding the right size pieces and making sure they are the right pieces lowing how to recognize what those pieces are and how to design them，
+[Speaker 0]:  how to put them together is actually something that normally requires some decades of experience before you really good at it um saying it's true for me。
+[Speaker 0]:  and where can i got pretty good at it after maybe twenty years of experience？
+[Speaker 0]:  yeah，
+[Speaker 0]:  the big question is，
+[Speaker 0]:  like，
+[Speaker 0]:  how do you build the software engineering chops，
+[Speaker 0]:  which are now even more important than theyever been before？
+[Speaker 0]:  they're the difference between somebody who's good at writing computer software。
+[Speaker 0]:  and somebody who's not that feels like a challenging question。
+[Speaker 1]:  i know there's also this notion that there are so many different ways to abstract and represent something。
+[Speaker 1]:  you know，
+[Speaker 1]:  the world is a very complex place。
+[Speaker 1]:  and maybe the way we've been abstracting representing software is mostly a reflection of our own cognitive limitations，
+[Speaker 1]:  right？
+[Speaker 1]:  and even in the sciences in in physics，
+[Speaker 1]:  you tend to have a lot of quite reductive methods of modeling the world。
+[Speaker 1]:  and then you've got complexity science，
+[Speaker 1]:  which is just embracing the constructive disability tive，
+[Speaker 1]:  you know，
+[Speaker 1]:  narly nature，
+[Speaker 1]:  tive of things。
+[Speaker 1]:  and i think a lot of software today，
+[Speaker 1]:  we don't underunderand right。
+[Speaker 1]:  so for exexple ple there，
+[Speaker 1]:  many globally distributed software applications that use the actor pattern 你的。
+[Speaker 1]:  and this is just this is it's basically like a complex system，
+[Speaker 1]:  right？
+[Speaker 1]:  and the only way we can understand it is by doing simulations and tests，
+[Speaker 1]:  because no one actually knows how one of these things fit together。
+[Speaker 1]:  so you could argue，
+[Speaker 1]:  i guess，
+[Speaker 1]:  as a bullcase that maybe we already are doing this at the top of the suffiengineering，
+[Speaker 1]:  and that is what we want to do。
+[Speaker 1]:  eventually anyway，
+[Speaker 0]:  yeah，
+[Speaker 0]:  i'd say probably not you see companies like instagram and what's sap dominate their sectors，
+[Speaker 0]:  wealth having ten stuff and beiding companies like google and microsoft in the process。
+[Speaker 0]:  i would argue this way of building software in very large companies is actually failing。
+[Speaker 0]:  and i think we're seeing a lot of these very large companies becoming，
+[Speaker 0]:  you know，
+[Speaker 0]:  increasingly desperate。
+[Speaker 0]:  and you know，
+[Speaker 0]:  for example，
+[Speaker 0]:  the quality of microsoft windows and microo s has very obviously deteriorated greatly in the last five to ten years。
+[Speaker 0]:  you'll back when dave katler was looking at every line of the NT kernel and making sure it was beautiful it。
+[Speaker 0]:  it was a elegant and marvelous pece of software。
+[Speaker 0]:  you know，
+[Speaker 0]:  i don't think as anybody in the world，
+[Speaker 0]:  he's going to say that windows eleven is an elegant and marvelous pece of software。
+[Speaker 0]:  so actually think we do need to find these smaller components that we do fully understand。
+[Speaker 0]:  and that we need to build them up。
+[Speaker 0]:  and here's the problem。
+[Speaker 0]:  um AI is no good at that。
+[Speaker 0]:  so and so i say that imirically they're really bad。
+[Speaker 0]:  it's software engineering。
+[Speaker 0]:  then i think that's possibly always going to be true，
+[Speaker 0]:  because you know，
+[Speaker 0]:  we're we're asking them to often outside outof their training data。
+[Speaker 0]:  you know，
+[Speaker 0]:  if we trying to build something that literally hasn't been built before and it in a better way and has been done before。
+[Speaker 0]:  we're saying，
+[Speaker 0]:  like，
+[Speaker 0]:  don't just copy what was in the training data。
+[Speaker 0]:  so um and again，
+[Speaker 0]:  this is a confusing point for lot of people because they see AI been very good coding。
+[Speaker 0]:  and then you think like all that's software engineering。
+[Speaker 0]:  yeah，
+[Speaker 0]:  it's was god must be good a software engineering，
+[Speaker 0]:  but it's they're different tasks。
+[Speaker 0]:  there's not a huge ament of overlap between them，
+[Speaker 0]:  and there's no current empical data to suggest that LM ms are gaining any compedency at software engineering。
+[Speaker 0]:  every time you look at a piece of soft engineering。
+[Speaker 0]:  they've done like the browser for examwhich，
+[Speaker 0]:  um curse a created or the sea compiler，
+[Speaker 0]:  which um antropic can created，
+[Speaker 0]:  like i've read the source code of those things quite a bit。
+[Speaker 0]:  um chris lton is much more than ly with the compiled。
+[Speaker 0]:  examples may。
+[Speaker 0]:  um but there are their very，
+[Speaker 0]:  very obvious copies of things that already exist。
+[Speaker 0]:  so that's a challenge。
+[Speaker 0]:  you know，
+[Speaker 0]:  is if you want to build something that's not just a copy，
+[Speaker 0]:  then you can't outsource that to an LM。
+[Speaker 0]:  there's no theoretical to reason to believe that you'll ever be able to。
+[Speaker 0]:  and there's no empical data to suggest that you'll never be able to。
+[Speaker 1]:  yes。
+[Speaker 1]:  i think the punch line of this conversation is，
+[Speaker 1]:  and i'm i'm sure you degree with this that we need to have the combination of AI and humans working together，
+[Speaker 1]:  right？
+[Speaker 1]:  because the huhus s provithe，
+[Speaker 1]:  the understanding and all of the stuff we were saying about knowledge，
+[Speaker 1]:  but we can still use AI as a tool，
+[Speaker 1]:  but we need to we need to design operating models or ways of working that make that we say we we don't want to diminish our competence and understanding，
+[Speaker 1]:  right？
+[Speaker 1]:  it's so it's a very，
+[Speaker 1]:  very ine light。
+[Speaker 0]:  that's that's paying our focus，
+[Speaker 0]:  and we both focus on that for teaching and for own internal development。
+[Speaker 0]:  the stuff i've been working on for twenty years has turned out to be the thing that makes this all work。
+[Speaker 0]:  stephen wolfm should get credit for this。
+[Speaker 0]:  who was the guy that created the notebook into face，
+[Speaker 0]:  although also lots of ideas，
+[Speaker 0]:  kind of go back to smsmall talk and lisp and APO the basically the idea that human can do a lot more with a computer when the human can like manipulate the objects in inside that computer in real time，
+[Speaker 0]:  study them move them around and combine them together。
+[Speaker 0]:  yeah，
+[Speaker 0]:  that's what small talk was all about，
+[Speaker 0]:  you know，
+[Speaker 0]:  with objects and APO with a same with a raise thethebetica。
+[Speaker 0]:  basically is a superpowered list，
+[Speaker 0]:  which they're also added on this very elegant notebook interface that allowed you to construct is a living document out of all this。
+[Speaker 0]: 嗯。
+[Speaker 0]:  so i build this thing called NBDFA few years ago，
+[Speaker 0]:  which is a way of creating production software inside these notebook interfaces inside these rich dynamic environments。
+[Speaker 0]:  and i found that made me dramatically more um productive as a programmer ing like even even though i've never been a full time。
+[Speaker 0]:  programmer is my job when you look at my kind of get have breail up，
+[Speaker 0]:  what i think get have producsome statistics about it。
+[Speaker 0]:  and i was like just about the most productive programmer er in australia，
+[Speaker 0]:  you know，
+[Speaker 0]:  like it's working。
+[Speaker 0]:  and a lot of the stuff i build has lots and lots of people use it because it's such a rich，
+[Speaker 0]:  powerful way to build things。
+[Speaker 0]:  and so it turns out weve ve discovered that if you put ai in the same environment with a human i get in AA，
+[Speaker 0]:  rich interactive environment，
+[Speaker 0]:  AI is much better as well，
+[Speaker 0]:  which perhaps isn't shocking to hear。
+[Speaker 0]:  but that the normal，
+[Speaker 0]:  like if you use cloud code，
+[Speaker 0]:  i know you do。
+[Speaker 0]:  and it's a very good piece of software。
+[Speaker 0]:  but the environment we give cloud code is very similar。
+[Speaker 0]:  the environment that people had forty years ago。
+[Speaker 0]:  you know，
+[Speaker 0]:  it's it's a line based terminal interface。
+[Speaker 0]:  you know，
+[Speaker 0]:  i can use MCP。
+[Speaker 0]:  you know，
+[Speaker 0]:  have most of the times。
+[Speaker 0]:  it's just nowadays uses bash tools，
+[Speaker 0]:  which again，
+[Speaker 0]:  very powerful。
+[Speaker 0]:  i love bash tools。
+[Speaker 0]:  i use them all the detail CI tools all the time，
+[Speaker 0]:  but it's still just it's using text files。
+[Speaker 0]:  you know，
+[Speaker 0]:  as it's as it's interface to the world，
+[Speaker 0]:  it's it's it's really mega。
+[Speaker 0]:  so so we put the human in the AI inside a python interpreter。
+[Speaker 0]:  um and now suddenly you've got the full power power，
+[Speaker 0]:  very，
+[Speaker 0]:  very elegant，
+[Speaker 0]:  expressive programming language that the human can used to top the ii。
+[Speaker 0]:  the ii can top the computer，
+[Speaker 0]:  the human can tok to the computer。
+[Speaker 0]:  the computer can top the ii like you have this really rich thing。
+[Speaker 0]:  and then we let the human and the II in real time build tools that each other can use。
+[Speaker 0]:  and that's what it's about to me，
+[Speaker 0]:  right？
+[Speaker 0]:  it's about like creating an environment where humans can grow and engage and share。
+[Speaker 0]:  it's like for me when i use sovet。
+[Speaker 0]:  it's the opposite of that experience。
+[Speaker 0]:  you describe with cloud code after a couple of hours。
+[Speaker 0]:  i feel energized and happy and fulfilled。
+[Speaker 1]:  i give you give you my site。
+[Speaker 1]:  i think that the thing that you're pointing to here is there's something magic about having an interactive stateful environment that gives you feedback。
+[Speaker 1]:  and that is because our brains kind of they they can do a certain，
+[Speaker 1]:  you know，
+[Speaker 1]:  unit of work。
+[Speaker 1]:  so so we actually think through refining and testing with reality，
+[Speaker 1]:  and that's why i'm i'd doing my PHDI use mathemagic and mat lalab。
+[Speaker 1]:  and i agree。
+[Speaker 1]:  so if we got this rapper environment and you know，
+[Speaker 1]:  here's the matrio，
+[Speaker 1]:  do an image plot，
+[Speaker 1]:  you know，
+[Speaker 1]:  do a change。
+[Speaker 1]:  this is what it looks like now。
+[Speaker 1]:  and it's actually a wonderful way to kind of just just refine my mental model about something。
+[Speaker 1]:  and but but claud code does a lot of this stuff。
+[Speaker 1]:  II think it's mostly a sill issue。
+[Speaker 1]:  i think the people that use cloud code effectively do this。
+[Speaker 1]:  i've wrwrten a contcontact management possipossible it possipossible possipossible so you i've writa contact management system called led script。
+[Speaker 1]:  and when i'm putting together a documentary video，
+[Speaker 1]:  it can go，
+[Speaker 1]:  it can it can pull transcripts，
+[Speaker 1]:  and then i can verify the claims。
+[Speaker 1]:  and you know，
+[Speaker 1]:  part of the illiteracy is just understanding the a symmetry of language models，
+[Speaker 1]:  right？
+[Speaker 1]:  so when you give them a sort of discriminative task，
+[Speaker 1]:  they're actually quite good。
+[Speaker 1]:  so if i tell it in a subbagent to go and verify every individual claim，
+[Speaker 1]:  it's much more accurate。
+[Speaker 1]:  vify was in genereration mode。
+[Speaker 1]:  i was generated a bunch of claims and the stateful feedback thing。
+[Speaker 1]:  again，
+[Speaker 1]:  you know，
+[Speaker 1]:  i can have some kind of like schematized examell dump。
+[Speaker 1]:  and i can have like a an application here on the side，
+[Speaker 1]:  which is visualizing，
+[Speaker 1]:  and it's like a feedback loop。
+[Speaker 1]:  and for me，
+[Speaker 1]:  this is an AI literacy thing。
+[Speaker 1]:  the the good people AI are already doing this。
+[Speaker 0]:  yes。
+[Speaker 0]:  so i thought fully agree with you。
+[Speaker 0]:  i agree。
+[Speaker 0]:  you can do it in cloud coand。
+[Speaker 0]:  i agree，
+[Speaker 0]:  it is AA literacy thing as to whether you can，
+[Speaker 0]:  but also cloud code was not designed to do this。
+[Speaker 0]:  it's not very good at it it，
+[Speaker 0]:  and it doesn't make it the natural way of working with it。
+[Speaker 0]:  i don't want to say it's an a literacy problem because that's like saying，
+[Speaker 0]:  like，
+[Speaker 0]:  oh，
+[Speaker 0]:  it's a you problem to me，
+[Speaker 0]:  if at all，
+[Speaker 0]:  is not making it the natural way for a human to become more knowledgeable，
+[Speaker 0]:  more happy，
+[Speaker 0]:  more connected with a deeper understanding and a deeper connection to what they're working on。
+[Speaker 0]:  that's a whoproblem that，
+[Speaker 0]:  that should be how tools are designed to work。
+[Speaker 0]:  so so many models and tools expressely are being evaluated on。
+[Speaker 0]:  can i give it a complete piece of work and have it to go away and do the whole thing，
+[Speaker 0]:  which feels like a huge mistake to me。
+[Speaker 0]:  this is，
+[Speaker 0]:  have you evaluated whether a human comes out the other end with a deep understanding of a topic，
+[Speaker 0]:  you know，
+[Speaker 0]:  so that they can really easily build things in the future。
+[Speaker 1]:  i agree with all of that，
+[Speaker 1]:  but then is the other interesting angle，
+[Speaker 1]:  which is that there there is famfamous talk by joe grooce。
+[Speaker 1]:  and we've talk about this，
+[Speaker 1]:  and he said that notebooks are terrible。
+[Speaker 1]:  they're really bad from a sufreiengineering point tity。
+[Speaker 1]:  and and at the time，
+[Speaker 1]:  and maybe still one out of certain extent，
+[Speaker 1]:  i agree with him，
+[Speaker 1]:  because 我 um you know，
+[Speaker 1]:  i've i've done m dedevelos i'worworin larlarge organzzations know trying to figure out how do we bridge like data science and softwer engineering and claud code is already more towards a sffer engineering side。
+[Speaker 1]:  and what that means is it creates eyedepopoant at stateless repeatteable artifacts right？
+[Speaker 1]:  so as you say from a pedogogical point of view，
+[Speaker 1]:  because i good having this stateful feedback，
+[Speaker 1]:  because because i understand what's t's going on，
+[Speaker 1]:  but then i need to translate that into something which is deployable。
+[Speaker 1]:  and can you tell us the story of you responded to john gruce in new？
+[Speaker 1]:  and it was a bit of a fiasco，
+[Speaker 1]:  wasn't it？
+[Speaker 1]:  but just just tell us about that story，
+[Speaker 0]:  you did a really good video called。
+[Speaker 0]:  i don't like noteooks。
+[Speaker 0]:  um it was hilarias。
+[Speaker 0]:  it it really well ddone。
+[Speaker 0]:  and yeah，
+[Speaker 0]:  it's totally wrong。
+[Speaker 0]:  and all the things he said，
+[Speaker 0]:  notebooks can't do they can。
+[Speaker 0]:  and all the things they said，
+[Speaker 0]:  you can't do with no books。
+[Speaker 0]:  i do with no books all the time。
+[Speaker 0]:  so it was a very good，
+[Speaker 0]:  very，
+[Speaker 0]:  very uuum incorrect talk。
+[Speaker 0]:  so then i did the kind of a parody of it called um i like notebooks um in which i basically copied with credit，
+[Speaker 0]:  most of his slides and and chold how every one of them was totally incorrect。
+[Speaker 0]:  but like i actually think you're coming about，
+[Speaker 0]:  it does come down to the heart of it，
+[Speaker 0]:  which is this difference between，
+[Speaker 0]:  like how software engineering is normally done。
+[Speaker 0]:  this is how scientific research and similar things is normally done。
+[Speaker 0]:  and i think and i agree，
+[Speaker 0]:  there is a dichoomy there。
+[Speaker 0]:  and i think that economy is a real shame，
+[Speaker 0]:  because i think software development is being done wrong。
+[Speaker 0]:  it's being done in this way，
+[Speaker 0]:  which is yell about reproduceability。
+[Speaker 0]:  and these like dead these dead paces。
+[Speaker 0]:  you know，
+[Speaker 0]:  it's all dead code dead files。
+[Speaker 0]:  i will never be able to express his one million of his clearly，
+[Speaker 0]:  as as bread victor has in his work。
+[Speaker 0]:  so i'd encourage people who haven't watch bread victor to to watch him，
+[Speaker 0]:  but know，
+[Speaker 0]:  know he，
+[Speaker 0]:  he shows again and again，
+[Speaker 0]:  how a direct connection，
+[Speaker 0]:  you know，
+[Speaker 0]:  a direct vistival connection with the thing you're doing is，
+[Speaker 0]:  is all that medits，
+[Speaker 0]:  you know，
+[Speaker 0]:  and that's his mission is to make sure people have that connection。
+[Speaker 0]:  and that's basically my mission as well。
+[Speaker 0]:  so for me，
+[Speaker 0]:  traditional software engineering is as far from that as it is possible to get。
+[Speaker 0]:  i think it's i think it's gross th。
+[Speaker 0]:  i find it disgusting，
+[Speaker 0]:  and i find it sad that people are being forced to work like that like i think it's humane。
+[Speaker 0]:  and i just didn't think it works very well。
+[Speaker 0]:  i mean，
+[Speaker 0]:  empirically it doesn't worfor very well，
+[Speaker 0]:  and it's much less good for AI as well as it's much less good for humans。
+[Speaker 0]:  it hasn't always been that way like it know with with alan，
+[Speaker 0]:  an k and small talk can ivson，
+[Speaker 0]:  and and app l，
+[Speaker 0]:  you know，
+[Speaker 0]:  lispible from with mathematica。
+[Speaker 0]:  to me，
+[Speaker 0]:  these was a golden days when when people were focused on the question of how do we get the human into the computer to work as closely with it as possible？
+[Speaker 0]:  you know，
+[Speaker 0]:  that's whether the mouse came from example，
+[Speaker 0]:  like you got like，
+[Speaker 0]:  like can drag and visualize entities in your computers，
+[Speaker 0]:  things things can move around。
+[Speaker 0]:  so i feel like we've lost that。
+[Speaker 0]:  i think it's really sad，
+[Speaker 0]:  yeah，
+[Speaker 0]:  with cloud code and stuff the the default way of working with them is go super deep into it。
+[Speaker 0]:  it's like okay。
+[Speaker 0]:  there's a whole folder follow files。
+[Speaker 0]:  she'd ever look at them your entire interaction with it is through a prompt。
+[Speaker 0]:  i literally discussed me like，
+[Speaker 0]:  i literally think it's it's inhumane，
+[Speaker 0]:  and it's my mission remains the same as it has been for，
+[Speaker 0]:  like twenty years，
+[Speaker 0]:  which is to stop people working like this。
+[Speaker 1]:  i know，
+[Speaker 1]:  but but so costing my mind back，
+[Speaker 1]:  i used to work of data scientists。
+[Speaker 1]:  they were using jokes to notebook ks。
+[Speaker 1]:  what i found found。
+[Speaker 1]:  i typically，
+[Speaker 1]:  i mean，
+[Speaker 1]:  then then you couldn't if you check them into get，
+[Speaker 1]:  it wouldn't look very good。
+[Speaker 1]:  most of these daof scientists didn't know how to use it。
+[Speaker 1]:  they would run the cells out of border，
+[Speaker 1]:  which means it wouldn't be reproduced。
+[Speaker 1]:  but it what t's the things like that。
+[Speaker 1]:  the thing is，
+[Speaker 1]:  i agree with you that you can use them in this in this workflow，
+[Speaker 1]:  but it comes back to what i was same before about。
+[Speaker 1]:  you know，
+[Speaker 1]:  we 're talking about the core censor，
+[Speaker 1]:  and it being like a low intelligence job。
+[Speaker 1]:  you know，
+[Speaker 1]:  the data scientists out the reasway that they they are doing intelligent work is they are actually creating something that doesn't exist。
+[Speaker 1]:  they are figuring out the the contcontls of of problem。
+[Speaker 1]:  they're actually working in a domain that is poorly understood。
+[Speaker 1]:  but you could argue now the bull case is when the data scientists can sucsinically describe the controls of the problem。
+[Speaker 1]:  maybe we could go to cloud code，
+[Speaker 1]:  and we could implement the properly that how do bridge dge between those two world be be driterririidea ah，
+[Speaker 0]:  like，
+[Speaker 0]:  you know what to remove people from their explororatory environment。
+[Speaker 0]:  you know，
+[Speaker 0]:  research and science is developed by people building insight。
+[Speaker 0]:  you know，
+[Speaker 0]:  whoever you listen to，
+[Speaker 0]:  we know whether be a anmman or whatever like this is if you always here from the great scientists，
+[Speaker 0]:  how they build deeper intuition by by building mental models，
+[Speaker 0]:  which they get overtime by interacting with the things that they're learning about that，
+[Speaker 0]:  like in fineman's case，
+[Speaker 0]:  because it's theoretical physics，
+[Speaker 0]:  he couldn't actually pick up speeding clock，
+[Speaker 0]:  but he did literally study speding plates。
+[Speaker 0]:  you know，
+[Speaker 0]:  you gota a find ways to deeply interact with with what you're working with。
+[Speaker 0]:  like seven times，
+[Speaker 0]:  i've seen data science teams because you right，
+[Speaker 0]:  data science teams。
+[Speaker 0]:  i'm very familiar with kit，
+[Speaker 0]:  and i'm very familiar with things that they don't need to understand。
+[Speaker 0]:  um so often，
+[Speaker 0]:  i've seen a software engineer will become their manager，
+[Speaker 0]:  and their fixed to this will be id to tell them all to stop using jupiter notebooks。
+[Speaker 0]:  and now they have to use all these reproducable blaablavivirtubut。
+[Speaker 0]:  you know，
+[Speaker 0]:  virtual end of blablah。
+[Speaker 0]:  they destroy these teams over over again。
+[Speaker 0]:  i've seen this keep happening because the solution is not create more discipline and bureaucracy。
+[Speaker 0]:  it's solve the actual problem。
+[Speaker 0]:  so for example，
+[Speaker 0]:  we we built a the thing called an ND merge driver，
+[Speaker 0]:  which a lot of people that realize this。
+[Speaker 0]:  but actually，
+[Speaker 0]:  uh，
+[Speaker 0]:  no books extremely get friendly。
+[Speaker 0]:  it's just that get doesn't ship with a merge driver for them。
+[Speaker 0]:  so get only ships with a merge driver for a line based text files，
+[Speaker 0]:  but it's fully plugble。
+[Speaker 0]:  and so you can easily plug in in one for jason files instead。
+[Speaker 0]:  and so we wrote one。
+[Speaker 0]:  and so you can diff，
+[Speaker 0]:  you know，
+[Speaker 0]:  when you get to get diff withour merge driver，
+[Speaker 0]:  you see sell level difts。
+[Speaker 0]:  if you get a merge conflict，
+[Speaker 0]:  you get surge level lelevel merge conflicts that the notebook is always openable in jupiter。
+[Speaker 0]:  um andy dime did the same things of to independent implementations of this。
+[Speaker 0]:  so yeah，
+[Speaker 0]:  there were problems to solve，
+[Speaker 0]:  you know，
+[Speaker 0]:  but the solution to it was not throw away brebrevicicor's ideas and make people further away from from their exploratory tools，
+[Speaker 0]:  but to fix the expliratory tools。
+[Speaker 0]:  and i think all software developers should be using explloitatory based programming to deep en，
+[Speaker 0]:  their understanding of what they're working with so that they end up with a really strong mental model of the system that they're building。
+[Speaker 0]:  and that working with and then they can come up with better solutions more incrementally than are tested。
+[Speaker 0]:  i basically ever have to use a debegga because i basically never have bugs，
+[Speaker 0]:  and it's not because i'm a particularly good programmr。
+[Speaker 0]:  it's because i build up small little steps and each step works，
+[Speaker 0]:  and i can see it working。
+[Speaker 0]:  and i can interact with it。
+[Speaker 0]:  so there's no room for bags，
+[Speaker 1]:  you know，
+[Speaker 1]:  you know，
+[Speaker 1]:  i'm so torn on this，
+[Speaker 1]:  because i agree with you，
+[Speaker 1]:  and i'm also scheduical of people who say that organizations that they they converge on to ways of doing things，
+[Speaker 1]:  and they no longer need to evolve。
+[Speaker 1]:  they no longer and need to adapt。
+[Speaker 1]:  you know，
+[Speaker 1]:  innovation is adaptivity，
+[Speaker 1]:  and we should should rease the surface area of adaptivity as much as we possibly know cancer。
+[Speaker 1]:  we need people that are constantly testing new ideas，
+[Speaker 1]:  finding these constraints。
+[Speaker 1]:  but by the same token，
+[Speaker 1]:  we need to use the cloud，
+[Speaker 1]:  we need to use CRCD。
+[Speaker 1]:  we need to get this stuff into production。
+[Speaker 0]:  yeah，
+[Speaker 0]:  so do theit's absolutely like there's absolutely know like it。
+[Speaker 0]:  so BDF chips with out of the box CI integration and the the tests are literally there like，
+[Speaker 0]:  because the sources and notebook the entire exploration of like hatsses API work，
+[Speaker 0]:  you know，
+[Speaker 0]:  what does it look like when you call it the implementation of the functions，
+[Speaker 0]:  the examples of the documentation，
+[Speaker 0]:  often the test of them are in one place。
+[Speaker 0]:  so it's much easier to be a good software engineer in this environment。
+[Speaker 0]:  um so yet like to do do both，
+[Speaker 0]:  you know。
+[Speaker 1]:  so remember，
+[Speaker 1]:  there was there was that existential risk should be an urgent priority，
+[Speaker 1]:  and it was signed by fix like hinton and and demiscs sobis。
+[Speaker 1]:  and you responded um basically with a rebuttle。
+[Speaker 1]:  and that was with aravan。
+[Speaker 1]:  you know，
+[Speaker 1]:  the snake oal guy tell me about that。
+[Speaker 1]:  you do think we should be worried about AI exexistentirisst。
+[Speaker 0]:  i mean，
+[Speaker 0]:  that was a certain time wasn't。
+[Speaker 0]:  and i feel like things have changed a bit god。
+[Speaker 0]:  i feel like we we not spend an avvan，
+[Speaker 0]:  but broadly aaking community of which you're part kind of probably won that。
+[Speaker 0]:  now we have other problems to worry about。
+[Speaker 0]:  but you know，
+[Speaker 0]:  basically，
+[Speaker 0]:  at that point，
+[Speaker 0]:  the prevailing narrative was AI is about to become autonomous st，
+[Speaker 0]:  could become autonomouous at the moment，
+[Speaker 0]:  and great destroy the world。
+[Speaker 0]:  so very much comes from。
+[Speaker 0]:  you know，
+[Speaker 0]:  eliza you kcaskiis work，
+[Speaker 0]:  which i think clearly，
+[Speaker 0]:  it's been shown to be wrong that many levels this point that they would review that，
+[Speaker 1]:  obviously，
+[Speaker 0]:  well，
+[Speaker 0]:  they would。
+[Speaker 0]:  yeah，
+[Speaker 0]:  it's one of those things that they can always refuse，
+[Speaker 0]:  just like any doing stay cult unless less you give it a date and the date passes。
+[Speaker 1]:  so even i update a little little bit in the sense that i now think i would now say that these models can be said to be intelligent and restraicted demains the archchallenshowed that。
+[Speaker 1]:  so if you place constraints into the problem，
+[Speaker 1]:  you can，
+[Speaker 1]:  you can go faster towards an knogo even agency。
+[Speaker 1]:  you，
+[Speaker 1]:  you can put a planner on that。
+[Speaker 1]:  and you can go if you，
+[Speaker 1]:  if you know where you're go，
+[Speaker 1]:  you can go there faster，
+[Speaker 1]:  but that doesn't help you that you can have all the intelligence and agency in the world，
+[Speaker 1]:  but you don't have the knowledge in the constraints，
+[Speaker 1]:  then you're going in the wrong direction，
+[Speaker 1]:  faster。
+[Speaker 1]:  and i think they don't seem to appreciate that these models don't actually know the world like that of that，
+[Speaker 0]:  that even relevant to，
+[Speaker 0]:  even in my point，
+[Speaker 0]:  which was it is that it's misunderstanding where the actual danger is，
+[Speaker 0]:  which is that when you have a dramatically more powerful technology entering the world that can make some draramatically more powful people，
+[Speaker 0]:  people who in love with power，
+[Speaker 0]:  we'll seek to monopolized technology。
+[Speaker 0]:  and the more powerful it is the more strong that urge from those power。
+[Speaker 0]:  hungry people will be so to ignore people who say here's the problem。
+[Speaker 0]:  if you're like，
+[Speaker 0]:  i don't care about a new of that。
+[Speaker 0]:  all i care about is autonomous AI taking off you singsinglarity paper clip，
+[Speaker 0]:  let no good。
+[Speaker 0]:  whatever the obvious solution to that is，
+[Speaker 0]:  oh，
+[Speaker 0]:  let's set tualize power wer，
+[Speaker 0]:  which which is what we kept saying，
+[Speaker 0]:  particularly at time lelegive，
+[Speaker 0]:  um either very rich technology companies or the government，
+[Speaker 0]:  or both all of this power and make sure nobody else has it in in ththreat model。
+[Speaker 0]:  that's the worst possible thing you can do because you've centralized the ability to control in one place。
+[Speaker 0]:  and therefore，
+[Speaker 0]:  these people who are desperate for power just have to take over that thing。
+[Speaker 1]:  could we didistinguish though what you mean by power because we we just spend some of this conversation talking about how it's not actually as powerful as people think it is，
+[Speaker 0]:  but i'm not even but that man isn't even if thing right。
+[Speaker 0]:  so II just say，
+[Speaker 0]:  even if it turns out to be incredibly powerful，
+[Speaker 0]:  right，
+[Speaker 0]:  like i don't，
+[Speaker 0]:  i don't even want to argue about whether it's going to be powerful，
+[Speaker 0]:  cause that's speculative。
+[Speaker 0]:  even if it's going to be incredibly powerful，
+[Speaker 0]:  you still shouldn't centralize all of that power in the hands of one company or the government。
+[Speaker 0]:  because if you do all of that power is going to be monopolized by power hungry people and used to destroy civilization。
+[Speaker 0]:  basically，
+[Speaker 0]:  you'll i'll end up with the place where all of that wealthy power will be centralized with the kinds of people who we wanted centralized。
+[Speaker 0]:  so like society for hundreds of years have faced this again and again and again，
+[Speaker 0]:  pitknow。
+[Speaker 0]:  so when it's like the writing used to be something that only the most exclusive people had access knowing about writing，
+[Speaker 0]:  and the same arguments were made。
+[Speaker 0]:  if you let everybody write，
+[Speaker 0]:  they're gona use it to write things that we don't want them to write。
+[Speaker 0]:  and it's going to be really bad。
+[Speaker 0]:  you know，
+[Speaker 0]:  did know with printing，
+[Speaker 0]:  did i with the vote like the and again，
+[Speaker 0]:  it again，
+[Speaker 0]:  society has to fight against this natural predalition of the people that have the statscore power to be like。
+[Speaker 0]:  no，
+[Speaker 0]:  this is a threat。
+[Speaker 0]:  so when we saying like，
+[Speaker 0]:  okay，
+[Speaker 0]:  what if AI turned to be incredibly powerful，
+[Speaker 0]:  would it be better of a society to be that to be kept in the hands of a few or spread out across society？
+[Speaker 0]:  my argument was the letter。
+[Speaker 0]:  no，
+[Speaker 0]:  there's also an argument which is like i don't worry about it。
+[Speaker 0]:  thenot going to be that powerful。
+[Speaker 0]:  anyway，
+[Speaker 0]:  i just didn't wanna go there because it's not。
+[Speaker 0]:  and i commate that easy to win，
+[Speaker 0]:  because you can't really say what's going to happen。
+[Speaker 0]:  we're all just guessing，
+[Speaker 0]:  but i can cleclearly say，
+[Speaker 0]:  what if it happens，
+[Speaker 0]:  would it？
+[Speaker 0]:  it be a really good idea to only let elline nust kevt would it going to be a good idea to only let andred tramp hait it dhendrok spoke about this offence defence a symmetrium。
+[Speaker 1]:  so it's actually very important for us to have to have counterviling in a defences。
+[Speaker 1]:  but let's just take that as a given from minute because obvisly，
+[Speaker 1]:  when we look at something like meter and facebook it，
+[Speaker 1]:  it's quite clear what the power and balances，
+[Speaker 1]:  you know，
+[Speaker 1]:  there's they they control all of our data，
+[Speaker 1]:  they they know what 're doing。
+[Speaker 1]:  so it's something like open they are in claued。
+[Speaker 1]:  so it's it's not as good as we thought it was because actually humans only to be involved，
+[Speaker 1]:  for example，
+[Speaker 1]:  they have all of our data right？
+[Speaker 1]:  and you might be working on some new innovative technology and you're using clad and you're sending all of your information up there and they can now copy you。
+[Speaker 1]:  i mean，
+[Speaker 1]:  what what ms of risks are you talking about to be more concrete？
+[Speaker 0]:  yeah now。
+[Speaker 0]:  i mean，
+[Speaker 0]:  so i was not talking about any of those things that's at the time。
+[Speaker 0]:  i was talking about this speculative question of what if i get incredibly powerbut。
+[Speaker 1]:  i mean，
+[Speaker 1]:  i now，
+[Speaker 1]:  for example，
+[Speaker 1]:  they they say that this is the new means of production。
+[Speaker 1]:  and and that seems completely hyperbullets to me。
+[Speaker 1]:  but like in your best estimation，
+[Speaker 1]:  now，
+[Speaker 1]:  if there are risks，
+[Speaker 0]:  what are that if there are risks with a current state of technology，
+[Speaker 0]:  i think i think some of them of the ones we've discussed，
+[Speaker 0]:  which is people and febling themselves by basically losing their ability to be to become more competent over time。
+[Speaker 0]:  that's the big risk。
+[Speaker 0]:  i worry about the most the privacy risk，
+[Speaker 0]:  it's there。
+[Speaker 0]:  but i'm not sure it's much more there than it was for google and microsoft。
+[Speaker 0]:  before you know，
+[Speaker 0]:  you used to work at microsoft，
+[Speaker 0]:  you know how much data they have about the average outlook offers six etera user did of a google，
+[Speaker 0]:  you know，
+[Speaker 0]:  the average google worspace or gmail user。
+[Speaker 0]:  um those privacy issues are real。
+[Speaker 0]:  although i think there are bigger privacy issues around these companies，
+[Speaker 0]:  which the government can outsource state election tools。
+[Speaker 0]:  so back in the day is to be companies like choice point in axim。
+[Speaker 0]:  nowadays，
+[Speaker 0]:  it's probably more companies like pentia。
+[Speaker 0]:  the US government is um actually prohibited from building large databases about US citizens，
+[Speaker 0]:  for example，
+[Speaker 0]:  but it's not prohibited companies are not prohibited from doing so in the governis，
+[Speaker 0]:  not prohibited from contracting things to those companies。
+[Speaker 0]:  so i mean，
+[Speaker 0]:  that's a huge worry，
+[Speaker 0]:  but i don't think it's one that II is uniquicly creating。
+[Speaker 0]:  it's tatainly like you're in the UK。
+[Speaker 0]:  as you know，
+[Speaker 0]:  in the UK surveillance has been universal for quite a while。
+[Speaker 0]:  now it certainly makes it easier to use that surveillance，
+[Speaker 0]:  but a sufficiently well resource organization could just through one thousand bodies at the problem。
+[Speaker 0]:  so yeah，
+[Speaker 0]:  not sure these are due privacy problems as maybe more common ones than i used to be jeremy。
+[Speaker 1]:  i have just noticed the time i need to get to the airport。
+[Speaker 1]:  alright，
+[Speaker 1]:  this has been amazing。
+[Speaker 0]:  thank you。
+[Speaker 0]:  so thank you for coming。
+[Speaker 0]:  yeah。
+[Speaker 0]:  hope you had a nice trip。
+[Speaker 0]:  thank you so much。
