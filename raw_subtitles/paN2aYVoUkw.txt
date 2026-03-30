@@ -1,0 +1,3196 @@
+If you look at
+the software developer
+lifecycle, a lot of
+that is changing.
+Developers are or
+are developing software
+by developing
+specs today.
+And so if you are
+too much in the weeds
+down there
+in that mechanics,
+and you don't adapt
+for AI or agents
+doing that work
+in software development
+lifecycle
+deployments, rollbacks,
+monitoring,
+observability
+and all that.
+I think that path will
+be very much disrupted.
+Or if you're adding a
+sort of a UX on things,
+that's another class.
+So you have a very
+simple process.
+I don't know,
+you're doing surveys
+or expense
+reports or whatever.
+And now people are going
+to start expecting,
+you know, their
+personal assistants
+or agents to kind of
+do all that mechanic
+for them.
+And so I think that path
+is probably
+something
+that has a bigger
+question mark on top.
+And so I always ask
+myself
+the process question
+first.
+The process
+transformation section,
+the question first,
+and then consequently
+what's the tool
+that is going to support
+that?
+Just to press
+on this point though.
+Have you replaced
+any third party
+software providers
+with something
+that's been developed
+internally through AI?
+We have
+we have terminated
+contracts already.
+Yes, absolutely.
+Hello,
+and welcome to another
+episode of the
+All Thoughts podcast.
+I'm Tracy Alloway.
+And I'm Joe Weisenthal.
+Joe. The thing about AI,
+I feel like
+it's accelerated
+all of our timelines,
+right?
+Like, it's
+phenomenal to me
+to think back that,
+like back
+to the days of ChatGPT.
+And when did that
+come out?
+20 2020 2220. 2222?
+That's
+just crazy to think.
+And then really
+unbelievable the gap.
+And I've been thinking
+about this
+like just a
+the explosion
+of capabilities. Yeah.
+And the thing
+I've been thinking about
+is that,
+you know, after the
+first year or so
+and it came out,
+you know,
+we talked to executives
+and we were like,
+how are you using
+AI and your workflow?
+And everyone's
+experimenting.
+It's great.
+Everyone is using
+changing because
+I was very vague.
+And now in 2026,
+the so
+story is that AI
+is so powerful
+that it's
+going to destroy
+all these legacy
+software companies.
+So what I would say is
+we must be past the age
+of experimentation.
+I think that to. Really
+use cases.
+Using it
+better have
+some example of like,
+here is a workflow
+where we're using.
+Well, exactly.
+And to this point,
+now that we're past
+the age
+of experimentation,
+I'm very curious
+how executives
+and managers
+are actually evaluating
+the return
+on investment in AI
+and what they actually
+want to see from it
+at this point.
+So, you know,
+are you going to replace
+all your third party
+SAS contractors
+with internal coders,
+and what does
+that look like
+from an actual headcount
+perspective,
+from a cost savings
+perspective?
+We can actually get
+some concrete
+details on this now.
+So I'm very excited
+to say we do in fact
+have the perfect guest,
+someone who we had on
+before to talk generally
+about AI
+and someone at a company
+that has been doing,
+you know,
+they got into it
+pretty fast.
+The last time
+we spoke to
+this person was in 2024,
+and even since then,
+I guess
+it just feels like
+light years in AI time.
+So just one last thing
+on the last few years
+of AI, which is that
+when ChatGPT used it,
+when it
+when it came out,
+I played around
+with a lot,
+you know, and I have
+read poems
+and all this stuff.
+And then I bet if you
+actually looked at my
+AI usage, went
+for through a trough,
+whereas like,
+I wasn't really getting
+any productivity,
+there was nothing
+it really could do that
+I needed and still sort
+of seemed like a toy.
+So I had this
+like intense
+burst of use
+for the first
+several months
+and then this trough.
+And now these days,
+with the expansion
+of capabilities,
+particularly cloud code,
+I'm finding
+all kinds of new things.
+So there is like
+we're coming
+out of the trough.
+I think a lot of people
+are actually
+finding things, at least
+if I can generalize
+from my own experience.
+Yeah, absolutely.
+So we do, in fact,
+have the perfect guest.
+We've brought back
+Marco Argenti,
+who is, of course,
+the chief information
+officer
+over at Goldman Sachs,
+someone we had
+on the podcast back
+in August of 2024.
+So, Marco,
+thank you so much for
+coming back on today.
+Thank you for having me.
+How much have
+things changed for you?
+Does 2024
+seem like 20 years ago
+now in AI time?
+Yeah, I barely remember
+even what,
+what happened
+back there?
+That's a nice
+way of saying you forgot
+what we talked
+about on the podcast.
+Maybe that.
+But literally, like,
+things
+are really changing on a
+on a weekly basis
+almost right now.
+And, and if I look at
+the evolution, not only,
+since, a year ago,
+but events
+in six months ago,
+I think, it has been
+nothing short than,
+than revolutionary.
+A year ago,
+we barely talked about
+agents or the word
+almost didn't exist.
+We were using AI is like
+a chat companion.
+Yeah.
+There was, Yeah,
+it was telling you.
+Oh, I'm sorry,
+I don't know
+who's the president
+of the United States,
+because, you know,
+my cutoff
+date is like a year
+and a half
+before or
+things of that nature.
+Now you can say, hey,
+you know, as a
+as a person,
+you can say, hey,
+my plane,
+my plane
+just got canceled
+and is going to redo
+all your plans,
+is going to check for,
+you know, like available
+flights is going to do
+all these,
+capabilities of
+personal assistant, and,
+and that translates in
+corporations
+also in a lot of utility
+that you can see
+in everyday tasks. So,
+I would say, you know,
+what I like to say,
+to, you know,
+to my people,
+but also in general,
+let's say
+this is not the drill.
+This is real.
+You know, it's
+not the age of
+experimentation anymore.
+This is a tool that now
+can do a lot for you.
+And, and so we put it to
+work and
+we put it to working,
+you know, starting
+from developers.
+But on expanding in
+many, many other areas.
+So, I would say,
+actually,
+if I look at the
+increase of capabilities
+of these models that,
+what well,
+we've seen
+in the last six months
+or so with really
+the evolution of,
+this advanced
+reasoning capabilities,
+they came out,
+I think, that
+finally got us
+the confidence
+that, you can use,
+AI for every day's work
+with the right
+supervision.
+And also,
+you know, in many cases
+for mission
+critical applications,
+is not a toy
+anymore is something
+that,
+you know, you can expect
+results from.
+And I think that's
+the biggest change.
+So today
+I would say that,
+there is nobody
+that is not touched by,
+you know,
+we gave our, GSI
+or GSA assistant
+to 47,000 people.
+Most of them
+use it every day.
+More.
+Most of them use
+multiple times a day.
+And what's interesting
+is, it's like, you know,
+like the first time
+you see a tool like,
+know Microsoft Excel,
+you can almost not
+predict what people are
+going to do with that.
+Okay.
+Maybe it's born for,
+you know, doing
+some form of accounting
+and then people write
+entire applications
+on top of that or use it
+for project managers,
+what management or
+things of that nature.
+And AI
+is kind of turning,
+turning that way.
+If I look at what
+people do with that,
+it's, it's,
+it's really things
+that surprises every day
+because,
+But why don't you
+give us some examples?
+So in production
+right now,
+what are some workflows
+or novel
+things
+that were not workflows
+before the
+you see within Goldman
+that I was doing
+for people today.
+So let's start from,
+the GSA assistant.
+Great.
+That can answer really
+complex questions
+based on external
+and internal data
+that generally before
+used to take
+sometimes hours
+or even days, sometimes
+weeks to answer.
+Okay.
+It can do very complex
+research for you
+in topics.
+There are,
+you know, for example,
+we can ask questions,
+that come from clients
+such as a hey,
+how does the recent
+geopolitical events
+on the Hormuz Strait
+actually,
+impact this portfolio?
+What could be
+a potential rebalancing
+strategy?
+Or, you could ask,
+intersection of,
+you know, like,
+I don't know, how does,
+a certain fed decision
+on interest rate
+actually impact,
+you know, the volatility
+of certain assets.
+So you ask this
+multi-dimensional
+questions and,
+what GSA system does,
+it calls out the model,
+retrieves,
+the relevant information
+and creates a plan
+to answer that question.
+And that's
+kind of the key,
+because this AI's,
+they really plan before
+responding
+rather than just
+giving you
+the first thing
+that comes to mind.
+And so that's
+what kind of
+at the very surface
+thinks that
+one of the most,
+you know, common
+use cases,
+which is, we really
+enhance
+the client experience
+by being able
+to answer questions
+internally
+and externally in
+a much, much faster way.
+But really complex
+question,
+not simple questions.
+We had to wire up
+hundreds of data sources
+and also
+most importantly,
+which is something
+that I tell everybody
+that asked me,
+hey, give me a,
+you know, some, some,
+some advice
+on how to implement
+the AI in a corporation.
+Data quality is really
+the determinant
+between good
+AI and not so good AI.
+And so we do
+a lot of work
+to not only take
+a bunch of data,
+but also making it,
+understandable
+to, to the AI.
+So for example,
+to better be deeper,
+we have a tool called
+legend, the AI,
+which is our lakehouse,
+which allows you to go
+from, query
+to MC server, connect
+to GSA assistant, i.e.
+from data
+to answers.
+You can wiretap
+literally
+in 2 or 3 clicks.
+And it does all of that
+for you.
+And so the quality
+of the data,
+the quantity
+of the data,
+not only that,
+because not just the,
+you know, the bitter
+lesson here, but
+is also the lesson of,
+you need to curate
+your data.
+You get better answer
+disproportionately.
+That's something
+that is driven there.
+So that is kind of
+the knowledge,
+aspect of AI, which is,
+I would say
+the most widespread
+because every single one
+in the firm has that.
+And it's, you know,
+the highest users.
+We are like way
+above a million prompts
+per month.
+And it's growing really,
+really, really fast.
+And then, of course, you
+know, you're asking me
+like really impact in
+in production,
+every developer
+in Goldman
+is enabled
+with a gigantic AI.
+Okay.
+So we were probably
+one of the first,
+if not the first
+to launch
+Darwin
+almost like a year ago,
+which is the fully
+gigantic,
+developer assistant.
+We have cloud code.
+We have, you know,
+many other tools,
+GitHub, copilot,
+agent, etc.
+but, on that, you really
+see the step change.
+There is no question
+that,
+that is changing the way
+developers work.
+And by the way,
+it's not just about
+doing
+the exact same things
+more efficiently.
+It's changing the way
+developers
+actually do their work.
+And that is very,
+very easy to see.
+How, you know,
+that kind of changes
+the paradigm of what
+a developer does.
+You're much more
+of a product manager.
+You're much
+more of a planner.
+You're
+much more of an idea.
+Generally,
+the most important thing
+for a developer
+today is to
+be able
+to explain things
+rather than jumping
+and coding things.
+And that resonates
+because I really like
+vibe coding,
+but I can't explain
+how any of it works.
+So if someone is like,
+I would,
+you know,
+I like build little
+like toy apps and stuff,
+but I get
+really anxious.
+I couldn't explain,
+that's
+why I'm not a software.
+Yeah, yeah.
+Well, just on this note,
+I mean,
+people tend to talk in
+generalities
+when it comes to AI
+boosting productivity.
+Or maybe AI changes
+the way we work,
+or it
+leads to some new ideas
+from your seat
+at Goldman.
+You know,
+you're a manager.
+You're
+looking at the bottom
+line of like
+all these businesses.
+What exactly is
+the outcome,
+the specific outcome
+that you would like
+to see
+from your developers
+using
+something
+like cloud code?
+It's really about
+increasing the output.
+So I want to see
+I was actually
+having this discussion
+this morning.
+I was looking at some of
+the reports on
+some of the deliverables
+for our cloud migration,
+which is
+a very important thing
+for us.
+And I was looking
+at this really big,
+a project
+that was saying
+it was not only green,
+it was like two months
+ahead of schedule.
+And I was saying,
+this is how we know
+when things are going
+to work.
+You're going
+to consistently start
+seeing projects
+that are actually
+finishing
+ahead of schedule,
+which means that then
+people are ambitious,
+they want to do more,
+and therefore
+you end up with output
+that is much higher than
+what you had before.
+And listen
+with developers,
+obviously,
+the biggest question
+that everybody ask is,
+okay, what are you going
+to do?
+Are you going to cut
+developers
+this and that? So
+first of all,
+with all the
+innovation
+that I've seen in
+the last 30 years or so,
+I kind of
+never seen a moment
+where really people
+were reducing
+the number of
+developers,
+because if I look at,
+the things
+they were not doing
+in a certain year
+because of budget
+reasons,
+because of complexity
+reason,
+because of
+prioritization,
+the stuff that is below
+the cut of the backlog,
+it's a lot
+and not a lot of
+that is really driving
+the growth
+of the business.
+So it's good
+to have the optionality
+to do it.
+You know,
+you have the optionality
+of, say, I now I have
+120% of my capacity.
+I have 130%
+of my capacity to do.
+I want to do 130%
+more. Great.
+If I don't,
+I have
+the option to reduce,
+so but so
+that's really what,
+how we measure it.
+It's really the impact
+on the timelines
+of delivery.
+It's output.
+It's basically quality
+and timeline becoming
+you know, quality
+gets actually better
+and the
+timelines get short.
+So that that's
+what we measure.
+Obviously
+one of the big questions
+for the market
+this year is
+what is the
+impact of AI on legacy
+software provider.
+And there's various
+theories
+about how
+they could be disrupted.
+And there are reports,
+I think about, anthropic
+having quote, forward
+deployed
+engineers inside
+Goldman Sachs.
+So anthropic employees
+building out
+AI systems internally,
+maybe that could,
+you know, replace
+some legacy software
+right now.
+Can you say, like
+there is a change
+in the balance of power
+when there is a
+given piece of software
+up for negotiation?
+I think
+generally there is.
+Okay.
+If first of all, that is
+kind of always been
+that tension because,
+imagine, for example,
+you know, like
+imagine when they were
+software, they
+didn't run on the cloud.
+And then all of a sudden
+a bunch of new vendors
+are coming to you
+and say,
+hey, wait, this like,
+why are you running that
+on your mainframe
+or your or your on prem?
+Why don't you run it
+in the cloud?
+Or remember
+when software
+needed to be installed?
+Then everything became
+browser based and so?
+So there is always been
+a little bit of a cycle
+and renewal.
+What I say is that today
+that cycle of renewal
+is is much faster.
+That's really what
+it is.
+And I would say
+I generally resist,
+making like really broad
+categorizations.
+I is, by the way,
+largest possible
+assuming it's
+like saying computers.
+Okay. Yeah.
+But even software
+is very broad.
+And so within
+the software, category,
+I think there are
+winners or losers
+and there are winners
+and long
+term and losers
+in the long term.
+But it's really like,
+people
+tend to make it the
+category and then then
+maybe throw the baby
+with the bathwater.
+So here's an example
+to me.
+The question
+that I asked myself,
+with regards to what is
+which vendors am I going
+to, which software
+am I going to have
+like a few years down
+the road? Is
+software
+generally is attached to
+a process or a certain
+ways of working?
+Okay.
+It does something
+for you.
+And and they put it
+in the form of,
+of an application
+that you use.
+The real question is,
+is that process
+and or ways of working
+going to be the same,
+or is it going to change
+in five years?
+Then you can determine
+what the is,
+basically the likelihood
+that the software
+is going to be robust
+to that or not.
+For example,
+is accounting or
+closing the books
+going to be
+very different
+from five years
+from now?
+I don't think so.
+Really, he hasn't
+really changed.
+I mean,
+everything changes,
+but he hasn't
+really changed much.
+And so
+if you are operating
+in the general ledger
+type of category,
+I don't think,
+there is a, you know,
+all of the sudden
+you take,
+you know, a
+GPU or a cloud
+that is going to
+close your books
+magically, you know,
+you should.
+Have to do
+the accounting, and.
+You still need
+to do a lot of that.
+And it's very regulated
+importantly. Right.
+It's extremely
+regulated,
+you know, jurisdiction
+by jurisdiction, country
+by country,
+you know, product
+by product,
+industry by industry.
+So that part is scandal
+to me, you know,
+in, in kind of the safe
+mode way.
+And then you go to the,
+you know, other
+end of the spectrum
+and you have,
+sometimes,
+you know, software that,
+you know,
+kind of is aligned
+to the way
+people do things today,
+like software
+being one of them.
+You know, like
+if you look
+at the software
+developer lifecycle,
+a lot of
+that is changing.
+Developers
+are, are,
+are, are developing
+software
+by developing
+specs today.
+And so if you are
+too much in the weeds
+down there
+in that mechanics
+and you don't adapt,
+for eyes or agents
+doing that work,
+software development,
+lifecycle deployments,
+rollbacks, monitoring,
+observability
+and all that,
+I think that path will
+be very much disrupted.
+Or if you're adding a
+sort of a UX on things,
+that's another class.
+So, you know,
+a very simple process.
+I don't know,
+you're doing surveys
+or expense
+reports or whatever.
+And now people are going
+to start expecting,
+you know,
+their personal
+assistants or agents
+to kind of do all that
+mechanic for them.
+And so I think that path
+is probably something
+that has a bigger
+question mark, on top.
+And so I always
+ask myself
+for the process question
+first, the process
+transformation section,
+a question first,
+and then a consequently,
+what's the tool
+that is going
+to support that?
+And just to press
+on this point, though,
+have you replaced
+any third party
+software providers
+with something
+that's been developed
+internally through AI?
+We have
+we have terminated
+contracts already.
+Yes, absolutely.
+Okay.
+Now I'm
+not going to ask you
+your follow up
+questions again,
+because I know
+that your name's.
+On these stocks.
+Like I would I will.
+But overall, yes,
+absolutely. Absolutely.
+You know,
+the thing is like
+the whole buy
+versus build okay. Yeah.
+The equation has changed
+quite a bit
+because if you know
+before it
+well buy versus
+build was always like
+okay guys
+how long does it take
+to do the to build this.
+And you get that answer,
+which is where we can
+do it in like,
+you know, X
+amount of years
+and X amount of millions
+of dollars.
+Now I'm starting to see
+people coming to me
+and say, by the way,
+I had some time,
+you know, this week
+and then here
+is a perfectly
+working application.
+So the cost,
+or at least, you know,
+for simple applications,
+the cost of kind of,
+you know, but builder
+from a time perspective
+and from a, you know,
+extra cost perspective
+has gone down
+quite dramatically.
+So right now,
+you know, like
+the little things
+are most likely
+going to be build
+the very big large,
+the software
+that is to be,
+you know, deploy
+that scale across
+thousands of people
+and etc., so that
+that big complexity,
+as you know, from,
+you know,
+we all do toy stuff
+with our
+cloud coats at home
+and whatever.
+You know,
+there are still
+some rough edges like,
+you know,
+and so it's hard
+to think that all
+all of the sudden
+the big applications
+are going to disappear.
+And so that's
+really what,
+what I'm saying
+that if I look
+at the applications
+that I buy today,
+there is a lot
+of small applications.
+So I'm saying
+and so the build is
+kind of
+the pendulum is starting
+to swing back
+towards the build,
+at least for that
+category for sure.
+What is a forward
+deployed engineer?
+I know that's
+like one of the hot
+buzzwords of 2026.
+And I saw headlines
+that there were
+anthropic forward
+deployed engineers
+at Goldman.
+I have no idea
+what that means.
+Yeah. You know, like
+what is that term?
+I think they do
+when they got there.
+Okay.
+So I think, Lisa,
+that name has changed
+quite a bit.
+Out of date.
+No no no no no no I mean
+that is the latest.
+Oh so you are fully
+you are in the V
+in the V v latest of
+of that term.
+But remember,
+I mean there was a time
+where
+you used to call them
+solution architects.
+Right. And so,
+so the
+point is right now,
+I think one trend that
+I see,
+which is also
+kind of true for us,
+is when things change
+so much and so rapidly,
+you kind of
+want to go to the origin
+of who produces
+this new thing. Okay.
+So the least
+intermediaries you have
+and probably the faster
+you can go.
+And so going and working
+directly with the model
+providers
+is generally
+a good idea,
+because if you're
+putting
+someone in the middle,
+this company is going
+to have to be trained.
+It's going to have to
+be, you know,
+there is a cycle which,
+at this point,
+a very rapid change
+is going
+to slow you down.
+And so the first thing
+that that term means is,
+those are people
+that are actually
+normally
+building the product.
+They're normally
+building the cloud
+or GPT or X or so
+that's the first
+differentiation
+there, straight
+to the source of
+of of of of the, of the
+AI production in a way.
+And second is that,
+they are generally
+product people.
+So people
+that have actually built
+those tools,
+rather than people that
+are more like support
+and deployment people.
+And so
+this characterization is
+you take the classic,
+you know, sales support,
+team or solution
+support team,
+which was mostly doing
+integration.
+And when things are
+so rapid, you know,
+you know, it's like,
+you know, imagine
+if there is like
+something like,
+I don't know if,
+if the cloud style works
+changes so fast.
+Instead
+of a fashion assistant,
+you want to talk
+to the tailor
+because they can
+actually make it. Yeah.
+You know, things
+are changing so fast.
+So those are
+the tailors.
+So on this note,
+one of the things
+we heard
+in support of Sass
+was this idea
+that while integration
+is still going
+to be really important,
+and that's
+really going to be like
+the major hurdle
+for a lot of the stuff.
+Have you found that
+AI is making integration
+even faster
+at this point?
+Has that,
+you know, basically
+become irrelevant
+nowadays?
+No, I think
+integration is
+is extremely important,
+especially,
+you know, for,
+you know,
+what the industry calls
+like systems of record.
+So when you do something
+like,
+you know,
+when you do a process,
+so then you have
+a source of data, like,
+you know,
+your CRM systems
+could be a system
+or record or,
+you know,
+you have
+your client system
+or record
+your accounting
+system or record
+and those
+when they become
+the authoritative
+source of an answer,
+they need to integrate
+with the rest of the FA
+and the rest
+of the data,
+the rest of
+the applications.
+So I can see that
+those vendors that
+sit on top of those,
+we can argue that
+they will implement,
+there's nobody
+that is better position
+than them to implement
+the AI
+that will kind
+of reach outwards
+and actually do that
+kind of integration.
+So I think those
+who will evolve,
+so that,
+you still get the same
+level of automatism
+and you still get
+the same,
+the same
+benefit of speed,
+but it kind of
+comes from within.
+I think that part is
+probably something that,
+that would be remain
+very valuable.
+And so in general,
+I don't have anything
+against the again,
+I don't have anything.
+It has the SAS category
+at all.
+But I overall but I have
+you know, as I said,
+of different opinions
+on who actually
+is going
+to adapt to the future
+and adapt to the future.
+And those
+who don't know.
+You know,
+you mentioned
+this idea of people
+have a few extra hours
+over the weekend
+and they come in
+in the morning
+and they're like, well,
+you know,
+I had some extra time
+and I decided to
+to do this.
+What's the coolest
+or most novel example
+of something
+that people
+basically vibe coded in
+a limited amount of time
+that wouldn't have
+happened,
+say, two years ago?
+So, I've
+seen people doing,
+like cloud
+migrations of,
+of, of legacy
+applications
+that were on premise,
+you know, once
+they have been enabled
+with, with those tools,
+a little tiny
+matter of hours,
+I've seen someone,
+build, a complete like,
+travel assistant,
+for corporate travel
+assistant to that,
+that looks
+at your calendar,
+it looks at the flight
+delays
+and look at the
+rebooking
+stuff, literally,
+like in a
+doing a meeting
+where they were not
+paying attention. So.
+So those are some of the
+things that's.
+What I'm doing
+right now.
+And while we're doing
+this podcast.
+Actually,
+that brings me
+to exactly where I
+wanted to go next,
+which is I'm curious,
+like,
+do a large corporations
+have a token budget
+the way
+they would have a dollar
+budget in the past?
+So, like,
+I would love to
+have unlimited access
+to coding models
+and whatever
+and actually
+just play around
+and try to work on it.
+It's one of my favorite
+questions.
+But I'm curious,
+like how
+you think
+about token allocation
+within the firm
+and whether there is
+intra firm competition
+for compute?
+For compute?
+Yeah,
+it token allocation
+could be like included
+in your performance.
+Right?
+If you do
+well you get more.
+Different teams
+and stuff like that.
+Whether that's part
+of what you think about
+for planning.
+Absolutely. So,
+you know,
+a few months ago I did,
+and I, I spoke about
+predictions for 26.
+And one thing
+that I said was,
+you know, there's
+going to be the birth
+of the
+personal assistant.
+And that kind of
+happened with Open Claw
+and all that stuff
+kind of early on.
+And then the one was,
+there's going to be
+a token sticker
+shock for CFOs, right?
+And all of the sudden
+they're going to start
+seeing bills
+that they absolutely did
+not expect.
+Jensen Wong is it
+an interview today or.
+Sorry, not today.
+In recent weeks,
+something about like,
+oh, if I'm paying
+an engineer $500,000,
+I hope
+that you're spending
+at least $250,000
+on tokens.
+Now, again,
+as many people
+pointed out,
+that's like the barber
+saying, oh, you really
+need to get haircuts
+every week.
+Nonetheless,
+we're talking about
+some pretty big numbers.
+A lot
+more than just like
+a Claude Max plan
+for 200. Right.
+Now. So talk about that
+right now.
+Okay, so first of all.
+Lesson number one is,
+You need to centralize
+the access
+to models, okay?
+So that you can monitor
+monitor it
+and then optimize it.
+Okay.
+So the wild West of
+everybody goes and calls
+an API and starts
+consuming tokens.
+And then you find out
+later
+on is a big problem.
+And so that's why
+we built,
+this GSI platform,
+which has, you know,
+what's called the model
+gateway.
+And the model gateway
+intelligently routes
+requests, to,
+you know,
+the combination,
+the Pareto frontier of,
+quality and, and cost.
+Okay.
+So you got to centralize
+that.
+It's not the one size
+fits all
+because many cases,
+if you're asking,
+you know,
+what's the weather,
+you don't need to
+call on a cloud or 4.6,
+you can ask it to leave
+any local model
+that you ran
+very cheaply on premise.
+So there is
+there are ways
+to optimize that way.
+Before you start even
+having the conversation.
+You're consuming too
+much, too many tools.
+We just
+this is very interesting
+to me
+is a big
+part of the problem
+that you're
+trying to solve is
+and we know,
+like, you know, ChatGPT
+they intelligently root,
+you know,
+they do some on there.
+You go to SI.com
+and they'll try
+to route it
+to the best model,
+and there might even be
+some conflict
+of interest
+because they probably
+want to
+rooted
+to the cheapest model.
+The user wants the most
+performant model.
+But how much of the work
+of your senior
+engineers
+is essentially solving
+this problem
+of the right query?
+Going to the Pareto
+optimal.
+Model, it is, a big
+a big part of the
+time of the spent
+by the AI central group.
+Okay.
+Platform group,
+the platform group work
+worry a lot about,
+where do I
+where do I get the right
+data, for example,
+for this question,
+and which model do
+I write around it?
+So that's a big,
+you know, because again,
+I spoke about potato
+frontier,
+meaning the optimization
+between a quality
+which we don't want to
+compromise and the
+and the actual cost,
+you know,
+and you can be ISO
+quality, very different,
+you know, price points
+because not
+not all questions
+are require the most
+expensive doc. Right.
+So that's point
+number one.
+So what I'm trying to
+say is
+my philosophy is to try
+to isolate,
+the developer
+or the user
+from the token.
+Anxiety is a little bit
+like with electric cars.
+Okay.
+At one point,
+if you have 80
+miles of range,
+you're always optimizing
+routes.
+And maybe I'm
+not going to go there.
+I don't need this, ice
+cream today or later.
+You're self-limiting
+in ways
+that are kind of,
+you know, unused.
+Really no useful optimal
+micro optimizations.
+We don't want people
+to go there yet,
+at least right now.
+It's a time where people
+need to really find the
+the best way to kind of,
+you know, do more
+and do the best
+possible work with AI.
+And let us meaning
+internally in the sort
+of a central team
+to optimize it in a way
+that, you know,
+we're going to make it
+economical. And I think,
+reducing the talking
+anxiety
+is a big challenge.
+But I think
+it really frees up,
+you know, creativity
+and what you can do
+with AI.
+It's also like,
+a little bit like,
+you know,
+there are certain
+problems
+that you don't want
+to optimize too early.
+Okay. Okay.
+So for example,
+yeah.
+How much time
+do you want to optimize
+now for?
+I remember
+we used to kind of
+optimize
+the way to web pages
+because they were
+too slow to load.
+And then at one point,
+the editors
+or whatever say,
+why can't
+I put yet another image?
+And then people are
+starting to say, okay,
+why don't you do it?
+And then on the back,
+I'm going to work in
+optimizing your images
+rather than asking you
+at the most,
+you can put three images
+on the
+on the homepage. Right.
+So that's the approach
+I want.
+People right
+now, I would rather,
+have them,
+on the side of
+usage and let me worry
+about optimization.
+And the other point
+is really at the end,
+human hours
+always tend to be
+the most expensive cost.
+Okay.
+And so as long as,
+your token cost
+is, your token cost
+per hour is
+less than your wage
+per hour,
+that is a kind of
+a positive ROI.
+And so at that point,
+it's fine.
+Well, just on this. No.
+What's your
+what's your feeling
+about
+future costs of tokens
+and whether
+they're going up or down
+because you hear
+different
+things on this,
+one of the things
+you hear is that, again,
+going back
+to the beginning
+of this conversation,
+AI has improved
+so quickly
+in the course of,
+you know, months,
+if not weeks that
+those costs are destined
+to come down.
+But on the other hand,
+we know that
+the hyperscalers
+are still losing money
+hand over
+fist for,
+you know, power users
+such as yourself
+at Goldman.
+So where do you think
+those
+are going over time?
+I my my
+personal view is,
+token
+cost is going to go down
+quite a bit,
+but token numbers
+are going to go up.
+Yeah,
+probably even more.
+And so total token cost
+is going to actually
+we're
+going to have to accept
+that is going to be
+a major item of cost
+in any organization.
+And it's to be compared
+to the cost of people
+and not to be compared
+to the cost of,
+you know, it
+or tcpip packets
+or computer
+or any of that.
+If you look at just
+the number of tokens
+being used,
+for the same, use case,
+if you go
+the reasoning route
+or you don't go
+the reasoning route
+if you go
+the agent route or not,
+the agent route
+if you go
+the open law route,
+where, you know, it
+checks every, every,
+you know, starts
+having these tasks
+that are firing
+one after the other,
+and then you have to
+start
+to have verifiers,
+etc., etc..
+So I think the trend
+will continue
+with regards to more
+and more of those.
+But the cost the the
+the per unit
+cost of token,
+I pretty I'm
+pretty sure that
+is going to go down also
+because as you know,
+GPUs are
+becoming more powerful.
+They you know, the cost
+per watt
+hopefully
+is going to go down.
+And then also like,
+to be fair,
+I mean, you know,
+these hyperscalers
+are doing
+a lot of optimizations
+to try to ram
+those stacks
+on their own hard right,
+which will potentially
+kind of also generate
+some economies of scale.
+Can Goldman employees
+like, run open
+claw on their work
+computers?
+And I'm curious
+like about the degree
+to which you have people
+who like want to
+I want to install this
+or this seems
+really cool.
+And then think
+about
+the security imperative
+and how you handle that
+aspect.
+Not the token anxiety,
+but the sort of
+I want to install this,
+this is awesome.
+This is what I mean.
+I hope it is.
+You know,
+like as a bank,
+we're pretty locked down
+in terms
+of what you can install.
+You cannot install stuff
+that is not, in the,
+you know,
+in the corporate,
+in the corporate
+App Store in a way.
+And so there's no way.
+But do you
+feel like you should?
+Definitely.
+No way, though,
+because can't
+you just ask Claude
+how to install itself?
+But he's not gonna be
+able to execute.
+It's not
+going to be able
+to create
+the actual executable.
+He can actually,
+even GSA system today
+can spit out
+a lot of code,
+but it spits out
+source code.
+Okay, now our source
+code doesn't run
+executable,
+so it needs to be built
+and it needs to be
+turned
+into an executable.
+It needs to be signed.
+Otherwise
+the operating system
+is going
+to refuse to run it.
+And so it just
+doesn't run
+unless you have that.
+But do you feel
+an anxiety
+where you know, startups
+there? Probably.
+And you know, there's
+not a ton of startup
+investment banks,
+but there are various
+fintechs
+and other things
+I want to chip away at
+parts of your business,
+and they can run
+perhaps faster,
+and they can be
+a little bit
+more liberal
+about what
+their employees
+are allowed to do, etc.
+do you feel like
+you have to keep
+a certain cadence
+of expanding the list
+of those executables
+that are,
+able to be run?
+So, I think, so I'll
+give you two answers.
+So first,
+I want to make sure
+that I answer
+your first question,
+which is,
+we're not using open
+claw.
+Okay? Okay.
+But some of
+the properties of open
+core has actually
+having informed the
+the way we are building
+our agent platform.
+Okay, agents today
+because of Open Claw
+have actually changed.
+There are three
+very important
+new if you
+if you break down
+warp enclosures that are
+it is my own
+interpretation.
+I never I actually never
+even spoke about this.
+There are three
+characteristics
+that make open claw
+what it is.
+One is
+it's a constant loop.
+So it's basically what,
+you know, in
+information theory
+you can call an observer
+pattern is something
+that continues to
+run and observe.
+So there is that it's
+a constant observer.
+So it runs constantly.
+The other one is
+it can schedule events
+every 7 a.m.
+do this or I,
+you know,
+like in personal life
+we all have some
+something like that
+that sends me
+the news in the morning
+and all that.
+So there is a schedule,
+ability of tasks.
+The third one is
+you can instructed
+to kind of change
+its own behavior
+because it has
+this files
+dot MD5 soul.md,
+the way you
+so you can say things
+like hey,
+I would like you
+to never use this term
+or please change that
+or change
+the way you filter news
+because
+and so it kind of writes
+its own software
+to do things for you
+without you even,
+you know, seeing what's
+behind the scenes.
+And so instead of
+letting people,
+install open
+claw on their computers,
+what we do is
+we incorporate
+some of those
+characteristics into our
+genetic platform
+so that it does things
+that are more similar
+to open cloud.
+So that's
+that's the approach.
+You're
+kind of made that the
+your second question
+was interesting
+because basically
+if I read behind
+the questions,
+are you asking
+whether there is
+a sort of
+a velocity disadvantage
+with regards to,
+you know, us versus
+others? Okay.
+And I think at,
+you know, I often say,
+you know,
+that there is a
+difference between speed
+and velocity.
+Speed is almost like,
+you have a certain
+sprint.
+Okay.
+But then at some point
+you're going to
+hit the wall
+a security wall,
+a scalability wall.
+There's
+going to be a bug.
+You don't know
+what you're doing
+and there's going to
+first, sooner or later
+you're going
+to be hit by that.
+You will be like,
+you know,
+most airplanes
+are in auto.
+I have autopilot
+that can do everything.
+So theoretically,
+you and I
+could go in the cockpit
+and for a long time
+during the flight.
+We will feel pretty good
+about this. Right?
+We will drink,
+you know, some some soft
+drinks or your tea.
+We might maybe
+watch some videos.
+We will be very happy.
+It sounds great.
+The passion
+is one point.
+At one point.
+In time
+in the flight,
+there's
+going to be some storm,
+and there's going to be
+an autopilot disconnect.
+And you and I are gonna
+look at each
+other, are going to say,
+oh, right,
+it was the pilot.
+Can I just say recently
+I was on a flight,
+I tell you this, and
+I was going to Newark.
+Oh, yeah.
+We circled three times.
+We tried to land.
+It was during a storm
+and they kept
+not landing.
+Everyone was like,
+starting
+to get pretty annoyed
+because we were up there
+for a while.
+And then the flight
+attendant
+comes on
+and says, unprompted,
+by the way,
+we have plenty of gas
+and everyone's stuck.
+We got no, it's like,
+this is a question.
+This is an answer that
+no one had.
+No. What do you need?
+I'm sorry.
+I just don't
+like to do that.
+Then everyone got really
+nervous. Okay.
+By the way,
+we have plenty of gas.
+But you know what?
+I was almost fearing
+that you would say.
+Is that a pilot?
+No, no, I wasn't.
+And then we did land in
+Washington, DC. Okay.
+Oh you did? Yeah.
+From Newark. Yeah.
+No, no, that's not good.
+But that makes sense.
+Yeah, yeah.
+So so that's why
+I mean by
+velocity is really like,
+is like the marathon is,
+you know,
+sustain the speed
+for a long time
+in a certain direction.
+Yeah.
+I don't think by
+randomizing
+that you actually gain
+velocity,
+you gain an instant
+speed of some sort.
+And so I'm kind of
+optimizing for velocity.
+But related to
+Joe's point, though,
+you are a regulated
+bank. Right.
+And so there are
+restrictions
+on what you can do
+in terms of technology.
+I am very, very curious
+what your discussions
+with regulators
+are right now, because
+a lot of regulators,
+this is still pretty new
+to them.
+A lot of the models
+basically
+are black boxes.
+How do you convince them
+that,
+like they're running
+as they should, that
+they're spitting out
+the correct output,
+that you understand
+how they're actually
+functioning?
+So this is not
+the first time
+that banks use neural
+networks, okay.
+These are just much
+larger neural networks.
+But we've been using
+neural networks
+for like a decade plus.
+And so every bank has
+already gone through,
+the motions of
+explaining
+that the neural networks
+don't have perfect
+explainability.
+Therefore,
+you need to change
+the control system
+around them.
+You need to look at
+what actions
+can they actually do.
+And then you limit
+the actions, okay.
+And then you
+there is a function
+called the like
+model risk management,
+which is a very
+standardized,
+you know, function
+within every bank
+that for each of those
+neural networks,
+you need to have,
+an inventory,
+you need to have
+a risk tiering,
+and you need to put
+controls around that.
+So it is, not really
+that much of a new thing
+is more of an evolution,
+where now
+you have things
+that are much faster
+and much more powerful.
+But the basic pattern
+and the basic discussion
+with the regulators
+is kind of the same,
+which is
+are you classifying
+the risk tiering
+of the application?
+Right.
+And then which controls
+are you putting
+and are you putting
+human supervision
+and human in the loop.
+So for example,
+for code.
+We don't allow
+AI to auto
+approve the wrong code.
+Okay.
+They all they can do
+is publish what's called
+a pull request
+or merge request
+the same way as,
+a developer would do.
+And we kind of have
+a sort of a zero
+trust model there
+because we don't assume
+that,
+maybe a junior developer
+is going to be less,
+more bug free
+that than an AI, right?
+And so we have
+several controls
+in place.
+For example,
+there isn't to be
+there needs to be
+a human
+that's more
+senior than you
+that actually
+looks at the code.
+And then
+certifies and approves,
+and then after that,
+before
+it goes to production,
+it goes into something
+that is called Cicd
+or, you know,
+continuous
+integration, continuous
+deployment pipeline,
+where
+when it goes
+through the build
+phase, etc.,
+there is a lot of checks
+that are injected
+into that.
+There are security
+checks, there are tech
+risk checks.
+So I don't think
+at the end of the day
+you really lose too much
+velocity or at all.
+You just need
+to invest more
+in those kind of things.
+And that's really what.
+And the regulators,
+I think
+if you bring them back
+into sort
+of a familiar territory
+and you're also honest
+on things that,
+you know
+and things
+that you don't know,
+and for the things
+that you don't know,
+you kind of put
+to higher protections.
+I think the conversation
+is generally
+very positive.
+You know,
+we have an episode
+that we recorded
+several weeks ago
+that we still haven't
+released.
+I don't know exactly
+the timing of that one
+or this one.
+We interviewed,
+Scott Borg, the former
+CEO of Greenhill,
+the boutique investment
+bank.
+And part of the reason
+we had that conversation
+was because
+we want to know, like,
+if I is going to someday
+disrupt
+banking as we know,
+like what was banking
+as we know it.
+So we talked
+about the history
+of investment banking.
+But one of the things
+that he talked about
+was that
+a big advantage
+that the banks had
+was this
+sort of information
+asymmetry
+that they would know
+a lot more
+about their industries
+and so forth
+than their clients.
+And this was profitable.
+Now, going back
+to your answer,
+the very first question,
+you're like, okay,
+a client
+might call, Goldman.
+And they said,
+what is the Strait
+of Hormuz closure
+mean for this portfolio
+shock, etc..
+I was going to ask
+this exact question.
+Yeah, I. Kind of think
+I could do that.
+I think I could you
+I mean, no offense, I'm
+sure your platform
+is a little bit
+better than like,
+but I think I could like
+get 90% of the way
+there.
+And I bet
+I could, like
+with a little bit
+of data,
+build a basket
+that says, I want,
+you know, helium
+shortage basket, which,
+which companies
+would I short
+if I think the helium
+shortage
+is going to get worse,
+I could rebuild a basket
+the way a trading desk
+would.
+Do you think long term,
+like the air erodes
+a certain
+structural source
+of profitability
+for banks?
+And you worry
+about that?
+I think
+you can get to the 90%.
+But I think clients
+are really paying
+us for
+that extra 10%. Okay.
+So I think
+that's the answer.
+So what is the extra 10%
+in that context?
+Is it you model
+for slightly better
+or is it also the do we.
+Have access to you know,
+we buy a lot of data
+that, you know, it's
+very expensive
+and it's a massive
+quantities
+and it's very up to date
+and very real time.
+So we have a little bit
+of a data advantage.
+We operate across
+multiple asset classes.
+So we see
+the trading side.
+We see the asset
+management side.
+So we have a sort of a
+correlation
+between assets
+advantage
+that we see those
+because
+generally rates move
+you know
+interest rates can move
+yields that can move.
+You know
+there is a correlation
+between
+all those indicators.
+So there is
+another advantage.
+We have
+a global advantage.
+We have people
+on the ground in,
+you know, 100
+plus countries.
+And these people
+have relationships
+and information travels
+through those channels.
+And also, you know,
+like we generally deal
+with very complex
+portfolios.
+So this is not
+you and I may be having
+three stocks or 4 or 5.
+This is a
+like very complex,
+multi-year assets up
+with complex products
+like swaps or swap
+channels or exotic
+products, etc., etc..
+And so
+that's really the 10%,
+that,
+you know, the clients
+that we have,
+you know, really value
+and where
+we really need to get,
+it's like at the end
+of the day, Lisa,
+if you look at,
+look at formula one,
+okay,
+the difference per time,
+a particular
+pair of per lap,
+between, you know, the,
+the, Mercedes, and,
+take, you know,
+your favorite last team.
+You know, it's
+sometimes one
+second out of the two
+me out of two minutes.
+And that is
+the difference between,
+you know,
+getting a $100 million
+a year sponsorship or
+a $10,000 sponsorship.
+So for for sophisticated
+clients,
+that 10% is really what
+the money is.
+And that's really what
+people
+are paying us for.
+So actually
+you mentioned
+all the different
+businesses at Goldman.
+And there are a bunch
+of them
+like asset management
+there's banking,
+there's trading.
+A lot of
+those businesses
+aren't supposed to talk
+to each other
+in various ways.
+And so when it comes
+to the data,
+is there like a data
+leakage issue
+where you might have
+a model that's,
+you know, in-house,
+like GSI,
+that's pulling data
+from different sides
+of the company in ways
+that, you know,
+maybe it shouldn't be.
+Maybe it's really hard
+to tell given the
+complexity of the model.
+Is that something
+you have to pay
+attention to?
+Absolutely.
+So, we have the concept
+of info barriers, okay.
+And the
+info barriers are,
+are enforced,
+throughout
+the entire system.
+Okay. And,
+they're linked,
+to your ID
+or your account.
+Okay.
+So if I'm on
+the private side,
+I can only see
+certain information.
+If I am on a public
+side,
+I can only see
+certain information.
+And I cannot even know
+about the information
+on the other side, I can
+I don't have access
+to the files,
+to the C,
+to the folders.
+Nothing.
+Each I or each agent
+or each application.
+That's the beauty of
+decentralized platform.
+Needs to get an ID
+or a badge,
+and that badge
+is attached
+to the exact same info
+barrier
+says any application
+or any computers.
+And so these are
+enforced
+basically at the source.
+So even if it is
+the same, type of model,
+but that particular
+use of the model,
+that particular session
+or the model
+that needs to get
+a ticket or a badge
+and that badge
+or those keys,
+just take them
+to a certain place.
+And so this is
+one of this been,
+you know,
+it took us almost
+two years to build the,
+GSI platform.
+These are this back
+to the reason
+why you can't be casual
+about these things.
+This thing
+is not being built
+by some random
+vibe coders
+because you need
+to worry about cyber.
+You need to worry
+about the info barrier.
+So you need to worry
+about all that.
+And so when
+I talk about, you know,
+there are places
+where you can leverage
+and do correlations,
+but there are others
+where
+you absolutely cannot.
+And this scandal
+that is foundational
+to the fact that,
+you know,
+you need to have,
+you need to be ready for
+a, you can't be casual
+about that.
+So I take your point
+that there's
+never been a technology
+that you've seen
+in your career
+that has actually reduce
+the need
+for software engineers,
+and that the nature
+of the job of software
+engineers is changing,
+maybe gets more high
+level. And whatever.
+Setting aside
+the pure head
+level of headcount
+question
+is AI changing right now
+across anything
+software, technology
+or otherwise,
+the types of person
+you're looking for
+or changing something
+about the nature
+of the type of talent,
+your person?
+Yeah, absolutely.
+Great question. So,
+I think,
+in this day
+and age, almost nobody
+is an individual
+contributor really.
+Because when you're
+working with agents,
+you need to have,
+at least three
+fundamental
+characteristics.
+One is
+you need to be able
+to explain what you want
+to get done.
+Okay.
+The second one is,
+you need to be able
+to delegate work.
+Guess what?
+Because you're going
+to have multiple agents.
+One is specialized,
+for example, in doing
+DCF calculations.
+And one is specialized
+in doing research.
+So you need to be able
+to break down the work
+into chunks that can be,
+executed in parallel
+in some way.
+And then three,
+you need to
+have the ability
+to supervise.
+You need to actually
+look at the output
+and say, okay,
+I'm good with this
+or go back.
+It turns out that
+those three things I
+explain, delegate
+and supervise
+are kind of the 1
+or 1 of managers.
+Managers need
+to have those three,
+otherwise they
+can't manage a team.
+And so I is
+kind of
+turning everybody
+a little bit
+into a manager.
+And those are kind
+of the skills
+that we are actually
+looking for, for people
+that,
+they know that they're
+going to have agency on,
+tools that at some point
+are going to be
+even more proficient
+and specialized
+than they are.
+And so
+the most important thing
+is really the ability
+to ideate, to explain,
+to delegate,
+and then to really know
+what good looks like.
+And I think that is a
+big change.
+And I don't think
+everybody is going
+to actually rapidly
+go through that.
+And I think we're doing
+a combination of,
+training.
+There is a combination
+of, exposing them to,
+you know, other people.
+Like one of
+the advantages
+of having forward
+deployment
+engineers is also that
+there is a little bit
+of clash of culture
+that is happening
+around the table.
+And so people think
+really,
+really differently.
+And that pushes people
+outside their comfort
+zone.
+That's
+why I'm saying that,
+you know,
+there is a little bit
+of a metamorphosis
+happening.
+There is not just about
+efficiency
+is really thinking about
+is my job going to stay
+the same now
+is actually changing
+quite a bit.
+So I'm thinking how
+to frame this question.
+But what's work life
+balance
+like now for a developer
+at Goldman?
+Because you have this
+existential existential
+angst about jobs
+potentially changing.
+At the same time,
+you have AI tools
+that enable
+more productivity,
+and you also have
+this thing happening
+where I feel like,
+Joe, maybe you know
+more about this
+than I do, but
+I feel like a lot
+of vibe coders, like
+like it's addictive.
+Yeah, right.
+It's like you're you're
+pressing the button
+of a slot machine,
+you're interacting
+with Claude
+and you're seeing
+what it spits
+back out over and over
+and over again
+until you get that
+big win.
+And so I've heard people
+talk about burnout
+among developers
+who are just
+doing so much with this
+right now
+that they're just
+hitting
+that button
+over and over.
+And it was a good
+discussion in the odd
+lot discord recently
+about exactly this.
+Some engineers
+and semiconductors
+feeling that the job has
+become less satisfying
+because it just all
+and I think is
+sort of what you're
+getting
+at the sort of slot
+machine. Yeah.
+Where it's like, oh,
+you're going to
+like hit the prompt.
+Okay. This is
+the great output.
+And then it's
+like they field of work
+as like
+less satisfying
+and stuff like that
+than actually like
+writing code. So yeah.
+I mean listen again
+I this work,
+I love the fact
+that I'm a little bit,
+older than most
+to hear an engineer.
+Second,
+I've seen that the
+first time
+people had the Excel
+and I've sat for the,
+you know, the
+first time people had,
+Python.
+Oh, my God, I
+don't need to know Java.
+And then the kids
+start to code
+and there is this whole
+coding movement.
+And then you get the
+you start
+creating
+your applications.
+I've seen the first time
+people have
+mobile stuff and,
+you know, mobile apps.
+And so I think
+a little bit of that
+is because it's new,
+to be perfectly honest,
+you know,
+and I think there's
+there is a little
+bit of that,
+but there is a little
+a lot of novelty
+to that.
+And then I've seen
+that people
+have been using
+those tools,
+for a couple of years.
+They're taking them
+a little bit
+more like, okay, it's
+professionals tool.
+And I'm going to use it
+for what I actually need
+rather than
+just trying to discover.
+One thing that I've seen
+is that
+because maybe of that,
+but also because of,
+what you can get
+there
+is a sort of a in a way,
+reward cycle
+that is pretty quick.
+Yeah.
+People are very excited,
+actually.
+There's, there's
+some sort of a joy
+of the profession
+that is actually coming
+out as if engineers
+were feeling like this
+job is new again,
+because
+a lot of engineers
+have seen
+the same pattern,
+sometimes for 2
+or 3 decades.
+Yeah. So that has been,
+something
+that I observed.
+There is also
+a lot of peer pressure.
+There is a lot of fear
+of missing out.
+And so people are rather
+than, you know,
+is no longer like, me
+trying to push the car
+uphill is more
+people are actually
+looking at their peers
+and they're looking at,
+oh my God,
+how could you do that?
+And so it's kind of
+spreading
+horizontally
+quite a bit, which is
+which is really nice to,
+to see.
+And so, so far
+I have to say that
+has been positive,
+positive change.
+And also one other thing
+that, you know,
+you're
+talking about burnout.
+I see that a lot
+of people get fatigue.
+I wouldn't
+want to talk
+about burnout,
+but they get fatigue
+when,
+you know,
+there are a lot
+of repetitive tasks,
+especially
+for a developer.
+Here's an example.
+Let's say you go from,
+you know, a version of,
+a Java library
+or spring boot.
+To another version.
+And then all of a sudden
+you compile
+and you get to rebuild
+and you get all these
+errors that says
+you need to upgrade.
+Honestly,
+upgrading libraries
+is not the most fun job.
+And if you need to do it
+100 times,
+or is like someone says,
+by the way,
+guys,
+we have this new design,
+design, a new logo,
+new colors, implement
+it on like 200 websites.
+It might be fun.
+The first ten and then
+it becomes a drag.
+And so I think
+taking that away kind of
+in making them,
+they focus more
+and more on the plan,
+for example.
+And so right now
+let's do a migration
+plan to the cloud of a
+complex application.
+They spend
+maybe 70% of their time
+going back and forth
+with a very powerful set
+of eyes
+to really get the plan
+right.
+They feel a little bit
+more elevated.
+And the mechanical part,
+it's kind of,
+you know, left to, to,
+to to the machine
+the same way.
+I mean, listen,
+I started developing
+when I was literally
+flipping switches, okay.
+And then pressing
+a button,
+which would move
+the register up one
+and then came, you know,
+some languages,
+like, see, oh,
+my God, now,
+I don't have to flip
+switches anymore,
+but the guess what?
+I need to do?
+Memory management.
+I need to do pointers.
+I mean, there's
+a lot of heavy lifting.
+Oh, I have a memory
+leak.
+I'm going to spend
+a week
+before I actually
+finally identify that.
+And then,
+you know,
+it comes to Java
+or garbage collection.
+I don't have to
+worry about memory
+leaks anymore.
+Fantastic.
+And then comes Python,
+which is all
+all that rigidity.
+So much easier to
+you know, be type, free
+and so forth.
+And so
+every time you kind of
+keep raising the bar
+and a lot of the candle
+mechanics
+kind of goes away.
+I think
+this has been like
+a ten year
+jump, in,
+you know, in, in
+a matter of two years.
+But I think overall,
+nobody really likes to,
+to have that toil and
+that mechanical work.
+And I'm
+actually quite happy
+that people are going
+to spend that
+maybe
+initially more time
+because they're excited.
+But I don't think
+that I'm enjoying
+rather than things that
+they just, they dread.
+All right.
+Well, market
+will have to have you
+back on the podcast
+in another year
+and a half, I guess
+in discussions. Yeah.
+Three months.
+That's right.
+To go on the reduced
+air timeline.
+Thank you so much.
+Thank you so much
+for coming back.
+Thank you both of you.
+Thank you.
+Thanks for having me.
+Thank you so much.
+Thank thank so Joe,
+that was great to catch
+up. Yeah.
+One thing I thought was
+really interesting
+was his point
+about the discussions
+with the regulators
+and framing it
+like very similar
+to previous
+technological advances,
+where you're
+not necessarily
+explaining exactly how
+the models are coming to
+certain conclusions.
+Yeah,
+but you're more focused
+on actually
+limiting the risks
+and making sure
+that they're
+in the right bucket
+for risk assessment.
+Now, I thought that was
+really interesting,
+just that some of these
+technologies, the,
+you know, the black box.
+Yeah, the limbs are
+not the first black box.
+I mean, we've
+actually been talking
+about black box
+trading for years
+and finance before.
+So the idea of like,
+okay,
+there are these things
+that are happening,
+we can articulate them
+and whatever.
+Like it's
+not the first rodeo
+for finance
+is really interesting.
+I'm also, you know,
+I thought the whole
+conversation about,
+token budgets
+and allocations
+are interesting.
+The idea of like, okay,
+part of the job here is
+you have a bunch
+of different models.
+Everyone, in theory
+wants the most
+performant model.
+But how do you find that
+optimization
+where you get the best
+performance
+relative to price?
+It sounds like
+a pretty interesting
+like engineering
+problem.
+Yeah, I would actually
+love to do more
+on that question.
+I would too,
+because it's
+such an interesting
+like a question
+of incentives. Right?
+And like how does how
+how do you actually like
+prioritize how each.
+Project,
+like what constitutes
+a good output
+and how when do
+you sacrifice
+a little bit of quality
+for like ten x less,
+token budget
+or whatever,
+like you said
+this would be,
+it would be
+very interesting
+to talk about
+how that problem
+specifically
+gets solved inside of.
+An order token
+economics. Yeah.
+Efficiency optimization.
+Yeah.
+Well, we'll have Marco
+back on very soon
+to talk about
+all the new things
+that AI is doing.
+But for now,
+shall we leave it there?
+Let's leave it there.
+This has been another episode
+of the Odd Lots podcast.
+I'm Tracy Alloway. You can follow me @tracyalloway
+And I’m Joe Weisenthal
+You can follow me @thestalwart
+Follow our producers Carmen Rodriguez
+@carmenarmen,
+Dashiel Bennett @dashbot
+and Cale Brooks @calebrooks
+And if you want more Odd Lots content,
+you should definitely check out
+our daily newsletter.
+You can find that@bloomberg.com/oddlots
+And you can chat about all of these
+topics 24-7
+in our discord, discord.gg/oddlots
+And if
+you enjoyed
+this conversation, then
+please leave a comment
+or like the video.
+Or better yet, subscribe! Thanks for watching.
