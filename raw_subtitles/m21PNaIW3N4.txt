@@ -1,0 +1,241 @@
+[Speaker 1]: 最近为大家制作了很多期 open 相关的视频，
+[Speaker 1]: 而且好多期视频是关于如何让 clouopen 越用越聪明的。
+[Speaker 1]: 包括最开始由我开发的这款 cloumemory length DB pro 插件，
+[Speaker 1]: 能够让 open 赋予长期记忆。
+[Speaker 1]: 但是，
+[Speaker 1]: 如果想让 clouopen 更加聪明，
+[Speaker 1]: 光有长期记忆还是不够的，
+[Speaker 1]: 我们还需要为 clouopen class 赋予短期记忆能力。
+[Speaker 1]: 本期视频就给大家详细讲解和演示。
+[Speaker 1]: 如何让我们的 open 拥有短期记忆能力？
+[Speaker 1]: 本期视频如果点赞破千的话，
+[Speaker 1]: 下期视频我将为大家带来 open 更高级的用法。
+[Speaker 1]: 对于提升 clouopen cloud 长期记忆能力，
+[Speaker 1]: 我们就可以使用 memory length DB pro 这款插件。
+[Speaker 1]: 但 open cloud 它的短期记忆能力效果并不是非常理想，
+[Speaker 1]: 尤其是我们在同一个会话中进行了很多轮的对话与讨论。
+[Speaker 1]: 当这个 section 中的上下文窗口达到了一定的阈值，
+[Speaker 1]: 那么 open 就很容易忘记在当前 clousession 中早期对话的这一些细节，
+[Speaker 1]: 还有要点，
+[Speaker 1]: 尤其是我们在 open 中和 clouopen en oud 进行多轮对话。
+[Speaker 1]: 比如说我这里和 open class 讨论了一个软件开发的一个话题。
+[Speaker 1]: 针对这个话题，
+[Speaker 1]: 我在 open cloud 中进行了几十轮的讨论。
+[Speaker 1]: 在当前这个对话中，
+[Speaker 1]: 我们积累了非常的的下文。
+[Speaker 1]:  open en oud，
+[Speaker 1]: 它的上下文管理存在很大的缺陷。
+[Speaker 1]: 在这种情况下，
+[Speaker 1]:  open cloud 它就会忘记。
+[Speaker 1]: 最早的时候，
+[Speaker 1]: 我们跟他交流的一些技术细节。
+[Speaker 1]: 所以我们在一个三选中当对话轮数达到一定程度，
+[Speaker 1]: 那么 open 就会忘记在当前 clousession 中早期的对话内容。
+[Speaker 1]: 所以本期视频重点为大家讲解和演示。
+[Speaker 1]: 如何让 open 不会忘记短期记忆？
+[Speaker 1]: 为了增强 clouopen cloud 短期记忆能力，
+[Speaker 1]: 这里我们将用到一个开源的 open cloud 插件。
+[Speaker 1]: 这个插件是 lost less，
+[Speaker 1]: 这个项目可以实现无损上下文管理。
+[Speaker 1]: 它的设计思路很巧妙，
+[Speaker 1]: 它不删除旧的消息，
+[Speaker 1]: 而是用大模型把它们压缩成摘要，
+[Speaker 1]: 形成一个有向无环图，
+[Speaker 1]: 也就是 DAG 原始消息会保留在 c collide 数据库里。
+[Speaker 1]: 所以理论上 open call 永远不会忘记任何事情。
+[Speaker 1]: 但这个项目它本身是为英文用户打造的，
+[Speaker 1]: 所以对中文的支持很不好。
+[Speaker 1]: 它对中文内容的 token 估算是错的，
+[Speaker 1]: 而且它有一个更致命的 bug，
+[Speaker 1]: 摘要会丢失。
+[Speaker 1]: 因为我在测试这个项目的过程中，
+[Speaker 1]: 我设计了一个四十轮对话，
+[Speaker 1]: 测试前八轮埋入十六个具体细节。
+[Speaker 1]: 然后用二十二轮代码的讨论，
+[Speaker 1]: 把上下文称满，
+[Speaker 1]: 最后逐个测试通过，
+[Speaker 1]: 测试正确率只有百分之五十。
+[Speaker 1]: 所以我就在这个项目的基础上进行了二次开发，
+[Speaker 1]: 并且修复了 bug。
+[Speaker 1]: 经过二次开发得到了一个增强版，
+[Speaker 1]: 所以我就将这个更加适配中文的项目改成了斯 loless cloud enhaned，
+[Speaker 1]: 并且放在了我的 gitup 上。
+[Speaker 1]: 而且在说明文档中，
+[Speaker 1]: 我还给出了详细的使用说明。
+[Speaker 1]: 在我二次开发的这个增强版中，
+[Speaker 1]: 修复了中文 token 估算的 bug。
+[Speaker 1]: 而且召回率也有了非常大的提升。
+[Speaker 1]: 如果不使用 lossless 这个项目的话，
+[Speaker 1]: 那么召回率是百分之零。
+[Speaker 1]: 使用原生 lossless 这个项目的话，
+[Speaker 1]: 它的召回率是百分之五十六。
+[Speaker 1]: 使用我二次开发的增强版，
+[Speaker 1]:  lossless cloud 话，
+[Speaker 1]: 它的召回率能达到百分之百百。
+[Speaker 1]: 下面面为大家详细显示并测试 lololess cloud enhaned 这个项目的使用方式，
+[Speaker 1]: 以及使用这个插件后的效果，
+[Speaker 1]: 是否让 open clwn 变得更加聪明，
+[Speaker 1]: 而且不会忘记当前上下文中早期对话的内容。
+[Speaker 1]: 想在 open 中使用这个项目非常简单。
+[Speaker 1]: 首先我们只需要复制这个项目的仓库链接，
+[Speaker 1]: 然后回到我们的 clouopen。
+[Speaker 1]: 我们只需要在 clouopen 中，
+[Speaker 1]: 通过自然语言描述，
+[Speaker 1]: 让他帮我们安装这个插件就行。
+[Speaker 1]: 我这里输入的提示词就是请阅读这个项目的 clouread me，
+[Speaker 1]: 并选择最合适的方式为我安装和配置，
+[Speaker 1]: 在这里就跟上我们这个仓库的完整链接，
+[Speaker 1]: 这样就可以。
+[Speaker 1]: 然后我们发送给 open 后，
+[Speaker 1]: 他就会帮我们进行配置。
+[Speaker 1]: 如果大家派 clouopen 为我们安装失败，
+[Speaker 1]: 导是崩溃，
+[Speaker 1]: 我们还可以使用 codex 桌面版，
+[Speaker 1]: 让 codex 帮我们进行安装。
+[Speaker 1]: 就可以在 codex 中我输入的提示词，
+[Speaker 1]: 就是阅读这个项目的 read me 为我的 open clore 安装这个插件，
+[Speaker 1]: 并进行最佳设置。
+[Speaker 1]: 这里我们就跟上刚才的仓库链接就行。
+[Speaker 1]: 在模型这里，
+[Speaker 1]: 我选的是 GBD 五点四思考级别，
+[Speaker 1]: 我开的是 extra high 像这样的话，
+[Speaker 1]: 我们就可以让 codex 全自动帮我们进行配置。
+[Speaker 1]: 如果怕出问题，
+[Speaker 1]: 不想用 codex 或者用 open clore 帮我们安装的话，
+[Speaker 1]: 大家也可以直接按照这些命令手动进行设置。
+[Speaker 1]: 当安装好之后，
+[Speaker 1]: 大家就可以用 open clougateway restart 这条命令来重启一下。
+[Speaker 1]:  open cloud 的 gateway。
+[Speaker 1]: 重启之后就可以在 open 中进行对话了。
+[Speaker 1]: 为了方便演示，
+[Speaker 1]: 我这里里就使用 clouopen 它自带的这个 cloopu i 界面进行测试。
+[Speaker 1]: 在演之前，
+[Speaker 1]: 我我先先看下 loss less cloud enhaned。
+[Speaker 1]: 它的架构核心组件首先是用户消息入口，
+[Speaker 1]: 这里包含三种角色的消息会进入到系统中。
+[Speaker 1]: 首先消息都会会持久化到 seq light 数据库。
+[Speaker 1]: 它的核心引擎包含三三触，
+[Speaker 1]: 触发策来压缩缩消息息包增增量压压缩就是旧消息大于二十 k tokens 的时候，
+[Speaker 1]: 就会触发这个压缩，
+[Speaker 1]: 然后包含阈值压缩。
+[Speaker 1]: 当上下文大于百分之七十五的时候，
+[Speaker 1]: 就会触发阈值压缩，
+[Speaker 1]: 然后我们还可以使用手动来进行强制压缩。
+[Speaker 1]: 当压缩后就到了 DAG 的层级摘要，
+[Speaker 1]: 然后再到拼装上下文窗口，
+[Speaker 1]: 然 opopen 就就可以过过 claginal，
+[Speaker 1]:  tooth 按需回忆。
+[Speaker 1]: 然后我们再看一下 open 它什么时候能够感知到这个插件。
+[Speaker 1]: 首先，
+[Speaker 1]: 当我们在 clouopen 进行短对话的时候，
+[Speaker 1]: 比如说不超过三十二条，
+[Speaker 1]: 那么就不会触发这个插件。
+[Speaker 1]: 当 clousession 中的内容达到约二十 k tokens 的时候，
+[Speaker 1]: 增量页压缩就会开始在后台运行。
+[Speaker 1]: 因为这个过程是在后台运行，
+[Speaker 1]: 所以用户无需感知。
+[Speaker 1]: 当对话过长的时候，
+[Speaker 1]: 也就是接近模型上下文窗口的百分之七十五的时候，
+[Speaker 1]: 就会触八阈值压缩。
+[Speaker 1]: 当我们在 open class 问及当前筛选中早期的一些细节的时候，
+[Speaker 1]: 然后 open class 就会调用这些工具来回忆被摘要化的信息，
+[Speaker 1]: 然后就会通过下面这几种方式进行检索与回答。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们就可以回到 open，
+[Speaker 1]: 然后就可以在 clouopen class 自带的这个交互界面进行测试。
+[Speaker 1]: 下面我们可以将这个绘话拉到最开始的对话内容。
+[Speaker 1]: 然后我们看一下一些技术细节能否直接检索到这里。
+[Speaker 1]: 我已经回到了当前选中最早期的这些对话内容。
+[Speaker 1]: 在最早期的对话中，
+[Speaker 1]: 这里我和他讨论了一个具体的软件开发的这个话题。
+[Speaker 1]: 这个话题就是构建一个 sepython CLI 任务管理工具。
+[Speaker 1]: 这里还告诉他了这这名名称 task flow。
+[Speaker 1]: 这里是核心的需需求，
+[Speaker 1]: 括括使用 CL light 作为存储支持 CRUD 操作。
+[Speaker 1]: 在这里还告诉他，
+[Speaker 1]: 先不写代码，
+[Speaker 1]: 先讨论架构设计。
+[Speaker 1]: 在这里就是 open，
+[Speaker 1]: 针对我们这个讨论给出的推荐项目结构，
+[Speaker 1]: 还有分层思路，
+[Speaker 1]: 还有这几个关键设计决策。
+[Speaker 1]: 下面我们就可以在输入框中提问一下，
+[Speaker 1]: 他给出的分层思路是什么？
+[Speaker 1]: 我输入的提示词是最开始你给出的分层思路是什么。
+[Speaker 1]: 然后我们直接发送看一下，
+[Speaker 1]: 他能否回忆起他最开始给我们设计的这个分层思路。
+[Speaker 1]: 好，
+[Speaker 1]: 这里他给出了这个分层思路，
+[Speaker 1]: 包括数据层、
+[Speaker 1]: 模型层、
+[Speaker 1]: 业务层。
+[Speaker 1]: 这里他还提到了这个分层在第二轮的 LCM 摘调中也有体现。
+[Speaker 1]: 然后我们就对比一下当前 session 中最早期的他给出的这个分层思路，
+[Speaker 1]: 可以看到数据层、
+[Speaker 1]: 模型层、
+[Speaker 1]: 业务层、
+[Speaker 1]: 展示层和刚才 open class 回答的基本上是一致的。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 我们就在这个超长对话的 session 中，
+[Speaker 1]: 成功通过 lossless cloud 检索到了最早期我们与他对话的这些技术细节。
+[Speaker 1]: 然后我们在当前 session 中最早期的这些讨论的细节中，
+[Speaker 1]: 我们再找几个问题来测试一下。
+[Speaker 1]: 在最早期的几轮对话中，
+[Speaker 1]: 这里有这个项目架构存储等技术细节。
+[Speaker 1]: 然后我们可以针对这些细节进行提问。
+[Speaker 1]: 比如说这里有这个项目结构，
+[Speaker 1]: 然后我们还是在当前筛选中直接输入提示词。
+[Speaker 1]: 我输的提示词就是让他给出修正后的项目结构。
+[Speaker 1]: 然后我们直接发送看一下他能否检索到这个筛选中早期对话讨论的项目结构。
+[Speaker 1]: 好，
+[Speaker 1]: 这里他给出了修正后的项目结构。
+[Speaker 1]: 然后我们和当前 session 中早期讨论的这个项目结构做比较的话，
+[Speaker 1]: 可以发现它检索的这个结果跟我们之前讨论的修正后的项目结构是完全一样的，
+[Speaker 1]: 而且这里它给出的更加详细。
+[Speaker 1]: 这样看来，
+[Speaker 1]: 在当前超长绘画的这个 session 中，
+[Speaker 1]: 它能准确记住最早期我们讨论的这些技术细节，
+[Speaker 1]: 还有项目架构等内容。
+[Speaker 1]: 啊，
+[Speaker 1]: 为了更高效的测试，
+[Speaker 1]: 斯勒斯 locloud 在 open cloud 中的效果下面，
+[Speaker 1]: 我们就可以在 cloud code 中让 cloud code。
+[Speaker 1]: 根据 open cloud 当前 session 中的内容，
+[Speaker 1]: 为我们设计几何测试题来测试一下 lossless cloud 效果。
+[Speaker 1]: 我在 cloud code 中输入的这个任务，
+[Speaker 1]: 就是在 open cloud 当前的 session 中设计五个架构决策的题目来测试 lossless cloud 效果。
+[Speaker 1]: 然后我们直接发送。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 在等待了几分钟之后，
+[Speaker 1]:  cloud code 自动向 open cloud 中注入了几个测试题，
+[Speaker 1]: 然后 open cloud 这里逐一给出了回复，
+[Speaker 1]: 这里一共是五个测试题，
+[Speaker 1]: 在最后这里这五个测试题全部回答正确，
+[Speaker 1]: 而且这个一致性几乎达到了百分之百像。
+[Speaker 1]: 这样的话就证明我们使用的斯 loless cloud，
+[Speaker 1]: 它确实能增强 open cloud。
+[Speaker 1]: 在一个筛选中，
+[Speaker 1]: 经过超长的多轮对话，
+[Speaker 1]: 它也不会忘记在对话刚开始的时候，
+[Speaker 1]: 这些内内容还有技术细节像。
+[Speaker 1]: 这样的话，
+[Speaker 1]: 我们就通过 loss less cloud，
+[Speaker 1]: 让 open 具备了短期精准记忆能力。
+[Speaker 1]: 也就是在同一个选中，
+[Speaker 1]: 哪怕我们进行再多轮的对话，
+[Speaker 1]: 他也不会忘记刚开始的这一些细节内容。
+[Speaker 1]: 因为我们如果不用 clouselost less cloud 的话，
+[Speaker 1]: 在 open 中，
+[Speaker 1]: 一旦一个 clousection 中对话轮数过多，
+[Speaker 1]: 那么他就会忘记，
+[Speaker 1]: 我们刚开始告诉他的内容，
+[Speaker 1]: 还有讨论的这些细节。
+[Speaker 1]: 有了短期记忆能力，
+[Speaker 1]: 我们就可以用 open class 处理更加复杂，
+[Speaker 1]: 更加贴合实际的任务。
+[Speaker 1]: 我们就可以保证我们的 open class 越用越聪明。
+[Speaker 1]: 好，
+[Speaker 1]: 本期视频就做到这里，
+[Speaker 1]: 欢迎大家点赞、
+[Speaker 1]: 关注和转发，
+[Speaker 1]: 谢谢大家观看。
