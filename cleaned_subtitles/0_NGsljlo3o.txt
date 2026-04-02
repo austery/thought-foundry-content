@@ -1,0 +1,250 @@
+How do you prove somebody is human?
+>> It is a surprisingly hard problem. I think that people are going to start getting accused of being bots.
+>> What we currently see is less than 1% of what it will look like in probably a year or two. The idea that AGI will lead to some very fundamental shift. Seems obvious. Like
+>> the AIS are really good at programming humans. Much better than humans are at programming AIS.
+>> Absolutely. an AI will be able to have a GitHub account and will be able to post and also attest to five other AIs that these are in fact humans and even though they're not. Honestly, if you don't take it seriously now,
+>> Alex, welcome to the podcast. Great to have you.
+>> Thanks for having me. So, Proof of Human is having a moment right now. Why don't you first give a a background for people who are unfamiliar? What is the moment that's happening and how did we get here?
+>> Yeah. And what is proof? Proof of human.
+>> Proof of human as the name suggests is, you know, do you know if you interact with a human or like something else on the internet? And I actually think the kinds of questions that we're now asking is are you inter interacting with a human uh an agent on behalf of a human or just an agent? Like I think these are like roughly the three the three areas that we want to split apart. Well, and and describe a little bit the difference between just an agent and an agent acting on behalf of a human. How do you see that distinction?
+>> Yeah. So, um quickly explaining just the term proof of human and I think what is hard about it and then I will I will explain how that fits into into an agent on behalf of a human. So um what proof of human really means is that uh you know every individual that interacts on a platform has only one ideally one account or you know a limited number of accounts
+>> and stays the owner of that account like that that's that's kind of the property that you're looking for. like you're looking for a initial verification uh that ideally should be you know something like anonymous or very extremely privacy preserving and then on ongoing authentication that the same person remains in control of the account. Um, and then there's like some secondary properties that I think are good to have. But that actually tells you that the really hard thing is is uniqueness like like what what is happening on a platform like Twitter right now is that there's all these accounts, you know, all these all these bots that are in the replies um that you know there's probably one human sitting somewhere and and sending out 10 thousands or like hundred thousands of AIS
+>> and there's this catchup game where like uh you know Twitter and X are trying to just find them and block probably millions a day of these which is what like oh a 100th of the of the bots
+>> that that's right that's how it feels like um and then agent on behalf of human I think like how it will look like is uh you know I as a like I think all of us will have agents it's unclear how it will look like is this going to be one or there multiple ones maybe with different tasks and different even even types of characters um and I think it will then come down to I you know I approve a certain action of my agent. I give him certain rights. So like act on my behalf.
+>> Okay. Post post to my ex account, post to my Instagram,
+>> for example.
+>> But it's my Instagram and I'm a unique human that owns it.
+>> That's right. You know, then X or Instagram could could decide if that if that's actually something they want as a platform,
+>> right?
+>> Uh but that's how you could do it.
+>> That makes sense. Um and so how do you how do you prove somebody is human? It is it is a surprisingly hard problem.
+>> Yeah.
+>> So, you know,
+>> you know, those agents are very very clever.
+>> Yeah.
+>> It's uh you know, it's funny. We started this company now a couple of years ago before Chad JPD and before all of that, but we we kind of took that as an assumption that eventually we will have AIS that, you know, both passed the touring test, so they can just claim to be a human. You will not be able to tell them anymore on the internet. and also that they would be, you know, a highly agentic and just like run around, do their own thing. And so that makes it really, really hard because uh back then when we started the company, there were like roughly three big ideas that people were interested in. Um one was this idea of uh web of trust or like related ideas. So this idea that you you look how someone behaves on the internet or did behave in the past. So like usually a combination of you have these certain number of accounts uh that you you know you own since a couple years and then you post regularly or you comment regularly to GitHub like these were the kind the kinds of things that people are using and then let's say all three of us have them and then I attest also that you know I know you in the real world and I attest to you that I know you in the real world and that's how you would build a certain graph and that was like a very hot idea back then for this Um but we disregarded it basically immediately because we assumed that you know eventually everything that is just digital an AI will be able to do it as well like we're there.
+>> Yeah. Exactly. So an AI will be able to have a GitHub account and we'll be able to post and own an account and like also attest to five other AIs that these are in fact humans and even though they're not.
+>> So uh so you know that was that was area number one. Area number two was to just you know uh use government ids
+>> for everything which uh we just all immediately disregarded for a couple reasons. one is the you know uh I think you know it's strictly better if the government would not control such an infrastructure in terms of free speech and actually breaking that apart but then also
+>> right you lose anonymity
+>> instantly right
+>> you could hypothetically set up a system that maybe preserves it but it's very hard to do and then the second thing is also
+>> um you know the government identity system is just not built for that
+>> and uh and and what is so hard about this problem is it's going to be a global problem and so it doesn't really matter if you know one government maybe has the perfect infrastructure for example Singapore is like an example of a of a of a of a government that has you know perfect infrastructure all around
+>> but that barely doesn't doesn't matter because you know for example I don't know Meta is a global product with three billion users with a lot of other countries
+>> yeah Singapore is what like uh 2 million people or million people
+>> exactly so do you want to lock everyone every everyone else out so uh so yeah and then there's a long list of other things um why we disregarded that basically immediately and and then the last one is biometrics which actually you know immediately gives us this IG reaction it's it's like
+>> um and it even went further because uh what is so hard about this problem as I mentioned in the beginning is uniqueness
+>> and so just like in very simple words how you can describe the problem is um well first of all for example what does face ID do face ID checks that I'm the same person again using my phone.
+>> Mhm.
+>> And uh so it's a onetoone authentication. So there's an embedding stored on my phone. It takes a picture of my face, creates a new picture, compares to the previous one, and if that is close enough, I can use my I can use my phone.
+>> But uh so that's a one to one, you know, one embedding to one new embedding.
+>> To solve the proof of human problem, you will need to distinguish one new individual from all previous individuals. H
+>> you need to make sure that you know Ben is trying to sign up and Ben did not sign up before.
+>> Yeah.
+>> Um and then suddenly it goes from one to one to one to n and n is the n is the size of your network essentially that you're trying to prove that to
+>> right
+>> and then you can just do the math and you can calculate how much mathematical entropy like how much information just information theoretically do you need to um to prove that. And it turns out that's a pretty high number because it's it's an exponential problem,
+>> right?
+>> And so then you can do the math and you find out that you know things like a face uh or or you know even fingerprints or something doesn't work. uh like that then you would basically hit a wall after tens of millions of users.
+>> Yeah. And so then you end up with uh you know something like iris which is the muscle of your of your eye that actually has enough entropy
+>> that it's unique
+>> that is unique that is unique enough
+>> and how do you also then solve the uh you know one thing that biometrics have been subject to historically is just replay attacks where okay I may I may not have your eyeball but I've got enough information that I can run a replay attack on you. Um so like there's there's now actually you know
+>> again it is important I think to split up the problem and verification which is essentially
+>> in you know old terms it's like you getting your passport
+>> right
+>> and then authentication which is you showing your passport uh constantly for certain kinds of things
+>> and on the you know on the verification piece um that's you know we we've went down if you know world you know that we've built this thing called an you know it's it's doing a lot of things to prevent these kinds of attacks. So it's for example it has multiple sensors in the you know electromagnetic spectrum to just make sure that you cannot show a display to it and it and it would recognize that. Um so I think on that side we've you know we we've got it handled on the on the consumer side like you know that should then reauthenticate. It turns out to be much harder because uh you would need to trust the phone in some sense
+>> uh because what we actually do in that moment is when you verify with an orb we not only do we check uh your uniqueness in a fully anonymous and privacy preserving way and we should talk about that but also we send to your phone a signed face image that you then can later use to reauthenticate against it
+>> right
+>> um and you know with a new iPhone you can have meaningful amount of trust against that but with old Android phones basically And so
+>> yeah you know because like you can just uh you can just show a deep fake essentially either through a display or just directly injected in the camera stream. So um that's a problem and so it's going to be a mix of uh you know if you have a new enough let's say iPhone or or general phone um then you can just reauthenticate against that uh picture that you took on verification. Otherwise, you would probably have to even go back to an orb somewhat frequently. Um, like let's say a couple times a year if you just I see you
+>> right to reauthenticate it.
+>> Yeah, that's right.
+>> Interesting.
+>> And then, you know, one of the things one of the kind of incorrect criticisms of the approach early was, "Oh my god, they've got my eyeball." um you know, now they're, you know, they they somehow have uh access to my privacy and they're going to, you know, do all these things to me and and that's my access and then they can they uh Worldcoin can um impersonate me and all these kinds of things, but that's not the case. And um so that was also like a non-trivial engineering problem.
+>> There was that was very much non-trivial. Um, so actually I think one point on Iris that I think people don't appreciate enough and that's a bet we took back then but it was essentially that Iris will turn out to be supern normal as a as a modality just because I think we will all wear um AR and VR systems that do that. You know Apple already does it
+>> uh already has RSI ID and the vision pro. So I think it's so maybe that's a general point. I think it's going it's going to be become something that we will use across many different devices and uh we'll normalize in that sense. But I think on the on the privacy piece um that took us a lot of time because like when when we when we decided back then that you know with our assumptions you know which was 6 years ago that we will need a custom hardware device for biometrics it was actually quite scary um you know to to come to the conclusion because like
+>> yeah that's an expensive conclusion. It's like it's like very expensive and then just having this idea that you would need to distribute them all over the world like that that just assumes that you would be able to like somehow bring up billions of dollars and
+>> do like a massive effort to to distribute all over the world. Um but then also the privacy challenge of like how could you build such a system that has all the all the requirements that we care about and the the two main highlevel you know ideas on how to solve it where uh multi-party computation and zero knowledge proofs.
+>> Mhm.
+>> And so um to again what is different to face ID because Face ID actually is it you know can be very private just because the embedding is stored on the phone. It doesn't have to leave the phone ever just because it's just you against you in the past.
+>> But to check uniqueness uh you need to check against all previous people. So so something needs to leave.
+>> Yeah.
+>> You know something needs to leave something and be compared to someone else. Uh and that's and that's a much harder uh challenge. And
+>> um how we approach that is we have multi-party computation. And so that essentially means that so in our case when you uh verify with an orb you know we take all these pictures uh they get computed on the device and uh then they actually get split up in multiple pieces. So we for example we take a picture of the iris we calculate an iris code um then we break that iris code in multiple pieces and sell send it to multiple computers
+>> such that um there is no central database in some sort. So no one actually has the information about you.
+>> Right.
+>> And then you do some clever tricks of how these different parties need to come together to do a computation that still leaves the pieces apart.
+>> Right. Right. Right.
+>> In such a way that
+>> nobody has the whole thing. Yeah. So no one has the whole thing and also during the computation no one has the whole thing
+>> but they do some you know some clever interactions to come to the conclusion
+>> a little like a zero knowledge proof kind of technique. Uh it's it I mean it it's very different but I think in terms of the properties it achieves it's somewhat similar where like you
+>> no one knows anything about you but you can actually together make a statement about you
+>> right
+>> and so you know you send it to this multi-party computation and what comes back is yes that individual is unique and then the second thing we do is we we separate all of this um from you with a zero knowledge proof. So meaning you have that secret on your phone but no one else has it. No server has it. We don't have it. Um and then you can later go back to this multi-party uh computation and say like hey I have a secret that is part of that computation and I am in fact unique. Uh and you can prove that to a platform. You could go to the social network and prove that you're a unique user to the social platform without us knowing anything about you or the social network knowing anything about you. And so it's this like very counterintuitive property that you there is like even though it uses biometrics you you know you preserve anonymity and and extreme levels of privacy which I think is super cool.
+>> You know social media is one kind of vector of you know things that were annoying and are now becoming overwhelming in terms of just bots you know particularly with SCOPS propaganda all these kinds of things. What are some of the other um you know uses of bots that are going to be kind of impossible to live with if we don't get to proof of human in the future?
+>> Yeah. Actually, I think the the simple model I have for it is every moment on the internet uh that is primarily about humans interacting with each other,
+>> you know, or or even indirectly interacting with each other. So uh you know you can you can start with simple ones like dating you know that really matters. What is the other side is in fact the person.
+>> Yeah. Well the
+>> got bad news for listeners.
+>> Well and the person who you expect it to be.
+>> Yeah. Yeah. Yeah. Exactly. We had the problems even before catfish thing.
+>> Yeah. Exactly.
+>> Yeah. Yeah. So that that that's that's an obvious one. Um and and so for example Tinder is already using it for that reason. Um I I think
+>> and what what's the uh the Tinder use case? So
+>> so we started we we started in Japan uh and like as as a test as a test market and it's essentially exactly what we just discussed. It is um if you verify it with an orb, you get a little badge that you know signals to other people that you are in fact a human. So it has a high level of verification. Um, and then also, um, I don't think that's live yet, but what will come next is that you're actually the person you claim to be. So, meaning you have a world ID that is associated to the kind of profile pictures that you use.
+>> Um, so you just run a quick check that, uh, this is all correct.
+>> Um, and so, you know, you then know you're not interacting with bot, but also you, you know, you interact with a fully authentic profile.
+>> Yeah. Another fun one because I think it's somewhat counterintuitive but I think it will be video conferencing.
+>> Uh because you know you already have deep fakes.
+>> Yeah. Just I don't feel like going to this video conference. Just put my deep fake up.
+>> Yeah. And actually you um you raised it to me first and that's why we started building a product for it because you know it will actually start with
+>> very high value users you know like for example people you know like yourself that maybe manage a fund and you know sometimes calls actually could be very high value if it's about borrowing money or
+>> Oh yeah yeah yeah well so so somebody can uh be me and say Eric can you please wire this Nigerian prince
+>> $400 million
+>> right exactly um Good to know. Yeah.
+>> Yeah.
+>> Yeah. Like you know that's still slightly hypothetical because these these things are not fully real time and you can somewhat
+>> we're very close
+>> but we're very close and so I think
+>> you know in a year from now it's just going to be a full commodity and it's going to be super photorealistic and absolutely real time and you will just not know anything anymore on these vehicles and and so
+>> I think that's another one. Uh I think another one then will be which I think is fun but it's it's going to be gaming. Uh, you know, because
+>> Oh, yeah. Yeah.
+>> Because like gamers really care.
+>> Oh, yeah. That they're not playing a an AI.
+>> That's frustrating.
+>> Especially if we bet money.
+>> Exactly. And you you you lose money. You train multiple hours a day to get like really good at this thing and then suddenly you get, you know,
+>> you you get destroyed by an AI that is just super human in every dimension. Um, funny enough, I was like, I wonder what you think about this bit because I don't have a good mental model about it, but even the the whole model for video platforms, I think, is about to break because there's a couple dimensions to the problem, but one, if if if the if the creation of content is is becoming super scalable. Like for example, I heard about this one guy that
+>> uh created I think like it was like on the order of a hundred videos a day on YouTube and made tens of thousands of dollars a month. All of them were fully AI generated.
+>> Yeah.
+>> Um and people just fell for it. So now the question is is that actually something that YouTube wants to monetize that way? Yeah. Like is that
+>> Yeah. Well, it's it's interesting, right? They fell for it. Um
+>> but maybe they liked it. Yeah. like that could be, but it would sure be nice to know like, okay, this is a human video or this is an AI video. Um,
+>> actually, my thesis about this is like something something along the lines of
+>> I think there's categories of content that are clearly just fictional.
+>> Yeah.
+>> Like movies are that, you know, it's like you you don't care that there's any connection to reality. It's just a fully fictional story. But now if you think about something like Tik Tok or you know all all these kind of things like people actually really care about them mostly because there is some connection to reality you know.
+>> Yeah. Well there's reality and there's connection to human right. So right
+>> you can create a pretty good p like you can take a scientific paper and give it to Gemini and say make this into a podcast and you know it'll be like a pretty entertaining podcast and it will be reality and that it came from you know some real thing but you would like to know that.
+>> You would like to know that.
+>> Yeah I would like to know that.
+>> And then it continues as an advertiser you would like to know did a human watch it?
+>> Yeah
+>> or did an AI watch it? Yes. Right. Right. Well, right. That that's the other thing is I created a 100 AI videos. I had a million AIs watch it.
+>> Yeah. And then I made a lot of money off of YouTube.
+>> Exactly. And I actually saw that video today of a YouTube farm.
+>> Like they had these like thousands of phones that just watch videos all day for a reason.
+>> Yeah. Yeah. And then like that's got zero value to the YouTube advertisers. And so that's that's actually a real problem for them,
+>> right? Well, the whole sort of the creator economy platforms of the last decade, you know, Substack, Spotify, you know, and all the people who support artists or, you know, Patreon is that creators, YouTubers, they have a personal relationship with with with these people. It's not just they like the the art and so if they all of a sudden found out that they were, you know, bots that might, you know, they might not want to support them in the same way.
+>> Yeah. You might want not want to give them a a big YouTube tip or
+>> Yeah. I think there's a certain subset of people who support um you know want to support actual people and feel like they're having a real relationship.
+>> Yeah.
+>> And and the thing that I think like people don't really get is that you know it should be obvious but I don't think people really understand the the consequence of that. I think two things. One is that what we currently experience is like a super super tiny thing of what is about to happen you know just because like
+>> right it's a glimpse. It's a glimpse like you know cost of intelligence is dropping almost exponentially agent capabilities are increasing you know in like some super linear form like
+>> yeah what we currently see is less than 1% of what it will look like in probably a year or two and so
+>> and then second these things will be actually they will be super human in many ways they will be like perfectly able to understand you and like talk in the right way to you for example there's this like one paper that I that I think it got deleted after but it was Um it was uh the change my mind subreddit.
+>> Mhm.
+>> Um where the University of Zurich did this thing where they had AIS actually interact with change my mind.
+>> Yeah. And they were like super human in their ability to change it because they they were going back to their profile of the people posting it. They were like understanding their political motivation, the way they talk and like and they're just interacting in perfect in the perfect way,
+>> you know, and just like hit all the buttons and uh like
+>> AIS are really good at programming humans. That that's much better than humans are at programming AIs.
+>> Absolutely. There's no question. And so I think that's going to get quite scary also. But uh
+>> I I think at least if you know you're being a victim of a scop then or or or it's a very advanced one done by an AI that would be extremely useful to understand.
+>> Totally.
+>> Talk a bit more about the state of the product in the business today like how many IDs are are out there why don't you give a little bit of an update maybe talk about the evolution as well.
+>> Well first of all it's a multi-sided problem and I think there's like roughly three that you have to consider. One is uh well you need platforms to use the technology uh then you know like things like Reddit or you know X or you know things like that. Um secondly you need uh distribution of these devices and I think the right mental model to to have for it is how many minutes does it take a person to reach such a device on average and you know currently it's if you would take the global average it would be terrible number it would be like you know days or something because many people would need to fly but but you know how do we get that down to below 15 minutes across the US and so that's probably roughly around 50,000 devices that you need to deploy. That's like it's not crazy, but it's also not nothing. It's it's, you know, it's hard to do. And then the last one is how does all of that come together to something that a lot of people really want to use it. And that's a combination of you know the utility of all the subplatforms essentially but but all that layers on top like maybe you can use on your Reddit account maybe you get like you know certain amount of TBD subscription for free like so I think it's going to be a combination of things but you need to you need to land all three at some point at the same time which is uh which is hard to do. We are now at 18 million users that are verified 40 million in total in the app. Uh but the biggest thing is because of the past administration because we use you know we use crypto we we did not really invest in the US for a long time and um that's not the main shift that we're going through like
+>> for all of this the main thing that matters is the US
+>> and hopefully uh we get the clarity act passed shortly that
+>> yeah exactly that would be really great so um to get clarity on that
+>> yeah so so the big focus that we that we now are going through right now is to kind of go all in on the US. So I think over the next year 90% of the of the you know effort of the company is just going to go about the US and how do you get for example device distribution up? How how do you eventually have this in every Starbucks? Um so it becomes just you know super normal and people just just use it every day. So that's kind of the
+>> and then on the platform side actually we went through a it's um it was a very interesting experience to go through personally because I think
+>> um like a couple of years ago universally people just made fun of us you know like just it was like the universal reaction uh well minus and recre and a couple other people who believed in it but um
+>> yeah like and the press like like the amount of fun making of something that it just shows short-sighted people are.
+>> That's right.
+>> It's like, do you don't think the bots are coming?
+>> What did you think when when we first pitched actually because even you must have thought this is crazy.
+>> Well, because you had the orb like the orb was so wild. Um, you know, okay, we're going to scan people's retinas and that's how we're going to know they're human and so forth. And this was, I mean, you pitched us
+>> six years ago. Six years ago.
+>> Yeah. It was before COVID because you were there with the orb,
+>> right? Um, and you know, AI just hadn't happened yet. And and you know, you could kind of see, but there you know, there there's bots. Um, but they were kind of very crude and you know, compared to what there are now. Um, but it uh it seemed inevitable. Um, at least at the time, you know, the thing was it was so out of it was so from the future that uh, you know, we always worry about, okay, like what's the timing of this and this and that and the other and and so forth. Um, but you know, you were impressive enough and it was going to happen eventually and it was an exciting enough idea that I think all those things kind of got us to go, okay, we're um but but it was not it was one of it wasn't obvious that like it was going to work in that time frame.
+>> It seemed very inobvious for a long time. And how different was that pitch from what it ended up being or talk a little bit.
+>> It was actually pretty much exactly the same pitch.
+>> I think it's the same thing. the device changed. You you know they've they've made it much more economical and convenient, but
+>> that's right.
+>> It's uh
+>> but the initial instinct was right was there.
+>> It was basically everybody's going to have to prove they're you're either going to have to have some proof that you're human on in cyerspace or like it's going to be a very bad world. I mean the robots are gonna get us. We're done,
+>> right? And then actually the second piece of it was like this was the first thing is like it's going to be that itself is going to be a big deal but then second of all that you know when it's going to become a big deal we will be able to build one of the most valuable networks as a result of that because in a world of AI having a human network is going to be this incredibly important thing and uh and so actually yeah two things like one you will need to prove human but then second it will have very strong network effects
+>> and even as the platforms as you get into the platforms even as the platform's largest problem has been bots. I mean you remember Elon and the you know he backed out of buying Twitter because all the stats were based on bots. They still even knowing that it was hard for them to get all the way to the future in their thinking and go yeah we need proof of human.
+>> Yeah.
+>> Like it's kind of obvious.
+>> Yeah. Because people were like what does it even mean? You know like what does proof of human even mean? We can just we can just you know
+>> and did you have the link
+>> detection tools? When did you come up with the language proof of human?
+>> We had actually we we had proof of personhood for the longest time. It's even here in this on this brief.
+>> Yeah.
+>> But then uh at some point we're like Well, at some point AIS will have personal too. So
+>> uh so like that's not going to fly. So
+>> yeah, but they're not going to have retinas for a long time.
+>> That's coming eventually.
+>> It was actually really funny. It was like some of the some of the OpenAI people uh that I met were like, "Man, Alex, this is going to this is going to be so dark. Like people will hate you for like not giving personal AI." And I was like, "Jesus, all right, let's let's call it proof of human then." Um
+>> that's funny.
+>> So that that's how it changed. Um but that actually so then I would say like last year so post then there was like a big shift post post chat GBT like people were like that was like the AI suddenly got real to people and then actually I think and so that's when people started talking to us but still were not like you know like it's a future problem it's probably couple years out like we don't really care about it let's stay in touch like that was like the common response and then uh you know and well but you also you had couple CEOs that really believed it and were like willing to take the long-term bet um to to give them credit. But I think the second big shift was actually Claudebots and Moldbook recently.
+>> Yeah.
+>> Just because
+>> Yeah. That that kind of means like the the cow is way out of the barn.
+>> Yeah.
+>> Yeah. And so like honestly if you don't take it serious now
+>> then I think you just you should get a different job or something. Yeah,
+>> they're just not not thinking about ROMs in the right way. Like it's and so that's that was like the moment when many many people started reaching out and now now it feels like much more of an executional problem. Not not anymore
+>> market risk
+>> like a market risk or like a thesis problem or like like just a and which is still a big problem. Like how do you how do you how do you get 50,000 devices out there? How how do you make it cheap enough? How do you make it economic? Like you know how how do you make all these three things at the same time is still a very hard problem. How do you normalize the behavior, etc. So people aren't weirded out in a Starbucks or something?
+>> Although I I think that's now going to be
+>> what you get used to.
+>> I just because I think people will hate the alternative so much.
+>> And I think people are going to by the way take a lot more pride in being human. Uh particularly online because I I think that people are going to start getting accused of being bots. I mean like it's it's going to get really weird. Um, and without like clear delineation, it's it's going to be a mess. Like I don't I don't understand how somebody can think they're going to have a social media platform that doesn't distinguish between humans and bots. Like that seems absurd to me.
+>> Seems absurd. I think we will my guess is over the next couple months we will see we will see things like these platforms trying to use things like face biometrics on the phone which you know I know it will break so it's fine but I think we'll go through that cycle now uh and yeah so we just need to get to scale fast enough to to meet uh the market to what comes after which I think something like the orb is the only solution I think currently there's no real competition I think we'll also to see that.
+>> I have not seen a competitor yet because
+>> because it's so ridiculous.
+>> It's so ridiculous and it it was so hard to get to in terms of building it and then there's a massive network effect. Um,
+>> right,
+>> which like people are starting
+>> six years behind you on that. But
+>> yeah, I'm sure that'll come because it's it's just such an obvious problem now.
+>> What actually do you think about like AI continues? What in your mind are the economic policies that we will need to implement or directionally?
+>> I think governments do have to figure out how to send citizens money they're good at taking money from citizens but not the reverse. I mean well just if you go back to co the stimulus program
+>> like I think $400 billion was stolen
+>> like that that that's pretty you would have liked to know that you were sending the money to unique humans. I mean, if even if not citizens, as long as they were unique humans, that would have been good.
+>> Yeah. I mean, the social security system, for example, is a mess in the US. It's
+>> insane. Is a total disaster. So,
+>> we're going to have to get to some kind of way to cryptographically strong way to identify who's the citizen of what country. Like, like like that's going to be a really bad problem. Um I think otherwise there's no way to even have a democracy. I mean you know like the it's pretty crude what they're trying to do with the save act but it's not completely insane which is how do you even know like the people are voting are actual people or living people or anything and we really don't know now. um like we genuinely don't know and then if you go to I mean the the whole mailin ballot thing like is built for a whole very different world right
+>> that's right
+>> uh so like I don't think in an AI world where you can have like very high scale impersonation that and then with a broken social security system that like you're going to have the will of the people anymore like I I think that's going to be gone pretty fast so I think we're going to need some kind of, you know, cryptographically strong infrastructure on like who's who. Um, and then, you know, similarly, I think we're going to have to be able to get people money much more efficiently than through these uh this crazy apparatus of social programs that we have. Uh, just cuz like how lossy is and fraudulent is social security or Medicare or any of these things? I mean like the Medicare is so frustrating for people that they shot the CEO of United Healthcare like and people are happy about that like really happy. So like think about how bad a system that is. Um when you know and the government spends a lot of money sending you money for your health care but they do it in a like super inefficient way. Um but we have the technology to do that now. So I think that AI is going to make that problem so bad. uh because the ability to file fraudulent claims and create fake you know buy social I mean you can buy social security numbers on the black market like for those of you who don't know that's an easy thing that's a real thing like that is like everybody's social security number is for sale uh and so um you know like AI is just a way of making that kind of loose black market underground fraud thing just massive and extremely scalable.
+>> I agree s.
+>> Yeah. So I I I I think you know proof of human is a piece of a very important puzzle where we have to upgrade the entire infrastructure or we're not going to be a democracy anymore. I mean that that just be my guess. I agree. Tom
+>> Share more. You said okay next year go to market is focused on on the US. say more about how how you're thinking about that is the incentive for people to do it because they get to use a set of services. Is there some other economic incentive or how do you envision it? Basically, a month ago, we entered a very different phase as a project where I do believe many of the platforms that we're now integrating with will, you know, bring a lot of users to our platform and that changes, you know, how you think about it entirely. Like if you have a you have a platform of a billion users um sending users to you then it's really just all about like how do you meet that demand? It's like you know and that's that's that's what we're now entering and and so um yeah so I think the response is first um I think you will see and we're already working on it but you will see a lot of really large platforms that you know integrate uh in the in the near term future. I think that will just to set expectations. I think that will be slow initially because it also should be just you know to to get understand the product. It will be focused on certain geographies like what we did with Tinder store in Japan just to you know to uh to test the product and also to just normalize the concept. Uh but that will happen. And then secondly, which is now becoming like one of the main priorities for me is just how do you get this orb distribution up which is which is you know broadly speaking there's a couple different dimensions to that but one is first of all the product needs to work at scale uh you know without supervision which is turns out to be much harder than you would think. you know, every engineering problem at scale turns out to be much more complicated than you would think because, you know, fighting for 1% of improvement in quality is this cluster of, you know, all these dependencies to come together. So that's I think that's like one of the biggest engineering focuses right now. Then second um you need to find places to deploy them at and and the way to think about it is there are large scale distribution partnerships that could be something like Walmart you know or if you if you're very ambitious it could be something like Starbucks um or it it can just be you go to one of you know hip coffee shops and you just you just put it there or you know and then it you could go you could eventually even go to the DMV and just put it right So that's the problem we're currently trying to trying to puzzle together. Um, and you know, it's going to be some some of all of that. I think there's going to be some large scale distribution partnerships, many one-off coffee shops. Oh, actually one thing that we will uh we will launch soon and the team is going to hate that I'm saying this now, but uh it's going to be orb on demand. Yeah. So, so in the Bay just because actually it's such it's such a gnarly problem to you know to get an orb to truly everyone you know it's like to to get that the capex is insane.
+>> So it's actually it's actually much cheaper and easier to just put an orb on a motorbike and drive it to you as as crazy
+>> as as crazy as it sounds. So like in in places like the Bay Area or New York, you will just be able to say like, "Yeah, I want to verify now
+>> and 15 minutes later there's an orb comes to to your can you can verify." And uh
+>> did you ever think about uh I don't know, this is probably a terrible idea, but um having kind of different levels like we know you're a unique human or like this guy may be unique human because he's done it on his iPhone and it's not quite the the same. But
+>> yeah. Yeah. we we have that. So actually we um you know generally we just have the you know we have the principle of you know what whatever could be useful for this problem we just build it
+>> and and uh and so we we have something called face check that that does that. So it uses
+>> it uses face uh from the camera. It still uses multi-party computation what we've built for the entire system. So you're still anonymous.
+>> Mhm. Um and you know it of course reaches way less accuracy. So uh you know as a system you will know something along the lines of well this is you know at least one person cannot create 100 accounts maybe it's just 10 or 20. So like it's like a at least it's some measure of rate limiting.
+>> Um and I do think just to set a disclaimer I think with deep fakes and you know all this stuff I think that will fundamentally break. So it's a
+>> Mhm.
+>> it's it's a temporary solution that I think can get us to scale. That's kind of how I think about it.
+>> Uh we also actually use government ids uh similarly where like we we use just the ones that have an NFC ID chip.
+>> Mhm.
+>> Um and we use multi-party computation so you remain anonymous and platforms can choose to use that as well but no one really did. It's just somehow they have this like very negative stigma which I think makes sense.
+>> Yeah. Um but yeah, basically whatever could do it.
+>> Yeah, by any means necessary.
+>> That's right.
+>> Yeah.
+>> Well, thanks so much for coming on the podcast. It's been great.
+>> Yeah. Thank you. Thank you.
+>> Thanks for having me.
