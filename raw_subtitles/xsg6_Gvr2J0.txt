@@ -1,0 +1,297 @@
+[Speaker 1]:  cloud code 的源代码在昨天因为发布的最新的 v 二点一点八八版本残留了 south map 文件，
+[Speaker 1]: 导致约一千五百个 type script 文件，
+[Speaker 1]: 五十多分行完整可读的源代码码泄露。
+[Speaker 1]: 当 cloud code 的代代码露之后，
+[Speaker 1]: 我连夜对 cloud code 的源代码进行了深入分析。
+[Speaker 1]: 我甚甚至还分析了 cloud code 的封号机制，
+[Speaker 1]: 还深入分析了 oud code 的上下文压缩算法，
+[Speaker 1]: 还对 cloud code 是否偷换模型进行了分析。
+[Speaker 1]: 因为大家在使用 cloud code 的时候，
+[Speaker 1]: 经常会遇到降低智商的情况。
+[Speaker 1]: 所以我通过 cloud code 的源代码来分析它源代码中是否加入了偷换模型的情况。
+[Speaker 1]: 比如说将最强的 ops 四点六模型偷换成了三 mate 模型，
+[Speaker 1]: 或者是 high 酷模型。
+[Speaker 1]: 而且我还生成了一份 cloud code 源代码。
+[Speaker 1]: 深度分析报告包括整体架构、
+[Speaker 1]: 核心引擎、
+[Speaker 1]: 核心引统核线系统、
+[Speaker 1]: 服务层、
+[Speaker 1]:  UI 层，
+[Speaker 1]: 还有调节系统，
+[Speaker 1]: 还有支撑基础设施、
+[Speaker 1]: 安全分析、
+[Speaker 1]: 计设计模与工程决决策等。
+[Speaker 1]: 就在今天早上我重新打 clcloucode de 的时候，
+[Speaker 1]: 我发现 cloud code 将它的版本为我回滚到了 v 二点一点八七。
+[Speaker 1]: 因为昨天导致源代码泄露的版本 v 二点一点八八，
+[Speaker 1]: 但 cloud code 它能自动在我电脑上将。
+[Speaker 1]: 我的 cloud code 的版本号给降级到 v 二点一点八七，
+[Speaker 1]: 这还是挺挺令意意外。
+[Speaker 1]: 而而我昨天发布了使用 cloud code 全自动操控电脑，
+[Speaker 1]: 实现用 comd d 的的视频在评论。
+[Speaker 1]: 很多用户都问他们的版本，
+[Speaker 1]: 为什么不是二点一点八八，
+[Speaker 1]: 而是二点一点八七？
+[Speaker 1]: 这个原因就是 cloud code 被回滚到了二点一点八七。
+[Speaker 1]: 但是经过我一番折腾，
+[Speaker 1]: 又将 cloud code 重新还原到了昨天发布的二点一点八八版本，
+[Speaker 1]: 将 cloud code 版本从二点一点八七恢复到二点一点八八也非常简单。
+[Speaker 1]: 在这里我们只需要通过环境变量来设置禁用自动更新，
+[Speaker 1]: 并且切换一下符号链接，
+[Speaker 1]: 再启动 cloud code，
+[Speaker 1]: 我就可以正常来使用 v 二点一点八八版本。
+[Speaker 1]: 本期视频就为大家重点分析 cloud code 昨天泄露的源代码。
+[Speaker 1]: 我们将重点分析 cloud code 的封号机制以及如何防止被封号。
+[Speaker 1]: 而且还会分析 cloud code 是否会偷换模型，
+[Speaker 1]: 还会为大家分析 cloud code 的上下文管理机制，
+[Speaker 1]: 为什么要比 open clde 要好很多？
+[Speaker 1]: 并且还会为大家分析 cloud code 它隐藏的一些功能，
+[Speaker 1]: 也就是暂时没有发布，
+[Speaker 1]: 但是已经添加了的功能以及及 cloud code 隐藏的彩蛋。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们就可以深度看一下 cloud code 源代码中是否内置了封号机制。
+[Speaker 1]: 这是我昨天用 cloud code 分析 cloud code 源代码来生成的。
+[Speaker 1]: 这个笔记分析的主题就是 cloud code 源代码中是否包含追踪用户设备指纹的信息。
+[Speaker 1]: 在这个笔记中率先给出了 cloud code。
+[Speaker 1]: 它不收集哪些硬件指纹，
+[Speaker 1]: 包括 mac 地址、
+[Speaker 1]:  CPU、
+[Speaker 1]: 型号、
+[Speaker 1]: 内存大小，
+[Speaker 1]: 还有 GPU 信息。
+[Speaker 1]: 但它可以通过下面的机制实现对用户的追踪。
+[Speaker 1]: 首先我们看一下追踪标识包括哪些。
+[Speaker 1]: 首先是 user ID，
+[Speaker 1]: 还包含 anymous、
+[Speaker 1]:  UI，
+[Speaker 1]: 还有 account UUID，
+[Speaker 1]: 还有就是邮箱地址，
+[Speaker 1]: 还有仓库哈希等。
+[Speaker 1]: 首先我们先看一下 user ID，
+[Speaker 1]: 它是永久保存的。
+[Speaker 1]: 直到我们自己手动删除。
+[Speaker 1]: 然后它的存储位置是这个文件中，
+[Speaker 1]: 它是随机生成的六十四位十六进制字符串，
+[Speaker 1]: 实现跨会话追踪。
+[Speaker 1]: 第二个标识它也是永久存储，
+[Speaker 1]: 在我们的设备上，
+[Speaker 1]: 也是在这个文件中，
+[Speaker 1]: 它就属于备用追踪 id d 第三个标识它也永永久存储，
+[Speaker 1]: 并且绑定们的账号。
+[Speaker 1]: 我们只只要过过 OSS 登录，
+[Speaker 1]: 就能直接关联身份。
+[Speaker 1]: 然后第三个它也是永久存储，
+[Speaker 1]: 也就是我们使用的邮箱。
+[Speaker 1]: 这里还包含一个仓库哈希，
+[Speaker 1]: 它是按仓库进行追踪的。
+[Speaker 1]: 所以大家一旦被 cloud code 封号，
+[Speaker 1]: 一定要将这一些内容全部清除。
+[Speaker 1]: 我们只需要用这条命令就可以查看 cloud code。
+[Speaker 1]: 它当前追踪的 id 还可以用这个脚本来删除这些，
+[Speaker 1]: 用于追踪我们的这些标志和 ID。
+[Speaker 1]: 达到的效果。
+[Speaker 1]: 就是下次启动时就是全新的 user，
+[Speaker 1]:  ID 之前存储的记录就无法与我们进行关联。
+[Speaker 1]: 在这里还包含 cloud code 的遥测功能，
+[Speaker 1]: 我们只需要用这三条命令就可以清空这些遥测的内容。
+[Speaker 1]: 然后我们还可以清除完整的绘画，
+[Speaker 1]: 还有历史记录，
+[Speaker 1]: 在这里还包含 OOS 账号关联，
+[Speaker 1]: 然后我们可以通过这个脚本进行查看。
+[Speaker 1]: 我里还给出处如何清空这一些内容。
+[Speaker 1]: 然后大家如果想确保完全不被封号的话，
+[Speaker 1]: 就可以实现完全重置，
+[Speaker 1]: 可以用这几条命令完全重置我们的 cloud code 中保存的这些信息。
+[Speaker 1]: 而且我们还可以防止以后 cloud code 对我们进行追踪。
+[Speaker 1]: 我们只需要在这个文件中来添加这一段代码，
+[Speaker 1]: 就可以实现禁用非必要的网络流量，
+[Speaker 1]: 像这个效果就能达到禁用分析上报。
+[Speaker 1]: 方法二，
+[Speaker 1]: 还可以使用第三方云后端，
+[Speaker 1]: 这里我们就不再具体去看了。
+[Speaker 1]: 方法三，
+[Speaker 1]: 就是创建一个定时脚本来定时清理这些可能用于追踪我们的这些数据重置设备。
+[Speaker 1]:  ID 的话，
+[Speaker 1]: 对安 s opic 它就无法关联历史数据，
+[Speaker 1]: 从而无法知道我们之前被封过号，
+[Speaker 1]: 清除这些遥测数据，
+[Speaker 1]: 本地缓存的内容就不会上传到 ISSO pic，
+[Speaker 1]: 从而被分析，
+[Speaker 1]: 这里还可以清除 OOS，
+[Speaker 1]: 从而断开账号关联。
+[Speaker 1]: 当完全重置之后，
+[Speaker 1]: 我就就同同全新的用户户。
+[Speaker 1]: 这样的话，
+[Speaker 1]: 我们通过对 cloud code 源代码的分析，
+[Speaker 1]: 就大概清楚了 cloud code 通过什么方式对我们进行了追踪，
+[Speaker 1]: 对我们进行了封号。
+[Speaker 1]: 好，
+[Speaker 1]: 除了被封号，
+[Speaker 1]: 大家还会担心 cloud code 降低智商。
+[Speaker 1]: 因为降低智商的原理无非就是在 cloud code 的客户端将强模型。
+[Speaker 1]: 比如说 open s 四点六换成了弱模型。
+[Speaker 1]: 比如说 high 酷或者 sanit，
+[Speaker 1]: 通过对 cloud code 源代码进行分析，
+[Speaker 1]: 我们就能知道在客户端是否具备偷换模型的功能。
+[Speaker 1]: 下面，
+[Speaker 1]: 我们可以深度看一下这个分析报告。
+[Speaker 1]: 首先看结论，
+[Speaker 1]: 不存在偷换模型，
+[Speaker 1]: 也就是我们的主对话的模型完全由我们控制，
+[Speaker 1]: 不会被偷偷降级。
+[Speaker 1]: 但 cloud code 会在后台使用 high 酷，
+[Speaker 1]: 也就是这个弱模型来执行辅助任务。
+[Speaker 1]: 比如说配额检查、
+[Speaker 1]: 摘要生成等，
+[Speaker 1]: 但 high 酷不会出现在我们的主对话中，
+[Speaker 1]: 也不会替代我们的 oppos 最强模型。
+[Speaker 1]: 在这里它还通过源代码进行了确认，
+[Speaker 1]: 也就是主对话完全由我们进行控制。
+[Speaker 1]: 也就是只要我们自己手动设置了模型，
+[Speaker 1]: 那么在对话的时候，
+[Speaker 1]: 它就保持这个模型。
+[Speaker 1]: 比如说我这里打开 cloud code，
+[Speaker 1]: 然后我们直接用斜杠命令加 model，
+[Speaker 1]: 然后我们就可以对模型进行设置了。
+[Speaker 1]: 比如说我这里默认的就是使用 ops 四点六模型。
+[Speaker 1]: 那么在主对话中，
+[Speaker 1]: 无论我们执行什么任务，
+[Speaker 1]: 它都是默认使用 ops 四点六模型。
+[Speaker 1]: 它在源代码中并不存在偷偷替换我们模型的这种功能。
+[Speaker 1]: 当出现过载时，
+[Speaker 1]: 它才会从强模型切换到弱模型，
+[Speaker 1]: 但这种触发的条件极其严格，
+[Speaker 1]: 所以可以忽略不计。
+[Speaker 1]: 还有一种场景就是埃 fort 的降级。
+[Speaker 1]: 在这种情况下，
+[Speaker 1]: 不换模型换参数，
+[Speaker 1]: 它会将思考级别从 max 换成 high。
+[Speaker 1]: 所以在使用 cloud code 的时候，
+[Speaker 1]: 它并不会把我们偷换模型，
+[Speaker 1]: 只会在模型不支持 max 的时候会降低思考级别。
+[Speaker 1]: 然后大家如果还担心的话，
+[Speaker 1]: 我们就可以通过这几种方式来验证我们的模型，
+[Speaker 1]: 有没有被偷偷换掉。
+[Speaker 1]: 所以大家有时候感觉 cloud code 变傻了，
+[Speaker 1]: 实际上跟 cloud code 客户端没有关系。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们再看一下 cloud code，
+[Speaker 1]: 它的上下文管理机制，
+[Speaker 1]: 也就是上下文压缩算法。
+[Speaker 1]: 因为大家平时在使用 open cloud 的时候，
+[Speaker 1]: 应该能够感受到当一个绘话过长的时候，
+[Speaker 1]: 那么在早期对话的这一些细节 open 它就会很容易忘记。
+[Speaker 1]: 这其实就是 clouopen，
+[Speaker 1]: 它的上下文管理还有压缩算法做的非常不好。
+[Speaker 1]: 所以在之前的视频中，
+[Speaker 1]: 我单独为大家出了一期如何提升 open cloud 在一个筛选中常会画的记忆能力。
+[Speaker 1]: 但 cloud code 跟 open 不一样，
+[Speaker 1]:  cloucloud code 它的上下文压缩算法做的非常强。
+[Speaker 1]: 然后我们可以具体看一下，
+[Speaker 1]: 在这个笔记中给出了这种架构概览。
+[Speaker 1]: 在这里提到 cloud code，
+[Speaker 1]: 它的上下文压缩不是单一算法，
+[Speaker 1]: 而是一个包含四层递进的压缩体系。
+[Speaker 1]: 并且它的核心原则就是尽可能用廉价的规则操作，
+[Speaker 1]: 延迟高昂的大模型调用。
+[Speaker 1]: 在这里给出了这些具体的代码文件。
+[Speaker 1]: 然后这里就是第一层微压缩它的核心思想就是不调用大模型，
+[Speaker 1]: 纯规则操作，
+[Speaker 1]: 清理旧的大块的工具，
+[Speaker 1]: 输出结果，
+[Speaker 1]: 保留语义信息。
+[Speaker 1]: 然后第四层就是自动压缩，
+[Speaker 1]: 这里就是具体的代码和算法。
+[Speaker 1]: 这里我们就不再具体去看了。
+[Speaker 1]: 第三层就是传统压缩，
+[Speaker 1]: 然后第四层就是 session memory 压缩，
+[Speaker 1]: 像通过源代码分析我们就知道了。
+[Speaker 1]:  cloud code 它如何实现的上下文压缩？
+[Speaker 1]: 为什么我们在 cloud code 中经过多轮对话，
+[Speaker 1]: 它都能记得我们最早期的这些内容和细节。
+[Speaker 1]: 原因就是 cloud code，
+[Speaker 1]: 它有非常完美的上下文压缩算法，
+[Speaker 1]: 这是 open cloud 所不具备的。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们再看一下 cloud code，
+[Speaker 1]: 它的记忆系统的实现方式。
+[Speaker 1]: 在 cloud code 中，
+[Speaker 1]: 它采用了三层记忆架构。
+[Speaker 1]:  cloud code 的记忆系统不是一个简单的文件存储，
+[Speaker 1]: 而是三层渐进的知识管理体系。
+[Speaker 1]: 第一，
+[Speaker 1]: 一层就是绘画记忆，
+[Speaker 1]: 第二层就是持久记忆，
+[Speaker 1]: 第三层就是团队记忆。
+[Speaker 1]: 这里给出了持久记忆系统的记忆文件格式，
+[Speaker 1]: 它是一个 mark down 文件格式。
+[Speaker 1]: 这里给出了四种记忆类型，
+[Speaker 1]: 包括用户角色、
+[Speaker 1]: 目标、
+[Speaker 1]: 知识背景。
+[Speaker 1]: 第二个就是用户对工作方式的指导。
+[Speaker 1]: 第三个就是项目进展目标，
+[Speaker 1]: 还有事件。
+[Speaker 1]: 第四个就是外部系统的指针，
+[Speaker 1]: 像前两个它就比较像 open cloud 中它的记忆系统由于时间有限，
+[Speaker 1]: 我们就不对它的记忆系统做深入的分析。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们就看一下 cloud code，
+[Speaker 1]: 它隐藏了哪些高级的功能。
+[Speaker 1]: 然后我们可以简单看一下，
+[Speaker 1]: 这里包含实体贴纸的功能，
+[Speaker 1]: 这个功能我们就可以打开 cloud code 测试一下是否具备这个功能。
+[Speaker 1]: 我们直接输入这个命令，
+[Speaker 1]: 然后按一下 int 键。
+[Speaker 1]: 好，
+[Speaker 1]: 这里就在浏览器中自动打开了这个页面。
+[Speaker 1]: 这个页面加载后出现了很多这些贴纸。
+[Speaker 1]: 在这里还给出了一个极简模式，
+[Speaker 1]: 也就是我们在启动 cloud code 的时候加入，
+[Speaker 1]: 就这个参数就会只保留这三个工具。
+[Speaker 1]: 这里就提到了我们昨天演示的 computer use 电脑操控的功能，
+[Speaker 1]: 在这里还给出了一个投机执行系统，
+[Speaker 1]: 但这个功能只有 ans OO pic 他们内部可以使用。
+[Speaker 1]: 这里还有一个隐身模式，
+[Speaker 1]: 但也只是安索 opic 员工能够使用。
+[Speaker 1]: 然后它还有一个比较有趣的伴侣精灵系统，
+[Speaker 1]: 它是一个完整的收藏型宠物系统。
+[Speaker 1]: 这里面包含十八种宠物，
+[Speaker 1]: 这个伴侣精灵系统在 cloud code 中还没有开放，
+[Speaker 1]: 所以我们在 cloud code 中无法使用。
+[Speaker 1]: 然后这里还给出了隐藏键盘的快捷键，
+[Speaker 1]: 这里还有隐藏的环境变量，
+[Speaker 1]: 还有性能调优的环境变量。
+[Speaker 1]: 然后这里还包含其他的彩蛋，
+[Speaker 1]: 还有冷知识，
+[Speaker 1]: 在这里我们就不再具体去看了。
+[Speaker 1]: 在最终这个分析结论，
+[Speaker 1]: 它提到，
+[Speaker 1]:  cloud code 不只是一个 CLI 工具，
+[Speaker 1]: 它的代码中隐藏着完整的 AI 助手操作系统的出行。
+[Speaker 1]: 从守护进程、
+[Speaker 1]: 语音输入、
+[Speaker 1]: 电脑控制、
+[Speaker 1]: 梦境记忆整合、
+[Speaker 1]: 多代理协作、
+[Speaker 1]: 隐身模式等，
+[Speaker 1]: 当前公开版本只暴露了冰山一角。
+[Speaker 1]: 所以 cloud code 它具备了这些隐藏的功能，
+[Speaker 1]: 确实非常多，
+[Speaker 1]: 也非常强大。
+[Speaker 1]: 好，
+[Speaker 1]: 由于 cloud code 它的源代码过于庞大，
+[Speaker 1]: 五十多万行代码。
+[Speaker 1]: 本期视频我们就只重点分析了大家关心的 cloud code 封号问题。
+[Speaker 1]:  cloud code 是否会偷换模型问题，
+[Speaker 1]: 以及 cloud code 的记忆，
+[Speaker 1]: 还有上下文管理，
+[Speaker 1]: 还有 cloud code 中隐藏的这一些功能。
+[Speaker 1]: 本期视频所用到的代码和笔记，
+[Speaker 1]: 我都已经放在 gitub 仓库，
+[Speaker 1]: 大家可以直接从 get up 仓库去查找找就可以。
+[Speaker 1]: 好，
+[Speaker 1]: 本期视频就做到这里，
+[Speaker 1]: 欢迎大家点赞、
+[Speaker 1]: 关注和转发，
+[Speaker 1]: 谢谢大家观看。
