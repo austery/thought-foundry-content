@@ -1,0 +1,16784 @@
+Most
+ of
+ the
+ people
+ don't
+ realize
+ that
+
+
+this
+ is
+ like
+ already
+ happening
+
+
+especially
+ over
+ the
+ past
+ few
+ months.
+ In
+
+
+almost
+ every
+ lab,
+ the
+ new
+ generation
+ of
+
+
+the
+ models
+ are
+ built
+ heavily
+ using
+ the
+
+
+previous
+ generation
+ of
+ the
+ models.
+ What
+
+
+is
+ missing
+ right
+ now
+ is
+ long
+ horizon
+ and
+
+
+full
+ automation
+ and
+ we're
+ moving
+ to
+ that
+
+
+direction
+ super
+ super
+ fast.
+ The
+ moment
+
+
+that
+ we
+ have
+ this
+ full
+ automation,
+ we
+
+
+can
+ close
+ the
+ loop
+ of
+ self-improvement.
+
+
+We
+ just
+ got
+ rid
+ of
+ the
+ human
+ bottleneck
+
+
+for
+ improving
+ these
+ models
+ which
+ I
+
+
+expect
+ to
+ see
+ a
+ huge
+ jump
+ again
+ from
+
+
+such
+ development.
+ Hi,
+ I'm
+ Matt
+ Turk.
+
+
+Welcome
+ to
+ the
+ Matt
+ podcast.
+ Today
+ my
+
+
+guest
+ is
+ Mustafa
+ Dani,
+ a
+ top
+ AI
+
+
+researcher
+ at
+ Google
+ Deep
+ Mind
+ and
+ a
+
+
+core
+ contributor
+ to
+ some
+ of
+ the
+ most
+
+
+influential
+ architectural
+ breakthroughs
+
+
+of
+ the
+ last
+ decade,
+ including
+ universal
+
+
+transformers,
+ the
+ vision
+ transformer,
+
+
+and
+ the
+ natively
+ multimodal
+ Gemini
+
+
+family.
+ In
+ this
+ episode,
+ we
+ unpack
+
+
+what's
+ hot
+ in
+ Frontier
+ AI
+ right
+ now,
+
+
+including
+ what
+ it
+ actually
+ means
+ for
+ AI
+
+
+to
+ think
+ in
+ loops
+ and
+ the
+ immediate
+
+
+timeline
+ for
+ recursive
+ self-improvement,
+
+
+where
+ AI
+ autonomously
+ builds
+ the
+ next
+
+
+generation
+ of
+ AI.
+ We
+ also
+ dive
+ into
+ the
+
+
+technical
+ evolution
+ of
+ image
+ generation
+
+
+with
+ Nano
+ Banana
+ 2
+ and
+ why
+ continual
+
+
+learning
+ could
+ completely
+ disrupt
+ how
+
+
+enterprise
+ data
+ pipelines
+ and
+ rag
+
+
+systems
+ are
+ built
+ today.
+ Please
+ enjoy
+
+
+this
+ fantastic
+ deep
+ dive
+ with
+ Mustafa
+
+
+Dani.
+
+
+One
+ of
+ the
+ hottest
+ concepts
+ in
+ AI
+
+
+research
+ right
+ now
+ seems
+ to
+ be
+ the
+
+
+concept
+ of
+ loops.
+ So
+ I
+ thought
+ it'd
+ be
+ a
+
+
+fun
+ place
+ to
+ start.
+ This
+ idea
+ that
+
+
+models
+ are
+ going
+ to
+ improve
+ not
+ by
+ being
+
+
+bigger
+ but
+ by
+ thinking
+ recursively.
+ What
+
+
+does
+ that
+ mean
+ exactly?
+
+
+>> Definitely
+ one
+ of
+ the
+ topest
+ active
+
+
+areas
+ for
+ um
+ almost
+ every
+ lab
+ to
+ invest
+
+
+in
+ uh
+ looping
+ and
+ and
+ it
+ has
+ like
+ um
+
+
+like
+ operation
+ at
+ different
+ levels.
+ The
+
+
+one
+ that
+ is
+ on
+ on
+ the
+ uh
+ on
+ the
+ micro
+
+
+level
+ is
+ basically
+ the
+ the
+ the the
+
+
+looping
+ that
+ we
+ use
+ like
+ architecture
+ or
+
+
+at
+ inference
+ time
+ for
+ test
+ and
+ compute
+
+
+and
+ stuff
+ like
+ that.
+ And
+ then
+ at
+ a
+
+
+higher
+ level
+ is
+ basically
+ the
+ loop
+ the
+
+
+the
+ loop
+ that
+ we
+ have
+ over
+ the
+
+
+development
+ of
+ these
+ models
+ which
+ is
+
+
+basically
+ we
+ refer
+ to
+ to
+ it
+ as
+ uh
+
+
+self-improvement.
+ If
+ I
+ want
+ to
+ put
+ it
+
+
+like
+ like
+ very
+ like
+ like
+ let's
+ talk
+
+
+about
+ self-improvement
+ as
+ as
+ like
+ this
+
+
+general
+ concept,
+ right?
+ If
+ I
+ want
+ to
+ u
+
+
+put
+ it
+ like
+ very
+ simply,
+ it
+ is
+ really
+
+
+just
+ the
+ continuation
+ of
+ the
+ trend
+ that
+
+
+we've
+ been
+ like
+ writing
+ for
+ decades,
+
+
+right?
+ And
+ uh
+ and
+ uh
+ think
+ about
+ it
+ in
+
+
+classical
+ machine
+ learning.
+ humans
+ had
+
+
+to
+ sit
+ down
+ and
+ manually
+ engineer
+ the
+
+
+features
+ and
+ uh
+ you
+ had
+ to
+ decide
+ like
+
+
+what
+ the
+ model
+ actually
+ uh
+ paid
+
+
+attention
+ to
+ and
+ and
+ deep
+ learning
+ and
+
+
+neural
+ network
+ came
+ along
+ and
+ and
+ they
+
+
+said
+ okay
+ let's
+ just
+ remove
+ that
+ let
+ the
+
+
+model
+ figure
+ out
+ the
+ representation
+
+
+itself
+ and
+ um
+ that
+ was
+ actually
+ a
+ huge
+
+
+deal
+ and
+ and
+ we
+ somehow
+ removed
+ a
+
+
+massive
+ human
+ bottleneck
+ and
+ inhuman
+
+
+bias
+ and
+ then
+ like
+ further
+ uh
+ and
+
+
+instead
+ of
+ just
+ like
+ designing
+
+
+architecture
+ we
+ started
+ learning
+ them
+
+
+too.
+ uh
+ instead
+ of
+ curating
+ like
+ you
+
+
+know
+ every
+ piece
+ of
+ training
+ signal
+ uh
+
+
+we
+ scale
+ to
+ kind
+ of
+ basically
+ datadriven
+
+
+approaches
+ and
+ let
+ the
+ data
+ speak
+ and
+ uh
+
+
+the
+ self-improvement
+ and
+ and
+ this
+ like
+
+
+loop
+ into
+ development
+ is
+ just
+ the
+ next
+
+
+step
+ in
+ in
+ in
+ the
+ same
+ direction
+ and
+ the
+
+
+whole
+ idea
+ and
+ the
+ whole
+ point
+ of
+ it
+ is
+
+
+you're
+ removing
+ the
+ human
+ bottleneck
+ and
+
+
+bias
+ from
+ improving
+ these
+ models
+ right
+
+
+and
+ now
+ uh
+ like
+ you
+ say
+ that
+ okay
+ not
+
+
+not
+ just
+ human
+ doesn't
+ have
+ to
+ handcraft
+
+
+features
+ anymore
+ for
+ but
+ also
+ we
+ don't
+
+
+want
+ the
+ human
+ to
+ sit
+ in
+ the
+ loop
+ every
+
+
+time
+ that
+ the
+ model
+ has
+ to
+ to
+ get
+ better
+
+
+and
+ and
+ I
+ think
+ that's
+ basically
+ on
+ on
+
+
+the
+ um
+ on
+ the
+ development
+ side.
+ So
+ it's
+
+
+not
+ radically
+ new
+ it's
+ the
+ same
+ story
+
+
+just
+ a
+ new
+ chapter
+ of
+ the
+ same
+ story
+ and
+
+
+I
+ think
+ every
+ time
+ that
+ we
+ removed
+ human
+
+
+from
+ uh
+ like
+ human
+ judgment
+ from
+ this
+
+
+process
+ we
+ kind
+ of
+ got
+ over
+ a
+ bottleneck
+
+
+I
+ would
+ say
+ like
+ this
+ self-improvement
+
+
+and
+ looping
+ over
+ the
+ development
+ is
+ kind
+
+
+of
+ like
+ doing
+ that
+ at
+ the
+ highest
+ level
+
+
+which
+ is
+ basically
+ improving
+ these
+
+
+models.
+ If
+ you
+ want
+ to
+ go
+ to
+ more
+
+
+detailed
+ uh
+ level
+ of
+ looping,
+ we
+ can
+ we
+
+
+can
+ talk
+ about
+ ways
+ of
+ increasing
+
+
+test
+ and
+ compute
+ for
+ these
+ models
+ and
+
+
+how
+ we
+ let
+ these
+ models
+ to
+ loop
+ over
+
+
+their
+ process
+ within
+ a
+ specific
+ problem
+
+
+to
+ to
+ refine
+ it
+ to
+ to
+ think
+ about
+ it
+ and
+
+
+uh
+ like
+ I
+ think
+ the
+ the
+ most
+ familiar
+
+
+form
+ is
+ just
+ like
+ chain
+ of
+ thought
+ and
+
+
+and
+ letting
+ the
+ model
+ to
+ think
+ with
+
+
+extra
+ tokens
+ that's
+ beyond
+ that
+ and
+ and
+
+
+you
+ can
+ think
+ about
+ different
+ ideas
+ is
+
+
+that
+ you
+ let
+ the
+ model
+ to
+ increase
+ the
+
+
+compute
+ for
+ for
+ any
+ specific
+ problems
+
+
+like
+ what
+ if
+ I
+ have
+ uh
+ like
+ dummy
+ tokens
+
+
+that
+ that
+ they
+ can
+ use
+ as
+ like
+ read
+ and
+
+
+rot
+ tape
+ to
+ kind
+ of
+ like
+ you
+ know
+
+
+reverify
+ what
+ I've
+ done
+ and
+ and
+ go
+
+
+through
+ the
+ the
+ the
+ solutions
+ or
+ the
+
+
+process
+ that
+ I'm
+ like
+ doing
+ over
+ over
+
+
+different
+ steps
+ uh
+ and
+ and
+ understand
+
+
+you
+ know
+ like
+ what
+ what
+ what
+ has
+ been
+
+
+done
+ growing
+ uh
+ what
+ has
+ to
+ be
+ done
+ next
+
+
+or
+ even
+ like
+ you
+ know
+ negative
+ sparity
+
+
+which
+ is
+ basically
+ re
+ reusing
+ part
+ of
+
+
+the
+ model
+ multiple
+ times
+ And
+ um
+ this
+
+
+sort
+ of
+ new
+ pink
+ is
+ also
+ like
+ been
+ shown
+
+
+to
+ be
+ super
+ super
+ helpful
+ uh
+ mostly
+
+
+because
+ you
+ just
+ let
+ the
+ model
+ to
+ to
+
+
+throw
+ more
+ compute
+ on
+ on
+ a
+ a
+ difficult
+
+
+problem.
+
+
+>> So
+ that's
+ self-improvement
+
+
+at
+ inference
+ time.
+ I
+ think
+ you
+ alluded
+
+
+to
+ earlier
+ there
+ is
+ um
+ also
+ a
+ bigger
+
+
+concept
+ that's
+ maybe
+ u
+ I
+ guess
+ more
+
+
+science
+ fiction
+ except
+ it
+ seems
+ to
+ be
+
+
+becoming
+ a
+ reality
+ very
+ quickly
+ which
+ is
+
+
+this
+ concept
+ of
+ um
+ recursive
+
+
+self-improvement
+ or
+ or
+ RSI
+ that
+ seems
+ to
+
+
+be
+ um
+ what
+ a
+ lot
+ of
+ people
+ are
+ talking
+
+
+about
+ I
+ think
+ is
+ coming
+ up
+ in
+ a
+ in
+ a
+ few
+
+
+weeks
+ and
+ there's
+ a
+ bunch
+ of
+ papers
+
+
+focused
+ on
+ that.
+ So
+ what
+ what
+ is
+ that
+
+
+what
+ is
+ recursive
+ self-improvement
+ as
+ a
+
+
+concept?
+ It's
+ actually
+ interesting
+
+
+because
+ you
+ you
+ referred
+ to
+ that
+ as
+
+
+something
+ that
+ like
+ looked
+ like
+ a
+ bit
+ of
+
+
+a
+ sci-fi
+ situation
+ where
+ these
+ models
+
+
+are
+ actually
+ improving
+ themselves
+ and
+
+
+and
+ that's
+ true
+ because
+ a
+ few
+ years
+ ago
+
+
+when
+ you
+ were
+ you
+ wanted
+ to
+ talk
+ about
+
+
+this
+ you
+ could
+ just
+ write
+ a
+ perspective
+
+
+paper
+ at
+ a
+ at
+ a
+ conference
+ and
+ and
+ like
+
+
+you
+ know
+ talk
+ about
+ it
+ at
+ super
+ high
+
+
+level
+ but
+ if
+ we
+ go
+ uh
+ and
+ and
+ check
+ out
+
+
+what
+ is
+ happening
+ right
+ now
+ like
+ to
+ a
+
+
+really
+ good
+ extent
+ happening
+ like
+ most
+
+
+of
+ the
+ the
+ the
+ like
+ and
+ and and
+ it's
+
+
+somehow
+ like
+ Most
+ of
+ the
+ people
+ don't
+
+
+realize
+ that
+ this
+ is
+ like
+ already
+ uh
+
+
+happening
+ especially
+ over
+ the
+ past
+ few
+
+
+months
+ in
+ almost
+ every
+ lab
+ u
+ the
+ new
+
+
+generation
+ of
+ the
+ models
+ are
+ built
+
+
+heavily
+ using
+ the
+ previous
+ generation
+ of
+
+
+the
+ models.
+ I
+ think
+ that's
+ basically
+
+
+like
+ like
+ the
+ case
+ again
+ everywhere.
+ Uh
+
+
+and
+ uh
+ it's
+ not
+ fully
+ automatic
+ yet.
+ Uh
+
+
+but
+ the
+ direction
+ is
+ like
+ super
+ clear
+
+
+and
+ it's
+ like
+ easy
+ to
+ imagine
+ that
+ you
+
+
+know
+ like
+ we're
+ going
+ to
+ get
+ to
+ a
+
+
+situation
+ with
+ full
+ automation.
+ These
+
+
+models
+ are
+ going
+ to
+ improve
+ themselves
+
+
+and
+ keep
+ learning
+ from
+ the
+ word
+ and
+
+
+again
+ it
+ has
+ like
+ relation
+ with
+ other
+
+
+concept
+ like
+ continual
+ learning
+ and
+
+
+other
+ other
+ concepts
+ that
+ we
+ are
+ um
+
+
+still
+ not
+ yet
+ to
+ to
+ the
+ to
+ the
+ most
+
+
+advanced
+ uh
+ like
+ point
+ of
+ it.
+ But
+ if
+
+
+someone
+ comes
+ and
+ say
+ that
+ oh
+ you
+ know
+
+
+uh
+ like
+ uh
+ I
+ I
+ have
+ an
+ idea
+ to
+ get
+ a
+
+
+model
+ to
+ calculate
+ the
+ gradient
+ and
+
+
+updates
+ it
+ weights
+ uh
+ like
+ on
+ the
+ fly
+ um
+
+
+it
+ it
+ just
+ feels
+ like
+ very
+ normal
+ you
+
+
+know
+ it's
+ not
+ something
+ that
+ wow
+ this
+ is
+
+
+like
+ such
+ an
+ amazing
+ idea.
+ I
+ think
+ what
+
+
+is
+ missing
+ right
+ now
+ is
+ uh
+ like
+ long
+
+
+horizon
+ and
+ full
+ automation
+ and
+ and
+
+
+we're
+ like
+ moving
+ to
+ that
+ direction
+ like
+
+
+super
+ super
+ fast.
+ the
+ moment
+ that
+ we
+
+
+have
+ this
+ full
+ automation
+ I
+ would
+ say
+ uh
+
+
+we
+ we
+ can
+ close
+ the
+ loop
+ of
+
+
+self-improvement
+ and
+ then
+ um
+ it
+ becomes
+
+
+the
+ like
+ you
+ know
+ the
+ problems
+ become
+
+
+like
+ you
+ know
+ mostly
+ providing
+ compute
+
+
+for
+ these
+ models
+ to
+ actually
+ do
+ what
+
+
+they
+ want
+ to
+ do
+ and
+ as
+ I
+ said
+ like
+
+
+earlier
+ comment
+ we
+ just
+ got
+ rid
+ of
+ the
+
+
+the
+ the
+ human
+ bottleneck
+ for
+ for
+
+
+improving
+ these
+ models
+ which
+ I
+ I
+ expect
+
+
+to
+ to
+ see
+ a
+ huge
+ jump
+ again
+ um
+ from
+ from
+
+
+such
+ development
+
+
+>> so
+ people
+ may
+ have
+ seen
+ or
+ heard
+ about
+
+
+kapathies
+ auto
+ research
+ project
+ a
+ few
+
+
+weeks
+ ago.
+ Is
+ that
+ an
+ example
+ presumably
+
+
+reasonably
+ narrow
+ to
+ make
+ it
+ work?
+ Is
+
+
+that
+ an
+ example
+ of
+ a
+ self
+ recursive
+
+
+loop?
+
+
+>> That
+ is
+ definitely
+ and
+ uh
+ I
+ think
+ that
+
+
+was
+ one
+ of
+ the
+ early
+ examples
+ of
+ uh
+ like
+
+
+seeing
+ these
+ models
+ actually
+ doing
+
+
+something
+ super
+ sensible
+ on
+ the
+ research
+
+
+side.
+ So
+ we've
+ been
+ seeing
+ them
+ like
+
+
+doing
+ a
+ lot
+ of
+ good
+ work
+ on
+ improving
+
+
+the
+ engineering
+ part
+ of
+ the
+ development
+
+
+loop.
+ uh
+ but
+ on
+ the
+ research
+ side
+ which
+
+
+like
+ you
+ know
+ you
+ think
+ about
+ okay
+ know
+
+
+maybe
+ some
+ sort
+ of
+ you
+ know
+ gut
+ feeling
+
+
+or
+ intuition
+ is
+ needed
+ and
+ like
+ a
+
+
+researcher
+ with
+ a
+ like
+ a
+ long
+ time
+ of
+
+
+like
+ you
+ know
+ playing
+ with
+ these
+ models
+
+
+and
+ experience
+ can
+ do
+ this
+ but
+ but
+ not
+
+
+necessarily
+ you
+ know
+ like
+ a
+ model
+ uh
+ I
+
+
+think
+ we've
+ seen
+ the
+ sign
+ that
+ okay
+ you
+
+
+know
+ maybe
+ that
+ basically
+ that
+ kind
+ of
+
+
+like
+ golden
+ um
+ part
+ of
+ the
+ recipe
+ a
+
+
+successful
+ recipe
+ that
+ mostly
+ coming
+
+
+from
+ um
+ like
+ um
+ intuition
+ of
+ a
+ good
+
+
+researcher
+ is
+ coming
+ to
+ to
+ kind
+ of
+ these
+
+
+development
+ loops
+ by
+ by
+ these
+ models
+ and
+
+
+it's
+ a
+ bit
+ hard
+ to
+ think
+ about
+ okay
+ you
+
+
+know
+ does
+ it
+ mean
+ that
+ we
+ can
+ replace
+
+
+like
+ every
+ genius
+ researcher
+ with
+ these
+
+
+bottles
+ like
+ like
+ very
+ soon
+ uh
+ maybe
+ and
+
+
+I
+ don't
+ know
+ like
+ how
+ how
+ soon
+ but
+ this
+
+
+this
+ is
+ definitely
+ a
+ sign
+ of
+ u
+ something
+
+
+that
+ we
+ we
+ kind
+ of
+ doubted
+ like
+ you
+ know
+
+
+a
+ few
+ years
+ ago
+ you
+ know
+ we
+ couldn't
+
+
+believe
+ that
+ wow
+ this
+ is
+ going
+ to
+ happen
+
+
+that
+ early
+ uh
+ which
+ is
+ very
+ exciting
+
+
+>> I
+ want
+ to
+ play
+ it
+ back
+ just
+ to
+ make
+ sure
+
+
+that
+ people
+ listening
+ to
+ this
+ understand
+
+
+we're
+ talking
+ about
+ AI
+ building
+ AI
+ and
+ I
+
+
+think
+ a
+ few
+ months
+ ago
+ if
+ you
+ talk
+ to
+
+
+researchers
+ people
+ would
+ say
+ oh
+ yeah
+ we
+
+
+already
+ use
+ AI
+ to
+ build
+ AI
+ but
+ that
+
+
+really
+ meant
+ that
+ we
+ use
+ AI
+ tools
+ and
+
+
+and
+ and
+ reasoning
+ models
+ to
+ come
+ up
+ with
+
+
+ideas
+ and
+ and
+ thoughts
+ about
+ building
+
+
+models
+ but
+ here
+ what
+ we're
+ talking
+ about
+
+
+is
+ is
+ AI
+ automatically
+ updating
+ itself
+
+
+updating
+ its
+ weights
+ in
+ a
+ recursive
+
+
+manner
+ leading
+ to
+ potentially
+ a
+ dramatic
+
+
+acceleration
+ in
+ progress
+ and
+ But
+ what
+
+
+you're
+ saying
+ is
+ that
+ uh
+ this
+ is
+ largely
+
+
+upon
+ us
+ and
+ a
+ question
+ of
+ longer
+ horizon
+
+
+and
+ basically
+ more
+ more
+ compute.
+ Is
+ that
+
+
+fair?
+
+
+>> I
+ think
+ so.
+ Like
+ this
+ is
+ one
+ and
+ the
+
+
+other
+ one
+ is
+ also
+ I'm
+ not
+ going
+ to
+ say
+
+
+that
+ oh
+ you
+ know
+ um
+ soon
+ we're
+ going
+ to
+
+
+have
+ these
+ models
+ like
+ fully
+ automated
+
+
+and
+ there
+ are
+ actually
+ many
+ problems
+
+
+that
+ we
+ have
+ to
+ solve.
+ Uh
+ but
+
+
+directionally
+ I
+ can
+ see
+ how
+ this
+ can
+
+
+happen.
+ You
+ know
+ like
+ uh
+ like
+ it's
+ not
+
+
+something
+ that
+ I
+ would
+ look
+ at
+ it
+ as
+
+
+like
+ super
+ hard.
+ It's
+ like
+ hard
+ but
+ but
+
+
+very
+ possible.
+
+
+>> Okay.
+ So
+ what
+ what
+ are
+ the
+ roadblocks?
+
+
+So
+ so
+ you
+ talked
+ about
+ compute
+ is
+
+
+evaluation
+ one
+ of
+ them
+ because
+
+
+presumably
+ the
+ model
+ needs
+ to
+ understand
+
+
+what
+ is
+ right
+ and
+ what
+ is
+ wrong
+ in
+ terms
+
+
+of
+ the
+ quality
+ of
+ the
+ of
+ the
+ answer.
+ Is
+
+
+that
+ one
+ of
+ the
+ issues?
+
+
+>> 100%.
+ At
+ the
+ end
+ of
+ the
+ day
+ you
+ can
+ only
+
+
+improve
+ what
+ you
+ can
+ measure
+ right
+ and
+
+
+then
+ u
+ getting
+ evaluation
+ is
+ uh
+ like
+
+
+just
+ hard
+ and
+ um
+ and
+ at
+ the
+ end
+ of
+ the
+
+
+day
+ it
+ becomes
+ almost
+ a
+ philosophical
+
+
+problem
+ not
+ just
+ a
+ technical
+ one.
+ Like
+
+
+this
+ is
+ actually
+ a
+ very
+ interesting
+
+
+observation.
+ So
+ if
+ you
+ have
+ a
+ a
+ like
+ a
+
+
+team
+ of
+ super
+ competent
+ people,
+ most
+ of
+
+
+the
+ time
+ they
+ can
+ do
+ like
+ massive
+
+
+progress
+ on
+ a
+ problem
+ if
+ there
+ is
+ some
+
+
+concrete
+ eval
+ to
+ heal
+ climate.
+ But
+ if
+
+
+there's
+ no
+ evout,
+ it's
+ just
+ like
+ really
+
+
+hard
+ to
+ to
+ make
+ progress.
+ and
+ uh
+ and
+ the
+
+
+fact
+ that
+ we
+ don't
+ have
+ uh
+ evouts
+ that
+
+
+like
+ or
+ or
+ like
+ even
+ defining
+ evouts
+
+
+that
+ that
+ can
+ maybe
+ measure
+ oh
+ you
+ know
+
+
+how
+ close
+ we
+ are
+ to
+ the
+ point
+ that
+ we
+
+
+can
+ actually
+ get
+ get
+ a
+ self-improvement
+
+
+look.
+ It's
+ just
+ like
+ we
+ don't
+ we
+ don't
+
+
+have
+ that
+ and
+ and
+ it's
+ just
+ making
+ it
+
+
+like
+ much
+ harder
+ to
+ uh
+ to
+ to
+ measure
+ the
+
+
+the
+ progress
+ in
+ that
+ direction.
+ Well,
+
+
+there
+ are
+ proxies
+ and
+ there
+ are
+
+
+definitely
+ some
+ evals
+ that
+ you
+ know
+ like
+
+
+we're
+ going
+ from
+ uh
+ oh
+ maybe
+ we
+ can
+
+
+evaluate
+ like
+ every
+ a
+ step
+ of
+ the
+ model
+
+
+toward
+ this
+ direction
+ and
+ maybe
+ maybe
+ we
+
+
+can
+ evaluate
+ up
+ to
+ this
+ many
+ turns
+ of
+
+
+the
+ model
+ or
+ maybe
+ we
+ can
+ evaluate
+ the
+
+
+model
+ helping
+ itself
+ to
+ improve
+ in
+ a
+
+
+specific
+ framework
+ and
+ in
+ this
+ specific
+
+
+setup
+ and
+ and
+ this
+ part
+ of
+ the
+ the
+ like
+
+
+the
+ machine
+ learning
+ that
+ needs
+ uh
+ like
+
+
+iteration.
+ It's
+ also
+ quite
+ interesting
+
+
+because
+ the
+ difficulty
+ of
+ building
+ eval
+
+
+is
+ um
+ um
+ like
+ the
+ infrastructure
+ that
+
+
+you
+ need
+ to
+ reliably
+ runs
+ that
+ are
+ super
+
+
+complicated
+ is
+ also
+ like
+ super
+ it's
+
+
+quite
+ funny
+ but
+ sometimes
+ um
+ figuring
+
+
+out
+ that
+ okay
+ how
+ can
+ I
+ uh
+ create
+ an
+
+
+environment
+ for
+ a
+ model
+ that
+ operates
+
+
+safely
+ in
+ in
+ like
+ within
+ Google
+ right
+ uh
+
+
+and
+ and
+ does
+ all
+ the
+ jobs
+ that
+ NRE
+ and
+
+
+and
+ and
+ and and
+ like
+ RA
+ like
+ research
+
+
+engineer
+ or
+ or
+ research
+ scientist
+ can
+ do
+
+
+like
+ in
+ a
+ safe
+ setup
+ you
+ know
+ where
+ they
+
+
+can
+ like
+ because
+ right
+ now
+ we
+ definitely
+
+
+we
+ don't
+ we're
+ not
+ confident
+ about
+ you
+
+
+know
+ them
+ doing
+ the
+ right
+ things
+ all
+ the
+
+
+time
+ and
+ measuring
+ like
+ how
+ much
+ they
+
+
+can
+ push
+ and
+ and
+ how
+ long
+ they
+ can
+ push
+
+
+a
+ task
+ is
+ very
+ difficult
+ and
+ um
+ like
+
+
+connecting
+ all
+ these
+ points
+ into
+ an
+
+
+environment
+ that
+ these
+ models
+ are
+
+
+operating
+ and
+ then
+ get
+ them
+ run
+
+
+efficiently
+ and
+ and
+ like
+ bringing
+
+
+diversity
+ to
+ EVA
+ is
+ definitely
+ one
+ of
+
+
+the
+ bottlenecks
+ of
+ of
+ like
+ making
+
+
+progress
+ in
+ this
+ direction.
+
+
+>> A
+ couple
+ of
+ weeks
+ ago,
+ we
+ had
+ a
+ fun
+
+
+conversation
+ with
+ Karina
+ Hong
+ of
+ Axium
+
+
+Math
+ and
+ we
+ talked
+ about
+ formal
+
+
+verification.
+ Is
+ that
+ a
+ promising
+ area
+
+
+from
+ your
+ perspective?
+ Is
+ something
+ like
+
+
+formal
+ verification
+ what
+ would
+ enable
+
+
+you
+ to
+ make
+ sure
+ that
+ the
+ you
+ know
+ the
+
+
+improvement
+ loop
+ keeps
+ continuing?
+ In
+ my
+
+
+opinion,
+ formal
+ verification
+ is
+ uh
+ one
+
+
+of
+ the
+ most
+ powerful
+ uh
+ like
+ keys
+ to
+ to
+
+
+to
+ enable
+ like
+ self-improvement,
+ but
+
+
+it's
+ not
+ B
+ key.
+ And
+ if
+ you
+ think
+ about
+
+
+it
+ like
+ for
+ mass
+ code
+ logics,
+ um
+ it's
+
+
+great.
+ You
+ can
+ you
+ can
+ run
+ a
+ proof
+
+
+either
+ it
+ checks
+ out
+ or
+ not.
+ If
+ you
+ go
+
+
+to
+ other
+ domains
+ that
+ are
+ a
+ little
+ bit
+
+
+messier,
+ uh
+ like
+ for
+ example,
+ you
+ cannot
+
+
+write
+ a
+ formal
+ proof
+ that
+ if
+ the
+
+
+doctor's
+ recommendation
+ is
+ good,
+ right?
+
+
+Like
+ so
+ so
+ it's
+ not
+ hard.
+ It's
+ not
+ easy
+
+
+to
+ to
+ have
+ like
+ to
+ extend
+ this
+ formal
+
+
+verification
+ to
+ all
+ the
+ domains
+ uh
+ in
+
+
+real
+ world.
+ But
+ one
+ question
+ that
+ is
+
+
+actually
+ an
+ interesting
+ question
+ which
+
+
+is
+ uh
+ like
+ uh
+ very
+ relevant
+ to
+ formal
+
+
+verification
+ is
+ how
+ can
+ we
+ uh
+ look
+ at
+
+
+these
+ methods
+ and
+ and
+ like
+ formal
+
+
+verification
+ and
+ build
+ that
+ kind
+ of
+
+
+tight
+ and
+ honest
+ feedback
+ loop
+ for
+ the
+
+
+messy
+ part
+ of
+ the
+ world.
+ I
+ think
+ that
+
+
+that's
+ like
+ very
+ inspiring
+ to
+ to
+ build
+
+
+like
+ like
+ on
+ top
+ of
+ these
+ like
+ formal
+
+
+verification
+ methods
+ to
+ to
+ extend
+ to
+
+
+domains
+ that
+ like
+ not
+ easy
+ to
+ verify
+
+
+easily.
+ Uh
+ uh
+ but
+ uh
+ but
+ but
+ you
+ need
+
+
+some
+ sort
+ of
+ clean
+ and
+ tight
+ feedback
+
+
+loop
+ to
+ be
+ able
+ to
+ make
+ progress.
+
+
+>> So
+ the
+ same
+ problem
+ as
+ reinforcement
+
+
+learning
+ right
+ like
+ the
+ second
+ you
+ start
+
+
+veering
+ away
+ from
+ math
+ and
+ code
+ uh
+ you
+
+
+start
+ getting
+ into
+ like
+ very
+ messy
+
+
+territory.
+ Is
+ model
+ collapse
+ uh
+ one
+ of
+
+
+the
+ issues
+ to
+ think
+ about
+ or
+ is
+ that
+
+
+orthogonal?
+ model
+ collapse
+ is
+ definitely
+
+
+a
+ risk
+ right
+ and
+ um
+ I
+ would
+ say
+ model
+
+
+collapse
+ mainly
+ happens
+ when
+ you
+ have
+ a
+
+
+loop
+ that
+ is
+ completely
+ closed
+ right
+ and
+
+
+um
+ if
+ you
+ don't
+ have
+ any
+ outside
+ signal
+
+
+and
+ just
+ the
+ model
+ for
+ example
+ talking
+
+
+to
+ itself
+ or
+ or
+ operating
+ in
+ a
+ in
+ a
+ very
+
+
+uh
+ like
+ a
+ like
+ a
+ restricted
+ environment
+
+
+u
+ there's
+ a
+ good
+ chance
+ that
+ your
+ mobile
+
+
+call
+ access
+ but
+ uh
+ but
+ if
+ you
+ have
+ a
+
+
+strong
+ verifier
+ or
+ some
+ sort
+ of
+ like
+ a
+
+
+real
+ reward
+ signal
+ that
+ anchor
+ this
+ this
+
+
+kind
+ of
+ like
+ um
+ like
+ signals
+ that
+ is
+
+
+coming
+ from
+ like
+ AI
+ generated
+ data
+ for
+
+
+example
+ it
+ can
+ be
+ quite
+ powerful.
+ I
+
+
+think
+ like
+ the
+ key
+ here
+ is
+ to
+ stay
+ in
+
+
+grounded
+ uh
+ uh
+ to
+ to
+ something
+ real
+ and
+
+
+then
+ you
+ can
+ most
+ likely
+ avoid
+ like
+ you
+
+
+know
+ things
+ like
+ model
+ collapse
+ and
+ um
+ I
+
+
+but
+ yeah
+ I
+ mean
+ again
+ it's
+ it's
+ a
+ risk
+
+
+but
+ it's
+ not
+ definitely
+ like
+ a
+ major
+
+
+rocket
+
+
+>> and
+ perhaps
+ to
+ make
+ this
+ accessible
+ to
+
+
+to
+ everyone
+ can
+ you
+ define
+ what
+ model
+
+
+collapse
+ is
+ in
+ the
+ first
+ place?
+ So
+
+
+basically
+ when
+ you
+ have
+ some
+ sort
+ of
+
+
+like
+ data
+ and
+ environment
+ that
+ these
+
+
+models
+ are
+ interacting
+ with
+ but
+ those
+
+
+environments
+ and
+ and
+ data
+ are
+ are
+
+
+designed
+ for
+ example
+ by
+ another
+ model
+
+
+like
+ like
+ this
+ is
+ just
+ an
+ example
+ of
+
+
+that
+ right
+ and
+ then
+ you
+ become
+ really
+
+
+really
+ good
+ at
+ this
+ specific
+ part
+ and
+
+
+then
+ suddenly
+ you
+ lose
+ generalization
+ to
+
+
+anything
+ beyond
+ that
+ and
+ this
+ is
+ like
+
+
+one
+ of
+ the
+ kind
+ of
+ like
+ definition
+ or
+
+
+one
+ of
+ the
+ cases
+ that
+ that
+ like
+ like
+ a
+
+
+model
+ collapsing
+ uh
+ would
+ result
+ to.
+ So
+
+
+you
+ mentioned
+ losing
+ generalization.
+ Is
+
+
+that
+ is
+ that
+ particularly
+ in
+ the
+ concept
+
+
+of
+ RSI
+ a
+ uh
+ worry
+ that
+ either
+ you
+ have
+
+
+those
+ self-reinforcing
+ loops
+ but
+ they
+
+
+need
+ to
+ be
+ fairly
+ narrow
+ or
+ you
+ have
+
+
+more
+ general
+ models
+ but
+ then
+ you
+ kind
+ of
+
+
+have
+ the
+ loops.
+
+
+>> This
+ is
+ an
+ interesting
+ question
+ again
+
+
+like
+ you
+ know
+ generalization
+ versus
+ uh
+
+
+specialization.
+ Let
+ me
+ go
+ a
+ few
+ steps
+
+
+back.
+ We
+ had
+ this
+ discussion
+ like
+ like
+
+
+many
+ many
+ times.
+ How
+ should
+ we
+ do
+ a
+
+
+trade-off
+ between
+ generalization
+ and
+
+
+specialization
+ when
+ we
+ are
+ developing
+
+
+these
+ models?
+ I
+ think
+ long
+ term
+ you
+ want
+
+
+a
+ model
+ that
+ knows
+ everything
+ and
+ knows
+
+
+when
+ to
+ go
+ deep
+ versus
+ wide,
+ right?
+
+
+Imagine
+ like
+ you
+ have
+ an
+ agentic
+ actor,
+
+
+right?
+ Like
+ if
+ if
+ you
+ an
+ agentic
+ coder,
+
+
+if
+ your
+ agent
+ is
+ like
+ super
+ strong
+ at
+
+
+every
+ step
+ of
+ operation,
+ like
+ a
+ really
+
+
+really
+ good
+ program.
+ It's
+ amazing,
+ you
+
+
+know,
+ like
+ it's
+ like
+ super
+ specialized.
+
+
+But
+ for
+ many
+ of
+ the
+ problems
+ like
+ coding
+
+
+problems
+ you
+ need
+ some
+ sort
+ of
+ planning
+
+
+and
+ understanding
+ what's
+ going
+ on
+ and
+
+
+collecting
+ information
+ and
+ and
+ like
+ you
+
+
+know
+ based
+ on
+ the
+ context
+ deciding
+ what
+
+
+you
+ do
+ and
+ then
+ after
+ you
+ define
+ the
+
+
+steps
+ then
+ your
+ like
+ super
+ strong
+ joint
+
+
+specialization
+ just
+ kicks
+ in
+ and
+ and
+
+
+before
+ that
+ like
+ being
+ a
+ generalist
+ is
+
+
+is
+ like
+ super
+ useful.
+ Definitely
+
+
+generalization
+ is
+ is
+ like
+ one
+ of
+ the
+
+
+things
+ that
+ u
+ like
+ you
+ need
+ to
+ get
+ to
+
+
+the
+ ultimate
+ side
+ of
+ AGI.
+ Uh
+ but
+ short
+
+
+term
+ um
+ I
+ would
+ say
+ like
+ building
+ a
+
+
+specialist
+ model
+ is
+ like
+ probably
+ the
+
+
+fastest
+ way
+ to
+ learn
+ like
+ what
+ is
+
+
+actually
+ possible
+ and
+ um
+ in
+ in
+ many
+
+
+cases
+ these
+ like
+ specialized
+ model
+ are
+
+
+becoming
+ a
+ stepping
+ stone
+ toward
+ a
+
+
+generalist
+ model
+ which
+ which
+ is
+ like
+
+
+super
+ valuable
+ right
+ so
+ so
+ you
+ can
+
+
+imagine
+ that
+ oh
+ you
+ know
+ if
+ I'm
+ actually
+
+
+thinking
+ about
+ self-improvement
+
+
+uh
+ maybe
+ I
+ I
+ need
+ to
+ make
+ sure
+ that
+ you
+
+
+know
+ in
+ a
+ very
+ specific
+ area
+ I
+ can
+ I
+ can
+
+
+build
+ that
+ maybe
+ you
+ know
+ like
+ I
+ I
+ focus
+
+
+encoding
+ and
+ then
+ if
+ it
+ works
+ out
+ then
+ I
+
+
+I
+ go
+ through
+ like
+ you
+ know
+ how
+ to
+ widen
+
+
+that
+ and
+ how
+ to
+ bring
+ more
+ into
+ into
+
+
+this
+ specialized
+ setup.
+ One
+ thing
+ that
+ I
+
+
+always
+ like
+ say
+ is
+ that
+ people
+ don't
+
+
+care
+ what
+ category
+ their
+ problem
+ falls
+
+
+into,
+ right?
+ And
+ and
+ if
+ a
+ human
+ calls
+
+
+like
+ something
+ a
+ problem,
+ then
+ AI
+ should
+
+
+be
+ able
+ to
+ solve
+ it.
+ And
+ I
+ think
+ that's
+
+
+like
+ fundamentally
+ a
+ generalist
+ need,
+
+
+right?
+ So
+ at
+ the
+ end
+ of
+ the
+ day
+ you
+ need
+
+
+generalization
+ and
+ um
+ like
+ uh
+ like
+
+
+playing
+ this
+ like
+ like
+ going
+ through
+
+
+this
+ spectrum
+ of
+ you
+ know
+ like
+ super
+
+
+generalized
+ model
+ and
+ super
+ specialized
+
+
+model
+ is
+ more
+ about
+ you
+ know
+ like
+ a
+
+
+long-term
+ short
+ term
+ and
+ how
+ to
+ take
+
+
+advantage
+ of
+ each
+ side
+ uh
+ uh
+ during
+ this
+
+
+process.
+
+
+>> What's
+ a
+ specialized
+ model
+ today?
+ Is
+
+
+that
+ a
+ separate
+ model
+ or
+ is
+ that
+ a
+ broad
+
+
+general
+ model
+ that's
+ trained
+ in
+ a
+
+
+specific
+ way
+ including
+ in
+ particular
+
+
+through
+ through
+ RL?
+
+
+>> Okay,
+ so
+ here's
+ here's
+ the
+ point.
+ We
+
+
+used
+ to
+ have
+ constraint
+ like
+ compute
+ uh
+
+
+and
+ then
+ if
+ you
+ wanted
+ to
+ push
+ a
+ model
+
+
+um
+ to
+ be
+ like
+ so
+ we
+ would
+ choose
+
+
+specific
+ dimensions
+ and
+ then
+ we
+ say
+ that
+
+
+okay
+ you
+ know
+ we
+ we
+ want
+ to
+ kind
+ of
+ like
+
+
+allocate
+ the
+ compute
+ that
+ we
+ have
+ to
+
+
+that
+ and
+ then
+ make
+ this
+ model
+ really
+
+
+good
+ at
+ this
+ like
+ you
+ know
+ something
+
+
+that
+ is
+ like
+ extremely
+ expert
+ at
+ this.
+
+
+So
+ that
+ was
+ like
+ basically
+ the
+ trade-off
+
+
+that
+ we
+ were
+ we
+ were
+ um
+ like
+ trying
+ to
+
+
+to
+ make
+ given
+ the
+ compute
+ budget
+ that
+ we
+
+
+have
+ as
+ we
+ as
+ we
+ go
+ through
+ this
+ like
+
+
+like
+ the
+ the
+ phase
+ of
+ compute
+ becoming
+
+
+like
+ you
+ know
+ more
+ available
+ like
+
+
+cheaper
+ and
+ then
+ you
+ know
+ like
+ maybe
+
+
+we're
+ constraint
+ with
+ other
+ stuff
+ like
+
+
+data
+ and
+ stuff.
+ One
+ of
+ the
+ other
+
+
+trade-offs
+ that
+ pops
+ up
+ is
+ especially
+ in
+
+
+post
+ training
+ like
+ you
+ know
+ this
+ game
+ of
+
+
+evacuable
+ that
+ sometimes
+ it's
+ like
+
+
+really
+ hard
+ to
+ get
+ your
+ model
+ to
+ be
+ good
+
+
+uh
+ across
+ the
+ boards.
+ So
+ you
+ try
+ to
+ kind
+
+
+of
+ like
+ make
+ it
+ good
+ at
+ like
+ something
+
+
+like
+ you
+ know
+ multimodality
+ somehow
+ you
+
+
+see
+ some
+ regression
+ on
+ you
+ know
+ the
+
+
+coding
+ and
+ and
+ you
+ make
+ it
+ like
+ good
+ at
+
+
+like
+ coding
+ and
+ multimodality
+ it
+ becomes
+
+
+a
+ little
+ slightly
+ worse
+ than
+ than
+ a
+
+
+model
+ that
+ you
+ had
+ like
+ you
+ know
+ at
+ like
+
+
+math
+ and
+ reason.
+ So,
+ so
+ it's
+ hard
+ to
+ to
+
+
+kind
+ of
+ find
+ a
+ balance
+ and
+ and
+ part
+ of
+
+
+it
+ is
+ because
+ post-
+ training
+ does
+ a
+
+
+little
+ bit
+ of
+ a
+ like
+ a
+ overfitting
+ you
+
+
+know
+ like
+ like
+ at
+ the
+ end
+ of
+ the
+ day
+
+
+when
+ you
+ post
+ train
+ the
+ model
+ you
+ are
+
+
+trying
+ to
+ overfeit
+ it
+ to
+ the
+ best
+ local
+
+
+optima
+ you
+ have
+ when
+ recipe
+ becomes
+ um
+
+
+like
+ how
+ can
+ I
+ find
+ the
+ best
+ local
+
+
+optima
+ it
+ becomes
+ the
+ problem
+ of
+ okay
+
+
+there's
+ no
+ local
+ optima
+ that
+ is
+ good
+ for
+
+
+everything
+ so
+ I
+ need
+ to
+ kind
+ of
+ choose
+
+
+right
+ and
+ then
+ uh
+ like
+ seeing
+ this
+ you
+
+
+end
+ up
+ with
+ like
+ making
+ some
+ decisions
+
+
+along
+ the
+ way
+ and
+ saying
+ that
+ okay
+ you
+
+
+know
+ maybe
+ for
+ me
+ at
+ this
+ stage
+ because
+
+
+of
+ the
+ meat
+ that
+ I
+ have
+ in
+ in
+ my
+
+
+organization
+ like
+ with
+ respect
+ to
+ the
+
+
+competition
+ that
+ is
+ going
+ on
+ u
+ I
+ need
+ to
+
+
+choose
+ you
+ know
+ this
+ specific
+ access
+
+
+like
+ you
+ know
+ for
+ example
+ some
+ companies
+
+
+have
+ like
+ a
+ very
+ strong
+ focus
+ on
+ coding
+
+
+which
+ is
+ okay
+ you
+ know
+ I
+ I
+ make
+ my
+ job
+
+
+like
+ super
+ easy
+ you
+ know
+ like
+ or
+ or
+ not
+
+
+super
+ easy
+ but
+ like
+ much
+ easier
+ than
+
+
+than
+ the
+ competitors
+ that
+ they
+ want
+ to
+
+
+basically
+ shoot
+ a
+ model
+ that
+ is
+ good
+
+
+across
+ the
+ board
+ I
+ think
+ short
+ term
+ it's
+
+
+like
+ very
+ very
+ effective
+ because
+ uh
+
+
+first
+ of
+ all
+ during
+ development
+ you
+ care
+
+
+less
+ about
+ you
+ know
+ like
+ all
+ the
+
+
+dimensions
+ so
+ maybe
+ it's
+ just
+ faster
+ to
+
+
+be
+ trade
+ like
+ you
+ you
+ kind
+ of
+ free
+ up
+
+
+some
+ space
+ from
+ the
+ mind
+ of
+ your
+
+
+researchers
+ and
+ engineers
+ that
+ okay
+ you
+
+
+know
+ like
+ forget
+ about
+ this
+ just
+ let's
+
+
+push
+ this
+ to
+ the
+ max
+ and
+ then
+ the
+ other
+
+
+one
+ is
+ also
+ like
+ you
+ don't
+ hit
+ the
+ the
+
+
+trade-off
+ like
+ immediately
+ and
+
+
+specialist
+ model
+ is
+ that
+ like
+ okay
+ you
+
+
+know
+ I'm
+ going
+ to
+ pick
+ this
+ specific
+
+
+axis
+ and
+ then
+ make
+ the
+ model
+ look
+ really
+
+
+really
+ good
+ at
+ this
+ sometimes
+ again
+ like
+
+
+this
+ this
+ is
+ the
+ decision
+ based
+ on
+ um
+
+
+the
+ place
+ that
+ you
+ are
+ at
+ you
+ know
+ again
+
+
+like
+ organizationally
+ like
+ competitors
+
+
+like
+ and
+ stuff
+ like
+ that.
+
+
+>> Great.
+ You
+ said
+ something
+ um
+ a
+ few
+
+
+minutes
+ ago
+ that
+ I
+ thought
+ was
+ so
+
+
+intriguing
+ which
+ is
+ this
+ idea
+ that
+ the
+
+
+carpathies
+ of
+ the
+ world
+ and
+ and
+ and
+ and
+
+
+you
+ of
+ the
+ world
+ could
+ be
+ automated.
+
+
+What
+ happens
+ if
+ like
+ the
+ brightest
+ minds
+
+
+in
+ the
+ world
+ get
+ automated
+ and
+ the
+ and
+
+
+the
+ AI
+ creates
+ itself?
+ Like
+ at
+ at
+ some
+
+
+point
+ is
+ there
+ just
+ no
+ one
+ knows
+ how
+ the
+
+
+AI
+ works.
+ Is
+ that
+ is
+ that
+ an
+ actual
+
+
+possible
+ future?
+
+
+>> This
+ patch
+ is
+ very
+ philosophical.
+ I
+
+
+don't
+ know.
+ Let
+ me
+ let
+ me
+ give
+ you
+ one
+
+
+uh
+ quick
+ things
+ that
+ I
+ I
+ thought
+ about
+
+
+it
+ a
+ few
+ a
+ few
+ days
+ ago.
+ I
+ have
+ a
+
+
+daughter.
+ She's
+ like
+ one
+ and
+ a
+ half
+
+
+years
+ old.
+ I've
+ been
+ impressed
+ over
+ the
+
+
+past
+ few
+ years.
+ Like
+ very
+ interestingly
+
+
+like
+ I've
+ been
+ proven
+ wrong
+ multiple
+
+
+times
+ about
+ like
+ the
+ the
+ the
+ timeline
+
+
+that
+ I
+ had
+ in
+ mind.
+ For example,
+
+
+sometimes
+ I
+ say
+ like
+ oh
+ this
+ is
+ going
+ to
+
+
+happen
+ in
+ 6
+ months.
+ Never
+ happened.
+
+
+sometimes
+ like
+ oh
+ this
+ is
+ just
+ like
+ so
+
+
+hard
+ like
+ within
+ the
+ next
+ 10
+ years
+
+
+there's
+ absolutely
+ no
+ chance
+ to
+ solve
+ it
+
+
+and
+ then
+ boom
+ like
+ in
+ two
+ months
+ 3
+
+
+months
+ someone
+ had
+ a
+ brilliant
+ idea
+ and
+
+
+they
+ solved
+ it
+ so
+ so
+ it's
+ like
+ really
+
+
+hard
+ to
+ predict
+ the
+ future
+ and
+ I
+ was
+
+
+thinking
+ like
+ okay
+ you
+ know
+ like
+ so
+
+
+you're
+ talking
+ about
+ like
+ like
+ kipathy
+
+
+and
+ and
+ like
+ you
+ know
+ again
+ like
+ other
+
+
+researchers
+ but
+ I'm
+ thinking
+ about
+ okay
+
+
+like
+ what
+ about
+ the
+ next
+ generation
+ you
+
+
+know
+ if
+ if
+ like
+ my
+ daughter
+ at
+ some
+
+
+point
+ comes
+ to
+ me
+ and
+ asks
+ like
+ okay
+
+
+like
+ what
+ should
+ I
+ do
+ you
+ know
+ like
+ what
+
+
+do
+ you
+ recommend
+ to
+ study
+ like
+ what
+
+
+major
+ and
+ like
+ you
+ know
+ what
+ branch
+ of
+
+
+the
+ the
+ science
+ or
+ or
+ or
+ research
+ should
+
+
+I
+ kind
+ of
+ like,
+ you
+ know,
+ dig
+ in
+ and
+ and
+
+
+like
+ be
+ the
+ expert
+ on?
+ I
+ I
+ really
+ don't
+
+
+have
+ a
+ good
+ answer,
+ you
+ know,
+ like
+
+
+almost
+ it
+ doesn't
+ exist
+ and
+ and
+ it's
+
+
+just
+ like
+ really
+ hard
+ to
+ predict
+ the
+
+
+future.
+ What
+ I
+ know
+ is
+ there
+ are
+ a
+ few
+
+
+skills
+ that
+ are
+ probably
+ key
+ to
+ be
+ able
+
+
+to
+ uh
+ to
+ make
+ impact
+ in
+ this
+ world
+ and
+
+
+also
+ be
+ relevant
+ staying
+ relevant.
+ Like
+
+
+one
+ of
+ them
+ is
+ like
+ a
+ strategic
+ and
+ and
+
+
+having
+ all
+ the
+ parameters
+
+
+on
+ your
+ table
+ when
+ you're
+ making
+ a
+
+
+decision
+ and
+ and
+ becoming
+ absolute
+
+
+expert
+ about
+ a
+ a
+ very
+ specific
+ subject
+
+
+most
+ likely
+ is
+ not
+ going
+ to
+ be
+ useful
+ in
+
+
+in
+ in
+ like
+ like
+ the
+ near
+ future.
+ I
+ think
+
+
+like
+ you
+ know
+ the
+ brilliance
+ of
+ gap
+ I
+
+
+think
+ is
+ not
+ like
+ you
+ know
+ he's
+ a
+ good
+
+
+programmer
+ or
+ he's
+ a
+ good
+ definitely
+
+
+he's
+ a
+ good
+ teacher
+ you
+ know
+ but
+ but
+ I'm
+
+
+I'm
+ saying
+ like
+ you
+ know
+ these
+ are
+ not
+
+
+like
+ the
+ most
+ impressive
+ part
+ of
+ it
+ like
+
+
+the
+ most
+ impressive
+ part
+ for
+ me
+ is
+ that
+
+
+he
+ has
+ a
+ really
+ good
+ overall
+ view
+ of
+
+
+like
+ what
+ is
+ happening
+ like
+ by
+ putting
+
+
+himself
+ in
+ in
+ the
+ in
+ the
+ in
+ the
+ um
+ like
+
+
+the
+ the
+ stream
+ of
+ information
+ he
+ can
+
+
+make
+ a
+ decision
+ about
+ okay
+ what
+ is
+ the
+
+
+next
+ most
+ impactful
+ thing
+ to
+ do
+ and
+ now
+
+
+like
+ you
+ know
+ the
+ things
+ that
+ he
+ does
+ to
+
+
+make
+ impact
+ is
+ very
+ different
+ from
+ like
+
+
+you
+ know
+ the
+ things
+ that
+ he
+ used
+ to
+ do
+
+
+like
+ 5
+ years
+ ago
+ and
+ I
+ think
+ he
+ can
+ be
+
+
+able
+ to
+ do
+ that
+ like
+ continue
+ doing
+ that
+
+
+you
+ know
+ like
+ what
+ is
+ that
+ the
+ things
+
+
+that
+ he's
+ going
+ to
+ do
+ he's
+ going
+ to
+ be
+
+
+doing
+ like
+ in
+ like
+ in
+ 5
+ years
+ I
+ don't
+
+
+know
+ what
+ I
+ know
+ is
+ like
+ he's
+ smart
+
+
+enough
+ to
+ figure
+ it
+ out
+ and
+ and
+ still
+
+
+keep
+ making
+ impact
+ on
+ on
+ the
+ board
+
+
+>> so
+ AI
+ researchers
+ are
+ not
+ researching
+
+
+their
+ way
+ out
+ of
+ a
+ job
+ just
+ yet
+
+
+>> uh
+ hopefully
+ we
+ are
+ smart
+ enough
+ to
+ to
+
+
+do
+ that
+
+
+>> uh
+ all
+ right
+ Maybe
+ that's
+ more
+ of
+ a
+
+
+macro
+ question
+ as
+ I
+ think
+ about
+ um
+ you
+
+
+know
+ where
+ where
+ the
+ value
+ lands
+ in
+ this
+
+
+ecosystem
+ but
+ if
+ AI
+ just
+ keeps
+ creating
+
+
+itself
+ then
+ does
+ is
+ is
+ data
+ still
+ needed
+
+
+in
+ that
+ equation
+ or
+ is
+ that
+ all
+ compute
+
+
+>> concept
+ of
+ data
+ is
+ a
+ little
+ bit
+ like
+
+
+broader
+ than
+ just
+ like
+ you
+ know
+ tokens
+
+
+right
+ like
+ and
+ and
+ if
+ you
+ think
+ about
+
+
+data
+ as
+ um
+ whatever
+ that
+ the
+ model
+ can
+
+
+get
+ signal
+ from
+ either
+ it
+ is
+ like
+
+
+predicting
+ the
+ next
+ token
+ in
+ rock
+ hex
+
+
+which
+ we
+ kind
+ of
+ like
+ you
+ know
+ use
+ in
+
+
+print
+ training
+ or
+ super
+ complex
+
+
+environment
+ that
+ the
+ model
+ interacts
+
+
+with
+ and
+ then
+ get
+ signal.
+ Um
+ this
+ is
+
+
+something
+ that
+ basically
+ like
+ we
+ can
+ we
+
+
+can
+ like
+ refer
+ to
+ it
+ as
+ like
+ data
+ right
+
+
+and
+ it's
+ not
+ like
+ data
+ or
+ or
+ uh
+ like
+ the
+
+
+value
+ of
+ like
+ having
+ good
+ data
+ or
+
+
+working
+ on
+ data
+ is
+ going
+ to
+ disappear
+
+
+and
+ compute
+ is
+ going
+ to
+ become
+ like
+ the
+
+
+only
+ things
+ at
+ the
+ end
+ of
+ the
+ day.
+ I
+
+
+think
+ like
+ the
+ work
+ that
+ we're
+ doing
+ on
+
+
+the
+ data
+ side
+ most
+ likely
+ is
+ going
+ to
+
+
+shift
+ uh
+ toward
+ building
+ environments
+ or
+
+
+or
+ making
+ sure
+ that
+ these
+ models
+ can
+
+
+interact
+ with
+ with
+ physical
+ boards
+ and
+
+
+then
+ it
+ becomes
+ more
+ of
+ a
+ problem
+ of
+
+
+okay
+ how
+ can
+ I
+ like
+ provide
+ more
+
+
+grounding
+ for
+ these
+ models
+ they
+ are
+ good
+
+
+at
+ like
+ improving
+ themselves
+ but
+ as
+ long
+
+
+as
+ like
+ you
+ know
+ I
+ I
+ have
+ I
+ expose
+ them
+
+
+to
+ real
+ world
+ data
+ right
+ like
+ and
+ and
+
+
+like
+ you
+ know
+ real
+ world
+ environment
+ so
+
+
+so
+ providing
+ data
+ becomes
+ more
+ about
+
+
+okay
+ how
+ can
+ I
+ give
+ uh
+ access
+ to
+ this
+
+
+specific
+ um
+ like
+ model
+ to
+ something
+ that
+
+
+you
+ know
+ we
+ never
+ had
+ for
+ example
+ like
+
+
+again
+ like
+ something
+ came
+ to
+ my
+ mind
+
+
+which
+ is
+ like
+ again
+ like
+ a
+ little
+ bit
+
+
+sci-fi
+ but
+ how
+ can
+ I
+ make
+ like
+ smell
+
+
+accessible
+ to
+ these
+ models
+ you
+ know
+ like
+
+
+like
+ right
+ now
+ it
+ doesn't
+ like
+ there's
+
+
+no
+ good
+ way
+ but
+ then
+ data
+ becomes
+ like
+
+
+okay
+ you
+ know
+ like
+ information
+ or
+ or
+
+
+anything
+ that
+ is
+ for
+ us
+ because
+ of
+ all
+
+
+the
+ sensory
+ that
+ we
+ have
+ is
+ like
+ really
+
+
+easy
+ you
+ know
+ like
+ right
+ now
+ I'm
+ sitting
+
+
+here
+ I
+ know
+ how
+ hard
+ is
+ my
+ chair
+ what
+ is
+
+
+the
+ temperature
+ of
+ this
+ room
+ all
+ this
+
+
+sensor
+ information
+ is
+ something
+ that
+ is
+
+
+coming
+ to
+ me
+ and
+ then
+ I'm
+ like
+ the
+ next
+
+
+board
+ that
+ I'm
+ seeing
+ is
+ based
+ on
+ all
+
+
+this
+ input
+ right
+ and
+ then
+ providing
+ this
+
+
+or
+ a
+ model
+ that
+ does
+ self-improvement
+ is
+
+
+already
+ a
+ really
+ hard
+ problem
+ so
+ I
+ would
+
+
+say
+ that
+ the
+ the
+ work
+ on
+ the
+ data
+ would
+
+
+shift
+ toward
+ making
+ these
+ sensory
+
+
+information
+ more
+ available
+ to
+ these
+
+
+models
+ in
+ a
+ way
+ that
+ that
+ it
+ enables
+
+
+them
+ to
+ really
+ improve
+ themselves
+ given
+
+
+all
+ this
+ information
+ in
+ a
+ more
+ effective
+
+
+way
+
+
+>> yeah
+ interesting
+ yeah
+ there
+ seems
+ to
+ be
+
+
+a
+ big
+ trend
+ towards
+ sensors
+ as
+ a
+
+
+service.
+ We're
+ seeing
+ the
+ startups
+
+
+emerge
+ in
+ that
+ field.
+ Okay.
+ Super
+ super
+
+
+interesting.
+ Zooming
+ out
+ from
+
+
+self-improvement
+ for
+ for
+ uh
+ seconds.
+ The
+
+
+big
+ theme
+ of
+ the
+ last
+ year
+ has
+ been
+ uh
+
+
+the
+ um
+ acceleration
+ of
+ post
+ training
+ in
+
+
+addition
+ to
+ pre-training.
+ So
+ the
+ the
+
+
+whole
+ um
+ you
+ know
+ reinforcement
+ learning
+
+
+aspect
+ um
+ of
+ of
+ things.
+ Where
+ do
+ you
+
+
+expect
+ gains
+ to
+ come
+ from
+ in
+ the
+ next
+
+
+few
+ months
+ or
+ or
+ year?
+ Is
+ that
+ more
+ post
+
+
+training?
+ Is
+ that
+ more
+ pretending?
+ Is
+
+
+that
+ both?
+ Is
+ that
+ something
+ else?
+
+
+>> The
+ answer
+ to
+ this
+ question
+ really
+
+
+depends
+ on
+ when
+ you
+ actually
+ ask
+ this
+
+
+question.
+ And
+ like
+ it's
+ obvious
+ that
+
+
+like
+ you
+ know
+ we're
+ going
+ to
+ be
+ having
+ a
+
+
+bit
+ of
+ a
+ swing
+ back
+ and
+ forth
+ between
+
+
+pre-training
+ and
+ post-
+ training.
+ At
+ the
+
+
+end
+ of
+ the
+ day,
+ I
+ I
+ I
+ want
+ to
+ say
+ that,
+
+
+you
+ know,
+ pre-training
+ is
+ still
+ the
+
+
+foundation
+ and
+ like
+ you
+ can
+ never
+ post-
+
+
+train
+ your
+ way
+ out
+ of
+ a
+ veb
+ based
+ model,
+
+
+but
+ right
+ now
+ the
+ current
+ like
+ the
+
+
+return
+ on
+ post
+ training
+ is
+ really
+ strong
+
+
+and
+ I
+ started
+ working
+ on
+ post-
+ training
+
+
+myself
+ like
+ like
+ a
+ few
+ months
+ ago
+ like
+
+
+Gemini
+ post
+ training
+ uh
+ like
+ mostly
+
+
+coding
+ and
+ agentic.
+ I
+ can
+ see
+ how
+ a
+
+
+brilliant
+ small
+ idea
+ can
+ make
+ a
+ model
+
+
+like
+ 10x
+ better
+ for
+ example
+ in
+ terms
+ of
+
+
+behavior
+ at
+ a
+ fraction
+ of
+ the
+ cost
+ of
+
+
+the
+ pre-training
+ right
+ this
+ is
+ again I
+
+
+can
+ like
+ you
+ know
+ we
+ can
+ we
+ can
+ see
+ how
+
+
+post-
+ training
+ is
+ like
+ like
+ the
+ place
+ to
+
+
+make
+ a
+ lot
+ of
+ impact
+ and
+ improve
+ these
+
+
+models
+ but
+ on
+ the
+ other
+ hand
+ um
+ like
+ I
+ I
+
+
+know
+ at
+ different
+ companies
+ it's
+ also
+
+
+the
+ case
+ but
+ at
+ GDM
+ a
+ lot
+ of
+ exciting
+
+
+reset
+ work
+ is
+ going
+ into
+ the
+
+
+pre-training
+ side
+ and
+ like
+ new
+ new
+
+
+recipe
+ new
+ ideas
+ and
+ Um
+ uh
+ and
+ and
+ I
+
+
+would
+ say
+ like
+ you
+ know
+ the
+ work
+ that
+
+
+we're
+ doing
+ on
+ the
+ pre-training
+ is
+ uh
+
+
+going
+ to
+ unlart
+ a
+ lot
+ of
+ downstream
+
+
+possibilities.
+ Post
+ training
+ is
+ just
+
+
+like
+ a
+ different
+ mode
+ of
+ operation.
+ It's
+
+
+like
+ also
+ super
+ interesting
+ for
+ me
+
+
+because
+ I'm
+ again
+ like
+ a
+ little
+ bit
+ like
+
+
+new
+ to
+ to
+ this
+ to
+ this
+ side
+ of
+ the
+ the
+
+
+the
+ operation.
+ Uh
+ but
+ but
+ at
+ the
+ end
+ of
+
+
+the
+ day
+ I
+ always
+ expect
+ to
+ see
+ like
+ like
+
+
+going
+ on
+ like
+ you
+ know
+ between
+ post
+
+
+training
+ and
+ pre-chain.
+ your
+ comments
+ on
+
+
+on
+ pre-training
+ are
+ uh
+ sort
+ of
+ against
+
+
+like
+ that
+ narrative
+ that
+ that
+ appeared
+ a
+
+
+few
+ months
+ ago
+ that
+ pre-training
+ was
+
+
+dead.
+ That's
+ not
+ your
+ take
+ at
+ all.
+
+
+Right.
+ I
+ think
+ everyone
+ has
+ ideas
+ on
+
+
+pre-training
+ side
+ at
+ the
+ end
+ of
+ the
+ day
+
+
+like
+ going
+ for
+ that
+ idea
+ is
+ a
+ function
+
+
+of
+ complexity
+ and
+ the
+ expected
+ gain
+
+
+right
+ and
+ sometimes
+ you
+ feel
+ that
+ okay
+
+
+you
+ know
+ there
+ are
+ low
+ hanging
+ fruits
+
+
+and
+ and
+ it
+ like
+ you
+ know
+ instead
+ of
+
+
+bringing
+ this
+ complex
+ like
+ you
+ know
+
+
+recipe
+ to
+ the
+ pre-training
+ the
+ one
+ that
+
+
+I
+ have
+ like
+ which
+ is
+ simple
+ elegant
+
+
+super
+ scalable
+ I'm
+ going
+ to
+ push
+ this
+
+
+and
+ then
+ move
+ the
+ the
+ effort
+ to
+ the
+
+
+poster
+ and
+ then
+ at
+ some
+ point
+ like
+ the
+
+
+the
+ base
+ model
+ becomes
+ the
+ bottle
+ like
+
+
+and
+ then
+ you're
+ happy
+ to
+ take
+ the
+
+
+complex
+ recipe
+ and
+ bring
+ it
+ to
+ the
+
+
+pre-chaining
+ and
+ then
+ like
+ hit
+ pushing
+
+
+it.
+ I
+ think
+ pre-training
+ is
+ dead.
+ I
+ I
+
+
+would
+ say
+ like
+ maybe
+ like
+ you
+ know
+ the
+
+
+old
+ it's
+ also
+ like
+ a
+ little
+ bit
+ like
+
+
+typical
+ to
+ talk
+ about
+ old
+ and
+ new
+
+
+because
+ like
+ the
+ the
+ time
+ frame
+ is
+ like
+
+
+very
+ depend
+
+
+so
+ when
+ I
+ say
+ old
+ maybe
+ I'm
+ referring
+ to
+
+
+like
+ you
+ know
+ two
+ weeks
+ ago
+ or
+ something
+
+
+but
+ uh
+ but
+ but
+ the
+ way
+ that
+ we
+ used
+ to
+
+
+do
+ pre-shing
+ maybe
+ like
+ you
+ know
+ like
+
+
+two
+ a
+ year
+ ago
+ or
+ two
+ years
+ ago
+ uh
+ maybe
+
+
+like
+ you
+ know
+ diminishing
+ return
+ is
+ like
+
+
+obvious
+ but
+ I
+ can
+ see
+ how
+ new
+ ideas
+ are
+
+
+are
+ bringing
+ like
+ you
+ know
+ fresh
+ fresh
+
+
+um
+ uh
+ energy
+ into
+ the
+ pre-training
+ and
+
+
+suddenly
+ just
+ open
+ a
+ door
+ toward
+ like
+
+
+like
+ something
+ exotic
+ that
+ might
+
+
+actually
+ drastically
+ change
+ um
+ the
+ base
+
+
+model
+ capability
+ over
+ time.
+
+
+>> So
+ exciting
+ stuff
+ for
+ Gemini
+ 4
+ when
+
+
+whenever
+ it
+ comes
+ out.
+ You
+ mentioned
+
+
+continual
+ learning
+ earlier
+ and
+ that's
+
+
+another
+ one
+ of
+ those
+ hot
+ topics
+ that
+
+
+people
+ have
+ been
+ talking
+ about.
+ Can
+ can
+
+
+you
+ define
+ continual
+ learning
+ for
+ us
+ so
+
+
+that
+ uh
+ this
+ conversation
+ is
+ educational
+
+
+to
+ for
+ broad
+ group
+ of
+ people?
+ Uh
+ maybe
+
+
+compare
+ and
+ contrast
+ that
+ with
+ the
+
+
+self-improvement
+ loop.
+ Like
+ those
+ are
+
+
+two
+ different
+ things
+ but
+ um
+ help
+ us
+
+
+understand
+ the
+ the
+ difference.
+
+
+>> Definitely
+ they're
+ related
+ but
+ like
+
+
+they're
+ distinct,
+ right?
+ So
+
+
+self-improvement
+ is
+ about
+ a
+ model
+
+
+getting
+ smarter
+ over
+ time
+ and
+ improving
+
+
+its
+ capability
+ like
+ the
+ model
+ itself
+
+
+doing
+ it.
+ Continual
+ learning
+ is
+ mostly
+
+
+about
+ a
+ model
+ staying
+ current,
+ right?
+
+
+like
+ and
+ and
+ and
+ think
+ about
+ a
+ doctor
+
+
+that
+ like
+ keeps
+ reading
+ new
+ research
+ and
+
+
+they
+ like
+ refresh
+ their
+ their
+ knowledge
+
+
+about
+ um
+ uh
+ stuff
+ and
+ and
+ like
+ you
+ know
+
+
+they're
+ trying
+ to
+ make
+ sure
+ that
+ you
+
+
+know
+ the
+ knowledge
+ doesn't
+ go
+ stale.
+ The
+
+
+shared
+ enemy
+ between
+ like
+ um
+
+
+self-improvement
+ and
+ and
+ continual
+
+
+learning
+ is
+ a
+ model
+ with
+ frozen
+ weights
+
+
+uh
+ over
+ time
+ while
+ the
+ the
+ board
+ is
+ just
+
+
+like
+ going
+ right
+ like
+ you
+ know
+ if
+ if
+ you
+
+
+have
+ if
+ you
+ have
+ a
+ model
+ that
+ is
+ just
+
+
+frozen
+ and
+ the
+ board
+ is
+ moving
+ then
+ like
+
+
+you
+ neither
+ get
+ like
+ self-improvement
+
+
+nor
+ continue
+ learning
+ but
+ continue
+
+
+learning
+ is
+ mostly
+ focused
+ on
+ um
+ making
+
+
+sure
+ that
+ you
+ know
+ if
+ there's
+ like
+ fresh
+
+
+knowledge
+ in
+ the
+ board
+ uh
+ uh
+ like
+ the
+ my
+
+
+the
+ model
+ knowledge
+ cutoff
+ is
+ not
+ um
+
+
+like
+ uh
+ in
+ the
+ past.
+ So
+ it's
+ constantly
+
+
+you
+ know
+ like
+ for
+ example
+ overnight
+ all
+
+
+the
+ news
+ everything
+ that
+ is
+ happening
+ in
+
+
+the
+ board
+ everything
+ is
+ just
+ like
+ you
+
+
+know
+ updated.
+ So
+ if
+ today
+ you
+ asked
+ a
+
+
+problem
+ if
+ you
+ ask
+ a
+ question
+ from
+ the
+
+
+model
+ those
+ knowledge
+ which
+ is
+ like
+
+
+super
+ fresh
+ is
+ already
+ in
+ the
+ weight
+ of
+
+
+the
+ model.
+ So
+ it's
+ it
+ doesn't
+ have
+ to
+
+
+kind
+ of
+ like
+ you
+ know
+ depend
+ on
+ external
+
+
+source
+ to
+ to
+ to
+ bring
+ it
+ in.
+ And
+ it's
+
+
+hard.
+ It's
+ like
+ really
+ really
+ hard.
+ And
+
+
+the
+ biggest
+ problem
+ um
+ uh
+ like
+ not
+ the
+
+
+biggest
+ but
+ like
+ one
+ of
+ the
+ big
+ problem
+
+
+is
+ like
+ catastrophic
+ forgetting
+ where
+
+
+you
+ get
+ your
+ model
+ to
+ to
+ uh
+ learn
+ about
+
+
+new
+ information
+ um
+ after
+ you're
+ done
+
+
+training
+ that
+ model
+ like
+ you
+ know
+ and
+
+
+then
+ and
+ and
+ suddenly
+ you
+ see
+ regression
+
+
+in
+ in
+ in
+ the
+ knowledge
+ that
+ you
+ learn
+
+
+already
+ in
+ in
+ the
+ in
+ the
+ main
+ training
+
+
+uh
+ phase
+ and
+ it's
+ a
+ very
+ active
+ u
+ area
+
+
+of
+ of
+ research
+ right
+ now
+
+
+>> and
+ uh
+ what's
+ the
+ reality
+ of
+ continual
+
+
+learning
+ as
+ of
+ now
+ is
+ that
+ is
+ that's
+
+
+built
+ into
+ existing
+ systems
+ not
+ at
+ all
+
+
+about
+ to
+
+
+>> there
+ there
+ are
+ two
+ sides
+ of
+ it
+ like
+ one
+
+
+side
+ is
+ I
+ think
+ like
+ the
+ research
+ is
+ not
+
+
+like
+ yet
+ to
+ a
+ a
+ very
+ like
+ uh
+ to
+ a
+ to
+ a
+
+
+point
+ that
+ you
+ you
+ think
+ that
+ oh
+ you
+
+
+know
+ this
+ is
+ this
+ is
+ the
+ recipe
+ you
+ know
+
+
+I
+ just
+ need
+ to
+ kind
+ of
+ like
+ you
+ know
+
+
+exploit
+ it
+ and
+ push
+ productionization
+
+
+right
+ but
+ basically
+ you
+ know
+ like
+ every
+
+
+time
+ that
+ you
+ have
+ uh
+ a
+ new
+ problem
+ that
+
+
+is
+ like
+ key
+ you
+ have
+ this
+ phase
+ of
+
+
+exploration
+ where
+ people
+ like
+ try
+ to
+
+
+kind
+ of
+ like
+ you
+ know
+ try
+ different
+
+
+ideas
+ and
+ you
+ know
+ like
+ uh
+ go
+ jump
+ over
+
+
+this
+ like
+ idea
+ to
+ another
+ idea
+ which
+
+
+could
+ be
+ like
+ so
+ different
+ and
+ then
+ when
+
+
+you're
+ confident
+ about
+ this
+ kind
+ of
+
+
+working
+ to
+ some
+ extent
+ you
+ go
+ to
+ the
+
+
+exploitation
+ mode
+ and
+ say
+ that
+ oh
+ you
+
+
+know
+ let
+ me
+ just
+ make
+ it
+ as
+ good
+ as
+ it
+
+
+can
+ be
+ and
+ you
+ know
+ this
+ is
+ the
+ way
+ to
+
+
+to
+ kind
+ of
+ push
+ it
+ and
+ and
+ let's
+ scale
+
+
+it
+ let's
+ just
+ like
+ you
+ know
+ develop
+
+
+infra
+ for
+ it
+ make
+ it
+ like
+ super
+ fast
+
+
+like
+ you
+ know
+ productionize
+ it
+ and
+ see
+
+
+what
+ happens
+ I
+ think
+ like
+ that
+ that
+ is
+
+
+not
+ yet
+ there
+ the
+ other
+ point
+ is
+ also
+
+
+again
+ like
+ as
+ I
+ said
+ because
+ we
+ we
+ never
+
+
+had
+ like
+ like
+ super
+ confident
+ um
+ uh
+
+
+recipe
+ for
+ continual
+ learning
+ like
+
+
+building
+ infra
+ and
+ investing
+ in
+ in
+
+
+something
+ that
+ is
+ like
+ fast
+ is
+ hard
+
+
+given
+ that
+ I
+ like
+ I've
+ I've
+ seen
+ like
+
+
+very
+ impressive
+ progress
+ on
+ this
+ of
+ this
+
+
+within
+ GDM
+ it's
+ it's
+ kind
+ of
+ interesting
+
+
+because
+ it
+ is
+ one
+ of
+ the
+ things
+ that
+ you
+
+
+know
+ it
+ can
+ be
+ heavily
+ theoretical
+ I'
+
+
+I've
+ seen
+ people
+ who
+ are
+ like
+ you
+ know
+
+
+like
+ uh
+ doing
+ a
+ lot
+ of
+ theory
+ work
+ and
+
+
+they
+ got
+ into
+ this
+ like
+ problem
+ and
+
+
+they're
+ having
+ a
+ lot
+ of
+ fun
+ and
+ they're
+
+
+also
+ like
+ making
+ a
+ lot
+ of
+ impact
+ and
+ uh
+
+
+it's
+ impressive
+ how
+ much
+ progress
+ be
+
+
+made
+ on
+ on
+ this
+ but
+ I
+ don't
+ think
+ that
+
+
+you
+ know
+ we
+ have
+ yet
+ like
+ uh
+ like
+ any
+
+
+any
+ idea
+ that
+ like
+ like
+ everyone
+ says
+
+
+that
+ oh
+ you
+ know
+ this
+ is
+ it
+ you
+ know
+
+
+like
+ let's
+ just
+ do
+ it
+ you
+ know
+ like
+
+
+let's
+ push
+ this
+
+
+>> great
+ I'd
+ love
+ to
+ talk
+ about
+ you
+ and
+ and
+
+
+your
+ background
+ um
+ tell
+ us
+ your
+ your
+
+
+story
+ in
+ a
+ few
+ minutes
+ like
+ how
+ did
+ you
+
+
+come
+ to
+ do
+ this
+ work
+ and
+ what
+ was
+ your
+
+
+journey
+ to
+ AI
+ and
+ then
+ your
+ journey
+ to
+
+
+to
+ Google
+ deep
+ mind
+
+
+>> so
+ I
+ I
+ did
+ my
+ PhD
+ at
+ University
+ of
+
+
+Amsterdam
+ on
+ machine
+ learning
+ and
+ and
+
+
+mostly
+ on
+ the
+ on
+ the
+ like
+ the
+ language
+
+
+model
+ side
+ and
+ text
+ and
+ and
+ search
+ and
+
+
+retrieval.
+ And
+ then
+ uh
+ I
+ think
+ what
+
+
+kind
+ of
+ like
+ pushed
+ me
+ toward
+ trying
+
+
+really
+ to
+ be
+ on
+ the
+ uh
+ like
+ on
+ the
+ on
+
+
+the
+ mainstream
+ and
+ be
+ part
+ of
+ this
+ group
+
+
+that
+ are
+ like
+ you
+ know
+ hustling
+ to
+ to
+
+
+make
+ like
+ really
+ good
+ progress.
+ I
+ did
+ a
+
+
+few
+ internship
+ like
+ back
+ in
+ 2016
+ and
+
+
+2017
+ and
+ and
+ the
+ funny
+ story
+ is
+ um
+ I
+ did
+
+
+an
+ internship
+ in
+ at
+ Google
+ brain
+ in
+ 20
+
+
+like
+ early
+ 2017
+ and
+ then
+ it
+ was
+ amazing.
+
+
+It
+ was
+ just
+ like
+ you
+ know
+ I
+ went
+ to
+ to
+
+
+to
+ this
+ team
+ they
+ were
+ working
+ on
+ like
+
+
+LSTMs
+ for
+ you
+ know
+ like
+ summarization
+
+
+summarization
+ was
+ actually
+ one
+ of
+ the
+
+
+most
+ like
+ interesting
+ problems
+ at
+ that
+
+
+time.
+ I
+ was
+ like
+ amazed.
+ I
+ was
+ like,
+
+
+"So,
+ this
+ is
+ so
+ good.
+ I
+ I
+ really
+ I
+ just
+
+
+want
+ to
+ keep
+ doing
+ this
+ for
+ the
+ rest
+ of
+
+
+my
+ life.
+ You
+ know,
+ this
+ is
+ it."
+ And
+ then
+
+
+I
+ got
+ uh
+ I
+ got
+ a
+ return
+ offer
+ to
+ go
+ back
+
+
+and
+ then
+ do
+ another
+ internship
+ at
+ the
+
+
+end
+ of
+ the
+ the
+ the
+ same
+ year.
+ The
+
+
+recruiter
+ told
+ me
+ that,
+ oh,
+ you
+ know,
+
+
+there's
+ this
+ team
+ that
+ they
+ just
+
+
+published
+ a
+ paper,
+ maybe
+ you've
+ heard
+
+
+about
+ it,
+ like
+ Transformer,
+ and
+ then
+
+
+they're
+ looking
+ for
+ an
+ intern.
+ And
+ I
+
+
+have
+ a
+ had
+ a
+ chat
+ with
+ I
+ remembered
+ I
+
+
+had
+ a
+ I
+ had
+ a
+ chat
+ with
+ Lucash
+ Tit
+ and
+
+
+then
+ Lucash
+ was
+ talking
+ to
+ me
+ and
+ was
+
+
+saying
+ like
+ yeah
+ like
+ we
+ have
+ this
+ idea
+
+
+of
+ building
+ like
+ aogorph
+ machine
+ based
+
+
+on
+ transformer
+ and
+ he
+ was
+ so
+ excited
+
+
+about
+ this
+ and
+ then
+ like
+ you
+ know
+ we
+
+
+like
+ we
+ finished
+ that
+ the
+ conversation
+
+
+and
+ I
+ started
+ sending
+ a
+ message
+ to
+
+
+recruiter.
+ I
+ was
+ like
+ I
+ don't
+ know
+ if
+ I
+
+
+want
+ to
+ go
+ with
+ this
+ team.
+ It's
+ just
+
+
+like
+ they're
+ doing
+ something
+ random
+ like
+
+
+who
+ like
+ like
+ everyone's
+ doing
+ LSD.
+ I'm
+
+
+like
+ why
+ should
+ I
+ go
+ and
+ and
+ work
+ with
+ a
+
+
+like
+ a
+ a
+ group
+ of
+ people
+ who
+ were
+
+
+working
+ on
+ this
+ like
+ random
+ architecture
+
+
+like
+ transformer
+ it's
+ just
+ like
+ it's
+
+
+going
+ to
+ die
+ you
+ know
+ I
+ and
+ then
+ he
+
+
+tried
+ and
+ he
+ couldn't
+ find
+ any
+ other
+
+
+team
+ for
+ me
+ to
+ to
+ join
+ so
+ I
+ joined
+ this
+
+
+team
+ as
+ an
+ intern
+
+
+and
+ that
+ changed
+ my
+ life
+ you
+ know
+ like
+
+
+uh
+ like
+ being
+ among
+ these
+ like
+ super
+
+
+brilliant
+ like
+ super
+ smart
+ people
+ that
+
+
+they
+ believed
+ in
+ in
+ some
+ vision
+ and
+
+
+direction
+ where
+ almost
+ everyone
+ was
+
+
+excited
+ about
+ something
+ else
+ was
+ like
+
+
+very
+ inspiring
+ and
+ then
+ we
+ work
+ on
+ on
+
+
+like
+ again
+ like
+ this
+ colograph
+ machine
+
+
+like
+ idea
+ of
+ like
+ turned
+ into
+ like
+ you
+
+
+know
+ universal
+ transformer
+ prepare
+ which
+
+
+you
+ know
+ like
+ recursion
+ in
+ depths
+ and
+
+
+reusing
+ parameters
+ was
+ was
+ coming
+ out
+ of
+
+
+it
+ and
+ still
+ this
+ is
+ like
+ making
+ a
+ lot
+
+
+of
+ impacts
+ after
+ almost
+ like
+ 10
+ years.
+
+
+>> Tell
+ us
+ about
+ that
+ quickly.
+ So
+ that
+ was
+
+
+in
+ 2019
+ I
+ believe
+ and
+ you
+ you
+ so
+ you
+
+
+were
+ a
+ co-author
+ of
+ that
+ paper
+ and
+ that
+
+
+was
+ very
+ much
+ that
+ idea
+ that
+ we
+ started
+
+
+with
+ right
+ at
+ the
+ beginning
+ of
+ this
+
+
+conversation
+ of
+ like
+ loops
+ and
+ recursive
+
+
+stuff.
+ So
+ universal
+ transformer
+ like
+ we
+
+
+wrote
+ that
+ paper
+ in
+ 2018
+ and
+ I
+ think
+ it
+
+
+was
+ also
+ rejected
+ one
+ time
+ from
+ one
+
+
+conference
+ uh
+ and
+ it
+ was
+ accepted
+ in
+
+
+2019
+ um
+ I
+ don't
+ remember
+ exactly
+ but
+
+
+yeah
+ I
+ think
+ it
+ was
+ accepted
+ I
+ clear
+ but
+
+
+it
+ was
+ rejected
+ from
+ new
+ rips
+ or
+
+
+something
+ the
+ whole
+ intuition
+ was
+ um
+
+
+there
+ is
+ something
+ about
+ reusing
+
+
+parameters
+ and
+ a
+ model
+ going
+ through
+ um
+
+
+its
+ output
+ another
+ time
+ you
+ know
+ like
+
+
+and
+ and
+ so
+ so
+ basically
+ you
+ generate
+
+
+something
+ and
+ then
+ you
+ kind
+ of
+ like
+ you
+
+
+know
+ pass
+ it
+ into
+ the
+ model
+ again
+ and
+
+
+then
+ the
+ model
+ has
+ the
+ chance
+ of
+ doing
+
+
+this.
+ So
+ we
+ started
+ with
+ like
+ I
+ I
+
+
+remember
+ Lucash
+ had
+ this
+ like
+
+
+algorithmic
+ data
+ set
+ which
+ I
+ remember
+ he
+
+
+he
+ used
+ to
+ call
+ it
+ like
+ algorithmic
+
+
+tasks
+ uh
+ and
+ and
+ it
+ was
+ part
+ of
+ this
+
+
+codebase
+ based
+ on
+ TensorFlow
+ like
+ tensor
+
+
+to
+ tensor
+ was
+ the
+ name
+ of
+ the
+ code
+ that
+
+
+is
+ still
+ there
+ and
+ and
+ I
+ remember
+ I
+ I
+
+
+can
+ even
+ find
+ my
+ put
+ request
+ into
+ that
+
+
+for
+ for
+ pushing
+ the
+ universal
+
+
+transformer
+ code
+ and
+ we
+ saw
+ that
+
+
+basically
+ there
+ are
+ some
+ problems
+ like
+
+
+copying
+ an
+ input
+ to
+ the
+ output
+ or
+ you
+
+
+know
+ like
+ doing
+ something
+ algorithmic
+
+
+with
+ like
+ super
+ long
+ input
+ uh
+ on
+ on
+ the
+
+
+output
+ side
+ which
+ is
+ super
+ easy
+ but
+ the
+
+
+normal
+ models
+ like
+ the
+ normal
+
+
+transformer
+ was
+ like
+ failing
+ awfully
+ at
+
+
+this
+ and
+ we
+ saw
+ that
+ you
+ know
+ like
+
+
+looping
+ is
+ like
+ do
+ it
+ perfectly
+ and
+ then
+
+
+at
+ that
+ point
+ I
+ remember
+ we
+ had
+ this
+
+
+baddy
+ like
+ data
+ set
+ from
+ from
+ meta
+ um
+
+
+and
+ uh
+ it
+ was
+ like
+ doing
+ great
+ on
+ that
+
+
+and
+ then
+ the
+ idea
+ of
+ test
+ time
+ compute
+
+
+which
+ basically
+ you
+ train
+ with
+ fixed
+
+
+amount
+ of
+ compute
+ but
+ at
+ test
+ time
+ you
+
+
+unleash
+ your
+ model
+ to
+ do
+ more
+
+
+computation
+ throwing
+ more
+ flops
+ on
+ the
+
+
+input
+ was
+ coming
+ to
+ our
+ mind
+ like
+ super
+
+
+excited
+ about
+ this
+ and
+ then
+ we
+ ended
+ up
+
+
+with
+ actually
+ kind
+ of
+ like
+ introducing
+
+
+this
+ adaptive
+ computation
+ mechanism
+ into
+
+
+this
+ which
+ was
+ again
+ like
+ like
+ some
+ sort
+
+
+of
+ inspiration
+ from
+ Alex
+ uh
+ um
+ like
+
+
+Alex's
+ paper
+ like
+ you
+ know
+ from
+ from
+
+
+LSDM
+ and
+ then
+ like
+ a
+ very
+ interesting
+
+
+interesting
+ ride
+ because
+ we
+ we
+ were
+
+
+pushing
+ for
+ something
+ that
+ like
+ at
+ that
+
+
+time
+ uh
+ it
+ it
+ sounded
+ exciting
+ but
+ and
+ I
+
+
+have
+ a
+ guess
+ like
+ maybe
+ at
+ that
+ time
+
+
+like
+ the
+ whole
+ field
+ was
+ a
+ bit
+ too
+
+
+focused
+ on
+ using
+ adaptive
+ computation
+
+
+for
+ decreasing
+ the
+ cost
+ on
+ simple
+
+
+problem
+ but
+ now
+ we
+ know
+ that
+ maybe
+ we
+
+
+can
+ actually
+ use
+ adaptive
+ computation
+ to
+
+
+increasing
+ to
+ increase
+ the
+ cost
+ for
+ hard
+
+
+problem
+ you
+ know
+ it's
+ actually
+ like
+ the
+
+
+other
+ side
+ of
+ the
+ same
+ coin
+ right
+ so
+
+
+because
+ at
+ that
+ time
+ we
+ were
+ like
+ you
+
+
+know
+ like
+ maybe
+ you
+ know
+ uh
+ like
+
+
+resource
+ constraint
+ and
+ everything
+ so
+ we
+
+
+were
+ really
+ thinking
+ about
+ why
+ we
+ were
+
+
+spending
+ so
+ much
+ fops
+ like
+ you
+ know
+
+
+going
+ through
+ all
+ the
+ layers
+ and
+ like
+
+
+you
+ know
+ everything's
+ for
+ dot
+ like
+ at
+
+
+the
+ end
+ of
+ the
+ sentence
+ if
+ that
+ that
+
+
+token
+ is
+ like
+ do
+ we
+ really
+ need
+ like
+ 24
+
+
+layers.
+ So
+ how
+ we
+ can
+ decrease
+ that
+ but
+
+
+now
+ we
+ we
+ had
+ a
+ different
+ perspective
+ to
+
+
+that
+ which
+ is
+ like
+ you
+ know
+ how
+ can
+ we
+
+
+increase
+ this
+ for
+ a
+ physics
+ problem
+ that
+
+
+we
+ want
+ to
+ run
+ the
+ the
+ the
+ inprints
+ for
+
+
+maybe
+ like
+ you
+ know
+ for
+ two
+ weeks.
+ So
+
+
+that
+ was
+ that
+ would
+ be
+ really
+ fun
+ to
+
+
+work
+ on
+ that
+ with
+ with
+ these
+ like
+
+
+brilliant
+ people
+ and
+ um
+ and
+ I
+ think
+ like
+
+
+you
+ know
+ this
+ recursion
+ in
+ depth
+ and
+
+
+reusing
+ the
+ parameters
+ or
+ I've
+ seen
+
+
+later
+ like
+ some
+ some
+ people
+ actually
+
+
+framing
+ it
+ as
+ negative
+ sparity
+ which
+ is
+
+
+a
+ great
+ way
+ of
+ you
+ know
+ like
+ connecting
+
+
+it
+ to
+ mixture
+ of
+ experts
+ that
+ you
+ know
+
+
+in
+ mixture
+ of
+ experts
+ you
+ have
+ flops
+
+
+free
+ parameters.
+ So,
+ so
+ parameters
+ that
+
+
+you
+ they're
+ not
+ actually
+ bringing
+ any
+
+
+flops
+ and
+ in
+ in
+ like
+ looping
+ you
+ have
+ um
+
+
+parameter
+ free
+ flops
+ where
+ you
+ don't
+
+
+have
+ extra
+ parameters
+ for
+ the
+ extra
+
+
+flops
+ that
+ you
+ are
+ throwing
+ on
+ this.
+ So,
+
+
+it
+ goes
+ the
+ other
+ direction
+ of
+ the
+
+
+sparity
+ and
+ it's
+ quite
+ effective
+ and
+ and
+
+
+I
+ think
+ people
+ are
+ picking
+ it
+ up
+ you
+
+
+know
+ so
+ the
+ we're
+ seeing
+ a
+ lot
+ of
+ you
+
+
+know
+ like
+ excitement
+ in
+ this
+ direction.
+
+
+>> Fascinating.
+ Another
+ fundamentally
+
+
+important
+ contribution
+ to
+ the
+ to
+ the
+
+
+field
+ that
+ uh
+ you
+ did
+ was
+ the
+ visual
+
+
+transformer
+ paper
+ in
+ 2022.
+
+
+So
+ the
+ paper
+ is
+ called
+ an an
+ image
+ is
+
+
+worse
+ 16
+ by
+ 16
+ words
+ transformers
+ for
+
+
+image
+ recognition
+ at
+ scale.
+ Do
+ you
+ want
+
+
+to
+ walk
+ us
+ through
+ what
+ that
+ was?
+
+
+>> That's
+ also
+ a
+ funny
+ story
+ for
+ that.
+ I
+
+
+got
+ into
+ vision
+ and
+ multimodality
+ with
+
+
+that
+ paper.
+ So
+ I've
+ I've
+ never
+ worked
+ on
+
+
+on
+ on
+ like
+ any
+ vision
+ problem.
+ It
+ was
+
+
+mostly
+ because
+ I
+ was
+ sitting
+ next
+ to
+
+
+people
+ who
+ were
+ working
+ on
+ vision.
+ So
+
+
+like
+ my
+ desk
+ was
+ like
+ next
+ to
+ people
+ who
+
+
+were
+ working
+ on
+ vision
+ and
+ that
+ was
+ the
+
+
+reason
+ that
+ I
+ got
+ interested
+ because
+ I
+
+
+was
+ just
+ talking
+ to
+ I
+ was
+ like
+ oh
+ this
+
+
+is
+ actually
+ interesting
+ and
+ uh
+ and
+ then
+
+
+and
+ then
+ I
+ remember
+ that
+ at
+ that
+ time
+ I
+
+
+was
+ like
+ working
+ on
+ um
+ uh
+ on
+ uh
+ like
+
+
+externally
+ we
+ call
+ it
+ palm
+ paper
+ with
+
+
+like
+ you
+ know
+ acha
+ and
+ other
+ folks
+ and
+ I
+
+
+was
+ like
+ why
+ we
+ have
+ uh
+ 400
+ billion
+
+
+parameter
+ language
+ models
+ but
+ the
+
+
+biggest
+ model
+ that
+ we
+ have
+ on
+ the
+ vision
+
+
+side
+ is
+ just
+
+
+maybe
+ 100
+ million
+ like
+ arrest
+ that
+ like
+
+
+why
+ like
+ like
+ why
+ there's
+ no
+ benefit
+ of
+
+
+a
+ scale
+ started
+ looking
+ into
+ this
+ with
+
+
+with
+ folks
+ on
+ like
+ okay
+ like
+ maybe
+ you
+
+
+know
+ like
+ there's
+ something
+ in
+ in
+
+
+transformer
+ that
+ actually
+ kind
+ of
+ like
+
+
+you
+ know
+ make
+ it
+ a
+ scalable
+ and
+ then
+
+
+maybe
+ you
+ know
+ like
+ we
+ we
+ can
+ move
+ away
+
+
+from
+ convolution
+ to
+ try
+ this
+ and
+ and
+ at
+
+
+the
+ end
+ of
+ the
+ day
+ I
+ don't
+ want
+ to
+ say
+
+
+that
+ you
+ know
+ like
+ that's
+ the
+ only
+ way
+
+
+of
+ a
+ scaling
+ maybe
+ you
+ know
+ if
+ a
+ group
+
+
+actually
+ spend
+ like
+ enough
+ time
+ on
+
+
+convolution
+ they
+ can
+ also
+ make
+ it
+ as
+
+
+scalable
+ and
+ like
+ you
+ know
+ like
+ as
+ good
+
+
+but
+ there
+ was
+ also
+ benefit
+ of
+ doing
+
+
+That's
+ simply
+ because
+ the
+ rest
+ of
+ the
+
+
+that
+ the
+ machine
+ learning
+ field
+ which
+
+
+was
+ working
+ on
+ on
+ language
+ they
+ were
+
+
+using
+ this
+ a
+ like
+ a
+ like
+ architecture.
+
+
+So
+ they
+ were
+ building
+ infra
+ for
+ it
+
+
+making
+ it
+ faster
+ and
+ and
+ you
+ know
+ like
+
+
+like
+ the
+ sometimes
+ the
+ hardware
+ is
+ kind
+
+
+of
+ like
+ designed
+ based
+ on
+ this
+
+
+architecture
+ at least
+ for
+ short
+ term.
+ So
+
+
+we
+ started
+ pushing
+ and
+ then
+ I
+ remember
+
+
+that
+ you
+ know
+ we
+ had
+ um
+ we
+ had
+ a
+ bunch
+
+
+of
+ ideas
+ that
+ okay
+ what
+ if
+ each
+ pixel
+ is
+
+
+a
+ token
+ and
+ then
+ um
+ like
+ the
+ cost
+ was
+
+
+going
+ high
+ the
+ context
+ was
+ just
+ like
+
+
+getting
+ super
+ long
+ and
+ then
+ we
+ had
+ a
+ lot
+
+
+of
+ back
+ and
+ forth
+ and
+ it's
+ also
+ quite
+
+
+funny
+ because
+ we
+ started
+ thinking
+ about
+
+
+this
+ problem
+ like
+ from
+ like
+ very
+
+
+complicated
+ point
+ of
+ view
+ so
+ we
+ were
+
+
+trying
+ to
+ mimic
+ convolutions
+ to
+ be
+ able
+
+
+to
+ get
+ this
+ working
+ and
+ it
+ ended
+ up
+ like
+
+
+you
+ know
+ like
+ I
+ I
+ had
+ a
+ bunch
+ of
+
+
+colleagues
+ also
+ in
+ Zurich
+ and
+ they
+
+
+started
+ with
+ trying
+ the
+ simple
+ idea
+ of
+
+
+what
+ if
+ just
+ like
+ divide
+ the
+ image
+ into
+
+
+patches
+ of
+ pixel
+ you
+ know
+ 16
+ by
+ 16
+ and
+
+
+then
+ get
+ each
+ patch
+ as
+ a
+ pixel
+ and
+
+
+forget
+ about
+ you
+ know
+ like
+ overlapping
+
+
+patches
+ or
+ you
+ know
+ like
+ windows
+ and
+
+
+stuff
+ like
+ that's
+ it
+ you
+ know
+ like
+ you
+
+
+know
+ like
+ chop
+ the
+ image
+ and
+ then
+ fit
+ it
+
+
+to
+ a
+ transformer
+ and
+ then
+ scale
+ you
+ know
+
+
+like
+ like
+ go
+ with
+ a
+ lot
+ of
+ data
+ and
+ then
+
+
+like
+ let's
+ start
+ with
+ like
+ you
+ know
+
+
+something
+ discriminating
+ to
+ train
+ this
+
+
+model
+ and
+ it
+ worked
+ and
+ it
+ was
+ also
+ a
+
+
+little
+ bit
+ like
+ of
+ a
+ surprise
+ for
+ us
+
+
+that
+ oh
+ you
+ know
+ like
+ we
+ were
+ all
+
+
+thinking
+ about
+ something
+ like
+ you
+ know
+
+
+fancy
+ and
+ and
+ very
+ very
+ complicated
+
+
+maybe
+ in
+ the
+ integration
+ of
+ having
+ like
+
+
+you
+ know
+ um
+ like
+ convolutions
+ and
+ stuff
+
+
+but
+ something
+ that
+ worked
+ was
+ basically
+
+
+the
+ simple
+ idea
+ of
+ you
+ know
+ like
+ um
+
+
+patchify
+ fit
+ it
+ to
+ transformer
+ scale
+ it
+
+
+up
+ and
+ then
+ boom
+ you
+ had
+ a
+ really
+ really
+
+
+good
+ model
+ for
+ representation
+ learning.
+
+
+>> Yeah.
+ And
+ to
+ play
+ it
+ back
+ at
+ a
+ at
+ the
+
+
+highest
+ level,
+ that
+ basically
+ meant
+ that
+
+
+you
+ could
+ apply
+ transformer
+ architecture
+
+
+to
+ image
+ when
+ in
+ the
+ past
+ you
+ had
+ two
+
+
+different
+ families.
+ You
+ had
+ the
+ CNN
+
+
+world
+ and
+ the
+ transformer
+ world
+ for
+
+
+text.
+ And
+ your
+ breakthrough
+ was
+ to
+ prove
+
+
+that
+ transformer
+ could
+ scale
+ equally
+
+
+well
+ to
+ images
+ which
+ basically
+ paved
+ the
+
+
+way
+ to
+ a
+ Gemini
+ 3
+ today
+ which
+ is
+ like
+ a
+
+
+natively
+ multimodal
+ model.
+ Is
+ that
+ is
+
+
+that
+ fair?
+ Okay.
+
+
+>> Yeah,
+ that
+ is
+ true.
+ Yeah.
+ Like
+ so
+
+
+basically
+ we
+ we
+ like
+ with
+ that
+ we
+ kind
+
+
+of
+ took
+ a
+ step
+ toward
+ having
+ also
+ videos
+
+
+like
+ adopting
+ transformers
+ and
+ and
+ audio
+
+
+like
+ you
+ know
+ adopting
+ transformers.
+ So
+
+
+basically
+ we
+ like
+ again
+ like
+ even
+ even
+
+
+if
+ this
+ is
+ not
+ like
+ the
+ only
+
+
+architecture
+ that
+ would
+ be
+ like
+ you
+ know
+
+
+multimodal
+ but
+ it
+ made
+ it
+ really
+ simple
+
+
+to
+ train
+ these
+ models
+ like
+ natively
+
+
+because
+ you
+ have
+ like
+ a
+ single
+
+
+architecture
+ and
+ can
+ have
+ all
+ the
+
+
+modalities
+ in
+ during
+ training.
+
+
+>> Great.
+ So
+ that's
+ a
+ perfect
+ transition
+
+
+into
+ your
+ work
+ into
+ nano
+ banana
+ and
+ the
+
+
+the
+ future
+ of
+ image
+ AI.
+ So,
+ so
+ you
+ were
+
+
+part
+ of
+ the
+ Nano
+ Banana
+ team
+ and
+ which
+
+
+must
+ have
+ been
+ so
+ much
+ fun
+ when
+ this
+
+
+came
+ out
+ and
+ uh
+ went
+ just
+ completely
+
+
+viral
+ and
+ what
+ an
+ incredible
+ product.
+
+
+So,
+ since
+ then
+ there's
+ been
+ a
+ couple
+
+
+releases.
+ So,
+ there's
+ been
+ a
+ Nano
+ Banana
+
+
+Pro
+ in
+ November
+ of
+ 2025
+ and
+ then
+ just
+ a
+
+
+few
+ weeks
+ ago
+ Nanobanana
+ 2
+ uh
+ aka
+ Gemini
+
+
+3.1
+ flash
+ image.
+ Yeah.
+ At
+ the
+ end
+ end
+ of
+
+
+February.
+ So
+ a
+ lot
+ of
+ people
+ assume
+ that
+
+
+um
+ image
+ generation
+ works
+ as
+ a
+
+
+translator,
+ meaning
+ that
+ the
+ AI
+ reads
+
+
+the
+ the
+ text
+ of
+ the
+ prompt
+ and
+ then
+
+
+translates
+ it
+ into
+ picture
+ instructions
+
+
+and
+ then
+ draws
+ it.
+ But
+ as
+ we
+ were
+
+
+saying,
+ Gemini
+ is
+ natively
+ multimodal.
+
+
+So
+ how
+ does
+ how
+ does
+ that
+ work?
+ How
+ does
+
+
+a
+ model
+ actually
+ uh
+ process
+ the
+ text
+ and
+
+
+the
+ pixels
+ at
+ the
+ same
+ time
+ to
+ build
+ the
+
+
+image?
+ I
+ think
+ the
+ reason
+ that
+ maybe
+ I
+
+
+got
+ to
+ the
+ generation.
+ Okay,
+ by
+ the
+ way,
+
+
+there's
+ also
+ one
+ one
+ uh
+ one
+ thing
+ that
+
+
+uh
+ I'm
+ not
+ an
+ expert
+ in
+ image
+ generation
+
+
+like
+ like
+ when
+ I
+ started
+ working
+ on
+
+
+this,
+ I
+ I
+ remember
+ I
+ had
+ like
+ meetings
+
+
+with
+ people
+ and
+ then
+ they
+ were
+ talking
+
+
+about
+ like
+ you
+ know
+ computer
+ graphic
+ and
+
+
+all
+ the
+ like
+ you
+ know
+ like
+ old
+ like
+
+
+ideas
+ about
+ or
+ or
+ like
+ intuitions
+ and
+ I
+
+
+had
+ like
+ zero
+ idea
+ what's
+ going
+ on.
+ I
+
+
+was
+ like
+ I
+ I
+ know
+ how
+ to
+ train
+ and
+
+
+transform
+ and
+ scale
+ it
+ and
+ and
+ you
+ know
+
+
+if
+ it
+ helps
+ I
+ I
+ can
+ I
+ can
+ basically
+ um
+
+
+contribute
+ to
+ this.
+ But
+ again
+ like
+ you
+
+
+know
+ it
+ was
+ fun
+ because
+ I
+ I
+ worked
+ with
+
+
+like
+ a
+ group
+ of
+ like
+ super
+ smart
+ like
+
+
+brilliant
+ people
+ with
+ like
+ really
+ really
+
+
+good
+ intuition
+ and
+ I
+ think
+ like
+ the
+
+
+reason
+ that
+ I
+ was
+ excited
+ about
+ this
+ was
+
+
+like
+ like
+ this
+ is
+ maybe
+ not
+ super
+
+
+relevant
+ to
+ like
+ nonabanana
+ itself
+ but
+
+
+to
+ just
+ mention
+ this
+ I
+ was
+ excited
+ about
+
+
+the
+ idea
+ of
+ uh
+ like
+ positive
+ transfer
+
+
+across
+ modalities.
+ So
+ when
+ you
+ when
+ you
+
+
+think
+ about
+ multimodel
+ uh
+ like
+ natively
+
+
+one
+ part
+ of
+ it
+ is
+ that
+ oh
+ you
+ know
+ I'm
+
+
+adding
+ capability
+ to
+ my
+ model
+ you
+ know
+
+
+so
+ my
+ model
+ can
+ understand
+ images
+ and
+
+
+understand
+ videos
+ and
+ understand
+ audio
+
+
+but
+ also
+ like
+ gener
+ like
+ and
+ text
+ but
+
+
+also
+ can
+ generate
+ all
+ these
+ modalities
+
+
+you
+ know
+ like
+ so
+ so
+ I
+ have
+ a
+ model
+ that
+
+
+actually
+ does
+ all
+ these
+ together
+ right
+
+
+this
+ is
+ for
+ sure
+ exciting
+ like
+ from
+ the
+
+
+product
+ point
+ of
+ view
+ you
+ know
+ like
+ you
+
+
+have
+ a
+ model
+ that
+ is
+ like
+ you
+ know
+ great
+
+
+model
+ for
+ for
+ generating
+ all
+ these
+
+
+different
+ like
+ outputs
+ and
+ and
+ like
+
+
+users
+ are
+ like
+ finding
+ it
+ like
+ very
+
+
+useful
+ and
+ interesting.
+ But
+ the
+ the
+ the
+
+
+most
+ exciting
+ part
+ for
+ me
+ was
+ can
+ I
+ see
+
+
+a
+ a
+ glimpse
+ of
+ transfer
+ from
+ these
+
+
+modalities
+ like
+ you
+ know
+ like
+ for
+
+
+example
+ if
+ I
+ train
+ a
+ model
+ to
+ become
+
+
+good
+ at
+ image
+ generating
+ images
+ does
+ it
+
+
+become
+ also
+ good
+ at
+ like
+ better
+ at
+ like
+
+
+generating
+ text
+ there
+ are
+ different
+ like
+
+
+different
+ intuition
+ of
+ that
+ you
+ know
+
+
+like
+ what
+ why
+ this
+ should
+ happen
+ I
+ think
+
+
+this
+ is
+ like
+ something
+ like
+ again
+ like
+
+
+very
+ old
+ in
+ the
+ literature
+ on
+ on
+ the
+
+
+linguistic
+ site
+ that
+ they
+ call
+ it
+
+
+reporting
+ biases
+ right
+ so
+ like
+ you
+ for
+
+
+for
+ example
+ you
+ know
+ like
+ visit
+ your
+ 's
+
+
+place,
+ right?
+ And
+ then
+ you
+ go
+ to
+ their
+
+
+place
+ and
+ then
+ you
+ see
+ that
+ they
+ have
+ a
+
+
+banana
+ shaped
+ like
+ uh
+ like
+ sofa.
+ And
+
+
+when
+ you
+ go
+ home,
+ the
+ chance
+ of
+ talking
+
+
+about
+ that
+ sofa
+ compared
+ to
+ a
+ a
+ normal
+
+
+sofa
+ is
+ like
+ much
+ higher.
+ So
+ you
+ can
+
+
+actually
+ talk
+ to
+ your
+ friends
+ or
+ partner
+
+
+later.
+ Oh,
+ you
+ know,
+ I
+ went
+ there
+ and
+
+
+then
+ their
+ sofa
+ was
+ like
+ in
+ the
+ shape
+ of
+
+
+a
+ banana,
+ which
+ was
+ really
+ fun.
+ But
+ if
+
+
+it's
+ like
+ normal,
+ like
+ you
+ almost
+ like
+
+
+it's
+ weird
+ if
+ you
+ go
+ somewhere.
+ It's
+
+
+like,
+ oh,
+ by
+ the
+ way,
+ I
+ went
+ to
+ my
+
+
+friend's
+ place
+ and
+ they
+ had
+ a
+ sofa,
+
+
+which
+ was
+ like
+ super
+ normal.
+ So,
+ so
+ this
+
+
+is
+ this
+ is
+ the
+ language
+ reporting
+ bias.
+
+
+So,
+ so,
+ so
+ language
+ doesn't
+ talk
+ about
+
+
+things
+ that
+ are
+ like
+ at
+ the
+ middle
+ of
+
+
+the
+ distribution,
+ right?
+ But
+ if
+ you
+ have
+
+
+an
+ image
+ or
+ or
+ if
+ you
+ have
+ like
+ vision
+
+
+input
+ from
+ from
+ anything
+ in
+ the
+ board,
+
+
+you
+ have
+ that
+ information
+ like
+ there's
+
+
+no
+ need
+ for
+ reporting
+ it.
+ It's
+ just
+ like
+
+
+there,
+ right?
+ So,
+ so
+ because
+ of
+ that,
+
+
+like
+ picking
+ up
+ a
+ lot
+ of
+ knowledge
+ about
+
+
+the
+ world
+ through
+ language
+ is
+ just
+ not
+
+
+really
+ efficient.
+ I
+ I
+ don't
+ want
+ to
+ say
+
+
+that
+ it's
+ impossible,
+ but
+ it's
+ not
+
+
+efficient,
+ you
+ know,
+ like
+ to
+ learn
+ about
+
+
+gravity.
+ If
+ you
+ kind
+ of
+ like,
+ you
+ know,
+
+
+have
+ your
+ model
+ train
+ on
+ videos,
+ it's
+
+
+much
+ easier
+ to
+ to
+ get
+ the
+ model
+ to
+ learn
+
+
+about
+ gravity
+ because
+ it
+ just
+ happens
+ in
+
+
+a
+ video
+ than
+ training
+ your
+ model
+ on
+ on
+
+
+all
+ the
+ textbook
+ to
+ kind
+ of
+ like
+ learn
+
+
+about
+ the
+ concept
+ of
+ gravity,
+ you
+ know,
+
+
+or
+ or
+ what
+ is
+ actually
+ gravity.
+
+
+>> Is
+ that
+ a
+ concept
+ of
+ world
+ model
+ that's
+
+
+built
+ into
+ the
+ image
+ representation?
+
+
+>> Exactly.
+ Exactly.
+ So,
+ so
+ basically
+ you
+
+
+you
+ want
+ a
+ v
+ model
+ basically
+ you
+ know
+
+
+like
+ these
+ models
+ to
+ be
+ also
+ like
+ a
+ vote
+
+
+model.
+ So
+ you
+ you
+ want
+ these
+ models
+ to
+
+
+know
+ about
+ the
+ war.
+ There's
+ a
+ good
+
+
+chance
+ that
+ that
+ you
+ can
+ actually
+ teach
+
+
+your
+ model
+ about
+ the
+ war
+ just
+ by
+
+
+presenting
+ text
+ to
+ it.
+ But
+ it's
+ just
+ not
+
+
+efficient
+ and
+ and
+ and
+ a
+ good
+ shortcut
+
+
+would
+ be
+ to
+ bring
+ multiodality
+ into
+
+
+this.
+ And
+ the
+ best
+ way
+ of
+ learning
+ about
+
+
+uh
+ a
+ modality
+ is
+ learning
+ how
+ to
+
+
+generate
+ that
+ right
+ like
+ so
+ we
+ we
+ got
+ to
+
+
+this
+ point
+ that
+ okay
+ you
+ know
+ u
+ uh
+ we've
+
+
+been
+ we've
+ been
+ having
+ Gemini
+ generating
+
+
+like
+ images
+ uh
+ from
+ Gemini
+ one.
+ So
+ we
+
+
+like
+ like
+ basically
+ like
+ Gemini
+ was
+
+
+multimodal
+ from
+ day
+ one
+ and
+ and
+ the
+
+
+reason
+ that
+ we
+ kind
+ of
+ first
+ like
+
+
+released
+ the
+ image
+ generation
+ at
+ like
+
+
+2.5
+ instead
+ of
+ you
+ know
+ like
+ Gemini
+ 1,
+
+
+Gemini
+ 1.5,
+ Gemini
+ 2
+ uh
+ was
+ that
+ it
+ was
+
+
+not
+ great
+ and
+ then
+ like
+ it
+ really
+ needed
+
+
+a
+ push
+ and
+ then
+ we
+ figured
+ out
+ that
+ okay
+
+
+you
+ know
+ how
+ to
+ push
+ this
+ without
+ like
+
+
+you
+ know
+ introducing
+ any
+ regression
+ to
+
+
+other
+ capabilities
+ that
+ the
+ model
+ has
+
+
+and
+ you
+ know
+ like
+ bring
+ all
+ of
+ these
+
+
+natively
+ into
+ the
+
+
+into
+ like
+ this
+ this
+
+
+And
+ that
+ was
+ like
+ one
+ site
+ that
+ was
+ like
+
+
+super
+ interesting
+ for
+ me.
+ Like
+ not
+ sad
+
+
+news,
+ but
+ but
+ but
+ it's
+ really
+ hard
+ to
+
+
+see
+ positive
+ transfer.
+ So
+ it
+ it
+ turned
+
+
+out
+ to
+ be
+ a
+ really
+ really
+ good
+ battle,
+
+
+but
+ it
+ was
+ like
+ really
+ hard
+ to
+ see
+ that
+
+
+wow,
+ you
+ know,
+ I
+ train
+ on
+ images
+ and
+
+
+then
+ like
+ text
+ perplexity
+ goes
+ down.
+
+
+That
+ that
+ was
+ hard
+ to
+ see,
+ you
+ know,
+
+
+like
+ the
+ fact
+ that
+ you
+ know,
+ you
+ you
+
+
+train
+ in
+ native
+ model
+ and
+ it's
+ good
+ at
+
+
+at
+ like
+ across
+ all
+ the
+ capabilities
+ is
+
+
+already
+ impressive.
+ But
+ my
+ hope
+ is
+ that
+
+
+you
+ know
+ multimodality
+ and
+ what
+ model
+ is
+
+
+the
+ way
+ to
+ really
+ push
+ multimodel
+
+
+training
+ to
+ to
+ enable
+ like
+ positive
+
+
+transfer
+ across
+ modalities.
+ I
+ work
+ with
+
+
+people
+ that
+ they
+ were
+ like
+ expert
+ on
+
+
+this
+ you
+ know
+ for
+ example
+ one
+ of
+ the
+ one
+
+
+of the
+ things
+ that
+ I
+ remember
+ that
+ you
+
+
+know
+ at
+ the
+ beginning
+ they
+ were
+ talking
+
+
+about
+ this
+ like
+ visual
+ quality
+ and
+ then
+
+
+I
+ remember
+ that
+ you
+ know
+ it's
+ like
+ oh
+
+
+this
+ model
+ is
+ a
+ great
+ model
+ I
+ send
+ them
+
+
+them
+ and
+ there's
+ like
+ no
+ this
+ is
+ not
+ a
+
+
+good
+ model.
+ I
+ was
+ like,
+ "What
+ do
+ you
+
+
+mean?"
+ And
+ they
+ they
+ started
+ showing
+ me
+
+
+two
+ images
+ that
+ to
+ my
+ eyes
+ they
+ were
+
+
+like
+ looking
+ the
+ same,
+ but
+ they
+ were
+
+
+saying
+ like,
+ "No,
+ this
+ is
+ like
+ way
+
+
+better."
+ I
+ was
+ like,
+ "No,
+ they're
+ the
+
+
+same."
+ So,
+ so
+ they
+ had
+ they
+ had
+ a
+ good
+
+
+taste
+ on
+ on
+ grasping
+ the
+ the
+ visual
+
+
+quality
+ of
+ images.
+ So,
+ working
+ with
+ them
+
+
+was
+ like
+ really
+ interesting
+ to
+ kind
+ of
+
+
+understand
+ that,
+ okay,
+ there
+ are
+
+
+dimensions.
+ And
+ by
+ the
+ way,
+ like
+ their
+
+
+intuition
+ was
+ the
+ was
+ the
+ the
+ things
+
+
+that
+ actually
+ made
+ like
+ not
+ a
+ banana
+
+
+like
+ a
+ success
+ in
+ terms
+ of,
+ you
+ know,
+
+
+being
+ a
+ good
+ product.
+ But
+ I
+ was
+ like
+
+
+okay
+ what
+ if
+ we
+ push
+ this
+ towards
+
+
+something
+ beyond
+ like
+ traditional
+ image
+
+
+generation.
+ So
+ instead
+ of
+ like
+ a
+
+
+translator
+ that
+ as
+ you
+ as
+ you
+ said
+ like
+
+
+a
+ a
+ text
+ to
+ image
+ it
+ becomes
+ a
+ a
+ a
+
+
+thinking
+ machine
+ about
+ images.
+ You
+ know
+
+
+for
+ example
+ you
+ know
+ you
+ you
+ enable
+
+
+interled
+ text
+ image
+ generation
+ where
+ the
+
+
+model
+ can
+ think
+ in
+ not
+ only
+ text
+ token
+
+
+but
+ also
+ in
+ pixel
+ space.
+ Right.
+ So,
+ so
+
+
+it
+ generates
+ uh
+ text
+ and
+ then
+ generates
+
+
+an
+ image
+ and
+ it
+ generates
+ another
+ text
+
+
+another
+ image
+ and
+ you
+ can
+ leverage
+ that
+
+
+for
+ different
+ problems
+ like
+ one
+ of
+ them
+
+
+is
+ that
+ oh
+ if
+ you
+ have
+ you
+ know
+ like
+
+
+some
+ sort
+ of
+ a
+ story
+ right
+ like
+ you
+ know
+
+
+like
+ text
+ of
+ the
+ story
+ image
+ related
+ to
+
+
+that
+ text
+ of
+ a
+ story
+ like
+ you
+ know
+ like
+
+
+children's
+ story
+ book
+ right
+ another
+ one
+
+
+which
+ I
+ I
+ was
+ actually
+ really
+ excited
+
+
+about
+ was
+ like
+ this
+ incremental
+
+
+generation
+ like
+ let
+ me
+ just
+ give
+ you
+ an
+
+
+example
+ so
+ if
+ you
+ take
+ like
+ dolly
+ or
+
+
+imagine
+ or
+ or
+ standalone
+ an
+ image
+ model,
+
+
+right?
+ If
+ you
+ ask
+ these
+ models
+ to
+
+
+generate
+ an
+ image
+ of
+ like,
+ you
+ know,
+ a
+
+
+scene
+ with
+ 50
+ details,
+ they
+ might
+ fade,
+
+
+right?
+ And
+ then
+ someone
+ can
+ say
+ that,
+
+
+oh,
+ you
+ know,
+ okay,
+ I
+ I
+ can
+ like
+
+
+generate
+ a
+ better
+ model
+ that
+ like
+ does
+
+
+up
+ to
+ 55
+ details
+ and
+ then
+ say,
+ okay,
+
+
+what
+ about
+ 60?
+ And
+ then
+ I
+ say,
+ okay,
+ no,
+
+
+let
+ me
+ just
+ go
+ back
+ and
+ train
+ it
+ and
+
+
+then
+ come
+ back
+ to
+ you
+ to
+ cover
+ your
+
+
+test.
+ But
+ at
+ the
+ end
+ of
+ the
+ day
+ there's
+
+
+a
+ threshold
+ that
+ these
+ models
+ can
+ kind
+
+
+of
+ like
+ follow
+ instruction
+ to
+ to
+ like
+ to
+
+
+some
+ extent
+ about
+ you
+ know
+ how
+ many
+
+
+details
+ that
+ they
+ capture
+ from
+ from
+ the
+
+
+text.
+ But
+ if
+ you
+ have
+ incremental
+
+
+generation
+ so
+ if
+ you
+ have
+ text
+ and
+ then
+
+
+an
+ image
+ and
+ text
+ and
+ image
+ you
+ can't
+
+
+get
+ your
+ model
+ to
+ generate
+ these
+ details
+
+
+one
+ by
+ one.
+ So
+ you
+ you
+ never
+ expect
+ your
+
+
+model
+ to
+ to
+ generate
+ an
+ image
+ a
+ perfect
+
+
+image
+ in
+ the
+ first
+ shot
+ right?
+ So,
+ so
+
+
+you
+ expect
+ model
+ your
+ model
+ to
+ plan
+
+
+about
+ this
+ generation.
+ So,
+ it
+ says
+ that
+
+
+oh,
+ you
+ know,
+ let
+ me
+ start
+ with
+ big
+
+
+objects
+ because,
+ you
+ know,
+ later
+ I'm
+
+
+going
+ to
+ have
+ a
+ hard
+ time
+ if
+ I
+ put
+ like
+
+
+small
+ objects
+ and
+ the
+ big
+ objects
+ don't
+
+
+fit,
+ right?
+ So,
+ let
+ me
+ just
+ do
+ that.
+ And
+
+
+then
+ like
+ in
+ the
+ next
+ turn,
+ I
+ go
+ with
+
+
+like
+ medium
+ objects
+ and
+ and
+ smaller.
+ And
+
+
+this
+ like
+ super
+ smart,
+ you
+ know,
+ and
+
+
+you're
+ never
+ bottlenecked
+ by
+ the
+
+
+capability
+ of
+ a
+ single
+ shot
+ image
+
+
+generation
+ because
+ you
+ you
+ did
+ planning
+
+
+and
+ then
+ you
+ tune
+ every
+ step
+ difficulty
+
+
+to
+ to
+ match
+ the
+ capability
+ of
+ your
+ model
+
+
+to
+ generate
+ a
+ one
+ one
+ shot.
+ So
+ that
+ was
+
+
+also
+ one
+ of
+ the
+ things
+ that
+ like
+ you
+
+
+know
+ Nana
+ a
+ banana
+ and
+ and
+ native
+
+
+generation
+ interle
+ generation
+ uh
+ kind
+ of
+
+
+brought
+ like
+ a
+ completely
+ new
+
+
+perspective
+ to
+ image
+ generation
+ uh
+ work
+
+
+which
+ is
+ like
+ a
+ little
+ bit
+ like
+ far
+ from
+
+
+like
+ you
+ know
+ just
+ translating
+ text
+ into
+
+
+an
+ image.
+
+
+>> Fascinating.
+ Does
+ part
+ of
+ this
+
+
+contribute
+ to
+ efficiency?
+ So
+ especially
+
+
+nanobana
+ too
+ you
+ have
+ the
+ the
+ flash
+
+
+aspect
+ of
+ this.
+ So
+ you're
+ able
+ to
+ create
+
+
+amazing
+ images
+ very
+ fast
+ and
+ apparently
+
+
+I
+ mean
+ seemingly
+ very
+ efficiently.
+ So
+
+
+what's
+ what's
+ behind
+ the
+ scenes
+ that
+ is
+
+
+that
+ what
+ you
+ describe
+ is
+ that
+ how
+ are
+
+
+you
+ able
+ to
+ do
+ that?
+
+
+>> First
+ of
+ all
+ I
+ was
+ I
+ was
+ involved
+ in
+ the
+
+
+original
+ Nano
+ Banana
+ Nano
+ Banana
+ Pro
+ and
+
+
+then
+ the
+ last
+ version
+ I
+ g
+ like
+ you
+ know
+
+
+because
+ I
+ I
+ jumped
+ on
+ the
+ post
+ training
+
+
+and
+ coding
+ and
+ agent
+ and
+ I
+ find
+ it
+
+
+exciting
+ this
+ one
+ like
+ this
+ the
+ team
+
+
+actually
+ shipped
+ it.
+ But
+ if
+ I
+ want
+ to
+
+
+say
+ like
+ like
+ super
+ high
+ level
+ that
+ you
+
+
+know
+ what
+ is
+ exactly
+ the
+ things
+ that
+
+
+makes
+ the
+ model
+ like
+ uh
+ like
+ faster
+ and
+
+
+more
+ efficient
+ part
+ of
+ it
+ is
+ just
+ the
+
+
+size
+ of
+ the
+ model.
+ So
+ like
+ non
+ banana
+
+
+was
+ pro
+ size
+ and
+ this
+ one
+ is
+ just
+ like
+
+
+flash.
+ So
+ definitely
+ the
+ the
+ the
+
+
+parameter
+ size
+ like
+ you
+ know
+
+
+configuration
+ of
+ the
+ and
+ stuff.
+ The
+
+
+other
+ one
+ was
+ uh
+ people
+ actually
+ spent
+
+
+quite
+ a
+ lot
+ of
+ time
+ on
+ figuring
+ out
+ like
+
+
+you
+ know
+ uh
+ um
+ like
+ nailing
+ down
+ like
+
+
+distillation
+ recipe
+ uh
+ both
+ on
+ the
+ side
+
+
+of
+ like
+ knowledge
+ and
+ like
+ you
+ know
+
+
+other
+ like
+ things
+ that
+ basically
+ you
+ you
+
+
+kind
+ of
+ like
+ need
+ to
+ distill
+ to
+
+
+something
+ like
+ a
+ process
+ that
+ is
+ like
+
+
+you
+ know
+ lighter
+ than
+ the
+ full
+ process.
+
+
+Surprisingly
+ a
+ lot
+ of
+ infra
+ work
+ for
+
+
+serving.
+ So
+ we
+ have
+ like
+ really
+ really
+
+
+really
+ brilliant
+ people
+ that
+ they're
+
+
+like
+ you
+ know
+ serving
+ engineers
+ and
+ it's
+
+
+kind
+ of
+ impressive
+ that
+ like
+ you
+ sit
+ on
+
+
+your
+ desk
+ and
+ then
+
+
+like
+ they
+ they
+ come
+ and
+ they
+ say
+ oh
+ by
+
+
+the
+ way
+ but
+ casually
+ I
+ made
+ the
+ model
+
+
+10x
+ faster.
+ I
+ was
+ like
+ you
+ know
+ like
+
+
+it's
+ just
+ like
+ and
+ they
+ just
+ kind
+ of
+
+
+saying
+ it
+ like
+ you
+ know
+ in
+ a
+ very
+ like
+
+
+you
+ know
+ casual
+ like
+ wow
+ this
+ is
+ like
+
+
+impressive.
+ We
+ had
+ also
+ a
+ lot
+ of
+ work
+ on
+
+
+the
+ on
+ on
+ optimizing
+ the
+ serving
+ uh
+ how
+
+
+to
+ serve
+ these
+ models
+ and
+ and
+ you
+ know
+
+
+like
+ because
+ these
+ models
+ are
+ operating
+
+
+differently
+ from
+ like
+ just
+ like
+ normal
+
+
+nbridge
+ model
+ like
+ they're
+ not
+
+
+necessarily
+ you
+ know
+ like
+ um
+ the
+ same
+ as
+
+
+you
+ know
+ next
+ to
+ prediction
+ this
+ is
+
+
+definitely
+ something
+ that
+ you
+ know
+ a
+
+
+good
+ serving
+ engineer
+ can
+ figure
+ out
+
+
+that
+ okay
+ you
+ know
+ I
+ can
+ think
+ about
+ a
+
+
+different
+ way
+ of
+ doing
+ that
+ and
+ we
+ had
+
+
+also
+ a
+ lot
+ of
+ improvement
+ on
+ the
+
+
+efficiency
+ side
+ by
+ by
+ their
+ work.
+ All
+
+
+right.
+ So,
+ as
+ we
+ get
+ towards
+ the
+ uh
+ end
+
+
+of
+ this
+ conversation,
+ I
+ thought
+ it'd
+ be
+
+
+fun
+ to
+ end
+ with
+ a
+ few
+ hot
+ takes
+ if
+ you
+
+
+if
+ you're
+ ready
+ for
+ them.
+
+
+>> Yeah,
+ absolutely.
+
+
+>> All right.
+ What
+ is
+ one
+ thing
+ the
+ AI
+
+
+field
+ is
+ getting
+ wrong
+ right
+ now?
+
+
+not
+ easy
+ to
+ pinpoint
+ like
+ a
+ specific
+
+
+things
+ but
+ again
+ like
+ you
+ know
+ this
+ is
+
+
+just
+ like
+ my
+ personal
+ opinion
+ and
+ and
+
+
+maybe
+ I
+ have
+ colleagues
+ and
+ and
+ like
+
+
+other
+ people
+ like
+ sharing
+ this
+ with
+ me
+
+
+but
+ uh
+ I
+ think
+ we're
+ underestimating
+ how
+
+
+hard
+ uh
+ uh
+ like
+ jagged
+ intelligence
+ is
+
+
+to
+ fix
+ we're
+ missing
+ how
+ like
+ like
+
+
+understand
+ like
+ we're
+ underestimating
+
+
+how
+ much
+ it
+ matters
+ and
+ uh
+ we
+ talk
+ about
+
+
+almost
+ like
+ people
+ laugh
+ and
+ and
+ and
+ go
+
+
+you
+ know
+ like
+ if
+ if
+ you
+ have
+ a
+ model
+
+
+that
+ does
+ like
+ a
+ like
+ a
+ very
+ difficult
+
+
+like
+ math
+ proof
+ but
+ has
+ difficult
+ time
+
+
+like
+ counting
+ like
+ letters
+ in
+ a
+ in
+ a
+
+
+war.
+ Uh
+ as
+ I
+ said
+ just
+ people
+ just
+ laugh
+
+
+and
+ and
+ move
+ on
+ but
+ but
+ I
+ think
+ it
+
+
+actually
+ like
+ pointing
+ at
+ something
+ like
+
+
+deep
+ and
+ unresolved
+ about
+ these
+ system
+
+
+like
+ the
+ way
+ that
+ these
+ systems
+ kind
+ of
+
+
+like
+ you
+ know
+ represent
+ unprocess
+
+
+knowledge
+ and
+ it's
+ not
+ a
+ bug
+ that
+ you
+
+
+can
+ patch.
+ So
+ definitely
+ you
+ know
+ like
+
+
+like
+ we
+ we
+ like
+ we
+ we
+ see
+ that
+ you
+ know
+
+
+this
+ is
+ happening
+ you
+ know
+ like
+ people
+
+
+sometimes
+ you
+ know
+ oh
+ like
+ or or
+ we
+ have
+
+
+this
+ problems
+ that
+ you
+ know
+ something
+ is
+
+
+like
+ awfully
+ sad
+ and
+ then
+ you
+ can
+ oh
+ you
+
+
+know
+ let
+ me
+ just
+ like
+ you
+ know
+ patch
+ by
+
+
+adding
+ something
+ for
+ the
+ system
+
+
+instruction
+ or
+ the
+ opener
+ instruction
+ a
+
+
+bit
+ of
+ a
+ structural
+ property
+ of
+ how
+
+
+these
+ models
+ actually
+ learn.
+ So
+ I
+ I
+
+
+would
+ say
+ this
+ is
+ probably
+ one
+ of
+ the
+
+
+things
+ that
+ we're
+ we're
+ not
+ getting
+ it
+
+
+like
+ super
+ right
+ at
+ this
+ point.
+
+
+>> Great.
+ What
+ is
+ one
+ idea
+ in
+ AI
+ research
+
+
+right
+ now
+ that
+ is
+ underrated?
+
+
+>> Something
+ that
+ is
+ underrated
+ like
+ you
+
+
+mentioned
+ continue
+ learning.
+ I
+ I
+ think
+
+
+this
+ is
+ this
+ is
+ definitely
+ underrated.
+
+
+As
+ I
+ said,
+ you
+ know,
+ like
+ sometimes
+ the
+
+
+problem
+ stays
+ in
+ the
+ exploration
+ mode
+ uh
+
+
+until
+ we
+ are
+ confident
+ about
+ something
+
+
+and
+ then
+ it
+ goes
+ to
+ the
+ exploitation
+
+
+mode.
+ I
+ I
+ think
+ we're
+ past
+ the
+ time
+ that
+
+
+we
+ really
+ had
+ to
+ push
+ this
+ to
+ the
+
+
+exploitation.
+ So
+ maybe
+ like
+ foundation
+
+
+models
+ are
+ are
+ essentially
+ right
+ now
+
+
+like
+ frozen
+ in
+ time
+ and
+ like
+ when
+ the
+
+
+like
+ the
+ training
+ ends,
+ right?
+ And
+ then
+
+
+everything
+ is
+ like
+ built
+ on
+ top
+ of
+ this
+
+
+frozen
+ model
+ like
+ you
+ know
+ rag
+ pipeline
+
+
+and
+ and
+ fine-tuning
+ workflows
+ and
+
+
+retrieval
+ system
+ and
+ all
+ these
+ like
+
+
+elaborate
+ like
+ infrastructure
+ is
+ like
+ um
+
+
+all
+ based
+ on
+ this
+ assumption
+ that
+ these
+
+
+models
+ are
+ frozen
+ and
+ uh
+ it's
+ a
+ bit
+ of
+ a
+
+
+like
+ a
+ too
+ much
+ of
+ a
+ strong
+ problem
+
+
+there
+ assumption
+ to
+ make
+ and
+ and
+ and
+ I
+
+
+think
+ like
+ we
+ are
+ going
+ to
+ like
+ get
+ to
+
+
+the
+ point
+ that
+ we
+ need
+ to
+ change
+ these
+
+
+assumptions
+ and
+ like
+ maybe
+ like
+ we
+ need
+
+
+to
+ think
+ about
+ it
+ a
+ little
+ bit
+ more
+
+
+actively
+ and
+ have
+ um
+ pushing
+ it
+ toward
+
+
+like
+ you
+ know
+ something
+ that
+ we
+ actually
+
+
+push
+ it
+ to
+ productionization
+ and
+ maybe
+
+
+it's
+ a
+ little
+ bit
+ like
+ underrated
+ right
+
+
+now
+ like
+ the
+ continual
+ learning.
+ So
+ you
+
+
+think
+ rag
+ goes
+ away
+ over
+ time?
+
+
+>> It's
+ not
+ going
+ to
+ look
+ like
+ as
+ is
+ today
+
+
+and
+ it's
+ going
+ to
+ be
+ different
+ but
+ like
+
+
+saying
+ that
+ it's
+ going
+ to
+ go
+ away
+
+
+completely.
+ I'm
+ I'm
+ not
+ sure
+ about
+ that.
+
+
+And
+ and
+ one
+ of
+ the
+ reason
+ that
+ I
+ say
+
+
+that
+ is
+ rag
+ is
+ not
+ just
+ about
+ bringing
+
+
+like
+ fresh
+ information
+ to
+ the
+ model
+ when
+
+
+when
+ it
+ wants
+ to
+ kind
+ of
+ like
+ solve
+ a
+
+
+problem
+ about
+ like
+ the
+ current
+ state
+ of
+
+
+things,
+ but
+ it
+ also
+ has
+ this
+ kind
+ of
+
+
+like
+ in
+ context
+ learning
+ and
+ and
+ there
+
+
+is
+ a
+ difference
+ between
+ in
+ context
+
+
+learning
+ like
+ the
+ information
+ that
+ you
+
+
+have
+ in
+ in
+ the
+ context
+ of
+ the
+ model
+
+
+compared
+ to
+ the
+ to
+ the
+ information
+ that
+
+
+you
+ have
+ in
+ the
+ weight
+ of
+ the
+ model.
+
+
+like
+ continuous
+ learning
+ and
+ and
+ rag
+ are
+
+
+are
+ doing
+ different
+ things
+ uh
+ for
+
+
+bringing
+ this
+ fresh
+ information.
+ Maybe
+
+
+it
+ changes
+ in
+ a
+ way
+ that
+ you
+ know
+ like
+
+
+it
+ doesn't
+ need
+ to
+ trigger
+ rag
+ for
+ like
+
+
+everything
+ but
+ I'm
+ pretty
+ sure
+ that
+
+
+there
+ going
+ to
+ be
+ some
+ tail
+ of
+ the
+
+
+distribution
+ that
+ we're
+ going
+ to
+ do
+ rag
+
+
+still
+ for
+ it
+ you
+ know
+ like
+ what's
+ the
+
+
+time
+
+
+>> all
+ right
+ last
+ couple
+ of
+ hot
+ takes
+ what
+
+
+do
+ you
+ think
+ people
+ are
+ too
+ confident
+
+
+about
+
+
+>> so
+ people
+ think
+ that
+ you
+ know
+ the
+
+
+pushing
+ the
+ technical
+ side
+ is
+ uh
+ is
+
+
+sufficient
+ that
+ if
+ we
+ just
+ like
+ get
+ a
+
+
+model
+ that
+ is
+ smarter
+ uh
+ everything
+ is
+
+
+going
+ to
+ follow
+ and
+ and
+ in
+ my
+ opinion
+
+
+like
+ a
+ version
+ of
+ AI
+ that
+ is
+ like
+ you
+
+
+really
+ really
+ brilliant
+ at
+ um
+ like
+
+
+technical
+ problems,
+ but
+ it
+ has
+ a
+ like
+ a
+
+
+blind
+ spot
+ about
+ you
+ know
+ everything
+
+
+else.
+ And
+ that
+ version
+ is
+ not
+ going
+ to
+
+
+be
+ able
+ to
+ actually
+ create
+ meaningful
+
+
+prog
+ like
+ progress
+ in
+ in
+ the
+ war.
+ And
+
+
+the
+ fact
+ that
+ you
+ know
+ people
+ kind
+ of
+
+
+assume
+ and
+ and
+ confident
+ about
+ like
+ like
+
+
+they're
+ confident
+ about
+ this
+ that
+ that
+
+
+kind
+ of
+ like
+ you
+ know
+ everything
+ is
+
+
+going
+ to
+ everything
+ else
+ is
+ going
+ to
+
+
+follow
+ or
+ uh
+ uh
+ or
+ or
+ just
+ everything
+
+
+else
+ is
+ just
+ like
+ a
+ small
+ list.
+ Um
+ I
+
+
+think
+ it's
+ wrong
+ like
+ you
+ know
+ we
+ have
+
+
+governance
+ we
+ have
+ like
+ you
+ know
+
+
+regulation
+ we
+ have
+ social
+ trust
+ we
+ have
+
+
+like
+ for
+ example
+ distribution
+ of
+ access
+
+
+and
+ the
+ benefit
+ like
+ in
+ the
+ world
+ for
+
+
+for
+ this
+ technology
+ and
+ even
+ the
+ like
+
+
+you
+ know
+ the
+ institutional
+ capacity
+ to
+
+
+to
+ kind
+ of
+ like
+ absorb
+ and
+ adapt
+ this
+
+
+technology
+ is
+ is
+ just
+ like
+ this
+ is
+
+
+something
+ that
+ maybe
+ we
+ don't
+ have
+
+
+enough
+ um
+ like
+ attention
+ to
+ and
+ uh
+ and
+
+
+and
+ these
+ are
+ not
+ really
+ solved
+ problems
+
+
+if
+ not
+ harder
+ than
+ the
+ technical
+ part.
+
+
+They're
+ they're
+ really
+ hard
+ and
+ like
+ the
+
+
+pace
+ of
+ technical
+ progress
+ is
+ definitely
+
+
+like
+ like
+ um
+ currently
+ running
+ ahead
+ of
+
+
+the
+ world's
+ capacity
+ to
+ to
+ develop
+ this
+
+
+kind
+ of
+ like
+ you
+ know
+ mechanism
+ uh
+ and
+
+
+this
+ gap
+ is
+ getting
+ like
+ you
+ know
+ bigger
+
+
+and
+ bigger
+ but
+ what
+ I'm
+ saying
+ is
+
+
+basically
+ like
+ you
+ know
+ the
+ field
+ needs
+
+
+to
+ hold
+ both
+ things
+ at
+ once.
+ So
+ maybe
+
+
+that's
+ uh
+ yeah
+ that's
+ one
+ of
+ the
+ things.
+
+
+All
+ right,
+ and
+ last
+ one
+ and
+ I
+ don't
+ know
+
+
+if
+ that's
+ a
+ hot
+ take
+ or
+ maybe
+ just
+
+
+advice
+ for
+ anybody
+ entering
+ the
+ field
+
+
+today.
+ If
+ you
+ were
+ going
+ to
+ start
+ from
+
+
+scratch
+ today,
+ what
+ would
+ you
+ work
+ on?
+
+
+>> I
+ don't
+ want
+ to
+ start
+ from
+ scratch.
+ It's
+
+
+hard
+ to
+ start.
+ Um
+ I
+ can
+ tell
+ you
+ like
+
+
+you
+ know
+ there
+ there
+ are
+ two
+ things
+ that
+
+
+I
+ I
+ think
+ like
+ you
+ know
+ would
+ be
+ nice
+ to
+
+
+spend
+ more
+ time
+ on
+ it
+ and
+ there's
+ one
+
+
+thing
+ that
+ I'm
+ like
+ very
+ excited
+ about
+
+
+it.
+ I
+ start
+ from
+ the
+ the
+ things
+ that
+ I'm
+
+
+like
+ really
+ excited
+ about
+ it
+ and
+ and
+ I
+
+
+would
+ say
+ like
+ you
+ know
+ short
+ term
+ it's
+
+
+like
+ really
+ exciting
+ to
+ push
+ it.
+ I
+ am
+
+
+actually
+ trying
+ to
+ even
+ like
+ you
+ know
+ be
+
+
+able
+ to
+ contribute
+ to
+ to
+ this
+ direction
+
+
+and
+ and
+ that's
+ like
+ full
+ automation
+ of
+
+
+like
+ super
+ long
+ horizon
+ task
+ things
+ that
+
+
+you
+ know
+ like
+ you
+ have
+ a
+ machine
+ working
+
+
+for
+ maybe
+ like
+ two
+ weeks
+ one
+ months
+ like
+
+
+the
+ agents
+ today
+ are
+ are
+ very
+ impressive
+
+
+right
+ and
+ and
+ and
+ the
+ demos
+ are
+ like
+
+
+very
+ like
+ very
+ marketable
+ but
+ like
+
+
+there's
+ this
+ compounding
+ reliability
+
+
+problem
+ that
+ doesn't
+ get
+ talked
+ about
+
+
+like
+ you
+ know
+ enough
+ and
+ um
+ and
+ for
+
+
+example
+ like
+ imagine
+ if
+ an
+ agent
+ has
+ to
+
+
+take
+ 100
+ sequential
+ steps
+ to
+ complete
+
+
+complete
+ a
+ task
+ and
+ imagine
+ if
+ each
+ step
+
+
+has
+ 95%
+ of
+ like
+ success
+ rate
+ which
+ is
+
+
+like
+ great
+ you
+ know
+ like
+ I
+ like
+ given
+
+
+the
+ the
+ the
+ the
+ the
+ models
+ that
+ we
+ have
+
+
+today
+ 95%
+ is
+ like
+ really
+ good
+ the
+
+
+probability
+ of
+ um
+ completing
+ the
+ whole
+
+
+task
+ without
+ a
+ single
+ failure
+ is
+ like
+
+
+0.95
+ to
+ the
+ power
+ of
+ 100
+ which
+ which
+ is
+
+
+like
+ less
+ than
+ 1%.
+ and
+ and
+ and
+ this
+ math
+
+
+is
+ like
+ brutal,
+ right?
+ Like
+ you
+ know
+ and
+
+
+and
+ this
+ like
+ 95
+ per
+ step
+ 95%
+ per
+ step
+
+
+as
+ I
+ said
+ is
+ like
+ very
+ very
+ optimistic.
+
+
+long
+ horizon
+ automation
+ is
+ like
+ u
+ like
+
+
+definitely
+ isn't
+ impossible
+ but
+ it
+
+
+requires
+ a
+ level
+ of
+ like
+ you
+ know
+ per
+
+
+step
+ reliability
+ and
+ and
+ like
+ you
+ know
+
+
+error
+ recovery
+ and
+ and and
+ the
+ current
+
+
+system
+ maybe
+ don't
+ have
+ it
+ and
+ uh
+ if
+ if
+
+
+we
+ want
+ like
+ you
+ know
+ social
+ trust
+ and
+
+
+and
+ you
+ know
+ basically
+ having
+ like
+
+
+people
+ like
+ really
+ using
+ it
+ you
+ know
+ at
+
+
+the
+ end
+ of
+ the
+ day
+ like
+ like
+ people
+
+
+don't
+ experience
+ average
+ performance
+ of
+
+
+these
+ models
+ then
+ they
+ experience
+ like
+
+
+the
+ failures
+ if
+ you
+ have
+ your
+ model
+
+
+doing
+ a
+ dumb
+ mistake
+ the
+ the
+ damage
+ in
+
+
+the
+ trust
+ that
+ it
+ makes
+ is
+ like
+ bigger
+
+
+than
+ than
+ like
+ you
+ know
+ the
+ benefit
+ of
+
+
+getting
+ 100
+ things
+ right
+ right
+ like
+ 100
+
+
+imperfect
+ uh
+ things
+ right
+ so
+ this
+ like
+
+
+reliability
+ in
+ this
+ like
+ long
+ horizon
+
+
+task
+ is
+ something
+ that
+ we
+ definitely
+
+
+need
+ the
+ kind
+ of
+ like
+ side
+ of
+ as
+ I
+ said
+
+
+you
+ know
+ two
+ two
+ kind
+ of
+ like
+ more
+
+
+philosophical
+ high
+ level
+ things
+ I
+ would
+
+
+definitely
+ like
+ work
+ on
+ grounding
+
+
+problem
+ and
+ how
+ we
+ can
+ build
+ AI
+ system
+
+
+that
+ are
+ robust
+ and
+ connected
+ to
+
+
+physical
+ world
+ as
+ I
+ said
+ you
+ know
+ like
+
+
+like
+ soon
+ like
+ the
+ the
+ concept
+ of
+ data
+
+
+like
+ you
+ know
+ how
+ to
+ kind
+ of
+ like
+ you
+
+
+know
+ enable
+ these
+ models
+ to
+ kind
+ of
+ like
+
+
+you
+ know
+ be
+ very
+ good
+ at
+ like
+
+
+self-improvement
+ becomes
+ how
+ can
+ I
+
+
+ground
+ these
+ models
+ in
+ in
+ real
+ war
+ so
+
+
+this
+ is
+ definitely
+ like
+ something
+ that
+
+
+you
+ know
+ would
+ be
+ the
+ bottleneck
+ of
+
+
+self-improvement
+ if
+ we
+ don't
+ actively
+
+
+think
+ about
+ it
+ we
+ should
+ definitely
+ move
+
+
+away
+ from
+ like
+ this
+ statistical
+ pattern
+
+
+in
+ text
+ and
+ pixels
+ and
+ the
+ other
+ things
+
+
+that
+ is
+ uh
+ maybe
+ kind
+ of
+ like
+ you
+ know
+
+
+related
+ is
+ um
+ even
+ thinking
+ about
+ you
+
+
+know
+ a
+ better
+ definition
+ of
+ like
+
+
+intelligence
+ itself
+ right
+ a
+ little
+ bit
+
+
+like
+ philosophical
+ but
+ um
+ but
+ it's
+ a
+
+
+definitely
+ a
+ practical
+ practical
+
+
+question.
+ Uh
+ and
+ uh
+ like
+ the
+ whole
+ field
+
+
+and
+ and
+ us
+ you're
+ we're
+ building
+ uh
+ like
+
+
+more
+ and
+ more
+ like
+ something
+ that
+ we
+
+
+haven't
+ like
+ really
+ defined
+ you
+ know
+
+
+like
+ like
+ we're
+ we're
+ trying
+ to
+ kind
+ of
+
+
+make
+ these
+ models
+ smarter
+ and
+ more
+
+
+intelligent
+ but
+ like
+ the
+ definition
+ of
+
+
+intelligent
+ is
+ just
+ so
+ handy
+ and
+ fuzzy
+
+
+that
+ it's
+ hard
+ to
+ actually
+ kind
+ of
+ like
+
+
+you
+ know
+ measure
+ the
+ meaningful
+ progress
+
+
+like
+ which
+ is
+ related
+ to
+ your
+ question
+
+
+that
+ about
+ you
+ know
+ like
+ how
+ about
+ like
+
+
+evaluations.
+ It's
+ good,
+ you
+ know,
+ we
+
+
+have
+ proxies,
+ benchmarks,
+ scores,
+
+
+capabilities
+ and
+ and
+ and
+ even
+ vides,
+ you
+
+
+know,
+ which
+ is
+ I
+ I
+ find
+ like
+ super
+
+
+useful,
+ but
+ at
+ the
+ end
+ of
+ the
+ day,
+ uh
+ we
+
+
+really
+ need
+ a
+ a
+ systematic
+ way
+ of
+ uh
+
+
+maybe
+ defining
+ intelligence
+ that
+ that
+ is
+
+
+hard.
+ And
+ uh
+ again,
+ like
+ making
+ progress
+
+
+based
+ on
+ what
+ we
+ have
+ right
+ now
+ is
+ good,
+
+
+but
+ at
+ some
+ point
+ that
+ becomes
+ a
+ little
+
+
+bit
+ more
+ important
+ to
+ really
+ pinpoint
+
+
+that,
+ you
+ know,
+ what
+ is
+ the
+ target
+ and
+
+
+what
+ is
+ the
+ goal
+ and
+ then
+ uh
+ push
+ toward
+
+
+that
+ like
+ like
+ uh
+ with
+ maximum
+ speed.
+
+
+All
+ right,
+ Mustafa,
+ it's
+ been
+ a
+
+
+absolutely
+ fantastic
+ conversation.
+ Thank
+
+
+you
+ so
+ much
+ for
+ spending
+ time
+ with
+ us.
+
+
+Really
+ enjoyed
+ it.
+ Really
+ appreciate
+ it.
+
+
+Thank
+ you.
+
+
+>> Yeah,
+ thank
+ you
+ so
+ much
+ for
+ having
+ me.
+
+
+It
+ was
+ like
+ fun
+ to
+ to
+ chat
+ and
+ uh
+ thanks
+
+
+for
+ for
+ the
+ invite.
+
+
+>> Hi,
+ it's
+ Matt
+ Turk
+ again.
+ Thanks
+ for
+
+
+listening
+ to
+ this
+ episode
+ of
+ the
+ Mad
+
+
+Podcast.
+ If
+ you
+ enjoyed
+ it,
+ we'd
+ be
+ very
+
+
+grateful
+ if
+ you
+ would
+ consider
+
+
+subscribing
+ if
+ you
+ haven't
+ already
+ or
+
+
+leaving
+ a
+ positive
+ review
+ or
+ comment
+ on
+
+
+whichever
+ platform
+ you're
+ watching
+ this
+
+
+or
+ listening
+ to
+ this
+ episode
+ from.
+ This
+
+
+really
+ helps
+ us
+ build
+ a
+ podcast
+ and
+ get
+
+
+great
+ guests.
+ Thanks
+ and
+ see
+ you
+ at
+ the
+
+
+next
+ episode.
