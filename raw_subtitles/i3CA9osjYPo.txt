@@ -1,0 +1,298 @@
+Right now, the world is in an AI race.
+Companies, governments, universities
+are all racing to build
+bigger models, smarter systems.
+And behind the scenes,
+they are racing to build
+more data centers to power AI.
+But there's a problem.
+We are running head first
+into the limits of our infrastructure.
+The power grid includes
+all the infrastructure,
+power plants, transmission lines and all
+to generate and deliver
+power to our homes, our businesses,
+and now to AI data centers.
+In the United States,
+the grid operators are reporting
+that new AI data center projects
+are requesting power loads
+equal to entire cities.
+In some regions,
+utilities simply can't keep up.
+So when you hear “AI data center,”
+what comes to mind?
+For many, it's one thing:
+energy hogs.
+And they are not wrong.
+AI is dramatically accelerating
+the electricity demand of data centers.
+Just training GPT-4
+is estimated to have consumed
+around the annual electricity use
+of thousands of US homes.
+In another striking example, in Ireland,
+nearly 20 percent
+of the nation's electricity
+is drawn by data centers today.
+And these are not just statistics.
+They are also community stories.
+In the data center alley in Virginia,
+residents recently saw
+higher electricity bills,
+20 percent higher already
+compared to just a few years ago,
+as utilities scramble
+to serve massive new AI facilities.
+So energy-hog label seems well deserved.
+But that's only half the story.
+Here is the new view.
+These facilities are not
+just energy-hungry brains.
+They can also be the muscles
+of the grid, flexing on demand.
+Unlike our homes or hospitals,
+AI data centers run jobs
+that are predictable,
+controllable and often delayable.
+That makes them ideal to help
+balance supply and demand on the grid.
+By making AI data centers power-flexible,
+we can connect them
+much more rapidly to the grid,
+while at the same time making
+electricity more affordable and resilient.
+What's more, the AI boom is arriving
+just as the renewable boom
+is also taking off.
+Wind and solar don't follow our schedules,
+but data centers can.
+Which means we can align the rise of AI
+with the rise of clean energy,
+if we are bold enough
+to rethink their role.
+All this transformation
+to power flexibility
+didn't just come out of thin air.
+It builds on decades of research
+on energy-efficient computing,
+scheduling, optimization and many others.
+I've lived this journey myself.
+Early in my career,
+I asked a question
+that many found unrealistic.
+Could computer systems
+adapt their behavior
+depending on power grid needs,
+but without breaking
+their performance promise
+to their users?
+At the time, this sounded radical
+because why would we ever design
+a system that would slow itself down
+on purpose?
+But then came the breakthroughs.
+First, we discovered
+not all computing tasks are urgent.
+Some can wait for minutes or hours,
+and some can be slowed down
+without anyone really noticing it.
+For example,
+a researcher analyzing
+hundreds of medical images with AI
+may be OK with waiting
+just a little longer.
+Or, if you are fine-tuning your AI model
+over the course of the next few days,
+you may be OK with slowing it down
+for just a few hours.
+This inherent flexibility in computing
+gives us the flexibility
+we need to manage power.
+Second,
+we reframed the problem.
+Instead of asking
+how do we compute as fast as possible,
+we asked,
+how do we make computer systems
+meet the constraints of the power grid,
+while at the same time still delivering
+on user performance agreements?
+This shift led to new strategies:
+capping power,
+shifting workloads
+and provisioning the data center
+as a flexible reserve to the grid.
+A key aspect here is that we do keep
+the performance promise to users,
+so it's not arbitrary.
+User experience remains as a key target.
+And better yet,
+it becomes more predictable.
+So we built prototypes
+on real data-center servers,
+and they worked.
+Systems that could follow a power target
+while still delivering results.
+But all this journey wasn't smooth.
+There were paper rejections,
+funding rejections,
+colleagues telling me
+this would never work.
+Well, since I was a kid,
+I was told I'm a persistent person.
+Perhaps stubborn at times.
+And bold ideas require persistence
+because change almost always
+looks impossible
+before it looks obvious.
+So you take that feedback,
+you reframe it again and again,
+and you keep building.
+You keep proving.
+So what began as scribbles
+on a whiteboard 12 years ago,
+is now running on real AI data centers.
+Why does this matter now?
+Because the power grids challenge
+isn't just to generate more power.
+It's about timing.
+Solar gives us a glut
+of electricity at noon,
+but demand might peak in the evening.
+Wind might be abundant one day
+and scarce the next.
+Nuclear takes decades
+and billions of dollars to build
+and is often hard
+to locate in urban areas.
+Batteries are critical,
+but scaling them is costly, slow,
+and often not environmentally clean.
+Meanwhile, AI data centers themselves
+face five to seven-year wait times
+just to connect to the grid
+in places like Virginia.
+In AI time,
+where technologies shift
+in a major way every six months,
+five to seven years is an eternity.
+So here's the opportunity.
+With the right orchestration,
+AI data centers can be flexible today.
+No waiting, no new massive
+power infrastructure construction.
+They can soak up excess solar
+in the afternoon,
+scale down at peak times
+and act as virtual batteries today.
+And the stakes are real.
+Take Texas, August 23.
+During a brutal heat wave,
+the rising electricity demand
+pushed the grid to its limits.
+Wholesale electricity prices
+spiked over 800 percent
+in a single afternoon.
+So flexible loads,
+if they were widely available,
+could have reduced the costs
+and could have prevented the emergency
+alerts that went to the consumers.
+So we have two opportunities here.
+One, we can make
+current data centers flexible
+and help prevent blackouts
+and reduce electricity costs.
+Two, and perhaps the more significant,
+by making future data
+centers power-flexible,
+we can connect them much earlier
+without waiting for major
+power grid upgrades.
+If we ignore this opportunity,
+we are not just wasting renewable energy
+and we are not just raising
+our electricity bills.
+We are also slowing AI adoption,
+making it delayed,
+more expensive and less
+accessible to society.
+But there's a catch.
+Orchestrating this
+flexibility is not easy.
+Prices change hourly.
+Workloads may arrive unpredictably.
+Grid rules change across states,
+across countries.
+So no human operator
+and no single fixed data center
+management policy can keep up.
+This is where AI itself
+comes back into the story.
+The very technology driving
+this unforeseen demand
+is also probably the only thing
+smart enough to tame it.
+AI can learn patterns,
+anticipate grid needs
+and coordinate across
+data centers, across utilities,
+even nations in real time.
+Imagine a data center
+or a whole network of them,
+as an orchestra,
+with hundreds of instruments,
+all playing at once.
+Left on their own,
+it can sound like chaos.
+But bring in a conductor,
+suddenly all that noise turns into music.
+The conductor in this case is AI.
+AI can direct data center operation
+so that the data center
+can precisely match power constraints,
+depending on what the grid needs,
+what power is available
+and what users demand.
+The result is harmony.
+Reliable electricity, efficient computing
+and a system that works
+beautifully together.
+And that's exactly what we've built.
+We built software
+that slows down, speeds up,
+or pauses workloads in a data center,
+or shifts workload among data centers.
+Our conductor platform tunes
+performance and power at real time,
+all the while respecting user
+and cloud-provider performance needs.
+In this way, by flexing when needed,
+we can connect AI data centers
+much faster to the grid.
+Make better use of the available
+power in the power grid
+and enable faster AI adoption.
+I've been inside this story
+from an idea that once seemed impossible
+to prototypes in a lab,
+to systems now running in the field,
+and I believe this is just the beginning.
+AI is already reshaping how we compute,
+but it could also reshape
+how we power the world.
+So the question isn't how
+much energy AI consumes.
+The real question is how much
+flexibility, resilience
+and clean power can AI unlock?
+If we are bold enough
+to rethink AI data centers,
+the very machines
+that now seem like a burden
+could be our greatest assets
+in building a sustainable AI future.
+Thanks.
+(Applause)
