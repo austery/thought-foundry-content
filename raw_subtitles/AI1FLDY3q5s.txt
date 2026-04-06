@@ -1,0 +1,10951 @@
+The
+ minute
+ I
+ realized
+ I
+ couldn't
+ really
+
+
+do
+ my
+ job
+ was
+ when
+ I
+ was
+ trying
+ to
+
+
+reference
+ our
+ public
+ documentation
+ and
+
+
+trying
+ to
+ provide
+ an
+ answer.
+ It
+ just
+
+
+still
+ wasn't
+ coming
+ up
+ with
+ the
+ answer
+
+
+that
+ my
+ customers
+ were
+ looking
+ for.
+
+
+>> They
+ don't
+ want
+ the
+ doc's
+ answer.
+ They
+
+
+want
+ the
+ step-by-step
+ answer
+ of
+ how
+ all
+
+
+these
+ services
+ cascade
+ together.
+
+
+>> What
+ I
+ realized
+ is
+ that
+ I
+ can
+ actually
+
+
+pull
+ all
+ of
+ these
+ repos
+ into
+ my
+ VS
+ Code
+
+
+and
+ I
+ can
+ now
+ use
+ Cloud
+ Code
+ to
+ ask
+ our
+
+
+entire
+ codebase
+ questions.
+ Did
+ you
+ just
+
+
+say
+ claude
+ code
+ write
+ me
+ a
+ script
+ that
+
+
+pulls
+ all
+ these?
+
+
+>> Yeah.
+ Yeah,
+ I'm
+ opening
+ up
+ the
+ script
+
+
+right
+ now.
+ It's
+ like
+ what
+ 16
+ lines.
+
+
+Didn't
+ have
+ to
+ write
+ this.
+ I
+ just
+ said
+
+
+help
+ me
+ figure
+ out
+ a
+ way
+ to
+ pull
+ the
+
+
+latest
+ main
+ branches
+ into
+ my
+ local
+
+
+repos.
+
+
+>> The
+ reality
+ is
+ we
+ can
+ now
+ all
+ live
+ in
+ a
+
+
+little
+ bit
+ more
+ chaos
+ because
+ the
+ AI
+
+
+navigates
+ all
+ that
+ information
+ for
+ us
+
+
+across
+ systems,
+ right?
+ So
+ you
+ can
+ be
+ in
+
+
+your
+ code
+ querying
+ confluence
+ will
+ find
+
+
+the
+ information.
+ You
+ have
+ to
+ be
+ less
+
+
+precious
+ about
+ where
+ and
+ how
+ you
+ store
+
+
+the
+ information.
+
+
+>> Throw
+ into
+ confluence.
+ Throw
+ it
+ into
+
+
+notion,
+ throw
+ it
+ into
+ Slack,
+ wherever.
+
+
+That
+ ends
+ up
+ being
+ context
+ you
+ can
+
+
+provide
+ to
+ Claude
+ when
+ you
+ are
+ trying
+ to
+
+
+ask
+ it
+ a
+ question
+ about
+ a
+ customer
+ or
+
+
+about
+ your
+ codebase.
+
+
+>> Let's
+ give
+ Claude
+ code
+ a
+ little
+ spiff
+
+
+every
+ time
+ it
+ answers
+ a
+ question
+
+
+correctly.
+ You
+ got
+ to
+ split
+ your
+ quota
+
+
+with
+ Claude
+ code.
+
+
+>> Yeah,
+ it
+ gives
+ you
+ better
+ answers
+ the
+
+
+more
+ bucks
+ you
+ give
+ it
+ or
+ something.
+
+
+>> Coin
+ operated
+ Claude.
+ That's
+ going
+ to
+ be
+
+
+my
+ new
+ skill.
+
+
+Welcome
+ back
+ to
+ How
+ I
+ AI.
+ I'm
+ Clarvo,
+
+
+product
+ leader
+ and
+ AI
+ obsessive
+ here
+ on
+
+
+a
+ mission
+ to
+ help
+ you
+ build
+ better
+ with
+
+
+these
+ new
+ tools.
+ Today
+ we
+ have
+ an
+
+
+episode
+ all
+ about
+ harnessing
+ your
+ code
+
+
+to
+ make
+ your
+ customers
+ experience
+ way
+
+
+better.
+ Al
+ Chen,
+ who's
+ on
+ the
+ field
+
+
+engineering
+ team
+ at
+ Galileo,
+ shows
+ us
+
+
+how
+ he
+ uses
+ their
+ 15
+ repositories
+ and
+
+
+claude
+ code
+ to
+ answer
+ every
+ nuance
+
+
+customer
+ question
+ that
+ comes
+ across
+ his
+
+
+desk
+ and
+ use
+ that
+ to
+ make
+ the
+ entire
+
+
+customer
+ base
+ and
+ his
+ entire
+ team
+ a
+ lot
+
+
+happier.
+ Let's
+ get
+ to
+ it.
+ This
+ episode
+
+
+is
+ brought
+ to
+ you
+ by
+ Orcus,
+ the
+ company
+
+
+behind
+ Open-source
+ Conductor,
+ which
+
+
+powers
+ complex
+ workflows
+ and
+ process
+
+
+orchestration
+ for
+ modern
+ enterprise
+ apps
+
+
+in
+ Agentic
+ Workflows.
+ Legacy
+ business
+
+
+process
+ automation
+ tools
+ are
+ breaking
+
+
+down.
+ Siloed
+ low
+ code
+ platforms,
+
+
+outdated
+ process
+ management
+ systems,
+ and
+
+
+disconnected
+ API
+ management
+ tools
+
+
+weren't
+ built
+ for
+ today's
+ AI
+ powered
+
+
+world.
+ Orcus
+ changes
+ that.
+ With
+ Orcus
+
+
+Conductor,
+ you
+ get
+ a
+ modern
+
+
+orchestration
+ layer
+ that
+ scales
+ with
+
+
+high
+ reliability
+ and
+ brings
+ humans,
+ AI,
+
+
+and
+ systems
+ together
+ in
+ real
+ time.
+ It's
+
+
+not
+ just
+ about
+ tasks.
+ It's
+ about
+
+
+orchestrating
+ everything.
+ APIs,
+
+
+microservices,
+ data
+ pipelines,
+ human
+ in
+
+
+the
+ loop
+ actions,
+ and
+ even
+ autonomous
+
+
+agents.
+ So
+ build,
+ test,
+ and
+ debug
+
+
+complex
+ workflows
+ with
+ ease.
+ All
+ while
+
+
+maintaining
+ enterprisegrade
+ security,
+
+
+compliance,
+ and
+ observability.
+ Orcus,
+
+
+orchestrate
+ the
+ future
+ of
+ work.
+ Learn
+
+
+more
+ and
+ start
+ building
+ at
+ orcus.io.
+
+
+Al,
+ thanks
+ for
+ joining
+ how
+ I
+ AI.
+ I
+ am
+
+
+really
+ excited
+ about
+ this
+ episode
+
+
+because
+ we've
+ seen
+ a
+ lot
+ about
+ using
+
+
+your
+ code
+ as
+ documentation.
+ You
+ know,
+
+
+we've
+ heard
+ engineers
+ saying,
+ you
+ know,
+
+
+docs
+ and
+ code
+ should
+ be
+ in
+ the
+ repo.
+
+
+Product
+ managers
+ saying
+ code
+ can
+ now
+ be
+
+
+my
+ documentation
+ for
+ internally
+ facing
+
+
+assets
+ or
+ as
+ I
+ help
+ draft
+ PRDs.
+ But
+
+
+you're
+ going
+ to
+ show
+ us
+ how
+ you
+ can
+ use
+
+
+code
+ as
+ an
+ asset
+ to
+ create
+ customerf
+
+
+facing
+ things
+ and
+ solve
+ customerf
+ facing
+
+
+problems.
+ So
+ tell
+ me
+ what
+ what
+ problem
+
+
+were
+ you
+ facing
+ when
+ you
+ decided
+ I'm
+
+
+just
+ going
+ to
+ clone
+ the
+ repo
+ and
+ fire
+ up
+
+
+cloud
+ code
+ and
+ solve
+ some
+ of
+ these
+
+
+problems
+ myself?
+
+
+>> Sure.
+ Uh
+ so
+ working
+ at
+ Galileo
+ on
+ the
+
+
+field
+ engineering
+ team
+ I'm
+ on
+ the
+ front
+
+
+lines
+ in
+ terms
+ of
+ working
+ with
+ our
+
+
+enterprise
+ customers
+ who
+ are
+ typically
+
+
+developers
+ themselves
+ and
+ asking
+ very
+
+
+indepth
+ technical
+ questions
+ and
+ the
+
+
+minute
+ I
+ realized
+ I
+ couldn't
+ really
+ do
+
+
+my
+ job
+ was
+ when
+ I
+ was
+ trying
+ to
+
+
+reference
+ our
+ public
+ documentation
+ and
+
+
+trying
+ to
+ provide
+ an
+ answer
+ to
+ my
+
+
+customers
+ even
+ by
+ you
+ even
+ using
+ cloud
+
+
+code
+ or
+ chatbt
+ or
+ whatever
+ and
+ trying
+ to
+
+
+take
+ all
+ these
+ different
+ help
+ docs
+ and
+
+
+trying
+ to
+ come
+ up
+ with
+ the
+ answer.
+ It
+
+
+just
+ still
+ wasn't
+ coming
+ up
+ with
+ the
+
+
+answer
+ that
+ the
+ my
+ customers
+ were
+
+
+looking
+ for
+ and
+ I
+ just
+ background
+ I'm
+
+
+not
+ an
+ engineer.
+ I've
+ never
+ held
+ an
+
+
+engineering
+ role
+ but
+ I
+ think
+ I
+ know
+
+
+enough
+ to
+ just
+ be
+ dangerous
+ and
+ I
+
+
+realized
+ that
+ our
+ product
+ Galo's
+ product
+
+
+we're
+ an
+ observability
+ tool
+ for
+ AI
+ AI
+
+
+applications.
+ If
+ you
+ look
+ at
+ this
+ image
+
+
+here,
+ I'm
+ showing
+ an
+ architecture
+
+
+diagram
+ high
+ level
+ of
+ all
+ the
+ different
+
+
+services
+ that
+ make
+ up
+ our
+ platform.
+ This
+
+
+is
+ all
+ like
+ backend
+ images
+ that
+ you
+ have
+
+
+to
+ that
+ customers
+ have
+ to
+ deploy
+ onto
+
+
+their
+ Kubernetes
+ cluster.
+ And
+ I
+ realized
+
+
+that
+ all
+ these
+ different
+ um
+ services
+
+
+like
+ UI
+ API,
+ autho
+
+
+repo.
+ We're
+ not
+ a
+ mono
+ repo.
+ they
+ have
+
+
+like
+ multiple
+ different
+ repos.
+ And
+ so
+
+
+what
+ I
+ realized
+ is
+ that
+ I
+ can
+ actually
+
+
+pull
+ all
+ of
+ these
+ repos
+ into
+ my
+ VS
+ code.
+
+
+Initially
+ was
+ just
+ more
+ for
+ me
+ to
+ like
+ I
+
+
+wanted
+ to
+ understand
+ like
+ how
+ our
+ code
+
+
+works
+ and
+ how
+ our
+ code
+ is
+ structured.
+
+
+But
+ then
+ when
+ I
+ threw
+ it
+ all
+ into
+ VS
+
+
+code
+ which
+ looks
+ like
+ here
+ you
+ notice
+
+
+along
+ the
+ left
+ hand
+ side
+ I'm
+ open
+ VS
+
+
+code
+ now
+ and
+ most
+ of
+ these
+ directories
+
+
+correspond
+ to
+ one
+ of
+ those
+ services
+
+
+within
+ our
+ architecture.
+ So
+ one
+ repo
+
+
+corresponds
+ to
+ one
+ service.
+ And
+ by
+
+
+having
+ all
+ of
+ these
+ repos
+ in
+ my
+ VS
+ code,
+
+
+I
+ can
+ now
+ use
+ cloud
+ code
+ to
+ ask
+ my
+ our
+
+
+entire
+ codebase
+ questions
+ that
+ are
+ not
+
+
+answerable
+ by
+ our
+ public
+ documentation.
+
+
+And
+ so
+ sometimes
+ I'll
+ get
+ really
+ inep
+
+
+questions
+ about,
+ well,
+ how
+ does
+ this
+
+
+feature
+ actually
+ work?
+ And
+ so
+ I'll
+ ask
+
+
+cloud
+ code
+ look
+ into
+ the
+ API
+ repo,
+ look
+
+
+into
+ the
+ auth
+ repo
+ and
+ help
+ me
+ come
+ up
+
+
+with
+ an
+ answer.
+ If
+ you
+ can't
+ find
+ the
+
+
+answer,
+ reference
+ other
+ repos
+ within
+ my
+
+
+directory,
+ my
+ my
+ root
+ directory
+ and
+ help
+
+
+me
+ figure
+ out
+ the
+ answer.
+ And
+ so
+ that's
+
+
+the
+ key
+ unlock
+ was
+ when
+ I
+ figured
+ out
+ I
+
+
+could
+ get
+ way
+ more
+ in-depth,
+ way
+ more
+
+
+technical
+ and
+ at
+ the
+ same
+ time
+ myself
+ I
+
+
+can
+ learn
+ qu
+ learn
+ how
+ our
+ codebase
+
+
+works.
+ And
+ how
+ this
+ has
+ really
+ helped
+ me
+
+
+is
+ I
+ don't
+ have
+ to
+ constantly
+ ping
+ our,
+
+
+you
+ know,
+ team
+ engineering
+ channel
+ with,
+
+
+hey,
+ what's
+ the
+ answer
+ to
+ this
+ question?
+
+
+The
+ customer
+ just
+ ping
+ me
+ about
+ this.
+
+
+And
+ you
+ can
+ imagine
+ engineers
+ being
+
+
+really
+ frustrated
+ when
+ I'm
+ trying
+ to,
+
+
+you
+ know,
+ post
+ these
+ questions
+ and
+ then
+
+
+the
+ customer
+ asks
+ me
+ a
+ follow-up
+ and
+
+
+then
+ I'm
+ I'm
+ posting
+ that
+ follow-up
+ in
+
+
+the
+ Slack
+ thread.
+ So,
+ I'm
+ sure
+ many
+ of
+
+
+you
+ who
+ are
+ working
+ on
+ the
+ front
+ lines
+
+
+of
+ customers
+ understand
+ how
+ that
+ feels.
+
+
+But
+ I've
+ basically
+ reduced
+ all
+ that
+
+
+almost
+ down
+ to
+ zero
+ by
+ pulling
+ all
+ these
+
+
+repos
+ into
+ my
+ local
+ VS
+ code.
+
+
+>> I'm
+ really
+ empathetic
+ to
+ this
+ this
+
+
+problem
+ because
+ I
+ you
+ know
+ I
+ used
+ to
+
+
+work
+ at
+ launch
+ darkly
+ leading
+ product
+
+
+and
+ engineering
+ very
+ technical
+ product.
+
+
+We
+ too
+ had
+ an
+ architecture
+ diagram
+ that
+
+
+looked
+ very
+ similar
+ to
+ that
+ and
+ again
+ as
+
+
+a
+ more
+ of
+ a
+ you
+ know
+ people
+ think
+ that
+
+
+CPOS
+ chief
+ product
+ officers
+ or
+ CTOs
+ are
+
+
+internal
+ facing.
+ No
+ no no
+ we're
+ sales
+
+
+people.
+ We're
+ always
+ sales
+ people.
+ you
+
+
+trot
+ us
+ out
+ and
+ you
+ put
+ us
+ in
+ front
+ of
+
+
+the
+ customer
+ or
+ you
+ put
+ us
+ in
+ front
+ of
+
+
+the
+ prospect
+ to
+ answer
+ the
+ technical
+
+
+questions
+ and
+ we
+ had
+ a
+ diagram
+ like
+ that
+
+
+and
+ I
+ would
+ constantly
+ get
+ these
+ very
+
+
+detailed
+ questions
+ that
+ required
+ very
+
+
+detailed
+ answers
+ like
+ how
+ does
+ your
+
+
+caching
+ work
+ and
+ you
+ know
+ when
+ you
+ have
+
+
+seven
+ layers
+ of
+ caching
+ in
+ your
+ app
+ you
+
+
+can
+ give
+ the
+ highlevel
+ docs
+ answer
+ but
+
+
+when
+ you're
+ sitting
+ with
+ you
+ know
+ an
+
+
+architect
+ in
+ the
+ room
+ or
+ somebody
+ highly
+
+
+technical
+ they
+ don't
+ want
+ the
+ docs
+
+
+answer.
+ They
+ want
+ the
+ step-by-step
+
+
+answer
+ of
+ how
+ all
+ these
+ services
+ cascade
+
+
+together
+ to
+ build
+ a
+ resilient
+ caching
+
+
+mechanism,
+ for
+ example.
+ And
+ I
+ just
+ think
+
+
+how
+ powerful
+ is
+ it
+ to
+ be
+ in
+ a
+ meeting
+ or
+
+
+in
+ an
+ email
+ back
+ and
+ forth
+ and
+ not
+ just
+
+
+sort
+ of
+ give
+ this
+ high
+ level,
+ but
+ be
+
+
+able
+ to
+ query
+ the
+ current
+ codebase
+ and
+
+
+really
+ understand
+ at
+ a
+ detailed
+ level
+
+
+how
+ it
+ works.
+ And
+ I
+ think
+ current
+ is
+
+
+very
+ important
+ because
+ you
+ know
+ and
+ I
+
+
+know
+ this
+ is
+ always
+ evolving
+ over
+ time.
+
+
+So
+ even
+ if
+ you
+ got
+ the
+ answer
+ right
+ you
+
+
+know
+ a
+ month
+ ago
+ maybe
+ your
+ team
+ shipped
+
+
+an
+ update
+ or
+ maybe
+ you
+ know
+ that
+ method
+
+
+is
+ actually
+ out
+ of
+ date
+ or
+ the
+ docs
+ are
+
+
+a
+ little
+ bit
+ out
+ of
+ date.
+ So
+ I
+ do
+ think
+
+
+because
+ the
+ codebase
+ is
+ you
+ know
+ at
+
+
+least
+ your
+ main
+ branch
+ is
+ always
+ the
+
+
+source
+ of
+ truth
+ it
+ becomes
+ a
+ really
+
+
+reliable
+
+
+you
+ know
+ uh
+ context
+ set
+ for
+ you
+ to
+
+
+answer
+ questions
+ about
+ how
+ the
+ product
+
+
+operates.
+
+
+>> Yeah.
+ And
+ to
+ quickly
+ address
+ your
+
+
+comment
+ about
+ how
+ your
+ code
+ is
+ obviously
+
+
+always
+ evolving.
+ I
+ mean
+ we're
+ pushing
+
+
+out
+ you
+ know
+ multiple
+ features
+ per
+ day,
+
+
+multiple
+ releases.
+ And
+ one
+ thing
+ I've
+
+
+done
+ wrote
+ this
+ with
+ cloud
+ code
+ is
+ I
+
+
+have
+ this
+ script
+ at
+ my
+ root
+ directory
+
+
+that
+ says
+ like
+ I
+ just
+ do
+ something
+
+
+called
+ pull
+ all
+ and
+ this
+ I'm
+ not
+ sure
+ if
+
+
+this
+ is
+ how
+ other
+ people
+ do
+ it
+ but
+ it
+
+
+just
+ pulls
+ the
+ main
+ branch
+ into
+ my
+ repo
+
+
+for
+ all
+ the
+ repos
+ in
+ my
+ root
+ directory.
+
+
+So
+ if
+ I
+ do
+ this
+ every
+ day
+ I
+ kind
+ of
+ get
+
+
+the
+ latest
+ code
+ across
+ like
+ all
+ these
+
+
+directories
+ on
+ the
+ lefth
+ hand
+ side
+ of
+ my
+
+
+VS
+ code.
+ So
+ it
+ the
+ alternative
+ which
+ I
+
+
+was
+ doing
+ before
+ for
+ like
+ a
+ few
+ weeks
+
+
+and
+ I
+ realized
+ this
+ is
+ just
+ as
+ I'm
+ doing
+
+
+this
+ is
+ doing
+ git
+ pull
+ origin
+ main
+ on
+
+
+every
+ single
+ directory
+ and
+ it
+ was
+ just
+
+
+like
+ not
+ scalable
+ because
+ there's
+ now
+
+
+like
+ 15
+ different
+ repos
+ I
+ have
+ to
+ pull
+
+
+the
+ latest
+ from.
+ So
+ that's
+ kind
+ of
+ how
+ I
+
+
+solved
+ the
+ codebase
+ is
+ always
+ evolving
+
+
+problem
+ to
+ make
+ sure
+ that
+ I'm
+ always
+
+
+getting
+ the
+ most
+ up-to-date
+ information
+
+
+for
+ my
+ customers.
+ And
+ I
+ have
+ to
+ ask,
+ did
+
+
+you
+ just
+ say
+ claude
+ code
+ write
+ me
+ a
+
+
+script
+ that
+ get
+ pulls
+ all
+ these?
+
+
+>> Oh
+ yeah,
+ yeah,
+ yeah.
+ I
+ I
+ have
+ no
+ idea.
+
+
+This
+ is
+ the
+ I'm
+ I'm
+ opening
+ up
+ the
+
+
+script
+ right
+ now
+ in
+ my
+ VS
+ Code.
+ And
+ it's
+
+
+like
+ what
+ 16
+ lines.
+ I
+ have
+
+
+>> didn't
+ have
+ to
+ write
+ this.
+ I
+ just
+ said
+
+
+help
+ me
+ figure
+ out
+ a
+ way
+ to
+ pull
+ the
+
+
+latest
+ main
+ branches
+ into
+ my
+ local
+
+
+repos.
+ And
+ it
+ just
+ did
+ it
+ in
+ like
+ one
+
+
+shot.
+
+
+>> Yeah.
+ The
+ other
+ thing
+ I
+ want
+ to
+ call
+ out
+
+
+for
+ folks
+ as
+ I'm
+ looking
+ at
+ your
+ screen
+
+
+is
+ I
+ don't
+ think
+ people
+ use
+ this
+ trick
+
+
+enough
+ which
+ is
+ in
+ VS
+ Code
+ in
+ cursor
+ and
+
+
+whatever
+ your
+ IDE
+ is.
+ Um
+
+
+loading
+ a
+ project
+ at
+ the
+ multi-reo
+ level
+
+
+as
+ opposed
+ to
+ at
+ the
+ individual
+ repo
+
+
+level
+ if
+ you're
+ trying
+ to
+ answer
+
+
+questions
+ across
+ the
+ product
+ is
+ really
+
+
+important.
+ So,
+ you
+ know,
+ there's
+ some
+
+
+like
+ context
+ bloat
+ stuff
+ that
+ can
+ come
+
+
+into
+ sort
+ of
+ querying
+ across
+ all
+ those
+
+
+repos
+ and
+ all
+ those
+ files,
+
+
+>> but
+ it
+ would
+ be
+ very
+ painful
+ if
+ you
+ had
+
+
+to
+ go
+ into
+ each
+ of
+ these
+ repos
+ one
+ by
+
+
+one
+ and
+ like
+ query
+ and
+ then
+ go
+ into
+ the
+
+
+other
+ one
+ and
+ query.
+ And
+ so
+ I
+ like
+ this
+
+
+idea
+ of
+ opening
+ them
+ all
+ jointly
+ in
+ in
+
+
+in
+ your
+ IDE
+ so
+ that
+ when
+ you're
+ querying
+
+
+it
+ with
+ cloud
+ code
+ or
+ you're
+ clearing
+ it
+
+
+you
+ know
+ with
+ something
+ like
+ cursor
+ um
+
+
+it
+ can
+ have
+ it
+ can
+ it
+ can
+ go
+ across
+
+
+traverse
+ across
+ repos
+ and
+ really
+ give
+
+
+you
+ highly
+ contextualized
+ answers.
+ Yeah,
+
+
+our
+ code
+ bases
+ happens
+ to
+ be
+ in
+ multiple
+
+
+repos,
+ but
+ I
+ just
+ pull
+ them
+ all
+ into
+
+
+this
+ like
+ giant
+ Galileo
+ directory
+ here.
+
+
+And
+ so
+ everything
+ is
+ like
+ at
+ the
+ same
+
+
+parent,
+ but
+ yeah,
+ if
+ you're
+ in
+ a
+ monor
+
+
+repo,
+ uh
+ could
+ be
+ yeah,
+ actually
+ I
+ don't
+
+
+know
+ how
+ this
+ would
+ work
+ with
+ monor
+ repo
+
+
+because
+ I've
+ never
+ done
+ it
+ with
+ monor
+
+
+repo
+ with
+ cloud
+ code,
+ but
+ um
+ at least
+
+
+for
+ us
+ at
+ Gal,
+ this
+ is
+ how
+ how
+ it
+ works.
+
+
+>> Well,
+ I
+ have
+ a
+ many
+ monor
+ repos
+ and
+
+
+yeah,
+ you
+ just
+ open
+ it
+ at
+ the
+ right.
+ I
+
+
+would
+ I
+ would
+ say
+ my
+ advice
+ to
+ folks
+ is
+
+
+open
+ claude
+ code
+ or
+ open
+ you
+ know
+ your
+
+
+IDE
+ at
+ the
+ right
+ level
+ and
+ sometimes
+
+
+it's
+ narrow
+ and
+ sometimes
+ you
+ need
+ to
+ go
+
+
+up
+ a
+ directory
+ and
+ I
+ think
+ really
+
+
+thinking
+ about
+ that
+ and
+ you
+ can
+ even
+ do
+
+
+that
+ contextualized
+ to
+ the
+ problem
+
+
+you're
+ trying
+ to
+ solve
+ right
+
+
+>> um
+ and
+ and
+ doing
+ that
+ I
+ think
+ is
+ really
+
+
+helpful
+ could
+ you
+ show
+ us
+ just
+ using
+
+
+cloud
+ code
+ what
+ kind
+ of
+ question
+ you
+
+
+could
+ answer
+ with
+ this
+ code
+ context
+
+
+>> I
+ will
+ um
+ give
+ give
+ you
+ an
+ example
+ of
+ um
+
+
+I
+ guess
+ um
+ I'm
+ a
+ big
+ believer
+ in
+ using
+
+
+shortcuts
+ too.
+ So
+ I
+ use
+ a
+ bunch
+ of
+
+
+custom
+ uh
+ claw
+ code
+ custom
+ commands
+ to
+
+
+help
+ me
+ do
+ stuff.
+ So
+ one
+ thing
+ I
+ do
+ a
+
+
+lot
+ is
+ helping
+ my
+ customers
+ deploy
+
+
+Galileo
+ onto
+ their
+ VPC.
+ So
+ I
+ have
+ a
+ a
+ a
+
+
+custom
+ command
+ called
+ DPL
+ which
+ is
+ it
+
+
+actually
+ references
+ our
+ the
+ first
+ thing
+
+
+it
+ does
+ is
+ it
+ looks
+ at
+ our
+ confluence
+
+
+because
+ we
+ have
+ a
+ whole
+ bunch
+ of
+
+
+confluence
+ pages
+ about
+ how
+ to
+ deploy
+
+
+into
+ Kubernetes
+ using
+ our
+ different
+
+
+images
+ and
+ stuff
+ like
+ that.
+ So
+ I'll
+ say
+
+
+DPL
+ my
+ customer
+ um
+ cannot
+
+
+use
+ CRDs
+ and
+ they
+ are
+ using
+ Google
+
+
+Secrets
+ Manager
+ and
+ want
+ to
+ deploy
+
+
+the
+ wizard
+
+
+image
+
+
+give
+ me
+ a
+ stepbystep
+ process
+ on
+ how
+ to
+
+
+do
+ it.
+ This
+ is
+ actually
+ not
+ a
+ super
+
+
+representative
+ um
+ query
+ because
+ they're
+
+
+way
+ more
+ detailed
+ than
+ this
+ and
+ I
+
+
+provide
+ a
+ lot
+ more
+ context
+ but
+ I
+ want
+
+
+cloud
+ code
+ to
+ to
+ focus
+ on
+ um
+ looking
+ at
+
+
+confluence
+ first
+ because
+ I
+ know
+ that
+ we
+
+
+have
+ a
+ whole
+ bunch
+ of
+ deployment
+ stuff
+
+
+there
+ and
+ then
+ from
+ there
+ if
+ they
+ can't
+
+
+find
+ the
+ answer
+ it
+ will
+ go
+ off
+ into
+ all
+
+
+the
+ different
+ repos
+ along
+ the
+ lefth
+ hand
+
+
+side
+ of
+ my
+ cloud
+ code
+ VS
+ code
+ to
+ find
+
+
+the
+ answer.
+ So
+ right
+ now
+ it's
+ just
+ using
+
+
+the
+ lassie
+ and
+ MCP
+ to
+ pull
+ information
+
+
+from
+ confluence
+ and
+ then
+ marries
+ that
+
+
+with
+ like
+ our
+ codebase
+ to
+ answer
+ a
+ very
+
+
+kind
+ of
+ in-depth
+ um
+ deployment
+ question.
+
+
+>> The
+ one
+ thing
+ um
+ I'm
+ not
+ sure
+ if
+ we
+
+
+should
+ talk
+ about
+ this
+ now
+ but
+ I
+ started
+
+
+doing
+ um
+ this
+ in
+ Confluence
+ where
+ we
+
+
+have
+ a
+ we
+ call
+ it
+ a
+ customer
+ quirks
+
+
+page.
+ These
+ are
+ all
+ kinds
+ of
+ all
+ of
+ our
+
+
+enterprise
+ customers
+ you
+ typically
+ have
+
+
+airgapped
+ environments.
+ So
+ they
+ have
+ all
+
+
+these
+ security
+ measures
+ and
+ we
+ have
+ to
+
+
+abide
+ by
+ them
+ when
+ we
+ deploy
+ the
+ pro
+ the
+
+
+product
+ into
+ their
+ their
+ environment.
+
+
+And
+ so
+ I
+ literally
+ have
+ a
+ page
+ that
+
+
+looks
+ exactly
+ like
+ this
+ where
+ I
+ have
+ the
+
+
+customer's
+ name
+ at
+ the
+ top
+ level
+ and
+
+
+then
+ a
+ bunch
+ of
+ bullet
+ points
+ with
+ like
+
+
+you
+ know
+ here
+ are
+ some
+ things
+ about
+ how
+
+
+they
+ store
+ their
+ secrets.
+ Here's
+ how
+
+
+they
+ do
+ name
+ spaces.
+ You
+ know
+ here's
+ how
+
+
+they
+ handle
+ side
+ cars
+ and
+ service
+
+
+service
+ to
+ service
+ encryption.
+ the
+
+
+things
+ I
+ have
+ no
+ I
+ know
+ nothing
+ about
+
+
+but
+ um
+ as
+ I'm
+ meeting
+ with
+ my
+ customers
+
+
+I'm
+ putting
+ this
+ all
+ into
+ this this
+ one
+
+
+confluence
+ page
+ this
+ ever
+ growing
+
+
+confluence
+ page
+ and
+ then
+ this
+ is
+
+
+actually
+ one
+ of
+ the
+ core
+ pages
+ that
+ goes
+
+
+into
+ this
+ uh
+ DPL
+ custom
+ command
+ which
+ is
+
+
+look
+ at
+ the
+ customer
+ quirks
+ page
+ if
+ I'm
+
+
+mentioning
+ a
+ customer
+ that's
+ on
+ that
+
+
+page
+ look
+ at
+ all
+ their
+ quirks
+ and
+ then
+
+
+in
+ the
+ response
+ from
+ cloud
+ it's
+ highly
+
+
+customized
+ highly
+ tailored
+ to
+ their
+
+
+environment
+ because
+ I've
+ seen
+ from
+
+
+working
+ with
+ our
+ DevOps
+ team
+ that
+ we
+ can
+
+
+provide
+ a
+ generic
+ answer
+ about
+
+
+Kubernetes
+ or
+ about
+ ClickHouse
+ or
+ about
+
+
+whatever
+ for
+ the
+ customer,
+ but
+ it's
+ like
+
+
+something
+ you
+ can
+ just
+ find
+ online
+ by
+
+
+googling
+ or
+ using
+ AI.
+ But
+ when
+ it's
+
+
+tailored
+ to
+ specific
+ security
+
+
+requirements
+ and
+ deployment
+
+
+requirements,
+ it
+ it's
+ way
+ more
+ effective
+
+
+and
+ just
+ gives
+ the
+ customer
+ more
+ trust
+
+
+that
+ we
+ we
+ know
+ what
+ we're
+ doing.
+
+
+Essentially
+
+
+>> what
+ I
+ love
+ about
+ what
+ you
+ showed
+ here
+
+
+which
+ is
+ you
+ know
+ kind
+ of
+ combining
+ the
+
+
+repository
+ with
+ the
+ confluence
+ MCP
+ and
+
+
+then
+ both
+ like
+ team
+ generated
+ general
+
+
+documentation
+ as
+ well
+ as
+ you
+ generated
+
+
+like
+ micro
+ documentation
+ at
+ the
+ customer
+
+
+level
+ is
+ I've
+ heard
+ so
+ often
+ in
+ my
+ 20
+
+
+years
+ in
+ enterprise
+ SAS
+ like
+ what
+ is
+ the
+
+
+source
+ of
+ truth
+ for
+ this
+ information
+
+
+like
+ I'm
+ sure
+ you've
+ heard
+ this
+ too
+ like
+
+
+what's
+ the
+ source
+ of
+ truth
+ for
+ how
+ XYZ
+
+
+works
+ or
+ what's
+ the
+ source
+ of
+ truth
+ for
+
+
+this
+ customer
+ and
+ people
+ have
+ spent
+ so
+
+
+much
+ time
+ like
+ you
+ know
+ pruning
+ these
+
+
+confluence
+ gardens
+ and
+ organizing
+ their
+
+
+Slack
+ channels
+ and
+ trying
+ to
+ get
+ people
+
+
+to
+ you
+ know
+ get
+ naming
+ conventions
+ right
+
+
+and
+ like
+ the
+ reality
+ is
+ we
+ can
+ now
+ all
+
+
+live
+ in
+ a
+ little
+ bit
+ more
+ chaos
+ because
+
+
+the
+ AI
+ navigates
+ all
+ that
+ information
+
+
+for
+ us
+ across
+ systems
+ right
+ so
+ you
+ can
+
+
+be
+ in
+ your
+ code
+ querying
+ confluence
+ it
+
+
+will
+ find
+ you
+ can
+ kind
+ of
+ point
+ it
+ in
+
+
+the
+ right
+ direction
+ it
+ find
+ the
+
+
+information.
+ You
+ have
+ to
+ be
+ less
+
+
+precious
+ about
+ where
+ and
+ how
+ you
+ store
+
+
+the
+ information.
+ Bullet
+ point
+ list
+ of
+
+
+quirks,
+ you
+ know,
+ like
+ really
+ official
+
+
+docs,
+ whatever.
+ It
+ doesn't
+ matter
+
+
+because
+ AI
+ is
+ just
+ so
+ much
+ um
+ more
+
+
+effective
+ at
+ traversing
+ all
+ that
+
+
+information
+ and
+ pulling
+ it
+ in
+ and
+ making
+
+
+it
+ actionable
+ for
+ you.
+ And
+ I
+ don't
+ think
+
+
+that's
+ anything
+ like
+ any
+ human
+ was
+
+
+really
+ proud
+ that
+ they
+ were
+ good
+ at.
+
+
+They're
+ like,
+ I'm
+ really
+ good
+ at
+ finding
+
+
+like
+ the
+ right
+ Confluence
+ doc.
+ Uh
+ that
+
+
+was
+ never
+ never
+ the
+ value
+ ad.
+
+
+>> Yeah.
+ Yeah.
+ I
+ mean,
+ I
+ think
+ um
+ even
+ if
+
+
+it's
+ as
+ simple
+ as,
+ hey,
+ you
+ you've
+ came
+
+
+come
+ across
+ a
+ really
+ great
+ answer
+ in
+
+
+Slack,
+ like
+ in
+ a
+ really
+ engaging
+ Slack
+
+
+thread,
+ throw
+ that
+ into
+ a
+ confluence
+
+
+page
+ or
+ save
+ that
+ Slack
+ thread
+ because
+ I
+
+
+also
+ use
+ the
+ Slack
+ MCP
+ to
+ be
+ able
+ to
+
+
+summarize
+ threads.
+ So,
+ if
+ you
+ have
+ like
+
+
+just
+ some
+ random
+ like
+ just
+ ongoing
+
+
+stream
+ of
+ consciousness
+ of
+ documents
+ you
+
+
+want
+ to
+ have
+ cloud
+ code
+ scan,
+ I
+ would
+
+
+just
+ say
+ throw
+ into
+ Confluence,
+ throw
+
+
+into
+ notion,
+ throw
+ it
+ into
+ Slack,
+
+
+wherever.
+ And
+ then
+ that
+ ends
+ up
+ being
+
+
+context
+ you
+ can
+ provide
+ to
+ claude
+ when
+
+
+you
+ are
+ trying
+ to
+ ask
+ it
+ a
+ question
+
+
+about
+ a
+ customer
+ or
+ about
+ your
+ codebase.
+
+
+>> Well,
+ and
+ the
+ other
+ thing
+ and
+ this
+ is
+
+
+maybe
+ going
+ back
+ to
+ how
+ I
+ introduced
+
+
+this
+ episode
+ which
+ is
+ people
+ use
+ AI
+ so
+
+
+much
+ to
+ compete
+ on
+ the
+ field
+ of
+ the
+
+
+product
+ and
+ engineering
+ velocity.
+ And
+
+
+what
+ I
+ mean
+ by
+ that
+ is
+ like
+ we're
+ all
+
+
+using
+ cloud
+ code
+ to
+ ship
+ more
+ product.
+
+
+we're
+ all
+ using
+ AI
+ and
+ codecs
+ to
+ build,
+
+
+you
+ know,
+ better
+ user
+ experiences
+ or
+
+
+more
+ resilient
+ backends
+ or
+ any
+ of
+ that
+
+
+stuff.
+ But
+ there's
+ also
+ a
+ completely
+
+
+different
+ competitive
+ field
+ which
+ is
+ how
+
+
+you
+ show
+ up
+ in
+ your
+ relationships
+ with
+
+
+your
+ customers.
+ And
+ I
+ think
+ you
+ know
+
+
+what
+ you're
+ showing
+ is
+ you
+ can
+ actually
+
+
+use
+ AI
+ to
+ invest
+ and
+ compete
+ on
+ customer
+
+
+experience.
+ And
+ you
+ know,
+ my
+ hypothesis
+
+
+is
+ when
+ your
+ very
+ complex
+ enterprise
+
+
+customers
+ have
+ you
+ show
+ up
+ and
+ you
+ don't
+
+
+just
+ say
+ like
+ here
+ are
+ our
+ general
+ docs
+
+
+to
+ deploy
+ this
+ and
+ instead
+ you
+ say
+ I
+
+
+heard
+ you.
+ I
+ understand
+ what
+ your
+ needs
+
+
+are
+ and
+ here
+ are
+ your
+ custom
+ docs
+ on
+ how
+
+
+you
+ specifically
+ need
+ to
+ deploy
+ this
+ and
+
+
+I've
+ already
+ pre-thought
+ about
+ all
+ the
+
+
+problems
+ you've
+ already
+ told
+ me
+ about.
+
+
+you
+ know,
+ just
+ looking
+ like
+ in
+ a
+
+
+competitive
+ sense,
+
+
+>> that's
+ got
+ to
+ come
+ across
+ as
+ a
+ much
+ more
+
+
+um
+ enjoyable
+ customer
+ experience
+ on
+ the
+
+
+receiving
+ end
+ and
+ allows
+ you
+ to
+ position
+
+
+yourself
+ not
+ just
+ as
+ great
+ product,
+ but
+
+
+as
+ a
+ great
+ team
+ that's
+ going
+ to
+ service
+
+
+your
+ customers
+ well.
+
+
+>> Yeah,
+ I
+ I
+ hope
+ so.
+ I
+ mean,
+ I
+ think
+ our
+
+
+customers
+ I
+ think
+ my
+ customers
+ are
+
+
+hopefully
+ enjoying
+ the
+ answers
+ I
+ provide
+
+
+and
+ the
+ in-depthness
+ that
+ I
+ provide.
+ I
+
+
+think
+ I've
+ thought
+ about
+ taking
+ this
+ to
+
+
+the
+ extreme
+ which
+ is
+ there
+ we
+ have
+
+
+certain
+ I
+ have
+ certain
+ customers
+ who
+ are
+
+
+like
+ you
+ know
+ very
+ in
+ the
+ weeds
+ they
+
+
+want
+ to
+ know
+ things
+ like
+ right
+ at
+ this
+
+
+very
+ second
+ and
+ I'm
+ literally
+ taking
+
+
+their
+ question
+ and
+ then
+ just
+ like
+ saying
+
+
+my
+ customer
+ then
+ asked
+ me
+ this
+ because
+
+
+they
+ can't
+ see
+ your
+ code
+ but
+ me
+ al
+ I
+ can
+
+
+see
+ the
+ code
+ help
+ me
+ get
+ the
+ answer
+ and
+
+
+so
+ if
+ I
+ take
+ that
+ to
+ the
+ logical
+ logical
+
+
+conclusion
+ it's
+ like
+ why
+ can't
+ we
+ just
+
+
+share
+ our
+ repos
+ with
+ the
+ customer
+
+
+because
+ then
+ they
+ can
+ just
+ start
+
+
+querying
+ our
+ repos
+ directly
+ to
+ get
+ the
+
+
+answers
+ they
+ need
+ instead
+ of
+ me
+ as
+ kind
+
+
+of
+ like
+ the
+ quoteunquote
+ middleman
+ and
+
+
+you
+ know
+ the
+ issue
+ is
+ that
+ like
+ our
+ code
+
+
+is
+ proprietary
+ and
+ all
+ that
+ kind
+ of
+
+
+stuff
+ but
+ I
+ have
+ seen
+ um
+ there's
+
+
+actually
+ a
+ case
+ study
+ from
+ lang
+ chain
+
+
+and
+ since
+ a
+ lot
+ of
+ lang
+ chain's
+ um
+ repos
+
+
+are
+ you
+ know
+ it's
+ open
+ source
+ like
+ their
+
+
+support
+ agent
+ bot
+ actually
+ does
+ a
+ lot
+ of
+
+
+things
+ I
+ do
+ but
+ it
+ is
+ able
+ to
+ query
+ you
+
+
+know
+ all
+ the
+ public
+ open
+ source
+ repos
+
+
+And
+ any
+ of
+ you
+ out
+ there
+ who
+ are
+ trying
+
+
+to
+ use
+ lang
+ chain
+ or
+ lang
+ graph,
+ you
+ can
+
+
+just
+ pull
+ all
+ those
+ repos
+ down
+ to
+ your
+
+
+local
+ machine
+ and
+ then
+ ask
+ questions
+ of
+
+
+course
+ using
+ cloud
+ code
+ or
+ cursor
+ or
+
+
+whatever.
+ Um,
+ but
+ I've
+ got
+ went
+ through
+
+
+that
+ kind
+ of
+ thought
+ experiment
+ of
+ like
+
+
+I'm
+ still
+ kind
+ of
+ a
+ bottleneck
+ in
+ terms
+
+
+of
+ answering
+ my
+ customers
+ questions
+ cuz
+
+
+I
+ kind
+ of
+ like
+ hold
+ the
+ keys
+ to
+ our
+
+
+code.
+ But
+ if
+ they
+ somehow
+ had
+ had
+ a
+
+
+sanitized
+ version
+ of
+ it,
+ then
+ maybe
+ they
+
+
+could
+ just
+ self-answer
+ their
+ questions
+
+
+too
+ because
+ they're
+ also
+ all
+ using
+ VS
+
+
+Code
+ and
+ Cursor
+ and
+ Claude
+ too,
+ but
+ they
+
+
+just
+ don't
+ happen
+ to
+ have
+ our,
+ you
+ know,
+
+
+proprietary
+ codebase.
+
+
+>> Yeah.
+ I
+ was
+ I
+ was
+ going
+ to
+ ask
+ you,
+ are
+
+
+you
+ worried
+ that
+ like
+ the
+ ALbot
+ is
+
+
+coming
+ and
+ you're
+ you're
+ cut
+ you're
+ cut
+
+
+out
+ of
+ it?
+ And
+ I
+ I'm
+ I'm
+ just
+ curious
+
+
+how
+ you
+ think
+ about
+ then
+ when
+ like
+ you
+
+
+you
+ again
+ like
+ the
+ highest
+ order
+ of
+ you
+
+
+is
+ not
+ to
+ be
+ a
+ pass
+ through
+ and
+ I
+ don't
+
+
+think
+ you
+ think
+ of
+ that
+ yourself
+ as
+
+
+that.
+ And
+ so
+ where
+ does
+ the
+ human
+ in
+
+
+these
+ relationships
+ powered
+ by
+ AI
+ you
+
+
+know
+ add
+ add
+ the
+ value
+
+
+>> well
+ to
+ I
+ don't
+ just
+ blindly
+ copy
+ and
+
+
+paste
+ the
+ answers
+ I
+ get
+ from
+ claw
+ code
+
+
+to
+ my
+ customers
+ in
+ Slack
+ or
+ email
+ or
+
+
+wherever.
+ I
+ still
+ try
+ to
+ proofread
+
+
+everything
+ and
+ I
+ actually
+ do
+ like
+ try
+ to
+
+
+make
+ it
+ sound
+ more
+ human
+ and
+ you
+ can
+
+
+then
+ say
+ the
+ argument
+ oh
+ why
+ don't
+ you
+
+
+use
+ claude
+ code
+ to
+ make
+ your
+ answer
+
+
+sound
+ more
+ human
+ and
+ I
+ think
+ all
+ of
+ us
+
+
+know
+ when
+ we
+ get
+ an
+ answer
+ that's
+ from
+
+
+an
+ AI
+ and
+ it's
+ you
+ know
+ things
+ like
+ you
+
+
+know
+ you'll
+ see
+ like
+ a
+ bullet
+ point
+
+
+saying
+ like
+ in
+ summary
+ here
+ are
+ the
+
+
+things
+ you
+ need
+ to
+ do
+ to
+ make
+ sure
+ your
+
+
+click
+ house
+ works
+ within
+ so
+ it's
+ like
+
+
+removing
+ things
+ like
+ that
+ that
+ just
+ make
+
+
+it
+ seem
+ like
+ it's
+ from
+ a
+ bot
+ just
+ makes
+
+
+it
+ seem
+ more
+ human
+ and
+ we've
+ actually
+ I
+
+
+mean
+ this
+ is
+ kind
+ of
+ going
+ into
+ going
+
+
+behind
+ the
+ scenes
+ of
+ how
+ we
+ work
+ but
+
+
+we've
+ been
+ dinged
+ sometimes
+ where
+ the
+
+
+customer
+ will
+ say
+ can
+ you
+ just
+ not
+ give
+
+
+me
+ an
+ error
+ response
+ and
+ just
+ give
+ me
+
+
+like
+ a
+ human
+ proof
+ read
+ of
+ it
+ and
+ tell
+
+
+me
+ how
+ it
+ applies
+ to
+ me
+ because
+
+
+typically
+ the
+ response
+ is
+ way
+ too
+
+
+verbose.
+ It
+ has
+ way
+ too
+ much
+ information
+
+
+and
+ the
+ customer
+ just
+ wants
+ to
+ know
+ give
+
+
+me
+ like
+ the
+ bottom
+ line
+ up
+ front.
+ what
+
+
+do
+ I
+ need
+ to
+ know
+ to
+ like
+ deploy
+ this
+
+
+image
+ onto
+ my
+ cluster?
+ And
+ so
+ that's
+
+
+where
+ the
+ human
+ I
+ I
+ still
+ come
+ see
+
+
+myself
+ as
+ a
+ human
+ providing
+ value
+ and
+
+
+callulling
+ that
+ down
+ to
+ what
+ they
+
+
+actually
+ need.
+ And
+ I
+ would
+ say
+ even
+ for
+
+
+some
+ of
+ the
+ more
+ in-depth
+ technical
+
+
+questions,
+ I
+ still
+ try
+ to
+ get
+ an
+
+
+engineer's
+ perspective
+ on
+ it
+ to
+ make
+
+
+sure
+ like
+ cloud
+ code
+ is
+ not
+
+
+hallucinating
+ or
+ not
+ saying
+ anything
+ out
+
+
+of
+ the
+ out
+ of
+ the
+ ordinary.
+ In
+ my
+ system
+
+
+prompt,
+ I
+ always,
+ you
+ know,
+ in
+ my
+ cloud
+
+
+code,
+ I
+ say
+ things
+ like,
+ "Don't
+ make
+
+
+anything
+ up.
+ Always
+ site
+ your
+ sources,
+
+
+point
+ me
+ to
+ the
+ line
+ of
+ code
+ where
+
+
+you're
+ getting
+ this
+ information
+ from."
+
+
+But
+ even
+ with
+ that,
+ if
+ I
+ don't
+ fully
+
+
+understand
+ how
+ this
+ function
+ works
+ or
+
+
+whatever,
+ I'm
+ still
+ paying
+ like
+ the
+
+
+engineering
+ channel
+ to
+ say,
+ "Hey,
+ this
+
+
+is
+ what
+ cloud
+ code
+ told
+ me.
+ Does
+ that
+
+
+jive
+ with
+ what
+ you're
+ thinking?"
+ And
+
+
+there
+ are
+ times
+ when
+ I'm
+ wrong
+ or
+ cloud
+
+
+code
+ is
+ wrong
+ because
+ our
+ engineers
+ have
+
+
+been
+ thinking
+ about
+ refactoring
+ into
+
+
+this
+ new
+ model
+ which
+ is
+ not
+ captured
+ in
+
+
+our
+ codebase
+ anywhere.
+ It's
+ just
+
+
+captured
+ in
+ like
+ a
+ meeting
+ note
+
+
+somewhere
+ or
+ just
+ like
+ you
+ know
+ hallway
+
+
+conversations.
+ And
+ so
+ those
+ are
+ the
+
+
+things
+ that
+ I'll
+ never
+ be
+ able
+ to
+ query
+
+
+let's
+ say
+ in
+ in
+ claude.
+
+
+>> Yeah.
+ I
+ would
+ I
+ would
+ say
+ the
+ other
+
+
+thing
+ that
+ you
+ know
+ where
+ I
+ see
+ humans
+
+
+adding
+ value
+ and
+ I
+ say
+ this
+ all
+ the
+ time
+
+
+which
+ is
+ like
+ RZ
+ is
+ the
+ only
+ moat
+ which
+
+
+is
+ at
+ some
+ point
+ you
+ know
+ people
+ just
+
+
+want
+ to
+ have
+ a
+ face
+ and
+ a
+ trusted
+
+
+personal
+ relationship
+ you
+ know
+ with
+ the
+
+
+folks
+ and
+ this
+ is
+ like
+ my
+ enterprise
+
+
+showing
+ but
+ like
+ with
+ the
+ folks
+ that
+ are
+
+
+selling
+ them
+ software.
+ You
+ want
+ to
+ know
+
+
+that
+ you
+ have
+ somebody
+ to
+ call.
+ You
+ want
+
+
+to
+ know
+ that
+ you
+ have
+ somebody
+ that
+ can
+
+
+gather
+ the
+ right
+ the
+ right
+ folks
+ around
+
+
+your
+ team
+ and
+ your
+ deployment.
+
+
+And
+ you
+ know,
+ you
+ want
+ to
+ enjoy
+ working
+
+
+with
+ that
+ person.
+ And
+ I
+ will
+ just
+ say
+ I
+
+
+get
+ a
+ lot
+ of
+ um
+ it
+ is
+ very
+ fun
+ for
+ me
+ to
+
+
+build
+ with
+ these
+ tools
+ with
+ AI
+ tools,
+
+
+but
+ I
+ wouldn't
+ say
+ my
+ AI
+ colleagues
+ are
+
+
+like
+ the
+ most
+ fun
+ to
+ hang
+ out
+ with,
+
+
+which
+ is
+ like
+ I'm
+ not
+ like
+ always
+
+
+looking
+ forward
+ to
+ like
+ my
+ my
+ Claude
+
+
+code
+ session.
+ Like
+ I'm
+ going
+ to
+ really
+
+
+chitchat
+ with
+ with
+ good
+ old
+ Claude.
+ Um
+
+
+and
+ I
+ do
+ think
+ you
+ still
+ have
+ that
+
+
+relationship
+ with,
+ you
+ know,
+ your
+ human
+
+
+partners,
+ your
+ human
+ colleagues,
+ all
+
+
+that
+ sort
+ of
+ stuff.
+ And
+ so
+ I
+ think
+ there
+
+
+is
+ a
+ piece
+ of
+ that
+ that's
+ just
+ not
+ going
+
+
+to
+ get
+ cut
+ out.
+ And
+ honestly
+ I
+ gave
+ this
+
+
+talk
+ uh
+ I
+ don't
+ know
+ two
+ years
+ ago
+ I
+
+
+said
+ PM
+ is
+ dead
+ and
+ people
+ are
+ like
+ well
+
+
+what
+ else
+ should
+ we
+ do?
+ And
+ I
+ was
+ like
+
+
+get
+ into
+ sales
+ like
+ that's
+ not
+ going
+
+
+away.
+ Customerf
+ facing
+ stuff
+ is
+ not
+ is
+
+
+not
+ going
+ away.
+ Um
+ so
+ for
+ anybody
+ that
+
+
+wants
+ to
+ survive
+ you
+ know
+ the
+ the
+
+
+incoming
+ apocalypse
+ I
+ do
+ think
+ customerf
+
+
+facing
+ roles
+ and
+ spending
+ more
+ time
+
+
+customerf
+ facing
+ is
+ a
+ really
+ important
+
+
+part
+ of
+ everyone's
+ job.
+
+
+>> Absolutely.
+ if
+ you're
+ working
+ enterprise
+
+
+sales
+ like
+ that
+ is
+ all
+ people
+ handshakes
+
+
+um
+ lunches
+ dinners
+ so
+ that
+ will
+ never
+ be
+
+
+replaced
+ I
+ think
+ by
+ AI
+ anytime
+ soon
+
+
+>> well
+ you
+ know
+ and
+ there
+ might
+ be
+ a
+
+
+generational
+ shift
+ though
+ here
+ I
+ think
+
+
+as
+ as
+ we
+ sell
+ as
+ we
+ sell
+ we'll
+ see
+ you
+
+
+know
+ I
+ used
+ to
+ say
+ my
+ my
+ joke
+ in
+
+
+enterprise
+ sales
+ and
+ the
+ biggest
+ um
+ the
+
+
+the
+ biggest
+ headwind
+ to
+ enterprise
+ sales
+
+
+was
+ I
+ was
+ starting
+ to
+ sell
+ to
+
+
+millennials
+ who
+ like
+ wanted
+ you
+ to
+ text
+
+
+when
+ you
+ showed
+ up
+ at
+ their
+ door.
+ They
+
+
+didn't
+ want
+ you
+ to
+ knock
+ on
+ their
+ door
+
+
+like
+ they're
+ subverted.
+
+
+>> Um,
+ we'll
+ see.
+ We'll
+ see
+ how
+ enterprise
+
+
+sales
+ changes
+ generationally.
+ This
+
+
+episode
+ is
+ brought
+ to
+ you
+ by
+ Times,
+ the
+
+
+intelligent
+ workflow
+ platform
+ powering
+
+
+the
+ world's
+ most
+ important
+ work.
+
+
+Business
+ moves
+ faster
+ than
+ the
+ systems
+
+
+meant
+ to
+ support
+ it.
+ Teams
+ are
+ stuck
+
+
+with
+ repetitive
+ tasks,
+ scattered
+ tools,
+
+
+and
+ hardto-reach
+ data.
+ AI
+ has
+ huge
+
+
+promise,
+ but
+ struggles
+ when
+ everything
+
+
+underneath
+ is
+ fragmented.
+
+
+Times
+ fixes
+ that.
+ It
+ unifies
+ your
+ tools,
+
+
+data,
+ and
+ processes
+ in
+ one
+ secure,
+
+
+flexible
+ platform,
+ blending
+ Agette
+ AI,
+
+
+automation,
+ and
+ human-led
+ intervention.
+
+
+Teams
+ get
+ their
+ time
+ back,
+ workflows
+ run
+
+
+smarter,
+ and
+ AI
+ actually
+ delivers
+ real
+
+
+value.
+ Customers
+ now
+ automate
+ over
+ 1.5
+
+
+billion
+ actions
+ every
+ week.
+ Times
+ is
+
+
+trusted
+ by
+ companies
+ like
+ Canva,
+
+
+Coinbase,
+ Datab
+ Bricks,
+ GitLab,
+ Mars,
+
+
+and
+ Reddit.
+ Try
+ Time Tines
+ at
+
+
+times.com/howi
+
+
+AI.
+ All
+ right,
+ so
+ we
+ have
+ just
+ to
+ recap,
+
+
+we've
+ shown
+ how
+ you
+ use
+ all
+ these
+
+
+repositories
+ in
+ your
+ very
+ complex
+
+
+codebase.
+
+
+Pair
+ that
+ with
+ Cloud
+ Code,
+ um,
+ which
+ is
+
+
+made
+ more
+ efficient
+ through
+ a
+ couple
+
+
+like
+ shortcuts
+ and
+ scripts
+ to
+ be
+ able
+
+
+for
+ you
+ to
+ answer
+ customer
+ queries
+ and
+
+
+then
+ also
+ build
+ custom
+ deployment
+ plans
+
+
+for
+ your
+ customers
+ anchored
+ in
+ exactly
+
+
+how
+ your
+ code
+ works
+ and
+ exactly
+ how
+
+
+their
+ infrastructure
+ works,
+ making
+
+
+everybody
+ happier
+ and
+ getting
+ customers
+
+
+off
+ the
+ ground
+ quicker.
+ But
+
+
+>> there
+ are
+ also
+ instances
+ where
+ you
+ need
+
+
+to
+ be
+ doing
+ more
+ reactive
+ um
+ support
+ in
+
+
+in
+ different
+ channels
+ and
+ I
+ know
+ you're
+
+
+using
+ AI
+ for
+ that.
+ So
+ you
+ want
+ to
+ walk
+
+
+us
+ through
+ how
+ you're
+ using
+ AI
+ and
+ Slack
+
+
+and
+ supporting
+ customers
+ there.
+
+
+>> Yeah.
+ So
+ like
+ many
+ I
+ say
+ digital
+ AI
+
+
+native
+ companies,
+ we
+ do
+ a
+ lot
+ of
+ our
+
+
+customer
+ support
+ through
+ Slack.
+ you
+
+
+know,
+ we
+ have
+ external
+ channels
+ with
+ our
+
+
+customers
+ and
+ not
+ I
+ I
+ mean,
+ I
+ come
+ from
+
+
+the
+ I
+ used
+ to
+ work
+ in
+ a
+ world
+ where
+
+
+everything
+ was
+ through
+ like
+ a
+ central
+
+
+Zenesk
+ or
+ intercom
+ or
+ whatever,
+ but
+ for
+
+
+enterprise
+ customers,
+ it's
+ kind
+ of
+ like
+
+
+a
+ onthe-go
+ always
+ kind
+ of
+ on
+ kind
+ of
+
+
+thing.
+ And
+ so,
+ we
+ use
+ a
+ tool
+ internally
+
+
+called
+ Pylon
+ for
+ monitoring
+ all
+ our
+
+
+different
+ external
+ Slack
+ channels.
+ And
+
+
+I'm
+ going
+ to
+ show
+ you
+ what
+ this
+ looks
+
+
+like
+ in
+ this
+ tab.
+ And
+ this
+ is
+ an
+ example
+
+
+of
+ a
+ conversation
+ I
+ had
+ with
+ a
+ customer
+
+
+asking
+ in-depth
+ qu
+ uh
+ questions
+ about
+
+
+like
+ our
+ Galileo
+ call
+ back
+ function
+ and
+
+
+how
+ it
+ admits
+ different
+ events.
+ And
+ as
+
+
+you
+ can
+ imagine,
+ I
+ was
+ using
+ cloud
+ code
+
+
+to
+ help
+ answer
+ these
+ questions
+ in
+
+
+addition
+ to
+ using
+ our
+ docs.
+ But
+ when
+
+
+you're
+ looking
+ at
+ a
+ conversation
+ like
+
+
+this
+ in
+ Pylon
+ or
+ in
+ Slack,
+ the
+ first
+
+
+thing
+ you
+ have
+ to
+ think
+ about
+ is
+ like,
+ I
+
+
+wonder
+ if
+ like
+ I
+ could
+ turn
+ this
+ into
+ a
+
+
+help
+ article
+ or
+ if
+ I
+ should
+ update
+ our
+
+
+docs
+ or
+ will
+ other
+ customers
+ benefit
+
+
+from
+ the
+ knowledge
+ that's
+ being
+ trapped
+
+
+in
+ this
+ little
+ Slack
+ thread.
+ And
+ so
+ what
+
+
+Pylon
+ allows
+ us
+ to
+ do
+ is
+ looking
+ at
+ a
+
+
+really
+ long
+ Slack
+ thread,
+ it
+ can
+ help
+
+
+you
+ generate
+ a
+ help
+ article.
+ And
+ right
+
+
+here
+ I
+ already
+ have
+ one
+ that's
+
+
+associated
+ with
+ this
+ specific
+
+
+conversation.
+ But
+ it's
+ literally
+ just
+
+
+clicking
+ on
+ add
+ article
+ generate
+ article
+
+
+draft
+ and
+ then
+ these
+ different
+ templates
+
+
+and
+ it
+ just
+ creates
+ like
+ this
+ article
+
+
+for
+ you
+ on
+ the
+ fly.
+ Now
+ this
+ is
+ not
+
+
+rocket
+ science.
+ You
+ could
+ copy
+ and
+ paste
+
+
+the
+ whole
+ Slack
+ thread,
+ put
+ it
+ into
+ any
+
+
+AI
+ tool
+ you
+ want
+ to
+ generate
+ help
+
+
+article.
+ The
+ main
+ thing
+ with
+ pylons
+ is
+
+
+everything
+ is
+ kind
+ of
+ just
+ like
+ in
+ one
+
+
+interface.
+ So
+ you
+ don't
+ have
+ to
+ worry
+
+
+about
+ like
+ copy
+ and
+ pasting
+ and
+ putting
+
+
+links
+ together.
+ So
+ this
+ is
+ kind
+ of
+ like
+
+
+that
+ draft
+ that
+ this
+ came
+ up
+ with.
+ And
+
+
+then
+ we
+ have
+ this
+ ongoing
+ list
+ of
+
+
+articles
+ based
+ on
+ real
+ customer
+
+
+conversations.
+ And
+ those
+ articles
+ are
+
+
+abstracted
+ to
+ not
+ show
+ any
+ specific
+
+
+customer
+ information.
+ But
+ then
+ when
+ we
+
+
+publish
+ these
+ articles,
+ they
+ go
+ they
+ go
+
+
+into
+ this
+ knowledge
+ base
+ which
+ is
+ also
+
+
+public
+ knowledge
+ base.
+ And
+ this
+ is
+ kind
+
+
+of
+ like
+ the
+ living
+ truth
+ of
+ like
+ indepth
+
+
+in
+ the
+ weeds
+ uh
+ com
+ questions
+ about
+
+
+deployment
+ about
+ how
+ Galileo
+ works.
+ And
+
+
+it's
+ always
+ way
+ more
+ in
+ depth
+ and
+ way
+
+
+more
+ up
+ to-date
+ compared
+ to
+ our
+ docs
+
+
+because
+ our
+ official
+ docs
+ require
+
+
+pulling
+ down
+ the
+ docs
+ repo,
+ submitting
+ a
+
+
+PR,
+ getting
+ it
+ approved,
+ so
+ on
+ and
+ so
+
+
+forth.
+ And
+ so
+ it's
+ a
+ lot
+ more
+ of
+ a
+
+
+polished
+ process.
+ Whereas
+ with
+ these
+
+
+knowledgebased
+ articles,
+ it's
+ kind
+ of
+
+
+like
+ just
+ on
+ the
+ fly
+ you
+ have
+ a
+ slack
+
+
+thread
+ you
+ want
+ to
+ summarize,
+ use
+ it
+ uh
+
+
+create
+ it
+ in
+ pylon
+ and
+ then
+ it
+ just
+
+
+automatically
+ gets
+ autopublished
+ to
+ this
+
+
+uh
+ knowledgebased
+ site.
+ So
+ one
+ of
+ the
+
+
+things
+ that
+ I
+ love
+ about
+ this
+ is
+ this
+
+
+represents
+ my
+ then
+ like
+ what
+ I
+ call
+ the
+
+
+and
+ then
+ workflow
+ discovery
+ in
+ AI
+ which
+
+
+is
+ I
+ say
+ imagine
+ you
+ had
+ an
+ infinitely
+
+
+staffed
+ team
+ and
+ you
+ were
+ faced
+ with
+ the
+
+
+task
+ and
+ every
+ time
+ they
+ did
+ one
+ step
+ of
+
+
+the
+ task
+ you
+ asked
+ and
+ then
+ and
+ they
+
+
+were
+ able
+ to
+ do
+ it.
+ So
+ it's
+ like
+ I
+ got
+ a
+
+
+Slack
+ query
+ from
+ a
+ customer
+ so
+ I
+
+
+answered
+ it
+ and
+ it
+ was
+ like
+ if
+ you
+ had
+ a
+
+
+perfectly
+ staffed
+ team
+ what
+ would
+ you
+ do
+
+
+next
+ and
+ be
+ like
+ and
+ then
+ I
+ would
+ turn
+
+
+that
+ into
+ an
+ article
+ and
+ it
+ was
+ like
+
+
+okay
+ and
+ you
+ turn
+ it
+ into
+ article
+ and
+
+
+then
+ what
+ you
+ do
+ it's
+ like
+ and
+ then
+ I
+
+
+would
+ share
+ that
+ with
+ our
+ customer
+
+
+success
+ team
+ and
+ train
+ them
+ on
+ this
+
+
+answer
+ because
+ you
+ know
+ everybody
+ needs
+
+
+to
+ know
+ this
+ information
+ and
+ be
+ like
+ and
+
+
+then
+ you
+ be
+ like
+ and
+ then
+ we
+ could
+
+
+probably
+ do
+ like
+ longtail
+ SEO
+ off
+ all
+
+
+these
+ questions
+ and
+ I
+ think
+ you
+ can
+ like
+
+
+chain
+ chain
+ these
+ like
+ and
+ then
+ um
+ you
+
+
+know
+ workflows
+ to
+ actually
+ build
+ out
+
+
+like
+ a
+ pretty
+ cool
+ you
+ know
+ virtuous
+
+
+cycle
+ system
+ based
+ off
+ a
+ single
+ action.
+
+
+And
+ because
+ again
+ like
+ the
+ cost
+ of
+ doing
+
+
+any
+ one
+ of
+ those
+ collapses
+ to
+ zero,
+ you
+
+
+can
+ really
+ pull
+ the
+ thread
+ of
+ these
+
+
+tasks
+ that
+ like
+ no
+ human
+ team
+ would
+ have
+
+
+the
+ capacity
+ to
+ really
+ do.
+ But
+ if
+ you
+
+
+think
+ of
+ it
+ as
+ a
+ system,
+ it
+ helps
+ your
+
+
+human
+ teammates,
+ it
+ helps
+ your
+
+
+customers,
+ and
+ you
+ can
+ get
+ a
+ lot
+ of
+
+
+stuff
+ done.
+ We
+ have
+ a
+ couple
+ episodes.
+
+
+Um,
+ Matt
+ at
+ Suzie
+ showed
+ kind
+ of
+ a
+ a
+
+
+version
+ of
+ this
+ where
+ he
+ takes
+ a
+
+
+customer
+ a
+ recorded
+ customer
+ call
+ and
+
+
+like
+ is
+ bidding
+ on
+ adwords
+ for
+ like
+
+
+phrases
+ the
+ customer
+ says
+ and
+ like
+
+
+spinning
+ up
+ blog
+ posts
+ and
+ doing
+ like
+
+
+sales
+ coaching
+ off
+ of
+ it.
+ So
+ I
+ think
+
+
+this
+ is
+ like
+ a
+ very
+ similar
+ example
+
+
+which
+ is
+ you
+ have
+ this
+ like
+ you
+ know
+
+
+atomic
+ unit
+ of
+ a
+ question
+ in
+ Slack
+ and
+
+
+you've
+ turned
+ it
+ into
+ something
+ that
+
+
+benefits
+ benefits
+ the
+ full
+ team.
+
+
+>> Yeah.
+ I
+ think
+ if
+ you
+ go
+ back
+ to
+ pre-AII
+
+
+days
+ and
+ I'm
+ doing
+ this
+ with
+ intercom
+
+
+was
+ you
+ we
+ wanted
+ to
+ see
+ what
+ are
+ what
+
+
+are
+ our
+ users
+ talking
+ about
+ the
+ most
+
+
+when
+ they're
+ asking
+ us
+ questions.
+ And
+ so
+
+
+if
+ you
+ start
+ clustering
+ all
+ these
+ user
+
+
+questions
+ and
+ insights
+ into
+ different
+
+
+themes
+ and
+ categories,
+ those
+ can
+ end
+ up
+
+
+determining
+ determining
+ your
+ product
+
+
+road
+ map
+ too.
+ And
+ so
+
+
+>> I
+ think
+ with
+ AI
+ just
+ kind
+ of
+ automates
+
+
+much
+ a
+ little
+ bit
+ more
+ of
+ that
+ without
+
+
+you
+ having
+ to
+ like
+ do
+ the
+ manual
+ sorting
+
+
+and
+ grouping
+ within
+ like
+ Google
+ Sheets
+
+
+or
+ whatever.
+ I
+ know
+ there's
+ like
+
+
+platforms
+ you
+ can
+ buy
+ that
+ do
+ this
+ for
+
+
+you.
+ I
+ think
+ there's
+ one
+ called
+ um
+
+
+interpret
+ which
+ I've
+ used
+ in
+ the
+ past.
+
+
+>> There's
+ they've
+ been
+ a
+ how
+ I
+ sponsor
+ so
+
+
+thank
+ you
+ interpret.
+
+
+>> Yeah.
+ Yeah.
+ So
+ um
+ but
+ you
+ know
+ I
+ think
+
+
+again
+ depending
+ on
+ how
+ you
+ want
+ to
+ view
+
+
+view
+ this
+ whole
+ virtuous
+ life
+ cycle.
+
+
+Maybe
+ you
+ don't
+ want
+ all
+ of
+ your
+ data
+ to
+
+
+be
+ like
+ in
+ a
+ silo
+ in
+ one
+ place
+ and
+ you
+
+
+want
+ to
+ be
+ more
+ open.
+ So
+ there's
+ that
+ to
+
+
+think
+ about
+ too.
+ But
+ yeah
+ AI
+ definitely
+
+
+helps
+ to
+ your
+ point
+ make
+ that
+ virtual
+
+
+cycle
+ for
+ customers
+ but
+ also
+ for
+ your
+
+
+product
+ team.
+ So
+ I
+ have
+ a
+ question.
+ Um,
+
+
+is
+ this
+ the
+ the
+ AL
+ system
+ or
+ is
+ this
+ the
+
+
+Galileo,
+ you
+ know,
+ field
+ engineering
+
+
+system,
+ which
+ is,
+ you
+ know,
+ you
+ have
+
+
+this
+ great
+ workflow.
+ You've
+ discovered
+
+
+all
+ these
+ things.
+ How
+ does
+ this
+ sort
+ of
+
+
+process
+ get
+ scaled
+ out,
+ shared,
+ taught
+
+
+throughout
+ the
+ organization
+ so
+ that
+
+
+everybody
+ that
+ interacts
+ with
+ customers
+
+
+is
+ benefiting
+ from
+ all
+ the
+ tips
+ and
+
+
+tricks
+ that
+ you're
+ figuring
+ out
+
+
+yourself?
+
+
+>> Sure.
+ So
+ I
+ my
+ previous
+ background
+ was
+
+
+I've
+ worked
+ in
+ kind
+ of
+ the
+ no
+ code
+ low
+
+
+code
+ space
+ and
+ I'm
+ a
+ big
+ believer
+ in
+
+
+systems
+ tools
+ processes
+ and
+ the
+ tools
+
+
+that
+ help
+ you
+ create
+ those
+ things
+ and
+ so
+
+
+when
+ it
+ comes
+ to
+ is
+ this
+ the
+ way
+ of
+
+
+doing
+ things
+ yes
+ it's
+ my
+ way
+ but
+ I'm
+
+
+also
+ very
+ probably
+ one
+ of
+ the
+ more
+ more
+
+
+opinionated
+ people
+ on
+ the
+ field
+
+
+engineering
+ team
+ about
+ like
+ how
+ we
+
+
+should
+ be
+ doing
+ things
+ in
+ terms
+ of
+
+
+talking
+ to
+ customers
+ answering
+ their
+
+
+questions
+ and
+ pulling
+ in
+ the
+ right
+
+
+content
+ text.
+ And
+ so
+ I've
+ told
+ multiple
+
+
+people
+ like
+ pull
+ all
+ the
+ repos
+ into
+ your
+
+
+local
+ machine
+ and
+ have
+ cloud
+ code
+ run
+ an
+
+
+init
+ command
+ to
+ index
+ the
+ whole
+ codebase
+
+
+or
+ whatever.
+ And
+ I'm
+ just
+ like
+
+
+constantly
+ sharing
+ these
+ tips
+ and
+ tricks
+
+
+to
+ my
+ teammates
+ to
+ make
+ sure
+ they're
+
+
+also
+ um
+ functioning
+ at
+ their
+ capacity.
+
+
+So,
+ it's
+ my
+ way,
+ but
+ I'm
+ I
+ would
+ say
+ I'm
+
+
+also
+ very
+ opinionated
+ about
+ how
+ we
+
+
+should
+ do
+ things
+ because
+ I've
+ done
+
+
+things
+ the
+ hard
+ way,
+ the
+ manual
+ way.
+ And
+
+
+this
+ way
+ to
+ me
+ is
+ like
+ just
+ 10
+ times
+ way
+
+
+more
+ productive.
+ So,
+ um
+ we
+ don't
+ have
+
+
+like
+ a
+ specific
+ like,
+ oh,
+ because
+ Al's
+
+
+doing
+ it
+ now,
+ the
+ whole
+ team
+ has
+ to
+ do
+
+
+it.
+ It's
+ more
+ just
+ like
+ people
+ show
+
+
+here's
+ the
+ problem
+ I
+ had,
+ here's
+ the
+
+
+results
+ I
+ had
+ with
+ cloud
+ core
+ or
+
+
+whatever,
+ and
+ here's
+ why
+ I
+ think
+ you
+
+
+should
+ adopt
+ my
+ um
+ solution.
+ And
+ I'm
+
+
+constantly
+ having
+ that
+ conversation
+
+
+internally
+ about
+ like
+ how
+ do
+ we
+ break
+
+
+out
+ of
+ certain
+ processes
+ that
+ I
+ think
+
+
+are
+ slowing
+ us
+ down
+ and
+ um
+ how
+ AI
+ can
+ be
+
+
+infused
+ into
+ all
+ those
+ processes
+ as
+
+
+well.
+
+
+>> Well,
+ and
+ now
+ you're
+ sharing
+ to
+ all
+ of
+
+
+our
+ how
+ I
+ AI
+ audience
+ on
+ how
+ they
+ can
+ do
+
+
+that.
+ So
+ you're
+ having
+ more
+ impact
+
+
+>> than
+ just
+ on
+ your
+ team.
+ All right.
+ Well,
+
+
+so
+ to
+ just
+ recap
+ again,
+ your
+ code
+ is
+
+
+your
+ source
+ of
+ truth.
+ It
+ can
+ help
+ you
+
+
+answer
+ customer
+ questions.
+ It
+ can
+ help
+
+
+you
+ document
+ um
+ customer
+ solutions.
+ You
+
+
+can
+ also
+ do
+ that
+ with
+ other
+ channels
+
+
+like
+ Slack
+ and
+ then
+ like
+ create
+ these
+
+
+virtuous
+ loops
+ of
+ solving
+ a
+ single
+
+
+customer's
+ problem
+ and
+ then
+ a
+ system
+ to
+
+
+solve
+ that
+ problem
+ more
+ scalably
+ across
+
+
+your
+ entire
+ customer
+ base
+ for
+ yourself
+
+
+and
+ for
+ your
+ teammates.
+ Um
+ very
+ very
+
+
+high
+ impact
+ episode.
+ I
+ think
+ people
+ are
+
+
+going
+ to
+ have
+ a
+ lot
+ of
+ takeaways
+ from
+
+
+this
+ one.
+ super
+ practical
+ for
+ all
+ my
+
+
+friends
+ that
+ are
+ customerf
+ facing
+ out
+
+
+there
+ on
+ things
+ they
+ can
+ do
+ starting
+
+
+tomorrow
+ to
+ use
+ AI
+ um
+ to
+ to
+ give
+ their
+
+
+customers
+ a
+ better
+ experience.
+ Let's
+
+
+jump
+ into
+ lightning
+ round
+ questions.
+ And
+
+
+I
+ have
+ one
+ that's
+ really
+ top
+ of
+ mind,
+
+
+>> which
+ is
+ it
+ seems
+ like
+ you
+ have
+ a
+ very
+
+
+healthy
+ culture
+ at
+ Galileo,
+ but
+ I
+ can
+
+
+imagine
+ teams,
+ especially
+ engineering
+
+
+teams
+ that
+ are
+ like,
+ "Oh,
+ no,
+ no,
+ no,
+
+
+no.
+ I
+ I
+ don't
+ really
+ want
+ the
+ customerf
+
+
+facing
+ folks
+ like
+ going
+ into
+ our
+ repo,
+
+
+querying
+ it,
+ and
+ then
+ just
+ yoloing
+
+
+answers
+ over
+ to
+ our
+ customer
+ base,
+
+
+especially
+ in
+ a
+ more
+ technical
+ product
+
+
+that
+ really
+ requires
+ deep
+ technical
+
+
+understanding.
+ I
+ think
+ you've
+ proven
+
+
+that
+ there's
+ a
+ lot
+ of
+ value
+ in
+ doing
+
+
+that.
+ But
+ what
+ would
+ you
+ say
+ to
+ those
+
+
+teams
+ that
+ are
+ a
+ little
+ bit
+ more
+
+
+hesitant
+ about
+ ungating
+ access
+ to
+ the
+
+
+repo
+ to
+ non-technical
+ roles?
+ Um
+ I
+ think
+
+
+from
+ the
+ engineering
+ engineers
+
+
+perspective
+ I
+ would
+ look
+ at
+ it
+ as
+ how
+
+
+many
+ I
+ would
+ try
+ to
+ think
+ about
+ how
+ many
+
+
+times
+ in
+ the
+ last
+ week
+ in
+ the
+ last
+ day
+
+
+have
+ you
+ been
+ asked
+ a
+ last
+ minute
+
+
+question
+ on
+ Slack
+ a
+ last
+ minute
+ DM
+ ping
+
+
+mentioned
+ in
+ a
+ thread
+ where
+ how
+ does
+
+
+this
+ thing
+ work
+ where
+ is
+ this
+ how
+ do
+ we
+
+
+make
+ sure
+ that
+ this
+ is
+ functioning
+ the
+
+
+way
+ it
+ should
+ be
+ and
+ you're
+ constantly
+
+
+the
+ source
+ of
+ you're
+ the
+ bottleneck
+ for
+
+
+answering
+ that
+ question
+ And
+ if
+ you
+
+
+provide
+ a
+ system
+ kind
+ of
+ similar
+ to
+ what
+
+
+I
+ have
+ to
+ your
+ uh
+ your
+ customerf
+ facing
+
+
+team
+ then
+ you
+ kind
+ of
+ just
+ take
+ away
+
+
+that
+ toil
+ and
+ the
+ constant
+ like
+ on
+
+
+callness
+ of
+ like
+ answering
+ these
+ random
+
+
+product
+ and
+ engineering
+ questions
+ that
+
+
+is
+ already
+ in
+ your
+ codebase
+ or
+ maybe
+
+
+it's
+ already
+ living
+ in
+ your
+ confluence
+
+
+or
+ something
+ like
+ that.
+ So
+ I
+ think
+
+
+that's
+ really
+ the
+ biggest
+ takeaway
+ for
+
+
+me
+ is
+ how
+ much
+ of
+ your
+ time
+ is
+ being
+
+
+sucked
+ away
+ from
+ your
+ customers
+ team
+
+
+because
+ they
+ don't
+ have
+ access
+ to
+ the
+
+
+code.
+ And
+ I
+ mean
+ I
+ think
+ there's
+ some
+ no
+
+
+code
+ I
+ mean
+ I
+ think
+ you
+ can
+ maybe
+ pull
+
+
+in
+ your
+ code
+ into
+ clo
+ cloud
+ co-work
+
+
+which
+ is
+ a
+ little
+ more
+ noodey
+ and
+ other
+
+
+kind
+ of
+ like
+ more
+ no
+ cody
+ ways
+ of
+ doing
+
+
+things
+ but
+ I
+ think
+ what
+ I've
+ shown
+ is
+ I
+
+
+think
+ the
+ most
+ performant
+ way
+ of
+ being
+
+
+able
+ to
+ pull
+ your
+ code
+ and
+ get
+ answers
+
+
+out.
+ Um
+ so
+ I
+ think
+ that's
+ kind
+ of
+ um
+
+
+from
+ an
+ engineer's
+ perspective
+ how
+ much
+
+
+time
+ can
+ you
+ save
+ and
+ then
+ also
+ how
+ more
+
+
+effective
+ your
+ your
+ customer
+ um
+ facing
+
+
+or
+ can
+ be
+ and
+ I
+ think
+ the
+ correlary
+
+
+correlary
+ to
+ that
+ is
+ that
+ our
+ field
+
+
+engineering
+ team
+ is
+ very
+ technical
+ and
+
+
+so
+ maybe
+ you
+ increase
+ the
+ hiring
+ bar
+ for
+
+
+your
+ customer
+ success
+ or
+ customer
+
+
+engineering
+ team
+ to
+ feel
+ comfortable
+
+
+using
+ GitHub
+ and
+ pulling
+ repos
+ into
+ your
+
+
+local
+
+
+And
+ so
+ that
+ could
+ be
+ today
+ if
+ it's
+ if
+
+
+they're
+ not
+ technical
+ is
+ just
+ doing
+ like
+
+
+a
+ simple
+ tutorial
+ or
+ enablement
+ session
+
+
+on
+ how
+ do
+ you
+ use
+ GitHub,
+ how
+ do
+ you
+ use
+
+
+git
+ commands,
+ um
+ things
+ like
+ that.
+ And
+
+
+there
+ might
+ be
+ some
+ self-learning
+ you
+
+
+have
+ to
+ do
+ on
+ the
+ side
+ too.
+ But
+ I
+ think
+
+
+once
+ you're
+ once
+ you
+ have
+ your
+
+
+environment
+ set
+ up,
+ that's
+ always
+ like
+
+
+the
+ hardest
+ part
+ about
+ this
+ whole
+
+
+exercise
+ is
+ getting
+ your
+ environment
+ set
+
+
+up.
+ Once
+ that
+ thing
+ is
+ set
+ up,
+ then
+
+
+using
+ cloud
+ code
+ is
+ just
+ like
+ using
+ any
+
+
+other
+ AI
+ chatbot.
+ Um,
+ so
+ I
+ think
+ there's
+
+
+like
+ a
+ few
+ different
+ ways
+ I'd
+ approach
+
+
+it
+ from
+ to
+
+
+democratize
+ access
+ to
+ your
+ repos.
+
+
+>> One
+ of the
+ things
+ I
+ was
+ going
+ to
+ say
+ is
+
+
+I
+ often
+ tell
+ people
+ this
+ is
+ the
+ era
+ of
+
+
+the
+ hard
+ skill,
+ which
+ is
+ no
+ matter
+ what
+
+
+role
+ you're
+ in,
+ sorry
+ babe,
+ you
+ got
+ to
+
+
+like
+ learn
+ a
+ little
+ bit
+ how
+ to
+ code.
+ You
+
+
+have
+ to
+ learn
+ a
+ little
+ bit
+ what
+ Git
+
+
+works
+ like.
+ you
+ have
+ to
+ be
+ okay
+ opening
+
+
+up
+ some
+ code
+ you
+ don't
+ understand
+ in
+ an
+
+
+IDE
+ because
+ that's
+ just
+ going
+ to
+ be
+ the
+
+
+substrate
+ by
+ which
+ we
+ communicate
+ for
+
+
+the
+ next
+ 3
+ years.
+ It's
+ going
+ to
+ go
+ like
+
+
+closer
+ and
+ closer
+ to
+ the
+ code
+ because
+
+
+these
+ LLMs
+ are
+ extremely
+ good
+ at
+
+
+understanding
+ code.
+ And
+ so
+ I
+ think
+
+
+across
+ the
+ board
+ people
+ just
+ need
+ to
+
+
+become
+ more
+ technical
+ and
+ develop
+ hard
+
+
+skills
+ around
+ code
+ even
+ if
+ your
+ job
+ is
+
+
+not
+ code.
+ I
+ think
+ the
+ second
+ thing
+ that
+
+
+I
+ tell
+ people
+ is
+ um
+ there's
+ no
+ better
+
+
+time
+ to
+ learn
+ how
+ to
+ code.
+ Truly
+ no
+
+
+better
+ time
+ to
+ learn
+ how
+ to
+ actually
+
+
+code.
+ And
+ I
+ think
+ people
+ that
+ are
+
+
+shipping
+ with
+ cloud
+ code
+ but
+ not
+ using
+
+
+that
+ as
+ an
+ excuse
+ or
+ a
+ support
+ to
+ learn
+
+
+some
+ fundamental
+ software
+ engineering
+
+
+concepts
+ are
+ missing
+ 50%
+ of
+ the
+ value.
+
+
+Like
+ I
+ had
+ to
+ teach
+ myself
+ how
+ to
+ code
+
+
+out
+ of
+ a
+ book.
+ Like
+ literally
+ out
+ of
+ a
+
+
+book.
+ It
+ was
+ I
+ had
+ a
+ book
+ open
+ and
+ then
+
+
+I
+ would
+ look
+ at
+ my
+ single
+ screen
+ because
+
+
+none
+ of
+ us
+ had
+ two
+ screens.
+ That
+ would
+
+
+be
+ crazy.
+ And
+ I
+ would
+ like
+ read
+ the
+ book
+
+
+and
+ I
+ would
+ type
+ the
+ book
+ in
+ the
+ like
+
+
+the
+ words
+ in
+ the
+ book
+ in
+ code
+ and
+ press
+
+
+enter
+ and
+ it
+ would
+ say
+ hello
+ world.
+ And
+
+
+that
+ was
+ my
+ life.
+ And
+ now
+ you
+ have
+ this
+
+
+like
+ magic,
+
+
+super
+ patient,
+ infinitely
+ wise,
+
+
+you
+ know,
+ like
+ teacher
+ in
+ your
+ computer
+
+
+that
+ you
+ can
+ use
+ to
+ learn
+ to
+ code.
+ And
+ I
+
+
+think
+ you
+ know,
+ you
+ talked
+ a
+ little
+ bit
+
+
+about
+ Kubernetes
+ and
+ how
+ you
+ you
+ scaled
+
+
+up
+ on
+ that.
+ So
+ I'm
+ curious
+ your
+ thoughts
+
+
+on
+ just
+ upleveling
+ technical
+ skills
+
+
+using
+ some
+ of
+ these
+ these
+ tools.
+
+
+>> I
+ I
+ think
+ the
+ meta
+ takeaway
+ is
+ like
+ you
+
+
+just
+ have
+ to
+ be
+ curious
+ about
+ like
+ how
+
+
+things
+ work.
+ I
+ can't
+ really
+ say
+ anything
+
+
+else
+ besides
+ that.
+ It's
+ kind
+ of
+ like
+ I
+
+
+come
+ from
+ that
+ same
+ world
+ too
+ of
+ like
+
+
+looking
+ at
+ a
+ book
+ and
+ then
+ I
+ would
+ say
+
+
+the
+ graduation
+ above
+ that
+ was
+ knowing
+
+
+how
+ to
+ write
+ a
+ good
+ Google
+ query
+ and
+
+
+then
+
+
+>> Stack
+ Overflow
+
+
+>> going
+ to
+ Stack
+ Overflow
+ and
+ then
+ how
+
+
+many
+ of
+ you
+ resonate
+ with
+ this
+ where
+ you
+
+
+go
+ to
+ some
+ Stack
+ Overflow
+ Q&A
+ you
+ copy
+
+
+and
+ paste
+ the
+ code
+ it
+ doesn't
+ work
+
+
+perfectly
+ of
+ course
+ so
+ you're
+ googling
+
+
+the
+ error
+ you
+ get
+ from
+ that
+ thing
+ you
+
+
+copied
+ and
+ pasted
+ and
+ of
+ course
+ everyone
+
+
+in
+ Cycle
+ Overflow
+ is
+ super
+ snarky
+ and
+
+
+it's
+ like
+ not
+ a
+ kind
+ of
+ healthy
+
+
+conversation
+ and
+ then
+ to
+ your
+ point
+ you
+
+
+have
+ this
+ like
+ infinitely
+ patient,
+
+
+infinitely
+ kind
+ assistant
+ who
+ never
+
+
+gives
+ you
+ the
+ wrong
+ code
+ snippet
+ from
+
+
+Stack
+ Overflow.
+ It's
+ always
+ like
+
+
+tailored
+ to
+ back
+ to
+ everything
+ I'm
+
+
+saying
+ is
+ tailored
+ to
+ your
+ needs
+ to
+ what
+
+
+you
+ want.
+ And
+ then
+ if
+ you
+ go
+ the
+ extra
+
+
+step
+ and
+ like
+ what
+ you
+ said
+ and
+ then
+
+
+what
+ if
+ you
+ go
+ the
+ extra
+ step
+ and
+ say,
+
+
+"Okay,
+ thanks
+ Claude.
+ You
+ told
+ me
+ this
+
+
+is
+ the
+ answer.
+ tell
+ me
+ why
+ this
+ works.
+
+
+And
+ then
+ it's
+ you
+ start
+ getting
+ into
+
+
+Kubernetes
+ and
+ into
+ the
+ deeper
+ in
+ the
+ in
+
+
+the
+ weeds
+ things.
+ But
+ of
+ course,
+ you're
+
+
+not
+ going
+ to
+ know
+ everything
+ right
+ off
+
+
+the
+ bat.
+ So
+ you
+ can
+ say
+ things
+ like,
+
+
+"Oh,
+ explain
+ to
+ me
+ in
+ simple
+ terms,
+
+
+explain
+ to
+ me
+ like
+ I'm
+ five."
+ And
+ so
+
+
+you're
+ just
+ kind
+ of
+ pulling
+ on
+ that
+
+
+thread.
+ And
+ I
+ sometimes
+ do
+ get
+ lost
+
+
+going
+ down
+ the
+ rabbit
+ hole.
+ Um,
+ but
+ I've
+
+
+never
+ found
+ a
+ situation
+ where
+ not
+ going
+
+
+down
+ that
+ rabbit
+ hole
+ does
+ not
+ help
+ me
+
+
+in
+ my
+ day-to-day
+ job,
+ especially
+ in
+ AI
+
+
+where
+ everything's
+ is
+ is
+ moving
+ so
+ fast.
+
+
+>> Yeah.
+ And
+ this
+ is
+ just
+ to
+ to
+ make
+
+
+everybody
+ feel
+ comfortable.
+ This
+ is
+ not
+
+
+just
+ a
+ beginner
+ thing.
+ And
+ I
+ find
+ myself
+
+
+doing
+ this
+ with
+ um
+ GPT54
+ which
+ is
+ like
+ a
+
+
+powerhouse
+ model
+ and
+ also
+ like
+ talking
+
+
+to
+ the
+ most
+ esoteric
+ senior
+ software
+
+
+engineer
+ you've
+ ever
+ met
+ where
+ it
+ like
+
+
+explains
+ his
+ plans
+ in
+ these
+ very
+
+
+technical
+ terms
+ and
+ I'm
+ like
+ dude
+ just
+
+
+like
+ explain
+ to
+ me
+ what
+ you're
+ doing
+ in
+
+
+number
+ one.
+
+
+>> Tell
+ me
+ in
+ plain
+ language.
+ I
+ do
+ not
+ need
+
+
+the
+ technical
+ details.
+ Like
+ just
+ tell
+ me
+
+
+in
+ plain
+ language.
+ And
+ again,
+ it
+ comes
+
+
+from
+ this
+ curiosity
+ of
+ I
+ want
+ to
+ make
+
+
+sure
+ I
+ understand
+ the
+ fundamental
+
+
+concepts
+ of
+ what
+ you're
+ talking
+ about.
+
+
+And
+ I
+ want
+ to
+ make
+ sure
+ I'm
+ learning
+
+
+both
+ my
+ codebase
+ and
+ general
+ principles
+
+
+as
+ we
+ go.
+ And
+ so
+ I
+ do
+ think
+ that
+
+
+curiosity
+ mindset,
+ no
+ matter
+ what
+ your
+
+
+seniority
+ level
+ is,
+ your
+ experience
+ with
+
+
+technology,
+ you
+ can
+ always
+ learn
+ learn
+
+
+something
+ better.
+ Okay,
+ my
+ last
+ question
+
+
+before
+ we
+ get
+ you
+ out
+ of
+ here.
+ Um,
+ when
+
+
+AI
+ is
+ not
+ giving
+ you
+ the
+ right
+ answer,
+
+
+it's
+ giving
+ you
+ AI
+ slop
+ that
+ it
+ wants
+ to
+
+
+email
+ to
+ your
+ customer,
+ what
+ is
+ your
+
+
+prompting
+ technique?
+
+
+>> I
+ I'll
+ I'll
+ say
+ one
+ thing
+ first
+ off
+ the
+
+
+bat
+ is
+ like
+ I'm
+ very
+ relentless
+ when
+ it
+
+
+comes
+ to
+ getting
+ the
+ right
+ answer
+ from
+
+
+cloud
+ or
+ from
+ AI.
+ Like
+ I
+ treat
+ it
+ like
+
+
+my
+ entry
+ level
+ analyst,
+ you
+ know,
+ to
+
+
+that
+ I
+ can
+ just
+ like
+ throw
+ a
+ billion
+
+
+questions.
+ I
+ cuz
+ I
+ used
+ to
+ be
+ an
+ analyst
+
+
+and
+ u
+ I
+ come
+ from
+ the
+ world
+ where
+ like
+
+
+you
+ were
+ just
+ expected
+ to
+ crank
+ and
+ so
+
+
+I'm
+ relentless
+ when
+ it
+ comes
+ to
+ asking
+ I
+
+
+to
+ do
+ things
+ for
+ me
+ especially
+ when
+ it
+
+
+comes
+ to
+ answering
+ customer
+ questions.
+ I
+
+
+think
+ the
+ one
+ prompt
+ strategy
+ I
+ use
+ is
+
+
+like
+ I
+ mean
+ you've
+ probably
+ heard
+
+
+versions
+ of
+ this
+ before
+ which
+ is
+ like
+
+
+you
+ know
+ my
+ customer
+ will
+ you
+ know
+ turn
+
+
+if
+ I
+ don't
+ get
+ this
+ right
+ or
+ you
+ know
+
+
+like
+ um
+ my
+ my
+ quota
+ is
+ dependent
+ on
+
+
+getting
+ this
+ this
+ thing
+ done.
+ Um,
+ so
+
+
+those
+ are
+ kind
+ of
+ ways
+ I've
+ approached
+
+
+it,
+ but
+ that
+ those
+ are
+ like
+ half
+
+
+answers.
+ I
+ think
+ the
+ the
+ real
+ answer,
+
+
+and
+ this
+ goes
+ back
+ to
+ curiosity
+ thing,
+
+
+is
+ like,
+ and
+ think
+ hard.
+ Think
+ harder
+
+
+about
+ why
+ you're
+ giving
+ me
+ this
+ answer.
+
+
+Think
+ hard
+ about
+ why
+ this
+ is
+ right.
+ And
+
+
+so
+ in
+ Claude
+ code,
+ there's
+ actually
+ like
+
+
+this
+ think
+ hard,
+ think
+ harder
+ paradigm
+
+
+of
+ like
+ how
+ much
+ reasoning
+ it
+ does
+ to
+
+
+come
+ to
+ the
+ answer.
+ And
+ so
+ it's
+ just
+
+
+going
+ going
+ one
+ step
+ deeper
+ and
+ saying
+
+
+like
+ you
+ gave
+ me
+ the
+ answer,
+ tell
+ me
+ why
+
+
+you
+ think
+ this
+ is
+ the
+ why
+ this
+ is
+ the
+
+
+right
+ answer
+ and
+ give
+ me
+ the
+ sources
+ for
+
+
+what
+ provided
+ you
+ with
+ this
+ reasoning.
+
+
+Um,
+ so
+ I
+ think
+ going
+ that
+ one
+ extra
+
+
+step,
+ especially
+ for
+ those
+ questions
+
+
+where
+ you're
+ like
+ not
+ quite
+ sure
+ if
+ it's
+
+
+the
+ right
+ answer
+ and
+ like
+ you're
+ reading
+
+
+the
+ code
+ and
+ it
+ kind
+ of
+ makes
+ sense,
+ but
+
+
+just
+ going
+ that
+ one
+ extra
+ query
+ to
+ make
+
+
+sure
+ you're
+ getting
+ the
+ right
+ response
+
+
+will
+ u
+ sometimes,
+ you
+ know,
+ give
+ you
+ new
+
+
+insights
+ about
+ your
+ codebase
+ that
+ your
+
+
+product
+ that
+ you
+ haven't
+ thought
+ about
+
+
+before.
+
+
+>> Okay.
+ I
+ like
+ the
+ practical
+ like
+ force
+
+
+the
+ enhanced
+ reasoning,
+ think
+ hard,
+
+
+think
+ harder.
+
+
+>> I
+ don't
+ want
+ people
+ to
+ miss
+ you
+ tell
+
+
+people
+ you're
+ going
+ to
+ miss
+ quote.
+ I
+
+
+mean
+ like
+ let's
+ give
+ Claude
+ code
+ a
+
+
+little
+ spiff
+ every
+ time
+ it
+ answers
+ a
+
+
+question
+ correctly.
+ You
+ got
+ to
+ split
+
+
+your
+ quota
+ with
+ claude
+ code.
+ That's
+
+
+really
+ what
+ we
+ need
+ to
+ do.
+ Um
+ and
+ say
+
+
+look
+ I'll
+ give
+ you
+ a
+ point
+ on
+ this
+ deal
+
+
+if
+ we
+ can
+ answer
+ this
+ this
+ question.
+
+
+>> Very
+ very
+ funny.
+ And
+ I
+ think
+ today
+ um
+
+
+it'll
+ be
+ live
+ by
+ the
+ time
+ this
+ episode
+
+
+goes
+ live.
+ Stripe
+ just
+ released
+ this
+
+
+like
+ payments
+ protocol
+ so
+ you
+ can
+ pay
+
+
+your
+ agents.
+ So
+ you
+ can,
+ you
+ know,
+ toss
+
+
+it
+ a
+ couple
+ agent
+ bucks
+ or
+ whatever.
+ Uh,
+
+
+every
+ time.
+
+
+>> Yeah.
+ Gives
+ you
+ better
+ answers
+ the
+ more
+
+
+bucks
+ you
+ give
+ it
+ or
+ something.
+
+
+>> That's
+ exactly
+ coin.
+ Claude
+ coin
+ coin
+
+
+operated
+ Claude.
+ That's
+ going
+ to
+ be
+ my
+
+
+new
+ my
+ new
+ skill.
+ Well,
+ Al,
+ this
+ was
+
+
+great.
+ Where
+ can
+ we
+ find
+ you
+ and
+ how
+ can
+
+
+we
+ be
+ helpful?
+
+
+>> Um,
+ I'm
+ on
+ LinkedIn
+ um
+ Alchen
+ on
+
+
+LinkedIn
+ at
+ Galo
+ and
+ um
+ check
+ out
+
+
+Galileo
+ if
+ you're
+ building
+ a
+
+
+applications.
+ Also,
+ I
+ think
+ number
+ one
+
+
+thing
+ for
+ me
+ is
+ my
+ team
+ is
+ actively
+
+
+hiring
+ field
+ engineers.
+ So
+ if
+ you
+ want
+
+
+to
+ work
+ in
+ post
+ sales,
+ pre-sales,
+ for
+
+
+deployed
+ engineering,
+ um
+ we
+ have
+ a
+ bunch
+
+
+of
+ open
+ roles.
+ So
+ would
+ love
+ to
+ have
+ you
+
+
+join
+ the
+ team
+ if
+ um
+ this
+ is
+ of
+ interest.
+
+
+>> Amazing.
+ Thanks
+ for
+ joining
+ How
+ AI.
+
+
+>> Thank
+ you
+ so
+ much.
+
+
+>> Thanks
+ so
+ much
+ for
+ watching.
+ If
+ you
+
+
+enjoyed
+ this
+ show,
+ please
+ like
+ and
+
+
+subscribe
+ here
+ on
+ YouTube
+ or
+ even
+
+
+better,
+ leave
+ us
+ a
+ comment
+ with
+ your
+
+
+thoughts.
+ You
+ can
+ also
+ find
+ this
+ podcast
+
+
+on
+ Apple
+ Podcasts,
+ Spotify,
+ or
+ your
+
+
+favorite
+ podcast
+ app.
+ Please
+ consider
+
+
+leaving
+ us
+ a
+ rating
+ and
+ review
+ which
+
+
+will
+ help
+ others
+ find
+ the
+ show.
+ You
+ can
+
+
+see
+ all
+ our
+ episodes
+ and
+ learn
+ more
+
+
+about
+ the
+ show
+ at
+ howiaipod.com.
+
+
+See
+ you
+ next
+ time.
