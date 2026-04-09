@@ -1,0 +1,3694 @@
+Right.
+ Hello
+ everyone.
+ Welcome
+ to
+ the
+ AI
+
+
+engineer
+ 2026
+ online
+ track.
+ Um
+ good
+
+
+morning,
+ good
+ afternoon,
+ good
+ evening
+
+
+depending
+ upon
+ your
+ time
+ zone.
+ My
+ name
+
+
+is
+ Deep
+ Singh
+ and
+ I
+ lead
+ the
+ initiatives
+
+
+in
+ the
+ emerging
+ data
+ technologies
+ and
+ AI
+
+
+architecture
+ at
+ Fujitsu
+ North
+ America.
+
+
+Um
+ and
+ today
+ I
+ will
+ be
+ uh
+ giving
+ you
+ or
+
+
+maybe
+ provide
+ you
+ a
+ deep
+ dive
+ into
+ a
+
+
+very
+ specific
+ but
+ a
+ very
+ highly
+
+
+impactful
+ engineering
+ challenge
+ uh
+ which
+
+
+we
+ have
+ encountered
+ in
+ our
+ uh
+ contact
+
+
+center.
+ So
+ with
+ that
+ let
+ me
+ just
+ quickly
+
+
+share
+ my
+ screen
+ and
+ get
+ this
+ going.
+
+
+Right.
+ So
+ um
+
+
+um
+ this
+ is
+ the
+ topic
+ of
+ the
+ discussion
+
+
+voice
+ opsy
+ low
+ latency
+ intelligence
+
+
+extraction
+ from
+ uh
+ messy
+ audio
+ streams.
+
+
+Uh
+ when
+ we
+ talk
+ about
+ you
+ know
+
+
+generative
+ AI
+ we
+ often
+ you
+ know
+ focus
+ on
+
+
+uh
+ clean
+ text
+ inputs.
+ But
+ if
+ you
+ go
+ into
+
+
+the
+ real
+ world
+ specifically
+ in
+ the
+
+
+customer
+ service
+ or
+ or
+ maybe
+ contact
+
+
+centers
+ specifically
+ um
+ the
+ data
+ does
+
+
+not
+ start
+ as
+ a
+ clean
+ text
+ right
+ it
+
+
+starts
+ as
+ messy
+ quite
+ overlapping
+
+
+um
+ sometimes
+ emotionally
+ charged
+ and
+ and
+
+
+it
+ it
+ may
+ have
+ multi-
+ channelannel
+ audio
+
+
+streams
+ also
+ within
+ that
+ right
+ and
+ and
+
+
+today
+ we
+ will
+ explore
+ the
+ technical
+
+
+architecture
+ which
+ is
+ required
+ ired
+ to
+
+
+capture
+ that
+ audio,
+ process
+ it
+ with
+
+
+ultra
+ low
+ latency
+ and
+ use
+ the
+ generative
+
+
+AI
+ to
+ extract
+ structured
+ actionable
+ uh
+
+
+business
+ intelligence
+ out
+ of
+ it.
+ So
+ with
+
+
+that,
+ let's
+ get
+ started
+ with
+ this.
+
+
+So
+ here
+ is
+ our
+ road
+ map
+ for
+ the
+ next
+ 25
+
+
+minutes.
+ Um
+ first
+ we
+ will
+ stage
+ the
+ um
+
+
+um
+ stage
+ with
+ what
+ the
+ current
+
+
+challenges
+ are.
+ Uh
+ we
+ have
+ to
+ understand
+
+
+the
+ operational
+ realities
+ and
+ the
+
+
+intense
+ human
+ bottlenecks
+ in
+ in
+ the
+
+
+modern
+ contact
+ centers
+ to
+ understand
+ why
+
+
+this
+ engineering
+ matters.
+ Uh
+ second
+ we
+
+
+will
+ walk
+ through
+ the
+ solution
+ which
+ is
+
+
+provided.
+ I
+ will
+ break
+ down
+ our
+
+
+highlevel
+ architecture
+ into
+ four
+ key
+
+
+components.
+
+
+um
+ detailing
+ how
+ we
+ move
+ from
+ raw
+ audio
+
+
+to
+ a
+ structured
+ JSON
+ using
+ advanced
+
+
+summarization
+ workflows.
+
+
+Thirdly,
+ we
+ will
+ look
+ at
+ the
+ key
+
+
+outcomes
+ specifically
+ like
+ how
+ these
+
+
+technical
+ implementations
+ they
+ translate
+
+
+into
+ hard
+ ROI
+ and
+ operational
+ impacts.
+
+
+And
+ finally
+ we
+ will
+ discuss
+ the
+ um
+ road
+
+
+map
+ ahead
+ and
+ and
+ being
+ transparent
+
+
+about
+ the
+ current
+ tech
+ uh
+ engineering
+
+
+constraints
+ which
+ we
+ face
+ uh
+ now
+ and
+
+
+then
+ and
+ where
+ we
+ are
+ taking
+ this
+
+
+technology
+ and
+ the
+ road
+ map
+ ahead.
+
+
+So
+ to
+ engineer
+ a
+ great
+ solution
+ we
+ first
+
+
+need
+ to
+ deeply
+ understand
+ the
+ problem.
+
+
+So
+ let's
+ look
+ at
+ the
+ current
+ state
+ of
+
+
+the
+ contact
+ center
+ operations.
+
+
+So
+ contact
+ centers
+ they
+ are
+ the
+ front
+
+
+lines
+ of
+ the
+ customer
+ experiences
+ but
+
+
+structurally
+ they
+ are
+ breaking
+ under
+ the
+
+
+pressure.
+ If
+ we
+ look
+ at
+ the
+ industry
+
+
+data
+ um
+ over
+ 50%
+ of
+ the
+ contact
+ centers
+
+
+they
+ identify
+
+
+uh
+ hiring
+ training
+ and
+ productivity
+ as
+
+
+their
+ most
+ critical
+ barriers.
+ Why?
+
+
+because
+ the
+ job
+ is
+ incredibly
+ difficult.
+
+
+When
+ we
+ analyze
+ the
+ reasons
+ why
+ the
+
+
+operators
+ they
+ leave
+ for
+ the
+ other
+
+
+professions,
+ high
+ stress
+ is
+ the
+ number
+
+
+one
+ factor
+ as
+ part
+ of
+ it.
+ Now
+ operators
+
+
+are
+ expected
+ to
+ handle
+ complex
+ customer
+
+
+emotions,
+ navigate
+ the
+ um
+ multiple
+ uh
+
+
+customer
+ data
+ platforms
+ or
+ the
+ CRM
+
+
+systems
+ involved
+ into
+ it
+ and
+ and
+ also
+
+
+document
+ everything
+ perfectly.
+ So
+ if
+ you
+
+
+think
+ about
+ this,
+ this
+ leads
+ to
+ a
+
+
+massive
+ retention
+ problem,
+ right?
+ uh
+ we
+
+
+are
+ caught
+ in
+ a
+ negative
+ spiral
+ um
+ where
+
+
+understaffing
+ leads
+ to
+ higher
+ stress
+ for
+
+
+the
+ remaining
+ operators
+
+
+um
+ which
+ leads
+ to
+ a
+ high
+ turnover
+ and
+ uh
+
+
+that
+ ultimately
+ implies
+ to
+ more
+
+
+understaffing
+ right
+ so
+ to
+ break
+ this
+
+
+cycle
+ we
+ just
+
+
+um
+ cannot
+ hire
+ more
+ people
+ we
+ have
+ to
+
+
+fundamentally
+ engineer
+ the
+ stress
+ out
+ of
+
+
+the
+ workflow
+
+
+And
+ the
+ most
+ glaring
+ inefficiency
+ in
+
+
+this
+ workflow
+ is
+ something
+ called
+ um
+
+
+after
+ call
+ workflow
+ or
+ ACW
+
+
+uh
+ which
+ we
+ are
+ going
+ to
+ discuss
+ as
+ part
+
+
+of
+ this
+ slide.
+ Um
+ according
+ to
+ our
+
+
+baseline
+ studies
+ the
+ average
+ contact
+
+
+center
+ call
+ it
+ typically
+ last
+ about
+ like
+
+
+6.5
+ minutes.
+ However,
+ the
+ average
+
+
+post-processing
+ time
+ where
+ the
+ operator
+
+
+types
+ up
+ the
+ nodes,
+ summarizes
+ the
+ call
+
+
+and
+ selects
+ the
+ disposition
+ codes,
+ it
+ it
+
+
+takes
+ like
+ almost
+ 6.3
+ minutes.
+ So,
+ this
+
+
+is
+ nearly
+ like
+ 1
+ is
+ to1
+ ratio
+ we
+ are
+
+
+talking
+ about.
+ Um
+ and
+ and
+ this
+ also
+
+
+implies
+ operators
+ are
+ spending
+ almost
+ as
+
+
+much
+ time
+ doing
+ administrative
+ data
+
+
+entry
+ as
+ they
+ are
+ actually
+ talking
+ to
+
+
+the
+ customers.
+ Um
+ furthermore
+ because
+
+
+the
+ summarization
+ relies
+ on
+ an
+
+
+individual
+ operator's
+ memory
+ and
+ the
+
+
+writing
+ skills
+ the
+ data
+ quality
+ is
+
+
+highly
+ inconsistent.
+
+
+Um
+ our
+ core
+ engineering
+ mission
+ here
+ was
+
+
+clear
+ like
+ use
+ AI
+ to
+ target
+ the
+ after
+
+
+call
+ work
+ which
+ is
+ ACW.
+ Um
+ if
+ we
+ can
+
+
+mechanize
+ the
+ summarization
+ and
+ the
+ data
+
+
+extraction
+ uh
+ theoretically
+ we
+ can
+
+
+reduce
+ the
+ post
+ processing
+ time
+ um
+
+
+almost
+ by
+ 50%
+ or
+ even
+ more
+ and
+ and
+ this
+
+
+shifts
+ the
+ enterprise
+ you
+ know
+ focus
+
+
+from
+ merely
+ just
+ handling
+ the
+ calls
+ to
+
+
+actually
+ you
+ know
+ analyzing
+ the
+ voice
+ of
+
+
+the
+ customers
+ for
+ the
+ business
+ growth
+
+
+which
+ we
+ are
+ looking
+ out
+ every
+ now
+ and
+
+
+then.
+
+
+So
+ how
+ do
+ we
+ engineer
+ that
+ shift?
+ Let's
+
+
+deep
+ dive
+ into
+ the
+ technical
+ solution
+
+
+and
+ the
+ architecture
+ we
+ built
+ to
+ solve
+
+
+this.
+ Um,
+
+
+so
+ we
+ designed
+ a
+ four
+ stage
+ low
+ latency
+
+
+pipeline
+ to
+ transform
+ the
+ conversational
+
+
+audio
+ into
+ a
+ structured
+ business
+
+
+intelligence
+
+
+um
+ with
+ minimal
+ human
+ intervention
+ and
+
+
+it
+ starts
+ with
+ voice
+ capture
+ which
+ is
+
+
+tapping
+ into
+ the
+ telephon
+ system
+ to
+
+
+extract
+ raw
+ highfidelity
+ audio
+ streams
+
+
+and
+ that
+ flows
+ goes
+ into
+ our
+ speechtoext
+
+
+engine
+ ST
+ uh
+ which
+ is
+ responsible
+ for
+
+
+high
+ accuracy
+ transcription.
+
+
+Um
+ next
+ is
+ the
+ brain
+ of
+ the
+ system
+ the
+
+
+generative
+ AI
+ core.
+ This
+ is
+ where
+ we
+ do
+
+
+the
+ heavy
+ lifting
+ of
+ the
+ intent
+
+
+recognition
+ and
+ summarization.
+
+
+And
+ finally,
+ the
+ customer
+ data
+ sync
+
+
+layer
+ which
+ translates
+ those
+ AI
+ insights
+
+
+into
+ API
+ calls
+ to
+ update
+ the
+ uh
+ uh
+
+
+customer
+ data
+ or
+ CRM
+ data
+ automatically.
+
+
+Um
+ let's
+ look
+ at
+ the
+ engineering
+ under
+
+
+the
+ hood
+ for
+ each
+ of
+ these
+ components
+ in
+
+
+detail.
+
+
+So
+ the
+ first
+ component
+ is
+ the
+ voice
+
+
+capture
+ in
+ AI.
+ Um
+ the
+ typical
+ rule
+ is
+
+
+garbage
+ in
+ equals
+ garbage
+ out.
+ So
+ if
+
+
+your
+ audio
+ intake
+ is
+ flawed,
+ the
+ LLM
+
+
+will
+ hallucinate
+ later
+ on.
+ Um
+ we
+ do
+
+
+realtime
+ uh
+ audio
+ intake.
+ So
+ applying
+
+
+noise
+ filters
+ to
+ strip
+ out
+ the
+ uh
+ back
+
+
+office
+ chatter
+ or
+ um
+ you
+ know
+ anything
+
+
+of
+ those
+ sort
+ which
+ is
+ creating
+ an
+
+
+attenuation
+
+
+is
+ important
+ and
+ normalize
+ the
+ audio
+
+
+level
+ is
+ very
+ very
+ very
+ important
+ for
+
+
+us.
+ Crucially,
+ if
+ we
+ perform
+ these
+
+
+channel
+ mapping,
+ uh
+ we
+ absolutely
+ must
+
+
+split
+ split
+ the
+ uh
+ stereo
+ audio
+ to
+
+
+isolate
+ the
+ agent
+ on
+ one
+ channel,
+ say
+ on
+
+
+the
+ very
+ left
+ and
+ the
+ customer
+ on
+ the
+
+
+other
+ side,
+ which
+ is
+ the
+ very
+ right.
+
+
+Right?
+ So
+ if
+ if
+ you
+ mix
+ them
+ into
+ a
+
+
+single
+ monot
+ track
+ um
+ like
+ kind
+ of
+
+
+overlapping
+ with
+ each
+ other
+ the
+ AI
+ will
+
+
+struggle
+ to
+ figure
+ out
+ who
+ said
+ what
+ and
+
+
+and
+ thereby
+ you
+ know
+ ruining
+ the
+ entire
+
+
+downstream
+ summary.
+ So
+ um
+ uh
+ it's
+
+
+important
+ that
+ we
+ have
+ that
+ channel
+
+
+mapping
+ intact
+ and
+ it
+ separates
+ which
+
+
+who
+ is
+ what
+ and
+ who
+ is
+ saying
+ what
+
+
+right.
+ Um
+ finally
+ we
+ apply
+ a
+ security
+
+
+layer
+ because
+ sometimes
+ the
+ audio
+
+
+streams
+ can
+ contain
+ the
+ credit
+ card
+
+
+numbers
+ or
+ maybe
+ passwords
+ or
+ any
+
+
+anything
+ which
+ is
+ personally
+
+
+identifiable
+ information
+ PII.
+ So
+ we
+
+
+utilize
+ buffer
+ management
+ and
+ early
+
+
+stage
+ PII
+ masking
+ technique
+ uh
+ so
+ that
+
+
+the
+ sensitive
+ data
+ it
+ never
+ hits
+ the
+ LLM
+
+
+memory
+ banks
+ whenever
+ we
+ are
+ moving
+
+
+ahead
+ in
+ the
+ channel.
+
+
+Now
+ next
+ the
+ audio
+ it
+ hits
+ the
+ um
+
+
+speechtoext
+ engine
+ for
+ generative
+ AI
+ or
+
+
+the
+ LLMs
+ to
+ summarize
+ the
+ um
+ data
+
+
+effectively
+ or
+ your
+ response
+
+
+effectively.
+ We
+ found
+ that
+ the
+ speech
+ to
+
+
+text
+ the
+ ST
+ um
+ accuracy
+ must
+ be
+ above
+
+
+90%.
+
+
+uh
+ we
+ utilize
+ advanced
+ acostic
+ modeling
+
+
+to
+ map
+ the
+ u
+ phonemes
+ and
+ filter
+ out
+ any
+
+
+regional
+ dialects.
+ We
+ then
+ apply
+ the
+
+
+language
+ logic
+ utilizing
+ like
+ domain
+
+
+specific
+ dictionaries.
+ U
+ just
+ for
+
+
+example
+ if
+ it's
+ an
+ insurance
+ agent
+ the
+
+
+um
+ speechtoext
+ engine
+ ST
+ needs
+ to
+ know
+
+
+the
+ difference
+ between
+ a
+ term
+ life
+ and
+ a
+
+
+turn
+ right.
+ Both
+ of
+ them
+ are
+ very
+ close
+
+
+to
+ each
+ other
+ but
+ still
+ there
+ should
+ be
+
+
+a
+ difference
+ between
+ them.
+ Uh
+ finally
+
+
+post-processing
+ is
+ also
+ vital.
+ uh
+ we
+ use
+
+
+inverse
+ text
+ normalization
+ and
+ auto
+
+
+punctuation.
+ Uh
+ for
+ example,
+ if
+ if
+ a
+
+
+customer
+ says
+ $5,000,
+ the
+ speechtoext
+ um
+
+
+engine,
+ it
+ should
+ must
+ output
+ that
+ into
+
+
+numerical
+ fashion.
+ And
+ this
+ numerical
+
+
+formatting
+ it
+ it
+ drastically
+ improves
+
+
+the
+ LLM's
+ ability
+ to
+ extract
+ the
+
+
+entities
+ in
+ later
+ point
+ in
+ time.
+
+
+Now
+ we
+ reach
+ the
+ generative
+ AI
+ core.
+ We
+
+
+are
+ not
+ just
+ throwing
+ a
+ raw
+ trans
+ uh
+ raw
+
+
+trans
+ uh
+ transcri
+ script
+ at
+ a
+ llm
+ but
+ we
+
+
+are
+ also
+ asking
+ it
+ to
+ summarize
+ it
+ like
+
+
+we
+ use
+ a
+ highly
+ orchestrated
+ approach
+ in
+
+
+this
+ case.
+ Um
+ in
+ our
+ orchestration
+ layer
+
+
+we
+ use
+ specific
+ prompt
+ templates.
+ Our
+
+
+um
+ setup
+ showed
+ that
+ if
+ if
+ you
+ just
+ ask
+
+
+an
+ LLM
+ to
+ summarize
+ a
+ call,
+ it
+ outputs
+ a
+
+
+messy
+ narrative
+ paragraph.
+ So
+ instead
+ we
+
+
+use
+ few
+ short
+ libraries
+ to
+ instruct
+ the
+
+
+LLM
+ to
+ output
+ separate
+ bullet
+ points
+ um
+
+
+one
+ list
+ for
+ customer
+ inquiry
+ uh
+ and
+ a
+
+
+separate
+ list
+ for
+ operators
+ action.
+ Uh
+
+
+then
+ comes
+ the
+ reasoning
+ layer.
+ In
+ the
+
+
+reasoning
+ layer,
+ we
+ extract
+ the
+ intent.
+
+
+We
+ provide
+ the
+ LLM
+ with
+ a
+ predefined
+
+
+list
+ of
+ customer
+ uh
+ call
+ reasons
+ like
+ uh
+
+
+cancellation
+ or
+ new
+ application
+ or
+ any
+
+
+kind
+ of
+ claim
+ status
+ and
+ instruct
+ it
+ to
+
+
+classify
+ the
+ transcript
+ and
+ output
+ the
+
+
+reason
+ why
+ it
+ choose
+ that
+ specific
+
+
+classification.
+
+
+And
+ finally
+ the
+ trust
+ layer
+ where
+ we
+
+
+apply
+ the
+ token
+ optimization
+ to
+ keep
+ the
+
+
+um
+ latency
+ low
+ and
+ runs
+ the
+ uh
+ automated
+
+
+hallucination
+ checks
+ to
+ ensure
+ the
+ uh
+
+
+generated
+ summary
+ is
+ strict
+ um
+ and
+ it
+ is
+
+
+grounded
+ in
+ the
+ transcript.
+
+
+Now
+ the
+ final
+ technical
+ hurdle
+ is
+
+
+getting
+ this
+ beautiful
+ data
+ back
+ into
+
+
+hands
+ of
+ the
+ business.
+ Our
+ API
+ gateway
+
+
+acts
+ as
+ a
+ schema
+ mapper.
+ It
+ takes
+ the
+
+
+JSON
+ output
+ from
+ the
+ LLM
+ uh
+ and
+ maps
+ the
+
+
+field
+ like
+ customer
+ intent
+ or
+ resolution
+
+
+status
+ and
+ and
+ directly
+ to
+ some
+
+
+corresponding
+ fields
+ in
+ the
+ um
+ um
+ based
+
+
+on
+ the
+ company's
+ CRM
+ system
+ or
+ any
+
+
+customer
+ data
+ which
+ we
+ have
+ laid
+ out
+ via
+
+
+some
+ rest
+ APIs.
+ So
+ we
+ don't
+ remove
+ the
+
+
+human
+ entirely
+ in
+ this.
+ We
+ use
+ a
+
+
+verification
+ step
+ in
+ between.
+ Uh
+ the
+
+
+operator
+ it
+ sees
+ the
+ AI
+ generated
+
+
+summary
+ autopop
+ populated
+ on
+ their
+
+
+screen.
+ Uh
+ they
+ do
+ a
+ quick
+ visual
+ field
+
+
+validation
+ make
+ some
+ minor
+ edits
+ if
+
+
+necessary
+ and
+ then
+ just
+ click
+ the
+
+
+confirm.
+ Uh
+ simultaneously
+ this
+
+
+structured
+ data
+ it
+ flows
+ into
+ our
+
+
+business
+ intelligence
+ models
+
+
+um
+ aggregating
+ the
+ voice
+ of
+ the
+ customer
+
+
+data
+ for
+ management
+ dashboards
+ and
+
+
+automatically
+ you
+ know
+ flagging
+ the
+
+
+candidates
+ for
+ new
+ FAQ
+
+
+um
+ data
+ entries.
+
+
+Now
+ to
+ tie
+ the
+ architecture
+ together,
+
+
+this
+ is
+ the
+ linear
+ workflow
+ logic
+ of
+ the
+
+
+data
+ pipeline.
+ We
+ take
+ the
+ raw
+
+
+transcript
+ complete
+ um
+ with
+ the
+ time
+
+
+indexing
+ uh
+ confidence
+ scoring
+ and
+
+
+dinoising.
+ We
+ passes
+ we
+ pass
+ it
+ through
+
+
+the
+ speaker
+ separation
+ because
+ we
+ split
+
+
+the
+ stereo
+ channels
+ um
+ in
+ the
+ step
+ one.
+
+
+Um
+ we
+ can
+ easily
+ stitch
+ the
+ dialogue
+
+
+together
+ logically
+ like
+ customer
+ said
+ x
+
+
+agent
+ said
+ y.
+ Uh
+ then
+ we
+ move
+ to
+ the
+
+
+context
+ deduct
+ deduction
+ where
+ the
+ LLM
+
+
+spots
+ the
+ entities
+ like
+ account
+ numbers
+
+
+um
+ or
+ product
+ name
+ or
+ customer
+ name
+ run
+
+
+the
+ sentiment
+ analysis
+ and
+ recognizes
+
+
+the
+ intent
+ and
+ the
+ final
+ state
+ is
+ the
+
+
+structured
+ output.
+ So
+ instead
+ of
+ a
+ wall
+
+
+of
+ text
+ uh
+ the
+ system
+ it
+ outputs
+ like
+
+
+clear
+ uh
+ and
+ a
+ clean
+ JSON
+ schema
+
+
+matching
+ some
+ predefined
+ uh
+ customer
+
+
+data
+ or
+ maybe
+ CRM
+ templates
+ which
+ we
+
+
+have
+ in
+ the
+ enterprise
+ and
+ then
+
+
+categorized
+ neatly
+ into
+ bullet
+ points
+
+
+and
+ and
+ this
+ strict
+ formatting
+ is
+ what
+
+
+turns
+ an
+ unstructured
+ conversation
+ into
+
+
+a
+ database
+ ready
+ asset.
+
+
+So
+ what
+ happens
+ when
+ we
+ deploy
+ this
+
+
+architecture
+ in
+ a
+ real
+ contact
+ center
+
+
+environment?
+ Let's
+ look
+ at
+ the
+ outcomes.
+
+
+The
+ operational
+ impacts
+ out
+ of
+ the
+
+
+implementation
+ were
+ quite
+ immediate
+ and
+
+
+and
+ highly
+ measurable.
+ Um
+ look
+ at
+ the
+ um
+
+
+ACW
+ time.
+ um
+ under
+ the
+ manual
+ operation
+
+
+after
+ average
+ after
+ call
+ work
+ was
+ 6.3
+
+
+minutes
+ uh
+ powered
+ by
+ our
+ AI
+ workflow
+
+
+that
+ dropped
+ to
+ like
+ 3.1
+ minutes
+ which
+
+
+is
+ like
+ almost
+ 50%
+ reduction
+ in
+ the
+
+
+processing
+ time.
+ Um
+ if
+ you
+ calculate
+
+
+that
+ across
+ 500
+ seats
+ handling
+ thousands
+
+
+of
+ calls
+ a
+ day,
+ you
+ are
+ looking
+ at
+ a
+
+
+massive
+ operational
+ saving.
+ The
+
+
+equivalent
+ of
+ almost
+ reclaiming
+ dozens
+
+
+of
+ full-time
+ headcounts
+ purely
+ from
+
+
+efficiency
+ standpoint.
+ Um
+ [snorts]
+
+
+the
+ next
+ aspect
+ is
+ of
+ data
+ entry
+
+
+quality.
+ It
+ it
+ moved
+ from
+ a
+ highly
+
+
+subjective
+ and
+ a
+ variable
+ to
+ highly
+
+
+standardized
+ and
+ uniform
+ output.
+
+
+uh
+ the
+ inquiry
+ categorization
+ or
+ the
+
+
+call
+ reason
+ tagging
+ uh
+ it
+ moved
+ from
+
+
+being
+ dependent
+ on
+ an
+ operator
+ mode
+ or
+
+
+memory
+ um
+ to
+ um
+ being
+ a
+ strictly
+ logic
+
+
+based
+ resulting
+ in
+ a
+ highly
+ consistent
+
+
+voice
+ of
+ the
+ customer
+ data
+ set
+ for
+ the
+
+
+management
+ and
+ ultimately
+ by
+ removing
+
+
+these
+ repetitive
+ administrative
+ burden
+
+
+of
+ typing
+ out
+ notes
+ we
+ reduce
+ the
+
+
+cognitive
+ load
+ on
+ the
+ oper
+ operators
+
+
+thereby
+ stabilizing
+ the
+ operations
+ and
+
+
+directly
+ combating
+ the
+ stress
+ which
+ is
+
+
+linked
+ with
+ the
+ staff
+ and
+ and
+ this
+
+
+ultimately
+ reduced
+ the
+ turnover
+ we
+
+
+identified
+ um
+ at
+ the
+ very
+ beginning
+ of
+
+
+our
+ discussion.
+
+
+While
+ the
+ results
+ were
+ fantastic,
+ the
+
+
+the
+ engineering
+ work
+ is
+ never
+ done.
+ Um
+
+
+and
+ and
+ let's
+ talk
+ about
+ the
+ constraints
+
+
+we
+ face
+ uh
+ and
+ our
+ road
+ map
+ for
+ the
+
+
+future.
+
+
+Um
+
+
+we
+ are
+ currently
+ navigating
+ three
+ main
+
+
+constraints.
+ First
+ is
+ the
+ um
+ source
+ to
+
+
+source
+ to
+ text
+ accuracy,
+ ST
+ accuracy.
+
+
+the
+ entire
+ generative
+ AI
+ summary,
+ it
+
+
+relies
+ on
+ the
+ transcript.
+ So
+ if
+ the
+ ST
+
+
+engine
+ uh
+ fails
+ to
+ pick
+ up
+ heavy
+ accents
+
+
+or
+ poor
+ audio
+ quality,
+ the
+ LLM
+ has
+
+
+nothing
+ to
+ work
+ with.
+ So
+ the
+ ST
+
+
+optimization
+ is
+ a
+ continuous
+ battle
+ for
+
+
+us.
+ Uh
+ second
+ is
+ the
+ initial
+ setup
+ cost
+
+
+while
+ the
+ long-term
+ ROI
+ is
+ massive.
+ the
+
+
+initial
+ consumption
+ of
+ the
+ API
+ tokens
+
+
+especially
+ running
+ complex
+ LLM
+
+
+reasonings
+ on
+ long
+ 20inut
+
+
+uh
+ transcripts
+ can
+ be
+ costly
+ and
+ uh
+
+
+especially
+ during
+ the
+ initial
+ scaling
+
+
+phases
+ those
+ are
+ tough
+ ones
+ and
+ and
+ we
+
+
+are
+ constantly
+ working
+ on
+ token
+
+
+optimization
+ techniques
+ to
+ bring
+ this
+
+
+number
+ down.
+ Uh
+ the
+ third
+ is
+ the
+
+
+security
+ and
+ compliance.
+ Um
+ handling
+ PII
+
+
+uh
+ per
+ uh
+ any
+ kind
+ of
+ sensitive
+
+
+information
+ in
+ audio
+ streams
+ is
+ very
+
+
+complex.
+ Um
+ and
+ ensuring
+ robust
+ masking
+
+
+before
+ the
+ hit
+ data
+ hits
+ the
+ cloud
+
+
+endpoint
+ is
+ a
+ strict
+ requirement.
+ Um
+ and
+
+
+u
+ because
+ of
+ this
+ we
+ add
+ some
+ layers
+ and
+
+
+ultimately
+ reduce
+ increases
+ the
+ latency
+
+
+and
+ also
+ add
+ some
+ overhead
+ from
+
+
+architectural
+ standpoint.
+ So
+ we
+ are
+
+
+still
+ figuring
+ it
+ out
+ how
+ we
+ can
+ reduce
+
+
+those
+ extra
+ layers
+ and
+ make
+ it
+ much
+ more
+
+
+robust
+ component
+ wise.
+
+
+All
+ right.
+ So
+ to
+ address
+ these
+
+
+constraints
+ um
+
+
+and
+ and
+ push
+ the
+ boundaries
+ of
+ what's
+
+
+possible,
+ our
+ road
+ map
+ is
+ currently
+
+
+broken
+ down
+ into
+ three
+ phases.
+ Uh
+ phase
+
+
+one,
+ it
+ focuses
+ on
+ explainable
+ AI.
+ Um
+ we
+
+
+want
+ to
+ move
+ beyond
+ just
+ summarizing
+
+
+calls
+ to
+ actually
+ you
+ know
+ coaching
+ the
+
+
+operators.
+ We
+ are
+ engineering
+ these
+
+
+systems
+ to
+ analyze
+ the
+ audio
+ post
+ call
+
+
+and
+ provide
+ operators
+ with
+ instant
+
+
+private
+ feedback
+ on
+ their
+ uh
+ either
+ soft
+
+
+skills
+ or
+ empathy
+ level
+ or
+ any
+ kind
+ of
+
+
+accuracy
+ from
+ a
+ information
+ standpoint.
+
+
+The
+ phase
+ two
+ it
+ targets
+ the
+ predictive
+
+
+staffing.
+ By
+ taking
+ the
+ massive
+ amount
+
+
+of
+ categorized
+ intent
+ data
+ we
+ are
+ now
+
+
+capturing,
+ we
+ can
+ feed
+ same
+ the
+ same
+
+
+exact
+ data
+ intent
+ data
+ into
+ a
+ time
+
+
+series
+ analytics.
+ Um
+ and
+ and
+ this
+ will
+
+
+allow
+ the
+ workforce
+ management
+ to
+
+
+accurately
+ forecast
+ the
+ call
+ volumes
+
+
+spikes
+ based
+ on
+ those
+ specific
+ topics
+
+
+and
+ thereby
+ optimizing
+ the
+ shiftuling.
+
+
+Uh
+ uh
+ the
+ phase
+ three
+ is
+ perhaps
+ the
+
+
+most
+ important
+ for
+ human
+ well-being.
+ Uh
+
+
+combating
+ the
+ customer
+ harassment
+ uh
+ uh
+
+
+contact
+ center
+ agents
+ they
+ mostly
+ face
+
+
+an
+ increasingly
+ amount
+ of
+ verbal
+ abuse.
+
+
+Um
+ and
+ we
+ are
+ developing
+ uh
+ a
+ low
+
+
+latency
+ sentiment
+ and
+ aostic
+ analysis
+
+
+that
+ can
+ detect
+ um
+ when
+ a
+ customer
+
+
+becomes
+ abusive.
+ Um
+ ultimately
+ the
+
+
+system
+ can
+ you
+ know
+ trigger
+ some
+
+
+triggers
+ uh
+ I
+ mean
+ an
+ alerts
+ or
+
+
+something
+ which
+ is
+ important
+ from
+
+
+notification
+ standpoint
+ to
+ a
+ supervisor
+
+
+or
+ anyone
+ who
+ is
+ there
+ in
+ the
+ from
+ the
+
+
+management
+ upper
+ management
+ standpoint.
+
+
+Um
+ or
+ or
+ maybe
+ seamlessly
+ transfer
+ the
+
+
+call
+ to
+ an
+ AI
+ voice
+ agent
+ just
+ to
+
+
+protect
+ the
+ human
+ operator
+ uh
+ mental
+
+
+health
+ in
+ in
+ case
+ of
+ these
+ tough
+
+
+conversations.
+
+
+All
+ right.
+ Um
+ so
+ u
+ by
+ applying
+ these
+
+
+rigorous
+ engineering
+ uh
+ techniques
+ to
+
+
+the
+ messy
+ audio
+ data,
+ we
+ can
+ definitely
+
+
+transform
+ the
+ contact
+ centers
+ from
+ uh
+
+
+cost
+ centers
+ of
+ like
+ high
+ stress
+ into
+ a
+
+
+highly
+ efficient
+ and
+ intelligence
+
+
+gathering
+ engines.
+ uh
+ that
+ protect
+ their
+
+
+workforces.
+ That's
+ the
+ whole
+ idea
+ of
+
+
+having
+ this
+ right.
+ Um
+ thank
+ you
+ so
+ much
+
+
+for
+ your
+ time
+ uh
+ and
+ listening
+ to
+ me.
+ Um
+
+
+I
+ have
+ included
+ my
+ QR
+ code
+ which
+ I
+ will
+
+
+just
+ flash
+ in
+ here
+ um
+ so
+ that
+ you
+ can
+
+
+grab
+ me
+ over
+ LinkedIn.
+ uh
+ and
+ please
+
+
+feel
+ free
+ to
+ connect
+ if
+ if
+ you
+ would
+
+
+like
+ to
+ discuss
+ uh
+ the
+ architecture
+ or
+
+
+any
+ prompt
+ engineering
+ strategies
+
+
+related
+ to
+ the
+ discussion
+ which
+ we
+ had
+
+
+in
+ here
+ and
+ happy
+ to
+ connect
+ and
+ um
+ make
+
+
+things
+ uh
+ work
+ things
+ out
+ between
+ us
+ and
+
+
+we
+ can
+ have
+ more
+ conversations.
+ So
+ thank
+
+
+you
+ so
+ much
+ for
+ listening
+ to
+ me
+ and
+ have
+
+
+a
+ good
+ one.
+ Bye.
