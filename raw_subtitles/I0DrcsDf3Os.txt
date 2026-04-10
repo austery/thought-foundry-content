@@ -1,0 +1,2915 @@
+[Speaker 0]:  PI 很多这个 model release 都有我的名字，
+[Speaker 0]: 这个就是因为我在 open i 的内部搭了整个 post training 的二 o info。
+[Speaker 1]: 所以整个 post 的的 trainfer 你是最核核的贡献者者。
+[Speaker 1]: 是的，
+[Speaker 0]: 因为我觉得应该打破信息差，
+[Speaker 0]: 信息差是一个就是如果你在清华生层的话，
+[Speaker 0]: 是一个很有用的东西。
+[Speaker 0]: 但是我应我觉得你每个人都应该平等的拥有这个信息，
+[Speaker 0]: 哪怕当时有了现在的认知，
+[Speaker 0]: 那还是做不出来。
+[Speaker 0]: 没有，
+[Speaker 0]: 我不想发 paper，
+[Speaker 0]: 我觉得发 paper 完全没有意义。
+[Speaker 0]: 换方当时说要搞一个呃 AI lab，
+[Speaker 0]: 就是后面的 deep ick，
+[Speaker 0]: 对我当时是拿了 offer。
+[Speaker 0]: 如果你想进工业界，
+[Speaker 0]: 那么读 PHD 就是浪费生命。
+[Speaker 0]: 教一个 researcher 如何做好 engineering，
+[Speaker 0]: 要远比交割 engineer 如何做好 research 来的难。
+[Speaker 0]: 每家的都都有不同程度的 infrabug，
+[Speaker 0]: 然后谁修 bug，
+[Speaker 0]: 谁修的 bug 越多，
+[Speaker 0]: 那谁的模型训的就越好，
+[Speaker 2]: 有没有？
+[Speaker 3]:  hello，
+[Speaker 3]: 大家好，
+[Speaker 3]: 本期嘉宾翁嘉译，
+[Speaker 3]: 他于二零二二年加入 open AI，
+[Speaker 3]: 并且是 open i 一系列模型背后的核心贡献者。
+[Speaker 3]: 从切 GPTGPT four o 再到 GPT five，
+[Speaker 3]: 你能看到的每一个模型跃迁背后都有他的身影。
+[Speaker 3]: 而他的核心贡献可以被总结为三个关键词，
+[Speaker 3]: 强化学习。
+[Speaker 3]:  post training infa。
+[Speaker 3]: 但对我来说，
+[Speaker 3]: 翁加 e 不只是把模型做的更强的人在加入 open i 之前，
+[Speaker 3]: 他就已经用开源和代码影响过。
+[Speaker 3]: 无数人从在清华开源作业与资料试图打破信息，
+[Speaker 3]: 差到开源，
+[Speaker 3]: 强化学习框架天授，
+[Speaker 3]: 做出免费签证查询系统。
+[Speaker 3]: 他把代码工具视作一种慈善。
+[Speaker 3]: 在这期，
+[Speaker 3]: 播客，
+[Speaker 3]: 我们会从翁嘉译的童年聊，
+[Speaker 3]: 起到清华与 CMU 的求学之路，
+[Speaker 3]: 再到二零二二年加入 open i 之后的亲身经历，
+[Speaker 3]: 站在世界 AI 风暴中心的他看见了什么，
+[Speaker 3]: 这里是 why not TV pocast。
+[Speaker 3]: 现在请和我一起进入翁嘉译的世界。
+[Speaker 1]:  hello，
+[Speaker 1]: 嘉怡，
+[Speaker 1]: 欢迎你来到 why now TV forecast。
+[Speaker 0]:  hello hello 啊，
+[Speaker 1]: 这这个我觉得这期很奇妙的一点，
+[Speaker 1]: 就是我在给你准备这期的 outline 的时候，
+[Speaker 1]: 我用的是 GP five 的 deep researarch。
+[Speaker 1]: 然后就相当于是你自己在背后作为核心开发者的产品和模型。
+[Speaker 1]: 然后他们自己在 deep research，
+[Speaker 1]: 想这些问题来采访，
+[Speaker 1]: 你是背后他们的生产整及他们的 developer。
+[Speaker 1]: 我觉得这个是一个比较奇妙的闭环。
+[Speaker 1]: 今天我们会谈到很多部分，
+[Speaker 1]: 从你的的童年成长，
+[Speaker 1]: 清华的本科经历到 CMU 读研，
+[Speaker 1]: 再到二零二二年加入 OPI 至今的所有的核心开发的经历。
+[Speaker 1]: 我想先从最早你的童年开始，
+[Speaker 1]: 能不能给我讲讲你，
+[Speaker 1]: 你觉得你小时候是一个什么样的小孩？
+[Speaker 0]: 我小时候特别喜欢这个小奥数奥数，
+[Speaker 0]: 对我我从一年级开始就开始学奥数。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 就是因为开始的时候呃，
+[Speaker 0]: 我爸妈让我去听了这个进修校的一个奥数课跟语文课，
+[Speaker 0]: 然后我对语文完全不感兴趣，
+[Speaker 0]: 但是我对奥数就非常感兴趣。
+[Speaker 0]: 然后我就进去了，
+[Speaker 0]: 然后从一年级开始就一直上到六年级，
+[Speaker 0]: 然后初中也是，
+[Speaker 0]: 然后我发现就是我做数学题做的比谁都快。
+[Speaker 0]: 小学的时候对小学的时候，
+[Speaker 0]: 就是比如说别别人口算题，
+[Speaker 0]: 像二年级的时候，
+[Speaker 0]: 口算题可能还没做完，
+[Speaker 0]: 就是可能写到一半，
+[Speaker 0]: 然后我就已经做完了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是那种不用过脑子的，
+[Speaker 0]: 嗯，
+[Speaker 0]: 可能用现在时髦话说就是 c 三 one 啊。
+[Speaker 0]: 对，
+[Speaker 0]: 直接直接表层意识直接过，
+[Speaker 0]: 然后直接看一眼出来答案那种。
+[Speaker 0]: 然后然后就是这个让我这个做数学题非常有成就感。
+[Speaker 0]: 因为我我觉得我是一个就是学习还算相比于其他人算比较偏慢的人。
+[Speaker 0]: 呃，
+[Speaker 0]: 怎么说呢？
+[Speaker 0]: 就是学一个新的东西，
+[Speaker 0]: 我经常要花别人呃两到三倍的时间。
+[Speaker 0]: 但现在紧接下来还是这样，
+[Speaker 0]: 就是比如说我读一段代码，
+[Speaker 0]: 我我就是要比别人花很多的时间去理解这整个整个整个内容。
+[Speaker 0]: 整个 context。
+[Speaker 0]: 呃，
+[Speaker 0]: 然后嗯但是我一旦理解之后，
+[Speaker 0]: 我用的就非常快。
+[Speaker 0]: 呃，
+[Speaker 0]: 有个我呃不太恰当的例子，
+[Speaker 0]: 就是比如说我我这个小时候经常不是要背书嘛，
+[Speaker 0]: 嗯背一个课文。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后我就是呃在睡觉之前，
+[Speaker 0]: 我想想尽所有方法，
+[Speaker 0]: 然后能能够磕磕巴巴的就是呃完整的背出来。
+[Speaker 0]: 然后哪怕有很多停顿，
+[Speaker 0]: 然后你只要想起来都好，
+[Speaker 0]: 然后睡一觉，
+[Speaker 0]: 然后第二天天醒醒来发现这个倒背如流。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我当时想法是，
+[Speaker 0]: 就是因为我我需要花更多的时间，
+[Speaker 0]: 所以说我需要呃比别人提前学东西的。
+[Speaker 0]: 呃，
+[Speaker 0]: 所以所以当时我就是在呃初中的时候开始上高中数学，
+[Speaker 0]: 然后就是直接直接问这个初中的数学老师，
+[Speaker 0]: 这个说各种高中数学的一些问题，
+[Speaker 0]: 然后他也非常热情。
+[Speaker 0]: 呃，
+[Speaker 0]: 回答我。
+[Speaker 0]: 然后我也非常感激初二的时候，
+[Speaker 0]: 就已经把高中考完了，
+[Speaker 0]: 然后初三就开始学微积分数学。
+[Speaker 1]: 你你天生的就觉得你做的快，
+[Speaker 1]: 然后比别人都快。
+[Speaker 1]: 但同时呢你又觉得你学东西慢，
+[Speaker 0]: 我感觉应该就是呃我需要更长的时间构建我的知识数。
+[Speaker 0]: 就是呃正常来说这个知识数是比如说有个根，
+[Speaker 0]: 然后往上拓展，
+[Speaker 0]: 然后再往上拓展，
+[Speaker 0]: 再往上拓展，
+[Speaker 0]: 然后好几层。
+[Speaker 0]: 然后你每次比如说拿这个最顶层的这个这个结论去应用到这道题当中，
+[Speaker 0]: 然后你要从头到尾过一遍，
+[Speaker 0]: 然后你要慢慢慢慢想出来，
+[Speaker 0]: 但我可能就直接建立一个链接刷 cut，
+[Speaker 0]: 然后直接上去，
+[Speaker 0]: 然后就不用反应了。
+[Speaker 1]: 所以你是从小就意识到，
+[Speaker 1]: 我好像比别人更聪明，
+[Speaker 0]: 呃，
+[Speaker 0]: 没有没有没有这种感觉，
+[Speaker 1]: 没有。
+[Speaker 1]: 所以你只是说你好像你只是觉得你对这事感兴趣，
+[Speaker 1]: 那你愿意提前学数学这个事儿的这个这个里里面的核心兴趣是哪来的？
+[Speaker 0]: 呃，
+[Speaker 0]: 我想投资未来哦，
+[Speaker 0]: 我想投资我自己的未来。
+[Speaker 1]: 所以你在初二的时候，
+[Speaker 1]: 你就意识到我这个时候学提前学高中数学是一种投资。
+[Speaker 0]: 未来对呃对于我的未来的一些学习生涯是有帮助的。
+[Speaker 0]: 呃，
+[Speaker 0]: 与其说我现在浪费时间，
+[Speaker 0]: 在这个刷题上面，
+[Speaker 0]: 那不如学一点对未来有用的东西，
+[Speaker 0]: 然后后面的收益可能更多。
+[Speaker 1]: 这个是你父母跟你讲过的故事的。
+[Speaker 0]: 不是 ok，
+[Speaker 0]: 我父母无所谓，
+[Speaker 0]: 我父母就根本不不是怎么不是怎么关心，
+[Speaker 0]: 我是怎么学的。
+[Speaker 1]: 但我还是特好奇，
+[Speaker 1]: 为什么你初中的时候就有投资未来的这种想法。
+[Speaker 1]: 因为你你我相信你那时候肯定学有余力，
+[Speaker 1]: 对吧？
+[Speaker 1]: 对啊，
+[Speaker 1]: 你为什么不去玩啊？
+[Speaker 1]: 你为什么不去打篮球打游戏？
+[Speaker 1]: 你为什么想着我要学高中数学，
+[Speaker 1]: 我要怎么怎么样？
+[Speaker 0]: 呃，
+[Speaker 0]: 首先是因为对这个感兴趣了，
+[Speaker 0]: 就是我我觉得这个呃这个这个初等数学太无趣了，
+[Speaker 0]: 然后这个稍微 ok 对 k 我的一个怎么说，
+[Speaker 0]: 稍微稍微有意思一点的数学更呃能引起我的兴趣。
+[Speaker 1]: 那是谁让你有这种兴趣呢？
+[Speaker 1]: 是天生的吗？
+[Speaker 1]: 对，
+[Speaker 0]: 数学呃可以算是吧，
+[Speaker 1]: 或者说还是说是小学的时候，
+[Speaker 1]: 你因为这事儿有成就感，
+[Speaker 0]: 所以你就呃你可以这么认为，
+[Speaker 0]: 就是有一个初始的成就感，
+[Speaker 0]: 然后初始的 reward，
+[Speaker 0]: 然后慢慢慢慢慢慢的，
+[Speaker 0]: 然后你就会慢慢慢慢把这个你数学这方面的这个技能是我慢慢慢的开始点。
+[Speaker 0]: 因为你每点一次你都会有个正反馈，
+[Speaker 0]: 然后再点一次，
+[Speaker 0]: 再有正反馈，
+[Speaker 0]: 然后你就会一直在这个上面走。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但像比如说打篮球，
+[Speaker 0]: 我我试过，
+[Speaker 0]: 但是没有正什么正反馈。
+[Speaker 0]: 就是我我经然被我舍友这个按着打，
+[Speaker 0]: 然后然后然后体育呃我练过跆拳道，
+[Speaker 0]: 我觉得跆拳道还可以，
+[Speaker 0]: 但是这个跆拳道一打实战我就被对手揍着了。
+[Speaker 0]: 对，
+[Speaker 1]: 所以反而是这种正反馈，
+[Speaker 1]: 像你本身也擅长，
+[Speaker 1]: 然后你对这个也不排斥，
+[Speaker 1]: 慢慢慢慢就变成了一种自发的内生的兴趣了。
+[Speaker 1]: 对，
+[Speaker 0]: 嗯，
+[Speaker 1]: 所以其实倒不是家庭环境，
+[Speaker 1]: 而是就是你自反而产生的是吧？
+[Speaker 1]: 对了，
+[Speaker 1]: 是吧？
+[Speaker 1]: 那这是数学，
+[Speaker 1]: 你初中的时候提前学高中的数学，
+[Speaker 1]: 那你高中的时候为什么又对编程产生了兴趣呢？
+[Speaker 1]: 呃，
+[Speaker 0]: 我编程是初一开始的对，
+[Speaker 0]: 初一初一编程是初一开始，
+[Speaker 0]: 是因为那个就是小升初的时候，
+[Speaker 0]: 我去了时代中学，
+[Speaker 0]: 然后他是个私立校。
+[Speaker 0]: 然后但是私立校的话，
+[Speaker 0]: 有一个这个编程兴趣班，
+[Speaker 0]: 然后然后我然后然后就抱着玩，
+[Speaker 1]: 我我能理解高中有兴趣的精色。
+[Speaker 1]: 但其实初中搞编程是应该不对，
+[Speaker 1]: 升学没有太多用，
+[Speaker 0]: 对不对啊？
+[Speaker 0]: 是的是的，
+[Speaker 0]: 没有太多用。
+[Speaker 1]: 那这个事儿也是你自己找的兴趣班，
+[Speaker 1]: 还是你父母给你找的。
+[Speaker 0]: 我父母觉得这个可能对我挺有意思的，
+[Speaker 0]: 然后我就试了试，
+[Speaker 0]: 然后我觉得还可以。
+[Speaker 1]: 好，
+[Speaker 1]: 那我们聊你高中呃高中，
+[Speaker 1]: 我觉得其实我最感兴趣的是你 OI 升学 NI 的经历能给我们讲讲吗？
+[Speaker 0]: 为什么要搞竞赛呢？
+[Speaker 0]: 因为升学压力还是有的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃你如果不搞竞赛，
+[Speaker 0]: 那这个对于非北京的人员来说，
+[Speaker 0]: 想上清华北大是非常难的。
+[Speaker 0]: 这个难如登天。
+[Speaker 1]: 所以当时是因为升学压力搞的 OI。
+[Speaker 0]: 呃，
+[Speaker 0]: 是的是的，
+[Speaker 0]: 就是呃大部分是因为生源。
+[Speaker 0]: 因为我之前就已经在搞数学竞赛跟 OI 了。
+[Speaker 0]: 然后我高一的时候，
+[Speaker 0]: 其实花了一点时间去做数学竞赛，
+[Speaker 0]: 拿到了一些还可以的名次。
+[Speaker 0]: 但是如果再往上的话，
+[Speaker 0]: 就是呃省选数学竞赛的省选，
+[Speaker 0]: 然后我们学校是没有那个基础的，
+[Speaker 0]: 然后自己学也很困难，
+[Speaker 0]: 所以说我就放弃了。
+[Speaker 0]: 并且我对这个再往上的这个就省选网上的数学题，
+[Speaker 0]: 嗯，
+[Speaker 0]: 我觉得我非常困难，
+[Speaker 0]: 因为我没有那么早的去接触。
+[Speaker 0]: 然后我觉得学习其他的非常累。
+[Speaker 1]: 你觉得你哪怕初中就开始学高中数学都不够早呃，
+[Speaker 0]: 初中开始学高中数学竞赛可能够早一点。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 就是我没有那么提前。
+[Speaker 0]: 对，
+[Speaker 0]: 所以所以说我掂量一下，
+[Speaker 0]: 还是放弃了。
+[Speaker 1]: 你就搞呃 OI 新学学竞赛，
+[Speaker 1]: 各个搞 OY 了，
+[Speaker 1]: 能给我们介绍一下，
+[Speaker 1]: 就是嗯靠信息学竞赛，
+[Speaker 1]: 然后升学。
+[Speaker 1]: 这个一般是要经过什么什么步骤，
+[Speaker 1]: 先升学，
+[Speaker 0]: 然后是什么样的流程呃，
+[Speaker 0]: 先 NIP，
+[Speaker 0]: 然后就是相当于一个普及组，
+[Speaker 0]: 呃，
+[Speaker 0]: 不是提高组 NIP 提高组的一个这个省里面的一个选拔赛，
+[Speaker 0]: 差不多是十月，
+[Speaker 0]: 然后后面是呃弄完，
+[Speaker 0]: 是每个省都有每个省不同的选拔标准，
+[Speaker 0]: 要选出来省队去参加国赛。
+[Speaker 0]: 然后省省选的话，
+[Speaker 0]: 福建是有两轮一轮在寒假一，
+[Speaker 0]: 然后还有一轮在四月份。
+[Speaker 0]: 然后选完之后，
+[Speaker 0]: 然后就是五六月应该有一个清华或者北大夏令营可以二选一，
+[Speaker 0]: 呃，
+[Speaker 0]: 可以拿一些这个优惠条件。
+[Speaker 0]: 至少当时是这样的，
+[Speaker 0]: 然后是在七月到八月去搞 NI 的这个国赛。
+[Speaker 0]: 嗯，
+[Speaker 1]: 那给我们讲讲你在这个过程中呃，
+[Speaker 1]: 是怎么样的。
+[Speaker 1]: 第一轮第二轮第三轮，
+[Speaker 0]: 这个 NIP 还好吧，
+[Speaker 0]: 这个 NYP 就是已经，
+[Speaker 0]: 因为因为这个从初中开始搞的，
+[Speaker 0]: 所以说还好。
+[Speaker 0]: 然后省选省选这个高一的时候，
+[Speaker 0]: 就是连省选都没过，
+[Speaker 0]: 就是完全不会做，
+[Speaker 0]: 几乎不会做。
+[Speaker 0]: 然后高二的时候会做一点点，
+[Speaker 0]: 就是会乱搞，
+[Speaker 0]: 然后会一些这个这个学 ric 的方法。
+[Speaker 0]: 就比如说省选有一提到这个呃最小双元覆盖，
+[Speaker 0]: 然后我当时搞出来七十分，
+[Speaker 0]: 我刚刚好像是全场最高，
+[Speaker 0]: 因为我做出这一题，
+[Speaker 0]: 后面就是进了省队。
+[Speaker 0]: 但是进完省队之后就是呃后面的就是清华夏令营，
+[Speaker 0]: 感觉还可以，
+[Speaker 0]: 就是拿到一个降六十，
+[Speaker 0]: 无条件降六十。
+[Speaker 0]: 有条件本一线。
+[Speaker 1]: 这个怎么理解？
+[Speaker 0]: 就是高考的成绩直接会给你加六十。
+[Speaker 0]: 如果你没有保送的话，
+[Speaker 0]: 然后如果这个线过了清华当年的录取线，
+[Speaker 0]: 那么清华就会要你。
+[Speaker 0]: 然后有条件本意是说呃，
+[Speaker 0]: 如果在 NI 比赛里面呃，
+[Speaker 0]: 考到了前一百五十名应该是银牌的线，
+[Speaker 0]: 那么就有本一。
+[Speaker 0]: 你如果你只要高考的成绩过了本一，
+[Speaker 0]: 那么就无条件录取。
+[Speaker 0]: 但是如果你是金牌的话，
+[Speaker 0]: 那你就连这个都不用了，
+[Speaker 0]: 你直接保送，
+[Speaker 1]: 你当时拿到 NY 的那个有条件本一了吗？
+[Speaker 0]: 呃，
+[Speaker 0]:  unfortunately 没有，
+[Speaker 0]: 就因为就是呃这个是又是一个黑历史，
+[Speaker 0]: 就是我是当时的福建省这的倒数第一，
+[Speaker 1]: 嗯，
+[Speaker 0]: 哼福建省内就只有当年只有一个铜牌，
+[Speaker 1]: 就是我然后剩下人都一拍以上这事儿的失利对你的升学有影响了，
+[Speaker 0]: 像是嗯还是有挺多影响的。
+[Speaker 0]: 因为我当时毕竟高二下半年没有搞文化课，
+[Speaker 0]: 然后我对于我的未来也不是很确定，
+[Speaker 0]: 我不知道我到底能高考考多少分。
+[Speaker 0]: 呃，
+[Speaker 0]: 有些之前的例子，
+[Speaker 0]: 比如说像有有学长，
+[Speaker 0]: 就是把六十分加分全部用完了，
+[Speaker 0]: 然后然后就真真的是一点都不剩。
+[Speaker 0]: 然后我觉得这个万一我也这样怎么办，
+[Speaker 0]: 就很危险。
+[Speaker 0]: 然后我对于这种不确定性非常害怕，
+[Speaker 0]: 呃，
+[Speaker 0]: 但是想一想我觉得呃我应该也没有那么差吧，
+[Speaker 0]: 然后还是还是就咬牙选了这个六江六十。
+[Speaker 1]: 所以你当时另外一个选择是更保险一点的。
+[Speaker 0]: 呃，
+[Speaker 0]: 更保险的一点就是直接可以在呃，
+[Speaker 0]:  NNI 现场，
+[Speaker 0]: 然后签一个上海交大的本一线录取。
+[Speaker 1]: 所以当时这个是一个呃很艰难的决定了也还好吧。
+[Speaker 0]: 就是主要是呃首先心态方面这个当时毕竟很很难过，
+[Speaker 0]: 然后对未来不确定性呃就是自己感到会害怕。
+[Speaker 0]: 然后但是这个家人鼓励还是让我选择了这个呃，
+[Speaker 0]: 选这个清华六十。
+[Speaker 1]: 那当时是不是弄完 OI 搞完竞赛之后到高三你就不碰这些东西了，
+[Speaker 1]: 就 all in 高考呃，
+[Speaker 0]: 也没有就是会可能会偷偷的碰。
+[Speaker 0]: 就是像比如说我觉得我对这个代码的优化有特别的追求。
+[Speaker 0]: 就是我会呃我我当时甚至练成了，
+[Speaker 0]: 就是比如说在 II 那个 ipad 上面直接呃，
+[Speaker 0]: 因为 safari 它是没有代码编译器的。
+[Speaker 0]: 然后我就直接这个用 ipad 键盘直接裸打代码，
+[Speaker 0]: 然后直接教我，
+[Speaker 0]: 然后没有编译。
+[Speaker 0]: 然后那个那一段经历，
+[Speaker 0]: 其实我觉得也很锻炼自己的思考能力。
+[Speaker 0]: 因为呃他需要你对于整个整个题目或者整个逻辑有个完整的认知。
+[Speaker 0]: 然后哪里错了，
+[Speaker 0]: 你要能快速的定位到是哪里错了，
+[Speaker 0]: 然后他会很锻炼你的这个反应能力的。
+[Speaker 0]: 呃，
+[Speaker 0]: 然后我觉得这个对于我来说是一个很好的锻炼了。
+[Speaker 1]: 但对你来说当时其实不需要这种锻炼。
+[Speaker 0]: 呃，
+[Speaker 0]: 是的是的，
+[Speaker 0]: 这是只不过就是就是自己很感兴趣。
+[Speaker 0]: 就比如说当时这个 OI 还有一个叫常数优化。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 嗯呃就比如说这个呃有一个算法，
+[Speaker 0]: 这个虽然时间复杂度可能都是 n 平方，
+[Speaker 0]: 然后但是这个十一的它的这个前面是带了一个常数的。
+[Speaker 0]: 然后这个 OI 的这个评测都是会有这个结果。
+[Speaker 0]: 就比如说按照这个跑测试点的时间来排序，
+[Speaker 0]: 然后跑的最快的，
+[Speaker 0]: 那么就就排第一。
+[Speaker 0]: 然后如果跑一样快，
+[Speaker 0]: 那么按照代码长度的长短。
+[Speaker 0]: 然后所以说这个我会同时 optimize 这两个指标，
+[Speaker 0]: 然后然后这个刷这个东西就感觉很有意气，
+[Speaker 0]: 很有意思。
+[Speaker 0]: 虽然说没什么用，
+[Speaker 0]: 但是很有意思。
+[Speaker 0]: 嗯，
+[Speaker 1]: 你真是搞这个的圣体，
+[Speaker 1]: 因为你真喜欢这个东西是吧？
+[Speaker 1]: 你从中可能获得快乐。
+[Speaker 0]: 对，
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 嗯那我们来聊聊清华。
+[Speaker 1]: 呃，
+[Speaker 1]: 如果我跟你说，
+[Speaker 1]: 你在清华一六年开始读本科，
+[Speaker 1]: 你直接跟我说有没有什么？
+[Speaker 1]: 现在想起来哇，
+[Speaker 1]: 特别比如说大一大二，
+[Speaker 1]: 刚进去值得回忆的事，
+[Speaker 1]: 第一个浮上你脑海的是什么？
+[Speaker 0]: 真有的话，
+[Speaker 0]: 就是我我把我所有的作业都开源了。
+[Speaker 0]: 因为不同的人对这件事情有不同看法。
+[Speaker 0]: 呃，
+[Speaker 0]: 像比如说有些学长学姐是呃比较反对这件事的，
+[Speaker 0]: 但是我觉得我应该做这件事。
+[Speaker 0]: 我当时做一个把这个我所收集到的有有呃这个上古作业，
+[Speaker 0]: 上古材料，
+[Speaker 0]: 然后全部在 github 上开源了。
+[Speaker 0]: 除了那些有版权问题的，
+[Speaker 0]: 我没开源，
+[Speaker 0]: 然后剩下的我没有版权问题的，
+[Speaker 0]: 都开源了。
+[Speaker 1]: 为什么？
+[Speaker 0]: 因为我觉得应该打破信息差，
+[Speaker 0]: 信息差是一个就是如果你在清华生存的话，
+[Speaker 0]: 是一个很有用的东西。
+[Speaker 0]: 但是我应我觉得应每个人都应该平等的拥有这个信息。
+[Speaker 0]: 你现在回去，
+[Speaker 0]: 你再回去随便抓个计算机的学弟问问这个你认不认识这个捐这个新戏楼的人，
+[Speaker 0]: 哪怕他把他的名字放在戏楼上面，
+[Speaker 0]: 你认不认识他，
+[Speaker 0]: 不认识他，
+[Speaker 0]: 你不认识温嘉义应该认识。
+[Speaker 0]: 因为毕竟这个大家都看我的作业，
+[Speaker 0]: 火的这个这个这个比比这个捐楼有用，
+[Speaker 1]: 此处弹幕应该闪过加一。
+[Speaker 1]: 如果我用过看过你的作业，
+[Speaker 1]: 就应该在这时候发个弹幕啊。
+[Speaker 0]: 呃，
+[Speaker 1]: 但为什么为什么你会把你的作业开源这个里面本质为什么和信息差有关系？
+[Speaker 0]: 呃，
+[Speaker 0]: 我想打破这个信息差，
+[Speaker 0]: 就是我不想让后人重蹈覆辙，
+[Speaker 0]: 就是经常疲于奔命。
+[Speaker 0]: 就是很多人其实他不是很擅长收集东西啊，
+[Speaker 0]: 但是他其实很有能力的。
+[Speaker 0]: 但我呃其实呃就如果能够给这些人有一个信息平权的机会的话，
+[Speaker 0]: 那他可能在新华会活得更好。
+[Speaker 1]: 所以你的信息平权是指知不知道往年的作业这种信息。
+[Speaker 1]: 和学长学姐问过以前会考什么重点这种信息呃，
+[Speaker 0]: 以及作业，
+[Speaker 0]: 以及老师没有规定不能放出来的作业。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃不然的话你会经常会花可能十几二十个小时，
+[Speaker 0]: 然后你又不敢问助教啊，
+[Speaker 0]: 然后你就不知道怎么做啊，
+[Speaker 0]: 然后你就会花一些巨大巨大块的时间，
+[Speaker 0]: 然后去一直在钻牛角尖，
+[Speaker 0]: 然后反而对整个学习是很没有帮帮助的，
+[Speaker 0]: 收益很低。
+[Speaker 2]: 嗯嗯，
+[Speaker 0]: 但这样的话就是如果我我我当时觉得如果我把作我自己的作业开源的话，
+[Speaker 0]: 那么我可能会帮到一些这样的例子。
+[Speaker 0]: 然后可能会帮后面更多的一些学弟学妹，
+[Speaker 0]: 用我更多自己的时间来去做他们更想做的事情，
+[Speaker 0]: 而不是要能就是做这些没有什么比较浪费生命的对，
+[Speaker 1]: 所以你这事做成了，
+[Speaker 1]: 现在你的作业应该在清华已经成为一个很广为流传的 guitub repp 是吧？
+[Speaker 0]: 嗯嗯，
+[Speaker 1]: 那这个之外呢，
+[Speaker 1]: 我看到你应该大一大二大三多久开始入门科研啊，
+[Speaker 1]: 这些什么什么时候开始的？
+[Speaker 0]: 嗯，
+[Speaker 0]: 这个应该是大二吧，
+[Speaker 0]: 然后后面就是呃，
+[Speaker 0]: 就是问学长说这个有没有哪个推荐的实验室？
+[Speaker 0]: 呃，
+[Speaker 0]: 当时有就学长跟我说三个名字，
+[Speaker 0]: 呃，
+[Speaker 0]: 朱军老师，
+[Speaker 0]: 然后汤杰老师，
+[Speaker 0]: 还有崔鹏老师。
+[Speaker 0]: 呃，
+[Speaker 0]: 我默认这个按排序，
+[Speaker 0]: 按按照每个人牛逼程度排序呃，
+[Speaker 0]: 但可能不是这样的，
+[Speaker 0]: 但是我当时就是按照这个这个排序，
+[Speaker 1]: 然后你以为先后顺序啊？
+[Speaker 0]: 对，
+[Speaker 0]: 对我以为先后顺序。
+[Speaker 0]: 然后对，
+[Speaker 0]: 就报了一个计算机的学术新新星计划。
+[Speaker 0]: 然后后面就是应该是全录取了。
+[Speaker 0]: 然后我就选朱军老师。
+[Speaker 0]: 然后大二的时候就跟朱军老师呃就是先见了一面，
+[Speaker 0]: 然后就是问说有什么方向有三个方向。
+[Speaker 0]: 呃，
+[Speaker 0]: 贝叶斯呃对抗网对抗顺手网络就干，
+[Speaker 0]: 还有一个强化学习，
+[Speaker 0]: 强化学习。
+[Speaker 0]: 对呃，
+[Speaker 0]: 就是三个方向。
+[Speaker 0]: 然后我当时其实想搞的是干，
+[Speaker 0]: 我觉得这个这个图像非常有意思。
+[Speaker 0]: 呃，
+[Speaker 0]: 但是我不知道哪个是干，
+[Speaker 1]: 然后我就想要二 l 什么叫不知道哪个是干。
+[Speaker 0]: 我当时真的什么都不知道，
+[Speaker 0]: 我就是个小白。
+[Speaker 0]: 对，
+[Speaker 0]: 然后然后我就误打误撞想要二 l 没有什么特别的。
+[Speaker 0]: 就是我我觉得我觉得二 l 应该是搞那个图像的东西，
+[Speaker 0]: 就就这样。
+[Speaker 0]: 对，
+[Speaker 1]: 所以是一个相当 random 的女人。
+[Speaker 0]: 是的是的是的，
+[Speaker 0]: 但是后面搞 RL，
+[Speaker 0]: 呃，
+[Speaker 0]: 发现这个这个是个打游戏的东西，
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃觉得挺有意思的，
+[Speaker 0]: 然后就一直搞下去了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 但是实际上呃就是我最开始想法是我其实有三个大的方向，
+[Speaker 0]: 我其实都挺喜欢的。
+[Speaker 0]: 一个是人工智能，
+[Speaker 0]: 就是 AI。
+[Speaker 0]: 然后另外一个是图形学，
+[Speaker 0]: 还有一个是网络安全，
+[Speaker 0]: 呃，
+[Speaker 0]: 网络安全。
+[Speaker 0]: 我觉得这个哈克非常酷。
+[Speaker 0]: 那我在大学的时候，
+[Speaker 0]: 其实业余时间也搞了很多网络安全的相关的东西，
+[Speaker 0]: 然后还给学校修了不少的这个校园网的 bug。
+[Speaker 0]: 比如说呃比如说这个修了一下这个这个免费下成绩单的这个这个一分钱下成绩单的这个事儿，
+[Speaker 0]: 就是成绩单。
+[Speaker 0]: 下一次要这个十块钱，
+[Speaker 0]: 就是我跟另外一个学长发现了一个 bug，
+[Speaker 0]: 然后然后呃就是可以一分钱也可以不要钱下来。
+[Speaker 0]: 然后后面就是呃下载几次之后，
+[Speaker 0]: 然后把这个 bug 给修了。
+[Speaker 0]: 对，
+[Speaker 0]: 就是直接反馈给这个学校教务部门，
+[Speaker 1]: 所以你是很享受这种 hacking 的过程。
+[Speaker 1]: 对，
+[Speaker 1]: 所以网安是一种 hacking，
+[Speaker 0]: 我其他的呢呃图形学的话我感觉也是个 hacking。
+[Speaker 0]: 对现实世界的 hacking，
+[Speaker 0]: 就是你可以以自己的呃视角去构建你脑中想象的场景，
+[Speaker 0]: 然后这样会让你觉得你是上帝，
+[Speaker 0]: 你是 king。
+[Speaker 0]: 我其实当时最感兴趣的还是图音学。
+[Speaker 0]: 因为我我在呃初中的时候看过一电影叫创呃 TRON，
+[Speaker 0]: 就是呃那个那个什么创战纪的那个那个他是一个那个呃科幻片，
+[Speaker 0]: 然后他的那个电影特效就非常厉害。
+[Speaker 0]: 然后我就就把我当时看的非常震撼。
+[Speaker 0]: 然后我我想如果有一天我能做出这种特效，
+[Speaker 0]: 或者说我可以像创意这样构建一个自己的虚拟世界，
+[Speaker 0]: 那是呃就是我我我觉得我就圆满了。
+[Speaker 0]: 对，
+[Speaker 0]: 然后我觉得图形学是时间这个的一种手段。
+[Speaker 0]: 对，
+[Speaker 0]: 然后所以说我当时就特别感兴趣图形学，
+[Speaker 0]: 然后呃我在大二的时候就上图形学。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后我当时就是因为特别喜欢，
+[Speaker 0]: 所以说我花特别多时间去做图进去的大作业。
+[Speaker 0]: 然后当时应该是拿了呃全班唯一唯唯二的 a 加。
+[Speaker 0]: 对，
+[Speaker 0]: 然后发明了一个新算法，
+[Speaker 0]: 能够减少这个呃迭代的这个收敛的次数，
+[Speaker 0]: 以及这个用了一堆这个三力来跑来就渲染一个巨高清的图，
+[Speaker 0]: 就应该十六 k 的图。
+[Speaker 0]: 然后然后当时就是在我之前是完全没有人选一个十六 k 的图的，
+[Speaker 0]: 然后并且十六 k 的图完全没有噪点。
+[Speaker 1]: 那当时那么感兴趣，
+[Speaker 1]: 读进去后来继续下去了吗？
+[Speaker 0]: 嗯，
+[Speaker 0]: 没有，
+[Speaker 0]: 因为我觉得就是如果你要搞科研的话，
+[Speaker 0]: 那还是呃专心比较好，
+[Speaker 0]: 不能这个交踩两条船。
+[Speaker 1]: 因为你当时已经去对朱英老师那儿，
+[Speaker 0]: 也我已经去朱英老师那儿。
+[Speaker 0]: 对，
+[Speaker 0]: 有有个项目是搞那个呃 wstdoone，
+[Speaker 0]: 就是一个动物，
+[Speaker 0]: 是一个差不多九十年代一个游戏。
+[Speaker 0]: 然后当时是有一个比赛，
+[Speaker 0]: 想把这个呃用用一个神经网络络去去在一个固定的地图里面，
+[Speaker 0]: 然后把这个游戏打通关就是有个出生点，
+[Speaker 0]: 有个有个终点。
+[Speaker 0]: 然后你要去去在这个地图里面去杀怪，
+[Speaker 0]: 然后去捡血包，
+[Speaker 0]: 然后避障，
+[Speaker 0]: 然后去最终到这个呃终点，
+[Speaker 0]: 然后去通关。
+[Speaker 1]: 所以这个其实是你强制学习的入门。
+[Speaker 1]: 第一个 project 是了，
+[Speaker 1]: 拿冠军是了。
+[Speaker 1]: 所以当时你是很享受做强制学习科研，
+[Speaker 0]: 没有为什么呃，
+[Speaker 0]: 很不享受。
+[Speaker 0]: 因为这个因为首先这个这个这个 task 这个环境呃太过于单一了，
+[Speaker 0]: 然后你要疯狂的去 overfit，
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后呃就是就是你要用各种各种技巧，
+[Speaker 0]: 防止他训练的时候崩了，
+[Speaker 0]: 以及呃你基础训练没崩，
+[Speaker 0]: 然后你也不知道你怎么调参才能调。
+[Speaker 0]: 对这个是真的炼丹。
+[Speaker 0]: 这个这个比 CV 来说，
+[Speaker 0]: 这个这个它的这个调参难度可能要难上十倍一百倍。
+[Speaker 0]: 然后都是选选，
+[Speaker 0]: 你必须要用一些非常的一个方法去避免一些 heriscorner case。
+[Speaker 2]: 嗯，
+[Speaker 1]: 所以你当时就意识到那段时间的二 l 研究全靠 hairstick 和调菜。
+[Speaker 0]: 是的是的，
+[Speaker 0]: 就是改算法其实没有那么本质。
+[Speaker 0]: 然后呃因为因为我呃当时的那个任务呃过于单一了，
+[Speaker 0]: 然后大部分大部分情况下都是不能 work 的。
+[Speaker 1]: 当时的任务，
+[Speaker 1]: 第一个当然是 v ddom，
+[Speaker 1]: 那后面是不是就什么什么 atatari dem i control suit。
+[Speaker 0]: 呃呃，
+[Speaker 0]: 我觉得 moduical 跟 try 要比 v doom 还要简单，
+[Speaker 0]: 对 v 斯母算难的了。
+[Speaker 0]: 但是呃在这种 case 上面，
+[Speaker 0]: 就对于人类而言，
+[Speaker 0]: 它是一个简单的 task。
+[Speaker 0]: 但是对于 RO 而言，
+[Speaker 0]: 它是一个非常非常难的 task。
+[Speaker 0]: 因为他需要大量的知识需要，
+[Speaker 0]: 就比如说这个什么是障碍物，
+[Speaker 0]: 这个对于人来说这个不需要反应的。
+[Speaker 0]: 但是对于二 l 来说，
+[Speaker 0]: 就是呃或者对于 AI 来说，
+[Speaker 0]: 这个是完全两个不同的难度了。
+[Speaker 1]: 对对，
+[Speaker 1]: 所以你在当时就有很清晰的认知，
+[Speaker 1]: 认识到了环境太单一。
+[Speaker 1]:  f 的算法不是平静，
+[Speaker 1]: 这个是你做中，
+[Speaker 1]: 你就会发现吃太多挑战，
+[Speaker 1]: 害太多黑人。
+[Speaker 0]: 对，
+[Speaker 0]: 所以说我不是很享受这个科研的过程。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我然后我会就是我有意识的把我的重心放到了如何帮助这类的科研更顺利进展的过程上。
+[Speaker 0]: 所以我会嗯就是在大四的时候，
+[Speaker 0]: 我会想着这个造一套这个二 o 的印刷，
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃或者说二 o 的小小 library，
+[Speaker 0]: 能够更方便的让这些想在这个领域卷的人去卷。
+[Speaker 0]: 对，
+[Speaker 0]: 呃这样的话就是呃我我我觉得我非常擅长这个事，
+[Speaker 0]: 我非常擅长这个这个呃类似软件工程的这些这个方面的东西，
+[Speaker 0]: 然后可以重过代码，
+[Speaker 0]: 让代码看的更好更好用，
+[Speaker 0]: 然后用户体验做好。
+[Speaker 0]: 呃，
+[Speaker 0]: 但是呃至于这个东西怎么调，
+[Speaker 0]: 我非常有有这种生理上的反应。
+[Speaker 1]: 你不是不擅擅长，
+[Speaker 1]: 就是是喜不喜欢，
+[Speaker 1]: 不想排斥做这个事儿是吧？
+[Speaker 1]: 是的，
+[Speaker 1]: 这也就是你大四做天授，
+[Speaker 1]: 天授我们等会着重聊。
+[Speaker 1]: 是的，
+[Speaker 1]: 所以你大二开始搞科研，
+[Speaker 1]: 搞了 wedoom，
+[Speaker 1]: 然后到了大三，
+[Speaker 1]: 是不是面临一个生请鼠言？
+[Speaker 1]: 是的，
+[Speaker 1]: 当时是什么样的节奏和状态？
+[Speaker 0]: 生清鼠言为了为了还是为了大四的申请，
+[Speaker 0]: 然后呃发了一堆的套 s 信，
+[Speaker 0]: 然后但是也没有什么结果。
+[Speaker 0]: 然后后面还是这个我导师帮我联系了呃，
+[Speaker 0]: 联系到了右下 bandal，
+[Speaker 0]: 然后然后我就过去了。
+[Speaker 0]: 对，
+[Speaker 0]: 其实我那段时数研做的也没有那么的成功。
+[Speaker 0]: 我们当时都是在米勒，
+[Speaker 0]: 对吧？
+[Speaker 0]: 对，
+[Speaker 0]: 是在米勒，
+[Speaker 0]: 当时是一八年呃，
+[Speaker 0]: 不对，
+[Speaker 0]: 一九年一九年的暑假，
+[Speaker 0]: 一九年的暑假的时候，
+[Speaker 0]: 首先呃一优啥是一九年的，
+[Speaker 0]: 应该是四月还是五月拿到图灵奖，
+[Speaker 0]: 然后我是在那个之前审的，
+[Speaker 0]: 呃，
+[Speaker 0]: 所以还好。
+[Speaker 0]: 然后后面的话就是优少给我们呃给我跟带我的 posttalck 的任务是做一个类似于 MOE 的东西。
+[Speaker 1]:  MOE。
+[Speaker 0]: 对，
+[Speaker 0]: 呃，
+[Speaker 0]: 当时还能用 MLP 的，
+[Speaker 1]:  MOE 的嗯，
+[Speaker 0]: 跟首先这个跟二有没有任何关系？
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃其次就是纯这个 language model 就 transformer。
+[Speaker 0]: 然后并且当时没有 MOE，
+[Speaker 0]: 我们不知道 ME 是什么，
+[Speaker 0]: 怎么 work。
+[Speaker 0]: 但是它有一个 ME 的 idea 了，
+[Speaker 0]: 就是呃有一个这个 routter，
+[Speaker 0]: 然后可以选择不同的这个 pass，
+[Speaker 0]: 然后然后让我去实现。
+[Speaker 1]: 所以他招了一个做 RL 的人去做 NLP。
+[Speaker 0]: 呃，
+[Speaker 0]: 是的，
+[Speaker 0]: 我觉得很奇怪，
+[Speaker 0]: 但然后我需要花呃，
+[Speaker 0]:  again 就是我我不擅长学东西，
+[Speaker 0]: 然后我花了很长时间去入门，
+[Speaker 0]: 这个全从文 NLP 这个东西，
+[Speaker 0]: 然后然后然后看着这个搓一个东西，
+[Speaker 0]: 但是搓一个东西出来也没有什么好效果。
+[Speaker 0]: 然后因为现在回过头来看这个你这个东西要 work。
+[Speaker 0]: 首先你要有算力，
+[Speaker 0]: 你要有很强的这个工程能力。
+[Speaker 0]: 然后你要 skill up，
+[Speaker 0]: 当时这个一个人就就几块卡，
+[Speaker 0]: 这个这个搞不出来 sound up 的东西，
+[Speaker 0]: 所以说你肯定不不出，
+[Speaker 0]: 哪怕方向是对。
+[Speaker 0]: 对，
+[Speaker 0]: 那你也是搞不出来的。
+[Speaker 1]: 但其实你有没有觉得好像冥冥之中命明就是在把你往 open i 现在的这条技术路线上推，
+[Speaker 1]: 你先搞了 RL，
+[Speaker 1]: 然后优势又让你搞 NLP，
+[Speaker 1]: 这两个 pieces，
+[Speaker 1]: 你全部就冥冥之中就你就在 open i 之前，
+[Speaker 1]: 你就全部都游过去。
+[Speaker 1]: 嗯，
+[Speaker 0]: 你要真这么说，
+[Speaker 0]: 强行这么说也可以啊，
+[Speaker 0]: 就就是马后炮是没有用的。
+[Speaker 0]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 在当时其实我知道你完全 get 不到。
+[Speaker 1]: 对嗯未来，
+[Speaker 1]: 所以你当时对 NLP 是什么看法？
+[Speaker 1]: 在经历了那个暑假的时候，
+[Speaker 1]: 呃，
+[Speaker 0]: 我觉得 NLP task 都是太分散了。
+[Speaker 0]: 然后呃当时其实很多人就在想，
+[Speaker 0]: 如何把二幺派在这个 language model 圈引上面。
+[Speaker 0]: 因为当时这个问题是还没有解的，
+[Speaker 0]: 因为 transformer 直接在强化学习上面跑的话，
+[Speaker 0]: 它会崩，
+[Speaker 0]: 它很容易崩。
+[Speaker 0]: 然后大家都没有想出来这个东西到底该怎么防止它不崩。
+[Speaker 0]: 然后后面证明了就是你的环境要呃是一个这个纯的一个环境。
+[Speaker 0]: 然后呃你的 reward 需要一个是是一个很强的 reward。
+[Speaker 1]: 什么叫纯的环境？
+[Speaker 0]: 呃，
+[Speaker 0]: 比如说 text only 嗯纯文本。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那那之前大家做的不纯的环境是呃比如说你用 transformer 做一些 atari decision 啊，
+[Speaker 0]: 比如说你把图像弄成一一些 embedding，
+[Speaker 0]: 但是或者说你把这个呃 arry 的这个内部的游戏的因这个信息结构化表示，
+[Speaker 0]: 然后塞到 transformer 里面，
+[Speaker 0]: 然后再跑。
+[Speaker 0]: 对，
+[Speaker 0]: 而且 transwmer 是一个这个随机数始化的 transwer mer。
+[Speaker 0]: 我当时首先我没有足够多 context，
+[Speaker 0]: 我们对于这个领域没有足够多认识，
+[Speaker 0]: 所以呃我做起来就是非常挣扎了。
+[Speaker 0]: 呃，
+[Speaker 0]: 这个我觉得我我如果现在回过去来直接来帮助我，
+[Speaker 0]: 到时候我呢可能还是这个样子，
+[Speaker 1]: 你是觉得就是当时就处在一个，
+[Speaker 1]: 怎么都不可能把东西搞 work 的一个。
+[Speaker 0]: 是的是的是的，
+[Speaker 0]: 因为算力不够。
+[Speaker 0]: 然后这个对于这个当时的一些认知，
+[Speaker 0]:  MOE 的认知也不够。
+[Speaker 0]: 然后呃你哪怕就这么说啊，
+[Speaker 0]: 哪怕当时有了现在的认知，
+[Speaker 0]: 那还是做不出来。
+[Speaker 1]: 因为 engineering 不够，
+[Speaker 1]: 然后呃 computer 不够，
+[Speaker 1]: 嗯，
+[Speaker 0]: 受限于当时的这个资源，
+[Speaker 0]: 你就是做不出来。
+[Speaker 1]: 那当时可能数研结束了，
+[Speaker 1]: 然后就回到清华，
+[Speaker 1]: 开始准备申请。
+[Speaker 1]: 对，
+[Speaker 1]: 当时那那当时是什么样的状态，
+[Speaker 1]: 就是会压力很大吗？
+[Speaker 0]: 当时嗯其实挺就是整个人状态其实不大好。
+[Speaker 0]: 因为楚言没搞出来，
+[Speaker 0]: 这个周围的同学这个比如说去 safer 呃，
+[Speaker 0]: 去 CNU 楚研，
+[Speaker 0]: 然后都搞出来很多东西，
+[Speaker 0]: 然后发 paper 都有一做 paper，
+[Speaker 0]: 通通来说你需要发个一座 paper。
+[Speaker 0]:  er 不然的话，
+[Speaker 0]: 你会被别人刷下去，
+[Speaker 0]: 这个就很简没有办法。
+[Speaker 0]: 所以说呃我做完数研，
+[Speaker 0]: 然后其实只拿了一个推荐信，
+[Speaker 0]: 但是我也不知道推荐信里面写的什么样，
+[Speaker 0]: 呃，
+[Speaker 0]: 然后嗯就是挺没有底的鉴体结果怎么样。
+[Speaker 0]: 后来呃我是对着 PATD 申请的，
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是我只拿到 master。
+[Speaker 1]: 因为那个时候我大二 OK，
+[Speaker 1]: 你申请的时候，
+[Speaker 1]: 我应该刚刚刚刚大一大二，
+[Speaker 1]: 然后每年知乎上都有那种一九 four，
+[Speaker 1]: 你的申请结果怎么样？
+[Speaker 1]: 二零否，
+[Speaker 1]: 当时我就看到了你的回答啊，
+[Speaker 1]: 然后我印象还挺深刻的。
+[Speaker 1]: 当时你就因为我看你履历啊，
+[Speaker 1]: 说图灵奖强推怎么怎么样，
+[Speaker 1]: 结果最后我当时看到你申请结果不好就没升到 PHD。
+[Speaker 1]: 当时我觉得哇这么竞争这么激烈，
+[Speaker 1]: 你自己作为当事人经历那样的申请期，
+[Speaker 1]: 对你的来说是一种挫败嘛。
+[Speaker 0]: 呃，
+[Speaker 0]: 可能还有一点吧，
+[Speaker 0]: 但是后面来看也还好啊。
+[Speaker 0]: 就是嗯首先我在当时的那个环境，
+[Speaker 0]: 我确实会很大程度上受当时的小环境的影响。
+[Speaker 0]:  phd 是要比 master 好的，
+[Speaker 1]: 这个应该是整个清华内部的那种氛围，
+[Speaker 1]: 那种比较力。
+[Speaker 0]: 是的，
+[Speaker 0]: 这个这个是没有很这个是如果你身在其中，
+[Speaker 0]: 你是很难摆脱这个影响的。
+[Speaker 0]: 然后呃即使是国外的 PHD 和 master，
+[Speaker 0]: 跟国内的 PHCD 和 master 都是一样的，
+[Speaker 0]: 就是 PHCD 要好于 master。
+[Speaker 0]: 因为大家会有一种固有的认知，
+[Speaker 0]: 说这个学历越高越好，
+[Speaker 0]: 对于今后的这个发展会更好。
+[Speaker 0]: 呃，
+[Speaker 0]: 但是很多时候这个是不成立的，
+[Speaker 0]: 呃，
+[Speaker 0]: 真的取决于你到底干了什么。
+[Speaker 0]: 呃，
+[Speaker 0]: 然后当时的话我确实是有一点失望了。
+[Speaker 0]: 然后呃我我其实也花了一段时间来调整自己。
+[Speaker 0]: 然后后面觉得我我一直以来应该是都是想做一些就是呃让自己与众不同的事情。
+[Speaker 1]: 就是说你当时在可能在尽力的挣脱出固有的那种评价体系。
+[Speaker 0]: 是的是的是的嗯，
+[Speaker 0]: 是的，
+[Speaker 0]: 呃，
+[Speaker 0]: 就是我我我一直以来就是觉得就是 GPA 不是唯一的一个评价体系。
+[Speaker 0]: 你需要自己在大学里面找到适合自己的评价体系，
+[Speaker 0]: 然后为这个评价体评价体系去去奋斗呃，
+[Speaker 0]: 去让自己开心。
+[Speaker 0]: 你即使在 GPA 拿第一，
+[Speaker 0]: 那么你可以跟往年比一比，
+[Speaker 0]: 跟这个就是其他学院比一比，
+[Speaker 0]: 跟其他学校比一比。
+[Speaker 0]: 这个这个反正有的是人，
+[Speaker 0]: 就是他并不能说你有多么好啊，
+[Speaker 0]: 我觉得该这这么看，
+[Speaker 0]: 就是一一需需求方的角度。
+[Speaker 0]: 就比如说呃如果如果你的最后目的是找工作，
+[Speaker 0]: 那么找工作的人会看重什么？
+[Speaker 0]: 他会看重更看重你的这个相关的经验。
+[Speaker 0]: 他不会看，
+[Speaker 0]: 那么看重你的 GPA，
+[Speaker 0]: 因为这个对他来说没有意义。
+[Speaker 0]: 如果你是有呃当前这份工作很匹配的经验，
+[Speaker 0]: 那么可以其实可以抵好好几年的工作经历。
+[Speaker 0]: 哪怕你是一个 new grad 都没有问题。
+[Speaker 0]: 嗯，
+[Speaker 0]: 因为因为招人最主要的目的是招进来能用能干活。
+[Speaker 1]: 所以你在本科是有认识到这一点。
+[Speaker 0]: 呃，
+[Speaker 0]: 我在后面认识到了这一点，
+[Speaker 0]: 就是我在 master 的时候认识到这一点。
+[Speaker 1]: 但你本科其实还是在那个评价体系下面，
+[Speaker 0]: 我本科我尝试挣脱这个评价体系。
+[Speaker 0]: 但是我挣脱了一点，
+[Speaker 0]: 还没有完全挣脱出来。
+[Speaker 1]: 那一点是什么？
+[Speaker 0]: 呃，
+[Speaker 0]: 就是我意识到了应该要创造自己的评价体系，
+[Speaker 0]: 而不是用其他人提供的评价体系。
+[Speaker 0]: 我采用了非官方的评价体系，
+[Speaker 0]: 呃，
+[Speaker 0]: 就是我的导师给我推荐的评价体系。
+[Speaker 0]: 呃，
+[Speaker 0]: 就是我我一直记得这句话，
+[Speaker 0]: 就是计算机系的评价体系。
+[Speaker 0]: 就他认为的有三个指标，
+[Speaker 0]: 呃，
+[Speaker 0]: 一个是论文，
+[Speaker 0]: 一个是比赛，
+[Speaker 0]: 还有一个是 gituup 的 star 三位数以上。
+[Speaker 0]: 然后我觉得这个这个是确实是有意义的。
+[Speaker 0]: 因为他给我了一个完全不一样的想法，
+[Speaker 0]: 就是不一样的领域。
+[Speaker 0]: 我我其实可以在开源社区搞一些事情，
+[Speaker 0]: 然后让我有一些跟别人与众不同的地方，
+[Speaker 0]: 嗯，
+[Speaker 0]: 这样对于自己的长期的发展是更好的。
+[Speaker 0]: 而不是说这个你你就是花很多时间去学 GPA，
+[Speaker 0]: 呃，
+[Speaker 0]: 就是刷 GPA 这种事情。
+[Speaker 1]: 这个我有同感。
+[Speaker 1]: 我觉得我在本科的时候，
+[Speaker 1]: 我也是很早，
+[Speaker 1]: 我就意识到 GPA，
+[Speaker 1]: 特别是本科的 GPA 是一个三年之后，
+[Speaker 1]: 四年之后你都不用写在简历上的东西，
+[Speaker 1]: 是吧？
+[Speaker 1]: 但是呢那三年四年里面的本科生又不得不把自己百分之八九十的精力放在这上面。
+[Speaker 1]: 因为无论你是找工作还是申请出国，
+[Speaker 1]: 还是要保研，
+[Speaker 1]: 都是看 GPA。
+[Speaker 1]: 对你是怎么处理这个矛盾的？
+[Speaker 1]: 就是一个三年内重要无比的东西，
+[Speaker 1]: 和一个三年之后完全不重要的东西。
+[Speaker 0]: 呃，
+[Speaker 0]: 我会最低限度的投入投入，
+[Speaker 0]: 就是我会花时间最低限度的时间来让他达到我想要的这个要求这个标准。
+[Speaker 0]: 呃，
+[Speaker 0]: 再往上一点我都不愿意投，
+[Speaker 1]: 对，
+[Speaker 1]: 多一分都不想花时间啊。
+[Speaker 0]: 对，
+[Speaker 0]: 多一分都不想花，
+[Speaker 1]: 够用就行，
+[Speaker 0]: 够用就行。
+[Speaker 0]: 就是就你你你这个这个其实挺简单的，
+[Speaker 0]: 你就算一下这个，
+[Speaker 0]: 就比如说在期末考之前算一下这个你你你现在已经多少分了，
+[Speaker 0]: 然后你就你就可以安排一下这个这个考试到底要复习，
+[Speaker 0]: 要不要复习。
+[Speaker 0]: 对，
+[Speaker 1]: 比如说你觉得如果现在 GPA 够了，
+[Speaker 1]: 你宁愿那个课考六十分你就不管了啊。
+[Speaker 0]: 是的，
+[Speaker 0]: 这个是我我一直以来都是这样啊。
+[Speaker 0]: 对，
+[Speaker 0]: 然后呃可能六十分不太够，
+[Speaker 0]: 就是比如说这个八十七分、
+[Speaker 0]: 八十七分是必加，
+[Speaker 0]: 然后这个我就很满足了。
+[Speaker 1]: 对我你觉得你挣脱了这种吗？
+[Speaker 1]: 因为比如说你出国这种选择是那种评价体系给你带来的，
+[Speaker 1]: 是那种氛围给你带来的。
+[Speaker 0]: 呃，
+[Speaker 0]: 不是当时的氛围，
+[Speaker 0]: 其实已经是就是呃在国内读书比国外好，
+[Speaker 0]: 一一八一九年呃，
+[Speaker 0]: 一九年已经是了。
+[Speaker 0]: 对，
+[Speaker 0]: 一九就是差不说，
+[Speaker 0]: 清华会有百分之只有百分之二十左右，
+[Speaker 0]: 但我们那届更少，
+[Speaker 0]: 因为科北的，
+[Speaker 0]: 然后只有百分之五去出国，
+[Speaker 1]: 你应该是一九年十二月申请季，
+[Speaker 1]: 对不对？
+[Speaker 1]: 所以你应该是还在等 offer 的时候就扣位，
+[Speaker 1]: 对吧？
+[Speaker 1]: 对，
+[Speaker 1]: 然后你应该比如说拿到 offer 之后，
+[Speaker 1]: 美国领事馆就关了，
+[Speaker 1]: 对你还是坚持要出国，
+[Speaker 0]: 呃，
+[Speaker 0]: 是这个是个很难的选择了。
+[Speaker 1]: 因为当时应该是有科位有有疫情，
+[Speaker 1]: 然后呃国际政治局是又不很动的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那你个人的未来还要和这两个息息相关。
+[Speaker 1]: 对啊，
+[Speaker 1]: 那种不确定性下你当时是什么样的状态？
+[Speaker 0]: 嗯，
+[Speaker 0]: 我觉得我当时可能更专注于手头上的事儿。
+[Speaker 0]: 比如说呃在家里写天授，
+[Speaker 0]: 在校里写这个退学 online，
+[Speaker 0]: 写这个 visa 查询系统。
+[Speaker 0]: 这个这个我我就是只是把转移注意力，
+[Speaker 0]: 不要天天去关注一些宏大的国际叙事，
+[Speaker 0]: 而是专注于手头上的事情，
+[Speaker 0]: 这样可能让自己内心更平静一些。
+[Speaker 1]: 好，
+[Speaker 1]: 那我们就聊聊那段时间的两个项目。
+[Speaker 1]: 第一个是天授，
+[Speaker 1]: 第二个是退学 online。
+[Speaker 1]: 我们现在天授吧，
+[Speaker 1]: 天授，
+[Speaker 1]: 刚刚其实你已经讲了天寿。
+[Speaker 1]: 呃，
+[Speaker 1]: 你说动机是因为你觉得当时环境太 overfit 了，
+[Speaker 1]: 然后 RL 其实算法的创新没有那么重要啊，
+[Speaker 1]: 反而是这个 infa 或者说这个好的一个 implementation 给我们讲讲。
+[Speaker 0]: 为什么做天寿秦是就是首先我在一九年十二月，
+[Speaker 0]: 我就有一个很内心有一个强烈的冲动。
+[Speaker 0]: 就说我其实已经写了很多的二 o 的一些实验的代码了。
+[Speaker 0]: 我为什么不把它们整合一下，
+[Speaker 0]: 然后让自己的实验跑的更好。
+[Speaker 0]: 这个是出发点。
+[Speaker 0]: 然后我在二月就二零年二月份的时候，
+[Speaker 0]: 一月一月放假。
+[Speaker 0]: 然后二月就看了一下这个呃二 o lib 的代码，
+[Speaker 0]: 就是在 ray 下面的 arroleb b。
+[Speaker 0]: 然后我本来第一步想的是用 RO lib 来看看能不能改改，
+[Speaker 0]: 然后来支支我自己的实验。
+[Speaker 0]: 然后我看了一个月太复杂了，
+[Speaker 0]: 抽象太多了。
+[Speaker 0]: 然后这个这个这个一个 r live 有快几十万行代码，
+[Speaker 0]: 然后就是完全不可能接受。
+[Speaker 0]: 然后我就根本不知道我要改的东西，
+[Speaker 0]: 我该怎么实现，
+[Speaker 0]: 然后然后就决定哎不干了，
+[Speaker 0]: 就直接重新首路推倒重来。
+[Speaker 1]: 对，
+[Speaker 0]: 推倒重来。
+[Speaker 1]: 我我特想知道，
+[Speaker 1]: 就是你当时做这个事儿，
+[Speaker 1]: 其实还有工地的考虑吗？
+[Speaker 1]: 因为很多人那段时间就是想做一个不拉不拉 policy optimiization 的 euros paper。
+[Speaker 0]: 没有，
+[Speaker 0]: 我不想发 paper，
+[Speaker 0]: 我觉得发 paper 完全没有意义。
+[Speaker 1]: 给我们讲讲为什么为什么你已经挣脱出这种评价体系了。
+[Speaker 0]: 首先我已经有 paper 了啊，
+[Speaker 0]: 我我我觉得多一篇，
+[Speaker 0]: 少一篇对我们来言没有任何意义。
+[Speaker 0]: 然后呃并且我申请已经够用了，
+[Speaker 0]: 然后呃比赛我也有了，
+[Speaker 0]: 呃，
+[Speaker 0]:  giitup 三位数可能算有。
+[Speaker 0]: 就比如说我自己搞那个课程 rap，
+[Speaker 0]: 但是那个是不是正儿八经的呃，
+[Speaker 0]: 我还是想有个正儿八经的三位数是好，
+[Speaker 1]: 那就是天寿当时看了二幺 live 之后不好用，
+[Speaker 1]: 然后你当时对 paper 没兴趣。
+[Speaker 1]: 对呃，
+[Speaker 1]: 但你对开源代码是很有兴趣的，
+[Speaker 1]: 是你对一个好用的能够推动这个领域前进的一个开源代码非常感兴趣。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 做这个事有多难。
+[Speaker 1]: 当时做天手很简单，
+[Speaker 0]: 两周只要两周第一版，
+[Speaker 1]: 没有一版，
+[Speaker 1]: 有什么算法？
+[Speaker 0]: 好多算法啊，
+[Speaker 0]: 就是就是你对着那个那个就 paper 实现一下就好了。
+[Speaker 0]:  OK。
+[Speaker 0]: 对，
+[Speaker 0]: 就就是如果你把抽象搞对的话，
+[Speaker 0]: 那么时间算法就是可能就是呃二十行不到后，
+[Speaker 0]: 二十行不到一个算法。
+[Speaker 1]: 那为什么你两车就能搞出来一个第一版，
+[Speaker 1]:  RU live 能写几十万哈？
+[Speaker 0]: 我觉得可能是因为他最开始设计有有一点问题。
+[Speaker 0]: 然后因为可能像呃合作人多了，
+[Speaker 0]: 然后大家都往里面贡献代码，
+[Speaker 0]: 然后最后就变成了项目，
+[Speaker 0]: 整个项目会会逐渐的腐化啊，
+[Speaker 1]: 所以你是一个人守路的对，
+[Speaker 1]: 所以这种一个人高效的迭代，
+[Speaker 1]: 然后做做好一个顶层设计之后就去执行。
+[Speaker 1]: 对你觉得反而会迸发出更更大的力量。
+[Speaker 1]: 是的，
+[Speaker 0]: 就是我觉得代码可能呃或者说一个项目啊，
+[Speaker 0]: 这个更多的有用的东西是 consistency 一一致性。
+[Speaker 0]: 如果这个项目是从头到尾都是一致性的话，
+[Speaker 0]: 那他们就是一个他就是个好项目。
+[Speaker 0]: 像比如说很多这个项目的孵化都是由于呃不一致性。
+[Speaker 0]: 就比如说两个人或者说十个人，
+[Speaker 0]: 十个人的话就是一每个人写了点代码，
+[Speaker 0]: 但是每个人其实都不太知道对面到底写了什么东西。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后有一些 assumption 有些假设就是没有办法去及时的传递。
+[Speaker 0]: 然后会导致比如说像这个代码在很多地方去复制粘贴，
+[Speaker 0]: 或者说一些不好的行为，
+[Speaker 0]: 然后不断导致这个代码越越变越膨胀，
+[Speaker 0]: 然后去孵化。
+[Speaker 1]: 你觉得当时天寿呃一炮而红吧，
+[Speaker 1]: 可以说挺受欢迎的。
+[Speaker 1]: 你觉得天寿做对了什么事儿？
+[Speaker 0]: 我觉得他抓住了用户需求，
+[Speaker 0]: 就是 researcher，
+[Speaker 0]: 或者说当时的呃科研的干活的人，
+[Speaker 0]: 呃，
+[Speaker 0]: 其实都有一个需求。
+[Speaker 0]: 说这个有没有好用好改的二 u 的框架，
+[Speaker 0]: 他能直接用。
+[Speaker 0]: 然后因为天寿整个代码段呃，
+[Speaker 0]: 然后抽象做的还可以。
+[Speaker 0]: 就是你至少如果研究一下，
+[Speaker 0]: 然后你会发现你如果改这个地方就一定会对呃，
+[Speaker 0]: 而且只有这个一个地方能够改。
+[Speaker 0]: 并且呃就是如果你要支持你的这个 feature 的话，
+[Speaker 0]: 你只有改这个地方才能支持。
+[Speaker 1]: 对啊，
+[Speaker 1]: 就是说别人想改什么地方，
+[Speaker 1]: 你的设计已经把它设计好了。
+[Speaker 1]: 对，
+[Speaker 1]: 就只能改。
+[Speaker 1]: 这是的。
+[Speaker 1]: 嗯，
+[Speaker 0]: 是的，
+[Speaker 0]: 然后然后像这个呃就是应用性做的还可以，
+[Speaker 0]: 然后想跑什么算法都有。
+[Speaker 1]: 所以当时拍拓是第一版，
+[Speaker 1]: 是你一个人写的对，
+[Speaker 1]: 后面他们会慢慢变成一个更多人的 project 了嘛，
+[Speaker 1]: 它就变成一个开源的东西了。
+[Speaker 1]: 还呃是两类在维护呃，
+[Speaker 0]: 变成开源的东西，
+[Speaker 0]: 组内其实没什么人来维护。
+[Speaker 0]: 对，
+[Speaker 1]: 就是直接 open source 的那那那你是怎么避免天受不发生？
+[Speaker 1]: 你刚刚所说的很多人在一起这种不 consistent 这种腐化的问题了。
+[Speaker 0]: 呃，
+[Speaker 0]: 初期的话是因为我有足够的时间，
+[Speaker 0]: 所以说我可以一个人把所有东西全部包了，
+[Speaker 0]: 然后这个肯定是 consistent 的那虽然说这个呃现在看来不太好，
+[Speaker 0]: 呃，
+[Speaker 0]: 对于长期发展不太好，
+[Speaker 0]: 但是对于当时的函数还是够用的。
+[Speaker 0]: 然后后期的话就是因为我的重心，
+[Speaker 0]: 因为呃我入职之后可能就没什么时间了。
+[Speaker 0]: 然后我会直接转移给把把整个呃维护权，
+[Speaker 0]: 转移给就是社区的人。
+[Speaker 0]: 然后如果他们觉得是对的那他们就做，
+[Speaker 0]: 就是如果有一个拍板的人，
+[Speaker 0]: 那么这个事情应该就是 consistent。
+[Speaker 1]: 现在来看五年了，
+[Speaker 1]: 天授成为一个社区分生，
+[Speaker 1]: 你觉得现在浮夸了吗？
+[Speaker 0]: 有一点确实有一点，
+[Speaker 0]: 因为呃我的我的 lecontext 跟呃继任继任者的那个 context 还是有点不一样的。
+[Speaker 0]: 所以说他会呃重写我的一部分代码，
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是我们俩其实没有那么的 consistent，
+[Speaker 0]: 所以说还是会有一些腐化的问题的。
+[Speaker 0]: 但是我觉得我就是长远来看，
+[Speaker 0]: 就是可以接受。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 第二个 project 我也是用途退学。
+[Speaker 0]: 你你为啥？
+[Speaker 0]: 你你你你不是当时我大二嘛，
+[Speaker 1]: 但后来我属研对我属研的时候也要约签证，
+[Speaker 1]: 然后当时也是需要找最近的时间 OKOK。
+[Speaker 1]: 然后对当时为什么做这么一个这这么一个事儿，
+[Speaker 0]: 我自己有需求啊，
+[Speaker 0]: 就就是跟这个做天授差不多。
+[Speaker 0]: 就是我我觉得我我的需求，
+[Speaker 0]: 我应该我找了一圈，
+[Speaker 0]: 我不知道有有什么东西能够满足我的需求。
+[Speaker 0]: 所以说我就手撸了一个，
+[Speaker 0]: 就是不然没有办法。
+[Speaker 1]: 因为当时你应该处在一个一会儿，
+[Speaker 1]: 这个临时馆有关那个有临时管理。
+[Speaker 1]: 对啊对啊对啊，
+[Speaker 1]: 然后实时的知道是而有签证的。
+[Speaker 0]: 然后然后我我觉得我我有这个需求，
+[Speaker 0]: 就像比如说最最开始我我有收集这个上古学长的这个作业的需求，
+[Speaker 0]: 我觉得很多人应该有这个需求，
+[Speaker 0]: 所以说我就开店了。
+[Speaker 0]: 然后就我我有查签证的需求，
+[Speaker 0]: 然后我就这个写了一个这个签证的的呃这个爬虫，
+[Speaker 0]: 然后我就开店了，
+[Speaker 0]: 然后然后直直接免费给大家使用。
+[Speaker 1]: 这个很受欢迎啊。
+[Speaker 1]: 我昨天晚上看总点击量一百多万，
+[Speaker 0]: 还是当时当时就一百多万，
+[Speaker 0]: 现现在已经一千多万一千多万了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是很很早之前就已经关了，
+[Speaker 0]: 就是因为口碑过了之后，
+[Speaker 0]: 然后也没有那么需没有没有那么多需求了。
+[Speaker 0]: 所以呃并且这个美国领事馆升级了这个网站，
+[Speaker 0]: 然后当当时的那个爬虫用不了，
+[Speaker 0]: 然后我我也没时间写了。
+[Speaker 0]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 0]: 所以他完成了他的使命。
+[Speaker 2]: 嗯，
+[Speaker 1]: 其实某种程度上这俩都不是太功利的 project。
+[Speaker 1]: 是的，
+[Speaker 1]: 对吧？
+[Speaker 1]: 是的，
+[Speaker 1]: 第一个，
+[Speaker 1]: 你也不是为了申请，
+[Speaker 1]: 那是已经发生在你申请之后了。
+[Speaker 1]: 对你大可以那段时间，
+[Speaker 1]: 虽然说扣费不能旅游，
+[Speaker 1]: 但是你大可以干点其他的放松呢。
+[Speaker 0]: 是啊是啊是啊，
+[Speaker 1]: 然后退学也是一样，
+[Speaker 1]: 对吧？
+[Speaker 1]: 也可以自己弄完之后，
+[Speaker 1]: 所以你还是嗯有一种很内在很强烈的冲动，
+[Speaker 1]: 想要去创造一些你觉得有用的自己需要的事儿，
+[Speaker 1]: 然后把这个东西分享给所有人。
+[Speaker 0]: 是的，
+[Speaker 0]: 就是我想做一些就是呃能够这个产生影响力的事情，
+[Speaker 0]: 就是哪怕是亏钱也行。
+[Speaker 1]: 嗯，
+[Speaker 0]: 就是比如说做慈善，
+[Speaker 0]: 呃，
+[Speaker 0]: 我觉得这个做这个这个天寿跟做这个退学 online 都是做慈善。
+[Speaker 0]: 对，
+[Speaker 0]: 就是完全 non profit。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 然后做这种慈善项目，
+[Speaker 0]: 让我感觉非常满足。
+[Speaker 1]: 所以相比钱，
+[Speaker 1]: 其实 impact 会让你更满足。
+[Speaker 1]: 是你觉得你对 impact 这种这种追求多久来的？
+[Speaker 0]: 高中的时候，
+[Speaker 1]: 高中的时候为什么会和 impact 相关系？
+[Speaker 0]: 嗯，
+[Speaker 0]: 可能说来有点奇怪，
+[Speaker 0]: 就是我高中的时候，
+[Speaker 0]: 突然某一天高三的时候有个 idea，
+[Speaker 0]: 就是突然从我脑子蹦出来。
+[Speaker 0]: 有可能是呃就是未来的某个时候，
+[Speaker 0]: 这个往过去的我发送一些信息，
+[Speaker 0]: 然后我意识到一些东西。
+[Speaker 0]: 就比如说如果人生是一场游戏的话，
+[Speaker 0]: 那么你的游戏的集算分数是呃记得你名字的数量的人没了没了，
+[Speaker 0]: 那意味着什么？
+[Speaker 0]: 意味着你需要被更多的人认识。
+[Speaker 1]: 所以你是高中，
+[Speaker 1]: 突然有一天，
+[Speaker 1]: 你就意识到是这个东西很重要。
+[Speaker 1]: 我想要让在我死之后，
+[Speaker 1]: 在我死的那个瞬间，
+[Speaker 1]: 记得我的名字的人越多越好。
+[Speaker 1]: 是的，
+[Speaker 1]: 直到今天你还是以这个度量标准，
+[Speaker 1]: 嗯，
+[Speaker 0]: 可以算是。
+[Speaker 1]: 那我想再往深的问问，
+[Speaker 1]: 为什么这个重要呢？
+[Speaker 0]: 呃，
+[Speaker 0]: 我当时不觉得这个很重要，
+[Speaker 0]: 但是我尝试了几次，
+[Speaker 0]: 发现这确实是我想要的东西。
+[Speaker 0]: 就是如果我的做的东西能够给他人带来好处的话，
+[Speaker 0]: 那么我我就是首先我自己认可做我做的东西，
+[Speaker 0]: 其实他人也认可我做的东西。
+[Speaker 0]: 然后我会从大他人那边得到一些正正反馈，
+[Speaker 1]: 这个可以和直接和名望名气 fame 打画画画等号吗？
+[Speaker 0]: 呃，
+[Speaker 0]: 不太行，
+[Speaker 0]: 因为有一些名望名气可能是不好的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 哼就比如说你你坐上了什么什么位置，
+[Speaker 0]: 那你确实很名望。
+[Speaker 0]: 但是实际上就是这个名望，
+[Speaker 0]: 呃，
+[Speaker 0]: 在别人看来可能对别人的收益可能不是那么多，
+[Speaker 0]: 就是有可能是负面的。
+[Speaker 0]: 呃，
+[Speaker 0]: 我想要的是那种就是呃当然我我觉得这个你不可能对所有人都好，
+[Speaker 0]: 这个是个很难做到的事情。
+[Speaker 0]: 但是我就是我可以尝试的力所应能及得对呃我身边的人好，
+[Speaker 0]: 做一些对大家有意义的事了。
+[Speaker 1]: 所以这个度量标准是做一些对大家有意义的事儿，
+[Speaker 1]: 让更多的人记得你。
+[Speaker 0]: 对，
+[Speaker 1]: 如果我要挑战一下这个观点，
+[Speaker 1]: 我会说，
+[Speaker 1]: 那你为什么不自己过得开心就好了，
+[Speaker 1]: 你为什么需要别人记得？
+[Speaker 1]: 你你你觉得自想让别人记得自己想让很多人用。
+[Speaker 1]: 你觉得你造出来有用的东西。
+[Speaker 1]: 这个冲动本本源是什么？
+[Speaker 1]: 是你害怕被忘记吗？
+[Speaker 1]: 不是。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我觉得人生其实也可以算作一种体验，
+[Speaker 0]: 就是你既然都已经来到这个世界上了，
+[Speaker 0]: 那你为什么不就是就不要浪费了这段旅程？
+[Speaker 0]: 对，
+[Speaker 1]: 但是为什么不浪费这段旅程，
+[Speaker 1]: 得让别人记得你。
+[Speaker 0]: 嗯，
+[Speaker 1]: 我我发现这有有一很很很有趣的张力啊，
+[Speaker 1]: 因为你刚刚第一点说你想挣脱一些外部的评价标准。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 比如说 GPA 啊，
+[Speaker 1]: 比如说高考或者怎么怎么样，
+[Speaker 1]: 别人觉得 PHD 比 master 好。
+[Speaker 1]: 但另外一方面，
+[Speaker 1]: 你给自己的这个内生的这个 intrsic 的这个标准，
+[Speaker 1]: 又是外界的对你的认同。
+[Speaker 0]: 但这个认同并不是官方的认同，
+[Speaker 0]: 就是不是既有评价体系的认同，
+[Speaker 0]: 是是共识。
+[Speaker 1]:  ok 所以你想要摆脱的是嗯现有体系和常规的那种评价体系。
+[Speaker 1]: 对，
+[Speaker 1]: 但你更想要的是每个人发自内心的给你点赞。
+[Speaker 1]: 是的，
+[Speaker 1]: 所以这个点赞可以变成你的 github 的那个 star。
+[Speaker 1]: 对，
+[Speaker 1]: 可以变成退学的点击量。
+[Speaker 1]: 对，
+[Speaker 1]: 可以变成比如说你现在 google scholar 的 ctation，
+[Speaker 1]: 也可以变成你现在 open iid model，
+[Speaker 1]: 每天做多少次 influence。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 你会担心你的这样的标准会变成新的一种成成规吗？
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是那可能以前上一辈的人是拿 GPA 评价年轻人。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那当你成为再上一辈的时候，
+[Speaker 1]: 你就拿 impact 评价下一辈的年轻人。
+[Speaker 0]: 我只是对我自己这么要求的，
+[Speaker 0]: 我不会对别人这么要求，
+[Speaker 1]: 所以你并不觉得你的标准是可以放之四海而皆准的。
+[Speaker 1]: 是的是的，
+[Speaker 1]: 所以你不喜欢那种被外部的标准推着走。
+[Speaker 1]: 是的，
+[Speaker 1]: 那会不会出现你自己的标准推着你走了这种情况呢？
+[Speaker 0]: 目前还没有吧，
+[Speaker 0]: 就是你如果发出现这种情况，
+[Speaker 0]: 你可以改，
+[Speaker 0]: 你可以改自己的评价标准。
+[Speaker 1]: 所以你虽然你有你的标准，
+[Speaker 1]: 但是你不是这个标准的奴隶，
+[Speaker 1]: 就你有你 impact 的标准。
+[Speaker 1]: 是的，
+[Speaker 0]: 就是哪怕会为他所困。
+[Speaker 0]: 对，
+[Speaker 0]: 但就比如说我我其实在呃很长一段时间，
+[Speaker 0]: 我其实都没有这个开源项目了，
+[Speaker 0]: 但是我也不会觉得这个是一个很困扰我的事情。
+[Speaker 1]: 我倒觉得不担心，
+[Speaker 1]: 我觉得 open i 的 model 就是最好的，
+[Speaker 0]: 是某种程度上你可以这么认为。
+[Speaker 0]: 对，
+[Speaker 1]: 嗯，
+[Speaker 0]: 因为评价体系是一个很简单直接的一个操作，
+[Speaker 0]: 能够快速的筛选人。
+[Speaker 0]: 所以说呃他这个社会发展方式就会收敛到这种呃策略上。
+[Speaker 0]: 所以说短时间内是无法改变的。
+[Speaker 1]: 哪怕你是这个评价体系，
+[Speaker 1]: 在绝大多数人看来，
+[Speaker 1]: 你都是胜出者和受益者。
+[Speaker 1]: 其实你也不喜欢这个评价体系啊，
+[Speaker 0]: 是的，
+[Speaker 0]: 就是其实应该个更个性化，
+[Speaker 1]: 这是清华。
+[Speaker 1]: 然后在一个风雨飘摇的疫情的那段时间啊，
+[Speaker 1]: 你申请到 CMU，
+[Speaker 1]: 应该本来预计是应该要二零年九月入学的对，
+[Speaker 1]: 当时应该疫情第一学期过去了吗？
+[Speaker 0]: 上网课就直接在家上网课，
+[Speaker 0]: 一直在家上上了一年。
+[Speaker 1]: 对啊，
+[Speaker 1]: 但当时其实你是不是一入学就得想着是找工作的事儿啊，
+[Speaker 1]: 对那个过程什么样的过程，
+[Speaker 0]: 那个过程就是我开始的时候吊儿郎当的，
+[Speaker 0]: 然后就投了，
+[Speaker 0]: 应该是投了十八家。
+[Speaker 0]: 然后最后只收到这个 google 跟这个 auto ML，
+[Speaker 0]: 就是陈天企业老师的公司。
+[Speaker 0]: 然后当时想着如果我手上只有这两个 offer，
+[Speaker 0]: 那我肯定去欧靠外面，
+[Speaker 0]: 我不想去 google。
+[Speaker 0]: 因为去 google 没什么意思，
+[Speaker 1]: 这个意思是怎么评判呢？
+[Speaker 1]: 呃，
+[Speaker 0]: 就是你在大厂当螺丝钉，
+[Speaker 0]: 然后做一些自己不是那么喜欢的事儿。
+[Speaker 0]: 就比如说前后端，
+[Speaker 0]: 然后后面就稍微想明白一点，
+[Speaker 0]: 然后后面就再去面试，
+[Speaker 0]: 然后拿了当时的换方。
+[Speaker 0]: 患方当时说要搞一个呃 AI lab，
+[Speaker 0]: 就是后面的 deep sick，
+[Speaker 0]: 对我当时是拿 offer。
+[Speaker 0]: 对，
+[Speaker 1]: 然后但是我没有去没有去，
+[Speaker 1]: 然后你去了 open AI。
+[Speaker 1]: 是的，
+[Speaker 1]: 所以其实现在看起来，
+[Speaker 1]: 如果开天眼的话，
+[Speaker 1]: 你当时面临的选择是 deep sick versus open AI。
+[Speaker 0]: 是的，
+[Speaker 1]: 所以当时哪怕是换方那个也不是去搞量化，
+[Speaker 0]: 而是搞 AI 呃，
+[Speaker 0]: 换方那个就是搞 RO info 啊。
+[Speaker 0]: 对，
+[Speaker 0]: 如果我没有其他 offer 的话，
+[Speaker 0]: 那我会选择换方。
+[Speaker 1]: 其他 offer 是指 octor 之外的。
+[Speaker 1]: 其他呃，
+[Speaker 0]: 不是，
+[Speaker 0]: 是比如说 open en 跟跟当时应该还有英伟达、
+[Speaker 0]: 英伟达，
+[Speaker 0]: 英伟达也是搞 ROOC 三。
+[Speaker 0]: 然后菲尔其实也是。
+[Speaker 1]: 但是菲尔最后由于一些流程原因把我拒了 o 所以你当时面临的选择应该是换方 open AI 英伟达 tiktok。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]:  fair 可能有。
+[Speaker 1]: 然后在这样的选择下面，
+[Speaker 1]: 你最后选择了 open AI，
+[Speaker 1]: 对这个选择是怎么做的？
+[Speaker 0]: 嗯，
+[Speaker 1]: 我觉得就是因为因为我要强调的是这个是 before check GPT。
+[Speaker 1]: 对对，
+[Speaker 1]: 所以你当时其实你是不知道 check PT is coming 的啊。
+[Speaker 1]: 对对对对，
+[Speaker 1]: 所以这个选择是怎么做的？
+[Speaker 1]: 呃，
+[Speaker 0]: 首先我觉得这个 open i 之前一直在做强化学习。
+[Speaker 0]:  open i 跟 deep man 是就是当时 RO 里面搞的最好两两个 research 的 app。
+[Speaker 0]: 然后我觉得如果我能进，
+[Speaker 0]: 那是就是也我我我我其实当时没有想到这事儿，
+[Speaker 0]: 我没有想着这个我我能进这事儿，
+[Speaker 0]: 然后呃我能进我觉得就已经非常好了。
+[Speaker 0]: 然后呃然后我觉得就是我能够有一个机会来体验世，
+[Speaker 0]: 就是世界上最前沿的一些 research，
+[Speaker 0]: 它到底是怎么做的。
+[Speaker 0]: 而不是像这个呃就是小作坊一样。
+[Speaker 0]: 就是比如说在学校里面，
+[Speaker 0]: 然后就几个 PHD 手搓一个东西，
+[Speaker 0]: 然后然后没有一些方法论，
+[Speaker 0]: 然后去做一个项目，
+[Speaker 0]: 就我感觉非常别扭。
+[Speaker 0]: 然后我想去学习，
+[Speaker 0]: 他到底是怎么样有个方法论去进行一些工业界的研究的那你当时去 open i 的话，
+[Speaker 1]: 应该是直接是 johnhuman 的组。
+[Speaker 1]: 是的，
+[Speaker 0]: 就是书 joman 招的。
+[Speaker 1]: 我啊是他面试的。
+[Speaker 1]: 你。
+[Speaker 1]: 对，
+[Speaker 0]: 就我非常感激他，
+[Speaker 0]: 就是我非常感激他能给我这样一个机会，
+[Speaker 0]: 哪怕他离职了，
+[Speaker 0]: 就是他离职的那一天，
+[Speaker 0]: 我还难过了一个下午，
+[Speaker 0]: 然后把电脑关了，
+[Speaker 0]: 然后什么都不干。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 所以他当时其实很欣赏你的。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 0]: 为什么为什么你有问卢涛有就是因为他觉得就是呃首先呃他觉得我 gitoup 非常漂亮啊，
+[Speaker 0]: 他他其实也认可我这个评价体系。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 然后呃因为因为他这个应该是他的评价体系的一个指标。
+[Speaker 0]: 然后之前也没有人意识到，
+[Speaker 0]: 然后并且就是招这么一个有良好的呃工程能力的一个这么一个人进来的话，
+[Speaker 0]: 对于任何的项目都是有益的。
+[Speaker 1]: 所以你们面试有什么有趣的故事嘛，
+[Speaker 1]: 你又怎么 impress 他？
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是可能最后一轮面试就是他出一道题，
+[Speaker 0]: 然后出了一道哦非常 n to n 的一个题，
+[Speaker 0]: 然后很开放性。
+[Speaker 0]: 然后然后他给我三个小时，
+[Speaker 0]: 然后我花两个小时就做完了，
+[Speaker 0]: 就从头开始写一个东西。
+[Speaker 0]: 然后然后然后我就做完了，
+[Speaker 0]: 然后然后我就跟他说就展示了一下，
+[Speaker 0]: 然后说这个就之前展示的过程中出现了一个 bug，
+[Speaker 0]: 然后但我现场修了一下，
+[Speaker 0]: 然后也没什么问题。
+[Speaker 0]: 然后反正就是呃可能他认为我既有一些工程能力，
+[Speaker 0]: 然后同时确实呃实力还可以，
+[Speaker 0]: 呃，
+[Speaker 0]: 然后就把我招了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 然后然后他的这个面试题只给两个人测过一个是我还有一个是应该是还有一个是 entry，
+[Speaker 0]: 就是现在做 code x 那个人。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 你们俩都通过了。
+[Speaker 1]: 对，
+[Speaker 0]: 通过过，
+[Speaker 1]: 所以通过率是百分之百啊，
+[Speaker 0]: 是吧？
+[Speaker 1]: 好，
+[Speaker 1]: 我我我们马上聊 OKI。
+[Speaker 1]: 但是在 OPS 之前，
+[Speaker 1]: 我其实特好奇，
+[Speaker 1]: 你当时找工作的时候，
+[Speaker 1]: 考虑过读 PHD 吗？
+[Speaker 1]: 没有为什么，
+[Speaker 0]: 因为你接触的一些工业界的人会发现就是读 PHD。
+[Speaker 0]: 就是如果你想进工业界，
+[Speaker 0]: 那么读 PHD 就是浪费生命。
+[Speaker 0]: 你完全可以以 master 为跳板，
+[Speaker 0]: 比如来凑够 PHD 进工业界的标准。
+[Speaker 0]: 比如你可以在 master，
+[Speaker 0]: 或者说你可以在本科的时候攒够 sepertion，
+[Speaker 0]: 然后做出一些能够让你与众不同的一些项目，
+[Speaker 0]: 然后让你可以跟同时期的 PHD candidate 同台竞技，
+[Speaker 0]: 然后再看看有什么你可以做的能够让对方挑选 master 的你，
+[Speaker 0]: 而不是 PH。
+[Speaker 0]: 另外一个 PHD 嗯，
+[Speaker 0]: 呃我觉得是想清楚差异化，
+[Speaker 0]: 这个是很关键的。
+[Speaker 1]: 所以你很早就想清楚，
+[Speaker 1]: 我未来一定是工业界。
+[Speaker 0]: 对，
+[Speaker 0]: 因为我觉得学术界教书或者当教授太卷了，
+[Speaker 0]: 然后不是我想要的东西，
+[Speaker 0]: 然后我还要去为了一个项目去拉 funding 啊，
+[Speaker 0]: 然后嗯那还不如就是感觉限制很多了。
+[Speaker 1]: 那比如说我们是我们是个公司，
+[Speaker 1]: 我们要招。
+[Speaker 1]: 然后有同样的 master，
+[Speaker 1]: 有同有 PHD，
+[Speaker 1]: 你会不会觉得这两种他其实培养的能力都不太一样，
+[Speaker 1]: 因为 PHD 更多要培养你的学术的能力，
+[Speaker 1]: 对吧？
+[Speaker 1]: 对你要怎么写？
+[Speaker 1]: 好一个 paper，
+[Speaker 1]: 把故事讲圆，
+[Speaker 1]: 对然画图画的漂亮，
+[Speaker 1]: 然后把这个宣发做好，
+[Speaker 1]: 你觉得这事重要吗？
+[Speaker 1]: 对于一个公司来说，
+[Speaker 1]: 嗯，
+[Speaker 1]: 那某种程度上有锻炼。
+[Speaker 1]: 但是那如果和像你这样比较极致的工程能力相比，
+[Speaker 1]: 你你觉得这两种能力在现在这个 AI 的时代会怎么评判这两种谁更有价值啊？
+[Speaker 0]: 呃现在的时代呢当然是工程能力越好就更有价值。
+[Speaker 0]: 呃，
+[Speaker 0]: 但是放在当时那个时间点的话，
+[Speaker 0]: 那还真不好说。
+[Speaker 0]: 就是所以我当时的做法是我两个都尽量去满足你记忆，
+[Speaker 1]: 反正也发过 paper。
+[Speaker 1]: 对，
+[Speaker 1]: 然后开源的 infrawork 肯定也做的很 popular，
+[Speaker 1]: 对工程能力也够呛。
+[Speaker 1]: 那为什么现在你觉得已经很明显了，
+[Speaker 1]: 工程能力是第一位了？
+[Speaker 0]: 呃，
+[Speaker 0]: 我来引用一句我同事说的话就是呃我同事之前也是二柔的一个 PHED，
+[Speaker 0]: 然后搞了一个很出名的二柔的 framework。
+[Speaker 0]: 然后他说的一句话就是教一个 researcher 如何做好 engineering，
+[Speaker 0]: 要远比交割 engineer 如何做好 research 来的难。
+[Speaker 0]: 呃，
+[Speaker 0]: 是因为是这样的，
+[Speaker 0]: 就是呃目前的一些这个就是 research lab 一些这个探索前沿探索，
+[Speaker 0]: 它其实拼的都是呃尔的正确性。
+[Speaker 0]: 如果你尔正确，
+[Speaker 0]: 那么就是看你单位时间内你能迭代多少次。
+[Speaker 0]: 因为你反正 infinfidea 你大家大大不了找人讨论一下，
+[Speaker 0]: 然后 idea 就出来了。
+[Speaker 0]: 然后你就验证，
+[Speaker 0]: 你只要能验证好，
+[Speaker 0]: 然后你就相当于这是你的 research work 啊。
+[Speaker 0]: 然后你其实不要又动那么多脑子，
+[Speaker 0]: 就是动脑子的人，
+[Speaker 0]: 可能是因为已经在这个领域进展了很久的人。
+[Speaker 0]: 就比如说呃 alex，
+[Speaker 0]: 然后他在呃这个领域从一开始 GPT 一的时候就开始弄了。
+[Speaker 0]: 然后他可能有很很很很强的这个 research 的直觉，
+[Speaker 0]: 那他动脑子比普通的 PH 动脑子更有用。
+[Speaker 0]: 然后你就找他讨论就好了，
+[Speaker 0]: 就是 idea 非常便宜。
+[Speaker 0]: 然后你要做的就是你在在单位时间内能够验证多少有效的 idea，
+[Speaker 1]: 并且要是正确的 info，
+[Speaker 1]: 正确的结果快速的迭代。
+[Speaker 1]: 是的。
+[Speaker 1]: 而现在的 PHD 不具备这个能力，
+[Speaker 0]: 或者说呃没有以这个为重点。
+[Speaker 0]: 因为这个对他来这个对他们而言不重要。
+[Speaker 0]: 因为我认为目前的学术培养体系在于如何有好的一个学术的方向。
+[Speaker 0]: 但是这个方向其实公司里面也有人会有。
+[Speaker 0]: 因为你只要在这个领域工作比较长的一段时间，
+[Speaker 0]: 你就会有一些研究直觉，
+[Speaker 0]: 然后你就会意识到什么是好的，
+[Speaker 0]: 什么是不好的，
+[Speaker 0]: 什么是该做的，
+[Speaker 0]: 什么是不该做的。
+[Speaker 1]: 所以 idea is trick ah。
+[Speaker 1]: 而有一个很强的 engineering skill，
+[Speaker 1]: 把那个答对快速的迭代。
+[Speaker 1]: 这个事儿你有了之后，
+[Speaker 1]: 你验证 idea 可能 agent 都能搞。
+[Speaker 0]: 是嗯因为我的认知范围内是每一家的 infa 都有不同程度的 bug。
+[Speaker 0]: 然后谁修 bug，
+[Speaker 0]: 谁的 bug 越多，
+[Speaker 0]: 那谁的模型性的就越好。
+[Speaker 1]: 所以拉玛 train，
+[Speaker 1]: 不过 GPT 是因为拉玛的 bug 太多，
+[Speaker 0]:  maybe 我不知道，
+[Speaker 0]: 但是我我可能会这么猜测吧。
+[Speaker 1]: 所以你很清楚的，
+[Speaker 1]: 在很早的时候，
+[Speaker 1]: 你就意识到了整个这个 pipeline work。
+[Speaker 1]: 关键不是你的那些算法的创新，
+[Speaker 1]: 而是正确的超餐，
+[Speaker 1]: 正确的好的 infrasystem，
+[Speaker 1]: 让你快速的迭代。
+[Speaker 1]: 是的的。
+[Speaker 0]: 然后呃并且我不是很愿意去做这个 research 调参这个事对这个这个来说没有对我没有任何吸引力。
+[Speaker 0]: 我我信，
+[Speaker 0]: 我就是我更喜欢卖铲子。
+[Speaker 1]: 你喜欢有一个 playground，
+[Speaker 1]: 你把根其他好，
+[Speaker 1]: 让别人去玩，
+[Speaker 1]: 别人去发论文，
+[Speaker 1]: 对你不管啊。
+[Speaker 1]: 对呃，
+[Speaker 0]: 然后别人发论文的时候可以可能可以带上我啊。
+[Speaker 0]: 然后然后你们就发现就是 open i 很多这个 model release 都有我的名字。
+[Speaker 0]: 这个就是因为我在 open i 的内部搭了整个 post training RO infer，
+[Speaker 1]: 所以整个 post training 的 RL infer，
+[Speaker 1]: 你是最核心的贡献者。
+[Speaker 0]: 是的，
+[Speaker 0]: 然后大家因为大家在之前都是用这个整个 posttrainor r infer 来去训这个 r ir chief 的模型。
+[Speaker 0]: 所以每发一个大的 release，
+[Speaker 0]: 每发一个大的这个模型的话，
+[Speaker 0]: 所以我的名字就得放上去。
+[Speaker 1]: 所以你可以算是每一个 open i 背后的 model 都有你啊，
+[Speaker 1]: 因为你喜欢卖铲子，
+[Speaker 0]: 对，
+[Speaker 0]: 然然后并且且是卖卖铲子，
+[Speaker 0]: 这个最面向客户的那一位。
+[Speaker 0]: 因为这个二是这个整个印刷的最顶端生态位很高。
+[Speaker 1]: 对，
+[Speaker 0]: 所以说这个如果太底层的话，
+[Speaker 1]: 你也这个这个名字可能也不还会写个 data loader 或者 storage。
+[Speaker 1]: 是的，
+[Speaker 1]: 多多没有那么那个是的，
+[Speaker 1]: 但你 RL 每个人都想要的一个东西。
+[Speaker 1]: 是的是的是的，
+[Speaker 1]: 好聪明啊。
+[Speaker 0]: 我我之前也想过，
+[Speaker 0]: 就是我的这个职业生涯应该怎么发展。
+[Speaker 0]: 然后我我当时定了又定了一个指标，
+[Speaker 0]: 我要最大化。
+[Speaker 0]: 我在 VI blog 上出现名字的次数，
+[Speaker 1]: 你真的很会给自己写 reward 的对，
+[Speaker 0]: 然后然后这个 reward，
+[Speaker 0]: 那你你需要做什么呢？
+[Speaker 0]: 那你肯定是先 info。
+[Speaker 0]: 因为你如果做这个单个的 research，
+[Speaker 0]: 这个这个不能 scill up。
+[Speaker 0]: 然后如果你做 info 的话，
+[Speaker 0]: 大家都用你那，
+[Speaker 0]: 所以说你可以 scare up。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 然后并且我又擅长写要 infa。
+[Speaker 0]: 那所以说这个这个这个非常非常适合的机会。
+[Speaker 1]: 这事儿基本上你进了清华之后，
+[Speaker 1]: 这事就是你的主线啊有 infa。
+[Speaker 1]: 对，
+[Speaker 1]: 在今天你还会鼓励，
+[Speaker 1]: 因为你你已经过了这个选择。
+[Speaker 1]: 但我们这个播客的很多观众可能还在本科，
+[Speaker 1]: 可能在说是他们还在犹豫工业界 VS 学术界的这个选择，
+[Speaker 1]: 你会怎么帮他们去思考这个过程。
+[Speaker 1]: 特别是在二零二五年，
+[Speaker 1]: 在这样的格局下面长远来看，
+[Speaker 0]: 我还是觉得学术界没有，
+[Speaker 0]: 就是现代学术界应该要被重构。
+[Speaker 1]: 但是现在对自己的未来有抱负的那波年轻人，
+[Speaker 1]: 他们希望像你这样做出 impact 啊，
+[Speaker 1]: 那他到底是去读个 PHD，
+[Speaker 1]: 还是尽早进入工业界？
+[Speaker 0]: 我觉得还是尽早进入工业界比较好。
+[Speaker 0]: 因为读 PHD 的话，
+[Speaker 0]: 你不知道你 PHD 毕业之后会发生什么事情。
+[Speaker 0]: 有可能毕业之后呃这个这个范式已经来了，
+[Speaker 0]: 然后你会发现这个你做的东西可能就没什么用了。
+[Speaker 0]: 如果你的你的目标函数就是进这个这个 AI lab 的话，
+[Speaker 0]: 那么你要先弄清楚一点是 AI lab 到底需要什么样的人。
+[Speaker 0]: 如果他们更需要 infa 的人，
+[Speaker 0]: 那么你就多做一些 infa 的活。
+[Speaker 0]: 哪怕你没有 PPD degree 也没有关系。
+[Speaker 0]: 因为更重要的是看你的这个经验呃，
+[Speaker 0]: 能不能 match 有没有用。
+[Speaker 0]: 所以现在你觉得 AI live 最需要什么样的人我觉得还是是对英法是一个无底洞。
+[Speaker 0]: 就是呃 research 的话就是有 research 直觉的。
+[Speaker 0]: 就那些人因为你从拆 GP 出来之后，
+[Speaker 0]: 然后这个在这个行业里面干了，
+[Speaker 0]: 比如三年以上的人就屈指可数。
+[Speaker 0]: 然后呃当前的问题还是在于 info，
+[Speaker 0]: 你能不能 scare up，
+[Speaker 0]: 你 scare up 有多少？
+[Speaker 0]: 就是单位时间内你能迭代多少次，
+[Speaker 0]: 然后这取决于就直接决定了你的这个这个生产效率。
+[Speaker 1]: 那听起来不是对 PSD 特别友好的一个问境，
+[Speaker 1]: 现在是吗？
+[Speaker 1]: 可能这个也牵扯到一个 gap。
+[Speaker 1]: 我觉得这个你有你我们俩都有很深的体会，
+[Speaker 1]: 就是因为 RL 的研究，
+[Speaker 1]: 学术界就是对着 ataran majoical 这几个 task 是吧？
+[Speaker 1]:  overfit 是的，
+[Speaker 1]: 调过来调过去就是比你我在一百 k 的时候谁分数高。
+[Speaker 1]: 对，
+[Speaker 1]: 但是工业界完全不 care。
+[Speaker 1]: 这个工业界做的事是用 RL 去解决真实的问题。
+[Speaker 1]: 是啊，
+[Speaker 0]: 然后我意识到这一点。
+[Speaker 0]: 然后当我在二二年的八月意识到这一点的时候，
+[Speaker 0]: 我就已经逐步的停止了天寿的开发了。
+[Speaker 0]: 因为因为天硕还是针对的这些 toy bench、
+[Speaker 0]:  mark。
+[Speaker 0]: 对，
+[Speaker 0]: 然后我觉得我应该投入更多的时间到更有意义的事情里面。
+[Speaker 0]: 比如说在会员内部搞好二二一发，
+[Speaker 0]: 所以我就主要的精力都是在呃就是维护啊或者开发这个二维码。
+[Speaker 1]: 其实啊你这个认知其实在二二年是很算是很超前的，
+[Speaker 1]: 绝对不是共识。
+[Speaker 1]: 对，
+[Speaker 1]: 你为什么当时没有打破信息差，
+[Speaker 1]: 写一篇 blog 来劝我别搞了，
+[Speaker 0]: 我害怕我把这个东西说出来。
+[Speaker 0]: 这个欧佩 i 会说我这个泄密之类的东西，
+[Speaker 0]: 万万一呢，
+[Speaker 0]: 就虽然说也没有那么泄密，
+[Speaker 0]: 但是嗯对吧？
+[Speaker 1]: 好，
+[Speaker 1]: 呃，
+[Speaker 1]: 我们聊 open AI，
+[Speaker 1]: 我我特别好奇啊，
+[Speaker 1]: 就是刚刚咱们已经提了很多了，
+[Speaker 1]: 但是你在 open AI 呃，
+[Speaker 1]: 你是世界上极少数，
+[Speaker 1]: 从切 GBT 三点五 GBT 四 GBT 四 VGBT four OGP four point five 到 GBT five。
+[Speaker 1]: 背后所有的核心贡献者都有你，
+[Speaker 1]: 可能有的人贡献了前半部分，
+[Speaker 1]: 有的人贡献了后半部分。
+[Speaker 1]: 但是你是从头到尾一直都在啊，
+[Speaker 1]: 你最主要的贡献，
+[Speaker 1]: 我会说是三个词，
+[Speaker 1]: 强化学习，
+[Speaker 1]:  post training 和对呃这些技术和背后的故事，
+[Speaker 1]: 我们等会细聊。
+[Speaker 1]: 但是我想先问第一个问题可能会很好回答，
+[Speaker 1]: 也很不好回答。
+[Speaker 1]: 什么是强化学习？
+[Speaker 0]: 如果有反馈，
+[Speaker 0]: 如果你可以把一个环境建模，
+[Speaker 0]: 然后去环境中得到反馈，
+[Speaker 0]: 那这个这个循环就是强化学习，
+[Speaker 1]: 通过那个反馈让他越学越好是的。
+[Speaker 1]: 那么第二个关键词是 post training，
+[Speaker 1]: 什么是一个大语言模型的 post training 啊，
+[Speaker 0]: 当时还没有 post training 呢，
+[Speaker 0]: 当时这个这个我这这个当时这个 team 叫 RL，
+[Speaker 0]: 然后当时根本没有什么 pretrain post train 的这个区分啊，
+[Speaker 1]: 所以你刚进 open i 的时候还没有这个事儿。
+[Speaker 1]: 对，
+[Speaker 1]: 但是你刚进 open i 的时候，
+[Speaker 1]: 开 GPT 已经是主线了吗？
+[Speaker 0]: 不是当时刚进 open i 的时候，
+[Speaker 0]: 就是呃就只有那个教授们下面的 RO team，
+[Speaker 0]: 然后再去做一个这个 web GPT 之后的一个版本。
+[Speaker 0]:  web GPT 是一个用呃一个三点五的模型去做，
+[Speaker 0]: 应该是做这个 browsing。
+[Speaker 0]: 但是当时这个 browsing 如果直接用三点五做的话，
+[Speaker 0]: 那效果可想而知，
+[Speaker 0]: 就很不好。
+[Speaker 0]: 因为这个 browsing 需要脱靠。
+[Speaker 0]: 然后所以说我们当时就退而求其次，
+[Speaker 0]: 先把这个用户交互的这个体验先做好。
+[Speaker 0]: 那唯一的要解决就是 check，
+[Speaker 0]: 然后 chat 就可以通过这个 instruction following 这个方式去解决。
+[Speaker 0]: 用 RH 呃 RHF 的方式，
+[Speaker 0]: 对对不对？
+[Speaker 0]: 对对，
+[Speaker 1]: 所以你当时进去的时候，
+[Speaker 1]: 三点五这个模型已经内部都有了。
+[Speaker 0]: 呃，
+[Speaker 0]: 对，
+[Speaker 0]: 然后有，
+[Speaker 0]: 但是当时的 PPO 的那个 pipeline 非常不好用。
+[Speaker 0]: 然后呃当时其实我们用的最广的是三点五的 SFT，
+[Speaker 0]: 然后在那边迭代了好几次，
+[Speaker 0]: 然后后面后面才有四。
+[Speaker 0]: 然后后面后面这个四呃 greg 写了一个专门的这个呃呃 infa 来去支持如何用这个四 GB 四的这个训练的 info 去支持强化学习的训练。
+[Speaker 1]: 所以你加入职的时候是二二年七月。
+[Speaker 0]: 对，
+[Speaker 1]: 那个时候三点五已经是整个 open i all in 了嘛，
+[Speaker 1]: 因为距离 release 还有几个月，
+[Speaker 1]: 对吧？
+[Speaker 1]: 对，
+[Speaker 1]: 你们内部当时能想象切 GPT 有这么大规模的成功吗？
+[Speaker 1]: 没有你当时能够，
+[Speaker 1]: 当然你可以内测那个 model，
+[Speaker 1]: 对吧？
+[Speaker 1]: 对你有意识到这个是要 game changing 的东西吗？
+[Speaker 1]: 没有你也没有当时感觉到，
+[Speaker 0]: 因为我觉得就是我呢可以看看得出来很多不足的东西，
+[Speaker 0]: 对吧？
+[Speaker 0]: 对我第一次用可能会觉得说，
+[Speaker 0]: 哦，
+[Speaker 0]:  ok 这个是个会说话的模型，
+[Speaker 0]: 那也就这样吧。
+[Speaker 0]: 然后用了几次发现这个可能能够帮我解决一点代码上的问题，
+[Speaker 0]: 那也就这样吧，
+[Speaker 0]: 但也不能帮我解决那么多，
+[Speaker 0]: 然后我用了几次也没有那么想用，
+[Speaker 0]: 因为他能帮我解决的问题有限。
+[Speaker 0]: 因为你已经提前知道了这个东西，
+[Speaker 0]: 然后并就是你有一个循序渐进的这个过程。
+[Speaker 0]: 然后你也不觉得它那么突然。
+[Speaker 0]: 但是呃比如说我呃后面展示给就是发布之后展示给身边的人看之后，
+[Speaker 0]: 然后他们就觉得很突然，
+[Speaker 0]: 然后这个我这是我没想到了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 那当时 open 呀，
+[Speaker 1]: 已经整个公司在二二年期 all in HHBT 了嘛。
+[Speaker 1]: 没有，
+[Speaker 0]: 就只有我们组在做啊。
+[Speaker 0]: 就是你你可以看这个就是 HGP 的这个那个 blog，
+[Speaker 0]: 他往下拉，
+[Speaker 0]: 然后他有一个 contributor，
+[Speaker 0]: 然后教授们应该是排第一位，
+[Speaker 0]: 然后后面的十二个人一直到招商家。
+[Speaker 0]: 呃，
+[Speaker 0]: 然后为止这个招生家之前，
+[Speaker 0]: 然后教授们因为下一个是 berit 的，
+[Speaker 0]: 然后 buriry 到招商家的名字，
+[Speaker 0]: 就是我们组的所有人。
+[Speaker 1]: 那是什么时候你意识到我在 open i 的工作真的引爆了这个东西。
+[Speaker 0]: 呃，
+[Speaker 0]: 可能就是发拆 GP。
+[Speaker 0]: 当时我在开 europe s 他十一月三十号发的，
+[Speaker 0]: 然后十二月。
+[Speaker 0]: 然后然后当时就是过了几天之后，
+[Speaker 0]: 然后发现这个就我周围身边的人都在讨论这个拆 GP 这个这个事情，
+[Speaker 0]: 然后他们觉得很有用。
+[Speaker 0]: 然后然后并且还把这个 open i 的服务器打包了好几次。
+[Speaker 0]: 对，
+[Speaker 0]: 那就是跟我当时退学一样，
+[Speaker 0]: 就是我退学的服务器也被打打包好几次。
+[Speaker 0]: 然后那那可能就是产生了这种那个自需求对自宣发的效应。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 就是就是大家都都是自来水会自发的为你宣传产品。
+[Speaker 0]: 那那这个是肯定是一个很好的投入的一个东西，
+[Speaker 0]: 就是投入值得你投入精力的一个东西。
+[Speaker 1]: 其实听起来这个从你加入喷牙做这个事儿，
+[Speaker 1]: 包括 NPI 内部能够推出 check GPT 这种东西，
+[Speaker 1]: 好像都不是谁计划出来的。
+[Speaker 1]: 是的，
+[Speaker 1]: 可能是一系列的半偶然半必然的。
+[Speaker 1]: 因个对，
+[Speaker 1]: 而且发水反应是的，
+[Speaker 0]: 而且当时就是发那个拆 GPT，
+[Speaker 0]: 也只是为了就是能够看看能不能收集一些这个这个真实数据的这个用户数据。
+[Speaker 0]: 然后搜完之后，
+[Speaker 0]: 可能五天之后关了。
+[Speaker 0]: 如果没没的的话，
+[Speaker 0]: 就我我们期待可能是一开始有有什么一万两万，
+[Speaker 0]: 然后后面就跌毁，
+[Speaker 0]: 然后就没了，
+[Speaker 0]: 就这样。
+[Speaker 0]: 然后 g 这的客不呢？
+[Speaker 1]: 是啊，
+[Speaker 0]: 实际上这是指数。
+[Speaker 0]: 对，
+[Speaker 1]: 好，
+[Speaker 1]: 这是这是 char GPT 突然当时的爆款的成功。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我还特好奇你刚去 open i 的时候，
+[Speaker 1]: 什么体验？
+[Speaker 1]: 这个公司给你的初初初印象是什么样的？
+[Speaker 0]: 我感觉是一个大号的一个一个一个实验室吧。
+[Speaker 0]: 没有，
+[Speaker 0]: 其实没有我想象中的那么这个这个有方法论，
+[Speaker 0]: 但是很多就是有很多很强的 research 直觉的人在里面，
+[Speaker 0]: 然后他可以指明方向，
+[Speaker 0]: 然后就做就好了。
+[Speaker 0]: 但是从从这个 barrett look 跟 liam 来之后，
+[Speaker 0]: 这三个人从过我来之后，
+[Speaker 0]: 然后加入装修们的 RO。
+[Speaker 0]:  am 之后，
+[Speaker 0]: 然后我们组就变了，
+[Speaker 0]: 就开始这个引这个引进这个谷歌的先进生产力来开始迭代。
+[Speaker 0]: 对，
+[Speaker 0]: 就是谷歌还是非常牛逼的。
+[Speaker 0]: 就是呃有一张图是这个这个单位时间，
+[Speaker 0]: 你的迭代次数以及成功率。
+[Speaker 0]: 然后这个东西是一个这个正比。
+[Speaker 1]: 所以单位时间迭代的越多，
+[Speaker 1]: 你的成功率就线性的往上走。
+[Speaker 1]: 对，
+[Speaker 0]: 这个其实也是一个二 o 的刻法，
+[Speaker 0]: 因为二不就是不断 traill and erroand 嘛嘛。
+[Speaker 0]: 呃，
+[Speaker 0]: 你不断尝尝试，
+[Speaker 0]: 然后尝试到一定次数，
+[Speaker 0]: 然后你就可以达到你的那个目的。
+[Speaker 0]: 那其实很多生活中的这样 tracase 其实都是 l 所以当时你们引进的那个先进生产力是一种哲学理念。
+[Speaker 1]: 是的，
+[Speaker 1]: 就是说我们先不要去想什么天才的 idea。
+[Speaker 1]: 天才的算法是我们把打好对 infrainfo，
+[Speaker 1]: 让我们从一周迭代三十次到一周迭代三百次。
+[Speaker 1]: 对，
+[Speaker 0]: 差不多。
+[Speaker 1]: 我看到我有采访，
+[Speaker 1]: 有人问三 m 奥特曼 OKI 成功的原因是什么？
+[Speaker 1]: 他说在一个我们之所以 OPI 呢可以做出杰出的科技创新，
+[Speaker 1]: 是因为在一个人才密度极高的小团队里面，
+[Speaker 1]: 任何平庸的表现都是不能被容忍的。
+[Speaker 1]: 是你赞同这样的说法吗？
+[Speaker 1]: 呃，
+[Speaker 0]: 我赞同，
+[Speaker 0]: 因为人才密度如果上去的话，
+[Speaker 0]: 那然后你可以自发的涌现出一些意想不到的东西。
+[Speaker 0]: 然后但如果比如说换一个环境，
+[Speaker 0]: 就比如说这个大家都是很平庸的话，
+[Speaker 0]: 那可能就是个人至少自扫门前雪，
+[Speaker 0]: 然后就做完自己的就好了。
+[Speaker 0]: 然后就呃可能会会呀。
+[Speaker 1]: 对，
+[Speaker 1]: 当时你去的时候 open i 应该是个几百个人的公司。
+[Speaker 0]: 呃，
+[Speaker 0]: 我是二百八，
+[Speaker 1]: 你是二百八对，
+[Speaker 1]: 现在 open i 应该上几千人了。
+[Speaker 0]: 呃，
+[Speaker 0]: 三千多了三千多，
+[Speaker 1]: 所以十倍了。
+[Speaker 1]: 对，
+[Speaker 1]: 三年的时间。
+[Speaker 1]: 是的，
+[Speaker 1]: 那你觉得 o en i 还能保持曾经的这种小而美的团队做出硬核创新的风格吗？
+[Speaker 0]: 我觉得这个概率是下降，
+[Speaker 0]: 但是没有下降那么厉害。
+[Speaker 0]: 对，
+[Speaker 0]: 但你总是可以划分出来一个小团队，
+[Speaker 0]: 然后去专门去做一些研究。
+[Speaker 1]: 那你觉得 OPI 的领导层有什么比较有意思的努力，
+[Speaker 1]: 能够在这方面避免的比较好吗？
+[Speaker 1]: 还是能够让小团队，
+[Speaker 1]: 然后人才密度，
+[Speaker 1]: 然后硬核的创新。
+[Speaker 0]: 呃，
+[Speaker 0]: 比如说简化一些这个组织架构啊，
+[Speaker 0]: 然后把一些不合理的一些 meeting 全部给取消掉。
+[Speaker 0]: 然后呃就是我觉得主要还是组织架构更重要一些。
+[Speaker 1]: 什么是一个高效的利于硬核创新的组织架构，
+[Speaker 0]: 信息流通通畅怎么理解？
+[Speaker 2]: 比如说今天有一个决策，
+[Speaker 0]: 然后可以无损的传达到下面，
+[Speaker 0]: 然后下面有有做什么资金的进展，
+[Speaker 0]: 然后可以无损的传达到上面。
+[Speaker 0]: 不然的话，
+[Speaker 0]: 你可能上面做决策的跟下面干活的，
+[Speaker 0]: 这个可能就是想要往完全不同的两个方向，
+[Speaker 0]: 然后进不往一处使。
+[Speaker 1]:  OPI 是怎么做到这个好的信息流通的？
+[Speaker 0]: 首先像 sam 跟 greg，
+[Speaker 0]: 呃，
+[Speaker 0]: 他们会有专门的呃就 sam 的话会之前是会有专门的一个呃研究助理来去帮他去了解最新的一些公司内部的研究进展。
+[Speaker 0]:  greg，
+[Speaker 0]: 那不用说了，
+[Speaker 0]: 就是他整个刷啊这个底下几乎都是他参与过的对，
+[Speaker 0]: 所以说他他们俩对于这个技术是非常熟悉的。
+[Speaker 0]: 然后所要做的就是保持技术的敏感性。
+[Speaker 0]: 呃，
+[Speaker 0]: 至少要知道这个当前做这个东西到什么地步了，
+[Speaker 0]: 然后有什么最新的进展，
+[Speaker 0]: 然后会有什么用。
+[Speaker 1]: 所以这个事儿得是一把手二把手这样的人他得愿意栽进去钻研到细节里面，
+[Speaker 1]: 是了解到公司的每一个毛细血管。
+[Speaker 0]: 我觉得管公司跟管代码库其实也有很很类似，
+[Speaker 0]: 就是 consistency。
+[Speaker 0]: 嗯，
+[Speaker 0]: 你如果不 consistent 的话就不一致的话，
+[Speaker 0]: 那么你可能就是就就就像一个人。
+[Speaker 0]: 这个比如说就像一个拼砖的人类，
+[Speaker 0]: 这个他的身子动了，
+[Speaker 0]: 但是脚没动，
+[Speaker 0]: 那就很奇怪。
+[Speaker 1]: 好，
+[Speaker 1]: 那我们聊聊 post training，
+[Speaker 1]: 我们从仙路三点五开始聊吧。
+[Speaker 0]: 但是实际上三点五的这个 PPU 其实也没有调通那么多，
+[Speaker 0]: 我是先调通了四。
+[Speaker 0]: 因为三点五当时是用旧的那套法，
+[Speaker 0]:  inl，
+[Speaker 0]: 新的法是这个二十年八月刚刚好。
+[Speaker 0]: 然后我就先在新的印法上调通了这个第一版的 inp PO，
+[Speaker 0]: 然后用四跑的。
+[Speaker 0]: 然后就是应该是二二年九月的时候，
+[Speaker 1]: 哇，
+[Speaker 1]: 这个很有意思。
+[Speaker 1]: 所以当时三点五出来的时候，
+[Speaker 1]: 其实内部四早就有了。
+[Speaker 1]: 对，
+[Speaker 1]: 而且 ROHF 是先在四上调 work 的。
+[Speaker 1]: 是的，
+[Speaker 1]: 然后再在三点五上成是呃成立的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 是的，
+[Speaker 0]: 但是实际上因为其他组其实也帮我们踩了不少坑，
+[Speaker 0]: 我们就用了这个已有的一些 pipeline 能能怎么用怎么用。
+[Speaker 0]: 但是主要还是自己就主要的一些东西，
+[Speaker 0]: 还是像比如说如果 model 怎么券啊，
+[Speaker 0]: 还是自己券，
+[Speaker 0]: 然后数据怎么收集也是自己收集的。
+[Speaker 0]: 然后像这个刷 ina 到底出什么问题，
+[Speaker 0]: 也是我们自己。
+[Speaker 0]: 好，
+[Speaker 1]: 那在当时想把 ROHF 搞 work，
+[Speaker 1]: 有什么关键的挑战和突破？
+[Speaker 0]: 我觉得就是你应该怎么去衡量这个性能是什么样的，
+[Speaker 0]: 因为谁都不知道这个性能应该是什么样的。
+[Speaker 1]: 你的意思是你训练了很多个 check point 之后，
+[Speaker 1]: 你不知道是不是变得更好啊？
+[Speaker 1]: 对，
+[Speaker 0]: 就比如说这个单一的 reward 是会发生这个 rever hacking 的，
+[Speaker 0]: 有可能他的这个 reward seatuate 就变成一条，
+[Speaker 0]: 直就就慢慢慢慢上上来，
+[Speaker 0]: 然后变成直线。
+[Speaker 0]: 但是真实的情况是，
+[Speaker 0]: 这个人如果人类有个 reward 的话，
+[Speaker 0]: 那他可能先上去，
+[Speaker 0]: 然后再慢慢往下掉，
+[Speaker 0]: 这就 rerehacking。
+[Speaker 0]: 然后所以说呃你没有办法知道哪一个 check 线就真的比其他的 check point。
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以说呃选 check point 其实也是个技术啊，
+[Speaker 0]: 但是我我们其实没有花太多时间去选 check point，
+[Speaker 0]: 就是直接呃建了一堆这个 sample 的 basbasevl。
+[Speaker 0]: 然后来看一下每个 benchmark 上面到底是什么样的。
+[Speaker 0]: 然后但是更多的就是那个那个 benchmark 其实只是个数。
+[Speaker 0]: 然后如果他过了一个数就就就就好了，
+[Speaker 0]: 就呃也没有，
+[Speaker 0]: 也不能说他好，
+[Speaker 0]: 也不能说他坏。
+[Speaker 0]: 因为你每次跑一个 model，
+[Speaker 0]: 然后他的那个这个这个方差就非常大，
+[Speaker 0]: 嗯，
+[Speaker 0]: 就很呃很有很多噪音。
+[Speaker 1]: 那最后是怎么解决的？
+[Speaker 0]: 最后就还是就是你真的拉下来看一看，
+[Speaker 0]: 然后跟他交互几次，
+[Speaker 0]: 然后看一下，
+[Speaker 0]: 就比如说对于自己的一些这个体验是什么样的，
+[Speaker 0]: 然后多找几个人来看，
+[Speaker 0]: 然后来大家投票，
+[Speaker 1]: 所以就是 EELRHHF 还是用 HF 来 evl。
+[Speaker 1]: 是的是的，
+[Speaker 0]: 只能是这样，
+[Speaker 0]: 就没有办法。
+[Speaker 0]: 因为当时技术就是就是没有办法。
+[Speaker 1]: 嗯，
+[Speaker 1]: 嗯嗯所以这个是你相当于第一次在工业级的 level 上搭 RO。
+[Speaker 1]: 对你觉得这样的就是大模型需要的这种大规模的二 u info 和你曾经搭过的像天寿这样的 single task 或者 toy task RL infa 的区别在哪？
+[Speaker 1]: 呃，
+[Speaker 0]: 我觉得区别非常大。
+[Speaker 0]: 因为呃 toy task 的 bottle neck 在于环境。
+[Speaker 0]: 因为它的模型很简单，
+[Speaker 0]: 你不管是训练还是采样，
+[Speaker 0]: 这个 action 呃都是非常便宜的。
+[Speaker 0]: 但是 r inact 的话就是你的模型很大，
+[Speaker 0]: 但是环境非常简单，
+[Speaker 0]: 环境就是一个 prompt。
+[Speaker 0]: 然后但是模型采样的话，
+[Speaker 0]: 你要考虑如何高效的采样啊。
+[Speaker 0]: 嗯然后训练的话你要考虑高效的训练。
+[Speaker 0]: 因为这个东西是可能对于提供环境提供这个 prompt，
+[Speaker 0]: 这个可能就几微秒。
+[Speaker 0]: 但是这个跑一遍这个 inference 跑一遍 training，
+[Speaker 0]: 那可能就是好好几百秒或者是几千秒。
+[Speaker 0]: 也有可能就是如果你 GPU 少的话，
+[Speaker 1]: 那你觉得未来的这些猫的比起三点五比起四有什么新的挑战。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就对于 RU info 这一块来说，
+[Speaker 0]: 我觉得还是性能上面或者说 ver scalp 如何 scalup，
+[Speaker 1]: 就是说怎么能够用更多的 GPU，
+[Speaker 1]: 怎么能够更高效的吞吐啊？
+[Speaker 0]: 对对，
+[Speaker 1]: 是的是的，
+[Speaker 1]: 那就是牵扯到不单单是 RU 的部分，
+[Speaker 1]: 还有模型的 influence。
+[Speaker 0]: 对，
+[Speaker 0]: 就可能更 n to n 的一些就呃并且就是会深入到一些这个实现细节当中，
+[Speaker 0]: 然后去做一些 n to n 的优化。
+[Speaker 1]: 那其实你做的这个相当 intersection 的一个部分，
+[Speaker 1]: 就是既有 RL，
+[Speaker 1]: 你得懂 RL，
+[Speaker 1]: 然后你得懂 MLS。
+[Speaker 1]: 对，
+[Speaker 1]: 然后你还得懂 language model 是怎么 influence，
+[Speaker 1]: 对吧？
+[Speaker 1]: 谢谢你得明白。
+[Speaker 1]: 是的，
+[Speaker 1]: 嗯，
+[Speaker 1]: 可能不在那个位置，
+[Speaker 1]: 说实话学校的学生学不了这种东西啊。
+[Speaker 0]: 是的，
+[Speaker 0]: 就是吧那个那个位置非常锻炼人，
+[Speaker 0]: 然后还很累啊。
+[Speaker 0]: 然后然后然后后面就是就是我我其实有一段时间就是做的确实非常累，
+[Speaker 0]: 然后还进了 ER，
+[Speaker 0]: 就是就是加班加太狠了，
+[Speaker 0]: 然后脑子疼，
+[Speaker 0]: 然后受不了，
+[Speaker 0]: 然后就到医 r 看了一下。
+[Speaker 0]: 但是 ER 医生说没什么事，
+[Speaker 1]: 你那个时候工作强度有多大，
+[Speaker 0]: 就是早上醒来一直写 debug，
+[Speaker 0]: 或者说处理一些问题，
+[Speaker 0]: 然后一直到晚上睡觉了一周七天，
+[Speaker 0]: 一周可能平均六天，
+[Speaker 0]: 对吧？
+[Speaker 0]: 但是就经历一段时间之后，
+[Speaker 0]: 你会发现这个是不不能持久的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以说还是呃首先你要有这个这个这个这个身体，
+[Speaker 0]: 你要确保你的身体也是健康的。
+[Speaker 0]: 所以说呃我我现在养成一个习惯，
+[Speaker 0]: 就是每每周两次跑三千。
+[Speaker 0]: 但是我之前这个在清华的时候，
+[Speaker 0]: 上体育课是就是三千不及格，
+[Speaker 0]: 然后完全不会跑三千。
+[Speaker 0]: 但是我现在就是自发的去就意识到这件事是很重要的。
+[Speaker 1]: 对我觉得好羡慕你过去两年在 OKI 干的事。
+[Speaker 1]: 因为你能够 explore 的是世界上大部分百分之九十九点九九这方面的 research 和 inft tion。
+[Speaker 1]:  er 完全他没有没有资格去碰的东西。
+[Speaker 1]: 你有先天那个得天独厚的优势，
+[Speaker 1]: 你在最先进的 model 上，
+[Speaker 1]: 然后可以可以做这个优化。
+[Speaker 1]: 然后你每天都在在未知的领域探索。
+[Speaker 1]: 而且你知道你的探索一定是人类历史上第一个找到这个。
+[Speaker 0]: 但但是我我觉得我做也是一些很屈别的事情。
+[Speaker 0]: 就是我觉得我的工作就是日常维护，
+[Speaker 0]: 并不需要那么多这个这个这个智商就不需要太多智力上的。
+[Speaker 1]: 是的，
+[Speaker 0]: 就就就是你只要把事情做好，
+[Speaker 0]: 做对就好了。
+[Speaker 0]: 然后方向很重要。
+[Speaker 0]: 然后你只要在对的方向上呃，
+[Speaker 0]: 做一些你自己认为正确的事情就好了。
+[Speaker 1]: 那你觉得 RL for 大模型这个东西还需要 break through 吗？
+[Speaker 1]: 还是要那种大的突破吗？
+[Speaker 1]: 还是说你觉得这个范式已经在那儿了，
+[Speaker 1]: 就是咱们把东西 info 拉上去，
+[Speaker 0]: 呃，
+[Speaker 0]: 我觉得还是有的，
+[Speaker 0]: 就是你 ok 就是不能以当前的这个状态来预测下，
+[Speaker 0]: 接下来会发生什么事。
+[Speaker 0]: 就是接下来什么事情都可以，
+[Speaker 0]: 可能会发生。
+[Speaker 0]: 有可能有新的范式，
+[Speaker 0]: 有可能有新的 RO 范式，
+[Speaker 0]: 也有可能有普全的范式都有可能。
+[Speaker 0]: 所以说每天都是得面对一些未知的挑战。
+[Speaker 0]: 但是话又说回来，
+[Speaker 0]: 就是我我觉得就是其实我很幸运在这个位置，
+[Speaker 0]: 但是如果把我换做任何一个人，
+[Speaker 0]: 如果他有我的 context 的话，
+[Speaker 0]: 他应该也完全可以胜任。
+[Speaker 0]: 对，
+[Speaker 0]: 所以说我不觉得这个是呃只有我能够做什么东西。
+[Speaker 0]: 这个这个事情就是你换任何一个正常的人类，
+[Speaker 0]: 他应该也可以做。
+[Speaker 1]: 你太现实了。
+[Speaker 1]: 展望未来，
+[Speaker 1]: 五到十年，
+[Speaker 1]: 你觉得还有什么有待探索的地方呢？
+[Speaker 1]: 就最大的挑战会在哪？
+[Speaker 1]: 现有的模型的能力的瓶颈，
+[Speaker 1]: 然后我们需要看到什么样的突破。
+[Speaker 0]: 我觉得目前的这个状态就是还没有 scale，
+[Speaker 0]: 完全先等他这个慢慢 hill climb，
+[Speaker 0]: 先等他慢慢的从 lush scale RO 的一些呃一些实验里面，
+[Speaker 0]: 然后看一下他最多能到多少性能，
+[Speaker 0]: 然后再去看之后还有什么要做的东西。
+[Speaker 1]: 所以你的意思是没有 scale，
+[Speaker 1]: 完全不是说 compute 不够，
+[Speaker 1]: 而是说现有的性能我们还没有榨干。
+[Speaker 1]: 我们先把它有有的方法，
+[Speaker 1]: 现有的 computer 给它榨干了。
+[Speaker 1]: 我们再看看我们推到多久了，
+[Speaker 0]: 再来，
+[Speaker 0]: 并且还有很多刷的 inbug。
+[Speaker 1]: 哪怕你们现在的也很确确信是有 infrabug 的对，
+[Speaker 0]: 就这这个这个你不能说百分百没有 bug 呀，
+[Speaker 0]: 就是对，
+[Speaker 0]: 就是毕竟是人类嘛，
+[Speaker 0]: 然后每个人都有可能犯错，
+[Speaker 0]: 然后呃就是你还得修一下这个，
+[Speaker 0]: 比如说你因为人多了，
+[Speaker 0]: 然后 context inconsistent，
+[Speaker 0]: 然后每个人都会写一些奇怪的东西。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那未来大模型，
+[Speaker 1]: 然后加上恶学习，
+[Speaker 1]:  post train 这个这个 pipeline，
+[Speaker 1]: 你觉得最大的瓶颈会发生在哪儿？
+[Speaker 0]: 我觉得瓶颈在于修的 infrasuput 吞吐量，
+[Speaker 0]: 你耽位时间内能修多少 bug，
+[Speaker 0]: 然后以及单位时间内能迭代多少次，
+[Speaker 0]: 嗯，
+[Speaker 0]: 能正确的迭代多少次，
+[Speaker 0]: 剩下不重要，
+[Speaker 1]: 这个可以赋能剩下的所有的东西。
+[Speaker 1]: 是的，
+[Speaker 1]: 算法也好，
+[Speaker 1]: 环境也好。
+[Speaker 1]: 对，
+[Speaker 0]: 就如果如果你把 bug 全修了，
+[Speaker 0]: 那你有可能算法连改都不用改就很好就是很好。
+[Speaker 1]: 那怎么样把印刷的这个效率提上来了，
+[Speaker 1]: 需要什么样的架构，
+[Speaker 1]: 需要什么样的人，
+[Speaker 1]: 需要什么样的资源，
+[Speaker 0]: 这个我们还在探索。
+[Speaker 0]: 对，
+[Speaker 0]: 就我我现在做的事情就是我我其实已经不在那个最核心的位置了，
+[Speaker 0]: 但是我觉得呃我应该做一些更重要的事情。
+[Speaker 0]: 就我我们组在重构这个 OI 内部的 info，
+[Speaker 0]: 然后再做下一代 info。
+[Speaker 1]: 你们的每一代的是是推倒重重来。
+[Speaker 1]: 大家再根据现在的认知，
+[Speaker 1]: 再做一个好的顶层架构。
+[Speaker 1]: 然后我们再像你写篇书那样写，
+[Speaker 1]: 还是会很就是修小修小补，
+[Speaker 0]: 目前是退倒重来，
+[Speaker 0]: 因为之前那代 info 已经三年多了，
+[Speaker 0]: 然后他堆积的问题其实已经很多了。
+[Speaker 0]: 然后呃我们希望就是用新的一个 info 来去清理很多之前的 techical debt，
+[Speaker 0]: 然后能够在单位时间内能够给一些 researcher 更好的一些呃 invtion spespeed。
+[Speaker 1]: 所以 resesearer 是不会参与到这个 infer building 的过程中的，
+[Speaker 1]: 他们可能会给一些需求。
+[Speaker 1]: 对，
+[Speaker 1]: 然后但具体写 code 怎么搞 distributed training，
+[Speaker 1]: 这个不是他们负责的。
+[Speaker 1]: 是的，
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后他们可能到时候就改一个 flag 就好了。
+[Speaker 1]: 那听起来 o en i 的 researcher 可能是第一个被 AI 取代的工作了。
+[Speaker 0]: 对我感觉是的，
+[Speaker 0]: 就是反正就是单位时间内你能实验多就产生 idea 嘛。
+[Speaker 0]: 对，
+[Speaker 0]: 就是 idea idea idea 反正你可以很便宜的生成，
+[Speaker 0]: 就是你一个人坐在那边写多少个，
+[Speaker 0]: 就然后然后你你你甚不是生产 idea，
+[Speaker 0]: 这个事情也可以 VI 建模。
+[Speaker 0]: 对，
+[Speaker 0]: 然后下一步取代就是一，
+[Speaker 0]: 我觉得优先会取代 research，
+[Speaker 0]: 然后再取代这个 info engineer，
+[Speaker 0]: 然后就就都取代了就好了。
+[Speaker 0]: 但是但是这个 sales 可能不太会那么期待，
+[Speaker 0]: 因为 sales 还是你要说服对面买单，
+[Speaker 0]: 人在对面什么人，
+[Speaker 0]: 然后 AI 可能没有办法那么说动人，
+[Speaker 0]: 这可能还是要人与人之间的沟通比较重要一些。
+[Speaker 1]:  OK，
+[Speaker 1]: 那我们刚刚聊 text only 的三点五，
+[Speaker 1]: 然后聊个多模态的。
+[Speaker 1]: 你觉得 agent 和 RL 的 posttrain 这个东西会有多大的？
+[Speaker 0]: 没有本质差别，
+[Speaker 0]: 没有什么差别。
+[Speaker 0]: 本身就是一个同一东东西，
+[Speaker 0]: 就是中间多加了几步脱扣，
+[Speaker 1]: 可能就是环境会多，
+[Speaker 0]: 对就环境环境环境方面的改变。
+[Speaker 1]: 所以你觉得比起标准的 LM 加 RL posttrain agent 加 RL posttrain 谈不上新的挑战。
+[Speaker 1]: 对，
+[Speaker 0]: 因为本身上是同一个东西，
+[Speaker 1]: 你个人对于 AGI 的定义是什么？
+[Speaker 1]: 你觉得现在我们达到 AGI 了，
+[Speaker 1]: 如果你觉得还没有达到，
+[Speaker 1]: 或者说还差一点。
+[Speaker 1]: 你觉得 pretrain 叫 RU post 圈这条路能不能带我们去到那个你定义的 AI，
+[Speaker 0]: 就是 OKI 内部有个笑话，
+[Speaker 0]: 你抓十五个人可能有二十种定义 AGI 的方法。
+[Speaker 0]: 对对，
+[Speaker 0]: 然后我之前定义的方法是这个东西能够如果能够完成呃百分之八九十的这个我自己认为有意义的 task，
+[Speaker 0]: 那他可能就会加了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我目前我觉得目前还没有，
+[Speaker 0]: 因为目前的话就是我我至少从我的角度来看，
+[Speaker 0]: 我还是不放心，
+[Speaker 0]: 他直接上手改我的 infrt 代码。
+[Speaker 0]: 因为这个非常 out of distribution，
+[Speaker 0]: 就是 AI。
+[Speaker 0]:  infer 在于它就占占，
+[Speaker 0]: 相对于它的这个数据集的占比是几乎为零，
+[Speaker 0]: 而且 AI infer，
+[Speaker 0]: 你验证的这个这个这个反馈太长了，
+[Speaker 1]: 你希望类也太高了。
+[Speaker 1]: 对，
+[Speaker 0]: 成本太高了，
+[Speaker 0]: 就是目前还是没有办法去触及到这一块的。
+[Speaker 1]:  good for you。
+[Speaker 1]: 听起来你短期内不会被呃是，
+[Speaker 0]: 但但就是反正呃在这个 sobberer 出来之前，
+[Speaker 0]: 然后就是我们内部其实已经呃用 sobber 一段时间了。
+[Speaker 0]: 在那个时候，
+[Speaker 0]: 然后然后大家都觉得啊我的工作要被取代了，
+[Speaker 0]: 然后或者说我们我们就写一堆石山吧。
+[Speaker 0]: 然后后面这个因为 shobber 训完之后会帮我们清理。
+[Speaker 0]: 呃，
+[Speaker 0]: 现在看来就是可能一两年过去了，
+[Speaker 0]: 这还是这样啊，
+[Speaker 0]: 就是时差还在那儿，
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是并不会真正的改变什么东西。
+[Speaker 0]: 就是每个人都会 overreact，
+[Speaker 0]: 就是觉得这个这个技术来了哦，
+[Speaker 0]: 我们要怎么怎么样，
+[Speaker 0]: 但实际上并不会这样的，
+[Speaker 0]: 他是一个很慢很慢的，
+[Speaker 0]: 循序渐进一个过程。
+[Speaker 1]: 你现在在 open en i 以前在呃学术机构清华 CMU 待过，
+[Speaker 1]: 然后可能在科研的 lab 也带过。
+[Speaker 1]: 但是现在很多人啊批评 open i 已经和 open 没什么关系了。
+[Speaker 1]: 然后你自己之前你的一大爱好也是开源，
+[Speaker 1]: 打破信息差。
+[Speaker 1]: 呃，
+[Speaker 1]: 你觉得这事儿会对你的个人目标和偏好产生冲突吗？
+[Speaker 0]: 我觉得这是个缺掉，
+[Speaker 0]: 呃，
+[Speaker 0]: 我其实还是很热爱开源的。
+[Speaker 0]: 如果会员有开源的东西，
+[Speaker 0]: 我可能会试着参与一些。
+[Speaker 0]: 但是我觉得就是我应该去做我自己认为更重要的事情。
+[Speaker 0]: 而且并且这个开源对于优盘源来说，
+[Speaker 0]: 它是一个 trade off，
+[Speaker 0]: 就是你没有办法直接把最好的模型开源。
+[Speaker 0]: 因为公司要生存，
+[Speaker 0]: 如公司如果不能生存的话，
+[Speaker 0]: 那么呃之后你可能就没有办法去继续融资，
+[Speaker 0]: 做一些实验，
+[Speaker 0]: 然后有一些突破性的进展，
+[Speaker 0]: 这个都是很现实的问题。
+[Speaker 0]: 所以我认同这个渠道。
+[Speaker 1]: 但是 OPI 在一开始建立的时候，
+[Speaker 1]: 它的架构其实是很特殊的。
+[Speaker 1]: 它不是以一个商业盈利的公司的架构。
+[Speaker 1]: 对，
+[Speaker 1]: 来一开始初创的，
+[Speaker 1]: 它一开始的至少公开资料上的 slogan，
+[Speaker 1]: 是让通用一 i 平等的造福全人类。
+[Speaker 1]: 对你觉得闭源是让这个目标更近了，
+[Speaker 1]: 还是更远啊？
+[Speaker 0]: 呃，
+[Speaker 0]: 首先这个通用 AGI 造福全人类这个东西是一直是拆成两个部分看的。
+[Speaker 0]: 第一个是实现 AGI，
+[Speaker 0]: 第二个是造福全人类通用 AGI。
+[Speaker 0]: 这个就很好说，
+[Speaker 0]: 就直接这个堆这个 l 或者说堆 pretrain 堆三粒，
+[Speaker 0]: 然后 scare up 造造全人类。
+[Speaker 0]: 呃，
+[Speaker 0]: 目前的拆解是做产品，
+[Speaker 0]: 然后以尽可能便宜的价格。
+[Speaker 0]: 就比如说有免费的拆 GPA 用户，
+[Speaker 0]: 然后他们可以直接接触到更能够更容易的去接触到这个技术。
+[Speaker 0]: 呃，
+[Speaker 0]: 比如说这个免费应该也可以用这个语音模式，
+[Speaker 0]: 然后然后做一些就是就体验。
+[Speaker 0]: 这样可能是更有利于这个造福全人类的，
+[Speaker 0]: 而不是直接开源。
+[Speaker 0]: 你丢一个这个裸的模型权重，
+[Speaker 0]: 那他也不知道怎么用。
+[Speaker 1]: 所以你的意思是 open i 的 open，
+[Speaker 1]: 不是对其他的大公司大模型公司的 open，
+[Speaker 1]: 而是对普通人的 open。
+[Speaker 1]: 是的，
+[Speaker 2]: 我没有对。
+[Speaker 2]: 嗯，
+[Speaker 1]: 但这样的 strategy 可能如果我觉得如果这是最后一英里了，
+[Speaker 1]: 咱们是百米冲刺了，
+[Speaker 1]: 要到 AGI 了，
+[Speaker 1]: 我觉得 make sense，
+[Speaker 1]: 我也认同。
+[Speaker 1]: 但如果说 AGI 还是一个不说马拉松吧，
+[Speaker 1]: 但是不是一个一时半会儿明年就能解决的事儿的话，
+[Speaker 1]: 会不会在技术上更开放、
+[Speaker 1]: 更透明，
+[Speaker 1]: 也会让 o en i 本身更有利于达到尽快的达到 AGI 了。
+[Speaker 1]: 还是说你觉得其实 open AI 现在其实不太需要把自己的技术细节公开出来，
+[Speaker 1]: 拿社区的反馈，
+[Speaker 1]: 也不需要社区任何的帮助。
+[Speaker 1]:  open AI 已经 self content 可以实现 AGL 让我想想啊，
+[Speaker 0]: 我觉得就是嗯存在一种路径，
+[Speaker 0]: 就是你可以开源，
+[Speaker 0]: 然后你并且可以接受这个社区的反馈，
+[Speaker 0]: 然后更好实现 AGI，
+[Speaker 0]: 这个是可可以做到的，
+[Speaker 0]: 理论上可以做到，
+[Speaker 0]: 但实际上执行很多困难。
+[Speaker 0]: 就比如说呃其他其他人这个就是因为你是第一，
+[Speaker 0]: 如果你开源了，
+[Speaker 0]: 那么其他人马上就变低，
+[Speaker 0]: 然后其他人这个再训一下，
+[Speaker 0]: 然后但其他人闭源，
+[Speaker 0]: 然后然后就会导致你的这个就不是所有人都是同向新的。
+[Speaker 0]: 然后就会导致比如说这个 OKI 在当前这个环境下，
+[Speaker 0]: 他可能融不到资，
+[Speaker 0]: 然后没有人持持续的为他输血，
+[Speaker 1]: 这个是有点博弈论的意思了。
+[Speaker 1]: 哪怕我是想为了 AGI 造福全人类，
+[Speaker 1]: 但是可能有人不这么想，
+[Speaker 1]: 有人就是想挣钱。
+[Speaker 1]: 对，
+[Speaker 1]: 所以为了防着这样的情况发生，
+[Speaker 1]:  open，
+[Speaker 0]:  i 不得不避免啊，
+[Speaker 0]: 至少在我的看来是这么认为的那这个是公司存活的考虑，
+[Speaker 1]: 对不对？
+[Speaker 1]: 是，
+[Speaker 1]: 那如果现在 OPI，
+[Speaker 1]: 假如说就是无限资源，
+[Speaker 1]: 永远不用担心死的事儿。
+[Speaker 1]: 那你觉得你会很开心的把你现在这两年两三年的 RU 开源出去，
+[Speaker 1]: 你会很开心吗？
+[Speaker 0]: 我当然会很开心啊。
+[Speaker 0]: 就是呃其实这个庄收们还问过我这事儿要不要开源，
+[Speaker 0]: 然后我当时觉得不太好吧，
+[Speaker 0]: 就是呃因为这为了公司的考量，
+[Speaker 0]: 但是他还问了我这事儿。
+[Speaker 1]: 对，
+[Speaker 1]: 所以是不是 deep sick，
+[Speaker 1]: 至少他 open with 这个事，
+[Speaker 1]: 让 open i 重新有一轮内部评估。
+[Speaker 1]: 是的是的，
+[Speaker 1]: 你刚说 o en i 的使命要拆成两部分。
+[Speaker 1]: 对，
+[Speaker 1]: 首先实现 AGI，
+[Speaker 1]: 再造福全人类。
+[Speaker 1]: 嗯，
+[Speaker 1]: 更深的说，
+[Speaker 1]: 我们要理解这个使命的话，
+[Speaker 1]: 你觉得真要实现这个过程最大的机遇和挑战是什么？
+[Speaker 0]: 执行对着正确的方向，
+[Speaker 0]: 执行，
+[Speaker 0]: 只要能执行就好，
+[Speaker 0]: 就不要再出现一一次。
+[Speaker 0]: 就比如说二三年十一月公司快倒闭了是吧？
+[Speaker 1]:  sam 奥特曼被开除。
+[Speaker 1]: 那对对，
+[Speaker 1]: 就你希望这个整个组织架构越稳定，
+[Speaker 1]: 越好是的能够有利于你快速的往前进。
+[Speaker 1]: 是的，
+[Speaker 1]: 所以从内部的视角看，
+[Speaker 1]: 当时 sam 被开除，
+[Speaker 1]: 你们内部是什么样的接收到的信息？
+[Speaker 1]: 因为我们在外部接触到的信息都是很玄幻的，
+[Speaker 1]: 说什么伊利亚到底看到了什么？
+[Speaker 0]: 没有那个就是随便谣传的，
+[Speaker 0]: 就是捕风捉影。
+[Speaker 0]: 然后很多人在这边造造谣。
+[Speaker 0]: 对，
+[Speaker 1]: 所以你内部的视角是什么？
+[Speaker 0]: 内部的视角就是嗯应该是就是不信任，
+[Speaker 0]: 就是伊利亚跟其他的一些董事会成员不信任萨姆呀，
+[Speaker 0]: 然后投票把他投出去了。
+[Speaker 0]: 然后然后但是我们底下干活的人就觉得非常 surprise，
+[Speaker 0]: 非常震惊，
+[Speaker 0]: 不知道发生了啥。
+[Speaker 0]: 因为董事会之前是对底下的人缺乏透明度的，
+[Speaker 0]: 然后我们也不知道这个决策是怎么做的。
+[Speaker 1]: 然后这个不信任是不信任他什么呃，
+[Speaker 0]: 不信任他这个人，
+[Speaker 0]: 因为你可以去看这个官方公开的那个调查报告。
+[Speaker 0]: 对，
+[Speaker 0]: 这是一致的。
+[Speaker 1]: 但其实最后的结局是一列要走啊，
+[Speaker 1]: 对这个化学反应是怎么发生的？
+[Speaker 1]: 就是明明已经把他开除了，
+[Speaker 1]: 他也不信任 sam。
+[Speaker 1]: 但最后好像 sam 是更得人心的那一个。
+[Speaker 0]: 因为因为很多员工就觉得如果有一个纯技术出身的人领导的话，
+[Speaker 0]: 那可能没有那么多原件。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是 a 加的实现并不只是因为技术你技术实现了就好了，
+[Speaker 0]: 但还是有很多商业的因素掺杂在里面。
+[Speaker 0]: 就比如说你要融资，
+[Speaker 0]: 你要你要算力，
+[Speaker 0]: 你要如何去说服一些人去给你愿意投钱，
+[Speaker 0]: 这个其实也是很重要的一部分。
+[Speaker 0]: 然后如果你只有一个呃很好的一些这个研究经验的话，
+[Speaker 0]: 那可能还不是不是很支持你走这么长的路，
+[Speaker 0]: 就是从长远来看，
+[Speaker 0]: 还是需要 sam 这样的人的。
+[Speaker 1]: 所以 sam 好可能反而是 AI 最难替代的那个人。
+[Speaker 1]: 因为他需要在商业，
+[Speaker 1]: 甚至在地缘政治，
+[Speaker 1]: 对，
+[Speaker 0]: 在资源上都就是就是你可以把 sam 抽象成一个 personality 车，
+[Speaker 0]: 车上要穿一个 i 那 identity。
+[Speaker 0]: 然后这个 identity 短时间内，
+[Speaker 0]: 如果你用一个 AI 来替代的话，
+[Speaker 0]: 那就是这个别人对这个这个这个这个 ID 的认同感就会缺失。
+[Speaker 0]: 所以说这个是不能比起来的。
+[Speaker 0]: 嗯，
+[Speaker 1]: 对嗯，
+[Speaker 1]: 你刚刚说张书面走的，
+[Speaker 1]: 那天下午你难过了好久。
+[Speaker 1]: 但其实中师们不是唯一一个离开 open i 的对 open i 在取得巨大的成功之后，
+[Speaker 1]: 有无数的团队成员都走了。
+[Speaker 1]: 你觉得一个极度成功的一个组织，
+[Speaker 1]: 像 OKIG 样，
+[Speaker 1]: 最后大量的人才流失是必然的嘛，
+[Speaker 1]: 是不可避免的嘛。
+[Speaker 0]: 一个健康的组织是所有人都是可以替代的。
+[Speaker 0]: 就是你只要能够持续的培养新人有造血能力，
+[Speaker 0]: 然后能让这个组织正常的运转，
+[Speaker 0]: 这是可以的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 哪怕虽然走了很多人，
+[Speaker 0]: 但是还是可以花一一些时间精力，
+[Speaker 0]: 然后再培养一波新人，
+[Speaker 0]: 然后持续的造血相当于干细胞一样。
+[Speaker 1]: 所以 o 佩 i 现在没有谁是不可替代的。
+[Speaker 1]: 是的，
+[Speaker 1]: 那是不是也就意味着 OPI 做的东西，
+[Speaker 1]: 外面的人也不是说难如登天，
+[Speaker 0]: 不能复刻了。
+[Speaker 0]: 你可以这么认为，
+[Speaker 0]: 因为其实就是把最简单的东西做好就好了，
+[Speaker 0]: 没有什么黑魔法。
+[Speaker 1]: 现在我们可能这个世界在发生人类历史上最激烈的一次科技竞赛。
+[Speaker 1]:  open s 是点燃这一这这一切的那个公司。
+[Speaker 1]: 我想知道你们现在内部的氛围有多 intense，
+[Speaker 1]: 就是你们会有很大的压力吗？
+[Speaker 0]: 看组看 deadline，
+[Speaker 0]: 看这个 project mine，
+[Speaker 0]: 就是比如说 post 顺 ing。
+[Speaker 0]: 呃，
+[Speaker 0]: 目前这个压力还是挺大的。
+[Speaker 0]: 然后然后像其他的组，
+[Speaker 0]: 比如说我们现在在重功依法，
+[Speaker 0]: 那可能有压力，
+[Speaker 0]: 但是没有像破孙宁那么大。
+[Speaker 0]: 因为他们是有很明确的 deline，
+[Speaker 0]: 然后我们可以稍微延一延。
+[Speaker 0]: 因为我们需要更就着眼于更长远的考虑，
+[Speaker 0]: 我们要把这个事情弄。
+[Speaker 0]: 对。
+[Speaker 1]: 所以其实外部的激烈的竞争，
+[Speaker 1]: 不管是来自 XCISOP 还是中国的大模型，
+[Speaker 1]: 公司会传到到你我们内部的公司的日常开发的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 不太会，
+[Speaker 0]: 除了 deep seek 那一波。
+[Speaker 0]: 就因因为他们声称推特上声声这个他们的迭代速度非常快，
+[Speaker 0]: 然后这个还是引起了很多人的这个警觉的。
+[Speaker 0]: 因为内部的速度迭代速度其实相比于其他是有点慢的。
+[Speaker 0]: 所以说这就是为什么我们要冲过文艺版。
+[Speaker 1]: 所以其实对于 open i 这样的基座模型大模型公司来说，
+[Speaker 1]: 生死线是的 infracycle time。
+[Speaker 1]: 对其他的一些比如说 data 呀，
+[Speaker 1]: 或者说什么算法，
+[Speaker 1]: 有多少 researcher，
+[Speaker 0]: 这就投人就好了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 这是人力单位成本，
+[Speaker 1]: 是人力 AI info 不是人力吗？
+[Speaker 0]: 好问题。
+[Speaker 0]: 呃，
+[Speaker 0]: 但是 AI info 需要更多的 context。
+[Speaker 0]: 但是如果你是数据的一些 oblition 啊，
+[Speaker 0]: 像这个跑跑一实验啊，
+[Speaker 0]: 那那这个就是不要那么多 context，
+[Speaker 0]: 你就直接很简单的就是你进来，
+[Speaker 0]: 然后然后写个 for look，
+[Speaker 0]: 然后把这个 data config 弄好，
+[Speaker 0]: 弄弄就完了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对个这个其实都可以自动化。
+[Speaker 1]: 所以你们真正警觉的点是意识到 deep sick 内部的 infer 很好，
+[Speaker 1]: 他们迭代的很快。
+[Speaker 1]: 对，
+[Speaker 1]: 这个是引起了你们注意。
+[Speaker 1]: 对，
+[Speaker 1]: 其实你们不 care 哪个 model 在哪个榜上又比 GPT 高了多少，
+[Speaker 1]: 这个根本不是你们的 ccare。
+[Speaker 0]: 是就是就我我们很长时间以来都没有在特例的去为了刷 LMCS 而做什么事情。
+[Speaker 1]: 而你们真正 care 的是那个单位时间内的呃迭代速度和成功率的那个东西。
+[Speaker 1]: 你觉得 OKI 现在在这个指标上是全世界第一吗？
+[Speaker 0]: 不是，
+[Speaker 0]: 肯定不是，
+[Speaker 0]: 就是这个跟组织架构有很大的关系。
+[Speaker 0]: 其实就你比如说你抽出一个这个团队，
+[Speaker 0]: 然后去搞个 store up，
+[Speaker 0]: 然后那他们的迭代速度肯定是斜率远比 u 盘还高。
+[Speaker 0]: 因为你首先你代码不小，
+[Speaker 0]: 然后沟通成本少。
+[Speaker 0]: 然后你只要集中于你的这个 use case，
+[Speaker 0]: 那你就可以这样了。
+[Speaker 0]: 对，
+[Speaker 0]: 但是 open i 的话就是他要考虑同时考虑很多 use case，
+[Speaker 0]: 然后各方面的 traoff 这个组织大了就是有这样的问题。
+[Speaker 1]: 那如果这样的生死线 open i 已经不是第一了，
+[Speaker 1]: 那未来 open i 还能做 AI model 的第一吗？
+[Speaker 0]: 每个公司都有这个问题，
+[Speaker 1]: 你的意思是每个公司做大了，
+[Speaker 1]: 做成功了都会变慢。
+[Speaker 1]: 这个速度是的，
+[Speaker 0]: 然后就是取决于呃就是大家都很都很都很差，
+[Speaker 0]: 然后看哪个不差，
+[Speaker 0]: 不是那么差。
+[Speaker 0]: 这个差是相对于这个初创公司而言，
+[Speaker 1]: 那初创公司可能在这个指标上更好，
+[Speaker 1]: 他其他的指标可能很难和 open i 竞争。
+[Speaker 1]: 比如说他用户的反馈，
+[Speaker 1]: 对，
+[Speaker 0]: 所以这个都是吹到这个就是人类发展。
+[Speaker 0]: 人类。
+[Speaker 0]: 人类组织发展到这个规模之后，
+[Speaker 0]: 必然会面对的问题。
+[Speaker 0]: 你没有办法避免，
+[Speaker 0]: 也不是说难以维持高度人才密度啊，
+[Speaker 0]: 是说就是难以保持组织架构的 contact sharing 的一致性。
+[Speaker 0]: 这个会导致你的这个首先印刷不一致，
+[Speaker 0]: 然后印刷开始臃肿，
+[Speaker 0]: 然后组织结构也开始臃肿，
+[Speaker 0]: 这个人多就是这样。
+[Speaker 0]: 所以说看才宣影。
+[Speaker 0]: 理论上应该有一个拥有无限长的 context 的 agent 来替代。
+[Speaker 1]: 听起来这个是一个刚需。
+[Speaker 1]: 是的，
+[Speaker 1]: 因为这个会解决人类历史上这种臃肿的组织架构，
+[Speaker 1]: 不管是携代码还是干其他的事，
+[Speaker 1]: 都面临的一个问题。
+[Speaker 1]: 对，
+[Speaker 0]: 因为人脑的 context 是有限的，
+[Speaker 0]: 你没有办法一下子存这么多 context。
+[Speaker 1]: 但是 AI 可以可能未来会每一个公司有一个这样无限 context 的一个 agent，
+[Speaker 0]: 然后来当 CEO 就好了。
+[Speaker 1]: 对他负责所有的 sharing 负责所有的 DC 可能没有比比这样的 a 更适合的 DCC 就 maker 了。
+[Speaker 1]: 对，
+[Speaker 1]: 那么再讲完未来，
+[Speaker 1]: 如果希望 AI 可以解决一个世界难题会是什么？
+[Speaker 0]: 如何预测未来？
+[Speaker 1]: 你说的未来肯定不会是杯子，
+[Speaker 1]: 怎么掉下这种未来，
+[Speaker 1]: 而是整个人生世界格局，
+[Speaker 1]: 所有的这些东西。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对为什么这个事儿是你觉得最想做的？
+[Speaker 0]: 我个人对于就是比如说追求一个这个自己造一个世界，
+[Speaker 0]: 还是呃很有吸引力，
+[Speaker 0]: 就是很有一些追求的。
+[Speaker 0]: 然后呃但是如果你在高维度空间来看的话，
+[Speaker 0]: 你需要有一个你你需要提前生成剧本。
+[Speaker 1]: 我的理解是你觉得我们的命运是可以被预测，
+[Speaker 0]: 是这个世界是一个确定论。
+[Speaker 1]: 所以我们生活在一个确定性的马尔科夫过程里面。
+[Speaker 1]: 是的，
+[Speaker 1]: 那往深了说的话，
+[Speaker 1]: 你觉得人是没有自我意志自由意志的。
+[Speaker 1]: 是的，
+[Speaker 1]: 我现在脑子里面在想什么，
+[Speaker 1]: 我下一个单词说什么我下一个问题问什么？
+[Speaker 1]: 全都是一开始宇宙大爆炸那一刻就定好了。
+[Speaker 1]: 是的，
+[Speaker 2]: 嗯，
+[Speaker 0]: 这个是我已经验证了无数遍了，
+[Speaker 1]: 这在我听起来是一个相当悲观的世界观。
+[Speaker 1]: 是的，
+[Speaker 1]: 因为可能这是真的吧，
+[Speaker 1]: 但是我自己内心深处我不愿意接受，
+[Speaker 0]: 我也不愿意接受来，
+[Speaker 1]: 就好像我就变成了一个在被模拟的原子，
+[Speaker 1]: 是为什么你会这么想？
+[Speaker 0]: 呃，
+[Speaker 0]: 有一些我的个人经历吧，
+[Speaker 0]: 就是不太方便说。
+[Speaker 0]: 但是我这个确实是事实，
+[Speaker 0]: 所有东西都是可以被预测的。
+[Speaker 0]: 所以理论上它是可以用 AI 解决的。
+[Speaker 0]: 但是如果你能拿到一个能够预测未来的机器的话，
+[Speaker 0]: 那么他对个人而言其实是一个灾难。
+[Speaker 1]: 我觉得这会导致所有的价值体系的崩塌。
+[Speaker 1]: 是的，
+[Speaker 1]: 就如果有这样的 AM model，
+[Speaker 1]: 他做到了，
+[Speaker 1]: 可能对人类社会来说，
+[Speaker 1]: 最好的选择是毁掉这样的 AI model，
+[Speaker 1]: 让他永远不要出来。
+[Speaker 0]: 但是呃有些人就非常愿意去开发这种 model，
+[Speaker 0]: 就是不然的话这个他会被宿命论操纵着走。
+[Speaker 1]: 有意思是有人喜欢这样的 model，
+[Speaker 0]: 是因为他想 joelricak。
+[Speaker 1]: 所以你的意思是有了这样的 model 之后，
+[Speaker 1]: 我要做那个和猫和那个 model 预测的不一样的事，
+[Speaker 1]: 称这里称之为逃脱。
+[Speaker 0]: 不是呃只是为了搞清楚这个世界背后运行的规律，
+[Speaker 0]: 或者说这个这个世界为什么要确定为什么这个世界是宿命论？
+[Speaker 1]: 所以你觉得上帝不掷筛子。
+[Speaker 2]: 对呃，
+[Speaker 0]: 宏观不是筛子，
+[Speaker 1]: 微观掷筛子这个成立嘛。
+[Speaker 1]: 如果说在量子力学的观测里面，
+[Speaker 0]: 这个成立是因为你可以在后台修改一些世界线。
+[Speaker 0]: 虽然你可以把我说的话，
+[Speaker 0]: 认认为这个是扯淡，
+[Speaker 0]: 没有问题，
+[Speaker 1]: 但是我没有认为是扯淡。
+[Speaker 1]: 我在尝试 reason behind it。
+[Speaker 1]: 我觉得这个我也想过很久，
+[Speaker 1]: 就是到底这个世界是不是确定性的。
+[Speaker 1]: 我们是不是有一个剧本？
+[Speaker 1]: 我们只是提现木偶在这个世界的 dynamics 下，
+[Speaker 1]: 完成我们的一次随机过程。
+[Speaker 1]: 我觉得蛇不是随机过程，
+[Speaker 1]: 是确定过程。
+[Speaker 0]: 我觉得是的，
+[Speaker 1]: 你对这个事毫无怀疑呃，
+[Speaker 0]: 我很怀疑，
+[Speaker 0]: 但是我尝试着去证伪，
+[Speaker 0]: 发现这么伪，
+[Speaker 0]: 我非常想让他证伪。
+[Speaker 1]: 我我有这个疑问，
+[Speaker 1]: 我很感兴趣，
+[Speaker 1]: 我觉得我六七岁的时候就和我爸妈提过这个事儿，
+[Speaker 1]: 我就感觉你怎么知道我说的这句话不是早就确定性了。
+[Speaker 1]: 你怎么知道你的反应不是确定性的？
+[Speaker 1]: 我小时候就在想这个问题，
+[Speaker 1]: 但我后来发现，
+[Speaker 1]: 如果是这样的话，
+[Speaker 1]: 我我都不觉得我是人，
+[Speaker 0]: 就是或者说所以最好的方式就是忘掉这一切。
+[Speaker 0]: 然后假装你不知道这个事儿，
+[Speaker 0]: 然后去体验当前的一些经历。
+[Speaker 1]: 你已经这么做了吗？
+[Speaker 0]: 我一直都是这么做的，
+[Speaker 0]: 我没有办法。
+[Speaker 0]: 还有一个解释是，
+[Speaker 0]: 世界不是这个时间线，
+[Speaker 0]: 不是线性的，
+[Speaker 0]: 它是可以跳跃的。
+[Speaker 0]: 所以说你可以用一个理论来解释，
+[Speaker 0]: 就是未来的我帮助过去的，
+[Speaker 0]: 我来完成某些决策。
+[Speaker 1]: 你刚刚说过一个瞬间说你在小学还是初高中的时候，
+[Speaker 1]: 突然未来的你告诉曾经的你，
+[Speaker 1]: 你说你要什么要 make impact？
+[Speaker 0]: 对，
+[Speaker 0]: 这个只数。
+[Speaker 0]: 呃，
+[Speaker 0]: 我脑子里蹦出来就是这样这样一句话，
+[Speaker 0]: 但是我不知道是不是未来我告诉我的那为什么你觉得世界线不是连续的，
+[Speaker 1]: 可能有未来的什么穿插来穿插去的？
+[Speaker 0]: 我觉得三维生物都是有他自己的局限性的。
+[Speaker 0]: 在三维的认知里面，
+[Speaker 0]: 这个时间就是一个线性的单向流动的。
+[Speaker 0]: 但是有可能在四维的时间里面，
+[Speaker 0]: 他这个时间并不是单向流动的，
+[Speaker 0]: 它可以任意跳跃，
+[Speaker 0]: 这是我找到的迄今为止合理的解释。
+[Speaker 1]: 所以你觉得真的你过去有无数个时刻，
+[Speaker 1]: 有一个未来的你，
+[Speaker 1]: 像星际穿越的 morphe 一样，
+[Speaker 1]: 在后面推那个柱子。
+[Speaker 1]: 对，
+[Speaker 0]: 这是可能性之一。
+[Speaker 0]: 因为这个无法证伪，
+[Speaker 1]: 而他推这个柱子又会导致你在未来又会再过去推那个柱子。
+[Speaker 1]: 对，
+[Speaker 1]: 所以你现在最好那个解决方案就是忘掉这个事儿。
+[Speaker 1]: 对还坚信西西福斯是幸福的对啊，
+[Speaker 1]: 这个聊下去我们可以再聊半小时，
+[Speaker 1]: 我们先过了这个话题吧。
+[Speaker 1]: 啊，
+[Speaker 1]: 我相信现在每一个 AI der 从业者，
+[Speaker 1]:  open aider 从业者，
+[Speaker 1]: 特别是可能内心里面都有一个创业的种子啊，
+[Speaker 1]: 也有过这方面的考虑和想法吗。
+[Speaker 0]: 呃，
+[Speaker 0]: 可能有，
+[Speaker 0]: 但是现在我觉得我还没有看到很好的 idea。
+[Speaker 0]: 然后并且我觉得 open AI 还是对我而言还是一个不错的地方，
+[Speaker 1]: 待着你会喜欢什么样的 idea？
+[Speaker 1]: 是偏 product 的还是什么样的？
+[Speaker 0]: 我会觉得我更喜欢 product，
+[Speaker 0]: 就是比如说像天授，
+[Speaker 0]: 像退学。
+[Speaker 0]: 我我其实我搞 research info，
+[Speaker 0]: 我其实也是用有用户的。
+[Speaker 0]: 因为你的用户就是 searcher，
+[Speaker 0]: 然后你可以根据 researcher 的一些反馈来适时的进行迭代。
+[Speaker 1]: 所以你会希望类似这样的一个大家需要，
+[Speaker 1]: 反正就是有需求，
+[Speaker 1]: 然后你又你的天赋又能个很好的施展的地。
+[Speaker 0]: 然后然后技术是什么样不重要啊，
+[Speaker 0]: 你你比如说举个例子，
+[Speaker 0]: 就是嗯退学的话，
+[Speaker 0]: 它就是一个很简单的这个通知系统，
+[Speaker 0]: 一实也不不能算系统，
+[Speaker 0]: 就每几行代码写个 PHB 就好了。
+[Speaker 0]: 然后甚至你连 PHD 都不要，
+[Speaker 0]: 就是你直接搞一个那个，
+[Speaker 0]: 就是你哪怕每每天这个推学的第一版，
+[Speaker 0]: 就是白天更新一次时间，
+[Speaker 0]: 晚上更新一次时间，
+[Speaker 0]: 我是手动的。
+[Speaker 0]: 但是即使这样就有很多需求，
+[Speaker 0]: 嗯，
+[Speaker 0]: 技术不重要，
+[Speaker 0]: 重要的是就是抓住抓住需求。
+[Speaker 1]: 你会希望十年后的龚佳怡是什么样的？
+[Speaker 1]: 他会在一个什么样的地方做什么样的事儿。
+[Speaker 0]: 我会希望他做自己那个时候想做的事儿，
+[Speaker 0]: 然后有足够的资源，
+[Speaker 0]: 足够的能力，
+[Speaker 0]: 做自己想做的事，
+[Speaker 1]: 你都不去干预他那时候想想什么嘛。
+[Speaker 0]: 对，
+[Speaker 0]: 因为想法是会变的，
+[Speaker 1]: 可能你想什么也不重要，
+[Speaker 1]: 反正是确定性的过程了，
+[Speaker 1]: 是现在怎么希望不太重要。
+[Speaker 0]: 然后我我现在所能做的就是投资，
+[Speaker 0]: 那那个时候的我还是投资未来让他有选择的权利。
+[Speaker 1]: 那你为什么还要投资呢？
+[Speaker 1]: 反正投不投资你都会到那个点。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是我觉得就是投资一下还是会更好的嘛，
+[Speaker 0]: 就万你不投资的那你这不是在骗自己吗？
+[Speaker 1]: 投资一下不会有任何影响的，
+[Speaker 1]: 我们是确定性的，
+[Speaker 1]: 过去的，
+[Speaker 1]: 但尤其每天在家里睡大觉，
+[Speaker 1]: 你也可以到那个地方投资，
+[Speaker 0]: 未来可能也是确定性的。
+[Speaker 1]: 所以你投不投资也不是自己的自由意志。
+[Speaker 1]: 是的，
+[Speaker 1]: 你之前的投资未来都是提前学高中数学，
+[Speaker 1]: 或者说怎么怎么样。
+[Speaker 1]: 你现在除了技术上的，
+[Speaker 1]:  AI 上的，
+[Speaker 1]: 你有什么其他的想投资未来的提前退休，
+[Speaker 0]: 然后有足够资本，
+[Speaker 0]: 想做自己自己想做的事儿，
+[Speaker 1]: 给你无限的钱。
+[Speaker 1]: 你现在想退休去干嘛？
+[Speaker 0]: 花一点时间找到自己想做的事儿。
+[Speaker 1]: 就人说你觉得你现在手头上的事儿不是你很想做的，
+[Speaker 1]: 你只是迫于生计，
+[Speaker 1]: 你想要赚到足够能够退休的资本，
+[Speaker 1]: 然后再去找那个事儿。
+[Speaker 0]: 我手头上的事儿，
+[Speaker 0]: 比如说二依法在很长一段时间都是我想做的事儿。
+[Speaker 0]: 但是随着时间的推移，
+[Speaker 0]: 像比如说逐渐稳定之后，
+[Speaker 0]: 或者说这个发生了一些事情之后，
+[Speaker 0]: 然后每因为每个人的是这个重心是会变的。
+[Speaker 0]: 我曾经想通了，
+[Speaker 0]: 我想要什么这个事情，
+[Speaker 0]: 但是我现在又想不通了，
+[Speaker 1]: 你现在又想不通了。
+[Speaker 0]: 对我觉得这个这其实也很正常，
+[Speaker 1]: 所以你现在反而是在人生的某个迷茫期。
+[Speaker 1]: 是的，
+[Speaker 1]: 曾经觉得很喜欢的二幺 info 也好，
+[Speaker 1]: 做有 impact 的事儿也好。
+[Speaker 0]: 对，
+[Speaker 0]: 因为因为已经看到头了，
+[Speaker 0]: 然后剩下都是很确定性的事情，
+[Speaker 1]:  AGS 板上钉钉的事儿了。
+[Speaker 1]: 对，
+[Speaker 1]: 好，
+[Speaker 1]: 佳怡，
+[Speaker 1]: 我没有更多的问题了。
+[Speaker 1]: 然后我希望你在二零二五年这个时间节点上，
+[Speaker 1]: 在这个 pocast 最后留下你的一段话去探索，
+[Speaker 0]: 说到底自己想要什么。
+[Speaker 0]: 嗯，
+[Speaker 0]: 虽然我对这个问题我曾经一路想通了，
+[Speaker 0]: 我自己想要什么，
+[Speaker 0]: 但是我其实还是没有那么想通，
+[Speaker 0]: 就是这个问题值得一生去思考。
