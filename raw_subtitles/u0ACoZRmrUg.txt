@@ -1,0 +1,1454 @@
+Early on when I started my career, I left.
+I lost half my initial capital
+based on inside the three.
+So I'm, I'm extremely familiar
+with with the damage it can cause.
+But on the other hand,
+and in spite of that, I'm in favor of
+not having any,
+rules against insider trading.
+I would like all the information out there
+as soon as it's available.
+There is no.
+Because, look,
+as a society, we're better off
+knowing as soon as possible
+anything that is knowable.
+Right.
+So why why do we have to wait forever?
+First of all, when you when you are
+faced with a merger
+or acquisition situation where there
+most of the insider trading is happening,
+right?
+They, they, you know, this the secretary's
+the lawyers, everybody knows about it.
+They go home day to day, rise day.
+Osborne's day.
+So eventually always filters out.
+So it's almost impossible to avoid.
+It's very, very difficult and cumbersome.
+Why don't we just
+do away with it and let the
+information come out as soon as possible?
+Hello and welcome to another episode
+of the Odd Lots podcast.
+I'm Tracy Alloway and I'm Joe Weisenthal.
+Joe, sometimes, sometimes I go on
+prediction markets, Yeah.
+And I see some of the contracts
+being traded.
+And, you know, we hear the argument
+all the time
+that there might be a real economic
+reason. Yes.
+Why prediction market should exist.
+So maybe, you know,
+maybe you run a studio in Hollywood.
+Yeah.
+So like it's actually really important
+who will be in the next cast
+of whatever Avengers movie is coming out.
+But I have a hard time thinking that
+betting on whether or not Jesus
+Christ is going to return to the world
+is economically important, right?
+Yeah. No, I think there's a great point.
+I mean, I think you're being generous,
+actually, with the Avengers thing.
+I mean, maybe,
+maybe you could say it, but, you know,
+for example,
+there is a market
+and it's actually you can track it
+on the Bloomberg that says on Kelce.
+Will there be a recession before 2027?
+And that is at 33% right now.
+And that is something that like
+that's amazing in the sense that there is
+an instrument where you could bet on this
+very important question to investors
+and express it very purely in a way
+that if you were using
+other instruments like stocks or bonds,
+you would only be using a proxy for it.
+But so the potential there in my mind
+for some of these things
+is obviously quite high.
+What you could say certainly
+in our current economic environment,
+being able to bet on things
+like, is the US going to strike
+Kharg Island or something
+like that, could be actually useful
+if you are a large institutional investor
+versus just betting on the price of oil
+or the drug
+or something like that.
+However, I have a hard time
+thinking that institutional investors
+are going to flock to a platform
+that contains questions that are both,
+you know,
+is there going to be a recession?
+And also some completely out there
+pop culture kind of contract?
+Totally.
+Or, you know,
+obviously beyond the pop culture,
+they're dominated by sports
+betting and so forth.
+So that's another question.
+Also, you know, the marketing tactics used
+by the major prediction market
+companies are very different than anything
+pretty different than anything we see
+in traditional futures, etc..
+So I think we both yeah,
+like I do on a fully think that like there
+could be legitimate
+use cases where there are natural hedgers
+natural liquidity providers
+for some of these, like suave,
+some of these,
+pure binary instruments, etc..
+But there are some pretty big chicken
+and egg problems and other things
+to like actually get there
+where there's volume,
+you know, for example,
+some of the weather related ones.
+Absolutely. They're great.
+No one's better.
+You know, there's like $20,000 on
+some of them that's beyond beneath
+anything,
+any order of magnitude of usefulness
+to any economic or real speculative actor.
+That's right.
+No hedge fund
+gets out of bed for less than 20,000.
+Okay.
+So I do, in fact, have the perfect guest
+to discuss all of this.
+Someone who is trying to solve
+that chicken and egg problem
+and actually create a prediction market
+that is more geared
+towards institutional investors.
+And we are going to be
+speaking with Thomas Peterffy.
+He is, of course, the founder
+and chairman of Interactive Brokers,
+someone who's not just interesting
+from a prediction
+market perspective, by the way,
+but someone who has been incredibly
+influential in the development of markets.
+Absolutely.
+So we're going to get into the overall,
+you know, market structure,
+ie all that good stuff.
+But we'll start with prediction markets.
+So Thomas, thank you so much
+for coming on Odd Lots.
+Thank you very much for having me.
+So when you think about prediction markets
+for institutional investors
+in your mind,
+what is the actual differentiating factor
+between, you know, a retail investor who
+maybe is playing around a little bit on
+something like Kashi or Polly
+Market versus someone with a lot of money
+who might be interested
+in trading in size.
+So from that point of view,
+the prediction market is no different
+than the stock market,
+except it addresses much larger
+and more important on the one hand.
+On the other hand, much sillier
+and less important questions.
+So it all depends on what you ask.
+So the stock market has Microsoft
+and Nvidia
+and also has,
+you know, the, the GameStop and
+other silly stocks.
+Right.
+So it it is the same.
+It is a, parallel situation.
+So you cannot you cannot blame,
+prediction market, the mechanism itself
+for the silly things that some,
+platforms list.
+Right.
+The, the, the idea here is to
+deal with questions together.
+The consensus opinion of people
+who are preferably experts
+or are the thinkers on the questions
+that we are going to ask
+and to gather the consensus
+so that we can all,
+include that in our decision
+making and planning for the future.
+That was excellent. And first of all,
+I think that's a great point.
+Obviously, that, you know, the stock
+market contains both micro
+Microsoft and Nvidia,
+and it also includes GameStop.
+But this is all my most recent
+development. Yeah. Yeah.
+Like when GameStop happened,
+we were all sort of in shock
+that people were treating a stock
+as a token.
+Yeah, that's true.
+But you know, there's been,
+you know, pain for part of college
+trading, penny stocks and etc..
+So I know that.
+And if you go back to, you know,
+penny stocks are the original prediction
+markets go back to the Jesse Livermore
+era of true bucket shops.
+And it was like,
+you know, pretty messy, etc..
+So from your perspective,
+let's talk about like right now
+there's if you
+if we're talking about prediction
+markets in the U.S, you know,
+it's really heavily sports betting,
+then there's some election stuff
+and then there's some silly things etc.,
+like just starting from first of all,
+let's zoom out for the big question.
+Do you think that eventually institutional
+investors will use prediction market
+like instruments to trade things like will
+there be a recession in the year 2026?
+And do you expect that these to become
+big volume contracts at some point?
+Definitely.
+I'm I'm absolutely convinced that,
+so the stock market gives us, a venue to,
+to invest in the future,
+basically
+in the future, of different companies.
+But, you know, some of the
+how those companies
+are actually going to end up
+trading in the future has a lot to do
+with the economic environment
+and social environment in the future.
+And, basically, we are left
+to our own devices
+to decide for what the future holds.
+So the prediction markets gives it
+gives them an opportunity
+to to gather experts around
+who are not afraid
+to put their money on the line and, and,
+express what they think
+and to collect a consensus opinion
+so that we all know
+what we can possibly expect if
+it's probably a
+better guess than what we individually
+could come up with.
+So a lot of the prediction markets,
+one of the problems
+that they currently have is
+that volumes are still pretty low, right?
+The markets are very illiquid.
+When you talk to institutional investors,
+you know, people you would like
+to be clients on your platform,
+which is called Forecast Trader.
+By the way,
+what are the big hurdles for them.
+Like what are they.
+What's stopping them from going all in on
+prediction markets at the moment?
+Well, at this point,
+just it's very similar to any other market
+when when it starts,
+liquidity is always a big question
+and it takes a long time
+to gather sufficient liquidity.
+If you look if you look at, for example,
+the options markets
+that have been around for 54 years,
+I think initially
+there was very little liquidity
+and it was very difficult to to
+trade more than, say,
+20 or 30 contracts at the time.
+Nowadays you can trade thousands
+or maybe even millions of contracts.
+So it has developed over the past
+five decades really well.
+And since the stock market
+is basically similar,
+what unlocked the liquidity?
+Was there a market design choice?
+Like if you go back
+and you're thinking about, okay,
+the history of the options market, etc.,
+was it just time and existence,
+or were there certain either regulatory
+or market structure decisions
+that had to be made
+that truly unlocked the opportunity
+to take it to the next level, volume wise?
+Yeah, but I think over
+time, people have become more familiar
+with the idea of what an option is.
+And, and it it is a fairly complex idea
+relative to what
+the prediction markets are.
+That's why we tried to come up
+with something simpler than, than options.
+And, and as far as that is concerned,
+I think we have we have done that.
+So it is not going to be as complex
+for people to understand
+a prediction contract as it is
+to understand an options contract.
+So, I think that they do not take equally
+long time to,
+to, develop sufficient liquidity.
+So when I go on forecast trader right now,
+I see that like, you know,
+will the United States economy enter
+a recession by the end of the
+second quarter of 2026, or will 2026
+be the warmest year on record?
+Which, as we were talking about earlier,
+these are all things
+that I would say
+have economic implications.
+When you compare
+what Interactive Brokers is doing
+versus, say, a Kalshi or a poly market,
+is that how you're trying
+to differentiate yourself with more,
+you know, quote,
+serious, economically serious contracts?
+Is that your edge?
+So don't forget that we are very different
+companies.
+Interactive brokers has a large,
+following of of, serious
+successful institutional investors
+and serious investors
+who are managing relatively large
+portfolios
+on our platform
+because she doesn't have that.
+So for us, prediction
+markets are an addendum
+that enables us to
+to basically run that our offering.
+And, our customers are,
+have the ability to, to, to gauge,
+such questions about whether a recession
+but the high like
+the Irish recession is going
+to be because she has no
+investors
+basically other than investors
+in the prediction markets.
+So, for them, it's
+first of all, it is hard to,
+maintain yourself
+only on, up until it really takes off.
+It's hard to generate
+enough trading volume to make a profit.
+So they have to add things like sports.
+And of course,
+that has become their mainstay.
+And they are not very profitable
+due to sports.
+But if so if they didn't do
+sports, maybe they couldn't
+even support the platform.
+I don't know, just to be clear, like,
+are you
+do you get the impression
+that from the perspective of this broad
+institutional world
+that's going to come to prediction
+markets,
+that one of your edges will be this focus
+that you're not in sports,
+that you're not in random pop culture,
+that this is going to be contracts
+that have this sort of,
+quote, serious investor in mind.
+Is that part of why
+they say
+this is they say this is by choice.
+We prefer to, to focus and concentrate on,
+serious questions having to do with,
+with our clients.
+The investment, maybe some of them
+would like us to have sports,
+but we just don't want to distract them
+with that which, say more about that.
+So how are you actually choosing
+the contracts that you're presenting
+as options to investors?
+So we are choosing contracts
+that in our minds have serious
+economic concerns,
+the outcomes of the questions
+they are the answers to,
+which have serious economic consequences.
+So for example, global warming
+I think is a huge question.
+Maybe not this year,
+but ten, 20 years from now.
+It certainly will be.
+Or or the, the rate of adoption of I or
+or I mean, you know, really
+significant questions that that basically
+will determine how we live our lives,
+in 10 to 20 years from now.
+And therefore that it's it's important
+for us to have questions
+for to those answers
+so that people that that
+and schools today or this size
+decide to buy a house somewhere
+or or decide what
+what profession
+they are going to study,
+and develop into,
+these sorts of questions deserve to have,
+serious, answers
+so that they can decide what to do.
+Ibkr as of the
+brokerage platforms
+that a retail ish person could access,
+always been like one of the most
+sophisticated in terms of the wide
+range of instruments that are available,
+from stocks to bonds to futures, etc..
+Is this the first time
+that you have a sort of your own market
+that you built on the platform,
+rather than ibkr
+simply being a window
+or a venue to trade on some other market.
+Is this new for you?
+In in a big way, as have never done
+anything as large as this
+that is so different
+than what already existed.
+But as we were going along,
+building out the platform over the last,
+almost five decades, we certainly,
+have always been on the edge
+of trying to bring in new things.
+Sure.
+And, but in terms of like,
+okay, like if I trade
+a share of Microsoft on Ibkr,
+there are established exchanges
+that presumably that trade
+is going to be routed through.
+Whereas with Forecast Trader,
+you are the market, you're the broker
+and the venue at the same time.
+And part of what's novel about prediction
+markets generally
+is this thing where the broker
+and the market venue are fuzing
+in a way that is not been the case
+historically with, say, CME futures.
+It's not been the same way with stocks.
+So from a market structure standpoint,
+are you is ibkr in a new position
+by the fact
+that it's essentially both the broker
+and the exchange for these instruments?
+I you
+know, you're probably correct in that
+although we have
+we have had in the past start
+that several indexes and,
+and, and various futures contracts,
+but but indexes and futures
+contract different ones.
+But they already existed. Yeah.
+So the prediction market is such is, is.
+Yeah. It's it's you are correct.
+It's the first market that where
+nothing have has existed like it actually,
+on that note, you know, I alluded
+to your history, in the markets,
+very long history and informative history.
+But how come we didn't get prediction
+markets sooner?
+You know, like, we could have been betting
+on global warming 5 or 10 years ago.
+And it doesn't seem until, you know,
+I was reading about prediction
+markets in college. Yeah.
+We started developing the prediction
+markets roughly ten years ago.
+And,
+the, the the problem was that
+we had some consultants at the firm
+that, were doing some other work.
+And they found out that
+we were working on prediction markets.
+And at that time we were,
+trying to go for a banking license.
+And they said, well,
+you will never get your banking license
+if you come out with this prediction
+market.
+As a matter of fact,
+the FCC will not take kindly to it,
+and you will have all kinds of problems
+if you really do this.
+So what we did, we,
+we already had built the whole system.
+So what we did
+was we released it for phantom money.
+Oh, and people were playing around on it
+for phantom money,
+and that eventually petered out because
+phantom money's not really interesting.
+Yeah.
+And but it took hold enough
+for the people who fund that market
+and actually to, to seed
+and to play with it.
+And then they, you know,
+they had a better idea
+and they went forward with it.
+And, and,
+you know, because she went to a module,
+went to the CFTC and, and, and,
+got himself a license
+and I was really upset
+when I so that and then,
+of course, you see, it was easy for him
+because they had nothing.
+So they had nothing to lose.
+You see, the problem
+is that when you have it,
+then you have a flourishing business.
+It's very hard to to do new things
+because the downside is so big for you.
+So, so he went ahead and then
+and then I wanted to buy, gosh.
+But he wouldn't, they wouldn't.
+And that they had a sale
+and they didn't even give me a price.
+What year was that
+that you were trying to buy it?
+Oh, I think about five years ago.
+Oh, wow.
+I was going to be my next question.
+Why didn't
+you just buy calcio at that point?
+What? Are you going. No. Is it. Oh.
+Then I went to the CFTC
+and I asked for my own license,
+and, they took, three years
+to to work it through and give it to us.
+But we eventually got it last year.
+No, actually, we got moved in 24
+just before the election. So.
+Yeah. Wait, this is interesting.
+So I was just about to ask you, like,
+was it the election
+that enabled you to get into it?
+But it sounds like actually
+you would have been able
+to get into the space
+even without the election.
+Even without the,
+change in administration.
+But so, so, look, I mean, I'm
+we are in the very lucky circumstance
+where we have a flourishing,
+profitable business.
+So we can
+we can support this, this crazy addiction
+to develop the prediction markets,
+that is, basically a loss leader.
+But, and, and we are very sure
+that eventually
+it will be very profitable.
+One other quick market structure
+ish question.
+Are you going to provide, leverage.
+How does that work for these instruments
+for we're working on that right now.
+It is it is
+so up to and I've been a very easy,
+situation because,
+I mean that they didn't have to.
+You see, a broker always has to worry
+about providing leverage.
+And so, most brokerage firms,
+when they go bust, that go bust
+because of the leverage they provide.
+And if you look at, the, the,
+the big Wall
+Street, crisis,
+they all have to do with leverage always.
+Yeah.
+So, but but eventually
+we will have to provide leverage.
+The question is
+how do you strat structure that?
+And that is
+going to be
+I'm sure there will be some firms
+that will go bust on leverage
+in prediction markets. Yes.
+Do you see a world where I guess
+prediction market prices
+kind of kind of become standard reference
+data, like the same way
+we look up credit spreads or so.
+Yes, absolutely. Yeah.
+So certainly share to them.
+I mean, you know, right now
+where, when, when you were saying
+that is the is the say
+the fed going to corporates or not?
+I mean, yeah,
+people are consulting
+economists and, and say that
+that's what the consensus opinion is,
+but it's not as clear
+as you have to look at that,
+clean probability that the prediction
+market provides one year,
+just one plain number to see what,
+what the probability is that,
+it's a consensus opinion.
+Wait, why is it not as clear?
+Because I can go to the bond market
+and back out what the bond market
+thinks about future fed moves,
+and that's a huge market.
+Why would you need the prediction market
+to do that?
+Well, no, you can go to the fed funds
+markets.
+Yeah, not the bond markets. Okay.
+You can go to the fed funds market.
+Is that that that is true.
+And but it that's
+another interesting thing.
+So fed funds markets
+existed for a long time.
+And and it's only recently
+that people really considered
+the fed fund markets when,
+when they are wondering about rates
+and no longer talk to the economists.
+Because just two years ago people
+kept talking about
+what which economist says about rising
+one day, we're never going to have
+to consult an economist again.
+I that's a that's like
+that's like the trader's dream
+because the world prediction markets
+are I think you see, I think that
+what will happen is that economists
+will be begging to participate
+in the prediction markets.
+And instead of issuing,
+their predictions,
+they will
+they will trade their own positions,
+and the good ones will make a lot of money
+and bad ones will lose.
+But can we?
+We just among the three of us here,
+no one else.
+Is that three among the three of us
+here for a second, like traders.
+You guys really don't like economists,
+do you?
+Like you?
+You do not hold them in particularly high
+esteem, right?
+Like, let's be just.
+It's just the three of us chatting here
+that for a trader,
+an economist is very confusing
+because it depends on
+which one you talk to.
+Right. So
+and the
+prediction markets cure that deficiency.
+Right. Yeah.
+So right now you could go to Robinhood
+and you could trade
+markets on you could trade Kelsey Markets
+via Robinhood.
+And we have the CEO
+of Robinhood on Vlad Tenev.
+And they also might be building
+their own prediction markets venue.
+Is there ever a scenario
+in which Ibkr both has a
+its own prediction market, but
+is also a broker that would allow a user
+I could like, trade Kelsey
+futures via my, ibkr account.
+Absolutely.
+So we are coming up as a very well,
+but, we are coming,
+at the end of May
+with the, with a consolidated feed.
+Where,
+contracts that exist
+on several or several platform
+where we will be have consolidated
+so that we when somebody comes to us,
+Interactive Brokers,
+to to look at the market,
+we will give them
+at a consolidated feed,
+just like we do on stocks there.
+So trade on I on the 20 or so markets
+and we always have the best
+bid on offer and we always,
+provide the best executions
+based on all the possible
+venues, that stock trades.
+And maybe we'll do the same thing
+on, prediction markets.
+That makes a lot of sense.
+That analogy of like, best execution.
+The one issue that I could see arise.
+And I'm curious
+your thoughts like a share of Microsoft
+is a share of Microsoft,
+regardless of whatever
+however number of exchanges
+it trades on a bet on a US recession
+could be different depending,
+because then it gets down to contract
+specifications, and how Kelsey defines
+when a recession is triggered.
+Could be different than, a different
+platform defines the same thing.
+So how much of this is going in
+terms of the future of the industry
+is going to depend on a certain degree
+of alignment among platforms.
+Fungibility.
+Yeah.
+Fungibility to a line across contract
+specifications.
+And is there work being done on that?
+So so fine capability is a great issue.
+And, it is in the interest of that market
+participant
+to, to create
+as much fungibility as possible.
+So accordingly, we are going to structure
+our contract to be identical.
+Okay. Whenever it's possible.
+That's interesting.
+Can we go back to making fun
+of economists for one second?
+But, you know, you made the point
+that when you're talking to economists,
+it depends on whether you're talking
+to a good one.
+And part of the whole idea of prediction
+markets is you incentivize people
+with good information to express
+their opinions in exchange for money.
+Recently, there's been the issue of,
+I don't even want to say insider
+trading or insider information
+because I don't know what constitutes
+insider trading or insider information
+in the prediction market.
+But there's been a sense that we've had
+a few political developments,
+and there have been big trades on
+prediction markets ahead of some of those.
+Maybe someone knows something
+ahead of time and they're betting on it.
+I don't know if that's wrong
+per se or illegal per se,
+but when you talk to institutional
+clients, how concerned are they
+about the perception
+of insider trading on these platforms?
+So insider trading has always been
+an issue.
+I mean, I have early on
+when I started my career, I, I left,
+I lost half my initial capital
+based on the inside the trade.
+So I'm, I'm extremely familiar
+with, with the damage it can cause.
+But on the other hand,
+and in spite of that, I'm in favor of
+not having any,
+rules against insider trading.
+I would like all the information out there
+as soon as it's available.
+There is no.
+Because, look,
+as a society, we're better off
+knowing as soon as possible
+anything that is knowable.
+Right?
+So why why do we have to wait forever?
+First of all, when you when you faced with
+a merger or acquisition situation
+where where
+most of the insider trading is happening,
+right.
+They, they, you know, this
+the secretaries, the lawyers,
+everybody knows about it
+that go on day to day rise.
+They rise once they.
+So it eventually always filters out.
+So it's almost impossible to avoid.
+It's very, very difficult and cumbersome.
+Why don't we just
+do away
+with it and let the information come out
+as soon as possible?
+So just to be clear,
+when you say this, you're
+talking about all markets
+here, not just predictions.
+You're so okay.
+So even in the stock market,
+the counter one counter argument
+I can think of a couple.
+There are many. Yeah.
+But one counter argument would be liquid
+capital
+markets are a very good thing
+for the economy.
+And why would I ever want to participate
+in a capital market
+if I'd known that there were going to be
+sharks, etc., that are just like,
+have such an information edge
+that I could never win.
+And so yes, I yeah, but you see,
+there are sharks.
+Not right now.
+But if they if there
+if insider information just came out
+as soon as possible,
+there would be very little opportunity
+for the sharks to, to be around
+because you could be a shark
+for a second or two, but that's it.
+Nowadays,
+sharks can be around for weeks and months.
+So the another argument would be that,
+from a corporate perspective,
+I don't want all my secrets
+to be monetizable so easily.
+So like,
+I want to be able to share information
+with a group of people inside
+and not have to protect them.
+You have don't rely on on national,
+laws to to protect you.
+I mean, protect them yourself.
+I'll just stop talking to them.
+Wait. I want to hear more about.
+You. Mentioned
+that you lost a bunch of money.
+Yeah, for capital punishment.
+Story from insider trading.
+What's that? Yeah. What's that about?
+So. So when I,
+I bought my seat
+on the American Stock Exchange
+as an options trader in 1977, and,
+I had, $200,000 out of saved capital,
+that I started my option trading business
+with on the floor of the American Stock
+Exchange.
+And, maybe,
+a year or so later,
+I was standing in the open.
+And in those days, options
+were trading in sixteens
+and eight and, it was,
+you know, a day before expiration
+and, there was a very cheap
+out of the money call
+that was to be expired.
+The next day.
+And somebody came in
+and in, in, according to my fair
+value sheets that I only I had endorsed it
+because I had my own options formula
+and I, I generated this sheet for myself.
+That option was worth about, 25, $26.
+And, and somebody came in and offered it
+at 38th Street, which is $18.
+Offered to me 300 of those options of $18.
+And I, I bought all 300,
+which was at that time the biggest trade
+I've ever done.
+And just as the broker walks out, another,
+broker walks in
+and he says, where can I buy 500 of these?
+And nobody said anything.
+Everybody was stunned.
+And I said, 3/8.
+And he said, okay, I'm.
+And I said 500, I would.
+I was so I was so overwhelmed
+by the amount of profit
+I was suddenly making in a five minute
+period of time
+that I gave up all caution.
+And I sold him that 500.
+So I was that there is, 200 short.
+And then, in the next several minutes,
+the stock,
+the trading and half an hour later it,
+it closed.
+Half an hour later,
+it reopened with the news
+that DuPont had a fantastic quote there,
+and they were splitting the stock
+three, two, three, four, one.
+And they, opened the way up.
+So they optioned,
+I saw 200 of net for 3/8.
+Opened at four and a half dollars.
+I can see why you would be traumatized
+by insider trading.
+Yeah.
+And, yeah, I was really traumatized.
+I lost $90,000, and it was horrible.
+But, I still say to you that
+I think the best thing we could do about
+the inside information is just to get
+the news out there as fast as possible
+and forget about persecuting people.
+I love that idea.
+Also, that you had your own fair
+value sheets, which I, you know, I presume
+those were sheets that were actually
+written down at that time in your pocket.
+They're computer generated.
+I had a computer at home,
+and I had developed my own option formula
+in a, much earlier and in,
+in 1970.
+And you were carrying them around
+on pieces of paper on the floor.
+Yeah.
+I had to fold it
+up, you know, in my pocket.
+Oh, okay.
+So on this note, I mean,
+you were one of the earliest people
+to automate market making.
+That's what you're famous for.
+And you've been through
+the whole transition from humans actually
+trading on the floor
+to everything being automated nowadays.
+Obviously, AI is this
+huge thing in the market
+and in our lives right now.
+When you look at AI and compare it
+to the early days of electronic trading,
+what similar
+and what what feels different to you now
+is this just another technological
+improvement, another wave of,
+you know, productivity enhancing tech,
+or is this something
+fundamentally new in your mind?
+Well, it's a it's a huge leap
+in technological development.
+But but it's basically
+as a computer programmer,
+I look at it basically as
+as a new, higher level of language
+that is much, much,
+much, much more powerful
+than anything that came before.
+But, it, qualitatively is not different
+than the way we went from machine language
+to assembler language
+to Fortran and COBOL and eventually C
+and all the other languages.
+So, this is
+a natural language and,
+and so it that that
+AI is basically a higher level language,
+which is a natural language.
+And it also has the it available,
+all the data that exists in the world.
+So that's why it is so immensely powerful.
+But as far as trading is concerned,
+basically automated
+trading has existed for a long time.
+We have, started our first
+automated trading, systems
+in, in 80s 1983 and,
+continued developing that ever
+since and then eventually ran
+when other traders came in and both,
+the order flow from, from
+brokerage firms.
+We didn't think that that
+we should do that.
+So then we ran out of the market
+making business.
+But up to that point, we were the largest
+market makers in the world.
+Got to have so many.
+I mean, so many questions, actually.
+Can we just go back real quickly to
+the options pricing model that you have?
+It's funny.
+This is the second time in a few weeks
+someone was telling me about and about.
+I've been in a conversation about options
+trading in the early days.
+Were you like, what?
+Were you programing that?
+In what language?
+And was it the kind of thing
+where like you would leave the computers
+running overnight and then you like
+come back in the morning and after?
+No, because
+tell us about like the
+technology that enabled you to determine
+fair market value of options back then.
+So I had an Olivetti computer at home,
+a desktop
+Olivetti desktop computer at home.
+And when I started to think about options,
+I started to, run
+a lot of simulations and see
+at what prices I would break even.
+And then eventually the over the video
+probability distribution curve,
+based on which I would determine
+the prices of options that,
+after selling to myself,
+many options,
+I would break even at which price.
+And that's how I determined I did.
+But the correct value for an option is.
+And that eventually that turned into
+a formula and, and and code
+and so I use that computer
+and if you go to Interactive Brokers
+today, there is something
+we call a probability lab where we can
+we can display where we do
+display the probability distribution
+associated with the future, price
+changes of any stock that we derive
+from the existing option prices.
+So you can see that there.
+And and you can
+basically learn about options very well.
+I never saw this page before,
+but this makes a lot of sense to me.
+And I've always been a little bit
+surprised that you don't hear more
+about translating option math,
+into sort of normal intuitive odds,
+because it seems like a very normal thing.
+One other thing, you know, you mentioned
+AI as being like a new the next iteration,
+maybe the last iteration, because it's
+natural language of computer programing.
+But, you know, most computer programing
+is like it's deterministic, right?
+So if you write a line of code it will do
+the same thing every single time.
+There's some rule
+and it'll always be the same.
+You put in the same query into ChatGPT.
+You will not always get the same output.
+In fact, frequently you won't, even with
+the exact same query of anything does.
+Then when you're thinking
+about applications of AI within finance,
+etc.,
+does the non deterministic element of
+AI model probabilistic language?
+Right.
+That's why it is not always the same.
+It's probabilistic.
+It's not deterministic right.
+Does that have implications
+for its use in finance.
+Well option prices are probabilistic.
+Prediction markets are not probabilistic.
+That's what
+that's what my initial impetus was
+for for prediction markets
+to teach people probabilities.
+Because people don't don't tend
+to not think of probability
+probability probabilistically.
+They tend to think either this will happen
+or will not happen
+and that somebody knows.
+And that's not how it is.
+There is a a there is a probability
+for something to happen.
+And nobody knows what really will happen.
+Right.
+But do you know how to code in COBOL?
+In COBOL I can
+I go but I cannot backend code in Fortran
+or fourth or Basic or C
+number of languages.
+You know,
+you could be making a lot of money
+fixing old,
+mainframe systems and integrating them.
+Have you considered doing that? That
+yeah, just going back sort of
+full circle to, to the prediction market.
+I basically, you know, probably right.
+One day they'll be big.
+What's the time frame?
+What do you have, like a testable theory?
+Can you give us a number
+for how big you think they'll be?
+You know, we don't want to treat you
+like some economist
+who just makes a forecast
+that could never be tested or whatever.
+We want something hard.
+So, like, can you give us, like,
+you know, end of 2027,
+do you have like or end of 20 or 26?
+How big will they be
+so that we could come back and we could
+say, was Tomas correct about how big this
+space is going to be or not?
+There is
+I don't think there is a
+there is a good way to go.
+I mean, I'm more based on them
+than I read the
+these projections from consulting firms
+about, big some something will be
+said by the years, of time
+I have no idea, to evaluate that.
+But all I think, all I know
+is that it's going to be very, very big
+because it's extremely useful
+and it's, and it's,
+it's a very simple way for all of us to,
+to, direct our decision
+making at prediction market
+and to hedge our decision making.
+I was just
+I was just going to say, Tracy,
+I noticed one of the contracts
+that they have on Ibkr is,
+Well, UCLA is
+out of state tuition
+exceed $53,000 in 2026.
+As someone who has children
+who, like the next decade
+are going to go to college, I was like,
+this could be a very useful thing for,
+me to hedge at some point.
+Like,
+my daughter heard that there's a good,
+theater school.
+She's on UCLA.
+Oh, yeah, UCLA, she said,
+I heard there's a good theater school
+at University of Michigan.
+And so I have to start thinking about,
+like, University of Michigan
+out-of-state tuition.
+Kids these days are very focused,
+but this could be a very useful instrument
+for me.
+Absolutely.
+And college tuitions are,
+we were thinking about
+listing them at one point.
+Can I ask you
+a conceptual question, which is like
+if prediction markets really take off
+and we have more and more money
+that is being placed on whether or not
+the actual
+event itself happens,
+what does that mean for capital markets?
+Because I think about capital markets.
+You know, everyone in finance for years
+and years and years said this is about
+the efficient allocation of capital
+into productive industry.
+And one way of betting
+on the future of the U.S.
+economy would be by buying U.S. equities.
+And that money goes into companies
+and it creates jobs and a feedback loop
+and all of that.
+If I'm just betting on the actual outcome,
+what does it mean
+for actually funding economic activity?
+So so so
+so the money the money you put at risk,
+but the money is not laying around.
+I mean, the money
+the broker will take that money
+and put it into the Treasury bills.
+Right.
+So, as you know,
+there is an outflow of money
+that is in Treasury bills
+and that's financing our deficit.
+And so that's where your money
+will be employed
+from a regulatory standpoint,
+is there anything right now that you think
+the CFTC could
+or should be doing to further,
+to further along this market?
+Well,
+no, I think I think it's the, the,
+the big regulatory problem is that
+there are many questions
+concerning specific companies
+that we would love to ask,
+but we do not know if the question
+would be a security or a commodity
+and do not know who should
+properly regulate it, and therefore
+we don't ask these questions.
+But it would be extremely useful
+for us to be able to ask about the, the,
+the, you know, the future developments
+of Nvidia or Microsoft or Google or etc..
+So this could be like, contracts either
+related to will they beat
+or miss their earnings estimates?
+It could be contracts related to
+when will they the number of employees
+they will have or the average salary
+they will have or etc..
+And but we do not be.
+The problem is that the price of Google
+is that security.
+You know that the price of the
+shares are securities, but
+so the
+legislation says that anything, any,
+anything that has
+an impact on the,
+on the, on the stock price, would be a
+and the financial statement
+would be a security.
+So there is a lot of stuff that has,
+an impact on the financial statement,
+but nobody is listing it in any way.
+So, it's this this,
+quagmire would have to be cleaned up,
+and then we would have,
+a much better market.
+It sounds like we need to merge the SEC
+and the CFTC.
+That would be great.
+All right.
+Thomas Peterffy
+thank you so much for coming on Odd Lots
+Really appreciate it.
+Thank you very much
+Joe, that was an interesting conversation.
+That was great.
+I was not expecting Thomas to be
+I don't, you know, I maybe I should
+have, but,
+it's interesting to hear him completely
+just say,
+let's get rid of insider trading laws.
+Yeah.
+Clearly that was a formative experience.
+Yeah. For him.
+And perhaps he wants to be
+on the side of the people that made money
+in that transaction,
+rather than the people that lost out.
+The other thing I thought was really
+interesting was the history with Kalshi
+Yeah, I which I hadn't appreciated.
+Yeah, I think this is going to be like
+such a interesting space.
+It's a weird industry, I think
+prediction market because it's an industry
+that basically is two companies right now,
+which barely counts as an industry.
+But we know from having talked
+to Vlad at Robinhood,
+they're going to like build their own.
+And then now, obviously
+IBKR is, you know, has its own.
+And I think the really interesting
+there's a few interesting questions,
+but one is like,
+where is the value going to accrue?
+Is it going to be like the venue
+where the trading is. Yeah.
+Is it going to be
+who has the distribution?
+Because obviously Robinhood
+and IBK have incredible distribution via
+the fact that lots of people do
+other trading on there.
+It still feels like very much a jump ball
+in terms of who makes the money in.
+Totally.
+Well, the other thing that was interesting
+was the idea of creating
+standardized contract. Yeah, yeah.
+You know, something more fungible.
+And then I wonder, well, if you do that,
+do you have to create like an ISDa
+type party that's going to adjudicate
+on these things?
+Right.
+Yeah.
+No, that's
+that's going to be like a huge question.
+I just I would not like I my gut
+you know that Tomasz is right.
+Like if he is saying
+these are going to be a really big thing
+and these like traders are going
+to want to have these instrument,
+who am I to disagree?
+Like I maybe like they won't be big
+for like random pop culture stuff,
+but like, are they going to be big for
+like recession things and stuff like that?
+If Thomas thinks so, then I think so.
+That's that's where I stand.
+It does feel like the steady march of
+progress is sort of in this direction.
+But progress.
+Congress in their question,
+it feels inevitable.
+But also, I mean, it's hard not to
+he mentioned GameStop and it's hard
+not to think back to just,
+you know what, five years ago now
+when GameStop happened,
+it was such a big story precisely
+because it was such a departure
+from the way people had treated stock
+markets previously.
+Yeah, but you know what?
+I agree completely.
+But I had a thought actually,
+when he said that that, which is
+you know, for a long
+time, and there's the famous,
+quote equities in Dallas and it's like,
+yeah,
+there was a period not that long ago
+in American financial history
+where stocks themselves were not regarded
+as a particularly important market
+in and of themselves.
+Otherwise, they wouldn't have talked about
+how the stock traders
+would have had to move out to Dallas.
+That's a phrase because the perception was
+that stocks weren't where the action is.
+And so it occurs to me like, yes,
+when GameStop came out,
+then it's like everyone
+was like clutching their pearls and
+scandalized at the market, we included.
+It was like, oh, people are treating
+you can call me a grandma.
+No, I know that's that's for sure.
+Like, everyone was, but like,
+when you actually think
+about the big sweep of, like, stock
+market history in the United States,
+you know, maybe we shouldn't
+hold it up on such a pedestal.
+There's always been penny stocks.
+There's always been the pink
+shades, the bucket, the bucket,
+the bucket shops or whatever they called
+were there for a very long time.
+There was the curb market
+where people were just trading like maybe
+the era in which the stock market
+was like this very serious thing.
+And like, maybe that was maybe that's
+kind of the exception
+is the theme of this conversation.
+Just give up.
+Basically,
+just like I'm just saying, like maybe,
+maybe there's something to this idea.
+It's always all the markets have been
+a little bit of, there's been a,
+there's been, I don't know what,
+what word are you going to use
+or not see, but I'll entertain,
+I don't know, like, embrace the ceiling.
+Yeah. Something like that. Yeah. Okay.
+On that note, shall we leave it there?
+Shall we leave it
+there? Let's leave it there.
+This has been another episode
+of the Odd Lots podcast.
+I'm Tracy Alloway. You can follow me @tracyalloway
+And I’m Joe Weisenthal
+You can follow me @thestalwart
+Follow our producers Carmen Rodriguez
+@carmenarmen,
+Dashiel Bennett @dashbot
+and Cale Brooks @calebrooks
+And for more Odd Lots content,
+you should check out
+our daily newsletter.
+You can find that@bloomberg.com/oddlots
+And you can chat about all of these
+topics 24-7
+in our discord, discord.gg/oddlots
+And if you enjoyed this conversation then
+please leave a comment or like the video.
+Or better yet, subscribe!
+Thanks for watching.
