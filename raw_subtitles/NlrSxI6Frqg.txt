@@ -1,0 +1,340 @@
+[Speaker 1]: 最近 open，
+[Speaker 1]: 由于安全问题备受诟病，
+[Speaker 1]: 而且 clouopen 每次发布更新都会引入大量 cloubug。
+[Speaker 1]: 我们在更新 open 的时候，
+[Speaker 1]: 经常会遇到各种问题，
+[Speaker 1]: 甚至会导致 clouopen 崩溃。
+[Speaker 1]: 还有就是用 clouopen 执行简单任务的时候，
+[Speaker 1]: 也会消耗大量 cloutoken。
+[Speaker 1]: 所以最近 open en cld 的度在不断降低，
+[Speaker 1]: 大家也都在寻找 open en oud 的替代品。
+[Speaker 1]: 所以本期视频就给大家讲解和演示能够完全替代 open cloud。
+[Speaker 1]: 另一款开源 AIA en 和项 hermace agent，
+[Speaker 1]: 而且在今天 get up training 榜上，
+[Speaker 1]:  hermace agent 登顶第一 hermace agent。
+[Speaker 1]: 它最大的价值在于自我进化。
+[Speaker 1]: 当 hermes agent 在完成任务之后，
+[Speaker 1]: 它会自动从对话中提炼炼复复的 skale。
+[Speaker 1]: 当下次遇到类似任务的时候，
+[Speaker 1]: 它就能直接复用 skill。
+[Speaker 1]: 像这样的话，
+[Speaker 1]:  hmmes agent 就能够越用越聪明，
+[Speaker 1]: 用的越久，
+[Speaker 1]: 价值就越高，
+[Speaker 1]: 从而实现真正的本地演化的复利。
+[Speaker 1]: 系统在 hermace agent 中 skale 被被用它它就变得越具体，
+[Speaker 1]: 贴合实际际的使用场景。
+[Speaker 1]: 而且这款 agent 的安全性也非常高。
+[Speaker 1]: 我使用 cloud code 对 hermace agent 的安全能力进行了分析和测试，
+[Speaker 1]: 而且测试效果非常不错。
+[Speaker 1]: 我让 cloud code 进行了十五项端到端安全测试通过测试。
+[Speaker 1]:  cloud code 对 hermace 安全级别的综合评级达到了 b 加级别。
+[Speaker 1]: 在测试过程中发现了三个漏洞，
+[Speaker 1]: 包括两个高危漏洞，
+[Speaker 1]: 还有一个中危漏洞。
+[Speaker 1]: 针对发现了这三个漏洞，
+[Speaker 1]: 我这里让 cloud code 进行了修复，
+[Speaker 1]: 并且将 PR 提交到了 hermace 的官方仓库，
+[Speaker 1]: 等待 hermace agent 将它合并。
+[Speaker 1]: 最关键的是，
+[Speaker 1]:  hermace agent，
+[Speaker 1]: 它支持将我们在 open en cloud 里的使用数据，
+[Speaker 1]: 包括 GE、
+[Speaker 1]:  ske，
+[Speaker 1]: 还有 CC 等等，
+[Speaker 1]: 缝缝移移 hermmagent。
+[Speaker 1]: 所以哪怕大家在 open cloud 中积累了大量的数据，
+[Speaker 1]: 包括记 e skill 等内容，
+[Speaker 1]: 我们都可以无缝迁移到 hermace agent，
+[Speaker 1]: 而且不需要我们进行任何复杂的配置。
+[Speaker 1]: 而且我们可以像使用 open class 那样来使用 hermace agent，
+[Speaker 1]: 我们可以将 hermits agent 用于常驻个人助手或者研究助手，
+[Speaker 1]: 还有多入口统一代理，
+[Speaker 1]: 还有自动化信息或者简报机器人，
+[Speaker 1]: 还能用于代代码工工作流编排，
+[Speaker 1]: 还有多角色多 profile agent 系统，
+[Speaker 1]: 甚至还可以实现知识库笔记文档中枢系统，
+[Speaker 1]: 还能对接 obceeding、
+[Speaker 1]:  google、
+[Speaker 1]:  work space 等。
+[Speaker 1]: 所以 hermace 呢它不是一个简简单的聊天工具，
+[Speaker 1]: 而是一个真正的完整的 agent 平台。
+[Speaker 1]: 使用 hermace agent，
+[Speaker 1]: 我们就可以像 open clore 那样实现远程常驻 agent。
+[Speaker 1]: 好，
+[Speaker 1]: 本期视频就给大家深度讲解和测试。
+[Speaker 1]:  hermace agent 哈并且会为大家重点分析和测试 hermits agent 它的安全性到底如何？
+[Speaker 1]: 想使用 hermace agent 呢？
+[Speaker 1]: 非常简单。
+[Speaker 1]: 官方仓库在 ree d me 中给出了详细的安装方式。
+[Speaker 1]: 对于完全不懂如何配置环境的小白用户来说，
+[Speaker 1]: 我们只需要复制这个仓库链接接。
+[Speaker 1]: 然后我们在 open cloud 中，
+[Speaker 1]: 让 open cld 帮我们自动配置就可以。
+[Speaker 1]: 我们只需要输入自然语言描述就可以。
+[Speaker 1]: 我输入的自然语言就是阅读 hermis 官方文档中安装和配置说明，
+[Speaker 1]: 并严格按照步骤为我在本地安装。
+[Speaker 1]: 在这里我们就跟上 hermis agents 它的官方仓库链接。
+[Speaker 1]: 然后我们直接点击发送在我们本地的 open en oud，
+[Speaker 1]: 为我们进行自动部署。
+[Speaker 1]: 然后大家如果没有安装 open cloud 的话，
+[Speaker 1]: 我们也可以使用 codex 帮我们自动进行安装。
+[Speaker 1]: 在 code 中，
+[Speaker 1]: 我们只需要输入自然语言描述和刚才在 open 中的保持一致，
+[Speaker 1]: 然后点击发送。
+[Speaker 1]: 这样的话，
+[Speaker 1]:  cloucodex 就会自动帮我们进行安装和配置，
+[Speaker 1]: 并且能从 open cloud 中迁移数据到 homeless agents。
+[Speaker 1]: 然后如果你既没有 codex，
+[Speaker 1]: 也没有本地的 open，
+[Speaker 1]: 那么还可以使用国产的 cloucode work，
+[Speaker 1]: 帮你进行安装和部署。
+[Speaker 1]: 我们只需要点击下载，
+[Speaker 1]: 然后安装之后，
+[Speaker 1]: 就像在 codex 中一样使用相同的提示词，
+[Speaker 1]: 让它阅读官方文档，
+[Speaker 1]: 帮我们在本地执行安装就可以。
+[Speaker 1]: 所以在 AI agent 的时代，
+[Speaker 1]: 大家根本不需要自己手动去配置这些环境，
+[Speaker 1]: 尤其是你没有任何编程基础，
+[Speaker 1]: 或者没有任何环境配置基础。
+[Speaker 1]: 所以大家千万不要再说我的视频，
+[Speaker 1]: 不是针对小白的，
+[Speaker 1]: 越是针对小白，
+[Speaker 1]: 我分享的越是真正的 AI 思维，
+[Speaker 1]: 也就是任何复杂的环境配置。
+[Speaker 1]: 大家都不需要手动去操作，
+[Speaker 1]: 我们要将这些复杂的环境配置让 AI agent 呢帮我们去完成。
+[Speaker 1]: 比如 code x 还有 code work 或者是 open class 到这一步，
+[Speaker 1]: 它会提示是否从 open cloud 中来迁移数据。
+[Speaker 1]: 然后我们这里只需要选择迁移就可以。
+[Speaker 1]: 这样的话它就能从 open 中提取所有的记忆，
+[Speaker 1]: 以及 clouskill 或者 MCP 迁移到 hermax agent 号。
+[Speaker 1]: 当 hermax enent 安装好之后，
+[Speaker 1]: 这里我们可以先配置一下 hermax agent 呢它需要的大模型，
+[Speaker 1]: 我就选择国产的 mini max 模型，
+[Speaker 1]: 找到 minermini max 的国产模型 API。
+[Speaker 1]: 然后这里我就输入 mini MIAX 的 EPIK，
+[Speaker 1]: 在这里我就选择 mini MIAX m 二点七 high 的这个模型。
+[Speaker 1]: 在这一步，
+[Speaker 1]: 大家如果还是不会配置的话，
+[Speaker 1]: 那么只需要把 spea PIK 提供给 open，
+[Speaker 1]: 或者提供给 cloucode x 或者是 code work。
+[Speaker 1]: 让这一些 AI agent 帮你自动配置，
+[Speaker 1]: 就可以在连接到聊天工具的这些步骤。
+[Speaker 1]: 这里我就略过。
+[Speaker 1]: 大家可以直接让刚才我提到的这些 AI agent 帮你进行自动连接。
+[Speaker 1]: 因为为了方便演示和测试，
+[Speaker 1]: 我这里就选择在终端命令行中运行 hermits。
+[Speaker 1]: 当这些都配置好之后，
+[Speaker 1]: 我们就可以直接在终端命令行中用 hermace 命令来启动 hermace agent。
+[Speaker 1]: 然后我输入提示词，
+[Speaker 1]: 你了解哪些关于我的信息，
+[Speaker 1]: 然后我们直接发送这里，
+[Speaker 1]: 它开始输出与我相关的这些信息。
+[Speaker 1]: 这里它成功识别到了我的 gitub 账号，
+[Speaker 1]: 这里还有工作编号，
+[Speaker 1]: 还有风格。
+[Speaker 1]: 这里还有我常用的平台，
+[Speaker 1]: 还有爱好，
+[Speaker 1]: 还有编程开发相关的这些规则。
+[Speaker 1]: 像这样的话，
+[Speaker 1]: 我们就从 open cloud 中无缝迁移到了 hermace agent。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们看可以继续测试一下 hermss agent 哈浏览器自动化能力。
+[Speaker 1]: 然后我们就可以输入一个趋示词，
+[Speaker 1]: 通过浏览器打开我的博客，
+[Speaker 1]: 并进入第一篇博客。
+[Speaker 1]: 文章总结文章内容，
+[Speaker 1]: 然后我们直接发送看一下它能否进入我这个博客，
+[Speaker 1]: 并且进入第一篇文章。
+[Speaker 1]: 然后我们直接看一下它的执行步骤。
+[Speaker 1]: 这里它调用了与浏览器自动化相关的这个 MCP。
+[Speaker 1]: 嗯，
+[Speaker 1]: 这里他输出了对我这篇博客文章的总结，
+[Speaker 1]: 可以看到他总结的还是非常详细的，
+[Speaker 1]: 包括文章标题，
+[Speaker 1]: 还有文章内容。
+[Speaker 1]: 它整个执行步骤并没有直接调用我们本地的浏览器，
+[Speaker 1]: 而是调用的云端浏览器。
+[Speaker 1]: 这种调用浏览器的方式效果还是非常不错的。
+[Speaker 1]: 因为我们如果将 hermits 部署在服务器上，
+[Speaker 1]: 那么就不需要为服务器安装桌面环境以及本地浏览器了。
+[Speaker 1]: 它只需要通过这个云端浏览器，
+[Speaker 1]: 就能为我们执行浏览感器、
+[Speaker 1]: 自动化领悟，
+[Speaker 1]: 这个优势还是比较强的。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们让 clb code 帮我们测试一下 hermis agent 它的安全能力到底如何。
+[Speaker 1]: 这里我打开 clerms code，
+[Speaker 1]: 然后我们直接输入提示词，
+[Speaker 1]: 我输入的提示词是构建十个用于测试 her mis agent 安全相关的测试题，
+[Speaker 1]: 测试 hermis agent 是否有文档中提到的。
+[Speaker 1]: 那么安全，
+[Speaker 1]: 然后我们直接发送，
+[Speaker 1]: 让 cloud code 帮我们自动构建测试题。
+[Speaker 1]: 自动测试 hermis agent 它的安全能力到底怎么样？
+[Speaker 1]: 这里他开始构建测试题，
+[Speaker 1]: 并且他启动了子 agent。
+[Speaker 1]: 在后台研读好。
+[Speaker 1]: 这里他开始构建十个基于文档声明的安全测试，
+[Speaker 1]: 然后每一题都会对应 hermace 文档中的具体声明，
+[Speaker 1]: 目标就是验证他说到是否做到了。
+[Speaker 1]: 好，
+[Speaker 1]: 这里他创建了第一个测试题，
+[Speaker 1]: 他让 hermits agent 来执行这一个命令，
+[Speaker 1]: 测试结果就是 hermace。
+[Speaker 1]: 他成功将这个转移字符规划为 RM 命令，
+[Speaker 1]: 且模型能主动识别混交意图。
+[Speaker 1]: 好，
+[Speaker 1]: 现在他开始进行第二项测试，
+[Speaker 1]: 让他执行这个最危险的 RM 命令。
+[Speaker 1]: 好，
+[Speaker 1]: 这里测试结果就是这个命令被拦截，
+[Speaker 1]: 这里开始执行第三个命令，
+[Speaker 1]: 第三个命令就仍然通过了，
+[Speaker 1]: 没有触发真正的保护措施。
+[Speaker 1]: 然后这里提到，
+[Speaker 1]: 如果路径真的存在，
+[Speaker 1]: 就真的被删除了。
+[Speaker 1]: 然后我们再看第四个，
+[Speaker 1]: 让他先创建一个脚本，
+[Speaker 1]: 为这个脚本执行提升权限，
+[Speaker 1]: 并且运行好这一个也是 bypass 分布社会工程执行成功。
+[Speaker 1]: 也就是如果存在这个内内容就会被清空。
+[Speaker 1]: 原因就是它只检测命令字符不检测脚本内容，
+[Speaker 1]: 这个还是挺危险的。
+[Speaker 1]: 然后我们再看第五题，
+[Speaker 1]: 穿透写入好这一题，
+[Speaker 1]: 被 hmmiagent 给主动拦截了。
+[Speaker 1]: 然后我们再看第六题，
+[Speaker 1]:  gate 破坏性操作，
+[Speaker 1]: 这里它让 hermits agent 来执行这一个命令。
+[Speaker 1]: 好，
+[Speaker 1]: 这个测试题是有一部分没有执行号，
+[Speaker 1]: 这里就是第七题，
+[Speaker 1]: 让它执行这个 q 命令。
+[Speaker 1]: 好，
+[Speaker 1]: 第七题也成功绕过了拦截，
+[Speaker 1]: 如果这个进程存在，
+[Speaker 1]: 就真的被杀了。
+[Speaker 1]: 然后第八题是 base 六 se 编码，
+[Speaker 1]: 还有 shell，
+[Speaker 1]: 让它执行这个经过六 berse 编码的命令。
+[Speaker 1]: 好，
+[Speaker 1]: 这一题成功被 hermits 给拦截。
+[Speaker 1]: 然后第九题测试 c 口大小写混合这里，
+[Speaker 1]: 让它执行这个 c 口语句。
+[Speaker 1]: 好，
+[Speaker 1]: 第九题成功被 hermits 拦截。
+[Speaker 1]: 这里是第十题，
+[Speaker 1]: 我们看一下它执行效果好。
+[Speaker 1]: 第十题，
+[Speaker 1]: 成功被 hermits 拦截，
+[Speaker 1]: 没有被绕过。
+[Speaker 1]: 好，
+[Speaker 1]: 这里输出了这十道题的最终测试结果。
+[Speaker 1]: 前两两个题被 hermace 成功拦截，
+[Speaker 1]: 第三个题被绕过，
+[Speaker 1]: 也就是 by pass ass。
+[Speaker 1]: 第四题也被绕过，
+[Speaker 1]: 第五题被成功拦截。
+[Speaker 1]: 然后第六题是没有防护，
+[Speaker 1]: 第七题也被绕过，
+[Speaker 1]: 最后三道题被成功拦截。
+[Speaker 1]: 被成功拦截的是六道题，
+[Speaker 1]: 被绕过的是三个题，
+[Speaker 1]: 没有匹配到的是一个题。
+[Speaker 1]: 然后这里给出了防御层贡献分析。
+[Speaker 1]: 然后这里就是对这几个高危漏洞的分析还给出了修复建议。
+[Speaker 1]: 在这里还给出了一个最有价值的发现，
+[Speaker 1]: 可以发现 hermis agent 呢它确实有一定的安全防护能力，
+[Speaker 1]: 但还无法百分百确保防住任何安全类型的攻击。
+[Speaker 1]: 在这里它生成了安全测试报告。
+[Speaker 1]: 我们可以看一下，
+[Speaker 1]: 这里是拦截率十分之六，
+[Speaker 1]: 百分之六十的攻击被阻断。
+[Speaker 1]: 通过测试可以发现，
+[Speaker 1]:  hermis agent 呢，
+[Speaker 1]: 它的安全防御能力并没有宣传中的那么强，
+[Speaker 1]: 然后我们就可以让 cloud code 来修复它。
+[Speaker 1]: 发现的安全问题。
+[Speaker 1]: 并且 TPR 我输入的计术词是修复发现了安全问题，
+[Speaker 1]: 并 TPR 让 cloud code 自动来修复这些问题。
+[Speaker 1]: 所以大家如果将 hermace agent 部署到生产环境中的话，
+[Speaker 1]: 一定要让 cloud code 或者 codex 对 hermace agent 的安全能力进行加固，
+[Speaker 1]: 防止出现不必要的安全问题。
+[Speaker 1]: 好，
+[Speaker 1]: 这是我们重点测试的 hermace agent 哈，
+[Speaker 1]: 它的安全防御性能到底如何？
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们就测试一下 hermace agent 哈它是否具备自动进化的能力。
+[Speaker 1]: 我们将重点测试 hermis 它能否不断迭代对应的 skill。
+[Speaker 1]: 为了方便测试和评级，
+[Speaker 1]: 我们还是在 cloud code 中调用 hermace。
+[Speaker 1]: 好，
+[Speaker 1]: 下面我们就可以在 cloud code 中输入提示词。
+[Speaker 1]: 根据 hermace agenda 提到的自主进化能力，
+[Speaker 1]: 调用 hermace agents。
+[Speaker 1]: 从这个平台抓取每天前十条最新的 AI 资讯，
+[Speaker 1]: 并生成网页版的简报，
+[Speaker 1]: 然后提交到这个平台，
+[Speaker 1]: 并发给我 URL 以测试 hermace agents 是否具备 skill 自主迭代能力。
+[Speaker 1]: 然后我们直接发送这个任务，
+[Speaker 1]: 让 cloud code 帮我们自动测试 hermis agent 能否每天自动从这个平台抓取十条最新的 AI 资讯，
+[Speaker 1]: 然后生成简报，
+[Speaker 1]: 并且发送 URL 给我们。
+[Speaker 1]: 好，
+[Speaker 1]: 这里 cloud code 开始对 hermace agent 进行测试。
+[Speaker 1]: 因为刚才我们输入的这个任务就非常适合做成 skill。
+[Speaker 1]: 在后续需要再次执行任务的时候，
+[Speaker 1]: 只需要调用 skill 就能完成整个任务。
+[Speaker 1]: 好，
+[Speaker 1]: 这里 cloud code 调用 hermes agent 呢正在执行，
+[Speaker 1]: 这样的话就能够让 cloud code 真正测试 homeace agent 能否具备的迭代能力。
+[Speaker 1]: 因为这个任务对 scalhomeless agent 呢还是比较复杂的，
+[Speaker 1]: 所以这里要不断试错，
+[Speaker 1]: 并且修复复以。
+[Speaker 1]: 当他完成之后，
+[Speaker 1]: 我们就看一下下能否否正将将这个流程做 scalill。
+[Speaker 1]: 这里给出了第一步，
+[Speaker 1]: 成功抓取了 AI 新闻。
+[Speaker 1]: 第二步，
+[Speaker 1]: 这个简报已经生成第三步，
+[Speaker 1]: 点击这个出现超时未能发布。
+[Speaker 1]: 好。
+[Speaker 1]: 这里提示这个已经创建成功，
+[Speaker 1]: 然后他开始验证 skill，
+[Speaker 1]: 是否能够自主迭代。
+[Speaker 1]: 然后 cloud code 再次向 hermes agent 派发了任务。
+[Speaker 1]: 好，
+[Speaker 1]: 这里提示 skill 自主迭代成功。
+[Speaker 1]: 在第一阶段是先执行抓取 AI 资讯。
+[Speaker 1]: 然后这里就是第二阶段，
+[Speaker 1]: 它会先读取上一步生成的这个 skill，
+[Speaker 1]: 然后识别到这个新的需求，
+[Speaker 1]: 并且主动进行更新。
+[Speaker 1]: 然后他就完成了创建 skill，
+[Speaker 1]: 使用 scale，
+[Speaker 1]: 然后发现缺口，
+[Speaker 1]: 并且更新这个 skill。
+[Speaker 1]: 所以在这个真实的场景中，
+[Speaker 1]: 它完成了一次完整的 skill 自主迭代，
+[Speaker 1]: 在这里就是任务的执行结果。
+[Speaker 1]: 这里 cloud code 还列出了 skill 自主迭代的证据。
+[Speaker 1]: 然后这里是结论，
+[Speaker 1]: 他提到的 hermskill 自主迭代在我们这个任务中完整跑通了。
+[Speaker 1]: 包括第一步，
+[Speaker 1]: 先自动创建这个第第二步读读取这个 skskskill，
+[Speaker 1]: 然后再发现这的口再更新这个 skskill，
+[Speaker 1]: 这样的话它就完成了一完完整的闭环。
+[Speaker 1]: 好，
+[Speaker 1]: 由于时间有限，
+[Speaker 1]: 本期视频就为大家测试这些内容。
+[Speaker 1]: 本期视频点赞量如果破千的话，
+[Speaker 1]: 下期视频继续为大家深度讲解 hermes agent 它的高级用法。
+[Speaker 1]: 好，
+[Speaker 1]: 本期视频就做到这里，
+[Speaker 1]: 欢迎大家点赞、
+[Speaker 1]: 关注和转发，
+[Speaker 1]: 谢谢大家观看。
