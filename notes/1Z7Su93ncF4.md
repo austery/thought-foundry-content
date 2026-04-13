@@ -7,12 +7,8 @@ source: https://www.youtube.com/watch?v=1Z7Su93ncF4
 speaker: 一席YiXi
 title: "当死亡来敲门：临终抉择、安宁疗护与“好死”的特权"
 summary: "科普作者雪竹通过四年的深度调研，探讨了面对死亡时的临终抉择。演讲剖析了现代医学如何重塑死亡边界，介绍了“生前预嘱”与“安宁疗护”的理念，并尖锐地追问了“尊严死”背后隐藏的阶层与资源壁垒，引导大众重新思考生命的局限与死亡的尊严。"
-
 area: "society-thinking"
 category: "politics-society"
-
-project:[]
-
 tags:
   - "palliative-care"
   - "living-will"
