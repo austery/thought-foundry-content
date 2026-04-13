@@ -1,0 +1,13308 @@
+One
+ of
+ the
+ things
+ I
+ love
+ about
+ having
+
+
+this
+ project
+ system,
+ you're
+
+
+orchestrating
+ now.
+ Even
+ though
+ you
+ might
+
+
+not
+ be
+ a
+ developer,
+ you're
+ now
+ an
+ AI
+
+
+orchestrator.
+ You
+ can
+ run
+ many
+ agents
+ at
+
+
+once
+ and
+ have
+ this
+ top
+ level
+ view
+ to
+ be
+
+
+able
+ to
+ just
+ quickly
+ see
+ which
+ agent
+
+
+needs
+ your
+ attention
+ and
+ just
+ give
+ them
+
+
+those
+ permissions
+ or
+ to
+ pop
+ back
+ in.
+
+
+>> I
+ don't
+ know.
+ This
+ is
+ like
+ very
+ sad.
+ All
+
+
+my
+ friends
+ are
+ agents.
+ I'm
+ a
+ solo
+
+
+founder.
+ It
+ is
+ like
+ very
+ hard
+ to
+ just
+ me
+
+
+by
+ myself
+ ensure
+ that
+ all
+ my
+ ideas
+ are
+
+
+great.
+ When
+ you
+ use
+ sub
+ agents,
+ it
+ will
+
+
+spin
+ up
+ three
+ different
+ agents
+ and
+ each
+
+
+of
+ those
+ agents
+ can
+ have
+ their
+ own
+
+
+persona
+ with
+ like
+ a
+ fresh
+ contact
+
+
+window,
+ meaning
+ like
+ fresh
+ perspective
+
+
+to
+ go
+ and
+ look
+ at
+ your
+ work
+ in
+ a
+
+
+objective
+ way.
+
+
+>> If
+ you're
+ a
+ product
+ manager,
+ build
+ it
+
+
+and
+ like
+ put
+ your
+ boss
+ in
+ there,
+ your
+
+
+engineering
+ partner,
+ and
+ your
+ customer
+
+
+and
+ say
+ every
+ PRD
+ review
+ from
+ these
+
+
+three
+ points
+ of
+ view
+ and
+ give
+ me
+
+
+feedback.
+ If
+ you're
+ in
+ marketing,
+ your
+
+
+ICP,
+ I
+ think
+ there's
+ just
+ a
+ lot
+ of
+
+
+places
+ where
+ this
+ multi-
+ view
+ feedback
+
+
+mechanism
+ is
+ super
+ useful.
+
+
+>> 100%.
+ We
+ could
+ take
+ this
+ a
+ step
+ further
+
+
+and
+ say,
+ "Hey,
+ create
+ this
+ sub-advisory
+
+
+skill.
+ Maybe
+ three
+ of
+ the
+ agents,
+ like
+
+
+one
+ agent
+ is
+ literally
+ your
+ boss,
+ that
+
+
+you
+ send
+ an
+ agent
+ to
+ go
+ research
+ who
+
+
+your
+ boss
+ is,
+ their
+ role,
+ their
+
+
+perspective,
+ and
+ have
+ them
+ simulate
+ the
+
+
+feedback
+ that
+ they
+ might
+ give
+ you
+ before
+
+
+you
+ even
+ go
+ to
+ them.
+ The
+ sky's
+ is
+ the
+
+
+limit
+ here.
+ You
+ just
+ got
+ to
+ tell
+ Claude
+
+
+what
+ to
+ do
+ and
+ it's
+ going to
+ go
+ do
+ it
+
+
+for
+ you."
+
+
+Welcome
+ back
+ to
+ How
+ I
+ AI.
+ I'm
+ Claire
+ Vo,
+
+
+product
+ leader
+ and
+ AI
+ obsessive
+ here
+ on
+
+
+a
+ mission
+ to
+ help
+ you
+ build
+ better
+ with
+
+
+these
+ new
+ tools.
+ When
+ Claude
+ Co-work
+
+
+first
+ came
+ out,
+ I
+ was
+ pretty
+ much
+ a
+
+
+skeptic,
+ but
+ I
+ have
+ been
+ hearing
+ more
+
+
+and
+ more
+ that
+ co-work
+ is
+ the
+ way
+ that
+
+
+everybody
+ I
+ know,
+ especially
+ those
+ who
+
+
+are
+ a
+ little
+ less
+ technical
+ than
+ us
+
+
+engineers,
+ get
+ their
+ daily
+ work
+ done.
+
+
+Which
+ is
+ why
+ I'm
+ so
+ excited
+ to
+ have
+ JJ
+
+
+Angler
+ here
+ from
+ 10X
+ who
+ is
+ a
+ co-work
+
+
+power
+ user
+ but
+ is
+ going
+ to
+ take
+ a
+ step
+
+
+back
+ and
+ show
+ us
+ how
+ to
+ zero
+ to
+ one
+ on
+
+
+Anthropic's
+ new
+ get
+ work
+ done
+ tool.
+
+
+Let's
+ get
+ to
+ it.
+ This
+ episode
+ is
+ brought
+
+
+to
+ you
+ by
+ Times
+ the
+ intelligent
+ workflow
+
+
+platform
+ powering
+ the
+ world's
+ most
+
+
+important
+ work.
+ Business
+ moves
+ faster
+
+
+than
+ the
+ systems
+ meant
+ to
+ support
+ it.
+
+
+Teams
+ are
+ stuck
+ with
+ repetitive
+ tasks,
+
+
+scattered
+ tools,
+ and
+ hardto-reach
+ data.
+
+
+AI
+ has
+ huge
+ promise
+ but
+ struggles
+ when
+
+
+everything
+ underneath
+ is
+ fragmented.
+
+
+Times
+ fixes
+ that.
+ It
+ unifies
+ your
+ tools,
+
+
+data,
+ and
+ processes
+ in
+ one
+ secure,
+
+
+flexible
+ platform.
+ Blending
+ Agette
+ AI
+
+
+automation
+ and
+ human-led
+ intervention.
+
+
+Teams
+ get
+ their
+ time
+ back,
+ workflows
+ run
+
+
+smarter,
+ and
+ AI
+ actually
+ delivers
+ real
+
+
+value.
+ Customers
+ now
+ automate
+ over
+ 1.5
+
+
+billion
+ actions
+ every
+ week.
+ Tines
+ is
+
+
+trusted
+ by
+ companies
+ like
+ Canva,
+
+
+Coinbase,
+ Datab
+ Bricks,
+ GitLab,
+ Mars,
+
+
+and
+ Reddit.
+ Try
+ Tines
+ at
+ times.com/howi
+
+
+AI.
+ JJ,
+ welcome
+ to
+ How
+ I
+ AI.
+
+
+>> It
+ is
+ a
+ pleasure
+ to
+ be
+ here.
+ Thank
+ you
+
+
+for
+ having
+ me.
+ I'm
+ excited
+ about
+ what
+
+
+you're
+ going
+ to
+ show
+ us
+ because
+ when
+
+
+Claude
+ Co-work,
+ which
+ is
+ what
+ we're
+
+
+going
+ to
+ talk
+ about,
+ first
+ came
+ out,
+ I
+
+
+wrote
+ this
+ article
+ that
+ kind
+ of
+ blew
+ up
+
+
+on
+ Twitter
+ and
+ a
+ bunch
+ of
+ podcasts
+
+
+talked
+ about
+ it,
+ which
+ was,
+ "Who
+ is
+
+
+Coowwork
+ for
+ anyway?"
+ Because
+ when
+ I
+
+
+first
+ tried
+ it,
+ it
+ seemed
+ like
+ a
+ UI
+ that
+
+
+had
+ just
+ been
+ slapped
+ on
+ top
+ of
+ Claude
+
+
+Code.
+ And
+ I
+ looked
+ at
+ it
+ and
+ I
+ said,
+
+
+"Okay,
+ if
+ you're
+ not,
+ you
+ know,
+ in
+ cloud
+
+
+code
+ all
+ day
+ writing
+ in
+ the
+ terminal,
+
+
+but
+ you're
+ not
+ super
+ technical,
+ like
+
+
+what
+ is
+ this
+ product
+ that's
+ in
+ the
+
+
+middle?"
+ And,
+ you
+ know,
+ shame
+ on
+ me
+
+
+because
+ as
+ it
+ happens,
+ product
+ continues
+
+
+to
+ progress
+ week
+ over
+ week.
+ The
+
+
+anthropic
+ team,
+ the
+ Claude
+ team
+ is
+
+
+cooking
+ non-stop.
+ And
+ I
+ just
+ kept
+
+
+hearing
+ more
+ and
+ more
+ from
+ my
+
+
+non-technical
+ friends,
+ "Oh
+ my
+ god,
+
+
+co-work's
+ amazing."
+ or
+ oh
+ my
+ god,
+ I
+ use
+
+
+co-work
+ to
+ do
+ everything
+ in
+ my
+ job
+ now.
+
+
+And
+ then,
+ you
+ know,
+ I've
+ given
+ it
+ a
+ spin
+
+
+in
+ the
+ past
+ couple
+ weeks
+ and
+ the
+ UI
+ has
+
+
+really
+ gotten
+ there.
+ What
+ it
+ can
+ do
+
+
+really
+ has
+ gotten
+ there.
+ And
+ so,
+ I'm
+ so
+
+
+excited
+ for
+ you
+ to
+ show
+ us
+ the
+ zero
+ to
+
+
+one
+ for
+ co-work.
+ And
+ I
+ just
+ have
+ to
+ ask
+
+
+you,
+ what
+ got
+ you
+ hooked
+ on
+ this
+
+
+particular
+ tool?
+
+
+>> Yeah,
+ I
+ think
+ like
+ many,
+ we
+ were
+ just
+
+
+experimenting
+ with
+ it
+ and
+ then
+ quickly
+ I
+
+
+saw
+ that
+ how
+ easy
+ it
+ was
+ to
+ connect
+ your
+
+
+business
+ tooling
+ to
+ it.
+ uh
+ whereas
+ like
+
+
+you
+ know
+ I
+ built
+ a
+ lot
+ latin
+ cloud
+ code
+
+
+but
+ if
+ I
+ wanted
+ to
+ just
+ connect
+ my
+ my
+
+
+Slack
+ my
+ Gmail
+ my
+ notion
+ co-work
+ is
+ just
+
+
+one
+ click
+ and
+ then
+ all
+ of a
+ sudden
+ you
+
+
+have
+ an
+ AI
+ processing
+ all
+ of
+ that
+
+
+information
+ helping
+ you
+ do
+ your
+ job
+
+
+better
+ and
+ it's
+ just
+ so
+ easy
+ and
+ so
+ like
+
+
+that's
+ where
+ it
+ started
+ but
+ then
+ I
+
+
+started
+ to
+ like
+ really
+ like
+ go
+ deep
+ on
+
+
+it
+ I'm
+ like
+ oh
+ my
+ god
+ this
+ is
+ really
+
+
+helping
+ me
+ my
+ dayto-day
+ so
+ I
+ use
+ co-work
+
+
+for
+ all
+ of
+ like
+ my
+ productivity
+ stuff
+ of
+
+
+like
+ emailing
+ slacks
+ building
+ projects
+
+
+and
+ documents
+ and
+ then
+ cloud
+ code
+ I
+
+
+still
+ build
+ with.
+
+
+>> I
+ love
+ that
+ because
+ everybody
+ is
+ saying,
+
+
+"Oh,
+ everything's
+ going
+ to
+ be
+ a
+ CLI
+ or
+
+
+an
+ API
+ or
+ a
+ TUI,
+ all
+ this
+ stuff."
+ And
+
+
+I'm
+ like,
+ people
+ just
+ love
+ clicking
+ a
+
+
+button.
+ I
+ don't
+ know.
+ They're
+ just
+
+
+>> people
+ want
+ a
+ button.
+ So,
+ part
+ of
+ what
+ I
+
+
+hear
+ for
+ you
+ is
+ like
+ it
+ gave
+ you
+ a
+
+
+button
+ to
+ click
+ to
+ get
+ connected
+ to
+ all
+
+
+your
+ business
+ data
+ and
+ then
+ when
+ you're
+
+
+working
+ in
+ co-work,
+ you're
+ in
+ sort
+ of
+
+
+like
+ business
+ mindset,
+ personal
+
+
+productivity
+ mindset,
+ and
+ then
+ when
+
+
+you're
+ in
+ cloud
+ code,
+ you're
+ in
+ builder
+
+
+mindset.
+ Yeah,
+ exactly.
+ And
+ you
+ know,
+
+
+I'll
+ pull
+ up
+ my
+ screen
+ in
+ a
+ second
+ here,
+
+
+but
+ you
+ know,
+ the
+ anthropic
+ desktop
+ app
+
+
+has
+ three
+ different
+ modes.
+ Chat,
+
+
+co-work,
+ and
+ claude.
+ We've
+ been
+ in
+ chat
+
+
+for
+ a
+ while
+ now
+ with
+ chatbt,
+ etc.
+ Like
+ I
+
+
+think
+ most
+ of
+ the
+ knowledge
+ workers
+ are
+
+
+like
+ in
+ chat
+ mode,
+ too.
+ But
+ the
+ co-work
+
+
+switch
+ over
+ to
+ that
+ tab
+ is
+ like
+ the
+
+
+first
+ kind
+ of
+ switch
+ where
+ these
+
+
+knowledge
+ workers,
+ even
+ if
+ they're
+ not
+
+
+technical,
+ can
+ start
+ doing
+ more
+ with
+ AI.
+
+
+And
+ it
+ enables
+ you
+ to
+ just
+ do
+ so
+ much
+
+
+with
+ AI
+ in
+ a
+ very
+ similar
+ chat
+
+
+interface,
+ but
+ where
+ like
+ it's
+ actually
+
+
+doing
+ stuff
+ for
+ you
+ where
+ like
+ in
+ chat
+
+
+it's
+ like
+ cool,
+ you
+ told
+ me
+ what
+ to
+ do,
+
+
+but
+ now
+ I
+ got
+ to
+ go
+ do
+ it.
+ Co-work
+ is
+
+
+literally
+ doing
+ it
+ for
+ you.
+
+
+>> Why
+ don't
+ you
+ get
+ your
+ screen
+ started
+
+
+and
+ you're
+ going
+ to
+ show
+ us
+ if
+ you
+ were
+
+
+completely
+ brand
+ new
+ to
+ co-work
+ if
+ you
+
+
+had
+ spent
+ all
+ your
+ time
+ in
+ that
+ chat
+ tab
+
+
+and
+ you
+ ready
+ to
+ click
+ that
+ middle
+ tab
+
+
+co-work
+ in
+ the
+ cloud
+ desktop
+ app
+ what
+
+
+you
+ would
+ do.
+ And
+ I
+ just
+ want
+ to
+ call
+
+
+out
+ for
+ folks,
+ uh,
+ co-work
+ is
+ available
+
+
+in
+ the
+ clawed
+ desktop
+ app.
+ So
+ I
+ think
+
+
+you
+ have
+ to
+ be
+ on
+ desktop,
+ not
+ web.
+ And
+
+
+it
+ shows
+ up
+ again
+ as
+ one
+ of
+ these
+ three
+
+
+tabs
+ across
+ the
+ top.
+ The
+ middle
+ one
+ says
+
+
+co-work.
+ And
+ you
+ have
+ to
+ click
+ that.
+ And
+
+
+then
+ you're
+ going
+ to
+ show
+ us
+ what
+ to
+ do
+
+
+once
+ we're
+ there.
+
+
+>> So
+ I
+ have
+ co-work
+ pulled
+ up
+ here.
+ This
+
+
+is
+ on
+ the
+ desktop
+ app.
+ And
+ they
+ also
+
+
+have
+ a
+ mobile
+ app
+ as
+ well.
+ Mobile
+ app
+
+
+does
+ not
+ work
+ as
+ well
+ with
+ co-work.
+ Uh,
+
+
+that's
+ where
+ kind
+ of
+ cloud
+ code
+
+
+continues
+ to
+ be
+ really
+ powerful.
+ But
+
+
+co-work,
+ let
+ me
+ give
+ you
+ the
+ lowdown
+
+
+here.
+ So
+ co-work
+ can
+ actually
+ access
+
+
+your
+ desktop.
+ And
+ a
+ lot
+ of
+ people
+ in
+ the
+
+
+beginning
+ days
+ of
+ like,
+ hey
+ co-work,
+ go
+
+
+and
+ like
+ organize
+ folders
+ for
+ me
+ or
+ go
+
+
+and
+ like
+ organize
+ these
+ receipts
+ for
+ me.
+
+
+And
+ yes,
+ co-work
+ can
+ do
+ that,
+ but
+
+
+co-work
+ can
+ do
+ so
+ much
+ more
+ as
+ well.
+
+
+Co-work
+ accesses
+ your
+ computer.
+ It
+ can
+
+
+access
+ your
+ browser.
+ It
+ can
+ perform
+
+
+actions
+ on
+ your
+ behalf.
+ uh
+ if
+ you
+ need
+
+
+to
+ order
+ or
+ you
+ know
+ book
+ reservations
+
+
+for
+ dinner,
+ it
+ will
+ go
+ find
+ you
+ know
+
+
+restaurants
+ looking
+ for
+ you
+ on
+ your
+
+
+browser
+ you
+ know
+ contact
+ contact
+ them
+
+
+etc.
+ Right
+ now
+ when
+ you
+ get
+ started
+ with
+
+
+co-work
+ you'll
+ go
+ to
+ a
+ new
+ task
+ and
+ it's
+
+
+going
+ to
+ ask
+ you
+ to
+ open
+ up
+ a
+ project.
+
+
+Okay
+ now
+ this
+ is
+ a
+ very
+ important
+
+
+concept
+ that
+ uh
+ a
+ lot
+ of
+ people
+ kind
+ of
+
+
+get
+ stumbled
+ on
+ is
+ like
+ what
+ is
+ a
+
+
+project?
+ Well
+ in
+ the
+ simplest
+ form
+ a
+
+
+project
+ is
+ a
+ folder
+ on
+ your
+ computer.
+
+
+This
+ is
+ where
+ we
+ are
+ going
+ to
+ work
+ out
+
+
+of
+ and
+ store
+ our
+ files
+ for
+ this
+ project
+
+
+within
+ that
+ area.
+ So
+ if
+ I
+ look
+ at
+ my
+
+
+computer,
+ I
+ have
+ a
+ location
+ called
+ JJ
+
+
+and
+ within
+ location
+ JJ,
+ I
+ have
+ projects
+
+
+and
+ this
+ is
+ where
+ I
+ build
+ all
+ of
+ my
+
+
+projects.
+ Now
+ some
+ of
+ these
+ are
+ cloud
+
+
+code
+ projects
+ and
+ some
+ of
+ these
+ are
+
+
+co-work
+ projects.
+ Co-work
+ is
+ a
+ really
+
+
+great
+ like
+ on-ramp
+ to
+ cloud
+ code,
+
+
+teaching
+ you
+ some
+ of
+ the
+ basic
+ skills
+ of
+
+
+like
+ how
+ to
+ operate
+ in
+ cloud
+ code
+
+
+without
+ going
+ full
+ terminal
+ mode,
+ all
+
+
+that
+ kind
+ of
+ stuff.
+ So
+ within
+ this
+ I
+
+
+have
+ a
+ popular
+ workspace
+ that
+ I
+ use
+
+
+called
+ claude
+ co-workspace
+ that
+ is
+ like
+
+
+a
+ generic
+ highle
+ workspace
+ and
+ I
+ start
+
+
+off
+ this
+ workspace
+ with
+ what
+ I
+ call
+ is
+
+
+my
+ brain.
+ Okay,
+ so
+ my
+ brain
+ goes
+ into
+
+
+very
+ detail
+ of
+ like
+ what
+ are
+ my
+ working
+
+
+preferences?
+ Who
+ are
+ the
+ team
+ members
+
+
+that
+ I
+ work
+ with?
+ And
+ if
+ I
+ were
+ actually
+
+
+to
+ open
+ this
+ up,
+ I'm
+ just
+ going
+ to
+ hit
+
+
+spacebar.
+ It's
+ just
+ an
+ MD
+ file,
+ which
+ is
+
+
+essentially
+ like
+ a
+ doc
+ file,
+ a
+ text
+
+
+file.
+ This
+ is
+ a
+ very
+ specific
+ series
+ of
+
+
+instructions
+ that
+ we,
+ you
+ know,
+ also
+
+
+known
+ as
+ a
+ prompt
+ that
+ Claude
+ can
+ read
+
+
+to
+ get
+ up
+ to
+ speed
+ very
+ quickly
+ of
+ who
+
+
+you
+ are,
+ how
+ you
+ like
+ to
+ work,
+ who
+ you
+
+
+work
+ with,
+ and
+ all
+ of
+ your
+ different
+
+
+preferences.
+ This
+ way,
+ once
+ I
+ trigger
+ a
+
+
+prompt
+ within
+ co-work,
+ it
+ gets
+ all
+ of
+
+
+this
+ this
+ information
+ with
+ it
+ and
+ just
+
+
+knows
+ so
+ much
+ more
+ about
+ me.
+ And
+
+
+sometimes
+ we
+ had
+ like
+ in
+ uh
+ you
+ know
+
+
+chatbt
+ we
+ had
+ like
+ that
+ one
+ thread
+ of
+
+
+like
+ oh
+ this
+ is
+ my
+ thread
+ for
+ like
+ all
+
+
+my
+ product
+ marketing
+ and
+ this
+ is
+ my
+
+
+thread
+ for
+ like
+ uh
+ brainstorming
+ about
+
+
+this
+ or
+ whatever.
+ You
+ had
+ like
+ that
+ one
+
+
+thread
+ with
+ a
+ lot
+ of
+ good
+ context
+ that
+
+
+was
+ like
+ very
+ important
+ to
+ you
+ but
+ you
+
+
+couldn't
+ transfer
+ it
+ anywhere.
+ If
+ you
+
+
+set
+ up
+ the
+ time
+ with
+ your
+ folders,
+
+
+you'll
+ be
+ able
+ to
+ build
+ those
+ threads,
+
+
+but
+ in
+ a
+ very
+ transferable
+ uh
+ way
+ that
+
+
+allows
+ you
+ to
+ take
+ that
+ context
+ and
+
+
+bring
+ it
+ with
+ you
+ every
+ single
+ time
+ you
+
+
+want
+ to
+ do
+ anything
+ in
+ co-work.
+ And
+ that
+
+
+is
+ the
+ big
+ unlock
+ here.
+ With
+ co-work,
+
+
+you're
+ not
+ starting
+ over
+ from
+ the
+ start.
+
+
+If
+ you
+ build
+ up
+ these
+ projects,
+ you're
+
+
+starting
+ from
+ a
+ really
+ good
+ place
+ where
+
+
+co-work
+ already
+ knows
+ about
+ you,
+ your
+
+
+preferences,
+ all
+ that
+ kind
+ of
+ stuff,
+ and
+
+
+then
+ it
+ just
+ starts
+ doing
+ stuff
+ with
+ you
+
+
+as
+ a
+ a
+ as
+ a
+ partner
+ here.
+ All right.
+
+
+>> Yeah.
+ Before
+ you
+ show
+ us
+ how
+ you'd
+
+
+create
+ maybe
+ a
+ new
+ project
+ here,
+ I
+ just
+
+
+want
+ to
+ call
+ out
+ some
+ some
+ things
+ for
+
+
+folks
+ because
+ you
+ know
+ if
+ you're
+ new
+ to
+
+
+some
+ of
+ these
+ like
+ I
+ would
+ say
+ 2011
+
+
+level
+ AI
+ concepts
+ going
+ from
+ chat
+ to
+
+
+projects
+ you
+ get
+ really
+ confused.
+ I
+
+
+remembered
+ when
+ Anthrobit
+ came
+ out
+ with
+
+
+skills
+ and
+ people
+ were
+ like
+ what's
+ a
+
+
+skill?
+ I'm
+ so
+ and
+ I
+ was
+ like
+ skill
+ is
+
+
+literally
+ like
+ a
+ file
+ that
+ describes
+
+
+what
+ you
+ want
+ to
+ do.
+ Like
+ let
+ me
+ just
+
+
+make
+ it
+ very
+ simple
+ for
+ you.
+ It's
+ a
+ file
+
+
+and
+ then
+ what's
+ a
+ what's
+ a
+ project?
+ A
+
+
+project
+ is
+ just
+ literally
+ a
+ folder
+ with
+
+
+files
+ in
+ it.
+ And
+ so,
+ you
+ know,
+ you
+ don't
+
+
+have
+ to
+ be
+ intimidated
+ by
+ these
+
+
+concepts.
+ It's
+ just
+ I'm
+ working
+ on
+
+
+something.
+ I'm
+ gonna
+ spin
+ up
+ a
+ folder,
+ a
+
+
+drive
+ for
+ this.
+ I'm
+ going
+ to
+ put
+ all
+ my
+
+
+context
+ and
+ capture
+ all
+ my
+ context
+ in
+
+
+that
+ one
+ folder.
+ So,
+ anytime
+ I
+ come
+ back
+
+
+to
+ work
+ on
+ that,
+ I
+ have
+ the
+ files
+ that
+
+
+I'm
+ working
+ for.
+ And
+ this
+ is
+ how
+ we
+ work
+
+
+in
+ business
+ every
+ day,
+ right?
+ You
+
+
+organize
+ your
+ G
+ Drive
+ or
+ your
+ notion
+ by
+
+
+folders.
+ exact
+ same
+ concept
+ except
+ this
+
+
+time
+ Claude
+ can
+ go
+ in
+ and
+ actually
+ do
+
+
+some
+ work
+ in
+ in
+ that
+ workspace
+ alongside
+
+
+you.
+
+
+>> Great
+ call
+ out.
+ That's
+ exactly
+ it.
+ And
+
+
+actually
+ in
+ this
+ session
+ today
+ we
+ are
+
+
+going
+ to
+ be
+ building
+ like
+ a
+ daily
+
+
+operating
+ system
+ that
+ I
+ will
+ make
+
+
+downloadable
+ for
+ you
+ all
+ to
+ get
+ at
+ the
+
+
+end
+ of
+ the
+ show.
+ So
+ definitely
+ stick
+
+
+with
+ us
+ for
+ that.
+ I
+ do
+ just
+ want
+ to
+
+
+continue
+ like
+ overall
+ explaining
+ like
+
+
+what
+ we're
+ going
+ to
+ do
+ and
+ then
+ we're
+
+
+going
+ to
+ get
+ hands-
+ on
+ keyboard
+ and
+
+
+start
+ doing
+ it
+ together.
+
+
+>> Great.
+
+
+>> Yeah.
+
+
+>> Cool.
+ Um,
+ so
+ this
+ is
+ my
+ general
+
+
+architecture
+ here
+ and
+ at
+ the
+ top
+ level
+ I
+
+
+have
+ this
+ workspace
+ map.
+ And
+ so
+ this
+ is
+
+
+essentially
+ something
+ I
+ said,
+ "Hey
+
+
+Claude,
+ look
+ through
+ all
+ of
+ the
+ folders
+
+
+in
+ this
+ or
+ files
+ in
+ this
+ folder
+ and
+
+
+generate
+ a
+ workspace
+ map
+ to
+ help
+ you
+
+
+navigate
+ this
+ better."
+ So
+ that
+ way
+
+
+whenever
+ I'm
+ in
+ this
+ workspace,
+ Claude
+
+
+and
+ I
+ send
+ a
+ prompt,
+ Claude
+ will
+ look
+ at
+
+
+that
+ workspace
+ map
+ and
+ say,
+ "Oh,
+ hey,
+ he
+
+
+needs
+ help
+ with
+ a
+ Twitter
+ post.
+ I'm
+
+
+going
+ to
+ go
+ into
+ his
+ Twitter
+ folder,
+ use
+
+
+that
+ skill
+ that
+ he's
+ already
+ prepared,
+
+
+and
+ then
+ write
+ it
+ that
+ way.
+ Without
+ that
+
+
+workspace
+ map,
+ sometimes
+ Claude
+ has
+ to
+
+
+ingest
+ all
+ of
+ that
+ stuff,
+ which
+ takes
+ up
+
+
+more
+ tokens,
+ and
+ it
+ kind
+ of
+ makes
+ it
+ a
+
+
+little
+ bit
+ muddy
+ because
+ you're
+ sending
+
+
+a
+ lot
+ of
+ context
+ to
+ Claude
+ where
+ maybe
+
+
+it
+ just
+ needs
+ to
+ know
+ how
+ you'd
+ like
+ to
+
+
+write
+ on
+ Twitter,
+ and
+ that's
+ it.
+ So,
+ the
+
+
+workspace
+ map
+ helps
+ Claude
+ navigate
+ your
+
+
+folder
+ structure
+ in
+ a
+ better
+ way.
+ And
+
+
+again,
+ it's
+ as
+ simple
+ as
+ connecting
+ to
+
+
+Claude
+ to
+ any
+ folder
+ and
+ just
+ saying,
+
+
+"Hey,
+ Claude,
+ create
+ a
+ workspace
+ map
+ for
+
+
+me."
+ It's
+ going
+ to
+ map
+ everything
+ out
+
+
+and
+ create
+ it
+ for
+ you.
+
+
+>> Yeah.
+ What
+ I
+ love
+ about
+ working
+ with
+ a
+
+
+tool
+ like
+ Claude,
+ although
+ other
+ tools
+
+
+also
+ do
+ this
+ in
+ a
+ desktop
+ folder
+ of
+
+
+files,
+ is
+ it
+ is
+ much
+ faster
+ at
+ browsing
+
+
+files
+ and
+ figuring
+ out
+ what's
+ going
+ on
+
+
+in
+ there
+ than
+ I
+ am.
+ And
+ so
+ you
+ can
+
+
+actually,
+ you
+ know,
+ I
+ think
+ this
+ is
+ a
+
+
+trick
+ that
+ anybody
+ can
+ use,
+ which
+ is
+
+
+whenever
+ you're
+ trying
+ to
+ orient
+
+
+yourself
+ to
+ something,
+ some
+ work,
+
+
+whether
+ that's
+ a
+ repo,
+ whether
+ that's
+ a
+
+
+folder
+ that
+ somebody
+ your
+ colleague
+
+
+shared
+ with
+ you,
+ you
+ can
+ open
+ it
+ in
+
+
+Claude
+ and
+ then
+ just
+ say
+ what's
+ going
+ on
+
+
+in
+ here
+ and
+ build
+ even
+ build
+ me
+ a
+ map
+ to
+
+
+where
+ to
+ where
+ everything
+ is
+ is
+ and
+ that
+
+
+can
+ be
+ very
+ helpful.
+ But
+ let's
+ talk
+
+
+about
+ how
+ you
+ actually
+ kind
+ of
+ get
+
+
+started
+ because
+ you're
+ showing
+ us
+ kind
+
+
+of
+ a
+ little
+ bit
+ of
+ the
+ end
+ point.
+ And
+ I
+
+
+think
+ people
+ are
+ saying,
+ "Okay,
+ this
+ is
+
+
+great.
+ I
+ can
+ I
+ can
+ end
+ up
+ with
+ this
+
+
+project
+ that
+ has
+ my
+ brain
+ in
+ it."
+
+
+>> Um,
+ but
+ but
+ how
+ do
+ you
+ get
+ started?
+
+
+>> Sure.
+ So,
+ I'm
+ going
+ to
+ go
+ into
+ projects
+
+
+here
+ and
+ I'm
+ going
+ to
+ create
+ a
+ new
+
+
+folder.
+ Okay.
+ And
+ this
+ folder
+ is
+ going
+
+
+to
+ be
+ called
+ daily
+ operating
+ system.
+
+
+Okay.
+ And
+ I'm
+ just
+ going
+ to
+ bring
+ it
+
+
+back
+ into
+ my
+ projects
+ there.
+ All right.
+
+
+This
+ is
+ the
+ start
+ of
+ everything.
+ And
+
+
+then
+ it's
+ an
+ empty
+ folder.
+ Now
+ I'm
+ going
+
+
+to
+ go
+ back
+ into
+ codework
+ here.
+ I'm
+ going
+
+
+to
+ open
+ that
+ up
+ here.
+ I'm
+ going
+ to
+ go
+ to
+
+
+different
+ folder
+ projects
+ daily
+
+
+operating
+ system.
+ There
+ we
+ go.
+ We're
+
+
+going
+ to
+ allow
+ claude
+ to
+ operate
+ within
+
+
+that.
+ And
+ it's
+ saying,
+ hey,
+ do
+ you
+ want
+
+
+to
+ use
+ both
+ of
+ these
+ or
+ just
+ this?
+ And
+
+
+I'm
+ going
+ to
+ uncheck
+ this
+ cuz
+ I
+ only
+
+
+want
+ to
+ use
+ this
+ folder
+ right
+ now.
+ Okay.
+
+
+So,
+ I
+ can
+ say
+ anything
+ I
+ want
+ to
+ this.
+
+
+But
+ generally,
+ what
+ I'm
+ going
+ to
+ say
+ is,
+
+
+hey
+ Claude,
+ I
+ want
+ to
+ build
+ a
+ daily
+
+
+operating
+ system.
+ This
+ operating
+ system
+
+
+is
+ going
+ to
+ help
+ me
+ manage
+ my
+ day-to-day
+
+
+and
+ become
+ a
+ superhero
+ within
+ my
+
+
+workplace.
+ So,
+ I
+ want
+ this
+ operating
+
+
+system
+ to
+ help
+ me
+ in
+ a
+ variety
+ of
+ ways.
+
+
+First,
+ I'm
+ going
+ to
+ have
+ it
+ help
+ me
+ work
+
+
+through
+ my
+ emails
+ and
+ and
+ help
+ me
+ not
+
+
+only
+ understand
+ my
+ inbox,
+ but
+ help
+ me
+
+
+write
+ better
+ emails.
+ I'm
+ also
+ going
+ to
+
+
+use
+ it
+ to
+ help
+ me
+ look
+ through
+ my
+ Slack
+
+
+and
+ figure
+ out
+ how
+ I
+ need
+ to
+ uh
+ respond
+
+
+to
+ some
+ of
+ my
+ teammates
+ and
+ then
+ help
+ me
+
+
+write
+ some
+ of
+ those
+ Slack
+ messages.
+ And
+
+
+then
+ I
+ also
+ want
+ a
+ thinking
+ partner,
+
+
+someone
+ that
+ can
+ act
+ as
+ like
+ a
+ mentor
+ to
+
+
+me
+ and
+ help
+ me
+ through
+ tough
+ decisions.
+
+
+So
+ I'm
+ going
+ to
+ go
+ through
+ and
+ ask
+ you
+
+
+some
+ things
+ to
+ help
+ build
+ some
+ skills
+
+
+but
+ start
+ to
+ lay
+ the
+ foundation
+ for
+ what
+
+
+this
+ project
+ is
+ together.
+
+
+So
+ there's
+ a
+ lot
+ there
+ and
+ I'd
+ say
+ like
+
+
+this
+ isn't
+ much
+ as
+ you
+ want
+ it
+ to
+ be.
+
+
+Like
+ this
+ is
+ very
+ a
+ chat
+ focused
+
+
+experience.
+ You
+ could
+ just
+ start
+ this
+
+
+off
+ and
+ it
+ couldn't
+ even
+ look
+ like
+ any
+
+
+of
+ that.
+ It's
+ just
+ like
+ you
+ could
+ just
+
+
+start
+ in
+ a
+ task.
+ It's
+ however
+ you
+ want
+
+
+it
+ to
+ be.
+ And
+ as
+ you
+ grow
+ more
+
+
+comfortable
+ with
+ it,
+ uh,
+ Claude
+ will
+
+
+adapt
+ to
+ that.
+ Um,
+ but
+ I
+ think
+ the
+
+
+general
+ point
+ is
+ like
+ don't
+ let
+ that
+ big
+
+
+prompt
+ like
+ scare
+ you.
+ There's
+ a
+ lot
+ of
+
+
+different
+ ways
+ to
+ enter
+ this.
+ All right.
+
+
+Now,
+ the
+ first
+ part
+ is,
+ okay,
+ Claude
+
+
+looked
+ at
+ my
+ prompt
+ and
+ it
+ says,
+ "Okay,
+
+
+I
+ have
+ some
+ questions
+ for
+ you."
+ Now,
+
+
+it's
+ going
+ to
+ start
+ asking
+ me
+ some
+
+
+questions.
+ So,
+ where
+ do
+ you
+ want
+ to
+
+
+store
+ these
+ files?
+ I
+ want
+ to
+ store
+ it
+ in
+
+
+my
+ daily
+ operation
+ systems
+ folder
+ like
+
+
+it
+ recommended.
+ How
+ do
+ you
+ want
+ to
+
+
+interact
+ with
+ the
+ daily
+ operating
+
+
+system?
+ I'm
+ going
+ to
+ be
+ doing
+ it
+ um
+ on
+
+
+demand
+ at
+ the
+ moment
+ which
+ essentially
+
+
+means
+ like
+ whenever
+ I
+ want
+ to
+ interact
+
+
+with
+ it
+ I
+ will
+ go
+ into
+ co-work
+ and
+
+
+interact
+ with
+ it
+ but
+ I
+ will
+ also
+ show
+
+
+you
+ how
+ to
+ automate
+ some
+ of
+ the
+ stuff
+
+
+too.
+ Uh
+ for
+ the
+ thinking
+ partner
+ uh
+ what
+
+
+kind
+ of
+ support
+ matters
+ most
+ to
+ you?
+ Um
+
+
+I
+ really
+ like
+ like
+ career
+ coaching
+ and
+
+
+decision
+ frameworks
+ frameworks
+ there.
+
+
+All
+ right.
+ So,
+ we
+ have
+ this
+ thing
+ going
+
+
+here
+ right
+ now
+ and
+ let
+ me
+ explain
+
+
+co-work
+ projects
+ because
+ this
+ is
+ a
+ brand
+
+
+new
+ feature
+ and
+ I
+ absolutely
+ love
+ it.
+
+
+So,
+ right
+ now
+ we
+ are
+ in
+ a
+ chat
+ here.
+
+
+Okay.
+ And
+ we
+ can
+ start
+ a
+ new
+ chat
+ as
+
+
+well
+ and
+ you
+ could
+ see
+ that
+ I
+ have
+
+
+active
+ tasks
+ going
+ on
+ here.
+ And
+ so,
+ this
+
+
+view
+ is
+ kind
+ of
+ like
+ a
+ good
+ orchestrator
+
+
+view
+ of
+ like
+ seeing
+ the
+ agents
+ that
+ I
+
+
+have
+ working
+ for
+ me.
+ But
+ projects
+ allows
+
+
+you
+ to
+ take
+ that
+ to
+ the
+ next
+ level.
+ So,
+
+
+what
+ I
+ could
+ do
+ is
+ I
+ can
+ go
+ into
+ a
+
+
+project
+ here
+ and
+ I
+ can
+ create
+ a
+ new
+
+
+project.
+ And
+ I'm
+ going to
+ create
+ a
+ new
+
+
+project
+ from
+ an
+ existing
+ folder.
+ That's
+
+
+the
+ same
+ folder
+ that
+ we've
+ already
+
+
+created
+ with
+ the
+ daily
+ operating
+ system.
+
+
+So,
+ I'm
+ going to
+ go
+ in
+ there,
+ projects,
+
+
+daily
+ operating
+ system,
+ open.
+ And
+ it's
+
+
+going
+ to
+ open
+ this
+ new
+ folder.
+ And
+ what
+
+
+is
+ the
+ instructions
+ for
+ this
+ project?
+
+
+I'm
+ going
+ to
+ use
+ this
+ folder
+ and
+
+
+operating
+ system
+ to
+ help
+ me
+ navigate
+ the
+
+
+day-to-day
+ life
+ of
+ a
+ busy
+ professional.
+
+
+you're
+ going
+ to
+ help
+ me
+ with
+ some
+
+
+superpowers
+ by
+ play
+ applying
+ some
+ AI
+
+
+magic
+ to
+ it
+ all.
+ All
+ right.
+ And
+ I'm
+ just
+
+
+going
+ to
+ keep
+ it
+ there
+ for
+ now.
+ So,
+ we
+
+
+are
+ now
+ in
+ a
+ project
+ interface.
+ All
+
+
+right.
+ And
+ if
+ I
+ ever
+ wanted
+ to
+ get
+ back
+
+
+to
+ that,
+ I
+ click
+ on
+ projects,
+ see
+ all
+ my
+
+
+different
+ projects,
+ and
+ then
+ go
+ into
+ the
+
+
+project
+ interface.
+ Now,
+ what
+ is
+ the
+
+
+importance
+ of
+ like
+ why
+ are
+ we
+ in
+ a
+
+
+project
+ rather
+ than
+ a
+ task?
+ Well,
+ these
+
+
+tasks,
+ they
+ all
+ kind
+ of
+ work,
+ but
+
+
+projects
+ allow
+ you
+ to
+ start
+ chaining
+
+
+tasks
+ together,
+ which
+ means
+ shared
+
+
+memory.
+ Okay,
+ so
+ I
+ can
+ find
+ this
+ task
+
+
+right
+ here,
+ this
+ this
+ uh
+ chat
+ that
+ I
+
+
+just
+ had,
+ and
+ I
+ can
+ go
+ and
+ I
+ can
+ move
+ it
+
+
+into
+ this
+ project.
+ Okay,
+ now
+ this
+ this
+
+
+project,
+ this
+ chat
+ right
+ here
+ and
+ if
+ any
+
+
+other
+ chat
+ that
+ I
+ have,
+ they
+ all
+ share
+
+
+the
+ same
+ context
+ and
+ they
+ all
+ and
+ Claude
+
+
+knows
+ what
+ you're
+ working
+ on
+ and
+ can
+
+
+bring
+ that
+ with
+ all
+ the
+ new
+ stuff
+
+
+together.
+ Okay.
+ So,
+ if
+ you
+ do
+ anything
+
+
+new,
+ it
+ is
+ very
+ specifically
+ knowing
+
+
+like
+ what
+ other
+ chats
+ you've
+ had
+ about
+
+
+this
+ and
+ picking
+ up
+ where
+ you
+ left
+ off.
+
+
+>> Yeah.
+ So,
+ there
+ are
+ two
+ things
+ that
+
+
+people
+ need
+ to
+ know
+ about
+ from
+ an
+
+
+organization
+ perspective,
+ which
+ is
+ one,
+
+
+we're
+ going
+ to
+ pick
+ a
+ folder
+ on
+ your
+
+
+computer
+ that
+ contains
+ all
+ the
+ files
+ and
+
+
+context
+ and
+ all
+ that
+ stuff
+ for
+ a
+
+
+specific
+ area
+ you're
+ working
+ on.
+ And
+
+
+then
+ two,
+ you're
+ going
+ to
+ attach
+ that
+
+
+folder
+ to
+ something
+ called
+ projects,
+
+
+which
+ is
+ available
+ in
+ the
+ lefthand
+ nav,
+
+
+to
+ make
+ sure
+ that
+ every
+ time
+ you're
+
+
+working
+ in
+ that
+ folder
+ or
+ in
+ that
+ topic,
+
+
+um
+ you're
+ not
+ only
+ working
+ with
+ those
+
+
+files,
+ but
+ you're
+ working
+ with
+ the
+
+
+memory
+ of
+ all
+ the
+ other
+ things
+ that
+
+
+you're
+ either
+ actively
+ working
+ on
+ or
+
+
+have
+ worked
+ on
+ in
+ the
+ past.
+ And
+ then
+ you
+
+
+can
+ give
+ it
+ um
+ if
+ you
+ see
+ in
+ the
+ top
+
+
+right
+ you
+ can
+ give
+ it
+ just
+ general
+
+
+instructions
+ which
+ is
+ helpful
+ for
+ um
+
+
+guiding
+ any
+ work
+ you
+ do
+ in
+ that
+ in
+ that
+
+
+specific
+
+
+>> and
+ this
+ is
+ specific
+ project
+
+
+instructions
+ and
+ so
+ each
+ project
+ can
+
+
+vary
+ for
+ different
+ kinds
+ of
+ instructions
+
+
+right
+ which
+ is
+ also
+ really
+ good
+ context
+
+
+to
+ have.
+ Yeah.
+ And
+ speaking
+ of
+ context,
+
+
+if
+ you
+ look
+ along
+ the
+ right
+ hand
+ side,
+
+
+there
+ is
+ a
+ section
+ that
+ says
+ context.
+
+
+And
+ there's
+ exactly
+ what
+ we
+ talked
+
+
+about,
+ which
+ is
+ the
+ context
+ of
+ the
+
+
+folder
+ and
+ then
+ the
+ context
+ of
+ the
+
+
+memory
+ that's
+ been
+ generated
+ about
+ this
+
+
+project,
+
+
+>> right?
+ And
+ so
+ this
+ is
+ like
+ the
+ HQ
+ for
+
+
+each
+ project
+ that
+ you
+ work
+ on,
+ right?
+
+
+And
+ it's
+ really
+ become
+ so
+ helpful
+ for
+ me
+
+
+because
+ as
+ you
+ start
+ to
+ have
+ more
+ tasks,
+
+
+all
+ of
+ the
+ different
+ agents
+ for
+ that
+
+
+project
+ are
+ listed
+ here.
+ And
+ you
+ could
+
+
+see
+ like
+ a
+ highle
+ orchestrator
+ view
+ of
+
+
+like
+ which
+ agent
+ is
+ working,
+ which
+ agent
+
+
+needs
+ your
+ help.
+ Uh
+ and
+ all
+ of
+ those
+
+
+tasks
+ and
+ conversations
+ are
+ like
+ shared
+
+
+together
+ for
+ that
+ shared
+ memory.
+ Again,
+
+
+we
+ want
+ co-work
+ to
+ do
+ stuff
+ for
+ us
+ and
+
+
+we
+ wanted
+ to
+ do
+ it
+ well
+ and
+ give
+ us
+ good
+
+
+consistent
+ results.
+ Sometimes
+ when
+ we
+
+
+operate
+ at
+ this
+ high
+ level,
+ it's
+ getting
+
+
+so
+ much
+ information
+ about
+ all
+ the
+
+
+different
+ things
+ we're
+ doing
+ and
+ the
+
+
+results
+ can
+ get
+ confusing
+ or
+ fuzzy.
+ But
+
+
+if
+ you're
+ operating
+ within
+ a
+ project,
+
+
+it's
+ very
+ specific
+ context
+ about
+ the
+
+
+specific
+ project
+ and
+ your
+ requirements
+
+
+for
+ it.
+ And
+ it
+ helps
+ you
+ get
+ results
+
+
+faster.
+ Like
+ the
+ prompts
+ are
+ literally
+
+
+faster
+ because
+ you're
+ sending
+ less
+
+
+contacts.
+ You're
+ saving
+ tokens
+ because
+
+
+you're
+ more
+ focused
+ and
+ organized
+ and
+
+
+you
+ just
+ get
+ better
+ results
+ in
+ in
+ a
+ more
+
+
+consistent
+ way.
+ All right.
+
+
+>> Great.
+ So,
+ let
+ me
+ continue
+ to
+ build
+ on
+
+
+this
+ so
+ we
+ can
+ eventually
+ have
+ something
+
+
+that
+ you
+ can
+ download
+ at
+ the
+ end
+ of
+ this
+
+
+show
+ to
+ start
+ using
+ for
+ your
+ own
+ daily
+
+
+operating
+ system.
+ Sound
+ cool?
+
+
+>> Yeah,
+ let's
+ do
+ it.
+
+
+>> Cool.
+ So,
+ uh,
+ with
+ a
+ couple
+ of
+ things
+
+
+that
+ I
+ want
+ to
+ call
+ out
+ here,
+
+
+connectors,
+ so
+ important.
+ So,
+ to
+ add
+ a
+
+
+connector,
+ I'm
+ going to
+ rightclick
+ here
+
+
+and
+ I'm
+ going to
+ go
+ into
+ connectors.
+ And
+
+
+I
+ can
+ see
+ that
+ I've
+ already
+ enabled
+ some
+
+
+of
+ my
+ connectors,
+ but
+ I'm
+ just
+ going
+ to
+
+
+click
+ here
+ so
+ you
+ can
+ see
+ this
+ view.
+ So,
+
+
+connectors
+ allow
+ you
+ to
+ connect
+ your
+
+
+systems
+ to
+ co-work.
+ Okay,
+ so
+ right
+ now
+ I
+
+
+have
+ connected
+ Gmail,
+ Google
+ Calendar,
+
+
+Google
+ Drive,
+ Notion,
+ and
+ Slack.
+ And
+ if
+
+
+I
+ wanted
+ to
+ add
+ more
+ connectors,
+ I
+ can
+
+
+go
+ to
+ browse
+ connectors
+ and
+ I
+ can
+ see
+ a
+
+
+ton
+ of
+ connectors
+ that
+ I
+ could
+ do.
+ It's
+
+
+normally
+ like
+ a
+ one-click
+ you
+
+
+authenticate
+ and
+ it
+ comes
+ in
+ and
+ you're
+
+
+connected.
+ That
+ essentially
+ means
+
+
+Co-work
+ has
+ access
+ to
+ that
+ application
+
+
+and
+ a
+ lot
+ of
+ those
+ actions
+ within
+ that
+
+
+application.
+ If
+ I
+ wanted
+ to
+ go
+ into
+ like
+
+
+my
+ Gmail
+ connection
+ here,
+ I
+ could
+ see
+
+
+that
+ Co-work
+ now
+ has
+ access
+ to
+ all
+ of
+
+
+these
+ tools
+ and
+ can
+ actually
+ do
+ these
+
+
+for
+ me.
+ And
+ if
+ I
+ wanted
+ to
+ get
+ very
+
+
+specific
+ about
+ the
+ permissions,
+ I
+ can
+ go
+
+
+in
+ here
+ and
+ say,
+ "Hey,
+ Co-work,
+ uh,
+ I'm
+
+
+not
+ going
+ to
+ allow
+ you
+ to
+ create
+ an
+
+
+email
+ draft
+ or
+ to
+ do
+ something,
+ but
+ I
+ am
+
+
+going
+ to
+ allow
+ you
+ to
+ do
+ this
+ or
+
+
+sometimes
+ I
+ want
+ you
+ to
+ do
+ this,
+ but
+
+
+always
+ ask
+ me
+ for
+ permission."
+ So
+ with
+
+
+each
+ connector,
+ you
+ can
+ go
+ in
+ and
+ modify
+
+
+those
+ permissions,
+ but
+ generally
+ this
+
+
+gives
+ you
+ a
+ connection
+ to
+ your
+ tools
+
+
+that
+ you
+ can
+ use.
+ Now
+ I
+ can
+ go
+ back
+ into
+
+
+co-work
+ here
+ and
+ I'm
+ going
+ to
+ go
+ back
+
+
+into
+ my
+ projects
+ daily
+ operating
+ system.
+
+
+And
+ the
+ first
+ thing
+ I'm
+ going
+ to
+ do
+ is
+
+
+say,
+ hey,
+ analyze
+ my
+ Gmail,
+ specifically
+
+
+the
+ emails
+ that
+ I
+ have
+ sent
+ in
+ the
+ last
+
+
+30
+ days
+ and
+ use
+ this
+ to
+ create
+ a
+ writing
+
+
+skill
+ specifically
+ for
+ emails
+ that
+ I
+
+
+write
+ using
+ uh
+ my
+ emails
+ as
+ an
+ example
+
+
+of
+ my
+ writing
+ structure.
+ So
+ whenever
+ I
+
+
+want
+ you
+ to
+ write
+ an
+ email
+ in
+ the
+
+
+future,
+ you
+ know
+ exactly
+ how
+ I
+ write
+ my
+
+
+emails
+ and
+ you'll
+ use
+ this
+ skill.
+
+
+So
+ this
+ is
+ going
+ to
+ start
+ building
+ an
+
+
+email
+ skill
+ for
+ me.
+ And
+ it's
+ going
+ to
+ do
+
+
+it
+ by
+ connecting
+ to
+ my
+ Gmail,
+ looking
+ at
+
+
+my
+ outbox
+ of
+ all
+ the
+ emails
+ that
+ I've
+
+
+sent
+ in
+ the
+ last
+ 30
+ days,
+ analyzing
+ that
+
+
+writing
+ skill,
+ and
+ just
+ perfectly
+
+
+matching
+ the
+ tone
+ that
+ I
+ use
+ in
+ my
+
+
+writing.
+ You
+ know,
+ AI
+ is
+ used
+ for
+
+
+writing
+ in
+ a
+ lot
+ of
+ different
+ ways.
+ And
+
+
+of
+ course,
+ there's
+ a
+ lot
+ of
+ AI
+ slop,
+ but
+
+
+when
+ you
+ can
+ feed
+ AI
+ like
+ a
+ series
+ of
+
+
+like
+ a
+ 100
+ messages,
+ it
+ could
+ really
+ get
+
+
+close
+ to
+ your
+ exact
+ writing
+ style.
+ And
+
+
+that's
+ what
+ this
+ is
+ doing
+ here.
+ So
+ just
+
+
+to
+ to
+ kind
+ of
+ take
+ a
+ step
+ back,
+
+
+connectors
+ are
+ really
+ important
+ because
+
+
+this
+ is
+ not
+ only
+ the
+ the
+ tools
+ that
+ are
+
+
+going
+ to
+ do
+ work
+ on
+ your
+ behalf,
+ right?
+
+
+I
+ think
+ this
+ is
+ something
+ that
+ people
+
+
+might
+ miss,
+ which
+ is
+ yes,
+ we
+ can
+ do
+
+
+connectors
+ so
+ you
+ can
+ draft
+ emails
+ to
+
+
+Gmail
+ or
+ write
+ docs
+ in
+ notion,
+ but
+
+
+there's
+ also
+ this
+ ingest
+ path
+ that
+ can
+
+
+make
+ your
+ use
+ of
+ these
+ AI
+ tools
+ a
+ lot
+
+
+better.
+ And
+ I
+ haven't
+ seen
+ this
+ use
+ case
+
+
+before,
+ so
+ I
+ want
+ to
+ call
+ it
+ out
+ for
+
+
+people,
+ which
+ is
+ have
+ AI
+ go
+ read
+ your
+
+
+emails
+ and
+ come
+ back
+ and
+ build
+ a
+ skill,
+
+
+which
+ I
+ think
+ is
+ really
+ important.
+ And
+
+
+and
+ skills,
+ remember,
+ for
+ folks
+ are
+ just
+
+
+these
+ like
+ containerized
+ little
+ sets
+ of
+
+
+instructions
+ that
+ can
+ be
+ called
+ at
+ any
+
+
+time.
+ Go
+ build
+ a
+ skill
+ that
+ writes
+
+
+emails
+ in
+ my
+ tone.
+ And
+ you
+ know,
+ I
+ think
+
+
+as
+ somebody
+ who's
+ developing
+ a
+ daily
+
+
+operating
+ system,
+ I
+ call
+ this
+ your
+ like
+
+
+anti-to-do
+ list
+ is
+ you
+ come
+ up
+ with
+
+
+these
+ list
+ of
+ things
+ that
+ you
+ just
+ like
+
+
+never
+ want
+ to
+ do
+ again.
+ Like
+ I
+ never
+
+
+want
+ to
+ have
+ to
+ first
+ draft
+ my
+ emails
+
+
+again.
+ I
+ never
+ want
+ to
+ have
+ to
+ like
+ show
+
+
+up
+ to
+ a
+ meeting
+ late
+ because
+ there's
+ a
+
+
+conflict
+ on
+ my
+ calendar
+ or
+ they've
+ been
+
+
+set
+ back
+ to
+ back.
+ I
+ just
+ want
+ these
+
+
+things
+ I
+ never
+ have
+ to
+ worry
+ about.
+ And
+
+
+I
+ think
+ as
+ somebody
+ who's
+ coming
+ in
+ and
+
+
+trying
+ to
+ think
+ about
+ how
+ could
+ I
+ use
+
+
+co-work
+ or
+ something
+ for
+ my
+ daily
+
+
+operating
+ system,
+ this
+ idea
+ of
+ like
+
+
+burning
+ down
+ your
+ anti-to-do
+ list
+ and
+
+
+then
+ building
+ skills
+ on
+ all
+ those
+ is
+ is
+
+
+really
+ sharp.
+ And
+ what
+ I
+ think
+ you're
+
+
+showing
+ is
+ you
+ can
+ use
+ connectors
+ plus
+
+
+the
+ brains
+ of
+ co-work
+ to
+ kind
+ of
+ come
+
+
+together
+ and
+ not
+ only
+ functionally
+
+
+achieve
+ that,
+ but
+ achieve
+ that
+ in
+ a
+ way
+
+
+that's
+ high
+ quality
+ for
+ you
+ personally.
+
+
+>> Yeah.
+ And
+ the
+ results
+ have
+ been
+ really
+
+
+good
+ with
+ it,
+ too.
+
+
+>> Yeah.
+ You
+ have
+ I
+ mean,
+ are
+ you
+ really
+
+
+getting
+ emails
+ that
+ like
+ sound
+ like
+
+
+sound
+ like
+ you?
+ Okay.
+
+
+>> Exactly.
+ And
+ normally
+ what
+ I'll
+ do
+ is
+
+
+I'll
+ go
+ into
+ my
+ instructions
+ here
+ and
+ uh
+
+
+I
+ haven't
+ done
+ this
+ step
+ yet,
+ but
+ I'll
+
+
+say
+ never
+ send
+ emails
+ on
+ my
+ behalf.
+ only
+
+
+write
+ them
+ as
+ drafts
+ for
+ me
+ to
+ review.
+
+
+Right?
+ And
+ now
+ this
+ is
+ a
+ very
+ clear
+ uh
+
+
+instructions
+ of
+ like,
+ hey,
+ it's
+ actually
+
+
+never
+ going
+ to
+ send
+ anything
+ for
+ me
+
+
+because
+ I
+ don't
+ trust
+ that
+ yet.
+ But
+
+
+everything
+ that
+ I
+ ask
+ it
+ to
+ send,
+ it's
+
+
+going
+ to
+ write
+ that
+ draft
+ and
+ just
+
+
+prepare
+ it
+ in
+ my
+ outbox
+ or
+ my
+ drafts
+ so
+
+
+I
+ can
+ approve
+ it
+ and
+ then
+ send
+ it
+ as
+
+
+well.
+
+
+>> By
+ the
+ way,
+ you're
+ being
+ very
+ chill
+
+
+about
+ all
+ your
+ um
+ voice
+ entry
+ stuff.
+
+
+What
+ What
+ is
+ your
+ uh
+ voice
+ tool
+ of
+
+
+choice?
+
+
+>> Whisper
+ flow.
+
+
+>> Whisper
+ flow.
+
+
+>> It's
+ just
+ it's
+ captured
+ my
+ heart.
+ I'm
+ a
+
+
+monologue
+ girl,
+ so
+ you
+ know,
+ we
+ all
+ we
+
+
+all
+ pick
+ our
+ favorites.
+
+
+>> You
+ know
+ what?
+ It
+ all
+ works.
+ It
+ all
+
+
+works.
+
+
+>> It
+ all
+ works.
+ This
+ episode
+ is
+ brought
+ to
+
+
+you
+ by
+ Cursor.
+ If
+ you
+ all
+ have
+ been
+
+
+watching
+ How
+ I
+ AI,
+ you
+ already
+ know
+
+
+this.
+ Cursor
+ is
+ my
+ favorite
+ way
+ to
+ code
+
+
+with
+ AI.
+ Whether
+ I'm
+ using
+ plan
+ mode
+ to
+
+
+build
+ out
+ an
+ ambitious
+ feature,
+
+
+reviewing
+ AI
+ generated
+ diffs
+ right
+ in
+ my
+
+
+editor
+ or
+ kicking
+ off
+ cloud
+ agents
+ to
+
+
+multi-thread
+ our
+ roadmap,
+ I
+ reach
+ for
+
+
+cursor
+ as
+ my
+ favorite
+ multimodel
+ coding
+
+
+platform.
+ Even
+ better
+ than
+ building
+
+
+myself
+ and
+ cursor,
+ I
+ love
+ collaborating
+
+
+with
+ bugbot
+ to
+ fix
+ PRs
+ for
+ code
+ security
+
+
+and
+ quality
+ and
+ have
+ begun
+ relying
+ on
+
+
+cursor's
+ automated
+ agents
+ to
+ keep
+ our
+
+
+codebase
+ clean.
+ It's
+ not
+ just
+ me.
+ The
+
+
+most
+ ambitious
+ teams
+ love
+ Cursor
+ 2,
+
+
+including
+ engineers
+ at
+ Stripe,
+ OpenAI,
+
+
+and
+ Figma.
+ Ready
+ to
+ build
+ more?
+ We're
+
+
+giving
+ $50
+ in
+ cursor
+ credit
+ to
+ How
+ I
+ AI
+
+
+listeners.
+ Claim
+ your
+ credits
+ at
+
+
+chatpd.ai/howi
+
+
+AI.
+ That's
+ $50
+ in
+ cursor
+ credits
+ by
+
+
+going
+ to
+ chatpd.ai/howi
+
+
+AI.
+ Okay.
+ So,
+ you've
+ started
+ I
+ I
+ see
+ a
+ a
+
+
+popup
+ here.
+ So
+ tell
+ me
+ what's
+ what's
+
+
+going
+ on.
+
+
+>> So
+ this
+ is
+ one
+ of the
+ things
+ I
+ love
+
+
+about
+ having
+ this
+ project
+ system.
+ You're
+
+
+orchestrating
+ now.
+ Even
+ though
+ you
+ might
+
+
+not
+ be
+ a
+ developer,
+ you're
+ now
+ an
+ AI
+
+
+orchestrator.
+ You
+ can
+ run
+ many
+ agents
+ at
+
+
+once
+ and
+ have
+ this
+ top
+ level
+ view
+ to
+ be
+
+
+able
+ to
+ just
+ quickly
+ see
+ which
+ agent
+
+
+needs
+ your
+ attention
+ and
+ just
+ give
+ them
+
+
+those
+ permissions
+ or
+ to
+ pop
+ back
+ in.
+ So
+
+
+right
+ now
+ we
+ do
+ see
+ that
+ hey
+ this
+ uh
+
+
+agent
+ needs
+ our
+ attention.
+ We
+ can
+ go
+ in
+
+
+and
+ review
+ that
+ and
+ it's
+ ask
+ actually
+
+
+just
+ asking
+ us
+ if
+ we
+ want
+ to
+ allow
+ this.
+
+
+Okay.
+ So
+ without
+ even
+ having
+ to
+ go
+ in
+
+
+there,
+ I
+ can
+ just
+ allow
+ that.
+ I
+ could
+ go
+
+
+into
+ that
+ connector
+ and
+ change
+ those
+
+
+privileges
+ just
+ to
+ say
+ always
+ allow.
+ So
+
+
+I
+ don't
+ have
+ to
+ do
+ that.
+ But
+ in
+ this
+
+
+case,
+ that
+ was
+ set
+ to
+ a
+ ask
+ for
+ my
+
+
+permission.
+ Okay,
+
+
+>> this
+ is
+ one
+ of
+ my
+ one
+ of
+ my
+ problems
+
+
+with
+ with
+ co-work,
+ which
+ is
+ this
+ is
+ just
+
+
+like
+ such
+ a
+ lovely
+ non-technical
+
+
+experience
+ until
+ it
+ shoves
+ like
+ a
+ bash
+
+
+command
+ in
+ your
+ face
+ and
+ is
+ like,
+ "Hey,
+
+
+do
+ you
+ want
+ to
+ allow
+ this
+ or
+ not?"
+ Yeah.
+
+
+And
+ I
+ just
+ for
+ all
+ all
+ the
+ nontechnical
+
+
+folks
+ out
+ there
+ that
+ just
+ were
+ like,
+
+
+"Hey,
+ hold
+ on.
+ I
+ just
+ saw
+ a
+ big
+ line
+ of
+
+
+code
+ that
+ said,
+ "Are
+ you
+ okay
+ with
+
+
+running
+ this?"
+
+
+>> You
+ can
+ also
+ like
+ copy
+ and
+ paste
+ that
+
+
+and
+ ask
+ a
+ different
+ cla
+ what
+ does
+ this
+
+
+mean?
+ You
+ know,
+ and
+ I
+ think
+ what's
+ kind
+
+
+of
+ interesting
+ about
+ these
+ hybrid
+ tools
+
+
+that
+ are
+ kind
+ of
+ userfacing
+
+
+non-technical
+ folks,
+ but
+ have
+ this
+ like
+
+
+claude
+ code
+ back
+ uh
+ back
+ end
+ is
+ it's
+ a
+
+
+nice
+ way
+ to
+ actually
+ step
+ your
+ way
+ into
+
+
+the
+ cloud
+ code
+ experience
+ bit
+ by
+ bit.
+
+
+But
+ again,
+ don't
+ be
+ afraid.
+ I
+ think
+ you
+
+
+can
+ be
+ pretty
+ unafraid
+ of
+ some
+ of
+ these
+
+
+alerts
+ that
+ may
+ look
+ technical
+ because
+
+
+you
+ can
+ always
+ go
+ ask
+ what
+ does
+ this
+
+
+mean?
+ Um
+ should
+ I
+ do
+ this?
+ And
+ I
+ will
+
+
+also
+ say
+ that
+ I
+ think
+ co-work
+ in
+
+
+particular
+ has
+ been
+ tuned
+ to
+ be
+ pretty
+
+
+user
+ friendly.
+ Like
+ there
+ isn't
+ a
+
+
+dangerously
+ skip
+ permissions
+ on
+ co-work
+
+
+quite
+ yet.
+ And
+ so
+ anything
+ that
+ Claude's
+
+
+asking
+ you
+ to
+ do
+ is
+ probably
+ in
+ the
+
+
+realm
+ of
+ safe.
+ Um
+ although
+ it's
+
+
+important
+ to
+ read
+ whenever
+ you
+ hit
+ that
+
+
+approve
+ button.
+
+
+>> I
+ was
+ on
+ the
+ fence
+ about
+ calling
+ this
+
+
+out,
+ but
+ people
+ ask
+ me
+ co-workers
+ versus
+
+
+open
+ claw.
+ And
+ I
+ know
+ you're
+ really
+ big
+
+
+in
+ open
+ claw
+ and
+ I
+ and
+ I
+ am
+ too.
+ I
+
+
+really
+ really
+ love
+ it.
+ But
+ the
+ way
+ that
+
+
+I
+ think
+ about
+ this
+ is
+ OpenClaw
+ is
+ for
+
+
+work
+ in
+ business
+ where
+ you
+ can
+ trust
+ it
+
+
+with
+ your
+ more
+ significant
+ connections.
+
+
+And
+ OpenClaw
+ is
+ incredible,
+ but
+ you
+
+
+maybe
+ don't
+ trust
+ as
+ much
+ with
+ your
+
+
+business
+ tooling,
+ especially
+ in
+ the
+
+
+first.
+ It's
+ a
+ great
+ personal
+ assistant.
+
+
+It's
+ a
+ great
+ autonomous
+ agent
+ and
+ can
+ do
+
+
+so
+ much.
+ And
+ so
+ I
+ use
+ both
+ together,
+ but
+
+
+co-work
+ is
+ like
+ my
+ daily
+ business
+ driver
+
+
+and
+ OpenClaw
+ is
+ more
+ like
+ my
+ personal
+
+
+assistant.
+ Can
+ they
+ like
+ just
+ help
+ me
+ in
+
+
+a
+ lot
+ of
+ things
+ with
+ limited
+ access
+ to
+ a
+
+
+lot
+ of
+ its
+ own
+ accounts.
+ Yeah,
+ I'm
+ I'm
+
+
+full
+ claw
+ full
+ press
+ claw
+ world.
+ Um,
+ but
+
+
+again,
+ I
+ mean,
+ again,
+ I
+ cannot
+ go
+
+
+throughout
+ through
+ my
+ day
+ without
+
+
+somebody
+ texting
+ me
+ like
+ co-workers
+
+
+doing
+ my
+ job
+ for
+ me.
+ I'm
+ h
+ happy
+ as
+ can
+
+
+be.
+
+
+>> Um,
+ so
+ you
+ shown
+ a
+ shown
+ an
+ example
+ that
+
+
+I
+ think
+ is
+ generally
+ applicable
+ to
+
+
+people,
+ which
+ is
+ write
+ write
+ my
+ emails.
+
+
+What
+ else?
+ I
+ mean
+ just
+ kind
+ of
+ top
+ hits
+
+
+of
+ workflows
+ that
+ you
+ think
+ something
+
+
+like
+ co-work
+ could
+ do
+ for
+ you
+ that
+ you
+
+
+think
+ belongs
+ in
+ in
+ your
+ operating
+
+
+system.
+
+
+>> Yeah,
+ for
+ sure.
+ So
+ I
+ just
+ looking
+ at
+
+
+this
+ agent
+ here,
+ it
+ analyzed
+ 46
+ emails
+
+
+uh
+ and
+ it
+ went
+ in
+ and
+ created
+ a
+ email
+
+
+style
+ guide
+ for
+ me
+ uh
+ and
+ a
+ voice
+
+
+profile
+ and
+ saved
+ it
+ to
+ my
+ memory
+ as
+
+
+well.
+ So
+ I'm
+ going
+ to
+ go
+ back
+ over
+ here.
+
+
+The
+ next
+ thing
+ that
+ I
+ really
+ like
+ to
+ use
+
+
+is
+ Claude
+ as
+ a
+ thinking
+ partner.
+
+
+Thinking
+ partner
+ can
+ come
+ in
+ many
+ shapes
+
+
+and
+ sizes.
+ It
+ could
+ be
+ like
+ how
+ do
+ I
+
+
+respond
+ to
+ this
+ Slack
+ message?
+ How
+ do
+ I
+
+
+respond
+ to
+ my
+ colleague
+ and
+ give
+ them
+
+
+good
+ feedback?
+ How
+ do
+ I
+ think
+ about
+ my
+
+
+career
+ and
+ what
+ I
+ should
+ do
+ next?
+ Now
+
+
+you
+ can
+ have
+ a
+ skill
+ or
+ a
+ thinking
+
+
+partner
+ for
+ each
+ one
+ of
+ those
+ or
+ you
+ can
+
+
+have
+ a
+ generic
+ one.
+ Right
+ now
+ we
+ are
+
+
+going
+ to
+ just
+ create
+ like
+ a
+ thinking
+
+
+partner
+ like
+ a/mentor
+ that
+ you
+ can
+ just
+
+
+trigger
+ and
+ just
+ like
+ help
+ you
+ think
+
+
+through
+ important
+ decisions
+ and
+ it
+ will
+
+
+kind
+ of
+ like
+
+
+talk
+ back
+ to
+ you
+ in
+ a
+ way
+ that
+ you
+ want
+
+
+to
+ be
+ supported.
+ And
+ so
+ I'm
+ going to
+
+
+launch
+ another
+ agent
+ here
+ and
+ I'm
+ going
+
+
+to
+ say,
+ "Help
+ me
+ create
+ a
+ new
+ uh
+ skill
+
+
+that
+ is
+ going
+ to
+ be
+ our
+ thinking
+
+
+partner."
+ This
+ thinking
+ partner
+ skill
+
+
+when
+ invoked
+ is
+ going
+ to
+ allow
+ me
+ to
+
+
+think
+ about
+ how
+ to
+ respond
+ to
+ something,
+
+
+how
+ to
+ make
+ a
+ decision,
+ how
+ to
+ critique
+
+
+in
+ a
+ colleague
+ that
+ I'm
+ working
+ with
+ in
+
+
+a
+ good
+ but
+ effective
+ and
+ helpful
+ way,
+
+
+how
+ to
+ think
+ about
+ my
+ career
+ at
+ large,
+
+
+and
+ just
+ generally
+ going
+ to
+ help
+ me
+
+
+think
+ through
+ the
+ bigger
+ items
+ of
+
+
+whatever
+ task
+ is
+ at
+ hand.
+ Um,
+ and
+ you
+
+
+can
+ invoke
+ this
+ by
+ saying,
+ you
+ know,
+
+
+help
+ me
+ think
+ through
+ this
+ or,
+ you
+ know,
+
+
+navigate
+ my
+ thinking
+ partner
+ or
+ anything
+
+
+like
+ that.
+
+
+And
+ then
+ one
+ last
+ thing
+ I
+ do
+ want
+ to
+ add
+
+
+is
+ please
+ ask
+ me
+ any
+ questions
+ if
+ you're
+
+
+unclear.
+ I
+ love
+ the
+ asking
+ any
+ questions
+
+
+if
+ you're
+ unclear
+ uh
+ because
+ generally
+ a
+
+
+lot
+ of
+ times
+ it
+ is
+ and
+ it
+ just
+ forces
+ it
+
+
+to
+ like
+ really
+ get
+ the
+ more
+ more
+ context
+
+
+that
+ it
+ needs
+ to
+ make
+ sure
+ that
+ it's
+
+
+building
+ something
+ specific
+ to
+ you.
+
+
+Right
+ now,
+ we've
+ talked
+ about
+ skills
+ a
+
+
+lot
+ and
+ we've
+ actually
+ even
+ started
+
+
+creating
+ skills.
+ Skills
+ are
+ really
+
+
+powerful.
+ You
+ could
+ think
+ about
+ it
+ as
+
+
+like
+ a
+ very
+ detailed
+ prompt
+ that
+ is
+
+
+reusable
+ in
+ many
+ different
+ ways.
+ And
+ so
+
+
+rather
+ than
+ saying,
+ "Hey,
+ go
+ off
+ and
+
+
+create
+ this
+ newsletter
+ for
+ me."
+ And
+ then
+
+
+tell
+ it
+ everything
+ that
+ you
+ want
+ your
+
+
+newsletter,
+ you
+ can
+ do
+ that
+ once
+ and
+
+
+have
+ a
+ very
+ clear
+ pattern
+ for
+ like
+
+
+everything
+ in
+ your
+ newsletter.
+ And
+ then
+
+
+you
+ can
+ just
+ say,
+ "Hey,
+ write
+ the
+
+
+newsletter."
+ and
+ it
+ will
+ invoke
+ that
+
+
+skill
+ and
+ automatically
+ use
+ that
+
+
+instructions
+ every
+ single
+ time.
+
+
+>> Yeah.
+ And
+ for
+ folks
+ uh
+ I
+ do
+ actually
+
+
+have
+ literally
+ that
+ skill
+ in
+ my
+ my
+ core
+
+
+chat
+ PRD
+ repo.
+ I
+ use
+ it
+ through
+ cloud
+
+
+code.
+ So
+ I
+ just
+ do
+ a
+ slashnewsletter
+
+
+every
+ Monday
+ and
+ it
+ goes
+ and
+ looks
+
+
+through
+ my
+ change
+ log.
+ It
+ writes
+ the
+
+
+newsletter.
+ It
+ does
+ it
+ in
+ my
+ voice.
+ It
+
+
+formats
+ it
+ for
+ the
+ newsletter
+ platform.
+
+
+It
+ pushes
+ it
+ via
+ API
+ and
+ then
+ I
+ just
+ go
+
+
+in
+ and
+ do
+ a
+ couple
+ edits
+ and
+ and
+ move
+ on
+
+
+with
+ my
+ life.
+ So
+ that's
+ that's
+ a
+ really
+
+
+great
+ great
+ use
+ case.
+
+
+>> Let
+ me
+ have
+ one
+ more
+ that
+ we
+ get
+ going
+
+
+here.
+ This
+ is
+ already
+ building.
+
+
+>> Hey
+ Claude,
+ I
+ want
+ you
+ to
+ build
+ another
+
+
+uh
+ skill
+ and
+ this
+ is
+ going
+ to
+ be
+ a
+
+
+review
+ agent.
+ For
+ this
+ skill,
+ you're
+
+
+going
+ to
+ launch
+ a
+ series
+ of
+ sub
+ agents
+
+
+that
+ have
+ each
+ their
+ own
+ persona.
+ And
+
+
+this
+ can
+ differ
+ per
+ the
+ task.
+ But
+ an
+
+
+example
+ is
+ if
+ we're
+ launching
+ a
+
+
+newsletter,
+ we
+ want
+ to
+ have
+ sub
+ agents
+
+
+that
+ represent
+ our
+ ICP.
+ Maybe
+ for
+ me
+ it
+
+
+would
+ be
+ AI
+ builders,
+ AI
+ executives
+ and
+
+
+AI
+ interested
+ people.
+ And
+ the
+ goal
+ of
+
+
+this
+ skill
+ is
+ to
+ allow
+ sub
+ agents
+ to
+ be
+
+
+able
+ to
+ review
+ your
+ work
+ and
+ give
+ you
+
+
+honest
+ feedback
+ and
+ to
+ see
+ from
+ three
+
+
+different
+ perspectives
+ where
+ you
+ need
+ to
+
+
+focus
+ at
+ your
+ next
+ iteration
+ to
+ improve
+
+
+the
+ quality
+ of
+ your
+ work.
+ Let
+ me
+ know
+ if
+
+
+you
+ have
+ any
+ questions.
+
+
+So,
+ this
+ is
+ another
+ skill
+ that
+ I
+ really
+
+
+love
+ and
+ I
+ use
+ like
+ across
+ so
+ much
+ of
+ my
+
+
+work.
+ It's
+ like
+ I
+ use
+ it
+ in
+ my
+
+
+newsletter.
+ I
+ use
+ it
+ in
+ my
+ podcast.
+ I
+
+
+use
+ it
+ in
+ my
+ social
+ media
+ writing.
+ It's
+
+
+a
+ subadvisory
+ skill
+ is
+ the
+ general
+
+
+pattern.
+ And
+ what
+ it
+ allows
+ you
+ to
+ do
+ is
+
+
+claude,
+ you
+ know,
+ it's
+ working
+ with
+ you
+
+
+in
+ this
+ context
+ and
+ it
+ generates
+ an
+
+
+output.
+ When
+ you
+ use
+ sub
+ agents,
+ it
+ will
+
+
+spin
+ up
+ three
+ different
+ agents
+ and
+ each
+
+
+of
+ those
+ agents
+ can
+ have
+ their
+ own
+
+
+persona.
+ So
+ like,
+ hey,
+ agent
+ one,
+ you
+
+
+are
+ an
+ AI
+ builder.
+ Agent
+ two,
+ you
+ are
+
+
+someone
+ that
+ is
+ so
+ worried
+ about
+
+
+security.
+ and
+ agent
+ three,
+ maybe
+ you're
+
+
+just
+ uh
+ a
+ mom
+ worried
+ about
+ AI
+ usage
+ or
+
+
+a
+ dad
+ worried
+ about
+ AI
+ usage
+ or
+ just
+ as
+
+
+a
+ arbitrary
+ example,
+ but
+ my
+ point
+ of
+
+
+this
+ is
+ you
+ can
+ define
+ three
+ individual
+
+
+personas
+ with
+ like
+ a
+ fresh
+ context
+
+
+window,
+ meaning
+ like
+ fresh
+ perspective
+
+
+to
+ go
+ and
+ look
+ at
+ your
+ work
+ in
+ a
+
+
+objective
+ way
+ that
+ then
+ brings
+ back
+ that
+
+
+feedback
+ and
+ it
+ helps
+ you
+ kind
+ of
+ figure
+
+
+out
+ like
+ how
+ is
+ this
+ going
+ to
+ be
+
+
+received
+ before
+ I
+ even
+ send
+ it,
+ right?
+
+
+And
+ if
+ you
+ include
+ your
+ ICP
+ personas
+ in
+
+
+there,
+ it
+ also
+ helps
+ with
+ this
+ a
+ lot
+
+
+too.
+ And
+ I
+ found
+ really
+ good
+ results
+
+
+with
+ this
+ kind
+ of
+ framework
+ for
+ creating
+
+
+your
+ skills.
+
+
+>> One
+ thing
+ the
+ one
+ thing
+ I
+ think
+ is
+
+
+really
+ important
+ to
+ call
+ out
+ as
+ you
+ know
+
+
+people
+ think
+ about
+ where
+ this
+ is
+
+
+applicable
+ in
+ their
+ work
+ is
+ so
+ many
+ of
+
+
+us
+ in
+ the
+ last
+ five
+ six
+ years
+ have
+ moved
+
+
+to
+ remote
+ first
+ working
+ where
+ getting
+
+
+collaborative
+ feedback
+ from
+ your
+
+
+teammates
+ is
+ actually
+ highly
+ expensive.
+
+
+You
+ have
+ to
+ call
+ a
+ meeting.
+ Everybody's
+
+
+busy.
+ synchronous
+ work
+ is
+ quite
+ hard
+ and
+
+
+so
+ being
+ able
+ to
+ spin
+ up
+ prefeedback
+
+
+feedback
+ from
+ AI
+ which
+ will
+ give
+ you
+
+
+sort
+ of
+ a
+ roundt
+ view
+ of
+ your
+ work
+
+
+allows
+ you
+ to
+ come
+ to
+ those
+ very
+
+
+expensive
+ meetings
+ honestly
+ with
+ much
+
+
+higher
+ quality
+ pre-thoughtout
+ work
+ um
+
+
+and
+ and
+ also
+ I
+ don't
+ know
+ this
+ is
+ like
+
+
+very
+ sad
+ all
+ my
+ friends
+ are
+ agents
+ which
+
+
+is
+ like
+ it's
+ really
+ hard
+ to
+ work
+ solo
+
+
+like
+ I'm
+ a
+ solo
+ founder
+ it
+ is
+ like
+ very
+
+
+hard
+ to
+ just
+ me
+ by
+ myself
+ ensure
+ that
+
+
+all
+ my
+ ideas
+ are
+ great.
+ And
+ so
+ I
+ haven't
+
+
+heard
+ of
+ anybody
+ giving
+ this
+ advice
+ of
+
+
+like
+ very
+ specific
+ use
+ of
+ sub
+ agents
+
+
+which
+ as
+ you
+ said
+ is
+ just
+ imagine
+ like
+
+
+there's
+ a
+ chat
+ that's
+ chatting
+ with
+
+
+other
+ chats
+ that
+ have
+ some
+ but
+ not
+ all
+
+
+the
+ context
+ and
+ their
+ own
+ point
+ of
+ view.
+
+
+Maybe
+ that's
+ how
+ you
+ think
+ about
+ sub
+
+
+agents
+ for
+ folks
+ that
+ aren't
+ super
+
+
+technical
+
+
+>> and
+ then
+ aggregate
+ that
+ back
+ up
+ and
+ give
+
+
+you
+ some
+ feedback.
+ I
+ think
+ is
+ a
+ a
+ really
+
+
+useful
+ just
+ hack
+ that
+ everybody
+ should
+
+
+have
+ for
+ their
+ work.
+ So
+ if
+ you're
+ a
+
+
+product
+ manager,
+ build
+ it
+ and
+ like
+ put
+
+
+your
+ boss
+ in
+ there,
+ your
+ engineering
+
+
+partner,
+ and
+ your
+ customer
+ and
+ say
+ every
+
+
+PRD
+ review
+ from
+ the
+ these
+ three
+ points
+
+
+of
+ view
+ and
+ give
+ me
+ feedback.
+ If
+ you're
+
+
+in
+ marketing
+ again,
+ like
+ your
+ ICP,
+ give
+
+
+feedback.
+ I
+ think
+ there's
+ just
+ a
+ lot
+ of
+
+
+places
+ where
+ this
+ sort
+ of
+ multi-
+ view
+
+
+feedback
+ mechanism
+ is
+ is
+ super
+ useful.
+
+
+>> 100%.
+ We
+ could
+ take
+ this
+ a
+ step
+ further
+
+
+and
+ say,
+ "Hey,
+ create
+ this
+ sub-advisory
+
+
+skill
+ and
+ each
+ maybe
+ three
+ of
+ the
+
+
+agents,
+ like
+ one
+ agent
+ is
+ literally
+ your
+
+
+boss
+ that
+ you
+ send
+ an
+ agent
+ to
+ go
+
+
+research
+ who
+ your
+ boss
+ is,
+ their
+ role,
+
+
+their
+ perspective,
+ and
+ like
+ really
+
+
+define
+ like
+ the
+ people
+ that
+ you
+ work
+
+
+with
+ and
+ have
+ like
+ them
+ simulate
+ the
+
+
+feedback
+ that
+ they
+ might
+ give
+ you
+ before
+
+
+you
+ even
+ go
+ to
+ them."
+ Like
+ the
+ sky's
+ is
+
+
+the
+ limit
+ here.
+ And
+ you
+ just
+ got
+ to
+ tell
+
+
+Claude
+ what
+ to
+ do
+ and
+ it's
+ going to
+ go
+
+
+do
+ it
+ for
+ you.
+ So
+ there's
+ a
+ lot
+ of
+ tools
+
+
+that
+ you
+ have
+ at
+ your
+ disposal
+ now
+ uh
+
+
+to,
+ you
+ know,
+ automate
+ a
+ lot
+ of
+ this.
+
+
+Like
+ one
+ example
+ with
+ this
+ is
+ I
+ I
+ also
+
+
+run
+ a
+ newsletter.
+ And
+ so
+ the
+ skill
+ that
+
+
+we
+ have
+ for
+ the
+ newsletter
+ is
+ a
+ almost
+
+
+like
+ a
+ 10-step
+ skill
+ of
+ like
+ before
+ we
+
+
+even
+ start
+ writing
+ this
+ newsletter,
+ I
+
+
+want
+ you
+ to
+ interview
+ me
+ what
+ this
+
+
+newsletter
+ should
+ be
+ written
+ about.
+ Then
+
+
+once
+ you're
+ interviewing
+ me,
+ I
+ also
+ want
+
+
+want
+ you
+ to
+ run
+ a
+ sub
+ agent
+ to
+ do
+
+
+internet
+ research
+ on
+ what
+ is
+ good
+ in
+ the
+
+
+AI
+ world
+ this
+ week.
+ What
+ should
+ we
+ talk
+
+
+about
+ in
+ this?
+ And
+ once
+ my
+ interview
+ is
+
+
+complete
+ and
+ once
+ the
+ research
+ is
+
+
+complete,
+ we
+ now
+ have
+ an
+ idea
+ of
+ like
+
+
+the
+ content
+ that
+ we
+ can
+ do.
+ And
+ then
+
+
+it's
+ going
+ to
+ start
+ working
+ through
+ a
+
+
+series
+ of
+ subsklls
+ which
+ are
+ like
+ what
+
+
+should
+ our
+ subject
+ line
+ be
+ and
+ what
+ are
+
+
+really
+ good
+ subject
+ lines
+ and
+ it's
+ going
+
+
+to
+ have
+ one
+ set
+ of
+ instructions
+ for
+
+
+that.
+ And
+ then
+ my
+ newsletter
+ has
+ like
+
+
+very
+ specific
+ body
+ segments
+ and
+ each
+
+
+body
+ segments
+ has
+ a
+ specific
+ skill
+
+
+within
+ it
+ saying
+ like
+ here's
+ what
+ makes
+
+
+a
+ really
+ good
+ AI
+ native
+ section
+ or
+ what
+
+
+makes
+ a
+ really
+ good
+ uh
+ AI
+ future
+
+
+section,
+ right?
+ And
+ at
+ the
+ end
+ of
+ all
+
+
+those
+ steps,
+ it
+ has
+ an
+ evaluation
+ part
+
+
+of
+ the
+ skill
+ where
+ it's
+ going
+ to
+ go
+
+
+through
+ a
+ series
+ of
+ checklist
+ lists
+ and
+
+
+also
+ launch
+ that
+ subadvisory
+ board.
+ And
+
+
+so
+ it's
+ going
+ to
+ go
+ through
+ all
+ of
+ this.
+
+
+And
+ all
+ I
+ need
+ to
+ do
+ is
+ say
+ ultra
+ think
+
+
+skill
+ and
+ then
+ it's
+ going
+ to
+ start
+ this
+
+
+series
+ that
+ it
+ works
+ through
+ and
+ just
+
+
+helps
+ me.
+ And
+ by
+ the
+ end
+ of
+ it,
+ it's
+
+
+done
+ so
+ much
+ work
+ for
+ me
+ and
+ I've
+ just
+
+
+had
+ to
+ answer
+ some
+ questions.
+ And
+ then
+
+
+it's
+ outputed
+ a
+ draft
+ that
+ I
+ think
+ is
+
+
+really
+ good.
+ And
+ I
+ also
+ feed
+ it
+ my
+ past
+
+
+results
+ of
+ my
+ newsletter
+ of
+ like
+ hey
+
+
+we've
+ written
+ this
+ together.
+ This
+
+
+performed
+ okay
+ and
+ I
+ give
+ it
+ the
+ results
+
+
+and
+ it
+ has
+ a
+ series
+ of
+ feedback
+ and
+ like
+
+
+you
+ know
+ review
+ of
+ like
+ how
+ these
+ things
+
+
+are
+ performing
+ to
+ see
+ what's
+ working
+ and
+
+
+what's
+ not
+ which
+ is
+ a
+ very
+ important
+
+
+step
+ because
+ like
+ if
+ you
+ don't
+ tell
+ AI
+
+
+what
+ success
+ is
+ to
+ you
+ AI
+ doesn't
+ know
+
+
+what
+ success
+ is
+ for
+ you.
+ So
+ I
+ always
+
+
+love
+ including
+ good
+ examples
+ and
+ bad
+
+
+examples.
+ This
+ is
+ very
+ clear
+ for
+ like
+
+
+writing.
+ If
+ you're
+ writing
+ and
+ you
+
+
+really
+ like
+ something,
+ include
+ it
+ in
+ a
+
+
+good
+ example.
+ But
+ if
+ it
+ comes
+ back
+ with
+
+
+something
+ that
+ you
+ don't
+ like,
+ put
+ it
+ in
+
+
+a
+ bad
+ example
+ of
+ like,
+ "Hey,
+ don't
+ do
+
+
+that
+ again.
+ That
+ doesn't
+ look
+ good."
+ And
+
+
+this
+ way,
+ you're
+ showing
+ Claude
+ what
+ is
+
+
+good
+ for
+ you
+ and
+ what
+ is
+ bad
+ for
+ you,
+
+
+cuz
+ that's
+ subjective
+ and
+ different
+ for
+
+
+everyone.
+ And
+ Claude
+ needs
+ to
+ know
+ it.
+
+
+All right.
+ So,
+ we
+ have
+ this
+ multi-agent
+
+
+perspective
+ here,
+ and
+ we
+ can
+ see
+ that
+
+
+we've
+ done
+ a
+ couple
+ of
+ things.
+ This
+ one,
+
+
+the
+ thinking
+ partner
+ skill,
+ needs
+ my
+
+
+review.
+ So,
+ I'm
+ going
+ to
+ go
+ in
+ there,
+
+
+and
+ I'm
+ just
+ going to
+ review
+ it.
+ And
+ um
+
+
+it's
+ looking
+ for
+ some
+ information
+ here
+
+
+and
+ it
+ looks
+ like
+ it
+ had
+ opened
+ up.
+ So
+
+
+they
+ have
+ this
+ new
+ interface
+ here
+ which
+
+
+allows
+ you
+ to
+ review
+ your
+ thinking
+ skill
+
+
+or
+ whatever
+ skill
+ you
+ created
+ and
+ see
+
+
+like
+ and
+ like
+ test
+ it
+ in
+ real
+ time
+ to
+
+
+see
+ how
+ it
+ would
+ come
+ back
+ and
+ evaluate
+
+
+it
+ like
+ that.
+ Right?
+ So
+ that's
+ very
+
+
+helpful
+ if
+ you
+ want
+ to
+ use
+ that.
+ But
+
+
+what
+ I
+ want
+ to
+ do
+ is
+ I
+ want
+ to
+ go
+ back
+
+
+to
+ my
+ project
+ here
+ and
+ I
+ want
+ to
+ create
+
+
+something
+ called
+ a
+ scheduled
+ task
+ with
+
+
+you.
+ A
+ scheduled
+ task
+ allows
+ you
+ to
+
+
+create
+ something
+ that
+ runs
+ on
+ a
+
+
+frequency.
+ So
+ it
+ could
+ run
+ every
+ hour,
+
+
+day,
+ weekday,
+ weekly,
+ whatever.
+ And
+ this
+
+
+scheduled
+ task
+ is
+ going
+ to
+ be
+ a
+ morning
+
+
+debrief.
+ I
+ want
+ you
+ every
+ single
+ morning
+
+
+to
+ look
+ at
+ my
+ email,
+ my
+ Slack,
+ and
+ my
+
+
+calendar
+ and
+ check
+ it
+ to
+ help
+ organize
+ a
+
+
+plan
+ of
+ action
+ for
+ the
+ day.
+ So
+ that
+ way
+
+
+when
+ I
+ get
+ into
+ the
+ office,
+ I
+ am
+ aware
+
+
+of
+ any
+ kind
+ of
+ messages
+ that
+ need
+ my
+
+
+attention.
+ And
+ you
+ can
+ start
+ preparing
+
+
+me
+ for
+ my
+ day
+ by
+ looking
+ through
+ my
+
+
+calendar
+ and
+ looking
+ through
+ my
+ events
+
+
+and
+ if
+ I
+ need
+ any
+ kind
+ of
+ meeting
+ prep,
+
+
+helping
+ me
+ do
+ that.
+ But
+ generally,
+ the
+
+
+output
+ is
+ going
+ to
+ be
+ like
+ a
+ plan
+ for
+
+
+the
+ day,
+ helping
+ me
+ get
+ started
+ on
+ the
+
+
+best
+ foot
+ every
+ single
+ day.
+
+
+So,
+ that's
+ going
+ to
+ be
+ the
+ prompt.
+ And
+
+
+I'm
+ going
+ to
+ run
+ that
+ daily.
+ And
+ I
+ want
+
+
+it
+ to
+ run
+ at
+ like
+ 7:30
+ a.m.
+ And
+ I
+ could
+
+
+choose
+ what
+ model
+ I
+ want
+ this
+ to
+ run
+
+
+with
+ or
+ where
+ these
+ outputs
+ should
+ go.
+
+
+Um,
+ in
+ this
+ sense,
+ it's
+ going
+ to
+ be
+ um,
+
+
+you
+ know,
+ the
+ daily
+ operations.
+ That's
+
+
+going
+ to
+ be
+ good.
+ Um,
+ and
+ I'm
+ going
+ to
+
+
+just
+ be
+ able
+ to
+ save
+ that.
+
+
+>> It
+ needs
+ a
+ name.
+
+
+>> Ah,
+ there
+ it
+ is.
+ Thank
+ you.
+ I
+ was
+ like,
+
+
+what
+ is
+ it?
+ Morning
+ debrief.
+ I
+ want
+ to
+
+
+call
+ out
+ for
+ folks,
+ we've
+ seen
+ a
+ couple
+
+
+of
+ these
+ like
+ morning
+ debrief
+ uh
+
+
+examples
+ on
+ how
+ ai
+ we've
+ seen
+ um
+ Hillary
+
+
+has
+ shown
+ us
+ she
+ uses
+ Obsidian
+ hooked
+ up
+
+
+to
+ her
+ claude
+ code
+ hooked
+ up
+ to
+ her
+
+
+calendar.
+ She
+ writes
+ plan
+ my
+ day.
+ We've
+
+
+seen
+ a
+ couple
+ of
+ these
+ scheduled
+ sort
+ of
+
+
+like
+ news
+ I
+ need
+ to
+ know
+ uh
+ tasks
+ in
+
+
+chat
+ GBT.
+ I
+ think
+ what
+ I
+ want
+ to
+ call
+
+
+out
+ for
+ folks,
+ especially
+ those
+ who
+ are
+
+
+again
+ new
+ to
+ using
+ AI
+ beyond
+ asking
+ a
+
+
+question
+ in
+ chat
+ GPT,
+ which
+ I
+ know
+
+
+honestly
+ you
+ many
+ of
+ of
+ you
+ are,
+ which
+
+
+is
+ I've
+ used
+ chat
+ GPT
+ or
+ Claude
+ to
+ ask
+ a
+
+
+one-off
+ question,
+ get
+ some
+ info,
+ you
+
+
+know,
+ like
+ write
+ a
+ song
+ for
+ my,
+ you
+
+
+know,
+ grandchild
+ or
+ answer
+ a
+ question
+
+
+about
+ my
+ medical
+ health
+ or
+ write
+ a
+
+
+document
+ to
+ my
+ HOA,
+ whatever.
+ We,
+ you
+
+
+know,
+ people
+ have
+ used
+ that
+ use
+ case,
+
+
+but
+ what
+ I
+ think
+ you're
+ showing
+ here
+ is
+
+
+something
+ that
+ wasn't
+ accessible
+ to
+
+
+folks,
+ which
+ is
+ you
+ can
+ actually
+ build
+ a
+
+
+little
+ software
+ powered
+ system
+ for
+
+
+yourself
+ to
+ make
+ your
+ day
+ go
+ easier.
+ And
+
+
+it
+ could
+ be
+ writing
+ emails
+ for
+ you.
+ It
+
+
+could
+ be,
+ you
+ know,
+ every
+ morning
+ send
+
+
+you
+ a
+ message
+ about
+ what
+ your
+ schedule
+
+
+looks
+ like.
+ Let's
+ say
+ you're
+ not
+ even
+
+
+you
+ don't
+ even
+ have
+ a
+ busy
+ schedule.
+
+
+Like
+ I'm
+ thinking
+ about,
+ you
+ know,
+ my
+
+
+dad's
+ retired
+
+
+>> like
+ news
+ that
+ you're
+ you
+ might
+ be
+
+
+interested
+ in
+ for
+ the
+ day.
+ I
+ have
+ a
+ a
+
+
+daily
+ um
+ you
+ know,
+ in
+ the
+ in
+ the
+
+
+technical
+ world,
+ we
+ call
+ it
+ a
+ cron
+ and
+
+
+when
+ you're
+ on
+ the
+ when
+ you're
+ on
+ the
+
+
+open
+ claw
+ side,
+ but
+ I
+ have
+ a
+ daily
+
+
+schedule
+ and
+ in
+ the
+ morning
+ I
+ get
+ pushed
+
+
+something
+ kind
+ of
+ fun
+ and
+ interesting
+ in
+
+
+the
+ AI
+ space
+ and
+ at
+ night
+ I
+ get
+ pushed
+
+
+an
+ article
+ that
+ will
+ like
+ make
+ me
+ feel
+
+
+good,
+ you
+ know?
+ Oh,
+ and
+ so
+ you
+ just
+
+
+think
+ about
+ if
+ the
+ internet
+ could
+ come
+
+
+to
+ me
+
+
+>> as
+ opposed
+ to
+ me
+ having
+ to
+ go
+ to
+ the
+
+
+internet,
+ what
+ would
+ I
+ want
+ the
+ internet
+
+
+to
+ come
+ to
+ come
+ to
+ me
+ with?
+ And
+ that's
+
+
+what
+ I
+ think
+ you
+ focus
+ your
+ your
+ morning
+
+
+debrief
+ on.
+ So
+ it
+ could
+ be
+ like
+ highly
+
+
+functional
+ from
+ a
+ productivity
+
+
+perspective.
+ It
+ could
+ be,
+ you
+ know,
+ go
+
+
+fill
+ your
+ water
+ glass,
+ don't
+ drink
+
+
+coffee
+ on
+ an
+ empty
+ stomach,
+ go
+ for
+ a
+
+
+walk
+ and
+ say
+ hello
+ to
+ the
+ sun.
+ It
+ can
+ be
+
+
+any
+ of
+ those
+ things,
+ but
+ it
+ can
+ be
+
+
+scheduled
+ and
+ it
+ can
+ be
+ pushed
+ to
+ you.
+
+
+>> Right.
+ And
+ right
+ now
+ since
+ we've
+
+
+scheduled
+ this
+ within
+ a
+ project,
+ it
+ has
+
+
+all
+ the
+ context
+ of
+ your
+ project
+ as
+ well.
+
+
+Meaning
+ the
+ skills,
+ your
+ connectors
+ and
+
+
+everything.
+ And
+ that's
+ why
+ having
+ it
+
+
+scheduled
+ within
+ a
+ project
+ like
+ building
+
+
+up
+ that
+ context,
+ it
+ gets
+ very
+ powerful
+
+
+over
+ time
+ and
+ you're
+ going
+ to
+ get
+ better
+
+
+results.
+ So
+ this
+ could
+ be
+ a
+ project
+
+
+debrief
+ or
+ like
+ if
+ you're
+ a
+ project
+
+
+manager,
+ every
+ single
+ day
+ it's
+ going
+ to
+
+
+look
+ at
+ this
+ project
+ and
+ just
+ help
+ write
+
+
+a
+ plan
+ of
+ action
+ for
+ all
+ of
+ your
+ team
+
+
+members
+ to
+ and
+ send
+ as
+ a
+ Slack
+ message.
+
+
+So
+ like
+ once
+ they
+ enter
+ that
+ project
+
+
+plan
+ for
+ the
+ day
+ is
+ done
+ very
+ specific
+
+
+to
+ each
+ project,
+ right?
+ So
+ there's
+ just
+
+
+so
+ many
+ ways
+ you
+ can
+ use
+ it.
+ And
+ this
+
+
+also
+ connects
+ to
+ all
+ of
+ my
+ tools.
+ So
+
+
+it's
+ going
+ to
+ read
+ my
+ email
+ and
+ my
+
+
+calendar
+ and
+ my
+ Slack
+ and
+ just
+ prepare
+ a
+
+
+daily
+ plan
+ with
+ all
+ that
+ context
+ in
+ mind
+
+
+in
+ a
+ safe
+ way.
+ That's
+ like
+ the
+ unlock
+
+
+for
+ me
+ is
+ like
+ just
+ being
+ able
+ to
+ read
+
+
+all
+ these
+ tools
+ and
+ use
+ an
+ AI
+ on
+ top
+ of
+
+
+that
+ to
+ like
+ help
+ me
+ do
+ my
+ job
+ better.
+
+
+>> Yeah.
+ And
+ I'll
+ just
+ call
+ out
+ for
+ folks
+
+
+because
+ again
+ I
+ think
+ this
+ is
+ sort
+ of
+
+
+like
+ a
+ claude
+ co-work
+ folks
+ that
+ are
+
+
+maybe
+ newer
+ to
+ using
+ AI
+ in
+ this
+
+
+particular
+ way
+ and
+ the
+ things
+ that
+
+
+you're
+ going
+ to
+ hear
+ is
+ like
+ do
+ I
+ want
+
+
+AI
+ reading
+ my
+ email?
+ Do
+ I
+ want
+ AI
+
+
+reading
+ you
+ know
+ my
+ calendar?
+ And
+ the
+
+
+recommendation
+ that
+ I
+ give
+ to
+ everybody
+
+
+is
+ again
+ just
+ think
+ about
+ this
+ as
+
+
+progressive
+ trust
+ which
+ is
+ at
+ first
+ you
+
+
+just
+ may
+ want
+ it
+ to
+ draft
+ emails
+ for
+
+
+you.
+ Then
+ you
+ may
+ want
+ it
+ to
+ read
+ your
+
+
+emails.
+ Then
+ you
+ may
+ want
+ it
+ to
+ read
+
+
+your
+ calendar
+ or
+ your
+ Slack
+ or
+ any
+ of
+
+
+those
+ things.
+ Then
+ you
+ may
+ want
+ to
+ have
+
+
+like
+ a
+ shadow
+ JJ
+ that
+ actually
+ just
+
+
+operates
+ completely
+ independent
+ of
+ you
+
+
+and
+ you're
+ in
+ the
+ Bahamas
+ hanging
+ out
+
+
+and
+ you
+ know,
+ agent
+ JJ
+ is
+ actually
+ doing
+
+
+your
+ job
+ for
+ you.
+ Just
+ think
+ about
+ this
+
+
+on
+ like
+ a
+ trust
+ spectrum.
+ you'll
+ get,
+
+
+you
+ know,
+ you'll
+ get
+ to
+ clarvo
+ level
+ at
+
+
+some
+ point
+ where
+ you're
+ just
+ like
+
+
+floating
+ floating
+ through
+ the
+ tokens
+ um
+
+
+approving
+ API
+ access.
+ But
+ I
+ I
+ do
+ think,
+
+
+you
+ know,
+ people
+ get
+ nervous
+ about
+ this.
+
+
+It's
+ it's
+ a
+ trade
+ of
+ of
+ of
+ information
+
+
+for
+ productivity.
+ And
+ it's
+ like
+ we're
+
+
+all
+ on
+ one
+ side
+ or
+ the
+ other,
+ which
+ is
+
+
+you
+ give
+ the
+ AI
+ a
+ little
+ bit
+ of
+
+
+information,
+ it
+ can
+ help
+ you
+ be
+ very
+
+
+very
+ productive.
+ And
+ you've
+ got
+ to
+
+
+figure
+ out
+ where
+ you
+ feel
+ comfortable
+ on
+
+
+that
+ spectrum
+ in
+ your
+ business,
+ in
+ your
+
+
+personal
+ life.
+ I
+ think
+ you
+ and
+ I
+ are
+
+
+just
+ showing
+ if
+ you
+ get
+ to
+ this
+ far
+
+
+further
+ edge,
+ you're
+ going
+ to
+ get
+ a
+ lot
+
+
+of
+ value
+ out
+ of
+ it
+ that
+ that
+ you
+
+
+couldn't
+ before.
+
+
+>> Yeah.
+ And
+ especially
+ with
+ the
+ skills,
+
+
+like
+ I
+ know
+ everyone
+ says
+ skill
+ skills
+
+
+skills,
+ but
+ like
+ I
+ have
+ a
+ skill
+ for
+
+
+everything.
+ I
+ have
+ a
+ skill
+ for
+ writing
+
+
+on
+ Twitter.
+ I
+ have
+ a
+ skill
+ for
+ writing
+
+
+uh
+ in
+ LinkedIn.
+ I
+ have
+ a
+ skill
+ for
+ doing
+
+
+my
+ YouTube
+ uh
+ my
+ podcast,
+ my
+ newsletter.
+
+
+like
+ just
+ having
+ that
+ builtin
+
+
+infrastructure
+ that
+ whenever
+ I
+ need
+ to
+
+
+do
+ any
+ of
+ that
+ stuff,
+ it
+ knows
+ exactly
+
+
+the
+ way
+ I
+ like
+ to
+ work.
+ That
+ is
+ a
+ very
+
+
+big
+ unlock
+ for
+ me.
+ Another
+ thing
+ that
+
+
+I've
+ been
+ doing
+ is
+ I'm
+ working
+ with
+
+
+Anthropic
+ through
+ my
+ company
+ 10X
+ right
+
+
+now.
+ And
+ one
+ of
+ the
+ things
+ that
+ we're
+
+
+doing
+ is
+ we're
+ hosting
+ a
+ workshop
+ for
+
+
+Anthropic.
+ And
+ so
+ I
+ threw
+ in
+ all
+ of
+ the
+
+
+documents
+ that
+ Anthropic
+ gave
+ us
+ of
+ like
+
+
+work
+ program
+ guidelines
+ and
+ workshop
+
+
+guidelines
+ and
+ everything.
+ And
+ so
+
+
+anytime
+ I
+ ask
+ a
+ question
+ about
+ this
+
+
+project,
+ it
+ has
+ all
+ of
+ that
+ context
+ in
+
+
+mind.
+ It
+ knows
+ exactly
+ what
+ Anthropic
+
+
+wants
+ to
+ do.
+ It
+ wants
+ all
+ that
+ kind
+ of
+
+
+stuff.
+ And
+ it's
+ very
+ clear
+ and
+ easy.
+ And
+
+
+so
+ whenever
+ I
+ start
+ a
+ new
+ project,
+ the
+
+
+first
+ step
+ is
+ like,
+ all right,
+ I'm
+ going
+
+
+to
+ create
+ a
+ folder.
+ I'm
+ going
+ to
+ put
+ all
+
+
+my
+ files
+ in
+ that
+ folder.
+ I'm
+ going
+ to
+
+
+open
+ up
+ that
+ folder
+ in
+ Claude
+ called
+
+
+work.
+ Create
+ a
+ project
+ for
+ it.
+ And
+ now
+
+
+that
+ project
+ can
+ access
+ all
+ that
+
+
+information
+ and
+ be
+ very
+ specific
+ about
+
+
+helping
+ me
+ do
+ better
+ with
+ that
+ context
+
+
+in
+ mind.
+ And
+ it's
+ just
+ a
+ big
+ unlock
+ for
+
+
+me.
+ And
+ it's
+ it's
+ a
+ very
+ easy
+ way
+ to
+ get
+
+
+started
+ doing
+ more
+ with
+ AI
+ that
+ will
+
+
+teach
+ you
+ a
+ lot
+ of
+ skills
+ that
+ you
+ can
+
+
+transfer
+ over
+ to
+ actually
+ building
+ stuff
+
+
+with
+ AI,
+ which
+ is
+ cloud
+ code,
+ which
+ is
+
+
+also
+ incredible.
+ And
+ the
+ the
+ rate
+ at
+
+
+which
+ co-work
+ is
+ improving
+ is
+ really
+
+
+really
+ awesome.
+ And
+ so
+ it's
+ just
+ one
+ of
+
+
+those
+ things
+ where
+ it's
+ like
+ if
+ you're
+
+
+ready
+ to
+ do
+ more
+ with
+ AI,
+ which
+
+
+hopefully
+ you
+ are
+ because
+ that's
+ where
+
+
+we're
+ going
+ and
+ those
+ that
+ can
+ are
+
+
+rising
+ up
+ really
+ quickly.
+ So
+ hopefully
+
+
+you
+ are.
+ And
+ if
+ you
+ are
+ co-work
+ is
+ a
+
+
+really
+ good
+ next
+ step
+ for
+ you
+ to
+ uh
+
+
+blossom
+ a
+ little
+ bit,
+ spread
+ your
+ wings
+
+
+and
+ just
+ see
+ what
+ you
+ can
+ do
+ with
+ AI
+
+
+doing
+ stuff
+ with
+ you.
+
+
+>> Well,
+ and
+ I
+ again
+ I
+ want
+ to
+ go
+ back
+ to
+
+
+folks
+ that
+ are
+ like,
+ "Okay,
+ we
+ got
+ these
+
+
+two
+ like
+ podcast
+ hosts
+ telling
+ us
+ how
+
+
+they
+ planning
+ their
+ like
+ YouTube
+
+
+releases
+ using
+ co-work."
+ I
+ want
+ to
+ say
+
+
+that
+ again
+ these
+ projects
+ do
+ not
+ have
+ to
+
+
+be
+ workrelated,
+ right?
+ They
+ don't.
+
+
+>> You
+ can
+ make
+ a
+ project
+ that's
+ house
+
+
+maintenance.
+ Let
+ me
+ tell
+ you
+ a
+ project
+
+
+that
+ you
+ make.
+ House
+ maintenance.
+
+
+>> Every
+ couple
+ months
+ you
+ need
+ to
+ change
+
+
+your
+ air
+ filters.
+ Every,
+ you
+ know,
+ like,
+
+
+you
+ know,
+ in
+ the
+ winter,
+ you
+ want
+ to
+
+
+make
+ sure
+ to
+ plan
+ for
+ XYZ.
+ You've
+ got
+ a
+
+
+big
+ kind
+ of
+ like
+ remodel
+ project
+ going
+
+
+on.
+ Put
+ that
+ in
+ a
+ clawed
+ co-work
+
+
+project.
+
+
+>> Generate
+ the
+ things
+ that
+ you
+ need
+ to
+
+
+generate.
+ Keep
+ it
+ in
+ keep
+ it
+ in
+ a
+
+
+workspace.
+ Um,
+ and
+ so
+ you
+ can
+ be
+ really
+
+
+creative
+ about
+ what
+ the
+ idea
+ of
+ a
+
+
+project
+ means.
+ I've
+ seen
+ other
+ people
+
+
+who
+ are
+ doing
+ hiring
+ and
+ they're
+ saying,
+
+
+"Here's
+ my
+ recruiting
+ engineers
+ project
+
+
+and
+ it's
+ all
+ the
+ work
+ they
+ need
+ to
+ do
+
+
+around
+ job
+ descriptions,
+ sourcing,
+
+
+onboarding,
+ interviews,
+ all
+ in
+ one
+
+
+project.
+ So
+ again,
+ it
+ doesn't
+ have
+ to
+ be
+
+
+personal
+ productivity.
+ It
+ doesn't
+ have
+
+
+to
+ be
+ workshops
+ with
+ Enthropic.
+ It
+
+
+doesn't
+ have
+ to
+ be
+ your
+ YouTube."
+ And
+ I
+
+
+love
+ I'm
+ glad
+ you're
+ showing
+ this
+
+
+screen,
+ which
+ is
+ co-work
+ has
+ this
+ list
+
+
+of
+ ideas
+ of
+ kind
+ of
+ things
+ you
+ can
+ do
+
+
+with
+ it.
+ I
+ think
+ like
+ good
+ job
+ um
+
+
+co-work
+ product
+ team
+ because
+ again
+
+
+people
+ just
+ this
+ is
+ part
+ of
+ the
+ point
+ of
+
+
+this
+ podcast
+ which
+ is
+ people
+ hear
+ that
+
+
+AI
+ is
+ awesome
+ they
+ want
+ to
+ use
+ it
+
+
+they're
+ ready
+ to
+ go
+ and
+ then
+ they
+ sit
+ in
+
+
+front
+ of
+ a
+ chat
+ box
+ and
+ they're
+ like
+
+
+what
+ do
+ I
+ do
+ with
+ it
+ like
+ what
+ can
+ I
+
+
+possibly
+ do
+
+
+>> and
+ going
+ to
+ steal
+ all
+ of
+ my
+ data
+
+
+>> and
+ is
+ AI
+ going
+ to
+ those
+ are
+ the
+ two
+
+
+questions
+ like
+ is
+ it
+ going
+ to
+ steal
+
+
+everything
+ and
+ run
+ off
+ with
+ my
+ spouse
+
+
+and
+ like
+ what
+ do
+ I
+ actually
+ do
+ and
+ so
+ I
+
+
+think
+ like
+ pod
+ you
+ know
+ this
+ podcast
+ is
+
+
+a
+ resource
+ we
+ actually
+ put
+ we're
+ now
+
+
+almost
+ 200
+ individual
+ workflows
+
+
+documented
+ out
+ of
+ this
+ podcast
+
+
+>> um
+ on
+ the
+ chat
+ PRD
+ how
+ I
+ AI
+ blog
+ where
+
+
+we've
+ just
+ like
+ given
+ you
+ step
+ by
+ step
+
+
+how
+ to
+ copy
+ this
+ stuff.
+ We'll
+ do
+ this
+
+
+episode
+ as
+ well,
+ but
+ I
+ think
+ the
+ point
+
+
+is
+ just
+ like
+ find
+ something
+ you're
+
+
+working
+ on
+ and
+ and
+ give
+ it
+ a
+ go.
+ Um
+ JJ,
+
+
+I
+ know
+ that
+ we
+ got
+ to
+ get
+ you
+ back
+ to
+
+
+your
+ co-work
+ projects
+ and
+ your
+ podcast,
+
+
+your
+ cloud
+ coding
+ and
+ 10X
+ and
+ all
+ that
+
+
+stuff.
+ So,
+ let's
+ just
+ do
+ really
+ quick
+
+
+lightning
+ round
+ super
+ super
+ fast
+
+
+answers.
+ one,
+ outside
+ of
+ what
+ we
+ just
+
+
+saw,
+ what
+ is
+ your
+ number
+ one
+ favorite
+
+
+co-work
+ use
+ case
+ that
+ you've
+ discovered?
+
+
+>> Content
+ creation
+ is
+ huge.
+ Uh,
+ doing
+ this
+
+
+anthropic
+ workshop
+ right
+ now,
+ like
+ it's
+
+
+so
+ intense,
+ but
+ and
+ so
+ this
+ project
+ has
+
+
+been
+ really
+ helping
+ me
+ because
+ they
+ gave
+
+
+us
+ like
+ 30page
+ document
+ of
+ like
+ what
+ to
+
+
+do
+ and
+ what
+ not
+ to
+ do.
+ And
+ at
+ any
+ time
+ I
+
+
+could
+ just
+ go
+ and
+ like
+ what
+ do
+ they
+ say
+
+
+here,
+ what
+ do
+ they
+ do
+ here,
+ and
+ it
+
+
+literally
+ helps
+ me.
+ So,
+ uh,
+ navigating
+ a
+
+
+lot
+ of
+ files
+ with
+ co-work
+ is
+ just
+ so
+
+
+helpful.
+
+
+>> Amazing.
+ I've
+ heard
+ a
+ lot
+ of
+ event
+
+
+planning
+ with
+ co-work
+ and
+ a
+ lot
+ of
+ event
+
+
+planning
+ with
+ codeex
+ which
+ is
+ open
+ AI's
+
+
+kind
+ of
+ version
+ of
+ this.
+ Very
+ good.
+ I'm
+
+
+wait
+ I
+ I
+ call
+ how
+ I
+ request
+ if
+ you
+ are
+
+
+planning
+ your
+ wedding
+ with
+ co-work
+
+
+>> heard
+ that
+
+
+>> great
+ use
+ case
+ great
+ can
+ go
+ find
+ the
+
+
+vendors
+ for
+ you.
+ It
+ can
+ write
+ the
+ emails
+
+
+for
+ you.
+ It
+ could
+ Oh
+ my
+ god.
+ Great
+ use
+
+
+case.
+
+
+>> I
+ know.
+ I
+ know.
+ This
+ is
+ going
+ to
+ be
+ my
+
+
+next
+ business.
+ I'm
+ going
+ to
+ do
+ AIdriven
+
+
+uh
+ wedding
+ planning.
+
+
+>> Okay.
+ My
+ second
+ question
+ to
+ you
+ outside
+
+
+of
+ co-work,
+ what
+ what's
+ what's
+ a
+ tool
+
+
+that
+ you're
+ loving?
+
+
+>> I
+ do
+ a
+ lot.
+ I'm
+ doing
+ programmatic
+ video
+
+
+creation
+ for
+ like
+ so
+ much
+ of
+ my
+ stuff
+
+
+right
+ now.
+ Um,
+ that's
+ really
+ working
+
+
+well.
+ I
+ really
+ love
+ pencil.dev,
+ too.
+
+
+It's
+ like
+ the
+ cursor
+ but
+ for
+ design.
+ And
+
+
+so,
+ you
+ tell
+ it
+ what
+ you
+ want
+ and
+ it'll
+
+
+design
+ for
+ you.
+ So,
+ those
+ are
+ some
+ of
+ my
+
+
+two
+ favorites
+ that
+ I've
+ been
+ digging
+
+
+into
+ outside
+ of
+ anthropic
+ uh
+ cloud
+ code
+
+
+stuff.
+
+
+>> Yeah,
+ man.
+ Okay.
+ If
+ I
+ haven't
+ done
+ a
+
+
+Remotion
+ video
+ by
+ the
+ time
+ this
+ comes
+
+
+out,
+ yell
+ at
+ me
+ in
+ the
+ comments.
+ I
+ will
+
+
+do
+ it.
+ People
+ have
+ been
+ asking
+ this
+ um
+
+
+from
+ me
+ for
+ months
+ and
+ months
+ and
+
+
+months.
+ I
+ love
+ Remotion,
+ too.
+ Again,
+ uh
+
+
+programmatic
+ video
+ generation.
+ Super
+
+
+super
+ cool.
+ Um
+ and
+ you
+ can
+ do
+ it
+ with
+
+
+with
+ with
+ cloud
+ code.
+ And
+ then
+ my
+ last
+
+
+question
+ which
+ is
+ you're
+ this
+ is
+ maybe
+
+
+tricky
+ because
+ you
+ seem
+ to
+ be
+ a
+ whisper
+
+
+flow
+ sort
+ of
+ talk
+ to
+ the
+ AI
+ with
+ your
+
+
+human
+ voice
+ which
+ I
+ think
+ keeps
+ us
+ a
+
+
+little
+ bit
+ more
+ polite
+ but
+ when
+ AI
+ is
+
+
+not
+ listening
+ what
+ do
+ you
+ do?
+ What's
+
+
+your
+ prompting
+ strategy?
+
+
+>> I'm
+ generally
+ polite
+
+
+>> because
+ I
+ I
+ I'm
+ generally
+ polite
+ but
+ I
+
+
+will
+ I
+ will
+ put
+ on
+ the
+ cap
+ locks
+ and
+ I
+
+
+will
+ let
+ it
+ know
+ sometimes
+ when
+ I'm
+ talk
+
+
+when
+ I
+ mean
+ business.
+ I
+ don't
+ normally
+
+
+swear
+ at
+ it
+ though.
+ Um,
+ usually
+ when
+
+
+it's
+ it's
+ not
+ behaving,
+ it
+ just
+ doesn't
+
+
+know
+ what
+ I'm
+ asking.
+ And
+ that's
+ a
+ good
+
+
+chance
+ to
+ like
+ better
+ communicate
+ of
+
+
+like,
+ here's
+ what
+ I'm
+ asking.
+ Here's
+
+
+what
+ a
+ successful
+ output
+ gets
+ me.
+ Help
+
+
+me
+ figure
+ that
+ out.
+ Uh,
+ ask
+ me
+ any
+
+
+questions
+ to
+ help
+ us
+ get
+ back
+ on
+ track.
+
+
+Launch
+ a
+ sub
+ agent
+ to
+ figure
+ out
+ what's
+
+
+going
+ on
+ here.
+ That
+ kind
+ of
+ stuff
+ like
+
+
+helps
+ me
+ like
+ navigate
+ to
+ back
+ to
+ being
+
+
+like
+ on
+ track.
+ And
+ then
+ also
+ saying
+
+
+like,
+ hey,
+ what
+ we
+ just
+ experienced
+ that
+
+
+was
+ not
+ good.
+ add
+ that
+ like
+ scenario
+ to
+
+
+like
+ my
+ negative
+ outputs
+ so
+ we
+ don't
+ do
+
+
+that
+ again.
+
+
+>> I
+ I
+ love
+ it.
+ I
+ found
+ myself
+ I
+ don't
+
+
+yell.
+ I
+ do
+ sometimes
+ all
+ caps.
+ I
+ found
+
+
+myself
+ being
+ like,
+ "This
+ is
+ truly
+
+
+insane.
+ What
+ you
+ just
+ did
+ is
+ cuckoo.
+ Fix
+
+
+it."
+ Um
+ not
+ not
+ super
+ polite,
+ but
+ but
+
+
+effective.
+ Okay,
+ JJ,
+ where
+ can
+ we
+ find
+
+
+you
+ and
+ how
+ can
+ we
+ be
+ helpful?
+
+
+>> I
+ think
+ I'm
+ pretty
+ much
+ everywhere.
+ I
+
+
+run
+ a
+ YouTube
+ channel
+ called
+ 10XBuilder.
+
+
+I'm
+ on
+ X
+ for
+ JJing.
+ uh
+ LinkedIn
+ at
+ JJ
+
+
+England
+ as
+ well.
+ I
+ work
+ at
+ 10X.
+ I
+ lead
+
+
+our
+ community
+ enablement
+ here.
+ Uh
+ we're
+
+
+doing
+ a
+ ton
+ of
+ stuff.
+ So
+ if
+ you
+ need
+
+
+help
+ bringing
+ AI
+ transformation
+ and
+
+
+enablement
+ to
+ your
+ org,
+ let
+ us
+ know.
+ But
+
+
+otherwise,
+ it
+ is
+ a
+ pleasure
+ being
+ here.
+
+
+We
+ love
+ your
+ work.
+ I
+ love
+ your
+ work.
+
+
+Thank
+ you
+ for
+ inviting
+ me.
+ It's
+ been
+ a
+
+
+joy.
+
+
+>> Thanks
+ for
+ joining
+ us.
+
+
+Thanks
+ so
+ much
+ for
+ watching.
+ If
+ you
+
+
+enjoyed
+ this
+ show,
+ please
+ like
+ and
+
+
+subscribe
+ here
+ on
+ YouTube
+ or
+ even
+
+
+better,
+ leave
+ us
+ a
+ comment
+ with
+ your
+
+
+thoughts.
+ You
+ can
+ also
+ find
+ this
+ podcast
+
+
+on
+ Apple
+ Podcasts,
+ Spotify,
+ or
+ your
+
+
+favorite
+ podcast
+ app.
+ Please
+ consider
+
+
+leaving
+ us
+ a
+ rating
+ and
+ review,
+ which
+
+
+will
+ help
+ others
+ find
+ the
+ show.
+ You
+ can
+
+
+see
+ all
+ our
+ episodes
+ and
+ learn
+ more
+
+
+about
+ the
+ show
+ at
+ howiipod.com.
+
+
+See
+ you
+ next
+ time.
