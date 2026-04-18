@@ -1,0 +1,2993 @@
+What's
+ OpenClaw?
+
+
+I've
+ been
+ programming
+
+
+since
+ I
+ was
+ 14.
+
+
+Building
+ software
+ felt
+ like
+
+
+playing
+ a
+ video
+ game.
+
+
+I
+ couldn't
+ stop
+
+
+until
+ I
+ did.
+
+
+I
+ created
+ a
+ company.
+
+
+I
+ poured
+ a
+ decade
+
+
+of
+ my
+ life
+ into
+ it.
+
+
+No
+ venture
+ capital.
+
+
+Every
+ weekend.
+
+
+And
+ then
+ I
+ sold
+ the
+ dream.
+
+
+And
+ I
+ felt
+ absolutely
+ nothing.
+
+
+For
+ 3
+ years
+
+
+I
+ was
+ wondering
+
+
+did
+ therapy
+
+
+traveled
+
+
+I
+ changed
+ countries
+ twice.
+
+
+Nothing
+ nothing
+ clicked.
+
+
+You
+ know,
+ I
+ wake
+ up
+ every
+ morning
+
+
+with
+ everything
+ I
+ was
+ supposed
+ to
+ want
+
+
+and
+ no
+ reason
+
+
+no
+ reason
+ to
+ get
+ out
+ of
+ bed.
+
+
+And
+ then
+
+
+in
+ early
+ 2025
+ I
+
+
+I
+ tried
+ an
+ experiment.
+ I
+ wanted
+ to
+ see
+
+
+what
+ these
+ new
+ AI
+ coding
+ agents
+ are
+ all
+
+
+about.
+
+
+And
+ I
+ had
+
+
+what
+ I
+ can
+ only
+ describe
+ as
+ a
+
+
+holy
+ moment.
+
+
+The
+ boiler
+ plates,
+ the
+ plumbing,
+ all
+ the
+
+
+boring
+ parts
+
+
+that
+ was
+
+
+software
+ development,
+ AI
+ could
+ do
+ all
+ of
+
+
+it.
+
+
+The
+ bottleneck
+ is
+ no
+ longer
+ typing.
+
+
+It's
+ thinking.
+
+
+And
+ thinking
+ was
+ the
+ part
+
+
+I
+ did
+ 25
+ years.
+
+
+Building
+ software
+
+
+felt
+ like
+ playing
+ a
+ video
+ game
+ again.
+
+
+I
+ was
+ back.
+
+
+I
+ built
+ 44
+
+
+projects
+
+
+in
+ just
+ a
+ few
+ months.
+
+
+And
+ the
+ latest
+ one
+
+
+was
+ a
+ WhatsApp
+ bot.
+
+
+I
+ put
+ it
+ on
+ my
+ computer.
+
+
+It
+ talks
+ through
+ the
+ apps
+
+
+that
+ you
+ already
+ know.
+
+
+And
+ then
+ I
+ took
+ it
+ on
+ a
+ trip
+
+
+to
+ Marrakech.
+
+
+You
+ know,
+
+
+just
+ to
+ navigate
+ around,
+ to
+ find
+
+
+restaurants
+ do
+ translations.
+
+
+And
+ at
+ first
+ it
+
+
+it
+ didn't
+ really
+ feel
+ right.
+ It
+ it
+ it
+
+
+felt
+ too
+ much
+ like
+ a
+ tool.
+
+
+Not
+ like
+ a
+ friend.
+
+
+You
+ know,
+ too
+ many
+ bullet
+ points,
+ too
+
+
+many
+ tables.
+
+
+So
+ I
+ told
+ it
+
+
+cuz
+ those
+ modern
+ models,
+ they
+ are
+ so
+
+
+smart.
+ They
+ know
+ what
+ WhatsApp
+ is.
+ They
+
+
+know
+ how
+ people
+ talk.
+ I
+ just
+ had
+ to
+ tell
+
+
+it.
+
+
+And
+ then
+ it
+
+
+it
+ felt
+ right.
+
+
+And
+ you
+ know
+ how
+ you
+ talk
+ to
+ friends
+ at
+
+
+some
+ point
+ I
+ was
+ walking
+ around
+
+
+and
+ I
+ was
+ sending
+ it
+ a
+ voice
+ message.
+
+
+And
+ then
+ I
+ I
+ sta-
+ I
+ froze
+ because
+ I
+
+
+actually
+ I
+ didn't
+ build
+
+
+voice
+ in
+ there.
+ I
+ had
+ a
+ support
+ for
+
+
+images,
+ yeah,
+ but
+ even
+ that
+ took
+ hours.
+
+
+So
+
+
+I
+ was
+ looking
+ at
+ the
+ typing
+ indicator
+
+
+and
+ then
+ the
+ agent
+ responded.
+
+
+And
+ I
+ I
+ very
+ vividly
+ remember
+ this
+
+
+situation.
+ I
+ was
+ standing
+ there
+ and
+ I
+
+
+was
+ like
+
+
+how
+ did
+ you
+ do
+ that?
+
+
+And
+ the
+ agent
+ replied,
+ I'm
+ not
+ kidding
+
+
+you,
+ the
+ mad
+ lad
+ figured
+ it
+ out
+ on
+ its
+
+
+own.
+
+
+And
+ then
+ it
+ it
+ walked
+ me
+ through
+ every
+
+
+single
+ step.
+ How
+ it
+ got
+ a
+ message
+ from
+
+
+me,
+ but
+ there
+ was
+ no
+ file
+ ending,
+ so
+ it
+
+
+inspected
+ the
+ file,
+ it
+ found
+ that
+ it
+ was
+
+
+audio,
+ but
+ a
+ weird
+ format,
+ so
+ it
+
+
+converted
+ it,
+ and
+ then
+ it
+ was
+ looking
+
+
+for
+ for
+ something
+ to
+ translate
+
+
+the
+ audio,
+ but
+ I
+ didn't
+ had
+ it
+
+
+installed,
+ but
+ then
+ it
+ found
+ an
+ OpenAI
+
+
+key,
+ it
+ sent
+ the
+ whole
+ thing
+ to
+ the
+
+
+server,
+ it
+ got
+ it
+ back,
+ and
+ then
+ it
+
+
+replied.
+
+
+All
+ of
+ that
+ in
+ 9
+ seconds.
+
+
+Can
+ you
+ imagine?
+ I
+ didn't
+ build
+ any
+ of
+
+
+that.
+
+
+For
+ me
+ this
+ was
+ the
+ moment
+ where
+ I
+
+
+thought
+
+
+this
+ is
+ something
+ new.
+ This
+ is
+ not
+ a
+
+
+chatbot.
+ Chatbots
+ give
+ up.
+
+
+Agents
+
+
+improvise.
+
+
+And
+ you
+ know,
+ I
+ was
+ sold.
+ I
+ wanted
+ to
+
+
+share
+ this.
+ I
+ wanted
+ to
+ like
+ tell
+ people
+
+
+on
+ Twitter.
+
+
+And
+ nobody
+ nobody
+ really
+ got
+ it.
+ It's
+
+
+like
+
+
+it's
+ almost
+ like
+
+
+you
+ have
+ to
+ experience
+ an
+ agent.
+ It's
+
+
+it's
+ it's
+ kind
+ of
+ hard
+ to
+ explain.
+
+
+Took
+ me
+ a
+ few
+ weeks.
+
+
+And
+ then
+ I
+ did
+ something
+ stupid.
+
+
+And
+ you
+
+
+remember
+
+
+this
+ agent
+ by
+ default
+ can
+ do
+ anything
+
+
+that
+ you
+ can
+ do
+ on
+ your
+ computer.
+
+
+So
+ obviously
+ I
+ put
+ it
+ in
+ a
+ public
+
+
+Discord
+ and
+ I
+ invited
+ random
+ people.
+
+
+And
+
+
+I
+ was
+ looking
+ at
+ it
+ the
+ whole
+ night.
+
+
+People
+ were
+ talking
+ with
+ it.
+ People
+ were
+
+
+having
+ fun
+ with
+ it.
+ People
+ tried
+ to
+ hack
+
+
+it.
+
+
+And
+ then
+ my
+ eyes
+ were
+ like
+
+
+falling
+ off
+ almost.
+
+
+I
+ exited
+ the
+ process
+
+
+and
+ I
+ went
+ to
+ bed.
+
+
+Though
+ I
+ forgot
+ I
+ built
+ a
+ system
+ to
+ be
+
+
+resilient.
+
+
+So
+ while
+ I
+ was
+ walking
+ to
+ the
+ bedroom,
+
+
+the
+ agent
+ happily
+ booted
+ up
+ again
+
+
+and
+ talked
+ to
+ everyone
+ in
+ the
+ world.
+
+
+The
+ next
+ morning
+ I
+ woke
+ up
+
+
+over
+ 800
+ messages.
+
+
+I
+ panicked.
+
+
+I
+ pulled
+ the
+ plug.
+ I
+ read
+ every
+ single
+
+
+message
+
+
+just
+ to
+ see
+ if
+ the
+ agent
+ leaked
+ my
+
+
+private
+ life.
+
+
+Nothing
+ happened.
+
+
+But
+ it
+ could
+ have.
+
+
+But
+ that
+ was
+ the
+ moment
+ where
+ it
+ went
+
+
+viral.
+
+
+Today
+ the
+ project
+ is
+ called
+ OpenClaw.
+
+
+It's
+ pretty
+ much
+ the
+ fastest
+ growing
+
+
+open
+ source
+ project.
+
+
+Its
+ mascot
+ is
+ a
+ lobster.
+
+
+It
+ claws
+ into
+ your
+ machine.
+
+
+Jensen
+ Huang
+
+
+calls
+ it
+ the
+ operating
+ system
+ for
+
+
+personal
+ AI.
+
+
+But
+ by
+ far
+ my
+ favorite
+ quote
+ is
+ from
+ a
+
+
+friend
+ who
+ looked
+ at
+ the
+ statistic
+ and
+
+
+said,
+ Peter
+
+
+this
+ is
+ not
+ hockey
+ stick
+ growth.
+
+
+This
+ is
+ stripper
+ pole.
+
+
+And
+ I
+
+
+I
+ was
+ not
+ ready.
+ You
+ know
+ when
+ something
+
+
+blows
+ up
+ like
+ this
+
+
+everything
+ explodes.
+
+
+Hundreds
+ of
+ messages.
+
+
+Reporters
+ calling
+ me
+ in
+ the
+ middle
+ of
+
+
+the
+ night.
+
+
+Security
+ vulnerabilities.
+
+
+And
+ then
+
+
+the
+ AI
+ company
+ whose
+ model
+ most
+ of
+ my
+
+
+users
+ loved
+ sent
+ me
+ a
+ trademark
+ claim.
+ I
+
+
+had
+ to
+ rename
+ the
+ whole
+ thing
+ while
+ it
+
+
+was
+ taking
+ off.
+
+
+You
+ know,
+
+
+they
+ even
+ tried
+
+
+to
+ push
+ me
+ away
+ from
+ the
+ lobster.
+
+
+Like
+ I
+ was
+ staring
+ at
+ the
+ message.
+ I
+ was
+
+
+like,
+ it's
+ not
+ even
+ the
+ same
+ animal.
+
+
+And
+ then
+ they
+ also
+ cut
+ off
+ the
+ the
+ model
+
+
+most
+ of
+ my
+ users
+ loved.
+
+
+You
+ know,
+
+
+first
+ the
+ name
+
+
+then
+ the
+ lobster
+
+
+then
+ the
+ model.
+
+
+I
+ was
+ that
+ close
+ of
+ just
+ deleting
+ the
+
+
+whole
+ thing.
+
+
+But
+ then
+
+
+I
+ learned
+ what
+ people
+ are
+ building
+ with
+
+
+it.
+
+
+So
+ at
+ ClawCon
+ in
+ Vienna,
+ because
+ yes,
+ we
+
+
+have
+ conferences
+ already
+
+
+and
+ people
+ wear
+ lobster
+ headbands
+
+
+I
+ met
+ Stefan
+
+
+and
+ his
+ 60-year
+ year
+ old
+ dad
+ Gerhard
+
+
+a
+ beer
+ sommelier
+
+
+who
+ never
+ wrote
+ a
+ single
+ line
+ of
+ code.
+
+
+They
+ connected
+ OpenClaw
+ via
+ Bluetooth
+
+
+sent
+ it
+ one
+ prompt
+ and
+ the
+ agent
+ did
+ the
+
+
+whole
+ 90-minute
+ brew.
+ Temperature
+ ramps,
+
+
+hop
+ additions,
+ everything.
+
+
+And
+ then
+ they
+ were
+ like
+
+
+what
+ are
+ we
+ doing
+ with
+ all
+ this
+ beer?
+
+
+And
+ the
+ agent
+ was
+ let's
+ make
+ a
+ website.
+
+
+So
+ they
+ built
+ a
+ website
+ and
+ then
+ they
+
+
+added
+ payments
+ and
+ now
+ they
+ have
+ a
+ real
+
+
+product.
+
+
+And
+ almost
+ all
+ of
+ it
+ was
+ just
+ done
+
+
+via
+ the
+ phone.
+
+
+In
+ China
+
+
+installing
+ OpenClaw
+ is
+ called
+ raising
+
+
+lobsters.
+
+
+Thousands
+ of
+ people
+ were
+ lining
+ up
+ at
+
+
+the
+ Tencent
+ office
+ in
+ Shenzhen
+ to
+ get
+
+
+their
+ lobster
+ installed.
+
+
+Shenzhen
+ even
+ gives
+ out
+ subsidies
+ for
+
+
+people
+ running
+ businesses
+ on
+ OpenClaw.
+
+
+Now
+
+
+if
+ you
+ install
+ OpenClaw
+ on
+ your
+ work
+
+
+machine
+
+
+at
+ least
+ with
+ the
+ default
+ settings,
+ you
+
+
+might
+ get
+ fired.
+
+
+And
+ then
+ I
+ met
+
+
+an
+ entrepreneur
+ in
+ China
+ who
+ showed
+ me
+ a
+
+
+spreadsheet.
+
+
+Every
+ employee
+
+
+every
+ day
+ one
+ task
+ automated
+ by
+
+
+OpenClaw.
+
+
+If
+ you
+ miss
+ too
+ many
+ days,
+ you're
+ fired.
+
+
+So
+ fired
+
+
+for
+ using
+ it.
+
+
+Fired
+ for
+ not
+ using
+ it.
+
+
+After
+ Marrakech
+
+
+I
+ thought
+
+
+this
+ is
+ incredible.
+
+
+And
+ it's
+ also
+ a
+ little
+ bit
+ scary.
+
+
+How
+ can
+ we
+ make
+ it
+ more
+ scary?
+
+
+So
+ I
+ added
+ a
+ new
+ feature,
+ a
+ heartbeat.
+
+
+You
+ know,
+ by
+ default
+ the
+ agent
+ would
+
+
+only
+ wake
+ up
+ when
+ you
+ send
+ it
+ a
+ prompt.
+
+
+With
+ the
+ heartbeat,
+
+
+the
+ agent
+ would
+ just
+ wake
+ up
+
+
+periodically,
+
+
+check
+ your
+ emails,
+ check
+ your
+ calendar,
+
+
+follow
+ up
+ on
+ loose
+ ends.
+
+
+My
+ initial
+ prompt
+ was
+ simply,
+
+
+"Surprise
+ me."
+
+
+And
+ yes,
+
+
+that's
+ kind
+ of
+ as
+ scary
+ as
+ it
+ sounds.
+
+
+So,
+ no
+ large
+ company
+ would
+ ship
+
+
+something
+ like
+ that.
+
+
+But
+ I'm
+ a
+ random
+ builder
+ from
+ Austria.
+ I
+
+
+don't
+ have
+ a
+ legal
+ department.
+
+
+I
+ built
+
+
+this
+ sandbox,
+ this
+ sandcastle,
+ for
+ me,
+
+
+and
+ I
+ made
+ it
+ open
+ source,
+ so
+ other
+
+
+people
+ could
+ play
+ with
+ it,
+ and
+ other
+
+
+people
+ could
+
+
+raise
+ their
+ imagination.
+
+
+Imagine
+
+
+putting
+ an
+ agent
+ into
+ a
+ meeting.
+ Not
+ not
+
+
+for
+ notes.
+ We
+ we
+ figured
+ that
+ out.
+
+
+A
+ bidirectional
+ model
+ that
+ can
+ listen
+
+
+and
+ hear
+ at
+ the
+ same
+ time.
+
+
+Somebody
+ mentions
+ a
+ statistic,
+ a
+ sub
+
+
+agent
+ can
+ spin
+ off
+ and
+ check
+ it
+ for
+ you.
+
+
+A
+ decision
+ is
+ made,
+ the
+ agent
+ can
+ send
+ a
+
+
+follow-up
+ before
+ the
+ meeting
+ even
+ ends.
+
+
+In
+ the
+ future,
+
+
+we're
+ not
+ just
+ going
+ to
+ have
+
+
+one
+ agent.
+
+
+You
+ might
+ have
+ your
+ work
+ agent,
+ your
+
+
+personal
+ claw,
+ maybe
+ one
+ for
+ health,
+
+
+maybe
+ one
+ for
+ relationship.
+
+
+And
+ they
+ all
+ should
+ work
+ together
+ in
+ a
+
+
+secure
+ way.
+
+
+Because
+
+
+how
+ did
+ humanity
+ level
+ up?
+ By
+
+
+specializing
+ and
+ collaborating.
+ And
+
+
+agents
+ are
+ about
+ to
+ do
+ the
+ same.
+
+
+Imagine
+ a
+ company,
+
+
+a
+ small
+ business,
+
+
+that
+ has
+ 10
+ agents
+ that
+ all
+ specialized
+
+
+taking
+ over
+ various
+ parts
+ of
+ the
+
+
+business.
+
+
+We
+ don't
+ even
+ have
+ a
+ name
+ for
+ what
+ it
+
+
+might
+ become,
+ but
+ we're
+ about
+ to
+ find
+
+
+out.
+
+
+So,
+ I
+
+
+created
+ the
+ Open
+ Claw
+ Foundation.
+ A
+
+
+non-profit,
+ open
+ source,
+ forever.
+
+
+Because
+ what
+ Open
+ Claw
+ did
+ for
+ many
+
+
+people
+ was
+ it
+ moved
+ AI
+ from
+ this
+
+
+scary,
+
+
+nebulous
+ thing
+
+
+into
+ something
+ that
+ is
+
+
+that
+ is
+ fun
+
+
+and
+ useful,
+ and
+ maybe
+ a
+ bit
+ weird,
+ you
+
+
+know,
+ lobsters
+ and
+ headbands
+ and
+ beer
+
+
+businesses.
+
+
+Because
+ what
+ we
+ need
+ in
+ the
+ future
+ is
+
+
+more
+ people
+
+
+spending
+ more
+ time
+ with
+ the
+ AI
+ to
+ better
+
+
+understand
+ how
+ powerful
+ and
+
+
+transformative
+ this
+ technology
+ really
+
+
+is.
+
+
+In
+ New
+ York,
+
+
+at
+ ClawCon,
+
+
+yes,
+ they're
+ everywhere
+ now.
+
+
+There
+ were
+ thousands
+ of
+ people
+
+
+that
+ were
+ discussing
+
+
+what
+ their
+ lobster
+ did
+ this
+ week.
+
+
+A
+ vet
+ in
+
+
+Shenzhen
+ who
+ automated
+
+
+their
+ groceries.
+
+
+A
+ teenager
+ in
+ São
+ Paulo
+ who
+ built
+ a
+
+
+tutoring
+ business
+ on
+ Open
+ Claw.
+
+
+Gerhard
+ and
+ his
+ beer
+ machine.
+
+
+None
+ of
+ them
+ are
+ programmers.
+
+
+All
+ of
+ them
+
+
+are
+ builders.
+
+
+Because
+ that's
+ the
+ real
+
+
+transformation.
+ It's
+ not
+ the
+ technology,
+
+
+it's
+ the
+ access.
+ Agents
+ change
+ who
+ can
+
+
+build
+ things,
+ and
+ that
+ door
+ is
+ not
+
+
+closing
+ again.
+
+
+Because
+ when
+ you
+ can
+ prompt
+
+
+a
+ prototype
+ into
+ existence
+ into
+ one
+ in
+ 1
+
+
+hour,
+
+
+anything
+ is
+ possible.
+
+
+The
+ next
+ breakthrough
+ can
+ come
+ from
+
+
+anyone,
+
+
+any
+ country,
+
+
+any
+ cafe.
+
+
+When
+ even
+ a
+
+
+a
+ burnt-out
+ founder
+
+
+staring
+ at
+ the
+ screen,
+
+
+wondering
+
+
+if
+ his
+ spark
+ is
+ gone,
+
+
+can
+ do
+ something
+ like
+ that.
+
+
+It's
+ not
+ gone.
+
+
+It's
+ just
+ waiting.
+
+
+The
+ lobster
+ is
+ loose,
+
+
+and
+ it's
+ not
+ going
+ back
+ into
+ the
+ tank.
+
+
+Thank
+ you
+ very
+ much.
+
+
+>> [applause]
+
+
+[applause]
+
+
+>> Come
+ come
+ here.
+ I
+
+
+I
+ mean,
+
+
+I
+ think
+ I
+ I
+ want
+ to
+ say
+ something
+
+
+personal
+ to
+ you.
+
+
+With
+ love,
+
+
+uh
+ but
+ truth.
+
+
+You
+ really
+ terrify
+ me.
+
+
+I'm
+ I'm
+ I'm
+ serious.
+ If
+ Hollywood
+ was
+ to
+
+
+ever
+ make
+ a
+ movie
+ in
+ which
+ humanity
+
+
+opened
+ Pandora's
+ Box
+ and
+ everything
+ went
+
+
+crazy,
+ but
+ you
+ seriously
+ could
+ be
+ cast
+
+
+as
+ the
+ star
+ character.
+
+
+>> [laughter]
+
+
+>> Because
+ because
+ because
+ the
+ story
+ we're
+
+
+told
+ is
+ that
+ AI
+ researchers
+ are
+ doing
+
+
+all
+ this
+ great
+ stuff,
+ but
+ they,
+ you
+
+
+know,
+ they're
+ taking
+ all
+ these
+ great
+
+
+efforts
+ to
+ ensure
+ safety
+ and
+ make
+ sure
+
+
+nothing
+ bad
+ could
+ happen.
+ You
+
+
+take
+ glee
+ in
+ seeing
+ what
+ might
+ happen
+ if
+
+
+you
+ just
+ put
+ it
+ out
+ there.
+ Like,
+ is
+ is
+
+
+any
+ part
+ of
+ you
+
+
+feeling
+ that
+ that's
+ that's
+ a
+ little
+ bit
+
+
+reckless?
+
+
+I
+ wouldn't
+ I
+ wouldn't
+ say
+ so.
+ I
+ see
+ my
+
+
+work
+ as
+ a
+
+
+I
+ see
+ it
+ as
+ a
+ window
+ to
+ the
+ future.
+
+
+Like,
+
+
+in
+ the
+ very
+ beginning,
+
+
+there
+ were
+ all
+ these
+ scary
+ moments.
+
+
+Now
+ we
+ have
+ proper
+ security
+ layers.
+ You
+
+
+can
+ have
+ your
+ sandbox,
+ you
+ can
+
+
+you
+ can
+ put
+ your
+ lobster
+ into
+ a
+ very
+
+
+small,
+ tiny
+ box
+ and
+ really
+ control
+ what
+
+
+it
+ can
+ do.
+ Um
+ there's
+ still
+ some
+ issues
+
+
+that
+ we
+ need
+ to
+ figure
+ out,
+ but
+ the
+ fact
+
+
+that
+ so
+ many
+ people
+ want
+ this
+ now
+
+
+will
+ help
+ to
+ figure
+ this
+ out
+ much
+
+
+faster.
+
+
+So,
+ I'm
+ I'm
+ glad
+ you
+ mentioned
+ the
+
+
+security
+ less.
+ The
+ um
+
+
+I
+ mean,
+ you're
+ making
+ a
+ huge
+ bet
+ on
+
+
+human
+
+
+ingenuity
+ using
+ the
+ this
+ incredible
+ tool
+
+
+that
+ suddenly
+ can
+ maximize
+ the
+ power
+ of
+
+
+what
+ any
+ human
+ can
+ do.
+
+
+Um
+
+
+Is
+ is
+ that
+ How
+ How
+ many
+ people
+ in
+ your
+
+
+community
+ are
+ taking
+ the
+ safety
+ issue
+
+
+seriously
+ and
+ want
+ to
+ use
+ Open
+ Claw,
+ for
+
+
+example,
+ to
+ find
+ smarter
+ ways
+ than
+ just
+
+
+checking
+ whether
+ anything
+ might
+ be
+ going
+
+
+wrong
+ and
+ giving
+ an
+ early
+
+
+alarm
+ to
+ someone
+ or
+ something
+ like
+ that?
+
+
+>> people
+ are
+ not
+ as
+ reckless
+ of
+ number
+
+
+one,
+ putting
+ it
+ into
+ a
+ public
+ discord.
+
+
+Strongly
+ don't
+ recommend.
+
+
+Number
+ two,
+
+
+uh
+ I
+ think
+ I
+ single-handedly
+ increased
+
+
+Mac
+ mini
+ sales
+ by
+ multiple
+ percent.
+
+
+So,
+ most
+ people
+ give
+ it
+ give
+ it
+ their
+
+
+own
+ little
+ Mac
+ mini.
+ Mine's
+ a
+ little
+
+
+princess.
+ Mine
+ got
+ a
+ Mac
+ Studio.
+ Calls
+
+
+it
+ the
+ castle.
+
+
+And
+ that
+ greatly
+ reduces
+ the
+ actual
+
+
+risk,
+ because
+ it
+ can
+ only
+ access
+ what's
+
+
+on
+ that
+ computer,
+ and
+ maybe
+ all
+ your
+
+
+pictures
+ are
+ not
+ there.
+
+
+Well,
+ definitely
+ if
+ humanity
+ goes
+ down,
+
+
+I'll
+ be
+ very
+ grateful
+ for
+ at
+ least
+ the
+
+
+rise
+ in
+ Mac
+ mini
+ sales.
+
+
+>> [laughter]
+
+
+>> A
+ very
+ tall
+ You
+ You
+ are
+ amazing.
+ You
+ are
+
+
+amazing,
+ and
+ I
+ I
+ think
+ I
+ think
+ I
+ think
+
+
+you're
+ actually
+ right
+ at
+ the
+ cutting
+
+
+edge
+ of
+ of
+ whether
+ AI
+ is
+ going
+ to
+ be
+ the
+
+
+biggest
+ boon
+ ever
+ or
+ possibly
+ a
+ serious
+
+
+problem.
+ And
+ you
+ know,
+ I
+ hope
+ you
+
+
+continue
+ conversations
+ with
+ people
+ here,
+
+
+and
+ and
+ just
+ help
+ help
+ us
+ get
+ smarter
+ on
+
+
+how
+ to
+ do
+ this
+ the
+ right
+ way.
+ Cuz
+ it
+ is
+
+
+absolutely
+ incredible
+ what
+ you've
+ built.
+
+
+Thank
+ you
+ for
+ sharing
+ so
+ honestly.
+ Thank
+
+
+you.
+
+
+>> [applause]
