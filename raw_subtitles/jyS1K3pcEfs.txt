@@ -1,0 +1,649 @@
+[Speaker 1]: 各位观众大家好，
+[Speaker 1]: 欢迎来到一个不单只聊新闻的专业美股频道，
+[Speaker 1]: 我是市场分析员小陶，
+[Speaker 1]: 欢迎大家来到周日的更新。
+[Speaker 1]: 那既然来到了财报季度，
+[Speaker 1]: 我视频的内容就会尽量侧重点在财报身上。
+[Speaker 1]: 所以今天我先带大家回顾一下上一周发布财报的一些公司，
+[Speaker 1]: 然于我们从 faxset 数据去出发。
+[Speaker 1]: 对于一季度和整个二零二六年 EPS 增速的预期，
+[Speaker 1]: 我们去做一个展望。
+[Speaker 1]: 然后后半部分我想通过一篇研究机构的一个研报，
+[Speaker 1]: 它主要是里面的一个分析员，
+[Speaker 1]: 看看一下哪一类萨斯公司是有可能在未来可以走出来，
+[Speaker 1]: 或者在 AI 的这个时代会有走出来。
+[Speaker 1]: 哪一类萨斯公司可能会被淘汰，
+[Speaker 1]: 淘汰或者能走出来的这些斯公司应该具有哪些特性好吗？
+[Speaker 1]: 那我就废话不多说了，
+[Speaker 1]: 直接开始在开始之前拜托大家记得点赞、
+[Speaker 1]: 留言、
+[Speaker 1]: 加转发，
+[Speaker 1]: 让更多的人可以看到我们这期内容。
+[Speaker 1]: 先快速的回顾一下资产价格的走势。
+[Speaker 1]: 上周五市场还是走的不错的那过去一周，
+[Speaker 1]: 我们看一下前期大科技股上涨八点五，
+[Speaker 1]: 短缺指数三点三。
+[Speaker 1]: 我 si TT 到现在为止，
+[Speaker 1]: 也把大科技和等权指数的这个回报差给拉进来了。
+[Speaker 1]: 但是仍然等权指数是遥遥领先于大科技要上涨了，
+[Speaker 1]: 要超过将近百分之五。
+[Speaker 1]: 另外两点我想指出的是，
+[Speaker 1]:  YTD 就基本上整个四月份的走势吧，
+[Speaker 1]: 纳指的上涨幅幅度非常的大，
+[Speaker 1]: 百分之十三点三，
+[Speaker 1]: 罗梭两千也是不错的，
+[Speaker 1]: 百分之十一点二。
+[Speaker 1]: 那主要是来自于大科技的这个上涨。
+[Speaker 1]: 看大科技百分之十五的这个反弹。
+[Speaker 1]: 从整个四月份到现在为止，
+[Speaker 1]: 非常的夸张，
+[Speaker 1]: 几乎每一家大科技都做的非常的好。
+[Speaker 1]: 比特币上涨百分之十三点五，
+[Speaker 1]: 那道指上涨幅度相对会小一些，
+[Speaker 1]: 百分之六点七。
+[Speaker 1]: 另外一点我想指出的是，
+[Speaker 1]: 银行板块在过去一个月的一个走势，
+[Speaker 1]: 我们看一下，
+[Speaker 1]: 过去一个月里边几乎除了芯片板块上涨百分之二十三以外，
+[Speaker 1]: 包括大科技在内只上涨了百分之十点四，
+[Speaker 1]: 银行板块上涨了百分之十三点五。
+[Speaker 1]: 我特地去看了一下 KVWB 银行板块这一个 ETF，
+[Speaker 1]: 其实我们知道标普是在三月三十日见底的。
+[Speaker 1]: 但是银行板块其实在三三月十三日、
+[Speaker 1]: 三月十四日见底。
+[Speaker 1]: 当时我记得非常的清楚，
+[Speaker 1]: 三月中旬的时候，
+[Speaker 1]: 银行板块跌的非常的凶呢。
+[Speaker 1]: 之后银行板块出现了反弹。
+[Speaker 1]: 然后三月下旬那一段时间，
+[Speaker 1]: 标普的一个下跌，
+[Speaker 1]: 银行板块也下跌，
+[Speaker 1]: 但是没有破新低。
+[Speaker 1]: 从某种程度我们现在站在一个后视镜的一个角度去看，
+[Speaker 1]: 银行板块似乎比标普把先见底，
+[Speaker 1]: 也就是市场先杀。
+[Speaker 1]: 因为如果去去杀银行板块的话，
+[Speaker 1]: 就代表整个经济有一定的担心。
+[Speaker 1]: 或者我们也可以理解为整个这一波的一个下跌。
+[Speaker 1]: 最先走出的一个板块就是银行板块，
+[Speaker 1]: 就银行板块可能领先于其他的一些板块，
+[Speaker 1]: 或者向大科技领先的这个时间点可能是两周左右。
+[Speaker 1]: 然后关于当下这个市场应不应该去止盈的这个问题，
+[Speaker 1]: 应不应该去检测的这个问题，
+[Speaker 1]: 我在周五的时候吧，
+[Speaker 1]: 我也发了一条 x 我稍微简单的做一个总结。
+[Speaker 1]: 如果说我们从市场参与度这个角度去看的话，
+[Speaker 1]: 因为周五其实在 APP 上做了一个直播。
+[Speaker 1]: 在直播里面我有详细的聊过。
+[Speaker 1]: 我们从一些比较短期的指标，
+[Speaker 1]: 比如说市场的参与度，
+[Speaker 1]: 现在确实已经在一个非常高的一个位置。
+[Speaker 1]: 道指相对钠指相对来说好一些，
+[Speaker 1]: 百分之七十二吧，
+[Speaker 1]: 我记得标普五百百分之八十，
+[Speaker 1]: 罗素两千是最最超买的一个指标。
+[Speaker 1]: 二十日均线的一个参与度去到了百分之九十，
+[Speaker 1]: 上一次去到百分之九十以上是二零二四年的七月份，
+[Speaker 1]: 将近要一年半之前了。
+[Speaker 1]: 所以从这些短期的一个指标去看的话，
+[Speaker 1]: 包括 RSM 也在一个超满的一个位置。
+[Speaker 1]: 同以从短期的指标去看，
+[Speaker 1]: 如果你做出一定程度的一个止盈，
+[Speaker 1]: 主动的一个止盈，
+[Speaker 1]: 我认为是合理的，
+[Speaker 1]: 没有问，
+[Speaker 1]: 没有任何的呃没有任何的问题，
+[Speaker 1]: 同时也可以做出一些被动的止盈。
+[Speaker 1]: 比如说一些走的非常好的一些标的，
+[Speaker 1]: 然后自己可能对于基本没有没有那么的了解，
+[Speaker 1]: 可以做出一个被被动止盈。
+[Speaker 1]: 什么叫被动止盈？
+[Speaker 1]: 就是设一个移动止损。
+[Speaker 1]: 所谓的移动止损，
+[Speaker 1]: 就是你可以设在比如说最高点回调百分之十，
+[Speaker 1]: 你卖出一定程度的一个仓位，
+[Speaker 1]: 回调百分之十五，
+[Speaker 1]: 你卖出一定程度的一个仓位。
+[Speaker 1]: 那这样的话是一个被动型的一个止盈，
+[Speaker 1]: 起码万一接下去有任何的一些事件出现一些意外，
+[Speaker 1]: 出现比较深的一个回调的话，
+[Speaker 1]: 那这一部分先止盈的那一部分可以保住一定程度的一个盈利，
+[Speaker 1]: 自己不会影响到自己的这个止盈。
+[Speaker 1]: 对的对的对的。
+[Speaker 1]: 所以这是从短期的一个角度去出发，
+[Speaker 1]: 从一个中期的一个角度去出发。
+[Speaker 1]: 我和大家分享过我的看法是，
+[Speaker 1]: 现在没有当要去降贝塔的一个时候，
+[Speaker 1]: 它不是像上年的十月份去降贝塔，
+[Speaker 1]: 它是一个过程。
+[Speaker 1]: 那么然后到了今年的二月份开始，
+[Speaker 1]: 我认为是慢慢的可以把贝塔加回来的一个过程之中。
+[Speaker 1]: 但是在现在这样的一个点位，
+[Speaker 1]: 无论去看纳质的一个 PE，
+[Speaker 1]: 去看标普的这个 PE，
+[Speaker 1]: 标普的 PE 现在可能在一个中性的一个 PE。
+[Speaker 1]: 纳指的 PE 现在还是在一个相对比较低的这个位置。
+[Speaker 1]: 大科技现在的 PE 也是在一个相对比较低的位置，
+[Speaker 1]: 就中性偏低的一个位置。
+[Speaker 1]: 所以在现在这样的一个 p 一的一个状态之从一一个中期的角度去看三到六个的这个角度去看我并不认为我们现在就要去开始降贝塔了，
+[Speaker 1]: 还没有到那个阶段好了。
+[Speaker 1]: 所以我再强调一遍，
+[Speaker 1]: 从短期的一些指标，
+[Speaker 1]: 你做一些主动型的一个止盈，
+[Speaker 1]: 或者被动型的止盈都是 ok 的。
+[Speaker 1]: 但是从中期的一个角度去看，
+[Speaker 1]: 我不认为现在我们应该去降贝塔。
+[Speaker 1]: 我的好的，
+[Speaker 1]: 上周发布财报的公司呢，
+[Speaker 1]: 主要是银行板块。
+[Speaker 1]: 那银行板块里面其中有一个重点。
+[Speaker 1]: 我和大家聊过，
+[Speaker 1]: 就是和我预期有一点点出乎我意。
+[Speaker 1]: 有一点出乎我意外的是，
+[Speaker 1]: 消费者即使在三月份油价大幅度反弹的情况下，
+[Speaker 1]: 非必需品消费这一块的，
+[Speaker 1]: 特别是娱乐服务这一块的消费并没有任何的放缓。
+[Speaker 1]: 所以消费者即使在三月份不确定性非常强的一个时候，
+[Speaker 1]: 还是非常的坚挺。
+[Speaker 1]: 这是我们从银行板块的财报里面所观察到的一个现象。
+[Speaker 1]: 然后有两家芯片公司，
+[Speaker 1]: 一家是阿斯曼，
+[Speaker 1]: 一家是台积电。
+[Speaker 1]: 这两家公司我没有详细的去展开。
+[Speaker 1]: 但是这两家公司管理层有一个特性，
+[Speaker 1]: 就是非常的靠谱。
+[Speaker 1]: 那么而且特别是台积电的财报，
+[Speaker 1]: 基本上每一次台积电的财报出来，
+[Speaker 1]: 这个结果都比管理层在上一个季度所给的这个预期要高。
+[Speaker 1]: 那这样的情况下，
+[Speaker 1]: 你就知道这家公司的管理层有一个特性，
+[Speaker 1]: 就是他喜欢 low morling。
+[Speaker 1]: 他每一次在给指引的时候，
+[Speaker 1]: 这个指引就故意给低，
+[Speaker 1]: 然后到最终出数据的时候，
+[Speaker 1]: 就会比一个指引要高。
+[Speaker 1]: 所以这是两家公司，
+[Speaker 1]: 他们背后管理层那个特性，
+[Speaker 1]: 然后这两家公司背后管理层去听一下他们的财报会。
+[Speaker 1]: 你会发现就非常你可以对他们完全的信任。
+[Speaker 1]: 包括曾经我对于阿斯麦的管理层有做过这样的一个点评。
+[Speaker 1]: 我说你听财报听了多了之后，
+[Speaker 1]: 阿斯麦财报的这个管理层，
+[Speaker 1]: 你会发现，
+[Speaker 1]: 无论阿斯麦接下去出现什么问题，
+[Speaker 1]: 你对于这个管理层是百般的信任。
+[Speaker 1]: 这可能就是作为一个投资者和管理层之间长期以来所建立的这个信任。
+[Speaker 1]: 而这一个信任是建立在每一次的一个财报会议上面。
+[Speaker 1]: 反正这两家公司的管理层都是非常的靠谱。
+[Speaker 1]: 所以我这两家公司财报我就不多做展开，
+[Speaker 1]: 我们聊一下。
+[Speaker 1]: 然后上一周发布财报，
+[Speaker 1]: 里面有 travelers 一家保险公司，
+[Speaker 1]: 那主要从保险公司我们去看一下保费增速，
+[Speaker 1]: 保费增速影响到什么？
+[Speaker 1]: 主要是影响到通胀和 CPI。
+[Speaker 1]: 是的，
+[Speaker 1]: 两块保费增速了。
+[Speaker 1]: 然后第一块保费增速是汽车保费这一块的增速，
+[Speaker 1]: 汽车保费这一块的增速有从两年前吧看我这个视频的观众应该知道，
+[Speaker 1]: 我们一直去看汽车保费增速有没有放缓。
+[Speaker 1]: 如果有放缓，
+[Speaker 1]: 对于 CPI 是一个绝大的一个利好。
+[Speaker 1]: 而现在两年之后，
+[Speaker 1]: 我们再来看一下，
+[Speaker 1]: 其实即使在二零二五年的一季度，
+[Speaker 1]: 我们看一下汽车保费增速同比仍然是在百分之七点五之后，
+[Speaker 1]: 每一个季度同比增速都在下跌。
+[Speaker 1]: 直到二零二六年的第一季度，
+[Speaker 1]: 汽车保费的同比增速百分之零点六。
+[Speaker 1]: 所以我们在美国的观众应该可以明明确的感受到。
+[Speaker 1]: 现在如果说你刚刚开始续保费的话，
+[Speaker 1]: 你拿今年的保费和上年的保费去做对比的话，
+[Speaker 1]: 这一个增速几乎就没有了。
+[Speaker 1]: 好吧，
+[Speaker 1]: 从这个趋势期换的话，
+[Speaker 1]: 我认为这个保费增速将会持续放缓，
+[Speaker 1]: 甚至有可能出现负增长。
+[Speaker 1]: 那为什么会出现负增长？
+[Speaker 1]: 其实很简单，
+[Speaker 1]: 是因为过去这两年，
+[Speaker 1]: 汽车起码在裁剪公司这一块，
+[Speaker 1]: 他们在汽车保费、
+[Speaker 1]: 汽车保费这一块的业务，
+[Speaker 1]: 汽车业务、
+[Speaker 1]: 汽车保险这一块的业务，
+[Speaker 1]: 他们赚的非常的多。
+[Speaker 1]: 那而整个汽车保险行业，
+[Speaker 1]: 它是一个竞争非常激烈的这个行业。
+[Speaker 1]: 当这些公司在汽车保险上赚了非常的多，
+[Speaker 1]: 他们自然就把这个保费给降下来。
+[Speaker 1]: 为什么？
+[Speaker 1]: 因为他们去获得，
+[Speaker 1]: 为了去获得更多的客户。
+[Speaker 1]: 对对对对对对对，
+[Speaker 1]: 这也就是为什么在北美汽车保险这一块的忠诚度其实非常的低。
+[Speaker 1]: 你会看到很多人基本上每一年每两年都会换一家公司。
+[Speaker 1]: 因为另外一家公司会给出更好的这个 offer，
+[Speaker 1]: 就会给出更低的这个 premium。
+[Speaker 1]: 然后基本上汽车保费的这个保单，
+[Speaker 1]: 无论是哪一家公司都是非常的类似好的。
+[Speaker 1]: 对，
+[Speaker 1]: 对的啊，
+[Speaker 1]: 所以这是汽车保费这一块，
+[Speaker 1]: 这对于 CPI 来说绝对是一个好消息。
+[Speaker 1]: 接下去在汽车保费这块的 CPI，
+[Speaker 1]: 我们应该会看到这一个向好的一个方向将会继续下去。
+[Speaker 1]: 然后是房屋保险，
+[Speaker 1]: 房屋保险对于 CPI 啊对于 PC 的影响不是那么的大，
+[Speaker 1]: 但是对于体感上来说会比较的大。
+[Speaker 1]: 终于在二零二六年的第一季度，
+[Speaker 1]: 我们看到房屋保险的这个同比增速降到了百分之十以下。
+[Speaker 1]: 一年前吧，
+[Speaker 1]: 二零二五年的第一季度是百分之十九。
+[Speaker 1]: 然后接下去的四个季度连续放缓。
+[Speaker 1]: 我说过了房屋保险这一块的一个保费，
+[Speaker 1]: 汽车保费也是一样，
+[Speaker 1]: 它是需要一个时间开始慢慢放缓，
+[Speaker 1]: 它绝对不会一个季度比上一个季度突然上一个季度百分之二十。
+[Speaker 1]: 然后这个季度马上变成负的百分之十，
+[Speaker 1]: 不可能它一定是慢慢慢慢的放缓。
+[Speaker 1]: 那这个趋势我们已经看到了。
+[Speaker 1]: 而且今年的第一季度，
+[Speaker 1]: 二零二六的第一季度和二零二五年的第四季度，
+[Speaker 1]: 这个同比增速放缓的速度非常的快。
+[Speaker 1]: 嗯，
+[Speaker 1]: 有 OK。
+[Speaker 1]: 然后我们从一个比较综合全面的一个从上到下的这个角度去看一下整个标普五百 EPS，
+[Speaker 1]: 这个增速非常的有意思。
+[Speaker 1]: 我们看一下大科技，
+[Speaker 1]: 先我们把大科技和标普四九三分开去看。
+[Speaker 1]: 首先是大科技，
+[Speaker 1]: 呃，
+[Speaker 1]: 第一季度大科技的增增速 EPS 增速同比百分之二十三，
+[Speaker 1]: 然后标普四九三百分之十。
+[Speaker 1]: 但是整个全年呃前期大科技股是二十将近有百分之二十五，
+[Speaker 1]: 然后标普四九三是百分之十六，
+[Speaker 1]: 所以仍然标普四九三 EPS 这个增速当远将远远高于标普四九三一批次这个增速。
+[Speaker 1]: 但是在前七大科技股里边，
+[Speaker 1]: 如果说我们把英伟达给去掉的话，
+[Speaker 1]: 那将会一批次这个增速将会从将近百分之二十五直接下降到百分之十三点二。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 如果把七姐妹变成六姐妹，
+[Speaker 1]: 这个六姐妹不包括英伟达的话，
+[Speaker 1]: 那这六姐妹的一批次增速将会低于标普四九三一批次增速。
+[Speaker 1]: 为什么那么的低？
+[Speaker 1]: 主要是有两家公司，
+[Speaker 1]: 主要是一家公司拖了后腿吧。
+[Speaker 1]: 这家公这是谁？
+[Speaker 1]: 大家猜一下，
+[Speaker 1]: 并不是特斯拉啊买它整个二零二六年市场预计标普五百 EP 的增速将会达到百分之十八的这个同比增速。
+[Speaker 1]: 如果今年啊整个二六年如果真的能够做到百分之十八 EP 的这个增速的话，
+[Speaker 1]: 那其实我对于今年的美股是比较的乐观。
+[Speaker 1]: 那么而且又是在我们三月份经历了这一波下跌的情况下，
+[Speaker 1]: 基本上把很多多头也进行了一部分的一个清理。
+[Speaker 1]: 而且这一波的反弹上来之后，
+[Speaker 1]: 我个人的看法，
+[Speaker 1]: 我认为这一波的反弹无论是散户和机构，
+[Speaker 1]: 很多，
+[Speaker 1]: 散户和机构是错过的是完全是踏空的。
+[Speaker 1]: 和上年四月份不一样，
+[Speaker 1]: 上年四月份是非常明显，
+[Speaker 1]: 散户先买，
+[Speaker 1]: 然后机构进来抬轿子。
+[Speaker 1]: 而这一波的一波上涨，
+[Speaker 1]: 四月份以来的这波上涨。
+[Speaker 1]: 无论是散户还是机构，
+[Speaker 1]: 非常的厌恶，
+[Speaker 1]: 为什么非常的厌恶？
+[Speaker 1]: 因为不相信觉得不合理，
+[Speaker 1]: 更多的一部分的一个层面是踏空了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 从估值这一个角度去看，
+[Speaker 1]: 像我前面说的，
+[Speaker 1]: 我这边是标普把的估值向前看的这个 p 一，
+[Speaker 1]: 经过四月份的这一波反弹，
+[Speaker 1]: 现在返回到了二十一倍左右。
+[Speaker 1]: 那二十一倍如果从过去二四年和二五年这两个角度去看的话，
+[Speaker 1]: 就处在一个中性的位置，
+[Speaker 1]: 绝对不低，
+[Speaker 1]: 那绝对对没没有那么的高。
+[Speaker 1]: 那我在上年十月份和大家说慢慢的开始降贝塔的时候，
+[Speaker 1]: 当时标普把的一 PP 一在多少？
+[Speaker 1]: 要将近二十三倍是有，
+[Speaker 1]: 然后我们快速的来扫一下。
+[Speaker 1]: 本周将会发布财报的一些公司。
+[Speaker 1]: 周二的盘前呢，
+[Speaker 1]: 基本上我这边用用黄色 high light 圈出来的，
+[Speaker 1]: 是我自己手里所持有的这些公司啊。
+[Speaker 1]: 周二的盘前会有 UNH，
+[Speaker 1]: 然后会有 g 一。
+[Speaker 1]: 那基本上我还记得其实我还记得三个月之前发财，
+[Speaker 1]: 三个月前发财报的时候，
+[Speaker 1]: 基本上我手手里的持股，
+[Speaker 1]: 好多公司都是暴雷的，
+[Speaker 1]: 就好多公司都是出现下跌的，
+[Speaker 1]: 和两个季度之前不一样。
+[Speaker 1]: 我记得只有一家公司，
+[Speaker 1]: 就是好像是英特尔吧，
+[Speaker 1]: 我记得还是还是不是英特尔，
+[Speaker 1]: 还我忘了哪家公司的，
+[Speaker 1]: 只有一家公司啊，
+[Speaker 1]:  circle 是逐渐上涨的。
+[Speaker 1]: 然后几乎其他所有的公司是全军覆没了。
+[Speaker 1]: 我希望这一个季度的财报可以出现一定程度的一个反转。
+[Speaker 1]: 起码 g 一的嘛，
+[Speaker 1]:  g 一这一波的反弹其实也没有那么的强。
+[Speaker 1]: 而三月份的那一波下跌其实还挺大的，
+[Speaker 1]: 所以对于 g 一还是有些期待，
+[Speaker 1]:  UN 也有有些期待。
+[Speaker 1]: 因为他们管理层有说过了，
+[Speaker 1]: 二六年我们就我们把所有的方向全部放在盈利上面。
+[Speaker 1]: 所以以对对他们 EPS 增速这一块的，
+[Speaker 1]: 还是有一定的一个期待和气序在那边的 RS 他们 intutive surgical 这家公司。
+[Speaker 1]: 我在周六周五做直播的时候，
+[Speaker 1]: 有人问我，
+[Speaker 1]: 这家公司，
+[Speaker 1]: 我特地去看了一下上一个季度这家公司的一个财谋。
+[Speaker 1]: 说到在中国，
+[Speaker 1]: 那一边的竞争变得越来越厉害，
+[Speaker 1]: 所以这个季度我不知道会出现什么情况。
+[Speaker 1]: 那我估计在中国这一块的竞争可能会越来越激烈，
+[Speaker 1]: 因为第四季度已经说了变得越来越激烈。
+[Speaker 1]: 可能第一季度比第一季度啊第一季度比第四季度去做对比的话，
+[Speaker 1]: 可能这个激烈会更加的竞竞争会更加的激烈，
+[Speaker 1]: 对于营收可能会造成一定的影响。
+[Speaker 1]: 我我不知道，
+[Speaker 1]: 所以我啊周二的盘后 RSRG 的话，
+[Speaker 1]: 我有时间我会去看一下这家公司的一个财报好吗？
+[Speaker 1]: 然后周三盘前的话，
+[Speaker 1]: 会有 GEV，
+[Speaker 1]: 周三的盘后会有特斯拉。
+[Speaker 1]: 那周三的话本身就周三不录视频的。
+[Speaker 1]: 如果有必要的话，
+[Speaker 1]: 我可以做一个直播或者录一期视频，
+[Speaker 1]: 和大家聊一下特斯斯的这个财报好吗？
+[Speaker 1]: 然后还有 service now，
+[Speaker 1]: 那 service now 主要就是看一下软件板块这一块 service now 是不是受到影响？
+[Speaker 1]: 特别是市场对于 service now 的这个财报怎么做出反馈？
+[Speaker 1]: 那么如果反馈非常的好，
+[Speaker 1]: 那对于软件板块就是一个利好。
+[Speaker 1]: 如果反馈没有那么的好，
+[Speaker 1]: 或者这家公司的财报没有那么的好，
+[Speaker 1]: 那软件板块可能会继续被杀跌。
+[Speaker 1]: 周四的盘前会有淘市，
+[Speaker 1]: 淘市的话 YTT 走的非常的好。
+[Speaker 1]: 就是因为油价的上涨，
+[Speaker 1]: 然后导致很多的一些化肥的一些上涨啊等等。
+[Speaker 1]: 所以淘市 YTT 走的非常的好看。
+[Speaker 1]: 一下这家公司能够聊出一些什么，
+[Speaker 1]: 就他们财报的时候能够聊出一些什么。
+[Speaker 1]: 然后周四在盘后还有英特尔。
+[Speaker 1]: 英特尔的话，
+[Speaker 1]: 我对它非常的期待，
+[Speaker 1]: 包括就当然这段时间走的非常的好，
+[Speaker 1]: 市场在走什么在走未来 CPU 的这个涨价和 CPU 的这个短缺。
+[Speaker 1]: 好的好的，
+[Speaker 1]: 最后我们一起来看一个观点，
+[Speaker 1]: 主要是聊一下 sars 到底未来有哪些公司可以走出来，
+[Speaker 1]: 这些公司可以走出来，
+[Speaker 1]: 这些公司需要具备哪些特性？
+[Speaker 1]: 那这篇文章是来自于 cross over research，
+[Speaker 1]: 它其实是 x 上所发的这一段推。
+[Speaker 1]: 然后我把这段推里面的一些重点翻成中文之后，
+[Speaker 1]: 把一些重点给聊出来，
+[Speaker 1]: 和大家分享一下。
+[Speaker 1]: 那这个人说他说八月份的时候，
+[Speaker 1]: 我曾经写过一篇研报，
+[Speaker 1]: 但是我一直没有发。
+[Speaker 1]: 因为我警告的那些公司都是我们 cross over research 的核心客户，
+[Speaker 1]: 所以我选择了沉默。
+[Speaker 1]: 从那时到现在，
+[Speaker 1]: 首先先说一下，
+[Speaker 1]: 那么我过去的判断非常的准。
+[Speaker 1]: 呃，
+[Speaker 1]: 你总得你总得先写这一段，
+[Speaker 1]: 然后吸引更多的一些注意力嘛。
+[Speaker 1]: 他说从那时到现在，
+[Speaker 1]: 软件板块的估值倍数已经跌掉了百分之五十以上。
+[Speaker 1]: 这边说的是估值倍数啊，
+[Speaker 1]: 并不是说价格估值倍数就是一个 p 一，
+[Speaker 1]: 确实是这样的。
+[Speaker 1]: 比如说像 adobe，
+[Speaker 1]:  adobe 的营收增速并没有任何的放缓。
+[Speaker 1]: 但是为什么股价下跌？
+[Speaker 1]: 单纯是因为市场对于这些公司的一个 p 一，
+[Speaker 1]: 对于他们的一个 multiple 进行一个杀估值。
+[Speaker 1]: 所以他其实营收盈利其实并没有任何的影响，
+[Speaker 1]: 只是市场在杀跌，
+[Speaker 1]: 未来就杀跌。
+[Speaker 1]: 这些公司未来他们现在的一个营收和盈利增速，
+[Speaker 1]: 未来是没有办法持续下去。
+[Speaker 1]: 我们继续看下去。
+[Speaker 1]: 他说，
+[Speaker 1]: 大多数垂直的 sars 公司业绩跑输并不是因为他们的产品烂，
+[Speaker 1]: 而是他们跑输是从来没有建立起第二个曲线的业务。
+[Speaker 1]: 而现在第一曲线的业务正在被攻击，
+[Speaker 1]: 也就是现有业务正在被攻击。
+[Speaker 1]: 但是未来和 AI 相关的这个第二曲线第二个业务并没有建立起来。
+[Speaker 1]: 好的好的好的，
+[Speaker 1]: 在过去的二十年里，
+[Speaker 1]:  sars 最大的护城河 g 就是工程的复杂程度、
+[Speaker 1]: 深厚的技术人才储备、
+[Speaker 1]: 长周期的产品路线，
+[Speaker 1]: 不断积累的代码库，
+[Speaker 1]: 这些确实很难被复制。
+[Speaker 1]: 但是现在有了 AI，
+[Speaker 1]: 特别是有了 AI coding 之后，
+[Speaker 1]: 几乎一夜之间全部被颠覆。
+[Speaker 1]:  hello，
+[Speaker 1]: 我的我的一个。
+[Speaker 1]: 所以如果工程的护城河没有了，
+[Speaker 1]: 那只剩下四个护城河。
+[Speaker 1]: 其实我和大家聊过三个护城河，
+[Speaker 1]: 这边他有加了一个。
+[Speaker 1]: 那这个我是完全认同的，
+[Speaker 1]: 分别哪四个护城河？
+[Speaker 1]: 我和大家聊过分销渠道，
+[Speaker 1]: 这是一个非常重要的护城河。
+[Speaker 1]: 第二个专有数据非常重要的护城河。
+[Speaker 1]: 第三个工作的一个流广度，
+[Speaker 1]: 它就是整个 sars 软件本身和公司本身之间的一个整合程度，
+[Speaker 1]: 我们叫做 integration。
+[Speaker 1]: 第五个，
+[Speaker 1]: 第四个叫做监管壁垒。
+[Speaker 1]: 这一点我是我以前没和大家聊过。
+[Speaker 1]: 但是不同的 sars，
+[Speaker 1]: 如果有些 sars，
+[Speaker 1]: 你是在一个特定的行业啊，
+[Speaker 1]: 在一个特定的行行有非常多的一些监管在背后的话，
+[Speaker 1]: 那你这一类的 sars 是有一个监管壁垒的一个护城河在那边。
+[Speaker 1]: 而相对来说，
+[Speaker 1]: 前三个护城河是公司自己建立出来的。
+[Speaker 1]: 第四个，
+[Speaker 1]: 护城河是开是补货的，
+[Speaker 1]: 我们叫做 regulatory capture，
+[Speaker 1]: 也是最难被 AI 所颠覆的。
+[Speaker 1]: 什么意思呢？
+[Speaker 1]: 监管复杂创造的切换成本跟产品的质量本身是没有任何的关系。
+[Speaker 1]: 只是因为他在这一个行业里边和比如说他下面举到了几个例子嘛，
+[Speaker 1]: 他说 tyler technology，
+[Speaker 1]: 他说这个模式最是最清晰的一个代表州和地方政府的这个软件。
+[Speaker 1]: 法院公共安全、
+[Speaker 1]: 资产评估、
+[Speaker 1]:  ERP 基本上是权限覆盖。
+[Speaker 1]: 他说每一个模块都要走法定的这个流程，
+[Speaker 1]: 审计轨迹以及长呃以及长达数年的政府采购周期全部绑死。
+[Speaker 1]: 但是完全不妨碍这家公司在过去一年里面也跌了百分之四十二。
+[Speaker 1]: 但是他们财年啊他们的营收仍然是出现一个复合增长，
+[Speaker 1]: 并且护城河没有遭到任何的一个破坏。
+[Speaker 1]: 和 teylor technology 类似的两家公司、
+[Speaker 1]:  viva 和 gutewhile 这两家公司分别都是在其他不同的些领域啊，
+[Speaker 1]: 这些领域这些公司本身在这些领域里面本身就有一个监管的一个护城河在那边。
+[Speaker 1]: 然后他聊到了 paltite，
+[Speaker 1]: 他说他在十三块钱的时候做多过 pentippentite，
+[Speaker 1]: 不是因为模型。
+[Speaker 1]: 他说，
+[Speaker 1]: 当时做 ppenented 不是因为模型，
+[Speaker 1]: 也不是因为工具链，
+[Speaker 1]: 而是因为他的一个 ontology palenter 是一个专有数据版本的监管护城河论点。
+[Speaker 1]: 他说一旦 palppenenty，
+[Speaker 1]: 现在是卡在客户和客户自己的数据之间，
+[Speaker 1]: 如果你要把 paltite 给拔掉的话，
+[Speaker 1]: 那就意味着需要从零开始，
+[Speaker 1]: 重建整个数据模型，
+[Speaker 1]: 这就是 penenty 的一个护城河。
+[Speaker 1]: 所以未来赢家的这个模式是数据或者监管的这个壁垒。
+[Speaker 1]: 这两者里边必须要有一个，
+[Speaker 1]: 并且要加上能跑的 AI，
+[Speaker 1]: 两者缺一不可。
+[Speaker 1]: 他建议接下去的一些公司，
+[Speaker 1]: 就 sars 这些公司。
+[Speaker 1]: 他说把你现在已经有的这个护城河，
+[Speaker 1]: 不管是监管还是数据根植拿出来在上面叠加，
+[Speaker 1]: 真正能用的 workflow AI，
+[Speaker 1]: 就是在上面叠加 AI，
+[Speaker 1]: 然后让你的客户去用。
+[Speaker 1]: 并且他们对于很多企业的高管去做了一个调查，
+[Speaker 1]: 总共调查了一百二十九位 CEO。
+[Speaker 1]: 这些公 CEO 所管理的公司营收分别在五千万至五十亿美金。
+[Speaker 1]: 金上的这些公司。
+[Speaker 1]: 这些 CCE 他他们表达是百分之七十七的 CFOCFO。
+[Speaker 1]: 他们都说希望望新的供应商能够提供 AI 的能力，
+[Speaker 1]: 是为现有的系统升级。
+[Speaker 1]: 这些 AI 以叠加层的这一个形式介入。
+[Speaker 1]: 只有百分之十五的 CFO 愿意把当前的 system of records 换成 AI native 这个平台。
+[Speaker 1]: 什么意思？
+[Speaker 1]: 就是只有百分之十五的 CFO 愿意去拥抱这些新的 AI 的平台。
+[Speaker 1]: 而把以以前自己的所用的这些 sars 的一些平台全部扔掉。
+[Speaker 1]: 所以更多的 CFO，
+[Speaker 1]: 他们希望的是在现有的平台上，
+[Speaker 1]: 你去建立 AI 的初创能力。
+[Speaker 1]: 无论是你新的 AI 的初创公司，
+[Speaker 1]: 还是你原有的公司加入 AI 的功能。
+[Speaker 1]: 所以龙头只要肯推 AI 就赢 AI native 的这些公司就 AI 的初创公司。
+[Speaker 1]: 挑战者赢的前提是龙头不肯推 AI。
+[Speaker 1]: 然后在他们的调查里面，
+[Speaker 1]: 他们的客户会告诉他们有一个非常有意思的一个观察。
+[Speaker 1]: 就是很多时候你会发现一些产品本身，
+[Speaker 1]: 软件产品本身它的产品是一般的，
+[Speaker 1]: 但是他们不会选择切换，
+[Speaker 1]: 为什么不会选择切换？
+[Speaker 1]: 因为合规团队有一票否决权。
+[Speaker 1]: 很多时候你提了一个建议说，
+[Speaker 1]: 我选择想用这一个软件，
+[Speaker 1]: 但是合规团队直接一票把你毙了。
+[Speaker 1]: 为什么他们要减少这个切换摩擦成本？
+[Speaker 1]: 那最后做一个总结，
+[Speaker 1]: 就从投资者这个角度去看，
+[Speaker 1]: 以后我们在投资公司的时候，
+[Speaker 1]: 我们要问自己三个问题。
+[Speaker 1]: 第一个问题，
+[Speaker 1]: 你投的这家软件公司，
+[Speaker 1]: 它除了订阅收入和支付处理，
+[Speaker 1]: 你包括 fin tag，
+[Speaker 1]: 包括 sars 公司全部放在一起，
+[Speaker 1]: 还有哪些比例的这个收入是来自于其他来源。
+[Speaker 1]: 如果低于百分之五呢，
+[Speaker 1]: 这家公司 AI 这一块是完全没有几步的，
+[Speaker 1]: 百分之十到百分之二十，
+[Speaker 1]: 那可能 AI 刚刚落地。
+[Speaker 1]: 如果已经超过百分之二十，
+[Speaker 1]: 那这家公司的 AI 的这个性能就已经跑起来了。
+[Speaker 1]: 好的好的，
+[Speaker 1]: 第二点，
+[Speaker 1]: 如果说今天用 AI 重新去做你这家公司的话，
+[Speaker 1]: 到底有多难？
+[Speaker 1]: 那如果背后有一个资金非常充足的团队，
+[Speaker 1]: 配上 cloud，
+[Speaker 1]: 配上这个配上这个 cloud 一个 code 和配上 cloud 一个 coding，
+[Speaker 1]: 然后加六个工程师九个月。
+[Speaker 1]: 是不是能够把你这个软件的核心功能给做出来。
+[Speaker 1]: 如果可以的话，
+[Speaker 1]: 那你这个软件本身没有任何的护城河，
+[Speaker 1]: 那这个护城河必须在于别处在于哪里？
+[Speaker 1]: 就是前面说到的四点专有数据，
+[Speaker 1]: 数据上的护城河、
+[Speaker 1]: 网络效应集成关系，
+[Speaker 1]: 或者说挑战者无法就新新的这个挑战者 AI 的挑战者无法攻克的监管壁垒。
+[Speaker 1]: 第三点，
+[Speaker 1]: 在买家的这一客户里边的这个粘粘性有多少比例是来自于监管，
+[Speaker 1]: 他要挑战这个监管比例。
+[Speaker 1]: 他说，
+[Speaker 1]: 而且这个规则是朝哪个方向去演进？
+[Speaker 1]: 如果说一旦监管简化的话，
+[Speaker 1]: 那你这个监管护城河是不是会蒸发，
+[Speaker 1]: 什么意思？
+[Speaker 1]: 也就是说如果我们投的这家公司，
+[Speaker 1]: 他在一个领域里边有绝对的一个监管护城河。
+[Speaker 1]: 我们要去关注一下这一个领域里面的未来的监管有没有可能会变得更加的宽松。
+[Speaker 1]: 如果有的话，
+[Speaker 1]: 那这家公司现在赖以生生成的这个监管护城河可能就消失了。
+[Speaker 1]: 那这一点其实我们在投资很多公司的时候都是一样的。
+[Speaker 1]: 就是我们需要很多时候，
+[Speaker 1]: 我们就要找一家公司有没有护城河或者护城河会出现在哪里。
+[Speaker 1]: 但一个更加进阶的一个思维，
+[Speaker 1]: 使这家公司的一个护城河有没有扩大？
+[Speaker 1]: 我们希望去投资的公司是它的护城河在越来越扩大。
+[Speaker 1]: 一个 growing mode，
+[Speaker 1]: 这才是更好的一类公司。
+[Speaker 1]: 最后一点是现在市场讨论不多的，
+[Speaker 1]: 就是现在被严重低估的。
+[Speaker 1]: 现在我们这些 AI 的初创公司，
+[Speaker 1]:  AI native 的这些挑战者，
+[Speaker 1]: 他们的毛利润率其实比这些 sars 的龙头是更差的，
+[Speaker 1]: 并不是更好。
+[Speaker 1]: 就是这些 AI 的初创公司呢，
+[Speaker 1]: 是烧钱的，
+[Speaker 1]: 他们现在 call 的是 VC。
+[Speaker 1]: 那么这些呃一级市场投资这些 VC 公司，
+[Speaker 1]: 他们烧钱来补贴这些 AI 的初创公司，
+[Speaker 1]: 这并不是一个长期的一个盈利模式。
+[Speaker 1]: 那么龙头本应该在 PNAPNO 在盈利上面，
+[Speaker 1]: 比这些 AI 的初创公司做的更好。
+[Speaker 1]: 所以对于这些龙头的 sars 公司来说，
+[Speaker 1]: 这只是一个需要董事会有推产品的这个决心就能够解决的问题。
+[Speaker 1]: 最后帮大家总结一下，
+[Speaker 1]: 未来哪一类的 sas 公司可能走出来，
+[Speaker 1]: 他必须要具备很多的一些特质，
+[Speaker 1]: 起码要有一个以上的这个特质或者护城河哪几个特质呢？
+[Speaker 1]: 第一个，
+[Speaker 1]: 你要你有一个派发渠道，
+[Speaker 1]: 派发渠道是不是有这个护城河。
+[Speaker 1]: 第二个有没有专业的数据，
+[Speaker 1]: 数据是一个护城河。
+[Speaker 1]: 第三个和你客户之间工作流的一个整合程度是不是是一个护城河？
+[Speaker 1]: 第四个监管壁垒有可能是一个护城河。
+[Speaker 1]: 所以这四个护业河里边如果有一个以上越多越好，
+[Speaker 1]: 同时在这个基础上必须要加入 AI。
+[Speaker 1]: 如果你不加 AI 的话，
+[Speaker 1]: 那你现在的这些护城河仍然会被遭到破坏。
+[Speaker 1]: 最后今天要和大家聊一下 seeking alpha，
+[Speaker 1]: 那主要和大家聊一下 seeking alpha，
+[Speaker 1]: 他们的一个 alpha pix 的这一个服务。
+[Speaker 1]: 看了一下 YT，
+[Speaker 1]: 我们知道 YTD 标普百上涨了百分之四，
+[Speaker 1]: 他们的这个 pfofolio 这是一个量化的一个投资组合，
+[Speaker 1]: 竟然是百分之二十一，
+[Speaker 1]: 我觉得还是非常的不错的那最近他们有算选了三个标的，
+[Speaker 1]: 在三月份到四月份嘛，
+[Speaker 1]: 基基上是是半月一半个月一个标的，
+[Speaker 1]: 一个个一个标的。
+[Speaker 1]: 这三个标的在过去这段时间的涨幅还是非常的不错的。
+[Speaker 1]: 但是这三个标的我不能透露出来。
+[Speaker 1]: 因为合规方面的一些问题，
+[Speaker 1]: 我只能和大家分享他们在上年年底所选的一些标的，
+[Speaker 1]: 其实还是走的不错的。
+[Speaker 1]: 包括 MU，
+[Speaker 1]: 他们也是在二零二五年的十月份所选的一个标的。
+[Speaker 1]: 所以阿尔法 pix 是他们的一个选股量化的一个选股策略。
+[Speaker 1]: 大家如果感兴趣的话，
+[Speaker 1]: 现在订阅可以在原本四九九美金一年的基础上，
+[Speaker 1]: 可以有百分之十的这个折扣。
+[Speaker 1]: 然后他们还有一档 premium 的订阅百分之十的折扣，
+[Speaker 1]: 加上七天的免费试用。
+[Speaker 1]: 另外还有一个 bo，
+[Speaker 1]: 大家如果感兴趣的话，
+[Speaker 1]: 我会把这三个的订阅全部放在今定的留言里边，
+[Speaker 1]: 好吗？
+[Speaker 1]: 今天这期内容就到这边，
+[Speaker 0]: 我们下期见啦啦啦就是。
