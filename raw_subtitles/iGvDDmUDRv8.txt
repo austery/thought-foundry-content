@@ -1,0 +1,3228 @@
+Every
+ time
+ you
+ send
+ a
+ message
+ in
+ Claude,
+
+
+Gemini,
+ or
+ GBT,
+ multiple
+ companies
+ make
+
+
+money.
+ Behind
+ that
+ one
+ prompt,
+ money
+
+
+goes
+ out
+ to
+ half
+ a
+ dozen
+ businesses
+ you
+
+
+never
+ see,
+ and
+ each
+ layer
+ gets
+ paid,
+ but
+
+
+not
+ equally.
+ 1849
+ had
+ the
+ gold
+ rush.
+
+
+2026
+ has
+ GPUs.
+ And
+ just
+ like
+ then,
+ the
+
+
+people
+ selling
+ the
+ shovels
+ are
+ making
+
+
+more
+ money
+ than
+ anyone
+ digging
+ for
+ the
+
+
+gold.
+ This
+ is
+ part
+ two
+ of
+ our
+ video,
+ the
+
+
+business
+ of
+ data
+ centers.
+ By
+ the
+ end
+ of
+
+
+this
+ video,
+ you'll
+ be
+ able
+ to
+ trace
+ your
+
+
+own
+ AI
+ message
+ all
+ the
+ way
+ down
+ that
+
+
+stack.
+ Who
+ gets
+ paid
+ on
+ what
+ terms?
+ And
+
+
+how
+ are
+ all
+ of
+ these
+ parties
+ connected
+
+
+under
+ the
+ surface?
+ Let's
+ dive
+ in.
+
+
+What
+ happens
+ when
+ you
+ run
+ a
+ query
+
+
+exactly
+ from
+ the
+ moment
+ you
+ press
+ enter
+
+
+in
+ Cloud
+ or
+ Chad
+ GBT?
+ When
+ you
+ press
+
+
+enter,
+ a
+ request
+ with
+ your
+ message,
+ your
+
+
+authentication,
+ your
+ conversation
+ ID,
+
+
+and
+ the
+ model
+ that
+ you
+ selected
+ travels
+
+
+over
+ the
+ internet
+ to
+ an
+ edge
+ server
+ near
+
+
+you
+ that
+ processes
+ your
+ request.
+ The
+
+
+edge
+ server
+ can
+ be
+ operated
+ by
+ different
+
+
+providers
+ like
+ Cloudflare
+ or
+ AWS
+
+
+CloudFront.
+ It
+ is
+ up
+ to
+ the
+ company
+ that
+
+
+makes
+ the
+ app.
+ Let's
+ say
+ for
+ example,
+
+
+Chad
+ GBT
+ to
+ pick
+ who
+ they
+ want
+ to
+ use.
+
+
+OpenAI,
+ for
+ example,
+ uses
+ a
+ mix
+ of
+ them
+
+
+for
+ their
+ needs.
+ The
+ edge
+ server
+
+
+receives
+ your
+ request
+ and
+ forwards
+ it
+ to
+
+
+the
+ nearest
+ OpenAI
+ data
+ center.
+ For
+
+
+example,
+ I
+ live
+ in
+ Toronto
+ and
+ when
+ I
+
+
+send
+ a
+ query,
+ it
+ likely
+ gets
+ routed
+ to
+
+
+an
+ east
+ coast
+ region
+ of
+ the
+ US,
+ for
+
+
+example,
+ Northern
+ Virginia.
+ Now,
+ the
+
+
+money
+ from
+ this
+ one
+ step
+ goes
+ to
+ the
+
+
+edge
+ server
+ provider.
+ OpenAI
+ is
+ the
+ one
+
+
+who
+ pays
+ and
+ they
+ pay
+ about
+ a
+ fraction
+
+
+of
+ a
+ cent.
+ Then,
+ the
+ request
+ hits
+
+
+OpenAI's
+ API
+ gateway.
+ It
+ authenticates
+
+
+me
+ as
+ a
+ legitimate
+ user.
+ It
+ checks
+
+
+whether
+ I'm
+ on
+ the
+ free
+ or
+ plus
+ or
+ pro
+
+
+plan.
+ It
+ sends
+ my
+ request
+ to
+ a
+ certain
+
+
+model
+ and
+ then
+ forwards
+ the
+ request
+ to
+
+
+an
+ inference
+ cluster.
+ During
+ this
+ step,
+
+
+the
+ money
+ goes
+ to
+ the
+ cloud
+ provider.
+ In
+
+
+OpenAI's
+ case,
+ it's
+ usually
+ Microsoft
+
+
+Azure.
+ Now,
+ why
+ Azure?
+ Because
+ Microsoft
+
+
+is
+ OpenAI's
+ primary
+ compute
+ partner
+
+
+under
+ a
+ committed
+ $250
+ billion
+ contract.
+
+
+For
+ some
+ workloads,
+ OpenAI
+ can
+ also
+
+
+round
+ to
+ Corewave
+ because
+ they
+ have
+
+
+another
+ $22.4
+ 4
+ billion
+ contract
+ with
+
+
+Core
+ Weave
+ or
+ to
+ AWS.
+ That's
+ another
+ $
+
+
+38
+ billion
+ deal.
+ So
+ depending
+ on
+ how
+ my
+
+
+particular
+ request
+ gets
+ scheduled,
+ one
+
+
+of
+ those
+ cloud
+ providers
+ earns
+ the
+
+
+revenue
+ from
+ the
+ compute
+ and
+ networking
+
+
+time
+ from
+ my
+ request.
+ And
+ now
+ we're
+
+
+moving
+ to
+ a
+ more
+ expensive
+ layer,
+
+
+compute.
+ Now
+ my
+ raw
+ text
+ is
+ passed
+ to
+
+
+the
+ model.
+ And
+ the
+ model
+ takes
+ the
+ input
+
+
+and
+ turns
+ my
+ words
+ into
+ tokens
+ because
+
+
+the
+ model
+ can
+ only
+ work
+ with
+ numbers.
+
+
+How
+ exactly
+ my
+ word
+ gets
+ converted
+ into
+
+
+a
+ token.
+ Whether
+ a
+ fragment
+ of
+ a
+ word
+
+
+counts
+ as
+ a
+ token
+ or
+ a
+ letter
+ or
+ a
+ full
+
+
+word
+ depends
+ on
+ the
+ tokenizer
+ algorithm.
+
+
+Different
+ LLMs
+ use
+ different
+ tokenizer
+
+
+algorithms
+ which
+ is
+ the
+ reason
+ why
+ the
+
+
+same
+ prompt
+ can
+ be
+ priced
+ differently
+ on
+
+
+claude
+ versus
+ DC
+ versus
+ GBT.
+ But
+ the
+
+
+rule
+ of
+ thumb
+ is
+ the
+ more
+ tokens,
+ the
+
+
+more
+ compute
+ and
+ the
+ more
+ expensive
+ the
+
+
+query.
+ For
+ example,
+ let's
+ assume
+ that
+
+
+the
+ word
+ please
+ equals
+ one
+ token
+ and
+
+
+thank
+ you
+ two
+ tokens
+ just
+ as
+ an
+ example.
+
+
+Now,
+ a
+ typical
+ message
+ plus
+ response
+ is
+
+
+roughly
+ 500
+ tokens
+ combined.
+ Each
+ token
+
+
+costs
+ about
+ a
+ fraction
+ of
+ a
+ scent
+ to
+
+
+process,
+ but
+ the
+ extra
+ please
+ and
+ thank
+
+
+you
+ add
+ tokens
+ to
+ your
+ prompt.
+ And
+ when
+
+
+you
+ add
+ those
+ words,
+ it
+ also
+ makes
+ the
+
+
+model
+ respond
+ in
+ a
+ friendlier
+ and
+ longer
+
+
+way,
+ which
+ adds
+ the
+ number
+ of
+ output
+
+
+tokens.
+ This
+ is
+ why
+ you
+ can
+ read
+ in
+
+
+multiple
+ resources
+ that
+ the
+ model
+
+
+companies
+ ask
+ people
+ to
+ not
+ be
+ polite
+
+
+with
+ LLMs
+ and
+ say
+ hello
+ or
+ thank
+ you
+
+
+because
+ your
+ politeness
+ costs
+ quite
+ a
+
+
+bit.
+ Anyway,
+ tokenizers
+ run
+ entirely
+ on
+
+
+CPU
+ chips
+ and
+ each
+ token
+ has
+ a
+ cost.
+
+
+After
+ this,
+ your
+ entire
+ prompt
+ becomes
+
+
+an
+ ordered
+ list
+ of
+ numbers,
+ something
+
+
+like
+ this.
+ The
+ list
+ is
+ not
+ huge
+ for
+ a
+
+
+short
+ or
+ a
+ typical
+ question.
+ Let's
+ say
+
+
+it's
+ about
+ 17
+ tokens.
+ The
+ CPU
+ copies
+
+
+that
+ into
+ the
+ GPU's
+ high
+ bandwidth
+
+
+memory
+ so
+ that
+ the
+ model
+ can
+ process
+
+
+your
+ request.
+ Now,
+ what's
+ interesting
+ is
+
+
+that
+ the
+ chip
+ and
+ the
+ memory
+ are
+ two
+
+
+separate
+ components.
+ And
+ there
+ are
+ only
+
+
+three
+ companies
+ in
+ the
+ entire
+ world
+ that
+
+
+manufacture
+ the
+ high
+ bandwidth
+ memory.
+
+
+I'm
+ calling
+ out
+ memory
+ separately
+
+
+because
+ what
+ matters
+ here
+ is
+ what's
+
+
+already
+ sitting
+ in
+ the
+ GPU
+ memory
+ before
+
+
+your
+ requests
+ arise
+ and
+ it's
+ the
+ model
+
+
+weights.
+ Every
+ model
+ requires
+ a
+ certain
+
+
+amount
+ of
+ memory
+ in
+ a
+ chip
+ for
+ model
+
+
+weights.
+ Those
+ weights
+ were
+ loaded
+ once
+
+
+and
+ they
+ never
+ get
+ unloaded.
+ They
+ sit
+ in
+
+
+the
+ GPU
+ memory
+ continuously.
+ This
+ is
+
+
+actually
+ the
+ reason
+ why
+ you
+ need
+ chips
+
+
+for
+ AI
+ inference
+ instead
+ of
+ using
+ the
+
+
+regular
+ RAM
+ memory
+ in
+ a
+ laptop.
+ Now,
+ the
+
+
+money
+ here
+ goes
+ to
+ a
+ few
+ places.
+ the
+
+
+cloud
+ provider
+ because
+ you're
+ using
+ the
+
+
+GPU
+ capacity,
+ the
+ data
+ center
+ landlord
+
+
+because
+ GPUs
+ sit
+ in
+ a
+ data
+ center,
+ and
+
+
+utility
+ payment
+ because
+ GPUs
+ draw
+
+
+electricity.
+ Once
+ the
+ prompt
+ is
+ in
+ the
+
+
+GPU
+ memory,
+ the
+ model
+ runs
+ the
+ prefill
+
+
+phase.
+ Prefill
+ is
+ the
+ first
+ moment
+ when
+
+
+your
+ query
+ becomes
+ expensive.
+ Every
+
+
+input
+ token,
+ let's
+ say
+ about
+ 70
+ of
+ them
+
+
+get
+ pushed
+ through
+ every
+ transformer
+
+
+layer
+ in
+ parallel
+ and
+ it
+ goes
+ layer
+ by
+
+
+layer.
+ The
+ model
+ writes
+ key
+ and
+ value
+
+
+vectors
+ for
+ each
+ token
+ into
+ the
+ key
+
+
+value
+ cache
+ in
+ high
+ bandwidth
+ memory.
+
+
+What's
+ important
+ here
+ is
+ the
+ scaling
+
+
+because
+ the
+ key
+ value
+ cache
+ grows
+ with
+
+
+the
+ number
+ of
+ layers
+ and
+ with
+ the
+ number
+
+
+of
+ tokens.
+ So
+ even
+ a
+ small
+ prompt
+ can
+
+
+use
+ hundreds
+ of
+ megabytes
+ of
+ high-speed
+
+
+memory
+ per
+ request.
+ The
+ good
+ news
+ for
+
+
+OpenAI
+ is
+ that
+ prefill
+ is
+ very
+ fast
+ and
+
+
+the
+ electricity
+ cost
+ here
+ is
+ tiny.
+ The
+
+
+dominant
+ cost
+ is
+ still
+ the
+ GPU
+ cluster
+
+
+rental.
+ OpenAI
+ is
+ already
+ paying.
+ The
+
+
+money
+ goes
+ to
+ the
+ cloud
+ provider,
+ Azure
+
+
+or
+ AWS.
+ Then
+ the
+ GPU
+ vendor
+ or
+ the
+ GPU
+
+
+cloud
+ provider
+ and
+ the
+ data
+ center
+
+
+operator
+ and
+ the
+ utility
+ provider.
+ And
+
+
+now
+ decode.
+ This
+ is
+ where
+ the
+ most
+ money
+
+
+is
+ being
+ spent.
+ This
+ is
+ the
+ step
+ when
+
+
+the
+ model
+ generates
+ output
+ and
+ this
+
+
+process
+ cannot
+ be
+ parallelized.
+ It
+ has
+
+
+to
+ go
+ token
+ 1,
+ token
+ 2,
+ token
+ 3
+ and
+ so
+
+
+on.
+ It
+ can't
+ go
+ 1
+ 2
+ 3
+ and
+ then
+ parallel
+
+
+process
+ four
+ 56.
+ When
+ you
+ do
+ the
+
+
+calculation
+ across
+ millions
+ or
+ billions
+
+
+of
+ queries,
+ this
+ is
+ where
+ the
+
+
+electricity
+ bill
+ and
+ the
+ GPU
+ hour
+ bill
+
+
+adds
+ up.
+ From
+ a
+ money
+ perspective,
+ the
+
+
+decode
+ step
+ is
+ the
+ meter
+ really
+ running.
+
+
+All
+ of
+ the
+ earlier
+ steps
+ were
+ the
+ setup,
+
+
+but
+ this
+ is
+ where
+ you
+ burn
+ most
+ of
+ your
+
+
+GPU
+ time.
+ And
+ finally,
+ the
+ response.
+ As
+
+
+each
+ token
+ is
+ generated,
+ it
+ is
+
+
+immediately
+ sent
+ back
+ to
+ the
+ user.
+ The
+
+
+server
+ pushes
+ small
+ data
+ chunks
+ as
+ they
+
+
+are
+ produced.
+ And
+ it's
+ the
+ reason
+ why
+
+
+you
+ see
+ this
+ typing
+ effect
+ when
+ the
+ text
+
+
+appears
+ progressively
+ one
+ word
+ after
+
+
+another
+ rather
+ than
+ the
+ whole
+ response
+
+
+at
+ once.
+ Cost
+ here
+ is
+ almost
+ irrelevant
+
+
+because
+ data
+ leaving
+ data
+ center
+ is
+
+
+cheap.
+ So
+ going
+ back
+ to
+ the
+ subscription
+
+
+cost
+ you
+ pay
+ per
+ month
+ be
+ it
+ 20
+ or
+ $30.
+
+
+This
+ is
+ what
+ your
+ cost
+ decomposes
+ into.
+
+
+Every
+ step
+ in
+ this
+ chain
+ is
+ a
+ separate
+
+
+business
+ unit
+ with
+ a
+ margin.
+ And
+ the
+
+
+deeper
+ you
+ go
+ the
+ more
+ stable
+ and
+
+
+durable
+ the
+ cash
+ flow
+ is
+ for
+ the
+
+
+provider.
+ And
+ now
+ we
+ get
+ to
+ the
+ most
+
+
+powerful
+ position
+ in
+ this
+ entire
+ stack
+
+
+that
+ gets
+ paid
+ every
+ time
+ anyone
+ runs
+ a
+
+
+query.
+ No
+ matter
+ whose
+ model
+ or
+ whose
+
+
+app
+ they're
+ using,
+ layer
+ three,
+ the
+
+
+infrastructure,
+
+
+all
+ of
+ these
+ AWS,
+ Azure,
+ Google
+ Cloud,
+
+
+all
+ of
+ them
+ are
+ hyperscalers.
+ If
+ you
+
+
+have
+ ever
+ wondered
+ why
+ people
+ call
+ them
+
+
+hyperscalers
+ is
+ because
+ they
+ offer
+
+
+massive
+ computing,
+ storage,
+ and
+
+
+networking
+ resources
+ to
+ meet
+ the
+ demands
+
+
+of
+ billions
+ of
+ users.
+ They're
+ cloud
+
+
+companies
+ on
+ paper,
+ but
+ economically
+
+
+they're
+ closer
+ to
+ a
+ mix
+ of
+ utility,
+ a
+
+
+landlord,
+ and
+ a
+ wholesaler.
+ Hyperscalers
+
+
+are
+ designed
+ for
+ enterprises
+ and
+ for
+
+
+very
+ large
+ workloads.
+ Their
+ core
+
+
+customers
+ are
+ banks,
+ governments,
+ SAS
+
+
+vendors,
+ AI
+ labs,
+ telecommunication
+
+
+companies,
+ Fortune
+ 500
+ companies.
+ They
+
+
+sign
+ 10
+ to
+ 15year
+ leases
+ with
+ data
+
+
+center
+ operators
+ and
+ 20-year
+ purchase
+
+
+agreements
+ with
+ power
+ plants.
+ What
+ this
+
+
+allows
+ them
+ to
+ do
+ is
+ to
+ control
+ a
+
+
+specific
+ site
+ with
+ grid.
+ On
+ top
+ of
+ it,
+ a
+
+
+fixed
+ amount
+ of
+ power
+ and
+ cooling
+ and
+
+
+the
+ right
+ to
+ fit
+ it
+ out
+ internally
+ with
+
+
+their
+ own
+ racks.
+ And
+ on
+ those
+ racks,
+
+
+they've
+ got
+ the
+ chips
+ and
+ networking.
+
+
+What
+ they
+ do
+ is
+ they
+ get
+ location
+
+
+security
+ in
+ the
+ most
+ constrained
+
+
+markets.
+ for
+ example,
+ Northern
+ Virginia,
+
+
+Dublin,
+ or
+ Frankfurt,
+ where
+ the
+ grid
+ and
+
+
+the
+ land
+ are
+ scarce,
+ but
+ the
+ location
+ is
+
+
+perfect
+ for
+ AI
+ inference.
+ And
+ by
+
+
+leasing,
+ instead
+ of
+ purchasing,
+ they
+
+
+free
+ up
+ cash
+ to
+ spend
+ on
+ chips
+ instead
+
+
+of
+ concrete.
+ When
+ OpenAI
+ commits
+ to
+
+
+spend
+ $250
+ billion
+ on
+ Azure
+ over
+
+
+multiple
+ years,
+ or
+ when
+ Coree
+ has
+ a
+
+
+$22.4
+ $4
+ billion
+ commitment
+ from
+
+
+Microsoft.
+ These
+ become
+ financial
+
+
+instruments
+ when
+ the
+ model
+ company
+
+
+prepurchases
+ capacity
+ in
+ bulk.
+ This
+
+
+guarantees
+ the
+ hyperscaler
+ future
+
+
+revenue
+ regardless
+ of
+ what
+ happens
+ on
+
+
+the
+ market
+ and
+ whether
+ something
+ happens
+
+
+to
+ the
+ demand.
+ The
+ risk
+ profile
+ on
+ each
+
+
+side
+ is
+ almost
+ inverted
+ because
+ OpenAI
+
+
+faces
+ usage
+ volatility,
+ pricing,
+ model
+
+
+update
+ risk,
+ market
+ shifts,
+ demand
+
+
+fluctuation,
+ whereas
+ Microsoft
+ Azure
+
+
+faces
+ none
+ of
+ that.
+ Azure
+ still
+ has
+ to
+
+
+manage
+ its
+ own
+ power
+ costs.
+ But
+ as
+ long
+
+
+as
+ they
+ have
+ OpenAI
+ as
+ a
+ committed
+
+
+customer,
+ the
+ revenue
+ line
+ from
+ that
+
+
+contract
+ is
+ locked
+ in.
+ A
+ logical
+
+
+question
+ here
+ would
+ be
+ if
+ the
+ risk
+ is
+ so
+
+
+high
+ here
+ for
+ the
+ model
+ company,
+ why
+ do
+
+
+they
+ do
+ it?
+ They
+ do
+ it
+ because
+ the
+
+
+upside
+ is
+ enormous
+ and
+ the
+ downside
+ of
+
+
+not
+ doing
+ it
+ is
+ an
+ existential
+ risk.
+ The
+
+
+downside
+ looks
+ like
+ burning
+ a
+ few
+
+
+billion
+ dollars
+ on
+ training
+ and
+
+
+inference
+ then
+ get
+ acquired
+ or
+
+
+recapitalized
+ or
+ written
+ down.
+ Sure,
+
+
+investors
+ lose
+ money,
+ but
+ the
+
+
+infrastructure
+ layer
+ still
+ gets
+ paid.
+
+
+The
+ upside
+ though
+ is
+ that
+ it
+ becomes
+ the
+
+
+dominant
+ AI
+ company
+ which
+ means
+ hundreds
+
+
+of
+ billions
+ in
+ annual
+ revenue
+ through
+
+
+ads
+ and
+ search
+ and
+ model
+ and
+ agents
+ and
+
+
+the
+ native
+ app.
+ Don't
+ forget
+ the
+ network
+
+
+effects
+ because
+ the
+ more
+ users
+ you
+ have
+
+
+the
+ better
+ data,
+ the
+ better
+ the
+ model
+
+
+and
+ the
+ platform
+ power
+ over
+ the
+
+
+downstream
+ apps
+ and
+ the
+ distribution.
+
+
+This
+ is
+ why
+ a
+ hyperscaler
+ profits
+ from
+
+
+every
+ AI
+ query
+ at
+ multiple
+ levels
+
+
+simultaneously.
+ raw
+ compute,
+ key
+ value,
+
+
+cache
+ storage,
+ API
+ gateway
+ bandwidth,
+
+
+egress
+ data,
+ service
+ fees,
+ all
+ of
+ these
+
+
+get
+ triggered
+ simultaneously
+ on
+ every
+
+
+user
+ request.
+ A
+ hyperscaler
+ enters
+ the
+
+
+chain
+ through
+ raw
+ GPU
+ rental,
+ but
+ the
+
+
+services
+ they
+ provide
+ is
+ where
+ they
+
+
+apply
+ very
+ high
+ margins.
+ And
+ the
+ second
+
+
+player
+ in
+ the
+ infrastructure
+ game
+ is
+ the
+
+
+data
+ center
+ landlord.
+ Now,
+ for
+ data
+
+
+centers,
+ rents
+ are
+ quoted
+ per
+ kilowatt
+
+
+or
+ a
+ megawatt.
+ Listen
+ to
+ this
+ one
+ more
+
+
+time.
+ They're
+ not
+ charging
+ per
+ square
+
+
+foot
+ or
+ a
+ square
+ meter.
+ They're
+ selling
+
+
+the
+ right
+ to
+ draw
+ a
+ guaranteed
+ amount
+ of
+
+
+electricity.
+ The
+ building,
+ the
+ cooling,
+
+
+and
+ fiber
+ are
+ all
+ parts
+ of
+ the
+
+
+infrastructure
+ wrapped
+ around
+ the
+ power
+
+
+contract.
+ A
+ single
+ hyperscaler
+ data
+
+
+center
+ typically
+ contracts
+ around
+ $200
+
+
+megawatts
+ of
+ capacity.
+ So
+ at
+ 10
+ to
+ 14
+
+
+million
+ dollars
+ per
+ megawatt,
+ that's
+
+
+roughly
+ a
+ billion
+ plus
+ dollar
+ rent
+
+
+price.
+ The
+ tenants
+ of
+ a
+ data
+ center,
+
+
+which
+ are
+ hyperscalers
+ or
+ enterprises,
+
+
+sign
+ 5
+ to
+ 15year
+ leases.
+ Power
+ costs
+ are
+
+
+typically
+ passed
+ to
+ the
+ tenant.
+
+
+Inflation
+ is
+ built
+ into
+ the
+ contract
+ so
+
+
+that
+ the
+ rent
+ grows
+ naturally
+ without
+
+
+any
+ additional
+ spending
+ on
+ the
+ building
+
+
+and
+ new
+ builds
+ are
+ frequently
+ pre-leased
+
+
+before
+ construction
+ is
+ complete.
+ Which
+
+
+means
+ that
+ the
+ landlord
+ can
+ finance
+
+
+construction
+ against
+ a
+ guaranteed
+ tenant
+
+
+before
+ breaking
+ ground.
+ Now,
+ if
+ you're
+
+
+debating
+ startup
+ ideas
+ with
+ the
+ data
+
+
+center
+ being
+ one
+ of
+ them,
+ and
+ you
+
+
+magically
+ happen
+ to
+ have
+ a
+ piece
+ of
+
+
+unused
+ land
+ somewhere
+ up
+ in
+ Northern
+
+
+Virginia,
+ what
+ you
+ might
+ want
+ to
+ know
+ is
+
+
+that
+ the
+ barrier
+ to
+ entry
+ is
+ not
+ the
+
+
+land
+ or
+ the
+ building,
+ but
+ the
+ power
+
+
+contract.
+ One
+ megawatt
+ of
+ capacity,
+
+
+because
+ remember,
+ data
+ centers
+ built
+ per
+
+
+unit
+ of
+ power
+ is
+ going
+ to
+ cost
+ you
+
+
+around
+ 10
+ to
+ 14
+ million.
+ It
+ is
+ a
+ very
+
+
+capital
+ inensive
+ business.
+ But
+ what's
+
+
+even
+ harder
+ is
+ the
+ queue.
+ The
+ queue
+ to
+
+
+get
+ the
+ grid
+ capacity.
+ Obtaining
+ a
+ grid
+
+
+connection
+ that
+ can
+ deliver
+ firm
+ power
+
+
+at
+ scale
+ takes
+ years.
+ As
+ we
+ said
+ in
+ the
+
+
+first
+ part
+ of
+ the
+ data
+ center
+ video,
+
+
+data
+ center
+ operators
+ who
+ already
+ hold
+
+
+interconnection
+ rights
+ and
+ existing
+
+
+utility
+ relationship
+ have
+ a
+ solid
+
+
+structural
+ moat
+ by
+ definition
+ because
+ no
+
+
+amount
+ of
+ capital
+ can
+ bypass
+ this
+
+
+obstacle
+ quickly.
+ This
+ is
+ why
+ despite
+
+
+what
+ most
+ people
+ suspect
+ about
+ real
+
+
+estate
+ and
+ data
+ centers,
+ the
+ AI
+ boom
+ has
+
+
+been
+ a
+ mixed
+ signal
+ for
+ the
+ real
+ estate
+
+
+industry.
+ Another
+ problem
+ is
+ that
+
+
+hyperscalers
+ at
+ the
+ scale
+ of
+ the
+ current
+
+
+AI
+ buildout
+ are
+ increasingly
+ building
+
+
+their
+ own
+ data
+ centers
+ and
+ this
+ changes
+
+
+the
+ business
+ model
+ for
+ current
+
+
+landlords.
+ Hyperscalers
+ building
+ their
+
+
+own
+ data
+ centers
+ is
+ the
+ fastest
+ growing
+
+
+piece
+ of
+ the
+ real
+ estate
+ market
+ because
+
+
+the
+ landlord's
+ role
+ shrinks
+ from
+ being
+ a
+
+
+multi-tenant
+ host
+ to
+ somewhat
+ of
+ a
+
+
+hybrid
+ between
+ a
+ developer
+ and
+ a
+
+
+construction
+ partner
+ for
+ one
+ giant
+
+
+tenant.
+ And
+ the
+ peculiar
+ thing
+ here
+ is
+
+
+that
+ oftentimes
+ when
+ a
+ hyperscaler
+
+
+builds
+ their
+ own
+ data
+ center,
+ they
+ do
+ it
+
+
+off
+ their
+ balance
+ sheets
+ in
+ a
+ way
+ that
+
+
+the
+ really
+ heavy
+ debt
+ and
+ lease
+
+
+obligations
+ sit
+ in
+ separate
+ entities
+
+
+that
+ don't
+ appear
+ on
+ the
+ company's
+
+
+balance
+ sheet
+ today.
+ They
+ do
+ it
+ through
+
+
+long-term
+ leases,
+ special
+ purpose
+
+
+vehicles
+ that
+ we
+ covered
+ in
+ depth
+ in
+
+
+this
+ episode.
+ And
+ a
+ lot
+ of
+ those
+
+
+obligations
+ sit
+ in
+ footnotes
+ and
+ future
+
+
+periods
+ than
+ today's
+ headline
+ debt
+
+
+numbers.
+ Economically,
+ the
+ commitments
+
+
+are
+ there,
+ but
+ accounting
+ pushes
+ a
+ lot
+
+
+of
+ that
+ liability
+ into
+ the
+ future.
+
+
+So,
+ when
+ you
+ press
+ enter,
+ you
+ trigger
+ a
+
+
+chain
+ reaction
+ that
+ appears
+ across
+ half
+
+
+a
+ dozen
+ balance
+ sheets
+ from
+ an
+ edge
+ CDN,
+
+
+GPU
+ time,
+ data
+ center
+ capacity,
+ and
+ a
+
+
+utility
+ bill.
+ Your
+ $20
+ a
+ month
+ is
+ the
+
+
+aggregate
+ version
+ of
+ microp
+ payments
+
+
+over
+ millions
+ of
+ requests.
+ It
+ is
+ less
+
+
+about
+ open
+ AAI
+ and
+ anthropic
+ making
+
+
+direct
+ revenue
+ and
+ a
+ lot
+ more
+ about
+ the
+
+
+durable
+ businesses
+ at
+ the
+ very
+ bottom
+ of
+
+
+the
+ stack.
+ The
+ GPU
+ rental,
+ the
+ data
+
+
+center
+ capacity
+ and
+ electricity.
+ They
+
+
+don't
+ care
+ which
+ model
+ you
+ pick.
+ They
+
+
+don't
+ care
+ which
+ agent
+ is
+ hot
+ this
+
+
+quarter.
+ But
+ what
+ they
+ care
+ about
+ is
+
+
+that
+ someone
+ like
+ you
+ keeps
+ pushing
+ the
+
+
+tokens.
+ And
+ this
+ brings
+ us
+ to
+ the
+ end
+ of
+
+
+part
+ two
+ of
+ the
+ business
+ of
+ data
+
+
+centers.
+ If
+ you
+ missed
+ part
+ one,
+ check
+
+
+it
+ out.
+ We
+ did
+ a
+ deep
+ dive
+ into
+ the
+
+
+question
+ that
+ many
+ people
+ have
+ in
+ their
+
+
+minds
+ but
+ are
+ too
+ shy
+ to
+ ask
+ out
+ loud
+
+
+and
+ that
+ is
+ why
+ is
+ everybody
+ talking
+
+
+about
+ the
+ energy
+ crisis
+ related
+ to
+ AI?
+
+
+Next
+ up
+ is
+ the
+ business
+ of
+ chips.
+ We
+
+
+hope
+ you
+ enjoyed
+ this.
+ Till
+ next
+ time.
+
+
+Bye.
