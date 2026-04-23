@@ -1,0 +1,504 @@
+[Speaker 0]:  the 最近有一段对话，
+[Speaker 1]: 在科技圈、
+[Speaker 1]: 投资界以及所有关注中美博弈的圈子里都吵翻了。
+[Speaker 1]: 上周，
+[Speaker 1]: 英伟达老板黄仁勋在接受专访时公开反对美国对中国进行芯片封锁。
+[Speaker 1]: 在年轻主持人尖锐的提问之下，
+[Speaker 1]: 一向来非常沉着冷静，
+[Speaker 1]: 甚至可以说是佛系的黄仁勋极其罕见的出现。
+[Speaker 1]: 明显的情绪波动和不愉快，
+[Speaker 1]: 多次使用了带有攻击性的语言来反驳主持人的观点，
+[Speaker 1]: 比如幼稚、
+[Speaker 1]: 极端、
+[Speaker 1]: 不合逻辑等等。
+[Speaker 1]: 他有一度甚至直接打断主持人说，
+[Speaker 1]: 你不是在跟一个一觉醒来，
+[Speaker 1]: 就是个 loser 的人说话。
+[Speaker 1]:  i don't you're not talking to somebody who woke up a loser and that loser attitude，
+[Speaker 1]:  that loser premise makes no sense to me。
+[Speaker 1]: 采访黄仁勋的是当下硅谷最受关注的科技博客主持人之一。
+[Speaker 1]:  dark cash patel，
+[Speaker 1]: 它的播放量不是千万级别那种，
+[Speaker 1]: 但在硅谷，
+[Speaker 1]: 科技圈的影响力相当大。
+[Speaker 1]: 互联网和 AI 产业链当中，
+[Speaker 1]: 最顶级的大佬几乎全都曾经是他节目的嘉宾，
+[Speaker 1]: 比如马斯克联书 CEO、
+[Speaker 1]: 扎克伯格 open AICEO 山姆奥特曼、
+[Speaker 1]: 微软 CEO 纳德拉，
+[Speaker 1]: 还有众多 AI 大神，
+[Speaker 1]: 比如辛顿杨丽坤等等等，
+[Speaker 1]:  dark cash，
+[Speaker 1]: 显然并不是那种只问简单问题的主持人，
+[Speaker 1]: 而是会跟被采访人进行辩论和提出尖锐的问题。
+[Speaker 1]: 本次的专访接近两个小时，
+[Speaker 1]: 全程没有客套，
+[Speaker 1]: 寒暄是密度极高的一次观点。
+[Speaker 1]: 碰撞当中覆盖的课题很多，
+[Speaker 1]: 包括非常硬核的 AI 科技讨论。
+[Speaker 1]: 但本次引起最大争议和火花的一段是关于美国是否应该对中国进行芯片封锁的辩论。
+[Speaker 1]: 这也是今天我想重点跟大家聊一聊的部分。
+[Speaker 1]: 真如果你只看一些很粗浅的总结文章或视频，
+[Speaker 1]: 你会觉得这似乎只是一个简单的美国是否应该继续把 AI 芯片卖给中国的问题。
+[Speaker 1]: 但其实，
+[Speaker 1]: 如果你仔细完整的看完采访并深刻理解了，
+[Speaker 1]: 你就会发现这不只是一个卖不卖芯片的问题。
+[Speaker 1]: 黄维群提出的观点其实是美国到底是要赢得这场比赛，
+[Speaker 1]: 还是要定义这场比赛？
+[Speaker 1]: 好的好的好的，
+[Speaker 1]: 这是什么意思呢？
+[Speaker 1]: 今天大家不用花两个小时的时间，
+[Speaker 1]: 也不用担心别人的翻译是否精准。
+[Speaker 1]: 看完我今天对这段对话的总结和分析，
+[Speaker 1]: 你必然会对这个课题有更深一层的了解和思考。
+[Speaker 0]: 嗯，
+[Speaker 1]:  doorcash h 代表是今天美国最主流，
+[Speaker 1]: 也最符符直觉的一套逻辑，
+[Speaker 1]: 那就是通过封锁对手来维持美国的优势。
+[Speaker 1]: 而黄仁勋认为不应该封锁，
+[Speaker 1]: 但他说自己也是在维护美国的利益，
+[Speaker 1]: 只是逻辑辑一一他认为美国应该通过定义规则和绑定全世界来维持优势。
+[Speaker 1]: 对对对对对对的。
+[Speaker 1]: 当然了，
+[Speaker 1]: 黄仁群毕竟是卖芯片的，
+[Speaker 1]: 大家很自然会因为他自身的利益而怀疑他的动机。
+[Speaker 1]: 但不管最终是否赞同他的说法，
+[Speaker 1]: 我认为他提出的这套逻辑还是值得我们一起认真来探讨的。
+[Speaker 1]: 我会先总结一下双方论点的主要框架，
+[Speaker 1]: 后面再看他们是如何唇枪舌战针锋相对的，
+[Speaker 1]: 最后再给出我个人的观点，
+[Speaker 1]: 我认为谁说的更有道理。
+[Speaker 1]: 我们先从朵 ar cash 这边的逻辑开始讲起。
+[Speaker 1]: 总结一句很简单，
+[Speaker 1]: 那就是任何额外的算力都会让中国变得更危险。
+[Speaker 1]: 多 ccash 先举了一个例子，
+[Speaker 1]: 他说 n throropic 最近搞出了一个叫做 windows 的顶尖 AI 模型，
+[Speaker 1]: 到目前为止都还不敢公开。
+[Speaker 1]: 因为这个模型已经展现出了非常强大的网络攻击能力，
+[Speaker 1]: 它能够在各类操作系统和浏览器当中快速发现大量漏洞，
+[Speaker 1]: 甚至连 open BSD 这种以安全著称了，
+[Speaker 1]: 二十七年的系统都被 windows 找出了漏洞。
+[Speaker 1]: 那他就提出了一个问题，
+[Speaker 1]: 如果中国公司中国实验室和中国政府现在也拥有了足够多的 AI 芯片，
+[Speaker 1]: 去训练出类似 midows 的模型，
+[Speaker 1]: 再把它大规模部署出来，
+[Speaker 1]: 会不会对美国企业、
+[Speaker 1]: 美国网络安全，
+[Speaker 1]: 甚至美国国家安全构成巨大的威胁呢？
+[Speaker 1]:  ok 所以这个问题本身其实并不复杂。
+[Speaker 1]:  dw ch 的逻辑可以压缩成三句话，
+[Speaker 1]: 第一，
+[Speaker 1]: 算力是 AI 能力的核心投入。
+[Speaker 1]: 第二，
+[Speaker 1]:  AI 能力越强，
+[Speaker 1]: 就越有可能具备强大的进攻性能力。
+[Speaker 1]: 第三，
+[Speaker 1]: 中国每多拿一份算力，
+[Speaker 1]: 它未来的模型就会越强，
+[Speaker 1]: 部署规模也就越大从。
+[Speaker 1]: 这里我们所能得出的结论就很自然。
+[Speaker 1]: 你每多卖一份芯片给中国，
+[Speaker 1]: 他的能力就会往上走一步。
+[Speaker 1]: 既然如此，
+[Speaker 1]: 那为什么还要卖给他们呢？
+[Speaker 1]: 要开始接着又把这个逻辑往前推进了一步。
+[Speaker 1]: 他说，
+[Speaker 1]: 即便中国现在已经有很强的算力了，
+[Speaker 1]: 但问题不在于有没有，
+[Speaker 1]: 而在于谁先达到某种能力门槛。
+[Speaker 1]: 美国现在因为拥有更多 doflows，
+[Speaker 1]: 简单说就是更强的算力，
+[Speaker 1]: 所以能更早训练出更强的模型。
+[Speaker 1]: 比如先达到 midows 这种级别的 AI，
+[Speaker 1]: 那美国企业就可以在模型公开之前，
+[Speaker 1]: 先用这套系统去修补自己的漏洞，
+[Speaker 1]: 保护自己的系统。
+[Speaker 1]: 那么美，
+[Speaker 1]: 美国社会至少能有一个缓冲期。
+[Speaker 1]: 但如果中国因为得到了更多的英伟达芯片，
+[Speaker 1]: 也更快达到类似的能力，
+[Speaker 1]: 那么这个缓冲期就可能缩短甚至消失。
+[Speaker 1]: 所以，
+[Speaker 1]: 你给中国增加任何一点算力，
+[Speaker 1]: 都会缩短。
+[Speaker 1]: 美国领先的实践窗口封锁，
+[Speaker 1]: 不是要求中国的 AI 能力完全归零，
+[Speaker 1]: 而是尽可能拖慢中国。
+[Speaker 1]: 哪怕只能多拖一段时间，
+[Speaker 1]: 也是有实际战略价值的。
+[Speaker 1]: 好，
+[Speaker 1]: 那黄仁群是怎么回应的呢？
+[Speaker 1]: 他做的第一件事是先把多 ar cash 整个问题的前提给拆掉。
+[Speaker 1]: 他说，
+[Speaker 1]: 人们以为中国缺的是芯片，
+[Speaker 1]: 但其实根本就不是。
+[Speaker 1]: 他说，
+[Speaker 1]: 中国本来就是全球第二大的计算市场，
+[Speaker 1]: 生产世界百分之六十的芯片。
+[Speaker 1]: 虽然说他们只有七纳米的工艺，
+[Speaker 1]: 但七纳米和五纳米两纳米之间其实差别没有大到不可逾越。
+[Speaker 1]: 中国完全可以通过串联技术，
+[Speaker 1]: 把巨量的七纳米拼接起来。
+[Speaker 1]: 他说，
+[Speaker 1]: 中国有近乎无限的能源，
+[Speaker 1]: 有那么多的鬼城，
+[Speaker 1]: 那么多建好了但还控制的数据中心。
+[Speaker 1]: 如果他们愿意，
+[Speaker 1]: 完全可以通过堆砌更多的芯片来弥补单颗芯片性能的不足。
+[Speaker 1]: 黄仁群想表达的是 AI 的问题，
+[Speaker 1]: 不是单纯比最先进的那颗芯片有多强，
+[Speaker 1]: 而是一整套系统的能力。
+[Speaker 1]: 只要能源数据中心和芯片规模足够大，
+[Speaker 1]: 就可以用规模在一定程度上弥补单点性能的落后。
+[Speaker 1]: 好的好的，
+[Speaker 1]: 接着他抛出了一个更宏观的框架。
+[Speaker 1]: 他说，
+[Speaker 1]:  AI 其实是一个五层蛋糕。
+[Speaker 1]: 从底层的能源芯片网络到上层的软件算法模型，
+[Speaker 1]: 再到开发者生态和最终应用。
+[Speaker 1]: 它不是一个单点竞赛，
+[Speaker 1]: 不是说谁的芯片更快，
+[Speaker 1]: 谁就一定赢。
+[Speaker 0]: 好的好的的好的。
+[Speaker 1]: 他特别强调的一点是，
+[Speaker 1]: 真正推动 AI 快速进步的往往不是硬件，
+[Speaker 1]: 而是算法和工程上的突破。
+[Speaker 1]: 硬件的进步是渐进的，
+[Speaker 1]: 但很多突然的跃进来自模型、
+[Speaker 1]: 框架、
+[Speaker 1]: 软件优化和系统设计。
+[Speaker 1]: 这背后的意思是，
+[Speaker 1]: 中国的芯片即便没有那么先进，
+[Speaker 1]: 也并不意味着完全没有竞争力。
+[Speaker 1]: 只要能源和资源足够多，
+[Speaker 1]: 它依然可以通过规模和工程能力把整体算力堆出来。
+[Speaker 1]: 总的来说，
+[Speaker 1]: 多 ar cash 的思路是非常直接的，
+[Speaker 1]: 军备竞赛角度，
+[Speaker 1]: 谁的武器更先进，
+[Speaker 1]: 谁就更强。
+[Speaker 1]: 但黄文群一直想要强调的是，
+[Speaker 1]:  AI 不是单件武器，
+[Speaker 1]: 而是一整个工业体系。
+[Speaker 1]: 它的强弱不只取决于芯片强弱，
+[Speaker 1]: 更取决于能源、
+[Speaker 1]: 网络软件、
+[Speaker 1]: 算法、
+[Speaker 1]: 生态和人才。
+[Speaker 1]: 黄仁勋指出，
+[Speaker 1]: 全球大约一半的 AI 研究者都是中国人。
+[Speaker 1]: 今天，
+[Speaker 1]: 世上很多顶尖 AI 实验室里的研究员都存在大量的华人从这里衔接回上面。
+[Speaker 1]: 他说的。
+[Speaker 1]: 如果说 AI 的决定性推进，
+[Speaker 1]: 很大程度上来自算法、
+[Speaker 1]: 工程和软件，
+[Speaker 1]: 而这些东西的核心驱动力是人，
+[Speaker 1]: 那么你要遏制中国的 AI 进程。
+[Speaker 1]: 只封锁芯片就不够，
+[Speaker 1]: 而是要封锁整个人才体系。
+[Speaker 1]: 但问题就是人才，
+[Speaker 1]: 这个东西你是封不住的。
+[Speaker 1]: 论证了这一切之后，
+[Speaker 1]: 黄仁群的最终结论就是防中国是防不住的。
+[Speaker 1]: 那么与其把中国逼成敌人，
+[Speaker 1]: 不如尽量让他们继续在美国的技术战上。
+[Speaker 1]: 开发技术战是客栈的栈啊，
+[Speaker 1]:  technology stack。
+[Speaker 1]: 简单说就是实现一项科技所需要的所有技术和工具的组合。
+[Speaker 1]: 黄仁群的意思是你不给他用，
+[Speaker 1]: 他就会去开发自己的东西，
+[Speaker 1]: 人是有惰性的。
+[Speaker 1]: 既然我们的东西现在是比他们的更好，
+[Speaker 1]: 所以你给他用他就会去用。
+[Speaker 1]: 而这些东西说到底都是我们美国人的规则。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 黄瑞勋在讲的是全球 AI 未来到底在哪一套系统上运行。
+[Speaker 1]: 那么讲到这里，
+[Speaker 1]: 双方真正的分歧其实已经非常清晰了。
+[Speaker 1]:  duork ash 在讲的是一非常典型的安全逻辑。
+[Speaker 1]: 既既然何何额外算算都会增强对手，
+[Speaker 1]: 那就尽量不要给这套逻辑的目标是尽可能拉长美国的领先时间窗口。
+[Speaker 1]: 他但黄仁群讲的是另一种逻辑，
+[Speaker 1]: 你可以让对手在某一两年内慢一点。
+[Speaker 1]: 但如果结果是逼出一整套独立于美国之外的技术生态，
+[Speaker 1]: 那美国最后输掉的可能不是一场比赛，
+[Speaker 1]: 而是定义这场比赛的能力。
+[Speaker 1]: 一旦到了那一天，
+[Speaker 1]: 中东、
+[Speaker 1]: 东南亚、
+[Speaker 1]: 非洲这些地区在部署 AI 时，
+[Speaker 1]: 可能就不像现在一样，
+[Speaker 1]: 天然的以美国技术战为默认选项。
+[Speaker 1]: 那么到时美国失去的就不只是中国市场本身，
+[Speaker 1]: 而是对整个未来 AI 世界扩散路径的控制权。
+[Speaker 1]: 好了，
+[Speaker 1]: 那么双方的主要论点大家都清楚了，
+[Speaker 1]: 但真正精彩的交锋才刚刚开始。
+[Speaker 1]: 在朵尔 cash 看来，
+[Speaker 1]: 黄仁群其实一直在把问题往宏大叙事方面带生态体系、
+[Speaker 1]: 五成蛋，
+[Speaker 1]: 搞国际秩序等等。
+[Speaker 1]: 但他始终没有正面回答那个最简单也最致命的问题。
+[Speaker 1]: 你卖芯片给中国，
+[Speaker 1]: 客观上是不是会让中国拿到更多算力？
+[Speaker 1]: 那中国训练模型的能力是不是就会更快、
+[Speaker 1]: 更强？
+[Speaker 1]: 那果增强了，
+[Speaker 1]: 而这些模型未来又有可能具备网络攻击漏洞、
+[Speaker 1]: 挖掘自动化、
+[Speaker 1]: 进攻等能力。
+[Speaker 1]: 那这是不是一种实实在在的风险？
+[Speaker 1]: 是不是缩短了美国领衔的缓冲期？
+[Speaker 1]: 当黄文群说他的想法极端和幼稚时，
+[Speaker 1]: 他非常冷静的把这个逻辑讲清楚。
+[Speaker 1]: 他说他并不是在主张什么，
+[Speaker 1]: 只要给一点算力，
+[Speaker 1]: 美国就会立刻完蛋。
+[Speaker 1]: 这种极端说法。
+[Speaker 1]: 他说的是算力这种东西并不存在什么神秘的临界点，
+[Speaker 1]: 不是说没有过线就完全无害，
+[Speaker 1]: 过了线就突然爆炸，
+[Speaker 1]: 它更像是一种持续积累的能力。
+[Speaker 1]: 你多给一点，
+[Speaker 1]: 对方就多一点能力，
+[Speaker 1]: 多给很多对方就多很多能力，
+[Speaker 1]: 事情就是这么简单。
+[Speaker 1]: 所以黄文群不但说中国本来就有很多算力了，
+[Speaker 1]: 给跟不给没什么太大区别时，
+[Speaker 1]: 其实我认为是在偷换概念。
+[Speaker 1]: 因为多 r cash 从来都不是在说必须让中国算力变成零。
+[Speaker 1]: 他只是在说，
+[Speaker 1]: 只要能让中国慢一点，
+[Speaker 1]: 哪怕只是慢个两三年，
+[Speaker 1]: 也有战略价值。
+[Speaker 1]: 好的好的好的，
+[Speaker 1]: 这个问题。
+[Speaker 1]: 黄仁群其实从头到尾都没有正面回应，
+[Speaker 1]: 他一直在讲中国本来就有芯片，
+[Speaker 1]: 本来就有能源，
+[Speaker 1]: 本来就有研究人员七纳米芯片不够强，
+[Speaker 1]: 那就靠堆。
+[Speaker 1]: 所以你不卖给他他也不是做不出来厉害的模型，
+[Speaker 1]: 但做不做得出来和做得更快、
+[Speaker 1]: 做得更大，
+[Speaker 1]: 做得更早是两回事。
+[Speaker 1]: 所以，
+[Speaker 1]: 当黄仁群不断强调说，
+[Speaker 1]: 你现在把中国赶出去，
+[Speaker 1]: 等于亲手把这些开发者和创新推到另一套技术站上去时，
+[Speaker 1]: 罗尔 cash 回应说，
+[Speaker 1]: 让中国的 AI 跑在美国技术站上这件事，
+[Speaker 1]: 并不足以抵消让对手变强的这个风险。
+[Speaker 1]: 哪怕最终中国训练出来的攻击模型，
+[Speaker 1]: 真的是在英伟达的硬件上运行的对美国来说，
+[Speaker 1]: 危险并不会因此减少。
+[Speaker 1]: 模型还是那个模型能力还是那个能力，
+[Speaker 1]: 漏洞还是会被找出来，
+[Speaker 1]: 攻击还是可能会发生。
+[Speaker 1]: 你不能因为那把刀是美国造的，
+[Speaker 1]: 就假装刀口不锋利。
+[Speaker 0]: 是的好的好的，
+[Speaker 1]: 这里一朵儿始引用了 casann roppic 创始人达 w 说过的一个比喻。
+[Speaker 1]: 他说，
+[Speaker 1]: 如果我们觉得中国的 AI 用的是美国的底层技术就感到高兴。
+[Speaker 1]: 就好比如果波音公司卖核武器给朝鲜，
+[Speaker 1]: 然后在那里炫耀说你看这个核弹的外壳，
+[Speaker 1]: 可是我们波音造的从这里开始。
+[Speaker 1]: 黄仁群的情绪越来越激动，
+[Speaker 1]: 他说，
+[Speaker 1]: 这个比喻是 lunoacy，
+[Speaker 1]: 是分化，
+[Speaker 1]: 是荒谬的类比。
+[Speaker 1]: 但朵 catch 这个今年才二十五岁的小伙子，
+[Speaker 1]: 不依不饶，
+[Speaker 1]: 非常冷静和客气的说，
+[Speaker 1]: 就算核武这个比喻太重，
+[Speaker 1]: 那至少 AI 有点像浓缩游吧。
+[Speaker 1]: 浓缩油可以有正面用途，
+[Speaker 1]: 也可以有负面用途。
+[Speaker 1]: 如果说 AI 模型已经强大到可以对软件进行零日攻击，
+[Speaker 1]: 足以成为一种对网络的进攻武器。
+[Speaker 1]: 那你为什么会愿意把这种能力继续往潜在对手那里送呢？
+[Speaker 0]: 嗯，
+[Speaker 1]: 到这里，
+[Speaker 1]: 我觉得黄仁群其实已经有点无言以对了。
+[Speaker 1]: 于是他用了一段非常理想主义的话来进行反驳。
+[Speaker 1]: 他说。
+[Speaker 1]: 所以我们要不断跟中国和中国的研究人员保持对话，
+[Speaker 1]: 啊，
+[Speaker 1]: 确保他们不使用 AI 来做这些不好的用途。
+[Speaker 1]: 我不知道你是怎么想的啊，
+[Speaker 1]: 我看到这里是觉得挺不可思议的。
+[Speaker 1]: 黄仁勋说多尔开是幼稚。
+[Speaker 1]: 其实在我看来，
+[Speaker 1]: 整个访谈当中最幼稚的就是这句话，
+[Speaker 1]: 这是什么意思？
+[Speaker 1]: 要用爱来感化你的对手吗？
+[Speaker 1]: 谁不知道大家和平对话是首选，
+[Speaker 1]: 但现在讨论的本来就是极端情况下的国防和国家安全，
+[Speaker 1]: 就算在和平的对话，
+[Speaker 1]: 难道不也要准备好防御吗？
+[Speaker 1]: 如果单靠对话就能有安全感的话，
+[Speaker 1]: 那全世界的国家都不需要有军队啦。
+[Speaker 1]: 可能黄仁群自己也觉得这个说法很弱，
+[Speaker 1]: 于是他就开始说，
+[Speaker 1]: 其实根本不用担心。
+[Speaker 1]: 我们会确保把最好的芯片留给美国的英伟达会确保美国一直保持领先的。
+[Speaker 1]: 不过，
+[Speaker 1]: 多 orcash 继续反击说，
+[Speaker 1]: 但美国同样拥有世界最强的军事力量和最多的核武器，
+[Speaker 1]: 不代表我们就该放心把浓缩游送给别人去发展。
+[Speaker 1]: 啊，
+[Speaker 1]: 到这里，
+[Speaker 1]: 我觉得其实黄仁群在这个点上是已经彻底无法回答的啦。
+[Speaker 1]: 于是他又开始绕圈子，
+[Speaker 1]: 回来继续讲生态，
+[Speaker 1]: 讲让别人用美国的技术战。
+[Speaker 1]: 这就是为什么。
+[Speaker 1]: 如果你问我看完这个访谈之后有什么感觉，
+[Speaker 1]: 那我会告诉你，
+[Speaker 1]: 我是更偏向于 do 少 cash 这边的。
+[Speaker 1]: 在我看来，
+[Speaker 1]: 黄人群最大的问题就在于它太过依赖于一个大前提了。
+[Speaker 1]: 这个前提就是只要美国继续卖芯片给中国，
+[Speaker 1]: 中国就会永远依赖在美国的技术战之上，
+[Speaker 1]: 让美国来制定规则。
+[Speaker 1]: 这一点多 r cash 同样提出了一个非常有利的实际例子来反驳。
+[Speaker 1]: 他说，
+[Speaker 1]: 苹果和特斯拉也已经进入中国很久了，
+[Speaker 1]: 而且卖的都是最好的产品。
+[Speaker 1]: 但中国并没有因此就停止发展自己的手机和电动车。
+[Speaker 1]: 而且正是因为你给了他们学习的蓝图，
+[Speaker 1]: 他们因此发展的非常迅速，
+[Speaker 1]: 甚至在一些特定领域内已经领先了。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 你卖得进去，
+[Speaker 1]: 这件事本身并不自动，
+[Speaker 1]: 等于对方就会长期依附于你。
+[Speaker 1]: 这也正是黄仁群这一整套逻辑里，
+[Speaker 1]: 我觉得最一厢情愿的地方，
+[Speaker 1]: 你卖芯片给中国，
+[Speaker 1]: 而你的芯片又比中国自己产的好得多。
+[Speaker 1]: 那中国当然会愿意用，
+[Speaker 1]: 但中国为什么不能一边用一边继续自己研发呢？
+[Speaker 1]: 为什么不能一边在哭大上开发，
+[Speaker 1]: 一边把关键能力往自己的体系里迁移呢？
+[Speaker 1]: 中国一边抄袭，
+[Speaker 1]: 一边喊遥遥领先的事儿还少了吗？
+[Speaker 1]: 黄仁群是凭什么觉得人家不能一边吃你的，
+[Speaker 1]: 一边砸你的锅呢？
+[Speaker 1]: 不过对于这一点，
+[Speaker 1]: 黄仁勋也提出了反驳，
+[Speaker 1]: 他说，
+[Speaker 1]: 卖芯片不是单纯卖硬件，
+[Speaker 1]: 而是在锁定生态计算平台，
+[Speaker 1]: 不是汽车。
+[Speaker 1]: 汽车今天开这个牌子，
+[Speaker 1]: 明天开那个牌子很容易。
+[Speaker 1]: 但计算平台的生态一旦形成替换，
+[Speaker 1]: 成本极高，
+[Speaker 1]: 不是说想换就能换的这就是为什么 x 八六能够活这么久。
+[Speaker 1]:  ARM 为什么这么有粘性的原因。
+[Speaker 0]:  yes，
+[Speaker 1]: 他的这个逻辑当然也有一定的道理，
+[Speaker 1]: 但就连美国公司自己今天也在同时跑不同的云，
+[Speaker 1]: 不同的加速器 NFRPPI，
+[Speaker 1]: 也可以同时在 GPUTPU training 上运行。
+[Speaker 1]: 为什么中国未来就一定不会这样呢？
+[Speaker 1]: 说到底，
+[Speaker 1]: 我同意计算生态有粘性，
+[Speaker 1]: 但我不相信这种粘性能够大到足以抵消国家意志、
+[Speaker 1]: 产业政策和安全焦虑所推动的自主替代。
+[Speaker 1]: 当然了，
+[Speaker 1]: 你可以怀疑中国有没有能力自主创新，
+[Speaker 1]: 但他们肯定不会因为有了英伟达的供货。
+[Speaker 1]: 就不去尝试，
+[Speaker 1]: 走自己的路啦。
+[Speaker 1]: 最后我必须说，
+[Speaker 1]: 作为一名芯片公司的 CEO，
+[Speaker 1]: 其实黄仁群的立场和回应也是正常的。
+[Speaker 1]: 因为他后面反复讲的，
+[Speaker 1]: 其实都是不能放弃市场，
+[Speaker 1]: 不能把全球第二大市场拱手让出去。
+[Speaker 1]: 或者中国有百分之五十的 AI 开发者，
+[Speaker 1]: 我们不能放弃这些人等等等。
+[Speaker 1]: 其实就是英伟达不想失去中国市场。
+[Speaker 1]: 公平的讲，
+[Speaker 1]: 从商业角度来说，
+[Speaker 1]: 任何一个 CEO 都不可能没有这种利益考量。
+[Speaker 1]: 更何况他不只是一个职业经理人，
+[Speaker 1]: 他是英伟达的创始人，
+[Speaker 1]: 这公司是他一手带大的宝贝。
+[Speaker 1]: 所以我觉得吧，
+[Speaker 1]: 从他所占的位置，
+[Speaker 1]: 他有私心，
+[Speaker 1]: 我是可以理解的。
+[Speaker 1]: 但当他把这套逻辑包装成宏大的美国利益战略时，
+[Speaker 1]: 我们不能忘了他，
+[Speaker 1]: 并不是一个可以完全置身于商业利益之外的中立观察者。
+[Speaker 1]: 也正因为如此，
+[Speaker 1]:  dorcash 后面那一段总结性发问，
+[Speaker 1]: 可以说让黄仁逊彻底哑火。
+[Speaker 1]: 他问黄仁勋，
+[Speaker 1]: 一方面你说只要公平竞争，
+[Speaker 1]: 我们一定能打赢华为。
+[Speaker 1]: 因为我们的芯片强的多。
+[Speaker 1]: 另一方面，
+[Speaker 1]: 你又说，
+[Speaker 1]: 就算没有我们，
+[Speaker 1]: 他们也会发展出同样的能力，
+[Speaker 1]: 这两件事怎么可能同时成立呢？
+[Speaker 0]: 可的好的好的好的好的好的好的，
+[Speaker 1]: 所以黄仁群自己的逻辑是有矛盾的。
+[Speaker 1]: 只要你承认英伟达的芯片更强，
+[Speaker 1]: 更容易使用更成熟，
+[Speaker 1]: 那么卖给中国这件事本身就一定会在现实中提升中国的能力。
+[Speaker 1]: 如果按照黄仁群说的，
+[Speaker 1]: 即便没有英伟达中国，
+[Speaker 1]: 结果也必然能发展出跟美国同等水平的东西。
+[Speaker 1]: 那你给他也是在加速，
+[Speaker 1]: 让中国达到这个水平。
+[Speaker 0]: 好的好的，
+[Speaker 0]: 我的是的，
+[Speaker 1]: 最终我不认为黄仁勋说的东西是没有价值的。
+[Speaker 1]: 他讲的关于 AI 的生态五层蛋糕开发者、
+[Speaker 1]: 市场技术站、
+[Speaker 1]: 生态长期标准等等等。
+[Speaker 1]: 这些都没错。
+[Speaker 1]: 黄仁勋讲的是一套很漂亮的长期逻辑。
+[Speaker 1]: 但这套长期逻辑里有太多未经证明的假设，
+[Speaker 1]: 他假设中国会长期被美国技术站锁住。
+[Speaker 1]: 假设生态粘性足够大，
+[Speaker 1]: 假设中国只要有了英伟达芯片，
+[Speaker 1]: 就不会努力被研发自己的东西。
+[Speaker 1]: 甚至假设别人不会把 AI 当成一项武器，
+[Speaker 1]: 这些假设没有一个是确定的。
+[Speaker 1]: 所以问题就是你是不是要为这些不确定的未来去承担一个确定存在的风险。
+[Speaker 0]: 好的好的好的好的，
+[Speaker 1]: 相比之下，
+[Speaker 1]: 赌 ar 开始的逻辑就朴素的多，
+[Speaker 1]: 甚至朴素到近乎残酷。
+[Speaker 1]: 你多给一点算力，
+[Speaker 1]: 对方就多一点能力。
+[Speaker 1]: 你多卖一枚芯片，
+[Speaker 1]: 对方就更快一点更强一些。
+[Speaker 1]: 这部分风险是真实的，
+[Speaker 1]: 立刻发生的，
+[Speaker 1]: 不需要任何额外假设的。
+[Speaker 1]: 眼前的问题是，
+[Speaker 1]: 如果 AI 未来真的能够成为网络武器，
+[Speaker 1]: 成为自动化进攻的工具。
+[Speaker 1]: 那么，
+[Speaker 1]: 美国今天应不应该继续给中国更多芯片，
+[Speaker 1]: 让中国更快走到那个门槛呢？
+[Speaker 1]: 面对这个问题，
+[Speaker 1]: 黄仁群从头到尾始终没有真正给出一个能够说服我的回答。
+[Speaker 1]: 好，
+[Speaker 1]: 那我今天就分享到这里，
+[Speaker 1]: 我是老周横眉冷对，
+[Speaker 1]: 这也不会，
+[Speaker 1]: 我们下期再见。
+[Speaker 1]: 感谢观看订阅的时候，
+[Speaker 1]: 请务必同时打开这个小铃铛，
+[Speaker 1]: 那么我更新的时候你才能够及时看到。
