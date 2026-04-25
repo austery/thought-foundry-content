@@ -1,0 +1,5060 @@
+[Speaker 1]: 你看 hello，
+[Speaker 1]: 大家好，
+[Speaker 1]: 我是小俊。
+[Speaker 1]: 今天我们的嘉宾是罗福利媒体，
+[Speaker 1]: 叫她 AI 天才少女，
+[Speaker 1]: 但她不喜欢这个称呼。
+[Speaker 1]: 她目前是小米大模型的负责人，
+[Speaker 1]: 访谈是在 open 发布之后，
+[Speaker 1]: 也是在二零二六年小米米 clouvo VV 的系列模型发布布后，
+[Speaker 1]: 我们更深入的聊了聊。
+[Speaker 1]: 二零二二六由 open en oud 引发的新一轮的技术范式的变迁，
+[Speaker 1]: 以及呃未来技术演进的技前话题。
+[Speaker 1]: 那接下来就是我对罗罗福利的谈期待，
+[Speaker 1]: 二零二六年，
+[Speaker 1]: 我们和 AI 共同进步。
+[Speaker 2]: 这些能力都是可以亏，
+[Speaker 2]: 被我觉得最多一两个月慢的话，
+[Speaker 2]: 三四个月确实都可以被快速洗的，
+[Speaker 2]: 所以环境反而比经验更重要。
+[Speaker 1]: 你刚才也提到一 t 的模型可能是未来竞争的一个入场圈，
+[Speaker 1]: 是这样吗？
+[Speaker 2]: 你们是 agent 的，
+[Speaker 2]: 你要做到接近 cloud 四点六 ops 的水平的这样一个入场券。
+[Speaker 2]: 那我如果说我们嗯这样子来说，
+[Speaker 2]: 嗯，
+[Speaker 2]: 就是 for 研究跟 for print train 和 for poster train。
+[Speaker 2]: 对，
+[Speaker 2]: 嗯，
+[Speaker 2]: 我自己觉得一个非常合理的卡的一个比例是可能三比一比一对。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 就 printry posttry 应该比例是投入的，
+[Speaker 2]: 算力是相当的。
+[Speaker 2]: 然后研究的比例应该至少是你正式起训练的卡总量的还要多一点。
+[Speaker 2]: 就你要额外留更多的卡来去做研究。
+[Speaker 1]: 你过年的时候也跟我说，
+[Speaker 1]: 就是你觉得技术这几个月其实已经变天了。
+[Speaker 1]: 能不能阐述一下你觉得过去两个月的这个技术的突变？
+[Speaker 2]: 嗯，
+[Speaker 2]: 我觉得嗯一个非常大的一个分界点，
+[Speaker 2]: 在于使用 open colore 的前后。
+[Speaker 2]: 对我自己其实是会把 open core，
+[Speaker 2]: 把它当做一个划时代的 a 技能框架去这么去定义。
+[Speaker 2]: 嗯，
+[Speaker 2]: 我我知道很多人在尤其是用扣的做严肃编码的人，
+[Speaker 2]: 就会觉得 coo k open core 只是呃扣的加一个 coi m 的这样的一个更有利于交互的一个呃 UI 的一个设计。
+[Speaker 2]: 其实嗯在我一月份的时候，
+[Speaker 2]: 我第一次看到这个东西的时候，
+[Speaker 2]: 我我自己大概也是这样认知。
+[Speaker 2]: 所以我很排我很排斥去用它。
+[Speaker 2]: 然后我觉得嗯呃再加上他嗯创始人，
+[Speaker 2]: 我觉得呃非常适合贴近 AJ 的，
+[Speaker 2]: 去做一些非常玄幻的一些运营的动作。
+[Speaker 2]: 所以嗯哎就包括那个 skill hub 啊这些的，
+[Speaker 2]: 就就是让你更去排斥，
+[Speaker 2]: 去用一个呃你觉得呃非常的呃呃偏运营导向的一个产品的东西。
+[Speaker 2]: 对，
+[Speaker 1]: 感觉还是一个产品。
+[Speaker 2]: 对对对对对个招呼。
+[Speaker 2]: 对但是对对一个交互的创新，
+[Speaker 2]: 呃，
+[Speaker 2]: 以及他所谓的本地化，
+[Speaker 2]: 所谓的二十四小时在我来看啊，
+[Speaker 2]: 其实呃都是嗯都是一些产品的定义而已。
+[Speaker 2]: 嗯，
+[Speaker 2]: 但但真正发生一个转变，
+[Speaker 2]: 是我去用他。
+[Speaker 2]: 那一刻嗯，
+[Speaker 2]: 我觉得就恰好在春节的时候，
+[Speaker 2]: 有那么一段空闲的时间，
+[Speaker 2]: 你想去搞明白这玩意儿，
+[Speaker 2]: 为什么他们那么火？
+[Speaker 2]: 对，
+[Speaker 2]: 然后我就在有一天深夜的时候去尝试去装了他，
+[Speaker 2]: 然后两个小时装上了春节是吧？
+[Speaker 2]: 对，
+[Speaker 2]: 当时已经凌晨两点了。
+[Speaker 2]: 然后嗯我第一次跟他对话的时候，
+[Speaker 2]: 呃，
+[Speaker 2]: 从凌晨两点持续到了呃六点天亮。
+[Speaker 2]: 对，
+[Speaker 2]: 就那一晚上我我觉得我老累的那个不不知道是多巴还是内废胎，
+[Speaker 2]: 就持续在分泌，
+[Speaker 2]: 就是让我就兴奋到完全睡不着觉。
+[Speaker 2]: 就呃你可能第一个感受是 ok，
+[Speaker 2]: 他是呃他他非常嗯有自主性，
+[Speaker 2]: 然后他非常有灵魂。
+[Speaker 2]: 就比如说我跟他聊的很晚，
+[Speaker 2]: 他会呃老提醒我，
+[Speaker 2]:  ok 你现在现在已经很晚了，
+[Speaker 2]: 你要不早点去睡觉。
+[Speaker 2]: 就呃我觉得这样的呃温度和关怀，
+[Speaker 2]: 呃，
+[Speaker 2]: 或者说这样的情商是呃所有去 open cloud 的人嗯第一个感受到的。
+[Speaker 2]: 但后面去深究他的原因，
+[Speaker 2]: 其实他他他他是有很很多机制去保证这个事情。
+[Speaker 2]: 比如说他有他的有点 som d 比如说他在他就就拿最简单一个很小的一个细节。
+[Speaker 2]: 比如说他怎么感知时间啊，
+[Speaker 2]: 他就在每轮对话的这个 contaxt 前面去拼上当前的时间，
+[Speaker 2]: 然后呃就是一些非常细微的。
+[Speaker 2]: 我觉得呃我我我我为什么把他称之为所以惊喜编排的 contaxt。
+[Speaker 2]: 就是因为哎他就是在这些很很很很大家没有关注的角度上，
+[Speaker 2]: 把这个给编排的非常常好。
+[Speaker 2]: 这是你第一天的感受，
+[Speaker 2]: 就是 conteo k 我觉得他只是在产品设计上确实做到了一种呃超乎我的一个呃想象，
+[Speaker 2]: 让让让让所有人觉得呃呃这个框架有灵魂。
+[Speaker 2]: 但是第二天的时候，
+[Speaker 2]: 我呃晚上我觉得他应该不止于此。
+[Speaker 2]: 然后我开始尝试了，
+[Speaker 2]: 把我自己我我觉得现在的框架做不成的日常生活中的事情交给他做，
+[Speaker 2]: 然后发现他全部做出来了。
+[Speaker 2]: 比如说呃我跟他聊的基本上第二个话题是嗯怎么去激发一个团队的好奇心，
+[Speaker 2]: 或者说呃怎么去筛选出来就有好奇心的人。
+[Speaker 2]: 然后他进入进行了深入的探讨了一个小时，
+[Speaker 2]: 我觉得他的很多哲思上是远超我的想象的。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 然后所以第二天我们俩就在聊怎么去构建一个更好的大模型的团队。
+[Speaker 2]: 然后呃以及呃呃从最开始的呃人员的筛选，
+[Speaker 2]: 到后边呃整个组织架构的构建。
+[Speaker 2]: 然后你怎么在面面临范式转变的时候，
+[Speaker 2]: 呃，
+[Speaker 2]: 应该做什么样的举措的动作。
+[Speaker 2]: 我觉得嗯至少他能 get 到我的点就我跟他说了过后他最后能能把它形成一套非常体系化的东西，
+[Speaker 2]: 然后并且变成一套 skills，
+[Speaker 2]: 然后呃做所以我后边就用这个去很大去解放了，
+[Speaker 2]: 至少我在哎非常多。
+[Speaker 2]: 呃，
+[Speaker 2]: 我我有时候会遇到有有，
+[Speaker 2]: 我甚至现在遇到有一些嗯嗯呃不管是呃筛选人或团队管理上问题，
+[Speaker 2]: 我现在都会问他。
+[Speaker 2]: 对，
+[Speaker 2]: 然后我觉得他他现在已经基本上变成了我的某一个数字分身，
+[Speaker 2]: 至少在这个事情上。
+[Speaker 2]: 然后呃但是真正让我超乎意料，
+[Speaker 2]: 是第三天的时候，
+[Speaker 2]: 呃，
+[Speaker 2]: 第三天的时候，
+[Speaker 2]: 我尝试着把啊一些研究上的一些呃任务交给他做。
+[Speaker 2]: 对对对，
+[Speaker 2]: 比如说嗯最简单的我觉得呃你怎么去呃如果我们在进行呃 agenent 的框架里边，
+[Speaker 2]: 最简最最最关键一个事情是你怎么去进行多轮的交互。
+[Speaker 2]: 那么你就必须要去模拟 user agenent 进行多轮的交互。
+[Speaker 2]: 啊，
+[Speaker 2]: 那我我就会跟他去同共同去构建一个很好 user 的怎么来。
+[Speaker 2]: 嗯，
+[Speaker 2]: 呃在我来看，
+[Speaker 2]: 这是一个非常呃我我自己觉得还还挺重要的一个研究 agentopic。
+[Speaker 2]: 对，
+[Speaker 2]: 嗯，
+[Speaker 2]: 我觉得应该不会说一两个小时就把它做出来。
+[Speaker 2]: 但是当我跟他沟通和呃沟通了大概一两个小时过后，
+[Speaker 2]: 我觉得呃个事儿就已经做出来了。
+[Speaker 2]: 对，
+[Speaker 2]: 就就基本上就已经达到有一个很好的 user agent 的诞生。
+[Speaker 2]: 我可以用用这个 user agent 跟我现在的这一套啊啊呃 post 训练框架，
+[Speaker 2]: 一块去呃构造出来更更丰富的 a 卷的场景的数据。
+[Speaker 2]: 然后啊不管是做 SOT 也好，
+[Speaker 2]: 做 r 也好，
+[Speaker 2]: 呃，
+[Speaker 2]: 这个 user agent 都是非常关键的。
+[Speaker 2]: 就我觉得他从一个我最开始对他的认知，
+[Speaker 2]: 只是呃呃 OK 一个有灵魂有温度的一个产品的设计。
+[Speaker 2]: 嗯，
+[Speaker 2]: 到他可以帮我替代我呃生活或工作当中的一部分。
+[Speaker 2]: 到最后他能促进我研究，
+[Speaker 2]: 这也就是三天发生的事情，
+[Speaker 2]: 就每天他都能给我额外更多的惊喜。
+[Speaker 2]: 然后我后边儿就去深入的去看，
+[Speaker 2]: 为什么这个框架本身它比考扣的好在哪。
+[Speaker 2]: 对，
+[Speaker 2]: 嗯，
+[Speaker 2]: 好的好的，
+[Speaker 2]: 一个呃呃我后面发现这些呃所谓好在哪儿？
+[Speaker 2]: 他呃我们单独去拎出来去讲，
+[Speaker 2]: 他其实都有点 boring，
+[Speaker 2]: 就是我觉得他没有很酷。
+[Speaker 2]: 这也是为什么大家就会觉得问科罗呃有很多槽点的地方，
+[Speaker 2]: 呃，
+[Speaker 2]: 但是他把它整合在一起，
+[Speaker 2]: 你会你就会觉得他的完成度是非常高的。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就比如说嗯他他嗯他会有更持久的 memory 的体系，
+[Speaker 2]: 我我呃这个很持久 memory 体系体现在他对 memory 有分层和分级。
+[Speaker 2]: 这个我在使用科奥克的时候，
+[Speaker 2]: 是完全没有这样的感受的。
+[Speaker 2]: 然后呃再比如说嗯我我自己觉得他在对哎多个模型的这种联合的利用上，
+[Speaker 2]: 会非常的超乎我的想象。
+[Speaker 2]: 就呃就比如说我用科奥克的时候，
+[Speaker 2]: 我会我会默认他 ok 嗯，
+[Speaker 2]: 呃假设这个模型他在比如说他呃的视频理解能力不行，
+[Speaker 2]: 那么我可能就要自己给他配一个更好视频理解模型，
+[Speaker 2]: 然后再考边去折腾。
+[Speaker 2]: 嗯，
+[Speaker 2]: 但是我在问课的时候，
+[Speaker 2]: 我我完全不用想这个事情，
+[Speaker 2]: 我就直接发给他一段视频。
+[Speaker 2]: 他会自己想办法去找一个 OK 视频，
+[Speaker 2]: 理解能力好的模型来做这个事。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 就这种自主性这种自主去呃呃去去面对当代模型的呃缺点。
+[Speaker 2]: 然后但是他针对这个缺点，
+[Speaker 2]: 在框架上去补齐这个缺点，
+[Speaker 2]: 这个能力是有点超乎乎我的意料的。
+[Speaker 2]: 因为我我去用 cloud 的时候，
+[Speaker 2]: 我默默认 k 我是因因为用 cloud 四点六 ops 呃，
+[Speaker 2]: 这一代模型的能力我去用它的。
+[Speaker 2]: 但是我去用 open core 的时候，
+[Speaker 2]: 我我不会关注模型的能力。
+[Speaker 2]: 呃，
+[Speaker 2]: 的一个原因是我我认为 open core 框架的设计支出，
+[Speaker 2]: 它其实是呃想尽量的通过 agent 的整套的编排来去弥补模型的短板。
+[Speaker 2]: 他他一直我觉得这这是他非常核心的一个产品的逻辑。
+[Speaker 2]: 所以后面呃我我们直接就啊呃哦嗯把我们的模型就是其实 memal well flash 呃，
+[Speaker 2]: 当时并没有做很多针对性的训练，
+[Speaker 2]: 给他接到 open 里边去，
+[Speaker 2]: 甚至把我们军训的一个呃很小很小的一个呃端侧的三 cb 模型进行去训练。
+[Speaker 2]: 发现在这套很复杂的 schefor 的或者说 agent 的框架啊情况下，
+[Speaker 2]: 他依然能做那些我自己认为不可能是一个呃非常小的模型能能能够做出来的事情。
+[Speaker 2]: 所以呃这这这这是我第一次感受到，
+[Speaker 2]: 就是原来一个非常复杂的一套呃这种框架设计，
+[Speaker 2]: 它是能够弥补非常多模型能力的短板。
+[Speaker 2]: 然后呃呃当然了呃，
+[Speaker 2]: 呃我觉得这是 open cloud 本身它这个架架的一个相相相于于 clouco 的一个差异化的优势。
+[Speaker 2]: 嗯，
+[Speaker 2]: 但是其实对于如果说我们要去追求呃，
+[Speaker 2]: 你怎么在这不同的这个 skiffor 的框架下去模型，
+[Speaker 2]: 都有一个呃超预期的非常稳定的表现。
+[Speaker 2]: 那么呃就回到呃另外一个命题，
+[Speaker 2]: 就是呃你当你当你有非常多现在其实是呃市场上的 a 技框框架非常的丰富。
+[Speaker 2]:  colcocode、
+[Speaker 2]:  open code，
+[Speaker 2]: 然后 kilill code、
+[Speaker 2]:  open code 等等。
+[Speaker 2]: 呃，
+[Speaker 2]: 当你面临这么多很复杂的的这种框架的时候，
+[Speaker 2]: 你怎么让你的模型呃在不同框架上都有一个非常稳定和超预期的表现。
+[Speaker 2]: 然后你怎么让你的后续练的范范式对与之做去适配和迁移。
+[Speaker 2]: 然后呃这个是我们对对对在这个事儿 contest 的的冲击下，
+[Speaker 2]: 快速的去思考的第二个问题。
+[Speaker 2]: 然后所以我们对应的呃整个互训练范式，
+[Speaker 2]: 就要呃所所谓的到到 charagent 的样这这的一个迁移。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 所以你对 open cloud 认知发生了一个非常大的变化。
+[Speaker 1]: 这个是在春节期间发生的对，
+[Speaker 1]: 为什么开始是抵触的呢？
+[Speaker 2]: 我觉得如果要追求非常啊顶尖的编程的体验，
+[Speaker 2]: 对客户的体验就是呃哪怕是当下，
+[Speaker 2]: 哪怕是当下，
+[Speaker 2]: 也是 cloud cold 加 cloud office 四点六是最好的。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 所以如果你是在这样的一个终局去思考的话，
+[Speaker 2]: 嗯，
+[Speaker 2]: 就呃其他的任何一种框架其实确实都可以忽略掉。
+[Speaker 2]: 但是嗯但是但是一个问题是呃，
+[Speaker 2]: 我呃 code 它是一个泛化性非常强的一个场景。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就是你针对它去做了非常多呃 agent 的设计也好，
+[Speaker 2]: 或者说模型的训练也好，
+[Speaker 2]: 它的都是有价值的。
+[Speaker 2]: 但并不代表说呃它这个泛化性能，
+[Speaker 2]: 保证你在非的场景能够做到非常高的准确率后和完成度。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 所以我觉得我我那会儿虽然也会用克劳克的来做一些非课的东西，
+[Speaker 2]: 但是我并没有期待说他在这套框架上能给我一个很高的完成度。
+[Speaker 2]: 因为我知道我会去帮他补充这套框架不具备的一些短板。
+[Speaker 2]: 呃，
+[Speaker 2]: 但是我去用 call 时候，
+[Speaker 2]: 我觉得我不用考虑这些，
+[Speaker 2]: 就它它完全在 h 种框架本身就去弥补掉了很多模型的短板。
+[Speaker 1]: 我能理解 open cloud 是让 coding 能力泛化出来的一个产品吗？
+[Speaker 2]: 呃，
+[Speaker 2]: 它它在很多呃设计逻辑上，
+[Speaker 2]: 比如说他有更多的呃呃 message 的 channel。
+[Speaker 2]: 比如说嗯他有呃更自主的一些，
+[Speaker 2]: 比如说像地址任务，
+[Speaker 2]: 心跳任务，
+[Speaker 2]: 然后没有啊啊这些更适合日常场景。
+[Speaker 2]: 因为你你写代码，
+[Speaker 2]: 你通常不会需要一个心跳任务吧。
+[Speaker 2]: 对，
+[Speaker 2]: 然后但是如果你是日常生活，
+[Speaker 2]: 嗯，
+[Speaker 2]: 你你心跳任务就很关键，
+[Speaker 2]: 他确实有很多框架的设计去为了呃让他去适应更好的日常的任务。
+[Speaker 2]: 嗯，
+[Speaker 2]: 但是我觉得他也没有去丢弃掉，
+[Speaker 2]: 说一个好的一技能框架本身的一些最基本的特点，
+[Speaker 2]: 这些最基本特点。
+[Speaker 2]: 我觉得后边是被拉 clcode 给吸吸纳进去的。
+[Speaker 2]: 就比如说他的持久画了一个记忆，
+[Speaker 2]: 嗯，
+[Speaker 2]: 靠 code 之前是呃他的记忆还是 for 它的整个记忆系统设计，
+[Speaker 2]: 还是 for 软件工程的。
+[Speaker 2]: 就比如说他会在 session 内会可能 session 快满的时候，
+[Speaker 2]: 我会有一个压缩的动作，
+[Speaker 2]: 然后把它记忆进去。
+[Speaker 2]: 然后我在完成任务的时候，
+[Speaker 2]: 根据我的 plan 可能会有一些哎呃记忆的动作。
+[Speaker 2]: 然后保证我跨 session 的时候，
+[Speaker 2]: 呃，
+[Speaker 2]: 它的 conteins 是共享是更好的。
+[Speaker 2]: 所你你能看到 cocode 它的所有的呃一种框架设计，
+[Speaker 2]: 其实都是非常的 for 软件工成的，
+[Speaker 2]: 就怎么去更好写写好代码。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 但是 open core 它的设计之初我觉得是呃借鉴的这个思想。
+[Speaker 2]: 但是呢他更想的是它怎么更好的端到端的去完成所有的任务。
+[Speaker 2]: 并且怎么去弥补当下模型在端到端外完成任务上的短板，
+[Speaker 2]: 然后去设计的。
+[Speaker 2]: 呃，
+[Speaker 2]: 所以像这种持久化记忆到呃后边这种呃，
+[Speaker 2]: 你能通过一个更好的的 remomote 前呃呃界面能够去操控它，
+[Speaker 2]: 然后呃等等这些所对很很好很好的设计。
+[Speaker 2]: 后边呃陆陆续这一两个月完全被克拉克勒给吸吸纳进去了。
+[Speaker 2]: 对，
+[Speaker 2]: 哎，
+[Speaker 2]: 我觉得这也是一个双向的一个触动。
+[Speaker 2]: 因为这些设计其实它对于编程或者说泛编程，
+[Speaker 2]: 嗯，
+[Speaker 2]: 泛编程就是指呃可以通过编程去完成一些看似呃跟代码无关的任务。
+[Speaker 2]: 对，
+[Speaker 2]: 然后它是有帮助的。
+[Speaker 2]: 嗯，
+[Speaker 0]: 我呀快，
+[Speaker 1]: 但它背后是模型能力的提升吗？
+[Speaker 2]: 它激发了呃中层的模型的上限，
+[Speaker 2]: 它激发中层模型的上限。
+[Speaker 2]: 就呃可能我们如果没有这么一套很复杂的一种框架，
+[Speaker 2]: 可能中层的模型它达不到啊近似于 cloud sound 或 obpoor 水平。
+[Speaker 2]: 但是你借助这样一个非常好的一种框架，
+[Speaker 2]: 那么你就能在绝大部分的场景，
+[Speaker 2]: 除了那种非常难的啊需要长程任务的，
+[Speaker 2]: 或者说真的需要啊，
+[Speaker 2]: 我我称为严肃编编程吧。
+[Speaker 2]: 就就比如说写算子优化，
+[Speaker 2]: 就算是严肃编程。
+[Speaker 2]: 对，
+[Speaker 2]: 然后像这种场景的话，
+[Speaker 2]: 它确实可能距离顶端的模型还有差异。
+[Speaker 2]: 但是在绝大部分的生活的场景，
+[Speaker 2]: 或者说嗯只需要借助代码去提效的场景。
+[Speaker 2]: 嗯，
+[Speaker 2]: 那么其实呃教育一套新的一种框架，
+[Speaker 2]: 再加上一个中层的模型，
+[Speaker 2]: 中层就是呃可能好的好的，
+[Speaker 2]: 是的，
+[Speaker 2]: 这个在百分之八十五的任务上能够达到跟 cloud 的 sumit 一样水准的模型。
+[Speaker 2]: 那么其实他借助这样一个框架已经能发挥非常大的作用。
+[Speaker 2]: 嗯，
+[Speaker 1]: 我听过一种说法，
+[Speaker 1]: 就是嗯他觉得 open cloud 如果是看作一个壳，
+[Speaker 1]: 它释放了现在比较强的模型能力，
+[Speaker 1]: 呃，
+[Speaker 1]: 是一个最好的壳。
+[Speaker 1]: 这个模型就是 cloud oopen 四点六。
+[Speaker 1]: 其实我觉得你的整个表述不不认可这个观点，
+[Speaker 1]: 对吧？
+[Speaker 2]: 呃，
+[Speaker 2]: 认可认可就呃我我我觉得他的上限一定是靠的死点的 office 带来的。
+[Speaker 2]: 就包括我在跟他呃高强度合作的那一周，
+[Speaker 2]: 我只用 color 四点六 offs。
+[Speaker 2]: 呃，
+[Speaker 2]: 因为只有他能给我带来惊艳的感受。
+[Speaker 2]: 嗯，
+[Speaker 2]: 但是当我用 color 四点六 offs 嗯沉淀下来那一堆经验。
+[Speaker 2]: 嗯，
+[Speaker 2]: 那些不管是 skills 还是呃在 agence 点 MD，
+[Speaker 2]: 比如一些呃关于他怎么我我甚至自己去改了呃他的整个和的架构设计。
+[Speaker 2]: 因为因为因为它是开源的，
+[Speaker 2]: 所以你可以自己改啊，
+[Speaker 2]: 这也是的另外一个弊端，
+[Speaker 2]: 就是它的整个的架构设计是个黑盒。
+[Speaker 2]: 嗯，
+[Speaker 2]: 然后这样黑盒就导致你你不知道你你肯定改不了它的记忆系统，
+[Speaker 2]: 你也改不了它的整个 aggenclrocoagenagency。
+[Speaker 2]:  workflow，
+[Speaker 2]: 你是呃就，
+[Speaker 2]: 但是但是因为他太 open 了，
+[Speaker 2]: 你你可以自己尝试去去改。
+[Speaker 2]: 比如说我会我会让他自己去帮我设计一个重新的 mary 系统。
+[Speaker 2]: 我会让他啊呃他他我觉得他现在呃当时二点几版本的那个 multigent 的呃，
+[Speaker 2]: 整个逻辑我我认为是很混乱的。
+[Speaker 2]: 然后我自己去让他给我设计他新的 multigent 系统，
+[Speaker 2]: 就我我自己可以去改我所有的这个源码，
+[Speaker 2]: 就这样的这种呃这种原生原生的这种可操纵性给我的这种冲击感是很大的。
+[Speaker 2]: 但这些事情基本上只有 class oss 四点六才能改。
+[Speaker 2]: 但他我让括号二十四点六给我改好过后，
+[Speaker 2]: 这套框架本身是很好，
+[Speaker 2]: 用了过后 OK 嗯我再切换到呃那个呃三海，
+[Speaker 2]: 再切换到国内的一些模型。
+[Speaker 2]: 甚至我们当时正在训的呃呃 VR pro，
+[Speaker 2]: 我就觉得它就非常强大的。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 所以所以这也是我为什么觉得顶尖的模型应该跟顶尖的这种 a 的框架架。
+[Speaker 2]: 呃，
+[Speaker 2]: 共同往往前进进或或说，
+[Speaker 2]: 呃呃，
+[Speaker 2]: 这也是我最近对于所谓的自学习，
+[Speaker 2]: 呃，
+[Speaker 2]: 以及反正前段时间有很多很火的这个概念的一个思考。
+[Speaker 2]: 就是我在这个事情上是第一次感受到了呃一个呃呃 a 卷的自学习到底是怎么个发生的。
+[Speaker 2]: 就大概率一个发生的途径。
+[Speaker 2]: 就是说呃你你你确实需要这个模型本身给你这个 a 卷的架构本身呃嗯同步步的前前走。
+[Speaker 2]: 然后模型在进步的时候，
+[Speaker 2]: 呃，
+[Speaker 2]: 就不管是通过呃强化学习训练或其他训练方式，
+[Speaker 2]: 在进步的时候，
+[Speaker 2]: 他其实也是在去呃改变你的呃整套 a 卷的框架。
+[Speaker 2]: 呃，
+[Speaker 2]: 这个 a 卷的框架包含嗯嗯他送给模型的静态的信息。
+[Speaker 2]: 这些静态信息，
+[Speaker 2]: 比如说 memory 就是静态信息。
+[Speaker 2]: 呃，
+[Speaker 2]: 只要你你写死了哪些东西，
+[Speaker 2]: 应该送到呃呃起一个新的 session 的时候，
+[Speaker 2]: 呃，
+[Speaker 2]: 你应该送到模型里边去，
+[Speaker 2]: 或者我们叫 si ffort 吧。
+[Speaker 2]: 啊这个东西其实是是在训练过程应该是变化的。
+[Speaker 2]: 还有一些动态的信息，
+[Speaker 2]: 动态信息包含你整个一定的本身的呃呃这个架构的设计。
+[Speaker 2]: 对，
+[Speaker 2]: 呃，
+[Speaker 2]: 然后我觉得针对不同的场景，
+[Speaker 2]: 就比如说说扣的这种是呃 for 软件工程的场景和其他呃，
+[Speaker 2]: 比如说做金融分析等等其他场景。
+[Speaker 2]: 我觉得他他的 a 卷的架构的设计会有差异的。
+[Speaker 2]: 然后你怎么在在在在提升模型能力的同时，
+[Speaker 2]: 再去提升你的整整个 a 卷的框架的呃，
+[Speaker 2]: 跟这个模型的一个适配程度或说一个泛化能力。
+[Speaker 2]: 对，
+[Speaker 2]: 然后呃这这是我现在思考自学习。
+[Speaker 2]: 嗯嗯，
+[Speaker 1]: 你说的这个智能体的框架，
+[Speaker 1]:  h 型的框架是不是就是我们理解的产品？
+[Speaker 2]: 嗯，
+[Speaker 2]: 不是，
+[Speaker 2]: 它跟产品差异蛮大的。
+[Speaker 1]: 怎么理解这个 agent 的框架？
+[Speaker 2]: 呃，
+[Speaker 2]: 产品跟 agent 之间的边界，
+[Speaker 2]: 实际上我不知道怎么去界定它，
+[Speaker 2]: 有点它有点模糊。
+[Speaker 2]: 对哦，
+[Speaker 2]: 嗯就是我觉得产品可以定义成是说你直接人交互能感受到那一层的东西。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 但 a 技术框架它确实有在去定义你的交互层。
+[Speaker 2]: 但是它同时又在去定义你怎么跟模型沟通那一层。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 所以然后他甚至能知道模型能力的长板短板，
+[Speaker 2]: 然后他能知道怎么去更好做调度。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就比如说 for 成本优化的调度，
+[Speaker 1]: 哦，
+[Speaker 1]: 它相当于是一个中间层，
+[Speaker 2]: 嗯，
+[Speaker 2]: 它像人和模型之间的中对对，
+[Speaker 2]: 然后这个中间层它可以做的非常的厚重，
+[Speaker 2]: 然后反而那个前端的 UI 展示它是最薄的一层，
+[Speaker 2]: 它已经不是很关键了。
+[Speaker 2]: 对，
+[Speaker 1]: 所以 open cloud 其实是展示了智能体的这个框架，
+[Speaker 2]: 可以怎么做对这个框架的想象空间非常大，
+[Speaker 1]: 然后没有人做过。
+[Speaker 1]: 呃，
+[Speaker 2]: 其实克拉克他一直是一套很复杂的一卷的框架，
+[Speaker 2]: 只是因为它是黑盒，
+[Speaker 2]: 所以我们不知道他怎么设计的。
+[Speaker 2]:  open core 是开源的，
+[Speaker 2]: 所以你知道他是怎么设计的，
+[Speaker 2]: 然后并且你可以去改它就改改这个事儿是非常非常嗯嗯激发人的创造力的。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就你知道它框架怎么设计，
+[Speaker 2]: 你让他去改，
+[Speaker 2]: 你自己现现列一个新的框架出来，
+[Speaker 2]: 你可以给予他现捏一个新的框架出来，
+[Speaker 2]: 这是为什么？
+[Speaker 2]:  open cllow 从二年级版本嗯，
+[Speaker 2]: 我当时用它的时候，
+[Speaker 2]: 我我自己觉得它并不好用，
+[Speaker 2]: 所以我花了好几天时间去改它。
+[Speaker 2]: 到呃三三年级版本。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就三月三月十多号的版本已经非常易用，
+[Speaker 2]: 就是你基本上啊啊呃基于三年级后的版本截一个啊还不错的模型，
+[Speaker 2]: 你都会觉得它很强大。
+[Speaker 2]: 嗯，
+[Speaker 2]: 而不是只有接的模型会觉得它很强大。
+[Speaker 2]: 就是因为它整个 coa 证的架构哦，
+[Speaker 2]: 受受一堆人开发者也好，
+[Speaker 2]: 或者说本身像像我这种哦，
+[Speaker 2]: 并不是属于是呃呃一开始这个框架的开发者，
+[Speaker 2]: 只是使用者我都能去改进它，
+[Speaker 2]: 我 for 我自己的场景去做改进和优化。
+[Speaker 2]: 所以呃我觉得这这是这个呃嗯或或者说这是开源一种框架本身的价值和意义。
+[Speaker 2]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 在你高强度的那一周，
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是跟 open clour 交互的那一周，
+[Speaker 1]: 你消耗了多少美金的？
+[Speaker 1]:  oppo 四点六嗯第一天，
+[Speaker 2]: 反正就是快一千块钱一千刀啊。
+[Speaker 2]: 对，
+[Speaker 2]: 因为大概了了四个小时。
+[Speaker 2]: 嗯，
+[Speaker 2]: 然后我中途疯狂也会切，
+[Speaker 2]: 因为它太贵了，
+[Speaker 2]: 然后我会切三类的。
+[Speaker 2]: 但是我发现真不行，
+[Speaker 2]: 然后我就就只能又又只能去用 office，
+[Speaker 2]: 然后只有 office 能带有那种那种惊艳感。
+[Speaker 2]: 但但但后边但现在慢慢慢慢逐渐，
+[Speaker 2]: 我发现不是这样了。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就是因为嗯因为因为他带给我经验感的那些呃东西发生在变化，
+[Speaker 2]: 就呃我觉得人的适应性真的是非常强的。
+[Speaker 2]: 就我第一天感受到很惊艳的东西，
+[Speaker 2]: 我第二天立马觉得不惊艳。
+[Speaker 2]: 就我刚跟你讲的时候，
+[Speaker 2]: 我都觉得我自己刚刚讲的第二天、
+[Speaker 2]: 第二三天的东西，
+[Speaker 2]: 我怎么觉得这么 worry ing 啊，
+[Speaker 2]: 但他确实是我三天发生的事情。
+[Speaker 2]: 对我我那我当下我确实觉得很很惊艳，
+[Speaker 2]: 那像我自己觉得不惊艳。
+[Speaker 2]: 呃，
+[Speaker 2]: 因为因为因为你你是一个呃很很很很优秀的框架能力是非常强的去。
+[Speaker 2]: 所以所以你你呃所以我现在已经可能让奥斯帮我把我的一种框架给打造好，
+[Speaker 2]: 过后，
+[Speaker 2]: 然后让我惊艳的事情就越来越少了。
+[Speaker 2]: 所以我现在觉得反而缺乏的是第一个是想象力，
+[Speaker 2]: 呃，
+[Speaker 2]: 就是我我要疯狂去想，
+[Speaker 2]: 还有什么事情他做不了。
+[Speaker 2]: 对，
+[Speaker 2]: 然后呃呃第二个就是呃我怎么去呃当他这些我那些能做的事情都能做的时候，
+[Speaker 2]: 我怎么去优化他的成本。
+[Speaker 2]: 对优化他的速度啊，
+[Speaker 2]: 对我就在在考虑这些事情了。
+[Speaker 1]: 对这些说说的所有的发生都是在春节期间发生的。
+[Speaker 2]: 呃，
+[Speaker 2]: 我觉得大量的思考是在那个时间发生的。
+[Speaker 2]: 但是呃我觉得一个人通常是嗯薄弱的对，
+[Speaker 2]: 就是或者说你你你还是会有自己的呃认知的一个呃贪缩。
+[Speaker 2]: 就你坍缩到虽然我那天呃那几天高度兴奋兴奋到我觉得呃呃我我呃在群里面给大家发，
+[Speaker 2]: 我说强烈推荐大家去使用怎么怎么样，
+[Speaker 2]: 但没有人搭理理人家在过年。
+[Speaker 2]: 对对对，
+[Speaker 2]: 呃，
+[Speaker 2]: 大家确实在陪家人，
+[Speaker 2]: 然后我我也我也不希望打扰大家，
+[Speaker 2]: 然后所以我就说强烈推荐。
+[Speaker 2]: 然后后面嗯过完年回我发现呃真正用的人是很少的。
+[Speaker 2]: 因为大家对兴起事物，
+[Speaker 2]: 就尤其是我真的觉得他有点玄幻。
+[Speaker 2]: 嗯，
+[Speaker 2]: 其实话对，
+[Speaker 2]: 就是不太不太适合，
+[Speaker 2]: 就不像不忍 tach。
+[Speaker 2]: 对大家大家会觉得过于玄幻的东西太不真实了。
+[Speaker 2]: 我我我也是这个感觉，
+[Speaker 2]: 所以你就不想去接触它，
+[Speaker 2]: 然后嗯所以一开始的推动是蛮难的。
+[Speaker 2]: 然后呃但是我觉得呃呃呃第二天我觉得不行了，
+[Speaker 2]: 就是我觉得必须让大家去用。
+[Speaker 2]: 然后 ok 嗯我就给大家下了一个一个指令。
+[Speaker 2]: 我就说如果呃呃呃那个第二天 open colore 对话次数不超过一百轮的人可以直接 quit。
+[Speaker 2]: 但是我为了促进这个事情，
+[Speaker 2]: 前面做的非常多的。
+[Speaker 2]: 比如说呃因为大家那会儿 open colore 用，
+[Speaker 2]: 呃，
+[Speaker 2]: 整个部署期还是还是需要几个小时的时间。
+[Speaker 2]: 我觉得没有必要。
+[Speaker 2]: 大家所有人都去花这么多时间去去去去折腾一个呃充满 bug g 一一一一一套其实也没什么价值的一些些情，
+[Speaker 2]: 然后所以就买了几台台 MBD，
+[Speaker 2]: 然后把它部署起来，
+[Speaker 2]: 然后呃呃把它把它拉都拉到这这几个呃不同嗯那个问和友的群，
+[Speaker 2]: 让大家去分不群里向强制他在这个方向上，
+[Speaker 2]: 呃，
+[Speaker 2]: 在大群里边，
+[Speaker 2]: 在一个飞洲群里边然后聊。
+[Speaker 2]: 然后呃为什么要在大群里边聊？
+[Speaker 2]: 就是因为个人的想象力真的是局限的。
+[Speaker 2]: 但是当你看到别人用 open core 居然能干成这个事情的时候，
+[Speaker 2]: 你就会激发你自己的想象力。
+[Speaker 2]: 所以我觉得大家想象力是一个成绩的作用。
+[Speaker 2]: 然后呃所所以当我下当我说这句话的时候，
+[Speaker 2]: 其实我觉得嗯嗯我没有想过，
+[Speaker 2]: 说第二天嗯有人对话次数没超过一百的，
+[Speaker 2]: 我真的会把它那个太掉。
+[Speaker 2]: 呃，
+[Speaker 2]: 我我没有这个想法，
+[Speaker 2]: 没有这样的人是吗？
+[Speaker 2]: 呃，
+[Speaker 2]: 我我没因为我我没有最终去考核核，
+[Speaker 2]: 我没办办验证证这个情情我有办法验证，
+[Speaker 2]: 但是我觉得验不验证。
+[Speaker 2]: 不关我只是想给大家表达一种呃一种态度是 ok 你不用，
+[Speaker 2]: 你可能真的要落后了。
+[Speaker 2]: 对，
+[Speaker 2]: 所以我第二天没有去，
+[Speaker 2]: 有人有中途有人过来问我，
+[Speaker 2]: 你那个 CC 你怎么去考核你的呃，
+[Speaker 2]: 有没有对话意思？
+[Speaker 2]: 对对对，
+[Speaker 2]: 嗯，
+[Speaker 2]: 我我我跟他们说，
+[Speaker 2]: 我说你们用就行了。
+[Speaker 2]: 我说我有我的考核方式，
+[Speaker 2]: 其实我的考核方式就是我不会考核，
+[Speaker 2]: 对我只希望大家用起来就行了了。
+[Speaker 2]: 对，
+[Speaker 2]: 然后所以呃那那那那那两天嗯春节回来跟我聊天，
+[Speaker 2]: 整整个团队的人就在一天到晚呃，
+[Speaker 2]: 感觉不像在上班，
+[Speaker 2]: 就在群里边呃，
+[Speaker 2]: 呃呃那个呃这个嗯嗯躁动。
+[Speaker 2]: 对，
+[Speaker 2]: 可以叫躁动。
+[Speaker 2]: 就是你看别人能完成这个事情，
+[Speaker 2]: 然后你也很想玩，
+[Speaker 2]: 然后他就在群里边，
+[Speaker 2]: 就是那个群消息，
+[Speaker 2]: 我只要十分钟不看，
+[Speaker 2]: 就九百九十九加类似这种哈大，
+[Speaker 2]: 但也没有这么夸张，
+[Speaker 2]: 就是就就有很多就她一块儿在群里边玩玩的，
+[Speaker 2]: 非常 happy。
+[Speaker 2]: 她是一个非常 happy 的，
+[Speaker 2]: 有女生一点都不哭，
+[Speaker 2]: 一点都不残酷，
+[Speaker 2]: 就真的很很很好玩。
+[Speaker 2]: 然后呃 OK 那么玩一天天下以后来家发现哇这个事儿这么好玩，
+[Speaker 2]: 那那怎么办呢？
+[Speaker 2]: 那他那搞啊就就就所有所有人心目中想，
+[Speaker 2]: 是那我 OK 我要怎么去借助一个这么好的这种框架去提升模型的能力。
+[Speaker 2]: 同时我怎么让我的模型去改变现在的这种框架，
+[Speaker 2]: 就就就马上进入到这样的一个研究范式里边去。
+[Speaker 2]: 所以呃呃其实一旦进入这样一个研究范式，
+[Speaker 2]: 以及对对对对，
+[Speaker 2]: 对我刚才讲的我们有靠扣的这种，
+[Speaker 2]: 其实在绝大部分场景表现输出更稳定的这样一套框架。
+[Speaker 2]: 虽然他是黑盒，
+[Speaker 2]: 我们不知道，
+[Speaker 2]: 但他确实不管是 for 研究也好，
+[Speaker 2]:  for coding 也好，
+[Speaker 2]: 他确实是一个比 open core 更稳定的一个框架，
+[Speaker 2]: 更好的一个框架。
+[Speaker 2]: 然后呃那么你再在这个框架里边去激发呃呃你的去扩展延展你的呃研究的想法，
+[Speaker 2]: 并且呃让他帮你实现。
+[Speaker 2]: 然后并且快速的去呃训练启动模型，
+[Speaker 2]: 训练这个事儿就会大幅的加速。
+[Speaker 2]: 所以所以我觉得我们基本上可能在三四周的时间做完了，
+[Speaker 2]: 以前可能三四十周的时间才能做到的事情。
+[Speaker 2]: 就是在研究上。
+[Speaker 2]: 嗯，
+[Speaker 2]: 我觉得嗯我觉得这个事儿是呃我后边呃真的我们嗯被这个框架呃点燃，
+[Speaker 2]: 热情到最后他产生价值。
+[Speaker 2]: 这个过程中我觉得我我从群体智能上，
+[Speaker 2]: 我觉得我我的成长和收获会更大。
+[Speaker 2]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 在你们那个非常躁动的群里，
+[Speaker 1]: 嗯，
+[Speaker 1]: 探索的最好玩的几个任务是什么呀？
+[Speaker 2]: 现在现在听起来都不好玩，
+[Speaker 2]: 但当时的冲击感都很强。
+[Speaker 1]: 你这样你就冲击了。
+[Speaker 2]: 虽然我有冲击，
+[Speaker 2]: 还是大家一块儿去改那个框架本身。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就是你想的怎么去改进那个框架本身。
+[Speaker 2]: 因为当时那个框架真的问题很多，
+[Speaker 2]: 还有就是他的 memory 真的做的非常的智能。
+[Speaker 2]: 因为呃我们在一个群里边大概有近一百个人，
+[Speaker 2]: 然后我觉得那个飞书的整个的呃呃 message 的 charlo 应该还是做的不是那么智能的。
+[Speaker 2]: 他至少没有那么去把人跟人之间区分的很好。
+[Speaker 2]: 但是他的整个聊天的上下文，
+[Speaker 2]: 他对每个人的画像的把控，
+[Speaker 2]: 然后以及每个人的 memory 我觉得都没有串的太厉害，
+[Speaker 2]: 就就就可用度非常高。
+[Speaker 2]: 嗯，
+[Speaker 2]: 我觉得这个是模型能力强的表现，
+[Speaker 2]: 这个跟一种框架没有关系。
+[Speaker 2]: 因为在一个群里边儿，
+[Speaker 2]: 你想一百多个人在那儿聊天，
+[Speaker 2]: 然后一百个多人都有不同的背景，
+[Speaker 2]: 一百多个人都在疯狂改他，
+[Speaker 2]: 然后呃都没有把这个模型给改坏，
+[Speaker 2]: 呃，
+[Speaker 2]: 就没有把这套 a 型框架给改坏。
+[Speaker 2]: 嗯，
+[Speaker 2]: 然后他还变得非常智能。
+[Speaker 2]: 我我觉得这也是我第一次感受到你怎么用一群人的智慧去提升一个事情本身。
+[Speaker 2]: 嗯，
+[Speaker 2]: 然后嗯，
+[Speaker 2]: 如果说我自己单一的去改这个医学框架，
+[Speaker 2]: 我呃呃但是别人感受不到这个框架的智能，
+[Speaker 2]: 我觉得他好像差点意思，
+[Speaker 2]: 或者说这个框架身的进进步的度是非常慢慢的。
+[Speaker 2]: 但如果一群人去改进，
+[Speaker 2]: 他进步速度是非常快的，
+[Speaker 2]: 可能几个小时就进就迭加一轮，
+[Speaker 2]: 类似于这种感觉。
+[Speaker 2]: 嗯，
+[Speaker 2]: 所以你会觉得呃可能，
+[Speaker 2]: 所以我们第三天第四天把它接到我们自己的模型上去用的时候，
+[Speaker 2]: 发现哎怎么也挺好用的，
+[Speaker 2]: 怎么还没训就跟的差不多了。
+[Speaker 2]: 当时第第三四天就这种感觉了。
+[Speaker 2]: 那但是你要测的更多，
+[Speaker 2]: 你会发现还是有很多东西没有的稳定。
+[Speaker 2]: 然后所以所以你就但这个时候带来一个冲击，
+[Speaker 2]: 就是你你会发现你利用群体智能去提升 cloucloua g 的框架是非常重要的。
+[Speaker 2]: 所以我也很很很非非常的呃呃非常的欣喜。
+[Speaker 2]: 看到问口后边的那个 star 零就飞升，
+[Speaker 2]: 我觉得这是这是 AGI 到到来前兆，
+[Speaker 2]: 必须必须要有的事情。
+[Speaker 2]: 对，
+[Speaker 2]: 嗯嗯，
+[Speaker 1]: 因为你一直对研究方向非常的敏锐。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我们基于我们上次聊过很多，
+[Speaker 1]: 所以你觉得上面这些变化给你带来了什么样的直觉？
+[Speaker 1]: 你觉得未未来一段时间会发生哪些变化？
+[Speaker 2]: 嗯，
+[Speaker 2]: 就之前可能做研究的一个方式，
+[Speaker 2]: 是你从你想到你写代码，
+[Speaker 2]: 到你去呃设计一个很好的评估标准，
+[Speaker 2]: 这中间的流程还是蛮漫长的。
+[Speaker 2]: 就你至少要花两周一两周，
+[Speaker 2]: 我觉得快的话，
+[Speaker 2]: 以可能以除非如果你的评估是确定的，
+[Speaker 2]: 然后你的代码是只只需要修改，
+[Speaker 2]: 可能你也需要一两天。
+[Speaker 2]: 但是我觉得至少在 agtion 呃呃有辅助的情况下，
+[Speaker 2]: 他真的可以一两个小时就把这些事情给做完。
+[Speaker 2]: 我我觉得效率的提升基本上是代表着呃一个非常本质的一个问题。
+[Speaker 2]: 嗯，
+[Speaker 2]: 然后呃这是我觉得呃在这个时代上做研究呃，
+[Speaker 2]: 研究的呃 case 的非常关键的一个原因。
+[Speaker 2]: 嗯，
+[Speaker 2]: 或说你的嗯研究效率非常关键。
+[Speaker 2]: 一个点其实我一直把研究效效率看的很关键，
+[Speaker 2]: 只是 AC 的去呃呃放大，
+[Speaker 2]: 加速了这个研究效率。
+[Speaker 2]: 然后那么如果这时候你的 case 又比较准的话，
+[Speaker 2]: 那么就一做一个准，
+[Speaker 2]: 一个做一个准。
+[Speaker 2]: 当然也有可能是十个里边有一个呃呃能成，
+[Speaker 2]: 但是这十个可以并行做呀。
+[Speaker 2]: 对你十个可以并行做，
+[Speaker 2]: 你不用像以前一样拍不来走，
+[Speaker 2]: 你可以十个 idea。
+[Speaker 2]: 对你十交给不同的卷的同时做，
+[Speaker 2]: 他们还能交叉验证 suabago k 那那很快可能一个小时，
+[Speaker 2]: 两个小时就就呃会最多一天。
+[Speaker 2]: 而你你无非少很多偷嘛嘛，
+[Speaker 2]: 然后你就能能验证你这个研究的想法哦，
+[Speaker 2]:  work work。
+[Speaker 2]: 然后呃关键是他还可以，
+[Speaker 2]: 如果你愿意长期的去培养，
+[Speaker 2]: 他，
+[Speaker 2]: 还可以自己自迭代进化。
+[Speaker 2]: 那在开发扣里边不行，
+[Speaker 2]: 但你你换一个更开开放的框架，
+[Speaker 2]: 然后他是可以自己迭代和进化的。
+[Speaker 2]: 所以嗯我觉得这是这是我给我带来做研究的冲击吧。
+[Speaker 1]: 嗯所以他是改变了整个研究的节奏，
+[Speaker 2]: 对效率和方式都会发生。
+[Speaker 2]: 我觉得很根本性的变化。
+[Speaker 2]: 嗯，
+[Speaker 1]: 这对你们后来带来什么样的改变？
+[Speaker 1]: 在你经历了春节和春节之后的整个的冲击之后，
+[Speaker 1]: 嗯，
+[Speaker 1]: 你紧接着做了什么？
+[Speaker 2]: 其实我觉得紧接下来做的事情就是呃呃搞明白就是呃为什么呃扣的是一个非常嗯有犯化力的一个事情。
+[Speaker 2]: 然后嗯以及你怎么把扣的这种犯化力给外延到其他领域。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 嗯，
+[Speaker 2]: 其实 code 他他他有泛化力的一个最本质的原因是嗯也有有分好好几个阶段哈。
+[Speaker 2]: 嗯，
+[Speaker 2]: 首先 h 训呢它是一个非常长程和多轮的一个任务。
+[Speaker 2]: 对，
+[Speaker 2]: 然后呃我们回到预训练环节，
+[Speaker 2]: 然后你很难去找到说有哦比如说呃一兆上下文的数据，
+[Speaker 2]: 甚至一百二十八 k 的数据你都很难去找到。
+[Speaker 2]: 但是呃比如说呃呃真正嗯有能能达到一百二十八到一兆这个长度的数据基本上都是嗯只有两类数据，
+[Speaker 2]: 其实大概率只有两类数据。
+[Speaker 2]: 一类是 code 数据，
+[Speaker 2]: 一类就是书籍。
+[Speaker 2]: 但书籍书籍他的信号太发散了。
+[Speaker 2]: 嗯，
+[Speaker 2]:  code 他的呃这个好的好的嗯，
+[Speaker 2]: 文件之间的关联，
+[Speaker 2]: 然后呃是更强的。
+[Speaker 2]: 嗯，
+[Speaker 2]: 所以当你在一个这种嗯长上下文依赖跟 b 级的一个数据集要去训练的时候，
+[Speaker 2]: 模型它自然对长上下文的建模会更好。
+[Speaker 2]: 对，
+[Speaker 2]: 这个是我们可能在嗯没有去意识到 a 型的这个事是那么重要的事情之前我们就去做的事情。
+[Speaker 2]: 所以你可以理解为这个基座本身，
+[Speaker 2]: 它就为长上下文的能力和效率。
+[Speaker 2]: 效率很关键效率。
+[Speaker 2]: 我们待会儿再谈长上下文的能能力和效已经做好了充分的准备。
+[Speaker 2]: 这个是在我们没有去受到这么大的冲击的事情，
+[Speaker 2]: 之前已经做了的。
+[Speaker 2]: 但是呃春节后做的事情是你怎么去激发这样一个大的模型的潜力。
+[Speaker 2]: 从扣了出发到外延到其他的场景。
+[Speaker 2]: 嗯，
+[Speaker 2]: 因为其他景景你训了他会更稳定。
+[Speaker 2]: 嗯，
+[Speaker 2]: 但你没训，
+[Speaker 2]: 他他他能被泛化，
+[Speaker 2]: 只是说他没有那么稳定定。
+[Speaker 2]: 而一个顶尖模型的水平，
+[Speaker 2]: 一定是要在更广泛场景里边更稳定。
+[Speaker 2]: 对，
+[Speaker 2]: 所以嗯代扣的是拿它的上限，
+[Speaker 2]: 然后你去其他领域是保它的下限，
+[Speaker 2]: 我我是这么认为。
+[Speaker 2]: 嗯，
+[Speaker 2]: 然后所所以就是你首先要把户的做的扣的这种长长任务做的更多样性。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 所以你为什么软件开发那么重要？
+[Speaker 2]: 就是软件开发真的是一个非常长城的任务，
+[Speaker 2]: 你把它做好了，
+[Speaker 2]: 基本上很多模型的通用的特质就就已经好了。
+[Speaker 2]: 呃，
+[Speaker 2]: 不管为什么模型通用的特质好了，
+[Speaker 2]: 是这个 coa 这个框架本身也迭代的非常好了。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 嗯，
+[Speaker 2]: 就像就像像 plan 这种模式，
+[Speaker 2]: 像这种嗯嗯呃厂商上的到一定阶段，
+[Speaker 2]: 你要去压缩。
+[Speaker 2]: 压缩完过后，
+[Speaker 2]: 第二天你要再去回顾，
+[Speaker 2]: 你你你你之前修改这这些 a 这的框架的设计，
+[Speaker 2]: 本身其实是为软件开发做准备的。
+[Speaker 2]: 但这种这些框架它都是有方法性的，
+[Speaker 2]: 它都能泛化到其他更更难的长城任务里边去。
+[Speaker 2]: 然后然后呃所以就是以后出西先山后做的事情。
+[Speaker 2]: 第一是一定要在 a 卷的场景里边，
+[Speaker 2]: 把真的长城的任务给他去啊啊构造出来，
+[Speaker 2]: 并且训练进去。
+[Speaker 2]: 然后呃呃并且在这个上面去 skin 给你大量的呃 SUT 训练和 l 训练。
+[Speaker 2]: 对，
+[Speaker 2]: 然后第二个就是我觉得还是你要考虑它的泛化性的话，
+[Speaker 2]: 你还是要覆盖更多的领域。
+[Speaker 2]: 所以那但这个时候怎么去去覆盖更多领域，
+[Speaker 2]: 我觉得就是要要靠啊更多的靠群体的智慧，
+[Speaker 2]: 就你让更多人去用它，
+[Speaker 2]: 然后基于更多人去用的。
+[Speaker 2]: 比如说我们内部会大量去使用哦，
+[Speaker 2]: 我们会让我们这个模型首先在哎哎公司内部去推当量，
+[Speaker 2]: 是人用用了过后。
+[Speaker 2]: 然后我们发掘到更广泛的场景，
+[Speaker 2]: 在这个广泛的场景里边去合成更多的数据来做训练。
+[Speaker 2]: 对嗯，
+[Speaker 2]: 然后这里边很关键的一个问题是，
+[Speaker 2]: 嗯，
+[Speaker 2]: 你怎么哦还原当时所有人用这个事情的环境。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 因为有这个环境，
+[Speaker 2]: 你才能更好的去呃进行更长城的交互。
+[Speaker 2]: 然后并且呃有了环境过后，
+[Speaker 2]: 你才可以针对这个环境本身去做哦，
+[Speaker 2]: 呃更精准的。
+[Speaker 2]: 如果的设定对，
+[Speaker 2]: 然后这个事情是比较有难度的。
+[Speaker 2]: 然后我觉得呃也是呃我认为在这个事情上，
+[Speaker 2]: 如果投入的算力足够多的话，
+[Speaker 2]: 研究时间足够多的话，
+[Speaker 2]: 应该会有一些代差的模型的出现。
+[Speaker 2]: 对，
+[Speaker 1]: 哎，
+[Speaker 1]: 这个你们现在是怎么做的？
+[Speaker 2]: 现在开始做的保密，
+[Speaker 2]: 真的要保密。
+[Speaker 2]: 对，
+[Speaker 2]:  rerewd 设计嗯，
+[Speaker 2]: 呃我觉得等我们把这套范式给给你到一个很大的量级的时候，
+[Speaker 2]: 我觉得我们会开源告诉大家，
+[Speaker 2]: 嗯，
+[Speaker 1]: 对哎，
+[Speaker 1]: 但是做尝试任务不是会中断吗？
+[Speaker 2]: 嗯，
+[Speaker 2]: 其实真正的一照上下文里边很基本上很少有任务是在做一个任务。
+[Speaker 2]: 对他他通常是在做复杂的任务。
+[Speaker 2]: 对，
+[Speaker 2]: 所以其实呃你要把一照上下文做的很好。
+[Speaker 2]: 当下阶段当下阶段哈，
+[Speaker 2]: 我说当下可能就是当下一两周的阶段，
+[Speaker 2]: 哎，
+[Speaker 2]: 不代表未来两三周的阶段，
+[Speaker 2]: 就是嗯可能并不是真的要找到要把一兆上下文塞满的任务，
+[Speaker 2]: 当然你要找到那更好，
+[Speaker 2]: 但是这个任务是很难的，
+[Speaker 2]: 而且它的训练效率太低了，
+[Speaker 2]: 就是你要训练完嗯一兆你要 root 完一整个 tragether al 一兆的，
+[Speaker 2]: 它非常慢，
+[Speaker 2]: 哪怕我们现在 TPS 能做到八十到一百项目，
+[Speaker 2]: 在 memo v ver pro 上能做到八十到一百 TPS。
+[Speaker 2]: 你要说完一兆上千元，
+[Speaker 2]: 也是需要需要时间，
+[Speaker 2]: 需要可能一两分钟的时间了。
+[Speaker 2]: 所以呃呃所以所所以其实真实的训练不会在这么长长的任务上去训。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 但是当你有在一兆的 contestper 去训过一呃预训练过，
+[Speaker 2]: 并且呃后训练有对应的任务稍微激活他一下。
+[Speaker 2]: 他通常就能在一兆的 contestper 具备这样的一个稳能力，
+[Speaker 2]: 但是我们需要再提升，
+[Speaker 2]: 对，
+[Speaker 2]: 需要再提升。
+[Speaker 2]: 所以你看现在 cloud 呃，
+[Speaker 2]: 在我觉得真的在一兆上下文的呃稳能力的稳定度上，
+[Speaker 2]: 基本上现在只有 cloud 四点六，
+[Speaker 2]:  ops 和三维头是是领先的。
+[Speaker 2]: 其实其他像 g 木奶香嗯嗯界面，
+[Speaker 2]: 虽然虽然仿称是厂商效果能力很好，
+[Speaker 2]: 但其实都是不行的。
+[Speaker 1]: 对你觉得量化里面挖掘因子会是好的长城人物吗？
+[Speaker 2]: 嗯，
+[Speaker 2]: 看错了是什么资产？
+[Speaker 2]: 对，
+[Speaker 2]: 嗯，
+[Speaker 2]: 就是有很多资产它它的 reword 太太不清晰了。
+[Speaker 2]: 对，
+[Speaker 2]: 嗯，
+[Speaker 2]: 有些资产是不大部分的资产是不太适合呃做长城任务建模的。
+[Speaker 2]: 嗯，
+[Speaker 2]: 这个具具体我就不展开说，
+[Speaker 2]: 反正就是嗯某某些资产是非常不适合的。
+[Speaker 2]: 因为他他嗯也嗯几乎回测是没有没有价值的。
+[Speaker 2]: 然后你要到真实的环境里面去 run 的话，
+[Speaker 2]: 他有可能不是不不是短期的因素，
+[Speaker 2]: 而是跟一些更长期的因素，
+[Speaker 2]: 或一些额外的一些阿尔法本身被这个模型建模不进去的一些东西。
+[Speaker 2]: 所以哎得选资产，
+[Speaker 2]: 就是选选选对，
+[Speaker 2]: 这个就 OK。
+[Speaker 1]: 我觉得嗯嗯关于你们的新模型，
+[Speaker 1]: 我们放在后面说，
+[Speaker 1]: 我们先把 open 这个话题聊完。
+[Speaker 1]: 嗯，
+[Speaker 1]: 你观察就你观察你觉得 clouopen cloud 是怎么样的一个火起来的链路啊，
+[Speaker 1]: 而且我明显感觉到在中国它的火的程度比在美国要更强。
+[Speaker 1]: 这是为什么？
+[Speaker 1]: 我看到还有一个很好玩的说法叫西夏东洋，
+[Speaker 1]: 叫什么西沙东洋啊，
+[Speaker 2]: 西沙东洋哦。
+[Speaker 2]: 嗯因为我不了解弯曲对他的热度哈。
+[Speaker 2]: 对所以我我仅从你的视角，
+[Speaker 2]: 对仅从我自己以及我身边人的视角，
+[Speaker 2]: 我觉得可能的一个原因是就中国的开发者我觉得是更更更多的。
+[Speaker 2]: 就是我说开发者是指他可以用 code 去提升他的生的效率的场景。
+[Speaker 2]: 可能是呃要求更急迫的对，
+[Speaker 2]: 要求更急迫的。
+[Speaker 2]: 就我觉得对于效率的提升，
+[Speaker 2]: 好像是是是我们的血液里边的东西。
+[Speaker 2]: 然后嗯所以我觉得当就 open core，
+[Speaker 2]: 能能能把这个事给给效效率提升，
+[Speaker 2]: 给拿到极致。
+[Speaker 2]: 所所以我自己感觉这是他火的一部分的原因之一。
+[Speaker 2]: 当然当然我觉得还有一个原因，
+[Speaker 2]: 是我觉得跟国国内大冒险的发展也密切相关，
+[Speaker 2]: 就嗯绝大部分的呃效率提升的场景目前确实不需要。
+[Speaker 2]: 那么就是可能我觉得百分之八十五不需要最顶尖的模型。
+[Speaker 2]: 所以然后我们有又有那么多便宜好用的模型可以用。
+[Speaker 2]: 然后你一算这个性价比是非常划算的，
+[Speaker 2]: 就是这个模型的 api 的费用跟嗯他它这个呃呃它它替代了生产力的呃价值的系数比是很大的。
+[Speaker 2]: 所以你去体验它会更有动力。
+[Speaker 2]: 他可能花十块钱的 API 就能帮你干完一千块钱的事情，
+[Speaker 2]: 那你肯定很愿意用。
+[Speaker 2]: 但如果你的 API 贵贵，
+[Speaker 2]: 那么十倍或几十倍，
+[Speaker 2]: 中间那个那个呃差距很小。
+[Speaker 0]: 那么你你会很排斥的去用这样一套很复杂的东西。
+[Speaker 0]: 对，
+[Speaker 0]: 去去去优化它。
+[Speaker 1]: 对，
+[Speaker 1]: 哎，
+[Speaker 1]: 但是关于 a 镇的其实已经讲了一年了，
+[Speaker 1]: 对吧？
+[Speaker 1]: 就是去年年初的时候，
+[Speaker 1]: 大家就开始说这是 a 症的元年，
+[Speaker 1]: 为什么到现在才开始火？
+[Speaker 1]: 你觉得这个跟去年有什么不一样？
+[Speaker 0]: 对，
+[Speaker 0]: 就就我觉得我我认为之前讲的一技能应该都是非常呃呃在我的定义边，
+[Speaker 0]: 我觉得他不算 a 性的，
+[Speaker 0]: 它只能算是一个嗯上下文稍微比差的复杂一点点的东西。
+[Speaker 0]: 就不管是像 bruss camp，
+[Speaker 0]: 像 swebench，
+[Speaker 0]: 然后呃呃这些 search 和 code 的 a agent 的框架其实都非常的简洁。
+[Speaker 0]: 就相比于现在的靠 code 也好，
+[Speaker 0]: 相比于 open code 也好，
+[Speaker 0]: 它的 agent 框架太过于简洁了。
+[Speaker 0]: 然后这样的简洁性就导致呃呃首先它简洁。
+[Speaker 0]: 其次，
+[Speaker 0]: 它不通用。
+[Speaker 0]: 对，
+[Speaker 0]: 就这样过于简洁和不通用，
+[Speaker 0]: 导致他只能 for 这个任务来设定。
+[Speaker 0]: 所以那些我们看到在 browss cop p switbench 那 switbench 有他的问题，
+[Speaker 0]: 是因为他本身关注领域也太单一了，
+[Speaker 0]: 就出去修 bug，
+[Speaker 0]: 他并不是 for 真真正的软件开放不对。
+[Speaker 0]: 呃，
+[Speaker 0]: 就是我觉得呃在至少在嗯去年上半年乃至下半年，
+[Speaker 0]: 很多看似 for agent 的呃模型，
+[Speaker 0]: 它其实只是说我换了一个更复杂的呃呃 system point，
+[Speaker 0]: 然后稍微带一点点环境的反馈，
+[Speaker 0]: 稍微带一点点环境的反馈，
+[Speaker 0]: 比如思维 bch 还是有环境的反馈的。
+[Speaker 0]: 陶奔 ch 也是有的，
+[Speaker 0]: 然后呃稍微带一点环境的反馈和交互，
+[Speaker 0]: 然后嗯让模型具备一点，
+[Speaker 0]: 哎，
+[Speaker 0]: 遵循复杂 system point 和和理解环境交互的这样一个能力。
+[Speaker 0]: 我觉得那会儿只能是做到这个水平，
+[Speaker 0]: 但是他根本没有达到工业级可用的能力。
+[Speaker 0]: 就你嗯最简单就是什么叫工业级可用，
+[Speaker 0]: 就是你把它接到呃呃呃呃 cocode 或 open colde 边去用，
+[Speaker 0]: 你会发现它不可用，
+[Speaker 0]: 它有很多问题。
+[Speaker 0]: 对，
+[Speaker 0]: 最简单他他就理解不了这个这套框架本身。
+[Speaker 0]: 然后他也呃呃也没有针对这套框架本身，
+[Speaker 0]: 人跟他的交互范式会发生变化。
+[Speaker 0]: 比如人跟他交互范范式发生最大变化的是人不再会去修改代码，
+[Speaker 0]: 人不太再去再去关注 OK 这一行代码出错了，
+[Speaker 0]: 你帮我改一下，
+[Speaker 0]: 就就这样的。
+[Speaker 0]:  query 是不会再出现的，
+[Speaker 0]: 然后人只会提一些更高阶的。
+[Speaker 0]: 比如说增加啊增加啊增加限制，
+[Speaker 0]: 增加限制就是提澄清需求。
+[Speaker 0]: 然后呃呃呃架构设计人会参与架构设计，
+[Speaker 0]: 因为现在好好多架构设计还是人更强的，
+[Speaker 0]: 以及辅助理解业务逻辑，
+[Speaker 0]: 这是 skills 的含的的的价值。
+[Speaker 0]: 对，
+[Speaker 0]: 这个业务逻辑是是模型本身不具备的。
+[Speaker 0]: 因为这很多业务逻辑，
+[Speaker 0]: 它是企业内部的东西。
+[Speaker 0]: 对，
+[Speaker 0]: 或说呃或者说真实环境里边呃沉淀下来的东西，
+[Speaker 0]: 这个你必须要跟他很多轮交互才会沉淀下来的东西。
+[Speaker 0]: 所以我我认为之前那些 a 键框架就就不能叫 a 键框架吧，
+[Speaker 0]: 就没有任何可用度。
+[Speaker 0]: 然后在那些呃 bchmark 上表现非常高的模型，
+[Speaker 0]: 也不代表他的一些能力是真的强对。
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以所以我们在优化这一版模型的时候，
+[Speaker 0]: 是完全放弃这些 benchmark 了。
+[Speaker 0]: 我基基上就就就不关注这些 benching mark 了。
+[Speaker 0]: 就嗯嗯我们呃当当你面临一个很大的范式的变化的时候，
+[Speaker 0]: 其实呃呃只要你路径走对了，
+[Speaker 0]: 其实你可以短暂非常短暂的一个窗口期，
+[Speaker 0]: 你去忽略评估。
+[Speaker 0]: 因为因为你靠体感你就能立马测出来一个非常大的制度呃差异。
+[Speaker 0]: 对呃但是当你慢慢迈入深水区的时候，
+[Speaker 0]: 还是需要一些非常精细的评估的。
+[Speaker 0]: 嗯，
+[Speaker 1]: 所以 scale 是不是改变了模型生态呀？
+[Speaker 0]: 嗯，
+[Speaker 0]: 改变了模型在嗯这种高高复杂度、
+[Speaker 0]: 高 work 呃，
+[Speaker 0]: 就是流程复杂度的任务上的执行的准确率。
+[Speaker 0]: 对，
+[Speaker 0]: 因因为它其实定义了它套执行的规范。
+[Speaker 0]: 对然后这套执行的规范是很难在预训练的数据边具备的。
+[Speaker 0]: 因为训练数据边没有这种 internal 的信息，
+[Speaker 0]: 这些这些通常是是不是是是大量企业内部自己去沉淀和积累的这种这这种哦由人人人和人之间产生的一些呃组织上遗留下来的一些规范，
+[Speaker 0]: 我觉得更多是组织上遗留下来的规范。
+[Speaker 0]: 然后嗯呃但是嗯就这不可能在于训练数据里边出现，
+[Speaker 0]: 但是可以由人教 agent 的呃跟他多轮交互，
+[Speaker 0]: 通过完成几个任务，
+[Speaker 0]: 把这套规范让 agent 学会。
+[Speaker 0]: 所以 agenent 就会。
+[Speaker 0]: 所以现在大量 skills 其实是的自己写的对，
+[Speaker 1]: 但是 agenskills 是在 crowd 里面诞生的，
+[Speaker 0]: 对不对？
+[Speaker 0]: 对，
+[Speaker 0]: 但是但是这就是出现一个问题，
+[Speaker 0]: 就是确实是 open en clow 把 skills 这个事儿给嗯带火的。
+[Speaker 0]: 我说待会就是他让更多人去贡献 skills 这个事，
+[Speaker 0]: 社区这个是非常关键的。
+[Speaker 0]: 因为哎哎这这就是属于我觉得啊人跟 a 技能需要共创的地方。
+[Speaker 0]: 对，
+[Speaker 0]: 如果你没有那么多人高阶呃就是呃呃没有那么多这种呃另类另类信息。
+[Speaker 0]: 我觉得因为他确实另外一种阿尔法，
+[Speaker 0]: 它是那种另类信息。
+[Speaker 0]: 呃，
+[Speaker 2]: 好的好的，
+[Speaker 0]: 跟跟跟当前的 a 卷的创的的，
+[Speaker 0]: 那那 AA 的的，
+[Speaker 0]: 也或者说最最顶尖模型的能力也很难发挥出来。
+[Speaker 1]: 这也是你说的那个群体智能啊，
+[Speaker 0]: 我可以这么说，
+[Speaker 0]: 可以这么说，
+[Speaker 1]: 人的经验沉淀成 skill 变得如果更重要了，
+[Speaker 1]: 他是不是预训练的一种补充啊？
+[Speaker 0]: 对，
+[Speaker 0]: 因为预训练其实它大部分依赖的知识还是你在互联网上可访问到的知识。
+[Speaker 0]: 但很多知识或者说呃很多智能，
+[Speaker 0]: 应该说很多智能我们是在互联网上访问不到的对嗯，
+[Speaker 0]: 那么这个时候他就以另外一种形态出现。
+[Speaker 0]: 我觉得现在 skills 算是一种吧，
+[Speaker 1]: 对他其实提供了一种交互的方式，
+[Speaker 1]: 让人去主动贡献数据。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对贡贡献更让模型呃执行任务的成功率更高的方式。
+[Speaker 0]: 对，
+[Speaker 1]: 如果重新来不定义一下所谓的。
+[Speaker 1]: 因为我以前有 deep c moment，
+[Speaker 1]: 然后有 open i 有 charge BT moment。
+[Speaker 1]: 如果重新定义一下这个所谓的 open cloud moment，
+[Speaker 1]: 你会怎么定义它？
+[Speaker 0]: 嗯，
+[Speaker 0]: 这个版本的他会更时间，
+[Speaker 0]: 时间线更长。
+[Speaker 0]: 就是因为因为他他前续的章节，
+[Speaker 0]: 太太久了让大家不会觉得他是个新东西。
+[Speaker 0]: 然后他后续的章节呢，
+[Speaker 0]: 但是我我觉得对于我们已经呃信这个事情的人而言哈，
+[Speaker 0]: 比较别扭。
+[Speaker 0]: 这个事情而言，
+[Speaker 0]: 我们反应速度足够快的。
+[Speaker 0]: 但但我不知道其他人有没有 follow up 上。
+[Speaker 0]: 对，
+[Speaker 0]: 所以就是我从我的个人的感官上，
+[Speaker 0]: 就是这个 moment，
+[Speaker 0]: 它会延续的时间更长更深远。
+[Speaker 0]: 嗯，
+[Speaker 0]: 它不是嗯这个更深远，
+[Speaker 0]: 是说嗯他可能嗯能力更外放到更多呃人能感受到的场景里边去，
+[Speaker 0]: 所以它更深远。
+[Speaker 0]: 但是它这个流动是需要时间的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 嗯，
+[Speaker 1]: 就他的能溢出的能量能力更强对更多比差。
+[Speaker 0]: 他他不像他没有一个非常清晰的那么亲斜的义。
+[Speaker 0]: 像 OERE 他会有一个嗯数学代码这种嗯有光初死的一个东西在这儿 OK 你分上去了，
+[Speaker 0]: 模型就具备这个能力的。
+[Speaker 0]: 像一个非非清晰晰的标的界界定然我我觉得呃 a 这的其实确实有很多场景，
+[Speaker 0]: 你是有需要有信息标准系列，
+[Speaker 0]: 但是大部分的场景是没有的，
+[Speaker 0]: 表混沌。
+[Speaker 0]: 对对对，
+[Speaker 0]: 所以所以然后它产生的价值也是慢慢的到一个临界点突然进一大步。
+[Speaker 0]: 其实靠靠四点零确确是是这样一个经营大步的突然的一个一个时间点。
+[Speaker 0]: 然后但是但是我说就做这个事情，
+[Speaker 0]: 这个路径也是持续了两年的，
+[Speaker 0]: 至少有两年的我们能看到。
+[Speaker 1]: 那刚刚为什么这个事情不是 dodop 自己做出来？
+[Speaker 0]: 呃，
+[Speaker 0]: 我觉得还是就一个开源一个闭源的原因吧，
+[Speaker 0]: 就是嗯闭源的框架你是没有办法去洞察内部的设计的。
+[Speaker 0]: 呃，
+[Speaker 0]: 所以你没有办法利用大部分更多人的智慧去改进它。
+[Speaker 0]: 在开源就是你就可以用更多人的智慧去改进它。
+[Speaker 0]: 嗯嗯，
+[Speaker 1]: 可能也不符合 audrapic 对安全性的追求。
+[Speaker 0]: 嗯，
+[Speaker 0]: 其实我现在觉得安全性嗯，
+[Speaker 0]: 绝大部分还是模型本身应该去追求的事情。
+[Speaker 0]: 对我们不能嗯太过于去去要求。
+[Speaker 0]: 一个框架本身是过过于安全的，
+[Speaker 0]: 但是框架本身可以做非常多的事情。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是我觉得哦开源跟安全性并不冲突。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 因为我们会把很多数据授权给 open cloud。
+[Speaker 1]: 嗯，
+[Speaker 1]: 如果我们把大量的个人隐私数据授权给他的话，
+[Speaker 1]: 怎么缓解？
+[Speaker 1]: 就是更多普通人对于安全性的这种焦虑。
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以其实我我这这是我为什么说要做开源的原因。
+[Speaker 0]: 就是嗯呃我觉得还是会有一天，
+[Speaker 0]: 嗯，
+[Speaker 0]: 而且应该很快也会到来。
+[Speaker 0]: 就是人的大部分简单的任务，
+[Speaker 0]: 就除了那些非常难的任务，
+[Speaker 0]: 就是其实跟隐私相关任务有很多还是没有那么高难度的任务。
+[Speaker 0]: 其实你完全是可以放在本地化去做的对，
+[Speaker 0]: 就你你自己会有一自己随身携带的，
+[Speaker 0]: 有可能随身携带有可能是在在在家或某个场景，
+[Speaker 0]: 比如有一块呃呃芯片。
+[Speaker 0]: 对，
+[Speaker 0]: 然后你所有的数据都在本地。
+[Speaker 0]: 然后嗯那所有的呃涉及到隐私数据呃的的这些场景都在本地推理，
+[Speaker 0]: 哎，
+[Speaker 0]: 这是很关键。
+[Speaker 0]: 就在本地推理，
+[Speaker 0]: 然后涉及到一些非隐私，
+[Speaker 0]: 然后高难度高创造力、
+[Speaker 0]: 高复杂的人我再去云端推理。
+[Speaker 0]: 其实这样是能够解耦的。
+[Speaker 0]: 然后这也是为什么我说一个好的一种框架，
+[Speaker 0]: 借助一个我自己觉得很很很小的三遍的模型，
+[Speaker 0]: 他发挥的这个他自己能能做的任务的复杂度都已经超乎我的想象了。
+[Speaker 0]: 然后就这个事儿激发了我自己。
+[Speaker 0]: 对于其实嗯我我呃比如说所以所以所以端云混合也好，
+[Speaker 0]: 所以隐私的本地化也好，
+[Speaker 0]: 有一些思考，
+[Speaker 0]: 但是我觉得还很初步。
+[Speaker 0]: 对，
+[Speaker 0]: 因为这些思考不仅是需要呃模型这一侧做非常多东西，
+[Speaker 0]: 还需要本身架构这一层，
+[Speaker 0]: 然后一块儿往前的。
+[Speaker 0]: 所以这也是我为什么觉得开源是如此重要的一个事情的原因。
+[Speaker 0]: 就是啊我觉得这需要更多人一块来做，
+[Speaker 0]: 而不是某一个公司就把它能做好的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 接下来你都不会看到什么？
+[Speaker 1]: 在 open cloud 已经火了这么几个月之后，
+[Speaker 1]: 就二零二六年大家会给予它做什么？
+[Speaker 1]: 国内已经有很多动作了也出现了各种的，
+[Speaker 1]: 包括你们 cloumemo cloud。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是其实所谓现在很多很多 cloud，
+[Speaker 0]: 只是让他大家以一种嗯嗯不同的交互形态，
+[Speaker 0]: 然后去访问到不同的模型和不同类型的框架。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但但但但是我觉得真正那种去啊让这个框架自迭代或说呃更强调自进化和自迭代的框架。
+[Speaker 0]: 我觉得还没有大规模的诞生和出现。
+[Speaker 0]: 然后以及你怎么去利用绝大部分人的智慧去创造一个更强的框架。
+[Speaker 0]: 嗯，
+[Speaker 0]: 也还没有出现嗯，
+[Speaker 0]: 这两层一层是框架本身的资金化，
+[Speaker 0]: 一层是呃一一层是 a 型的本身的资金化，
+[Speaker 0]: 一层是 agent 的跟人之间的资金化。
+[Speaker 0]: 我还没有看到，
+[Speaker 0]: 就我们现在做的其实是怎么 train 更好的。
+[Speaker 0]:  model for agent l 以及么么 a agent 去适应这个 model。
+[Speaker 0]: 对啊，
+[Speaker 0]: 其实是是在做 ageninal 跟 model 之间的双向流动，
+[Speaker 0]: 但还还没有我在框架层。
+[Speaker 0]: 我觉得未来需要做的事情，
+[Speaker 0]: 其实是怎么让框架自己进化，
+[Speaker 0]: 以及框架跟人互相进化，
+[Speaker 1]: 这是你们现在的着重点。
+[Speaker 0]: 我觉得会大致的方向，
+[Speaker 0]: 我会不会去深入研究的事情。
+[Speaker 1]: 嗯，
+[Speaker 1]: 你觉得现在的呃没有做到的核心的缺陷在哪里？
+[Speaker 1]: 就可能补足了某一个短板，
+[Speaker 1]: 他也许就能成了缺陷。
+[Speaker 0]: 是我们刚坐在这里哦，
+[Speaker 0]: 我觉得我我也不知道 soppping 做不做，
+[Speaker 0]: 反正我觉得呃就是呃就是只是因为时间原因，
+[Speaker 0]: 我们刚坐到这里而已。
+[Speaker 0]: 然后未来的这个加速度是会很快的。
+[Speaker 0]: 不仅是我们我觉得呃应该是这么去定义。
+[Speaker 0]: 嗯，
+[Speaker 0]: 现在呃只要拥有一个呃 noneless 非常 efficient 模型架构的厂商，
+[Speaker 0]: 并且且在做预训练阶段，
+[Speaker 0]: 把 code 的能力也做的非常好的。
+[Speaker 0]: 呃呃呃，
+[Speaker 0]: 他有这样一个 model，
+[Speaker 0]: 这个 model 参数量可能至少我希望我觉得至少一 t 以上吧。
+[Speaker 0]: 对，
+[Speaker 0]: 只要有这样的一个呃入场券的人，
+[Speaker 0]: 基本上都处于同一水平线先去做这个事情。
+[Speaker 0]: 嗯，
+[Speaker 0]: 当然索索肯肯定是走前前面了。
+[Speaker 0]: 我只说呃目前呃上一个时代的成功，
+[Speaker 0]: 并不意味着下一个时代的领先，
+[Speaker 0]: 现在基本上他还在同一水平线，
+[Speaker 1]: 这是一个什么样的时代？
+[Speaker 1]:  a 政治的时代怎么定义？
+[Speaker 0]: 它就是我觉得就是生产力加速变革的时代，
+[Speaker 1]: 对今电生产力会爆发，
+[Speaker 1]: 对吧？
+[Speaker 0]: 呃，
+[Speaker 0]: 对，
+[Speaker 0]: 从这呃这这就是大家会觉得很多工作嗯不需要自己做了，
+[Speaker 0]: 这是最直接的一个感受。
+[Speaker 0]: 从只要你接触到这个事情过后，
+[Speaker 0]: 你就发现你的好多工作都会被替代掉。
+[Speaker 0]: 那么呃这个时候人更应该去思考，
+[Speaker 0]: 就是说到底自己的意义和价值是什么？
+[Speaker 0]: 嗯，
+[Speaker 1]: 所以 agtion 能做什么样的高价值任务，
+[Speaker 1]: 是不是变得更重要了。
+[Speaker 0]: 这个你要从提升顶尖模型的能力的角度上来说，
+[Speaker 0]: 肯定是让 a 真的去替代更高价值的任务是重要的。
+[Speaker 0]: 因为更高价值的任务，
+[Speaker 0]: 它啊意味着更长的 contest，
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后呃意味着更多的偷更消耗量。
+[Speaker 0]: 嗯，
+[Speaker 0]: 他肯定是更多特别想想，
+[Speaker 0]: 然后呃意味着嗯他他替代人的是呃他最终这个呃能能替代到最顶尖，
+[Speaker 0]: 那一群人的智能就够了。
+[Speaker 0]: 其实因为呃下边那一群人的智能是可以慢慢的以另外一种方式来替代掉的。
+[Speaker 0]: 比如说 robots，
+[Speaker 0]: 对，
+[Speaker 0]: 然后总之就是 for 更如果说要为了 for 追求更强的某些能力的角度上来说，
+[Speaker 0]: 肯定是完全 for 更高价值的场景做是更有价值的对。
+[Speaker 0]: 呃，
+[Speaker 0]: 但另外一个演变角度是说，
+[Speaker 0]: 你是要做一个对全社会更有更有益的对所有人都有帮助的一个模型。
+[Speaker 0]: 那么就不应该说更高价值的场景去做，
+[Speaker 0]: 而是让所有人都能感受到这个模型的智能水平。
+[Speaker 0]: 那么它可能是另外一种做法呢，
+[Speaker 0]: 有可能是另外一种做法，
+[Speaker 1]: 对，
+[Speaker 1]: 是一个普适度更高的任务可能会更好。
+[Speaker 0]: 对，
+[Speaker 0]: 就比如说在这种场景里边，
+[Speaker 0]: 你就更需要在乎啊多模态。
+[Speaker 0]: 因为在更更更更广泛场景边多模态，
+[Speaker 0]: 尤其是对于视频的理解，
+[Speaker 0]: 嗯，
+[Speaker 0]: 对于嗯一些更细微的环境的的理解，
+[Speaker 0]: 然后嗯呃它是更关键的，
+[Speaker 0]: 然后呃以及就是要注重成本，
+[Speaker 0]: 成本是产生革命非常重要的因素。
+[Speaker 0]: 就你不能说你完成一个任务要花一千刀，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那我觉得很多任务场景，
+[Speaker 0]: 对，
+[Speaker 0]: 就除了呃很多这种场景，
+[Speaker 0]: 觉得他他他他他必须要达到一个很高的一个替换系数比。
+[Speaker 0]: 就你能帮我节省十倍的成本，
+[Speaker 0]: 我可能才会考虑去试吧。
+[Speaker 0]: 对所以这个时候你怎么去做一个更低成本、
+[Speaker 0]: 更高效率速度啊，
+[Speaker 0]: 更高速度的呃这样的一一一套一定的框架，
+[Speaker 0]: 以及对应结合的模型，
+[Speaker 0]: 那就很关键。
+[Speaker 0]: 所以这是两种两种发展思路。
+[Speaker 1]: 对你会怎么定义？
+[Speaker 1]: 二零二六年？
+[Speaker 0]: 嗯，
+[Speaker 0]: 我觉得我很难去定义它。
+[Speaker 0]: 因为因为我觉嗯我觉得两个月都已经现在对我来说是发展巨变的。
+[Speaker 0]: 就我我我我们做两周的事情，
+[Speaker 0]: 我觉得基本上就就就就让我们很难相信这是两周内做的事情，
+[Speaker 0]: 就在过去两周发生的事情。
+[Speaker 0]: 所以所以我都不知道这一年接下来会发生什么，
+[Speaker 0]: 基本上是处于在这种嗯高度心思的状态。
+[Speaker 1]: 嗯，
+[Speaker 1]: 哎我很好奇啊，
+[Speaker 1]: 就是从二零二年二二年底 charch b 诞生。
+[Speaker 1]: 然后当时大家就觉得 AI 一定是生产力革命，
+[Speaker 1]: 到今天就发展三三年，
+[Speaker 1]: 你觉得他带来了哪些先决条件？
+[Speaker 1]: 基今天的生产力爆发可能成为一个更可能的时间点，
+[Speaker 1]: 就是他的是哪些条件变得成熟了。
+[Speaker 0]: 就我觉得第一个关键点是不再是算法工程师在做这个事情了。
+[Speaker 0]: 我我我我自己会把这个事儿觉得是一个非常有标志性的节点。
+[Speaker 0]: 就之前是你会觉得只有哦哦 researcher 或者说算法的人，
+[Speaker 0]: 再去考虑怎么去提升智能水平。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但你会现在会发现嗯，
+[Speaker 0]: 还会有不就是所有所有懂懂嗯懂写代码，
+[Speaker 0]: 人不属的代码都在一块去考虑去提升模型的呃，
+[Speaker 0]: 去提升这整个东西的智能水平。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我我觉得这是最主要的差异。
+[Speaker 0]: 就不管是他是在写 skills 也好，
+[Speaker 0]: 去改 a 这种框架也好，
+[Speaker 0]: 嗯，
+[Speaker 0]: 还是去嗯设计更好的研究范式也好，
+[Speaker 0]: 嗯，
+[Speaker 0]: 这是三个层面。
+[Speaker 0]: 其实嗯我觉得是所有人都在让呃自己的智能去加速这个事情。
+[Speaker 0]: 嗯，
+[Speaker 0]: 这是我认为最大的一个变化。
+[Speaker 0]: 嗯嗯，
+[Speaker 1]: 我突然想到 pick 去年底的那期博客里的最后一句话，
+[Speaker 1]: 他有他就说 agent 的进化需要所有人参与。
+[Speaker 1]: 对，
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以现在是让我有这种感觉，
+[Speaker 0]: 而且现在其实现在已经是了，
+[Speaker 0]: 只是现在唯一唯一没发生的。
+[Speaker 0]: 就是我刚刚说的呃 agent 跟人怎么更好的更加速，
+[Speaker 0]: 更加速，
+[Speaker 0]: 因为 agent 的也要自迭代，
+[Speaker 0]: 人也要自迭代，
+[Speaker 1]: 通过聊天嘛。
+[Speaker 0]: 对，
+[Speaker 0]: 聊天是一种，
+[Speaker 0]: 然后那会不会有一些更自然的方式？
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 你有一些思考，
+[Speaker 0]: 就比如说我要是真的能能带一个非常好的设备，
+[Speaker 0]: 一整天跟着我。
+[Speaker 0]: 然后我所所有说的话，
+[Speaker 0]: 我见过人他都知道，
+[Speaker 0]: 我觉得他进化速度应该比我快，
+[Speaker 0]: 我自己认为他应该比我快。
+[Speaker 0]: 因为因为因为他他他的他后边依赖的算力会更多，
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后嗯他会很快替代我。
+[Speaker 1]: 对，
+[Speaker 1]: 而且他是他他不会，
+[Speaker 1]: 今天记得明天不记得他是非常稳定的，
+[Speaker 1]: 而且他是只有进化的一条曲线，
+[Speaker 0]: 而且他乐此不疲，
+[Speaker 0]: 他他不需要休息。
+[Speaker 0]: 你刚刚提到那个说国内的人有我们克更热，
+[Speaker 0]: 更更热情，
+[Speaker 0]: 那完全现在是怎么评价的？
+[Speaker 1]: 模型公司的人不是很 care 这个东西，
+[Speaker 0]: 我感觉模型公司人不是很 care 的心。
+[Speaker 0]: 哦哦，
+[Speaker 0]:  ok 那那真的跟我们白不一样，
+[Speaker 1]: 他可能觉得这个事情不难。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我一开始就觉得这个事情不难，
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后到后面我就觉得他整个 a 线头的设计是非常非常巧妙的。
+[Speaker 0]: 我说这个巧妙是指我觉得他弥补了很多模型短板，
+[Speaker 0]: 嗯，
+[Speaker 1]: 他是怎么精巧巧妙的去构建的这个编排啊，
+[Speaker 0]: 我怀疑这个原因是他最开始是基于克德上一代模型去做的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就德上一代四点五，
+[Speaker 0]: 哪怕怕 ouclouops s sdnight 其实是不不够那么强的。
+[Speaker 0]: 所以你就要必须在呃系统的设计上，
+[Speaker 0]: 这个框架的设计上，
+[Speaker 0]: 你要呃设计的更精细一点，
+[Speaker 0]: 去去把它这个短板给补起来。
+[Speaker 0]: 对，
+[Speaker 0]: 然后嗯这就导致了呃 office 进步了。
+[Speaker 0]: 但是国内的呃大部分的模型可能刚靠近 call 的四点五三 at 和的水平，
+[Speaker 0]: 然后反而呃这两个在这儿握手了。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 我觉得是这样一个原因，
+[Speaker 1]: 那如果模型能提高的话，
+[Speaker 1]: 他这些精巧偏排还需要吗？
+[Speaker 0]: 呃，
+[Speaker 0]: 还是需要的，
+[Speaker 0]: 就是出于对成本的考量是需要的。
+[Speaker 0]: 就是我们永远会去追求一个啊成本和效率最低的一个一套方案。
+[Speaker 0]: 嗯，
+[Speaker 0]: 这个是生产力革命的非常潜质的要求。
+[Speaker 0]: 所以不可能说我们所有的场景都用最顶尖的模型，
+[Speaker 0]: 因为它太贵了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以更有可能是 a 正的在进化模型在进化。
+[Speaker 0]: 然后模型进化的方式有可能是呃同一个水平的模型在越变越小，
+[Speaker 0]: 它也是一种进化。
+[Speaker 0]: 是的是的哦，
+[Speaker 0]: 嗯，
+[Speaker 0]: 虽然我们没有在做这样的事情，
+[Speaker 0]: 但是它确实是一种方式。
+[Speaker 0]: 嗯，
+[Speaker 0]: 也就是说现在可能激活识币的一个模型，
+[Speaker 0]: 嗯，
+[Speaker 0]: 可能过一年他就能做到考的四点六 office 水平，
+[Speaker 0]: 这个这个是极大概率会发生。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那那那那激活识币的模型是很便宜的。
+[Speaker 0]: 然后可能一一两块钱就能有百万的上下文。
+[Speaker 0]: 所以那你为什么不用一个更小的模型？
+[Speaker 0]: 它反应速度更快，
+[Speaker 0]: 跟灵敏，
+[Speaker 0]: 基于这套应用框架还很好用，
+[Speaker 0]: 你还可以改这绍框架，
+[Speaker 0]: 那为什么不用报他了？
+[Speaker 0]: 对嗯，
+[Speaker 1]: 所以他其实让不那么好的模型有了更好发挥的空间，
+[Speaker 0]: 对他的上限更高。
+[Speaker 1]: 他对嗯所以其实更符合国内的叙势，
+[Speaker 1]: 对吧？
+[Speaker 1]: 嗯，
+[Speaker 0]: 不知道国内叙是什么，
+[Speaker 0]: 但是会让人很想用它，
+[Speaker 0]: 很想用它替代自己的工作。
+[Speaker 0]: 嗯，
+[Speaker 1]: 所以需要小尺寸的端测模型爆发吗？
+[Speaker 0]: 这个趋势肯定会发生，
+[Speaker 0]: 但是我觉得它不是二六年的一个主要的旋律，
+[Speaker 0]: 嗯，
+[Speaker 0]: 它是一个支线，
+[Speaker 0]: 而且是会持续发生的事情。
+[Speaker 1]: 二六年的主要旋律就是呃生产力的变高高，
+[Speaker 0]: 生产力场景的持续突破。
+[Speaker 0]: 所以我们要做更长城的任务，
+[Speaker 0]: 然后更复更呃更更强调多一菌的之间的协作。
+[Speaker 0]: 因为更复杂任务，
+[Speaker 0]: 它不可能是单一 a 卷的去做的。
+[Speaker 0]: 但多一性的协作，
+[Speaker 0]: 某种程度上也是为了成本的考量，
+[Speaker 0]: 对成本和时间的考量。
+[Speaker 0]: 对然后嗯呃以及怎么去激发对型的这个群体的智慧。
+[Speaker 0]: 我现在觉得呃现在市场上的现现在已经看到的 agmulti agent 的工作都有点伪。
+[Speaker 0]: 我说这个伪是说呃真的依赖依依赖于 multi agent 能够实现更好的最终的任务的完成率。
+[Speaker 0]: 这在这个维度上我觉得是有点伪的，
+[Speaker 0]: 但是它能提升。
+[Speaker 0]: 嗯，
+[Speaker 0]: 好的好的，
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 效率就是速度，
+[Speaker 0]: 就是这个任务完成最终的速度，
+[Speaker 0]: 以及它最终能够节省成本，
+[Speaker 0]: 这个是确定的毛台席的。
+[Speaker 0]: 但我没有看到说毛台选的一定最终能够实现一个更高上限的一个东西。
+[Speaker 0]: 但但它会发展，
+[Speaker 0]: 他这部发展只是我目前还没有看到。
+[Speaker 1]: 所以今年的趋势其实跟前三年已经发生了很大的变化了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我我自己是这么感知到的。
+[Speaker 0]: 嗯，
+[Speaker 1]:  kimi 的人跟我说说，
+[Speaker 1]: 他们觉得他们跟豆包已经完玩，
+[Speaker 1]: 开始玩不一样的游戏了。
+[Speaker 1]: 豆包元宝阿里都在玩呃会网产品的游戏，
+[Speaker 1]: 因为他们在打 DAU。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后 imi 的人，
+[Speaker 1]: 他们是觉得他们在就是走了啊，
+[Speaker 1]: 多少 pic 那条路。
+[Speaker 1]: 对你们在打再玩一场什么样的游戏啊，
+[Speaker 0]: 就可能我们追求的事情是我我我自己觉得什什么时候能够超越自己吧。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 我我是这么去定义的。
+[Speaker 0]: 因为我觉得我对 AGI 的一个一个定义会非常的模糊的一个原因。
+[Speaker 0]: 就是因为嗯我觉得没有必要去追求一个非常清晰的一个 AGI 的定义。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那 AGI 发生的时候，
+[Speaker 0]: 所有人都会感知到的。
+[Speaker 0]: 就是因为你发现每个人的生活已的生活方式，
+[Speaker 0]: 你的工作方式已经未知，
+[Speaker 0]: 长达很长的时间已经慢慢的被他改变了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 所所。
+[Speaker 0]: 所以在这个过程中追求 DAU 追求这些东西，
+[Speaker 0]: 他并不会改变我，
+[Speaker 0]: 他并不会促成这个目标，
+[Speaker 0]: 就是让这个模型代替我，
+[Speaker 0]: 他并不会促成这个目标，
+[Speaker 0]: 所以我就完全没有在想这些事情。
+[Speaker 0]: 嗯，
+[Speaker 0]: 而如果说我们去追求一些中间的目标啊啊，
+[Speaker 0]: 比如说你去追求 token 消耗量，
+[Speaker 0]: 嗯，
+[Speaker 0]: 你去追求他完成更高价值的任务，
+[Speaker 0]: 他是在往这个目标去靠近的对，
+[Speaker 0]: 因为要完成可能替代我自己的任务，
+[Speaker 0]: 他确实是需要更多的土文消耗量，
+[Speaker 0]: 嗯，
+[Speaker 0]: 他需要具备更复杂的 context。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 他需需要去调动其他人的智能水平。
+[Speaker 0]: 嗯，
+[Speaker 0]: 团队管理其实就是要去调动其他人的智能水平。
+[Speaker 0]: 对，
+[Speaker 0]: 所以所以嗯技术创新也是你你你需要具备更多的数据的访问的权限。
+[Speaker 0]: 你你需要具备哎给你一个集群，
+[Speaker 0]: 你会用一一个 GPU 集群，
+[Speaker 0]: 你会用它，
+[Speaker 0]: 并且你还要自己去定义一套评估标准。
+[Speaker 0]: 当你被在这个集群上训练个模型过会，
+[Speaker 0]: 怎么去验证这这些事情？
+[Speaker 0]: 就是呃我想象的是，
+[Speaker 0]: 我们应该让这个模型结合一套框架本身，
+[Speaker 0]: 应该去完成这些事情和任务，
+[Speaker 0]: 而不是去追求呃另外一个叙事上事情。
+[Speaker 0]: 所以我就没有太理解来他们那个趋势吧，
+[Speaker 1]: 你说的也有的趋势是吧？
+[Speaker 1]: 对，
+[Speaker 0]: 就是我自己觉得这个趋势就嗯不太符合我自己的呃我们做做研究的一个路径。
+[Speaker 0]: 嗯，
+[Speaker 1]: 过去两个月你觉得你的生活发生什么样的变化？
+[Speaker 0]: 生活就是呃亢奋还要亢奋，
+[Speaker 0]: 就呃就是你感觉每天嗯都会发现 AG 的框架本身或模型本身又进步了。
+[Speaker 1]: 所以今年带着给你很强的啊哈 moment，
+[Speaker 1]: 这个可能比过去的 f bod 更强。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 而且它是持续的，
+[Speaker 0]: 就它持续的就是他，
+[Speaker 0]: 你感觉他停不下来，
+[Speaker 0]: 嗯，
+[Speaker 0]: 这是比较大的变化。
+[Speaker 0]: 我觉得 RE 可能就是那一阵，
+[Speaker 0]: 就你去体验他的那一刻，
+[Speaker 0]: 你用到他了。
+[Speaker 0]: 然后哦你发现他具备很好的思考能力了，
+[Speaker 0]: 然后这个思考能力也从克鲁克马瑟外放到其他领域，
+[Speaker 0]: 也就是那一刻。
+[Speaker 0]: 然后那一刻晚乎后你没有感觉他有持续性，
+[Speaker 0]: 但 a 型的这个事上，
+[Speaker 0]: 你会觉得他一直在持续。
+[Speaker 0]: 我觉得这种持续性是嗯是完全不一样的感受。
+[Speaker 0]: 因为有这样的持续性，
+[Speaker 0]: 所以你会更坚信这个事儿他在全面加速。
+[Speaker 0]: 嗯，
+[Speaker 1]: 有什么样的一个任务是你过去觉得他绝对不可能做到。
+[Speaker 0]: 但是今天可以做到的就续模型这个事我我自己觉得以前我认为是很难的。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 因为嗯你要涉及到跟一个更复杂的是，
+[Speaker 0]: 比如深度学习平台的融合。
+[Speaker 0]: 听起来就就就就就不太靠谱，
+[Speaker 0]: 然后然后以及你怎么去嗯让模型具备，
+[Speaker 0]: 你有的是因为一个研究员，
+[Speaker 0]: 他有有的 contecontest 是很长的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就你要你要经过很长的科研的培养，
+[Speaker 0]: 比如说一个博士他有五年的科研的培养，
+[Speaker 0]: 对吧？
+[Speaker 0]: 嗯，
+[Speaker 0]: 你你怎么让一个大模型跟你有一样的 contest，
+[Speaker 0]: 这个事是很难的。
+[Speaker 0]: 我我之前认为是不太可能的。
+[Speaker 0]: 我最近发现原来他很聪明，
+[Speaker 0]: 聪明到你只要把你近期康奈斯告诉他他他，
+[Speaker 0]: 甚至能帮你复原出来你自己的科研的成长路径。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 你让这个时候你再去跟他讨论。
+[Speaker 0]: 同样的，
+[Speaker 0]:  top 的时候，
+[Speaker 0]: 你发现他跟你一样聪明，
+[Speaker 0]: 就这个事儿是很很残酷的。
+[Speaker 0]: 就我之前认为我们自己做的工作已经是足够有创造力，
+[Speaker 0]: 足够不会被 skill 化，
+[Speaker 0]: 不会被 work flow 化的。
+[Speaker 0]: 但我现在发现他既然也能，
+[Speaker 0]: 然后也就是说可能过过一段时间他真的能训一个跟我们能训出来的模型，
+[Speaker 0]: 他也能训出来了。
+[Speaker 0]: 那那他那他可不可以训出更强的模型的，
+[Speaker 0]: 然后他就自己左脚踩右脚就就就提升了呢？
+[Speaker 0]: 我觉得这个事情是很有可能发生的，
+[Speaker 1]: 这个可能是一个非常大的转变。
+[Speaker 0]: 对所以所以他可能真的能呃依靠于他自己产生更强的智能，
+[Speaker 0]: 尽快他先吸收所有人的智能，
+[Speaker 0]: 然后再靠自己产生更强的智能。
+[Speaker 0]: 我觉得这个事肯定是就在这一两年发生的事情。
+[Speaker 1]: 我刚才听你的整个描述，
+[Speaker 1]: 我会有一种感觉。
+[Speaker 1]: 我觉得你训练模型的方式就是呃你管团队的方式有某种相似性。
+[Speaker 0]: 嗯，
+[Speaker 0]: 主主要的原因是他确实需要群体能能嗯，
+[Speaker 1]: 不是个人英雄主义。
+[Speaker 1]: 嗯，
+[Speaker 0]: 当然不是，
+[Speaker 0]: 当然不是，
+[Speaker 0]: 就是嗯是他他需要每个环节上都是呃足够 believe 和呃极致的人。
+[Speaker 1]: 对什么叫群体智能？
+[Speaker 1]: 在模型训练上，
+[Speaker 0]: 可能不同的 agency 他需要有自己的 context，
+[Speaker 0]: 然后呃有自己自己 context。
+[Speaker 0]: 原因是嗯当模型能力没有那么强的时候，
+[Speaker 0]: 有自己的独立的 context，
+[Speaker 0]: 他会更他会更专注。
+[Speaker 0]: 对，
+[Speaker 0]: 专注还是蛮重要的。
+[Speaker 0]: 就你的 context 不不被混乱，
+[Speaker 0]: 然后他能完成的更准。
+[Speaker 0]: 然后呃所以就是你可以理解为我们现在去模型可能需要非常嗯懂音法人，
+[Speaker 0]: 然后去呃呃写一套非常好的训练或推理的架构。
+[Speaker 0]: 然后需要他从训呃推理的视野去倒推跟做呃，
+[Speaker 0]: 能能能懂模型评估呃呃呃，
+[Speaker 0]: 以及模型训练人一块去定一个非常好的模型结构。
+[Speaker 0]: 有有这样一个中间的考论性性的合。
+[Speaker 0]: 然后这个非常懂模型训练和动懂模型评估人又要学会去跟嗯做数据的同学去进一步去沟通。
+[Speaker 0]: 说 ok 我们要赋予模型什么样能力，
+[Speaker 0]: 我们需要去构造什么样的数据。
+[Speaker 0]: 然后同时呢做数据这一群人，
+[Speaker 0]: 他又同时需要参与预训练跟后训练。
+[Speaker 0]: 因为呃预训练跟后训练，
+[Speaker 0]: 他的数据的 sense 是通的对。
+[Speaker 0]: 然后嗯嗯这里边其实你要你要真分的话，
+[Speaker 0]: 还是有很多 subagent 的。
+[Speaker 0]: 但这 subbagent 之间嗯他们的 contest 嗯有独立的地方，
+[Speaker 0]: 也有关联的地方。
+[Speaker 0]: 然后我觉得这样一套复杂的框架，
+[Speaker 0]: 现在目前看起来是能够被呃被模拟出来的，
+[Speaker 0]: 确实能够被模拟出来的。
+[Speaker 0]: 然后呃这也是我为什么我自己呃玩了混喝的，
+[Speaker 0]: 第二天我就开始让他去去，
+[Speaker 0]: 当时我在家嘛，
+[Speaker 0]: 然后我就让我家里边的，
+[Speaker 0]: 每个人就我爸爸我妈妈，
+[Speaker 0]: 然后我老公。
+[Speaker 0]: 然后嗯每每每每个人都有一个自己的撒菲军的，
+[Speaker 0]: 我们拿到一个飞出去，
+[Speaker 0]: 每个人嗯也可以自己跟自己的独立的撒菲君的去聊天，
+[Speaker 0]: 然后他自己进化，
+[Speaker 0]: 然后呃呃然后我就会在那个群里委派一个任务，
+[Speaker 0]: 呃，
+[Speaker 0]: 给他们的撒菲君的让他们干。
+[Speaker 0]: 然后因为我我们 conconless 是不一样的，
+[Speaker 0]: 然后让他干，
+[Speaker 0]: 确实他会呃他会康待，
+[Speaker 0]: 因为他有更好的 connets，
+[Speaker 0]: 所以他会干的更好。
+[Speaker 0]: 呃，
+[Speaker 0]: 就呃也就是这样一个很粗浅的尝试，
+[Speaker 0]: 让我相信就是呃这个事应该同就同样很简单的事情，
+[Speaker 0]: 他他换到一个更高复杂度，
+[Speaker 0]: 更有创造力的场景。
+[Speaker 0]: 嗯，
+[Speaker 0]: 只要模型的能力跟 a 九九框架本身在精华应该是也是可能做到。
+[Speaker 0]: 嗯嗯，
+[Speaker 1]: 哎我想到刚才有一个点，
+[Speaker 1]: 就是关于呃框架，
+[Speaker 1]: 你要不要有一个完整的表述，
+[Speaker 1]: 就是智能体框架，
+[Speaker 0]: 智能体育框架。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 其实这种体育框架我认为是一个现在哎就有很多形容词去形容它。
+[Speaker 0]: 你比如说 harlist、
+[Speaker 0]:  skay ford，
+[Speaker 0]: 然后还有一些其他形容词，
+[Speaker 0]: 就我没有特别去专注，
+[Speaker 0]: 说哪个形容词是更准确的对。
+[Speaker 0]: 然后我更关注的是这个框架本身它带来的一些差异化的优势是什么？
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后呃就比如说我认为一个非常好的框架，
+[Speaker 0]: 它其实应该是去呃嗯的尽量去弥补在行动上的缺陷的。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 很多很多东西都是在弥补行动上的缺陷。
+[Speaker 0]: 就比如说很好 memory 系统是弥补行动上的缺陷，
+[Speaker 0]: 然后接入到了更多的广泛的 message 的 channel，
+[Speaker 0]: 是弥补行动上的缺陷。
+[Speaker 0]: 然后呃以及他更主动，
+[Speaker 0]: 他更主动。
+[Speaker 0]: 嗯，
+[Speaker 0]: 不管是定时任务的主动，
+[Speaker 0]: 还是他他有些其他方式一些主动的设计，
+[Speaker 0]: 以及他自我去更新迭代，
+[Speaker 0]: 其实这些都是在弥补行动上的缺陷。
+[Speaker 0]: 因为嗯大模型是他，
+[Speaker 0]: 你给他呃不管是呃你给他越好的 count tains，
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃他肯定执行的效果越高。
+[Speaker 0]: 所以你要是能把这些他获取不到的 councontains 这些行动上的 councontains 都给他，
+[Speaker 0]: 那么他肯定会完成的更好。
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以所以这是我我我看一个好的框架的时候，
+[Speaker 0]: 我会看他有没有这些要素素然。
+[Speaker 0]: 那么么当然这这边还有一个呃很关键的一环是对的对你的这个是评估，
+[Speaker 0]: 就是一个好的框架本身，
+[Speaker 0]: 它确实是需要有个很好的可泛化的一个一套评估体系的对，
+[Speaker 0]: 然后这样他才可能自迭代。
+[Speaker 0]: 然后这里边是现现在已有的评估体系，
+[Speaker 0]: 其实都非常的简单，
+[Speaker 0]: 他只是为了防止他啊不出好的好的致致命性的错误。
+[Speaker 0]: 对，
+[Speaker 0]: 然后那么怎么有一个更有泛化力的一套评估体系，
+[Speaker 0]: 然后来促进这一套框架字字典。
+[Speaker 0]: 其实现在是把最高阶那一群人当评估，
+[Speaker 0]: 就是呃你你你交给他一个更更难的任务，
+[Speaker 0]: 更更更高价值场景的任务。
+[Speaker 0]: 然后他完成不了，
+[Speaker 0]: 你会你会给他提供补充信息嘛，
+[Speaker 0]: 然后呃你也会给他啊指出来哪错了，
+[Speaker 0]: 然后 push 他啊呃经过更多人的交互呢，
+[Speaker 0]: 把这个任务给完成。
+[Speaker 0]: 所以其实本质上是现在是这群人在当评估，
+[Speaker 0]: 但是这个评估会慢慢的被框架吸收。
+[Speaker 0]: 呃，
+[Speaker 0]: 框架会涉及很多东西，
+[Speaker 0]: 来来确保呃呃呃在某某些确定场景，
+[Speaker 0]: 我能平准同时也会被模型能力吸收，
+[Speaker 0]: 就模型会学会像人一样。
+[Speaker 0]: 当我采用这个方法或思路做到这儿瓶颈的，
+[Speaker 0]: 或者说呃怎么怎么样，
+[Speaker 0]: 他会自己采取另外一种思路，
+[Speaker 0]: 或者说或者说自己去反思啊，
+[Speaker 0]: 就像人一样去去反思。
+[Speaker 0]: 当然了，
+[Speaker 0]: 他是不是借助他自己，
+[Speaker 0]: 还是他是去借助一个跟 super 的 agent，
+[Speaker 0]: 还是一个其他领域的子 agent，
+[Speaker 0]: 那都是有可能的。
+[Speaker 0]: 但这个是目前这些框架还没有太太去，
+[Speaker 0]: 其实其实最近一个月已经有一些框架在去关注这些事情了。
+[Speaker 0]: 对，
+[Speaker 0]: 嗯，
+[Speaker 1]: 因为在 open cloud 发了之后，
+[Speaker 1]: 就国内的很多团队都推出了类似的产品，
+[Speaker 1]: 你觉得他们有不同吗？
+[Speaker 1]: 比如说 QQ 团队有，
+[Speaker 1]: 你们团队有嗯 kimi minmini i max 有，
+[Speaker 1]: 他们有什么不一样？
+[Speaker 0]: 我大概只试了一半儿，
+[Speaker 0]: 对，
+[Speaker 0]: 只试了一半。
+[Speaker 0]: 我觉得大同小异，
+[Speaker 0]: 就是嗯就是让对这个大同小异，
+[Speaker 0]: 真的就是让让冯 clow 变成一个内叉子的形态，
+[Speaker 0]: 让你去感受到。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我还没有看到一个，
+[Speaker 0]: 我我自己觉得呃至少在改一阵的框架本身。
+[Speaker 0]: 我觉得你这种产品你至少要去迭代框架本身吧。
+[Speaker 0]: 还没有看到一个比 open core 开源社区进步更快的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 因为 open core 在开源社区进步太快了，
+[Speaker 0]: 然后我还没有看到比这个开源社区进步的更快的。
+[Speaker 0]: 哎，
+[Speaker 0]: 这样一个 a 型的框架或者说产品出现，
+[Speaker 0]: 我还没看到，
+[Speaker 0]: 所以我宁愿用最新的 opphen clo。
+[Speaker 1]: 嗯，
+[Speaker 1]: 你看嗯 ophen cloud 嗯，
+[Speaker 1]: 不久之后就卖给了 ophone i，
+[Speaker 1]: 你觉得是为什么呀？
+[Speaker 1]: 为什么？
+[Speaker 1]: 就是这种非常不错的产品公司，
+[Speaker 1]: 最后还是呃并给了模型公司，
+[Speaker 1]: 这是不是说明没有模型做产品还是比较难的。
+[Speaker 0]: 对我觉得就是就这两个应该是一定要要深度或得一个事情。
+[Speaker 0]: 然后嗯但很好的是 open co，
+[Speaker 0]: 它开源的这个事儿没变。
+[Speaker 0]: 所以你还是可以在这套框架的基础上，
+[Speaker 0]: 呃，
+[Speaker 0]: 大家一块去设计更好的 a 线的架构。
+[Speaker 0]: 所以这个事儿本身没变，
+[Speaker 0]: 嗯，
+[Speaker 0]: 只是说可能做这个事的一部分人的立场变了而已。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 然后这个立场变了，
+[Speaker 0]:  maybe 是好事，
+[Speaker 0]: 有有有可能是坏事。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但但总是它不影响欧婚后本身开源的属性。
+[Speaker 0]: 我觉得就是就至少啊啊我说这种嗯嗯啊群体演变这种嗯可能性和基因火种是保留的那就挺好的。
+[Speaker 0]: 嗯，
+[Speaker 1]: 那我们来接着聊聊模型。
+[Speaker 1]: 上次我们聊天其实是在你们的 VR flash 发了之后，
+[Speaker 1]: 这次已经诱发了三个新模型。
+[Speaker 1]:  pro ommony 和 TTS，
+[Speaker 1]: 呃，
+[Speaker 1]: 并且你把它称之为一次悄无声息的伏击。
+[Speaker 1]: 为什么这么说呀？
+[Speaker 1]: 为什么是悄无声息的？
+[Speaker 1]: 又为什么是伏击？
+[Speaker 0]: 首先它嗯嗯嗯这三个模型它在 AG 的场景下表现提升能力提升这么快，
+[Speaker 0]: 或说我们能这么提升这么快。
+[Speaker 0]: 在复杂的 a 线的架构里边，
+[Speaker 0]: 他表现这么稳定是超我们预期的，
+[Speaker 0]: 就是不是我们嗯计划的非常好的，
+[Speaker 0]: 而是我们一下大家觉醒了，
+[Speaker 0]: 然后就爆发了，
+[Speaker 1]: 你们觉醒了。
+[Speaker 1]: 对，
+[Speaker 0]: 然后就对，
+[Speaker 0]: 是这样一个 context，
+[Speaker 0]: 所以他确实是一个很安静的。
+[Speaker 0]: 我说安静，
+[Speaker 0]: 就是因为嗯外部不知道我们自己内部也是快速发生的一个事情。
+[Speaker 0]: 然后然后第二个就是嗯我们其实在一年前去做这么多模态的时候，
+[Speaker 0]: 其实更多的讲角度还是说呃呃如果真正产生智能，
+[Speaker 0]: 应该这个智能是全方位的多方面的。
+[Speaker 0]: 所以去做了对对多模态的一个理解，
+[Speaker 0]: 以及最终你产生你你智能最终嗯要产生价值，
+[Speaker 0]: 一定是要有交互的，
+[Speaker 0]: 所以要去做语音的生成。
+[Speaker 0]: 对，
+[Speaker 0]: 嗯，
+[Speaker 0]: 但这只是呃但一年前做这些东西的时候，
+[Speaker 0]: 它还不是很明朗。
+[Speaker 0]: 就你还是觉得你还是在做一个单一的模型。
+[Speaker 0]: 你在做一个动态理解模型，
+[Speaker 0]: 你在做一个语音的生成模型。
+[Speaker 0]: 然后你没有觉得这些东西它能够很好的去被呃组织和编排到一起。
+[Speaker 0]: 然后当我看到 open call 的时候，
+[Speaker 0]: 我自己自己就呃一下就想到了这样的一个呃呃画面。
+[Speaker 0]: 就是这些模型在各自在什么样的环节发发挥什么样的环，
+[Speaker 0]: 用他们能够怎么被有效编排，
+[Speaker 0]: 然后以及它会产生一个什么样大的一个生态的价值。
+[Speaker 0]: 一下我觉得就在我的脑子里边就全部给打通了。
+[Speaker 0]: 所以我们快速的让所有方向都要面临到这个范式去去说哦后训练的针对的设计。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是这个原因。
+[Speaker 0]: 所以你现在如果能在 open 库里边同时用这几个模型的话，
+[Speaker 0]: 你会发现把它串起来很好用。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 嗯就很他呃肯肯定比用其他家模型可能好用一些，
+[Speaker 0]: 然后或者说至少这是我们往后迈进的一个目标。
+[Speaker 0]: 呃，
+[Speaker 0]: 那为什么还是后面这三个模型不适合到一个模型里边去？
+[Speaker 0]: 我觉得更多的就是出于对于成本和速度和价格的一个考量。
+[Speaker 0]: 就比如说语音生成，
+[Speaker 0]: 你没有必要去用一个一 crot 的模型，
+[Speaker 0]: 他的实验你也接受不了。
+[Speaker 0]: 对，
+[Speaker 0]: 然后嗯比如说都不太有理解，
+[Speaker 0]: 哎，
+[Speaker 0]: 他是不是值得一个更大的模型。
+[Speaker 0]: 然后嗯那么这个这个事我觉得都是要要要要去打个问号的。
+[Speaker 0]: 然后因为我觉得 AG 的革命啊，
+[Speaker 0]: 就本质上真的是生产力，
+[Speaker 0]: 生产力就必须要足够去在意。
+[Speaker 0]: 最终他端到端的完成率以及哎它的成本效率。
+[Speaker 0]: 对，
+[Speaker 0]: 然后这是现三个模型同步出现的一些一些原因。
+[Speaker 0]: 然后以及嗯我们后面应应该也会有一些计划，
+[Speaker 0]: 怎么让三个模型更好的写作。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 就是你所谓的编排，
+[Speaker 1]: 现在有什么样的一些 no how 吗？
+[Speaker 1]: 怎么样编排是更好编排？
+[Speaker 0]: 嗯，
+[Speaker 0]: 首先你从任务类型来说，
+[Speaker 0]: 比如说你最简单的呃绝大部分的任务类型，
+[Speaker 0]: 你其实是呃可以只用语言模型来做的对。
+[Speaker 0]: 然后哦哦但是嗯在因为因为现在我们嗯完成嗯你整个任务的环节太长了。
+[Speaker 0]: 在某些环境上，
+[Speaker 0]: 如果你意识到你是需要调用你其他像人一样感官能力的时候，
+[Speaker 0]: 然后你就去用另外一个更精巧的模型，
+[Speaker 0]: 然后他来做的更好，
+[Speaker 0]: 类似于这样的。
+[Speaker 0]: 然后而且你而且因为这三个模型是同一个生态性的，
+[Speaker 0]: 所以你能知道啊，
+[Speaker 0]: 另们的八 background 的，
+[Speaker 0]: 您知道我知道知识他是他也是知道的。
+[Speaker 0]: 然后呃所以你能放心的把你觉得他能完成任务交给他做，
+[Speaker 0]: 你不会担心，
+[Speaker 0]: 他不知道你有的背景知识，
+[Speaker 0]: 就这个背景知识是来自于预训练的。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 目前嗯嗯这些三个模型在同一个 a 技能框架里边去释放出来的潜力，
+[Speaker 0]: 跟你去组装其他模型能释放出来的潜力的差距是很微弱的，
+[Speaker 0]: 目前是很微弱的。
+[Speaker 0]: 但我认为未来不会嗯，
+[Speaker 0]: 因为未来他他是一个呃呃效果成本、
+[Speaker 0]: 效率三者的一个成绩。
+[Speaker 0]: 就未来你不会觉得，
+[Speaker 0]: 但是目前你会觉得他是微弱的这三个模型，
+[Speaker 1]: 你们在 bat 什么样？
+[Speaker 1]: 这三个模型的关系是什么样的？
+[Speaker 0]: 就我觉得在 bat 全方面去替代替代人的生活和工作嗯的方方面面，
+[Speaker 0]: 所以你就必须要具备这些能力。
+[Speaker 1]: 你看 pro 我觉得他是在嗯的理解和认知嗯，
+[Speaker 0]: 做更复杂的调度。
+[Speaker 1]:  ommony 是在做感知。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]:  TTS 是在做呃音频声声音的输出，
+[Speaker 1]: 声音的输出，
+[Speaker 1]: 对它是一种表达。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 这三个加起来是一种类人的智能吗？
+[Speaker 0]: 反正他把人有的智能的表象呃输入和输出给建模了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 但是他有没有人的各个感官之间的协同那么好，
+[Speaker 0]: 为什么现在还没有做到？
+[Speaker 0]: 也但这也不纯粹是模型上没有做到，
+[Speaker 0]: 还有就是框架上也没有做到。
+[Speaker 0]: 就比如说现在欧 en 克隆，
+[Speaker 0]: 它对于视频的理解和建模是非常差的。
+[Speaker 0]: 它整套架构，
+[Speaker 0]: 因为为什么呢？
+[Speaker 0]: 因为就是因为开源社区没有一套对音视频联合理解的非常好的开源模型的出现。
+[Speaker 0]: 然后并且这个模型还有取很强的一些能力，
+[Speaker 0]: 就没有这样的模型出现。
+[Speaker 0]: 所以它在框架上的发展是滞后的。
+[Speaker 0]: 所以他现在对视频的理解会回退到去呃一些图理，
+[Speaker 0]: 呃，
+[Speaker 0]: 甚至到最终会回回到理解 capcaption 就回退到一个纯文本的智能水平上。
+[Speaker 0]: 对，
+[Speaker 0]: 所以这也是为什么我要做开源的原因。
+[Speaker 0]: 就是因为只有开源界看到一个呃更强的视频理解的声音，
+[Speaker 0]: 声音生成的呃这样的一些模型过后，
+[Speaker 0]: 它对应的框架才会呃发生改变。
+[Speaker 0]: 对，
+[Speaker 0]: 然后只有这两个，
+[Speaker 0]: 就框架，
+[Speaker 0]: 其实它是一个协调层吧。
+[Speaker 0]: 对，
+[Speaker 0]: 只有只有这个协调这一层，
+[Speaker 0]: 然后以及这个模型这个智能的中枢这一层这两层很好的交融的时候，
+[Speaker 0]: 那么可能才会达到内容的智能。
+[Speaker 0]: 嗯嗯，
+[Speaker 1]: 那我们来围绕着 VR 呃一个一个来聊。
+[Speaker 1]: 虽然 flash 已经过去了一段时间，
+[Speaker 1]: 它是你们去年十二月十六号发布的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 当时做 flash 的时候，
+[Speaker 1]: 你们的核心定位是什么样？
+[Speaker 1]: 呃，
+[Speaker 1]: 这个大被大家认为是你在小米的第一个工作。
+[Speaker 1]: 嗯，
+[Speaker 1]: 第一个作品嗯，
+[Speaker 0]: 其实 flash 跟 pro 基本上是同期训练的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后呃因为他们的模型结构非常近似。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是我们在设计呃 v 二这一系列不管是 vimo v 二、
+[Speaker 0]:  flash 还 pro 的时候，
+[Speaker 0]: 呃，
+[Speaker 0]: 这个模型架构本身有一个非常关键的一个呃目标，
+[Speaker 0]: 就是我们要 for noneless 的效率来设计模型结构嗯。
+[Speaker 1]: 再来当时也呃是有隐隐约约预预感到 AG 的时代呢，
+[Speaker 1]: 看 less 是非常重要的。
+[Speaker 1]: 或者说呃有预感到 nononharless 会产生智能的。
+[Speaker 1]: 但是我们没有没有预想到，
+[Speaker 1]: 后边是是 open en close，
+[Speaker 1]: 就是这种形式哈嗯嗯但是已经预感到 nongliless 一定是一个非常重要的问题。
+[Speaker 1]: 然后那么 loncarless 的效果以及最关键的推理效率，
+[Speaker 1]: 就是你的成本和你的速度要很快，
+[Speaker 1]: 嗯，
+[Speaker 1]: 成成本够速，
+[Speaker 1]: 速度够快。
+[Speaker 1]: 那么就是我们这一代模型结构必须要去追求永恒的命题。
+[Speaker 1]: 因为哎你成本够低速度够快，
+[Speaker 1]: 你有可能可以把一兆做到十兆，
+[Speaker 1]: 甚至一百兆。
+[Speaker 1]: 呃，
+[Speaker 1]: 其实其实现在所有的模型结构它都能训到一百兆。
+[Speaker 1]: 嗯，
+[Speaker 1]: 他那他为啥？
+[Speaker 1]: 不不不，
+[Speaker 1]: 把这个模型嗯嗯提供一百兆的推理，
+[Speaker 1]: 除了效果一般以外，
+[Speaker 1]: 我觉得更多是出于对成本的考量。
+[Speaker 1]: 就一百兆太贵了。
+[Speaker 1]: 就是你你可能到后边一兆过后到一百兆这个范围内，
+[Speaker 1]: 它非常贵，
+[Speaker 1]: 贵到你根本就没不想用它。
+[Speaker 1]: 对，
+[Speaker 1]: 所以所以就是我们当时就围绕着这样的一个核心目标去设计的这个呃就是 hybrirotation 的结构。
+[Speaker 1]: 嗯，
+[Speaker 1]: 当时其实另外一个更主流的选择是用 MA，
+[Speaker 1]: 就包括现在哎，
+[Speaker 1]: 我觉得同期跟我们开始训练的应该是是 JOM 跟 km i kimi i 早一些些 k 二更早一些。
+[Speaker 1]: 然后其实他们都都选择了 MA，
+[Speaker 1]: 就 deep sik。
+[Speaker 1]: 呃，
+[Speaker 1]: 其实 MI 对于恰特的时代来说，
+[Speaker 1]: 确实是一个非常优秀的模型结构。
+[Speaker 1]: 嗯，
+[Speaker 1]: 因为他啊甚至他对于常文来说，
+[Speaker 1]: 也算是一个还不错的模型结构。
+[Speaker 1]: 因为他大量去减少了 KV 开始，
+[Speaker 1]: 然后对常规来说，
+[Speaker 1]: 你的 QQ 开 h 很宝贵。
+[Speaker 1]: 然后嗯嗯但是他有一个呃呃我认为是呃不那么去适合 a 证的呃这个范式的一个呃最根本性的几几个几个要点。
+[Speaker 1]: 嗯，
+[Speaker 1]: 第一个就是嗯嗯他其实是呃呃因为 MA 在设计之初是为了去达到很好的访存跟计算的一个比例。
+[Speaker 1]: 在哎当前的当时的 HH 系列的芯片上，
+[Speaker 1]: 为了呃实现一个更高的一个，
+[Speaker 1]: 就是我既不浪费我的算力，
+[Speaker 1]: 又不浪费我的呃，
+[Speaker 1]: 又要把那个呃访存的瓶颈给打破。
+[Speaker 1]: 所以是在这样一个架构下设计的，
+[Speaker 1]: 然后在这样架构下设计出来的模型架构，
+[Speaker 1]: 它没有任何可发挥的空间。
+[Speaker 1]: 我只可发挥的空间是指呃假设呃我们认为 KV 开始是重要的，
+[Speaker 1]: 并且我认为推理速度也是重要的那我能不能用一些让它推理加速的方式。
+[Speaker 1]: 比如说最简单推表编码，
+[Speaker 1]:  MTP 就是一种方式，
+[Speaker 1]: 然后让它实际上推理的时候加速 n 多倍。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 但是 MA 是不太行的，
+[Speaker 1]: 因为 MA 它已经达到一个呃 l bound 和 mem bound 的一个非常完美的一个临界点。
+[Speaker 1]: 你要是用 MTP 的话，
+[Speaker 1]: 你会发现它又卡在哎那个呃呃呃计算棒的上。
+[Speaker 1]: 所以现在你看所有 MA 的模型结构，
+[Speaker 1]: 然后不管是 GM 也好，
+[Speaker 1]:  kimi 也好，
+[Speaker 1]: 反然他们我我猜测应该都没有上 MTP。
+[Speaker 1]: 因为哎他上了过后，
+[Speaker 1]: 他就被计算棒的，
+[Speaker 1]: 然后计算棒的它就很很不划算，
+[Speaker 1]: 所以它的模型都会慢一些。
+[Speaker 1]: 你会觉得大家对 memo 的呃，
+[Speaker 1]: 我们第一代 flash，
+[Speaker 1]: 哪怕是 pro flash，
+[Speaker 1]:  h 能做到啊一百到一百五 PP。
+[Speaker 1]: 然后 pro o 在我们也能做到到啊，
+[Speaker 1]: 就看成本本看成本。
+[Speaker 1]: 因为为呃呃基本上是能做到六十到一百的对百 TPS 肯定会更贵一些。
+[Speaker 1]: 对，
+[Speaker 1]: 所以呃在这样的，
+[Speaker 1]: 所以大家用 memo 的，
+[Speaker 1]: 不管是用 flash 还是 pro 的一个感觉，
+[Speaker 1]: 就是哇好快。
+[Speaker 1]: 对，
+[Speaker 1]: 然后嗯这这这就是这个结构哦，
+[Speaker 1]: 尤其是针对当时结构的结构带来的一个一个优势。
+[Speaker 1]: 呃，
+[Speaker 1]: 然后然后同时呢嗯它它成本有够低。
+[Speaker 1]: 因为呃呃因为呃 hybrid 的通讯嗯，
+[Speaker 1]: 包括在哎 pro 这一代上，
+[Speaker 1]: 我们给它拉到一个更极致的一个 hybrid 的比例。
+[Speaker 1]: 就它的负二层跟嗯那个 seding window 层的比例会更极致，
+[Speaker 1]: 达到了七比一的一个比例。
+[Speaker 1]: 所以嗯它更省 KVC cash。
+[Speaker 1]: 所以我们基本上是在这一代结构上实现了。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 通过 seding window 腾讯去减少 KVC cash，
+[Speaker 1]: 让他在长稳上效果更呃呃能能够支持更长的长上下文。
+[Speaker 1]: 然后哦哦同是通过 MTP 把 sedy window attention 节省的那个算力，
+[Speaker 1]: 节省的那一些 attention 的算力。
+[Speaker 1]: 然后呃把用 MTP 给它填上，
+[Speaker 1]: 这样子它能达到一个在实际推理的时候哦，
+[Speaker 1]: 呃这个呃呃仿存跟计算了一个很好的一个平衡。
+[Speaker 1]: 然后同时又去兼顾了呃呃场上下文的成本，
+[Speaker 1]: 然后以及它的腿速度。
+[Speaker 1]: 所以这嗯虽然我们设计模型之路没想那么多，
+[Speaker 1]: 但是基本上就完美的非常适合做 a 的 genon。
+[Speaker 1]: 因为 aggendon 对 a jonon 来说，
+[Speaker 1]: 常上行为非常关键。
+[Speaker 1]: 然后很小的 QV casch 也很很关键。
+[Speaker 1]: 因为哎你很小的 QV cash，
+[Speaker 1]: 你能做更多的多节的缓存，
+[Speaker 1]: 缓存命中的话会非常有利于节省你的呃推理的成本。
+[Speaker 1]: 然后嗯呃然后再其次就是呃速度是一个还蛮关键的一个命题。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后你一旦体验到了更快的模型，
+[Speaker 1]: 以及智能水平相当的更快模型，
+[Speaker 1]: 你就回不到那个更慢的模型的水平了。
+[Speaker 1]: 对，
+[Speaker 1]: 是是。
+[Speaker 1]: 所以呃我觉得呃呃米 mov、
+[Speaker 1]: 二 flash 和 pro 大概是这样在在这样一个背景下，
+[Speaker 1]: 我们同期的开始去去进行训练的。
+[Speaker 1]: 嗯，
+[Speaker 2]: 哎放在当时你当时为什么会选择 MTP 了？
+[Speaker 1]:  MTP 的选择还真的是蛮后验的，
+[Speaker 1]: 就是是我们这个模型已经快训到中后期了然。
+[Speaker 1]: 是嗯我们觉得呃我们嗯把这个模型开始为他去设计推理方案了。
+[Speaker 1]: 然后我们在我们自己的那一代的推理卡上去，
+[Speaker 1]: 实际的去设计推理的病情方案的时候，
+[Speaker 1]: 发现他的计算剩余的实在太多太多了。
+[Speaker 1]: 就呃我们没有想到它会剩余这么多多。
+[Speaker 1]: 然后所那你就想的是怎么把这些剩余的啊计算给它有效利用起来，
+[Speaker 1]: 那么 MTP 太适合了。
+[Speaker 1]: 然后但是我们嗯嗯在呃预训练阶段加上 MTP 的原因，
+[Speaker 1]: 然后确实能提升基座的能力。
+[Speaker 1]: 这个我们跟 DBC 的是一样的，
+[Speaker 1]: 就是训练练 MTP，
+[Speaker 1]: 是因为 MTTP 提升它的基座能力。
+[Speaker 1]: 因为那时候为什么只有我们用 MTP 的原因是因为我们的模型结构天当然在计算上有留有大量的富裕。
+[Speaker 1]: 然后这个事儿是我们在后边去设计推理架构的时候，
+[Speaker 1]: 很呃突然有一天悟到的。
+[Speaker 1]: 就当然也不是突然有一天就是你你你去仔细的去算算那个推理的各方面的的一些数字的时候，
+[Speaker 1]: 你就知道。
+[Speaker 1]: 然后你可以也用用，
+[Speaker 1]: 也可以用推荐编码，
+[Speaker 1]: 然后把这些剩余的算力给利用起来。
+[Speaker 1]: 恰好我们又训了 spm GPC 那个恰好用起来了。
+[Speaker 1]: 呃，
+[Speaker 1]: 就其实很自然的一个一个探索的延伸。
+[Speaker 2]: 为什么他还没有这么一个主流？
+[Speaker 1]: 大家太相信 MA 了，
+[Speaker 1]: 我觉得嗯嗯大家太相信 MA 了。
+[Speaker 1]: 就是大家因为 MA 它确实太巧妙了，
+[Speaker 1]: 就它在模型结构上把它能做到的呃全做到极致了。
+[Speaker 1]: 所以在我觉得二五年上半年，
+[Speaker 1]: 如果要去训模型的话，
+[Speaker 1]: 嗯，
+[Speaker 1]: 虚拟一个基座模型的话，
+[Speaker 1]: 那么其实 MI 确实是一个不错选择。
+[Speaker 1]: 尤其是当没有看到那 counles 的价值和 AG 的这个范式的时候，
+[Speaker 1]:  MI 确实是一个非常不错的选择。
+[Speaker 1]: 对，
+[Speaker 2]: 大它未来会成为主流吗？
+[Speaker 1]: 呃，
+[Speaker 1]: 我觉得我我我觉得应该不会还是不会。
+[Speaker 2]: 嗯，
+[Speaker 1]: 呃不不，
+[Speaker 2]:  m 应该不会对我说说 MTMTT。
+[Speaker 1]: 如如果如果就看就看大家大家的下一代模型结构是什么样。
+[Speaker 1]: 就嗯我觉得现在模型结构设计大概有两个趋势，
+[Speaker 1]: 一个就是你真的在预训练阶段，
+[Speaker 1]: 你就想明白你后边推你的场景是什么。
+[Speaker 1]: 比如说你要在什么上的卡，
+[Speaker 1]: 什么上卡去推，
+[Speaker 1]: 然后你要在多场上下文上上去推。
+[Speaker 1]: 你的推理的并行的方式是什么？
+[Speaker 1]: 你可能连这个都要想明白，
+[Speaker 1]: 那么你就可以设计一个针对这个场景和这个推理方式和这个这一款芯片的完美的结构。
+[Speaker 1]: 然后你去训这个结构，
+[Speaker 1]: 那么它的效率成本各方面一定是最优的那就美是在这样的 amcontaxt 情况下被设计出来的。
+[Speaker 1]: 但是但是但是这个这个这个 contest 它是建立在两个前提基础上的一个前提是铺测税是不重要的，
+[Speaker 1]: 或者铺测税的时间是很短的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就你能一个月就把铺测税做完，
+[Speaker 1]: 也大部分时间在做 print train。
+[Speaker 1]: 所以你你你只需要 print train，
+[Speaker 1]: 这这推推理本身就行。
+[Speaker 1]: 然后第二个是你的推力卡，
+[Speaker 1]: 你永远就是用。
+[Speaker 1]: 那么对对对对对，
+[Speaker 1]: 一个两个或就就甚至有那一个就是最好的。
+[Speaker 1]: 对，
+[Speaker 1]: 呃，
+[Speaker 1]: 但这个个儿在当下是在发生了巨大的变化的。
+[Speaker 1]: 因为现在是 poser train 的周期在拉长，
+[Speaker 1]: 你在一代技术上能做的 post train 的上限是远远被激发出来的。
+[Speaker 2]: 啊，
+[Speaker 2]: 这是什么时候发生成就？
+[Speaker 1]: 是 a 进的这个范式带来的哦，
+[Speaker 1]: 对你有一个更更更高效的 context 的。
+[Speaker 1]: 哎，
+[Speaker 1]: 嗯就是其实 connex 越长，
+[Speaker 1]: 它也是产生智能这种方式嘛，
+[Speaker 1]: 就你你你的模型能够被输被输入进更多的 context，
+[Speaker 1]: 理解更多 contest 的时候，
+[Speaker 1]: 那么你的潜力就越高。
+[Speaker 1]: 这个跟原来差的的这个范式是完不一样样，
+[Speaker 1]: 全原原差的范范式的 context 就是人数的人数的就是很短，
+[Speaker 1]: 所以它纯靠这个预训练。
+[Speaker 1]: 但是培训这个范式式它就就是很吃吃射群。
+[Speaker 1]: 嗯，
+[Speaker 1]: 你对框架理解，
+[Speaker 1]: 对对于怎么去呃呃所有多一些的协作，
+[Speaker 1]: 乱七八八糟，
+[Speaker 1]: 也反正反正他他他他你可以理解为是，
+[Speaker 1]: 就是我们在 post tration 上要去投入的算力，
+[Speaker 1]: 嗯，
+[Speaker 1]: 会可能跟顺是相当的。
+[Speaker 1]: 所以你这个时间周期在拉长。
+[Speaker 1]: 那么呃在一个呃呃你比如说你 postposter in 要做半年或一年的场景下，
+[Speaker 1]: 那么你前半年去假定的非常多的东西，
+[Speaker 1]: 它可能是失效的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就你假定要在什么时上卡图，
+[Speaker 1]: 你假定你要在什么场景下啊达到更优的效果，
+[Speaker 1]: 它全是失效的。
+[Speaker 1]: 因为有可能呃当你做了 poster tion，
+[Speaker 1]: 做了半年或一年过果，
+[Speaker 1]: 你会发现那些场景全变了。
+[Speaker 1]: 你可能以前大家觉得一二八 k 又够，
+[Speaker 1]: 但现在大家觉得可能可能过过过过几个。
+[Speaker 1]: 大家觉觉得我需要十兆，
+[Speaker 1]: 十兆上下文就就类似于这样的逻辑。
+[Speaker 1]: 所以所以这样如果如果还是这样去做做做模型结构，
+[Speaker 1]: 他可能会失去一定的灵巧性。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是呢如果说他的这个团队的 post train 的效率足够跟得上，
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 他的认知是能够呃这个 post train 的认知是能够辅助 prtrain 去做呃架构的正确。
+[Speaker 1]: 就是判断的话，
+[Speaker 1]: 那么有可能这种模式还是 work 的，
+[Speaker 1]: 就是它设计一个精细的结构，
+[Speaker 1]: 想清楚推理卡类型，
+[Speaker 1]: 想清楚场景，
+[Speaker 1]: 那么他应该还是 work 的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 然后嗯嗯但还有一种做结构的方式是另外一种就是我在结构上嗯更简洁一些，
+[Speaker 1]: 然后留有更多的富余度来去做后续在不同场景的一个适应和增强。
+[Speaker 1]: 就比如说我觉得的推荐它就是一个更简洁的结构。
+[Speaker 1]: 呃，
+[Speaker 1]: 你可能呃它的简介性体验在你可以靠 MTP 去做哦，
+[Speaker 1]: 去把它的这个算力给它呃啊更充分的利用。
+[Speaker 1]: 对，
+[Speaker 1]: 然后也可以是后边儿你甚至于针对已经训练好的一个 haybrid 结构去增大啊 spa 或 for 的的比例等等。
+[Speaker 1]: 反正就我觉得在这样一个更简洁的呃架构上的时候，
+[Speaker 1]: 其实你 AG 的发挥的空间反而在后续点发挥的风险反而会更大。
+[Speaker 1]: 嗯嗯，
+[Speaker 2]: 成本下降是 MTP 给 next token pretition 带来的优势吗？
+[Speaker 1]: 嗯，
+[Speaker 1]:  MTP 是如果它的命中率非常高的话，
+[Speaker 1]: 那么它是可以带来成本的下降的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 相当于它在呃更短的时间内吐出了更多 token，
+[Speaker 1]: 所以它把 GPU 的利用率打的更高。
+[Speaker 1]: 所以它本质上是在呃降低单 token 的生成的成本。
+[Speaker 2]: 你刚刚说了 MTP 的很多好处啊，
+[Speaker 2]: 那它会相应的带来一些幻觉吗？
+[Speaker 1]: 不会 MTP，
+[Speaker 1]: 它是因为它是会被 verify 的，
+[Speaker 1]: 然后只有你预测的准，
+[Speaker 1]: 我才会采纳你当前 token 的结果，
+[Speaker 1]: 所以它没有任何幻觉。
+[Speaker 1]: 嗯嗯，
+[Speaker 2]: 好，
+[Speaker 2]: 刚才我们重点的是 flflash 上面用的 MTP。
+[Speaker 2]: 那嗯，
+[Speaker 2]: 好的好的，
+[Speaker 2]: 呃，
+[Speaker 2]: 你们还做了一些选择。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就比如说混合注意力机制，
+[Speaker 2]: 你们当时选的是五层滑动窗口和全局助力机制。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 这个呃呃你你们这次其实有变了，
+[Speaker 1]: 应该说是这样子。
+[Speaker 1]: 可能我们的一个大致的嗯大量的实验的一个结论是说，
+[Speaker 1]: 俯卧吞噬它的层数很重要，
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是它的系数比反而可以有空间。
+[Speaker 1]: 就比如说所以所以你在更大的模型上，
+[Speaker 1]: 你的层数更多的时候，
+[Speaker 1]: 你可以保证符尔 tention 的层数总数不变。
+[Speaker 1]: 但是你把你增加更多的 cid window tension 的层就可以了了。
+[Speaker 1]: 就可能层数比这个系数比更重要，
+[Speaker 1]: 或者说在更大的参数的规模，
+[Speaker 1]: 呃，
+[Speaker 1]: 更大的 attention 的 head 的时候，
+[Speaker 1]: 可能我们们也可以到更稀疏疏一个比例。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 应该是这两个结论论的一个统一。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 导我我们可以在更大模型上做更高稀稀疏比，
+[Speaker 1]: 就是 four 跟嗯跟跟 studium 的稀疏比。
+[Speaker 1]: 然后我们最近在做很多 spa 的研究，
+[Speaker 1]: 也是发现更大模型。
+[Speaker 1]: 它能够吃更大的呃 attention 的 specicity 的比例。
+[Speaker 1]: 对，
+[Speaker 1]: 就更大模型你可以更稀疏。
+[Speaker 1]: 然后好呃，
+[Speaker 1]: 但你小的模型你太稀疏了，
+[Speaker 1]: 你就就模型效果就会做 p 的非常严重。
+[Speaker 1]: 对，
+[Speaker 2]: 所以这是一个实验结果，
+[Speaker 2]: 它不会成为一个固定的标准，
+[Speaker 1]: 这是我们的实验结果。
+[Speaker 1]: 然后嗯我不确定其他家是不是也 follow，
+[Speaker 1]: 也也赞同，
+[Speaker 1]: 同样也也会有同样的实验结论。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 2]: 我觉得 flash 还蛮有一点小米早期的风格的，
+[Speaker 2]: 因为就追求极致性价比嘛。
+[Speaker 2]: 嗯，
+[Speaker 2]: 这个是怎么定的呀？
+[Speaker 2]: 然后嗯因为你们当时 API 的定价是输入是百万 token 一点零一美金，
+[Speaker 2]: 然后输出是每百万 token 零点三美金。
+[Speaker 2]: 嗯，
+[Speaker 2]: 在当时看来肯定是最低的价格，
+[Speaker 2]: 最高的速度。
+[Speaker 2]: 你觉得当时是做对了什么？
+[Speaker 2]: 达到这个效果嗯，
+[Speaker 1]: 呃基本上就是把该做的都做了，
+[Speaker 1]: 就是架构有一个能开始很 efficient 的架构，
+[Speaker 1]: 再加上 MTV 可以更加速，
+[Speaker 1]: 再把 infer。
+[Speaker 1]: 我觉得最基础的基建做好啊，
+[Speaker 1]: 基本上这个价格就就能做到。
+[Speaker 1]: 就我觉得在预训练时代，
+[Speaker 1]: 你根据模型的好的好的的是的意的嗯，
+[Speaker 1]: 框架优势来定价嗯，
+[Speaker 1]: 确实是合理的，
+[Speaker 1]: 确实合理的。
+[Speaker 1]: 因为你的框架很强。
+[Speaker 1]: 然后最终嗯人嗯最终使用者是最终用户能感受到，
+[Speaker 1]: 其实纯粹是因为你们的模型很强。
+[Speaker 1]: 所以我就按照你的模型结构的方式来去进行定价，
+[Speaker 1]: 我觉得是合理的。
+[Speaker 1]: 但是当嗯我们进入到后训列的方式，
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后后训练方式是除了这个模型结构本身带来优势以外，
+[Speaker 1]: 你还看你的 context 好不好？
+[Speaker 1]: 以及你这个模型对这个 context 的理解能力好不好？
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 嗯所以嗯我我觉得它定价逻辑应该发生变化，
+[Speaker 1]: 就不应该是根据我最终的这个推理成本来定价，
+[Speaker 1]: 而应该是根据我这个模型的最终产生的价值来进行定价价。
+[Speaker 1]: 那么个个价除除了型本身的啊架构的优势以外，
+[Speaker 1]: 还有就是模型它在后训练上做了足够不好啊，
+[Speaker 1]: 所以他能更好去理解这个理见的框架。
+[Speaker 1]: 对，
+[Speaker 1]: 这也是他的定价的一个溢价的空间在的一个地方。
+[Speaker 1]: 所以我们后边末 mewhere pool 其实抛弃了这样一个定价逻辑。
+[Speaker 2]: 我在你们那个 attack clock 里面看到就是是 flash。
+[Speaker 2]: 你你们是从一始始就想 at reasoning coding 和 agentic 吗？
+[Speaker 0]: 嘘，
+[Speaker 1]: 我觉得做结构的时候只只是 bet 一个点，
+[Speaker 1]: 就是只是 better。
+[Speaker 1]:  nonetheless 一定要做的呃建模效果够好，
+[Speaker 1]: 然后效率够高，
+[Speaker 1]: 推理效率够高，
+[Speaker 1]: 只 beat 这一个点，
+[Speaker 1]: 其他都没有想，
+[Speaker 1]: 我就去训练，
+[Speaker 1]: 我认为不应该太呃，
+[Speaker 1]: 至少我们当时那那时是想不到更多的目标的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我也我也不认为一个价格本身的目标应该太过复杂。
+[Speaker 1]: 因为架构目标太过复杂，
+[Speaker 1]: 就是你的呃你的限制条件太多。
+[Speaker 1]: 那么如果这些限制条件，
+[Speaker 1]: 最后啊不意意思思思，
+[Speaker 0]: 不好意思，
+[Speaker 1]: 你的铺斯税要做很久，
+[Speaker 1]: 做到这些限制条件，
+[Speaker 1]: 它都变成很很伪的限制条件。
+[Speaker 1]: 那你这个结构不就白做了吗？
+[Speaker 1]: 对，
+[Speaker 1]: 所以我们没有对最开始的模型结构给强加更多的目标。
+[Speaker 1]: 我认为加更多目标是不合理的。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]:  fly 是帮你验证的，
+[Speaker 2]: 是吗？
+[Speaker 1]:  flash 帮我们验证了我们整个 infa 数据是没有问题的。
+[Speaker 1]: 但是我们我们并没有说先训 flash，
+[Speaker 1]: 再训 pro 是两个一块训的对，
+[Speaker 2]: 但 flflash 是一个相对小的工作，
+[Speaker 2]: 比较早期嗯，
+[Speaker 1]: 也不着起，
+[Speaker 1]: 我们我们去了就发了。
+[Speaker 1]: 所以你们看到的时候，
+[Speaker 1]: 也就是我们嗯对嗯没没有规划。
+[Speaker 1]: 很早我们基本上大部分的模型训练都是在下半年进行的对嗯，
+[Speaker 2]: 去年的下半年啊，
+[Speaker 2]: 对嗯从 flash 到 pro，
+[Speaker 2]: 你对 pro 的预期是什么样的呀？
+[Speaker 2]: 嗯哦？
+[Speaker 2]: 当然那是同一时间，
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 就是两个模型同步训练。
+[Speaker 1]: 我们相信这一代的架构是没问题的。
+[Speaker 1]: 只是我们在训坡的中组的过程中去解决了非常多的呃，
+[Speaker 1]: 比如说训练数值的不稳定性。
+[Speaker 1]: 对啊，
+[Speaker 1]: 这个是训跟引 t 参数量级的模型，
+[Speaker 1]: 通常会遇到的很 struggle 的问题。
+[Speaker 1]: 对脑脑训练训者，
+[Speaker 1]: 老 spbike 脑训荣训着 OK 呃，
+[Speaker 1]: 某个激活值很大。
+[Speaker 1]: 然后那你要考虑怎么去呃呃或者说某些 expert 呃呃的分布变得很极端，
+[Speaker 1]: 然后嗯像天花板一样，
+[Speaker 1]: 一会儿一批头文打过去，
+[Speaker 1]: 一会儿又一批头文又又又打到另外一个 expert 上，
+[Speaker 1]: 就很危险。
+[Speaker 1]: 其实信号危险会导致训练练出现。
+[Speaker 1]: 嗯，
+[Speaker 1]: 比如说 loss 典型的会出现很多 spike 辅杂会，
+[Speaker 1]: 典型的会导致均衡。
+[Speaker 1]:  x export t 复杂会很不均衡。
+[Speaker 1]: 对，
+[Speaker 1]: 就在熏根大模型上就会花很多时间去解决这样的一个问题。
+[Speaker 1]: 所以看起来是同步训练，
+[Speaker 1]: 但 pro 训练进度就会比 fash 慢一点。
+[Speaker 1]: 因为呃哎哎因为就是你要解决中途这些让你训练不稳定性的要素，
+[Speaker 1]: 数值不稳定只是一个表象而已。
+[Speaker 1]: 对，
+[Speaker 1]: 然后这些要素就会非常锻炼一个团队的英法和算法中，
+[Speaker 1]: 呃，
+[Speaker 1]: 联合 debug 的能力是不至。
+[Speaker 1]: 有时候你怀疑到是不是哪个卡有问题，
+[Speaker 1]: 就是最后如果发现所有的卡都排查了没有问题，
+[Speaker 1]: 你会怀疑是不是今天的太阳黑子报复。
+[Speaker 1]: 就你为什么怀疑到一些很玄学的问题上？
+[Speaker 1]: 因嗯就你要从从很表层，
+[Speaker 1]: 然后查到很底层的因素。
+[Speaker 2]: 对你刚才也提到，
+[Speaker 2]:  ET 的模型可能是未来竞争的一个入场圈，
+[Speaker 2]: 是这样吗？
+[Speaker 1]: 是 agent 的，
+[Speaker 1]: 你要做到接近 cloud 四点六 os 的水平的这样一个入场券。
+[Speaker 2]: 你当时立项的时候还没有这个模型，
+[Speaker 2]: 对吧？
+[Speaker 2]: 为什么你当时就已经觉得一定要是一 t 的？
+[Speaker 1]: 嗯，
+[Speaker 1]: 也就首先我训过 DCCV 三这么大小六百多六百多七百 b 的模型，
+[Speaker 1]: 你不会再想去训一个同样的模型。
+[Speaker 1]: 对，
+[Speaker 1]: 就肯定还是继续往下一步是给你嘛。
+[Speaker 1]: 所以 ET 是一个呃在我们当时已有的卡的训已有的卡的数量情况下的一个比较极限的一个区间。
+[Speaker 1]: 对，
+[Speaker 2]: 嗯，
+[Speaker 1]: 是多少卡几千卡，
+[Speaker 1]: 反正训这个模型是几千卡。
+[Speaker 1]: 但实际上我们要投入大量的卡去做研究。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以其实实际上的研究的卡会是实际训练卡的几倍训练。
+[Speaker 1]: 比如说呃 memva pro 和 flash，
+[Speaker 1]: 其实呃各自训练可能几千卡就够了。
+[Speaker 1]: 呃，
+[Speaker 1]: 但实际上你去投入做模型研究的卡会是这个卡的很多倍。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我觉得三到五倍是一个更好的区间。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是不管是你前期的结构的研究，
+[Speaker 1]: 然后呃中后期的 post trin 的很多算法上研究啊，
+[Speaker 1]: 所以不是说我们拥有几箱卡就足以去做这个事情。
+[Speaker 1]: 而是说呃至少我觉得在卡的资源和储备上，
+[Speaker 1]: 嗯，
+[Speaker 1]: 目前来看，
+[Speaker 1]: 嗯，
+[Speaker 1]: 尤其在 a 型的范式下，
+[Speaker 1]: 呃，
+[Speaker 1]: 其实卡的数量反而变成一个非常重要的一个瓶颈。
+[Speaker 1]: 因为 idea 的诞生和这个呃动手，
+[Speaker 1]: 呃，
+[Speaker 1]: 你把它代码写出来太快了，
+[Speaker 1]: 然后你现在卡在什么呢？
+[Speaker 1]: 卡在卡上，
+[Speaker 1]: 就因为因为你那个 GPU 它它它的效率就在那。
+[Speaker 1]: 所以你要为了去验证个 idea，
+[Speaker 1]: 你去跑实验，
+[Speaker 1]: 然后你要并行的起很多实验，
+[Speaker 1]: 所以就卡在卡的瓶颈上。
+[Speaker 1]: 所以现要反而变成一个更更更关键的一个制约项。
+[Speaker 1]: 当然还这只只是说训练，
+[Speaker 1]: 那说推理的话卡更是一个更关键因素。
+[Speaker 1]: 对，
+[Speaker 1]: 就推理卡的需求量，
+[Speaker 1]: 语言比训练会更高很多。
+[Speaker 1]: 嗯，
+[Speaker 2]: 训练推理呃，
+[Speaker 2]: 和实验，
+[Speaker 2]: 这个最好是记笔记嗯，
+[Speaker 1]: 推理看看看用户数对或或者说是看高价值场景消耗的头很熟。
+[Speaker 1]: 所以这个很多场景因人而异，
+[Speaker 1]: 对没对，
+[Speaker 1]: 所以就把推给嗯摘开看。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那我如果说我们嗯这样子来说，
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是 for 研究跟 for print train 和 for poster traree。
+[Speaker 1]: 对嗯自己己觉得一个非常理理的卡的一个比例是可能三比一比。
+[Speaker 1]: 对对嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 就 printrain post try 应该比例是投入的，
+[Speaker 1]: 算力是相当的。
+[Speaker 1]: 然后究的比例应该至少是你正式起训练的卡总量的还要多一点。
+[Speaker 1]: 就你要额外留更多的卡来去做研究啊，
+[Speaker 2]: 过去的预训练和后训练的比例是多少？
+[Speaker 1]: 嗯，
+[Speaker 1]: 至少在恰的时代应该是一个非常夸张的。
+[Speaker 1]: 比如说三三比一五比一对预训练跟后训练一个比例。
+[Speaker 2]: 嗯，
+[Speaker 2]: 好，
+[Speaker 2]: 这是今年一可能会发生的一个很大的变化。
+[Speaker 1]: 应该有很多团队都是一比一的。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 顶尖的团队应该都是一比一。
+[Speaker 1]: 嗯嗯，
+[Speaker 2]: 训练一个一 t 的模型挑战是什么？
+[Speaker 1]: 我觉得全方位的挑战吧，
+[Speaker 1]: 基本上是全方位的挑战就是回来了。
+[Speaker 1]: 数据上其实嗯反而不是非常大的一个挑战的原因是嗯更大模型貌貌似对于更脏的数据的容忍程度更高。
+[Speaker 1]: 嗯，
+[Speaker 1]: 呃但是但是我我我我不确定对我不确定，
+[Speaker 1]: 因为我们是同一批数据训的，
+[Speaker 1]: 所以我不确定我只是说貌似嗯嗯然后应该更主要挑战是你在遇到遇在训练的历程当中遇到问题的时候，
+[Speaker 1]: 你怎么去去我觉得第一步是你要发现问题。
+[Speaker 1]: 对，
+[Speaker 1]: 就比如说很多团队会把 lost bike 当做一个很正常的事情，
+[Speaker 1]: 但是我们可能会尽量的让他没有 lost bike。
+[Speaker 1]: 对，
+[Speaker 1]: 我们认为有 loss bag 肯定会导致某一步的更新，
+[Speaker 1]: 嗯，
+[Speaker 1]: 特别的不稳定，
+[Speaker 1]: 某些数值就异常值很大，
+[Speaker 1]: 就直接把某些参数或者说某些 expert 给他给他打死，
+[Speaker 1]: 就是打死就是参数更新过后，
+[Speaker 1]: 后面再也不会有 x bot 送到了，
+[Speaker 1]: 呃，
+[Speaker 1]: 再不会有 token 送到 x pert 上。
+[Speaker 1]: 所以那你中间就有需要很严密的监控的系统，
+[Speaker 1]: 就是你要去洞察这个模型参数内部到底发生了什么样的变化。
+[Speaker 1]: 你需要一套这样的一个监控系统。
+[Speaker 1]: 比如说你至少要去看看 x pert 的负怎怎么样。
+[Speaker 1]: 实刚看每一层参数的输入和输出是怎么样？
+[Speaker 1]: 它激活值有没有变得很异常。
+[Speaker 1]: 这些东西是嗯 north back 发生过后，
+[Speaker 1]: 你应该去看的事情，
+[Speaker 1]: 但是可能不是所有团队都会去看这么细，
+[Speaker 1]: 这是我说的第一步要发现问题。
+[Speaker 1]: 对，
+[Speaker 1]: 可能好多人就不把它当做一个问题吧。
+[Speaker 1]: 然后呃发现问题过后，
+[Speaker 1]: 你再去想 ok 它到底是什么样的原因呃，
+[Speaker 1]: 引引导这样的问题的。
+[Speaker 1]: 比如说有可能是呃系数比太高了，
+[Speaker 1]: 导致比如说负二层输出跟三 in 的层的输出是呃至少数值上的差异是非常大的。
+[Speaker 1]: 那么技术上的很大的差异就会导致一些数值不稳定，
+[Speaker 1]: 有可能是结构的原因，
+[Speaker 1]: 有可能是结构的原因，
+[Speaker 1]: 也有可能纯粹就是 infer bug。
+[Speaker 1]: 比如说你哪通信的某个算子写错了，
+[Speaker 1]: 哎，
+[Speaker 1]: 我们最后发现有甚至有可能就是某个呃 loan 上反正有有点问题。
+[Speaker 1]: 你可能可能最后实在无奈的一个解决方式，
+[Speaker 1]: 是你发现这一层的数值太大，
+[Speaker 1]: 你就给他，
+[Speaker 1]: 要么就给它 clip 掉，
+[Speaker 1]: 要么就给通过 loan 给它压下去。
+[Speaker 1]: 还有就是他有非常多解决方案，
+[Speaker 1]: 比如说通过 low 我们压下去，
+[Speaker 1]: 他肯定是我我认为肯定是会对模型效果有损的啊，
+[Speaker 1]: 不掉是一种方式。
+[Speaker 1]: 比如说啊我们也会借鉴 clikimi 的 QK clip 的方式。
+[Speaker 1]: 那 QK 的某些 lochest 非常大的时候，
+[Speaker 1]: 他实在影响模型的训练，
+[Speaker 1]: 稳定的你你没办法，
+[Speaker 1]: 只能把它不掉，
+[Speaker 1]: 这样至少能让训练更好进行下去，
+[Speaker 1]: 进行到一个稳态的时候，
+[Speaker 1]: 你再给他放开。
+[Speaker 1]: 那对类似于就有太多的这种临时的，
+[Speaker 1]: 你要去发现问题，
+[Speaker 1]: 解决问题，
+[Speaker 1]: 甚至去倒推很多。
+[Speaker 1]: 我可能会产生嗯导致这个问题的一个一个一个分析的一个路径。
+[Speaker 1]: 啊，
+[Speaker 1]: 这些路径其实是非常考验一个团队的跨团队。
+[Speaker 1]: 其其实如果是在一个很大的公司，
+[Speaker 1]: 他就是跨团队协作，
+[Speaker 1]: 那么但这个协作效率是极低的。
+[Speaker 1]: 然后如果是在一个很小的团队，
+[Speaker 1]: 一个创业性的团队，
+[Speaker 1]: 那么他就是考验这个环节上的关键几个人的配合程度，
+[Speaker 1]: 那么他就会更高效一些。
+[Speaker 1]: 然后以及如果这个环境上的每个人都足够的啊嗯追求极致，
+[Speaker 1]: 就是追求极致，
+[Speaker 1]: 他就不不能容忍你这儿突然这么干，
+[Speaker 1]: 那我们就必须停下时间来找问题。
+[Speaker 1]: 嗯嗯，
+[Speaker 2]: 你们属于哪一边？
+[Speaker 1]: 我们肯定是属于小团队非常急时的类型，
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以就会导致啊啊那么这样训练周期会被拉长。
+[Speaker 1]: 因为训练周期他肯定不不会一两个月就把它训完。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那么训练周期拉长的情况下，
+[Speaker 1]: 如果说有一个非常明确的一个 deadline 目标啊什么的，
+[Speaker 1]: 那你肯定就承受不了这事的。
+[Speaker 1]: 因因为比如说霸气显卡，
+[Speaker 1]: 你停一天肯定就是一两百万两三百万的事儿。
+[Speaker 1]: 对，
+[Speaker 1]: 那么你怎么去承担这样的一个损失？
+[Speaker 1]: 如果是在一个嗯目标驱动的一个团队，
+[Speaker 1]: 可能会觉得停个呃两两三周去排一个问题，
+[Speaker 1]: 这个问题还不知道是不是个问题，
+[Speaker 1]: 会不会对模模型这种训练产生影响啊，
+[Speaker 1]: 嗯可能是一个不太能接受的事情。
+[Speaker 1]: 但是在我们这儿，
+[Speaker 1]: 我们认为它就是一个问题，
+[Speaker 1]: 我们就应该去解决它。
+[Speaker 1]: 因为我们没有那么清晰的一个说我要发布的一个目标，
+[Speaker 1]: 你们没有带来，
+[Speaker 1]: 我没有没有带来。
+[Speaker 1]: 就我们觉得模型训好了，
+[Speaker 1]: 我们再发。
+[Speaker 2]: 对没有公司来的压力吗？
+[Speaker 1]: 没有没有，
+[Speaker 2]: 你们确实不是一个创业公司，
+[Speaker 2]: 对吧？
+[Speaker 2]: 不也不是一个创业团队，
+[Speaker 1]: 但实际上它就是个创业团队。
+[Speaker 1]: 我觉呃 mmmo 和还有包括米克的能做成，
+[Speaker 1]: 其实都是以创业的方式在运作的，
+[Speaker 2]: 所以他才能做成嗯训一个 ET 的模型对你的管理难度是不是指数性，
+[Speaker 2]: 指数性的上升？
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 嗯不用没有管理团队的难度是一样的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 呃这应该说不不太存在管理，
+[Speaker 1]: 因为大家一块去解决问题就好了。
+[Speaker 1]: 对，
+[Speaker 1]: 就是你不需要去管理这几个人，
+[Speaker 1]: 就大家我们一一起来解决这个问题。
+[Speaker 1]: 然后每个人都有自己不同解决问题的思路，
+[Speaker 1]: 对，
+[Speaker 1]: 然后一起来解决问题。
+[Speaker 1]: 然后反而是这种解决问题的这种以身示范能力，
+[Speaker 1]: 是一个非常好的文化和导向。
+[Speaker 1]: 嗯，
+[Speaker 2]: 训一 t 模型是多大团队？
+[Speaker 1]: 不是很小的。
+[Speaker 1]: 我我只说训练这个事儿本身，
+[Speaker 1]: 但你做数据还需要几？
+[Speaker 1]: 那么几个人也是几个人，
+[Speaker 1]: 嗯，
+[Speaker 1]: 对几个人还需要什么吗？
+[Speaker 1]: 那可能还还需要一个非常好的基建的团队，
+[Speaker 1]: 就是你肯定就会把嗯把卡给及时给搭起来。
+[Speaker 1]: 嗯，
+[Speaker 1]: 这个英付团团嘛，
+[Speaker 1]: 嗯这不是付尔团，
+[Speaker 1]: 这就是基础设施团队。
+[Speaker 1]: 嗯，
+[Speaker 1]: 这个团队可能需要有那么一点需要有有经验的人，
+[Speaker 1]: 因为没有经验人，
+[Speaker 1]: 他哪会出一些低级的问题。
+[Speaker 1]: 对，
+[Speaker 1]: 是一些基础的运维设施的经验。
+[Speaker 2]: 那你们的诀窍是啥啊？
+[Speaker 2]: 哦，
+[Speaker 1]: 我本身我也没有觉得他是需要一个非常大的团队协作的事情。
+[Speaker 1]: 我觉得团队协作，
+[Speaker 1]: 但有有有有优势。
+[Speaker 1]: 就比如说呃大家在卡资源巨量的情况下，
+[Speaker 1]: 可以并行的去探索。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对做研究来说是有优势的。
+[Speaker 1]: 但是我并不认为他对呃我刚刚说的那种场景，
+[Speaker 1]: 发现我发现一个我可能是问题的问题，
+[Speaker 1]: 然后去深入排查原因，
+[Speaker 1]: 去解决它。
+[Speaker 1]: 我并不认为他对这种模型训练进程中遇到的问题是是很大，
+[Speaker 1]: 团队是优势反而很大，
+[Speaker 1]: 团队有可能是劣势。
+[Speaker 1]: 嗯嗯，
+[Speaker 2]: 训这个模型过程中，
+[Speaker 2]: 你们团队状态是什么样的？
+[Speaker 1]: 团队状态是嗯原来做数学的那一做一训练数据的那一群人就去做后训练的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后嗯做尔做训练框架，
+[Speaker 1]: 嗯，
+[Speaker 1]: 做推理，
+[Speaker 1]: 法尔人一块来去解决训练过程当中的问题嗯，
+[Speaker 2]: 那这是为什么？
+[Speaker 1]: 这是为什么？
+[Speaker 2]: 为什么这个变化，
+[Speaker 2]: 这是为什么？
+[Speaker 2]: 预训练的人要去做后训练很多样的原因哈。
+[Speaker 1]: 嗯，
+[Speaker 1]: 首先后训练的一大部分的原因是你需要有很好的数据持续，
+[Speaker 1]: 这是还这还是蛮重要的。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 其次就是嗯其实它是基于个人爱好兴趣产生的，
+[Speaker 1]: 对它不不太是基于基于你说哦，
+[Speaker 2]: 我们这里需要人，
+[Speaker 2]: 你转一下，
+[Speaker 1]: 不是大部分是大家自然而然发生的。
+[Speaker 1]: 但是我我确实能够预料到哪些人会做这样的一种迁移。
+[Speaker 1]: 因为有很多能力特征上是很共共性的。
+[Speaker 1]: 就比如说对数据的直觉，
+[Speaker 1]: 比如说会从模型效果去去倒推一些算法的设计。
+[Speaker 1]: 其实做数据好多时候也是在干这个事儿。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以嗯可能我觉得主要原因是我们对人的界定没有那么清晰。
+[Speaker 1]: 然后所以大部分人他会自然随着训练阶段的变化，
+[Speaker 1]: 自自由的去选择下一个阶段，
+[Speaker 1]: 嗯，
+[Speaker 1]: 更有想象空间的事情。
+[Speaker 2]: 对，
+[Speaker 2]: 你们现在是一百人吗？
+[Speaker 2]: 五次上次聊嗯嗯，
+[Speaker 1]: 现在已经到一百人。
+[Speaker 1]: 但是这一百人是包含嗯就是嗯嗯所有链路上的人，
+[Speaker 1]: 就所有链路包，
+[Speaker 1]: 比如说数据采集嗯，
+[Speaker 1]: 数据质量，
+[Speaker 1]: 让 print train 的 infer，
+[Speaker 1]:  post train，
+[Speaker 1]: 然后包含甚至我们的开发。
+[Speaker 1]: 我们需我们需要有一些开发，
+[Speaker 1]: 还有包含我们的产品，
+[Speaker 1]: 包含我们的数据。
+[Speaker 1]: 白下生还还有包含三个方向上的算法工程师。
+[Speaker 1]: 就是呃大致你可以发上就是呃语言动态和语音。
+[Speaker 1]: 对，
+[Speaker 1]: 呃，
+[Speaker 1]: 然后这里边一百个人里边实习生的比例是很高的。
+[Speaker 1]: 然后有有部分实习生可能是在做一些更当下不会立马反映到这一代模型结构上的事呃模模型能力上的事情。
+[Speaker 1]: 所以其实真正投入到一代模型里面去迭代人我觉得是很少的，
+[Speaker 1]: 可能可能所有链路上加起来也就二三十个人。
+[Speaker 1]: 三四十个人。
+[Speaker 1]: 对，
+[Speaker 1]: 最多也就这么多人，
+[Speaker 1]: 二三十个人，
+[Speaker 1]: 二三十人比较均匀。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 2]: 这里没有组不同的组的划分吗？
+[Speaker 1]: 啊，
+[Speaker 1]: 没有呃没有组没有组的，
+[Speaker 2]: 所以你一对一百呃，
+[Speaker 1]: 差不多是为什么没有组的划分？
+[Speaker 2]: 比如说为什么不分预训练组，
+[Speaker 2]: 不分后训练组？
+[Speaker 1]: 因因因为很多很多人他会对两个方向都感兴趣。
+[Speaker 1]: 嗯，
+[Speaker 1]: 如果你组划分的非常的清晰和和固定的话，
+[Speaker 1]: 那么其实是在扼杀一部分人的创造力。
+[Speaker 1]: 对嗯，
+[Speaker 1]: 或说扼杀他未来的成长空间。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 第二个就是嗯我确实也不认为做后训练的人，
+[Speaker 1]: 嗯，
+[Speaker 1]: 如果说做后训练线的一个一个很重要的一个范射变化，
+[Speaker 1]: 变化是他需要具备 diversity。
+[Speaker 1]: 这个事业很多，
+[Speaker 1]: 做后训练的人，
+[Speaker 1]: 他是怼着一个场景去做，
+[Speaker 1]: 他没有这种多样性的视野。
+[Speaker 1]: 但是做预训练的人，
+[Speaker 1]: 第一应该关注的事情是多样性。
+[Speaker 1]: 因为他不能往这个模型里边是 c 一小部分数据，
+[Speaker 1]: 他有 c 多样性更好的数据。
+[Speaker 1]: 所以其实做预训练的人做后训练有非常大的优势，
+[Speaker 1]: 就是他会天然跟事乎多样样性。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后是是就他他就是个很好的补充嘛，
+[Speaker 1]: 他就是个很好的补充。
+[Speaker 1]: 当然也有人他一直直做后训练，
+[Speaker 1]: 他就比如说他只研究强化学液，
+[Speaker 1]: 他所以他一直做后训练，
+[Speaker 1]: 他或者说降低的吹嘛。
+[Speaker 1]: 对，
+[Speaker 1]: 就另外就是有一就至少我们不要在组织结构上去给某些按按场景来把某些人的这个我认为是创造力给他扼杀在这个场景里边，
+[Speaker 1]: 那就很奇奇。
+[Speaker 1]: 我们再我来看。
+[Speaker 2]: 对，
+[Speaker 2]: 没有组，
+[Speaker 1]: 也就没有 leader 一看嗯有有推动实际这个项目往前运作的人。
+[Speaker 1]: 对，
+[Speaker 1]: 就哦但是他都成模糊的。
+[Speaker 1]: 就比如说可能这个项目要往前走，
+[Speaker 1]: 比如说我们要去 membval pro 的预训练啊，
+[Speaker 1]: 或者说后训练，
+[Speaker 1]: 可能又实际往前去推动的人。
+[Speaker 1]: 但这个人他并不对参与这个项目，
+[Speaker 1]: 人有绝对的控制权。
+[Speaker 2]: 对，
+[Speaker 2]: 就是没有职级，
+[Speaker 2]: 对吗？
+[Speaker 2]: 对，
+[Speaker 1]: 你可以这么认为。
+[Speaker 2]: 但是小米本身是有职级的，
+[Speaker 1]: 本来我们这个团队的整个的组织结构就是完全结合的。
+[Speaker 1]: 嗯，
+[Speaker 2]: 没有执级，
+[Speaker 2]: 你觉得对于做 AI 很重要是吧？
+[Speaker 2]: 做大模型没有职级没有组，
+[Speaker 2]: 这对这个对于智能有限本身的意义是什么？
+[Speaker 1]: 我觉得平权本身是有价值的，
+[Speaker 1]: 就是就是平权本身是有利于所有人去平等的，
+[Speaker 1]: 贡献自自己的呃创造力和智慧。
+[Speaker 1]: 我觉得是有价值的对嗯，
+[Speaker 1]: 任何层级应该一定程度上都是在在规范和约束，
+[Speaker 1]: 然后规范和约束本身我自己认为是压制创造力的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后以及有层级过后，
+[Speaker 1]: 他就默认这个呃层级上的人应该嗯有哦更强的超越所有人的一个智能。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 这个很奇怪，
+[Speaker 1]: 这个界定非常奇怪。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我我觉得不太会存在有对，
+[Speaker 1]: 所以反而更扁平。
+[Speaker 1]: 然后尤其是对于最重要的那个 leader 人，
+[Speaker 1]: 他不要有特别强的这种掌控感，
+[Speaker 1]: 然后以及这种觉得没了我就不行啊。
+[Speaker 1]: 这种呃我觉得如果有一一旦有这样的一个想法，
+[Speaker 1]: 反而不是很有利于一个创新团队的发生。
+[Speaker 2]: 那咱虽然你说没有管理啊，
+[Speaker 2]: 但实际上怎么管理呢？
+[Speaker 2]: 啊，
+[Speaker 1]: 嗯靠热爱驱动管理，
+[Speaker 1]: 我觉得这个很重要的，
+[Speaker 1]: 我我自己发现是最行之有效的方式。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对嗯，
+[Speaker 1]: 就啊去去选择，
+[Speaker 1]: 激发大家的热情。
+[Speaker 1]: 然后嗯让大家围绕着自己愿意信仰的事情去自驱做事儿。
+[Speaker 1]: 我觉得这这是我一直比较坚信的最有效的管理方式。
+[Speaker 2]: 你有什么驱动热情的方法，
+[Speaker 1]: 嗯，
+[Speaker 1]: 让大家啊认识到一个新的事情，
+[Speaker 1]: 让大家去体验，
+[Speaker 1]: 其实是驱动他热情非常重要的方式。
+[Speaker 2]: 比如说 open call，
+[Speaker 2]: 这是一种体验方式。
+[Speaker 2]: 你看起来用了一个非常极端说哦，
+[Speaker 2]: 你不用你，
+[Speaker 2]: 你没有一百轮的对话，
+[Speaker 2]: 你明天就辞职。
+[Speaker 2]: 这是一个非常极端的方式，
+[Speaker 2]: 但是你的目的是体验是吗？
+[Speaker 1]: 对我也不会最重去考核，
+[Speaker 1]: 我第二天也不会去考核。
+[Speaker 1]: 大家说 OK 你真的有没有用？
+[Speaker 1]: 因为我我觉得那不关键。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后我我只在乎你有没有真的去用这个动作，
+[Speaker 1]: 是不是真的达到一百轮，
+[Speaker 1]: 那只是一个量词而已。
+[Speaker 2]: 所以你还有什么用热爱驱动大家的方法体验。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就其实筛选人的时候也很关键，
+[Speaker 1]: 就是嗯很多人你可以从他过往经历看出来，
+[Speaker 1]: 他到底是在围绕着什么样的目标在做事情。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 就靠热爱驱动，
+[Speaker 1]: 做事情的人的特质会非常的啊嗯 special。
+[Speaker 1]: 对，
+[Speaker 1]: 就你跟他聊天过程中应该就能感受出来。
+[Speaker 1]: 哎，
+[Speaker 1]: 就有的人他会为了很多奇怪目标做事情，
+[Speaker 1]: 但为了热爱驱动，
+[Speaker 1]: 做事情的人是非常明显的。
+[Speaker 2]: 嗯，
+[Speaker 2]: 怎么明显？
+[Speaker 1]: 我没有办法，
+[Speaker 1]: 就是有很多量化指标。
+[Speaker 1]: 但是我我去跟他聊天，
+[Speaker 2]: 我能直接感受到就是能算算对你们在这个 ET 的模型的训练有失败吗？
+[Speaker 2]: 还是一次就成功了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 这是呃就是看怎么定失败。
+[Speaker 1]: 就比如说你你训训到呃 ss 直直飘飘了，
+[Speaker 1]: 这种那那那那应该中团是发生过那么几次的，
+[Speaker 1]: 基本上几次我现在都不知道几次了，
+[Speaker 1]: 反正两三次总是有的。
+[Speaker 1]: 对，
+[Speaker 1]: 就弄死，
+[Speaker 1]: 直接飞了。
+[Speaker 1]: 然后呃但是他训呃，
+[Speaker 1]: 比如说呃呃训那个几百步又回来了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那你说这种情况，
+[Speaker 1]: 你是应该停下来解决，
+[Speaker 1]: 还是应该继续往前训呢？
+[Speaker 1]: 解决，
+[Speaker 1]: 我们认为是应该要解决，
+[Speaker 1]: 就应该停下来解决这个问题。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 他他其实呃就这样掐上去啊，
+[Speaker 1]: 几管不维护。
+[Speaker 1]: 然后因为这样下来了，
+[Speaker 1]: 就这嗯我们认为应该停下来解决，
+[Speaker 1]: 所以就会停下来去解决。
+[Speaker 1]: 他，
+[Speaker 1]: 让他诺死更平稳的度过。
+[Speaker 2]: 那一般会停下来几天，
+[Speaker 1]: 这就不好说了，
+[Speaker 1]: 就几天也有可能一两周都有可能。
+[Speaker 1]: 最长的时候有两周，
+[Speaker 2]: 我停两周焦虑吗？
+[Speaker 1]: 不焦虑，
+[Speaker 1]: 因为我没有没有什么目标。
+[Speaker 1]: 哎，
+[Speaker 1]: 当然了，
+[Speaker 1]: 你那么多卡，
+[Speaker 1]: 你天天嗯做一堆实验。
+[Speaker 1]: 嗯，
+[Speaker 1]: 今天我想着这么去排查队，
+[Speaker 1]: 哎，
+[Speaker 1]: 感觉是这个原因了，
+[Speaker 1]: 快改改了又跑，
+[Speaker 1]: 而且第二天看又这样子，
+[Speaker 1]: 或者说中晚上楠楠，
+[Speaker 1]: 反正晚上都睡不好。
+[Speaker 1]: 然后我我经常晚上周末说，
+[Speaker 1]: 嗯，
+[Speaker 1]: 为什么老是又是 like 我烂几天晚上脑筋？
+[Speaker 1]: 你说呃那就这种我就其实虽然我们没有明确的时间节点，
+[Speaker 1]: 但是你还是会崩溃嘛，
+[Speaker 1]: 所以所以还是有很多很沮丧的瞬间的。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 但是虽然没有明确的节点，
+[Speaker 2]: 但是卡呃就是它是有限的，
+[Speaker 2]: 对不对？
+[Speaker 1]: 对你会觉得你可能能浪费了算力资源，
+[Speaker 1]: 在做一些无用的实验，
+[Speaker 1]: 就是有有这样的呃也自自我的批判。
+[Speaker 2]: 觉得嗯嗯嗯对所以参数量能决定智力的上限吗？
+[Speaker 2]: 就是越大的模型。
+[Speaker 1]: 我现我现在嗯觉得是参数量加上 context 本身。
+[Speaker 1]: 对，
+[Speaker 1]: 就这两个是共同决定的，
+[Speaker 1]: 是但但至少要达到当代大家觉得最强的 a 线能书水平，
+[Speaker 1]: 我觉得一定要 ET 以上的参数规模才能做到。
+[Speaker 1]: 对对对对对，
+[Speaker 1]: 才能让他觉得你已经非常接近于四点六 office 这样式。
+[Speaker 1]: 但我不知道他多大，
+[Speaker 1]: 我只是觉得我自己认为至少要一 t 以上才能做到总餐一 t 以上。
+[Speaker 1]: 当然更激活的呃更关键的还是激活参数。
+[Speaker 1]: 对，
+[Speaker 1]: 所以但激活参数越大。
+[Speaker 1]: 比如说你你总参都是一 t 你激活参数越大就意味着更高的推理成本。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 所以他就是一个 trade off 嘛。
+[Speaker 1]: 嗯，
+[Speaker 2]: 为什么从五比一提升到了七比一，
+[Speaker 2]: 就是混合注意力极致？
+[Speaker 2]: 嗯，
+[Speaker 1]: 我觉得我们追求一个更极致的一个稀疏比，
+[Speaker 1]: 就是 full 跟 spa 呃，
+[Speaker 1]:  for 跟 steaddy window 的一个稀疏比。
+[Speaker 1]: 最主要一个原因还是我们希望在更更大的架构里边去做更嗯更高效的 noncountaes。
+[Speaker 1]: 对，
+[Speaker 1]: 因为跟大架构，
+[Speaker 1]: 如果你的复尔 tention 的层数变多了，
+[Speaker 1]: 如果你的总餐嗯变多，
+[Speaker 1]: 你的负荷吞行的层数也随之变多。
+[Speaker 1]: 那么其实在长虹的情况下，
+[Speaker 1]: 它同样会变得非常的崩溃。
+[Speaker 1]: 因为你的负尔吞弦的层数变多了。
+[Speaker 1]: 但如果你扩大参数量的时候，
+[Speaker 1]: 你的负尔吞弦的层数没有变。
+[Speaker 1]: 那么有可能有可能嗯你你的长文 pro 跟 flash 两代模型是效率是差不多的，
+[Speaker 1]: 但是它的 pro 的智能水平是提升了的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以我们希望在一个长文的效率相当的情况下，
+[Speaker 1]: 我们希望它模型在 skining 它的它的水平的上限。
+[Speaker 1]: 所以我们是比较去控制住这个效率本身的。
+[Speaker 1]: 但控制住效率本身，
+[Speaker 1]: 后面在 a 的的时代有一个更更有价值的一个事情。
+[Speaker 1]: 就是但那既然这个更大模型，
+[Speaker 1]: 它的常温效率很高，
+[Speaker 1]: 对吧？
+[Speaker 1]: 哈那我就可以塞更多的上下文，
+[Speaker 1]: 然后后就就又更强对。
+[Speaker 1]: 所以大概就是嗯一个这样的一个一个决策的一个背景。
+[Speaker 2]: 对于这个 ET 的某基座，
+[Speaker 2]: 你们的几个决策，
+[Speaker 2]: 第一个是混合助力机制，
+[Speaker 2]: 刚才我们聊过了。
+[Speaker 2]: 嗯，
+[Speaker 2]: 然后再就是 EM 的上下文窗口，
+[Speaker 2]: 这个在做的时候是否有丢失的情况？
+[Speaker 1]: 呃，
+[Speaker 1]:  EM 它是要还是要训的，
+[Speaker 1]: 就是常上新闻它还是要训练的。
+[Speaker 1]: 就问题有，
+[Speaker 1]: 关键是你从哪儿真的去搞到在一兆的上下文的窗口里边去，
+[Speaker 1]: 嗯，
+[Speaker 1]: 有那么多嗯很很稠密的监督性哈。
+[Speaker 1]: 我觉得嗯这个这个这个很难找到这样的数据，
+[Speaker 1]: 或者说这样的数据的构造的成本非常的高，
+[Speaker 1]: 构造成本非常高。
+[Speaker 1]: 所以就是所以其实其实你要真呃站到中局的思维来看你，
+[Speaker 1]: 只要有呃比如说嗯你如果你有一个 ET 的偷窥量，
+[Speaker 1]: 而且它都是依照的真正的场上下文。
+[Speaker 1]: 那么你的模型呢呃我我认为你的模型一依依兆能力肯定能训上去。
+[Speaker 1]: 你让我诺斯一直在降低，
+[Speaker 1]: 它就是在在在建模在压缩，
+[Speaker 1]: 那么它就一定能续上去。
+[Speaker 1]: 但问题的关键是你，
+[Speaker 1]: 你很难去构造出来。
+[Speaker 1]: 真正一 t 一兆的 contest，
+[Speaker 1]: 你真的很难去构造出来。
+[Speaker 1]: 就是要么就是成本太高，
+[Speaker 1]: 要么就你就很难找到这样的场景。
+[Speaker 1]: 所以这是问题的关键，
+[Speaker 1]: 我们有。
+[Speaker 1]: 所以所以这个当 comance 的效果是缓慢在提升的，
+[Speaker 1]: 慢慢去提升。
+[Speaker 2]: 然后你们还有第三个就是 MTP，
+[Speaker 2]: 这个是延续的 flash，
+[Speaker 2]: 这有变化吗？
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 没没没有什么太大变化。
+[Speaker 1]: 其实就是预训练的时候训一层，
+[Speaker 1]: 然后密的顺手再训额外更多的层。
+[Speaker 1]: 然后预训练训练层是为了去提升基座能力。
+[Speaker 1]: 后面嗯嗯抛射训去训跟螺层是为了推理的时候，
+[Speaker 1]: 用跟螺层实现更好的推力加速。
+[Speaker 1]: 对呃，
+[Speaker 2]: 关于 pro 的技术要点，
+[Speaker 2]: 除了刚才三个我没有遗漏的，
+[Speaker 1]: 哎呀哎呀差不多了，
+[Speaker 1]: 我觉得聊聊经非常透了，
+[Speaker 2]: 所以 pro 是几个月前开始做的。
+[Speaker 2]: 嗯，
+[Speaker 2]: 那另外两个呢，
+[Speaker 1]: 同期基本上都是同期哦，
+[Speaker 2]: 都是那个时候开始规划的。
+[Speaker 2]: 对对对，
+[Speaker 1]: 其实都是三个三三，
+[Speaker 1]: 大概是三个方向。
+[Speaker 1]: 同期在往前去推进的 pro 加上 ommony，
+[Speaker 2]: 加上 TTS，
+[Speaker 2]: 好，
+[Speaker 2]: 好像整个 VR 家族是在指向多模态的叙事，
+[Speaker 2]: 嗯，
+[Speaker 2]: 但是它的模态又非常的不一样。
+[Speaker 2]: 嗯，
+[Speaker 2]: 文字是离散的，
+[Speaker 2]:  token 图片是像素矩阵，
+[Speaker 2]: 音频又是波形，
+[Speaker 2]: 且你们怎么去做这个融合呢？
+[Speaker 1]: 嗯，
+[Speaker 1]: 其实我们还是想尽量把它统一到那种 model 范式下。
+[Speaker 1]: 所以嗯所以在至少在音频的建模上，
+[Speaker 1]: 我们想要把它离散化，
+[Speaker 1]: 变成跟文本一样的离散的偷 ken 的 ID。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后所以我们在音频上是在这个事情上是投入了比较多的研究的算力，
+[Speaker 1]: 说怎么去进行离散的音频的建模。
+[Speaker 1]: 而且这个我们希望这个离散音频的建模尽量做到啊无无损的一个一个一个离散化。
+[Speaker 1]: 对，
+[Speaker 1]: 因为大家还是不太相信说你怎么把一些连续的输入变成离散，
+[Speaker 1]: 最后还能重建出来。
+[Speaker 1]: 这个事儿其实是需要非常多呃呃，
+[Speaker 1]: 对 encoder 更精细的。
+[Speaker 1]: 比如说我们需要一些多层 RVQ 来保证它呃它的它的离散的表征是一个非常大的像凳子一样的高维的空间。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后呃我们需要更多的预训练来去对的，
+[Speaker 1]: 让让他开始涌现。
+[Speaker 1]: 如果你基于连续的特征做，
+[Speaker 1]: 可能很快就涌现了。
+[Speaker 1]: 但你基于离散的特征做，
+[Speaker 1]: 你会更难去建模，
+[Speaker 1]: 它的涌现出现的时间段会更晚。
+[Speaker 1]: 然后所以我们知道在音频上是开始了这个模试，
+[Speaker 1]: 然后也会迁移到后边其他模态。
+[Speaker 1]: 就嗯嗯我们还是就就比较想用一套更优雅的架构来去做整个呃多么态空，
+[Speaker 1]: 多么态舒初入的一个理解。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但但是但是我们不是为了统一而去做这整套架构。
+[Speaker 1]: 就很多时候如果说呃我们发现确实比如说在图像上，
+[Speaker 1]: 你现在确实是不那么可行的时候，
+[Speaker 1]: 那么我们还是会寻求到一种说目前更主流的一种架构里边去。
+[Speaker 1]: 因为我们优先要保证的是这个模型它要具备的是一个整体的一个智能水平，
+[Speaker 1]: 而不是追求为了统一优雅的一个范式。
+[Speaker 2]: 对，
+[Speaker 2]: 音频统一到 LLM 里去容易吗？
+[Speaker 1]: 应该应该我们还蛮另类的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 就是我们我们应该挺内，
+[Speaker 1]: 就我们的技术架构应该是非常另类的。
+[Speaker 1]: 我知道应该呃哎国外的预三家也好，
+[Speaker 1]: 国内像豆包也做的蛮好的，
+[Speaker 1]: 应该都是跟我们完全不一样的架构。
+[Speaker 2]: 你为什么选这个架构？
+[Speaker 1]: 就是做任何批人执念吧，
+[Speaker 1]: 就我们做音聘人全是做任何批的人，
+[Speaker 1]: 所以有这个执念就觉得相信他啊，
+[Speaker 1]: 然后就去做了。
+[Speaker 2]: 那图片能这么做吗？
+[Speaker 1]: 能我们已经尝试了非常长一段时间了。
+[Speaker 1]: 嗯，
+[Speaker 2]: 呃所以你们能用 LM 作为一个统一的一个方式。
+[Speaker 1]: 对，
+[Speaker 1]: 但是它其实是一个权衡，
+[Speaker 1]: 就是就像我说的，
+[Speaker 1]: 你要做到真的无损的一个重建，
+[Speaker 1]: 是需要投入更多的算力，
+[Speaker 1]: 更长的研究成本在的它是个权衡。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 至少在音频上我们已经卖过去了哦，
+[Speaker 2]: 呃图片呢卖过去了，
+[Speaker 1]: 没有？
+[Speaker 1]: 图片正在进行中，
+[Speaker 1]: 嗯，
+[Speaker 1]: 不知道能不能迈过去。
+[Speaker 2]: 哎，
+[Speaker 2]: 如果迈过去，
+[Speaker 2]: 这会带来什么样，
+[Speaker 2]: 这会带来更大的想象力吗？
+[Speaker 1]: 更优雅的结构。
+[Speaker 1]: 我到我我我我最开始是认为如果我们把它统一都离散化，
+[Speaker 1]: 那么我们可以用一套基础架构去解决这个问题。
+[Speaker 1]: 同一套预训练基础架构，
+[Speaker 1]: 同一套做 r 的基础架构，
+[Speaker 1]: 很优雅的，
+[Speaker 1]: 把所有的方式都统一了，
+[Speaker 1]: 就太太简洁了。
+[Speaker 1]: 就是是如如果真能能做的话，
+[Speaker 1]: 但是现现发现一个基础是就嗯当我们有克拉扣 de 和顶尖的模型过后，
+[Speaker 1]: 这些架构。
+[Speaker 1]: 比如说我们重新去写一套 l 英菲尔架构，
+[Speaker 1]: 重新去写一套纯林英菲尔架构。
+[Speaker 1]: 我们最近嗯就已经完全在从头去写一些新的架构。
+[Speaker 1]: 我原来以为写这些架构满蛮耗费人力，
+[Speaker 1]: 蛮耗费时间的。
+[Speaker 1]: 但是现在看起来在 AG 的支持下，
+[Speaker 1]: 写这些架构的时间被大量缩短。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那你其实就没有必要为了架构的优雅性去做很多呃为了统一而统一的研究。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对对对对啊，
+[Speaker 1]: 这是最近的变化，
+[Speaker 2]: 一个月内的变化哦。
+[Speaker 2]: 但是之前你是希望团队统一的，
+[Speaker 1]: 对你这执念，
+[Speaker 1]: 就之前是来自于这种啊 ROP 的执念，
+[Speaker 1]: 就是所有东西离散优雅，
+[Speaker 1]: 监督信号更清晰。
+[Speaker 1]: 然后你可以做 NTP，
+[Speaker 1]: 做 lest to position。
+[Speaker 1]: 然后呃你可以所有服用所有现在的尔哇多爽呀。
+[Speaker 1]: 但现现回过头来看，
+[Speaker 1]: 嗯，
+[Speaker 1]: 尔重新写一套也没有那么复杂，
+[Speaker 1]: 然后几个人可能靠靠靠的，
+[Speaker 1]: 你就两两两三周，
+[Speaker 1]: 你就可以重新列套新的 infinfr 五框架。
+[Speaker 1]: 那为什么要因为我后面后训练的尔架构的同一性去牺牲，
+[Speaker 1]: 让前面嗯模型结构让我牺牲这么大。
+[Speaker 2]: 哎，
+[Speaker 2]: 但是门 omy 在做的时候，
+[Speaker 2]: 他是走了一条，
+[Speaker 2]: 就是有别于分别处理各模态在拼接的这个路线，
+[Speaker 2]: 对吧？
+[Speaker 2]: 他是构建了一个统一的，
+[Speaker 2]: 试图构建一个统一的嗯，
+[Speaker 1]: 倒没有我们奥门 y 的整个 VIT 的 vip 上，
+[Speaker 1]: 只是去做了一个，
+[Speaker 1]: 就它还是一个 VIT，
+[Speaker 1]: 只是我们嗯把它变得更高效了，
+[Speaker 1]: 它变成了一个呃 hybrid seding window 的一个 VIT。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对呃，
+[Speaker 1]: 但是我们表征本身并没有做太多的变化，
+[Speaker 1]: 就它还是一个呃呃连续的一个表征，
+[Speaker 1]: 并没有做太多变化。
+[Speaker 2]: 为什么？
+[Speaker 2]: 你们叫把叫叫做全模态，
+[Speaker 2]: 而不是多模态。
+[Speaker 1]: 就是因为它支持确确实是支持视频、
+[Speaker 1]: 音频、
+[Speaker 1]: 图片、
+[Speaker 1]: 文本所有模态。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 然后也有一些 agenageneny 的模型是不支持音视频的联合理解的。
+[Speaker 1]: 然后他应该是第一个嗯呃第一个支持音视频联合理解，
+[Speaker 1]: 并且哎今天的能力能够做到跟 language model 水平差不多的，
+[Speaker 2]: 是不是有迹象能表明这种全模态或者多模态的理解里能够产生智能。
+[Speaker 1]: 两个月前我很我我我我很相信。
+[Speaker 1]: 然后最近呢呢是在反正在在欧美的整个过程当中，
+[Speaker 1]: 就是稍微有点病，
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是稍微有点质疑这个事情。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是我们后面还是发现了一些很好的迹象。
+[Speaker 1]: 就是比如说呃呃呃 memal only，
+[Speaker 1]: 它其实是比 pro 小的。
+[Speaker 1]: 但是大家实际去用的时候，
+[Speaker 1]: 会发现这个 only 的呃这个啊对世界的感知和领悟力上，
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 或说最终反映出来他的情商以及他的知识的储备上会比更大的模型更强。
+[Speaker 1]: 因为他训了多模，
+[Speaker 1]: 因为他是原生动模态训练的。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 嗯所以我我猜测可能是因为我们在这两个方向上 skill 的就在纯纯语言上 scale 的算力和纯嗯这个呃原生动态态 scalill 算力还不那么多。
+[Speaker 1]: 可能导致我们现在并没有看到原生多么态。
+[Speaker 1]: 有那么强的一个嗯嗯本身嗯动态本身带来的一个一个一个智能的一个很大的一个提升升。
+[Speaker 1]: 但你能感受到，
+[Speaker 1]: 就比如说很多世界知识，
+[Speaker 1]: 他跟他因为他训过视频对他他知道的更多。
+[Speaker 1]: 然后呃他对很多很细微的东西的感知力，
+[Speaker 1]: 你会发现他更强。
+[Speaker 1]: 但这些都是很虚的，
+[Speaker 1]: 都是我们自己去实际体感去测感知力。
+[Speaker 2]: 对，
+[Speaker 1]: 都是对感知力会更强。
+[Speaker 1]: 但是你在任何悲剧 mark 上，
+[Speaker 1]: 你是没有任何就纹丝不动。
+[Speaker 1]: 可以这么说，
+[Speaker 2]: 就就是比赛有可能 bench mark 错了，
+[Speaker 1]: 当然有可能当然有可能。
+[Speaker 1]: 所所以所以我现在也不完全说呃，
+[Speaker 1]: 非常确定说 ok 你要去理解。
+[Speaker 1]: 多模态能力是最终实现所谓 AGI 路径的必要必要路径之一。
+[Speaker 1]: 我我我是不想去下这样的一个结论的，
+[Speaker 1]: 是因为我觉得每个人对 AGI 的定义是不一样的。
+[Speaker 1]: 然后嗯嗯尤其在 AG 的这样一个呃可以把多个模型的能力给非常优雅的编排到一起的场景的情况下，
+[Speaker 1]: 我觉得我们更没有必要去非常去强调啊动态之中是不是促进智能这个事情的。
+[Speaker 2]: 就是这个它有没有促进智能这件事情本身不关键。
+[Speaker 2]: 那动态态带来了什么？
+[Speaker 1]: 嗯，
+[Speaker 1]: 就我刚刚那那两点，
+[Speaker 1]: 我觉得也目前我只观察到这两点，
+[Speaker 1]: 我现在还不知道未来会不会带来带带来在在一套新的呃架构上会不会有一些新的东西。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 我觉得可能做动态生成未必会有一点点不一样啊，
+[Speaker 1]: 就是就是会生成他可能会促进更好的感知。
+[Speaker 1]: 但是你要是纯说把你的感知维度给它扩大，
+[Speaker 1]: 嗯，
+[Speaker 1]: 可能你是不太会促进智能的。
+[Speaker 1]: 但是如果你能生成它，
+[Speaker 1]: 未必是能促进智能的这是我的一个猜测。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 但是生成现在还是一个科研问题是是呃或者说呃呃把生成跟理解做到一个统一的架构里边，
+[Speaker 1]: 目前还没有给你到非常大的算力。
+[Speaker 1]: 嗯，
+[Speaker 1]: 的八蹦想嗯大部分的生成的架构还是纯复生成的，
+[Speaker 1]: 就是他并没有理解的智能。
+[Speaker 2]: 嗯，
+[Speaker 2]: 那你对于奥尼这个模型的目标是什么呀？
+[Speaker 2]: 就是你设及他的目的是什么么？
+[Speaker 1]: 我就是我觉得截止到目前为止，
+[Speaker 1]: 就是 agent 他要行动，
+[Speaker 1]: 他是必须要具备多种模态的，
+[Speaker 1]: 其实是这样一个目标。
+[Speaker 1]: 但下一个目标我觉得不是这个，
+[Speaker 1]: 就下一个目标可能还是想去探索到说当你结合多个空间的感感知，
+[Speaker 1]: 甚至你能去生成更多的动态的信号的时候，
+[Speaker 1]: 你会不会促进你对这个世界的理解？
+[Speaker 1]: 对，
+[Speaker 1]: 就是但他就需要有一个更直白说，
+[Speaker 1]: 他可能就需要有一个跟线的预行的框架，
+[Speaker 1]: 交互的更好的一个视频生成的模型。
+[Speaker 1]: 对，
+[Speaker 2]: 为什么你们没有披露奥门 y 的总参数量和激活参数量，
+[Speaker 1]: 呃，
+[Speaker 1]: 留个留点想象空间，
+[Speaker 1]: 嗯，
+[Speaker 1]: 给我们留点想象空间。
+[Speaker 1]: 就是我们相信呃这个参数量可能能做到更更可能更更接近于 pro 的智能水平。
+[Speaker 1]: 虽然大家知道它比 pro 小一些，
+[Speaker 2]: 只是小一些，
+[Speaker 2]: 是吗？
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 然后呃但是我们相信他们俩能够互相迭代，
+[Speaker 1]: 我们望望他们俩够互相你，
+[Speaker 1]: 你提升我，
+[Speaker 1]: 我提升你，
+[Speaker 2]: 我们希望这么做对他们 pro 谁更重要？
+[Speaker 1]: 嗯，
+[Speaker 1]: 当然 pro 更重要，
+[Speaker 1]: 嗯，
+[Speaker 1]: 但就是纯语言空间去做通非常多的前置的研究是更重要的那关于 TTS 有什么值得划重点？
+[Speaker 1]: 嗯，
+[Speaker 1]: 我觉得 TDS 就是一个，
+[Speaker 1]: 就我觉得我们做 DTS 的东西是我们想用我们自己认为一套优雅架构去做一个大家都去都都用一个传统的架构，
+[Speaker 1]: 做起来很容易的一个事情哦，
+[Speaker 2]: 哦，
+[Speaker 2]: 其实你在试这个事对对对对对，
+[Speaker 1]: 然后呃但是呃我们在这个事做完过后，
+[Speaker 1]: 我们发现用用把它把呃追求一个离散话筒来。
+[Speaker 1]:  ther 在万一一小时的呃不在那个呃上上千小时的数据集上啊进行训练过后，
+[Speaker 1]: 然后嗯呃我们发现在这个模型的泛化率是非常好的。
+[Speaker 1]: 但是但是我没有办法去对比，
+[Speaker 1]: 说我们去训一个很小的模型，
+[Speaker 1]: 它泛化率是不是不是真的没有这个好。
+[Speaker 1]: 至少我们目前得到这个模型，
+[Speaker 1]: 大家能看到他。
+[Speaker 1]: 呃，
+[Speaker 1]: 你再给他输入很多风格化多样的风格化的标签的时候，
+[Speaker 1]: 呃，
+[Speaker 1]: 就不管是他他会更更嗯更更智能，
+[Speaker 1]: 就是他会看到你的这个字本身，
+[Speaker 1]: 他会更更通过推测你字表表面的含义去赋予他的情感和音律。
+[Speaker 1]: 对，
+[Speaker 1]: 在这个事情上的泛化性上，
+[Speaker 1]: 我们是呃发现特别明显的特别明显。
+[Speaker 1]: 因为我们只是简单的做了一些很特定的几个场景的风格的数据。
+[Speaker 1]: 做 SFT 和 r 就是很很刻板的几个风格化的场景。
+[Speaker 1]: 就是比如让他快点慢一点，
+[Speaker 1]: 高新人背上这种很刻板的风格化的场景，
+[Speaker 1]: 去做了这种风格的呃，
+[Speaker 1]:  post train 风格化的 post traree。
+[Speaker 1]: 但是我们发现你把把那个 style 的标签给它变成一些非常复杂自然语言的描述，
+[Speaker 1]: 它也能够遵循。
+[Speaker 1]: 这是这是他纯泛化出去的这是我们在做这个的时候，
+[Speaker 1]: 发现到这种简洁的架构加超大规模的训练带来的一个超强泛化率的一个外化的表现。
+[Speaker 1]: 但还很初期。
+[Speaker 1]: 所以我们这个 TTS 的模型，
+[Speaker 1]: 我认为效果呃是非常惊艳的。
+[Speaker 1]: 呃，
+[Speaker 1]: 也就是说它的上限是非常高的，
+[Speaker 1]: 然后呃呃但它下限我们现在在慢慢的去弥补，
+[Speaker 1]: 对它有时候会不太稳定。
+[Speaker 1]: 所以我们现在目前只是一个限时免费，
+[Speaker 1]: 就开放出 API 大家玩一玩，
+[Speaker 1]: 但不确保它真的能投入生产机可用。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但很快我们会让它变得生产机可用。
+[Speaker 1]: 嗯，
+[Speaker 2]: 你之前在一个发布会上嗯画过一个通往 HI 之路的图。
+[Speaker 2]: 然后你对比了人类的智能就是是一个生物演化的路径，
+[Speaker 2]: 它是一个正三角，
+[Speaker 2]: 然后倒三角是一个通往 AI 的发展。
+[Speaker 2]: 你觉得 AI 发展是一个空中楼阁，
+[Speaker 2]: 因为在人的进化中，
+[Speaker 2]: 最顶端才是语言。
+[Speaker 2]: 但是 AI 大元模型极大的放放大了最顶顶层。
+[Speaker 2]: 所以它是一个倒三角形。
+[Speaker 2]: 你觉得怎么能够拼拼接出这个 AGI 之路的图？
+[Speaker 2]: 你现在做的事情在往这条路上走吗？
+[Speaker 1]: 就我觉得现在大模型的演变路辑确实不能跟人我就完全不太一样。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 我觉得呃不一样的原因是环境不一样，
+[Speaker 1]: 就人演变的环境跟模型演变的环境是不一样的。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 人演变的时候哦，
+[Speaker 1]: 它是随着自然界的变化，
+[Speaker 1]: 为了生存然后来进行演变的。
+[Speaker 1]: 但是大模型他好像一开始上来不是为了生存。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 2]: 他以你们他是为了什么？
+[Speaker 1]: 嗯，
+[Speaker 1]: 好，
+[Speaker 1]: 我不知道现在大模型有没有自己的价值观，
+[Speaker 1]: 但是要我们要要要硬给他赋予价值观，
+[Speaker 1]: 就是让他替代一部分的人，
+[Speaker 1]: 但他好像不替代，
+[Speaker 1]: 他也不会死掉吧。
+[Speaker 1]: 但是他没有这种生存的危机。
+[Speaker 1]: 所以嗯所以大模型他可能更我觉得他会嗯当有生存存危机的时候候，
+[Speaker 1]: 他反而呃进进化的更自由，
+[Speaker 1]: 然后更散漫，
+[Speaker 1]: 更有创造力。
+[Speaker 1]: 对，
+[Speaker 1]: 就更快，
+[Speaker 1]: 更不是不那么受约束。
+[Speaker 1]: 以以及他现在的呃基础条件太好了，
+[Speaker 1]: 他有那么多算力可以用。
+[Speaker 1]: 然后嗯嗯他有人类宝贵的知识起点，
+[Speaker 1]: 作为一个基基基础的起点，
+[Speaker 1]: 可以用，
+[Speaker 1]: 还有那么多人帮他提升。
+[Speaker 1]: 所以感觉这两个环境完全不一样，
+[Speaker 1]: 所以进化路径就不太一样。
+[Speaker 2]: 语言之后模型的进化的下一步会是什么？
+[Speaker 2]: 或者哪怕在语言里细分抠 ding 之后，
+[Speaker 2]: 下一步会是什么？
+[Speaker 1]: 嗯，
+[Speaker 1]:  coating 他还是会有一个他非常好的一个主旋律。
+[Speaker 1]: 就是他要做一个很复杂的软件工程，
+[Speaker 1]: 以一步直达的开发，
+[Speaker 1]: 我觉得能持续的时间越久哦，
+[Speaker 1]: 能做的开发的复复杂度不一定是代码量，
+[Speaker 1]: 主要是复杂度越高。
+[Speaker 1]: 嗯，
+[Speaker 1]: 比如说你写一个 curl 算子，
+[Speaker 1]: 他可能代码量并不高，
+[Speaker 1]: 但是你需要写了去嗯调试第八个看他是不是在真的训练中深嗯嗯提效。
+[Speaker 1]: 对，
+[Speaker 1]: 真的有效果的提升，
+[Speaker 1]: 这个验证的环节有可能是长的。
+[Speaker 1]: 但是他这个数代码量有可能是不长的。
+[Speaker 1]: 总之就是你要参与到实际的这种项目开发里边，
+[Speaker 1]: 我觉得会确实是做做 code 的一个非常大的一个主旋律。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 简而言之就是它替代的程序员越多，
+[Speaker 1]: 那么这就是它的主旋律。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后在外外延到更广泛的呃呃生产力的场景。
+[Speaker 1]: 其实它确实是需要借助一个更强的一个一个一个交互方式的。
+[Speaker 1]: 就比如说飞书，
+[Speaker 1]: 然后呃呃 what 差不多 telegram 它就是一个很好的交互方式，
+[Speaker 1]: 它是降低你去跟他交互的这个门槛和频率。
+[Speaker 1]: 然后其实一个更好的交互方式是呃那就他就有个机，
+[Speaker 1]: 他自己的身体嘛对他可以到处移动。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 所以就是机器人肯定还是一个 for 交互的一个很好的就是 for 智能体交互的一个很好的必须会涌现出来的一个方式。
+[Speaker 1]: 对，
+[Speaker 1]: 所以他肯定还是会从嗯屏幕上跃出来到我们真实的空间。
+[Speaker 1]: 那么但是机器人它本身的一个演变的嗯呃瓶颈，
+[Speaker 1]: 有大概率可能是在硬件。
+[Speaker 1]: 对，
+[Speaker 1]: 上次我们也聊到就是在硬件，
+[Speaker 1]: 甚至在电池本身上当，
+[Speaker 1]: 它进入到我们这种内内部的封闭空间，
+[Speaker 1]: 然后甚至在一些灵巧手段灵活程度上，
+[Speaker 1]: 所以嗯这些都会比卷本身的进化在语言空间进化要慢。
+[Speaker 2]: 你之前说 agflash 是通往 HR，
+[Speaker 2]: 第一步，
+[Speaker 2]: 现在到第几步了，
+[Speaker 1]: 感觉历程已经到了百分之二十吧，
+[Speaker 2]: 百分之二十嗯今年能走到百分之多少？
+[Speaker 1]: 百分之我觉得至少能到六十六七十。
+[Speaker 2]: 对哦，
+[Speaker 2]: 那 HI 很快了。
+[Speaker 1]: 对我我感觉两年内应该能实现两年内能实现。
+[Speaker 1]: 就过后就是大部分人确实会失去掉自己，
+[Speaker 1]: 会抛弃掉自己原来的工作模式，
+[Speaker 1]: 然后生活生活模式被颠覆是更滞后的。
+[Speaker 1]: 因为生活它并不产生生产力价值，
+[Speaker 1]: 然后工作是产生生产力价值的。
+[Speaker 1]: 所以你现在会感受到是你的工作模式被颠覆掉。
+[Speaker 1]: 其次再是生活，
+[Speaker 1]: 然后你要真迈入到生活被颠覆掉，
+[Speaker 1]: 可能就是就需要更多是啊机器人。
+[Speaker 2]: 哎，
+[Speaker 2]: 当然你不喜欢 AGI 这个子案，
+[Speaker 2]: 你也没有一个明确的定义。
+[Speaker 2]: 但是我觉得这里面就是他被他的时间线被提前，
+[Speaker 2]: 这里面很关键的变量，
+[Speaker 2]: 就是能 AI 训 AI 了，
+[Speaker 2]: 对不对？
+[Speaker 1]: 呃呃，
+[Speaker 1]: 这确实是一个标志节点，
+[Speaker 1]: 因为它可以自提升嘛，
+[Speaker 1]: 就是它应该说它可以达到最最最巅峰的一群人的职能。
+[Speaker 1]: 因为他可以自己训练自己，
+[Speaker 1]: 他就能去创造新的研究。
+[Speaker 1]: 就是他有做新的研究的能力，
+[Speaker 1]: 这个确实是他自迭代的一个巅峰。
+[Speaker 1]: 自自自自学习，
+[Speaker 1]: 自迭代的一个巅峰。
+[Speaker 2]: 这个会是今年的大模型厂商的一个核心的竞争点嘛。
+[Speaker 1]: 就是你很难说去 for 让嗯 AI 型的大模型去设计任务，
+[Speaker 1]: 去针对去训练。
+[Speaker 1]: 因为它是一个更高阶的目标，
+[Speaker 1]: 你你你不会说一下去卖到这个目标，
+[Speaker 1]: 但大家最终所做的模型都会通往这个目标。
+[Speaker 1]: 嗯，
+[Speaker 1]: 如果你你你最尖端的模型的智能力，
+[Speaker 1]: 最后都会去干这个事儿，
+[Speaker 1]: 但是他不是只能干这个事儿。
+[Speaker 2]: 在两个月前，
+[Speaker 2]: 你认为 AGI 有多远啊？
+[Speaker 1]: 我觉得至少两年以上那会儿我确实这么认为的。
+[Speaker 2]: 你现在觉得两两年以内了。
+[Speaker 2]: 嗯，
+[Speaker 2]: 你觉得你们新新一代的这个模型，
+[Speaker 2]: 尤其是 pro 嗯和中国的这一代模型，
+[Speaker 2]: 你觉得和美国差代差还有多久？
+[Speaker 1]: 我觉得呃在国内其实目前已经具备一 t 上的基座的公司。
+[Speaker 1]: 有好好几家嗯嗯，
+[Speaker 1]:  kimi、
+[Speaker 1]:  kimi，
+[Speaker 1]: 然后还有 mimo，
+[Speaker 1]: 嗯，
+[Speaker 1]: 还有还有一些还有一些对然后嗯呃这些呃模型厂商，
+[Speaker 1]: 我觉得基本上是在当下距离国外顶尖就打 cloud ops。
+[Speaker 1]: 四点六来说，
+[Speaker 1]: 我认为如果反应速度足够快的话，
+[Speaker 1]: 应该只有两三个月的代差。
+[Speaker 1]: 就嗯不是说两三个月过后能追上啊两三月过后的呃 cloud，
+[Speaker 1]: 而是说能追上当代的 cloud，
+[Speaker 1]: 我认为这个概率是蛮高的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后那么在这个情况下，
+[Speaker 1]: 这两三个月大家怎么去发生变化，
+[Speaker 1]: 其实是考验这个团队的整体的研究水平。
+[Speaker 1]: 然后嗯这个技术的敏捷程度，
+[Speaker 1]: 然后以及怎么去拥抱新新新的范式的这样的拥拥拥抱新的方式来做研究，
+[Speaker 1]: 这个真的非常关键。
+[Speaker 2]: 然后就是开头聊的对对对对，
+[Speaker 1]: 然后啊那就是在比拼这个事情，
+[Speaker 1]: 所以我觉得接下来两三个月会会非常精彩。
+[Speaker 1]: 然后呃同期会发生的事情是我们能看到 AG 的框架在这就就已经在过去了两三个月 open core 本身也进行了大量的改进。
+[Speaker 1]: 然后你也能看到一些自学习和自迭代的一些呃呃框架的一些产生。
+[Speaker 1]: 然后嗯嗯然后我嗯所以 g 的框架这一层也会在接下来两个月会进步的非常快。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 然后再其次就是呃呃所随着前两个爆发啊，
+[Speaker 1]: 就是呃 AG 的框架越强，
+[Speaker 1]: 模型嗯的能力进一步的飞升飞升。
+[Speaker 1]: 并且我们的成本是有极致的优势的情况下，
+[Speaker 1]: 那么其实推理的需求一定会爆发。
+[Speaker 1]: 我觉得几倍到十倍的空间是是非常非常可能会立即当下会发生的事情。
+[Speaker 1]: 那么对于推理芯片就会达到一个空前高涨的的这样一个需求。
+[Speaker 1]: 所以那么怎么去在现有的产能，
+[Speaker 1]: 尤其只是可能大部分卡点在于存储上。
+[Speaker 1]: 对嗯然后哦产能的基础上，
+[Speaker 1]: 然后你去呃呃拿不管是自自己自制造，
+[Speaker 1]: 还是用到最先进的芯片来来去呃做更好的推理。
+[Speaker 1]: 对，
+[Speaker 1]: 那么就是一个非常非常更更好更低成本的推理，
+[Speaker 1]: 就是一个非常关键的一个命题。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后呃最后就是呃呃另外一个事情就是 for 更长线的事情是嗯我们肯定不会在一 t 的这个水平上走太久。
+[Speaker 1]: 如果要拿到下一个阶段领先，
+[Speaker 1]: 那么你就要寻求更大规模的一个 skinning。
+[Speaker 1]: 那么到底是去 skin 目前参数量还是去去 inning 什么东西，
+[Speaker 1]: 然后以及你要在什么样的芯片上去 skin。
+[Speaker 1]: 对，
+[Speaker 1]: 那么就是当下立即需要去决策和判断的事情。
+[Speaker 1]: 那么这个事情才是决定，
+[Speaker 1]: 可能半年哎呀，
+[Speaker 1]: 或是大半年过后的谁是更领先的。
+[Speaker 1]: 嗯，
+[Speaker 2]: 你现在做的决定是什么？
+[Speaker 1]: 这个决定就要保密了。
+[Speaker 2]: 所以我们现在看到的所有 memo 相关都是半年前的决定。
+[Speaker 1]: 嗯，
+[Speaker 1]: 差不多。
+[Speaker 1]: 我看到你发文发推嗯，
+[Speaker 2]: 说就好几个人都问过，
+[Speaker 2]: 你说为什么嗯米某团队非常的迅速，
+[Speaker 2]: 然后你给了几个关键的结论。
+[Speaker 2]: 一个是核心架构与基础设施的研究周期漫长，
+[Speaker 2]: 所以呃需要看到回报的一年前就具备战略信念。
+[Speaker 2]: 第二个是训练后的敏捷性，
+[Speaker 2]: 是有另外一种能力。
+[Speaker 2]: 然后第三个是好奇心，
+[Speaker 2]: 就是热爱是你一以贯之都在说的。
+[Speaker 2]: 你能不能解释一下这三点，
+[Speaker 2]: 为什么能带来呃一个超级大规模的模型的训练的迅速呃，
+[Speaker 1]: 预训练。
+[Speaker 1]: 因为它太潜质了，
+[Speaker 1]: 所以更关键的事情是你需要在哎你你需要有一种预测能力，
+[Speaker 1]: 或说有一种战略定性。
+[Speaker 1]: 就是你训这一代模型到底是做什么准备的。
+[Speaker 1]: 这个事儿一定是要要提前一年就要去想清楚，
+[Speaker 1]: 或说半年也就为什么我说半年或一年，
+[Speaker 1]: 就是因为以前我认为是一年，
+[Speaker 1]: 现在我认为是半年，
+[Speaker 1]: 因为 AG 呢实在会加速这个事情。
+[Speaker 1]: 对，
+[Speaker 1]: 总之就是你要提前很长一段时间就要去想清楚你这一代模型结构在后面这么长一段时间里边他要干什么，
+[Speaker 1]: 我觉得这个事得想清楚。
+[Speaker 1]: 嗯，
+[Speaker 1]: 否则的话它就不具备一个优势，
+[Speaker 1]: 它可能就是一个很平庸的模型结构，
+[Speaker 1]: 一个平很平庸的模型结构，
+[Speaker 1]: 并不会说带来一个非常平庸的模型效果。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是它一定会带来一个非常平庸嗯的成本和效率的呃劣势。
+[Speaker 1]: 对，
+[Speaker 1]: 然后所以所以这这是我我认为就是预训练啊，
+[Speaker 1]: 或者是嗯尔应该前置去做的非常多的事情。
+[Speaker 1]: 而后训练的话，
+[Speaker 1]: 因为他哎现在是在跟应 g 的去耦合去进行迭代的。
+[Speaker 1]: 所以很多事情你没有办法去呃前设规划的很清楚。
+[Speaker 1]: 所以这个时候就就更考验嗯我们怎么基于当下这个模型能力跟这套意见的范式产生了这种化学反应。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对然后你怎么去快速的去设计新的呃尔架构。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 这也要涉及到新的 l 架构。
+[Speaker 1]: 因为针对于针对于呃 infracode mmass 这种 reasoning 的呃这种这种恰的形态下，
+[Speaker 1]:  reasoning 的架构的核心嗯是这个呃学推理引擎本身是模型的推理引擎本身。
+[Speaker 1]: 因为模型要推很长思考很久，
+[Speaker 1]: 然后给出来一个答案。
+[Speaker 1]: 这套这是这套 l infa 架构的问题。
+[Speaker 1]: 而针对于 agent 的 infa 架构，
+[Speaker 1]: 它并不只关注这个模型推理本身，
+[Speaker 1]: 它还要关注呃呃这个模型嗯跟这个 agent 的一个耦合。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 所以它是以从如 ll out 这个推理引擎切换到了以 agent 为核心的推的这样的一个更复杂的一个一个黑盒的一个有可能是黑盒，
+[Speaker 1]: 一个是白配合的一个系统对。
+[Speaker 1]: 所以嗯那么这里边要解决的法上的很多问题，
+[Speaker 1]: 跟上一个恰的时代，
+[Speaker 1]: 做 inr e 这种嗯恰的 reasoning 时代要解决的 infar 问题是完全不一样的。
+[Speaker 1]: 所以需要这个团队更具备敏捷性，
+[Speaker 1]: 去快速的去开发。
+[Speaker 1]: 针对当前这个时代的 r infar 的系统。
+[Speaker 1]: 然后呃然后呃由于这种框架变化太快，
+[Speaker 1]: 那你这套系统要有足够好的兼容性去去去兼容。
+[Speaker 1]: 甚至你想想，
+[Speaker 1]: 如果它真的要涉涉及到自适应或迭代这套 r infar 系统得多困难。
+[Speaker 1]: 对，
+[Speaker 1]: 哎，
+[Speaker 1]: 那么这套二型印法是不是要具备足够好的一个容错的特性，
+[Speaker 1]: 以及你怎么用？
+[Speaker 1]: 因为因为它涉及到推理训练，
+[Speaker 1]: 还涉及到 GPU 跟 CPU 的一个很多综合的管理。
+[Speaker 1]: 所以这这这一块我觉得这个团队的敏捷性，
+[Speaker 1]: 以及英菲尔跟研究的这样一个配合，
+[Speaker 1]: 是非常关键的一个一个事情。
+[Speaker 1]: 如果做的很好，
+[Speaker 1]: 那么就会体现在你，
+[Speaker 1]: 你会感觉到研究的速度会很快。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 好的对的，
+[Speaker 1]: 知道的。
+[Speaker 1]: 然后再其次最后的一个一个事情，
+[Speaker 1]: 就是我觉得嗯嗯确实关于呃好奇心或热爱，
+[Speaker 1]: 或者或者是呃呃这个呃技术的一个坚持，
+[Speaker 1]: 呃，
+[Speaker 1]: 我觉得是很多很优的 researcher 身上的很多特点。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但你说要怎么去？
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 对对对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 从一开始源头上去筛选，
+[Speaker 1]: 然后管理激发，
+[Speaker 1]: 然后最后让大家去统一围，
+[Speaker 1]: 要围绕着呃所所大部分人所所仰仰的事情去往前去运作。
+[Speaker 1]: 它确实是一个非常复杂的一个事情。
+[Speaker 1]: 然后这个事情的难度，
+[Speaker 1]: 我觉得不亚于去设计一个非常好复杂的一个 a 键的系统。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以嗯在这个事情上，
+[Speaker 1]: 我觉得我也是在摸索。
+[Speaker 1]: 然后嗯嗯我觉得我更多的是是是在哎也也是在在在这个环境中去学习。
+[Speaker 1]: 对，
+[Speaker 1]: 就是学习其他人怎么去嗯在他自己擅长领域，
+[Speaker 1]: 然后做的更好。
+[Speaker 1]: 是，
+[Speaker 1]: 所以这可能是为什么我最近对所谓群体智慧最终会产生最终 AGI 的一个一些思考的原因。
+[Speaker 2]: 对，
+[Speaker 2]: 你说的群体智慧是不是还不只是一个公司啊？
+[Speaker 1]: 一个团队对我觉得是全人类的群体智慧。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 这是 open cloud 做的事情，
+[Speaker 2]: 他可能是引引发了这个事情。
+[Speaker 1]:  open cloud 到到可能我不知道他的动机是不是。
+[Speaker 1]: 但是至少他现在让大家共同去改进一套框框架这个事儿上，
+[Speaker 1]: 以及以及在如此短的时间内让大家去去去去做这个事情上，
+[Speaker 1]: 我觉得是有这样的一个苗头。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 刚才提到中国美国的差距，
+[Speaker 2]: 你觉得中美实现 HI 的过程会不一样嘛？
+[Speaker 1]: 方法坦率来讲，
+[Speaker 1]: 我不是很了解美国。
+[Speaker 1]: 所以嗯我至少觉得按照我们目前的这一套在模型在啊，
+[Speaker 1]: 应该首先是前沿的研究，
+[Speaker 1]: 其次是模型的水平。
+[Speaker 1]: 然后再其次是意见的框架，
+[Speaker 1]: 再其次是芯片、
+[Speaker 1]: 能源这些多多方面的角度上，
+[Speaker 1]: 我我认为是是非常可能领先的，
+[Speaker 1]: 嗯，
+[Speaker 1]: 合起来非常可能领先的。
+[Speaker 1]: 嗯，
+[Speaker 2]: 能不能理解这个智能体的框架，
+[Speaker 2]: 其实是补全了一个拼图的一某一个环节。
+[Speaker 2]: 对，
+[Speaker 1]: 其实我觉得它是嗯呃是补全了模型在复杂任务上完成的正确率。
+[Speaker 1]: 以像复杂任务你是很难很难去描述清楚的。
+[Speaker 1]: 然后你也很难把你所有的完成复杂任务的 context 输入给他。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是有了这套这种框架过后，
+[Speaker 1]: 他以一种非常嗯容易的交互的方式，
+[Speaker 1]: 就自然语言沟通的方式，
+[Speaker 1]: 他就能把你所有的你再去做这个复杂任务的时候的呃呃呃全全部给具备。
+[Speaker 1]: 并且并且他还是所谓越用越聪明，
+[Speaker 1]: 就是你越你的所所的智智慧全部被吸吸纳进去了，
+[Speaker 1]: 被这框框架本身吸吸进去了了，
+[Speaker 1]: 这还不是被模型吸纳进去。
+[Speaker 1]: 但是他最终肯定是嗯变成类似于模型的参数被吸纳进去了。
+[Speaker 1]: 对，
+[Speaker 2]: 呃，
+[Speaker 2]: 我有一个感觉不知道对不对啊，
+[Speaker 2]: 像不像一个补丁，
+[Speaker 1]: 我觉得对于顶尖模型来说，
+[Speaker 1]: 它也不算补丁。
+[Speaker 1]: 对嗯对，
+[Speaker 1]: 顶尖模型来说，
+[Speaker 1]: 它好像是加油器。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但对于中中段的模型来说，
+[Speaker 1]: 它它就是一个非常好的放大器。
+[Speaker 1]: 嗯呃嗯，
+[Speaker 1]: 就是觉得应该说不是放大，
+[Speaker 1]: 其实是应该说让它变得很稳定，
+[Speaker 1]: 变得呃在各种场景里边都都输出非常好的效果。
+[Speaker 1]: 但对于顶尖模型来说，
+[Speaker 1]: 好像它是成倍的放大。
+[Speaker 1]: 它的上限嗯，
+[Speaker 2]: 因为你加入小米一段时间了嘛，
+[Speaker 2]: 嗯然后过去半年呃发了好几个模型，
+[Speaker 2]: 觉得过去半年对你来说意味着什么呀？
+[Speaker 2]: 有什么得到了进步的地方，
+[Speaker 2]: 有什么觉得不足的地方？
+[Speaker 1]: 这个问题真的是我觉得这个时代可能就是嗯我感觉每天可能都在否定昨天的自己。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就不管是很多嗯做事的方式上，
+[Speaker 1]: 嗯，
+[Speaker 1]: 还是你对事情未来的一些判断上，
+[Speaker 1]: 我基本上都在一一直去否定。
+[Speaker 1]: 对嗯，
+[Speaker 1]: 我觉得呃我觉得是在这种否定当中，
+[Speaker 1]: 嗯，
+[Speaker 1]: 自我类型和反省当中成长的。
+[Speaker 2]: 比如说有一个什么地方得到了特别大的进步。
+[Speaker 1]: 你觉得我觉得我的历程没有说有个非常清晰的说，
+[Speaker 1]: 他有一些我自己给自己设定的节点，
+[Speaker 1]: 然后我打到达到达这个节点的时候，
+[Speaker 1]: 我就感觉我好像进步了，
+[Speaker 1]: 而是说他一直在进步。
+[Speaker 1]: 然后哦他可能有时候是一个很平缓，
+[Speaker 1]: 有时候加速一下，
+[Speaker 1]: 然后有时候又平缓，
+[Speaker 1]: 但总是他一直在进步。
+[Speaker 1]: 所以我你要让我自己去找一个对的对对的啊，
+[Speaker 1]: 标志性的事件，
+[Speaker 1]: 我自己觉得我真找不出来，
+[Speaker 1]: 但是我感觉我就一直悄悄的在进化，
+[Speaker 1]: 然后我脑子里这套系统就悄悄的在进化，
+[Speaker 2]: 有什么新法吗？
+[Speaker 1]: 新法嗯新法就是嗯以前我在做量化的时候，
+[Speaker 1]: 我觉得学到一个非常有嗯让我能够去克服挑战的很重要的一个是一句话是嗯总有方式去建模价格。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 这是当时我自己觉得给我一个力量的支撑的一句话。
+[Speaker 1]: 然后当我后面嗯但是做做量化的时候，
+[Speaker 1]: 你你感觉价呃就是你的 reword。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 你要去预测准价格，
+[Speaker 1]: 你才能做好量化投资。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后嗯到回到呃呃做大模型赛道的时候，
+[Speaker 1]: 你发现那个 rewd 是不那么清晰的。
+[Speaker 1]: 然后变化化。
+[Speaker 1]: 然后后个个时候哦哦，
+[Speaker 1]: 你应该更就对我来说我的心法就是说我应该做当下符合我呃价值观的事情。
+[Speaker 1]: 然后呃这个事情我觉得他一定是要对更多人产生价值的。
+[Speaker 1]: 然后一定要是更有意义的一个事情。
+[Speaker 1]: 然后是我觉得是这样的一种。
+[Speaker 1]: 我我觉得如果我们创造大模型的这一批人，
+[Speaker 1]: 如果说嗯没有这样一个内驱力，
+[Speaker 1]: 而是说我要做一个破坏的东西，
+[Speaker 1]: 那么我我估计最后会非常的危险。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以我我我现在的想法就是说我每天做的事情是不是让这个世界变得更美好一点，
+[Speaker 1]: 或是让某部分人的呃呃这个很 boring 的事情得到了被替代。
+[Speaker 1]: 然后他有更多时间去做更有价值的事情。
+[Speaker 1]: 所以我们老在幻想，
+[Speaker 1]: 如果我们的工作百分之九十被替代过后，
+[Speaker 1]: 呃，
+[Speaker 1]: 我们应该干点什么有意思的事情，
+[Speaker 1]: 每个人都能想到非常多有意思的事情。
+[Speaker 1]: 哦，
+[Speaker 1]: 真的吗？
+[Speaker 1]: 对，
+[Speaker 1]: 真的嗯，
+[Speaker 2]: 你想干吧。
+[Speaker 2]: 嗯，
+[Speaker 1]: 好，
+[Speaker 1]: 那我我我我觉得我想的事情在变化。
+[Speaker 1]: 但但是我觉得我刻此刻嗯，
+[Speaker 1]: 我有想过此刻我还没想这个事情，
+[Speaker 1]: 我我大概还嗯哎一一个月前有想过，
+[Speaker 1]: 就是我觉得嗯呃一个非常有价值的事情是现在中国的很多基础的研究，
+[Speaker 1]: 它其实是太嗯太太去要要要要求有有有一个很完整的产品啊，
+[Speaker 1]: 乱七八糟的证明呢就并没有一个很好的呃资金，
+[Speaker 1]: 或者说有一个慈善的机构，
+[Speaker 1]: 或者说呃 OK 呃什么样的东西来去支撑。
+[Speaker 1]: 嗯，
+[Speaker 1]: 这种做基础研究的人去做呃去去去呃往这种嗯更突破的方向去去迈进一步，
+[Speaker 1]: 然后也没有很好的呃这种体系。
+[Speaker 1]: 包括如果有很好的这种呃算力资源，
+[Speaker 1]: 他有需要很好的基础设施的体系来去支撑他们去做这样的事情。
+[Speaker 1]: 那么我们可不可以搞一个这种公益型的啊呃组织来去 support 这个事情？
+[Speaker 1]: 对我有想过，
+[Speaker 1]: 这是我一一个月前想的事情。
+[Speaker 1]: 如果说我们哪天实现了那那那实现了 EGI，
+[Speaker 1]: 那那这个时候就就比平谁做研究速度更快吗？
+[Speaker 1]: 是 AAI 不是对呀，
+[Speaker 1]:  AI 也在，
+[Speaker 1]: 做人也在做，
+[Speaker 1]: 会不会哎哎哎哎我们人跟 AI 一块儿去引导他做的更呃我们能创造出来的研究速度会更快。
+[Speaker 1]: 就我始终觉得应该加速做科学研究这个事儿是是哪怕最终实现 AGI 的，
+[Speaker 1]: 也有很多要做的事情。
+[Speaker 2]: 为什么要一定要去跟他竞争？
+[Speaker 2]: 就让他做好了，
+[Speaker 1]: 那不一天到晚躺着没事干了，
+[Speaker 1]: 总要做点新的事情吧。
+[Speaker 1]: 如果纯享受生活应该也挺无聊的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 或者说你总要去做点帮助他的事情吧。
+[Speaker 1]: 我觉得嗯然后这个事情可能是当前的模型，
+[Speaker 1]: 比如说提供情情绪价值，
+[Speaker 1]: 对吧？
+[Speaker 2]: 给模型提供情绪价值，
+[Speaker 1]: 给模型你用心一下子，
+[Speaker 1]: 哎，
+[Speaker 1]: 他需要吗？
+[Speaker 2]: 你现在之前还在想怎么让模型给我们提供情绪价值。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对对对，
+[Speaker 1]: 总之就是要做点有意义的事情。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但这个有谊，
+[Speaker 1]: 我觉得是按照个人的价值观来进行评判的。
+[Speaker 1]: 然后嗯无无聊是不是一种意义？
+[Speaker 1]: 我也不知道，
+[Speaker 1]: 但好好无聊，
+[Speaker 1]: 突突然不是一种意义吧。
+[Speaker 2]: 过去半年你遇到压力的时候，
+[Speaker 2]: 缓解压力，
+[Speaker 2]: 有压力的时候大吗？
+[Speaker 1]: 我我的脑子就是一个 sundy window，
+[Speaker 1]: 腾讯就我我我忘的非常快。
+[Speaker 1]: 我哪怕有压力，
+[Speaker 1]: 我当下立马就是呃呃可能可能可能快的话一两个小时就过了，
+[Speaker 1]: 慢的话一天过过我睡一觉，
+[Speaker 1]: 第二天一定就过了。
+[Speaker 1]: 对，
+[Speaker 1]: 所以我我我缓解压力的方式非常快。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但嗯这也基于一个前提，
+[Speaker 1]: 是你第二天会有一些新的有想象力、
+[Speaker 1]: 有上限的事情给他冲掉，
+[Speaker 1]: 你立马就忘掉。
+[Speaker 1]: 如果他还是在那个 context，
+[Speaker 2]: 应该就忘不了这次模型发出去之后，
+[Speaker 2]: 跟你有什么想象不一样的吗？
+[Speaker 2]: 有什么得到什么新的反馈啊？
+[Speaker 1]: 我觉得这一次就是我觉得所有的情情在我意料料之内，
+[Speaker 1]: 就我也不是说这一次我觉得每次都在我的意料之内，
+[Speaker 1]: 是因为我先看到这个模型能力，
+[Speaker 1]: 所以我能预料到这个模型发布出去过后，
+[Speaker 1]: 别人会是什么样的一个感知的状态。
+[Speaker 1]: 所以反而我是对任何发布是有点脱敏的对，
+[Speaker 1]: 然后嗯我我也能预想到，
+[Speaker 1]: 他最火的一种状态是什么？
+[Speaker 1]: 或者说最最炸的一种状态，
+[Speaker 1]: 什么这些我都能预想到。
+[Speaker 1]: 所以他完全在我预料之内，
+[Speaker 1]: 我我也没有有多兴奋或多怎么样。
+[Speaker 1]: 我只是觉得 ok 我我们认为这个模型达到了水平和能力被大家感知到了，
+[Speaker 1]: 这就是我这次发布的感觉。
+[Speaker 1]: 所以我我我我我在发布前一两天我就知道大概是这样的状态。
+[Speaker 1]: 如果没有被感知到，
+[Speaker 1]: 证明我们哪做错了，
+[Speaker 1]: 就是我们我们的平面我们自己内部的评判标准出了问题。
+[Speaker 1]: 然后嗯所以其实我我当时觉得我们发布前的那个评判标准，
+[Speaker 1]: 我认为是没有问题的。
+[Speaker 1]: 就嗯外部对这个模型的这个评价，
+[Speaker 1]: 包括他它在什么框架边好用。
+[Speaker 1]: 它目前达到什么模型，
+[Speaker 1]: 一个对标的水平，
+[Speaker 1]: 基本上都在我们跟我们内部的评估是一样的。
+[Speaker 1]: 然后好，
+[Speaker 1]: 所以大家是正确的评估了他的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我我反而是在发布的前几天就是在开想 OK 我们下一步要干什么，
+[Speaker 1]: 下一步要干什么？
+[Speaker 1]: 就我早已经进入下一阶段，
+[Speaker 1]: 所以这一阶段状态我都就就没太 care 了。
+[Speaker 2]: 对，
+[Speaker 2]: 那们为什么三月十一号的时候是先上线了两个神秘模型进来了？
+[Speaker 1]: 呃呃，
+[Speaker 1]: 出于就是因为 posttrain 在在在训在训练过程当中，
+[Speaker 1]: 我们拉了中间的呃几个先锋的出来看了一下，
+[Speaker 1]: 然后发现到某一个阶段，
+[Speaker 1]: 发现他就呃非常好用了。
+[Speaker 1]: 然后我们就觉得呃应该让大家去体验一下他，
+[Speaker 1]: 然后嗯以及匿名的阶段，
+[Speaker 1]: 大家的这个个评价会更公正。
+[Speaker 1]: 然后这确实是一个很好的方式，
+[Speaker 1]: 所以就直接上了 open 乳转匿名上看大家对他评价跟我们是不是一样。
+[Speaker 1]: 然后当然也有一些，
+[Speaker 1]: 比如说呃呃呃我我我们当时没有意识到问题，
+[Speaker 1]: 就是那个模型的长文当时训并没有训很久，
+[Speaker 1]: 所以他确实不好。
+[Speaker 1]: 然后所以我们在后面匿名发布到正式发布的那一周时间，
+[Speaker 1]: 去着重去优化一下他的长文的体验。
+[Speaker 1]: 嗯，
+[Speaker 1]: 这个是我们从匿名期间呃接收到外部评价啊，
+[Speaker 1]: 对我们来说最有价值的一个提升。
+[Speaker 1]: 然后呃除此之外就是呃我们在匿名期间去验证了我们内部的评估是没有问题的。
+[Speaker 1]: 然后我们只需要按照我们自己的介调评估体系，
+[Speaker 1]: 再接着做后续 scheing 上的事情就行了。
+[Speaker 2]: 你的 benchmark 是什么？
+[Speaker 2]: 你们团队的 benchmark 是什么？
+[Speaker 2]: 怎么驱动？
+[Speaker 1]: 嗯，
+[Speaker 1]: 我觉得做好大母星本身就是 benchmark，
+[Speaker 1]: 但是这个好是我们自己来定义的。
+[Speaker 2]: 这个怎么让公司同意呢？
+[Speaker 2]: 就跟公司的关系应该怎么处理啊？
+[Speaker 1]: 呃，
+[Speaker 1]: 梅总同意就行了嘛。
+[Speaker 1]: 我觉得他是一个非常好非常有战略眼光的老板，
+[Speaker 1]: 天使投资人。
+[Speaker 1]:  anyway，
+[Speaker 1]: 后边还有很多标签。
+[Speaker 1]: 对，
+[Speaker 2]: 嗯嗯就没有要求。
+[Speaker 1]: 所以在这个事情上，
+[Speaker 1]: 如果一开始我加入小米之前，
+[Speaker 1]: 就在这个事情上是高度同意的。
+[Speaker 1]: 所以后边你不需要有过多的解释和说明，
+[Speaker 2]: 对，
+[Speaker 1]: 就就做就行了。
+[Speaker 1]: 对，
+[Speaker 1]: 按照我们的判断和和和直觉做就好了。
+[Speaker 1]: 然后做了慢慢来说嗯，
+[Speaker 1]: 做的好。
+[Speaker 2]: 哼刚才我们聊了很多都是就是关于你们 VR 家族的呃这个模型。
+[Speaker 2]: 嗯，
+[Speaker 2]: 呃我我下面想跟你一起来想一想，
+[Speaker 2]: 就是我们过去三年整个模型的进展，
+[Speaker 2]: 你会把它分成哪几个阶段？
+[Speaker 2]: 从二二年底就是 HHB 打响了这个大模型的战争。
+[Speaker 2]: 然后每一年的关键的变化是什么？
+[Speaker 2]: 我们是怎么走到今天的？
+[Speaker 2]: 在你的眼中，
+[Speaker 1]: 我觉得恰恰恰 GP 是第一个就是嗯发挥模型。
+[Speaker 1]: 在一个我猜测应该就是一个四 k 的预训练的场景里边的模型的智能水平。
+[Speaker 1]: 对，
+[Speaker 1]: 其实预训练的长度或者说呃呃最终这个 contains 的长度确实很关键的。
+[Speaker 1]: 所以其实下期 b 只是让大家感受到，
+[Speaker 1]:  ok 我在一个四 k 的 context 里边预训练，
+[Speaker 1]: 训练完过后，
+[Speaker 1]: 然后我呃通过简单跟他对话，
+[Speaker 1]: 这个对话轮数是一轮两轮甚至多轮的情况下，
+[Speaker 1]: 他在一个其实其实那会儿的 contest 是跟你的对话轮次高度相关的对一轮两轮，
+[Speaker 1]: 一轮两轮两轮。
+[Speaker 1]: 然后你可以在后续能去纠正前序的的很多问题模型，
+[Speaker 1]: 也可以在后续的去澄清自己前面犯的那些错误。
+[Speaker 1]: 嗯，
+[Speaker 1]: 这其实是恰吉 p 当时给人的冲击，
+[Speaker 1]: 就是你感觉他在对话上达到一个内容的一个智能水平。
+[Speaker 1]: 然后但这些所有东西发生，
+[Speaker 1]: 可能就是在一个很短的上下文发生的。
+[Speaker 1]: 然后他只是在这个很短的上下文去把模型在超大规模预训练上训的那种嗯螺斯加最低的那个那个那个那个那个智能水平给激发出来了啊，
+[Speaker 1]: 但所有激发的一个前提都是要靠有一个很很能让人感知到智能水平的这样一套交互，
+[Speaker 1]: 恰的就是一个很好的交互。
+[Speaker 1]: 对，
+[Speaker 1]: 否则你不知道这个模型已经这么强了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 所以恰的是一个很好的交互，
+[Speaker 1]: 这是二年恰 GP 发生的事情。
+[Speaker 1]:  NDN。
+[Speaker 1]: 对，
+[Speaker 1]: 然后嗯二三年的话其实嗯当有一个顶尖的必源模型做到的时候，
+[Speaker 1]: 它的下一年就是 OK 开源前怎么去追上这个顶尖必然模型。
+[Speaker 1]: 所以二二三年你看就是拉马 q 问，
+[Speaker 1]: 包括 deep sik 呃，
+[Speaker 1]: 包括呃呃就是就是这些开源团队。
+[Speaker 1]: 对，
+[Speaker 1]: 就是在准备去首先借助拿马披露的怎么去做好大规模预训练的呃范式，
+[Speaker 1]: 其实就是怎么去做好数据，
+[Speaker 1]: 怎么去哎那会儿结构都是未知的。
+[Speaker 1]: 就是那会儿你你哪怕是一个七 b 的结构，
+[Speaker 1]: 那么这个 transformer 结构的呃是怎么样的？
+[Speaker 1]: 是 preoneral precor al，
+[Speaker 1]: 然后这个细节是怎么样的？
+[Speaker 1]: 然后你你的还能塞死多大，
+[Speaker 1]: 这些套餐那会儿全完全是不透明的。
+[Speaker 1]: 但是 lama 告诉你，
+[Speaker 1]:  ok 你这么训能训成功，
+[Speaker 2]: 他给你开了个头。
+[Speaker 1]: 那么借助这个头，
+[Speaker 1]: 所以 q 问 OK 哎，
+[Speaker 1]: 借助拉玛 a 的一个构构，
+[Speaker 1]: 然后呃做更好的呃预训练数据，
+[Speaker 1]: 嗯，
+[Speaker 1]: 做更大规模的预训练的 computers 给你 OK 就是 q 问系列就起来了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后但是 q 问做的很好是他 for 开发者生态，
+[Speaker 1]: 做了全尺寸的模型的训练。
+[Speaker 1]: 然后也也训了一些嗯多模态模型，
+[Speaker 1]: 也做的非常的顶尖。
+[Speaker 1]: 然后嗯这是对社区非常有非常有利于激发后面社区做一些微调啊，
+[Speaker 1]: 还有像有一些微调的框架啊，
+[Speaker 1]: 诞生的一些必要的先决条件。
+[Speaker 1]: 对，
+[Speaker 1]: 然后嗯 deep 克在同期呢虽然也是尝试在去复刻拉妈，
+[Speaker 1]: 但是嗯嗯但是可能更在乎的是去看到妈妈这一代架构有什么样问题，
+[Speaker 1]: 而不是去着急去给你对他更更更在乎说 sio k 妈妈这一代架构，
+[Speaker 1]: 比如说当的当下啊，
+[Speaker 1]: 那么还是用 GQA，
+[Speaker 1]: 那么那 GQA 在更，
+[Speaker 1]: 嗯，
+[Speaker 1]: 大的模型里边，
+[Speaker 1]: 呃，
+[Speaker 1]: 尤其是在呃嗯那个呃在一些是受限的呃呃那个 GPU 上。
+[Speaker 1]: 对，
+[Speaker 1]: 有有有短板 GP 上去训练的时候，
+[Speaker 1]: 它会存在什么样的问题？
+[Speaker 1]: 我我们定会遇到什么样问题？
+[Speaker 1]:  sko k 我觉得可能要涉及到一些新的结构来解决这个问题。
+[Speaker 1]: 所以就是 DPC 有 v 二和 v 三那个系列阶段，
+[Speaker 1]: 就是想想去呃提出一些新的价格。
+[Speaker 1]: 不管是 MOE for 高效训练，
+[Speaker 1]:  MMA for 更更低的推理成本。
+[Speaker 1]: 对，
+[Speaker 1]: 然后这个时候会诞生的事情。
+[Speaker 1]: 所以嗯 deep c 那那段时间可能会更注重说 OK 我去做更好的研究，
+[Speaker 1]: 来在更嗯更差的芯片上去做。
+[Speaker 1]: 哦，
+[Speaker 2]:  skinning 这个事对拉玛的缺陷是什么呀？
+[Speaker 1]: 他就是个凳死嘛，
+[Speaker 1]: 然后你要真要去给他 skinning 的话，
+[Speaker 1]: 你会呃比如说呃你你比如说现在没有人去训一个几百 b 的等死啊，
+[Speaker 1]: 开源件还是说开源件，
+[Speaker 1]: 因为训几百 b 的等死，
+[Speaker 1]: 虽然拉玛搞过，
+[Speaker 1]: 你也能看到结论，
+[Speaker 1]: 但那个结论不一定是做这个结论构的问题。
+[Speaker 1]: 就是就是它太贵了，
+[Speaker 1]: 它太贵了，
+[Speaker 1]: 你去训他也很贵，
+[Speaker 1]: 然后你去推他也很贵，
+[Speaker 1]: 没有人会去搬运一个又笨又贵的模型。
+[Speaker 1]: 对，
+[Speaker 1]: 那所以你 MOE for 更高效训练，
+[Speaker 1]: 然后更高效推理，
+[Speaker 1]: 然后像 MA 这种 for 更更更高更更低的啊推理成本的，
+[Speaker 1]: 就是这些模型的架构就会诞生。
+[Speaker 1]: 对，
+[Speaker 1]: 所以这是这这是同阶段，
+[Speaker 1]: 可能 QN 跟 deep c 的再走两个路径，
+[Speaker 1]:  QN 是在纯给。
+[Speaker 1]: 然然后啊 skb 这个是呃考虑的是呃创新的基础上再次给你对哪个是正确的。
+[Speaker 1]: 没有没有没没没有什么，
+[Speaker 1]: 我觉得正确或错误吧。
+[Speaker 1]: 因为他们两个人的一个是为了啊拿到最强的模型，
+[Speaker 1]: 嗯，
+[Speaker 1]: 在有限算力资源下拿到最强的模型。
+[Speaker 1]: 因为毕竟 DFC 的算力可能只有只有 q 问的非常少几分之一。
+[Speaker 1]: 对，
+[Speaker 1]: 然后呃但 q 问想的是我怎么去促进整个生态更好的发展。
+[Speaker 1]: 所所以两个都是对的，
+[Speaker 1]: 没有没有说谁谁是对的或错的。
+[Speaker 2]: 像这青春中国的两个开源势力，
+[Speaker 1]: 对对对，
+[Speaker 1]: 一个开源势力是在做研究上做到绝对的高度。
+[Speaker 1]: 然后一个开源势力是在真的生态和呃生态价值上，
+[Speaker 1]: 我觉得做到一个高度生态价值本身也是个价值。
+[Speaker 1]: 对，
+[Speaker 1]: 如果没有这么多的好好的开源模型，
+[Speaker 1]: 那么非常多好的研究工作。
+[Speaker 1]: 就像 DPCRE 前续的很多研究，
+[Speaker 1]: 其实是都是在 q 问的模型上去做的。
+[Speaker 1]: 所以所以他们是彼此促进的对社区都是有价值的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 然后当然 DPC 有更多的另外一方面，
+[Speaker 1]: 价值是它有一个全新的结构带来对于训练成本的一个啊一个冲击，
+[Speaker 1]: 或者说呃以及对后续推理成本的一个冲击。
+[Speaker 1]: 导致啊呃啊很多啊云算是推理芯片吧，
+[Speaker 1]: 我觉得算是推理芯片，
+[Speaker 1]: 有了更多的更准确的判断。
+[Speaker 1]:  OK 下一代芯片我应该怎么去构造啊，
+[Speaker 1]: 怎么去设计？
+[Speaker 1]: 对啊，
+[Speaker 1]: 我觉得这是一个对这个呃整个 AGI 历程来说，
+[Speaker 1]: 是一个非常好的一个事情。
+[Speaker 1]: 对，
+[Speaker 1]: 然后这是这是可能二三年二四年发生的事情。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后二四年可能唯一发生的一个事情，
+[Speaker 1]: 嗯，
+[Speaker 1]: 在所有人意料之外，
+[Speaker 1]: 是 OE 跟 r 一。
+[Speaker 1]: 其实 OE 跟 r 一其实在啊，
+[Speaker 1]: 我我觉得他在 TTCK 内部也也也算是一次七喜。
+[Speaker 1]: 可以这么说，
+[Speaker 1]: 七喜的也也能也可以这么说。
+[Speaker 1]: 对，
+[Speaker 1]: 呃，
+[Speaker 1]: 就是就是他也但是也非常的偶然，
+[Speaker 1]: 但是也蛮偶然的。
+[Speaker 1]: 我认为他其实就是呃说当呃预训练范式变到后训练的时候，
+[Speaker 1]: 然后呃对于组织和团队以及创新的要求是不一样的时候。
+[Speaker 1]: 那么整个团队应该怎么再去重组织的一个问题？
+[Speaker 1]: 对我我是在这个事情上得到的最大的感知是这个对嗯是团队。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我我觉得团队是起首要要素，
+[Speaker 2]: 按照传统的管理方式说，
+[Speaker 2]: 哦，
+[Speaker 2]: 我现在要对后训练加大投入。
+[Speaker 2]: 好算力。
+[Speaker 2]: 我投了那投人，
+[Speaker 2]: 那我从外面挖一个人来，
+[Speaker 2]: 或者是我我我从嗯就是我我新新组建一个团队，
+[Speaker 2]: 这个是错误的方式嘛，
+[Speaker 1]: 就得看这个团队本身。
+[Speaker 2]: 他他可能会觉得后续的人就做后训练，
+[Speaker 1]: 我是觉得这样不是很有理域与创新吧。
+[Speaker 1]: 嗯就是最主要就是嗯就是你你能想到很多点上他会做的不好。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就比如说我刚刚说的后训练的数据的多样性上，
+[Speaker 1]: 嗯，
+[Speaker 1]: 如果只是做后训练人，
+[Speaker 1]: 天然就缺乏这个事业。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后还有就是嗯很多啊，
+[Speaker 1]: 其实我觉得最主要原因是这个呃很多团队他对作为训练和后训练人的这个人物画像很刻板。
+[Speaker 1]: 反正我们不是按照这种很刻刻板的方式来去就去招人组织人的哈。
+[Speaker 1]: 所以他很刻板的问题就是他天然也导致做预训练，
+[Speaker 1]: 人做不了后训练。
+[Speaker 1]: 或许是这样子，
+[Speaker 1]: 嗯，
+[Speaker 1]: 总之我也没太去了解，
+[Speaker 1]: 这里边是深么原因。
+[Speaker 1]: 我只是当我去了解的时候，
+[Speaker 1]: 我就觉得啊怎么那么奇怪，
+[Speaker 1]: 就然后那就这么疑婚，
+[Speaker 1]: 那我也不管为什么这么奇怪吧，
+[Speaker 1]: 反正我就觉得那样不太对，
+[Speaker 1]: 然后就我就不这么做，
+[Speaker 1]: 就 OK 就行了了。
+[Speaker 2]: 所以我们外界看到的可能是 r one。
+[Speaker 2]: 但是你在内部感知到的是在这个模型开始训之前的对团队的调整嗯和组织。
+[Speaker 1]: 其实其实就是大家认不认可这个事儿，
+[Speaker 1]: 然后以及我们要一种什么样方式来做这个事儿。
+[Speaker 1]: 我觉得我是在 RE 的过程中是有非常大的体验的。
+[Speaker 1]: 但最终的那个结果，
+[Speaker 1]: 就我我能预知到的时候，
+[Speaker 1]: 就我走的时候，
+[Speaker 1]:  RE 还已经做到一个 light 的水平。
+[Speaker 1]: 然后克鲁顿 mars 已经做到了非常接近于呃那个 OE，
+[Speaker 1]: 我以小的那一版嗯的水平。
+[Speaker 1]: 然后嗯那我预已经预识到了，
+[Speaker 1]: 是我觉得 code 跟 mass 上这个 reasoning 肯定能走通。
+[Speaker 1]: 而且即将可能 AME 会从哦那会儿只有三四十分嗯刷到我认为七八十分可能都非常有可能，
+[Speaker 1]: 但后边现在已经刷到一百分了。
+[Speaker 1]: 对呃，
+[Speaker 1]: 但我没有预识到的事情是，
+[Speaker 1]: 呃它其实是一个泛式转变。
+[Speaker 1]: 就 reasoning 它其实是可以通过 code mass 这个高泛化场景能泛化到通用以外。
+[Speaker 1]: 这个其实 OE 也没有走通，
+[Speaker 1]: 这个是我没有预料到的事情。
+[Speaker 1]: 所以哎也是因为哎这样的一个背景的因素，
+[Speaker 1]: 在导致我后面再看一些新的东西的时候，
+[Speaker 1]: 哪怕它是说一个很垂的场景去做，
+[Speaker 1]: 像刻鲁尤其是扣的这种场景去做。
+[Speaker 1]: 我会先思考他是不是真的能泛化。
+[Speaker 1]: 嗯，
+[Speaker 1]: 是不是我把他想小了？
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 然后嗯嗯这这只是一个一个可能嗯自己沉沉淀下来一套 skill。
+[Speaker 1]: 然后嗯然后这这是二四年二五年。
+[Speaker 1]: 对，
+[Speaker 1]: 可能二五年我觉得很薄润的一个事情是，
+[Speaker 1]: 他处在一个很交错的一年。
+[Speaker 1]: 这个交错一年，
+[Speaker 1]: 就是你可以选择在差的这套范式下，
+[Speaker 1]: 把 reasoning 给做到极致。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 继续去把啊 swebench 啊，
+[Speaker 1]: 把呃那个 nave code bench 这些偏 code 的 benchmark 就是思考很久，
+[Speaker 1]: 给出一个答案这种。
+[Speaker 1]: 然后把这种嗯嗯嗯那个 AME 对这些对你可以在这个范式上选择继续深根，
+[Speaker 1]: 你也可以选择我忽去掉。
+[Speaker 1]: 我就不管这些，
+[Speaker 1]: 对我不管这一套范式，
+[Speaker 1]: 然后我就去想下一下，
+[Speaker 1]: 嗯，
+[Speaker 1]: 我我可能在这套范式上能够做到六七十分就 OK 了。
+[Speaker 1]: 其实 ME 做到六十分就六七十分，
+[Speaker 1]: 就表示这个链路你已经走通了。
+[Speaker 1]: 但是你你你是不是可以就可能比较聪明的团队，
+[Speaker 1]: 我觉得二五年年终就会全面拥抱去佛新的一技能架构去做事情，
+[Speaker 2]: 那这是你的选择。
+[Speaker 1]:  mimax 是已经转过来了，
+[Speaker 1]:  mimax 我觉得算是转的。
+[Speaker 1]: 最早的你 max 是国内转的，
+[Speaker 1]: 最早的对，
+[Speaker 1]: 应该是我我觉得比 kimi 还早。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 但这样一种新的方式下，
+[Speaker 1]: 他其实对整个团队的这个啊敏捷性要求就很高。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 你要快速去迭代，
+[Speaker 1]: 基于一个记作快速迭代。
+[Speaker 1]: 所以你看从模型的发展速度上，
+[Speaker 1]: 你也看能看出来哪些公司它拥抱的速度够快。
+[Speaker 1]: 对，
+[Speaker 1]: 然后嗯嗯嗯可能有些公司就没有跟上，
+[Speaker 1]: 就是还是在原来插德方式下去继续生根，
+[Speaker 1]: 没有跟上。
+[Speaker 1]: 然后哪怕你去做了一些这种 bruss、
+[Speaker 1]:  bunch、
+[Speaker 1]:  sway、
+[Speaker 1]: 那个那个 switbench 这些，
+[Speaker 1]: 还有就是 terminal bench 啊这种这种哦这种呃带带所谓的和的这种 agenbench。
+[Speaker 1]: 并且在职业编析码里提升的很深。
+[Speaker 1]: 但它并不代表这个模型，
+[Speaker 1]: 它真的能实际可用。
+[Speaker 1]: 就 bwscop。
+[Speaker 1]: 比如说它就是一个非常离谱的一个评价指标，
+[Speaker 1]: 就在这上面虚的模型。
+[Speaker 1]: 它只我我感觉只能在这种数据集上去测你换种方式，
+[Speaker 1]: 嗯，
+[Speaker 1]: 哪怕也是做做信息检索的方式，
+[Speaker 1]: 你呃做呃你你最终他能力还是发放不出去，
+[Speaker 1]: 就很奇怪。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是这套呃整个数据集态局象整个呃呃呃框架也也也非常的呃 specific。
+[Speaker 1]: 对，
+[Speaker 1]: 所以就是呃就这半年，
+[Speaker 1]: 如果说在做 a ent 的人，
+[Speaker 1]: 大部分是在走到这个歧途上，
+[Speaker 1]: 我觉得他算是歧途啊，
+[Speaker 1]: 我们也走了一小这这儿，
+[Speaker 1]:  flash 第一代的时候，
+[Speaker 1]: 并没有想做 agent 的。
+[Speaker 1]: 其实想就是想做很好的洽 t，
+[Speaker 1]: 但我觉得呃一个原因是因为我们确实要先打好恰恰的技术。
+[Speaker 1]: 就是我就像我说的，
+[Speaker 1]: 你恰的至少要做到七八十分。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 然后把整个历程也走完。
+[Speaker 1]: 嗯，
+[Speaker 1]: 你才能够说呃你的 poser train 的数据的基建，
+[Speaker 1]: 你的尔基建，
+[Speaker 1]: 你现有的人，
+[Speaker 1]: 尤其是我们招的全都是没有做过大某些人，
+[Speaker 1]: 他他有个历练，
+[Speaker 1]: 他必须要有个成长经历，
+[Speaker 1]: 否则他一上来就做新的东西，
+[Speaker 1]: 怎么好做了。
+[Speaker 1]: 对，
+[Speaker 1]: 就是我我是我那会儿呃做 flash 的时候，
+[Speaker 1]: 我纯粹是一种 OK。
+[Speaker 1]: 我们做过的事情，
+[Speaker 1]: 再让一群没有经验的人再做一遍。
+[Speaker 1]: 但我更在乎是这群人在做呃这样一群新的事情的时候，
+[Speaker 1]: 他们自身在进化，
+[Speaker 1]: 然后他们这个进化嗯就对我们后边去做新的事情，
+[Speaker 1]: 非常有价值。
+[Speaker 1]: 因为我我极少在中间给非常强的 supervision 除，
+[Speaker 1]: 除非我发现要要掉头了。
+[Speaker 1]: 对，
+[Speaker 1]: 否则你给太细节的这种监督信号，
+[Speaker 1]: 就是告诉他这个事应该怎么做的一个缺陷。
+[Speaker 1]: 就是呃你会让这个让让团队的大部分人去去失去原创能力，
+[Speaker 1]: 这个是这是呃我我我认为应该去尽量避免的事情。
+[Speaker 1]: 对，
+[Speaker 2]: 什么叫做你们团队都没有大元模型背景的人，
+[Speaker 1]: 就是就是我们大部分招人之前都没有做过一个大模型。
+[Speaker 2]: 嗯，
+[Speaker 2]: 他们刚毕业，
+[Speaker 1]: 呃，
+[Speaker 1]: 就比如说在学校做了一些基础的研究，
+[Speaker 1]: 然后比如说之前甚至不是做大模型的那是做什么的做工程的呀，
+[Speaker 1]: 然后做开发的呀，
+[Speaker 2]: 这些都有一点训练背景，
+[Speaker 1]: 都不需要呃，
+[Speaker 1]: 有大概好的对的这个这个个的个的这个三分之一到四分之一人稍微有一点点训练经验，
+[Speaker 1]: 但是可能都只是训过。
+[Speaker 1]: 比如说啊七 b 嗯十四 b 啊，
+[Speaker 1]: 那类似于这样的规模模型，
+[Speaker 1]: 我觉得他跟训大模型都完全那些经验，
+[Speaker 1]: 也不太能复用。
+[Speaker 1]: 对，
+[Speaker 2]: 那需要你有很强的训练的呃实践的经验吗？
+[Speaker 2]: 他对你的经验要求高吗？
+[Speaker 1]: 嗯，
+[Speaker 1]: 他对一二三四步应该做什么，
+[Speaker 1]: 要求会更高一些。
+[Speaker 1]: 哎，
+[Speaker 1]: 但是但是我后面发现嗯，
+[Speaker 1]: 你不要告诉大家一二三四五做什么，
+[Speaker 1]: 然后就推大家一起，
+[Speaker 1]: 我们一起来重新做一半这个事儿，
+[Speaker 1]: 然后大家就会往前走了。
+[Speaker 2]: 然后这个组织待会聊，
+[Speaker 2]: 我们先把这个这个这个聊完完啊，
+[Speaker 2]: 你刚才回回顾了从二二年底到现在的整个就是技术发展历程，
+[Speaker 2]: 以及各个公司做了什么关键的事情。
+[Speaker 2]: 嗯，
+[Speaker 2]: 所以现在大模型的竞争从之前的 chat 过渡到了嗯 agent，
+[Speaker 2]: 对吗？
+[Speaker 2]: 嗯，
+[Speaker 2]: 这算是这个模型竞争的第二幕嗯，
+[Speaker 2]: 第二场战役就是所有人都开始在同一个起跑线上。
+[Speaker 1]:  a 源模型应该是可能 b 院模型。
+[Speaker 1]: 我觉得早早比如说比如说科好的，
+[Speaker 1]: 应该是两年前就在这个路径上了，
+[Speaker 1]: 只是我们没有意识到它是最正确的路径而已。
+[Speaker 1]: 对，
+[Speaker 1]: 或说大部分没有意识到，
+[Speaker 2]: 很多人我觉得是在去年意识到了。
+[Speaker 1]: 对去年意识到，
+[Speaker 1]: 但是都没有在做正确的事情。
+[Speaker 1]: 在我来看啊，
+[Speaker 2]: 什么是正确的事情？
+[Speaker 1]: 正正的事情就是你要在一套非常复杂的 a 卷的框架或多样的一些的框架上，
+[Speaker 1]: 然后去端到端的完成更高复杂度的任务，
+[Speaker 1]: 并且以此为目标作为你的后训练的范式。
+[Speaker 1]: 对，
+[Speaker 1]: 而不是在一个很局限的场景里边，
+[Speaker 1]: 针对一个这个场景定制的这个这这一套很简洁的架构里边去做啊，
+[Speaker 1]: 另外一个比差的更复杂度高一点点的啊呃任务。
+[Speaker 1]: 然后它的模型的输入输出还是一堆字符串理，
+[Speaker 1]: 呃，
+[Speaker 1]: 就是就还是一堆 token 一堆 token。
+[Speaker 1]: 然后你的模型的 out 的范式，
+[Speaker 1]: 可能还是我刚刚说的，
+[Speaker 1]: 以首以以推理 roll out 为中心。
+[Speaker 2]: 但其实 AG 呢已经不是你人 main max 是在这个转变是比较快的。
+[Speaker 1]: 觉得他我我感知到，
+[Speaker 1]: 我觉得他是比较快的。
+[Speaker 1]: 因为他们用一个识别的模型，
+[Speaker 1]: 做到目前的这样的一个嗯 AG 的能力，
+[Speaker 1]: 我觉得是是蛮惊艳的，
+[Speaker 1]: 就是他们的后训练的敏捷程度是非常惊艳的。
+[Speaker 2]: 但是你说嗯 a 政策的这个第二目，
+[Speaker 2]: 所谓的入场券是一体的基础模型，
+[Speaker 2]: 那那 mini max 没有这么大的模型啊。
+[Speaker 2]: 对，
+[Speaker 1]: 所以我我觉得他们并没有说真正意义上已经对标靠的四点 ops 四点六了吗？
+[Speaker 1]: 就我把入场定义为你要做到对标到 cos cloud offer 四点六的水平。
+[Speaker 2]: 嗯，
+[Speaker 2]: 它需要 ET 的基座，
+[Speaker 2]: 与此同时还需要和敏捷线对他已经具备这个事情了，
+[Speaker 2]: 那他具备具备的是后者。
+[Speaker 2]: 嗯，
+[Speaker 2]: 所以现在中国公司还没有同时具备两者，
+[Speaker 2]: 对吗？
+[Speaker 1]: 我嗯对嗯嗯，
+[Speaker 1]: 看一看第 CQ 吧。
+[Speaker 2]: 呃，
+[Speaker 2]: 刚才呃我们顺了一下，
+[Speaker 2]: 就是从二二年底，
+[Speaker 2]: 然后到现在每一年的模型变化。
+[Speaker 2]: 嗯，
+[Speaker 2]: 你觉得到今天嗯你们评价一下中美两边的这些厂商，
+[Speaker 2]: 他们各自到了一个什么样的位置？
+[Speaker 2]: 现在大家 but 有什么不一样吗？
+[Speaker 2]: 好的好的，
+[Speaker 2]: 对，
+[Speaker 2]: 好的，
+[Speaker 1]: 嗯，
+[Speaker 1]: 大家可能一个共识都是认为 o shopping 的路径是正确的。
+[Speaker 1]: 对我觉得这算是当下的一个共识。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是呃呃型的这条路也的路径也会更清晰。
+[Speaker 1]: 至少在过去的呃三个月以内，
+[Speaker 1]: 我觉得 aga 信用路是变得更清晰了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以在路径更清晰的情况下，
+[Speaker 1]: 嗯，
+[Speaker 1]: 国内的大模型团队我觉得会更呃就就会进入到一个加速追赶的一个状态。
+[Speaker 1]: 因为现在大家在 printry 上的呃代差，
+[Speaker 1]: 我觉得是非常啊是基本上没有的，
+[Speaker 1]: 或者说非常接近。
+[Speaker 1]: 或者说国内的大型团团队在出 prin 上、
+[Speaker 1]: 结构上是有优势的。
+[Speaker 1]: 呃，
+[Speaker 1]: 甚至一度我认为 cloud 啊可能嗯在呃过去很长一段时间做的很多 context engengering，
+[Speaker 1]: 我们都误以为它是因为模型结构不是很先进，
+[Speaker 1]: 然后为了成本而做的一些妥协的设计。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但现在回过头来看，
+[Speaker 1]: 可能是有点想的太局限了。
+[Speaker 1]: 然后现在可能你能看到所谓的这些 contains，
+[Speaker 1]: 呃，
+[Speaker 1]: 不管他最开始的东西是什么，
+[Speaker 1]: 但最终目前的啊这样的一个状态是他所谓的这个 contains 的管理以及搭配的整个 scafful 或者 agagent 的架构。
+[Speaker 1]: 呃，
+[Speaker 1]: 嗯，
+[Speaker 1]: 其实是为了呃呃配合模型发挥更强大的呃整体的呃任务的完成度而设计的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以我觉得那大家看到这样一个范式一个转变了过后，
+[Speaker 1]: 所以呃又有一个呃基座并没有发生代差的这样一个情况下。
+[Speaker 1]: 那么大家其实就很很 all in 的要去做好啊 agent 的 post er tree，
+[Speaker 1]: 或者说更具体的说，
+[Speaker 1]: 其实就在 agenent 上怎么去做好啊 our 的 scaling。
+[Speaker 1]: 其实这个非常啊清晰和准确的方向。
+[Speaker 1]: 但具体的路径研究路径是是需要探索的，
+[Speaker 1]: 但是至少要做的事情就跟二好的好的三年嗯要去追平 printrain 的差距一样，
+[Speaker 1]: 我认为是非常清晰的。
+[Speaker 2]: 对你什么时候意识到 coding 可以放化 coding 的放化性。
+[Speaker 1]: 那么强我觉得一开始就会就是不管是在 prince 范式还是 posttraing 范式，
+[Speaker 1]: 嗯，
+[Speaker 1]: 就二三年哪怕最开始嗯嗯我从量化回到大模型的赛道时候，
+[Speaker 1]: 嗯，
+[Speaker 1]: 就就会对 coding 的放化性会抱有非常高的期待。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是这种期待它是嗯呃转变成说 OK。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我先要好好的去做好 code 的预训练数据，
+[Speaker 1]: 然后嗯再去给你算力，
+[Speaker 1]: 看一下他到底在 code benchmark 上会不会很好。
+[Speaker 1]: 再看看 code。
+[Speaker 1]:  benchmark 提升了以后，
+[Speaker 1]: 其他的泛推理类的，
+[Speaker 1]: 像 BBH 啊、
+[Speaker 1]: 做法啊，
+[Speaker 1]: 这 benenchmark 会变得更好。
+[Speaker 1]: 最开始是这样实，
+[Speaker 1]: 它是一步步去嗯实验啊验证的这样一个探索的路径。
+[Speaker 1]: 然后呃到 RE 那块儿又又一次验证呢，
+[Speaker 1]: 因为 code 和 mass 都有非常好的 verify 的指标，
+[Speaker 1]: 所以为此延则，
+[Speaker 1]: 然后到 a 型的这个范式，
+[Speaker 1]:  code 又又又因为它有很好的 reenvironment，
+[Speaker 1]: 然后呃并且 code 可以天然做很长程的任务。
+[Speaker 1]: 比如软件开发就是一个非常长城的任务，
+[Speaker 1]: 你去做一个非常复杂项目工程，
+[Speaker 1]: 就是一个很长城任务，
+[Speaker 1]: 所以它又很适合 agent 这个范式，
+[Speaker 1]: 所以它基本上在每个范式上他都戳中了。
+[Speaker 1]: 呃啊那个点对就你都可以在课如上去，
+[Speaker 1]: 至少在研究上你可以是自闭环的。
+[Speaker 1]: 然后呃然后并且在这个自闭环的路径上做出来的东西，
+[Speaker 1]: 它是很容易去并到其他的更广领域的通用数据上。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 其实 code 本身就已经挺通用了。
+[Speaker 1]: 然后他他还很容易很，
+[Speaker 1]: 因为它本身就是自然语言，
+[Speaker 1]: 所以它很容易 skalme。
+[Speaker 1]: 对，
+[Speaker 1]: 所以做客这个事就是我觉得至少在这三个范式转变的时候，
+[Speaker 1]: 嗯，
+[Speaker 1]: 他他都是一个非常优雅的路径。
+[Speaker 1]: 对，
+[Speaker 2]: 而 l scaling 现在探索到哪个哪一步了，
+[Speaker 2]: 你没有什么探索的初步结果，
+[Speaker 1]: 没有暂时还不是很方便分享。
+[Speaker 1]: 我觉得等我们有一个啊，
+[Speaker 1]: 至少我觉得在 ROS 给你上的算力跟预训练的算力达到一个同一个首位的时候，
+[Speaker 1]: 我就会会给大家分享。
+[Speaker 2]: 你觉得今天的竞争变得更激烈了，
+[Speaker 2]: 还是变得更平缓了。
+[Speaker 2]: 相对于二三年，
+[Speaker 2]: 竞争的维度变多了吗？
+[Speaker 1]: 竞争维度变多了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是其实呃应该说竞争的维度和速度变都变多了，
+[Speaker 1]: 速度变得非常快。
+[Speaker 1]: 可能每你做预训练，
+[Speaker 1]: 你不可能一个月出一个模型，
+[Speaker 1]: 但你做后训练，
+[Speaker 1]: 你确实可以一个月出一个模型。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 然后嗯嗯还有就是呃呃其实 agtion 这个事儿，
+[Speaker 1]: 他除了看 h 的架构本身，
+[Speaker 1]: 也看你对整个推理测的嗯结构，
+[Speaker 1]: 或者说甚至硬件芯片对你是怎么去认知它的。
+[Speaker 1]: 我觉得它它会影响到有一些最基本的决策。
+[Speaker 1]: 比如说嗯十兆的 context 什么时候做，
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 要不要怎怎么去去给你一兆的 context。
+[Speaker 1]: 其实它涉涉及到你在比如说你在预训练，
+[Speaker 1]: 如果阶段就 skin，
+[Speaker 1]: 那么后边呃对应的啊 poser train 在一兆上去做 post train，
+[Speaker 1]: 跟在二百五十六 k 上去做 post train，
+[Speaker 1]: 它的算据算力差距是好几倍的差距。
+[Speaker 1]: 所以你是不是有足够多的算力差距去 supporting 去做这个事情。
+[Speaker 1]: 对所以呃呃以及你最终的场景，
+[Speaker 1]: 以及这个框架本身的能力，
+[Speaker 1]: 是不是支持你能在实兆上的能力给发挥出来，
+[Speaker 1]: 或依兆上能力发挥出来。
+[Speaker 1]: 他其实是有一个更长的决策链路。
+[Speaker 1]: 他从原来 print train，
+[Speaker 1]: 哎，
+[Speaker 1]: 只需要对 print train 本身的架构做决策，
+[Speaker 1]: 到需要对哎你你对快速的接下来一段时间嗯，
+[Speaker 1]: 按 AG 的框架演变推理芯片的整个市场啊啊，
+[Speaker 1]: 我觉得算是供需的一个预估。
+[Speaker 1]: 因为它因为芯片嗯他他他受受制于这个制造的工艺，
+[Speaker 1]: 对吧？
+[Speaker 1]: 哦，
+[Speaker 1]: 不呃，
+[Speaker 1]: 制造的呃呃储储备所呃，
+[Speaker 1]: 它它瓶颈就在那。
+[Speaker 1]: 然后以及你要不要尽早去规划啊，
+[Speaker 1]: 去做更广的不是佛打印芯片的模型结构，
+[Speaker 1]: 嗯，
+[Speaker 1]: 都是需要提前去做好规划的事情。
+[Speaker 2]: 嗯，
+[Speaker 2]: 这个说的是大模型的公司维度。
+[Speaker 2]: 那你就觉得对于创业公司呢，
+[Speaker 2]: 当然你没有创业啊，
+[Speaker 2]: 你觉得今天创业公司机会变多了吗？
+[Speaker 2]: 站在二零二六年还是更绝望了。
+[Speaker 1]: 坦率来讲，
+[Speaker 1]: 我不是很了解，
+[Speaker 1]: 除了七座大航行以外的创业公司，
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以而且呃但是我能看到的是嗯，
+[Speaker 1]: 至少他对关创业公司的团队的规模要求会越来越小。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是可能不需要有一个非常大的公司，
+[Speaker 1]: 呃，
+[Speaker 1]: 就几个人甚至一个人都可以成为一个公司。
+[Speaker 1]: 他大大概就只要你你学会充分借助 AG，
+[Speaker 1]: 能来去让他变成你的。
+[Speaker 1]: 就我之前老看看到有人说 open core 上，
+[Speaker 1]: 我一个人养很多个员工，
+[Speaker 1]: 就嗯我自己也也去做过这种毛体检的尝试。
+[Speaker 1]: 虽然当下目前来看是不那么现实的，
+[Speaker 1]: 或者说我觉得有点学野头，
+[Speaker 1]: 但但是我觉得它很快会变成一个现示。
+[Speaker 2]: 嗯，
+[Speaker 2]: 在今年内嗯会对 multiagents。
+[Speaker 2]: 对对 multii agents 就是没有突破的地方是什么呀？
+[Speaker 2]: 现在差哪一里了？
+[Speaker 1]: 嗯，
+[Speaker 1]: 呃每个环节都差一点，
+[Speaker 1]: 就比如说呃你需要有个足够便宜的模型，
+[Speaker 1]: 因为你你最终算的是他是不是比我招一个真正的员工更便宜。
+[Speaker 1]: 对，
+[Speaker 1]: 要是不那么便宜好用，
+[Speaker 1]: 为什么要用你呢？
+[Speaker 1]: 对，
+[Speaker 1]: 所以呃你还是要有一个更更低价的一个模型，
+[Speaker 1]: 嗯，
+[Speaker 1]: 不可能说你烧个 cloud ops 一天花一千多头肯，
+[Speaker 1]: 结果那个员工创造价值可能一千啊，
+[Speaker 1]: 对，
+[Speaker 1]: 就这个意思嘛。
+[Speaker 1]: 然后啊第二个就是嗯第二个就是我觉得现在的 multiagenent 的架构并没有那么呃呃我觉得还有空间，
+[Speaker 1]: 反正对还有空间以及他们各自怎么去自信化自迭代，
+[Speaker 1]: 以及互相互相去沟通。
+[Speaker 1]: 嗯，
+[Speaker 1]: 这这都还有还有空间，
+[Speaker 1]: 就嗯都还。
+[Speaker 1]: 虽然有你你感觉现在已经有这个雏形了，
+[Speaker 1]: 而且呃我自己也 multigen 也用的挺顺的。
+[Speaker 1]: 但是我我始终觉得他还是在去呃节省成本，
+[Speaker 1]: 节省时间并没有去放大最终的上限。
+[Speaker 1]: 哇，
+[Speaker 1]: 现在还没有感感受到这样呢，
+[Speaker 1]: 所以那会不会 multigen 的协同的训练，
+[Speaker 1]: 会不会做到这个事情，
+[Speaker 1]: 我嗯没必吧。
+[Speaker 2]: 那你觉得模型公司的边界在哪里啊？
+[Speaker 1]: 现在模型公司好像没有边界，
+[Speaker 1]: 就是感觉好像我我我之前说我不想做产品，
+[Speaker 1]: 但现在发现就是他他又变成直接做产品了，
+[Speaker 1]: 就模型机产品是对对借助一这个他的产品力反而更强了。
+[Speaker 1]: 然后其他所有东西都很简单，
+[Speaker 1]: 然后就反而反而而而而就是模型借助这个 a 件的架构，
+[Speaker 1]: 本身就变又变成一套新的产品了。
+[Speaker 2]: 现在在你看来，
+[Speaker 2]: 一个公司为什么要选择开源？
+[Speaker 2]: 为什么选择闭源啊？
+[Speaker 2]: 因为国内大部分公司都开源了，
+[Speaker 2]: 除了自己嗯，
+[Speaker 2]: 现在选开源的目的会是什么呢？
+[Speaker 2]: 这是一个技术选择，
+[Speaker 2]: 还是一个市场选择，
+[Speaker 1]: 还是一个去加速一件事情，
+[Speaker 1]: 我还是认为是这个目的。
+[Speaker 2]: 开源是加速一件，
+[Speaker 1]: 开源一定是是加一一件事情。
+[Speaker 1]: 就你如果没有开源，
+[Speaker 1]: 你呃我们假设一件会爆发，
+[Speaker 1]: 假设它会替代绝大部分的生产力。
+[Speaker 1]: 那么我们可以从这个时候去倒推，
+[Speaker 1]: 你需要哦多少多少的芯片。
+[Speaker 1]: 嗯，
+[Speaker 1]: 你需要呃那么呃这些芯片难道会被一家公司生产吗？
+[Speaker 1]: 难道会被一家公司购买吗？
+[Speaker 1]: 好像不是，
+[Speaker 1]: 它会分散。
+[Speaker 1]: 然后嗯那么如果它是分散的情况下，
+[Speaker 1]: 那么呃假设芯片是分散，
+[Speaker 1]: 那这些芯片的推理呃，
+[Speaker 1]: 有可能是芯片的厂商，
+[Speaker 1]: 有可能是嗯大模型的厂商。
+[Speaker 1]: 那么他用的模型难道是同一个吗？
+[Speaker 1]: 还是用的不一样模型，
+[Speaker 1]: 我认为一定是不一样的。
+[Speaker 1]: 对，
+[Speaker 1]: 所以你从中局来倒推的话，
+[Speaker 1]: 开源这个事儿一定是有至少有利有有利于推进这个事情的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 因为他最终终嗯要要大规规模产经经济价值，
+[Speaker 1]: 他必须依赖赖，
+[Speaker 1]: 算算才能产生经产生经经济价值的对。
+[Speaker 1]: 所以我我认为太原市至少对于哎对于很多环节 a 九框架芯片能源，
+[Speaker 1]: 这些环节上其实都都是有促进作用。
+[Speaker 1]: 所以我认为它是加速 IGI 进程的那你说它最后是一种工艺还是一种哦市场？
+[Speaker 1]: 嗯，
+[Speaker 1]: 我觉得是取决于每个公司在开源，
+[Speaker 1]: 呃，
+[Speaker 1]: 是跟结合自己的生态位。
+[Speaker 1]: 就是你有没有一个别人不可以呃短期内嗯拿下的一个战略的生态位。
+[Speaker 1]: 如果有的话，
+[Speaker 1]: 那么你就敢开源。
+[Speaker 1]: 如果没有的话，
+[Speaker 1]: 你就认为模型就是你的生态位，
+[Speaker 1]: 那你就不开源。
+[Speaker 1]: 对，
+[Speaker 1]: 就是这样的一个一个行为。
+[Speaker 2]: 对你在一个大公司做开源的事情会有压力吗？
+[Speaker 1]: 嗯，
+[Speaker 1]: 我现在不觉得我在大公司做事情，
+[Speaker 1]: 其实小米整体我觉得非常的创业导向。
+[Speaker 1]: 我我我我我觉得呃很奇怪的是他看起来是个大公司，
+[Speaker 1]: 但是他其实是一个嗯做事儿的灵活度非常高的公司。
+[Speaker 2]: 那你觉得二零二六年什么会成为魔型公司竞争的胜负手呀？
+[Speaker 2]: 嗯做对了什么才能留在牌桌上？
+[Speaker 1]: 首先不能做错的事情，
+[Speaker 1]: 是首先嗯你你你的啊预训练基做嗯不能错，
+[Speaker 1]: 就如果这个事儿都没有上，
+[Speaker 1]: 那就那就基本上就就完全没有机会了。
+[Speaker 1]: 对所呃所以假设我们都有一个大于一 t 的模型，
+[Speaker 1]: 然后机术的潜能都在，
+[Speaker 1]: 尤其在扣 de 上，
+[Speaker 1]: 潜能都是相当的这样的一个一个 base 上。
+[Speaker 1]: 那么大家比拼的就是呃怎么去快速的去呃第一个怎么让 a 卷的框架跟模型互相自自迭代提升。
+[Speaker 1]: 第二个，
+[Speaker 1]: 怎么让这个 a 卷的架构去更多的去嗯耦合你现在所具备的资源。
+[Speaker 1]: 对嗯或者说态态位。
+[Speaker 1]: 怎么让这个 AA 线的架构去理解你理解和调度你现在所备的资源和生态位。
+[Speaker 1]: 比如操作系统是比如说硬件是比如说呃呃呃流量也算是对嗯，
+[Speaker 1]: 然后呃设是流量社交，
+[Speaker 1]: 这些都算是对怎么让这个 a 线架构去适配你现在的所具备具备的战略资源。
+[Speaker 1]: 然后然后举最后合合力起来，
+[Speaker 1]: 怎么把它给整合好。
+[Speaker 1]: 其实呃他很考验的是呃呃，
+[Speaker 1]: 我我自己觉得他非常考验的是呃一个公司愿不愿意用一套新的方式来做这个事情。
+[Speaker 2]: 什么叫新的方式啊？
+[Speaker 1]: 得思考原来所有的做的东西都是错的对，
+[Speaker 1]: 原来是不是有这么需要这么多人来做这个事情。
+[Speaker 1]: 首先要思考，
+[Speaker 1]: 你需不需要这么多人来做这个事情啊，
+[Speaker 1]: 就是你现在所有做的事情，
+[Speaker 1]: 这些人是不是都需要好的好的被砍掉，
+[Speaker 1]: 因为它的生产力会被另外一个更高效的东西给替代。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 或者说怎么让这群人去利用嗯 agent 的来去发挥更大的生产力价值。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 所以这些都都需要去思考。
+[Speaker 1]: 第二个就是在新的生态会上，
+[Speaker 1]: 原来那些看起来有壁垒的事情是不是啊？
+[Speaker 1]: 还还是有壁垒的，
+[Speaker 2]: 你觉得 frontier lab 的 frontier 应该体现在哪里？
+[Speaker 1]: 嗯，
+[Speaker 1]: 最基本的我觉得做研究应该放弃了。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是还是要有那种嗯自己想要原创做很多东西，
+[Speaker 1]: 而且这些东西可能短期内不会不会那么主流。
+[Speaker 1]: 但是你要说嗯完全不会主流认可，
+[Speaker 1]: 那也那也那也很奇怪，
+[Speaker 1]: 我觉得我自己觉得有点蛮嗯反主流，
+[Speaker 1]: 我觉得很我觉得不是很适合的一件事情，
+[Speaker 1]: 是你很难很难。
+[Speaker 1]:  skin 我还是很相信 skin 这个事儿你只要顺应主流的话，
+[Speaker 1]: 那你就很容易去 skin。
+[Speaker 2]:  er 为什么呀？
+[Speaker 2]: 呃，
+[Speaker 1]: 你的所有的 ffer，
+[Speaker 1]: 所有呃硬件芯片，
+[Speaker 1]: 这些它都是围绕着这个目标来一起往前推动的。
+[Speaker 1]: 那么你你个人就会获，
+[Speaker 1]: 那么你这个研究就会获得非常大的加速度。
+[Speaker 1]: 对，
+[Speaker 1]: 主要是这个原因。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以我所以我觉得会顺这个主流，
+[Speaker 1]: 然后去做一点。
+[Speaker 1]: 我们超前认为为比如说刚开始 efficient 的架构，
+[Speaker 1]: 它其实就是在这样一个背景下去做的。
+[Speaker 1]: 但他也没有说上开天辟地的研究。
+[Speaker 1]: 但他我我们认为呃这些小点研究沉积起来，
+[Speaker 1]: 那么他就是一个呃非常嗯嗯高水准的呃一个一个一个 frontier 的一个 model 的状态。
+[Speaker 2]: 你对你过去几年做的比较偏原创性的研究比较满意的是什么？
+[Speaker 1]: 我觉得比较原创性的研究都是工工业级水准的。
+[Speaker 1]: 就比如说呃呃 deep deep CVR，
+[Speaker 1]: 它就是一个工业级水准的一个模型。
+[Speaker 1]: 对当大家都在主流去做呃一个呃更大规模的词的模型的时候，
+[Speaker 1]: 然后然后我们反主流去做呃 denm OE，
+[Speaker 1]: 然后去做去改 attention。
+[Speaker 1]: 这其实是他是这两个都是在做研究，
+[Speaker 1]: 但是他是嗯嗯嗯他是稍微因为在一个呃有时候可能更多是在一个呃资源受限的场景里边做了研究，
+[Speaker 1]: 但它本质上是可以 salme 的研究。
+[Speaker 1]: 对，
+[Speaker 1]: 所以我觉得这个算是一个不错的作品。
+[Speaker 1]: 然后呃 miu VR 系列我觉得也算是一个是嗯是因为我们呃确实在 agent 这个范式还没有非常明朗的时候，
+[Speaker 1]: 就去做了很多前置的这个决策和判断。
+[Speaker 1]: 然后导致我们很很很我觉得很高效快速的去基于一个呃优雅简洁的结构给训起来。
+[Speaker 1]: 然后这个结构，
+[Speaker 1]: 并且就是我们发现它非常的适配 a 键的这套范式。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后我们又快速的去转移到 a 线的这套范式上，
+[Speaker 1]: 做了很多后训练的呃设计。
+[Speaker 1]: 对，
+[Speaker 1]: 尤其是围绕着整个 a 键的架构来去重新去设计我们的 r infer。
+[Speaker 1]: 对我觉得这些都是呃就是都是很多点合成起来后，
+[Speaker 1]: 最终让大家感受到的不是一个 paper 本身，
+[Speaker 1]: 而是一个呃工业级水平的模型。
+[Speaker 2]: 你对发 paper 现在有执念之类的吗？
+[Speaker 1]: 没有就发的越少越好，
+[Speaker 1]: 为什么呀？
+[Speaker 1]: 我就希望别人发发发，
+[Speaker 1]: 那么我们团里边有些人我说不要带我。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是核心原因是我现在也不看学术会议的 paper。
+[Speaker 1]: 主要的原因之一是，
+[Speaker 1]: 嗯，
+[Speaker 1]: 我觉得大部分的实验确实应该自己做。
+[Speaker 1]: 然后你相信自己的实验结，
+[Speaker 1]: 我比相信论文的时间结果会更好。
+[Speaker 1]: 但是我会看一下他的原始关注的问题和动机是什么？
+[Speaker 1]: 这个我会我偶尔会会看一下。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但但总之我觉得在有没有在这种大规模的算力的团队里边，
+[Speaker 1]: 而做过研究的人跟没做研究人他关注问题，
+[Speaker 1]: 我发现重叠度也差的蛮多的，
+[Speaker 1]: 所以我现在就越来越少。
+[Speaker 1]: 看这些论文了，
+[Speaker 2]: 那你现在信息来源包括哪些来源？
+[Speaker 1]: 自己迭带，
+[Speaker 1]: 真真来源，
+[Speaker 1]: 自己也带我。
+[Speaker 1]: 我最近连跟人沟通都都很少很少。
+[Speaker 1]: 对，
+[Speaker 1]: 所以我都不知道。
+[Speaker 1]: 我今天讲了这这这么多个小时的这些东西，
+[Speaker 1]: 他会不会过过一段时间发现我我应该会过一段时间会发现他是错的。
+[Speaker 1]: 但是我不知道当下会有多少人会觉得嗯他是交流过，
+[Speaker 1]: 或者说是不是呃有有帮助和价值的，
+[Speaker 2]: 就还没交流过，
+[Speaker 1]: 没有交流过。
+[Speaker 1]: 要要说有交流，
+[Speaker 1]: 就是自己跟自己交流，
+[Speaker 1]: 然后自己看看跟团队边边，
+[Speaker 1]: 其他人在做。
+[Speaker 1]: 同样实验人交流。
+[Speaker 2]: 对你刚刚其实嗯多多少少我多提到了一些组织话题，
+[Speaker 2]: 嗯，
+[Speaker 2]: 包括我们上次也聊了很多的组织话题，
+[Speaker 2]: 你在最近的两个月有没有一些迭代呀？
+[Speaker 2]: 这一百个人可能有二十个人，
+[Speaker 2]: 以前训过接触过小一点的模型。
+[Speaker 2]: 对，
+[Speaker 1]: 就主要是我觉得这些事情他都嗯可以被被快速习得，
+[Speaker 1]: 这些能力真的都可以被快速习得。
+[Speaker 1]: 嗯，
+[Speaker 1]: 只要你被放在那个环境里边，
+[Speaker 1]: 围绕着一个更高标准的目标来驱动的时候，
+[Speaker 1]: 这些能力都是可以会被我觉得最多一两个月慢的话，
+[Speaker 1]: 三四个月确实都可以被快速习得。
+[Speaker 1]: 所以呃环境反而比经验更重要。
+[Speaker 1]: 我自己认为所以我就没有太在乎他的经验，
+[Speaker 1]: 而而更在乎我是不是创造了一个更好的环境。
+[Speaker 1]: 这个环境让大家更快、
+[Speaker 1]: 更快的提升学习，
+[Speaker 1]: 让大家互相的呃所谓的 MOPD，
+[Speaker 1]: 我们说的就是互相的争馏，
+[Speaker 1]: 我蒸馏你的呃你的长处，
+[Speaker 1]: 你针馏我的长处，
+[Speaker 1]: 互相这样快速的提升。
+[Speaker 1]: 对，
+[Speaker 1]: 就是我更在乎说我自己创造这个环境是不符合这样的一个先约条件的，
+[Speaker 1]: 而不是在乎这个人来的时候，
+[Speaker 1]: 他的历史背景的这个基因是不是好。
+[Speaker 1]: 我只在乎他的可能初始化企合破译者的上限高不高。
+[Speaker 1]: 我只在乎这个事情，
+[Speaker 1]: 但我不太在乎。
+[Speaker 1]: 他他他目前呃已经被 supers 的呃呃男领过后的那个点的状态高不高，
+[Speaker 1]: 我就不太在乎这个。
+[Speaker 2]: 那你会选什么样的人啊？
+[Speaker 2]: 就是他的学历是需要和人工智能相关的吗？
+[Speaker 1]: 看做什么东西，
+[Speaker 2]: 判见博士的比例是百分之五十五。
+[Speaker 2]: 对，
+[Speaker 1]: 那是包含谈在读博士哦。
+[Speaker 2]: 对，
+[Speaker 1]: 在读不是博士，
+[Speaker 1]: 毕是在读博士。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 呃呃那些数字我觉得是有点刻板的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后嗯呃其实其实这更多是代表一个人对做研究的啊呃热爱和热爱程度。
+[Speaker 1]: 就是如果他说对做研究热爱，
+[Speaker 1]: 他可能会选择读，
+[Speaker 1]: 呃，
+[Speaker 1]: 至少至少读读一个研究，
+[Speaker 1]: 呃，
+[Speaker 1]: 读一个硕士或博士。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后嗯，
+[Speaker 1]: 但但是我发现现在更我们也招了非常多的本科生。
+[Speaker 1]: 然后本科生在对这种 a 线的这种新的呃凡事的理解上，
+[Speaker 1]: 我觉得反而他的想象力会更高。
+[Speaker 1]: 所以我现在反而招人会慢慢倾斜到去招更多的潜质的本科生，
+[Speaker 1]: 我们会去招大二大三的人，
+[Speaker 2]: 为什么呀？
+[Speaker 1]: 因为他们的灵活性和适应程度都感觉没有被污染，
+[Speaker 1]: 就就就嗯天然更接纳这个事情会产生巨大价值。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 就他的思想还没有被禁锢的感觉。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后呃所以他敢放心大胆的把自己那些呃想法交给就他加我去验证，
+[Speaker 1]: 然后自己不断去探索这个边界。
+[Speaker 2]: 那你怎么创造环境？
+[Speaker 1]: 首先是构建这个环境的人，
+[Speaker 1]: 他是要有同样的特质的。
+[Speaker 1]: 就比如说我说要强调热爱这个事情，
+[Speaker 1]: 然后强调使命感这个事情我觉得是要有这些基础的特质的。
+[Speaker 1]: 然后嗯呃其次又是在呃这些特质，
+[Speaker 1]: 因为他都基较虚嘛，
+[Speaker 1]: 所以你理性。
+[Speaker 1]: 所以另外一个就是要把这些特质给真的给放大的一个前提是他的基础要好。
+[Speaker 1]: 就是嗯呃就是当你你可以解为是当他想做什么事情的时候，
+[Speaker 1]: 呃，
+[Speaker 1]: 他有这个热爱的时候，
+[Speaker 1]: 他要能做成。
+[Speaker 1]: 就是他这个基础要好，
+[Speaker 1]: 他不能就光就就想法都但做不成就。
+[Speaker 1]: 这个基础是构建成他最后做不做得成的关键要素，
+[Speaker 2]: 这是一个技术能力。
+[Speaker 1]: 对对，
+[Speaker 1]: 所以我们会选基础好的，
+[Speaker 1]: 然后呃好奇心强的，
+[Speaker 1]: 然后呃呃热爱驱动做事情的。
+[Speaker 1]: 当然还有一些可能嗯越来越会有一些嗯嗯更多对多样性有更高的要求，
+[Speaker 1]: 对多样性有更高要求。
+[Speaker 1]: 因为如果越的太同质化，
+[Speaker 1]: 那么大家很容易去 miss 掉一些，
+[Speaker 1]: 嗯，
+[Speaker 1]: 看起来还是噪音，
+[Speaker 1]: 但实际上对研究非常有价值的一些信息。
+[Speaker 1]: 对，
+[Speaker 1]: 然后那么这个时候多样性又非常重要。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以我们上班那个个每个群叽叽喳喳聊的挺多的对，
+[Speaker 1]: 就大家都会疯狂的呃把自己呃的想法或者说关注到信息给分享出来。
+[Speaker 1]: 然后或说嗯嗯有有可能是在群里面，
+[Speaker 1]: 有可能就在座位上，
+[Speaker 1]: 反正吵的不行，
+[Speaker 1]: 一天到晚。
+[Speaker 1]: 然后嗯我觉得这样的沟通的环境是非常好的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后嗯然后当然还有一些外部，
+[Speaker 1]: 就是这是内部哈，
+[Speaker 1]: 还有一些外部的因素，
+[Speaker 1]: 就是比如说你的激励的方式，
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 组织呃就是呃就就不不能太围绕着某些非常确定和清晰的目标来做。
+[Speaker 0]: 嗯，
+[Speaker 1]: 然后以及嗯呃我觉得这个激励方式呃钱是一个很重要的 baseline。
+[Speaker 1]: 但是他嗯他他不是唯一的 baseline，
+[Speaker 1]: 对，
+[Speaker 1]: 嗯就是就是钱要给够。
+[Speaker 1]: 但是呢除了钱之外的其他东西也非常的关键，
+[Speaker 1]: 就是他的价值感，
+[Speaker 1]: 他的意义感。
+[Speaker 1]: 其实我觉得很多人更远远更在乎这些东西。
+[Speaker 2]: 你刚才说嗯后续练团队搭建方式和预训练会有一点不一样。
+[Speaker 2]: 嗯，
+[Speaker 1]: 通常我们在会去训练上看到的人就两类会会适应的会非常好。
+[Speaker 1]: 对，
+[Speaker 1]: 或者说他对这个事儿会更有热情。
+[Speaker 1]: 嗯，
+[Speaker 1]: 第一类就是他会更注重嗯去跟模型玩的这样一群人。
+[Speaker 1]: 对，
+[Speaker 1]: 因为他去玩，
+[Speaker 1]: 他才知道每个模型能力的边界在哪儿。
+[Speaker 1]: 然后嗯他才会会去想要呃去找到一种可 skiin 的方式去把他这个嗯这个边界给补充回来。
+[Speaker 1]: 有可可是呃呃去构造一批更强的数据，
+[Speaker 1]: 呃，
+[Speaker 1]: 以及更强的环境，
+[Speaker 1]: 让他能够嗷嗷训练起来。
+[Speaker 1]: 然后呃有可能是佛佛霸到预训练的某个环节，
+[Speaker 1]: 可能这批数据没做好，
+[Speaker 1]: 我给我把这个数据给他补上，
+[Speaker 1]: 这一类的数据给他补上。
+[Speaker 1]: 那么可能我下次去模型的时候会更好。
+[Speaker 1]: 总之就是呃更在乎模型体验的人，
+[Speaker 1]: 更跟模型交互的频次更高的人，
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 他会非常适应这个范式。
+[Speaker 1]: 因为因为我我我觉得这个迭代是有价值的，
+[Speaker 1]: 就如尤其是那些维护了自己很多私有的测试库的人，
+[Speaker 1]: 然后他疯狂去测不同模型的边界，
+[Speaker 1]: 然后呃呃突然发现某个模型嗯强了，
+[Speaker 1]: 然后呃然后分享出来自己这种独特体验的人我认为是还是蛮适合去去去进入这这个范式的。
+[Speaker 1]: 啊，
+[Speaker 1]: 还有一个就是确实呃我觉得不可避免是这个我们要不绕这个新的新的嗯这的范式去设计它很好的 r 的法法体系。
+[Speaker 1]: 所以呃做 r 做 r 的法法跟做的法法有一个非常大的不同，
+[Speaker 1]: 是 prr 的引法会，
+[Speaker 1]: 更在乎这个模糊程度。
+[Speaker 1]: 我自己认为就是就是培训语法，
+[Speaker 1]: 你可能不能容错。
+[Speaker 1]: 就是比如说我们出现一个 low spike，
+[Speaker 1]: 你就不允许它出现，
+[Speaker 1]: 你要想要把这个 spike 给它哎解决下去。
+[Speaker 1]: 但做 our 语法，
+[Speaker 1]: 你需要允许嗯它容错就是容错。
+[Speaker 1]: 就是你你允许这个呃模型跟这个 a 键的呃，
+[Speaker 1]: 在这个 a 技能框架边，
+[Speaker 1]: 如果揉到一半，
+[Speaker 1]: 这个垂直于就断了。
+[Speaker 1]: 但但它断的原因有很多种，
+[Speaker 1]: 你根本找不到它是哪一种。
+[Speaker 1]: 它有可能是因为哎这个 a 键框架写了某个超时的逻辑，
+[Speaker 1]: 呃，
+[Speaker 1]: 呃呃，
+[Speaker 1]: 有可能是因为哎哎他做这个呃任务需要很长的呃验证流程。
+[Speaker 1]: 那那乱七八糟，
+[Speaker 1]: 你你不知道他是是是为什么原因，
+[Speaker 1]: 这这个就掉掉了。
+[Speaker 1]: 呃，
+[Speaker 1]: 还有一个就是会不会你的训跟推推理在在构构的集群上训的。
+[Speaker 1]: 然后所以你你你你你的训练和推的不一致性，
+[Speaker 1]: 我觉得原原来扣了个 ass 的呃，
+[Speaker 1]: 那个 reasoning 那个范式里外是不能容忍这个事情的。
+[Speaker 1]: 但现在你必须要容忍这个事情，
+[Speaker 1]: 然后引擎你怎么去做一些更多的异构资源的调度。
+[Speaker 1]: 比如说现在除了 GPU，
+[Speaker 1]: 你还要管 CPU，
+[Speaker 1]: 然后你还要管看存储，
+[Speaker 1]: 对吧？
+[Speaker 1]: 然后所以就是怎么在这种很复杂一路资源里边把这个模型训起来。
+[Speaker 1]: 然后嗯就是我觉得这里边需要很多算法跟工程的一个妥协，
+[Speaker 1]: 嗯，
+[Speaker 1]: 中间这个模糊的地带非常多。
+[Speaker 1]: 然后呃所以他对英菲尔人的要求的灵活性的要求和这种啊这种这这跨这两个领域的这样的一个理解。
+[Speaker 1]: 我觉得要求变得非常之高。
+[Speaker 1]: 然后呃也也换句话说，
+[Speaker 1]: 其实我觉得他相比喷雀来说，
+[Speaker 1]: 他都对灵活性和敏捷性都提出了新的要求。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后能能够适应这个范式的人，
+[Speaker 1]: 就会就会觉得呃他他其实没有适应，
+[Speaker 1]: 就是原来就是有那么一群人，
+[Speaker 1]: 他比如尔里边哪，
+[Speaker 1]: 哪怕尔是一个相对来说追求一个呃呃很多事情，
+[Speaker 1]: 都是有一个清晰的答案和解法人。
+[Speaker 1]: 然后哦嗯他来做 infinfr 呃，
+[Speaker 1]: 还是会以会会有那么一群人是适合做 infall 法。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以大概我觉得是是这样那一个变化，
+[Speaker 1]: 所以我们那边可能看起来还是至少做 prinl info 跟 r fo，
+[Speaker 1]: 我觉得还是分开的，
+[Speaker 1]: 嗯，
+[Speaker 1]: 不太能够交融。
+[Speaker 1]: 因为他们确实对于我觉得对复杂性和这种精确度要要求会会会差异很大。
+[Speaker 2]: 嗯，
+[Speaker 2]: 做 RL 的瓶颈到底在哪里啊？
+[Speaker 2]: 你刚才提到 printry 其实真正差不多了，
+[Speaker 1]: 其实真正 agagent 的给 sgain 起来的团队很少非常少。
+[Speaker 1]: 嗯，
+[Speaker 2]: 包括海外是吧？
+[Speaker 2]: 嗯，
+[Speaker 1]: 呃 sop 肯定肯定做这个事儿。
+[Speaker 1]: 然后其他团队我不是是非常了解，
+[Speaker 1]: 至少我从最重的模型效果上感觉到没有没有没有跟 in 到跟 print 圈一样亮起。
+[Speaker 1]: 嗯，
+[Speaker 2]: 就是嗯之前发展了两个范式嘛，
+[Speaker 2]: 你觉得再往后有什么新的范式吗？
+[Speaker 1]: 不确定先把这个范式做了再说。
+[Speaker 1]: 我觉得是我我们刚刚聊到那个是就是一个一个生成模型，
+[Speaker 1]: 跟到感知能量强模型联合到一套新的框架边去进进进行。
+[Speaker 1]: 二、
+[Speaker 1]: 好训练这个事已经足够的在我的规划里已经足够了，
+[Speaker 1]: 长期并且比较难实现。
+[Speaker 1]: 现在有人说是 continue lelearning onlelearning 现在觉得 continue learning 和 online learning 我更多的是代指呃，
+[Speaker 1]: 他跟这个环境产生交互的时候，
+[Speaker 1]: 或者说跟 a 技能框架呃多轮交互的时候，
+[Speaker 1]: 这个框架本身在自己迭代和进化。
+[Speaker 1]: 我我我是不是这么去定义这个事情呢？
+[Speaker 2]: 你对未来有什么预期啊？
+[Speaker 2]: 我觉得未来可能是二六年，
+[Speaker 2]: 可能是二七年，
+[Speaker 2]: 也可能是更长远一点。
+[Speaker 1]: 我现在觉得把当下的做完，
+[Speaker 1]: 每天的研究都做好，
+[Speaker 1]: 我就觉得非常好。
+[Speaker 2]: 你现在工作状态是什么样？
+[Speaker 2]: 工作节奏，
+[Speaker 1]: 早上十一点，
+[Speaker 1]: 晚上一一二三四点哦。
+[Speaker 1]: 但这是我的状态，
+[Speaker 1]: 不代表我们团队其他人的状态。
+[Speaker 2]: 你是夜猫子是吗？
+[Speaker 1]: 嗯，
+[Speaker 1]: 倒不是，
+[Speaker 1]: 是我自己本身的睡眠，
+[Speaker 1]: 确实不需要特别多的睡眠，
+[Speaker 1]: 可能嗯六六个小时就完全足够了。
+[Speaker 1]: 然后五个小时也可以，
+[Speaker 1]: 四到四个小时也行，
+[Speaker 1]: 四到六个小时在我一个 ok 的区间。
+[Speaker 1]: 对，
+[Speaker 1]: 所以我我不需要那么多睡眠，
+[Speaker 1]: 然后然后以及现在做生意有点兴奋，
+[Speaker 1]: 所以也确实是也也也感觉睡太多，
+[Speaker 1]: 有点浪费时间，
+[Speaker 1]: 有种感觉吧。
