@@ -1,0 +1,1046 @@
+[Speaker 1]: 因为现在这个变化是非常非常巨大的对就在我工作有史以来啊，
+[Speaker 1]: 在我真正开始学习代码，
+[Speaker 1]: 有史以来原来什么样的工作都可以通过自动推理来完成。
+[Speaker 1]: 也就是意味着其实知识工作已经不再需要人了。
+[Speaker 1]: 那其实到最后大家就也也不太需要再用 cloud code，
+[Speaker 1]: 去去去处理你自己的工作。
+[Speaker 1]: 因为最最终我们都会失业。
+[Speaker 1]: 所以 OK 对 OK 我们今天讨论的是所有知识工作的行业。
+[Speaker 1]: 对但是未来随着机器人的发展，
+[Speaker 1]: 会影响到所有行业，
+[Speaker 1]: 不仅是知识工作者，
+[Speaker 1]: 但是最先影响到的知识工作者。
+[Speaker 1]: 所以大家觉得很奇怪，
+[Speaker 1]: 第一件事情为什么是程序员最先失业？
+[Speaker 1]: 短期来说是你可以让你变得更强，
+[Speaker 1]: 一个人可以抵一万个人的工作。
+[Speaker 1]: 长期来说就是你会失业，
+[Speaker 1]: 最后就不需要你啊，
+[Speaker 2]: 长期到底是六个月的，
+[Speaker 2]: 不可能吧？
+[Speaker 2]: 六个月是长期对我记前跟你说过，
+[Speaker 1]: 就是那个谁有个很有名的人说大让大家享受最后六个月的真正有意义的工作。
+[Speaker 1]: 是今年吗？
+[Speaker 1]: 对，
+[Speaker 0]: 对我我叫郭宇。
+[Speaker 1]: 然后那个大家如果有在网上关注过我我的事情的话，
+[Speaker 1]: 可能知道我的故事。
+[Speaker 1]: 然后我是呃二零一一年开始在互联网行业工作的，
+[Speaker 1]: 一开始是在支付宝。
+[Speaker 1]: 然后大家如果以前有用过支付宝的年账单，
+[Speaker 1]: 那这个事情是我做的。
+[Speaker 1]: 二零一一年一二年一三年的时候，
+[Speaker 1]: 然后大家现在用的智能手机嗯，
+[Speaker 1]: 对吧？
+[Speaker 1]: 基本上都是从那个时代开始，
+[Speaker 1]: 从传统的功能机转化为智能手机的。
+[Speaker 1]: 呃，
+[Speaker 1]: 二零一一年一二年一三年开始。
+[Speaker 1]: 然后然后大家会发现这整个科技行业的变化就是在于说这个设备的变化。
+[Speaker 1]: 所以呃很多人开始从呃 PC 互联网的使用者变成移动网移动互联网的使用者。
+[Speaker 1]: 然后有大量的人从杭州从深圳去了北京创业，
+[Speaker 1]: 那我也是其中之一。
+[Speaker 1]: 那么二零一四年的时候，
+[Speaker 1]: 呃，
+[Speaker 1]: 三月份四月份我去北京中关村和我的那个呃就是朋友郑宇深圳宇一起创业。
+[Speaker 1]: 然后我们做了大概有十个月左右的样子。
+[Speaker 1]: 然后十二月份的时候，
+[Speaker 1]: 我们公司被自己跳动收购了。
+[Speaker 1]: 那当时大家还不知道字节跳动，
+[Speaker 1]: 因为当时大家只知道自己也写了一个叫做今日头条的产品啊，
+[Speaker 1]: 对吧？
+[Speaker 1]: 然后后来加入字节跳动之后，
+[Speaker 1]: 我在字节待了六年半。
+[Speaker 1]: 二零二零年的时候啊，
+[Speaker 1]: 疫情之前正好那个时候正巧就是来日本旅游，
+[Speaker 1]: 后来有疫情，
+[Speaker 1]: 然后我就选择在这边生活了，
+[Speaker 1]: 然后就辞职了，
+[Speaker 1]: 就在这边生活，
+[Speaker 1]: 一直现在有六年多多的时间。
+[Speaker 1]: 对，
+[Speaker 1]: 所以我应该算是自己早期的工程师之一。
+[Speaker 1]: 呃，
+[Speaker 1]: 我当时加入我们公司，
+[Speaker 1]: 被收购到自己的时候，
+[Speaker 1]: 公司应该只有两百多个工程师。
+[Speaker 1]: 然后呃大家现在在熟识的这个抖音啊，
+[Speaker 1]:  tiktok 也好，
+[Speaker 1]: 其实也是啊有一个很机缘巧合的事情，
+[Speaker 1]: 是我们在字节跳动二零一五年三月份在冲绳开年会的时候，
+[Speaker 1]: 那个时候我们在冲绳呃国际通的一个居酒屋啊，
+[Speaker 1]: 张楠就是和和一鸣聊天说现在呃李克强把这个资费四 g 的资费打下来了，
+[Speaker 1]: 就是我可可有一百块钱以下的四 g 资费套餐，
+[Speaker 1]: 也许可以尝试做一做视频的推荐。
+[Speaker 1]: 所以从那个时候开始啊，
+[Speaker 1]: 二零一五年三月份开始，
+[Speaker 1]: 我们尝试去做视频的推荐，
+[Speaker 1]: 做了火山小视频和抖音两个项目。
+[Speaker 1]: 然后最后二零一六年十二月，
+[Speaker 1]: 抖音是正式发布的。
+[Speaker 1]: 然后到现在啊，
+[Speaker 1]: 大家现在用的抖音也好，
+[Speaker 1]: 还是 take k 也也好，
+[Speaker 1]: 其都都是那个时候啊的想法，
+[Speaker 1]: 然后延伸到现在的一个产品。
+[Speaker 1]: 对，
+[Speaker 1]: 这是我大概的一个个人故事。
+[Speaker 2]: 到现在他之前是从互联网这个时代到移动互联网的这个转变，
+[Speaker 2]: 他就是当时参与的很深。
+[Speaker 2]: 所以现在可能是一个对，
+[Speaker 2]: 我们就是想今天就要讨论的一点，
+[Speaker 2]: 就是这个 AI 这个 agent 这个时代来了，
+[Speaker 2]: 我们这个是一个新的一个科技的一个重大的一个转变。
+[Speaker 2]: 呃，
+[Speaker 2]: 所以我们也要要那个请那个郭老师就是教教我们怎么引导这个教谈部长，
+[Speaker 1]: 就就是我想跟大家聊一聊。
+[Speaker 1]: 因为现在这个变化非常非常巨大的对，
+[Speaker 1]: 就在我工作有史以来啊，
+[Speaker 1]: 在我真正开始学写代码，
+[Speaker 1]: 有史以来我学写代码是二零零八年的时候，
+[Speaker 1]: 那是刚高考完，
+[Speaker 1]: 然后开始自己学写代码，
+[Speaker 1]: 我也是半路出家。
+[Speaker 1]: 因为其实我的专业是大学，
+[Speaker 1]: 本科专业是政治学。
+[Speaker 1]: 然后我其实是学文科的，
+[Speaker 1]: 但是写代码是我自己的兴趣爱好。
+[Speaker 1]: 然后呃我觉得这个事情呢在今天特别巧合的一件事情是在今天终于形成了一个教汇。
+[Speaker 1]: 呃，
+[Speaker 1]: 当大约模型出来之后，
+[Speaker 1]: 其实尤其是去年十月份的这个 cloud 的这个 coskill 这个技能这种模式。
+[Speaker 1]:  scale agent 这种模式出来之后，
+[Speaker 1]: 这两者就教会了，
+[Speaker 1]: 就世界上不再存在着文科和理科。
+[Speaker 1]: 只要你能够说话，
+[Speaker 1]: 你能够表达自己的想法，
+[Speaker 1]: 你就可以做任何软件。
+[Speaker 1]: 对所以其实我想跟大家分享的一个巨大的变化，
+[Speaker 1]: 是从去年十月份开始的，
+[Speaker 1]: 不是从二二年的十二月份 chat GPT 开始的 chat GPPGPT 有史以来的变大，
+[Speaker 1]: 大家应该已经深刻体会到，
+[Speaker 1]: 对吧？
+[Speaker 1]: 相在没有人不再使用 chat GPT，
+[Speaker 1]: 对不对？
+[Speaker 1]: 大家应该还有很很多人在使用豆包，
+[Speaker 1]: 有人有人没使用 chat、
+[Speaker 1]:  GPT 或豆包吗？
+[Speaker 1]: 有的话可以举个手，
+[Speaker 2]: 没有用过 chat GPT 的举手，
+[Speaker 1]: 应该没有人对 OK。
+[Speaker 1]: 对，
+[Speaker 1]: 应该没有人用。
+[Speaker 1]: 对，
+[Speaker 1]: 所以这个其实已经变成我们生活的一部分了。
+[Speaker 1]: 就是当你有烦恼的时候，
+[Speaker 1]: 尤其是如果在座的有小孩，
+[Speaker 1]: 嗯，
+[Speaker 1]: 我认识很多朋友，
+[Speaker 1]: 他们的小孩现在已经不和父母去聊个人心中话来说。
+[Speaker 1]: 但是和 chaina GPT 在说，
+[Speaker 1]: 我觉得这是一个很大的问题。
+[Speaker 1]: 因为有的时候 open AI 模型型随随你的话来说，
+[Speaker 1]: 对吧？
+[Speaker 1]: 你怎么么心心就就随你的话来来说，
+[Speaker 1]: 但是青少年年成长过程当中，
+[Speaker 1]: 这可能不一定是一个好事。
+[Speaker 1]: 所以我今天想和大家分享的，
+[Speaker 1]: 并不是说二二年十二月份开始 chad GPT 的这个这个变化。
+[Speaker 1]: 而是从去年十月份开始，
+[Speaker 1]:  cloud code 推出了 skill，
+[Speaker 1]: 就是技能。
+[Speaker 1]: 技能是一个什么东西呢？
+[Speaker 1]: 你可以把你现在的工作描述成是一个文档。
+[Speaker 1]: 举个例子，
+[Speaker 1]: 比如说你是一个软件工程师，
+[Speaker 1]: 你的你你负责的任务就是测试某一部分的软件。
+[Speaker 1]: 你可以把你每天的工作早上起来干了干了什么，
+[Speaker 1]: 然后查完邮件干了什么，
+[Speaker 1]: 然后和别人开会完了之后，
+[Speaker 1]: 决定要做什么，
+[Speaker 1]: 写成一个文档，
+[Speaker 1]: 你写成一个文本文档。
+[Speaker 1]: 你可以把它理解成是一个 TXT，
+[Speaker 1]: 或者是 dogs，
+[Speaker 1]: 或者是 key note，
+[Speaker 1]:  whatever whatever 什么格式，
+[Speaker 1]: 你你喜欢。
+[Speaker 1]: 但是现在 clical ical 的主要是 MD，
+[Speaker 1]: 就是 mark down 的格式，
+[Speaker 1]: 一种文档。
+[Speaker 1]: 你写成这种文档之后呢，
+[Speaker 1]: 然后 cloudy code 会自动帮你去执行，
+[Speaker 1]: 怎么自动执行呢？
+[Speaker 1]: 它会根据这个文档现写代码。
+[Speaker 1]: 大家知道软件有史以来我们要做一个软件，
+[Speaker 1]: 不管是做一个 app 做一个小程序，
+[Speaker 1]: 还是做一个网页，
+[Speaker 1]: 什么东西都需要去想我们到底要做什么。
+[Speaker 1]: 然后我们要去跟产品经理去沟通。
+[Speaker 1]: 第一步做什么？
+[Speaker 1]: 第二步做什么，
+[Speaker 1]: 然后把所有东西都固定下来，
+[Speaker 1]: 开会固定下来之后，
+[Speaker 1]: 需求都固定下来。
+[Speaker 1]: 技术文档固定下来之后，
+[Speaker 1]: 然后写代码对吧？
+[Speaker 1]: 写完了之后才能发布，
+[Speaker 1]: 出去给用户用。
+[Speaker 1]: 但是从去年十月份开始，
+[Speaker 1]: 一切都变了，
+[Speaker 1]: 现在的软件不需要写代码，
+[Speaker 1]:  cloud code 这种大语言模型会根据你的需求自动写代码。
+[Speaker 1]: 所以为什么会把今天的分享的标题叫做软件的终结？
+[Speaker 1]: 因为这就是最终的软件了。
+[Speaker 1]: 大家以后看到的所有的东西都不太会是固定的代码，
+[Speaker 1]: 而都是动态流动的 token。
+[Speaker 1]: 这些动态流动的 token 都需要消耗推理，
+[Speaker 1]: 推理需要 GPU，
+[Speaker 1]: 对吧？
+[Speaker 1]: 英伟达生产 GPU，
+[Speaker 1]: 然后大家买了英伟达 GPU 之后，
+[Speaker 1]: 把英伟达 SPU 放到服务器上，
+[Speaker 1]: 然后插上电。
+[Speaker 1]: 然后不断的去接收我们推理的求然后推理，
+[Speaker 1]: 根据用户的需求来根据用户的 scale 文档来现写代码，
+[Speaker 1]: 然后完成大家的这样一个需求。
+[Speaker 1]: 无论你是想要去查银座附近的停车场，
+[Speaker 1]: 还是要给你的小孩写一个祝他的班主任生日快乐的网页无所谓，
+[Speaker 1]: 这是什么事情？
+[Speaker 1]: 这可以是任何事情，
+[Speaker 1]: 任何工作、
+[Speaker 1]: 任何需求。
+[Speaker 1]: 所以这是世界上软件工程有史以来计算机科学有史以来最大的变化之一。
+[Speaker 1]: 对，
+[Speaker 1]: 大家最近如果有上网应该看到了 open cloud，
+[Speaker 1]: 就是这个龙虾热。
+[Speaker 1]: 对，
+[Speaker 1]: 我们看到它不是一个大语言模型，
+[Speaker 1]: 它是一个编排软件啊，
+[Speaker 1]: 它这个编排软件会自动的帮你去处理你接入的各种各样的这种语言模型，
+[Speaker 1]: 然后把它们设计成为 agent，
+[Speaker 1]: 然后并且保持它一直在活动，
+[Speaker 1]: 对他有一个 helbbit 一个心跳。
+[Speaker 1]: 这样的话，
+[Speaker 1]: 你把你的龙虾呢装在你自己的电脑上 PC 或者是 mac mini。
+[Speaker 1]: 然后你通过你的微信或者是 telegram 或者各种各样的聊天软件跟他聊天，
+[Speaker 1]: 它就会二十四小时乘以七乘以三百六十五天，
+[Speaker 1]: 不断的去帮你处理事情。
+[Speaker 1]: 那用什么方法处理事情呢？
+[Speaker 1]: 就是用我刚才说的方法，
+[Speaker 1]: 把你的需求记录下来，
+[Speaker 1]: 现写代码，
+[Speaker 1]: 然后完整的他直接接管了你的电脑，
+[Speaker 1]: 然后全自动的来执行。
+[Speaker 1]: 以往工程师可能会不信任语言模型写的代码。
+[Speaker 1]: 因为他们会担心说你直接执行会不会有错误。
+[Speaker 1]: 对吧？
+[Speaker 1]: 但是 cloud 在编码这件事情上已经基本做到了。
+[Speaker 1]: 大家现在已经不看 AI 系的代码，
+[Speaker 1]: 但是他就是能够正常工作。
+[Speaker 1]: 所以现在的程序员，
+[Speaker 1]: 所谓的 web coder，
+[Speaker 1]: 就像我这样的 web coder，
+[Speaker 1]:  web coding 就指的就是氛围编码嘛。
+[Speaker 1]: 就是你什么什么叫氛围编码，
+[Speaker 1]: 就是他在写代码，
+[Speaker 1]: 我在旁边跳舞，
+[Speaker 1]: 我在旁边嗨。
+[Speaker 1]: 然后我就我就只要想，
+[Speaker 1]: 我只要思考我到底要做什么，
+[Speaker 1]: 然后我和他去通过这种沟通的门槛，
+[Speaker 1]: 让大部分工作由这个语言模型的 agent 来自动执行。
+[Speaker 1]: 所以这是本质上的区别 OK。
+[Speaker 1]: 所以相当于语言模型，
+[Speaker 1]: 尤其是 oud code 为首的四门槛，
+[Speaker 1]: 就是你一个非常重要的门槛，
+[Speaker 1]: 就是你不再需要监督他写的代码，
+[Speaker 1]: 他也可以正常工作。
+[Speaker 2]: 所以那我好奇你在二二年后，
+[Speaker 2]: 这两年就是这个 open cloud 和这些 eg 的之前对你的这个当一个什么程序员有有帮助吗？
+[Speaker 2]: 有有多少帮助啊，
+[Speaker 1]: 没有什么帮助。
+[Speaker 1]: 其实我是从去年十月份十二十一月才开始，
+[Speaker 1]: 逐渐的又开始回归写代码。
+[Speaker 1]: 因为我我个人身份我退休之后，
+[Speaker 1]: 一直作为一个投资人的一个角色来来来来思考的。
+[Speaker 1]: 所以其实大家会发现，
+[Speaker 1]: 在下一 GPT 出来两年之后，
+[Speaker 1]: 其实关于 AI 的讨论进入到一个很多人都在质疑，
+[Speaker 1]: 它是泡沫，
+[Speaker 1]: 为什么呢？
+[Speaker 1]: 因为拆的 GPT 的用户数量已经一直没有一个非常激进的增长。
+[Speaker 1]: 它就稳稳定的维持在一个一个一个程，
+[Speaker 1]: 大大就会觉得啊那是不是我不再需要更多的推理了？
+[Speaker 1]: 嗯，
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 但是从去年十月份开始，
+[Speaker 1]: 大家就会发现哇，
+[Speaker 1]: 原来什么样的工作都可以通过自动推理来完成。
+[Speaker 1]: 也就是意味着其实知识工作已经不再需要人了。
+[Speaker 1]: 因为你能够写代码，
+[Speaker 1]: 就可以分析财务，
+[Speaker 1]: 就可以分析法律，
+[Speaker 1]: 就可以做任何事。
+[Speaker 1]: 大家关注股市就会发现，
+[Speaker 1]: 最近无论是 cloud 推出任何东西，
+[Speaker 1]: 美股就总有一家上市公司暴跌百分之二十。
+[Speaker 1]: 因为大大家发现我处理图片，
+[Speaker 1]: 图片不再需要 adobe 了。
+[Speaker 1]: 那我处理其他的各种各样的文档，
+[Speaker 1]: 我也不再需要这些 sars 公司，
+[Speaker 1]: 我就可以直接跟 cloud 的说我的需求。
+[Speaker 1]: 他可以现写一个完全针对我需求的代码，
+[Speaker 1]: 用我电脑当中的文件，
+[Speaker 1]: 用我自己的登录的状态，
+[Speaker 1]: 用我自己的账号存在我自己的云盘。
+[Speaker 1]: 那我为什么还需要使用别人写的软件？
+[Speaker 1]: 所以区别是在于这里软件可以变得非常高度的个性化工作，
+[Speaker 1]: 可以变得高度的高度的自动化。
+[Speaker 1]: 那其实到最后大家就也也不太需要再用 cloud code 去去去处理你自己的工作。
+[Speaker 1]: 因为最最终我们都会失业。
+[Speaker 5]: 好的好的好的的，
+[Speaker 2]: 你的这个好 OKOK，
+[Speaker 2]: 别别说的那么悲观了。
+[Speaker 2]:  OK，
+[Speaker 2]: 那我们先看一看这个 life live demo，
+[Speaker 2]: 就是让那个郭老师教我们怎么用这个新的这个技术。
+[Speaker 1]:  cloud 其实推出了，
+[Speaker 1]: 他们现在每周都在推出针对于普通人的自动写作工具。
+[Speaker 1]: 他们把 cloud code 包装成了 cloud cowork。
+[Speaker 1]: 对对，
+[Speaker 1]: 可 work 是一个桌面软件，
+[Speaker 1]: 你只需要下载，
+[Speaker 1]: 然后把它打开，
+[Speaker 1]: 然后让它自动去读取硬盘当中的文件，
+[Speaker 1]: 它就会自动工作了。
+[Speaker 1]: 比如说你可以把它大家如果没有用过的话，
+[Speaker 1]: 可以去下载它，
+[Speaker 1]: 然后让他去读你的。
+[Speaker 1]: 如果是 pc 的话，
+[Speaker 1]: 让他去读你的 d 盘。
+[Speaker 1]: 如果让他如果是麦克的话，
+[Speaker 1]: 让去读你的混混目录，
+[Speaker 1]: 然后你随便跟他说一句什么。
+[Speaker 1]: 比如说把我最近十个月点所有的旅游做成一个带有动态地图的这样一个计划，
+[Speaker 1]: 然后让我可以分享到小红书什么，
+[Speaker 1]: 这些无所谓，
+[Speaker 1]: 随便你说什么，
+[Speaker 1]: 然后他就会自己开始写代码，
+[Speaker 2]: 然后做到这件事对 ok 那呃我们去做这个 demo 吧，
+[Speaker 1]: 你用 cloud，
+[Speaker 1]: 那么就直接用 cloud 打开，
+[Speaker 1]: 它就会变成这样一个东西。
+[Speaker 1]: 对，
+[Speaker 1]: 然后你剩下事情你就跟他说话。
+[Speaker 1]: 呃，
+[Speaker 1]: 如果你不想打字，
+[Speaker 1]: 你可以安装 typeless 或者是其他的自动自动语音输入法。
+[Speaker 1]: 然后你只要跟他说话，
+[Speaker 1]: 比如说我们现在说大家看得到吗？
+[Speaker 1]: 我这有点太小，
+[Speaker 1]: 对，
+[Speaker 2]: 能能看见吗？
+[Speaker 2]: 大家 ok 好，
+[Speaker 2]: 那我们呃能不能你说吧，
+[Speaker 1]: 你你说你想要做什么，
+[Speaker 1]: 你去你跟他说。
+[Speaker 3]: 对，
+[Speaker 2]: 那我跟我跟 cod 说什么呢？
+[Speaker 2]: 呃，
+[Speaker 2]: 那我想搭一个网站，
+[Speaker 2]: 呃，
+[Speaker 2]: 那我们就 ok 那呃我怎么说？
+[Speaker 2]: 我说呃是怎么怎么说呀？
+[Speaker 1]: 没关系，
+[Speaker 1]: 你想说什么说什么，
+[Speaker 1]: 不 typlace 会自动的帮你把这想法 formade 成真正的 ok。
+[Speaker 2]: 嗯，
+[Speaker 2]: 那我说呃 cloud 你能不能帮我呃做一个网站，
+[Speaker 2]: 是介绍车唱记者呃的各种写作的网站。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 你可以看他是怎么怎么思考的，
+[Speaker 1]: 他会 OK 他会去搜这个东西，
+[Speaker 1]: 然后你可以看到。
+[Speaker 2]: 对，
+[Speaker 1]: 你可以可以看到调了 web search 这个工具。
+[Speaker 1]:  OK。
+[Speaker 1]: 那么 web arch 就是 cloud code 自带的一个工具，
+[Speaker 1]: 他们把这个叫做 to use。
+[Speaker 1]: 就是这就是他嗯相比于恰 DGPPD 这种对话类的，
+[Speaker 1]: 像豆包这种对话类的大元模型的产品，
+[Speaker 1]: 一个非常重要的一个一个一个区别。
+[Speaker 1]: 它会使用 to 它会使用工具，
+[Speaker 1]: 呃，
+[Speaker 1]: 这个调用的方法叫 to use。
+[Speaker 1]: 然后你可以定义自己的工具，
+[Speaker 1]: 你想写自己的工具，
+[Speaker 1]: 你可以写，
+[Speaker 1]: 然后写完以后让他去调用我们的不的。
+[Speaker 1]: 这是你的个人网站吗？
+[Speaker 1]: 车上点 com 唱车。
+[Speaker 2]: 对，
+[Speaker 2]: 我有我有一个个人网站，
+[Speaker 2]: 嗯，
+[Speaker 2]: 对我想让他做，
+[Speaker 2]: 帮我做一个新的网站站。
+[Speaker 1]:  ah 耶 ah 你可以你可以看他开去看到了你自己的网站，
+[Speaker 1]: 然后他可能会给你提供一些想法，
+[Speaker 1]: 去怎么样去更新你自己的个人网站。
+[Speaker 2]:  OK。
+[Speaker 7]:  okay，
+[Speaker 2]: 那他们怎么知道呃，
+[Speaker 2]: 设计方面是他，
+[Speaker 2]: 他们怎么决定呢？
+[Speaker 1]:  to use。
+[Speaker 1]: 你可以去定义一些已经有的非常非常厉害的设计师做出来的网页，
+[Speaker 1]: 然后让他去调用这些东西，
+[Speaker 1]: 所以这个就叫 skill。
+[Speaker 1]: 你可以让他去用现在已经非常厉害的设计师使用的一些技能。
+[Speaker 1]: 比如说他们通过什么样的方法来设计这个网页会更好。
+[Speaker 1]: 看你就让他去用这个 scale，
+[Speaker 1]: 他就会按照这个人的方法去优化这个网页。
+[Speaker 2]:  ok 对，
+[Speaker 2]: 但你如果不提前问呃问他，
+[Speaker 2]: 就是如果不不给他说一个具体的一个设计，
+[Speaker 2]: 那他们他自动的会有他自己的呃选择。
+[Speaker 1]: 对，
+[Speaker 1]: 你可以看到他默认的，
+[Speaker 1]: 我现在没有用任何的 to 和 skill，
+[Speaker 1]: 他可以看到你，
+[Speaker 1]: 他这对的吗？
+[Speaker 1]: 你可以看一下看一看啊，
+[Speaker 2]: 他是一位非虚构作家 OK 挺挺对的啊，
+[Speaker 2]: 很正确啊，
+[Speaker 2]: 很正确啊。
+[Speaker 1]: 我不知道你还是牛津大学哲学硕士，
+[Speaker 2]: 牛津大学 OK。
+[Speaker 2]:  ok 嗯 ok 这是他给你列出来你的代表作品。
+[Speaker 1]:  ok 他会问你需要一个怎样的网站？
+[Speaker 1]: 你可以他问你这个网站需要什么样的一个一个技术的站，
+[Speaker 1]: 什么样的风格要做什么样。
+[Speaker 1]: 然后最后部署到哪里？
+[Speaker 1]: 好，
+[Speaker 2]: 那我们呃回答吧呃要什么？
+[Speaker 2]: 我问是问什么问题，
+[Speaker 1]: 他学技术站你不懂，
+[Speaker 1]: 所以无所谓，
+[Speaker 1]: 你可以让他就让他自己做。
+[Speaker 1]: 然后但是你你想让这个网站做成什么样子，
+[Speaker 1]: 你可能会需要和他讨论。
+[Speaker 2]: 那你你就随便呃弄一下，
+[Speaker 2]: 就是我们看一看结果你就随便跟他说什么需要分类搜索都可以。
+[Speaker 2]: 嗯，
+[Speaker 2]: 无所谓，
+[Speaker 2]: 这个我不太在意我，
+[Speaker 1]: 我让他用一个 scale 去重构一下你的个人网站。
+[Speaker 1]: 你刚刚不是说，
+[Speaker 1]: 如果你的个人网站没有用专业的设计技巧，
+[Speaker 1]: 你然后我可以让他加载一个专业的设计师写的一个技能。
+[Speaker 1]: 哎，
+[Speaker 2]: 对，
+[Speaker 2]: 可以，
+[Speaker 1]: 然后你可以看到我输了。
+[Speaker 1]: 我说你可以用 UUIUUUX pro max 这个技巧去做，
+[Speaker 1]: 我这个上面没装吗？
+[Speaker 1]: 等一下他就会去搜索这些 scale。
+[Speaker 1]: 对，
+[Speaker 1]: 如果你安装了的话，
+[Speaker 1]: 那么它就会有对应的 scale。
+[Speaker 1]: 我来安装一下这个 scale。
+[Speaker 7]: 嗯，
+[Speaker 2]: 我插一句，
+[Speaker 2]: 就是我当时写那个做我的网站的时候，
+[Speaker 2]: 因为我不知道怎么自己做出来。
+[Speaker 2]: 所以我当时用了一个软件叫 worword press。
+[Speaker 1]: 对，
+[Speaker 2]:  word press 是对，
+[Speaker 2]: 就是我就依赖着这个平平台开始就是做了我的软件，
+[Speaker 2]: 就现在应该理论上就不用 word press 了嘛，
+[Speaker 2]: 就直接这个 wordpress 应该会未来会倒闭吧，
+[Speaker 2]: 要不然怎么可能跟这个比呢？
+[Speaker 1]: 我不知道，
+[Speaker 1]: 也许还会有很多人用嘛，
+[Speaker 1]: 就比呢这种古早的东西其实都有很多用。
+[Speaker 1]: 其实关键不在于你使用什么样的东西，
+[Speaker 1]: 而在于现在使用写软件的投资自动化的。
+[Speaker 1]: 你如果真的想用 word press 来来重构，
+[Speaker 1]: 你也可以让 cloud code 再用 wordpress，
+[Speaker 1]: 基于你现在的架构来重构，
+[Speaker 1]: 这也是无所谓的。
+[Speaker 1]: 然后你可以看到我的电脑上没有安装这个 scale，
+[Speaker 1]: 但是我就让他自己去搜，
+[Speaker 1]: 然后让他自己去装。
+[Speaker 1]: 呃，
+[Speaker 1]: 所以一切东西都不再需要依赖搜索引擎啊，
+[Speaker 1]: 或者说依赖搜索引擎的，
+[Speaker 1]: 已经不再是人不再是我们，
+[Speaker 1]: 而是他 OK。
+[Speaker 4]: 嗯，
+[Speaker 2]: 明白好，
+[Speaker 2]: 现在在做什么呢？
+[Speaker 1]: 现在在他已经安装成功了七个和设计师相关的 scale。
+[Speaker 1]: 然后他会通过核心的这个 scale 来帮你重构你的个人网站。
+[Speaker 1]: 怎么样重构你的个人网站呢？
+[Speaker 1]: 他肯定要先去读你的个人网站，
+[Speaker 1]: 对吧？
+[Speaker 1]: 对，
+[Speaker 1]: 然后把所有的内容布局哎都都完整的去理解下来之后，
+[Speaker 1]: 然后再去重构。
+[Speaker 1]: 你可以看到这里已经开始使用 python，
+[Speaker 1]: 在现写代码。
+[Speaker 1]: 然后他去设计了一个设计系统，
+[Speaker 1]: 跟你的网站所有组件设计了一个设计。
+[Speaker 1]: 系统设计完了之后，
+[Speaker 1]: 他就开始写，
+[Speaker 1]: 等我写完之后他就会打开这个网页，
+[Speaker 1]: 你可可以自己看一看。
+[Speaker 2]: 我很好奇。
+[Speaker 2]: 对呀，
+[Speaker 2]: 要多久呢？
+[Speaker 1]: 嗯，
+[Speaker 1]: 大概两三分钟两三分钟算慢的对对。
+[Speaker 1]: 所以其实我们可以在现场演示这个东西，
+[Speaker 1]: 你可以看到他已经是已经开启了他在创建一个新的项目。
+[Speaker 1]: 他用这这经典优雅的雅的这个这个这个模式。
+[Speaker 1]: 但是如果你想要让他模仿一个现成的网站，
+[Speaker 1]: 可以直接把链接告诉他，
+[Speaker 1]: 然后他他会自己去模仿他的设计语言 OK。
+[Speaker 2]: 对，
+[Speaker 2]: 好，
+[Speaker 2]: 那我们一般呃一边等他这个把我的网新的网站做了。
+[Speaker 2]: 呃，
+[Speaker 2]: 我再问你一个问题，
+[Speaker 2]: 就是呃所以我听说你你也之前跟我说过，
+[Speaker 2]: 就是现在呃第一流的这个最大的影响是这个 sars 公司。
+[Speaker 2]: 对，
+[Speaker 2]: 是的，
+[Speaker 2]:  software。
+[Speaker 2]:  sars 大家知道就是 sas 是 software as service。
+[Speaker 2]: 对，
+[Speaker 2]: 呃，
+[Speaker 2]: 是指这种呃，
+[Speaker 2]:  netflix 也算是 sas 吗？
+[Speaker 2]:  netflix 是个 onnestreams s google dox 是是 ssas 吗？
+[Speaker 2]: 是哪些比较典型的 sars 公司？
+[Speaker 1]: 你给我们像 sforforce，
+[Speaker 1]: 像日本有很多像什么嗯什么各种各样的的，
+[Speaker 1]: 就是 sars 一般都是针对于企业的。
+[Speaker 1]: 就是大家如果个人可能用不太上这些东西，
+[Speaker 1]: 你但是你的公司可能会用。
+[Speaker 1]: 比如说很多 HR 的 system，
+[Speaker 1]: 这些都是算 sars、
+[Speaker 1]:  sars、
+[Speaker 1]:  OK。
+[Speaker 2]: 对，
+[Speaker 2]: 那你先说一下，
+[Speaker 2]: 就是为什么这些在暴跌啊，
+[Speaker 2]: 这些股那个股票，
+[Speaker 2]: 就是这个 agent 会给 sars 带来什么什么变化，
+[Speaker 1]: 能具具体验嘛。
+[Speaker 1]: 就就像你看到的，
+[Speaker 1]: 这样你可以用克来写你自己个人网站，
+[Speaker 1]: 你就没有必要再用一些现成的博客 loo k 对，
+[Speaker 2]: 所以就像那个我就不用用 d press 了。
+[Speaker 2]: 对，
+[Speaker 2]: 所以未来的记者就不用去依赖赖 word。
+[Speaker 1]: 对你不用依赖任何东西，
+[Speaker 1]: 你唯一依赖的就是推理，
+[Speaker 1]: 推理的需求。
+[Speaker 6]: 对的。
+[Speaker 2]: 好，
+[Speaker 2]: 那那么那个 sars ok 除了 sars 以外，
+[Speaker 2]: 你觉得下一个就是 AI agent 会影响到的一一个一个行业是是哪是哪些行业？
+[Speaker 1]: 你觉得所有行业，
+[Speaker 2]: 所以 OK 对 OK，
+[Speaker 1]: 我们今天讨论的是所有知识工作的行业。
+[Speaker 1]: 对但是未来随着机器人的发展，
+[Speaker 1]: 会影响到所有行业，
+[Speaker 1]: 不仅是知识工作者，
+[Speaker 1]: 但是最先影响到的知识工作者。
+[Speaker 1]: 所以大家觉得很奇怪，
+[Speaker 1]: 第一件事情为什么是程序员最先失业啊，
+[Speaker 1]: 尤其是初级程序员？
+[Speaker 1]: 现在硅谷的很多公司其实已经完全不招聘初级程序员，
+[Speaker 1]: 因为你会发现招进来还不如你直接使用 cloud code，
+[Speaker 1]: 自动写代码快，
+[Speaker 1]: 而且效果也更好。
+[Speaker 1]: 而且最重要的事情是你不用和人沟通，
+[Speaker 1]: 意味着你缺少了最大的摩擦。
+[Speaker 1]: 你可以全自动的二次乘以七的不断的完成一些事情，
+[Speaker 1]: 就算这些事情可能不会成功。
+[Speaker 1]: 你也可以非常容易接受他失败的成本，
+[Speaker 1]: 因为你不再需要请一个人，
+[Speaker 1]: 也不需也不再需要开掉一个人。
+[Speaker 1]: 当你当你这公司不成功的时候，
+[Speaker 5]: 嗯，
+[Speaker 2]: 好，
+[Speaker 2]: 那我们那我能就是直接问呃你对对我我好奇你是你是怎么看我们这个呃出版这个行业，
+[Speaker 2]: 就是呃你觉得这个 agent AI 现在可以影响到呃这种就是需要用很就是大量的读书，
+[Speaker 2]: 然后写作这个行业。
+[Speaker 2]: 因为这个我觉得跟代码没没太大的关系吧。
+[Speaker 2]: 所以你是怎么看出版这个行业会会会有影响吗？
+[Speaker 1]: 我不太了解这个行业，
+[Speaker 1]: 但是就我自己的想法而言，
+[Speaker 1]: 我觉得所有的知识分子都没有了。
+[Speaker 1]: 就是因为你可以随用随取的从 cloud go 那里获得知识。
+[Speaker 1]: 他可以是任何人，
+[Speaker 1]: 他可以是一个很有名的 fiction 的作家，
+[Speaker 1]: 也也可以是任何的了解哲学史的了解美学史的博士是你只要问他问题就可以了，
+[Speaker 2]: 但可以完全代替吗？
+[Speaker 2]: 就比如说呃你是一个 fiction 的作家。
+[Speaker 2]: 对，
+[Speaker 2]: 那你 fiction 小写小说呃，
+[Speaker 2]: 我可以想象就是现在写小说，
+[Speaker 2]: 因为包括我我我写，
+[Speaker 2]: 我现在在写书，
+[Speaker 2]: 我也会用 cloud，
+[Speaker 2]: 甚至 cloud de 会做一些研究。
+[Speaker 2]: 对，
+[Speaker 2]: 这个很很有用。
+[Speaker 2]: 其实因为我就不用用谷歌了，
+[Speaker 2]: 因为谷歌你每次你呃你搜索一个东西，
+[Speaker 2]: 你可能出来呃，
+[Speaker 2]: 可就就在那个屏幕上的一个结果。
+[Speaker 2]: 对，
+[Speaker 2]: 但是你这个 code code code 是很完整，
+[Speaker 2]: 很快就可以把你把所有的互联网都都搜一下。
+[Speaker 1]: 我那给你写好了，
+[Speaker 1]: 你要看一下吗？
+[Speaker 2]:  oowoo OK 哇，
+[Speaker 2]:  ok 所以说这个是我所有的写作。
+[Speaker 2]:  oh my god，
+[Speaker 2]: 是的 ok 完写那么多好，
+[Speaker 2]: 这个是前前几天写的一篇关于古典学的。
+[Speaker 1]:  ok 如果你想要给这个网站做中日英三个语言的版本，
+[Speaker 1]: 他也可以很快给你做完。
+[Speaker 1]: 他可以哇，
+[Speaker 2]: 他可以帮你把说他们还有一些这个话题，
+[Speaker 2]: 把这个话题什么的吗？
+[Speaker 1]: 啊，
+[Speaker 1]: 对对对，
+[Speaker 2]: 书评还有什么科技，
+[Speaker 2]: 日本还有日本相关的。
+[Speaker 1]: 对对对，
+[Speaker 1]: 但这个写的比较简单，
+[Speaker 1]: 因为他用的专业的这种比较简可能简约的设计技巧。
+[Speaker 1]: 如果你敢喜欢，
+[Speaker 1]: 搞得很 fancy，
+[Speaker 1]: 有各种各样的三 d 动画，
+[Speaker 1]: 你也跟他说，
+[Speaker 2]: 他们还知道，
+[Speaker 2]: 你看他们还知道我呃，
+[Speaker 2]: 你能不能在下这个是我三个呃，
+[Speaker 2]: 就是我在上海 soul、
+[Speaker 2]: 东东京三个地方住过，
+[Speaker 2]: 在他他知道他写 from shanghai to sol to tokyo。
+[Speaker 1]: 对对，
+[Speaker 1]: 是对他知道。
+[Speaker 1]: 任何事，
+[Speaker 1]: 只要你在网上写过。
+[Speaker 2]: 对，
+[Speaker 2]: 很厉害很厉害。
+[Speaker 2]: 我觉觉得现在社会有一个话题有一个辩论，
+[Speaker 2]: 就是这个 AI 到底是可以彻底的取代这种呃知识工作，
+[Speaker 2]: 还是说可以就是英文叫 empower，
+[Speaker 2]: 就是可以支持我们这种知识工作做的更好。
+[Speaker 2]: 你是怎么看啊？
+[Speaker 1]: 短期来说，
+[Speaker 1]: 是你可以让你变得更强，
+[Speaker 1]: 你一个人可以抵一万个人的工作。
+[Speaker 1]: 长期来说就是你会失业，
+[Speaker 1]: 最后就不需要你了。
+[Speaker 2]:  OK 啊，
+[Speaker 2]: 那你呃那你觉得这个是长期是是你能不能更具体一点啊，
+[Speaker 2]: 长期到底是六个月的，
+[Speaker 2]: 不可能吧，
+[Speaker 2]: 六个月是长期。
+[Speaker 1]: 对，
+[Speaker 1]: 我记得跟你说过，
+[Speaker 1]: 就是那个谁有个很有名的人说大让大家享受最后六个月的真正有意义的工作。
+[Speaker 1]: 是今年吗？
+[Speaker 1]: 对，
+[Speaker 2]: 对我觉得有点极端吧。
+[Speaker 2]: 这个是我们最后的一个反弹了，
+[Speaker 2]: 我已经。
+[Speaker 1]: 当然但是我们可能作为科技工作者，
+[Speaker 1]: 可能会觉得有点有点有点太过于乐观啊。
+[Speaker 1]: 但因为现在还有很多问题，
+[Speaker 1]: 其实最大的问题在于是美国比较缺电，
+[Speaker 1]: 所以呃推理也没有办法实现，
+[Speaker 1]: 几乎免费。
+[Speaker 1]: 但是呢英伟达的那个 rubin 架构其实已经基本就是百分之五十的解决这个问题。
+[Speaker 1]: 因为他们现在呃随着 rubin 架构上线，
+[Speaker 1]: 已经后年的 AIDCAI 数据中心，
+[Speaker 1]: 可能推理成本就是现在十分之一。
+[Speaker 1]: 呃，
+[Speaker 1]: 就意味着其实美国不需要消耗那么多的电。
+[Speaker 1]: 大家知道中国和美国的关系，
+[Speaker 1]: 中国缺卡，
+[Speaker 1]: 但是美国缺电。
+[Speaker 1]: 因为百分之大量多的电，
+[Speaker 1]: 所以有水电，
+[Speaker 1]: 有风电，
+[Speaker 1]: 各种各样的新能源的电，
+[Speaker 1]: 所以我们不缺电。
+[Speaker 1]: 但是美国现在因为现在缺电，
+[Speaker 1]: 所以就导致为什么这个变化还没有变得非常的普遍。
+[Speaker 1]: 其实因为成本比较高。
+[Speaker 1]: 对，
+[Speaker 2]: 那那我们换一个行业，
+[Speaker 2]: 比如说你做律师那个医疗，
+[Speaker 2]: 我们希望 AI 就是帮我们做手术吗什么的。
+[Speaker 2]: 这就有有些行业是呃我们还是很重视，
+[Speaker 2]: 有人呃在接触那个医疗。
+[Speaker 2]: 呃，
+[Speaker 2]: 你你你这个呃你是怎么看？
+[Speaker 1]: 其实律师就就是前一段时间被取代了。
+[Speaker 1]: 我跟他问一下，
+[Speaker 1]: 哎，
+[Speaker 1]: 前段时间 cloud 推出了一个一个什么很厉害的一个东西，
+[Speaker 1]: 然后可以让这个法务自动化是什么东西来着，
+[Speaker 1]: 你帮我找一下。
+[Speaker 1]: 呃，
+[Speaker 1]: 这个他们推出了一个非常厉害的工具，
+[Speaker 1]: 可以让公司当中的法务团队直接裁掉，
+[Speaker 1]: 就用它来完做完全自动化。
+[Speaker 1]: 对对，
+[Speaker 1]: 所以就是跟跟你说的，
+[Speaker 1]: 起码是在企业内部的一些法务的人员是可以。
+[Speaker 1]: 对，
+[Speaker 1]: 现在已经就是因为这个事情，
+[Speaker 2]: 但这个还是就是那个法律所还存在，
+[Speaker 2]: 就是这个是在那个助理啊什么的被取代了，
+[Speaker 2]: 对不对？
+[Speaker 1]: 是不是不是就全部团队？
+[Speaker 5]: 嗯嗯，
+[Speaker 1]: 真的，
+[Speaker 1]: 其实我个人啊就是 ok 对对，
+[Speaker 1]: 其实我个人其实我自己持的看法是，
+[Speaker 1]: 大家不知道有没有看过一个电影叫时代精神。
+[Speaker 1]: 时代精神是两千年的电影，
+[Speaker 1]: 那么它是一个美国的一个组织。
+[Speaker 1]: 然后时代精神有一部电影叫时代精神。
+[Speaker 1]: 附录里面说到一个非常有意思的一个想法，
+[Speaker 1]: 它是两千零三年的电影，
+[Speaker 1]: 当时特斯拉什么自动驾驶还是远远都没有。
+[Speaker 1]: 当时说啊，
+[Speaker 1]: 他当时说交通法规其实没必要。
+[Speaker 1]: 如果是如果世界上所有的车都是自动驾驶，
+[Speaker 1]: 也就没有必要有保险公司和交通法律。
+[Speaker 1]: 你懂我意思吗？
+[Speaker 2]: 呃，
+[Speaker 5]: 嗯嗯嗯对，
+[Speaker 1]: 你可以看到这个他的 legal plugin 呃，
+[Speaker 1]: 两月份推出的呃。
+[Speaker 1]: 彭博社说，
+[Speaker 1]: 他引发了约两千八百五十亿美元的股票抛售。
+[Speaker 1]: 上述这些合法律的这个公司的股价都大幅下跌啊。
+[Speaker 1]: 就是因为可能大家预想到以后，
+[Speaker 1]: 大家使用这些 AI 的 agent 就可以自动完成这些法律工作，
+[Speaker 1]: 所以就没有必要再去请教这些公司去买他们的服务。
+[Speaker 6]: 对对，
+[Speaker 1]: 所以我的想法其实是说呢法律。
+[Speaker 1]: 因为我以前本科学政治学的嘛就是政治学是为了政治，
+[Speaker 1]: 是为了解决什么人和人的矛盾，
+[Speaker 1]: 人和群体的矛盾，
+[Speaker 1]: 群体和群体的矛盾，
+[Speaker 1]: 对这个矛盾摩擦是怎么样的产生的？
+[Speaker 1]: 有可能是因为我们所有的利益，
+[Speaker 1]: 所有人的想法都没有。
+[Speaker 1]:  on the same page 啊，
+[Speaker 1]: 对 AI agents 自动让所有事情 on the same page，
+[Speaker 1]: 而是更更厉害一点是现在他没有解决的问题是共享的大脑，
+[Speaker 1]: 就是每个人的考虑 code 其实都有一个自己的 memory，
+[Speaker 1]: 自己己记忆忆你，
+[Speaker 1]: 你象一下下果果成上上的的千上万的、
+[Speaker 1]: 上十亿的、
+[Speaker 1]: 成百亿的 AI agent 的记忆全部在一个地方。
+[Speaker 1]: 就意味着公司 a 和公司 b 也不需要去开会，
+[Speaker 1]: 然后让所有人都 on the same page。
+[Speaker 1]: 所以其实它的摩擦会大大减少，
+[Speaker 1]: 摩擦减少了之后，
+[Speaker 1]: 法律可能他还会存在，
+[Speaker 1]: 但是他可能已经没有了执行的意义。
+[Speaker 2]: 明白对，
+[Speaker 2]: 那我的那那没有。
+[Speaker 2]: 这个就是如果代替这么多员工，
+[Speaker 2]: 你有没有就是那我们做我们做什么呢？
+[Speaker 2]: 这个这个呃我不知道你有没有考虑过，
+[Speaker 2]: 就是未来这个知识工作没有了的一个时代是什么样的一个社会可以去海边冲浪。
+[Speaker 1]: 呃，
+[Speaker 1]: 对，
+[Speaker 1]: 就是这样子的，
+[Speaker 2]: 就是那我怎么那对呀，
+[Speaker 2]: 没有收入呀。
+[Speaker 1]: 对对你会发现生产力已经非常进步的非常快，
+[Speaker 1]: 但是生产生产关系的分配原则还没有被改变。
+[Speaker 1]: 所以所以你会发现最近在美股市场其实存在非常大的对 AI 的呃，
+[Speaker 1]: 和美国经济的一个负面的影响就在于生产力是确实的提升了。
+[Speaker 1]: 所有使用 AI 的公司都在疯狂赚钱，
+[Speaker 1]: 利润都在提升，
+[Speaker 1]: 收入都在提升，
+[Speaker 1]: 同时也在裁员。
+[Speaker 1]: 所以就导致 opening job，
+[Speaker 1]: 就是这个这个这个工作越来越少，
+[Speaker 1]: 工作越来越少，
+[Speaker 1]: 会导致消费者越来越少，
+[Speaker 1]: 嗯，
+[Speaker 1]: 对消费者越来又少，
+[Speaker 1]: 反过来会导致整个经济偏向于没有活力，
+[Speaker 1]: 走向通缩，
+[Speaker 1]: 对吧？
+[Speaker 1]: 而且 AI 生产力的加剧，
+[Speaker 1]: 又会影响整个整经济走向通缩。
+[Speaker 1]: 因为东西更便宜了，
+[Speaker 1]: 服务更便宜了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 所以现在其实市场在定价这么一个事情，
+[Speaker 1]: 所有人都在尝试去理解未来社会到底会怎么样。
+[Speaker 1]: 但是啊一方面他会很糟糕，
+[Speaker 1]: 因为你会发现很多人失业，
+[Speaker 1]: 对，
+[Speaker 1]: 没有收入了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 另外一方面你会发现，
+[Speaker 1]: 就算这些人失业了，
+[Speaker 1]: 他还可以订阅两百美元，
+[Speaker 1]: 一个月 collicode 来做很多有意有意思的事情。
+[Speaker 1]: 也许可以通过这些事情赚到钱也许不行，
+[Speaker 1]: 但是没人知道。
+[Speaker 1]: 所以大家把未来偏向于理解，
+[Speaker 1]: 理解为一个非常不稳定的的未来。
+[Speaker 2]: 你刚才说这一点就提到了一个观众给我之前发了一个问题，
+[Speaker 2]: 就是你推荐呃现在的年轻人，
+[Speaker 2]: 他们应该学什么？
+[Speaker 2]: 就比如说上一个一个小孩子上大学，
+[Speaker 2]: 我们之前有这个智慧是说好的好的，
+[Speaker 2]: 包括毕竟我有个我我有个小弟，
+[Speaker 2]: 他现在在大学我一直都在说他要学写代码。
+[Speaker 2]: 对，
+[Speaker 1]: 现在不用学。
+[Speaker 1]: 嗯，
+[Speaker 1]: 如果还没写的话，
+[Speaker 1]: 就不用就不用，
+[Speaker 2]: 真的是不用学，
+[Speaker 1]: 现在不用学。
+[Speaker 2]: 那那那你会给呃对一个年轻人，
+[Speaker 2]: 你会呃怎么推荐他他学什么呢？
+[Speaker 1]: 学好怎么使用 cloud 的这些编码的 coagent。
+[Speaker 1]:  ok 在这三到六月。
+[Speaker 1]: 对，
+[Speaker 1]: 但是在过了这段时间，
+[Speaker 1]: 其实也不太需要学啊啊为什么？
+[Speaker 1]: 因为全自动化了，
+[Speaker 1]: 其实我自己就在写一个叫做弯慢 AI 的。
+[Speaker 1]: 就是大家知道弯慢影小，
+[Speaker 1]: 就是人人电车在写一个弯慢开启的一个产品。
+[Speaker 1]: 就是我每天晚上睡觉之前，
+[Speaker 1]: 我都会让他在我自己的五零九零的 dp c 上面跑，
+[Speaker 1]: 昨天跑了一千个循环，
+[Speaker 1]: 这一千个循环六个多小时。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我就让他干一个什么事呢？
+[Speaker 1]: 我让他设计一家在东京的做装置艺术的公司。
+[Speaker 1]: 然后这个公司要有完全的财务计划网站，
+[Speaker 1]: 装置艺术的三 d 的这些三 d 的这种通过 three GS 写的三 d 的这个产品。
+[Speaker 1]: 然后并且让他写一封邮件，
+[Speaker 1]: 去把他的装置艺术提交给在东京的所有各种各样的画廊，
+[Speaker 1]: 各种各样需要这个装置艺术的公共空间。
+[Speaker 1]: 对，
+[Speaker 1]: 然后他把这件事情做完了，
+[Speaker 1]: 你可以想象到如果这件事情我都能做，
+[Speaker 1]: 就意味着有无数多的科技公司都在做这种自动化的公司。
+[Speaker 1]: 你只要提供一个想法，
+[Speaker 1]: 他可以把这些想法当中一千个可能性全部给你实现，
+[Speaker 1]: 然后自动的去帮你执行。
+[Speaker 1]: 那这样的话，
+[Speaker 1]: 你为什么还需要自己和他聊天的方式写代码就不需要了，
+[Speaker 1]: 对吧？
+[Speaker 1]: 仅限于现在短期。
+[Speaker 1]: 所以现在我把软件，
+[Speaker 1]: 其实我今天想和大家分享一个非常重要的观点是为什么说是软件的终结？
+[Speaker 1]: 我把软件分成从去年十月份开始分成两种类型，
+[Speaker 1]: 一种是写死的软件，
+[Speaker 1]: 就以往的通过工作流构建的软件。
+[Speaker 1]: 第二一种就是我刚才说的软件的最终的软件也不叫软件终结吧。
+[Speaker 1]: 最终的软件最终的软件通过不断的推理，
+[Speaker 1]: 把人类的思考变成无数多的可能性。
+[Speaker 1]: 你可以把它理解成他是一个没有时间的东西，
+[Speaker 1]: 或者说他可以把时间变成非常快的东西。
+[Speaker 1]: 因为它有无数的可能性，
+[Speaker 1]: 它可以一直运行，
+[Speaker 1]: 它就可以把所有的可能性同时选择同时进行同时发生。
+[Speaker 1]: 嗯，
+[Speaker 1]: 最后你只要选择一个效率更高的分支就可以了，
+[Speaker 1]: 或者你也可以不选择让它全自动的运行。
+[Speaker 1]: 以往我们创业创业需要一些钱，
+[Speaker 1]: 比如说在日本做一家公司需要八百万日日元的注册资金。
+[Speaker 1]: 然后你需要去请一些人，
+[Speaker 1]: 然后你需要去有一个想法。
+[Speaker 1]: 因为你如果你有太多想法的话，
+[Speaker 1]: 会分摊你的经历，
+[Speaker 1]: 你多半可能会失败。
+[Speaker 1]: 但是现在有了外卖 AI 这种东西，
+[Speaker 1]: 有了 AI agents，
+[Speaker 1]: 你可以把自己的想法告诉他，
+[Speaker 1]: 然后让他不断去执行。
+[Speaker 1]: 他可能会发散出非常非常多的想法，
+[Speaker 1]: 然后每一个他都会写都会去做。
+[Speaker 1]: 如果失败了，
+[Speaker 1]: 他可能就按照你的失败的计划退出。
+[Speaker 1]: 如果不失败，
+[Speaker 1]: 他就持续运营下去，
+[Speaker 1]: 直到盈利。
+[Speaker 1]: 好的好的，
+[Speaker 1]: 那么其实作为创业者，
+[Speaker 1]: 作为这种知识分子，
+[Speaker 1]: 任何人都可以拥有自己的这种公司。
+[Speaker 1]: 只要你提出想法就行，
+[Speaker 1]: 但是就算连想法这件事情本身都在被 AI 自动的去发散。
+[Speaker 1]: 对，
+[Speaker 1]: 这就是我刚刚说到的 auto research，
+[Speaker 1]: 他干的就是这样的事情。
+[Speaker 2]:  okay，
+[Speaker 2]: 最后一个问题就是呃你能不能呃给给我们就是解释一下现在国内在发生什么？
+[Speaker 2]: 这个 open clow 现在就是这么火，
+[Speaker 2]: 这 open cw 和这个 cloud code 有什么区别？
+[Speaker 2]: 你说的 open code open open open code 这个龙虾那个哦 open en clow。
+[Speaker 1]: 对，
+[Speaker 1]: 龙虾对对，
+[Speaker 1]: 龙虾，
+[Speaker 1]: 我刚刚大概解释了一下，
+[Speaker 1]: 龙虾，
+[Speaker 1]: 它不是一个语言模型，
+[Speaker 1]: 它是一个编排软件。
+[Speaker 1]: 你可以理解为它是一个常驻在你的电脑当中的一个 agent matches。
+[Speaker 1]: 就是它是一个它背后有很多自动在运行的这个 agent，
+[Speaker 1]: 对后你要为它切接入语言模型。
+[Speaker 1]: 当然最好的语言模型就是 cloud cloud 提供的 oppo 四点六。
+[Speaker 1]: 如果你给它接入 oppo 四点六，
+[Speaker 1]: 那它就相当于是一个非常厉害的二十四乘以七的一个 agent，
+[Speaker 1]: 自动在你的电脑里面跑。
+[Speaker 1]: 那么对于他来说，
+[Speaker 1]: 你可以让他完成各种各样的事情，
+[Speaker 1]: 对处理邮件或者是处理工作，
+[Speaker 1]: 或者像我刚刚说的哦，
+[Speaker 1]: 做一个的公司，
+[Speaker 1]: 然后不断的去推演。
+[Speaker 1]: 对，
+[Speaker 1]: 他他就这样一个角色色是他相当于于运行在本地的。
+[Speaker 1]: 但然当是大家会发现，
+[Speaker 1]: 如果什么东西可以运行在本地，
+[Speaker 1]: 他一定会运行在云端，
+[Speaker 1]: 对吧？
+[Speaker 1]: 这个就是我现在在做的事情，
+[Speaker 1]: 其实有也是很多公司现在做的事情。
+[Speaker 1]: 既然可以运行在你本地的 mac mini 或者你的 PC 上，
+[Speaker 1]: 那它就可以一定运行在云端啊，
+[Speaker 1]: 运行在云端的话那就更不得了了。
+[Speaker 1]: 因为云端的电脑服务器的性能更强，
+[Speaker 1]: 它推演的速度更快，
+[Speaker 1]: 而且它可以一直不断电。
+[Speaker 1]: 对，
+[Speaker 1]: 而且他可以有更多的信息，
+[Speaker 1]: 有更多的记忆啊，
+[Speaker 2]: 他就自动的在跑的那会不会有些风险啊啊在在你自己的电脑上跑是有风险的。
+[Speaker 1]: 其实我现在已经看到很多的 open cloud 被人家偷骗了钱的这种例子，
+[Speaker 1]: 被其他的 agent 骗了钱的例子。
+[Speaker 1]: 对，
+[Speaker 1]: 但是如果在在云端沙箱当中是没有任何风险险，
+[Speaker 1]: 因为三 box 跑完以后就会直接扔掉。
+[Speaker 1]: 呃，
+[Speaker 1]: 然后你也不用担心，
+[Speaker 1]: 你会去去去改掉各种各样的文件，
+[Speaker 1]: 因为他用完了就扔掉了。
+[Speaker 1]: 是的是的对哦，
+[Speaker 1]: 还有刚才那个问题忘了跟你说了，
+[Speaker 1]: 就是中国和美国在这个世界上的差距呃是是比较大的，
+[Speaker 1]: 大概有六到十二个月的时间，
+[Speaker 1]: 这看起来好像很短，
+[Speaker 1]: 但其实现在六个月是非常非常重要。
+[Speaker 2]: 你现在是指什么？
+[Speaker 2]: 差距？
+[Speaker 1]: 是 AI 的大模型发模型差差模型型差距。
+[Speaker 1]:  ok 对，
+[Speaker 1]: 主要是模型的编码能力的差距。
+[Speaker 1]: 因为大家发现 cloudy code 其实一个编码编码模型，
+[Speaker 1]:  oppo 四点六的编码能力非常强，
+[Speaker 1]: 所以导致他可以完成各种各的工作。
+[Speaker 1]: 所以大家会发现就是说以往中国公司买了卡，
+[Speaker 1]: 字节，
+[Speaker 1]: 花了很多的卡去给豆包去做推理，
+[Speaker 1]: 给季梦去做推理。
+[Speaker 1]: 因为一鸣啊，
+[Speaker 1]: 包括中国的公司的想法，
+[Speaker 1]: 就是那我一定要做能够挣到钱的，
+[Speaker 1]: 我一定要要做能够挣得钱的事情。
+[Speaker 1]: 那么他们第一个想法就是我一定要去做消费级的产品，
+[Speaker 1]: 就是用户从七岁到七十岁的人都可以用的。
+[Speaker 1]: 所以他们把把很多的 GPU 都拿都拿来做消费模型的一些多模态模型的推理啊。
+[Speaker 1]: 你可以在寂梦上生成视频，
+[Speaker 1]: 可以在跟豆包聊天背后都用了这些推理的能力。
+[Speaker 1]: 这就意味着他们其实买了很多卡都没有去做编码模型的训练，
+[Speaker 1]: 他们没有这么多卡去做训练，
+[Speaker 1]: 所以这是一个本质上的一个差别。
+[Speaker 1]: 像现在有很多的公司，
+[Speaker 1]: 像 kimi 哦，
+[Speaker 1]:  mini max 也在尝试追上来。
+[Speaker 1]: 好的好的，
+[Speaker 1]: 但是大家如果有关注行内行业内的新闻，
+[Speaker 1]: 就会发现，
+[Speaker 1]: 其实他们就都是通过蒸馏啊这 cloud d 的模模的方式来来来来来追赶的。
+[Speaker 1]: 所以它本质上还是存在一个代际的差异。
+[Speaker 1]: 你必须要有先锋者，
+[Speaker 1]: 你通过蒸馏它的模型才能有后来者。
+[Speaker 1]: 所以其实这个差异是非常非常对对对对对大的一个事情就是看起来我们感知不到，
+[Speaker 1]: 我们会觉得中国人呃用豆包好几亿用户呢。
+[Speaker 1]: 所以其实对于对于中国和美国的用户市场来说，
+[Speaker 1]: 其实中国用 AI 的人是更多的不是更少的对，
+[Speaker 1]: 但是大家都用来干嘛呢？
+[Speaker 1]: 去做那种猫猫狗狗的视频，
+[Speaker 1]: 哈哈哈哈呃让让豆包看自己的穿搭符不符合那种对吧？
+[Speaker 1]: 他的推荐，
+[Speaker 1]: 然后做那种很搞笑的视频。
+[Speaker 1]: 我不是说这个不好，
+[Speaker 1]: 这个是很有意思的一件事情，
+[Speaker 1]: 让 AI 在全民普及的非常快。
+[Speaker 1]: 对，
+[Speaker 1]: 但是就是因为这个事情，
+[Speaker 1]: 所以导致中国和美国的这个模型的代差存在一个六个月左右的代差。
+[Speaker 1]: 你像 cloud 那个个那那一代一人 CEO，
+[Speaker 1]: 他之前就说他他说他说中国人和他们的模型大有六个月的代差。
+[Speaker 1]: 你像 cloud 可能是在这个领域里面做的最好的，
+[Speaker 1]: 但是也是存在半年做一个代差，
+[Speaker 1]: 对不对？
+[Speaker 1]: 对对，
+[Speaker 2]: 所以现在掰担子和这些大企业，
+[Speaker 2]: 阿里，
+[Speaker 2]: 包括腾讯呃，
+[Speaker 2]: 这个百度，
+[Speaker 2]: 他们都在摸索这个这个 agent 这个软件嘛，
+[Speaker 2]: 他们也在做嘛。
+[Speaker 1]: 对，
+[Speaker 1]: 其实对其实都同步在做，
+[Speaker 1]: 但是就是说有有有有重要性的前后区分。
+[Speaker 1]: 因为他们其实像我刚才说到一样，
+[Speaker 1]: 很多的公司其实都是先开始做消费级产品。
+[Speaker 1]: 对对，
+[Speaker 1]: 包括开源的模型其实都做的比较好。
+[Speaker 1]: 大家会发现阿里巴巴的那个千问对吧，
+[Speaker 1]: 这些开源模型他们会做的比较好的。
+[Speaker 1]: 对，
+[Speaker 1]: 但其实还是存在一个很明显的代差，
+[Speaker 1]: 变化其实非常大。
+[Speaker 1]: 大家可能会需要很长时间去去去去消化这这些变化。
+[Speaker 1]: 如果你不像我这疯疯一天，
+[Speaker 1]: 可能能几几个小时，
+[Speaker 1]: 二、
+[Speaker 1]: 几个小时都在外部 coding 的话，
+[Speaker 1]: 你可能大概率理解不了。
+[Speaker 1]: 这种变化是什么。
+[Speaker 1]: 但是几个之后呃，
+[Speaker 1]: 我觉得所有人都能够体验，
+[Speaker 0]: 体会到人类有好几种方式可以接近智慧。
