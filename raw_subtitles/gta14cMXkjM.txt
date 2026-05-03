@@ -1,0 +1,643 @@
+[Speaker 0]: 这周是五一劳动节，
+[Speaker 0]: 预计有超过六千名劳工上街。
+[Speaker 0]: 许多企业最近都在吹捧 AI，
+[Speaker 0]: 可以减少工作，
+[Speaker 0]: 提升效率，
+[Speaker 0]: 让人类社会变更好。
+[Speaker 0]: 但事情真的是如此吗？
+[Speaker 0]: 今天要来介绍了这本书，
+[Speaker 0]: 血汗 AI 作者到世界各地做田野调查，
+[Speaker 0]: 访谈了两百多个 AI 产业的劳动者要为我们一步步揭露。
+[Speaker 0]: 在这场人工智慧浪潮背后，
+[Speaker 0]: 你看不见的血汗 AI。
+[Speaker 1]: 嗯嗯，
+[Speaker 0]: 呜呜呜嗯过去几年生成式 AI 越来越强大，
+[Speaker 0]: 人们习惯把 AI 的机器学习想成是机器自己学会，
+[Speaker 0]: 但这其实是一个迷思。
+[Speaker 0]: 机器学习其实不是完全由 AI 自己学习，
+[Speaker 0]: 而是常要仰赖世界各地的资料标记员来协助。
+[Speaker 0]:  AI 要辨识一个影像是什么？
+[Speaker 0]: 需要先靠人去辨识，
+[Speaker 0]: 才能训练。
+[Speaker 0]:  AI 学习，
+[Speaker 0]: 最后才能把资料转换成 AI 模型的资料库。
+[Speaker 0]: 例如，
+[Speaker 0]: 二零一八年，
+[Speaker 0]: 亚利桑那州的一名路人被自动驾驶撞死，
+[Speaker 0]: 就是因为 AI 无法辨识，
+[Speaker 0]: 它是路人，
+[Speaker 0]: 所以资料标记的工作很重要，
+[Speaker 0]: 光是二零二二年资料标记的产值就高达二十二亿美元，
+[Speaker 0]: 而且估计这个市场每年都会增长三十趴。
+[Speaker 0]: 近年甚至出现一种道德人工智慧。
+[Speaker 0]: 企业宣称把资料标记的工作外包到第三世界，
+[Speaker 0]: 可以为大批的穷人提供工作机会。
+[Speaker 0]: 像是二零一九年中国的支付宝跟阿里巴巴的人工智慧实验室就推出 idol 计划。
+[Speaker 0]: 把 AI 标记的工作分包到偏乡地区，
+[Speaker 0]: 说是要救助贫困女性。
+[Speaker 0]: 类似的计划也出现在印度南部的村庄说，
+[Speaker 0]: 要为当地的妇女赔礼，
+[Speaker 0]: 让他们有一技之长。
+[Speaker 0]: 当今世界上有数百万人都做着这种工作，
+[Speaker 0]: 但是这么庞大的劳动量，
+[Speaker 0]: 为什么 AI 公司要隐藏起来避而不谈呢？
+[Speaker 0]: 因为资料标记其实是一个非常不人道的工作，
+[Speaker 0]:  AI 公司把这些工作外包到肯亚。
+[Speaker 0]: 乌干达、
+[Speaker 0]: 印度为什么是这些国家？
+[Speaker 0]: 因为他们的薪资廉价又会讲英文。
+[Speaker 0]: 肯亚的资料标记员每天要工作十小时，
+[Speaker 0]: 进停不休的。
+[Speaker 0]: 在电脑前标记图像主管会要求准确率要达到九十五趴，
+[Speaker 0]: 进度落后的话会被要求周末无偿加班，
+[Speaker 0]: 经理还会用荧幕监控软体，
+[Speaker 0]: 确保没有人在偷懒。
+[Speaker 0]: 他们签的约都是一两个月的短期合约，
+[Speaker 0]: 约做不好的人不会被开除，
+[Speaker 0]: 只是不让你续约。
+[Speaker 0]: 这些标记员每月的收入折合美金只有两百美元，
+[Speaker 0]: 而且据估算，
+[Speaker 0]: 有三十趴的员工最后都拿不到酬劳。
+[Speaker 0]: 因为只要雇主对于案件的完成度不满意，
+[Speaker 0]: 就可以拒绝付钱，
+[Speaker 0]: 而劳工也不可能为了这一个月的薪资去花钱打官司。
+[Speaker 0]: 更可怕的是内容审查员的工作。
+[Speaker 0]: 假设你在脸书上发现一则血腥暴力的影片，
+[Speaker 0]: 你检举后，
+[Speaker 0]: 脸书就会交给人工审混合。
+[Speaker 0]: 这些人必须手动找出违反规定的内容，
+[Speaker 0]: 贴上标签。
+[Speaker 0]:  AI 的演算法才能够作业，
+[Speaker 0]: 每个员工每天都要处理五百到一千则标签。
+[Speaker 0]: 可怕的是这些内容包括性暴力、
+[Speaker 0]: 虐童，
+[Speaker 0]: 甚至有十人的写信影片。
+[Speaker 0]: 但是很多公司一开始却不告知员工，
+[Speaker 0]: 等于是用诱骗的方式让非洲人做这些工作。
+[Speaker 0]: 这导致许多员工都患有心理创伤，
+[Speaker 0]: 还有人甚至试图自杀。
+[Speaker 0]: 你可能会问，
+[Speaker 0]: 劳动条件这么邪罕难道都没有人出来抗议吗？
+[Speaker 0]: 肯亚奈洛比的一家公司员工曾经集体罢工抗议，
+[Speaker 0]: 但是企业根本不担心，
+[Speaker 0]: 只是把合约转给其他公司的员工。
+[Speaker 0]: 这一周在肯亚的承包案下，
+[Speaker 0]: 一周可能就转到了菲律宾。
+[Speaker 0]: 再加上这些 AI 供应链完全不透明，
+[Speaker 0]: 很多员工不知道自己接的是哪家 AI 企业的承包案，
+[Speaker 0]: 导致他们很难出来揭露雇主的恶行。
+[Speaker 0]: 这些资料标注的工作，
+[Speaker 0]: 跟资本家所炫耀的未来完全不同。
+[Speaker 0]:  AI 资本家要我们相信，
+[Speaker 0]:  AI 出现后，
+[Speaker 0]: 需要的劳动力就会减少，
+[Speaker 0]: 人类就会获得解放。
+[Speaker 0]: 但事实上，
+[Speaker 0]: 为了要维系 AI 的运作，
+[Speaker 0]: 全球需要的劳动量都大幅增加。
+[Speaker 0]: 因为有了 AI 之后，
+[Speaker 0]: 万事万物就可以自主运作，
+[Speaker 0]: 根本是一种幻觉。
+[Speaker 0]: 其实，
+[Speaker 0]: 这背后都是看不见的血汗劳工。
+[Speaker 0]: 要不是有这些劳工，
+[Speaker 0]: 每天在后台检查，
+[Speaker 0]: 你今天打开社群媒体，
+[Speaker 0]:  youtube 就会看到一堆血腥暴力的影骗。
+[Speaker 0]: 要不是有这些人每天帮忙标记训练自动驾驶，
+[Speaker 0]: 自动驾驶的车辆可能早就出车祸了。
+[Speaker 0]: 我们能够享有各种 AI 的福利，
+[Speaker 0]: 其实都是归功于世界各地的血汗劳工。
+[Speaker 0]: 奇怪的是，
+[Speaker 0]: 每当我们讲到人工智慧的贡献者时，
+[Speaker 0]: 很多人脑中浮现的都是白人男性，
+[Speaker 0]: 明明 AI 仰赖的是大量非白人的血汗劳力。
+[Speaker 0]: 但每次我们在讨论 AI 时，
+[Speaker 0]: 这些非白人的贡献都不会受到这种事。
+[Speaker 2]:  intelligent intelligence，
+[Speaker 2]:  you can please correct that and say，
+[Speaker 2]:  african in lligan africa 之所以会有这种偏见，
+[Speaker 0]: 是因为在 AI 的分工链里，
+[Speaker 0]: 白人男性主导了城市设计模型。
+[Speaker 0]: 开发史丹佛大学的数据就指出，
+[Speaker 0]: 二零二一年人工智慧的博士有七十八点七葩都是男性。
+[Speaker 0]: 这种白人男性主导的设计，
+[Speaker 0]: 让 AI 容易产生各种偏见。
+[Speaker 0]: 假设你请 AI 创造一张高阶主管的图片，
+[Speaker 0]: 不要指定性别跟种族，
+[Speaker 0]: 这个主管有很高几率会被预设为白人男性。
+[Speaker 0]: 而不是亚洲人女性。
+[Speaker 0]:  yes hi system，
+[Speaker 0]: 我们可能会以为 AI 可以避开人文偏见。
+[Speaker 0]: 因为大语言模型是从网络上寻找资料，
+[Speaker 0]: 但是研究发现，
+[Speaker 0]: 许多网络平台像是维基百科、
+[Speaker 0]:  youtube redit it，
+[Speaker 0]: 主要都是反映了美国白人男性的观点。
+[Speaker 0]: 贴文。
+[Speaker 0]: 因为最常泡在这些平台上的都是美国白人男性，
+[Speaker 0]: 所以 AI 的模型也就慢慢变成了美国白人男性的形状。
+[Speaker 0]: 人工智慧教父 geoffrey。
+[Speaker 0]:  hinton 几年前就跟许多科技名人签署了一份声明，
+[Speaker 0]: 宣称减轻人工智慧所造成的灭绝风险，
+[Speaker 0]: 应该跟流行病核战的社会问题一样，
+[Speaker 0]: 成为全球的优先考量。
+[Speaker 3]:  for the superchallenges taking over，
+[Speaker 3]:  not for the other thing。
+[Speaker 3]:  but for that，
+[Speaker 3]:  we're in the same boat。
+[Speaker 3]:  it's like a global nuclear war。
+[Speaker 3]:  we all look。
+[Speaker 3]:  and so that's the situation in which warrying tribes cooperate and external al enemy is bigger than them were force them to cooperate because they get the same payoff as each other。
+[Speaker 3]:  and so this threat is like that。
+[Speaker 0]: 这些人担心，
+[Speaker 0]:  DI 如果有天天发展成超智能，
+[Speaker 0]: 会不受类类控制，
+[Speaker 0]: 可对人类类成成超智能。
+[Speaker 0]: 就像电影魔鬼终结者一样没有，
+[Speaker 0]: 但是作者认为讲这些话其实都是人工智慧的市场。
+[Speaker 0]: 炒作是一种行销策略，
+[Speaker 0]: 目的是要让世界各国都开始关注这个问题，
+[Speaker 0]: 各国政府就会投注更多资金在 AI 上面。
+[Speaker 0]: 从近几年的 AI 热潮来看，
+[Speaker 0]: 这个行销策略的确奏效了。
+[Speaker 0]:  AI 巨头公司被邀请到白宫为人工智慧的监管提出政策构想。
+[Speaker 0]:  amazon、
+[Speaker 0]:  google、
+[Speaker 0]: 微软、
+[Speaker 0]:  meta 跟白宫签署协议，
+[Speaker 0]: 规范深成式 AI 的伦理安全原则。
+[Speaker 0]: 这些科技巨头都讲的，
+[Speaker 0]: 好像 AI 要来毁灭世界一样。
+[Speaker 0]: 但是作者认为，
+[Speaker 0]: 我们先不用想那么远，
+[Speaker 0]: 应该先关注。
+[Speaker 0]: 目前，
+[Speaker 0]:  AI 正在对人类造成的危害甚至血害劳动，
+[Speaker 0]: 用 AI 散播认知作战，
+[Speaker 0]: 让人民对政府的信任度降低，
+[Speaker 0]: 甚至是用 AI 的学习模型来开发生化武器，
+[Speaker 0]: 这些都可能造成人类社会的崩溃。
+[Speaker 0]: 甚以我们不用去设想，
+[Speaker 0]: 未来 AI 有没有可能控制人类，
+[Speaker 0]: 人类自己就已经在用 AI 剥削人类了。
+[Speaker 0]: 第二个，
+[Speaker 0]:  AI 隐藏的代价是 AI 资料中心的生态负荷。
+[Speaker 0]: 人工智慧的运作需要不断用资料中心的运算能力，
+[Speaker 0]:  AI 模型变得越庞大，
+[Speaker 0]: 需要的计算量就越大，
+[Speaker 0]: 也就需要更先进的晶片。
+[Speaker 0]: 更大的资料中心。
+[Speaker 0]: 根据统计，
+[Speaker 0]: 人工智慧公司的资本有八十趴，
+[Speaker 0]: 都是花在跟算力有关的资源。
+[Speaker 0]:  google 光是在世界各地的资料中心就有高达十三万的外包约聘人员。
+[Speaker 0]: 但是要建造资料中心成本非常高昂，
+[Speaker 0]: 需要各种金属矿物。
+[Speaker 0]: 光是过去五年铜钴锂这些关键矿藏的需求就翻了一倍。
+[Speaker 0]: 因为绿能、
+[Speaker 0]: 科技、
+[Speaker 0]:  AI 资料中心都会需要这些原料。
+[Speaker 0]: 自来是 AI 资料中心，
+[Speaker 0]: 需要非常庞大的电力水力资源，
+[Speaker 0]: 因为资料中心的伺伏器容易发热，
+[Speaker 0]: 需要持续的用水冷却。
+[Speaker 0]: 根据统计，
+[Speaker 0]: 全世界光是用在冷却伺伏器的电力消耗就占的资料中心能消耗耗四十趴。
+[Speaker 0]: 二零二一年，
+[Speaker 0]:  goooogle 资料中心在奥瑞冈中的 ladots 用了全市三分之一的用水量，
+[Speaker 0]: 市政府不敢公布数据，
+[Speaker 0]: 后来才被媒体揭露，
+[Speaker 0]: 引发市民集体不满。
+[Speaker 0]: 二零二三年，
+[Speaker 0]: 乌拉圭遭逢七十四年严重大旱，
+[Speaker 0]: 但政府竟然把水资源优先给 google 的资料中心引发民怨。
+[Speaker 0]: 我根据估计，
+[Speaker 0]: 到了二零二八年，
+[Speaker 0]: 爱尔兰的 AI 资料中心将会用掉全国二十七趴的电力。
+[Speaker 0]: 所以作者说，
+[Speaker 0]:  AI 根本是一台榨取机器不止，
+[Speaker 0]: 榨取血汗劳工，
+[Speaker 0]: 也榨取自然生态资源。
+[Speaker 0]: 因为对于高耗能的需求，
+[Speaker 0]: 许多 AI 企业现在看上了冰岛。
+[Speaker 0]: 冰岛全国有一百趴的再生能源，
+[Speaker 0]: 七十趴水利发电三十趴地热能源可以用再生能源来吸引 AI 投资。
+[Speaker 0]: 再加上冰岛中年低温，
+[Speaker 0]: 适合给资料中心散热，
+[Speaker 0]: 成为了设立 AI 资料中心的理想地点。
+[Speaker 0]: 其实，
+[Speaker 0]: 早在 AI 进驻以前，
+[Speaker 0]: 许多加密货币的矿工就看上了冰岛，
+[Speaker 0]: 想利用冰岛便宜的绿能。
+[Speaker 0]: 二零一七年，
+[Speaker 0]: 冰岛九成的资料中心容量都被比特币矿工用来挖比特币，
+[Speaker 0]: 这导致了一场抗疫运动。
+[Speaker 0]: 结果现在比特币矿工走了，
+[Speaker 0]: 换成 AI 资料中心来榨取能源。
+[Speaker 0]: 从电地供应商的角度来看，
+[Speaker 0]: 这是好事。
+[Speaker 0]: 因为他们消费的电力很稳定，
+[Speaker 0]: 可以预期接下来十年的生意。
+[Speaker 0]: 而且冰岛又没有地缘政治危机，
+[Speaker 0]: 可以说是地球上最安全的国家之一。
+[Speaker 0]: 欧洲的 AI 研究人员就认为，
+[Speaker 0]: 应该要把欧洲的资料中心迁移到冰岛。
+[Speaker 0]:  AI 不需要在大都市里做数据分析，
+[Speaker 0]: 而是把数据资料都传到冰岛的伺伏器。
+[Speaker 0]: 在冰岛处理完之后再把数据传回来。
+[Speaker 0]: 欧洲但是在这样做的同时时，
+[Speaker 0]: 等于也是把生态负荷的问题转嫁到了冰岛。
+[Speaker 0]: 第三个，
+[Speaker 0]:  AI 的隐藏代价是，
+[Speaker 0]: 生成式 AI 正在对艺术产业进行大洗牌。
+[Speaker 0]: 现在许多公司不再需要聘请专业配音员，
+[Speaker 0]: 只要每月付一笔钱，
+[Speaker 0]: 就可以在网络上购买 AI 配音，
+[Speaker 0]: 不用请真人就可以得到几乎像真人一样的声音或是电影公司，
+[Speaker 0]: 可以跟演员签一季的合约或面续集，
+[Speaker 0]: 都用 AI 来制作，
+[Speaker 0]: 就可以省下一大笔成本。
+[Speaker 0]: 例如，
+[Speaker 0]: 电影星际大战，
+[Speaker 0]: 就透过 AI 技术，
+[Speaker 0]: 让已经过世的 carry feature。
+[Speaker 0]: 从现在天行者的崛起，
+[Speaker 0]: 许多艺术创作者担心即将被 AI 取代，
+[Speaker 0]: 像是书籍、
+[Speaker 0]: 封面、
+[Speaker 0]: 商业广告，
+[Speaker 0]: 都已经有许多厂商用深层式 AI 制作，
+[Speaker 0]: 未在可能要花钱请一整个影音团队。
+[Speaker 0]: 现在只需要聘请一位来修改 AI 的内容就好。
+[Speaker 0]: 这样一来，
+[Speaker 0]: 许多艺术创作者就会失去赚钱管道，
+[Speaker 0]: 未来只会剩下专业，
+[Speaker 0]: 顶层的艺术人士会被聘用。
+[Speaker 0]: 现在可能要小型的艺术家就可能接不到案子，
+[Speaker 0]: 慢慢的艺术工作就会变成有钱人的专利，
+[Speaker 0]: 只有有钱人小孩才可以负担得起。
+[Speaker 0]: 所以，
+[Speaker 0]: 在二零二三年，
+[Speaker 0]: 美国编剧工会就代表一万一千五百名的工作者进行罢工抗议，
+[Speaker 0]: 好莱坞用 AI 取代编剧演员的工作。
+[Speaker 0]: 配音员发起，
+[Speaker 0]: 不要窃取我们的声音运动，
+[Speaker 0]: 试图向政府施压，
+[Speaker 0]: 要政府监管 AI 在创意产业的使用。
+[Speaker 0]: 这场罢工谈判与制片公司达成协议，
+[Speaker 0]: 严格限制好莱坞用 AI 来制作改写剧本，
+[Speaker 0]: 这也是全球首次大型影视产业将 AI 使用规则写入劳资协议。
+[Speaker 0]: 我们如果仔细想想，
+[Speaker 0]: 生成式 AI 所参考的都是网络上的数据库，
+[Speaker 0]: 这些图像声音原本都是人类的劳动成果，
+[Speaker 0]: 等于是 AI 无偿免费使用过往全人类的劳动，
+[Speaker 0]: 却不用付钱。
+[Speaker 0]: 如果是某个人复制他人的作品，
+[Speaker 0]: 我们会说这是山寨来抄袭。
+[Speaker 0]: 但如果是 AI 截取网络上的各种作品，
+[Speaker 0]: 把他们拼贴成新的图像，
+[Speaker 0]: 我们却不会认为这是抄袭，
+[Speaker 0]: 反而会赞叹深成式 AI 的厉害，
+[Speaker 0]: 这不是很奇怪吗？
+[Speaker 0]: 到底生成式 AI 会不会取代艺术创作？
+[Speaker 0]: 学界两派人马争论创休学派人士认为，
+[Speaker 0]: 根本不用担心，
+[Speaker 0]: 因为 AI 永远没办法复制人类灵光一闪的时刻。
+[Speaker 0]: 早在古希腊时期，
+[Speaker 0]: 许多诗人都会把创作灵感归功。
+[Speaker 0]: 终于神的启示，
+[Speaker 0]: 还有歌德在写少年维特的烦恼前整整构思了两年，
+[Speaker 0]: 某天突然灵光一闪，
+[Speaker 0]: 就知道怎么下笔了。
+[Speaker 0]: 这种灵感涌现的经验是 AI 无法复制的。
+[Speaker 0]: 支持 AI 的人则认为，
+[Speaker 0]: 所谓的灵感不过是人类的自以为是罢了。
+[Speaker 0]: 人的大脑其实只是比较高级的电脑，
+[Speaker 0]: 人类思维的创造力其实就是一种演算法，
+[Speaker 0]: 不断的在自有的资料中模仿、
+[Speaker 0]: 试错。
+[Speaker 0]: 发现以前的人没发现的模式，
+[Speaker 0]: 才出现所谓的灵光一闪。
+[Speaker 0]: 二零一八年，
+[Speaker 0]: 佳士得拍卖宣布贩售史上第一件 AI 生成的艺术作品。
+[Speaker 0]: 这幅画并不是复制现有的画作，
+[Speaker 0]: 而是 AI 自己亲手绘制的具有某种原创性竞标，
+[Speaker 0]: 最后以四十三万美元的价格卖出。
+[Speaker 0]: 这幅画的出现让人开始质疑，
+[Speaker 0]:  AI 已经通过了创造力测试，
+[Speaker 0]: 真的可以取代艺术家了。
+[Speaker 0]: 尽管如此，
+[Speaker 0]: 许多艺术家依然认为这不是人类的创意。
+[Speaker 0]: 这完全小看了艺术创作的过程，
+[Speaker 0]: 因为许多艺术的创意源自于身体生命的经验，
+[Speaker 0]: 例如身体感受到的痛苦，
+[Speaker 0]: 爱恨人生感受。
+[Speaker 0]: 但是 AI 没办法感受这些东西，
+[Speaker 0]: 他所做的不过是在模仿人类的表达方式而已。
+[Speaker 0]: 但是，
+[Speaker 0]: 当人类表达这些感受时，
+[Speaker 0]: 他不是在模仿别人，
+[Speaker 0]: 而是在表达自己。
+[Speaker 0]: 哲学家康德甚至认为，
+[Speaker 0]: 伟大的艺术只有人才能做得出来，
+[Speaker 0]: 因为人是活在社群里有意识的动物，
+[Speaker 0]: 这让人可以观察群体的感受，
+[Speaker 0]: 并透过艺术手法把这个感受表达出来。
+[Speaker 0]: 所以，
+[Speaker 0]: 当群体欣赏这份作品时，
+[Speaker 0]: 就会在精神层次上感觉到升华。
+[Speaker 0]: 换句话说，
+[Speaker 0]: 艺术其实是一种社会性的活动。
+[Speaker 0]: 这就是为什么当我们看到一个作品很美时，
+[Speaker 0]: 也会假定别人应该也会觉得美。
+[Speaker 0]: 因为他触发的人类感感观中的共享结构。
+[Speaker 0]: 作者认为，
+[Speaker 0]:  AI 跟艺术并非一种取代的关系。
+[Speaker 0]: 我们可以从历史的角度来看，
+[Speaker 0]: 十九世纪末摄影技术刚出现的时候，
+[Speaker 0]: 很多人也在担心绘画将要被淘汰了，
+[Speaker 0]: 因为摄影师可以更精确捕捉一个瞬间。
+[Speaker 0]: 当时法国画家的，
+[Speaker 0]: 然后在看到影版照片时，
+[Speaker 0]: 就说重新开始绘画已死。
+[Speaker 0]: 当时大家也都担心绘画要被取代了，
+[Speaker 0]: 但是真正发生的事情却是是由一批先驱人士开始投入摄影，
+[Speaker 0]: 把绘画的各种技术带进摄影中，
+[Speaker 0]: 让摄影慢慢变成一种高级艺术。
+[Speaker 0]: 这时候在摄影界发现的新创意也开始反过来影响绘画。
+[Speaker 0]: 例如，
+[Speaker 0]: 法国的现代主义画家马内就把摄影的元素融入到绘画中，
+[Speaker 0]: 反而玩出了新的画样。
+[Speaker 0]: 因为摄影技术的出现，
+[Speaker 0]: 许多画家开始抛弃写实主义，
+[Speaker 0]: 转向更大胆的色彩表现，
+[Speaker 0]: 才出现了印象派象征主义。
+[Speaker 0]: 所以，
+[Speaker 0]: 人类技术的进步并不是一种技术取代。
+[Speaker 0]: 另一种技术这么简单，
+[Speaker 0]: 绘画并没有被摄影取代，
+[Speaker 0]: 反而因为摄影的出现增添了新的活力。
+[Speaker 0]: 同样的，
+[Speaker 0]: 当今，
+[Speaker 0]: 许多艺术家也在思考，
+[Speaker 0]: 如何利用 AI 来让他们的艺术更有创意。
+[Speaker 0]: 所以作者说，
+[Speaker 0]: 我们要担心的不是 AI 可能会淘汰艺术家，
+[Speaker 0]: 而是这个技术可能被弃业用来剥削艺术家。
+[Speaker 0]: 因为归根究底，
+[Speaker 0]: 许多公司并不在意 AI 是否真的有创意，
+[Speaker 0]: 而只在意 AI 可不可以帮他们赚钱。
+[Speaker 0]: 为了抵制企业，
+[Speaker 0]: 利用 AI 剥削艺术家，
+[Speaker 0]: 芝加哥大学的研究人员就跟艺术家合作创作了艺术软体 net shade，
+[Speaker 0]: 致力于保护艺术家作品的版权。
+[Speaker 0]: 这款软体会在艺术家的作品里添加一些特殊元素。
+[Speaker 0]: 如果 AI 公司截取的这些作品，
+[Speaker 0]: 他们的 AI 模型就会中毒宕机，
+[Speaker 0]: 可以说是让艺术家从 AI 企业手上拿回了创作的主导权。
+[Speaker 0]:  the 嗯第四个 AI 隐藏的代价是企业用 AI 技术来强化职场控制。
+[Speaker 0]: 我们都知道 amazon 以快速到货闻名，
+[Speaker 0]: 但是这个高效率的送货系统背后却是非常不透明的劳动体制，
+[Speaker 0]: 没人知道仓库里发生了什么事。
+[Speaker 0]:  amazon 开发的 AI 系统叫做供应链最佳化技术，
+[Speaker 0]: 这是世界最大、
+[Speaker 0]: 最精密的自动决策系统，
+[Speaker 0]: 可以预测整条物流需求，
+[Speaker 0]: 规规划人力资源配置。
+[Speaker 0]: 当消费者在 amerson 网上订购产品时，
+[Speaker 0]: 这套系统就会用即时数据来决定要从哪个仓库发货计算。
+[Speaker 0]: 如何以最低成本的方式派出送货员。
+[Speaker 0]: 可以说，
+[Speaker 0]: 从头到尾整个仓储系统都是由 AI 管理企业喜欢，
+[Speaker 0]: 对外宣称引进 AI 后更有效率，
+[Speaker 0]: 作类工作量减轻，
+[Speaker 0]: 不用做那么多事了。
+[Speaker 0]: 但事实真的是这样吗？
+[Speaker 0]: 作者拜访了英国的总仓库员工，
+[Speaker 0]: 结果发现 emaon 的 AI 系统会监视工人的一举一动。
+[Speaker 0]: 如果工人没有跟任何货物产生互动，
+[Speaker 0]: 就会被 AI 视为是在偷懒。
+[Speaker 0]:  AI 会测量每个员工在时间内处理了多少货物，
+[Speaker 0]: 并公布一份速度表，
+[Speaker 0]: 让每个员工知道自己的排名。
+[Speaker 0]: 如果达不到一定的效率，
+[Speaker 0]: 就会被解雇。
+[Speaker 0]: 因为都是 AI 在管理，
+[Speaker 0]: 所以员工可能十小时的工作时间都不会接触到其他人，
+[Speaker 0]: 只是站在台上重复一样的动作感觉，
+[Speaker 0]: 就像是被 AI 奴役一样。
+[Speaker 3]:  what not even treated as robots retreated 奴役。
+[Speaker 0]: 这让许多 amazon 员工开始出现脾气暴躁。
+[Speaker 0]: 精神疾病 AI 企业每天都在说自动化可以减轻工作负担，
+[Speaker 0]: 但事实却是，
+[Speaker 0]: 在 amazon 公司里，
+[Speaker 0]: 每天都有数百万的仓储，
+[Speaker 0]: 员工被 AI 奴役。
+[Speaker 0]: 作者没人性的劳动 AI，
+[Speaker 0]: 让机器人变得越来越像人，
+[Speaker 0]: 但同时人却变得越来越像机器。
+[Speaker 0]:  AI 的引入，
+[Speaker 0]: 没有让 amason 的劳工劳动量减少，
+[Speaker 0]: 反而是变得更压榨，
+[Speaker 0]: 更无法松懈。
+[Speaker 0]: 这不是 AI 技术本身的问题，
+[Speaker 0]: 而是资本主义利用 AI 的进步来增进资本家的利益而牺牲劳工的利益。
+[Speaker 0]: 有些人可能会觉得，
+[Speaker 0]: 这只能说明门 ason 是一家无良企业，
+[Speaker 0]: 反正我又不在门 ason 工作，
+[Speaker 0]: 干嘛要担心？
+[Speaker 0]: 但是你怎么知到未来企业在引入 AI 时，
+[Speaker 0]: 不会采用这套 AI 系统呢？
+[Speaker 0]: 世界各地的资本家如果看到这套商业模式很成功，
+[Speaker 0]: 就可能采用 amerson 的系统，
+[Speaker 0]: 从劳工身上榨取更多利润。
+[Speaker 0]: 例如，
+[Speaker 0]: 许多客服中心开始采用数位监控模式来维持效率。
+[Speaker 0]: 嗯，
+[Speaker 0]: 沃玛公司甚至要求员工在手机上下载一款软体，
+[Speaker 0]: 让公司可以随时存取员工的手机位置。
+[Speaker 0]: 纽约时报调查发现，
+[Speaker 0]: 美国前十大雇主有八成都会监控员工的生产力。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 我们现在看到的 amazon 的情况并不是少数个案，
+[Speaker 0]: 而可能是预告了人类社会的未来。
+[Speaker 0]:  AI 未来可能驻长更压榨劳工的技术专制。
+[Speaker 0]: 这不是因为这些资本家都很邪恶，
+[Speaker 0]: 而是因为资本主义的结构，
+[Speaker 0]: 就是迫使企业必须寻找最低的人力成本。
+[Speaker 0]: 你如果不这么做，
+[Speaker 0]: 其他企业这么做就可以在市场上胜出，
+[Speaker 0]: 你的企业就会被淘汰。
+[Speaker 0]: 所以是资本主义的竞争结构，
+[Speaker 0]: 导致 AI 的血汗劳动。
+[Speaker 0]: 事实上，
+[Speaker 0]: 许多 AI 企业的老板都认为自己是大伟人，
+[Speaker 0]: 正在推动人类社会往前。
+[Speaker 0]: 这其实可以追溯到戏骨资本家的一套世界观技术、
+[Speaker 0]: 乌托邦主义。
+[Speaker 0]: 他们认为，
+[Speaker 0]: 科技精英是带领社会进步的关键，
+[Speaker 0]: 反对劳工组织工会认为，
+[Speaker 0]: 应该完全消除政府管制，
+[Speaker 0]: 用完全的市场自由才能够释放科技发展的潜能，
+[Speaker 0]: 让人类获得最大自由。
+[Speaker 0]:  payful 的创办人 peter tie 就是典型的代表。
+[Speaker 4]:  if you hold the gun to my hdset and do do i think we're going to get，
+[Speaker 4]:  are we going to get？
+[Speaker 4]:  you know，
+[Speaker 4]:  the dangerous AI that disrupts our society，
+[Speaker 4]:  maybe be know becomes a dangerous weapon？
+[Speaker 4]:  or are we are we likely to get the one world nanny state that stops it from being built？
+[Speaker 4]:  since people are worried about the former，
+[Speaker 4]:  not the latter that tells you。
+[Speaker 4]:  you should worry about the latter，
+[Speaker 4]:  not the formers。
+[Speaker 0]: 这种思想尤其在加州戏鼓盛行，
+[Speaker 0]: 所以学者 richard barbrook 跟 andy cameron 就把这称作加州意识形态。
+[Speaker 0]: 讽刺的是，
+[Speaker 0]:  peter till 一方面说 AI 会为人类带来自由，
+[Speaker 0]: 自己却创办 paentier。
+[Speaker 0]: 这家 AI 监控巨头公司为全球劳工带来了被监控的不自由。
+[Speaker 1]: 你在这里哪方？
+[Speaker 0]: 如果 AI 正在助长各种血汗劳动生态，
+[Speaker 0]: 破坏侵害人的自由，
+[Speaker 0]: 那又如何改变这种局面呢？
+[Speaker 0]: 作者最后提出了几个建议。
+[Speaker 0]: 第一是建立工人组织的集体力量。
+[Speaker 0]:  AI 资本家之所以可以这样压榨劳工，
+[Speaker 0]: 是因为全球的廉价劳力触手可得。
+[Speaker 0]: 如果某一国的劳工罢工抗议，
+[Speaker 0]: 企业只需要把案子外包到其他国家就好了。
+[Speaker 0]: 像是作者采访的一位非洲雇主就告诉员工，
+[Speaker 0]: 我们不可能提高工资，
+[Speaker 0]: 我们必须跟印度竞争。
+[Speaker 0]: 我果不想做这份工作，
+[Speaker 0]: 你可以离开，
+[Speaker 0]: 会有别人来做。
+[Speaker 0]: 嗯，
+[Speaker 0]: 相比之下，
+[Speaker 0]: 发达国家的 AI 工程师却可以得到很好的待遇。
+[Speaker 0]: 因为企业知道，
+[Speaker 0]: 如果不这么做，
+[Speaker 0]: 工程师就可能跳槽到竞争对手那边。
+[Speaker 0]: 要改变这样的情况，
+[Speaker 0]: 就必须建立跨国的劳工结盟。
+[Speaker 0]: 我们必须意识到，
+[Speaker 0]: 世界各国的劳工有共同的利益，
+[Speaker 0]: 就是要更平等的分配劳动果实，
+[Speaker 0]: 还有更人道的劳动条件。
+[Speaker 0]: 一个跨国合作的成功案例是，
+[Speaker 0]: 二零一三年孟加拉的热纳大楼导踏实，
+[Speaker 0]: 一千一百三十四人死亡，
+[Speaker 0]: 全球都注意到了血汗成衣场的问题。
+[Speaker 0]: 由四十五个国家的两百三十五个组织发起清洁衣服运动设定全球协议，
+[Speaker 0]: 要求工人的基本安全受到保障，
+[Speaker 0]: 而且工人有权拒绝不安全的工作。
+[Speaker 0]: 这项协议因为是全球设定资本家，
+[Speaker 0]: 就算迁移到其他地方，
+[Speaker 0]: 也必须遵守。
+[Speaker 0]: 第二个策略是由民间团体追究公司责任，
+[Speaker 0]: 消费者可以带头对企业施压、
+[Speaker 0]: 改善供应链的血汗劳动问题公开。
+[Speaker 0]: 哪一家企业正在做这些血汗压榨，
+[Speaker 0]: 抵制他们的产品服务。
+[Speaker 0]: 这种策略被称作点名羞辱，
+[Speaker 0]: 作者就亲自参与了一项行动计划。
+[Speaker 0]:  firework，
+[Speaker 0]: 他们给 AI 公司打零到十分看一家公司的血汗程度有多少。
+[Speaker 0]: 这项计划已经扩张到了三十九个国家二零二三年。
+[Speaker 0]: 这项计划点明了一间萨玛 AI 标注公司。
+[Speaker 0]: 他们在官网上宣称改善了数万人的生命，
+[Speaker 0]: 但是作者亲自面谈，
+[Speaker 0]: 公司员工后发现，
+[Speaker 0]: 公司其实隐瞒了许多有压榨低薪的问题，
+[Speaker 0]: 满分十分，
+[Speaker 0]: 这家公司最后得了零分，
+[Speaker 0]: 但是作者的团队并没有立刻公开分数，
+[Speaker 0]: 而是给企业几个月时间改进。
+[Speaker 0]: 在两个月内，
+[Speaker 0]: 这家企业就做出了二十四项改善，
+[Speaker 0]: 让他们的评分从零分上升到了五分。
+[Speaker 0]: 这项策略显示出机构评比，
+[Speaker 0]: 对于资本企业很有效果，
+[Speaker 0]: 比起员工的声音，
+[Speaker 0]: 企业更在乎门面声誉，
+[Speaker 0]: 为了维护声誉才会做出改善。
+[Speaker 0]: 所以作者说，
+[Speaker 0]: 当今的资本主义已经转向了责任型资本主义企业，
+[Speaker 0]: 强调社会责任永续发展来维系自己的门面。
+[Speaker 0]: 所以要让他们给员工更好的待遇，
+[Speaker 0]: 就要用公司的声誉来施压谈判。
+[Speaker 0]: 第三个策略是政府干预制定更严格的法规。
+[Speaker 0]: 例多开发中，
+[Speaker 0]: 国家为了创造就业法规，
+[Speaker 0]: 不敢制定严格法规。
+[Speaker 0]: 例如，
+[Speaker 0]: 菲律宾政府在外包产业有一百万劳工，
+[Speaker 0]: 如果政府要求提高薪资更多管制，
+[Speaker 0]: 资本家可能就感觉到威胁，
+[Speaker 0]: 就会造成产业外移。
+[Speaker 0]: 所以，
+[Speaker 0]: 很多政府的态度都是给人民血汗的，
+[Speaker 0]: 工作环境总好过，
+[Speaker 0]: 连工作都没有。
+[Speaker 0]: 经济学家中，
+[Speaker 0]:  robinson 甚至说，
+[Speaker 0]: 与不被剥削的痛苦相比，
+[Speaker 0]: 被资本家剥削的痛苦根本不算什么。
+[Speaker 0]: 有作者认为，
+[Speaker 0]: 如果上游的监管行不通的话，
+[Speaker 0]: 还有下游的监管，
+[Speaker 0]: 也就是产品服务的使用者。
+[Speaker 0]: 这些使用者多数都是欧美富裕国家的人，
+[Speaker 0]: 欧美富裕国家制定更严格的供应链标准，
+[Speaker 0]: 合作厂商就必须遵守。
+[Speaker 0]: 例如，
+[Speaker 0]: 二零二三年德国实施供应链法规定，
+[Speaker 0]: 只要员工超过三千人的公司，
+[Speaker 0]: 就必须确保整个供应链达到标准。
+[Speaker 0]: 只要跟供应链厂商有接触，
+[Speaker 0]: 德国公司就要负法律责任。
+[Speaker 0]: 必须确保这些公司的劳动标准有达标，
+[Speaker 0]: 没有违反基本人权。
+[Speaker 0]: 这就避免了不道德的离岸外包，
+[Speaker 0]: 让外包给穷国的企业不再能逃避责任。
+[Speaker 0]: 最后，
+[Speaker 0]: 第四个策略是建立 AI 产业的劳工合作社，
+[Speaker 0]: 由工人集体治理，
+[Speaker 0]: 让工人共同拥有管理一家 AI 企业，
+[Speaker 0]: 等于是在工作场所实践民主。
+[Speaker 0]: 当今欧洲已经有超过十七趴的人口是合作社成员，
+[Speaker 0]: 有一家在印度的卡雅公司，
+[Speaker 0]: 就是专门做 AI 资料标注的工人合作社。
+[Speaker 0]: 这家公司成立于二零二一年，
+[Speaker 0]: 是全球第一间标榜劳工尊严的 AI 资料公司因为所有员工都享有资料的所有权，
+[Speaker 0]: 所以当公司透过贩卖资料赚钱的时候，
+[Speaker 0]: 每个员工都会受益，
+[Speaker 0]: 这就是不走资本主义的路线，
+[Speaker 0]: 而是在 AI 时代打造民主化的经济模式。
+[Speaker 0]: 以上四个策略就是作者提出的扭转血汗的 AI。
+[Speaker 0]: 时代的下一步，
+[Speaker 0]: 要真正释放 AI 的潜力，
+[Speaker 0]: 就必须揭露被资本主义隐藏起来的压迫体制，
+[Speaker 0]: 终结 AI 背后的血汗劳动，
+[Speaker 0]: 一同打造更公正的数位未来。
+[Speaker 0]: 留言家分享本集的影片贴文就可抽血汗 AI 一本。
+[Speaker 2]: 如果你想学习更多有关 AI 的批判性思考，
+[Speaker 5]: 我最近在好好开了一门超级歪的哲学训练课。
+[Speaker 5]: 欢迎你点击影片下方资讯栏连接这门课程设计，
+[Speaker 5]: 也参考了法国高中哲学教育的课纲，
+[Speaker 5]: 也会引用大量的电影日常生活案例，
+[Speaker 5]: 让大家不会觉得哲学是难以亲近的知识，
+[Speaker 5]: 而是与我们每个人日常生活息息相关的。
+[Speaker 5]: 从日常辩论的技巧，
+[Speaker 5]: 再到人生的价值选择哲学，
+[Speaker 5]: 都是拓展我们视野的软实力工具。
+[Speaker 5]: 如果你是常常收看超级 y 频道的观众，
+[Speaker 5]: 也非常适合这门课，
+[Speaker 5]: 我会带你走过哲学史上的重要思想流派。
+[Speaker 5]: 古希腊哲学德国古典哲学批判理论精神分析存在主义，
+[Speaker 5]: 让你可以进一步系统性的学习哲学，
+[Speaker 5]: 也欢迎您使用超级感谢或是加入频道会员，
+[Speaker 5]: 就可以观赏会员专属影片。
