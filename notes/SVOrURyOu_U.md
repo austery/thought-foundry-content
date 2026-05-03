@@ -1,22 +1,29 @@
 ---
-author: The Pragmatic Engineer
-date: '2026-04-22'
-guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=SVOrURyOu_U
 speaker: The Pragmatic Engineer
-tags: []
-title: 设计数据密集型应用
 summary: ''
+tags:
+  - distributed-systems
+  - data-intensive-applications
+  - formal-verification
+  - local-first-software
+  - cloud-native
+title: 对话 Martin Kleppmann：重新审视数据密集型应用系统与 AI 时代的工程挑战
+summary: 本访谈深入探讨了分布式系统权威专家 Martin Kleppmann 的职业生涯。从早期创业到在 LinkedIn 参与 Kafka 的开发，再到撰写享誉全球的《数据密集型应用系统设计》。他分享了该书第二版针对云原生环境的更新，并讨论了形式化验证在 AI 代码生成背景下的重要性，以及他在学术界推动的 local-first 软件和加密供应链验证等前沿研究。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: architecture
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Martin Kleppmann
+companies_orgs:
+  - LinkedIn
+products_models:
+  - Apache Kafka
+  - Designing Data-Intensive Applications
 media_books: []
 status: evergreen
 ---
@@ -1079,3 +1086,727 @@ status: evergreen
 <summary>Original English</summary>
 **Gergely Orosz**: I hope you enjoyed this rare conversation with Martin Clubman. I found it interesting to learn that the first edition of the book assumed that you have machines with local discs. But actually today this is not how most engineers build systems anymore. cloudnative primitives like S3 change how you build systems and this is why this book just needed a refresh. I also appreciated Martin's take on whether engineers still need to undertest system internals when they're using managed services. If you're building business logic on top of these services, you probably don't need to know every detail, but it can become useful to be able to look deeper, especially when you need to debug your system. By the end of our conversation, I gained a lot of appreciation for the academic research that Martin is doing. the local first software work, the access control problem in decentralized systems, using cryptography to verify supply chain emissions. A lot of these are hard engineuring problems that few startups would take on. It was nice to understand how academia is in a good position to do work that has a long-term focus. Do check out the show notes below for related to primatic engineer deep dives. If you've enjoyed this podcast, please do subscribe on your favorite podcast platform and on YouTube. A special thank you if you also leave a rating on the show. Thanks and see you in the next one.
 </details>
+
+### 访谈开篇与核心观点
+
+**主持人**: 我是否应该考虑**多可用区**（Multi-zone）、**多地域**（Multi-region）甚至**多云**（Multi-cloud）架构？你愿意承担多少可用性风险，来换取计算开销、以及设计和运行系统的人力开销？**MapReduce** 已经过时了，现在没人用了。但在其他领域，我们增加了覆盖范围，比如支持 AI 的系统，例如**向量索引**（Vector indexes）。作为软件工程师，如果依赖更高层次的抽象，不再考虑底层细节，是否会面临失去理解底层动力的问题？如果你正在构建更高层的业务逻辑，实际上我认为这没问题。**大语言模型**（LLMs）增加了对**形式化证明**的需求，因为我们正在通过“氛围编程”（vibe coding）搞出一堆东西。这就是我认为形式化验证在未来会变得更重要的原因之一。
+
+<details>
+<summary>Original English</summary>
+**Host**: Should I consider multiszone, multi-reion or even a multi-cloud setup? How much availability risk are you willing to take on versus the computational overheads, but also the human overheads actually designing and operating the system? MapReduce is dead. Nobody uses it anymore. But other areas where we've increased the coverage are systems in support of AI like vector indexes. Is there any risk as a software engineer that you're no longer incentivized to understand the underlying layer? If you rely on a higher level abstraction, you're no longer thinking about the lower level details. If you're building higher level business logic, actually, I think it's just fine. LLMs increase the need for these formal proofs because we're vibe coding a bunch of stuff. The reason I think that formal verification could become more important in the future. One is that
+</details>
+
+**主持人**: 《**数据密集型应用系统设计**》（Designing Data-Intensive Applications）一直是任何构建大型后端系统的人必读的“圣经”。在这本书出版 9 年后，**第二版**终于面世了。**马丁·克莱普曼**（Martin Kleppmann）是这本具有代际影响力的著作的作者。我与他坐下来进行了交流，今天我们将涵盖：在 **LinkedIn** 开发 **Kafka** 的经历如何直接塑造了书的第一版构思；第二版有哪些新内容；以及为什么像 MapReduce 这样的内容在更新版中被移除。我们还将讨论**形式化方法**、**本地优先软件**（Local-first software）、**去中心化访问**等等。如果你关心大型系统如何运作、未来的走向，以及那些经久不变的基本原理，那么这一集就是为你准备的。
+
+<details>
+<summary>Original English</summary>
+**Host**: Designing data intensive applications has been the go-to book for anyone building large backend systems. 9 years after publishing this book, the second edition is here. Martin Kleppmann is the author of this generational book. I sat down with him and today we cover how working on Kafka at LinkedIn directly shaped ideas that became the first edition of the book, what's new in the second edition, and why things like MapReduce got removed from this updated version. Formal methods, local first software, decentralized access, and many more. If you care about how large systems work, where they're heading, and what the fundamentals are that don't change, this episode is for you.
+</details>
+
+**主持人**: 本集节目由 **Statsig** 呈献，它是集功能开关、数据分析、实验等于一体的统一平台。同时由 **Sonar** 赞助。Sonar（SonarQube 的开发者）深知，代码质量不仅仅是避免语法错误，更关乎通过保护系统的结构完整性来实现长期的**可维护性**。随着智能体大规模生成代码，它们往往会忽略系统的结构完整性，从而导致代码纠缠、重复和其他维护性问题，使模块化设计变成“大泥球”，难以扩展。SonarQube 的**架构管理**非常有用，它将架构治理从静态 Wiki 移入自动化工作流，让你实时可视化当前架构、定义边界并管理架构问题。无论是人类还是 AI 智能体在编写代码，Sonar 都能作为结构退化的“断路器”，确保每次提交都遵循系统蓝图。
+
+<details>
+<summary>Original English</summary>
+**Host**: This episode is presented by Statsig, the Unifi platform for flags, analytics, experiments, and more. This episode is brought to you by Sonar. Sonar, the makers of SonarQube, understands that code quality is about more than just avoiding syntax errors. It's about long-term maintainability by protecting the structural integrity of the system. As agents generate code at massive scale, they often ignore your system structural integrity. This creates tangles, duplicated code, and other maintainability issues. These issues turn a module design into a big ball of mud, making it increasingly difficult to extend. But here's something that's really helpful. SonarQube's architecture management. It moves architectural governance out of static wikis and into your automated workflow. It allows you to visualize your current architecture, define architectural boundaries, and manage architectural issues in real time. Whether it's a human or an AI agent at the keyboard, Sonar acts as a circuit breaker for structural decay. It ensures every commit respects the systems blueprint protecting the long-term health of your most complex applications. Head to sonarsource.com/pragmatic to find out more.
+</details>
+
+### 早期创业与技术积累
+
+**主持人**: 那么，马丁，欢迎来到播客。
+
+<details>
+<summary>Original English</summary>
+**Host**: So Martin, welcome to the podcast.
+</details>
+
+**马丁**: 嗨 Ger，很高兴来到这里。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Hi Ger, it's great to be here.
+</details>
+
+**主持人**: 能请到你真是太棒了。我想对许多软件工程师来说，你不需要介绍，包括我自己在内。你写了这本标志性的书，它在我书架上可能已经放了 10 年了，几乎是在它出版后不久我就买了。在我们深入讨论这本书之前，你是如何进入技术领域的？
+
+<details>
+<summary>Original English</summary>
+**Host**: It's amazing to have you here. I don't think you need introduction to many software engineers, including myself. You're the author of this iconic book that I've had on my bookshelf for probably about 10 years, not much longer after it came out. Before we get into this book, which we're going to talk about, how did you get into the technology field?
+</details>
+
+**马丁**: 好的。和很多人一样，我本科读的是**计算机科学**。毕业后，我不太确定这辈子该做点什么，但我当时觉得，创办一家**初创公司**似乎是个有趣的尝试。于是，我在完全不知道该具体做什么的情况下就开始创业了，最初的一段时间都在到处寻找有趣的方向。第一家公司不太成功，但通过它我认识了其他人，他们后来成了我第二家初创公司的联合创始人。那家公司做得更顺，后来我们把它卖给了 **LinkedIn**。那之后，我开始对讲授这些**分布式系统**的概念产生兴趣，这就是我开始写书的契机。在写书的过程中，我也从工业界转回了学术界。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yes. Well, I did a undergraduate computer science like like many others. And then after that, I wasn't quite sure what to do with my life, but I thought, well, is like starting a startup seems like an interesting thing to try. So, I started a startup having no clue what I was going to actually do and then spent the first while searching around for things that might be interesting. it the first startup didn't work out that well but through that I met some others who then became my co-founders for the second startup which worked better and uh we sold that one to LinkedIn and then after that I started being interested in like teaching these distributed systems concepts so that's when I got into writing the book and then during the writing of the book I also switched over from industry back to academia
+</details>
+
+**主持人**: 我们能聊聊你的第一家和第二家初创公司吗？
+
+<details>
+<summary>Original English</summary>
+**Host**: can we talk a little bit about your first and second startup
+</details>
+
+**马丁**: 好的，第一家叫 **Go Test It**。那是在 2008 年左右，那个年代大家很难让 JavaScript 在不同浏览器上正常运行。**Internet Explorer** 当时仍然占据很大份额，**Chrome** 才刚问世。所有浏览器彼此都不兼容。所以，Go Test It 是一个网站的**跨浏览器自动化测试服务**，基于 **Selenium** 这个至今仍然存在的开源项目。核心想法是，你可以编写测试脚本，模拟用户点击网站的各种交互，然后检查行为是否正确。它作为托管服务提供，这样人们就不必自己运行安装了各种操作系统的虚拟机。技术上是可行的，但我发现很难让人们真正采用它。很多做网站的人理论上会说：“噢，这太棒了，我们需要跨浏览器测试”，但实际上，让他们将其集成到工作流中，并养成编写测试脚本的习惯，是非常困难的。所以，那家公司最后没能做起来。
+
+<details>
+<summary>Original English</summary>
+**Martin**: yeah go test it this was like 2008 or something like that. It was the age where people were having really difficulties getting their JavaScript working cross browser. Internet Explorer was still pretty big at the time. Chrome had just come out. Uh all the browsers were incompatible with each other and so Go Test. It was a cross browser automated testing service for websites was based on Selenium, an open source project that still exists. And the idea is you would write like test scripts that automate the a user clicking through the various uh interactions with a website and then just check that the right behavior happens. And so yeah, it was based on selenium but just as it provided as a hosted service so people wouldn't have to run various VMs with various operating systems themselves. It worked technically but um I found it really hard to actually get adoption for it. A lot of uh people building websites like in theory said oh yeah this is great. we we need to test cross browser and in practice actually it was really difficult to get them to integrate it into their workflow and just get in the habit of using it and investing in writing the test scripts. So, so that ended up not really going anywhere.
+</details>
+
+**主持人**: 所以说，那当时并没有形成一个真正的业务，或者没有产生有意义的营收？
+
+<details>
+<summary>Original English</summary>
+**Host**: So, so like there wasn't like a business to be done or or like revenue to be generated in meaningful sense.
+</details>
+
+**马丁**: 是的。不过同一时期至少有一两家其他公司成功建立起了业务，**Sauce Labs** 就是其中一家。但即使对他们来说，业务增长也是相当缓慢的，这不是一个容易做的行当。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah. Well, there's at least one other maybe two other companies from that same era that did manage to make a business. Sauce Labs is one that that managed to actually succeed. Um, but it even for them it was a pretty slow running business. I think it was not an easy business to be in.
+</details>
+
+**主持人**: 至于那家初创公司，你当时是在英国做的吗？是自掏腰包（bootstrapped）还是拿了融资？团队有多大？
+
+<details>
+<summary>Original English</summary>
+**Host**: And for the startup, were you in in the UK building it? Was it was it bootstrapped? Did you raise some some kind of funding? How big was the team? How can we imagine this?
+</details>
+
+**马丁**: 我当时在英国。基本是**自筹资金**，我通过做咨询来筹钱雇人，然后廉价雇了一些朋友来帮忙构建产品。一切都做得非常省钱。我只有极少量的天使投资，大部分是靠自筹。
+
+<details>
+<summary>Original English</summary>
+**Martin**: I was in the UK at the time. It was mostly bootstrapped. So I did a bunch of consulting in order to fund hiring some people and then hired some like friends uh on the cheap to help contribute to actually building the product. And so it was done all all very cheaply. I had a very small amount of uh of angel money in there but mostly bootstrapped.
+</details>
+
+**主持人**: 那么当你决定不再继续这个项目时，下一家初创公司是怎么来的？是 **Rapportive** 对吧？
+
+<details>
+<summary>Original English</summary>
+**Host**: Mhm. And then when you decided to to not uh go forward with this, how did the next startup come? Uh reportive, right?
+</details>
+
+**马丁**: 对，第二家是 Rapportive，进展顺利得多。它的核心是在 **Gmail** 内部整合社交媒体。想法是，如果你收到一封来自陌生人的邮件，我们有一个浏览器扩展插件，它会修改 Gmail 的 Web 界面，在邮件旁边显示一个**社交资料摘要**：包括从 LinkedIn 抓取的头像和职位，从 Twitter 抓取的最新推文，或者 Facebook 帖子等等——只要我们能找到的关于那个人的社交摘要都会放上去。我们是在 2010 年左右开始的，很快就变得非常流行。在此基础上，我们从 **Y Combinator** 拿到了一笔融资，YC 当时还非常年轻。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah, the second one was reportive. That went a lot better. So, uh, that was putting social media inside Gmail basically. So, the idea was that if you get an email from someone you don't know, we had a little browser extension which manipulated the Gmail web interface so that on the side next to the email, we'd show you a summary social profile with like a profile picture and like a job title pulled from LinkedIn and recent tweets pulled from Twitter and maybe recent Facebook post or things like that. just whatever we could find about that person uh and put that as a as a social summary next to the email. We started in 2010 or something like that. It was then pretty quickly became quite popular. Um and so on the back of that we were then able to raise some money from my combinator which was still fairly young at the time.
+</details>
+
+**主持人**: 那确实非常早。你一定是第一批学员之一。
+
+<details>
+<summary>Original English</summary>
+**Host**: That was very young. That you must have been one of the very early batches.
+</details>
+
+**马丁**: 是的，我不记得具体是什么时候开始的，但确实是在早期几年。我想 YC 当时已经建立起了很好的名声，但规模还比较小。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah, I can't remember exactly when they started but it was um it was certainly in the early years. I think Y Combinator had already built up a quite a good reputation at the time, but it was still fairly small.
+</details>
+
+**主持人**: 作为 YC 项目的一部分，你当时必须从英国飞到旧金山去参加那个为期三个月的计划，我没记错吧？
+
+<details>
+<summary>Original English</summary>
+**Host**: And then as part of Y Combinator, did you have to fly you from from the UK to San Francisco to attend that 10e program if I remember?
+</details>
+
+**马丁**: 没错。我们最初是来参加三个月的 YC 项目，但后来我们拿到了美国工作签证，并决定永久定居在**旧金山**。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Exactly. Yes. So we um initially came for for the 3 months or whatever it was of the Y combinator but then we were able to get US work visas for ourselves and uh set up permanently uh in in San Francisco.
+</details>
+
+**主持人**: 从你度过大学时代的第一家初创公司所在的英国，转到旧金山，这种转变感觉如何？
+
+<details>
+<summary>Original English</summary>
+**Host**: How was that shift from from the UK where you spent going to university your first startup the first part of this to coming to San Francisco?
+</details>
+
+**马丁**: 非常令人兴奋，因为感觉就像进入了这一切发生的中心。刚开始我们在湾区一个人都不认识，后来联系到了一两个，他们又介绍更多人给我们。我非常欣赏那里对像我们这样的“局外人”如此开放，只要带着一个想法和早期初创公司过去，我们竟然真的筹到了钱，并在湾区站稳了脚跟。
+
+<details>
+<summary>Original English</summary>
+**Martin**: It was very exciting because uh you know it felt like you know going going to the the center of where it was all happening really and we at the started out not knowing anybody at all. we knew like one or two people in the entire Bay Area, but we like contacted them and they introduced us to more people and they introduced us to more people. And so we were able to pretty quickly actually build up a a network and that that's something that I I really appreciated that it was actually so open to outsiders like us who could just basically turn up with an idea and an early stage startup and we managed to raise some money and managed to like actually become somewhat established in the in the Bay Area.
+</details>
+
+**主持人**: 能跟我说说公司是怎么发展的吗？LinkedIn 的收购邀约是在什么时候出现的？
+
+<details>
+<summary>Original English</summary>
+**Host**: And can you tell me how the how the company grew and and at what point did the LinkedIn acquisition offer come and and how can we imagine even you were a founder of this company.
+</details>
+
+**马丁**: 我们是在 2012 年左右卖掉公司的。当时团队只有五个人，规模依然很小，涉及的金额也不大，但对所有相关人员来说都是一次成功。收购过程本身还算顺利，但像所有此类交易一样，充满了波折，有时候我们觉得会告吹。当时我们几乎快没钱了，也没能成功融到下一轮。所以，摆在面前的只有要么卖掉，要么关门。压力很大，我们甚至不能降低自己的工资，因为那样会违反签证条件。所以在那样的处境下，我们其实缺乏谈判筹码，但我对最终的结果非常满意。
+
+<details>
+<summary>Original English</summary>
+**Martin**: It was about in 2012 that we sold it. Um and we were five people at the time. So it's all still pretty small. Um not vast amounts of money involved but it it was a success I would say uh for everybody involved. The acquisition process it itself was fine. is like as always with these kinds of transactions, there was like twists and turns and moments where we thought it would all fall apart and then we were almost running out of money and uh hadn't really succeeded in raising another round. So, we kind of had to sell or shut down. So, we were under quite a bit of pressure. We couldn't reduce our own salaries because to do so would have violated the conditions of our visas. Yes. Um so, we were in a slightly stuck situation given our lack of leverage in that situation. And actually I'm pretty happy how it all turned out.
+</details>
+
+**主持人**: 很高兴在 10 多年后我们能诚实地聊这个。通常我们看到被 LinkedIn 收购的消息，创始人会说这是梦想成真，但很少听到背后那种紧迫感。所以你是为了求生才卖掉公司的吗？
+
+<details>
+<summary>Original English</summary>
+**Host**: Yeah, it's nice that you know like for 10 plus years we can talk about this honestly because often times you see an acquisition by LinkedIn and of course you might ask the founders and they would say like this was our either our dream or our goal or we will do so many things together but some things that you don't often hear is well that there was a pressure involved as well. So, did you go into this wanting to sell the company because you saw that things were getting a little either you needed to raise a new round or you sell to someone and then you found LinkedIn to be the the best of or the only or or or the best option to to go into.
+</details>
+
+**马丁**: 我们尝试了一些产生营收的方案，但没能奏效。所以我们一直在烧钱，用户增长虽然还可以，但不足以支撑我们去融一个大轮次。所以当时有点陷入困境，卖掉公司似乎是“最不坏”的选择。我对结果很满意，因为 LinkedIn 真的很棒，他们对我们很好，允许我们作为公司内部的一个**独立团队**运作。
+
+<details>
+<summary>Original English</summary>
+**Martin**: We tried a little bit to see like what revenue generating options we had and hadn't really managed to make that work. So, we were just burning money and uh and our user growth was okay but not really enough to go and raise a big round. Um, so we were like a little bit stuck there and selling the company seemed like the least bad option there in a way. And I'm pretty happy how it turned out because you know LinkedIn was great actually. They they were very good to us. They allowed us to operate as essentially like a independent team within the company.
+</details>
+
+**主持人**: 所以你们的团队留在一起了？
+
+<details>
+<summary>Original English</summary>
+**Host**: So So your team stayed together?
+</details>
+
+**马丁**: 留在一起了，继续做我们想做的产品。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Our team stayed together. We continued working on the product that we wanted to make.
+</details>
+
+**主持人**: 噢，你们可以继续做 Rapportive。
+
+<details>
+<summary>Original English</summary>
+**Host**: Oh, you you got to keep working on reportive.
+</details>
+
+**马丁**: 其实 Rapportive 这个 Gmail 扩展插件当时进入了维持模式。我们当时在做一个新产品，后来以 **LinkedIn Intro** 的名字发布。它在当时的反响有点奇怪，发布后不久就被关掉了。背后有个很长的故事，但我依然很感谢 LinkedIn 给了我们自由去尝试和发布这个产品，尽管失败了，但整个过程中他们对我们都很好。后来项目被裁掉，我们的团队也就解散了。但在 LinkedIn 开发这款产品的日子，我们过得很愉快。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yes. Well, actually, so report of the Gmail browser extension uh sort of got put on life support, but we were working on a new product at the time, which did eventually get released under the name LinkedIn intro. It kind of got a slightly weird reception at the time and it ended up getting shut down shortly after we released it. this kind of longer background story there, but um I'm still really happy with LinkedIn like how they gave us the freedom to do this and allowed us to launch this product and even though it didn't succeed, you know, they were very good to us throughout that process and then after that got shut down then our team got disbanded. Um but we had a good run within LinkedIn um building this product.
+</details>
+
+**主持人**: 你们当时用的是什么技术栈？
+
+<details>
+<summary>Original English</summary>
+**Host**: What tech stack did you work at the time which what do you use?
+</details>
+
+**马丁**: Rapportive 的技术栈其实没什么特别的。基本上是一个 **Rails** 应用配上 **Postgres** 数据库，再加上一些 Redis 之类的东西。其实没什么革命性的。我们本质上是在 Postgres 之上构建了一个**图数据库**。里面有一点点技术趣味，但并不算太离谱。
+
+<details>
+<summary>Original English</summary>
+**Martin**: The reporter was fairly unexciting. It was a Rails app with a Postgress database basically and some Reddit and some similar things like that mixed in. So actually you know nothing particularly revolutionary. We essentially built a graph database on top of Postgres. So there was a a little bit of technical interest in there but you know nothing particularly outrageous.
+</details>
+
+**主持人**: 然后在 LinkedIn Intro 之后，你留在 LinkedIn 内部工作，据我了解你当时是在做**数据基础设施**，对吧？
+
+<details>
+<summary>Original English</summary>
+**Host**: And then you you spent time after LinkedIn intro you still work inside LinkedIn as I understand you worked on data infrastructure right?
+</details>
+
+**马丁**: 是的，数据基础设施。我们的团队解散后，我转到了**流处理**（Stream processing）团队。当时 **Kafka** 刚在 LinkedIn 被开发出来，正准备开源。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yes data infrastructure. Um after our team got disbanded, I switched over to the uh stream processing team. So Kafka had just been developed at LinkedIn and had just right. Oh, it was just being open sourced.
+</details>
+
+**主持人**: 我一直想问这个问题：为什么 LinkedIn 会开发 Kafka？现在它已经是一项如此基础的技术，但我总是很好奇，为什么一家公司会觉得有必要开发一个看起来如此通用、而且似乎每个人都会需要的东西？
+
+<details>
+<summary>Original English</summary>
+**Host**: yeah, I think it had just been open sourced and then uh I got to work on samsa which was a stream processing framework on top of Kafka. I always wanted to ask this question so this comes here. Why did LinkedIn build Kafka or or develop Kafka? every time it's now such a fun foundational technology there always I was always curious like why did a company feel the necessity to build this thing that seems pretty generic and it seems everyone would have needed it.
+</details>
+
+**马丁**: 我想 **Jay Kreps**（Kafka 共同作者）那一时期有一篇很好的博客文章叫《**日志**》（The Log），他在文中解释了开发 Kafka 的动机，以及为什么选择**追加式日志**（Append-only log）而不是传统的队列。我认为动机核心在于**数据集成**。当时有大量的数据库和事件生成系统，比如生成用户活动事件的系统，它们产生的数据都是流式的。而下游有很多系统想要消费这些数据：有的想导入数据仓库，有的想导入 **Hadoop** 集群进行机器学习。这里存在一个物理层面的数据集成挑战：你如何把数据从一个系统导向另一个系统？Jay 把 Kafka 设计成了一个**集成点**，本质上是一个最大公约数，一个通用的抽象，用于集成各种数据源和下游数据槽。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yes. So I think Jay Kreps has a pretty good uh blog post from from that era uh called the log where he explains his motivation behind Kafka and you know why why make it an appendon log rather than like a traditional message Q or something like that. I think the mo motivation was really about data integration because there were a whole bunch of databases and and like event generating systems you know like um activity events from users for example they were all generating data that in a sort of stream shape and then a bunch of downstream systems that wanted to consume this like wanted to get it into the data warehouse and wanted to be able to get it into the Hadoop cluster at the time in order to run like machine learning and things over it and there was just this data integration problem of actually like how do you physically get the data out of one system and into another and uh Jay designed Kafka as this integration point essentially like the almost the kind of lowest common denominator but still a general purpose abstraction uh for integrating v various data sources and to downstream data syncs
+</details>
+
+**主持人**: 在 LinkedIn 开发 Kafka 这种级别的系统，并在 LinkedIn 的规模下工作，你学到了什么？或者说让你惊讶的是什么？据我了解，这是你第一次亲手处理真正的大型系统，对吧？
+
+<details>
+<summary>Original English</summary>
+**Host**: working at LinkedIn at at you know like Kafka and at LinkedIn scale what did you learn or what surprised you about working at this type of scale as I understand this was for the first time that you hands-on worked at a really large system, right?
+</details>
+
+**马丁**: 没错。在那之前我工作过的最大公司就是 Rapportive，只有五个人。我们虽然有一个不小的数据库，但它只是个单实例数据库，在大环境下根本不算大。到了 LinkedIn，突然之间我们可以使用大型 Hadoop 集群了。那很有趣，当时还要用 Java 手写 **MapReduce** 任务。我学到了海量的知识，特别是当流处理的想法冒出来，Jay 正在到处宣传 Kafka 的各种用途时，对我来说那简直是一个启示。我突然感觉：“啊，这开始变得合理了”，我开始理解这些各种各样的数据系统是如何组合在一起的、它们的共同点以及**基本原理**。这段经历直接喂养了后来的书籍创作。
+
+<details>
+<summary>Original English</summary>
+**Martin**: That's right. Yes. Because like previously the biggest company I had worked in was Reporter with five people. We had a sizable database but it was still like a single instance database and not really that big in the grand scheme of things. And then yet suddenly I was at LinkedIn and oh we got to get get to use their big Hadoop cluster. That was fun like hand coding map produce jobs in Java at the time and so I I learned a huge amount there. Um especially when the stream processing ideas uh came up and Jay was evangelizing the use of Kafka and the things you could do with it. That was kind of a revelation for me really where I suddenly like felt ah this this kind of makes sense like I'm I start to understand how these various data systems fit together what they have in common what the fundamental principles are and so that experience then fed directly into the writing of the book.
+</details>
+
+### 离开 LinkedIn 与写作之路
+
+**主持人**: 你是在什么时候决定离开 LinkedIn 的？在大多数人看来，职业路径可能是留在硅谷再创个业之类的。但你却决定离开。
+
+<details>
+<summary>Original English</summary>
+**Host**: At what point did you decide to leave LinkedIn? To me, in in your careers, I'm looking through the career, start out in the UK, do a startup, do a second startup, Y Cominator, move to San Francisco, get acquired by LinkedIn. The arc that most people would draw would be, okay, do something more in Silicon Valley or maybe start a second startup, etc. And and instead you decided to leave LinkedIn.
+</details>
+
+**马丁**: 是的。首先我决定搬回英国，并开始远程为 LinkedIn 工作。这主要是因为我当时的女友（现在的妻子）还在英国，远距离恋爱并不好玩，而且我对湾区并没有强烈的归属感。我不想劝她搬来湾区，我觉得回欧洲对我更好。我非常满意这个决定，虽然我在湾区有很多好朋友，也喜欢来这里旅游，但我真不想住在这儿。搬回去后我远程工作了一段时间。当我开始写书时，LinkedIn 甚至非常慷慨地给了我 **50% 的自由时间**，让我可以在完成工程师职责的同时写书，这真的很棒。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah. So, first I decided to move back to the UK actually and I continued working for LinkedIn remotely. Okay. That was m mostly because my girlfriend at the time, now wife, was still in the UK and long-distance relationship is not a lot of fun and I didn't feel that at home in the Bay Area. So, I wasn't really encouraging her to move to the Bay Area either. I thought it was better for me to go back to Europe and I'm very happy with that decision. Like, I still have a lot of great friends in the Bay Area. I love it as a place to visit, but I wouldn't want to live here honestly. Then I was still remotely working for LinkedIn and that worked all right uh for a while. When I then started writing the book, LinkedIn even gave me 50% of my time free to work on my book alongside my software engineering duties, which is really great.
+</details>
+
+**主持人**: 确实很棒，LinkedIn 对你太好了。
+
+<details>
+<summary>Original English</summary>
+**Host**: Amazing. Yeah, that is so nice of them.
+</details>
+
+**马丁**: 绝对是。他们完全没必要这么做。除了公司内部培训能用上这本书外，LinkedIn 并不能直接从中得到什么。我要为 LinkedIn 点赞。但后来我发现，一边做工程师还要轮值（on-call），一边写书，实在太难了。**上下文切换**太多了，轮值的紧急事务会占据主导地位，让你失去创作新东西所需的自由心态。所以一段时间后我决定，全职专注写书会更好。于是我离开了 LinkedIn，休了一个**无薪假期**（也就是失业），专心写了一段时间书。在那之后，我才开始考虑进入学术界。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Absolutely. And there they don't have to do that. And LinkedIn didn't directly get anything out of it in response other than like a book that they could use for internal training purposes. Well, shout out shout out to LinkedIn for this. yeah, absolutely. Though then I did find then that actually trying to write a book in parallel with doing a software engineering job and being on call etc. I just wasn't able to do it. It's just too much context switching and it's very easy for the urgent things from the on call to dominate and and then not to have the you know the freedom of that you need in order to to write something new. Um and so then after a while I decided okay like it's it's probably better if I focus full-time on the book. So I then left LinkedIn and just took a sbatical unpaid sobatical i.e. unemployment um to just focus full-time on the book for a while and then it's only after that that I actually even considered getting into academia.
+</details>
+
+### 创作 DDIA 的初衷
+
+**主持人**: 写这本书的主意是怎么来的？你当时想写的是什么样的一本书？
+
+<details>
+<summary>Original English</summary>
+**Host**: So how did the idea of the book come? What was a point where you decided you would write and in your minds what were you deciding to write? What was was it already you know this this book with with with this layout or you had an early idea back then?
+</details>
+
+**马丁**: 我最初的想法和最终的产品看起来有些不同，但总体目标是一致的。我确定我想写的是一个**广泛的概念性概览**：不是关于如何使用某个具体的系统或工具，而是比较许多不同类型工具之间的权衡。而且我希望它**面向实践者**——不是理论教科书，而是人们可以用来构建真实系统的东西。这本质上就是我希望自己在刚起步、在 Rapportive 工作时能读到的那本书。因为当时我们都在黑暗中摸索，数据库出现性能问题时我们完全不知道该怎么办，因为我们缺乏理解发生了什么以及如何诊断问题的基础。我觉得如果我当时多了解一点这些数据系统的内部运作原理，我就能有直觉去调试那些性能问题。所以，在学到更多之后，我想是时候把它们写下来了，这样别人就不必再走弯路，而是能更好地管理自己的数据系统。
+
+<details>
+<summary>Original English</summary>
+**Martin**: I had an idea that it of course the final product ended up looking somewhat different but the the overall goal I think stayed the same. So what I knew I wanted to write something that was a broad conceptual overview. So not about how you use any one specific system or tool but comparing the trade-offs between many different types of tools. And I knew that I wanted to be practitioner focused like not a theoretical textbook but something that people could use to build real systems. That was basically like the the goal with which I appreciate approached it. And this was exactly the book that I wish I had had when I was starting out and uh working at Reportive for example because we were all like searching around in the dark where we're having performance problems with our database and we had no idea what to do basically because we were totally lacking the foundations to actually understand what was going on and how to diagnose the issues. And so I felt that well if I had had a bit more background on how these data systems actually work internally then I could have had an intuition about how to debug these kinds of performance issues. And then after a while after I'd learned more about how data systems work I thought well okay it's it's time to write this down so that others don't have to learn it the hard way um but can hopefully just get a better idea of how these systems work and thus be better at managing their their own data systems.
+</details>
+
+**主持人**: 你最初是如何学习数据库运作原理的？很多工程师在这个阶段也只是知道公司内部有个平台团队负责这些，虽然可以读 RFC 或源码，但那工作量巨大。你是怎么挖掘这些基础知识的？
+
+<details>
+<summary>Original English</summary>
+**Host**: to start with how did you learn about for example how databases work because again from from your story at report if you you build systems you've had some performance issues at a smaller scale to to be fair compared to LinkedIn then you worked at LinkedIn and you saw a little bit of how the sausage was made but I know a lot of software engineers who have been in this path and they still don't really know how the fundamental systems work they just know okay we have a platform team inside our company and they build it I could read the RFC's but it's a lot of work or the planning docs I could look look at the source code it feels to me that even at that point you just went down and and tried to dig in. What resources did you use? How how did you find out those those basics which you later put into the book?
+</details>
+
+**马丁**: 很大程度上源于好奇心和与人交流，问他们很多问题。在 LinkedIn 有一批资深的数据系统工程师，他们对这些东西了如指掌，但可能还没写下来。于是我找他们请教，在脑海中勾勒出这些东西运作的图像。掌握了基础知识后，我就能去读**研究论文**了，论文会深入讨论具体的设计细节和原因。虽然读这些很耗时，但我尝试提炼出核心思想。我也读了海量的博客文章。之所以书里每章末尾都有那么多参考文献，是因为那确实是我自己用来理解这些内容所读过的资料。我心想，如果我觉得这些东西有用，那我就把它们引用在书里，作为读者深入学习的来源。
+
+<details>
+<summary>Original English</summary>
+**Martin**: A lot of of it was just kind of being curious and talking to people actually and just asking them lots of questions. And at LinkedIn there were like a bunch of senior data systems engineers who understood their stuff very well but hadn't maybe necessarily written it down. Mh. And so I just talked to a bunch of them and and quizzed them and that way started building a an image in my own mind of how this stuff works. And then once I sort of got the basics from these conversations, then I was able to go and read research papers for example. They go into much more detail of exactly how and why things are designed in such a way. Um but you know it is timeconuming to read those things. Um so so then what I tried to do was like pull out what what are really the essential ideas. I just read a ton of blog posts as well. Um and so the reason why you see so many references at the end of each chapter in the book is well that is actually the material that I myself used in order to uh understand what was going on. And then I thought well okay well if I found these things useful then I'll also cite them in the book as a way for anyone any reader who wants to go beyond the basics covered in the book here are some some good sources to further reading.
+</details>
+
+**主持人**: 这本书（第一版）的结构是：基础数据系统、分布式数据、衍生数据。当你开始写的时候，已经有这个结构了吗？
+
+<details>
+<summary>Original English</summary>
+**Host**: Yeah, the the structure of the book, this first book at least, it's foundational data systems, distributed data, and derived data. If I understood, these are three big parts. Did you already have a structure in mind when you started writing the book or did it shape as you went?
+</details>
+
+**马丁**: 这三个部分的划分其实在设计时并没那么关键，更多是事后总结，觉得可以把章节大致归入这些结构。但**章节的主题**基本上是我预想好的。我确定我想谈谈什么是**事务**，想谈谈**复制**（Replication），想谈谈**分片**（Sharding/Partitioning），想谈谈**一致性与共识**（Consistency and Consensus）。这些高层主题在我提交给出版商的最初提案里就很明确了。至于每章内部的细节，通常是我写到那一章时才弄清楚的。我一次写一章，每章开始都会做背景研究让自己进入状态。通常在那时我才会决定，比如关于“复制”，主要有三种方式：单主（Single-leader）、多主（Multi-leader）或无主（Leaderless）。我会根据这些在写作时确定具体的叙事结构。
+
+<details>
+<summary>Original English</summary>
+**Martin**: This three-part structure is not that critical in the design of the of the design of the book really. That's sort of more after the fact I thought, oh, well, it seems like we can group the chapters into roughly this sort of structure. But the topics of the chapters were more or less what I had envisaged. So I um I knew that I wanted to talk about like what a transaction actually is. I knew that I want to talk about replication. Knew that I wanted to talk about sharding or partitioning. Knew that I want to talk about like consistency and consensus. Those the sort of highlevel topics I think uh were clear from like my initial book proposal to the publisher. the details within each chapter. That is something that I often figured out once I got to that chapter. So, I wrote one chapter at a time and started each chapter work with just a lot of background research to actually get up to speed on the topic myself. And it's often only then that say for then replication I decided okay well it seems like the three major ways of doing this are single leader, multi-leader or leaderless. Okay.
+</details>
+
+**主持人**: 作为一名同样写过书的作者，我发现估算写书的时间和估算软件项目很像，如果你没经验，往往会偏差巨大。你的经历是怎样的？出版商就像项目经理一样，会盯着你的进度。你最后实际花了多久？
+
+<details>
+<summary>Original English</summary>
+**Host**: As a as a fellow author who also wrote a book, one thing I've noticed there's a bit of parallels between estimating a book and estimating a software project in that you come in with a estimate and if you've never done it before you tend to be wildly off. How was this in your journey? And and addition, you also had a publisher and publishers are a little bit like project managers. They, you know, they they like to have a a schedule. They like to try to keep you on track. They they like to ask what when is it done? How did you manage that part as well? And and in the end, how long did you estimate it would take when you started and how long did it actually take?
+</details>
+
+**马丁**: 一如既往，实际耗时比预期的要长得多。写书和软件项目是一样的。我想第一版我写了大约**四年**。那不是全职的四年，大概相当于全职两年半左右。我错过了出版商的截稿日期，而且错过得非常离谱——大概迟了两年半。幸运的是，**O'Reilly** 对第一版比较有耐心，乐意让我慢慢打磨。但在写第二版时，O'Reilly 变得更有攻击性了，催得很紧。我想那时候书已经出名了，大家都在急切等待第二版，所以我能理解。但我真的很感激第一版时所拥有的那种按自己进度工作的自由。
+
+<details>
+<summary>Original English</summary>
+**Martin**: As always, it takes vastly longer than expected. It's the same for software and projects as it is for writing, I think. So I think it took me about four years to write the first edition and that was not four years of full-time maybe like two and a half years of full-time equivalent or something like that but uh written over the course of about four years. So it definitely took a long time. The uh publisher deadline I missed by a ludicrous margin. I think I missed it by about 2 and a half years or something like that. Uh but fortunately O'Reilly were pretty laid-back with the with the second with the first edition and were happy for me to just take my time and make it good. Uh when it came to the second edition then actually O'Reilly got a bit more aggressive and pushy about uh sticking to deadlines. I guess by that point the book had been established and people were waiting eagerly for the second edition. So, I kind of understand the the desire to to want to accelerate it, but at the same time, I I really appreciated the the freedom that I had for the first edition to work on my own schedule. Um, and I had a bit less of that with the second.
+</details>
+
+### 可靠性、可伸缩性与可维护性
+
+**主持人**: 第一版的副标题是“构建**可靠**、**可伸缩**且**可维护**系统的核心思想”，第二版似乎也是如此。这三个目标对你来说意味着什么？
+
+<details>
+<summary>Original English</summary>
+**Host**: The tagline for the first edition, which I believe is the same as second edition, the big ideas behind reliable, scalable, and maintainable systems. Reliable, scalable, and maintainable. What do these objectives mean to you?
+</details>
+
+**马丁**: 它们的定义其实都有点模糊。对我而言，“**可靠性**”主要意味着**容错性**（Fault tolerance）。也就是说，即使网络中断、节点崩溃，系统整体仍应继续工作。书中很多内容都是关于支持容错的技术，比如复制。“**可伸缩性**”是一个经常被挂在嘴边的词，让系统变得可伸缩很时髦，因为它暗示了成功和数百万用户。但在书中，我尝试用更客观的方式来定义它：可伸缩性是处理**负载变化**的机制。如果负载增加，我们如何增加计算能力使系统正常运行。实现它的技术包括分片等。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah. So they're all slightly vaguely defined, right? So there's there's not a a formal definition of those things. But uh for me, reliability means fall tolerance primarily. So meaning that a system should on the whole continue working even if like a network link is interrupted or a node crashes or something like that. So a lot of the book is about techniques that support fall tolerance like replication for example. Um so that's reliability. Uh scalability is one of those terms that gets thrown around a lot and it's sort of so much and it's it's like fashionable and cool to make things scalable, you know, because it's it suggests success and millions of users and so that's of course everyone wants things to be scalable because everyone wants success for this book. here tried to take a bit more dispassionate kind of approach and said scalability is just like what mechanisms we have for dealing with changes in load if load increases how can we add computing capacity to a system for example so that the system still continues working and then the techniques that you use to achieve scalability well they are like sharding for example
+</details>
+
+**主持人**: 在可伸缩性方面，你的定义主要是指**水平扩展**吗？也就是不能仅通过提升单机性能来解决。
+
+<details>
+<summary>Original English</summary>
+**Host**: and and but in this case scalability your definition do I understand that you're mostly referring to horizontal scalability so they cannot compute up or down pretty much.
+</details>
+
+**马丁**: 是和那台机器比，你当然可以买一台更大的机器，但这没什么好聊的。现代云服务和后端服务真正有趣的地方在于它们引入了水平扩展和“**无共享**”（Shared-nothing）系统。这样即使单个组件是廉价的通用机器，我们也能构建应对极高负载的系统。不过，最近我也在思考可伸缩性的另一面：不仅是向上扩展，还有**向下缩减**。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah, I guess because that's the the more interesting one like yes, you can always buy a bigger machine and what's interesting about that and exactly there's just there's not that much to be said about it. I mean there are details of how you scale even on a single machine but I think like part of what is become interesting about like modern cloud services and just uh backend services in general is like how they've introduced this idea of hor horizontal scalability and uh shared nothing systems. So we can build uh systems that you know are able to cope with very high load even if the individual components are just fairly cheap commodity machines. But maybe sort of part of the scalability story which I wasn't thinking about as much at the time but started thinking about more recently is not just scaling up but scaling down as well.
+</details>
+
+**主持人**: 所以其实是关于，如果负载非常小，如何让运行成本变得非常低。
+
+<details>
+<summary>Original English</summary>
+**Host**: So actually um how do you run a service in such a way that if it has a very small amount of load it's really cheap to run it.
+</details>
+
+**马丁**: 没错。这本质上和高负载下的运行是同一个问题。通常你希望成本和计算能力与负载大致成正比。在低负载端，这意味着能够缩减到极低成本。这并不是理所当然的，对于本地部署（on-premises）的软件很难做到，因为物理机是一个部署单元。这也是**无服务器**（Serverless）系统有趣的地方：它们有缩减到零的能力。如果你每天只处理三个请求，那成本也可以忽略不计。
+
+<details>
+<summary>Original English</summary>
+**Martin**: That's sort of a in a way the same question as how do you continue running a service if it has very high load. Um generally like you just want the the cost and the computing capacity to be roughly proportional to the load that you have. And at the low end that means actually being able to scale down to something that is extremely cheap to run. And that's like not so necessarily a given. That's something that is hard with on premises software for example because like if you've got a machine a physical machine that's like a a unit of deployment and yes you could carve it up into two dozen virtual machines and make those small virtual machines but um it still requires like some sort of resource allocation. So so part of what's interesting about some serverless systems for example is actually their ability to scale down and say like okay if you're going to handle just three requests per day that's just fine as well.
+</details>
+
+### 第二版：云原生与深度合作
+
+**主持人**: 谈谈第二版吧。这个想法是怎么产生的？
+
+<details>
+<summary>Original English</summary>
+**Host**: Can you tell me about the second edition? When did the idea come about?
+</details>
+
+**马丁**: 几年前就很明确需要第二版了，因为第一版已经有点过时了，技术变革没能反映进去。但我现在有教职在身，科研和教学是我的主业，更新书籍成了副业。因为要兼顾其他项目，进展很慢。而且我也意识到，由于转入了学术界，我对最新的**工业界实践**（比如数据湖）有些脱节了。这时我想起了 LinkedIn 的老同事 **Chris Riccomini**。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah, it it had been clear for a couple of years that the second edition was needed just because the first edition was getting a bit dated. There were changes in technology that just hadn't been reflected in the in the first edition. So, I I wanted to update it, but you know, I now have an academic job. I'm actually like doing research and teaching is my main thing, and updating the book is just a sort of sideline business on the side in some sense. So it actually took quite a while to make progress with that because I was always doing it alongside other projects and essentially back to that context switching problem that that I had while writing the first edition but just now um with an academic job that I didn't want to just drop um because actually quite enjoy it initially then I made very slow progress with the second edition and also I kind of realized that I had slightly lost touch with current industry practices because you know I'd switched over to the the academic side. I gone much deeper on the theory. Um, but I was no longer up to speed on like what people were doing with say data legs or things like that. So then at some point it I remembered Chris Riccomini, an old colleague from LinkedIn. I had worked with him um on the stream processing stuff.
+</details>
+
+**主持人**: 你和他共事过。他是《**缺失的 README**》（The Missing ReadMe）的作者。
+
+<details>
+<summary>Original English</summary>
+**Host**: you work with him. He's he's the author of the missing readme.
+</details>
+
+**马丁**: 没错。我读过 Chris 的书，觉得他写得太棒了。作为同事他也很出色。他一直在写一个叫《**物化视图**》（Materialized View）的关于数据系统最新趋势的通讯，还是这个领域的初创公司投资者。所以我联系了他，问他是否愿意帮忙做第二版。他非常感兴趣。这是一次极好的协作：他紧跟工业界的最前沿技术，而我对“如何教学”有强烈见解——即如何让书中的解释既精确、遣词造句考究，又通俗易懂。我们将我的写作风格与 Chris 对工业界趋势的洞察结合起来，完成了更新。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Exactly. Wow. What a small world. Yeah. And uh I I had read Chris's book, The Missing ReadMe, and thought, "Oh, he's a great writer." And I had worked with him as a software engineer and found him him a great colleague and also he had been writing this newsletter called materialized view on uh on like latest trends in data systems essentially uh and become a startup investor in in that space. Um, and so at some point I thought, well, actually I have to get in touch with Chris and ask him whether he wants to help out with the second edition. And he was keen to do that. And that turned into such a good collaboration because he was up to date on like what the cutting edge was in terms of uh technology in industry. Um, I had strong opinions on how to teach essentially. So how to explain things in the book, make sure that we were explaining everything in a in a way that was like very precise, very carefully chosen words, but at the same time very accessible so that it's hopefully easy to read. And so we took essentially like my writing style plus Chris's knowledge of latest industry trends to bring the book up to date and that was a a great collaboration.
+</details>
+
+**主持人**: 你们增加了哪些大内容？哪些是你一开始就知道缺失的，哪些是写作过程中才发现需要的？
+
+<details>
+<summary>Original English</summary>
+**Host**: what are the big things that you added that and and which ones of these you knew would be missing and which ones did you realize during the writing process that okay this needs to be in here now
+</details>
+
+**马丁**: 我们从一开始就知道要反映的是“**云原生系统架构**”。这个词有点笼统，但我指的本质是基于**云服务**作为基础抽象来构建数据系统。在第一版中，基本假设是你拥有一些机器，每台机器有本地磁盘，数据库写到本地磁盘，如果你要复制，那是在数据库层面完成的。长久以来电脑都是这么工作的。但现在，人们开始在**对象存储**（Object stores）之上构建数据库。复制现在发生在对象存储层，而不是数据库层。这完全改变了事物的本质。这不同于 EBS 这种虚拟块设备，因为块设备仍试图模拟单节点操作系统的抽象。而对象存储是一种全新的抽象，它的行为和文件系统完全不同。这种构建方式在第一版时才刚萌芽，现在已经蔚然成风。我们将这个理念编织进了全书，而不仅仅是作为一个单独的章节。
+
+<details>
+<summary>Original English</summary>
+**Martin**: yeah so the thing we knew from the start that we wanted to reflect was uh cloudnative systems architecture it's it's a bit of a vague term um but what I mean with that is essentially building uh data systems on top of cloud services as the foundational abstraction in the first edition the assumption was basically that you have some machines. Each machine has some local discs. You can run a database instance on a machine. It will write its data to the local disk. If you want to replicate it to another machine, then well the database software will replicate it at the database level to another machine which will also write the data to its local discs. For a long time that was exactly the way computers worked. And now suddenly people are building databases on top of object stores for example. And now the replication happens at the object store level. No, no longer at the database level. or maybe there's still some replication at the database level but it really changes the the nature of things uh if you're building on top of an object store and this is different from say building on top of a virtual block device like EBS or so because these block devices although they are cloud services but they still offer the abstraction that is a sort of single node operating system abstraction of a block device on top of which you run a file system whereas an object store is just like a brand new abstraction it just looks different from a file system, it behaves differently. And so then building on top of that as a foundational abstraction is something that like people were starting to do at the time of the first edition, but since the first edition that has really taken off like a whole lot of system have have been built in that style now. And so that's an idea that we really wanted to incorporate and we weaved that in throughout the book. So it's not just like one section here. Um but it's it's sort of a an idea that we've integrated throughout the entire narrative.
+</details>
+
+### 托管服务与底层原理的博弈
+
+**主持人**: 现在有很多**托管服务**，工程师往往直接使用，因为云厂商负责了复制、SLA 和可用性。当我们将这些作为原语使用时，作为软件工程师，是否会面临不再有动力去理解底层原理的风险？
+
+<details>
+<summary>Original English</summary>
+**Host**: There's now a lot of managed services as well. The per primitives that we use, but there's also so many managed services that all the cloud providers use and a lot of engineers, they often just use the managed services as is because they they take care of replication. They have SLAs for uptime and so on. But when you build on top of these things and you you kind of use those as a as primitives as well, is there any risk as a software engineer that you're no longer incentivized to understand the underlying layer or are we building better systems because of that? How do you think about this? It it feels there's a move of abstraction because of cloud, right?
+</details>
+
+**马丁**: 抽象层次确实在提升，但这是整个计算工业自诞生以来的主旋律。依赖高层抽象确实会让你不再思考底层细节。如果你用带垃圾回收的语言，就不再思考内存分配。这是损失吗？也许吧。如果你在构建底层系统，你仍需关心；但如果你在构建高层业务逻辑，我觉得不关心内存管理也没问题。数据系统也是如此：如果你构建的高层系统不需要特别关心底层设施，那就直接用高层抽象，没毛病。但**总得有人**去从底层组件构建那些抽象，总得有人去实现云服务。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah, it's definitely a a shift to different and higher level abstractions, but you know that's been the story of the entire computing industry since the start. It's like building new abstractions. So it is true that like if you rely on a higher level abstraction, you're no longer thinking about the lower level details. And so it's you're using a a programming language with a garbage collector, you're no longer thinking about memory allocation. And so is that a loss? Well, maybe. Like if you if you're building low-level systems, you should still have to care about memory allocation. You're building higher level business logic. Actually, I think it's just fine for people not to care about memory management. So I think there's an analogous thing here with data systems that if you're building the higher level systems that don't need to particularly care about the underlying infrastructure, then that fine. Just use the higher level abstractions. Nothing wrong with that. But somebody still has to build those lower level abstractions from lower level components. Somebody's got to implement the cloud services.
+</details>
+
+**马丁**: 那些实现云服务的人需要更加专精于如何工程化这些服务、如何保证可靠性、如何运行它们。技能依然存在，只是发生了**专业化分工**：一部分人专注于高层业务，不用担心底层；另一部分人专注于底层，并把高层作为他们的客户。
+
+<details>
+<summary>Original English</summary>
+**Martin**: And so those people will have to then specialize even more in actually the details of how you engineer those cloud services, how you make them reliable, how you operate them and so on. The skills are still there. It's just a bit of specialization happening that some some people can worry about the higher level things without having to concern themselves with the lower level things. Some people focus on the lower level things and treat that higher level aspect as their customers.
+</details>
+
+**主持人**: 这听起来很有趣。如果你是使用这些服务的工程师，可能不需要精确了解它们的运作方式。
+
+<details>
+<summary>Original English</summary>
+**Host**: Interesting. So it it sounds to me that if you're an engineer who is utilizing a lot of these services, you might not need to know how they exactly work.
+</details>
+
+**马丁**: 是的。但我认为整本书的底层哲学是：赋予人们洞察系统内部运作**本质**的能力。这样，如果出现奇怪的性能问题，你能有直觉知道为什么，以及如何解决。例如，存储引擎章节会告诉你 B 树和 **LSM 树**是如何工作的。这本书不是为了让人们真的去手写数据库，如果你想那样做，需要更深的研究。但作为应用开发者，如果你了解存储引擎内部的一点点知识，你就能更好地利用它来获得高性能。即使在云服务时代，这种哲学依然适用：虽然云服务隐藏了操作细节，但你仍应了解一点内部原理，以便高效使用。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yes. And I would say like the underlying philosophy of the entire book is to give people insights into just the sort of essence of how the systems work internally. So that if for example they start having weird performance behavior, you can have a bit of intuition for why it's doing that and how you might solve it. So for example, say the storage engine chapter tells you about how Bes work and how lock structured LSM trees storage engines work. And the book is not intended for people who are going to actually build their own databases and implement their own storage engines. If you want to do that, you have to go much much more much greater depth than this book covers. But the idea is that as an app developer, if you know just a little bit about how the storage engine works internally, you'll be in a much better place to use it in a way that is that gives you good performance for example and to diagnose any issues. That philosophy we've kept also in the context of cloud services where yes, like cloud service hides some of the operational details that app developers don't need to think about anymore, but they should still know a bit about how they work internally just so that they can use them effectively.
+</details>
+
+### 权衡：性能、成本与地缘政治
+
+**主持人**: 我想工程师总要争论（或应该争论）的至少是**成本与性能**。性能不仅指延迟，还包括弹性：如果一个区域宕机了，产品受影响程度是多少？
+
+<details>
+<summary>Original English</summary>
+**Host**: I guess I argue about the trade-offs deciding on which which service to use, which characteristics to look out for. Yeah. For for your use case, right? Exactly. And and you know, they're huge differences of say if you're doing analytics whether you're using row oriented storage or column oriented storage. That's a bit of a technical distinction and it takes a little bit of background reading to even understand what that means, but it has a massive performance implication in terms of the final behavior of the system. And so those are those places where I feel like knowing a bit about the the internals is actually like a superpower. Yeah. And I guess engineers the one thing that we always need to argue about or should need to argue about is at the very least cost versus performance. And by performance I mean latency to the user and of course resilience of if if something happens you know like a region go like a zone goes down a machine goes down zone goes down region goes down how our product is affected and what's acceptable.
+</details>
+
+**马丁**: 没错。基本理念是：你愿意承担多少**可用性风险**，来换取系统本身的计算开销、以及设计和运营的人力与成本开销。你可以拥有一个更耐受各种故障的系统，但它设计和运行起来更贵。这没有绝对的对错，每个人需要根据自己的权衡空间来定位。**多地域**（Multi-region）是迈向更高可用性的方向，意味着你能容忍整个区域的停机，但这会影响不同地域之间的一致性模型。
+
+<details>
+<summary>Original English</summary>
+**Martin**: The basic idea there seems to be like how much availability risk are you willing to take on versus the both like the overheads in terms of um the the system itself like the computational overheads but also the human overheads actually designing and operating the system and and the cost overhead. Yeah, exactly. And so yes, you can have a a system that is more able to tolerate various types of faults but it which is more expensive to uh to design and operate versus a simpler system that you know might go down a bit more often but which is cheaper. And there's no right and wrong with that. You know it's a everyone needs to figure out where they sit on that uh on that trade-off space uh themselves. And I would say that like multi-reion is like pushing in the direction of like higher availability because it means you could tolerate the outage of an entire region. But then it has implications on the consistency model that you can get across different regions for example. So that's a trade-off that the book tries to make very explicit to help people reason that through of like what is the right choice for them.
+</details>
+
+**马丁**: 关于**多云**（Multi-cloud），最近一个月我非常关注的一个点是：欧洲对美国云服务的依赖。如果地缘政治出现严重偏差，紧张局势升级，欧洲突然发现自己被锁定、无法使用美国云服务了怎么办？我希望这不会发生，但它已不再是“不可想象”的了。从欧洲的角度出发，我一直在思考如何工程化系统以抵御这类风险。这不仅是区域性停机，而是一种**商业风险**。多云架构可以缓解这种风险，哪怕一家公司锁定了你，你仍能在另一家公司运行。这当然属于昂贵但能降低高可用风险的极端方案，但对于那些拥有极关键业务的人来说，这种**地缘政治风险**是值得认真考虑的。
+
+<details>
+<summary>Original English</summary>
+**Martin**: In terms of multicloud, for example, one thing that I've been uh concerned about just in the last month really is uh European dependence on US cloud services. Yes. So what if geopolitics was to go horribly wrong and tensions escalate and Europe finds itself suddenly locked out of US cloud services? I hope that doesn't happen. I still think it's fairly unlikely, but it's no longer unthinkable. and and as a result I coming sort of from this European perspective have been thinking a fair bit about how can we engineer systems to be resilient against that sort of thing and that's you know not just like a regional outage but it's like a a business risk essentially and a multicloud sister uh setup could help mitigate against that sort of risk so that at least for example if one company locks you out then you could still have systems on on another company again that that's very much towards the uh expensive but uh high availability risk reduction end of the spectrum. But for the people who have you know really critical workloads where they think this sort of geopolitical risk is a significant enough risk I think it's seriously worth considering that kind of setup.
+</details>
+
+### 分布式系统的困境与技术更迭
+
+**主持人**: 分离这种风险和沟通权衡将成为工程师核心职责的一部分。随着 AI 编写越来越多的代码，我们作为工程师的价值可能更多在于这些高层权衡。在第二版中，“规模”的定义有什么变化？
+
+<details>
+<summary>Original English</summary>
+**Host**: I'm thinking that that as we do have the responsibility because because who else will will do this? Yes, totally. But I totally agree with you as well that this um understanding what the risks are and communicating what the trade-offs are I think is is going to be a core part of our role as engineers moving forward as well. Maybe as AI writes more and more code of our code, it's less about like the details of how you express logic in a particular programming language and much more about those kinds of of highle trade-offs. How has the definition of scale changed in this book?
+</details>
+
+**马丁**: 实现极高规模依然具有挑战性。虽然云服务提供了弹性的对象存储，你不用再担心磁盘容量规划，但**分片**（Sharding）依然会反映在应用代码中。当规模大到单机无法处理时，分片是必须的。我认为云服务帮助最大的是“**缩减规模**”的一端。有了 Serverless，你可以快速启动和关闭实例，这让超轻量级服务变得非常经济。我有个小网站跑在 Serverless 上，每月账单只有 13 美分。
+
+<details>
+<summary>Original English</summary>
+**Martin**: So I think achieving Being really high scale is still challenging because even though we have cloud services like object storage for example which uh provide you this very elastic storage model at least you don't have to worry about capacity planning on your discs anymore and running out of disk space because those kinds of operational things they're taking care of but if you need sharding for example that's something that actually does reflect on the application code as well you can't really make that entirely transparent and so you're at a sufficiently large scale The charting is required because a single machine is not powerful enough to process your workload. Then I think even with cloud systems you still have to do quite a bit of engineering thinking of u of how to realize that where I think the cloud has helped quite a bit is actually at the lower end of scaling down. Uh if you want to have a very lightweight service that processes only a small number of requests. what we've got with serverless systems being able to very quickly spin up and spin down uh an instance very lightweight that's quite a a good innovation that has enabled those those very low scale uh services and that's something that's would be much harder to do without cloud services because you would have to statically allocate a certain amount of memory and certain CPU resources to a particular virtual machine I love serverless I I have a small website that runs on serverless and my bill is like 13 cents per month because it has very little load.
+</details>
+
+**主持人**: 谈到分片。在第一版问世时，我在 Uber 工作，当时面试总会问分片。但现在似乎更少工程师需要亲手实现分片，因为云平台提供了开箱即用的方案。你的研究发现了什么？
+
+<details>
+<summary>Original English</summary>
+**Host**: Let's talk about sharding. In in the first book and when you wrote the first book when I was working at Uber, we talked a lot about sharding and there was a lot of internal implementations or interviews involved asking about sharding because we were designing systems that were sharding. I did sense that over time again as as cloud systems start to become available that give you turnkey solutions more that act more like platforms. You send the data and it takes care of of these things. Fewer engineers have to actually implement sharding with cloud native systems in your research. What have you seen? What what are the cases where putting sharding in place is still important and where are the places where it it might have just disappeared as a as a concern?
+</details>
+
+**马丁**: 这种变化与其说是云的影响，不如说是**硬件**变得越来越强大了。现在的单台大机器性能非常恐怖，这意味着越来越多的工作负载只需要单机就能跑，而且规模已经相当可观了。当然，你仍需考虑如何充分利用单机上的数百个 CPU 核心，所以**并行性**仍是必修课，而分片是实现并行的一种方式。但跨机器的分片确实没以前那么迫切了。不过，**复制**（Replication）在任何规模下都极其重要，因为它关乎容错，而非伸缩性。
+
+<details>
+<summary>Original English</summary>
+**Martin**: I think it's probably less of an effect of cloud and more of just hardware getting more powerful that that oh actually like a big machine nowadays can do a lot on a big machine you if you and that means that more and more workloads you can just run on a single machine and that is sufficient actually to achieve quite significant scale already there's still concerns of like how to actually efficiently make use of hundreds of CPU cores that you have on a single machine so there's still parallelism is still are a required thing to think about there and sharding is one way of achieving parallelism. But at least this sort of sharding across multiple machines is maybe become less of a pressing issue just because more and more workloads can just run on a single machine. Some people still have very large scale workloads that do have to be sharded across multiple machines but it's not going away entirely and uh replication is still relevant even at smaller scales because that's for fall tolerance that's not for scalability.
+</details>
+
+**主持人**: 书中有一章叫《**分布式系统的麻烦**》，讲了各种可能出错的情况。有哪些令你印象深刻？
+
+<details>
+<summary>Original English</summary>
+**Host**: You have a chapter called the troubles with distributed systems uh which goes through a lot of things that can go wrong without going through the whole chapter. Can you recall some of the things that are memorable to you or some of the things that you feel are are important to remember?
+</details>
+
+**马丁**: 这一章的核心是：分布式系统理论中我们往往会做一些假设，比如网络消息传输时间没有上限——可能 100 微秒到，也可能 10 年才到。如果你做出了过于乐观的假设是很危险的。另一件事是关于**崩溃**：在实践中，节点不可用可能意味着软件崩溃、硬件故障、掉电，或者节点还跑着但断网了。这一章是为了通过大量的案例研究（Case studies）来证明那些理论模型的价值，告诉大家：别相信任何人说的“故障很罕见”。如果你想让系统可靠，你必须担心各种离奇的边缘情况。**时钟同步**也是个坑，我们总倾向于认为时钟是准确的，但实际上它们精度不足且不可靠。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah. The whole idea of this chapter is that in distributed system theory there are certain things that we tend to assume. Like for example, we just assume that there's no upper bound on how long it might take for a message to go over the network. So you send a message, it might arrive within a 100 microsconds or it might take 10 years and distributed system theory just doesn't make any assumptions about that sort of timing if we can avoid it or rather some some theory does make those assumptions but it's an dangerous assumption to make because occasionally the network delay does become much higher than than what is typical. Another thing is about uh crashes. For example, the distributed system theory just says like nodes can crash but what does that actually mean? Like what in practice does it mean for a node to become unavailable because it might be a software crash but yes it might be a hardware failure. It might be somebody unplugging the power cable. It might be that the node is actually still running but it's just become disconnected from the network. The point of this book chapter really is to defend and justify those theoretical models that we use for analyzing distributed systems and just giving a lot of stories and case studies that show that you know actually tons of stuff does go wrong and like don't believe anyone who says oh failures are rare it's don't don't worry about it it's fine. Uh the the the moral of this chapter is really that actually know if you want to make things reliable, you really do have to worry about a whole bunch of weird unusual but but certainly possible edge cases. Timing is another one of those things like you know it's very easy to assume that your clocks are correct and most of the times the clocks are pretty correct but we just can't rely on it because actually they're just not precise enough uh on the whole and so a lot of it is about it's very tempting to make certain assumptions um that things are well behaved and and in distributed systems we just have to try to get away from those assumptions if we want the systems to work reliably even in the face of things going wrong
+</details>
+
+**马丁**: 写这一章很有趣，因为它本质上是一个“翻车大赏”。我翻阅了各大科技公司的事故回顾（Post-mortems），比如**鲨鱼咬断海底光缆**导致损坏。听说最近几年海底光缆的屏蔽层改进了，鲨鱼不咬了，但现在变成了陆地上的**牛**会踩到电缆导致断网。这些故事让内容变得很有趣。
+
+<details>
+<summary>Original English</summary>
+**Martin**: but it was a really fun chapter to Right? Because you know it's it's essentially a big collection of stuff that has gone wrong. And so I went through a bunch of postmortems published by various tech companies for example in order to see okay what was the root cause of how things went wrong and what kind of lessons can we draw from this that apply to the the book in general. And uh you know there's some fun stuff like the the sharks biting undersea cables and damaging them that just you know makes for a great story. And then I I hear that in recent years the shielding of undersea cables has got better and therefore the sharks are not biting them anymore. But instead the cows on land are stepping on cables and occasionally causing network interruptions that way. And you know that sort of thing is just uh it makes it a bit more fun.
+</details>
+
+**主持人**: 有哪些概念在第一版和第二版之间变得更流行或不再流行了？比如流处理、批处理等。
+
+<details>
+<summary>Original English</summary>
+**Host**: Have you come across some concepts or sips as mentioned in the book in the first edition and now in the second edition that are becoming either more popular or less popular over time more or less referenced by your readers thinking about from things like streaming systems, batch processing or or anything else?
+</details>
+
+**马丁**: 有一些内容我们精简了。特别是 **MapReduce**，在第一版中讲得很细，但现在 **MapReduce 已经过时了**，没人用了。取而代之的是 **Spark** 和 **Flink**。我们在第二版中仍提到 MapReduce，但更多是作为理解分片式批处理系统的教学工具。另一方面，我们大大增加了关于 **AI 支持系统**的覆盖。虽然这不是一本 AI 书，但支持 AI 应用会带来数据系统方面的挑战。最典型的例子是**向量索引**（Vector indexes），我们将其加入到了存储引擎章节。此外，我们还增加了对 **DataFrame** 的介绍。它不仅在 AI 中很重要，在处理训练数据时也是一种极佳的数据表示形式。这些更新反映了人们当前构建系统的真实情况。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah. So the some things that we've been able to take out uh out of the book compared to the first edition in particular for example coverage of map reduce was quite detailed in the first edition but basically map produceuce is dead nobody uses it anymore. It's successors like in the form of spark and flink for example they are used and so we still reference map reduce in the second edition but more as a learning tool in order to understand how these kind of partition sharded batch processing systems work. So that's one thing where we've been able to reduce the coverage. Um, but other areas where we've increased the coverage are, for example, systems in support of AI. And so, even though this is not an AI book, but there are still data systems concerns that arise when needing to support AI applications, like a classic one is vector indexes, for example. And so, we've added some coverage of vector indexes to the storage engine chapter. Fit in really well there because it already covers various different indexing strategies anyway. Uh and so vector indexes, you know, it's just another indexing strategy. We also added some coverage of data frames, for example. That's not an exclusively AI thing. Um but data frames are quite a good data representation for training data, for example. And that was not one of the data models that we discussed in the first edition, but we decided to add to the second edition because it has actually become a very important data model that people are using alongside all of the classic data models like relational and graph and uh JSON documents and so on. And so there these these places where we've just expanded the coverage a bit to to reflect the kinds of systems people are building for example to support AI without it like changing the direction of the book entirely.
+</details>
+
+### 做正确的事：工程师的伦理责任
+
+**主持人**: 第一版末尾有个小节叫“做正确的事”，在第二版中它成了一个独立的章节。我想引用其中一句话：“作为构建这些系统的工程师，我们有责任仔细考虑那些后果，并自觉决定我们想要生活在什么样的世界里。”谈谈这一部分的重要性？
+
+<details>
+<summary>Original English</summary>
+**Host**: The final subsection in this first edition the first few I guess like sub parts were titled doing the right thing and in the second edition this has its own chapter. The final chapter is doing the right thing and I I quote a little bit from it. We the engineers building these systems have a responsibility to carefully consider those consequences and consciously decide what kind of world we want to live in. Can we talk a little bit about this section and the importance of it?
+</details>
+
+**马丁**: 加入“**伦理**”章节的动机是，我发现在工业界，这一关切往往被忽视了。特别是在初创公司，人们非常专注于构建客户喜欢的产品，而降低了伦理问题的优先级。比如一些面向消费者的产品，本质上是为了数据收割（Data harvesting）而设计的，因为这可以通过广告变现。当时对这些做法的好坏几乎没有反思。所以我想鼓励大家思考：如果你想改变世界，那么思考你的技术对世界产生的影响，就是你工作的一部分。工程师往往容易只关注技术，而忽略了技术在现实世界中的副作用。这也反映了我个人的转变，因为我刚开始做系统时也没怎么想过伦理问题，写这一章也是为了我自己。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Absolutely. Yeah. So the motivation for putting in an ethics section there in in the first edition was that I just felt it had been quite ignored as a concern during my time in industry. um that like especially in startups people were very focused on like building a product that their customers would love and really like deprioritizing these sort of ethical questions in the in the process. And so for example with the consumerf facing products it might be that the products are very much geared towards essentially data harvesting collecting behavioral data um because that's what can be monetized in the form of advertising and there seemed to be just very little reflection on what was good and bad about these sort of things. So I really just wanted to encourage a bit of thinking there. Um not really wanting to prescribe too much like a a particular approach there but at least to point out you know there there is this thing such as data protection legislation now which we do have to think about in the architecture of our data systems and there is an ethical responsibility. You know pe people say that uh you get into tech in order to change the world. If you want to change the world, then thinking about the impact that your technologies have on the world is part of your job. It's it's a really essential part really and something that engineers are often prone to ignoring as we focus just on the technology and less on the effects that that technology will have out in the real world. And so this chapter is really just an attempt to get people thinking about it a bit. And it's sort of a a reflection of my own process as well because as I started working on these systems, I didn't really think about ethical things particularly either. So I felt like um I had to put that section in there for myself as well as for the readers because it was my own way of of grappling with these questions a bit.
+</details>
+
+### 形式化验证与 AI 的交汇
+
+**主持人**: 作为构建这些系统的工程师，我们处于一个极佳的位置，可以影响甚至改变方向。你曾写过一篇关于**形式化验证**（Formal verification）的文章，认为在 AI 时代它将变得更重要。能解释一下什么是形式化验证吗？
+
+<details>
+<summary>Original English</summary>
+**Host**: Is it fair to say that as engineers building these systems that will have an impact on on a wide range of things potentially societal wide impact we are just in such a good position to directly influence and maybe even change course. So do I understand that this section is a bit of reminder that by building it we have a huge opportunity to shape these we probably have a lot stronger voices maybe as strong voices as later on the regulator might have years down the road. Right. Exactly. I think engineers have a very strong voice there and like we talked about earlier um engineers need to articulate trade-offs in such a way that uh business leaders can then make educated decisions about how to address those trade-offs. And part of those trade-offs is pointing out risks. And risks include not just technical risks like the data might get corrupted, but they include societal risks as well. For example, like um what negative uh effects, what harms might arise from this technology, what sort of unintended consequences possibly or what like uh risk for reputational damage if it turns out that a technology has some harmful effects. um you know that can reflect badly on the company that made it and that has to be part of the the trade-off discussion and I just want people to make intentional and deliberate decisions about this kind of things and not just sweep it under the carpet. One of the hot topics these days is of course AI and you've written a very interesting post about this just in December about formal verification and how your conviction that formal verification might be more important with AI. Can we talk for for those of users who have heard formal verification, can we talk about what this is and how you envision this becoming more important?
+</details>
+
+**马丁**: 形式化方法有一系列手段。一种是使用规范语言（如 **TLA+**）在高层次描述系统的预期行为，然后用模型检查器自动测试各种场景。更进阶的是**形式化证明**，通过数学符号编写系统规范，并证明某个算法始终满足该规范。它与测试的区别在于：测试只是尝试几个例子，而证明可以对无限的状态空间进行推理，证明某种安全属性在任何可能的情况下都成立。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah. So there's a whole range of formal methods. Um, one approach is to for example use a specification language uh like FSBY or TA+ or something like that to describe the expected behavior of a system at a at a high level and then use a model checker which is essentially like a randomized test case generator to just play through a lot of scenarios and see whether the the system has those desired behaviors in in all the different scenarios. That's like the sort of intro level formal verification. I would say the more advanced level is to use actual formal proof and in that case you can write a specification of some system in a formal language is usually using mathematical notation and then make a mathematical proof that a certain algorithm or certain implementation always satisfies that specification. And the distinction to testing there is that well in testing you just try through a couple of examples, give the algorithm some example inputs and check whether you get the expected output in those particular examples. But a proof can reason about potentially infinite state spaces. So it can tell you things about like every possible thing that could possibly happen in the entire universe show that for example a certain safety property is is always given in those
+</details>
+
+**马丁**: 形式化验证工作量巨大，我在工业界时从未用过，因为它太耗时了。只有进入学术界，我才能花几个月时间去证明一个算法的正确性。这在处理一些**极端微妙的算法**时非常有用，因为仅靠读代码很难确信它在所有情况下都正确。
+
+<details>
+<summary>Original English</summary>
+**Martin**: formal verification is is a lot of work. Um, I never used it in my time in industry because it's just too too timeconuming basically. Um, I only got into formal verification when I was in academia and I could afford to take the time to spend a few months proving an algorithm correct. But there I've started finding this very useful especially if I was working on very subtle algorithms where it's very hard to tell just from reading the implementation whether this actually is always correct under all possible cases. But if it's an important algorithm where for example uh it will corrupt data if there's a mistake in it or it will have a security vulnerability if there's a mistake in it then when it's high stakes uh things like that then I feel it's worthwhile to have uh formal verification and to really make sure that the the code really is correct and so I've done some uh formal proofs using the Isabel proof assistant for example there are a couple of others as well uh uh like rock and lean and uh so on.
+</details>
+
+**主持人**: 你提到的“氛围编程”（**vibe coding**）让形式化验证变得更重要，为什么？
+
+<details>
+<summary>Original English</summary>
+**Host**: When you say it's hard to write... Can you just explain what what it means to hard to write?
+</details>
+
+**马丁**: 因为 LLM 越来越擅长写这些证明。如果人类不用手写，它就在以前不经济的场景中变得可行。而且由于我们现在用 AI 快速生成大量代码（即所谓的“氛围编程”），如果让写代码成为瓶颈，那么人类手动审查所有生成的代码也会成为瓶颈。我们需要**自动化的方式**来检查代码是否正确。测试是一个好的起点，但证明能考虑到“绝对每一种可能发生的情况”。这在**安全领域**至关重要，哪怕一个小 Bug 都能摧毁整个系统。我希望 AI 能让那些以前觉得形式化验证太难、太贵的人也能使用它。
+
+<details>
+<summary>Original English</summary>
+**Martin**: So the the reason I think that um the I believe that this formal verification could become more important in the future is kind of several aspects to it. One is that the LLMs are getting increasingly good at writing these proofs and if we don't have to write the proofs by hand as humans, it just becomes feasible to do them in situations where previously it would have not been economical. But also, LLM increase the need for these formal proofs because, you know, we're vibe coding a bunch of stuff. If we have to manually review all of that code, then that will become the bottleneck. So, we can't really have humans reviewing all of the generated code either if we really want to get the the benefits of of AI. So, we need some automated way of checking whether the code is correct. And writing lots of tests is a very good starting point. But the thing that proof can do that tests can't is to consider absolutely every possible thing that could happen. And that's really important in a security context for example where it just takes one little bug want to create a vulnerability that destroys the security of the whole system. And so I feel for those domains where like really we want to ensure there's a complete absence of bugs that's the kind of places where formal verification can really shine. And I'm hoping that LLMs will actually make that a lot more accessible to to people who would have previously not considered using formal verification because it was just too hard and too expensive.
+</details>
+
+### 学术研究：本地优先与主权数据
+
+**主持人**: 从工业界转向学术界，这种转变感觉如何？学术界每天都在做些什么？
+
+<details>
+<summary>Original English</summary>
+**Host**: You've worked in the industry and then you went into academia. Can you tell us what the difference is between us? What do you and your colleagues do inside of academia?
+</details>
+
+**马丁**: 学术界最大的魅力在于可以思考**更长远的问题**。在初创公司，你必须在几个月内交付，没法考虑 10 年后的事。学术界有自由去研究那些目前商业上尚不可行、或者与商业公司利益冲突的课题。我研究了好几年的一个领域叫“**本地优先软件**”（Local-first software）。核心想法是：我们想把权力从云运营商手中拿回来，还给终端用户。用户应该能控制自己的数据，而不是被迫依赖云服务来运行应用。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah, within academia, there are lots of different styles really. A common distinction there is that academia can just think much longer term. So the you know if you're doing a startup you have to ship something within a few months. You can't afford to think 10 years into the future. But in academia what I really appreciate is the freedom to work on things that are long-term and which are not like immediately commercially viable or which are not aligned with the incentives of commercial companies. Um so one of research area that I've been on for several years now is what we call local first software which is this idea that we want to take away a bit of the power from cloud operators and give it back to end users. So end users should be more in control of their own data and less dependent on cloud services for providing the applications and the data that that the users need.
+</details>
+
+**马丁**: 这在商业公司里不常见，因为 **SaaS** 的订阅模式本质上是拿着枪抵着客户的头说：“付钱，否则我就删了你的数据。”我理解这种商业动力，但这种关系是不健康的。但在学术界，我可以优先考虑对用户正确的事。
+
+<details>
+<summary>Original English</summary>
+**Martin**: And that's something that doesn't naturally come to companies, right? Because uh software as a service businesses, for example, the whole reason why they can charge a subscription is because they are able to essentially hold a gun to the customer's head and say, "Pay us your subscription, otherwise we will delete all your data." And I totally understand the the commercial imperatives that lead to that, but it also leads to this situation where like the people have a gun against their head all of the time. That isn't really a healthy situation to be in in my opinion. But changing that in such a way to take away that gun from customers heads is difficult if you're in a business whose revenue depends on perpetuating that kind of lock-in situation. And there I feel like in academia I have the freedom to work on things that go against this commercial incentive of companies and say like actually no I'm going to do what I think is right for the users and that I'm going to say the commercial model of the companies making the software is second priority and I can afford to do that because I'm I'm not dependent on this commercial model.
+</details>
+
+**主持人**: 这其中有哪些有趣的工程挑战？比如笔记应用？
+
+<details>
+<summary>Original English</summary>
+**Host**: To add to this, it's very interesting and challenging engineering problems. What are some of these really interesting engineering challenges that we we will need to solve or or we need to solve to get to a more viable local first software? May that be like let's say note-taking. It's a very popular one, right?
+</details>
+
+**马丁**: 本地优先意味着脱离对中心化云服务的依赖。数据同步可能仍通过云，但我们不信任它提供核心功能。这就引入了巨大的挑战，比如**访问控制**。在中心化系统中这很简单，服务器说了算。但在去中心化或对等网络中，如果一个用户的编辑权限被撤销了，而他同时进行了一次编辑。有些设备可能先看到编辑，有些先看到撤销。这会导致设备间**永久性的不一致**。为了在不依赖共识协议（因为共识要求节点在线）的情况下解决这个问题，我们付出了巨大的努力。这是 **Automerge**（马丁参与的 CRDT 库）正在解决的问题。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah. So with our vision of local first software, we're trying to get away from this dependency on centralized cloud services. There may still be cloud services involved in syncing data between your phone and your laptop say um because often going via cloud service is just the most convenient way of establishing that kind of communication. But we just don't want to have to trust on a cloud service providing a particular function. But that introduces a whole bunch of interesting research and engineering challenges because uh so one thing that we've been working on lately say is access control. You know simple problem you have a document you want to be able to grant collaborators access and you want to be able to revoke that access. In a centralized cloud service model it is totally straightforward because you have the rules you confirm that those sort of things and you check for the right roles and that's it. But if you want to run your system over multiple providers or even in a peer-to-peer setting then well what could happen is that uh a user gets their edit permissions revoked and concurrently that user makes an edit to the document uh whose permissions have just changed and now some devices may see the edit to the document first and the revocation second and so they would accept the edit to the document and another device may see it the other way around. They may see the revocation first and then the edit to the document second and they'll drop the edit to the document because they think it's not authorized. And now those devices have become inconsistent with each other permanently inconsistent. So that means if we actually want to ensure consistency even for this fairly basic setup we now have to somehow figure out how to resolve this situation of an edit that is concurrent with the revocation of the user who made that edit.
+</details>
+
+### 未来研究：可持续性与密码学
+
+**主持人**: 除了本地优先，你还在研究什么新领域？
+
+<details>
+<summary>Original English</summary>
+**Host**: What are your current research topics that you're working on ones that you're excited about?
+</details>
+
+**马丁**: 我正在开启一个全新的研究方向：使用**密码学**来证明物理世界的真相。特别是在**可持续性**方面。例如，如果你想验证制造某个产品的碳排放量，目前的数字往往是不准确的，因为各方有动力去撒谎、进行“洗绿”（greenwashing）。另一个例子是欧盟关于防止热带雨林毁林的法规。进口商需要证明咖啡、棕榈油等到底来自哪块土地，并对照卫星图像检查。我正在研究如何使用密码学来证明这些物理供应链的数据是真实的，同时又不泄露商业敏感信息（比如供应商是谁、秘方是什么）。
+
+<details>
+<summary>Original English</summary>
+**Martin**: I'm now also trying to set up a brand new research area in a totally different topic um which is on using cryptography to prove things about the physical world. So I'm interested there in especially sustainability related things. So for example, if you want to verify that the carbon emissions involved in manufacturing a particular product were X and you want to be sure that that number is correct because maybe you want to include emissions as part of your purchasing decision and choose the product with the lower emissions. For that to be meaningful, the emissions number has to be correct. And unfortunately at the moment the numbers are generally not correct because the incentives are to lie and cheat and to use creative accounting techniques all as a way of like greenwashing basically or a related thing is happening in the EU for example which is bringing in new regulations on preventing deforestation of tropical rainforests. importer needs to prove exactly which plot of land it actually came from and then check against satellite imagery that that was not recently deforested. And so I've been looking into using cryptography as a tool of proving things about the supply chains of these physical products but without revealing commercially sensitive information.
+</details>
+
+### AI 对教育的影响
+
+**主持人**: 作为老师，你如何看待 AI 对计算机科学教育的影响？
+
+<details>
+<summary>Original English</summary>
+**Host**: How have you seen computer science education changing? How do you think it might change further in in the future especially as we're seeing AI u be part of industry and probably the world as well?
+</details>
+
+**马丁**: 过去计算机科学教育变化很慢，剑桥有 800 年历史，人们更关注 1930 年代奠定的基础。但 AI 彻底改变了我们评估课程作业的方式。**禁止 AI 是不可能且适得其反的**，我们希望学生能高效使用它。挑战在于，如何让学生以负责任且成熟的方式使用 AI，而不是用它来逃避学习。在学术界，产出的产物（如文章）不是重点，学生经历的思考过程和学习才是。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah, I mean prior to AI explosion happening actually rate of change is very slow in in computer science teaching. Partly that might be Cambridge, you know, Cambridge is over 800 years old like everyone thinks on longer time scales. People don't tend to rush into the latest fad and instead try to focus on the fundamentals. That said, AI has totally changed the way we can assess coursework, for example, because of course now we we can try banning AI, but it's impossible to actually enforce such a ban. And also, it's kind of counterproductive because we do want students to engage with new technologies and figure out how to use them productively for themselves. But we want to somehow do that in a way that supports their own learning and doesn't undermine it. In academia the actual artifacts that the students produce like an essay that the students write that's not really the point. We ask them to write essays because we want them to go through a thought process which helps them learn something. And it's that thought process and that learning which is really the the desired outcome here.
+</details>
+
+### 寄语：工业界与学术界的互补
+
+**主持人**: 最后，对于正在考虑进入工业界或学术界的年轻专业人士，你有什么建议？
+
+<details>
+<summary>Original English</summary>
+**Host**: as closing for a student or a young professional who is is still studying and considering the route into either industry or academia, what have you seen uh who thrives in one or the other?
+</details>
+
+**马丁**: 我觉得这两者并不排斥。我带过一些最优秀的博士生，其实都有几年的**工业界经验**。这能给他们更广阔的视野。反之，学术界能教给人更细致和批判性的思维，去从第一性原理推导，去论证为什么某件事是真的。我希望大家能在这两者之间自由穿梭，而不是将它们视为互不相容的职业路径。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Yeah, my feeling is they're not really that mutually exclusive or rather some of the best PhD students uh I've worked with for example actually have a few years of industry experience. So I think having seen a bit of just real world engineering is actually really helpful for people even if they then want to stay in research. But in the opposite direction, I think it can work very well too because in in research research in academia, we just get to think things through a lot more carefully than people often do in industry. Often people in industry, I feel like sort of have short circuit reasoning. academia can teach is this sort of uh nuanced and and critical thinking um to really reason through trade-offs, for example, and to really like justify why something is true. And so i think it's really good actually if people can weave in and out of industry and academia a bit.
+</details>
+
+**主持人**: 好的，马丁，非常感谢。这次对话让我对你正在做的学术研究有了全新的好奇和敬意。
+
+<details>
+<summary>Original English</summary>
+**Host**: Well, Martin, thank you very much. Uh I expected us to talk a lot more about your book which we did but I I have a newfound curiosity and and respect for all the important and interesting academic work that you and everyone else is doing. So thank you so much for this.
+</details>
+
+**马丁**: 谢谢，这是一次非常有趣的访谈。
+
+<details>
+<summary>Original English</summary>
+**Martin**: Thank you for the great interview. This was really interesting.
+</details>
+
+**主持人 (结语)**: 希望你们喜欢这次与马丁·克莱普曼的难得对话。我发现有趣的一点是，书的第一版假设你有带本地磁盘的机器，而今天大多数工程师已经不再这样构建系统了。S3 等**云原生原语**改变了构建方式，这就是为什么这本书需要更新。我也很欣赏马丁关于在使用托管服务时是否仍需理解系统内部原理的看法：如果你在构建业务逻辑，可能不需要细节，但在调试时它会非常有用。最后，我非常敬佩马丁正在进行的学术研究：本地优先软件、去中心化系统的访问控制、以及用密码学验证排放。这些都是很少有初创公司会承担的艰巨工程问题。学术界在进行具有长期视角的研究方面处于优势地位。感谢收听，我们下期再见。
+
+<details>
+<summary>Original English</summary>
+**Host (Outro)**: I hope you enjoyed this rare conversation with Martin Kleppmann. I found it interesting to learn that the first edition of the book assumed that you have machines with local discs. But actually today this is not how most engineers build systems anymore. cloudnative primitives like S3 change how you build systems and this is why this book just needed a refresh. I also appreciated Martin's take on whether engineers still need to undertest system internals when they're using managed services. If you're building business logic on top of these services, you probably don't need to know every detail, but it can become useful to be able to look deeper, especially when you need to debug your system. By the end of our conversation, I gained a lot of appreciation for the academic research that Martin is doing. the local first software work, the access control problem in decentralized systems, using cryptography to verify supply chain emissions. A lot of these are hard engineuring problems that few startups would take on. It was nice to understand how academia is in a good position to do work that has a long-term focus. Thanks and see you in the next one.
+</details>
+
