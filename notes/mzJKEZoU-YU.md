@@ -1,0 +1,117 @@
+---
+author: Pastor Rick
+date: '2024-07-11'
+guest: ''
+layout: post.njk
+source: https://www.youtube.com/watch?v=mzJKEZoU-YU
+speaker: Pastor Rick
+tags:
+  - marriage-purpose
+  - relationship-design
+  - family-foundation
+  - character-development
+  - societal-structure
+title: 婚姻的神圣设计：六大永恒目的与社会基石
+summary: 本文深入探讨了上帝设计婚姻的六大核心目的：连接男女、繁衍人类、保护子女、完善品格、构建社会，以及最深刻的——反映与基督的结合。在当代社会对婚姻普遍轻视的背景下，文章强调了婚姻超越世俗观念的神圣性和不可替代的价值，指出它不仅是个人的幸福之源，更是社会稳定与繁荣的基石，并最终指向人类与神性连接的终极奥秘。
+insight: ''
+draft: true
+series: ''
+category: family-relations
+area: life-family
+project: []
+people: []
+companies_orgs: []
+products_models: []
+media_books: []
+status: evergreen
+---
+### 婚姻：超越世俗的尊荣与神圣设计
+
+无论您是未婚、离异、分居、丧偶，抑或正处于婚姻之中，圣经《希伯来书》第十三章第四节都向我们所有人传递了一个核心信息：**婚姻当受众人的尊重**（Marriage should be honored by everyone）。这意味着，无论个人的婚姻状况如何，我们都被呼召去珍视和尊崇婚姻这一神圣的制度。然而，在当今社会，婚姻的地位却发生了显著变化。许多人将其视为过时、无关紧要的束缚，甚至认为它会阻碍个人事业发展。这种普遍的轻视，反映出多数人对婚姻的真正意义、目的及其神圣设计存在深刻误解，或者抱有不切实际的幻想。因此，深入探讨上帝设计婚姻的真正原因，变得尤为重要。
+
+<details>
+<summary>Original English Source</summary>
+
+whether you are have never been married or um your divorced or you're separated, or your widowed, or you are currently married, regardless of what state iran the next verse supplies to all of us. look of this. first, he brews thirteen four marriage should be honored. read it with mate by everyone circle that by everyone. so regardless of whether i ever marry or not or whether i've been married in the past, and i'm not now i am to honor marriage. the bible says, by god, everyone is to give honor to marriage. no sadly, marriage is no longer honored by everyone in our society, in fact, just the exact opposite. but today, marriage is dismissed as irrelevant by many people as and our cake, they who needs to get married. that's something somemany made it in another generation or another culture, a man made lifestle choice and really it's dismissed. nobody needs to get married today. it's the mean by ried. you're get marto me as a career buster. you're getting married where thethere goes your career. most people i don't know why marriage matters. in fact, most people either a have an incredibly unrealistic view of marriage, which there's no way anybody could measure up to it or two. they're just flat out wrong about the meaning and the purpose and the design of marriage. most people don't get it right. so let's look why god designed marriage number one,
+
+</details>
+
+### 一、连接的艺术：婚姻是男女互补的纽带
+
+上帝设立婚姻的首要目的，是为了**建立男女之间的深刻连接**（Connection of Men and Women）。《哥林多前书》十一章十一节启示，在上帝的宏伟计划中，男人和女人彼此需要，这一观念在强调个体独立的现代社会显得尤为激进。无论是男性还是女性，生命中都需要异性的存在，因为没有人能完全承载上帝完整的形象；我们各自只拥有其中的一部分，唯有通过互补与连接，才能更加完整地反映神性。
+
+这一真理在《创世记》二章十八节中得到进一步阐明，上帝宣告：“**那人独居不好，我要为他造一个配偶帮助他。**” 这明确指出，婚姻是上帝赐予的，旨在成为克服人类孤独感的解药。它超越了普通友谊或陪伴，提供了一种独特而深刻的伴侣关系，其中包含着性别、性和差异的复杂交织，所有这些都是上帝的旨意，并赋予婚姻以独特的意义和目的。
+
+<details>
+<summary>Original English Source</summary>
+
+god created marriage for the connection of men and women. god created marriage for the connection of men and women. now i want to show you a verse up on the screen in just second first currentinans eleven eleven, says this on the screen in god's plan. men and women need each other. do you know how radical a statement that is that a lot of people people don't believe that there are a lot of music women, they don't need men. why would i need a men? and i want to man say, why would i need a woman? well, you do, and the god who designed you created, whether you ever get married or not. if you're a woman, you need men in your life. if you're en, you need women in your life. why? because nobody holds full iimage of d women en get part, it mmen get part of, and we need each other. now the bible ble, ys, ys and gengenis is two eighteen. it is not good. this is god talking. it is not good for the man. that's adam to be alone. i will make a companion who is right for him. i'll make a companion who is right for him. i will make now notice the first thing you need to realizes marriage, gender, sex, men and women, all the differences. this is a god given thing, and god intended marriage. one of the purposes of marriage is as an antidote to loneliness. look at the next verse, he says, there. it is not good for man to be alone. now there are many that i want to make it companion. and many companions are important in life, unineed campaigns in all your areas. but there's nothing like the companiionship of a marriage.
+
+</details>
+
+### 二、繁衍的使命：婚姻是人类延续的根源
+
+上帝设计婚姻的第二个重要目的，是**为了人类的繁衍**（Multiplication of the Human Race）。数千年来，数十亿生命通过婚姻被带到这个世界上。正如《创世记》一章二十七节所言：“**上帝照着自己的形象创造人，就是照着他的形象创造了他们；他创造了男人和女人。**” 这表明男女双方都承载着上帝的形象，但并不完全。紧接着，上帝祝福他们，并赐下了第一条命令：“**要生养众多，遍满全地。**” 这一命令将婚姻与人类的延续紧密相连，使其成为地球上生命繁荣的核心机制。
+
+<details>
+<summary>Original English Source</summary>
+
+god created marriage for the multification of the human race for the multification of the human race. god populated the human planet through marriage for thousands of years. billions of people have come on into existence, because men and women got married and let let me show you some versus enous is one twenty seven, says this for god created people in his own image. he patterned them after himself, creating both male and female with his image. then so not every males don't have all the image god females. we both get parts of god's image, then god blessed them 对对对, and comandded them. now here's the very first command. god gives to the human race and want you you to read it aloud with great gusto, ready. here we go. god commands them be fruitful and multiple and fill the earth. it's a second reason, a second purpose of marriage number three.
+
+</details>
+
+### 三、儿童的堡垒：婚姻是子女成长的保障
+
+婚姻的第三个目的，是**为了保护儿童**（Protection of Children）。每一项研究都证实，在有父亲和母亲的完整家庭中成长的孩子，其发展最为健康。尽管我们生活在一个破碎的世界，不尽理想，但这并不意味着我们应放弃追求理想状态。统计数据明确显示，儿童在家庭中而非机构中更能生存和茁壮成长。这就是为什么我们不资助、不建造孤儿院，因为每个孩子都应该在家庭中成长，拥有一个避难所和安全港湾。
+
+《箴言》十四章二十六节指出：“**敬畏耶和华的，大有依靠；他的儿女也有避难所。**” 这强调了按照上帝的方式生活，能为子女提供安全感和归属感，使他们免于担忧父母离弃的恐惧。过去，夫妻为了孩子而维系婚姻被视为成熟和无私的体现，而如今这种做法常被嘲笑为不“为自己”着想。然而，这恰恰是**成熟**（Maturity）、**无私**（Unselfishness）和**爱**（Love）的真谛——为那些比自己更脆弱的人做出牺牲。真正的幸福并非源于永无止境的自我满足，而是源于为他人奉献和关爱。
+
+<details>
+<summary>Original English Source</summary>
+
+the third reason guy created marriage for the connection of minen and women for the multification of human race. third, for the protection of children. now every single study done has proven that kids develop best with a mom and a debt that we're in a broken planet broker, not everything works, right? we know that, but that doesn't mean that we say the ideal isn't real it is and the statistics burd out children survive and thrive in families, not an institutions. that's why it settle. we we believe in in ororananages. we don't fund orphanages. we don't build orphanages. we don't believe in orphanages, why? because no kid deserves to grow up in an institution that deserved to grow in a family and be more important toubt finance, a family to take that child in. yeah, you clap for that. and and so we're working in rwanda. rwanda will become the first nation on the planet earth, but in the next year, hopefully to be the first nation with no orphanages because we've been using in the peaceplan churches, moving them into families. children's instress are best perfeccted in intact family. notice this first private fourteen, twenty six, those who obey and respect the lord other words, do life the way godsays to do it. those who be in respect the lord, have a secure fortress. their children have a place of refuge and security. that's what every child needs gone up a place of refuge and security, and not worrying is dad going to walk out is mom gonna walk out whatever. now you know, when the past used to hear about couples, they say all they stayed together for the sake of the kids. and for many generations, when people stayed together for the sake of the kids that was considered an honor, a compliment, they are unselfish, they are mature. they stayed together for the sake of the kids. today, people laugh at that statement, staying together for the sake again. what do you talk about you gottta do what's best for you really? do you always have to do what's best for you? that's called narcissystem. can you sometimes do something that may be best for somebody else? can you sometimes do something that's best for somebody for the sake of someone who's more vulnerable than you are? that's called maturity. that's called themselfishous. that's called love today and our arccstistic cuture ture judge everything. but i've ve tta do what's best for me. no, you don't. in fact, you'll never be happy, trying to always do whabest for you. you'll be a selfish little cloud,
+
+</details>
+
+### 四、品格的雕琢：婚姻是自我完善的熔炉
+
+上帝创立婚姻的第四个原因，在于**完善我们的品格**（Perfection of Our Character）。在亲密关系中，我们学习如何变得无私和有爱，而婚姻对我们人生的影响最为深远。婴儿时期，我们完全以自我为中心，生命的目标便是从这种以自我为中心的状态成长为无私的成年人。真正的幸福，在于奉献生命、无私服务和爱。
+
+《箴言》十八章一节警示我们：“**自私和只顾自己是愚蠢的。**” 婚姻正是一门终身课程，教导我们如何摆脱这种自私。一旦步入婚姻，我们便不再只考虑“我”，而是开始思考“我们”。婚姻迫使我们学会妥协，顾及对方，成为学习爱的实验室。上帝希望我们效法耶稣基督，而塑造品格正是其核心目标。婚姻，特别是配偶，是上帝用来塑造我们品格的第一工具。
+
+婚姻的首要目的，是使我们变得**圣洁**（Holy），而非仅仅**快乐**（Happy）。这与当今文化格格不入，但却是真理。讽刺的是，一旦我们变得圣洁，真正的幸福便随之而来。当我们将重心从个人幸福转移到关爱他人时，幸福自然会降临，这正是宇宙运作的方式。
+
+<details>
+<summary>Original English Source</summary>
+
+god created marriage for the connection of men and women for the multification and human relations, how we all got here for the protection of children never force as a big one. god created marriage for the perfection of our character. god created marriage for the perfection of our character. it is in relationships that we learn to be unselfish. we learned to be unloving, and no relationship has greater impact on your life, then marriage, if you get married. now another one of the facts about when you were born, not only where you're helpless, you were completely self centered. nothing on the planet. earth is more self centered than a new baby. a baby does not even have the capacity to think about anyone else. all it can think about is itself. i'm too hot. i'm too cold. i'm hungry. i just pooped, i need to be cleaned up or whatever. the first world of baby learns is i, and it's all about me as a baby maturity, and the purpose of life is to grow up and realize it's not all about you. in fact, this real happiness comes in giving your life away and being unselfish and being serving and being loving. and so the whole goal of your life is to go from your total self center itself as a baby to being an unselfish adult. you know, some adults who are still selfish babies. yes, you do don't look at them, but you know who they are now. this is calbbaturity. life is a laboratory of learning how to love. why is love the most important thing in like, because god is love, and god wants you to become like him. he wants you to learn how to love, and we learned to love and learn to be unselfish. now, the bible says this, in probabof, eighteen one, it is selfish, and it is stupid to think only of yourself. and so how do i get out of that? well, what marriage is a lifelong course in learning to be unselfish, because once you get married, i can no longer think about me. i got to think about. we, i can't think about just me, myself gone. how many of you, as who are married, who had to learned pretty quickly that once you got married, you could always do whatever you wanted to do the rest of your liars because you don't get to do everything you want to do once you get married yet to learn to compromise, you have to learn to think of the other person. and marriage is the laboratory for learning how to love. now listen, god wants to make you like jesus crisis. it's the number one goal in 's life. he wants to grow up. he wants to build character. you're not taken your car, your career youclothes to havenyouyounot taken your character. so the most important thing you knew life is build your character. the number one tool that god uses in your life to build chicstlight character. if you are married is your spouse. oh no, yep, because every day you get hundreds of opportunities to not think about you. you get opportunities to think of the other person to care about them. you say, but my spouse, my husband, my wife is not even a christian. they're not a follogies that they're not to believe that matter. they don't have to be safe. there's still god's number one tool to make you like rist because they're closest to you. and they have that most impact. what should should wrwrite down down your outline. the number one purpose of marriage is to make me wholy not happy. that is so counterculture, but it's a true now. here's interesting thing. once you become early, that's how you get happiness. being holy makes you happy, but god's 's purpose in your life is to make you holy happhappy. that's the purpose of god's marriage for your life is that you become more loving, more giving more serving, more sharing, more mature, more unselfish. and as you become that guess, what you get more happiness, you'll never be happy. if you make it the goal of your life. happiness is elusive as a goal. it's never meant to be a goal like a butterfly. you're always always reach important. you never get it when you start caring about other people rather than you're happiness, you're gonna get happy. just the way god wired the universe.
+
+</details>
+
+### 五、社会的基石：婚姻是文明构建的核心
+
+婚姻的第五个重要目的，是**为了社会的构建**（Construction of Society）。婚姻是所有社区、教会、国家、民族和社会文化的根本基石。历史经验表明，婚姻稳固之处，文化和国家便强大；反之，婚姻和家庭脆弱之处，文化和国家便走向衰落。当婚姻的价值被贬低，一个国家也随之衰落，这是显而易见的事实。
+
+《箴言》十四章三十四节提到：“**公义使邦国高举，罪恶是人民的羞辱。**” 这意味着按照上帝的方式行事（公义），能提升一个国家；而违背上帝的方式（罪恶），则会给社会带来耻辱。在当前普遍推崇**个人主义**（Individualism: 强调个人权利与自由高于集体利益的哲学）的文化中，我们面临着婚姻被轻视、被重新定义、甚至被嘲笑的局面。然而，即使在这样的文化中，当一对夫妇能够长久相伴，我们内心深处仍会本能地认同并赞美这种持久的爱与承诺。这种渴望被完全了解、并与另一半共度一生的需求，深植于每个人心中。
+
+<details>
+<summary>Original English Source</summary>
+
+so god wants us to learn how to love in marriage. romanance twelve says this love sincerely hold on to what is good, be devoted to each other, like a loving family excel in showing respect for each other. do you do that near in your marriage? do you have competition who can show the most respect? i've been, i'm going to beat it than being more respectful to you. i'm going to beat it and brating more loving excel in showing respect for each other. you know, before i got married so many years ago, i really thought i knew had a love a woman. i knew nothing about love. nothing. now, after thirty nine years of marriage, i know that love washes the dishes. i know that love takes out the garbage shoot when you're sick, love changes the bed band, and out of that kind of love comes a connection and a companionship that gives you the strength and the stability to handle enormous amounts of stress when you know someone that well, and you're has committed to each other. because of that reason, number five, god made marriage for the connection of men and women, multicahuhuman race protection of children. a perfection in our character got greated marriage for the construction of society. marriage is the fundamental building block of every community, church, state, nation, society and culture. if you know anything about history, you know that where marriages are strong, cultures and nations are strong, empires are strong. you know that whever marriages and families are weak, cultures nations are in decline. and we know that this that when marriages are devalued, the more a nation is in decline. it's real obvious. what direction our nation is adted right now. america is not getting better is not getting stronger. it's going the other direction, what because we don't value marriage and family anymore, we value. it's all about me. i gotto do what's best for me. we've made individualism and idle. so this for the construction of society, probably ourteen thirty forces as this righteus. that means doing at god's weight list up a nation. but sin not doing at god's way, brings disgrace to any society.
+
+</details>
+
+### 六、神圣的映照：婚姻是与基督结合的象征
+
+婚姻最重要、最深刻、最不为人知的第六个目的，是**为了映照我们与基督的结合**（Reflection of Our Union with Christ）。婚姻是一个**隐喻**（Metaphor: 以一事物喻指另一事物的修辞手法）、一个象征、一个活生生的教训，展现了上帝对我们的爱以及我们与他建立关系的方式。它揭示了一个深刻的属灵真理：我们与基督的联合。
+
+《以弗所书》第五章明确指出：“**丈夫爱妻子，正如基督爱教会，为教会舍己。**” 基督为教会牺牲生命，丈夫也当如此爱妻子。这种牺牲的爱，旨在使教会（信徒群体）如同新妇般美丽地呈现在他面前。同样，丈夫也应当爱妻子如同爱自己的身体，因为没有人会恨自己的身体，反而会滋养和照顾。这正是基督为教会所做的。
+
+圣经还引用了《创世记》中的话语：“**人要与妻子联合，二人成为一体。**” 这被保罗称为“**极大的奥秘**（Profound Mystery: 指超越人类理性理解的属灵真理）”，他明确表示，他所谈论的是基督与教会的关系。因此，婚姻的终极意义并非仅仅在于世俗的幸福，而在于它如何作为一种象征，帮助我们理解并体验与基督的深刻联合。在天堂里，将不再需要婚姻，因为所有这些目的（连接、繁衍、保护、完善、构建、映照）都将在完美的国度中实现，我们将直接经历与基督的真实联合，不再需要隐喻。但在地上，婚姻仍然至关重要，圣经教导我们，无论个人境遇如何，都应**尊荣婚姻**。
+
+<details>
+<summary>Original English Source</summary>
+
+number six. this is the most important reason of all. and many of you have never ever even heard this reason for marriage, but it's the primary, the deepest and the most profound reason that god created marriage between a man and a woman and the unity of sex. and all of that, that involves god created marriage for the reflection of our union with christ, for the reflection of a union with christ. it is marriage is a metaphor. it is a symbol. it's a walking living object, lesson of how much god loves us and how we are to be in relationship with him. marriage is a model of a profound spiritual truth. i said it's a metaphor of showing us how we're to relate to god. now let me show you one of the deepest passenges ers, scscripture and pal is actually talking about the church. and christ, but it uses marriage as a metaphor. they're on your outline efficients chapter five, as this husbands love your wives as christ, loved the church and gave himself up for her. how did chice love the church? he sacrifices life. he died for the church. he said, husbands, that's the way you're to love your right. you're to die for your wife. that's the kind of love your dad. sacriofficial luck where her knees are soft before years that you sacrifice your life husband's, love your ves, just as christ, love the church and gave himself up for her. he christ died so that he could give the church to himself as a bride in all her beauty in the same way. husbands should love their wives as they love their own bodies. no one ever hates their own body, but he feeds it. he takes care of it, and that is what crize does for his church, his body. the church is a bride church as a body. now the scrippture says, and he's quoting diversion gengenices. we just looked at, and the scrippture says a man is united with his wife and the two become one body. this is a profound mystery, but i'm talking about christ and the church that women wame. i went it. paul, i actually talking about marriage here, husband's so h, no, no, he, ys. yes, i know i'm used in marriage, but it's a metaphor of our spiritual union with christst and chrished and his love for his family, his body, his bride, the chriis, the church. so he said, because marriage is a metaphor of christ in the church. so each husband must love his wife as much as he loves himself as he loves himself, and it says, each wife must respect her husband. now that passage is so deep. i'm going. i've take a whole other message sometime and explain it in detail. let me just say it this week. this is the most profound meaning of marriage. there re's some benefits of marriage that are obvious and quantifiable like this. what it does, the kids, what it does, the women, what it does, the men, the benefits of a impact marriage for life are uncontroversible irrefutiable. and there are a lot of benefits marriage that you can just look, you know, mpirically judging the scientific data, but this one, the most profound meeting of marriage is, is not as easy to grass. it's harder to understand appreciate how marriage reflects our union with christ and our relationship. ps m. now listen, no other relationship on planeters none none, including parent child relation. no other relationship can adequately illustrate our union with christ. the way marriage between en mman and a woman does. this is the strongest reason. this number six, why marriage matters? this is the strongest reason why marriage cannot be redefined. this is the strongest reason why it must be protected at all costs because we are the body of christ. we are the briright of christ in union with christst and marriage. is that metaphor? and let me summarx what i'm saying before we get into the practical part is that it really then matter what other people think about marriage it, that matter what public opinion says it, that matter what depenion polls say it doesn't matter. what's politically, correct or incorrect, what really matters is what god says who invented marriage? and you're going to live in a culture where this is absolutely counter culture. you now live in a culture that is forgotten why marriage matters. you live in a culture that does not honor it, but actually the means it discourage. is it ridicules it redefines, it dismisses it and on and on. and as result, we could see what happened in society. we now have people who go to us vegas get drunk and in spontaneous oment go to wewedding travel, get married and twenty four hours later get divorce because it's no big deal. it's just a social contract. we have celebrities who spend a full year and millions and millions and millions of dollars on a wedding and the preparations for the wedding last longer than the marriage. we have people going from one relationship to the next to the next in serial marriages, and they don't understand the meaning and the mystery. now what's amazing about all of this is that when we live in a culture that's forgotten why marriage matters. we still honor. and it still makes big news when a couple makes it a long time. and it's still big news when we hear on the radio or tv in a magazine that couple has been married sixty years that couples been married sixty five, seventy. that couple has been married seventy five years. why? because in spite of all the public and political pressure, we instinctively as human beings inside no, and we recognize the beauty and the sweetness of one man and one woman committing themselves to become one fllesh and living together in love for their entire lives. that is a beautiful thing, and we know it, and we know it. and we know that deep down inside of us, instinctively, we are wired to want this everybody craves the safety of a relationship where you are so fully known and known by each other, and it lasts for life. everybody once said. so i'm i'm going to ask in just second kid to come out weyoull talk a little bit about this. but let me just in this section to this part, twice in the biable. jesus says, there's going to be no marriage and heaven hua, no, no marriage and heaven. jesus said it twice. he knows more about the neor meat. why were they be no marriage in heaven because you won't need any the six reasons marriage exist in a perfect place that you're not going to need the multiplication of the human race in a perfect place. you're not going to a need the protection of children in a perfect place. you're not going to need the perfection of your character. you're not gona need the construction of society. you're not gona need the reflection of chriis union. you don't need a metaphor because you're going to experience the real thing in heaven. but here on earth, marriage matters and the bible says we are to honor it, whether we're ever married or we're married, are lost to med or whatever we're to honor marriage.
+
+</details>
