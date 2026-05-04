@@ -1,0 +1,3144 @@
+There's
+ basically
+ a
+ hundred
+ different
+
+
+agent
+ products
+ out
+ there
+ that
+ are
+ saying
+
+
+that
+ like
+ this
+ can
+ do
+ anything
+ on
+ the
+
+
+web
+ and
+ you
+ try
+ it
+ once
+ and
+ it
+ doesn't
+
+
+really
+ work.
+ If
+ we
+ think
+ of
+ a
+ 10step,
+ 20
+
+
+step
+ or
+ 50step
+ workflow,
+ even
+ if
+ the
+
+
+accuracy
+ at
+ each
+ step
+ is
+ like
+ 90%,
+ the
+
+
+10%
+ error
+ rate
+ compounds
+ very
+ quickly
+
+
+and
+ so
+ the
+ overall
+ success
+ rate
+ of
+ a
+
+
+task
+ of
+ a
+ workflow
+ is
+ like
+ quite
+ low.
+ So
+
+
+that's
+ one
+ of
+ the
+ reasons
+ why
+ the
+
+
+technology
+ is
+ not
+ there
+ yet
+ to
+ do
+ long
+
+
+horizon
+ workflows.
+ It
+ feels
+ like
+ we
+ have
+
+
+started
+ normalizing
+ and
+ developed
+ a
+
+
+tolerance
+ for
+ non-determinism
+ and
+ low
+
+
+reliability
+ in
+ shipping
+ products.
+ The
+
+
+product
+ builder
+ in
+ me
+ is
+ like
+ really
+
+
+annoyed
+ that
+ how
+ is
+ this
+ okay
+ for
+
+
+someone
+ to
+ ship
+ an
+ agentic
+ product
+ where
+
+
+they
+ say
+ that
+ this
+ can
+ do
+ anything
+ but
+
+
+you
+ try
+ it
+ the
+ first
+ time
+ and
+ like
+ it
+
+
+doesn't
+ work.
+ I
+ push
+ back
+ on
+ that
+
+
+getting
+ normalized
+ especially
+ with
+
+
+aentic
+ products.
+ If
+ it's
+ not
+ good
+ enough
+
+
+to
+ work
+ on
+ the
+ first
+ try
+ it's
+ not
+ good
+
+
+enough.
+ The
+ true
+ differentiator
+ is
+ in.
+
+
+My
+ name
+ is
+ Abhishek
+ Das.
+ I'm
+ the
+
+
+co-founder
+ and
+ co-CEO
+ of
+ Ytorii.
+ So
+ with
+
+
+Ytori,
+ we're
+ building
+ agents
+ that
+ can
+
+
+take
+ actions
+ and
+ complete
+ tasks
+ on
+ users
+
+
+behalf
+ on
+ the
+ web
+ so
+ that
+ you
+ can
+ focus
+
+
+on
+ whatever
+ is
+ most
+ meaningful
+ to
+ you.
+
+
+The
+ three
+ co-founders,
+ we're
+ all
+ AI
+
+
+researchers
+ by
+ background.
+ It
+ is
+ a
+
+
+bigger
+ bet
+ than
+ just
+ another
+ agent
+
+
+company.
+ So
+ Faith
+ Lee
+ and
+ Jeff
+ and
+ they
+
+
+were
+ excited
+ to
+ support
+ us.
+
+
+I
+ come
+ from
+ a
+ family
+ of
+ doctors
+ and
+
+
+medical
+ practitioners.
+ So
+ it
+ was a
+ bit
+
+
+of
+ a
+ an
+ irony
+ that
+ I'm
+ scared
+ of
+ blood.
+
+
+And
+ so
+ like
+ the
+ choice
+ was
+ pretty
+ clear
+
+
+that
+ like
+ yeah
+ I'm
+ not
+ going
+ to
+ pursue
+
+
+medicine.
+ That's
+ when
+ I
+ ended
+ up
+
+
+deciding
+ to
+ to
+ pursue
+ engineering.
+
+
+Science
+ and
+ the
+ scientific
+ process
+ and
+
+
+method
+ really
+ appeals
+ to
+ me
+ like
+ the
+
+
+whole
+ life
+ cycle
+ of
+ coming
+ up
+ with
+
+
+hypothesis
+ then
+ designing
+ experiments
+ to
+
+
+validate
+ or
+ invalidate
+ those
+ hypothesis
+
+
+drawing
+ conclusions
+ and
+ then
+ coming
+ up
+
+
+with
+ the
+ next
+ set
+ of
+ hypothesis.
+ I
+ think
+
+
+that
+ is
+ a
+ very
+ neat
+ sort
+ of
+ process
+ and
+
+
+method.
+ I
+ found
+ that
+ really
+ inspiring.
+
+
+And
+ then
+ I
+ went
+ to
+ IIT
+ Riy
+ for
+ my
+
+
+undergrad.
+ That
+ was
+ a
+ an
+ amazing
+ sort
+ of
+
+
+learning
+ experience.
+ Met
+ some
+ of
+ the
+
+
+smartest
+ people
+ I
+ know.
+ And
+ so
+ first
+
+
+year
+ of
+ college
+ I
+ was
+ getting
+ good
+
+
+grades
+ but
+ very
+ quickly
+ I
+ realized
+ that
+
+
+like
+ electrical
+ engineering
+ especially
+
+
+this
+ was
+ more
+ geared
+ towards
+ like
+ power
+
+
+systems
+ etc
+ was
+ not
+ where
+ my
+ interest
+
+
+was
+ and
+ so
+ at
+ the
+ end
+ of
+ first
+ year
+ that
+
+
+was
+ sort
+ of
+ the
+ first
+ major
+ sort
+ of
+
+
+rebellious
+ streak
+ in
+ me
+ where
+ I
+ decided
+
+
+that
+ okay
+ like
+ I
+ don't
+ see
+ a
+ future
+ in
+
+
+electrical
+ engineering
+ I'm
+ going
+ to
+ stop
+
+
+paying
+ as
+ much
+ attention
+ to
+ it.
+ So
+ that
+
+
+was
+ like
+ a
+ fairly
+ sign significant
+ fork
+
+
+in
+ my
+ in
+ my
+ life
+ in
+ some
+ sense
+ and
+
+
+instead
+ I
+ ended
+ up
+ spending
+ a
+ lot
+ of
+ my
+
+
+time
+ learning
+ programming
+ and
+ how
+ to
+
+
+build
+ software.
+ That's
+ when
+ I
+ got
+ into
+
+
+building
+ software
+ and
+ applications
+ very
+
+
+seriously.
+ What
+ also
+ helped
+ was
+ that
+
+
+IIIT
+ Rurki
+ had
+ even
+ at
+ the
+ time
+ this
+ is
+
+
+like
+ almost
+ 13
+ 14
+ years
+ back
+ had
+ a
+
+
+really
+ strong
+ programming
+ club
+ and
+
+
+culture.
+ In
+ particular,
+ there
+ was
+ this
+
+
+group
+ called
+ SDS
+ Labs,
+ which
+ was
+ a
+ group
+
+
+of
+ like
+ 10
+ 15
+ coders
+ from
+ from
+ every
+
+
+year
+ who
+ were
+ just
+ tinkering
+ and
+ hack
+
+
+like
+ building
+ a
+ ton
+ of
+ applications
+ for
+
+
+the
+ internet
+ for
+ the
+ rest
+ of
+ the
+ campus.
+
+
+Seeing
+ how
+ users
+ use
+ it,
+ building
+
+
+something
+ from
+ scratch
+ and
+ putting
+ it
+
+
+out
+ there
+ and
+ seeing
+ how
+ users
+ interact
+
+
+with
+ I
+ think
+ that
+ was
+ like
+ a
+ dopamine
+
+
+hit
+ that
+ kept
+ like
+ sort
+ of
+ fueling
+ this.
+
+
+And
+ I
+ would
+ stay
+ up
+ nights
+ to
+ to
+ build
+
+
+this,
+ to
+ add
+ features,
+ to
+ like
+ improve
+
+
+it
+ and
+ and
+ so
+ on,
+ right?
+ Especially
+
+
+because
+ I
+ was
+ surrounded
+ by
+ people
+ who
+
+
+were
+ as
+ obsessed
+ with
+ this
+ stuff
+ as
+ I
+
+
+was.
+ And
+ that
+ was
+ like
+ extremely
+
+
+extremely
+ motivating.
+
+
+To
+ be
+ honest,
+ I
+ wanted
+ to
+ start
+
+
+something
+ of
+ my
+ own
+ for
+ as
+ long
+ as
+ I
+ can
+
+
+remember.
+ I
+ had
+ strongly
+ considered
+ it
+
+
+at
+ the
+ end
+ of
+ my
+ undergrad,
+ at
+ the
+ end
+
+
+of
+ my
+ PhD,
+ and
+ for
+ various
+ reasons
+
+
+didn't
+ end
+ up
+ doing
+ it.
+ So,
+ it
+ was
+ just
+
+
+a
+ matter
+ of
+ time.
+ And
+ the
+ main
+ reason
+
+
+for
+ it
+ is
+ that
+ like
+ there's
+ lots
+ of
+
+
+interesting
+ problems
+ in
+ the
+ world
+ to
+
+
+solve
+ to
+ go
+ after.
+ Like
+ I
+ did
+ want
+ to
+
+
+push
+ on
+ that
+ vision
+ that
+ I
+ care
+ about
+ as
+
+
+opposed
+ to
+ working
+ on
+ somebody
+ else's
+
+
+vision.
+ Over
+ the
+ last
+ two
+ or
+ three
+
+
+decades,
+ web
+ browsers
+ by
+ and
+ large
+ have
+
+
+stayed
+ the
+ same,
+ right?
+ Like
+ we
+ open
+ a
+
+
+browser,
+ we
+ open
+ a
+ web
+ page,
+ we
+ click
+
+
+around,
+ scroll,
+ type
+ stuff,
+ etc.
+ There
+
+
+is
+ an
+ opportunity
+ now
+ to
+ reimagine
+ what
+
+
+that
+ experience
+ looks
+ and
+ feels
+ like.
+
+
+We're
+ going
+ to
+ be
+ talking
+ to
+ our
+ AI
+
+
+assistants
+ that
+ take
+ actions
+ and
+
+
+complete
+ tasks
+ on
+ the
+ web.
+ And
+ a
+ lot
+ of
+
+
+it
+ is
+ going
+ to
+ be
+ agents
+ that
+ work
+ in
+
+
+the
+ background
+ in
+ a
+ proactive
+ manner
+ for
+
+
+you.
+ That's
+ what
+ the
+ future
+ looks
+ like.
+
+
+And
+ that
+ is
+ how
+ we
+ approached
+ it.
+ It
+
+
+felt
+ like
+ before
+ physical
+ agents
+ become
+
+
+a
+ reality
+ um
+ digital
+ agents
+ will
+ become
+
+
+a
+ reality
+ like
+ the
+ timeline
+ for
+ digital
+
+
+agents
+ is
+ shorter
+ than
+ for
+ physical
+
+
+agents.
+ If
+ you
+ think
+ about
+ interacting
+
+
+with
+ the
+ web
+ maybe
+ like
+ 5
+ to
+ 10
+ years
+ in
+
+
+the
+ future,
+ it
+ is
+ going
+ to
+ be
+ at
+ a
+
+
+slightly
+ higher
+ level
+ of
+ abstraction.
+
+
+Instead
+ of
+ us
+ having
+ to
+ do
+ digital
+
+
+chores
+ ourselves
+ manually,
+ it
+ lets
+ us
+
+
+focus
+ on
+ tasks
+ and
+ stuff
+ that's
+ more
+
+
+meaningful,
+ that's
+ more
+ interesting
+ to
+
+
+us.
+ Like
+ if
+ we
+ can
+ delegate
+ all
+ the
+
+
+mundane
+ stuff
+ to
+ AI
+ assistants,
+ AI
+
+
+agents
+ on
+ our
+ behalf,
+ it
+ lets
+ us
+ focus
+
+
+on
+ stuff
+ that's
+ more
+ more
+ interesting
+ to
+
+
+us.
+ So
+ it's
+ more
+ like
+ humans
+ and
+ agents
+
+
+working
+ together
+ to
+ overall
+ improve
+
+
+productivity
+ less
+ so
+ that
+ like
+ these
+
+
+agents
+ are
+ going
+ to
+ like
+ replace
+ humans
+
+
+and
+ then
+ humans
+ won't
+ have
+ anything
+ to
+
+
+do.
+ But
+ part
+ of
+ it
+ is
+ also
+ just
+ making
+
+
+it
+ accessible
+ to
+ more
+ people.
+ Like
+ my
+
+
+parents
+ for
+ example
+ no
+ longer
+ have
+ to
+
+
+learn
+ every
+ new
+ website
+ and
+ how
+ to
+
+
+operate
+ it,
+ right?
+ Like
+ if
+ they
+ can
+ just
+
+
+tell
+ an
+ assistant
+ that
+ this
+ is
+ what
+ I
+
+
+want
+ to
+ do
+ on
+ this
+ particular
+ website
+
+
+and
+ it
+ does
+ it
+ for
+ them
+ reliably,
+ then
+
+
+that's
+ awesome,
+ right?
+ So
+ it
+ makes
+ it
+
+
+more
+ accessible
+ for
+ more
+ people.
+
+
+In
+ this
+ day
+ and
+ age,
+ there's
+ basically
+ a
+
+
+100
+ different
+ agent
+ products
+ out
+ there
+
+
+that
+ are
+ saying
+ that
+ like
+ this
+ can
+ do
+
+
+anything
+ on
+ the
+ web
+ and
+ you
+ try
+ it
+ once
+
+
+and
+ it
+ doesn't
+ really
+ work.
+ And
+ there's
+
+
+also
+ this
+ notion
+ of
+ that
+ like
+ if
+ you
+
+
+usually
+ works
+ right
+ like
+ if
+ you
+ try
+ it
+
+
+10
+ times
+ then
+ maybe
+ like
+ three
+ times
+ or
+
+
+like
+ five
+ times
+ it
+ it
+ does
+ the
+ right
+
+
+thing
+ I
+ push
+ back
+ on
+ that
+ getting
+
+
+normalized.
+ agents
+ are
+ basically
+ making
+
+
+a
+ sequence
+ of
+ decisions.
+ Like
+ if
+ we
+
+
+think
+ of
+ a
+ 10step,
+ 20
+ step
+ or
+ 50step
+
+
+workflow,
+ even
+ if
+ the
+ accuracy
+ at
+ each
+
+
+step
+ is
+ like
+ 90%,
+ the
+ 10%
+ error
+ rate
+
+
+compounds
+ very
+ quickly.
+ And
+ so
+ the
+
+
+overall
+ success
+ rate
+ of
+ a
+ task
+ of
+ a
+
+
+workflow
+ is
+ like
+ quite
+ low,
+ right?
+ And
+
+
+so
+ that's
+ one
+ of
+ the
+ reasons
+ why
+ the
+
+
+technology
+ is
+ not
+ there
+ yet
+ to
+ do
+ long
+
+
+horizon
+ workflows.
+ Being
+ able
+ to
+
+
+recognize
+ when
+ it
+ makes
+ mistakes
+ and
+
+
+backtrack
+ from
+ that
+ to
+ then
+ uh
+ go
+ down
+ a
+
+
+different
+ branch
+ is
+ really
+ really
+
+
+important.
+ We
+ put
+ in
+ a
+ lot
+ of
+ effort
+
+
+into
+ building
+ evals
+ and
+ guardrails.
+ Like
+
+
+every
+ single
+ production
+ query
+ that
+ a
+
+
+user
+ runs
+ goes
+ through
+ a
+ fairly
+
+
+comprehensive
+ set
+ of
+ evals
+ that
+ lets
+ us
+
+
+quickly
+ identify
+ where
+ these
+ agents
+ are
+
+
+doing
+ well
+ versus
+ not,
+ which
+ domains
+
+
+need
+ more
+ work
+ and
+ so
+ on.
+ That's
+ one
+
+
+aspect
+ of
+ it.
+ And
+ because
+ we're
+ in
+ this
+
+
+space
+ of
+ web
+ agents,
+ right?
+ Like
+ agents
+
+
+that
+ can
+ do
+ actions
+ and
+ tasks
+ on
+ the
+
+
+web.
+ It
+ will
+ never
+ be
+ the
+ case
+ that
+ we
+
+
+will
+ be
+ able
+ to
+ train
+ on
+ every
+ single
+
+
+website
+ that's
+ out
+ there.
+ Like
+ there's
+
+
+new
+ websites
+ coming
+ up
+ all
+ the
+ time.
+ The
+
+
+number
+ of
+ websites
+ that
+ exist
+ in
+ the
+
+
+world
+ is
+ already
+ pretty
+ large.
+ So
+ we
+
+
+will
+ always
+ be
+ training
+ on
+ a
+ finite
+ set
+
+
+of
+ websites
+ and
+ improving
+ these
+ models
+
+
+there.
+ Like
+ people
+ make
+ mistakes
+ on
+ new
+
+
+website,
+ click
+ on
+ the
+ wrong
+ buttons,
+
+
+etc.
+ all
+ the
+ time,
+ right?
+ Like
+ so
+ it
+ is
+
+
+very
+ natural
+ to
+ expect
+ models
+ to
+ also
+
+
+make
+ mistakes.
+ But
+ when
+ it
+ makes
+ a
+
+
+mistake,
+ is
+ it
+ able
+ to
+ recognize
+ and
+
+
+then
+ backtrack
+ and
+ correct
+ itself
+ to
+ do
+
+
+the
+ right
+ thing
+ is
+ a
+ fairly
+ important
+
+
+ingredient
+ in
+ the
+ recipe
+ of
+ like
+ how
+ we
+
+
+train
+ and
+ build
+ and
+ ship
+ these
+ models.
+
+
+But
+ the
+ other
+ part
+ is
+ is
+ more
+
+
+ecosystemwide
+ where
+ like
+ it
+ feels
+ like
+
+
+we
+ have
+ started
+ normalizing
+ and
+
+
+developed
+ a
+ tolerance
+ for
+
+
+non-determinism
+ and
+ low
+ reliability
+ in
+
+
+shipping
+ products.
+ I
+ don't
+ like
+ the
+
+
+normalization
+ of
+ slop
+ and
+
+
+non-determinism
+ and
+ poor
+ reliability
+
+
+especially
+ with
+ agentic
+ products.
+ Yeah,
+
+
+if
+ it's
+ not
+ good
+ enough
+ to
+ work
+ on
+ the
+
+
+first
+ try,
+ it's
+ not
+ good
+ enough.
+ We
+ take
+
+
+sort
+ of
+ an
+ 80/20
+ approach
+ to
+ it.
+ Like
+
+
+there
+ is
+ always
+ the
+ prioritization
+
+
+question
+ of
+ like
+ okay
+ there
+ are
+ 100
+
+
+features
+ that
+ we
+ could
+ be
+ building.
+ What
+
+
+are
+ the
+ top
+ 10
+ that
+ we
+ need
+ to
+ focus
+ on?
+
+
+Like
+ some
+ of
+ those
+ are
+ informed
+ by
+ users
+
+
+and
+ what
+ what
+ users
+ are
+ are
+ telling
+ us
+
+
+what
+ they're
+ asking
+ for.
+ But
+ very
+ often
+
+
+there
+ are
+ ways
+ to
+ build
+ product
+ that
+
+
+users
+ may
+ not
+ be
+ asking
+ for.
+ But
+ if
+ you
+
+
+built
+ it
+ and
+ a
+ lot
+ of
+ intuition
+ goes
+
+
+into
+ identifying
+ what
+ those
+ features
+
+
+might
+ be.
+ Then
+ users
+ feel
+ seen
+ and
+ they
+
+
+feel
+ like
+ oh
+ this
+ is
+ someone
+ who
+ is
+
+
+listening
+ to
+ us.
+ Even
+ though
+ that's
+ not
+
+
+exactly
+ what
+ they
+ asked
+ for
+ initially.
+
+
+I'll
+ give
+ you
+ an
+ example.
+ The
+ feature
+ on
+
+
+iOS
+ or
+ Android
+ that
+ like
+ anytime
+ you
+ get
+
+
+a
+ two-factor
+ authentication
+ SMS,
+ it
+ auto
+
+
+reads
+ your
+ SMS
+ and
+ fills
+ it
+ into
+
+
+whichever
+ app
+ asked
+ for
+ it.
+ It
+ is
+ hard
+
+
+to
+ imagine
+ like
+ a
+ user
+ asking
+ for
+ that
+
+
+feature.
+ But
+ it
+ saves
+ a
+ few
+ seconds
+
+
+multiple
+ times
+ a
+ day
+ for
+ people
+ all
+
+
+across
+ the
+ world.
+ But
+ it's
+ like
+ a
+ tiny
+
+
+thing
+ that
+ makes
+ users
+ feel
+ seen
+ like
+ oh
+
+
+someone
+ is
+ actually
+ giving
+ thought
+ how
+
+
+to
+ reduce
+ these
+ tiny
+ paper
+ cuts
+ in
+ our
+
+
+in
+ our
+ day-to-day
+ life.
+ That's
+ really
+
+
+important.
+ So
+ like
+ it
+ is
+ a
+ marriage
+ of
+
+
+intuition
+ with
+ what
+ users
+ are
+ actually
+
+
+asking
+ for.
+ In
+ a
+ world
+ where
+ it's
+ very
+
+
+easy
+ to
+ come
+ up
+ with
+ first
+ prototypes
+
+
+using
+ these
+ coding
+ LMS
+ the
+ true
+
+
+differentiator
+ is
+ in
+ taste
+ and
+ craft
+ in
+
+
+how
+ intuitive
+ and
+ welldesigned
+ the
+
+
+product
+ is.
+ One
+ thing
+ we
+ do
+ in
+ the
+ team
+
+
+that
+ helps
+ with
+ that
+ I
+ think
+ is
+ we
+ take
+
+
+uh
+ dog
+ fooding
+ our
+ own
+ product
+ very
+
+
+seriously
+ like
+ every
+ single
+ week
+ we
+ have
+
+
+an
+ hour
+ hour
+ and
+ a
+ half
+ docked
+ out
+ for
+
+
+dog
+ fooding
+ new
+ features
+ in
+ the
+ product
+
+
+at
+ any
+ given
+ point
+ of
+ time
+ we're
+ running
+
+
+like
+ tens
+ of
+ experiments
+ internally
+ and
+
+
+maybe
+ like
+ one
+ of
+ them
+ will
+ ship
+ to
+ the
+
+
+um
+ production
+ version
+ of
+ the
+ product
+
+
+that
+ external
+ users
+ will
+ see.
+ So
+ like
+
+
+constantly
+ dog
+ fooding
+ our
+ our
+ own
+
+
+product
+ is
+ a
+ way
+ to
+ refine
+ our
+ own
+ taste
+
+
+for
+ like
+ okay
+ what
+ is
+ good
+ versus
+ bad
+
+
+what
+ awesome
+ or
+ magical
+ feels
+ like.
+ Like
+
+
+anything
+ else
+ um
+ a
+ lot
+ of
+ reps
+ uh
+ to
+
+
+build
+ that
+ muscle
+ is
+ like
+ one
+ way
+ to
+ go
+
+
+about
+ it.
+
+
+The
+ grad
+ cam
+ project
+ was
+ led
+ by
+ one
+ of
+
+
+my
+ labmates.
+ I
+ was
+ sort
+ of
+ a
+ supporting
+
+
+author
+ on
+ that
+ paper.
+ I
+ was
+ 25
+ when
+ we
+
+
+did
+ that
+ paper.
+ It's
+ been
+ extremely
+
+
+wellreceived.
+ I
+ think
+ 20
+ 30,000
+
+
+citations
+ is
+ quite
+ non-trivial
+ at
+ the
+
+
+time.
+ Interpretability
+ in
+ like
+ around
+
+
+deep
+ learning
+ models
+ was
+ like
+ a
+ big
+ area
+
+
+of
+ focus
+ still
+ is
+ to
+ this
+ day.
+ And
+ so
+ it
+
+
+was
+ motivated
+ from
+ that
+ that
+ like
+ okay
+
+
+like
+ these
+ models
+ especially
+
+
+classification
+ models
+ to
+ start
+ with
+ that
+
+
+go
+ from
+ like
+ images
+ to
+ classifying
+ it
+ in
+
+
+one
+ of
+ thousand
+ or
+ 10,000
+ categories.
+
+
+What
+ part
+ of
+ the
+ image
+ are
+ they
+ looking
+
+
+at
+ to
+ make
+ those
+ predictions?
+ Right?
+
+
+There
+ is
+ clearly
+ some
+ signal
+ coming
+ from
+
+
+the
+ image
+ itself
+ and
+ then
+ some
+ signal
+
+
+that
+ may
+ be
+ coming
+ from
+ the
+ label
+ that
+
+
+the
+ classification
+ model
+ is
+ predicting
+
+
+and
+ how
+ can
+ we
+ combine
+ the
+ two
+ develop
+
+
+better
+ intuition
+ for
+ what
+ part
+ of
+ the
+
+
+image
+ the
+ model
+ is
+ looking
+ at.
+ To
+ this
+
+
+day,
+ it
+ seems
+ to
+ work
+ quite
+ effectively
+
+
+across
+ a
+ bunch
+ of
+ tasks
+ and
+ models.
+ Like
+
+
+with
+ AI
+ models,
+ it
+ is
+ important
+ for
+
+
+models
+ to
+ be
+ able
+ to
+ convey
+ not
+ just
+ the
+
+
+final
+ prediction
+ or
+ the
+ final
+ answer,
+
+
+but
+ also
+ the
+ proof
+ of
+ work.
+ like
+ what
+
+
+are
+ the
+ steps
+ that
+ went
+ into
+ coming
+ up
+
+
+with
+ this
+ final
+ prediction
+ or
+ the
+ final
+
+
+answer.
+ And
+ so
+ Grad
+ Cam
+ is
+ like
+ one
+
+
+manifestation
+ of
+ that.
+ But
+ even
+ in
+ how
+
+
+we
+ build
+ the
+ the
+ scouts
+ product
+ today,
+
+
+like
+ you
+ can
+ set
+ up
+ these
+ scouts
+ and
+
+
+agents
+ to
+ monitor
+ the
+ web
+ for
+ something
+
+
+and
+ they
+ will
+ generate
+ these
+ reports
+ and
+
+
+notify
+ you
+ when
+ they
+ find
+ something
+
+
+that's
+ of
+ value
+ to
+ you.
+ But
+ there
+ is
+ a
+
+
+button
+ in
+ the
+ UI
+ that
+ lets
+ you
+ inspect
+
+
+the
+ work
+ that
+ went
+ in
+ in
+ behind
+ the
+
+
+scenes
+ like
+ which
+ websites
+ were
+ were
+
+
+visited,
+ what
+ did
+ the
+ agent
+ actually
+
+
+look
+ at
+ to
+ pull
+ out
+ this
+ piece
+ of
+
+
+information
+ and
+ that
+ gives
+ you
+ a
+ glimpse
+
+
+into
+ the
+ work
+ that
+ went
+ in
+ behind
+ the
+
+
+scenes
+ to
+ put
+ this
+ together.
+ It
+ is
+ very
+
+
+very
+ important
+ for
+ trust
+ building
+ for
+
+
+users
+ to
+ be
+ able
+ to
+ trust
+ that
+ yes
+ this
+
+
+is
+ a
+ reliable
+ product.
+
+
+A
+ lot
+ of
+ our
+ time
+ and
+ attention
+ in
+ how
+
+
+we're
+ building
+ our
+ product
+ at
+ UTI
+ goes
+
+
+into
+ thinking
+ about
+ how
+ should
+ we
+ build
+
+
+the
+ product
+ so
+ that
+ we
+ don't
+ make
+ the
+
+
+same
+ mistake.
+ Whenever
+ we
+ ship
+
+
+something,
+ we
+ have
+ to
+ get
+ it
+ right.
+ It
+
+
+has
+ to
+ really
+ work.
+ It
+ has
+ to
+ be
+
+
+reliable.
+ Users
+ have
+ to
+ trust
+ that
+ it
+
+
+works
+ well.
+ If
+ we
+ put
+ attention
+ to
+
+
+detail
+ into
+ parts
+ of
+ the
+ product
+ that
+
+
+users
+ can
+ see,
+ then
+ the
+ user
+ is
+ more
+
+
+likely
+ to
+ trust
+ the
+ parts
+ of
+ the
+ product
+
+
+that
+ they
+ cannot
+ see.
+ Right?
+ like
+
+
+everything
+ awesome
+ that
+ we
+ see
+ around
+
+
+us,
+ it's
+ like
+ individuals
+ or
+ groups
+ who
+
+
+put
+ in
+ a
+ lot
+ of
+ hard
+ work
+ and
+ attention
+
+
+to
+ detail
+ to
+ build
+ that.
+ So
+ I
+ think
+ we
+
+
+should
+ approach
+ everything
+ that
+ we
+ are
+
+
+building
+ with
+ that
+ kind
+ of
+ philosophy.
+
+
+It
+ takes
+ time
+ to
+ build
+ something
+
+
+meaningful,
+ to
+ build
+ something
+ right,
+ to
+
+
+bring
+ a
+ vision
+ of
+ the
+ future
+ to
+ life
+ and
+
+
+building
+ like
+ delight
+ delightful
+ and
+
+
+reliable
+ product
+ experiences.
+ It
+ doesn't
+
+
+just
+ appear
+ out
+ of
+ nowhere.
