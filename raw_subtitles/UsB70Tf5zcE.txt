@@ -1,0 +1,18406 @@
+Thank
+ you
+ very
+ much
+ for
+ joining
+ for
+ this
+
+
+workshop.
+ Uh
+ this
+ is
+ going
+ to
+ be
+ a
+
+
+hands-on
+ workshop.
+ So
+ hopefully
+ you
+ can
+
+
+get
+ your
+ hands
+ dirty
+ doing
+ some
+ very
+
+
+interesting
+ uh
+ a
+ very
+ interesting
+
+
+project.
+ Uh
+ to
+ start
+ with
+ a
+ little
+ bit
+
+
+about
+ myself.
+ Uh
+ my
+ name
+ is
+ Angelos.
+ I
+
+
+lead
+ the
+ speech
+ to
+ text
+ team
+ at
+ 11
+ Labs.
+
+
+I'm
+ a
+ research
+ engineer.
+ So
+ I
+ spend
+ most
+
+
+of
+ my
+ time
+ training
+ new
+ models
+ uh
+
+
+working
+ on
+ inference
+ and
+ also
+ I'm
+ on
+ the
+
+
+product
+ side.
+ So
+ I'm
+ I'm
+ responsible
+ for
+
+
+unfortunately
+ talking
+ to
+ clients
+
+
+sometimes
+ uh
+ which
+ I
+ don't
+ fully
+ enjoy.
+
+
+I'm
+ the
+ kind
+ of
+ person
+ that
+ really
+ likes
+
+
+to
+ go
+ straight
+ into
+ research
+ and
+ do
+ uh
+
+
+train
+ models
+ and
+ make
+ things
+ that
+ are
+
+
+state-of-the-art
+ and
+ very
+ powerful.
+ Uh
+
+
+currently
+ I'm
+ working
+ on
+ uh
+ training
+
+
+realtime
+ models
+ for
+ transcription
+ uh
+
+
+specifically
+ for
+ agents
+ and
+ if
+ you
+ have
+
+
+if
+ you
+ don't
+ know
+ already
+ we
+ have
+ this
+
+
+scribe
+ v2
+ model
+ that
+ my
+ team
+ trained
+ is
+
+
+currently
+ the
+ best
+ transcription
+ model
+
+
+in
+ the
+ market
+ in
+ terms
+ of
+ like
+ popular
+
+
+public
+ benchmarks.
+ Uh
+ so
+ if
+ you
+ ever
+
+
+need
+ any
+ transcription
+ uh
+ use
+ cases
+ feel
+
+
+free
+ to
+ use
+ it.
+ I
+ think
+ it's
+ quite
+ good.
+
+
+Uh
+ now
+ as
+ part
+ of
+ the
+ workshop
+ itself
+ uh
+
+
+today
+ we're
+ going
+ to
+ be
+ training
+ an
+ LLM
+
+
+from
+ scratch.
+ So,
+ no
+ pre-trained
+
+
+weights,
+ no
+ uh
+ nothing
+ that
+ you
+ can
+ just
+
+
+grab
+ online
+ from
+ like
+ a
+ transformers
+
+
+library.
+ We're
+ going
+ to
+ work
+ purely
+ on
+
+
+torch
+ and
+ some
+ like
+ very
+ basic
+
+
+libraries.
+ We
+ could
+ go
+ one
+ level
+ below
+
+
+and
+ not
+ use
+ torch,
+ but
+ I
+ don't
+ want
+ to
+
+
+torch
+ you
+ that
+ much.
+ Uh
+ so
+ I
+ think
+ torch
+
+
+is
+ like
+ a
+ good
+ level
+ and
+ this
+ will
+ be
+
+
+like
+ a
+ good
+ indication
+ of
+ how
+ like
+
+
+actual
+ like
+ research
+ engineers
+ like
+ in
+
+
+in
+ big
+ labs
+ like
+ design
+ their
+ models
+ and
+
+
+whatever
+ is
+ further
+ than
+ that
+ is
+ more
+
+
+like
+ optimizations
+ and
+ making
+ the
+ scale
+
+
+be
+ better
+ and
+ bigger
+ and
+ improving
+ for
+
+
+specific
+ use
+ cases.
+ So
+ this
+ what
+ you're
+
+
+going
+ to
+ be
+ doing
+ today
+ is
+ like
+ pretty
+
+
+much
+ like
+ 80%
+ of
+ of
+ the
+ way
+ there
+ to
+ to
+
+
+create
+ like
+ a
+ model
+ from
+ scratch.
+ Uh
+ if
+
+
+you
+ can
+ go
+ on
+ this
+ uh
+ QR
+ code
+ uh
+ you're
+
+
+going
+ to
+ find
+ this
+ uh
+ GitHub
+ repo.
+ Uh
+
+
+I'm
+ going
+ to
+ switch
+ to
+ that
+ now.
+ We'll
+
+
+leave
+ it
+ for
+ a
+ little
+ bit
+ longer.
+ Uh
+
+
+there's
+ you
+ have
+ two
+ options.
+ Uh
+ one
+ is
+
+
+to
+ either
+ train
+ the
+ model
+ locally
+ on
+
+
+your
+ laptop.
+ Like
+ if
+ you
+ have
+ like
+ a
+ 16
+
+
+GB
+ of
+ memory,
+ you
+ should
+ be
+ able
+ to
+ do
+
+
+it.
+ It's
+ a
+ small
+ very
+ tiny
+ model
+ that
+
+
+you
+ can
+ train
+ fast.
+ Uh
+ if
+ not,
+ and
+ I'm
+
+
+guessing
+ because
+ not
+ many
+ people
+ have
+
+
+outlets,
+ maybe
+ Google
+ Collab
+ would
+ be
+
+
+another
+ option.
+ Uh
+ Google
+ Collab
+ gives
+
+
+you
+ free
+ GPUs
+ that
+ you
+ can
+ use
+ for
+ for
+
+
+training
+ such
+ a
+ small
+ model.
+ So
+ other
+ it
+
+
+will
+ be
+ your
+ choice.
+ Um
+ while
+
+
+I'm
+ going
+ to
+ leave
+ this
+ on
+ for
+ a
+ little
+
+
+bit
+ longer
+
+
+and
+ then
+ we
+ can
+ go
+ in
+
+
+the
+ actual
+ repo
+ itself.
+
+
+Um
+ so
+ to
+ give
+ you
+ some
+ idea
+ of
+ the
+
+
+inspiration
+ of
+ this
+ um
+ uh
+ of
+ this
+
+
+project
+ uh
+ my
+ first
+ exposure
+ to
+ to
+
+
+transformance
+ and
+ in
+ general
+ was
+ through
+
+
+this
+ video
+ from
+ from
+ Andre
+ Karpathy
+ who
+
+
+was
+ one
+ of
+ the
+ co-founders
+ of
+ of
+ OpenAI
+
+
+uh
+ which
+ was
+ called
+ nano
+ GPT
+ and
+ for
+ me
+
+
+that
+ was
+ like
+ a
+ very
+ inspirational
+
+
+project
+ this
+ essentially
+ like
+ what
+
+
+inspires
+ like
+ this
+ this
+ workshop
+ as
+
+
+uh
+ it's
+ a
+ bit
+ lower
+ level
+ than
+ what
+
+
+we're
+ going
+ to
+ be
+ doing
+ now.
+ So
+ it
+ goes
+
+
+bit
+ deeper
+ like
+ into
+ how
+ you're
+ using
+
+
+NPI
+ for
+ like
+ calculations
+ but
+ I
+ think
+
+
+it's
+ a
+ good
+ uh
+ blueprint
+ that
+ we
+ can
+
+
+follow
+ for
+ for
+ us
+ to
+ be
+ able
+ to
+ create
+ a
+
+
+model
+ from
+ scratch.
+ Um
+ let
+ me
+
+
+move
+ this
+ to
+ the
+ screen.
+
+
+But
+ yeah,
+ if
+ if
+ you
+ don't
+ if
+ you
+ if
+ you
+
+
+don't
+ know
+ this
+ project,
+ uh
+ I
+ think
+
+
+that's
+ it's
+ a
+ great
+ introduction.
+ If
+ you
+
+
+do
+ know
+ this
+ project
+ and
+ you've
+ done
+
+
+trained
+ elements
+ like
+ that
+ before,
+ uh
+
+
+this
+ might
+ be
+ seem
+ a
+ bit
+ simple
+ for
+ you,
+
+
+but
+ I
+ think
+ that
+ there
+ are
+ ways
+ we
+ can
+
+
+expand
+ this
+ workshop
+ to
+ towards
+ doing
+
+
+something
+ that's
+ a
+ little
+ more
+ of
+ a
+
+
+competition,
+ which
+ I
+ would
+ see
+ like
+ to
+
+
+see
+ what
+ you
+ can
+ come
+ up
+ with.
+ for
+ this
+
+
+specific
+ um
+ for
+ this
+ specific
+ workshop,
+
+
+we're
+ going
+ to
+ work
+ with
+ a
+ very
+ small
+
+
+model
+ that's
+ based
+ on
+ the
+ GP2
+ GPT2
+
+
+architecture.
+ Uh
+ it's
+ a
+ bit
+ of an
+ older
+
+
+architecture,
+ but
+ the
+ the
+ the
+ base
+ and
+
+
+the
+ the
+ fundamental
+ parts
+ of
+ it
+ are
+
+
+basically
+ haven't
+ changed
+ too
+ much.
+ Uh
+
+
+and
+ we're
+ going
+ to
+ go
+ over
+ over
+ those
+ in
+
+
+in
+ a
+ bit.
+ Uh
+ the
+ the
+ four
+ building
+
+
+blocks
+ you
+ need
+ to
+ to
+ train
+ a
+ model
+ is
+
+
+first
+ one
+ is
+ going
+ to
+ be
+ the
+ tokenizer.
+
+
+Uh,
+ and
+ depending
+ on
+ what
+ your
+ use
+ case
+
+
+is,
+ you'd
+ want
+ to
+ use
+ a
+ different
+
+
+tokenizer
+ for
+ that
+ specific
+ use
+ case.
+ If
+
+
+you
+ want
+ to
+ train,
+ for
+ example,
+ a
+ very
+
+
+big
+ model
+ that
+ can
+ that
+ want
+ you
+ want
+ to
+
+
+generate
+ text
+ for
+ like
+ multiple
+
+
+languages,
+ you'll
+ need
+ a
+ huge
+ tokenizer,
+
+
+which
+ means
+ you're
+ going
+ to
+ need
+ a
+ huge
+
+
+amount
+ of
+ data
+ as
+ well
+ to
+ train
+ it.
+ But
+
+
+for
+ a
+ for
+ a
+ smaller
+ model,
+ smaller
+
+
+tokenizer
+ with
+ with
+ with
+ a
+ smaller
+
+
+embeddings
+ is
+ what
+ would
+ work
+ best
+ and
+
+
+train
+ the
+ fastest
+ when
+ you're
+ when
+
+
+you're
+ data
+ limited,
+ which
+ is
+ what
+ we
+
+
+are
+ right
+ now.
+ Uh
+ next
+ would
+ be
+ a
+ model
+
+
+architecture.
+ Uh
+ to
+ be honest
+ like
+ most
+
+
+models
+ like
+ have
+ at
+ least
+ at
+ the
+ at
+ the
+
+
+period
+ that
+ we're
+ going
+ to
+ be
+ working
+ in
+
+
+were
+ very
+ similar
+ like
+ in
+ in
+ they
+ were
+
+
+just
+
+
+decoder
+ only
+ coausal
+ decoder
+ only
+ models
+
+
+that
+ had
+ a
+ very
+ similar
+ uh
+ way
+ of
+ of
+
+
+using
+ causal
+ self
+ attention
+ and
+ the
+ same
+
+
+like
+ MLP
+ layers
+ and
+ the
+ same
+ like
+ layer
+
+
+norms
+ and
+ all
+ kind
+ of
+ stuff
+ which
+ we'll
+
+
+we'll
+ get
+ we'll
+ get
+ to
+ it.
+ Um
+ so
+ if
+ you
+
+
+know
+ how
+ to
+ do
+ this
+ this
+ like
+ small
+
+
+models
+ it's
+ very
+ easy
+ to
+ go
+ and
+ do
+ the
+
+
+same
+ process
+ for
+ like
+ bigger
+ like
+ newer
+
+
+models
+ but
+ of
+ course
+ the
+ newer
+ models
+
+
+are
+ going
+ to
+ be
+ way
+ more
+ specialized
+ for
+
+
+longer
+ context
+ and
+ essentially
+
+
+essentially
+ being
+ able
+ to
+ scale
+ this
+
+
+train
+ the
+ they're
+ architected
+ in
+ a
+ way
+
+
+to
+ be
+ able
+ to
+ scale
+ training
+ to
+ as
+ many
+
+
+tokens
+ as
+ possible
+ which
+ we
+ won't
+ need
+
+
+in
+ this
+ case.
+ And
+ lastly,
+ it's
+ a
+ it's
+ a
+
+
+training
+ loop
+ which
+ this
+ is
+ generally
+
+
+the
+ most
+ important
+ part
+ when
+ you're
+
+
+training
+ a
+ new
+ model.
+ Like
+ if
+ you
+ check
+
+
+the
+ difference
+ between
+ like
+ GPT4,
+ GP40
+
+
+and
+ GPT5
+ or
+ even
+ even
+ if
+ you
+ go
+ before
+
+
+that,
+
+
+what
+ you'd
+ see
+ mostly
+ is
+ that
+ usually
+
+
+the
+ pre-training
+ is
+ very
+ similar.
+ It's
+
+
+the
+ fine-tuning
+ and
+ post-raining
+ and
+
+
+essentially
+ what
+ you
+ use
+ with
+ a
+ with
+ the
+
+
+same
+ base
+ model
+ or
+ like
+ very
+ similar
+
+
+base
+ model
+ and
+ the
+ way
+ you
+ train
+ it
+ that
+
+
+actually
+ makes
+ the
+ big
+ difference
+ in
+
+
+performances.
+ And
+ now
+ we
+ see
+ for
+ example
+
+
+uh
+ Geminy
+ 3
+ comes
+ out
+ and
+ then
+ has
+ this
+
+
+this
+ this
+ many
+ this
+ good
+ benchmarks
+ and
+
+
+then
+ 3.1
+ comes
+ out
+ that
+ has
+ like
+ double
+
+
+the
+ performance
+ in
+ some
+ benchmarks
+ which
+
+
+is
+ crazy
+ like
+ obviously
+ it's
+ very
+ s
+ the
+
+
+models
+ are
+ very
+ similar
+ but
+ actually
+
+
+during
+ training
+ they
+ train
+ they
+ train
+
+
+the
+ new
+ model
+ in
+ smarter
+ ways
+ to
+ improve
+
+
+performance
+ like
+ very
+ substantially.
+
+
+Now
+ as
+ for
+ the
+ and
+ and
+ lastly
+ of
+ course
+
+
+the
+ inference
+ part
+ like
+ that's
+ going
+ to
+
+
+very
+ easy
+ for
+ us
+ like
+ because
+ we're
+ just
+
+
+it's
+ going
+ to
+ be
+ a
+ small
+ model
+ that
+ can
+
+
+run
+ everywhere.
+ Uh
+ so
+ like
+ that
+ that's
+
+
+going
+ to
+ be
+ a
+ very
+ simple
+ uh
+ part
+ of
+ the
+
+
+the
+ building
+ blocks.
+ Uh
+ then
+ the
+
+
+prerequisites
+ any
+ laptop
+ would
+ do
+ uh
+
+
+that
+ has
+ at least
+ six
+ 16
+ GB
+ of
+ RAM.
+ You
+
+
+can
+ work
+ with
+ with with
+ smaller
+ laptops
+
+
+as
+ well.
+ It'll
+ just
+ be
+ a
+ bit
+ slower.
+
+
+Bigger
+ laptops
+ you
+ can
+ crank
+ up
+ the
+
+
+batch
+ sizes
+ higher
+ so
+ it
+ will
+ train
+
+
+faster.
+
+
+Uh
+ Python
+ 3.12
+ and
+ I
+ expect
+ I
+ expect
+
+
+that
+ most
+ of
+ you
+ have
+ like
+ some
+ idea
+ of
+
+
+how
+ to
+ write
+ Python.
+ uh
+ like
+ if
+ you
+
+
+don't
+ I
+ think
+ it's
+ still
+ quite
+ you
+ can
+
+
+just
+ copy
+ paste
+ things
+ until
+ something
+
+
+works
+ or
+ like
+ ask
+ for
+ some
+ help.
+ Uh
+ this
+
+
+training
+ can
+ uses
+ uh
+ Apple
+ silicon
+ so
+
+
+the
+ the
+ MPS
+ archite
+ MPS
+ architecture
+
+
+CUDA
+ or
+ CPU
+ so
+ you
+ can
+ basically
+ support
+
+
+everything.
+
+
+Um
+ and
+ as
+ for
+ getting
+ started
+ uh
+ this
+
+
+just
+ to
+ make
+ things
+ easier
+ like
+ I'm
+
+
+using
+ UV
+ for
+ this
+ project.
+ Uh
+ so
+ if
+ you
+
+
+have
+ your
+ laptop
+ out
+ you
+ can
+ install
+ UV
+
+
+on
+ your
+ machine
+ if
+ you
+ haven't.
+ Uh
+ it's
+
+
+it's
+ quite
+ straightforward
+ and
+ the
+
+
+reason
+ UV
+ is
+ quite
+ simple.
+ You
+ can
+ just
+
+
+run
+ UV
+ sync
+ and
+ it
+ creates
+ a
+ virtual
+ M
+
+
+for
+ you
+ and
+ makes
+ your
+ life
+ easier.
+ And
+
+
+we're
+ going
+ to
+ write
+ the
+ code
+ in
+
+
+Scratchpad
+ or
+ if
+ you're
+ using
+ Google
+
+
+Collab
+ which
+ to
+ be honest
+ if
+ your
+
+
+internet
+ is
+ not
+ very
+ good
+ maybe
+ that's
+ a
+
+
+better
+ idea.
+ Uh
+ if
+ you
+ just
+ go
+ to
+
+
+um
+
+
+if
+ you
+ just
+ go
+ to
+ and
+ create
+ a
+ new
+ um
+
+
+let
+ me
+ actually
+ create
+ on
+ a
+ separate
+ one
+
+
+so
+ we
+ can
+ we
+ can
+ follow
+ along.
+
+
+Yeah.
+ So
+ if
+ you
+ open
+ Google
+ Collab
+ and
+
+
+you
+ create
+ a
+ new
+ um
+ collab
+ project,
+ you
+
+
+can
+ run
+ this
+ command
+
+
+which
+ just
+ installs
+ the
+ what
+ we
+ need
+
+
+which
+ is
+ the
+ storage
+ numpy
+ tdm
+ and
+ tick
+
+
+token.
+ Tik
+ Tok
+ is
+ mostly
+ for
+ uh
+ for
+
+
+testing
+ things
+ out.
+
+
+Yeah,
+ we're
+ going
+ to
+ move
+ on
+ to
+ the
+
+
+first
+ part
+ of
+ this
+ um
+
+
+u
+ of
+ this
+ workshop
+ which
+ is
+ going
+ to
+ be
+
+
+the
+ tokenizer.
+ As
+ I
+ mentioned
+ like
+ this
+
+
+is
+ generally
+ the
+ first
+ thing
+ you
+ think
+
+
+about
+ when
+ you
+ create
+ a
+ new
+ a
+ new
+ any
+
+
+new
+ transform
+ model
+ is
+ what
+ tokenizer
+
+
+you're
+ using.
+ I
+ come
+ from
+ the
+ voice
+
+
+world.
+ So
+ this
+ is
+ where
+ that
+ that's
+ the
+
+
+one
+ of
+ the
+ most
+ important
+ things
+ like
+
+
+we're
+ thinking
+ okay
+ we
+ need
+ to
+ train
+
+
+this
+ new
+ TTS
+ model
+ and
+ we're
+ going
+ to
+
+
+spend
+ maybe
+ six
+ months
+ thinking
+ about
+
+
+the
+ tokenizer
+ and
+ then
+ we're
+ going
+ to
+
+
+spend
+ two
+ months
+ on
+ the
+ architecture.
+ So
+
+
+that's
+ that's
+ like
+ generally
+ one
+ of
+ the
+
+
+most
+ important
+ things
+ of
+ deciding
+ how
+ to
+
+
+create
+ a
+ new
+ transformer.
+ For
+ those
+ who
+
+
+don't
+ know
+ what
+ a
+ tokenizer
+ is
+ like
+ LLMs
+
+
+don't
+ see
+ text
+ they
+ they
+ work
+ with
+
+
+embeddings
+ or
+ like
+ vectors.
+ Uh
+ so
+ we
+
+
+need
+ like
+ some
+ kind
+ of
+ representation
+ of
+
+
+those
+ vectors
+ for
+ the
+ model
+ to
+ be
+ able
+
+
+to
+ process.
+
+
+Uh
+ what
+ we're
+ going
+ to
+ be
+ using
+ here
+ is
+
+
+a
+ character
+ level
+ alignment
+ uh
+ a
+
+
+character
+ level
+ tokenization
+ sorry
+ just
+
+
+because
+ it's
+ it
+ has
+ the
+ lowest
+ number
+ of
+
+
+possible
+ tokens.
+ Um
+ in
+ that
+ in
+ our
+ case
+
+
+for
+ on
+ our
+ data
+ set
+ it's
+ going
+ to
+ be
+
+
+only
+ 65
+ embeddings
+ essentially
+ because
+
+
+it's
+ 65
+ different
+ characters
+ that
+ will
+
+
+appear
+ in
+ the
+ in
+ our
+ training
+ data.
+
+
+And
+ the
+ way
+ it
+ works
+ uh
+ like
+ this
+ is
+
+
+going
+ to
+ be
+ using
+ the
+ sexier
+ data
+ set
+
+
+just
+ a
+ few
+ works
+ of
+ sexier
+ is
+ part
+ of
+
+
+the
+
+
+um
+ it's
+ part
+ of
+ the
+ repo
+ itself
+ but
+ you
+
+
+can
+ if
+ you're
+ using
+
+
+um
+ if
+ you're
+ using
+ collab
+ there's
+ going
+
+
+to
+ be
+ a
+ link
+ on
+ how
+ to
+ download
+ it
+ on
+
+
+collab
+ a
+ little
+ bit
+ later
+
+
+and
+ essentially
+ we're
+ going
+ to
+ use
+ this
+
+
+this
+ story
+ library
+ which
+ basically
+ just
+
+
+converts
+ uh
+
+
+we'll
+ be
+ converting
+ strings
+ to
+ inte
+
+
+integers
+ and
+ that
+ these
+ indexers
+ will
+
+
+then
+ be
+ turned
+ to
+ embeddings
+ through
+ the
+
+
+embedding
+ layer
+ when
+ we
+ train
+ the
+ the
+
+
+LLM
+ and
+ it's
+ a
+ very
+ very
+ simple
+
+
+straightforward
+ tokenizer
+ uses
+ this
+
+
+enumerate
+ uh
+ function
+ from
+ from
+
+
+Python
+ and
+ just
+ then
+ selects
+ that
+
+
+specific
+ item
+ that
+ has
+ selected
+ with
+
+
+this
+ dictionary.
+
+
+So
+ yeah,
+ as
+ I
+ said
+ before,
+ like
+ we
+ use
+
+
+we
+ use
+ character
+ level
+ because
+ it's
+ much
+
+
+easier
+ to
+ train.
+ Uh
+ because
+ we
+ have
+ 65
+
+
+65
+ uh
+ tokens
+ only.
+ It
+ means
+ that
+ we
+ the
+
+
+biogram
+ combinations
+ will
+ be
+ like
+ 65*
+
+
+65.
+ So
+ 4,225
+ possible
+ biograms.
+ Bagram
+
+
+is
+ essentially
+ like
+ when
+ you
+ have
+ one
+
+
+token
+ and
+ then
+ you
+ predict
+ the
+ next
+
+
+token
+ after
+ it.
+ And
+ this
+ concept
+ of
+ of
+
+
+of
+ biogram
+ is
+ very
+ is
+ a
+ very
+ important
+
+
+concept
+ when
+ when
+ you're
+ training
+
+
+transformers
+ because
+ you
+ want
+ your
+ model
+
+
+to
+ see
+ as
+ many
+ possible
+ biograms
+ as
+
+
+possible.
+ So
+ if
+ you
+ have
+ a
+ model
+ with
+
+
+let's
+ say
+ 200,000
+ tokens,
+ you
+ need
+
+
+200,000
+ tokens
+ squared
+ at
+ least
+ data
+ to
+
+
+be
+ able
+ to
+ to
+ train
+ like
+ a
+ from
+ scratch
+
+
+in
+ a
+ in
+ a
+ in
+ in
+ a
+ very
+ good
+ way.
+ Uh
+ so
+
+
+the
+ or
+ at
+ least
+ like
+ this
+ is
+ the
+
+
+magnitude
+ that
+ you're
+ looking
+ for.
+ In
+
+
+our
+ case,
+ 4,000
+ biograms
+ is
+ like
+ very
+
+
+doable.
+ Like
+ this
+ this
+ data
+ set
+ should
+
+
+include
+ it.
+ All
+ biograms
+ like
+ multiple
+
+
+times
+ very
+ likely.
+
+
+Um
+ if
+ we
+ did
+ try
+ to
+ train
+ using
+ a
+ full
+
+
+tokenizer,
+ this
+ will
+ never
+ converge.
+ We
+
+
+can
+ just
+ be
+ training
+ it
+ for
+ hours
+ and
+
+
+hours
+ and
+ then
+ our
+ model
+ will
+ never
+ be
+
+
+able
+ to
+ to
+ get
+ good
+ results.
+ Now
+ the
+
+
+problem
+ with
+ with
+ character
+ level
+ uh
+
+
+tokenizers
+ is
+ that
+ they
+ don't
+ really
+
+
+scale
+ very
+ well
+ u
+ because
+ the
+ models
+ the
+
+
+the
+ way
+ they
+ work
+ is
+ that
+ they
+ need
+ to
+
+
+understand
+ correlation
+ between
+ different
+
+
+tokens.
+ Um
+ so
+ you
+ can
+ very
+ easily
+ have
+ a
+
+
+correlation
+ saying
+ the
+ sky
+ is
+ blue
+ like
+
+
+these
+ tokens
+ combined
+ together
+ like
+ make
+
+
+a
+ lot
+ of
+ sense
+ but
+ sky
+ and
+ then
+ is
+ and
+
+
+then
+ bl
+ that
+ it's
+ a
+ bit
+ harder
+ for
+ them
+
+
+for
+ the
+ model
+ to
+ be
+ able
+ to
+ make
+ like
+
+
+good
+ uh
+
+
+to
+ attend
+ to
+ these
+ tokens
+ in
+ in in
+ a
+
+
+good
+ way.
+ Uh
+ so
+ this
+ will
+ this
+ will
+ work
+
+
+quite
+ well
+ for
+ our
+ example.
+ But
+ if
+ you
+
+
+want
+ like
+ a
+ very
+ very
+ good
+ model
+ uh
+ one
+
+
+it
+ will
+ be
+ expensive
+ to
+ train
+ because
+ of
+
+
+course
+ like
+ you
+ have
+ to
+ create
+ like
+ a
+
+
+ton
+ of
+ tokens
+ when
+ during
+ inference
+ and
+
+
+during
+ training.
+ Uh
+ but
+ also
+ it
+ will
+
+
+just
+ never
+ converge
+ to
+ something
+ good
+
+
+because
+ the
+ model
+ the
+ tokens
+ combined
+
+
+don't
+ make
+ too
+ much
+ sense.
+
+
+Um
+ so
+ that's
+ our
+ trade-off
+ but
+ it's
+ a
+
+
+trade-off
+ that
+ we're
+ willing
+ to
+ take
+
+
+because
+ of
+ course
+ we're
+ running
+ a
+ a
+
+
+small
+ model.
+ in
+ the
+ future
+ if
+ you
+ want
+
+
+to
+ expand
+ this
+ to
+ something
+ better
+ if
+
+
+you
+ want
+ to
+ train
+ like
+ a
+ proper
+ LLM
+ and
+
+
+you're
+ happy
+ to
+ train
+ for
+ like
+ a
+ week
+ or
+
+
+using
+ bigger
+ GPUs
+
+
+uh
+ using
+ a
+ proper
+ uh
+ tokenizer
+ that's
+ a
+
+
+use
+ like
+ bite
+ parent
+ coding
+ is
+ the
+ most
+
+
+common
+ uh
+ way
+ of
+ like
+ doing
+ tokenizer
+
+
+these
+ days
+ which
+ essentially
+ takes
+ all
+
+
+you
+ can
+ the
+ way
+ you
+ train
+ a
+ BP
+ tokenizer
+
+
+is
+ that
+ you
+ take
+ all
+ your
+ training
+ data
+
+
+and
+ you
+ find
+ all
+ common
+ patterns
+ and
+
+
+combine
+ those
+ common
+ uh
+ those
+ common
+
+
+character
+ patterns
+ into
+ specific
+ tokens
+
+
+that
+ then
+ you
+ can
+ reuse
+ and
+ the
+ model
+
+
+can
+ understand
+ relationships
+ of.
+
+
+So
+ the
+ the
+ way
+ that
+ this
+ connects
+ to
+ the
+
+
+model
+ itself
+ is
+ we
+ have
+ this
+ embedding
+
+
+table
+ which
+ is
+ size
+ vocab
+ size
+ and
+ then
+
+
+it's
+ what
+ I
+ said
+ before.
+ It
+ takes
+
+
+a
+ vector
+ of
+ integers
+ and
+ then
+ returns
+
+
+uh
+ sorry
+ a
+ list
+ of
+ in
+ integers
+ and
+ then
+
+
+returns
+ a
+ list
+ of
+ vectors
+ which
+ is
+ going
+
+
+to
+ be
+ our
+ embeddings.
+
+
+Uh
+ and
+ like
+ like
+ I
+ said
+ before
+ like
+
+
+that's
+ if
+ we
+ did
+ use
+ uh
+ such
+ a
+ big
+ such
+
+
+a
+ big
+ tokenizer
+ that
+ would
+ also
+ be
+ like
+
+
+more
+ than
+ twice
+ the
+ size
+ of
+ our
+ models
+
+
+because
+ if
+ you
+ just
+ multiply
+ this
+ our
+ uh
+
+
+embedding
+ size
+ is
+ 384
+ for
+ this
+ model
+
+
+we're
+ going to
+ be
+ training.
+ So
+ that's
+
+
+already
+ like
+ 25,000
+ parameters.
+ And
+ in
+
+
+that
+ case
+ like
+ if
+ we
+ used
+ G
+ uh
+ GPD2's
+
+
+vocab
+ which
+ is
+ 50,000
+ that
+ would
+ be
+ 19
+
+
+million
+ parameters
+ which
+ is
+ like
+ more
+
+
+than
+ three
+ times
+ the
+ model
+ which
+
+
+wouldn't
+ make
+ sense
+ in
+ our
+ case.
+ Uh
+ so
+
+
+now
+ moving
+ on
+ to
+ the
+ next
+ part
+ of
+ this
+
+
+workshop
+ which
+ is
+ going
+ to
+ be
+ the
+
+
+transformer
+ itself
+ and
+ as
+ as
+ I
+ mentioned
+
+
+before
+ like
+ the
+ transformers
+ they
+ have
+
+
+been
+ kind
+ of
+ commoditized
+ now
+ they
+ the
+
+
+way
+ transformers
+ work
+ like
+ there
+ are
+
+
+different
+ labs
+ that
+ find
+ different
+
+
+optimizations
+ but
+ the
+ optimizations
+ like
+
+
+in
+ principle
+ is
+ more
+ about
+ we
+ have
+ this
+
+
+like
+ base
+ like
+ idea
+ that
+ works
+ really
+
+
+well.
+ How
+ can
+ we
+ make
+ it
+ train
+ faster
+
+
+and
+ like
+ have
+ bigger
+ context
+ and
+
+
+people
+ find
+ ways
+ that
+ are
+ more
+
+
+optimizations
+ than
+ nec
+ than
+ than
+
+
+necessarily
+ reinventing
+ the
+ wheel.
+ Uh
+
+
+for
+ this
+ at
+ least
+ there
+ are
+ some
+ of
+
+
+course
+ hybrid
+ approaches
+ that
+ are
+ more
+
+
+complicated.
+ Uh
+ so
+ I'm
+ not
+ going
+ to
+ go
+
+
+too
+ deep
+ on
+ how
+ transformers
+ work.
+ Uh
+
+
+and
+ also
+ to
+ prove
+ a
+ point
+ that
+ you
+ don't
+
+
+necessarily
+ need
+ to
+ know
+ in
+ a
+ very
+ deep
+
+
+level
+ how
+ transformers
+ work
+ to
+ to
+ be
+
+
+able
+ to
+ train
+ something
+ like
+ this.
+ uh
+
+
+when
+ I
+ first
+ like
+ did
+ this
+ project
+
+
+myself,
+ I
+ didn't
+ I
+ had
+ no
+ clue
+ how
+
+
+transformers
+ worked
+ and
+ I
+ still
+ didn't
+
+
+that
+ much
+ at
+ the
+ end
+ of
+ the
+ pro
+ the
+ work
+
+
+the
+ previous
+ project
+ I
+ worked
+ on
+ but
+ it
+
+
+once
+ the
+ more
+ you
+ work
+ on
+ it
+ and
+ the
+
+
+more
+ you
+ like
+ you
+ have
+ motivation
+ to
+
+
+continue
+ pushing
+ through
+ you
+ can
+
+
+understand
+ all
+ different
+ concepts
+
+
+together
+ and
+ how
+ they
+ they
+ they
+ stuck
+
+
+together
+ and
+ the
+ reasons
+ why
+ they
+ ended
+
+
+up
+ the
+ way
+ they
+ are.
+
+
+Uh
+ to
+ go
+ back
+ to
+ the
+ big
+ picture
+ uh
+
+
+transformers
+ are
+
+
+are
+ are
+ using
+ like
+ these
+ four
+ different
+
+
+building
+ blocks.
+ Uh
+ one
+ is
+ multi
+ head
+
+
+self
+ attention.
+ Uh
+ attention
+ is
+ like
+
+
+what
+ the
+ difference
+ between
+ that
+ makes
+
+
+the
+ transformers
+ different
+ than
+ other
+
+
+neural
+ networks
+ is
+ that
+ they
+ can
+
+
+actually
+ attend
+ to
+ previous
+ tokens
+ and
+
+
+understand
+ the
+ relationship
+ between
+
+
+tokens
+ that
+ I
+ was
+ I
+ was
+ mentioning
+
+
+before
+ and
+ that's
+ where
+ attention
+ comes
+
+
+in.
+ And
+ of
+ course
+ the
+ bigger
+ your
+
+
+attention
+ is
+ the
+ more
+ the
+ model
+
+
+understands
+ those
+ relationships.
+ And
+
+
+going
+ back
+ to
+ what
+ I
+ said,
+ that's
+ what
+
+
+like
+ big
+ labs
+ like
+ Geminy,
+ they're
+
+
+trying
+ to
+ do
+ one
+ million
+ context
+ and
+
+
+they're
+ finding
+ ways
+ because
+ if
+ you
+ just
+
+
+try
+ to
+ use
+ a
+ 1
+ million
+ context
+ for
+ for
+ a
+
+
+model
+ like
+ this,
+ it
+ will
+ just
+ break
+ very
+
+
+easily
+ like
+ the
+ the
+ math
+ wouldn't
+ work.
+
+
+So
+ then
+ that's
+ when
+ like
+ the
+ engineers
+
+
+from
+ the
+ researchers
+ from
+ Germany
+ found
+
+
+ways
+ to
+ to
+ make
+ it
+ work
+ and
+ that's
+ what
+
+
+that
+ makes
+ a
+ difference
+ but
+ again
+
+
+fundamentally
+ it's
+ like
+ the
+ same
+ the
+
+
+same
+ architecture.
+ Uh
+ next
+ one
+ is
+ is
+ the
+
+
+MLP
+ uh
+ or
+ like
+ the
+ feed
+ forward
+ network
+
+
+uh
+ which
+ essentially
+ takes
+ this
+
+
+different
+ uh
+ um
+ uh
+ relationships
+ between
+
+
+those
+ tokens
+ and
+
+
+while
+ taking
+ them
+ while
+ the
+ the
+
+
+relationship
+ theelves
+ are
+ um
+ arranged
+
+
+all
+ of
+ the
+ relationship
+ between
+ the
+
+
+tokens
+ themselves
+ it
+ it
+ combines
+ them
+
+
+together
+ to
+ to
+ be
+ able
+ to
+ generate
+ the
+
+
+logits
+ that
+ will
+ then
+ be
+ uh
+ so
+ it's
+
+
+essentially
+ kind
+ of
+ uh
+ it
+ takes
+ the
+
+
+context
+ and
+ then
+ organizes
+ it
+ in
+ ways
+
+
+that
+ the
+ model
+ can
+ then
+ generate
+ the
+
+
+logits
+ and
+ then
+ generate
+ the
+ tokens.
+ I
+
+
+hope
+ that
+ was
+ a
+ decent
+ explanation.
+ And
+
+
+then
+ you
+ have
+ the
+ residual
+ connections
+
+
+which
+ are
+ basically
+ there
+ for
+ the
+ model
+
+
+to
+
+
+to
+ not
+ have
+ to
+ reinvent
+ itself
+ after
+
+
+every
+ layer.
+ Uh
+ res
+ residual
+ basically
+
+
+means
+ that
+ every
+ layer
+ that
+ that
+ passes
+
+
+through
+ the
+ uh
+ because
+ as as
+ as
+ we'll
+
+
+talk
+ about
+ later
+ transformer
+ is is
+ is
+ is
+
+
+built
+ on
+ multiple
+ different
+ layers
+ that
+
+
+we
+ pass
+ through
+ the
+ activations
+ one
+
+
+after
+ the
+ other
+ and
+ uh
+ residuals
+ are
+
+
+there
+ so
+ that
+ each
+ activation
+ doesn't
+
+
+completely
+ uh
+ restart
+ things
+ from
+
+
+scratch.
+ It
+ just
+ changes
+ them
+ slightly.
+
+
+So
+ it
+ just
+ takes
+ the
+ previous
+ input
+ and
+
+
+makes
+ a
+ small
+ and
+ adds
+ a
+ small
+
+
+difference.
+ The
+ next
+ layer
+ does
+ the
+ same
+
+
+and
+ next
+ does
+ the
+ same
+ and
+ this
+ will
+
+
+continue
+ on
+ and
+ this
+ way
+ the
+ model
+
+
+doesn't
+
+
+each
+ layer
+ doesn't
+ make
+ a
+ huge
+ change
+ on
+
+
+the
+ inputs
+ themselves
+ uh
+ and
+ the
+ model
+
+
+can
+ be
+ more
+ stable
+ during
+ training.
+ And
+
+
+lastly,
+ the
+ layer
+ normalization
+ has
+ a
+
+
+very
+ similar
+ uh
+ has
+ a
+ very
+ similar
+ role
+
+
+in
+
+
+uh
+ being
+ able
+ to
+
+
+the
+ layer
+ normalization
+ is
+ able
+ is
+ is
+
+
+allowing
+ you
+ to
+ scale
+ down
+ those
+
+
+activations
+ in
+ ways
+ that
+
+
+uh
+ that
+ allows
+ that
+ those
+ activation
+ not
+
+
+be
+ to
+ not
+ be
+ exploding
+ into
+ very
+ big
+
+
+values.
+ So
+ if
+ one
+ layer
+ like
+ multiplies
+
+
+your
+ activation
+ by
+ 10x,
+ let's
+ say,
+ the
+
+
+layer
+ norm
+ is
+ going
+ to
+ push
+ it
+ back
+ back
+
+
+to
+ like
+ normal
+ values.
+ So
+ it
+ doesn't
+ go
+
+
+10x
+ 10
+ x
+ 10x
+ and
+ then
+ you
+ can
+ have
+ like
+
+
+millions
+ of
+ values
+ that
+ start
+ at
+ like
+
+
+0.5
+ and
+ then
+ end
+ at
+ 10
+ million.
+ That's
+
+
+what
+ the
+ layer
+ norm
+ is
+ for.
+
+
+But
+ again,
+ these
+ are
+ just
+ the
+ building
+
+
+blocks.
+ You
+ don't
+ necessarily
+ need
+ to
+
+
+know
+ like
+ why
+ they're
+ there
+ and
+ what
+ the
+
+
+what
+ the
+ purpose
+ of
+ them
+ is.
+ like
+ you
+
+
+you
+ learn
+ this
+ as
+ you
+ start
+ working
+ on
+
+
+these
+ models
+ more
+ and
+ understand
+ um
+ how
+
+
+those
+ diff
+ why
+ these
+ decisions
+ were
+ made
+
+
+because
+ all
+ of
+ them
+ as
+ like
+ as
+ I'm
+
+
+talking
+ to
+ you
+ of
+ course
+ were
+ done
+ by
+ we
+
+
+have
+ a
+ certain
+ idea
+ all
+ this
+ didn't
+ work
+
+
+so
+ let's
+ add
+ this
+ to
+ make
+ it
+ work
+ sorry
+
+
+go
+ ahead
+
+
+>> oh
+ oops
+ yeah
+ I
+ was
+ sewing
+
+
+>> apologies
+ for
+
+
+Yes.
+ So,
+
+
+uh
+ I
+ was
+ I
+ was
+ going
+ through
+ the
+
+
+tokenization.
+
+
+Uh
+ that
+ was
+ the
+ previous
+ uh
+ what
+ what
+ my
+
+
+my
+ previous
+ point.
+ Uh
+ and
+ that's
+ if
+ you
+
+
+if
+ you
+ can
+ go
+ back
+ and
+ you'll
+ have
+ to
+ go
+
+
+back
+ through
+ and
+ forth
+ through
+ the
+
+
+slides
+ when
+ you're
+ working
+ on
+ your
+ the
+
+
+model
+ yourself
+ because
+ you
+ can
+ you'll
+
+
+have
+ to
+ like
+ copy
+ paste
+ the
+ the
+ parts
+ or
+
+
+figure
+ them
+ out
+ yourself.
+ But
+ it's
+ it
+
+
+was
+ explaining
+ why
+ we're
+ going
+ with
+
+
+character
+ level
+ tokenization
+ and
+ um
+ and
+
+
+what
+ other
+ options
+ we
+ have.
+ Then
+ for
+
+
+transformer
+ I
+ was
+ explaining
+ the
+
+
+different
+ in
+ the
+ big
+ picture
+ the
+
+
+different
+ blocks
+ of
+ of
+ architecture.
+
+
+Um
+ and
+ then
+ now
+ going
+ to
+
+
+how
+ does
+ this
+ look
+ like
+ in
+ code
+ uh
+
+
+because
+ all
+ the
+ things
+ I
+ described
+ you
+
+
+actually
+ are
+ very
+ co
+ there's
+ very
+ little
+
+
+code
+ you
+ need
+ to
+ to
+ act
+ to
+ implement
+
+
+them.
+ Uh
+ first
+ we
+ start
+ with
+ the
+ basis
+
+
+of
+ sorry
+ go
+ ahead
+
+
+>> when
+ it
+ comes
+ to
+ Python
+ because
+
+
+at
+ least
+ in
+ English
+ you
+ know
+ you
+ have
+
+
+words
+ vocabulary
+ is
+ kind
+ of
+ fixed
+ but
+ in
+
+
+Python
+ you
+ have
+ your
+ own
+ variable
+ and
+ so
+
+
+on.
+ So
+ how
+ does
+ tokenization
+
+
+work
+ in
+ that
+ setting?
+ What
+ would
+ be
+ a
+
+
+token?
+ Sorry.
+
+
+>> So
+ in
+ a
+ programming
+ language
+ of
+ course
+
+
+you
+ have
+ programming
+ syntax
+ uh
+ keywords
+
+
+but
+ then
+ you
+ have
+ also
+ normal
+ variables
+
+
+function
+ names
+ and
+ so
+ on.
+ So
+ when
+ it
+
+
+comes
+ to
+ tokenization
+ how
+ does
+ that
+
+
+work?
+ So
+ yeah,
+ as
+ I
+ mentioned
+ to
+ before,
+
+
+uh
+
+
+we're
+ going
+ to
+ be
+ using
+ like
+ a
+ car
+ level
+
+
+tokenizer
+ because
+ it's
+ going
+ to
+ be
+ for
+
+
+this
+ project.
+ But
+ most
+ big
+ labs,
+ they
+
+
+don't
+ use
+ car
+ level
+ tokenization.
+ They
+
+
+they
+ use
+ what
+ I
+ was
+ mentioning
+ earlier,
+
+
+the
+ BP
+ tokenizer
+ or
+ like
+ bite
+ u
+
+
+essentially
+ they
+ they
+ what
+ they
+ do
+ is
+
+
+that
+ they
+ you
+ you
+ look
+ at
+ your
+ training
+
+
+data.
+ Let's
+ say
+ you
+ have
+ like
+ this
+ many
+
+
+trillions
+ of
+ tokens
+ and
+ your
+ training
+
+
+data
+ is
+ going
+ to
+ be
+ including
+ like
+ code
+
+
+as
+ you
+ mentioned
+ yourself.
+ uh
+ and
+ the
+
+
+way
+ it
+ works
+ it
+ will
+ just
+ look
+ at
+ common
+
+
+patterns.
+ Uh
+ so
+ if
+ you
+ have
+ like
+ a
+ lot
+
+
+of
+ training
+ data
+ that
+ is
+ uh
+ that
+ is
+ code
+
+
+itself
+ you
+ will
+ you
+ will
+ see
+ and
+ then
+
+
+you
+ will
+ realize
+ okay
+ four
+ loops
+ seem
+ to
+
+
+be
+ like
+ a
+ good
+ candidate
+ for
+ for
+ that
+ to
+
+
+be
+ a
+ token.
+ So
+ the
+ four
+ is
+ going
+ to
+ be
+
+
+for
+ sure
+ a
+ token
+ and
+ then
+ you
+ might
+ have
+
+
+some
+ like
+ enumerate
+ enumerate
+ you
+ see
+
+
+quite
+ commonly
+ in
+ the
+ um
+ in
+ the
+ training
+
+
+data.
+ So
+ that
+ will
+ be
+ another
+ token.
+ So
+
+
+you
+ will
+ look
+ at
+ all
+ these
+ different
+
+
+tokens
+ and
+ then
+ create
+ this
+ tokenizer
+
+
+based
+ on
+ the
+ common
+ uh
+ relationship
+
+
+between
+ them.
+ Uh
+ of
+ course
+ like
+ maybe
+
+
+some
+ languages
+ that
+ are
+ like
+ Pascal
+ that
+
+
+might
+ not
+ be
+ very
+ common
+ in
+ the
+
+
+language.
+ So
+ this
+ the
+ keywords
+ of
+ Pascal
+
+
+might
+ not
+ be
+ like
+ very
+ common.
+ Although
+
+
+I
+ do
+ think
+ that
+ there
+ probably
+ is
+ like
+
+
+good
+ representation
+ the
+ tokenizers
+ too
+
+
+but
+ some
+ other
+ of
+ those
+ like
+ crazy
+ like
+
+
+wide
+ space
+ only
+ like
+ languages
+ that
+ this
+
+
+these
+ ones
+ probably
+ are
+ not
+ going
+ to
+ be
+
+
+work
+ very
+ well.
+
+
+>> My
+ question
+ was
+ more
+ on
+ the
+ So
+ one
+ thing
+
+
+is
+ the
+ keywords
+ of
+ the
+ programming
+
+
+language
+ but
+ then
+ you
+ have
+ your
+ own
+
+
+variable
+ names
+ which
+ are
+ not
+ common
+
+
+among
+ different
+ program
+
+
+>> I'll
+ see
+ that
+ in
+ a
+ moment
+
+
+>> making
+ them
+ as
+ tokens
+ I'm
+ not
+ sure
+ how
+
+
+does
+ that
+ help
+
+
+>> so
+ again
+ like
+ there's
+ no
+ there's
+ no
+
+
+specific
+ way
+ there's
+ no
+ like
+ human
+ in
+
+
+the
+ loop
+ in
+ this
+ process
+ it
+ depends
+ on
+
+
+your
+ training
+ data
+ that
+ you
+ use
+ to
+ train
+
+
+this
+ tokenizer
+
+
+if
+ your
+ code
+ like
+ there's
+ like
+ fu
+ and
+
+
+bar
+ like
+ that's
+ like
+ common
+ variables
+
+
+these
+ will
+ probably
+ are
+ going
+ to
+ be
+
+
+tokens
+ like
+ if
+ your
+ your
+ to
+ if
+ If
+ your
+
+
+variable
+ names
+ are
+ like
+ very
+ strange
+
+
+like
+ random
+ characters,
+ then
+ yeah,
+
+
+probably
+ that's
+ not
+ going
+ to
+ be
+ in
+ the
+
+
+tokenizer.
+ And
+ when
+ this
+ happens,
+ uh
+ the
+
+
+tokenizer
+ will
+ fall
+ back
+ to
+ character
+
+
+level
+ or
+ like
+
+
+b
+ by
+ code
+ level
+ tokenization.
+ So
+ if
+ your
+
+
+if
+ your
+ token
+ is
+ like
+ just
+ random
+ like
+
+
+gibbles,
+ it
+ would
+ just
+ be
+ each
+ character
+
+
+or
+ like
+ some
+ maybe
+ some
+ combinations
+
+
+might
+ be
+ together
+ uh
+ as
+ different
+
+
+tokens,
+ but
+ most
+ of
+ them
+ are
+ going
+ to
+ be
+
+
+separate
+ tokens
+ and
+ that's
+ going
+ to
+ be
+ a
+
+
+bit
+ of
+ a
+ pain
+ to
+ doing
+ inference
+ and
+ uh
+
+
+yeah,
+ maybe
+ not
+ not
+ the
+ best
+ if
+ you
+ want
+
+
+uh
+ efficient
+ inference.
+
+
+Um
+ but
+ yeah
+ uh
+ going
+ back
+ to
+ to
+ the
+
+
+transformer
+ side
+ of
+ the
+ things
+ um
+ as
+ I
+
+
+said
+ the
+ the
+ models
+ are
+ generally
+ quite
+
+
+uh
+ quite
+ similar.
+ Um
+ and
+ the
+ code
+ for
+
+
+actually
+ implementing
+ these
+ transformers
+
+
+is
+ also
+ quite
+ simple
+ and
+ like
+ easy
+ to
+
+
+write.
+ It's
+ like
+ maybe
+ maybe
+ 100
+ lines
+
+
+actually
+ usually
+ more
+ than
+ that
+ less
+
+
+than
+ that.
+ Um
+ and
+ the
+ first
+ thing
+ we
+
+
+have
+ to
+ to
+ to
+ accept
+ is
+ what
+ the
+
+
+parameters
+ of
+ this
+ transformer
+ should
+
+
+look
+ like.
+ As
+ I
+ mentioned
+ before,
+ vocab
+
+
+size
+ is
+ the
+ size
+ of
+ your
+ tokenizer.
+ In
+
+
+our
+ case
+ will
+ be
+ 65.
+ Block
+ size
+ is
+
+
+essentially
+ the
+ sequence
+ length
+ or
+ like
+
+
+the
+ the
+ u
+ the
+ context
+ window.
+ Um
+ in
+ our
+
+
+case
+ that
+ would
+ be
+ 256
+ which
+ is
+ very
+
+
+very
+ small
+ for
+ these
+ models
+ but
+ because
+
+
+we're
+ training
+ a
+ model
+ locally
+ like
+
+
+that's
+ kind
+ of
+ what
+ we
+ have
+ to
+ do.
+ uh
+
+
+bigger
+ labs
+ would
+ use
+ like
+ one
+ million
+
+
+context
+ size
+ for
+ stuff
+ like
+ that.
+ Uh
+ but
+
+
+generally
+ like
+ 16,000
+ is
+ like
+ a
+ common
+
+
+middle
+ ground.
+ Uh
+ then
+ we
+ have
+ the
+
+
+layers.
+ How
+ many
+ as
+ I
+ mentioned
+ before
+
+
+like
+ uh
+ transformers
+ have
+ multiple
+
+
+layers
+ and
+ then
+ you
+ run
+ activations
+
+
+through
+ each
+ one
+ of
+ those
+ layers.
+ We're
+
+
+going
+ to
+ go
+ with
+ a
+ modest
+ number
+ of
+ six.
+
+
+And
+ then
+ the
+ attention
+ heads
+ like
+ the
+
+
+the
+ way
+ that
+ uh
+ attention
+ works
+ is
+ that
+
+
+you
+ might
+ you
+ going
+ to
+ have
+ different
+
+
+heads
+ for
+ attention
+ that
+ are
+ going
+ to
+ be
+
+
+attending
+ for
+ different
+ things.
+ like
+ one
+
+
+of
+ the
+ attention
+ heads
+ might
+ be
+ looking
+
+
+at
+ punctuation,
+ maybe
+ another
+ attention
+
+
+head
+ might
+ be
+ looking
+ at
+ the
+ grammar.
+ Uh
+
+
+so
+ all
+ these
+ different
+ attention
+ heads
+
+
+are
+ attending
+ to
+ like
+ a
+ specific
+ uh
+
+
+feature
+ of
+ the
+ text
+ or
+ if
+ you're
+ using
+
+
+audio,
+ a
+ specific
+ feature
+ of
+ the
+ audio,
+
+
+etc.
+ Uh
+ and
+ lastly,
+ that's
+ the
+ embedding
+
+
+dimension.
+ Uh
+ that's
+ how
+ big
+ the
+ actual
+
+
+vectors
+ of
+ those
+ tokens
+ that
+ you
+ uh
+
+
+create
+ are.
+ Uh
+ in
+ our
+ case,
+ we're
+ going
+
+
+to
+ start
+ with
+ 38
+ 384.
+ That's
+ like
+ the
+
+
+standard
+ for
+ GPT2.
+ But
+ a
+ bigger
+ value
+ of
+
+
+course
+ would
+ have
+ more
+ information
+ per
+
+
+token.
+ A
+ smaller
+ value
+ would
+ have
+ less.
+
+
+But
+ that's
+ like
+ a
+ pretty
+ standard
+ value
+
+
+you
+ can
+ start
+ with.
+
+
+Um,
+ as
+ for
+ the
+ code
+ itself,
+ uh,
+ feel
+
+
+free
+ to
+ copy
+ paste
+ part
+ of
+ this
+ if
+ you
+
+
+want
+ to
+ spend
+ more
+ time
+ understanding
+
+
+it.
+ I
+ don't
+ want
+ to
+ go
+ too
+ deep
+ into
+
+
+like
+ all
+ the
+ little
+ details
+ of
+ how
+
+
+things
+ work.
+ uh
+ but
+ essentially
+ like
+
+
+you're
+ generally
+ have
+ like
+ this
+
+
+overarching
+ module
+ in
+ that
+ case
+ we're
+
+
+going
+ to
+ call
+ that
+ GPT
+ and
+ that
+
+
+overarching
+ uh
+ top
+ level
+ module
+ is
+ going
+
+
+to
+ include
+ all
+ the
+ other
+ modules
+ that
+ I
+
+
+described
+ earlier
+ uh
+ in
+ this
+ case
+ this
+
+
+will
+ take
+ the
+ config
+
+
+uh
+ in
+ this
+ case
+ this
+ this
+ will
+ take
+ the
+
+
+config
+
+
+that
+ we
+ have
+ we
+ had
+ above
+ and
+ then
+ we
+
+
+will
+ create
+ this
+ uh
+ using
+ we're
+ using
+
+
+torch
+ module
+ dict
+ here
+ just
+ because
+ it's
+
+
+like
+ the
+ easiest
+ way
+ to
+ implement
+ this.
+
+
+But
+ this
+ is
+ all
+ just
+ math
+ like
+ you
+ can
+
+
+everything
+ you
+ see
+ here
+ would
+ just
+ be
+
+
+like
+ calculations
+ like
+ through
+ matrix
+
+
+multiplications
+ that
+ torch
+ allows
+ us
+ to
+
+
+abstract
+ and
+ make
+ things
+ easier
+ and
+
+
+pretty
+ much
+ all
+ the
+ things
+ here
+ are
+ you
+
+
+see
+ here
+ are
+ like
+ neuronet
+ networks
+ like
+
+
+smaller
+ or
+ bigger
+ that
+ are
+ combined
+
+
+together.
+
+
+>> Uh
+ question.
+
+
+>> Yes.
+
+
+right?
+
+
+>> Yes.
+
+
+>> Right.
+ So
+ many
+
+
+related
+ to
+ the
+ number
+ of
+ parameters.
+
+
+>> Um
+ not
+ necessarily.
+
+
+Sorry,
+ maybe
+ you
+ can
+ repeat
+ the
+ question
+
+
+with
+ a
+ microphone.
+
+
+>> So
+ the
+ the
+ size
+ of
+ the
+ input
+ sequence
+ is
+
+
+related
+ to
+ the
+ number
+ of
+ parameters
+ in
+
+
+your
+ model.
+
+
+Not
+ not
+ necessarily.
+ You
+ can
+ have
+ like
+
+
+large
+ sequences
+ with
+ like
+ small
+ models
+
+
+or
+ like
+ small
+ sequences
+ with
+ with
+ with
+
+
+uh
+ bigger
+ models.
+ The
+ the
+ main
+ thing
+
+
+that
+ this
+ shows
+ is
+ essentially
+ there
+ are
+
+
+two
+ ways
+ you
+ can
+ train
+ a
+ model.
+ You
+ can
+
+
+train
+ a
+ model
+ like
+ that
+ looks
+ at
+ that's
+
+
+a
+ full
+ attention
+ model.
+ Let's
+ say
+ that
+
+
+looks
+ at
+ the
+ full
+ attention.
+ So
+ it
+ looks
+
+
+at
+ the
+ whole
+ past
+ uh
+ essentially
+ uh
+
+
+which
+ is
+ what
+ we're
+ building
+ here
+ today.
+
+
+Or
+ you
+ can
+ have
+ a
+ windowed
+ model.
+ That's
+
+
+where
+ most
+ of
+ the
+ like
+ bigger
+ models
+
+
+that
+ are
+ out
+ right
+ now
+ that
+ only
+ look
+ up
+
+
+to
+ like
+ this
+ much
+ in
+ the
+ past.
+
+
+>> And
+ this
+ parameter
+ is
+ the
+ size
+ of
+ that
+
+
+window
+ that
+ Okay.
+
+
+>> Yes.
+ It's
+ what
+ we're
+ going
+ to
+ be
+ using
+
+
+to
+ train.
+ So
+ the
+ model
+ will
+ will
+ not
+
+
+have
+ seen
+ anything
+ greater
+ than
+ 256
+ 56
+
+
+tokens
+ in
+ sequence.
+ If
+ you
+ try
+ to
+ go
+
+
+above
+ that,
+ it
+ will
+ account
+ it
+ will
+ pass
+
+
+out.
+ It
+ will
+ have
+ issues.
+
+
+>> But
+ so
+ let's
+ say
+ we
+ have
+ like
+
+
+computational
+ capacity
+ to
+ increase
+ the
+
+
+number
+ of
+ parameters
+ to
+ make
+ the
+ help
+
+
+the
+ model
+ reason
+ better,
+ right?
+ Which
+
+
+number
+ would
+ you
+ crank
+ up
+ here
+ to
+ say
+
+
+it?
+ Like
+ would
+ you
+ increase
+ the
+ number
+
+
+of
+ layers,
+ attention
+ heads
+ or
+ u
+
+
+>> I
+ I
+ would
+ increase
+ all
+ of
+ the
+ all
+ all
+ of
+
+
+what
+ you
+ see
+ here
+ except
+ of
+ maybe
+ the
+
+
+the
+ embedding
+ uh
+ size
+ many
+ dimension.
+ I
+
+
+don't
+ remember
+ exactly
+ what
+ other
+ models
+
+
+do.
+ Uh
+ the
+ exact
+ numbers
+ I
+ think
+ that
+
+
+seems
+ reasonable
+ to
+ me.
+ Uh
+ but
+
+
+everything
+ else
+ like
+ works
+ well
+ for
+ like
+
+
+a
+ small
+ token
+ a
+ small
+ a
+ small
+ model.
+ Uh
+
+
+256
+ block
+ size
+ is
+ tiny.
+ Like
+ that's
+ if
+
+
+you
+ try
+ to
+ run
+ this
+ on
+ JGPT
+ like
+ it
+
+
+would
+ just
+ forget
+ things
+ that
+ you
+ wrote
+
+
+like
+ 10
+ sentences
+ before.
+ Uh
+ but
+
+
+the
+ the
+ bigger
+ you
+ make
+ this
+ the
+ harder
+
+
+it
+ is
+ to
+ do
+ the
+ training.
+ And
+ that's
+
+
+what
+ I
+ was
+ talking
+ about
+ scaling
+ laws
+ is
+
+
+that
+ you
+ can't
+ just
+ say
+ go
+ here
+ and
+ say
+
+
+okay
+ actually
+ I
+ don't
+ want
+ a
+ 256
+ I
+ want
+
+
+2
+ million
+ context
+ length.
+
+
+You
+ can't
+ train
+ this
+ like
+ that
+ at least
+
+
+with
+ this
+ current
+ architecture.
+ So
+
+
+that's
+ what
+ like
+ like
+ researchers
+ after
+
+
+like
+ GPD3.5
+ came
+ out,
+ they
+ were
+ like,
+
+
+"Okay,
+ people
+ are
+ complaining
+ that
+ we
+
+
+only
+ have
+ 16k
+ context
+ size.
+ We
+ want
+ 1
+
+
+million.
+ How
+ do
+ we
+ do
+ it?
+ You
+ can't
+ just
+
+
+change
+ this
+ number.
+ You
+ have
+ to
+ change
+
+
+the
+ architecture
+ to
+ allow
+ training
+ to
+ be
+
+
+able
+ just
+ going
+ to
+ go
+ like
+ out
+ of
+ memory
+
+
+like
+ instantly."
+ Uh
+ so
+ that's
+ like
+ one
+
+
+of
+ the
+ things
+ that
+ researchers
+ now
+ try
+
+
+to
+ to
+ to
+ figure
+ out
+ how
+ we're
+ going
+ to
+
+
+be
+ able
+ to
+ increase
+ these
+ numbers
+ here
+
+
+while
+ keeping
+ training
+ stable.
+
+
+um
+
+
+how
+ how
+ do
+ you
+ increase
+ the
+ numbers
+ here
+
+
+while
+ keeping
+ training
+ stable
+ and
+ still
+
+
+able
+ to
+ to
+ have
+ enough
+ compute
+ to
+ be
+
+
+able
+ to
+ do
+ this?
+ I
+ hope
+ this
+ answers
+
+
+your
+ question.
+
+
+Awesome.
+ Thank
+ you.
+
+
+Um
+ so
+ yeah,
+ the
+ first
+ thing
+ we
+ would
+
+
+have
+ to
+ do
+ is
+ as
+ I
+ mentioned
+ before
+ like
+
+
+create
+ the
+ the
+ top
+ level
+ representation
+
+
+of
+ our
+ model
+ that
+ you
+ can
+ see
+ here
+ as
+
+
+the
+ GPT
+ class.
+ uh
+ I'm
+ not
+ going
+ to
+ go
+
+
+again
+ to
+ too
+ too
+ much
+ into
+ the
+ details
+
+
+but
+ like
+ you
+ want
+ to
+ one
+ would
+ be
+ the
+
+
+embed
+ how
+ the
+ your
+ model
+ like
+
+
+understands
+ embeddings
+ and
+ also
+ how
+ does
+
+
+it
+ understand
+ embedding
+ position
+ uh
+ I
+
+
+don't
+ want
+ to
+ go
+ into
+ details
+ but
+
+
+essentially
+ you
+ need
+ the
+ tokens
+ need
+ to
+
+
+be
+ able
+ to
+ understand
+ both
+ u
+ then
+ you'd
+
+
+have
+ essentially
+ here
+ all
+ the
+ layers
+
+
+that
+ I
+ was
+ mentioning
+ earlier
+ and
+ each
+
+
+of
+ them
+ is
+ configured
+ as
+ as
+ a
+ block
+
+
+which
+ we're
+ going
+ to
+ go
+ up
+ the
+
+
+definition
+ of
+ block
+ late
+ uh
+ that's
+ a
+
+
+little
+ bit
+
+
+But
+ essentially
+ a
+ block
+ is
+ like
+ a
+ layer
+
+
+of
+ the
+ transformer
+ that
+ includes
+ its
+ own
+
+
+attention
+ and
+ uh
+ its
+ own
+ like
+ layer
+
+
+norms
+ and
+ it
+ continues
+ the
+ it
+ feeds
+ into
+
+
+each
+ other
+ the
+ the
+ one
+ you
+ do
+ the
+
+
+forward
+ pass bus
+
+
+and
+ lastly
+ you
+ have
+ the
+ LM
+ head
+ and
+
+
+essentially
+ the
+ LM
+ head
+ takes
+ all
+ the
+
+
+outputs
+ of
+ the
+ above
+ and
+ connects
+ them
+
+
+together
+ into
+ what
+ we
+ call
+ like
+ logits
+
+
+which
+ is
+ the
+ distribution
+ of
+ what
+ the
+
+
+the
+ next
+ uh
+ token
+ should
+ be
+ that
+ should
+
+
+be
+ generated
+ because
+ as
+ I
+ mentioned
+
+
+earlier
+ like
+ maybe
+ I
+ did
+ maybe
+ I
+ didn't
+
+
+but
+ the
+ way
+ transformers
+ work
+ is
+ that
+
+
+they
+ predict
+ next
+ token
+ so
+ you
+ take
+ the
+
+
+previous
+ the
+ previous
+ uh
+ context
+ you
+
+
+predict
+ the
+ next
+ token
+ and
+ you
+ have
+ to
+
+
+sample
+ this
+ token
+ on
+ on
+ on
+ this
+
+
+distribution
+
+
+and
+ the
+ LM
+ head
+ creates
+ this
+
+
+distribution
+ that
+ we
+ we
+ sample
+ from.
+
+
+Then
+ the
+ the the
+ next
+ important
+ bit
+ that
+
+
+uh
+ like
+ is
+ again
+ like
+ quite
+ quite
+
+
+straightforward
+ like
+ in
+ this
+ it's
+ quite
+
+
+similar
+ in
+ most
+ of
+ these
+ models
+ is
+ a
+
+
+forward
+ pass
+ uh
+ which
+ essentially
+ allows
+
+
+the
+ model
+ to
+
+
+um
+ to
+ go
+ to
+ to
+ take
+ the
+ input
+ which
+ is
+
+
+going
+ to
+ be
+ the
+ tokens
+ that
+ we
+ mentioned
+
+
+and
+ push
+ them
+ through
+ all
+ these
+
+
+different
+ components
+ that
+ that that
+ I
+
+
+mentioned
+ earlier
+
+
+uh
+ and
+ just
+ does
+ some
+ uh
+
+
+does
+ some
+ some
+ some
+ pre-processing,
+
+
+turns
+ tokens
+ into
+ embeddings
+ and
+
+
+positional
+ embeddings.
+ Uh,
+
+
+adds
+ them
+ together,
+ then
+ goes
+ through
+
+
+all
+ the
+ blocks
+ of
+ a
+ transformer,
+ all
+ the
+
+
+different
+ layers
+ of
+ the
+ transformer
+
+
+>> and
+ just
+ runs
+ the
+ the
+ forward
+ pass
+ of
+
+
+that
+ transformer
+
+
+and
+ then
+ does
+ the
+ linear
+ norms
+ and
+ then
+
+
+passes
+ through
+ the
+ LM
+ head
+ to
+ get
+ a
+
+
+distribution
+ of
+ those
+ logits
+ that
+ we
+
+
+mentioned
+ earlier.
+
+
+And
+ this
+ is
+ if
+ you're
+ doing
+ training.
+
+
+This
+ would
+ also
+ do
+ corresend
+ loss
+ um
+ in
+
+
+this
+ case.
+ And
+ then
+ at
+ the
+ end
+ you're
+
+
+going
+ to
+ get
+ logits
+ and
+ loss
+ as
+ the
+
+
+outputs
+ of
+ your
+ of
+ u
+ of
+ your
+ transform
+
+
+model.
+ And
+ I
+ do
+ have
+ some
+ diagrams
+ here
+
+
+that
+ you
+ can
+ see
+ uh
+ like
+ they're
+ quite
+
+
+they're
+ quite
+ basic
+ but
+ essentially
+ they
+
+
+show
+ the
+ flow
+ of
+ take
+ token
+ ids
+ you
+ pass
+
+
+them
+ make
+ them
+ into
+ embeddings
+ token
+
+
+embeddings
+ and
+ positional
+ embeddings.
+
+
+You
+ add
+ them
+ together,
+ you
+ pass
+ them
+ to
+
+
+the
+ transformer,
+ then
+ through
+ the
+ layer
+
+
+norm
+ that
+ just
+ makes
+ the
+ outputs
+ uh
+ in
+ a
+
+
+space
+ that
+ the
+ element
+ head
+ can
+
+
+comprehend
+ easier.
+ And
+ then
+ you
+ return
+
+
+this
+ distribution
+ of
+ like
+ what
+ the
+ next
+
+
+token
+ should
+ be
+ that
+ has
+ that
+ has
+ this
+
+
+uh
+ this
+ size.
+ And
+ as
+ I
+ mentioned
+ before
+
+
+like
+ 65
+ is
+ the
+ size
+ of
+ like
+ your
+ v
+ our
+
+
+vocab
+ or
+ our
+ our
+ token
+ size.
+
+
+And
+ now
+ self
+ attention
+ is
+ like
+ a
+ little
+
+
+bit
+ more
+ complicated.
+ I
+ don't
+ want
+ to
+
+
+again
+ to
+ go
+ too
+ deep
+ of
+ how
+ how
+ that
+
+
+works.
+ But
+ essentially
+ attention
+ is
+
+
+there
+ to
+ to
+ understand
+ the
+ relationships
+
+
+between
+ the
+ tokens.
+ Uh
+
+
+essentially
+ what
+ what
+ is
+ the
+ important
+
+
+like
+ if
+ I
+ say
+ the
+ sky
+ is
+ blue
+ and
+ sky
+
+
+have
+ a
+ a
+ very
+ big
+ correlation.
+ Uh
+ so
+
+
+that's
+ what
+ attention
+ does
+ based
+ on
+ how
+
+
+you've
+ trained
+ your
+ weights
+ you
+ will
+
+
+understand
+ what
+ tokens
+ should
+ be
+
+
+attending
+ to
+ each
+ other
+ and
+ put
+ higher
+
+
+emphasis
+ on
+ those
+ specific
+
+
+relationships.
+
+
+Now
+ again
+ going
+ back
+ to
+ what
+ I
+ was
+
+
+saying
+ before
+ about
+ the
+ what
+ that's
+ why
+
+
+the
+ tokenizer
+ matters
+ a
+ lot
+ because
+ sky
+
+
+and
+ blue
+ are
+ very
+ easy
+ tok
+ very
+ easy
+ for
+
+
+the
+ model
+ to
+ make
+ this
+ relationship
+
+
+while
+ in
+ our
+ case
+ you
+ have
+ to
+ like
+
+
+combine
+ different
+ groups
+ of
+ tokens
+
+
+together
+ the
+ different
+ characters
+
+
+together
+ that's
+ quite
+ a
+ bit
+ harder
+ but
+
+
+that's
+ that's
+ what
+ attention
+ does
+ it's
+
+
+it's
+ the
+ what
+ what
+ this
+ token
+ should
+ be
+
+
+attending
+ to
+ in
+ the
+ past
+ and
+ what
+ has
+
+
+most
+ importance
+ for
+
+
+And
+ it
+ has
+ also
+ a
+ forward
+ pass
+ as
+ all
+ of
+
+
+these
+ different
+ blocks
+ do.
+ And
+ in
+ your
+
+
+implementation
+ feel
+ free
+ to
+ just
+ copy
+
+
+paste
+ this
+ these
+ blocks.
+ Uh
+ maybe
+ you
+
+
+can
+ spend
+ some
+ more
+ time
+ on
+
+
+understanding
+ the
+ diagrams
+ and
+ and
+ how
+
+
+things
+ work.
+ Uh
+ but
+ as
+ you
+ can
+ see
+ even
+
+
+something
+ as
+ complicated
+ as
+ attention
+
+
+has
+ a
+ very
+ small
+ it's
+ just
+ a
+ few
+ lines
+
+
+of
+ code
+ to
+ to
+ implement.
+
+
+And
+ yeah
+ lastly
+ the
+ the
+ MLP
+ block
+ uh
+ is
+
+
+again
+ as
+ I
+ mentioned
+ earlier
+ also
+ like
+
+
+again
+ I
+ already
+ talked
+ about
+ the
+ multi
+
+
+head
+ attent
+ why
+ attention
+ has
+ multiple
+
+
+heads
+ because
+ each
+ head
+ attends
+ to
+
+
+different
+ parts
+ of
+ what
+ makes
+ language
+
+
+what
+ it
+ is
+ and
+ then
+ the
+ MLP
+ block
+ takes
+
+
+the
+ outputs
+ of
+ attention
+ and
+ and
+ makes
+
+
+sense
+ of
+ all
+ those
+ different
+
+
+relationships
+ into
+ something
+ that
+ the
+
+
+model
+ can
+ then
+ understand
+ a
+ bit
+ better
+
+
+which
+ again
+ is
+ just
+ essentially
+ just
+ a
+ a
+
+
+neural
+ network
+ that
+ just
+ combines
+ things
+
+
+into
+ something
+ that's
+ a
+ bit
+ more
+
+
+understandable.
+ able
+ for
+ the
+ LM
+ head
+ to
+
+
+then
+ be
+ able
+ to
+ to
+ generate
+ distribution
+
+
+for
+ logits.
+
+
+>> Yeah.
+ Yeah.
+ No,
+ you
+ can
+ interrupt.
+
+
+>> We
+ have
+ the
+ same
+
+
+transformer
+ blocks.
+
+
+>> Uh
+
+
+>> is
+ it
+ the
+ same
+ architecture
+
+
+between
+ the
+ different?
+
+
+>> No,
+ it's
+ each
+ block
+ has
+ its
+ own
+ weight.
+
+
+is
+ block
+ the
+ way
+ each
+ layer
+ essentially
+
+
+you'd
+ have
+ each
+ layer
+ that
+ would
+ call
+
+
+blocks.
+ Uh
+ they
+ usually
+ have
+ like
+ a
+
+
+different
+ section
+ for
+ a
+ different
+ prefix
+
+
+for
+ the
+ weights
+ of
+ like
+ MLP
+ would
+ be
+ a
+
+
+different
+ uh
+ like
+ maybe
+ usually
+ they're
+
+
+called
+ FFN
+ blocks
+ instead
+ of
+ MLP
+ but
+
+
+still
+ be
+ the
+ same.
+ So
+ each
+ block
+ has
+ its
+
+
+own
+ weights
+ and
+ uh
+ the
+ each
+ layer
+
+
+>> yes
+ each
+ block
+ has
+ its
+ own
+ MLP.
+ So
+ it's
+
+
+you
+ have
+ each
+ block
+ has
+ its
+ own
+ um
+ as
+
+
+you
+ can
+ see
+ here
+ its
+ own
+ attention
+ its
+
+
+own
+ uh
+ linear
+ linear
+ norms
+ and
+ its
+ own
+
+
+MLP.
+ That's
+ what
+ basically
+ makes
+ a
+ layer
+
+
+of
+ a
+ of
+ a
+ transformer
+
+
+and
+ that's
+ what
+ what
+ my
+ point
+ was
+ going
+
+
+to
+ be
+ later.
+ Everything
+ comes
+ together
+
+
+into
+ this
+ block
+ that
+ we
+ can
+ see
+ here
+
+
+which
+ is
+ basically
+ a
+ layer
+ of
+ a
+
+
+transformer
+ that
+ has
+ some
+ normalization
+
+
+running
+ the
+ attention
+ to
+ get
+ the
+
+
+relationship
+ between
+ the
+ models
+ and
+ then
+
+
+having
+ the
+ MLP
+ that
+ combines
+ the
+
+
+relationship
+ of
+ sorry
+ the
+ relationship
+
+
+between
+ tokens
+ and
+ then
+ the
+ MLP
+ that
+
+
+takes
+ those
+ relationships
+ and
+ turns
+ them
+
+
+into
+ like
+ a
+ representation
+ that's
+ easy
+
+
+for
+ the
+ model
+ to
+ uh
+ to
+ create
+ the
+ logits
+
+
+and
+ this
+ uh
+ oops
+
+
+This
+ is
+ what
+ I
+ was
+ showing.
+ Sorry,
+ I
+
+
+have
+ I
+ have
+ two
+ different
+ screens.
+ I
+
+
+shouldn't
+ be
+ doing
+ that.
+
+
+But
+ yes,
+ this
+ is
+ this
+ is
+ the
+ transformer
+
+
+block.
+ This
+ is
+ the
+ the
+ building
+ block
+
+
+essentially
+ of
+ of
+ a
+ transformer.
+ Uh
+ it
+
+
+has
+ a
+ layer
+ norm,
+ the
+ attention
+ and
+
+
+another
+ layer
+ norm.
+ Like
+ not
+ all
+ of
+ the
+
+
+models
+ have
+ this
+ this
+ kind
+ of
+
+
+configuration,
+ but
+ this
+ specific
+ one
+ has
+
+
+this.
+ And
+ then
+ the
+ MLP
+ that
+ takes
+
+
+everything
+ and
+ creates
+ it
+ into
+ a
+
+
+representation
+ that
+ makes
+ sense
+ for
+ us
+
+
+to
+ be
+ able
+ to
+ make
+ the
+ generations.
+
+
+And
+ uh
+ you
+ can
+ see
+ here
+ like
+ a
+ bit
+ more
+
+
+of
+ a
+ like
+ a
+ simple
+ diagram
+ of
+ how
+ this
+
+
+this
+ works.
+
+
+>> Yes.
+
+
+>> The
+ original
+ nano
+ GBT
+ had
+ the
+ residual
+
+
+connection
+ as
+ well.
+ Remember
+
+
+>> uh
+ so
+ the
+ residual
+ should
+ be
+ there.
+ Um,
+
+
+>> no,
+ no,
+ I
+ mean
+ on
+ the
+ on
+ carpet
+ np
+ did
+
+
+you
+ have
+ the
+
+
+>> I
+ don't
+ I
+ don't
+ remember
+ it's
+ been
+ a
+
+
+while
+ since
+ I
+
+
+>> Okay,
+
+
+>> like
+ I
+ I
+ had
+ the
+ idea
+ but
+ from
+ there
+ but
+
+
+I
+ paid
+ everything
+ from
+ scratch
+ so
+ I
+
+
+don't
+ I
+ don't
+ really
+ remember
+ if
+ you
+ did
+
+
+or
+ not.
+ uh
+ but
+ they
+ are
+ residual
+ as
+ you
+
+
+can
+ the
+ what
+ the
+ idea
+ of
+ residual
+ uh
+
+
+would
+ be
+ as
+ you
+ can
+ see
+ here
+ instead
+ of
+
+
+doing
+ x
+ equals
+ the
+ attention
+ you
+ do
+ x
+
+
+equals
+ x
+ plus
+ attention
+ so
+ you
+ you
+ get
+
+
+the
+ difference
+ the
+ the
+ the
+ values
+ of
+ the
+
+
+activations
+ don't
+ change
+ that
+ much.
+ Uh
+
+
+that's
+ the
+ idea
+ of
+ like
+ doing
+ the
+
+
+residuals.
+ Um
+
+
+uh
+ and
+ yeah
+ so
+ we
+ have
+ this
+ like
+ if
+ you
+
+
+wanted
+ to
+ implement
+ this
+ yourself
+ you
+
+
+can
+ copy
+ paste
+ all
+ these
+ different
+
+
+classes
+ into
+ one
+ file
+ that
+ you
+ can
+ call
+
+
+model
+ py
+
+
+and
+ this
+ is
+ essentially
+ all
+ the
+ maths
+ of
+
+
+how
+ the
+ transformers
+ works
+ um
+ and
+ as
+ I
+
+
+mentioned
+ before
+ then
+ we
+ have
+ to
+ decide
+
+
+how
+ big
+ the
+ transform
+ is
+ like
+ the
+
+
+parameter
+ count
+ that
+ you
+ can
+ see
+ here
+ uh
+
+
+is
+ just
+ a
+ 10
+ million
+ parameter
+ based
+ on
+
+
+what
+ I
+ was
+ showing
+ above
+
+
+uh
+ you
+ can
+ just
+ find
+ yourself
+ by
+ just
+
+
+summing
+ all
+ the
+ all
+ the
+ different
+
+
+parameters
+ of
+ all
+ the
+ different
+ parts
+ of
+
+
+the
+ different
+ blocks
+ that
+ we
+ had
+ above.
+
+
+Um
+ the
+ token
+ embeddings
+ is
+ 65
+ *
+ 384.
+ We
+
+
+said
+ this
+ is
+ the
+ vector
+ for
+ it
+
+
+embedding.
+ So
+ it's
+ 25k.
+ The
+ positional
+
+
+embeddings
+ is
+ 256.
+ 256
+ remember
+ is
+ the
+
+
+sequence
+ length,
+ the
+ max
+ sequence
+ length
+
+
+of
+ the
+ model.
+ So
+ that's
+ another
+ 98k
+
+
+parameters.
+ And
+ then
+ where
+ the
+ the
+
+
+biggest
+ part
+ of
+ the
+ logic
+ is
+ is
+ in
+ the
+
+
+actual
+ transformer
+ blocks
+ themselves
+
+
+where
+ most
+ of
+ the
+ parameters
+ live.
+ So
+
+
+you
+ have
+ um
+ you
+ have
+ 4x
+ uh
+ so
+ the
+ four
+
+
+there
+ comes
+ of
+ the
+ way
+ attention
+ works
+
+
+where
+ you
+ have
+ key
+ value
+ uh
+ key
+ query
+
+
+key
+ and
+ value
+ pair.
+ So
+ it's
+ it's
+ part
+ of
+
+
+the
+ potential
+ has
+ like
+ four
+ different
+
+
+parameters
+ for
+ for
+ um
+
+
+for
+ 384
+ which
+ is
+ the
+ amount
+ of
+ of
+ tokens
+
+
+times
+ the
+ relationships
+ between
+ those
+
+
+tokens.
+ So
+ 284
+ per
+ vector
+ times
+ 384.
+ So
+
+
+that's
+ 590
+ that
+ we
+ have
+ for
+ the
+ for
+ the
+
+
+attention
+ per
+ layer.
+ And
+ then
+ for
+ the
+
+
+MLP
+ you
+ have
+ again
+ the
+ similar
+ logic
+ of
+
+
+I'm
+ don't
+ remember
+ what
+ this
+ 1,536
+ is
+ uh
+
+
+but
+ uh
+ yeah
+ in
+ the
+ end
+ it
+ turns
+ out
+ into
+
+
+being
+ 1.2
+ million.
+ So
+ total
+ amount
+ of
+
+
+parameter
+ size
+ we're
+ going to
+ be
+
+
+training
+ is
+ going
+ to
+ be
+ 1.8
+ million
+
+
+parameters
+ which
+ should
+ be
+ good
+ for
+
+
+which
+ should
+ be
+ easy
+ to
+ train
+ for
+ like
+
+
+most
+ devices.
+
+
+Uh
+ so
+ yeah
+ you
+ can
+ go
+ back
+ to
+ this.
+ It
+
+
+has
+ a
+ lot
+ of
+ details
+ that
+ that
+ makes
+ um
+
+
+that
+ will
+ that
+ will
+ make
+ sense
+ for
+ you
+
+
+to
+ go
+ back
+ and
+ understand
+ a
+ bit
+ deeper,
+
+
+do
+ your
+ own
+ research
+ on
+ on
+ this.
+ But
+
+
+this
+ is
+ like
+ the
+ general
+ like
+ very
+ very
+
+
+high
+ level
+ idea
+ of
+ how
+ these
+
+
+transformers
+ work.
+
+
+And
+ uh
+ we're
+ going
+ to
+ go
+ now
+ to
+ the
+ the
+
+
+training
+ loop
+
+
+and
+ that's
+ where
+ most
+ of
+ the
+ meat
+ of
+
+
+this
+ project
+ is
+ going
+ to
+ be.
+ um
+ where
+ we
+
+
+have
+ this
+ this
+ transformer
+ uh
+ how
+ we're
+
+
+going
+ to
+ train
+ it
+ into
+ do
+ what
+ we
+ want
+
+
+to
+ do.
+ The
+ objective
+ of
+ this
+ training
+
+
+we're
+ going
+ to
+ be
+ working
+ today
+ is
+
+
+something
+ that
+ one
+ has
+ to
+ be
+ very
+ easily
+
+
+recognizable
+ uh
+ that
+ you
+ know
+ when
+ the
+
+
+model
+ starts
+ working
+ and
+ gro
+ which
+ means
+
+
+that
+ it
+ it
+ understood
+ what
+ it's
+ trying
+
+
+to
+ do.
+ It's
+ going
+ to
+ be
+ very
+ easy
+ to
+
+
+understand
+ that
+ the
+ model
+ actually
+
+
+works.
+ Now
+ uh
+ and
+ second
+ it
+ should
+ be
+
+
+something
+ that's
+ like
+ quite
+ easy
+ for
+ the
+
+
+model
+ to
+ learn.
+ If
+ you
+ teach
+ the
+ model
+
+
+how
+ to
+ to
+ write
+ Python
+ like
+ a
+
+
+competitive
+ programming
+ for
+ you,
+ then
+
+
+yeah,
+ that's
+ a
+ that's
+ that's
+ a
+ that's
+ a
+
+
+very
+ hard
+ task.
+ So,
+ we're
+ not
+ going
+ to
+
+
+be
+ able
+ to
+ do
+ it
+ here.
+ But
+ in
+ in
+ our
+
+
+case,
+ like
+ the
+ the
+ objective
+ is
+ going
+ to
+
+
+be
+ to
+ create
+ a
+ Shakespeareian
+ like
+ LLM
+
+
+that
+ can
+ create
+ uh
+
+
+verses
+ from
+ from
+ sex.
+
+
+Um
+
+
+and
+ as
+ we
+ mentioned
+ before
+ the
+ these
+
+
+models
+ like
+ are
+ learning
+ as
+ next
+
+
+prediction.
+ So
+
+
+the
+ way
+ that
+ cross
+ entropy
+ works
+ is
+ that
+
+
+you
+ take
+ your
+ current
+ the
+ current
+ tokens
+
+
+that
+ you
+ want
+ to
+ train
+ in
+ this
+ case
+
+
+let's
+ say
+ that
+ is
+ t0
+ t1
+ to
+ tn
+ and
+ then
+
+
+you
+ want
+ to
+ predict
+ t1
+ t2
+ to
+ t+1
+ tn
+ plus
+
+
+one
+ uh
+ so
+ the
+ way
+ this
+ cross
+ entropy
+
+
+works
+ is
+ that
+ you
+ take
+ your
+ sequence
+ and
+
+
+you
+ just
+ offset
+ it
+ by
+ one
+ as
+ like
+ what
+
+
+the
+ model
+ needs
+ to
+ learn
+ what
+ to
+
+
+calculate
+ and
+ of
+ course
+ the
+ last
+ one
+ you
+
+
+don't
+ have
+ it
+ so
+ you
+ have
+ to
+ like
+ cut
+ it
+
+
+uh
+ and
+ then
+ the
+ model
+ learns
+ how
+ to
+
+
+predict
+ the
+ next
+ token
+ based
+ on
+ based
+ on
+
+
+this
+ logic.
+
+
+Uh
+ now
+ for
+ the
+ actual
+ training
+ code
+
+
+itself
+
+
+um
+ first
+ we
+ need
+ to
+ load
+ the
+ data
+ and
+ we
+
+
+have
+ this
+ function
+ that
+ that
+ loads
+ the
+
+
+data.
+ The
+ data
+ is
+ already
+ in
+ the
+ uh
+ repo
+
+
+itself.
+ It's
+ in
+ this
+ data
+ directory.
+
+
+It's
+ a
+ it's
+ a
+ collection
+ of
+ different
+ u
+
+
+different
+ uh
+ like
+ lines
+ and
+ verses
+ from
+
+
+from
+ sexier.
+ It's
+ it's
+ about
+ 1
+ million
+
+
+tokens
+ or
+ a
+ million
+ characters.
+
+
+And
+ we
+ first
+ load
+ the
+ data.
+ The
+ data
+
+
+loading
+ is
+ is
+ is
+ very
+ simple,
+ too
+
+
+simple.
+ So
+ that's
+ one
+ of
+ the
+ things
+ that
+
+
+I
+ think
+ you
+ can
+ optimize.
+ uh
+ essentially
+
+
+just
+ takes
+ all
+ the
+ tokens
+ uh
+ splits
+ into
+
+
+a
+ validation
+ and
+ a
+ and
+ a
+ training
+ set
+
+
+and
+ then
+ just
+ essentially
+ suffers
+ it
+ and
+
+
+takes
+
+
+part
+ uh
+ 256
+ batches
+ uh
+ of
+ sequences
+ of
+
+
+uh
+ of
+ of of
+ tokens
+ that
+ are
+ that
+ from
+
+
+from
+ the
+ text
+ itself
+ and
+ uh
+
+
+and
+ just
+ essentially
+ use
+ it
+ for
+
+
+training.
+ But
+ size
+ is
+ going
+ to
+ be
+ 64.
+ So
+
+
+it
+ takes
+ 256
+
+
+uh
+ token
+ sequences,
+ 64
+ of
+ them,
+ stacks
+
+
+them
+ together
+ and
+ passes
+ it
+ the
+ model
+ to
+
+
+to
+ to
+ teach
+ it
+ how
+ to
+ do
+ how
+ to
+ train.
+
+
+So
+ a
+ very
+ simple
+ data
+ loader
+ usually
+
+
+these
+ data
+ loaders
+ are
+ can
+ be
+ quite
+
+
+complex
+ uh
+ because
+ of
+ course
+ like
+ if
+ you
+
+
+have
+ especially
+ when
+ you
+ have
+ higher
+
+
+context
+ lengths
+ like
+ the
+ way
+ you
+ load
+
+
+data
+ is
+ like
+ a
+ very
+ big
+ part
+ of
+ how
+ the
+
+
+model
+ like
+ needs
+ to
+ learn.
+ But
+ in
+ our
+
+
+case
+ we
+ have
+ a
+ very
+ very
+ simple
+
+
+implementation.
+
+
+Uh
+ next
+ up
+ is
+ the
+ way
+ that
+ this
+ how
+ the
+
+
+code
+ works
+ for
+ um
+
+
+we
+ need
+ to
+ to
+ use
+ a
+ device.
+ Uh
+ this
+ code
+
+
+works
+ for
+ MPS,
+ it
+ works
+ for
+ CUDA
+ and
+ it
+
+
+works
+ for
+ CPU.
+ Depends
+ what
+ your
+ your
+
+
+laptop
+ supports
+ or
+ like
+ if
+ you
+ run
+
+
+things
+ on
+ Google
+ Collab.
+ Uh
+ like
+ if
+ you
+
+
+run
+ Google
+ Collab
+ it
+ will
+ detect
+ CUDA
+
+
+and
+ that
+ will
+ be
+ quite
+ fast.
+ NPS
+ is
+ also
+
+
+quite
+ fast.
+ CPU
+ would
+ be
+ the
+ slowest
+ but
+
+
+that's
+ like
+ a
+ that
+ still
+ would
+ work
+
+
+decently
+ well.
+
+
+Uh
+ next
+ up
+ is
+ the
+ learning
+ the
+ learning
+
+
+rate
+ and
+ that's
+ like
+ a
+ big
+ part
+ of
+ how
+
+
+the
+ the
+ models
+ are
+ able
+ to
+ learn.
+ Uh
+ the
+
+
+way
+ the
+ models
+ work
+ is
+ that
+ you
+ first
+
+
+start
+ generally
+ with
+ as
+ high
+ of
+ a
+
+
+learning
+ rate
+ as
+ as
+ you
+ can
+ as
+ you
+ can
+
+
+afford
+ without
+ making
+ the
+ model
+ become
+
+
+unstable.
+
+
+So
+ it
+ basically
+ makes
+ you
+ go
+ crazy.
+ Uh
+
+
+and
+ the
+ way
+ it
+ works,
+ you
+ start
+ at
+ a
+
+
+very
+ high
+ learning
+ rate,
+ which
+ is
+
+
+essentially
+ the
+ the
+ amount
+ of
+ the
+ model
+
+
+is
+ able
+ to
+ learn
+ per
+ step,
+ how
+ much
+ the
+
+
+mo
+ the
+ weights
+ need
+ to
+ move
+ into
+ the
+
+
+direction
+ that
+ you
+ want.
+ If
+ you
+ have
+
+
+very
+ high
+ learning
+ rate,
+ you
+ would
+
+
+offset
+ your
+ target
+ so
+ it
+ can
+ go
+ off
+ the
+
+
+rails
+ very
+ fast
+ your
+ model.
+ So
+ you
+ want
+
+
+to
+ use
+ a
+ very
+ appropriate
+ learning
+ rate
+
+
+um
+ for
+ your
+ model
+ to
+ be
+ able
+ to
+ train
+
+
+well.
+ And
+ usually
+ you
+ have
+ this
+ this
+
+
+concept
+ of
+ a
+ warm-up
+ where
+ you
+ start
+
+
+with
+ a
+ very
+ small
+ learning
+ rate
+ so
+ that
+
+
+all
+ your
+ optimizations
+
+
+the
+ model
+ weights
+ are
+ able
+ to
+ to
+ to
+
+
+stick
+ to
+ places
+ that
+ are
+ uh
+ that
+ again
+
+
+that
+ they
+ don't
+ go
+ into
+ like
+ they
+ can
+
+
+they
+ can
+ start
+ in
+ places
+ that
+ are
+
+
+appropriate
+ for
+ the
+ training
+ to
+ begin.
+
+
+So
+ you
+ start
+ at
+ very
+ low
+ learning
+ rate
+
+
+increase
+ it
+ slightly
+ until
+ you
+ reach
+ the
+
+
+peak
+ and
+ then
+ at
+ the
+ peak
+ you
+ continue
+
+
+you
+ start
+ reducing
+ the
+ learning
+ rate.
+
+
+That's
+ what
+ we
+ call
+ weight
+ decay.
+ um
+ and
+
+
+until
+ you
+ reach
+ the
+ point
+ that
+ you're
+
+
+you're
+ satisfied
+ with
+ it.
+ Some
+ people
+
+
+for
+ some
+ people
+ this
+ is
+ zero
+ like
+ I
+
+
+prefer
+ to
+ not
+ go
+ to
+ zero
+ because
+ then
+
+
+it's
+ hard
+ to
+ restart
+ the
+ training
+ but
+
+
+that's
+ the
+ idea.
+ You
+ want
+ the
+ learning
+
+
+rate
+ to
+ be
+ less
+ when
+ the
+ model
+ is
+ like
+
+
+close
+ to
+ being
+ perfect
+ so
+ small
+ you
+ you
+
+
+want
+ it
+ to
+ start
+ with
+ very
+ big
+ changes
+
+
+to
+ find
+ like
+ good
+ local
+ minima
+ global
+
+
+minima
+ and
+ then
+ it
+ for
+ it
+ to
+ calibrate
+
+
+as
+ training
+ goes
+ goes
+ further.
+
+
+Um,
+ so
+ we'll
+ start
+ with
+ like
+ a
+ small
+
+
+warm
+ up
+ of
+ our
+ 100
+ steps
+ and
+ then
+ we're
+
+
+going
+ to
+ use
+ a
+ cosine
+ decay
+ until
+ the
+
+
+max
+ steps
+ that
+ we're
+ going
+ to
+ in
+ this
+
+
+case
+ is
+ going
+ to
+ be
+ 5,000.
+ So
+ we're
+
+
+going
+ to
+ start
+ from
+ like
+ very
+ low
+ pick
+
+
+at
+ 100
+ steps
+ and
+ then
+ start
+ going
+ down
+
+
+down
+ to
+ u
+ to
+ 5,000
+ steps.
+ And
+ that's
+
+
+what
+ the
+ AdamW
+ normalizer
+ does.
+ Okay,
+
+
+it's
+ essentially
+ allows
+ this
+ um
+
+
+the
+ this
+ concept
+ of
+ like
+ controlling
+ the
+
+
+learning
+ rate
+ um
+ using
+ this
+ cosine
+ decay
+
+
+and
+ that's
+ the
+ most
+ common
+ normalizer
+
+
+people
+ use
+ at least
+ used
+ to
+ use.
+ Now
+
+
+there's
+ better
+ normalizers
+ but
+ this
+ is
+
+
+the
+ most
+ simple
+ to
+ to
+ start
+ with
+
+
+and
+ here's
+ how
+ the
+ full
+ training
+ loop
+
+
+would
+ look
+ like.
+ again
+ like
+ not
+ not
+ not
+
+
+that
+ much
+ code.
+ You
+ just
+
+
+uh
+ initialize
+ your
+ config
+
+
+like
+ in
+ this
+ case
+ it
+ would
+ be
+ like
+ six
+
+
+uh
+ six
+ layers,
+ six
+ attention
+ heads,
+ 384
+
+
+embedding
+ size
+ and
+ then
+ 256
+ that's
+ the
+
+
+sequence
+ length.
+
+
+uh
+ you
+ initialize
+ your
+ model
+
+
+and
+ then
+ you
+ create
+ your
+ um
+ you
+ you
+
+
+start
+ your
+ optimizer,
+ you
+ start
+ your
+
+
+steps.
+ TQDM
+ helps
+ with
+ like
+ tracking
+
+
+like
+ the
+ losses
+ and
+ all
+ that
+ kind
+ of
+
+
+stuff.
+ You
+ want
+ your
+ loss
+ to
+ start
+ high
+
+
+and
+ then
+ keep
+ going
+ down
+ until
+ you
+ reach
+
+
+levels
+ that
+ are
+ acceptable.
+
+
+Um
+ and
+ then
+ another
+ important
+ part
+ is
+
+
+evaluations
+ to
+ make
+ sure
+ that
+ your
+ model
+
+
+actually
+ works
+ well.
+ That's
+ what
+ the
+ val
+
+
+loss
+ is
+ here.
+
+
+So
+
+
+it's
+ very
+ easy
+ for
+ models
+ to
+ like
+
+
+overfit
+ especially
+ like
+ this
+ this
+ this
+
+
+small
+ models
+ because
+ you
+ don't
+ have
+ that
+
+
+much
+ data.
+ So
+ the
+ loss
+ might
+ keep
+ going
+
+
+down
+ which
+ means
+ that
+ the
+ what
+ the
+ model
+
+
+predicts
+ and
+ what
+ the
+ training
+ data
+ is
+
+
+are
+ very
+ similar.
+ So
+ your
+ loss
+ can
+ keep
+
+
+going
+ down
+ a
+ lot.
+ Uh
+ but
+ actually
+ at
+ one
+
+
+point
+ maybe
+ your
+ model
+ actually
+ overfits
+
+
+in
+ this
+ case
+ and
+ when
+ it
+ overfits
+ even
+
+
+though
+ the
+ loss
+ goes
+ down
+ actually
+ the
+
+
+performance
+ of
+ the
+ model
+ is
+ worse.
+
+
+That's
+ why
+ we
+ have
+ this
+ val
+ loss
+ which
+
+
+is
+ a
+ is
+ a
+ part
+ of
+ the
+ data
+ the
+ model
+ has
+
+
+never
+ seen
+ and
+ we
+ run
+ a
+ forward
+ pass
+ to
+
+
+get
+ the
+ loss
+ of
+ that
+ specific
+ part
+ of
+
+
+the
+ data
+ set
+ and
+ if
+ this
+ is
+ very
+ low
+ it
+
+
+means
+ the
+ model
+ can
+ is
+ is
+ performing
+
+
+well
+ because
+ the
+ model
+ has
+ never
+ seen
+
+
+this
+ this
+ data
+ so
+ it
+ can't
+ memorize
+
+
+things
+ it
+ had
+ never
+ seen.
+
+
+So
+ that's
+ that's
+ what
+ we
+ have
+ here
+ with
+
+
+a
+ val
+ loss
+
+
+and
+ uh
+
+
+I'm
+ not
+ going
+ to
+ explain
+ the
+ concept
+ of
+
+
+of
+ of
+ of
+
+
+backwards
+ losses
+ but
+ essentially
+ that's
+
+
+the
+ way
+ the
+ model
+ the
+ model
+ weights
+ move
+
+
+towards
+ the
+ direction
+ of
+ being
+
+
+optimized.
+ Uh
+ so
+ for
+ for
+ each
+ step
+ we
+
+
+have
+ a
+ b
+ size
+ of
+ in
+ our
+ case
+ 256
+
+
+um
+ 256
+ tokens
+ but
+ size
+ 64.
+ So
+ we
+ push
+
+
+this
+ matrix
+ through
+ our
+ model
+ and
+ then
+
+
+it
+ learns
+ and
+ then
+ the
+ optimizer
+ does
+ an
+
+
+extra
+ step
+ and
+ now
+ the
+ learning
+ rates
+
+
+are
+ adjusted
+ depending
+ on
+ what
+ the
+ steps
+
+
+you're
+ in
+ right
+ now.
+ And
+ lastly
+ just
+ to
+
+
+have
+ an
+ extra
+ way
+ of
+ uh
+ every
+ every
+
+
+10,00
+ steps
+ you
+ save
+ your
+ checkpoint
+ to
+
+
+be
+ able
+ to
+ restart
+ your
+ training
+ if
+ you
+
+
+need
+ it
+ from
+ that
+ point.
+ And
+ we're
+ also
+
+
+running
+ uh
+ inference
+ on
+ the
+ current
+
+
+checkpoint
+ to
+ see
+ what
+ the
+ model
+
+
+actually
+ predicts
+ at
+ this
+ point.
+ Uh
+ so
+
+
+what
+ we're
+ going
+ to
+ start
+ seeing
+ is
+
+
+when
+ we
+ start
+ from
+ from
+ the
+ beginning
+
+
+because
+ this
+ is
+ a
+ model
+ that
+ we
+ train
+
+
+from
+ scratch
+ the
+ loss
+ is
+ going
+ to
+ be
+
+
+essentially
+ random
+ and
+ in
+ that
+ case
+ that
+
+
+will
+ be
+ natural
+ log
+ of
+ 65.
+ So
+ it
+ will
+
+
+start
+ at
+ around
+ 4.17.
+
+
+Uh
+ that
+ basically
+ means
+ the
+ model
+ like
+
+
+knows
+ nothing.
+ It
+ has
+ no
+ clue
+ of
+ what
+
+
+this
+ data
+ is.
+ Uh
+ and
+ slowly
+ we're
+ going
+
+
+to
+ start
+ seeing
+ the
+ loss
+ going
+ down
+ to
+
+
+3.3.
+ That's
+ when
+ the
+ model
+ is
+ going
+ to
+
+
+understand
+ character
+ frequencies.
+ Uh
+ it
+
+
+will
+ still
+ not
+ be
+ able
+ to
+ do
+ words
+ yet
+
+
+but
+ it
+ might
+ understand
+ things
+ like
+ th
+
+
+as
+ part
+ of
+ the
+ which
+ is
+ a
+ common
+ word
+
+
+like
+ th
+ is
+ going
+ to
+ be
+ part
+ of
+ the
+
+
+things
+ that
+ it
+ start
+ generating.
+ Then
+ at
+
+
+around
+ 2.5
+ it's
+ going
+ to
+ it
+ was
+ going
+ to
+
+
+get
+ a
+ little
+ bit
+ better
+ about
+ this
+ th
+
+
+and
+ then
+ it
+ will
+ understand
+ the
+ word
+ in
+
+
+and
+ stuff
+ like
+ that.
+ Then
+ at
+ about
+ 1.5
+
+
+to
+ two
+ losses
+ it
+ will
+ start
+ actually
+
+
+creating
+ words
+ and
+ then
+ at
+ around
+ one
+
+
+1.0
+ to
+ 1.2
+ to
+ that's
+ when
+ the
+ model
+ is
+
+
+going
+ to
+ start
+ being
+ decent
+ at
+ at
+ this
+
+
+task.
+ You
+ will
+ actually
+ be
+ able
+ to
+
+
+understand
+ names
+ from
+ the
+ text.
+ It
+ will
+
+
+start
+ creating
+ things
+ that
+ start
+ making
+
+
+sense.
+ But
+ then
+ when
+ the
+ loss
+ starts
+
+
+going
+ below
+ 1.0
+ for
+ this
+ specific
+ data
+
+
+set,
+ that's
+ where
+ we're
+ going
+ to
+ start
+
+
+seeing
+ overfitting.
+ The
+ model
+ will
+ still
+
+
+be
+ like
+ producing
+ like
+ reasonable
+
+
+things,
+ but
+ it
+ will
+ no
+ longer
+ start
+ be
+
+
+getting
+ better
+ at
+ it.
+ Uh
+ this
+ is
+ like
+ an
+
+
+example
+ at
+ 200
+ steps
+ when
+ I
+ was
+ testing
+
+
+this.
+ uh
+ it
+ was
+ just
+ producing
+ like
+
+
+complete
+ nonsense.
+
+
+Uh
+ then
+ the
+ val
+ loss
+ was
+ around
+ 3.5.
+
+
+Uh
+ then
+ at
+ about
+ 800
+ steps
+ it
+ started
+
+
+producing
+ like
+ decent
+ things.
+ Still
+ not
+
+
+not
+ not
+ great
+ things
+ but
+ it
+ was
+ it
+ was
+
+
+starting
+ to
+ get
+ there
+ and
+ at
+ 1,000
+ steps
+
+
+it
+ got
+ better
+ and
+ there
+ was
+ one
+ point
+
+
+that
+ the
+ valos
+ actually
+ started
+
+
+increasing
+ instead
+ of
+ decreasing
+ and
+
+
+that's
+ where
+ we
+ know
+ the
+ model
+ over
+ fit.
+
+
+So
+ at
+ around
+ two
+ 2,400
+ steps
+ is
+ where
+
+
+the
+ that
+ was
+ the
+ optimal
+ performance
+ of
+
+
+this
+ model.
+ And
+ then
+ if
+ we
+ kept
+ going
+
+
+the
+ the
+ performance
+ was
+ actually
+ maybe
+
+
+not
+ decreasing
+ but
+ the
+ model
+ start
+
+
+becoming
+ less
+ creative.
+
+
+So
+ that's
+ one
+ of
+ the
+ things
+ to
+ to
+ keep
+
+
+in
+ mind.
+ Now
+ Valos
+ is
+ like
+ not
+ the
+ best
+
+
+metric
+ like
+ if
+ you're
+ actually
+ being
+
+
+serious
+ about
+ turning
+ LLMs
+ usually
+ you
+
+
+might
+ have
+ like
+ some
+ benchmarks
+ that
+ are
+
+
+running
+ as
+ part
+ of
+ your
+ training
+ and
+ you
+
+
+can
+ see
+ like
+ if
+ the
+ benchmarks
+ are
+
+
+getting
+ worse
+ or
+ not.
+ Uh
+ but
+ for
+ us
+
+
+that's
+ like
+ a
+ very
+ easy
+ and
+ cheap
+ way
+ of
+
+
+like
+ understanding
+ how
+ the
+ model
+ is
+
+
+doing.
+
+
+Um
+
+
+so
+ yeah
+ that
+ what
+ um
+ next
+ steps
+ now
+ like
+
+
+u
+ would
+ be
+ to
+ actually
+ train
+ this
+ model
+
+
+yourself.
+ Um
+
+
+considering
+ the
+ internet
+ is
+ not
+ very
+
+
+good
+ I
+ would
+ suggest
+ probably
+ using
+
+
+Google
+ collab
+ for
+ this.
+
+
+Um
+ you
+ can
+ you
+ can
+ copy
+ paste
+ stuff
+ from
+
+
+from
+ from
+ from
+ here
+ you
+ can
+ glue
+ things
+
+
+together.
+ uh
+ copy
+ pasting
+ will
+ probably
+
+
+like
+ allow
+ you
+ to
+ get
+ 90%
+ there.
+ There's
+
+
+a
+ lot
+ of
+ room
+ from
+ for
+ uh
+ improvement
+
+
+for
+ what
+ I
+ written
+ here
+ like
+ on
+ purpose
+
+
+I
+ made
+ like
+ super
+ simple
+ and
+ there
+ are
+
+
+things
+ that
+ you
+ can
+ improve
+ yourselves.
+
+
+Uh
+ but
+ the
+ idea
+ is
+ to
+ um
+ to
+ get
+
+
+something
+ working.
+ I
+ hope
+ everybody
+ will
+
+
+be
+ able
+ to
+ get
+ something
+ working
+ if
+ if
+
+
+you're
+ interested
+ into
+ into
+ working
+ on
+
+
+this
+ and
+ have
+ something
+ that
+ starting
+
+
+from
+ nothing
+ and
+ getting
+ like
+ a
+ model
+
+
+that
+ can
+ actually
+ produce
+ like
+ a
+ result
+
+
+that
+ seems
+ reasonable.
+ Um
+ after
+ we
+ have
+
+
+trained
+ a
+ model,
+ the
+ next
+ part
+ is
+ text
+
+
+generation
+ which
+ is
+ like
+ the
+ inference
+
+
+side
+ of
+ things.
+ Uh
+ we're
+ just
+ going
+ to
+
+
+be
+ using
+ uh
+ there's
+ multiple
+ ways
+ to
+ to
+
+
+do
+ to
+ do
+ inference.
+ One
+ way
+ is
+ like
+
+
+greedy
+ decoding
+ which
+ I
+ was
+ mentioning
+
+
+earlier.
+ you
+ have
+ all
+ the
+ logits
+ which
+
+
+is
+ just
+ a
+ distribution
+ of
+ tokens
+ and
+ you
+
+
+just
+ take
+ the
+ most
+ likely
+ token
+ and
+
+
+that's
+ what
+ deg
+ coding
+ means.
+ Uh
+ so
+
+
+let's
+ say
+ that
+ you
+ have
+ like
+ your
+ the
+
+
+token
+ T
+ and
+ the
+ token
+ H
+ are
+ are
+ both
+ in
+
+
+the
+ distribution.
+ One
+ has
+ like
+ 80%
+
+
+probability
+ the
+ other
+ one
+ has
+ like
+ 15%
+
+
+probability.
+ You
+ always
+ be
+ taking
+ the
+
+
+the
+ top
+ the
+ top
+ one.
+ Uh
+
+
+that's
+ grid
+ decoding.
+ Grid
+ decoding
+
+
+doesn't
+ work
+ very
+ well
+ for
+ LM.
+ It
+ can
+
+
+work
+ well
+ for
+ other
+ models,
+ but
+ for
+ LMS
+
+
+like
+ this
+ essentially
+ makes
+ them
+ very
+
+
+boring
+ and
+ not
+ very
+ creative
+ in
+ what
+
+
+they
+ generate.
+ So
+ you
+ pretty
+ much
+ never
+
+
+want
+ to
+ use
+ grid
+ decoding
+ for
+ LMS.
+ You
+
+
+would
+ want
+ to
+ use
+ it
+ for
+ for
+ other
+ um
+
+
+models
+ like
+ transcription
+ for
+ example,
+
+
+grid
+ decoding
+ is
+ the
+ best
+ because
+
+
+there's
+ usually
+ like
+ only
+ one
+ way
+ you
+
+
+can
+ you
+ can
+ transcribe
+ something.
+ You
+
+
+don't
+ want
+ it
+ to
+ be
+ creative
+ in
+
+
+transcription.
+ That's
+ that's
+ not
+ a
+ good
+
+
+idea.
+ Um
+ so
+ that's
+ what
+ grid
+ decoding
+
+
+is.
+ In
+ our
+ case,
+ we're
+ not
+ going
+ to
+ use
+
+
+that.
+ we're
+ going
+ to
+ use
+ temperature.
+ So
+
+
+essentially
+ what
+ temperature
+ is
+ is
+ that
+
+
+you're
+ not
+ always
+ choosing
+ the
+ highest
+
+
+probability
+ token.
+ Sometimes
+ you
+ might
+
+
+choose
+ the
+ second
+ highest
+ prob
+
+
+probability
+ token
+ or
+ like
+ the
+ third
+
+
+highest.
+ And
+ uh
+ even
+ though
+ it
+ doesn't
+
+
+make
+ sense,
+ why
+ would
+ you
+ choose
+ like
+ a
+
+
+worse
+ token
+ for
+ this
+ situation?
+ It
+ has
+
+
+proven
+ that
+ this
+ actually
+ makes
+ the
+
+
+model
+ perform
+ better.
+ Uh
+
+
+it
+ like
+ sometimes
+ it
+ might
+ like
+ go
+ into
+
+
+like
+ this
+ weird
+ loop.
+ So
+ there
+ are
+ like
+
+
+techniques
+ you
+ can
+ make
+ sure
+ that
+ it
+
+
+doesn't
+ go
+ like
+ crazy
+ by
+ generating
+ some
+
+
+nonsense.
+ Uh
+ the
+ worst
+ thing
+ is
+ if
+ if
+ it
+
+
+predicts
+ like
+ an
+ end
+ of
+ transcript
+ token
+
+
+and
+ end
+ of
+ a
+ text
+ token
+ and
+ then
+ just
+
+
+like
+ stops
+ the
+ generation
+ which
+ maybe
+
+
+you
+ have
+ seen
+ sometimes
+ when
+ using
+ CHP
+
+
+where
+ suddenly
+ just
+ like
+ stops
+ for
+ no
+
+
+reason.
+ Uh
+ you
+ sometimes
+ is
+ because
+ of
+
+
+that.
+ But
+ there
+ are
+ ways
+ you
+ can
+ you
+ can
+
+
+you
+ can
+ um
+ prevent
+ this.
+
+
+um
+ generally
+ like
+ a
+ 0.7
+ uh
+ temperature
+
+
+is
+ like
+ the
+ best
+ the
+ best
+ middle
+ ground
+
+
+to
+ make
+ inference
+ work
+ well.
+ And
+ then
+
+
+you
+ have
+ top
+ case
+ sampling
+ uh
+ which
+ is
+
+
+essentially
+ like
+ it
+ prevents
+ the
+ model
+
+
+for
+ if
+ you
+ have
+ like
+ let's
+ say
+ five
+
+
+tokens
+ are
+ very
+ likely
+ and
+ then
+ the
+
+
+sixth
+ token
+ is
+ like
+ completely
+ unlikely.
+
+
+top
+ case
+ sampling
+ prevents
+ the
+ model
+
+
+from
+ predicting
+ this
+ s
+ six
+ very
+ unlikely
+
+
+token
+ even
+ though
+ the
+ temperature
+ might
+
+
+you
+ might
+ get
+ unlucky
+ and
+ the
+
+
+temperature
+ might
+ hit
+ it.
+ Um
+ so
+ that's
+
+
+what
+ top
+ cape
+ sampling
+ does
+ and
+ this
+ is
+
+
+like
+ our
+ inference
+ function
+ is
+ like
+ it's
+
+
+very
+ straightforward.
+ It
+ just
+ does
+ it
+
+
+just
+ runs
+ uh
+ takes
+ all
+ the
+ tokens
+ as
+ the
+
+
+input
+ passes
+ it
+ through
+ the
+ model
+ takes
+
+
+the
+ the
+ logits
+ out
+ of
+ the
+ model
+ and
+ runs
+
+
+uh
+ soft
+ this
+ what
+ they
+ was
+ describing
+
+
+before
+ is
+ called
+ softmax.
+ It
+ takes
+ using
+
+
+the
+ temperature
+ the
+ probabilities
+ and
+
+
+then
+ uh
+ it
+ it
+ decides
+ what
+ the
+ the
+ next
+
+
+login
+ should
+ be
+ based
+ on
+ on
+ those
+
+
+probabilities.
+
+
+Um
+
+
+and
+ one
+ thing
+ you
+ can
+ do
+ you
+ can
+ use
+
+
+seeds
+ and
+ essentially
+ seeds
+ is
+ that
+ like
+
+
+right
+ now
+ everything
+ will
+ be
+ random
+ if
+
+
+you
+ just
+ keep
+ returning
+ it.
+ But
+ if
+ you
+
+
+if
+ you
+ keep
+ retrying
+ it
+ but
+ if
+ you
+ use
+ a
+
+
+set
+ seed
+ then
+ your
+ inference
+ will
+ always
+
+
+be
+ returning
+ the
+ same
+ value
+ uh
+ which
+
+
+will
+ be
+ uh
+ relevant
+ in
+
+
+later.
+
+
+Uh
+ then
+ putting
+ it
+ all
+ together.
+
+
+If
+ we
+ put
+ all
+ together,
+ we
+ should
+ have
+
+
+three
+ different
+ files.
+ One
+ is
+ like
+ the
+
+
+model.py
+ that
+ includes
+ our
+ model
+
+
+architecture.
+ One
+ is
+ train.py
+ which
+
+
+includes
+ the
+ data
+ data
+ set
+ loading
+ and
+
+
+the
+ training
+ loop.
+ And
+ lastly,
+ the
+
+
+generate.py
+ that
+ includes
+ our
+ inference.
+
+
+And
+ in
+ total,
+ this
+ should
+ be
+ like
+ maybe
+
+
+a
+ few
+ hundred
+ lines
+ of
+ code.
+ Uh
+ very
+
+
+straightforward.
+ And
+ that's
+ with
+ even
+
+
+with
+ this
+ much
+ code
+ like
+ if
+ we
+ have
+ a
+
+
+lot
+ big
+ hardware,
+ we
+ could
+ train
+ a
+ good
+
+
+LLM
+ using
+ this
+ architecture.
+ if
+ we
+ have
+
+
+enough
+ data
+ and
+ enough
+ resources
+ that's
+
+
+that's
+ all
+ you
+ need
+ essentially
+ and
+
+
+that's
+ what
+ basically
+ like
+ GP3
+ and
+ GP2
+
+
+like
+ when
+ open
+ air
+ released
+ it
+ I
+
+
+remember
+ when
+ open
+ AAI
+ was
+ about
+ to
+
+
+release
+ uh
+ GPT2
+ and
+ they
+ were
+ saying
+
+
+we're
+ not
+ going
+ to
+ release
+ it
+ because
+
+
+it's
+ too
+ dangerous
+ for
+ for
+ humanity
+ and
+
+
+that
+ was
+ like
+ back
+ then
+ is
+ that
+ was
+ the
+
+
+code
+ that
+ they
+ were
+ working
+ on
+ and
+ like
+
+
+a
+ lot
+ of
+ data
+ and
+ of
+ course
+ a
+ bigger
+
+
+model
+ now
+ this
+ seems
+ to
+ be
+ like
+ kind
+ of
+
+
+kind
+ of
+ funny
+ but
+ for
+ them
+ like
+ that
+ was
+
+
+like
+ a
+ very
+ war
+ moment
+ that
+ we
+ did
+ this
+
+
+and
+ then
+ the
+ model
+ like
+ actually
+
+
+performs
+ really
+ well
+ on
+ tasks.
+ Um
+ but
+ in
+
+
+the
+ end
+ it
+ was
+ just
+ it
+ was
+ just
+ what
+ you
+
+
+see
+ here.
+
+
+Um
+ so
+ yeah
+ putting
+ all
+ together
+ uh
+ you
+
+
+can
+ uh
+ if
+ you
+ use
+ Google
+ Collab
+ you
+ can
+
+
+use
+ this
+ this
+ uh
+ snippet
+ of
+ code
+ to
+
+
+download
+ the
+ the
+ data
+ set
+ and
+ you
+ can
+
+
+use
+ this
+ pip
+ install
+ command
+ to
+ install
+
+
+the
+ different
+ dependencies.
+
+
+Uh
+ and
+ then
+ it
+ should
+ look
+ uh
+ like
+
+
+something
+ like
+ this
+ where
+ you'd
+ install
+
+
+your
+ dependencies,
+ you
+ copy
+ your
+ code.
+
+
+Uh,
+ and
+ you
+ might
+ need
+ to
+ do
+ some
+ um
+
+
+connection
+ some
+ connections
+ together,
+
+
+but
+ essentially
+
+
+like
+ you
+ can
+ run
+ a
+
+
+a
+ train
+ that
+ you
+ can
+ use
+ a
+ train
+ command
+
+
+to
+ run
+ to
+ to
+ and
+ use
+ the
+ data
+ set
+ that
+
+
+you
+ want
+ to
+ use
+ and
+ that
+ this
+ will
+ start
+
+
+the
+ training
+ and
+ then
+ you
+ can
+ see
+ how
+
+
+the
+ performance
+ of
+ the
+ model
+ improves
+
+
+step
+ by
+ step.
+ Like
+ for
+ me
+ this
+ took
+
+
+about
+ like
+ 15
+ minutes
+ to
+ train
+ on
+ on
+
+
+Google
+ Collab
+ and
+ start
+ getting
+ good
+
+
+results.
+ uh
+ with
+ some
+ improvements
+ you
+
+
+can
+ make
+ it
+ go
+ faster
+ and
+ maybe
+ you
+ can
+
+
+make
+ it
+ go
+ slower
+ but
+ actually
+ get
+
+
+better
+ results.
+ Um
+ but
+ essentially
+ like
+
+
+it's
+ it's
+ very
+ simple
+ to
+ get
+ to
+ get
+
+
+working.
+ One
+ thing
+ to
+ remember
+ is
+ that
+
+
+you
+ have
+ to
+ change
+ your
+ runtime
+ change
+
+
+runtime
+ type
+ to
+ T4
+ GPU.
+ Um
+ because
+ this
+
+
+this
+ this
+ is
+ free
+ and
+ it
+ will
+ it
+ will
+
+
+run
+ quite
+ fast.
+
+
+Um
+ yeah,
+ feel
+ free
+ to
+ train
+ like
+ you
+ can
+
+
+try
+ like
+ maybe
+ starting
+ with
+ a
+ very
+ tiny
+
+
+model
+ the
+ 0.5
+ million
+ parameter
+ uh
+ that
+
+
+only
+ has
+ two
+ layers
+ and
+ only
+ two
+
+
+attention
+ heads
+ and
+ a
+ smaller
+ embedding
+
+
+size
+ for
+ for
+ each
+ token
+ and
+ then
+ you
+ can
+
+
+try
+ bigger
+ and
+ bigger
+ models
+ until
+ you
+
+
+get
+ some
+ usable
+ results.
+
+
+Um
+ and
+ as
+ I
+ mentioned
+ before
+ you
+ can
+ try
+
+
+different
+ context
+ lengths.
+ I
+ started
+
+
+with
+ 256
+ you
+ can
+ try
+ bigger
+ 512.
+ Um
+ and
+
+
+then
+ you
+ can
+ if
+ you
+ want
+ to
+ monitor
+ and
+
+
+see
+ how
+ your
+ losses
+ went
+ down
+ like
+ in
+ a
+
+
+nice
+ way
+ you
+ can
+ use
+ this
+ like
+ uh
+ uh
+
+
+this
+ pipel
+ uh
+ to
+ see
+ like
+ the
+ graphs.
+ Uh
+
+
+the
+ things
+ that
+ you
+ want
+ to
+ look
+ for
+ is
+
+
+if
+ your
+ train
+ loss
+ is
+ not
+ decreasing
+ it
+
+
+means
+ your
+ model
+ is
+ not
+ learning.
+ Uh
+
+
+that
+ probably
+ means
+ you
+ have
+ a
+ bug
+ in
+
+
+your
+ code.
+ uh
+ if
+ your
+ uh
+
+
+it
+ also
+ could
+ be
+ like
+ a
+ a
+ low
+ training
+
+
+loss.
+ If
+ your
+ train
+ loss
+ is
+ is
+
+
+decreasing
+ but
+ your
+ VA
+ loss
+ is
+ not
+ is
+
+
+actually
+ increasing
+ that
+ means
+ you
+
+
+overfit
+ and
+ if
+ you
+ have
+ very
+ weird
+
+
+spikes
+ in
+ loss
+ like
+ the
+ loss
+ should
+ be
+
+
+like
+ very
+ smooth
+ in
+ general.
+ If
+ you
+ have
+
+
+very
+ weird
+ spikes
+ in
+ your
+ loss,
+ it
+ means
+
+
+like
+ again
+ there's
+ some
+ some
+ kind
+ of
+ bug
+
+
+either
+ in
+ your
+ data
+ or
+ in
+ your
+ training.
+
+
+And
+ uh
+ when
+ the
+ model
+ starts
+ plateauing
+
+
+and
+ not
+ getting
+ any
+ better,
+ it
+ means
+ you
+
+
+kind
+ of
+ you
+ have
+ pretty
+ much
+ exhausted
+
+
+the
+ usefulness
+ of
+ your
+ current
+ data
+
+
+sets.
+ So
+ either
+ you're
+ going
+ to
+ use
+ a
+
+
+bigger
+ model
+ or
+ you're
+ going
+ to
+ need
+ you
+
+
+essentially
+ need
+ more
+ data.
+
+
+Uh
+ now
+ one
+ one
+ like
+ interesting
+ part
+
+
+about
+ what
+ uh
+ I
+ would
+ like
+ us
+ to
+ do
+ is
+
+
+uh
+ I
+ think
+ it
+ would
+ be
+ cool
+ if
+ we
+ had
+
+
+like
+ some
+ sort
+ of
+ competition
+ of
+ who
+ can
+
+
+train
+ the
+ best
+ model
+ here.
+ if
+ uh
+
+
+anybody's
+ able
+ to
+ to
+ get
+ things
+ working.
+
+
+Uh
+ hopefully
+ vendor
+ is
+ good
+ enough.
+ Uh
+
+
+and
+ also
+ for
+ further
+ reading
+ you
+ can
+ see
+
+
+like
+ a
+ lot
+ of
+ the
+ resources
+ for
+ this
+ um
+
+
+for
+ this
+ workshop.
+
+
+Uh
+ but
+ essentially
+ what
+ the
+ challenge
+ is
+
+
+is
+
+
+we
+ can
+ we
+ can
+ vote
+ all
+ together
+ to
+ find
+
+
+which
+ which
+ model
+ actually
+ produces
+ the
+
+
+best
+ verse
+ of
+ Shakespeare
+ or
+ it
+ could
+ be
+
+
+if
+ you
+ use
+ a
+ different
+ data
+ set
+ a
+ best
+
+
+poem
+ or
+ in
+ that
+ kind
+ of
+ category.
+ Um
+
+
+the
+ rules
+ are
+ you
+ have
+ to
+ train
+ the
+
+
+model
+ yourself
+ like
+ here
+ and
+ today
+ like
+
+
+it
+ can't
+ be
+ like
+ some
+ you
+ can't
+ ask
+ LGBT
+
+
+to
+ give
+ you
+ like
+ a
+ good
+ verse
+ you
+ have
+
+
+to
+ like
+ use
+ your
+ own
+ model
+ and
+ to
+ prove
+
+
+this
+ you
+ use
+ like
+ a
+ seed
+ with
+ a
+ specific
+
+
+prompt
+ and
+ see
+ what
+ outputs
+ it
+ gives
+
+
+you.
+ You're
+ free
+ to
+ like
+ regenerate
+
+
+things
+ as
+ many
+ times
+ until
+ you
+ you
+ get
+
+
+the
+ best
+ results.
+ Um
+
+
+and
+ uh
+ you
+ I'll
+ have
+ like
+ a
+ QR
+ code
+ that
+
+
+you
+ can
+ submit
+ your
+ results
+ and
+ I
+ can
+ go
+
+
+around
+ and
+ like
+ help
+ people
+ out
+ that
+ uh
+
+
+if
+ you
+ need
+ any
+ help
+ getting
+ training
+
+
+running
+ and
+ uh
+ of
+ course
+ this
+ training
+
+
+is
+ like
+ super
+ bare
+ bones.
+ There
+ are
+ many
+
+
+ways
+ you
+ can
+ optimize
+ this
+ and
+ make
+ this
+
+
+better.
+ So
+ I
+ guess
+ for
+ people
+ that
+ are
+ a
+
+
+bit
+ more
+ experienced
+ they
+ can
+ they
+ can
+
+
+implement
+ this
+ this
+ improvements
+ and
+
+
+maybe
+ get
+ a
+ better
+ outputs
+ of
+ your
+ of
+
+
+their
+ model.
+ Uh,
+ the
+ winner
+ is
+ going
+ to
+
+
+get
+ some
+ uh
+ free
+ swag
+ from
+ from
+ Level
+
+
+Labs,
+ maybe
+ like
+ a
+ hoodie
+ or
+ like
+ some
+
+
+some
+ free
+ credits.
+ Uh,
+ I'll
+ see
+ what
+ I
+
+
+can
+ actually
+ give.
+
+
+So,
+ yeah,
+ this
+ is
+ the
+ submission.
+ Uh,
+ it
+
+
+needs
+ to
+ be
+ creative
+ and
+ then
+ um
+ and
+ it
+
+
+needs
+ to
+ be
+ essentially
+ like
+ a
+ good
+
+
+verse
+ and
+ we
+ can
+ maybe
+ use
+ like
+ a
+ kind
+
+
+of
+ um
+
+
+a
+ kind
+ of
+ bracket.
+ Oh,
+ what
+ happened?
+
+
+Oh,
+ cool.
+ We
+ can
+ use
+ a
+ bracket
+ and
+ we
+
+
+can
+ vote
+ which
+ verse
+ like
+ sounded
+ the
+
+
+best.
+ They
+ could
+ be
+ funny,
+ they
+ could
+ be
+
+
+like
+ like
+ well
+ made
+ like
+ up
+ to
+ you.
+ And
+
+
+the
+ reproducibility
+ should
+ look
+
+
+something
+ like
+ this.
+ Uh
+ where
+ you
+ run
+
+
+Python
+ generate
+ on
+ your
+ best
+ checkpoint,
+
+
+the
+ prompt
+ that
+ you
+ decide
+ that
+ you
+ can
+
+
+it's
+ up
+ to
+ you
+ temperature
+ and
+ then
+
+
+a
+ a
+ seed
+ that
+ that
+ proves
+ that
+ you
+ can
+
+
+actually
+ produce
+ your
+ results.
+
+
+uh
+ you
+ can
+ try
+ different
+ model
+ sizes
+
+
+uh
+ like
+ I
+ guess
+ like
+ 85
+ million
+
+
+parameters
+ would
+ be
+ a
+ bit
+ too
+ big
+ for
+
+
+this
+ but
+ if
+ you
+ have
+ the
+ resources
+ you
+
+
+can
+ try
+ it
+ uh
+ you
+ can
+ try
+ better
+
+
+tokenizers
+ like
+ this
+ one
+ of
+ course
+ is
+ a
+
+
+character
+ based
+ but
+ perhaps
+ you
+ can
+
+
+train
+ your
+ own
+ BP
+ tokenizer
+ uh
+ based
+ on
+
+
+that
+ data
+ set
+ and
+ there's
+ also
+ other
+
+
+tweaks
+ that
+ you
+ can
+ do
+ like
+ bigger
+
+
+context
+ uh
+ like
+ there
+ are
+ some
+ ting
+
+
+optimizations
+ like
+ using
+ a
+ dropout
+ value
+
+
+uh
+ you
+ can
+ stop
+ whenever
+ you
+ when
+ you
+
+
+feel
+ like
+ the
+ model
+ is
+ good
+ enough,
+
+
+change
+ the
+ learning
+ rates
+ um
+ and
+
+
+essentially
+ get
+ like
+ as
+ make
+ the
+ model
+
+
+as
+ good
+ as
+ possible.
+
+
+Uh
+ yeah,
+ that
+ that
+ is
+ the
+ idea.
+
+
+Uh
+ I'm
+ going
+ to
+ go
+ around
+ and
+ help
+ you
+
+
+out.
+ Sorry.
+ Go
+
+
+>> ahead.
+
+
+or
+ just
+
+
+>> so
+ reasoning
+ models
+ like
+ to
+ to
+ repeat
+
+
+uh
+ you
+ asking
+ like
+ if
+ reasoning
+ models
+
+
+are
+ quite
+ a
+ bit
+ different
+ in
+ training
+
+
+the
+ base
+ the
+ building
+ blocks
+ are
+ very
+
+
+similar
+ like
+ you
+ can
+ train
+ the
+ same
+
+
+exact
+ model
+ you
+ can
+ postrain
+ it
+ which
+ is
+
+
+how
+ like
+ usually
+ reasoning
+ is
+ is
+ uh
+ is
+
+
+being
+ taught
+ to
+ this
+ model
+ you
+ have
+ a
+
+
+good
+ base
+ instruct
+ model
+ and
+ then
+ you
+
+
+postrain
+ it
+ to
+ be
+ a
+ reasoning
+ model
+ this
+
+
+is
+ very
+ data
+ driven.
+ So
+ you
+ need
+ very
+
+
+very
+ high
+ quality
+ data
+ and
+ you're
+ going
+
+
+to
+ use
+ a
+ loss
+ that's
+ like
+ good
+ enough
+ to
+
+
+be
+ able
+ to
+ uh
+ to
+ learn
+ this
+ data
+ in
+ a
+ in
+
+
+a
+ very
+ good
+ sense.
+ Uh
+ the
+ complication
+
+
+of
+ reasoning
+ models
+ is
+ finding
+ this
+ good
+
+
+chain
+ of
+ thought
+ data.
+ Uh
+ that's
+ why
+
+
+like
+ OpenAI
+ has
+ like
+ all
+ these
+ labelers
+
+
+that
+ are
+ like
+ PhD
+ students
+ that
+ they
+
+
+write
+ down
+ the
+ reasonings
+ of
+ like
+ how
+ to
+
+
+how
+ they
+ solve
+ problems.
+ Uh
+ because
+ this
+
+
+data
+ needs
+ to
+ be
+ very
+ high
+ quality
+
+
+because
+ it's
+ it
+ teaches
+ the
+ model
+ how
+ to
+
+
+think.
+ So
+ you
+ can't
+ just
+ go
+ on
+ like
+
+
+Reddit
+ and
+ just
+ get
+ random
+ post.
+ You're
+
+
+not
+ going
+ to
+ learn
+ how
+ to
+ think
+ this
+ way
+
+
+for
+ sure.
+ Uh
+ you
+ need
+ like
+ some
+ very
+
+
+high
+ value
+ good
+ quality
+ that
+ teach
+ this
+
+
+reasoning
+ process.
+ But
+ in
+ the
+ end
+
+
+reasoning
+ is
+ is
+ essentially
+ just
+ adding
+
+
+to
+ the
+ context
+ of
+ the
+ model
+ like
+ this
+ to
+
+
+the
+ attention
+ essentially
+ uh
+ this
+ like
+
+
+logic
+ that
+ then
+ the
+ model
+ can
+ when
+ it
+
+
+generates
+ the
+ response
+ it
+ can
+ go
+ back
+
+
+and
+ attend
+ to
+ those
+ reasoning
+ tokens
+ and
+
+
+get
+ a
+ better
+ response
+ out.
+ So
+ it
+ could
+
+
+be
+ like
+ describing
+ the
+ model
+ a
+ bit
+
+
+better.
+ Then
+ it
+ goes
+ back,
+ sees
+ those
+
+
+tokens
+ that
+ you
+ described
+ and
+ say,
+ "Oh,
+
+
+actually
+ I
+ already
+ figured
+ this
+ out.
+ I'm
+
+
+going
+ to
+ write
+ it
+ down
+ now.
+
+
+The
+ microphone
+ is
+ not
+ working.
+ Is
+ it?"
+
+
+Yeah.
+ Perfect.
+ uh
+ so
+ reasoning
+ and
+
+
+non-reasoning
+ models
+ share
+ the
+ same
+ base
+
+
+often
+ and
+ then
+ one
+ is
+ post
+ train
+ in
+ a
+
+
+different
+ way
+ and
+ add
+ this
+ uh
+ you
+ know
+
+
+in
+ a
+ way
+ different
+ post
+ training.
+
+
+>> Yes.
+ So
+ a
+ lot
+ of
+ the
+ labs
+ like
+ let's
+ say
+
+
+the
+ quen
+ model
+ that
+ was
+ released
+ like
+
+
+quen
+ 3
+ usually
+ they
+ release
+ like
+ a
+ base
+
+
+version
+ and
+ instruct
+ version
+ and
+ usually
+
+
+the
+ base
+ version
+ doesn't
+ have
+ in
+ a
+ chain
+
+
+of
+ thought
+ reasoning
+ uh
+ it's
+ usually
+
+
+like
+ the
+ same
+ model
+ that
+ they
+ first
+
+
+pre-train
+ to
+ be
+ like
+ quite
+ good
+ maybe
+ do
+
+
+some
+ fine
+ tuning
+ as
+ well
+ and
+ then
+ the
+
+
+next
+ step
+ is
+ doing
+ post
+ training
+ to
+
+
+teach
+ it
+ this
+ kind
+ of
+ like
+ this
+ this
+ uh
+
+
+this
+ knowledge
+ uh
+ so
+ that's
+ why
+ like
+ you
+
+
+see
+ a
+ lot
+ of
+ a
+ lot
+ of
+ uh
+ big
+
+
+improvements
+ that
+ happen
+ very
+ fast
+ in
+
+
+the
+ industry
+ like
+ Germany
+ 3
+ to
+ 3.1.
+ It's
+
+
+essentially
+ giving
+ it
+ like
+ better
+
+
+reasoning
+ data
+ and
+ like
+ like
+ better
+
+
+fine-tuning
+ post-
+ training
+ data
+ for
+ like
+
+
+specific
+ problems.
+ It's
+ a
+ little
+ bit
+
+
+like
+ benchmarking
+ like
+ usually
+ this
+ data
+
+
+is
+ like
+ very
+ similar
+ to
+ what
+ the
+
+
+benchmarks
+ the
+ current
+ good
+ benchmarks
+
+
+are.
+ But
+ yeah,
+ essentially
+ just
+ taking
+ a
+
+
+base
+ model
+ using
+ this
+ new
+ data
+ to
+
+
+improve
+ it
+ to
+ the
+ next
+ level.
+ Thank
+ you.
+
+
+And
+ second
+ question
+ is
+ compared
+ to
+ what
+
+
+you're
+ showing
+ us
+ here
+ like
+ this
+ very
+
+
+barebone
+ model
+ are
+ there
+ like
+ has
+ there
+
+
+been
+ fundamental
+ innovation
+ in
+ the
+ main
+
+
+training
+ of
+ the
+ model
+ like
+ powering
+
+
+nowadays
+ models
+ or
+ is
+ it
+ mostly
+ the
+ same
+
+
+but
+ just
+ with
+ smarter
+ tricks,
+ small
+
+
+tweaks,
+ better
+ data
+ and
+ so
+ on.
+ So
+ are
+
+
+like
+ are
+ everyone
+ still
+ using
+ the
+ same
+
+
+attention
+ layer
+ and
+ so
+ on
+ or
+ are
+ there
+
+
+like
+ some
+ fundamental
+ shifts
+ that
+ have
+
+
+been
+ happening
+ on
+ the
+ latest
+ and
+ maybe
+
+
+you
+ know
+ maybe
+ don't
+
+
+>> no
+ yeah
+ no
+ so
+ you're
+ correct
+ that
+ that
+
+
+so
+ they
+ a
+ lot
+ of
+ this
+ space
+ is
+ the
+ same
+
+
+they
+ might
+ do
+ some
+ changes
+ in
+ terms
+ of
+
+
+how
+ attention
+ attends
+ to
+ those
+ different
+
+
+uh
+ uh
+ tokens
+ because
+ sometimes
+ reasoning
+
+
+can
+ be
+ quite
+ large
+ so
+ you
+ need
+ big
+ to
+
+
+sequence
+ lengths
+ to
+ be
+ able
+ to
+ get
+ good
+
+
+results.
+ Uh
+ so
+ there's
+ a
+ lot
+ of
+ like
+
+
+tricks
+ that
+ the
+ new
+ labs
+ the
+ the
+ labs
+ do
+
+
+to
+ make
+ this
+ to
+ to
+ make
+ the
+ attention
+
+
+more
+ efficient.
+ But
+ overall
+ you
+ can
+ take
+
+
+like
+ a
+ very
+ you
+ can
+ take
+ this
+ model
+ GPT2
+
+
+and
+ make
+ it
+ into
+ a
+ reasoning
+ model.
+ Like
+
+
+if
+ you
+ had
+ the
+ the
+ data
+ and
+ like
+ a
+ big
+
+
+enough
+ model
+ to
+ actually
+ learn
+ from
+ that
+
+
+reasoning
+ as
+ well
+ because
+ like
+ these
+
+
+tiny
+ models
+ reasoning
+ won't
+ help
+ them
+
+
+too
+ much.
+ But
+ if
+ you
+ had
+ a
+ big
+ enough
+
+
+model
+ that
+ can
+ get
+ stuff
+ out
+ of
+ the
+
+
+reasoning.
+ There
+ are
+ people
+ that
+ have
+
+
+taken
+ like
+ older
+ models
+ like
+ let's
+ say
+
+
+llama
+ 1B
+ uh
+ that
+ are
+ small
+ and
+ weren't
+
+
+trained
+ for
+ reasoning
+ and
+ then
+ made
+ them
+
+
+into
+ reasoning
+ models
+ using
+ the
+ exact
+
+
+same
+ architecture.
+
+
+Yes.
+
+
+>> How
+ much
+ effort
+ you
+ put
+ in,
+ you
+ know,
+
+
+getting
+ your
+ golden
+ data
+ set
+ and
+ what
+ is
+
+
+that
+ process
+ that
+ you
+ follow?
+
+
+>> You
+ mean
+ for
+ post
+ training?
+
+
+>> Yeah.
+
+
+>> Yeah.
+ So,
+ like
+ as
+ I
+ mentioned
+ before,
+
+
+like
+ usually
+ what
+ most
+ labs
+ do
+ is
+ that
+
+
+they
+ go
+ to
+ companies
+ like
+ Scale
+ AI.
+
+
+That's
+ probably
+ the
+ biggest
+ one.
+ And
+
+
+Scale
+ AI
+ has
+ an
+ army
+ of
+ like
+ people
+ that
+
+
+you
+ can
+ you
+ can
+ say,
+ I
+ want
+ physicists.
+
+
+Give
+ me
+ data
+ from
+ physicists.
+ Then
+ scale
+
+
+AI
+ is
+ going
+ to
+ find
+ contract
+ physicists,
+
+
+pay
+ them
+ like
+ as
+ much
+ money
+ as
+ they
+ need
+
+
+and
+ then
+ these
+ physicists
+ might
+ like
+
+
+write
+ things
+ down.
+ They
+ might
+ be
+
+
+contacted
+ to
+ do
+ different
+ things.
+ Uh
+ but
+
+
+essentially
+ like
+ a
+ lot
+ of
+ these
+
+
+companies
+ they
+ like
+ scale
+ AI
+ provides
+
+
+data
+ for
+ like
+ anthropic
+ another
+ got
+
+
+bought
+ by
+ Meta
+ so
+ probably
+ not
+ that
+ much
+
+
+anymore.
+ Uh
+ but
+ essentially
+ they
+ they
+
+
+these
+ data
+ sets
+ are
+ provided
+ by
+ these
+
+
+like
+ uh
+ labeling
+ companies.
+ Skila
+ is
+ one
+
+
+of
+ them.
+ But
+ a
+ lot
+ of
+ the
+ the
+ big
+ labs
+
+
+have
+ their
+ own
+ labeling
+ teams
+ too
+ that
+
+
+they
+ hire
+ contractors
+ to
+ to
+ generate
+
+
+these
+ data
+ sets
+ for
+ them.
+ Uh
+ but
+ as
+ as
+
+
+you
+ said
+ before
+ like
+ you
+ want
+ you
+ if
+
+
+this
+ data
+ set
+ has
+ like
+ even
+ some
+ small
+
+
+issues
+ it
+ can
+ literally
+ make
+ or
+ break
+
+
+your
+ model.
+ So
+ these
+ data
+ sets
+ are
+ like
+
+
+kind
+ of
+ the
+ most
+ expensive
+ like
+ they
+
+
+will
+ cost
+ tons
+ and
+ tons
+ of
+ money
+ but
+
+
+they
+ actually
+ are
+ the
+ ones
+ that
+ make
+ the
+
+
+models
+ like
+ as
+ good
+ as
+ they
+ are.
+
+
+>> Just
+ a
+ quick
+ follow.
+ So
+ even
+ on
+ that
+
+
+I
+ mean
+ you
+ still
+ have
+ to
+ evaluate
+ right
+
+
+the
+ answer
+ wouldn't
+ be
+ exactly
+ same.
+ So
+
+
+are
+ people
+ are
+ really
+ reviewing
+ this
+ or
+
+
+it's
+ still
+ you're
+ relying
+ on
+ LLM
+ to
+
+
+evaluate
+
+
+>> uh
+ you
+ you
+ rely
+ on
+ people
+ for
+ this
+ kind
+
+
+of
+ stuff.
+ Usually
+ the
+ way
+ it
+ works
+ uh
+ a
+
+
+big
+ part
+ of
+ my
+ job
+ is
+ actually
+ like
+
+
+doing
+ this
+ uh
+ organization.
+ Uh,
+ usually
+
+
+the
+ way
+ it
+ works
+ is
+ you
+ have
+ you
+ might
+
+
+have
+ like
+ one
+ person
+ that
+ generates
+ the
+
+
+lab
+ this
+ like
+ very
+ high
+ quality
+ label
+
+
+data
+ and
+ then
+ you
+ have
+ maybe
+ some
+
+
+labeler
+ that
+ has
+ graduated
+ into
+ like
+ a
+
+
+QA
+ position
+ where
+ their
+ job
+ is
+ to
+
+
+essentially
+ make
+ sure
+ that
+ all
+ the
+ like
+
+
+other
+ labelers
+ the
+ more
+ entry
+ level
+
+
+their
+ outputs
+ are
+ correct
+ and
+ it's
+ it's
+
+
+it's
+ quite
+ the
+ tough
+ job
+ because
+ like
+ if
+
+
+your
+ QA
+ is
+ not
+ good
+ you
+ get
+ fired.
+ So
+
+
+it's
+ like
+ it's
+ that
+ that's
+ the
+ way
+ they
+
+
+keep
+ the
+ level
+ quite
+ high.
+
+
+>> Yes.
+ So
+ LMS
+ are
+ nonderministic
+ but
+ um
+
+
+how
+ does
+ that
+ seat
+ parameter
+ work?
+
+
+>> So
+ the
+ the
+ way
+ the
+ LLMs
+ are
+ non-
+
+
+deterministic
+ is
+ because
+ they
+ they
+
+
+essentially
+ use
+ random
+ number
+ generators
+
+
+for
+ of
+ like
+ the
+
+
+of
+ of
+ your
+ machine
+ or
+ like
+ of
+ the
+ the
+
+
+the
+ the
+ GPU
+ that
+ you're
+ currently
+ using
+
+
+of
+ the
+ the
+ system.
+ The
+ seed
+ essentially
+
+
+like
+ makes
+ all
+ those
+ different
+
+
+calculations
+ to
+ be
+ always
+ return
+ always
+
+
+the
+ same
+ value.
+ So
+ things
+ are
+ no
+ longer
+
+
+random
+ like
+ you're
+ this
+ is
+ not
+ only
+ for
+
+
+uh
+ for
+ for
+ this
+ these
+ seeds
+ can
+ be
+ used
+
+
+for
+ any
+ random
+ generation.
+ So
+ it
+ could
+
+
+be
+ like
+ for
+ password
+ hes
+
+
+>> yeah
+ it
+ works
+ the
+ same
+ exact
+ way.
+
+
+>> Yes.
+
+
+>> Yes.
+ Yeah.
+ Yeah,
+ if
+ you
+ use
+ grid
+
+
+decoding,
+ uh
+ there
+ might
+ be
+ still
+ some
+
+
+things
+ that
+ like
+ like
+ it's
+ good
+ to
+ use
+ a
+
+
+seed
+ even
+ if
+ you
+ use
+ grid
+ decoding
+ cuz
+
+
+there
+ might
+ be
+ some
+ other
+ stuff
+ that
+
+
+maybe
+ you
+ don't
+ you
+ don't
+ you
+ don't
+
+
+control
+ like
+ maybe
+ you're
+ using
+ some
+
+
+like
+ sometimes
+ greedy
+ decoding
+ might
+ not
+
+
+be
+ actual
+ grid
+ coding
+ might
+ be
+ 0.01
+ like
+
+
+temperature
+ like
+ for
+ VRM
+ for example
+
+
+that
+ they
+ do
+ some
+ like
+ tricks
+ like
+ that
+
+
+to
+ be
+ able
+ to
+ get
+ uh
+ good
+ outputs.
+ Uh
+ so
+
+
+in
+ general
+ it's
+ good
+ to
+ use
+ seed
+ even
+ if
+
+
+you're using
+ great
+ decoding.
+
+
+>> Yes.
+
+
+>> Um
+ this
+ is
+ obviously
+ all
+ in
+ text
+ 11
+ Labs
+
+
+is
+ mostly
+ audio
+ right?
+
+
+>> Yes.
+
+
+>> How
+ different
+ is
+ this
+ versus
+ like
+ doing
+
+
+this
+ with
+ audio?
+
+
+>> It's
+ surprisingly
+ very
+ similar.
+ It's
+
+
+more
+ complicated
+ for
+ sure
+ but
+ parts
+ of
+
+
+the
+ the
+ stack
+ of
+ like
+ most
+ audio
+ models
+
+
+they
+ also
+ can
+ do
+ text
+ because
+ you
+ need
+
+
+the
+ models
+ need
+ to
+ understand
+ language
+
+
+itself
+ and
+ the
+ best
+ way
+ to
+ teach
+
+
+something
+ language
+ is
+ text.
+ Uh,
+ of
+
+
+course
+ you
+ contain
+ an
+ audio
+ only
+ model
+
+
+like
+ and
+ again
+ it's
+ like
+ what
+ I
+ was
+
+
+talking
+ about
+ the
+ tokenizer
+ like
+ how
+ do
+
+
+you
+ tokenize
+ audio
+ like
+ what
+ what
+ is
+ the
+
+
+concept
+ of
+ like
+ a
+ sound
+ like
+ how
+ how
+ big
+
+
+should
+ your
+ tokenizer
+ be
+ for
+ audio
+ what
+
+
+should
+ it
+ be
+ only
+ human
+ speech
+ or
+ should
+
+
+it
+ also
+ be
+ like
+ a
+ music
+ like
+ do
+ you
+ take
+
+
+the
+ notes
+ of
+ different
+ music
+ instruments
+
+
+as
+ like
+ different
+ tokens
+ this
+ is
+ the
+
+
+kind
+ of
+ problems
+ that
+ you
+ have
+ to
+ solve
+
+
+like
+ if
+ you're
+ creating
+ a
+ a
+ an
+ audio
+
+
+model
+ that
+ you
+ wouldn't
+ necessarily
+ need
+
+
+as
+ a
+ text
+ it's
+ a
+ bit
+ easier
+ Uh
+ but
+ the
+
+
+fundamentals
+ are
+ still
+ like
+ the
+ same.
+
+
+Like
+ if
+ you
+ want
+ to
+ generate
+ audio,
+ you
+
+
+would
+ you
+ generate
+ like
+ an
+ audio
+ token
+
+
+and
+ then
+ that
+ audio
+ token
+ would
+ be
+ using
+
+
+a
+ tokenizer
+ and
+ then
+ you
+ you
+ it's
+ not
+
+
+exactly
+ the
+ same
+ because
+ the
+ audio
+ token
+
+
+then
+ you
+ have
+ to
+ process
+ it
+ in
+ some
+
+
+different
+ ways
+ uh
+ to
+ make
+ it
+ into
+ like
+
+
+actual
+ audio.
+ But
+ uh
+ a
+ lot
+ of
+ the
+ same
+
+
+uh
+ general
+ ideas
+ still
+ apply.
+
+
+>> But
+ do
+ you
+ have
+ a
+ lot
+ more
+ loss
+ or
+
+
+something?
+
+
+With
+ text,
+ you
+ know,
+ like
+ this
+ is
+ the
+
+
+text.
+ The
+ text
+ can
+ be
+ down
+ to
+ very
+ clear
+
+
+like
+ a
+ one
+ is
+ a
+ one,
+ but
+ in
+ audio
+ like
+ a
+
+
+particular
+ pitch
+ or
+ frequency
+ or
+ sound,
+
+
+but
+ like
+ the
+ ambiguity
+ there,
+ it's
+
+
+already
+ lost
+ straight
+ away,
+ right?
+
+
+>> Yeah.
+ Yeah.
+ So
+ the
+ the
+ way
+ it
+ it
+ works
+
+
+is
+ that
+ you
+ don't
+ use
+ like
+ this
+ course
+
+
+entropy
+ loss.
+ You
+ use
+ different
+ types
+ of
+
+
+losses.
+ You
+ can
+ use
+ gross
+ entropy,
+ but
+
+
+usually
+ it's
+ it's
+ losses
+ that
+ are
+ more
+
+
+um
+ specialized
+ for
+ what
+ you're
+ trying
+ to
+
+
+do.
+ Like
+ for
+ example,
+ there's
+ a
+ a
+ loss
+
+
+called
+ L2
+ loss,
+ which
+ essentially
+ takes
+
+
+like
+ two
+ male
+ specttograms
+ and
+ tries
+ to
+
+
+see
+ the
+ difference
+ between
+ those
+ two
+
+
+male
+ specttograms,
+ which
+ is
+ essentially
+
+
+like
+ a
+ sound
+ waves
+ in
+ encoded
+ in
+ a
+
+
+certain
+ way.
+ And
+ that's
+ like
+ a
+ very
+
+
+common
+ way
+ for
+ TTS
+ models
+ to
+ be
+ trained.
+
+
+You
+ train
+ on
+ these
+ specific
+ types
+ of
+
+
+loss.
+ Uh,
+ and
+ the
+ same
+ thing
+ I
+ was
+
+
+mentioning
+ earlier,
+ cross
+ entropy
+
+
+doesn't
+ really
+ work
+ as
+ well
+ for
+ for
+
+
+things
+ like
+ post-
+ training.
+ You
+ might
+
+
+use
+ different
+ types
+ of
+ losses
+ there.
+ Or
+
+
+if
+ you're
+ distilling
+ a
+ model
+ from
+ a
+ big
+
+
+model
+ to
+ a
+ smaller
+ model,
+ you
+ don't
+ use
+
+
+cross
+ entropy
+ loss,
+ you
+ might
+ use
+ a
+ KL
+
+
+divergence
+ loss
+ where
+ you
+ find
+ the
+ the
+
+
+token
+ distributions
+ of
+ like
+ the
+ bigger
+
+
+model
+ and
+ you
+ try
+ to
+ match
+ the
+ logits
+ of
+
+
+the
+ smaller
+ model.
+ So
+ there's
+ different
+
+
+types
+ of
+ losses
+ for
+ different
+ use
+ cases.
+
+
+Not
+ all
+ of
+ them
+ work
+ the
+ same
+ way.
+
+
+>> Yes.
+ So
+ in
+ a
+ sense
+ you
+ have
+ audio
+ right
+
+
+text
+ vocabulary
+ audio
+ vocabulary
+
+
+vocabulary
+ together.
+
+
+So
+ the
+ way
+ multimodel
+ models
+ work
+ uh
+
+
+usually
+ you
+ don't
+ use
+ tokens
+ in
+ the
+ same
+
+
+sense
+ um
+
+
+like
+ okay
+ this
+ is
+ where
+ like
+ it
+ becomes
+
+
+more
+ complicated
+ because
+ like
+ these
+
+
+models
+ are
+ not
+ really
+ built
+ for
+ this
+
+
+like
+ the
+ GP2
+ model
+ like
+ the
+ the
+ newer
+
+
+models
+ they
+ have
+ also
+ like
+ an
+ embedding
+
+
+input
+ uh
+ which
+ essentially
+ as
+ as
+ as
+ I
+
+
+was
+ mentioning
+ earlier
+ like
+ you
+ have
+
+
+each
+ token
+ then
+ corresponds
+ to
+ like
+ a
+
+
+vector
+ but
+ these
+ vectors
+ they
+ don't
+ have
+
+
+to
+ correspond
+ to
+ specific
+ token
+ you
+ can
+
+
+take
+ these
+ vectors
+ from
+ other
+ places
+
+
+too.
+ And
+ what
+ a
+ lot
+ of
+ these
+ labs
+ do
+ is
+
+
+that
+ instead
+ of
+ having
+ a
+ tokenizer
+ for
+
+
+like
+ video
+ for
+ example,
+ what
+ they
+ do
+ is
+
+
+they
+ have
+ another
+ transformer
+ that
+ they
+
+
+call
+ a
+ video
+ encoder
+ and
+ they
+ put
+ the
+
+
+video
+ first
+ through
+ that
+ video
+ encoder
+
+
+and
+ uh
+ this
+ video
+ encoder
+ will
+ be
+ taking
+
+
+let's
+ say
+ you
+ have
+ a
+ a
+ 30
+ secondond
+
+
+video.
+ It
+ will
+ take
+ one
+ frame
+ per
+ second
+
+
+of
+ this
+ video
+ and
+ it
+ will
+ take
+ those
+
+
+frames
+ and
+ then
+ put
+ them
+ through
+ this
+
+
+like
+ new
+ transformer
+ this
+ encoder
+
+
+transformer
+ that
+ works
+ quite
+ a
+ bit
+
+
+differently
+ on
+ this
+ one.
+ And
+ what
+ you
+ do
+
+
+is
+ that
+ you
+ take
+ the
+ final
+ layer
+ of
+ this
+
+
+transformer,
+ the
+ hidden
+ values
+ which
+ are
+
+
+also
+ vectors.
+ You
+ take
+ those
+ those
+
+
+vectors
+ out
+ of
+ this
+ encoder
+ and
+ you're
+
+
+going
+ to
+ input
+ them
+ in
+ the
+ embedding
+
+
+layer
+ of
+ the
+ of
+ the
+ transformer
+ model.
+
+
+So
+ what
+ the
+ model
+ is
+ going
+ to
+ see
+ is
+
+
+going
+ usually
+ it's
+ like
+ prefixed.
+ So
+ you
+
+
+take
+ the
+ you
+ take
+ the
+ video
+ push
+ it
+
+
+through
+ the
+ encoder
+ get
+ some
+ vectors
+ and
+
+
+then
+ put
+ those
+ vectors
+ in
+ the
+ embedding
+
+
+input
+ of
+ your
+ transformer
+ that
+ does
+
+
+text.
+ And
+ the
+ way
+ it
+ would
+ look
+ like
+ if
+
+
+you
+ look
+ at
+ the
+ sequence
+ it
+ would
+
+
+probably
+ be
+ like
+ a
+ prompt
+ and
+ then
+ it
+
+
+would
+ be
+ probably
+ like
+ a
+ video
+ token
+
+
+representation
+ and
+ then
+ actually
+ but
+ the
+
+
+embedding
+ of
+ the
+ video
+ token
+ is
+ going
+ to
+
+
+be
+ overridden
+ by
+ the
+ output
+ of
+ the
+
+
+encoder.
+
+
+So
+ that's
+ how
+ like
+ this
+ these
+ multimodal
+
+
+models
+ work
+
+
+the
+ same.
+
+
+>> Yes,
+ it's
+ exactly
+ the
+ same
+ vector
+ the
+
+
+same
+ for
+ audio.
+ you
+ have
+ an
+ audio
+
+
+encoder
+ and
+ do
+ the
+ same
+ but
+ but
+ but
+ for
+
+
+audio
+ and
+ but
+ for
+ in
+ terms
+ of
+ how
+ what
+
+
+the
+ model
+ cares
+ about,
+ it
+ just
+ cares
+
+
+about
+ like
+ these
+ embeddings,
+ right?
+ It
+
+
+don't
+ care
+ if
+ it's
+ text
+ or
+ if
+ it's
+ audio
+
+
+or
+ if
+ it's
+ or
+ if
+ it's
+ video.
+ It
+ cares
+
+
+about
+ these
+ vectors
+ and
+ that's
+ how
+ you
+
+
+you
+ represent
+ them
+ into
+ the
+ the
+ same
+
+
+dimension
+ as
+ the
+ model
+ the
+ transformer
+
+
+expects.
+ So
+ there
+
+
+jumping
+ and
+ the
+ word
+
+
+is
+ there
+ no
+ similar
+
+
+maybe
+ there
+ is
+ I'm
+ not
+ it
+ depends
+ on
+ how
+
+
+you
+ train
+ it
+ like
+ these
+ are
+ the
+ kind
+ of
+
+
+things
+ that
+ are
+ a
+ bit
+ black
+ boxes
+ maybe
+
+
+there
+ is
+ maybe
+ there's
+ not
+ actually
+
+
+that's
+ a
+ good
+ idea
+ too
+ like
+ that
+ would
+
+
+be
+ a
+ good
+ research
+ paper
+ to
+ to
+ see
+ like
+
+
+for
+ video
+ encoders
+ do
+ they
+ actually
+
+
+match
+ in
+ the
+ same
+ dimension
+ as
+ the
+ text
+
+
+encoders
+ I
+ I
+ don't
+ know
+ I
+ imagine
+ there
+
+
+probably
+ is
+ um
+ connection.
+ Sorry,
+ you
+
+
+had
+ the
+ question
+ as
+ well.
+
+
+>> Uh
+ yeah,
+ I
+ was
+ wondering
+ about
+ like
+ you
+
+
+do
+ both
+ normal
+ speech
+ but
+ you
+ also
+ do
+
+
+some
+ music
+ generation.
+ Is
+ that
+ like
+ a
+
+
+very
+ different
+ problem
+ or
+ will
+ the
+
+
+architecture
+ be
+ like
+ similar?
+ And
+ also
+
+
+like
+ when
+ you
+ have
+ this
+ harmonics
+ and
+
+
+stuff
+ are
+ you
+ still
+ able
+ to
+ do
+ just
+ like
+
+
+a
+ basic
+ like
+ regressive
+ transformer
+ or
+
+
+do
+ you
+ have
+ to
+ like
+ do
+ the
+ things
+ depend
+
+
+more
+ on
+ each
+ other?
+
+
+You
+ might
+ generate
+ everything
+ at
+ the
+
+
+same
+ time.
+
+
+>> You
+ can
+ do
+ both.
+ There's
+ music
+ models
+
+
+that
+ are
+ autogressive.
+ There's
+ music
+
+
+models
+ that
+ are
+ diffusers.
+ Uh
+ like
+ it
+
+
+depends
+ on
+ how
+ you
+ train
+ it.
+ Um
+ like
+ I
+
+
+think
+ some
+ of
+ the
+ some
+ of
+ the
+ Google
+
+
+models
+ are
+ like
+ like
+ transformer
+ based.
+
+
+Some
+ of
+ uh
+ open
+ source
+ models
+ are
+ like
+
+
+diffuser
+ based.
+ Like
+ both
+ can
+ work
+ can
+
+
+work
+ very
+ well.
+ It's
+ just
+ that
+ it's
+ it's
+
+
+a
+ little
+ bit
+ as
+ I
+ said
+ like
+ it's
+ a
+
+
+little
+ bit
+ more
+ difficult
+ to
+
+
+uh
+ to
+ to
+ put
+ into
+ perspective
+ this
+ the
+
+
+concept
+ of
+ like
+ odd
+ music
+ if
+ you
+
+
+tokenize
+ and
+ predict
+ the
+ next
+ token.
+
+
+It's
+ kind
+ of
+ hard
+ because
+ it's
+ very
+
+
+abstract.
+ Uh
+ so
+ usually
+ diffusers
+ work
+ a
+
+
+bit
+ better
+ in
+ this
+ like
+ image
+ modalities
+
+
+for
+ generation
+ or
+ like
+ music
+ or
+ like
+
+
+even
+ audio
+ for
+ some
+ models
+ like
+ they
+
+
+have
+ some
+ kind
+ of
+ diffuser
+ diffuser
+ um
+
+
+diffuser
+ part
+ of
+ the
+ process.
+ Um,
+ both
+
+
+can
+ work.
+ Diffusers
+ are
+ generally
+ a
+ bit
+
+
+easier
+ to
+ get
+ it
+ working.
+
+
+I
+ hope
+ this
+ answer
+ makes
+ sense.
+
+
+>> Yep.
+
+
+>> How
+ do
+ you
+
+
+get
+
+
+a
+ lot
+ easier
+
+
+to
+
+
+get
+
+
+It's
+ very
+ hard.
+ Um,
+ and
+ it's
+ not
+ really
+
+
+something
+ that
+ you
+ do
+ by
+ by
+ just
+ sitting
+
+
+down
+ and
+ thinking,
+ okay,
+ I'm
+ going
+ to
+
+
+tokenize
+ this
+ word
+ to
+ that.
+ It's
+ not
+
+
+something
+ that
+ you
+ like
+ sit
+ down
+ and
+
+
+like
+ decide.
+ You
+ use
+ some
+ kind
+ of
+
+
+process
+ and
+ you
+ train
+ like
+ an
+ audio
+
+
+tokenizer
+ through
+ you
+ have
+ a
+ it's
+ a
+ very
+
+
+similar
+ like
+ case
+ I
+ guess
+ in
+ uh
+ how
+ you
+
+
+train
+ like
+ a
+ text
+ tokenizer.
+ you'd
+ use
+
+
+your
+ training
+ data
+ and
+ you'd
+ find
+ like
+
+
+common
+ patterns
+ in
+ the
+ audio
+ and
+ then
+
+
+tokenize
+ those
+ patterns.
+ Of
+ course,
+ like
+
+
+when
+ we
+ say
+ audio,
+ we
+ don't
+ don't
+ always
+
+
+just
+ mean
+ like
+ the
+ actual
+ like
+ sample
+
+
+rate
+ and
+ like
+ the
+ the
+ audio
+ waves.
+
+
+Usually
+ convert
+ them
+ to
+ something
+ that's
+
+
+a
+ bit
+ more
+ easy
+ to
+ tokenize
+ to
+ to
+ do
+
+
+this
+ processing.
+ The
+ most
+ common
+ one
+ is
+
+
+like
+ is
+ male
+ spectograms.
+ First
+ you
+
+
+convert
+ your
+ audio
+ to
+ male
+ spectograms
+
+
+and
+ then
+ you
+ use
+ this
+ this
+ distribute
+
+
+this
+ uh
+ essentially
+ arrays
+ of
+ like
+ of
+
+
+numbers
+ to
+ train
+ your
+ uh
+ your
+ tokenizers
+
+
+and
+ it
+ will
+ be
+ very
+ dependent
+ on
+ on
+ your
+
+
+training
+ set.
+ Like
+ if
+ you
+ wanted
+ to
+
+
+tokenize
+ music
+ and
+ use
+ a
+ music
+ data
+ set,
+
+
+your
+ audio
+ tokens
+ for
+ music
+ are
+ going
+ to
+
+
+be
+ very
+ different
+ than
+ if
+ you
+ had
+ a
+
+
+voice
+ data
+ set
+ that's
+ going
+ to
+ be
+ like
+
+
+focusing
+ on
+ like
+ human
+ voice.
+
+
+Now
+ the
+ hard
+ part
+ is
+ what
+ if
+ you
+ want
+ to
+
+
+do
+ both
+ voice
+ and
+ music?
+ That's
+ where
+
+
+like
+ that's
+ that's
+ very
+ hard.
+
+
+Any
+ more
+ questions?
+
+
+Okay,
+ awesome.
+ Um,
+ yeah,
+ if
+ you
+ if
+ you
+
+
+want
+ you
+ can
+ start
+ working
+ on
+ uh
+
+
+training
+ the
+ model
+ if
+ you
+ have
+ a
+ laptop
+
+
+out
+ or
+ if
+ you
+ have
+ already
+ started.
+ Uh,
+
+
+you
+ can
+ follow
+ this
+
+
+uh
+ you
+ can
+ you
+ can
+ follow
+ the
+ the
+
+
+workshop
+ uh
+ that
+ get
+ something
+ working.
+
+
+And
+ uh
+ if
+ we
+ do
+ have
+ enough
+ submissions,
+
+
+we
+ can
+ do
+ the
+ the
+ competition
+ and
+
+
+and
+ uh
+ see
+ who
+ whoever
+ wins
+ is
+ going
+ to
+
+
+get
+ some
+ some
+ nice
+
+
+>> F.
+
+
+>> Sorry.
+
+
+>> What's
+ the
+ cut
+ off?
+
+
+>> Uh
+ begins
+ shortly
+ after.
+
+
+>> So
+ because
+ we
+ don't
+ have
+ that
+ much
+ time
+
+
+left,
+ let's
+ just
+ say
+ 5:45.
+
+
+So,
+ if
+ you
+ have
+ any
+ any
+ questions
+ or
+
+
+need
+ any
+ help,
+ uh,
+ please
+ call
+ me
+ and
+
+
+I'll
+ I'll
+ come
+ over.
