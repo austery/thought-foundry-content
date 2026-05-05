@@ -1,0 +1,5 @@
+# AI 脚手架正在商品化，人的工作变成判断边界
+
+[Source](https://yage.ai/share/ai-scaffolding-commodity-runtime-20260505.html)
+
+本文分析了AI Agent脚手架的商品化趋势。文章指出，AI模型正吸收底层Prompt技巧，而Claude Code、Codex、Cursor、OpenCode等工具承担了通用的运行时任务。核心问题已转变为识别哪些能力应外包给AI，哪些领域仍需人类判断和维护。这种演变要求专业人士更多地关注边界设定和领域专长，而非具体的代码实现。
