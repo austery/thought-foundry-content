@@ -1,0 +1,460 @@
+>> Premier Doug Ford has called
+Chinese electric vehicles spy
+vehicles.
+>> You know, when you get on
+your cell phone, it's the
+Chinese that are going to be
+listening to you.
+And I'm not making this stuff
+up.
+They're going to be listening to
+your telephone conversation.
+>> So what should and shouldn't
+you be worried about when you're
+in the driver's seat?
+David Shipley is the CEO and
+co-founder of Beauceron
+Security, and he joins us from
+Fredericton, New Brunswick.
+Hello, David.
+How are you today?
+>> I'm well, thank you.
+>> All right.
+Well, let's talk about Chinese
+EVs.
+Do they present more of a
+security threat than EVs that
+are being built here in the
+West, or even, let's say,
+internet connected vehicles?
+>> Our focus on this discussion
+with Chinese EVs really centres
+around the potential hostility
+of the Chinese state towards us.
+But the mistake that legislators
+and public policy makers are
+making here is assuming that
+that hostility could only
+manifest itself through attacks
+via Chinese vehicles, which is a
+huge mistake.
+And it's about all of these
+internet connected vehicles, not
+just Chinese EVs, but cars with
+traditional gas or diesel
+engines that also have 24 over
+seven internet connections and
+are now more rolling computers
+than they are cars.
+>> Well, let's talk about it.
+Obviously, Chinese EVs, there
+are some legitimate concerns, as
+you mentioned, when we talk
+about the Chinese government.
+But what is the bigger picture
+when it comes to these internet
+connected vehicles compared to
+whether or not they're electric
+or not, or whether or not
+they're built in China or not?
+>> So we have known for almost
+11 years that there are massive
+safety as well as privacy issues
+with cars made by a variety of
+manufacturers.
+In 2015, we saw wired magazine
+show a video of hackers over the
+internet taking control of a
+Jeep Cherokee while the reporter
+drove the vehicle and they were
+able to mess with the vehicle's
+entertainment centre, turn the
+wipers on, blast the A C, and
+they turned the transmission
+into a park mode while driving
+on the highway.
+And if you watch this video, you
+can hear Andy Greenberg's panic
+start in his voice in a parking
+lot.
+They demonstrated how they could
+remotely disable the brakes and
+take control of the steering.
+That was a decade ago.
+Last year, researchers showed a
+2020 Nissan Leaf could be hacked
+via a Bluetooth connection,
+establishing the ability to
+remote back in again over the
+internet via a cellular modem,
+and again could take physical
+control of the vehicle.
+And it took Nissan 18 months to
+fix it.
+That Jeep Cherokee bug, by the
+way, affected more than just
+Jeep Cherokees.
+It affected a whole range of
+Stellantis vehicles.
+There were about a million cars
+that had to get a recall to
+prevent being hacked over the
+internet.
+And researchers are showing bugs
+big security bugs in cars
+every single year just with what
+they're able to figure out now
+let alone with what AI is now
+going to enable them to find.
+>> I don't know many people in
+my life right now who are
+driving a 1996 Honda Civic, you
+know, with crank windows,
+everyone seems to be connected.
+Can we get a better sense of how
+many vehicles are actually
+connected to the internet?
+>> According to my research,
+about 47% of all cars on
+Canadian roads today are
+connected to the internet 24
+over seven, and you can tell if
+your car has an app that enables
+you to remote start, unlock the
+doors, get vehicle diagnostics.
+That car is connected to the
+internet.
+I had a 2015 Chevrolet Sonic,
+and it had this 4G cellular
+connectivity baked into it, and
+GM was gathering tons of data.
+So this isn't just about
+Tesla's, you know, cars that
+almost go back a decade have
+been doing this.
+90% of new cars sold in Canada
+today have this 24 over seven
+internet connection.
+And there are a variety of
+business reasons legitimate and
+some not so legitimate from an
+end customer perspective, why
+they're pushing internet
+connectivity down our throats.
+>> Question is that something
+you can turn off on the consumer
+end?
+If I was concerned, and at the
+end of the day, we don't want to
+be alarmist here, but is that
+something that if I am concerned
+about, can I turn it off?
+>> No.
+There is no easy way for people
+to turn off.
+And that's the fundamental first
+point I've made to legislators
+is that it is not
+technologically complex to build
+in the capacity via hardware,
+not via software, because you
+can't trust software.
+Software can lie to you and say,
+no, no, it's turned off and it's
+not.
+So either be a physical switch
+or a fuse dedicated in the car's
+fuse box that an owner could
+easily identify to pull the
+plug.
+And there are lots of legitimate
+reasons why you'd want to do
+that.
+First, let's imagine there's a
+widespread vulnerability.
+Let's take an example of
+Canada's own success story, QNX,
+which is made by BlackBerry and
+is the operating system for more
+than 230 million cars.
+If it has a critical
+vulnerability and it's going to
+take some time to safely patch
+it and get that recall done, we
+may want to be in a position
+where we could put out public
+news and say, if you own one of
+the following model cars, here's
+what you do so you can still
+drive your car safely.
+And we don't have that
+capability.
+In fact, thanks to US
+legislation mandating remote
+kill switches over the internet
+into car manufacturers, we're
+actually heading in the exact
+opposite policy direction where
+people don't have the control to
+do this.
+And the legislators intents here
+are admirable from certain
+public policy standpoints.
+So if people haven't paid fines
+or they're remiss in, say, child
+support payments, maybe they can
+have their car disabled as some
+kind of a public policy lever.
+Which sounds cool.
+Until GM gets hacked by China
+and 7 million cars don't start
+that day.
+And if we're thinking this
+sounds science fictiony.
+>> It does.
+>> A a car security manufacturer
+in Russia called Delta, which
+made a security system that
+could remotely disable the
+engine, was hacked by an unknown
+group.
+We can probably draw conclusions
+as to who did it, and cars were
+not starting and cars that were
+driving were drivers reported
+the engine stopping.
+So it's already happened.
+>> From what I gather, you are
+less worried about espionage and
+more worried about bad actors,
+and that can come in a variety
+of ways.
+Can you elaborate a little bit
+on that?
+>> Well, so when it comes to
+physical safety, this is where
+you people can be killed.
+You know, when we saw that Julia
+Roberts Marchand, a fantastic
+dystopian cyber attack movie,
+what we leave behind and all
+these Teslas slamming into each
+other, driving themselves,
+blocking all the exits on an off
+ramp.
+I would very much like to leave
+that in the realm of dramatic
+science fiction, we are pushing
+the pedal down to make it real,
+and that seems like a stupid,
+dumb idea.
+And not only that, police forces
+across this country do not have
+the capability to do forensic
+analysis.
+And even nationally, we don't
+have the capacity in a lab to do
+forensic analysis.
+So we are going to have people
+killed by intimate partners or
+others, by injecting software
+bugs into their cars.
+It's it's possible.
+It's plausible there's motive,
+and we wouldn't have the ability
+to even know what's happening.
+So if we can reasonably foresee
+these disasters, why are we
+doing it?
+And, you know, if you're if
+you're listening to this and
+saying, well, why wouldn't the
+car manufacturers care about
+this?
+Because they care more about
+other things.
+And I'll talk about those in a
+minute.
+And those touch more on the
+privacy and consumer rights
+stuff.
+But car manufacturers, over
+their entire modern history have
+consistently shown us they will
+prioritise profits over safety.
+Remember, these are the folks
+that brought us the side mounted
+gas tank on pickup trucks that
+decided that making certain
+changes to engineering designs
+for low incremental cost weren't
+worth it to them, even though
+they could reasonably anticipate
+up to a thousand deaths per
+year.
+So this industry has shown us
+that they can't self-regulate in
+the past.
+They have that zebra has not
+changed its stripes.
+So we do need reasonable
+government regulation.
+And it's because the business
+drivers behind this data are so
+powerful.
+>> We're talking about power.
+I do have to ask, you know, what
+role does artificial
+intelligence play into this?
+When we're talking about sort of
+you give that example of the
+cheap jerky.
+You know, that was quite a
+while, a while ago.
+How quickly can people do some
+of the things that you're
+saying?
+>> So so the two researchers
+behind the Jeep Cherokee hack,
+Chris Valasek, and I apologise.
+I can't remember the other
+gentleman's name.
+These were experienced, well
+educated, professional hackers.
+Ethical hackers who.
+Charlie Miller, sorry, it was
+Charlie Miller and Chris Valasek
+knew exactly what they were
+doing.
+Today we're hearing stories, and
+we're seeing examples of AI
+models that have distilled that
+expertise and could make it
+available to someone who is far
+less experienced.
+And that's where the danger
+blossoms from.
+Just being nation states with
+their elite hacking teams, like
+China's amazing hacking teams
+through their Ministry of State
+Security, to an embittered 17
+year old who's been radicalised
+by groups of misanthropes.
+That's the people that just hate
+other humans through groups like
+seven, six, four online and just
+want to see if they can kill
+some innocent people.
+And that's that's my first
+point.
+But legislators honestly, Jeyan,
+they just they keep going back
+to the privacy and the espionage
+and honestly, spying is going to
+happen.
+It's the great game and you can
+be smart about it and say, okay,
+maybe internet connected
+vehicles shouldn't be
+insensitive military or
+government sites.
+China did it banned Teslas years
+ago for good reason.
+But spying isn't our biggest
+concern.
+It's the potential abuse and
+manipulation of data by
+corporations and governments in
+ways that fundamentally harm
+Canadian rights.
+>> With that, does Canada have
+the security infrastructure and
+the professional personnel to
+deal with some of what you have
+mentioned today.
+>> Not even remotely close.
+You know, I listen to a
+legislator.
+I've testified twice in the last
+two months to parliamentary
+committees about this issue of
+internet connected car safety.
+And I my frustration could not
+be could not be larger to hear a
+politician talk about our
+laughably, pathetically outdated
+federal privacy laws, like it
+somehow would deter corporations
+from abusing this data.
+Nope.
+Or that it would somehow deter
+China's nation state hackers.
+Are you kidding me?
+We have a law that has not been
+fundamentally updated in 20 plus
+years that got the most minor of
+updates in 2015 under the under
+the Harper government, and that
+fundamentally positions
+Canadians and Ontarians today
+with less rights than Europeans
+and Californians.
+How is that?
+How do we tolerate that?
+And it's because our politicians
+aren't motivated by these
+issues.
+But the abuses are huge.
+And listen, when Texas is
+leading the human rights privacy
+rights charge and we're lagging
+behind Texas, we should really
+shake our heads.
+And it was Texas attorney
+general that caught several
+automakers illegally taking
+people's driving data, selling
+it without their consent to
+their insurance companies.
+And then they noticed their
+insurance rates got up.
+I mean, that's one of the risk
+factors.
+We talk about this.
+The other risk factors with
+these internet connected cars,
+intimate partner violence.
+I can tell you, I've had phone
+calls where I have sadly had to
+develop a checklist of people
+fleeing intimate partner
+violence, where the person
+they're fleeing is
+technologically sophisticated.
+And I remember walking someone
+through this and they had a
+Subaru.
+This was five years ago.
+And I had to ask them, do you
+know if your car has this
+internet connected feature?
+And they didn't even realise it
+and it did.
+And so their physical location
+was then compromised.
+So they didn't just have to get
+rid of their computer and their
+smartphone.
+They had to ditch their car.
+>> David, we are going to leave
+it there.
+This was really, really
+insightful.
+Makes me want to get a 1998
+Honda Civic or something like
+that.
+But some really good information
+there.
+I really appreciate your time.
+>> You're very welcome.
