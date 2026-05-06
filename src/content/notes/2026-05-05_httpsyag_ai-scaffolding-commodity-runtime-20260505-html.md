@@ -4,31 +4,30 @@ source: https://yage.ai/share/ai-scaffolding-commodity-runtime-20260505.html
 speaker: yage.ai
 title: AI 脚手架正在商品化，人的工作变成判断边界
 date: '2026-05-05'
-summary: 文章探讨了随着AI模型能力的提升和AI脚手架工具的商品化，人类工作重心正从执行转向判断。核心在于区分哪些任务可以交给标准运行时（如Claude Code），哪些需要基于领域知识和风险评估自行设计脚手架。这要求AI从业者将精力更多地投入到定义问题、设定边界、建立验收标准等更高层面的工作。
+summary: 文章指出，随着AI模型和代理运行时发展，软件工程重心从提示词工程和定制化代理循环转向更高层次的判断和边界定义。任务正被商品化，工程师角色转向决策和标准设定。
 area: tech-engineering
-category: tech-trends
+category: ai-application
 tags:
-  - ai-scaffolding
   - agentic-runtime
-  - judgment-boundary
+  - prompt-engineering
   - harness-engineering
+  - ai-in-software-development
 people:
   - Garry Tan
 companies_orgs:
   - OpenAI
   - Anthropic
-  - Cursor
 products_models:
   - ChatGPT
   - GPT-4
   - GPT-5
   - GPT-5.5
-  - Claude Opus 4.7
   - Claude Code
   - Codex
   - Cursor
   - OpenCode
-  - LangChain
+  - SWE-bench
+  - SWE-Agent
 media_books: []
 draft: true
 status: evergreen
