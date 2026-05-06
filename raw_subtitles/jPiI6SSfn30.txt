@@ -1,0 +1,4255 @@
+No
+ country
+ on
+ Earth
+ can
+ build
+ an
+
+
+advanced
+ AI
+ chip
+ alone.
+ Or
+ can
+ it?
+ Why
+
+
+does
+ Taiwan
+ get
+ mentioned
+ in
+ every
+
+
+potential
+ geopolitical
+ crisis?
+ Why
+ is
+
+
+this
+ specific
+ island
+ the
+ heart
+ of
+ the
+
+
+semiconductor
+ industry?
+ Why
+ can't
+ China,
+
+
+with
+ all
+ of
+ its
+ money
+ and
+ manufacturing
+
+
+power,
+ build
+ its
+ own
+ advanced
+ chips?
+ And
+
+
+why
+ does
+ Taiwan
+ need
+ the
+ Netherlands,
+
+
+not
+ Germany,
+ not
+ Switzerland,
+ not
+ anyone
+
+
+else
+ in
+ Europe,
+ to
+ keep
+ the
+ world
+
+
+dependent
+ on
+ it?
+ This
+ is
+ the
+ new
+ episode
+
+
+in
+ the
+ business
+ of
+ AI,
+ the
+ business
+ of
+
+
+chips.
+ And
+ by
+ the
+ end
+ of
+ it,
+ you
+ will
+
+
+understand
+ the
+ entire
+ semiconductor
+
+
+business,
+ every
+ country,
+ every
+
+
+dependency,
+ every
+ choke
+ point
+ to
+ really
+
+
+understand
+ who
+ controls
+ this
+ business
+
+
+and
+ why
+ one
+ broken
+ link
+ can
+ bring
+ down
+
+
+the
+ electronics
+ market
+ across
+ the
+ globe.
+
+
+Let's
+ dive
+ in.
+
+
+The
+ entire
+ system
+ runs
+ on
+ eight
+ critical
+
+
+links.
+ Each
+ one
+ dependent
+ on
+ the
+ next.
+
+
+Dependency
+ one,
+ electronic
+ design
+
+
+automation
+ software
+ or
+ EDA.
+ Before
+ a
+
+
+single
+ atom
+ of
+ silicon
+ is
+ touched,
+ the
+
+
+entire
+ chip
+ must
+ be
+ designed.
+ This
+ is
+
+
+done
+ entirely
+ in
+ software.
+ Two
+ American
+
+
+companies,
+ Synapsis
+ and
+ Cadence,
+ each
+
+
+hold
+ 35%
+ of
+ the
+ global
+ EDA
+ market.
+ The
+
+
+third,
+ Seammen's
+ EDA,
+ Americanbased
+ by
+
+
+owned
+ by
+ Germany,
+ holds
+ around
+ 15%.
+
+
+Every
+ chip
+ designed
+ on
+ earth,
+ every
+
+
+Apple
+ A
+ series
+ chip,
+ every
+ custom
+ ASIC,
+
+
+every
+ Nvidia
+ GPU
+ is
+ designed
+ in
+ this
+
+
+software.
+ But
+ why
+ in
+ a
+ world
+ overflowing
+
+
+with
+ SAS
+ companies
+ is
+ EDA
+ controlled
+ by
+
+
+only
+ these
+ three?
+ Because
+ EDA
+ is
+ not
+
+
+ordinary
+ software.
+ It
+ took
+ 40
+ years
+ to
+
+
+build.
+ The
+ hardest
+ thing
+ about
+ it
+ is
+
+
+proving
+ mathematically
+ that
+ a
+ chip
+ with
+
+
+billions
+ of
+ transistors
+ will
+ work
+
+
+properly
+ before
+ it
+ gets
+ manufactured
+
+
+because
+ the
+ cost
+ of
+ error
+ is
+ 10
+ to
+ $50
+
+
+million
+ per
+ design.
+ Dependency
+ two,
+ the
+
+
+silicon.
+ The
+ wafer
+ is
+ a
+ flat
+ disc
+ of
+
+
+pure
+ silicon
+ on
+ which
+ every
+ transistor
+
+
+is
+ built.
+ A
+ 300
+ millimeter
+ wafer
+ used
+
+
+for
+ advanced
+ chips
+ must
+ be
+ made
+ from
+
+
+silicon
+ with
+ purity
+ of
+ 99.99999.
+
+
+Just
+ for
+ comparison,
+ 100%
+ purity
+ does
+
+
+not
+ exist
+ in
+ nature.
+ So
+ this
+ is
+ as
+ close
+
+
+as
+ it
+ can
+ humanly
+ get.
+ If
+ you
+ misplace
+ a
+
+
+single
+ contaminated
+ atom
+ in
+ the
+ crystal
+
+
+structure,
+ it'll
+ propagate
+ as
+ a
+ defect
+
+
+through
+ every
+ layer
+ built
+ on
+ top
+ of
+ it.
+
+
+Growing
+ a
+ crystal
+ of
+ this
+ purity
+
+
+requires
+ exactly
+ the
+ right
+ temperature,
+
+
+rotation
+ speed,
+ gas
+ atmosphere,
+ and
+
+
+slicing
+ and
+ polishing
+ it
+ to
+ a
+ flatness
+
+
+deviation
+ of
+ less
+ than
+ one
+ nanometer
+
+
+across
+ the
+ entire
+ surface.
+ There
+ are
+
+
+only
+ two
+ companies
+ in
+ the
+ world
+ that
+
+
+manufacture
+ silicon
+ of
+ this
+ purity
+ at
+
+
+scale
+ and
+ it's
+ Shinu
+ Chemical
+ and
+ Sunko.
+
+
+Both
+ of
+ them
+ control
+ 72%
+ of
+ the
+ global
+
+
+silicon
+ wafer
+ market.
+ Both
+ of
+ them
+ are
+
+
+Japanese.
+ Now,
+ why
+ are
+ they
+ Japanese?
+
+
+Because
+ Japan
+ has
+ a
+ history
+ of
+ precision
+
+
+materials
+ manufacturing
+ that
+ started
+
+
+back
+ in
+ the
+ 70s.
+ The
+ reason
+ is
+ Japan
+ and
+
+
+not
+ any
+ other
+ place
+ in
+ Asia
+ is
+ because
+
+
+they
+ have
+ proximity
+ of
+ chemical
+ and
+
+
+equipment
+ suppliers
+ in
+ the
+ same
+
+
+industrial
+ region
+ and
+ a
+ manufacturing
+
+
+culture
+ that
+ is
+ known
+ for
+ precision.
+
+
+Their
+ key
+ selling
+ point
+ is
+ lotto
+ lot
+
+
+consistency
+ over
+ decades.
+ Dependency
+
+
+number
+ three,
+ photoresist.
+ Photoresist
+
+
+is
+ the
+ chemical
+ ink
+ coated
+ onto
+ the
+
+
+surface
+ of
+ the
+ silicon
+ wafer.
+ Without
+
+
+this
+ ink,
+ lithography
+ machines
+ cannot
+
+
+transfer
+ any
+ pattern
+ onto
+ a
+ chip.
+ But
+
+
+why
+ is
+ this
+ ink
+ hard
+ to
+ produce?
+ Extreme
+
+
+ultraviolet
+ photoresist
+ must
+ have
+ a
+
+
+purity
+ of
+ 99.99999.
+
+
+The
+ same
+ 999s
+ as
+ the
+ wafer
+ but
+ in
+ a
+
+
+liquid
+ chemical
+ compound.
+ Getting
+ to
+
+
+this
+ precision
+ of
+ purity
+ is
+ decades
+ of
+
+
+research
+ in
+ chemical
+ synthesis.
+ There's
+
+
+only
+ a
+ handful
+ of
+ countries
+ on
+ the
+
+
+entire
+ planet
+ that
+ specialize
+ in
+ this
+
+
+type
+ of
+ chemical
+ engineering.
+ The
+
+
+Japanese
+ hold
+ a
+ 100%
+ monopoly
+ for
+
+
+extreme
+ ultraviolet
+ photoresist.
+ The
+ key
+
+
+suppliers
+ are
+ JSR
+ to
+ Shin
+ etsu
+ chemical.
+
+
+Japan
+ knows
+ that
+ it's
+ a
+ weapon
+ and
+
+
+they're
+ already
+ using
+ it
+ as
+ a
+
+
+geopolitical
+ lever.
+ Without
+ photoresist,
+
+
+a
+ semiconductor
+ plant
+ physically
+ cannot
+
+
+run
+ lithography.
+ Full
+ stop.
+ In
+ 2019,
+
+
+they
+ restricted
+ exports
+ to
+ South
+ Korea,
+
+
+which
+ immediately
+ threatened
+ Samsung
+ and
+
+
+SKH
+ Highix,
+ one
+ of
+ the
+ three
+ companies
+
+
+on
+ the
+ planet
+ that
+ produced
+ high
+
+
+bandwidth
+ memory.
+ And
+ in
+ late
+ 2024,
+
+
+Japan
+ deployed
+ expert
+ controls
+ to
+ China.
+
+
+Like
+ many
+ of
+ you,
+ I
+ have
+ been
+ thinking
+
+
+about
+ starting
+ a
+ company
+ and
+ I
+ keep
+
+
+coming
+ back
+ to
+ the
+ same
+ idea.
+ I
+ want
+ it
+
+
+to
+ be
+ a
+ physical
+ product.
+ I've
+ gone
+
+
+through
+ a
+ bunch
+ of
+ directions,
+ but
+ what
+
+
+sticks
+ is
+ something
+ modular,
+
+
+customizable,
+ high
+ quality,
+ and
+ design
+
+
+forward.
+ Something
+ that
+ people
+ would
+
+
+actually
+ use
+ every
+ day.
+ So,
+ I
+ thought
+
+
+perhaps
+ a
+ furniture
+ brand,
+ a
+ premium
+
+
+furniture
+ brand
+ designed
+ specifically
+
+
+for
+ people
+ who
+ work
+ from
+ home.
+ But
+ if
+
+
+you've
+ ever
+ tried
+ to
+ launch
+ something
+
+
+like
+ this,
+ you
+ realize
+ pretty
+ quickly
+
+
+that
+ the
+ product
+ isn't
+ the
+ hardest
+ part.
+
+
+Because
+ before
+ you
+ spend
+ a
+ dollar
+ on
+
+
+manufacturing,
+ you
+ need
+ to
+ know
+ if
+
+
+people
+ are
+ actually
+ going
+ to
+ buy
+ it.
+ And
+
+
+the
+ fastest
+ way
+ to
+ test
+ it
+ is
+ to
+ make
+
+
+the
+ idea
+ feel
+ real.
+ The
+ brand,
+ the
+
+
+visuals,
+ creative
+ direction,
+ ads,
+
+
+content,
+ distribution
+ plan.
+ Basically,
+ a
+
+
+smallcale
+ marketing
+ campaign.
+ And
+ that's
+
+
+what
+ I'm
+ going
+ to
+ use
+ Hicksfield
+
+
+Supercomputer
+ for.
+ I
+ will
+ connect
+ it
+
+
+directly
+ to
+ Claude
+ and
+ use
+ it
+ as
+ three
+
+
+different
+ roles.
+ first
+ as
+ a
+ marketer
+
+
+because
+ I
+ want
+ to
+ pressure
+ test
+ my
+ idea.
+
+
+Who
+ actually
+ buys
+ premium
+ work
+ from
+ home
+
+
+furniture
+ and
+ what
+ it
+ does
+ is
+ it
+ narrows
+
+
+it
+ down
+ to
+ highincome
+ professionals
+
+
+optimizing
+ for
+ a
+ focus
+ aesthetics
+ and
+
+
+status.
+ The
+ second
+ as
+ a
+ designer
+ in
+ my
+
+
+brand
+ I
+ want
+ taste,
+ I
+ want
+ modern.
+ I
+
+
+want
+ sleek.
+ That
+ informs
+ the
+ brand
+ and
+
+
+creative
+ direction.
+ What
+ should
+ the
+
+
+brand
+ feel
+ like?
+ What
+ kind
+ of
+ visuals
+
+
+signal
+ premium
+ without
+ saying
+ it?
+ And
+ in
+
+
+return,
+ I
+ get
+ the
+ visual
+ direction,
+ ad
+
+
+concepts,
+ and
+ product
+ storytelling.
+ And
+
+
+third,
+ as
+ a
+ content
+ strategist.
+ It
+
+
+breaks
+ down
+ the
+ hooks,
+ the
+ video
+
+
+structures,
+ the
+ formats
+ that
+ already
+
+
+work
+ in
+ this
+ market
+ for
+ this
+ type
+ of
+
+
+product.
+ And
+ most
+ importantly,
+ it
+ adapts
+
+
+them
+ to
+ my
+ specific
+ idea.
+ What
+ it
+ does
+
+
+is
+ it
+ lets
+ a
+ solo
+ founder
+ operate
+ as
+ if
+
+
+they're
+ a
+ small
+ company.
+ You
+ still
+ need
+
+
+the
+ judgment.
+ You
+ still
+ need
+ taste.
+ and
+
+
+you
+ still
+ need
+ to
+ decide
+ what's
+ worth
+
+
+building,
+ but
+ you're
+ not
+ blocked
+ by
+
+
+execution
+ anymore.
+ If
+ you're
+ trying
+ to
+
+
+test
+ an
+ idea
+ or
+ build
+ something,
+
+
+Hicksfield
+ is
+ a
+ whole
+ marketing
+ and
+
+
+creative
+ agent
+ allin-one
+ that
+ can
+ help
+
+
+bring
+ any
+ business
+ to
+ life
+ before
+ you
+
+
+make
+ your
+ first
+ investment.
+ And
+ if
+ you
+
+
+want
+ a
+ simpler
+ version
+ of
+ it,
+ you
+ can
+
+
+use
+ a
+ standalone
+ service
+ from
+ Hicksfield
+
+
+called
+ Marketing
+ Studio
+ if
+ you
+ want
+ to
+
+
+focus
+ specifically
+ on
+ the
+ content
+ assets
+
+
+for
+ your
+ products.
+ The
+ link
+ is
+ in
+ the
+
+
+description.
+
+
+process
+ gases.
+ Every
+ chemical
+ step
+ in
+
+
+chip
+ fabrication
+ requires
+ gases.
+
+
+Semiconductor
+ grade
+ gases
+ must
+ be
+ pure,
+
+
+free
+ of
+ moisture,
+ free
+ of
+ oxygen,
+ free
+
+
+of
+ hydrocarbons,
+ and
+ free
+ of
+ metal
+
+
+contamination.
+ Neon
+ gas
+ used
+ in
+ lasers
+
+
+that
+ power
+ lithography
+ machines
+ was
+ 70%
+
+
+sourced
+ from,
+ of
+ all
+ places,
+ my
+ native
+
+
+country
+ of
+ Ukraine
+ before
+ the
+ 2022
+
+
+Russian
+ invasion.
+ Why
+ Ukraine?
+ The
+ thing
+
+
+is
+ neon
+ is
+ present
+ everywhere
+ in
+ air.
+
+
+The
+ problem
+ is
+ that
+ extracting
+ and
+
+
+purifying
+ it
+ to
+ semiconductor
+ grade
+
+
+purity
+ requires
+ a
+ specific
+ industrial
+
+
+setup.
+ You
+ need
+ massive
+ equipment
+ that
+
+
+processes
+ enormous
+ volumes
+ of
+ air
+ to
+
+
+separate
+ gases.
+ And
+ those
+ are
+ only
+
+
+economically
+ viable
+ when
+ attached
+ to
+
+
+something
+ that
+ already
+ needs
+ that
+
+
+infrastructure.
+ That
+ something
+ is
+ steel
+
+
+mills.
+ Ukraine
+ inherited
+ hundreds
+ of
+
+
+Soviet
+ steel
+ mills
+ that
+ were
+ built
+ at
+
+
+enormous
+ scale
+ during
+ the
+ Cold
+ War
+ to
+
+
+supply
+ the
+ Soviet
+ military-industrial
+
+
+complex.
+ The
+ Soviets
+ captured
+ neon
+ and
+
+
+other
+ gases
+ for
+ experimental
+ weapons
+ and
+
+
+missiles
+ and
+ satellites.
+ But
+ after
+ the
+
+
+Soviets
+ collapsed,
+ two
+ Ukrainian
+
+
+companies
+ mastered
+ the
+ purification
+
+
+process
+ to
+ semiconductor
+ grade
+ purity
+
+
+and
+ spent
+ decades
+ supplying
+ about
+ 50%
+ of
+
+
+the
+ world's
+ semiconductor
+ grade
+ neon.
+
+
+Why
+ couldn't
+ other
+ countries
+ just
+ do
+ the
+
+
+same?
+ Because
+ you
+ need
+ both
+ the
+ steel
+
+
+mill
+ scale
+ and
+ the
+ purification
+
+
+expertise
+ to
+ produce
+ purified
+ neon
+ at
+
+
+scale.
+ And
+ most
+ Western
+ countries
+ had
+
+
+either
+ dismantled
+ or
+ never
+ built
+ the
+
+
+Soviet
+ scale
+ steel
+ capacity.
+ When
+ the
+
+
+plans
+ shut
+ down
+ in
+ March
+ 2024,
+ neon
+
+
+prices
+ spiked
+ 600%
+ and
+ the
+ global
+ chip
+
+
+industry
+ scrambled
+ to
+ find
+ alternatives.
+
+
+China
+ stepped
+ in
+ as
+ the
+ primary
+
+
+replacement
+ and
+ South
+ Korea's
+ POSCO
+
+
+announced
+ expansion
+ of
+ industrial
+ gas
+
+
+capacity
+ to
+ reduce
+ dependence
+ on
+ Ukraine
+
+
+as
+ of
+ April
+ 2026.
+ Dependency
+ number
+ five
+
+
+are
+ finally
+ getting
+ to
+ the
+ Netherlands.
+
+
+The
+ Dutch
+ giant
+ ASML,
+ the
+ gatekeeper
+
+
+behind
+ every
+ chip
+ that
+ Taiwan
+ produces.
+
+
+Lithography
+ is
+ the
+ process
+ of
+ printing
+
+
+circuit
+ patterns
+ onto
+ the
+ silicon
+ wafer
+
+
+using
+ light.
+ The
+ machine
+ that
+ generates
+
+
+and
+ focuses
+ this
+ light
+ is
+ the
+ extreme
+
+
+ultraviolet
+ lithography
+ system.
+ There
+ is
+
+
+only
+ one
+ company
+ in
+ the
+ entire
+ world
+
+
+that
+ makes
+ these
+ machines.
+ ASML
+
+
+advanced
+ semiconductor
+ materials
+
+
+lithography.
+ Headquartered
+ in
+
+
+Idenhovven,
+ Netherlands.
+ It
+ holds
+ 100%
+
+
+of
+ the
+ global
+ EUV
+ market.
+ Why
+ the
+
+
+Netherlands?
+ Because
+ ASML
+ was
+ spun
+ out
+
+
+of
+ Phillips,
+ the
+ Dutch
+ electronics
+
+
+giant,
+ it
+ inherited
+ Philips's
+ research
+
+
+and
+ development
+ labs
+ that
+ specialize
+ in
+
+
+precision
+ engineering
+ as
+ well
+ as
+ a
+
+
+legacy
+ of
+ supplier
+ relationship.
+ The
+
+
+supplier
+ relationships
+ are
+ massively
+
+
+important
+ because
+ ASML's
+ machines
+
+
+contain
+ over
+ 100,000
+ components
+ and
+ ASML
+
+
+itself
+ manufactures
+ only
+ 15%
+ of
+ them.
+
+
+The
+ rest
+ come
+ from
+ a
+ supplier
+ network
+ of
+
+
+over
+ 5,000
+ companies.
+ The
+ two
+ most
+
+
+critical
+ are
+ the
+ German
+ Carl
+ Zeiss
+ SMT,
+
+
+the
+ only
+ company
+ in
+ the
+ world
+ that
+
+
+manufactures
+ mirrors
+ inside
+ an
+ EUV
+
+
+machine.
+ Zeiss
+ and
+ ASML
+ have
+ been
+
+
+co-developing
+ these
+ optics
+ for
+ over
+ 30
+
+
+years.
+ And
+ these
+ EUV
+ mirrors
+ do
+ not
+
+
+exist
+ anywhere
+ else.
+ and
+ the
+ American
+
+
+Syimer,
+ the
+ only
+ company
+ that
+ makes
+ the
+
+
+laser
+ that
+ generates
+ EUV
+ light
+ inside
+
+
+the
+ machine.
+ Syimer
+ was
+ acquired
+ by
+ ASML
+
+
+in
+ 2013,
+ but
+ it
+ is
+ a
+ US
+ origin
+
+
+technology
+ and
+ this
+ is
+ the
+ key
+ as
+ to
+ how
+
+
+the
+ US
+ can
+ legally
+ reach
+ into
+ ASML's
+
+
+business.
+ Under
+ the
+ foreign
+ direct
+
+
+product
+ rule,
+ the
+ US
+ can
+ regulate
+
+
+exports
+ of
+ foreign-made
+ products
+ if
+ they
+
+
+contain
+ or
+ are
+ made
+ using
+ the
+ critical
+
+
+US
+ technology.
+ Because
+ ASML's
+ EUV
+
+
+machines
+ depend
+ on
+ Simer's
+ US
+ origin
+
+
+light
+ source.
+ Those
+ entire
+ scanners
+ are
+
+
+treated
+ as
+ foreign
+ direct
+ products
+ of
+
+
+the
+ US
+ which
+ gives
+ Washington
+ the
+ right
+
+
+to
+ say
+ you
+ cannot
+ sell
+ your
+ machines
+ to
+
+
+China
+ without
+ our
+ permission.
+ And
+ of
+
+
+course
+ ASML
+ does
+ not
+ have
+ that
+
+
+permission.
+ This
+ is
+ the
+ critical
+ reason
+
+
+why
+ China
+ cannot
+ build
+ its
+ own
+ chip
+
+
+fabrication
+ plants.
+ They
+ do
+ not
+ have
+
+
+access
+ to
+ these
+ machines.
+ But
+ why
+ can't
+
+
+anyone
+ replicate
+ ASML?
+ Because
+ you
+ need
+
+
+Zeiss
+ optics
+ that
+ are
+ under
+ German
+
+
+expert
+ controls.
+ You
+ need
+ cyber
+ lasers
+
+
+under
+ US
+ expert
+ controls.
+ And
+ 30ome
+
+
+years
+ of
+ relationship,
+ give
+ or
+ take,
+
+
+between
+ optics,
+ laser,
+ and
+ vacuum
+
+
+systems.
+ But
+ why
+ the
+ Netherlands?
+ Why
+
+
+not
+ France
+ or
+ Switzerland?
+ They
+ also
+
+
+border
+ Germany.
+ Because
+ bordering
+
+
+Germany
+ has
+ nothing
+ to
+ do
+ with
+ it.
+ The
+
+
+reason
+ is
+ Phillips.
+ and
+ Philillips
+ being
+
+
+an
+ Idenhovven
+ specifically
+ when
+
+
+lithography
+ technology
+ emerged
+ in
+ the
+
+
+60s
+ Philillips
+ was
+ already
+ doing
+
+
+precision
+ optics
+ and
+ photoiththography
+
+
+for
+ its
+ own
+ consumer
+ electronics
+ neither
+
+
+France
+ nor
+ Germany
+ or
+ Switzerland
+ had
+ an
+
+
+equivalent
+ dependency
+ six
+ between
+ each
+
+
+step
+ in
+ the
+ lithography
+ machine
+ the
+ chip
+
+
+needs
+ other
+ processes
+ carving
+ away
+
+
+unwanted
+ material
+ adding
+ new
+ layers
+ on
+
+
+top
+ adding
+ heat
+ to
+ lock
+ everything
+ in
+
+
+place
+ each
+ of
+ those
+ actions
+ requires
+ its
+
+
+own
+ specialized
+ equipment
+ and
+ that
+
+
+equipment
+ is
+ where
+ the
+ second
+ layer
+ of
+
+
+the
+ American
+ and
+ Japanese
+ controls
+ sit.
+
+
+Etching
+ is
+ the
+ process
+ of
+ carving
+ away
+
+
+the
+ material
+ that
+ was
+ exposed
+ during
+
+
+lithography.
+ The
+ global
+ market
+ for
+ etch
+
+
+equipment
+ is
+ dominated
+ by
+ lamb
+ research
+
+
+an
+ American
+ company
+ with
+ 50%
+ global
+
+
+market
+ share.
+ Applied
+ materials
+ also
+
+
+American
+ holds
+ most
+ of
+ the
+ rest.
+
+
+Deposition
+ is
+ the
+ reverse.
+ It's
+ adding
+
+
+ultra
+ thin
+ layers
+ of
+ new
+ material
+ onto
+
+
+the
+ wafer
+ surface.
+ The
+ American
+ Applied
+
+
+Materials
+ owns
+ this
+ niche
+ as
+ well.
+
+
+Thermal
+ processing,
+ heating
+ the
+ wafer
+ to
+
+
+repair
+ crystal
+ damage
+ and
+ lock
+
+
+structures
+ in
+ place,
+ is
+ owned
+ by
+ the
+
+
+Japanese
+ Tokyo
+ Electron.
+ Tokyo
+ Electron
+
+
+also
+ holds
+ a
+ near
+ 90%
+ global
+ monopoly
+ of
+
+
+these
+ machines.
+ And
+ finally,
+ inspection
+
+
+or
+ quality
+ control
+ that
+ runs
+ through
+
+
+every
+ layer.
+ After
+ every
+ major
+
+
+transformation
+ step
+ within
+ the
+ wafer,
+
+
+the
+ wafer
+ gets
+ scanned
+ for
+ defects.
+ Kla,
+
+
+another
+ American
+ company,
+ holds
+ 80%
+ of
+
+
+the
+ global
+ process
+ control
+ and
+
+
+inspection
+ market.
+ Without
+ KLA,
+ a
+
+
+fabrication
+ plant,
+ no
+ matter
+ where
+ it
+
+
+sits,
+ be
+ it
+ Taiwan
+ or
+ any
+ other
+ country
+
+
+on
+ Earth,
+ cannot
+ produce
+ a
+ single
+
+
+reliable
+ chip.
+ because
+ without
+ it,
+ you
+
+
+cannot
+ tell
+ whether
+ the
+ process
+ is
+
+
+working
+ until
+ the
+ chip
+ gets
+ to
+ the
+ end
+
+
+of
+ the
+ line.
+ By
+ which
+ point,
+ hundreds
+ of
+
+
+wafers
+ can
+ already
+ be
+ ruined.
+ As
+ you
+ can
+
+
+see,
+ this
+ dependency
+ is
+ controlled
+
+
+primarily
+ by
+ the
+ United
+ States
+ and
+ the
+
+
+United
+ States
+ government
+ in
+ April
+ 2026
+
+
+forbid
+ its
+ companies
+ from
+ shipping
+
+
+equipment
+ to
+ China.
+ Yet
+ another
+ reason
+
+
+why
+ China
+ cannot
+ build
+ its
+ own
+ chip.
+
+
+Dependency
+ 7,
+ the
+ photo
+ mask
+ and
+ pelle.
+
+
+The
+ photo
+ mask
+ is
+ the
+ template
+ from
+
+
+which
+ circuit
+ patterns
+ are
+ printed.
+ The
+
+
+pelle
+ is
+ a
+ thin
+ membrane
+ stretched
+ over
+
+
+the
+ mask
+ to
+ prevent
+ dust
+ particles
+ from
+
+
+landing
+ on
+ it.
+ Who
+ controls
+ this
+ step?
+
+
+For
+ pelleles,
+ the
+ suppliers
+ are
+
+
+primarily
+ Canon
+ and
+ Shinetsu
+ both
+
+
+Japanese.
+ Japan
+ holds
+ approximately
+ 30%
+
+
+of
+ global
+ supply.
+ But
+ for
+ photo
+ mask
+
+
+inspection
+ equipment,
+ the
+ tool
+ that
+
+
+inspects
+ the
+ photo
+ mask
+ for
+ defects,
+
+
+Japan
+ and
+ specifically
+ laser
+ tech
+ holds
+
+
+100%
+ global
+ monopoly.
+ This
+ is
+ important
+
+
+because
+ you
+ can
+ in
+ theory
+ manufacture
+ an
+
+
+EUV
+ lithography
+ machine,
+ you
+ can
+ coat
+
+
+your
+ wafers
+ with
+ photoresist.
+ But
+ if
+
+
+your
+ photo
+ mask
+ has
+ a
+ defect
+ and
+ you
+
+
+cannot
+ detect
+ it
+ because
+ only
+ laser
+ tech
+
+
+makes
+ the
+ inspection
+ tool.
+ every
+ chip
+
+
+that
+ you
+ print
+ from
+ that
+ mask
+ can
+ be
+
+
+defective.
+ Laser
+ tech
+ monopoly
+ is
+ small
+
+
+in
+ revenue
+ terms
+ but
+ absolute
+ in
+
+
+functional
+ terms.
+ And
+ finally,
+
+
+dependency
+ 8,
+ where
+ we
+ get
+ to
+ the
+ beasts
+
+
+of
+ semiconductor
+ manufacturing.
+
+
+Everything
+ I've
+ covered,
+ the
+ wafers,
+ the
+
+
+ink,
+ the
+ gases,
+ the
+ machines,
+ the
+ photo
+
+
+masks,
+ all
+ of
+ it
+ flows
+ into
+ a
+
+
+fabrication
+ plant.
+ And
+ there
+ are
+ only
+ a
+
+
+few
+ massive
+ players
+ in
+ the
+ foundry
+
+
+market.
+ the
+ Taiwanese
+ TSMC,
+ the
+ Taiwan
+
+
+semiconductor
+ manufacturing
+ company
+ that
+
+
+just
+ happens
+ to
+ hold
+ 70%
+ of
+ the
+ advanced
+
+
+chip
+ market,
+ and
+ Korean
+ Samsung
+ with
+
+
+7.2%.
+ When
+ Morris
+ Chang
+ founded
+ TSMC
+ in
+
+
+1987,
+ he
+ made
+ a
+ bet
+ that
+ most
+
+
+semiconductor
+ companies
+ did
+ not
+ want
+ to
+
+
+own
+ factories.
+ They
+ wanted
+ to
+ focus
+ on
+
+
+the
+ design.
+ And
+ he
+ was
+ right.
+ Apple
+
+
+designs
+ chips.
+ Nvidia
+ designs
+ chips,
+ but
+
+
+they
+ don't
+ make
+ them.
+ And
+ for
+ nearly
+ 40
+
+
+years,
+ every
+ major
+ chip
+ company
+ in
+ the
+
+
+world
+ sent
+ their
+ designs
+ to
+ TSMC
+ to
+ be
+
+
+physically
+ manufactured
+ in
+ Taiwan.
+ TSMC
+
+
+has
+ been
+ running
+ production
+ of
+
+
+cuttingedge
+ chips
+ longer
+ than
+ any
+ other
+
+
+company
+ on
+ Earth.
+ Within
+ a
+ 60-mi
+ radius
+
+
+of
+ TSMC's
+ headquarters,
+ there
+ are
+
+
+hundreds
+ of
+ specialized
+ semiconductor
+
+
+suppliers,
+ chemical
+ providers,
+ precision
+
+
+equipment
+ maintenance
+ companies,
+
+
+specialized
+ material
+ suppliers,
+
+
+photomass
+ makers
+ that
+ have
+ been
+
+
+co-evolving
+ with
+ TSMC
+ for
+ 40
+ years
+
+
+straight
+ and
+ they
+ can
+ respond
+ to
+
+
+production
+ issues
+ within
+ hours.
+ Samsung
+
+
+is
+ the
+ only
+ company
+ in
+ the
+ world
+ that
+
+
+can
+ even
+ attempt
+ leading
+ edge
+ production
+
+
+alongside
+ TSMC.
+ It
+ has
+ the
+ equipment.
+ It
+
+
+has
+ the
+ engineers,
+ the
+ EUV
+ machines,
+ the
+
+
+equipment,
+ but
+ it's
+ struggling
+ to
+ make
+
+
+chips
+ that
+ come
+ out
+ functional.
+ The
+
+
+current
+ yield
+ ratio
+ is
+ about
+ 40%.
+ At
+
+
+current
+ rates,
+ manufacturing
+ costs
+ for
+
+
+working
+ chip
+ are
+ so
+ high
+ that
+ major
+
+
+customers
+ like
+ Nvidia
+ or
+ Apple
+ or
+ Meta.
+
+
+Stay
+ with
+ TSMC.
+ Samsung
+ did
+ grow
+ 36%
+ in
+
+
+late
+ last
+ year.
+ But
+ it
+ happened
+ because
+
+
+it
+ was
+ manufacturing
+ its
+ own
+ chips
+ for
+
+
+internal
+ products
+ like
+ Galaxy
+ processors
+
+
+and
+ HBM
+ memory
+ in
+ their
+ own
+ foundry.
+ But
+
+
+it
+ wasn't
+ because
+ they
+ were
+ able
+ to
+ sell
+
+
+to
+ external
+ customers.
+ There's
+ also
+ the
+
+
+third
+ player,
+ Semiconductor
+
+
+Manufacturing
+ International
+ Corporation,
+
+
+who's
+ China's
+ national
+ champion,
+ and
+
+
+SMIC
+ is
+ genuinely
+ capable,
+ but
+ they're
+
+
+heavily
+ blocked
+ by
+ export
+ controls.
+ They
+
+
+are
+ indeed
+ producing
+ Huawei
+ chips,
+ but
+
+
+they
+ can't
+ get
+ top-of-the-line
+ ASML
+
+
+machines
+ from
+ the
+ Netherlands.
+ SMIC
+ is
+ a
+
+
+serious
+ foundaries
+ for
+ China's
+ domestic
+
+
+market,
+ but
+ at
+ the
+ moment,
+ it's
+
+
+irrelevant
+ to
+ the
+ global
+ AI
+ chip
+ race.
+
+
+Now,
+ back
+ to
+ the
+ question,
+ why
+ no
+
+
+country
+ can
+ build
+ a
+ chip
+ alone.
+ This
+
+
+business
+ is
+ impossible
+ to
+ replicate
+
+
+quickly
+ because
+ it
+ is
+ heavily
+
+
+interconnected.
+ Building
+ the
+ physical
+
+
+facility
+ costs
+ 15
+ to20
+ billion.
+ That
+
+
+alone
+ puts
+ it
+ out
+ of
+ reach
+ for
+ most
+
+
+nations.
+ But
+ the
+ capital
+ cost
+ is
+ not
+
+
+even
+ the
+ hardest
+ part.
+ One
+ World
+ Trade
+
+
+Center,
+ the
+ tallest
+ building
+ in
+ the
+
+
+Western
+ Hemisphere,
+ rebuilt
+ from
+ the
+
+
+ashes
+ of
+ 9/11
+ on
+ the
+ most
+ expensive
+
+
+piece
+ of
+ real
+ estate
+ in
+ the
+ world,
+ cost
+
+
+$5.1
+ billion.
+ You
+ can
+ build
+ three
+ World
+
+
+Trade
+ centers
+ and
+ still
+ have
+ money
+ left
+
+
+before
+ reaching
+ the
+ cost
+ of
+ a
+ single
+
+
+chip
+ fabrication
+ plant.
+ But
+ the
+ real
+
+
+moat
+ of
+ TSMC
+ is
+ that
+ it's
+ been
+
+
+accumulating
+ data
+ from
+ millions
+ of
+
+
+chips.
+ Every
+ defect,
+ every
+ adjusted
+
+
+parameter,
+ every
+ tuneup
+ is
+ irreplaceable
+
+
+institutional
+ knowledge.
+ Samsung
+ has
+
+
+spent
+ tens
+ of
+ billions
+ trying
+ to
+ match
+
+
+TSMC's
+ capacity
+ and
+ is
+ still
+
+
+significantly
+ behind.
+ Intel,
+ with
+ the
+
+
+world's
+ largest
+ semiconductor
+ R&D
+
+
+budget,
+ entered
+ high
+ volume
+
+
+manufacturing
+ in
+ late
+ 2025.
+ But
+ even
+
+
+now,
+ despite
+ the
+ budget,
+ their
+ yields
+
+
+are
+ materially
+ below
+ TSMC's.
+ Now,
+ if
+ you
+
+
+zoom
+ out
+ and
+ look
+ at
+ this
+ map,
+ you
+ see
+
+
+the
+ countries
+ that
+ repeat
+ from
+
+
+dependency
+ to
+ dependency.
+ So,
+ a
+ logical
+
+
+question
+ would
+ be,
+ why
+ isn't
+ Japan
+
+
+building
+ its
+ own
+ TSMC?
+ Why
+ don't
+ the
+
+
+Netherlands
+ manufacture
+ chips
+ directly
+
+
+and
+ own
+ 100%
+ of
+ the
+ market?
+ The
+ curious
+
+
+thing
+ is
+ that
+ Japan
+ actually
+ did
+ have
+
+
+its
+ own
+ chip
+ manufacturing
+ and
+ they
+ were
+
+
+dominant
+ in
+ the
+ 80s.
+ But
+ the
+ economics
+
+
+of
+ cutting
+ edge
+ fabrication
+ became
+ so
+
+
+capital
+ inensive
+ that
+ the
+ Japanese
+
+
+companies
+ couldn't
+ keep
+ up.
+ They
+ were
+
+
+not
+ able
+ to
+ fund
+ both
+ the
+ chip
+ design
+
+
+and
+ manufacturing
+ simultaneously.
+ On
+ top
+
+
+of
+ it,
+ Japan's
+ chip
+ companies
+ were
+
+
+designed
+ and
+ manufactured
+ for
+ their
+ own
+
+
+products
+ and
+ their
+ internal
+ market.
+ And
+
+
+this
+ model
+ works
+ when
+ you're
+ making
+
+
+chips
+ for
+ your
+ own
+ TVs,
+ but
+ it
+ doesn't
+
+
+work
+ when
+ you
+ need
+ to
+ manufacture
+ chips
+
+
+for
+ Apple
+ or
+ Nvidia
+ or
+ Meta,
+ all
+ with
+
+
+different
+ architectures
+ and
+
+
+requirements.
+ And
+ lastly,
+ Japan
+ made
+ a
+
+
+deliberate
+ choice
+ to
+ dominate
+ the
+ inputs
+
+
+rather
+ than
+ the
+ fabrication
+ itself.
+ For
+
+
+them,
+ it
+ was
+ more
+ defensible
+ and
+ more
+
+
+profitable
+ to
+ own
+ the
+ materials
+ that
+
+
+every
+ fabrication
+ plant
+ on
+ Earth
+ depends
+
+
+on.
+ As
+ for
+ the
+ Netherlands,
+ ASML
+ sells
+
+
+machines
+ from
+ two
+ to
+ $400
+ million
+ each,
+
+
+and
+ it
+ has
+ effectively
+ zero
+ competition
+
+
+and
+ 100%
+ margin
+ leverage
+ on
+ the
+ most
+
+
+critical
+ tool
+ in
+ the
+ supply
+ chain.
+ If
+
+
+ASML
+ tries
+ to
+ become
+ a
+ chip
+
+
+manufacturer,
+ it
+ would
+ need
+ to
+ build
+
+
+fabrication
+ plants,
+ compete
+ with
+ its
+ own
+
+
+customers
+ like
+ TSMC
+ and
+ Samsung
+ and
+
+
+Intel,
+ hire
+ tens
+ of
+ thousands
+ of
+
+
+engineers,
+ and
+ develop
+ yield
+ expertise
+
+
+that
+ took
+ TSMC
+ 40
+ years
+ to
+ accumulate.
+
+
+And
+ in
+ exchange,
+ it
+ would
+ give
+ up
+ its
+
+
+position
+ as
+ the
+ neutral
+ supplier
+ that
+
+
+everybody
+ depends
+ on.
+ Right
+ now,
+ TSMC
+
+
+and
+ Samsung
+ both
+ need
+ ASML
+ equally.
+ The
+
+
+moment
+ ASML
+ starts
+ manufacturing
+ chips,
+
+
+it
+ becomes
+ a
+ competitor
+ to
+ its
+ own
+
+
+customers
+ and
+ those
+ customers
+ have
+ every
+
+
+incentive
+ to
+ build
+ their
+ own
+ supplier.
+
+
+ASML's
+ monopoly
+ is
+ more
+ valuable
+ exactly
+
+
+because
+ it
+ stays
+ in
+ its
+ lane.
+ So
+ going
+
+
+back
+ to
+ the
+ question,
+ why
+ is
+ Taiwan
+ the
+
+
+undeniable
+ mecca
+ of
+ semiconductors?
+ It's
+
+
+because
+ every
+ dependency
+ above
+ it
+
+
+converged
+ there.
+ the
+ American
+ design
+
+
+tools,
+ the
+ Japanese
+ materials,
+ Dutch
+
+
+machines,
+ German
+ optics,
+ Eastern
+
+
+European
+ gases,
+ all
+ ending
+ at
+ TSMC.
+ And
+
+
+finally,
+ why
+ no
+ country
+ can
+ build
+ a
+ chip
+
+
+alone?
+ Because
+ chip
+ manufacturing
+ is
+ a
+
+
+lock
+ with
+ eight
+ keys
+ spread
+ across
+ a
+
+
+handful
+ of
+ countries
+ and
+ assembled
+ over
+
+
+half
+ a
+ century.
+ No
+ single
+ nation
+
+
+controls
+ all
+ of
+ it.
+ and
+ no
+ nation
+ can
+
+
+break
+ away
+ from
+ it
+ without
+ triggering
+ a
+
+
+geopolitical
+ crisis
+ and
+ a
+ collapse
+ in
+ a
+
+
+system
+ that
+ was
+ built
+ over
+ decades.
+ We
+
+
+hope
+ this
+ was
+ helpful
+ and
+ we'll
+ see
+ you
+
+
+in
+ the
+ next
+ episode
+ of
+ the
+ business
+ of
+
+
+AI.
+ Till
+ next
+ time.
