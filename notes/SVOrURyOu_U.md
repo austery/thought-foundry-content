@@ -2,6 +2,7 @@
 layout: post.njk
 source: https://www.youtube.com/watch?v=SVOrURyOu_U
 speaker: The Pragmatic Engineer
+date: '2026-04-25'
 tags:
   - distributed-systems
   - data-intensive-applications
