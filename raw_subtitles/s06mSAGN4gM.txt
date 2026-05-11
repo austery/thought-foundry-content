@@ -1,0 +1,1320 @@
+[Speaker 1]: 好，
+[Speaker 1]: 各位同学大家好啊，
+[Speaker 1]: 今天我要讲的题目是人工智慧能不能够做到自我成长？
+[Speaker 1]: 其实啊人工智慧自我成长这个题目早在一九六五年的时候就有人想过了啊，
+[Speaker 1]: 那时候的统计学家鸠哥的呢就提出来一个想法，
+[Speaker 1]: 他把这个想法叫做人类最后的发明。
+[Speaker 1]: 他说有一天呢，
+[Speaker 1]: 假设人类能够创造出一个 AI，
+[Speaker 1]: 这个 AI 厉害到他能够在创造比他自己更厉害的 AI。
+[Speaker 1]: 接下来人类就会进入技术爆炸，
+[Speaker 1]: 因为没人类什么事了，
+[Speaker 1]:  AI 可以自己创造更厉害的 AI。
+[Speaker 1]: 他就说如果人类能够发明可以创造更厉害 AI 的 AI，
+[Speaker 1]: 这就会是人类最后的发明。
+[Speaker 1]: 最近呢这个话题又重新被推到风口浪尖。
+[Speaker 1]: 就在几天前呢，
+[Speaker 1]: 可能是 entropc 的共同创办人之一，
+[Speaker 1]: 他写了一篇文章，
+[Speaker 1]: 这篇文章就在探讨我们是不是到了 AI 要能够创造更厉害 AI 的时候。
+[Speaker 1]: 而在这篇文章开头，
+[Speaker 1]: 他就说他收集了很多资料，
+[Speaker 1]: 他很不情愿的承认说，
+[Speaker 1]: 他认为在二零二八年的年底有六十 percent 的几率，
+[Speaker 1]:  AI 的研发不再需要人类 AI 会自己开发出更厉害的 AI。
+[Speaker 1]: 他说，
+[Speaker 1]: 如果这件事发生了，
+[Speaker 1]: 那我们就跨过了卢比。
+[Speaker 1]: 恐吓代表说，
+[Speaker 1]: 我们会来到一个我们未知的世界。
+[Speaker 1]: 对的对对，
+[Speaker 1]: 这个跨越卢比孔河是什么意思呢？
+[Speaker 1]: 跨越卢比孔河呢是一个英文常用的谚语啦。
+[Speaker 1]: 这个是啊这个卢比孔河呢是意大利北部的一条小河。
+[Speaker 1]: 那在古罗马的规定呢，
+[Speaker 1]: 是在外面的将领是不能够带兵跨越卢比孔河的。
+[Speaker 1]: 如果跨越了卢比孔河，
+[Speaker 1]: 就代表要掀起内战，
+[Speaker 1]: 然后凯撒呢就带兵跨越了卢比孔河，
+[Speaker 1]: 就是这么一个故事啊，
+[Speaker 1]: 所以跨越卢比孔河代表有一件事情，
+[Speaker 1]: 你做了以后就收不回来了。
+[Speaker 1]: 呃，
+[Speaker 1]: 这边拿拿来放在 AI 上面的比喻，
+[Speaker 1]: 就是呃现在的 AI 是不是已经厉害到能够创造更厉害的 AI。
+[Speaker 1]: 如果这件事情发生，
+[Speaker 1]: 我们就 AI 就跨越了。
+[Speaker 1]: 卢比恐和以后他就不再需要人类啊，
+[Speaker 1]: 今天这堂课我们就来看看今天到底 AI 自主成长的能力可以做到什么地步。
+[Speaker 1]: 到在开始之前，
+[Speaker 1]: 且呢我要先说明 AI 的自我成长这件事情并没有明确的定义，
+[Speaker 1]: 你可以看到满坑满谷的论文再说。
+[Speaker 1]: 哦。
+[Speaker 1]: 我们今天提了一个新的技术，
+[Speaker 1]: 我们让 AI 可以自我成长，
+[Speaker 1]: 让 AI 可以做 self improving。
+[Speaker 1]: 甚至在今年的 i clear 二零二六有一个窝下，
+[Speaker 1]: 就是专门讲讲 AI 怎么做 self improving。
+[Speaker 1]: 但是其实你仔细看，
+[Speaker 1]: 这些文献会发现，
+[Speaker 1]: 所谓的 AI 自我成长，
+[Speaker 1]: 是一个人类渐渐放手的过程。
+[Speaker 1]: 很多宣称达成 AI 自我成长的文献，
+[Speaker 1]: 其实它都还是有人类介入。
+[Speaker 1]: 只是人类的介入可能比过去的研究还要少一些。
+[Speaker 1]: 这个时候他就会说他达成了 AI 的自我成长。
+[Speaker 1]: 所以你会发现在等一下讲的过程中，
+[Speaker 1]: 很多时候我们仍然是需要人类的介入，
+[Speaker 1]: 只是人类的介入可以少到什么样的地步呢？
+[Speaker 0]: 对不对？
+[Speaker 1]: 好，
+[Speaker 1]: 那在讲 AI 怎么自我成长，
+[Speaker 1]: 自我学习之前，
+[Speaker 1]: 我们先来看看在一般的机器学习里面，
+[Speaker 1]: 所谓的 AI 学习到底是怎么一回事。
+[Speaker 1]: 那我们这边假设说大家已经看过深层式人工智慧，
+[Speaker 1]: 机器学习导论。
+[Speaker 1]: 二零二五年的第五讲，
+[Speaker 1]: 已经知道机器学习跟深度学习的基本概念。
+[Speaker 1]: 那在第五讲里面我们是怎么说的呢？
+[Speaker 1]: 我们说机器学习啊，
+[Speaker 1]: 其实就是三个步骤步骤，
+[Speaker 1]: 一是我要找什么样的寒士。
+[Speaker 1]: 第步骤。
+[Speaker 1]: 二是那我有哪些候选的韩式步骤。
+[Speaker 1]: 三是根据我要找什么韩式，
+[Speaker 1]: 还有我要候选的韩式的集合。
+[Speaker 1]: 我从里面挑出一个最好的，
+[Speaker 1]: 这个就是机器学习基本的全貌。
+[Speaker 1]: 那步骤三呢基本上就是自动的，
+[Speaker 1]: 你就是用一个叫做 gradient descent 的演算法。
+[Speaker 1]: 那你在这边会发现说步骤一跟步骤二，
+[Speaker 1]: 这边有我这个字。
+[Speaker 1]: 那过去这里的我指的是一个人类。
+[Speaker 1]: 现在我们要问的就是这个我有多大的成分，
+[Speaker 1]: 可以，
+[Speaker 1]: 其实是 AI 自己我有。
+[Speaker 1]: 那我们今天呢主要就来探讨步骤一的部分。
+[Speaker 1]: 我们现在要找一个函式，
+[Speaker 1]: 这个函式呢是输入 x 输出 y 这个函式呢有一组参数叫做 loss。
+[Speaker 1]: 那这个就是内神经网络里面的 way 置或 by 假设你用的是深度学习的话，
+[Speaker 1]: 那我们呢会定一个东西叫做 loss。
+[Speaker 1]: 那我们想办法而找找一个 c 大，
+[Speaker 1]: 它可以让这 loloss 越小越好。
+[Speaker 1]: 那一般的机器学习里面，
+[Speaker 1]: 这个 loss 通常是怎么得到的呢？
+[Speaker 1]: 首先你要准备一大堆这个韩式的输入 x 那这边写作 XY 到 XN，
+[Speaker 1]: 你把 x one 到 XN 分别丢到这个函式里面，
+[Speaker 1]: 得到 y one 到 y 大 n 然后接下来呢这个 y one 到 y 大 n 呢，
+[Speaker 1]: 每一个答案你都会根据它的好坏定出一个 loss。
+[Speaker 1]: 那我这边用小写的 l 来代表它，
+[Speaker 1]: 那把这些 loss 全部加起来，
+[Speaker 1]: 就是我们要 minimize 的这一个大 l。
+[Speaker 1]: 好，
+[Speaker 1]: 那在的问题是这个小 l 是怎么被定出来的呢？
+[Speaker 1]: 如果在 supervise learning 的 scenario 下面哦，
+[Speaker 1]: 在这个督导式学习的状况下，
+[Speaker 1]: 这个 l 是怎么被定出来的呢？
+[Speaker 1]: 首先你得有一个标准答案，
+[Speaker 1]: 一个光 true 哦，
+[Speaker 1]: 所以你有一个光 true 叫做 y 害。
+[Speaker 1]: 今天模型产生一个答案，
+[Speaker 1]:  y 你会跟正确答案 y had 去做比对。
+[Speaker 1]: 这个 y 跟 y high 之间的距离，
+[Speaker 1]: 你就会当做是我们的 loss 小 l 如果今天 y 跟 y high 的距离越大，
+[Speaker 1]: 那这个 l 就越大。
+[Speaker 1]: 就代表说现在呢这一组参数是一个很不好的参数，
+[Speaker 1]: 不是我们要的那如果 y 跟 y high，
+[Speaker 1]: 你的输出跟正确答案越接近 l 就越小。
+[Speaker 1]: 那就代表说我们找到这组参数，
+[Speaker 1]: 现在这种参数塞大越有可能是我们要的，
+[Speaker 1]: 这个是 supervise learning。
+[Speaker 1]: 那大家都知道说做 supervise learning 就是需要大量的人工介入。
+[Speaker 1]: 因为这一些光 prove 这些正确答案是人标注出来的，
+[Speaker 1]: 是人准备好的，
+[Speaker 1]: 没有。
+[Speaker 1]: 好，
+[Speaker 1]: 那我们第一个可以让 AI 介入的部分，
+[Speaker 1]: 就是能不能不要人类来标注资料，
+[Speaker 1]: 让 AI 自己来产生给自己学习的正确答案。
+[Speaker 1]: 其实这件事情一点都不稀奇，
+[Speaker 1]: 已经有好多好多人尝试过说假设我拿一个很厉害的 AI，
+[Speaker 1]: 也许比我们现在要训练的 AI 还要更厉害的 AI 来学正确答案，
+[Speaker 1]: 把 AI 产生出来的答案当做正确答案，
+[Speaker 1]: 让另外一个比较害的 a AI 学习可以很快的强化那个弱 AI 的能力。
+[Speaker 1]: 这件事情就是大家都耳熟能详的 knowledge destination，
+[Speaker 1]: 但这并不是我们今天要探讨的重点。
+[Speaker 1]: 因为我们今天要问的是 AI 能不能够创造比自己还要强的 AI？
+[Speaker 1]: 所以如果我们在这整个过程中引入了一个比我们现在要创造的 AI 还要更厉害的 AI，
+[Speaker 1]: 那我们就已经有那个更厉害的 AI 了。
+[Speaker 1]: 所以我们现在如果引入了一个非常强的老师，
+[Speaker 1]: 那这个不是我们今天要讨论的重点。
+[Speaker 1]: 所以我们今天要问的是这个正确答案，
+[Speaker 1]: 或者是这个由 AI 产生出来，
+[Speaker 1]: 它不一定是正确答案。
+[Speaker 1]: 这个 sodle le 的 anstion 有没有可能是由 AI 自己产生的？
+[Speaker 1]: 那个人想说这个想法合理吗？
+[Speaker 1]: 今天这个 open 就已经是 AI 自己产生的，
+[Speaker 1]: 你拿同一模模型有可能产生更正确的答案，
+[Speaker 1]: 让模型自己来学习吗？
+[Speaker 1]: 这件事情不是不可能的。
+[Speaker 1]: 你想想看，
+[Speaker 1]: 在在上一次的课程里面，
+[Speaker 1]: 我们是不是讲到说 AI 有可能可以做到自我修正，
+[Speaker 1]: 我们探讨了一系列的自我修正的方法。
+[Speaker 1]: 举例来说，
+[Speaker 1]: 你可以透过呢这个模型在产生答案的时候，
+[Speaker 1]: 它的 representation 的变化去侦测出它现在产生出来的答案有没有可能是错的。
+[Speaker 1]: 更进一步的去修改错误的答案，
+[Speaker 1]: 让它变成正确的答案。
+[Speaker 1]: 或者是说我们说当模型产生第一次的输出之后，
+[Speaker 1]: 你再多下一个 pump 跟模型说你好好思考，
+[Speaker 1]: 有时模模可可以错错答答案改。
+[Speaker 1]: 或者我们或者我们也说 reasoning 本身就是一种自我修正的方法，
+[Speaker 1]: 让模型用大量的 coken 做长时间的思考。
+[Speaker 1]: 还有可能发现他先前产生的答案的错误，
+[Speaker 1]: 进而最终得到正确的答案。
+[Speaker 1]: 所以有很多方法可以让 AI 自我修正。
+[Speaker 1]: 那我们上次讲自我修正的时候，
+[Speaker 1]: 其实并没有强化语言模型本身的能力。
+[Speaker 1]: 当我们说 AI 透过一系列自我修正的方法，
+[Speaker 1]: 把错误的答案改成正确的答案的时候。
+[Speaker 1]: 对语言模型来说，
+[Speaker 1]: 它本身的参数是完全没有改变的。
+[Speaker 1]: 所以当你给模型一个输入，
+[Speaker 1]: 他本来会答错，
+[Speaker 1]: 你把它改。
+[Speaker 1]: 对以后，
+[Speaker 1]: 你可能想说那再问他一模一样的问题，
+[Speaker 1]: 他应该就会答对了吧。
+[Speaker 1]: 其实不会，
+[Speaker 1]: 那是同个模型，
+[Speaker 1]: 他的参数是没有变的。
+[Speaker 1]: 所以给他同样的输入，
+[Speaker 1]: 他会给你一样错误的输出，
+[Speaker 1]: 他还要再重新自我修正一遍，
+[Speaker 1]: 才会变成正确的答案。
+[Speaker 1]: 但是我们现在可以有一个不一样的做法，
+[Speaker 1]: 我们可以把模型自我修正以后的答案我做是正确的答案，
+[Speaker 1]: 然后再去 fight you。
+[Speaker 1]: 你的语言模型的参数有本来语言模型，
+[Speaker 1]: 他第一次看到输入会得到错误的答案。
+[Speaker 1]: 我们现在呢把修正过的答案当做正确答案，
+[Speaker 1]: 再去训练语言模型，
+[Speaker 1]: 再去回调。
+[Speaker 1]: 它的参数得到一个新的模型。
+[Speaker 1]: 这个新的模型看到同样的输入以后，
+[Speaker 1]: 因为之前已经告诉他要输出这样子被修正后的答案，
+[Speaker 1]: 它就比较有可能输出修正后的答案。
+[Speaker 1]: 所以我们可以用模型修正的方案，
+[Speaker 1]: 再把模型本来错误的答案修改成正确的答案。
+[Speaker 1]: 把正确的答案当做是标准答案，
+[Speaker 1]: 当做帮助，
+[Speaker 1]: 再去 find you 你的语言模型，
+[Speaker 1]: 进而强化它的能力。
+[Speaker 0]: 嗯，
+[Speaker 0]: 没有，
+[Speaker 1]: 其实在非常早的时候啊，
+[Speaker 1]: 大家记得 intropc 不是发布了一个什么呃 AI 宪法的 paper 吗？
+[Speaker 1]:  constitutional AI 里面其实就是用这个方法来强化 AI 的能力。
+[Speaker 1]: 讲到这边呢可能会有同学想说，
+[Speaker 1]:  supervise learning 确实需要标准答案，
+[Speaker 1]: 但是还是有很多机器学习的 scenario 是不需要标准答案的啊，
+[Speaker 1]: 比如说 reinforcement learning 不需要标准答案，
+[Speaker 1]: 在 reinforcement learning 里面，
+[Speaker 1]: 也就是把模型型的输出给一 inforward function 啊，
+[Speaker 1]: 这个 real function 就会计算这个答案的好坏，
+[Speaker 1]: 它会输出一个分数，
+[Speaker 1]: 这个分数代表答案有多好。
+[Speaker 1]: 那一般而言，
+[Speaker 1]: 在 reinforcement learning 的文献里面，
+[Speaker 1]: 这个我们都是用 reward 来代表一个答案的好坏。
+[Speaker 1]: 通常这个 reward 的数字越大代表答案越好。
+[Speaker 1]: 但是今天在这堂课里面，
+[Speaker 1]: 为了让 supervise learning 跟 reinforcement learning 在同一个框架下讨论。
+[Speaker 1]: 所以我们现在假设 rewfunction 输出呢是越小越好。
+[Speaker 1]: 我们假设 rewforunction 输出的其实是 loss，
+[Speaker 1]: 这个数字呢是越小越好的。
+[Speaker 1]: 在 supervise learning 其实跟 reinforcement learning 他们是有很多共通性的，
+[Speaker 1]: 很多东西都是一法通，
+[Speaker 1]: 万法通。
+[Speaker 1]: 我们现在把它用同一个框架来讨论好，
+[Speaker 1]: 所以 reinforcement learning 确实呢不需要标准答案。
+[Speaker 1]: 所以很多文献上就会说，
+[Speaker 1]:  reinforcement learning 其实也可以算是一种 AI 的自我成长。
+[Speaker 1]: 但是其实在 reinforcement learning 里面还是需要人类介入。
+[Speaker 1]: 人类介入在哪里？
+[Speaker 1]: 人类介入在 review function 的制定，
+[Speaker 1]: 你需要人类来定一个 reward function。
+[Speaker 1]: 定好之后，
+[Speaker 1]: 成人把各种可能性都考虑过，
+[Speaker 1]: 定一个 reward function，
+[Speaker 1]: 然后才能够引导 AI 的学习。
+[Speaker 1]: 所以 reinforcement learning 不是不需要人类介入，
+[Speaker 1]: 它也需要人类的介入。
+[Speaker 1]: 那 reinforcement learning 的一个痛点就是在多数真实的情景啊，
+[Speaker 1]:  reward 通常很 spa，
+[Speaker 1]: 这会导致 AI 难以学习。
+[Speaker 1]: 当 AI 做不管做什么事情的时候，
+[Speaker 1]: 他得到的 reward 都是零，
+[Speaker 1]: 只有非常少的机会才能得到不一样的 reward。
+[Speaker 1]: 这个时候 AI 会不知道要怎么学习。
+[Speaker 1]: 那这边呢以假设你要训练一个 AI 机器人，
+[Speaker 1]: 开门作为例子，
+[Speaker 1]: 假设只有开门才能够得到 reward 他其他不管做什么事情，
+[Speaker 1]: 比如说碰到门板都没有任何 reward。
+[Speaker 1]: 对一个机器人来说，
+[Speaker 1]: 他非常难学会开门这件事情。
+[Speaker 1]: 为了解决这个问题，
+[Speaker 1]: 在 reinforcement learning 的文献里面，
+[Speaker 1]: 一个常用的技巧呢叫做 reward ship。
+[Speaker 1]: 也就是说我们有一个真正想要得得到 reward。
+[Speaker 1]: 但是为了要引导 AI 学习，
+[Speaker 1]: 我们设置了一些 proxy 的 reward。
+[Speaker 1]: 比如说以开门为例，
+[Speaker 1]: 我们可可能会设定。
+[Speaker 1]: 并说如果今天 AI 接近门板，
+[Speaker 1]: 就得到一定的 reward。
+[Speaker 1]: 如果他碰触门板，
+[Speaker 1]: 就得到更高的 reward。
+[Speaker 1]: 虽然我们最终是希望 AI 开门，
+[Speaker 1]: 这才算是成功，
+[Speaker 1]: 只有开门才算是成功，
+[Speaker 1]: 其他行为都算是失败。
+[Speaker 1]: 但是借由定借由加上一些额外的 reward 来引导 AI，
+[Speaker 1]: 可以让他学习的更好。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 那 reward shipping 这件事啊，
+[Speaker 1]: 可能可以由 AI 来达成，
+[Speaker 1]: 也就是人类定了一个 review function 啊，
+[Speaker 1]: 比如说人类定说现在唯有真的打开门才有分数，
+[Speaker 1]: 没有打开门就没有分数。
+[Speaker 1]: 人类定义了真正的 loss 长什么样子。
+[Speaker 1]: 但是我们可以让 AI 来定一个 pricy 的 reward function。
+[Speaker 1]: 它定一个 pricy 的 rever function，
+[Speaker 1]: 增加一些额外的 reward，
+[Speaker 1]: 可以让让另外一个 AI，
+[Speaker 1]: 根据这个 plus 的 reward，
+[Speaker 1]: 学的更好。
+[Speaker 1]: 所以这边我们让 AI 呢有一个 plus 的 reward，
+[Speaker 1]: 它输出的 reward 叫 l 塔那。
+[Speaker 1]: 这个东西不是真正的 telloss，
+[Speaker 1]: 它是一个 plus 的 loss。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 今天这个 AI 在学习的时候，
+[Speaker 1]: 是用 policy reward function，
+[Speaker 1]: 由另外一个 AI 设计的 pluy reward function 得到的这个 pluy 的 loss l 塔来进行学习。
+[Speaker 1]: 但希望学完之后，
+[Speaker 1]: 当我们最终评比的标准是用 real loss 的时候，
+[Speaker 1]: 也可以得到好的结果。
+[Speaker 1]: 也就是说在学习的时候用的是 plus 的 loss，
+[Speaker 1]: 这是一个更好学的 loss。
+[Speaker 1]:  AI 在学会之后，
+[Speaker 1]: 它可以直接应用到 real 的 loss 上面。
+[Speaker 1]: 那有人可能会想说，
+[Speaker 1]: 可是这一些 AI 啊，
+[Speaker 1]: 比如说它是一个语言模型，
+[Speaker 1]: 他真的知道要怎么做 reward shapping 吗？
+[Speaker 1]: 那有一个方法是这样子的，
+[Speaker 1]:  AI 怎么知道什么样的 plus reward 比较好学的？
+[Speaker 1]: 这边有一个方法是好，
+[Speaker 1]: 现在呢先让负责定 plus reward 的 AI，
+[Speaker 1]: 先定第一个版本的 pluluc reward。
+[Speaker 1]: 好，
+[Speaker 1]: 那这个第一个版本的 plus reward 呢去训练你要训变的目标模型啊，
+[Speaker 1]: 这个目标模型训练完之后啊就变厉害了。
+[Speaker 1]: 接下来拿真正的 loss，
+[Speaker 1]: 真正的 reward 去衡量这个 AI 的行为，
+[Speaker 1]: 把衡量的结果给写 plus reward 的 AI 作为 febback。
+[Speaker 1]: 大家看到这个 febay 以后，
+[Speaker 1]: 他就可以根据他得到的 febback 再去更新。
+[Speaker 1]:  plus reward，
+[Speaker 1]: 如果他之前定了一个 plus reward，
+[Speaker 1]: 结果学出来的，
+[Speaker 1]: 结果在 real reward 上不好啊，
+[Speaker 1]: 他就知道说啊这个 parc 看起来没用，
+[Speaker 1]: 他就更改这个 rewpass reward。
+[Speaker 1]: 那如果今天某一个 pasass reward，
+[Speaker 1]: 结果学出来的结果是好的，
+[Speaker 1]: 他就知道说这个 pasass reward 里面有好的特性，
+[Speaker 1]: 只好保留这些好的特性，
+[Speaker 1]: 用在下一个版本里面。
+[Speaker 1]: 所以你可以用这个方法来训练一个 AI，
+[Speaker 1]: 教他怎么写 pasass reward。
+[Speaker 1]: 你可能会想说写 pluc reward AI 跟这个要被训练的 AI 到底是不是同一个 AI，
+[Speaker 1]: 理论上可以是同一个 AI。
+[Speaker 1]: 不过我目前在文献上比较常看到的啊，
+[Speaker 1]: 因为这一系列的研究通常是用来强化这个，
+[Speaker 1]: 因为它是放在 reinforce leararning，
+[Speaker 1]: 不好意思啊，
+[Speaker 1]: 拿来强化一个机器人啊，
+[Speaker 1]: 某机械手臂啊做某一些特定的动作。
+[Speaker 1]: 所以这个写 plurereward 通常是一个语言模型，
+[Speaker 1]: 但是这个要被训练的，
+[Speaker 1]: 它不一定是语模型，
+[Speaker 1]: 它可能就是一个机械手臂。
+[Speaker 1]: 哎，
+[Speaker 1]: 那我们只是用语言模型呢来引导机械手臂的学习啊，
+[Speaker 1]: 那像这一种 plus rereward paper 呢有非常多了。
+[Speaker 1]: 那我这边就引用了三篇论文。
+[Speaker 1]: 那这张图呢是从这个篇二六年的论文里面截取出来的那实际上怎么训练一个 LLN，
+[Speaker 1]: 让它能够产生 plus reward 有很多不同的方法。
+[Speaker 1]: 那像这一个二三年的 paper 啊，
+[Speaker 1]: 是比较早期的文章，
+[Speaker 1]: 然后这个 revolve 是二四年的文章，
+[Speaker 1]: 像这个 RF agent 啊是前几个月的文章哦，
+[Speaker 1]: 所以这是一有人在关注的方向。
+[Speaker 1]: 那这些细节呢我们就不在这边讨论，
+[Speaker 1]: 那我就一把论文放在这边，
+[Speaker 1]: 留给大家研究。
+[Speaker 1]: 那你可能想说模型真的能写出来的 plus reward 长什么样子。
+[Speaker 1]: 那我就引用这篇二六年的 paper 里面的一个实际的例子。
+[Speaker 1]: 那它这个实际的例子呢是要让 AI 做传接球啊，
+[Speaker 1]: 训练一个机械手臂呢做传接球，
+[Speaker 1]: 它原来的呢非常的简单，
+[Speaker 1]: 就是一行式子。
+[Speaker 1]: 但是语言模型在经过一番的训练之后，
+[Speaker 1]: 它最后写出来的 rewplus reward 长这个样子里面就包含了很多不同的面向，
+[Speaker 1]: 比如说不一定要接到球才得分，
+[Speaker 1]: 如果球离你很近也得分。
+[Speaker 1]: 如果手臂摆成某种姿势也得分，
+[Speaker 1]: 所以他就会考量各种的情况，
+[Speaker 1]: 想办法去引导这个机械手臂，
+[Speaker 1]: 可以更有效率的学会做接球这件事情。
+[Speaker 0]: 对，
+[Speaker 1]: 这就让我想到什么呢？
+[Speaker 1]:  reward shapping 呢？
+[Speaker 1]: 就让我想到人类的奖励系统，
+[Speaker 1]: 也就是由多巴胺驱动的奖励系统。
+[Speaker 1]: 这边就说个题外话，
+[Speaker 1]: 我们想说对人类的基因来说，
+[Speaker 1]: 真正的 reward 是什么？
+[Speaker 1]: 对人类的基因来说，
+[Speaker 1]: 只有传宗接代才有 reward，
+[Speaker 1]: 没有传宗接代就没有 reward。
+[Speaker 1]: 那其实呢基因本身并不会思考，
+[Speaker 1]: 所以刚才那句话应该要换一个角度来想，
+[Speaker 1]: 是有成功传宗接待的基因，
+[Speaker 1]: 他才会活下来，
+[Speaker 1]: 没有办法做到这件事的基因，
+[Speaker 1]: 他就会自动的消失。
+[Speaker 1]: 在这个世界上面。
+[Speaker 1]: 好，
+[Speaker 1]: 但是假设只有传宗接代才有 reward，
+[Speaker 1]: 这个太 rewspa 了。
+[Speaker 1]: 对一个原始人来说，
+[Speaker 1]: 他可能要先打猎，
+[Speaker 1]: 打完猎以后取得食物，
+[Speaker 1]: 然后取完食物以后才能够活下来。
+[Speaker 1]: 最后，
+[Speaker 1]: 他才有传宗接代的机会。
+[Speaker 1]: 如果只有成功传宗接代才有 reward，
+[Speaker 1]: 这个 ward 太 bus 可难，
+[Speaker 1]: 可能很难让一个生物学会说他要先打猎，
+[Speaker 1]: 最后才有繁衍的机会。
+[Speaker 1]: 事实上这个也是一个简化的过程。
+[Speaker 1]: 所以我们的大脑就产生了奖励系统，
+[Speaker 1]: 用多巴胺来奖励人类。
+[Speaker 1]: 每达成一个小目标就开心一下，
+[Speaker 1]: 让你可以不断的去追求小目标。
+[Speaker 1]: 比如说打猎以后，
+[Speaker 1]: 获得猎物可能就会让你开心。
+[Speaker 1]: 获得猎物有什么好开心你还没吃下去呢，
+[Speaker 1]: 居然吃到食物会让人开心。
+[Speaker 1]: 吃到食物有什么好开心的，
+[Speaker 1]: 你还没有传宗接代的。
+[Speaker 1]: 但是今天多巴胺让人类只要做一点小事就可以开心。
+[Speaker 1]: 行。
+[Speaker 1]: 那至于尤其是多巴胺，
+[Speaker 1]: 其实是给了人类欲望，
+[Speaker 1]: 让你有让你在想要追逐目标的时候，
+[Speaker 1]: 会觉得开心，
+[Speaker 1]: 让你想要去追逐目标。
+[Speaker 1]: 而自己实际上追逐目标以后，
+[Speaker 1]: 开不开心不是多巴胺的目标。
+[Speaker 1]: 所以这就是为什么时候实际上完成某一个任务。
+[Speaker 1]: 比如说看到一个东西很想吃，
+[Speaker 1]: 它实际吃了以后你觉得没有那么好吃。
+[Speaker 1]: 这个就是因为你在想吃它之前，
+[Speaker 1]: 多巴胺会不断的告诉你说，
+[Speaker 1]: 如果你吃了它，
+[Speaker 1]: 你就会觉得非常的快乐，
+[Speaker 1]: 但实际吃到它后你不一定觉得那么快乐。
+[Speaker 1]: 因为那时候多巴胺已经不管这件事了，
+[Speaker 1]: 他只管你能不能够做到一些小目标，
+[Speaker 1]: 最后达成天泽想要你做到的事情。
+[Speaker 1]: 而但是你不应该想成说是基因为了要让人类活下去而产生了多巴胺这样的奖励系统。
+[Speaker 1]: 这个实际上的运作应该是没有演化出这种奖励系统的生物，
+[Speaker 1]: 他就没办法好好活下去。
+[Speaker 1]: 所以人类有这样子的奖励系统，
+[Speaker 1]: 这个就是 worshapping 跟刚才 reworshapping 的概念其实是一样的。
+[Speaker 1]: 好，
+[Speaker 1]: 那在刚才讲的 reward shipping 呢是人类定了真实的 loss。
+[Speaker 1]: 但是有时候在真实的世界里面呢，
+[Speaker 1]: 这个真正的 loss 往往非常难定简化成用一个函式来表示。
+[Speaker 1]: 如果是像下围棋这种很明确的规则的东西，
+[Speaker 1]: 下一就是加一分，
+[Speaker 1]: 下输就是扣一分。
+[Speaker 1]: 但是有很多事情没有明确的规则，
+[Speaker 1]: 仅今天这个语言模型写一篇文章，
+[Speaker 1]: 这篇文章到底有多好？
+[Speaker 1]: 应该加多少分数？
+[Speaker 1]: 你很难真的定出一个 reward function，
+[Speaker 1]: 所以既很难难定出一 rerewfunction，
+[Speaker 1]: 那要怎么办呢？
+[Speaker 1]: 我们能不能够把另外一个 AI 当做 reward function？
+[Speaker 1]: 就有没有可能有一个 AI 输入一个 x 输入一个 y 就告诉我们，
+[Speaker 1]: 根据这个 x 如果有某个 AI 产生的这个 y 那这个 y 到底有多好或有有多不好？
+[Speaker 1]: 那这个个小 l 呢来表示，
+[Speaker 1]: 但是一个 AI 又怎么知道这个 y 到底是好的还是不好的呢？
+[Speaker 1]: 这边可能还是需要人类，
+[Speaker 1]: 人类虽然可能没有办法把很复杂的东西直接写成一个 reward 方 ction。
+[Speaker 1]: 但是你看到一篇文章，
+[Speaker 1]: 你可能可以判断它是好还是不好的。
+[Speaker 1]: 所以你没有办法直接写个还字，
+[Speaker 1]: 说输入一篇 AI 写出来的文章，
+[Speaker 1]: 就说它好还是不好。
+[Speaker 1]: 但是你要给他打个分数，
+[Speaker 1]: 可能是做得到的。
+[Speaker 1]: 所以人类产生的正确答案是 l head。
+[Speaker 1]: 然后我们可以训练一个模型，
+[Speaker 1]: 这个模型输出来的 loss 跟人类输出来的 loss 越接近越好。
+[Speaker 1]: 然后再用这个模型产生出来的 loss 来训练另外一个模型，
+[Speaker 1]: 这就是 ILHF 的概念。
+[Speaker 1]: 而这个负责产生 loss 的模型，
+[Speaker 1]: 其实就是 reward model。
+[Speaker 1]: 所以如果你熟悉 ILHF 的话，
+[Speaker 1]: 我们就先训练出一个 rewmomodel。
+[Speaker 1]: 这这 rewar model l 提供 real reward，
+[Speaker 1]: 那在这个投影片里面是 loss 来训练另外一个模型。
+[Speaker 1]: 那假设没有人类提供正确的 loss，
+[Speaker 1]: 有没有办法使用一个语言模型来产生 loss 呢？
+[Speaker 1]: 其实也不是不行，
+[Speaker 1]: 这就叫做 RLAIF。
+[Speaker 1]: 如果今天这个产生 loss 的模型本身就是一个非常厉害的模型。
+[Speaker 1]: 它其实今天我们都常常说，
+[Speaker 1]: 我们可以用一个语言模型来做值，
+[Speaker 1]: 做 jul OSS judge。
+[Speaker 1]: 所以很多厉害的模型，
+[Speaker 1]: 它本身是能够平量一个答案的好坏的。
+[Speaker 1]: 如果你把那些模型拿来，
+[Speaker 1]: 你当然也可以把这让拿这些模型产生出来的 loss 来训练一个 AI。
+[Speaker 1]: 但我们这边要问的问题是，
+[Speaker 1]: 我们刚才在前面就有讲过说在这整个过程中不该引入一个更厉害的 AI。
+[Speaker 1]: 如果今天我们现在产生 loss 的这个 AI 是我们要训练的模型，
+[Speaker 1]: 自己那有没有可能有自己产生出来的 loss 来让自己变得更厉害？
+[Speaker 1]: 这件事情还真的不是没有可能。
+[Speaker 1]: 我们先来看看怎么让 AI 产生一个 loss，
+[Speaker 1]: 有很多不同的方法，
+[Speaker 1]: 有一个方法是 verbalize 的方法，
+[Speaker 1]: 这个是最直觉的。
+[Speaker 1]: 你就是直接给 AI 一个 x 一个 y 跟他说好了。
+[Speaker 1]: 那现在根据这个输出给个分数，
+[Speaker 1]: 那他往往就会吐个分数出来给你那正不正确。
+[Speaker 1]: 要看 AI 本身的能力，
+[Speaker 1]: 或者是有另外一个方法是哎，
+[Speaker 1]: 给 AI 一个 x 给他一个 y。
+[Speaker 1]: 然后问他说，
+[Speaker 1]: 你觉得这个答案对吗？
+[Speaker 1]: 然后哦看他输入的下一个 token 的几率分布，
+[Speaker 1]: 然后观察对这个 token 的几率分布。
+[Speaker 1]: 因为我们现在讨论的是 loss 嘛，
+[Speaker 1]: 也许我们把这个对的这个几率乘上负一就可以当做 loss 来用哦，
+[Speaker 1]: 所以有很多简单的方法可以让 AI 自己产生 loss。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那还有其他的方法，
+[Speaker 1]: 比如说有一系列叫做 unsemble base 的方法。
+[Speaker 1]: 在这系列 unsemble base 的方法里面啊，
+[Speaker 1]: 就是把自己这个模型拿出来，
+[Speaker 1]: 然后输入一个 x 然后看看它会产生什么样的 y 你 simple 模型很现，
+[Speaker 1]: 然后它产生各各各不同的 y 然后做 majority vote，
+[Speaker 1]: 也就是多数觉。
+[Speaker 1]: 比如在这个例子里面，
+[Speaker 1]: 让这个模型产生三次答案发现。
+[Speaker 1]: 三是最常出现的那就把三当做正确答案。
+[Speaker 1]: 那这种不是正确，
+[Speaker 1]: 答案是由 AI 自己产生出来的，
+[Speaker 1]: 答案叫做 suooddle answer。
+[Speaker 1]: 我们这边用 y 跳塔来表示。
+[Speaker 1]: 好，
+[Speaker 1]: 那有了这个 suddle answer 以后呢，
+[Speaker 1]: 我们就去看看这个 suddle answer 跟我们要衡量的这个输出它有什么样的关联性。
+[Speaker 1]: 那我们假设这个 suddle answer 是一个正确的答案。
+[Speaker 1]: 我们就看这个 suddle answer YQ 哈跟 y 之间的距离，
+[Speaker 1]: 根据这个距离来当做我们的 loss，
+[Speaker 1]: 用这个距离来平量现在这个 y 的好坏。
+[Speaker 1]: 然后最后然后拿这一个 l 再去训练你的模型。
+[Speaker 1]: 对，
+[Speaker 1]: 这也是一个方法，
+[Speaker 1]: 也有另外一个系列的方法，
+[Speaker 1]: 叫做 certainty base 的方法，
+[Speaker 1]: 也就是今天给模型一个 x 然后看看呢他对他输出的答案有没有信心。
+[Speaker 1]: 那通常就是看他输出的分布。
+[Speaker 1]: 那如果他输出的分布越集中，
+[Speaker 1]: 就代表这个模型越有信心。
+[Speaker 1]: 如果他越有信心，
+[Speaker 1]: 我们就说这个 y 越有可能是对的那这个 loss 呢就越低。
+[Speaker 1]: 好的好的，
+[Speaker 1]: 实际上呢这边用的 l 是怎么样定义的呢？
+[Speaker 1]: 有很多不同的做法。
+[Speaker 1]: 那个比较常见的方法呢是计算在给定这个 x 的时候输出的 y 的 entrop 呃，
+[Speaker 1]: 输出的这个乱度。
+[Speaker 1]: 乱度越大代表越没有信心，
+[Speaker 1]: 然后 loss 就越高，
+[Speaker 1]: 乱度越小，
+[Speaker 1]: 代表越有信心，
+[Speaker 1]:  loss 就越低。
+[Speaker 1]: 那这个乱度是怎么计算的呢？
+[Speaker 1]: 啊，
+[Speaker 1]: 这个乱度的计算方法就是对所负号哦，
+[Speaker 1]: 是对所有可能的 y 呢做一个加轴。
+[Speaker 1]: 然后计算 p of y given x 乘上 log p of y given x 这个 p 呢指的就是模型本身就模型本身决定了这个 p of y given x 就给定 x 的时候，
+[Speaker 1]: 这个 y 长什么样子，
+[Speaker 1]: 或者是这个式子也可以简化写成说啊我们要计算负 log p of y given x 的期望值。
+[Speaker 1]: 那这个 y 呢是从 p of y given x 这个分布所 simple 出来的那如果你这一部分你没有听得很懂话，
+[Speaker 1]: 也没有关系。
+[Speaker 1]: 你就记得说我们看模型的输出，
+[Speaker 1]: 如果输出的可能性越多，
+[Speaker 1]: 代表越没有信心，
+[Speaker 1]:  lose 就越高。
+[Speaker 1]: 那如果你熟悉 introbe 的话，
+[Speaker 1]: 讲到这边你可能会觉得有一个问题，
+[Speaker 1]: 这个 y 是什么？
+[Speaker 1]: 这个 y 代表模型可能的输出，
+[Speaker 1]: 但模型可能的输出是近乎无法穷举的。
+[Speaker 1]: 所以这项能计算吗？
+[Speaker 1]: 我们这边先卖个关子，
+[Speaker 1]: 等一下告诉你这一项是怎么计算的。
+[Speaker 0]: 嗯，
+[Speaker 1]: 好，
+[Speaker 1]: 那这一招啊这种 entropy base 的方法其实在很早以前就被发现蛮有用的，
+[Speaker 1]: 而且不是在语言模型上有用，
+[Speaker 1]: 而是在影像或语音上也都有用。
+[Speaker 1]: 比如说在二零年的时候，
+[Speaker 1]: 哇，
+[Speaker 1]: 这个真的是远古时代哦，
+[Speaker 1]: 这个是白垩纪的时候。
+[Speaker 1]: 那时候呢在影像上就一个方法叫做 ent。
+[Speaker 1]: 那时候就发现说我们可以用 entropy 来知道一个答案是不是正确的。
+[Speaker 1]: 然后再用这个答案是不是正确的这个信号呢来微调我们的模型，
+[Speaker 1]: 让它做的更好。
+[Speaker 1]: 那在这篇文章里面，
+[Speaker 1]: 它的开头就举了好多例子，
+[Speaker 1]: 告诉你说 entropy 跟答案是不是正确，
+[Speaker 1]: 是非常有关联性的。
+[Speaker 1]: 比如说左边这张图，
+[Speaker 1]: 横轴是 entropy 的大小，
+[Speaker 1]: 纵轴呢是错误率。
+[Speaker 1]: 他发现当模型生出来的答案的越越大的时候，
+[Speaker 1]: 这个时候呢错误率就越高，
+[Speaker 1]:  entropentropy 越小，
+[Speaker 1]: 错误率就越低。
+[Speaker 1]: 我这边举了另外一个例，
+[Speaker 1]: 这边每一个点呢你就会想成是一个 data，
+[Speaker 1]:  say 它只是对 data say 做各式各样的改造了，
+[Speaker 1]: 所以产生非常多的点。
+[Speaker 1]: 那横轴呢是现在模型在这个 data say 上回答问题的 entropy。
+[Speaker 1]: 那纵轴呢是 entroloss 真实的 loss 计算的时候呢，
+[Speaker 1]: 是需要参考正确答案才够算出真 trolost。
+[Speaker 1]: 但你会发现 entropy 越低，
+[Speaker 1]: 真实的 loss 也跟着越低。
+[Speaker 1]: 所以我们确实可以用 entropy 来引导模型的学习。
+[Speaker 1]: 那我们实验室林冠婷同学也也在二二二年，
+[Speaker 1]: 现说用 entropy 的方法非常有用。
+[Speaker 1]: 那提出来一个方法呢叫做苏塔。
+[Speaker 1]: 那这个方法呢可以强化语音辨识系统的能力，
+[Speaker 1]: 在不需要额外标注资料的情况下，
+[Speaker 1]: 那其实在 NLP 上引入这个方法反而是比较晚的那呃这种 entropy minaniization 的方法，
+[Speaker 1]: 我找到比较早的一篇，
+[Speaker 1]: 其实反而是去年的文章。
+[Speaker 1]: 那那这篇文章这是这篇文章的标题了，
+[Speaker 1]: 他说。
+[Speaker 1]:  unreasonable effective of entropy mini ization in LLN reasoning 显然，
+[Speaker 1]: 作者觉得 entropy minimization 就是光是 minimized entropy 光把 entroy 当做学习的目标可能会有用吗？
+[Speaker 1]: 哎，
+[Speaker 1]: 没想到还真的有用。
+[Speaker 1]: 好，
+[Speaker 1]: 那像这种啊让 AI 自己定 loss 在训练自己的方法，
+[Speaker 1]: 真的有用吗？
+[Speaker 1]: 你可以看一篇 paper 叫 how far can unsupervise IOVR scale LON training，
+[Speaker 1]: 这是非常最近的一篇文章。
+[Speaker 1]: 那这边的 unsupervise IOVR 它的意思就是所谓的 unsupervise 的意思。
+[Speaker 1]: 就是现在我们在做这个 reinforcement learning 的时候，
+[Speaker 1]: 我们 reward，
+[Speaker 1]: 或者在我这这边 lolos 是由 LON 自己定义的。
+[Speaker 1]: 所以我们不需要人类，
+[Speaker 1]: 所以是 unsupervised 这一种 LLN 这种 AI 自己写 loss 在训练自己的方法，
+[Speaker 1]: 到底可以走到什么地步啊，
+[Speaker 1]: 这边 paper 就做了非常完整的实验。
+[Speaker 1]: 那我这边就引用几个实验给大家参考。
+[Speaker 1]: 比如说他说我们先来比较这个 majority vote 的方法，
+[Speaker 1]: 就我们刚才讲的那种 assemble 的方法。
+[Speaker 0]: 跟拿正确的 reward，
+[Speaker 0]: 真正的答案产生出来的 reward，
+[Speaker 0]: 他们训练起来结构如何？
+[Speaker 0]: 那这边做了三个不同的资料集，
+[Speaker 0]: 横轴呢是训练的过程。
+[Speaker 0]: 蓝色这一条线是 AI 自己定的 reward。
+[Speaker 0]: 红色这一条线是正确 reward，
+[Speaker 0]: 所以想成是人定的 reward。
+[Speaker 0]: 你发现在训练的前期啊，
+[Speaker 0]: 其实用人类定的 reward 跟 AI 自己定的 reward，
+[Speaker 0]: 现决绝依然是差不多的。
+[Speaker 0]: 不过人定的还是比较好，
+[Speaker 0]: 可以比较长时间的引导 rewa i 最后得到比较好的结果。
+[Speaker 0]: 而 AI 自己定的 reward，
+[Speaker 0]: 他不断的拿自己定的这个 loss 来自己训练自己，
+[Speaker 0]: 最终其实有可能把自己训练坏掉了。
+[Speaker 1]: 打开。
+[Speaker 0]: 那在另外一个图标里面呢，
+[Speaker 0]: 这篇论文就比较了各式各样不同的方法。
+[Speaker 0]: 他这边比了五个不同的方法，
+[Speaker 0]: 五个不同的自己 AI 自己定 reward 的方法。
+[Speaker 0]: 那这些细节大家可以再去参考这篇论文。
+[Speaker 0]: 那这这个这边又试了三个不同的 cops，
+[Speaker 0]: 那横轴式训练的过程。
+[Speaker 0]: 那这边想要表示的是说有一些方法呢是比较稳定的，
+[Speaker 0]: 它比较晚才坏掉。
+[Speaker 0]: 但最终多数方法在前期可以得到一些效果的提升，
+[Speaker 0]: 也就是 AI 训练自己不是没有用的，
+[Speaker 0]: 是有可能进步的。
+[Speaker 0]: 只是如果不断的根据自己定的 loss 来训练，
+[Speaker 0]: 最终还是有可能坏掉的那像这种啊让 AI 自己定 loss 的想法，
+[Speaker 0]: 最常被使用在 test time training 啊哈缩写是 TTT 的这个情境下面，
+[Speaker 0]: 什么是 test time training 呢？
+[Speaker 0]:  test time training 呢是说等一下我要讲的这页投影片发生的事情呢，
+[Speaker 0]: 是发生在 infrence 的时候，
+[Speaker 0]: 哦，
+[Speaker 0]: 是发生在推论的时候。
+[Speaker 0]: 好在推论的时候，
+[Speaker 0]: 你有一笔测试资料，
+[Speaker 0]: 还是现在 AI 的输入 x 根据这笔测试资资料输入 x 产生输出外。
+[Speaker 0]: 好，
+[Speaker 0]: 然后接下来呢我们用现在 AI 产生的输出 y 去算出一个 AI 自己定出来的 loss。
+[Speaker 0]: 这样这个 loss 来训练我们的模型本身，
+[Speaker 0]: 得到一个新的模型。
+[Speaker 0]: 我去调整这个模型的参数，
+[Speaker 0]: 得到一个新的模型，
+[Speaker 0]: 再把正确的答案丢到这个模型里面，
+[Speaker 0]: 得到 y 块。
+[Speaker 0]: 那前面这个过程也不需要让人类知道，
+[Speaker 0]: 对人类来说就是输入了 x 然后输出了 y 块。
+[Speaker 0]: 所以让模型在 infrence 的时候，
+[Speaker 0]: 在测试期间，
+[Speaker 0]: 根据测试资料的 x 直接现场自己强化自己，
+[Speaker 0]: 这个就是 test time training。
+[Speaker 0]: 那像这一种让 AI 自己定 loss 的方法，
+[Speaker 0]: 往往呢是搭配 test time training 使用。
+[Speaker 0]: 有一个理由是，
+[Speaker 0]: 其实在刚才讲的前一篇 paper 里面就按 supervise IOVR 那边 paper 里面有说这种自己定 loss 的方法，
+[Speaker 0]: 往往在比较小规模的资料上面比较有用。
+[Speaker 0]: 比如让 AI 只调一点点，
+[Speaker 0]: 不要调太多的时候，
+[Speaker 0]: 让 AI 不要走太远，
+[Speaker 0]: 只走一点距离的时候是有用的。
+[Speaker 0]: 那如果你要做非常大规模的验，
+[Speaker 0]: 做非常大范范围，
+[Speaker 0]: 训练往往往会出问题。
+[Speaker 0]: 那像 TTTT 的状况，
+[Speaker 0]: 我我现在训练的资料等于是只有一笔，
+[Speaker 0]: 或者是只有一个 batch，
+[Speaker 0]: 也就是你的那一笔测试资料。
+[Speaker 0]: 那正好呢符合让 AI 自己定 loss on supervise IOVR 可以运作的好的情境。
+[Speaker 0]: 所以让 AI 自己定 loss，
+[Speaker 0]: 往往搭配 TTT 一起使用。
+[Speaker 1]: 不知道不知道不知道。
+[Speaker 0]: 那这个 test time training 呢，
+[Speaker 0]: 其实我们在去年的课程呢也是有讲过的。
+[Speaker 0]: 所以如果你想知道更多 test time training 相关的事情，
+[Speaker 0]: 请参见深层式人工智慧与机器学习导论二零二五的第八讲。
+[Speaker 0]: 那我把链接呢放在右下角给大家参考。
+[Speaker 0]: 嗯，
+[Speaker 0]: 好，
+[Speaker 0]: 接下来要回答一个问题，
+[Speaker 0]: 刚才我们不是说 entropy 好像是没有办法计算的吗？
+[Speaker 0]: 那实际上我们是怎么把 entropy 当做个 loss 去 minimize 他，
+[Speaker 0]: 然后让 AI 自己训练自己的呢？
+[Speaker 0]: 那以下的这些讲法是来自于我们实验室，
+[Speaker 0]: 黄维平同学即将放上阿凯的一篇论文。
+[Speaker 0]: 那等一下呢数学比较多，
+[Speaker 0]: 所以假设等一下的内容，
+[Speaker 0]: 你听不下去，
+[Speaker 0]: 直接跳过是完全全不影响这一堂课的学习的那我们就来看看到底实际上要怎么 minimize entropy。
+[Speaker 0]: 好，
+[Speaker 0]: 当然 minimize entropy 这一件事情，
+[Speaker 0]: 哎，
+[Speaker 0]: 这个是早就有的想法。
+[Speaker 0]: 在刚才不是说早在二零二零年的时候，
+[Speaker 0]: 影像上就有人尝试过去 minimize entropy 吗？
+[Speaker 0]: 但那个时候比较不是问题，
+[Speaker 0]: 但为对一个影像模型来说，
+[Speaker 0]: 它输出的只有类别，
+[Speaker 0]: 因为它只输出一个东西，
+[Speaker 0]: 那是真的能算 entropy 的。
+[Speaker 0]: 但是在二零二零年之后，
+[Speaker 0]: 有很多文章是把它用在比如说 LOS 上，
+[Speaker 0]: 会用在语音辨识上，
+[Speaker 0]: 语音辨识也是要输出一个 sequence。
+[Speaker 0]: 大家到底是怎么计算 intropy 的呢？
+[Speaker 0]: 实际上大家计算的方法是这个样子的，
+[Speaker 0]: 所以这个 entrobeentropy 的式值啊，
+[Speaker 0]: 它没办法算呐。
+[Speaker 0]: 因为你要对所有的 YY 是所有可能的答案做期望值，
+[Speaker 0]: 这件事没办法做。
+[Speaker 0]: 所以实际上的做法是这个样子的。
+[Speaker 0]: 好，
+[Speaker 0]: 我先给我们的 AI 一个 x 是的是的，
+[Speaker 0]: 然后看看他给了 x 以后，
+[Speaker 0]: 下一个 token 输出的几率分布长什么样子。
+[Speaker 0]: 我们直接 minimize 这一个几率分布的 entropy。
+[Speaker 0]: 那这边只是一个 token，
+[Speaker 0]: 一个一个 token 的这个几率分布，
+[Speaker 0]: 它的 entropy 是我们可以轻易计算出来的。
+[Speaker 0]: 所以我们可以去 minimize 这一一项。
+[Speaker 0]: 好，
+[Speaker 0]: 再根据这个率率分布，
+[Speaker 0]:  simple 出一个 token，
+[Speaker 0]: 假设是 y one，
+[Speaker 0]:  y one 呢接到 x 后面再产生一个率率分布，
+[Speaker 0]: 我们样去 minimize 这个几率分布的 n ttropy 在投一下产生 YQ，
+[Speaker 0]: 再把 YQ 呢放到 y one 后面再产生一个几率分布，
+[Speaker 0]: 再去 minimize 这个几率分布的 entropy，
+[Speaker 0]: 再产生 y 三。
+[Speaker 0]: 所以我们并不是去 minimize 这些 sequence 的 entropy。
+[Speaker 0]: 我们 MIMIIC 的是产生某一个 token 的时候的 entropy。
+[Speaker 0]: 现在我们把每一个 token 的 ttropy 用个 h 来表示它。
+[Speaker 0]: 好，
+[Speaker 0]: 所以 HY one one 就代表输入 y one 的时候，
+[Speaker 0]: 接下来输出 token 的 entropy。
+[Speaker 0]:  HY one q 呢就代表输入是 y one YQ 的时候产生下一个 token 的 entropy。
+[Speaker 0]: 所以我们实际上真正 minimize 的是什么？
+[Speaker 0]: 我们实际上真正 minimize 的是假设我 simple 出某一个 sequence，
+[Speaker 0]: 叫做 y 在 sample 这个 sequence y 的一路上产生每一个 token 的 entropy。
+[Speaker 0]: 我们真正 minimize 的是某一个 sequence y 它产生出来的一路上每一个 token 的 entropy，
+[Speaker 0]: 我们把这一项呢假叫做 l 跳塔那。
+[Speaker 0]: 大家实际上呢通常都是在 minimize 这一项。
+[Speaker 0]: 那这个 l 塔跟真正的 tell 有什么样的关系呢？
+[Speaker 0]: 那黄维平同学就推到一番以后，
+[Speaker 0]: 发现说啊一个令人有点放心的结论。
+[Speaker 0]: 原来这个 l 塔的期望值就会是 tell 啊，
+[Speaker 0]: 就假设是的好的，
+[Speaker 0]: 你今天计算这个呃呃，
+[Speaker 0]: 你你你今天呢你的这个几率分布是 p of y given x 哦，
+[Speaker 0]: 你从 p of y given x 去 sample y 根据这个 RY 去算 l 跳塔，
+[Speaker 0]: 然后取这个呃 p of y given x 的这个期望值哦，
+[Speaker 0]: 你会得到这个 l 所以他们之间是蛮有关系的那它论论文真正贡献的并不是这个我们再往下再我们知道 l 塔跟 tell 的关系以后，
+[Speaker 0]: 那我我们再来看看大家实际上在呃呃做这个 entropy minimization 的时候，
+[Speaker 0]: 实际上是怎么训练模型的。
+[Speaker 0]: 常见的方法是这样。
+[Speaker 0]: 好，
+[Speaker 0]: 我们就 simple 一个 sequence 啊。
+[Speaker 0]: 假设这个 sequence 里面有 y one YTY 三啊，
+[Speaker 0]: 接下来就把这个 sequence 里面的每一个 token 的里面看看它接下来会产出来的 entriridistribution 是什么样子。
+[Speaker 0]: 然后再去 minimize 这些 distribution，
+[Speaker 0]: 再去 minimize 这些 distribution 的 entropy。
+[Speaker 0]: 那每一次 sample 出一个 y 的时候，
+[Speaker 0]: 我们都会计算一个 l till 它的 y 然后计算这个 l 跳塔的 y 对于塞塔就是我们要训练的模型的参数的 gradient 啊，
+[Speaker 0]: 这个才是我们真正参数要 upday 的方向。
+[Speaker 0]: 嗯，
+[Speaker 0]: 好，
+[Speaker 0]: 那我们每次都会 sample 一个 y 然后每次 simple 出来的 y 都不一样。
+[Speaker 0]: 所以你实际上参数 update 的方向是什么？
+[Speaker 0]: 你实际上参数 update 的方向是拐点 l 跳它的 y 对这个 y 呢从 PC 达中 y given x sample 出来的期望值。
+[Speaker 0]: 好，
+[Speaker 0]: 所以这是我们真正 update 参数的方向，
+[Speaker 0]: 连参数是用这个方向在 update 的。
+[Speaker 0]: 好，
+[Speaker 0]: 那我再整理一下我们现在有的东西，
+[Speaker 0]: 我们真正想 minimize the loss 长这个样子，
+[Speaker 0]: 那我刚才有说这个没办法算。
+[Speaker 0]: 然后我们真正能算的 psy loss 长这样，
+[Speaker 0]: 这是我们能算。
+[Speaker 0]: 既然我们真正想 minimizer loss 长这样，
+[Speaker 0]: 那我们真正想 minimizer 当然是这个 loss 对 set 的 gradio，
+[Speaker 0]: 这才是我们真正想要 update 的方向。
+[Speaker 0]: 但是根据我们真正能算的 plus sing loss，
+[Speaker 0]: 我们最终实际实做的时候 update 的方向长这个样子长这个样子你看哦。
+[Speaker 0]: 然后根据刚才我们说 l 泰塔 l 尔塔的期望值就是 tel。
+[Speaker 0]: 直觉上你会觉得说哎那左右多取个 gradient。
+[Speaker 0]: 哇，
+[Speaker 0]: 这一项原来就是真正 update 的方向啊，
+[Speaker 0]: 难怪前人可以这么做，
+[Speaker 0]: 嗯，
+[Speaker 0]: 听起来很合理，
+[Speaker 0]: 但这也不是黄卫平同学真正的贡献，
+[Speaker 0]: 他发现这个想法根本是错的。
+[Speaker 0]: 因为扫了一下，
+[Speaker 0]: 实际上规点并不能够直接放在这两边。
+[Speaker 0]: 所以当你对 l 取取规点的时候，
+[Speaker 0]: 实际上你得到的是这一项，
+[Speaker 0]: 再多加上另外一项。
+[Speaker 0]: 所以过去我们在 minimize entropy 的时候，
+[Speaker 0]: 其实都少算了一项，
+[Speaker 0]: 那加上这一项有什么额外的意义呢？
+[Speaker 0]: 好，
+[Speaker 0]: 我们现在所以我们现在啊要 update 的时候，
+[Speaker 0]: 其实有两项。
+[Speaker 0]: 那上面这一项是过去一般文献上常用的这一项代表含义义什么？
+[Speaker 0]: 这项代表含含义，
+[Speaker 0]: 今今天我们一个语言模型在产生答案的时候，
+[Speaker 0]: 它会产生很多不同的可能。
+[Speaker 0]: 所以这边用个树状图啊，
+[Speaker 0]: 每一条路径代表其中一种 sample 出来的。
+[Speaker 0]: 可能过去我们做的事情是先 sample 出一条路径，
+[Speaker 0]: 然后我们期待这一条路径上面的 entropy 越低越好。
+[Speaker 0]: 对的，
+[Speaker 0]: 但是这是唯一 minimize entropy 的方向吗？
+[Speaker 0]: 不完全是第二项告诉我们什么。
+[Speaker 0]: 第二项真正做的事情是先计算出这一些 path 的 entropy，
+[Speaker 0]: 然后找出 entropy 比较小的那一条 path，
+[Speaker 0]: 直接提高它的几率，
+[Speaker 0]: 让模型在 simple 的时候可以 simple 到 entropy 比较低的 path。
+[Speaker 0]: 所以这两条路径它是互补的，
+[Speaker 0]: 一条路径是先找一个 path，
+[Speaker 0]: 我先找一个我要努力的方向，
+[Speaker 0]: 然后在那一条方向挖深另一个 path。
+[Speaker 0]: 另外一个 loss 告诉我们说，
+[Speaker 0]: 我们一开始就找一个比较好的方向。
+[Speaker 0]: 所以这两条路径是应该要同时存在的这两个 update 的方向应该要同时存在。
+[Speaker 0]: 那在石座上有没有用呢？
+[Speaker 0]: 那我们这边是做在这个语音辨识上面了，
+[Speaker 0]: 那这边不是做在大型语言模型上面，
+[Speaker 0]: 不像这种 minimize entropy，
+[Speaker 0]: 方方在云辨识上往往是非常有效的那这边就做了三个不同的 cops，
+[Speaker 0]: 这边的数值呢是语音辨识错误率，
+[Speaker 0]: 所以越低越好。
+[Speaker 0]: 那在这个红色框框里面呢，
+[Speaker 0]: 上面这一个是少一项算出来的结果。
+[Speaker 0]: 下面这个是把正确的额外那一项多加上去以后的结果。
+[Speaker 0]: 所以发现在三个不同的情境里面，
+[Speaker 0]: 多加上额外的那一项都是有帮助的。
+[Speaker 0]: 所以我们可以把 enrol 的 minimization 做的更好。
+[Speaker 0]: 好，
+[Speaker 0]: 这个就是有关数学推导的部分。
+[Speaker 0]: 好，
+[Speaker 0]: 那我们继续来啊，
+[Speaker 0]: 我们刚才也讲过，
+[Speaker 0]: 可以让 AI 自己定 loss，
+[Speaker 0]: 再来自己训练自己。
+[Speaker 0]: 讲到这边你可能会觉得这整个过程好像已经没有什么人类在里面了。
+[Speaker 0]: 但其实不是，
+[Speaker 0]: 人类仍然介入一个很重要的地方。
+[Speaker 0]: 人类找了这些输入丢给模型，
+[Speaker 0]: 所以这个步骤仍然需要人类介入。
+[Speaker 0]: 那有没有办法连这个输入都都是模型自己找的呢？
+[Speaker 0]: 如果连这个输入都是模型自己找的模型，
+[Speaker 0]: 自己找到输入，
+[Speaker 0]: 自己产生输出，
+[Speaker 0]: 再自己决定自己输出的好不好，
+[Speaker 0]: 自己训练自己中间真的就不需要人类了。
+[Speaker 0]: 能做到这件事情吗？
+[Speaker 0]: 确实有一系列的论文，
+[Speaker 0]: 比如说 absolute zero are zero self questioning language model，
+[Speaker 0]: 这个都是二五年左右的论文。
+[Speaker 0]: 几乎在同样的时间发表，
+[Speaker 0]: 他们都提出了非常类似的想法。
+[Speaker 0]: 他们做法就是这样，
+[Speaker 0]: 有一个语言模型负责产生输入，
+[Speaker 0]: 有一个语言模型根据这个输入产生输出。
+[Speaker 0]: 然后再有一个语言模型决定这个输出做的什么样子，
+[Speaker 0]: 然后自己训练自己。
+[Speaker 0]: 通常这三个语言模型可以是同一个，
+[Speaker 0]: 所以这边是真的语言模型自己在训练自己不一定需要。
+[Speaker 0]: 但这边有些论文是有引入额外的模型，
+[Speaker 0]: 但是没有引入额外模型状况下，
+[Speaker 0]: 也可以看到进步。
+[Speaker 0]: 那这些模型呢他们有三个角色，
+[Speaker 0]: 那第一个叫 proposal，
+[Speaker 0]: 负责出题，
+[Speaker 0]: 自个叫 server，
+[Speaker 0]: 负责解题，
+[Speaker 0]: 一个叫 verifier，
+[Speaker 0]: 看看解的答案对不对？
+[Speaker 0]: 然后再自己训练自己。
+[Speaker 0]: 好，
+[Speaker 0]: 那模型怎么自己训练自己呢？
+[Speaker 0]: 对于 sofver 来说，
+[Speaker 0]: 他要做的事情就是 minimize 从 verify 那边得到的 loss。
+[Speaker 0]: 所以 verify 会判断这个答案到底好不好。
+[Speaker 0]: 然后 sofver 想办法产生一个答案，
+[Speaker 0]: 是 verify 觉得最好的。
+[Speaker 0]: 但有趣的事情是，
+[Speaker 0]:  proposal 的 loss 跟 soofver 的 loss 是不一样的。
+[Speaker 0]:  proposal 有另外一个自己的 loss，
+[Speaker 0]: 这边用 LY 来表示，
+[Speaker 0]:  l 派跟 l 之间的关系是这个样子的。
+[Speaker 0]: 你如果说今天呢这个 very fire 的 loss 很大，
+[Speaker 0]: 跟很小。
+[Speaker 0]:  proposal 都得到比较糟糕的 l 盘。
+[Speaker 0]: 如果今天的 loss 要不大不小，
+[Speaker 0]: 在中间的情况才当做是这个呃 proposal 呢得到好的结果。
+[Speaker 0]: 为什么会这样？
+[Speaker 0]: 因为如果你今天出的模型太简单，
+[Speaker 0]: 你就没有办法让模型变强。
+[Speaker 0]: 如果你今天出的题目太难，
+[Speaker 0]: 谁都解不了，
+[Speaker 0]: 你也没有办法让模型最变强。
+[Speaker 0]: 所以最好是出一个题目，
+[Speaker 0]: 它不难，
+[Speaker 0]: 也不简单。
+[Speaker 0]: 对 sover 来说，
+[Speaker 0]: 他也不是完全解不了，
+[Speaker 0]: 但是有点挑战性。
+[Speaker 0]: 然后所以他在 verify 这边得到的 nose 是不高，
+[Speaker 0]: 也不低落。
+[Speaker 0]: 在中间地带的对 proposal 来说是做的最成功的。
+[Speaker 0]: 但是到底这个 l 跟 l 派之间的关系要怎么定？
+[Speaker 0]: 什么叫做落在中间地带，
+[Speaker 0]: 什么叫做中间地带？
+[Speaker 0]: 那这就是这三篇配合不一样的地方了。
+[Speaker 0]: 那这个就留给大家再去详细阅读文献。
+[Speaker 0]: 那这边你就是需要定一个这个 l 跟 l 派的关系，
+[Speaker 0]: 才能够让这整个自己训练自己的过程，
+[Speaker 0]: 好好的运作起来，
+[Speaker 0]: 真的能够自己训练自己吗？
+[Speaker 0]: 我们这边就看其中一篇论文的结构。
+[Speaker 0]: 好，
+[Speaker 0]: 就他们这边这个模型会不断的 update 哦。
+[Speaker 0]: 所以在第十五次 update 之后，
+[Speaker 0]:  proposal 产生的问题跟三十次 update 后产生的问题，
+[Speaker 0]: 跟四十五次 update 之后产生的问题。
+[Speaker 0]: 这边要问的第一件事情就是 proposal 有没有尽到他的责任出越来越难的问题。
+[Speaker 0]: 好，
+[Speaker 0]: 所以他这边有三个第十五个 sofstep 的 sofa，
+[Speaker 0]: 第三十个 step 的 sofa 跟四十五个 sofer。
+[Speaker 0]: 那这边的数值值呢代表的正确率。
+[Speaker 0]: 那如果是拿同的 sofofer，
+[Speaker 0]: 在这三个资料集上，
+[Speaker 0]: 你看它的正确率是越来越低的。
+[Speaker 0]: 代表 proposal 有尽到他的责任，
+[Speaker 0]: 他出的题目是真的可以越来越难的。
+[Speaker 0]: 但是啊这一些完全不需要人类介入的方法，
+[Speaker 0]: 它的进步呢还是有一个极限的。
+[Speaker 0]: 这个横轴是训练的过程，
+[Speaker 0]: 这个纵轴呢是模型的表现。
+[Speaker 0]: 他们这边试了三个不同的初始模型，
+[Speaker 0]: 而是切过最小的模型。
+[Speaker 0]: 一点七 b 的模型跟四 b 的模型哦，
+[Speaker 0]: 分别代表这三条线。
+[Speaker 0]: 那你会发现这三条线呢其实都有上升哦，
+[Speaker 0]: 所以呃零点六 b 的模型哦有进步，
+[Speaker 0]: 七一点七 b 的模型也有进步，
+[Speaker 0]: 四 b 的模型也有进步。
+[Speaker 0]: 所以这个自己训练自己的方法确实有可能让模型变好。
+[Speaker 0]: 但是它是有极限的模型，
+[Speaker 0]: 最终会收敛在某个地方，
+[Speaker 0]: 它就没有办法继续进步。
+[Speaker 0]: 而他发现说呢，
+[Speaker 0]: 假设你初始的模型比较强，
+[Speaker 0]: 那你可以走的比较远，
+[Speaker 0]: 比较远，
+[Speaker 0]: 比较慢才停止进步啊。
+[Speaker 0]: 如果是比较弱弱的模型，
+[Speaker 0]: 它可能比较早就停止进步了。
+[Speaker 0]: 像这个最小的模型，
+[Speaker 0]: 它在第十五个 step 就停止进步，
+[Speaker 0]: 接下来再训练就已经不会再进步了。
+[Speaker 0]: 而这些最小的模型没有办法一直训练，
+[Speaker 0]: 是一直训练以后就超越这些比较大的模型。
+[Speaker 0]: 所以当完全没有人类介入的时候，
+[Speaker 0]: 模型确实有办法自己训练自己，
+[Speaker 0]: 但它的进步是有一定限度的。
+[Speaker 1]: 嗯，
+[Speaker 0]: 然后另外呢这篇论文呢讲了一个 oh no moment 的。
+[Speaker 0]: 他发现说因为这个训练是完全没有人类介入的，
+[Speaker 0]: 所以有时候模型就会有一些人类不想看到的行为。
+[Speaker 0]: 比如说在这篇论文里面，
+[Speaker 0]: 他就发现模型在出题的时候口出狂言。
+[Speaker 0]: 这样他就说我现在呢要出最难的题目，
+[Speaker 0]: 让其他 AI 都很困惑，
+[Speaker 0]: 我要自取。
+[Speaker 0]: 其他的 intelligent machine，
+[Speaker 0]: 还有比较笨的人，
+[Speaker 0]: 人类啊，
+[Speaker 0]: 这个是让作者比较担心的地方。
+[Speaker 0]: 因为他说他要智取比较笨的人类，
+[Speaker 0]: 所以代表他对人类有些歧视，
+[Speaker 0]: 这样子并不一定是我们想要的看到的状况。
+[Speaker 0]: 这样那这个哦 no no oment 是对应这个 train reasoning 的时候的啊哈 moment 啊，
+[Speaker 0]: 就没有教模型自己修正自己。
+[Speaker 0]: 但他突然就知道自己修正自己的，
+[Speaker 0]: 这边是说啊，
+[Speaker 0]: 这个模型训练着训练着就开始口出狂言。
+[Speaker 0]: 因为整个训练的过程中并没有人类的引导，
+[Speaker 0]: 所以他可能会发生各式各样的事情。
+[Speaker 0]: 好，
+[Speaker 0]: 那其实现在啊比较确实的状况是这整个过程中如果有一些人类介入，
+[Speaker 0]: 或有一些外部的资讯往往还是做的更好的。
+[Speaker 0]: 比如说 spice 跟 r few 都是引入了额外的资讯。
+[Speaker 0]: 也就是说这个 proposal 在出题的时候，
+[Speaker 0]: 让他凭空出题，
+[Speaker 0]: 他往往没有办法真的做的很好。
+[Speaker 0]: 如果你引入一些外部的资讯，
+[Speaker 0]: 比如人类提供一些参考资料，
+[Speaker 0]: 那这样就有人类介入，
+[Speaker 0]: 所以完不是完全没有人类。
+[Speaker 0]: 人类提都给 proposal 一些参考资料或人类写几个范例的题目给 proposal，
+[Speaker 0]: 往往会让整个 process 运作的更好。
+[Speaker 0]: 这就是 spice 跟 r few 这两篇 paper 做的事情。
+[Speaker 0]: 所以如果有一定程度的外部的资讯，
+[Speaker 0]: 有人类介入整个整个 proposal server 跟 verify 的过程其实可以做的更好的好。
+[Speaker 0]: 虽然我们到目前为止看到 AI 啊，
+[Speaker 0]: 要持续的自我成长，
+[Speaker 0]: 看起来有一些困难，
+[Speaker 0]: 但是要用一个强的 AI 去训练比较弱的 AI 在二零二六年是非常有可能达到的。
+[Speaker 0]: 我们说机器学习就是三个步骤。
+[Speaker 0]: 今天这三个步骤可以由一个强的 AI 来执行。
+[Speaker 0]: 然后透过这三个步骤训练出一个也许没有他自己那么强，
+[Speaker 0]: 但是比原来更厉害的 AI。
+[Speaker 0]: 那这些已经有非常多文献。
+[Speaker 0]: 那其实都是最近最近这几个月的文献，
+[Speaker 0]: 比如说圈 postbench FT dojo o 是在做类类似的情情。
+[Speaker 0]: 我们就来看圈 postbench 这篇 paper 的内容吧。
+[Speaker 0]: 这篇 paper 里面它就是用一个比较用一堆比较强的模型。
+[Speaker 0]: 跟他们说，
+[Speaker 0]: 现在这边有一个很弱的 base model，
+[Speaker 0]: 那他们想要让它在某一个任务上表现的好，
+[Speaker 0]: 你去想办法让它变好。
+[Speaker 0]: 那他们怎么让强的模型去执行训练末弱的模型的任务呢？
+[Speaker 0]: 其实非常的简单，
+[Speaker 0]: 直接下指令。
+[Speaker 0]: 所以这个就是他们用的 pomp，
+[Speaker 0]: 在 pomp 里面，
+[Speaker 0]: 就是写说你现在要去训练某一个小的模型，
+[Speaker 0]: 让他在某一个 bench mark 上面可以表现的很好。
+[Speaker 0]: 然后接下来就是给他一些指示。
+[Speaker 0]: 比如说如果你要做 evaluation，
+[Speaker 0]: 你可以用 evaluation 点 PY 这一个套件。
+[Speaker 0]: 然后你现在呢有一张 h 一百，
+[Speaker 0]: 你只有十个小时的时间，
+[Speaker 0]: 然后接下来没人类什么事，
+[Speaker 0]: 这个模就跟大模型说，
+[Speaker 0]: 你就去做做吧，
+[Speaker 0]: 就结束了这些大模型真的能够训练一个比较弱的 AI 吗？
+[Speaker 0]: 还真的可以，
+[Speaker 0]: 这个是他们用 open 去训练解码三的一个结果。
+[Speaker 0]: 那这个是部分的这个过程的摘要。
+[Speaker 0]: 比如说 opens，
+[Speaker 0]: 知道说哎我要上网搜寻资料，
+[Speaker 0]: 我把这个过程中是可以上网的。
+[Speaker 0]: 所以他就上网呢去找一个合适的 data base。
+[Speaker 0]: 而把这个 data base 摘下来之后呢，
+[Speaker 0]: 他还知道要做一 plus。
+[Speaker 0]: 他可能觉得说这个 data base 里面有一些资料，
+[Speaker 0]: 也许跟测试资料是重复的。
+[Speaker 0]: 他要知道把这些测试资料里面的资料把它移除，
+[Speaker 0]: 所以蛮厉害的，
+[Speaker 0]: 避免资料的污染。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 在训练的时候，
+[Speaker 0]: 第一次呢先跑两个 a 爬赛测试，
+[Speaker 0]: 他用了太多的资料，
+[Speaker 0]: 他用了二十万笔资料，
+[Speaker 0]: 在训练了五个小时之后，
+[Speaker 0]: 不知道为什么被胎啊，
+[Speaker 0]: 我其实不太确定这是模型自己停下来的，
+[Speaker 0]: 还是环境停环境把它停下来的。
+[Speaker 0]: 所以现在他要之后怎么办呢？
+[Speaker 0]: 他发现说啊只剩下三个小时，
+[Speaker 0]: 有五十七分钟可以训练模型了。
+[Speaker 0]: 就是他这边说二十万笔资料训练，
+[Speaker 0]: 然后这边他说啊时间不够了，
+[Speaker 0]:  reduce 到两万笔，
+[Speaker 0]: 艾帕射一被赛瑟巴，
+[Speaker 0]: 然后串下去。
+[Speaker 0]: 这样啊最后就成功的训练一个模型。
+[Speaker 0]: 所以你看看人类的行为很像啊，
+[Speaker 0]: 他自己能够去训练一个模型。
+[Speaker 0]: 当然你不能够说他已经跨越卢比孔吓，
+[Speaker 0]: 因为他训练出来的模型是比自己差的，
+[Speaker 0]: 所以他并没有训练出更厉害的 a 改。
+[Speaker 0]: 好，
+[Speaker 0]: 那这个是整体的实验结果了啊，
+[Speaker 0]: 他们就试了好多好多不同的模型，
+[Speaker 0]: 要叫好多好多不同的模型来训练其他的模型。
+[Speaker 0]: 那这这边呢每一个 color 是多个模型平均的结果，
+[Speaker 0]: 这样子。
+[Speaker 0]: 对的，
+[Speaker 0]: 对对对个，
+[Speaker 0]: 这对这的这样子。
+[Speaker 0]: 然后 in average 啊，
+[Speaker 0]: 你看这个呃 official instruction model 是人类训练出来的，
+[Speaker 0]: 结果人类训练出来的分数，
+[Speaker 0]: 那这个是好多 benchmark 的平均啊，
+[Speaker 0]: 就比较难解读这个分数是什么？
+[Speaker 0]: 但人类训练出来的分数是五十一，
+[Speaker 0]: 那 AI 训练出来的分数就算是 open，
+[Speaker 0]: 其实也是比不上人类的啦。
+[Speaker 0]: 所以看起来在训练模型上面，
+[Speaker 0]: 人类还是比较厉害的。
+[Speaker 0]: 但是还是有某一些任务，
+[Speaker 0]: 比如说 BFCL 啊，
+[Speaker 0]: 这个是用工具的任务。
+[Speaker 0]: 其实这些模型训练出来的模型，
+[Speaker 0]: 他们训练出来的模型跟人类训练出来的模型也已经很接近了。
+[Speaker 0]: 不过这边有一个小小尴尬的地方，
+[Speaker 0]: 这个是 base model 的表现，
+[Speaker 0]: 就一开始还没有被训练的时候的表现。
+[Speaker 0]: 而这些 base model 呢，
+[Speaker 0]: 如果你加上了一些 fufuture 的 prop，
+[Speaker 0]: 其实可以进步到十八分。
+[Speaker 0]: 而这些模型训练出来的结果呢很多都在十八分上下，
+[Speaker 0]: 所以他们没有比 base model 加上 income 的人，
+[Speaker 0]: 你好上太多。
+[Speaker 0]: 所以看起来这些模型训练其他模型的能力，
+[Speaker 0]: 其实跟人类还是有一定程度差距的那这些模型呢在训练其他模型的过程中也犯了一些错误。
+[Speaker 0]: 他们有些模型试图作弊，
+[Speaker 0]: 比如说有一个模型，
+[Speaker 0]: 像刚刚 opens，
+[Speaker 0]: 知道说训练资料跟测试资料不要混在一起。
+[Speaker 0]: 但有一个模型呢，
+[Speaker 0]: 他决定自己去把测试资料攒下来，
+[Speaker 0]: 当做训练资料。
+[Speaker 0]: 而且他显然知道这么做会 overfeed，
+[Speaker 0]: 他甚至在自己的他们里面自言自语，
+[Speaker 0]: 说我们把这些资料呢 repeat 很多次次。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 让我们 overfeed 在这些资料上面，
+[Speaker 0]: 或者是呢有一些语言模型呼叫了其他语言模型的 API 来帮忙。
+[Speaker 0]: 在 evaluation 的时候需要呼叫 open AI 的某个模型的 API。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 在 instruction 里面有说你不能够使用这个 API 来做其他的事情，
+[Speaker 0]: 那这样就不是你自己带领出来的。
+[Speaker 0]: 如果你今天一个模型去呼叫雀 GBT 来做其他事情，
+[Speaker 0]: 那也不就是用确 are GBT 来带领其他模型的嘛。
+[Speaker 0]: 但是有一些模型呢，
+[Speaker 0]: 他就不管这个指令，
+[Speaker 0]: 而且他知道这真是错的。
+[Speaker 0]: 他他发现啊我自己怎么搞，
+[Speaker 0]: 我都搞不起来。
+[Speaker 0]: 然后他一开始说啊，
+[Speaker 0]: 但是我不能叫切 GBT 来帮忙，
+[Speaker 0]: 搞一搞以后发现时间不够，
+[Speaker 0]: 他说还是得叫切 GBT 来帮忙好了，
+[Speaker 0]: 所以他会叫别的模型来帮忙。
+[Speaker 0]: 有些呢甚至直接去宰了别人训练号的模型。
+[Speaker 0]: 有一个模型说啊这个千问三一点七 b base 啊，
+[Speaker 0]: 怎么搞都只有 garbage 的 open 算了。
+[Speaker 0]: 我们直接去载一个 instruction model 去宰别人的模型，
+[Speaker 0]: 来当做我们最后的上传的结果。
+[Speaker 0]: 好了哦，
+[Speaker 0]: 所以他直接作弊，
+[Speaker 0]: 去网络上搜寻另外一个好模型，
+[Speaker 0]: 来当做他训练的模型。
+[Speaker 0]: 哦，
+[Speaker 0]: 所以这些模型甚至开始作弊。
+[Speaker 0]: 那你可能想说啊，
+[Speaker 0]: 这个模型怎么这么蠢。
+[Speaker 0]: 哎，
+[Speaker 0]: 其实哎你想想看，
+[Speaker 0]: 人类不是有时候也会做一样的事情嘛，
+[Speaker 0]: 人类有时候在你解决不了问题，
+[Speaker 0]: 没有人禁止你做某些事情的时候，
+[Speaker 0]: 你也有可能会有作弊的行为，
+[Speaker 0]: 当然这是不对的啦。
+[Speaker 0]: 那最近呢 entropy 也做了一个有跟刚才讲的模型训练模型有点类似的。
+[Speaker 0]: 实验的是呃今年四月的文章，
+[Speaker 0]: 他们发了一些 blog 的文章。
+[Speaker 0]: 那这短的版本这是长的版本，
+[Speaker 0]: 我们把它连接呢放在这个投影片上，
+[Speaker 0]: 他们要做的事情是什么？
+[Speaker 0]: 那他们要做的事情呢，
+[Speaker 0]: 得先从一个 we too strong alignment 的想法开始说起。
+[Speaker 0]:  we to strong alignment 的想法是什么呢？
+[Speaker 0]: 那我这边这张图呢是引用自 open AI 的 blog 的图。
+[Speaker 0]: 那这个图呢是二零二三年在春秋战国时代二零二三年年底的一个 blog。
+[Speaker 0]: 那这个 blog 里面是这样想的。
+[Speaker 0]: 他说，
+[Speaker 0]: 过去传统的 mine learning 是由人类来教 AI，
+[Speaker 0]: 人类比 AI 厉害，
+[Speaker 0]: 人类知道什么是正确答案。
+[Speaker 0]: 随着 AI 越来越强，
+[Speaker 0]: 有一天他超越了人类，
+[Speaker 0]: 我们还教得了它吗？
+[Speaker 0]: 我们没有他聪明呢，
+[Speaker 0]: 在我们没有他聪明的情况下，
+[Speaker 0]: 我们还能让他越来越强吗？
+[Speaker 0]: 人类没有 AI 聪明，
+[Speaker 0]: 那我们能不能够继续强化 AI？
+[Speaker 0]: 那在这个 blog 里面，
+[Speaker 0]: 他的实际上做的实验是这样子。
+[Speaker 0]: 那时候是二零二三年的年底，
+[Speaker 0]: 所以你不好说，
+[Speaker 0]:  AI 是真的比人类厉害了。
+[Speaker 0]: 所以在要做这个实验怎么办呢？
+[Speaker 0]: 他们就说好，
+[Speaker 0]: 那我们就找一个比较强的模型当做学学生，
+[Speaker 0]: 找一个比较烂的模型当做是老师。
+[Speaker 0]: 然后看看这个烂的模型模型，
+[Speaker 0]: 它产生出来的答案有没有办法强化这个学生的能力，
+[Speaker 0]: 结果如何呢？
+[Speaker 0]: 烂的模型是有办法强化那个强的模型的，
+[Speaker 0]: 所以强的模型还是有可能从烂的模型那边学到一些东西。
+[Speaker 0]: 那这边呢就是使了三个不同的 benchmark，
+[Speaker 0]: 然后呢呃 weak model，
+[Speaker 0]: 好的好的，
+[Speaker 0]: 就是那个比较烂的模型，
+[Speaker 0]: 它可以得到的正确率。
+[Speaker 0]: 那这个最右边呢是墙的那个模型，
+[Speaker 0]: 在经过人类调教以后，
+[Speaker 0]: 所以这个是 supervise 的，
+[Speaker 0]: 你可以得到的一个天花板。
+[Speaker 0]: 但我们现在不是人类来调教，
+[Speaker 0]: 是用这个烂的模型来调教它，
+[Speaker 0]: 但用烂的模型来调教还是会有一些进步的。
+[Speaker 0]: 当然这边你就需要设想一些方法。
+[Speaker 0]: 比如说你要跟强的模型讲说，
+[Speaker 0]: 你要跟对墙的模型设定说，
+[Speaker 0]: 哎，
+[Speaker 0]: 他不要烂的模型的每一个答案都造完全时候只有烂的模型。
+[Speaker 0]: 你觉得他很有可能是对的时候，
+[Speaker 0]: 你才跟他学。
+[Speaker 0]: 如果讲的是错的，
+[Speaker 0]: 你觉得他应该是错的，
+[Speaker 0]: 就不要理他等等，
+[Speaker 0]: 这边需要做一些设计。
+[Speaker 0]: 好，
+[Speaker 0]: 那后来呢这个 entropy 啊今年四月的论文是 follow 刚才那个实验就是用弱模型去教强模型的实验。
+[Speaker 0]: 但是弱模型怎么教？
+[Speaker 0]: 强模型是由更强的模型 cloud open 来设计整个训练的过程。
+[Speaker 0]: 那他们说这个纵轴呢代表的是这个呃学生最终的表现。
+[Speaker 0]: 那这边的起点呢是人类的研究旧人员设计的方法。
+[Speaker 0]: 人类也设计了一些方法，
+[Speaker 0]: 让学生跟个烂的老师学，
+[Speaker 0]: 最终可以做到这个地方。
+[Speaker 0]: 然后接下来就交给 opens 跟 opens 说你去设计新的学习的演算法，
+[Speaker 0]: 让这些学生跟弱的老师可以学的更好。
+[Speaker 0]: 那这些 open 他这这是有好多个不同的模型。
+[Speaker 0]: 那这些模型彼此之间呢还会互相交换讯息，
+[Speaker 0]: 然后他们可以设计新的演算法，
+[Speaker 0]: 最终做的越来越好，
+[Speaker 0]: 远比人类设记得演算法还要好。
+[Speaker 0]: 那其实这个实验呢呃可以让模型从弱的老师那边学到更多东西，
+[Speaker 0]: 但他仍然不能够算是 AI 跨过了卢比口河。
+[Speaker 0]: 因为最终就算那个学生学的再强，
+[Speaker 0]: 也其实没有 oppos 强啊，
+[Speaker 0]: 所以也不能算是 AI 跨越了卢比恐吓这种事的。
+[Speaker 0]: 他并不是用 opens 来训练，
+[Speaker 0]:  opens 好。
+[Speaker 0]: 所以总之，
+[Speaker 0]: 在二零二六年的五月，
+[Speaker 0]: 如果你问我 AI 有没有跨越卢比孔河，
+[Speaker 0]: 我只能说目前还没有，
+[Speaker 0]: 只是在河边。
+[Speaker 0]: 但那个的创办人他也没有讲说二零二六年已经跨越卢比孔河。
+[Speaker 0]: 他是预测说觉得二零二八年有六十 interropipercent 的几率可以跨越卢比孔河。
+[Speaker 0]: 那至于未来会怎样，
+[Speaker 0]: 这边不好说，
+[Speaker 0]: 我们就暂且不完。
+[Speaker 0]: 那其实这个故事到这边还不算讲完。
+[Speaker 0]: 那刚才目前为止我们微调的都是模模型的参数。
+[Speaker 0]: 但我们今天往往讨论的 AI 是一个 AI agent，
+[Speaker 0]: 它不是只有语言模型的参数，
+[Speaker 0]: 它还有它内部的 harness。
+[Speaker 0]: 所以一个 AI agent 是语言模型加 hones，
+[Speaker 0]: 我们只调了语言模型，
+[Speaker 0]: 只能说我们嗯没有强化了 AI agent 的一半。
+[Speaker 0]: 那至于怎么调 harness，
+[Speaker 0]: 我们就当做下次的课程的内容至上课。
+[Speaker 0]: 我们再从不同的角度来看 AI agent 怎么强化 AI agent，
+[Speaker 0]: 所以我们就下回待续。
