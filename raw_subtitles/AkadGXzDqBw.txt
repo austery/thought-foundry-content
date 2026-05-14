@@ -1,0 +1,207 @@
+ All right, so today I'm going to talk about non-recursive
+ not self-improvement.
+ The idea of AI recursive self-improvement is a
+ key concept in a lot of what will happen
+ with AI in the future kind of scenarios.
+ There's been a lot of chatter about it recently
+ because of an AI tool that was recently
+ released
+ and it's made it quite clear that either many
+ people have no idea what recursive self-improvement
+ actually means or they don't care what it means
+ and are just trying to use it to get
+ more clicks.
+ As usual, I'm concerned that people who don't
+ have the skills or time to understand in
+ detail what's going on with AI will see the
+ stupid headlines and they'll get the wrong
+ idea.
+ And, of course, as usual, that would be bad
+ because the worldview that those headlines
+ in the click-baiters amplify is utter bullsh---------
+ This is the Internet of Bugs.
+ My name is Carl.
+ I've been a software professional since the
+ late 1980s and I'm trying to do my part to
+ make the Internet a safer, less buggy place.
+ You can find out more about me on InternetofBugs.com.
+ The trigger for this current wave of AI is
+ improving itself rhetoric is a project called
+ autoresearch, which was announced a month or
+ so ago, which led to some crazy takes showing
+ it before long.
+ And many of the crazy takes are confusing what
+ autoresearch is doing with a talking
+ point from the AI-Doomer and AI accelerationist
+ playbook, but they're not the same at all.
+ So I posted an essay on my sub-stack about how
+ the AI-Doomers make completely impossible
+ claims about how powerful their mythical super-AI
+ would be if it were possible, which it isn't.
+ I'll put a link to that below.
+ The concept of recursive self-improvement didn't
+ belong in that essay, because unlike
+ much of the totally unhinged Doomer crap,
+ recursive self-improvement might actually be
+ possible, maybe, at least theoretically.
+ However, it's just a sci-fi thought experiment,
+ and there's no actual evidence yet, it could
+ really happen, and it's certainly not happening
+ now.
+ Despite what these people hyping autoresearch
+ would lead you to believe, the idea of how to
+ recurse self-improvement is that people make an
+ AI that's smarter than humans, or at least
+ better at AI research than humans, and that AI
+ creates newer even smarter AI, which in
+ terms creates another AI even smarter than that
+ one, and so on and so forth.
+ This is the rationale that the Doomers used to
+ try to justify super-AI by claiming it
+ will be so far beyond our understanding,
+ because it was built by an AI smarter than
+ an AI that's smarter than an AI that's smarter
+ than an AI that's smarter than an AI that's
+ smarter than an AI that's smarter than an AI
+ that's smarter than an AI that's smarter
+ than an AI that's smarter than us, or something
+ of that effect, you get the idea.
+ To get some concept of how seriously you should
+ take this idea, this is literally the inciting
+ incident of the Hitchhiker's Guide to the
+ Galaxy series.
+ So this new autoresearch tool that everyone is
+ hyping up, it's not that at all.
+ It's a pretty simple tool.
+ You give it access to some code, you give it a
+ way to measure a number that indicates
+ whether things are getting better or worse, and
+ then it just runs in a loop, and it makes
+ some tweak to the code that you give it, it
+ runs the measurement, and if the measurement
+ is better, it keeps the change, and if the
+ measurement isn't better, it rolls it back
+ to the previous version.
+ Does this over and over and loop until you stop
+ it, or you burn through all your AI token
+ budget, which can happen pretty quick in this
+ scenario.
+ I have written a ton of code that does this
+ kind of thing in my career, minus the AI.
+ For example, anytime you're working on code
+ that does network transfers, there's always
+ a fixed amount of memory that gets allocated as
+ a buffer to hold the data that came from
+ the network during processing.
+ Question always arises: how big a buffer should
+ you allocate?
+ So you write some code that loops through 
+ various buffer sizes, runs a benchmark &
+ records the results for each.
+ When it's done, assuming your benchmark was
+ good, you'll know what to set the buffer
+ size to for maximum performance.
+ Another research is basically an AI-enabled
+ version of that. It's more convenient than
+ having
+ to code for yourself what values you want the
+ tool to experiment with, but it's just
+ a performance-changing tool, and it's not a
+ particularly sophisticated one at that.
+ Understand that this isn't nearly sufficient.
+ In order for recursive self-improvement to even
+ start, an AI would first have to code
+ better than humans, not better than the average
+ human, not better than the best human, but
+ better than the best possible human.
+ An AI, despite what everyone seems to say,
+ cannot write better code than the average
+ professional human coder.
+ A lot of people get this wrong, so let me be
+ very clear.
+ What today's AI can do is write code faster
+ than a human, not better.
+ A lot of people that say that coding agents
+ like Claude Code can write code better than
+ humans, and many professional programmers have
+ said that AI's can write code better
+ than they can, but that's only true if time is
+ an important factor.
+ AI can write more code and more functional code
+ in an hour than any human can write in
+ an hour, but that doesn't mean that the code is
+ better than a human could write.
+ It just means that it's better given a
+ relatively short amount of time.
+ And you'll notice that benchmarks and
+ standardized tests are pretty much all intended
+ to produce
+ results in a relatively short amount of time.
+ That's why generative AI is so good at
+ benchmarks.
+ But that's nowhere near good enough to kick off
+ recursive self-improvement.
+ And the programming part is just the easiest
+ part for an AI to do.
+ I spend a lot of time on this channel talking
+ about the difference between training an AI
+ to play a game like chess or go, or even the
+ computer security hacking version of Capture
+ the Flag, and training an AI for general
+ intelligence, also known as "anything and
+ everything
+ a human has ever learned how to do."
+ That's the second thing that AI has to be able
+ to do for recursive self-improvement
+ to work.
+ It has to be able to understand and create
+ better than any human the criteria for
+ measuring
+ whether the changes being made to an AI make it
+ better or worse at anything and everything
+ a human has ever learned to do.
+ No one and nothing has any idea how to do that.
+ A phrase often used in discussing AI
+ functionality these days is "jagged," the idea
+ that if you
+ could graph how good AI's are at everything,
+ there would be some things that AI's are
+ a lot better than humans like chess or go, and
+ the graph for those things would be really
+ high.
+ And then other things, the AI's are way worse
+ than humans at, like recognizing when they're
+ operating outside the parameters that they've
+ been trained for, like in those videos where
+ the self-driving cars keep ignoring hand
+ signals from police officers directing traffic.
+ The graph for those things would be really,
+ really low.
+ And so the whole graph would look jagged with
+ big spikes up and big drops down.
+ We have no idea how to fix the jagged problem.
+ And the best AI's that we built have even less
+ of an idea how to fix it than we do.
+ But we're not done yet because the third thing
+ that an AI would have to do for recursive
+ self-improvement is to come up with new and
+ better ways of simulating how an artificial
+ brain should work.
+ Not tuning the neural networks we have now.
+ We're already seeing that's not going to get us
+ much closer to general intelligence.
+ As an AI researcher recently said, we're moving
+ from the age of scaling to the age of research,
+ and recursive self-improvement requires the ASB
+ better than we can be at that new research.
+ And right now, the best than AI can do is tune
+ up a single simple Python script after
+ being given a human defined metric for judging
+ what better or worse means.
+ This is not a step toward recursive self-improvement,
+ which means it's not a step towards super
+ AI.
+ So take a deep breath, ignore the headlines,
+ send this video to anyone you know that's
+ freaked out about super AI getting closer.
+ And above all, let's be careful out there.
