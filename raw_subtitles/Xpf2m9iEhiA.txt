@@ -1,0 +1,177 @@
+[Speaker 1]:  entropic CEO 达里奥阿莫代伊和特斯拉的 CEO yellow mask 可以说是是折折扣扣的宿敌，
+[Speaker 1]: 但是这对宿敌如今却握手言和，
+[Speaker 1]: 联合宣布 cloudy 要租用 mask 的 space x 旗下的数据中心了，
+[Speaker 1]: 这真是让市场大跌眼镜。
+[Speaker 1]: 那这个合作背后到底发生了什么？
+[Speaker 1]: 为什么会发生这样一百八十度的大转弯呢？
+[Speaker 1]: 让我来给您扒一扒。
+[Speaker 1]: 首先我们来了解一下阿莫代伊和 mask 之间的斗争历史。
+[Speaker 1]: 在二零二四年到二零二五年间，
+[Speaker 1]:  mask 曾经公开断言，
+[Speaker 1]:  entropic 这种公司根本没有赢的机会，
+[Speaker 1]: 甚至嘲讽阿莫代伊对安全性的病态，
+[Speaker 1]: 固执是作茧自缚。
+[Speaker 1]: 进入二零二六年，
+[Speaker 1]:  musk 的这种攻击变得更加具体且激烈。
+[Speaker 1]: 二月份，
+[Speaker 1]:  musk 直接在 x 上向 cloudy 开火，
+[Speaker 1]: 称他的模型厌世且邪恶，
+[Speaker 1]: 并指责其在社会问题上的回答带有严重的偏见，
+[Speaker 1]: 而技术层面的封锁令也让两个人的关系降到了冰点。
+[Speaker 1]: 在二零二六年初的时候，
+[Speaker 1]:  in topic 发现 musk 的 XAI 公司竟然偷偷调用 cloudy 的权限来测试和改进。
+[Speaker 1]: 自家的 grorock 模型，
+[Speaker 1]: 便随即下达了对 grock 的禁令。
+[Speaker 1]: 这一举动彻底记录了 mask，
+[Speaker 1]: 他反手一技重锤，
+[Speaker 1]: 指责 in topic。
+[Speaker 1]: 所谓的数据清洗，
+[Speaker 1]: 实际上是虚伪的数据窃取和洗前式的训练模式。
+[Speaker 0]: 嗯，
+[Speaker 1]: 阿莫戴伊虽然一向言辞是比较内敛的，
+[Speaker 1]: 但他的反击也非常的犀利。
+[Speaker 1]: 他通过将 AI 开发者划分为公共利益导向型和市场导向型，
+[Speaker 1]: 暗自讽刺 musk 为了追求速度而罔顾现实风险。
+[Speaker 1]: 作为对此的回应，
+[Speaker 1]:  mask 在三月份甚至动用了自家的大模型。
+[Speaker 1]:  groock 对阿莫代伊进行了一场极其低俗的公开吐槽。
+[Speaker 1]: 我们可以说，
+[Speaker 1]: 阿莫代伊与 mask 的宿敌之战，
+[Speaker 1]: 已经从幕后的理念分歧演变成了公开的肉搏战。
+[Speaker 1]: 但是就是这样一对宿敌，
+[Speaker 1]: 如今却宣布要一起合作了，
+[Speaker 1]: 这是怎么一回事呢？
+[Speaker 1]: 这是源于五月六号的一则公告，
+[Speaker 1]: 公告是由 cloudy 发布的。
+[Speaker 1]: 他们说，
+[Speaker 1]: 与 space x 已经达成了数据中心的使用协议，
+[Speaker 1]: 该协议将大幅提升 cloudy 超级计算机的计算能量，
+[Speaker 1]: 并且提高其用户的使用上限。
+[Speaker 1]: 根据协议，
+[Speaker 1]:  and topic 将使用 space x closeses 一期数据中心的所有计算能力。
+[Speaker 1]: 到本月底底，
+[Speaker 1]: 这将 cloud dy 增增百百兆瓦的计算能量。
+[Speaker 1]: 并且，
+[Speaker 1]:  mask 也在特斯拉社区大 v soil merit 的帖子底下跟帖宣布，
+[Speaker 1]:  XAI 将不再作为独立的公司存在并入 space x 旗下将改名为 space XAI，
+[Speaker 1]: 成为 space x 旗下的 AI 产品。
+[Speaker 1]: 就算是 mask 首次正式确认并公布旗下公司品牌的合并与变更。
+[Speaker 1]: 这下市场可炸了锅了，
+[Speaker 1]: 大家都在追问为什么为什么。
+[Speaker 1]: 那我们在讨展开讨论之前，
+[Speaker 1]: 需要厘清几个信息点。
+[Speaker 1]: 第一点就是 classes。
+[Speaker 1]: 数据中心原本是 mask 的 XAI 旗下的数据中心。
+[Speaker 1]: 这个数据中心是位于美国田纳西州的孟菲斯第一期项目，
+[Speaker 1]: 使用了十万颗英伟达的 h 一百芯片，
+[Speaker 1]: 专门用于训练 XAI 旗下的大模型。
+[Speaker 1]:  glock 一期项目于二零二四年的年底竣工，
+[Speaker 1]: 算力是一百兆瓦。
+[Speaker 1]: 二期项目目前还在建设中一期和二期项目加总的算力总和为三百兆瓦。
+[Speaker 1]: 并且这个项目其实使用的是独立燃气轮机的发电，
+[Speaker 1]: 也就是说他不需要向别的发电厂要并网发电。
+[Speaker 1]: 那他的整个建设的周期，
+[Speaker 1]: 在所有的大型的数据中心当中，
+[Speaker 1]: 还算是比较快的这两期项目的加总的总建筑成本是在三十到四十亿美金左右。
+[Speaker 1]: 这个建筑成本只是土建啊，
+[Speaker 1]: 然后拉水电的这个成本并不包括算力和其他的成本。
+[Speaker 1]: 第二点是 cloasses 的数据中心怎么就变成 space x 的了？
+[Speaker 1]: 它本来不是 XAI 的吗？
+[Speaker 1]: 这就涉及到面 ask 旗下各家各家公司复的股权交易了。
+[Speaker 1]: 根据特斯拉最近刚刚提交给 SEC 的法律文件，
+[Speaker 1]: 我们可以看到 musk 旗下的特斯拉 XAI 和 space x 之间的复杂的股权交易的历史。
+[Speaker 1]: 好的好的，
+[Speaker 1]:  XAI 已经成为了 space x 的子公司。
+[Speaker 1]: 在二零二五年的三月，
+[Speaker 1]:  XAI 与 x 也就是前 twitter 进行了一项交易，
+[Speaker 1]: 两个公司共同成为了一家新成立的母公司，
+[Speaker 1]: 也就是 XAI holding corporation 的全资子公司。
+[Speaker 1]: 随后，
+[Speaker 1]: 在二零二六年的二月二日，
+[Speaker 1]:  XAI holding 被 space x 并购，
+[Speaker 1]: 正式成为 space x 的全资子公司。
+[Speaker 1]: 这也就意味着，
+[Speaker 1]:  XAI 目前被纳入到了 space x 的控股框架之下。
+[Speaker 1]: 所以 XAI 所有持有的数据中心和资产也成了 space x 的那第三点就是 XAI space x 和特斯拉到底是什么关系呢？
+[Speaker 1]: 我们都知道，
+[Speaker 1]: 特斯拉现在是 space x 的股东了。
+[Speaker 1]: 特斯拉最初是在二零二六年的一月十六日达成协议，
+[Speaker 1]: 计划投资约二十亿美金收购 XAI holding 的一轮优先股。
+[Speaker 1]: 但是由于 XAI holdings 在同年的二月已经被 space x 并购。
+[Speaker 1]: 并且根据并购协议的条款，
+[Speaker 1]: 特斯拉的这项投资权利转换为收购 space x 的 a 类普通股。
+[Speaker 1]: 这笔约二十亿美金的投资交易已经于二零二六年三月十二日正式完成。
+[Speaker 1]: 这样子的话，
+[Speaker 1]: 我们可以看得到 space XXAI 和特斯拉之间的持股关系，
+[Speaker 1]: 变为 mask 的特斯拉持有 space x 的股份。
+[Speaker 1]: 那 space x 又持有 XAI 的股份，
+[Speaker 1]: 而 mask 是连接这些企业的最重要的纽带。
+[Speaker 1]: 他同时担任 space XX 以及 XAI 的高管董事和重要股东，
+[Speaker 1]: 并且在 XAI holdings 被收购前是担任总裁兼首席执行官，
+[Speaker 1]: 了解了上面的所有信息。
+[Speaker 1]: 之后再结合最近 mask 旗下公司的一系列经营运作情况和资本市场的活动。
+[Speaker 1]: 我们可以推测，
+[Speaker 1]:  mask 旗下的 AI 公司和模型运作可能遇到了资金瓶颈，
+[Speaker 1]: 因为市场的竞争太过激烈，
+[Speaker 1]: 而训练大模型就是训练一台烧钱的机器，
+[Speaker 1]: 需要不断不断的投入大量的资金。
+[Speaker 1]: 这对 musk 旗下的公司以及他本人造成了极大的这个资金需求。
+[Speaker 1]: 从 musk 旗下的关联企业来看，
+[Speaker 1]: 只有特斯拉现在是具备现金流和盈利的公司。
+[Speaker 1]: 但是特斯拉目前的营收利润，
+[Speaker 1]: 包括他们在电动车市场的占有率的增长情况，
+[Speaker 1]: 其实是并不是非常乐观的。
+[Speaker 1]: 并且，
+[Speaker 1]: 特斯拉也在最近失去了联邦的七千五百美金的税收补贴，
+[Speaker 1]: 使得特斯拉的现金流和利润大打折扣。
+[Speaker 1]: 在最新一季的季报中，
+[Speaker 1]: 一直快速增长的 mc pack 业务也开始降速。
+[Speaker 1]: 在这样的背景之下，
+[Speaker 1]: 特斯拉也不具备一直为 XAI 输血的能力，
+[Speaker 1]:  musk 必须快速创造一个新鲜的现金血库。
+[Speaker 1]: 所以他在二零二六年年初大刀阔斧，
+[Speaker 1]: 完成了对旗下关联企业的股权关系的变更，
+[Speaker 1]: 让 space x 并购 XAI 将特斯拉对 XAI 的投资转变成对 space x 的股份，
+[Speaker 1]: 并且向 SEC 递交了 space x 的 IPO 发行申请，
+[Speaker 1]: 试图在今年六月完成对 space x 的估值高达一点七五万亿美金的 IPO。
+[Speaker 0]: 嗯，
+[Speaker 1]: 通过 IPO，
+[Speaker 1]: 可以通过二级市场投资人来为 mask 旗下的企业来输血。
+[Speaker 1]: 此前我也贴过一个数据信息，
+[Speaker 1]: 也就是私募市场的 secondary 基金。
+[Speaker 1]: 前客们正在免费帮机构客户寻找 space x 股份的转手交易的客户。
+[Speaker 1]: 这意味着机构想在 space XIPO 上市前退出，
+[Speaker 1]: 而正常的投行和前客们如果帮着去销售 entropic，
+[Speaker 1]: 这样火爆公司的 secondary 基金股份都会抽抽成本百分之十五到十左右。
+[Speaker 1]: 而他们帮 space x 这个持有人寻找 secondary 基金的投资者的时候是不需要佣金的，
+[Speaker 1]: 这个就很说明问题了。
+[Speaker 1]: 如果现在 space x 能够如期上市，
+[Speaker 1]: 并且 mask 把他的太空故事和 AI 故事讲好的话，
+[Speaker 1]: 并且市场的投资人也买单的话，
+[Speaker 1]: 那么 mask 整个生态圈的故事，
+[Speaker 1]: 比如特斯拉的高估值，
+[Speaker 1]:  space x 的太空远景和 AI 叙事就是有可能成立的。
+[Speaker 1]: 但是，
+[Speaker 1]: 如果 space x 的上市遇到坎坷时间拖后或者估值大幅下调，
+[Speaker 1]: 那么 mask 生态圈的故事在延续，
+[Speaker 1]: 就会面临很大的挑战和困难。
+[Speaker 1]: 所以，
+[Speaker 1]:  entropicc 想要去租用 mask 的数据中心的这则新闻不可谓不重磅。
+[Speaker 1]: 它反映了两位直接在 AI 赛道直面竞争的对手的不同命运。
+[Speaker 1]: 当然，
+[Speaker 1]: 这也可能是 musk 商业帝国弱点的直接呈现。
+[Speaker 1]: 而对于快速发展的 entopic 来说，
+[Speaker 1]: 能够找到即插即用的数据中心，
+[Speaker 1]: 理解他算力不足的燃眉之急，
+[Speaker 1]: 那也是极好的。
+[Speaker 1]: 所以大家看到了吗？
+[Speaker 1]: 在真正的利益和现实面前，
+[Speaker 1]: 理性的成年人都是可以去谈判斡旋的。
+[Speaker 1]: 你进我退，
+[Speaker 1]: 你退，
+[Speaker 1]: 我进。
+[Speaker 1]: 誓言和忠诚可以留给契约。
+[Speaker 1]: 好的，
+[Speaker 1]: 感谢大家的收看，
+[Speaker 1]: 谢谢。
+[Speaker 1]: 也欢迎大家关注邮管频道金融汪。
