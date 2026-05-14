@@ -1,0 +1,3731 @@
+Remember
+ the
+ can
+ of
+ Nutella
+ that
+ flashed
+
+
+on
+ camera
+ during
+ the
+ Aremis
+ 2
+ mission?
+ A
+
+
+$5
+ 500
+ g
+ jar
+ of
+ chocolate
+ spread?
+ To
+ get
+
+
+that
+ thing
+ into
+ lunar
+ orbit
+ cost
+ roughly
+
+
+$75,926.
+
+
+Thank
+ you
+ very
+ much
+ the
+ author
+ of
+ this
+
+
+post
+ for
+ the
+ calculation.
+ And
+ I
+ agree
+
+
+with
+ this
+ comment.
+ I
+ really
+ hope
+ it
+ was
+
+
+worth
+ every
+ penny
+ for
+ the
+ crew.
+ But
+ if
+ a
+
+
+single
+ jar
+ of
+ Nutella
+ costs
+ 76
+ grand
+
+
+just
+ to
+ hitch
+ a
+ ride
+ around
+ the
+ moon,
+
+
+how
+ did
+ we
+ get
+ to
+ the
+ point
+ when
+ we're
+
+
+seriously
+ saying,
+ "Yeah,
+ let's
+ put
+ data
+
+
+centers
+ in
+ space."
+ data
+ centers
+ with
+
+
+thousands
+ of
+ chips,
+ power
+ systems,
+
+
+shielding,
+ radiators,
+ networking
+ gear,
+
+
+tons
+ of
+ metal,
+ all
+ launched
+ into
+ the
+
+
+orbit
+ before
+ we
+ figured
+ out
+ how
+ to
+ make
+
+
+data
+ centers
+ work
+ sustainably
+ on
+ Earth.
+
+
+All
+ you
+ need
+ to
+ know
+ about
+ the
+ economics
+
+
+of
+ space
+ data
+ centers,
+ why
+ we're
+ getting
+
+
+them
+ into
+ space
+ in
+ the
+ first
+ place,
+ and
+
+
+whether
+ it's
+ an
+ economically
+ viable
+
+
+business
+ to
+ begin
+ with
+ in
+ the
+ new
+
+
+episode
+ of
+ the
+ series,
+ The
+ Business
+ of
+
+
+AI.
+ Let's
+ dive
+ in.
+
+
+Terrestrial
+ AI
+ data
+ centers
+ need
+ three
+
+
+things
+ in
+ gigantic
+ quantities.
+ Water,
+
+
+electricity,
+ and
+ land.
+ All
+ three
+ are
+ now
+
+
+critically
+ constrained.
+ Starting
+ with
+
+
+water.
+ A
+ typical
+ large
+ data
+ center
+ needs
+
+
+about
+ 300,000
+ gallons
+ of
+ water
+ per
+ day
+
+
+for
+ cooling.
+ This
+ amount
+ of
+ water,
+ for
+
+
+context,
+ can
+ suffice
+ for
+ about
+ a
+
+
+thousand
+ households.
+ The
+ largest
+ data
+
+
+centers
+ for
+ hyperscalers
+ at
+ Google
+ can
+
+
+use
+ up
+ to
+ 5
+ million
+ gallons
+ of
+ water
+ per
+
+
+day.
+ The
+ ones
+ around
+ Phoenix,
+ Arizona
+
+
+use
+ 385
+ million
+ gallons
+ per
+ year
+ for
+
+
+cooling.
+ And
+ this
+ is
+ not
+ counting
+ the
+
+
+water
+ required
+ to
+ generate
+ the
+
+
+electricity.
+ As
+ AI
+ data
+ centers
+ grow,
+
+
+water
+ used
+ for
+ cooling
+ is
+ projected
+ to
+
+
+skyrocket
+ by
+ 870%.
+
+
+The
+ second
+ thing
+ is
+ electricity.
+ AI
+ data
+
+
+centers
+ are
+ hitting
+ similar
+ hard
+ limits
+
+
+on
+ the
+ power
+ side.
+ The
+ case
+ of
+ Northern
+
+
+Virginia
+ is
+ probably
+ the
+ most
+ staggering
+
+
+case
+ of
+ the
+ system
+ reaching
+ its
+ limit.
+
+
+Northern
+ Virginia
+ hosts
+ nearly
+ 600
+ data
+
+
+centers
+ and
+ handles
+ approximately
+ 70%
+ of
+
+
+the
+ world's
+ internet
+ traffic.
+ A
+ voltage
+
+
+fluctuation
+ in
+ 2024
+ almost
+ triggered
+ a
+
+
+regional
+ blackout
+ and
+ caused
+ 60
+ data
+
+
+centers
+ to
+ disconnect
+ from
+ the
+ power
+
+
+grid.
+ Local
+ utilities
+ and
+ regulators
+
+
+warned
+ that
+ without
+ massive
+ new
+
+
+transmission
+ lines,
+ residential
+
+
+electricity
+ bills
+ in
+ the
+ region
+ can
+
+
+climb
+ toward
+ $380
+ per
+ month
+ because
+
+
+households
+ will
+ be
+ competing
+ with
+ data
+
+
+centers
+ for
+ the
+ same
+ power.
+ And
+ number
+
+
+three,
+ land.
+ This
+ specific
+ bottleneck
+ is
+
+
+simply
+ about
+ finding
+ more
+ physical
+ space
+
+
+to
+ put
+ all
+ this
+ hardware
+ in.
+ To
+ house
+
+
+tons
+ of
+ metal,
+ you
+ need
+ a
+ lot
+ of
+ real
+
+
+estate,
+ acres
+ per
+ site.
+ Most
+ regions
+
+
+that
+ are
+ best
+ suited
+ for
+ data
+ centers
+
+
+with
+ cool
+ climates
+ and
+ stable
+ geology,
+
+
+proximity
+ to
+ fiber
+ routes
+ and
+ power
+
+
+plants
+ have
+ already
+ been
+ used.
+ and
+ local
+
+
+governments
+ that
+ once
+ competed
+ to
+
+
+attract
+ data
+ centers
+ with
+ tax
+ breaks,
+
+
+for
+ example,
+ are
+ hitting
+ pause
+ because
+
+
+farmland
+ is
+ paved
+ over,
+ housing
+ projects
+
+
+are
+ stopped
+ and
+ residents
+ push
+ back
+
+
+against
+ sprawling
+ industrial
+ jungles
+ on
+
+
+their
+ doorstep.
+ In
+ more
+ and
+ more
+
+
+jurisdictions,
+ the
+ cheapest
+ land
+ that
+
+
+also
+ has
+ grid,
+ water
+ rights,
+ and
+
+
+community
+ approval
+ simply
+ no
+ longer
+
+
+exists
+ at
+ the
+ scale
+ that
+ AI
+ builders
+
+
+wanted
+ to.
+ And
+ so
+ people
+ started
+ looking
+
+
+elsewhere
+ and
+ that
+ elsewhere
+ is
+ off
+ the
+
+
+planet
+ earth.
+ They
+ looked
+ down
+ and
+ saw
+
+
+the
+ water
+ which
+ yes
+ is
+ a
+ thing
+ as
+ well.
+
+
+We're
+ going
+ to
+ talk
+ about
+ it
+ a
+ little
+
+
+bit
+ later
+ but
+ today
+ is
+ about
+ looking
+ up
+
+
+the
+ space.
+ Why
+ put
+ a
+ data
+ center
+ in
+
+
+space?
+ Let's
+ come
+ back
+ to
+ the
+ three
+
+
+things
+ that
+ data
+ centers
+ need
+ in
+
+
+gigantic
+ quantities.
+ Water.
+ Space
+ is
+ the
+
+
+only
+ place
+ where
+ water
+ supply
+ is
+ not
+
+
+part
+ of
+ the
+ equation.
+ In
+ orbit,
+ heat
+ can
+
+
+be
+ rejected
+ directly
+ into
+ the
+ vacuum
+
+
+through
+ large
+ radiator
+ panels.
+ This
+
+
+doesn't
+ make
+ cooling
+ easy
+ because
+ those
+
+
+radiators
+ must
+ be
+ huge
+ and
+ very
+
+
+carefully
+ engineered,
+ but
+ instead
+ it
+
+
+breaks
+ the
+ dependency
+ on
+ household
+ or
+
+
+farmers
+ fighting
+ for
+ the
+ same
+ rivers
+ and
+
+
+water
+ sources.
+ electricity.
+ Solar
+ power
+
+
+in
+ orbit
+ doesn't
+ care
+ about
+ heat
+ waves
+
+
+or
+ winter
+ storms
+ or
+ regional
+ power
+
+
+grids.
+ A
+ satellite
+ in
+ orbit
+ sees
+ the
+ sun
+
+
+for
+ roughly
+ 95%
+ of
+ the
+ time,
+ regardless
+
+
+of
+ clouds,
+ day
+ or
+ night,
+ or
+ atmospheric
+
+
+losses.
+ What
+ this
+ means
+ is
+ that
+ you
+ get
+
+
+far
+ more
+ usable
+ energy
+ out
+ of
+ solar
+
+
+panels
+ in
+ space
+ rather
+ than
+ on
+ the
+
+
+ground.
+ And
+ again,
+ this
+ also
+ removes
+ the
+
+
+competition
+ for
+ power
+ plants
+ with
+
+
+factories
+ or
+ homes
+ or
+ farms
+ or
+ electric
+
+
+vehicles
+ for
+ a
+ share
+ of
+ an
+ already
+
+
+strained
+ grid
+ and
+ land.
+ Yeah,
+ it's
+ kind
+
+
+of
+ obvious
+ that
+ land
+ is
+ unlimited.
+ But
+
+
+what's
+ even
+ more
+ important
+ is
+ the
+
+
+absence
+ of
+ politics
+ around
+ the
+ land.
+ On
+
+
+Earth,
+ every
+ new
+ data
+ center
+ is
+ a
+
+
+political
+ fight
+ over
+ zoning,
+ noise,
+
+
+views,
+ jobs,
+ tax
+ breaks.
+ But
+ in
+ space,
+
+
+you
+ don't
+ need
+ acres
+ of
+ flat
+ and
+ cool
+
+
+fiber
+ cooling
+ and
+ power
+ adjacent
+ land.
+
+
+So
+ let's
+ see
+ what
+ it
+ takes
+ to
+ build
+ an
+
+
+orbital
+ data
+ center
+ step
+ by
+ step.
+
+
+You're
+ going
+ to
+ need
+ four
+ primary
+
+
+components.
+ Component
+ number
+ one,
+ the
+
+
+satellite.
+ To
+ build
+ a
+ flying
+ data
+ center
+
+
+with
+ its
+ own
+ power
+ generation,
+ computing
+
+
+cluster,
+ cooling
+ system,
+ and
+
+
+communications
+ network,
+ you
+ need
+ a
+
+
+physical
+ piece
+ of
+ equipment
+ that
+ would
+
+
+house
+ all
+ of
+ it,
+ a
+ satellite.
+ In
+ each
+
+
+satellite,
+ just
+ like
+ in
+ a
+ terrestrial
+
+
+data
+ center,
+ we're
+ going
+ to
+ store
+
+
+clusters
+ of
+ AI
+ chips.
+ However,
+ there's
+ a
+
+
+problem.
+ If
+ we
+ send
+ the
+ chips
+ that
+ are
+
+
+currently
+ being
+ produced
+ for
+ terrestrial
+
+
+data
+ centers,
+ we
+ will
+ inevitably
+ run
+
+
+into
+ several
+ problems.
+ Problem
+ number
+
+
+one,
+ cosmic
+ radiation
+ causes
+ bit
+ flips.
+
+
+On
+ Earth,
+ the
+ atmosphere
+ and
+ magnetic
+
+
+field
+ block
+ the
+ vast
+ majority
+ of
+ high
+
+
+energy
+ cosmic
+ rays
+ and
+ solar
+ particles
+
+
+in
+ orbit
+ above
+ 500
+ km,
+ which
+ is
+ the
+
+
+minimum
+ altitude
+ for
+ Space
+ X
+ satellites.
+
+
+As
+ an
+ example,
+ there
+ is
+ no
+ such
+
+
+shielding.
+ High
+ energy
+ particles
+ fly
+
+
+straight
+ into
+ the
+ chip
+ circuiting.
+ When
+
+
+a
+ charged
+ particle
+ hits
+ the
+ memory
+ cell,
+
+
+it
+ can
+ flip
+ a
+ bit
+ from
+ 0ero
+ to
+ one
+ or
+
+
+one
+ to
+ zero.
+ Here
+ is
+ an
+ example.
+ Imagine
+
+
+a
+ chip
+ storing
+ the
+ number
+ 22
+ in
+ binary.
+
+
+Then
+ a
+ cosmic
+ ray
+ hits
+ the
+ chip
+ and
+
+
+flips
+ a
+ single
+ bit
+ from
+ 0
+ to
+ 1.
+ And
+
+
+suddenly
+ the
+ number
+ isn't
+ 22
+ anymore.
+
+
+It's
+ 150.
+ This
+ is
+ the
+ bit
+ flip.
+ One
+ tiny
+
+
+change
+ at
+ the
+ hardware
+ level
+ can
+ cause
+
+
+completely
+ different
+ data.
+ And
+ this
+
+
+error
+ is
+ going
+ to
+ propagate
+ through
+ the
+
+
+entire
+ neural
+ network
+ without
+ triggering
+
+
+any
+ visible
+ flag.
+ For
+ example,
+ Meta's
+
+
+training
+ of
+ Lama
+ 3
+ on
+ Nvidia
+ H100's
+
+
+experienced
+ 419
+ unexpected
+ interruptions
+
+
+in
+ 54
+ days
+ on
+ Earth.
+ And
+ these
+ failures
+
+
+were
+ happening
+ every
+ few
+ minutes
+ in
+ a
+
+
+fully
+ protected
+ terrestrial
+ environment.
+
+
+In
+ orbit,
+ this
+ system
+ would
+ face
+ all
+
+
+those
+ failures
+ plus
+ radiation
+ induced
+
+
+bit
+ flips.
+ So,
+ you
+ may
+ ask,
+ why
+ don't
+ we
+
+
+just
+ use
+ radiation
+ hardened
+ chips?
+
+
+Radiation
+ hardened
+ chips
+ do
+ exist,
+ and
+
+
+they're
+ typically
+ used
+ in
+ military
+
+
+satellites,
+ nuclear
+ power
+ plants,
+ space
+
+
+probes,
+ but
+ they're
+ typically
+ much
+
+
+larger
+ and
+ a
+ lot
+ older.
+ They're
+ more
+
+
+resistant
+ to
+ radiation
+ by
+ nature
+ because
+
+
+the
+ transistors
+ are
+ physically
+ bigger
+
+
+and
+ harder
+ for
+ a
+ particle
+ to
+ hit,
+ but
+
+
+instead,
+ they
+ lag
+ generations
+ behind
+
+
+leading
+ AI
+ chips
+ in
+ compute
+ power.
+ The
+
+
+latest,
+ the
+ most
+ advanced
+ Radhar
+ chips
+
+
+contain
+ between
+ 500
+ million
+ and
+ two
+
+
+billion
+ transistors.
+ In
+ contrast,
+
+
+Nvidia's
+ flagship
+ H100's
+ contain
+ 80
+
+
+billion
+ transistors
+ and
+ Blackwell
+ chips
+
+
+around
+ 200
+ billion.
+ The
+ solution
+ to
+ this
+
+
+would
+ be
+ a
+ combination
+ of
+ triple
+ modular
+
+
+redundancy,
+ running
+ at
+ least
+ three
+
+
+parallel
+ computation
+ pipelines
+ and
+
+
+comparing
+ outputs
+ to
+ catch
+ errors,
+
+
+radiation
+ tolerant
+ wrappers
+ around
+ the
+
+
+chip,
+ error
+ correcting
+ memory
+ at
+ every
+
+
+level,
+ and
+ new
+ firmware
+ designed
+
+
+specifically
+ for
+ high
+ radiation
+
+
+environments.
+ Triple
+ redundancy
+ means
+
+
+launching
+ three
+ times
+ as
+ many
+ chips,
+
+
+three
+ times
+ the
+ cooling,
+ and
+ three
+ times
+
+
+the
+ launch
+ cost.
+ Meaning
+ the
+ economics
+
+
+of
+ this
+ simply
+ will
+ not
+ work.
+ Google
+ in
+
+
+fact
+ tested
+ their
+ trillium
+ TBU
+ chips
+ on
+
+
+the
+ ground
+ and
+ projected
+ only
+ five
+ years
+
+
+of
+ reliable
+ orbital
+ operation.
+ But
+ the
+
+
+problem
+ is
+ that
+ the
+ ground
+ radiation
+
+
+exposes
+ chips
+ to
+ only
+ one
+ particle
+ type
+
+
+while
+ space
+ has
+ continuous
+ hail
+ of
+
+
+cosmic
+ rays
+ at
+ a
+ far
+ wider
+ range
+ of
+
+
+energies.
+ The
+ second
+ big
+ problem
+ is
+ that
+
+
+chips
+ wear
+ out
+ and
+ cannot
+ be
+ replaced.
+
+
+On
+ Earth,
+ data
+ centers
+ swap
+ out
+ GPUs
+
+
+every
+ two
+ to
+ three
+ years
+ as
+ those
+ chips
+
+
+degrade
+ from
+ use
+ or
+ as
+ newer
+ generations
+
+
+arrive.
+ In
+ orbit,
+ you
+ can't
+ swap
+ out
+ the
+
+
+chips.
+ You're
+ not
+ going
+ to
+ hop
+ on
+ a
+
+
+rocket
+ and
+ magically
+ fly
+ up
+ to
+ the
+
+
+satellite
+ and
+ take
+ them
+ out.
+ Chips
+ do
+
+
+not
+ get
+ brought
+ back.
+ It's
+ a
+ one-way
+
+
+trip.
+ They
+ run
+ there
+ for
+ about
+ 5
+ years
+
+
+until
+ solar
+ panels
+ and
+ chips
+ start
+ to
+
+
+degrade
+ and
+ then
+ burn
+ up.
+ There's
+ no
+
+
+retrieval
+ of
+ satellites
+ back
+ to
+ Earth.
+
+
+In
+ contrast,
+ for
+ terrestrial
+ data
+
+
+centers,
+ old
+ chips
+ get
+ a
+ second
+ and
+
+
+sometimes
+ third
+ life.
+ They
+ can
+ be
+
+
+cascaded
+ to
+ lighter
+ loads.
+ They
+ can
+ be
+
+
+sold
+ to
+ smaller
+ cloud
+ providers.
+ The
+
+
+secondhand
+ market
+ for
+ chips
+ is
+ actually
+
+
+quite
+ big.
+ But
+ in
+ space,
+ recovering
+ and
+
+
+refurbishing
+ those
+ chips
+ would
+ require
+ a
+
+
+whole
+ additional
+ class
+ of
+ vehicles
+ like
+
+
+space
+ tugs
+ or
+ cargo
+ return
+ capsules,
+
+
+which
+ nobody
+ has
+ at
+ scale
+ yet.
+ Moving
+ on
+
+
+to
+ the
+ second
+ component,
+ power.
+ A
+ solar
+
+
+plant
+ on
+ Earth
+ receives
+ sunlight
+
+
+filtered
+ through
+ the
+ atmosphere.
+ Only
+
+
+when
+ the
+ sun
+ is
+ up
+ and
+ only
+ when
+ there
+
+
+are
+ no
+ clouds.
+ In
+ space,
+ the
+ exposure
+ to
+
+
+the
+ sun
+ is
+ approximately
+ 95%
+ compared
+ to
+
+
+roughly
+ 30%
+ for
+ a
+ solar
+ panel
+ on
+ Earth.
+
+
+And
+ it
+ all
+ sounds
+ fine
+ and
+ dandy,
+ but
+
+
+the
+ risk
+ here
+ is
+ that
+ generating
+ power
+
+
+in
+ space
+ requires
+ very
+ large
+ systems
+ of
+
+
+solar
+ panels
+ to
+ feed
+ a
+ sizable
+ chip
+
+
+cluster.
+ We're
+ talking
+ solar
+ structures
+
+
+on
+ the
+ order
+ of
+ a
+ football
+ field
+ folded
+
+
+inside
+ a
+ rocket
+ and
+ then
+ somehow
+
+
+autonomously
+ unfolding
+ into
+ 170
+ m
+ wide
+
+
+wing.
+ These
+ structures
+ should
+ also
+ be
+
+
+able
+ to
+ survive
+ thousands
+ of
+ cycles
+
+
+between
+ minus
+ 120
+ and
+ plus
+ 120°
+ Celsius
+
+
+temperature
+ fluctuation.
+ Component
+
+
+number
+ three,
+ cooling.
+ On
+ Earth,
+ data
+
+
+centers
+ keep
+ chips
+ cool
+ by
+ pushing
+ heat
+
+
+into
+ air
+ or
+ water.
+ In
+ space,
+ there
+ is
+
+
+neither
+ air
+ nor
+ water.
+ So,
+ that
+ trick
+
+
+doesn't
+ work.
+ The
+ only
+ option
+ is
+ to
+ let
+
+
+the
+ hardware
+ dump
+ heat
+ as
+ in
+ frared
+
+
+light
+ into
+ empty
+ space
+ using
+ big
+
+
+radiator
+ panels.
+ The
+ problem
+ is
+ the
+
+
+size.
+ To
+ get
+ rid
+ of
+ heat
+ from
+ a
+ data
+
+
+center,
+ those
+ panels
+ have
+ to
+ be
+ massive
+
+
+and
+ work
+ for
+ several
+ years
+ with
+ no
+
+
+maintenance
+ or
+ somebody
+ being
+ there
+ to
+
+
+fix
+ them.
+ As
+ you
+ add
+ more
+ compute,
+ those
+
+
+panels
+ have
+ to
+ get
+ larger
+ and
+ larger.
+
+
+And
+ component
+ number
+ four,
+ networking.
+
+
+For
+ a
+ cluster
+ of
+ satellites
+ to
+ function
+
+
+as
+ a
+ distributed
+ data
+ center,
+ they
+ need
+
+
+to
+ talk
+ to
+ each
+ other
+ and
+ they
+ need
+ to
+
+
+send
+ results
+ back
+ down
+ to
+ Earth.
+ This
+
+
+satellite
+ to
+ satellite
+ problem
+ is
+ solved
+
+
+with
+ laser
+ links
+ that
+ are
+ quite
+
+
+literally
+ shooting
+ laser
+ beams
+ between
+
+
+the
+ satellites.
+ However,
+ for
+ those
+
+
+lasers
+ to
+ carry
+ enough
+ bandwidth
+ for
+ AI
+
+
+computation,
+ the
+ satellites
+ must
+ fly
+ in
+
+
+formation
+ from
+ hundreds
+ of
+ meters
+ to
+ a
+
+
+few
+ kilometers
+ apart
+ to
+ stay
+ in
+ each
+
+
+other's
+ area
+ of
+ visibility.
+ That
+ means
+
+
+that
+ every
+ satellite
+ must
+ hold
+ its
+ exact
+
+
+position
+ relative
+ to
+ its
+ neighbors
+ or
+ be
+
+
+able
+ to
+ correct
+ its
+ position
+
+
+autonomously
+ to
+ maintain
+ connectivity.
+
+
+So
+ let's
+ sum
+ it
+ up.
+ To
+ put
+ a
+ data
+ center
+
+
+in
+ space,
+ you
+ need
+ satellites
+ that
+
+
+bundle
+ four
+ things.
+ Power,
+ compute,
+
+
+cooling,
+ and
+ networking.
+ Each
+ of
+ these
+
+
+things
+ need
+ massive
+ physical
+ structures
+
+
+to
+ be
+ supported.
+ The
+ chips
+ need
+
+
+atmospheric
+ shielding.
+ we
+ have
+ to
+
+
+somehow
+ bypass
+ the
+ whole
+ flip
+ problem.
+
+
+And
+ while
+ radiation
+ hardened
+ chips
+
+
+exist,
+ they're
+ generations
+ behind
+ H100s.
+
+
+So,
+ this
+ pretty
+ much
+ sums
+ it
+ up.
+ Now,
+
+
+let's
+ come
+ back
+ to
+ the
+ economics
+ and
+ see
+
+
+if
+ data
+ centers
+ in
+ space
+ is
+ a
+ viable
+
+
+business
+ model.
+ Everything
+ about
+ data
+
+
+centers
+ in
+ space
+ lives
+ or
+ dies
+ on
+ how
+
+
+cheap
+ it
+ is
+ to
+ put
+ each
+ kilogram
+ of
+
+
+hardware
+ into
+ low
+ Earth
+ orbit.
+ It's
+ the
+
+
+cost
+ of
+ the
+ launch
+ that
+ determines
+
+
+whether
+ the
+ effort
+ to
+ launch
+ orbital
+
+
+data
+ centers
+ can
+ compete
+ with
+
+
+terrestrial
+ alternatives.
+ Whatever
+ you
+
+
+do
+ to
+ solve
+ the
+ radiation
+ and
+ cooling
+
+
+and
+ power,
+ you
+ still
+ end
+ up
+ with
+ a
+ ton
+
+
+of
+ stuff
+ that
+ needs
+ to
+ be
+ carried
+ to
+ the
+
+
+satellite.
+ Chips,
+ shielding,
+ radiators,
+
+
+structures,
+ propellants.
+ The
+ heavier
+ the
+
+
+load,
+ the
+ more
+ fuel
+ the
+ rocket
+ burns,
+
+
+the
+ more
+ expensive
+ the
+ flight.
+ To
+ get
+ it
+
+
+into
+ space,
+ you
+ have
+ to
+ pay
+ for
+ every
+
+
+kilogram
+ that
+ you
+ put
+ into
+ the
+ orbit,
+
+
+regardless
+ of
+ whether
+ that
+ kilogram
+ is
+ a
+
+
+gold
+ chip
+ or
+ a
+ steel
+ bolt.
+ To
+ deliver
+
+
+the
+ chips
+ to
+ the
+ orbit,
+ you
+ need
+ three
+
+
+things:
+ a
+ rocket,
+ a
+ satellite,
+ and
+
+
+payload.
+ Payload
+ is
+ the
+ actual
+ cargo,
+
+
+the
+ chips,
+ the
+ radiators,
+ the
+ coolers
+
+
+that
+ go
+ on
+ the
+ satellite.
+ The
+ rocket
+ is
+
+
+basically
+ a
+ delivery
+ truck.
+ It
+ burns
+
+
+fuel
+ to
+ accelerate
+ whatever
+ it
+ is
+
+
+carrying
+ to
+ up
+ to
+ the
+ orbital
+ speed.
+ The
+
+
+rocket
+ has
+ multiple
+ stages
+ and
+ each
+
+
+stage
+ fires,
+ runs
+ out
+ of
+ fuel
+ and
+ gets
+
+
+dropped.
+ Only
+ the
+ top
+ stage
+ plus
+ the
+
+
+payload
+ make
+ it
+ to
+ the
+ orbit.
+ The
+
+
+satellite
+ is
+ what
+ will
+ stay
+ in
+ orbit
+
+
+once
+ the
+ rocket
+ is
+ done.
+ The
+ satellite
+
+
+carries
+ the
+ structures,
+ propulsion,
+
+
+power,
+ cooling,
+ communications,
+ and
+
+
+compute
+ hardware.
+ By
+ compute
+ hardware,
+
+
+we're
+ talking
+ racks
+ of
+ GPUs
+ or
+ TPUs
+ or
+
+
+any
+ other
+ kind
+ of
+ chip.
+ When
+ someone
+
+
+says
+ put
+ H100s
+ in
+ space,
+ they
+ literally
+
+
+mean
+ bolting
+ H100
+ boards
+ inside
+ a
+
+
+satellite
+ and
+ putting
+ that
+ satellite
+ on
+
+
+a
+ rocket.
+ So
+ the
+ rocket
+ carries
+ the
+
+
+satellite,
+ the
+ satellite
+ carries
+ the
+
+
+chips,
+ the
+ chips
+ sit
+ on
+ boards
+ inside
+
+
+the
+ satellite.
+ Now
+ who
+ supplies
+ the
+
+
+rocket?
+ The
+ rocket
+ company.
+ SpaceX,
+ Blue
+
+
+Origin,
+ United
+ Launch
+ Alliance
+ mainly
+
+
+for
+ US
+ military
+ and
+ government
+ or
+ area
+
+
+and
+ space
+ in
+ Europe.
+ They
+ sell
+ you
+
+
+kilograms
+ to
+ orbit.
+ Now,
+ for
+ the
+
+
+economics
+ of
+ this
+ to
+ work
+ in
+ favor
+ of
+
+
+data
+ centers,
+ the
+ cost
+ per
+ kilogram
+ has
+
+
+to
+ go
+ down
+ to
+ about
+ $200.
+
+
+Why
+ $200?
+ Because
+ this
+ number
+ is
+ roughly
+
+
+the
+ point
+ where
+ the
+ cost
+ of
+ lodge
+ stops
+
+
+overpowering
+ the
+ cost
+ of
+ compute.
+ And
+
+
+the
+ math
+ starts
+ to
+ look
+ similar
+ to
+ a
+
+
+good
+ terrestrial
+ data
+ center.
+ As
+ of
+
+
+today,
+ SpaceX
+ is
+ the
+ only
+ one
+ openly
+
+
+targeting
+ $200
+ per
+ kilogram
+ goal
+ with
+
+
+more
+ or
+ less
+ promising
+ plan
+ on
+ how
+
+
+they're
+ going
+ to
+ get
+ to
+ that
+ number.
+ But
+
+
+again,
+ it's
+ a
+ future
+ projection.
+ At
+
+
+today's
+ launch
+ prices,
+ space
+ power
+ costs
+
+
+five
+ to
+ 20
+ times
+ more
+ than
+ the
+ ground.
+
+
+And
+ the
+ cost
+ per
+ kilogram
+ sits
+ around
+
+
+$3,000
+ for
+ the
+ cheapest
+ widely
+ used
+
+
+rocket.
+ Who
+ supplies
+ the
+ satellites?
+
+
+StarCloud,
+ Axiom,
+ ADA
+ Space.
+ These
+ guys
+
+
+decide
+ what
+ the
+ chips
+ are
+ going
+ to
+
+
+physically
+ sit
+ in.
+ They
+ design
+ the
+
+
+chassis,
+ panels,
+ radiators,
+ thrusters,
+
+
+and
+ build
+ the
+ actual
+ satellite
+ with
+
+
+those
+ things.
+ So,
+ how
+ much
+ does
+ a
+
+
+satellite
+ that
+ would
+ be
+ compatible
+ with
+
+
+AI
+ hardware
+ cost?
+ There's
+ no
+ publicly
+
+
+disclosed
+ number,
+ but
+ StarCloud
+ raised
+
+
+$3
+ million
+ precede
+ and
+ with
+ that,
+ they
+
+
+designed,
+ built,
+ and
+ launched
+ StarCloud
+
+
+1
+ in
+ 21
+ months.
+ And
+ the
+ $3
+ million
+
+
+figure
+ well
+ covered
+ the
+ engineering
+ and
+
+
+manufacturing
+ costs.
+ So,
+ speaking
+ of
+ how
+
+
+much
+ it
+ costs
+ to
+ build
+ a
+ satellite
+ like
+
+
+that,
+ we're
+ talking
+ in
+ the
+ ballpark
+ of
+
+
+$2
+ million
+ for
+ a
+ StarCloud
+ class
+
+
+satellite.
+ But
+ on
+ top
+ of
+ that,
+ add
+ the
+
+
+GPU
+ costs.
+ Speaking
+ of
+ chips,
+ it
+ is
+
+
+increasingly
+ becoming
+ in
+ the
+ interest
+ of
+
+
+semiconductor
+ manufacturers
+ to
+ start
+
+
+producing
+ radiation
+ hardened
+ chips
+
+
+because
+ it's
+ a
+ massive
+ growing
+ market.
+
+
+Project
+ Suncatcher
+ is
+ Google's
+ attempt
+
+
+to
+ step
+ into
+ payload
+ territory.
+ They
+
+
+design
+ the
+ rad
+ hardened
+ chips,
+ their
+ own
+
+
+TPUs,
+ and
+ the
+ space
+ compute
+ concept.
+ And
+
+
+then
+ they
+ partner
+ with
+ launch
+ providers
+
+
+that
+ actually
+ put
+ that
+ hardware
+ into
+
+
+space.
+ And
+ this
+ is
+ what
+ the
+ cost
+ of
+ a
+
+
+space
+ data
+ center
+ more
+ or
+ less
+ comes
+
+
+down
+ to.
+ So
+ to
+ sum
+ it
+ up,
+ are
+ we
+ about
+
+
+to
+ see
+ AI
+ infra
+ getting
+ into
+ space?
+ Yes.
+
+
+At
+ first,
+ it's
+ going
+ to
+ be
+ for
+ AI
+
+
+inference
+ and
+ then
+ probably
+ within
+ the
+
+
+next
+ 10
+ years,
+ we
+ will
+ most
+ likely
+ see
+
+
+AI
+ training
+ as
+ well.
+ But
+ as
+ it
+ stands,
+
+
+it
+ is
+ not
+ a
+ justifiable
+ business.
+ You
+
+
+can
+ see
+ the
+ numbers.
+ The
+ math
+ ain't
+
+
+mathing.
+ So
+ the
+ industry
+ is
+ not
+ going
+ to
+
+
+blow
+ up
+ overnight.
+ But
+ it
+ is
+ something
+
+
+that
+ we're
+ actively
+ marching
+ towards.
+
+
+Another
+ big
+ reason
+ why
+ getting
+ into
+
+
+space
+ would
+ be
+ a
+ huge
+ step
+ towards
+
+
+decentralization
+ of
+ AI
+ is
+ because
+
+
+putting
+ data
+ centers
+ in
+ space
+ would
+ in
+
+
+theory
+ give
+ countries
+ that
+ are
+ unable
+ to
+
+
+run
+ AI
+ workloads
+ an
+ opportunity
+ to
+ build
+
+
+their
+ own
+ AI
+ tech
+ market.
+ AI
+
+
+infrastructure
+ crisis
+ in
+ the
+ global
+
+
+north
+ is
+ defined
+ by
+ 7
+ years
+ of
+ grid
+
+
+cues.
+ In
+ the
+ global
+ south,
+ the
+ problem
+
+
+is
+ either
+ unreliable
+ power
+ or
+ no
+ power
+
+
+at
+ all
+ or
+ power
+ too
+ expensive
+ to
+ run
+
+
+compute
+ heavy
+ workloads.
+ As
+ a
+ result,
+
+
+we're
+ dealing
+ with
+ what
+ researchers
+ call
+
+
+compute
+ deserts,
+ countries
+ where
+ there
+
+
+is
+ no
+ public
+ cloud
+ AI
+ hardware
+ at
+ all,
+
+
+compared
+ with
+ compute
+ north,
+ the
+ US,
+
+
+China,
+ and
+ the
+ EU,
+ where
+ GPU
+ data
+
+
+centers
+ live,
+ and
+ compute
+ south,
+ which
+
+
+is
+ most
+ of
+ the
+ developing
+ world,
+ where
+
+
+you
+ can
+ use
+ but
+ not
+ train
+ AI,
+ and
+ where
+
+
+you
+ pay
+ US
+ cloud
+ providers
+ the
+ dollar
+
+
+prices
+ on
+ local
+ wages.
+ Space-based
+ AI
+
+
+compute
+ would
+ change
+ the
+ situation,
+ but
+
+
+again,
+ it
+ would
+ do
+ so
+ in
+ theory.
+ A
+
+
+country
+ with
+ no
+ functional
+ grid,
+ but
+ sun
+
+
+overhead
+ could
+ theoretically
+ access
+ AI
+
+
+inference
+ from
+ an
+ orbital
+ data
+ center,
+
+
+beam
+ results
+ down,
+ and
+ bypass
+ the
+ entire
+
+
+landbased
+ infrastructure.
+ So,
+ let's
+ see
+
+
+where
+ this
+ goes.
+ As
+ always,
+ we
+ hope
+ this
+
+
+was
+ helpful.
+ We'll
+ see
+ you
+ in
+ the
+ next
+
+
+episode
+ of
+ the
+ business
+ of
+ AI.
+ Bye.
