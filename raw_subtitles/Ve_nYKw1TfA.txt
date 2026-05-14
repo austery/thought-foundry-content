@@ -1,0 +1,3049 @@
+for
+ a
+ startup
+ you
+ have
+ one
+ weapon
+ always
+
+
+which
+ is
+ that
+ you
+ have
+ focus
+ and
+ you
+
+
+have
+ the
+ ability
+ to
+ move
+ fast
+ and
+ we
+
+
+have
+ to
+ sort
+ of
+ use
+ those
+ as
+ our
+ primary
+
+
+weapons
+ to
+ stay
+ ahead
+ but
+ I
+ think
+ like
+
+
+partly
+ it's
+ also
+ strategy
+ like
+ as
+ I
+ was
+
+
+saying
+ we
+ don't
+ want
+ to
+ reinvent
+ the
+
+
+wheel
+ here
+ we
+ want
+ to
+ make
+ use
+ of
+ all
+
+
+the
+ great
+ technologies
+ that's
+ available
+
+
+to
+ us
+ and
+ then
+ we
+ focus
+ on
+ the
+ rest
+
+
+where
+ others
+ are
+ not
+ wanting
+ to
+ spend
+
+
+time
+ customers
+ they
+ are
+ looking
+ for
+
+
+solutions
+ to
+ problems
+ they're
+ not
+
+
+looking
+ to
+ buy
+ great
+ technology
+ it
+ sort
+
+
+of
+ really
+ allow
+ allows
+ us
+ to
+ actually
+
+
+focus
+ and
+ dedicate
+ our
+ time,
+ engineering
+
+
+time
+ on
+ problems
+ that
+ others
+ are
+ not
+
+
+investing
+ in.
+ So
+ I
+ think
+ that
+ focus
+ that
+
+
+investment
+ and
+ the
+ speed
+ and
+ the
+ agility
+
+
+like
+ making
+ the
+ right
+ strategic
+ choices
+
+
+where
+ we
+ don't
+ for
+ example
+ have
+ to
+ train
+
+
+our
+ own
+ models
+ and
+ we
+ benefit
+ from
+ the
+
+
+industry's
+ innovation.
+ Those
+ are
+ some
+ of
+
+
+the
+ approaches
+ that
+ will
+ help
+ us
+ um
+ you
+
+
+know
+ stay
+ ahead
+ in
+ this
+ market.
+
+
+My
+ name
+ is
+ Arvin
+ Jan.
+ I'm
+ the
+ founder
+
+
+and
+ CEO
+ of
+ Glean.
+ Glean
+ is
+ an
+ enterprise
+
+
+AI
+ company.
+ Think
+ of
+ it
+ as
+ a
+ more
+
+
+powerful
+ version
+ of
+ chat
+ GPD
+ that's
+
+
+connected
+ to
+ all
+ of
+ your
+ company's
+ data
+
+
+and
+ knowledge.
+ So
+ you
+ can
+ go
+ to
+ it
+ and
+
+
+ask
+ any
+ questions
+ or
+ give
+ it
+ any
+ task
+
+
+and
+ gain
+ will
+ use
+ all
+ of
+ that
+ enterprise
+
+
+context
+ as
+ well
+ as
+ the
+ world's
+ knowledge
+
+
+to
+ answer
+ those
+ questions
+ for
+ you
+ or
+
+
+complete
+ those
+ tasks.
+ We
+ started
+ in
+
+
+early
+ 2019
+ that
+ makes
+ us
+ one
+ of
+ the
+
+
+first
+ enterprise
+ genai
+ companies
+ in
+ the
+
+
+world.
+ We
+ have
+ so
+ much
+ opportunity
+ to
+
+
+transform
+ how
+ people
+ work.
+ Fundamentally
+
+
+change
+ the
+ nature
+ of
+ how
+ humans
+ are
+
+
+going
+ to
+ be
+ working.
+
+
+Well,
+ I'm
+ certainly
+ an
+ engineer
+ by
+
+
+training.
+ I
+ studied
+ computer
+ science
+ in
+
+
+college
+ and
+ since
+ then
+ I
+ worked
+ at
+ five
+
+
+different
+ startups
+ over
+ the
+ last
+ 25
+
+
+years.
+ I
+ worked
+ at
+ Google
+ when
+ it
+ was
+ a
+
+
+privately
+ held
+ company
+ and
+ then
+ we
+
+
+started
+ Rubric
+ in
+ 2014.
+ So
+ yeah,
+ so
+ I've
+
+
+been
+ in
+ tech
+ industry
+ for
+ quite
+ some
+
+
+time
+ and
+ since
+ then
+ I've
+ been
+ an
+
+
+engineer
+ I've
+ been
+ a
+ programmer
+ and
+
+
+that's
+ my
+ core
+ identity.
+ I
+ also
+ never
+
+
+like
+ set
+ out
+ to
+ start
+ these
+ two
+
+
+companies
+ uh
+ rubric
+ and
+ then
+ glean
+ you
+
+
+know
+ these
+ were
+ sort
+ of
+ you
+ know
+ things
+
+
+that
+ happened
+ as
+ I
+ was
+ sort
+ of
+ working
+
+
+through
+ but
+ primarily
+ like
+ you
+ know
+ I've
+
+
+been
+ like
+ I
+ always
+ thought
+ of
+ myself
+ as
+
+
+a
+ product
+ builder.
+ I
+ love
+ working
+ on
+
+
+technology.
+ I
+ love
+ taking
+ complex
+
+
+problems
+ and
+ figuring
+ out
+ how
+ software
+
+
+can
+ actually
+ go
+ and
+ solve
+ those
+
+
+problems.
+ In
+ fact,
+ the
+ journey
+ for
+ Glean
+
+
+also
+ started
+ the
+ same
+ way.
+ So
+ I
+ was
+
+
+actually
+ remember
+ I
+ was
+ already
+ a
+
+
+founder
+ of
+ a
+ successful
+ company
+ when
+ I
+
+
+started
+ Glean,
+ you
+ know,
+ Rubric
+ had
+
+
+pretty
+ good
+ success.
+ We
+ were
+ growing
+
+
+fast
+ and
+ as
+ we
+ grew
+ fast
+ like
+ you
+ know
+
+
+we
+ started
+ to
+ see
+ our
+ company
+ started
+ to
+
+
+struggle
+ on
+ the
+ productivity
+ front.
+ all
+
+
+of
+ our
+ business
+ metrics,
+ how
+ much
+ code
+
+
+we
+ were
+ writing,
+ how
+ much
+ business
+ we
+
+
+were
+ doing,
+ all
+ of
+ those
+ started
+ to
+ look
+
+
+much
+ worse
+ on
+ a
+ per
+ person
+ basis.
+ And
+
+
+when
+ we
+ try
+ to
+ understand
+ like
+ you
+ know
+
+
+what
+ was
+ happening
+ there,
+ our
+ employees
+
+
+complained
+ the
+ most
+ about
+ they
+ couldn't
+
+
+find
+ information
+ within
+ the
+ company
+ and
+
+
+also
+ they
+ couldn't
+ find
+ uh
+ the
+ right
+
+
+people
+ who
+ could
+ go
+ and
+ help
+ them
+ with
+
+
+their
+ tasks.
+ And
+ I
+ started
+ to
+ think
+ well
+
+
+this
+ is
+ not
+ a
+ unique
+ problem
+ like
+ you
+
+
+know
+ we
+ are
+ like
+ any
+ other
+ company.
+ we
+
+
+have
+ knowledge,
+ we
+ have
+ data
+ and
+ every
+
+
+single
+ person
+ in
+ our
+ company
+ struggles
+
+
+with
+ it
+ and
+ their
+ productivity
+ drops.
+ So
+
+
+for
+ me
+ it
+ was
+ obvious
+ like
+ you
+ know
+ when
+
+
+I
+ saw
+ that
+ well
+ here's
+ an
+ opportunity
+ to
+
+
+go
+ help
+ every
+ single
+ person
+ in
+ every
+
+
+single
+ company
+ in
+ the
+ world
+ become
+ more
+
+
+productive
+ if
+ I
+ can
+ reduce
+ their
+
+
+frustration
+ that
+ actually
+ means
+ a
+ lot
+ to
+
+
+me
+ like
+ you
+ know
+ I
+ feel
+ very
+ motivated
+
+
+to
+ solve
+ a
+ problem
+ like
+ that
+ and
+ so
+ when
+
+
+people
+ complain
+ then
+ they're
+ not
+ able
+ to
+
+
+find
+ information
+ inside
+ the
+ company
+ we
+
+
+had
+ to
+ go
+ and
+ solve
+ that
+ problem
+ that
+
+
+was
+ not
+ at
+ all
+ like
+ you
+ know
+ I
+ didn't
+
+
+have
+ to
+ think
+ twice
+ like
+ you
+ know
+ was
+ I
+
+
+was
+ super
+ excited
+ to
+ actually
+ go
+ and
+
+
+build
+ this
+ product
+ so
+ that
+ sort
+ of
+ led
+
+
+me
+ to
+ then
+ go
+ and
+ create
+ cleans
+ it
+ was
+
+
+not
+ as
+ if
+ I
+ was
+ trying
+ to
+ start
+ a
+
+
+company.
+ I
+ wanted
+ to
+ be
+ an
+ entrepreneur.
+
+
+The
+ idea
+ was
+ more
+ that
+ I
+ wanted
+ to
+ solve
+
+
+a
+ technical
+ problem
+ and
+ I
+ wanted
+ to
+
+
+build
+ a
+ product
+ like
+ clean
+ and
+ to
+ build
+
+
+that
+ well
+ maybe
+ I
+ should
+ start
+ a
+
+
+company.
+
+
+So
+ search
+ as
+ a
+ product
+ is
+ quite
+ hard
+ to
+
+
+build.
+ You
+ have
+ to
+ bring
+ a
+ lot
+ of
+ data
+
+
+together
+ in
+ one
+ place.
+ Data
+ is
+ in
+
+
+different
+ formats.
+ Different
+ types
+ of
+
+
+data
+ is
+ there.
+ You
+ know
+ images,
+ tickets,
+
+
+documents.
+ You
+ have
+ to
+ sort
+ of
+ build
+ a
+
+
+deeper
+ understanding
+ of
+ all
+ of
+ those
+
+
+different
+ types
+ of
+ data.
+ You
+ have
+ to
+
+
+understand
+ activity
+ and
+ patterns
+ inside
+
+
+the
+ business.
+ So
+ it's
+ a
+ pretty
+ complex
+
+
+you
+ know
+ piece
+ of
+ technology
+ and
+ doing
+ a
+
+
+good
+ job
+ is
+ super
+ important
+ because
+ most
+
+
+search
+ systems
+ in
+ the
+ past
+ in
+ enterprise
+
+
+were
+ systems
+ that
+ people
+ didn't
+ like
+ and
+
+
+similarly
+ we
+ were
+ building
+ a
+ product
+
+
+that
+ there
+ was
+ a
+ fatigue
+ in
+ that
+
+
+category
+ in
+ enterprises.
+ Enterprises
+
+
+that
+ tried
+ buying
+ search
+ products
+ in
+ the
+
+
+past
+ and
+ they
+ had
+ all
+ failed
+ in
+ fact
+
+
+universally
+ failed.
+ We
+ had
+ to
+ really
+
+
+battle
+ that
+ perception
+ that
+ enterprise
+
+
+search
+ products
+ are
+ all
+ really
+ really
+
+
+bad.
+
+
+We
+ building
+ this
+ product
+ and
+ we
+ wanted
+
+
+to
+ get
+ feedback.
+ I
+ would
+ actually
+ go
+ on
+
+
+LinkedIn
+ and
+ connect
+ with
+ a
+ lot
+ of
+
+
+people
+ in
+ the
+ industry
+ leaders
+ who
+ I
+
+
+wanted
+ to
+ get
+ feedback
+ from.
+ I
+ wanted
+ to
+
+
+learn
+ like
+ if
+ they
+ would
+ actually
+
+
+benefit
+ from
+ the
+ product
+ that
+ I
+ was
+
+
+going
+ to
+ build.
+ So
+ when
+ we
+ try
+ to
+ do
+
+
+that
+ when
+ I
+ try
+ to
+ connect
+ with
+ people
+
+
+most
+ of
+ the
+ times
+ you
+ know
+ nobody
+ would
+
+
+respond
+ back
+ to
+ me.
+ well
+ like
+ that
+ I
+
+
+can't
+ actually
+ manage
+ to
+ get
+ even
+ 30
+
+
+minutes
+ of
+ somebody's
+ time
+ a
+ stranger
+
+
+that
+ has
+ nothing
+ to
+ offer
+ and
+ just
+ want
+
+
+say
+ time
+ because
+ you
+ know
+ I
+ had
+ not
+ yet
+
+
+built
+ a
+ product
+ I
+ couldn't
+ actually
+ show
+
+
+them
+ a
+ demo
+ so
+ being
+ a
+ seller
+ being
+ a
+
+
+business
+ development
+ representative
+
+
+sending
+ cold
+ outreach
+ through
+ email
+
+
+through
+ LinkedIn
+ that
+ was
+ a
+ humbling
+
+
+experience
+ for
+ me
+ helped
+ me
+ develop
+ as
+ a
+
+
+person
+ and
+ sort
+ of
+ building
+ that
+ stamina
+
+
+and
+ building
+ that
+ mental
+ strength
+ and
+
+
+fortitude
+ and
+ you
+ know
+ it
+ was
+ difficult
+
+
+it
+ was
+ disheartening
+ building
+ a
+ business
+
+
+is
+ never
+ easy
+ And
+ a
+ lot
+ of
+ times
+ you
+
+
+give
+ up.
+ You
+ give
+ up
+ because
+ you
+ know
+
+
+there
+ are
+ so
+ much
+ struggle
+ or
+ there's
+ so
+
+
+much
+ negativity
+ or
+ or
+ lack
+ of
+ support.
+
+
+But
+ for
+ me
+ I
+ had
+ a
+ surprisingly
+ strong
+
+
+conviction
+ in
+ this.
+ I
+ knew
+ how
+ hard
+ it
+
+
+is
+ to
+ find
+ information
+ at
+ my
+ work
+ and
+
+
+how
+ many
+ hours
+ I
+ spent.
+ And
+ I
+ talked
+ to
+
+
+a
+ lot
+ of
+ people
+ around
+ me
+ and
+ everybody
+
+
+readily
+ agreed
+ every
+ single
+ time
+ with
+
+
+me.
+ Like
+ there's
+ not
+ a
+ single
+ person
+ who
+
+
+says
+ that
+ oh
+ for
+ them
+ it
+ was
+ so
+ easy
+ to
+
+
+actually
+ go
+ and
+ find
+ information
+ at
+ work
+
+
+uh
+ get
+ answers
+ to
+ their
+ questions.
+ So
+ I
+
+
+knew
+ that
+ people
+ needed
+ it
+ but
+ I
+ knew
+
+
+that
+ leaders
+ were
+ not
+ used
+ to
+ buying
+ it
+
+
+but
+ once
+ we
+ build
+ a
+ good
+ product
+
+
+ultimately
+ the
+ the
+ world
+ will
+ come
+ come
+
+
+to
+ it.
+ So
+ for
+ us
+ we
+ knew
+ that
+ we
+ would
+
+
+only
+ have
+ one
+ chance
+ to
+ succeed
+ and
+ we
+
+
+have
+ to
+ build
+ a
+ product
+ with
+ very
+ high
+
+
+quality
+ because
+ remember
+ like
+ the
+
+
+expectation
+ that
+ people
+ have
+ from
+ a
+
+
+search
+ technology
+ is
+ what
+ Google
+
+
+delivered
+ to
+ them
+ which
+ was
+ you
+ ask
+ a
+
+
+question
+ and
+ instantly
+ you
+ get
+ right
+
+
+documents
+ in
+ such
+ a
+ small
+ time
+ that
+ you
+
+
+have.
+ So
+ we
+ were
+ willing
+ to
+ wait.
+ We
+
+
+were
+ willing
+ to
+ spend
+ the
+ time,
+ make
+ the
+
+
+investment
+ and
+ only
+ when
+ we
+ started
+ to
+
+
+feel
+ like
+ well
+ like
+ you
+ know
+ yes
+ you
+
+
+know
+ I
+ have a
+ Google
+ quality
+ search
+
+
+experience
+ is
+ when
+ we
+ wanted
+ to
+ launch
+
+
+the
+ problem
+ that
+ we're
+ solving
+ while
+ it
+
+
+may
+ not
+ generate
+ an
+ immediate
+ business
+
+
+success
+ everybody
+ understood
+ that
+ it's
+
+
+important
+ problem
+ to
+ solve
+ that
+ it's
+
+
+high
+ impact
+ if
+ somebody
+ solves
+ it.
+ I
+
+
+think
+ the
+ conviction
+ came
+ from
+ the
+ fact
+
+
+that
+ we
+ used
+ the
+ product
+ ourselves
+
+
+number
+ one.
+ So
+ we
+ know
+ it
+ was
+ useful
+
+
+like
+ even
+ even
+ in
+ our
+ own
+ company
+ we
+
+
+couldn't
+ live
+ without
+ glean
+ after
+ we
+
+
+built
+ our
+ first
+ version.
+ So
+ we
+ were
+
+
+actually
+ offering
+ the
+ product
+ for
+ free
+
+
+for
+ the
+ first
+ 2
+ years.
+ I
+ think
+ you
+ see
+
+
+usage
+ like
+ even
+ when
+ we're
+ not
+ charging
+
+
+like
+ our
+ design
+ partners
+ like
+ we
+ had
+ 20
+
+
+of
+ them
+ and
+ people
+ inside
+ those
+
+
+companies
+ were
+ raving
+ about
+ the
+ product.
+
+
+They
+ loved
+ it
+ and
+ in
+ fact
+ we
+ had
+ one
+ or
+
+
+two
+ situations
+ where
+ the
+ security
+ teams
+
+
+wanted
+ this
+ product
+ to
+ be
+ turned
+ off
+
+
+because
+ you
+ know
+ it
+ connects
+ with
+ a
+ lot
+
+
+of
+ systems
+ and
+ so
+ when
+ they
+ tried
+ to
+
+
+turn
+ it
+ off
+ there
+ was
+ a
+ revolt
+ inside
+
+
+those
+ companies
+ you
+ know
+ people
+ just
+
+
+won't
+ let
+ the
+ product
+ disappear
+ so
+ I
+
+
+think
+ these
+ were
+ like
+ enough
+ powerful
+
+
+signs
+ for
+ us
+ that
+ like
+ look
+ we
+ had
+ built
+
+
+something
+ that
+ was
+ useful
+ to
+ people
+
+
+in
+ 2022
+ invested
+ in
+ glean
+ and
+ it
+ was
+ not
+
+
+that
+ I
+ had
+ to
+ actually
+ go
+ and
+ convince
+
+
+them
+ you
+ know
+ wingpack
+ didn't
+ go
+ to
+ them
+
+
+they
+ came
+ to
+ us
+ because
+ by
+ that
+ time
+
+
+everybody
+ got
+ to
+ use
+ the
+ beta
+ product
+
+
+for
+ free
+ and
+ we
+ had
+ word
+ of
+ mouth.
+
+
+People
+ had
+ started
+ to
+ figure
+ out
+ that
+ we
+
+
+we
+ had
+ built
+ a
+ good
+ product.
+ So
+ it
+ was
+ a
+
+
+natural
+ expectation
+ that
+ was
+ built
+ in.
+
+
+We
+ told
+ our
+ customers
+ that
+ now
+ we
+ are
+
+
+actually
+ going
+ GA
+ so
+ everybody
+ can
+ now
+
+
+go
+ and
+ buy
+ this
+ product
+ and
+ they
+ had
+ the
+
+
+choice
+ to
+ go
+ and
+ buy
+ it
+ and
+ of
+ course
+
+
+each
+ one
+ of
+ them
+ bought
+ it
+ and
+
+
+everybody's
+ expectations
+ was
+ already
+ set
+
+
+for
+ a
+ long
+ time
+ that
+ at
+ some
+ point
+
+
+they'll
+ start
+ charging
+ and
+ so
+ so
+ it
+ went
+
+
+pretty
+ smoothly.
+
+
+For
+ a
+ startup,
+ you
+ have
+ one
+ weapon
+
+
+always,
+ which
+ is
+ that
+ your
+ focus
+ and
+
+
+your
+ the
+ ability
+ to
+ move
+ fast.
+ And
+ we
+
+
+have
+ to
+ sort
+ of
+ use
+ those
+ as
+ our
+ primary
+
+
+weapons
+ to
+ stay
+ ahead.
+ Fundamentally,
+
+
+like
+ our
+ engineering
+ philosophy
+ at
+ the
+
+
+company
+ is,
+ and
+ it's
+ a
+ very
+ obvious
+ one,
+
+
+is
+ that
+ we
+ don't
+ want
+ to
+ reinvent
+ the
+
+
+wheel
+ here.
+ We
+ we
+ want
+ to
+ make
+ use
+ of
+
+
+all
+ the
+ great
+ technology
+ that's
+
+
+available
+ to
+ us
+ and
+ we
+ want
+ to
+ focus
+ on
+
+
+innovating
+ in
+ areas
+ where
+ others
+ are
+ not
+
+
+wanting
+ to
+ spend
+ time
+ building
+ products.
+
+
+These
+ are
+ you
+ don't
+ get
+ to
+ actually
+ say
+
+
+that
+ like
+ look
+ I'm
+ just
+ going
+ to
+ build
+
+
+some
+ cool
+ technology
+ and
+ hopefully
+
+
+people
+ will
+ go
+ and
+ buy
+ it.
+ When
+ you
+
+
+think
+ about
+ models,
+ we
+ have
+ so
+ many
+
+
+companies
+ out
+ there
+ building
+ these
+
+
+foundational
+ language
+ models
+ and
+ they're
+
+
+all
+ amazing
+ and
+ great.
+ And
+ instead
+ of
+ us
+
+
+actually
+ going
+ and
+ making
+ that
+ same
+
+
+investment,
+ we
+ want
+ to
+ actually
+ leverage
+
+
+these
+ amazing
+ technologies
+ that
+
+
+companies
+ like
+ Google
+ and
+ OpenAI
+ and
+
+
+Anthropic
+ are
+ building.
+ And
+ in
+ fact,
+ for
+
+
+our
+ enterprise
+ customers,
+ they
+ actually
+
+
+love
+ the
+ fact
+ that
+ we
+ are
+ not
+ building
+
+
+models.
+ Customers,
+ they
+ are
+ looking
+ for
+
+
+solutions
+ to
+ problems.
+ They're
+ not
+
+
+looking
+ to
+ buy
+ great
+ technology.
+ So
+
+
+that's
+ sort
+ of
+ like
+ you
+ know
+ been
+ the
+
+
+working
+ model
+ for
+ us
+ at
+ Gleen
+ which
+ is
+
+
+partner
+ well
+ and
+ whoever
+ is
+ building
+
+
+great
+ technology
+ try
+ to
+ see
+ how
+ you
+ can
+
+
+incorporate
+ that
+ technology
+ in
+ your
+
+
+product
+ and
+ then
+ we
+ focus
+ on
+ the
+ rest
+
+
+you
+ know
+ others
+ are
+ not
+ yet
+ paying
+
+
+attention
+ to
+ so
+ in
+ in
+ our
+ case
+ to
+ make
+
+
+AI
+ work
+ in
+ the
+ enterprise
+ you
+ know
+ you
+
+
+know
+ that
+ these
+ models
+ are
+ they
+ don't
+
+
+really
+ know
+ anything
+ about
+ your
+
+
+enterprise
+ they
+ don't
+ have
+ that
+ context
+
+
+they
+ have
+ no
+ idea
+ how
+ your
+ company
+ works
+
+
+to
+ still
+ make
+ use
+ of
+ this
+ technology
+
+
+inside
+ your
+ enterprise
+ you
+ have
+ to
+ bring
+
+
+in
+ that
+ enterprise
+ context
+ for
+ any
+ task
+
+
+that
+ you're
+ trying
+ to
+ solve.
+ So
+ if
+ you
+
+
+don't
+ have
+ to
+ build
+ the
+ same
+ technology
+
+
+that
+ others
+ are
+ building,
+ if
+ we
+ can
+ make
+
+
+use
+ of
+ it,
+ like
+ for example,
+ we
+ can
+ make
+
+
+use
+ of
+ GPD5
+ and
+ cloud
+ and
+ Gemini,
+ it
+
+
+sort
+ of
+ really
+ allows
+ us
+ to
+ actually
+
+
+focus
+ and
+ dedicate
+ our
+ engineering
+ time
+
+
+on
+ problems
+ that
+ others
+ are
+ not
+
+
+investing
+ in.
+ Glean
+ is
+ now
+ over
+ a
+
+
+thousand
+ people.
+ So
+ we're
+ also
+ no
+ longer
+
+
+a
+ small
+ startup.
+ We're
+ fairly
+ large
+
+
+company
+ and
+ we
+ are
+ in
+ fact
+ investing
+
+
+more
+ in
+ making
+ AI
+ work
+ in
+ the
+ enterprise
+
+
+than
+ any
+ other
+ company
+ out
+ there
+ in
+ the
+
+
+world.
+ We
+ are
+ a
+ pure
+ play
+ enterprise
+ AI
+
+
+company.
+ We
+ don't
+ have
+ any
+ other
+ product
+
+
+lines,
+ no
+ legacy
+ products
+ to
+ support
+ and
+
+
+all
+ of
+ our
+ attention
+ goes
+ into
+ how
+ do
+
+
+you
+ make
+ AI
+ really
+ really
+ effective
+ in
+
+
+the
+ enterprise.
+ So
+ I
+ think
+ that
+ focus
+
+
+that
+ investment
+ the
+ speed
+ and
+ the
+
+
+agility
+ like
+ making
+ the
+ right
+ strategic
+
+
+choices
+ where
+ we
+ don't
+ for
+ example
+ have
+
+
+to
+ train
+ our
+ own
+ models
+ and
+ we
+ benefit
+
+
+from
+ the
+ industry's
+ innovation.
+ Those
+
+
+are
+ some
+ of
+ the
+ approaches
+ that
+ will
+
+
+help
+ us
+ stay
+ ahead
+ in
+ this
+ market.
+
+
+I
+ think
+ the
+ number
+ one
+ thing
+ for
+ any
+
+
+aspiring
+ founder
+ is
+ belief
+ and
+
+
+conviction.
+ You
+ start
+ with
+ an
+ idea
+
+
+because
+ you
+ thought
+ about
+ a
+ problem
+ and
+
+
+it
+ exists.
+ Now
+ again
+ make
+ sure
+ that
+ you
+
+
+know
+ you
+ talk
+ to
+ a
+ good
+ number
+ of
+ people
+
+
+so
+ that
+ you
+ see
+ that
+ yes
+ you
+ know
+ it's
+ a
+
+
+problem
+ that
+ impacts
+ a
+ good
+ number
+ of
+
+
+people
+ but
+ once
+ you've
+ done
+ it
+ now
+ it's
+
+
+your
+ job
+ to
+ actually
+ stay
+ true
+ to
+ that
+
+
+idea
+ like
+ because
+ you
+ know
+ you're
+ going
+
+
+to
+ talk
+ to
+ more
+ people
+ you're
+ going
+ to
+
+
+talk
+ to
+ investors
+ you
+ know
+ some
+
+
+investors
+ will
+ be
+ sort
+ of
+ lukewarm
+ on
+
+
+the
+ idea
+ some
+ employees
+ that
+ you're
+
+
+trying
+ to
+ hire
+ may
+ not
+ believe
+ in
+ it
+ as
+
+
+much
+ as
+ you
+ do
+ but
+ that's
+ all
+ okay
+ like
+
+
+you
+ got
+ to
+ sort
+ of
+ keep
+ that
+ belief
+ in
+
+
+it
+ because
+ ultimately
+ that
+ problem
+ you
+
+
+started
+ thinking
+ world
+ for
+ a
+ good
+ reason
+
+
+and
+ that
+ reason
+ still
+ exists.
+ Keep
+ the
+
+
+conviction.
+ Don't
+ become
+ the
+ person
+ who
+
+
+kills
+ your
+ own
+ idea.
