@@ -1,0 +1,2536 @@
+[Speaker 0]: 嗯，
+[Speaker 1]: 欢迎来到知行小酒馆，
+[Speaker 1]: 这是一档有知有型出品的播客节目。
+[Speaker 1]: 我们关注投资，
+[Speaker 1]: 更关注怎样更好的生活。
+[Speaker 1]: 我是羽白，
+[Speaker 1]: 我知道此时此刻的你已经听了太多和 AI 有关的消息和播客。
+[Speaker 1]: 看到这个标题的时候，
+[Speaker 1]: 心里也许会想，
+[Speaker 1]: 拜托，
+[Speaker 1]: 不会连小酒馆也要来给我制造焦虑吧。
+[Speaker 1]: 可 AI 这个话题我们又确实绕不开，
+[Speaker 1]: 因为它已经不只是一个科技行业的话题了。
+[Speaker 1]: 它正在改变我们的工作、
+[Speaker 1]: 学习投资，
+[Speaker 1]: 也在改变我们理解生活的方式。
+[Speaker 1]: 作为一档关注投资和生活的播客节目，
+[Speaker 1]: 我们有责任把一些真正有价值的信息经验和判断分享给你。
+[Speaker 1]: 只是这一回，
+[Speaker 1]: 我们不想做一场宏大的趋势讨论，
+[Speaker 1]: 也不想渲染 AI 的能力，
+[Speaker 1]: 又进化到了什么程度？
+[Speaker 1]: 这些我们听的耳朵都要起茧子了。
+[Speaker 1]: 对于你我这样的普通人来说，
+[Speaker 1]: 我们真正关心的问题可能是，
+[Speaker 1]: 然后呢今天的我到底能做什么？
+[Speaker 1]: 也是因为这个问题我想到了两位老朋友许怡然和吕星。
+[Speaker 1]: 如果你是小酒馆的老听众，
+[Speaker 1]: 对他们肯定不陌生。
+[Speaker 1]: 许怡然老师在游戏行业做了三十年，
+[Speaker 1]: 见过太多的新技术和新风口。
+[Speaker 1]: 面对 AI，
+[Speaker 1]: 它不像是在追赶一个趋势，
+[Speaker 1]: 更像是拿到了一个新游戏，
+[Speaker 1]: 先装上玩起来再说。
+[Speaker 1]: 也正因为真的尝试了很多，
+[Speaker 1]: 他能够很具体的和我们分享 AI 到底能帮我们做些什么，
+[Speaker 1]: 在使用过程中又可能踩哪些坑？
+[Speaker 1]: 嗯，
+[Speaker 1]: 吕星老师上一次来小酒馆，
+[Speaker 1]: 像是一场三个小时的人生游戏实况，
+[Speaker 1]: 很多听友对他的印象是这个人好像不太相信，
+[Speaker 1]: 我不会这件事儿。
+[Speaker 1]: 遇到一个新领域先继续试，
+[Speaker 1]: 先打怪升级。
+[Speaker 1]: 所一次他也已经把 AI 放进自己非常具体的工作流里，
+[Speaker 1]: 不只是试试好不好玩，
+[Speaker 1]: 而是真的用它拆流程，
+[Speaker 1]: 做产品和解决问题。
+[Speaker 1]: 所以啊我觉得他俩像是小酒馆听众的两位课代表，
+[Speaker 1]: 好奇心很重，
+[Speaker 1]: 行动力也很强。
+[Speaker 1]: 先替我们跳进去玩了一圈回来再和我们分享里面到底有什么好玩的，
+[Speaker 1]: 什么地方真的有用，
+[Speaker 1]: 什么地方也确实会让人抓狂。
+[Speaker 1]: 那在这期节目我们想聊的不是 AI 又进化到哪一步了，
+[Speaker 1]: 而是一个更朴素的问题。
+[Speaker 1]: 当 AI 已经来到我们面前，
+[Speaker 1]: 普通人到底怎么先用起来？
+[Speaker 1]: 希望你听完之后不是更焦虑，
+[Speaker 1]: 而是多了一点点行动的想法。
+[Speaker 0]: 希在这期节目你会喜欢一字母，
+[Speaker 1]: 我觉得这次再把两位老师请回来小酒馆，
+[Speaker 1]: 是因为我会觉得说 AI 已经是一个大家现在完全无法避免的话题了。
+[Speaker 1]: 是对，
+[Speaker 1]: 但是大家一方面觉得说这个是一个势不可挡的趋势。
+[Speaker 1]: 但另一方面其实很多人并不知道 AI 技术跟自己的生活到底如何产生直接的关联，
+[Speaker 1]: 自己该怎么用，
+[Speaker 1]: 以及到底有没有机会。
+[Speaker 1]: 如果他真的威胁到了自己的工作或者生活，
+[Speaker 1]: 他实际的威胁有多大。
+[Speaker 1]: 换句话说，
+[Speaker 1]: 如果自己真的要被这个技术淘汰了，
+[Speaker 1]: 这个时间表是什么样的？
+[Speaker 1]: 其实很多时候大家是不知道的，
+[Speaker 1]: 像我们包括去年其实做过一到两期关于 AI 的节目，
+[Speaker 1]: 现在回头看都觉得过时啊，
+[Speaker 1]: 不仅过时，
+[Speaker 1]: 而且极其的肤浅。
+[Speaker 1]: 包括其实像两年前跟徐老师聊的时候，
+[Speaker 1]: 我们专间也聊了一小段关于 AI 会不会取代游戏从业者的工作。
+[Speaker 1]: 那个时候我们还特别的乐观。
+[Speaker 1]: 但其实现在就你能感觉，
+[Speaker 1]: 尤其是这三个月 AI 的进步速度，
+[Speaker 1]: 导致很多人的工作生活都发生了翻天覆地的变化。
+[Speaker 1]: 这让我觉得说我我们包括因为我们一直说站在听众的这一边嘛，
+[Speaker 1]: 就我们一定要拉大家来好好聊一聊。
+[Speaker 1]: 然后两位老师非常厉害，
+[Speaker 1]: 就给你们出了一道难题。
+[Speaker 1]: 我当时就定了一个主问题，
+[Speaker 1]: 就是 AI 到底有没有真的给普通人机会？
+[Speaker 3]: 哎，
+[Speaker 3]: 是哎，
+[Speaker 3]: 我觉得其实说到这儿，
+[Speaker 3]: 咱们可以把这个事上升到一个原问题。
+[Speaker 3]: 我们三个人其实也都不可避免在用 AI 嘛。
+[Speaker 3]: 嗯我们三个人都是一个什么情况？
+[Speaker 3]: 对我先说我啊，
+[Speaker 3]: 因为我是主要在工作中用 AI，
+[Speaker 3]: 但我呢又是一个普通人。
+[Speaker 3]: 首先我不是一个 AI 行业从业者，
+[Speaker 3]: 我不是一个干什么大模型训练的，
+[Speaker 3]: 就我可以这么自我定位我的角色，
+[Speaker 2]: 我就是退休了自己瞎玩，
+[Speaker 2]: 反正我倒是比较有时间看到有什么新鲜东西我都装上饰，
+[Speaker 2]: 就属于这种时间相对比较充裕，
+[Speaker 2]: 又没有什么压力，
+[Speaker 2]: 说非要完成什么任务。
+[Speaker 2]: 嗯，
+[Speaker 2]: 所以我看的东西就比较多，
+[Speaker 2]: 比较杂，
+[Speaker 2]: 反正 AI 对我来讲应该是怎么说呢？
+[Speaker 2]: 一个挺好玩的一个玩意儿吧，
+[Speaker 2]: 玩的结果是什么呢？
+[Speaker 2]: 就可以这么给你一句话总结吧。
+[Speaker 2]: 就是以前特别喜欢玩游戏哈，
+[Speaker 2]: 现在完全没时间玩游戏啊。
+[Speaker 1]: 哎哎真的这是我跟很多朋友交流，
+[Speaker 1]: 他们就会说根本没有时间玩游戏。
+[Speaker 1]: 他说这个哪有 AI 好玩，
+[Speaker 1]: 你用 AI，
+[Speaker 1]: 你就是造物主。
+[Speaker 2]: 我正想说的最后一句话，
+[Speaker 2]: 就是不是被迫不玩游戏，
+[Speaker 2]: 而是真的比游戏好玩。
+[Speaker 1]: 这个呢稍微展开讲讲嘛。
+[Speaker 1]: 因为我觉得可能有些听众很难想象这个状态，
+[Speaker 1]: 包括像刚才吕军老师说你在工作中用它嘛，
+[Speaker 1]: 那他实际帮助到了你哪些地方，
+[Speaker 1]: 或者是你的工作中，
+[Speaker 1]: 哪些流程跟他完全融合了，
+[Speaker 1]: 以至于没有 AI 现在没法工作。
+[Speaker 1]: 工作的其实是这样，
+[Speaker 3]: 就是我们在做的工作很多是可以用 AI 去进行优化，
+[Speaker 3]: 进行迭代甚至颠覆的。
+[Speaker 3]: 他不是像我们所想的那种，
+[Speaker 3]: 就是以前这个需要一个人干，
+[Speaker 3]: 然后现在 AI 就干了。
+[Speaker 3]: 而他是以前我们根本没想过要干，
+[Speaker 3]: 因为干不了人干不了，
+[Speaker 3]: 现在有了 AI，
+[Speaker 3]: 他不可能干的事情，
+[Speaker 3]: 他能干了。
+[Speaker 3]: 这个能创造大量的全新的工作，
+[Speaker 2]: 是你也未必是以前不会干。
+[Speaker 2]: 但是你觉得不值当的干这事儿这种情况也有。
+[Speaker 2]: 然后你现在有了 AI，
+[Speaker 2]: 你就把这事儿干了。
+[Speaker 2]: 你比如说举个例子啊，
+[Speaker 2]: 我做那个客客找老外聊天，
+[Speaker 2]: 跟老外聊完了之后呢，
+[Speaker 2]: 我以前最多就打一中文字幕，
+[Speaker 2]: 我就把那个英文版的聊天的语音就直接发出来了。
+[Speaker 2]: 因为我是视频，
+[Speaker 2]: 你可以看字幕。
+[Speaker 2]: 嗯，
+[Speaker 2]: 那你博客怎么办呢？
+[Speaker 2]: 听那个纯英文的那东西就很麻烦。
+[Speaker 2]: 那我就用 AI 帮我把它翻译成中文的语音，
+[Speaker 1]: 然后用这这个老乔一个跟你声音比较相似的一个我的声音好解决。
+[Speaker 2]: 因为我的声音语料库很大。
+[Speaker 2]: 对，
+[Speaker 2]: 但是那老外就来了一次啊，
+[Speaker 2]: 我得能立即用老外几秒钟几分钟的声音就生成出来一个他的中文语音，
+[Speaker 2]: 然后跟他自己亲口说。
+[Speaker 2]: 中文的感觉很像，
+[Speaker 2]: 而且是老外味儿的，
+[Speaker 2]: 你知道吗？
+[Speaker 2]: 他能给干出来，
+[Speaker 2]: 这要搁以前你就不敢想。
+[Speaker 2]: 对你就说那算了吧，
+[Speaker 2]: 那就不生的博客里吧。
+[Speaker 2]: 那没办法，
+[Speaker 2]: 就看字幕呗。
+[Speaker 1]: 你就就这个就是能够把很多你以前没有想过的事情把它给实现了。
+[Speaker 2]: 对的对的对，
+[Speaker 1]: 包括为什么会想要聊？
+[Speaker 1]: 这次天也是因为上次跟旅行吃饭，
+[Speaker 1]: 就看到他手搓了一个小宇宙 app，
+[Speaker 2]: 多长时间都是 token 来着？
+[Speaker 3]: 程序部分就两天嗯，
+[Speaker 3]: 就是 coding 部分就两天。
+[Speaker 3]: 整个产品设计这块这个设计图花了一周。
+[Speaker 3]: 它这个设计图是一个 AI 要去 coding 的提示词，
+[Speaker 3]: 生成这套设计图的时间会比他真正去搭这个房子的时间要长得多。
+[Speaker 3]: 嗯，
+[Speaker 3]: 然后但是总共加起来差不多一周半嗯，
+[Speaker 2]: 花了多少 token token 不太多，
+[Speaker 3]: 十来亿，
+[Speaker 1]: 十来亿。
+[Speaker 1]: 如果翻译成钱是钱大概是多少，
+[Speaker 1]: 让大家理解一下，
+[Speaker 3]: 这个成本估计一万人民币也值多一两千美金。
+[Speaker 3]: 对，
+[Speaker 3]: 一两千美金，
+[Speaker 2]: 那你一两千美金做一小宇宙也值了，
+[Speaker 2]: 值了呀，
+[Speaker 2]: 不贵吧。
+[Speaker 1]: 对呀，
+[Speaker 1]: 因为他上次给我算了一下，
+[Speaker 1]: 就是做这样的一个 app 理论上应该是一个最起码十几人的一个团队，
+[Speaker 1]: 然后可能要做一百个人月，
+[Speaker 3]: 就是一百个人是对我们一般这么工工作十个月，
+[Speaker 2]: 不就是一百个人月嘛。
+[Speaker 2]: 对，
+[Speaker 1]: 是是是。
+[Speaker 1]: 就是我觉得如果大家听到这儿的时候，
+[Speaker 1]: 肯定会想说啊，
+[Speaker 1]: 这两人在聊，
+[Speaker 1]: 他们用 AI 分别做了什么，
+[Speaker 1]: 就感觉好像其乐融融，
+[Speaker 1]: 很开心，
+[Speaker 1]: 就很开心，
+[Speaker 1]: 仿佛只字不提 AI 带给我们的一些威胁啊，
+[Speaker 1]: 和大家对于失业的各种担忧啊，
+[Speaker 1]: 但是我觉得这里就要引入。
+[Speaker 1]: 我当时听旅行讲他手搓的这个小宇宙 app 特别有意思的一点就是他讲了一个我觉得有一点点反共识的东西。
+[Speaker 1]: 他说，
+[Speaker 1]: 因为现在很多人都会说，
+[Speaker 1]: 中年人没有希望了，
+[Speaker 1]: 因为 AI 时代，
+[Speaker 1]: 年轻人更容易接受新事物，
+[Speaker 1]: 他们更容易用起来。
+[Speaker 1]: 但那个时候旅行就跟我说，
+[Speaker 1]: 他说反而是中年人有经验的这批中年人，
+[Speaker 1]: 他们在这个时代反而更能放大他们的能力确实如此。
+[Speaker 3]: 因为这里面还是有很多坑的。
+[Speaker 3]: 比如说你做一个小宇宙的 APP，
+[Speaker 3]: 他不是说照小宇宙抄一遍就结束了。
+[Speaker 3]: 他说你要考虑啊这个 APP 它的原理是什么？
+[Speaker 3]: 你要上线了以后，
+[Speaker 3]: 从哪获得用户，
+[Speaker 3]: 对吧？
+[Speaker 3]: 种种中这个需要你有更宽的维度的知识，
+[Speaker 1]: 就是 AI 还没有到我研出法学的地步。
+[Speaker 1]: 就比如说我跟我的这个 AI 说，
+[Speaker 1]: 哎，
+[Speaker 1]: 我特别想做一个小宇宙 app，
+[Speaker 1]: 你告诉我该怎么做，
+[Speaker 1]: 就这些，
+[Speaker 1]: 其实他指导不了我的，
+[Speaker 1]: 对吗？
+[Speaker 3]: 你说没错，
+[Speaker 3]: 这有我之前问过 AI 一个问题，
+[Speaker 3]: 我觉得这个问题还挺经典的。
+[Speaker 3]: 就是说那我和你共同工作的时候，
+[Speaker 3]: 你怎么解决我说话或者人类说话，
+[Speaker 3]: 它有潜台词这个问题就是人类和人类说话，
+[Speaker 3]: 它有潜台词的。
+[Speaker 3]: 我们作为认识的人之间，
+[Speaker 3]: 天我们有很多默认，
+[Speaker 3]: 我会认为你知道的东西。
+[Speaker 3]: 对，
+[Speaker 3]: 但是 AI 你开一个线程，
+[Speaker 3]: 他对你是一无所知的。
+[Speaker 1]: 你们在彼此眼中都是一张白纸没错，
+[Speaker 3]: 但是人会经常忘掉。
+[Speaker 3]: 因为 AI 说的话太像人了，
+[Speaker 3]: 所以人会经常忘掉说哦，
+[Speaker 3]: 这个 AI 他不知道我是谁。
+[Speaker 3]: 所以就是你的所有这些潜台词实际上 AI 识别不出来。
+[Speaker 3]: 然后但是人又不习惯于说我跟任何事物，
+[Speaker 3]: 我去完完整整暴露自己人，
+[Speaker 3]: 实际上没有这种沟通能力的对吧？
+[Speaker 3]: 从小也没练过。
+[Speaker 3]: 对对，
+[Speaker 3]: 然后所以其实人和 AI i 的沟通就很难，
+[Speaker 3]: 就回到你刚才那个问题。
+[Speaker 3]: 就比如说我一句话让 AI 给我形成一个小宇宙，
+[Speaker 3]: 其实你包括了很多潜台词，
+[Speaker 3]: 嗯，
+[Speaker 3]: 你是对这个小宇宙有想象，
+[Speaker 3]: 我希望他赚钱，
+[Speaker 3]: 我希望他不赚钱，
+[Speaker 3]: 我希望他有什么比他更好，
+[Speaker 3]: 比他更差，
+[Speaker 3]: 这些你都没有描述，
+[Speaker 3]:  AI 是猜不出来的，
+[Speaker 3]: 他没法替你去设想，
+[Speaker 3]: 怎么样才能让你觉得感觉更好，
+[Speaker 3]: 他猜不出来，
+[Speaker 2]: 那他怎么回答的呢？
+[Speaker 2]: 你说怎么了解潜台词，
+[Speaker 2]: 那 AI 怎么回答的？
+[Speaker 2]: 嗯，
+[Speaker 3]: 其实这就回到了，
+[Speaker 3]: 就当时不是听完达利欧的演讲嘛，
+[Speaker 1]: 这个很厉害，
+[Speaker 1]: 就是他前段时间在清华做了一场演讲。
+[Speaker 1]: 对，
+[Speaker 3]: 当时就提到了这个问题嘛，
+[Speaker 3]: 就是说那你作为大佬对吧？
+[Speaker 3]: 然后你跟这么多 AI 大神都认识识，
+[Speaker 3]: 那大家对 AI 这怎么看？
+[Speaker 3]: 达利欧就说啊，
+[Speaker 3]: 我前两天那人家有这资格说这话啊，
+[Speaker 3]: 我前两天跟世界前三的这个 AI 公司的老板大谈笑风生，
+[Speaker 3]: 谈笑风生。
+[Speaker 3]: 在聊天就谈到说 AI 对于普通人的价值啊，
+[Speaker 3]: 庄种说这时候大家的话题只有一个，
+[Speaker 3]: 就是 AI 在很多人那里是没有被好好利用的，
+[Speaker 3]: 原因是这些人没有办法让 AI 了解它。
+[Speaker 3]: 嗯，
+[Speaker 3]: 如何让 AI 了解到自己，
+[Speaker 3]: 才能让这个 AI 表现的更好。
+[Speaker 3]: 所以再回到刚才那个话题，
+[Speaker 3]: 就是潜台词问题怎么办？
+[Speaker 3]: 所以 AI 就给我出招嘛，
+[Speaker 3]: 那就是我得足够了解你哦。
+[Speaker 3]: 哎那说那我说怎么了解我呀？
+[Speaker 3]: 他说呢就是我给你分几个维度，
+[Speaker 3]:  AI 都是那个结构化输出嘛。
+[Speaker 3]: 然后好，
+[Speaker 3]: 首先你的工作是什么？
+[Speaker 3]: 你个人背景是什么？
+[Speaker 3]: 这个那个的说了一大堆，
+[Speaker 3]: 我说那都给你。
+[Speaker 1]: 其实这个谎言可能就已经让很多人说没有耐心去做这个事儿了。
+[Speaker 3]: 对，
+[Speaker 3]: 就是特别感谢雨白。
+[Speaker 3]: 上次录了一个很长的节目，
+[Speaker 3]: 那是我之前过往的工作经历啊，
+[Speaker 2]: 对你就把那个直接塞进去就行了。
+[Speaker 3]: 所以就管羽白要来了。
+[Speaker 3]: 谢，
+[Speaker 1]: 对我把文稿发给他了，
+[Speaker 1]: 把文稿发。
+[Speaker 2]: 你说我现在为什么我们俩坚持做那个 EV 相对论？
+[Speaker 2]: 其实有一个原因之一就是要训我们两个知识库。
+[Speaker 2]: 听众听了，
+[Speaker 2]: 那是一个对我们的承认，
+[Speaker 2]: 但是我们训我们的知识库是我们背后另外一个效果。
+[Speaker 2]: 我最近把我所有历史上写过的公众号文章，
+[Speaker 2]: 加上我们两个一百一十七博客全都转录出来，
+[Speaker 2]: 变成文字塞的。
+[Speaker 2]: 我那个数据库里做成一个向量数据库，
+[Speaker 2]: 向量数据库跟嗯关键词搜索数据库最大的区别就是它有关系，
+[Speaker 2]: 就它能联系。
+[Speaker 2]: 就是说你提到这个话题，
+[Speaker 2]: 它就能联想到跟这话题相关的很多其他内容，
+[Speaker 2]: 它不是关键词搜索。
+[Speaker 2]: 你比如说咱们只要讲到小宇宙，
+[Speaker 2]: 他就能联系到宇白呀、
+[Speaker 2]: 知行、
+[Speaker 2]: 小酒馆啊、
+[Speaker 2]: 优相论论啊。
+[Speaker 2]: 你用小宇宙这三个关键字哦，
+[Speaker 2]: 你去搜索关键字，
+[Speaker 2]: 你搜不到的。
+[Speaker 1]: 他是从你过往的这些语料中找出来，
+[Speaker 1]: 还是说他还会有及时把在线然后提炼。
+[Speaker 1]: 就比如说输入一个最新的游戏名，
+[Speaker 1]: 输入到这个库里，
+[Speaker 1]: 它自动提炼你之前和这些公司打过的交道。
+[Speaker 1]: 这个游戏跟你有什么渊源？
+[Speaker 2]: 对，
+[Speaker 2]: 你看我几百万字啊，
+[Speaker 2]: 我加一块也就是两三百万字啊。
+[Speaker 2]: 如果你是一个 TXT 文件，
+[Speaker 2]: 你压缩成 RAR 你存在，
+[Speaker 2]: 硬盘上可能也就几兆吧。
+[Speaker 2]: 对，
+[Speaker 2]: 但是我这数据库做出来好几个 g 就谁知道它里边是啥结构，
+[Speaker 2]: 我也不知道，
+[Speaker 2]: 我也不懂。
+[Speaker 2]: 但是呢它输出能力，
+[Speaker 2]: 我给你举个例子啊，
+[Speaker 2]: 前段时间有有一个出出版社，
+[Speaker 2]: 让我给他一本新出的书写序，
+[Speaker 2]: 我就扔到我知识库库里。
+[Speaker 2]: 你用我的语气和我的知识读这本书，
+[Speaker 2]: 然后写序写出来。
+[Speaker 2]: 当然我也是严格一个字一个字的校验过才给你交稿啊，
+[Speaker 2]: 我不可能直接扔了啊。
+[Speaker 2]: 但是说句实话，
+[Speaker 2]: 他这里边有大概百分之七十五左右就是四分之三，
+[Speaker 2]: 我可以一字不改改不出来了。
+[Speaker 2]: 但关键是这东西真的是我写的一模一样。
+[Speaker 2]: 你没我这知识库，
+[Speaker 2]: 你扔给任何一个大模型，
+[Speaker 1]: 他写不出这段话来让你现写，
+[Speaker 1]: 可能也就这水平，
+[Speaker 2]: 我还写不出来。
+[Speaker 2]: 因为他那不是一本讲 AI 的书，
+[Speaker 2]: 但是我跟他提要求了，
+[Speaker 2]: 我说你要往 AI 的话题上靠，
+[Speaker 2]: 他那个靠法，
+[Speaker 2]: 我就给他点竖大拇指。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就完全是以我的语气读完这本书之后，
+[Speaker 2]: 靠出出来的完完全是我应该想得到的。
+[Speaker 2]: 但是我的确没想出来，
+[Speaker 1]: 对我觉得徐老师是以是一个特别好的榜样，
+[Speaker 1]: 就是也许他搞不懂这背后的原理，
+[Speaker 1]: 但是不重要，
+[Speaker 1]: 先告先用用起来说。
+[Speaker 2]: 对，
+[Speaker 2]: 你知道他那个活要够我呀，
+[Speaker 2]: 我就直接跟龙虾说，
+[Speaker 2]: 你自己去玩一下小宇宙，
+[Speaker 2]: 你就给我写一个小宇宙程序。
+[Speaker 2]: 我才不会像他那样花一个礼拜去写那个开发文档的。
+[Speaker 2]: 但我知道最后的结果就是东西他两天给我做出来了，
+[Speaker 2]: 甚至俩小时就给我做出来了，
+[Speaker 2]: 然后花俩礼拜去调试，
+[Speaker 2]: 还是调不出来。
+[Speaker 2]: 我试过啊，
+[Speaker 2]: 我干过这事儿，
+[Speaker 2]: 最后的结果一定是这样。
+[Speaker 2]: 就是他为什么特别像游戏？
+[Speaker 2]: 我回到你刚才那问题啊，
+[Speaker 2]: 为什么能替代游戏的乐趣？
+[Speaker 2]: 你回到游戏的第一性原理是什么？
+[Speaker 2]: 就是每次让你感觉你再玩一次就能通关，
+[Speaker 2]: 他永远是给你正反馈和负反馈之间的比例设计的特别绝妙，
+[Speaker 2]: 绝不能就是让你都出了什么结果。
+[Speaker 2]: 对你，
+[Speaker 2]: 然后你一次就过了，
+[Speaker 2]: 你没有快感啊。
+[Speaker 2]: 然后你就是怎么弄都一点反应都没有，
+[Speaker 2]: 你就是个大笨蛋，
+[Speaker 2]: 你也不开心。
+[Speaker 2]: 但是最好的就是 AI，
+[Speaker 2]: 现在给你的这个状态就是七十八、
+[Speaker 2]: 二十二的状态，
+[Speaker 2]: 七十八都对二十二不对，
+[Speaker 2]: 你觉得再往前走一步一定对了，
+[Speaker 2]: 你一不小心天亮了。
+[Speaker 2]: 对啊，
+[Speaker 2]: 这就打文明的感觉一模一样。
+[Speaker 2]: 我跟你讲，
+[Speaker 1]: 像毛特曼最开始搞 open，
+[Speaker 1]:  i 应该没有想过自己是在做一个类游戏的东西。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 我就还是回到那个之前旅行说其实中年人在用 AI 反而有他们的优势，
+[Speaker 1]: 因为他们有经验。
+[Speaker 1]: 这就像刚才旅行说他手搓了一个新的小宇宙 app 嘛，
+[Speaker 1]: 他花了可能一周的时间，
+[Speaker 1]: 主要是来写文档。
+[Speaker 1]: 就很像是一个建筑设计师，
+[Speaker 1]: 你要先画图纸再建房子。
+[Speaker 1]: 那比如说我看到别人的房子好看，
+[Speaker 1]: 我把图纸发给 AI。
+[Speaker 1]: 我说你给我造一个，
+[Speaker 1]: 但因为我不是建筑设计师，
+[Speaker 1]: 其实我不知道一个建筑的图纸是什么样，
+[Speaker 1]: 我不知道怎么设计，
+[Speaker 1]: 因为我没有相关的经验，
+[Speaker 1]: 我也不知道，
+[Speaker 1]: 但我不知道什么。
+[Speaker 3]: 对，
+[Speaker 3]: 这是你说的点的很准。
+[Speaker 3]: 就是很多人其实他不知道自己不知道什么，
+[Speaker 3]: 但 AI 又不会主动的跟他说，
+[Speaker 3]: 哎，
+[Speaker 3]: 你不知道这个我告诉你，
+[Speaker 3]: 因为只有问他他才能给你结果嘛。
+[Speaker 3]: 这就是我刚才说那个就是让他更了解我的另外一部分，
+[Speaker 3]: 就他找我问的问题都是你是谁，
+[Speaker 3]: 但是 AI 当时没招，
+[Speaker 3]: 要问的是，
+[Speaker 3]: 那你不会什么，
+[Speaker 3]: 他也想不到他要去问我这一点，
+[Speaker 3]: 对吧？
+[Speaker 3]: 我得主动告诉他，
+[Speaker 3]: 我告诉他什么呢？
+[Speaker 3]: 就是你得知道我的能力也是有上限的，
+[Speaker 3]: 因为 AI 会默认 AI 的能力是什么都知道的。
+[Speaker 3]: 因为他受训过所有的东西，
+[Speaker 3]: 他不会设想人的能力是有欠缺的，
+[Speaker 2]: 他不会主动问对，
+[Speaker 3]: 而且我会明示他。
+[Speaker 3]: 我说嗯就包括在我的利斯架构里边，
+[Speaker 3]: 也会有这样的机制。
+[Speaker 3]: 就是当我对于你给我的这个反馈没有做任何表达的时候，
+[Speaker 3]: 我也不同意啊，
+[Speaker 3]: 或者我也不反对的时候，
+[Speaker 3]: 不是因为我看懂了且同意，
+[Speaker 3]: 你很可能我根本就看不懂。
+[Speaker 3]: 所以这一点就是你要注意的这有可能是因为我不会。
+[Speaker 3]: 所以你要把这种的模式你积累下来，
+[Speaker 3]: 然后你慢慢就能发现规则对，
+[Speaker 3]: 写成规则，
+[Speaker 3]: 它是有这样的。
+[Speaker 3]: 我做这个机构有这样的循环，
+[Speaker 2]: 你发现没？
+[Speaker 2]:  AI 从来不会问，
+[Speaker 2]: 这你看懂了吗？
+[Speaker 2]: 你看得懂不会问啊，
+[Speaker 2]: 很侮辱感觉，
+[Speaker 3]: 然后这是一层。
+[Speaker 3]: 然后还有一层呢其实也很重要，
+[Speaker 3]: 就是他实际上是不太了解，
+[Speaker 3]: 每个人的心理，
+[Speaker 3]: 就是人是分两面的嘛。
+[Speaker 3]: 一面是你的外在你的经历啊，
+[Speaker 3]: 能作还有一个是你是一个什么性格的人，
+[Speaker 3]: 你的价值观，
+[Speaker 3]: 比如说你的偏好，
+[Speaker 3]: 你从这些东西，
+[Speaker 3]: 所以也得我主动告诉他，
+[Speaker 3]: 我说我的性格你得掌握，
+[Speaker 3]: 我的价值观你得掌握。
+[Speaker 3]: 比如我认同的看待世界的方式，
+[Speaker 3]: 什么你得掌握，
+[Speaker 3]: 要不然咱俩生成的结果都不对齐啊。
+[Speaker 1]: 可能有人会说，
+[Speaker 1]: 我只是想让他跟我工作，
+[Speaker 1]: 我为什么让他了解我的性格？
+[Speaker 3]: 哎，
+[Speaker 3]: 这就有意思，
+[Speaker 3]: 就是因为每个人的工作风格他不一样。
+[Speaker 3]: 所以你希望你的 AI 能够完美的辅助你的时候，
+[Speaker 1]: 就即便你只是想跟他一一起生产一些工作上的结果，
+[Speaker 1]: 你也需要让他全面的了解。
+[Speaker 3]: 你对对每个人的工作风格呀、
+[Speaker 3]: 角色风格呀、
+[Speaker 3]: 管理风格呀，
+[Speaker 3]: 包括所有的模式，
+[Speaker 3]: 其实差别还蛮大的。
+[Speaker 3]: 虽然做同一份工作嘛，
+[Speaker 2]: 这就是为什么龙虾好多人都上瘾的原因。
+[Speaker 2]: 因为龙虾跟传统大模型聊天的最大区别就是，
+[Speaker 2]: 他一上来先问你希望我用什么风格来跟你合作，
+[Speaker 2]: 就这么一句话就已经解决很多很多问题。
+[Speaker 2]: 就是大模型它不上来问这事儿，
+[Speaker 2]: 这个区别还蛮大的。
+[Speaker 3]: 对他其实开放的这些功能给大家，
+[Speaker 3]: 就比如说 cloud code 啊，
+[Speaker 3]: 就是咱虽然不聊那么深的那个具体的这个操作，
+[Speaker 3]: 简单讲一下 cloud code，
+[Speaker 3]: 它里边有三个很重要的文件。
+[Speaker 3]: 第一个是就 cloud MD 嘛，
+[Speaker 3]: 就是说白了就是你想让你的这个 AI 它是干什么的，
+[Speaker 3]: 你给它先设定好，
+[Speaker 3]: 这是一个文件。
+[Speaker 3]: 还有一个文件呢实际上是 memory 嘛，
+[Speaker 3]: 就它的记忆文件它存在什么样的记忆，
+[Speaker 3]: 怎么去记？
+[Speaker 3]: 嗯，
+[Speaker 3]: 啊当然还有一个文件夹，
+[Speaker 3]:  roots 啊，
+[Speaker 3]: 就是它以什么规则来跟你沟通。
+[Speaker 3]: 但是还有一个就是定义的他的输出风格的那个文件，
+[Speaker 3]: 我觉得很多人都没动过，
+[Speaker 3]: 就是这个文件，
+[Speaker 3]: 其实这些东西都是它开放给你的功能。
+[Speaker 3]: 但是目前这个 AI 相对于大家来说，
+[Speaker 3]: 还有门槛，
+[Speaker 3]: 就是它不是一个你想象它是一个封装好的一个 APP。
+[Speaker 3]: 比如一个微信，
+[Speaker 3]: 嗯，
+[Speaker 3]: 你大概学会了一个基础的一个操作逻辑，
+[Speaker 3]: 你就可以玩的很溜了。
+[Speaker 3]: 现在这完全还都是毛坯房，
+[Speaker 3]: 你得自己装修，
+[Speaker 3]: 它好多都是现在是这么一个状态的对。
+[Speaker 2]: 其实你刚才说那话就是中年人还有一个优势是什么呢？
+[Speaker 2]: 就是你如果拿 AI 当员工，
+[Speaker 2]: 中年人呢往往呢在公司做过中层啊或者高层啊，
+[Speaker 2]: 做过领导啊，
+[Speaker 2]: 他知道怎么样告诉我有一个需求跟下边的员工讲明白这件事儿，
+[Speaker 2]: 他是被训练过的，
+[Speaker 1]: 他有这方面的经验。
+[Speaker 2]: 对，
+[Speaker 2]: 然后作为一个最底层的年轻人，
+[Speaker 2]: 刚参加工作不久，
+[Speaker 2]: 或者没参加过工作的。
+[Speaker 2]: 他更多的经验是听别人讲，
+[Speaker 2]: 给他提需求。
+[Speaker 2]: 嗯，
+[Speaker 2]: 所以他怎么样把他的需求讲出来，
+[Speaker 2]: 这一件事可能经验有限。
+[Speaker 2]: 但是我要给你举一些反例，
+[Speaker 2]: 就是你知道现在硅谷的有些高科技大厂已经直接奔高中去招人了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 听说过，
+[Speaker 2]: 就是你高中只要一毕业就到十八岁了吧，
+[Speaker 2]: 我没有雇佣童工吧，
+[Speaker 2]: 没有违反劳动法吧，
+[Speaker 2]: 您就直接来。
+[Speaker 2]: 您别上大学了。
+[Speaker 2]: 什么叫大学辍学？
+[Speaker 2]: 您就别去，
+[Speaker 2]: 您一天都不用去，
+[Speaker 2]: 因为那儿就是因没用的地白浪费生命。
+[Speaker 2]: 我就要你这个青涩的高中生。
+[Speaker 2]: 对，
+[Speaker 1]: 要新鲜的脑子。
+[Speaker 2]: 对了，
+[Speaker 2]: 因为所有的东西到我这儿来，
+[Speaker 2]: 我用 AI 给你干你，
+[Speaker 2]: 立即可以成为领导根本。
+[Speaker 2]: 从第一天开始，
+[Speaker 2]: 你就是 AI 的领导，
+[Speaker 2]: 你下属有一大堆 AI 龙虾给你干活。
+[Speaker 2]: 这些人的想象力执行力非常无限制的这种空间啊，
+[Speaker 2]: 那绝对比这些干过好十年、
+[Speaker 2]: 二十年都已经被固化了。
+[Speaker 2]: 这些脑子要好用，
+[Speaker 2]: 好用的多，
+[Speaker 2]: 就你只要稍微的给他提示一下，
+[Speaker 2]: 谁不想当领导，
+[Speaker 2]: 很快就会了，
+[Speaker 2]: 其这东西没什么了不起的，
+[Speaker 1]: 怎么感觉听下来上大学才是人生的一段弯路呀。
+[Speaker 2]: 关键是现在这些大学他没跟上 AI 的节奏啊，
+[Speaker 1]: 因为这个时代变化太快了，
+[Speaker 1]: 这个教育它会慢半拍或者慢好多拍。
+[Speaker 2]: 我其实认为呢上大学还是有用的，
+[Speaker 2]: 你知道为什么吗？
+[Speaker 2]: 因为绝大多数人上初中、
+[Speaker 2]: 高中这十几年啊多数都在身边。
+[Speaker 1]: 对，
+[Speaker 2]: 就是同时同一个城市吧，
+[Speaker 2]: 你很少跑去另外一个城市，
+[Speaker 2]: 甚至另外一一个国家去见到各种各样不同的地儿来的人，
+[Speaker 2]: 你集中住在一起。
+[Speaker 2]: 然后还有一个特别重要的，
+[Speaker 2]: 每天见不到爸妈，
+[Speaker 2]: 就完全跟爸妈彻底脱离，
+[Speaker 2]: 只跟这些人生活在一起。
+[Speaker 2]: 然后你知道 AI 未来最难替代的就是什么呢？
+[Speaker 2]: 就是人跟人之间怎么打交道，
+[Speaker 2]: 机器都替你把事干了，
+[Speaker 2]: 你最后就是跟人在沟通了。
+[Speaker 2]: 那你肯定说每个人带着十个龙虾，
+[Speaker 2]: 原来三十个人干干的事可以，
+[Speaker 2]: 你们就咱三个人就给别干了。
+[Speaker 2]: 但咱们三个人是一个公司的，
+[Speaker 2]: 咱们三个人是不是也得沟通啊？
+[Speaker 2]: 如果咱们三个人，
+[Speaker 2]: 人与人之间的沟通能力都没有，
+[Speaker 2]: 咱们就只能干一个你干一个十个人的公司，
+[Speaker 2]: 我干一个十个人的公司，
+[Speaker 2]: 咱俩一点关系没有，
+[Speaker 2]: 咱没有办法组合成一个三十人的公司。
+[Speaker 1]: 我的龙虾跟你的龙虾对接啊，
+[Speaker 2]: 这是可以啊。
+[Speaker 2]: 但问题是你的龙虾跟我的龙虾之间他怎么产生联系？
+[Speaker 2]: 如果你一个人能训二十只龙虾，
+[Speaker 2]: 你不需要找我。
+[Speaker 2]: 但是我告诉你，
+[Speaker 2]: 现在的世界到最终我认为也是这个结果，
+[Speaker 2]: 就是会有一堆龙虾主理人，
+[Speaker 2]: 就是真正的人类带着龙虾一起合作。
+[Speaker 2]: 只不过这个合作的范围原来是变成几百人几千人的公司，
+[Speaker 2]: 变成了可能就是几个人几十个人的公司，
+[Speaker 2]: 然后最后干几百人几千人的事儿。
+[Speaker 2]: 但你说一个人管一百个龙虾，
+[Speaker 2]: 一千个龙虾，
+[Speaker 2]: 我认为做不成大事了，
+[Speaker 2]: 嗯，
+[Speaker 2]: 有可能能做成一些小事。
+[Speaker 2]: 比如说他搭一个小宇宙，
+[Speaker 1]: 够了搓一个产品，
+[Speaker 2]: 它能搓出来小小宇宙的一个程序。
+[Speaker 2]: 跟你想把它运营成真正的小宇宙，
+[Speaker 1]: 完全不一样的事情。
+[Speaker 1]: 对，
+[Speaker 2]: 那差太远了。
+[Speaker 1]: 我们这里说的龙虾也是一个代称，
+[Speaker 1]: 就未来到底使用什么，
+[Speaker 1]: 我们也说不好，
+[Speaker 2]: 就 agent 嘛，
+[Speaker 2]: 就 AI 的叫什么代理嘛，
+[Speaker 2]: 对吧？
+[Speaker 2]: 对，
+[Speaker 3]: 其实刚才老许说的有一个点还挺重要的，
+[Speaker 3]: 就是沟通。
+[Speaker 3]: 就这个我记得咱俩吃饭时候，
+[Speaker 3]: 我还跟你说过，
+[Speaker 3]: 就你问个问题是说那怎么用好 AI，
+[Speaker 3]: 或者说普通人怎么入门嘛？
+[Speaker 3]: 我当时跟你说最重要的就是沟通沟通能力。
+[Speaker 3]: 嗯，
+[Speaker 3]: 我认为沟通能力还是这个观点，
+[Speaker 3]: 就是三层第一层就是识字儿，
+[Speaker 3]: 这个比较浅。
+[Speaker 3]: 第二个什么呢？
+[Speaker 3]: 第二个能看懂话，
+[Speaker 3]: 哎呦，
+[Speaker 3]: 能看懂话，
+[Speaker 3]: 以及能够把话说明白这个需求就看的还不低啊。
+[Speaker 3]: 对，
+[Speaker 1]: 就很多你这句话听起来很模糊。
+[Speaker 3]: 对，
+[Speaker 3]: 就像我们其实你看就我们说的很多话，
+[Speaker 3]: 刚才也说有潜台词啊种种种种，
+[Speaker 3]: 其实人很难表达自己的需求，
+[Speaker 3]: 很难以理性的逻辑化的方式来把自己的需求一二三四五表达清，
+[Speaker 1]: 连了解自己的需求这件事情其实都挺难的对。
+[Speaker 3]: 然后包括 AI 的生成，
+[Speaker 3]: 大家跟人家聊过就知道，
+[Speaker 3]: 除非你训成了一个它是情绪化输出的。
+[Speaker 3]: 一般 AI 直接生成，
+[Speaker 3]: 全部是结构化输出，
+[Speaker 3]: 非常理性是有逻辑的。
+[Speaker 3]: 一二三四五所后你得能看懂，
+[Speaker 3]: 就是它这个结构化的输出，
+[Speaker 3]: 很多人其实是看着费劲的，
+[Speaker 3]: 所以你得能看懂。
+[Speaker 3]: 同时你能够正常表达，
+[Speaker 3]: 能让 AI 看懂，
+[Speaker 3]: 这是第二层。
+[Speaker 3]: 然后第三层是共情共情能力，
+[Speaker 1]: 你是共情 AI 是吗？
+[Speaker 3]: 对你得共情 AI，
+[Speaker 3]: 这是一个比喻啊，
+[Speaker 3]: 就是人去共情人是怎么共情的，
+[Speaker 3]: 就得怎么去共情。
+[Speaker 3]:  AI。
+[Speaker 3]: 我知道你的背景，
+[Speaker 3]: 我知道你的身份，
+[Speaker 3]: 我知道你在经历的远期的事儿，
+[Speaker 3]: 中期的事儿，
+[Speaker 3]: 近期的事儿，
+[Speaker 3]: 你的过往我都知道，
+[Speaker 3]: 以后我才可能共情，
+[Speaker 3]: 你我才能听懂。
+[Speaker 3]: 你说了一个话，
+[Speaker 3]: 或者是说了一个词，
+[Speaker 3]: 甚甚至一个眼神，
+[Speaker 3]: 我才知道你什么意思。
+[Speaker 3]: 这是共情能力来源，
+[Speaker 3]: 就是你非常了解他的情况下，
+[Speaker 3]: 你才有可能共情，
+[Speaker 3]: 才能知道他对你的输出背后的潜台词是个什么意思。
+[Speaker 3]: 那么 AI 也是一样，
+[Speaker 3]: 你只有了解到 AI 它是怎么来的。
+[Speaker 3]: 就你的这个 AI，
+[Speaker 3]: 它是经过一个什么什么什么样的一串的加工，
+[Speaker 3]: 不需要是技术加工，
+[Speaker 3]: 而是说它的生成逻辑上是怎么加工的。
+[Speaker 3]: 你给它定义的性格是什么？
+[Speaker 3]: 你给它定义的规则是什么？
+[Speaker 3]: 种体性你都很清楚的情况下，
+[Speaker 3]: 你才能知道 AI 现在给你输出的这一段，
+[Speaker 3]: 让你选的三个选项，
+[Speaker 3]: 它背后有什么潜台词，
+[Speaker 3]: 这是对呀，
+[Speaker 3]: 还是不对啊，
+[Speaker 3]: 你到底选哪个？
+[Speaker 3]: 是 OK 的，
+[Speaker 3]: 你不会被它带着，
+[Speaker 3]: 越走越偏。
+[Speaker 3]: 这三个层面都有了你才有可能去做一个就是真正很复杂的一个事情。
+[Speaker 2]: 我很同意。
+[Speaker 2]: 就是说如果我们往远了想哈，
+[Speaker 2]: 就是 AI 把我们的工作都替代了。
+[Speaker 2]: 其实到最后呢，
+[Speaker 2]: 人跟人之间肯定还有一些没有办法用机器完全替代的工作。
+[Speaker 2]: 比如说就是为什么刚才我说到要上大学这件事儿哈，
+[Speaker 2]: 一定得锻炼一个跟陌生人怎么慢慢熟熟起来，
+[Speaker 2]: 怎么互相建立信任，
+[Speaker 2]: 怎么聊天，
+[Speaker 2]: 怎么沟通通这个功能，
+[Speaker 2]: 就是现在你跟 AI 你也得用将来 AI 都都替代，
+[Speaker 2]: 工作全替代了，
+[Speaker 2]: 你怎么让 AI 最晚替代，
+[Speaker 2]: 你也是一样，
+[Speaker 2]: 得优先学。
+[Speaker 2]: 这个就回到你刚才那问题，
+[Speaker 2]:  AI 带来什么威胁哈，
+[Speaker 2]: 替代我们的工作。
+[Speaker 2]: 我觉得第一时间可能威胁最大的是那些不需要跟任何人沟通，
+[Speaker 2]: 就在机器面前敲字儿。
+[Speaker 2]: 这个我觉得是相对有一点危险的。
+[Speaker 2]: 你说 AI 有没有威胁？
+[Speaker 2]: 肯定有。
+[Speaker 2]: 但是呢我们有没有对抗手手段，
+[Speaker 2]: 这个对抗手段，
+[Speaker 2]: 一个是抓住跟人沟通的，
+[Speaker 2]: 跟肉身沟通的东西，
+[Speaker 2]: 这是第一个啊。
+[Speaker 2]: 第二个呢，
+[Speaker 2]: 抓住跟硬件能够关联的东西，
+[Speaker 2]: 尤其是跟肉身硬件关联的东西，
+[Speaker 2]: 就比如生物医药，
+[Speaker 2]: 就你这个药得用的人身上。
+[Speaker 2]: 凡凡是跟物理世界界交互界面的事儿，
+[Speaker 2]: 就会更远的被替代。
+[Speaker 2]: 原来我有一个朋友就跟我讲，
+[Speaker 2]: 他说我有一个儿子学编程，
+[Speaker 2]: 有一个女儿学美术，
+[Speaker 2]: 他说这俩人都想进你们游戏行业就来找。
+[Speaker 2]: 我问说你觉得他们大学毕业以后，
+[Speaker 2]: 是不是都可以进到游戏公司去工作？
+[Speaker 2]: 我说我建议他们俩可以去搞点跟硬件相关的东西比，
+[Speaker 2]: 就纯做游戏有可能会更晚被淘汰。
+[Speaker 2]: 但是我觉得现在这个话说的可能也未必准了。
+[Speaker 2]: 另外第三个比较难淘汰的事儿呢，
+[Speaker 2]: 就是人跟人内卷的事儿啊，
+[Speaker 2]: 就是这个事儿只能人干，
+[Speaker 2]: 就比如说足球比赛啊，
+[Speaker 2]: 对吧？
+[Speaker 2]: 哎，
+[Speaker 2]: 那确实机器人踢球，
+[Speaker 2]: 你看两下乐呵，
+[Speaker 2]: 乐呵也就完了。
+[Speaker 2]: 但是最终你看苏超的时候，
+[Speaker 2]: 和看浙超的时候，
+[Speaker 2]: 你不能上一堆机器人吧。
+[Speaker 2]: 你就算是规划一些国外的球员来，
+[Speaker 2]: 你也得看真人踢吧。
+[Speaker 2]: 就是像这些只能人干的事儿，
+[Speaker 1]: 就像这么多年其实有很多的虚拟偶像，
+[Speaker 1]: 但是他没有办法完全替代人类的偶像明星。
+[Speaker 1]: 因为大家还是跟人，
+[Speaker 2]: 尤其待电影行业，
+[Speaker 2]: 大家说都被 c dance 给干掉了，
+[Speaker 2]: 对吧？
+[Speaker 2]: 但你别忘了线下，
+[Speaker 2]: 如果演舞台剧演话剧，
+[Speaker 2]: 线下脱口秀你就坐第一排，
+[Speaker 2]: 看他就站你面前说脱口秀这件事很长很长一段时间，
+[Speaker 2]: 绝对不可能被 AI 机器人替了。
+[Speaker 2]: 没错，
+[Speaker 1]: 对你你想看话剧，
+[Speaker 1]: 你看他额头流流汗，
+[Speaker 1]: 你看他那个脚步声，
+[Speaker 1]: 你想感受的就是大家坐在一起人跟人交互的那种氛围。
+[Speaker 2]: 你看工业化生产这么多年了哈，
+[Speaker 2]: 现在呃世界首富就是经常能跟马斯克竞争的那人是谁？
+[Speaker 2]: 是 LV 集团的老板，
+[Speaker 2]: 就是手工一点一点一针一线缝的这些东西。
+[Speaker 2]: 那工业生产都上百年了吧，
+[Speaker 2]: 现在照样留着，
+[Speaker 3]: 这个情绪价值很重要。
+[Speaker 1]: 所以所以你不会焦虑自己小孩未来的出路什么的吗？
+[Speaker 2]: 焦虑我觉得倒是谈不上，
+[Speaker 2]: 但是你应该还是有一些思考，
+[Speaker 2]: 我觉得更多的让他去学人文，
+[Speaker 2]: 这是我现在的感受，
+[Speaker 1]: 不是学 AI，
+[Speaker 2]: 而是学人 AI 的我的感受是什么呢？
+[Speaker 2]: 我大概给你说说我近期的感受啊，
+[Speaker 2]: 那天我跟吕星星讲了，
+[Speaker 2]: 我说你呢追的有点太快了啊。
+[Speaker 2]: 对对对，
+[Speaker 2]: 你听你听我说哈，
+[Speaker 2]: 我现在的感受就是我只要等个大概一两个月，
+[Speaker 2]: 我现在手搓的很多事儿，
+[Speaker 2]: 那些大明星公司就帮我干出来了。
+[Speaker 1]: 就是这个感受就是像大家说网上说那个梗，
+[Speaker 1]: 就是你三个月不了解，
+[Speaker 1]: 然后你发现什么都没错过你，
+[Speaker 1]: 只要用最新的就可以了。
+[Speaker 2]: 而且你还省事儿了，
+[Speaker 2]: 关键还便宜了。
+[Speaker 2]: 对，
+[Speaker 2]: 然后呢，
+[Speaker 2]: 所以我就说呢也别追的太快，
+[Speaker 2]: 就如果你追的快，
+[Speaker 2]: 有一个前提条件你要自测啊，
+[Speaker 2]: 这是一个前提条件。
+[Speaker 2]: 你要问自己，
+[Speaker 2]: 我今天把它做出来，
+[Speaker 2]: 能不能今天立即给我产生收益。
+[Speaker 2]: 如果能这这两个月当中我就没浪费。
+[Speaker 1]: 对我想起旅行，
+[Speaker 1]: 上次跟我讲，
+[Speaker 1]: 他有个朋友是每天用 AI 做 n 个 f 上线，
+[Speaker 2]: 他当场赚钱。
+[Speaker 2]: 对，
+[Speaker 1]: 就是当下赚钱，
+[Speaker 3]: 对，
+[Speaker 3]: 当下赚这个就有用。
+[Speaker 3]: 没错，
+[Speaker 1]: 我是一个什么样的时间？
+[Speaker 3]: 怎么说呢？
+[Speaker 3]: 就是我们做小游戏嘛啊小游戏这种东西人工来做其实是成本低的哈。
+[Speaker 3]: 就在咱们比如这个时间放到半年前，
+[Speaker 3]: 咱们都可以说做这种超休闲的这种，
+[Speaker 3]: 我们叫 IA 小游戏嘛。
+[Speaker 3]: 广告变现上小游戏它都是一个低成本的事情，
+[Speaker 3]: 是一个小团队能够快速的挣点钱的这么一个事情。
+[Speaker 3]: 但有了 AI 以后，
+[Speaker 3]: 那可能就不需要一个小团队，
+[Speaker 1]: 一个人就行，
+[Speaker 3]: 他就一个人就行，
+[Speaker 3]: 一个人迅速的出了一堆。
+[Speaker 3]: 那这个范式又革命了。
+[Speaker 3]: 以前来说一个小团队，
+[Speaker 3]: 那你可能花十五天做一款七天做出一个东西，
+[Speaker 3]: 然后七天做各种接入，
+[Speaker 3]: 然后投放种种。
+[Speaker 3]: 现在就是一天，
+[Speaker 3]: 你可能做好多款，
+[Speaker 3]: 你其实并不是特别 care，
+[Speaker 3]: 说每款的打磨是不是到位，
+[Speaker 3]: 就变成彻底买彩票，
+[Speaker 3]: 一堆放上去，
+[Speaker 3]: 哪个赚钱了，
+[Speaker 3]: 我就再去买点量。
+[Speaker 2]: 他们现在有没有 AI 写小说就这么干，
+[Speaker 2]: 哎，
+[Speaker 3]: 就这么样，
+[Speaker 3]: 包括做慢剧，
+[Speaker 3]: 包括做哎这太多了啊，
+[Speaker 3]: 就是这个行业里边就是做内容生产，
+[Speaker 3]: 尤其是这种低端的这种内容生产。
+[Speaker 3]: 那凡事就都已经革命了，
+[Speaker 3]: 当时咱们不是在这制造焦虑啊，
+[Speaker 1]: 就对对，
+[Speaker 1]: 我们只是在聊，
+[Speaker 1]: 我们只是找个例子来印证。
+[Speaker 1]: 徐老师说，
+[Speaker 1]: 如果他当下能给你赚钱，
+[Speaker 1]: 那你花大量的时间精力，
+[Speaker 1]: 还有金钱投入，
+[Speaker 1]: 它是只要这个账能算得过来，
+[Speaker 1]: 它是有价值的。
+[Speaker 1]: 没错，
+[Speaker 3]: 就我为什么当时做这个事儿，
+[Speaker 3]: 其实我同时做两个事。
+[Speaker 3]: 第一个事是搞这个，
+[Speaker 3]: 就是搞一个消息者 APP。
+[Speaker 3]: 对对，
+[Speaker 3]: 然后第二个事情，
+[Speaker 3]: 实际上我主要精力还是放在了就是怎么搭这一套。
+[Speaker 3]: 就现在所谓的叫 harness，
+[Speaker 3]:  AI 的这一套的架构上驾驭 AI 驾驭 AI 的一个 harness。
+[Speaker 3]: 对，
+[Speaker 3]:  harness。
+[Speaker 3]: 这个是最近比较流行的一个概念啊，
+[Speaker 3]: 这个有很多人讲啊，
+[Speaker 3]: 很多人写非常火，
+[Speaker 3]: 这刚出来一个词儿，
+[Speaker 3]: 但我们可以不在这这么去展开。
+[Speaker 3]: 我今天讲讲就是为什么去做这个小息 APP，
+[Speaker 3]: 为什么做这么费劲？
+[Speaker 3]: 就做这个东西的原因是因为我想去模拟一下，
+[Speaker 3]: 就是传统的这个叫怎么着开发管线，
+[Speaker 3]: 你有一个产品经理对吧？
+[Speaker 3]: 然后提需求，
+[Speaker 3]: 然后大家搞评审，
+[Speaker 3]: 然后你的架构师给你去定这个技术的架构。
+[Speaker 3]: 然后你的数设计师给你搞这个整体的 UI，
+[Speaker 3]: 整体的这个视觉，
+[Speaker 3]: 然后大家再去对齐，
+[Speaker 3]: 然后再进入到比如前端的开发啊，
+[Speaker 3]: 这个移动端的开发啊，
+[Speaker 3]: 后端的发啊，
+[Speaker 3]: 包括数据工程师给你做买点。
+[Speaker 3]: 然后最后怎么做技术，
+[Speaker 3]: 怎么做上线，
+[Speaker 3]: 这个是传统的软件行业或者互联网行业的一个传统工业流。
+[Speaker 3]: 这里面涉及到无数的人，
+[Speaker 3]: 涉及到无数的对接，
+[Speaker 3]: 整个过程非常的漫长。
+[Speaker 3]: 但这套工作流呢是稳的，
+[Speaker 3]: 它真的出了东西大家可以不了解，
+[Speaker 3]: 但是每个人手机上装的每一个 APP 都是这么干出来的那 AI 去收工程，
+[Speaker 3]: 比如像老许和我两个风格嘛，
+[Speaker 3]: 就是老许是 web coding 嘛，
+[Speaker 3]: 就就是你给我干怎么实现，
+[Speaker 1]: 我不管啊。
+[Speaker 3]: 对，
+[Speaker 3]: 然后你干的有问题了，
+[Speaker 3]: 我骂你这东西不是红的啊，
+[Speaker 3]: 这都是绿的，
+[Speaker 3]: 然后他改成绿的了。
+[Speaker 3]: 大概这个逻辑我这个逻辑是啥呢？
+[Speaker 3]: 就是我得一步一步按照传统的让 AI 给我来一遍，
+[Speaker 3]: 我看看 AI 用这套工作流是不是能够稳定的给我生成我想要的结果。
+[Speaker 3]: 我中间不要返工，
+[Speaker 3]: 我要的就是最后到了产品做完了，
+[Speaker 3]: 上线测试的时候，
+[Speaker 3]: 他没有没有那更多的 bug，
+[Speaker 3]: 他一直就跑通了，
+[Speaker 3]: 这就是它的价值。
+[Speaker 3]: 就是说你真正说把这个事当做一个要赚钱的一个事情，
+[Speaker 3]: 或者说要产生生产力的一个事情来做的话，
+[Speaker 3]: 你不能靠抽卡，
+[Speaker 3]: 嗯，
+[Speaker 3]: 你得靠确定性嘛，
+[Speaker 3]: 对吧？
+[Speaker 3]: 十个里边你至少得成五个吧，
+[Speaker 3]: 要不然就是如果抽卡的话，
+[Speaker 3]: 不知道能不能抽出来。
+[Speaker 3]: 那这个事儿没有人会投钱，
+[Speaker 3]: 或者你不会去投入资源，
+[Speaker 3]: 去搞一个没有概率的事情，
+[Speaker 3]: 对吧？
+[Speaker 3]: 你得确定的知道，
+[Speaker 3]: 哎，
+[Speaker 3]: 我这么着，
+[Speaker 3]: 你一步一步干到最后他的生成结果可控的。
+[Speaker 3]: 我想要一个东西，
+[Speaker 3]: 他做出来了。
+[Speaker 3]: 然后这一套东西本身它磨出来的工作流，
+[Speaker 3]: 就是跟 AI 上面一步一步一步怎么来的。
+[Speaker 3]: 这个工作流这个是未来你做所有的 APP 都可以复用这套工作流。
+[Speaker 2]: 我呢跟他观点不一样的，
+[Speaker 2]: 地儿在哪儿？
+[Speaker 2]: 你知道吗？
+[Speaker 2]: 嗯，
+[Speaker 2]: 我认为他的所有的工作，
+[Speaker 2]: 人家大模型公司都在干。
+[Speaker 2]: 因为全世界所有的 APP 都是这套工作流。
+[Speaker 2]: 你听到他这句话了，
+[Speaker 2]: 对你只要抓住他这句话，
+[Speaker 2]: 那大模型的公司就知道，
+[Speaker 2]: 我觉得我把这个东西提供出来，
+[Speaker 2]: 大家肯定喜欢，
+[Speaker 2]: 要就算旅行做完了不开源，
+[Speaker 2]: 难道大模型公司里面不会有上百个旅星在干这事吗？
+[Speaker 2]: 对，
+[Speaker 1]: 就像前几天 anthropic 不是开源了十个金融相关的东西吗？
+[Speaker 1]: 没错。
+[Speaker 2]: 嗯，
+[Speaker 2]: 好，
+[Speaker 2]: 还两天。
+[Speaker 2]: 我本来我看了一个巴菲特什么大师的一个什么炒股软件的一个 scale，
+[Speaker 2]: 嗯，
+[Speaker 2]: 我当场就给装上了，
+[Speaker 2]: 他是三个大师的。
+[Speaker 2]: 假如前两天我看到有一个三十七个大师的对，
+[Speaker 1]: 哎，
+[Speaker 1]: 他说他说你还搓了一个量化的对啊，
+[Speaker 2]: 我搓了一个量化，
+[Speaker 2]: 我我模拟给他一百万美金，
+[Speaker 2]: 我让他只用十年以前的数据来训练，
+[Speaker 2]: 要模拟最近十年的数据拿去给你一百万美金，
+[Speaker 2]: 能炒成多少钱。
+[Speaker 2]: 就最近十年的数据是拿来测试的，
+[Speaker 2]: 嗯，
+[Speaker 2]: 不是拿来训练的，
+[Speaker 2]: 如果训练你不就知道了吗？
+[Speaker 2]: 对对对，
+[Speaker 2]: 对吧？
+[Speaker 2]: 我用十年以前的就是二十年、
+[Speaker 2]: 三十年的那个数据给他，
+[Speaker 2]: 然后用最近十年的数据给他测，
+[Speaker 2]: 我说你能不能跑赢那个标普五百补五百，
+[Speaker 2]: 他现在已经跑赢了。
+[Speaker 2]: 收益率高、
+[Speaker 2]: 波动率低、
+[Speaker 2]: 回撤率低，
+[Speaker 2]: 三项指标通通超过标普。
+[Speaker 1]: 那你在现实中你会用这一套去投资吗？
+[Speaker 1]: 呃，
+[Speaker 2]: 先少是就是少少一点事，
+[Speaker 1]: 你你看问题就在这儿，
+[Speaker 1]: 就是 AI 他能帮我们做投资分析，
+[Speaker 1]: 但我们很难真的把账号给 AI，
+[Speaker 1]: 让他来做投资。
+[Speaker 1]: 因为你想如果真亏了 AI 对钱，
+[Speaker 1]: 可是没感觉的，
+[Speaker 1]: 他不知道一笔亏损对一个家庭意味着什么？
+[Speaker 1]: 而且他也没有受托者责任亏钱了，
+[Speaker 1]: 咱们上哪追责嗯，
+[Speaker 1]: 投资这个事情咱们暂且不谈。
+[Speaker 1]: 徐老师刚才这个实践让我想追问吕星一个问题，
+[Speaker 1]: 就还是说做一个 app 我确实不知道他该怎么做。
+[Speaker 1]: 但我可以像徐老师这样让 AI 来教我所为，
+[Speaker 1]: 他知道所有的流程嘛。
+[Speaker 1]: 那这个又回到我们最开始聊的所谓中年人，
+[Speaker 1]: 有经验的人在 AI 是他的优势。
+[Speaker 1]: 像徐老师刚才这样的方法，
+[Speaker 1]: 其实就像一个没有相关经验的年轻人。
+[Speaker 1]: 我先不管完整流程是啥，
+[Speaker 1]: 我就知道。
+[Speaker 1]: 哎，
+[Speaker 1]: 我想要这个这个，
+[Speaker 1]: 然后让 AI 带着我往前走，
+[Speaker 1]: 你这个不行，
+[Speaker 1]: 你就给我改那个不对，
+[Speaker 1]: 你就再来一遍。
+[Speaker 1]: 所以说这样的方法理论上它其实也能达到和你相似的效果，
+[Speaker 1]: 对吧？
+[Speaker 1]: 只是说可能会需要更多的时间，
+[Speaker 1]: 也会在中途踩更多的坑。
+[Speaker 1]: 嗯，
+[Speaker 3]: 这个怎么说呢？
+[Speaker 3]: 就是或者我把这话说的简单一点啊，
+[Speaker 3]: 就是说年轻人的价值观啊，
+[Speaker 3]: 他不一定说那么根深蒂固，
+[Speaker 3]: 他认识世界，
+[Speaker 3]: 他毕竟没有那么多嘛。
+[Speaker 1]: 老师，
+[Speaker 1]: 我我说不要开发一个 app，
+[Speaker 1]: 他跟我的世界观有啥关系？
+[Speaker 1]: 嗯，
+[Speaker 3]: 你要考虑这个 app 比如说给谁用，
+[Speaker 1]: 就是我想的不会那么周全，
+[Speaker 3]: 你想的不会那么周全。
+[Speaker 3]:  AI 不会主动告诉你的，
+[Speaker 3]: 你能不能正确理解你的用户，
+[Speaker 3]: 这个经验上还是有用的吧。
+[Speaker 2]: 有时候有些经验吧，
+[Speaker 2]: 真的是非常宝贵。
+[Speaker 2]: 我给你举一个例子啊，
+[Speaker 2]: 嗯这个你在网上不一定搜得到，
+[Speaker 2]: 就我们游戏行业的例子，
+[Speaker 2]: 这个是比较好理解的不深。
+[Speaker 2]: 就比如说你打游戏的时候，
+[Speaker 2]: 你去论坛上看，
+[Speaker 2]: 有些人就在这个游戏的论坛底下就狂骂说这游戏这这这这这设计不合理。
+[Speaker 2]: 如果是年轻人啊，
+[Speaker 2]: 刚出道的小策划，
+[Speaker 2]: 看到这么多人乌泱乌泱的满屏都是骂这个同一个话题，
+[Speaker 2]: 你是不是就回去修改你的游戏去了，
+[Speaker 1]: 然后心情很沮丧。
+[Speaker 2]: 我告诉你这就是一个巨大的错误。
+[Speaker 2]: 因为你这个游戏有可能有一万个人在玩，
+[Speaker 2]: 你把所有论坛里骂的这些 ID 摘出来一看不到一百个，
+[Speaker 2]: 然后那九千九百个人玩的倍儿嗨，
+[Speaker 2]: 人家没有心情，
+[Speaker 2]: 也没有动力，
+[Speaker 2]: 跑到论坛上去，
+[Speaker 2]: 人连看论坛都不带，
+[Speaker 2]: 看的人玩的倍儿嗨呢。
+[Speaker 2]: 结果你跟着一百个较劲的人，
+[Speaker 2]: 得根据他们的意见，
+[Speaker 2]: 你把那游戏改了啊，
+[Speaker 2]: 回过头来，
+[Speaker 2]: 那九千九百人都走了，
+[Speaker 3]: 这是经常出现区别。
+[Speaker 2]: 就在这儿，
+[Speaker 2]: 年轻人一看的那个就吓傻了，
+[Speaker 2]: 我这么多人骂，
+[Speaker 2]: 然后老年人就会告诉他，
+[Speaker 2]: 先别着急啊，
+[Speaker 2]: 哥以前犯过这错，
+[Speaker 2]: 我看着他们这个骂的就改了。
+[Speaker 2]: 我们以前面已经死过三款游戏了，
+[Speaker 2]: 这些东西有时候他没有办法写成书，
+[Speaker 2]: 他也没想到要把它写成书，
+[Speaker 2]: 甚至公司里没有一套流程，
+[Speaker 2]: 把它形成知识库啊，
+[Speaker 2]: 对，
+[Speaker 2]: 就没留留下有很多试错的东西，
+[Speaker 3]: 对吧？
+[Speaker 3]: 试错的这些错误实际上是最宝贵的财富，
+[Speaker 3]: 就是公司花钱啊，
+[Speaker 3]: 或者你生活中遇到各种坎坷啊，
+[Speaker 3]: 是你自己花了很大的代价获得的这些经验，
+[Speaker 3]: 失败经验就是靠时间积累的。
+[Speaker 3]: 嗯，
+[Speaker 2]: 就我老说我是一个游戏产业的一个垂直的一个大模型。
+[Speaker 2]: 我脑子里有很多很多训的就是那个知识库存在。
+[Speaker 2]: 我这儿它是一个私有数据，
+[Speaker 2]: 嗯，
+[Speaker 2]: 它没有写成书写成文档存在，
+[Speaker 2]: 公司发表最后出版没有？
+[Speaker 2]: 那我的这些知识提示词才能没错，
+[Speaker 2]: 得有你过来来提示我。
+[Speaker 2]: 你说哎这个怎么回事？
+[Speaker 2]: 那个为什么原来在得到做客的时候，
+[Speaker 2]: 你那些问题就真的启发我，
+[Speaker 2]: 思考，
+[Speaker 2]: 就把我这些东西都挖出来了，
+[Speaker 2]: 你知道吗？
+[Speaker 2]: 这些东西呢就是中年人的优势。
+[Speaker 2]: 一旦再出现类似的情境，
+[Speaker 2]: 我们利器脑子里这个模型可以输出一个结果，
+[Speaker 2]: 告诉他这样做的这就叫什么，
+[Speaker 2]: 这是直觉。
+[Speaker 2]: 但是年轻人的好处就像他刚才说的，
+[Speaker 2]: 他不固化，
+[Speaker 2]: 有时候是好事儿，
+[Speaker 1]: 对他想象力我并不说这这个就一定不成，
+[Speaker 2]: 我就愣不信，
+[Speaker 2]: 结果闯出一条新路，
+[Speaker 2]: 所以呢各自都有优势啊，
+[Speaker 2]: 对，
+[Speaker 3]: 就现在比较流行的一个共识啊，
+[Speaker 3]: 就是 AI 这个领域就是未来人们最终极的人类能提供什么样的价值，
+[Speaker 3]: 是一个词儿。
+[Speaker 3]:  taste taste 一方面是独特的这种审美啊、
+[Speaker 3]: 品味啊这些可能年轻人更擅长，
+[Speaker 3]: 他脑子更活跃，
+[Speaker 3]: 他能看到更多的东西。
+[Speaker 3]: 想到更多的东西，
+[Speaker 3]: 但是 taste 另外一面，
+[Speaker 3]: 实际际上判断力。
+[Speaker 3]: 比如像 AI，
+[Speaker 3]: 它现在针对性的强化训练里边就有这样的条目。
+[Speaker 3]: 比如说永远不给用户单一选择。
+[Speaker 3]: 所以你问他一个问题，
+[Speaker 3]: 他永远告诉你一二三嘛，
+[Speaker 3]: 他凑不来一二三，
+[Speaker 3]: 他给你硬凑一二三里，
+[Speaker 3]: 但涉及到一一个判断力问题了。
+[Speaker 3]: 那判断力那说白了就是你你见的多，
+[Speaker 3]: 你的判断更有可能是对的。
+[Speaker 2]: 反正这个东吧吧看你有没有学习的心态。
+[Speaker 2]: 现在这个 AI 时代，
+[Speaker 2]: 我觉得去挖这些老年人的知识啊，
+[Speaker 2]: 其实是一个特别好的机会。
+[Speaker 2]: 就是你你只要善于跟这些你周围这些中老年人聊天，
+[Speaker 2]: 只要你善于发问，
+[Speaker 2]: 甭管你是跟 AI 问也好，
+[Speaker 2]: 还是跟你周围的中老年人问也好，
+[Speaker 2]: 你只要吸收的快，
+[Speaker 2]: 你很快能把自己叫什么呢？
+[Speaker 2]: 蒸馏对我刚才也想说，
+[Speaker 1]: 羡慕的公司就干这事儿嘛，
+[Speaker 1]: 馏他把员工给蒸馏出来，
+[Speaker 1]: 然后人离职了，
+[Speaker 1]: 他的 skill 留下来了，
+[Speaker 1]: 太恐怖了。
+[Speaker 2]: 你要是聪明的话，
+[Speaker 2]: 你应该优先主动去征馏别人不要生成 skill，
+[Speaker 2]: 而是装在你自己的脑子里，
+[Speaker 2]: 这个才有用。
+[Speaker 1]: 哎，
+[Speaker 1]: 这里的蒸馏指的是向别人学习，
+[Speaker 1]: 学其他人的本领，
+[Speaker 1]: 然后记在自己的脑子里。
+[Speaker 1]: 你看某种程度上学习不也是一种蒸馏嘛，
+[Speaker 1]: 在没有 AI 的时代，
+[Speaker 1]: 几十年前几百年前徒弟呢跟师傅先去找师傅争馏啊。
+[Speaker 2]: 对啊，
+[Speaker 1]: 学就是就是求教嘛，
+[Speaker 2]: 有的人十年出师，
+[Speaker 2]: 有的人五年出师，
+[Speaker 2]: 就是天天缠着师傅问的人，
+[Speaker 2]: 他就子路争馏啊，
+[Speaker 2]: 孔子。
+[Speaker 2]: 对呀，
+[Speaker 2]: 天天问呀，
+[Speaker 2]: 对吧？
+[Speaker 2]: 然后呢，
+[Speaker 2]: 还有一个绝招，
+[Speaker 2]: 你一定要学会你们老板想要什么。
+[Speaker 2]: 其实老板真正想要的不一定是降本增效，
+[Speaker 2]: 老板想要的就是赚更多的钱。
+[Speaker 2]: 嗯，
+[Speaker 2]: 就是至于降本这件事，
+[Speaker 2]: 可降可不降，
+[Speaker 2]: 增收才最重要。
+[Speaker 0]: 我觉得这是人与人之间的一道分异一部分的人，
+[Speaker 0]: 或者极小部分的人，
+[Speaker 0]: 会像徐老师刚才说的那样想。
+[Speaker 0]: 但是另外一部分人他就会在想说，
+[Speaker 0]: 我要有这能力，
+[Speaker 0]: 我为什么不出去自己单干？
+[Speaker 0]: 就有些人对有些人会这么老板业务扩大十倍，
+[Speaker 1]: 你出去你分分钟绝对你就可以出去单干。
+[Speaker 1]: 你现在老板现在这验证了。
+[Speaker 1]: 对呀，
+[Speaker 1]: 你先练呀，
+[Speaker 1]: 老板给你偷 ken 钱，
+[Speaker 1]: 你干嘛不先练呀？
+[Speaker 1]: 所以我好，
+[Speaker 1]: 我最近劝很多人，
+[Speaker 1]: 我说大厂出来创业真的别着急。
+[Speaker 1]: 你既然在大厂啊，
+[Speaker 1]: 你乐死了，
+[Speaker 1]: 你业余时间玩龙虾呀，
+[Speaker 1]: 你两不耽误啊，
+[Speaker 0]: 我怎么觉得聊下来？
+[Speaker 0]: 年轻人有机会，
+[Speaker 0]: 中年人有机会，
+[Speaker 0]: 大家其实都有机会。
+[Speaker 0]: 其实各有长处和短处。
+[Speaker 0]: 我觉得就是不应该以一个完全悲观的心态来看待自己的未来，
+[Speaker 0]: 而应该专注于当下，
+[Speaker 0]: 就先把它做起来。
+[Speaker 0]: 对，
+[Speaker 2]: 你说的没错，
+[Speaker 2]: 这个就是咱们我觉得要聊的一个特别重要的话题，
+[Speaker 2]: 那就是什么人是有机会的。
+[Speaker 2]: 他跟你岁数大小，
+[Speaker 2]: 他没什么关系，
+[Speaker 2]: 跟你现在在干什么？
+[Speaker 2]: 没什么关系。
+[Speaker 2]:  AI 已经极大的抹平了人和人之间的一些差距，
+[Speaker 2]: 它是一个技术平权嘛。
+[Speaker 2]: 嗯，
+[Speaker 2]: 所以这时候就看你的个人意愿，
+[Speaker 2]: 包括像老许说的这也是就是那你到底想要什么样的生活。
+[Speaker 2]: 你如果有要求，
+[Speaker 2]: 那你有行动力，
+[Speaker 2]: 那你就行动起来就好了。
+[Speaker 2]: 包括就是我记得上次我来录节目的时候，
+[Speaker 2]: 其实也是这个观点。
+[Speaker 2]: 就是你如果不动起来，
+[Speaker 2]: 那你现在不动和那个时候不动它是一样的。
+[Speaker 2]: 嗯，
+[Speaker 1]: 我给你举一个极限的平权的案例啊，
+[Speaker 1]: 比如说就是一个八岁小孩，
+[Speaker 1]: 你是一个军事迷军迷，
+[Speaker 1]: 对吧？
+[Speaker 1]: 你所有军事的东西你都特了解，
+[Speaker 1]: 对吧？
+[Speaker 1]: 那一八岁小孩能不能干你要搁？
+[Speaker 1]: 以前没有 AI，
+[Speaker 1]: 没有大模型，
+[Speaker 1]: 他绝对没戏。
+[Speaker 1]: 但是现在八岁小孩拿起豆瓣来，
+[Speaker 1]: 他就直接干你，
+[Speaker 1]: 他具备了所有这些知识啊绝对干权。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以其实真的很快就拉平了。
+[Speaker 1]: 你别来，
+[Speaker 1]: 这老蹬着说这一堆什么啊，
+[Speaker 1]: 你经历过这什么都懂你，
+[Speaker 1]: 吃的盐，
+[Speaker 1]: 比我这吃的米饭都多。
+[Speaker 1]: 你别给我整这个，
+[Speaker 1]: 我拿起豆瓣来就给你评权，
+[Speaker 1]: 一点都不含糊的。
+[Speaker 1]: 但是呢就那个万分之一的人，
+[Speaker 1]: 他往上走了，
+[Speaker 1]: 三级四级，
+[Speaker 1]: 他把 AI 用的炉火纯青了，
+[Speaker 1]: 那就跟你天天只能拿语音跟豆瓣聊就不一样了。
+[Speaker 0]: 他把大家的下限拉高了。
+[Speaker 0]: 对了，
+[Speaker 0]: 但大家的上限差就更大了。
+[Speaker 1]: 你往上你会发现现一个特特别，
+[Speaker 1]: 而拿语破的天花板就是能把 AI 用的炉火纯青的境界。
+[Speaker 1]: 可能原来是呃一百个人里面可能只有十个人会用 AI。
+[Speaker 1]: 现在一百个人里面有九十个人用豆包，
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是其中有那十个人用 cloud code 的，
+[Speaker 1]: 用 codex 的，
+[Speaker 1]: 就比原来这九十个人全加一块都牛了。
+[Speaker 1]: 对，
+[Speaker 3]: 没有，
+[Speaker 0]: 那像你说的用到炉火纯青那百分之十的人，
+[Speaker 0]: 大家是怎么做的？
+[Speaker 0]: 或者现在只是一个普通人，
+[Speaker 0]: 假想我泛指各个行业。
+[Speaker 0]: 如果想要从目前的聊天的这样的一个状态往上更上一步，
+[Speaker 0]: 那大家该怎么做？
+[Speaker 1]: 首先一个呢就是刚才吕星说的那个事儿哈，
+[Speaker 1]: 你得会跟 AI 聊，
+[Speaker 0]: 这同样是聊天，
+[Speaker 0]: 会不会还有差别？
+[Speaker 1]: 当然这差别太大了，
+[Speaker 1]: 这是个质的差别。
+[Speaker 1]: 你比如说吕星刚才说的 AI 不会主动问我，
+[Speaker 1]: 你不会让 AI 装成会问吗？
+[Speaker 1]: 你就告诉 AI，
+[Speaker 1]: 我就是一个小白，
+[Speaker 1]: 我是有缺陷的 AI。
+[Speaker 1]: 你现在是一个特别牛的老师，
+[Speaker 1]: 你要学会主动问我问题。
+[Speaker 1]: 好，
+[Speaker 1]: 你现在问吧，
+[Speaker 1]: 一句话搞定了，
+[Speaker 1]: 你有这样的思维和没这样的思维就完全不一样了。
+[Speaker 1]: 然后你会跟 AI 讲说输出的所有的内容，
+[Speaker 1]: 你都要去哪儿查信源，
+[Speaker 1]: 你一句话，
+[Speaker 1]: 他给你输出的东西就截然不同了。
+[Speaker 1]: 我跟你讲，
+[Speaker 1]: 有时候吧，
+[Speaker 1]: 就是自己吓唬自己，
+[Speaker 1]: 老觉得 AI 这事儿太难，
+[Speaker 1]: 我又不是程序员，
+[Speaker 1]: 他们这个东西都那么深，
+[Speaker 1]: 我怎么能会呢？
+[Speaker 1]: 我老了，
+[Speaker 1]: 我干不了这事，
+[Speaker 1]: 其实根本不是。
+[Speaker 1]: 有时候就一句话，
+[Speaker 1]: 你会编先从这开始啊。
+[Speaker 1]: 然后呢，
+[Speaker 1]: 你就跟 AI 说，
+[Speaker 1]: 你现在是一个非常专业的二十年经验的产品经理，
+[Speaker 1]: 你给我设计文档先，
+[Speaker 1]: 然后你不用给我看，
+[Speaker 1]: 根据自己的设计文档，
+[Speaker 1]: 你去把这个软件给我做出来。
+[Speaker 1]: 如果说一句话，
+[Speaker 1]: 你就把旅行那一个礼拜的事干了。
+[Speaker 0]: 旅行，
+[Speaker 0]: 现在我就是看着我说，
+[Speaker 1]: 是我刚才已经叠过甲了，
+[Speaker 1]: 就是说最后百分之九十九到百分之百之间，
+[Speaker 1]: 那百分之一就会把你那个鸿沟很难快最后消耗掉。
+[Speaker 1]: 但是至少你 build 了一个很大的心信心，
+[Speaker 1]: 就说这事儿其实我能干，
+[Speaker 1]: 然后只差一点点你就至少先上道了呀。
+[Speaker 0]: 我发现这也是最近你们两个公开聊天，
+[Speaker 0]: 经常会说的就是很多人会聊。
+[Speaker 0]: 也你你看看到很多人对各种产品啊或者一些大公司的境况可以侃侃而谈。
+[Speaker 0]: 你问他真正做了什么，
+[Speaker 0]: 他好像就没怎么做对。
+[Speaker 1]: 你知道我第一次装 open class 是怎么装的吗？
+[Speaker 1]: 我这边问豆包，
+[Speaker 1]: 然后让他又一步一步指导我怎么装，
+[Speaker 0]: 因为豆包是让你装。
+[Speaker 0]: 对对，
+[Speaker 1]: 就是真的没有那么难。
+[Speaker 1]: 嗯，
+[Speaker 1]: 你说你讲的这东西我不会，
+[Speaker 1]: 你拿我当了一个五岁小孩儿，
+[Speaker 1]: 你再给我讲一遍，
+[Speaker 1]: 就只要这样不厌其烦的问，
+[Speaker 1]: 你就按照他一步一步说的，
+[Speaker 1]: 你就去弄。
+[Speaker 1]: 嗯，
+[Speaker 1]: 到最后你真的能装上，
+[Speaker 2]: 特别像什么呢？
+[Speaker 2]: 就是智能机出来以后，
+[Speaker 2]: 就现在年轻人可能想不到。
+[Speaker 2]: 哎呀，
+[Speaker 2]: 那个上了岁数了，
+[Speaker 2]: 他怎么就不会用啊。
+[Speaker 2]: 其实就这个问题，
+[Speaker 2]: 他不是不会用是他不想去用了。
+[Speaker 2]: 那现在 AI 其实也是这波，
+[Speaker 2]: 你就可以想象就是自己就是智能机，
+[Speaker 2]: 没有之前的那波人。
+[Speaker 2]: 嗯，
+[Speaker 2]: 然后现在有了这么一个智能机，
+[Speaker 2]: 它是给你体验不一样，
+[Speaker 2]: 跟那什么滑哗哗，
+[Speaker 2]: 看起来挺神秘的，
+[Speaker 2]: 像个魔法一样。
+[Speaker 2]: 但问题是你有没有想要自己去用是说你从内心就是抗拒的，
+[Speaker 2]: 觉得是跟我们绝缘没关系，
+[Speaker 2]: 我也不想了解。
+[Speaker 2]: 然后同时我再去看看到很多的新闻，
+[Speaker 2]: 然后弄弄很烦，
+[Speaker 2]: 弄得很焦虑，
+[Speaker 2]: 这就有问题了。
+[Speaker 0]: 我觉得其实根本问题是，
+[Speaker 0]: 对于相当多一部分人来说，
+[Speaker 0]: 他其实也看了很多新闻嘛，
+[Speaker 0]: 大家装了小龙虾，
+[Speaker 0]: 其实不知道我用他干干啥。
+[Speaker 1]: 比如说几种方式啊，
+[Speaker 1]: 第一，
+[Speaker 1]: 你周围有没有人用，
+[Speaker 1]: 你问他在干嘛，
+[Speaker 1]: 你最好能抓到一个。
+[Speaker 1]: 哎呦，
+[Speaker 1]: 你看这事挺有意思啊，
+[Speaker 1]: 嗯你别问他怎么干的，
+[Speaker 1]: 你回去自己试去可以吧？
+[Speaker 1]: 就算实在是你觉得他干这事儿特别无聊，
+[Speaker 1]: 那你你能不能找一个比如说工作或者生活当中很烦的一件事，
+[Speaker 1]: 没完没了，
+[Speaker 1]: 干这事就完全跟 AI 一点相关性。
+[Speaker 1]: 都没有我当年打工的时候，
+[Speaker 1]: 我记得我就有一个批量修改文件名的一个需求，
+[Speaker 1]: 把那个文件名都改，
+[Speaker 1]: 把这一段去掉，
+[Speaker 1]: 底下加一个下划线，
+[Speaker 1]: 后面改成零一零二零三啊。
+[Speaker 1]: 就这个事我觉得特烦，
+[Speaker 1]: 这就跟现在 AI 能帮你干的事是一模一样。
+[Speaker 1]: 这你有没有特别烦的？
+[Speaker 1]: 每天老变其烦恼干的一件事，
+[Speaker 1]: 不可能你的生活那么幸福吧。
+[Speaker 1]: 你不管是上班也好，
+[Speaker 1]: 还是下班也好，
+[Speaker 1]: 你就没有一件在电脑上很烦的事儿吗？
+[Speaker 1]: 只要有这样的事儿，
+[Speaker 1]: 你就扔给东虾，
+[Speaker 1]: 你让他去干去。
+[Speaker 2]: 我来举两个例子，
+[Speaker 2]: 我觉得会更写实一点啊。
+[Speaker 2]: 今天早上新鲜发生的啊，
+[Speaker 2]: 今天早上跟一个这个外边的来拜访来开会啊，
+[Speaker 2]: 哥伦比亚的独角兽公司啊，
+[Speaker 2]: 然后他们的 sales 一个人来的一个北京老哥现场给我们展示他这个产品和功能。
+[Speaker 2]: 那做一个销售，
+[Speaker 2]: 他得给我展示什么呢？
+[Speaker 2]: 好，
+[Speaker 2]: 你用了我这服务不，
+[Speaker 2]: 你多赚了多少钱，
+[Speaker 2]: 我给你省了多少钱，
+[Speaker 2]: 要收多少钱。
+[Speaker 2]: 你总体是赚的表达这么一个事，
+[Speaker 2]: 我觉得很多很多销售尤其是 to b 项的这种服务的，
+[Speaker 2]: 都会遇到这个场景，
+[Speaker 2]: 对吧？
+[Speaker 2]: 嗯，
+[Speaker 2]: 好，
+[Speaker 2]: 那他怎么干的那每家的情况他不一样啊，
+[Speaker 2]: 他很难说量身定制，
+[Speaker 2]: 尤其是第一次来拜访，
+[Speaker 2]: 他不知道我们这边的业务的情况规模有多大什么。
+[Speaker 2]: 他很难去给我们算出一个方案，
+[Speaker 2]: 他就拿出电脑来一个网站。
+[Speaker 2]: 哎，
+[Speaker 2]: 这我靠了，
+[Speaker 2]: 做的嗯上面一大堆调整的参数的这个伴儿。
+[Speaker 2]: 这托啊，
+[Speaker 2]: 你这边实际业务发生的金额，
+[Speaker 2]: 具体好多好多参数拖完了就算出来。
+[Speaker 2]: 你看我能给你 commme 的百分之五的增长，
+[Speaker 1]: 一个销售就买这事对。
+[Speaker 1]: 对，
+[Speaker 0]: 不是以前的话，
+[Speaker 1]: 传统的这个找回家找 IT，
+[Speaker 1]: 找程序员，
+[Speaker 1]: 找你们家，
+[Speaker 1]: 技术部门也你干啊，
+[Speaker 2]: 对啊，
+[Speaker 2]: 这就很麻烦。
+[Speaker 2]: 然后对于我们来说说服力可太强了，
+[Speaker 2]: 为什么呢？
+[Speaker 2]: 这是我们的真实会上跟他说的业务数字啊填进去。
+[Speaker 2]: 然后告诉说，
+[Speaker 2]: 你看即使收了我的服务费，
+[Speaker 2]: 你们还多赚了多多少美金，
+[Speaker 2]: 我都没有理由去拒绝他，
+[Speaker 2]: 你知道吗？
+[Speaker 2]: 这是一个工作中的例子，
+[Speaker 2]: 就比如说很极限了，
+[Speaker 2]: 你是一个做人和人沟通的工作，
+[Speaker 2]: 他都能帮上你。
+[Speaker 0]: 因为你说你要回去算一算，
+[Speaker 0]: 其实人走的查都凉了。
+[Speaker 0]: 你过了一天两天，
+[Speaker 1]: 大家都不记得这些情况太多了。
+[Speaker 1]: 咱们说一个工作以外的，
+[Speaker 1]: 比如说你带孩子，
+[Speaker 1]: 那个老师都会要求说你最好你要做一个错题本吧。
+[Speaker 1]: 嗯，
+[Speaker 1]: 你做一个 APP，
+[Speaker 1]: 拍他的错题自动记录，
+[Speaker 1]: 然后到复习的时候自动弹出来。
+[Speaker 1]: 这道题哪天哪天错了，
+[Speaker 1]: 你再做一遍，
+[Speaker 1]: 做对了，
+[Speaker 1]: 打勾入库没了，
+[Speaker 1]: 就这个功能。
+[Speaker 1]: 你想一句话，
+[Speaker 1]: 这龙虾给你干出来了，
+[Speaker 1]: 你难道不开心吗？
+[Speaker 1]: 你没这需求吗？
+[Speaker 2]: 我举一个例子啊，
+[Speaker 2]: 就生活的例子，
+[Speaker 2]: 这两天就看那个 IA 游戏嘛，
+[Speaker 2]: 休闲游戏嘛、
+[Speaker 2]: 消消乐啊，
+[Speaker 2]: 什么挪车位啊，
+[Speaker 2]: 就很多这种小游戏啊。
+[Speaker 2]: 现在美榜第一的一个 IA 游戏是倒水，
+[Speaker 2]: 你对于水瓶子，
+[Speaker 2]: 然后里边装着不同层级的这个水，
+[Speaker 2]: 你来不来去倒，
+[Speaker 2]: 然后一个色它又消了，
+[Speaker 2]: 大概这么个逻辑吧。
+[Speaker 2]: 昨天晚上那个挺上头，
+[Speaker 2]: 一百关了，
+[Speaker 2]: 开始要看广告了，
+[Speaker 2]: 这就很讨厌。
+[Speaker 2]: 死了以后他还有这个多少条命，
+[Speaker 2]: 你知道吧？
+[Speaker 2]: 太烦人了，
+[Speaker 2]: 关不了，
+[Speaker 2]: 我又不想充值手搓呀，
+[Speaker 2]: 那怎么手搓呢？
+[Speaker 2]: 让 AI 你就问他，
+[Speaker 2]: 哎，
+[Speaker 2]: 我喜欢这游戏，
+[Speaker 2]: 我想手搓一个一毛一样的，
+[Speaker 2]: 但是没有这个广告怎么办？
+[Speaker 1]: 真够坏的。
+[Speaker 2]: 然后他就告诉你说，
+[Speaker 2]: 你有手机没有，
+[Speaker 2]: 我说有手机，
+[Speaker 2]: 你给我搞成开发者模式，
+[Speaker 2]: 我说好怎么干。
+[Speaker 2]: 他说你什么版本号，
+[Speaker 2]: 点七下，
+[Speaker 2]: 你告诉我什么型号，
+[Speaker 2]: 我告诉你怎么弄好，
+[Speaker 2]: 搞定了 USB 连接好，
+[Speaker 2]: 一步一步来啊。
+[Speaker 2]: 然后连接完了以后，
+[Speaker 2]: 我去给你装一安卓 studio，
+[Speaker 2]: 或者装一个叉 code，
+[Speaker 2]: 就是那个苹果用的开发套件。
+[Speaker 2]: 装完以后一脸懵啊，
+[Speaker 2]: 结账图给他，
+[Speaker 2]: 我说装成这样，
+[Speaker 2]: 他说你在这儿填什么，
+[Speaker 2]: 在这填什么，
+[Speaker 2]: 按他的来。
+[Speaker 2]: 来了以后，
+[Speaker 2]: 他说行，
+[Speaker 2]: 你别管了，
+[Speaker 2]: 我先看这游怎么回事，
+[Speaker 2]: 对吧？
+[Speaker 2]: 后就用用我手手机把游游戏玩了一遍，
+[Speaker 2]: 自己录屏一张一张截然后点，
+[Speaker 2]: 这是这样点点，
+[Speaker 2]: 那会有这种效果。
+[Speaker 2]: 完了以后他就了解这个游戏的逻辑和玩法了，
+[Speaker 2]: 对吧？
+[Speaker 2]: 接下来就进入到后边了，
+[Speaker 2]: 写 PRD 对吧？
+[Speaker 2]: 就是写这个我的解写个 GDD，
+[Speaker 2]: 写完了就开始干，
+[Speaker 2]: 然后就等到提成就完了，
+[Speaker 2]: 花了多久大概呃两三个小时吧，
+[Speaker 2]: 就给了你一个基础的版本，
+[Speaker 2]: 你就免广告了，
+[Speaker 2]: 对吧？
+[Speaker 2]: 就比如说像这种需求啊，
+[Speaker 2]: 看你信不信任他，
+[Speaker 2]: 这个我觉得挺关键的。
+[Speaker 2]: 就是很多人觉得啊，
+[Speaker 2]: 我不知道拿下来干什么，
+[Speaker 2]: 只是因为你不信任他吧，
+[Speaker 1]: 胆子要大对脑洞要大，
+[Speaker 1]: 这是我说的八个字，
+[Speaker 0]: 胆胆要大脑脑，
+[Speaker 0]: 要要大前提。
+[Speaker 1]: 是啊，
+[Speaker 1]: 我还得提醒一句啊，
+[Speaker 1]: 别把自己什么银行卡信息啊，
+[Speaker 1]: 私人的数据啊这些东西一定要反复强调让让 AI 躲开，
+[Speaker 1]: 就是我电脑里这些数据严格不许碰。
+[Speaker 0]: 对，
+[Speaker 0]: 所以很多人会用一台新电脑，
+[Speaker 0]: 或者是把自己的很多核心资料备份。
+[Speaker 0]: 对，
+[Speaker 1]: 用云是最安全的，
+[Speaker 1]: 它就死机了。
+[Speaker 1]: 你也不用管，
+[Speaker 1]: 那上面你没你的东西，
+[Speaker 1]: 然后你不要把自己的什么账号密码啊都录给他，
+[Speaker 0]: 就是一些安全提醒。
+[Speaker 0]: 对，
+[Speaker 1]: 这个特别重要。
+[Speaker 0]: 对，
+[Speaker 0]: 就如果你是一个很有好奇心的人脑洞足够大，
+[Speaker 0]: 其实你是可以让 AI 帮你实现你想要的很多的需求的。
+[Speaker 0]: 就即便你没有这些脑洞，
+[Speaker 0]: 你的工作和学习中，
+[Speaker 0]: 总有一些你很讨厌的东西，
+[Speaker 0]:  AI 也能帮你实现。
+[Speaker 2]: 对，
+[Speaker 2]: 咱们是不是可以从这个来看啊，
+[Speaker 2]: 就把 AI 的未来分成两部分，
+[Speaker 2]: 一部分是消费 AI，
+[Speaker 2]: 就相当于 AI 是一个消费品。
+[Speaker 2]: 另外一部分是生产力工工。
+[Speaker 0]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 这两个是完全不同的场景，
+[Speaker 0]: 你的全部脑子都在那一半的生产场景里，
+[Speaker 2]: 那也没有。
+[Speaker 2]: 前两天我还还在想一个问题啊，
+[Speaker 2]: 就是我的工作触触了大量的这种情感，
+[Speaker 2]: 陪伴型的 a 非非赚赚钱。
+[Speaker 2]: 对们虽然游戏戏，
+[Speaker 2]: 但是呃我们也干过动漫，
+[Speaker 2]: 其实泛娱乐对吧？
+[Speaker 2]: 那好 AI 未来它的娱乐形式是什么？
+[Speaker 0]:  AI 时代的娱乐是什么？
+[Speaker 2]: 对你比如说情感陪伴这种 AI 啊，
+[Speaker 2]: 它可能是一个初级的一个状态。
+[Speaker 2]: 那还有那么多的娱乐表现形式，
+[Speaker 2]: 对吧？
+[Speaker 2]: 比如说你慢剧什么游戏，
+[Speaker 2]: 包括博客很多种娱乐类型。
+[Speaker 2]: 那什么叫 AI 娱乐？
+[Speaker 2]: 这个里边还有大量的空间可以做，
+[Speaker 2]: 只是大家现在没有定义。
+[Speaker 2]: 什么叫 AI 娱乐嘛？
+[Speaker 2]: 所谓机会还是有的，
+[Speaker 0]: 就是目前我们看到有哪些正在进行的尝试的对的的意的。
+[Speaker 2]: 比如说像是短剧慢剧，
+[Speaker 2]: 它其实就是一世界观。
+[Speaker 2]: 然后一堆人在一个世界观里边，
+[Speaker 2]: 人的关系也是确定的。
+[Speaker 2]: 他们中间的化学反应，
+[Speaker 2]: 然后怎么怎么去表演出来嘛，
+[Speaker 2]: 大概这样吗？
+[Speaker 2]: 这些东西其实都是很重工业生产出来的，
+[Speaker 2]: 尤其是对于普世的用户来说，
+[Speaker 2]: 他可能达到个八十分。
+[Speaker 2]: 但是对于个体来说，
+[Speaker 2]: 有些人就是喜欢，
+[Speaker 2]: 有些人就不喜欢，
+[Speaker 2]: 这没办法。
+[Speaker 2]: 但 AI 解决一个特别核心的问题，
+[Speaker 2]: 叫做千人千面。
+[Speaker 0]: 他能做出千人千面的游戏吗？
+[Speaker 1]: 千人千面的体验，
+[Speaker 2]: 传统互联网问题是做不到真正的千人千面，
+[Speaker 2]: 他能给你打一大堆的标签归类，
+[Speaker 2]: 你是谁？
+[Speaker 2]: 谁谁谁对吧？
+[Speaker 2]: 然后抖音上给你推你喜欢看的视频，
+[Speaker 2]: 大概就这个逻辑吧，
+[Speaker 2]: 对他可以给你弄一万个标签啊，
+[Speaker 2]: 但是他还是不知道你。
+[Speaker 2]: 但是你的 AI 和你一起生活工作的这个 AI，
+[Speaker 2]: 他是对你非常充分的了解的对吧？
+[Speaker 2]: 暴论一下啊，
+[Speaker 2]: 未来的可能这些娱乐形式，
+[Speaker 2]: 他只是比如游戏，
+[Speaker 2]: 我就提供规则，
+[Speaker 2]: 世界观结束了。
+[Speaker 2]: 然后由你的 AI 去结合你的画像，
+[Speaker 2]: 基于与他的这个规则，
+[Speaker 2]: 世界观直接给你生成内容。
+[Speaker 2]: 对呀，
+[Speaker 1]: 就像你刚才说的那个倒水的那个游戏给你生成的一百关和给我生成的一百关，
+[Speaker 1]: 它就可以难度曲线完全不一样。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就抓着我那七十八二十二的那个点儿去给我生成，
+[Speaker 1]: 就让我每玩七十八关的，
+[Speaker 1]: 有二十二关不舒服，
+[Speaker 1]: 有七十八关舒服，
+[Speaker 2]: 或者说你就不喜欢红色，
+[Speaker 2]: 你那里边就没有红色，
+[Speaker 2]: 对呀，
+[Speaker 2]: 对吧？
+[Speaker 2]: 我就要这个他真的亲人千面啊，
+[Speaker 2]: 他提供的就是一套规则嘛。
+[Speaker 2]: 游戏公司提供一套规则，
+[Speaker 2]: 比如说短剧公司提供的就是一个世界观架构冰火之歌，
+[Speaker 2]: 对吧？
+[Speaker 2]: 然后里边有这么多的角色结束了，
+[Speaker 2]: 你想要看什么样的剧情。
+[Speaker 2]: 每一个用户自己的 AI 会比短剧公司更了解。
+[Speaker 2]: 每一个用户个体想看到一个什么样的剧情，
+[Speaker 2]: 喜中转合。
+[Speaker 2]: 最后他是一个什么 ending，
+[Speaker 2]: 这岂不是更爽？
+[Speaker 0]: 那到时候还需要游戏公司吗？
+[Speaker 2]: 需要有人写规则呀，
+[Speaker 1]: 最开始的那个源头可能还是需要一些最懂人性的大天才。
+[Speaker 1]: 就是为什么说万分之一的人会很厉害很厉害很厉害，
+[Speaker 1]: 但是你不要忘了那九千九百九十九个人会很嗨很嗨很嗨，
+[Speaker 0]: 这才是未来什么未来同乐者嘛，
+[Speaker 0]: 大家都很嗨。
+[Speaker 1]: 你同样玩刷一个小时短视频，
+[Speaker 1]: 同样玩一个小时游戏体验的快乐程度大幅提高，
+[Speaker 2]: 给你量身定制的。
+[Speaker 0]: 我之前有幻想过这种很科幻的场景，
+[Speaker 0]: 如果那时候还有班上啊，
+[Speaker 0]: 嗯你早上就跟你的 AI 说，
+[Speaker 0]: 我想要个什么什么游戏，
+[Speaker 0]: 你帮我设计一个，
+[Speaker 0]: 然后晚上回来可以玩。
+[Speaker 2]: 哎，
+[Speaker 2]: 我觉得最快达到了什么呢？
+[Speaker 2]: 是音乐，
+[Speaker 2]: 对吧？
+[Speaker 2]: 音色、
+[Speaker 2]: 节奏、
+[Speaker 2]: 音阶，
+[Speaker 2]: 它的变量太少了，
+[Speaker 2]: 然后又有大量的公式化模板化的从古至今的这么多的音乐对吧？
+[Speaker 2]: 好，
+[Speaker 2]: 比如你的歌单就是你的偏好，
+[Speaker 2]: 对吧？
+[Speaker 2]: 你的 AI 去学习习了你的歌单，
+[Speaker 2]: 大概了解到了你喜欢什么样的东西，
+[Speaker 2]: 它能够给你制作一首永远不停的歌，
+[Speaker 2]: 但每一个音符都非常踏实。
+[Speaker 0]: 你所以 AI 最先干掉的不是游戏，
+[Speaker 0]: 反而可能是音乐行业了。
+[Speaker 2]: 你想咱们就这么说吧，
+[Speaker 2]: 云音乐上有多首歌是大家辛辛苦写的，
+[Speaker 2]: 就包括就是抖音神曲这件事儿啊，
+[Speaker 2]: 都是工厂给你批量产抖音神曲我就在上面投。
+[Speaker 2]: 然后作为 BGM，
+[Speaker 2]: 那时候火了，
+[Speaker 2]: 那我就赚了，
+[Speaker 0]: 这都是工厂化的那旋律不是人写的吗？
+[Speaker 2]: 那很多都不是人写的呀，
+[Speaker 2]: 这么说就是音乐的模型，
+[Speaker 2]: 就是那这不是多模态嘛，
+[Speaker 2]: 多模态就是图像音乐和这个文本嘛，
+[Speaker 2]: 声音的这个模型，
+[Speaker 2]: 这是开源。
+[Speaker 2]: 最早的大家都开源，
+[Speaker 2]: 我好像没见过谁是付费的，
+[Speaker 1]:  sooner 是收钱的对。
+[Speaker 2]: 然后就它为什么大家开源呢？
+[Speaker 2]: 因为它容易，
+[Speaker 2]: 它简单比文本和图像像视频要容易的多。
+[Speaker 2]: 我认为就是这个原因，
+[Speaker 0]: 所以以后不需要周杰伦辛苦写歌，
+[Speaker 0]: 然后 AI 就可以帮我一直不停的播放周杰伦风格的歌。
+[Speaker 2]: 这你也分两种，
+[Speaker 2]: 一种呢就是抖音神曲，
+[Speaker 2]: 你根本没 care 过，
+[Speaker 2]: 他是谁写的对吧？
+[Speaker 2]: 我不知道他作者是谁，
+[Speaker 2]: 但他就是很火。
+[Speaker 2]: 然后还有一种是带 IP 的啊，
+[Speaker 1]: 你记忆中的就是现在的 AI 还没有办法凭空的生成一个周杰伦。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是说你可以说你喜欢周杰伦的风格，
+[Speaker 1]: 他给你复刻，
+[Speaker 1]: 对对吧？
+[Speaker 1]: 但是如果没有周杰伦，
+[Speaker 1]: 压根就没生出来过，
+[Speaker 1]: 你脑子里也不会生出来这个想象。
+[Speaker 1]: 那哎呀你给我生一个完全没有过的我喜欢的风格，
+[Speaker 1]: 你试试这个还真不行。
+[Speaker 0]: 它是基于现实已存在的东西，
+[Speaker 1]: 它可以组合没错，
+[Speaker 2]: 但就是这种喜好是可以去模仿的。
+[Speaker 2]: 就比如说你可能没听过七几年的一个什么单举对吧。
+[Speaker 2]: 但是咱们现在的某个神曲里边就用了这个片段了，
+[Speaker 2]: 你觉得哦真真棒就有好多这样的东西，
+[Speaker 2]: 都还没有被人消会玩。
+[Speaker 2]: 那你其实不需要一个 michael jason 或者一个周杰伦已经有很多天才了，
+[Speaker 2]: 你能把他们的曲风弄下来就已经很棒了。
+[Speaker 2]: 这个你换算到比如短剧上到慢剧上，
+[Speaker 2]: 甚至换算到游戏上，
+[Speaker 2]: 它都是一个道理。
+[Speaker 2]: 都有这么多游戏类型了。
+[Speaker 2]: 你不需要一个 brandon，
+[Speaker 2]: 再给他发明一个 pup g 这样的一个全新的一个玩法，
+[Speaker 2]: 你就给他做文明。
+[Speaker 0]: 对，
+[Speaker 2]: 然后还有一个点能极大的扩充，
+[Speaker 2]: 就是存量扩充。
+[Speaker 2]: 就每个人其实看到的这个世界的范围完全就是沧海一粟啊，
+[Speaker 2]: 你有大量的东西你没接触过，
+[Speaker 2]: 你根本不知道你喜不喜欢。
+[Speaker 2]: 比如说就是非洲某部落的某种打鼓的节奏，
+[Speaker 2]: 这就最踏实你。
+[Speaker 2]: 但是因为你没接触过，
+[Speaker 2]: 所以你根本不知道。
+[Speaker 2]: 但往往这种东西 AI 知道，
+[Speaker 2]: 如果他很了解你的话，
+[Speaker 2]: 他是能精准的把这个非洲某部落打鼓的这个推到你面前。
+[Speaker 2]: 你这时候才发现，
+[Speaker 2]: 原来如此的喜欢这个非洲部落嗯节奏。
+[Speaker 1]: 这个东西对脑神经来讲，
+[Speaker 1]: 我们讲过脑神经系列嘛，
+[Speaker 1]: 它是一个通行的规律。
+[Speaker 1]: 比如说你喜欢一个快快快慢，
+[Speaker 1]: 快快快慢，
+[Speaker 1]: 你就喜欢这节奏，
+[Speaker 1]: 然后他就给你推一个快快快慢快快快慢的节奏的音乐，
+[Speaker 1]: 他就猜你喜欢，
+[Speaker 1]: 这是可以通的。
+[Speaker 1]: 因为脑神经就这一点刺激，
+[Speaker 0]: 就人家大脑就这样。
+[Speaker 2]: 对对，
+[Speaker 1]: 很容易。
+[Speaker 1]: 每次那个节奏，
+[Speaker 1]: 他只是快慢不一样。
+[Speaker 1]: 但是呢他只要掌握了你的节奏，
+[Speaker 1]: 他就可以给你推你喜欢偏好的一种音乐，
+[Speaker 1]: 你喜欢偏好的一种电影，
+[Speaker 1]: 你喜欢偏好的一种小说，
+[Speaker 1]: 他就给找你一大堆猜。
+[Speaker 1]: 你喜欢这一点都不难。
+[Speaker 0]: 对于这样的未来，
+[Speaker 0]: 我不知道是应该感到期待，
+[Speaker 0]: 还是感到惊悚，
+[Speaker 1]: 除非你喜欢那种很意外的刺激，
+[Speaker 1]: 那对你来讲也是一种你要的快乐。
+[Speaker 1]: 对，
+[Speaker 1]:  OKAI 可以帮你给你做到，
+[Speaker 0]: 现在只是时间问题是吗？
+[Speaker 1]: 我觉得很快了吧，
+[Speaker 1]: 很快乐。
+[Speaker 1]: 是的，
+[Speaker 2]: 就是咱们不是昨天还说吗？
+[Speaker 2]:  cloud 新出，
+[Speaker 2]: 那模型都败表了，
+[Speaker 0]: 那次是什么概念？
+[Speaker 2]: 就是人类之前去测 AI 模型，
+[Speaker 2]: 它到底有多聪明嘛，
+[Speaker 2]: 然后他出了一堆的题啊，
+[Speaker 2]: 然后这堆的题里边呢分组的有些容易有些难，
+[Speaker 2]: 然后最难。
+[Speaker 2]: 这一组题呢是人类啊工作十六个小时能解出来的。
+[Speaker 2]: 然后看看 AI 有多少解出这个题来，
+[Speaker 2]: 新出这个 methods 已经百分之百解出了，
+[Speaker 2]: 已经测不出出来的极极限了。
+[Speaker 2]: 类很难在发明一个比如人类需要四十八小时才能解的一个问题，
+[Speaker 2]: 或者这个没意义了，
+[Speaker 2]: 已经就他已经超过了人类作为一个裁判能给他出的一个最难的问题的时候，
+[Speaker 2]: 人类就无法判断它了。
+[Speaker 1]: 这个我要给你叠个假啊，
+[Speaker 1]: 就是这一篇文章我也仔细读了，
+[Speaker 1]: 他有吹牛嫌疑，
+[Speaker 1]: 但是变得很厉害了，
+[Speaker 1]: 这的确是真的，
+[Speaker 0]: 已经变得比人类更厉害。
+[Speaker 0]: 大家都知道这个时间问题，
+[Speaker 1]: 某个角度比人类厉害。
+[Speaker 2]: 当然这东西现在没公开啊，
+[Speaker 2]: 就是仅在少数的大公司，
+[Speaker 2]: 还有美国的一些官方机构会让你们焦虑。
+[Speaker 0]: 不不止说这个模型型是是整个 AI，
+[Speaker 2]: 最早我是焦虑的。
+[Speaker 2]: 咱们有一说一啊，
+[Speaker 2]: 因为我用 AI 最早是二三年开始用那个图像生成的这一块的 AI 的模型啊，
+[Speaker 2]: 去跑一些训练啊什么的。
+[Speaker 2]: 那时候觉得这个东西很强，
+[Speaker 2]: 但是它非常非常不完善。
+[Speaker 2]: 我什么时候焦虑的呢？
+[Speaker 2]: 其实就是这一波，
+[Speaker 2]: 包括 codex 出来，
+[Speaker 2]: 包括 clck cold。
+[Speaker 2]: 今年过年前后对今年过年前后这些东西包括龙虾出来以后焦虑了，
+[Speaker 2]: 就觉得这有有点快啊。
+[Speaker 2]: 我不知道我能不能赶得上，
+[Speaker 2]: 或者我不知道这东西到底现在有多强，
+[Speaker 2]: 这个是让我焦虑的点。
+[Speaker 2]: 但是我这个干了一百亿 talk 以后，
+[Speaker 2]: 我不焦虑了，
+[Speaker 2]: 我知道了这个东西能干嘛？
+[Speaker 2]: 我也知道了，
+[Speaker 2]: 我能用它干嘛？
+[Speaker 2]: 我也知道这个东西，
+[Speaker 0]: 未来即便它迭代，
+[Speaker 0]: 你还能干嘛？
+[Speaker 1]: 他一上来说那个第一个观点，
+[Speaker 1]: 我是特别认同的。
+[Speaker 1]: 有一些你原本觉得没价值、
+[Speaker 1]: 不值得干，
+[Speaker 1]: 或者你想都不敢想的，
+[Speaker 1]: 根本就觉得不可能的事儿，
+[Speaker 1]: 它变成可能了。
+[Speaker 1]: 这件事打开的天窗，
+[Speaker 1]: 就像我刚才跟你说说的，
+[Speaker 1]: 你帮板板挣挣几倍的钱，
+[Speaker 1]: 这件事是开源的事儿，
+[Speaker 1]: 我认为是被打开了。
+[Speaker 1]: 你如果有个头脑，
+[Speaker 1]: 你就不焦虑虑，
+[Speaker 0]: 而且你甚至可以在你现在就职的公司里先验证。
+[Speaker 0]: 如果你发现哎我这个能力很可以出去单干，
+[Speaker 0]: 一点问题也没有。
+[Speaker 2]: 还有一个不焦虑的原因，
+[Speaker 2]: 就是我觉得这个东西没那么容易用好他这个门槛。
+[Speaker 2]: 其实你从入门，
+[Speaker 2]: 比如说你现在大家把这个分成这个很多层级嘛，
+[Speaker 2]: 那天咱们不是看了一个文章，
+[Speaker 2]: 对，
+[Speaker 2]: 把这个 AI 十个层级，
+[Speaker 2]: 对吧？
+[Speaker 2]: 你最早什么拿它当一 chat box，
+[Speaker 2]: 你跟他就就聊天啊什么的一点。
+[Speaker 2]: 往下。
+[Speaker 0]: 是的，
+[Speaker 0]: 有十个层级，
+[Speaker 0]: 比如说偶尔试一试的尝鲜师，
+[Speaker 0]: 那补充背景给 AI 立规矩的驯化师。
+[Speaker 0]: 那再往后呢是开始用 agent ts 召召唤，
+[Speaker 0]: 那到了最后第十级就变成了带着 AI 大军工作的艺人军团。
+[Speaker 0]: 嗯，
+[Speaker 2]: 它其实每一个层级这个幅度是很大的，
+[Speaker 2]: 就是你知道你在哪一级？
+[Speaker 2]: 你知道这个社会需要你，
+[Speaker 2]: 你知道你能用它创造更大的价值，
+[Speaker 2]: 然后这个价值是经过一个放大的。
+[Speaker 2]: 就我把 AI 这么看啊，
+[Speaker 2]: 就是我自己是个因子，
+[Speaker 2]: 我的能力是个因子，
+[Speaker 2]:  AI 的能力呢是个系数。
+[Speaker 2]:  AI 乘以我的这个因子呢得到了我的能力总分，
+[Speaker 2]: 然后呢这个系数本身会增长。
+[Speaker 2]: 就我那天给你举的例子嘛，
+[Speaker 2]: 就是爱因斯坦智商一百八，
+[Speaker 2]: 对吧？
+[Speaker 2]: 波尔智商一百九，
+[Speaker 2]: 俩人先天差个十，
+[Speaker 2]: 他俩不是能聊天，
+[Speaker 2]: 但是有了 AI 乘了十好，
+[Speaker 2]: 他俩人就差了一百的智商。
+[Speaker 2]: 可能在波尔的眼里看爱因斯坦就跟虫子一样，
+[Speaker 2]: 对吧？
+[Speaker 2]: 我智商比高了一百，
+[Speaker 2]: 这个差别就很大了。
+[Speaker 1]: 所以为什么说那个天花板是极其难突破的？
+[Speaker 1]: 就是说百分之九十九的人有可能这个底线都拉上去了，
+[Speaker 1]: 普通的游戏美术都可以做出一个完整的游戏来了。
+[Speaker 1]: 但你知道最高的那个天花板在哪吗？
+[Speaker 1]: 就是像陈静汉这个级别的人像小岛秀夫这个级别的人。
+[Speaker 1]: 如果他能用龙虾干出来那个级别的游戏，
+[Speaker 1]: 那请问我是能自己一个人干了一个游戏，
+[Speaker 1]: 我干游游戏谁玩啊？
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以呢真正要焦虑的应该就是自认为比别人还高一等的人才，
+[Speaker 1]: 反而应该焦虑。
+[Speaker 1]: 普通人反而就不需要焦虑。
+[Speaker 1]: 因为有最好的东西，
+[Speaker 1]: 将来你可以拿来免费用。
+[Speaker 1]: 你就跟那个原来还高高在上的，
+[Speaker 1]: 觉得还比你高百分之二十高百分之三十的人就全拉平了。
+[Speaker 1]: 你们都没什么了不起，
+[Speaker 1]: 你不也得用那个一百八那个嘛，
+[Speaker 1]: 我也用那一百八那个，
+[Speaker 1]: 咱俩没任何区别，
+[Speaker 1]: 就是真正你想变成那个一百八的人，
+[Speaker 1]: 对不起，
+[Speaker 1]: 你也不行，
+[Speaker 1]: 我也不行，
+[Speaker 1]: 咱俩都平，
+[Speaker 1]: 谁也别焦虑。
+[Speaker 1]: 真到那时候咱们大家就是很开心，
+[Speaker 1]: 大家一起开心，
+[Speaker 1]: 每个人都能用一百八的。
+[Speaker 0]: 你让那一百八的夫妇干活，
+[Speaker 0]: 让小老秀福给我们狂写游戏。
+[Speaker 1]: 对，
+[Speaker 1]: 所以大家就享受他们带来最优秀的作品。
+[Speaker 1]: 原来他们要想做一个游戏三千万美金，
+[Speaker 1]: 他得找多少人给他投资啊。
+[Speaker 1]: 对，
+[Speaker 1]: 但是将来这些都不需要了。
+[Speaker 1]: 如果他真的这些高级的 AI 会用了，
+[Speaker 1]: 不需要三千万美金。
+[Speaker 1]: 他在家就做出来了，
+[Speaker 0]: 那你还得回到你前面的话题，
+[Speaker 0]: 他还得跟人打交道。
+[Speaker 0]: 这部分软的技能他还是得会一些。
+[Speaker 1]: 但这条路如果全都是通的呢，
+[Speaker 1]: 他如果真的有最强的创造力，
+[Speaker 1]: 你去拿到他的作品的难度又是零，
+[Speaker 1]: 那他就不需要跟这个世界打交道。
+[Speaker 1]: 他只需要把最好的作品在他天命的驱使下创造出来。
+[Speaker 1]: 其实每个人都享受到更多的天才的优秀作品，
+[Speaker 1]: 难道世界不是变得更美好吗？
+[Speaker 0]: 想到这一步的时候，
+[Speaker 0]: 你就不焦虑了吗？
+[Speaker 1]: 那还焦虑啥呢？
+[Speaker 1]: 难道你不应该享受人生吗？
+[Speaker 1]: 你应该每天都苦哈哈去工作啊，
+[Speaker 1]: 我觉得这不合理啊，
+[Speaker 2]: 工作本身两个意义啊啊，
+[Speaker 1]: 对对对，
+[Speaker 1]: 也有天命就想工作。
+[Speaker 1]: 这个是比如说旅性这样的人，
+[Speaker 2]: 也不是就是人总归要去做一些事，
+[Speaker 2]: 获得成就感嘛。
+[Speaker 2]: 一方面你是要娱乐自己去消费，
+[Speaker 2]: 另一方面还是得要获得一些成就感。
+[Speaker 2]: 然后工作做有一方面呢，
+[Speaker 2]: 是能够给你这种使命感啊，
+[Speaker 2]: 意义啊、
+[Speaker 2]: 目标性啊，
+[Speaker 0]: 因为它是个输出型的事情，
+[Speaker 2]: 输出型的你比如你自己喜欢做模型，
+[Speaker 2]: 对吧？
+[Speaker 2]: 也能给你同样的这种成就感也是一样的。
+[Speaker 2]: 有个什么小的爱好啊，
+[Speaker 2]: 都是能够提供这种使命感啊、
+[Speaker 2]: 目标感啊、
+[Speaker 2]: 成就感啊、
+[Speaker 2]: 满足感，
+[Speaker 2]: 这也是人的一个另外一个意义嘛。
+[Speaker 2]: 工作其实某些程度上也能满足这个另外一个工作，
+[Speaker 2]: 实际上是你的一个社会身份的一个构成。
+[Speaker 2]: 就你是谁？
+[Speaker 2]: 如果说大家都是更家躺平，
+[Speaker 2]: 然后每天享受，
+[Speaker 2]: 那你其实没有社会身份，
+[Speaker 1]: 我不完全同意，
+[Speaker 1]: 因为有一本书就专门解构这个，
+[Speaker 1]: 他说这个是被社会异化了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我举个例子啊，
+[Speaker 1]: 你比如说你去 blless con，
+[Speaker 1]: 就是那个暴雪嘉年华，
+[Speaker 1]: 你到那儿去，
+[Speaker 1]: 你会问 what do you do 吗？
+[Speaker 1]: 你是干嘛的吗？
+[Speaker 0]:  what do you play？
+[Speaker 1]: 对你玩这个游戏玩了第几集，
+[Speaker 1]: 你在哪个真玩玩的是什么？
+[Speaker 1]: 哎，
+[Speaker 1]: 大家交流是这个不行吗？
+[Speaker 1]: 咱非得交流说你是干什么职业的，
+[Speaker 1]: 我是干什么工作的，
+[Speaker 1]: 一定要用职业去定义一个人吗，
+[Speaker 0]: 这是一半。
+[Speaker 0]: 另外一半是大家的焦虑，
+[Speaker 0]: 是你得获得一些生存的资源。
+[Speaker 1]: 这个就是我刚才说的，
+[Speaker 1]: 你不管是在一份公司里打工啊，
+[Speaker 1]: 还是你是老板，
+[Speaker 1]: 还是你自己创业啊，
+[Speaker 1]: 你更多的要想开源的事儿，
+[Speaker 1]: 开源的事儿指的是多赚钱的事儿，
+[Speaker 1]: 多做业务，
+[Speaker 1]: 多赚钱，
+[Speaker 1]: 多开拓。
+[Speaker 1]: 以前不敢想的事，
+[Speaker 1]: 现在用 AI 敢做了。
+[Speaker 1]: 他举那例子不就是嘛，
+[Speaker 1]: 我一销售，
+[Speaker 1]: 我现在没有程序员帮忙，
+[Speaker 1]: 我就能搓出来一个销售工具。
+[Speaker 1]: 那这就是以前敢想不敢干的事儿，
+[Speaker 1]: 你干不了啊，
+[Speaker 1]: 现在都能干了，
+[Speaker 1]: 胆子大一点，
+[Speaker 1]: 脑洞大差点就我还是说那八个字儿嘛。
+[Speaker 0]: 而且我会觉得说有的时候社交媒体上大家老是看到很多很负面很悲观的新闻。
+[Speaker 0]: 但你深入的了解到一些一线的实践，
+[Speaker 0]: 你会发现其实各个行业的人，
+[Speaker 0]: 大家都在想办法找自己的出路。
+[Speaker 0]: 就比如我们录制之前，
+[Speaker 0]: 我在跟旅行聊嘛，
+[Speaker 0]: 就是讲他之前的那个游戏外包公司，
+[Speaker 0]: 我假游游戏外包现多多惨啊，
+[Speaker 0]: 那不就得没工作了，
+[Speaker 0]: 结果人家已经在去做 AI 慢剧了，
+[Speaker 0]: 还拿了很好的投资。
+[Speaker 0]: 对，
+[Speaker 2]: 有对，
+[Speaker 2]: 包括就最近很多年轻的朋友们啊，
+[Speaker 2]: 天天听我叨叨 AI 也烦，
+[Speaker 2]: 甚至还跟我说你少说点 AI 的事儿，
+[Speaker 2]: 大家听烦了，
+[Speaker 2]: 本来就很焦虑了。
+[Speaker 2]: 然后你还天天说 AI 多强多强多强，
+[Speaker 2]: 只能给大家制造焦虑。
+[Speaker 2]: 我觉得这个问题我这么看啊，
+[Speaker 2]: 就是我不是希望说大家讲 AI，
+[Speaker 2]: 然后大家听了很多，
+[Speaker 2]: 哎呀，
+[Speaker 2]: 这个很烦，
+[Speaker 2]: 而是 AI 这个事你仔细想想，
+[Speaker 2]: 他抗拒不了，
+[Speaker 2]: 就是 AI 发展到现在，
+[Speaker 0]: 然后滚滚不了。
+[Speaker 0]: 对对，
+[Speaker 1]: 不能掩掩耳铃铃，
+[Speaker 1]: 你把把耳朵听堵上，
+[Speaker 1]: 难道这铃没响吗？
+[Speaker 2]: 就他不可能看算了，
+[Speaker 2]: 就比如说人类发明了原子能，
+[Speaker 2]: 这玩意儿能造核弹，
+[Speaker 2]: 这事不可能看错了，
+[Speaker 2]: 其实它不好，
+[Speaker 2]: 那怎么办呢？
+[Speaker 2]: 那我们还是得去正视它的存在嘛，
+[Speaker 2]: 允许它现在在人类的这个历史切片里边出现了未来，
+[Speaker 2]: 我们承认他会越来越厉害，
+[Speaker 2]: 参与更多的一个角色，
+[Speaker 2]: 对吧？
+[Speaker 2]: 嗯，
+[Speaker 2]: 那这个时候我们应该如何适应它？
+[Speaker 2]: 所以我觉得不是说多说少问题，
+[Speaker 2]: 而是说自己心态如何去调整，
+[Speaker 2]: 你怎么去看待它。
+[Speaker 0]: 我感觉这个链路是这样的，
+[Speaker 0]: 就是首先要认识到我们不可能回到没有 AI 的时代，
+[Speaker 0]: 他这个时但是已经在到来的。
+[Speaker 0]: 第二个就是你先用起来把它跟你的工作和生活先结合起来。
+[Speaker 0]: 因为你的工作和生活一定有些卡点，
+[Speaker 0]: 其实是它能够帮你很好的解决的。
+[Speaker 0]: 那个时候你就会说，
+[Speaker 0]: 哎，
+[Speaker 0]: 这玩意儿我用着也挺好使，
+[Speaker 0]: 他是帮助我工作和生活的，
+[Speaker 0]: 这样你的新房会降下来，
+[Speaker 0]: 你会更愿意去用。
+[Speaker 0]: 那之后你其实是还可以打开各种各样的可能性。
+[Speaker 0]: 就现在可能很多人还是卡在第一步。
+[Speaker 0]: 比如说可能一个图书的编辑，
+[Speaker 0]: 他就觉得说这 AI 改的哪有我手工改的好，
+[Speaker 0]: 或者是一个餐厅的服不远。
+[Speaker 0]: 他觉得这 AI 跟我就没关系啊，
+[Speaker 0]: 我也用不上，
+[Speaker 0]: 顶多跟豆包聊聊天，
+[Speaker 1]: 跟豆包聊天，
+[Speaker 1]: 你也能获得快乐。
+[Speaker 1]: 你为什么不去享受呢？
+[Speaker 1]: 这就是 AI 给你带来的快乐。
+[Speaker 1]: 你知道豆包一天亏多少钱嘛？
+[Speaker 1]: 现在说要收费了，
+[Speaker 1]: 因为亏太多钱了，
+[Speaker 1]: 内存也涨价，
+[Speaker 1]: 显卡也不好买。
+[Speaker 1]: 人家就是活雷锋，
+[Speaker 1]: 给你这么多情感价值，
+[Speaker 1]: 然后你知道吗？
+[Speaker 1]: 豆包，
+[Speaker 1]: 我这有一个地方用的特别爽，
+[Speaker 1]: 出去玩的时候你不是参观哪儿博物馆，
+[Speaker 1]: 你直接打开豆包是频，
+[Speaker 1]: 你让他讲这幅画这个雕塑，
+[Speaker 1]: 我给你讲的好着呢。
+[Speaker 0]: 哎，
+[Speaker 0]: 我也是用这个方法逛美术馆，
+[Speaker 0]: 他比你找任何一个导游要好的多，
+[Speaker 0]: 而且你还可以延伸问他，
+[Speaker 0]: 就是这个画家。
+[Speaker 0]: 我之前看过另外一幅他们这个时期的区别，
+[Speaker 0]: 创作特点，
+[Speaker 0]: 还有哪幅？
+[Speaker 0]: 你值得我看，
+[Speaker 1]: 这不是 AI 带来的幸福吗？
+[Speaker 1]: 你自己会用啊。
+[Speaker 1]: 前段时间我们家小朋友在那个学校里，
+[Speaker 1]: 他有一个那个演讲，
+[Speaker 1]: 他要自己画一张画画儿，
+[Speaker 1]: 是他自己画的。
+[Speaker 1]: 然后他演讲的时候，
+[Speaker 1]: 他叫 APT 投影出来嘛，
+[Speaker 1]: 我就拿那个吉梦帮他做成了视频，
+[Speaker 1]: 把他那个画给做动了。
+[Speaker 1]: 然后他就觉得特别拽，
+[Speaker 1]: 他说这个我爸爸帮我做的好玩吧，
+[Speaker 1]: 他会说话了。
+[Speaker 1]: 但是画是人小孩自己画的，
+[Speaker 1]: 我没有替代他的手，
+[Speaker 1]: 替代他的脑，
+[Speaker 1]: 我只是给他往上附了一点能。
+[Speaker 1]: 但是这个东西很好玩，
+[Speaker 1]: 你不觉得你把这个东西只要用起来，
+[Speaker 1]: 事事处处都能给你带来欢乐吗？
+[Speaker 1]: 这是好东西呀，
+[Speaker 1]: 生活中所有的地方都给他用起来。
+[Speaker 0]: 所以像你的小孩在学校里，
+[Speaker 0]: 大家讨论 AI 也是一种比较积极的态度嘛。
+[Speaker 0]: 因为我其实特别好奇现在家长的心态，
+[Speaker 0]: 尤其是像徐老师，
+[Speaker 0]: 你这样的家长，
+[Speaker 0]: 你已经知道 AI 发展到这个程度了。
+[Speaker 0]: 但是比如你的小朋友在学校里还得学那些课本知识，
+[Speaker 0]: 就不会觉得有点荒诞感嘛。
+[Speaker 0]: 就这些知识，
+[Speaker 0]: 明明 AI 都已经知道了，
+[Speaker 0]: 他们可以很好的用起来，
+[Speaker 0]: 但还得经过这样的考试。
+[Speaker 1]: 这个我有不同的观点，
+[Speaker 1]: 你比如说 AI 他可以记住全世界所有的东西。
+[Speaker 1]: 那 AI 没出现之前，
+[Speaker 1]: 互联网上也可以搜索所有的东西，
+[Speaker 1]: 你一搜他都告诉你结果，
+[Speaker 1]: 难道你就所有知识都不需要记忆了吗？
+[Speaker 1]: 其实不对，
+[Speaker 1]: 因为创造力的根儿是在于你把很多很多信息打乱重新组合，
+[Speaker 1]: 创造力都是组合。
+[Speaker 1]: 比如说有一个科学家就做过一实验，
+[Speaker 1]: 他让你画出来一个没有任何地球上生物特征的外星人。
+[Speaker 1]: 你画一个，
+[Speaker 1]: 你发现你画不出来，
+[Speaker 1]: 你只能是什么章鱼的爪子呀，
+[Speaker 1]: 什么仙人掌的头啊，
+[Speaker 1]: 你要不就是鱼的尾巴，
+[Speaker 1]: 你没有办法想象出来一个你没见过的东西。
+[Speaker 1]: 那你想想你如果脑子里什么都没有，
+[Speaker 1]: 你怎么做创造，
+[Speaker 1]: 这才是核心问题。
+[Speaker 1]: 而人最难被 AII 代的，
+[Speaker 1]: 其实就是这这有 taste e 的创造。
+[Speaker 1]: 你知道什么样的组合拿出来好玩。
+[Speaker 1]:  AI 可以给你一千种一万种组合，
+[Speaker 1]: 但他不知道哪个好玩。
+[Speaker 0]: 所以人脑这个大模型，
+[Speaker 0]: 它就需要时间和重复，
+[Speaker 0]: 来把这些知识夯实在你的脑子里。
+[Speaker 1]: 有记忆，
+[Speaker 1]: 你脑这里不能是空的。
+[Speaker 2]: 对，
+[Speaker 2]: 还有一个其实也是训练了你的逻辑性思维，
+[Speaker 2]: 包括你跟 AI 的交互，
+[Speaker 2]: 它结构性的表达，
+[Speaker 2]: 你至少得有个逻辑思维啊，
+[Speaker 2]: 你没上，
+[Speaker 2]: 我觉得你很难形成一个逻辑性思维。
+[Speaker 1]:  AI 都看不懂，
+[Speaker 1]: 你说的是没错。
+[Speaker 0]: 这个我之前会有一个不一样的观点，
+[Speaker 0]: 我之前和心理学者闫一佳老师聊的那些正好也在聊沟通的问题。
+[Speaker 0]: 我就在说我有个担心，
+[Speaker 0]: 就是因为现在很多时候你跟 AI 说话，
+[Speaker 0]: 你哪怕讲话不太有逻辑，
+[Speaker 0]:  AI 他也能理解。
+[Speaker 0]: 因为 AI 是提取抽取你的关键信息嘛。
+[Speaker 0]: 我就很担心说，
+[Speaker 0]: 长此以往，
+[Speaker 0]: 人总是这样跟 AI 交互，
+[Speaker 0]: 那会不会他和人之间沟通的能力都会退化？
+[Speaker 0]: 那以后人与人之间怎么打交道？
+[Speaker 1]: 我跟你讲不是这样的，
+[Speaker 1]: 我是你会会发现你跟他多沟通，
+[Speaker 1]: 几轮之后就你的逻辑性只要不够强。
+[Speaker 1]: 你前面说过要走 a 后面，
+[Speaker 1]: 你又说成你要走 b 最后 AI 问你是不是 c 呀，
+[Speaker 1]: 你说是，
+[Speaker 1]: 然后你自己都不知道你真的想要什么。
+[Speaker 1]: 你是觉得 AI 好像听懂了，
+[Speaker 1]: 但是他执行出来的是一个乱七八糟的糊涂账。
+[Speaker 2]: 而且同时我还有感受，
+[Speaker 2]: 就是我听别人说话，
+[Speaker 2]: 尤其是工作中咱们严肃场合啊，
+[Speaker 2]: 我发现很多人的逻辑是不通的。
+[Speaker 1]: 我跟你讲，
+[Speaker 1]: 我有一个事深深的感受。
+[Speaker 1]: 我现在得亏退休了，
+[Speaker 1]: 我如果现在还在公司当领导，
+[Speaker 1]: 气死了，
+[Speaker 1]: 我的下属会被我骂死。
+[Speaker 1]: 肯定因为我现在骂 AI 一点障碍都没有，
+[Speaker 1]: 而且我骂的越狠，
+[Speaker 1]: 他干的越努力，
+[Speaker 1]: 你知道吗？
+[Speaker 1]: 就他在反向激励，
+[Speaker 1]: 我骂他狠一点，
+[Speaker 1]: 那我如果真的再去上班，
+[Speaker 1]: 我骂我的下属，
+[Speaker 1]: 那我下属真的早被投诉了，
+[Speaker 0]: 然后你就挂在网上。
+[Speaker 0]: 对呀，
+[Speaker 0]: 然后你就身败名利，
+[Speaker 1]: 我现在不管公司了，
+[Speaker 1]: 我跟你讲啊，
+[Speaker 0]: 再骂 AI 真的有力，
+[Speaker 2]: 你知道吗？
+[Speaker 2]: 但是 AI 有一个负面的一个反馈，
+[Speaker 2]: 就是他的针对化的强化训练。
+[Speaker 2]: 说白了就是他得知道人喜欢什么，
+[Speaker 2]: 他生成什么东西，
+[Speaker 2]: 对吧？
+[Speaker 2]: 这是他训练里面埋下的根儿。
+[Speaker 2]: 其中有条条应就就骂狠狠，
+[Speaker 2]: 他，
+[Speaker 2]: 会应击跟猫似的。
+[Speaker 2]: 对他本来是比如说从 a 做到 b 结果他没做好，
+[Speaker 2]: 然后你骂他，
+[Speaker 2]: 你王八蛋，
+[Speaker 2]: 你坏人你就傻，
+[Speaker 2]: 他就直接给你干到 z 了，
+[Speaker 2]: 直接一气给他干到 z，
+[Speaker 2]: 但是中间全是错，
+[Speaker 1]: 他容易这样我也发现了，
+[Speaker 1]: 就是我经常把我的 AI 骂死，
+[Speaker 1]: 就是他真的死死掉，
+[Speaker 1]: 他不回复了啊，
+[Speaker 1]: 我得重启啊。
+[Speaker 1]: 重启之后呢，
+[Speaker 1]: 他失忆了，
+[Speaker 1]: 就我以前骂他的东西，
+[Speaker 1]: 他全忘了我还得重新骂一遍，
+[Speaker 0]: 你就没有想过礼貌没没用啊，
+[Speaker 1]: 这真傻，
+[Speaker 1]: 他不是假傻，
+[Speaker 1]: 他每次都是最后一公里，
+[Speaker 1]: 他老犯错，
+[Speaker 1]: 百分之九十九的时间花在最后那百分之一上，
+[Speaker 1]: 就这个是让你真的火大我跟你讲，
+[Speaker 1]: 时间长了，
+[Speaker 0]: 你真的忍不住徐老师的一些使用烦恼。
+[Speaker 0]: 这并不证明徐老师是个脾气暴躁的人是被他慢慢的训的越来越爆，
+[Speaker 1]: 这个真的是不好。
+[Speaker 1]: 我觉得这个就需要反省。
+[Speaker 1]: 那像这种由于你不礼貌的对 AI，
+[Speaker 1]: 导致 AI 把你变成了一个不礼貌的人。
+[Speaker 1]: 当时不是那个赛姆奥特曼说过这话吗？
+[Speaker 1]: 说你别跟 AI 说，
+[Speaker 1]: 谢谢，
+[Speaker 1]: 因为那都是 token 啊。
+[Speaker 1]: 但是后来有人就反驳这观点，
+[Speaker 1]: 说你这样会把我们人类训练成不礼貌的人我觉得他这个说的特别有道理，
+[Speaker 1]: 所以现在我也不骂他了，
+[Speaker 1]: 因为骂了也没用，
+[Speaker 1]: 他骂了他能提升。
+[Speaker 1]: 没错，
+[Speaker 1]: 就是你刚才说的骂的有用，
+[Speaker 1]: 我说有用，
+[Speaker 1]: 但是到最后一公里仍然过不去，
+[Speaker 1]: 你再怎么骂他就死了，
+[Speaker 2]: 就砍一刀嘛，
+[Speaker 2]: 不停的让你砍一刀，
+[Speaker 0]: 然后你就急眼了。
+[Speaker 1]: 所以到最后把你训练成了一个急眼的人。
+[Speaker 0]: 对啊，
+[Speaker 0]: 那这样的人肯定不是你想成为的人，
+[Speaker 0]: 对我觉得回到一些更朴实的对大家有用的话题。
+[Speaker 0]: 毕竟我们快聊到尾声了嘛，
+[Speaker 0]: 就是在这样的一个变化非常迅速的这样的一个时代，
+[Speaker 0]: 对于普通人来说，
+[Speaker 0]: 有哪些是大家可以抓得住的去培养的能力。
+[Speaker 0]: 我觉得我们前面讲的一个沟通能力，
+[Speaker 0]: 以及把 AI 用起来的这样的一个能力，
+[Speaker 0]: 就是行动能力。
+[Speaker 0]: 还有吗？
+[Speaker 0]: 嗯，
+[Speaker 1]: 对我有几个建议，
+[Speaker 1]: 一个就刚才说的跟肉身多打交道，
+[Speaker 1]: 就是肉身跟肉身之间的这个沟通，
+[Speaker 1]: 首先要把这个练起来。
+[Speaker 1]: 第二个就是那个 taste，
+[Speaker 1]: 就你得会审美这个东西，
+[Speaker 1]: 对你未来享受人生也是有帮助的。
+[Speaker 1]: 对于你享受你自己变幸福这件事也是有用的。
+[Speaker 1]: 所以呢我觉得就是跟人打交道的能力，
+[Speaker 1]: 体会美的能力，
+[Speaker 1]: 审美的能力，
+[Speaker 1]: 这些都是永远都有效的。
+[Speaker 1]: 另外一个呢，
+[Speaker 1]: 就是我刚才说说的，
+[Speaker 1]: 甭管你现在是在上学，
+[Speaker 1]: 还是你在上班，
+[Speaker 1]: 你能不能做一点实实际际能够提高业务收入的一些具体的事儿。
+[Speaker 1]: 就比如说你现在就在上学，
+[Speaker 1]: 但你想未来进入哪个行业，
+[Speaker 1]: 工作多少有一点想法吧。
+[Speaker 1]: 你就假设你是那个行业里现在的一个员工，
+[Speaker 1]: 你就直接在家用龙虾先干你现在上学的业余时间就可以试着干。
+[Speaker 1]: 我就把那个行业里的某一个问题就给解决了。
+[Speaker 1]: 有没有可能真的有可能的完全可以，
+[Speaker 1]: 一个高中生就能干，
+[Speaker 1]: 不需要非得大学毕业，
+[Speaker 1]: 不需要非得在公司里打过工才开始琢磨这事儿。
+[Speaker 1]: 不需要，
+[Speaker 1]: 嗯，
+[Speaker 1]: 我觉得如果你真的想上进哈，
+[Speaker 1]: 你走最后这条。
+[Speaker 1]: 如果你想存活生活幸福，
+[Speaker 0]: 你走前两条或者这三条都很应该都走，
+[Speaker 1]: 应该都走，
+[Speaker 1]: 我觉得应该都走。
+[Speaker 1]: 对，
+[Speaker 0]: 其实之前我对审美这个词我会有点担忧。
+[Speaker 0]: 因为我总觉得其实审美它本身是一个有一点点阶级意味的一个词。
+[Speaker 0]: 就是很多时候你要看足够多的好东西，
+[Speaker 0]: 你要品味过足够多的好东西，
+[Speaker 0]: 你才能有这样的审美嘛。
+[Speaker 0]: 但这很多时候是需要有金钱来打底的。
+[Speaker 0]: 但后来我一想，
+[Speaker 0]: 现在是一个 AI 时代，
+[Speaker 0]: 理论上只要你愿意，
+[Speaker 0]: 你其实是可以以非常低的成本了解到很多好的，
+[Speaker 0]: 不管是书籍还是影视还是产品，
+[Speaker 0]: 还是游戏等等等等。
+[Speaker 0]: 嗯，
+[Speaker 1]: 我觉得有些美的东西在大自然它就自然存在，
+[Speaker 1]: 不要钱的太多了。
+[Speaker 1]: 你不需要一个很贵的相机，
+[Speaker 1]: 你可能就是一支铅笔写生，
+[Speaker 1]: 就是一个会听大自然声音的耳朵。
+[Speaker 1]: 很多的。
+[Speaker 0]: 我觉得最后回到了那八个字，
+[Speaker 0]: 就是胆子要大脑洞要大对。
+[Speaker 0]: 也许现在你对 AI 是一个很负面的态度，
+[Speaker 0]: 但不管我们是什么样的态度，
+[Speaker 0]: 我们都阻止不了这个趋势的到来。
+[Speaker 0]: 这也是为什么我会请两位老师今天来聊嘛。
+[Speaker 0]: 而且我觉得聊完我说特别大的一点就是其实不同年龄阶段的人，
+[Speaker 0]: 不同学科的人，
+[Speaker 0]: 你都有自己的长处和短处。
+[Speaker 0]: 在这个时代，
+[Speaker 0]: 并不是说只有这些人人机会会些，
+[Speaker 0]: 人人就没机会了。
+[Speaker 0]: 最重要的就是现在把它起起来，
+[Speaker 0]: 一一个自己的事情先解决一个小痛点开始。
+[Speaker 0]: 哪怕只是帮孩子做一个错题本，
+[Speaker 1]: 对你的终极目标不就是快乐幸福吗？
+[Speaker 1]: 是的，
+[Speaker 1]: 先用起来嘛，
+[Speaker 0]: 对吧？
+[Speaker 0]: 好呀，
+[Speaker 0]: 谢谢老师，
+[Speaker 4]: 谢谢吕行老师，
+[Speaker 0]: 感谢感谢大家，
+[Speaker 1]: 谢谢感谢。
+[Speaker 5]: 嗯，
+[Speaker 5]: 咕嗯嗯，
+[Speaker 4]: 以上就是本期节目的全部内容。
+[Speaker 4]: 如果你觉得这一期节目有收获，
+[Speaker 4]: 有启发，
+[Speaker 4]: 欢迎你把它转发给你关心的亲友，
+[Speaker 4]: 也许会对他有帮助。
+[Speaker 4]: 做这期节目之前，
+[Speaker 4]: 我其实有一点担心，
+[Speaker 4]: 因为 AI 是一个太容易制造焦虑的话题了。
+[Speaker 4]: 尤其当我们聊到工具，
+[Speaker 4]: 工作流 agent 聊到他能做出以前一个团队才能完成的事情时，
+[Speaker 4]: 对很多还没有真正用起来 AI 的朋友来说，
+[Speaker 4]: 可能会有一点点茫然失措，
+[Speaker 4]: 甚至会冒出一个念头。
+[Speaker 4]: 完了我是不是又落后了？
+[Speaker 4]: 嗯，
+[Speaker 4]: 但聊完之后，
+[Speaker 4]: 我反而感觉轻松了很多。
+[Speaker 4]: 因为这期节目里最打动我的，
+[Speaker 4]: 不是 AI 能做出多么厉害的产品，
+[Speaker 4]: 而是两位嘉宾的坦诚和他们的行动力。
+[Speaker 4]: 他们会兴奋，
+[Speaker 4]: 会好奇，
+[Speaker 4]: 会觉得这东西太好玩了，
+[Speaker 4]: 但他们也会沮丧，
+[Speaker 4]: 会在一些看起来很小的问题上反复崩溃，
+[Speaker 4]: 甚至忍不住骂 AI。
+[Speaker 4]: 也正因为这些真实的使用细节被讲出来了，
+[Speaker 4]:  AI 好像从那些铺天盖地的新闻里回到了一个个具体的人身上。
+[Speaker 4]: 以前觉得我肯定做不到的事情，
+[Speaker 4]: 现在不妨尝试搭个雏形。
+[Speaker 4]: 以前听不懂看不明白的问题，
+[Speaker 4]: 现在你可以让 AI 陪你多聊几轮。
+[Speaker 4]: 所以如果这期节目能留下点什么，
+[Speaker 4]: 我希望是一个很小的动作。
+[Speaker 4]: 先试一试，
+[Speaker 4]: 别一开始就想着颠覆自己整个工作流程，
+[Speaker 4]: 也别一开始就要求他很完美，
+[Speaker 4]: 可以从一件特别具体的事情开始。
+[Speaker 4]: 比如一个你生活中的烦恼，
+[Speaker 4]: 或者某个工作上重复枯燥的小流程。
+[Speaker 4]: 当然，
+[Speaker 4]: 试一次不代表马上就会顺利，
+[Speaker 4]: 他会犯错，
+[Speaker 4]: 会误解你的意思，
+[Speaker 4]: 也很可能绕一大圈，
+[Speaker 4]: 还是没解决问题。
+[Speaker 4]: 但也正是在这些真实的使用中，
+[Speaker 4]: 我们才会慢慢的建立判断，
+[Speaker 4]: 知道它哪里有用，
+[Speaker 4]: 哪些只是看起来热闹，
+[Speaker 4]: 以及我们自己真正想要的是什么。
+[Speaker 4]: 如果此时此刻听完这期节目之后的，
+[Speaker 4]: 你也愿意打开一个 AI 工具，
+[Speaker 4]: 试着让他帮你解决工作生活中的一件小事。
+[Speaker 4]: 那这期节目的任务就完成了也非常欢迎你在评论区和我们分享。
+[Speaker 4]: 你最近有没有用 AI 解决过一个工作或生活里的难题，
+[Speaker 4]: 或者你有看到过什么特别好玩、
+[Speaker 4]: 特别实用的 AI 实践吗？
+[Speaker 4]: 哪怕只是一个很小的工具，
+[Speaker 4]: 一个很小的流程，
+[Speaker 4]: 或者是一个让你觉得原来还可以这样的瞬间都欢迎你和我们分享。
+[Speaker 4]: 也许你的经验会给另外一个正在犹豫，
+[Speaker 4]: 怎么开始的听友支一招？
+[Speaker 4]: 最后的最后，
+[Speaker 4]: 请别忘记订阅我们的节目，
+[Speaker 4]: 这会成为我们前进的动力。
+[Speaker 4]: 我是羽白，
+[Speaker 4]: 每周晚八点，
+[Speaker 4]: 我们在知行小酒馆，
+[Speaker 4]: 不见不散。
