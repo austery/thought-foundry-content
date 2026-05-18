@@ -1,0 +1,168 @@
+哦by the way我现在升级了一下它的
+这个系统它现在就可以一边讲一边
+real
+Timereal time这是因为呃Openai最近
+升级了一个模型叫做whisper然后
+啊什么
+呃叫做呃GPT real time whisper
+哦
+然后我我这个还没有推上去
+我这个如果未来推上去以后
+你在设置里面就可以切换它的模型
+那是
+切换到whisper就可以了
+嗯
+但别之前的功能啊还是不变的
+像这个呢好处
+我知道好处多了
+我之前经常会遇到各种问题啊
+然后那下面我想
+我现在跟AI说话
+你去看一下我的life record
+我想把它提炼成一个skill
+我们去ad hoc jobs里面新建一个内容
+比如说叫做intake skill
+然后呢就中间下划线连接
+然后我们去呃看一下
+project scaffolding这个skill
+把它scaffolding一下
+我现在想要一个什么样的效果呢
+就是每天啊
+他不用去管Mac的录音
+我们100%的录音完全来自
+voice Memo所以呢
+他就去用那个r sync那条路就可以了
+然后我需要一个音频处理管线
+把每天比如说每
+他还需要安装一个Cron Tab
+比如说每天晚上12点
+他需要去
+啊做一下ASYNC
+然后调用我们的ASR的pipeline去做啊ASR
+然后得到一个CSV文件
+我们甚至都不用去做speech speaker recognition
+我们就直接把它做成CSV
+然后呢再去呃对它做一个处理
+这个处理怎么做呢
+我们用我们用Codex去做
+就用Codex的那个command line去做就可以了
+啊处理的目标是输出一个文档MD文呃
+输出一个html文件吧
+格式和格式化的html文件
+那这个html可以是由MD编译出来的
+输出这个东西呢
+就说一个是介绍今天发生了什么事
+如果有会议需要分解的话
+也把这个会议需要分解掉
+我们现在live recording里面用的是Gemini
+但是你就都把它转成Codex的prompt
+然后去呃分
+就输出两个东西吧
+一个是html文件
+包括今天的summary和action items
+一个是meetings文件夹
+里面包括呃就我们
+现在这个meeting的输出
+但是它就不是由程序调用Gemini去做
+而是用Codex通过prompt去做
+让它调用东西去做
+啊这个东西呢
+我的想法是把它变成一个AI oriented skill
+它有个readme文件应该介绍
+怎么样去安装这个skill
+然后它的应用场景是
+比如说我有个用户吧
+用户呃他安装的过程就是
+我未来会变成一个public
+GitHub repo然后用户呢就去看
+呃把这个GitHub repo的地址啊
+直接贴给AI
+然后说你去给我装一下
+AI呢就会去看这个readme clone
+安装安装完了以后呢
+它在首先引导用户进行配置
+然后呃比如说什么叫配置啊
+就是首先你要下载那个ASR
+要配置这个Python文Python环境要去
+甚至要去用一个我们我们甚至
+可以附带一个非常简单的呃
+非常简单的M4A啊之类的文件啊让他
+能够把整个跑通这样呢这个配置就算
+配好了然后最好把Codex之类的那个
+命令行啊也都跑通就用一个非常非常
+trivial的例子啊这然后再引导用户去
+把Cron Tab也给配好
+就是AI AI来配
+不是让用户去配啊
+注意整个过程中间也要先备份Cron Tab
+不要把用户的Cron Tab给删了要append
+然后再提醒用户这个电脑不要关机
+而且要启动voice MEMO都要一直开着
+这样它才能正常work
+呃然后呢
+下面就是用Cron Tab去去调
+每天晚上调用一个
+一个Python文件
+然后这个Python文件呢
+因为我们Python environment都搞好了
+它就应该是会自动执行
+执行完了
+它会先调用ASR生成CSV
+然后再去调用Codex
+呃用用它的语法去去做下面的
+工作那codex呢
+我们其实有相关的skill
+你也可以去看
+就总之我想干的
+我就就想把这个呃skill的
+skill的文件夹给它搞好
+然后publish到git Hub上去
+所以呢我们下面可以这么去做
+第一是你去做一下相关的调研
+想想下面要干嘛
+第二件事情是你去把
+这个文件夹给建好
+呃scaffold一下
+包括PRD RFC都照我说的去写
+呃注意整个是都是英文的所以你
+就是这些文档都是要用英文去写
+但是呃就如果我有prompt是中文的
+你要翻译成英文
+但是不要缩写
+呃我们的prompt都是
+都是迭代过的
+里面有很多坑
+是可以避免的
+你就不要去缩写
+就照他的意思直接写
+直接翻译就行了
+然后呢第三个是去真的把这件事情
+这个这个东西啊
+CLI相关的CLI设计好做出来
+test跑通
+相关的working点MD都更新好
+第四步是去
+比方你用呃TTS之类东西啊
+生成一个10秒钟的一个一个
+示例文件也放在里面
+你自己去跑一遍这个
+初始初始的验证流程
+然后第五步是你去把
+readme啊什么东西都写完
+第六步是你去做一下privacy check
+看看有没有security啊
+privacy方面的东西
+呃需要去掉
+第七步是你去initial一个git Hub
+Git Hub repo
+然后呃把master branch给commit一下
+然后push上去
+所以看就这个是他能够完成的
+我现在用Deepseek
+算了我还是用GPT吧
+这个是他能够我觉得比较
+comfortable完成的一个难度
+你为什么要Deepseek
+啊因为我之前三大三大
+运营商都满了
+所以我只能用Deepseek
