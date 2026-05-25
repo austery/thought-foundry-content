@@ -1,0 +1,613 @@
+Sal Khan: Well great
+to have you here, Tekedra.
+Tekedra Mawakana: It's great to be here.
+Thank you so much.
+SK: Well I thought before we start,
+because there was,
+it seemed like, about 40 percent
+of the audience
+who had never had that experience,
+I thought I would share
+some of our family videos
+of our first Waymo ride with my two sons.
+I also have a daughter,
+but we kind of split up into two cars.
+But if we could play the video.
+(Video) Yeah, yeah. Start the ride.
+Yeah, yeah.
+Son 1: Alright, here we go.
+Waymo: Hello from Waymo.
+Son 2: "Hello from ..." oh, my ...
+(Laughter)
+Son 1: This is cool.
+Son 2: Oh, my gosh.
+Waymo: If you're traveling
+with little ones or expecting,
+please see the --
+SK: Are you expecting?
+We're at the beach,
+being driven by a ghost.
+Waymo: Almost there.
+Don't forget your phone, keys or wallet.
+SK: And sons, don't forget your sons.
+(Laughter)
+TM: That's great.
+SK: So Tekedra, what’s next?
+I mean, every time I look at the news,
+I see a new city, I see new models.
+What's new?
+TM: So we are currently
+operating in 11 cities.
+In the US,
+we're providing 500,000 trips per week.
+And we have a goal,
+by the end of the year,
+to be at a million trips per week.
+And just to sort of help people
+wrap their minds around what that means,
+or how to think about it,
+our fleet of vehicles is about
+3,000 cars ...
+The single Waymo driver
+drives over four million miles per week.
+And so the way to think about that
+is a human drives around
+700,000 miles in a lifetime --
+a human who lives
+sort of the full lifetime --
+and so this is like six lifetimes
+of human driving per week.
+And so we're, you know, really excited.
+We're also in four airports right now.
+You can fly in to San Antonio or Phoenix,
+San Francisco or San Jose
+and jump in a Waymo, use the Waymo app.
+It'll take you from point A to point B.
+And we're at this point
+where the technology has moved
+from, “Will it work?”
+and “Can we produce the kind of
+safety outcomes that we care about?”
+to scaling.
+And so we're really excited.
+We are also in London, in Tokyo, [and]
+we've moved from manual driving
+to fully autonomous driving.
+We still have people behind the wheel,
+so we haven’t launched a service yet,
+but those will be our first
+two international markets.
+SK: What’s the rate-limiting factor:
+is it some notion of safety,
+or is it regulation?
+What is it?
+TM: It really depends.
+In certain markets,
+it’s absolutely regulation.
+I think when you think about the evolution
+of this technology as a whole,
+it's been making sure that we could have
+the safety outcomes that we want.
+And all of that is the technology.
+Can the driver produce
+these kinds of outcomes?
+We’ve driven
+over 200 million miles in our time
+and based on 170 million
+miles of data ...
+we are now seeing
+[a] 13x reduction
+in serious-injury-causing
+crashes over a human,
+and the same amount of reduction
+as it relates to injuries
+with pedestrians.
+So we can now say that we are just
+over 10 times safer than a human
+at 170 million miles.
+That’s the kind of
+superhuman performance
+that we were seeking
+in order to then be able
+to scale this technology.
+Now we have markets that are closed,
+markets that are open,
+and we have to do all
+of the work with the cities,
+with the regulators,
+first responders, everyone,
+in order to advance our technology.
+So we're laser-focused on doing that.
+And the reality is, you know, [for]
+citizens, consumers, riders --
+those who’ve been cut out
+of the mobility systems and cities --
+they're demanding and requesting
+and advocating for us to come.
+And so that’s a really
+exciting inflection point.
+SK: It’s worth triply underlining
+what you just said:
+over 10 times safer,
+at least based on the current data.
+We were talking earlier,
+y'all have already driven
+the equivalent of 300 lifetimes --
+TM: Two hundred and forty lifetimes.
+SK: And Waymo has not caused a death,
+knock on wood.
+And there’s an argument:
+roughly 40,000 people
+in America, every year,
+who die of a car accident.
+I think in the world it’s on the order
+of a million every year.
+So in theory, if this became everywhere,
+you could be saving
+900,000 lives globally.
+You could be saving 30,
+35,000 to 36,000 lives
+just in the United States.
+Why isn't there more --
+I know you all are growing maybe as fast,
+but why not roll out as fast as possible?
+What's stopping that from happening?
+TM: I think we are now focused
+on rolling out safely
+as quickly as possible.
+There is an adoption curve
+that has to happen, though, right?
+I think what you’re saying
+is what undergirds our entire company,
+which is: safety is urgent, saving lives.
+If this technology
+can perform at this level,
+then we have a responsibility
+to figure out how to do it.
+Doesn't mean, though,
+that we're not being met with opposition.
+And so we also have the burden
+of making those policymakers,
+who are not welcoming us with open arms
+... to demonstrate
+our safety record.
+So we have a safety hub.
+We make
+all of this data transparent, [and]
+we hand it to researchers
+so they can make their arguments.
+And so it's been really fun lately
+to watch different sectors of the economy
+start to talk about how powerful
+this technology is.
+You know, we have
+Dr. John Slotkin, a neurosurgeon,
+who has just calculated
+that $900 billion to $1.25 trillion
+could be saved
+if our technology was rolled out,
+if every car on the road was a Waymo.
+But this is the problem:
+people are really comfortable
+with the number of people
+who die on the roads.
+40,000 people dead,
+1.2 million globally
+and avoidable in many cases,
+isn't something upon which
+we share collective outrage
+or even moderate discomfort.
+And so we have to introduce
+sort of that reality
+in order for the technology to be viewed
+as solving a problem
+that society currently faces,
+because we've just accepted it.
+Why?
+Because we don't experience these
+as 737s falling out of the sky every day.
+But that's what it would be
+if we actually experienced it
+as mass casualties.
+We experience it, you know,
+[as] this person’s mom,
+my uncle.
+And so because of that,
+we have to remind people
+that the status quo
+is totally unacceptable.
+And it's even more unacceptable
+when you have technology
+that could help address it.
+SK: Yes, definitely.
+(Applause)
+I think it was a couple of months ago --
+you would know it much better --
+I saw a headline, it was
+a very clickbaity headline:
+“Waymo hits an eight-year-old
+outside of a school.”
+And I was like, oh my God.
+And I click on it.
+And then they described what happened,
+and it was outside of a school
+and there was a car parked.
+And if I remember correctly,
+there was a kid,
+he just darted into the street.
+And the Waymo,
+everyone who was observing that
+assumed the kid was going to die
+because he just darted into a street
+where traffic was coming.
+And the Waymo, I don't know
+what the reflexes are,
+you probably know the numbers,
+it just immediately came to a stop,
+and it hit him at like,
+four miles an hour or something.
+Like he literally just fell on his knees,
+brushed it off and looked
+at the Waymo kind of weird.
+Why isn't --
+You know, it's convenient.
+I mean, you feel like
+you're in the future.
+Why is it the safety --
+I mean, it feels like that message,
+Is that something that y'all
+might want to lead with?
+Because that seems like
+such a clear value proposition.
+(Laughter)
+TM: Yeah, I mean, you know,
+I think what you're saying is
+how comfortable are humans
+with this technology being better
+drivers than humans?
+You know, it goes back to the status quo.
+People don't generally view themselves
+or their neighbors or their friends
+or everyone they know as unsafe drivers,
+even when they're distracted,
+drunk, tired and angry.
+We just kind of accept
+that that's the human condition.
+And so I think, you know, in the case
+of the child in Santa Monica ...
+our car
+was traveling 17 miles per hour.
+And we were able to get
+to six miles per hour
+before making contact.
+Obviously, we want to make no contact,
+but we know that was
+superhuman performance
+and as so many of the bystanders
+said after observing it --
+“The child would not have survived” --
+is what we were told.
+We weren't obviously there.
+Those moments actually
+cause entire communities
+to think differently
+about this technology.
+And so, you know,
+to your point: it’s clickbaity.
+And on the other hand,
+it actually demonstrates
+what superhuman performance is.
+SK: Yeah, I couldn't agree more.
+I actually do assume
+most of the people I know
+are not good drivers.
+I'm the biggest backseat driver.
+The economics of the industry,
+y'all are the first mover.
+Obviously there's a Tesla robotaxi.
+They've taken some different approaches.
+You have many other competitors.
+Amazon's coming into it.
+How are you thinking
+about the competitive space?
+What do you think is going
+to happen to the economics of it?
+It's already cost competitive
+with a typical rideshare drive.
+TM: Yeah, I think, you know,
+right now for us,
+we're the only company
+operating at this scale.
+We think it’s really important to just
+stay laser-focused on that.
+You know the way to think about it,
+because everyone’s calling everything
+either autonomous or robotaxi,
+is if you do not need a driver’s license
+to be in the car by yourself,
+which is for many, many people
+who do not have a driver's license,
+it’s their first time ever in life --
+and so those are very special moments --
+but if you do not need a driver’s license
+to be in a Waymo
+to get from point A to point B,
+that is fully autonomous,
+[or] what is referred to, in the
+geeky sense,
+[as] level four and level five.
+If it is anything less than that --
+if you have to be behind the wheel,
+if you have to take over
+when there's a beep,
+when there’s anything --
+that's level three
+or level two or level one.
+And it's really important for people
+to internalize this distinction,
+because what we found back in 2012,
+when we had sort of
+a supercruise capability,
+the Waymo driver was at that ability,
+[was that] we could go from
+ramp to ramp, no problem.
+But when we got to surface streets,
+you needed to pay attention.
+And we told employees this is early days:
+“When we go from ramp to ramp,
+we have a camera in the car” --
+this was just for employees --
+"we need you to pay attention."
+And people immediately
+unplugged from the driving task,
+and they started shaving
+and curling their eyelashes,
+and they were like, picking up things
+from the backseat and plugging things in.
+And so that's when we decided, you know,
+cars have gotten safer
+over the years, right?
+They've gotten airbags and seat belts
+and all of these things
+as a result of a lot of deaths.
+But what hasn't gotten safer is the human.
+And so we decided we're patching
+around the problem.
+Actually, the way to make sure
+that this multi-ton vehicle
+is not as dangerous
+is to actually let humans be humans.
+Be distracted, make your phone call,
+do the thing you want to be doing.
+Let the Waymo driver get you
+from point A to point B.
+And so when you ask me about competition,
+I think there are a host of companies
+that are in the level-two-plus
+and level three.
+They need an attentive human
+after inviting the human
+to be inattentive,
+to be the most attentive at the moment
+when being most attentive
+is least convenient.
+And so to me, that is not --
+that is still patching around the problem.
+Doesn't mean it won't result
+in safer driving when you are attentive,
+but it isn't actually level four autonomy.
+SK: Yeah, yeah.
+I mean, if you extrapolate all of this,
+how much do you all think
+about what the world is going to look
+like just because of this?
+Maybe just because of you all
+and some of the other players,
+10 [to] 15 years, what will it look like?
+You mentioned, if you don't have
+a driver's license,
+could this be a replacement in some ways
+for traditional public transportation,
+how are our roads different,
+are parking lots going to turn
+into parks -- what’s going to happen?
+TM: Yeah, we’ve partnered, from
+the early days, with transit.
+We think it's a really interesting way
+to take some of the congestion
+out of the city,
+have sort of the kiss-and-ride
+from the suburbs in,
+have people take Waymo rides.
+We've gotten really favorable
+sort of reviews in the reports
+that have been done there.
+We've also partnered with people
+who take public transit in LA.
+You know, we've offered discounts
+if you do public transit
+to a Waymo or vice versa.
+You know, we want to think about the ways
+that this could become part of that fabric
+because we think it's important
+that this is also very accessible
+to a lot of people.
+So that's one.
+But when we think
+about 10 to 15 years from now,
+it's really fun to think about parts
+of cities that would get recaptured,
+you know, space right now
+where cars are just sitting all day,
+people are at work,
+the cars are just sitting.
+Most of those parking lots
+in major cities around the world
+are central.
+And so the idea that that
+could get recaptured --
+there are city planners who've reached out
+to us to try to understand,
+you know, do we have to make
+these investments
+for the next 10 or 15 years,
+or can we start imagining a world
+where parking structures could move out,
+parks could come back [and]
+community life could sort of come
+back to the center of a city.
+So that's a vision.
+I mean, who knows, right?
+I think some of this is as the technology
+rolls out more and more,
+I think people's imagination
+actually starts to get sparked
+in ways that are very exciting.
+I said to you before, it's like,
+in some ways people go from, you know,
+is it safe, kind of to your poll, right?
+Is it safe, should I get in?
+OK, I got in.
+It's kind of boring and amazing.
+I really like it.
+Oh, this is kind of not a big deal.
+Now I'm going to be the coolest person
+I know in my friend group.
+And then all of a sudden, it's like, oh,
+what could I do in this thing
+if it got really exciting?
+So I get pitched on like,
+you should make it a yoga studio
+you know, on wheels.
+SK: I'm glad that was what was pitched.
+I thought this was going
+in a whole other direction.
+TM: This is my point,
+is everyone kind of starts to imagine,
+what do I want to do instead of commuting?
+So that's the fun part.
+SK: I had a very G-rated thought
+in a Waymo on the highway on 101,
+and then I remembered.
+But it would have been embarrassing.
+And then I remembered,
+you do have a camera without sound,
+so I didn't even act
+on my G-rated thought.
+(Laughter)
+TM: Just to be clear,
+I do not have a camera.
+SK: No, no, I was just going to do
+some grooming type of thing.
+Jobs.
+I don't see this as something
+that's your responsibility in totality,
+but my uncle drives an Uber in New Orleans
+and I believe that one
+of the largest jobs for men globally
+and not just men -- obviously
+women also drive vehicles --
+but definitely for men is driving
+some form of a vehicle,
+taxis, rideshares,
+long-haul trucking, etc.
+What happens?
+TM: Yeah, I think, you know,
+I'll answer the question in a few ways.
+My uncle was actually a truck driver too,
+and that job was really important to him.
+And for better or for worse,
+it was also a really hard job.
+And so I think there’s an opportunity,
+and it’s going to take
+a really thoughtful approach, right?
+Because, I mean, I'm sitting here
+talking about building
+the world's most trusted driver.
+And so it's a really
+tough place for me to sit in
+and [to] facilitate
+the dialogue around it.
+However, over time,
+what I’m starting to see just from us is
+[that] there are new jobs being created.
+So we have running our fleet,
+we have fleet technicians who we need,
+fleet operators as well as
+smart depot professionals.
+All of that didn't exist ten years ago.
+These are like AV-focused jobs.
+One.
+Two, jobs that exist today,
+everyday drivers,
+we have to hire them too,
+in order to validate our software.
+We have to accumulate miles
+in order to validate our software.
+So we hire drivers constantly,
+or our partners hire drivers
+in different parts of the world.
+We also need people who can,
+you know, take care of our depots,
+build our depots,
+EV charging infrastructure.
+And so what we’ve started to see,
+as we have these partnerships
+of fleet operators,
+is they are driving a lot
+of job growth as we scale.
+We’re just too early
+to be able to really quantify it.
+But in addition to that,
+earlier this year,
+we did a partnership
+with TechForce Foundation
+where we’re helping
+people who are in school to be mechanics,
+to actually become mechanics
+of autonomous vehicles,
+because we think that transition
+doesn't have to pass anyone by.
+We just need to be mindful about it.
+So that's one thing we're doing.
+And then in addition,
+we are doing apprenticeship programs.
+We’re doing one in LA,
+and we’re doing curriculum development
+with [a] community college:
+Bronx Community College,
+City University of New York,
+because again, there's
+an opportunity for people
+to learn the skills that are needed.
+And then I think while there's a lot
+of focus on sort of the jobs,
+there are also small businesses
+in these places where we’re launching
+where because Waymo has launched,
+like in San Francisco, our first year,
+we actually drove $40 million
+of economic development
+for local businesses from out-of-towners
+because we were the number-one destination
+for tourists to try out a Waymo
+and then to go to a coffee shop
+and go to a restaurant.
+And so I think
+this is a long conversation.
+I appreciate you for saying,
+you know, we're one part of it.
+We take this seriously.
+We think it's important
+for us to be focused on it.
+And we're also really excited
+when we get to go
+and talk to folks
+as they move from logistics
+into now AV-adjacent roles
+with their current skill set.
+So it doesn't all require upskilling.
+SK: Well, we could talk for hours
+about this, but thank you so much.
+TM: Thank you.
+(Applause)
