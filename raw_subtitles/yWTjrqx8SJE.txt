@@ -1,0 +1,2589 @@
+Hello everyone
+My name is Mengying
+I'm one of the co-authors of the book
+Growth Data Analysis Playbook  
+Today I'm just so excited and honored
+to have all of you here
+celebrating the launch of the book
+To kick things off
+I want to first give a huge shout out to our host today
+which is Pylon
+This is their office here
+So Pylon is a support platform
+ that is dedicated built for B2B companies
+In my opinion
+it's the best and the only support platform
+that connect all the tools
+you used to talk to the customers
+like you know Discord Slack  chat
+email and everything
+And I have known these three co founders from
+very very long like
+two and a half years ago
+when there were only three people building Pylon
+from a loft near Oracle park
+Now the team has grown to a sixty to seventy people team
+and they just raised their series B
+So if your team is also using 
+any of these kind of Slack Teams and all these tools 
+feel free to talk to them
+because they're gonna give you the best 
+customer support platform ever
+Or if you are considering joining them
+feel free to talk to their folks as well 
+And secondly
+I also want to give a huge shout out to our sponsors today 
+which is Theory ventures and Felicis
+Theory ventures is a venture capital firm 
+based in San Francisco
+They have been invested in ambitious founders
+really turning these ambitious ideas 
+go to market advantage 
+So they have investing a lot of great data infra companies
+like Omni
+Also we have Brian here
+Brian is from Theory ventures
+who is leading their AI over there
+So if you are interest to learn more about Theory ventures
+feel free to talk to him afterwards
+Another one I want to give a huge shout out is Felicis
+Unfortunately
+Nancy from Felicis couldn't make it today
+and Felicis is also a VC firm 
+has been around for almost twenty years
+They have invested in a lot of great companies
+like Shopify Credit Karma Notion
+and recently have been investing in
+like Mcore NHN
+all these great companies 
+If you're interested
+in learning more about their companies
+feel free to check them out as well
+And lastly I'd also want to give a warm welcome to Julie
+Thank you so much for coming
+to moderate our session today
+I think a lot of people here already know about Julie
+and I was joking with Julie
+half people here are not for us
+but for her
+So I have known Julie since my Facebook days
+I still remember the days we were in the meeting
+talking about how to improve the quality of notifications
+with Chris Cox
+And Julie now is the founder of Sundial
+which is a product analytics platform
+It's not like traditional product analysis platform
+but it's actually help you understand
+what is going on behind your trend
+so they have a lot of models behind the hood 
+and also in my opinion
+I think it's the best design product analysis tools
+out there as well
+Thanks to Julie
+And also Julie is the best selling author
+of The Making of a Manager
+and is also one of my favorite books as well
+I learned so much when I was doing this
+transation from IC to a manager 
+So I will hand the mic to Julie to get things started
+Hello  everyone
+Thank you so much for being here
+I just want to say that I'm actually very honored to
+be invited to an events 
+Often people are like oh you know
+talk about management or talk about design
+but it's actually my goal since starting Sundial
+to be accepted as part of
+the data and analytics platform community
+So thank you so much
+and thank you to Joe Yuzheng 
+and Mengying
+It's super incredible that
+these people who have worked in such amazing places
+and know so much about everything
+from experimentation to PLG playbooks 
+to how to scale and come up with
+the ways that we make these scalable to the problems
+that they put all of their knowledge into the book
+I know many of you guys probably 
+have already checked it out or bought it
+but highly recommend you all get on Amazon
+and get a copy of this book
+So we're also going to be able to open this up
+for questions in just a little bit  
+But first let me introduce
+my esteemed guests on this panel 
+So as you guys know
+we have Mengying Li
+and she is somebody who
+I think needs almost no introduction
+She's been in so many places
+having growth data at Notion
+from Facebook to Mother Duck
+And she is also very involved in the startup
+and analytics ecosystem
+So when she gives you recommendation
+I always take it very seriously
+Thank you
+Joe we have here
+All of us I think knew each other to some extent at Meta
+but Joe has almost a decade of experience
+especially in data engineering
+This guy is like a data engineering wizard  
+One of the favorite projects 
+one of the most influential projects at Meta
+was his idea of this granu- fixed granularity framework
+which he and Yuzheng worked on 
+which really helped Meta be able to scale their analytics
+and the ability to get fast answers from data
+So super excited to hear him talk about
+some of his playbooks in the conversation ahead
+And finally with Yuzheng Sun
+Dr. Yuzheng Sun he is a super prominent voice
+in the data and growth community
+We all know that he's got
+an incredible advocate community member
+with the way that he has
+been at Tencent
+Meta and Amazon
+and he has three hundred thousand followers
+for his content channel for his Chinese podcast
+He's super passionate now about AI education
+as well as being one of the great leading voices
+for experimentation
+Very excited to have these three 
+Please give them a warm welcome 
+All right let's get down to brass tacks 
+So what made you decide that we all needed this book 
+that you decided to write
+That's a great question
+So I think the reason why 
+I think this book is super important
+is actually totally based on my own experience
+When I was at Facebook 
+I was working on product analytics
+I never worked on growth data stuff before
+then I joined Notion as the first growth data scientist
+And I felt really lonely because
+at Facebook there was so many data scientists
+there is something called workplace
+which is like a Facebook feed
+you can learn so much from other data scientists
+about what they are doing
+So we can learn so much 
+from people who are doing similar things as me
+but at Notion
+because I was one of the earliest data scientists
+joining the company
+so I had nobody to turn to when I had any questions
+and I just don't know who's actually working on data  
+so instead I have to actually turn to the network I had
+I started harassing
+my friends from Facebook asking my questions
+and also read a lot of blogs trying to figure out
+what things should I do 
+in order to understand the growth better
+what kind of metrics are most important
+for a vertical stage company like Notion
+Afterwards  I was able to figure it out by myself
+but it was very painful and inefficient
+That's why I wish
+if I had something kind of like a framework
+help me to get started
+I think it's gonna be great
+I think that's one of the motivations
+why we started preparing this book
+And Joe maybe you can share a little bit more
+about both that motivation
+but also how did you guys get this done
+in between your very busy day jobs
+Maybe you may have heard me share this story 
+but I joined Meta in 2015
+and I came from a very non technology company
+I used to work in the east coast 
+for a spinal implant engineering company  
+We had to pay for our soda
+So it's very very traditional right
+and I was doing traditional business intelligence
+I came to Meta and trying to really understand 
+what was the value that
+analytics provides for Meta
+So the question I was wrestling with was 
+what if they fire everyone in analytics
+will the company actually lose anything 
+or will they continue to sustain 
+So addressing this question for a few months
+I realize that oh
+we are actually like helping launch successful products
+that's what analytics like core value proposition right  
+So if we are to launch successful products
+through analytics
+then it means we need to understand
+product development better
+So we can apply analytics better right 
+So if you're a sports analytics person
+you should know the rules of the game and whatnot
+if you're a sales analytics
+you probably understand sales right  
+So similarly for product analytics
+you need to understand product
+The gap I saw was
+most of the other domains like accounting finance
+whatever domain you think about
+had very standardized theory behind them right
+Over a period of time or decades
+they've all been like kind of fine tuned a lot
+but for product analytics
+that did not exist
+It was just in the
+minds of people at few places right
+My motivation was ok
+how do we have a playbook
+captures all this knowledge
+It made up of amazing people
+everyone here I'd like to acknowledge  
+So how do we get that and put together a playbook
+was the motivation that
+how it evolved within Meta
+that was my motivation to even step out
+and think about how do we now bring this to
+outside Meta right
+We see data scientists
+data engineers in so many companies working on growth
+working on product analytics
+but the gap is
+we don't have the theory
+and we don't have thoughts in terms of 
+how do we actually
+build this and actually apply this for driving producting
+so that was the motivation
+and it's a long answer
+Now to your other question about like
+how did this happen
+I think Mengying initially initiated this
+she was like hey you know
+I have this thought process about
+maybe writing something 
+And Yuzheng was in Statics
+so Statics was kind of helping us think through this
+So that's how we started
+but it was a very long process
+lot of brainstorming
+weekends and nights and all that stuff
+Actually we were always working on
+a Notion doc or whatnot right
+and then when we actually physically saw the book
+that was just super surreal
+It was like
+oh my goodness
+this is actually real  
+It took a while
+but it's good to see this happen
+Yeah I actually want to share an anecdote behind
+how the whole thing got started  
+So actually two years ago 
+I caught up with Vijaye
+the CEO of Statics
+and also right now
+the CTO of OpenAI apps
+So I caught up with him at the event 
+I was like this year I really want to
+write more things share my thoughts 
+and all that kind of stuff 
+And then his answer to me is like
+why don't we write a book together
+I'm like a book?
+He's like yes a book
+let's write a book together
+And then he wrote a very detailed schedule for me 
+about how to write a book
+and we look at schedule
+No that's impossible
+But that's why it's nice to actually have my good friends
+who actually help me out 
+This is some anecdote behind it
+What was your motivation
+and I'm also curious if you had one particular anecdote 
+that when you think about 
+why the industry needs a book like this
+What comes to mind
+I get to realize the industry needs a book like this
+after writing it
+I knew growth was important
+but I guess to add on points
+on anecdote
+I remember Vijaye's timeline was 
+two weeks or a month per chapter
+with our full time job
+And the reason this book exist is because of our ignorance
+we didn't know how hard it is
+Knowing how hard it is
+I think the book would never get started 
+Don't tell people that
+If you have the right expectation
+can be done
+but it's very hard
+I feel like it's almost like a startup right
+You go in there with ignorance
+but along the way
+you try to do something amazing
+So  I gravitated towards growth in my career
+At Amazon I was an economist building models
+but I was thinking
+my value as a data person is because I can do hard things
+I can do modeling
+Then Facebook that got thrown away
+I remember like my first job was 
+build a logistic regression model or a random forest model
+and my manager wasn't happy about how slow I was
+even though I was
+much faster than I was at Amazon
+He put a couple of data points and wrote a note publish it
+tag all the VPs
+and that was it
+And realize the value of data is to make better decisions
+it's not about doing hard things 
+But why do you need to make better decisions
+And in the end
+I realize growth is why we have jobs
+and why 
+the companies are that way 
+growth is what's important
+so I gravitated towards growth
+But after writing the book I realized
+I knew this by
+talking with people by looking at different notes
+For example
+taking the Facebook analytics bootcamp
+or by making mistakes
+There was no book out there 
+that I can learn all this information from
+Let's get into some of the secrets of this book 
+Mengying I'm going to start with you
+You know a lot about PLG
+You've been doing it for a very long time  
+So what do most people or companies get wrong
+about product led growth
+That's a great question 
+I think a lot of people get it wrong
+when they saw PLG just organic growth
+They just rely too much on word of mouth 
+without investing in marketing 
+or even picking up some good leads for sales
+I have seen people who you know like 
+our products is growing
+was gonna let them grow
+but actually
+I think the real PLG is like a flywheel
+so basically
+you create this kind of watermark from the early believers
+early adopters
+and then you actually need the marketing to
+actually to help to amplify that impact
+to get to the people
+who wouldn't have discovered you organically
+All these kind of leads
+like a good leads who become your champion
+and then you should send them to sales
+and then they become enterprise deal
+and on the other side
+they actually is one is the improves
+your product
+enterprise ready
+and all the other sides are also a great story
+to actually boost your PLG final as well
+because people have
+more trusting your product  
+So I think that's probably one of the biggest mistake
+I've been seen in people
+How do you know if you're doing it well
+What metrics or KPIs do we have for
+how you measure whether we're executing well
+Oh that's a good question
+How do you define 
+whether you're doing well or not
+I think it really depends on the stage you're in
+because through the whole product development cycle
+there are so many stages
+From the MVP
+all the way to PMF product market fit
+And all the way to kind of like
+growth stage to mature stage
+At different stage
+you want to have different metrics to make sure 
+you can measure the health 
+So don't just blindly copy whatever metrics are out there
+because understand your business
+I think it's the most important thing
+for you to measure well
+Joe I'm going to move on to you
+because this is a great follow up
+and you just mentioned product market fit
+and I know you've thought a lot about this
+We were talking about retention earlier
+Yeah
+How do you know if we have product market fit 
+even before the growth stage
+and can you help us define it more quantitatively as well
+Absolutely I think book has more details
+but we'll give a high level playbook right
+I think even the definition of product market fit 
+has to be thought a little bit like deeply
+It's just because we've heard the term a lot
+sometimes we just use it in passing right
+We just say  oh
+we have product market fit
+but if you think deeply
+it's not really like
+a destination
+It's not like oh
+I achieve product market fit I'm good 
+No it's not the case
+It is continuing
+You would have achieved product market fit
+but you want to make sure 
+you sustain your product market fit right
+So there are factors that affects it
+Your product may change
+and you may lose product market fit
+your market may change
+and you might lose product market fit 
+So you want to be very cautious about
+just even the term right
+Think deeply
+How do you measure quantitatively 
+I think like again retention is the king
+is how we say we think 
+That's the strongest indicator for product market fit right 
+I was telling actually Julie earlier
+I used to do this boot camp or analytics camp at Meta
+for anyone new in analytics
+and I used to do the retention class
+and one of the slides I used to have was
+around emphasizing the importance of retention
+and I had three quotes
+one was from Julie
+the other one is from Alex Schultz (CMO)
+and then from Chris Cox
+All the leaders at Meta
+they deeply care about retention
+No one is gonna
+sign off on any product without looking at retention
+That's really the strongest indicator for retention
+but the story does not end there
+Understanding retention and understanding 
+if you have sustainable growth right
+For example
+you may have good retention for
+maybe a party is used by ten people but
+does that mean you have product market fit
+You can't claim
+You have great retention
+but how many people do you have
+Ten
+I'm not sure right 
+Again the answer depends  
+You want to understand
+you have some amount of
+growth there right
+Some set of users
+and that really depends on your business
+Maybe it's a SaaS business
+and ten users are great
+but if you're a customer facing product
+then probably not right 
+So you gonna think about that
+and then the third factor we think about is
+understanding engagement on the product right
+To see if there is deeper engagement on the product
+That's a very broad term
+It can be substituted with many things
+maybe it's about having strong monetization
+or maybe it's about having engagement 
+So it really again depends on the product
+but if you can abstract into these factors and
+put them through a playbook and understand like 
+ok these are the metrics
+or these are the factors
+I'm gonna like look at to understand 
+or evaluate product market fit right
+and then having metrics for each of these
+and putting that together to to really come up with
+a quantitative way to say 
+how is my product market fit  
+but again the important thing is to 
+have some consistency in monitoring this right 
+So you don't want to get to the state and then
+just like move on
+Make that as a guardrail if you will
+to just have that monitored over a period of time 
+to make sure you still have power for it
+Now for the million dollar question
+cause I get asked this a lot
+What is exactly a good retention number
+Is thirteen percent?
+twenty percent?
+What guidance can you give us here
+so I think there is no real magic number for retention
+it really depends on your product  
+So we give few guidelines to understand this
+One is like is your retention improving over time
+For example you launch a product in Jan
+maybe your retention is x percent
+and ideally you want to improve the product experience 
+over a period of time
+So ideally in June
+your product should have a much better experience
+and users in that June cohort should have
+much better retention than users in the Jan cohort
+So that's one way to understand
+if your prolduct has better retention
+So there are also benchmarks
+To simplify understanding
+There are a lot of industry benchmarks
+the social apps should have
+x percent and comma ? y percent
+So there are some benchmarks 
+that you can absolutely use
+So I would think of three factors
+One factor is
+is it improving over time
+Second factor is maybe like this industry benchmark
+Third factor is really understanding 
+within your product ecosystem  
+How is this feature or this product's retention doing  
+would give you a better grasp
+if you have good retention or not
+but I don't think it's a multimillion dollar question
+to get the answer right
+but these are the ways in which you can
+get an understanding of what good means
+Also I just want to add to this
+because also the definition of retention
+just varies so much
+because everything based on activeness
+and every company has their own definition of activeness
+Somebody just think you know
+as long as you log in is called active
+some think you have to spend at least
+a session of at least three seconds
+That's called active
+There are a lot of nuances over this
+that's why it's really hard to compare apple to apple
+Yuzheng you are the king of experimentation
+You give us some advice on
+when should companies start experimenting
+and what's a healthy amount that is
+for example the right amount of experimentation
+versus let's say too little or too much
+Oh good question  
+I try to simplify things
+because like I know as data people
+we hate oversimplification
+but I think to easy to remember as a starting point 
+maybe it helps
+At Statics we serve B2B companies and B2C companies 
+and we have two versions of this story
+The first version is your sample size
+is dependent on your expected impact
+If you are measuring fifty percent impact
+you probably just need a sample of thirty
+but if you are measuring one percent incremental
+then you need a lot of sample
+and I think there is a formula
+I remember if you have over ten thousand
+people in your sample
+then you can measure something like
+one to five percent  
+So that is a our simplification answer
+it's also related to how many experiments 
+is a good amount of experiments
+I actually consider coverage to be
+a more important metric than number of experiments
+and the reason is
+if you can cover a hundred percent of your new features
+you cannot cherry pick
+The danger in doing experimentation is people teropic
+people only want to confirm themself
+and this becomes a cultural issue  
+So they only put up their best candidates to experiment
+and experimentation creates no value 
+in that case  
+because if you expect this to be positive
+experimentation confirm this is positive
+experimentation doesn't create any value
+The value is you expect this to be positive
+and realize it's actually negative
+then you actually need to think
+update your mental model
+or update your product roadmap
+So I do consider coverage to be important
+and at Facebook
+we can almost do a hundred percent coverage
+Especially on the important big features
+that is not hard to do
+but I realize most company
+do not have the right infrastructure
+I'm gonna turn this into a Statics pitch
+even though I left the company
+The technical insight is
+you need to have feature flags 
+and experimentation as one system
+So feature flags and experimentation is the same object
+then every feature you use a feature flag
+you get an experimentation for free
+If you have this setup
+you can do one hundred percent coverage
+but the system is actually easy to start
+hard to scale
+Ok I'm going to back to you
+Ok
+So you're an active advisor and investor  
+so when you look at companies and you evaluate founders
+what do you look for in terms of helping you understand
+if they're data rigorous
+data informed
+What's a good profile the founder 
+that you'd be excited to back
+Oh that's a great question 
+So actually for most founders I've talked so far
+most are full kind of on the extremes of the spectrum
+Either it's like
+Ok I don't really care about data
+I know every single customer I have
+I talk with all of them  
+or on the other spectrum 
+I want to lock every single detail of my customer
+I'm so afraid of missing any details 
+about what they are trying to do with my product
+And to be honest
+I think a lot of people think data is just like a data problem
+I think that's a wrong way to think about it
+because data problem is actually a business problem
+It's very important when you think about
+what data actually need
+what kind of analysis want to do
+is really around what kind of basic questions
+you want to answer to begin with 
+and why this question is very important
+for you to answer right now
+That's why you ought to ask this question
+that's why you need to make sure
+you have the rigor in the data
+rigor in the analysis
+but if some question is
+not something that's super important
+even the data is like trash
+it's probably ok for now
+That's just my opinion
+It sounds like it's very important
+to actually understand what is this data going to tell me
+and what it goes back to
+what you guys were saying before about 
+it's all meant to drive decisions
+and if you can keep what actions or 
+what decisions you have in mind
+we're gonna do a better job of understanding
+even does this data question matter that much
+Makes sense
+Why don't you tell us a little bit more about 
+data storytelling
+I think you are out there
+you make a lot of content
+you evangelize
+you're very effective at that
+How do you think about storytelling 
+as a skill for people who work in data
+So I think there are two things
+like storytelling as a data person
+and data story telling
+they are not always the same
+I heard this opinion from my previous manager
+and I strongly agree that
+the two most underappreciated or underdeveloped skills 
+of a data person is storytelling and making charts
+A strong charts just tells you 
+all the things you need to know
+and it's very compelling
+And storytelling is this
+I don't remember how many meetings I went into
+and if I put a table
+or if I put charts
+Even though I can make very informative charts 
+five minutes probably after 
+people walk out of the meeting
+and then I ask them
+Do you remember my points
+They don't
+I think sometimes into the human brain
+we just don't remember the facts that well
+but once you can do it
+behind a story
+I found this to be super effective on designers actually
+whenever I talk to a designer
+I always kind of try to screenshot the user journey
+and then it becomes a pen for the designer
+If I just say
+this conversion rate is twelve percent
+is too low
+They don't feel anything
+But if I say  
+Oh this step is broken
+that's why I believe the conversion rate is so low
+They will fix it immediately  
+So I think story drives resonance
+drives empathy
+and drives action
+Can you say more about charts
+and what is a really good chart
+I think a really good chart says one point
+and one point only
+I see the mistake a lot of data folks might make 
+is that we try to overload information on charts
+We may try to make a chart that is so sophisticated
+it tells ten story at the same time
+This ties to the action part right
+Think about what kind of action you want to inform
+or you want to recommend
+and just have one chart
+If you have three stories
+or three data points
+or conclusions
+make three charts
+and make it very clear and annotate
+You shouldn't just have a line chart and don't say anything
+Have it very elegant meaning 
+the information you want to present is very obvious
+and you don't have any redundant information
+but also use color
+use annotation use lines
+For example if you are saying there is a dip
+then point out the dip and point out the trend 
+so I think the strongly opinion chart is a good chart
+It's almost like you know your story
+and then find the chart 
+that's the best representation of the point 
+you're trying to make
+When the manager said that
+I remember like
+it was not comfortable for me
+as a data scientist
+to have opinions
+but I think a good data person should have opinions
+Make sense 
+Joe
+Can you say more about what it's like
+now as a data scientist
+How do you think about 
+what a really good healthy engineering culture 
+using data looks like
+From an engineering perspective
+it's really like aligning the team towards a specific goal  
+and then having a way to track these goals
+and making sure
+get able to progress towards a goal
+I think is really key  
+which I think I've seen that at Meta being done quite well
+We have specific goals
+and then translate that into a metric
+and then focusing on that one metric as a team
+I think it builds us up to make sure
+we are all focusing in the right direction
+and not going in different tangents
+Now for that to happen
+really like having the right tool stack is key right
+Making sure it's much easier for teams to be able to
+look at experiments and then
+evaluate those experimental results is important
+and then really understanding like 
+what's the landscape of the product is important right
+As an engineer
+we want to know like
+Ok am I on track towards the goal
+The product is something that the leader care about
+the manager care about
+the engineer care about
+everyone cares about
+this one or few metrics
+so having these key data artifacts
+having a dashboard that kind of
+like helps you value out is important  
+and being able to understand the data in deeper level
+but engineering team is important
+if they launch a new feature
+They wanna quickly see
+is this feature working or not  
+are people using this or not
+where is the drop off 
+All of those standard questions
+you want an easy way for engineers to be able to answer
+I think when you reduce that friction
+then it becomes much easier 
+for engineers to actually use data
+To really even for them to just navigate their way around 
+because when you remove that right
+it becomes really hard to actually
+access the data and get information
+then people are not going to be like motivated to 
+actually go with data right
+but then if you actually provide a system
+that makes it easier
+and ask your engineering team 
+Hey do you want to use data to make decisions
+I don't think anyone is going to like negate that 
+everyone is going to
+We want to use data
+so really reducing the friction 
+brings in or improves the rigor in terms of using data 
+I hear you say that people naturally are curious
+people want answers
+and they want to be able to build the best products
+and if you're helping to support an engineering team
+being able to provide
+you mentioned lowering friction for them 
+so that they can actually follow their natural curiosity 
+and build the best things possible
+This is a question for all of you
+because of course we're in the AI era
+and that's changing everything
+Maybe for good or for bad
+I'm very curious to hear about
+what do you think will change
+what are your biggest predictions for
+how teams will use AI and 
+how that will change the way 
+that people make decisions or use data
+Start with maybe Joe  
+Oh sure I can share some thoughts 
+I see two different things 
+One is even use a whatnot
+but eventually you are building some product to
+serve some users
+and grow the product
+You still need to have data
+Product analytics is probably still going to stay
+and probably going to grow even bigger
+than it is right now
+for teams to launch successful products right
+Because now we have so many agents  
+so many tools and whatnot
+I believe every product 
+still needs to understand their customers
+I don't think there's a way to substitute that
+What is one way to understand your customer
+If you have ten customers great
+you can go and talk to them
+but probably you don't want to have ten
+you probably want to have more right
+One of the thing that we have is
+data is the voice of the user right 
+So we want to have right data to understand our user
+AI or non AI
+I think that's still going to stay
+but how is AI going to influence data
+I think that's a key question here right 
+Data consumption is probably going to be disrupted a lot
+using AI
+instead of having 
+so many dashboards or so many like ways to look at data
+It's probably going to be a very different interface
+maybe a conversational interface
+you're gonna have some companion 
+who's gonna kind of help you answer some questions 
+about your product
+in a much more informed standardized way
+I think maybe we are two hops away from it probably
+but eventually I think that's one path that we would go
+and I also see a similar pattern happening 
+in the data production side of things right 
+How do you create the right
+data warehouse
+or how do you create the right
+data models and schemas for your product
+how do you properly log data
+I think all of those today are very domain specific
+and it's all based on
+the strength of the engineering team
+but I believe it will eventually be like an agent 
+that will help understand some of these patterns 
+much better
+and it will probably do the logging for you
+and it will probably help you build the right
+data warehouse and so on and so forth
+So both in the data production side 
+and in the data consumption side
+AI definitely have a strong influence
+YZ what do you think
+May I have an hour 
+Just kidding
+I'm gonna do two minutes version
+I have so much things to talk about
+but I'll pick one that is relevant
+Just look at the shirt
+This is my main thing
+like teach AI
+but for this audience
+I think the most relevant thing is
+the definition of data is very strange
+Text is data right
+but when we think about data
+we think about a number
+but data is not number
+data is everything  
+AI just enabled us to analyze or use 
+that non-quantitative data
+and it's more important
+Why is that
+Because people are building things much faster now
+not only experiments takes a lot of sample size
+but what about retention
+you need a month to get the monthly retention
+and then you just get one data point 
+So we need to have ways to analyze non-quantitative data
+and drive useful insights
+and I think we can do that actually 
+So the role of data scientist
+do not treat us as a number or math scientist
+we are like actual data scientist
+Can you give some examples of non-quantitative data
+that you think will become bigger
+My first invested company is from my friends
+He actually was ahead of growth for a lot of company
+he was also I think the first ten
+machine learning engineer at Instagram as well
+He spent billions of dollar trying to grow
+but the company he started was about user research
+and when I first heard about that I was like 
+Oh this is something that we couldn't do before AI
+Now we can do
+because we always want to talk with customers
+but how to actually extract useful information
+from all those talks
+ and how to in your product have smart trigger right
+to trigger the right feedback
+that is hard to do
+But now it's easy to do
+or not easy but possible
+How about you Mengying
+I want to talk about from probably different angles
+The first one is
+I think all the data people right now
+have the potential to become a real builder
+Oh thank you
+Because to be honest
+in my opinion
+data people always probably
+the most technical folks outside engineering team
+Because we understand even sql right
+there are some logic you understand for loop while loop
+understand conditions
+That's all the codes about basically right 
+And of course
+engineer knows some HTML CSS
+they know how to build something fancier 
+but now we have AI right
+So I think to me 
+because data team
+they have this kind of very solid foundation
+understand the data
+understand the business very well 
+We're also kind of the communication center of
+talking with all the stakeholders
+We're actually in a perfect place to become a builder 
+that's something I'm trying
+actually experiencing at my current company 
+I recently just launched a feature into production
+and realize oh my god
+that's how it feels like
+when you're actually people are using your features
+that's how it looks like to become engineer
+Of course it's not that easy
+but it's not impossible
+So I think I really encourage everybody here
+to really try to get your hands dirty
+Try something you never done before
+not only on analytics
+but also on something else
+Build a data feature for your team right now
+I'm trying to implement all the statistics
+into our product as well
+as building a feature just by myself
+I'm not just
+doing a mock
+tell this is P value
+this is how the confidence interval is supposed to look
+I just built it so
+I really think AI makes it very possible
+The second thing
+I think is that also is a great time to build a PLG company
+the reason why is also has something to do with AI
+I remember last year a lot of VC and
+like Stastics
+Oh we should have more forward deployment engineer
+I don't know whether I've seen that trend on the team
+Yes of course humans are still very important
+they still should help the customers get on boarded
+be successful and all that kind of stuff
+but to be honest
+because right now AI makes
+it's so easy to understand your docs
+to give your instructions
+As long as you have good docs good demos
+it actually makes PLG way much easier
+So a lot of barriers you just don't understand
+how do you produce this product  
+Right now just ask
+and they will give you answer
+give you a demo
+and you can just get started
+And just make sure you have good docs out there
+the LLM can pick it up
+I think that's the most important foundation for you
+to build a good PLG company these days
+Fantastic very inspiring
+I think this room is going to go out and be builders
+be book writers
+go out there and fill the application
+I'm going to turn it over to the audience now for questions
+if you have a question
+raise your hand
+and I'll come send the microphone over 
+So anybody who asks a good question
+we're gonna hand over a signed copy of our book for free
+How do you evaluate good
+how do you evaluate
+I don't know tell me
+Data driven? No way to do it
+I'll send the microphone right now
+So I know we talked a little bit about
+sort of like DS cannot be builders 
+one thing that I've been seeing a lot
+over the past couple of years is that
+DS are really good at building AI in particular
+And so we talked about sort of like 
+the intersection between Al and data science
+But from the Al engineers that I've worked with
+those with a background in data science are the best
+So I'm curious
+As people that have spent a lot of time doing data science
+What do you think the 
+needs to understand from the data science perspective
+How do we get more people to understand
+that data science is valuable for this new？
+So the question is
+how do we actually make people understand
+data science is actually very important
+Yeah how do we tell that story
+That's a great question
+Do you want to start with a story telling
+I'm actually not a good person for this
+because I always tell data scientist
+to stop being a data scientist
+and to be a builder actually
+because what we do is quite indirect right
+and I think we strive in large organizations
+with complex information
+like people just cannot understand data
+We have a specialty of understanding it well
+and we can make better recommendations
+and indirectly drive actions
+I don't like that
+I want to just make the action happen
+So I always tell data scientists to be builders
+but not the other way around
+I don't tell people that data scientists are important 
+in this data fetch 
+I hope all data scientists
+can directly implement the change
+They don't have to rely on engineer
+to make the change happen
+Just to refers it in a different way
+I think you shouldn't think about data just as a domain
+as something who has some specialty
+I think data and AI
+you should all treat them as tools
+base on the tools you can use 
+to inform your business decision
+because again
+everything we're doing here
+is we want to drive business growth right
+We want to make money
+so whatever you do data AI
+whatever you can have on your hands
+Just do it that's it
+Hello
+this is a question for Mengying
+you mentioned earlier that
+PLG doesn't mean you don't do marketing right
+Can you give some thoughts in terms of
+what kind of marketing you are talking about
+because there is paid ads
+there is influencer
+maybe investment in the community
+cause you have gone through the Notion in the early days
+what's sort of the marketing are more effective
+Especially in the early days can you
+Actually I think depends on which industry you're in
+for example
+Notion has benefit a lot from influencer marketing
+especially during the pandemic time
+where everybody is scrolling
+Also our previous head of marketing of Notion
+is right there
+if you're curious about marketing
+look for candidates
+And thanks for coming 
+And so we learned a lot from that
+and also Camille did a fantastic job
+writing docs about Notion
+make sure people understand how to use Notion
+We all know Notion has a pretty steep learning curve
+I think that's all the helps
+And also Pylon actually on the other hand
+they did a lot of LinkedIn marketing
+and they did so successfully
+They didn't spend single dollar on marketing at all
+just the co founders they make post
+seriously every single day
+and I'm very impressed
+and that's how they become successful
+And nowadays
+for example
+because of all this kind of AEO GEO game
+and people start building
+the kind of content just for the models
+I've heard some stories
+people will have a hidden website under your domain
+where they just have all this kind of trash
+blogs written by LLM
+to be read by LLM
+so that the search algorithms will gonna to pick it up
+I think it really depends on
+different stages and different industry
+and what you are actually good at
+And also who do you have in the house
+Other questions?
+First of all
+congratulations again for publishing a book
+I have a question for Mengying
+I am the target today
+I should get a book just to answer the question
+When you first join Notion
+and then how do you identify
+Oh this is the most important question
+if we want to do growth
+and what is that question
+Oh that's a good question
+So I think when I first joined Notion
+of course I was kind of at loss
+where I don't know what's going on
+It's a startup
+I'm just trying to make sure I have a job
+I was so worried
+I'm gonna get fired
+Seriously because I just didn't know
+whether everything I learned from Facebook or Microsoft
+gonna be applicable in a startup environment
+So in order to understand
+what was the most important thing to do
+I think it's really important to talk with stakeholders 
+it's really to understand
+ok what's on top of their mind
+what is the things that really blocking them
+and nobody else can do
+maybe I have the edge to do it
+That's why I identified experimentation
+So that's how I identify
+actual experimentation is one of the blockers
+of people launching good features
+People always want to understand
+back then when I joined
+Notion already had millions of users
+but they only run probably
+fewer than ten experiments back then
+and then I realize
+maybe this is the muscle I can help build
+within the company
+That's why I started talking with Statsig
+with different vendors
+did vendor shopping for the first time myself
+sign the contract for the first time myself
+did negotiation all by myself
+and then launched the experiment campain
+with the company to really start building
+and fostering the startup culture
+Hi my name is Miranda
+and thanks for hosting this
+First of all
+I find a lot of things very resonate and myself
+I'm a full time data scientist leading a team
+working on better influencer marketing
+and the new AEO and GEO
+And I think speaking of text analytics
+I think I see application as well
+on even a lot of like influencer social comment
+all of those
+and I think I've also resonated a lot on
+oh data science can be a builder
+but I realize today a lot of line get blurred
+So I'm curious about
+every one of you
+what do you think could be the next skill
+or the most important skill for have
+data science stand out in the organizations
+cause right now
+data science or data engineering lines getting blurred
+data science PM lines getting blurred  a lot of
+blur-ish and everyone can do everyone's job
+It's like all hands on the deck all the time
+How do you guys think about the unique or the best skill
+that you think stand out among this 
+crowded or competitive space
+I have a short answer
+then maybe we can chat up
+I think my answer for the general population
+is the same for all data scientists
+It's agency and taste
+When you have agency
+you can do a lot of new things
+that other people are not think about doing
+or just hasn't been able to execute
+and taste is ultimately what makes you unique
+and makes you having better decisions
+I would add one thing
+it's probably curiosity
+I think that's actually the drive behind everything
+You have to be really curious about
+what is my business doing
+and you know like why this the numbers
+actually going different than I thought
+why this feature looks so weird
+why we actually make our blog look like this way
+why there's no button there
+just be curious
+ask questions
+And then even you're not the domain expert on this
+people will answer your question
+and will tell you
+this is why we are doing this
+Or maybe they will say 
+Oh actually we never thought about this
+maybe we should do it
+that's how we contribute
+I think it's true
+very very important
+Even though the lines get blurry or not right
+really taking a step back and thinking from first principles
+what does it take to solve the problem
+and how do you approach and build it
+I think it's still going to be critical
+Thank you
+My name is Jerry
+my question is
+I think people talk about the blurred roles
+and there is different skill sets that
+data science needs to have now in the AI era
+What's your prediction for the job market
+for data scientists
+I think there's entry level
+mid level and going higher level
+I think going higher level
+I guess it's all about decision making and influence 
+But what's your prediction
+It feels like the market for all the tech jobs is gonna shrink
+that's my immediate reaction
+it could be wrong
+I'm still hiring
+So for folks
+that's a great pitch for my job post so if anybody
+who is interested in joining Bring Trust
+as a data scientist for go to market
+or as an data analyst engineer
+feel free to talk to me as well
+To answer your question
+I do think so
+One thing I would say is
+so these days previously
+when I'm hiring
+I also look at 
+Ok how many years of experience
+and what things
+they have on the resume
+what kind of companies they work at before
+but this is a kind of more relaxed on that
+To be honest
+as folks just mentioned
+what I care really about is really the agency
+the curiosity
+and whether they can actually use the right tool
+to get the things done
+I think that's very important
+So that's why I like
+even in my job post
+ask folks to share a story
+where they're able to just unblock themselves proactively
+like even focus on not something that's supposed to do
+or it's a very difficult problem 
+I think that actually gonna show me what this person is
+I think that's very important
+So in the AI age again
+coding is not the most important thing
+I think evidently
+it does disproportionately impact junior roles
+as an example
+Statics put up a position for junior data scientist
+which was actually quite rare
+people do not hire junior data scientist anymore
+We got I think
+three thousand applications within a day
+and we can only go through
+two to fifty right
+It was like two years ago
+So I think there was an impact
+and a disproportionate impact of junior roles
+but actually I invited Howie to another panel
+and Howie's answer is to a similar question was
+There was no data scientist twenty years ago
+data scientist is an invented job title
+It's not like a farmer right
+it's not like a toilet cleaner even
+It's an invented role
+So I do think the meaning of our role is gonna change
+So whether you are a data senior or a junior person
+go for what problem you're solving for
+maybe the senior person we're hiring for
+you have a better mental model
+about how the business should work
+so you have better judgment
+Junior person
+maybe you are more versatile
+you can code and you can do analysis
+and you have a statistical training
+so our analysis actually is rigorous
+So I think if you break down
+what trait is valuable
+especially because skills are getting cheaper as well
+So then maybe you have a better chance of landing a job
+Last question
+So first my question is about
+I think we have been talking about a lot about
+using AI to help data scientist
+But I want to ask another question
+In this era there are more and more agent products
+coming out right
+How do we measure them
+Especially if the agent product is having its
+for example like
+you know Amazon has a agent called Roofers right
+These are the traditional business which already have its
+set of measurements like KPIs
+but when they are launching a new agent product
+How do you think
+Should they change the KPI's
+because if they measure using the traditional KPI's
+you will see the gains probably not worthing the cost right
+because developing an agent is very very expensive
+So I think this problem is going to be
+more and more popular around
+Silicon Valley
+I really wanna think about
+what does success look like for the agent right
+And then translating it to how do you measure that
+for instance
+what problem are you trying to solve
+and understanding again
+the fundamentals I believe are not going to change much
+I know there's a lot of frenzy around like you know this agent
+lot of buzzwords and all that stuff
+but just to take a step back
+I think the fundamentals are still fundamentals
+In my opinion
+you still want to understand your users
+you still want to have the same measurement
+I don't think you want to have
+some new metric discovered just to understand
+agents and its success essentially  right
+So end of the day
+agent is going to solve some problem
+So essentially
+what is that problem look like
+I think even ChatGPT is still 
+they just report on weekly active users
+and so on and so forth
+so I think it's still the same
+also it just makes it I think cognitively less stressful
+to measure success right
+because we've been used to a way of
+understanding success for a product and measure them
+I'm sure there's going to be a few things that might evolve
+but in my opinion
+still understanding the users
+understanding the fundamentals and
+having the standard metrics would still apply to
+I thought the question was about AI evaluation
+How to evaluate the quality or effectiveness of an agent
+but the second half of your question
+I was wondering
+Why do you need that agent at all
+if you don't see the business outcome positively increase
+I think the reason you want an agent is
+either you can save cost
+do it faster
+or you can do new things that you couldn't do before
+if you didn't unlock any new things
+and there's no KPI
+there's no improvement
+Don't use agents
+Why are you using
+Yes and no I would say
+because you still see
+all those big companies are still pushing for
+every organization's goal is to be far
+I think there is an investment part of it
+people are afraid of
+not catching up
+So we make the investment of let's use AI
+for the sake of using AI
+even though it may not be effective
+but we treat it as an investment for the future
+I think from that angle
+then treat it as an investment
+All right thank you
+Let's give a big round of applause to our esteemed guests
+Thank you everyone for joining us tonight
+I think we'll all stick around for a little bit
+and is there to be a signing I heard
+There's no signing
+but I'm gonna hand over the book to
+the folks who just ask great questions
+And we're gonna share some cake
+Fantastic all right well
+we will stay around for a little bit longer
+and we can continue the conversations in small groups
+All right thank you everyone
+大家好
+我叫Mengying
+我是《增长数据分析实战手册》这本书的合著者之一
+今天我非常激动 也很荣幸能和大家齐聚于此
+庆祝这本书的发行
+首先
+我要隆重感谢今天的主办方
+也就是Pylon
+这是他们的办公室
+Pylon是专门为B2B公司打造的支持平台
+依我看
+它是目前最好 也是唯一能整合所有客户沟通工具的支持平台
+也就是你用来和客户沟通的所有工具
+比如 Discord Slack 在线客服 邮件等等
+我认识这三位联合创始人
+很久很久了 大概两年半
+当时他们只有三个人 在Oracle park附近的一个阁楼里创业
+现在队伍已经发展到六七十人的队伍
+而且他们刚刚完成了B轮融资
+所以如果你的团队也在使用Slack Teams这类工具
+欢迎和他们交流
+因为他们能提供最棒的客户支持平台
+或者如果您正在考虑加入他们
+也可以和他们的团队成员聊聊
+其次
+我还要隆重感谢今天的赞助商
+也就是Theory ventures 和 Felicis
+Theory ventures是一家总部设在旧金山的风险投资公司
+他们投资于雄心勃勃的创始人
+帮助这些有远见的想法转化为市场优势
+他们投资了很多很棒的数据基础设施公司
+比如 Omni
+Brian也在这里
+Brian来自Theory ventures
+他负责公司的AI方向投资
+如果有兴趣了解更多关于Theory ventures的信息
+欢迎会后和他交流
+另一位要感谢的赞助商是Felicis
+很遗憾
+Felicis的Nancy今天没能到场
+Felicis也是一家拥有近 20 年历史的风投机构
+他们投资了很多优秀的公司 
+比如 Shopify Credit Karma Notion
+最近一直在投资
+Mcore、NHN 等优质企业
+如果你想了解更多关于他们的公司
+也可以去了解一下
+最后 我还要热烈欢迎Julie
+非常感谢你今天来主持我们的会议
+我想这里很多人都知道Julie的事
+我之前还和Julie开玩笑说
+今天一半的人不是为我们而来
+而是为她而来
+我从在Facebook工作时就认识Julie了
+我还记得我们和 Chris Cox 一起开会 
+讨论如何提升通知质量的日子
+Julie现在是Sundial的创始人
+这是一个产品分析平台
+它不像传统的产品分析平台
+它能帮你读懂数据趋势背后的真正原因
+平台背后有很多专业模型支撑
+而且在我看来
+我认为这是最好的设计产品分析工具
+多亏了朱莉
+另外 Julie还是畅销书《经理人养成手记》的作者
+这也是我最喜欢的书之一
+我从个人贡献者转型成为管理者的过程中
+从这本书里学到了很多
+现在我把话筒交给Julie 正式开始今天的分享
+大家好
+非常感谢你们能来
+我想说 我真的很荣幸受邀参加这次活动
+大家通常会邀请我聊管理或者设计
+但从Sundial开始 我的目标就是能被数据和分析平台领域接纳
+所以非常感谢大家
+谢谢你 Joe Yuzheng
+和Mengying
+特别了不起的是
+这些在顶尖公司工作过的专家
+把从实验方法论 PLG实战到规模化增长的所有经验
+都浓缩进了这本书里
+我知道你们很多人可能已经看过或者买了
+但强烈建议你们都上亚马逊买一本
+稍后我们会开放提问环节
+首先 让我介绍今天的重磅嘉宾
+正如你们所知
+我们有Mengying Li
+她是一个我认为几乎不需要介绍的人
+她曾在Notion Facebook Mother Duck负责增长数据工作
+她还深度参与创业和数据分析生态
+她的建议我一直都很重视
+谢谢你
+接下来是Joe
+我们几个人在Meta都有交集
+Joe拥有近十年的数据工程经验
+他简直是数据工程领域的天才
+Meta 最受欢迎 最有影响力的项目之一
+就是他和Yuzheng共同打造的固定粒度框架
+这个框架帮助了Meta实现分析规模化 快速从数据中获取答案
+非常期待他在接下来的对话中分享实战经验
+最后是Yuzheng Sun
+Yuzheng Sun博士 他是数据和增长领域的杰出人物
+我们都知道他在腾讯 Meta和亚马逊
+一直是一个不可思议的倡导者
+他的中文播客和内容账号拥有30万粉丝
+他现在非常专注于AI教育
+同时也是实验方法论领域的顶尖专家
+非常欢迎三位嘉宾 掌声送给他们
+让我们言归正传
+是什么让你们决定 大家都需要这样一本书 并且动笔去写？
+这是个好问题
+我觉得这本书非常重要 完全源于我自己的亲身经历
+当我在Facebook的时候
+我在做产品分析
+我以前从未研究过增长数据
+然后我加入了Notion成为第一个增长数据科学家
+我感到非常孤独 因为
+在Facebook有很多数据科学家
+公司里有Workplace平台
+类似Facebook信息流
+你可以从其他数据科学家那里学到很多东西
+关于他们在做什么
+所以我们可以从和我做类似事情的人身上学到很多东西
+但在Notion
+因为我是最早加入公司的数据科学家之一
+所以当我有任何问题时 我没有人可以求助
+也不知道谁在做数据相关工作
+所以我只能依靠自己的人脉
+我开始不断请教Facebook的老朋友
+还读了很多博客 努力搞清楚如何更好地分析增长
+对于像Notion这样的成长阶段公司来说 什么样的指标最重要
+后来我自己想通了
+但这是非常痛苦和低效的
+所以我当时就希望
+如果有一套框架能帮我快速入门就好了
+我觉得会很棒的
+我认为这是我们开始准备这本书的动机之一
+Joe 也许你可以再分享一下你的创作动机
+还有你们是如何在繁忙的工作之余完成这本书的
+你可能听过我分享这个故事
+但我在2015年加入了Meta
+我来自一家非科技公司
+我之前在东海岸一家脊柱植入器械工程公司工作
+我们连汽水都要自己花钱买
+这是非常非常传统的，对吧？
+我在做传统的商业智能
+加入Meta后 我开始真正思考分析工作为公司带来的价值
+我当时一直在思考一个问题：如果把所有分析人员都裁掉
+公司真的会损失任何东西吗？还是会继续维持下去？
+我花了几个月思考这个问题
+我意识到
+我们实际上就像帮助推出成功的产品
+这就是数据分析的核心价值 对吧
+所以如果要通过数据分析推出成功产品
+那么这意味着我们需要更好地了解产品开发
+这样才能更好地运用数据分析 对吧
+如果你是一个体育分析师
+你就得懂比赛规则
+如果你是销售分析师
+你可能就理解销售 对吧
+产品分析也是如此
+你需要了解产品
+我看到的差距是
+大多数其他领域 如会计金融
+你能想到的任何领域
+他们背后有非常标准化的理论 对吧？
+在一段时间或几十年内
+它们都被调整了很多
+但对于产品分析
+却没有这样的体系
+知识只掌握在少数公司的少数人手里 对吧
+所以我的动机就是
+如何打造一套实战手册
+捕捉所有这些知识
+它汇聚了行业顶尖人才的经验
+我想感谢在座的各位
+如何把这些经验整合为一套实战手册
+这就是我的动机
+也是这个想法在Meta内部的演变过程
+这也是我想把这些经验分享给Meta之外的人的原因
+我们看到很多公司的数据科学家 数据工程师
+都在做增长和产品分析
+但差距是
+我们没有理论
+也没有一套方法来构建体系 落地应用 驱动产品增长
+这就是我的动机
+这是一个很长的答案
+现在来谈谈你的另一个问题
+这是怎么发生的？
+我想Mengying最初发起了这个
+她当时说
+我有个想法 或许可以写点东西
+当时Yuzheng在Statics
+Statics团队帮我们梳理了思路
+这就是我们如何开始的
+但这是一个非常漫长的过程
+大量的头脑风暴
+牺牲了无数周末和夜晚
+其实 我们一直用Notion文档来协作
+然后当我们真正看到这本书的时候
+感觉特别不真实
+就像
+我的天啊
+这竟然是真的
+确实花了很久时间
+但很高兴看到这一切发生
+我想分享一个创作背后的小故事
+两年前
+我和Vijaye见了面
+他是Statics的CEO
+而且现在
+也是OpenAI Apps的CTO
+我在活动上遇到他
+我真的很想
+我真的想多写一点东西 把自己的想法传递出去
+他对我的回答是
+我们为什么不一起写本书
+我当时说 写书？
+他说 对 写书 
+我们一起写本书吧
+然后他给我写了一份非常详细的写书计划
+我们看看时间表
+心想 这根本不可能 
+但这就是为什么我很开心能有真正帮助我的好朋友
+这就是背后的小故事
+你的动机是什么？
+我也很好奇 有没有哪件事让你觉得 行业特别需要这样一本书
+写完书后我才真正意识到行业需要它
+我知道成长很重要
+但我想补充的是
+我记得Vijay的时间线是
+每章两周或一个月
+还要兼顾全职工作
+这本书存在的原因是因为我们的无知
+我们不知道这有多难
+如果知道难度 这本书根本不会开始
+别告诉别人
+如果你有正确的期望
+可以做到
+但这很难
+我感觉就像创业一样 对吧？
+你带着无知进去
+但一路上
+你试着做一些令人惊奇的事情
+我职业生涯一直专注于增长
+在亚马逊时 我是经济学家 负责建模
+但我在想
+我作为数据分析者的价值 在于能解决难题
+我会建模
+到了Facebook 这个想法被彻底颠覆
+我记得我的第一份工作是构建逻辑回归模型或随机森林模型
+但经理嫌我太慢
+即使我已经比在亚马逊快得多了
+他只放了几个数据点 写了备注就发布了
+@了所有高管
+就这样搞定了
+我这才意识到 数据的价值是辅助更好地决策
+这不是做困难的事情 
+为什么你需要做出更好的决定？
+最终我明白 增长就是我们工作的意义
+以及公司为什么这样运转
+增长才是最重要的
+所以我一直深耕增长领域
+但写完这本书后我意识到
+这些知识都是我通过与人交流 看各种资料学到的
+例如
+比如参加 Facebook 分析训练营 或者自己踩坑
+市面上没有一本书能系统学到这些知识
+让我们深入了解这本书的一些秘密
+Mengying 我要从你开始
+你非常懂PLG（产品驱动增长）
+你做这个领域很多年了 
+大多数人或公司对产品驱动增长的误区是什么
+这是个好问题
+我想很多人都弄错了
+他们以为PLG就是自然增长
+他们过度依赖口碑传播 不做营销 甚至不挖掘优质销售线索
+我见过一些人 他们说 
+我们的产品正在增长
+就让它们自然增长
+但实际上
+但其实真正的PLG是一个飞轮
+所以基本上
+你从早期粉丝 早期用户那里积累口碑
+然后需要营销来放大这种影响力v
+触达那些不会自然发现你产品的人
+这些优质线索会成为你的产品支持者
+然后你应该把它们送到销售部
+转化为企业级交易 
+另一方面
+它们实际上是改进之一
+你的产品
+企业就绪
+同时也能打造更好的品牌故事 反哺PLG
+因为用户会更信任你的产品
+这应该是我见过最多人犯的错误
+你怎么知道你做得好不好？
+我们有哪些指标或KPI来衡量我们是否执行良好
+这是个好问题
+如何定义你做得好或不好
+我认为这取决于你所处的阶段
+整个产品生命周期有很多阶段
+从最小可行产品 到产品市场匹配
+再到增长期 成熟期
+在不同的阶段
+不同阶段要用不同指标衡量健康度
+不要盲目照搬市面上的指标
+理解自己的业务 才是做好指标衡量的关键
+Joe 接下来问你
+因为这是一个很好的衔接问题
+你刚刚提到了产品市场契合度
+我知道你对此思考很多
+我们之前在谈论保留
+是呀
+在增长阶段之前 如何判断是否达到产品市场匹配
+能不能从量化角度帮我们定义一下
+当然 书里有更详细的内容
+但我们先给大家一个核心框架
+我认为即使是产品市场契合度的定义也必须深入思考
+只是因为我们经常听到这个词
+有时就随口用了 对吧
+我们就说 我们达到产品市场匹配了
+但是如果你仔细想想
+它其实不是一个终点
+不是 我实现了产品市场契合度 就万事大吉了
+事实并非如此
+它是一个持续的过程
+你可能已经实现了产品市场契合度
+但你要确保能维持住 对吧
+有很多因素会影响它
+您的产品可能会发生变化
+你可能会失去产品市场契合度
+你的市场可能会改变
+你也可能会失去产品市场契合度
+所以哪怕是这个词 也要谨慎使用 对吧
+深入思考
+你如何量化衡量？
+还是那句话 留存是核心
+这是产品市场契合度的最强指标 对吧
+我之前告诉过朱莉
+我以前在Meta给新入职的分析人员做培训
+我会专门讲留存课程
+我曾经有一张幻灯片是关于强调留存的重要性
+我放了三句名言
+一个是Julie的
+另一个来自Alex Schultz (Meta CMO)
+然后是Chris Cox
+Meta 所有高管都非常重视留存
+没有人会
+没人会在不看留存的情况下批准产品上线
+所以留存确实是最核心的指标
+但故事并没有就此结束
+要理解留存 也要理解是否有可持续增长 对吧
+例如
+你可能有很好的留存
+但只有十个人用
+但这能算产品市场匹配吗
+你不能这么说
+你留存再好
+但是你有多少人
+十个
+我觉得不算 对吧
+答案取决于不同情况
+你需要有一定的用户规模和增长势头 对吧
+一定数量的用户
+这取决于你的业务类型
+如果是SaaS业务 十个用户可能很不错
+但是如果你是面向大众的产品
+那可能不行
+要考虑这一点
+第三个因素是产品的用户参与度 对吧
+看用户是否有深度使用
+这是个很宽泛的术语
+可以用很多指标替代
+也许是关于强大的变现能力
+也可能是使用频率高
+还是要看具体产品
+但如果能抽象成这几个因素
+形成一套方法 明确核心指标
+用这些因素来评估产品市场匹配
+然后为每一个因素都制定指标
+综合起来
+ 就能量化评估产品市场匹配
+但重要的是 要持续监控 保持一致性 对吧
+不要达到一个阶段就不管了
+把它作为一个护栏
+长期监控 确保匹配度不下
+现在是百万美元的问题
+因为我经常被问到这个问题
+到底多少留存率才算好
+是百分之十三？
+百分之二十？
+你能给我们什么指导？
+我觉得留存没有绝对的黄金数字
+这真的取决于你的产品
+我们给大家几个判断标准
+第一 留存率是否在持续提升
+比如您在1月推出产品
+也许你的留存率是x%
+理想情况下 您希望在一段时间内改善产品体验
+所以理想情况下 在六月
+你的产品应该有更好的体验
+6月的用户群留存 应该比1月的好很多
+所以这是一种了解你的产品是否具有更好留存率的方法
+也有基准
+简单来说
+有很多行业基准
+社交应用应该有x百分比 并用逗号分隔y百分比
+你完全可以参考行业基准
+所以我想到了三个因素
+一个因素是
+它会随着时间的推移而改善吗？
+第二个因素可能就像这个行业基准
+第三 在自己产品体系内 对比其他功能或产品的留存
+这样能更好判断留存好坏
+但我不认为这是一个价值数百万美元的问题
+但这些方法能帮你判断什么是好留存
+我想补充一下
+因为留存的定义差异很大
+因为一切都基于积极性
+每家公司都有自己对积极性的定义
+有人认为
+只要登录就叫活跃
+有人觉得 使用至少3秒才算活跃
+这上面有很多细微差别
+所以很难直接横向对比
+Yuzheng 你是实验领域的专家
+你给我们一些建议 关于公司应该什么时候开始试验
+多少实验量是健康的
+比如多少算合适 多少算太少或太多
+问得好
+我尽量简化来讲
+因为就像我知道的 作为数据人 我们讨厌过于简单化
+但简单易记的方法 适合入门
+在Statics 我们服务B2B和B2C公司
+我们有两套判断标准
+第一 样本量取决于你预期的效果
+如果你测量50%的影响
+您可能只需要三十个样品
+但是如果你测量百分之一的增量
+那你需要很多样品
+我记得一个公式
+如果样本超过1万人
+就能测1%-5%的效果
+这是我们简化后的答案
+这也和合适的实验数量有关
+实际上 我认为覆盖率是一个比实验数量更重要的指标
+原因是
+如果你能百分之百覆盖你的新功能
+你不能鸡蛋里挑骨头
+做实验的风险在于 人们会主观验证自己的想法
+这变成了一个文化问题
+他们只把最有把握的功能拿去实验
+在这种情况下 实验没有价值
+因为你预期是正向的
+实验也验证正向
+实验不会创造任何价值
+价值在于 你预期正向
+结果发现是负向
+那么你实际上需要思考
+调整认知 更新产品路线
+所以我认为覆盖率很重要
+在Facebook
+我们几乎可以做到百分之百的覆盖
+尤其是在重要的大功能上
+这并不难做到
+但我意识到大多数公司没有合适的基础设施
+我要顺便给Statics打个广告
+即使我离开了公司
+技术核心是 功能开关和实验系统要一体化
+所以功能开关和实验是同一个对象
+这样每一个用功能开关的功能 都能自动做实验
+如果你有这个设置
+你可以做到百分之百的覆盖
+但这个系统入门容易
+规模化难
+好的 回到你
+好的
+你是活跃的顾问和投资人
+当你观察公司并评估创始人时
+你看重哪些特质 判断他们是否具备数据严谨性 数据驱动思维
+什么样的创始人会让你想要投资？
+这是个好问题
+到目前为止 对于我谈过的大多数创始人来说
+大多数都在光谱的极端
+要么就像
+我不在乎数据
+我认识我的每一个顾客
+我和他们所有人都谈过
+或者在另一个极端
+我要记录客户的每一个细节
+我生怕错过他们使用产品的任何细节
+老实说
+很多人觉得数据只是数据问题
+我认为这样想不对
+因为数据问题实际上是业务问题
+思考需要什么数据 是非常重要的
+要做什么样的分析
+是围绕着 一开始想要回答什么样的基本问题
+以及为什么这个问题对你现在很重要
+这是为什么你应该问这个问题
+所以才需要数据和分析的严谨性
+但如果有些问题不是很重要
+连数据都像垃圾一样
+暂时也没关系
+这是我的看法
+听起来关键是 要明白数据能告诉你什么
+这回到你们之前说的 一切都是为了驱动决策
+如果你能保持你心中的行动或决定
+就能更好判断这个数据问题是否有那么大价值
+有道理
+你再聊聊数据叙事吧
+你经常做内容分享 布道 且在这方面很有成效
+你觉得数据从业者的叙事能力有多重要
+我觉得有两点
+数据人的叙事能力和数据叙事
+它们并不总是一样的
+我从前经理那里听到这个观点
+我非常认同 
+数据人最被低估和欠缺的两个能力 就是叙事和做图表
+好的图表能清晰传达所有信息
+很有说服力
+而叙事能力
+我不记得我参加了多少次会议
+如果我放表格或图表
+哪怕信息很全 
+但五分钟后 大家可能就会走出会议室
+然后问他们
+你还记得我的观点吗？
+他们不记得了
+我觉得人脑就是不擅长记事实
+但如果用故事包装
+我发现这对设计师非常有效
+每当我与设计师交谈时
+我总是尝试截屏用户旅程
+然后它就变成了设计师的笔
+如果我只是说
+这个转化率是百分之十二 
+太低了
+他们什么都感觉不到
+但如果我说
+这个步骤有问题
+所以转化率才这么低
+他们会立即修复它
+我认为故事能引起共鸣
+驱动同理心
+并推动行动
+你能多聊聊图表吗
+什么是真正好的图表？
+我认为非常好的图表 只讲一个核心观点
+而且只有一点
+我见过很多数据人犯的错 就是在图表里塞太多信息
+想做一个超级复杂的图表
+同时讲述十个故事
+但这需要和行动导向有关 对吧
+想清楚你要建议什么行动
+就做一个图表
+如果你有三个故事
+或三个数据点
+或结论
+做三个图表
+做到清晰明了 加上标注
+不要只放一个折线图 什么都不说
+要简洁优雅 核心信息一目了然
+你没有任何多余的信息
+还要用好颜色 标注 线条
+比如要说有下降 就标出下降点和趋势
+所以我认为有明确观点的图表才是好图表
+就像先明确故事
+再找最能表达观点的图表
+当经理这么说的时候
+我记得作为数据科学家 有观点让我很不自在
+但我认为一个好的数据人应该有观点
+有道理
+有道理
+你说更多的是作为一个数据科学家
+你觉得健康的数据驱动工程文化是什么样的
+从工程的角度来看
+这真的就像让团队朝着一个特定的目标前进
+然后有一种方法来跟踪这些目标并确保
+能够朝着一个目标前进
+我认为这真的很关键
+我已经看到Meta做得很好了
+我们有特定的目标
+然后将其转化为指标
+然后作为一个团队专注于这个指标
+这样能确保大家方向一致 不跑偏
+要实现这一点
+合适的工具栈至关重要 对吧
+让团队能轻松做实验 评估实验结果 非常重要
+真正了解产品全貌也很重要 对吧
+作为一名工程师
+我们想知道
+我是否在朝着目标前进的轨道上？
+产品是领导 经理 工程师 所有人都关心的
+就是这一个或几个核心指标
+所以有了这些关键数据工件
+拥有一个能帮助你评估价值的仪表板是很重要的
+能够更深层次地理解数据
+但工程团队很重要
+如果他们推出新功能
+他们想快速看到
+这个功能是否有效？
+人们是否使用这个？
+流失点在哪里？
+这些常见问题 工程师需要能轻松找到答案
+降低使用数据的门槛
+工程师就会更愿意用数据
+帮他们更好地开展工作
+因为当你删除它时
+真正访问数据和获取信息变得非常困难
+那就好像人们不会有动力去实际
+数据权
+但如果提供易用的系统
+问问你的工程团队
+你想使用数据来做决定吗？
+我觉得没人会拒绝
+所有人都会说 当然想
+所以降低门槛 能提升使用数据的严谨性
+我听你说人们天生好奇
+人们想要答案
+他们希望能够制造最好的产品
+如果你在帮助支持一个工程团队
+降低他们使用数据的门槛
+他们就能顺应好奇心 打造最好的产品
+这个问题问你们所有人
+因为我们处于人工智能时代
+这改变了一切
+或许变好 或许变坏
+我很想知道你认为会有什么变化
+你们对团队使用AI AI改变决策和数据使用方式的预测是什么
+从Joe开始
+我可以分享一些想法
+我看到两个变化
+第一 无论用什么工具
+最终你都是在做产品
+服务用户 
+实现增长
+你仍然需要有数据
+产品分析不仅不会消失
+而且可能会变得比现在更重要
+因为要让团队推出成功的产品
+现在有太多AI助手 工具
+我相信每一个产品仍然需要了解他们的客户
+我不认为有什么方法可以替代它
+了解客户的一种方法是什么？
+如果只有十个用户
+你可以去和他们谈谈
+但你肯定想要更多用户 对吧
+所以我们拥有的是
+数据就是用户的声音
+我们希望有正确的数据来了解我们的用户
+无论有没有AI 这一点都不会变
+但是人工智能将如何影响数据呢？
+我认为这是一个关键问题
+我认为AI会极大改变数据消费方式
+不再是无数个看板 各种查看数据的方式
+这可能会是一个非常不同的界面
+也许是一个对话界面
+会有一个助手帮你解答产品相关问题
+更智能 更标准化
+我想也许我们离它还有点距离
+但最终这会是一个方向
+我还看到数据生产端也会有类似变化
+你如何创造合适的
+数据仓库
+或者你如何创造正确的
+您如何正确记录数据
+现在这些都非常依赖领域知识
+这一切都是基于
+工程团队的实力
+但最终会有AI助手更好地理解这些模式
+它甚至能自动帮你埋点
+帮你搭建合适的数据仓库等等
+所以无论是在数据生产端还是在数据消费端
+AI绝对有很强的影响力
+YZ你觉得呢
+我可以讲一小时吗
+开玩笑啦
+我讲两分钟
+我有很多想说的 只讲一个相关的
+看看衬衫就知道了
+这是我的主业
+我是AI教育者
+但对在座各位
+最相关的是数据的定义很特别
+文本是数据
+但是当我们想到数据时
+总觉得是数字
+但数据不是数字
+数据就是一切
+AI 让我们能分析和使用非量化数据
+这一点更重要
+为什么呢？
+因为现在产品迭代速度更快
+不仅实验需要大量样本
+还有留存
+您需要一个月才能获得每月留存
+然后你只得到一个数据点
+我们需要有方法来分析非定量数据并提供有用的见解
+我认为我们可以做到这一点
+作为数据科学家的角色
+不要把我们当成数字或数学科学家
+我们是真正的数据科学家
+可以举几个你觉得会越来越重要的非量化数据例子吗
+我的第一家投资公司来自我的朋友
+他曾是多家公司的增长负责人
+他也是Instagram的前十位机器学习工程师
+他花了数十亿美元试图发展
+但他创办的公司是关于用户研究的
+当我第一次听说这件事时 我就想
+这是我们在AI之前无法做到的
+现在我们可以做到了
+因为我们总是想和顾客沟通
+但如何从大量沟通中提取有效信息
+如何在产品里智能触发合适的用户反馈
+这很难做到
+但现在很容易做到
+或者不容易但有可能
+你呢 Mengying
+我想从和他们不同的角度谈谈
+第一个是
+我认为现在所有的数据人都有潜力成为真正的建设者
+谢谢
+因为说实话
+依我看
+数据人一直是工程团队之外最懂技术的人
+因为我们懂SQL
+懂循环 条件判断这些逻辑
+这些本质就是代码
+当然工程师懂 HTML CSS
+他们知道如何建造更华丽的东西
+但现在我们有了AI
+所以我想对我来说
+因为数据团队
+他们有这种非常坚实的基础
+了解数据
+非常了解业务
+还是和所有利益相关方沟通的中心
+我们非常适合成为构建者
+这是我现在公司正在实践的
+我最近刚把一个功能上线
+并意识到 我的天啊
+有人用自己做的功能 这种感觉太棒了
+这就是工程师的感觉
+当然没那么容易
+但也不是不可能
+所以我非常鼓励在座各位动手尝试
+尝试你以前从未做过的事情
+不仅在分析上
+但也在其他事情上
+为团队做一个数据功能
+我正在把所有统计功能集成到产品里
+全程自己开发
+我不只是做原型
+告诉别人这是P值 这是置信区间
+我直接做出来了
+我真的认为人工智能让这成为可能
+第二件事是
+我认为这也是建立PLG公司的好时机
+原因也与AI有关
+我记得去年很多VC和
+就像 Stastics
+我们需要更多现场部署工程师
+我不知道团队有没有这个趋势
+人还是很重要的
+要帮助客户上手 获得成功之类的
+但说实话
+现在AI让理解文档 获取指导变得非常容易
+只要你有好的文档 好的演示
+它实际上使PLG变得更加容易了
+很多以前不懂产品的障碍
+现在问AI就行
+他们会给你答案
+给你一个演示
+你就能直接上手
+确保你有好的文档
+大模型就能读取
+我觉得这是现在打造优秀PLG公司最重要的基础
+太棒了 非常鼓舞人心
+我觉得在场所有人都会成为构建者 创作者
+去行动 去实现
+现在交给观众提问
+如果你有问题
+举手
+然后我就把麦克风发过来
+任何一个问出好问题的人
+我们要免费送一本签名的书
+你如何评价好？
+你如何评估
+我不知道 你来告诉我
+数据驱动？没法量化
+我现在就把麦克寄过去
+我们刚才聊到数据科学家不能成为构建者
+过去几年我发现 数据科学家特别擅长做AI
+所以我们谈到了
+像 AI和数据科学之间的交集
+但从AI工程师的角度来看
+那些有数据科学背景的
+是最棒的
+我很好奇
+作为一个花了很多时间在数据科学上的人
+需要从数据科学的角度来理解
+我们如何让更多的人了解
+所以问题是 我们如何让人们理解数据科学实际上非常重要
+是的 我们如何讲述这个故事？
+这是个好问题
+你想从讲故事开始吗
+其实我不太擅长这个
+因为我总是告诉数据科学家不要再做数据科学家了
+要做构建者
+因为我们的工作比较间接
+我们在大公司 复杂信息环境里很有优势 
+因为别人看不懂数据
+我们擅长理解数据
+我们可以提出更好的建议并间接推动行动
+我不喜欢那样
+我只想让行动发生
+所以我总是告诉数据科学家成为建设者
+但不是反过来
+我不跟别人说数据科学家有多重要
+我希望所有数据科学家能直接落地改动
+他们不需要依赖工程师
+换个说法
+不要把数据只当成一个领域 一种专长
+我认为数据和人工智能
+你们应该把数据和AI都当成工具
+辅助业务决策的基础工具
+因为我们做一切都是为了驱动业务增长
+我们要赚钱
+所以无论用数据 AI
+只要能用上
+就去做 就这样
+你好
+这是给Mengying的问题
+你之前提到过
+你刚才说PLG不是不做营销 对吧
+能聊聊你说的是哪种营销吗
+因为有付费广告
+有网红营销
+也许是对社区的投资
+因为你经历过Notion早期
+什么样的营销更有效？
+尤其是在早期
+实际上我认为这取决于你从事哪个行业
+例如
+比如Notion从网红营销中获益良多
+尤其是在疫情期间
+大家都在刷手机
+我们Notion前营销负责人就在现场
+如果你对市场营销感兴趣
+找候选人
+谢谢你能来
+我们从中学到了很多
+Camille 也做得很好
+写关于Notion的教程
+确保人们理解如何使用它
+我们都知道Notion学习曲线比较陡
+我想这都有帮助
+另一方面
+Pylon做了很多LinkedIn营销
+非常成功
+他们根本没有在营销上花一美元
+只是他们让联合创始人每天都认真发帖
+我印象深刻
+他们就是这样成功的
+而如今
+例如
+因为AI内容优化
+大家开始专门为模型制作内容
+我听过一些故事
+我听说有人在域名下做隐藏网
+放大量AI写的低质博客
+给LLM大模型读取
+让搜索引擎收录
+我认为这真的取决于不同阶段和不同行业
+取决于你擅长什么
+团队有什么人才
+还有其他问题吗
+首先
+再次祝贺你出书
+我有个问题要问Mengying
+我是今天的目标
+回答完问题我应该得一本书
+你刚加入Notion时
+如何确定增长最核心的问题是什么
+那个问题是什么？
+这是个好问题
+我刚加入Notion时
+当然很迷茫
+不知道怎么做
+这是一家初创公司
+我只是想确保我有工作
+我特别担心被开除
+说真的 因为我不知道
+Facebook和微软的经验在初创公司是否适用
+为了了解最重要的事情是什么
+我认为与利益相关者交谈非常重要
+要明白他们最关心什么
+真正阻碍他们的是什么
+没有人能做到
+而也许我有优势去做
+这就是我找到实验方向的原因
+我发现
+实验是大家推出好功能的最大障碍
+人们总是想明白
+当我加入的时候
+Notion已经拥有数百万用户
+但那时他们只进行了不到十次实验
+然后我意识到
+这也许是我能帮公司搭建的能力
+这就是为什么我开始和Statsig交流
+基本上是和不同的供应商
+第一次自己筛选供应商
+自己第一次签合同
+我一个人谈判
+然后在公司推动实验文化 打造初创公司的实验体系
+我叫米兰达
+谢谢举办活动
+首先
+首先很多内容让我非常有共鸣
+我是一名全职数据科学家 带领团队做网红营销和AI内容优化
+说到文本分析 我也看到很多应用场景
+比如网红的社交评论等等
+我也非常认同
+数据科学家能成为构建者
+但我意识到今天很多界限变得模糊
+所以我很好奇
+你们觉得数据科学家下一个 最重要的脱颖而出的技能是什么
+因为现在
+现在数据科学和数据工程 产品经理边界模糊
+边界模糊 所有人都能做所有事
+全员上阵
+你们认为在这个竞争激烈的环境里
+什么独特技能能让人脱颖而出
+我有一个简短的回答
+之后我们可以再深入交流
+我认为我对普通人群的回答和数据科学家都是一样的
+就是主观能动性与品味
+拥有主观能动性
+你就能做很多别人想不到的事
+或是别人无法落地的事
+品味最终让你与众不同
+让你做出更好的决定
+我再补充一点
+可能是好奇心
+我认为好奇心是一切的驱动力
+你必须对业务的运转保持强烈好奇
+比如好奇为什么数据和预期不一样
+为什么这个功能看起来这么奇怪
+为什么我们的博客要做成这样
+为什么那里没有按钮
+保持好奇
+主动提问
+即使你不是这方面的专家
+人们会回答你的问题
+并会告诉你
+我们这么做的原因
+或者他们会说
+其实我们从没想过这个
+也许我们应该这么做
+这就是我们贡献的方式
+我想这是对的
+非常非常重要
+无论岗位边界是否模糊
+真正退一步 用第一性原理思考
+解决问题需要什么条件
+该如何切入并搭建方案
+我觉得还是很关键的
+谢谢你
+我叫Jerry
+我的问题是
+大家都在说岗位边界模糊
+在AI时代 数据科学家需要掌握不同的技能组合
+对数据科学家的就业市场有什么预测
+我想有入门级
+中级和更高级别
+我认为越往高层
+核心就是决策能力与影响力
+但是你的预测是什么
+感觉所有科技岗位的市场似乎都会收缩
+这是我的第一反应
+可能是错的
+我还在招人
+所以各位
+这正好给我的岗位打个广告
+如果有人有兴趣加入Bring Trust
+担任增长方向数据科学家或资深数据分析师
+也可以随时和我谈谈
+回答你的问题
+我确实这么认为
+我要说的一件事是
+如今和以前相比
+我招人的时候
+我也看看
+他们有多少年的经验
+他们在简历上还有什么东西
+他们以前在什么样的公司工作？
+但现在我对这些看得更淡了
+说实话
+正如刚才各位所说
+我真正看重的是主观能动性
+好奇心
+以及他们能否用正确的工具把事做成
+我认为这非常重要
+所以我喜欢甚至在招聘启事里
+会让求职者分享一个主动解决问题的故事
+哪怕不是本职工作
+或是一个非常棘手的问题
+我想这能让我知道这个人是什么样的人
+我认为这非常重要
+所以在人工智能时代
+编码不是最重要的
+我想显然
+它对初级岗位的冲击尤其大
+举个例子
+Statics曾发布一个初级数据科学家岗位
+这实际上很罕见
+公司基本不再招聘初级数据科学家了
+我们一天内收到了大概3000份申请
+但我们只能筛选2到50份
+不像两年前
+所以我认为AI确实带来了冲击
+对初级岗位的冲击尤为严重
+但我之前邀请Howie参加另一场圆桌
+Howie对类似问题的回答是
+二十年前没有数据科学家
+数据科学家是被创造出来的职位
+它不像农民这种传统岗位
+它甚至不像厕所清洁
+它是一个被创造出来的岗位
+所以我确实认为我们角色的意义会改变
+所以无论你是高级还是初级从业者
+专注于你要解决的问题
+我们招聘高级人才时
+看重的是你对业务运转有更成熟的认知
+所以你有更好的判断力
+初级人员
+看重的是你的综合能力
+既能写代码 又能做分析
+还有统计学基础
+分析能做到严谨
+所以我认为如果拆解来看
+什么特质有价值
+尤其是现在技能本身越来越容易获取
+那也许你找到工作的机会更大
+最后一个问题
+我的问题是 我们聊了很多
+用AI辅助数据科学
+但我想问另一个问题
+在这个时代 越来越多智能体产品问世
+我们如何衡量它们？
+尤其是 当智能体产品有自己的
+例如
+亚马逊有个叫Roofers的智能体
+这些传统业务已经有了一套成熟的衡量标准 比如KPI
+但是当他们推出新的智能体产品时
+你觉得怎么样
+他们应该改变KPI吗？
+因为如果他们用传统的KPI来衡量
+你会发现收益可能抵不上成本
+因为开发智能体的成本非常高
+我认为这个问题在硅谷会越来越普遍
+我觉得真的要好好思考 代理的成功是什么样子的？
+再把它转化为可衡量的指标
+例如
+你想解决什么问题？
+并再次理解
+我认为核心衡量逻辑不会有太大改变
+我知道现在智能体概念很火
+有很多流行语之类的
+但退一步说
+我认为核心就是核心
+依我看
+你仍然想了解你的用户
+依然要用同样的衡量逻辑
+我不认为需要为了衡量智能体而创造全新指标
+归根结底
+智能体是用来解决问题的
+本质上
+那个问题是什么样的？
+我认为即便ChatGPT 依然用周活等指标衡量
+所以我想还是一样的
+而且这样衡量成功 认知成本更低
+因为我们已经习惯了用这套逻辑衡量产品成功
+我相信会有一些事情发生变化
+但在我看来
+依然是了解用户
+遵循核心逻辑 标准指标依然适用
+我以为问题是关于人工智能评估的
+如何评估智能体的质量与效果
+但你问题的后半部分
+我在想
+你到底为什么需要这个智能体
+如果你看不到业务成果的积极增长
+我认为你想要智能体的原因 要么是你可以节省成本
+要么是提效
+或者你可以做以前做不到的新事情
+如果没有实现新突破
+而且没有KPI
+没有改善
+不要使用智能体
+为什么你为什么要使用
+我觉得是也不是
+因为你仍然看到
+所有大公司都在大力推进
+每个组织的目标都是布局AI
+我认为这其中有投资的成分
+大家害怕跟不上趋势
+所以我们投资 为了使用AI而使用AI
+即使可能没有效果
+但我们把它当作对未来的投资
+我觉得从那个角度
+那就当是投资吧
+好的 谢谢你
+让我们给嘉宾们热烈的掌声
+感谢各位今晚的参与
+我们会再留一会
+我听说有签售环节
+其实没有签售
+但我会把书送给刚才提问精彩的观众
+我们要分享一些蛋糕
+太棒了
+我们会再呆一会儿
+大家可以分组继续交流
+好的 谢谢大家
