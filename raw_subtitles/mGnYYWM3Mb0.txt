@@ -1,0 +1,680 @@
+[Speaker 0]: 嗯，
+[Speaker 1]: 上周，
+[Speaker 1]: 中国金融圈一个最重磅的新闻。
+[Speaker 1]: 五月二十二日，
+[Speaker 1]: 中国证监会突然宣布对老虎附图和长桥这三家券商进行严厉打击和罚款。
+[Speaker 1]: 有些观众可能对这三个名字不太熟悉啊，
+[Speaker 1]: 这是中国人用来炒港股和美股用的比较多的三个券商 APP 通告是这么说的。
+[Speaker 1]: 这些公司的非法跨境展业行为违反了我国证券投资基金、
+[Speaker 1]: 期货法律法规，
+[Speaker 1]: 破坏了市场秩序，
+[Speaker 1]: 必须坚决予以打法。
+[Speaker 1]: 击。
+[Speaker 1]: 证监会拟决定没收老虎附图长桥，
+[Speaker 1]: 境内外相关主体全部违法所得，
+[Speaker 1]: 并依法严厉处罚。
+[Speaker 1]: 后来宣布附图被罚款十八点五亿元人民币，
+[Speaker 1]: 创始人李华个人罚款一百二十五万元，
+[Speaker 1]: 老虎证券罚款加没收违法所得总计四点一亿元 CEO 吴天华个人罚款一百二十五万元。
+[Speaker 1]: 这个消息出来以后，
+[Speaker 1]: 三家企业的盘前股价都暴跌了超过百十五万元。
+[Speaker 1]: 证监会的这个动作当然是引来炒股人士的一片骂声啦。
+[Speaker 1]: 因为本次行动的目的非常明显，
+[Speaker 1]: 就是不让中国人买美股，
+[Speaker 1]: 老老实实待在 a 股。
+[Speaker 1]: 这个超级韭菜收割机里一直以来有句话说中国，
+[Speaker 1]: 股市要是真能赚钱，
+[Speaker 1]: 老百姓开户都得托关系。
+[Speaker 1]: 现在这不就真的完美展现了这句话的含金量了吗？
+[Speaker 1]: 大家都知道美股是真能赚钱啊，
+[Speaker 1]: 所以现在开都不让你开。
+[Speaker 1]: 所以这件事就让很多人觉得非常的气愤啊，
+[Speaker 1]: 就给人这种感觉，
+[Speaker 1]: 凡是能让老百姓赚钱的通通封杀，
+[Speaker 1]: 只要能收割老百姓的敞开大门，
+[Speaker 1]: 欢迎韭菜入茶。
+[Speaker 0]: 哎，
+[Speaker 1]: 说实话，
+[Speaker 1]: 对绝大部分中国老百姓来说，
+[Speaker 1]: 买美股的门槛本来就挺高的，
+[Speaker 1]: 要换汇，
+[Speaker 1]: 要海外开户，
+[Speaker 1]: 还要不相信从小到大被洗脑的美帝国随时要崩溃。
+[Speaker 1]: 所以本次政策真正影响的人群应该是整个中国人口当中的极少数。
+[Speaker 1]: 但我相信有很多，
+[Speaker 1]: 即便原本不买美股的普通人也觉得挺压抑的，
+[Speaker 1]: 就是感觉上面实在是管太多了。
+[Speaker 1]: 我以前不买，
+[Speaker 1]: 可能以后我想买呢，
+[Speaker 1]: 起码我知道还有这么一条路，
+[Speaker 1]: 但总觉得一条又一条的生路都被堵死了。
+[Speaker 1]: 证监会这个动作在这个时间点出来，
+[Speaker 1]: 其目的是毫无疑问的。
+[Speaker 1]: 大家都知道美股最近简直像疯了一样往上涨。
+[Speaker 1]: 纳斯达克指数在过去短短三个月就暴涨了，
+[Speaker 1]: 接近百分之十八不断，
+[Speaker 1]: 创下历史新高。
+[Speaker 1]:  AI 相关的股票尤其涨得凶猛。
+[Speaker 1]: 比如，
+[Speaker 1]:  AMD 过去三个月暴涨了超过百分之一百一十八，
+[Speaker 1]:  ARM 五个月，
+[Speaker 1]: 涨了超过百分之两百，
+[Speaker 1]: 而存储相关的股票更是彻底杀疯了。
+[Speaker 1]: 闪迪金今年以来已经疯涨了超过百分之五百，
+[Speaker 1]: 过去一年更是一度暴涨超过百分之两千五百美观，
+[Speaker 1]: 科技今年以来也已经涨了大约百分之一百六十三。
+[Speaker 1]: 过去一年股价翻了七倍。
+[Speaker 1]: 二零二零二零二零零零零零零二零的手的在大盘这疯狂上涨背后，
+[Speaker 1]: 还有更加让市场期待的那就是三个史无前例的科技巨无霸，
+[Speaker 1]: 即将在美股上市。
+[Speaker 1]: 第一个就是马斯克的 space x 市场普遍预计将在今年六月十二号登陆纳斯达克股票代码。
+[Speaker 1]:  SPCX 预计，
+[Speaker 1]: 一上市估值就将达到一点七到两万亿美元，
+[Speaker 1]: 几乎毫无悬念将成为史上规模最大的 IPO。
+[Speaker 1]: 接着就是 open AI，
+[Speaker 1]: 这家 HGB 地的母公司计划将在今年第四季度上市，
+[Speaker 1]: 预计规模将达到八千五百至一万亿美元。
+[Speaker 1]: 这还没完，
+[Speaker 1]: 还有万众瞩目的 AI 公司 and dropc 预计也将在今年年底前后上市。
+[Speaker 1]:  and dropc 的大模型 cloud 目前是公认在编程复杂推理方面最强大的 AI 大模型。
+[Speaker 1]:  and dropc 今年二月份融资的时候，
+[Speaker 1]: 估值还只有三千八百亿美元。
+[Speaker 1]: 最近市场传出的新一轮估值报价已经直接杀到了九千亿美元。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 当 space ex open AI 和 anthropy c 这三家公司上市，
+[Speaker 1]: 每股就会新增接近三点五万亿美元的市值。
+[Speaker 1]: 三点五万亿美元是什么概念？
+[Speaker 1]: 仅仅三家企业上市，
+[Speaker 1]: 就相当于把整个德国股市加上整个新加坡股市的总市值新增到每股当中。
+[Speaker 1]: 在这种情况下，
+[Speaker 1]: 全球资本市场和股民都想到美股来分一杯羹，
+[Speaker 1]: 当然也包括对赚钱非常热衷的中国人。
+[Speaker 1]: 但就在中国人民争相涌入美股捞金的时候，
+[Speaker 1]: 却被证监会紧急叫停了。
+[Speaker 1]: 其实，
+[Speaker 1]: 不让老百姓一窝蜂冲去买美股的道理是非常简单的，
+[Speaker 1]: 也是中国金融管制。
+[Speaker 1]: 一直以来都贯彻始终的那就是不能让资金外流人民币之所以不能自由兑换，
+[Speaker 1]: 每个中国人每年最多只能换汇不超过五万美元的等额外汇，
+[Speaker 1]: 归根结底也是这个原因，
+[Speaker 1]: 不能让大规模资金外流，
+[Speaker 1]: 这也是没办法的。
+[Speaker 1]: 中共确实必须这么作。
+[Speaker 1]: 你想想如果有的选择的话，
+[Speaker 1]: 你是想存人民币还是想存美元呢？
+[Speaker 1]: 中共如果今天颁布政策说人民币可以自由兑换了，
+[Speaker 1]: 明天立刻就会出现大规模的人民币抛售，
+[Speaker 1]: 导致汇率暴跌。
+[Speaker 1]: 外汇储备未减，
+[Speaker 1]: 银行体系的流动性承受巨大压力，
+[Speaker 1]: 很有可能直接导致经济崩溃。
+[Speaker 1]: 嗯，
+[Speaker 1]: 对对对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 那么中国人在境外买美股，
+[Speaker 1]: 也必须先把人民币换成美金吧。
+[Speaker 1]: 最近几年，
+[Speaker 1]: 尤其是最近半年来，
+[Speaker 1]: 美股不断创新，
+[Speaker 1]: 高于是越来越多，
+[Speaker 1]: 中国人都开始投资美股。
+[Speaker 1]: 那么中共肯定觉得不能再继续这样下去了。
+[Speaker 0]: 好的好的，
+[Speaker 0]: 好好的好的。
+[Speaker 1]: 其实长期来看，
+[Speaker 1]: 美股一直都是这么强的。
+[Speaker 1]: 如果你在一九八五年，
+[Speaker 1]: 用十万元购买纳斯达克综合指数 ETF，
+[Speaker 1]: 并持有到今天你的持股市值，
+[Speaker 1]: 现在已经翻了一百零四倍，
+[Speaker 1]: 你的十万元已经变成了超过一千万美元。
+[Speaker 1]: 现在呢只不过是自媒体发达啦，
+[Speaker 1]: 什么小红书啊、
+[Speaker 1]: 视频号啊，
+[Speaker 1]: 一堆财经博主都在教大家怎么买美股，
+[Speaker 1]: 再加上翻墙的人也越来越多，
+[Speaker 1]: 看清楚世界的中国人越来越多。
+[Speaker 1]: 再加上美股最近的疯狂势头，
+[Speaker 1]: 种种因素叠加起来，
+[Speaker 1]: 买美股的人数已经到了中共无法容忍的地步了。
+[Speaker 0]: 是的是的是是的是的，
+[Speaker 1]: 这几天我在 x 上就看到有人抱怨说，
+[Speaker 1]: 本来大家闷声发大财的，
+[Speaker 1]: 结果一堆人在小红书和抖音上，
+[Speaker 1]: 要么天天晒自己美股，
+[Speaker 1]: 赚了多少钱，
+[Speaker 1]: 要么指导大家应该如何把钱弄出去买美股，
+[Speaker 1]: 不封你封谁呀？
+[Speaker 1]: 中共此举除了防止大量资金外流以外，
+[Speaker 1]: 还有另一个因素，
+[Speaker 1]: 那就是监管和税收。
+[Speaker 1]: 虽然说税收现在有 CRS，
+[Speaker 1]: 在本次打击之前，
+[Speaker 1]: 已经开始有很多投资美股的人收到了税务局的纳税通知。
+[Speaker 1]: 但毕竟只要钱出去了，
+[Speaker 1]: 就不像在国内那么好监管。
+[Speaker 1]: 第二点，
+[Speaker 1]: 我觉得就是单纯的想管想控制。
+[Speaker 1]: 一直以来，
+[Speaker 1]: 中共的统治理念就是什么都得管起来，
+[Speaker 1]: 管天、
+[Speaker 1]: 管地、
+[Speaker 1]: 管思想、
+[Speaker 1]: 管言论、
+[Speaker 1]: 管娱乐、
+[Speaker 1]: 管子宫，
+[Speaker 1]: 什么都要备案，
+[Speaker 1]: 什么都要审批，
+[Speaker 1]: 什么都要规范化管理，
+[Speaker 1]: 一切都必须在国家的掌控之中。
+[Speaker 1]: 而中国人在海外平台炒股，
+[Speaker 1]: 这就属于不可控的事。
+[Speaker 1]: 以前只是一小撮人还不重视，
+[Speaker 1]: 但现在人越来越多，
+[Speaker 1]: 就觉得必须管起来了，
+[Speaker 0]: 是不？
+[Speaker 1]: 这个个个这个个一个本次证监会的动作，
+[Speaker 1]: 也让我再次想起了四年前马云在外滩峰会上所讲过的一段话。
+[Speaker 1]: 马云的那段演讲，
+[Speaker 1]: 也许是人类历史上最昂贵、
+[Speaker 1]: 损失最惨重的一场演讲啦。
+[Speaker 1]: 就因为他讲的这些话，
+[Speaker 1]: 原本即将创下史上最大 IPO 的蚂蚁金服上市被叫停，
+[Speaker 1]: 马云也从此淡出江湖。
+[Speaker 1]: 关于中国的监管。
+[Speaker 1]: 马云当年是这么说的，
+[Speaker 2]: 其实监和管是两两回事情，
+[Speaker 2]: 监是看着你发展，
+[Speaker 2]: 关注你发展管是有问题的时候或预判，
+[Speaker 2]: 有问题的才去管。
+[Speaker 2]: 但是我们现在管的能力越来越强，
+[Speaker 2]: 监的能力明显不足。
+[Speaker 2]: 好的创新不怕监管，
+[Speaker 2]: 但是怕昨天的方式去监管。
+[Speaker 2]: 我们不能用管理火车站的方法去管理飞机场，
+[Speaker 2]: 不能用昨天的办法来管。
+[Speaker 2]: 未来监和管不一样，
+[Speaker 2]: 政策和文件也不一样，
+[Speaker 2]: 今天这个不许那个不许，
+[Speaker 2]: 那都叫文件。
+[Speaker 2]: 政策是机制建设，
+[Speaker 2]: 是激励发展。
+[Speaker 2]: 今天，
+[Speaker 2]: 全世界特别是中国需要很多的政策专家，
+[Speaker 2]: 而不是文件转运的。
+[Speaker 2]: 如果说你不减，
+[Speaker 2]: 那你的规章制度越来越厚，
+[Speaker 2]: 是逼迫每个人去犯法，
+[Speaker 2]: 每个人去犯错，
+[Speaker 2]: 大家自己都糊涂起来。
+[Speaker 1]: 其实说实话，
+[Speaker 1]: 就中国目前的情况，
+[Speaker 1]: 中共政府想要防止资本大量外流，
+[Speaker 1]: 保住人民币汇率以及国内的流动性，
+[Speaker 1]: 以此来维护整个金融系统的稳定。
+[Speaker 1]: 我是可以理解的。
+[Speaker 1]: 但是呢就跟中共这些年来的很多错误政策的根源一样，
+[Speaker 1]: 他们总是想着赌而不是输。
+[Speaker 1]: 我刚才也说了，
+[Speaker 1]: 中国人直接买美股的门槛是相当高的，
+[Speaker 1]: 比翻墙可难多了。
+[Speaker 1]: 真正有能力到海外配置资产的人有多少？
+[Speaker 1]: 我估计连千分之五都未必有，
+[Speaker 1]: 但你为了堵住这极少数人，
+[Speaker 1]: 却让其他绝大多数普通人都产生了一种就是要把我们所有的路都堵死的感觉。
+[Speaker 1]: 其实对国家来说是得不偿失的。
+[Speaker 1]: 好的好的好的，
+[Speaker 1]: 除了中国人，
+[Speaker 1]: 这样的政策只会加深外资和外国人。
+[Speaker 1]: 对中国金融环境不自由的印象。
+[Speaker 1]: 这几年来，
+[Speaker 1]: 中国的外商直接投资金额 FDI 已经崩塌到谷底了。
+[Speaker 1]: 这只会让 FDI 雪上加霜。
+[Speaker 1]: 你与其禁止人民买美股，
+[Speaker 1]: 不如想想怎么加快国内资本市场的深化改革，
+[Speaker 1]: 让 a 股债券市场真正成为有吸引力的投资场所，
+[Speaker 1]: 减少居民被迫出海的冲动。
+[Speaker 1]:  a 股如果真的有吸引力，
+[Speaker 1]: 有钱赚，
+[Speaker 1]: 中国人谁愿意折腾去买美股啊？
+[Speaker 1]: 事实上就是跟其他发达国家的股市相比，
+[Speaker 1]:  a 股的机制实在太落后，
+[Speaker 1]: 对散户约束实在太多，
+[Speaker 1]: 政策几乎是一面倒，
+[Speaker 1]: 对机构有利的。
+[Speaker 1]: 比如说在世界绝大多数成熟的股市里，
+[Speaker 1]: 股票通常都是谁买，
+[Speaker 1]: 谁卖的，
+[Speaker 1]: 什么意思呢？
+[Speaker 1]: 就是你买了股票以后随时都可以卖出，
+[Speaker 1]: 但 a 股长期实行 t 加一制度。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 今天买的股票今天不能卖，
+[Speaker 1]: 至少得等到下一个交易日。
+[Speaker 1]: 官方每齐名说，
+[Speaker 1]: 哦，
+[Speaker 1]: 这是为了防止市场过度投机，
+[Speaker 1]: 以减少市场波动，
+[Speaker 1]: 保护中小投资者。
+[Speaker 1]: 但在现实中，
+[Speaker 1]: 这个政策完全就是在坑散户的。
+[Speaker 1]: 比如说你今天上午买了一只股票，
+[Speaker 1]: 你刚九点三十分买完九点三十一分。
+[Speaker 1]: 你看到新闻说这家公司被曝财务造假，
+[Speaker 1]: 但因为 t 加一，
+[Speaker 1]: 你是不能卖出的，
+[Speaker 1]: 你只能眼睁睁看着它跌停。
+[Speaker 1]: 但机构不一样，
+[Speaker 1]: 机构有非常多散户无法运用到的工具，
+[Speaker 1]: 机构可以通过股指期货量化对冲、
+[Speaker 1]:  ETF 套利、
+[Speaker 1]: 融资融券等等，
+[Speaker 1]: 去对冲部分风险。
+[Speaker 1]: 所以 t 加一制度真正锁死的往往是普通散苦。
+[Speaker 1]: 再比如，
+[Speaker 1]:  a 股主板有百分之十的涨跌停限制，
+[Speaker 1]: 又是一个美其名曰保护投资者的制度。
+[Speaker 1]: 但实际上，
+[Speaker 1]: 一旦遇到利空，
+[Speaker 1]: 很多股票连续跌停，
+[Speaker 1]: 你卖都卖不出去。
+[Speaker 1]: 真正的风险不是消失了，
+[Speaker 1]: 而是被延后、
+[Speaker 1]: 被堆积，
+[Speaker 1]: 最后被集中释放。
+[Speaker 0]: 这个一一二一一一二个的一个，
+[Speaker 1]: 但这些都还是小问题，
+[Speaker 1]: 最大的问题还是 a 股长期存在一个结构性问题，
+[Speaker 1]: 那就是上市公司把股市当做融资提款机。
+[Speaker 1]:  IPO 增发仅是一轮又一轮，
+[Speaker 1]: 但对投资者的长期回报，
+[Speaker 1]: 现金分红、
+[Speaker 1]: 公司治理和约束非常不足。
+[Speaker 1]: 对在任何一个成熟市场里，
+[Speaker 1]: 上市公司如果长期不赚钱、
+[Speaker 1]: 不分红、
+[Speaker 1]: 不回购，
+[Speaker 1]: 治理混乱，
+[Speaker 1]: 市场会用脚投票，
+[Speaker 1]: 退市机制也非常强硬。
+[Speaker 1]: 但 a 股过去很多年，
+[Speaker 1]: 最大的问题就是一直有上市的公司，
+[Speaker 1]: 但退市的非常非常少。
+[Speaker 1]: 我给大家讲一个数据对比，
+[Speaker 1]: 一定会惊掉你的下巴。
+[Speaker 0]: 嗯，
+[Speaker 1]: 美股过去几十年里，
+[Speaker 1]: 累计退市公司数量有好几万家。
+[Speaker 1]: 我们就说一个纳斯达克历史上退市的公司也已经有上万家。
+[Speaker 1]: 而 a 股从一九九零年成立到今天，
+[Speaker 1]: 累计退市公司只有三百多家，
+[Speaker 1]: 三十六年仅仅三百多家。
+[Speaker 1]: 啊，
+[Speaker 1]: 也就是说，
+[Speaker 1]: 美国股市是一个真正优胜劣汰的地方，
+[Speaker 1]: 缺乏竞争力的企业，
+[Speaker 1]: 会不断被市场淘汰，
+[Speaker 1]: 让位给真正有实力的企业。
+[Speaker 1]: 但 a 股是一个貔貅市，
+[Speaker 1]: 只进不出结果，
+[Speaker 1]: 想当然就是 a 股里有一大堆垃圾公司和僵尸企业。
+[Speaker 1]: 长期赖在市场里圈钱，
+[Speaker 1]: 最后买单的当然是韭菜散户。
+[Speaker 1]: 虽然说这两年监管层大幅收紧了 IPO，
+[Speaker 1]: 加快了退市节奏。
+[Speaker 1]: 比如二零二四年和二零二五年两年总共清退了八十一家上市公司。
+[Speaker 1]: 但面对过去三十年来堆积下来的历史欠账依然是杯水车薪，
+[Speaker 1]: 是 a 股还有大量普通散户非常难以防范的问题，
+[Speaker 1]: 财务造假、
+[Speaker 1]: 内幕交易、
+[Speaker 1]: 关联交易、
+[Speaker 1]: 大股东、
+[Speaker 1]: 掏空上市公司等等。
+[Speaker 1]: 还有有些股票一旦被 ST，
+[Speaker 1]: 直接连续几十个跌停。
+[Speaker 1]: 散户想卖都卖不掉。
+[Speaker 1]: 而最根本的问题就是政府一直说他们在保护投资者。
+[Speaker 1]: 可是当散户真正被伤害的时候，
+[Speaker 1]: 赔偿机制形同虚设，
+[Speaker 1]: 集体诉讼难度太高。
+[Speaker 1]: 谢谢。
+[Speaker 1]: 关于 a 股的问题，
+[Speaker 1]: 我以前做过三期，
+[Speaker 1]: 专门讲 a 股的节目，
+[Speaker 1]: 深入探讨过有兴趣的朋友之后可以去看看我新建的一个播放列表，
+[Speaker 1]: 叫做中国 a 股为何绝对不能碰三部曲链接，
+[Speaker 1]: 我也会放在这个视频的结尾处。
+[Speaker 1]: 看完这三期节目，
+[Speaker 1]: 我相信你永远都不会再碰 a 股，
+[Speaker 1]: 几年后我一定会收到你的感谢信。
+[Speaker 1]: 所以我先在这里跟你说一声，
+[Speaker 1]: 不用客气。
+[Speaker 1]: 哼。
+[Speaker 1]: 很多玩过多年 a 股的人，
+[Speaker 1]: 虽然不一定能像我一样系统性的总结，
+[Speaker 1]: 但他们知道 a 股烂透了，
+[Speaker 1]: 他们遍体鳞伤。
+[Speaker 1]: 当他们有一天了解到美股四十年翻了一百倍之后，
+[Speaker 1]: 你能怪他们想要去买美股吗？
+[Speaker 1]: 你这个其实这就是一个非常简单的逻辑，
+[Speaker 1]: 不管你怎么赌钱，
+[Speaker 1]: 会自己寻找更安全、
+[Speaker 1]: 更透明、
+[Speaker 1]: 更公平、
+[Speaker 1]: 更有回报的地方。
+[Speaker 1]: 你与其花那么多精力去封堵人民的投资自由，
+[Speaker 1]: 还不如把 a 股这所有的问题都解决了，
+[Speaker 1]: 最起码有所改善吧。
+[Speaker 1]: 说到底，
+[Speaker 1]: 不管是年轻人是否愿意奋斗，
+[Speaker 1]: 人们更愿意投资哪个股市，
+[Speaker 1]: 甚至是台湾是否回归，
+[Speaker 1]: 其实都是一个道理。
+[Speaker 1]: 你若盛开，
+[Speaker 1]: 蝴蝶自来。
+[Speaker 1]: 好了。
+[Speaker 1]: 那么最后我来讲一些实操的东西。
+[Speaker 1]: 首先大家要搞清楚一件事，
+[Speaker 1]: 本次打击这些平台其实并不等同于是在说中国人不能买美股，
+[Speaker 1]: 更加不是说中国人买美股违法，
+[Speaker 1]: 这么说是不严谨的。
+[Speaker 1]: 没有法律说中国人买美股违法，
+[Speaker 1]: 但是有法律说中国人每年购汇的额度不能用于海外投资，
+[Speaker 1]: 所以其实结果还是一样。
+[Speaker 1]: 当然如果你是一个中国人在海外工作赚了外币，
+[Speaker 1]: 那么你买美股当然没问题。
+[Speaker 1]: 所以这就是我上面说的这归根结底是一个不让国内资金外流的问题。
+[Speaker 1]: 那么如果你是一个在国内赚人民币的中国人，
+[Speaker 1]: 你想买美股怎么办呢？
+[Speaker 1]: 这里我分两块来讲啊，
+[Speaker 1]: 一个是官方渠道，
+[Speaker 1]: 另一个是非官方渠道。
+[Speaker 1]: 中共为什么不直接说买美股违法呢？
+[Speaker 1]: 因为它不是不让你买，
+[Speaker 1]: 它是要你在一个国家完全可控的渠道下来购买。
+[Speaker 1]: 第一个就是我一年多以前就已经给大家建议过的到支付宝里去买纳斯达克或标普五百的 ETF 基金。
+[Speaker 1]: 当年听我建议并立刻去执行的人，
+[Speaker 1]: 到现在都还经常在评论区和私信里感谢我。
+[Speaker 1]: 第二个就是 QDII。
+[Speaker 1]: 所谓 QDII，
+[Speaker 1]: 是国内私募基金、
+[Speaker 1]: 银行、
+[Speaker 1]: 券商等机构拿到外管局的额度后，
+[Speaker 1]: 发行 QDII 基金或 ETF，
+[Speaker 1]: 让境内个人通过银行或基金 APP 用人民币来申购，
+[Speaker 1]: 覆盖美股、
+[Speaker 1]: 港股、
+[Speaker 1]: 全球债券等等。
+[Speaker 1]: 其实支付宝的那个也是 QDII 大闪下的一部分，
+[Speaker 1]: 但不管是通过支付宝还是国内银行购买，
+[Speaker 1]: 美股，
+[Speaker 1]: 都有几个很大的问题。
+[Speaker 0]: 好的好的好的好的，
+[Speaker 1]: 第一个就是额度非常稀缺，
+[Speaker 1]: 全国 QDII 总额度目前只有一千七百多亿美元左右。
+[Speaker 1]: 说真的，
+[Speaker 1]: 你给个机会，
+[Speaker 1]: 人人都想买美股，
+[Speaker 1]: 这点额度对十几亿人口来说杯水车薪。
+[Speaker 1]: 所以现在最大的问题就是经常都是你想买，
+[Speaker 1]: 但是抢不到额度。
+[Speaker 1]: 嗯，
+[Speaker 1]: 可能我也有点责任吧。
+[Speaker 1]: 啊，
+[Speaker 1]: 去年我推荐大家去支付宝购买美股 ETF 之后，
+[Speaker 1]: 额度就开始越来越紧张了。
+[Speaker 1]: 以前每天都还能买个几千甚至几万元的。
+[Speaker 1]: 但根据我了解，
+[Speaker 1]: 有很多基金现在一天限额才十块钱人民币，
+[Speaker 1]: 根本就毫无意义。
+[Speaker 0]: 好的好的好的的。
+[Speaker 0]: 是的是的。
+[Speaker 1]: 第二个问题，
+[Speaker 1]: 高溢价既然这玩意儿严重的供不应求，
+[Speaker 1]: 所以二级市场的 ETF 经常出现高溢价。
+[Speaker 1]: 也就是说你买的 ETF 价格是高于这些股票的净值的。
+[Speaker 1]: 一般来说溢价大约是几个百分点。
+[Speaker 1]: 但在市场疯狂的时候，
+[Speaker 1]: 也出现过溢价百分之十、
+[Speaker 1]: 百分之二十甚至是百分之四十的情况。
+[Speaker 1]: 所以假设你跟你的朋友同时买入同一支美股基金，
+[Speaker 1]: 你是通过 QDII 来购买的。
+[Speaker 1]: 但你的朋友是通过券商 APP 直接购买的。
+[Speaker 1]: 那么当你们同时卖出的时候，
+[Speaker 1]: 你的实际回报率肯定是要比他来的低。
+[Speaker 1]: 第三个问题是，
+[Speaker 1]: 费用高。
+[Speaker 1]:  QDII 其实就是国内基金公司来帮你买美股，
+[Speaker 1]: 所以当中还要跟你收取管理费、
+[Speaker 1]: 托管费、
+[Speaker 1]: 汇率、
+[Speaker 1]: 点差，
+[Speaker 1]: 这些都比你自己去买股票来的贵得多。
+[Speaker 1]: 这里我还要提个醒，
+[Speaker 1]: 你们在支付宝或其他地方购买 QDII 的时候，
+[Speaker 1]: 也要仔细看条款。
+[Speaker 1]: 有些基金先用大额度吸引客户买入。
+[Speaker 1]: 但其实他们在里面偷偷加了一些国内公司的股票，
+[Speaker 1]: 并不是真的全都是纳斯达克一百的股票，
+[Speaker 1]: 非常坑人。
+[Speaker 0]: 好的好的，
+[Speaker 1]: 这个这个这的这个怎么样？
+[Speaker 1]: 你听了这些以后，
+[Speaker 1]: 是不是觉得很不爽？
+[Speaker 1]:  QDII 这破玩意儿谁要买啊？
+[Speaker 1]: 没错啦，
+[Speaker 1]: 这时我们就要都回到了原点。
+[Speaker 1]: 这就是为什么有那么多人要直接通过富图老虎和长桥这类券商平台来直接购买美股的原因呢？
+[Speaker 1]: 是的，
+[Speaker 1]: 你的好的，
+[Speaker 1]: 这些 APP 把开户换汇直接买美股，
+[Speaker 1]: 做的像玩游戏一样简单。
+[Speaker 1]: 而 QDII 这种机构代劳的东西选择少，
+[Speaker 1]: 费用高，
+[Speaker 1]: 好的标的还挤不进去。
+[Speaker 1]: 只要有的选，
+[Speaker 1]: 让谁都不会选择 QDII 的。
+[Speaker 1]: 好的好的好的好的好的，
+[Speaker 1]: 另外 QTII 是人家帮你打包好的东西，
+[Speaker 1]: 就几个套餐给你选。
+[Speaker 1]: 但如果通过券商 APP，
+[Speaker 1]: 你可以自己挑选，
+[Speaker 1]: 要买什么股票，
+[Speaker 1]: 你可以直接购买英伟达、
+[Speaker 1]: 特斯拉、
+[Speaker 1]: 谷歌等等。
+[Speaker 1]: 对资深玩家来说，
+[Speaker 1]: 还可以做波段加杠杆、
+[Speaker 1]: 融资融券等等，
+[Speaker 1]: 那是一个完全自由的世界。
+[Speaker 1]: 但现在证监会说，
+[Speaker 1]: 不让你们玩了，
+[Speaker 1]: 都给我乖乖的回来吃，
+[Speaker 1]: 国家帮你打包好的套餐好了。
+[Speaker 1]: 如果你是附图老虎和长桥的用户，
+[Speaker 1]: 接下来该怎么办呢？
+[Speaker 1]: 根据公告，
+[Speaker 1]: 这是一个两年期的计划，
+[Speaker 1]: 也没有逼你现在就得卖掉你的股票，
+[Speaker 1]: 但未来两年你只能卖，
+[Speaker 1]: 不能买了。
+[Speaker 1]: 我看到现在有个说法，
+[Speaker 1]: 是因为通告说只是不让这些券商继续服务境内用户，
+[Speaker 1]: 所以让大家不用担心，
+[Speaker 1]: 以后只要用 VPN 还是可以继续使用的。
+[Speaker 1]: 我是觉得吧，
+[Speaker 1]: 这个目前也许没错，
+[Speaker 1]: 但其实这完全取决于中共想要实施的力度。
+[Speaker 1]: 只要他们想要完全封禁给到这些企业足够多的压力，
+[Speaker 1]: 那是完全可以封死 VPN 登陆这条路的。
+[Speaker 1]: 所以我个人认为，
+[Speaker 1]: 如果你真想长期投资，
+[Speaker 1]: 美股是不能抱有这种侥幸心理的。
+[Speaker 1]: 这里我提供几个建议啊，
+[Speaker 1]: 第一就是肉身去香港或别的国家开户。
+[Speaker 1]: 比如很多人去香港，
+[Speaker 1]: 汇丰开设银行账号的时候，
+[Speaker 1]: 就把股票交易账户也开通了。
+[Speaker 1]: 但是去之前一定要先做好功课，
+[Speaker 1]: 要带齐哪些材料，
+[Speaker 1]: 比如纳税证明、
+[Speaker 1]: 住址证明等等。
+[Speaker 1]: 这些网上有很多攻略我就不细讲了。
+[Speaker 1]: 那说真的，
+[Speaker 1]: 汇丰是一家非常听党话的银行。
+[Speaker 1]: 所以我认为选择汇丰其实是没有办法当中的银行，
+[Speaker 1]: 最好是选那些跟中共关系没有那么密切的银行。
+[Speaker 1]: 第二就是换一家券商平台，
+[Speaker 1]: 这里有一点是非常重要的就是你，
+[Speaker 1]: 一定要搞清楚这些券商的背景，
+[Speaker 1]: 尽量不要选中资背景的券商。
+[Speaker 1]: 道理非常简单，
+[Speaker 1]: 就是不要选那些中共有政治能力施压的企业。
+[Speaker 1]: 从这点来看，
+[Speaker 1]: 其实我认为香港券商也是不够安全的。
+[Speaker 1]: 比如你看本次被打压的三家企业，
+[Speaker 1]: 如果你只看表面的公司，
+[Speaker 1]: 注册地牌照、
+[Speaker 1]: 归属地和公司结构，
+[Speaker 1]: 好像他们都不是中国企业。
+[Speaker 1]: 但其实如果你看实际控制人创始团队和资金背景，
+[Speaker 1]: 那他们其实可以算是中资企业，
+[Speaker 1]: 或者说有深厚的中国背景。
+[Speaker 1]: 比如附图的创始人李华，
+[Speaker 1]: 他是腾讯的第十八号员工，
+[Speaker 1]: 腾讯也是附图的重要股东。
+[Speaker 1]: 老虎的创始人吴天华是前网易员工，
+[Speaker 1]: 公司早期技术研发主体是来自北京的相关公司。
+[Speaker 1]: 而长桥的创始团队核心成员有很多都是来自阿里系和字节跳动。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 虽然这三家企业不是中国公司，
+[Speaker 1]: 但老板是中国人，
+[Speaker 1]: 投资人和员工很多都是中国人，
+[Speaker 1]: 即便他们有些可能已经拿了国外身份，
+[Speaker 1]: 但必定还有家人和产业在中国，
+[Speaker 1]: 所以他们是不敢违抗中共政府的命令的。
+[Speaker 1]: 所此他们在挑选券商的时候，
+[Speaker 1]: 应该避免这类企业我的你这这个个个一个的一个。
+[Speaker 1]: 我认为最好是用美国的券商，
+[Speaker 1]: 比如 IBKR、
+[Speaker 1]: 盈透和敲算。
+[Speaker 1]: 嘉信这两家美国券商都是规模庞大、
+[Speaker 1]: 历史悠久的企业，
+[Speaker 1]: 而且美国券商还不受 CRS 管制，
+[Speaker 1]: 还有别的美国券商，
+[Speaker 1]: 比如 first trap，
+[Speaker 1]: 大家都可以自己去研究一下，
+[Speaker 1]: 具体如何申请和操作。
+[Speaker 1]: 网上已经有非常多的教程，
+[Speaker 1]: 所以我就不说了，
+[Speaker 1]: 你们可以自己搜索，
+[Speaker 1]: 比如盈透线上开户攻略或嘉信开户保姆级攻略。
+[Speaker 1]: 这样的关键词。
+[Speaker 1]: 对，
+[Speaker 1]: 记得每个平台都有各自的优势和劣势。
+[Speaker 1]: 那些比较好的教程应该要告诉你们这些平台的优劣势。
+[Speaker 1]: 你们要重点关注的有，
+[Speaker 1]: 比如交易成本、
+[Speaker 1]: 安全性覆盖哪些市场等等。
+[Speaker 1]: 还有就是大陆用户需要提供哪些材料，
+[Speaker 1]: 这些材料是不是你能提供的了的？
+[Speaker 0]: 好的好的好的的好的，
+[Speaker 0]: 我的好的，
+[Speaker 1]: 不过我也可以跟大家说，
+[Speaker 1]: 由于最近这三个平台被打击之后，
+[Speaker 1]: 已经有大量的新客户涌入这几个比较有名的美国平台。
+[Speaker 1]: 所以据我了解，
+[Speaker 1]: 他们也已经提高了申请门槛。
+[Speaker 1]: 比如 IPK 二现在需要大陆用户提供海外地址，
+[Speaker 1]: 这对很多人来说是一个非常高的门槛，
+[Speaker 1]: 相信目前应该还不需要。
+[Speaker 1]: 而不管是线上申请还是肉身申请，
+[Speaker 1]: 这当中你一定会遇到非常多的阻碍和麻烦。
+[Speaker 1]: 比如需要海外手机号，
+[Speaker 1]: 需要准备非常多的材料，
+[Speaker 1]: 漏胜申请的话，
+[Speaker 1]: 可能要排很长的队等等等，
+[Speaker 1]: 这就是考验一个人执行力和毅力的时候了。
+[Speaker 1]: 我经常跟大家说一件事，
+[Speaker 1]: 如果很简单的话，
+[Speaker 1]: 早就人人都在做了。
+[Speaker 1]: 所以正是因为困难，
+[Speaker 1]: 所以这件事才值得去做。
+[Speaker 1]: 而且这世上有很多事，
+[Speaker 1]: 其实并不是特别难，
+[Speaker 1]: 仅仅只是麻烦和繁琐，
+[Speaker 1]: 就已经拦住了百分之九十的人了。
+[Speaker 1]: 这世上绝大部分人都是缺乏执行力的。
+[Speaker 1]: 但也正因为如此，
+[Speaker 1]: 只要你肯执行起来，
+[Speaker 1]: 你就立刻能够超越百分之九十以上的人了。
+[Speaker 1]: 比如一年半以前，
+[Speaker 1]: 我建议大家去支付宝定投纳斯达克基金，
+[Speaker 1]: 有八十几万人看过这期视频，
+[Speaker 1]: 但有多少人真正去执行了呢？
+[Speaker 1]: 有一期节目我告诉大家，
+[Speaker 1]: 要用记录和追踪来提高自己长期坚持的力量。
+[Speaker 1]: 评论区里好评如潮，
+[Speaker 1]: 但有多少人真正去执行了呢？
+[Speaker 1]: 我经常看到类似这位观众这样的评论，
+[Speaker 1]: 老周，
+[Speaker 1]: 我非常感谢你我是大陆的一名普通打工人。
+[Speaker 1]: 去年看到你的视频之后，
+[Speaker 1]: 开始定投的纳斯达克。
+[Speaker 1]: 截止今日，
+[Speaker 1]: 盈利超过百分之二十，
+[Speaker 1]: 后面深入了解美股。
+[Speaker 1]: 上个月也是去香港办了卡，
+[Speaker 1]: 正式进入了正规投资市场，
+[Speaker 1]: 买了全世界最伟大公司的股票。
+[Speaker 1]: 每次看到这样的评论，
+[Speaker 1]: 我都会告诉他们，
+[Speaker 1]: 你也应该为自己的执行力感到骄傲，
+[Speaker 1]: 这是你应得的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 包括我自己也一样，
+[Speaker 1]: 老观众都知道，
+[Speaker 1]: 我从买卖上海的房产中赚了不少钱。
+[Speaker 1]: 但其实当年我作为外国人，
+[Speaker 1]: 要在中国买房和贷款是比中国人麻烦很多的。
+[Speaker 1]: 当年我身边所有的外国人朋友，
+[Speaker 1]: 我都劝他们买房，
+[Speaker 1]: 但他们都没买。
+[Speaker 1]: 他们也不是不相信上海房产会升值，
+[Speaker 1]: 但大部分都是怕麻烦，
+[Speaker 1]: 遇到一点点阻碍就放弃了。
+[Speaker 1]: 而我仅仅就是因为没放弃一个一个障碍，
+[Speaker 1]: 想办法去克服，
+[Speaker 1]: 所以最终我才赚到了钱。
+[Speaker 1]: 所以记得只要你不怕麻烦，
+[Speaker 1]: 有执行力，
+[Speaker 1]: 就已经超越了百分之九十的人群。
+[Speaker 1]: 最后我想声明啊，
+[Speaker 1]: 我这个视频其实并不是在鼓励所有人都去买美股。
+[Speaker 1]: 说实话我本人也认为美股现在已经涨到了一个比较危险的地步。
+[Speaker 1]: 我的判断不一定对啊，
+[Speaker 1]: 但我本人目前已经是进入偏防守的状态了呀。
+[Speaker 1]: 最终，
+[Speaker 1]: 不管是任何的投资，
+[Speaker 1]: 即便是美股，
+[Speaker 1]: 就像我在上一期关于财富心理学的节目里所说的，
+[Speaker 1]: 如果你没有一个正确的投资心态和认知，
+[Speaker 1]: 你一样会亏得很惨。
+[Speaker 1]: 因此我做这期节目，
+[Speaker 1]: 并且还给了大家一定的指导和方向，
+[Speaker 1]: 并不是在劝你买美股，
+[Speaker 1]: 更加不是跟你说，
+[Speaker 1]: 你买了美股就一定能赚钱，
+[Speaker 1]: 我只是想给你多一个选择，
+[Speaker 1]: 不管这个选择，
+[Speaker 1]: 最后是带来收获还是损失，
+[Speaker 1]: 最起码这是你自己的选择。
+[Speaker 1]: 好了，
+[Speaker 1]: 那我今天就分享到这里，
+[Speaker 1]: 我是老周。
+[Speaker 1]: 横鸣冷队只也不归，
+[Speaker 0]: 我们下期再见。
+[Speaker 1]: 感谢观看订阅的时候，
+[Speaker 1]: 请务必同时打开这个小铃铛。
+[Speaker 1]: 那么我更新的时候，
+[Speaker 1]: 你才能够及时看到。
