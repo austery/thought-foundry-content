@@ -1,0 +1,1666 @@
+This
+ is
+ going
+ to
+ be
+ the
+ most
+ important
+
+
+question
+ for
+ society
+ to
+ answer.
+
+
+>> You
+ guys
+ were
+ teased
+ for
+ putting
+ so
+ much
+
+
+effort,
+ money
+ into
+ data
+ centers.
+ How
+ do
+
+
+you
+ think
+ that's
+ playing
+ out
+ now?
+
+
+>> Well,
+ I
+ think
+ it's
+ going
+ to
+ give
+ us
+ an
+
+
+advantage
+ and
+ I
+ think
+ it's
+ going
+ to
+ be
+
+
+something
+ that's
+ an
+ advantage
+ not
+ just
+
+
+for
+ the
+ business,
+ but
+ for
+ actually
+
+
+delivering
+ on
+ the
+ mission
+ of
+ bringing
+
+
+this
+ technology
+ to
+ everyone
+
+
+>> cuz
+ you
+ guys
+ like
+ you
+ saw
+ that
+ way
+ in
+
+
+advance.
+ You
+ get
+ teased
+ for
+ it
+ by
+ almost
+
+
+all
+ of
+ your
+ competitors.
+
+
+>> Mhm.
+ Who's
+ laughing
+ now?
+
+
+>> Yeah.
+
+
+I
+ mean
+ I
+ I
+ think
+ our
+ competitors
+ are
+ not
+
+
+having
+ a
+ good
+ time
+ on
+ compute.
+ Let
+ me
+
+
+put
+ it
+ that
+ way.
+
+
+>> Do
+ you
+ think
+ we'll
+ have
+ data
+ centers
+ in
+
+
+space?
+
+
+>> I
+ think
+ we're
+ going
+ to
+ have
+ data
+ centers
+
+
+everywhere.
+
+
+>> How
+ far
+ away
+ do
+ you
+ think
+ we
+ are
+ from
+
+
+that?
+
+
+>> Well,
+ data
+ centers
+ in
+ space
+ has
+ a
+ lot
+ of
+
+
+has
+ many
+ technical
+ problems
+ associated
+
+
+with
+ it.
+ Even
+ for
+ example,
+ the
+ data
+
+
+centers
+ we
+ build
+ today
+ are
+ very
+ finicky,
+
+
+right?
+ They're
+ these
+ massive
+ machines
+
+
+with
+ very
+ breakable,
+ very
+ expensive
+
+
+components.
+ We've
+ had
+ many
+ issues
+ in
+ the
+
+
+past
+ where
+ the
+ cables
+ were
+ just
+ too
+ taut
+
+
+just
+ literally
+ like
+ too
+ too
+ tight
+ of
+
+
+cables
+ and
+ then
+ you
+ get
+ signal
+ integrity
+
+
+issues
+ and
+ the
+ computer
+ doesn't
+ work
+ and
+
+
+so
+ figuring
+ out
+ how
+ do
+ you
+ maintain
+
+
+systems
+ today
+ it's
+ people
+ go
+ in
+
+
+physically
+ pull
+ them
+ probably
+ will
+ move
+
+
+to
+ robotics
+ so
+ I
+ think
+ figuring
+ out
+ how
+
+
+to
+ solve
+ some
+ of
+ these
+ technical
+
+
+problems
+ are
+ going
+ to
+ be
+ very
+ important
+
+
+dependencies
+ as
+ we
+ think
+ about
+ putting
+
+
+them
+ in
+ you
+ know
+ people
+ talk
+ about
+
+
+putting
+ data
+ center
+ in
+ you
+ various
+
+
+difficult
+ locations.
+ Um,
+ space
+ feels
+
+
+like
+ a
+ like
+ a
+ grand
+ challenge,
+ but
+ I
+
+
+think
+ that
+ we
+ are
+ going
+ to
+ have
+ such
+
+
+need
+ for
+ compute
+ that
+ we
+ need
+ to
+ be
+
+
+thinking
+ about
+ all
+ options.
+
+
+>> Do
+ you
+ think
+ data
+ centers
+ eventually
+ get
+
+
+dedicated
+ towards
+ a
+ problem
+ like
+ you'll
+
+
+have
+ a
+ huge
+ data
+ center
+ in
+ North
+ Dakota
+
+
+and
+ it's
+ just
+ on
+ solving
+ cancer
+ and
+
+
+that's
+ all
+ it's
+ doing?
+
+
+>> Yes.
+
+
+>> How
+ far
+ away
+ are
+ we
+ from
+ that?
+
+
+>> I
+ think
+ that
+ this
+ kind
+ of
+ thing
+
+
+happening
+ this
+ year
+ is
+ not
+ out
+ of
+ the
+
+
+question
+ and
+ it's
+ really
+ amazing
+ if
+ you
+
+
+think
+ about
+ it.
+ having
+ this
+ giant
+
+
+machine,
+ right?
+ And
+ have
+ you
+ have
+ you
+
+
+been
+ to
+ any
+ of
+ these
+ data
+ centers?
+
+
+>> No,
+ I've
+ seen
+ them
+ online,
+ but
+ never
+ in
+
+
+person.
+
+
+>> It
+ is
+ a
+ very
+ different
+ experience
+ to
+
+
+walk
+ amongst
+ these
+ racks,
+ right?
+ To
+ walk
+
+
+down
+ the
+ the
+ rows
+ and
+ you
+ look
+ at
+ the
+
+
+cables
+ that
+ are
+ all
+ perfectly
+ exactly
+
+
+the
+ right
+ the
+ right
+ length
+ and
+ you
+ just
+
+
+realize
+ that
+ what
+ a
+ data
+ center
+ is,
+ it's
+
+
+a
+ massive
+ machine.
+ These
+ are
+ maybe
+ the
+
+
+biggest
+ machines
+ that
+ humanity
+ creates.
+
+
+And
+ then
+ you
+ ask
+ the
+ question
+ of
+ why.
+
+
+Why
+ do
+ we
+ build
+ these
+ machines?
+ Why
+ is
+
+
+it
+ worthwhile?
+ And
+ it
+ is
+ because
+ they
+
+
+have
+ the
+ potential
+ to
+ solve
+ problems
+
+
+that
+ matter
+ for
+ people,
+ right?
+ To
+ solve,
+
+
+you
+ know,
+ come
+ up
+ with
+ cures
+ for
+ cancer,
+
+
+to
+ help
+ people
+ run
+ businesses,
+ to,
+ you
+
+
+know,
+ sometimes
+ maybe
+ it's
+ mundane
+
+
+queries.
+ The
+ purpose
+ in
+ my
+ mind
+ is
+
+
+really
+ about
+ how
+ do
+ you
+ deliver
+ value?
+
+
+How
+ do
+ you
+ deliver
+ on
+ people's
+ goals?
+
+
+And
+ I
+ think
+ the
+ opportunity
+ presented
+ by
+
+
+these
+ massive
+ machines
+ targeting
+ one
+
+
+problem
+ is
+ something
+ we
+ have
+ not
+ yet
+
+
+really
+ internalized.
+
+
+>> But
+ if
+ we're
+ computer
+ constraint,
+ like
+
+
+how
+ do
+ you
+ decide
+ who
+ to
+ serve?
+ Like
+ why
+
+
+are
+ you
+ serving
+ me
+ when
+ I'm
+ like
+ trying
+
+
+to
+ make
+ an
+ image
+ over
+ like
+ solving
+
+
+cancer?
+
+
+>> Well,
+ this
+ is
+ going
+ to
+ be
+ the
+ most
+
+
+important
+ question
+ for
+ society
+ to
+
+
+answer.
+ Where
+ does
+ the
+ compute
+ go?
+ What
+
+
+problems
+ are
+ worthy?
+ And
+ there's
+ lots
+ of
+
+
+worthy
+ problems,
+ but
+ you
+ need
+ to
+
+
+prioritize
+ them
+ because
+ you
+ only
+ have
+ so
+
+
+much
+ comput.
+ And
+ so
+ one
+ thing
+ we
+ really
+
+
+believe
+ in
+ is
+ that
+ everyone
+ is
+ going
+ to
+
+
+need
+ access
+ to
+ compute.
+ And
+ so
+ that's
+
+
+why
+ we
+ have
+ a
+ free
+ tier
+ of
+ chatbt.
+ We've
+
+
+really
+ put
+ effort
+ into
+ making
+ sure
+ that
+
+
+people
+ are
+ able
+ to
+ use
+ this
+ technology
+
+
+that
+ it's
+ widely
+ available
+ because
+ we
+
+
+believe
+ that
+ is
+ core
+ to
+ what
+ we're
+ doing
+
+
+here.
+ We
+ think
+ that
+ putting
+ this
+
+
+technology
+ in
+ people's
+ hands
+ that
+
+
+empowers
+ them
+ that
+ lets
+ them
+ achieve
+
+
+goals.
+ It
+ helps
+ them
+ also
+ understand
+ the
+
+
+technology,
+ right?
+ It's
+ something
+ that
+
+
+helps
+ them
+ then
+ shape
+ how
+ does
+ this
+
+
+technology
+ slot
+ in.
+ You
+ could
+ take
+ a
+
+
+very
+ different
+ approach
+ and
+ say,
+ well,
+
+
+it's
+ all
+ about
+ the
+ ivory
+ tower.
+ It's
+ all
+
+
+about
+ the
+ just
+ solve
+ the
+ problem
+ and
+ we
+
+
+will
+ then
+ distribute
+ the
+ technology
+
+
+breakthroughs
+ in
+ some
+ way.
+ And
+ I
+ think
+
+
+there's
+ merit
+ to
+
+
+that
+ as
+ well,
+ but
+ that's
+ not
+ where
+ I'd
+
+
+put
+ the
+ the
+ balance
+ of
+ of
+ what
+ we
+ do.
+ I
+
+
+think
+ that
+ that
+ is
+ very
+ much
+ a
+ like
+ we
+
+
+do
+ want
+ to
+ make
+ great
+ strides
+ on
+
+
+specific
+ problems,
+ but
+ I
+ think
+ that
+ that
+
+
+should
+ be
+ in
+ service
+ again
+ of
+ the
+ we
+
+
+want
+ the
+ benefits
+ of
+ this
+ technology
+ to
+
+
+be
+ broadly
+ distributed.
+ What
+ do
+ you
+
+
+think
+ regulation
+ for
+ AI
+ should
+ look
+
+
+like?
+
+
+>> Well,
+ I
+ think
+ that
+ there's
+ a
+ number
+ of
+
+
+different
+ pieces
+ to
+ what
+ regulation
+ for
+
+
+AI
+ needs
+ to
+ accomplish.
+ One
+ I
+ think
+ is
+
+
+very
+ important
+ is
+ we
+ need
+ to
+ ultimately
+
+
+ensure
+ this
+ technology
+ benefits
+ people.
+
+
+Like
+ it
+ is
+ very
+ clear
+ that
+ institutions,
+
+
+jobs,
+ just
+ life
+ paths
+ that
+ people
+
+
+thought
+ would
+ be
+ stable,
+ those
+
+
+assumptions
+ may
+ not
+ hold
+ anymore.
+ And
+ we
+
+
+need
+ to
+ make
+ sure
+ that
+ we
+ provide
+
+
+support
+ that
+ we're
+ all
+ there
+ to
+ support
+
+
+each
+ other
+ as
+ this
+ technology
+ rolls
+ out.
+
+
+And
+ so
+ what
+ does
+ that
+ mean
+ from
+ a
+
+
+regulatory
+ perspective?
+ I
+ think
+ there's
+
+
+a
+ lot
+ of
+ ideas
+ whether
+ it's
+ things
+ like
+
+
+everyone
+ should
+ have
+ access
+ to
+ compute.
+
+
+How
+ do
+ we
+ ensure
+ that
+ that's
+ true?
+ How
+
+
+do
+ we
+ ensure
+ that
+ as
+ this
+ technology
+
+
+starts
+ to
+ generate
+ more
+ economic
+ value,
+
+
+it
+ doesn't
+ acrue
+ to
+ just
+ one
+ place,
+
+
+right?
+ There
+ should
+ be
+ something
+ that
+
+
+actually
+ everyone
+ is
+ benefiting
+ from.
+
+
+This
+ technology
+ shouldn't
+ just
+
+
+abstractly
+ benefit
+ the
+ economy.
+ it's
+
+
+very
+ clearly
+ going
+ to
+ do.
+ It
+ should
+
+
+directly
+ be
+ something
+ that
+ people
+ feel
+
+
+in
+ their
+ daily
+ lives
+ that
+ they
+
+
+themselves
+ their
+ life
+ is
+ better
+ because
+
+
+this
+ technology
+ exists
+ because
+ they're
+
+
+using
+ it
+ because
+ they're
+ able
+ to
+
+
+accomplish
+ more.
+ And
+ you
+ think
+ about
+
+
+things
+ like
+ data
+ centers
+ that
+ those
+ are
+
+
+something
+ where
+ there's
+ clearly
+ been
+ a
+
+
+lot
+ of
+ concern
+ about
+ questions
+ like
+ do
+
+
+they
+ drive
+ up
+ electricity
+ prices
+ and
+ we
+
+
+have
+ a
+ commitment
+ to
+ ensure
+ that
+ they
+ do
+
+
+not.
+ And
+ I
+ think
+ that
+ each
+ of
+ these
+
+
+things
+ can
+ be
+ achieved
+ through
+ many
+
+
+different
+ mechanisms.
+ Sometimes
+ it's
+
+
+through
+ regulation,
+ sometimes
+ it's
+
+
+through
+ commitments
+ from
+ the
+ company,
+
+
+and
+ sometimes
+ it's
+ just
+ through
+ people
+
+
+understanding
+ the
+ facts.
+ Like
+ a
+ good
+
+
+example
+ is
+ data
+ centers
+ and
+ water
+ usage.
+
+
+Like
+ that
+ that's
+ something
+ that
+ people
+
+
+talk
+ about
+ a
+ lot,
+ but
+ actually
+ our
+ data
+
+
+centers
+ use
+ incredibly
+ little
+ water,
+
+
+right?
+ That's
+ actually
+ misinformation
+
+
+that
+ they
+ use
+ a
+ lot.
+
+
+>> It's
+ less
+ than
+ a
+ household,
+ isn't
+ it?
+
+
+>> It's
+ it
+ is
+ because
+ it's
+ a
+ closed
+ loop.
+
+
+You
+ basically
+ fill
+ up
+ a
+ giant
+ like,
+ you
+
+
+know,
+ think
+ of
+ it
+ as
+ like
+ a
+ swimming
+
+
+pool
+ of
+ water
+ and
+ you
+ just
+ circle
+ it
+
+
+around.
+ And
+ so
+ it's
+ a
+ fixed
+ amount
+ of
+
+
+water
+ that's
+ not
+ very
+ large.
+ But
+ I
+ think
+
+
+people
+ really
+ understanding
+ the
+ why.
+ Why
+
+
+are
+ we
+ building
+ these
+ things?
+ Why
+ is
+ it
+
+
+worthwhile?
+ How
+ does
+ it
+ benefit
+ me?
+ And
+
+
+being
+ able
+ to
+ give
+ people
+ that
+
+
+empowerment,
+ whether
+ it's
+ helping
+ them
+
+
+feel
+ that
+ they
+ can
+ be
+ an
+ entrepreneur
+
+
+now,
+ that
+ they
+ can
+ build
+ a
+ business,
+
+
+that
+ they
+ can
+ create
+ something,
+ like
+ all
+
+
+of
+ that
+ we
+ have
+ to
+ solve
+ for.
+ We
+ have
+ to
+
+
+make
+ sure
+ that
+ people
+ feel
+ it
+ in
+ their
+
+
+daily
+ lives.
