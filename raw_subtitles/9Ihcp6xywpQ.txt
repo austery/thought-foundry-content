@@ -1,0 +1,1985 @@
+Two
+ former
+ Palunteer
+ employees
+
+
+reconnected
+ by
+ phone
+ earlier
+ this
+ year.
+
+
+One
+ of
+ them
+ opened
+ the
+ conversation
+
+
+with,
+ "Hey,
+ are
+ you
+ tracking
+
+
+Palunteers's
+ descent
+ into
+ fascism?"
+ That
+
+
+was
+ the
+ greeting.
+ Not,
+ "Hey,
+ how's
+ it
+
+
+going?
+ How
+ have
+ you
+ been?
+ What
+ are
+ you
+
+
+working
+ on
+ now?"
+ Just,
+ "Are
+ you
+ tracking
+
+
+the
+ descent
+ into
+ fascism?"
+ When
+ two
+
+
+people
+ who
+ built
+ your
+ system
+ start
+ using
+
+
+that
+ kind
+ of
+ language,
+ something
+
+
+fundamental
+ has
+ shifted.
+ I'm
+ El.
+ I
+ have
+
+
+a
+ PhD
+ in
+ computer
+ science
+ and
+ I
+ analyze
+
+
+AI
+ developments
+ to
+ understand
+ what's
+
+
+actually
+ happening
+ beneath
+ all
+ of
+ this
+
+
+hype.
+ What
+ is
+ unfolding
+ inside
+ Palunteer
+
+
+right
+ now
+ tells
+ us
+ something
+ super
+
+
+important
+ about
+ what
+ happens
+ when
+
+
+surveillance
+ infrastructure
+ meets
+
+
+ideological
+ certainty.
+ Just
+ for
+ brief
+
+
+context,
+ Palunteer
+ builds
+ data
+
+
+integration
+ platforms.
+ That's
+ the
+ boring
+
+
+way
+ to
+ say
+ it.
+ The
+ more
+ accurate
+ way
+ is
+
+
+they
+ build
+ software
+ that
+ takes
+
+
+information
+ scattered
+ across
+ dozens
+ of
+
+
+incompatible
+ databases
+ and
+ makes
+ it
+
+
+searchable,
+ mappable,
+ analyzable
+ in
+ real
+
+
+time.
+ The
+ company
+ was
+ founded
+ in
+ 2003,
+
+
+named
+ after
+ the
+ allseeing
+ ors
+ from
+ the
+
+
+Lord
+ of
+ the
+ Rings.
+ Technically,
+ they're
+
+
+from
+ the
+ Sylmerelion
+ made
+ by
+ Feyenor,
+ my
+
+
+hero,
+ but
+ let's
+ cut
+ the
+ daydreaming.
+
+
+Basically,
+ the
+ ones
+ that
+ let
+ you
+ see
+
+
+across
+ vast
+ distances,
+ but
+ also
+ in
+ the
+
+
+books
+ kind
+ of
+ slowly
+ corrupt
+ anyone
+ who
+
+
+uses
+ them.
+ One
+ could
+ argue
+ the
+
+
+corruption
+ was
+ done
+ by
+ Sauron,
+ but
+
+
+that's
+ pretty
+ irrelevant
+ for
+ this
+ video.
+
+
+It's
+ basically
+ quite
+ subtle
+ branding
+ by
+
+
+the
+ company.
+ Their
+ customer
+ list
+ is
+ the
+
+
+CIA,
+ ICE,
+ the
+ Department
+ of
+ Homeland
+
+
+Security,
+ the
+ UK's
+ National
+ Health
+
+
+Service,
+ the
+ US
+ military,
+ that
+ kind
+ of
+
+
+people.
+ They've
+ held
+ government
+
+
+contracts
+ worth
+ billions,
+ positioning
+
+
+themselves
+ as
+ essential
+ infrastructure
+
+
+for
+ national
+ security
+ and
+ public
+ sector
+
+
+operations.
+ And
+ for
+ two
+ decades,
+
+
+Palunteer
+ employees
+ could
+ rationalize
+
+
+the
+ external
+ criticism.
+ Privacy
+
+
+advocates
+ push
+ back.
+ Civil
+ liberties
+
+
+group
+ questioned
+ the
+ work.
+ But
+
+
+internally,
+ the
+ framing
+ basically
+ held.
+
+
+We're
+ the
+ ones
+ making
+ sure
+ surveillance
+
+
+power
+ doesn't
+ get
+ abused.
+ We're
+ building
+
+
+safeguards.
+ We're
+ the
+ good
+ guys
+ in
+ a
+
+
+complicated
+ situation.
+ Well,
+ that
+
+
+framing
+ just
+ flipped.
+ And
+ here's
+ what
+
+
+changed.
+ In
+ January
+ 2026,
+ ICE
+ agents
+
+
+shot
+ and
+ killed
+ Alex
+ Prey,
+ a
+ 37year-old
+
+
+intensive
+ care
+ nurse
+ in
+ Minneapolis.
+ He
+
+
+was
+ filming
+ law
+ enforcement
+ with
+ his
+
+
+phone,
+ directing
+ traffic
+ around
+ a
+
+
+protest.
+ Bystander
+ video
+ shows
+ that
+ he
+
+
+was
+ unarmed,
+ just
+ holding
+ his
+ phone
+ when
+
+
+he
+ was
+ shot
+ multiple
+ times.
+ I'm
+ sure
+ you
+
+
+all
+ remember
+ that
+ one.
+ Palunteer
+
+
+software
+ powers
+ ICE
+ operations.
+
+
+Specifically,
+ they
+ built
+ something
+
+
+called
+ Elite,
+ a
+ tool
+ that
+ scrapes
+
+
+Medicaid
+ databases
+ and
+ other
+ government
+
+
+records
+ to
+ generate
+ deportation
+ leads.
+
+
+It
+ creates
+ dossier
+ on
+ people,
+ assigns
+
+
+confidence
+ scores
+ to
+ their
+ home
+
+
+addresses,
+ maps
+ potential
+ targets.
+
+
+Nearly
+ 8
+ million
+ Medicaid
+ patients
+ data
+
+
+were
+ repurposed
+ for
+ immigration
+
+
+enforcement.
+ When
+ Pratty
+ was
+ killed,
+
+
+Palunteer
+ employees
+ started
+ asking
+
+
+questions
+ in
+ internal
+ Slack
+ channels.
+
+
+Basic
+ questions.
+ Were
+ we
+ involved?
+ Are
+
+
+we
+ doing
+ anything
+ to
+ stop
+ or
+ repeat?
+ The
+
+
+company's
+ response
+ was,
+ according
+ to
+
+
+Wired
+ reporting,
+ Palanteer
+ started
+
+
+autodeing
+ conversations
+ in
+ at
+ least
+ one
+
+
+Slack
+ channel
+ after
+ 7
+ days.
+ Just
+ stop
+
+
+and
+ think
+ about
+ that
+ for
+ just
+ a
+ second.
+
+
+The
+ company
+ that
+ sells
+ data
+ analytics
+
+
+and
+ transparency
+ to
+ governments
+ began
+
+
+scrubbing
+ its
+ own
+ employees
+ questions
+
+
+about
+ whether
+ their
+ own
+ software
+ helped
+
+
+facilitate
+ a
+ killing.
+ Then
+ in
+ late
+
+
+February,
+ a
+ US
+ air
+ strike
+ hit
+ a
+ girl's
+
+
+elementary
+ school
+ in
+ Iran.
+ 120
+ school
+
+
+children
+ died.
+ Multiple
+ investigations
+
+
+concluded
+ the
+ strike
+ relied
+ on
+ outdated
+
+
+targeting
+ data.
+ The
+ school
+ had
+ been
+
+
+walled
+ off
+ from
+ a
+ military
+ compound
+ over
+
+
+a
+ decade
+ ago,
+ but
+ the
+ target
+ list
+ was
+
+
+never
+ updated.
+ Precision
+ weapons
+
+
+10-year-old
+ spreadsheet.
+ Palunteer's
+
+
+platforms
+ are
+ embedded
+ in
+ US
+ military
+
+
+targeting
+ systems.
+ Again,
+ employees
+
+
+asked
+ internally,
+ "Were
+ we
+ involved?"
+
+
+CEO
+ Alex
+ Karp's
+ solution
+ was
+ that
+ he
+
+
+released
+ an
+ hour-long
+ pre-recorded
+ video
+
+
+that
+ according
+ to
+ reporters
+ avoided
+
+
+specifics
+ about
+ product
+ capabilities
+ or
+
+
+ISIS
+ use
+ of
+ Palunteer
+ software.
+ He
+
+
+offered
+ employees
+ one-on-one
+ briefings,
+
+
+but
+ only
+ if
+ they
+ signed
+ NDAs
+ first.
+ You
+
+
+can't
+ ask
+ questions
+ about
+ whether
+ your
+
+
+software
+ killed
+ people
+ unless
+ you
+
+
+legally
+ agree
+ never
+ to
+ tell
+ anyone
+ the
+
+
+answers.
+ What
+ we're
+ watching
+ is
+ the
+
+
+difference
+ between
+ external
+ criticism
+
+
+and
+ internal
+ crisis.
+ External
+ pressure
+
+
+is
+ manageable
+ when
+ your
+ workforce
+
+
+believes
+ in
+ the
+ mission,
+ but
+ when
+ the
+
+
+people
+ actually
+ building
+ the
+ system
+
+
+start
+ openly
+ questioning
+ whether
+ they're
+
+
+enabling
+ harm,
+ that
+ kind
+ of
+ sounds
+ like
+
+
+structural
+ instability.
+ One
+ former
+
+
+employee
+ described
+ it
+ to
+ Wired
+ this
+ way.
+
+
+I'm
+ quoting
+ the
+ broad
+ story
+ of
+ Palanteer
+
+
+as
+ told
+ to
+ itself
+ and
+ to
+ employees
+ was
+
+
+that
+ coming
+ out
+ of
+ 9/11
+ we
+ knew
+ there
+
+
+was
+ going
+ to
+ be
+ this
+ big
+ push
+ for
+ safety
+
+
+and
+ we
+ were
+ worried
+ that
+ safety
+ might
+
+
+infringe
+ on
+ civil
+ liberties
+ and
+ now
+ the
+
+
+threat
+ is
+ coming
+ from
+ within.
+ We
+ were
+
+
+supposed
+ to
+ be
+ the
+ ones
+ preventing
+ these
+
+
+abuses
+ and
+ now
+ we're
+ not
+ preventing
+
+
+them.
+ We
+ seem
+ to
+ be
+ enabling
+ them.
+
+
+Meanwhile,
+ Palanteer's
+ leadership
+
+
+doubled
+ down
+ earlier
+ this
+ month.
+ They
+
+
+posted
+ a
+ 22-point
+ manifesto
+ summarizing
+
+
+CEO
+ Karp's
+ book.
+ We
+ have
+ a
+ separate
+ long
+
+
+video
+ analysis
+ on
+ that.
+ Check
+ it
+ out
+ if
+
+
+you
+ like.
+ A
+ direct
+ quote
+ from
+ that
+ is
+
+
+this
+ new
+ dogma
+ glosses
+ over
+ the
+ fact
+
+
+that
+ certain
+ cultures
+ and
+ indeed
+
+
+subcultures
+ have
+ produced
+ wonders.
+
+
+Others
+ have
+ proven
+ middling
+ and
+ worse
+
+
+regressive
+ and
+ harmful.
+ Silicon
+ Valley
+
+
+defense
+ contractors
+ publicly
+ ranking
+
+
+cultures
+ as
+ superior
+ or
+ inferior.
+
+
+Literally
+ the
+ ideological
+ framework
+
+
+every
+ major
+ 20th
+ century
+ atrocity
+ was
+
+
+justified
+ with
+ just
+ dressed
+ up
+ in
+
+
+startup
+ language.
+ Karp's
+ response
+ to
+
+
+employee
+ disscent
+ was
+ if
+ you
+ have
+ a
+
+
+position
+ that
+ does
+ not
+ cost
+ you
+ even
+ to
+
+
+lose
+ an
+ employee
+ it's
+ not
+ a
+ position.
+
+
+He's
+ treating
+ attrition
+ as
+ proof
+ of
+
+
+moral
+ courage
+ instead
+ of
+ what
+ it
+
+
+actually
+ is
+ institutional
+ collapse.
+ And
+
+
+here's
+ the
+ valuation
+ absurdity.
+
+
+Palanteer
+ currently
+ trades
+ at
+ a
+ price
+
+
+toearnings
+ ratio
+ around
+ 212.
+ The
+ S&P
+ 500
+
+
+average
+ is
+ 26.
+ The
+ stock
+ is
+ priced
+ eight
+
+
+times
+ higher
+ than
+ the
+ market,
+ assuming
+
+
+the
+ company
+ will
+ maintain
+ current
+
+
+profitability
+ for
+ over
+ two
+ centuries.
+
+
+Investors
+ are
+ literally
+ betting
+
+
+Palunteer
+ will
+ outlive
+ the
+ United
+ States
+
+
+itself
+ while
+ its
+ own
+ engineers
+ are
+
+
+discussing
+ fascism
+ in
+ the
+ breakroom.
+ The
+
+
+company
+ has
+ a
+ $340
+ billion
+ market
+ cap
+ on
+
+
+$4.5
+ billion
+ in
+ annual
+ revenue.
+ For
+
+
+comparison,
+ that
+ is
+ a
+ higher
+ valuation
+
+
+than
+ most
+ S&P
+ 500
+ companies
+ despite
+
+
+generating
+ less
+ revenue
+ than
+ a
+ decent
+
+
+regional
+ grocery
+ chain.
+ I'm
+ actually
+
+
+developing
+ a
+ course
+ in
+ two
+ tiers
+ for
+
+
+nontechnical
+ professionals
+ where
+ AI
+ is
+
+
+explained
+ simply,
+ not
+ dumbed
+ down,
+ just
+
+
+clarified.
+ If
+ you'd
+ like
+ to
+ take
+ a
+ two
+
+
+minutes
+ to
+ answer
+ some
+ questions
+ which
+
+
+directly
+ shape
+ where
+ the
+ course
+ covers,
+
+
+the
+ link
+ is
+ down
+ below.
+ So,
+ where
+ does
+
+
+all
+ of
+ this
+ go?
+ We've
+ seen
+ this
+ pattern
+
+
+before.
+ Actually,
+ back
+ in
+ 2018,
+ Google
+
+
+employees
+ pushed
+ back
+ against
+ Project
+
+
+Maven
+ AI
+ for
+ military
+ drone
+ footage
+
+
+analysis.
+ Google
+ withdrew
+ from
+ the
+
+
+contract,
+ but
+ Google
+ had
+ diversification
+
+
+options.
+ Consumer
+ products,
+ cloud
+
+
+services,
+ advertising.
+ Palunteer
+ doesn't
+
+
+have
+ that.
+ 60%
+ of
+ their
+ revenue
+ comes
+
+
+from
+ government
+ contracts.
+ The
+ work
+
+
+their
+ employees
+ are
+ questioning
+ is
+ the
+
+
+business
+ model.
+ And
+ in
+ terms
+ of
+ what's
+
+
+going
+ to
+ happen
+ next,
+ either
+ Palunteer
+
+
+loses
+ the
+ talent
+ war,
+ the
+ engineers
+ who
+
+
+can
+ build
+ those
+ systems
+ decide
+ the
+
+
+reputational
+ cost
+ just
+ isn't
+ worth
+ it
+
+
+and
+ leave
+ for
+ enterprise
+ SAS
+ companies,
+
+
+or
+ they
+ become
+ a
+ pure
+ ideological
+
+
+filter,
+ hiring
+ only
+ people
+ who
+ already
+
+
+agree
+ with
+ the
+ mission.
+ If
+ it's
+ the
+
+
+first,
+ execution
+ risk
+ becomes
+ a
+ real
+
+
+problem
+ for
+ their
+ government
+ customers.
+
+
+You
+ cannot
+ really
+ deliver
+ cutting
+ edge
+
+
+AI
+ systems
+ if
+ your
+ institutional
+
+
+knowledge
+ keeps
+ walking
+ out
+ the
+ door.
+ If
+
+
+it's
+ the
+ second
+ you
+ get
+ technical
+
+
+stagnation,
+ ideological
+ homogeneity,
+ and
+
+
+engineering
+ excellence
+ rarely
+ coexist,
+
+
+you
+ really
+ need
+ people
+ who
+ question
+ your
+
+
+assumptions
+ and
+ you
+ just
+ fire
+ them
+ all.
+
+
+There
+ is
+ a
+ third
+ possibility,
+ and
+ it's
+
+
+the
+ one
+ Palanteer
+ seems
+ to
+ be
+ betting
+ on
+
+
+that
+ they've
+ embedded
+ themselves
+ so
+
+
+deeply
+ into
+ government
+ infrastructure
+
+
+that
+ it
+ doesn't
+ even
+ matter.
+ That
+
+
+they've
+ become
+ too
+ essential
+ to
+ replace
+
+
+regardless
+ of
+ internal
+ turmoil
+ or
+
+
+external
+ criticism.
+ But
+ here's
+ the
+ thing
+
+
+about
+ building
+ surveillance
+ systems
+ in
+ a
+
+
+democracy,
+ and
+ I
+ mean
+ actual
+
+
+democracies,
+ not
+ the
+ rhetorical
+ version.
+
+
+When
+ your
+ value
+ to
+ the
+ government
+ is
+
+
+primarily
+ ideological
+ alignment
+ with
+ a
+
+
+specific
+ political
+ project,
+ you
+ become
+ a
+
+
+visible
+ target
+ the
+ moment
+ that
+ project
+
+
+loses
+ power.
+ Fascism
+ as
+ a
+ business
+
+
+strategy
+ only
+ works
+ if
+ the
+ fascists
+ stay
+
+
+in
+ power
+ indefinitely.
+ And
+ in
+ the
+ United
+
+
+States,
+ that
+ historically
+ has
+ been
+ a
+
+
+very
+ bad
+ bet.
+ What
+ we're
+ watching
+ is
+ a
+
+
+test
+ case
+ for
+ something
+ genuinely
+
+
+significant.
+ Can
+ a
+ company
+ that
+ builds
+
+
+infrastructure
+ for
+ state
+ power
+ survive
+
+
+when
+ the
+ people
+ building
+ it
+ stop
+
+
+believing
+ in
+ the
+ mission?
+ Can
+ you
+
+
+maintain
+ technical
+ excellence
+ when
+ your
+
+
+engineers
+ open
+ conversations
+ with,
+ hey,
+
+
+are
+ you
+ tracking
+ the
+ descent
+ into
+
+
+fascism?
+ The
+ answer
+ will
+ tell
+ us
+ a
+ lot
+
+
+about
+ where
+ the
+ line
+ actually
+ is
+ between
+
+
+building
+ tools
+ and
+ building
+ weapons
+ and
+
+
+whether
+ that
+ line
+ still
+ matters
+ to
+ the
+
+
+people
+ writing
+ the
+ code.
+ For
+ a
+ related
+
+
+topic
+ on
+ AI
+ systems
+ and
+ power
+
+
+concentration,
+ the
+ video
+ on
+ your
+ screen
+
+
+right
+ now
+ breaks
+ down
+ how
+ Frontier
+ Labs
+
+
+are
+ structuring
+ access
+ to
+ their
+ models
+
+
+and
+ what
+ that
+ means
+ for
+ who
+ controls
+
+
+these
+ systems
+ long
+ term.
+ Thank
+ you
+ all
+
+
+so
+ much
+ for
+ watching.
+ Subscribe
+ and
+ I'll
+
+
+see
+ youall
+ on
+ the
+ next
