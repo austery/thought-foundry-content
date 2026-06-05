@@ -1,0 +1,2482 @@
+Day
+ 17
+ of
+ learning
+ AI.
+ I've
+ memorized
+ 48
+
+
+prompt
+ templates.
+ I
+ still
+ don't
+ know
+
+
+what
+ a
+ model
+ is.
+ I
+ made
+ ChatGPT
+ write
+ my
+
+
+entire
+ cover
+ letter.
+ I
+ built
+ a
+ mental
+
+
+model
+ of
+ how
+ transformers
+ work.
+ Guess
+
+
+who
+ gets
+ the
+ promotion
+ in
+ 2026?
+ Most
+
+
+people
+ are
+ learning
+ AI
+ backwards.
+ Here's
+
+
+what
+ they're
+ doing
+ wrong
+ and
+ how
+ to
+ fix
+
+
+it
+ before
+ the
+ gap
+ gets
+ even
+ wider.
+ I'm
+
+
+Al.
+ I
+ spent
+ years
+ translating
+ complex
+ AI
+
+
+systems
+ into
+ plain
+ language
+ because
+
+
+learning
+ tools
+ without
+ understanding
+
+
+systems
+ is
+ a
+ recipe
+ for
+ relevance.
+ Let's
+
+
+flip
+ the
+ script
+ today.
+ We will
+ break
+
+
+down
+ a
+ couple
+ of
+ most
+ people
+ are
+
+
+learning
+ AI
+ the
+ wrong
+ way
+ and
+ what
+ a
+
+
+smarter
+ and
+ saner
+ path
+ looks
+ like.
+ Let's
+
+
+start
+ with
+ the
+ elephant
+ in
+ the
+ room,
+
+
+prompt
+ hacking.
+ There
+ are
+ thousands
+ of
+
+
+posts,
+ courses,
+ and
+ even
+ entire
+ careers
+
+
+springing
+ up
+ around
+ mastering
+ the
+
+
+perfect
+ prompt.
+ People
+ are
+ spending
+
+
+hours
+ tweaking
+ sentence
+ stems
+ like
+
+
+they're
+ tuning
+ a
+ Stradivarius.
+ But,
+
+
+here's
+ the
+ harsh
+ truth.
+ If
+ your
+
+
+understanding
+ of
+ AI
+ begins
+ and
+ ends
+ with
+
+
+prompts,
+ you're
+ learning
+ to
+ ride
+ a
+ tiger
+
+
+by
+ studying
+ its
+ whiskers.
+ Let
+ me
+ put
+ it
+
+
+another
+ way.
+ Learning
+ AI
+ by
+ memorizing
+
+
+prompts
+ is
+ like
+ trying
+ to
+ master
+ chess
+
+
+by
+ memorizing
+ openings
+ without
+ knowing
+
+
+how
+ the
+ pieces
+ actually
+ move.
+ It's
+
+
+brittle
+ and
+ shallow,
+ and
+ as
+ soon
+ as
+ the
+
+
+board
+ changes,
+ you're
+ toast.
+ Prompt
+
+
+engineering
+ is
+ useful,
+ but
+ it
+ is
+ not
+ a
+
+
+foundation.
+ It's
+ a
+ party
+ trick
+ built
+ on
+
+
+a
+ foundation.
+ If
+ you
+ don't
+ understand
+
+
+the
+ system
+ underneath,
+ you're
+ just
+
+
+shaking
+ the
+ vending
+ machine
+ hoping
+ for
+
+
+snacks.
+ Here's
+ what's
+ really
+ going
+ on
+
+
+under
+ the
+ hood.
+ When
+ you
+ write
+ a
+ prompt,
+
+
+you're
+ not
+ telling
+ AI
+ what
+ to
+ do.
+ You're
+
+
+triggering
+ a
+ statistical
+ engine
+ that's
+
+
+trying
+ to
+ guess
+ what
+ words
+ logically
+
+
+come
+ out
+ next.
+ That
+ is
+ it.
+ It's
+ not
+
+
+reasoning,
+ it's
+ not
+ thinking,
+ it
+ is
+
+
+predicting.
+ And
+ that
+ brings
+ us
+ to
+ the
+
+
+next
+ big
+ misconception.
+ People
+ thinking
+
+
+that
+ AI
+ is
+ magic
+ when
+ it
+ really
+ is
+ just
+
+
+statistics.
+ We've
+ all
+ seen
+ the
+
+
+headlines.
+ AI
+ is
+ coming
+ for
+ your
+ job.
+
+
+This
+ model
+ just
+ passed
+ the
+ bar
+ exam.
+
+
+ChatGPT
+ might
+ be
+ sentient.
+ I
+ wish.
+ Take
+
+
+a
+ breath
+ and
+ say
+ it
+ with
+ me.
+ AI
+ is
+ not
+
+
+magic,
+ it's
+ just
+ math.
+ Or
+ more
+
+
+precisely,
+ it
+ is
+ statistics
+ on
+ steroids.
+
+
+At
+ its
+ core,
+ every
+ large
+ language
+ model
+
+
+from
+ GPT
+ to
+ Claude
+ to
+ Gemini
+ is
+ just
+ a
+
+
+giant
+ autocomplete
+ engine
+ trained
+ on
+
+
+billions
+ of
+ lines
+ of
+ human
+ language.
+
+
+When
+ you
+ ask
+ it
+ a
+ question,
+ what
+ it's
+
+
+really
+ doing
+ is
+ calculating,
+ given
+
+
+everything
+ I've
+ seen
+ before,
+ what
+ is
+ the
+
+
+most
+ statistically
+ likely
+ next
+ word?
+
+
+That's
+ it.
+ That
+ is
+ the
+ game.
+ Let's
+ break
+
+
+it
+ down
+ in
+ 1
+ minute.
+ We
+ have
+ input,
+
+
+embedding,
+ natural
+ layers,
+ output
+ token.
+
+
+Input
+ is
+ when
+ you
+ type
+ something.
+ An
+
+
+embedding
+ is
+ basically
+ the
+ words
+ being
+
+
+converted
+ into
+ very
+ long
+ strings
+ of
+
+
+numbers.
+ Math
+ representations
+ that
+
+
+capture
+ relationships
+ between
+ different
+
+
+concepts.
+ Neural
+ layers
+ is
+ essentially
+
+
+when
+ these
+ strings
+ of
+ numbers
+ pass
+
+
+through
+ hundreds
+ of
+ layers,
+ which
+ are
+
+
+parts
+ of
+ the
+ model,
+ each
+ one
+ with
+ new
+
+
+pieces
+ of
+ knowledge
+ that
+ the
+ model
+ has
+
+
+picked
+ up
+ before,
+ called
+ weights.
+ The
+
+
+output
+ token
+ is
+ essentially
+ when
+ the
+
+
+model
+ spits
+ out
+ the
+ next
+ word,
+ then
+ the
+
+
+next,
+ then
+ the
+ next.
+ That's
+ how
+ it
+
+
+writes
+ poems.
+ That's
+ how
+ it
+ solves
+ logic
+
+
+puzzles.
+ That's
+ how
+ it
+ hallucinates
+ such
+
+
+confidently
+ wrong
+ answers.
+ It's
+ not
+ a
+
+
+mind,
+ it's
+ a
+ mirror
+ reflecting
+ the
+
+
+probabilities
+ we
+ have
+ taught
+ it.
+ And
+ yet
+
+
+most
+ tutorials
+ anthropomorphize
+ AI.
+ They
+
+
+tell
+ you
+ to
+ talk
+ to
+ it
+ like
+ a
+ person.
+
+
+They
+ give
+ it
+ names
+ and
+ personas.
+ I
+ mean,
+
+
+I
+ do
+ as
+ well.
+ They
+ make
+ it
+ feel
+
+
+mystical,
+ and
+ don't
+ get
+ me
+ wrong,
+ I
+ love
+
+
+doing
+ that,
+ too.
+ But
+ the
+ more
+ you
+ treat
+
+
+AI
+ like
+ magic,
+ the
+ less
+ control
+ you'll
+
+
+have
+ over
+ it.
+ Subscribe
+ now
+ for
+
+
+straight-talking
+ breakdowns
+ like
+ this,
+
+
+and
+ check
+ the
+ description.
+ Neural
+ Notes
+
+
+is
+ my
+ free
+ weekly
+ drop
+ for
+ building
+ AI
+
+
+fluency
+ without
+ the
+ fluff.
+ Next
+ up,
+
+
+knowing
+ all
+ of
+ this,
+ why
+ are
+ so
+ many
+
+
+people
+ stuck?
+ Let's
+ break
+ them
+ down
+ into
+
+
+various
+ groups.
+ There's
+ of
+ course
+ the
+
+
+creators.
+ They're
+ chasing
+ AI
+ for
+
+
+productivity,
+ writing
+ faster,
+ generating
+
+
+thumbnails,
+ scheduling
+ tweets.
+ There's
+
+
+nothing
+ wrong
+ with
+ that
+ until
+ they
+ hit
+ a
+
+
+wall.
+ They
+ don't
+ understand
+ the
+ limits
+
+
+of
+ the
+ models
+ that
+ they
+ use.
+ They
+ treat
+
+
+ChatGPT
+ like
+ a
+ content
+ cannon,
+ but
+ not
+
+
+like
+ a
+ system.
+ And
+ when
+ it
+ starts
+ making
+
+
+stuff
+ up
+ or
+ failing
+ in
+ edge
+ cases,
+ they
+
+
+panic.
+ Then
+ there
+ is
+ of
+ course
+ the
+
+
+professionals.
+ This
+ group
+ is
+ sacred.
+ The
+
+
+consultants,
+ the
+ analysts,
+ the
+ managers,
+
+
+they
+ see
+ AI
+ creeping
+ into
+ their
+
+
+industry,
+ but
+ instead
+ of
+ preparing
+ to
+
+
+co-pilot,
+ they
+ freeze.
+ They're
+ asking,
+
+
+"Will
+ I
+ be
+ able
+ to
+ replace?"
+ but
+ not
+
+
+asking,
+ "How
+ do
+ I
+ collaborate
+ with
+ this
+
+
+thing?"
+ That
+ is
+ a
+ huge
+ miss.
+ Another
+
+
+group
+ is
+ the
+ curious
+ crowd,
+ hopefully
+
+
+all
+ of
+ you
+ guys.
+ These
+ are
+ the
+ lifelong
+
+
+learners,
+ people
+ who
+ want
+ to
+ understand
+
+
+AI,
+ but
+ every
+ resource
+ is
+ either
+ too
+
+
+fluffy,
+ 10
+ ways
+ to
+ use
+ AI
+ for
+ your
+
+
+vision
+ board,
+ or
+ too
+ technical,
+ gradient
+
+
+descent
+ math
+ proofs.
+ So,
+ they
+ hover
+ in
+
+
+this
+ weird
+ middle
+ space
+ feeling
+ behind,
+
+
+but
+ overwhelmed.
+ It's
+ like
+ trying
+ to
+
+
+learn
+ to
+ cook
+ from
+ a
+ physicist
+ or
+ a
+
+
+TikTok
+ star.
+ One
+ gives
+ you
+ formula,
+ the
+
+
+other
+ one
+ gives
+ you
+ vibe,
+ neither
+ helps
+
+
+you
+ eat
+ dinner.
+ So,
+ what
+ should
+ AI
+
+
+learning
+ actually
+ look
+ like?
+ Let
+ us
+
+
+rewind
+ and
+ build
+ from
+ the
+ ground
+ up.
+
+
+Imagine
+ you're
+ at
+ a
+ bustling
+ high-end
+
+
+kitchen,
+ the
+ kind
+ where
+ chefs
+ don't
+ just
+
+
+follow
+ recipes,
+ they
+ create
+ them.
+
+
+They're
+ flames,
+ shouting,
+ plated
+ art.
+
+
+Now,
+ imagine
+ walking
+ in,
+ apron
+ on,
+ and
+
+
+your
+ plan
+ is
+ to
+ memorize
+ the
+ top
+ 50
+
+
+recipes
+ off
+ Pinterest
+ and
+ hope
+ you
+ make
+
+
+it
+ through
+ dinner
+ service.
+ How
+ do
+ you
+
+
+think
+ that's
+ going
+ to
+ go?
+ That
+ is
+ what
+
+
+most
+ people
+ are
+ trying
+ to
+ do
+ with
+ AI
+
+
+right
+ now.
+ They're
+ walking
+ into
+ a
+
+
+complex
+ evolving
+ system,
+ and
+ instead
+ of
+
+
+learning
+ how
+ the
+ kitchen
+ works,
+ how
+ heat
+
+
+changes
+ ingredients,
+ how
+ flavors
+
+
+balance,
+ they're
+ just
+ googling
+ prompts
+
+
+for
+ viral
+ tweet
+ threads
+ and
+ calling
+ it
+
+
+mastery.
+ But,
+ let's
+ flip
+ the
+ lens.
+ What
+
+
+if
+ instead
+ of
+ copying
+ recipes,
+ you
+
+
+started
+ to
+ understand
+ how
+ the
+ stove
+
+
+works?
+ What
+ if
+ you
+ knew
+ why
+ salt
+
+
+matters,
+ how
+ to
+ recover
+ from
+ too
+ much
+
+
+acid,
+ or
+ why
+ chocolate
+ seizes?
+ That
+ is
+
+
+the
+ difference
+ between
+ using
+ AI
+ and
+
+
+being
+ fluent
+ in
+ AI.
+ Let's
+ break
+ down
+
+
+what
+ real
+ learning
+ actually
+ looks
+ like.
+
+
+One,
+ you
+ start
+ with
+ concepts,
+ not
+ tools.
+
+
+When
+ most
+ people
+ start
+ learning
+ AI,
+ they
+
+
+go
+ straight
+ for
+ the
+ hacks.
+ Give
+ me
+ the
+
+
+top
+ prompts
+ for
+ writing
+ blog
+ posts.
+ How
+
+
+do
+ I
+ use
+ AI
+ to
+ make
+ a
+ thousand
+ a
+ week?
+
+
+What's
+ the
+ best
+ GPT-4
+ jailbreak
+ right
+
+
+now?
+ It's
+ tactical,
+ transactional,
+ and
+
+
+in
+ the
+ short
+ term,
+ yeah,
+ it
+ works.
+ You
+
+
+will
+ get
+ some
+ quick
+ wins,
+ but
+ long
+ term,
+
+
+you
+ hit
+ a
+ wall
+ and
+ fast,
+ because
+ the
+
+
+tools
+ change,
+ but
+ the
+ system
+ doesn't.
+
+
+Instead
+ of
+ asking
+ what
+ prompts
+ should
+ I
+
+
+use,
+ try
+ asking
+ what
+ does
+ this
+ model
+
+
+actually
+ know?
+ How
+ does
+ it
+ make
+
+
+decisions?
+ What
+ are
+ its
+ blind
+ spots?
+
+
+What
+ happens
+ when
+ it
+ doesn't
+ know
+ what
+
+
+to
+ say,
+ but
+ says
+ something
+ anyway?
+ These
+
+
+are
+ systems
+ level
+ questions.
+ They
+ create
+
+
+a
+ mental
+ map,
+ and
+ maps
+ are
+ better
+ than
+
+
+cheat
+ codes
+ because
+ you
+ can
+ find
+ your
+
+
+way
+ even
+ when
+ the
+ terrain
+ shifts.
+ Number
+
+
+two,
+ use
+ metaphors
+ that
+ stick.
+ The
+ truth
+
+
+is
+ nobody,
+ not
+ even
+ engineers,
+ learns
+
+
+this
+ stuff
+ from
+ first
+ principles
+ alone.
+
+
+We
+ all
+ need
+ metaphors.
+ We
+ need
+ the
+
+
+mental
+ Velcro
+ that
+ lets
+ abstract
+ ideas
+
+
+stick.
+ So,
+ here
+ is
+ a
+ few
+ to
+ carry
+ with
+
+
+you.
+ A
+ large
+ language
+ model
+ is
+ a
+
+
+prediction
+ engine,
+ not
+ a
+ brain.
+ It
+
+
+doesn't
+ think,
+ it
+ doesn't
+ know
+ in
+ the
+
+
+human
+ sense.
+ It's
+ trained
+ to
+ guess
+ what
+
+
+comes
+ next
+ based
+ on
+ massive
+ patterns
+ in
+
+
+language,
+ like
+ autocomplete,
+ but
+ wearing
+
+
+a
+ suit
+ and
+ reciting
+ Shakespeare.
+ Using
+ a
+
+
+model
+ is
+ like
+ cooking
+ with
+ a
+ recipe.
+
+
+Understanding
+ one
+ is
+ like
+ becoming
+ a
+
+
+chef.
+ Recipes
+ are
+ great
+ until
+ something
+
+
+goes
+ wrong.
+ Then
+ what?
+ If
+ you
+ understand
+
+
+ingredients,
+ flavor,
+ timing,
+ you
+ adapt.
+
+
+Same
+ with
+ AI.
+ If
+ you
+ know
+ how
+ the
+ model
+
+
+works,
+ you
+ don't
+ panic
+ when
+ it
+ gives
+ you
+
+
+nonsense,
+ you
+ just
+ adjust.
+ It's
+ great
+ at
+
+
+finding
+ patterns,
+ it's
+ terrible
+ at
+
+
+understanding
+ causes.
+ AI
+ can
+ tell
+ you
+
+
+that
+ people
+ who
+ buy
+ diapers
+ often
+ buy
+
+
+beer,
+ but
+ it
+ can't
+ tell
+ you
+ why.
+ Hint,
+
+
+tired
+ parents.
+ That
+ leap
+ from
+
+
+correlation
+ to
+ causation
+ is
+ still
+ a
+
+
+human
+ skill,
+ one
+ you
+ need
+ to
+ keep
+ sharp.
+
+
+It
+ can
+ mimic
+ ethics,
+ but
+ it
+ can't
+ feel
+
+
+them.
+ You
+ can
+ fine-tune
+ a
+ model
+ to
+ sound
+
+
+empathetic,
+ but
+ empathy
+ isn't
+ just
+
+
+words.
+ It
+ is
+ rooted
+ in
+ experience,
+
+
+emotion,
+ reflection.
+ Machines
+ can
+ fake
+
+
+morality,
+ but
+ they
+ can't
+ mean
+ it,
+
+
+remember
+ that.
+ You
+ don't
+ need
+ to
+
+
+memorize
+ tensor
+ algebra,
+ but
+ you
+ do
+ need
+
+
+a
+ mental
+ framework,
+ a
+ way
+ to
+ say,
+ "Oh,
+ I
+
+
+see
+ how
+ this
+ fits
+ together."
+ Otherwise,
+
+
+every
+ new
+ update
+ will
+ feel
+ like
+ a
+
+
+language
+ you
+ don't
+ speak.
+ Three,
+ build
+ a
+
+
+map
+ so
+ you
+ can
+ navigate,
+ not
+ just
+ copy.
+
+
+So,
+ what
+ kind
+ of
+ map
+ are
+ we
+ talking
+
+
+about?
+ Imagine
+ standing
+ in
+ front
+ of
+ a
+
+
+giant
+ piece
+ of
+ machinery,
+ levers,
+
+
+blinking
+ lights,
+ spinning
+ gears.
+ Most
+
+
+people
+ just
+ push
+ buttons
+ and
+ hope
+ it
+
+
+does
+ something
+ cool.
+ But
+ fluent
+ users,
+
+
+they
+ know
+ what
+ each
+ part
+ is
+ for.
+ They
+
+
+don't
+ interact,
+ they
+ navigate.
+ Here's
+ a
+
+
+basic
+ map
+ you
+ can
+ carry
+ in
+ your
+ head.
+
+
+What
+ AI
+ is
+ good
+ at,
+ and
+ no,
+ I
+ don't
+ just
+
+
+mean
+ LLMs.
+ Scale.
+ It
+ can
+ write
+ a
+
+
+thousand
+ emails
+ before
+ you
+ finish
+ your
+
+
+coffee.
+ Repetition.
+ It
+ doesn't
+ get
+ bored
+
+
+or
+ distracted
+ or
+ need
+ lunch.
+ Language.
+
+
+It's
+ trained
+ on
+ so
+ much
+ text
+ it
+ can
+
+
+out-punch
+ Shakespeare.
+ Pattern
+
+
+recognition.
+ It
+ can
+ spot
+ trends
+ across
+
+
+oceans
+ of
+ data
+ that
+ you'd
+ never
+ even
+
+
+notice.
+ This
+ is
+ where
+ you
+ lean
+ in.
+ You
+
+
+co-pilot.
+ You
+ delegate.
+ You
+ explore
+
+
+what's
+ possible.
+ What
+ AI
+ is
+ bad
+ at.
+
+
+Causal
+ reasoning.
+ It
+ doesn't
+ know
+ that
+
+
+pushing
+ the
+ vase
+ caused
+ it
+ to
+ fall.
+ It
+
+
+just
+ knows
+ vases
+ fall
+ is
+ statistically
+
+
+likely
+ in
+ certain
+ sentences
+ and
+
+
+situations.
+ Emotional
+ intelligence.
+ It
+
+
+can
+ simulate
+ warmth,
+ but
+ it
+ can't
+ feel
+
+
+the
+ heat.
+ Common
+ sense.
+ If
+ you
+ ask
+ it
+
+
+whether
+ a
+ giraffe
+ can
+ fit
+ in
+ your
+
+
+fridge,
+ it
+ might
+ pause.
+ Original
+ intent.
+
+
+It
+ doesn't
+ get
+ your
+ deeper
+ goal
+ unless
+
+
+you
+ explicitly
+ spell
+ it
+ out.
+ This
+ is
+
+
+where
+ you
+ stay
+ alert.
+ You
+ take
+ the
+
+
+wheel.
+ You
+ don't
+ let
+ it
+ decide
+ the
+ route
+
+
+when
+ you're
+ flying
+ through
+ a
+ foggy
+
+
+canyon.
+ You
+ with
+ me
+ so
+ far?
+ That's
+
+
+exactly
+ why
+ I'm
+ building
+ the
+ AI
+ Fluency
+
+
+Course,
+ designed
+ for
+ smart
+ non-technical
+
+
+thinkers
+ who
+ want
+ to
+ understand
+ the
+
+
+machine,
+ not
+ just
+ to
+ use
+ it.
+ No
+ coding,
+
+
+no
+ jargon,
+ just
+ the
+ clarity
+ and
+
+
+confidence
+ to
+ lead,
+ build,
+ and
+ create
+
+
+with
+ AI
+ instead
+ of
+ reacting
+ to
+ it.
+ It's
+
+
+not
+ out
+ yet,
+ but
+ the
+ waitlist
+ is
+ open.
+
+
+If
+ this
+ spoke
+ to
+ you,
+ sign
+ up
+ now.
+ Link
+
+
+is
+ in
+ the
+ description.
+ You'll
+ be
+ the
+
+
+first
+ to
+ know
+ when
+ it
+ drops,
+ and
+ you'll
+
+
+get
+ exclusive
+ early
+ content
+ along
+ the
+
+
+way.
+ So,
+ if
+ you're
+ learning
+ AI
+ like
+ it's
+
+
+a
+ magic
+ trick,
+ you'll
+ be
+ replaced
+ by
+
+
+someone
+ who
+ treats
+ AI
+ like
+ a
+ system.
+ But
+
+
+if
+ you
+ understand
+ the
+ underlying
+
+
+mechanics,
+ even
+ at
+ a
+ high
+ level,
+ you
+
+
+become
+ irreplaceable.
+ Because
+ you
+ don't
+
+
+just
+ use
+ the
+ tools.
+ You
+ know
+ when
+ to
+ use
+
+
+them.
+ You
+ know
+ why
+ they
+ work
+ and
+ you
+ ask
+
+
+better
+ questions
+ than
+ anyone
+ else
+ in
+ the
+
+
+room.
+ So,
+ if
+ this
+ shifted
+ how
+ you
+ think
+
+
+even
+ a
+ little,
+ like
+ this
+ video
+ and
+
+
+subscribe.
+ I
+ break
+ down
+ AI
+ without
+ the
+
+
+hype
+ one
+ concept
+ at
+ a
+ time.
+ And
+ if
+
+
+you're
+ still
+ not
+ sure
+ where
+ you
+ stand,
+
+
+take
+ my
+ how
+ AI-ready
+ are
+ you
+ quiz.
+ It's
+
+
+free.
+ You're
+ probably
+ a
+ lot
+ smarter
+ than
+
+
+you
+ think.
+ See
+ you
+ in
+ the
+ next
+ one.
