@@ -1,0 +1,1717 @@
+France
+ just
+ built
+ a
+ $14
+ billion
+ AI
+
+
+empire
+ in
+ under
+ 3
+ years
+ and
+ it
+ happened
+
+
+by
+ doing
+ exactly
+ what
+ Silicon
+ Valley
+
+
+said
+ was
+ impossible.
+ Back
+ in
+ April
+ 2023,
+
+
+three
+ former
+ Google
+ and
+ Meta
+ researchers
+
+
+walked
+ out
+ of
+ Silicon
+ Valley's
+ most
+
+
+elite
+ AI
+ labs
+ and
+ headed
+ home
+ to
+ Paris.
+
+
+They
+ had
+ no
+ product,
+ they
+ had
+ no
+
+
+revenue.
+ Two
+ months
+ later,
+ they
+ raised
+
+
+$113
+ million,
+
+
+the
+ largest
+ seed
+ round
+ in
+ European
+
+
+history.
+ Today,
+ less
+ than
+ 3
+ years
+ later,
+
+
+Mistral
+ AI
+ is
+ worth
+ $14
+ billion,
+ targets
+
+
+$1
+ billion
+ in
+ annual
+ revenue
+ by
+ the
+ end
+
+
+of
+ 2026,
+ and
+ has
+ become
+ Europe's
+ most
+
+
+valuable
+ AI
+ company.
+ Their
+ biggest
+
+
+competitor
+ is
+ OpenAI,
+ valued
+ at
+ $852
+
+
+billion
+
+
+and
+ backed
+ by
+ Microsoft's
+ endless
+
+
+capital.
+ So,
+ how
+ did
+ a
+ French
+ startup
+
+
+with
+ a
+ fraction
+ of
+ the
+ funding
+ build
+ a
+
+
+genuine
+ alternative
+ to
+ ChatGPT?
+ They
+ did
+
+
+it
+ by
+ being
+ explicitly,
+ strategically,
+
+
+non-American,
+ and
+ that
+ decision
+ is
+
+
+reshaping
+ the
+ global
+ AI
+ landscape.
+ I'm
+
+
+Amel,
+ I
+ have
+ a
+ PhD
+ in
+ computer
+ science,
+
+
+and
+ I
+ analyze
+ AI
+ developments
+ to
+
+
+understand
+ what's
+ actually
+ happening
+
+
+beneath
+ all
+ of
+ the
+ hype.
+ First,
+ let's
+
+
+understand
+ what
+ Mistral
+ actually
+ is
+
+
+because
+ it's
+ not
+ just
+ another
+ ChatGPT
+
+
+clone.
+ Mistral
+ builds
+ large
+ language
+
+
+models,
+ the
+ same
+ category
+ of
+ AI
+ systems
+
+
+that
+ power
+ ChatGPT,
+ Claude,
+ and
+ Gemini.
+
+
+These
+ are
+ systems
+ trained
+ on
+ massive
+
+
+amounts
+ of
+ text
+ to predict
+ what
+ word
+
+
+comes
+ next,
+ which
+ sounds
+ simple
+ until
+
+
+you
+ realize
+ that
+ capability
+ unlocks
+
+
+writing,
+ reasoning,
+ coding,
+ translation,
+
+
+and
+ more.
+ The
+ key
+ difference
+ is
+ that
+
+
+Mistral
+ releases
+ most
+ of
+ its
+ models
+ as
+
+
+open
+ source.
+ That
+ means
+ anyone
+ can
+
+
+download
+ the
+ actual
+ model,
+ inspect
+ how
+
+
+it
+ works,
+ modify
+ it,
+ and
+ run
+ it
+ on
+ their
+
+
+own
+ servers.
+ No
+ permission
+ required,
+ no
+
+
+usage
+ fees.
+ OpenAI
+ doesn't
+ do
+ this,
+
+
+neither
+ does
+ Anthropic,
+ neither
+ does
+
+
+Google
+ with
+ its
+ frontier
+ models.
+ They
+
+
+keep
+ their
+ models
+ locked
+ behind
+ APIs
+
+
+where
+ you
+ pay
+ per
+ use
+ and
+ never
+ see
+ the
+
+
+internals.
+ Why
+ does
+ this
+ matter?
+ It
+
+
+matters
+ a
+ huge
+ deal
+ because
+ it
+ means
+
+
+European
+ companies
+ can
+ deploy
+ Mistral's
+
+
+AI
+ entirely
+ within
+ their
+ own
+
+
+infrastructure.
+ The
+ data
+ never
+ leaves
+
+
+their
+ servers.
+ They're
+ not
+ dependent
+ on
+
+
+American
+ tech
+ giants'
+ API
+ that
+ could
+
+
+change
+ pricing,
+ cut
+ access,
+ or
+ face
+
+
+export
+ restrictions
+ tomorrow.
+ For
+ banks,
+
+
+hospitals,
+ and
+ governments
+ operating
+
+
+under
+ GDPR
+ as
+ an
+ example,
+ which
+ is
+
+
+Europe's
+ strict
+ data
+ protection
+ law,
+
+
+this
+ is
+ transformative.
+ If
+ you're
+ BNP
+
+
+Paribas
+ or
+ Axa
+ running
+ sensitive
+
+
+financial
+ models,
+ you
+ can't
+ just
+ send
+
+
+customer
+ data
+ to
+ OpenAI's
+ service
+ in
+
+
+Virginia.
+ Mistral
+ solves
+ that
+ problem,
+
+
+and
+ it
+ turns
+ out
+ sovereignty
+ sells.
+ Just
+
+
+go
+ look
+ at
+ what
+ President
+ Macron
+ did
+ in
+
+
+February
+ 2025.
+ At
+ the
+ Paris
+ AI
+ summit,
+
+
+he
+ didn't
+ just
+ mention
+ Mistral's
+ chatbot
+
+
+Le
+ Chat
+ in
+ passing,
+ he
+ explicitly
+ told
+
+
+the
+ audience,
+ and
+ I'm
+ quoting,
+ "I
+
+
+recommend
+ everyone
+ who
+ has
+ ChatGPT
+ to
+
+
+download
+ Le
+ Chat."
+ That's
+ a
+ head
+ of
+
+
+state
+ directly
+ endorsing
+ a
+ domestic
+ AI
+
+
+product
+ over
+ an
+ American
+ one.
+ Behind
+
+
+that
+ endorsement
+ sits
+ 109
+ billion
+ euros
+
+
+in
+ French
+ AI
+ investment
+ commitments.
+
+
+It's
+ not
+ just
+ marketing,
+ it
+ is
+
+
+industrial
+ policy.
+ France
+ watched
+ the
+
+
+internet
+ become
+ an
+ American
+ monopoly,
+ it
+
+
+watched
+ cloud
+ computing
+ become
+ an
+
+
+American
+ monopoly.
+ Well,
+ it's
+ not
+
+
+letting
+ AI
+ follow
+ the
+ same
+ pattern.
+ The
+
+
+mechanics
+ of
+ how
+ Mistral
+ competes
+ are
+
+
+technical
+ but
+ crucial.
+ They
+ use
+
+
+something
+ called
+ mixture
+ of
+ experts
+
+
+architecture.
+ Think
+ of
+ it
+ this
+ way,
+
+
+instead
+ of
+ activating
+ an
+ entire
+ massive
+
+
+model
+ for
+ every
+ single
+ question,
+ which
+
+
+burns
+ huge
+ amounts
+ of
+ computing
+ power,
+
+
+by
+ the
+ way,
+ Mistral's
+ models
+ activate
+
+
+only
+ the
+ specialized
+ expert
+ components
+
+
+relevant
+ to
+ that
+ specific
+ query.
+ It's
+
+
+kind
+ of
+ like
+ having
+ a
+ team
+ of
+
+
+specialists
+ rather
+ than
+ forcing
+ one
+
+
+generalist
+ to
+ handle
+ everything.
+ And
+ the
+
+
+result
+ is
+ essentially
+ that
+ Mistral's
+
+
+models
+ cost
+ 70
+ to
+ 90%
+ less
+ to
+ run
+ than
+
+
+comparable
+ proprietary
+ alternatives
+
+
+while
+ delivering
+ competitive
+
+
+performance.
+ For
+ enterprises
+ running
+
+
+millions
+ of
+ queries
+ per
+ month,
+ that
+ cost
+
+
+difference
+ is
+ enormous.
+ Then
+ there's
+ the
+
+
+infrastructure
+ move.
+ In
+ 2026,
+ Mistral
+
+
+announced
+ plans
+ to
+ build
+ Europe's
+
+
+largest
+ AI
+ computing
+ platform,
+ 18,000
+
+
+Nvidia
+ chips
+ powered
+ by
+ nuclear
+ energy,
+
+
+not
+ coal,
+ not
+ natural
+ gas,
+ nuclear.
+ Why?
+
+
+Because
+ AI
+ training
+ is
+ horrifyingly
+
+
+energy
+ intensive,
+ and
+ Europe
+ doesn't
+
+
+have
+ the
+ cheap
+ electricity
+ that
+ American
+
+
+data
+ centers
+ enjoy.
+ France
+ does
+ have
+
+
+nuclear
+ power,
+ though,
+ stable,
+
+
+carbon-free
+ baseload
+ that
+ can
+ run
+ 24/7.
+
+
+Mistral
+ isn't
+ just
+ building
+ models,
+ it
+
+
+is
+ building
+ the
+ energy
+ and
+ compute
+ stack
+
+
+to
+ run
+ them
+ independently
+ of
+ American
+
+
+cloud
+ providers
+ like
+ AWS,
+ Google
+ Cloud,
+
+
+and
+ Azure.
+ Compare
+ that
+ to
+ the
+ American
+
+
+approach
+ for
+ a
+ second.
+ OpenAI
+ raised
+ $60
+
+
+billion
+ total
+ and
+ expects
+ AI
+ computing
+
+
+costs
+ to
+ hit
+ $121
+ billion
+ by
+ 2028.
+
+
+Anthropic,
+ OpenAI's
+ main
+ competitor,
+ the
+
+
+people
+ behind
+ Claude,
+ just
+ announced
+ $30
+
+
+billion
+ in
+ annualized
+ revenue,
+ but
+ is
+
+
+spending
+ roughly
+ $50
+ billion
+ to
+ build
+ US
+
+
+data
+ centers.
+ These
+ are
+ capital
+
+
+destruction
+ machines.
+ Mistral,
+
+
+meanwhile,
+ hasn't
+ spent
+ its
+ entire
+ $113
+
+
+million
+ seed
+ round
+ a
+ year
+ after
+ funding.
+
+
+They're
+ not
+ trying
+ to
+ outspend
+ OpenAI,
+
+
+they're
+ trying
+ to
+ outmaneuver
+ it.
+ Here
+
+
+is
+ where
+ it
+ actually
+ gets
+ geopolitically
+
+
+interesting.
+ Macron
+ has
+ framed
+ Mistral
+
+
+as
+ part
+ of
+ what
+ he
+ calls
+ a
+ third
+ party
+
+
+in
+ AI,
+ not
+ American,
+ not
+ Chinese,
+ but
+ an
+
+
+alternative
+ pole
+ built
+ on
+ European
+
+
+values
+ and
+ partnerships
+ with
+ countries
+
+
+like
+ India.
+ This
+ is
+ not
+ just
+ France
+
+
+going
+ it
+ alone,
+ it's
+ France
+ positioning
+
+
+itself
+ as
+ the
+ hub
+ of
+ an
+ AI
+ coalition
+
+
+that
+ includes
+ anyone
+ uncomfortable
+ with
+
+
+American
+ or
+ Chinese
+ dominance.
+ And
+ the
+
+
+model
+ is
+ working.
+ European
+ AI
+ startups
+
+
+saw
+ 55%
+ more
+ funding
+ in
+ Q1
+ 2025
+ compared
+
+
+to
+ the
+ year
+ prior.
+ 12
+ European
+ AI
+
+
+companies
+ hit
+ unicorn
+ status
+ in
+ the
+
+
+first
+ half
+ of
+ 2025
+ alone.
+ Mistral
+ isn't
+
+
+an
+ outlier,
+ it
+ is
+ the
+ flagship
+ of
+ a
+
+
+movement.
+ By
+ the
+ way,
+ there's
+ some
+ older
+
+
+videos
+ on
+ the
+ channel
+ exploring
+ AI
+ in
+
+
+various
+ contexts,
+ what
+ intelligence
+
+
+actually
+ means,
+ whether
+ these
+ systems
+
+
+understand
+ anything,
+ that
+ kind
+ of
+ thing.
+
+
+I've
+ compiled
+ a
+ full
+ playlist
+ of
+ all
+ of
+
+
+them
+ that
+ I
+ will
+ link
+ in
+ the
+ description
+
+
+below.
+ I
+ want
+ to
+ make
+ more
+ of
+ this
+ kind
+
+
+of
+ content
+ breaking
+ down
+ developments
+
+
+like
+ Mistral,
+ but
+ the
+ channel
+ needs
+ to
+
+
+be
+ monetized
+ first.
+ So,
+ honestly,
+ if
+
+
+you've
+ got
+ the
+ time,
+ let
+ the
+ playlist
+
+
+run
+ in
+ the
+ background.
+ We
+ need
+ the
+ watch
+
+
+hours,
+ it
+ helps,
+ and
+ I
+ would
+ generally
+
+
+appreciate
+ it.
+ Anyway,
+ what
+ happens
+
+
+next?
+ If
+ Mistral
+ can
+ maintain
+ this
+ kind
+
+
+of
+ trajectory,
+ hitting
+ $1
+ billion
+ in
+
+
+revenue
+ by
+ end
+ of
+ 2026
+ while
+ keeping
+
+
+costs
+ at
+ fraction
+ of
+ competitors,
+ it
+
+
+proves
+ that
+ open-source
+ AI
+ can
+ compete
+
+
+at
+ scale
+ without
+ Silicon
+ Valley's
+
+
+capital
+ machine.
+ That
+ creates
+ options
+
+
+for
+ every
+ single
+ government,
+ every
+
+
+single
+ enterprise,
+ every
+ single
+
+
+developer
+ who
+ doesn't
+ want
+ to
+ be
+ locked
+
+
+into
+ American
+ infrastructure.
+ We've
+
+
+already
+ seen
+ 72%
+ of
+ US
+ Fortune
+ 500
+
+
+companies
+ testing
+ Mistral
+ for
+ their
+
+
+European
+ operations
+ because
+ of
+ data
+
+
+sovereignty
+ concerns.
+ If
+ that
+ becomes
+
+
+the
+ norm,
+ if
+ where
+ your
+ AI
+ runs
+ becomes
+
+
+as
+ important
+ as
+ how
+ well
+ your
+ AI
+ works,
+
+
+then
+ the
+ entire
+ AI
+ market
+ fragments
+
+
+along
+ sovereignty
+ lines.
+ American
+
+
+companies
+ dominate
+ the
+ Americas,
+ Chinese
+
+
+companies
+ dominate
+ Asia,
+ European
+
+
+companies
+ led
+ by
+ Mistral
+ dominate
+ Europe
+
+
+and
+ parts
+ of
+ the
+ global
+ south
+ that
+
+
+distrust
+ both
+ superpowers.
+ The
+
+
+uncomfortable
+ reality
+ is
+ the
+ following.
+
+
+AI
+ infrastructure
+ is
+ becoming
+ as
+
+
+strategic
+ as
+ semiconductor
+ fabs
+ or
+
+
+undersea
+ cables.
+ Whoever
+ controls
+ the
+
+
+models,
+ the
+ chips,
+ and
+ the
+ energy
+ to
+ run
+
+
+them
+ controls
+ a
+ piece
+ of
+ the
+ future
+
+
+economy.
+ Mistral's
+ bet
+ is
+ that
+ Europe
+
+
+won't
+ accept
+ American
+ control
+ of
+ that
+
+
+infrastructure
+ any
+ more
+ than
+ it
+ accepted
+
+
+American
+ control
+ of
+ its
+ data
+ under
+ GDPR.
+
+
+And
+ given
+ that
+ ASML,
+ Europe's
+ $300
+
+
+billion
+ chip
+ monopoly,
+ just
+ led
+
+
+Mistral's
+ latest
+ funding
+ round,
+ it
+ is
+
+
+clear
+ that
+ European
+ industrial
+ giants
+
+
+are
+ making
+ the
+ same
+ calculation.
+
+
+>> [gasps]
+
+
+>> Before
+ you
+ go,
+ check
+ out
+ the
+ video
+ on
+
+
+your
+ screen
+ right
+ now.
+ It's
+ a
+ full
+
+
+playlist
+ of
+ AI
+ analysis
+ that
+ will
+ help
+
+
+you
+ understand
+ not
+ just
+ what's
+
+
+happening,
+ but
+ why
+ it
+ also
+ matters.
+ We
+
+
+need
+ the
+ watch
+ hours,
+ so
+ let
+ it
+ run
+ if
+
+
+you
+ can.
+ Thank
+ you
+ so
+ much
+ for
+ watching,
+
+
+subscribe,
+ and
+ I'll
+ see
+ you
+ all
+ on
+ the
+
+
+next
+ one.
