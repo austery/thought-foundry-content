@@ -1,0 +1,2890 @@
+Here's
+ a
+ generally
+ wild
+ collision
+
+
+happening
+ right
+ now.
+ Chinese
+ courts
+ have
+
+
+ruled
+ in
+ two
+ separate
+ cases
+ that
+
+
+companies
+ cannot
+ fire
+ workers
+ simply
+
+
+because
+ AI
+ can
+ now
+ do
+ their
+ job.
+ The
+
+
+legal
+ principle
+ they
+ established
+ is
+ as
+
+
+follows:
+ AI
+ adoption
+ is
+ a
+ strategic
+
+
+business
+ choice,
+ not
+ an
+ unforeseeable
+
+
+change
+ in
+ circumstances.
+
+
+So,
+ companies
+ cannot
+ shift
+ the
+ risk
+ of
+
+
+technological
+ change
+ onto
+ employees.
+
+
+Meanwhile,
+ in
+ the
+ United
+ States,
+ between
+
+
+78,000
+ and
+ 92,000
+ tech
+ workers
+ were
+ laid
+
+
+off
+ in
+ the
+ first
+ 4
+ months
+ of
+ 2026,
+ with
+
+
+nearly
+ half
+ of
+ those
+ cuts
+ explicitly
+
+
+attributed
+ to
+ AI.
+ And
+ there
+ is
+ zero
+
+
+equivalent
+ legal
+ protection.
+ China
+ is
+
+
+protecting
+ workers
+ during
+ the
+ AI
+
+
+transition.
+ The
+ USA
+ doesn't
+ appear
+ to
+ be
+
+
+doing
+ the
+ same
+ thing.
+ Why
+ is
+ that?
+ I'm
+
+
+L,
+ I
+ have
+ a
+ PhD
+ in
+ computer
+ science,
+ and
+
+
+I
+ analyze
+ AI
+ developments
+ to
+ understand
+
+
+what
+ is
+ actually
+ happening
+ beneath
+ all
+
+
+of
+ the
+ hype.
+ And
+ when
+ you
+ look
+ at
+ the
+
+
+actual
+ court
+ rulings,
+ the
+ actual
+ legal
+
+
+framework,
+ and
+ what's
+ happening
+ in
+
+
+Silicon
+ Valley
+ at
+ the
+ exact
+ same
+ moment,
+
+
+the
+ contrast
+ is
+ generally
+ extraordinary.
+
+
+Let
+ me
+ show
+ you
+ what
+ I
+ mean.
+ Start
+ with
+
+
+the
+ case
+ that
+ triggered
+ all
+ of
+ this.
+ A
+
+
+tech
+ worker
+ in
+ Hangzhou,
+ identified
+ only
+
+
+as
+ Joe,
+ worked
+ as
+ a
+ quality
+ assurance
+
+
+supervisor
+ at
+ an
+ AI
+ company.
+ His
+ job
+ was
+
+
+basically
+ verifying
+ AI-generated
+
+
+answers,
+ optimizing
+ outputs
+ from
+ large
+
+
+language
+ models.
+ He
+ earned
+ about
+ 25,000
+
+
+yuan
+ per
+ month,
+ which
+ is
+ about
+ 3,600
+ US
+
+
+dollars.
+ In
+ 2024,
+ the
+ company
+ decided
+
+
+its
+ AI
+ systems
+ had
+ improved
+ enough
+ that
+
+
+Joe's
+ role
+ could
+ be
+ automated.
+ They
+
+
+offered
+ him
+ a
+ different
+ position
+ with
+ a
+
+
+salary
+ cut
+ from
+ 25,000
+ yuan
+ to
+ 15,000
+
+
+yuan,
+ which
+ is
+ a
+ 40%
+ pay
+ cut.
+ Joe
+
+
+refused.
+ The
+ company
+ fired
+ him.
+ Just
+
+
+stop
+ and
+ think
+ about
+ that
+ for
+ a
+ second.
+
+
+Joe's
+ job
+ was
+ checking
+ the
+ AI.
+ The
+ AI
+
+
+got
+ good
+ enough
+ that
+ it
+ didn't
+ need
+
+
+somebody
+ checking
+ it
+ anymore.
+ So,
+ the
+ AI
+
+
+replaced
+ the
+ person
+ whose
+ job
+ was
+
+
+verifying
+ the
+ AI.
+ It's
+ recursive
+ job
+
+
+displacement.
+ Joe
+ filed
+ for
+ arbitration.
+
+
+The
+ arbitration
+ panel
+ ruled
+ the
+
+
+dismissal
+ unlawful.
+ The
+ company
+ appealed
+
+
+to
+ a
+ district
+ court,
+ lost
+ again,
+
+
+appealed
+ to
+ the
+ Hangzhou
+ Intermediate
+
+
+People's
+ Court,
+ lost
+ again.
+ The
+ court's
+
+
+reasoning
+ was
+ this,
+ I'm
+ quoting,
+ "The
+
+
+termination
+ grounds
+ cited
+ by
+ the
+ company
+
+
+did
+ not
+ fall
+ under
+ negative
+
+
+circumstances
+ such
+ as
+ business
+
+
+downsizing
+ or
+ operational
+ difficulties,
+
+
+nor
+ did
+ they
+ meet
+ the
+ legal
+ condition
+
+
+that
+ made
+ it
+ impossible
+ to
+ continue
+ the
+
+
+employment
+ contract."
+ So,
+ they're
+
+
+basically
+ saying,
+ "Just
+ because
+ you
+
+
+bought
+ an
+ AI
+ that
+ can
+ do
+ somebody's
+ job,
+
+
+it
+ doesn't
+ mean
+ you
+ get
+ to
+ fire
+ them
+ and
+
+
+call
+ it
+ force
+ majeure."
+ There
+ is
+ a
+
+
+second
+ case
+ that
+ establishes
+ the
+ very
+
+
+same
+ principle.
+ A
+ worker
+ named
+ Liu
+ had
+
+
+been
+ employed
+ since
+ 2009
+ as
+ a
+ map
+ data
+
+
+collector,
+ which
+ is
+ basically
+ manual
+
+
+data
+ entry.
+ In
+ early
+ 2024,
+ his
+ company
+
+
+switched
+ to
+ AI-powered
+ data
+ collection,
+
+
+eliminated
+ his
+ entire
+ division,
+ and
+
+
+fired
+ him.
+
+
+Liu
+ won
+ his
+ arbitration
+ case
+ in
+ Beijing
+
+
+on
+ the
+ exact
+ same
+ grounds.
+ The
+ legal
+
+
+question
+ at
+ the
+ center
+ of
+ both
+ of
+ these
+
+
+cases
+ is
+ essentially
+ does
+ AI-driven
+ job
+
+
+replacement
+ count
+ as
+ major
+ change
+ in
+ the
+
+
+objective
+ circumstances
+ under
+ China's
+
+
+labor
+ contract
+ law?
+
+
+China's
+ labor
+ law
+ basically
+ defines
+
+
+objective
+ major
+ changes
+ as
+
+
+uncontrollable,
+ unpredictable
+ events
+
+
+such
+ as
+ natural
+ disasters,
+ government
+
+
+policy
+ causing
+ ruin,
+ things
+ generally
+
+
+beyond
+ a
+ company's
+ control,
+ not
+ business
+
+
+decisions.
+ And
+ the
+ court
+ said
+ the
+
+
+company's
+ adoption
+ of
+ AI
+ was
+ a
+ voluntary
+
+
+move
+ to
+ stay
+ competitive.
+ By
+ citing
+ AI
+
+
+replacement
+ as
+ a
+ grounds
+ for
+ dismissal,
+
+
+the
+ company
+ had
+ effectively
+ shifted
+ the
+
+
+risks
+ of
+ technological
+ iteration
+ onto
+
+
+its
+ own
+ employees.
+ You
+ chose
+ to
+ buy
+ the
+
+
+robot,
+ the
+ robot
+ replacing
+ people
+ is
+ not
+
+
+an
+ act
+ of
+ God.
+ This
+ is
+ just
+ a
+ Tuesday.
+
+
+Which
+ raises
+ the
+ obvious
+ question,
+ what
+
+
+is
+ happening
+ in
+ the
+ rest
+ of
+ the
+ world?
+
+
+Here's
+ where
+ it
+ gets
+ generally
+ absurd.
+
+
+By
+ early
+ 2026,
+ roughly
+ 78,000
+ to
+ 80,000
+
+
+tech
+ jobs
+ had
+ been
+ cut
+ globally
+ with
+
+
+more
+ than
+ three
+ quarters
+ of
+ those
+ losses
+
+
+in
+ the
+ US
+ alone.
+ Around
+ half
+ of
+ those
+
+
+cuts
+ were
+ officially
+ linked
+ to
+ AI
+ or
+
+
+workflow
+ automation.
+ As
+ of
+ late
+ April,
+
+
+over
+ 92,000
+ tech
+ workers
+ had
+ been
+ laid
+
+
+off
+ in
+ 2026.
+
+
+Let's
+ walk
+ through
+ what's
+ actually
+
+
+happening
+ at
+ these
+ companies.
+ Oracle
+
+
+laid
+ off
+ an
+ estimated
+ 20,000
+ to
+ 30,000
+
+
+employees
+ in
+ March
+ via
+ a
+ 6:00
+ a.m.
+ email
+
+
+signed
+ Oracle
+ Leadership,
+ not
+ a
+ person's
+
+
+name,
+ just
+ Leadership.
+ Eliminating
+
+
+20,000
+ to
+ 30,000
+ jobs
+ could
+ generate
+ $8
+
+
+billion
+ to
+ $10
+ billion
+ in
+ savings
+ for
+
+
+Oracle,
+ and
+ that
+ freed
+ capital
+ is
+
+
+earmarked
+ for
+ AI
+ data
+ center
+
+
+investments.
+ In
+ normal
+ words,
+ we're
+
+
+firing
+ tens
+ of
+ thousands
+ of
+ people
+ to
+
+
+buy
+ more
+ GPUs.
+
+
+And
+ the
+ stated
+ reason
+ is
+ Meta
+ told
+
+
+employees
+ this
+ was
+ all
+ part
+ of
+ our
+
+
+continued
+ effort
+ to
+ run
+ the
+ company
+ more
+
+
+efficiently
+ and
+ to
+ allow
+ us
+ to
+ offset
+
+
+the
+ other
+ investments
+ we're
+ making.
+ Meta
+
+
+announced
+ in
+ April
+ it
+ would
+ cut
+ 8,000
+
+
+jobs,
+ about
+ 10%
+ of
+ its
+ workforce,
+ with
+
+
+layoffs
+ beginning
+ May
+ 20th.
+ Internal
+
+
+guidance
+ suggests
+ the
+ company
+ could
+
+
+ultimately
+ reduce
+ headcount
+ by
+ nearly
+
+
+20%
+ across
+ the
+ full
+ year.
+ Other
+
+
+investments
+ means
+ AI
+ infrastructure.
+
+
+They're
+ cutting
+ people
+ to
+ fund
+ the
+
+
+machines.
+ In
+ another
+ example,
+ Block,
+ the
+
+
+company
+ behind
+ Square
+ and
+ Cash
+ App,
+ cut
+
+
+from
+ 10,000
+ employees
+ to
+ 6,000.
+ CEO
+ Jack
+
+
+Dorsey
+ said
+ this
+ was
+ due
+ largely
+ to
+ the
+
+
+new
+ capabilities
+ offered
+ by
+ AI
+ and
+ the
+
+
+reduced
+ need
+ for
+ human
+ employees.
+ 40%
+
+
+reduction
+ presented
+ as
+ a
+ normal
+ business
+
+
+update.
+ Snap
+ cut
+ 1,000
+ jobs,
+ 16%
+ of
+ its
+
+
+workforce.
+ CEO
+ Evan
+ Spiegel
+ cited
+ rapid
+
+
+advancements
+ in
+ AI
+ that
+ enable
+ our
+ teams
+
+
+to
+ reduce
+ repetitive
+ work,
+ increase
+
+
+velocity,
+ and
+ better
+ support
+ our
+
+
+community.
+ Reduce
+ repetitive
+ work.
+ It's
+
+
+the
+ same
+ framing
+ again.
+ This
+ is
+ doing
+ a
+
+
+lot
+ of
+ heavy
+ lifting
+ in
+ that
+ sentence,
+
+
+isn't
+ it?
+ Salesforce
+ also
+ laid
+ off
+ 4,000
+
+
+customer
+ support
+ roles
+ in
+ September
+ with
+
+
+CEO
+ Marc
+ Benioff
+ saying,
+ "I
+ need
+ less
+
+
+heads,
+ not
+ fewer
+ roles."
+ Not
+ reduce
+
+
+headcount,
+ I
+ need
+ less
+ heads.
+ Like
+ he's
+
+
+ordering
+ a
+ shipment.
+ And
+ the
+ kicker
+ is
+
+
+that
+ Alphabet,
+ Microsoft,
+ Meta,
+ and
+
+
+Amazon
+ are
+ expected
+ to
+ spend
+ nearly
+ $700
+
+
+billion
+ combined
+ in
+ 2026
+ on
+ AI
+
+
+infrastructure
+ build-outs.
+ So,
+ to
+
+
+summarize,
+ Silicon
+ Valley
+ is
+ firing
+
+
+nearly
+ 100,000
+ people
+ in
+ 4
+ months,
+ half
+
+
+explicitly
+ for
+ AI,
+ while
+ spending
+ $700
+
+
+billion
+ on
+ AI
+ infrastructure
+ and
+
+
+presenting
+ this
+ as
+ unavoidable
+
+
+technological
+ progress.
+
+
+Meanwhile,
+ what
+ legal
+ protection
+ exists
+
+
+in
+ the
+ United
+ States
+ or
+ Europe?
+ Here's
+
+
+what's
+ generally
+ striking
+ to
+ me.
+ The
+
+
+United
+ States
+ has
+ no
+ federal
+ law
+
+
+protecting
+ workers
+ from
+ AI
+ displacement,
+
+
+none.
+ There
+ are
+ patchwork
+ state
+ laws
+
+
+focused
+ on
+ algorithmic
+ transparency
+ in
+
+
+hiring,
+ such
+ as
+ Colorado's
+ high-risk
+ AI
+
+
+system
+ law
+ effective
+ June
+ 2026,
+
+
+California's
+ privacy
+ regime,
+ New
+ York
+
+
+City's
+ AI
+ hiring
+ disclosure
+
+
+requirements,
+ but
+ those
+ laws
+ regulate
+
+
+how
+ AI
+ is
+ used
+ in
+ hiring
+ decisions,
+
+
+transparency,
+ human
+ oversight,
+ the
+ right
+
+
+to
+ know
+ if
+ an
+ algorithm
+ rejected
+ your
+
+
+application.
+ They
+ do
+ not,
+ however,
+
+
+protect
+ you
+ from
+ being
+ replaced
+ once
+
+
+you're
+ hired.
+ The
+ European
+ Union's
+ AI
+
+
+Act,
+ the
+ world's
+ most
+ comprehensive
+ AI
+
+
+regulation
+ framework,
+ classifies
+
+
+employment-related
+ AI
+ as
+ high
+ risk
+ and
+
+
+requires
+ transparency,
+ human
+ oversight,
+
+
+and
+ the
+ right
+ to
+ explanation.
+ It's
+
+
+scheduled
+ to
+ be
+ fully
+ applicable
+ in
+
+
+2026.
+ But
+ again,
+ that's
+ about
+
+
+algorithmic
+ fairness
+ in
+ employment
+
+
+decision,
+ not
+ protection
+ from
+
+
+automation.
+ The
+ act
+ guarantees
+
+
+individuals
+ the
+ right
+ not
+ to
+ be
+ subject
+
+
+to
+ a
+ decision
+ based
+ solely
+ on
+ automated
+
+
+processing
+ unless
+ job
+ applicants
+ request
+
+
+human
+ reevaluation,
+ which
+ is
+ great
+ if
+ an
+
+
+AI
+ wrongly
+ rejects
+ your
+ job
+ application,
+
+
+but
+ still
+ it
+ does
+ nothing
+ if
+ your
+
+
+company
+ fires
+ you
+ because
+ an
+ AI
+ can
+ now
+
+
+do
+ your
+ job
+ for
+ less
+ money.
+ No
+
+
+jurisdiction
+ outside
+ China
+ as
+ of
+ this
+
+
+moment
+ has
+ ruled
+ that
+ AI
+ adoption
+ alone
+
+
+cannot
+ justify
+ termination.
+ And
+ this
+ is
+
+
+happening
+ while
+ China
+ is
+ deploying
+ AI
+ at
+
+
+massive
+ scale,
+ by
+ the
+ way.
+ China's
+ core
+
+
+AI
+ industry
+ was
+ valued
+ at
+ 1.2
+ trillion
+
+
+yuan,
+ which
+ is
+ about
+ 174
+ billion
+ dollars
+
+
+in
+ 2025
+ with
+ over
+ 6,200
+ AI
+ companies.
+ By
+
+
+the
+ end
+ of
+ 2025,
+ more
+ than
+ 30%
+ of
+
+
+manufacturing
+ enterprises
+ had
+ adopted
+ AI
+
+
+technologies.
+ That
+ is
+ a
+ significant
+
+
+number.
+ Chinese
+ companies
+ released
+ over
+
+
+300
+ humanoid
+ robot
+ products
+ in
+ 2025,
+
+
+more
+ than
+ half
+ the
+ global
+ total.
+ So,
+
+
+China
+ is
+ building
+ robots
+ faster
+ than
+
+
+anyone
+ else
+ and
+ protecting
+ workers
+ from
+
+
+displacement
+ simultaneously.
+ Let's
+ next
+
+
+talk
+ about
+ who
+ bears
+ the
+ actual
+ risk
+
+
+here.
+ Here's
+ what
+ I
+ think
+ is
+ actually
+
+
+happening.
+ The
+ legal
+ framework
+ in
+ the
+
+
+United
+ States
+ operates
+ on
+ a
+ simple
+
+
+premise.
+ If
+ technology
+ can
+ do
+ your
+ job
+
+
+cheaper,
+ you're
+ gone.
+ Market
+ decides,
+
+
+the
+ cost
+ of
+ technological
+ change
+ falls
+
+
+on
+ the
+ worker.
+ The
+ Chinese
+ legal
+
+
+framework
+ just
+ established
+ a
+ different
+
+
+premise.
+ If
+ technology
+ can
+ do
+ your
+ job
+
+
+cheaper,
+ the
+ company
+ chose
+ to
+ deploy
+
+
+that
+ technology
+ and
+ the
+ business
+ risk
+ of
+
+
+that
+ strategic
+ decision
+ cannot
+ be
+
+
+transferred
+ onto
+ the
+ employee.
+ A
+ Chinese
+
+
+lawyer
+ put
+ it
+ perfectly
+ and
+ I'm
+ quoting
+
+
+here,
+ "Technological
+ progress
+ may
+ be
+
+
+irreversible,
+ but
+ it
+ cannot
+ exist
+
+
+outside
+ a
+ legal
+ framework."
+ Which
+ flips
+
+
+the
+ entire
+ assumption
+ about
+ automation,
+
+
+doesn't
+ it?
+ In
+ the
+ US
+ model,
+ Oracle
+ can
+
+
+fire
+ 30,000
+ people
+ via
+ email
+ at
+ 6:00
+
+
+a.m.
+ to
+ fund
+ data
+ centers,
+ and
+ that's
+
+
+just
+ how
+ capitalism
+ works.
+ The
+ workers
+
+
+absorb
+ the
+ disruption,
+ the
+ shareholders
+
+
+get
+ the
+ efficiency
+ gains.
+ In
+ the
+ Chinese
+
+
+model,
+ Oracle
+ buying
+ AI
+ is
+ a
+ business
+
+
+decision
+ Oracle
+ made.
+ If
+ that
+ business
+
+
+decision
+ makes
+ somebody's
+ contract
+
+
+impossible
+ to
+ perform,
+ that
+ is
+ Oracle's
+
+
+problem
+ to
+ solve
+ through
+ retraining
+ or
+
+
+reasonable
+ reassignment
+ or
+ severance,
+
+
+not
+ the
+ worker's
+ problem
+ to
+ solve
+ by
+
+
+becoming
+ unemployed.
+ The
+ court
+ rulings
+
+
+are
+ very
+ specific
+ about
+ this.
+ They
+ know
+
+
+that
+ companies
+ should
+ prioritize
+
+
+retraining
+ workers,
+ offering
+ reasonable
+
+
+reassignments
+ with
+ fair
+ compensation,
+ or
+
+
+helping
+ employees
+ transition
+ to
+
+
+higher-level
+ roles
+ requiring
+ greater
+
+
+human
+ involvement.
+ And
+ if
+ the
+ company
+
+
+can't
+ or
+ won't
+ do
+ that,
+ then
+ the
+ firing
+
+
+is
+ illegal.
+
+
+Now,
+ there
+ is
+ a
+ generally
+ funny
+ detail
+
+
+buried
+ in
+ the
+ Hangzhou
+ case.
+ The
+ court
+
+
+ruled
+ that
+ the
+ alternative
+ position
+
+
+offered
+ to
+ Joe
+ with
+ a
+ 40%
+ pay
+ cut,
+ if
+
+
+you
+ remember
+ that
+ one,
+ was
+ not
+ a
+
+
+reasonable
+ reassignment
+ proposal,
+ which
+
+
+means
+ Chinese
+ labor
+ law
+ has
+ case
+
+
+precedent
+ that
+ says
+ you
+ cannot
+ cut
+
+
+somebody's
+ salary
+ nearly
+ in
+ half,
+ call
+
+
+it
+ reassignment,
+ and
+ act
+ like
+ you
+
+
+fulfilled
+ your
+ legal
+ obligation.
+ Wild
+
+
+that
+ this
+ needs
+ to
+ be
+ litigated,
+ but
+
+
+here
+ we
+ are.
+ Meanwhile,
+ Meta
+ is
+ telling
+
+
+8,000
+ people
+ "We
+ need
+ to
+ run
+ more
+
+
+efficiently"
+ while
+ spending
+ billions
+ on
+
+
+GPU
+ clusters,
+ and
+ there
+ is
+ no
+ legal
+
+
+mechanism
+ in
+ the
+ United
+ States
+ that
+
+
+says,
+ "Wait,
+ just
+ hang
+ on
+ a
+ second."
+
+
+By
+ the
+ way,
+ I'm
+ developing
+ a
+ course
+ in
+
+
+two
+ tiers
+ for
+ non-technical
+
+
+professionals
+ where
+ AI
+ is
+ explained
+
+
+simply,
+ the
+ actual
+ mechanisms,
+ not
+ the
+
+
+hype.
+ If
+ you
+ like
+ to
+ take
+ 2
+ minutes
+ to
+
+
+answer
+ some
+ questions
+ that
+ directly
+
+
+shape
+ what
+ the
+ course
+ covers,
+ the
+ link
+
+
+is
+ down
+ below.
+
+
+So,
+ where
+ does
+ all
+ of
+ this
+ go?
+ If
+ we
+
+
+actually
+ think
+ through
+ the
+ structural
+
+
+dynamics,
+ a
+ few
+ things
+ become
+ clear.
+
+
+First,
+ this
+ creates
+ a
+ genuine
+
+
+competitive
+ divergence.
+ China
+ is
+
+
+aggressively
+ deploying
+ AI,
+ 30%
+ of
+
+
+manufacturers
+ adopted
+ it
+ by
+ end
+ of
+ 2025,
+
+
+with
+ penetration
+ rates
+ expected
+ to
+
+
+exceed
+ 90%
+ by
+ 2030.
+ That's
+ crazy.
+ While
+
+
+legally
+ requiring
+ companies
+ to
+ absorb
+
+
+the
+ transition
+ costs,
+ the
+ US
+ is
+ also
+
+
+aggressively
+ deploying
+ AI,
+ but
+ the
+
+
+transition
+ costs
+ falls
+ entirely
+ on
+
+
+workers.
+ Which
+ approach
+ produces
+ a
+ more
+
+
+stable
+ labor
+ market?
+ Which
+ approach
+
+
+maintains
+ consumer
+ spending
+ power?
+ Which
+
+
+approach
+ avoids
+ the
+ social
+ instability
+
+
+that
+ comes
+ from
+ mass
+ unemployment
+ during
+
+
+rapid
+ automation?
+ Well,
+ we're
+ about
+ to
+
+
+find
+ out.
+ Second,
+ the
+ Chinese
+ rulings
+
+
+establish
+ AI
+ adoption
+ as
+ a
+ business
+
+
+strategy,
+ not
+ as
+ an
+ external
+ shock,
+ and
+
+
+that
+ matters
+ because
+ it
+ changes
+ the
+
+
+legal
+ category.
+ If
+ AI
+ displacement
+ is
+
+
+treated
+ like
+ a
+ natural
+ disaster,
+
+
+something
+ that
+ just
+ kind
+ of
+ happens
+ to
+
+
+you,
+ God
+ did
+ it,
+ then
+ layoffs
+ are
+
+
+defensible.
+ If
+ AI
+ displacement
+ is
+
+
+treated
+ like
+ any
+ other
+ capital
+
+
+investment
+ decision,
+ something
+ you
+
+
+chose,
+ then
+ the
+ legal
+ obligations
+
+
+change.
+ The
+ Beijing
+ Arbitration
+ Panel
+
+
+was
+ explicit
+ about
+ this.
+ The
+ company's
+
+
+decision
+ to
+ adopt
+ AI
+ was
+ voluntary,
+ and
+
+
+by
+ terminating
+ the
+ employee
+ contract,
+
+
+the
+ company
+ was
+ shifting
+ the
+ cost
+ of
+ the
+
+
+technological
+ transformation
+ to
+ the
+
+
+employee.
+ Third,
+ we're
+ watching
+ the
+
+
+opening
+ moves
+ of
+ how
+ different
+ systems
+
+
+handle
+ the
+ largest
+ labor
+ displacement
+
+
+event
+ since
+ industrialization,
+
+
+and
+ the
+ early
+ signals
+ suggest
+ that
+ China
+
+
+has
+ decided
+ to
+ err
+ on
+ the
+ side
+ of
+ the
+
+
+worker
+ until
+ the
+ impacts
+ are
+ clearer.
+
+
+The
+ US
+ seems
+ to
+ have
+ decided
+ to
+ let
+ the
+
+
+market
+ sort
+ itself
+ out.
+ One
+ researcher
+
+
+from
+ the
+ Chinese
+ Academy
+ of
+ Social
+
+
+Sciences
+ put
+ it
+ this
+ way,
+ I'm
+ quoting,
+
+
+"Whether
+ it
+ makes
+ Chinese
+ companies
+ less
+
+
+competitive
+ or
+ more
+ resilient
+ will
+
+
+depend
+ on
+ whether
+ AI
+ actually
+ replaces
+
+
+the
+ workers
+ or
+ merely
+ changes
+ what
+ the
+
+
+workers
+ do."
+ The
+ early
+ evidence
+ from
+ the
+
+
+92,000
+ layoffs
+ from
+ companies
+ explicitly
+
+
+saying
+ they're
+ cutting
+ head
+ count
+ to
+
+
+fund
+ AI,
+ from
+ Meta
+ firing
+ 8,000
+ people
+
+
+while
+ spending
+ billions
+ on
+
+
+infrastructure,
+ suggests
+ the
+ answer
+ in
+
+
+the
+ United
+ States
+ is
+ pretty
+ clear.
+ AI
+ is
+
+
+replacing
+ workers,
+ full
+ stop.
+ China
+ just
+
+
+said,
+ well,
+ not
+ without
+ legal
+
+
+consequences.
+ The
+ generation
+ entering
+
+
+the
+ workforce
+ over
+ the
+ next
+ decade
+ will
+
+
+live
+ with
+ whichever
+ framework
+ their
+
+
+country
+ chooses,
+ and
+ right
+ now
+ those
+
+
+frameworks
+ are
+ moving
+ in
+ opposite
+
+
+directions.
+ If
+ you
+ want
+ to
+ dig
+ into
+ why
+
+
+Gen
+ Z
+ people
+ are
+ actually
+ hating
+ AI
+ and
+
+
+actively
+ sabotaging
+ it,
+ check
+ out
+ the
+
+
+video
+ on
+ your
+ screen
+ right
+ now.
+ It's
+
+
+pretty
+ wild
+ how
+ these
+ things
+ are
+
+
+unfolding
+ right
+ now.
+ Thank
+ you
+ so
+ much
+
+
+for
+ watching.
+ Subscribe
+ and
+ I'll
+ see
+ you
+
+
+on
+ the
+ next
+ one.
