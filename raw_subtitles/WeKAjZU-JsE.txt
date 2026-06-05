@@ -1,0 +1,1863 @@
+I
+ recently
+ made
+ a
+ long
+ video
+ covering
+
+
+some
+ of
+ the
+ worst
+ ongoing
+ data
+ center
+
+
+disasters
+ in
+ the
+ United
+ States.
+
+
+Unmetered
+ water
+ extraction
+ in
+ Georgia,
+
+
+invisible
+ noise
+ pollution,
+ billions
+ in
+
+
+grid
+ costs
+ charged
+ to
+ residents
+ who
+
+
+never
+ asked
+ for
+ any
+ of
+ it.
+ I
+ genuinely
+
+
+thought
+ that
+ video
+ covered
+ the
+ extremes.
+
+
+I
+ thought
+ that
+ I'd
+ found
+ the
+ ceiling
+ for
+
+
+how
+ badly
+ things
+ could
+ go.
+ I
+ had
+
+
+definitely
+ not
+ found
+ the
+ ceiling.
+ My
+
+
+name
+ is
+ L.
+ I
+ have
+ a
+ PhD
+ in
+ computer
+
+
+science
+ and
+ I
+ analyze
+ AI
+ developments
+ to
+
+
+understand
+ what's
+ actually
+ happening
+
+
+beneath
+ all
+ of
+ this
+ hype.
+ But
+ today,
+
+
+honestly,
+ you
+ really
+ don't
+ need
+ a
+ PhD
+ to
+
+
+understand
+ this
+ one.
+ This
+ week,
+ Fortune
+
+
+reported
+ that
+ Envy
+ Energy,
+ the
+ Nevada
+
+
+utility
+ that
+ has
+ supplied
+ the
+ majority
+
+
+of
+ Lake
+ Taho's
+ electricity
+ for
+ decades,
+
+
+has
+ informed
+ Liberty
+ Utilities,
+ the
+
+
+small
+ California
+ company
+ that
+ serves
+ the
+
+
+region,
+ that
+ it
+ will
+ stop
+ providing
+
+
+power
+ after
+ May
+ 2027.
+ The
+ reason
+ stated
+
+
+plainly
+ and
+ on
+ the
+ record,
+ Envy
+ Energy
+
+
+needs
+ the
+ capacity
+ for
+ data
+ centers.
+
+
+49,000
+ residents,
+ 75%
+ of
+ their
+
+
+electricity
+ supply
+ gone
+ by
+ next
+ ski
+
+
+season
+ so
+ that
+ Google,
+ Apple,
+ and
+
+
+Microsoft
+ can
+ run
+ servers
+ in
+ the
+ desert.
+
+
+Let
+ me
+ make
+ sure
+ that
+ landed.
+ A
+ utility
+
+
+company
+ looked
+ at
+ its
+ available
+ power,
+
+
+looked
+ at
+ its
+ existing
+ customers,
+
+
+families,
+ businesses,
+ hospitals,
+
+
+schools,
+ ski
+ resorts
+ serving
+ 25
+ to
+ 28
+
+
+million
+ visitors
+ per
+ year,
+ and
+ then
+
+
+looked
+ at
+ incoming
+ data
+ center
+ contracts
+
+
+and
+ chose
+ the
+ data
+ centers.
+ This
+ was
+ not
+
+
+a
+ quiet
+ thing,
+ not
+ through
+ some
+
+
+invisible
+ cost-
+ shifting
+ mechanism
+
+
+buried
+ in
+ rate
+ structures.
+ They
+ just
+
+
+literally
+ told
+ 49,000
+ people
+ to
+ find
+
+
+electricity
+ from
+ somewhere
+ else.
+
+
+Danielle
+ Hughes,
+ a
+ North
+ Lake
+ Tahoe
+
+
+resident
+ and
+ supervisor
+ within
+ the
+
+
+California
+ Energy
+ Commission's
+
+
+efficiency
+ division,
+ told
+ Fortune,
+ I'm
+
+
+quoting
+ her,
+ "It's
+ like
+ we
+ don't
+ exist."
+
+
+Here's
+ what
+ makes
+ this
+ story
+
+
+structurally
+ different
+ from
+ the
+ cases
+ I
+
+
+covered
+ in
+ my
+ previous
+ video.
+ In
+
+
+Georgia,
+ the
+ harm
+ was
+ invisible.
+
+
+Unmetered
+ water
+ connections
+ the
+ county
+
+
+didn't
+ know
+ about.
+ In
+ Maryland,
+ the
+ harm
+
+
+was
+ buried
+ in
+ rate
+ structures,
+ cost
+
+
+shifting
+ that
+ appeared
+ as
+ a
+ line
+ item
+ on
+
+
+electricity
+ bills.
+ Those
+ were
+ cases
+ of
+
+
+extraction
+ through
+ opacity.
+ Lake
+ Tahoe
+
+
+is
+ extraction
+ through
+ declaration.
+ The
+
+
+utility
+ isn't
+ hiding
+ anything.
+ It's
+
+
+openly
+ saying,
+ "We
+ have
+ a
+ finite
+
+
+resource
+ and
+ we've
+ decided
+ these
+
+
+customers
+ matter
+ more
+ than
+ those
+ other
+
+
+customers."
+ The
+ quiet
+ part
+ is
+ now
+ the
+
+
+entire
+ sentence.
+ And
+ the
+ numbers
+ are
+ of
+
+
+course
+ staggering.
+ Data
+ centers
+ consume
+
+
+22%
+ of
+ Nevada's
+ electricity
+ in
+ 2024,
+ and
+
+
+that
+ share
+ could
+ well
+ rise
+ to
+ 35%
+ by
+
+
+2030.
+ 12
+ data
+ center
+ projects
+ in
+
+
+Northern
+ Nevada
+ alone
+ could
+ drive
+ 5,900
+
+
+megawatts
+ of
+ new
+ demand
+ by
+ 2033.
+ In
+ Envy
+
+
+Energy's
+ own
+ 2024
+ resource
+ plan,
+ about
+
+
+75%
+ of
+ major
+ project
+ load
+ growth
+ is
+
+
+attributed
+ to
+ data
+ centers
+ and
+ most
+ of
+
+
+it
+ is
+ concentrated
+ in
+ Northern
+ Nevada
+
+
+using
+ the
+ exact
+ same
+ system
+ that
+ feeds
+
+
+power
+ to
+ Lake
+ Tahoe.
+ Liberty
+ Utilities
+
+
+generates
+ about
+ 25%
+ of
+ its
+ power
+ from
+
+
+solar
+ facilities
+ it
+ owns.
+ The
+ other
+ 75%
+
+
+comes
+ from
+ Envy
+ Energy.
+ That
+ 75%
+ is
+
+
+what's
+ being
+ taken
+ away
+ now.
+ Liberty
+ now
+
+
+has
+ less
+ than
+ a
+ year
+ to
+ find
+ replacement
+
+
+power
+ on
+ the
+ open
+ western
+ electricity
+
+
+market,
+ competing
+ against
+ PG&E,
+ Southern
+
+
+California,
+ Edison,
+ mining
+ companies,
+
+
+and
+ in
+ a
+ detail
+ so
+ absurd
+ it
+ feels
+
+
+scripted,
+ other
+ data
+ centers.
+ Hughes
+ put
+
+
+it
+ very
+ well.
+ We're
+ 49,000
+ customers.
+ We
+
+
+have
+ no
+ leverage.
+ Now,
+ Envy
+ Energy
+
+
+spokesperson
+ told
+ Fortune
+ this
+ was
+ a
+
+
+planned
+ transition
+ for
+ many
+ years,
+ not
+ a
+
+
+reaction
+ to
+ recent
+ developments.
+ And
+
+
+technically,
+ there
+ is
+ a
+ history
+ here.
+
+
+Envy
+ Energy
+ sold
+ its
+ California
+ electric
+
+
+assets
+ to
+ Liberty
+ back
+ in
+ 2009
+ and
+
+
+agreed
+ to
+ keep
+ supplying
+ power
+
+
+temporarily.
+ That
+ arrangement
+ was
+
+
+extended
+ in
+ 2015,
+ again
+ in
+ 2020,
+ and
+
+
+again
+ in
+ late
+ 2025,
+ each
+ time
+ because
+
+
+Liberty
+ hadn't
+ yet
+ secured
+ an
+
+
+independent
+ supply.
+ So
+ yes,
+ I
+ guess
+ in
+
+
+the
+ narrowest
+ sense
+ everyone
+ knew
+ the
+
+
+supply
+ wasn't
+ permanent,
+ but
+ planned
+
+
+transition
+ is
+ doing
+ an
+ extraordinary
+
+
+amount
+ of
+ work
+ in
+ that
+ sentence.
+ A
+
+
+transition
+ implies
+ a
+ destination.
+
+
+Liberty
+ doesn't
+ have
+ one.
+ It
+ has
+ a
+
+
+deadline
+ with
+ nothing
+ on
+ the
+ other
+ side
+
+
+of
+ it.
+ And
+ the
+ timing,
+ ending
+ the
+
+
+arrangement
+ precisely
+ as
+ NV
+ Energy
+ is
+
+
+onboarding
+ thousands
+ of
+ megawatts
+ of
+
+
+data
+ center
+ load
+ is
+ at
+ minimum
+ a
+
+
+coincidence
+ that
+ the
+ spokesperson
+ would
+
+
+rather
+ you
+ not
+ dwell
+ on.
+ So,
+ what
+ is
+ the
+
+
+alternative?
+ Well,
+ building
+ a
+ direct
+
+
+transmission
+ line
+ from
+ Lake
+ Tahoe
+ to
+
+
+California's
+ grid
+ west
+ over
+ the
+ Sierra
+
+
+Nevada.
+ Liberty's
+ president
+ estimated
+
+
+this
+ would
+ cost
+ hundreds
+ of
+ millions
+ of
+
+
+dollars
+ with
+ significant
+ environmental
+
+
+impact
+ for
+ utility
+ serving
+ 49,000
+
+
+customers.
+ That
+ is
+ not
+ exactly
+ a
+
+
+solution.
+ It's
+ more
+ like
+ a
+ thought
+
+
+experiment.
+ And
+ then
+ there
+ is
+ the
+
+
+jurisdictional
+ nightmare
+ that
+ makes
+ the
+
+
+whole
+ thing
+ feel
+ almost
+ designed
+ to
+
+
+prevent
+ accountability.
+ Liberty
+ is
+ a
+
+
+California
+ utility
+ regulated
+ by
+ the
+
+
+California
+ Public
+ Utilities
+ Commission.
+
+
+Its
+ customers
+ live
+ in
+ California.
+ They
+
+
+pay
+ California
+ rates.
+ But
+ Liberty's
+ grit
+
+
+sits
+ inside
+ NV
+ Energy's
+ balancing
+
+
+authority
+ connected
+ to
+ NV
+ Energy
+ at
+ 38
+
+
+points.
+ It
+ runs
+ entirely
+ on
+ Nevada
+
+
+transmission
+ lines.
+ So
+ California
+ sets
+
+
+the
+ rules,
+ Nevada
+ runs
+ the
+ wires,
+ and
+
+
+the
+ Federal
+ Energy
+ Regulation
+ Commission
+
+
+regulates
+ the
+ wholesale
+ market
+ in
+
+
+between.
+ No
+ single
+ entity
+ is
+ actually
+
+
+accountable
+ for
+ the
+ outcome.
+ The
+
+
+regulators
+ are,
+ as
+ Hughes
+ put
+ it,
+
+
+basically
+ trying
+ to
+ decide
+ what
+ to
+ do
+
+
+right
+ now
+ or
+ even
+ what
+ they
+ legally
+ can
+
+
+do.
+ Meanwhile,
+ rates
+ were
+ already
+
+
+climbing
+ before
+ any
+ of
+ this
+ happened.
+
+
+Liberty
+ originally
+ sought
+ a
+ 19.1%
+
+
+revenue
+ increase,
+ which
+ is
+ about
+ $37.51
+
+
+more
+ per
+ month
+ for
+ the
+ average
+
+
+residential
+ customer.
+ The
+ CPU
+ approved
+ a
+
+
+smaller
+ 11.4%
+ 4%
+ increase.
+ But
+ the
+
+
+underlying
+ cost
+ pressures
+ like
+ wildfire
+
+
+exposure,
+ insurance
+ premiums
+ now
+
+
+exceeding
+ $30
+ million,
+ infrastructure
+
+
+spending
+ in
+ a
+ high-risisk
+ mountain
+
+
+region,
+ those
+ are
+ not
+ going
+ anywhere.
+
+
+And
+ now
+ on
+ top
+ of
+ all
+ of
+ that,
+ the
+
+
+utility
+ has
+ to
+ emergency
+ procure
+ 75%
+ of
+
+
+its
+ power
+ supply
+ from
+ scratch.
+ And
+ here
+
+
+is
+ a
+ detail
+ that
+ should
+ make
+ you
+ furious
+
+
+regardless
+ of
+ how
+ you
+ feel
+ about
+ data
+
+
+centers
+ as
+ a
+ whole.
+ Lake
+ Tahoe's
+
+
+yearround
+ residents
+ include
+ lowincome
+
+
+communities
+ and
+ essential
+ workers.
+ But
+
+
+because
+ the
+ region
+ is
+ famous
+ for
+ ski
+
+
+resorts
+ and
+ vacation
+ homes,
+ the
+
+
+California
+ Energy
+ Commission
+ and
+ the
+ CPU
+
+
+don't
+ include
+ Lake
+ Tahoe
+ in
+ any
+ of
+ their
+
+
+socioeconomic
+ plans.
+ The
+ people
+ who
+
+
+clean
+ the
+ hotels,
+ staff
+ the
+ restaurants,
+
+
+maintain
+ the
+ lifts,
+ and
+ keep
+ the
+
+
+community
+ running
+ year
+ round
+ are
+
+
+actually
+ somehow,
+ for
+ whatever
+ reason,
+
+
+invisible
+ to
+ the
+ very
+ agencies
+ designed
+
+
+to
+ protect
+ consumers.
+ Hughes
+ called
+ it
+
+
+what
+ it
+ actually
+ is,
+ resource
+
+
+extraction.
+ Envy
+ Energy
+ is
+ building
+
+
+Green
+ Link
+ West,
+ a
+ $4.2
+ billion
+
+
+transmission
+ line
+ from
+ Las
+ Vegas
+ to
+
+
+Hearington
+ expected
+ online
+ in
+ May
+ 2027.
+
+
+Liberty's
+ president
+ said
+ the
+ utility
+
+
+would
+ be
+ first
+ in
+ the
+ waiting
+ line
+ when
+
+
+Green
+ Link
+ opens.
+ But
+ that
+ timeline
+
+
+matches
+ the
+ contract
+ deadline
+ exactly,
+
+
+leaving
+ zero
+ margin
+ for
+ delay.
+ And
+ about
+
+
+70%
+ of
+ the
+ project's
+ costs
+ will
+ be
+ borne
+
+
+by
+ southern
+ Nevada
+ customers,
+ people
+ who
+
+
+also
+ didn't
+ ask
+ for
+ data
+ centers
+ to
+
+
+consume
+ their
+ grid.
+ By
+ the
+ way,
+
+
+independent
+ energy
+ economist
+ Rose
+
+
+Anderson
+ warned
+ in
+ testimony
+ filed
+ with
+
+
+Nevada
+ regulators
+ that
+ Envy
+ Energy's
+
+
+major
+ project
+ load
+ forecast
+ is
+ highly
+
+
+uncertain
+ and
+ that
+ existing
+ customers
+
+
+could
+ end
+ up
+ paying
+ for
+ infrastructure
+
+
+built
+ to
+ serve
+ industrial
+ demand
+ that
+
+
+never
+ materializes.
+ So
+ the
+ optimistic
+
+
+scenario
+ is
+ that
+ Lake
+ Tahoe
+ gets
+ access
+
+
+to
+ new
+ power
+ just
+ in
+ time.
+ The
+
+
+pessimistic
+ scenario
+ is
+ that
+ the
+ power
+
+
+was
+ diverted
+ for
+ data
+ centers
+ that
+ don't
+
+
+end
+ up
+ needing
+ it
+ and
+ everyone
+ pays
+ for
+
+
+the
+ surplus
+ anyway.
+ I
+ covered
+ data
+
+
+centers
+ draining
+ water
+ without
+ anyone
+
+
+noticing,
+ generating
+ sound
+ that
+ doesn't
+
+
+register
+ on
+ meters
+ and
+ yet
+ harms
+ people
+
+
+and
+ shifting
+ billions
+ in
+ costs
+ onto
+
+
+residents
+ who
+ had
+ no
+ idea.
+ And
+ now
+ a
+
+
+utility
+ has
+ told
+ 49,000
+ people
+ openly
+ on
+
+
+the
+ record
+ in
+ broad
+ daylight
+ that
+ their
+
+
+electricity
+ is
+ being
+ redirected
+ to
+ serve
+
+
+data
+ centers
+ built
+ by
+ some
+ of
+ the
+
+
+wealthiest
+ companies
+ on
+ Earth.
+ The
+
+
+mechanisms
+ are
+ actually
+ escalating.
+ The
+
+
+cases
+ are
+ getting
+ worse
+ and
+ the
+ common
+
+
+threat
+ in
+ every
+ single
+ one
+ of
+ them
+ is
+
+
+exactly
+ the
+ same.
+ Communities
+ with
+ no
+
+
+leverage,
+ no
+ representation,
+ and
+ no
+
+
+framework
+ to
+ protect
+ them
+ from
+
+
+industrial
+ scale
+ resource
+ extraction
+
+
+happening
+ inside
+ their
+ jurisdictions.
+ If
+
+
+you
+ haven't
+ seen
+ my
+ longer
+ video
+
+
+covering
+ the
+ Georgia
+ water
+ extraction,
+
+
+the
+ infrasound
+ crisis,
+ and
+ the
+ Maryland
+
+
+grid
+ cost
+ scandal,
+ I
+ highly
+ recommend
+
+
+it.
+ I'm
+ going
+ to
+ link
+ it
+ on
+ your
+ screen
+
+
+right
+ now.
+ And
+ if
+ you
+ want
+ to
+ understand
+
+
+why
+ public
+ anger
+ about
+ all
+ of
+ this
+ is
+
+
+growing
+ so
+ fast,
+ my
+ video
+ on
+ AI
+
+
+sentiment
+ covers
+ the
+ broader
+ context
+ as
+
+
+well.
+ Thank
+ you
+ all
+ so
+ much
+ for
+
+
+watching.
+ Subscribe
+ and
+ I'll
+ see
+ youall
+
+
+on
+ the
+ next
