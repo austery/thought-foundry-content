@@ -1,0 +1,2592 @@
+A
+ lot
+ of
+ people
+ say
+ they
+ hate
+ AI
+ right
+
+
+now.
+ I
+ hear
+ it
+ constantly
+ in
+ comments,
+
+
+in
+ conversations,
+ in
+ headlines.
+ And
+ I
+
+
+understand
+ it.
+ I'm
+ not
+ here
+ to
+ tell
+ you
+
+
+that
+ you're
+ wrong.
+ But
+ I
+ want
+ to
+ try
+
+
+something
+ a
+ little
+ different
+ with
+ this
+
+
+video.
+ Instead
+ of
+ telling
+ you
+ what
+ to
+
+
+think
+ about
+ AI,
+ I'm
+ going
+ to
+ lay
+ out
+
+
+some
+ distinctions,
+ walk
+ through
+ some
+
+
+context,
+ and
+ ask
+ you
+ a
+ series
+ of
+
+
+questions.
+ By
+ the
+ end,
+ I'd
+ like
+ you
+ to
+
+
+tell
+ me
+ in
+ the
+ comments
+ where
+ your
+ anger
+
+
+actually
+ sits.
+ because
+ I
+ think
+ the
+
+
+answer
+ might
+ be
+ more
+ specific
+ and
+ more
+
+
+useful
+ than
+ just
+ I
+ hate
+ AI.
+ I'm
+ El.
+ I
+
+
+have
+ a
+ PhD
+ in
+ computer
+ science
+ and
+ I
+
+
+analyze
+ AI
+ developments
+ to
+ understand
+
+
+what
+ actually
+ is
+ happening
+ beneath
+ all
+
+
+of
+ this
+ hype.
+ Let's
+ start
+ with
+ an
+
+
+analogy.
+ Nobody
+ says
+ I
+ hate
+ medicine.
+
+
+Medicine
+ is
+ a
+ branch
+ of
+ science
+ that
+ has
+
+
+extended
+ human
+ life
+ expectancy,
+
+
+eradicated
+ smallpox,
+ made
+ child
+ birth
+
+
+survivable,
+ and
+ given
+ people
+ years
+ with
+
+
+their
+ families
+ they
+ wouldn't
+ otherwise
+
+
+have
+ had.
+ Medicine
+ as
+ a
+ discipline
+ is
+
+
+one
+ of
+ humanity's
+ greatest
+ achievements.
+
+
+And
+ yet,
+ if
+ you're
+ an
+ American
+ who
+ has
+
+
+ever
+ broken
+ a
+ bone,
+ god
+ forbid,
+ and
+
+
+received
+ a
+ $40,000
+ hospital
+ bill,
+ or
+ had
+
+
+to
+ choose
+ between
+ filling
+ a
+ prescription
+
+
+and
+ paying
+ rent,
+ or
+ watched
+ an
+ insurance
+
+
+company
+ deny
+ a
+ claim
+ for
+ a
+ procedure
+
+
+your
+ doctor
+ said
+ you
+ needed.
+ You
+ might
+
+
+have
+ some
+ very
+ strong
+ feelings
+ about
+ the
+
+
+medical
+ system.
+ You
+ might
+ be
+ furious
+
+
+about
+ drug
+ pricing,
+ about
+ insurance
+
+
+gatekeeping,
+ about
+ pharmaceutical
+
+
+companies
+ pushing
+ medications
+ for
+
+
+profit.
+ Those
+ are
+ completely
+ valid
+
+
+feelings,
+ but
+ you're
+ not
+ angry
+ at
+
+
+medicine.
+ You're
+ angry
+ at
+ a
+ set
+ of
+
+
+economic
+ structures,
+ corporate
+
+
+incentives,
+ and
+ policy
+ failures
+ that
+
+
+have
+ turned
+ a
+ life-saving
+ science
+ into
+ a
+
+
+source
+ of
+ financial
+ terror.
+ You
+ hate
+ the
+
+
+system,
+ not
+ the
+ science.
+ I
+ think
+
+
+something
+ very
+ similar
+ is
+ happening
+ with
+
+
+AI,
+ and
+ I
+ want
+ to
+ carefully
+ pull
+ it
+
+
+apart
+ in
+ this
+ video.
+ Artificial
+
+
+intelligence
+ is
+ a
+ branch
+ of
+ computer
+
+
+science.
+ It
+ has
+ been
+ around
+ in
+ various
+
+
+forms
+ since
+ the
+ 1950s
+ and
+ the
+ vast
+
+
+majority
+ of
+ what
+ it
+ does
+ has
+ absolutely
+
+
+nothing
+ to
+ do
+ with
+ chatbots
+ generated
+
+
+images
+ or
+ large
+ language
+ models.
+
+
+Consider
+ Alphafold
+ developed
+ by
+ Google
+
+
+DeepMind
+ solved
+ a
+ problem
+ that
+ had
+
+
+stumped
+ biologists
+ for
+ 50
+ years
+
+
+predicting
+ the
+ three-dimensional
+
+
+structure
+ of
+ proteins
+ from
+ their
+ amino
+
+
+acid
+ sequences.
+ This
+ used
+ to
+ take
+ a
+ year
+
+
+or
+ more
+ of
+ painstaking
+ experimental
+ work
+
+
+per
+ protein.
+ Alphold
+ did
+ it
+ for
+
+
+essentially
+ every
+ known
+ protein.
+ The
+
+
+implications
+ for
+ drug
+ discovery
+ are
+
+
+enormous.
+ Research
+ linked
+ to
+ AlphaFold
+
+
+is
+ twice
+ as
+ likely
+ to
+ be
+ cited
+ in
+
+
+clinical
+ articles
+ as
+ typical
+ structural
+
+
+biology
+ work
+ and
+ significantly
+ more
+
+
+likely
+ to
+ appear
+ in
+ patents.
+ It
+ won
+ the
+
+
+2024
+ Nobel
+ Prize
+ in
+ chemistry.
+ This
+ is
+
+
+AI.
+ It
+ has
+ nothing
+ to
+ do
+ with
+ writing
+
+
+your
+ emails
+ for
+ you.
+ In
+ cancer
+ imaging,
+
+
+AI
+ tools
+ like
+ MIT's
+ MRAI
+ can
+ predict
+
+
+breast
+ cancer
+ risk
+ up
+ to
+ five
+ years
+ in
+
+
+advance,
+ giving
+ clinicians
+ time
+ to
+
+
+intervene
+ earlier.
+ Across
+ multiple
+
+
+cancer
+ types,
+ AI
+ diagnostic
+ systems
+ have
+
+
+consistently
+ matched
+ or
+ surpassed
+
+
+clinician
+ accuracy
+ in
+ detecting
+ tumors
+
+
+from
+ medical
+ images.
+ AI
+ is
+ being
+ used
+
+
+for
+ realtime
+ speech
+ to
+ text
+ for
+ deaf
+ and
+
+
+heart
+ of
+ hearing
+ communities.
+ It's
+ being
+
+
+used
+ in
+ climate
+ modeling,
+ material
+
+
+science,
+ agricultural
+ yield
+ prediction,
+
+
+earthquake
+ early
+ warning
+ systems,
+ and
+
+
+dozens
+ of
+ other
+ domains
+ where
+ the
+ words
+
+
+large
+ language
+ models
+ have
+ never
+ been
+
+
+uttered.
+ When
+ someone
+ says,
+ "I
+ hate
+ AI,"
+
+
+I
+ want
+ to
+ just
+ gently
+ ask,
+ "Do
+ you
+ hate
+
+
+protein
+ folding
+ research?
+ Do
+ you
+ hate
+
+
+early
+ cancer
+ detection?
+ Do
+ you
+ hate
+
+
+accessibility
+ tools
+ for
+ people
+ with
+
+
+disabilities?"
+ You
+ probably
+ don't.
+ So,
+
+
+what
+ is
+ it
+ specifically
+ that
+ you
+ hate?
+
+
+Hold
+ that
+ question.
+ I'm
+ going
+ to
+ come
+
+
+back
+ to
+ it.
+ I
+ think
+ to
+ understand
+ why
+ AI
+
+
+generates
+ the
+ level
+ of
+ fear
+ and
+ anger
+ it
+
+
+does
+ right
+ now,
+ you
+ have
+ to
+ understand
+
+
+the
+ world
+ it
+ arrived
+ into,
+ because
+ AI
+
+
+didn't
+ land
+ in
+ a
+ vacuum
+ it
+ landed
+ in
+
+
+this
+ economy.
+ Since
+ 1985,
+ US
+ median
+
+
+household
+ income
+ has
+ risen
+ roughly
+ 255%
+
+
+in
+ nominal
+ terms,
+ but
+ median
+ house
+
+
+prices
+ have
+ surged
+ over
+ 415%.
+
+
+The
+ ratio
+ of
+ home
+ price
+ to
+ actual
+ income
+
+
+has
+ gone
+ from
+ about
+ 3.1
+ to
+ a
+ nearrecord
+
+
+5.1.
+ The
+ median
+ age
+ of
+ a
+ firsttime
+ home
+
+
+buyer
+ has
+ risen
+ from
+ 29
+ in
+ the
+ 1980s
+ to
+
+
+40
+ years
+ old
+ today.
+ As
+ of
+ 2026,
+ 65%
+ of
+
+
+American
+ households
+ cannot
+ afford
+ a
+
+
+newly
+ built
+ medianpriced
+ home.
+ In
+ some
+
+
+states,
+ that
+ figure
+ is
+ over
+ 80%.
+ You
+
+
+don't
+ need
+ me
+ to
+ tell
+ you
+ what
+ this
+
+
+feels
+ like.
+ We're
+ all
+ living
+ it
+
+
+together.
+ The
+ gap
+ between
+ what
+ people
+
+
+earn
+ and
+ what
+ life
+ costs
+ has
+ been
+
+
+widening
+ for
+ 40
+ years.
+ And
+ for
+ most
+
+
+people,
+ there
+ is
+ very
+ little
+ margin
+
+
+left.
+ Now,
+ imagine
+ you're
+ in
+ that
+
+
+position,
+ stretched,
+ precarious,
+ one
+ bad
+
+
+month
+ away
+ from
+ real
+ trouble.
+ And
+
+
+somebody
+ tells
+ you
+ that
+ a
+ new
+ powerful
+
+
+technology
+ is
+ about
+ to
+ reshape
+ the
+ labor
+
+
+market.
+ It
+ doesn't
+ matter
+ how
+ nuanced
+
+
+the
+ explanation
+ is
+ or
+ what
+ I
+ say
+ in
+ a
+
+
+video.
+ It
+ doesn't
+ matter
+ if
+ the
+
+
+technology
+ has
+ extraordinary
+ potential
+
+
+or
+ that
+ it
+ might
+ cure
+ cancer.
+ What
+ you
+
+
+hear
+ is
+ another
+ thing
+ that
+ might
+ take
+
+
+away
+ the
+ ground
+ that
+ I'm
+ standing
+ on
+ yet
+
+
+again.
+ And
+ that
+ fear,
+ my
+ friends,
+ is
+
+
+completely
+ rational.
+ Not
+ because
+ AI
+ is
+
+
+inherently
+ threatening,
+ but
+ because
+ the
+
+
+economic
+ environment
+ we're
+ all
+ living
+ in
+
+
+has
+ made
+ any
+ major
+ disruption
+ feel
+
+
+existential.
+ Think
+ about
+ when
+
+
+smartphones
+ arrived,
+ right?
+ The
+ iPhone
+
+
+launched
+ back
+ in
+ 2007.
+ It
+ was
+ genuinely
+
+
+disruptive.
+ It
+ transformed
+ entire
+
+
+industries,
+ contributed
+ to
+ the
+ decline
+
+
+of
+ print
+ media,
+ restructured
+ retail,
+
+
+killed
+ companies
+ that
+ couldn't
+ adapt.
+
+
+But
+ the
+ dominant
+ public
+ reaction
+ was
+
+
+curiosity,
+ even
+ excitement
+ a
+ little
+ bit.
+
+
+Nobody
+ was
+ marching
+ in
+ the
+ streets
+
+
+against
+ smartphones.
+ And
+ that's
+ not
+
+
+because
+ smartphones
+ were
+ less
+ disruptive
+
+
+than
+ AI.
+ It's
+ because
+ they
+ arrived
+ in
+ a
+
+
+moment
+ when
+ most
+ people
+ still
+ felt
+
+
+enough
+ economic
+ stability
+ to
+ absorb
+ the
+
+
+change
+ with
+ interest
+ rather
+ than
+ dread.
+
+
+The
+ ground
+ felt
+ solid
+ enough
+ to
+ stand
+ on
+
+
+while
+ the
+ world
+ shifted.
+ AI
+ arrived
+ when
+
+
+it
+ doesn't.
+ So
+ here's
+ my
+ first
+ question
+
+
+for
+ you.
+ When
+ you
+ feel
+ anger
+ or
+ fear
+
+
+about
+ AI,
+ is
+ it
+ directed
+ at
+ the
+
+
+technology
+ itself,
+ at
+ the
+ mathematics,
+
+
+the
+ research,
+ the
+ engineering,
+ or
+ is
+ it
+
+
+directed
+ at
+ the
+ fact
+ that
+ we
+ exist
+ in
+ an
+
+
+economic
+ environment
+ where
+ any
+
+
+significant
+ change
+ feels
+ like
+ it
+ could
+
+
+be
+ the
+ one
+ thing
+ that
+ finally
+ breaks
+
+
+you?
+ Because
+ those
+ are
+ different
+
+
+problems
+ and
+ they
+ have
+ very
+ different
+
+
+solutions.
+ Now,
+ there
+ is
+ a
+ place
+ where
+
+
+the
+ medicine
+ analogy
+ breaks
+ down.
+ And
+ I
+
+
+think
+ it's
+ important
+ to
+ be
+ honest
+ about
+
+
+that.
+ With
+ medicine,
+ you
+ generally
+
+
+choose
+ to
+ engage
+ with
+ the
+ system.
+ You
+ go
+
+
+to
+ the
+ doctor
+ when
+ you're
+ unwell.
+ Nobody
+
+
+forces
+ you
+ to
+ take
+ a
+ medication
+ you
+
+
+don't
+ want.
+ But
+ AI
+ is
+ being
+ pushed
+ onto
+
+
+people
+ whether
+ they
+ ask
+ for
+ it
+ or
+ not.
+
+
+Microsoft
+ has
+ embedded
+ C-Pilot
+ into
+
+
+virtually
+ every
+ product
+ it
+ sells.
+ Google
+
+
+has
+ inserted
+ AI
+ generated
+ summaries
+ at
+
+
+the
+ top
+ of
+ search
+ results,
+ often
+ at
+ the
+
+
+expense
+ of
+ the
+ quality
+ people
+ relied
+ on.
+
+
+Adobe
+ trained
+ generative
+ AI
+ models
+ on
+
+
+creators
+ work
+ under
+ terms
+ of
+ service
+
+
+that
+ many
+ artists
+ felt
+ they
+ never
+
+
+meaningfully
+ consented
+ to.
+ In
+ workplaces
+
+
+across
+ every
+ sector,
+ employees
+ are
+ being
+
+
+told
+ to
+ use
+ AI
+ tools
+ not
+ asked
+ told
+
+
+regardless
+ of
+ whether
+ those
+ tools
+ are
+
+
+appropriate,
+ accurate,
+ or
+ welcome.
+ This
+
+
+is
+ the
+ pharmaceutical
+ company
+ pushing
+
+
+unnecessary
+ prescriptions
+ version
+ of
+ the
+
+
+analogy.
+ It
+ is
+ not
+ medicine's
+ fault,
+ but
+
+
+it
+ is
+ the
+ fault
+ of
+ specific
+ companies
+
+
+making
+ specific
+ decisions
+ to
+ prioritize
+
+
+adoption
+ metrics
+ and
+ quarterly
+ earnings
+
+
+over
+ whether
+ their
+ product
+ is
+ actually
+
+
+wanted
+ or
+ helpful.
+ And
+ I
+ think
+ this
+ is
+
+
+where
+ a
+ very
+ significant
+ and
+ very
+
+
+legitimate
+ portion
+ of
+ the
+ anger
+ sits
+ not
+
+
+at
+ AI
+ the
+ science
+ but
+ at
+ AI
+ the
+ product
+
+
+being
+ forced
+ into
+ every
+ surface
+ of
+ our
+
+
+digital
+ lives
+ by
+ corporations
+ that
+ have
+
+
+decided
+ we
+ don't
+ get
+ a
+ choice.
+ There
+ are
+
+
+also
+ serious
+ specific
+ technical
+
+
+objections
+ to
+ how
+ AI
+ is
+ being
+ built.
+
+
+Questions
+ of
+ consent,
+ who
+ gave
+
+
+permissions
+ for
+ creative
+ work
+ to
+ be
+ used
+
+
+as
+ training
+ data?
+ Questions
+ of
+
+
+ownership,
+ who
+ profits
+ when
+ an
+ AI
+ model
+
+
+generates
+ something
+ derived
+ from
+ an
+
+
+artist
+ style?
+ Questions
+ of
+ accuracy,
+
+
+what
+ happens
+ when
+ AI
+ systems
+ produce
+
+
+confident,
+ plausible
+ nonsense
+ in
+
+
+highstakes
+ context
+ like
+ medicine,
+ law,
+
+
+or
+ journalism?
+ These
+ are
+ real
+ problems.
+
+
+They
+ are
+ legal,
+ ethical,
+ and
+ technical
+
+
+problems.
+ We've
+ covered
+ some
+ of
+ them
+ in
+
+
+depth
+ in
+ a
+ previous
+ video
+ that
+ I'm
+ going
+
+
+to
+ link
+ as
+ well.
+ And
+ they
+ deserve
+
+
+serious
+ treatment,
+ not
+ dismissal.
+ But
+
+
+notice,
+ none
+ of
+ these
+ are
+ objections
+ to
+
+
+AI
+ as
+ a
+ field
+ of
+ research.
+ They
+ are
+
+
+objections
+ to
+ specific
+ practices
+ by
+
+
+specific
+ companies.
+ The
+ distinction
+
+
+matters
+ because
+ it
+ changes
+ where
+ you
+ aim
+
+
+your
+ energy.
+ So
+ here's
+ my
+ second
+
+
+question.
+ Is
+ your
+ frustration
+ directed
+
+
+at
+ the
+ existence
+ of
+ artificial
+
+
+intelligence
+ as
+ a
+ technology
+ or
+ at
+ the
+
+
+way
+ specific
+ corporations
+ are
+ building,
+
+
+deploying,
+ and
+ monetizing
+ AI
+ products
+
+
+because
+ one
+ of
+ those
+ is
+ a
+ force
+ of
+
+
+nature
+ at
+ this
+ point.
+ The
+ other
+ is
+ a
+ set
+
+
+of
+ decisions
+ being
+ made
+ by
+ people
+ who
+
+
+could
+ make
+ different
+ choices.
+ I
+ want
+ to
+
+
+close
+ this
+ video
+ with
+ something
+ a
+ little
+
+
+more
+ philosophical
+ because
+ I
+ think
+ the
+
+
+good
+ versus
+ bad
+ framing
+ that
+ dominates
+
+
+the
+ AI
+ conversation
+ is
+ actually
+ part
+ of
+
+
+the
+ problem.
+ I
+ don't
+ think
+ AI
+ is
+ good
+ or
+
+
+bad.
+ I'm
+ not
+ even
+ sure
+ those
+ are
+ useful
+
+
+categories.
+ In
+ life,
+ there
+ are
+ only
+
+
+objectives,
+ things
+ we're
+ trying
+ to
+
+
+achieve,
+ and
+ there
+ are
+ things
+ that
+ help
+
+
+us
+ meet
+ those
+ objectives
+ and
+ things
+ that
+
+
+hinder
+ us.
+ AI
+ could
+ be
+ either.
+ It
+
+
+depends
+ entirely
+ on
+ the
+ systems
+ around
+
+
+it.
+ In
+ a
+ society
+ with
+ strong
+ labor
+
+
+protections,
+ meaningful
+ safety
+ nets,
+ and
+
+
+genuine
+ regulatory
+ frameworks,
+ a
+
+
+powerful
+ new
+ technology
+ is
+ an
+
+
+opportunity.
+ People
+ can
+ afford
+ to
+ be
+
+
+curious.
+ They
+ can
+ retrain,
+ adapt,
+
+
+explore
+ because
+ the
+ floor
+ beneath
+ them
+
+
+isn't
+ going
+ to
+ disappear
+ if
+ they
+
+
+stumble.
+ In
+ a
+ society
+ where
+ most
+ people
+
+
+are
+ one
+ missed
+ paycheck
+ away
+ from
+ a
+
+
+crisis,
+ where
+ housing
+ consumes
+ half
+ our
+
+
+income,
+ where
+ people
+ have
+ to
+ choose
+
+
+between
+ having
+ shelter
+ or
+ children,
+
+
+where
+ the
+ social
+ contract
+ feels
+ like
+
+
+it's
+ been
+ quietly
+ shredded
+ over
+ four
+
+
+decades.
+ That
+ same
+ technology
+ feels
+ like
+
+
+a
+ threat,
+ not
+ because
+ it
+ is
+ one,
+ but
+
+
+because
+ we
+ can't
+ afford
+ for
+ it
+ to
+ be
+
+
+one.
+ And
+ nobody
+ in
+ a
+ position
+ of
+ power
+
+
+has
+ given
+ us
+ any
+ reason
+ to
+ believe
+
+
+they'll
+ make
+ sure
+ that
+ it
+ isn't.
+ The
+
+
+anger
+ is
+ real.
+ The
+ fear
+ is
+ real.
+ I'm
+ not
+
+
+here
+ to
+ talk
+ anyone
+ out
+ of
+ those
+
+
+feelings.
+ I
+ am
+ just
+ asking
+ you
+ to
+ be
+
+
+precise
+ about
+ where
+ you
+ aim
+ them.
+
+
+Because
+ I
+ hate
+ AI
+ is
+ a
+ sentence
+ that
+
+
+doesn't
+ have
+ a
+ useful
+ response.
+ But
+ I
+
+
+hate
+ that
+ there
+ is
+ no
+ regulatory
+
+
+framework
+ for
+ how
+ AI
+ products
+ use
+ my
+
+
+data.
+ Or
+ I
+ hate
+ that
+ my
+ employer
+ is
+
+
+replacing
+ functional
+ tools
+ with
+
+
+halfbaked
+ AI
+ alternatives.
+ or
+ I
+ hate
+
+
+that
+ I
+ live
+ in
+ an
+ economy
+ so
+ precarious
+
+
+that
+ any
+ disruption
+ feels
+ like
+ a
+ death
+
+
+sentence.
+ Those
+ are
+ sentences
+ that
+ point
+
+
+toward
+ actual
+ solutions.
+ Regulation,
+
+
+labor
+ protections,
+ corporate
+
+
+accountability,
+ economic
+ reform,
+ things
+
+
+that
+ can
+ be
+ demanded,
+ organized
+ around,
+
+
+voted
+ for.
+ AI
+ as
+ a
+ field
+ of
+ science
+
+
+isn't
+ going
+ anywhere.
+ It's
+ been
+ around
+
+
+for
+ 70
+ years
+ and
+ it's
+ not
+ going
+ to
+ stop
+
+
+because
+ people
+ are
+ angry
+ on
+ the
+
+
+internet.
+ But
+ the
+ conditions
+ around
+ it,
+
+
+the
+ economic
+ procarity,
+ the
+ corporate
+
+
+recklessness,
+ the
+ regulatory
+ vacuum,
+
+
+those
+ are
+ choices.
+ They
+ were
+ made
+ by
+
+
+people
+ and
+ they
+ can
+ be
+ unmade
+ by
+ people.
+
+
+So
+ you've
+ heard
+ the
+ distinctions,
+ the
+
+
+science
+ versus
+ the
+ products,
+ the
+
+
+technology
+ versus
+ the
+ economic
+ context,
+
+
+the
+ legitimate
+ technical
+ objections
+
+
+versus
+ the
+ ambient
+ dread.
+ Where
+ does
+
+
+your
+ anger
+ actually
+ sit?
+ I
+ generally
+
+
+love
+ to
+ know.
+ Tell
+ me
+ in
+ the
+ comments
+
+
+below.
+ If
+ you
+ want
+ to
+ see
+ the
+ hard
+ data
+
+
+behind
+ why
+ people
+ feel
+ the
+ way
+ they
+ do,
+
+
+the
+ water
+ extraction,
+ the
+ noise
+
+
+pollution,
+ the
+ billions
+ being
+ charged
+ to
+
+
+communities
+ that
+ never
+ ask
+ for
+ any
+ of
+
+
+this,
+ I'd
+ recommend
+ my
+ video
+ documenting
+
+
+this
+ AI
+ backlash.
+ The
+ link
+ is
+ in
+ the
+
+
+description
+ below.
+ Thank
+ you
+ all
+ so
+ much
+
+
+for
+ watching.
+ Subscribe
+ and
+ I'll
+ see
+ you
+
+
+all
+ in
+ the
+ next
