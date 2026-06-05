@@ -1,0 +1,6728 @@
+The
+ New
+ York
+ Times
+ just
+ published
+ an
+
+
+opinion
+ piece
+ arguing
+ that
+ Meta
+ is
+
+
+entering
+ its
+ zombie
+ era,
+ the
+ slow
+
+
+decline
+ phase
+ where
+ a
+ once
+ dominant
+
+
+internet
+ company
+ becomes
+ irrelevant
+ like
+
+
+AOL
+ or
+ Yahoo.
+ User
+ numbers
+ drop
+ for
+ the
+
+
+first
+ time
+ ever,
+ the
+ stock
+ is
+ slumping,
+
+
+Zuckerberg
+ is
+ burning
+ cash
+ on
+ failed
+ AI
+
+
+bets
+ while
+ the
+ core
+ business
+ withers.
+
+
+But
+ I
+ think
+ the
+ New
+ York
+ Times
+ piece,
+
+
+despite
+ getting
+ the
+ trajectory
+ right,
+
+
+misses
+ what's
+ actually
+ happening
+ here.
+
+
+I'm
+ L,
+ I
+ have
+ a
+ PhD
+ in
+ computer
+ science
+
+
+and
+ I
+ analyze
+ AI
+ developments
+ to
+
+
+understand
+ the
+ mechanisms
+ behind
+ the
+
+
+headlines.
+ And
+ what's
+ happening
+ at
+ Meta
+
+
+isn't
+ just
+ founder
+ makes
+ bad
+ bets
+ and
+
+
+company
+ declines,
+ it's
+ something
+ more
+
+
+specific
+ and
+ more
+ interesting,
+ strategic
+
+
+incoherence
+ driving
+ financial
+
+
+desperation
+ driving
+ illegal
+ shortcuts.
+
+
+Because
+ here's
+ what
+ dropped
+ in
+ the
+ last
+
+
+two
+ weeks
+ that
+ the
+ opinion
+ piece
+ didn't
+
+
+fully
+ connect.
+ Meta
+ and
+ Zuckerberg
+ just
+
+
+got
+ sued
+ by
+ five
+ major
+ publishers
+ and
+
+
+author
+ Scott
+ Turow
+ for
+ allegedly
+
+
+pirating
+ millions
+ of
+ copyrighted
+ books
+
+
+to
+ train
+ their
+ AI
+ models.
+ And
+ the
+
+
+smoking
+ gun
+ in
+ the
+ lawsuit
+ is
+ internal
+
+
+memos
+ showing
+ that
+ Zuckerberg
+ personally
+
+
+killed
+ licensing
+ negotiations
+ in
+ April
+
+
+2023
+ because,
+ and
+ I'm
+ quoting
+ the
+ legal
+
+
+filing
+ here,
+ "If
+ we
+ license
+ one
+ single
+
+
+book,
+ we
+ won't
+ be
+ able
+ to
+ lean
+ into
+ the
+
+
+fair
+ use
+ strategy."
+
+
+They
+ chose
+ piracy
+ over
+ licensing
+ as
+ a
+
+
+legal
+ strategy
+ and
+ I
+ think
+ that
+ decision
+
+
+tells
+ you
+ everything
+ you
+ need
+ to
+ know
+
+
+about
+ where
+ Meta
+ actually
+ is
+ right
+ now.
+
+
+So,
+ here's
+ what
+ we're
+ doing
+ today.
+
+
+First,
+ I'm
+ going
+ to
+ walk
+ you
+ through
+ the
+
+
+80
+ billion
+ dollar
+ metaverse
+ disaster
+ and
+
+
+what
+ it
+ reveals
+ about
+ Meta's
+ inability
+
+
+to
+ identify
+ real
+ market
+ needs.
+ Then
+
+
+we'll
+ look
+ at
+ their
+ pivot
+ to
+ AI
+ and
+ why
+
+
+they're
+ systematically
+ building
+ the
+
+
+wrong
+ product
+ for
+ the
+ wrong
+ reasons.
+
+
+After
+ that,
+ the
+ copyright
+ lawsuit,
+ the
+
+
+internal
+ memos,
+ the
+ deliberate
+
+
+infringement,
+ and
+ what
+ it
+ means
+ that
+
+
+they
+ tore
+ into
+ 267
+
+
+terabytes
+ of
+ pirated
+ material
+ from
+ a
+
+
+site
+ they
+ internally
+ described
+ as
+ a
+ data
+
+
+set
+ we
+ know
+ to
+ be
+ pirated.
+ Then
+ the
+
+
+truly
+ dystopian
+ part,
+ Meta
+ just
+ started
+
+
+surveilling
+ their
+ own
+ employees
+
+
+keystrokes
+ and
+ mouse
+ movements
+ to
+ train
+
+
+AI
+ agents
+ that
+ will
+ replace
+ those
+ same
+
+
+workers.
+ And
+ finally,
+ the
+ financial
+
+
+engineering,
+ the
+ $59
+ billion
+ in
+ debt,
+
+
+the
+ accounting
+ tricks
+ to
+ keep
+ a
+ $27
+
+
+billion
+ data
+ center
+ off
+ the
+ books,
+ and
+
+
+why
+ the
+ math
+ just
+ doesn't
+ check
+ out
+
+
+anymore.
+ By
+ the
+ end
+ of
+ this
+ video,
+
+
+you'll
+ see
+ this
+ isn't
+ separate
+ problems.
+
+
+It's
+ one
+ company
+ that's
+ completely
+ lost
+
+
+the
+ plot
+ on
+ what
+ it's
+ supposed
+ to
+ be
+
+
+building
+ and
+ for
+ whom.
+
+
+Let's
+ start
+ with
+ the
+ metaverse
+ as
+
+
+promised
+ because
+ it
+ sets
+ the
+ pattern
+ for
+
+
+everything
+ that
+ came
+ after.
+ On
+ October
+
+
+28th,
+ 2021,
+ Mark
+ Zuckerberg
+ appeared
+ on
+
+
+a
+ virtual
+ stage
+ and
+ declared
+ that
+
+
+Facebook,
+ the
+ social
+ network
+ with
+ over
+ 3
+
+
+billion
+ users,
+ would
+ henceforth
+ be
+
+
+called
+ Meta
+ Platforms.
+ Zuckerberg
+ likely
+
+
+chose
+ the
+ name
+ from
+ the
+ Greek
+ prefix
+
+
+meaning
+ beyond
+ as
+ in
+ beyond
+ the
+ physical
+
+
+world,
+ but
+ meta
+ in
+ Latin
+ means
+ a
+ turning
+
+
+post,
+ the
+ boundary
+ marker
+ where
+ Roman
+
+
+chariots
+ turned
+ around
+ after
+ going
+ as
+
+
+far
+ as
+ they
+ could.
+ Just
+ keep
+ that
+ in
+
+
+mind.
+
+
+The
+ company
+ was
+ betting
+ its
+ entire
+
+
+identity
+ on
+ the
+ metaverse,
+ a
+ virtual
+
+
+world
+ where
+ people
+ would
+ don
+ VR
+ headsets
+
+
+and
+ exist
+ as
+ avatars,
+ attending
+
+
+meetings,
+ concerts,
+ and
+ social
+
+
+gatherings
+ in
+ immersive
+ 3D
+ spaces.
+ You
+
+
+remember
+ all
+ that.
+ Zuckerberg
+ described
+
+
+it
+ as
+ the
+ next
+ frontier,
+ predicting
+ the
+
+
+metaverse
+ would
+ eventually
+ reach
+ a
+
+
+billion
+ people
+ and
+ generate
+ hundreds
+ of
+
+
+billions
+ in
+ digital
+ commerce.
+ He
+ spoke
+
+
+with
+ the
+ conviction
+ of
+ someone
+ who
+ had
+
+
+already
+ decided
+ this
+ was
+ the
+ future.
+
+
+The
+ flagship
+ product
+ was
+ Horizon
+ Worlds,
+
+
+a
+ social
+ VR
+ platform
+ where
+ you
+ could
+
+
+build
+ virtual
+ spaces,
+ attend
+ events,
+ and
+
+
+hang
+ out
+ with
+ friends
+ as
+ a
+ cartoon
+
+
+avatar.
+ But
+ here's
+ what
+ actually
+
+
+happened.
+ Horizon
+ Worlds
+ launched
+ in
+
+
+late
+ 2021.
+ By
+ February
+ 2022,
+ it
+ had
+
+
+approximately
+ 300,000
+ monthly
+ active
+
+
+users
+ across
+ Horizon
+ Worlds
+ and
+ Horizon
+
+
+Venues
+ combined.
+
+
+For
+ context,
+ Facebook
+ had
+ 3
+ billion
+
+
+users,
+ Instagram
+ had
+ over
+ a
+ billion,
+
+
+WhatsApp
+ had
+ 2
+ billion,
+ the
+ metaverse
+
+
+product
+ got
+ 300,000
+ people,
+ and
+ most
+ of
+
+
+them
+ left
+ within
+ weeks.
+ And
+ here's
+ the
+
+
+detail
+ that
+ became
+ a
+ meme
+ within
+ days.
+
+
+The
+ avatars
+ launched
+ without
+ legs,
+ just
+
+
+floating
+ torsos.
+ Screenshots
+ of
+ these
+
+
+legless
+ blocky
+ figures
+ circulated
+ online
+
+
+immediately
+ and
+ became
+ the
+ visual
+
+
+shorthand
+ for
+ the
+ entire
+ project's
+
+
+absurdity.
+ Meta
+ kept
+ pouring
+ money
+ into
+
+
+it
+ anyway.
+ From
+ 2020
+ to
+ 2026,
+ Reality
+
+
+Labs,
+ the
+ division
+ responsible
+ for
+ VR
+
+
+and
+ metaverse
+ development,
+ accumulated
+
+
+over
+ $80
+ billion
+ in
+ operating
+ losses.
+ In
+
+
+2025
+ alone,
+ the
+ division
+ lost
+ $19.2
+
+
+billion
+ on
+ just
+ $955
+ million
+ in
+ revenue.
+
+
+Let
+ me
+ just
+ put
+ that
+ into
+ perspective
+
+
+for
+ a
+ second.
+ $80
+ billion
+
+
+is
+ more
+ than
+ the
+ entire
+ GDP
+ of
+
+
+Luxembourg.
+ It's
+ roughly
+ what
+ Apple
+
+
+spent
+ to
+ develop
+ every
+ iPhone
+ model
+ ever
+
+
+made
+ combined.
+ And
+ Meta
+ spent
+ it
+ on
+ a
+
+
+product
+ that
+ never
+ cracked
+ 300,000
+
+
+monthly
+ users
+ and
+ became
+ best
+ known
+ for
+
+
+its
+ legless
+ avatars.
+ On
+ March
+ 18th,
+
+
+2026,
+ Meta
+ announced
+ it
+ was
+ shutting
+
+
+down
+ Horizon
+ Worlds.
+ VR
+ access
+ dies
+
+
+permanently
+ on
+ June
+ 15th.
+ The
+ metaverse
+
+
+vision
+ that
+ consumed
+ over
+ $80
+ billion,
+
+
+employed
+ thousands
+ of
+ engineers,
+ and
+
+
+inspired
+ an
+ entire
+ corporate
+ rebrand
+ is,
+
+
+for
+ all
+ practical
+ purposes,
+ dead.
+ Now,
+
+
+here's
+ what's
+ interesting.
+ The
+
+
+technology
+ itself
+ wasn't
+ the
+ problem.
+
+
+Quest
+ headsets
+ sold
+ reasonably
+ well
+ for
+
+
+gaming.
+ People
+ who
+ bought
+ VR
+ headsets
+
+
+wanted
+ to
+ play
+ Beat
+ Saber.
+ They
+ wanted
+
+
+immersive
+ games.
+ What
+ they
+ didn't
+ want
+
+
+was
+ to
+ attend
+ virtual
+ meetings
+ with
+
+
+legless
+ avatars
+ in
+ empty
+ conference
+
+
+rooms.
+ Meta
+ built
+ a
+ solution
+ to
+ a
+
+
+problem
+ nobody
+ had.
+ Think
+ about
+ the
+
+
+products
+ Meta
+ actually
+ succeeded
+ with.
+
+
+Facebook
+ solved
+ I
+ want
+ to
+ keep
+ in
+ touch
+
+
+with
+ people
+ I
+ know.
+ Instagram
+ solved
+ I
+
+
+want
+ to
+ share
+ photos
+ easily.
+ WhatsApp
+
+
+solved
+ I
+ need
+ free
+ messaging
+ that
+ works
+
+
+internationally.
+ These
+ were
+ market
+ pull
+
+
+innovations.
+ People
+ already
+ wanted
+ these
+
+
+things
+ and
+ Meta
+ just
+ built
+ better
+
+
+versions.
+ But
+ the
+ metaverse
+ was
+
+
+technologically
+ pushed.
+ We
+ build
+ this
+ VR
+
+
+thing,
+ now
+ we
+ need
+ to
+ convince
+ everyone
+
+
+they
+ want
+ to
+ live
+ in
+ it.
+ There
+ was
+ no
+
+
+existing
+ demand
+ for
+ virtual
+ concert
+
+
+attendance
+ as
+ a
+ legless
+ avatar.
+ They
+
+
+tried
+ to
+ manufacture
+ desire
+ for
+ a
+
+
+product
+ nobody
+ really
+ asked
+ for.
+ And
+ the
+
+
+wild
+ part
+ is
+ the
+ Meta
+ stock
+ price
+ hit
+
+
+near
+ all-time
+ highs
+ when
+ they
+ announced
+
+
+the
+ Horizon
+ Worlds
+ shutdown.
+ The
+ market
+
+
+basically
+ rewarded
+ them
+ for
+ killing
+ the
+
+
+project
+ because
+ it
+ signaled
+ leadership
+
+
+was
+ finally
+ allocating
+ capital
+ towards
+
+
+something
+ with
+ proven
+ demand.
+ Which
+
+
+brings
+ us
+ to
+ AI.
+
+
+After
+ burning
+ 80
+ billion
+ dollars
+ on
+
+
+legless
+ avatars,
+ Zuckerberg
+ pivoted
+ to
+
+
+AI
+ and
+ here's
+ where
+ the
+ pattern
+ repeats
+
+
+just
+ with
+ much
+ bigger
+ numbers.
+ In
+ 2022
+
+
+ChatGPT
+ launched
+ and
+ suddenly
+ everyone
+
+
+in
+ tech
+ was
+ racing
+ to
+ build
+ large
+
+
+language
+ models.
+ Zuckerberg
+ jumped
+ in
+
+
+with
+ an
+ open
+ checkbook
+ announcing
+ Meta
+
+
+would
+ build
+ Llama,
+ an
+ open-source
+ AI
+
+
+model
+ that
+ anyone
+ could
+ run
+ on
+ their
+ own
+
+
+machine.
+ The
+ pitch
+ was
+ about
+
+
+democratizing
+ AI,
+ making
+ powerful
+ models
+
+
+available
+ to
+ everyone
+ not
+ locked
+ behind
+
+
+corporate
+ APIs.
+ And
+ Meta
+ spent
+
+
+approximately
+ 100
+ billion
+ dollars
+
+
+building
+ Llama
+ as
+ an
+ open-source
+
+
+offering.
+ Here's
+ what
+ happened.
+ The
+
+
+model
+ turned
+ out
+ to
+ be
+ kind
+ of
+ slow,
+
+
+inaccurate,
+ and
+ too
+ unwieldy
+ for
+ most
+
+
+people
+ to
+ operate
+ on
+ their
+ own.
+ Running
+
+
+a
+ large
+ language
+ model
+ locally
+ requires
+
+
+significant
+ compute
+ resources,
+ GPUs,
+
+
+memory,
+ technical
+ know-how.
+ The
+
+
+democratization
+ pitch
+ ran
+ into
+ the
+
+
+reality
+ that
+ most
+ people,
+ developers
+
+
+excluded,
+ just
+ want
+ to
+ type
+ a
+ question
+
+
+into
+ a
+ web
+ interface
+ and
+ get
+ an
+ answer,
+
+
+not
+ set
+ up
+ local
+ model
+ infrastructure.
+
+
+So,
+ Zuckerberg
+ abandoned
+ that
+ effort
+ and
+
+
+committed
+ another
+ $115
+ billion
+ minimum
+
+
+for
+ 2026
+ on
+ a
+ new
+ AI
+ push.
+ This
+ time
+
+
+building
+ models
+ that
+ compete
+ directly
+
+
+with
+ ChatGPT,
+ Claude,
+ and
+ other
+ leading
+
+
+systems.
+ And
+ here's
+ the
+ thing,
+ their
+
+
+current
+ models
+ perform
+ worse
+ than
+ the
+
+
+competition.
+ Now,
+ stop
+ and
+ think
+ about
+
+
+that
+ for
+ a
+ second.
+ Meta
+ is
+ a
+ company
+
+
+with
+ 3
+ billion
+ users,
+ the
+ world's
+ most
+
+
+sophisticated
+ ad
+ targeting
+
+
+infrastructure,
+ decades
+ of
+ behavioral
+
+
+data
+ about
+ what
+ people
+ click,
+ buy,
+ and
+
+
+engage
+ with,
+ very
+ deep
+ understanding
+ of
+
+
+content
+ virality
+ and
+ engagement
+
+
+patterns.
+ If
+ they
+ were
+ strategically
+
+
+coherent,
+ what
+ would
+ they
+ be
+ building,
+
+
+really?
+ AI
+ that
+ makes
+ ad
+ targeting
+ even
+
+
+more
+ effective,
+ their
+ actual
+ business.
+
+
+Content
+ moderation
+ AI,
+ their
+ biggest
+
+
+cost
+ center
+ and
+ legal
+ liability.
+
+
+Recommendation
+ systems
+ that
+ keep
+ people
+
+
+on
+ platform
+ longer,
+ their
+ core
+
+
+engagement
+ problem.
+ Creator
+ tools
+ that
+
+
+make
+ Instagram
+ and
+ Facebook
+ stickier
+
+
+than
+ TikTok.
+ And
+ instead,
+ they're
+
+
+building
+ general-purpose
+ language
+ models
+
+
+to
+ compete
+ with
+ OpenAI.
+ Why?
+ Who
+ at
+ Meta
+
+
+actually
+ benefits
+ from
+ having
+ an
+
+
+open-source
+ LLM
+ that
+ runs
+ on
+ consumer
+
+
+hardware?
+ What
+ problem
+ does
+ this
+ solve
+
+
+for
+ Meta's
+ business
+ model,
+ which
+ is
+
+
+selling
+ ads
+ based
+ on
+ user
+ attention?
+
+
+This
+ is
+ kind
+ of
+ like
+ if
+ Coca-Cola
+
+
+decided
+ to
+ spend
+ $100
+ billion
+ building
+
+
+smartphones
+ because
+ tech
+ is
+ the
+ future,
+
+
+while
+ letting
+ their
+ beverage
+ business
+
+
+rot.
+ The
+ core
+ competency
+ doesn't
+
+
+transfer,
+ the
+ strategic
+ logic
+ doesn't
+
+
+connect.
+ And
+ here's
+ where
+ it
+ gets
+ even
+
+
+weirder,
+ Meta
+ is
+ an
+ advertising
+ company.
+
+
+They
+ have
+ proprietary
+ user
+ data
+ that
+ no
+
+
+one
+ else
+ can
+ access.
+ The
+ social
+ graph,
+
+
+behavioral
+ patterns,
+ what
+ content
+ drives
+
+
+engagement.
+ If
+ they
+ wanted
+ to
+ build
+ AI
+
+
+that
+ leverage
+ their
+ actual
+ moat,
+ they
+
+
+would
+ be
+ building
+ domain-specific
+ models
+
+
+for
+ the
+ following:
+ AI-powered
+
+
+advertising
+ tools
+ that
+ small
+ businesses
+
+
+and
+ creators
+ can
+ use
+ to
+ automatically
+
+
+generate
+ optimized
+ campaigns,
+ identify
+
+
+target
+ audiences,
+ and
+ manage
+ the
+ entire
+
+
+conversion
+ funnel,
+ taking
+ maybe
+ 2
+ to
+ 5%
+
+
+of
+ revenue
+ generated.
+ That
+ is
+ a
+
+
+multi-hundred-billion-dollar
+
+
+business
+ built
+ on
+ infrastructure
+ they
+
+
+already
+ own.
+ Then,
+ content
+ moderation
+ AI
+
+
+that
+ actually
+ works,
+ reducing
+ their
+
+
+biggest
+ cost
+ center
+ and
+ legal
+ exposure
+
+
+while
+ making
+ platforms
+ usable
+ again.
+
+
+Maybe
+ creator
+ monetization
+ tools
+ that
+
+
+keep
+ influencers
+ on
+ Instagram
+ instead
+ of
+
+
+jumping
+ to
+ TikTok,
+ built
+ around
+
+
+AI-assisted
+ content
+ creation
+ and
+
+
+audience
+ analysis.
+ These
+ would
+ be
+
+
+multi-hundred-billion-dollar
+
+
+businesses
+ built
+ on
+ infrastructure
+ they
+
+
+have,
+ but
+ instead,
+ let's
+ spend
+ $150
+
+
+billion
+ per
+ year
+ building
+ ChatGPT
+ except
+
+
+worse
+ and
+ give
+ it
+ away
+ for
+ free.
+ And
+
+
+look,
+ I
+ understand
+ Meta
+ can
+ build
+
+
+multiple
+ things
+ simultaneously.
+ They
+
+
+have
+ the
+ resources,
+ but
+ here's
+ what
+ I
+
+
+don't
+ understand.
+ Why
+ isn't
+ there
+ a
+
+
+public-facing
+ advertising
+ product
+ built
+
+
+on
+ that
+ data
+ set?
+ The
+ strategic
+
+
+incoherence
+ is
+ just
+ staggering.
+
+
+Which
+ brings
+ us
+ to
+ the
+ lawsuit
+ that
+
+
+dropped
+ 2
+ weeks
+ ago,
+ because
+ I
+ think
+ it
+
+
+explains
+ why
+ Meta
+ keeps
+ making
+ these
+
+
+kinds
+ of
+ choices.
+ On
+ May
+ 5th,
+ 2026,
+ five
+
+
+major
+ publishers,
+ Hachette,
+ Macmillan,
+
+
+McGraw
+ Hill,
+ Elsevier,
+ and
+ Cengage,
+ plus
+
+
+author
+ Scott
+ Turow,
+ filed
+ a
+ class
+ action
+
+
+lawsuit
+ against
+ Meta
+ and
+ Zuckerberg
+
+
+personally,
+ alleging
+ they
+ pirated
+
+
+millions
+ of
+ copyrighted
+ books
+ and
+
+
+articles
+ to
+ train
+ Llama.
+
+
+The
+ lawsuit
+ includes
+ internal
+ memos
+ that
+
+
+are
+ generally
+ extraordinary.
+ Here's
+ what
+
+
+happened.
+ According
+ to
+ the
+ filing,
+ after
+
+
+releasing
+ Llama
+ 1,
+ Meta
+ briefly
+
+
+considered
+ licensing
+ training
+ data
+ from
+
+
+publishers.
+ Internal
+ discussions
+ from
+
+
+January
+ to
+ April
+ 2023
+ show
+ Meta
+
+
+considered
+ increasing
+ their
+ data
+ set
+
+
+licensing
+ budget
+ to
+ as
+ much
+ as
+ $200
+
+
+million.
+ Then,
+ in
+ early
+ April
+ 2023,
+ the
+
+
+question
+ was
+ escalated
+ to
+ Zuckerberg.
+
+
+Should
+ they
+ license
+ content
+ or
+ just
+ take
+
+
+it?
+ After
+ Zuckerberg
+ weighed
+ in,
+ Meta's
+
+
+business
+ development
+ team
+ received
+
+
+verbal
+ instructions
+ to
+ stop
+ licensing
+
+
+efforts.
+ The
+ internal
+ rationale,
+
+
+according
+ to
+ one
+ Meta
+ employee
+ quoted
+ in
+
+
+the
+ lawsuit,
+ was
+ the
+ following:
+ "If
+ we
+
+
+license
+ one
+ single
+ book,
+ we
+ won't
+ be
+
+
+able
+ to
+ lean
+ into
+ the
+ fear
+ use
+
+
+strategy."
+ They
+ decided
+ not
+ to
+ license
+
+
+content
+ specifically
+ because
+ licensing
+
+
+even
+ one
+ book
+ would
+ undermine
+ their
+
+
+legal
+ argument
+ that
+ they
+ don't
+ need
+ to
+
+
+license
+ anything.
+ It's
+ not
+ that
+ they
+
+
+couldn't
+ afford
+ $200
+ million.
+
+
+Meta
+ made
+ $200
+ billion
+ in
+ ad
+ revenue
+
+
+just
+ in
+ 2025.
+ They're
+ spending
+ $115
+
+
+billion
+ on
+ AI
+ infrastructure.
+ $200
+
+
+million
+ for
+ licensing
+ is
+ kind
+ of
+ like
+ a
+
+
+rounding
+ error.
+ They
+ chose
+ piracy
+
+
+because
+ they're
+ betting
+ the
+ entire
+ AI
+
+
+strategy
+ on
+ fair
+ use,
+ the
+ legal
+ doctrine
+
+
+that
+ allows
+ limited
+ use
+ of
+ copyrighted
+
+
+material
+ without
+ permission
+ for
+ purposes
+
+
+like
+ criticism,
+ education,
+ or
+
+
+transformative
+ works.
+ And
+ the
+ lawsuit
+
+
+alleges
+ they
+ went
+ hard
+ on
+ the
+ piracy.
+
+
+According
+ to
+ the
+ complaint,
+ on
+ December
+
+
+13th,
+ 2023,
+ Meta
+ employees
+ internally
+
+
+circulated
+ a
+ memo
+ about
+ LibGen,
+ a
+
+
+notorious
+ repository
+ of
+ pirated
+ academic
+
+
+papers
+ and
+ books.
+ The
+ memo
+ described
+ it
+
+
+as
+ "a
+ data
+ set
+ we
+ know
+ to
+ be
+ pirated"
+
+
+and
+ noted
+ "we
+ should
+ not
+ disclose
+ use
+ of
+
+
+LibGen
+ data
+ sets
+ used
+ to
+ train."
+ Despite
+
+
+those
+ concerns,
+ Zuckerberg
+ and
+ other
+
+
+Meta
+ executives
+ authorized
+ torrenting
+
+
+over
+ 267
+ terabytes
+ of
+ pirated
+ material.
+
+
+The
+ lawsuit
+ says
+ that's
+ equivalent
+ to
+
+
+hundreds
+ of
+ millions
+ of
+ publications
+ and
+
+
+many
+ times
+ the
+ size
+ of
+ the
+ entire
+ print
+
+
+collection
+ of
+ the
+ Library
+ of
+ Congress.
+
+
+Just
+ for
+ context,
+ 267
+ terabytes,
+ the
+
+
+entire
+ text
+ of
+ Wikipedia
+ is
+ about
+ 20
+ GB.
+
+
+Meta
+ allegedly
+ torrented
+ the
+ equivalent
+
+
+of
+ 13,000
+ Wikipedias
+ worth
+ of
+ pirated
+
+
+books
+ and
+ journal
+ articles.
+
+
+Now,
+ previous
+ lawsuits
+ against
+ AI
+
+
+companies
+ for
+ copyrighted
+ infringement
+
+
+have
+ failed.
+ In
+ June
+ 2025,
+ a
+ federal
+
+
+judge
+ ruled
+ that
+ Meta
+ engaged
+ in
+ fair
+
+
+use
+ when
+ training
+ Llama
+ on
+ a
+ data
+ set
+ of
+
+
+nearly
+ 200,000
+ books,
+ but
+ this
+ lawsuit
+
+
+is
+ different
+ because
+ of
+ the
+ internal
+
+
+memos.
+ The
+ previous
+ cases
+ were
+ about
+
+
+whether
+ AI
+ training
+ constitutes
+ fair
+ use
+
+
+in
+ principle.
+ This
+ case
+ is
+ about
+ whether
+
+
+you
+ can
+ deliberately
+ circumvent
+ copying
+
+
+protections
+ and
+ actively
+ choose
+ piracy
+
+
+over
+ licensing
+ as
+ a
+ cost-saving
+ measure,
+
+
+then
+ claim
+ fair
+ use
+ as
+ a
+ shield.
+ The
+
+
+lawsuit
+ argues
+ that
+ Meta
+ stripped
+
+
+copyright
+ management
+ information
+ from
+
+
+the
+ copyrighted
+ works
+ it
+ stole
+ to
+
+
+conceal
+ training
+ sources
+ and
+ facilitate
+
+
+unauthorized
+ use.
+ That's
+ not
+
+
+transformative
+ use
+ or
+ incidental
+ copying
+
+
+during
+ research.
+ That
+ is
+ deliberate
+
+
+infringement
+ at
+ industrial
+ scale
+ with
+
+
+internal
+ documentation
+ showing
+ it
+ was
+ a
+
+
+conscious
+ strategic
+ choice.
+ And
+ here's
+
+
+what
+ I
+ personally
+ find
+ fascinating.
+ Meta
+
+
+knows
+ how
+ to
+ license
+ content.
+ According
+
+
+to
+ the
+ lawsuit,
+ they
+ signed
+ licensing
+
+
+agreements
+ with
+ Fox
+ News,
+ CNN,
+ and
+ USA
+
+
+Today.
+ They
+ signed
+ four
+ licenses
+ in
+ 2022
+
+
+with
+ African
+ language
+ book
+ publishers.
+
+
+They
+ understand
+ the
+ market
+ for
+ licensing
+
+
+AI
+ training
+ materials.
+ They
+ just
+ decided
+
+
+it
+ was
+ cheaper
+ to
+ pirate
+ and
+ fight
+ in
+
+
+court
+ later.
+ And
+ I
+ think
+ that
+ decision
+
+
+reveals
+ something
+ very
+ important.
+ Meta
+
+
+can't
+ afford
+ to
+ build
+ competitive
+ AI
+ the
+
+
+legal
+ way.
+
+
+If
+ you're
+ building
+ domain-specific
+ AI
+
+
+for
+ advertising
+ using
+ your
+ own
+
+
+proprietary
+ user
+ data,
+ you
+ don't
+ need
+ to
+
+
+scrape
+ the
+ Library
+ of
+ Congress.
+ But
+ if
+
+
+you're
+ trying
+ to
+ build
+ general-purpose
+
+
+models
+ that
+ compete
+ with
+ OpenAI
+ and
+
+
+Anthropic,
+ you
+ need
+ all
+ of
+ human
+
+
+knowledge,
+ which
+ means
+ either
+ paying
+ for
+
+
+it
+ or
+ stealing
+ it.
+ The
+ piracy
+ strategy
+
+
+is
+ a
+ symptom
+ of
+ the
+ strategic
+
+
+incoherence.
+ They're
+ building
+ the
+ wrong
+
+
+thing,
+ which
+ requires
+ data
+ they
+ don't
+
+
+have,
+ which
+ means
+ they
+ either
+ spend
+
+
+hundreds
+ of
+ millions
+ on
+ licensing
+ or
+
+
+they
+ gamble
+ on
+ a
+ fair
+ use
+ defense
+ while
+
+
+torrenting
+ pirated
+ material.
+ They
+ chose
+
+
+the
+ gamble,
+ and
+ while
+ Meta
+ is
+ pirating
+
+
+external
+ data,
+ they're
+ also
+ extracting
+
+
+training
+ data
+ from
+ an
+ even
+ more
+
+
+accessible
+ source,
+ their
+ own
+ employees.
+
+
+In
+ April
+ 2026,
+ Reuters
+ reported
+ that
+
+
+Meta
+ quietly
+ deployed
+ monitoring
+
+
+software
+ on
+ US
+ employees
+ work
+ computers
+
+
+through
+ a
+ program
+ called
+ the
+ Model
+
+
+Capability
+ Initiative.
+ The
+ software
+
+
+captures
+ every
+ single
+ keystroke,
+ mouse
+
+
+movement,
+ click,
+ and
+ takes
+ periodic
+
+
+screenshots
+ as
+ employees
+ work
+ across
+
+
+hundreds
+ of
+ websites
+ and
+ apps,
+ including
+
+
+Google,
+ LinkedIn,
+ GitHub,
+ Slack,
+ and
+
+
+even
+ personal
+ Gmail
+ accessed
+ on
+ work
+
+
+devices.
+ According
+ to
+ a
+ Meta
+
+
+spokesperson
+ quoted
+ by
+ Reuters,
+ "If
+
+
+we're
+ building
+ agents
+ to
+ help
+ people
+
+
+complete
+ everyday
+ tasks
+ using
+ computers,
+
+
+our
+ models
+ need
+ real
+ examples
+ of
+ how
+
+
+people
+ actually
+ use
+ them."
+ That
+ sounds
+
+
+reasonable
+ until
+ you
+ think
+ about
+ what
+ it
+
+
+actually
+ means.
+ Meta
+ is
+ training
+ AI
+
+
+agents
+ to
+ replicate
+ human
+ computer
+ work.
+
+
+To
+ do
+ that,
+ they
+ need
+ to
+ watch
+ humans
+ do
+
+
+computer
+ work,
+ so
+ they're
+ recording
+
+
+every
+ drop-down
+ menu
+ selection,
+ every
+
+
+copy-paste
+ between
+ tools,
+ every
+ Jira
+
+
+workflow
+ that
+ Meta's
+ roughly
+ 72,000
+
+
+employees
+ perform.
+ CTO
+ Andrew
+ Bosworth
+
+
+confirmed
+ there
+ is
+ no
+ opt-out.
+ If
+ you
+
+
+work
+ for
+ Meta
+ in
+ the
+ US,
+ you're
+ being
+
+
+monitored.
+ European
+ employees
+ are
+ exempt
+
+
+because
+ GDPR
+ won't
+ allow
+ it,
+ but
+
+
+American
+ workers
+ just
+ get
+ a
+ notice
+ that
+
+
+their
+ work
+ laptop
+ isn't
+ really
+ theirs.
+
+
+And
+ here's
+ the
+ darkly
+ hilarious
+ part.
+
+
+Meta
+ announced
+ this
+ the
+ same
+ week
+ they
+
+
+laid
+ off
+ 8,000
+ employees.
+ So,
+ the
+
+
+workflow
+ is
+ basically
+ monitor
+ employees
+
+
+doing
+ their
+ jobs,
+ use
+ that
+ data
+ to
+ train
+
+
+AI
+ agents
+ that
+ can
+ do
+ those
+ jobs,
+ lay
+
+
+off
+ the
+ employees,
+ sell
+ the
+ AI
+ agents
+ to
+
+
+other
+ companies.
+ The
+ workers
+ generating
+
+
+the
+ training
+ data
+ don't
+ get
+ a
+ cut.
+ They
+
+
+get
+ a
+ monitoring
+ notice
+ and
+ potentially
+
+
+a
+ severance
+ package
+ if
+ they're
+ lucky.
+
+
+Now
+ look,
+ I
+ understand
+ the
+ business
+
+
+logic
+ of
+ this.
+ Every
+ company
+ right
+ now
+
+
+is
+ trying
+ to
+ figure
+ out
+ how
+ to
+ automate
+
+
+knowledge
+ work.
+ I
+ get
+ it.
+ Collecting
+
+
+data
+ on
+ how
+ employees
+ actually
+ use
+
+
+software
+ is
+ a
+ reasonable
+ R&D
+ strategy.
+
+
+If
+ Meta
+ wants
+ to
+ build
+ workplace
+ AI,
+
+
+they
+ need
+ examples
+ of
+ workplace
+ tasks,
+
+
+sure,
+ but
+ the
+ execution
+ is
+ just
+ kind
+ of
+
+
+tactically
+ insane.
+ You've
+ now
+ got
+ 72,000
+
+
+people
+ who
+ know
+ they're
+ training
+ their
+
+
+own
+ replacements.
+ Morale
+ is
+ of
+ course
+
+
+destroyed,
+ trust
+ is
+ just
+ out
+ the
+ window,
+
+
+and
+ for
+ what
+ strategic
+ advantage?
+
+
+Because
+ here's
+ the
+ thing,
+ if
+ Meta
+ were
+
+
+building
+ domain
+ specific
+ AI
+ for
+ their
+
+
+actual
+ business,
+ app
+ targeting,
+ content
+
+
+moderation,
+ creator
+ tools,
+ they
+ wouldn't
+
+
+need
+ to
+ monitor
+ employee
+ keystrokes.
+
+
+They
+ would
+ train
+ on
+ their
+ proprietary
+
+
+user
+ data,
+ which
+ they
+ already
+ have
+
+
+copious
+ amounts
+ of.
+ But
+ they're
+ trying
+
+
+to
+ build
+ general
+ workplace
+ AI
+ agents
+ to
+
+
+compete
+ in
+ the
+ enterprise
+ software
+
+
+market,
+ which
+ means
+ they
+ need
+ training
+
+
+data
+ about
+ how
+ people
+ use
+ Google
+ Docs,
+
+
+Slack,
+ LinkedIn,
+ email,
+ none
+ of
+ which
+ is
+
+
+Meta's
+ core
+ business.
+ So
+ once
+ again,
+
+
+wrong
+ product,
+ wrong
+ lane,
+ desperate
+
+
+measures
+ to
+ get
+ the
+ data
+ they
+ need,
+ and
+
+
+the
+ cost
+ isn't
+ just
+ employee
+ morale,
+
+
+it's
+ legal
+ exposure.
+ Think
+ about
+ what
+
+
+flows
+ through
+ those
+ tools
+ on
+ a
+ normal
+
+
+workday,
+ by
+ the
+ way,
+ code
+ commits
+ with
+
+
+proprietary
+ logic,
+ Slack
+ messages
+ about
+
+
+medical
+ leave,
+ personal
+ emails
+ accessed
+
+
+on
+ work
+ devices.
+ You're
+ capturing
+
+
+potentially
+ very
+ sensitive
+ information
+
+
+at
+ massive
+ scale,
+ feeding
+ it
+ into
+ AI
+
+
+training
+ pipelines,
+ and
+ hoping
+ nothing
+
+
+goes
+ wrong.
+ That's
+ not
+ just
+ ethically
+
+
+questionable,
+ it
+ is
+ a
+ compliance
+
+
+nightmare
+ waiting
+ to
+ happen.
+ But
+ they're
+
+
+doing
+ it
+ anyway,
+ because
+ they
+ need
+ the
+
+
+data,
+ and
+ they
+ cannot
+ really
+ afford
+ to
+
+
+acquire
+ it
+ through
+ other
+ means.
+
+
+Which
+ brings
+ us
+ to
+ the
+ financial
+
+
+engineering
+ holding
+ this
+ whole
+ operation
+
+
+together.
+ Meta
+ is
+ spending
+ staggering
+
+
+amounts
+ on
+ AI.
+ Capital
+ expenditures
+ for
+
+
+2026
+ are
+ projected
+ at
+ 115
+ to
+ 135
+ billion
+
+
+dollars.
+ directed
+ primarily
+ at
+ data
+
+
+centers
+ AI
+ chips
+ and
+ model
+ development.
+
+
+To
+ put
+ that
+ in
+ context,
+ that's
+ roughly
+
+
+67%
+ of
+ Meta's
+ projected
+ annual
+ revenue.
+
+
+Most
+ tech
+ companies
+ spend
+ about
+ 15
+ to
+
+
+25%
+ of
+ revenue
+ on
+ CapEx.
+ Meta
+ is
+
+
+spending
+ more
+ than
+ half.
+ Where
+ is
+ that
+
+
+money
+ coming
+ from?
+ Increasingly,
+ debt.
+
+
+Meta's
+ long-term
+ debt
+ closed
+ out
+ 2025
+ at
+
+
+59
+ billion
+ dollars,
+ double
+ the
+ prior
+
+
+year's
+ total.
+ And
+ that
+ doesn't
+ count
+ the
+
+
+creative
+ accounting
+ by
+ the
+ way.
+ In
+
+
+Louisiana,
+ Meta
+ is
+ building
+ a
+ data
+
+
+center
+ called
+ Hyperion,
+ a
+ 27
+ billion
+
+
+dollar
+ facility
+ that
+ at
+ full
+ build-out
+
+
+could
+ scale
+ to
+ five
+ gigawatts
+ and
+ cover
+
+
+an
+ area
+ Zuckerberg
+ says
+ would
+ stretch
+
+
+across
+ a
+ significant
+ part
+ of
+ Manhattan.
+
+
+Here's
+ how
+ they're
+ financing
+ it.
+ Meta
+
+
+partnered
+ with
+ Blue
+ Owl
+ Capital,
+ a
+
+
+private
+ credit
+ firm.
+ They
+ created
+ a
+
+
+joint
+ venture
+ where
+ Meta
+ owns
+ 20%
+ and
+
+
+Blue
+ Owl
+ owns
+ 80%.
+ Blue
+ Owl
+ formed
+ a
+
+
+legal
+ entity
+ called,
+ and
+ I'm
+ really
+ not
+
+
+making
+ this
+ up,
+ Beignet
+ Investors
+ LLC.
+
+
+They
+ named
+ their
+ 27
+ billion
+ dollars
+ debt
+
+
+vehicle
+ after
+ a
+ donut.
+ Beignet
+ Investors
+
+
+sold
+ 27
+ billion
+ dollars
+ in
+ bonds
+ to
+ Wall
+
+
+Street
+ investors.
+ Meta
+ leases
+ the
+ data
+
+
+center
+ from
+ Blue
+ Owl.
+ The
+ rent
+ money
+
+
+flows
+ to
+ Blue
+ Owl
+ which
+ uses
+ it
+ to
+ pay
+
+
+back
+ bond
+ holders.
+ And
+ here's
+ the
+ clever
+
+
+part.
+ Meta
+ gets
+ to
+ renew
+ its
+ lease
+ every
+
+
+four
+ years.
+ If
+ they
+ change
+ their
+ mind
+ on
+
+
+AI,
+ they
+ can
+ just
+ walk
+ away.
+ Because
+
+
+Meta
+ only
+ owns
+ 20%
+ and
+ doesn't
+ control
+
+
+the
+ entity,
+ they
+ keep
+ the
+ 27
+ billion
+
+
+dollars
+ in
+ debt
+ off
+ their
+ balance
+ sheet.
+
+
+The
+ Wall
+ Street
+ Journal
+ called
+ this
+
+
+Frankenstein
+ financing.
+ Ernst
+ &
+ Young,
+
+
+Meta's
+ auditor,
+ approved
+ the
+ arrangement
+
+
+while
+ designating
+ it
+ as
+ a
+ critical
+ audit
+
+
+matter,
+ accounting
+ speak
+ for
+ this
+ is
+
+
+complicated,
+ involves
+ significant
+
+
+judgment,
+ and
+ warrants
+ investor
+
+
+attention.
+
+
+Some
+ analysts
+ are
+ comparing
+ this
+
+
+structure
+ to
+ the
+ special
+ purpose
+
+
+entities
+ that
+ led
+ to
+ the
+ Enron
+ collapse,
+
+
+and
+ Meta
+ just
+ announced
+ they're
+ doing
+ it
+
+
+again,
+ raising
+ another
+ $13
+ billion
+
+
+through
+ a
+ similar
+ structure
+ for
+ a
+ data
+
+
+center
+ in
+ Texas.
+
+
+Meanwhile,
+ in
+ Louisiana,
+ the
+ Hyperion
+
+
+data
+ center
+ is
+ causing
+ real-world
+
+
+consequences.
+ The
+ tiny
+ town
+ of
+ Holy
+
+
+Ridge,
+ population
+ 6,500,
+
+
+is
+ now
+ home
+ to
+ construction
+ for
+ the
+
+
+largest
+ data
+ center
+ in
+ the
+ world.
+
+
+Residents
+ report
+ a
+ 600%
+ increase
+ in
+
+
+vehicle
+ crashes
+ over
+ the
+ last
+ year
+ from
+
+
+the
+ nonstop
+ parade
+ of
+ construction
+
+
+trucks.
+ Three
+ truck
+ crashes
+ occurred
+
+
+just
+ outside
+ Holy
+ Ridge
+ Elementary
+
+
+School.
+ Fourth
+ graders
+ told
+ reporters
+
+
+the
+ trucks
+ are
+ so
+ loud
+ and
+ frequent
+ that
+
+
+classroom
+ walls
+ shake.
+ And
+ if
+ Meta
+
+
+decides
+ to
+ walk
+ away
+ after
+ 4
+ years,
+ the
+
+
+three
+ new
+ natural
+ gas
+ plants
+ built
+ to
+
+
+power
+ the
+ data
+ center
+ have
+ a
+ 30-year
+
+
+lifespan.
+ If
+ the
+ data
+ center
+ closes
+
+
+early,
+ the
+ cost
+ of
+ those
+ plants
+ will
+
+
+appear
+ on
+ household
+ utility
+ bills
+ for
+
+
+Louisiana
+ ratepayers.
+ So,
+ Meta
+ gets
+ the
+
+
+infrastructure,
+ keeps
+ the
+ debt
+ off
+ their
+
+
+books,
+ retains
+ the
+ option
+ to
+ walk
+ away,
+
+
+and
+ if
+ things
+ go
+ bad,
+ ordinary
+ people
+ in
+
+
+Louisiana
+ pay
+ the
+ bill.
+ This
+ is
+ what
+
+
+financial
+ desperation
+ looks
+ like
+ at
+
+
+scale.
+ So,
+ let's
+ just
+ connect
+ the
+ pieces
+
+
+because
+ we've
+ talked
+ about
+ a
+ lot
+ of
+
+
+things
+ here.
+ Meta
+ spent
+ $80
+ billion
+ on
+
+
+the
+ metaverse
+ trying
+ to
+ create
+ a
+ market
+
+
+that
+ didn't
+ exist.
+ People
+ wanted
+ VR
+ for
+
+
+gaming,
+ not
+ for
+ hanging
+ out
+ as
+ legless
+
+
+avatars
+ in
+ virtual
+ conference
+ rooms.
+ The
+
+
+product
+ failed
+ because
+ it
+ solved
+ a
+
+
+problem
+ literally
+ nobody
+ had.
+ Then
+ they
+
+
+pivoted
+ to
+ AI,
+ but
+ instead
+ of
+ building
+
+
+domain-specific
+ models
+ that
+ leverage
+
+
+their
+ actual
+ competitive
+ advantages,
+
+
+user
+ data,
+ ad
+ targeting,
+ content
+
+
+moderation,
+ they're
+ building
+
+
+general-purpose
+ LLMs
+ to
+ compete
+ with
+
+
+OpenAI.
+ To
+ train
+ those
+ models,
+ they
+ need
+
+
+massive
+ amounts
+ of
+ data
+ they
+ don't
+
+
+actually
+ have,
+ so
+ they
+ pirated
+ 267
+
+
+terabytes
+ from
+ sites
+ they
+ internally
+
+
+describe
+ as
+ data
+ sets
+ we
+ know
+ to
+ be
+
+
+pirated
+ and
+ bet
+ on
+ a
+ fair
+ use
+ defense.
+
+
+Internal
+ memos
+ show
+ Zuckerberg
+
+
+personally
+ killed
+ licensing
+ discussions
+
+
+because
+ paying
+ for
+ content
+ would
+
+
+undermine
+ that
+ legal
+ strategy.
+ And
+
+
+simultaneously,
+ they're
+ surveilling
+
+
+their
+ own
+ employees'
+ keystrokes
+ to
+
+
+generate
+ training
+ data
+ for
+ AI
+ agents
+
+
+that
+ will
+ replace
+ those
+ workers.
+
+
+American
+ employees
+ cannot
+ opt
+ out.
+
+
+European
+ employees
+ are
+ exempt
+ because
+
+
+GDPR
+ protects
+ them.
+ To
+ fund
+ all
+ this,
+
+
+they're
+ taking
+ on
+ massive
+ debt,
+ $59
+
+
+billion
+ and
+ growing,
+ and
+ using
+ creative
+
+
+accounting
+ structures
+ to
+ keep
+ additional
+
+
+billions
+ off
+ the
+ books.
+ They're
+ building
+
+
+data
+ centers
+ financed
+ through
+ entities
+
+
+named
+ after
+ pastries
+ with
+ lease
+ terms
+
+
+that
+ let
+ them
+ walk
+ away
+ while
+ local
+
+
+communities
+ bear
+ the
+ infrastructure
+
+
+risk.
+ And
+ the
+ core
+ business
+ that's
+
+
+supposed
+ to
+ fund
+ all
+ of
+ this
+ is
+
+
+declining.
+ Daily
+ active
+ users
+ across
+
+
+Meta's
+ properties
+ dropped
+ for
+ the
+ first
+
+
+time
+ ever
+ last
+ quarter
+ from
+ 3.58
+ billion
+
+
+to
+ 3.56
+ billion.
+ To
+ compensate
+ for
+ this,
+
+
+Meta
+ is
+ cramming
+ more
+ ads
+ onto
+ platforms
+
+
+and
+ charging
+ advertisers
+ more,
+ moves
+
+
+that
+ increase
+ revenue
+ per
+ user
+ by
+ 27%
+ in
+
+
+Q1
+ 2026,
+ but
+ are
+ actually
+ likely
+ to
+
+
+further
+ alienate
+ the
+ users
+ who
+ are
+
+
+already
+ leaving.
+ This
+ is
+ what
+ strategic
+
+
+incoherence
+ looks
+ like.
+ Meta
+ has
+
+
+technical
+ execution
+ capability.
+ They
+ can
+
+
+build
+ very
+ sophisticated
+ systems,
+ deploy
+
+
+infrastructure
+ at
+ scale,
+ hire
+ very
+
+
+talented
+ engineers,
+ but
+ they've
+
+
+completely
+ lost
+ clarity
+ on
+ what
+ problem
+
+
+they're
+ solving
+ and
+ for
+ whom.
+ Facebook,
+
+
+Instagram,
+ WhatsApp
+ succeeded
+ because
+
+
+they
+ served
+ existing
+ needs.
+ People
+
+
+wanted
+ to
+ stay
+ connected,
+ share
+ photos,
+
+
+message
+ internationally.
+ These
+ were
+
+
+market
+ pull
+ innovations.
+ The
+ metaverse
+
+
+and
+ general-purpose
+ AI
+ are
+ technology
+
+
+push.
+ We
+ build
+ this,
+ now
+ we
+ need
+ to
+
+
+convince
+ everyone
+ they
+ want
+ it.
+ But
+
+
+there
+ is
+ no
+ clear
+ user
+ need
+ being
+
+
+served.
+ And
+ here's
+ what
+ I
+ personally
+
+
+find
+ remarkable.
+ Meta
+ is
+ sitting
+ on
+ the
+
+
+most
+ valuable
+ advertising
+ data
+ set
+ in
+
+
+human
+ history.
+ 3
+ billion
+ users,
+ decades
+
+
+of
+ behavioral
+ data,
+ complete
+ social
+
+
+graphs,
+ deep
+ understanding
+ of
+ what
+ makes
+
+
+people
+ click,
+ buy,
+ engage.
+ It
+ is
+ the
+
+
+holy
+ grail
+ of
+ advertising.
+ If
+ they
+ were
+
+
+structurally
+ coherent,
+ they
+ would
+ be
+
+
+building
+ AI-powered
+ advertising
+ tools
+
+
+that
+ small
+ businesses
+ and
+ creators
+ can
+
+
+use
+ to
+ automatically
+ generate
+ optimized
+
+
+campaigns,
+ identify
+ target
+ audience,
+
+
+manage
+ the
+ entire
+ conversion
+ funnel.
+ But
+
+
+instead,
+ they're
+ just
+ building
+ ChatGPT,
+
+
+but
+ kind
+ of
+ like
+ worse,
+ give
+ it
+ away
+ for
+
+
+free,
+ pirate
+ all
+ the
+ training
+ data,
+ and
+
+
+just
+ burn
+ 115
+ billion
+ dollars
+ per
+ year
+
+
+doing
+ it.
+ The
+ desperation
+ isn't
+ just
+
+
+financial,
+ it
+ is
+ strategic.
+ They
+ don't
+
+
+know
+ what
+ they're
+ building
+ or
+ why.
+ And
+
+
+the
+ piracy,
+ the
+ employee
+ surveillance,
+
+
+the
+ debt,
+ the
+ accounting
+ tricks,
+ these
+
+
+are
+ all
+ downstream
+ consequences
+ of
+ that
+
+
+fundamental
+ confusion.
+ So,
+ where
+ does
+
+
+all
+ of
+ this
+ go
+ next?
+ The
+ New
+ York
+ Times
+
+
+opinion
+ piece
+ argues
+ Meta
+ is
+ entering
+
+
+its
+ zombie
+ era,
+ the
+ slow
+ decline
+ into
+
+
+irrelevance
+ like
+ AOL
+ or
+ Yahoo.
+ I
+ think
+
+
+that's
+ probably
+ right
+ about
+ the
+
+
+trajectory,
+ but
+ it
+ undersells
+ how
+ much
+
+
+damage
+ a
+ dying
+ internet
+ giant
+ can
+ do
+ on
+
+
+the
+ way
+ down.
+
+
+>> [clears throat]
+
+
+>> Yahoo
+ in
+ its
+ decline
+ failed
+ to
+ invest
+ in
+
+
+cybersecurity
+ and
+ suffered
+ the
+ largest
+
+
+data
+ breach
+ in
+ history.
+ 500
+ million
+
+
+accounts
+ compromised
+ with
+ Russian
+
+
+hackers
+ targeting
+ dissidents
+ and
+
+
+journalists.
+ Meta's
+ platforms
+ are
+
+
+already
+ riddled
+ with
+ fraud
+ and
+ scams.
+
+
+The
+ company
+ has
+ been
+ slashing
+ staff
+ in
+
+
+areas
+ focusing
+ on
+ AI
+ safety
+ and
+
+
+identifying
+ dangerous
+ content.
+ As
+ the
+
+
+financial
+ pressure
+ increases,
+ that's
+
+
+only
+ going
+ to
+ get
+ worse.
+ We
+ are
+ likely
+
+
+to
+ see
+ more
+ AI-generated
+ deepfakes,
+ more
+
+
+child
+ exploitation
+ material
+ slipping
+
+
+through
+ understaffed
+ moderation,
+ more
+
+
+toxic
+ content
+ optimized
+ for
+ engagement
+
+
+because
+ the
+ AI
+ systems
+ prioritize
+ watch
+
+
+time
+ over
+ safety.
+ And
+ Meta
+ is
+ still
+
+
+Meta,
+ even
+ after
+ losing
+ a
+ bellwether
+
+
+lawsuit
+ alleging
+ their
+ addictive
+ design
+
+
+choices
+ triggered
+ anxiety
+ and
+ depression
+
+
+in
+ teenagers
+ with
+ over
+ 100,000
+ similar
+
+
+cases
+ waiting
+ in
+ the
+ wings
+ seeking
+ tens
+
+
+of
+ billions
+ in
+ damages,
+ the
+ CFO
+ recently
+
+
+bragged
+ to
+ Wall
+ Street
+ that
+ the
+
+
+company's
+ using
+ AI
+ to
+ increase
+ the
+
+
+amount
+ of
+ time
+ users
+ spend
+ watching
+
+
+videos.
+ The
+ incentives
+ haven't
+ changed.
+
+
+Extract
+ engagement,
+ sell
+ ads,
+ maximize
+
+
+revenue.
+ The
+ fact
+ that
+ it's
+ destroying
+
+
+the
+ platform
+ just
+ means
+ they
+ will
+
+
+extract
+ harder
+ while
+ they
+ still
+ can.
+ On
+
+
+the
+ copyright
+ front,
+ this
+ lawsuit
+ is
+
+
+going
+ to
+ be
+ fascinating
+ to
+ watch,
+ I
+
+
+think.
+ Previous
+ cases
+ ruled
+ that
+ AI
+
+
+training
+ constitutes
+ fair
+ use,
+ but
+ those
+
+
+were
+ about
+ the
+ principle,
+ basically
+
+
+whether
+ training
+ AI
+ on
+ copyrighted
+
+
+material
+ is
+ inherently
+ transformative.
+
+
+This
+ case
+ is
+ about
+ deliberate
+
+
+circumvention,
+ internal
+ memos
+ showing
+
+
+conscious
+ choices
+ to
+ pirate
+ rather
+ than
+
+
+license,
+ stripping
+ copyright
+ management
+
+
+information
+ to
+ conceal
+ sources,
+
+
+torrenting
+ from
+ sites
+ the
+ company
+
+
+internally
+ described
+ as
+ pirated.
+ If
+ Meta
+
+
+loses
+ this,
+ it
+ doesn't
+ just
+ cost
+ them
+
+
+money,
+ it
+ establishes
+ precedent
+ that
+
+
+choosing
+ to
+ infringe
+ at
+ scale
+ is
+ not
+
+
+protected
+ by
+ fair
+ use,
+ which
+ has
+
+
+implications
+ for
+ the
+ entire
+ AI
+ industry.
+
+
+And
+ if
+ Meta
+ wins,
+ then
+ we've
+ essentially
+
+
+ruled
+ that
+ AI
+ companies
+ can
+ pirate
+
+
+anything
+ as
+ long
+ as
+ they
+ call
+ it
+
+
+training
+ data
+ and
+ claim
+ transformative
+
+
+use,
+ which
+ is
+ on
+ its
+ own
+ kind
+ of
+
+
+alarming.
+ Either
+ way,
+ the
+ lawsuit
+ is
+ a
+
+
+symptom
+ of
+ a
+ deeper
+ problem.
+ AI
+
+
+development
+ at
+ the
+ scale
+ Meta
+ is
+
+
+attempting
+ is
+ either
+ exceptionally
+
+
+expensive
+ or
+ fundamentally
+ incompatible
+
+
+with
+ doing
+ it
+ legally
+ if
+ you're
+ building
+
+
+general-purpose
+ models.
+ If
+ you're
+
+
+building
+ domain-specific
+ AI
+ using
+ your
+
+
+own
+ proprietary
+ data,
+ you're
+ fine.
+ Do
+
+
+that.
+ Tesla
+ can
+ train
+ on
+ their
+ fleet
+
+
+data,
+ Meta
+ could
+ train
+ on
+ user
+
+
+behavioral
+ data
+ for
+ ad
+ targeting,
+ but
+ if
+
+
+you're
+ trying
+ to
+ build
+ models
+ that
+ know
+
+
+everything
+ competing
+ with
+ ChatGPT
+ and
+
+
+Claude,
+ you
+ need
+ all
+ of
+ human
+ knowledge,
+
+
+which
+ means
+ either
+ paying
+ for
+ it
+ or
+
+
+stealing
+ it.
+ And
+ paying
+ for
+ it
+ at
+ the
+
+
+scale
+ required
+ might
+ actually
+ be
+
+
+economically
+ impossible.
+ So,
+ Meta
+ chose
+
+
+theft
+ and
+ is
+ gambling
+ on
+ the
+ legal
+
+
+system
+ protecting
+ them.
+ Meanwhile,
+ the
+
+
+debt
+ keeps
+ growing,
+ the
+ accounting
+ gets
+
+
+even
+ more
+ creative,
+ the
+ core
+ business
+
+
+keeps
+ declining,
+ and
+ the
+ strategic
+ bets
+
+
+keep
+ failing.
+ Zuckerberg
+ cannot
+ be
+ fired
+
+
+due
+ to
+ dual
+ class
+ shares,
+ so
+ there
+ is
+ no
+
+
+forcing
+ function
+ to
+ correct
+ course.
+
+
+We're
+ just
+ going
+ to
+ watch
+ this
+ play
+ out
+
+
+in
+ real
+ time.
+ And
+ here's
+ the
+ broader
+
+
+lesson,
+ and
+ this
+ connects
+ to
+ what
+ I
+ talk
+
+
+about
+ often
+ on
+ this
+ channel.
+ Everyone
+
+
+right
+ now
+ is
+ throwing
+ money
+ at
+ AI
+ as
+ a
+
+
+category,
+ treating
+ it
+ like
+ a
+ universal
+
+
+solution
+ to
+ every
+ single
+ problem.
+ But
+ AI
+
+
+is
+ not
+ one
+ thing.
+ It's
+ an
+ incredibly
+
+
+broad
+ field
+ with
+ thousands
+ of
+ specific
+
+
+applications
+ and
+ use
+ cases.
+ The
+
+
+companies
+ that
+ will
+ succeed
+ are
+ the
+ ones
+
+
+building
+ domain-specific
+ AI
+ that
+ solves
+
+
+actual
+ problems
+ for
+ actual
+ users.
+
+
+Tesla's
+ AI
+ works
+ because
+ it's
+ trained
+ on
+
+
+real-world
+ driving
+ data
+ from
+ millions
+ of
+
+
+vehicles,
+ solving
+ the
+ specific
+ problem
+
+
+of
+ autonomous
+ navigation.
+ The
+ companies
+
+
+building
+ AI
+ for
+ medical
+ imaging,
+ drug
+
+
+discovery,
+ material
+ science,
+ climate
+
+
+modeling,
+ these
+ are
+ focused
+ applications
+
+
+where
+ you
+ can
+ measure
+ success
+ very
+
+
+cleanly.
+ But
+ build
+ next-gen
+ AI
+ to
+
+
+compete
+ with
+ OpenAI
+ is
+ not
+ a
+ strategy.
+
+
+What
+ does
+ next-gen
+ even
+ mean?
+ What
+
+
+problem
+ does
+ it
+ solve?
+ Who
+ needs
+ this?
+
+
+Meta
+ keeps
+ chasing
+ the
+ shiniest
+ object,
+
+
+VR,
+ then
+ open-source
+ LLMs,
+ then
+ general
+
+
+AI
+ agents,
+ without
+ asking
+ whether
+ these
+
+
+things
+ connect
+ to
+ their
+ business
+ or
+
+
+serve
+ their
+ users.
+ And
+ the
+ result
+ is
+
+
+strategic
+ incoherence
+ driving
+ financial
+
+
+desperation
+ driving
+ illegal
+ shortcuts.
+
+
+This
+ is
+ not
+ a
+ story
+ about
+ one
+ company
+
+
+making
+ bad
+ bets.
+ It's
+ a
+ story
+ about
+ what
+
+
+happens
+ when
+ you
+ lose
+ sight
+ of
+ the
+
+
+fundamental
+ question
+ every
+ business
+
+
+should
+ be
+ able
+ to
+ answer,
+ "What
+ problem
+
+
+are
+ we
+ solving
+ and
+ for
+ whom?"
+ Meta
+ used
+
+
+to
+ know
+ the
+ answer.
+ Facebook
+ solved
+
+
+exactly
+ a
+ specific
+ use
+ case.
+ So
+ did
+
+
+Instagram,
+ so
+ did
+ WhatsApp,
+ but
+
+
+somewhere
+ along
+ the
+ way
+ they
+ started
+
+
+chasing
+ vision
+ instead
+ of
+ solving
+
+
+problems.
+ The
+ metaverse
+ was
+ a
+ vision,
+
+
+general
+ purpose
+ AI
+ is
+ a
+ vision
+ now.
+
+
+Visions
+ are
+ great
+ for
+ fundraising
+ and
+
+
+headlines,
+ but
+ they
+ don't
+ become
+
+
+sustainable
+ businesses
+ unless
+ they're
+
+
+grounded
+ in
+ real
+ user
+ needs.
+ And
+ when
+
+
+you
+ spend
+ 80
+ billion
+ dollars
+ on
+ legless
+
+
+avatars,
+ 100
+ billion
+ dollars
+ on
+ AI
+
+
+models
+ nobody
+ really
+ can
+ run,
+ and
+
+
+another
+ 115
+ billion
+ dollars
+ on
+ systems
+
+
+that
+ perform
+ worse
+ than
+ competitors,
+ all
+
+
+while
+ pirating
+ training
+ data,
+
+
+surveilling
+ employees,
+ and
+ using
+
+
+Enron-style
+ accounting
+ to
+ hide
+ debt,
+ you
+
+
+are
+ not
+ really
+ building
+ the
+ future.
+
+
+You're
+ just
+ burning
+ money
+ in
+
+
+increasingly
+ desperate
+ ways
+ while
+ the
+
+
+actual
+ business
+ withers.
+ I'm
+ developing
+
+
+a
+ course
+ in
+ two
+ tiers
+ for
+ non-technical
+
+
+professionals
+ where
+ AI
+ is
+ explained
+
+
+simply,
+ breaking
+ down
+ what
+ AI
+ actually
+
+
+is,
+ what
+ it's
+ good
+ for,
+ and
+ how
+ to
+ think
+
+
+about
+ it
+ strategically
+ instead
+ of
+
+
+getting
+ caught
+ up
+ in
+ all
+ of
+ the
+ hype.
+ If
+
+
+you'd
+ like
+ to
+ take
+ two
+ minutes
+ to
+ answer
+
+
+some
+ questions
+ which
+ directly
+ shape
+ what
+
+
+the
+ course
+ covers,
+ the
+ link
+ is
+ down
+
+
+below.
+ And
+ if
+ you
+ want
+ to
+ understand
+
+
+more
+ about
+ how
+ the
+ AI
+ industry
+ actually
+
+
+works,
+ the
+ infrastructure,
+ the
+
+
+economics,
+ the
+ strategic
+ choices
+
+
+companies
+ are
+ making,
+ check
+ out
+ the
+
+
+video
+ on
+ your
+ screen
+ right
+ now
+ on
+ why
+
+
+AI's
+ next
+ wave
+ depends
+ on
+ sensor
+
+
+infrastructure,
+ not
+ just
+ better
+ models.
+
+
+It
+ digs
+ into
+ why
+ real-world
+ data
+ beats
+
+
+simulation
+ every
+ time,
+ and
+ it
+ connects
+
+
+directly
+ to
+ what
+ we
+ just
+ talked
+ about
+
+
+with
+ Meta
+ trying
+ to
+ simulate
+ their
+ way
+
+
+to
+ success.
+ The
+ link
+ is
+ down
+ below.
+
+
+Thank
+ you
+ so
+ much
+ for
+ watching.
+
+
+Subscribe,
+ and
+ I'll
+ see
+ you
+ all
+ on
+ the
+
+
+next
+ one.
