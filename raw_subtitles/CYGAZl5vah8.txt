@@ -1,0 +1,3978 @@
+Over
+ the
+ past
+ year,
+ something
+
+
+extraordinary
+ has
+ been
+ unfolding
+ across
+
+
+the
+ United
+ States.
+ Communities
+ from
+
+
+Georgia
+ to
+ Maryland
+ to
+ Michigan
+ have
+
+
+been
+ discovering,
+ often
+ by
+ accident,
+
+
+that
+ data
+ centers
+ built
+ near
+ their
+ homes
+
+
+are
+ extracting
+ water,
+ electricity,
+ and
+
+
+money
+ at
+ scales
+ nobody
+ approved,
+ nobody
+
+
+metered,
+ and
+ in
+ some
+ cases
+ nobody
+ even
+
+
+knew
+ about.
+ More
+ than
+ 140
+ local
+ groups
+
+
+have
+ blocked
+ or
+ delayed
+ over
+ $60
+ billion
+
+
+in
+ data
+ center
+ projects
+ in
+ just
+ one
+
+
+year.
+ At
+ least
+ 12
+ US
+ states
+ have
+ filed
+
+
+moratorium
+ bills
+ this
+ legislative
+ cycle.
+
+
+Towns
+ are
+ ousting
+ their
+ city
+ councils.
+
+
+Residents
+ are
+ filing
+ FOAS.
+ People
+ are
+
+
+angry
+ and
+ I
+ understand
+ why.
+ I'm
+ Mel.
+ I
+
+
+have
+ a
+ PhD
+ in
+ computer
+ science
+ and
+ I
+
+
+analyze
+ AI
+ developments
+ to
+ understand
+
+
+what
+ is
+ actually
+ happening
+ beneath
+ all
+
+
+of
+ this
+ hype.
+ But
+ before
+ I
+ go
+ any
+
+
+further,
+ I
+ want
+ to
+ be
+ very
+ clear
+ about
+
+
+what
+ this
+ video
+ is
+ and
+ what
+ it
+ isn't.
+
+
+This
+ is
+ not
+ about
+ whether
+ AI
+ is
+ a
+ force
+
+
+for
+ good
+ or
+ a
+ force
+ for
+ evil.
+ That
+ is
+ a
+
+
+generally
+ complex
+ conversation
+ that
+
+
+deserves
+ its
+ own
+ dedicated
+ space
+ and
+ I'm
+
+
+going
+ to
+ make
+ that
+ video
+ as
+ well
+ where
+
+
+all
+ of
+ you
+ can
+ share
+ your
+ opinions
+ and
+ I
+
+
+will
+ share
+ mine.
+ But
+ today
+ is
+ not
+ that
+
+
+day.
+ Today
+ is
+ about
+ something
+ more
+
+
+immediate
+ and
+ more
+ concrete.
+ Data
+
+
+centers
+ are
+ being
+ built
+ right
+ now
+ at
+
+
+unprecedented
+ speed
+ and
+ scale
+ that
+ is
+
+
+already
+ happening.
+ Whether
+ you
+ think
+ AI
+
+
+is
+ brilliant,
+ terrifying,
+ or
+ somewhere
+
+
+in
+ between
+ or
+ stupid,
+ the
+ physical
+
+
+infrastructure
+ supporting
+ it
+ is
+ landing
+
+
+in
+ real
+ communities,
+ consuming
+ real
+
+
+resources,
+ and
+ generating
+ real
+
+
+consequences.
+ So,
+ let's
+ just
+ talk
+ about
+
+
+that
+ honestly
+ and
+ maturely.
+ In
+ this
+
+
+video,
+ I'm
+ going
+ to
+ walk
+ through
+ three
+
+
+cases
+ that
+ are
+ presently
+ ongoing
+
+
+involving
+ water,
+ sound,
+ and
+ money.
+ I'll
+
+
+draw
+ some
+ historical
+ parallels
+ that
+
+
+might
+ feel
+ uncomfortably
+ familiar
+ and
+
+
+I'll
+ look
+ at
+ how
+ other
+ countries
+ are
+
+
+handling
+ the
+ same
+ challenge
+ because
+ it
+
+
+turns
+ out
+ it
+ doesn't
+ have
+ to
+ be
+ this
+
+
+way.
+ Let's
+ start
+ with
+ what
+ data
+ centers
+
+
+actually
+ are
+ very
+ quickly
+ because
+ this
+
+
+matters
+ for
+ what
+ comes
+ next.
+ A
+ data
+
+
+center
+ is
+ at
+ its
+ simplest
+ a
+ building
+
+
+full
+ of
+ computers.
+ They
+ have
+ existed
+ for
+
+
+decades.
+ Every
+ time
+ you
+ check
+ your
+ bank
+
+
+balance,
+ stream
+ a
+ show
+ on
+ Netflix,
+ back
+
+
+up
+ your
+ photos
+ to
+ the
+ cloud,
+ or
+ send
+ an
+
+
+email,
+ you
+ are
+ using
+ a
+ data
+ center.
+
+
+They're
+ nothing
+ new.
+ They're
+ not
+
+
+inherently
+ sinister.
+ They
+ are
+
+
+infrastructure
+ the
+ same
+ way
+ a
+ power
+
+
+station
+ or
+ a
+ water
+ treatment
+ plant
+ is
+
+
+infrastructure.
+ What
+ is
+ new
+ now
+ is
+ the
+
+
+scale.
+ AI
+ workloads
+ training
+ large
+
+
+language
+ models
+ running
+ inference
+ at
+
+
+scale
+ are
+ extraordinarily
+
+
+computationally
+ intensive.
+ A
+ single
+
+
+modern
+ AI
+ GPU
+ consumes
+ up
+ to
+ 3.7
+
+
+megawatt
+ hours
+ of
+ power
+ annually.
+ To
+ put
+
+
+that
+ into
+ perspective,
+ the
+ average
+
+
+American
+ household
+ uses
+ about
+ 10.5
+
+
+megawatt
+ hours
+ per
+ year.
+ So,
+ one
+ chip,
+
+
+roughly
+ the
+ size
+ of
+ your
+ hand,
+ consumes
+
+
+about
+ a
+ third
+ of
+ what
+ an
+ entire
+ home
+
+
+uses
+ in
+ a
+ year.
+ And
+ data
+ centers
+ stack
+
+
+thousands
+ of
+ these
+ into
+ server
+ racks
+
+
+that
+ generate
+ enormous
+ amounts
+ of
+ heat.
+
+
+That
+ heat
+ needs
+ cooling,
+ and
+ cooling
+
+
+accounts
+ for
+ nearly
+ 40%
+ of
+ a
+ data
+ cent's
+
+
+total
+ power
+ consumption.
+ The
+ result
+ is
+
+
+facilities
+ that
+ consume
+ water,
+
+
+electricity,
+ and
+ physical
+ space
+ at
+
+
+industrial
+ scales.
+ Except
+ they're
+ often
+
+
+being
+ built
+ in
+ places
+ designed
+ for
+
+
+residential
+ life.
+ And
+ that's
+ where
+ the
+
+
+problems
+ start.
+ Not
+ because
+ of
+ what's
+
+
+running
+ inside
+ the
+ building,
+ but
+ because
+
+
+nobody
+ built
+ the
+ rules
+ for
+ what
+ happens
+
+
+when
+ the
+ building
+ gets
+ this
+ big
+ this
+
+
+quickly.
+ Let's
+ talk
+ about
+ the
+ first
+
+
+case.
+ Water.
+ In
+ Fet
+ County,
+ Georgia,
+
+
+just
+ south
+ of
+ Atlanta,
+ something
+ absurd
+
+
+is
+ happening.
+ Residents
+ of
+ an
+ upscale
+
+
+subdivision
+ started
+ noticing
+ their
+ water
+
+
+pressure
+ was
+ unusually
+ low.
+ The
+ county
+
+
+investigated
+ and
+ found
+ the
+ cost.
+ A
+ 615
+
+
+acre
+ data
+ center
+ campus
+ operated
+ by
+
+
+Quality
+ Technology
+ Services,
+ QTS,
+ a
+
+
+subsidiary
+ of
+ Blackstone,
+ one
+ of
+ the
+
+
+world's
+ largest
+ private
+ equity
+ firms,
+
+
+had
+ been
+ drawing
+ roughly
+ 29
+ million
+
+
+gallons
+ of
+ water
+ through
+ two
+ connections
+
+
+the
+ county
+ didn't
+ even
+ know
+ existed.
+ One
+
+
+hookup
+ had
+ been
+ installed
+ without
+ the
+
+
+utilities
+ knowledge.
+ The
+ other
+ wasn't
+
+
+linked
+ to
+ a
+ billing
+ account.
+ Let
+ me
+ say
+
+
+that
+ again.
+ A
+ subsidiary
+ of
+ a
+ company
+
+
+managing
+ over
+ $1
+ trillion
+ in
+ assets
+
+
+installed
+ an
+ industrial
+ water
+ connection
+
+
+without
+ telling
+ the
+ county
+ and
+ nobody
+
+
+noticed.
+ 29
+ million
+ gallons,
+ for
+
+
+context,
+ is
+ equivalent
+ to
+ 44
+ Olympic
+
+
+size
+ swimming
+ pools
+ and
+ far
+ exceeded
+ the
+
+
+peak
+ water
+ usage
+ QTS
+ had
+ agreed
+ to
+ when
+
+
+they
+ got
+ planning
+ approval.
+ The
+ county
+
+
+eventually
+ build
+ QTS
+ $147,000
+
+
+US
+ in
+ retroactive
+ charges.
+ No
+ fine,
+ no
+
+
+penalty,
+ no
+ consequences
+ beyond
+ a
+
+
+backdated
+ invoice.
+ The
+ water
+ system
+
+
+director,
+ Vanessa
+ Tigert,
+ explained
+ the
+
+
+decision
+ was
+ a
+ sentence
+ so
+ extraordinary
+
+
+it
+ deserves
+ to
+ be
+ framed.
+ They're
+ our
+
+
+largest
+ customer
+ and
+ we
+ have
+ to
+ be
+
+
+partners.
+ It's
+ called
+ customer
+ service.
+
+
+Customer
+ service
+ for
+ unauthorized
+
+
+industrial
+ water
+ extraction
+ during
+ a
+
+
+drought.
+ Because
+ here's
+ the
+ thing
+ nobody
+
+
+was
+ meant
+ to
+ find
+ out.
+ While
+ QTS
+ was
+
+
+draining
+ the
+ supply
+ unmetered,
+ the
+
+
+county
+ was
+ telling
+ residents
+ to
+ stop
+
+
+watering
+ their
+ lawns
+ to
+ conserve
+ water.
+
+
+The
+ county
+ literally
+ leaned
+ on
+
+
+individual
+ homeowners
+ to
+ cut
+ back
+ their
+
+
+consumption
+ while
+ its
+ single
+ largest
+
+
+consumer
+ was
+ operating
+ off
+ the
+ books.
+
+
+The
+ only
+ reason
+ any
+ of
+ this
+ became
+
+
+public
+ is
+ that
+ a
+ local
+ resident,
+ James
+
+
+Clifton,
+ an
+ attorney
+ now
+ running
+ for
+
+
+county
+ commissioner,
+ obtained
+ the
+
+
+utilities
+ letter
+ to
+ QTS
+ through
+ a
+ public
+
+
+records
+ request
+ and
+ posted
+ it
+ on
+
+
+Facebook.
+ The
+ county
+ was
+ not
+ going
+ to
+
+
+volunteer
+ this
+ information.
+ It
+ took
+ FOIA
+
+
+and
+ social
+ media
+ to
+ surface
+ what
+ was
+
+
+happening
+ and
+ the
+ infrastructure
+ gap
+
+
+that
+ allowed
+ it.
+ Tiger
+ herself
+ explained
+
+
+it.
+ Fet
+ County
+ is
+ a
+ suburb.
+ It's
+ mostly
+
+
+residential
+ and
+ we
+ don't
+ have
+ much
+
+
+commercial
+ meters
+ in
+ our
+ system.
+ Anyway,
+
+
+her
+ department
+ has
+ a
+ single
+ employee
+
+
+handling
+ both
+ inspection
+ and
+ plan
+
+
+reviews,
+ one
+ person
+ for
+ a
+ facility
+ the
+
+
+size
+ of
+ 51
+ Walmart
+ Super
+ Centers.
+
+
+Georgia
+ is
+ currently
+ experiencing
+
+
+moderate
+ to
+ severe
+ drought.
+ Governor
+
+
+Brian
+ Kemp
+ declared
+ a
+ state
+ of
+ emergency
+
+
+last
+ month
+ over
+ wildfires.
+ The
+ state
+
+
+hosts
+ more
+ than
+ 200
+ data
+ center
+
+
+facilities.
+ The
+ Fiad
+ V
+ City
+ Council
+ has
+
+
+since
+ banned
+ new
+ data
+ centers
+ in
+ every
+
+
+zoning
+ district,
+ but
+ QTS's
+ campus,
+
+
+cenamed
+ Project
+ Excalibur,
+ because
+ even
+
+
+the
+ branding
+ is
+ aspirationally
+ medieval,
+
+
+will
+ continue
+ building
+ for
+ another
+ 3
+ to
+
+
+5
+ years.
+ And
+ in
+ case
+ you're
+ wondering
+
+
+about
+ the
+ broader
+ pattern,
+ QTS
+ and
+
+
+Blackstone
+ are
+ also
+ being
+ sued
+ by
+ their
+
+
+own
+ contract
+ holders
+ at
+ a
+ digital
+
+
+gateway
+ project
+ in
+ Virginia,
+ which
+ sits
+
+
+near
+ Manassa's
+ National
+ Battlefield
+ Park
+
+
+in
+ the
+ headarters
+ of
+ a
+ drinking
+ supply
+
+
+watershed
+ serving
+ up
+ to
+ 2
+ million
+
+
+people.
+ QTS
+ says
+ the
+ 29
+ million
+ gallons
+
+
+were
+ for
+ construction,
+ concrete,
+ dust
+
+
+suppression,
+ site
+ preparation,
+ and
+ that
+
+
+once
+ operational,
+ their
+ cooling
+ will
+ be
+
+
+closed
+ loop
+ and
+ won't
+ draw
+ municipal
+
+
+water.
+ Maybe,
+ but
+ they
+ exceeded
+ their
+
+
+agreed
+ limits
+ and
+ installed
+ a
+ connection
+
+
+nobody
+ authorized.
+ Construction
+ water
+
+
+doesn't
+ exactly
+ explain
+ why
+ you'd
+ need
+ a
+
+
+hookup
+ the
+ counter
+ doesn't
+ know
+ about.
+
+
+Here's
+ a
+ question
+ for
+ you.
+ What
+ happens
+
+
+when
+ a
+ noise
+ is
+ real
+ but
+ technically
+
+
+doesn't
+ exist.
+ Data
+ centers
+ generate
+
+
+sound
+ in
+ ways
+ that
+ don't
+ play
+ nicely
+
+
+with
+ existing
+ regulations.
+ The
+
+
+Environmental
+ and
+ Energy
+ Study
+ Institute
+
+
+reports
+ that
+ the
+ high
+ and
+ low
+ frequency
+
+
+sounds
+ emitted
+ by
+ these
+ facilities
+ can
+
+
+reach
+ 96
+ dB,
+ roughly
+ as
+ loud
+ as
+ a
+ lawn
+
+
+mower
+ at
+ your
+ ear
+ 24
+ hours
+ a
+ day,
+ 7
+ days
+
+
+a
+ week.
+ The
+ sources
+ are
+ varied
+ and
+
+
+relentless.
+ Industrial
+ cooling
+ fans
+
+
+deployed
+ at
+ enormous
+ scale,
+ backup
+
+
+diesel
+ generators
+ that
+ can
+ hit
+ 105
+ dB
+
+
+louder
+ than
+ a
+ snowmobile,
+ and
+
+
+increasingly
+ on-site
+ natural
+ gas
+
+
+turbines.
+ These
+ are
+ essentially
+ jet
+
+
+engines
+ bolted
+ to
+ the
+ floor
+ running
+
+
+continuously
+ to
+ generate
+ power
+ for
+
+
+facilities
+ that
+ have
+ decided
+ the
+
+
+electrical
+ grid
+ isn't
+ reliable
+ enough.
+
+
+Elon
+ Musk's
+ Colossal
+ Supercomput
+ in
+
+
+Memphis
+ reportedly
+ ran
+ over
+ 30
+ mobile
+
+
+gas
+ turbines.
+ Picture
+ an
+ airport,
+ but
+
+
+the
+ flights
+ never
+ stop
+ and
+ nobody
+ chose
+
+
+to
+ live
+ near
+ the
+ runway.
+ But
+ it
+ gets
+
+
+more
+ unsettling.
+ Residents
+ near
+ data
+
+
+centers
+ are
+ increasingly
+ reporting
+ a
+
+
+phenomenon
+ called
+ infrasound.
+
+
+frequencies
+ so
+ low
+ they're
+ inaudible
+ to
+
+
+the
+ human
+ ear
+ but
+ can
+ be
+ physically
+
+
+felt.
+ People
+ describe
+ headaches,
+
+
+insomnia,
+ nausea,
+ anxiety,
+ and
+ vertigo.
+
+
+And
+ here's
+ the
+ regulatory
+ problem.
+
+
+Standard
+ decibel
+ meters,
+ the
+ kind
+ used
+
+
+to
+ enforce
+ noise
+ ordinances,
+ don't
+
+
+capture
+ infrasound.
+ The
+ measurement
+
+
+tools
+ themselves
+ are
+ not
+ designed
+ for
+
+
+this
+ frequency
+ range.
+ So
+ when
+ residents
+
+
+complain
+ and
+ the
+ county
+ sends
+ somebody
+
+
+to
+ check,
+ the
+ reading
+ comes
+ back
+ with
+ an
+
+
+acceptable
+ limit.
+ The
+ sound
+ is
+ there.
+
+
+The
+ bodies
+ register
+ it.
+ The
+ meter
+
+
+doesn't.
+ This
+ is
+ a
+ pattern
+ worth
+ paying
+
+
+attention
+ to.
+ Harms
+ that
+ are
+ real
+ but
+
+
+structurally
+ invisible
+ to
+ the
+ tools
+ we
+
+
+use
+ to
+ measure
+ them.
+ Water
+ that
+ flows
+
+
+through
+ connections
+ nobody
+ metered.
+
+
+Sound
+ that
+ registers
+ in
+ your
+ body
+ but
+
+
+not
+ on
+ the
+ equipment
+ designed
+ to
+ detect
+
+
+it.
+ We'll
+ see
+ it
+ again
+ in
+ a
+ moment
+ with
+
+
+electricity
+ costs.
+ And
+ unlike
+ backup
+
+
+generators
+ which
+ run
+ occasionally
+ during
+
+
+power
+ outages,
+ many
+ of
+ these
+ noise
+
+
+sources,
+ the
+ cooling
+ systems,
+ the
+
+
+on-site
+ turbines
+ operate
+ continuously
+
+
+all
+ the
+ time.
+ There
+ is
+ no
+ quiet
+ period.
+
+
+There
+ is
+ no
+ respit.
+ The
+ neighborhood
+ as
+
+
+these
+ people
+ knew
+ it
+ simply
+ ceases
+ to
+
+
+exist
+ once
+ the
+ facility
+ goes
+ online.
+
+
+Which
+ brings
+ us
+ to
+ case
+ number
+ three,
+
+
+money.
+ If
+ the
+ Georgia
+ water
+ case
+ feels
+
+
+like
+ something
+ you
+ can
+ touch
+ in
+ the
+
+
+infrasound
+ case,
+ feels
+ like
+ something
+
+
+you
+ can
+ almost
+ but
+ not
+ quite
+ hear,
+ the
+
+
+Maryland
+ case
+ is
+ the
+ version
+ that
+
+
+arrives
+ silently
+ in
+ your
+ electricity
+
+
+bill
+ and
+ stays
+ there
+ forever.
+ The
+
+
+Maryland
+ Office
+ of
+ People's
+ Council,
+ the
+
+
+state
+ agency
+ that
+ represents
+ utility
+
+
+consumers,
+ filed
+ a
+ complaint
+ before
+ the
+
+
+Federal
+ Energy
+ Regulatory
+ Commission
+
+
+against
+ PJM
+ Interconnection,
+ the
+ largest
+
+
+grid
+ operator
+ in
+ the
+ United
+ States.
+ PJM
+
+
+spent
+ $22
+ billion
+ upgrading
+ its
+ grid
+ to
+
+
+accommodate
+ surging
+ demand
+ from
+ data
+
+
+centers
+ and
+ is
+ billing
+ Maryland
+ $2
+
+
+billion
+ of
+ that
+ total.
+ The
+ catch,
+ and
+
+
+it's
+ a
+ spectacular
+ catch,
+ is
+ that
+ the
+
+
+majority
+ of
+ data
+ centers
+ driving
+ the
+
+
+demand
+ are
+ not
+ even
+ in
+ Maryland.
+ The
+
+
+state
+ is
+ being
+ charged
+ for
+
+
+infrastructure
+ that
+ primarily
+ serves
+
+
+facilities
+ in
+ other
+ states.
+ According
+ to
+
+
+the
+ OPC's
+ filings,
+ this
+ will
+ cost
+
+
+Maryland
+ consumers
+ an
+ extra
+ $1.6
+ 6
+
+
+billion
+ over
+ the
+ next
+ decade.
+
+
+Approximately
+ $345
+ per
+ residential
+
+
+customer,
+ $673
+
+
+per
+ commercial
+ customer,
+ and
+ over
+
+
+$15,000
+ per
+ industrial
+ customer.
+ And
+
+
+those
+ are
+ not
+ one-off
+ charges.
+ They
+ are
+
+
+baked
+ into
+ the
+ rate
+ structure.
+ They
+
+
+become
+ permanent
+ features
+ of
+ every
+
+
+single
+ electricity
+ bill.
+ To
+ appreciate
+
+
+how
+ quickly
+ this
+ escalated,
+ PJM's
+
+
+capacity
+ auction
+ costs
+ jumped
+ from
+
+
+roughly
+ $2
+ billion
+ to
+ nearly
+ $15
+ billion
+
+
+in
+ a
+ single
+ year,
+ driven
+ almost
+ entirely
+
+
+by
+ existing
+ and
+ projected
+ data
+ center
+
+
+demand.
+ The
+ most
+ recent
+ auction
+ hit
+ over
+
+
+$16
+ billion.
+ An
+ analysis
+ from
+ the
+
+
+independent
+ market
+ monitor
+ confirmed
+ the
+
+
+hike
+ stemmed
+ almost
+ entirely
+ from
+ data
+
+
+center
+ loads.
+ So
+ here's
+ the
+ picture.
+
+
+Residents
+ who
+ have
+ no
+ connection
+ to
+ the
+
+
+data
+ center
+ industry,
+ who
+ derived
+ no
+
+
+benefit
+ from
+ it
+ whatsoever,
+ who
+ never
+
+
+voted
+ for
+ it,
+ find
+ an
+ additional
+ charge
+
+
+on
+ their
+ electricity
+ bill,
+ funding
+ grid
+
+
+upgrades
+ for
+ facilities
+ that
+ operate
+ in
+
+
+other
+ states
+ and
+ serve
+ corporate
+
+
+customers.
+ This
+ is
+ not
+ policy
+ failure.
+
+
+That
+ is
+ a
+ cost
+ structure
+ designed
+ so
+
+
+that
+ the
+ people
+ consuming
+ the
+ resources
+
+
+don't
+ have
+ to
+ pay
+ for
+ the
+ infrastructure
+
+
+those
+ resources
+ require.
+ If
+ any
+ of
+ this
+
+
+feels
+ familiar,
+ it
+ should.
+ The
+ pattern
+
+
+industrial
+ scale
+ resource
+ extraction
+
+
+harms
+ invisible
+ to
+ the
+ measurement
+ tools
+
+
+of
+ the
+ era.
+ Corporate
+ entities
+ operating
+
+
+inside
+ regulatory
+ systems
+ that
+ lack
+ the
+
+
+capacity
+ to
+ see
+ what's
+ happening.
+ Cost
+
+
+distributed
+ to
+ the
+ public
+ while
+ profits
+
+
+acrew
+ privately
+ and
+ discovery
+ that
+ only
+
+
+happens
+ when
+ a
+ citizen
+ decides
+ to
+
+
+investigate.
+ This
+ is
+ not
+ a
+ new
+ thing.
+ It
+
+
+has
+ a
+ long
+ and
+ wellocumented
+ history.
+ In
+
+
+the
+ 1990s,
+ Aaron
+ Brockawish,
+ a
+ legal
+
+
+clerk
+ with
+ no
+ formal
+ training,
+ uncovered
+
+
+that
+ Pacific
+ Gas
+ and
+ Electric,
+ has
+ been
+
+
+contaminating
+ the
+ groundwater
+ in
+
+
+Hinckley,
+ California
+ with
+ hexa
+ veilent
+
+
+chromium
+ for
+ over
+ 26
+ years.
+ PG&E
+ knew
+
+
+the
+ regulators
+ didn't.
+ Residents
+ were
+
+
+getting
+ sick
+ without
+ understanding
+ why
+ a
+
+
+$333
+ million
+ settlement
+ followed,
+ but
+
+
+only
+ because
+ one
+ person
+ refused
+ to
+
+
+accept
+ the
+ official
+ story.
+ Just
+ replace
+
+
+hexavailing
+ chromium
+ with
+ 29
+ million
+
+
+gallons
+ of
+ unmetered
+ water
+ and
+ Hinckley
+
+
+with
+ Fyet
+ County
+ and
+ the
+ structure
+ is
+
+
+identical.
+ Dupon's
+ PFAS
+ contamination
+ in
+
+
+West
+ Virginia
+ followed
+ the
+ same
+ logic.
+
+
+The
+ company
+ knowingly
+ discharged
+
+
+synthetic
+ chemicals
+ into
+ water
+ supplies
+
+
+for
+ decades.
+ Their
+ own
+ internal
+ research
+
+
+showed
+ the
+ health
+ risks.
+ The
+ surrounding
+
+
+community
+ had
+ no
+ idea
+ and
+ the
+ regulatory
+
+
+apparatus
+ was
+ not
+ designed
+ to
+ detect
+
+
+what
+ was
+ being
+ released.
+ The
+ harm
+ was
+
+
+invisible
+ right
+ up
+ until
+ the
+ moment
+ that
+
+
+it
+ wasn't.
+ And
+ then
+ there's
+ the
+ opioid
+
+
+crisis.
+ Purdue
+ Pharma
+ distributed
+
+
+Oxycontton
+ through
+ a
+ health
+ care
+ system
+
+
+where
+ individual
+ prescriptions
+ looked
+
+
+perfectly
+ reasonable,
+ totally
+ legit.
+ No
+
+
+single
+ doctor,
+ no
+ single
+ pharmacy
+ could
+
+
+see
+ the
+ aggregate
+ pattern.
+ The
+ systemic
+
+
+harm
+ only
+ became
+ visible
+ at
+ scale.
+ And
+
+
+by
+ the
+ time
+ anyone
+ mapped
+ the
+ full
+
+
+picture,
+ the
+ damage
+ was
+ catastrophic.
+
+
+That
+ is
+ uncomfortably
+ close
+ to
+ what's
+
+
+happening
+ with
+ data
+ centers
+ resource
+
+
+extraction.
+ Each
+ individual
+ facility
+
+
+clears
+ its
+ permits.
+ Each
+ individual
+
+
+connection
+ looks
+ manageable.
+ And
+ nobody
+
+
+is
+ tracking
+ the
+ total
+ demand
+ across
+ a
+
+
+region
+ until
+ the
+ water
+ pressure
+ drops
+ or
+
+
+the
+ electricity
+ bill
+ arrives.
+ These
+ are
+
+
+not
+ perfect
+ analogies.
+ I'm
+ well
+ aware
+ of
+
+
+that.
+ Nobody's
+ dying
+ from
+ unmetered
+
+
+water
+ hookups.
+ But
+ the
+ mechanism
+
+
+extraction
+ through
+ systems
+ that
+ lack
+ the
+
+
+capacity
+ to
+ see
+ the
+ aggregate
+ harm
+ with
+
+
+cost
+ silently
+ transferred
+ to
+ the
+ public
+
+
+is
+ the
+ same
+ playbook.
+ And
+ recognizing
+
+
+the
+ playbook
+ matters
+ because
+ it
+ tells
+
+
+you
+ what
+ kind
+ of
+ solution
+ is
+ needed.
+
+
+Now,
+ here's
+ where
+ I
+ want
+ to
+ redirect
+ the
+
+
+conversation
+ because
+ it's
+ tempting
+ at
+
+
+this
+ point
+ to
+ throw
+ your
+ hands
+ up
+ in
+ the
+
+
+air
+ and
+ say,
+ "Well,
+ just
+ stop
+ building
+
+
+them."
+ But
+ data
+ centers
+ are
+ not
+ going
+
+
+away.
+ They
+ support
+ critical
+
+
+infrastructure
+ that
+ everybody
+ relies
+ on.
+
+
+The
+ question
+ isn't
+ whether
+ they
+ should
+
+
+exist.
+ The
+ question
+ is
+ whether
+ there
+ is
+
+
+a
+ framework
+ to
+ ensure
+ they
+ don't
+
+
+steamroll
+ the
+ communities
+ they
+ land
+ in.
+
+
+And
+ it
+ turns
+ out
+ other
+ countries
+ have
+
+
+already
+ started
+ building
+ that
+ framework.
+
+
+Ireland
+ is
+ a
+ very
+ interesting
+ case
+
+
+study.
+ Data
+ centers
+ consume
+ 22%
+ of
+
+
+Ireland's
+ total
+ metered
+ electricity,
+ up
+
+
+from
+ 5%
+ in
+ 2015
+ with
+ projections
+ that
+
+
+this
+ rises
+ to
+ roughly
+ a
+ third
+ by
+ 2026.
+
+
+In
+ the
+ Dublin
+ and
+ Math
+ region
+
+
+specifically,
+ data
+ centers
+ account
+ for
+
+
+about
+ 50%
+ of
+ electricity
+ consumption.
+ So
+
+
+the
+ scale
+ of
+ the
+ challenge
+ is
+ comparable
+
+
+to
+ or
+ arguably
+ worse
+ than
+ anything
+
+
+happening
+ in
+ the
+ United
+ States.
+ Dublin
+
+
+effectively
+ had
+ a
+ moratorum
+ on
+ new
+ data
+
+
+center
+ connections
+ for
+ 5
+ years
+ from
+ 2021
+
+
+to
+ late
+ 2025.
+ But
+ here
+ is
+ where
+ it
+
+
+diverges.
+ When
+ Ireland
+ lifted
+ the
+
+
+moratorum,
+ it
+ didn't
+ just
+ throw
+ the
+
+
+doors
+ open.
+ The
+ Commission
+ for
+
+
+Regulation
+ of
+ Utilities
+ introduced
+ a
+
+
+binding
+ obligation
+ that
+ 80%
+ of
+ data
+
+
+centers
+ annual
+ electricity
+ must
+ come
+
+
+from
+ additional
+ renewable
+ energy
+
+
+generated
+ in
+ Ireland
+ with
+ a
+ six-year
+
+
+glide
+ path.
+ New
+ data
+ centers
+ must
+
+
+generate
+ power
+ back
+ into
+ the
+ national
+
+
+grid.
+ The
+ system
+ operators
+ can
+ reject
+
+
+proposed
+ sites
+ and
+ reduce
+ import
+
+
+capacity
+ if
+ facilities
+ don't
+ meet
+
+
+performance
+ and
+ availability
+ standards.
+
+
+If
+ a
+ data
+ center
+ fails
+ to
+ deliver
+ its
+
+
+required
+ energy
+ services,
+ the
+ grid
+
+
+operator
+ can
+ reduce
+ its
+ import
+ capacity
+
+
+or
+ move
+ it
+ to
+ a
+ non-firm
+ status.
+ There
+
+
+are
+ actual
+ consequences.
+ At
+ the
+ EU
+
+
+level,
+ the
+ regulatory
+ architecture
+ goes
+
+
+even
+ further.
+ The
+ revised
+ energy
+
+
+efficiency
+ directive
+ mandates
+
+
+standardized
+ sustainability
+ reporting
+
+
+for
+ data
+ centers
+ above
+ 500
+ kilowatt
+ hour
+
+
+with
+ annual
+ submissions
+ to
+ a
+ European
+
+
+database.
+ The
+ EU
+ taxonomy
+ regulation
+
+
+classifies
+ data
+ center
+ activities
+ by
+
+
+climate
+ mitigation
+ criteria.
+ The
+ AI
+ act
+
+
+itself
+ includes
+ energy
+ consumption
+
+
+transparency
+ requirements
+ for
+ general
+
+
+purpose
+ AI
+ models.
+ And
+ the
+ European
+
+
+Commission
+ is
+ proposing
+ a
+ data
+ center
+
+
+energy
+ efficiency
+ package
+ aimed
+ at
+
+
+making
+ data
+ centers
+ carbon
+ neutral
+ by
+
+
+2030.
+ Is
+ it
+ perfect?
+ Of
+ course
+ not.
+
+
+Environmental
+ groups
+ in
+ Ireland
+ are
+
+
+challenging
+ the
+ CRU
+ decision
+ in
+ the
+ high
+
+
+court,
+ arguing
+ that
+ the
+ 20%
+
+
+non-renewable
+ allowance
+ plus
+ fossil
+ fuel
+
+
+backup
+ generators
+ still
+ lock
+ the
+ country
+
+
+into
+ emission
+ increases.
+ Ireland's
+ own
+
+
+environmental
+ protection
+ agency
+ projects
+
+
+the
+ state
+ will
+ overshoot
+ its
+ 2026
+ to
+
+
+2030
+ carbon
+ budget
+ by
+ 77
+ to
+ 114
+ million
+
+
+tons.
+ These
+ are
+ legitimate
+ concerns
+ that
+
+
+are
+ being
+ actively
+ debated
+ through
+
+
+democratic
+ and
+ legal
+ processes.
+ But
+
+
+here's
+ what
+ Ireland
+ has.
+ that
+ the
+ United
+
+
+States
+ in
+ many
+ jurisdictions
+ simply
+
+
+doesn't.
+ A
+ framework,
+ mandatory
+
+
+reporting,
+ renewable
+ energy
+ obligations
+
+
+with
+ enforcement
+ mechanisms,
+ grid
+
+
+operator
+ veto
+ power,
+ legal
+ challenge
+
+
+pathways,
+ democratic
+ accountability.
+
+
+When
+ something
+ goes
+ wrong,
+ there
+ is
+ a
+
+
+structure
+ for
+ addressing
+ it.
+ Compare
+
+
+that
+ with
+ Fyet
+ County,
+ Georgia,
+ where
+
+
+one
+ inspector
+ is
+ trying
+ to
+ monitor
+ a
+
+
+Blackstone
+ subsidiary
+ building
+ a
+ campus
+
+
+the
+ size
+ of
+ a
+ small
+ town.
+ And
+ the
+
+
+institutional
+ response
+ to
+ discovering
+
+
+unauthorized
+ water
+ extraction
+ during
+ a
+
+
+drought
+ is
+ basically
+ it's
+ called
+
+
+customer
+ service.
+ The
+ backlash
+ isn't
+
+
+slowing
+ down.
+ It
+ is
+ becoming
+ electoral.
+
+
+In
+ Missouri,
+ a
+ small
+ town
+ ousted
+ half
+
+
+its
+ city
+ council
+ after
+ it
+ approved
+ a
+ $6
+
+
+billion
+ data
+ center.
+ In
+ Michigan,
+ towns
+
+
+rush
+ to
+ block
+ new
+ bills
+ after
+ a
+ $16
+
+
+billion
+ Stargate
+ project
+ was
+ built
+
+
+despite
+ being
+ voted
+ down.
+ In
+ Ohio,
+
+
+organizers
+ are
+ collecting
+ signatures
+ for
+
+
+a
+ statewide
+ ballot
+ initiative
+ to
+ ban
+
+
+data
+ centers
+ requiring
+ more
+ than
+ 25
+
+
+megawatts
+ of
+ power.
+ Seattle
+ just
+
+
+announced
+ an
+ emergency
+ moratorum
+ after
+
+
+five
+ proposed
+ data
+ centers
+ would
+ have
+
+
+demanded
+ 369
+ megawatt
+ from
+ the
+ city
+
+
+grid.
+ Denver,
+ Minneapolis,
+ Durham,
+ the
+
+
+list
+ is
+ growing
+ week
+ by
+ week.
+ And
+ in
+
+
+Virginia,
+ the
+ state
+ that
+ hosts
+ the
+
+
+largest
+ data
+ center
+ cluster
+ in
+ the
+
+
+world,
+ voter
+ support
+ for
+ new
+ data
+
+
+centers
+ has
+ collapsed
+ from
+ 69%
+ in
+ 2023
+
+
+to
+ just
+ 35%
+ now.
+ This
+ is
+ not
+
+
+anti-technology
+ sentiment.
+ It
+ is
+
+
+communities
+ discovering
+ that
+ industrial
+
+
+mega
+ projects
+ were
+ built
+ inside
+ their
+
+
+jurisdictions
+ through
+ governance
+ systems
+
+
+designed
+ for
+ residential
+ oversight
+ and
+
+
+deciding
+ they
+ have
+ just
+ had
+ enough.
+ The
+
+
+anger
+ is
+ real.
+ The
+ grievances
+ are
+
+
+legitimate.
+ And
+ the
+ solutions
+ already
+
+
+exist.
+ They
+ are
+ just
+ deployed
+ in
+ other
+
+
+countries.
+ Data
+ centers
+ will
+ continue
+ to
+
+
+be
+ built.
+ But
+ the
+ question
+ is
+ whether
+
+
+the
+ communities
+ they
+ land
+ in
+ get
+
+
+transparency,
+ accountability,
+ and
+ a
+
+
+genuine
+ seat
+ at
+ the
+ table
+ or
+ whether
+ the
+
+
+next
+ FET
+ county
+ resident
+ has
+ to
+ file
+ an
+
+
+FOIA
+ request
+ just
+ to
+ find
+ out
+ why
+ the
+
+
+water
+ pressure
+ dropped.
+ If
+ you
+ found
+
+
+this
+ video
+ useful,
+ I'd
+ recommend
+
+
+checking
+ my
+ previous
+ video
+ on
+ public
+
+
+sentiment
+ towards
+ AI,
+ which
+ covers
+ the
+
+
+broader
+ context
+ of
+ why
+ resistance
+ to
+
+
+these
+ projects
+ is
+ accelerating
+ across
+
+
+demographics.
+ The
+ link
+ is
+ down
+ below
+ in
+
+
+the
+ description.
+ Thank
+ you
+ so
+ much
+ for
+
+
+watching.
+ Subscribe
+ and
+ I'll
+ see
+ youall
+
+
+on
+ the
+ next
