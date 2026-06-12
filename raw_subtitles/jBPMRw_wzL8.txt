@@ -1,0 +1,1057 @@
+>> The federal government
+recently unveiled its $2 billion
+AI strategy.
+Now it promises new jobs,
+literacy training, a push for
+businesses to scale up.
+Oh, and new data centres.
+>> We'll build sustainably.
+Linking new data centre
+development with expanding clean
+energy and robust environmental
+standards.
+>> Large scale AI data centres,
+to be specific now.
+Mark Carney is clearly in favour
+of them, but what does the
+public think?
+>> Battleford Campbellton.
+>> That was protesters outside
+Hamilton City Hall last week,
+demonstrating against a planned
+data centre.
+Okay, but do they reflect the
+majority of Canadians?
+Well, according to a recent poll
+by Angus Reid, 68% would oppose
+a large AI data centre near
+their home.
+So are they right to push back?
+Well, we look at what's driving
+the opposition and separate fact
+from fiction.
+Welcome to The Rundown.
+There are already an estimated
+100 data centres in Ontario.
+But are they all created equal?
+And is there a risk in adding
+more?
+Kathleen Koth is the chief
+operating officer of Mantle
+Climate.
+Mark Winfield is a professor of
+environmental and urban change
+at York University, and Craig
+Tavares is the president and
+chief operating officer of buzz
+H.
+PC.
+Great to have all three of you
+in our studios.
+Really appreciate it.
+Kathleen, I'm going to start
+with you.
+Help!
+Give me the lay of the land,
+essentially.
+Do we know exactly how many data
+centres already exist in Ontario
+and how many more are in the
+planning stage?
+>> We thank you for.
+It's great to be here.
+And from a lay of the land
+perspective, we actually don't
+have really solid numbers on
+that.
+We know that there's a lot of
+interest in digital
+infrastructure companies
+building here in Ontario and
+more broadly in Canada.
+Our independent electricity
+system operator has very good
+numbers of of how many of that
+how much of that interest is
+serious.
+But we also know that whatever
+is in the pipeline could be much
+higher as well as, as, as this
+plays out.
+And we put we put more of an
+emphasis on building, you know,
+data centres here in Canada.
+>> Are we talking like a handful
+in the pipeline or are we
+talking about tenfold?
+What are we looking at?
+>> We're looking just sort of
+ballpark figures.
+So to put this in perspective,
+Ontario has a current sort of
+peak electrical demand of
+2525GW.
+And what we're seeing is
+probably at a minimum, about
+1.5GW of just data centre
+development happening in the
+next decade.
+That's at a minimum.
+If things play out a little
+differently, it could be as much
+as three gigawatts or more.
+So you're starting to look at a
+pretty big percentage of our
+overall load.
+>> All right, Mark, I think
+there's a when we talk about
+data centres, I think a lot of
+people have this image.
+And I'm hoping you can help
+clarify a little bit.
+What's the big difference
+between the data centres being
+built here in Ontario versus the
+ones that are being built south
+of us, in the US?
+>> Principally one of scale.
+Okay.
+In terms of, of, of how large
+the centres are in the US and
+what's being proposed relative
+to what we're seeing here.
+But we are starting to see very
+large data centre proposals in
+Canada.
+There's there's the largest ones
+are in Alberta and Saskatchewan
+at the moment.
+But there is interest here in
+Ontario as well and in
+surprising places.
+I had people calling me from
+Burk's Falls last week, of all
+places where someone's proposing
+a data centre.
+Okay.
+So so there there we are,
+somewhat behind the curve in
+terms of scale.
+And so the US, this conversation
+has been unfolding for quite a
+while now.
+It's only beginning to land here
+in Canada at this stage.
+>> All right.
+Greg I want to get you in here.
+There's something that as I was
+doing research, I'm learning
+about hyperscalers.
+Is that did I get that right?
+Yes.
+It sounds like a scary villain,
+but help me understand a little
+bit.
+Is that what we're going to be
+seeing here in Ontario?
+>> We.
+Yeah.
+First of all, Hyperscaler are
+the large cloud operators
+Google, Microsoft, Amazon Web
+Services.
+So they predominantly got the
+title Hyperscaler because of the
+size and scale they build at.
+If you roll back the clock, just
+over ten years ago, we were
+building data centres sub 20MW,
+and that was the average size.
+When the hyperscalers came into
+the market, we started at 20,
+went up to 100.
+And then now what we're seeing
+are gigawatt scale facilities.
+So I just yeah, put that in
+context from what a hyperscaler
+is.
+We are seeing hyperscale demand
+in Canada more.
+So now the shift has become what
+does AI need from a compute
+perspective and how do we cater
+to that?
+Just as we build out these large
+systems across the world.
+>> When it comes to what exactly
+is being proposed here in Canada
+and here in Ontario, what
+exactly are the main facilities
+related to you talk about cloud
+service, but is this AI
+training?
+Is this actual applications?
+>> Yeah, it's across the board.
+So again, if you think about the
+context of a data centre,
+traditionally was to host a
+broad set of applications.
+The demand that we hear about
+today has shifted.
+And a hyperscaler can deliver
+traditional services.
+Or it can deliver AI based
+services.
+Buzz high performance computing.
+We actually focus on building AI
+factories.
+So in the context of data
+centres, these are large
+supercomputers for the purpose
+of using AI models and then
+creating innovation, research
+and development.
+We work with academia across the
+board Start-ups businesses, and
+they're integrating models into
+all their daily processes.
+And to support that, again, you
+need a special compute chip.
+It's called a GPU.
+So I think that's the
+delineation to when you think
+about the traditional data
+centres and where we are now,
+traditional data centres use
+CPUs and they were built at
+scale.
+Again, there were broad
+facilities that definitely took
+a lot of land and space.
+The GPU, though more dense, we
+build them around more efficient
+systems, so we use special
+cooling techniques.
+One of the misconceptions is
+sometimes water usage, which we
+use.
+>> Which we'll.
+>> Get into.
+Yes, yes.
+>> All right.
+Kathleen, does that sound pretty
+accurate in terms of what we're
+sort of seeing, what the
+applications are here as well?
+>> I don't know if this is as
+entertaining, but unfortunately
+I'm in complete agreement with
+everything that's been said.
+>> All right.
+Mark, you were talking about
+receiving calls Burk's Falls,
+but you actually recently hosted
+a seminar, I believe, at a local
+Toronto community centre about
+the environmental impact of data
+centres and a lot of questions
+and perception as well from the
+crowd about data.
+What kind of questions were you
+fielding?
+>> The big questions are
+principal ones about energy and
+about energy demand and how that
+demand is being met, and what
+the implications may be more
+widely, especially in terms of
+energy transitions, because we
+were anticipating we would see
+for decarbonisation purposes,
+widespread decarbonisation of
+space heating, transportation,
+industrial processes, and we
+expected demand growth and
+electricity for that purpose.
+We're not seeing that.
+We're seeing demand growth in
+electricity principally to serve
+data centres, and we're seeing
+that in the United States as
+well as Canada.
+And the real concern there is
+that load is being served
+overwhelmingly by fossil gas
+fired generation, so very carbon
+intensive here in Ontario.
+We've already been seeing a very
+dramatic increase in the role of
+gas fired generation at the grid
+level anyway.
+So there's a double concern to
+sort of direct impacts in terms
+of emissions to serve these
+loads, but also concerns around
+are we displacing capacity that
+would otherwise be used for
+decarbonisation.
+So that's that's the energy
+piece.
+There's a water piece as well.
+And there's land and and other
+sort of dimensions of this, but
+it's the energy and water pieces
+which are probably got the most
+attention so far.
+>> Well, you talk about Lance.
+So Kathleen, I'm curious, what
+are the factors, whether it's
+here in Ontario or in Canada,
+that go into determining where a
+data centre should be built?
+>> Yeah, first and foremost, it
+comes down to where is there
+power.
+So really over the last two
+years, you know, cloud growth
+and centralised data centres
+have been really a thing and
+growing quite steadily for the
+past 15 to 20 years.
+What's different now is this
+race to have the best AI, the
+large language models
+themselves, as well as enable
+the compute for people to use
+them.
+And that requires so much
+compute and data centre capacity
+that really it's a race to build
+them as quickly as possible.
+And that means power has become
+one of the limiting constraints
+because that's the number one
+input data.
+The data data centre is very
+complex, but they're also
+simple.
+In goes electricity, out comes
+compute whatever, whatever
+application it is.
+And a lot of heat, a lot of
+waste heat.
+That's really the quiet and some
+water for cooling, but that's
+really the equation.
+And so power is just first and
+foremost.
+So the number one thing is where
+can they find power.
+Okay.
+Now it's much deeper than that
+for anybody serious.
+It's is there fibre
+connectivity?
+Is there a community that I can
+start to work with early on?
+Hopefully this is the approach
+to work with them to understand
+what what needs to be true in
+order for this site to be here.
+That's, I think, where we're
+starting to see the conversation
+go.
+But first and foremost starts
+with power.
+And then one other element is
+the type of training, the type
+of compute.
+So Craig was alluding to this
+earlier.
+But if you're going to train new
+language models, you can kind of
+do that almost anywhere.
+You don't need to be as close to
+the user.
+But when you're starting to rely
+on the users to use your
+compute, you're going to want to
+be close to where the users are.
+So we're going to see a big
+push.
+Now that AI is good enough to
+use, we're going to see a big
+push push of data centres being
+close to city centres.
+>> Okay.
+I want to pull up a couple of
+charts from an Angus Reid poll.
+This is about Canadian data
+centres and it was released last
+week.
+Let's have a look at that.
+So as you can see, 46% of
+respondents said that we need
+domestic AI infrastructure to
+ensure digital services stay
+under Canadian control.
+You can see right beside that,
+25% say this is not really a
+concern in a global technology
+economy.
+Then 28% not sure.
+Can't say obviously lots of
+questions there.
+But in response to the question,
+if a large AI data centre was
+proposed within a few blocks of
+where you live, would you
+support or oppose it being built
+there?
+Well, a little bit of a
+different story there.
+More than two thirds of
+respondents, 68% were opposed,
+15 support and 17 not sure,
+can't say.
+So.
+With that being said, Craig, two
+charts.
+A lot of Canadians accept that
+data centres are necessary, but
+vast majority don't necessarily
+want it nearby.
+So where should they be built.
+>> Just to build on what
+Kathleen was saying, it's very
+application dependent, so some
+data centres need to be close to
+city centres.
+Why?
+Because the application demands
+the speed of connectivity to be
+at a certain level or metric.
+So in most cases, and think of
+the internet as that one thing
+that pretty much runs in data
+centres.
+So that that experience that you
+have today, where you go on to
+the internet, you want a page to
+load fast.
+Well, guess what, it's probably
+because the data centre is not
+too far away from you.
+And when you think about what's
+happening in scientific
+research, when you think about
+all the advances in technology,
+if you have an application
+that's real time where maybe
+you're doing diagnostic imaging
+and you want to get a result
+really fast, well, you want that
+short connectivity.
+So again, that's a very
+application based example of
+where you want that data centre
+close to you.
+But the real answer to this is
+yes.
+You want to be very conscious of
+where the data centre goes.
+You don't necessarily want to
+build the biggest data centre in
+a dense urban area.
+So industrial parks are ideal
+for data centres, maybe one hour
+outside of the city centre is
+ideal.
+So you still have good
+proximity, you still have a good
+you know, when you look at speed
+of connectivity, that's there.
+But again, you're not in that
+Neighbourhood.
+>> Do you mind me asking how did
+you decide where to build your
+data centres?
+>> It was a combination of all
+factors, so it was proximity and
+closeness to power.
+It was again looking for an
+industrial area.
+And then also, you know, where
+can I build that?
+Connectivity was again, a big
+factor that the other thing that
+we do too is we we actually look
+for renewable energy.
+So, you know, similar to Mark,
+what was saying, you know, like,
+let's look at the carbon effect
+and, you know, how do we say net
+neutral?
+Well, yeah, again, a big part of
+our philosophy and thesis is,
+yeah, we want to use renewable
+energy sources and participate
+in grid balancing.
+Look for things that we can do
+when we talk about demand
+response systems, which is
+participating in the grid and
+using surplus energy when
+there's surplus energy, but
+being able to create a variable
+load when there's not a whole
+bunch of energy, then maybe you
+could switch to an alternative
+energy source.
+>> Okay, Mark, a lot of a lot of
+headlines about a proposed high
+tech industrial park in Hamilton
+include a data centre that was
+on the land that was once owned
+by Stelco.
+The data centre plan was
+rejected quite recently by city
+officials after opposition and
+protest there do help us
+understand, do Ontario
+municipalities understand what
+data centres are and the
+resources that are required?
+>> That's a good question.
+I think.
+I think there is a process of
+discovery going on, and we are
+seeing expressions of public
+discomfort.
+Some of those are for tangible
+concerns over noise, air
+pollution, other things.
+There are concerns around costs,
+given the experience in the
+United States, in terms of what
+serving these new loads has
+ended up costing inside
+electricity systems.
+And indeed, we've seen utilities
+rejecting proposals for those
+reasons.
+I do think there's another thing
+going on here too, which is that
+that other polling shows
+relatively high levels of
+discomfort with AI, very high
+numbers in terms of desire to
+see regulation 80% plus.
+So I think there is there is
+also a little bit of an agency
+by proxy thing going on here
+that this is this is a this is
+the tangible expression of, of
+the presence of AI.
+And it's a way in a form that
+people feel they do have some
+agency around that they can
+protest, they can go to their
+council and sort of express some
+degree of control.
+So I think that may also be a
+part of the sort of political
+mix that's playing out here.
+There's very real issues around
+energy, water, those kinds of
+things.
+But there is also in the
+background these questions
+around the role of AI and social
+acceptance, which I think play
+into the dynamics of these
+conversations in a locational
+context.
+>> Kathleen.
+>> Yeah, I completely agree.
+But I also think that there's
+this element of this is a new
+industrial load that most folks
+haven't really been that aware
+of.
+Like we said, it's been going on
+for about 15 to 20 years, but
+mostly under the radar right now
+because of the sheer size and
+speed and scale of these things.
+And to your point, the AI, you
+know, discomfort, it's really
+just come on so fast.
+And if you look to in the past,
+other types of industrial
+development in communities, be
+it factories or mines or what
+have you, that social contract
+was built over decades.
+Yes.
+We are going to be extracting
+some things from the local area,
+but here's the things we're
+giving in return a tremendous
+amount of local employment for
+the community, support for
+grassroots programs that are
+meaningful to those communities.
+They're a part of the community.
+And so that social contract was
+built and tested and grown over
+time.
+This is a new type of thing that
+hasn't quite been figured out
+yet.
+That element, and I think that
+we're on the cusp of, of people
+that are building these things
+and trying to host these things.
+There's a great conversation to
+have right in the middle.
+It just needs to start earlier
+in the process.
+>> Communities are not seeing
+the value proposition, okay.
+At a pretty fundamental level.
+>> How much is that on the
+businesses to be a little bit
+more transparent as to what
+exactly they are going to see?
+>> I think there are many, many
+layers to this.
+You know, that this is this is
+in many ways a highly disruptive
+technology.
+And people are very concerned
+about the social, cultural,
+political, employment
+implications.
+I mean, this whole the Pope
+speaking about these kinds of
+questions, you know, those
+things are out there and people
+are not seeing, you know, given
+that they're not seeing the sort
+of value proposition that you
+saw, perhaps when Stelco first
+arrived in Hamilton and
+translates very clearly into
+very high value jobs in the
+community.
+So that, I think, is part of the
+political dynamic as well, that
+you've got a combination of
+misgivings, that you don't see
+clarity on benefits.
+We are seeing evidence in terms
+of costs, in terms of energy
+costs, and there's underlying
+question of what does this do in
+terms of energy transitions,
+given that this load
+overwhelmingly, as I say, is
+being served at the moment by
+fossil gas fired generation,
+either from the grid or, as
+increasingly is happening in the
+United States, the generation is
+moving behind the metre to on
+site, but still overwhelmingly
+gas fired.
+So, so air pollution, greenhouse
+gas implications, noise
+implications, all part of the
+equation.
+>> As you get Greg in first on
+some of this as well.
+>> No, absolutely.
+So yeah, I think we see isolated
+cases in certain areas.
+So it's not a it's not a, you
+know, one, one paint brush to
+coat them all the kind of thing,
+but especially to when you see
+the headlines coming out of the
+US because again, yeah, it has
+been like a massive land grab in
+the US to build these gigawatt
+campuses.
+Canada has been more discrete.
+Again, what we see in Canada is
+actually, and coming from the
+federal level, a mandate, a
+mandate to build sovereign
+infrastructure for Canada.
+And that's super important
+because we're talking about data
+sovereignty.
+We're talking about compute
+sovereignty.
+We're talking about owning our
+own intelligence rather than
+renting it from someone else.
+And we saw this actually happen
+not too long ago when the Russia
+Ukraine war broke out.
+Well, guess what?
+We were dependent on another
+nation for energy.
+They shut off the export of that
+energy in Europe.
+They didn't know how they're
+going to heat their houses in
+winter because they shut off
+that energy export.
+Canada.
+Our price of energy went from $2
+per gigajoule for gas to $12 per
+gigajoule for gas overnight.
+So again, that that independence
+and reliance on foreign entities
+becomes a big issue.
+When you think about GDP growth.
+That's the other effect of it
+now too.
+So, you know, back to what
+Kathleen was saying, we have to
+think of this new economy or AI
+infrastructure as, you know,
+what we're building for the
+future in the next generation.
+Previous generations built
+railways, telecom power
+stations.
+The future generation is
+actually building AI
+infrastructure as critical
+infrastructure now.
+>> All right, I want to talk a
+little bit about regulation
+here.
+Ontario's Protect Ontario by
+Securing Affordable Energy for
+Generations Act is now law and
+will support what they say,
+quote, responsible growth of
+energy intensive industries like
+data centres, and that align
+with Ontario's economic
+priorities and benefit local
+communities.
+Is this a good policy or not,
+when it comes to actually
+regulating the sector, as we've
+talked about, this is something
+that has ramped up over the
+years, has been sort of done
+behind the scenes.
+If we talk about from from
+members of the public, but is
+this good policy or is there
+more that can be done here?
+>> I think the notion of it is
+very, very good.
+What the details of of the
+regulation will be.
+It remains to be seen, but.
+But I think so that's let's
+let's kind of pan out a little
+bit.
+Last week, the federal
+government, Mr. Mark Carney
+released the AI for all
+strategy.
+3 or 4 weeks before that, they
+also released the federal
+electricity policy within a
+month of each other.
+We said we have to double the
+size of Canada's electricity
+grid.
+And oh, by the way, we need to
+build a digital sovereign
+digital infrastructure as well.
+And all of these other things
+related to AI.
+I don't think those two things
+are separate at all.
+And I think that's what you're
+seeing with this regulation here
+in Ontario, is, as we talked
+about earlier, the digital
+infrastructure is also an energy
+story at heart.
+It's an energy and power story.
+How do we collectively build
+regulation and unleash the
+innovation that we have latent
+in Canada to, to, to conquer
+those two strategies together?
+And that will come through some
+of this regulation, hopefully,
+to your point about, you know,
+it, you know, in urban centres
+using a lot of electricity for a
+data centre.
+Well, guess what we talked
+about?
+One of the things coming off of
+that is waste heat.
+If in some of these urban
+environments, you're able to
+leverage some of that waste heat
+to heat nearby mixed use
+residential homes, that's a true
+that's a truly Canadian
+innovation that we can we can
+build.
+>> Mark.
+>> I think a number of things
+are going on in the electricity
+space.
+I think that this has taken
+utilities and government
+somewhat by surprise in terms of
+the pace of growth.
+We see governments giving
+themselves the power to
+arbitrate access to grid supply,
+which is relatively new.
+We generally have had universal
+service mandates, and now we're
+seeing ministers in Quebec and
+Ontario, for example, giving
+themselves the authority to
+basically arbitrate demand.
+I think behind that, there's
+there's there's no analytical
+frame for doing that.
+There is an underlying calculus,
+a realisation, you know, we may
+need to make choices here about
+what what loads are we actually
+going to serve?
+And there's layers of questions
+there in terms of potential
+economic benefit.
+There's also a question on the
+part of utilities how real is
+this?
+I mean, if if we build
+infrastructure, is the demand
+going to actually materialise or
+are we going to end up with
+stranded assets?
+Because there are concerns that
+the sector is is in a financial
+bubble.
+It's hyper capitalised.
+And and it's not clear how that
+is that bubble going to last?
+And what's going to happen if
+the bubble bursts?
+Are we going to be left with
+assets and costs that we we we
+didn't that we now no longer
+have a way of paying for.
+There's another question there
+too, which of course was the the
+electricity strategy, which its
+own conversation started out
+being about decarbonisation.
+And that seems less and less
+part of that.
+And it's more about serving AI
+loads, especially given the
+emphasis on fossil gas.
+>> Does this undermine Canada's
+climate goals?
+>> Well, I think I think the
+concern is, is is this the is
+this the technology that's
+eating the energy transition we
+thought we were going to have?
+And especially given, as I say,
+these loads are being served by
+fossil gas, the electricity
+strategy anticipates expansion
+of fossil gas.
+In fact, says we're going to
+rewrite the clean electricity
+regulations to allow for more
+gas in the system, which does
+tend to suggest that the
+emphasis on decarbonisation is
+pretty much out the window.
+And we're going somewhere else.
+>> I'll get you a quick response
+here, and I've got one question,
+but quickly.
+>> It's of note, though, that
+the large tech companies, the
+cloud companies, hyperscalers we
+talked about while they are
+installing and investing in in
+firm 24 by seven natural gas to
+power for speed to power, that
+we've also seen a breathtaking
+pace of investment in gigawatt
+scale renewables from them,
+paired with long duration energy
+storage for the first time as
+long, as well as lithium ion
+storage.
+We're seeing huge investments in
+nuclear, we're seeing
+geothermal, we're seeing carbon
+capture and storage all being
+invested in by digital
+infrastructure companies.
+It's not to say that it's
+enough, but it is to say that
+there's never been a better
+opportunity to underwrite some
+of the major energy innovation
+we would have needed anyway to
+achieve our our electricity
+strategy.
+>> Craig, I want to pick up on
+something that Mark had said.
+It was about the bubble.
+I think a lot of people will
+have this conversation about,
+you know, when something is
+picking up so much momentum in
+speed, will this bubble burst?
+What happens to existing data
+centres and those in the
+planning stages if this bubble
+bursts or and if there's less
+funding available to build them?
+>> Yeah.
+So the capital intensity around
+these is massive.
+That that is there's no doubt we
+see billion dollar announcements
+happening again on a weekly
+basis.
+The the investment in
+infrastructure, again, is
+twofold.
+One, the data centre itself
+requires a huge amount of
+capital, but the compute
+infrastructure that goes into it
+requires a huge amount of
+capital as well too.
+So, I mean, outside of that,
+really what happens is, you
+know, you have a demand based
+environment and the demand is
+actually being driven about the
+researchers and innovation.
+So, you know, one assumption is,
+well, will research innovation
+ever stop and slow down?
+And I think the answer is no.
+Right.
+We're not we're on a pace right
+now.
+We're on trajectory right now
+where investment in innovation
+is just ramping.
+And AI itself is a perpetual
+motion now, because again, the
+more compute capacity that we
+actually harness is, the more
+this AI goes forward.
+So ultimately, if there was a
+case where again, we didn't
+have, again, the, the data
+centre demand load that we were
+building to right now, I think
+the shift would happen very
+organically where it just go
+from one application to another.
+One thing I want to call out
+too, when you think about
+investment, it's not, again,
+just in the data centre itself.
+You have to think about the all
+the investment going into
+everything around the data
+centre.
+So for example, and Kathleen
+kind of touched on this as well
+too, because, you know, when we
+talk about energy
+infrastructure, we're actually
+working in concert with the
+regulators to say and the
+utilities to say, okay, well, if
+we're going to build something
+somewhere, you know, how do we
+contribute to that capital bill
+that you guys have as well too,
+and build into areas that never
+saw infrastructure growth as
+yet?
+So you're building to new, new
+economies, new neighbourhoods.
+And that, that that comes with
+telecom, that comes with sewers,
+that comes with roads.
+So there is like this by-product
+that happens.
+>> Something that we will
+continue to follow and see.
+Craig, Mark, Kathleen, thank you
+so much.
+I really appreciate your time
+and your insights on this.
+Thank you.
+>> Thanks for having us.
+>> I'm Jeyan.
+Thanks for watching.
+"The Rundown" would you be okay
+with a data centre in your
+neighbourhood?
+If not, why not?
+Let us know.
+Send an email to
+rundown@TVO.org or leave us a
+comment on our YouTube page.
+Until then, I will see you next
+week.
+Coming up on The Rundown.
+>> Mobile health clinics are
+incredibly effective at
+providing the sort of care that
+can keep people out of resorting
+to the emergency department.
+For 37% of the folks who are
+able to be seen, they said that
+actually averted an emergency
+department visit.
+So there's a long standing
+history and evidence base for
+mobile options, which is really
+pushing back against the mantra
+we've had in healthcare is that
+if you build it, people will
+come.
+The reality is, for folks who've
+been marginalised from the
+system, who have obstacles and
+barriers to reach the system,
+you have to go out to where
+people are.
+>> That's coming up on the
+rundown.
