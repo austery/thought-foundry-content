@@ -1,0 +1,328 @@
+My guess is, for many of you,
+[a] drone is a scary concept.
+It might evoke images
+of weapons in Ukraine,
+in the skies over the Middle East,
+where these things are creating
+damage and devastation at a massive scale.
+Ukrainians reported last month [that]
+96 percent of the casualties
+they inflicted on Russian forces
+were done via drone strikes.
+Now this is a terrifying new reality
+on the battlefield.
+It's also one that we can't afford
+to ignore in the West.
+But I want to use my time today
+to talk about an entirely different
+kind of drone use,
+much closer to home,
+that's already having life-saving impact.
+And I think the best way to understand it
+is just to show it to you.
+So I'm going to demonstrate
+the robotics technology
+live here on stage,
+sort of.
+So we are over here
+in Vancouver.
+Hi, TED.
+But I am connected to a drone in Tokyo.
+I’m going to click the launch button --
+this is all live --
+and a real drone is going to launch itself
+on the other side of the Pacific,
+and I can just control it
+right here from my laptop.
+So it's a little bit
+like playing a video game.
+But I can fly around,
+I can look and see whatever I want to see.
+So the thing that allowed me
+to do this is called a dock.
+So this is the dock here.
+It looks like kind of
+an intergalactic grill.
+(Laughter)
+So it's got a bunch
+of advanced technology in it,
+but it turns the drone
+into a fully autonomous device.
+It can be flown remotely.
+I don't need a person on scene,
+and it turns the drone
+into a software-defined thing.
+So I can fly it here,
+and the software will keep me safe.
+So I can just cruise under this awning --
+or over -- its choice.
+(Laughter)
+I can tap on an object
+that I might be interested in.
+Now the drone is flying itself.
+It's autonomously tracking that car.
+This is hands-off --
+it’s a very powerful capability.
+So I'm going to stop this now
+and initiate an autonomous
+patrol of the area.
+So that's cool, but why
+does it actually matter?
+Well I'm going to share with you
+a couple of stories.
+The Oklahoma City Police Department
+has placed dock drones
+all over their city,
+and they’re using them
+to respond to emergencies.
+So in this instance,
+a train operator called 911 in a panic,
+afraid that he might have hit
+something or someone on the tracks.
+Now this is very difficult to access.
+On the ground, this is
+probably an hour search,
+but the drone got there in seconds.
+It was able to find that, unfortunately,
+there was somebody on the tracks,
+but because of the drone,
+they knew exactly where he was.
+They were able to guide in
+first responders,
+and they saved this guy's life.
+Another example.
+(Applause)
+This is from San Francisco.
+Very different application
+but same concept.
+Responding to a 911 incident.
+Here, there's a stolen vehicle.
+So they're able to follow
+the stolen vehicle from the air.
+They know exactly where he is.
+They know what he's doing.
+I don’t know about you --
+when I steal a car, I like to steal
+a license plate to go along with it.
+So SFPD knew that this happened,
+but they never actually
+caught anybody in the act.
+With the drone, they're able
+to get this asymmetric advantage.
+So now he's got stolen plates.
+He’s going to put the plates
+on his vehicle.
+[He] conveniently holds it up
+so we can read it from the air.
+(Laughter)
+Any guesses as to what's happening now?
+Window tint.
+He’s got a stolen vehicle, stolen plates,
+[and] he’s tinting the windows.
+So this is the beginning of a crime spree.
+He's probably going to go off
+and steal a bunch more stuff,
+but the cops know exactly where he is,
+they know exactly what he's doing,
+so they roll a plainclothes unit out,
+roll spike strips --
+he’s got flat tires,
+he can’t go very far --
+[and] they take him into custody.
+So this is safer for everybody involved.
+It’s certainly safer for the community
+[and] also safer for the officers.
+Honestly, it's even safer for the suspect
+because they know exactly
+where he is and what he's doing.
+Since SFPD has implemented
+this technology,
+they’ve seen a 30 percent drop in crime,
+a 40 percent drop in auto theft --
+I can’t say that I blame
+the auto thieves.
+I probably wouldn't want
+to steal a car either.
+And this concept
+of drone as first responder
+is taking off across the country.
+So it started with a few agencies.
+Hundreds of agencies are now using it.
+By the end of this year,
+it'll be thousands.
+And right now, about five percent
+of the US population lives
+within a two-minute flight
+of a Skydio drone
+to respond to an emergency.
+But there are 240 million
+911 calls every year in the US.
+And we're building towards a future
+where the default expectation
+for every emergency
+is that a drone shows up in a few seconds
+to provide targeted information
+[and] get better outcomes for everybody.
+That's one example.
+I’m going to show you a different
+category of use, though.
+We have energy utility customers
+that are installing these
+in their substations.
+So this is American
+Electric Power in Ohio.
+They've got a great pioneering program.
+They have the dock in the substation.
+They can use it to perform both
+proactive and reactive inspections.
+And on one of those flights,
+they spotted this.
+This is a distribution pole
+with signs of a short
+and a fire that they wouldn't
+have caught any other way.
+So thanks to the drone footage,
+they knew exactly where it was.
+They went in, they repaired it.
+Why does this matter?
+Well some of the most devastating fires
+that we’ve had in the US
+have been the result
+of energy utility faults --
+where something breaks,
+something goes wrong,
+there's a short, it starts a fire.
+Drones enable us to have a complete
+digital picture of the grid
+to prevent this kind
+of thing from happening.
+And if it does happen,
+we can know about it sooner
+and faster and mitigate the response.
+So flying cameras all over the place
+to get better information
+is super impactful.
+But the same kind of concept
+applies to drone delivery.
+So companies like Zipline and Wing
+are using dock drones
+to make it safer and faster
+to get a burrito
+delivered to your doorstep.
+(Laughter)
+So there is a mountain of technology
+under the hood that makes this stuff work.
+Drones are deceptively small,
+but they're actually on par
+with self-driving cars and rocket ships
+in terms of the technical complexity
+it takes to make them work.
+There's vibration and thermals
+and aerodynamics,
+and the hardest part is making
+all this stuff work reliably
+when and where you need it.
+But the key enabling technology
+is actually eyesight --
+giving drones the same ability
+that people have
+to look out and see the world.
+Our drones have very powerful
+computers built in
+that parallel our brains.
+They've got deep neural networks
+that parallel our
+biological neural networks.
+And the output is very similar
+to how humans see the world.
+They know where things are.
+They know what they are,
+and they can use all of that information
+to make intelligent decisions.
+So you might have noticed
+that I left a drone flying in Japan.
+We should go ahead and check in on that.
+This drone is performing
+an autonomous inspection.
+So this is a water tower
+that's in the area.
+I’m going to somewhat
+rudely interrupt it here.
+I click stop.
+I click return and land and dock.
+So it will now go back up [and]
+autonomously find its way
+back to the dock.
+Dock opens up.
+It uses vision and AI
+to detect its landing spot,
+and it will come in and do
+an automated landing.
+So the dock, in some ways, turns the drone
+into something like a cloud server,
+where these things can be
+running autonomously,
+continuously in the background
+and doing useful work on our behalf.
+So what did we actually
+accomplish with this mission?
+On an autonomous patrol like this,
+we can inspect the infrastructure,
+we can look for intruders --
+looks like we might
+have caught somebody here --
+and generally have a complete digital
+picture of everything that's happening.
+In the 20th century,
+we built transportation infrastructure.
+We built power infrastructure.
+We built communication infrastructure.
+And I think drones have the potential
+to fundamentally advance and transform
+how we operate all of this infrastructure.
+But I actually think infrastructure
+is a pretty good way
+to describe what the drones
+themselves are becoming.
+These things are dynamic,
+they’re intelligent, and
+they can run in the background,
+doing useful work for us constantly, 24/7.
+This is a future that we're incredibly
+excited to build at Skydio.
+Thank you.
+(Applause)
+Bilawal Sidhu: Hey, I'm Bilawal,
+the tech curator for TED 2026.
+Hopefully you enjoyed that conversation.
+Look, drones can be scary --
+we see them on
+the battlefields of Ukraine.
+We also see them as toys
+and tools of entertainment.
+But there’s actually a very useful
+function for this technology:
+to go where people can’t,
+or go faster to a place
+before people get there.
+And that's this whole idea
+about drone as first responder
+and drone as like,
+essentially infrastructure monitoring.
+We had these crazy fires in LA
+that could have been prevented
+if we had drones
+that were surveying power lines
+and infrastructure that clearly,
+you know, caused that blaze.
+But again, like most things,
+this technology is very dual-use.
+And that's why we want
+to have these conversations.
+You ought to know about what
+the technology is capable of,
+how it’s being used
+in every facet of society,
+so we can have the discussion
+about what we want to do with it.
+I hope you enjoyed.
