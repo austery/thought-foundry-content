@@ -1,0 +1,3702 @@
+[Speaker 0]: 哎哎呃，
+[Speaker 0]: 这个歌啊戛然而止啊，
+[Speaker 0]:  OK。
+[Speaker 0]: 那既然歌曲戛然而止，
+[Speaker 0]: 那我们就开始啊，
+[Speaker 0]: 我们又是 AI 视频尝试，
+[Speaker 0]: 我们继续聊 AI 啊哎呀这个东西啊，
+[Speaker 0]:  AI 这个事儿吧，
+[Speaker 0]:  febble 你们用了吗？
+[Speaker 0]: 你看大家对 AI 感兴趣还是多的那既然这个 AI 感兴趣多，
+[Speaker 0]: 我们还是问一个关于飞薄的问题，
+[Speaker 2]: 大家有没有用飞 able 飞 able 这个事儿蛮重要的啊。
+[Speaker 0]: 好，
+[Speaker 0]: 我们来看这道题的可以做何选择。
+[Speaker 0]: 看看大家现在哇现在居然啊当然没用的多哇现在什么是 vivo 最多？
+[Speaker 0]: 对我就是看这个，
+[Speaker 0]: 看大家的这个问呃回答方法，
+[Speaker 0]: 我来看我，
+[Speaker 0]: 我从哪儿说起，
+[Speaker 0]: 我是从飞博说起，
+[Speaker 0]: 还是我可以跳过对飞博的介绍。
+[Speaker 0]: 那现在看起来我要从 fevble 说起啊，
+[Speaker 0]: 就是最多的是没用的，
+[Speaker 0]: 还没开始用的。
+[Speaker 0]: 然后其次就是什么是飞 able OK，
+[Speaker 0]: 那我来说说什么是 faeble 啊，
+[Speaker 0]: 那我们就何何谓飞 able？
+[Speaker 0]: 说起 feable 呢是 anthropic 的最新的模型，
+[Speaker 0]:  enthropic 以前的模型呢是 opens 是最新的。
+[Speaker 0]: 然后在三个月之前啊，
+[Speaker 0]: 他们进他们开发了，
+[Speaker 0]: 他们已经完成了下一代的模型。
+[Speaker 0]: 这个模型呢叫 misrs，
+[Speaker 0]: 神话 fevble 也是神话，
+[Speaker 0]:  fevor 是预言了 miss 是神话神话。
+[Speaker 0]: 神话这个模型呢很厉害啊，
+[Speaker 0]: 厉害到没法给你用病。
+[Speaker 0]: 因为神话这个模型啊，
+[Speaker 0]: 可能是这个恐惧营销吧，
+[Speaker 0]: 就是说可以找出啊这个人好几十年找不出来的程序漏洞。
+[Speaker 0]: 所以说要给大家都用了这个世界大乱，
+[Speaker 0]: 所以做做了一个东西叫 glaswing。
+[Speaker 0]: 这 glaswing 就是让一些授权的机构，
+[Speaker 0]: 像银行啊等等等等，
+[Speaker 0]: 率先来使用 methods 来进行自己的信息安全的这个检查。
+[Speaker 0]: 然后现在三个月三个多月过去了，
+[Speaker 0]: 其实我没想到这么快的，
+[Speaker 0]: 结果千呼万唤使出来，
+[Speaker 0]: 然后 favor 就出了。
+[Speaker 0]: 什么是 feabor 呢？
+[Speaker 0]: 飞 able 就是这个前沿大模型，
+[Speaker 0]:  mistholes 的民用版啊，
+[Speaker 0]: 这个 mistholes 的民用版就 feeble faeble 跟 mistholes 的最大区别啊，
+[Speaker 0]: 就是这个 feabor 有很强的安全保障。
+[Speaker 0]: 就就 d real 就是如果你要问他关于信息安全的问题，
+[Speaker 0]: 问他关于甚至问他关于爬虫问题，
+[Speaker 0]: 他都拒绝回答。
+[Speaker 0]: 就是我我本来让他帮我做一个关于爬虫的事儿，
+[Speaker 0]: 他就直接拒绝回答。
+[Speaker 0]: 好的，
+[Speaker 0]: 是的，
+[Speaker 0]: 所以他会有很强的这个信息安全的焦虑，
+[Speaker 0]: 不让你拿它来做任何跟这个互联网信息安全相关的事情，
+[Speaker 0]: 这就是 feeble。
+[Speaker 0]: 那 feble 呢自然就是这个 anthropic 最新的模型，
+[Speaker 0]: 而且这个模型呢就是吹的很厉害，
+[Speaker 0]: 所以到底好不好用，
+[Speaker 0]: 大家当然就是各有各的说法了。
+[Speaker 0]: 好，
+[Speaker 0]: 那为什么今天要来聊 faabor 呢？
+[Speaker 0]: 并不是要来吹一吹这个 anthropic 和 cloud 啊，
+[Speaker 0]: 这不是我想说的。
+[Speaker 0]: 我想说的呢是 fabble 的这个路径啊，
+[Speaker 0]: 他确实是一个工作替代的路径。
+[Speaker 0]: 呃，
+[Speaker 0]: 这个东西很多人其实已经了解到了，
+[Speaker 0]: 但有好多人还不知道就是 AI 到底怎么替代我们的工作。
+[Speaker 0]: 就是最后如果我们的工作被 AI 替代了，
+[Speaker 0]: 那个替代的机制是什么？
+[Speaker 0]: 替代？
+[Speaker 0]: 即使这个并不是因为 AI 是一个大智者。
+[Speaker 0]: 什么叫大智者呢？
+[Speaker 0]: 就是你问他一个问题，
+[Speaker 0]: 他回答的像亚里士多德一样，
+[Speaker 0]: 所以 AI 可以替代我们的工作啊，
+[Speaker 0]: 这个是不对的。
+[Speaker 0]: 就是我们之前可能很多很多人对 AI 都有这种智者的想法，
+[Speaker 0]: 就是 AI 厉害，
+[Speaker 0]: 就是因为他很智慧，
+[Speaker 0]: 他回答的问题特别好。
+[Speaker 0]: 我跟他谈心，
+[Speaker 0]: 他给我谈的谈的特别好，
+[Speaker 0]: 他来替代我。
+[Speaker 0]: 其实跟这事儿没什么关系啊哦也不也不能是每个个系呃跟这事有挺大的关系。
+[Speaker 0]: 但就是如果 AI 真的要替代我们的工作的话呢，
+[Speaker 0]: 它其实就是长现的飞薄。
+[Speaker 0]: 这样。
+[Speaker 0]: 那 feeble 什么样？
+[Speaker 0]: 给大家介绍一个概念，
+[Speaker 0]: 叫这个 METR model evaluation and threat research and treat research，
+[Speaker 0]:  threat and treat research。
+[Speaker 0]: 就是任务就基本上就是说我完成一个任务要多长时间，
+[Speaker 0]: 而且这时间越长越好，
+[Speaker 0]: 什么意思呢？
+[Speaker 0]: 就是如果你能给一个 AI 啊提交易任务，
+[Speaker 0]: 他自己连续跑十二小时，
+[Speaker 0]: 你就可以给提个很宏观的任务，
+[Speaker 0]: 对吧？
+[Speaker 0]: 你甚至就跟他说，
+[Speaker 0]: 你知道这个游戏 COD 吗？
+[Speaker 0]: 他说他知道，
+[Speaker 0]: 你说你给我开发个 COD，
+[Speaker 0]: 然后从此你就不管了。
+[Speaker 0]: 他自己在那吭哧吭哧吭哧吭哧两个月咵开发出来了，
+[Speaker 0]: 那你可以把那那动势可以把旗下的人都开掉。
+[Speaker 0]: 也就是说这个时间越长，
+[Speaker 0]: 这 METR 时间跨度越长，
+[Speaker 0]: 那么它替代人的可能性就越大。
+[Speaker 0]: 所以跟他智不智慧的有点关系。
+[Speaker 0]: 但真正最重要的点，
+[Speaker 0]: 其实就是他的这个 METR，
+[Speaker 0]: 就他能够独立运转的时间越来越长，
+[Speaker 0]: 啊，
+[Speaker 0]: 这个是最关键的。
+[Speaker 0]: 所以飞波这个这个模型啊，
+[Speaker 0]:  favor 这个模型的厉害之处。
+[Speaker 0]: 很多人觉得它很好的地方，
+[Speaker 0]: 包括这个 cloud 自己宣传。
+[Speaker 0]:  faabor 的地方就在于飞 able 可以连续很长的时间来执行。
+[Speaker 0]: 你看评论区有人说了，
+[Speaker 0]: 我不信马里奥，
+[Speaker 0]: 我都不信，
+[Speaker 0]: 你太小看 AI 了，
+[Speaker 0]: 用不着飞。
+[Speaker 0]: 不就是传统这种小游戏啊。
+[Speaker 0]: 两两个版本之前呢就可以一句 single shot，
+[Speaker 0]: 一个 prom t 开发完成了。
+[Speaker 0]: 就如果是那个时代的游戏早就完成了，
+[Speaker 0]: 那就都用都都都用不着费我的。
+[Speaker 0]: 你看马云说了，
+[Speaker 0]:  opice 都可以做。
+[Speaker 0]: 我觉得 oppos 四点五个就可以做了，
+[Speaker 0]: 都用都不用四点八、
+[Speaker 0]: 四点五早就 single shot 开发马里奥这种游戏了。
+[Speaker 0]: 对，
+[Speaker 0]: 所以你看我就我怎么说呢？
+[Speaker 0]: 我话还是要说啊，
+[Speaker 0]: 我大家对 AI 不了解，
+[Speaker 0]: 就是你千万不要最后你因为你千万别因为你最后低估 AI，
+[Speaker 0]: 对吧？
+[Speaker 0]: 你你你你你弄这这事好，
+[Speaker 0]: 我我我我说回来就是飞博的厉害之处呢，
+[Speaker 0]: 就是飞博呃很长时间的来完成任务。
+[Speaker 0]: 那我来说那么一个模型为什么可以这么长时间完成任务呢？
+[Speaker 0]: 好，
+[Speaker 0]: 你看我们进入这个 agentic 的时代啊，
+[Speaker 0]: 呃这个模型已经不一样了。
+[Speaker 0]: 在模型在这个 chat bot 的时代，
+[Speaker 0]: 这个模型就是跟我们聊天，
+[Speaker 0]: 对吧？
+[Speaker 0]: 或者模型是用文字来回答我们别人。
+[Speaker 0]: 但进入 agentic 的时代，
+[Speaker 0]: 模型的下一步的生成，
+[Speaker 0]: 除了 token 之外，
+[Speaker 0]: 还有行为。
+[Speaker 0]: 他要去读这份文件，
+[Speaker 0]: 去调用这个接口，
+[Speaker 0]: 去打开这个文件，
+[Speaker 0]: 去运行这个脚本，
+[Speaker 0]: 去安装这个东西。
+[Speaker 0]: 就模型除了出 token 之外，
+[Speaker 0]: 模型还有大量的动作，
+[Speaker 0]: 就基于电脑的动作在操作。
+[Speaker 0]: 那么你想啊一个长程任务对吧？
+[Speaker 0]: 这个模型也是在一个时间序列之上，
+[Speaker 0]: 一步一步一步一步一步一步把一个大的动作完成。
+[Speaker 0]: 那如果呃一个任务啊，
+[Speaker 0]: 他最开始入手的时候就不对，
+[Speaker 0]: 那么这个错误是每一步每一步积累起来，
+[Speaker 0]: 对吧？
+[Speaker 0]: 也就是说，
+[Speaker 0]: 如果从第二步开始积累个小错误，
+[Speaker 0]: 这小错误从来没没检出来来，
+[Speaker 0]: 那往后。
+[Speaker 0]: 如果每一步都积累小错误，
+[Speaker 0]: 每一步都积累小错误，
+[Speaker 0]: 到最后不就崩了吗？
+[Speaker 0]: 你看这就是很多人在问的，
+[Speaker 0]: 说我要是失败了，
+[Speaker 0]: 浪费了钱，
+[Speaker 0]: 十分巨大。
+[Speaker 0]: 唉，
+[Speaker 0]: 对啊，
+[Speaker 0]: 就如果飞博十二个小时，
+[Speaker 0]: 你发现出来啥也弄不了啊，
+[Speaker 0]: 那就没有意义。
+[Speaker 0]: 也就是说如果一个 agent 一个 AI 它要长时间执行任务，
+[Speaker 0]: 它本身就需要去确保这个任务执行一定的正确率。
+[Speaker 0]: 那为了确保任务执行的成功，
+[Speaker 0]: 那就需要其实啊这个任务的每一步啊相对来讲啊都要正确比较高，
+[Speaker 0]: 它的每一步操作正确都要比较高才行。
+[Speaker 0]: 因此他反过来从从模型能力上来讲呢，
+[Speaker 0]: 这个模型能力也是一个很好的能力。
+[Speaker 0]: 就是它其实每一步的正确率都相对较高，
+[Speaker 0]: 那才能在很长的时间来做一个不出错的任务。
+[Speaker 0]: 好，
+[Speaker 0]: 那现在是不是已经能够长时间不出错呢？
+[Speaker 0]: 其实答案是否的啊，
+[Speaker 0]: 现在就算是最新的飞 able，
+[Speaker 0]: 嗯，
+[Speaker 0]: 单次四个小时以上的任务成功率百分之四十五啊，
+[Speaker 0]: 这个成功率百分之四十五呢，
+[Speaker 0]: 其实还是没有办法真正完全替代人。
+[Speaker 0]: 所以说我们要说啊，
+[Speaker 0]: 现在是不是飞波已经可以把我们大家都开掉啊，
+[Speaker 0]: 还做不到。
+[Speaker 0]: 因为呢他四小时以上任务的成功率百分之四十五，
+[Speaker 0]: 但是这个路线已经来了，
+[Speaker 0]: 这个路径已经基本上来了。
+[Speaker 0]: 那往下就越来越，
+[Speaker 0]: 而且呃，
+[Speaker 0]: 我这么说吧，
+[Speaker 0]: 如果能到四个小时，
+[Speaker 0]: 八个小时成功率很高。
+[Speaker 0]: 那我们不用聊这个了，
+[Speaker 0]: 我们就直接聊大家失业之后干啥了，
+[Speaker 0]: 基本上就聊这个失业之后干什么东西了，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以倒过来呢，
+[Speaker 0]: 也就是说现在啊这个东西并不代表说哦哦他四个小时百分之四十五，
+[Speaker 0]: 所以高枕无忧没有四个小时，
+[Speaker 0]: 百分之四十五啊，
+[Speaker 0]: 已经可以开很多人了啊，
+[Speaker 0]: 就是开很多都没有什么问题了，
+[Speaker 0]: 大概是这样的。
+[Speaker 0]: 好，
+[Speaker 0]: 所以说大家也不要去这个掉以轻心。
+[Speaker 0]: 哎，
+[Speaker 0]: 但这也没什么掉不掉以轻心的了。
+[Speaker 0]: 其实我也我也不知道大家会怎么弄。
+[Speaker 0]: 好呃，
+[Speaker 0]: 我来说几个有意思的点啊，
+[Speaker 0]: 就是实际上呢这事儿我们就从这个 anthropc 的这个 CEO 开始啊，
+[Speaker 0]: 这个 anthropc 的 CEO 他是最开始来提醒大家这个工作替代的，
+[Speaker 0]: 他特别特别早来，
+[Speaker 0]: 告诉大家要小心。
+[Speaker 0]: 这个事儿就是去年现五、
+[Speaker 0]: 五月份去年的五月份 madedel，
+[Speaker 0]: 他就提出了 AI，
+[Speaker 0]: 可能在一到五年内消灭百分五十的入门白领岗位，
+[Speaker 0]: 把失业率推掉百分之十到百分之二十。
+[Speaker 0]: 所以 amamadel 就是这个 anthropc 的 CEO。
+[Speaker 0]: 他去年五月份就警告，
+[Speaker 0]: 就这事是一个非常非常需要注意的事情，
+[Speaker 0]: 但是呢到今年他要改口了，
+[Speaker 0]: 今天他改什么口呢？
+[Speaker 0]: 就是今年五月份，
+[Speaker 0]: 就是刚刚上个月啊，
+[Speaker 0]: 上个月 attman open ad otman 和这个 armadel，
+[Speaker 0]: 他们俩都说我说错了。
+[Speaker 0]: 奥曼说，
+[Speaker 0]:  tam delighto be wrong。
+[Speaker 0]: 就是我们在技术预测上是对的，
+[Speaker 0]: 在社会经济含义之上完全错误。
+[Speaker 0]: 那么他的意思呢，
+[Speaker 0]: 阿姆德尔也说这个杰文斯悖论，
+[Speaker 0]: 他改用这个经济杰文斯悖论。
+[Speaker 0]: 杰文斯悖论的意思就是说，
+[Speaker 0]: 当这个电力发电效率上涨之后，
+[Speaker 0]: 岂不是这些呃，
+[Speaker 0]: 发电厂都要去死吗？
+[Speaker 0]: 这杰文斯悖论就说那不是发电成本下降了，
+[Speaker 0]: 人们的用电量会暴涨啊，
+[Speaker 0]: 所以说电只会越来越多。
+[Speaker 0]: 所以他就借用杰文斯悖论说，
+[Speaker 0]: 如果我们把自动化工作越来越多，
+[Speaker 0]: 那每个人要只做剩下的不能自动化的部分，
+[Speaker 0]: 那不能自动化的部分就会暴涨。
+[Speaker 0]: 想起来生产率会成倍的提高，
+[Speaker 0]: 每个人都有工作。
+[Speaker 0]: 所以这杰杰文斯悖论，
+[Speaker 0]: 所以今年五月份一年后，
+[Speaker 0]: 阿莫达奥改口了。
+[Speaker 0]: 阿姆德尔说啊，
+[Speaker 0]: 没事儿，
+[Speaker 0]: 没有那么多工作替代，
+[Speaker 0]: 大家都有工作奥特曼也说我们的预测错了，
+[Speaker 0]: 大家其实都有工作。
+[Speaker 0]: 稍等我去开一下那个那个电视。
+[Speaker 0]: 哎，
+[Speaker 0]: 对，
+[Speaker 0]: 你看就是评论区已经有朋有朋友说到了啊，
+[Speaker 0]: 说啊这个改口是为了 IPO。
+[Speaker 0]: 哎，
+[Speaker 0]: 我也觉得就是呢这两个人说没事儿，
+[Speaker 0]: 不会替代工作这事儿呃到底是真是假？
+[Speaker 0]: 我觉得呢要一定要大打折扣。
+[Speaker 0]: 为什么大打折扣呢？
+[Speaker 0]: 是因为现在在美国，
+[Speaker 0]: 其实对于 AI 的抵触情绪特别特别强烈，
+[Speaker 0]: 整个美国社会对 AI 的抵触都很强烈。
+[Speaker 0]: 甚至这个 open AI 前天还是上千天发了一个报告。
+[Speaker 0]: 美国人对 AI 的抵触背后还有这个中共网军认知作战。
+[Speaker 0]: 就中国在利用大量账号认知作战来阻碍美国修建新的这个呃基础设施，
+[Speaker 0]: 是像这个预算中心啊等等的基础设施。
+[Speaker 0]: 所以今年五月份这俩人啊，
+[Speaker 0]: 他改口说 AI 不能不会替代工作，
+[Speaker 0]: 反正我自己啊对这个问题呢是绝绝对对，
+[Speaker 0]: 没有这这俩人这么这么乐观的。
+[Speaker 0]: 我是觉得呢现在很明显 AI 的工作期待已经快速的到来了。
+[Speaker 0]: 那么还有一个更好玩的事情，
+[Speaker 0]: 就是你看他们经常发布这个完全相反的信息，
+[Speaker 0]: 对吧？
+[Speaker 0]: 好，
+[Speaker 0]: 我再来说啊，
+[Speaker 0]: 这个 amadel 其实也在发布另外一个很相反的信息。
+[Speaker 0]: 这个 amamadel 六月四号这个 cloud 出了一个新闻，
+[Speaker 0]: 说啊按这个 anthropic 要是的是的出面呼吁全球要保留 AI 暂停的选项，
+[Speaker 0]: 为什么呢？
+[Speaker 0]: 是因为啊他们下一代模型开发自家模型写百分之八十的代码。
+[Speaker 0]: 也就是说呃机这么说吧，
+[Speaker 0]: 就机器几乎可以自我进化了，
+[Speaker 0]: 就是开发下一代的这个大模型啊，
+[Speaker 0]: 靠这个 mrs 自己就可以开发自己，
+[Speaker 0]: 开发自己所为。
+[Speaker 0]: 一旦他自己开发，
+[Speaker 0]: 自己呢，
+[Speaker 0]: 他就越来越快，
+[Speaker 0]: 越来越快就不需要人了，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以阿姆达 l 就在说呢，
+[Speaker 0]: 这事儿我们全世界是不是要考虑考虑，
+[Speaker 0]: 我们大家把 AI 开发都要暂停下来。
+[Speaker 0]: 结果你说他一边说这事很严重吧，
+[Speaker 0]: 结果五天之后，
+[Speaker 0]: 他就把 febble 五就发布了，
+[Speaker 0]: 就我们今天聊这个 fabo 就来了。
+[Speaker 0]: 那 febo 呢就是可以连续自主工作时间，
+[Speaker 0]: 很长长这个模型啊。
+[Speaker 0]: 对对，
+[Speaker 0]: 所所以你说这些人都很奇怪。
+[Speaker 0]: 四月你刚说啊，
+[Speaker 0]: 这玩意儿自己连续工作时长很厉害，
+[Speaker 0]: 自己开发自己很危险，
+[Speaker 0]: 呼吁这个全世界啊要保留暂停选项啊，
+[Speaker 0]: 转过来又转过来，
+[Speaker 0]: 你就把这个飞 able 五就开发出，
+[Speaker 0]: 就就就就就就弄出来了，
+[Speaker 0]: 所以就很麻烦。
+[Speaker 2]: 好的好的好的的的我我我我的意的。
+[Speaker 0]: 所以说之前啊我们大家都靠这些 AI 公司的 CEO 们来预测未来，
+[Speaker 0]: 来看看东西什么样。
+[Speaker 0]: 但现在呢我觉得这些 CEO 们可能他们的话越来越不可信啊，
+[Speaker 0]: 因为背后的商业商业利益实在是大到一个难以置信的地步，
+[Speaker 0]: 再加上监管啊、
+[Speaker 0]: 民意啊都是非常麻烦的事情。
+[Speaker 0]: 好，
+[Speaker 0]: 所以从这个角度来讲呢，
+[Speaker 0]: 我觉得大家还是应该去严肃的看待这个事情啊，
+[Speaker 0]: 就这个 feable five。
+[Speaker 0]: 好，
+[Speaker 0]: 这个飞 able five 呢，
+[Speaker 0]: 我给大家再说一说啊，
+[Speaker 0]: 我这两天已经用起来了，
+[Speaker 0]: 我没有用到砸几千 n 美金进去用。
+[Speaker 0]: 但是呃很多大型的任务我都使用飞 able five 来跑，
+[Speaker 0]: 这个飞 able five 厉不厉害呢？
+[Speaker 0]: 我可以给大家说啊，
+[Speaker 0]: 这个 favor five 非常厉害。
+[Speaker 0]: 然后呃在很多地方呢明显好于五点五 pro，
+[Speaker 0]: 就 open AI 的五点五 pro。
+[Speaker 0]: 那五点五 pro 有自己的优势啊，
+[Speaker 0]: 但但 favor 确实烧这个 token 烧的太厉害。
+[Speaker 0]: 我我我我也没法就是吃到饱的心态跑，
+[Speaker 0]: 就是我只能拿一些最尖端的最顶尖的任务去问 fabor 去，
+[Speaker 0]: 或者去让飞 able five 来做。
+[Speaker 0]: 但我不得不现在说呢，
+[Speaker 0]: 就是这个 faabor five 呃在非常非常复杂的任务，
+[Speaker 0]: 就它适合什么任务呢？
+[Speaker 0]: 它不适合那种 single shut 任务，
+[Speaker 0]: 就是我有一个事我问问他一个问题，
+[Speaker 0]: 我问他他不适合，
+[Speaker 0]: 但比如说你有二十个文件，
+[Speaker 0]: 通过这二十个文件经过三的步骤去搞个什么东西，
+[Speaker 0]: 特别适合。
+[Speaker 0]: 或者你有个大项目，
+[Speaker 0]: 这个大项目从零开始，
+[Speaker 0]: 特别适合，
+[Speaker 0]: 对吧？
+[Speaker 0]: 就是它不适合一问一答，
+[Speaker 0]: 一问一答，
+[Speaker 0]: 它就是适合呃要调用很多数据库，
+[Speaker 0]: 看很多文件。
+[Speaker 0]: 通过很多步骤开发式的或者是大量的数据深度分析，
+[Speaker 0]: 挖掘一个话题的网络综合研究等等等等。
+[Speaker 0]: 所有这些能够快速 agentic 的工作，
+[Speaker 0]: 我觉得比较适合 fevor 它比较优势在这里。
+[Speaker 0]: 就如果你只是去问问题呢，
+[Speaker 0]: 它不是这个 GPT three。
+[Speaker 0]: 就是你之前之后好像感觉它的单个问题上的智能有爆发性的增长。
+[Speaker 0]: 就如果你平时使用 AI，
+[Speaker 0]: 就是问单个问题为主的，
+[Speaker 0]: 你用 favor 的话，
+[Speaker 0]: 你其实感觉不到你嗯很难感觉到有多大的增长，
+[Speaker 0]: 你就觉得跟 opens 或人其他 AI 差不多。
+[Speaker 0]: 呃，
+[Speaker 0]: 但这并不代表它不厉害。
+[Speaker 0]: 这其实代表我们可能对于什么是智能过去的想法错误的。
+[Speaker 0]: 呃，
+[Speaker 0]: 我们过去的想法可能认为更像人的是智能。
+[Speaker 0]: 那么现在其实在工作之上呢，
+[Speaker 0]: 就是能够独立完成工作。
+[Speaker 0]: 时间更长的跟可用的智能跟可用的智能，
+[Speaker 0]: 其实关系会更近一点点。
+[Speaker 0]: 好，
+[Speaker 0]: 所以 febble 呢呃飞 able 这事儿并不是适合任何一个类型的工作。
+[Speaker 0]: 哎，
+[Speaker 0]: 那关键就来了，
+[Speaker 0]: 有一个很有意思的点。
+[Speaker 0]: 那么很很可能有人就会觉得呢哦那我不适合飞吧，
+[Speaker 0]: 我的工作和我平时使用不适合 faabo。
+[Speaker 0]: 那我们就来问一个问题了，
+[Speaker 0]: 问一个跟大家的这个 AI 使用相关的问题啊。
+[Speaker 0]: 好，
+[Speaker 0]: 来看看大家怎么用啊，
+[Speaker 0]: 你看还是有百分之四十，
+[Speaker 0]: 你甚至不知道什么是飞薄呢。
+[Speaker 2]:  baby 呃，
+[Speaker 2]: 现在现现在这个参加调查人都用的挺凶的啊。
+[Speaker 0]:  no，
+[Speaker 0]: 你看大量的人还是以这个 chat board 为主，
+[Speaker 0]: 但是开始用一些 desk hoppagagent，
+[Speaker 0]: 然几几乎碰 chacheck boat 的，
+[Speaker 0]: 甚至都已经百分之二十。
+[Speaker 0]: 这这这这这个比例也太高了吧，
+[Speaker 0]: 这比例实在太高了吧。
+[Speaker 0]: 就是就我我我们的听众里面有百分之二十的人已经已经基本不碰 check boat 了。
+[Speaker 0]: 就有一种可能性啊。
+[Speaker 0]: 就是我们的听众里面这个程序员太多，
+[Speaker 0]: 不是就算你的程序员，
+[Speaker 0]: 你平时日常生活不用 AI 吧，
+[Speaker 0]: 怎么会你怎么会已经几乎不用这个几乎不碰 check bot 了。
+[Speaker 0]:  ok ok 对哦，
+[Speaker 0]: 成全太多了，
+[Speaker 0]: 成全太多了。
+[Speaker 0]: 好，
+[Speaker 0]: 我们我们接着往下说，
+[Speaker 0]: 就大家一边一边这个调查一边说，
+[Speaker 0]: 对，
+[Speaker 0]: 那么这就是一种用法。
+[Speaker 0]: 我们刚才说到哪儿了？
+[Speaker 0]: 我们刚才说到，
+[Speaker 0]: 如果你觉得听完我介绍 feabble，
+[Speaker 0]: 你会觉得哎好像我平时没有什么地地方能用到这样的方法，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以我还是老老实实就用我的一个 check 报就行了。
+[Speaker 0]: 但如果你这样想呢，
+[Speaker 0]: 我觉得你可能需要开拓开拓这个事儿，
+[Speaker 0]: 就你需要尝试尝试怎么尝试呢？
+[Speaker 0]: 就是如果你还是 AI，
+[Speaker 0]: 其实还是一个更厉害的搜索引擎，
+[Speaker 0]: 它是一个类似搜索引擎。
+[Speaker 0]:  but better we better 的一个搜索引擎。
+[Speaker 0]: 但就像我之前说的，
+[Speaker 0]: 我觉得你还是要尝试把很多工作任务完全让 AI 来做。
+[Speaker 0]: 当然完全让 a 来做。
+[Speaker 0]: 并不是说你要在这个，
+[Speaker 0]: 比如说这个在这个 codex 里面说帮我写篇文章，
+[Speaker 0]: 帮我帮我做个 PPT。
+[Speaker 0]: 其实也不是不行啊，
+[Speaker 0]: 就你直接敢说给我做个 PPT，
+[Speaker 0]: 给我写篇文章也不是不行，
+[Speaker 0]: 但你要尝试能不能用一个更好的方式在这里面来完成它，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那么这个对于一个人来讲是有根本不同的。
+[Speaker 0]: 就是这个我相信已经不需要我再来给大家讲了吧，
+[Speaker 0]: 就是一个人所谓在被 AI 赋能的情况之下，
+[Speaker 0]: 他能够赋到什么地步，
+[Speaker 0]: 能把一个个体赋到什么地步。
+[Speaker 0]: 对，
+[Speaker 0]: 这个这个这个我其实不太不太，
+[Speaker 0]: 我也我也我也不会，
+[Speaker 0]: 我应该应该不需要再讲了。
+[Speaker 0]: 所以我觉得不管大家还能够有益的工作多长时间，
+[Speaker 0]: 但是探索一下 eneny 的用法，
+[Speaker 0]: 我觉得还是很重要的。
+[Speaker 0]: 当然这个在生活里什么场景用生活里很多生活里其实有很多是这样的。
+[Speaker 0]: 我觉得你这个说的对，
+[Speaker 0]: 在生活里可能没有那种特别 agentic 的方法，
+[Speaker 0]: 对吧？
+[Speaker 0]: 生活里更多就是像搜索引擎一样，
+[Speaker 0]: 这是什么？
+[Speaker 0]: 那是什么这个该怎么用？
+[Speaker 0]: 那个插哪儿？
+[Speaker 0]: 这东西在该怎么么买类怎么买，
+[Speaker 0]: 类似这的比较多。
+[Speaker 0]: 对，
+[Speaker 0]: 其实我我都还没有进进展到拿这个 AI 来来做什么健身护肤之类的哈，
+[Speaker 0]: 还不在这生活之中。
+[Speaker 0]: 所以说呢我觉得大家可以稍微来把这个 agentic 的方式用一用啊。
+[Speaker 0]: 哎呀，
+[Speaker 0]: 但是你要让我给你举例的话，
+[Speaker 0]: 就不同人的生活真的很不一样。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但你看就是在今天所有调查里面有也只有百分之二十五五的人没有用这个 gentic 绝大部分已经用到了。
+[Speaker 0]: 呃，
+[Speaker 0]: 我这么说吧，
+[Speaker 0]: 我给大家一个最简单的用法，
+[Speaker 0]: 请建立你的一个工作文件夹，
+[Speaker 0]: 把你的一个工作文件夹拿出来。
+[Speaker 0]: 就是这个文件夹里面可能是你在最近做了一个项目，
+[Speaker 0]: 不管是要写个 PPT 还是什么样，
+[Speaker 0]: 做一个研究，
+[Speaker 0]: 给客户整理一个文档，
+[Speaker 0]:  anything 你有一个文件夹，
+[Speaker 0]: 然后你就下载任何 cloud 或者呃 chag BT。
+[Speaker 0]: 呃，
+[Speaker 0]: 当然 open i 啊，
+[Speaker 0]: 当然也有别的，
+[Speaker 0]: 国内的可能也是一样。
+[Speaker 0]: 然后你打开之后，
+[Speaker 0]: 直接打开这个文件夹，
+[Speaker 0]: 以这个文件夹的内容为核心来工作。
+[Speaker 0]: 我觉得这是一个比较可能最容易上手的方法吧。
+[Speaker 0]: 而且我觉得这个是最容易来改变 mdset 的方法。
+[Speaker 0]: 因为过去你总觉得是我说句话，
+[Speaker 0]: 他给我回句话，
+[Speaker 0]: 我说句话他给我回一句话。
+[Speaker 0]: 但如果你有一个工作文件夹，
+[Speaker 0]: 你就基于这个文件夹来操作，
+[Speaker 0]: 很多问题呢就会好很多。
+[Speaker 0]: 你就可以直接就文件夹的操作，
+[Speaker 0]: 读取文件内容就文件来进行处理，
+[Speaker 0]: 生成新的文件来要求他，
+[Speaker 0]: 你一下就 agentic 这东西就来了。
+[Speaker 0]: 所以最好的方法就是你找到你平时工作的文件夹，
+[Speaker 0]: 以文件夹作为基础来开展工作。
+[Speaker 0]: 好，
+[Speaker 0]: 大概是这样。
+[Speaker 0]: 好，
+[Speaker 0]: 你看有人说，
+[Speaker 0]: 除非 token 是白菜价，
+[Speaker 0]: 不然不碰 agentic。
+[Speaker 0]: 这个想法是错误的，
+[Speaker 0]: 至少在现在是错误的。
+[Speaker 0]: 为什么说这个想法在至少在现在是错误的呢？
+[Speaker 0]: 呃，
+[Speaker 0]: 我刚刚看了一个我就是今天的这个这个世界苦谈里面还有啊，
+[Speaker 0]: 如果你用每个月两百美金的 cloud max 和 chr GB pro，
+[Speaker 0]: 就是每个月你买两百美金，
+[Speaker 0]: 这档这一档订阅的 token 量相当于多少呢？
+[Speaker 0]: 相当于等价八千美金的 cloud max，
+[Speaker 0]: 八千美金的 ops 四点八和一万四千美金的 CGBT 五点五 max。
+[Speaker 0]: 比如说如果你买两百到这一档，
+[Speaker 0]: 你用两百到这一档，
+[Speaker 0]: 基本上你转过来，
+[Speaker 0]: 相当于能用一万四千美金的 API。
+[Speaker 0]: 所以你说这个你你说太贵了，
+[Speaker 0]: 用不了。
+[Speaker 0]: 那如果你每一个都用 api 来，
+[Speaker 0]: 当然很贵了。
+[Speaker 0]: 但如果你比如说你买 chh 级别 pro 两百刀在 code x 里面来做啊，
+[Speaker 0]: 你就相当于有一万四千刀的 api 的 token。
+[Speaker 0]: 这个未来未必能够长时间如此啊，
+[Speaker 0]: 说不定某一天变得特别贵。
+[Speaker 0]: 你就不能够想想怎么用，
+[Speaker 0]: 就不能够吃到饱的心态来用，
+[Speaker 0]: 这是可能的。
+[Speaker 0]: 但至少现在你还是可以以订阅制的方法来用的，
+[Speaker 0]: 而且现在以订阅制的方法来用比接 API 便宜的多，
+[Speaker 0]: 这也是现状。
+[Speaker 0]: 所以大家就是用订阅制的方法来用吧。
+[Speaker 0]: 呃，
+[Speaker 0]:  deep sick 还没有 deep sick 还没有出自己的 harness。
+[Speaker 0]: 我不知道有哪个公用 harness 是可以直接接 deep sik 的这个 API 用的。
+[Speaker 0]: 不是你你用 code x 也可以装 to b 的，
+[Speaker 0]: 你在 harness 里面一样可以做 to b 的这跟 top to b 没有关系啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 这个这个这个跟 tobe to b 没有关系。
+[Speaker 0]: 对，
+[Speaker 0]: 最近要打价格战，
+[Speaker 0]:  open AI 要把价格打下来，
+[Speaker 0]: 也是今天的新闻啊，
+[Speaker 0]:  open AI 要大降价，
+[Speaker 0]: 靠降价的方式来争取更多的市场。
+[Speaker 0]: 但我觉得 open AI 降价应该指的是 api 降价，
+[Speaker 0]: 不是这个订阅降价订阅应该可能还是一百到两百到嗯，
+[Speaker 0]: 这个钱可能还是得花，
+[Speaker 2]: 是没办法的对。
+[Speaker 0]: 所以说我觉得这么来用用是很重要的一个事情啊，
+[Speaker 0]:  google 搞 AI，
+[Speaker 0]: 搞到自己要募八百亿，
+[Speaker 0]: 把容易整合进我的这个工作流。
+[Speaker 0]: 我可不敢不是不是你，
+[Speaker 0]: 你首先啊你可以设置上限，
+[Speaker 0]: 比如说你定一百刀两百刀跑完了就跑完了，
+[Speaker 0]: 对吧？
+[Speaker 0]: 你就算不定一百刀，
+[Speaker 0]: 你用 APIAPI，
+[Speaker 0]: 你可以在后台设啊，
+[Speaker 0]: 就是一个月最多用多少多少钱，
+[Speaker 0]: 对吧？
+[Speaker 0]: 它是不可能无限消耗你的钱的，
+[Speaker 0]: 这个这个太容易了，
+[Speaker 0]: 这个太容易了，
+[Speaker 0]: 不是 harness，
+[Speaker 0]: 是 harness，
+[Speaker 2]:  agent 是 agent 不好可以啊。
+[Speaker 0]: 不不是你的，
+[Speaker 0]:  APP 能不能能不能接 codex，
+[Speaker 0]: 这话不对啊，
+[Speaker 0]:  codex 本身是一个 harness，
+[Speaker 0]: 你的 APP 能不能接 harness，
+[Speaker 0]: 应该是不能的。
+[Speaker 0]: 但你的 APP 能不能接 API，
+[Speaker 0]: 肯定是可以的。
+[Speaker 0]: 你的 APP 是可以接 API 的。
+[Speaker 0]: 但你的 APP 接 cotex 可能是通过桥接，
+[Speaker 0]: 可以吧？
+[Speaker 0]: 但通过桥接只能自己用了。
+[Speaker 0]: 你看有人说用飞 able 列入自自己的文献库和数据库，
+[Speaker 0]: 奇迹发生了也也回头人脑单纯可以了。
+[Speaker 0]: 这个这个是真的啊，
+[Speaker 0]: 因为我我最近不在写个书嘛，
+[Speaker 0]: 我我写那书，
+[Speaker 0]: 我也是，
+[Speaker 0]: 我那个书本来就写到比较卡。
+[Speaker 0]: 就是因为它的量非常非常大我也有很多资料啊，
+[Speaker 0]: 非常非常多的资料和其他的书籍论文做参考，
+[Speaker 0]: 还有我的这个基本书稿。
+[Speaker 0]: 然后我就把那个文件夹直接给 fabor，
+[Speaker 0]: 然后我给说我现在卡在哪儿了，
+[Speaker 0]: 需要他帮我干啥。
+[Speaker 2]: 哼呵我的天。
+[Speaker 0]: 对，
+[Speaker 0]: 就是对，
+[Speaker 0]: 厉害到什么地步呢？
+[Speaker 0]: 厉害到我觉得我现在这个书的水平上了一个台阶，
+[Speaker 0]: 但是上这个台阶我理解了，
+[Speaker 0]: 但上这个台阶是不是我自己上的，
+[Speaker 0]: 我现在心里都很都犯嘀咕。
+[Speaker 0]: 也就是说以前我用 AI 我能打保票的说，
+[Speaker 0]: 我虽然有 AI 的协助，
+[Speaker 0]: 但想法是我的内容是我的东西都是我自己的 AI 帮我做了很多协助的工作，
+[Speaker 0]: 但基本构成都是我。
+[Speaker 0]: 但是就这次我把东西都打包拿给他，
+[Speaker 0]: 我说我现在卡在这卡在这卡卡这这了，
+[Speaker 0]: 这网上这这东西我合不起来了，
+[Speaker 0]: 你帮我想想，
+[Speaker 0]: 怎么把这两个思路合起来，
+[Speaker 0]: 他咵合起来了，
+[Speaker 0]: 我就觉得对就是共筑者水平了，
+[Speaker 0]: 起码是共筑者水平了。
+[Speaker 0]: 呃，
+[Speaker 0]: 我到现在没有说我不如 favor，
+[Speaker 0]: 但是就是能够把这么多个内容融会贯通，
+[Speaker 0]: 然后通过两三个步骤来完成，
+[Speaker 0]: 还是还是很厉害的对，
+[Speaker 0]: 非常非常厉害，
+[Speaker 0]: 没有他解决不了所有的问题了。
+[Speaker 0]: 但是他解决了可能最关键的一步吧。
+[Speaker 0]: 对，
+[Speaker 0]: 就是应该写进这个论文明细的地步，
+[Speaker 0]: 写进第二作者吧。
+[Speaker 0]: 那现在他的量还不够写进第二作者啊，
+[Speaker 0]: 就如果我我写个 a 技能，
+[Speaker 0]: 让他把从头到高个，
+[Speaker 0]: 从头到高改一遍的话，
+[Speaker 0]: 他就应该被写进第二作者了。
+[Speaker 0]: 基本上哎所以说你虽然我是个 AI 降临派啊，
+[Speaker 0]: 我天天用 AI 用的非常狠，
+[Speaker 0]: 用的非常用的非常凶。
+[Speaker 0]: 但是我自己做这个事儿被 AI 替代掉，
+[Speaker 0]: 就是我自己做的绝大部分最重要的事被 AI 替代了。
+[Speaker 0]: 这事儿我完全有心理准备，
+[Speaker 0]: 完完全全有心理准备啊，
+[Speaker 2]: 不是个问题。
+[Speaker 0]: 对我我我的感受跟这个 stone julia 的感受非常非常像，
+[Speaker 0]: 就是他这个 connect 能力，
+[Speaker 0]: 他就是把这些东西连到一起的能力。
+[Speaker 0]: 因为我我本来就是这个书的想法很大，
+[Speaker 0]: 就是里边有好几个不同的思路扣不到一起了。
+[Speaker 0]: 但是飞博就想办法给我扣到一起了，
+[Speaker 0]: 这是很厉害的。
+[Speaker 0]: 哎呀，
+[Speaker 0]: 问题意识这东西 i'm not sure。
+[Speaker 0]: 我不知道问题这个东西哎能不能生成了。
+[Speaker 2]: 嗯嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 呃，
+[Speaker 0]:  OK 我们现在来跟大家连连麦，
+[Speaker 0]: 就是我想听听大家怎么看，
+[Speaker 0]: 就尤其是用过飞博的啊，
+[Speaker 0]: 我其实我想听不同的人说，
+[Speaker 0]: 因为有很多人就是经常有人在我说 AI 的节目下面来呛说你觉得 AI 能够替代程序员，
+[Speaker 0]: 是因为你要不懂编程，
+[Speaker 0]: 你要要懂编程，
+[Speaker 0]: 你就会知道这个还差得远呢。
+[Speaker 0]: 他只能做一些非常简单的事儿，
+[Speaker 0]: 根本做不了复杂的事情。
+[Speaker 0]: 其实啊你要靠他来替代，
+[Speaker 0]: 我们这程序员是不可能能的。
+[Speaker 0]: 但是我对这个说法非常的怀疑啊，
+[Speaker 0]: 第一我也不是完全不懂编程。
+[Speaker 0]: 第二，
+[Speaker 0]: 我已经让 AI 给我做了无数编程的事情。
+[Speaker 0]: 当是我从来没有编一个两千万人用的超大型 APP 超大型的东西，
+[Speaker 0]: 从架构开始怎么搞？
+[Speaker 0]: 我这没试过啊，
+[Speaker 0]: 但就是我其实我不知道，
+[Speaker 2]: 所以说嗯我想听听这大家怎么看待的对，
+[Speaker 0]: 今天的号是这个 UGX 哦，
+[Speaker 0]: 今天已经有这么多人了。
+[Speaker 0]:  ok 来听听大家就是有没有人用 feble，
+[Speaker 0]: 你用 feebl 你是什么感觉？
+[Speaker 0]: 包括你用这个 gently 什么感觉的方法，
+[Speaker 0]: 用什么感觉？
+[Speaker 0]: 呃，
+[Speaker 2]:  butterfly 哎，
+[Speaker 0]:  butterfly 直接退了。
+[Speaker 0]: 呃，
+[Speaker 0]:  XY 杨呃，
+[Speaker 0]:  buenfly buenfly black butfly。
+[Speaker 0]:  ok hello，
+[Speaker 4]: 请说那个刚才我是其实我是想稍微等一下啦。
+[Speaker 4]: 呃，
+[Speaker 4]: 如果那个羊可以讲，
+[Speaker 4]: 我可以稍微买一个 emermergency 哦，
+[Speaker 0]: 你要稍微等一下是吧？
+[Speaker 0]: 没事没事，
+[Speaker 0]: 那你稍微等一下哈。
+[Speaker 0]: 呃，
+[Speaker 0]:  XY 杨，
+[Speaker 0]: 你有你有什么要说的？
+[Speaker 0]:  hello hello，
+[Speaker 1]: 听到吗？
+[Speaker 0]: 能听到嗯，
+[Speaker 1]: 我感觉我比起想说什么，
+[Speaker 1]: 我有点有点想来找有点想来找中理答疑解惑，
+[Speaker 1]: 这种感觉也可以也可以问问题也行，
+[Speaker 0]: 探讨探讨什么是答疑解惑。
+[Speaker 1]: 我我现在的工作呃，
+[Speaker 1]: 我是我在日本嘛，
+[Speaker 1]: 然后我在日本，
+[Speaker 1]: 然后在一个 it 公司，
+[Speaker 1]: 但是呢说是 IT 公司，
+[Speaker 1]: 但并不是要自己自己写代码之类的。
+[Speaker 1]: 就是不是不是大家不是大家低的那种，
+[Speaker 1]: 我也那种我也不给我微博方面的那种啊，
+[Speaker 1]: 什么腾什么腾讯、
+[Speaker 1]: 阿里啊，
+[Speaker 1]: 那种不，
+[Speaker 1]: 我们是做那个 surprise service 的公司，
+[Speaker 1]: 做什么 service enterprise 改是 enterprise，
+[Speaker 1]:  service 明白 enterprise 就是提供各种解决方案。
+[Speaker 1]: 嗯，
+[Speaker 1]: 爱森者呃类似 shopping something like that，
+[Speaker 1]: 类似 i ssenge IBM 之类的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后呃这这个是这个大背景哈。
+[Speaker 1]: 然后我现我现在呢就是在公司里面的生成生成 AI 的生成 tea i 的 team 里面。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是呢我每天我现在在做的事情就约等于，
+[Speaker 1]: 只是在只是在练习，
+[Speaker 1]: 只是在练习怎么用，
+[Speaker 1]: 只是在练习怎么用一个商用的那种 code coding，
+[Speaker 1]:  agent coding 的产品嘛，
+[Speaker 1]: 然后怎么在练习，
+[Speaker 1]: 怎么用它来开发，
+[Speaker 1]: 怎么用它来开发一个呃，
+[Speaker 1]: 比如说面向 to b 面向面向企业客户的一个系统。
+[Speaker 1]: 类似这样嗯，
+[Speaker 1]: 然后那些那些什么 AAG、
+[Speaker 1]: 各种 agents、
+[Speaker 1]: 各种 agents、
+[Speaker 1]:  dot、
+[Speaker 1]:  dot、
+[Speaker 1]:  MD 啊，
+[Speaker 1]: 各种 skill 啊，
+[Speaker 1]: 也不是我自己写的啊。
+[Speaker 0]: 那你在哪在哪找的这些 skill 呢？
+[Speaker 1]: 啊，
+[Speaker 1]: 就是就是公司里面有更公司里面有更 c 更 senior 的人来做这些吗？
+[Speaker 0]: 哦哦哦，
+[Speaker 1]: 当然当然确当然确实我我自己还是还还是 junior 的，
+[Speaker 1]: 还是 junior 的阶段嘛。
+[Speaker 1]: 所以确实嗯怎么说呢？
+[Speaker 1]: 上上次上次给我的任务也只是说练一下啊，
+[Speaker 1]: 做一个做一个什么呢？
+[Speaker 1]: 做一个怎么说呢？
+[Speaker 1]:  AI 开发 AI 开发，
+[Speaker 1]: 用用 agent 做开发的民工一样的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 本来我们定位，
+[Speaker 1]: 然后呢就约等于变成啊，
+[Speaker 1]: 就是点就是点 yes。
+[Speaker 1]: 然后那个 a agent 是 agent 写了很多代码，
+[Speaker 1]:  a ent 写来的很多代码，
+[Speaker 1]: 然后他给你 review，
+[Speaker 1]: 他给你 review 啊。
+[Speaker 1]: 比如说他说这个地方需要 review，
+[Speaker 1]: 然后那个地方需要 review 量特大，
+[Speaker 0]: 根本 review 不了，
+[Speaker 1]: 对，
+[Speaker 1]: 量特别大，
+[Speaker 1]: 根本 review 不过来。
+[Speaker 1]: 然后呢，
+[Speaker 1]: 就是要细看的话也能看懂，
+[Speaker 1]: 但是就是你要全部细看是不可能对，
+[Speaker 1]: 这个不用问，
+[Speaker 1]: 所以我现在就觉得有点迷茫，
+[Speaker 1]: 感觉。
+[Speaker 1]: 实际上我这个角我这个角色也可以随时都可以被取代呀。
+[Speaker 1]: 嗯，
+[Speaker 1]: 听起来听起来好像是在改，
+[Speaker 1]: 听起来好像是啊在在一个在一个全公司的一个内部的生成 AI 的生成 AI 的进入里面。
+[Speaker 1]: 但是实际上在干的事情就是没没有没有什么创造力，
+[Speaker 1]: 没不是 create。
+[Speaker 0]: 嗯，
+[Speaker 1]: 我我帮你觉得对呃危险吗？
+[Speaker 0]: 呃，
+[Speaker 0]: 危险危险呃，
+[Speaker 0]: 我对这个问题还还还有点想法啊。
+[Speaker 0]: 第一，
+[Speaker 0]: 我以前也做过咨询，
+[Speaker 0]: 然后我我自己不是也在说，
+[Speaker 0]: 我在开发一个像 wind 一样的这个万德一样的一个数据平台嘛。
+[Speaker 0]: 呃也一样。
+[Speaker 0]: 我每次开发平台经常一说，
+[Speaker 0]:  AI 就跟我说好，
+[Speaker 0]: 我你的想法，
+[Speaker 0]: 我梳理成一个文档啊，
+[Speaker 0]: 你看一眼啊，
+[Speaker 0]: 你要确定我们就继续看个屁，
+[Speaker 0]: 就直接说继续就继续了，
+[Speaker 0]: 对吧？
+[Speaker 0]:  a 来说，
+[Speaker 0]: 哎，
+[Speaker 0]: 我这是写三个啊，
+[Speaker 0]: 这个五点需要你 review 一下，
+[Speaker 0]: 这五个东西怎么处理呢？
+[Speaker 0]: 啊，
+[Speaker 0]: 如果你不回答我，
+[Speaker 0]: 默认就按这样这样这样这样这样处理，
+[Speaker 0]: 我也看也不看就直接继续了。
+[Speaker 0]: 但并不代表这事儿本身不看。
+[Speaker 0]: 所以我觉得我把这事分成两个逻辑啊，
+[Speaker 0]: 一个是业务逻辑，
+[Speaker 0]: 一个是实现逻辑。
+[Speaker 0]: 就业务逻辑呢就是我这个事儿要干嘛，
+[Speaker 0]: 以什么方式去完成实现逻辑呢？
+[Speaker 0]: 就是业务逻辑定了，
+[Speaker 0]: 这玩意怎么变程序。
+[Speaker 0]: 呃，
+[Speaker 0]: 我的基本想法是啊实现逻辑这部分。
+[Speaker 0]: 就你刚才讲的也是，
+[Speaker 0]: 我平时一直 yes，
+[Speaker 0]:  yes yes yes 的，
+[Speaker 0]: 就是实现逻辑，
+[Speaker 0]: 这部分人能够做的事情已经很少很少了。
+[Speaker 0]: 我不觉得人在实现逻辑上能够做特别多，
+[Speaker 0]: 而且实现逻辑随着这个 AI 啊，
+[Speaker 0]: 它单次工作时间越来越长，
+[Speaker 0]: 你可以去看，
+[Speaker 0]: 你可以去质量控制的，
+[Speaker 0]: 对不对？
+[Speaker 0]: 介入点也越来越少了，
+[Speaker 0]: 现在你开发可能每你要你要你要真看每每每每每二十分钟就能看一次，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那以后可能每八个小时看一次，
+[Speaker 0]: 那看啥看看不了，
+[Speaker 0]: 根本看不了。
+[Speaker 0]: 所以说你还是要回到业务逻辑那里去。
+[Speaker 0]: 就是如果你能够进入业务逻辑，
+[Speaker 0]: 业务逻辑的部分，
+[Speaker 0]: 至少现在是一定需要人的。
+[Speaker 0]: 就是这个业务怎么开展起来？
+[Speaker 0]: 就这个公司一个一个 enenterprise，
+[Speaker 0]: 他有一个业务，
+[Speaker 0]: 这个业务怎么设计？
+[Speaker 0]: 如果这个业务要 AI 化，
+[Speaker 0]: 就是 AA agentic skskill ND 那部分这部分怎么设计是重要的。
+[Speaker 0]: 这部分结束之后，
+[Speaker 0]: 实现逻辑的部分是过去需要很多人来完成的那部分，
+[Speaker 0]: 未来都要替代最最早要替代的那部分。
+[Speaker 0]: 所以我觉得你在这个公司如果要继续下去不被替代的话，
+[Speaker 0]: 你要脱离实现逻辑的部分，
+[Speaker 0]: 往业务逻辑的部分去发展到业务逻辑的部分才是人做的。
+[Speaker 0]: 就现在实现逻辑这部分，
+[Speaker 0]: 就像你说的，
+[Speaker 0]: 我觉得是对的，
+[Speaker 0]: 没有时间看就是 yes，
+[Speaker 0]:  yes，
+[Speaker 0]:  yes 就就就结束了。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 听你这边说，
+[Speaker 1]: 我感觉就是有一种又最后还是回最最后反倒回归原点，
+[Speaker 1]: 就是还是像过还是像过去传统的，
+[Speaker 1]: 比如说 IT 咨询啊之类的一样。
+[Speaker 1]: 最重要的你你作为人最重要的能力还是怎么怎么去怎么去 hearing，
+[Speaker 1]: 怎么去怎么去理清楚客户的要求。
+[Speaker 1]: 然后他们的业务逻辑，
+[Speaker 1]: 对，
+[Speaker 1]: 然后能把它能把它变成能把它变成一个 markdown，
+[Speaker 1]: 然后扔给 AI。
+[Speaker 1]: 这样。
+[Speaker 0]: 对，
+[Speaker 0]: 就是这部分这部分最重要。
+[Speaker 0]: 然后这部分是我觉得唯一检查的，
+[Speaker 0]: 比如说我现在我我现在已经发现了，
+[Speaker 0]: 然后他平时让我检查，
+[Speaker 0]: 我都检查不了，
+[Speaker 0]: 我啥时候检查呢？
+[Speaker 0]: 只有我发现了弄不对了，
+[Speaker 0]: 他完全弄错了。
+[Speaker 0]: 然后我开始问他说，
+[Speaker 0]: 哎，
+[Speaker 0]: 这个你给我说说你那数字怎么算的，
+[Speaker 0]: 他咔咔咔咔咔告诉我他怎么算的。
+[Speaker 0]: 我说你弄错了啊，
+[Speaker 0]: 你未来这样这样这样这样这样算就是这样才行。
+[Speaker 0]: 就是我会发现他被动让我检查了，
+[Speaker 0]: 我都检查不了。
+[Speaker 0]: 我只有主动想检查的，
+[Speaker 0]: 能够大量去优化。
+[Speaker 0]: 但凡是我主动检查的都是业务逻辑，
+[Speaker 0]: 不是实现逻辑。
+[Speaker 0]: 我从来没有问过你，
+[Speaker 0]: 这是你怎么实现的，
+[Speaker 0]: 你你怎么算的，
+[Speaker 0]: 算的更快，
+[Speaker 0]: 我没有问过，
+[Speaker 0]: 我也不知道，
+[Speaker 0]: 但业务逻辑我可以自己检查，
+[Speaker 0]: 我也能够检查的过来。
+[Speaker 0]: 你是说我会发现我经验啊，
+[Speaker 0]: 就是我平时做检查的都是我主动检查才会检查，
+[Speaker 0]: 他备注让我检查的，
+[Speaker 0]: 我都检查不了。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 是是确实是这样。
+[Speaker 1]: 那你觉那你觉得像现在这种这种商用的这种商用的 coding AA coding agent 就是他做。
+[Speaker 1]: 他当然他他最终接的接的大模型，
+[Speaker 1]: 还是那个呃 oppos 啊，
+[Speaker 1]: 或者是 oppos 啊，
+[Speaker 1]: 或者是 GPT 这样的。
+[Speaker 1]: 呃，
+[Speaker 1]: 他主要是他主要是做的是，
+[Speaker 1]: 比如说啊给他给他加很多给这这种公司，
+[Speaker 1]: 他做的产品主要是啊比如说给他加很多给他开发很多给他开发很多次给开发很多 teill，
+[Speaker 1]: 或者是开开发很多这种工具，
+[Speaker 1]: 然后给他来给给他开发一些。
+[Speaker 1]: 比如说你刚才说的 honest 之类的那这种这样的公司就是这样处处于一个中介的位置的公司。
+[Speaker 1]: 你觉得长此以往，
+[Speaker 1]: 发展发展下去也是也是会变得没有意义嘛，
+[Speaker 1]: 会被会被彻底替代嘛。
+[Speaker 1]: 就是等等大王我我我觉得是是需要的，
+[Speaker 0]: 是需要的，
+[Speaker 0]: 就是这部分是需要的，
+[Speaker 0]: 而且这部分我觉得未来还不止需要，
+[Speaker 0]: 越来越需要。
+[Speaker 0]: 为为什么越来越需要呢？
+[Speaker 0]: 你做这个，
+[Speaker 0]: 你肯定知道这个 OA 嘛，
+[Speaker 0]:  office anywhere 用原么像 salesforce 这种公司。
+[Speaker 0]: 那过去呢我出一个面向中小企业的那所有中小企业就买我这个用原因是因为就你给那钱，
+[Speaker 0]: 我没法给你做定制化开发，
+[Speaker 0]: 对吧？
+[Speaker 0]: 我就开发一些模块化的功能，
+[Speaker 0]: 你就拿着模块化的功能去用。
+[Speaker 0]: 但有了 AI 之后，
+[Speaker 0]: 任何中小企业都可以以过去 OA 的成本开发一个完全为自己的业务逻辑定制化的是可行的对吧？
+[Speaker 0]: 至少这不可行了。
+[Speaker 0]: 过去不可行，
+[Speaker 0]: 你招不到这个人来做。
+[Speaker 0]: 但可行之后，
+[Speaker 0]: 难道所有做商业的人，
+[Speaker 0]: 现在都有足够的能力来完成这个开发完成不了，
+[Speaker 0]: 所以说一定会有人来做这个事情。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 过去他只能把这钱拿给 sales force，
+[Speaker 0]: 拿给拿给这个金蝶或者任何其他 OA 去买一个。
+[Speaker 0]: 他现在呢就可以拿着。
+[Speaker 0]: 同样的钱拿给一个公司，
+[Speaker 0]: 这公司给他开发一个完全和他业务逻辑一致的。
+[Speaker 0]: 所以说这个甚至比以前的业务会更广会更多。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 对，
+[Speaker 1]:  OK。
+[Speaker 1]: 好，
+[Speaker 1]: 那我就想跟你交流这些。
+[Speaker 1]: 好，
+[Speaker 1]: 谢谢。
+[Speaker 1]: 好，
+[Speaker 1]: 谢谢。
+[Speaker 0]: 好，
+[Speaker 0]: 这是交流的还是我一个老本行的事情啊？
+[Speaker 0]: 好，
+[Speaker 0]:  science aspen。
+[Speaker 3]: 喂，
+[Speaker 0]: 请问听得见吗能听见请说 ok？
+[Speaker 3]: 呃，
+[Speaker 3]: 其实我呃其实因为我我也我也没想好具体就是说要说个什么主题啊，
+[Speaker 3]: 但是我首先说就是我我是一名程序员，
+[Speaker 3]: 然后但我觉得我可能怎么说呢？
+[Speaker 3]: 代表不了大多数吧。
+[Speaker 3]: 因为我这我其实你我觉得真正真论技术的话，
+[Speaker 3]: 反在 AI 出来之前，
+[Speaker 3]: 哎，
+[Speaker 3]: 反正 AI 出来之后也是挺次的那种，
+[Speaker 3]: 就是说就是想就是聊一下嘛，
+[Speaker 3]: 聊一下关于就是程序员和 AI 这个之间的关系啊。
+[Speaker 0]: 好啊。
+[Speaker 3]: 对，
+[Speaker 3]: 就是说嗯就是说有很多呃，
+[Speaker 3]: 就你刚开始时候说是不是有很多程序员来反驳，
+[Speaker 3]: 你说啊什么 AI 替代不了程序员啥的。
+[Speaker 3]: 其实我觉得这个这个问题分两部分看法。
+[Speaker 3]: 嗯，
+[Speaker 3]: 对对对，
+[Speaker 3]: 就我觉得你单纯说说从实现角度上来说，
+[Speaker 3]: 就刚才说的实现上来说的话，
+[Speaker 3]: 我觉得是像都没画的时候，
+[Speaker 3]: 就肯定是会被替代的。
+[Speaker 3]: 嗯，
+[Speaker 3]: 都别说你是 junior 还是 senior 的，
+[Speaker 3]: 就是说就反正我觉得在可能过去十年中吧，
+[Speaker 3]: 我们大多数认知中的那种所谓的我们学校后跟啊斜在前端的这种程序员，
+[Speaker 3]: 基本是百百八十百九十都会被替代的。
+[Speaker 3]: 嗯，
+[Speaker 3]: 当然但是你说程序员会不会被完全替代呢？
+[Speaker 3]: 我个人觉得的话就是说在短期内嘛，
+[Speaker 3]: 至少在 AI 进入下一个大的飞跃之前，
+[Speaker 3]: 我觉得在短期还是不会替代的。
+[Speaker 3]: 呃，
+[Speaker 3]: 我觉得一个是两个原因哈，
+[Speaker 3]: 第一个最主要的原因就是说嗯他还是业务员还是业务嘛。
+[Speaker 3]: 业务层面上就是说呃其实在我觉得在 AI 时代之前，
+[Speaker 3]: 在在现在这个 AI 时代之前哈呃其实程讯师就已经有有这种说法，
+[Speaker 3]: 就是说其实业业务是大于业务是大于你的技术的。
+[Speaker 3]: 嗯，
+[Speaker 3]: 对你是你身的一个行业，
+[Speaker 3]: 是不是你在那个行业所知到的知识？
+[Speaker 3]: 别离到那个你是说技术那个知识其实是要重要很多的。
+[Speaker 3]: 因为因为你说技术这个东西的话，
+[Speaker 3]: 因为因为这个 IT 行业嘛，
+[Speaker 3]: 它本身有它很强大的一个开源属性。
+[Speaker 3]: 嗯，
+[Speaker 3]: 它很少，
+[Speaker 3]: 除了说所以说你说你去做欠市这样的行业化，
+[Speaker 3]: 我们说普遍意义上的未必技术的话，
+[Speaker 3]: 哎，
+[Speaker 3]: 他其实没什么特别，
+[Speaker 3]: 就是特别特别所谓用那个 IT 行业黑化来说，
+[Speaker 3]: 没有那种特别多的过程和技术。
+[Speaker 3]: 就那个就是说你而且像之前吧，
+[Speaker 3]: 也是说你干程序而已，
+[Speaker 3]: 干到三十五岁，
+[Speaker 3]: 你不生管理的话其实也就到头了。
+[Speaker 3]: 嗯，
+[Speaker 3]: 我觉得 ASA 到来的时候，
+[Speaker 3]: 其实 AI 时代到来，
+[Speaker 3]: 其实就是把这个数进程给加快了而已。
+[Speaker 3]: 就反正你做一般的程序实践，
+[Speaker 3]: 那肯定是一个头的。
+[Speaker 3]: 就除非当然除非说你是去做游戏，
+[Speaker 3]: 或者说嵌入式他到那个技术很顶尖的一个水平。
+[Speaker 3]: 但这种人在 AI 时代之前，
+[Speaker 3]: 我觉得他也承得可能呈现的百分之嗯可能百分之个位数的水平。
+[Speaker 3]: 就是所以说呃就是说的我觉得是就说替代肯定是会替代大部分的。
+[Speaker 3]: 但是小部分就特别是说你经生根这个行业，
+[Speaker 3]: 你深根这个行业的业务，
+[Speaker 3]: 然后你又是很懂技术的，
+[Speaker 3]: 然后再接触 AI 肯定是很难替代的。
+[Speaker 3]: 然后还有一个的话，
+[Speaker 3]: 还有一个我觉得可能是次一点的。
+[Speaker 3]: 就是说我个人觉得哈，
+[Speaker 3]: 虽然说现在很很多人都可以借助现在的 AI 来做开发，
+[Speaker 3]: 对吧？
+[Speaker 3]: 嗯，
+[Speaker 3]: 但是他 IT 的话，
+[Speaker 3]: 它整个来说它我个人觉得还是还是是一条龙域啊。
+[Speaker 3]: 就是说你不只是要做开发嘛，
+[Speaker 3]: 对吧？
+[Speaker 3]: 其实你还要去做运维，
+[Speaker 3]: 嗯，
+[Speaker 3]: 就是它本身的话，
+[Speaker 3]: 它其实还是他自己有一些特定的那个。
+[Speaker 3]: 呃，
+[Speaker 3]: 我不说技术啊，
+[Speaker 3]: 就是说你有很多那个知识成本在里面。
+[Speaker 3]: 这些知识成本就是比对这个 IT 行业的认识的话，
+[Speaker 3]: 呃，
+[Speaker 3]: 不是不不是说普通人他学不了，
+[Speaker 3]: 但他必然要花一定的时间成本，
+[Speaker 3]: 而且还是有人要去要去承担这个成本的，
+[Speaker 3]: 就是他的那个劳力成本嘛。
+[Speaker 0]: 嗯，
+[Speaker 3]: 所以说我觉得可能就是我我觉得在从这个两个方面来说，
+[Speaker 3]: 程序员他会被替代，
+[Speaker 3]: 但是还是会留一部分那些人来去承担这个工作的。
+[Speaker 3]: 嗯嗯，
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 但可能人就少一些，
+[Speaker 0]: 就是未来一个组现在留两个，
+[Speaker 0]: 对，
+[Speaker 0]: 未来十个人一个组做，
+[Speaker 0]: 现在留三个人，
+[Speaker 0]: 留两个人做。
+[Speaker 3]: 哎，
+[Speaker 3]: 对对对，
+[Speaker 3]: 这就是可能未来就会这样。
+[Speaker 3]: 我就可能是说我觉得在就是说下一个 AI 飞跃式的 AX 的到来之前的话，
+[Speaker 3]: 就是肯定程序员的人数是会锐锐减，
+[Speaker 3]: 肯定是会锐见。
+[Speaker 3]: 嗯，
+[Speaker 2]: 我也觉得对 OK。
+[Speaker 0]: 好，
+[Speaker 0]: 谢谢哎，
+[Speaker 3]: 好好空调，
+[Speaker 3]: 谢谢。
+[Speaker 0]: 好，
+[Speaker 0]:  btterfly butterfly 想好了吗？
+[Speaker 4]: 哎啊，
+[Speaker 4]: 钟理你好你好，
+[Speaker 2]: 请说呃，
+[Speaker 4]: 呃，
+[Speaker 4]: 我是那个这周跟你连过线一次哈，
+[Speaker 4]: 就对对对，
+[Speaker 4]: 记得就在法国内嗯嗯，
+[Speaker 4]: 对。
+[Speaker 0]: 然后呃对今天这个话题我确实还是比较感兴趣。
+[Speaker 0]: 然后正好今天其实算运气比较好。
+[Speaker 0]: 因为我们是周一跟周五在家工作，
+[Speaker 0]: 然后就可以有机会跟你连线，
+[Speaker 0]: 不然的话上班的时候就没办法。
+[Speaker 0]: 然后呃因为我自己本身也是个程序员嘛，
+[Speaker 0]: 嗯然后对这个话题呢最近也是用了很多了 AI 呃，
+[Speaker 0]: 之前是 chart 为主。
+[Speaker 0]: 然后从今年开始呢，
+[Speaker 0]: 基本上就是在高密度的使用，
+[Speaker 0]: 呃，
+[Speaker 0]: 主要是 cloud code。
+[Speaker 0]: 嗯，
+[Speaker 0]: 当然有那个 codex 呃，
+[Speaker 0]: 我在公司用 cloud code，
+[Speaker 0]: 等于是公司付费的 cloud code。
+[Speaker 0]: 嗯，
+[Speaker 0]: 昨天才刚刚升级到 vivo，
+[Speaker 0]: 然后在家呢我就自己用 codex。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃这个事情我觉得就是可以讲很多啊，
+[Speaker 0]: 但是我先集中一点嘛，
+[Speaker 0]: 然后说说我自己用的感觉。
+[Speaker 0]: 一个是 codex，
+[Speaker 0]: 我用 codex 在家里自己做，
+[Speaker 0]: 呃，
+[Speaker 0]: 算是自己的小游戏独立游戏。
+[Speaker 0]: 然后我就觉得啊真的很爽。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃因为完全是那种 dream control 的那种感觉，
+[Speaker 0]: 就是因为呃做游戏呢这本身其实是一件很烦的事情。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就说它呃它涉及到很多不同的 aspect，
+[Speaker 0]: 就说美术啦、
+[Speaker 0]: 然后编程啊，
+[Speaker 0]: 然后游戏设计啊，
+[Speaker 0]: 呃对一个游戏公司来说呢，
+[Speaker 0]: 它最主要的就这么几块。
+[Speaker 0]: 然后你如果个人开发者你是很难精通所有的方面的，
+[Speaker 0]: 当然有肯定是有，
+[Speaker 0]: 但是这种人才其实很少的。
+[Speaker 0]: 然后即即使你精通所有的方面，
+[Speaker 0]: 你也可能很难有精力去不断的做这个东西。
+[Speaker 0]: 当然我也知道有些开发者一个游戏做了好几年，
+[Speaker 0]: 然后最后出来一个爆款，
+[Speaker 0]: 但那个东西就很稀少。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 就是他是一个对于常人来说很困难的一个任务。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是现在呢我觉得很爽的地方就在于有 AI 之后，
+[Speaker 0]: 之前呃我我我从业游戏行业工作了大概快二十年吧。
+[Speaker 0]: 然后你会经常有很多哎，
+[Speaker 0]: 觉得这个游戏不是我想要的那种东西，
+[Speaker 0]: 他可能有百分之五十是我想要的，
+[Speaker 0]: 或者有一个很爽的。
+[Speaker 0]: 有百分之八十是我想要的，
+[Speaker 0]: 那已经很好了，
+[Speaker 0]: 很好，
+[Speaker 0]: 非常好。
+[Speaker 0]: 那你但是你自己总觉得啊，
+[Speaker 0]: 我什么地方好像就像你刚才跟那个另外一个朋友聊到的那个定制软件那种感觉啊。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但对游戏来说，
+[Speaker 0]: 他可能更更对特殊一点，
+[Speaker 0]: 因软软件本本身就就用嘛，
+[Speaker 0]: 最多 AIUI 有点不少，
+[Speaker 0]: 稍微麻烦一点。
+[Speaker 0]: 但游戏没有这个玩法，
+[Speaker 0]: 他就是没有然后你的玩法有点地方不对，
+[Speaker 0]: 你就觉得就是没有然后。
+[Speaker 0]: 现在呢我可以根据完全根据我的想法来做我自己想要的游戏，
+[Speaker 0]: 然后呢 AI 可以非常快速的给我从这个改到那个哎有的时候我的想法马上就可以拿出来试。
+[Speaker 0]: 不像我以前我要花一个月把原型做出来，
+[Speaker 0]: 嗯，
+[Speaker 0]: 这个一个很辛苦，
+[Speaker 0]: 然后呢你做到中间你可能就想法已经变了，
+[Speaker 0]: 嗯，
+[Speaker 0]: 那这个时候就会变得很乱，
+[Speaker 0]: 这个游戏变成一个大杂烩的样子。
+[Speaker 1]: 对对对，
+[Speaker 0]: 所以现在来说我自己个人，
+[Speaker 0]: 我现在做了一个项目，
+[Speaker 0]: 做了一个多月，
+[Speaker 0]: 然后已经可以玩了。
+[Speaker 0]: 然后现在再开始往上面加一些那种就是让它更丰富的东西。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后我觉得这个非常爽。
+[Speaker 0]: 然后如果这个东西我做到下个月可能觉得不行，
+[Speaker 0]: 我再换一个新的，
+[Speaker 0]: 我可以做很多很多东西，
+[Speaker 0]: 完全是我一个人独立完成的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后这这是我自己个人的做的一个东西的感觉。
+[Speaker 0]: 呃，
+[Speaker 0]: 但是我觉得这是好的方面。
+[Speaker 0]: 呃，
+[Speaker 0]: 然后呢我觉得从公司我们公司用 cloud 之前，
+[Speaker 0]: 我有跟你提过，
+[Speaker 0]: 我们是呃法国一家公司，
+[Speaker 0]: 然后拿了一个中国的非常巨型的项目过来做。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 这个项目就非常特殊，
+[Speaker 0]: 呃，
+[Speaker 0]: 我觉得可能很少有这种一个外国公司，
+[Speaker 0]: 从中国公司拿一个项目过来做啊，
+[Speaker 0]: 从中国公司拿外国项目可能偏多一点。
+[Speaker 0]: 嗯，
+[Speaker 0]: 啊外国公司拿中国项目其实是可能是比较少。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 这里面就有很多问题，
+[Speaker 0]: 除了那个大家平时工作的这个习惯跟中国的不一样，
+[Speaker 0]: 然后设计上的很多用的东西也不一样。
+[Speaker 0]: 当然有语言问题，
+[Speaker 0]: 然后各种各样的还有他们用的，
+[Speaker 0]: 他们很多自己的兔。
+[Speaker 0]: 偶然后，
+[Speaker 0]: 我们这边没有得到这个兔子授权，
+[Speaker 0]: 我们还要转换啊各种各样的，
+[Speaker 0]: 然后呢这中间的呃进度就非常的慢。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃然后我们现在主要就是还在搬，
+[Speaker 0]: 他们，
+[Speaker 0]: 剩下东西还没搬完。
+[Speaker 0]: 呃，
+[Speaker 0]: 但是呢现在有了 AI 之后呢，
+[Speaker 0]: 我我又开始尝试用 AI 做一些东西。
+[Speaker 0]: 我发现 AI 呢，
+[Speaker 0]: 其实我的这个相对来说，
+[Speaker 0]: 他最好最最擅长做的事情，
+[Speaker 0]: 就是那种以前的枯燥的重复性的东西。
+[Speaker 0]: 嗯，
+[Speaker 2]: 对，
+[Speaker 0]: 呃，
+[Speaker 0]: 以前会有很多的，
+[Speaker 0]: 比如刚刚我跟你聊的时候，
+[Speaker 0]: 正好就一个很紧急的东西过来正在做。
+[Speaker 0]: 然后这个东西它是关于一个呃 windows 虚拟机里面一个呃，
+[Speaker 0]: 因为 windows 里面有 linux 虚拟机嘛，
+[Speaker 0]: 嗯然后这 linux 虚拟机上面有很多文件，
+[Speaker 0]: 它有很多权限的问题。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 呃我平时我要自己去写一个工具来搞这个动作，
+[Speaker 0]: 至少可能要一个小时。
+[Speaker 0]: 然后刚才我跟你聊的时候，
+[Speaker 0]: 我就 AI 已经他已经在后台跑，
+[Speaker 0]: 然后已经跑完了。
+[Speaker 0]: 我已经因为 OK 了，
+[Speaker 0]: 刚才看到因为跑没问题，
+[Speaker 0]: 然后在执行后面东西。
+[Speaker 0]: 然后呃但是呢你这里有一个点呢，
+[Speaker 0]: 就是说可能我用的话会偏高效一点，
+[Speaker 0]: 因为我一眼就看出来是这个问题。
+[Speaker 0]: 但是呢 junior 程序员他可能尤其是不熟悉 linux 程序员，
+[Speaker 0]: 因为在做游戏开发的，
+[Speaker 0]: 其实很多程序员他是不熟悉的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那他可能在一时半会就想不到这个问题，
+[Speaker 0]: 当然你可以说让 AI 去帮你看这个错误怎么回事。
+[Speaker 0]: 但是呢这个时候尤其是一个很大的 code base 时候，
+[Speaker 0]: 他可能就要花很长的时间，
+[Speaker 0]: 甚至有时候会猜错。
+[Speaker 0]: 嗯，
+[Speaker 0]: 会给你一些很呃就是假的 positive 的一大堆东西，
+[Speaker 0]: 然后你一个一个去验证，
+[Speaker 0]: 最后发现呃好像都不对。
+[Speaker 0]: 嗯，
+[Speaker 0]: 啊这个我因为我今年一直在用嘛，
+[Speaker 0]: 到现在快半年了。
+[Speaker 0]: 包们在就是今年我刚入职这个公司，
+[Speaker 0]: 然后我就一直在，
+[Speaker 0]: 因为有了官官方 clououd 后就一直在用，
+[Speaker 0]: 一直在用。
+[Speaker 0]: 嗯，
+[Speaker 0]: 包括用来做 code，
+[Speaker 0]: 包括来做包写了很多 rereskill 来尝试。
+[Speaker 0]: 嗯，
+[Speaker 0]: 包括帮我们分析那个之前我想是最好的状况，
+[Speaker 0]: 是他可以自己你去抓那个 java 上面的 task，
+[Speaker 0]: 然后呢，
+[Speaker 0]: 自己帮你分析你的代码里面哪一些部分跟这个 jar task 有关系，
+[Speaker 0]: 然后尝试给出 solution，
+[Speaker 0]: 然后最后我去 review 就可以了。
+[Speaker 0]: 但是呢我中间确实是有很多的问题，
+[Speaker 0]: 呃，
+[Speaker 0]: 但是尽管这样还是非常非常的有帮助，
+[Speaker 0]: 嗯，
+[Speaker 0]: 让我的工作效率我估计至少是之前的五倍左右吧，
+[Speaker 0]: 我估计嗯嗯但是呢然后对比来说，
+[Speaker 0]: 就是欧洲这边很多人，
+[Speaker 0]: 其实他们是不是那么喜欢 AI 的，
+[Speaker 0]: 嗯，
+[Speaker 2]: 欧洲人是他有厌恶都很强。
+[Speaker 0]: 对，
+[Speaker 0]: 有的人是说你像欧洲这边，
+[Speaker 0]: 其实呃有的人是我在这个公司就养老了，
+[Speaker 0]: 我不用学新东西，
+[Speaker 0]: 我就做。
+[Speaker 0]: 我就是说已已经做的很熟练的东西，
+[Speaker 0]: 就 OK。
+[Speaker 0]: 然后有的人呢可能是有一种恐惧，
+[Speaker 0]: 不被替恶，
+[Speaker 0]: 然后或者是有恐惧，
+[Speaker 0]: 我就是厌恶本能性的厌恶，
+[Speaker 0]: 不知道为什么我就是厌恶，
+[Speaker 0]: 然后会有很多人这样子。
+[Speaker 0]: 但是我们公司我们组里面，
+[Speaker 0]: 可能我估计百分之三十的人用的比较多吧，
+[Speaker 0]: 但是剩下的就是几乎不怎么了解哦，
+[Speaker 2]: 那真的很少。
+[Speaker 2]: 如果只有百分之三十的人用的多的话，
+[Speaker 2]: 其实真的不算多。
+[Speaker 0]: 对对对，
+[Speaker 0]: 对我，
+[Speaker 0]: 因为我经常会偷偷观察，
+[Speaker 3]: 嗯，
+[Speaker 0]: 他们并没有想象的那么多。
+[Speaker 0]: 虽然这个东西真的非常非常的好用，
+[Speaker 0]: 但是我就不知道他们会怎么去哲学上去考虑的问题哈。
+[Speaker 0]: 就是可能会觉得呃我是因为说实话给我的任务，
+[Speaker 0]: 我以前呃要做一天的东西。
+[Speaker 0]: 比如说一周的东西，
+[Speaker 0]: 我现在可以用 AI 三个小时就完成。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后我不知道他们会不有道德上的东西，
+[Speaker 0]: 觉得不安，
+[Speaker 2]: 特感觉不是你以前在 stack over flolow 上不一样，
+[Speaker 2]: 是别人的想法，
+[Speaker 2]: 别人的方案吗？
+[Speaker 0]: 对对对对对，
+[Speaker 0]: 但是呃然后就是呃说延伸一点哈，
+[Speaker 0]: 关于 AI 替代这个问题，
+[Speaker 0]: 我叶姐一直在思考这个问题，
+[Speaker 0]: 但是我觉得真的是想让我想起一句话，
+[Speaker 0]: 就是那个呃人生不满百常怀千岁忧，
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃就生年不满百常怀千岁忧。
+[Speaker 0]: 这这个这个诗啊，
+[Speaker 0]: 然后就是呃其实就是关于智力这个东西它到底怎么来的，
+[Speaker 0]: 是吧？
+[Speaker 0]: 然后它被取代了又会怎么样？
+[Speaker 0]: 其实没关系啊，
+[Speaker 0]: 因为从地球有历史以来，
+[Speaker 0]: 这个生物的百分之九十九都灭绝了，
+[Speaker 0]: 可能百分之九点九都灭绝了。
+[Speaker 0]: 其实无所谓的。
+[Speaker 0]: 我我觉得就是人就是一种进化形式而已，
+[Speaker 2]: 时间尺度拉长了都无所谓啊。
+[Speaker 0]: 对，
+[Speaker 0]: 智力这个东西它本身是是就是是一个东西，
+[Speaker 0]: 它不一定要用在碳机上面是吧？
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后但是呢我觉得从另外一个方面说，
+[Speaker 0]: 我觉得现在的这个 AI 也远远没有到人类智力的这种。
+[Speaker 0]: 因为它首先它组织形式很不一样。
+[Speaker 0]: 嗯，
+[Speaker 0]: 它它是一个集中型的这种智能体，
+[Speaker 0]: 它不是人类，
+[Speaker 0]: 其实是很独特的。
+[Speaker 0]: 人类是一大堆的分布式的智能体。
+[Speaker 0]: 然后我们用一种很低效的语言发声的方式去沟通。
+[Speaker 0]: 但是呢 somehow it works，
+[Speaker 0]: 然后呃但是他跟 AI 其实不太一样的。
+[Speaker 2]: 哎，
+[Speaker 2]: 我知道我知道人人类最厉害的就是能耗如此之低，
+[Speaker 2]: 就人类的思维到这个对能耗是非常重要的对人类重要思维到这个地步，
+[Speaker 2]: 每天就这么几百卡，
+[Speaker 2]: 就就就就完全够跑了。
+[Speaker 2]: 这 AI 一个数据库耗这么多电，
+[Speaker 2]: 也就可以打平手是吧？
+[Speaker 0]: 对对对对对对，
+[Speaker 0]: 还人类是可以 reasoning 的。
+[Speaker 0]: 这个事情我到现在我都还有点觉得 AAI，
+[Speaker 0]: 其实还不会 reasoning。
+[Speaker 2]: 他那个不是 reasoning，
+[Speaker 2]: 他只是一个类似的，
+[Speaker 2]: 也不也不叫一点都不类似了。
+[Speaker 2]: 那是一个成一个比喻。
+[Speaker 0]: 对对，
+[Speaker 0]: 他是他是他现在因为我之前 AI 的算法，
+[Speaker 0]: 我之前就在学嘛。
+[Speaker 0]: 因为我大学我也是毕业论文写的是那个就是小波分析来进行图像识别。
+[Speaker 0]: 所以其实之前我也很早很早以前，
+[Speaker 0]: 我就在看乐村的那些东西，
+[Speaker 0]: 然后怎么样 degrade 去那个。
+[Speaker 0]: 然后我到现在，
+[Speaker 0]: 我还觉得这它不是 reasoning 的东西，
+[Speaker 0]: 它它是一个统计学的东西。
+[Speaker 0]: 他现在还当然 reasoning 也可能统计学出来的哈。
+[Speaker 0]: 这个现在大家还不是非常非常确定智力怎么是一个什么东西。
+[Speaker 0]: 呃，
+[Speaker 0]: 但是我觉得现在的 AI 还没有给我有智力感觉。
+[Speaker 0]: 这个地方就是我的意思就是说，
+[Speaker 0]: 包括今天我刚刚有个解决一个问题，
+[Speaker 0]: 就是我呃看到代码里面，
+[Speaker 0]: 然后我去改了一个 bug，
+[Speaker 0]: 然后呢呃组里面其他人他们 review 之后，
+[Speaker 0]: 他们就觉得有问题，
+[Speaker 0]: 嗯，
+[Speaker 0]: 几乎所有的人都觉得有问题。
+[Speaker 0]: 然后今天早上一直带他们讲，
+[Speaker 0]: 为什么这个地方要这样子提，
+[Speaker 0]: 嗯，
+[Speaker 0]: 啊最后把他们都说服了。
+[Speaker 0]: 但是我觉得 AI 可能很难做到这一点，
+[Speaker 0]: 因为 AI 是一个中心式的东西，
+[Speaker 0]: 它不会有一个人跳出来。
+[Speaker 0]: 跟你说啊，
+[Speaker 0]: 这个地方好像不对，
+[Speaker 0]: 虽然我知道现在好像有很多那种啊有这个 AIP review。
+[Speaker 2]: 那个对对对，
+[Speaker 2]: 多多 a 阵的交叉的这种，
+[Speaker 2]: 现在有了。
+[Speaker 2]: 嗯，
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 但是我感觉他不是在 reasoning，
+[Speaker 2]: 但是在对对那不同的不同的都不好说。
+[Speaker 2]: 不同的不同的统计方式，
+[Speaker 2]: 不同的统计方式，
+[Speaker 2]: 数据不同的 prompty。
+[Speaker 0]: 对对，
+[Speaker 0]: 然后 a prompting 其实是你在增加这个东西的权重，
+[Speaker 0]: 对，
+[Speaker 2]: 然后呢不同的增加不同的函数分布。
+[Speaker 0]: 对，
+[Speaker 0]: 然后你再往这个概率往那个方向靠，
+[Speaker 0]: 往这个方向靠。
+[Speaker 0]: 其实你在调整它的，
+[Speaker 0]: 你你射箭射到那个靶子上面的概率，
+[Speaker 0]: 然后最后射到中间就哦非常好，
+[Speaker 0]: 就这样子。
+[Speaker 0]: 但是没有 reasoning 这个地方，
+[Speaker 0]: 就是说他不是说哎我用逻辑去给你解释清楚。
+[Speaker 0]: 因为包括现在我觉得 AI 还不是很会做数学题。
+[Speaker 0]: 因为这种概率性东西，
+[Speaker 0]: 它其实是不是来做数学题的对啊，
+[Speaker 0]: 所以我可以感觉出来就是包括钟林。
+[Speaker 0]: 你说啊呃因因为文科生来说哈，
+[Speaker 0]: 对于文学艺术、
+[Speaker 0]: 文科这些东西来说，
+[Speaker 0]: 它确实是都是偏概率性的东西。
+[Speaker 2]: 他们就非常对 match AI，
+[Speaker 2]: 你好多写小说的，
+[Speaker 2]: 绝对不会这么思考他们的工作。
+[Speaker 2]: 你说他们的工作是概率性的，
+[Speaker 2]: 他他肯定不会觉得那是概率性的。
+[Speaker 0]: 你可你可以这样想，
+[Speaker 0]: 小说分小说其实是两个东西。
+[Speaker 0]: 为什么我们看一个电影，
+[Speaker 0]: 我们觉得烂电影好电影，
+[Speaker 0]: 我们最根本出发点首先是要有讲不讲逻辑，
+[Speaker 0]: 他有没有道理？
+[Speaker 0]: 然后才是艺术性，
+[Speaker 0]: 就是他的这些镜头表现啦，
+[Speaker 0]: 然后音乐啦，
+[Speaker 0]: 然后故叙事节奏啦。
+[Speaker 0]: 这个不一定，
+[Speaker 0]: 这些东西是另外一个 part 的对，
+[Speaker 0]: 就他他们两个都很重要，
+[Speaker 0]: 但是他们两个也就是 AI，
+[Speaker 0]: 现在很擅长做，
+[Speaker 0]: 就是其他的那些东西，
+[Speaker 0]: 但他还不是很擅长去做推理。
+[Speaker 0]: 你你让 AI 给你讲一个故事，
+[Speaker 0]: 他经常会讲的很乱七八糟，
+[Speaker 0]: 就会会跳来跳去的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 这是我自己的感觉。
+[Speaker 0]:  OK。
+[Speaker 0]: 好，
+[Speaker 0]: 我我有时候也会 AI 写一些小说，
+[Speaker 2]: 还自己看好好，
+[Speaker 2]: 谢谢。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对我谢谢。
+[Speaker 2]: 我们今天再连一位啊，
+[Speaker 2]: 因为我们还有那个回答问题的部分啊，
+[Speaker 2]: 就是这个关于 AM 之后再再聊吧，
+[Speaker 2]: 就不好意思，
+[Speaker 2]: 我们今天这个环节再连一位 cycyber pebbling 喂钟于老师能听到吗？
+[Speaker 2]: 能听到听。
+[Speaker 2]: 好，
+[Speaker 2]: 请说啊，
+[Speaker 3]: 今天我可能网络不太好，
+[Speaker 3]: 呃，
+[Speaker 3]: 那个没有，
+[Speaker 2]: 就刚才一下而已。
+[Speaker 3]: 哦，
+[Speaker 3]: 好，
+[Speaker 3]: 那个呃就是 vivo 这个模型呃，
+[Speaker 3]: 暂时我没有什么可以说的。
+[Speaker 3]: 因为这个我的研究领域是他的呃，
+[Speaker 3]: 他认为的敏感领域，
+[Speaker 3]: 所以我是不是很很清，
+[Speaker 2]: 所以说你用不了。
+[Speaker 3]: 但是对对对，
+[Speaker 3]: 呃，
+[Speaker 3]: 但是我想说的呢就是就是抽离出来说这个 AI 对呃工作的替待这个这个问题的。
+[Speaker 3]: 我是觉得呃我是彻彻底底大家这样拍，
+[Speaker 3]: 就是说人的嗯所有人身上的所有的一切的工具的属性啊，
+[Speaker 3]: 我觉得最终都是可以分解的。
+[Speaker 2]: 嗯，
+[Speaker 3]: 我也觉得然后但是但实际上因为我我是作为一个呃科学研究工作主况，
+[Speaker 3]: 嗯，
+[Speaker 3]: 我实际上觉得还是呃对我个人而言，
+[Speaker 3]: 我觉得还是嗯感觉挺好的。
+[Speaker 3]: 对于对于现在就是 AI 的发展来说，
+[Speaker 3]: 嗯，
+[Speaker 3]: 因为其实有两个方面的原因吧，
+[Speaker 3]: 就是一个呢就是对于科学研究这种这个这个工作来说，
+[Speaker 3]: 就是说呃他没有一个非常明确的方向。
+[Speaker 3]: 就是呃所以实际上很多的突破和发展是呃来源于一些非常随机的一些数据和观察。
+[Speaker 3]: 那么这些这些数据和观察呢，
+[Speaker 3]: 不一定都能够呃能够被真整齐齐的给问一个 AI，
+[Speaker 3]: 对吧？
+[Speaker 3]: 有些东西它啊它它没有被整合到这个 AI 的数据流里面去。
+[Speaker 3]: 嗯，
+[Speaker 3]: 那么在这个在这个意义上，
+[Speaker 3]: 这个人类的探索还是有很多人类的感知，
+[Speaker 3]: 人类的探索还是呃挺有空间的。
+[Speaker 3]: 那么呃呃另外一个方面呢，
+[Speaker 3]: 就是说呃随着这个工具属性需求的衰退啊，
+[Speaker 3]: 就是呃我觉得就是嗯尤其在在在个知识界界，
+[Speaker 3]: 呃，
+[Speaker 3]: 人和人之间的关系可能会呃取消比较比较往往关的社会呃，
+[Speaker 3]: 有一个回退的这个一个一个一个趋势。
+[Speaker 3]: 那么我我上次有跟您，
+[Speaker 3]: 您明白，
+[Speaker 3]: 就是讲学术道德这个问题的时候，
+[Speaker 3]: 我也问一些就是说在在一个熟人社会当中，
+[Speaker 3]: 就是一个人的信誉。
+[Speaker 3]: 一个人他的啊呃对因为他他的声誉以及他呃你对这个有多多了解，
+[Speaker 3]: 呃，
+[Speaker 3]: 这其实呃也会就是一个特别重要的事情。
+[Speaker 3]: 嗯，
+[Speaker 3]: 对，
+[Speaker 3]: 所以呃在在在这个问题上面，
+[Speaker 3]: 我也想就是请教一下，
+[Speaker 3]: 呃，
+[Speaker 3]: 就是你有没有就是这方面类似的观察，
+[Speaker 3]: 就是说呢这个 AI 大爆发，
+[Speaker 3]: 现在这个时间点其实挺有意思的。
+[Speaker 3]: 因为呃我我们就是从小到大一直都是被教育的什么的。
+[Speaker 3]: 就是你比如说学好数理化，
+[Speaker 3]: 走过停下都会差，
+[Speaker 3]: 对吧？
+[Speaker 3]: 就是这些工具属性的东西，
+[Speaker 3]: 就是在过去的三十年当中，
+[Speaker 3]: 就变得就是一直是变得越来越重要越来越重要。
+[Speaker 3]: 然后以至于说像现在这个社会当中，
+[Speaker 3]: 就是你的工具属性你足够强。
+[Speaker 3]: 那么你甚至是可以活在一个彻彻底底的原则化的社会里面，
+[Speaker 3]: 你不需要跟其他人有特别强烈的这个联系，
+[Speaker 3]: 对吧？
+[Speaker 3]: 那么 AI 的大爆发就是把这个趋势完全的一百八十度的一个大转弯，
+[Speaker 3]: 就导致了一种非常强烈的撕裂。
+[Speaker 3]: 所以我想就请教一下您对这个问题的观察和想法是什么？
+[Speaker 3]: 嗯，
+[Speaker 2]: 我的想法是我觉得我觉得你说的有一个点是对的啊，
+[Speaker 2]: 就是可能人的那部分被凸显出来，
+[Speaker 2]: 但是人的那部分被凸显出来，
+[Speaker 2]: 会不会导致真正的这个关系式的社会呢？
+[Speaker 2]: 我对这个倒还很悲观。
+[Speaker 2]: 我的悲观的点就是呢呃看网上有这么多的 QL，
+[Speaker 2]: 有这么多的网红，
+[Speaker 2]: 有这么多 influencer。
+[Speaker 2]: 那过去有很多是工具性的讲政治的等等等等。
+[Speaker 2]: 那可能之后大家会发现一个非常重要的东西，
+[Speaker 2]: 它就变得像什么呢？
+[Speaker 2]: 我用一个词儿啊，
+[Speaker 2]: 它会变得像政客化。
+[Speaker 2]: 我觉得什么叫政客化？
+[Speaker 2]: 是个非常有意思的词汇。
+[Speaker 2]: 你看各个国家的这些国会议员，
+[Speaker 2]: 就是民选的议员。
+[Speaker 2]: 这些人有时候不是任何领域的专家，
+[Speaker 2]: 不是任何领域的这个特殊人才，
+[Speaker 2]: 就是他身上工具性很弱。
+[Speaker 2]: 然后你会发现这些人你要是真从一个客观的角度来审视他们的话，
+[Speaker 2]: 非常的荒唐，
+[Speaker 2]: 就经常说话，
+[Speaker 2]: 荒腔走板，
+[Speaker 2]: 各种各的问弱。
+[Speaker 2]: 但是呢如果你把它推进一个游戏，
+[Speaker 2]: 就是要让很多人在三四个里面选，
+[Speaker 2]: 还就能给它选出来。
+[Speaker 2]: 那么也就是说呢，
+[Speaker 2]: 他们有一种浓厚的这个公约数意义上的这个亲和力或者人格魅力吧。
+[Speaker 2]: 这个人格魅力是个中性词啊，
+[Speaker 2]: 当然创品也有某种人格魅力，
+[Speaker 2]: 就他们有这种人格魅力。
+[Speaker 2]: 我觉得 AI 的时代，
+[Speaker 2]: 像你说的这个人的工具化大大缩减之后，
+[Speaker 2]: 可能这个人格魅力的部分会非常非常重要。
+[Speaker 2]: 但是呢这个人格魅力未必会导向一个线下的日常真实关系的生活。
+[Speaker 2]: 可能在互联网上的这种人格魅力所形成的这个关系，
+[Speaker 2]: 就是人跟一个偶像的关系或人跟一个 k 二的关系会是一个很重要的关系。
+[Speaker 2]: 那么在这种关系里面，
+[Speaker 2]: 他对于他他有某种虚假性，
+[Speaker 2]: 他对于线下的关系也有某种替代性。
+[Speaker 2]: 我觉得这个可能是一个有互联网之后的状态吧，
+[Speaker 2]: 这个未必特别的健康。
+[Speaker 2]: 但是我对于人能够回到真实生活有真实的关系，
+[Speaker 2]: 这个事儿也比较悲观。
+[Speaker 3]: 好的，
+[Speaker 3]: 谢谢，
+[Speaker 3]: 我再想想这个问题。
+[Speaker 3]: 嗯嗯，
+[Speaker 3]: 好，
+[Speaker 3]: 拜拜拜拜。
+[Speaker 2]: 好，
+[Speaker 2]: 抱歉，
+[Speaker 2]: 我们今天就先连这么多啊，
+[Speaker 2]: 就是我们就我还得去回答那个饭店问答极速版。
+[Speaker 2]: 因为今天我们的计划不是一口气把呃时间都花在这个 AI 上，
+[Speaker 2]:  AI 我们以后慢慢聊吧。
+[Speaker 2]: 那我们听首歌，
+[Speaker 2]: 然后我们就进入到这个饭店问答极速版的部分啊，
+[Speaker 2]: 很久没搞翻斗塔极速版了 OK 我们进极速版，
+[Speaker 2]: 但进极速速速版。
+[Speaker 2]: 之前 AL 最后说一句啊，
+[Speaker 2]: 刚才我不是在那个里面问吗？
+[Speaker 2]: 我说大家有没有感觉到这个 chat GBT 的语音识别比这个 cloud 要好很多。
+[Speaker 2]: 为什么会发现这个呢？
+[Speaker 2]: 就是因为之前 AI 啊这个报的使用，
+[Speaker 2]: 还有好多那个 chaboprompt engineering 的部分，
+[Speaker 2]: 对吧？
+[Speaker 2]: 最开始是 prompt engineering，
+[Speaker 2]: 就写一个什么样的 prompt，
+[Speaker 2]: 可以有好的结果。
+[Speaker 2]: 现在有 reasoning 之后啊，
+[Speaker 2]: 完全返璞归真了，
+[Speaker 2]: 什么 prompt engineering 没有这些，
+[Speaker 2]: 你就只直接说你要啥吧，
+[Speaker 2]: 你不需要给我藏着掖着，
+[Speaker 2]: 不需要给我技巧，
+[Speaker 2]: 不用技巧，
+[Speaker 2]: 就是要啥。
+[Speaker 2]: 哎，
+[Speaker 2]: 自从这个之后啊，
+[Speaker 2]: 我现在用 AI 大多数都是纯语音输入，
+[Speaker 2]: 因为打字还是没有嘴快嘛。
+[Speaker 2]: 而且他你毕竟不是写文章，
+[Speaker 2]: 有一定的冗余。
+[Speaker 2]: 对 a 来讲不是问题，
+[Speaker 2]: 但你可以用很短的时间，
+[Speaker 2]: 用比较长的篇幅把你的需求描述的足够清楚。
+[Speaker 2]: 是的，
+[Speaker 2]: 现在我就发觉能够用比较长的篇幅，
+[Speaker 2]: 把需求描述的足够清楚，
+[Speaker 2]: 很重要。
+[Speaker 2]: 而这个东西呢语音比打字要快，
+[Speaker 2]: 语音比打字要更容易，
+[Speaker 2]: 而且因为它那个语音很厉害。
+[Speaker 2]: 就如果比如说你在里面有两三句话，
+[Speaker 2]: 你说的不太对，
+[Speaker 2]: 前后颠倒，
+[Speaker 2]: 他还哎，
+[Speaker 2]: 他还给你，
+[Speaker 2]: 把你最后的那个点，
+[Speaker 2]: 把中间的删掉，
+[Speaker 2]: 把最后给你提过来。
+[Speaker 2]: 就他自己从语音转到 prom 的部分，
+[Speaker 2]: 它是有优化的，
+[Speaker 2]: 就是 GHBG 这部分做的非常非常好。
+[Speaker 2]: 所以现在我基本上比较复杂的需求我都不是。
+[Speaker 2]: 比如说我跟 code x 就是不断的用语音跟他沟通，
+[Speaker 2]: 语音跟他交互，
+[Speaker 2]: 这也是一个小经验分享给大家。
+[Speaker 2]: 这可能是一个最好的办法。
+[Speaker 2]: 我觉得用这样的话，
+[Speaker 2]: 你可以用最大的篇幅把你的这个东西讲清楚。
+[Speaker 2]: 好，
+[Speaker 2]: 那么我们来进入今天的这个翻店问答极速版。
+[Speaker 2]: 第一个问题，
+[Speaker 2]: 如何推动中国向时装人大方向转型？
+[Speaker 2]: 就人人民代表大会假设五律回国，
+[Speaker 2]: 陈宗夺得总书记大委作为他的幕僚，
+[Speaker 2]: 您将如何推动中国向时装人大议会制民主转型？
+[Speaker 2]: 当前人民代表大会制度实际执行起来有什么困难？
+[Speaker 2]: 有哪地方需要优化？
+[Speaker 2]: 不如武律当总书记了，
+[Speaker 2]: 我还当幕僚，
+[Speaker 2]: 我我不得弄个常委当呢，
+[Speaker 2]: 对吧？
+[Speaker 2]: 对对对，
+[Speaker 2]: 是这样的，
+[Speaker 2]: 你这个问题很有意思啊。
+[Speaker 2]: 呃很多人认为要时装人大我都不觉得。
+[Speaker 2]: 如果中国要走改革的路径的话，
+[Speaker 2]: 时装人大是一个点，
+[Speaker 2]: 就是时装人大。
+[Speaker 2]: 时装人大什么呢？
+[Speaker 2]: 呃，
+[Speaker 2]: 人大做一个立法机构有很多的权限，
+[Speaker 2]: 比如说立法权，
+[Speaker 2]: 比如说审查权，
+[Speaker 2]: 比如说预算监督权、
+[Speaker 2]: 预算审核权等等等等的。
+[Speaker 2]: 人大本身有非常非常多的权利。
+[Speaker 2]: 我认为在中国人大唯一能够时装的比较要实际的其实是预算，
+[Speaker 2]: 甚至是预算出问题的时候的预算审查权都不是预算的决定权。
+[Speaker 2]: 那从这个角度来讲呢，
+[Speaker 2]: 这是一个非常技术性的角度。
+[Speaker 2]: 所以说我并不觉得如果所改良的角度啊，
+[Speaker 2]: 因为如果全部推倒重来，
+[Speaker 2]: 还人大什么呀，
+[Speaker 2]: 直接就选议会的对吧？
+[Speaker 2]: 如果从人大的角度，
+[Speaker 2]: 我不觉得时装人大在里面是一个非常非常重要的点。
+[Speaker 2]: 就是如果我们真的把中国当做一个很复杂的经济政治体来看的话，
+[Speaker 2]: 这个经济政治体不是从人大开始的，
+[Speaker 2]: 而且人大脱离了其他的社会环境，
+[Speaker 2]: 也不具备时装的条件。
+[Speaker 2]: 如果其他的社会经济环境都实现了的话，
+[Speaker 2]: 人大在里面又不重要。
+[Speaker 2]: 所以就这个点。
+[Speaker 2]: 虽然以前经常有人说这个时装人大，
+[Speaker 2]: 但我觉得时装人大这个东西呢还是以议会制来反过来想。
+[Speaker 2]: 中国我认为并不是时装人大。
+[Speaker 2]: 呃，
+[Speaker 2]: 我对这个问题有极其系统的想法啊，
+[Speaker 2]: 有非常非常系统的想法，
+[Speaker 2]: 大家等等等吧，
+[Speaker 2]: 等等我就能把这个飞上这，
+[Speaker 2]: 这就是我刚才说我写那个书了。
+[Speaker 2]: 对，
+[Speaker 2]: 就就是我写的那个书，
+[Speaker 2]: 这这里面我有非常非常系统的想法，
+[Speaker 2]: 而且这个想法里面就提到了人大的角色啊等等等等等。
+[Speaker 2]: 所以这个到时候大家等那个书吧哈。
+[Speaker 2]: 好，
+[Speaker 2]: 下面一题小爱老师你好。
+[Speaker 2]: 回顾最近这个重庆事件，
+[Speaker 2]: 将由白纸六四我想做一款增量游戏，
+[Speaker 2]: 这个增量游戏的主题是利用数值膨胀欲来进行模拟玩家扮演一场活动的调度者。
+[Speaker 2]: 目标是通过积累游戏人数和舆论压力数值，
+[Speaker 2]: 迫使对抗主体填满妥协度、
+[Speaker 2]: 动员人群和使用的手段，
+[Speaker 2]: 如分配民众抗议时，
+[Speaker 2]: 可能会利用到装备和行为应对游行集会的政府压力平衡数值实现诉求。
+[Speaker 2]: 我希望这个游戏能让玩家在制作过程中多了解一些抗议活动的主流程期间的复杂应对政府的可用手段，
+[Speaker 2]: 以及因为是增量游戏。
+[Speaker 2]: 呃，
+[Speaker 2]: 我希望游戏最后能警惕自己在组织活动中避免把人当成资源和消耗品的获者爽感。
+[Speaker 2]: 不知道有什么建议，
+[Speaker 2]: 能让游戏不至于不至于过分的娱乐化啊这个游戏。
+[Speaker 2]: 呃，
+[Speaker 2]: 但这里面有一个我非常非常不熟悉的概念，
+[Speaker 2]: 就是什么是增量游戏。
+[Speaker 2]: 我来看看啊，
+[Speaker 2]: 哎我以前还做过桌游设计，
+[Speaker 2]: 我怎么没有这个哦哦哦嗨，
+[Speaker 2]: 就是放置游戏啊。
+[Speaker 2]:  ok ok ok ok 哦哦，
+[Speaker 2]: 就是放置游戏。
+[Speaker 1]:  ok 明白明白啊，
+[Speaker 2]: 但是把这个游行示威做成放置游戏啊哈我从来没这么想过啊，
+[Speaker 2]: 就如果我从这个游行示威的角度来想把它游戏化的话，
+[Speaker 2]: 这里面有个很大的关键。
+[Speaker 2]: 就游行示威过程中的博弈是什么？
+[Speaker 2]: 从博弈角度，
+[Speaker 2]: 这个 game 是什么？
+[Speaker 2]: 然后从这个博弈的 game 出发，
+[Speaker 2]: 再把它变成一个游戏机制，
+[Speaker 2]: 对吧？
+[Speaker 2]: 是从这个角度的，
+[Speaker 2]: 我认为放置游戏的这个 game 机制啊，
+[Speaker 2]: 它的 game play 是什么呢？
+[Speaker 2]: 它的 game play 是在固定资源之下的策略在固定资源之下的呃，
+[Speaker 2]: 战斗策略的分配吧，
+[Speaker 2]: 是这么一个东西。
+[Speaker 2]: 这个战斗策略分配呢基本是一个相克关系，
+[Speaker 2]: 它得拥有一定的相克关系，
+[Speaker 2]: 这个放置才 reasonable。
+[Speaker 2]: 但是呢这个对于游行来讲，
+[Speaker 2]: 我感觉并不是很好的在模模拟一个游行的范围。
+[Speaker 2]: 游行这个呢不是在有效资源情况之下，
+[Speaker 2]: 以相克的对应关系来形成一个策略或者一个康博士的策略。
+[Speaker 2]: 所以说我不觉得呃，
+[Speaker 2]: 我我我不觉得游行是一个适合变成放置游戏的。
+[Speaker 2]: 当然我没有细想啊，
+[Speaker 2]: 所以我会认为如果游行，
+[Speaker 2]: 那如果你要问我游行活动的这个博弈是什么呢？
+[Speaker 2]: 游行活动其实有好几个非常复杂的博弈。
+[Speaker 2]: 呃，
+[Speaker 2]: 一个是游行和游行压制方之间的博弈，
+[Speaker 2]: 就是抗议游行和政府之间的博弈。
+[Speaker 2]: 另外一个博弈是游行者之间的博策略的博弈。
+[Speaker 2]: 因为很多游行出问题都是呃对于游行的目标和坚决程度有不同的差异。
+[Speaker 2]: 有人认为应该妥协，
+[Speaker 2]: 有人认为应该坚持到底。
+[Speaker 2]: 有人认为应该暴力一点，
+[Speaker 2]: 有人认为应该团结更多的人。
+[Speaker 2]: 有人因为有有人认为应该要更少的人我觉得这部分的博弈，
+[Speaker 2]: 甚至比游行队伍和压制者之间的博弈还要更有意思。
+[Speaker 2]: 因为有时候和压制者之间的博弈，
+[Speaker 2]: 如果不是到谈判阶段，
+[Speaker 2]: 而就是在对峙阶段的话，
+[Speaker 2]: 其实博弈的点比较少。
+[Speaker 2]: 在对峙阶段的博弈，
+[Speaker 2]: 更多的是一个像星际争霸一样，
+[Speaker 2]: 可能需要现场微操的一个游戏。
+[Speaker 2]: 啊，
+[Speaker 2]: 对我觉得真正的博弈是在这个游行抗议队伍之间内部的博弈。
+[Speaker 2]: 这种内部博弈呢是可以做成一个游戏化的。
+[Speaker 2]: 但如果这个东西游戏化呢，
+[Speaker 2]: 我觉得它不是一个放置游戏，
+[Speaker 2]: 它可能更像是个什么游戏呢？
+[Speaker 2]: 我想想啊，
+[Speaker 2]: 如果把这种策略做成游戏的话，
+[Speaker 2]: 就是 ok 从一个最简单的角度来讲，
+[Speaker 2]: 如果不动脑子的角度来讲啊，
+[Speaker 2]: 它更像是那种嘴炮流的游戏。
+[Speaker 2]: 它有点像一种类狼人杀和类剧本杀式的游戏，
+[Speaker 2]: 可能是最近的那除开一个类狼人杀和类剧本杀杀的游戏呢，
+[Speaker 2]: 它也可能可以是一个投票型的游戏，
+[Speaker 2]: 就它是一个这个争取投票型的游戏。
+[Speaker 2]: 你可以想象这个游行者之间是以呃不一定要以言行投票，
+[Speaker 2]: 也也可以行为投票，
+[Speaker 2]: 以这个决策与这个行为策略来投票，
+[Speaker 2]: 与这个不同的行为策略来决定这个游行方向的一个游戏。
+[Speaker 2]: 我觉得这个可能是一个方向吧，
+[Speaker 2]: 就是但把这个游行做策略做成放置游戏，
+[Speaker 2]: 我有点没有想到这个博弈本身跟放置的关系啊，
+[Speaker 1]: 大概是这样。
+[Speaker 2]: 好，
+[Speaker 2]: 我觉得电子游戏也行啊。
+[Speaker 2]: 电子游戏就是我觉得电子游戏好一点，
+[Speaker 2]: 为什么我觉得电子游戏好点呢？
+[Speaker 2]: 因为我刚才说那种东西啊，
+[Speaker 2]: 就如果比如说多角色的行为博弈，
+[Speaker 2]: 这个行为最后涌现成一种抗议策略。
+[Speaker 2]: 如果是人的话呢，
+[Speaker 2]: 它不像是一个人数很少的人能玩得起来的。
+[Speaker 2]: 但桌游人数一多，
+[Speaker 2]: 限制就很大，
+[Speaker 2]: 所以说在电子化的方向不一定不行啊。
+[Speaker 2]: 好啊，
+[Speaker 2]: 下面一题呃提问，
+[Speaker 2]: 你既然将中国的未来押注在二次改开上，
+[Speaker 2]: 就不叫押注。
+[Speaker 2]: 我拿啥押注啊，
+[Speaker 2]: 我我一无钱，
+[Speaker 2]: 二无权三无兵，
+[Speaker 2]: 我压啥二次改开啊，
+[Speaker 2]: 我只是作为一个政治经济分析者啊，
+[Speaker 2]: 就是我来分析可能的前景是什么，
+[Speaker 2]: 我没什么可押注的。
+[Speaker 2]:  ok 但我现在有一个呃这个同学认为有一个严重问题是中共的逆向筛选机制，
+[Speaker 2]: 决策者的是空有忠诚而没有能力的人。
+[Speaker 2]: 因此我认为这群人根本没有足够的能能力和判断力进行和维持二次改开。
+[Speaker 2]: 你说这在将来是一个问题嘛。
+[Speaker 2]:  if so 这个问题该怎么应对？
+[Speaker 2]: 这当然不是个问题，
+[Speaker 2]: 为什么不是个问题呢？
+[Speaker 2]: 就比如说啊你会发现一次改开的时候，
+[Speaker 2]: 真正出来办企业，
+[Speaker 2]: 那些人王石啊、
+[Speaker 2]: 潘石屹啊，
+[Speaker 2]: 这这些人他他也不是什么提升的高官，
+[Speaker 2]: 对吧？
+[Speaker 2]: 那么都二次改开，
+[Speaker 2]: 二次改开了。
+[Speaker 2]: 中国就不是一个全能国家机构，
+[Speaker 2]: 不是一个全能国家，
+[Speaker 2]: 一定涉及到政府对于社会和对于企业的授权嘛。
+[Speaker 2]: 所以说，
+[Speaker 2]: 二次改开并不是 enable 政府让政府的权力特大做移民决策。
+[Speaker 2]: 不是，
+[Speaker 2]: 那既然二次改革，
+[Speaker 2]: 二次改开，
+[Speaker 2]: 那起码是在经济领域之上面向社会的再授权。
+[Speaker 2]: 如果像经济领域之上面向社会的再授权，
+[Speaker 2]: 那官员怎么怎么样？
+[Speaker 2]: 他厉不厉害不重要，
+[Speaker 2]: 重要的是给社会什么样的权利，
+[Speaker 2]: 给社会什么样的机构和机制来避免行政权，
+[Speaker 2]: 再次胡作非为，
+[Speaker 2]: 这个是关键，
+[Speaker 2]: 对吧？
+[Speaker 2]: 在这个关键之下，
+[Speaker 2]: 那行政那行政官还傻一点，
+[Speaker 2]: 傻一点吧，
+[Speaker 2]: 这不重要，
+[Speaker 2]: 对吧？
+[Speaker 2]: 所以说如果有什么改慨或改良，
+[Speaker 2]: 你看还有在问改良啊，
+[Speaker 2]: 跟刚问那有点像。
+[Speaker 2]: 那么这个改良呢并不依赖于有高素质的政府官员，
+[Speaker 2]: 就尤其我认为二次改开是靠这个经济危机逼出来的嘛，
+[Speaker 2]: 是靠经济困境逼出来的。
+[Speaker 2]: 在这个情况之下，
+[Speaker 2]: 根本不需要政府官员做呃，
+[Speaker 2]: 善良决定，
+[Speaker 2]: 不是政府官员突然大发善心说我要给你们授权，
+[Speaker 2]: 我要给你们这个释释放社会空间。
+[Speaker 2]: 不是啊，
+[Speaker 2]: 那肯定是这个肯定是不得不啊，
+[Speaker 2]: 肯定是那政政府弄不下去了，
+[Speaker 2]: 地方养养老金发不出来了，
+[Speaker 2]: 他不得不向社向社会授权。
+[Speaker 2]: 嗯，
+[Speaker 2]: 是这个东西啊，
+[Speaker 2]: 所以在这个情况之下呃，
+[Speaker 2]: 不需要告什么多么聪明的政府官员啊，
+[Speaker 2]: 所以这不是一个问题啊，
+[Speaker 2]: 这不是一个问题，
+[Speaker 2]: 我是否还在压住二字改革，
+[Speaker 2]: 还是我说我不压住什么。
+[Speaker 2]: 那我是否还认为这是一个值得思考的方向？
+[Speaker 2]: 我说句不好听的，
+[Speaker 2]: 也不是不好听，
+[Speaker 2]: 我这没什么不好听的。
+[Speaker 2]: 我说我的看法，
+[Speaker 2]: 这是唯一可以思考的方向。
+[Speaker 2]: 我认为不然的话，
+[Speaker 2]: 你思考啥呢？
+[Speaker 2]: 思考怎么弄个军队打回去，
+[Speaker 2]: 对吧？
+[Speaker 2]: 这也不现实，
+[Speaker 2]: 我觉得这是唯一可以思考的方向，
+[Speaker 2]: 也是唯一现实的方向。
+[Speaker 2]:  ok 好，
+[Speaker 2]: 下面一题呃分享。
+[Speaker 2]: 最近我一个观察知乎在强的一方面聚集了非常多的自由派和各种进步主义者，
+[Speaker 2]: 一方面却又是皇汉极右。
+[Speaker 2]: 反环保、
+[Speaker 2]: 反动保的极端思想大本营，
+[Speaker 2]: 特别在虐猫虐狗话题之上，
+[Speaker 2]: 每次施虐者被严肃处理，
+[Speaker 2]: 满屏的都是不服别的平台。
+[Speaker 2]: 似乎没有这么离谱的我我很好奇为什么知乎会呈现出如此割裂的情况呢？
+[Speaker 2]: 哎呀，
+[Speaker 2]: 这个问题问的非常非常的好，
+[Speaker 2]: 就是知乎和其他平台的区别是什么啊？
+[Speaker 2]: 区别在这儿，
+[Speaker 2]: 知乎是一个以投票的方式筛选出文本的一个平台，
+[Speaker 2]: 这是它最大的不同。
+[Speaker 2]: 知乎不是关注关知乎也有关注关系啊，
+[Speaker 2]: 但知乎的核心不是关注关系，
+[Speaker 2]: 知乎的信息不是视频，
+[Speaker 2]: 不是别的，
+[Speaker 2]: 而是答案。
+[Speaker 2]: 那么我就要问了，
+[Speaker 2]: 用这个方式，
+[Speaker 2]: 知乎能筛选出的文本答案是什么样的呢？
+[Speaker 2]: 它肯定不是中立的，
+[Speaker 2]: 它肯定不会是比较持中的，
+[Speaker 2]: 它多半是比较极端的。
+[Speaker 2]: 也就是说他有强烈的阵营化的色彩和趋势。
+[Speaker 2]: 也就是说，
+[Speaker 2]: 知乎上比较容易筛选出的是在事实上不犯特别大错误。
+[Speaker 2]: 但是在立场上相对极端的答案，
+[Speaker 2]: 我觉得在知乎上就我看知乎这么多，
+[Speaker 2]: 我的感觉啊，
+[Speaker 2]: 就知乎的答案呢质量不会太低。
+[Speaker 2]: 因为毕竟有这个投票筛选机制，
+[Speaker 2]: 在在这个投票筛选机制之下，
+[Speaker 2]: 他能筛出那种不会特别特别糟糕。
+[Speaker 2]: 但一般来讲，
+[Speaker 2]: 属于立场非常坚决的一个平台。
+[Speaker 2]: 所以知乎呢它是一个竞争关系。
+[Speaker 2]: 在一个答案之下，
+[Speaker 2]: 就个答案之下，
+[Speaker 2]: 不同的立场在竞争，
+[Speaker 2]: 最后能筛出来的也就是立场特别坚定，
+[Speaker 2]: 特别坚决。
+[Speaker 2]: 就是所谓的嘴替。
+[Speaker 2]: 但本身呢又是一个不那么糟糕的，
+[Speaker 2]: 就是也有时候很糟糕，
+[Speaker 2]: 就是形式上不那糟糟糕，
+[Speaker 2]: 只是形式上形式上不那么糟糕的一个嘴气，
+[Speaker 2]: 大概是这么个情况。
+[Speaker 2]: 所以说我觉得知乎不管是任何领域进步主义者啊、
+[Speaker 2]: 自由派啊等等等等，
+[Speaker 2]: 它当然容易形成一个就是极端者的大本营。
+[Speaker 2]: 所以从从这个政治学上讲，
+[Speaker 2]: 我觉得知乎很有意思啊，
+[Speaker 2]: 知乎就不像是整个社会选举过程。
+[Speaker 2]: 知乎特别像党内初选，
+[Speaker 2]: 都是那种意识形态比较坚定的人才爱用的一个东西。
+[Speaker 2]: 所以它基本是一个就意识形态比较极化的一个平台吧，
+[Speaker 2]: 大概是这样。
+[Speaker 2]: 好，
+[Speaker 2]: 下面一题，
+[Speaker 2]: 肖老师你好，
+[Speaker 2]: 还剩不到一个月，
+[Speaker 2]: 就是这个日语考试了，
+[Speaker 2]: 不知道准备怎么样，
+[Speaker 2]: 也给广大的群友鼓励一下。
+[Speaker 2]: 好，
+[Speaker 2]: 我得说啊，
+[Speaker 2]: 我还真报了 n 三。
+[Speaker 2]: 就是我今年报名了 n 三的考试，
+[Speaker 2]: 应该是七月三号不，
+[Speaker 2]: 四号就要考。
+[Speaker 2]: 但是就在我刚报完名不到一两周，
+[Speaker 2]: 我在三号和四号就有一个出差，
+[Speaker 2]: 叫去台湾出差。
+[Speaker 2]: 对，
+[Speaker 2]: 所以说从我刚报完名一周，
+[Speaker 2]: 我就知道我今年考不了，
+[Speaker 2]: 因为那天要在台湾出差，
+[Speaker 2]: 所以说自从我知道在台湾出差，
+[Speaker 2]: 我从那天到现在没有学过日语。
+[Speaker 2]: 对，
+[Speaker 2]: 所以说自从我知道，
+[Speaker 2]: 其实六七月份不会考，
+[Speaker 2]: 对我到现在没有学过日语。
+[Speaker 2]: 对，
+[Speaker 2]: 所以说我我打算十二月再报，
+[Speaker 2]: 十二月报之后呢，
+[Speaker 2]: 如果十二月不出差，
+[Speaker 2]: 那我十二月就要考。
+[Speaker 2]: 嗯，
+[Speaker 2]: 大概是这个情况，
+[Speaker 2]: 所以说我怕是鼓励不了大家了，
+[Speaker 2]: 而且我我我真的没开玩笑，
+[Speaker 2]: 这绝对是真的。
+[Speaker 2]: 就是我刚报完名不到一周就确定了要去台湾出差，
+[Speaker 2]: 所以说我的报名费我也白缴了，
+[Speaker 2]: 就捐给日本政府了。
+[Speaker 1]: 对，
+[Speaker 2]: 好，
+[Speaker 2]: 下面一题。
+[Speaker 2]: 呃，
+[Speaker 2]: 我是一个程序员，
+[Speaker 2]: 最近的工作中，
+[Speaker 2]: 百分之八十的那个 AI 完成。
+[Speaker 2]: 哦，
+[Speaker 2]: 这个这个很像刚才一个人呃问过一个问题啊，
+[Speaker 2]: 就感觉跟 AI 协作最大的 gap 在无法消化 AI 的大量信息，
+[Speaker 2]: 无法评估 AI 的工作质量，
+[Speaker 2]: 最后只能点 yes，
+[Speaker 2]: 他说反思一下 AI 出现之前，
+[Speaker 2]: 其实大部分时间也在做不动脑子的重复性工作。
+[Speaker 2]: 对对对，
+[Speaker 2]: 如何适应这种带来的巨大巨大转变？
+[Speaker 2]: 好，
+[Speaker 2]: 我刚才回答过了，
+[Speaker 2]: 我再简单重复一次啊，
+[Speaker 2]: 就是呃业务就是这种实践流程的东西，
+[Speaker 2]: 你根本看不过来。
+[Speaker 2]: 所以关键是你对业务过程有没有了解，
+[Speaker 2]: 有没有反思？
+[Speaker 2]: 如果你对业务过程有足够的反思，
+[Speaker 2]: 那作为最后的交付物，
+[Speaker 2]: 就是 AI 给你的最终交付物。
+[Speaker 2]: 你应该有一个主动检查的方式，
+[Speaker 2]: 就是你知道我该问 AI 什么问题来了解。
+[Speaker 2]: 在我想要的业务逻辑之上，
+[Speaker 2]: 他有没有高质量的实现？
+[Speaker 2]: 你用这种方式去检查 AI 做的东西，
+[Speaker 2]: 就实际上的实现流程。
+[Speaker 2]: 那 AI 那三个文档，
+[Speaker 2]: 五个文档那么大代码根本检查不过来，
+[Speaker 2]: 也不可能检查的怪，
+[Speaker 2]: 都是直接一口气点。
+[Speaker 2]:  yes 确认确认确认一直点到底的对吧？
+[Speaker 2]: 所以关键就是你能不能能不能搞定那个呃就是业务流程的部分，
+[Speaker 2]: 去自己主动的去检查它的质量。
+[Speaker 2]: 好，
+[Speaker 2]: 下面一题有了 AI 技术以后，
+[Speaker 2]: 有兴趣拍一部关于六四的电影吗？
+[Speaker 2]: 呃，
+[Speaker 2]: 没有如果，
+[Speaker 2]: 我要拍电影的话，
+[Speaker 2]: 我就说了，
+[Speaker 2]: 应该是小金爱尔兰和伯格曼那样的电影啊，
+[Speaker 2]: 就是我自己对于政治经济很感兴趣。
+[Speaker 2]: 但如果能拍电影，
+[Speaker 2]: 我肯定还是拍跟嗯人的生活相关的电影啊，
+[Speaker 2]: 那才是我真正感兴趣的点。
+[Speaker 2]: 所以我肯定政治这个事儿，
+[Speaker 2]: 我认为政治这个事儿我就以政治的严肃方式做吧，
+[Speaker 2]: 就是政治理论最重要。
+[Speaker 2]: 我倒不想做政治电影啊，
+[Speaker 2]: 如果政治要弄什么弄这个游戏还行。
+[Speaker 2]: 那要电影的话，
+[Speaker 2]: 我不我不愿意电影，
+[Speaker 2]: 我还愿意弄人的，
+[Speaker 2]: 就小金二郎和伯格曼那种的好。
+[Speaker 2]: 第二个问题是如何了解中共一直要求日本道歉的问题，
+[Speaker 2]: 该怎么入门，
+[Speaker 2]: 要先读相关材料的书嘛？
+[Speaker 2]: 哎呀，
+[Speaker 2]: 这都有 AI 时代这个问题，
+[Speaker 2]: 你直接问问 AI 不就完了嘛。
+[Speaker 2]: 对吧所以如果像这种问题啊，
+[Speaker 2]: 我我我不是说书没有用啊，
+[Speaker 2]: 但我觉得从零开始。
+[Speaker 2]: 就是如果一个领域你没有那么了解，
+[Speaker 2]: 但你又想了解了解的话，
+[Speaker 2]: 那现在 AI 肯定是最快的。
+[Speaker 2]: 你从 AI 角度来讲就行啊。
+[Speaker 2]: 好啊，
+[Speaker 2]: 呦呦，
+[Speaker 2]: 这不这同学这个这个同学问题真长，
+[Speaker 2]: 嗯，
+[Speaker 2]: 看看啊，
+[Speaker 2]: 这是就业。
+[Speaker 2]: 后续就这样找工作的同学好像是说是要回成都，
+[Speaker 2]: 找个什工作作是大城市啥的啊。
+[Speaker 2]: 最近掌握的过程中接触到一机器人无人低空智能相关中公司一听就是中国这些领域太中国了，
+[Speaker 2]: 机器人无人平台，
+[Speaker 2]: 低空智能。
+[Speaker 2]: 天哪，
+[Speaker 2]: 太中国了。
+[Speaker 2]: 越来越感觉到战争和准军事场景并不是一个边缘用途，
+[Speaker 2]: 呃，
+[Speaker 2]: 在变成很多公司心里最清楚、
+[Speaker 2]: 最现实、
+[Speaker 2]: 最快速的商业化出口。
+[Speaker 2]: 很多公司并不是只是可能被军用，
+[Speaker 2]: 而是本来就知道战争，
+[Speaker 2]: 边境军警冲突、
+[Speaker 2]: 安全无人协同。
+[Speaker 2]: 这些场景更愿意付费，
+[Speaker 2]: 也更容易让资本相信技术有需求。
+[Speaker 2]: 相比之下，
+[Speaker 2]: 普通市场太慢了，
+[Speaker 2]: 嗯，
+[Speaker 2]: 这是非常非常有意思的一个观察。
+[Speaker 2]: 更让我不舒服的就是很多从业者并不在乎这点，
+[Speaker 2]: 甚至把它看成技术理想的实现。
+[Speaker 2]: 对于他们来说，
+[Speaker 2]: 无人系统真的能进入战场机器人，
+[Speaker 2]: 能规模化使用。
+[Speaker 2]: 呃，
+[Speaker 2]: 不是伦理问题，
+[Speaker 2]: 而是技术落地。
+[Speaker 2]: 他们并不是不知道这些系统会提高暴力效率，
+[Speaker 2]: 而是觉得本来就该如此。
+[Speaker 2]: 所以关键就是他自己的伦理选择在里面怎么做了。
+[Speaker 2]: 那 ok 问题来了，
+[Speaker 2]: 一个工程师到底应该在多早的阶段开始为最终的用途负责？
+[Speaker 2]: 是等系统明确变成武器才负责，
+[Speaker 2]: 还是我明知他会提高暴力效率，
+[Speaker 2]: 就应该不能再对自己完全无辜更大的问题。
+[Speaker 2]: 中国过去对民营军用准军用技术管理相当严格，
+[Speaker 2]: 需要很多资质认证和准入流程。
+[Speaker 2]: 现在观察到这些边界在模糊啊，
+[Speaker 2]: 这是肯定的，
+[Speaker 2]: 一些新公司也开始往这个方向走啊等等等等。
+[Speaker 2]: 呃，
+[Speaker 2]: 而且呢中国在无人机机器人、
+[Speaker 2]: 电子零部件低空又有有很多优势。
+[Speaker 2]: 那如果真是这样，
+[Speaker 2]: 中国可能没有直接参战，
+[Speaker 2]: 也没有没有派士兵到前线。
+[Speaker 2]: 但可能通过低成本工业体系、
+[Speaker 2]: 出口链条和大量并不在乎把怀抱理想的工程师把无人战争推进好。
+[Speaker 2]: 呃，
+[Speaker 2]: 该怎么抉择，
+[Speaker 2]: 该怎么看这个问题吧，
+[Speaker 2]: 或者怎么看这个问题吧。
+[Speaker 2]: 是这样的，
+[Speaker 2]: 就是首先啊中国如果有超级便宜的无人镇压系统啊，
+[Speaker 2]: 中国卖给谁呢？
+[Speaker 2]: 啊，
+[Speaker 2]: 很简单，
+[Speaker 2]: 你看中国把监控系统卖给谁，
+[Speaker 2]: 中国就把无人镇压系统卖给谁？
+[Speaker 2]: 那肯定是巴基斯坦啊、
+[Speaker 2]: 匈牙利啊、
+[Speaker 2]: 伊朗啊、
+[Speaker 2]: 缅甸啊，
+[Speaker 2]: 对吧？
+[Speaker 2]: 所以说这些中国的技术哎，
+[Speaker 2]: 一会下去都会变成了这些国家镇压人民的工具。
+[Speaker 2]: 所以这个事情呢我觉得是一个主体的问题，
+[Speaker 2]: 是一个国家主体的问题。
+[Speaker 2]: 假设一个人现在在乌克兰在进行这个自杀无人机的研发，
+[Speaker 2]: 我觉得我们大家都会觉得很正常，
+[Speaker 2]: 对吧？
+[Speaker 2]: 甚至我们还希望他能够快点取得优势呢，
+[Speaker 2]: 就是乌乌克兰现在在非常紧迫的面对俄罗斯的这个竞争之中。
+[Speaker 2]: 那么所以你看这个说到底啊是个阵营问题，
+[Speaker 2]: 就说到底这是一个为谁做的问题。
+[Speaker 2]: 那为中国做，
+[Speaker 2]: 我觉得中国是个什么样的国家，
+[Speaker 2]: 我就不用在这里重复一遍了。
+[Speaker 2]: 就中国是个什么样的国家，
+[Speaker 2]: 大家都知道，
+[Speaker 2]: 我觉得为中国做这个说不过去，
+[Speaker 2]: 就算是做比较早期，
+[Speaker 2]: 我觉得伦理问题也非常大。
+[Speaker 2]: 不管是他用在国内用在台海，
+[Speaker 2]: 用在缅甸，
+[Speaker 2]: 用在伊朗。
+[Speaker 2]: 其实这个伦理代价都挺大的。
+[Speaker 2]: 所以我觉得关键是谁在主导，
+[Speaker 2]: 谁在弄啊这么一个问题。
+[Speaker 2]: 好，
+[Speaker 1]: 下面一题我不爱你 OK。
+[Speaker 2]: 好，
+[Speaker 2]: 这一个问题啊，
+[Speaker 2]: 关于大模型训练和开源协议，
+[Speaker 2]: 就是因为现在所有这些 AI 嘛都训练过大量的公开代码，
+[Speaker 2]: 其中必然包含很多开源项目代码。
+[Speaker 2]: 但是开源跟没母主不一样，
+[Speaker 2]: 对吧？
+[Speaker 2]: 就是开源本来就是要防止把社区代码吸收到闭源商业项目里面来。
+[Speaker 2]: 但现在 AI 呢几乎就是把这些开源代码吸收到闭源商业项目里面去了。
+[Speaker 2]: 而且这些 AI 公司呢自己还在用他们去盈利，
+[Speaker 2]: 呃，
+[Speaker 2]: 这是个很大的问题，
+[Speaker 2]: 对吧？
+[Speaker 2]: 就是开源，
+[Speaker 2]: 做了这么多劳动，
+[Speaker 2]: 做了这么多工作，
+[Speaker 2]: 然后却被 AI 学完。
+[Speaker 2]:  AI 学完之后呢，
+[Speaker 2]: 却以付费的方式来让大家用这个是一个很麻烦的事儿，
+[Speaker 2]: 对吧？
+[Speaker 2]: 呃，
+[Speaker 2]: 而且作者其实也很难知道自己的代码是否被训练的。
+[Speaker 2]: 因为是融合进了整个模型的代码和这个参数之中嘛。
+[Speaker 2]: 对，
+[Speaker 2]: 这是个问题啊。
+[Speaker 2]: 所以说第一个问题，
+[Speaker 2]: 闭源大模型使用开源代码训练模型本身有没有可能被认为是某种衍生作品？
+[Speaker 2]: 如果模型在训练中吸收了大量代码结构呃，
+[Speaker 2]: 等等等等，
+[Speaker 2]: 到底算不算绕开？
+[Speaker 2]: 是这样的，
+[Speaker 2]: 这个这个问题已经在很多很多不同的领域都出现了，
+[Speaker 2]: 就是 AI 来做音乐，
+[Speaker 2]: 算不算某种既有音乐的衍生作品？
+[Speaker 2]:  AI 画画算不算既有图画的衍生作品？
+[Speaker 2]: 那这更不如说 AI 来使用人类语言算不算人类既有语言作品的衍生作品，
+[Speaker 2]: 对吧？
+[Speaker 2]: 呃，
+[Speaker 2]: 这里面的一个根本的矛盾就是量的关系。
+[Speaker 2]: 就是 AI 训练是一个需要大量大量海量数据库的。
+[Speaker 2]: 那么任何一个开源作者都是像一滴水汇入大海。
+[Speaker 2]: 就你作为一个开源作者，
+[Speaker 2]: 你的项目很可能被融合进去了。
+[Speaker 2]: 但融合的方式就是一滴水汇入大海，
+[Speaker 2]: 你汇入到了他要去训练的二二十万亿行代码里面的一部分。
+[Speaker 2]: 那么就像一本书写的，
+[Speaker 2]: 再好的是海德格尔写的书。
+[Speaker 2]: 嗯，
+[Speaker 2]: 海德格尔写的书，
+[Speaker 2]: 最后也融入到这个大海之中去。
+[Speaker 2]: 可能跟一个 youtube 的视频转移的文本呃，
+[Speaker 2]: 之间的优先级不会多特别多。
+[Speaker 2]: 你说海德格尔有没有服务于这个 AI 参数的生成？
+[Speaker 2]: 有，
+[Speaker 2]: 但是有没有显著的服务于这个 AI 参数的生成？
+[Speaker 2]: 没有特别显著，
+[Speaker 2]: 就是都是融入这片大海之中。
+[Speaker 2]: 所以说从某种某种情况之下呢，
+[Speaker 2]: 这个闭源模型是使用大量的开源代码来进行训练的这是肯定的。
+[Speaker 2]: 但是呢他算不算绕开了，
+[Speaker 2]: 开源代码，
+[Speaker 2]: 这个都很难这么来说，
+[Speaker 2]: 就是这个问题已经很难再这么去询问了。
+[Speaker 2]: 呃，
+[Speaker 1]: 对对，
+[Speaker 2]: 很难这么来询问了。
+[Speaker 2]: 那么第二个问题是，
+[Speaker 2]: 即使模型本身不认为是衍生产品模型输出是否风险转嫁给这种用户。
+[Speaker 2]: 如果模型生成了和开源代码高度相似甚至近似的代码片段，
+[Speaker 2]: 那么这个输出是否需要遵守开源协议？
+[Speaker 2]: 当然不是了，
+[Speaker 2]: 对吧？
+[Speaker 2]: 开源协议不是以代码形式本身来决定的。
+[Speaker 2]: 开源协议还是以这个主权者，
+[Speaker 2]: 就是项目所有者他自己的决策来决定的。
+[Speaker 2]: 他是否加入某个开源协议等等等等的。
+[Speaker 2]: 你完全可以想象，
+[Speaker 2]: 我们做一个 AI 公司，
+[Speaker 2]: 我们这个 AI 公司接 cloud code 或者接 code x 我们的目标就是做大量的开源工具，
+[Speaker 2]: 就是过去的这个开源社群。
+[Speaker 2]: 啊，
+[Speaker 2]: 就这么说吧，
+[Speaker 2]: 因为我也用一些开源工具，
+[Speaker 2]: 就 github 上有大量没有更新的无法迭代的开源工具。
+[Speaker 2]: 我做一个开源的 NGO，
+[Speaker 2]: 这个 NGO 的目的就是要把这个 githup 上这些开源工具。
+[Speaker 2]: 我他妈全给他更新了，
+[Speaker 2]: 对吧？
+[Speaker 2]: 我自己弄弄一笔钱，
+[Speaker 2]: 然后我我就看他们的那个论坛里面，
+[Speaker 2]: 就他们那个评论区里面，
+[Speaker 2]: 大家在报哪些 bug，
+[Speaker 2]: 有哪些问题？
+[Speaker 2]: 我拿 AI 去抓拿 a 去解决解决，
+[Speaker 2]: 然后直接给他 commit 过去，
+[Speaker 2]: 然后来做啊，
+[Speaker 2]: 有没有可能呢？
+[Speaker 2]: 当然有可能，
+[Speaker 2]: 那这样说，
+[Speaker 2]: 那这样生成的代码是不是符合开源协议呢？
+[Speaker 2]: 对吧？
+[Speaker 2]: 这不是过程的问题，
+[Speaker 2]: 这是我自己决定的问题。
+[Speaker 2]: 对，
+[Speaker 2]: 所以法律真的只管这个所有者，
+[Speaker 2]: 就法律这个人要管所有者，
+[Speaker 2]: 肯定不管这个训练端吸入啊。
+[Speaker 2]: 呃，
+[Speaker 2]: 所以你说这是不是把这个合规风险留给普通开发者和下游企业，
+[Speaker 2]: 就是这是一个平台问题和工具和最终责任问题了。
+[Speaker 2]: 那现在作为互联网平台，
+[Speaker 2]: 这个平台本身都有大量的这个义务。
+[Speaker 2]: 但 AI 生成平台对于生成出来的内容负什么样的责任，
+[Speaker 2]: 有没有连带责任？
+[Speaker 2]: 比如说这个 facebook 和 facebook 上言论是有严格的连带责任的那 open i 和 open II 生成内容有没有连带责任，
+[Speaker 2]: 现在是没有，
+[Speaker 2]: 现在是非常明显，
+[Speaker 2]: 没有连带责任啊，
+[Speaker 2]: 这是一个比较麻烦的问题。
+[Speaker 2]: 对，
+[Speaker 2]: 你看评论区有人说用了 GPL 代码就应该开源。
+[Speaker 2]: 那问题就是这样，
+[Speaker 2]: 就我说你是一滴水汇入这个大海，
+[Speaker 2]: 它这个汇入大海并不是那个使用，
+[Speaker 2]: 它只是去影响它的参数，
+[Speaker 2]: 对吧？
+[Speaker 2]: 所以说这个东西汇入这个大海之后，
+[Speaker 2]: 它算不算使用了你的代码，
+[Speaker 2]: 这算不算代码的使用，
+[Speaker 2]: 就它去训练算不算使用，
+[Speaker 2]: 这是一个非常模糊的事情。
+[Speaker 1]: 对，
+[Speaker 2]: 好呃，
+[Speaker 2]: 第三个问题，
+[Speaker 2]: 如果我是个开源作者，
+[Speaker 2]: 我愿意让人类开发者学习阅读、
+[Speaker 2]: 修改和使用代码，
+[Speaker 2]: 但不希望被商业大模型拿去训练，
+[Speaker 2]: 该怎么办？
+[Speaker 2]: 那关键是在这儿，
+[Speaker 2]: 我觉得那你就是这样的这个商业大模型的抓取也是比如说微软买了就 get up，
+[Speaker 2]: 它 get up 都可以抓，
+[Speaker 2]: 对吧？
+[Speaker 2]:  stack gover flow 它也可以抓。
+[Speaker 2]: 所以说如果你做一个开源作者你到底该怎么办？
+[Speaker 2]: 那你就不能够把它放在会被抓取的平台之上，
+[Speaker 2]: 你就不能把它传到 geit up。
+[Speaker 2]: 但这个话有点奇怪，
+[Speaker 2]: 你一个开作者你不传 get up，
+[Speaker 2]: 人在哪用你呢？
+[Speaker 2]: 这不成为一个比较麻烦的事情啊，
+[Speaker 2]: 就是是这样的，
+[Speaker 2]: 你你你看这里有人说了，
+[Speaker 2]: 如果加上 no AI 禁止训练，
+[Speaker 2]: 禁止商业模型使用条款，
+[Speaker 2]: 但没有用。
+[Speaker 2]: 就是如果你在 giit up 上，
+[Speaker 2]: 他就抓走去练了。
+[Speaker 2]: 你写这个 no AI 也没有用，
+[Speaker 2]: 这个确实啊你也没有取证能力。
+[Speaker 2]: 所以如果你想做一个软件，
+[Speaker 2]: 开源软件，
+[Speaker 2]: 不被任何商业大模型拿去训练使用，
+[Speaker 2]: 你就只能不放在 githup 上。
+[Speaker 2]: 但不放在 geit up 上呢，
+[Speaker 2]: 你又没有这个易用性，
+[Speaker 2]: 所以这是个那是个很麻烦的事情。
+[Speaker 0]: 你看有人说了，
+[Speaker 0]: 放在什么 cold、
+[Speaker 0]:  burg、
+[Speaker 0]:  source、
+[Speaker 0]:  source、
+[Speaker 0]:  heart。
+[Speaker 0]: 对，
+[Speaker 0]: 就是放在一些不被抓的平台之上嘛。
+[Speaker 1]: 对，
+[Speaker 0]: 这有人说只要有人看到就可以被偷啊，
+[Speaker 0]: 但是这样的就是啊确实啊只要有人看到就可以被偷。
+[Speaker 0]: 但是这个这个圾 larlanguage model 所要使用的这个训练量啊，
+[Speaker 0]: 他们不可能东抓一下，
+[Speaker 0]: 西抓一下，
+[Speaker 0]: 那都是海量数据。
+[Speaker 0]: 所以说人人我我甚至我认为到现在这一步啊，
+[Speaker 0]: 我怀疑啊那都是自己给自己生成训练素材了，
+[Speaker 0]: 都有多大程度还要依赖网络上抓？
+[Speaker 0]: 我甚至认为现在如果你开发的新的开源工具，
+[Speaker 0]: 从零开始的会不会被他们抓走？
+[Speaker 0]: 我认为可能性也不一一会被抓抓了了也说不定。
+[Speaker 0]: 现在人早就已经实现这个呃自己给自己写训练材料的地步。
+[Speaker 0]: 对，
+[Speaker 0]: 所以说这个大家也这个 don't take it personal，
+[Speaker 0]: 就他之前要你的训练材料，
+[Speaker 0]: 也不是说要偷你的自杀的，
+[Speaker 0]: 人人真真就是要训练而已。
+[Speaker 0]: 反正从从人能自己给自己写写训练材料之后，
+[Speaker 0]: 可能也就不不依赖这些了。
+[Speaker 0]: 好，
+[Speaker 0]: 下面一题哎呦，
+[Speaker 0]: 下面一题也也也非常非常长啊，
+[Speaker 0]: 是这个最近看到一些新模型的定价访问方式，
+[Speaker 0]: 突然感觉 AI 普惠这个事儿可能没有想的那么简单。
+[Speaker 0]: 呃，
+[Speaker 0]: 模型的价格到了百万 token 十美金，
+[Speaker 0]: 输出五十美金，
+[Speaker 0]: 买了高档订阅套餐，
+[Speaker 0]: 也只是临时体验到期划，
+[Speaker 0]: 还有额外买额度。
+[Speaker 0]: 这联网警觉不是某个模型贵，
+[Speaker 0]: 而是它说明最强 AI 从人人都能适用的软件，
+[Speaker 0]: 变成一个持续计费限量供应的。
+[Speaker 0]: 以前大家总说 token 会越来越便宜，
+[Speaker 0]: 呃，
+[Speaker 0]: 但这个逻辑好像不是。
+[Speaker 0]: 所以我现在担心的是 AI 时代不平等，
+[Speaker 0]: 可能不是。
+[Speaker 0]: 有没有 AI 那么简单？
+[Speaker 0]: 以后几乎人人都有某种 AI 可用，
+[Speaker 0]: 就像人人都有手机、
+[Speaker 0]: 互联网，
+[Speaker 0]: 但真正拉开差距的是谁能够持续调用最强模型，
+[Speaker 0]: 谁能够承受上下文的大量输入输出等等等等。
+[Speaker 0]: 好，
+[Speaker 0]: 所以第一个问题是 AI 会不会出现了类似财富分配的智能贫富分化？
+[Speaker 0]: 哎呀，
+[Speaker 0]: 是这样的，
+[Speaker 0]: 现在 AI 还不贵呢，
+[Speaker 0]: 很多人在用吗？
+[Speaker 0]: 没有啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那么再说了，
+[Speaker 0]:  AI 贵一点点，
+[Speaker 0]: 真正的鸿沟不在人和人和之间。
+[Speaker 0]: 而在人与公司之间，
+[Speaker 0]: 很多公司一个一年掏几千万美金来买 token，
+[Speaker 0]: 你一个人能花多少钱，
+[Speaker 0]: 对吧？
+[Speaker 0]: 也也就是说，
+[Speaker 0]: 而且啊我我我们倒我们倒过来说啊，
+[Speaker 0]: 现在就算人使用的不是最前沿的模型，
+[Speaker 0]: 他很多功能就做不了吗？
+[Speaker 0]: 也不是啊，
+[Speaker 0]: 你说现在有好多人只用 chat bot，
+[Speaker 0]: 是因为财富阻碍了他去使用 agentic 吗？
+[Speaker 0]: 也不是啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 一一就我就是哦，
+[Speaker 0]: 一方面我认可这个话，
+[Speaker 0]: 就是这个前沿 AI 模型，
+[Speaker 0]: 尤其是未来参数越来越大的模型是很贵的。
+[Speaker 0]: 我甚至现在都在提醒自己啊，
+[Speaker 0]: 现在你用 code x 两百刀的这个这一档啊，
+[Speaker 0]: 基本上是吃到饱的状态。
+[Speaker 0]: 就是你根本不管闭着眼睛，
+[Speaker 0]: 用各种各样疯狂消耗 token 的方式，
+[Speaker 0]: 你从来没有想过如何省 token，
+[Speaker 0]: 你就闭着你用了当未来啊，
+[Speaker 0]: 它变得越来越贵的时候，
+[Speaker 0]: 如果你养成了很不好的 AI 使用习惯，
+[Speaker 0]: 就你从来没有想过这个 token efficiency 来使用，
+[Speaker 0]: 就完全用这个闭着眼睛的方法来用。
+[Speaker 0]: 可能半年之后你的方法就会遇到很大的阻碍。
+[Speaker 0]: 所以我现在一边在疯狂用，
+[Speaker 0]: 一边也在想怎么样能够提高这个 token efficiency，
+[Speaker 0]: 对吧？
+[Speaker 0]: 呃，
+[Speaker 0]: 这是个真问题，
+[Speaker 0]: 就是我觉得呃 AI 变贵是一个非常非常可能的事情啊，
+[Speaker 0]: 尤其随着这个模型越来越大，
+[Speaker 0]: 可能一年之后 AI 就不能像现在这么用了，
+[Speaker 0]: 这个飞 able 其实就不能了。
+[Speaker 0]: 飞 able 现在还在 cloud 的 max 订阅方案之中，
+[Speaker 0]: 就到这个月二十二号还有十天，
+[Speaker 0]: 十天之后，
+[Speaker 0]: 飞 able 完全是买会得用。
+[Speaker 0]: 那 vivo 买 credit 用，
+[Speaker 0]: 那基本上就是随便点一点，
+[Speaker 0]: 就十刀出去了，
+[Speaker 0]: 随便点一点就十刀出去了，
+[Speaker 0]: 对吧？
+[Speaker 0]: 到时候用起来是很疼的啊，
+[Speaker 0]: 所以说他退出这个赤到饱之后，
+[Speaker 0]: 那肯定这个东西会贵的啊。
+[Speaker 0]: 那么但是我还是说会贵，
+[Speaker 0]: 是不是说这个贵东西就成为了真正的障碍，
+[Speaker 0]: 谁能够持续掉最强模型呢？
+[Speaker 0]: 我觉得不是至少从现在的社会渗透率来讲，
+[Speaker 0]: 对于绝大多数人他们的问题并不是是他们知道该怎么用，
+[Speaker 0]: 他们很想用。
+[Speaker 0]: 但就是用不起啊，
+[Speaker 0]: 现在问题还是压根都没开始呢。
+[Speaker 0]: 对，
+[Speaker 0]: 就压根都还没开始呢。
+[Speaker 0]: 好，
+[Speaker 0]: 大概是第一问题。
+[Speaker 0]: 所以第二个问题是，
+[Speaker 0]: 如果这种智能贫富分化成立，
+[Speaker 0]: 对呃后发国家、
+[Speaker 0]: 发展中国家、
+[Speaker 0]: 普通人产业链和中产者意味着什么？
+[Speaker 0]: 哎，
+[Speaker 0]: 我跟你说个真正的差异啊，
+[Speaker 0]: 你会发现到这一步啊，
+[Speaker 0]: 真正的差异根本就不是人与人的差异，
+[Speaker 0]: 是国与国的差异就是一个国家能用最前沿模型消耗两亿美金 token 来构筑的国防系统或者国防信息系统和另外一个比如说前沿模型被禁运。
+[Speaker 0]: 呃，
+[Speaker 0]: 他自己的前沿模型不行，
+[Speaker 0]: 服务器又没有那么快速的国家，
+[Speaker 0]: 他们的鸿沟会变得非常非常大。
+[Speaker 0]: 这个鸿沟会大过个人与个人、
+[Speaker 0]: 公司与公司之间的鸿沟。
+[Speaker 0]: 所以说中国现在卯足劲劲要攻克这个 EOV 光刻机才要卯足劲要去攻克模型嘛。
+[Speaker 0]: 就这个原因，
+[Speaker 0]: 他一下已经意识到了，
+[Speaker 0]: 就是真正的军备竞赛将发生在国家与国家之间，
+[Speaker 0]: 而不是人与人之间是一个这样的问题。
+[Speaker 1]: 啊，
+[Speaker 0]: 对，
+[Speaker 0]: 所以你看这个同学说呃未来会不会要以人的 token 额度啊、
+[Speaker 0]: 上下文长度啊、
+[Speaker 0]:  AG 连续工作时间啊，
+[Speaker 0]: 来变成人跟人之间的一个分化。
+[Speaker 0]: 我觉得不会不会的原因是我觉得很简单。
+[Speaker 0]: 呃，
+[Speaker 0]: 我不相信在有了互联网的今天，
+[Speaker 0]: 我们会活在一个人人都是创造者的时代，
+[Speaker 0]: 我不相信人人都能当创造者。
+[Speaker 0]: 我依然相信绝大多数人，
+[Speaker 0]: 即便把其把工具喂到他嘴边上了。
+[Speaker 0]: 哎呀，
+[Speaker 0]: 你就说拿 AI 创作爽不爽爽，
+[Speaker 0]: 能爽够玩游戏刷短视频吗？
+[Speaker 0]: 不能是吧？
+[Speaker 0]: 能爽过出去旅游吗？
+[Speaker 0]: 当然不能了，
+[Speaker 0]: 所以这个我觉得这不是问题啊，
+[Speaker 0]: 这不会是大不会特别大的问题。
+[Speaker 0]: 好，
+[Speaker 0]: 中国在这过程中起什么作用？
+[Speaker 0]: 像 deep sik 千问啊，
+[Speaker 0]: 用低价开源或高性价比，
+[Speaker 0]: 呃，
+[Speaker 0]: 把接近前沿的 AI 能力扩散给更多的普通开发者。
+[Speaker 0]: 学生。
+[Speaker 0]: 小公司和非美国市场是不是延缓了 AI 生产的贵族化？
+[Speaker 0]: 如果没有中国 AI，
+[Speaker 0]: 美国顶级 BI 模型会不会更容易形成高价限额？
+[Speaker 0]: 不是，
+[Speaker 0]: 比如现在 open a 要要打价格战，
+[Speaker 0]: 那 open AI 并不是面对通一千问的这个竞争，
+[Speaker 0]: 是面对 cloud 的竞争，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那么现在从这个呃真正的企业和个人市场，
+[Speaker 0]: 实际上中国这些模型的渗透率，
+[Speaker 0]: 除了中国市场之外的地方相当不高啊，
+[Speaker 0]: 相当相当不高呃不高，
+[Speaker 0]: 也有一个很实际的原因啊，
+[Speaker 0]: 就是现在本地化的大模型依然没有到相对可用的地步。
+[Speaker 0]: 但是有些任务可用啊，
+[Speaker 0]: 就是现在前沿模型的价和和前沿模型能够到达的水平，
+[Speaker 0]: 就本地大模型依然没有到一个 sweet spot。
+[Speaker 0]: 就是你有一个呃就算你你有个一百二十八 g 内存的一个本地，
+[Speaker 0]: 呃，
+[Speaker 0]: 它其实能跑的模型也非常非常的可怜。
+[Speaker 0]: 所以说中国现在这个闭元路径啊，
+[Speaker 0]: 这个这个开源路径和这个低价路径啊，
+[Speaker 0]: 呃我觉得没有实真正的扩扩散。
+[Speaker 0]: 比如现在这个 GBT 和 cloud 二十美金，
+[Speaker 0]: 这一档这二十美金对于很多人也不是一个不可逾越的天堑了，
+[Speaker 0]: 就是很无人，
+[Speaker 0]: 不也就用 open，
+[Speaker 0]:  i 就用这个 cloud 了嘛。
+[Speaker 0]: 对所以我觉得什么时候能够形成一个真正的扩散，
+[Speaker 0]: 也就是突然哪天哪个公司的模型和我们能够买到的硬件达到一个呃良好的 space spa。
+[Speaker 0]: 比如说呃黄仁勋呃，
+[Speaker 0]: 英伟达然哪天出了一个本地服务务器，
+[Speaker 0]: 如说卖三万人民币啊，
+[Speaker 0]: 我就是我就说说贵点吧，
+[Speaker 0]: 卖五万人民币，
+[Speaker 0]: 他卖五万人民币，
+[Speaker 0]: 假设他卖五万人民币，
+[Speaker 0]: 有这个一 GB 的呃，
+[Speaker 0]: 不什么什么 e 币，
+[Speaker 0]: 一 TB 的内存。
+[Speaker 0]: 我我胡说八道的瞎说的啊。
+[Speaker 0]: 假设一 TB 的内存，
+[Speaker 0]: 但是能跑一个非常非常有用的本地大模型。
+[Speaker 0]: 假设呢能跑那会儿也有各种优化，
+[Speaker 0]: 注意力的优化，
+[Speaker 0]: 分速优化，
+[Speaker 0]: 能跑一个类似于这个 opice 四点八的跑个这个的哎就变了，
+[Speaker 0]: 那这个 AI 的能力就扩散了，
+[Speaker 0]: 对吧？
+[Speaker 0]: 就所以现在呢关键就是这个边缘系统，
+[Speaker 0]: 关键就是边缘算力，
+[Speaker 0]: 边缘算力和边缘算力实现的这个模型能力啊，
+[Speaker 0]: 在什么时候这个模型的优化模型的参数和边缘算力的这个增长和产品达到这么一个平衡点。
+[Speaker 0]: 呃，
+[Speaker 0]: 这个 AI 的形态就变化了。
+[Speaker 0]: 因为现在就算你买个 mac mini 没有用，
+[Speaker 0]: 就算你把仨 mac mini 连一起也没有用，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那个那个不是不是一个有用的东西啊啊，
+[Speaker 0]: 我我看到那个 spark 了，
+[Speaker 0]:  spark 不行，
+[Speaker 0]:  spark 不是这个答案，
+[Speaker 0]:  spark 是一个很早的用来占领这个心智的产品，
+[Speaker 0]: 但不是一个最后可用的产品。
+[Speaker 0]: 我觉得现在问题并不是在 spark，
+[Speaker 0]: 现在的问题是在模型这一段，
+[Speaker 0]: 现在还没有真正真正好用的开源的，
+[Speaker 0]: 能够跑得动的模型啊，
+[Speaker 1]: 这个是个问题啊，
+[Speaker 0]: 所以这个是一个关键啊。
+[Speaker 0]: 好，
+[Speaker 0]: 下一题呃，
+[Speaker 0]: 钟林你好，
+[Speaker 0]: 我对你 substack 相关的中文白话文很感兴趣。
+[Speaker 0]: 请问我可以进一步用计算机、
+[Speaker 0]: 语言学和自然语言处理做进一步研究吗？
+[Speaker 0]: 当然可以啊，
+[Speaker 0]: 当然可以啊，
+[Speaker 0]: 当然可以啊，
+[Speaker 0]: 非常欢迎。
+[Speaker 0]: 对对对对对，
+[Speaker 0]: 我们可以一起，
+[Speaker 0]: 你我们都可以一起做。
+[Speaker 0]: 如果你感兴趣的话，
+[Speaker 0]: 我可以给你提供一些想法。
+[Speaker 0]: 我之前也有一些想法，
+[Speaker 0]: 就是做用统计学的方式来做这个白话文的研究，
+[Speaker 0]: 对吧？
+[Speaker 0]: 我觉得白话文是一个值得去研究的事情。
+[Speaker 0]:  ok 呃，
+[Speaker 0]: 西亚例题呃，
+[Speaker 0]: 之前主播曾表示过支持一定程度的非直选非直接民主，
+[Speaker 0]: 以防民粹主义抬头。
+[Speaker 0]: 上一次节目里提到 peter tail 尼克兰德为首这一类美国 auto right 也是主张终结现代民主制度万斯受影响。
+[Speaker 0]: 主播觉得自己的主张与他们的主张哪一句的区别？
+[Speaker 0]: 那太呀太不区别，
+[Speaker 0]: 实在太大了啊，
+[Speaker 0]: 就是美国这些另类右翼黑暗启蒙，
+[Speaker 0]: 那是要走君主制的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是我只是认为一切问题的直接民主有问题，
+[Speaker 0]: 尤其是这个行政权，
+[Speaker 0]: 这么大的行政权的直接民主选择，
+[Speaker 0]: 有很大的直接民主，
+[Speaker 0]: 有很大的问题。
+[Speaker 0]: 像这个最高司法权的直接民主选择有问题，
+[Speaker 0]: 但我认为民主制还是非常重要的，
+[Speaker 0]: 民主制和宪政制度是很重要的。
+[Speaker 0]: 就美国的另类右翼，
+[Speaker 0]: 很多不是修复制主啊，
+[Speaker 0]: 那是直接要走向维权制度的对吧？
+[Speaker 0]: 很多是要走那个，
+[Speaker 0]: 比如说那个 curtis jvin curtis 亚是是要走这个 vc EO 制度嘛，
+[Speaker 0]: 就国家的国家企业化，
+[Speaker 0]: 对吧？
+[Speaker 0]: 要国家企业化的，
+[Speaker 0]: 这个我差距差异非常非常大好。
+[Speaker 0]: 第二个问题啊，
+[Speaker 0]: 说这一波欧美右翼浪潮有个重要叙势，
+[Speaker 0]: 美国负担盟有房屋，
+[Speaker 0]: 负担了太多盟有房务，
+[Speaker 0]: 欧盟应该把房屋预算从百分之二提到百分之五。
+[Speaker 1]: 对这个题的看法与主张啊，
+[Speaker 0]: 是这样的，
+[Speaker 0]: 这个我以前讲过啊，
+[Speaker 0]: 就是美国你没有白白得这个结果，
+[Speaker 0]: 对吧？
+[Speaker 0]: 美国，
+[Speaker 0]: 你过去给其他国家提供安全啊，
+[Speaker 0]: 其他国家在所有事务上就陪着你做。
+[Speaker 0]: 你要打科索沃就打科索沃，
+[Speaker 0]: 你要打叙利克，
+[Speaker 0]: 我就打伊拉克，
+[Speaker 0]: 你要打伊利克就打叙利亚，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以说过去你花了钱，
+[Speaker 0]: 这花钱不是白花的那现在为什么美国打伊朗一个人都不帮他，
+[Speaker 0]: 日本也不帮，
+[Speaker 0]: 韩国也不帮德贵帮，
+[Speaker 0]: 英贵不帮，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那为什么要帮？
+[Speaker 0]: 那既然我们俩算的这么清楚，
+[Speaker 0]: 对吧？
+[Speaker 0]: 啊，
+[Speaker 0]: 你在北约里面，
+[Speaker 0]: 所以我就要买一大堆美国的飞机。
+[Speaker 0]: 好啊，
+[Speaker 0]: 那我该帮的帮了呀，
+[Speaker 0]: 我已经买了你这么多飞机了，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那为什么要去给你打伊朗？
+[Speaker 0]: 我又不想，
+[Speaker 0]: 我又不想跟你打伊朗。
+[Speaker 0]: 所以这个问题，
+[Speaker 0]: 也就是说，
+[Speaker 0]: 美国不应该用这个视角来算国防账。
+[Speaker 0]: 美国不应该用这个视角算国防账。
+[Speaker 0]: 也就是说你你觉得美国这样省钱吗？
+[Speaker 0]: 美国就伊朗这一口子把几千亿美金打出去了，
+[Speaker 0]: 而且现在根本补不上这些导弹的空缺。
+[Speaker 0]: 美国自己的国防工业也已经完全没有这个产能了，
+[Speaker 0]: 你觉得美国现在这方法很省钱吗？
+[Speaker 0]: 对我觉得不省钱啊，
+[Speaker 1]: 哎短视极端的短视。
+[Speaker 0]: 呃，
+[Speaker 0]: 好，
+[Speaker 0]: 西亚妹提我的问题，
+[Speaker 0]: 关于核武器呃，
+[Speaker 0]: 这次伊朗士兵和古岛的蓝南联盟、
+[Speaker 0]: 伊拉克还有未来发生人类事件，
+[Speaker 0]: 因为 AI 发生根剧烈 k 线分化，
+[Speaker 0]: 现在后发国家是否应该砸锅卖铁投入到无人机和核武器的研发中？
+[Speaker 0]: 这俩是两东西啊，
+[Speaker 0]: 就核武器是战略性的，
+[Speaker 0]: 威慑无人机是真正的，
+[Speaker 0]: 就无人机是这样的，
+[Speaker 0]: 你报二十万架无人机，
+[Speaker 0]: 如果不打仗的话，
+[Speaker 0]: 没有用，
+[Speaker 0]: 你报核武器和弹道导弹，
+[Speaker 0]: 不打仗有用，
+[Speaker 0]: 就核人机是真打仗用的啊，
+[Speaker 0]: 核武器是为了不打仗用的，
+[Speaker 0]: 无人登机是为了打仗用的。
+[Speaker 0]: 呃，
+[Speaker 0]: 比如说这次伊朗初期报复式的往周边国家发射，
+[Speaker 0]: 导弹和无人机虽然攻击范围广，
+[Speaker 0]: 远不如封锁，
+[Speaker 0]: 霍尔木斯海要好用。
+[Speaker 0]: 哎，
+[Speaker 0]: 我跟你说好用，
+[Speaker 0]: 为什么伊朗这次呃，
+[Speaker 0]: 攻击周边国家没有？
+[Speaker 0]: 那么是因为伊朗没有要跟周边国家完全撕破脸？
+[Speaker 0]: 就伊朗攻击周边国家是把它当做一种威慑方法。
+[Speaker 0]: 如果伊朗失去霍尔木兹海峡威慑，
+[Speaker 0]: 要跟你鱼死网破，
+[Speaker 0]: 伊朗就把周边国家的所有石油管道、
+[Speaker 0]: 油田自自来，
+[Speaker 0]: 海水净化设施都给你家打了。
+[Speaker 0]: 伊朗是做得到的，
+[Speaker 0]: 只是做到这一步，
+[Speaker 0]: 你就要被八个国家一起入侵。
+[Speaker 0]: 那么伊朗现在为什么没有打周边？
+[Speaker 0]: 海湾国家打的太厉害，
+[Speaker 0]: 是在控制海湾国家跟伊朗的关系是这么一回事，
+[Speaker 0]: 并不是伊朗打不了。
+[Speaker 0]: 所以说无人机是有用的，
+[Speaker 0]: 你不能说无人机没用封锁泡沫塔要有用，
+[Speaker 0]: 对吧？
+[Speaker 0]: 呃，
+[Speaker 0]: 我研究了一下，
+[Speaker 0]: 如果朝鲜拥和，
+[Speaker 0]: 那么珠三角、
+[Speaker 0]: 福建、
+[Speaker 0]: 日本、
+[Speaker 0]: 韩国、
+[Speaker 0]: 菲律宾、
+[Speaker 0]: 越南、
+[Speaker 0]: 几亿人口都是台湾的人质，
+[Speaker 0]: 那么中共还敢这样挑衅吗？
+[Speaker 0]: 是这样的，
+[Speaker 0]: 不是朝鲜就算雍和，
+[Speaker 0]: 他怎么会拿越南当人质呢？
+[Speaker 0]: 对吧？
+[Speaker 0]: 朝鲜雍和，
+[Speaker 0]: 你说你共中国你敢打，
+[Speaker 0]: 我就发射核导弹去越南。
+[Speaker 0]: 那不是，
+[Speaker 0]: 那台湾如果拥和的话，
+[Speaker 0]: 那你只用那什么珠三角、
+[Speaker 0]: 福建，
+[Speaker 0]: 你肯定是拿远程导弹打到上海啊，
+[Speaker 0]: 北京这样的中心城市才有用啊。
+[Speaker 0]: 对吧？
+[Speaker 0]: 肯定是这么一个东西啊，
+[Speaker 0]: 所以说台湾这不需要算人口数量啊。
+[Speaker 0]: 如果台湾拥和的话，
+[Speaker 0]: 中国当然不能够这样挑衅了，
+[Speaker 0]: 对吧？
+[Speaker 0]: 也不可能这样挑衅。
+[Speaker 0]: 还有就是现在是这个呃 AI 时代后发国家还有未来吗？
+[Speaker 0]: 有啊有有啊，
+[Speaker 0]: 不是呃 AI 时代，
+[Speaker 0]:  AI 时代这样的 AI 时代，
+[Speaker 0]: 这个养老养老人也要吃药，
+[Speaker 0]: 就是他也要玩玩具，
+[Speaker 0]: 人也要去餐厅要喝这个比喝奶茶。
+[Speaker 0]: 就 AI 时代归 AI 时代，
+[Speaker 0]: 这个后发国家还是有工业的对吧？
+[Speaker 0]: 就 AI 时代，
+[Speaker 0]: 工业还是工业。
+[Speaker 0]: 虽然未来很多工业会无人化化，
+[Speaker 0]: 毕竟现在 AI 主要是干干这个白领嘛，
+[Speaker 0]: 蓝领还要机机器人器，
+[Speaker 0]: 人人估计还有一段日子啊，
+[Speaker 0]: 现在替代替代脑力工作者是第一波啊，
+[Speaker 0]: 那后发国家主要还是这个蓝领，
+[Speaker 0]: 这制造业现在至少至少现在对制造业的影响还没那么大好。
+[Speaker 0]: 下面一题呃，
+[Speaker 0]: 判断一个说法是否成立。
+[Speaker 0]: 中文互联网是不是经常出现一种生活？
+[Speaker 0]: 圣象的生成机制？
+[Speaker 0]: 呃，
+[Speaker 0]: 不是普通的喜欢某个人，
+[Speaker 0]: 而是一个具体的人，
+[Speaker 0]: 被迅速抽象成道德符号。
+[Speaker 0]: 比如说鹅腿阿姨不再是摊贩，
+[Speaker 0]: 而是底层辛苦，
+[Speaker 0]: 人间烟火，
+[Speaker 0]: 淳朴善良。
+[Speaker 0]: 张雪，
+[Speaker 0]: 即使张雪不是一个摩托从业者，
+[Speaker 0]: 草根技术人在国产工业逆袭。
+[Speaker 0]: 于东来不是个企业家，
+[Speaker 0]: 我真正困惑的这种造声为什么会这么容易发生？
+[Speaker 0]: 哦，
+[Speaker 0]:  ok ok 我觉得 ok 我现在脑子里想什么问题，
+[Speaker 0]: 我脑子里在想是只有中国这样，
+[Speaker 0]: 还是外国也这样。
+[Speaker 0]: 呃，
+[Speaker 0]: 我对外国能了解，
+[Speaker 0]: 就是美国了外国。
+[Speaker 0]: 我想了一想，
+[Speaker 0]: 外国也这样，
+[Speaker 0]: 比如说查理 kirk，
+[Speaker 0]: 对吧？
+[Speaker 0]:  zora m dny 都有一点点都会有，
+[Speaker 0]: 呃，
+[Speaker 0]: 也那个 manosphere 里面有一些男的不也一样吗，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那个哎老板，
+[Speaker 0]: 你要那个期权，
+[Speaker 0]: 关于在英国的叫啥来着？
+[Speaker 0]: 就是教英国小孩那个艳女的那个男的叫 h my god。
+[Speaker 0]: 嗯，
+[Speaker 0]: 岁数太大了。
+[Speaker 0]: 对，
+[Speaker 0]: 大家在评论区，
+[Speaker 0]: 可以说罗瓦尼亚那个提权冠军在英国的那个男的被被补过好几次了。
+[Speaker 0]: 对外国也一样。
+[Speaker 0]: 这个问题我想一想，
+[Speaker 0]: 外国也有，
+[Speaker 0]: 所以不是中国的特例。
+[Speaker 0]:  tate 对 andul tate andl tate anddutate。
+[Speaker 0]: 所以说这是是一个这是一个这是一个全全球的问题啊，
+[Speaker 0]: 所以为什么会这样呢？
+[Speaker 0]: 呃，
+[Speaker 0]: 像胖猫也是一样的胖猫，
+[Speaker 0]: 我觉得你一说到这个生活圣象，
+[Speaker 0]: 我的第一想到脑子里第一飘过就是胖猫为何会如此？
+[Speaker 0]: 那你看胖猫就能看得明白啊，
+[Speaker 0]: 就是从博弈论上来讲吧。
+[Speaker 0]: 其实啊它是一个博弈符号。
+[Speaker 0]: 对于很多人的生活困境，
+[Speaker 0]: 他的生活困境需要有一个象征，
+[Speaker 0]: 这个象征可以动员所有人实现最大化的动员效果。
+[Speaker 0]: 而对于人类社会来讲呢，
+[Speaker 0]: 一个人就是一个非常好的动员者。
+[Speaker 0]: 像二战战斗英雄，
+[Speaker 0]: 你只要塑造一个战斗英雄，
+[Speaker 0]: 这个战斗英雄就会对待所有人。
+[Speaker 0]: 所以你这么看这个问题啊，
+[Speaker 0]: 胖猫张雪于东来就是和平年代的战斗英雄，
+[Speaker 0]: 他们起到的作用是类似的。
+[Speaker 0]: 呃，
+[Speaker 0]: 凡是能够被托举成为这个生活圣像的，
+[Speaker 0]: 像胖猫等等等等，
+[Speaker 0]: 人们就是要拿它来做动员，
+[Speaker 0]: 来做动员和战斗。
+[Speaker 0]: 所以人们根本上是，
+[Speaker 0]: 所以说这些人有没有问题，
+[Speaker 0]: 呃，
+[Speaker 0]: 是不是被大家臆想出来的，
+[Speaker 0]: 大家就算知道是臆想也无所谓无所谓。
+[Speaker 0]: 对，
+[Speaker 0]: 因为大家就是要透过这个战斗英雄来做动员，
+[Speaker 0]: 就像战争年代一样，
+[Speaker 0]: 有一个战斗英雄，
+[Speaker 0]: 所有人都知道是骗人的。
+[Speaker 0]: 所有人都知道这个故事没有那么真实，
+[Speaker 0]: 但所有人都愿意继续传唱这个故事。
+[Speaker 0]: 因为所有人都意识到，
+[Speaker 0]: 我们现在的状态需要动员，
+[Speaker 0]: 只要我们现在状态需要动员，
+[Speaker 0]: 我就能接受一个假偶像。
+[Speaker 0]: 所以他的真正社会底层呢是这个对立和紧急状态，
+[Speaker 0]: 只要这个社会的对立和紧急状态足够多。
+[Speaker 0]: 那么人们在紧急状态之中，
+[Speaker 0]: 人们就认为在我们这个紧急状态之下，
+[Speaker 0]: 我们需要一个圣徒来帮助我们呃作为我们的一个符号力。
+[Speaker 0]:  jvance 就是这么一个符号嘛，
+[Speaker 0]: 对，
+[Speaker 0]: 查里 kirk limit。
+[Speaker 0]: 当然创普挨了一枪之后，
+[Speaker 0]: 也是一个生活圣像。
+[Speaker 0]: 虽然他挨了一枪的时候，
+[Speaker 0]: 还在有什么性骚扰官司在打呢，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那无所谓啊，
+[Speaker 0]: 他挨了一枪，
+[Speaker 0]: 他就成为了天选之人。
+[Speaker 0]: 对，
+[Speaker 0]: 所以他其实是一种战斗英雄啊。
+[Speaker 0]: 好，
+[Speaker 0]: 下一题呃，
+[Speaker 0]: 我再回答两道题啊，
+[Speaker 0]: 我们就去回答劳动党。
+[Speaker 0]: 呃，
+[Speaker 0]: 这样这样我先看一眼今天劳动党问题有多少啊，
+[Speaker 0]: 如果多的话，
+[Speaker 0]: 我们就多留点。
+[Speaker 0]: 时间。
+[Speaker 1]: 少的话多回答几道也无所谓，
+[Speaker 0]: 中等，
+[Speaker 0]: 但是都有点长。
+[Speaker 0]: 呃，
+[Speaker 0]: 好，
+[Speaker 1]: 那我们就再回来两个啊。
+[Speaker 0]: 好呃，
+[Speaker 0]: 上次问到无人机普及，
+[Speaker 0]: 相当于让所有国家拥有中远程打击能力。
+[Speaker 0]: 那么设想一下，
+[Speaker 0]: 无人机会带动各国的基础建设城市建设的变吗？
+[Speaker 0]: 比如，
+[Speaker 0]: 以后是否会在关键非航道上修建很高的雷雷达、
+[Speaker 0]: 防防塔塔城市高楼上常态化的安安防防设施、
+[Speaker 0]: 道路气、
+[Speaker 0]: 电设施和地下混凝土化没法地下化的外面建防护网、
+[Speaker 0]: 政府设施、
+[Speaker 0]: 全部封窗、
+[Speaker 0]: 道路大防或者网。
+[Speaker 0]: 不不是不是不是不会不会的。
+[Speaker 0]: 原因是无人机是一个载弹量比较小的一个平台啊，
+[Speaker 0]: 就是的的个伤伤伤伤力比较小，
+[Speaker 0]: 因为杀伤力比较小呢。
+[Speaker 0]: 无人机攻击的角色有限，
+[Speaker 0]: 比如说要拿无人机真给别人桥炸塌了，
+[Speaker 0]: 把水坝炸塌。
+[Speaker 0]: 我觉得无人机的这个炸料当场根本实现不了。
+[Speaker 0]: 所以无人机呢要么打一个坦克还行，
+[Speaker 0]: 打一个输油管道。
+[Speaker 0]: 这种比较脆弱的设施还可以，
+[Speaker 0]: 但要真正比如无人机瘫痪别人人的铁道机场，
+[Speaker 0]: 我觉还是有难度的。
+[Speaker 0]: 所以我会觉得嗯无人机不会让所有的目标都成为打击。
+[Speaker 0]: 但无人机会让一些战略目标变得比较脆弱，
+[Speaker 0]: 而且让分散性的战略目标变得非常非常脆弱。
+[Speaker 0]: 就比如说你就算乌乌克兰打俄罗斯啥，
+[Speaker 0]: 你就想啥吧，
+[Speaker 0]: 对吧？
+[Speaker 0]: 防空导弹基地、
+[Speaker 0]: 能源设施等等等等，
+[Speaker 0]: 一些高价值的民用目标等等等等。
+[Speaker 0]: 这些有必要。
+[Speaker 0]: 比如说这个城市有个民房，
+[Speaker 0]: 这个民房外面要要不要破防护网？
+[Speaker 0]: 说不上呃有些东西会地下滑，
+[Speaker 0]: 比如输油管道啊、
+[Speaker 0]: 输气管道啊、
+[Speaker 0]: 呃油气站啊，
+[Speaker 0]: 会地下滑，
+[Speaker 0]: 这是可能的。
+[Speaker 0]: 所以会带来一定程度的基础建设。
+[Speaker 0]: 但会不会从根本上改变城市的形态？
+[Speaker 0]: 不会因为无人机不是一个毁灭城市的武器，
+[Speaker 0]: 对吧？
+[Speaker 0]: 还是一个比较精准的这个点状打击的武器。
+[Speaker 0]: 好，
+[Speaker 0]: 下面一题。
+[Speaker 0]: 好，
+[Speaker 0]: 我今天其实问题很多，
+[Speaker 1]: 肯定回答不完。
+[Speaker 0]: 不是，
+[Speaker 0]: 虽然回答不完，
+[Speaker 0]: 但是我觉得最后一个同学的观点，
+[Speaker 0]: 我觉得特逗。
+[Speaker 1]: 他说，
+[Speaker 0]: 他说，
+[Speaker 0]:  agent 就是垃圾，
+[Speaker 0]: 网页版的 chat 又有沙箱，
+[Speaker 0]: 为啥要让 AI 动自己的电脑？
+[Speaker 0]: 他说，
+[Speaker 0]: 使用 agent 就是放弃自己对任务的掌控。
+[Speaker 0]: 我认为 AI 只能充当提议的角色，
+[Speaker 0]: 真正操作执行，
+[Speaker 0]: 永远得用户决策过分依赖。
+[Speaker 0]:  AI 是在把自己工具化那被替代是必然，
+[Speaker 0]: 可能也是一种想，
+[Speaker 0]: 也是一种想法吧。
+[Speaker 0]: 虽然我完全不这么想，
+[Speaker 0]: 但可能也是一种想法吧。
+[Speaker 0]: 好，
+[Speaker 0]: 我们回答最后问题啊，
+[Speaker 0]: 这个问题很有意思啊，
+[Speaker 0]: 说首先现在还经常提六四有什么意义吗？
+[Speaker 0]: 看谁上有感贾老师武力都困在这段历史里。
+[Speaker 0]: 贾老师那句你看过什么什么书吗？
+[Speaker 0]: 你知道什么是历史吗？
+[Speaker 0]: 仿佛他知晓那些历史，
+[Speaker 0]: 成为他批判粉红的优越感来源。
+[Speaker 0]: 现在再去研究一个三十年前的事，
+[Speaker 0]: 有除了学者进行历史研究之外的意义吗？
+[Speaker 0]: 台湾人经历过国民党独裁，
+[Speaker 0]: 依然不妨碍年轻人天然红历史事件。
+[Speaker 0]: 教训就是会会随着时间失去实感。
+[Speaker 0]: 古今中外，
+[Speaker 0]: 通过反思，
+[Speaker 0]: 一个遥远过去的事件达成改革的案例，
+[Speaker 0]: 有吗？
+[Speaker 0]: 还是当下某个爆点，
+[Speaker 0]: 从而引发运动。
+[Speaker 0]: 更多进一步说，
+[Speaker 0]: 主主播是否想过，
+[Speaker 0]: 今后促使中国发生改变，
+[Speaker 0]: 并不是海外民主派，
+[Speaker 0]: 而是强烈对现有体制产生不满的建制派或基本派。
+[Speaker 0]: 这些人可能不会赞同自由民主，
+[Speaker 0]: 不懂翻墙，
+[Speaker 0]: 甚至没听过六世，
+[Speaker 0]: 仅仅维护自身利益战，
+[Speaker 0]: 对抗抗方最最促成了改变。
+[Speaker 1]: 唉，
+[Speaker 0]: 中国在七八年开始平反的时候，
+[Speaker 0]: 平反的当然是右派。
+[Speaker 0]: 很多被打成右派的，
+[Speaker 0]: 甚至是五十年代被打成右派的，
+[Speaker 0]: 所以七八年平反的甚至好多平反的是二十年以前的案子，
+[Speaker 0]: 台湾人一直在反思的二二八二二八，
+[Speaker 0]: 甚至是二战结束之前发生的事情，
+[Speaker 0]: 是一九四九年以前发生的事情。
+[Speaker 0]: 距离现在时间比六四，
+[Speaker 0]: 比文革比大饥荒都要远得多，
+[Speaker 0]: 但不妨碍台湾依然靠这个反对二二八反抗二二八成为化解威权的一个符号。
+[Speaker 0]: 啊，
+[Speaker 0]: 也就是说很多历史事件有没有通过反思一个遥远的历史事件达成改革的案例。
+[Speaker 0]: 这太多了呀，
+[Speaker 0]: 像台湾去年突然社会上兴起的林宅雪案的这个反思啊，
+[Speaker 0]: 那林宅雪案也是八十年代的事情，
+[Speaker 0]: 比六四还要早，
+[Speaker 0]: 对吧？
+[Speaker 0]: 这些有很多事情都是时间很早值得去研究的那为什么研究一个时间很早的事情有意义呢？
+[Speaker 0]: 很简单，
+[Speaker 0]: 因为一件事情发生在三十年前、
+[Speaker 0]: 四十年前、
+[Speaker 0]: 七十年前、
+[Speaker 0]: 八十年前，
+[Speaker 0]: 现在在社会还有共识。
+[Speaker 0]: 我告诉你，
+[Speaker 0]: 现在的社会，
+[Speaker 0]: 没有一件事，
+[Speaker 0]: 能有这个共识，
+[Speaker 0]: 没有一件事，
+[Speaker 0]: 能有这样稳定的共识，
+[Speaker 0]: 社会转型和变化需要稳定的共识。
+[Speaker 0]: 而对台湾二二八林白林宅血案对于中国来讲，
+[Speaker 0]: 文革六四就是几乎形成稳定共识的社会事件。
+[Speaker 0]: 比如说又新出一江洋事件啊，
+[Speaker 0]: 就比如说江洋事件嘛，
+[Speaker 0]: 二零一九香港香港那事当时算是够新的事儿了吧，
+[Speaker 0]: 就那事儿。
+[Speaker 0]: 半年之后，
+[Speaker 0]: 香港社会内部都对于那个事产生了撕裂勇武派，
+[Speaker 0]: 跟合里飞。
+[Speaker 0]: 普通市民跟抗议者共识就丧失了，
+[Speaker 0]: 也不叫丧失吧，
+[Speaker 0]: 共识就产生比较大的裂痕。
+[Speaker 0]: 因此啊，
+[Speaker 0]: 你觉得中国发生改变是为了维护自身利益，
+[Speaker 0]: 站出来对方官方，
+[Speaker 0]: 那我要问个很大的问题了。
+[Speaker 0]: 中国这么多人自身利益有社会共识吗？
+[Speaker 0]: 一个北京市民的自身利益和一个山西农民的自身利益是一种自身利益吗？
+[Speaker 0]: 如果大家都像你说的，
+[Speaker 0]: 以为维护自身利益，
+[Speaker 0]: 战胜对方官方，
+[Speaker 0]: 那我跟你说特简单，
+[Speaker 0]: 两个月就要给它分化干净不？
+[Speaker 0]: 中共分化人各个击破，
+[Speaker 0]: 难道不是中共最熟练的事情吗？
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以说啊就是你认为现在提过去的事没有意义。
+[Speaker 0]: 我认为提过去的事非常有意义。
+[Speaker 0]: 因为一个三十年前的事，
+[Speaker 0]: 现在还在提，
+[Speaker 0]: 说明他在社会中形成了非常稳定的共识。
+[Speaker 0]: 正是这种非常稳定的共识，
+[Speaker 0]: 成为了人们都希望政治体制发生改变的一个基础。
+[Speaker 0]: 正像右派平反一样，
+[Speaker 0]: 那都是二三年前的事情，
+[Speaker 0]: 二十年前的事情期码。
+[Speaker 0]: 所以像你说的啊，
+[Speaker 0]: 为了维护自身利益促成改变，
+[Speaker 0]: 那我就要说促成不了什么改变。
+[Speaker 0]: 因为每个人利益非常非常不哎也，
+[Speaker 0]: 不是不能促成改变啊，
+[Speaker 0]: 但绝对不是你想要的那种改变。
+[Speaker 0]: 因为每个人自身利益非常非常不同，
+[Speaker 0]: 像中国这么多企业家被远洋捕牢。
+[Speaker 0]: 那我们现在能够为了维护中国经济的可持性和企业家利益来促成改变吗？
+[Speaker 0]: 就不能啊，
+[Speaker 0]: 我跟你说，
+[Speaker 0]: 你要维护民营企业家利益，
+[Speaker 0]: 网上好多年轻人不干呢，
+[Speaker 0]: 就觉得国家在维护剥削者，
+[Speaker 0]: 对吧？
+[Speaker 0]: 为什么要维护企业家利益？
+[Speaker 0]: 为什么？
+[Speaker 0]: 包括这些家企业家？
+[Speaker 0]: 企业家有一个算一个有一个无辜的吗？
+[Speaker 0]: 这些企业家以前有没有搞过九九六发没发过加班工资啊啊，
+[Speaker 0]: 行，
+[Speaker 0]: 过会没对吧。
+[Speaker 0]: 那你说年轻人说啊，
+[Speaker 0]: 维护我的利益，
+[Speaker 0]: 我们年轻人那社会中间派说了，
+[Speaker 0]: 你们啥也没做，
+[Speaker 0]: 也没有老人也没背房贷，
+[Speaker 0]: 为什么要维护你的利益啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那背房贷的社会，
+[Speaker 0]: 中年生说我们我们的利益说啊，
+[Speaker 0]: 你们以前占过社会红利啊，
+[Speaker 0]: 中国改革开放红利期，
+[Speaker 0]: 你们赶上了房，
+[Speaker 0]: 你买了工作，
+[Speaker 0]: 你也有为什么维护护的利利益？
+[Speaker 0]: 我现在年轻人啥没赶上，
+[Speaker 0]: 为什么不维护，
+[Speaker 0]: 为什么不维护我的利益啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以维护自身利益这个事儿我要反过来问你啊，
+[Speaker 0]: 这个人类历史上这么多国家更迭啊，
+[Speaker 0]: 有哪一次是为了维护自身利益来完成国家家迭啊，
+[Speaker 0]: 有没有哪次是真的被社会各个阶层为了短期经济利益推动国家更迭的，
+[Speaker 0]: 这个可能反而想不出来。
+[Speaker 0]: 我跟你说，
+[Speaker 0]: 我想想啊，
+[Speaker 0]: 韩国、
+[Speaker 0]: 台湾有没有哪次是大家为了自己短期利益站出来，
+[Speaker 0]: 最后导致国家改变的？
+[Speaker 0]: 其实其实六四好大意义上就是从短期利益开始的。
+[Speaker 0]: 但是好的好的，
+[Speaker 0]: 正是短期利益，
+[Speaker 0]: 让六四在结束之前，
+[Speaker 0]: 其实也产生了内讧，
+[Speaker 0]: 对吧？
+[Speaker 0]: 你们看卡瓦那个纪录片片戴，
+[Speaker 0]: 不不就说嘛，
+[Speaker 0]: 中间应该见好就收，
+[Speaker 0]: 那会儿就应该妥协就可以结束。
+[Speaker 0]: 因为那会儿基本上已经要给知识分子发钱了，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那会儿就应该结束，
+[Speaker 0]: 后来不就可以靠知识分发钱平复下去了嘛。
+[Speaker 1]: 对嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 没有我觉得我说的蛮清楚的，
+[Speaker 0]: 年轻人对六四没有共识。
+[Speaker 0]: 我不知道，
+[Speaker 0]: 我觉得年轻人对六是这样的的六四共识，
+[Speaker 0]: 不是说百分之百人都有共识啊，
+[Speaker 0]: 就是最大的共识嘛。
+[Speaker 0]: 对，
+[Speaker 0]: 就年轻人对六四丹没有共识。
+[Speaker 0]: 但我怀疑在年轻人里面，
+[Speaker 0]: 六四是不是也是最能引发共识的事情啊，
+[Speaker 0]: 比白纸革命，
+[Speaker 0]: 比这个四通桥，
+[Speaker 0]: 比这个边城水响是不是六四还是最有名气。
+[Speaker 0]: 大家都知道，
+[Speaker 0]: 就是说我说引发共识，
+[Speaker 0]: 有一个最基础的事情，
+[Speaker 0]: 就是大家都知道，
+[Speaker 1]: 就大家都知道才是一共识啊。
+[Speaker 0]: 文革不是毛泽的现实不满，
+[Speaker 0]: 文革是毛泽东要逗彭德怀跟刘少奇这个这个在多期文革节目里面已经讲过了啊，
+[Speaker 0]: 文革跟底层不满几乎没有关系啊。
+[Speaker 0]: 文革是毛泽东要逗刘少奇跟彭德怀。
+[Speaker 0]: 好，
+[Speaker 0]: 我们放首歌。
+[Speaker 0]: 然后我们这个劳动党之声啊，
+[Speaker 0]: 今天呢一共五个问题，
+[Speaker 0]: 但有的不是问题。
+[Speaker 0]: 那第一个呢好好，
+[Speaker 0]: 这是威燕张动机这首给老婆的诗所要读诗。
+[Speaker 0]: 所以呃读诗大家忍一忍啊。
+[Speaker 0]: 对，
+[Speaker 0]: 所以说都跟我同龄人二三年初从上海逃到英国，
+[Speaker 0]: 现在人在英国工作，
+[Speaker 0]: 做移民间。
+[Speaker 0]: 所以这三年啊，
+[Speaker 0]: 他们俩一起去英国，
+[Speaker 0]: 真的非常好啊，
+[Speaker 0]: 非常幸运和感恩有他的身边就是他是女字，
+[Speaker 0]: 他所以是男生跟女生写的诗，
+[Speaker 0]: 然后我们俩都是老听众了，
+[Speaker 0]: 希望你能帮我念给他听。
+[Speaker 0]: 做一个学理工课的人，
+[Speaker 0]: 从来没有写过诗，
+[Speaker 0]: 第一次尝试见笑了。
+[Speaker 0]: 好，
+[Speaker 0]: 现在呢我就给他读啊，
+[Speaker 0]: 他给他妻子写的这首诗啊，
+[Speaker 0]: 这个这个人肯定不是 alex。
+[Speaker 0]: 好，
+[Speaker 0]: 我们不管 alex，
+[Speaker 0]:  alex 要从里面拿，
+[Speaker 0]: 因因为 alex 能够参与到这个市里面啊，
+[Speaker 0]: 这是另外一对非常幸福的。
+[Speaker 0]: 在英国的 couple，
+[Speaker 0]: 他们应该呃已经结婚挺长时间了。
+[Speaker 0]: 好，
+[Speaker 0]: 这首诗的标题叫给阿美是个诗，
+[Speaker 0]: 是这样的，
+[Speaker 0]: 我们认识已经快十三年了，
+[Speaker 0]: 时间把这句话说的很轻，
+[Speaker 0]: 我们却把它过得很重。
+[Speaker 0]: 我们结婚走到第十个年头，
+[Speaker 0]: 我们被世界不断改变方向，
+[Speaker 0]: 在其中努力站稳。
+[Speaker 0]: 总希望时间慢一点慢到，
+[Speaker 0]: 让我误以为可以把这幸福感冻结住。
+[Speaker 0]: 最近对分别格外敏感，
+[Speaker 0]: 哪怕只是几天在车站，
+[Speaker 0]: 你问我是工作不开心吗？
+[Speaker 0]: 怎么连打扑克也不想去了？
+[Speaker 0]: 我其实要说想把这时间留给你，
+[Speaker 0]: 而我的脆弱没法讲完这么长的句子，
+[Speaker 0]: 但是你一定是看出来了。
+[Speaker 0]: 你说我是盐水包，
+[Speaker 0]: 我想是的，
+[Speaker 0]: 心里更加确信我已经离不开你了。
+[Speaker 0]: 你说人是会死的，
+[Speaker 0]: 我们认真讨论过，
+[Speaker 0]: 谁会先走，
+[Speaker 0]: 也都想先走。
+[Speaker 0]: 独活是无法想象的恐惧，
+[Speaker 0]: 可有时我也害怕先死，
+[Speaker 0]: 因为我无法想象时间继续走着，
+[Speaker 0]: 而你身旁少了我那种想象和失去你一样，
+[Speaker 0]: 让我颤抖相依为命。
+[Speaker 0]: 听起来总带着一点苦情，
+[Speaker 0]: 可我却在其中感到幸运。
+[Speaker 0]: 时间没把我们磨散，
+[Speaker 0]: 反而一次次把我们推回彼此，
+[Speaker 0]: 抱得更紧。
+[Speaker 0]: 如果时间终究无法被战胜，
+[Speaker 0]: 那至少我想和你走到他不再有话可说的地方。
+[Speaker 0]: 十年结婚十年还能写这样的诗，
+[Speaker 0]: 这个绝得是一个非常令人艳羡的地方啊，
+[Speaker 0]: 一般一般人结婚十年，
+[Speaker 0]: 很难再有这么浓烈的情感了。
+[Speaker 0]: 但我相信这个异国的感情也是在里面有情感啊，
+[Speaker 0]: 是这样的，
+[Speaker 0]: 你们首先这不是表白文，
+[Speaker 0]: 这人家结根本不是，
+[Speaker 0]: 这绝对不是开玩笑啊。
+[Speaker 0]: 他到底是诗是散文，
+[Speaker 0]: 没有在这里没有分辨的意义啊，
+[Speaker 0]: 结婚十年还能写这个已经非常非常厉害了啊。
+[Speaker 0]: 好，
+[Speaker 0]: 祝你们在英国一切顺利啊。
+[Speaker 0]: 好，
+[Speaker 0]: 下面问题来了啊。
+[Speaker 0]: 呃吴彦璋同机作为一个女童，
+[Speaker 0]: 喜欢上自己的顺直朋友怎么办？
+[Speaker 0]: 我很享受两人在一起亲密无间、
+[Speaker 0]: 互相照顾的感觉，
+[Speaker 0]: 即使我不告白，
+[Speaker 0]: 一直暗恋下去，
+[Speaker 0]: 这种感觉也很好。
+[Speaker 0]: 但是当她和异性关系很近，
+[Speaker 0]: 我又很难受。
+[Speaker 0]: 虽然强调虽然他一直强调自己是独身主义，
+[Speaker 0]: 但是顺性别，
+[Speaker 0]: 我该告白还是保持暗恋说弯恋值在我身上发生多次的救救女童。
+[Speaker 0]: 我个人觉得这个情况之下，
+[Speaker 0]: 如果你不表白的话，
+[Speaker 0]: 他还会跟异性可能有很近的关系啊，
+[Speaker 0]:  date 呀、
+[Speaker 0]: 约会啊等怎么着。
+[Speaker 0]: 所以我觉得呢嗨实际上表白是个很有技巧的事情啊，
+[Speaker 0]: 尤其是这个女生跟女生之间信任在嘛，
+[Speaker 0]: 而且这个女生双性恋确实是比这个男生的比例会明显高的。
+[Speaker 0]: 所以在这个情况之下呢，
+[Speaker 0]: 比如说男生跟男生开要在一起的玩笑，
+[Speaker 0]: 那应该是我是很难想象这种事情的。
+[Speaker 0]: 这个就是那肯定如果真是值得一方紧邻大作，
+[Speaker 0]: 肯定就就就就就很难了，
+[Speaker 0]: 就尴尬死了。
+[Speaker 0]: 但女生跟女生开在一起的玩笑，
+[Speaker 0]: 我觉得好像好像不是不可想象的事情。
+[Speaker 0]: 我不知道这是我的女性的偏见还是什么？
+[Speaker 0]: 但女性的双性恋比男性确实会多。
+[Speaker 0]: 所以我觉得呢你这就像男生追女生一样嘛，
+[Speaker 0]: 有时候你在表白之前不不敢确定的时候，
+[Speaker 0]: 你就把这个氛围往这个暧昧的方向引呗。
+[Speaker 0]: 你越来越暧昧，
+[Speaker 0]: 越来越暧昧，
+[Speaker 0]: 试探性的那买没买这个一样的。
+[Speaker 0]: 所以我觉得现在你的状态也一样。
+[Speaker 0]: 所以你现在这个状态，
+[Speaker 0]: 我觉得不是要不要直接表白，
+[Speaker 0]: 就是你现在的选择并不是暗恋下去和直接表白，
+[Speaker 0]: 而是如何你们继续往暧昧的方向发展，
+[Speaker 0]: 以及你能够做一些没有到表白。
+[Speaker 0]: 但是介于表白之前状态的那种玩笑话，
+[Speaker 0]: 那种表达、
+[Speaker 0]: 欣赏、
+[Speaker 0]: 表达喜欢的话等等等等。
+[Speaker 0]: 就是试探嘛，
+[Speaker 0]: 这个东西肯定是就跟就这个跟跟跟跟顺顺和直和跟直和弯，
+[Speaker 0]: 这个就没没区别啊，
+[Speaker 0]: 这都是这样的。
+[Speaker 0]: 所以我认为你可以去推进，
+[Speaker 0]: 但推进不代表你现在马上就要做呃对方答应或不答应的表白。
+[Speaker 0]: 对吧？
+[Speaker 0]: 这个是人人都是一样的。
+[Speaker 0]: 所以你现在应该让这个关系更加暧昧起来，
+[Speaker 0]: 而不是说是不是马上就要表白啊，
+[Speaker 0]: 大概是这样的。
+[Speaker 0]: 好，
+[Speaker 0]: 我们来看下面一题。
+[Speaker 0]: 呃，
+[Speaker 0]: 我想呃吴彦江同计您是一直比较认可婚恋价值的。
+[Speaker 0]: 但问题是这个整个东亚两性战争要比欧美国家剧烈的多。
+[Speaker 0]: 所以我甚至在世俗意义上去进行这个计算。
+[Speaker 0]: 我认为在中国结婚生子，
+[Speaker 0]: 那简直是愚蠢。
+[Speaker 0]: 所以我一直也奉行不婚主义。
+[Speaker 0]: 哎，
+[Speaker 0]: 我我我我没读完，
+[Speaker 0]: 我现在就想问你一句，
+[Speaker 0]: 不是东亚两性战争比欧美剧烈，
+[Speaker 0]: 真的中韩最剧烈，
+[Speaker 0]: 这跟你有什么关系啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 就是是这样的，
+[Speaker 0]: 如果一个人他的心态，
+[Speaker 0]: 一个女生的心态是两性战争这种的，
+[Speaker 0]: 他就不会愿意 date，
+[Speaker 0]: 他也不会成为你的女朋友。
+[Speaker 0]: 所以虽然东亚两性战争很剧烈，
+[Speaker 0]: 但你说这个社会上是不是绝大多数女性都已经不信任男性，
+[Speaker 0]: 不愿跟男性结婚了？
+[Speaker 0]: 那不是啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以说我以前我就说过啊，
+[Speaker 0]: 这是两个尺度的事情，
+[Speaker 0]: 就是社会尺度和个人尺度。
+[Speaker 0]: 两个尺轮的事情，
+[Speaker 0]: 我们这个社会就是特别的两性对立。
+[Speaker 0]: 但是跟你做一个个人，
+[Speaker 0]: 你能不能谈恋爱，
+[Speaker 0]: 这是两回事。
+[Speaker 0]: 所以你该谈谈你的你个人的恋爱生活，
+[Speaker 0]: 跟东亚是不是两性战争没有关系，
+[Speaker 0]: 就是真正进入那个意识形态的人，
+[Speaker 0]: 也不会跟你 date。
+[Speaker 0]: 你也放心吧，
+[Speaker 0]: 你也不会说你跟一个女人 date 腾半年谈婚论嫁，
+[Speaker 0]: 他突然跟你说，
+[Speaker 0]: 他正恨男性不跟你结婚，
+[Speaker 0]: 不会发生这种事情。
+[Speaker 0]: 好吧？
+[Speaker 0]: 好，
+[Speaker 0]: 我接着给这个往下念啊，
+[Speaker 0]: 说因为我是这个宗教信仰的问题，
+[Speaker 0]: 我需要面对婚恋的问题。
+[Speaker 0]: 现在我给自己的借口就是离开中国，
+[Speaker 0]: 就可以正经恋爱了。
+[Speaker 0]: 所以离开之前就尽量避免啊，
+[Speaker 0]: 这个就我才说了，
+[Speaker 0]: 是大可不必啊。
+[Speaker 0]: 然后他他后半段是说呃，
+[Speaker 0]: 而且我实在讨厌中国这个性别战争受不了，
+[Speaker 0]: 双方会陷入部落主义的互相征伐。
+[Speaker 0]: 我感觉特别可笑，
+[Speaker 0]: 所以我想你比如说换一个天主教国家，
+[Speaker 0]: 基督教国会不会好一些。
+[Speaker 0]: 因为我认为这个东亚各国这个男的不需要互相折磨，
+[Speaker 0]: 对方不会就像我说的，
+[Speaker 0]: 你本来就在中国，
+[Speaker 0]: 你在谈恋爱，
+[Speaker 0]: 那个性别战争也不影响你，
+[Speaker 0]: 你真正需要担忧的那些事儿，
+[Speaker 0]: 呃，
+[Speaker 0]: 还是那些生活中相处的事儿。
+[Speaker 0]: 你去英国了，
+[Speaker 0]: 你跟人家谈恋爱，
+[Speaker 0]: 那谈恋爱问题中需要遭遇的事还是那些事儿。
+[Speaker 0]: 而且你不是说去了外国那个女生就一点不接受女性主义了也不会啊，
+[Speaker 0]: 你去天人座国家的女生也有女性主义思想啊，
+[Speaker 0]: 就是你在中国你也可以，
+[Speaker 0]: 你女朋友也有女性主义思想，
+[Speaker 0]: 就是女性主义思想和进入性别战争意识形态是不一样的。
+[Speaker 0]: 你你不能因为说我们国家可能很多年轻女性都有女性主义思想，
+[Speaker 0]: 你就跟她谈不了恋爱，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那你去英国也有女性主义思想啊，
+[Speaker 0]: 你要找女性性主思思想可能得往非洲去，
+[Speaker 0]: 我们肯定不愿意啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 你去一些发达国家，
+[Speaker 0]: 你在日本这么女性的女性也有女性主义思想啊，
+[Speaker 0]: 对这个这个这个这个对对，
+[Speaker 0]: 你看评论区有个人说说，
+[Speaker 0]: 我女朋友极度艳男，
+[Speaker 0]: 但是跟我有什么关系？
+[Speaker 0]: 哎，
+[Speaker 0]: 你别说这话是真的这话真的是真的很有可能你的女朋友极度艳男，
+[Speaker 0]: 但是他就是不讨厌你啊，
+[Speaker 0]: 这种事情这种事情非常非常非常非常非常非常多。
+[Speaker 0]: 所以说这个跟你没关系啊。
+[Speaker 0]: 好，
+[Speaker 0]: 下面一题呃，
+[Speaker 0]: 吴元璋统计如何巧妙判断 crash 是不是小粉红？
+[Speaker 0]: 最近喜欢一个女生，
+[Speaker 0]: 我怀疑她小粉红，
+[Speaker 0]: 但不怕直接问有没有什么巧妙方法判断 crash 是不是小粉红？
+[Speaker 0]: 这很简单，
+[Speaker 0]: 你就找一个没有那么政治性生活化衔接的话题呗。
+[Speaker 0]: 哎呀，
+[Speaker 0]: 我想出来了，
+[Speaker 0]: 很容易啊，
+[Speaker 0]: 你在你应该在国内对吧？
+[Speaker 0]: 你就给他说，
+[Speaker 0]: 哎呀，
+[Speaker 0]: 你最近好烦啊，
+[Speaker 0]: 这个 VPN 都很不稳定。
+[Speaker 0]: 哎，
+[Speaker 0]: 比如对方说 VPN，
+[Speaker 0]: 你翻墙我要去举报，
+[Speaker 0]: 你我要把你告到派出所那就是了。
+[Speaker 0]: 比如对方说 VPN 啊啊什么是 VPN，
+[Speaker 0]: 哎，
+[Speaker 0]: 就有可能了。
+[Speaker 0]: 比如你说啊 VPN 翻墙上外网，
+[Speaker 0]: 哎，
+[Speaker 0]: 他说我有上外网，
+[Speaker 0]: 你被洗脑啊啊，
+[Speaker 0]: 你要犯成间谍，
+[Speaker 0]: 那就完蛋，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那比如对方说哎，
+[Speaker 0]: 对我也觉得 VPN 很麻烦，
+[Speaker 0]: 最近我也觉得 VPN 不好用。
+[Speaker 0]: 那 VPN 你来了，
+[Speaker 0]: 你哎你 VPN，
+[Speaker 0]: 比如说你你你说 VPN，
+[Speaker 0]: 你看我我你比如你你比如你说哎 VPN，
+[Speaker 0]: 你看我就是就像 youtube，
+[Speaker 0]: 你把你 youtube 的封面拿给他，
+[Speaker 0]: 看你把你 youtube 茶三个手手手对对方说，
+[Speaker 0]: 哎，
+[Speaker 0]: 你看这个你还看这些啊，
+[Speaker 0]: 你这个人完蛋，
+[Speaker 0]: 对吧？
+[Speaker 0]: 比如对方一看，
+[Speaker 0]: 哎，
+[Speaker 0]: 这话题不知可否，
+[Speaker 0]: 或者 ok 不就完了吗？
+[Speaker 0]: 对，
+[Speaker 0]: 不危险是这样的，
+[Speaker 0]: 我跟你说啊，
+[Speaker 0]: 如果警察不是有运动，
+[Speaker 0]: 你随便跟你讲，
+[Speaker 0]: 报警说我认识一个人，
+[Speaker 0]: 他用 VPN 警察不会为这个事儿，
+[Speaker 0]: 真的抓你。
+[Speaker 0]: 你警察有病对吧吧，
+[Speaker 0]: 除非警察最近有什么 VP 整治任务要完成 KPI，
+[Speaker 0]: 但完你你觉如果警察真要完成 KPI，
+[Speaker 0]: 要靠举报来找用 VPI 的人吗？
+[Speaker 0]: 怎么可能怎么可能呢？
+[Speaker 1]: 对好好，
+[Speaker 0]: 所以说对，
+[Speaker 0]: 比如女生同学用 ins 你也可以。
+[Speaker 0]: 对啊，
+[Speaker 0]: 就是说你就用 VVPN 慢慢慢慢去了解嘛。
+[Speaker 0]: 对，
+[Speaker 0]: 所以说你试一试啊，
+[Speaker 0]: 我就用微片这个话题吧，
+[Speaker 0]: 稍微好一点。
+[Speaker 0]: 好，
+[Speaker 0]: 下面一题呃，
+[Speaker 0]:  ok 下面一题下面一题可能不是男女朋友关系啊，
+[Speaker 0]: 是父母关系。
+[Speaker 0]: 呃，
+[Speaker 0]: 哦，
+[Speaker 0]: 是这样说的啊。
+[Speaker 0]: 对，
+[Speaker 0]: 还有我刚刚刚到，
+[Speaker 0]: 还有就是你如果有他的微信朋友圈，
+[Speaker 0]: 当然可能三天可见。
+[Speaker 0]: 如果不是三天可见，
+[Speaker 0]: 你好好翻一翻，
+[Speaker 0]: 什么元旦总书记讲话呀，
+[Speaker 0]: 九十大阅阅啊，
+[Speaker 0]: 有没有转发过啥东西啊？
+[Speaker 0]: 但如果有人转发过，
+[Speaker 0]: 有时候有人是因为当公务员啊或者当事业单位啊，
+[Speaker 0]: 单位要求转发也也不好说，
+[Speaker 0]: 还是被骗吧。
+[Speaker 0]: 啊。
+[Speaker 0]: 好，
+[Speaker 0]: 下面一个文岩江同志最近和我妈吵了一架，
+[Speaker 0]: 是一个很小的琐事。
+[Speaker 0]: 前几天长辈请吃饭，
+[Speaker 0]: 我担心吃饭太晚会影响我后续安排，
+[Speaker 0]: 就是说要不然我骑车去啊，
+[Speaker 0]: 我妈说不用下班，
+[Speaker 0]: 一起开出去。
+[Speaker 0]: 好，
+[Speaker 0]: 我说万一呢，
+[Speaker 0]: 因为要喝点酒，
+[Speaker 0]: 你们之前很晚才回来，
+[Speaker 0]: 导致我吃完饭玩手机，
+[Speaker 0]: 干不了。
+[Speaker 0]: 他说没有，
+[Speaker 0]: 万一，
+[Speaker 0]: 就是吃饭吃完就回来，
+[Speaker 0]: 结果是吃完饭多待一个小时，
+[Speaker 0]: 看着没有，
+[Speaker 0]: 很快要结束饭局我就生气，
+[Speaker 0]: 于是就没有打扰他们，
+[Speaker 0]: 自己打车回家了。
+[Speaker 0]: 第二天我提起这个事儿，
+[Speaker 0]: 我打了去说，
+[Speaker 0]: 妈，
+[Speaker 0]: 你先给我转一万呗，
+[Speaker 0]: 你这样说没有，
+[Speaker 0]: 万一，
+[Speaker 0]: 结果还是那么久。
+[Speaker 0]: 他有些赖皮说的确是吃过饭回来并指责为什么先回去，
+[Speaker 0]: 不给他们说等等等，
+[Speaker 0]: 然后就父母冷战了啊，
+[Speaker 0]:  ok 真是一个琐事啊。
+[Speaker 0]: 然后第二个呢，
+[Speaker 0]: 就是我和我妹还有爸妈生活在一个小县城，
+[Speaker 0]: 没有房子，
+[Speaker 0]: 家里只有我的正常工作，
+[Speaker 0]: 我妈基本在家只工作过两三年。
+[Speaker 0]: 我爸在我小时候就生意失败，
+[Speaker 0]: 一直没有工作，
+[Speaker 0]: 没有收收入，
+[Speaker 0]: 妹妹还在读书。
+[Speaker 0]: 近二十七二十七岁还始读书读博嘛，
+[Speaker 0]: 从大大学毕业工作一直到现在，
+[Speaker 0]: 家里时不时向我拿钱，
+[Speaker 0]: 少则几百多则两万。
+[Speaker 0]: 我操这个女生很厉害，
+[Speaker 0]: 一个人养一家子人，
+[Speaker 0]: 以前只会想着日子挺一挺，
+[Speaker 0]: 我爸那边一直在合作的生意会好起来，
+[Speaker 0]: 可是五六年了，
+[Speaker 0]: 到现在也没有起色啊。
+[Speaker 0]: 现这个中国这个经济状况做生意很难啊，
+[Speaker 0]: 由于家里这么困难，
+[Speaker 0]: 还有本身的软弱，
+[Speaker 0]: 很多时候都做不到换了工作，
+[Speaker 0]: 回到家里和他们一起生活三年了，
+[Speaker 0]: 平时会有一些摩擦，
+[Speaker 0]: 那时候没有细想，
+[Speaker 0]: 总会以各种理由为他们解释。
+[Speaker 0]: 可是摩擦越来越多，
+[Speaker 0]: 有一次家里没人我养的小猫，
+[Speaker 0]: 因为我妈的疏忽没关好猫，
+[Speaker 0]: 翻出窗外摔死了。
+[Speaker 0]: 我一开始以为猫在哪个角落一直没找到，
+[Speaker 0]: 后来在小区垃圾桶找到了，
+[Speaker 0]: 我，
+[Speaker 0]: 非常伤心，
+[Speaker 0]: 可父母没人安慰我，
+[Speaker 0]: 身着母亲还挺生气，
+[Speaker 0]: 并且欲我有我的责怪它。
+[Speaker 0]: 我爸知道了让我给他道歉，
+[Speaker 0]: 让我安慰他像没像的事。
+[Speaker 0]: 在我生活中发生很多次，
+[Speaker 0]: 让我觉得似乎自己不会从他们也得到理解和共情。
+[Speaker 0]: 最近想找个时间和他们谈一谈，
+[Speaker 0]: 说明我自己不再像以前一样独自承担家庭开销。
+[Speaker 0]: 我更想离开他们独自去生活，
+[Speaker 0]: 或者设立一个边界。
+[Speaker 0]: 现在和他们的生活对我来讲是一个伤害，
+[Speaker 0]: 我没有多少存款，
+[Speaker 0]: 不能像这么挺下去，
+[Speaker 0]: 呃，
+[Speaker 0]: 我也没有想的那么不在乎。
+[Speaker 0]:  ok 是这样的，
+[Speaker 0]: 这种沟通好难的，
+[Speaker 0]: 就是你给父母沟通说我可能不能像过去那样了，
+[Speaker 0]: 真的很难。
+[Speaker 0]: 我给你的建议是最好的方法，
+[Speaker 0]: 就是你找了一份离开这个县城的工作，
+[Speaker 0]: 你就真离开这个县城。
+[Speaker 0]: 所以你父母了解到的就是你换了一份工作，
+[Speaker 0]: 这个工作要离开县城生活，
+[Speaker 0]: 因此你就必须离开了。
+[Speaker 0]: 离开之后很多问题就就因为距离啊等等的原因就会有很多的好转。
+[Speaker 0]: 所以我觉得如果你依然在这个县城这么小的一个地方，
+[Speaker 0]: 而且要跟他们一起生活。
+[Speaker 0]: 然后你跟他们讲不能承担开销啊，
+[Speaker 0]: 独自生活啊都很难。
+[Speaker 0]: 对他们来讲理解也很难。
+[Speaker 0]: 就是你也知道父母的心态嘛，
+[Speaker 0]: 这个我觉得这种沟通难度很大，
+[Speaker 0]: 我让父母理解起来也难度很大。
+[Speaker 0]: 呃，
+[Speaker 0]: 所以说让父母最好理解的就是哦哦你有个工作啊，
+[Speaker 0]: 这工作要离开这好，
+[Speaker 0]: 这就离开这离开了。
+[Speaker 0]: 所以我也觉得，
+[Speaker 0]: 但是现在这个时代找工作也挺难的，
+[Speaker 0]: 我也知道，
+[Speaker 0]: 但是这个县城工作我觉得也未必会特别特别好。
+[Speaker 0]: 我猜啊，
+[Speaker 0]: 我也不也不知道县城什么情况，
+[Speaker 0]: 但我会觉得不一定，
+[Speaker 0]: 一定要是北上广深啊，
+[Speaker 0]: 省会城就行。
+[Speaker 0]: 所以说我觉得你可以尝试找一个非在你那个地方的省会城市的或者更大城市的工作，
+[Speaker 0]: 然后以这个工作直接离开啊，
+[Speaker 0]: 很多问题就自然就慢慢慢慢消解了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对我觉得这种处理方法可能会相对好一点点啊。
+[Speaker 0]: 因为我觉得很多那种父母其实要沟通这种事情，
+[Speaker 0]: 你看你哭，
+[Speaker 0]: 你妈都觉得要给他提交伤害。
+[Speaker 0]: 然后你爸你爸给他道歉，
+[Speaker 0]: 你要给他们说，
+[Speaker 0]: 你不能承担家庭开销，
+[Speaker 0]: 要离开他们独自生活，
+[Speaker 0]: 他们不知道会用什么样的情绪绑架呀，
+[Speaker 0]: 道德绑架的方式来跟你说，
+[Speaker 0]: 到时候更麻烦，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以我觉得别那样，
+[Speaker 0]: 对，
+[Speaker 0]: 好，
+[Speaker 0]: 这个就这五个问题啊。
+[Speaker 0]:  ok 我也十一点四十了，
+[Speaker 0]: 你们是十点四十啊，
+[Speaker 0]: 那我们放最后的歌结束啊。
+[Speaker 0]: 好了，
+[Speaker 0]: 呃，
+[Speaker 0]: 就这样吧，
+[Speaker 0]: 那大家这周就这样，
+[Speaker 0]: 那我们下周晚上再见，
+[Speaker 0]: 祝大家周末愉快。
+[Speaker 0]: 在这个配唱赞助的创作，
+[Speaker 0]: 这儿越过小狗在配唱这赞助的创作帮助我跟爹爹还有小三十，
+[Speaker 0]: 把这个事刚好做下去，
+[Speaker 0]: 是不是爹爹来回来给他给他说一声，
+[Speaker 0]: 说赞助的创作说收购买罐头，
+[Speaker 0]: 说给我买罐头。
+[Speaker 1]:  yeah，
+[Speaker 0]:  buy me snacks，
+[Speaker 0]: 跟我 say，
+[Speaker 0]:  buy me snacks，
+[Speaker 0]:  buy me some japanese made snacks，
+[Speaker 0]:  say i want some luxury snack。
+[Speaker 0]:  i want some dear bones，
+[Speaker 0]:  say，
+[Speaker 0]:  say，
+[Speaker 0]:  say，
+[Speaker 0]:  i need some fresh horse meat，
+[Speaker 0]:  buy me some fresh horse meat，
+[Speaker 0]: 拜拜，
+[Speaker 0]: 把它放下，
+[Speaker 0]: 拜拜。
