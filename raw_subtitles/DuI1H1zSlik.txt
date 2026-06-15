@@ -1,0 +1,1337 @@
+[Speaker 1]: 比较烦的就是 youtube 的那个直播间就没了，
+[Speaker 1]: 要重来，
+[Speaker 1]: 不知道他们还能不能重回来，
+[Speaker 1]: 但是小红书没问题，
+[Speaker 1]: 你要说啥呢？
+[Speaker 2]: 来了吗？
+[Speaker 1]: 小伙伴应该好了。
+[Speaker 1]: 对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 哦你刚刚说就是你那儿有问题吗？
+[Speaker 2]: 对，
+[Speaker 2]: 就是问那个 agent 的需求远远大，
+[Speaker 2]: 远远大于人类的需求。
+[Speaker 2]: 什么产品能满满足 agent 的需求？
+[Speaker 2]: 还有人问 agent 需要社交吗？
+[Speaker 2]: 就像那个之前那个 motebook，
+[Speaker 2]: 很多 agent 去社交，
+[Speaker 1]: 但是那背后其实是人类的需求了。
+[Speaker 1]: 对对，
+[Speaker 2]: 是人类需要需要看到 agent 社交，
+[Speaker 2]: 他们自己不需要，
+[Speaker 1]: 对，
+[Speaker 1]:  agent 就需要更多算力。
+[Speaker 1]: 但是你刚说说了 text，
+[Speaker 1]: 我说我小问上也有两个问题，
+[Speaker 1]: 一个是我看看谁问的啊？
+[Speaker 1]: 就是嗯呃 doctor y 单个 MD 太长，
+[Speaker 1]: 同时有很多 MD file，
+[Speaker 1]: 请问有什么好建议管理 MD files 呢？
+[Speaker 1]: 然后金能格问如何建立给本地工作知识图谱呢？
+[Speaker 1]: 你那边有，
+[Speaker 1]: 反正类似的问题，
+[Speaker 1]: 或者说你对 context management，
+[Speaker 1]: 你有没有什么心得？
+[Speaker 2]: 嗯，
+[Speaker 2]: 我想想啊，
+[Speaker 2]: 我就首先我的本地的 MD file，
+[Speaker 2]: 其实我很多都是在 MC 店里面来管理的。
+[Speaker 1]: 所以我不知道是不是他想象的这种你刚刚分享的工具里面没有分享的 CC 点啊，
+[Speaker 1]: 这其实还是有的。
+[Speaker 2]: 说实话我很少去读了，
+[Speaker 2]: 就是一些 MD files。
+[Speaker 2]: 我虽然打开这 FC 店，
+[Speaker 2]: 我就是看下去改什么，
+[Speaker 2]: 但是我基本上全是扣在写了，
+[Speaker 2]: 我我都懒打开读了，
+[Speaker 2]: 偶尔就是扫一眼而已。
+[Speaker 2]: 所以他其实不是我开发的必要的东西。
+[Speaker 2]: 而且就是之前我跟几个小伙伴也吐槽过这个事情，
+[Speaker 2]: 就是我不知道 c dia 里面就是嗯一个是那个连接的一圈一圈的那个图，
+[Speaker 2]: 我要怎么用它？
+[Speaker 2]: 我觉得它只是好看，
+[Speaker 2]: 但是没有实质性用处。
+[Speaker 2]: 其次就是我不会往里面丢一些，
+[Speaker 2]: 就是很多人就学 andrew party 的那个方式嘛，
+[Speaker 2]: 就是呃把什么所有的文章都丢给夸克 o，
+[Speaker 2]: 让他按照那点模式把它存到了 c dia 里面，
+[Speaker 2]: 作为你的第二大脑。
+[Speaker 2]: 但是这些东西有什么用呢？
+[Speaker 2]: 就是我要是想知道这个信息，
+[Speaker 2]: 我上网查我就知道了呀。
+[Speaker 2]: 或者是我问 the latest model 或者怎么怎么样，
+[Speaker 2]: 我就可以很精准的去上网查最后最新的信息。
+[Speaker 2]: 我不需要存一些我自己并不会去读的东西，
+[Speaker 2]: 就是为了将来，
+[Speaker 2]: 有可能我需要他某一天说不定能用到。
+[Speaker 2]: 就如果我要写的话，
+[Speaker 2]: 我一般是喜欢手写或者是一个就是 project 的项目的东西，
+[Speaker 2]: 我才会把它留在我的 FC 店里面。
+[Speaker 2]: 所以我是比较挑的，
+[Speaker 2]: 就是我不走量，
+[Speaker 2]: 我是走质量在 opc 店里面的。
+[Speaker 2]: 我不知道大家这个本地管理是不是这么管理的，
+[Speaker 2]: 好像每个人的方式也不太一样。
+[Speaker 1]: 你你要不要，
+[Speaker 1]: 你能你能给大家 share 一下，
+[Speaker 1]: 看一眼吗？
+[Speaker 1]: 你的 FCN 我 UCN 吗？
+[Speaker 2]: 我要看一下我的 UCN，
+[Speaker 1]: 哇，
+[Speaker 1]: 可以参观你家里，
+[Speaker 1]: 你就其实没什么东西，
+[Speaker 1]: 就是底下那个 share。
+[Speaker 2]: 然后对嗯其实没太多东西，
+[Speaker 2]: 我的几点里面。
+[Speaker 2]: 对，
+[Speaker 2]: 假如说我就大概就长这个样子嘛，
+[Speaker 2]: 一个五个文档，
+[Speaker 2]: 我有我的 career，
+[Speaker 2]: 这是我就是其实这个是一个产品，
+[Speaker 2]: 然后这是我这是一个团队的产品，
+[Speaker 2]: 然后这个是我自己做的产品，
+[Speaker 2]: 这是我小红书 social media 东西，
+[Speaker 1]: 这是关 cocols 定可以看以看。
+[Speaker 2]: 哎呀，
+[Speaker 2]: 假如说嗯 by coding，
+[Speaker 2]: 嗯，
+[Speaker 2]: 我最近前段时间我不是讲了一些不同 agents，
+[Speaker 2]: 哎，
+[Speaker 2]: 哦对我有的时候会写 notes。
+[Speaker 2]: 我的笔记就是关于 skills 是什么，
+[Speaker 2]: 关于 MCP 是什么，
+[Speaker 2]: 以后可以跟大家去分享嘛。
+[Speaker 2]: 哦，
+[Speaker 2]: 然后我也很喜欢它，
+[Speaker 2]: 就是可以把这 coding 做的写出来，
+[Speaker 2]: 写的比较丰满比较好。
+[Speaker 2]: 就是我会写一些自己的笔记。
+[Speaker 2]: 假如说我做了一篇视频，
+[Speaker 2]: 关于 hooks 的，
+[Speaker 2]: 基本上是从这里笔记开始的，
+[Speaker 2]: 然后一边写一边就把它就是捋出来。
+[Speaker 2]: 然有，
+[Speaker 2]: 我做了一篇笔记，
+[Speaker 2]: 是关于 same link 的嘛。
+[Speaker 2]: 这之前我也是从这里，
+[Speaker 2]: 这基本上我就 share string，
+[Speaker 2]: 我就把这个图解下来就可以跟大家分享。
+[Speaker 2]: 因为就是我的笔记，
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 然后我会有一些 quick reference 呀，
+[Speaker 2]: 啊有一些什么 link，
+[Speaker 2]: 我要记住的，
+[Speaker 2]: 以后再说的什什么 get up 的，
+[Speaker 2]: 呃，
+[Speaker 2]: 什么东西我都放在里面。
+[Speaker 2]: 然后假如说 social media 的话，
+[Speaker 2]: 我会有一些 topics，
+[Speaker 2]: 或者是有一些 reference 什么的，
+[Speaker 2]: 我我也会就这里写。
+[Speaker 2]: 但是这就相当于我的相当于我的什么 apple nose 一样，
+[Speaker 2]: 就是它没有特别的 elaborate。
+[Speaker 2]: 然后产品这里假如我最近在做这个产品嘛，
+[Speaker 2]: 就会有一些不同的 stack，
+[Speaker 2]: 这都是 cloud 给我写的，
+[Speaker 2]: 加后我的 stack，
+[Speaker 2]: 我的 overview monitization go to market strategy。
+[Speaker 2]: 我的 diary 是每天干了什么活，
+[Speaker 2]: 那是 cld 给我写的。
+[Speaker 2]: 我的 deve plan。
+[Speaker 2]: 我刚跟你说嘛，
+[Speaker 2]: 这个是我得一个一个 check off，
+[Speaker 2]: 这拿给 cloud 给我写的，
+[Speaker 2]: 还有 design brief，
+[Speaker 2]: 这是我拿给 cloud design 看的东西，
+[Speaker 2]: 所以每一个项目会有一档里头。
+[Speaker 2]: 嗯，
+[Speaker 1]: 我我 mark 了一下，
+[Speaker 1]: 然后那个我回头会删掉你，
+[Speaker 1]: 你应该给我们不小心看到了你的那个 gteup recovery 的 code，
+[Speaker 1]: 但是这是一个直播，
+[Speaker 1]: 所以说你可能回头要把那个就是那个呃就是 two factor 换一下。
+[Speaker 2]: 好好好好，
+[Speaker 2]: 我刚刚可能点的时候不小心点到了。
+[Speaker 1]: 对对对，
+[Speaker 1]: 应该是闪过了一一页一秒钟。
+[Speaker 2]: 你的好的，
+[Speaker 1]: 但是对对对于互联网来说，
+[Speaker 1]: 一秒钟就够了。
+[Speaker 1]: 确实确实那对你就内部那个就换一下就行了，
+[Speaker 1]: 就换一下新的那个好好很棒很棒。
+[Speaker 2]: 对，
+[Speaker 2]: 大概就是东西还是比较少的。
+[Speaker 1]: 没有我觉得就是很我我也可以一下我的，
+[Speaker 1]: 或者说你周儿有没有其他的。
+[Speaker 1]: 你觉得就是对你的工作管理或者 shcontext management 比较，
+[Speaker 1]: 就是除了 opp sitting 之外的东西。
+[Speaker 0]: 对对对，
+[Speaker 2]: 嗯，
+[Speaker 2]: 如果是 contex 管理，
+[Speaker 2]: 基本上就是起点，
+[Speaker 2]: 然后一大堆 MD 文档放在里面了。
+[Speaker 1]: 我我我是为了搞企业培训才到的。
+[Speaker 1]: 其实我觉得这个东西你说重要也不一定重要，
+[Speaker 1]: 但是我可以给你看一眼，
+[Speaker 1]: 就是他看上去嘛还是一个挺漂亮的玩意儿。
+[Speaker 1]: 就这个是当时给小红书做的一个呃就是那个培训，
+[Speaker 1]: 然后对这是给他们画了一个全景图。
+[Speaker 1]: 就我每天你看手表录音是吧？
+[Speaker 1]: 然后文章啊、
+[Speaker 1]: 视频啊、
+[Speaker 1]: 书啊，
+[Speaker 1]: 然然后本地项目啊，
+[Speaker 1]: 今天有一个 tetearhe acture 去蒸馏它，
+[Speaker 1]: 然后就是每天对吧会把它变成一些呃 skill 啊，
+[Speaker 1]: 或者说是分割记忆啊等等等等资产，
+[Speaker 1]: 然后再去输出成这个就是所谓的这种对外资产啊，
+[Speaker 1]: 呃就是这些东西。
+[Speaker 1]: 包括其实比如说啊就是我的个人网站，
+[Speaker 1]: 它里边的像这些嘉宾，
+[Speaker 1]: 这都是就是那个啊这不是按照都是 AI 去做的，
+[Speaker 1]: 呃，
+[Speaker 2]: 然后直接给你上传了是吗？
+[Speaker 1]: 呃，
+[Speaker 1]: 对，
+[Speaker 1]: 然后他其实也可以倒过去去改我的 youtube，
+[Speaker 1]: 因为 youtube 是可以用 APS 去控制的。
+[Speaker 1]: 呃，
+[Speaker 1]: 对呃，
+[Speaker 1]: 这是呃包括还有一个称是这样吧，
+[Speaker 1]: 就是我的播客也是 youtube，
+[Speaker 1]: 就是 AI 自己去 youtube 上扒下来，
+[Speaker 1]: 然后去上传。
+[Speaker 1]: 所以说就是你在小语状上能搜到我的博客，
+[Speaker 1]: 但是其实是自动的，
+[Speaker 2]: 就是以以你说的内容来总结，
+[Speaker 1]: 而且是把我的按照你的方式怎么写。
+[Speaker 1]: 哦，
+[Speaker 1]: 不是，
+[Speaker 1]: 就是把我的 youtube 给原封不动的上传成同步过去啊，
+[Speaker 1]: 原封不动的 OK 原封不动同步过去。
+[Speaker 1]: 对，
+[Speaker 1]: 呃然后刚刚说的 context architecture，
+[Speaker 1]: 如果大家感兴趣的话，
+[Speaker 1]: 就是怎么样子去做那个本地的知识的持续整理和蒸馏，
+[Speaker 1]: 就可以去看在 super lineer 里面的 knowledge bank。
+[Speaker 1]: 然后为什么 AI 只会说正确的废话，
+[Speaker 1]: 怎么把它逼出适舒适区？
+[Speaker 1]: 呃，
+[Speaker 1]: 就是怎么样子去构建这个东西。
+[Speaker 1]: 然后雅哥也就是开源了，
+[Speaker 1]: 开源了，
+[Speaker 1]: 他这里边的东西就你可以通过，
+[Speaker 1]: 你可以通过就每天 AI 在底下的这个就是安变呃应用吧，
+[Speaker 1]: 就构建你的记忆系统，
+[Speaker 1]: 然后提炼出来一些有用的东西。
+[Speaker 1]: 呃，
+[Speaker 1]: 这是我的做法哦，
+[Speaker 1]: 还有一个点啊，
+[Speaker 1]: 就是呃 MT 文件。
+[Speaker 1]: 我我可能和大家的理解就是我一般会把它是写给 AI 看的。
+[Speaker 1]: 所以说嗯这其实是我的管理，
+[Speaker 1]: 就是我有这么一个文档是吧？
+[Speaker 1]: 然后这是我的管理，
+[Speaker 1]: 然后这个它确实也给我看，
+[Speaker 1]: 就比如说我的一些素材在那儿，
+[Speaker 1]: 但是很多东西其实是给 AI 看的。
+[Speaker 1]: 就除了那个 agents MD 以外，
+[Speaker 1]: 我的文件夹一般会有一个这么一个 index，
+[Speaker 1]: 或者说是 map map 的东西。
+[Speaker 1]: 对，
+[Speaker 1]: 然后就是它的上下文是什么。
+[Speaker 1]: 这样的话就是 AI 到了这个里边，
+[Speaker 0]: 他知道这个东西大概是干嘛的对，
+[Speaker 2]: 这是嗯这个管理还是比较系统化的。
+[Speaker 1]: 但我觉得就是我动脑的时间真的比你少很多。
+[Speaker 1]: 我刚看你那个，
+[Speaker 1]: 我又觉得你说你不动脑了，
+[Speaker 1]: 但是其实你实在很动脑，
+[Speaker 1]: 就是你还是坚持熟悉很多东西，
+[Speaker 2]: 嗯，
+[Speaker 2]: 就尽量吧。
+[Speaker 2]: 但我觉得手写的东西自己能记住，
+[Speaker 2]: 或者并且会会回去看 AI 写的东西，
+[Speaker 2]: 我不愿意看，
+[Speaker 2]: 反正就是让 AI 看 AI 写的东西是我已经很少手写了。
+[Speaker 1]: 但是我会说很多，
+[Speaker 1]: 就是我会跟 AI 说很多东西，
+[Speaker 1]: 就是可能 AI 做一件事。
+[Speaker 1]: 我可能先跟他说五分钟的话，
+[Speaker 1]: 然后再把那些说的话，
+[Speaker 1]: 做很多时候就是能比较好的表达我的意图。
+[Speaker 1]: 但是手写的很少，
+[Speaker 1]: 就嗯手写可以激发自己很多想法。
+[Speaker 1]: 好的好的好的，
+[Speaker 2]: 是是想法还是比较多能做出来。
+[Speaker 2]: 其实已经挺挺少的了，
+[Speaker 2]: 就每天可能几十个新的想法，
+[Speaker 2]: 然后能真的把它写出来的只剩了十个，
+[Speaker 2]: 然后能做做出来的一个都不到。
+[Speaker 1]: 那那来讲讲你的这个主线，
+[Speaker 1]: 就是你的这个就是几十个想法。
+[Speaker 1]: 然后你怎么样子去筛选到那些你每天要做的事情里。
+[Speaker 1]: 是嗯我觉得而且还有嗯就还有这这这还有一个另外的问题，
+[Speaker 1]: 我一一被问到。
+[Speaker 1]: 但是我一直就是就是所有的做 up 主的人呢，
+[Speaker 1]: 大家都会问你，
+[Speaker 1]: 然后我也帮大家问你一遍吧，
+[Speaker 1]: 就是你自己做主业对吧？
+[Speaker 1]: 然后还有创业公司，
+[Speaker 1]: 然后还有自媒体对吧？
+[Speaker 1]: 然后还有每天尝试这些东西，
+[Speaker 1]: 你的时间是怎么来的？
+[Speaker 1]: 你如何进行时间管理？
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 好像也没什么时间管理，
+[Speaker 2]: 就是我觉得主要还是事儿做少一点，
+[Speaker 2]: 就聚焦一点。
+[Speaker 2]: 假如说项目的话，
+[Speaker 2]: 我可能就一次就做一两个，
+[Speaker 2]: 我也做不了太多。
+[Speaker 2]: 做做多的话就是把自己铺的太平太分散了，
+[Speaker 2]: 就是一个都做不完，
+[Speaker 2]: 然后一个都做不完，
+[Speaker 2]: 还时间久了，
+[Speaker 2]: 你也会觉得没有一种正反馈嘛，
+[Speaker 2]: 所以还是得就顶多一到两个事情做。
+[Speaker 2]: 然后我会挑那种我自己兴趣度高的，
+[Speaker 2]: 然后并且可行性强的，
+[Speaker 2]: 就我能做出来的。
+[Speaker 2]: 所以大家应该会喜欢或者能去真的用到的有价值的东西，
+[Speaker 2]: 就是在几个圈里找一个那个重叠的地方吧。
+[Speaker 2]: 嗯但是我觉得自己的兴趣度很高，
+[Speaker 2]: 这个也很重要。
+[Speaker 2]: 就是如果你对这个东西觉得它很好用，
+[Speaker 2]: 就是它可能会有价值。
+[Speaker 2]: 但是自己不是很感兴趣的话，
+[Speaker 2]: 时间久了也是会也会就失去一些这个动力。
+[Speaker 2]: 然后嗯我我个人的话其实还是会嗯就是一个 prioity 的问题。
+[Speaker 2]: 就可能他说我之前说周日会把视频都录了嘛，
+[Speaker 2]: 就相当于我可能那天不会去运动，
+[Speaker 2]: 然后周末也可能不见朋友，
+[Speaker 2]: 然后就什么很多事情就不做，
+[Speaker 2]: 选择性的不做，
+[Speaker 2]: 然后就把这个时间空出来。
+[Speaker 2]: 如果你的你的如果我当时的目标是现在就做不到了。
+[Speaker 2]: 但是我当时的目标就是一周必须发三个视频，
+[Speaker 2]: 就是必须必须必须发。
+[Speaker 2]: 什么事情都做不到，
+[Speaker 2]: 我也得发三个视频，
+[Speaker 2]: 那我就是所有的这个 priody 时间都会围着他绕。
+[Speaker 2]: 但是如果我现在的话，
+[Speaker 2]: 就是更回归一些，
+[Speaker 2]: 就是是呃有动力，
+[Speaker 2]: 有想法，
+[Speaker 2]: 有一些 inspiration 才发的时候，
+[Speaker 2]: 就没有没有这么这么这么高的 priority 了。
+[Speaker 1]: 那你对自媒体的 priority 是怎么思考的呢？
+[Speaker 1]: 你不接商单，
+[Speaker 1]: 对吧？
+[Speaker 1]: 所以说那你怎么思考这个频道的价值和它的相对的 priority 和你的做法。
+[Speaker 1]: 就是当时为什么你觉得一定要每周发三个，
+[Speaker 1]: 然后现在为什么不这么做了？
+[Speaker 1]: 对的对的对的，
+[Speaker 2]: 主要那个时候就是我自己的兴趣度也很高，
+[Speaker 2]: 我特别想学习，
+[Speaker 2]: 然后我就每天也也学很多，
+[Speaker 2]: 然后也希望自己能巩固一下这些知识，
+[Speaker 2]: 然后分享出去。
+[Speaker 2]: 所以主要还是督促我自己的一个方式吧。
+[Speaker 2]: 我觉得它的价值就是如果大家某一天都不看了，
+[Speaker 2]: 嗯，
+[Speaker 2]: 他也是给我自己的学习带来了一些巩固和一些总结，
+[Speaker 2]: 我觉得还是有本身的价值的。
+[Speaker 2]: 然后我觉得商单这个事情我要我要要吐槽，
+[Speaker 2]: 但是我不知道这个官方是是不是也不是官方本身了。
+[Speaker 2]: 我就是我觉得有一些模式上的或者是 system 方面的问题吧。
+[Speaker 2]: 就是像国外，
+[Speaker 2]: 我知道你玩 youtube 嘛，
+[Speaker 2]: 国外很多那种 poycast，
+[Speaker 2]: 不管是 lenes 啊还是什么，
+[Speaker 2]: 他们的 sponsor 就是很清楚的说这段视频是被 sponsor 的，
+[Speaker 2]: 然后就是个什么产品。
+[Speaker 2]: 并且他们说我我用了呃两个月了，
+[Speaker 2]: 发现的怎么怎么样使用的好用。
+[Speaker 2]: 但是我发现很多短视频的是平台，
+[Speaker 2]: 它就是提现。
+[Speaker 2]: 慕让你把一些话讲出来而已，
+[Speaker 2]: 就是也不一定让你真的去好好使用，
+[Speaker 2]: 多深入的去使使用。
+[Speaker 2]: 以后也不需要你也不允许你去提一些好坏的意见，
+[Speaker 2]: 然后也不允许你就是讲实话。
+[Speaker 2]: 我觉得对我来说我是没有办法接受这件事情的。
+[Speaker 2]: 我我想出来一个就是我我特别觉得 ideal 的事情，
+[Speaker 2]: 就是如果一个商单或一个产品来了，
+[Speaker 2]: 他先付你定金，
+[Speaker 2]: 这百分之十到二十的定金，
+[Speaker 2]: 你先试，
+[Speaker 2]: 你用个不知啊，
+[Speaker 2]: 两三个礼拜之类的。
+[Speaker 2]: 然后呢，
+[Speaker 2]: 你在这个时候你可以决定，
+[Speaker 2]: 如果你觉得它好用，
+[Speaker 2]: 我愿意推荐，
+[Speaker 2]: 你就把这个单接了。
+[Speaker 2]: 如果你觉得不好用，
+[Speaker 2]: 我给你写洋洋洒洒的写一个很很 detail 的 feedback，
+[Speaker 2]: 你把它拿回去当做一个产品的这个嗯可以可以下一步去改进的地方，
+[Speaker 2]: 就是两方都不亏，
+[Speaker 2]: 对吧？
+[Speaker 2]: 就是作为博主，
+[Speaker 2]: 我也不会说要去讲一些亏心话给我的粉丝。
+[Speaker 2]: 然后作为商家他也不会说套空，
+[Speaker 2]: 就是哦你不愿意接上单了，
+[Speaker 2]: 我这个钱就白花了了。
+[Speaker 2]: 我是希望大家有这种信任在的，
+[Speaker 2]: 我不希望就是我我在这边植入广告，
+[Speaker 2]: 然后观众他猜是不是植入广告，
+[Speaker 2]: 然后来回猜来回骗的那种方式。
+[Speaker 2]: 我是喜欢那种直接 youtube 上的那种方式，
+[Speaker 1]: 那你这个太 ideal 了。
+[Speaker 1]: 你这个 idea 的主要原因是因为大家都不爱动脑，
+[Speaker 2]: 但是 youtube 就就就能做到嘛，
+[Speaker 2]: 然后我就特别喜欢。
+[Speaker 2]: 就是这个是就是一个广告，
+[Speaker 2]: 就是广告是 sponsor，
+[Speaker 2]: 就是 sponsor。
+[Speaker 2]: 但是这不妨碍这个博主说这个东西是被 sponsor，
+[Speaker 2]: 然后我确实用了两个礼拜，
+[Speaker 2]: 然后我又发现它怎么怎么怎么样，
+[Speaker 2]: 哪里好哪里好，
+[Speaker 2]: 然后我给你推荐。
+[Speaker 2]: 然后我也我知道它是个广告，
+[Speaker 2]: 我也不会觉得我就不愿意用它了。
+[Speaker 2]: 我就觉得我可以更更好的去去能能听到他的好坏和他的坏话。
+[Speaker 1]: 这种的对我在想为什么导致这个区别我也不太清楚，
+[Speaker 1]: 我自己也是不接上单的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是如果说就是给你下上单的话，
+[Speaker 1]: 你是多少钱，
+[Speaker 1]: 你觉得可以我就看看看产品。
+[Speaker 2]: 对，
+[Speaker 2]: 看品牌就是有些东西完成课程课程，
+[Speaker 1]: 社区课程，
+[Speaker 2]: 我觉得得得我得是我特别喜欢的东西，
+[Speaker 2]: 就是这个课程我得自己先学完一套。
+[Speaker 2]: 学完了以后，
+[Speaker 2]: 我觉得哇塞真的是我推荐所有人都去学。
+[Speaker 1]: 我真的是你刚刚那个就是模式啊，
+[Speaker 1]: 因为比如说先付百分之十、
+[Speaker 1]: 百分之二十的钱，
+[Speaker 1]: 那哦对，
+[Speaker 1]: 就你还不知道的时候，
+[Speaker 1]: 你你会多少就是多少的总额，
+[Speaker 1]: 你会愿意开始试一下。
+[Speaker 2]: 嗯，
+[Speaker 2]: 我觉得可以看看多少时间，
+[Speaker 2]: 那我可能就会按小时来看。
+[Speaker 2]: 就是我我假如说用我得用两个礼拜，
+[Speaker 2]: 每天用一个小时的话，
+[Speaker 2]: 按时间来算。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 2]: 可能得看情况。
+[Speaker 2]: 其实我我在自己平台上推推荐过很多产品，
+[Speaker 2]: 都是自发的。
+[Speaker 2]: 什么 chernova 呀，
+[Speaker 2]: 什么 type lex 啊，
+[Speaker 2]: 很多就是没有给我一分钱，
+[Speaker 2]: 我就觉得好好用啊，
+[Speaker 2]: 大家我都来试一试。
+[Speaker 2]: 就包括现在我们产品 MB 嘛，
+[Speaker 2]: 就是我到处也跟人家推销这东西，
+[Speaker 2]: 现在我们也是不收钱的，
+[Speaker 2]: 就是内测嘛就内测。
+[Speaker 2]: 如果大家想有兴趣用的话，
+[Speaker 2]: 也可以来找我，
+[Speaker 2]: 但是我是真的觉得好用。
+[Speaker 2]: 我今天用前两天我躺在床上准备睡着了。
+[Speaker 2]: 然后我突然想到了一个就是自媒体博主那种稿子，
+[Speaker 2]: 我特别想把把它记下来。
+[Speaker 2]: 但是我又不想就是起床开始翻开电脑写，
+[Speaker 2]: 然后就打开 andy 一顿。
+[Speaker 2]: 讲讲完了以后，
+[Speaker 2]: 我在手机上用 clarto，
+[Speaker 2]: 把我这个总结写成大纲，
+[Speaker 2]: 发到我的 google drive 上就一气呵成。
+[Speaker 2]: 我床都没起来，
+[Speaker 2]: 我就在手机上全部都完成了，
+[Speaker 2]: 就觉得真的是很便利的东西，
+[Speaker 2]: 我会很自发的去去去夸他。
+[Speaker 1]: 嗯，
+[Speaker 1]: 真的嗯商在合作的事情，
+[Speaker 1]: 我们回头聊一下，
+[Speaker 2]: 你这我得去学一下为知。
+[Speaker 1]: 但但但是背背后还是就是你对那个自媒体的就是价值是怎么去想的呢？
+[Speaker 2]: 嗯，
+[Speaker 2]: 我觉得如果你给大家带来足够有价值的话，
+[Speaker 2]: 这个世界就是会反馈给你价值。
+[Speaker 2]: 我是我是这样想的，
+[Speaker 2]: 可能有点还是有有点那种 ideal idealistic 的。
+[Speaker 2]: 就是我给你讲个例子，
+[Speaker 2]: 就之前有一个我关注的坦博主他就是他就去救了几只松鼠。
+[Speaker 2]: 那些松鼠在他家门口门口那个大树上有一个小窝，
+[Speaker 2]: 然后那个树要被砍下来了。
+[Speaker 2]: 所以整个窝里的几只那种幼儿松鼠都没有地方去了，
+[Speaker 2]: 他就拍自己每天就是在就是他救下来这些松鼠以后，
+[Speaker 2]: 每天就拍跟他们的互动啊，
+[Speaker 2]: 或者是给他们喂被什么东西啊，
+[Speaker 2]: 或者是他们生病了，
+[Speaker 2]: 带他们去看医生等等。
+[Speaker 2]: 然后在 instagram 他就有就是一百万粉丝吧。
+[Speaker 2]: 但是他从来都没有接过广告，
+[Speaker 2]: 然后也没有上单，
+[Speaker 2]: 就是一百万，
+[Speaker 2]: 都是只是录一些日常的东西。
+[Speaker 2]: 然后突然有一天他做了一个 up，
+[Speaker 2]: 他就是 y coding，
+[Speaker 2]: 他也是新手送了一个 up。
+[Speaker 2]: 这个 up 很简单，
+[Speaker 2]: 就是他是每天拍视频的人，
+[Speaker 2]: 所以他需要的一个东西就是同时你你可以同时拍横屏和竖屏的视频，
+[Speaker 2]: 这是一次性的很简单的，
+[Speaker 1]: 就是没次期的这个 app 哦，
+[Speaker 2]: 是吗？
+[Speaker 2]: 就然后然然后呢，
+[Speaker 2]: 就是因为这个人他从来就是给给给从来不索取。
+[Speaker 2]: 于是他的粉丝是不是突然就是所有人都去买这个 app 他是好多国家都是第一名，
+[Speaker 2]: 就霸占了第一名榜单的很久很久很久。
+[Speaker 2]: 然后很多人下面就是留言说，
+[Speaker 2]: 我觉得你人太好了，
+[Speaker 2]: 我希望你暴富，
+[Speaker 2]: 我觉得你你太好了，
+[Speaker 2]: 我不需要我还要买。
+[Speaker 2]: 就是大家都会有一种，
+[Speaker 2]: 他觉得你是他信任你，
+[Speaker 2]: 他觉得你做的事情有创造价值，
+[Speaker 2]: 所以他用会找各种方式的去回馈，
+[Speaker 2]: 你会帮助你的。
+[Speaker 2]: 我觉得我现在可能是在一种攒人品的阶段吧，
+[Speaker 2]: 就是我还是希望就是我就一直直以后不要去索取。
+[Speaker 2]: 然后有一天就是如果呃我能做出自己的产品，
+[Speaker 2]: 如果大家愿意用的话，
+[Speaker 2]: 可以来用，
+[Speaker 2]: 但是肯定也不是那种绑架型的。
+[Speaker 2]: 就是嗯这肯定是这个东西比本身得好，
+[Speaker 2]: 然后就愿意给我回反馈啊，
+[Speaker 2]: 愿意来内测啊，
+[Speaker 2]: 愿意来互相交流，
+[Speaker 2]: 这已经是很大的价值了。
+[Speaker 2]: 嗯，
+[Speaker 2]: 你的这个表情是那种啊，
+[Speaker 1]: 你没有，
+[Speaker 1]: 就是我因为我之前就是这么想的，
+[Speaker 1]: 然后我觉得这个想法的方向肯定是对的。
+[Speaker 1]: 但这里面就有一些细节了。
+[Speaker 1]: 比如说你强调是产品，
+[Speaker 1]: 就是你你是不敢做知识付费的对吧？
+[Speaker 0]: 嗯，
+[Speaker 2]: 我觉得知识付费，
+[Speaker 2]: 我现在我感觉自己没有到那个程度，
+[Speaker 2]: 就是不太能。
+[Speaker 2]: 其实我觉得我分享的东西还是比较浅的，
+[Speaker 2]: 比较新手的东西。
+[Speaker 1]: 假假说，
+[Speaker 1]: 你相信你知识付费是能帮到人的，
+[Speaker 1]: 就是你对你的课程内容是有自信的，
+[Speaker 1]: 你敢做吗？
+[Speaker 2]: 我觉得如果有足够的人过来给我提这个要求的话，
+[Speaker 2]: 我就做。
+[Speaker 2]: 就是如果大家真的是需要这个东西的话，
+[Speaker 2]: 我就做。
+[Speaker 2]: 但是我我觉得现在我没有感受到这种需求，
+[Speaker 2]: 就是就你快快把它写成课程，
+[Speaker 2]: 我是就是想要很需要这样一套东西的。
+[Speaker 1]: 怕怕怕被骂，
+[Speaker 1]: 怕怕别人说啊，
+[Speaker 1]: 你终于开始收割韭菜了。
+[Speaker 1]: 因为你刚刚说的那个 narrative 对吧？
+[Speaker 1]: 就是给别人，
+[Speaker 1]: 然后别人的第一下面的就是嗯以小人之心夺君子之腹的补全，
+[Speaker 1]: 就是给给给 for 一天去收割他。
+[Speaker 1]: 然后他们看到你做支付，
+[Speaker 1]: 也就说哈哈哈哈让我说准了吧，
+[Speaker 1]: 你这一天来了，
+[Speaker 2]: 嗯，
+[Speaker 2]: 我觉得可能应该还是不会去以。
+[Speaker 2]: 如果是他们觉得是收割的话，
+[Speaker 2]: 肯定不是以这个目的来做这件事情的，
+[Speaker 2]: 肯定还是说有足够的需求。
+[Speaker 2]: 然后我是会帮助大家提供一个需求，
+[Speaker 2]: 但是你写这个东西也需要花时间，
+[Speaker 2]: 可能是以这样的一个方式。
+[Speaker 2]: 嗯，
+[Speaker 2]: 我觉得喝酒韭菜很多还是以一种欺骗型，
+[Speaker 2]: 或者是没有那么真诚的一种方式才是割韭菜。
+[Speaker 2]: 就如果我今天特别喜欢一个产品，
+[Speaker 2]: 然后我希望能有人能做出来这个东西的话，
+[Speaker 2]: 他一旦做了，
+[Speaker 2]: 我一定会花钱买的。
+[Speaker 2]: 就是我觉得他提供了价值给我，
+[Speaker 2]: 我是希望能用到的。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 嗯以后反正有机会，
+[Speaker 1]: 就是如果感兴趣的话，
+[Speaker 1]: 我这方面的很多这个心得都可以跟你跟跟跟你聊。
+[Speaker 2]: 对，
+[Speaker 2]: 你们这边这方面比较有经验，
+[Speaker 2]: 还是对对对，
+[Speaker 2]: 应该有挺多故事的，
+[Speaker 1]: 可以就是挖一挖。
+[Speaker 1]: 包括怎么去想，
+[Speaker 1]: 不光是怎么做这件事儿，
+[Speaker 1]: 或者是包括怎么去想这件事，
+[Speaker 1]: 包括为什么要去做一个社区，
+[Speaker 1]: 对吧？
+[Speaker 1]: 就是很明显做那个社区的需要花的时间，
+[Speaker 1]: 精力是做课程的十倍一百倍可能。
+[Speaker 1]: 但是为什么对为什么要去做社区？
+[Speaker 1]: 嗯，
+[Speaker 2]: 这这是我给你看一个一个东西。
+[Speaker 2]: 我首先有一个这个这个这个那个书，
+[Speaker 2]: 就是他讲了做社区的，
+[Speaker 1]: 我度我我看过我看过这个，
+[Speaker 2]: 哎，
+[Speaker 2]: 等一下我我说到这个之前，
+[Speaker 2]: 我还要再给你看。
+[Speaker 2]: 另外一本书我还没开封呢，
+[Speaker 2]: 那他代表写的书，
+[Speaker 2]: 然后收到了你们团队的小姐姐给我邮的，
+[Speaker 2]: 特别感谢我准备。
+[Speaker 2]: 但是我书中上有很多书还读到一半，
+[Speaker 2]: 我准备就是排他下一个来读，
+[Speaker 2]: 就是我在随在在床边放着的，
+[Speaker 2]: 就经常去准备排序。
+[Speaker 1]: 我今天才见到一个，
+[Speaker 1]: 就是同样也是那个就是有娃的，
+[Speaker 1]: 然后住在邻居，
+[Speaker 1]: 然后就是一个朋友。
+[Speaker 1]: 呃，
+[Speaker 1]: 然后他就说他在看，
+[Speaker 1]: 然后我我老婆是不看的，
+[Speaker 1]: 但是那个那个没说明显的书，
+[Speaker 1]: 我老对了，
+[Speaker 1]: 我老婆也不看我视频，
+[Speaker 1]: 也不看我书，
+[Speaker 1]: 但是就是她那个那个女生说她看了我的这个书以后就不焦虑了。
+[Speaker 1]: 我老婆大吃一惊，
+[Speaker 1]: 说什么你这个人不是天天在贩卖，
+[Speaker 1]: 焦虑吧，
+[Speaker 1]: 为什么看了你的书不焦虑了？
+[Speaker 1]: 但是确实是这样子，
+[Speaker 1]: 我觉得这书就是是是是。
+[Speaker 1]: 有是我自己是觉得有这个功能的。
+[Speaker 2]: 但是我觉得我觉得身边有这样的一个 critical 的人还是好事。
+[Speaker 2]: 但是嗯可能有机会还可以来看一看，
+[Speaker 2]: 我也准备就是读了以后再去做一些评论。
+[Speaker 2]: 我觉得应该还是有有一些就是大家意想不到的角度，
+[Speaker 2]: 包括你经验也有很多还是有很多到时候可以学习一下的东西。
+[Speaker 1]: 我觉得他可能最大的好处就是呃指出来我们从小到大被教育的一些根深蒂固，
+[Speaker 1]: 认为是对的事情错在哪里？
+[Speaker 1]: 呃，
+[Speaker 1]: 和它会导致我们动作的什么。
+[Speaker 1]: 比如说我们会认为难的事情更有价值。
+[Speaker 1]:  oh aay 一 a 的一个。
+[Speaker 1]: 然后呢，
+[Speaker 1]: 我们就会去选择做难的事情，
+[Speaker 1]: 以为这是有价值的事，
+[Speaker 1]: 其实是错的对吧？
+[Speaker 1]: 然后是后他就会对价值忽略不计，
+[Speaker 1]: 其这些事就比较难。
+[Speaker 1]: 然后大家会用这个，
+[Speaker 1]: 就比如说你你你就拿学员来说吧，
+[Speaker 1]: 就很多同学就是想学知识对吧？
+[Speaker 1]: 然后看看视频，
+[Speaker 1]: 然后看论文就是对，
+[Speaker 1]: 然后怎么样，
+[Speaker 1]: 那就是一个错误的学习方式。
+[Speaker 1]: 为什么是错误的学习方式？
+[Speaker 1]: 因为错误大档我们都是学学科科，
+[Speaker 1]: 然后学科他有正确答案，
+[Speaker 1]: 正确答案都在书里里。
+[Speaker 1]: 那当然可以这么学了。
+[Speaker 2]: 但是学生思维这种就是前十年很火的这个学生思维。
+[Speaker 1]: 对对，
+[Speaker 1]: 然后然后现实的大多数的东西是手艺手艺。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就嗯，
+[Speaker 1]: 我们课课程第一句就是说就是那个学呀去夫球啊，
+[Speaker 1]: 你装家具啊、
+[Speaker 1]: 做饭啊，
+[Speaker 1]: 你不动手怎么可能学得会呢？
+[Speaker 1]: 你看一百个视频你能学会去游泳吗？
+[Speaker 1]: 肯定学不会，
+[Speaker 1]: 就必须要在里面才能学会。
+[Speaker 1]: 其实就就是这样的，
+[Speaker 1]: 就是因为就是离开了学校，
+[Speaker 1]: 那个环境就没有什么东西是学科知识。
+[Speaker 1]: 你学任何一个东西，
+[Speaker 1]: 你学做 excel，
+[Speaker 1]: 你都需要通过做 excel。
+[Speaker 1]: 学会你看看视频是学不会做 excel 的。
+[Speaker 1]: 所以说就就是这都是一些学生思维带来的误区。
+[Speaker 1]: 包括就是我们会觉得追求一个就是充分条件，
+[Speaker 1]: 就是做了 a 你就没有做到 b 在现实世界中那种模型。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 嗯对，
+[Speaker 2]: 确实对我刚刚扯远了，
+[Speaker 2]: 我想分享这个书。
+[Speaker 2]: 它就是它里面就有一段呃，
+[Speaker 2]: 就说你宁愿有一百个线下的，
+[Speaker 2]: 或者是有有他们就是社区的粉丝，
+[Speaker 2]: 也不要有一千个线上的粉丝。
+[Speaker 2]: 因为一个平台随时都可以把你不推流，
+[Speaker 2]: 或者把你封号，
+[Speaker 2]: 或者是把你删除掉，
+[Speaker 2]: 怎么样的。
+[Speaker 2]: 然后从此以后就像你就没出现过一样的，
+[Speaker 2]: 就是还是希望大家能更更嗯 sticky 一点吧。
+[Speaker 2]: 就是大家就是长时间的去互动啊，
+[Speaker 2]: 比较更稳定的，
+[Speaker 2]: 比较密切的互动，
+[Speaker 2]: 然后互相学习帮助等等。
+[Speaker 2]: 就是一个社区的这种概念嘛。
+[Speaker 1]: 是我其实我现在穿的这件衣服，
+[Speaker 1]: 就是我们社区的衣服。
+[Speaker 2]: 你们 super lineer 衣服吗？
+[Speaker 2]: 哦，
+[Speaker 2]: 天哪，
+[Speaker 2]: 这个真的是很，
+[Speaker 2]: 这很很是一个图是吗？
+[Speaker 2]: 是一个 graph。
+[Speaker 1]: 对，
+[Speaker 1]: 就是讲讲讲那个三三三个课放在一起，
+[Speaker 1]: 就是讲复利的那张那张图啊。
+[Speaker 1]: 嗯，
+[Speaker 2]: 哇塞，
+[Speaker 2]: 这应该是一个嗯，
+[Speaker 2]: 你们还有那个蓝色的 AI dota 的那个合体，
+[Speaker 2]: 也是同系列是吧？
+[Speaker 1]: 正好这期讲一些这些 march，
+[Speaker 1]: 就是对我平时因为现在太热了，
+[Speaker 1]: 下图这几天好热啊，
+[Speaker 1]: 没有办法穿这个婚礼。
+[Speaker 1]: 你看像这个这是网站吧，
+[Speaker 1]: 然后 built useful things with AI，
+[Speaker 1]: 而且特地分两个，
+[Speaker 1]: 你可以不用 AI，
+[Speaker 1]: 反而就是你要做点有用的事情，
+[Speaker 1]: 做做一些有用的东西。
+[Speaker 1]: 然后背后背后是我们课程的一个很重要的理念。
+[Speaker 2]:  information knowledge 哇，
+[Speaker 2]: 对，
+[Speaker 2]: 就刚刚说我们说那个误区，
+[Speaker 2]: 误区嘛，
+[Speaker 2]: 就是你只是只是学知识的话，
+[Speaker 2]: 然后我不把他们就是系统化和连起来。
+[Speaker 2]: 做事情的话就是 knowledge 和对，
+[Speaker 1]: 而且还有一个很重要的点，
+[Speaker 1]: 就是这下面有一条线，
+[Speaker 1]: 我们后来出的版本就没有上面这个图了，
+[Speaker 1]: 就直接就是这个 information knowledge，
+[Speaker 1]: 然后就有一个是鞋的，
+[Speaker 1]: 是那个 here's to the crazy ones。
+[Speaker 1]: 是那个九七年乔布，
+[Speaker 1]: 就是苹果公司那个 think different 的那个广告。
+[Speaker 1]: 嗯，
+[Speaker 1]:  here's to the crazy ones。
+[Speaker 1]: 嗯，
+[Speaker 1]: 生意我回头送你课程。
+[Speaker 1]: 然后那个你在课程里面就会看到了，
+[Speaker 2]: 他有一个对这个故事。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对对，
+[Speaker 2]: 是设计非常的非常的用心。
+[Speaker 2]: 对，
+[Speaker 1]: 就确实就是嗯看完你理解了这个图以后，
+[Speaker 1]: 我觉得很多时候对 AI 时代就不会焦虑了。
+[Speaker 1]: 你就会觉得就是我永远是有价值的，
+[Speaker 1]: 然后 AI 是取代不了的。
+[Speaker 2]: 是的是的，
+[Speaker 2]: 同意。
+[Speaker 1]: 嗯，
+[Speaker 1]: 哎我们到十点了，
+[Speaker 1]: 然后你那边有没有一些就是呃就是小红书上问题看一下啊。
+[Speaker 1]: 然后我们这边小红书的观众或者说是 youtube 观众，
+[Speaker 1]: 如果有问题的话，
+[Speaker 1]: 就可以在这个直播间里边问一下。
+[Speaker 1]: 我们可以向 come out to 问提问，
+[Speaker 2]: 好像都回答了，
+[Speaker 2]: 我再看一下啊。
+[Speaker 2]: 哎嗯，
+[Speaker 2]: 有人说我胖了啊，
+[Speaker 2]: 有人看我在看那个往往上翻留言，
+[Speaker 0]: 我是胖了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我我我在小说上发了一个就是 INTJ 喜欢一个人的标志，
+[Speaker 1]: 就是要批评他。
+[Speaker 1]: 然后下面就有人说，
+[Speaker 1]: 哎，
+[Speaker 1]: 你胖了，
+[Speaker 1]: 你胖了，
+[Speaker 1]: 赶紧减肥说谢谢我。
+[Speaker 1]: 我老婆天天都在跟我说，
+[Speaker 2]: 这句话是让你进步。
+[Speaker 1]: 是的，
+[Speaker 1]: 让我进步。
+[Speaker 2]: 有人问 deep face 如何运用，
+[Speaker 2]: 我没有用过。
+[Speaker 2]: 哎，
+[Speaker 1]: 嗯，
+[Speaker 2]: 这个我确实没有用过，
+[Speaker 1]: 我一个朋友是做那个 scam dolt AI，
+[Speaker 1]: 然后他网站上可以自动的让你去，
+[Speaker 1]: 就是你就可以开一下摄像头，
+[Speaker 1]: 然后直接就把你的脸换成一个别的人的脸，
+[Speaker 1]: 让你们填一下，
+[Speaker 1]: 填手多简单。
+[Speaker 2]: 我最近看到有个创业者好像是做反就是 tect AI 的，
+[Speaker 2]: 就是你把东西放进去，
+[Speaker 2]: 他就告诉你是不是 AI genanuate，
+[Speaker 2]: 因为现在很多东西太降了嘛，
+[Speaker 2]: 有做这个的，
+[Speaker 2]: 然后做水印啊，
+[Speaker 2]: 做什么 ebed 一些，
+[Speaker 2]: 就是能能扫出来东西的，
+[Speaker 2]: 也有这方面还是挺多人挺挺需要的，
+[Speaker 2]: 其实挺需要的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 好，
+[Speaker 1]: 然后我们之前准备了一个很长的文档，
+[Speaker 1]: 但是我们今天完全没有 follow 那个 script，
+[Speaker 1]: 觉得那里边有没有你觉得很想分享的，
+[Speaker 1]: 或者说我应该问你的东西。
+[Speaker 2]: 嗯嗯，
+[Speaker 1]: 可能就是给打开那个文档看一眼。
+[Speaker 2]: 就是对我我觉得里面有一个就是关于那种 mindset 的事情，
+[Speaker 2]: 我觉得你刚刚聊到的我还是觉得挺可以。
+[Speaker 2]: 我们就是最后用最后的时间跟他讲一讲。
+[Speaker 2]: 因为我觉得嗯就是大家很多东西其实不不是卡在不会学，
+[Speaker 2]: 或者不知道怎么动，
+[Speaker 2]: 就主要还是一个 mindset。
+[Speaker 2]: 就是你一旦过去了回头看，
+[Speaker 2]: 就觉得其实没有那么复杂。
+[Speaker 2]: 就包括当我开始用 terminal quarkle 这样的东西的时候，
+[Speaker 2]: 者者，
+[Speaker 2]: 包括就是开始相信自己能标的一些东西出来的时候，
+[Speaker 2]: 都是一些 my side。
+[Speaker 2]: 我觉得我们可以看看老师分享一些就是这个有没有什么嗯，
+[Speaker 2]: 你觉得大家可以去借鉴的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 我们有一个那个 AI 时代，
+[Speaker 1]: 编程入门的课，
+[Speaker 1]: 就是 AI 时代，
+[Speaker 1]: 肯定你不应该去学那些新 tax 那些语法了。
+[Speaker 1]: 然后但是你有三个就是技术小白偶像的地方需要跨过。
+[Speaker 1]: 第一个就是你要熟悉编程界面，
+[Speaker 1]: 就是你不要看到编程界面，
+[Speaker 1]: 怕。
+[Speaker 1]: 但是现在其实用就是那个就是 app 里边的，
+[Speaker 1]: 也可以就 code x 那样子的对吧？
+[Speaker 1]: 您这个门槛几乎没有了，
+[Speaker 1]: 但是你总是你得用一用，
+[Speaker 1]: 这就像你下水的时候，
+[Speaker 1]: 你会觉得那个水很凉，
+[Speaker 1]: 你就不敢进，
+[Speaker 1]: 但是你下水的以候分钟就好了。
+[Speaker 1]: 所以说你没有什么别的办法，
+[Speaker 1]: 就是花一晚上保证一晚上可以的，
+[Speaker 1]: 一晚上你去用一用，
+[Speaker 1]: 然后你就嗯来提问啊。
+[Speaker 2]: 那那如 AI 时代这种下水有可能会淹淹吗？
+[Speaker 2]: 这是什么情况下嗯，
+[Speaker 2]: 小白就淹在游泳池里了吗？
+[Speaker 1]: 没有任何情况，
+[Speaker 1]: 就是你能干嘛呢？
+[Speaker 1]: 我们我们我们非常鼓励大家，
+[Speaker 1]: 就是直接开那个 dangerous 呃，
+[Speaker 1]: 不 dangerous，
+[Speaker 1]:  dangerous，
+[Speaker 1]: 什么 dangerously permission，
+[Speaker 1]: 反正 enable permission，
+[Speaker 1]: 就是你全都是 the permission。
+[Speaker 2]: 我每天都开这个，
+[Speaker 2]: 我以前还会 improve，
+[Speaker 2]: 现在全每天开这个了哦，
+[Speaker 1]: 我还可以再分享一个这个是牙各好像今天发的东西，
+[Speaker 1]: 我看一下就是呃就是是小白比较怕的，
+[Speaker 1]: 是这种种叫叫所谓的。
+[Speaker 1]:  i know 就是我不知道我不知道什么东西。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以说他专门发了一个这个帖子，
+[Speaker 1]: 就是非科班 builder 怎么如何面对这个，
+[Speaker 1]:  i know i know。
+[Speaker 2]: 嗯，
+[Speaker 2]: 对，
+[Speaker 1]: 因为软件工程师的好处就是他知道这些东西大概有什么，
+[Speaker 1]: 但是我不知道这个东西大概有什么。
+[Speaker 1]: 然后他还专门给了一个 prompt 模板，
+[Speaker 1]: 就是你发给 AI，
+[Speaker 1]: 然后 AI 就会告诉你，
+[Speaker 1]: 你可能会有什么样的 i know i know。
+[Speaker 1]: 比如说你的这个呃安全啊，
+[Speaker 1]: 比如说你的数据需要备份的等等，
+[Speaker 1]: 嗯，
+[Speaker 1]: 而且不要吓唬你，
+[Speaker 1]: 对吧？
+[Speaker 1]: 就是就是说你要强调的是坐标，
+[Speaker 1]: 而不是危险等级。
+[Speaker 1]: 就不要说那些乱七八糟的对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后要恐吓输一起啊，
+[Speaker 1]: 对，
+[Speaker 1]: 有用的有用的。
+[Speaker 1]: 呃，
+[Speaker 1]: 我觉得对，
+[Speaker 1]: 就是比大家想象的少很多。
+[Speaker 1]: 包括咱们今天聊的很多话题，
+[Speaker 1]: 对吧？
+[Speaker 1]: 就是是不是会花很多钱，
+[Speaker 1]: 其实没有花很多钱。
+[Speaker 1]: 呃，
+[Speaker 1]: 对，
+[Speaker 1]: 包括我们那个 RK type 有一个平台给大家一百一百美元的 credit，
+[Speaker 1]: 然后大家去可以使用各种模型。
+[Speaker 1]: 然后大家就会觉得哇，
+[Speaker 1]: 我做一个东西要花很多钱，
+[Speaker 1]: 结果做一个东西花现发现花了八毛钱就很震惊。
+[Speaker 1]: 一般都是这样的，
+[Speaker 1]: 就是做一个 code。
+[Speaker 1]:  er 你调一下 API，
+[Speaker 1]: 然后你把网站从头到尾部署上线了，
+[Speaker 1]: 然后整个东西花了八毛钱，
+[Speaker 1]: 就真的很便宜。
+[Speaker 2]: 然后对网站其实还挺好做的，
+[Speaker 2]: 就是跟就作为入门，
+[Speaker 1]: 我觉得非常推荐是呃呃第一个是这个，
+[Speaker 1]: 第二个是你不知道怎么 debug，
+[Speaker 1]: 就是你看到一个错误报错信息你会很慌。
+[Speaker 1]: 然后第三个呢就是你不知道怎么样子举一反三的 prompt，
+[Speaker 1]: 或者说怎么样子把一个就是模糊的需求描述成一个清晰晰 sosotion。
+[Speaker 1]: 然后啊你没有办法把你的隐性知识告诉未来，
+[Speaker 1]: 然后这些都是有办法的。
+[Speaker 1]: 呃，
+[Speaker 1]: 我们出去里边有免费的课，
+[Speaker 1]: 就是不光是收费的课，
+[Speaker 1]: 免费的课也也有。
+[Speaker 1]: 就是可以教大家模板去解决这个问题。
+[Speaker 1]: 我觉得解决了这个问题以后，
+[Speaker 1]: 你能力上就有了。
+[Speaker 1]: 然后剩下的就是说你要去发现你的需求，
+[Speaker 1]: 和我们在社区里面还有文章嘛，
+[Speaker 1]: 就是有两步第一步就是停止使用对话，
+[Speaker 1]: 而去尽量的使用呃呃这些工具。
+[Speaker 1]: 然后第二步呢，
+[Speaker 1]: 就是尽量的去把这个你脑子中的隐性知识和你对这件事的标准写成一个 scale。
+[Speaker 1]: 你能做到这两件事的话，
+[Speaker 1]: 你就基本上可以用 AI 做很多很多的事了。
+[Speaker 2]: 嗯嗯，
+[Speaker 2]: 我我非常同意你讲的这三点，
+[Speaker 2]: 而且我有可能一个要补充的吧。
+[Speaker 2]: 他有点概括，
+[Speaker 2]: 只是刚刚有人问的问题，
+[Speaker 2]: 就说呃呃就是他觉得不想为了学而学，
+[Speaker 2]: 如果有一门生意倒逼着自己去学的话，
+[Speaker 2]: 可能就是学的还更有价值一点。
+[Speaker 2]: 但是纯学 AI 如果没有盈利的话，
+[Speaker 2]: 就感觉好像不是很愿意做。
+[Speaker 2]: 然后我也最近也发现，
+[Speaker 2]: 就是身边有很多朋友，
+[Speaker 2]: 他也是在 chat 比较多，
+[Speaker 2]: 就很少让他去做事情。
+[Speaker 2]: 就我觉得有的时候他是有点是的呃，
+[Speaker 2]: 先有鸡还是先有蛋的感觉。
+[Speaker 2]: 就是如果你会用 AI 了，
+[Speaker 2]: 可能也许你就开始做起来一门生意了呢。
+[Speaker 2]: 就现在很多那种运营一些什么内容啊，
+[Speaker 2]: 或者是跨境的呀、
+[Speaker 2]: 选品啊这种方式就是因为你了解到了就是 AI 能帮你做什么事儿，
+[Speaker 2]: 或者是 agent 能帮你做哪些事情。
+[Speaker 2]: 以前你无法做到的生意，
+[Speaker 2]: 现在就能做起来了。
+[Speaker 2]: 就讲一个例子吧，
+[Speaker 2]: 我最近也到到就是有一些人他会 agagent 附附近所有的人找附近的小生意给他们打电话，
+[Speaker 2]: 或者是发 email。
+[Speaker 2]: 跟他说我们呢可以我们可以给你做个网站。
+[Speaker 2]: 然后呢，
+[Speaker 2]: 他用 AI 就做了一个就基于他 google bag 的信息，
+[Speaker 2]: 先做一个第一版本的网站。
+[Speaker 2]: 你说你看这是一个其中的一个第一个 draft，
+[Speaker 2]: 作为一个例子，
+[Speaker 2]: 作为一个 hook，
+[Speaker 2]: 然后呢，
+[Speaker 2]: 他就可以一次性的发给好多好多商家。
+[Speaker 2]: 嗯，
+[Speaker 2]: 那你看之前的话，
+[Speaker 2]: 我们是不可能做这门生意的嘛。
+[Speaker 2]: 因为你一个一个打电话，
+[Speaker 2]: 一个一个帮他们做，
+[Speaker 2]: 要好长时间，
+[Speaker 2]: 你其次你又不可能做一个 project 给他们看，
+[Speaker 2]: 就相当于有了 AI 才有了这门生意的这种这种呃例子还是挺多的吧。
+[Speaker 2]: 所以可能也不一定要说，
+[Speaker 2]: 就是先有了需求，
+[Speaker 2]: 先有了这个生意，
+[Speaker 2]: 然后我去学 AI 怎么做，
+[Speaker 2]: 如果有的话更好哈。
+[Speaker 2]: 但是就算没有的话，
+[Speaker 2]: 可以就是拓展一下自己的这个想象力啊，
+[Speaker 2]: 或者对未来的一些嗯期待。
+[Speaker 2]: 拓者是做一些期许什么的，
+[Speaker 2]: 就是可以感觉一下自己有没有什么现在可以以前做不了的事情，
+[Speaker 2]: 现在能做的事情也是一个很好的 minside。
+[Speaker 2]: 嗯，
+[Speaker 1]: 他说同意我在给美团做的企业培训，
+[Speaker 1]: 有专门一个这个问题，
+[Speaker 1]: 还是专门对这个问题做了一个答案。
+[Speaker 1]: 就是说不是说我想清楚 build 什么之后我再去 build，
+[Speaker 1]: 而是你只有通过 build 才能想清楚自己要 build 什么。
+[Speaker 1]: 然后这位同学对，
+[Speaker 1]: 是反的对，
+[Speaker 1]: 然后然后这位同学他说的是有一门生意教我让我学现在就好了。
+[Speaker 1]: 就是你有这种生意早就去做这个生意了，
+[Speaker 1]: 对吧？
+[Speaker 1]: 你早就有这个生意了，
+[Speaker 1]: 你现在没有这个生意的话，
+[Speaker 1]: 我们想的不就是说你怎么样才能有这个生意嘛。
+[Speaker 1]: 那你第一步是什么呢？
+[Speaker 1]: 没有 AI 之前，
+[Speaker 1]: 你也没有这个生意。
+[Speaker 1]: 所以说你可能第一步还是要学 AI。
+[Speaker 1]: 学 AI 以后就是就是使用 AI 了以后，
+[Speaker 1]: 你能知道这个新现实是长什么样子的。
+[Speaker 1]: 就好像你手机出来，
+[Speaker 1]: 智能手机出来以后，
+[Speaker 1]: 你不用智能手机，
+[Speaker 1]: 你怎么可能想到在智能手机下有什么样子的，
+[Speaker 1]: 你肯定你先用了以后你才知道。
+[Speaker 1]: 所以说你得先用了以后，
+[Speaker 1]: 你才能能看。
+[Speaker 1]: 然后积极的去发现身边的需求，
+[Speaker 1]: 有什么东西可以被你这个新的能力给解决，
+[Speaker 1]: 你才慢慢的知道了。
+[Speaker 2]: 你要 build 什么是这也许是个商机。
+[Speaker 2]: 你可以搞一些就是假的公司需求，
+[Speaker 2]: 让别人去做做完了以后就可以把它变变成一个真公司了。
+[Speaker 1]: 我我我们社区里边那个帖子，
+[Speaker 1]: 我就鼓励大家就是在上面发。
+[Speaker 1]: 然后首先你发了以后呢，
+[Speaker 1]: 就会发现就是大多数人你的 idea 不是很 care。
+[Speaker 1]: 但是万一有一个好的需求，
+[Speaker 1]: 你们社区里的同学就可以 match 一下。
+[Speaker 1]: 就是你有些你发现了一个需求，
+[Speaker 1]: 可能你洞察这个需求，
+[Speaker 1]: 然后别人有技术实现能力把它实现了。
+[Speaker 1]: 然后你也会发现就是大多数的这个需求呢是不值得被实现的。
+[Speaker 1]: 但是没事，
+[Speaker 1]: 就是就是你得先做了这些事，
+[Speaker 1]: 你才能慢慢有这个 taste，
+[Speaker 1]: 对吧？
+[Speaker 1]: 然后你才知道什么东西是更值得被实现的。
+[Speaker 2]: 是的是的，
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 哎刚刚好像还有还有一个问题。
+[Speaker 0]: 嗯，
+[Speaker 1]: 你说的是这个，
+[Speaker 1]: 然后你你小红书上还有什么问题吗？
+[Speaker 1]: 哦，
+[Speaker 1]: 还是在 youtube，
+[Speaker 1]: 那没有 youtube 上有一个是关于打造个人品牌有什么建议吗？
+[Speaker 1]: 我觉得这个最后我们还是可以给大家聊一聊吧。
+[Speaker 1]: 因为你这个打造个人品牌打造的还是很成功的，
+[Speaker 2]: 是吗？
+[Speaker 2]: 我觉得还还还可以，
+[Speaker 2]: 就一般般。
+[Speaker 2]: 但我觉得就是可能嗯看你这个品牌想干嘛。
+[Speaker 2]: 假如说我现在的这个小红书有点像是上市，
+[Speaker 2]: 有一个我的明信片了。
+[Speaker 2]: 就是不管是想去 network 或者是做谈生意，
+[Speaker 2]: 或者是呃合作各方面的人都可以看到，
+[Speaker 2]: 就是我是一个什么样的人我关注什么，
+[Speaker 2]: 我做什么样的内容来找到我的。
+[Speaker 2]: 那假如说你是一个别的方面的博主的话，
+[Speaker 2]: 或者是你在别的事情的话，
+[Speaker 2]: 就是你可能你的这个品牌得是你想大家看到，
+[Speaker 2]: 你就知道你是谁这个方向发展。
+[Speaker 2]: 有些人可能做搞笑了，
+[Speaker 2]: 有些人可能做美妆，
+[Speaker 2]: 就是他发展的方向不太一样。
+[Speaker 2]: 但假如说你是将来想做自己的服装品牌，
+[Speaker 2]: 那你就就是往这个方面方面发的内容。
+[Speaker 2]: 然后还是那句话吧，
+[Speaker 2]: 就是就是必就是真诚，
+[Speaker 2]: 就是必杀技还是得多有这种讲讲实话，
+[Speaker 2]: 讲自己比较认可的东西，
+[Speaker 2]: 然后嗯才能长久。
+[Speaker 1]: 我我给你一个更具体的这个 audience 啊，
+[Speaker 1]: 就是我昨天跟我之前的一些前同事吃饭，
+[Speaker 1]: 然后他们都啊好羡慕啊，
+[Speaker 1]: 课代表是吧？
+[Speaker 1]: 做自媒体巴拉巴拉，
+[Speaker 1]: 然后现在可以不用工作了。
+[Speaker 1]: 然后我那个时候我还跟他们说了一个东西啊，
+[Speaker 1]: 就是嗯我在刚做自媒体的时候，
+[Speaker 1]: 会劝大家做自媒体啊，
+[Speaker 1]: 因为那个时候我觉得就是自自媒体好好棒啊，
+[Speaker 1]: 就是有这这么多好处，
+[Speaker 1]: 然后比大家想的极极简单。
+[Speaker 1]: 呃，
+[Speaker 1]: 然后后来我就不劝了，
+[Speaker 1]: 因为我觉得劝了这么多人，
+[Speaker 1]: 好像没有人做成，
+[Speaker 1]: 就不劝了。
+[Speaker 1]: 但最近我又开始劝了，
+[Speaker 1]: 因为我觉得就是我意识到一件事儿，
+[Speaker 1]: 就是可能未来呃媒体或者 distribution 是唯一能赚到钱的事，
+[Speaker 1]: 就是你做产品就 community 了，
+[Speaker 1]: 对吧？
+[Speaker 1]: 就是普通人想赚钱或者离开公司，
+[Speaker 1]: 想赚钱的话，
+[Speaker 1]: 可能你做自就是你掌握流量或者说掌握信任或掌握 distribution，
+[Speaker 1]: 是唯一能赚钱的方式了。
+[Speaker 1]: 呃，
+[Speaker 1]: 所以我说我会跟大家讲，
+[Speaker 1]: 就是这件事可能比你的工作更重要，
+[Speaker 1]: 你起码要用这样一个心态去面对他。
+[Speaker 1]: 呃，
+[Speaker 1]: 那就是想请你吧。
+[Speaker 1]: 然后我但是我跟我那些同事们说了以后呢，
+[Speaker 1]: 我又觉得我没有，
+[Speaker 1]: 我我不知道他们能不能做出来，
+[Speaker 1]: 就是他们真的去花了，
+[Speaker 1]: 比他们工作还更重，
+[Speaker 1]: 更就是更多的 attention effort 和 time 去做的话，
+[Speaker 1]: 我也不确定他们就能起号。
+[Speaker 1]: 那你对他们有什么建议？
+[Speaker 1]: 就是可能一个普通的大厂的人是吧，
+[Speaker 1]: 他已经工作了五年、
+[Speaker 1]: 十年了，
+[Speaker 1]: 然后他真的想要认认真真的去做自媒体了。
+[Speaker 1]: 然后他可能就是想做一个像你这样的自体体有什么建议？
+[Speaker 1]: 嗯嗯，
+[Speaker 2]: 其以我有两个想法，
+[Speaker 2]: 我先讲这个问题。
+[Speaker 2]: 然后我还有一个就是刚根据你刚刚说的这个呃刚刚前一个 point 的一个想法，
+[Speaker 2]: 其是我觉得其实做自媒体是天时地利人和的，
+[Speaker 2]: 就是人和一定是做自己能做的事情。
+[Speaker 2]: 就是包括更新频率啊，
+[Speaker 2]: 包括真诚啊，
+[Speaker 2]: 包括就是尽量去打磨的这个自己的这个能力啊，
+[Speaker 2]: 或者这个 skill，
+[Speaker 2]: 就是你每周做肯定比之前做的的更好。
+[Speaker 2]: 我什么时候有机会给大家看看，
+[Speaker 2]: 我就是去年五月份做的录的口播，
+[Speaker 2]: 就是惨不忍睹，
+[Speaker 2]: 就是根本是没有经经验的。
+[Speaker 2]: 但是事情就是一边做越来越好的，
+[Speaker 2]: 但是确实也有天也有就是时间和这些机遇的事情。
+[Speaker 2]: 就是那个时间我感兴趣的东西正好是大家感兴趣的东西。
+[Speaker 2]: 然后我又开始发了很多内容，
+[Speaker 2]: 然后并且可能就是稍微早期一点发的人，
+[Speaker 2]: 他就是有一些这种呃效果。
+[Speaker 2]: 但是我现在就看到，
+[Speaker 2]: 假如说小红书上的话，
+[Speaker 2]: 就是 AI 方面的，
+[Speaker 2]: 或者芭比 coding 方面的内容越来越多了，
+[Speaker 2]: 博主也越来越多了，
+[Speaker 2]: 就其实他这个就是这个时间会造成不同的结果。
+[Speaker 2]: 所以如果发出来就是前几十个视频没有特别大的火花的话，
+[Speaker 2]: 就是肯定也是不光是人的问题，
+[Speaker 2]: 肯定也有一些机遇的问题。
+[Speaker 2]: 我觉得这个是大家得平衡，
+[Speaker 2]: 就是不要不要自负，
+[Speaker 2]: 也不要气馁，
+[Speaker 2]: 还是要用平常心来对待。
+[Speaker 2]: 因为有的时候也是看这个天时地利人和的。
+[Speaker 2]: 但是我刚刚你我看你说到就是你觉得未来的这个 dispution 可能是是护城河，
+[Speaker 2]: 而不是那个产品本身嘛。
+[Speaker 2]: 我前两天还还在想这个问题，
+[Speaker 2]: 就是我觉得一一一这个产品，
+[Speaker 2]: 它之所以现在不是护城河，
+[Speaker 2]: 是因为更多的人能去做这件事情了。
+[Speaker 2]: 就是它就是变成所有人都可以 access 的东西。
+[Speaker 2]: 但是如果自媒体也是所有人都开始做的事情。
+[Speaker 2]: 你看像之前那个里不是很出圈嘛，
+[Speaker 2]: 就是做自媒体突然爆火了，
+[Speaker 2]: 带起了一片一票。
+[Speaker 2]: 公司都是搞他这个方向的这东西一旦多了，
+[Speaker 2]: 他就不稀奇了，
+[Speaker 2]: 大家就他的包 cluclutl 就就不在这了。
+[Speaker 2]: 于是大家在找下一个护城河了，
+[Speaker 2]: 就是我觉得它是一个 nedynamic 的东西。
+[Speaker 2]: 如果我们考虑就是一个产品，
+[Speaker 2]: 从从它的 idea 到它的生产到它的就是 distribution，
+[Speaker 2]: 或者是通过 KOL 也好啊，
+[Speaker 2]: 通过什么也好，
+[Speaker 2]: 就是如果这件事情所有人都做一样的，
+[Speaker 2]: 一旦大家发现他很火，
+[Speaker 2]: 都去 copy 了，
+[Speaker 2]: 他就已经没有自己的护城河了。
+[Speaker 2]: 然后我觉得接下来的话还得找下一个东西。
+[Speaker 2]: 还有个例子，
+[Speaker 2]: 假如说前段时间就是 minus，
+[Speaker 2]: 那种种视频很火嘛，
+[Speaker 2]: 就是那种呃 lunch 一个产品，
+[Speaker 2]: 很多人都做类似的东西，
+[Speaker 2]: 每天人刷 x 都是类似的东西。
+[Speaker 2]: 后来大家就是觉得呃就是审美疲疲劳了。
+[Speaker 2]: 刚开始以前看，
+[Speaker 2]: 刚开始看几个就觉得哇好好看啊，
+[Speaker 2]: 质量好高啊，
+[Speaker 2]: 讲的很清楚啊，
+[Speaker 2]: 怎么怎么样。
+[Speaker 2]: 看多了就是哦又是一个产品，
+[Speaker 2]: 肯定又是个产品，
+[Speaker 2]: 就有点看不下去了。
+[Speaker 2]: 包括像那个加州，
+[Speaker 2]: 这个各种 bill boy，
+[Speaker 2]: 现在到处都是 AI，
+[Speaker 2]: 看久了大家野疲惫了。
+[Speaker 2]: 但是呢你看像 carkey，
+[Speaker 2]: 他就是另辟蹊径，
+[Speaker 2]: 他包了一个咖啡厅，
+[Speaker 2]: 二十四小时的，
+[Speaker 2]: 就是让大家来来，
+[Speaker 2]: 然后也很火。
+[Speaker 2]: 然后有一些公司他会租个这 cyber truck，
+[Speaker 2]: 在什么市里面到处走啊，
+[Speaker 2]: 贴什么东西？
+[Speaker 2]: 就是越大家没见过的东西，
+[Speaker 2]: 它是新的一个潮流，
+[Speaker 2]: 然后他也会有更好的效果。
+[Speaker 2]: 但是一旦所有人都开始做这件事情的时候，
+[Speaker 2]: 他可能就效果没有那么好了。
+[Speaker 2]: 所以我觉得可能现在来说，
+[Speaker 2]: 它还是一个护城河，
+[Speaker 2]: 或者是一个值得投入的东西。
+[Speaker 2]: 但是我们可能要准备着有，
+[Speaker 2]: 就是说不定以后这个东西又会变了，
+[Speaker 2]: 可能护城河又不在这儿了，
+[Speaker 2]: 又在别的地方。
+[Speaker 2]: 嗯，
+[Speaker 1]: 我 reresponse 呃，
+[Speaker 1]: 我先问你个问题，
+[Speaker 1]: 然后我再想要说一下我的想法啊。
+[Speaker 1]: 你的问题是你在起号的过程中，
+[Speaker 1]: 嗯，
+[Speaker 1]: 有没有借鉴别人，
+[Speaker 1]: 或者说就是找对标啊，
+[Speaker 1]: 这样的倒没有。
+[Speaker 2]: 但是我有关注的人，
+[Speaker 2]: 就是我会经常看的人我觉得他这些人应该是会有潜移默化的影响我的。
+[Speaker 2]: 但是我现在会尽量就是不去做那种已经大家很多讲过或者做过的东西，
+[Speaker 2]: 因为我觉得就不会给这个市场带来任何增量了嘛。
+[Speaker 2]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 这是我的感觉，
+[Speaker 1]: 就是你是不找对标的。
+[Speaker 1]: 然后很多人呢就是说你要起号了，
+[Speaker 1]: 你就一定要去找对标，
+[Speaker 1]: 然后就去抄，
+[Speaker 1]: 然后怎么怎么样的。
+[Speaker 1]: 呃，
+[Speaker 1]: 我觉得那种方式呢是可以起号，
+[Speaker 1]: 但是他没有办法形成一个长期的生意。
+[Speaker 1]: 呃，
+[Speaker 1]: 就像你刚刚那个分享的 million dollar weekend 里边说的嘛。
+[Speaker 1]: 我我其实给就是我的同事们讲做个人品牌，
+[Speaker 1]: 我说你最后一定要起码要就最重要的就是要做一个 email list。
+[Speaker 1]: 然后这个 email list 呢是大家看过你的内容，
+[Speaker 1]: 然后 suscribe 你不能说你去别的地方当了一千个，
+[Speaker 1]: 这没有意义。
+[Speaker 1]: 这这这就这。
+[Speaker 1]: 然后我说你如果你的 email list 里面有五千个人，
+[Speaker 1]: 你做什么都可以成的。
+[Speaker 2]: 嗯，
+[Speaker 1]: 是的对，
+[Speaker 1]: 这个是。
+[Speaker 1]: 然后刚刚你说的那个点我非常同意，
+[Speaker 1]: 就是大家的新鲜感啊，
+[Speaker 1]: 疲惫感啊，
+[Speaker 1]: 或者说什么东西一个东西说三遍，
+[Speaker 1]: 就是比较可睡的。
+[Speaker 1]: 就是呃就就大家就觉得就是很很很很无聊了。
+[Speaker 1]: 呃，
+[Speaker 1]: 但是 distribution 是个结果，
+[Speaker 1]: 就是我觉得永远有新鲜的新就是原创的东西出现，
+[Speaker 1]: 然后大家就会有他会收获更多的关注。
+[Speaker 1]: 但是最后你还是会落到就是你是不是你想要别人看的东西能被别人看到。
+[Speaker 1]: 嗯，
+[Speaker 1]: 然后我觉得一定要 list 后是就是为数不多的 determinate tic 的方式。
+[Speaker 1]: 国内可以加微信或者微信那个微信群。
+[Speaker 1]: 本来这这些玩意儿，
+[Speaker 1]: 但是也就这这是很大一个原因。
+[Speaker 1]: 就为什么做社区做了社区以后，
+[Speaker 1]: 我突然就想通了很多事和嗯我就一下子松弛了很多。
+[Speaker 1]: 就是我从来不有去做就是追流量的视频，
+[Speaker 1]: 或者说是呃那些我觉得就是需要去播出位的视频。
+[Speaker 1]: 因为我觉得 OK 我一个非常呃长期的这个价值的根基在，
+[Speaker 1]: 以及我是用无线游戏的角度去对待我的自媒体的。
+[Speaker 1]: 就是我希望我做自媒体的原呃目的是我七十岁了还可以做这件事。
+[Speaker 1]: 呃，
+[Speaker 1]: 然后我就不着急了。
+[Speaker 2]: 对对对对对，
+[Speaker 1]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 但是但是也就是不要我我我我是不太喜欢。
+[Speaker 1]: 就就哪怕我劝我的朋友们，
+[Speaker 1]: 我也不太劝他们说，
+[Speaker 1]: 你应该去搞对标，
+[Speaker 1]: 去抄袭。
+[Speaker 1]: 我觉得应该去借鉴别人的观众，
+[Speaker 1]: 就是网感或者别人是怎么样子去把这件事讲清楚的，
+[Speaker 1]: 或者讲到让大家吸引人的这些背后的方法。
+[Speaker 1]: 但是不要去学别人。
+[Speaker 2]: 嗯，
+[Speaker 2]: 我在最后加一点点，
+[Speaker 2]: 就是我你之前讲过就是开头啊，
+[Speaker 2]: 或者是这个让大家点进来这方面嘛，
+[Speaker 2]: 就我发我通过我自己的行为，
+[Speaker 2]: 我发现就是我不是这个开头重要的地方，
+[Speaker 2]: 只是在如果这是一个陌生博主，
+[Speaker 2]: 如果我从来没有看到他的内容，
+[Speaker 2]: 我点进来这个开头才需要抓到我。
+[Speaker 2]: 我有一些很喜欢的博主都不管他录什么我都看，
+[Speaker 2]: 就是只要是看是这个人在发了，
+[Speaker 2]: 我就会点进来看的那种。
+[Speaker 2]: 就觉得就是我之前对他的作品的认可和对他这个人的信任度导致。
+[Speaker 2]: 就是他的这个 hook 不用很强，
+[Speaker 2]: 他不用抓我，
+[Speaker 2]: 他甚至就可以就很平淡的开启这个视频，
+[Speaker 2]: 我还是觉得我能停下的下去。
+[Speaker 2]: 所以我觉得嗯就是对标啊或者做一些这些东西都是战术上的优化。
+[Speaker 2]: 但它不是一个战略上的优化，
+[Speaker 2]: 就我们最重要的还是战略上的优化。
+[Speaker 2]: 然后战术上这些 technique 这些方法论啊就是怎么样的，
+[Speaker 2]: 只是在一个比较大框架，
+[Speaker 2]: 相当于一些小的操作。
+[Speaker 1]: 嗯，
+[Speaker 1]: 是的，
+[Speaker 1]: 你战略选对了，
+[Speaker 1]: 以后，
+[Speaker 1]: 你速度快是背慢识别，
+[Speaker 1]: 其实差别嗯都还好。
+[Speaker 1]: 您真的按长线的看就还好。
+[Speaker 2]: 是的嗯嗯，
+[Speaker 1]: 好的，
+[Speaker 1]: 感谢感谢。
+[Speaker 1]: 最后有没有什么想跟大家说的话，
+[Speaker 2]: 嗯，
+[Speaker 2]: 就是期待大家多做一些自己的有趣的产品。
+[Speaker 2]: 然后期待那个课代表七十岁还在还在以自己喜欢的方式经营自媒体也好，
+[Speaker 2]: 社区也好，
+[Speaker 2]: 各方面的这种宣传啊或者是交流也好。
+[Speaker 2]: 嗯，
+[Speaker 1]: 那我就期待你自媒体赶紧多赚点钱，
+[Speaker 1]: 让你想干啥都行。
+[Speaker 2]: 谢谢谢，
+[Speaker 2]: 谢谢您吉言。
+[Speaker 2]: 嗯，
+[Speaker 1]: 好的，
+[Speaker 1]: 嗯，
+[Speaker 1]: 那非常感谢大家，
+[Speaker 1]: 我们今天的这个直播就到这里了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 好，
+[Speaker 1]: 我现在，
