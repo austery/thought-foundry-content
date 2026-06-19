@@ -1,0 +1,583 @@
+Chris Anderson: Great
+to see you, welcome to TED.
+Now, Silvana, you've been passionate
+about science for quite a long time.
+Tell me about this picture.
+Silvana Konermann:
+So this picture is when I was 15.
+So I was born in a small town
+in Switzerland.
+My parents weren't into science,
+but somehow I got really fascinated
+just with nature around me
+and also just how we worked
+as humans and our biology.
+So I really wanted to find a way
+to be able to get into a lab
+to do some science.
+It was actually pretty tricky for me,
+but eventually I talked
+one of my science teachers
+into convincing one of his colleagues
+to let me go into the lab.
+And so this is me
+with that first science project
+where I went on to win
+the national competition,
+and then also the European
+Union competition.
+And I think that's really where,
+you know, I got, I think,
+the confidence to continue
+with science since then.
+CA: But there's a drawback
+to being a scientific prodigy,
+which is that you end up feeling
+like you might have a responsibility
+to do something with that.
+And I think you've had that
+your whole life
+and you’ve thought about
+what are the biggest problems
+you could work on.
+Tell us about this graph here.
+SK: Yeah, absolutely.
+So I have been, you know,
+doing science now
+for more than 20 years.
+But I did want to say, this is actually
+my first real public appearance.
+So I am very much,
+usually behind the scenes.
+(Applause)
+Yeah, a problem that I’ve really
+been thinking a lot about
+since undergrad --
+I did my undergrad in Switzerland
+in biology neuroscience --
+and I learned more
+about Alzheimer’s disease.
+And through learning
+how there are these big changes
+in the brain that are happening,
+a lot of what is known about
+late stages of the disease,
+how severe it is,
+and then the lecture though
+ended with basically:
+but we have no idea
+really how it’s starting.
+We still don’t have a therapy.
+And that was now,
+a long time ago,
+I guess, 17 years ago or so.
+And that really stuck with me because
+why didn’t we understand
+how it’s starting?
+Why didn’t we have a therapy?
+There are all these
+very observable changes happening.
+And so that got me interested
+in disease biology
+and specifically complex diseases,
+where Alzheimer’s is a complex disease.
+It sounds [like]
+“Oh, it’s just complicated,”
+but that's not what it means.
+It means that there are multiple
+different risk factors.
+And basically every patient has a unique
+combination of risk factors
+for a disease --
+that’s different from an infection
+where you have one cause.
+CA: And several of these diseases here
+are similarly fundamentally complex.
+SK: That's right.
+So heart disease, many cancers,
+obviously not accidents,
+but stroke and Alzheimer’s disease --
+these are all complex diseases.
+CA: And so that's why
+it's been so resistant
+to dramatic advancements
+in medical science in recent years.
+SK: Basically, all of these
+have a combination of genetic changes
+[and] environmental factors.
+And each patient is unique.
+They have a unique
+combination of risk factors.
+And so we’ve been really struggling
+as a scientific community
+understanding what do all these
+different patients have in common
+that we could target
+and then fix the disease?
+CA: But you're seeing now an opportunity
+to have a different kind of assault
+on these diseases.
+What has changed?
+SK: I think there are now
+three things
+that have come together
+just in the last one or two years
+that make it possible to understand
+such a complex problem
+like Alzheimer’s disease
+and other diseases like it --
+and [those are], at a high level,
+three areas,
+if you summarize it
+really quickly: measuring,
+changing and understanding.
+And so measuring -- what that means for us
+is really single-cell sequencing.
+So this is a technology that allows us
+to look at one cell at a time
+and take a snapshot of key
+dynamic processes in the cell
+which is the RNA expression of the cell.
+So basically, RNA is like
+the language of the cell,
+and this takes a snapshot
+one cell at a time
+of what's going on inside it.
+And then the second step,
+which is changing,
+we need to have the ability
+to change something very precise --
+so changing one gene at a time [to]
+stop it from making the RNA
+or changing it to upregulate the RNA.
+This is the area that I’ve been
+working on now for 15 years --
+CRISPR technology --
+and as a field, we’ve made
+a lot of advancements.
+And now we can do this across
+all the genes in the genome.
+We can make these changes
+in a targeted way.
+And it is really only possible
+very recently.
+And then finally,
+of course, AI
+is at the forefront of everything,
+especially today.
+But we’ve just seen over --
+I would say really the last two years --
+that ... it’s really working.
+AI can help us understand
+these kinds of processes.
+CA: So if I understand right,
+just as AI has cracked
+understanding human language,
+you see a possibility that AI can be used
+to understand the language
+of our own cells, RNA.
+SK: Yeah, exactly,
+that's basically the core principle.
+And for that, you need
+to be able to measure it
+and change it in this targeted way.
+But as an analogy, the field
+was doubting this at the time.
+I mean, even six years ago,
+people were not sure
+that you could really scale
+these large language models,
+just based on language
+and kind of predicting language,
+to actually build a conception
+of the world essentially,
+and at least approximate
+intelligence clearly pretty well.
+So this is the key insight
+for the last six years,
+which is that a model can learn
+so much just from human language.
+And similarly, we can apply
+that concept to RNA,
+which is basically
+the language of the cell --
+especially the dynamic
+language of the cell --
+because it's changing all the time.
+It reflects what's happening to the cell,
+but also it reflects the cell's genetics.
+CA: Is it approximately the same level
+of complexity as human language
+or much more so or less?
+SK: It's hard to say, but I will say
+one key difference for me,
+and I think this is why AI
+can be so powerful for biology,
+is that human language
+is generated by humans, right?
+So we understand it, right?
+We came up with it.
+RNA language, or the biological
+language, has evolved --
+it was not generated by humans.
+So it's basically impenetrable for us.
+We can predict the left side:
+“to be or not to be” we know [is]
+Shakespeare -- we can complete it.
+On the right side [though], no human
+really could complete that, right?
+But AI doesn't care.
+CA: To try and crack it,
+I think you have to take the same stance
+of just getting huge amounts of data.
+Talk about that process.
+SK: Yeah, absolutely.
+I mean, really what we learn,
+again, for large language models,
+is just they're very hungry.
+They’re very data-hungry.
+And really we’ve
+been generating data
+for these language models
+for thousands of years.
+They're using all human languages
+that's been generated
+over generations and civilizations.
+In biology, we don't have anything
+similar to that, right?
+Especially when you're thinking about,
+we need these precise measurements
+kind of one cell at a time.
+And we also need to know what
+actually happened to that cell
+because we're trying to build
+a predictive model, a dynamic model,
+that can predict how a cell will change
+when something happens to it.
+And so we need to generate that data set.
+And that's kind of really core to being
+able to build any useful model here.
+CA: So give a sense
+of how you actually do this.
+SK: Essentially, this is really
+combining those first two elements
+I was talking about,
+which is making a targeted change.
+In this case, we're using
+CRISPR technology
+to turn a gene off or to turn it on.
+And we're doing that one gene at a time
+for one cell at a time.
+And then we’re measuring the outcome
+using single-cell RNA sequencing
+so we’re capturing
+what happened to the cell.
+CA: So you do what you call
+a perturbation of the cell.
+And then you measure the output.
+How many experiments like that
+do you need to do,
+what's your plan?
+SK: So our plan is to do at least
+a billion of these experiments.
+So it's a lot of experiments.
+(Laughs)
+Over the next four years.
+CA: And you're not talking
+about, like in software,
+you're talking about a billion
+actual, biological --
+SK: Yeah, they're all
+physical experiments.
+I mean, I'm a biologist,
+an experimental biologist.
+We're working with a lot
+of experiments in the lab.
+And yet the way that we can do this
+is kind of using some tricks
+that make this much more scalable.
+We’re not actually like,
+running a billion little
+individual reactions.
+We're able to use kind of different
+bar-coding technologies
+to run these experiments
+in this bigger pools
+and then back out what happened [and]
+what we did to the cells.
+CA: OK, so if things work
+out as you hope --
+I guess you’re already seeing
+evidence that it’s working out.
+Once you gather that data,
+you're able to get from the model
+something truly amazing.
+Talk about that.
+SK: So just to give a sense
+of why I feel that we can do
+the billion experiments
+is we've done about 60
+million experiments so far.
+CA: You've done 60 million, right.
+SK: So we feel pretty good
+we can keep going.
+But yeah, the whole point of this
+is that we want to learn.
+If I have this cell,
+and I make this change,
+what happens to the cell?
+Really my motivation
+for generating this model
+is ultimately for human health.
+And so for that,
+we can now have a disease state.
+And importantly, this can be,
+for example,
+a certain cell in Alzheimer’s disease --
+let’s say it’s an immune cell
+in the brain: microglia.
+And we can measure,
+what that looks like,
+not just for one patient,
+but across many patients.
+And this data is out there,
+so we don't even have to generate it.
+And so we can see, OK,
+all these diseased cells,
+then we can have all the healthy cells,
+but again across people.
+And then we can ask the model,
+OK, the model knows how
+to change cells, right?
+So what intervention,
+what genetic change,
+what chemical change do I need to make
+to convert all the diseased cells
+across all the patients
+with the same disease
+back to the healthy cells?
+CA: So that's an amazing
+sort of prediction.
+Like, if you truly understand
+the language of DNA,
+the model can predict something
+that medicine has never known before,
+because the answer to doing that
+might be quite a complex series
+of interventions are needed for that cell.
+It's not like you just give it an aspirin.
+SK: It could be that it's a complex
+combination of things,
+or it's really just a question
+even of picking the correct one, right?
+There’s, you know, 20,000 possibilities --
+could be up or down
+to 40,000 possibilities.
+And normally,
+the way this target identification
+and biomedicine works today
+is really this kind of
+guess and check approach.
+So you have a hypothesis, one gene,
+then you're spending
+a few years on checking
+whether that's the right one, right?
+So if you have 40,000 things to pick from,
+even if you just have
+to pick a single one,
+that takes forever, right?
+And that's why we haven't
+cured these diseases yet.
+CA: So what are you going
+to do with this model
+as you gradually refine it?
+I mean, [as] I understand,
+you think of this as
+basically a virtual cell,
+[that] is what you’re creating --
+it’s almost more than that.
+It's like a universal virtual cell
+that researchers can,
+whatever cell they’re working on,
+use your model.
+Talk about what
+you're planning to do with it.
+SK: The whole point of it
+is that it is a universal virtual cell,
+which means that it needs to learn
+how to generalize to a new kind of cell
+or a new state of a cell,
+a new disease, for example,
+without having seen data,
+training data for that new cell type.
+So that is a very challenging task.
+And that's why we're really thinking hard
+about how to do these experiments.
+But ultimately, I mean,
+this is what we're seeing here is,
+you know, the vision is
+that this is actually real.
+So this is our state designer.
+So we have already built our first model
+that came out eight months ago.
+It's not very good.
+So I mean to be clear,
+it is state-of-the-art,
+it's the best model at the time
+that was published.
+(Laughter)
+But it has a really long way to go
+to be at the accuracy that I think
+it needs to be to be really useful.
+But this is an interface
+that uses that model that we have today.
+And so what you can do is you can say,
+“OK, I have this cell
+that I’m starting with.
+And then, you know, I want
+to change this about the cell.”
+And then it spits out
+these different changes
+that you can make to the cell
+that are most likely to shift it
+the way you want.
+CA: So you're not holding on
+to this yourself
+or licensing it to companies,
+you're making this generally available.
+SK: That's right, yeah.
+So we have a few ways
+that we really want people --
+(Applause)
+People to be able to interact with it
+and also follow along.
+So one is
+we're going to be releasing this tool
+later this year for people to try.
+We'll give caveats like,
+this is not very accurate
+or this is going to be
+20 percent accurate,
+but also we're going to iterate
+over the next four years.
+We’re also hosting a “Virtual
+Cell Challenge” every year
+for the whole community.
+We have 1,000 teams
+participating in the first one,
+and that's really to move
+the whole field forward,
+to get to where I think we need to be.
+CA: So this is amazing.
+The amazing work in your institute
+is really going to catalyze
+research worldwide
+because you're making this tool available.
+Some people looking at that
+may go, “Well, wait a sec,
+isn’t that a little bit dangerous?”
+Some of the people playing with this
+may not have humanity’s
+best interests at heart.
+What do you say to that?
+SK: That’s definitely a question
+that I think, as you know, we got
+during the Audacious process.
+And I think the key thing
+to keep in mind is
+that this is really just for human cells.
+In theory,
+someone could build
+this kind of tool for a virus.
+And I would say, don't do that,
+that's a bad idea,
+because yes, then you can
+absolutely use it
+to create something
+that would be dangerous.
+But this really just allows you to shift
+human cells into a different state.
+And I think that would be
+pretty difficult to abuse.
+CA: And in principle,
+if a nasty virus did come along
+and this model is working properly,
+that's a way of giving us
+one of the quickest --
+SK: Yeah, I mean, it will tell you,
+for example,
+how the virus is targeting this gene
+in this cell right now.
+OK, we know what happens to the cell
+when that's getting targeted.
+So yeah, it will absolutely
+help us to defend.
+CA: So here's your team.
+Tell us about them.
+SK: Yeah, so Arc
+was only started in 2022 --
+[which was] when we decided to launch.
+2022 is really when we got up and running.
+So it's only been four years,
+but we've grown a lot.
+CA: So that's the before
+and after over four years?
+SK: That’s just one year
+of growth -- the last year.
+So we're over 300 people now.
+And I think
+one thing we really wanted
+to be able to achieve with Arc
+is to bring people together
+from different disciplines
+and have AI and biology
+under one roof in one institute.
+And we started this just around
+the right time when
+we could see what machine learning
+was going to mean for biology.
+CA: Silvana, I got so excited to see
+the Audacious community get behind this
+and really help you expand this vision.
+It's hard to imagine a bolder effort
+at really tackling what humanity needs
+and in making us all feel better about AI.
+So someone here who's got in their family,
+they've got Alzheimer's
+or they've got heart disease or whatever,
+what would you say to them?
+SK: I mean, I would say
+that I really think
+the medicine is going to transform
+for these kinds of diseases, right?
+Maybe not in three months.
+So you have to be a little patient.
+But I think that within
+four years, five years,
+we will be able to have these models
+that are accurate enough to be useful.
+And then it's a totally different
+way of doing biology.
+It's not kind of,
+one hypothesis at a time, right?
+A field like Alzheimer's
+can get really bogged down
+by just focusing on one
+dominant hypothesis
+that might be wrong.
+And with these models,
+you can actually take a comprehensive
+data-driven look, you know,
+[at] all the things
+that we could be targeting with a drug,
+what's going to happen with all of them,
+and then which of them is going
+to be the most effective one?
+It's just a totally different way
+of tackling the problem
+that I think is so exciting.
+CA: Silvana, thank you for your
+incredible vision, for sharing it with us.
+Thank you, really, just fantastic.
+SK: Thank you so much.
+(Cheers and applause)
