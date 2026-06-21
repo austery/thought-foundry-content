@@ -1,0 +1,528 @@
+[Speaker 0]: 美股播华尔街专利。
+[Speaker 0]: 大家好，
+[Speaker 0]: 我是米德军。
+[Speaker 0]: 你们的美股探路者。
+[Speaker 0]: 前不久，
+[Speaker 0]: 我做了一期 AI 应用层前瞻机会的视频，
+[Speaker 0]: 反响非常好。
+[Speaker 0]: 当时承诺过会继续给咱各位看官挖掘前瞻的 AI 机会。
+[Speaker 0]: 本期视频我就来填坑了。
+[Speaker 0]: 我说过 AI 下一轮大机会一定会出现在应用层。
+[Speaker 0]: 对于这一点，
+[Speaker 0]: 我深信不疑。
+[Speaker 0]: 历史上，
+[Speaker 0]: 历次科技变革无一例外都是如此，
+[Speaker 0]: 但也不得不承认，
+[Speaker 0]: 应用层的机会会远比基础层更难。
+[Speaker 0]: 投资我们投资者必须要更有选择性才行，
+[Speaker 0]: 因为技术变化非常快，
+[Speaker 0]: 现在依然是 AI 应用的早期阶段，
+[Speaker 0]: 有些公司最终能够受益，
+[Speaker 0]: 有些则很可能会面临威胁。
+[Speaker 0]: 那怎么办呢？
+[Speaker 0]: 这次我和我的团队捋着本次财报记所有的 AI 应用层软件公司，
+[Speaker 0]: 一个一个的翻财报，
+[Speaker 0]: 一个一个的读管理层发言，
+[Speaker 0]: 试图从中去找到 AI 应用领域里最前沿的发展趋势和行业洞察。
+[Speaker 0]: 你还别说，
+[Speaker 0]: 还真就让我们找到了这么几个突破性的发现，
+[Speaker 0]: 这次发现可太重要了，
+[Speaker 0]: 因为他们还没有被市场充分消化，
+[Speaker 0]: 并且这背后很可能就隐藏着下一个 AI 的爆发机会。
+[Speaker 0]: 接下来，
+[Speaker 0]: 美头君就来好好跟各位看官聊聊这些 AI 应用层最前沿的机会。
+[Speaker 0]: 视频开始前，
+[Speaker 0]: 美投君想先提醒一下咱各位看官六幺八美投期权课优惠活动，
+[Speaker 0]: 还有最后两天就要截止了。
+[Speaker 0]: 美投期权课最大的特点是专业易懂，
+[Speaker 0]: 且强调实战应用。
+[Speaker 0]: 课程推出五年以来不断打磨，
+[Speaker 0]: 不断精进，
+[Speaker 0]: 现在已经成功帮助数千名学员安心积累起了超额收益，
+[Speaker 0]: 好评如潮。
+[Speaker 0]: 课程针对不同基础的投资者，
+[Speaker 0]: 设计了不同等级的课程。
+[Speaker 0]: 初中级课程针对零基础小白详细讲解期权的基础知识、
+[Speaker 0]: 希腊字母以及最常用的期权策略，
+[Speaker 0]: 目的是让期权策略可以快速落地到你的实战交易当中。
+[Speaker 0]: 而高级期权课则是为你打造一整套系统性的交易策略。
+[Speaker 0]: 我会通过独家的数据建模和历史回测，
+[Speaker 0]: 帮你找到可以系统性应对不同市场环境的策略。
+[Speaker 0]: 这些策略可回溯可验证。
+[Speaker 0]: 这些数据均来自于专业机构，
+[Speaker 0]: 普通人很难接触得到，
+[Speaker 0]: 全部课程均是二零二零年最新更新版永久有效。
+[Speaker 0]: 现在购买还赠送九十天的 mato pro plus 服务。
+[Speaker 0]: 我和我的团队会全程陪伴你的学习，
+[Speaker 0]: 为你及时答疑解惑，
+[Speaker 0]: 实时分享真实的实战。
+[Speaker 0]: 期权交易让期权不再是纸上谈兵。
+[Speaker 0]: 这次活动将会在六月二十二日每周时间周一截止仅剩最后两天。
+[Speaker 0]: 活动结束后，
+[Speaker 0]: 每条期权课将会迎来一轮全面涨价。
+[Speaker 0]: 所以感兴趣的看官一定要抓紧时间了。
+[Speaker 0]: 大家可以先从试听课，
+[Speaker 0]: 开始看起订阅方式，
+[Speaker 0]: 请查看下方置顶评论中的链接，
+[Speaker 0]: 谢谢各位。
+[Speaker 1]:  the 在本次财报季中，
+[Speaker 0]: 电商平台 shopping fifive 的管理层表示，
+[Speaker 0]: 本季度 shopping five 商店 AI 追问的流量同比增长了八倍，
+[Speaker 0]: 相关订单更是增长了十三倍。
+[Speaker 0]: 设计公司 adobe 的财报会议中也提到，
+[Speaker 0]: 二零二五年假日季 AI 给零售网站的流量带来了七倍的增长，
+[Speaker 0]: 其中 AI agent 为曝光关键，
+[Speaker 0]: 而更重要的一组数据则来自于网络安全。
+[Speaker 0]: 公司 clouflair 下图是北美互联网访问中机器和人类的占比。
+[Speaker 0]: 可以看到，
+[Speaker 0]: 根据最新的数据，
+[Speaker 0]: 机器的流量占比已经来到了百分之六十八点四，
+[Speaker 0]: 大幅超越了人类。
+[Speaker 0]: 而这是北美的数据。
+[Speaker 0]: 如果咱看全球的话，
+[Speaker 0]: 就在六月初，
+[Speaker 0]: 机器人的流量也已经历史性的首次超过了人类。
+[Speaker 0]: 而毫无疑问，
+[Speaker 0]: 这个比例在未来肯定还会上升。
+[Speaker 0]:  tools for humanity 的 CEO alex blanenia 就激进的表示，
+[Speaker 0]: 未来百分之九十九点九的互联网流量都会由 AI 驱动。
+[Speaker 0]: 那为什么会出现这种现象呢？
+[Speaker 0]: 单纯就是因为 AI 发展的好吗？
+[Speaker 0]: 其实不全是 cloudflared 的 CEO。
+[Speaker 0]:  my faprprince 在最新的财报会议上举了这么一个简单的例子。
+[Speaker 0]: 他说，
+[Speaker 0]: 如果我自己要找一台数码相机，
+[Speaker 0]: 我会访问五个网站。
+[Speaker 0]: 而如果我把这事儿交给 AI agent，
+[Speaker 0]: 他会访问五千个网站。
+[Speaker 0]: 所以你看做相同任务时，
+[Speaker 0]:  AI agent 带来的访问量或许是人类的一千倍往上。
+[Speaker 0]: 这就完美解释了为什么机器的流量占比会现在开始飙升的原因。
+[Speaker 0]: 而这便是我们的第一个洞察，
+[Speaker 0]: 互联网流量的结构将会从由人主导转向，
+[Speaker 0]: 由 AI agent 主导。
+[Speaker 0]: 那么，
+[Speaker 0]: 说这个改变对于咱投资者而言究竟意味着什么呢？
+[Speaker 0]: 首先，
+[Speaker 0]: 这意味着互联网整体流量将迎来一次爆发性的增长。
+[Speaker 0]: 想象一下，
+[Speaker 0]: 如果未来真的 AI 镇的访问量占了百分之九十九点九，
+[Speaker 0]: 这说明什么呢？
+[Speaker 0]: 假设人类访问需求不变的话，
+[Speaker 0]: 这就说明总的互联网访问量将会有一千倍的增长。
+[Speaker 0]: 事实上，
+[Speaker 0]: 这还是搂着说的，
+[Speaker 0]: 因为人类的需求不会真的不变，
+[Speaker 0]: 而是会随着 AI 普及的便利性会进一步的爆发，
+[Speaker 0]: 那么访问量的增长还会有更大的提升。
+[Speaker 0]: 那么在这条趋势下，
+[Speaker 0]: 什么样的公司会受益呢？
+[Speaker 0]: 能够直接受益的公司就是云计算企业更多的访问，
+[Speaker 0]: 自然就会占有更多的服务器资源。
+[Speaker 0]: 而且 agent 不仅仅是访问这么简单，
+[Speaker 0]: 背后还包括搜索、
+[Speaker 0]: 调用 API、
+[Speaker 0]: 访问数据库等等等等，
+[Speaker 0]: 每一步都需要云计算的辅助。
+[Speaker 0]: 而另一类公司自然就是大模型，
+[Speaker 0]: 企业们大模型的收入主要就来自于 token 消耗。
+[Speaker 0]: 如果我们看到了 agent 的访问量愈发频繁，
+[Speaker 0]: 那么总的 token 消耗自然也会同步上升，
+[Speaker 0]: 从而带动起大模型的收入。
+[Speaker 0]: 最后，
+[Speaker 0]: 如果 token 消耗多云，
+[Speaker 0]: 计算需求又大，
+[Speaker 0]: 那么自然的基础层的半导体企业也会有更高的需求。
+[Speaker 0]: 不过咱今天这期视频主要目标是挖掘应用层的机会。
+[Speaker 0]: 基础层我们暂且不展开，
+[Speaker 0]: 现在我们捋着这条洞察，
+[Speaker 0]: 再进一步的思考，
+[Speaker 0]: 如此大量的访问都来自于 AI agent。
+[Speaker 0]: 那会带来什么样的问题呢？
+[Speaker 0]: 很重要的一点是身份验证。
+[Speaker 0]: 什么 agent 是好 agent，
+[Speaker 0]: 什么 agent 是坏 agent，
+[Speaker 0]: 什么 agent 可以调用数据，
+[Speaker 0]: 什么 agent 不行，
+[Speaker 0]: 什么 agent 可以执行任务，
+[Speaker 0]: 什么 agent 不让执行等等等等。
+[Speaker 0]: 这些都需要有专业的机制来进行判断。
+[Speaker 0]: 而这其中一个佼佼者是网络安全公司 cloud flair、
+[Speaker 0]:  cloud flair 专门提供流量识别、
+[Speaker 0]: 访问控制、
+[Speaker 0]: 反爬虫等各种服务。
+[Speaker 0]: 他处在互联网流量的一个入口层，
+[Speaker 0]: 流量的增加就会直接给他带来增益。
+[Speaker 0]: 不过需要注意的是，
+[Speaker 0]: 公司的收入模式并非是完全的按量收费，
+[Speaker 0]: 所以增益可能并非是线性的，
+[Speaker 0]: 而是需求膨胀后所带来的更多付费产品的转化。
+[Speaker 0]: 紧接着咱们再往深想，
+[Speaker 0]: 一层流量的增加，
+[Speaker 0]: 它的根源到底是什么呢？
+[Speaker 0]: 短期来看，
+[Speaker 0]: 流量的增加并非是需求的增加导致的，
+[Speaker 0]: 而是满足需求的方式变了而已。
+[Speaker 0]: 现在执行相同的任务，
+[Speaker 0]:  AIA 阵的访问量是人类的成百上千倍。
+[Speaker 0]: 事实上，
+[Speaker 0]: 如果你把这个变化放到整个链条上看，
+[Speaker 0]: 其实访问量的增加并未增加任何的商业价值。
+[Speaker 0]: 我该买一个数码相机，
+[Speaker 0]: 还是买一个数码相机？
+[Speaker 0]: 访问量的增加只是增加了过程中的成本而已，
+[Speaker 0]: 有 token 成本，
+[Speaker 0]: 有云，
+[Speaker 0]: 计算成本，
+[Speaker 0]: 也有监控访问权的成本。
+[Speaker 0]: 所以说，
+[Speaker 0]:  AI agent 所引发的流量暴增，
+[Speaker 0]: 它所带来的并非是整体经济效益的增加，
+[Speaker 0]: 而是经济效益在产业链上的一次再分配。
+[Speaker 0]: 这就意味着终端产品和服务要想接触到消费者，
+[Speaker 0]: 在 AI agent 的时代，
+[Speaker 0]: 要不就需要付出更高的成本，
+[Speaker 0]: 将利润让渡，
+[Speaker 0]: 要不就需要倒逼自己做出改革，
+[Speaker 0]: 将原本的销售模式从人对人转向机器。
+[Speaker 0]: 对机器或者说是 AI agent。
+[Speaker 0]: 对 AI agent 你也能看出来，
+[Speaker 0]: 后者显然是更可行、
+[Speaker 0]: 更持久也是必然会发生的一条趋势，
+[Speaker 0]: 而他又会带来更多新的机会。
+[Speaker 0]: 实话讲，
+[Speaker 0]: 这部分在商业上目前还是个空白，
+[Speaker 0]: 或者说是刚刚起步，
+[Speaker 0]: 相对来说就难以定位机会。
+[Speaker 0]: 如果你非要我猜的话，
+[Speaker 0]: 我认为将会是谷歌、
+[Speaker 0]:  meta 这样的广告商。
+[Speaker 0]: 他们原本提供的服务就是连接消费者和终端产品和服务。
+[Speaker 0]: 现在只不过是换一个形态出现而已。
+[Speaker 0]: 比如说以前你要想让别人在互联网上找到你，
+[Speaker 0]: 你得做 SEO。
+[Speaker 0]: 现在你可能就得换成 GEO，
+[Speaker 0]: 让 agent 能够更好的找到你。
+[Speaker 0]: 但与此同时，
+[Speaker 0]: 咱投资者也要清楚，
+[Speaker 0]: 这条趋势落地的时间相对来说会更长一些，
+[Speaker 0]: 它的效果并不是立竿见影的。
+[Speaker 0]: 因为商业模式的转变，
+[Speaker 0]: 它需要一个很长的过程，
+[Speaker 0]: 而时间越长，
+[Speaker 0]: 不确定性也就越高。
+[Speaker 0]: 我们投资者也需要做好一个明确的预期管理。
+[Speaker 0]: 就在最近，
+[Speaker 0]: 微软 CEO 纳德拉在接受一个 pocus 采访时说，
+[Speaker 0]: 未来的企业可能会出现类似两万名员工，
+[Speaker 0]: 加上两百万甚至两千万个 agent 的组织形态。
+[Speaker 0]: 黄仁勋在此前的 GTC 大会上也表示，
+[Speaker 0]: 十年后的英伟达可能是七点五万个员工，
+[Speaker 0]: 加上七百五十万个 AI agent 一起工作。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 未来的企业，
+[Speaker 0]: 他们内部的 agent 数量将会有一个大幅的增加。
+[Speaker 0]: 我相信这个趋势大家应该都知道，
+[Speaker 0]: 也很好理解。
+[Speaker 0]: 但很多人没有意识到的是，
+[Speaker 0]: 企业内部突然涌现出了如此多的 AI agent，
+[Speaker 0]: 会带来多少的新问题呢？
+[Speaker 0]: 这些新问题就是新机会。
+[Speaker 0]: 而本次财报季，
+[Speaker 0]: 我们看到了一些明确的方向。
+[Speaker 0]: 像客户管理软件，
+[Speaker 0]:  workday 的管理层就提到企业现有的权限、
+[Speaker 0]: 安全政策监管，
+[Speaker 0]: 这些不会发生改变。
+[Speaker 0]: 要想企业 AI 真正产生回报，
+[Speaker 0]: 就需要 AI agent 能够按照这些要求来执行工作才可以。
+[Speaker 0]: 而网络安全公司 octa 也表示，
+[Speaker 0]: 未来 AI agent 多了以后，
+[Speaker 0]: 每个 agent 都需要有身份权限、
+[Speaker 0]: 生命周期和关闭机制，
+[Speaker 0]: 这些问题不解决，
+[Speaker 0]:  AI 就无法发挥真正的价值。
+[Speaker 0]: 所以你看，
+[Speaker 0]: 随着企业内部 AI agent 数量的增加，
+[Speaker 0]: 管理，
+[Speaker 0]: 这些 AI agent 的需求也会同步增长。
+[Speaker 0]: 而这便是 AI agent 的浪潮中下一个即将要到来的机会。
+[Speaker 0]: 从本次财报季中，
+[Speaker 0]: 我们已经看到了该趋势，
+[Speaker 0]: 给相关企业业绩带来了实际的提升。
+[Speaker 0]: 业内把这个需求叫做 AI observability AI 监测。
+[Speaker 0]: 它有点像是管理 AI agent 的一个 manager 的角色，
+[Speaker 0]: 就像人类员工多了，
+[Speaker 0]: 需要 manager 管理一样，
+[Speaker 0]:  agent 多了也需要 agent manager 来管理。
+[Speaker 0]: 那么在这条逻辑下，
+[Speaker 0]: 什么样的公司可能会受益呢？
+[Speaker 0]: 这第一类公司就是那些专门给企业内部管理身份和权限的公司。
+[Speaker 0]: 最典型的例子就是 octor，
+[Speaker 0]: 他做的事情就是决定企业内部不同身份的人都有什么样的权限。
+[Speaker 0]: 而最近他们在财报中也提到，
+[Speaker 0]: 未来他们会把 AI agent 和非人类身份的监管和治理作为战略发展的重点。
+[Speaker 0]: 也正因为这次战略调整，
+[Speaker 0]: 塔财报后大涨了百分之三十。
+[Speaker 0]: 另一类公司是哪些能够帮助企业内部监控和管理 agent 的软件公司？
+[Speaker 0]: 比较典型的例子就是 service now。
+[Speaker 0]:  service now 是一家给企业内部做工作流自动化的 sars 企业。
+[Speaker 0]: 在 AI agent 时代，
+[Speaker 0]:  service now 做的就是把这些 agent 的工作流程监控到位，
+[Speaker 0]: 实现自动化和可追踪化。
+[Speaker 0]: 前不久，
+[Speaker 0]:  service now 发布了一个名为 AI control tower ard 产品，
+[Speaker 0]: 目的就是为了监控公司里所有的 AI agent 所有的模型，
+[Speaker 0]: 以及不同的身份。
+[Speaker 0]: 这些工作就是咱前面所说的 agent manager 的工作。
+[Speaker 0]: 说到这儿，
+[Speaker 0]: 可能有看官要质疑了这些工作 AI 自己不能做吗？
+[Speaker 0]: 会不会大模型企业自己推出了一个什么类似的服务，
+[Speaker 0]: 或者企业们自己用 AI 手搓一个服务就能轻易替代的了呢？
+[Speaker 0]: 这个也是最近这些软件公司受到的最大质疑。
+[Speaker 0]: 我个人认为这个威胁肯定是存在的，
+[Speaker 0]: 但是其实远没有大家想象的那么危险。
+[Speaker 0]: 就短期来看，
+[Speaker 0]:  agent manager 它就是一个迫在眉睫的需求。
+[Speaker 0]: 而只有这些相关公司有最多的经验和最多的资源来做这件事儿。
+[Speaker 0]: 像前面咱提到的 octaa cloud flaer，
+[Speaker 0]: 他们本身就是 open AI 和 s ropic 的客户，
+[Speaker 0]: 也侧面证明他们没有那么好被取代。
+[Speaker 0]: 那么眼下需求已经来了，
+[Speaker 0]: 那促进自然就是立竿见影的。
+[Speaker 0]: 而就长远来看，
+[Speaker 0]: 客观的讲，
+[Speaker 0]: 这个威胁肯定是存在的，
+[Speaker 0]: 大模型也完全有能力做这些事情。
+[Speaker 0]: 但是有能力并不意味着一定会做，
+[Speaker 0]: 就好比说英伟达有那么多现金，
+[Speaker 0]: 他完全可以去做一个贷款业务。
+[Speaker 0]: 但你说他真的会去做吗？
+[Speaker 0]: 估计不会。
+[Speaker 0]: 因为啊他有更有价值的事情去投入。
+[Speaker 0]: 而对于大模型企业也是一样，
+[Speaker 0]: 任何一个细分领域都有他们自己的生态。
+[Speaker 0]: 大模型真要想替代，
+[Speaker 0]: 要有很多细枝末节的工作要做。
+[Speaker 0]: 对于他们而言，
+[Speaker 0]: 最好的做法不是竞争，
+[Speaker 0]: 而是合作。
+[Speaker 0]: 而对于我们投资者而言，
+[Speaker 0]:  AI 威胁这个风险，
+[Speaker 0]: 我认为绝对是需要我们留意的。
+[Speaker 0]: 咱肯定不能无脑看好。
+[Speaker 0]: 但与此同时，
+[Speaker 0]: 咱也不能矫枉过正，
+[Speaker 0]: 蒙住发现机会的双眼。
+[Speaker 0]: 我们后面的所有分析可能还会牵扯到这个问题，
+[Speaker 1]: 我就不再重复说明了。
+[Speaker 0]: 这第三个洞察是我们发现企业现在已经开始从无脑充 AI 的状态转向开始关注 AI 的 ROI 了。
+[Speaker 0]: 这个洞察最初来自于一家专门做营销软件服务的公司。
+[Speaker 0]:  hop sport 管理层在财报电话会上表示，
+[Speaker 0]:  AI 成本正在无限增加，
+[Speaker 0]: 但是客户却看不清结果。
+[Speaker 0]: 他们的客户希望能够看到与成果明确挂钩的可预测的服务。
+[Speaker 0]: 这说明企业们面对 AI agent 的这个无限按量收费的无底洞已经开始不满了。
+[Speaker 0]: 要知道，
+[Speaker 0]:  hups sport 为了解决这个问题，
+[Speaker 0]: 甚至把自己的定价方式都给改了，
+[Speaker 0]: 从按量收费改成了按结果收费。
+[Speaker 0]: 管理层说，
+[Speaker 0]: 现在的 AI 经常是输出 outcome，
+[Speaker 0]: 而不是 output，
+[Speaker 0]: 相信很多人都有这种感觉，
+[Speaker 0]:  AI 一通操作感觉确实很厉害，
+[Speaker 0]: 但是最终却没有看到什么实质性的结果。
+[Speaker 0]: 而企业美也是如此，
+[Speaker 0]: 他们不愿再为过程买单，
+[Speaker 0]: 而是要看到实质性的结果。
+[Speaker 0]: 类似的，
+[Speaker 0]: 我们从甲骨文的财宝中也看到了相同的情况。
+[Speaker 0]: 在最新的财报会议上，
+[Speaker 0]: 管理层表示，
+[Speaker 0]: 他们正在简化客户使用和支付 AIA 诊断的方式，
+[Speaker 0]: 他们的定价会和客户价值对齐。
+[Speaker 0]: 比如说做面试的 agent，
+[Speaker 0]: 就会按照筛选候选人的数量来收费。
+[Speaker 0]: 酒店行业的 agent 就会按照终端消费者加购交易的比例来收费等等等等。
+[Speaker 0]: 可以看到，
+[Speaker 0]: 客户企业们正在严格比对 AI 的成本和收益，
+[Speaker 0]: 这已经倒逼出大量的企业做出了改变。
+[Speaker 0]: 那个无脑冲 VI 的时代就快要结束了。
+[Speaker 0]: 那么了解了这个趋势之后，
+[Speaker 0]: 对于我们投资者而言究竟意味着什么呢？
+[Speaker 0]: 首先，
+[Speaker 0]: 它意味着按结果收费，
+[Speaker 0]: 很可能将成为未来软件服务领域的一个新的发展趋势。
+[Speaker 0]: 我在之前的 AI 应用层分析中曾跟各位看官讲过，
+[Speaker 0]: 现在所有的软件公司都在从席位收费向按量收费进行转移。
+[Speaker 0]: 这是 AIA 这个时代软件公司最重要的一个改变，
+[Speaker 0]: 也是唯一的出路。
+[Speaker 0]: 而本身就是按量收费或者最先完成调整的，
+[Speaker 0]: 将会最早受益于 AI。
+[Speaker 0]: 不过按量收费也不过是一个中间形态，
+[Speaker 0]: 最终的形态更可能是按结果收费。
+[Speaker 0]: 只有这样，
+[Speaker 0]: 企业才能更好的去衡量 ROI，
+[Speaker 0]: 也才能让支出变得更具有可预测性。
+[Speaker 0]: 而现在在这个方面做的最好的软件公司是数据分析公司 peenteer，
+[Speaker 0]: 他们给用户提供的服务都是一个很具体的结果。
+[Speaker 0]: 比如，
+[Speaker 0]: 帮航空公司优化航线和运营调度，
+[Speaker 0]: 帮助能源公司优化油气生产的规模。
+[Speaker 0]: 这些结果都是可衡量的，
+[Speaker 0]: 甚至派伦 tiar 在用户使用之前，
+[Speaker 0]: 就能够明确给用户算出他们的 ROI，
+[Speaker 0]: 这种方式就更容易帮助企业做出购买决策。
+[Speaker 0]: 如果未来 AIROI 问题在市场上开始发酵，
+[Speaker 0]: 那么 palenteer 或许会重回市场焦点，
+[Speaker 0]: 进一步深挖这个趋势。
+[Speaker 0]: 你会发现，
+[Speaker 0]: 其实企业关注 ROI，
+[Speaker 0]: 本质上是因为 AI 算力成本太高所导致的，
+[Speaker 0]: 而算力紧缺在短期内就根本解决不了。
+[Speaker 0]: 那这就意味着帮助企业节省 token 消耗将会成为一个巨大的市场。
+[Speaker 0]: 而在这个领域做数据监控的 data dog 处在一个很不错的位置上。
+[Speaker 0]: 现在的 AILOI 不行，
+[Speaker 0]: 一个很重要的原因是大量的 token 正在被浪费掉，
+[Speaker 0]: 很多不必要的任务，
+[Speaker 0]: 或者说是低价值的任务。
+[Speaker 0]: 正在消耗大量的 token，
+[Speaker 0]: 而对此企业缺乏有效的管理手段，
+[Speaker 0]: 而这正是 data dog 在做的事情。
+[Speaker 0]:  data dog 以前做的是帮企业监控云上的数据用量，
+[Speaker 0]: 搞清楚云计算的钱都花在了哪儿。
+[Speaker 0]: 而在 AI 时代，
+[Speaker 0]:  data dog 的任务就变成了监控。
+[Speaker 0]: 每一次 AI 调用的数据搞清楚 AI 账单的来源，
+[Speaker 0]: 他们推出的 LLM observability 产品就是去监控。
+[Speaker 0]: 每一次 AI 调用的数据，
+[Speaker 0]: 包括每一步消耗了多少 token，
+[Speaker 0]: 花了多少钱都能追踪得到 data dog 会像查账一样，
+[Speaker 0]: 把整个这个过程给还原出来。
+[Speaker 0]: 哪些任务？
+[Speaker 0]: 傻鸡用了牛刀，
+[Speaker 0]: 哪些任务还有节省 token 的空间？
+[Speaker 0]:  data dog 一目了然，
+[Speaker 0]: 像 open AI，
+[Speaker 0]: 就是 data dog 的客户之一。
+[Speaker 0]: 随着更多企业关注起 AI 的 ROI data dog，
+[Speaker 0]: 或许有机会获得更多订单。
+[Speaker 0]: 什么是 AI 原生企业？
+[Speaker 0]: 它指的是像 open i anstropic 这样的纯 AI 初创公司。
+[Speaker 0]: 事实上，
+[Speaker 0]: 除了这些，
+[Speaker 0]: 我们耳熟能详的大模型企业外，
+[Speaker 0]: 市面上还有大量的大大小小的 AI 原生企业，
+[Speaker 0]: 他们正在形成一股不容忽视的商业力量。
+[Speaker 0]: 在本次财报季，
+[Speaker 0]: 我们就看到了，
+[Speaker 0]: 众多公司开始将服务向原生 AI 企业倾斜。
+[Speaker 0]: 而那些本身就适配原生 AI 企业的公司，
+[Speaker 0]: 更是率先实现了不俗的增长。
+[Speaker 0]: 比如数据库企业 mango DB 在最新的财报中就提到，
+[Speaker 0]: 他们的业绩亮眼，
+[Speaker 0]: 就是因为 AI 原生企业的表现好。
+[Speaker 0]: 而之所以有这个改变，
+[Speaker 0]: 一方面是因为现在 AI 原生公司的成长非常的快，
+[Speaker 0]: 他们所需的服务需求正在快速的膨胀。
+[Speaker 0]: 另一方面，
+[Speaker 0]: 也是因为 AI 原生公司在最近这两年获得了大量一级市场的风投，
+[Speaker 0]: 他们非常有钱，
+[Speaker 0]: 业务也在不断的扩张。
+[Speaker 0]: 可预见的未来。
+[Speaker 0]:  AI 原生企业的增长是大势所趋，
+[Speaker 0]: 而且现在才是刚刚开始。
+[Speaker 0]: 咱各位不妨回想一下互联网革命，
+[Speaker 0]: 那些互联网龙头的影响力持续了多久，
+[Speaker 0]: 想必也不用我多说。
+[Speaker 0]: 我认为啊现在的 AI 原生企业也是如此，
+[Speaker 0]: 而给他们提供相关服务的企业，
+[Speaker 0]: 本季度才刚刚开始冒头，
+[Speaker 0]: 我相信这类企业未来还会有更为显著的增长。
+[Speaker 0]: 那具体会有哪些公司受益呢？
+[Speaker 0]: 很遗憾的是，
+[Speaker 0]: 那些专门服务于原生 AI 企业的公司，
+[Speaker 0]: 大多数都是初创企业，
+[Speaker 0]: 还没有上市。
+[Speaker 0]: 而在上市企业中，
+[Speaker 0]: 专门针对原生 AI 企业的并不多，
+[Speaker 0]: 我们只能找到那些原有业务和 AI，
+[Speaker 0]: 契合度本来就很高，
+[Speaker 0]: 依靠原生 AI 企业成为全新增长点的公司。
+[Speaker 0]: 目前比较典型的例子就是在上面提到的 mango DB，
+[Speaker 0]: 它的数据库对于 AI 原生企业有着一定的差异化优势。
+[Speaker 0]: 另一个例子也是上面提到的 data dog，
+[Speaker 0]: 他们这个季度财报后股价大涨了百分之三十，
+[Speaker 0]: 有很大一部分原因就是因为他们新增了两个大型 AI 的原生客户。
+[Speaker 0]: 另外我们之前说的云计算企业中，
+[Speaker 0]: 也有这么一家自称专门服务于 AI 原生客户的公司。
+[Speaker 0]:  digital ocean。
+[Speaker 0]: 目前，
+[Speaker 0]: 这三家是我能够找到和 AI 原生企业绑定较深的应用层公司，
+[Speaker 0]: 大家可以参考。
+[Speaker 0]: 好了，
+[Speaker 0]: 到这里。
+[Speaker 0]: 关于本次财报季 AI 应用层的洞察，
+[Speaker 0]: 就全部都跟各位看官交代完了。
+[Speaker 0]: 他们分别是，
+[Speaker 0]: 第一，
+[Speaker 0]: 互联网流量结构将会从由人主导，
+[Speaker 0]: 转而向由机器主导，
+[Speaker 0]: 并且总量将会有个巨大的提升。
+[Speaker 0]: 第二，
+[Speaker 0]: 企业内部大量使用 AI agent 会带来新的管理需求。
+[Speaker 0]: 第三，
+[Speaker 0]: 无脑充 AI 的时代结束了，
+[Speaker 0]: 企业们正在开始关注 AI 的 ROI。
+[Speaker 0]: 第四，
+[Speaker 0]:  AI 原生企业的集体崛起带来了不容忽视的商业机会。
+[Speaker 0]: 在这些前瞻趋势下，
+[Speaker 0]: 美投君给大家分别介绍了一些相关的受益公司。
+[Speaker 0]: 不过，
+[Speaker 0]: 咱各位也得清楚一家企业是否值得投资，
+[Speaker 0]: 绝不仅仅是粘上一个受益逻辑就可以决定的，
+[Speaker 0]: 我们还需要具体公司具体分析。
+[Speaker 0]: 咱今天这里重点是介绍趋势，
+[Speaker 0]: 个股分析，
+[Speaker 0]: 没有时间一一展开。
+[Speaker 0]: 但我可以承诺咱各位这里面的优质公司，
+[Speaker 0]: 我会持续的跟踪，
+[Speaker 0]: 未来还会逐一跟大家进行展开。
+[Speaker 0]: 我想接下来我和我的团队肯定是有的忙了。
+[Speaker 0]: 而如果你现在想要提前埋伏这类企业，
+[Speaker 0]: 我也想提醒咱各位一点，
+[Speaker 0]: 这些公司啊现阶段普遍都不受到市场的重视，
+[Speaker 0]: 毕竟现在市场关注的焦点都在 AI 基础层身上，
+[Speaker 0]: 所以他们的股价也相对比较疲软，
+[Speaker 0]: 短期的持股体验可能不会太好。
+[Speaker 0]: 但既然咱是挖掘前瞻机会，
+[Speaker 0]: 那这些就是咱投资者可能必须要承受的。
+[Speaker 0]: 而如果你想要更合理的埋伏机会，
+[Speaker 0]: 还有一些不错的期权策略，
+[Speaker 0]: 可以参考。
+[Speaker 0]: 比如说 risk reversal，
+[Speaker 0]: 它是一个非常典型的抄底埋伏股票的策略。
+[Speaker 0]: 这个策略有两大好处，
+[Speaker 0]: 一是对于现阶段表现疲软的个股来说，
+[Speaker 0]: 一旦情绪逆转，
+[Speaker 0]: 可以非常有效的利用 IV 的反转来获利。
+[Speaker 0]: 二是即便股价在短期内不涨，
+[Speaker 0]: 甚至继续下跌了一阵，
+[Speaker 0]: 你也不会有什么太大亏损，
+[Speaker 0]: 有非常高的容错空间。
+[Speaker 0]: 这个也是我个人在现阶段会考虑的超级手段。
+[Speaker 0]: 关于这个策略的详细用法，
+[Speaker 0]: 我在之前的一期主频道视频中详细介绍过，
+[Speaker 0]: 感兴趣的看官请点击右上角的卡片查看。
+[Speaker 0]: 而如果说你想要系统性的学习期权，
+[Speaker 0]: 自如的应对各种市场环境，
+[Speaker 0]: 那也不妨趁着现在六幺八期权课优惠活动，
+[Speaker 0]: 抓紧时间使用每套期权课优惠活动，
+[Speaker 0]: 还有最后两天感兴趣，
+[Speaker 0]: 看官要抓紧行动了，
+[Speaker 0]: 谢谢各位。
+[Speaker 0]: 如果你喜欢美头君的视频，
+[Speaker 0]: 别忘了点赞、
+[Speaker 0]: 关注和转发哦，
+[Speaker 0]: 谢谢大家。
