@@ -1,0 +1,976 @@
+[Speaker 0]:  how do you scare the reviewing process？
+[Speaker 0]:  because now that is blocking your senior engineers，
+[Speaker 0]:  it burns them out。
+[Speaker 0]:  one answer is don't do any code reviews at all。
+[Speaker 1]:  this is flluyum m toto AI，
+[Speaker 1]:  engineer exevia，
+[Speaker 1]:  and we discussed the biggest bottle neck and soft engineering right now，
+[Speaker 1]:  code reviews what you think of spectrum and development。
+[Speaker 1]:  which of these guardles gave you the most value？
+[Speaker 1]:  does it matter which matters i use get ocode by the clock code codex？
+[Speaker 0]:  it matter engimmenly ly see what employees are doing us that they give people a handgrry，
+[Speaker 0]:  which is AI and then say，
+[Speaker 0]:  don't blow up the hteronate，
+[Speaker 0]:  but use it。
+[Speaker 1]:  this is how the best engineers are solving the code of you bottoonic。
+[Speaker 1]:  right now。
+[Speaker 1]:  here's the full episode as we generate more code。
+[Speaker 1]:  this is ready in the build phase code review and becomes a bottle neck。
+[Speaker 1]:  i'm just come back from google IO。
+[Speaker 1]:  that was last week think when the sublule comes out couple weeks ago。
+[Speaker 1]:  and even there，
+[Speaker 1]:  google on the people，
+[Speaker 1]:  there are knowledge，
+[Speaker 1]:  a cocode reviews a bottom ck，
+[Speaker 1]:  and we don't know how to solve it。
+[Speaker 0]:  yeah，
+[Speaker 0]:  google was an interesting case because um and twenty twenty five，
+[Speaker 0]:  the already reported that fifty percent of the cotas II generated，
+[Speaker 0]:  then i pushing for seventy five percent。
+[Speaker 0]:  um i always like to look at the big players to see what they do，
+[Speaker 0]:  because on one side，
+[Speaker 0]:  you see all of these，
+[Speaker 0]:  a crazy numbers，
+[Speaker 0]:  like efficiency gains。
+[Speaker 0]:  um h。
+[Speaker 0]:  we automated our entire demployment there with the eye expodified it，
+[Speaker 0]:  for example，
+[Speaker 0]:  but very seldom，
+[Speaker 0]:  do you actually see how they do that right？
+[Speaker 0]:  so they report all of these gains。
+[Speaker 0]:  but then how do you translate that to your own work？
+[Speaker 0]:  um that part is often missing and for the big companies。
+[Speaker 0]:  i think so if if you look a little it，
+[Speaker 0]:  it about how know what they're published and what they're right，
+[Speaker 0]:  you can kind of see that they，
+[Speaker 0]:  they have like um an approach that priorititizers reviewing，
+[Speaker 0]:  no more like，
+[Speaker 0]:  it becomes most dendentidied because the've identified that um now that you can generate code very cheaply，
+[Speaker 0]:  you know，
+[Speaker 0]:  um the bottle neck is moving somewhere else。
+[Speaker 0]:  now some people，
+[Speaker 0]:  and this is another time，
+[Speaker 0]:  but some people would argue that writing code was never the bottlneck depends on on kind of，
+[Speaker 0]:  you know，
+[Speaker 0]:  do you see softwengining？
+[Speaker 0]:  but truth of the matter is you generate ted，
+[Speaker 0]:  ted smart code。
+[Speaker 0]:  so now you have more pressure on your reviewing uh on your engineers at sider。
+[Speaker 0]:  and um i think what the big companies are doing right now is they are combating that with um policies on reviews and amazon。
+[Speaker 0]:  for example，
+[Speaker 0]:  theyhave been some instances where there were outagious revenue loss due you。
+[Speaker 0]:  i generated code and then they put in policies in place where then i require some parts of the code or uh some parts of the systems that they have to be reviewed by senior engineers before anything i gets much or deployed。
+[Speaker 0]:  so they are identifying that。
+[Speaker 0]:  you know，
+[Speaker 0]:  for in cascases，
+[Speaker 0]:  i generated code。
+[Speaker 0]:  has we scrutinized um well stronger than another cases。
+[Speaker 0]:  um so you can see that。
+[Speaker 0]:  and at the same time，
+[Speaker 0]:  you see other company ties。
+[Speaker 0]:  so say，
+[Speaker 0]:  ok，
+[Speaker 0]:  we automatate or entire PR review process，
+[Speaker 0]:  they applying like this。
+[Speaker 0]:  um how would you say what i like to think about it as a little bit like there's a horizontal way of scaling a engineering and vertical one？
+[Speaker 0]:  okay，
+[Speaker 0]:  the horizontal one is where you automate like processes，
+[Speaker 0]:  your currently have like PR review like you can，
+[Speaker 0]:  you can say any PR that has created automately reviewed with copilit，
+[Speaker 0]:  for example，
+[Speaker 0]:  and that's what a lot of companies do。
+[Speaker 0]:  but then they don't really talk about how that improves the quality right？
+[Speaker 0]:  so the automating part of the human pipeline that we have what's in the vertical access，
+[Speaker 0]:  the vertical access is if you have a proproject and a small specialize team，
+[Speaker 0]:  um you let them build their own tooling to make sure that the product ships and um it's developed in the way that they intend to。
+[Speaker 0]:  um so they are more involved in building custom built environments for their coding engents and for the tune to deliver the software，
+[Speaker 0]:  like they don't have a blueprint that applies to their product automatically。
+[Speaker 0]:  they refined。
+[Speaker 0]:  yeah。
+[Speaker 1]:  and this is the i see us stacking at all of capabilities。
+[Speaker 1]:  so right，
+[Speaker 1]:  we have the model on one hand than the agent kind of harness around a model specifically，
+[Speaker 1]:  and you're to talk about an environment in which this agent harness operates。
+[Speaker 1]:  well，
+[Speaker 1]:  how should have view them，
+[Speaker 0]:  but maybe maybe should just go back one step。
+[Speaker 0]:  so we look at soft engineering。
+[Speaker 0]:  um i think it's a very establish process by now like if we think before the area of ai yeah softwt development lifecycle，
+[Speaker 0]:  everybody knows it。
+[Speaker 0]:  and part of what the review was stand by humans，
+[Speaker 0]:  and it would work because code wasn't delivered faster than you could could review it。
+[Speaker 0]:  that has changed，
+[Speaker 0]:  not with there。
+[Speaker 0]:  and so the question now becomes well，
+[Speaker 0]:  how do esscare the reviewing process right？
+[Speaker 0]:  because now that is blocking your seniior engineers，
+[Speaker 0]:  it burns them out their studies about that，
+[Speaker 0]:  where you know，
+[Speaker 0]:  cognit tive depth is growing，
+[Speaker 0]:  but people don't understand or their own code base，
+[Speaker 0]:  because they just don't have the time to look at everything，
+[Speaker 0]:  or they don't need want to look at the edge and eratcode。
+[Speaker 0]:  it's said dra。
+[Speaker 0]:  and so the the question is，
+[Speaker 0]:  how do you mitigate that？
+[Speaker 0]:  um and one answer is，
+[Speaker 0]:  don't do any culture reviews at all。
+[Speaker 0]:  okay。
+[Speaker 0]:  but then the next questions，
+[Speaker 0]:  how do you do that？
+[Speaker 0]:  so i think one way to do it is to engineer the environment in which the agents operate with um uh with intention so that you don't have to be the human in the loop to give the agent feedback on common things。
+[Speaker 0]:  and it's that with very simple things。
+[Speaker 0]:  so um like i've just let's a call tomatic automatic cold tommattic。
+[Speaker 0]:  we already had that or a security check，
+[Speaker 0]:  no lots of team faith，
+[Speaker 0]:  integrated tools like sona cube or something that gives your feedback that then a human would take and fix the code with。
+[Speaker 0]:  and with the feedback from those systems，
+[Speaker 0]:  agents can do that automatically。
+[Speaker 0]:  so if you provide agents feedback on what they're doing wrong and hopefully，
+[Speaker 0]:  as close as possible to where the agent actually generates the code，
+[Speaker 0]:  which means on the developers 's pptop，
+[Speaker 0]:  not necessarily and get up after your major commit or your pr，
+[Speaker 0]:  then you 're suddenly，
+[Speaker 0]:  in this world of way，
+[Speaker 0]:  you're trying to engineer feedback to the agents in the way that helps the agents to run for a long time without human intervention。
+[Speaker 0]:  so that's what i mean by builtting these types of environments。
+[Speaker 0]:  yeah。
+[Speaker 0]:  and i think it's very easy to get started with it。
+[Speaker 0]:  a lot of it will feel like，
+[Speaker 0]:  but we've been doing this before，
+[Speaker 0]:  but now you're giving the agent that feedback you're not taken as a human anymore，
+[Speaker 0]:  right？
+[Speaker 0]:  and some of the models are surprisingly，
+[Speaker 0]:  good itself，
+[Speaker 0]:  correct themselves once you pinpoint them what they did wrong and let the environment give that people yeah。
+[Speaker 1]:  does the harness in this equation？
+[Speaker 1]:  does it matter which harness i use gocopilooclock code codex h，
+[Speaker 0]:  yeah absoluum。
+[Speaker 0]:  um what in my experience，
+[Speaker 0]:  the harharmitters more than the model？
+[Speaker 1]:  okay。
+[Speaker 0]:  um i mean，
+[Speaker 0]:  the harness is what provides the tools what provides um sometime of prompting uh provides the memory layer and all of these things。
+[Speaker 0]:  um that then geum submitted to the LM to generate as bronds，
+[Speaker 0]:  for example，
+[Speaker 0]:  with the LM，
+[Speaker 0]:  you know，
+[Speaker 0]:  once uh a tool call，
+[Speaker 0]:  it said，
+[Speaker 0]:  right？
+[Speaker 0]:  the honets provides and the capability to execute the tool call for the LM。
+[Speaker 0]:  it met immensely。
+[Speaker 0]:  um i made an experiment and one of my projects where i tried to uh implement a tool basase on specifications。
+[Speaker 0]:  and tests。
+[Speaker 0]:  so i had a fualse weet of specifications like specification driand development。
+[Speaker 0]:  uh like many people like to do noday，
+[Speaker 0]:  say，
+[Speaker 0]:  like the ideas that uh，
+[Speaker 0]:  if you specify your product exactly enough and then unbe able to implement it the exactly according to specifications，
+[Speaker 0]:  which is ununforceate not true。
+[Speaker 0]:  uh but an attempt that i made and that failed。
+[Speaker 0]:  and then i thought，
+[Speaker 0]:  okay，
+[Speaker 0]:  what if i use ATDD idea and just generate me all of the behaviortests at front，
+[Speaker 0]:  and then let that be the feedback to the agent who tries to follow my specifications。
+[Speaker 0]:  and depending on the honest that i used it worked or didn't work in if i was using the top frontry model in both hnesses，
+[Speaker 0]:  okay，
+[Speaker 1]:  which which harnot gave you the best results？
+[Speaker 1]:  well，
+[Speaker 0]:  that keeps changing all the ts o um at that time，
+[Speaker 0]:  it was a cloud code。
+[Speaker 0]:  um now i would have said，
+[Speaker 0]:  i would say that shift ft to codex for implementation work。
+[Speaker 0]:  um but that's one of those things that's like a moving tiger，
+[Speaker 0]:  which is also one of the reasons why you can't really stop experimenting。
+[Speaker 0]:  um this is tendency for softwand unions to try to um systemize things and make it a process。
+[Speaker 0]:  and okay，
+[Speaker 0]:  this is those。
+[Speaker 0]:  i know the rules。
+[Speaker 0]:  i don't think that works。
+[Speaker 0]:  things are still moving too quickly。
+[Speaker 0]:  okay。
+[Speaker 0]:  maybe i should walk the bag liberit。
+[Speaker 0]:  it works at some level。
+[Speaker 0]:  but if you define in your policy，
+[Speaker 0]:  we must only use cloth code。
+[Speaker 0]:  um who knows what will happen when the next release comes out？
+[Speaker 0]:  yeah，
+[Speaker 0]:  it might be have completely different because the models have different court te and court personalities。
+[Speaker 0]:  ties like am are very good as instruction following others are very good at feeling in the gaps。
+[Speaker 0]:  if you don't provide enough conteaccess of human，
+[Speaker 0]:  so you need to be careful um which model use as well。
+[Speaker 0]:  yeah，
+[Speaker 1]:  i want to zoom me in on kind of what you recommend for harnesses。
+[Speaker 1]:  but before we do kind of following your trailer thought of spectrand development and solving kind of the cocode review process in that way，
+[Speaker 1]:  you may the TDD approach worked better than the specture and development approach with a model following instructions in that way。
+[Speaker 0]:  well，
+[Speaker 0]:  i would say，
+[Speaker 0]:  well，
+[Speaker 0]:  spectrraven was my first attempt，
+[Speaker 0]:  yeah。
+[Speaker 0]:  and that good didn't go。
+[Speaker 0]:  well，
+[Speaker 0]:  it was a typical。
+[Speaker 0]:  okay，
+[Speaker 0]:  i create the perfect prompt，
+[Speaker 0]:  and then the model does something different。
+[Speaker 0]:  i didn't intend，
+[Speaker 0]:  but when you give those the feedback，
+[Speaker 0]:  in addition to tell the model enes off track that worked for me in their particular incense。
+[Speaker 0]:  um and i would say，
+[Speaker 0]:  you know，
+[Speaker 0]:  those was those might be transferable to other project。
+[Speaker 0]:  but it really depends on the project，
+[Speaker 0]:  which again，
+[Speaker 0]:  brings us back to the quest to the to the need to be uh to be willing to experiment what works。
+[Speaker 1]:  yeah。
+[Speaker 1]:  and this feedback just so understand this is in an automated way，
+[Speaker 1]:  right？
+[Speaker 1]:  so you have specks，
+[Speaker 1]:  then you have execution。
+[Speaker 1]:  and it the feedback is not you telling what it did wrong，
+[Speaker 1]:  but what is that feedback？
+[Speaker 1]:  i could look like，
+[Speaker 0]:  uh exactly。
+[Speaker 0]:  so so um if when you using sing like CLIH tools，
+[Speaker 0]:  um you have the ability to uh feedback what is called，
+[Speaker 0]:  for example，
+[Speaker 0]:  a stop book。
+[Speaker 0]:  so when the agent is done with its work，
+[Speaker 0]:  yeah，
+[Speaker 0]:  the harness triggers uh in event，
+[Speaker 0]:  which is a stop hoook。
+[Speaker 0]:  and uh，
+[Speaker 0]:  you can wire that up to a shelscscpt that you're in，
+[Speaker 0]:  for example。
+[Speaker 0]:  so you can automate running your test，
+[Speaker 0]:  sweet or your guadrails。
+[Speaker 0]:  uh，
+[Speaker 0]:  i like to call them gudrails。
+[Speaker 0]:  and um they then you need to engineer your guatraate。
+[Speaker 0]:  so they actually output like natural language text。
+[Speaker 0]:  this is forbidden，
+[Speaker 0]:  do it in this in that way。
+[Speaker 0]:  so you basase the feedback and caused the prom that you would write as such human。
+[Speaker 0]:  um so then you trigger that。
+[Speaker 0]:  and then that trigger us uh that IM to continue um working on the thing。
+[Speaker 0]:  and you can pare，
+[Speaker 0]:  you know these feedbacs that you give with things like raroulooloop，
+[Speaker 0]:  um you know know cordex mechanured。
+[Speaker 0]:  and i have the goal um command，
+[Speaker 0]:  which really helps。
+[Speaker 0]:  so they will just keep running for long unonger until their fixed issue。
+[Speaker 1]:  yeah，
+[Speaker 1]:  so rough loops specifically allow you to run whatever you want to do in a loop，
+[Speaker 1]:  right？
+[Speaker 1]:  so goes es over。
+[Speaker 1]:  and this feedback mechanism would then be input。
+[Speaker 1]:  so in it，
+[Speaker 1]:  to get it right and to correcit go is something similar。
+[Speaker 0]:  uh the ideas，
+[Speaker 0]:  the same，
+[Speaker 0]:  the ideas，
+[Speaker 1]:  the same。
+[Speaker 1]:  yeah，
+[Speaker 0]:  um i don't know exactly what the implementation of goal looks like。
+[Speaker 0]:  yeah，
+[Speaker 0]:  it seems to be functiony fuinto into a rouve loop。
+[Speaker 1]:  and which of these guardials that you've put in place，
+[Speaker 1]:  you ve you the most value，
+[Speaker 1]:  you meant you linting already some security controls。
+[Speaker 1]:  you have more examples。
+[Speaker 0]:  yeah。
+[Speaker 0]:  so so i didn't know before，
+[Speaker 0]:  but i've since become a great fan of semantic grip。
+[Speaker 0]:  okay，
+[Speaker 0]:  yeah，
+[Speaker 0]:  because it allows you to um put reacies for things that it could catch and code，
+[Speaker 0]:  for example，
+[Speaker 0]:  certain type of code construact。
+[Speaker 0]:  um the example that i was give is um i don't want any default values in any of my methods and pyththon，
+[Speaker 0]:  for example，
+[Speaker 0]:  um you know，
+[Speaker 0]:  you can set default values um for parameters and python methods and in the secondof of method。
+[Speaker 0]:  and um this，
+[Speaker 0]:  in my experience is one of the greatest sources of frustration when you have to review and deep back the code later。
+[Speaker 0]:  so i just prevent that by putting a rule that deteacts these code patterns。
+[Speaker 0]:  and that then triggeers era，
+[Speaker 0]:  you must not write it in that way。
+[Speaker 0]:  it's against policy。
+[Speaker 0]:  so semantic grab is really flexible。
+[Speaker 0]:  and whenever i interrogate，
+[Speaker 0]:  they i about the code that it wrote，
+[Speaker 0]:  instead of reviewthe code myself，
+[Speaker 0]:  you know，
+[Speaker 0]:  some of these issues come up。
+[Speaker 0]:  why did you do that way？
+[Speaker 0]:  it doesn't make any sense。
+[Speaker 0]:  they immediately triggeus me。
+[Speaker 0]:  ok，
+[Speaker 0]:  let's add another gadrael rule for this particular type of pattern。
+[Speaker 0]:  so what then happens or time is，
+[Speaker 0]:  is 're your shaping your environment，
+[Speaker 0]:  you're iterating towards it to be tighter and titer to be lined with your preferences as a human，
+[Speaker 0]:  or how you think coach should look like？
+[Speaker 0]:  and part of that is not only taste um，
+[Speaker 0]:  but also you want to enforce that the AI generates tes code that is easy to n us and not for humans，
+[Speaker 0]:  even if you don't want to read it as a human，
+[Speaker 0]:  but also for AI，
+[Speaker 0]:  right code is context。
+[Speaker 0]:  that's why code quality matters。
+[Speaker 0]:  yes。
+[Speaker 0]:  and you just why caught something ah ah so not later，
+[Speaker 0]:  the i is going to confuse itself yeah，
+[Speaker 0]:  by the code。
+[Speaker 1]:  yeah，
+[Speaker 1]:  the sustainability of code basis has always been needs to be simple and easy to change。
+[Speaker 1]:  yes。
+[Speaker 1]:  and though that perspective hasn't changed with agents，
+[Speaker 1]:  we allow ourselves to generate more code in the code that is out。
+[Speaker 1]:  there might not be simple and might not be as easy to change。
+[Speaker 1]:  but we're like，
+[Speaker 1]:  well it，
+[Speaker 1]:  it works right。
+[Speaker 1]:  and the building on top of that might be quite brittal。
+[Speaker 0]:  yes。
+[Speaker 0]:  and uh well as humans also allow our ourselves this little exception or say，
+[Speaker 0]:  as long as this module lar doesn't matet of one of the modules as messy or something as long as it as isolated right。
+[Speaker 1]:  so behind abstractions。
+[Speaker 1]:  yes，
+[Speaker 1]:  yeah。
+[Speaker 0]:  and there's also something that i found with AI。
+[Speaker 0]:  if you keep your things modular，
+[Speaker 0]:  that helps a lot like，
+[Speaker 0]:  if you have very clear and boundaries between modules，
+[Speaker 0]:  if you have well defined interfaces that are not allowed to change，
+[Speaker 0]:  for example，
+[Speaker 0]:  um and and i would say that brings us to another um type of gateeria，
+[Speaker 0]:  which architectural constraints。
+[Speaker 0]:  so a lot of languages，
+[Speaker 0]:  they have architectural unitests there，
+[Speaker 0]:  like ununitest the exgood extremely quickly。
+[Speaker 0]:  they only look at，
+[Speaker 0]:  you know what dependencies exist between different modules of your copace，
+[Speaker 0]:  so they can analyze it very quick。
+[Speaker 0]:  and you can say，
+[Speaker 0]:  okay，
+[Speaker 0]:  prevent，
+[Speaker 0]:  um let's say the um let's say，
+[Speaker 0]:  what could you say the，
+[Speaker 0]:  the uh，
+[Speaker 0]:  the UI from accessing the data is directly，
+[Speaker 0]:  you could say，
+[Speaker 0]:  enforce that。
+[Speaker 0]:  it always has to go through the business logically or something like that。
+[Speaker 0]:  um and because they i also tends to make this weird into connection between modules that um human would would never do。
+[Speaker 0]:  or if you just let the i sign your system and then draw your plot of your system diagram，
+[Speaker 0]:  you will see the weird things that enrge you，
+[Speaker 0]:  or that you eeno them into um additional architecture ununites。
+[Speaker 0]:  yeah，
+[Speaker 0]:  which i would count as a another form of guaderate。
+[Speaker 1]:  is there anything that you would say？
+[Speaker 1]:  well，
+[Speaker 1]:  this is then still kind of part of the human responsibility that would not fit in automated guardrils。
+[Speaker 0]:  yes。
+[Speaker 0]:  so something i mean，
+[Speaker 0]:  if you look at soft engineering and we're going back with the tradition of doing it，
+[Speaker 0]:  it always used to be，
+[Speaker 0]:  okay。
+[Speaker 0]:  what do we want to build？
+[Speaker 0]:  how do we build it？
+[Speaker 0]:  how do we keep it maintainable right？
+[Speaker 0]:  um keeping the cold base clean and simple means we can go fast for a long time。
+[Speaker 0]:  and how do we do as well with architecture，
+[Speaker 0]:  right？
+[Speaker 0]:  we define the architecture up front，
+[Speaker 0]:  and then we started diving into the modules。
+[Speaker 0]:  how do we implement each other？
+[Speaker 0]:  i think that should still stay the same。
+[Speaker 0]:  the models are not there yet，
+[Speaker 0]:  whether they can do that on their own。
+[Speaker 0]:  and my workrow now includes first understand exactly what i want to build exactly so that there's no doubt and then sketching out how this might look as a software system um right？
+[Speaker 0]:  could be different services talking to each other，
+[Speaker 0]:  could be on a service level，
+[Speaker 0]:  your different modules talking to each other。
+[Speaker 0]:  um which functions do i need in the modules？
+[Speaker 0]:  so you specify pretty much tion entire architecture，
+[Speaker 0]:  accept the implementation。
+[Speaker 0]:  and once you have that，
+[Speaker 0]:  you can already encode that as rules，
+[Speaker 1]:  yeah，
+[Speaker 0]:  you know。
+[Speaker 0]:  so this，
+[Speaker 0]:  i think that's extremely important to um also to combat。
+[Speaker 0]:  um i think on show show people already talked about the cognitive discdents。
+[Speaker 0]:  um that comes from not rebeing being code where you don't understand your code base anymore，
+[Speaker 0]:  and you're not able less a human to reason about your code base anymore。
+[Speaker 0]:  that comes when you don't understand the architection anymore and how components stocto each other with nenew sofa system。
+[Speaker 0]:  um and yeah，
+[Speaker 0]:  you need to do everything to combat that as much as possible。
+[Speaker 0]:  yeah um but yeah，
+[Speaker 1]:  it's very hard for me to imagine where this is gona go，
+[Speaker 1]:  because i agree with you if i understand my software system，
+[Speaker 1]:  i feel like that's the skile that's really going to be remain for engineer specifically。
+[Speaker 1]:  and i do believe that the implementation were already automating，
+[Speaker 1]:  and i feel like with enough card rails，
+[Speaker 1]:  we can hold code reviewing to where only the essence potentially the behavior。
+[Speaker 1]:  i see people reviewing specifications。
+[Speaker 1]:  that will then also remain。
+[Speaker 1]:  but if i put myself in the seto and engineer，
+[Speaker 1]:  maybe someone that's listening who was in a bigger organization，
+[Speaker 1]:  you might not already know your system，
+[Speaker 1]:  then it's quite difficult to be like，
+[Speaker 1]:  okay，
+[Speaker 1]:  piece of the puzzle in advance there。
+[Speaker 1]:  we know how how to d there or how much investigation do i need to do？
+[Speaker 1]:  that's all work that would happen up front now and potentially before AI，
+[Speaker 1]:  you would do that kind of as you go and you would iterate and you would improve that way of working is now different。
+[Speaker 0]:  yeah um it's very，
+[Speaker 0]:  very，
+[Speaker 0]:  very difficult to be messsain your approach now ah，
+[Speaker 0]:  which is very why people find it。
+[Speaker 0]:  what i would say，
+[Speaker 0]:  why some people might resist it，
+[Speaker 0]:  because you know，
+[Speaker 0]:  doing all the hard work up front，
+[Speaker 0]:  right？
+[Speaker 0]:  you not uh just discovering，
+[Speaker 0]:  as you just said，
+[Speaker 0]:  as you go，
+[Speaker 0]:  you're doing all the hard work up front。
+[Speaker 0]:  um you probably have to do a couple of iterations on you on what your implementation to get a better idea of how good actually looks like。
+[Speaker 0]:  um so that's not uncommon，
+[Speaker 0]:  but you can do that with wife coding。
+[Speaker 0]:  yeah，
+[Speaker 0]:  right？
+[Speaker 0]:  and i think that is that is going to be that you normal for for time to come before things change change again。
+[Speaker 0]:  but the interesting part is that you know，
+[Speaker 0]:  always asked people。
+[Speaker 0]:  well，
+[Speaker 0]:  how could you develop software if you didn't know what you wanted to build？
+[Speaker 1]:  yeah，
+[Speaker 0]:  right。
+[Speaker 0]:  that's also not possible。
+[Speaker 0]:  so you're doing the same work。
+[Speaker 0]:  now。
+[Speaker 0]:  it's just that you're doing it up front，
+[Speaker 0]:  right？
+[Speaker 0]:  it might feel more intense，
+[Speaker 0]:  more involved。
+[Speaker 0]:  but that also means that this is becoming its own discipline。
+[Speaker 0]:  and um when people think about you know what should junior enginees do do that，
+[Speaker 0]:  i can generate ate all the code。
+[Speaker 0]:  i would say，
+[Speaker 0]:  well，
+[Speaker 0]:  this is clearly something that can learn。
+[Speaker 0]:  that's an invivable skill。
+[Speaker 0]:  yeah，
+[Speaker 1]:  right？
+[Speaker 1]:  i've seen the best software engineers kind of fall into two categories。
+[Speaker 1]:  the ones were like you mentioned someone had to build something，
+[Speaker 1]:  and i saw them staare at their screen。
+[Speaker 1]:  this was still before coveit。
+[Speaker 1]:  while we i worked at the office five days week，
+[Speaker 1]:  and i saw them with kind of pencil and paper，
+[Speaker 1]:  and he was like writing stuff and drawing things out before even doing any hands on yeah。
+[Speaker 1]:  and knows that's a very interesting skskill，
+[Speaker 1]:  then then saw w people people thetheylike。
+[Speaker 1]:  it's very hard for me。
+[Speaker 1]:  imagine，
+[Speaker 1]:  and i have to start typing，
+[Speaker 1]:  but then they're still fascinating an extremely effective in the way they operate，
+[Speaker 1]:  but it's completely like the inverse of what the first engineer would do。
+[Speaker 0]:  absolutely。
+[Speaker 0]:  and the cool thing is that if you allow yourself to do that，
+[Speaker 0]:  like to do the prototyping to go in this discovery before you put your specifications，
+[Speaker 0]:  not intestand。
+[Speaker 0]:  but before you'll kind of say，
+[Speaker 0]:  okay，
+[Speaker 0]:  this is what we want to build um is that it's all incredibly rewarding。
+[Speaker 0]:  uh，
+[Speaker 0]:  i really enjoy that um because um you really feel the speed that i gives you when you iterate through ideas，
+[Speaker 0]:  um i often times find myself talking to an iphone one hour，
+[Speaker 0]:  just explore this idea。
+[Speaker 0]:  and maybe attanged idea，
+[Speaker 0]:  and that may be i should have gone on，
+[Speaker 0]:  but 嗯 it teaches you so much about how you can think about systems um and it also eleates US an engineer because now you not only thinking about okay，
+[Speaker 0]:  how do i implement this？
+[Speaker 0]:  but you also think about what do we actually need，
+[Speaker 0]:  right？
+[Speaker 0]:  what does the customer need？
+[Speaker 0]:  so the um you can see that i think engineers get much more elevated。
+[Speaker 0]:  they start to think at that product level much more now um because of that。
+[Speaker 0]:  and that's just going to continue versus before they thinking about。
+[Speaker 0]:  okay。
+[Speaker 0]:  but how do we write this uncode？
+[Speaker 1]:  how's ve been for you because a lot of engineers i talk to when they parallezed work。
+[Speaker 1]:  there's a lot of stuff going up here in terms of thinking，
+[Speaker 1]:  an execution power，
+[Speaker 1]:  all of sudden，
+[Speaker 1]:  and at the of they they're exhausted。
+[Speaker 0]:  yeah，
+[Speaker 0]:  um while the burn out because you're constantly um exposed to simuar and and 're constantly contets switching，
+[Speaker 0]:  because they，
+[Speaker 0]:  i takes twenty minister respond you。
+[Speaker 0]:  that's real。
+[Speaker 0]:  that's absolutely real。
+[Speaker 0]:  uh，
+[Speaker 0]:  talk to a develoveloper last week and said on ondce，
+[Speaker 0]:  he spread out。
+[Speaker 0]:  it's just 's just spressed just just on standby because he's conrently reacting all the time。
+[Speaker 0]:  i think that's one hundred percent real as with anything。
+[Speaker 0]:  i think the way to combat that is a discipline。
+[Speaker 0]:  well，
+[Speaker 0]:  okay，
+[Speaker 0]:  the first of us suit，
+[Speaker 0]:  you have to aware of what you're doing。
+[Speaker 0]:  but you also learn how to interleve task，
+[Speaker 0]:  maybe on the same project that y're different things，
+[Speaker 0]:  things。
+[Speaker 0]:  so the the work on the environment that guides the agent。
+[Speaker 0]:  that's its own project。
+[Speaker 0]:  besides the extra project that you tried to build。
+[Speaker 0]:  so。
+[Speaker 0]:  and i keep iterating between the two。
+[Speaker 0]:  so when i'm waiting for an agent to complete something，
+[Speaker 0]:  because i want to see what it what it does or how it did。
+[Speaker 0]:  um i would just switch or something else，
+[Speaker 0]:  i might start another session with a different agent on the same code base and start interrogating the agent about the code base。
+[Speaker 0]:  and so i stay kind of in the same context，
+[Speaker 0]:  but i don't switch between project as hard。
+[Speaker 0]:  yeah。
+[Speaker 0]:  and if i don't do that，
+[Speaker 0]:  one answer happening is that i keep have to type in the session。
+[Speaker 0]:  now please tell me，
+[Speaker 0]:  what did we do in the last hf hour？
+[Speaker 0]:  so i just it has remmind me what it it。
+[Speaker 2]:  and um 嗯嗯，
+[Speaker 0]:  it's weird，
+[Speaker 0]:  sometimes one hundred percent。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i saght cloccod does that automatically？
+[Speaker 1]:  now if you're out of a session for too long gigives，
+[Speaker 1]:  you like a summary about you，
+[Speaker 1]:  so you don't have to ask anymore。
+[Speaker 1]:  yeah，
+[Speaker 1]:  there。
+[Speaker 1]:  maybe some UX problem。
+[Speaker 1]:  there's solving the i think，
+[Speaker 1]:  ownership。
+[Speaker 1]:  and we only mentioned cognitive debt is going to be a very crucial topic that the syingwich is kind of engineers that the really maybe care about this craft or about their work。
+[Speaker 1]:  and also，
+[Speaker 1]:  i spoke with audios money last week。
+[Speaker 1]:  can you mentioned this mushroom，
+[Speaker 1]:  which which i hadn't heard of which he mentioned cognitive surrender，
+[Speaker 1]:  where people are like the agent just takes the wheel。
+[Speaker 1]:  and if it's the problem，
+[Speaker 1]:  it's the agents fall。
+[Speaker 1]:  and if it works also the agent，
+[Speaker 1]:  but well，
+[Speaker 1]:  then it's illibiin me，
+[Speaker 1]:  but they really that just let go go of，
+[Speaker 1]:  they they responsible for。
+[Speaker 1]:  and i feel like that's quite risky in the way we are evolving。
+[Speaker 1]:  i think conversations like you and i are having our incredibly important to give people perspective and to also challenge what goes away and what remains as part of your accountability，
+[Speaker 0]:  absolutely。
+[Speaker 0]:  and um the funny thing is，
+[Speaker 0]:  uh basy，
+[Speaker 0]:  what employees are doing is they they give people a hand rate，
+[Speaker 0]:  which is AI。
+[Speaker 0]:  and then say，
+[Speaker 0]:  don't blow up the hand rate，
+[Speaker 0]:  but use it right。
+[Speaker 0]:  um。
+[Speaker 0]:  so there's a lot of us what they i，
+[Speaker 0]:  but all of that is going to be standardized。
+[Speaker 0]:  they're going a be policies on what you are allowed to do and what not what AI and the the example gave with amazon，
+[Speaker 0]:  right？
+[Speaker 0]:  they already made a policy distinction between your code that is more critical than alcocod and how that should be reviewed。
+[Speaker 0]:  so we just going to see the same thing and just going to be another um um i guess，
+[Speaker 0]:  form of the part of the process for soft engineers，
+[Speaker 0]:  right？
+[Speaker 0]:  where um you have to define stuff where if you just want to yellow it。
+[Speaker 0]:  okay，
+[Speaker 0]:  let's not touch the building system。
+[Speaker 0]:  please。
+[Speaker 0]:  um i think that's going to be normal pretty soon。
+[Speaker 0]:  and yeah。
+[Speaker 0]:  and also um a lot of the reyou work that we don't wanted，
+[Speaker 0]:  do the junes，
+[Speaker 0]:  we can outsus to AI as well。
+[Speaker 0]:  so the the idea of not doany code rereview comes，
+[Speaker 0]:  i memeit's kind kind like like a loadideidea，
+[Speaker 0]:  right？
+[Speaker 0]:  but when you attempt to do that there，
+[Speaker 0]:  a lot of ereralizations has come with it，
+[Speaker 0]:  right？
+[Speaker 0]:  their cheap wins like godwls，
+[Speaker 0]:  right that are deterministic，
+[Speaker 0]:  they'd exegood，
+[Speaker 0]:  cheaped and quickly。
+[Speaker 0]:  and then the conversation shifts towards architecture and specifications and more validating specifications up front，
+[Speaker 0]:  then you know the cold later。
+[Speaker 0]:  and likewise，
+[Speaker 0]:  even when you have to review the architecture later as a human，
+[Speaker 0]:  you can still use a eye for that，
+[Speaker 0]:  right？
+[Speaker 0]:  you have a conversation with the eye，
+[Speaker 0]:  maybe have specispecializagent um that you um particularly set up to review for any violation of a specific type of um architecture that you trying to implement in your project。
+[Speaker 0]:  so you can also um do an automatic scan over all of your changes，
+[Speaker 0]:  call changes with a ee e，
+[Speaker 0]:  then then use that at the point to start looking into it as human。
+[Speaker 0]:  um right？
+[Speaker 0]:  so you can still automate a lot。
+[Speaker 0]:  and it's really just about okay。
+[Speaker 0]:  where should i look？
+[Speaker 0]:  where don't i have to look？
+[Speaker 0]:  yeah，
+[Speaker 0]:  otherwise i don't see how how we're going to scale the review part。
+[Speaker 0]:  the code generation is ten times fast or hundred times faster。
+[Speaker 0]:  the pressure is going to be on all of the system that come down stream from that absolutely。
+[Speaker 0]:  and part of that is the review with the human man，
+[Speaker 0]:  the the loop。
+[Speaker 0]:  so we have to try to minimize ze that much，
+[Speaker 0]:  much as can。
+[Speaker 1]:  yeah ah the i feel like the input we can likely skill faster，
+[Speaker 1]:  right？
+[Speaker 1]:  we can just execute on more ideas。
+[Speaker 1]:  the reviewing things in production with different tests。
+[Speaker 1]:  the reviewing process is really the challenges。
+[Speaker 1]:  some of the things that you mentioned。
+[Speaker 1]:  i do see those as ingredients that kind of solving this puzzle，
+[Speaker 1]:  that is the coat viewing processing，
+[Speaker 1]:  not having a human in the loop at all。
+[Speaker 1]:  if that's the let's say the big goal that we're working towards，
+[Speaker 1]:  even though it might not be feasible now with the models we have，
+[Speaker 1]:  i do see guarrials in there。
+[Speaker 1]:  i do see catering as much as you can。
+[Speaker 1]:  behavior functionality。
+[Speaker 1]:  the intetests don't don't think there should be any reason to not write a test anymore because you can just generate the test according to the behavior that you want，
+[Speaker 1]:  right？
+[Speaker 1]:  if you solve a bug，
+[Speaker 1]:  right，
+[Speaker 1]:  if you make make a test of that，
+[Speaker 1]:  that was already good practice，
+[Speaker 1]:  but there's no reason to not do that anymore nowadays that。
+[Speaker 1]:  so that's a trend。
+[Speaker 0]:  yes。
+[Speaker 0]:  and what also people don't people also often forget，
+[Speaker 0]:  is that generating a test the small piece of code，
+[Speaker 0]:  the chance of the eleven，
+[Speaker 0]:  not doing it right are much smaller than when you tell the eleven generate me microsofts。
+[Speaker 0]:  yeah，
+[Speaker 0]:  right？
+[Speaker 0]:  so that's also another point um that i think helps when you write adaddress，
+[Speaker 0]:  because if you even if you generate them automatically，
+[Speaker 0]:  which is what i do um the chances of failure are relatively slim。
+[Speaker 1]:  um i have seen and spoken to other teams，
+[Speaker 1]:  and they 're want to have them on the boycast。
+[Speaker 1]:  they have fully adopted specture and development。
+[Speaker 1]:  despite their workflow。
+[Speaker 1]:  they use one of the specification frameworks，
+[Speaker 1]:  and they're very happy with their approach。
+[Speaker 1]:  that's i want to have them on the boycast，
+[Speaker 1]:  but they mentioned that they have not built 我的好的，
+[Speaker 1]:  i think my assumption got the the garbils like you，
+[Speaker 1]:  and i are discussing within their code review prois。
+[Speaker 1]:  what have have done is their review process now very much revolves around the specificand。
+[Speaker 1]:  and that is what rewed that is what what is reviewed。
+[Speaker 1]:  and i do think they have some gargarbils in place to make sure that whatever in the specification is also translated in code in a certain way。
+[Speaker 1]:  for me，
+[Speaker 1]:  there's only kind of the the risky part，
+[Speaker 1]:  which is the non determinisst behavior that can be in there。
+[Speaker 1]: 嗯，
+[Speaker 1]:  but i think that's an interesting approach。
+[Speaker 0]:  yes，
+[Speaker 0]:  and uactually good that you mentioned because because gararais got not also mean just a prompt，
+[Speaker 0]:  right？
+[Speaker 0]:  um that's i think how gaterail sounds started to be defined if i'm not mistaken，
+[Speaker 0]:  but they can be determinising as well。
+[Speaker 0]:  the spspecification of a development approach。
+[Speaker 0]:  i really like that，
+[Speaker 0]:  but mostly because it gives a human clarity of what is being built。
+[Speaker 0]:  um if you give that to an lm and you observe what it does，
+[Speaker 0]:  you'll be surprised that after five minutes already，
+[Speaker 0]:  that's to deviate from your attentions because you didn't specify something clear enough or it there was some room for interpretation anywhere。
+[Speaker 0]:  so you can interate on on your specification，
+[Speaker 0]:  trying to get it perfect，
+[Speaker 0]:  then is switch tommoto，
+[Speaker 0]:  and it doesn't work anymore。
+[Speaker 1]:  um so does this mean for you？
+[Speaker 1]:  your perspective？
+[Speaker 1]:  what do you think of spectrtive and development？
+[Speaker 1]:  is it something that works now？
+[Speaker 1]:  but it's gona go for gone in the future。
+[Speaker 1]:  how do you see that？
+[Speaker 1]:  well，
+[Speaker 0]:  i think that is part of um that is covery product a process of what what you're trying to build。
+[Speaker 0]:  um i think it's i'm treme extreme important to have that um um that，
+[Speaker 0]:  that can also be used auautomated test test later like checking。
+[Speaker 0]:  do we did we actually do this？
+[Speaker 0]:  how did we do this？
+[Speaker 0]:  did we do this in accordance to our calding principles，
+[Speaker 0]:  right？
+[Speaker 0]:  those are question。
+[Speaker 0]:  you can then give to an II to an investigate，
+[Speaker 0]:  so the specks will stay there。
+[Speaker 0]:  um people like to go uh in death is specifications like they treated as if it was cold。
+[Speaker 0]:  it's not um right。
+[Speaker 0]:  it's just a document of shed understanding。
+[Speaker 0]:  i would say that's specifies no part of their behavior，
+[Speaker 0]:  part of what is being built。
+[Speaker 0]:  i think a fine rain behavior specification of whatever you're building is much more important。
+[Speaker 0]:  um there was this idea of TDD，
+[Speaker 0]:  where if you have um all of your tests and your software gets deleted，
+[Speaker 0]:  but you still off your test，
+[Speaker 0]:  you can rerebuilt your software。
+[Speaker 0]:  that was one of the ideas of TDD。
+[Speaker 0]:  and but i've seen it worked for the very first time when i had behavial tests implemented，
+[Speaker 0]:  that would give the agent feedback。
+[Speaker 0]:  and i had a specification as prompt to start the implementation。
+[Speaker 0]:  that was the very first time in my life。
+[Speaker 0]:  i had seen this extra work，
+[Speaker 0]:  but in my in my project，
+[Speaker 1]:  that's still quite incredible。
+[Speaker 1]:  i wonder if with existing code bases，
+[Speaker 1]:  right？
+[Speaker 1]:  if the duus courage in theory，
+[Speaker 1]:  a lot of this is an theory，
+[Speaker 1]:  which is why it's quite the challenge。
+[Speaker 1]:  but i wonder if，
+[Speaker 1]:  indeed，
+[Speaker 1]:  if you would throw out the code，
+[Speaker 1]:  if people have been doing TDD in that code days for quite a while，
+[Speaker 1]:  if an AI indeed can then generate the code exactly how it is according to the behavior that was captured。
+[Speaker 0]:  yeah，
+[Speaker 0]:  if you have some ticto to burn，
+[Speaker 1]:  you can try that over the weekend。
+[Speaker 1]:  that seems like an interesting experiment。
+[Speaker 1]:  but i have noticed is that also，
+[Speaker 1]:  the bigger companies previously before ai engenentics ofofer engineering，
+[Speaker 1]:  i feel like they were trailblazing in a lot of smaller organizations were looking up to good practices，
+[Speaker 1]:  best practices，
+[Speaker 1]:  conventions and block bosts of what is out there。
+[Speaker 1]:  and what's happening right now，
+[Speaker 1]:  i feel like the playing field is quite equal，
+[Speaker 1]:  because everything is very quickly evolving youalready mentioned。
+[Speaker 1]:  um over a few months harnesses and their capabilities is is now possiing what is effective and all of us on what is now possible，
+[Speaker 1]:  which gives us a very interesting playing field to experiment with。
+[Speaker 0]:  how do you typically experiment to educate yourself here had a concert trying to catch up feeling behind type of thing。
+[Speaker 0]:  but i think that's not if everybody who's trying to keep up with things。
+[Speaker 0]:  so i like to use projects。
+[Speaker 0]:  i have a couple ple different projects that are on a different scale of one project that is purely vicocoded puly。
+[Speaker 0]:  ly have never looked at the code。
+[Speaker 0]:  i've only prompted it to the stuff i've one project that is ACI projethat is that's the one that i used for the TDTDD approach with a vvior ficficbevvior test the sydraes。
+[Speaker 0]:  um where i test that type of approach。
+[Speaker 0]:  i have um another project that consists of multiple micro services，
+[Speaker 0]:  which is much compleplex，
+[Speaker 0]:  which mostly ly cts driven em。
+[Speaker 0]:  and i keep adding features to them using these different methodologies that i set up for this project。
+[Speaker 0]:  and just observe，
+[Speaker 0]:  what does say i do。
+[Speaker 0]:  what does it do wrong？
+[Speaker 0]:  it's etra and more often than not。
+[Speaker 0]:  i see they i do something weird and then make i make that immediately part of my default datrails。
+[Speaker 0]:  um so i kind of have a repository。
+[Speaker 0]:  we have a default project setups for different languages，
+[Speaker 0]:  and that preloaded with a certain type of guddfs that i found useful in the project that i do。
+[Speaker 0]:  so the experimenmentation involves a lot of communicating with the LNM。
+[Speaker 0]:  um i really found it useful to ask the LM to explain itself。
+[Speaker 0]:  so if if i give it a complex task to believe what IS is，
+[Speaker 0]:  please tell me what you understanding is of what we are trying to do very simple question。
+[Speaker 0]:  so i'm trying to find out what the model and understood what i said versus what i said，
+[Speaker 0]:  and you can see how models interpret things differently。
+[Speaker 0]:  and that gives you an idea of，
+[Speaker 0]:  you know，
+[Speaker 0]:  personalities is too far，
+[Speaker 0]:  but it's sort of time。
+[Speaker 0]:  you know what type of personality does this model exhibit like？
+[Speaker 0]:  well，
+[Speaker 0]:  what type of behavior does it exhibit probably the better uh，
+[Speaker 0]:  turm to usia。
+[Speaker 0]:  so i do that a lot。
+[Speaker 0]:  um i to try out the latest tools that i give us like when sub agents came。
+[Speaker 0]:  i tried that out。
+[Speaker 0]:  um i concluded that i have zero visibility about what the agents are doing，
+[Speaker 0]:  like what are they communicating with？
+[Speaker 0]:  i have no introspection。
+[Speaker 0]:  but so then what i would do is i try to have introspecction to that。
+[Speaker 0]:  and i built own，
+[Speaker 0]:  so can assist them where i told ted agent，
+[Speaker 0]:  please，
+[Speaker 0]:  please orn a sub agenent，
+[Speaker 0]:  but do it in a different term out。
+[Speaker 0]:  so i can actually see what you sent to that different agent。
+[Speaker 0]:  and yeah，
+[Speaker 0]:  well，
+[Speaker 0]:  you'll see the weittest things that the modest tell each other，
+[Speaker 0]:  right？
+[Speaker 0]:  you can already see how the model started deviate like at the first step when the hand of ttasit ttum。
+[Speaker 0]:  um so trying to look under the hole as much as possible。
+[Speaker 0]:  what information gets exchange，
+[Speaker 0]:  ged monitoring，
+[Speaker 0]:  what the agents to win。
+[Speaker 0]:  they talk each other。
+[Speaker 0]:  i think those are incredible important things for the acrustration itself。
+[Speaker 0]:  and i learned a lot the most from looking at those types of things，
+[Speaker 0]:  of what the models doing，
+[Speaker 0]:  how they talk to each other。
+[Speaker 0]:  so i think that is how i explain most of the time to refine my understanding of the models do and also trying to apply。
+[Speaker 0]:  you know what they give us in terms of tools is someone's listening。
+[Speaker 1]:  and they want to apply ly genentics soft engineering to their own way of work，
+[Speaker 1]:  way of working some piece of goat that is already live in production，
+[Speaker 1]:  and likely the team is already adopted some taxes or not at all。
+[Speaker 1]:  and they want to kep start something，
+[Speaker 0]:  what a step one that you would recommend for an individual development of somebody。
+[Speaker 1]:  and they could be within a team。
+[Speaker 1]:  i think that's the most for an profound case。
+[Speaker 0]:  um i would say sisimpleicing is start with gaterats um static checks，
+[Speaker 0]:  or they should have，
+[Speaker 0]:  of course，
+[Speaker 0]:  code formatter。
+[Speaker 0]:  you should have lyinta um try to write some sam grap rules that enforce some of the best practices that you see in your code pase。
+[Speaker 0]:  you can ask a eye。
+[Speaker 0]:  for example，
+[Speaker 0]:  what are some antipatterns that we use in the code pace？
+[Speaker 0]:  um right，
+[Speaker 0]:  a simple test that flects them。
+[Speaker 0]:  um um if you work in a team，
+[Speaker 0]:  have a team discussion，
+[Speaker 0]:  you know um if you get resistance，
+[Speaker 0]:  well，
+[Speaker 0]:  then try the next next best thing。
+[Speaker 0]:  it's really difficult to convert people were not um buying into the ideas of trying to improve the cold based by stream，
+[Speaker 0]:  and i streamlining it with tests or with guidrills。
+[Speaker 0]:  but you can run all of these things on your local machine。
+[Speaker 0]:  you don't have to enforce everybody to use it，
+[Speaker 0]:  but you can use it for a code that you 're write yourself。
+[Speaker 0]:  you know，
+[Speaker 0]:  you compare up with a smart scrip that checks，
+[Speaker 0]:  whether you created that file or somebody else and where you enforce your guterarurules。
+[Speaker 0]:  um and the key point is you should measure or at least get an impression of how works with those guidewords said you put in place versus without them。
+[Speaker 0]:  um because once to see that，
+[Speaker 0]:  they actually help you do more work and be less in the loop。
+[Speaker 0]:  you will not go back。
+[Speaker 0]:  i don't think it's yeah becomes really convenient to not have to worry about that entibbaby at the model all the time。
+[Speaker 1]:  i can see that right？
+[Speaker 1]:  this term。
+[Speaker 1]:  babysitting，
+[Speaker 1]:  i'm trying to get rid of in the conversations that i have with people，
+[Speaker 1]:  and i'm trying to figure out what the best way is。
+[Speaker 1]:  it could be indeed kind of experimenting and going into this cycle of continuous as improvement。
+[Speaker 1]:  and it could be you catching behavior as you want as guard rails for the agent to then pick up and do something with。
+[Speaker 1]:  and it can also be feeback that you get from your team，
+[Speaker 1]:  right？
+[Speaker 1]:  and you can be feeent create a poor request，
+[Speaker 1]:  then this feedback from your team。
+[Speaker 1]:  yes，
+[Speaker 1]:  it can also then catch ing that in more card drals。
+[Speaker 0]:  and that's also another idea。
+[Speaker 0]:  so what you can do is you can just essay。
+[Speaker 0]:  i hey，
+[Speaker 0]:  analyze my session loks on this project ct。
+[Speaker 0]:  it'll go into uh homeforder dot claud and will start looking at all of your conversations。
+[Speaker 0]:  and you can ask if you see any um patterns where had to repeatedly remind you of a certain thing，
+[Speaker 0]:  uh，
+[Speaker 0]:  so you can atammine your session locks to see where the model goes wrong，
+[Speaker 0]:  where you also have to correct it turn that into a static check，
+[Speaker 0]:  right？
+[Speaker 1]:  this feels like a product that it would want to have yeah，
+[Speaker 1]:  which is actually not a better。
+[Speaker 0]:  yeah，
+[Speaker 0]:  well，
+[Speaker 0]:  actually it's it's skskill。
+[Speaker 0]:  you can just use a skill，
+[Speaker 0]:  ill it。
+[Speaker 0]:  it tell us to write you that skill。
+[Speaker 0]:  it's it's easy。
+[Speaker 0]:  it takes like fifty minutes，
+[Speaker 1]:  and then you can use it absolutely early。
+[Speaker 1]:  we mentioned different harnesses might have different results。
+[Speaker 1]:  yeah，
+[Speaker 1]:  and in organizations and people just get one harness。
+[Speaker 1]:  and that's right，
+[Speaker 1]:  we've gone all in on guitocopa because as all the models you know，
+[Speaker 1]:  but it's only one harness。
+[Speaker 1]:  and would you recommend to either those those or or those organizations？
+[Speaker 0]:  that's a really difficult one。
+[Speaker 0]:  if you can choose your tools as in developer。
+[Speaker 0]:  i don't think any developers is really going to be happy with that。
+[Speaker 0]:  um i think education would help in that case。
+[Speaker 0]:  you know um i mean，
+[Speaker 0]:  that studies out there the compare hnesses。
+[Speaker 0]:  um we have enough edievidence suggest that relying on one particular uh tool。
+[Speaker 0]:  um it's not going to keep us at the edge。
+[Speaker 0]:  so theare lots of arguments to be made。
+[Speaker 0]:  i understand that organization，
+[Speaker 0]:  you know，
+[Speaker 0]:  i have this desire tendency，
+[Speaker 0]:  just just standardized things。
+[Speaker 0]:  but it's not like you select a product and then you run with it for five years。
+[Speaker 0]:  that's not how i works。
+[Speaker 0]:  and um that just needs understanding of what i actually means。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i feel like that's that missing right？
+[Speaker 1]:  because the we are now beyond models specifically and the harness might matter more than the models itself。
+[Speaker 1]:  yeah paper。
+[Speaker 1]:  i think it's easy to understand itself because that's we've been talking about that for a long，
+[Speaker 1]:  long time，
+[Speaker 1]:  right？
+[Speaker 1]:  it's been two，
+[Speaker 1]:  three years right now。
+[Speaker 1]:  we've gone continues iterations models ls。
+[Speaker 1]:  now i feel like more so this year，
+[Speaker 1]:  maybe even an end of last year。
+[Speaker 1]:  the conversations about harnesses really started arising。
+[Speaker 1]:  yes。
+[Speaker 0]:  well，
+[Speaker 0]:  there's another thing you can do as a solo developer try to find out at what things you particular honess is good。
+[Speaker 0]:  um maybe it's it is at，
+[Speaker 0]:  you know，
+[Speaker 0]:  writing poll request documentation。
+[Speaker 0]:  um it's three good of debugging。
+[Speaker 0]:  try try to find as a use cases where you can still use it in，
+[Speaker 0]:  then you use it for that。
+[Speaker 1]:  yeah，
+[Speaker 1]:  absolutely for the people listening。
+[Speaker 1]:  i'm trying to do this new thing because i want your advice on what experiment you want people to run if they have a weak time，
+[Speaker 1]:  and they can do one experiment as kind of their budget of time they have。
+[Speaker 1]:  what would you want them to do an experiment with？
+[Speaker 0]:  well，
+[Speaker 0]:  that depends on where you are in the organization。
+[Speaker 0]:  i'll say。
+[Speaker 0]:  but for developers，
+[Speaker 0]:  i mean，
+[Speaker 0]:  there couple of option and depends on what you want。
+[Speaker 0]:  do you want to get better at agentic engineering like working with ei？
+[Speaker 0]:  do you want to get better at putting your guide rails？
+[Speaker 0]:  you want to get better at understanding how the models behave。
+[Speaker 0]:  so that that's the first question。
+[Speaker 0]:  but what you want，
+[Speaker 0]:  there's the infinite of many different options of what to do。
+[Speaker 0]:  um i would recommend if you want to get started with godrails start looking at semantic grip。
+[Speaker 0]:  let's try to encode some of your human feedback that you would give in APR as a rule and the example that they have earlier with notifed values and method parameters that could be one example。
+[Speaker 0]:  another one could be。
+[Speaker 0]:  um okay。
+[Speaker 0]:  let's never follow any errors。
+[Speaker 0]:  and was any error must always be propagted something like that。
+[Speaker 0]:  um just start with experimenting with and and see um you your asian react on that environment。
+[Speaker 0]:  so um setting up，
+[Speaker 0]:  i think the gud rails so that you can start to improve them and iterate on them。
+[Speaker 0]:  i think that's very worthwhile。
+[Speaker 0]:  and you will see，
+[Speaker 0]:  i would argue that you will see wins very quickly。
+[Speaker 0]:  even though you might does first things you have，
+[Speaker 0]:  but we had does steady cochecks。
+[Speaker 0]:  first。
+[Speaker 0]:  now now you doing it in the way that you encouge your human preference as rules right now。
+[Speaker 0]:  yeah。
+[Speaker 1]:  so the customer for your particular project gloring and thanks so much for going on。
+[Speaker 1]:  this was really ving。
+[Speaker 1]:  this is really good。
+[Speaker 1]:  thank you。
+[Speaker 1]:  if you're still with us。
+[Speaker 1]:  let me know on the comment section。
+[Speaker 1]:  what you thought this episode and we'll see in the next one。
