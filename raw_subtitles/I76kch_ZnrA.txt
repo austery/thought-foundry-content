@@ -1,0 +1,2331 @@
+[Speaker 0]: 今天真的用上 AI 的和了解 AI 的人，
+[Speaker 0]: 可能还是只有世界上的百分之二十。
+[Speaker 0]: 就是有一些老板他也不懂什么是 AI，
+[Speaker 1]: 但他觉得这玩意儿很重要，
+[Speaker 0]: 他觉得这玩意很重要。
+[Speaker 0]: 然后他就要表演自己懂 AI，
+[Speaker 1]: 这也是我觉得特想问你的，
+[Speaker 1]: 就是 AI 的渗透率，
+[Speaker 1]: 或者对人的替代率会不会也没有我们想象中的那么快。
+[Speaker 0]: 我觉得没有那么快，
+[Speaker 0]: 文字就那么多，
+[Speaker 0]: 评测就那么多。
+[Speaker 0]: 但是李白的诗通过无限的计算，
+[Speaker 0]: 他就是算不出来。
+[Speaker 0]: 如果一个东西的标准答案就在那边，
+[Speaker 0]: 那这东西 AI 就能解的用好。
+[Speaker 0]: 只有这种不确定性的东西，
+[Speaker 0]: 才是我们一直去思考和我们人之为人的意义。
+[Speaker 1]: 为什么会请铁石老师来？
+[Speaker 1]: 也是因为在最近一段时间就感觉到非常的割裂。
+[Speaker 1]: 但同时，
+[Speaker 1]: 当我观察这个世界，
+[Speaker 1]: 观察我身边的生活，
+[Speaker 1]: 发现人被分成了两拨，
+[Speaker 1]: 一拨人非常紧张，
+[Speaker 1]: 非常兴奋，
+[Speaker 1]: 也非常焦虑。
+[Speaker 1]: 同时另一部分的人他还是在按照自己的原本的这样的步调在工作。
+[Speaker 1]: 然后我就在想说有没有可能录一期节目跟大家讲清楚，
+[Speaker 1]: 现在正在发生什么事情，
+[Speaker 1]: 为什么跟 AI 相关的人他们那么兴奋，
+[Speaker 1]: 他们那样的兴奋是一种假，
+[Speaker 1]: 还还是真的有什么很重要的事情发生了。
+[Speaker 1]: 直到有一天，
+[Speaker 1]: 梦言说哎，
+[Speaker 1]: 他发现了一位特别好的嘉宾，
+[Speaker 1]: 然后火速第二天拉到我们公司做了一场分享，
+[Speaker 1]: 就是 k ss 老师。
+[Speaker 1]: 然后分享完之后，
+[Speaker 1]: 我就立刻决定说也要把 k ss 老师薅到我们小酒馆。
+[Speaker 1]: 因为我觉得 k ss 老师是难得的，
+[Speaker 1]: 比较深入浅出的跟大家讲清楚。
+[Speaker 1]: 现在在发生什么？
+[Speaker 1]: 比如说在 AI 的这个圈里在发生什么？
+[Speaker 1]: 那么有哪些技术正正在外延？
+[Speaker 1]: 就在我看来，
+[Speaker 1]: 你是一个手拿地图的人，
+[Speaker 1]: 可以跟我们讲清楚，
+[Speaker 1]: 就是我们面前的这一片疆域是什么样的，
+[Speaker 1]: 以及有哪些路线啊，
+[Speaker 1]: 再次感谢 cage 老师，
+[Speaker 1]: 谢谢。
+[Speaker 1]: 嗯，
+[Speaker 1]: 你要自我介绍一下吗？
+[Speaker 0]: 行行，
+[Speaker 0]: 那我自我介绍一下，
+[Speaker 0]: 就是我是 cage，
+[Speaker 0]: 是那个时像科技的 AI research ad。
+[Speaker 0]: 然后我们团队主要做的事情就是专注在海外归属 AI 的一些最前沿的变化。
+[Speaker 0]: 然后通过这些对前沿变化的理解来做全球的科技投资。
+[Speaker 0]: 然后我个人的话，
+[Speaker 0]: 之前是在呃 CMU 和字节做 AI 差不多 chach BT 呃，
+[Speaker 0]: 出现之前的一个月加入到呃十项团队，
+[Speaker 0]: 一起来做投资和一起来做技术研究。
+[Speaker 1]: 我这次邀请 k ate 老师来，
+[Speaker 1]: 我当时给他出的题，
+[Speaker 1]: 就是能不能给我们讲清楚，
+[Speaker 1]: 就现在到底在发生什么，
+[Speaker 1]: 就如果换成那个常见的英文表达，
+[Speaker 1]: 就是 what's going on。
+[Speaker 1]: 我在想呢，
+[Speaker 1]: 我们能从这个问题开始，
+[Speaker 1]: 在你观察下现在正在发生什么样的变化。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我的观察是过去半年内，
+[Speaker 0]: 好的好的 agent，
+[Speaker 0]: 这件事情的技术进展和商业化落地都快了，
+[Speaker 0]: 非常非常多多技术展的意思。
+[Speaker 0]: 其实就是说 agent 背后最重要要的实是是那个 ding ding agent，
+[Speaker 0]: 也就是写代码的智能体。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那么写代码并不是我们之前说狭义的软件开发，
+[Speaker 0]: 而是说所有操作电脑的事情，
+[Speaker 0]:  agent 都已经可以完成了。
+[Speaker 0]: 很多白领知识工作在电脑上做的任务，
+[Speaker 0]: 它都可以操作电脑完成，
+[Speaker 0]: 甚至做的事情的广度、
+[Speaker 0]: 深度、
+[Speaker 0]: 勤奋程度都比普通人要来的好。
+[Speaker 0]: 我觉得这件事情在技术能力上是已经达到的，
+[Speaker 0]: 但是用的人的能力其实不一定跟得上。
+[Speaker 0]:  AI 的进步速度没关系，
+[Speaker 1]: 在公司里也不是领导比员工的水平更高啊。
+[Speaker 0]: 对对对，
+[Speaker 1]: 这个比较普遍。
+[Speaker 0]: 嗯，
+[Speaker 0]: 是是是。
+[Speaker 0]: 然后当然这个背后我觉得一方面是因为好的好的，
+[Speaker 0]: 因为虚拟世界的迭代永远比现实世界的一些各种扩散的速度要快。
+[Speaker 0]: 还有一部分就是目前产品的设计还是太反人性了。
+[Speaker 0]: 我们要真的去用好一个 AI agent 本身要求我们能清晰的表达自己的需求，
+[Speaker 0]: 对设计好自己的任务，
+[Speaker 0]: 并且给一定的规划。
+[Speaker 0]: 同时我们还要监督好他做的每一个规划，
+[Speaker 0]: 并且怎么样把它往一个更好的地方去 push 这些东西。
+[Speaker 0]: 理论上应该有很多东西是包到产品里面的，
+[Speaker 1]: 不是我们的能力，
+[Speaker 1]: 问题是他这个产品设记得不好。
+[Speaker 0]: 对对对，
+[Speaker 0]: 我觉得一定是双向奔赴的，
+[Speaker 0]: 就是慢慢所有人越越来越习惯有这样一个新物种。
+[Speaker 0]: 新同事在身边了。
+[Speaker 0]: 与此同时，
+[Speaker 0]: 那些产品设计要更多的去理解用户到底哪里没有用上。
+[Speaker 0]: 所以现在实际出现的情况其实就是最少量的人把 coding agent 用起来了，
+[Speaker 0]: 并且用起来之后，
+[Speaker 0]: 他们的商业化收入增长其实非常快。
+[Speaker 0]: 如果我们看刚刚说的 clour code，
+[Speaker 0]: 其实它是一个人类历史上增长最快的技术产品。
+[Speaker 0]: 如果我们说现在最领先的模型公司是两家嘛，
+[Speaker 0]: 第一家是 open AI，
+[Speaker 0]: 他们还是以 chage PT 出名，
+[Speaker 0]: 所有人去用聊天机器人这种方式，
+[Speaker 0]: 它是单轮的对话。
+[Speaker 0]: 然后我一问他一个问题，
+[Speaker 0]: 他给我一个回答。
+[Speaker 0]: 然后第二第二名其实是 anthroropc，
+[Speaker 0]: 他们做的事情是 clock code。
+[Speaker 0]: 那么这 clck code 是一个任务比较能端到端完成的 agent 产品。
+[Speaker 0]:  clock code 用户量其实只有 chach PT 这款产品的可能百分之二左右。
+[Speaker 0]: 但是收入就在上个月，
+[Speaker 0]: 其实 antroropc 已经成为了世界上第呃收入第一名的 AI 公司。
+[Speaker 0]: 其实说明 coding agent 这件事情的需求和它带来的不管是商业化册还是呃所有组织当中大家去参采用的这个这个趋势的增速是非常非常快和恐怖的。
+[Speaker 1]: 我觉得这里或许可以给大家一个更有体感的例子吧。
+[Speaker 1]: 比如说我把一篇论文丢给 deep、
+[Speaker 1]:  sick 千万这样的对话框式的 AI 和我用 cloud code 或者 codex 这样的 agent，
+[Speaker 1]: 它的差距具体在哪？
+[Speaker 1]: 有那么大吗？
+[Speaker 0]: 我可以先讲他的工作方式，
+[Speaker 0]: 豆包也好，
+[Speaker 0]:  charge PT 也好，
+[Speaker 0]: 它的工作方式就是把我我发给他的论文里读进来。
+[Speaker 0]: 读进来之后，
+[Speaker 0]: 他做一两次简单的搜索，
+[Speaker 0]: 然后就把搜索的内容和文章的东西去整合起来，
+[Speaker 0]: 然后把一篇全新的文章给到我。
+[Speaker 0]: 然后我可能觉得好的话，
+[Speaker 0]: 复制粘贴到我的 word 里面去。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我觉得不好的话，
+[Speaker 0]: 我再跟他对话去交互操作。
+[Speaker 0]: 而 pro code 它的形式比这个要往后。
+[Speaker 0]: 我们说端到端的原因是因为他会先做一个规划，
+[Speaker 0]: 这一篇论文他到底要改什么？
+[Speaker 0]: 呃，
+[Speaker 0]: 他可能呃比如说在综述部分，
+[Speaker 0]: 在后面的实验部分都有一些要改的事情。
+[Speaker 0]: 那么在这个过程当中，
+[Speaker 0]: 他一方面要去搜更多的文献。
+[Speaker 0]: 第二部分他可以自己去写代码，
+[Speaker 0]: 跑更多的实验。
+[Speaker 0]: 你只要不是说现实里面遥事短，
+[Speaker 0]: 遥事短，
+[Speaker 0]: 确实现在还做不到。
+[Speaker 0]: 但是实际是写代码，
+[Speaker 0]: 做数据分析，
+[Speaker 0]: 这些类型的事情他都可以做完。
+[Speaker 0]: 所以在他运行的半小时一小时，
+[Speaker 0]: 甚至是五小时以上的时间里面，
+[Speaker 0]: 他就在把刚刚说的这样一个一套完整的按照他规划来的工作流着完整的实现。
+[Speaker 0]: 然后我实际工作当中的一个比较好的的践或或者说经验，
+[Speaker 0]: 就是一开始去修改他的计划，
+[Speaker 0]: 后面的那些部分，
+[Speaker 0]: 我其实都不太会干预他。
+[Speaker 0]: 但是他出计划的第一步，
+[Speaker 0]: 我一般会仔细帮他去修改，
+[Speaker 1]: 这样就很像是在跟人布布置任务。
+[Speaker 1]: 因为你在跟就是这种聊天框的时候，
+[Speaker 1]: 你往往是你先把文章丢给他，
+[Speaker 1]: 然后说你帮我改的更好一点。
+[Speaker 1]: 但是当我们和像 cld code 或者 code s 这样的打引号的这这样的一个工作伙伴合作的时候，
+[Speaker 1]: 我会先说我想要达到要什么效果。
+[Speaker 1]: 然后或者是你可以先读我过去的三百篇文章，
+[Speaker 1]: 我写作是什么风格。
+[Speaker 1]: 然后我们可以约定一一些我们的这个改写的规则等等等等，
+[Speaker 1]: 以及我的目标是什么？
+[Speaker 0]: 是就之前那种对话框的模式的。
+[Speaker 0]: 问题在于，
+[Speaker 0]: 任何人面对一对空白的对话框，
+[Speaker 0]: 在你的三十到六十秒之内，
+[Speaker 0]: 你的表达不会和别人有多大差异的。
+[Speaker 0]: 就是你只能大概的模糊的讲清楚，
+[Speaker 0]: 你的你的需求，
+[Speaker 0]: 能做到这里就不错了。
+[Speaker 0]: 大家拉不开一个所谓的方差，
+[Speaker 0]: 大家还要存一堆 prompt，
+[Speaker 0]: 然后去解决这样的问题。
+[Speaker 0]: 其实都很中间态。
+[Speaker 0]: 刚刚所说的 cloucode 或者是 codese 这样的产品呢，
+[Speaker 0]: 它一般会调用你本地的文件系统。
+[Speaker 0]: 嗯，
+[Speaker 0]: 在这个文件系统当中，
+[Speaker 0]: 一般有你过往的所有工作的上下文，
+[Speaker 0]: 然后我把必要的东西放到一个对的文件夹里面，
+[Speaker 0]: 他会适当的时候去读取去搜索。
+[Speaker 0]: 那么他其实就很像一个我的同事，
+[Speaker 0]: 而且是和我合作了一段时间的同事，
+[Speaker 0]: 并不是刚刚开始执行任务的同事。
+[Speaker 0]: 嗯，
+[Speaker 1]: 那假如 AI 成为了一个和你配合无间的同事，
+[Speaker 1]: 那那当你和真实同事打交道的时候，
+[Speaker 1]: 会感觉哎怎么没那么顺畅吗？
+[Speaker 0]: 我现在的处理方式是这样子的，
+[Speaker 0]: 我尽量和 AI 交互的频次比人交互的频次稍微高一点。
+[Speaker 0]: 就是说大部分时候和人交互之前，
+[Speaker 0]: 我都会过一道和 AI 的交流，
+[Speaker 0]: 把这个问题想的更加的清楚一些。
+[Speaker 0]: 因为我觉得人很多时候的无效沟通，
+[Speaker 0]: 大家开日会的时候经常会遇到，
+[Speaker 0]: 就是大家开会其实是在自说自话。
+[Speaker 0]: 嗯，
+[Speaker 0]: 一个原因是因为不同人的常态是不一样。
+[Speaker 0]: 但另外一部分的问题其实是大家根本就没有想清楚这个问题想怎么解决。
+[Speaker 1]: 开会我们要达成的目标是什么，
+[Speaker 1]: 大家也没有解决。
+[Speaker 1]: 对，
+[Speaker 0]: 那这些事情其实都是可以和 a 正先沟通去解决的。
+[Speaker 1]: 所以现在在你们公司内部会这样吗？
+[Speaker 1]: 比如说开会之前大家的 a ent 先碰一遍，
+[Speaker 0]: 我们开会变少了，
+[Speaker 0]:  a 镇碰一遍也会。
+[Speaker 0]: 我觉得这件事情在未来一定会发生的，
+[Speaker 0]: 就是所有人至少都有一个 a 证及以上。
+[Speaker 0]: 然后所有开会，
+[Speaker 0]: 包括我们今天比如说约波客之前，
+[Speaker 0]: 嗯，
+[Speaker 0]: 可能是我们的 a ent 帮我们来准备一个大概今天我想分享什么？
+[Speaker 0]: 你想提问什么？
+[Speaker 0]: 然后他们之间互相碰完之后，
+[Speaker 0]: 可能我们不用花太多的精力来呃来来弄这个事情。
+[Speaker 1]: 那人到底是主宰还是只是一个执行的角色，
+[Speaker 0]: 仍然是主宰，
+[Speaker 0]: 这个我觉得是一定的。
+[Speaker 0]: 比如说我们周通肯定有说我今天大概聊些那些话题，
+[Speaker 0]: 但是最关键的那一些呃想传达的东西，
+[Speaker 0]: 那些点还是要自己花时间去去思考和打磨的。
+[Speaker 0]: 就这些东西是嗯嗯品味和判断力，
+[Speaker 0]: 就是到底什么东西是好玩的美的重要的。
+[Speaker 0]: 这些东西可能一阵子很长一段时间都替代不了。
+[Speaker 1]: 所以你是一个乐观派，
+[Speaker 1]: 觉得人不会把思考的这个能力让渡给 AI，
+[Speaker 0]: 或者说我们不应该把思考的能力让渡这 AI。
+[Speaker 0]: 因为如果我们让渡这 AI 之后，
+[Speaker 0]: 我们会发现知行合一，
+[Speaker 0]: 两边都会出问题。
+[Speaker 0]: 就是第一边是在知这一部分，
+[Speaker 0]: 很多东西就是他帮我们收集的资料，
+[Speaker 0]: 我们囫囵吞枣一下，
+[Speaker 0]: 可能我们也不是真的真的想清楚了。
+[Speaker 0]: 就是行，
+[Speaker 0]: 这边的问题就是他永远都自己只能做到百分之九十、
+[Speaker 0]: 百分之九十五、
+[Speaker 0]: 百分之九十九点九、
+[Speaker 0]: 百分之九十九点九九，
+[Speaker 1]: 这很多人来说够了呀。
+[Speaker 1]: 嗯嗯，
+[Speaker 0]: 所有人都能做到百分之九十之后，
+[Speaker 0]: 百分之九十这条线就不够了，
+[Speaker 0]: 他这条经线就不一样了。
+[Speaker 0]: 就像今天大家会发现很多所谓很无聊，
+[Speaker 0]: 或者说看一看就是 AI 写的东西。
+[Speaker 0]: 那东西一旦充斥了整个市场，
+[Speaker 0]: 现在还没有充斥。
+[Speaker 1]: 我觉得现在已经充斥了，
+[Speaker 0]: 对，
+[Speaker 0]: 可能已经充斥了。
+[Speaker 0]: 那这个时候其实这个质量的东西就已经不能满足普通人的需求了。
+[Speaker 1]: 对我我印象很深，
+[Speaker 1]: 因为我下个月要去看一个音乐节嘛，
+[Speaker 1]: 我又加了很多群。
+[Speaker 1]: 当时就有一个人分分享了他关于这个音乐节的一条小红书到群里，
+[Speaker 1]: 然后被人狂骂。
+[Speaker 1]: 大家说你这一第一句话就是错的，
+[Speaker 1]: 因为肯定是 AI 帮他总结的，
+[Speaker 1]: 但是它是一个事实性错误。
+[Speaker 1]: 然后底然后底下大家就开始说你做做音乐乐，
+[Speaker 1]: 一个小红书账号，
+[Speaker 1]: 你连做最基本的资料搜集都不做，
+[Speaker 1]: 你还做什么音乐发掘？
+[Speaker 1]: 然后大家就在一通狂骂，
+[Speaker 1]: 我觉得很真实嗯，
+[Speaker 0]: 很真实。
+[Speaker 0]: 我觉得但可能可以，
+[Speaker 1]: 可能对方不在乎。
+[Speaker 1]: 对，
+[Speaker 1]: 但是我们描述的这些，
+[Speaker 1]: 我觉得是呃大家是现在生活中能够感受到的一些事情。
+[Speaker 1]: 比如说你一看这个大众点评，
+[Speaker 1]: 一看这个笔记，
+[Speaker 1]: 就是 AI 写来，
+[Speaker 1]: 或者是一段文案，
+[Speaker 1]: 一看就不是人自己写的。
+[Speaker 1]: 我觉得这些是大家在生活中普遍能够感受到的。
+[Speaker 1]: 不管你是在任何行业，
+[Speaker 1]: 但是像我们更前面说的那些在工作中的应用啊之类的。
+[Speaker 1]: 其实对于很多人来说，
+[Speaker 1]: 听起来还是离自己的生活有一点远，
+[Speaker 1]: 我觉得这也是我很很好奇的。
+[Speaker 1]: 为什么同样是活在二零二六年，
+[Speaker 1]: 有些人像是活在科幻小说里，
+[Speaker 1]: 有些人却几乎还没有感觉他能感觉到 AI 替代了很多人的工作。
+[Speaker 1]: 但是他和自己直接的连接直接的冲击，
+[Speaker 1]: 他可能还没有实感，
+[Speaker 1]: 就为什么会这么割裂。
+[Speaker 0]: 有几个原因，
+[Speaker 0]: 我觉得首先是 AI 进步真的太快，
+[Speaker 0]: 就是在过去这段时间内还在加速。
+[Speaker 0]: 在去年十二月份 m shop 这公司发布了一个模型之后，
+[Speaker 0]:  a 卷就突然进入了加速阶段。
+[Speaker 0]: 而这件事情其实呃我觉得让大家感受到是有一点难度的。
+[Speaker 0]: 我觉得第二个可能是可能就是大家实际上在工作当中真的去把这个东西用到位的那个那种 myset 可能还没有。
+[Speaker 0]: 因为我们习惯于遗留问题，
+[Speaker 0]: 用之前的方式解决，
+[Speaker 0]: 而且有可能这个事情用 AI 一开始来解决，
+[Speaker 0]: 给我带来的成本是大于收益的。
+[Speaker 0]: 举个例子，
+[Speaker 0]: 我这个活可能之前三个小时做完。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我现在要把 agent 捣鼓到，
+[Speaker 0]: 让他能真正实现，
+[Speaker 0]: 我可能要五个小时以上。
+[Speaker 0]: 尽管我知道这件事情，
+[Speaker 0]: 我做完一次之后可能一劳永逸或者接近一劳永逸，
+[Speaker 0]: 但是大部分人还是很难把这件事情得真得真的做下去，
+[Speaker 0]: 对我觉得这是正常的人性当中的一部分。
+[Speaker 0]: 那么这时候可能需要一些对对对对对组织的帮助。
+[Speaker 0]: 对，
+[Speaker 0]: 就是组织的帮助。
+[Speaker 0]: 就是比如说大家会看到海外的 meta 这样的公司，
+[Speaker 0]: 在扎车伯德的带领下，
+[Speaker 0]: 大量张铁对吧？
+[Speaker 0]: 所有人都疯狂小头诚，
+[Speaker 0]: 所有人都试着把自己得 still 化和用头诚的量足够多。
+[Speaker 1]: 这到底是组织在帮助，
+[Speaker 1]: 还是组织在迫害？
+[Speaker 0]: 我觉得是我觉得组织在筛选人，
+[Speaker 0]: 在筛选出那些比较想呃想把自己工作这 AI 化的人。
+[Speaker 0]: 因为客轮上来存在的问题是，
+[Speaker 0]: 组织当中的协同效率已经不如人和 agent 的协同效率了，
+[Speaker 0]: 所以他们不得不做这样的事情。
+[Speaker 0]: 因为不然的话，
+[Speaker 0]: 这是一个新时代了，
+[Speaker 0]: 就是 agent 来了之后一切都是新时代了。
+[Speaker 0]: 我们拿着一个旧的地图嗯去看新时代的东西，
+[Speaker 0]: 我觉得看怎么样都看不清的，
+[Speaker 0]: 还不如接受这件事情，
+[Speaker 0]: 它本身是一个范世纪的变化。
+[Speaker 0]: 那么一切东西都会都会处理的比较舒服一点。
+[Speaker 1]: 我觉得我可以分享一下我自己的心路历程。
+[Speaker 1]: 就一开始主要是归功于我们的有台主播梦魇，
+[Speaker 1]: 他一直跟我们说，
+[Speaker 1]: 大家应该用起来用起来用起来。
+[Speaker 1]: 然后那个时候我就觉得很头疼，
+[Speaker 1]: 因为我是做内容的，
+[Speaker 1]: 我我不是写代码的。
+[Speaker 1]: 我就在想说这个 AI 到底能帮助我做到哪一步。
+[Speaker 1]: 然后梦燕跟我说，
+[Speaker 1]: 你有很大的优势，
+[Speaker 1]: 你之前录了这么多期博客，
+[Speaker 1]: 你有这么庞大的语料库，
+[Speaker 1]: 我想想有道理。
+[Speaker 1]: 然后呢，
+[Speaker 1]: 我就开始搭自己的数据库，
+[Speaker 1]: 然后开始让 AI 协助我创作。
+[Speaker 1]: 然后我就经历了无数遍道，
+[Speaker 1]: 心破碎，
+[Speaker 1]: 非常的烦躁。
+[Speaker 1]: 因为我觉得他写的真的太烂了，
+[Speaker 1]: 而且一看表一两个小时过去了，
+[Speaker 1]: 我想说这完全不如我自己写。
+[Speaker 1]: 但是我怀疑我是不是一个抗拒进入新世界的一个旧人，
+[Speaker 1]: 对吧？
+[Speaker 1]: 新世界没有能容纳我的船。
+[Speaker 1]: 然后但是后面我发现我就是可能在接触了更多的技术信息，
+[Speaker 1]: 可能也是身边的环境。
+[Speaker 1]: 我就这个真的是组织的帮助了，
+[Speaker 1]: 大家都用起来了，
+[Speaker 1]: 包括也请像 k 置这样的外来的高手来分享。
+[Speaker 1]: 然后我会发现说当我真的放下很多成见，
+[Speaker 1]: 试图以一个我先尝试任何工作都结合 AI 做一做。
+[Speaker 1]: 然后我会发现说，
+[Speaker 1]: 其实在很多地方他也是能帮到我的，
+[Speaker 1]: 而且我能感觉到他越来越了解我，
+[Speaker 1]: 我觉得他越来越了解，
+[Speaker 1]: 我是特别重要的一步。
+[Speaker 1]: 所以才会发生说当我想要改写我自己的文稿，
+[Speaker 1]: 不是让他由零到一的创作。
+[Speaker 1]: 我发现他的帮助特别大话，
+[Speaker 1]: 都是我说的，
+[Speaker 1]: 只是他的顺序重新组织了一下。
+[Speaker 1]: 嗯哼嗯，
+[Speaker 1]: 但是我相信可能很多人也经历过我这样的过程，
+[Speaker 1]: 可能有些人卡在第二步，
+[Speaker 1]: 就是他尝试着用，
+[Speaker 1]: 然后发现说好像对自己的工作没有太大帮助。
+[Speaker 1]: 他所在的组织可能试着用了用，
+[Speaker 1]: 发现也用不上。
+[Speaker 1]: 他就觉得说哦，
+[Speaker 1]: 那可能 AI 跟我们的这个行业关系还没有那么淡。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 我就在想说，
+[Speaker 1]: 这是因为有些行业有些组织它天然的更互联网，
+[Speaker 1]: 更靠近 AI，
+[Speaker 1]: 还是说这样的变化本来就会先集中发生在某些行业，
+[Speaker 1]: 某些组织或者是某些人身上，
+[Speaker 0]: 嗯，
+[Speaker 1]: 就还是一个体感割裂的。
+[Speaker 0]: 问题是我在想，
+[Speaker 0]: 比如说你刚刚分享那个场景，
+[Speaker 0]: 嗯，
+[Speaker 0]: 你一开始没用起来的原因，
+[Speaker 0]: 你觉得是因为你给 AI 的上下文不够，
+[Speaker 0]: 嗯，
+[Speaker 0]: 还是呃模型本身的能力不够，
+[Speaker 0]: 还是什么原因？
+[Speaker 1]: 我觉得这两者都有。
+[Speaker 1]: 嗯，
+[Speaker 1]: 因为之前可能还是在那种聊天对话框里，
+[Speaker 1]: 对他对我的了解是不可能够的。
+[Speaker 1]: 比如说因为我们每期节目，
+[Speaker 1]: 我可能我我都要在最后重新写一遍开头和结尾给大家介绍一下为什么要听这期节目。
+[Speaker 1]: 嗯，
+[Speaker 1]: 那我以前会幻想说，
+[Speaker 1]: 也许 AI 能帮我干这个事。
+[Speaker 1]: 然后后来我发现我花了一两个小时在训他，
+[Speaker 1]: 让我自己精疲力尽，
+[Speaker 1]: 不如我自己花半个小时自己写，
+[Speaker 1]: 我就会觉得非常的沮丧。
+[Speaker 1]: 所以中间一度我就非常的怀疑人生。
+[Speaker 1]: 我想说我是不是被 AI 时代给抛弃了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是随着后来我用 codex cloud code 之后，
+[Speaker 1]: 但是他更了解我，
+[Speaker 1]: 他拥有我很多知识库，
+[Speaker 1]: 他能从我的那么多的语料中提炼出哎我提问的方式，
+[Speaker 1]: 我是怎么看待问题的，
+[Speaker 1]: 怎么看待世界的？
+[Speaker 1]: 那么他后来出的内容的质量就会好很多。
+[Speaker 1]: 最后的三公里还是得我写，
+[Speaker 0]: 对我在想是可能有几个要素非常的重要。
+[Speaker 0]: 第一个就是组织包容，
+[Speaker 0]: 大家去试错，
+[Speaker 0]: 不要有一个环境来迫使。
+[Speaker 0]: 你说你把事儿快做出来，
+[Speaker 0]: 而是说你的目标函数就是你多用用 AI 试试呢，
+[Speaker 0]: 就是这个环境其实不容易。
+[Speaker 0]: 但是我觉得在每一波科技浪潮早期其实很重要。
+[Speaker 0]: 因为一个放大生产力的技术突然出现的时候，
+[Speaker 0]: 大家都不知道怎么用的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃比如说当年手机智能手机上出来的时候，
+[Speaker 0]: 甚至还没有 iphone，
+[Speaker 0]: 可能还是多普达 HTC 那个时代。
+[Speaker 0]: 大家也不知道一个手机到底能干哪些事情。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是大家只知道，
+[Speaker 0]: 第一他可以打电话，
+[Speaker 0]: 第二他可以上网。
+[Speaker 0]: 除此之外，
+[Speaker 0]: 所有的那些 APP 其实都是当时那些大家可能觉得有点自嗨，
+[Speaker 0]: 或者说去搓一些小玩意儿的那些人去做出来的。
+[Speaker 0]: 所以在那一些人当中，
+[Speaker 0]: 最先的去把手机得用起来，
+[Speaker 0]: 不断的去试错，
+[Speaker 0]: 和开发者交互的那一批人，
+[Speaker 0]: 慢慢的定义了手机到底能做什么，
+[Speaker 0]: 不能做什么，
+[Speaker 0]: 后来才有了更多的变化。
+[Speaker 0]: 比如说移动支付、
+[Speaker 0]: 短视频这样一些东西，
+[Speaker 0]: 但那都是后视镜看，
+[Speaker 0]: 对吧？
+[Speaker 0]: 其实最早的时候很难定义清楚这些东西到底是什么样的。
+[Speaker 0]: 所以我觉得包容包容一些试错可能是很重要。
+[Speaker 1]: 所以他并不是说完全的分行业，
+[Speaker 1]: 而是说他跟你所在的这个小环境有很密切的关系。
+[Speaker 1]: 对，
+[Speaker 0]: 就是因为不管是什么行业，
+[Speaker 0]: 我觉得都会出现一开始上手有点难度的事情呢。
+[Speaker 0]: 对对，
+[Speaker 0]: 就是你是不是足够包容这件事情。
+[Speaker 0]: 然后还有就是你自己以及你在的环境，
+[Speaker 0]: 是不是足够相信模型和 AI 产品的能力还会进步。
+[Speaker 0]: 举张张例子，
+[Speaker 0]: 拨号上网和二 g 三 g 网络的时代，
+[Speaker 0]: 当时的网是多么的慢，
+[Speaker 0]: 才多少 KB 对吧？
+[Speaker 0]: 然后还能用的那些网站是多么的，
+[Speaker 0]: 就它都是一溜个一堆个非常小小的图片，
+[Speaker 0]: 你还不一定加载的出来。
+[Speaker 0]: 但现在我们的五 g 网络所有的高速高画质内容就像自来水一样流出来。
+[Speaker 0]: 我们是不是相信在某一个时间点嗯智能也会像自来水一样这样流出来。
+[Speaker 0]: 如果相信的话，
+[Speaker 0]: 那么我们就自己上手慢慢去做，
+[Speaker 0]: 同时等着他进步就好了。
+[Speaker 1]: 对我觉得 kiase 老师还是太手续善良了。
+[Speaker 1]: 我觉得更普遍的一种其实是一种嗯嗯被迫感。
+[Speaker 1]: 就像我说的那个后面有鞭子在抽的感觉。
+[Speaker 1]: 我觉得哪怕比如说五年后，
+[Speaker 1]: 当大家再回头看，
+[Speaker 1]: 现在很多人接触 AI 用起来 AI，
+[Speaker 1]: 它可能都是一种被迫的选择。
+[Speaker 1]: 比如说他感受到老板的焦虑，
+[Speaker 1]: 或者是老板说你们每个人啊都必须得用 AI 做一个东西出来带给你的这种压力。
+[Speaker 1]: 嗯，
+[Speaker 1]: 呃我觉得这个可能是一个普普遍的事情，
+[Speaker 1]: 然后这个也会让我想到，
+[Speaker 1]: 其实前段时间我在社交媒体上会看到大家嘲笑一个说法嘛。
+[Speaker 1]: 大家嘲笑说法是，
+[Speaker 1]: 如果你身边的人没有聊什么 agent 聊什么 open cloud 聊什么什么，
+[Speaker 1]: 那你就应该换一个圈子了，
+[Speaker 1]: 就很多人在玩这个梗嘛。
+[Speaker 1]: 但是我亲身经历了这几个月之后，
+[Speaker 1]: 我意识到其实那个话话糙理不糙。
+[Speaker 1]: 因为当你置身于这个环境的时候，
+[Speaker 1]: 很多时候有很多信息是你被动接受的。
+[Speaker 1]: 就像我中间一度我非常非常排斥 AI，
+[Speaker 1]: 但由于每天还要在有热情工作呀，
+[Speaker 1]: 每天在被动的接受这些知识。
+[Speaker 1]: 那么慢慢的其实其实你内心那个种子是在慢慢的发芽。
+[Speaker 1]: 可能有一天就说哎好像我终于摸索到了一个我可以实施的一个方法。
+[Speaker 1]: 再包括说我们的有台面基的主播老钱，
+[Speaker 1]: 他以前对爱的什么也是纯聊天框。
+[Speaker 1]: 好像就是上个月他才知道哦，
+[Speaker 1]: 原来还有 cloud code 这种东西，
+[Speaker 1]: 因为他平时会做很多的投资类的内容的分享。
+[Speaker 1]: 现在发展是当他聊美股的时候，
+[Speaker 1]: 他就怕自己 f coding。
+[Speaker 1]: 一个关于美股走势历史数据的一个网站跟他的读者说，
+[Speaker 1]: 你们每个人可以上这个网站来看。
+[Speaker 1]: 然后当他聊黄金的时候，
+[Speaker 1]: 他又啪做了一个黄金的网站。
+[Speaker 1]: 嗯，
+[Speaker 1]: 他做的非常快乐，
+[Speaker 1]: 非常开心。
+[Speaker 1]: 他以前非常擅长做图表，
+[Speaker 1]: 但是因为有了 AI 的加深，
+[Speaker 1]: 他甚至可以做一个网站，
+[Speaker 1]: 他甚至是可以动态的，
+[Speaker 1]: 对他觉得非非常的有成感感。
+[Speaker 1]: 嗯，
+[Speaker 0]: 我觉得刚刚两个例子都很有意思，
+[Speaker 0]: 就是第一个例子给我的感受，
+[Speaker 0]: 就是是的，
+[Speaker 0]: 大家不要把外界的推力当做，
+[Speaker 0]: 就是说他有他有善意假设和恶意假设，
+[Speaker 0]: 对吧？
+[Speaker 1]: 就在善意的真的手续善良，
+[Speaker 0]: 就是善意的那个假设或者说好的，
+[Speaker 0]: 那例子我觉得也是存在的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是有一些老板是真的懂 AI，
+[Speaker 0]: 并且想用好 AI，
+[Speaker 0]: 然后自己发现他是个好东西之后，
+[Speaker 0]: 让手下人一起去用。
+[Speaker 0]: 这个我觉得是好的那种例子，
+[Speaker 0]: 恶意假设就是就是他也不懂什么谁呀，
+[Speaker 1]: 但他觉得这玩意儿很重要，
+[Speaker 0]: 他觉得这玩意很重要，
+[Speaker 0]: 然后他就要表演自己动 AI。
+[Speaker 0]: 那么在这种情况之下，
+[Speaker 0]: 他就是不好的。
+[Speaker 1]: 但是有的时候这个音也不是很重要，
+[Speaker 1]: 很多时候很多事情都是坏端端的好起来了。
+[Speaker 0]: 对对对，
+[Speaker 0]: 是的，
+[Speaker 0]: 坏端端的好起来。
+[Speaker 1]: 呃，
+[Speaker 1]: 那在你的工作和生活中，
+[Speaker 1]: 有没有哪些例子是你觉得可能这个人的工作或者这个行业，
+[Speaker 1]: 他看起来离 AI，
+[Speaker 1]: 离科技很远，
+[Speaker 1]: 但他却可以用得上，
+[Speaker 0]: 我觉得非常多，
+[Speaker 0]: 而且他应该就是离车技越远，
+[Speaker 0]: 可能还更用得上啊。
+[Speaker 0]: 因为 AI 这件事情其实是做车技的人在颠覆自己。
+[Speaker 1]: 那这样想挺变态的，
+[Speaker 1]: 就是一群人每天熬夜，
+[Speaker 1]: 然后前赴后继的研发这个技术，
+[Speaker 1]: 然后把自己替代掉，
+[Speaker 0]: 很有可能是这么一回事。
+[Speaker 0]: 因为你看最新的 enshopping 模型发布的时候，
+[Speaker 0]: 他就会说 cloud 参与到了训练下一代 cloud 的工作当中。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后我和那些前的 AI lab 交流的时候，
+[Speaker 0]: 他们都会说自己可能在清清楚楚，
+[Speaker 0]: 占着一两年可能也差不多了。
+[Speaker 0]: 因为接下来模型能够自己去优化自己，
+[Speaker 0]: 或者说可能人很难真的在开发这件事情上比 AI 做的更好了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以越是离技术越近。
+[Speaker 0]: 然后现在大家也会发现在硅谷啊，
+[Speaker 0]: 首先初局程序员的工资和招聘力力度其实非常非常的约等于零。
+[Speaker 0]: 就是其实年轻人不太需要招。
+[Speaker 0]: 因为大家会发现一个比较比较资深的程序员，
+[Speaker 0]: 用上你给他拆三五个 clck code 账号，
+[Speaker 0]: 比带上三五个年轻人的效率，
+[Speaker 0]: 不知道找到找到哪儿去了。
+[Speaker 1]: 但这个也太残酷了吧。
+[Speaker 0]: 对对，
+[Speaker 0]: 所以我所以说回来，
+[Speaker 0]: 我觉得技术行业对自己的颠覆是更大的。
+[Speaker 0]: 反而非技术行业的人应该用起来 AI 之后带来的增益是越大的。
+[Speaker 0]: 等于说研发成本其实被对对对对，
+[Speaker 0]: 那一些公司得得解决了之后，
+[Speaker 0]: 我用到的已经是一个世世界级的智能。
+[Speaker 0]: 就是我们不能怀疑，
+[Speaker 0]: 就是说这模型本身其实比我们身边大部分人都要聪明。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那么在这了之后，
+[Speaker 0]: 就是我们怎么用这些聪明的脑袋来解决一些我们已有的问题。
+[Speaker 0]: 大家实际去看嗯北美以及南美的一些那个企业的时候，
+[Speaker 0]: 呃，
+[Speaker 0]: 比如说其实 charge BT 呃，
+[Speaker 0]:  gerina，
+[Speaker 0]: 还有 minus 这种类型的产品。
+[Speaker 0]: 他们的用户量当中，
+[Speaker 0]: 前三都有都有巴西，
+[Speaker 0]: 就巴西式的中小企业主非常蓬勃的地方，
+[Speaker 0]: 有非常多的类似于像电商零售、
+[Speaker 0]: 呃，
+[Speaker 0]: 美容、
+[Speaker 0]: 医疗这种类型的小企业主。
+[Speaker 0]: 他们用 AI 其实用的非常非常的欢。
+[Speaker 0]: 而且我们会发现其实用 AI 来做企业的公司里面，
+[Speaker 0]: 我们说所谓的创业公司或者说独角兽啊，
+[Speaker 0]: 我们就说普遍的企业来说，
+[Speaker 0]: 其实零售啊电商啊这种类型的场景是远比技术更多的。
+[Speaker 0]: 所以如果我们把它当做一个市场来看的的，
+[Speaker 0]: 是 AI 做出来的。
+[Speaker 0]: 市市它它绝对是是像股那那样的是有点像一个集市，
+[Speaker 0]: 那样的，
+[Speaker 0]: 就是什么样的生意可能在里面都有。
+[Speaker 1]: 就是可能在这个 AI 时代，
+[Speaker 1]: 它未来就像是一个集市，
+[Speaker 1]: 而不是像硅谷那样大公司盈利的这样的一一个组织形态。
+[Speaker 0]: 对，
+[Speaker 0]: 或者说技术本身没有那么重要了。
+[Speaker 0]: 因为技术被平权了，
+[Speaker 0]: 就是做好开发这件事情，
+[Speaker 0]: 变成一个基础的能力的那个那个基准线。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那再往上可以出现什么样的生意形态，
+[Speaker 0]: 可能可能想象力就能打开很多。
+[Speaker 1]: 刚才 k 始在讲说，
+[Speaker 1]: 其实各个行业都可以把这个 AI 用起来，
+[Speaker 1]: 而且可能离 AI 越远的行业可能对他们的帮助是最大的。
+[Speaker 1]: 但是上次你讲了一个例子，
+[Speaker 1]: 我印象很深。
+[Speaker 1]: 就是说你说呃呃可能硅谷的这个对冲基金给他们纽约的同行演示了下，
+[Speaker 1]: 他们平时怎么工作。
+[Speaker 1]: 纽约对冲基金的人就会很震撼。
+[Speaker 1]: 这些硅谷的人可能一个小时完成了他们一周的工作。
+[Speaker 1]: 就哪怕是在同一个行业，
+[Speaker 1]: 它在空间分布上，
+[Speaker 1]: 大家的认知理解也是非常的不均匀的。
+[Speaker 0]: 这个可能就是自然规律和他所在的圈子必然会发生的一件一件事情。
+[Speaker 0]: 就今天真的用上 AI 的和了解，
+[Speaker 0]:  AI 的人可能还是没有那么多，
+[Speaker 0]: 可能还是只有世界上的百分之二十。
+[Speaker 1]: 你这个百分之二十它的了解程度是多少？
+[Speaker 0]: 你的定义我的定义就是至少知道且用过任何一个 AI 产品，
+[Speaker 0]: 知道它的用起来是什么样的。
+[Speaker 0]: 所以就是说拆 GVT 豆包这种类型产品，
+[Speaker 0]: 我觉得都 OK。
+[Speaker 0]: 对，
+[Speaker 1]: 但其实这样也只是百分之二十是吗？
+[Speaker 0]: 我相信是的，
+[Speaker 0]: 因为 AI 这一波浪潮其实也只有进行了两年，
+[Speaker 0]: 对吧？
+[Speaker 0]: 三年对对我们来说变得太快了。
+[Speaker 0]: 就是这三年里面发生的事情，
+[Speaker 0]: 像过了十年一样，
+[Speaker 1]: 所以真的不再把它当做生产力工具的人，
+[Speaker 1]: 那比例就更少了。
+[Speaker 1]: 对对，
+[Speaker 0]: 就物理世界的约束还是还是在那边的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 而且物理世界的约束可能还分很多种，
+[Speaker 0]: 对吧？
+[Speaker 0]: 第一种就是很多工作需要人和人之间的信任。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那么这个事情 AI 替代不了。
+[Speaker 0]: 第二个事情是很多工作需要人的呃从法律层面和监管层面的许可。
+[Speaker 0]: 那这件事情可能替代不了。
+[Speaker 0]: 第三种事情就是这个工作需要人物理上上那边，
+[Speaker 0]: 那就决定定他的渗渗速度，
+[Speaker 0]: 就就是物理世界的渗透速度，
+[Speaker 0]: 他不会那么快。
+[Speaker 1]: 我我在想有没有可能就是稍微展开一下。
+[Speaker 1]: 比如说我们前面举的那个例子，
+[Speaker 1]: 呃，
+[Speaker 1]: 就哪怕是同行对一个人一个小时完成的工作，
+[Speaker 1]: 是另外一个人一周的工作。
+[Speaker 1]: 我觉得这个对于大部分人来说很难很想象。
+[Speaker 0]: 在大部分需要写代码或者深度搜索做调研的任务来说的话，
+[Speaker 0]: 同样的时间内 a 证能处理的信息量和人已经不是一个量级了。
+[Speaker 0]: 比如说我们就拿我比较熟悉的做投资研究和 AI 研究来说的话，
+[Speaker 0]: 嗯，
+[Speaker 0]: 如果我们正常去理解呃一个行业或者是一篇论文，
+[Speaker 0]: 它就是需要很多时间的。
+[Speaker 0]: 呃，
+[Speaker 0]: 比如说我外包给我的一个同事做，
+[Speaker 0]: 那么可能这这个任务本身是一个礼拜的事情。
+[Speaker 0]: 他需要先做前期的行业调研，
+[Speaker 0]: 然后去想清楚关键问题之后，
+[Speaker 1]: 对其中的几个你们的这种行业调研是要去实地的，
+[Speaker 1]: 还是说在网上搜资料，
+[Speaker 1]: 还是说电话电话访问等等等等，
+[Speaker 0]: 实地会比较少，
+[Speaker 0]: 大部分是电话访问和网上的资料。
+[Speaker 0]: 嗯，
+[Speaker 1]: 就可能如果你觉得这个任务，
+[Speaker 1]: 你的同事可能要需要一周完成，
+[Speaker 1]: 可能第一天他全天都得干这个事对。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后接下来可能他要把这些信息重新做，
+[Speaker 0]: 不知道一起，
+[Speaker 0]: 然后我们需要开会去沟通这个东西。
+[Speaker 0]: 他接下来研究的关键问题是什么？
+[Speaker 0]: 然后再把这个东西再迭代一遍。
+[Speaker 0]: 那么这件事情现在在 agent 可能能做到的事情就是在两个小时左右。
+[Speaker 0]: 这两个小时当中，
+[Speaker 0]: 我大概有两次左右的介入。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 去和他沟通说接下来的一步研究要怎么样怎么样去把它做好。
+[Speaker 0]: 如果两个小时内没有完成，
+[Speaker 0]: 这里的瓶颈也不一定是在 AI，
+[Speaker 0]: 大部分是在我，
+[Speaker 0]: 我可能没有时间去给他比较好的监督和存务。
+[Speaker 0]: 而且这件事情其实在我原来做的 AI 研究的领域其实也存在。
+[Speaker 0]: 因为比如说人要理解一篇论文，
+[Speaker 0]: 并且去在数学上和在工程上去理解它，
+[Speaker 0]: 并且把它复现出来，
+[Speaker 0]: 就是需要时间的。
+[Speaker 0]: 因为人脑就是一个二十一瓦的算力，
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是大模型现在的数据中心已经是 g 瓦量级的数据中心了，
+[Speaker 0]: 他们他们的算力根本不是一个级别的。
+[Speaker 0]: 所以现在我也身边有很多朋友在做 AI 研究的时候，
+[Speaker 0]: 他们先把一篇 paper 交给 AI 读，
+[Speaker 0]: 并且把当中的一些数学的东西落成一堆一对 steel，
+[Speaker 0]: 然后再用 cloud code 去把这个实实验的基础的浮现一下。
+[Speaker 0]: 其实就是代替了人脑当中计算有计算量不够大的问题。
+[Speaker 0]: 那么基本上也是的一个一周左右的任务可能会被压缩到半天左右的时间内完成。
+[Speaker 0]: 我觉得就是所有这些偏调研和研究的任务，
+[Speaker 0]: 就刚刚说的在虚拟世界完成的话，
+[Speaker 0]: 那我觉得都可以被压缩证明明。
+[Speaker 1]: 就一切不需要你实地去完成的。
+[Speaker 1]: 但中间可能要解决一些事实核查以及相关的一些问题。
+[Speaker 1]: 你要做好这个监督，
+[Speaker 1]: 你要做好的这个呃 review。
+[Speaker 0]: 对，
+[Speaker 0]: 是就是我要确保它在对的方向上，
+[Speaker 1]: 所以你现在的工作量是以前的几倍好问题。
+[Speaker 0]: 嗯，
+[Speaker 0]: 按照刚刚那个说法是十倍，
+[Speaker 0]: 对吧？
+[Speaker 0]: 因为五天的时间的任务被半天解决了。
+[Speaker 0]: 对，
+[Speaker 1]: 所以保证双休哈呃对对，
+[Speaker 0]: 按照章就算老师保证双休哈。
+[Speaker 0]: 好的，
+[Speaker 1]: 嗯，
+[Speaker 1]: 但但是有有的时候对吧？
+[Speaker 1]: 太对对对，
+[Speaker 1]:  AI 太好奇了，
+[Speaker 1]: 所以可能会自自动加班，
+[Speaker 1]: 自主加班啊。
+[Speaker 0]: 是啊，
+[Speaker 0]: 就是有一个事情他都已经做，
+[Speaker 0]: 完了之后，
+[Speaker 0]: 我不去看一看，
+[Speaker 0]: 让他接着做，
+[Speaker 0]: 下一步不太舒服。
+[Speaker 0]: 就是我最近的状态，
+[Speaker 0]: 经常是就是 agent 在这段时间内，
+[Speaker 0]: 嗯，
+[Speaker 0]: 如果我没有把他的 token 给压榨到极致的话，
+[Speaker 0]: 嗯，
+[Speaker 0]: 我自己也不太想停下来。
+[Speaker 0]: 对，
+[Speaker 1]: 因为因为我觉得 cloud 它是六个小时，
+[Speaker 0]: 每六小时刷新一次。
+[Speaker 0]: 对，
+[Speaker 1]: 每六个小时刷新一次，
+[Speaker 1]: 然后就导致有很多人的作息都全部部乱乱比。
+[Speaker 1]: 比如说我之前看过一个小小红的笔记，
+[Speaker 1]: 说老我老公每天早上四点钟一定要起来。
+[Speaker 1]: 因为那个时候是他的 token 重置的时间，
+[Speaker 1]: 是他觉得不说点什么，
+[Speaker 1]: 不用就浪费了。
+[Speaker 0]: 对对，
+[Speaker 1]: 好变态啊，
+[Speaker 0]: 这不是挺好吗？
+[Speaker 1]: 好吗？
+[Speaker 1]: 就是我就我我就觉得听起来都感觉不可思议，
+[Speaker 1]: 就哪怕像我这样跟 AI 已经在一起协作的人，
+[Speaker 1]: 那对于那些可能现在的工作生活跟 AI 还没有完全接轨的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 他就觉得说哇塞这人有病吧，
+[Speaker 1]: 每六个小时要起来爬起来，
+[Speaker 1]: 要跟一个 AI。
+[Speaker 1]: 哪怕说一句 hello，
+[Speaker 1]: 他也觉得很开心。
+[Speaker 0]: 是我觉得大家都会上瘾的点，
+[Speaker 0]: 是因为它的张展率真的很高。
+[Speaker 0]: 就它可以你说利用的也好，
+[Speaker 0]: 还是说去调用到的计算量和算力，
+[Speaker 0]: 实在是和现实世界不是一个谅解。
+[Speaker 0]: 嗯，
+[Speaker 0]: 这个带来的冲击实在是太大。
+[Speaker 1]: 因为我在想说，
+[Speaker 1]: 其实不是每个人都想做杠杆率那么高的事情的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 不是每个人都想掌握这么多能力，
+[Speaker 1]: 很多人只是希望能够稍稍舒舒服服的呃，
+[Speaker 1]: 不争不抢的过一个普通的生活。
+[Speaker 1]: 我我觉得这个让我想到，
+[Speaker 1]: 我之前也是跟 AI 聊嘛，
+[Speaker 1]: 他跟我说了一组，
+[Speaker 1]: 我觉得很好的对比。
+[Speaker 1]: 他说对主动性强的人来说，
+[Speaker 1]:  AI 是翅膀。
+[Speaker 1]: 对疲惫的人来说，
+[Speaker 1]: 他是鞭子。
+[Speaker 1]: 对有资源的人来说，
+[Speaker 1]: 他是杠杆。
+[Speaker 1]: 对没有资源的人来说，
+[Speaker 1]: 他是更高的门槛。
+[Speaker 1]: 哦，
+[Speaker 1]: 我当时觉得说我觉得他讲的好好，
+[Speaker 0]: 首先我觉得追求安逸，
+[Speaker 0]: 他看起来是一个是一个人性本能的事情，
+[Speaker 0]: 但是他其实不太符合符合生物本能。
+[Speaker 0]: 就是生物本能当中是会知道当出现危险的时候，
+[Speaker 0]: 我们是需要承受一定的波动和风险。
+[Speaker 0]: 但现代工业革命之后的资本主义社会给了我们一个很好的温床，
+[Speaker 0]: 就是觉得我们只要把某一部分事情给做好，
+[Speaker 0]: 那么好像一切事情都可以有一个系统给我兜着底，
+[Speaker 1]: 一切都水到渠成，
+[Speaker 0]: 一切都水到渠成。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后这个事情塔勒布曾经说过一句话，
+[Speaker 0]: 叫做世界上有三样东西的上瘾，
+[Speaker 0]: 是对人非常不好的。
+[Speaker 0]: 第一种是海洛因，
+[Speaker 0]: 第二种是碳水化合物，
+[Speaker 0]: 第三种是工资。
+[Speaker 0]: 当然塔勒布一直是这样一类人，
+[Speaker 0]: 对吧？
+[Speaker 0]: 在他的世界观里面，
+[Speaker 0]: 人只只做一个非常小的分内室，
+[Speaker 0]: 并且幻想着这个事情可以永续一辈子，
+[Speaker 0]: 是一个幻觉。
+[Speaker 0]: 对这种幻觉，
+[Speaker 0]: 可能对人是对对人本身的能力是一种是一种扼杀。
+[Speaker 0]: 回到这个角度来说，
+[Speaker 0]: 是工业革命把人放到了这样位置上。
+[Speaker 0]: 在一对流水线上，
+[Speaker 0]: 你好像自己把这里的螺丝钉拧完，
+[Speaker 0]: 然后这件事儿做完就结束了。
+[Speaker 0]: 你就领好你的工资，
+[Speaker 0]: 你不用为你做的这个事情，
+[Speaker 0]: 最终产品的成果去负太多的责任。
+[Speaker 0]: 你只要把你这一步做好就行了。
+[Speaker 0]: 但这件事情我最近正好去了一趟意大利旅游。
+[Speaker 0]: 然后看到其实文艺复兴的出现的英雄豪杰是第一次，
+[Speaker 0]: 真的把人不是螺丝钉，
+[Speaker 0]: 而是能成为通才这件事情给放到纲领当中去的。
+[Speaker 0]: 所以会出现像达芬奇啊、
+[Speaker 0]: 米开朗奇罗啊那样类型的人。
+[Speaker 0]: 当年很有意思，
+[Speaker 0]: 是达芬奇在他给米兰大中爵的那个求知信当中，
+[Speaker 0]: 他前面面的九段是关于自己能够修城防指挥军事，
+[Speaker 0]: 然后怎么去做一个城市的总督等等这样类型的事情。
+[Speaker 0]: 最后一段是说，
+[Speaker 0]: 哎，
+[Speaker 0]: 我还可以画点画和做点雕塑，
+[Speaker 0]: 那是顺带手的对，
+[Speaker 0]: 那是顺带手的。
+[Speaker 0]: 而且那时候对于人的预设其实是全能的，
+[Speaker 0]: 并且能够自己尽可能为自己的事情做的去负责的，
+[Speaker 0]: 所以也会出现后面米特。
+[Speaker 0]: 朗奇罗画创世纪，
+[Speaker 0]: 他尽管是一个雕塑家，
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是他被呃放在西斯廷教堂里面去做做了十年创世记者的作品。
+[Speaker 0]: 那当时人的预设其实不光是做这样类型的事情，
+[Speaker 1]: 而且那个时候也没有艺术家这个概念。
+[Speaker 1]: 那时候他就是他就是个工匠，
+[Speaker 1]: 他理论上他就应该什么都会干，
+[Speaker 0]: 对他就是个活。
+[Speaker 0]: 甚至当时医生和画家是在一个行会里面的。
+[Speaker 0]: 当然因为这些事情之后，
+[Speaker 0]: 促使了后面的启蒙运动啊、
+[Speaker 0]: 中业革命啊这些东西。
+[Speaker 0]: 然后中业革命把人驯化到了一个好像人只能做螺丝钉的状态，
+[Speaker 1]: 大家就无限的分工。
+[Speaker 1]: 然后分工越来越细，
+[Speaker 0]: 分工越来越细。
+[Speaker 0]: 那这件事情到今天智能革命其实可能是会终结的。
+[Speaker 0]: 我们刚刚聊了那么多，
+[Speaker 0]: 其实他背后的件件事情，
+[Speaker 0]: 其实就是说我们如果只做我们分工内的事情，
+[Speaker 0]:  AI 一定能做的比我们好。
+[Speaker 0]: 因为 AI 最擅长的那件事情，
+[Speaker 0]: 就是在一个有限的规则之内去不断的重复，
+[Speaker 0]: 并且把它精进。
+[Speaker 0]: 那么而人最擅长的事情回到前面说文艺复兴那件事情，
+[Speaker 0]: 其实是在一个不确定性的，
+[Speaker 0]: 有创造性的空间里面去，
+[Speaker 0]: 尽可能的做这么多事情，
+[Speaker 0]: 尽可能的端到端为自己做的东西负责，
+[Speaker 0]: 并且为他们的美和重要性负责。
+[Speaker 0]: 那这事情可能是可能是 AI 真的能把大家从专业化分工当中解放出来的。
+[Speaker 0]: 所以它有点像着三阶段，
+[Speaker 0]: 从文艺复兴开始那一推。
+[Speaker 0]: 其实人对优秀的人的定义是人不是螺丝钉。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是到工业革命之后，
+[Speaker 0]: 其实人被放到了一个螺丝钉的位置上，
+[Speaker 0]: 因为这样生产力能最高。
+[Speaker 0]: 但是有了智能革命之后，
+[Speaker 0]: 可能人不再需要是螺丝钉了，
+[Speaker 0]: 而且这可能是更好的状态。
+[Speaker 0]: 就是大家知道了怎么分工，
+[Speaker 0]: 并且不用沉溺于那个过度专业化的螺丝钉分工当中。
+[Speaker 1]: 当你想做一件事情，
+[Speaker 1]: 以前你会觉得说我可能得去找各种各样的人来帮我去做，
+[Speaker 1]: 或者要跟各各种各样的人沟通协作，
+[Speaker 1]: 就事实是不太可能实现的。
+[Speaker 1]: 但是现在有了 AI 的辅助，
+[Speaker 1]: 其实很多事情他都可能变为现实。
+[Speaker 1]: 只要你有这样的想法是，
+[Speaker 1]: 然后我刚才你在讲的过程中，
+[Speaker 1]: 我也会在想说，
+[Speaker 1]: 比如说我们会讲父母这一代对孩子的期待，
+[Speaker 1]: 就是希望他能过一个按部就班的生活。
+[Speaker 1]: 那你看按部就班这种词，
+[Speaker 1]: 可能就是这一百年以来才出现的词。
+[Speaker 1]: 上班可能就是过去几十年才出现的词。
+[Speaker 1]: 是，
+[Speaker 1]: 只是因为我们生下来之后，
+[Speaker 1]: 这个词它已经在了。
+[Speaker 1]: 我们们觉得这个东西好像就像是那个太阳东升西落一样，
+[Speaker 1]: 它是一个颠簸不变的定理。
+[Speaker 1]: 当我们把历史的时间拉长这一段时间，
+[Speaker 1]: 它反而是一个异常的状态，
+[Speaker 0]: 是就专业化分钟，
+[Speaker 0]: 不是人的。
+[Speaker 0]: 自然状态，
+[Speaker 0]: 是某一个特定科技革命带来的时代性产。
+[Speaker 1]: 嗯，
+[Speaker 1]: 这个让我想起之前我们有一个嘉宾，
+[Speaker 1]: 他引用了一句话，
+[Speaker 1]: 他一个人应该会修补衣物，
+[Speaker 1]: 会造房子，
+[Speaker 1]: 会写十四行诗，
+[Speaker 1]: 会拿起兵器战斗等等等等等等。
+[Speaker 1]: 哦，
+[Speaker 0]: 这是海因来因了啊。
+[Speaker 0]: 对对对对对对，
+[Speaker 1]: 对他就说只有昆虫才专业化。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 就一个人他本来就应该是全能，
+[Speaker 1]: 你本来就是应该掌握各种各样的技能。
+[Speaker 1]: 只是可能我们之前我们的教育也好，
+[Speaker 1]: 我们习习惯的社会要把我们束缚住了。
+[Speaker 1]: 当然我觉得听到这几也有些人会觉得有点兴奋，
+[Speaker 1]: 好像可能自己的舒服可以被打开。
+[Speaker 1]: 但是可能对于很多人来说是一种惧怕。
+[Speaker 1]: 就是难道我还要再学很多东西吗？
+[Speaker 1]: 我还要去掌握很多东西吗？
+[Speaker 1]: 我已经上了十几年的学，
+[Speaker 1]: 也上了十几年的班。
+[Speaker 1]: 我已经很累，
+[Speaker 1]: 很辛苦了，
+[Speaker 1]: 为什么偏偏是我要遇到这样的一次巨大的技术革命，
+[Speaker 0]: 还是回到前面说的那个人？
+[Speaker 0]: 本身的比 AI 强的能力，
+[Speaker 0]: 就是拥抱不确定性的能力。
+[Speaker 0]: 我觉得就就是遇到这些事情的时候，
+[Speaker 0]: 可能所有人都比自己想到的适应能力要更强一些。
+[Speaker 0]: 只是只是当听到这句话的时候，
+[Speaker 0]: 可能会觉得不是嗯，
+[Speaker 0]: 或者说想要卖出一个自己之前已经适适适应的某一个舒适区嘛。
+[Speaker 0]: 对舒适区，
+[Speaker 0]: 但真的卖出去之后可能会发现比之前舒服，
+[Speaker 0]: 未必不可能。
+[Speaker 0]: 我觉得就如果大家都慢慢的适应这件事情之后，
+[Speaker 0]: 当年凯恩斯说的那个凯恩斯在上世纪大萧条的时候，
+[Speaker 0]: 不是说呃未来人类应该一周只工作十五个小时嘛，
+[Speaker 0]: 对吧？
+[Speaker 0]: 好的好的，
+[Speaker 0]: 我觉得这件事情一定是往那个方向走的，
+[Speaker 0]: 就是说不定是四天工作制或者怎么样。
+[Speaker 1]: 如果我们回到 AI 这件事情上来说，
+[Speaker 1]: 现在大众对 AI 最容易误判的事情有哪些？
+[Speaker 1]: 比如说呃有哪些是大家高估的，
+[Speaker 1]: 有哪些是大家低估的？
+[Speaker 1]: 好，
+[Speaker 1]: 从你的工作生活的体感来讲，
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃我觉得我觉得先说先说低估的吧，
+[Speaker 0]: 到底知识工作者会被多大程度的被 AI 的自动化？
+[Speaker 0]: 这件事情就是 AI 今天的能力其实被抵住了，
+[Speaker 1]: 现在还处于低估的状态吗？
+[Speaker 0]: 我相信如果大家没有用到最好的 AI agents 的时候，
+[Speaker 0]: 一定是低估它的能力的。
+[Speaker 0]: 因为没有很好的产品让所有人都感受到这个能力。
+[Speaker 0]: 大家就是听到这个很抽象的说法的时候，
+[Speaker 0]: 可能还是不能够立马感受到他到底能解决多少事情。
+[Speaker 0]: 嗯，
+[Speaker 0]: 这个是我想表达这个层面的底路，
+[Speaker 0]: 以及这个世界正在因为它而产生的商业化收入。
+[Speaker 0]: 我觉得也被大家抵估了。
+[Speaker 0]: 收入角度来说还是刚刚说的那种，
+[Speaker 0]: 就是它就是人类历史上增长最快的一个产品，
+[Speaker 0]: 而且没有之一 cloud 对 cloud。
+[Speaker 0]: 而且今年下半年会发生一件事情，
+[Speaker 0]: 就是 open AI and shrupige space sets，
+[Speaker 0]: 这三家公司全部都未上市，
+[Speaker 0]: 全部都会上市。
+[Speaker 0]: 之后大家之前一直说的呃，
+[Speaker 0]:  meda seven，
+[Speaker 0]: 也就是七姐妹，
+[Speaker 0]: 一下子就会重新洗牌。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就有一些公司一定会因为 AI 落伍。
+[Speaker 0]: 比如说今天看可能是微软，
+[Speaker 0]: 可能是亚马逊，
+[Speaker 0]: 但到明天看不知道，
+[Speaker 0]: 对，
+[Speaker 0]: 可能是 meta。
+[Speaker 0]: 那么到时候到底谁是这个世界上最好的公司？
+[Speaker 0]: 这个这个是要大大打一个问号的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 很有可能在那个时候模型加上 agent，
+[Speaker 0]: 就是 cloud cold，
+[Speaker 0]: 加上 codets 以及背后的 and shroropet，
+[Speaker 0]: 加上 open IGI 公司，
+[Speaker 0]: 就是世界上最好的资产。
+[Speaker 0]: 嗯，
+[Speaker 0]: 这件事情我觉得大家先发表嘉宾个意见。
+[Speaker 1]: 嗯，
+[Speaker 0]: 就是在那个时在那的时间，
+[Speaker 0]: 市场很有可能会反映在这件事情上都会反映在价格上。
+[Speaker 0]: 呃，
+[Speaker 0]: 这件事情我觉得还是被嘀部的关键。
+[Speaker 1]: 请问那个事情，
+[Speaker 1]: 其其实我有点有几点想补充。
+[Speaker 1]: 就包括像比如说我我有一些朋友也会去参加各种各样的课程，
+[Speaker 1]: 可能都是一些呃非常知名的各领领域的教程。
+[Speaker 1]: 然后讲说结合他们的领域和 AI，
+[Speaker 1]: 然后做这样的一些主题演讲或者是课程。
+[Speaker 1]: 然后他上了几天之后，
+[Speaker 1]: 他发现非常的失望。
+[Speaker 1]: 因为他意识到那些各个领域的专家，
+[Speaker 1]: 那些学者，
+[Speaker 1]: 他们只是浅浅的用了一下，
+[Speaker 1]: 可能跟 AI 聊一聊天。
+[Speaker 1]: 然后他觉得他对 AI 已经有了足够的了解。
+[Speaker 1]: 然后他就会讲，
+[Speaker 1]: 比如说从经济啊，
+[Speaker 1]: 从哲学啊等等角度来看，
+[Speaker 1]:  AI 和 AI 时代。
+[Speaker 1]: 然后这些就会让他觉得还挺失望的。
+[Speaker 1]: 因为他发现这些各个领域专家对 AI 的了解和使用远远不够，
+[Speaker 1]: 确实就像你说的是低估的状态。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 而且他们能成为专家，
+[Speaker 0]: 代表着他们在上一个时代很成功。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那么他就拿着上一个时代的旧地图，
+[Speaker 0]: 他们一定就在用 AI 这件事情上会带有自己的成见。
+[Speaker 0]: 他不是从 AI 原生的去思考思考这个问题的。
+[Speaker 0]: 我觉得这种问题还很难避免，
+[Speaker 0]: 就像今天马斯特做的 XAI，
+[Speaker 0]: 也没有如期预期那样能够追上，
+[Speaker 0]: 或甚至超越 open AI 或者 enshoping。
+[Speaker 0]: 尽管它一度是世界上算力最大的公司，
+[Speaker 1]: 因为他在旧时代赢赢赢了，
+[Speaker 0]: 然后赢过很多次，
+[Speaker 0]: 他的路径依赖一定不能让他在新时代去做到最好。
+[Speaker 1]: 所以这才是现在的中年人危机啊，
+[Speaker 1]: 大家都觉得说新时代还是新脑子好用，
+[Speaker 0]: 这不是好事儿。
+[Speaker 0]: 每一一代人每一代人的机会，
+[Speaker 0]: 对大家的历史使命都有自己的历史使命。
+[Speaker 0]: 嗯，
+[Speaker 0]: 每这样每一代人才能有才能有机会嘛。
+[Speaker 0]: 然后说到第二点，
+[Speaker 0]: 对嘀估这件事情，
+[Speaker 0]: 投入角度来说，
+[Speaker 0]: 人类历史上集中投入最多的东西可能是美苏冷战时期的阿波罗登月计划。
+[Speaker 0]: 嗯，
+[Speaker 0]: 即使是阿波罗登月计划，
+[Speaker 0]: 按照 CPAI 算，
+[Speaker 0]: 到今天整整十三年，
+[Speaker 0]: 投入大概在两千到三千亿美金左右。
+[Speaker 0]: 而今年 google 给大家的预期就是要在 AI 这一的层面投入两千亿美金左右。
+[Speaker 0]: 一家公司一家公司如果把 meja seven 加上 oracle 这些公司所声称自己要投入的 AI ad ad habs 加起来可能是大几千亿美金甚至更多的一个谅解。
+[Speaker 0]: 所以我觉得大家还是低估了 AI 这件事情的重要程度，
+[Speaker 0]: 以及这些科技巨头认为这件事情对自己的重要程度。
+[Speaker 1]: 当你提到这大公司，
+[Speaker 1]: 尤其是美国的这些大公司的投入，
+[Speaker 1]: 可能很多人会觉得说离我生活很遥远。
+[Speaker 1]: 对，
+[Speaker 1]: 但其实包括最近一两个月，
+[Speaker 1]: 我们也能看到很多媒体在讨论，
+[Speaker 1]: 就是这些大公司，
+[Speaker 1]: 因为他们想 all in AI。
+[Speaker 1]: 对然后造成的资源浪费、
+[Speaker 1]: 环境污染等等。
+[Speaker 1]: 那些是切实的影响到很多尤其是发展中国家的人，
+[Speaker 1]: 而且而且最悲伤的最悲伤的一点是，
+[Speaker 1]: 大家发现自己拿这件事情一点办法都没有。
+[Speaker 0]: 嗯，
+[Speaker 1]: 呃因为大公司才有资源，
+[Speaker 1]: 他有钱。
+[Speaker 1]: 然后他尤其是美国的这个大公司，
+[Speaker 1]: 他跟这个监管层面也有千丝万缕的关系。
+[Speaker 1]: 对，
+[Speaker 1]: 那么比如说西班牙的农民或者是南美的一个土地主，
+[Speaker 1]: 他可能就没有任何的办法去来面对这样的事情，
+[Speaker 1]: 就是他你抵抗不了。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 我现在分分化出了两种想法。
+[Speaker 0]: 嗯，
+[Speaker 0]: 第一种就是如果从偏环保的角度来说，
+[Speaker 0]: 算力中心真的产生的二氧化碳和能源消耗太多了，
+[Speaker 0]: 这个事情是切实存在的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是从技术加速主义的角度来说的话，
+[Speaker 0]: 现在人类环境已经有很多科学没有办法解决的问题。
+[Speaker 0]: 有了 AI 之后，
+[Speaker 0]: 可能能大大加速他们的解决。
+[Speaker 0]: 比如说全球变暖，
+[Speaker 0]: 我想说的点是在于 AI 能够加速科学发现的文艺复兴，
+[Speaker 0]: 嗯，
+[Speaker 0]: 进而让我们对能源的利用效率达到一种新的高度。
+[Speaker 0]: 那么现在看起来为了发展必须承受的代价，
+[Speaker 0]: 系统就是以个体的牺牲来进步的。
+[Speaker 0]: 呃，
+[Speaker 0]: 每一个系统都是这样，
+[Speaker 0]: 就是追逐是以一大批创业公司的死掉而繁荣的。
+[Speaker 1]: 可是如果发生在你身上，
+[Speaker 1]: 你还能这么淡然吗？
+[Speaker 0]: 不能我他不发生在我身上，
+[Speaker 0]: 我都不能这么淡然。
+[Speaker 1]: 呃，
+[Speaker 1]: 我想起前段时间应该是纽约时报上的一篇文章，
+[Speaker 1]: 引起了非常多的讨论。
+[Speaker 1]: 他他提出了一个很有意思的脑洞。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是说这些恶行或者是这些坏的事情，
+[Speaker 1]: 就是按照不同的层级，
+[Speaker 1]: 哪些是人可以接受的。
+[Speaker 1]: 就是他就是他讨论的缘起，
+[Speaker 1]: 就是有人给赛姆奥特曼的豪宅丢了那个燃烧瓶嘛。
+[Speaker 1]: 对啊，
+[Speaker 1]: 就很多人说这个人犯法呀怎么怎么样。
+[Speaker 1]: 当然当然有很多人为他叫好，
+[Speaker 1]: 觉得他替大家出了一口气。
+[Speaker 1]: 那么然后那篇文章在讨论说什么样的恶行是大家觉得 OK 的。
+[Speaker 1]: 比如说可能随地乱丢垃圾，
+[Speaker 1]: 那比如说我去便利店小偷小摸一下，
+[Speaker 1]: 很多人觉得这样不行，
+[Speaker 1]: 这样是违法犯罪的。
+[Speaker 1]: 但是与此同时，
+[Speaker 1]: 这些大公司也好，
+[Speaker 1]: 富豪也好，
+[Speaker 1]: 他们在把大量的资源嗯浪费在这种商业竞争上。
+[Speaker 1]: 而在这个过程中，
+[Speaker 1]: 可以会比如说污染环境，
+[Speaker 1]: 呃，
+[Speaker 1]: 会消耗大量的污不必要的资源等等。
+[Speaker 1]: 但是大家其实完全 OK，
+[Speaker 1]: 大家对于一个人在便利店里顺一个东西觉得深恶痛绝。
+[Speaker 1]: 但是对这些富豪或者大公司的这些行径，
+[Speaker 1]: 大家觉得好像就是已经习惯了接受这个事情。
+[Speaker 1]: 我觉得这篇文章还挺有趣的，
+[Speaker 1]: 所以他引起了很多的讨论，
+[Speaker 0]: 我也不知道这是一种 OK，
+[Speaker 0]: 还是一种无能为力哦。
+[Speaker 0]: 就像就像如果你在三年前跟我说，
+[Speaker 0]: 特朗普要把指令拦道拿下，
+[Speaker 0]: 我会觉得这是一件非常荒谬的事情。
+[Speaker 0]: 就是这些 o 不 OK 的边界，
+[Speaker 0]: 我觉得实在是太难定义了。
+[Speaker 0]: 如果光说 AI 这件事情本身，
+[Speaker 0]: 嗯，
+[Speaker 0]: 大家觉得 OK 的点还是觉得他对生产力的释放真的足够大。
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以大家会默许这件事情发生，
+[Speaker 0]: 并且善意的假设是他们的那些研发成本被集中力量办大事了之后，
+[Speaker 0]: 能够相对平等的分到大部分人身上。
+[Speaker 1]: 对乐乐观的乐观的假设。
+[Speaker 0]: 悲观的假设是说搞 AI 的这批人会上车关门，
+[Speaker 0]: 有点像一个科技领域的诺亚方舟，
+[Speaker 0]: 对吧？
+[Speaker 0]: 就是有一部分人利用 AI 达到了十倍百倍的生产力，
+[Speaker 0]: 嗯，
+[Speaker 0]: 但更多的人可能都不用工作了，
+[Speaker 0]: 被替代了。
+[Speaker 0]: 嗯，
+[Speaker 1]: 不是不用工作，
+[Speaker 1]: 是没有工作呃，
+[Speaker 1]: 没有工作被被剥夺。
+[Speaker 0]: 对对对，
+[Speaker 0]: 那到那个时候我觉得也不用想的太坏。
+[Speaker 0]: 因为可能劳动的定义，
+[Speaker 0]: 资本主义的定义和之前都不一样了。
+[Speaker 0]: 就是因为之前我们是靠劳动来嗯嗯来证明自己的价值，
+[Speaker 0]: 来来让自己有成就感的同时，
+[Speaker 0]: 获得一定的养活家庭和养活自己的钱。
+[Speaker 0]: 但到那个时候，
+[Speaker 0]: 他只能定义不太一样。
+[Speaker 0]: 对，
+[Speaker 0]: 嗯，
+[Speaker 1]: 那前面我们聊聊了两个低估嘛，
+[Speaker 1]: 有没有高估的招租的？
+[Speaker 0]: 我觉得第一大家招租的事情是，
+[Speaker 0]:  AI 一下子能帮我把事解决了。
+[Speaker 0]: 嗯，
+[Speaker 0]:  AI 不是这样的一个东西。
+[Speaker 0]:  AI 是一个需要大家去花一些时间去适应和合作的同事，
+[Speaker 0]: 但还是要有一些耐心，
+[Speaker 0]: 不要招猪。
+[Speaker 0]:  AI 现在一下子能把任务完成，
+[Speaker 1]: 擅长和 AI 沟通这件事情。
+[Speaker 1]: 我觉得目前或者是短期它不可能成为一个普遍的能力，
+[Speaker 1]: 对，
+[Speaker 1]: 目前还是只是少部分人掌握这个能力。
+[Speaker 1]: 对而且我觉得好消息是大家其实是从同一起跑线起跑的。
+[Speaker 1]: 不管你是一个高中生，
+[Speaker 1]: 还是你是一个应届大学生，
+[Speaker 1]: 还是你是一个四十岁的中层，
+[Speaker 1]: 大家都是一个起跑跑，
+[Speaker 1]: 开始赛跑的对嗯，
+[Speaker 1]: 而更年轻的人，
+[Speaker 1]: 他思想更不僵化。
+[Speaker 1]: 嗯，
+[Speaker 1]: 也许你能够训练出和 AI 更好的沟通能力，
+[Speaker 1]: 让他更为你所用和你互补。
+[Speaker 1]: 对，
+[Speaker 0]: 一定是这样子的。
+[Speaker 0]: 能把人管理好的人，
+[Speaker 0]: 不一定能管理好 agent。
+[Speaker 0]: 然后可能不同人的工作方式在下一个时代都是不一样的。
+[Speaker 0]: 之前比如说这这就是这也是一个梗，
+[Speaker 0]: 就是古法编程的人和用 agent 编程的人互相衔接，
+[Speaker 0]: 互相的代码质量不行。
+[Speaker 0]: 因为两个时代的东西，
+[Speaker 0]: 它就是不兼容的。
+[Speaker 0]: 可能现在习惯了 vipe coding ding，
+[Speaker 0]: 直接用 agent 粗暴写代码的方方式的人遇到一个问题，
+[Speaker 0]: 他没有办法解决，
+[Speaker 0]: 他就直接用 AI 再生成一遍。
+[Speaker 0]: 而一个传统思维的人，
+[Speaker 0]: 可能就是我要把它修修补补，
+[Speaker 0]: 给修好之前的读法编程的人。
+[Speaker 0]: 因为它代码是写给人看的，
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以这些东西对 agent 来说不一定高效。
+[Speaker 0]: 那这些东西可能都是旧时代的人和新时代的人会发生的一些思维方式的冲突。
+[Speaker 0]: 对所以所以我我觉得是要相信年轻人的力量，
+[Speaker 0]: 而且年轻人要相信自己自己用 AI 的能力。
+[Speaker 0]: 因为自己是长在一个新时代的，
+[Speaker 0]: 不管是职场也好，
+[Speaker 0]: 还是技术范式当中也好的那种。
+[Speaker 0]: 每一次技术革命从头开始发生变化的时候，
+[Speaker 0]: 恰恰是我们说的俗一点也好，
+[Speaker 0]: 阶级跃迁我们说的不俗一点也好，
+[Speaker 0]: 就是思维范式的变化。
+[Speaker 0]: 这个东西一定是年轻人反而能能能做好的东西。
+[Speaker 0]: 对，
+[Speaker 0]: 老邓是很难很难开 ch up 的。
+[Speaker 1]: 因为我们回到那个高估了 AI 的能力这个话题，
+[Speaker 0]: 嗯，
+[Speaker 1]: 就是你不要指望 AI 能够一下子帮你把事情做好，
+[Speaker 0]: 对他带来的影响就是不用太焦虑，
+[Speaker 0]:  AI 一下能把我给替代了。
+[Speaker 1]: 嗯，
+[Speaker 1]: 就是对，
+[Speaker 1]: 这，
+[Speaker 1]: 这也是我觉得特别想问你的就是 AI 的渗透率或者对人的替代率，
+[Speaker 1]: 会不会也没有我们想象中的那么快？
+[Speaker 0]: 嗯，
+[Speaker 0]: 我觉得没有那么快。
+[Speaker 0]: 嗯，
+[Speaker 0]: 我觉得大家不妨可以从几个问题的角度来说，
+[Speaker 0]: 去问一问自己的工作。
+[Speaker 0]: 第一是我今天的工作，
+[Speaker 0]: 呃，
+[Speaker 0]: 是不是能够大幅的有 AI 来介入帮忙。
+[Speaker 0]: 你觉得 AI 进来都帮不了忙。
+[Speaker 0]: 那么可能你的工作很大，
+[Speaker 0]: 时时时间内都不会被 AI 影响到。
+[Speaker 1]: 我觉得两种可能，
+[Speaker 1]: 一种就是嗯你没用，
+[Speaker 1]: 你没用起来，
+[Speaker 1]: 另一种是 AI 确实替代不了啊。
+[Speaker 0]: 是是是我们的假设是这个做出判断的人是正确的，
+[Speaker 0]: 我们的假设是正确的话。
+[Speaker 0]: 好，
+[Speaker 0]: 对，
+[Speaker 0]: 然后第二个问题是 i 如果进来了之后，
+[Speaker 0]: 你和你的同事，
+[Speaker 0]: 你的部门的人会不会显著的变少，
+[Speaker 0]: 这个可能也是会发生分化的。
+[Speaker 0]: 如果你觉得即使 AI 进来了之后，
+[Speaker 0]: 人也不会真的变少。
+[Speaker 0]: 这些人还是需要的话，
+[Speaker 0]: 那好像也还好，
+[Speaker 0]: 而且在很多岗位上也会出现这种类型的情况。
+[Speaker 0]: 因为人需要做 review，
+[Speaker 0]: 人需要做那个呃那个把 AI 串联到一起那些类型的事情。
+[Speaker 0]: 对，
+[Speaker 1]: 这个能举一些例子吗？
+[Speaker 1]: 比如说在 AI 时代反而增加了岗位，
+[Speaker 0]: 这是个很好的问题。
+[Speaker 0]: 就是我觉得我觉得很难在现在这个阶段很难就是说哦有一类涨位掌位破充了，
+[Speaker 0]: 就是呃 FDE front deployment engineer，
+[Speaker 0]: 就是暂时还没有个很好的中中文词，
+[Speaker 0]: 对应他做的那个事情，
+[Speaker 0]: 其实就是进入到企业当中帮企业去用。
+[Speaker 2]: 好也爱嗯。
+[Speaker 0]: 最近 open AI and roropict 和 IT 咨询当中的创业公司，
+[Speaker 0]: 会有独角兽来试着帮更多的企业去，
+[Speaker 0]: 比如说财富五百强嗯，
+[Speaker 0]: 去把 AI 给用好。
+[Speaker 1]: 对，
+[Speaker 1]: 国内现在挺多公司都在老板，
+[Speaker 1]: 也会请这样的专家来，
+[Speaker 1]: 但是只是说质量良莠不齐。
+[Speaker 0]: 对这种趋势我觉得定定在出，
+[Speaker 0]: 但但是这岗岗位还是不会觉得得是是一个乐观的新增长位的原因。
+[Speaker 1]: 哎，
+[Speaker 1]: 我觉得也不长久。
+[Speaker 0]: 对，
+[Speaker 0]: 呃，
+[Speaker 0]: 我比较担心他的加总还是变少的。
+[Speaker 0]: 就是你看起来是多了这个岗位，
+[Speaker 0]: 但是你会让那一个财富五百强的公司当中的某一个岗位的人反而变少。
+[Speaker 1]: 对，
+[Speaker 1]: 增加你这个岗位，
+[Speaker 1]: 但是整个公司少了五百个岗位。
+[Speaker 0]: 对呃，
+[Speaker 0]: 我觉得这是一个非常微妙的问题，
+[Speaker 0]: 就是 AI 革命是暂时一个没有看到真正创造新岗位的一个科技革命。
+[Speaker 0]: 这个事情在之前不常见，
+[Speaker 0]: 我能想到的例子其实只有只有两个，
+[Speaker 0]: 一个是那个恩格斯所谓的三十年停滞嘛，
+[Speaker 0]: 就是珍妮纺纱机出现之后，
+[Speaker 0]: 嗯，
+[Speaker 0]: 很长一段时间内大家不知道手手手手工工人能做什么。
+[Speaker 0]: 然后还有就是古腾堡的印刷机出现了之后，
+[Speaker 0]: 大家不知道原来的那种做呃做传统印刷，
+[Speaker 0]: 或者说做文字工作，
+[Speaker 0]: 那些的人可以做什么。
+[Speaker 1]: 现在好了，
+[Speaker 1]: 还是个通用模型，
+[Speaker 1]: 各个行业的人都不知道自己之后还能做什么。
+[Speaker 0]: 是的，
+[Speaker 0]: 所以在这个事情我觉得没有人能够预测未来。
+[Speaker 0]: 我只能说既然举这两个例子，
+[Speaker 0]: 那这两个例子类比给我的启发还是偏乐观的。
+[Speaker 0]: 就是经过了三十年停滞和经过了印刷革命之后，
+[Speaker 0]: 工业革命真正的大幅的提升了生产力。
+[Speaker 0]: 然后印刷业带来了科学革命和后面的一系列文化知识内容的繁盛。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 但只是说在科技革命发生的，
+[Speaker 0]: 当时呃，
+[Speaker 0]: 人没有办法预测未来。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 但是相信人一定能有某些需求去填充整个社会的岗位。
+[Speaker 1]: 我觉得更泛的说，
+[Speaker 1]: 就是人总能找到自己的活法。
+[Speaker 1]: 对，
+[Speaker 1]: 就即便现在我们定义的工作它消失了，
+[Speaker 1]: 被 AI 替代了，
+[Speaker 1]: 会发明新的工作。
+[Speaker 1]: 只是那个工作，
+[Speaker 1]: 它可能不是以劳累为标签或者印象的，
+[Speaker 1]: 而可能是一种其他的形式是什么。
+[Speaker 1]: 我们不知道，
+[Speaker 1]: 就像三年前，
+[Speaker 1]: 我们也想象不到 AI 是这样的一个时间的路径。
+[Speaker 1]: 但我在想说，
+[Speaker 1]: 现在假设大家已经接受了，
+[Speaker 1]: 说 AI 时代已经到来，
+[Speaker 1]: 但每天那么多的新闻，
+[Speaker 1]: 那作为一个普通人，
+[Speaker 1]: 怎么样区分这些噪音和信号呢？
+[Speaker 1]: 哪些是自己应该去关注的，
+[Speaker 1]: 去了解的哪些是噪音。
+[Speaker 1]: 其实我不太需要关心。
+[Speaker 1]: 就举例来说可能有些人会抱怨说，
+[Speaker 1]: 哎呀，
+[Speaker 1]: 这个东西我不会用，
+[Speaker 1]: 那个东西我用不起来。
+[Speaker 1]: 那可能还有另外一部分人说没关系，
+[Speaker 1]: 再过几个月，
+[Speaker 1]: 可能大模型就帮你把这些问题解决了，
+[Speaker 1]: 你不需要学。
+[Speaker 1]: 嗯，
+[Speaker 0]: 我觉得首先是你这东西刚出来，
+[Speaker 0]: 可以稍微等一等。
+[Speaker 0]: 嗯，
+[Speaker 0]: 比如说我觉得如果不是从业者的话，
+[Speaker 1]: 不是像 kiss 老师这样的对，
+[Speaker 0]: 因为我本身工作需要我去了解最前沿的东西，
+[Speaker 0]: 并且去甄别信号。
+[Speaker 0]: 但对大家来说，
+[Speaker 0]: 最好的信号就是时间就是时间的检验。
+[Speaker 0]: 呃，
+[Speaker 0]: 一周半个月一个月之后，
+[Speaker 0]: 大家还真的在讨论这件东西，
+[Speaker 0]: 那这东西一般有点意思。
+[Speaker 0]: 然后第二是如果这个东西半个月一个月之后还在试试，
+[Speaker 0]: 能不能上手去用它。
+[Speaker 0]: 因为因为纸上得来终觉浅，
+[Speaker 0]: 能用起来的就多跟他交互和体验。
+[Speaker 0]: 外界怎么说，
+[Speaker 0]: 其实没有那么重要，
+[Speaker 0]: 就是一手经验和二手经验在 AI 时代本身带来的变化可能会更加大。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃呃然后第三个可能就是好的好的好的，
+[Speaker 0]: 用最好的东西就是所谓用最好的东西是暂时不要相信太多的平替和呃那些所谓出来一夜之间出来能颠覆 open AI and shropid deep seat 豆包的东西。
+[Speaker 0]: 呃，
+[Speaker 0]: 我不说它百分之一百不可能。
+[Speaker 0]: 但对于我们大家体验来说，
+[Speaker 0]: 嗯，
+[Speaker 0]: 不需要去考虑那种呃极小概率的肥尾事件。
+[Speaker 0]: 大家只要去尽自己可能去用到最好的模型，
+[Speaker 0]: 最好的 agent，
+[Speaker 0]: 去跟他们打打交道，
+[Speaker 0]: 体验体验自己有没有什么工作能被他给替代掉。
+[Speaker 0]: 我觉得已经可以已经可以身着世世世界上百分之九十五的人，
+[Speaker 1]: 不需要看那么多 AI 自媒体，
+[Speaker 1]: 因为感觉每天 AI 这个世界都要被颠覆。
+[Speaker 1]: 一次 AI 自媒体，
+[Speaker 0]: 大部分人自己也不用 AI，
+[Speaker 0]: 对吧？
+[Speaker 0]: 就他们的 KPI 是让更多的人点击他们的文章。
+[Speaker 0]: 就像如果有人只是出来开车，
+[Speaker 0]: 教大家怎么炒股，
+[Speaker 0]: 他炒股一定炒的不是最好的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那么不如去理解一下，
+[Speaker 0]: 那那些所谓的招手是怎么做出来的 AI，
+[Speaker 0]: 然后它的产品大概是什么样的，
+[Speaker 1]: 也就与其看一百条新闻，
+[Speaker 1]: 不如你找一个能用的模型，
+[Speaker 1]: 你先用起来。
+[Speaker 0]: 对，
+[Speaker 0]: 就是要要知道那些自媒体其实在利用大家的焦虑焦虑。
+[Speaker 1]: 对，
+[Speaker 1]: 但但是的工作不会，
+[Speaker 1]: 有的时候会觉得说哇，
+[Speaker 1]: 前几个月那么辛苦的在研究的一个东西突然就被颠覆了。
+[Speaker 1]: 那我之前那一周那一个月那个熬的那个夜或者是焦虑的那些日子都白费了，
+[Speaker 1]: 不会有这种感觉嘛。
+[Speaker 1]: 因为它颠覆迭代的太快了，
+[Speaker 0]: 对我个人还好的点在于，
+[Speaker 0]: 我就是喜欢看一个大浪之上的风口浪尖到底在发生什么变化。
+[Speaker 0]: 嗯，
+[Speaker 0]: 而且我只关注最重要的一些东西，
+[Speaker 0]: 可能是因为之前就是在这个领域做研究的原因，
+[Speaker 0]: 我很快就能晒出呃不重要的重要的。
+[Speaker 0]: 对对对，
+[Speaker 0]: 就是这种判断力可能给了我一些忙，
+[Speaker 0]: 然后有一个类比。
+[Speaker 0]: 比如说我有一次在菲律宾潜水的时候，
+[Speaker 0]: 我会看到一条鲨鱼游过去之后，
+[Speaker 0]: 它身边会带着很多的小鱼，
+[Speaker 0]: 一个鲨鱼，
+[Speaker 0]: 它吃下来的东西，
+[Speaker 0]: 当中的那些微生物和那些残渣就足以养活身边的小鱼了。
+[Speaker 0]: 但是对于观察者来说，
+[Speaker 0]: 最重要的是那条鲨鱼。
+[Speaker 0]: 因为这条鲨鱼决定了这里的生态系统，
+[Speaker 0]: 大部分的东西。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 所以带着这样的心态去看的话，
+[Speaker 0]: 一样的 open AIM shopping。
+[Speaker 0]: 这样公司就是 AI 领域的鲨鱼。
+[Speaker 0]: 但除此之外，
+[Speaker 0]: 那些自媒体说大部分东西可能只是身边那些小鱼吃吃残渣的东西，
+[Speaker 0]: 那么我觉得对于大部分人来说没有那么重要。
+[Speaker 0]: 嗯，
+[Speaker 1]: 因为给我感觉是其实离 AI 行业更近的人，
+[Speaker 1]: 他们就是展现出了一种又兴奋又焦虑的一种状态，
+[Speaker 1]: 就他们的焦虑感和兴奋感都是常人的很多很多的。
+[Speaker 1]: 被是因为他们吸收的噪音太多了嘛。
+[Speaker 0]: 啊我觉得噪音是噪音是真的太多了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后呃我觉得焦虑的点倒不是因为自己之前研究的东西一下子被颠覆了，
+[Speaker 0]: 而是因为未来太难以预测了。
+[Speaker 0]: 就对我个人而言，
+[Speaker 0]: 我觉得是这样子的，
+[Speaker 0]: 就是我要在一个完全新时代的地图里面去航海。
+[Speaker 0]: 而借着借着借着海域的风浪又太大了，
+[Speaker 0]: 就是时不时会有一个东西把我之前的东西拍掉。
+[Speaker 0]: 它难免会带来一些一些焦虑感，
+[Speaker 1]: 就是越了解 AI 到底能做到什么地步的人，
+[Speaker 1]: 可能就会越焦虑。
+[Speaker 1]: 因为他知道他能替代的事情太多了。
+[Speaker 0]: 我曾经也进入那个我我身边很多朋友也进入那个状态。
+[Speaker 0]: 但是如果心态切换成有很多，
+[Speaker 0]: 我之前做不了的事，
+[Speaker 0]: 他也能帮我做了。
+[Speaker 0]: 那么这些焦虑其实会好很多。
+[Speaker 1]: 可是如果你会的东西，
+[Speaker 1]:  AI 能做的更好，
+[Speaker 1]: 你不会的那个东西他也会做，
+[Speaker 1]: 那他不是一个双重取代吗？
+[Speaker 0]: 人有一个东西，
+[Speaker 0]: 他不会就是就是张张反复提到的那个品味判断力。
+[Speaker 0]: 面对不确定性时做决策能力这件事情，
+[Speaker 0]:  AI 一定是我觉得甚至不是短期内不会是很长一段时间内都不会的。
+[Speaker 0]: 呃，
+[Speaker 0]: 这种判断很大程度取决于每个人自己的世界观、
+[Speaker 0]: 价值观对一件事情重要性的判断。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对一件事情美与丑好与坏呃，
+[Speaker 0]: 有趣与否的判断。
+[Speaker 0]: 这些东西可能是我们在如果用 AI 术语来说，
+[Speaker 0]: 在预训练过程当中接触到的那些数据集，
+[Speaker 0]: 嗯，
+[Speaker 0]: 对我们的奖励函数的塑形。
+[Speaker 0]: 那么这这个我们的这个奖励函数可能每一个人都有不一样的不一样的形成方式。
+[Speaker 0]: 那我们每一个人就会相信不同的东西。
+[Speaker 0]: 嗯，
+[Speaker 0]: 在同一件事情，
+[Speaker 0]: 同样事情的事实之下，
+[Speaker 0]: 我们也有不同的相信程度和自己愿意下注的程度。
+[Speaker 0]: 那这个时候就是人和人之间的差异了。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 我觉得这个东西是永远不会被期待的对，
+[Speaker 1]: 而且最起码在我的了解和认知下，
+[Speaker 1]:  AI 他没有办法主动为你发起一个任务，
+[Speaker 1]: 还是得从人这端来发起。
+[Speaker 0]: 我对这件事情倒觉得很快，
+[Speaker 0]: 他也会拥有这个能力了。
+[Speaker 0]: 真的吗？
+[Speaker 1]: 就他可以就是他可以指挥你的生活，
+[Speaker 0]: 我觉得指挥这个词有点有点冒犯了。
+[Speaker 0]: 就是我觉得是他了解我的康态词之后，
+[Speaker 0]: 像现在的信息流推给我某些东西一样去猜我需要什么。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃就是就是他比较像一个，
+[Speaker 1]: 我今天中午是不是想吃这个了？
+[Speaker 0]: 对，
+[Speaker 0]: 然后很多人其实不想在一些没有必要的决策上面花精力啊，
+[Speaker 0]: 比如说下个月我家里需要补啊，
+[Speaker 1]: 我怎么觉得听起点像个大太监啊，
+[Speaker 0]: 我觉得大太监不错。
+[Speaker 0]: 就是很多人现在呃用用 a 证的方式会说什么？
+[Speaker 0]: 他是我的东厂，
+[Speaker 0]: 他是我的三省六部制，
+[Speaker 0]: 对吧？
+[Speaker 0]: 他的我的中书省在干什么？
+[Speaker 0]:  OK。
+[Speaker 0]: 对，
+[Speaker 0]: 就是如果是大太监，
+[Speaker 0]: 那我们就把自己想象成土皇帝啊，
+[Speaker 0]: 我们拥有一大群，
+[Speaker 0]: 他绕着我们转，
+[Speaker 0]: 听起来是个很好的状态呀。
+[Speaker 1]: 你说皇上您生来就是享福的呀，
+[Speaker 1]: 这些事儿您为什么要操心呢？
+[Speaker 0]: 是啊，
+[Speaker 0]: 对他唯唯的区别就是没有办法给我们物理意义上的被服务的。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 但这个事情好像好像也不重要，
+[Speaker 0]: 嗯，
+[Speaker 1]: 就包括我也跟 kih 讨论过，
+[Speaker 1]: 就在过去一段时间，
+[Speaker 1]: 我反而有一个很强烈的感觉，
+[Speaker 1]: 就是就是在呃接触 AI 学习 AI 这件事的反面。
+[Speaker 1]: 我会越来越觉得线下的实际的物理空间发生的这些体验可能在未来会变得越来越重要。
+[Speaker 1]: 因为当你在虚拟世界沉浸久了，
+[Speaker 1]: 尤其天天跟 AI 打交道，
+[Speaker 1]: 你就会感觉很多东西都是虚的抓不住的。
+[Speaker 1]: 而那些线下的体验，
+[Speaker 1]: 尤其是那种有沉浸感的体验，
+[Speaker 1]: 我在想未来会不会更有价值？
+[Speaker 1]: 之所以当时会有这样的一个想法，
+[Speaker 1]: 起因是当时 k 置的分享。
+[Speaker 1]: 最后说呃以后做投资可能要看一个公司，
+[Speaker 1]: 他做的以前会分，
+[Speaker 1]: 他做的是 to b 还是 to c 但是未来可能当你考察一家创业公司的时候，
+[Speaker 1]: 你要看他是为 agent 服务的，
+[Speaker 1]: 还是说在为人类服务的。
+[Speaker 1]: 然后然后其实就是这个问题，
+[Speaker 1]: 他开启了我的这些思索，
+[Speaker 1]: 我会在想说以后为人类提供的这种体验服务会不会变得越来越重要，
+[Speaker 1]: 越来越值钱。
+[Speaker 1]: 也许这个对大家来说也是一个方向。
+[Speaker 1]: 嗯，
+[Speaker 0]: 首先张张说的那个思维框架，
+[Speaker 0]: 是因为我前段时间写了一篇文章，
+[Speaker 0]: 叫做 agent 时代启示录。
+[Speaker 0]: 这个启示录当中想表达的点就是 to agent 和 to human 是两个新市场。
+[Speaker 0]: 比如说呃上个时代大家经常会有一些像 notion 这种类型的产品。
+[Speaker 0]: 嗯，
+[Speaker 0]: 呃我要把每一个细节打磨到极致，
+[Speaker 0]: 就是当然很好是为了人的审美来说的。
+[Speaker 0]: 但是对 agent 来说，
+[Speaker 0]: 这个事情不重要，
+[Speaker 0]: 这个是为人的体验服务的。
+[Speaker 0]: 而现在在呃最新出来的一批创业公司在做的 agent 的 infer，
+[Speaker 0]: 更多的是说我假设 agent 是我们的新员工，
+[Speaker 0]: 嗯，
+[Speaker 0]: 那么我们要为他配足够多的 IT 预算，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那么这个 IT 预算当中给他发的这台电脑，
+[Speaker 0]: 它应该是一个怎么样的架构，
+[Speaker 0]: 它应该怎么样让它用起来最快最爽，
+[Speaker 0]: 能够把它的算力最大化，
+[Speaker 1]: 就 AI 肯定不需要 word PPT、
+[Speaker 1]:  excel 这一条龙。
+[Speaker 1]: 对，
+[Speaker 0]:  AI 需要的是，
+[Speaker 0]: 比如说像 mark down 文件，
+[Speaker 0]:  HTML 文件，
+[Speaker 0]: 它的表达形态是政府和机器语言本身的需求的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后对人这边的话，
+[Speaker 0]: 我觉得就是很有意思的问题了。
+[Speaker 0]: 因为其实在 check GBT 刚打算做广告和电商的时候，
+[Speaker 0]: 有一个做电商的朋友跟我说说购物不是一个简单的效率问题。
+[Speaker 0]: 嗯，
+[Speaker 0]: 因为大部分的购物其实并不是在最快速的撮合和找到对的东西当中发生的很多是冲动。
+[Speaker 0]: 对对对对，
+[Speaker 0]: 就是基于人的注意力的冲动产生的一些东西，
+[Speaker 0]: 以及它能够给我某种呃 vipe 某种某某种某种符合我品味的东西带来的那些变化。
+[Speaker 0]: 我觉得这东西也会更加重要。
+[Speaker 0]: 比如说一些线下的体验，
+[Speaker 0]: 它是不是真的符合我对呃我想要的某种理念，
+[Speaker 0]: 对这些东西它听起来非常的微妙，
+[Speaker 0]: 但它恰恰是因为它的微妙。
+[Speaker 0]: 呃，
+[Speaker 0]: 大家今天做 AI 模型的时候，
+[Speaker 0]: 很强调强化学习，
+[Speaker 0]: 强化学习当中的奖励函数，
+[Speaker 0]: 没有办法去构建出一个好的数学建模来建模出一个人觉得美和好玩的标准答案，
+[Speaker 0]: 因为这个东西实在是太太多元了。
+[Speaker 0]: 比如说前面说的呃，
+[Speaker 0]: 你去一次音乐节，
+[Speaker 0]: 就是可能你听了一整场音乐节，
+[Speaker 0]: 大部分的嘉宾也没有按照你的预期，
+[Speaker 0]: 但可能就是某一个点打动了你那这种类型的信号。
+[Speaker 0]:  AI 怎么去捕捉到这他足够多的权重呢？
+[Speaker 0]: 那这些类型的东西，
+[Speaker 0]: 我觉得是很可能是很长一段时间内呃，
+[Speaker 0]:  AI 都没有办法替代的。
+[Speaker 0]: 就这是刘慈欣在诗云当中说的嘛，
+[Speaker 0]: 就是文字就那么多，
+[Speaker 0]: 呃，
+[Speaker 0]: 那个平仄就那么多。
+[Speaker 0]: 但是李白的诗通过无限的计算，
+[Speaker 0]: 他就是算不出来。
+[Speaker 0]: 对如果我们对艺术和艺术背后所代表那种道和真理有一定的相信的话，
+[Speaker 0]: 那么这种美东西可能不是可计算的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 这些不是可其道的东西，
+[Speaker 0]: 我觉得就是接下来 to human 当中最重要的一些东西。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以现在假设一个人对 AI 很焦虑，
+[Speaker 1]: 他努力的方向不一定是 AI，
+[Speaker 1]: 他可以完全可以反其道而行之。
+[Speaker 1]: 也许对于一部人来说，
+[Speaker 1]: 他也不一定非要让自己的工作和生活和 AI 产生很强的关联或者是交集。
+[Speaker 1]: 比如他是个餐厅老板，
+[Speaker 1]: 他给大家提供更好的餐食。
+[Speaker 1]: 他是一个歌手，
+[Speaker 1]: 他给大家提供更好的演出体验。
+[Speaker 1]: 也许这也未尝不可，
+[Speaker 1]: 就是把 too human 的这个事情做好。
+[Speaker 0]: 我觉得 to human 的事情做好的同时不是闭上眼睛说我不在意 to agent 的事情。
+[Speaker 0]: 比如说歌手这个行业，
+[Speaker 0]: 嗯，
+[Speaker 0]: 苏 no 已经很明确的即将把音乐制作当中大部分的简单的工作给替代了。
+[Speaker 0]: 比如说 rapper 生成一个 beat，
+[Speaker 0]: 然后大部分的比较城市化的那些和谐的东西。
+[Speaker 0]: 呃，
+[Speaker 0]: 其实现在已经苏 no 已经做的非常非常好。
+[Speaker 0]: 所以我觉得是你即使是打造 to human 的那种东西，
+[Speaker 0]: 你也要知道 to agent 和 AI 制造这些东西正在发生什么东西，
+[Speaker 1]: 它已经到哪个水平了。
+[Speaker 1]: 对，
+[Speaker 0]: 才正好想清楚自己的差异化优势在哪里在哪里。
+[Speaker 0]: 对我觉得呃就很难两耳不闻窗外事，
+[Speaker 0]: 嗯，
+[Speaker 0]: 或者说两耳不闻窗外事，
+[Speaker 0]: 就会成为某种情程程度的呃独立音乐，
+[Speaker 0]: 或者独独独立独立电影。
+[Speaker 0]: 就像那个科恩兄弟当年拿奥斯卡奖的时候说，
+[Speaker 0]: 我很感谢这个工业体系，
+[Speaker 0]: 还允许我们两个在角落里面玩泥巴，
+[Speaker 0]: 说那这种形式一定存在。
+[Speaker 1]: 因为我我会想到我五一去上海玩，
+[Speaker 1]: 参加了一个音乐节嘛，
+[Speaker 1]: 是一个非常有名的 DJ anima 它的特色或者是它的招牌，
+[Speaker 1]: 就是它会用呃那种裸眼三 d 的那种画面，
+[Speaker 1]: 巨幅的那种我荧幕配上它的 DJ，
+[Speaker 1]: 然后再配上舞美、
+[Speaker 1]: 灯光、
+[Speaker 1]: 音效，
+[Speaker 1]: 还有各种的效果。
+[Speaker 1]: 就以前我在商品上刷到过很多次，
+[Speaker 1]: 我会觉得那个视觉效果挺好的。
+[Speaker 1]: 但我觉得就是先有 AI 的这个画面，
+[Speaker 1]: 应应该理应能变得更好，
+[Speaker 1]: 而且很容易被复制。
+[Speaker 1]: 但是当我真的置身其中，
+[Speaker 1]: 尤其我可能站在比较前排那种沉浸式的冲击感实在是太强烈了。
+[Speaker 1]: 而且它是把声光电结合在一起，
+[Speaker 1]: 带给你的感官刺激。
+[Speaker 1]: 就那个时候你只有当下，
+[Speaker 1]: 你不会考虑未来我的工作怎么办？
+[Speaker 1]: 你不会考虑过去我拥有的东西，
+[Speaker 1]: 你只有当下的那个体验。
+[Speaker 1]: 我那时候觉得太厉害，
+[Speaker 1]: 我说这真的 AI 替代不了。
+[Speaker 1]: 因为它是一个非常全面的一个体验，
+[Speaker 1]: 它不只是一段动画，
+[Speaker 1]: 但如果但是结束了之后，
+[Speaker 1]: 大家在社交媒体刷到可能就还是一段动画。
+[Speaker 1]: 大家觉得说这个东西 CDS 很快就会超越的，
+[Speaker 1]: 我那种感觉就觉得很奇妙，
+[Speaker 0]: 我同意也替代不了。
+[Speaker 0]: 这个背后的原因是因为 AI 不在场，
+[Speaker 0]: 就是 AI 的感知能力。
+[Speaker 0]: 所谓的那个多模态，
+[Speaker 0]: 它其实是以语言为根基的，
+[Speaker 0]: 就是这个语言为真基的点是在于语言是目前世界上性造比最高的一个东西。
+[Speaker 0]: 呃，
+[Speaker 0]: 所以就是他能够通过语言了解我们所谓的那个符号世界。
+[Speaker 0]: 但是比如说与白影刚的过程，
+[Speaker 0]: 因为我有一些朋友在现场，
+[Speaker 0]: 所以我是 ins 上刷到一些帖子，
+[Speaker 0]: 所以我大概知道你说的是什么样的。
+[Speaker 0]: 但如果我完全没有刷到旧瓶影，
+[Speaker 0]: 刚那些话，
+[Speaker 0]: 其实我没有完全没有办法想象，
+[Speaker 0]: 对吧？
+[Speaker 0]: 对我只能想到一些类比，
+[Speaker 0]: 比如说像呃沙丘和那个银翼杀手二零四九那样的，
+[Speaker 0]: 就是扑面而来的一个一个巨大的建筑，
+[Speaker 0]: 让我感到震撼。
+[Speaker 0]: 那种声光调那种变化，
+[Speaker 1]: 我觉得而且还有音乐和节奏啊。
+[Speaker 0]: 对对对，
+[Speaker 0]: 对所有这些东西交织在一起带来的对人的基因，
+[Speaker 0]: 某些东西的触动，
+[Speaker 0]: 对这个东西我觉得是很难对。
+[Speaker 1]: 但当我当我结束之后，
+[Speaker 1]: 想要发个朋友圈写的文案，
+[Speaker 1]: 我就发现语言太苍太苍白了是吧？
+[Speaker 0]: 对，
+[Speaker 0]: 所以语言太苍白的东西，
+[Speaker 0]:  AI 就很难取代。
+[Speaker 2]: 嗯，
+[Speaker 0]: 这是不是一个好的好的信号？
+[Speaker 0]: 对，
+[Speaker 0]: 是不是一个好的信号？
+[Speaker 0]: 是就是如果某些体验你穷其一生都不能用语言清晰的描描述出来的话，
+[Speaker 0]: 嗯，
+[Speaker 0]: 那可能 AI 在很长时间内就是没有办法取代这件事情。
+[Speaker 1]: 对，
+[Speaker 1]: 这就像我们其实从去年开始，
+[Speaker 1]: 我们就一直在跟呃小酒馆的听众说，
+[Speaker 1]: 我们希望多走到线下去，
+[Speaker 1]: 跟大家面对面的见面。
+[Speaker 1]: 因为理论上随着技术手段的提升，
+[Speaker 1]: 现在的播客我甚至可以把它翻译成十几国语言的声线面，
+[Speaker 1]: 然后让更多的人听到。
+[Speaker 1]: 但我们认为这个意义，
+[Speaker 1]: 它没有那么大我认为人与人面对面的聊天，
+[Speaker 1]: 那种氛围感，
+[Speaker 1]: 那种在场感，
+[Speaker 1]: 它是技术完全没有办法替代掉的，
+[Speaker 0]: 没有办法替代。
+[Speaker 0]: 而且我觉得是技术是某一个愿景。
+[Speaker 0]: 在那边。
+[Speaker 0]: 就像马斯特说的，
+[Speaker 0]: 我们要登上火星这件事情。
+[Speaker 0]: 嗯，
+[Speaker 0]: 它是某一个目标重要的东西，
+[Speaker 0]: 是我们在实现这个目标过程当中，
+[Speaker 0]: 解锁了一项对我们生产力和对我们生活重要的东西。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但那个目标是不是真的能百分之一百实现，
+[Speaker 0]: 那是肯定不会的。
+[Speaker 0]: 就是因为这世界上没有百分之一百，
+[Speaker 0]: 只有百分之九十六点九九。
+[Speaker 0]: 然后所谓的无线没有无线，
+[Speaker 0]: 所谓的真正的线上的那个沉浸式体验，
+[Speaker 0]: 它不可能真正线上。
+[Speaker 0]: 我的对的，
+[Speaker 0]: 所有的 AI 公司都是要求大家线下办公的。
+[Speaker 1]: 现在的硅谷的 AI 公司都会要求大家一定要线下 on set 到场办公，
+[Speaker 0]: 至少要求每周有三到四天是要到场办公。
+[Speaker 0]: 嗯，
+[Speaker 0]: 因为不然的话效率会很低，
+[Speaker 0]: 会因为人沟通之间的那个折合而带来一些不必要的摩擦。
+[Speaker 0]: 因为人的人的注意力就这些，
+[Speaker 0]: 你在场你的注意力是全方位的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 而你在某一个远程在家里也好，
+[Speaker 0]: 在咖啡馆也好，
+[Speaker 0]: 你的注意力是部分通过你的平目去和公司团队里面的人去连接的。
+[Speaker 0]: 这个东西就不可能嗯百分百。
+[Speaker 0]: 包括即使 AI coding，
+[Speaker 0]: 到了现在这个能力，
+[Speaker 0]: 也有很多人跟我说，
+[Speaker 0]: 他其实想回归读法写代码一段时间。
+[Speaker 0]: 嗯，
+[Speaker 0]: 因为我记得好几个 AI 来的朋友会跟我说，
+[Speaker 0]: 他一周之内要预留一两个小时的时间，
+[Speaker 0]: 不用除导的，
+[Speaker 0]: 不用抽代词，
+[Speaker 1]: 自己写读法编程。
+[Speaker 0]: 因为你不读法编程，
+[Speaker 0]: 你会发现你监督 coa i 的能力，
+[Speaker 0]: 没有了自己的那个对系统和对设计的一些基础的理解。
+[Speaker 0]: 在在衰退。
+[Speaker 1]: 你作为一个网球教练，
+[Speaker 1]: 你还得陪打呢，
+[Speaker 0]: 对你还得陪打。
+[Speaker 0]: 你要对呃最最新的运动员的打法，
+[Speaker 0]: 然后手上那些球感的东西有最基础的感知。
+[Speaker 0]: 所以我会觉得未来人和 agent 的关系会有点像有点像运动员和教练的关系，
+[Speaker 0]: 就是很多事儿。
+[Speaker 0]: 其实你知道运动员的身体素质，
+[Speaker 0]: 运动员的竞技能力和他的年龄状态，
+[Speaker 0]: 他的激素就是比我要好。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是他不一定能清晰的揣摩清楚。
+[Speaker 0]: 在某一个运动场合之下，
+[Speaker 0]: 他应该用什么样的战术，
+[Speaker 0]: 什么样的策略去解决这个问题？
+[Speaker 0]: 嗯，
+[Speaker 0]: 那这些东西现在还是需要人去修改。
+[Speaker 0]: 嗯，
+[Speaker 1]: 对，
+[Speaker 1]: 那从你刚才说的，
+[Speaker 1]: 就是比如说很多现在在一线的人，
+[Speaker 1]: 哪怕他 AI 已经用的非常的溜了，
+[Speaker 1]: 他还是要留一段时间给自己古法编程，
+[Speaker 1]: 保持手感。
+[Speaker 1]: 那么现在随着 AI 能够参与到越来越多人一整个工作链条，
+[Speaker 1]: 你觉得对于大家来说，
+[Speaker 1]: 应该把什么样的能力保持住，
+[Speaker 1]: 不要丧失掉。
+[Speaker 0]: 我们最终的目标是判断力。
+[Speaker 0]: 我们最终的目标是判断 AI 做的，
+[Speaker 0]: 在不在意的对的方向，
+[Speaker 0]: 以及能不能达到我想要的目标。
+[Speaker 0]: 比如说写代码的时候，
+[Speaker 0]: 你你一定不能放掉的，
+[Speaker 0]: 就是他怎么设计这个系统。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后呃比如说做投资研究的时候，
+[Speaker 0]: 你不能放掉的就是对某一个行业，
+[Speaker 0]: 你的非共识的观察。
+[Speaker 0]: 那这些东西是 AI，
+[Speaker 0]: 很难从公开信息和他已有的茫茫多的知识当中去抽象出那个你最想要的东西的。
+[Speaker 0]: 所以这些东西我觉得一定要反复的打磨，
+[Speaker 0]: 并且并且放更多的时间去想。
+[Speaker 0]: 因为 AI 其实把执行给他给你做完了，
+[Speaker 1]: 我知道了。
+[Speaker 1]: 其实就是你要做一个 AI 的好领导。
+[Speaker 1]: 对，
+[Speaker 1]: 就是一个领导，
+[Speaker 1]: 你要具备的能力是什么？
+[Speaker 1]: 首先你的信息要比你的员工更全面，
+[Speaker 1]: 不然你没有办法把这些信息给你的下属。
+[Speaker 1]: 然后第二点就是你要能够监工，
+[Speaker 1]: 你要能判断你员工的你下属的这个工作质量。
+[Speaker 1]: 如果你如果你长期脱离一线，
+[Speaker 1]: 你根本就评价不了他的工作质量，
+[Speaker 1]: 那他就跟你糊弄嘛。
+[Speaker 1]: 然后 AI 本来也很擅长糊弄哦哦，
+[Speaker 1]: 那这个时候就可能真的是要被 AI 牵着鼻子走了。
+[Speaker 0]: 是的，
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是一定不能出现的一个情况，
+[Speaker 0]: 就是他说什么我就是什么。
+[Speaker 0]: 嗯，
+[Speaker 0]: 尤其是当他做完一开始的规划之后，
+[Speaker 0]: 一定要去纠正他和他反复互动，
+[Speaker 0]: 反复去问你做的这东西到底是不是对的。
+[Speaker 1]: 我怎么感觉每个人其实应该学一些什么领导力学、
+[Speaker 1]: 管理学幺零幺。
+[Speaker 1]: 对，
+[Speaker 0]: 而且他而且他恰恰是回归管理学本源的东西。
+[Speaker 1]: 我以为管理学要不存在了。
+[Speaker 0]: 我觉得 agent 管理学一定是一门新学科。
+[Speaker 0]: 就是因为现在大家觉得管理学没用的一个原因，
+[Speaker 0]: 是因为你到了企业当中会发现你处理的其实是各种政治问题。
+[Speaker 0]: 就是大家大家各自为战，
+[Speaker 0]: 各自为为自己的利益做情情的时候，
+[Speaker 0]: 你怎么去当中调最下面的问题。
+[Speaker 0]: 对，
+[Speaker 0]: 然后自己去达到自己想要的目的。
+[Speaker 1]: 现在有了 AI，
+[Speaker 1]: 我们你的管理反而变得更纯粹了。
+[Speaker 1]: 他不会跟我故意说反话，
+[Speaker 1]: 他不会有很多潜台词，
+[Speaker 0]: 对我觉得 AI 在这些事情上都没有任何的问题。
+[Speaker 0]:  AI 真正的问题是他就是锅，
+[Speaker 0]: 他背不了，
+[Speaker 0]: 就是就是这个锅亏不了。
+[Speaker 0]: 指的意思就是说比如说我们在投资的时候，
+[Speaker 0]: 嗯，
+[Speaker 0]: 这是钱亏了，
+[Speaker 0]: 还是还是还是我亏的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 绝对不是我手下任何一个 agent 亏亏的，
+[Speaker 1]: 就这个责任你推不掉推不掉。
+[Speaker 0]: 对，
+[Speaker 1]: 这也是上次你在分享的时候，
+[Speaker 1]: 我们最后在讨论嘛。
+[Speaker 1]: 有没有可能把 AI 应用在投资中，
+[Speaker 1]: 其实一个很大的卡点在于 AI，
+[Speaker 1]: 他对钱是没有概念的。
+[Speaker 1]: 你把你的账户交给他操作，
+[Speaker 1]: 他去交易亏的钱。
+[Speaker 1]: 你还想怪你你你是怪豆包还是怪 deep sake，
+[Speaker 1]: 那两家公司也不会认。
+[Speaker 0]: 嗯，
+[Speaker 0]: 这个我觉得 AI 很长一段时间都不可能解决。
+[Speaker 0]: 但是我我我倒对这里可能会产生新岗位，
+[Speaker 0]: 有一些乐观的地方。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是它可能出现一种新的第三方审计或者保险的业务。
+[Speaker 0]: 当 AI 出现一些问题的时候，
+[Speaker 0]: 可能有第三方来帮忙 review 以及第三方来帮忙接管一些问题，
+[Speaker 0]: 或者来把这个损失用保险金算。
+[Speaker 1]: 这个第三方是人类还是 agent，
+[Speaker 0]: 他最终一定是人类 OK。
+[Speaker 1]: 因为人类还是相对更相信自己的同类一点点。
+[Speaker 1]: 比起机器，
+[Speaker 0]: 我猜还是那个问题，
+[Speaker 0]: 就是你要审计和保险，
+[Speaker 0]: 你得背锅懂了，
+[Speaker 1]: 就像一个公司，
+[Speaker 1]: 他再怎么裁，
+[Speaker 1]: 他一定会有一个财务。
+[Speaker 0]: 对对对对对，
+[Speaker 0]: 有一些锅必须得人背。
+[Speaker 0]: 然后出现问题的时候需要人去呃人去定位这个问题，
+[Speaker 0]: 然后去判断这个问题。
+[Speaker 0]: 它重不重要，
+[Speaker 0]: 对吧？
+[Speaker 0]: 因为因为对 agent 来说，
+[Speaker 0]: 他没有那种比如说转钱的时候的损失厌恶。
+[Speaker 0]: 那这些事情我觉得对 AI 来说，
+[Speaker 0]: 他只是一个就像张张音乐节那种东西，
+[Speaker 0]: 他知道这些东西的纸上的道理，
+[Speaker 0]: 但他很难有那种题战啊，
+[Speaker 0]: 他因为他没有脆弱钱，
+[Speaker 0]: 嗯，
+[Speaker 1]: 因为他没有一个物理世界史现实存在的东西，
+[Speaker 1]: 对码，
+[Speaker 1]: 我们的技术还没有到这一步。
+[Speaker 0]: 对，
+[Speaker 0]: 然后他也没有生存的压力。
+[Speaker 0]: 因为人底层其实无外乎这么几个嘛，
+[Speaker 0]: 就是呃某几种激素，
+[Speaker 0]: 它对应着解决了他的生存问题，
+[Speaker 0]: 他的好奇心等等的问题。
+[Speaker 0]: 对我觉得 AI 的好奇心，
+[Speaker 0]: 未来能被用某种工程和产品的方式去包裹着去做出来，
+[Speaker 0]: 就是让他显得更加的像一个人积极主动一些。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是他的那种生存，
+[Speaker 0]: 对某失去某些东西的渴望，
+[Speaker 0]: 这些东西可能可能永远不会有，
+[Speaker 1]: 他对他可能永远都无法共情。
+[Speaker 1]: 人类。
+[Speaker 0]: 对，
+[Speaker 0]: 而且人类也不一定希望这些东西它是共情，
+[Speaker 0]: 对吧？
+[Speaker 0]: 因为那样的话，
+[Speaker 1]:  AI 就会有私心了，
+[Speaker 0]: 就会有对，
+[Speaker 0]: 就会有利益，
+[Speaker 0]: 就会有意识。
+[Speaker 1]: 那那个时候那仿生人和人类的区别就真的很难分清了。
+[Speaker 1]: 就是像你们在平时的工作中，
+[Speaker 1]: 你们也会讨论，
+[Speaker 1]: 比如说对未来的设想啊变化啊，
+[Speaker 1]: 你们的推演吗？
+[Speaker 0]: 我们会讨论。
+[Speaker 0]: 嗯，
+[Speaker 0]: 但是我们也会客观承认，
+[Speaker 0]: 未来是预测，
+[Speaker 0]: 很难预测的。
+[Speaker 0]: 就是我们不能预测未来，
+[Speaker 0]: 只能用一种概率分布去建模未来。
+[Speaker 0]: 嗯，
+[Speaker 1]: 那有哪些事情是比如说中短期，
+[Speaker 1]: 你们觉得大概率会发生的事情？
+[Speaker 1]: 像前面说的那几家大公司的上市，
+[Speaker 0]: 肯定是一个 AI 的渗透，
+[Speaker 0]: 以及 AI 的商业化的加速落地，
+[Speaker 0]: 以及 AI 就是行业本身的加速。
+[Speaker 0]: 我觉得在短期的两三年之间之内是很难停下来的对他的。
+[Speaker 0]: 因为因因为这是的庞然大物，
+[Speaker 0]: 它的势能一定是越来越大的。
+[Speaker 0]: 然后越来越多的感知知到之后，
+[Speaker 0]: 一定会有来越越呃，
+[Speaker 0]: 一一一定会体现出在应用和技术上的双重加速。
+[Speaker 0]: 呃，
+[Speaker 0]: 只是到某个程度之后，
+[Speaker 0]: 它可能会不会出现过热的情况。
+[Speaker 0]: 这个东西可能是值得预测和思考的一个问题。
+[Speaker 0]: 我在技术上对 AI 非常的乐观，
+[Speaker 0]: 但我在呃那个中期的时间内，
+[Speaker 0]: 对 AI 是不是能够持续是一个一直向上的市值增长的趋势，
+[Speaker 0]: 我就有些不确定。
+[Speaker 0]: 因为这件事情在互联网已经 dot come bubble 的时候已经很明确发生过了。
+[Speaker 0]: 现在 AI 收入和各种技术成熟熟的体量上已经比当时成熟了很多。
+[Speaker 0]: 但是呃就是市场一定是偏乌合之众和矫枉过正的，
+[Speaker 0]: 就这种人性和博弈当中必然会出现的事情，
+[Speaker 0]: 还是还是有大概率会发生的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对未来的推演，
+[Speaker 0]: 呃，
+[Speaker 0]: 我觉得白领大部分的工作迟早还是会被替代掉的，
+[Speaker 0]: 或者说呃人的分钟会是会是会发生比较根本性的变化的。
+[Speaker 1]: 嗯，
+[Speaker 1]: 但是是以一个乐观的语调和预期在讲这个事情。
+[Speaker 0]: 对，
+[Speaker 0]: 因为因为回到前面，
+[Speaker 0]: 我我的那个价值观，
+[Speaker 0]: 就是我觉得人就不应该被注定。
+[Speaker 0]: 在现在这是过度专业化的愤怒当中，
+[Speaker 0]: 人不应该是螺丝钉。
+[Speaker 0]: 所以我对这件事情本身的价值是比较乐观的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 然后最乐观的预期。
+[Speaker 0]: 呃，
+[Speaker 0]: 当然这是个人的价值判断，
+[Speaker 0]: 就是每个人更容易被发现自己身上的闪光点。
+[Speaker 0]: 因为呃在过去这段时间内，
+[Speaker 0]: 其实没有呃一个人会说去了解这个人充分的上下文和 context，
+[Speaker 0]: 据说这个人到底适合做什么样的事情，
+[Speaker 0]: 并且怎么可以帮助帮他把这件事情放大，
+[Speaker 0]: 做的更好。
+[Speaker 0]: 但有了 AI 之后，
+[Speaker 0]: 他其实有我们更多的信息。
+[Speaker 0]: 他也能够帮助我们去把一些之前可能只是爱好或者一些模糊的感觉，
+[Speaker 0]: 喜欢和擅长做的事情做的更加加的完善一些。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那么如果有这件事情发生了之后呢，
+[Speaker 0]: 其实每个人可以找到自己能做的更好的东西。
+[Speaker 1]: 对你这个让我想到，
+[Speaker 1]: 其实在过去一年，
+[Speaker 1]: 我们小酒馆也会持续探讨一个话题，
+[Speaker 1]: 就是人怎么样找到自己的天赋所在。
+[Speaker 1]: 嗯，
+[Speaker 1]: 刚才 k 置说的这些，
+[Speaker 1]: 让我想说，
+[Speaker 1]: 也许这件事情在 AI 时代是可以达成的。
+[Speaker 1]: 因为这个技术手段它能让你的各种很微小的好奇或者是倾向嗯变成可能变成一个产品。
+[Speaker 1]: 是，
+[Speaker 1]: 就像我现在我特别喜欢在小红书上刷大家 web coding 的各种东西。
+[Speaker 1]: 我也很喜欢我，
+[Speaker 1]: 真的觉得好有创造力啊。
+[Speaker 1]: 我觉得大家太有创造力了。
+[Speaker 1]: 就也许你看他的主业，
+[Speaker 1]: 他可能平时他还是一个初中生。
+[Speaker 1]: 对，
+[Speaker 1]: 或者是他就是一个银行的职员，
+[Speaker 1]: 但是不重要。
+[Speaker 1]: 比如说我看到一个，
+[Speaker 1]: 我觉得很喜欢的是他做了一个计算器，
+[Speaker 1]: 就只要你上班，
+[Speaker 1]: 他开始计算你的时薪多少钱，
+[Speaker 1]: 就你现在做了二十分钟，
+[Speaker 1]: 这二十分钟你收入多少，
+[Speaker 1]: 这样让你的上班觉得你这个窝囊费没有白赚，
+[Speaker 1]: 我觉得这个就很好。
+[Speaker 1]: 我当时就特别想下一个，
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 我觉得第一你可以有一个七二十四小时在那边的智能跟你讨论，
+[Speaker 0]: 你擅长什么东西了。
+[Speaker 0]: 对。
+[Speaker 0]: 第二，
+[Speaker 0]: 你讨论出来某些东西之后，
+[Speaker 0]: 你可以有接近于零的试错成本，
+[Speaker 0]: 本把这些东西做一一个初步的样本出来。
+[Speaker 0]: 嗯，
+[Speaker 0]: 这东当中你到底有没有成就感？
+[Speaker 0]: 对什么东西感兴趣，
+[Speaker 0]: 你会更更清晰的感受到。
+[Speaker 0]: 因为之前大家总会说我对什么东西感兴趣，
+[Speaker 0]: 什么东西感兴趣，
+[Speaker 0]: 但永远没有办法尝试。
+[Speaker 0]: 嗯，
+[Speaker 1]: 因为有很多现实生活的束缚嘛。
+[Speaker 0]: 而 AI 让这件事情系统性的降低了所有事情能在呃软件世界去完成大部分的事情，
+[Speaker 0]: 你的成本基本上都都都被打没了。
+[Speaker 0]: 即使现在没有被打没，
+[Speaker 0]: 很快在几年之内也会被打没。
+[Speaker 0]: 那么这个时候大家一定能探索出更多适合自己的事情。
+[Speaker 0]: 那么我们看世界的滤镜也变得更加的五彩斑斓一些了。
+[Speaker 0]: 就不再是说我过去我必须擅长的事情，
+[Speaker 0]: 就是什么开发产品运营销售这种类型的固定的某个职能，
+[Speaker 0]: 而是他可能是真的我感兴趣的某一个更细分的事情。
+[Speaker 0]: 所以我觉得嗯 AI 把人变成了某种程度的通才，
+[Speaker 0]: 或者说帮我们成为通才之后，
+[Speaker 0]: 我们反而能够因为这一种广而在某一个领域做的更深。
+[Speaker 0]: 这是我对未来比较比较充满希望的一种一种假设吧。
+[Speaker 1]: 那比如说三年后五年后你有预期，
+[Speaker 1]: 或者是想象那个时候你还拓展了什么样的能力吗？
+[Speaker 1]: 或者在做什么样的事情。
+[Speaker 0]: 好问题，
+[Speaker 0]: 我希望我我希望我能用 AI 开出很多个。
+[Speaker 0]: 呃，
+[Speaker 0]: 是这样，
+[Speaker 0]: 我觉得可能有两类东西，
+[Speaker 0]: 第一类就是做出来无用，
+[Speaker 0]: 但是很好玩的新产品。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 就比如说张刚说的那个计时性的这个东西，
+[Speaker 0]: 这东西很无用，
+[Speaker 0]: 但是它非常的有意思。
+[Speaker 0]: 就是其实他的情绪价值真的就是我们其实每个人脑子里都有一些很奇怪的脑洞，
+[Speaker 0]: 可能他都是呃可能他没有商业价值。
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 但是他现在有了这个东西之后，
+[Speaker 0]: 我就会把这些很很很很很很无聊的想法去把他给实现了。
+[Speaker 1]: 真的很难。
+[Speaker 0]: 还有我不知道，
+[Speaker 0]: 就是我可能会幻想世界是怎么样的，
+[Speaker 0]: 然后去做做一些和当下工作可能没有关系，
+[Speaker 0]: 但是可能很有意义的事情。
+[Speaker 0]: 比如说首先一接下来之后身体肯定是很重要的。
+[Speaker 0]: 那么可能可能是对我的爱好来说，
+[Speaker 0]: 可能是打网球或者健身这种类型的事情推推推做一些。
+[Speaker 0]: 还有一类事情是呃，
+[Speaker 0]: 我也在想工业革命来了之后，
+[Speaker 0]: 人的身体可能永远站不住机器。
+[Speaker 0]: 那么好了，
+[Speaker 0]: 嗯，
+[Speaker 0]: 所以人有了健身这个需求。
+[Speaker 0]: 但是现在问题是治愈革命来了之后，
+[Speaker 1]: 以后有健脑的需求，
+[Speaker 0]: 以后有健脑的需求。
+[Speaker 0]: 我脑子肯定站不过机器了，
+[Speaker 0]: 那么我做什么东西能够让我见脑呢？
+[Speaker 0]: 那这个可能也是个很有意思的六个核桃。
+[Speaker 0]: 对不起，
+[Speaker 1]: 这个是不是有点要要硬植入？
+[Speaker 1]: 没事，
+[Speaker 1]: 这样我们可以减掉。
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 没事，
+[Speaker 0]: 这个 AI 取代不了。
+[Speaker 1]: 对啊，
+[Speaker 0]: 烂梗 AI 的确实嗯是的。
+[Speaker 0]: 所以我就觉得这种想想想这新时代的需求还挺有意思思，
+[Speaker 1]: 不是说喊口号似的说呃未来人会变得更全才，
+[Speaker 1]: 不再那么专业化。
+[Speaker 1]: 而是你觉得自己从实际行动中，
+[Speaker 1]: 也想把自己从一个专业人才解脱出来，
+[Speaker 1]: 对做各各种各样的新尝试。
+[Speaker 0]: 是的，
+[Speaker 0]: 然后呃我觉得大概率未来很多，
+[Speaker 0]: 我现在做的工作可能都不太需要呃，
+[Speaker 0]: 我去亲力亲为了也年后你们公司还在吗？
+[Speaker 0]: 我们公司肯定在只是做的，
+[Speaker 0]: 是不是现在一样的事情，
+[Speaker 0]: 我我就不知道了，
+[Speaker 1]: 就还是这样一群呃很聪明的，
+[Speaker 1]: 很有执行力的小伙伴团聚在一起做的事儿不一定是现在这个人是很宝贵的事儿是不重要的。
+[Speaker 0]: 就是我觉得现在事儿就是因为它是新时代，
+[Speaker 0]: 所以所有东西都会变得太快。
+[Speaker 1]: 我让我现这句话来安慰一下梦魇。
+[Speaker 0]: 好的，
+[Speaker 0]: 嗯，
+[Speaker 0]: 对，
+[Speaker 0]: 因为品牌很重要嘛，
+[Speaker 0]: 对吧？
+[Speaker 0]: 因为人在聚在那边，
+[Speaker 0]: 你们还带着呃，
+[Speaker 0]: 不管是呃你们的那种品牌，
+[Speaker 0]: 还是我们的那种品牌，
+[Speaker 0]: 是品牌在那边，
+[Speaker 0]: 它本身树立着某种某种品味和格调，
+[Speaker 0]: 这种东西它是不太会被替代。
+[Speaker 0]: 而且这难从零做起来的这个东西它一定是在那边的。
+[Speaker 0]: 然后如果再说，
+[Speaker 0]: 就是如果从一个我自己未来想做的事情的话，
+[Speaker 0]: 我觉得很难真的 AI 一下子做到的。
+[Speaker 0]: 其实是刚刚说的科学发现的文艺复兴，
+[Speaker 1]: 你要当科学家，
+[Speaker 0]: 我我去搭建 AI，
+[Speaker 0]: 帮助科学家或者去孵化这样的公司，
+[Speaker 0]: 来让更多的科学家能够用 AI 自动化很多的科学发现。
+[Speaker 0]: 因为我一定是发相信很多的现实世界的实验，
+[Speaker 0]: 以及除了实验之外，
+[Speaker 0]: 那些冗余的工作是可以被数字化和计算里慢慢的给替代的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 今天我们对不管是生物材料物理化学一些基本的东西的理解，
+[Speaker 0]: 已经足以让我们迈到下一个时代，
+[Speaker 0]: 就是让计算把很多的科学发现对对完成了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 今天很多的生物化学的 PHD，
+[Speaker 0]: 可能中期 PHD 的生涯，
+[Speaker 0]: 五六年只能做一两篇 paper。
+[Speaker 0]: 但随着有 AI 的出出现了之后，
+[Speaker 0]: 他们的呃代码自动化数据整理能力，
+[Speaker 0]: 以及把整一的实验闭环能力可能都能比之前加速很多这个事情，
+[Speaker 0]: 对一个 lab 可能影响没有那么大。
+[Speaker 0]: 但对整一个行业的影响其实非常非常的大。
+[Speaker 0]: 在比如说生物行业，
+[Speaker 0]: 它是一个十到二十年发现一团药，
+[Speaker 0]: 并且要消耗十到二十亿美金甚至更多的一个东西。
+[Speaker 0]: 那么可能有了 AI 模型之后，
+[Speaker 0]: 有了 AI agent 之后，
+[Speaker 0]: 这些东西的迭代速度会比之前快上呃三五倍。
+[Speaker 0]: 我相信一定是可以的。
+[Speaker 0]: 嗯，
+[Speaker 0]: 就是这个三五倍。
+[Speaker 0]: 当然不是，
+[Speaker 0]: 在比如说临床动物实验人体实验，
+[Speaker 0]: 那些那些物理世界的瓶颈，
+[Speaker 0]: 一如既往的还会有一些时间，
+[Speaker 0]: 而是在之前就是发现这个分子到让这个分子在现实当中有一些基础的可成药性，
+[Speaker 0]: 并且进入临床这件事情可能会变得快很多。
+[Speaker 0]: 而且这个东西会让会让所有的科学领领域去去有觉得你是一个有大爱的手续。
+[Speaker 1]: 善良的人想做的事情非常多，
+[Speaker 1]: 非常广，
+[Speaker 1]: 而且都想。
+[Speaker 1]: 而且其实最终的目的都是造福所有人希望是吧？
+[Speaker 0]: 但是这个东西你也可以有一些就是看你的观点了。
+[Speaker 0]: 就是嗯因为这个东西一旦实现的话，
+[Speaker 0]: 人类所有的车技术会被重新点一遍。
+[Speaker 0]: 人类科技术每一次点点亮一个大东西的时候，
+[Speaker 0]: 都会扮演出现一些善良和邪恶的东西。
+[Speaker 0]: 比如说原子弹那种那些东西。
+[Speaker 0]: 嗯，
+[Speaker 0]: 奥本海默发言的东西绝对是用来实现今天的目的的，
+[Speaker 0]: 但是它就是发生了。
+[Speaker 0]: 而原子弹只是一个非常偶然相对偶然发生的一件科学发现。
+[Speaker 0]: 嗯，
+[Speaker 0]: 可能在发现原子弹过程当中，
+[Speaker 0]: 我们还漏了很多科技书当中没有点的东西。
+[Speaker 0]: 如果把那些东西 AI 真的蹭蹭全点亮了，
+[Speaker 0]: 这个社会会是什么样呢？
+[Speaker 1]: 不知道挺值得期待的，
+[Speaker 1]: 不管变成什么样的，
+[Speaker 0]: 嗯，
+[Speaker 0]: 你有点混沌混沌中立的，
+[Speaker 1]: 我我我一向都是混沌混沌邪恶哈，
+[Speaker 0]: 混沌邪恶。
+[Speaker 1]: 好的好的，
+[Speaker 1]: 好，
+[Speaker 1]: 你今天围绕着 AI。
+[Speaker 1]: 其实聊了很多的话题，
+[Speaker 1]: 可能有些人听到这里，
+[Speaker 1]: 他就已经感觉到哇脑子好混乱了。
+[Speaker 1]: 那么如果就是如果他觉得得了了这么多，
+[Speaker 1]: 还是觉得有混混不不知该从哪里里始。
+[Speaker 1]: 你觉得最值得他先看到的变化是什么？
+[Speaker 0]: 那我觉得就是看到 agent 正在成为世界上的新物种，
+[Speaker 0]: 并且去拥抱这种变化。
+[Speaker 0]: 然后扔掉旧世界的地图，
+[Speaker 0]: 去探索新世界的无线存的对，
+[Speaker 1]: 带上你的纸和笔，
+[Speaker 1]: 或者带上你的电脑，
+[Speaker 1]: 然后一边走，
+[Speaker 1]: 一边自己绘制地图。
+[Speaker 0]: 对，
+[Speaker 0]: 因为今天没有人说的地图是正确的，
+[Speaker 0]: 就是没有人没有人能，
+[Speaker 1]: 我们这一期可能也是诉求的，
+[Speaker 1]: 可能一个月后、
+[Speaker 1]: 三个月后你就发现很多也不成立了，
+[Speaker 0]: 可能都不一样。
+[Speaker 0]: 对，
+[Speaker 0]: 可能都不一样，
+[Speaker 0]: 但是这才是好玩的过程嘛。
+[Speaker 0]: 对，
+[Speaker 0]: 如果一个东西的标准答案就在那边，
+[Speaker 0]: 那这东西 AI 就能解的比我们好了。
+[Speaker 0]: 只有这种不确定性的东西，
+[Speaker 0]: 才是我们一直去思考和我们人之为人的意义嘛。
+[Speaker 1]: 就欢迎大家来到新时代，
+[Speaker 1]: 欢迎嗯谢谢 kiate 老师，
+[Speaker 0]: 谢谢谢谢你的时间。
+[Speaker 3]: 以上就是本期节目的全部内容，
+[Speaker 3]: 欢迎你点赞、
+[Speaker 3]: 收藏，
+[Speaker 3]: 把它分享给更多的伙伴。
+[Speaker 3]: 也很期待你在评论区聊聊你的感受，
+[Speaker 3]: 我们都会认真阅读。
+[Speaker 3]: 如果你还没有关注知情小酒馆，
+[Speaker 3]: 也欢迎点个关注，
+[Speaker 3]: 你的支持会成为我们更新的重要动力，
+[Speaker 3]: 我们下期小酒馆不见不散。
+[Speaker 0]: 你们打，
