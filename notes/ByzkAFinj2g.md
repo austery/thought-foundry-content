@@ -16,7 +16,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ByzkAFinj2g
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本期节目深入探讨了为何在民主与独裁国家中，一些愚蠢、无知甚至腐败的政客，能够战胜更聪明的对手，成为政治赢家。文章引用马基雅维利《君王论》中的五句话，分析了政客如何利用人性的弱点，如乌合之众的盲从、急功近利的心态以及情绪化的反应，来博取上位。同时，也强调了权力制衡与任期制在限制蠢货政客危害方面的作用，并呼吁民众在参与政治时保持理性。
 tags:

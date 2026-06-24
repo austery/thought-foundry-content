@@ -26,7 +26,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=KTtxjbybwLc
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 当今世界的竞争核心是人才的争夺。本文深入剖析了特朗普看似矛盾的H-1B签证政策背后的政治逻辑——其本质是为保护美国本土毕业生的就业市场，而非单纯排斥移民。文章对比了美国开放体系吸引全球顶尖人才（如爱因斯坦、马斯克）的巨大优势，与中国在青年高失业率和封闭体系下面临的人才困境。通过引用李光耀的深刻洞见，揭示了为何美国在长期的人才竞争中拥有结构性的、难以撼动的根本优势。
 tags:

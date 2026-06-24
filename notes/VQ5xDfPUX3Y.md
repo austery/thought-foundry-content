@@ -26,7 +26,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=VQ5xDfPUX3Y
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了以色列对伊朗核设施及军事领导层发动的代号为“纳尼亚行动”和“红色婚礼”的斩首行动。文章揭示了这些行动背后的文化寓意、长达数十年的精心策划、情报渗透、军事训练以及巧妙的欺骗策略。通过分析以色列与伊朗截然不同的国家发展道路，文章最终引申至对人性、自由与奴役的深刻哲学思考，并强调了国家意志在现代冲突中的决定性作用。
 tags:

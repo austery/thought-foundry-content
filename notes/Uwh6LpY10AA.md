@@ -14,7 +14,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Uwh6LpY10AA
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文探讨了个人生活与国家大事的相对重要性，并结合德国哲学家海德格尔的观点，强调语言对三观的塑造。通过圣诞故事中“不要害怕”的启示、美国与中国的贫富差距、以及“生在第三垒”的棒球比喻，阐述了“生而不平等”的现实。文章最终以多位女性的励志故事为例，鼓励人们在面对低起跑线和不确定性时，要心怀希望，凭借毅力奔跑，追求生命中的平等与爱。
 tags:

@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-04-29'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=_OBdbnwXsB4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - parenting-control
   - psychological-trauma

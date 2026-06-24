@@ -13,7 +13,7 @@ companies_orgs: []
 products_models: []
 date: '2025-07-10'
 author: Lei
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 channel: null
 guest: null
 insight: null

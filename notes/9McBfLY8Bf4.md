@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=9McBfLY8Bf4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入剖析中国普遍存在的欠薪现象，并将其与美国德克萨斯州及台湾地区在劳工权益保护方面的立法、执法和司法实践进行对比。文章指出，中国政府在劳工保护上的失职源于其治理能力而非控制能力，而美台则通过健全的法律体系和民主选举机制有效保障工人权益。同时，文章揭示了中国农民工的悲惨境遇，并对中国在可预见的未来仍将面临的社会问题表达了深刻担忧。
 tags:

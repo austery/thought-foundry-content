@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=q9iYLtkD1QY
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文揭露中国官媒对美国饥饿问题的虚假宣传，详细介绍了美国政府的食品营养救助项目和民间公益组织（如Food Bank和Meals on Wheels）如何确保低收入家庭的食物安全。文章强调了这些救助不仅解决温饱，更秉持“喂养希望”的理念，帮助贫困儿童健康成长。作者将此与中国社会现状对比，批评政府宣扬仇恨并打压民间公益，导致国民陷入“价值饥荒”，呼吁社会关爱与现代文明价值的回归。
 tags:

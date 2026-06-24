@@ -20,7 +20,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=m_7NDhYzXrA
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文探讨了现代人戴着面具生活、失去真我的普遍现象。通过提出一系列反思问题，引导读者寻找真实的自我，并强调活出真我需要勇气和决断。文章批判了社会中的“道德行刺”和“乖巧作恶”现象，警示人们警惕被异化为“什么也不是”的状态，并引用莎士比亚和V.S.奈保尔的观点，呼吁人们坚持自我，拒绝精神自戕。
 tags:

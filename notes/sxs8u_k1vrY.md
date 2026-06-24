@@ -20,7 +20,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=sxs8u_k1vrY
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了民选独裁政权的运作机制，挑战了西方对普京等民选独裁者简单化的认知。文章指出，选民支持强人往往源于对国家陷入混乱的恐惧，而非经济绩效。民选独裁通过制造无解的危机和满足国民精神需求来维持统治，并分析了其与极权独裁、自由民主之间的转型路径。文章最后警示了民主的脆弱性，以及历史文化对政治走向的深远影响。
 tags:

@@ -28,7 +28,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=g8MCNxIw0Uk
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 播客开播满月之际，主持人回顾并回应了三百多条听众留言。节目探讨了“人间是否值得”的真正含义，分享了移民生活中的归属感与挑战，并深入讨论了个人在政治焦虑下的应对之道。通过听众的真实故事，文章强调了“反求诸己”、追求内在快乐、以及勇气与决心的重要性，最终勾勒出一个通过真诚分享而形成的疗愈社区。
 tags:

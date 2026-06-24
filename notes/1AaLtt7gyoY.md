@@ -19,7 +19,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=1AaLtt7gyoY
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了诺贝尔经济学奖得主达龙·阿西莫格鲁的理论，解释了为何中国经济正“从头部开始腐烂”。文章基于其著作《国家为什么会失败》，剖析了“包容性制度”与“榨取性制度”的核心区别，并论证了中国选择加强国家控制而非市场自由的路径，如何导致了短期增长和长期停滞的宿命。这套榨取性体制旨在维系少数精英的权力，最终造成了系统性的腐朽，使普通人越努力，未来却越渺茫。
 tags:

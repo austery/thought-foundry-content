@@ -25,7 +25,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Gr3NjrebTvg
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了互联网时代信息消费模式对个体心智和整个社会阶层的影响。文章指出，所谓的“免费”劣质信息并非真正免费，其代价是精神世界的劣质化，进而导致社会分化为掌握高质量信息的精英阶层和被劣质信息充斥的“心智难民”。通过TikTok事件和中美信息环境对比，文章强调了在信息爆炸时代，批判性思维和信息鉴别力的极端重要性，并引用互联网先驱Tim
   O'Reilly的观点警示：在互联网上，如果你不付费，你就是被卖掉的产品。

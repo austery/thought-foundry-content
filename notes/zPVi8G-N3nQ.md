@@ -18,7 +18,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=zPVi8G-N3nQ
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了中国家庭债务激增的深层原因，揭示了自1949年以来，中国政府如何通过土地改革、集体化、土地财政等一系列“土地炼金术”，实现了国家财富向政府和裙带利益集团的巨大转移。文章通过三代人的命运变迁，阐述了普通民众如何从土地的短暂拥有者沦为巨额房贷的最终买单者，并分析了这种“庄家通吃”的游戏规则对中国社会稳定和未来发展构成的严峻挑战。
 tags:

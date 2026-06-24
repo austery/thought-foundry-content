@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-05-15'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=8rHCpL993ZU
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - political-metaphor
   - political-satire

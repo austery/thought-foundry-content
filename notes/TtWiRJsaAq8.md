@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2025-05-17'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=TtWiRJsaAq8
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - trade-war
   - tariffs

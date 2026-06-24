@@ -25,7 +25,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ou4n2PhdABc
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本期节目探讨了财务自由与财务安全感的区别，强调真正的自由在于精神世界的超越。通过玄奘、空海大师的案例，反思传统教育中背书的局限性，并呼吁培养独立思考、决断力和想象力。节目深入剖析了现代化与现代文明化的差异，以及中文世界信息环境的挑战。面对历史的‘垃圾时间’，倡导斯多亚哲学和《心经》的智慧，鼓励个体在纷乱中保持平静、勇气和智慧，避免将个人人生活成垃圾，实现心智成年。
 tags:

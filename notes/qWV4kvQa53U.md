@@ -25,7 +25,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=qWV4kvQa53U
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨美国政治、社会与历史的复杂性，批判了将美国历史简单化为“好人”与“坏人”的二元对立思维。通过回顾最高法院在种族通婚、学校隔离、女性选举权等议题上的判决，文章有力地驳斥了“让美国再伟大”的怀旧式保守主义叙事，强调美国是一个不断完善、向未来发展的国家，尤其在少数族裔和女性权利方面取得了显著进步。文章呼吁人们基于事实而非单一原则来理解美国，并警惕排外与种族主义成分。
 tags:

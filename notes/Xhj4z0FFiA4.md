@@ -13,7 +13,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Xhj4z0FFiA4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 作者通过对比在山东和得州各生活二十年的经历，深入剖析了两种截然不同的文化心态。他认为，山东文化强调顺从与集体，而得州文化则崇尚个人自由和不畏惧权威的精神。通过引用亚当·卡罗拉的评论和亲身带枪进入州议会大厦的经历，作者阐释了得州人独特的精神气质。文章最终回归到“清水洗脸，浑水洗脚”的个人选择哲学，探讨了在不同社会环境下，个体如何追寻属于自己的幸福与生活方式。
 tags:

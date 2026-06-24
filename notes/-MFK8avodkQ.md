@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-02-16'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=-MFK8avodkQ
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - dual-citizenship
   - government-funding

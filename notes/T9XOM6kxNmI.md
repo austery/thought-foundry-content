@@ -16,7 +16,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=T9XOM6kxNmI
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文以日本首位女首相高市早苗的当选为引，深刻对比了日本开放包容的公民政治与中国封闭僵化的“土皇帝”式血统政治。文章指出，日本社会对个性与多元背景的接纳，为年轻人提供了希望，并体现在女性及归化公民的参政机会上。而中国体制则扼杀个体活力，导致年轻人“躺平”，凸显了中日两国在政治文明上的巨大差距，并呼吁中国迈向宪政民主。
 tags:

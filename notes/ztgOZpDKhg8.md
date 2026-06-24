@@ -16,7 +16,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ztgOZpDKhg8
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文结合近期媒体报道，深入剖析中国在极权制度下，国力日益膨胀却导致民生日益艰难的悖论。通过引用高宇新在《纽约时报》的观察，并以春秋时期晋惠公“外强中干”的历史典故为鉴，揭示了中国经济从“红利期”到“透支期”再到“暴雷期”的演变。文章强调政府重“控制”轻“治理”，财富分配不均，以及由此引发的青年失业、房地产危机、医生降薪等社会问题，并警示中国或重蹈前苏联的覆辙。
 tags:

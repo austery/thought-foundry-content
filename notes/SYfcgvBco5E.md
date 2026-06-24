@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2025-09-25'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=SYfcgvBco5E
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - comanche-history
   - texas-history

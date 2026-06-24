@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-01-19'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=kkJ8rzqJRVI
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 title: "识别与防御：如何应对生活中的高冲突人格 (HCP)"
 summary: "从罗永浩与贾国龙的公开冲突切入，深入解析比尔·埃迪（Bill Eddy）提出的“高冲突人格”（HCP）理论。文章详细拆解了自恋型、表演型、边缘型、反社会型和偏执型五种危险人格特征，并提供了BIFF（简短、信息、友善、坚定）与CARS（连接、分析、回应、界限）两套实用的防御与沟通策略，旨在帮助人们在职场与社交网络中识别雷区，实现止损与自我保护。"
 area: "society-thinking" # Must select ONE from the provided list

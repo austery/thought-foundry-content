@@ -20,7 +20,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=J8Tjn8p_ttg
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 人生最大的错误之一是试图改变他人，尤其是那些“杠精”和心智封闭之人。本文强调“走开”的力量，即不与无谓之人纠缠，以保护自身时间与精力。在社交媒体时代，这种自律尤为重要。文章区分了无知与愚蠢，指出启蒙对后者无效，真正需要的是“去蠢化”，这需要个人内在的改变动力。同时，文章也批判了部分知识分子对政治的盲目热情和缺乏理性思考。
 tags:

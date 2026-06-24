@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2025-11-27'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=du_jUZWi-0k
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - gratitude
   - maturity

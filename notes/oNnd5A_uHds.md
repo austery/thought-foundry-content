@@ -35,7 +35,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=oNnd5A_uHds
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入剖析了乌克兰总统泽连斯基访美期间，因川普和万斯的行为而引发的外交风波，强调了盟友间相互尊重的重要性。文章通过详尽的经济数据，阐明了美国与欧洲之间不可或缺的经济联系，以及欧洲对乌克兰的支持。同时，探讨了全球政治“右转”的成因，并反思了“老人政治”对美国民主的影响。最后，呼吁在政治喧嚣中保持个人内心平衡，并重申了对开放社会和民主韧性的信心。
 tags:

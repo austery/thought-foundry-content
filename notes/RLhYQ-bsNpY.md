@@ -23,7 +23,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=RLhYQ-bsNpY
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文探讨了美国社会中通过倒挂国旗等方式表达政治抗议的现象，分析了言论自由的宪法保障、地方政治生态中的党派影响，以及网络政治极端化与现实生活的差异。文章深入剖析了执政党“权力的傲慢”如何导致选民疏远，并以2024年大选为例，反思了民主党在经济和边境政策上的失误及其对中间选民的影响，强调了过滤政治噪音、倾听理性声音的重要性。
 tags:

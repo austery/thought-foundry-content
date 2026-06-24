@@ -21,7 +21,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=rNWsuYbLwM0
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本讲座深入探讨了“自由”概念在哲学、政治和法律层面的多重含义。从卢梭的“原初状态”到《独立宣言》的政治宣示，再到美国宪法修正案的具体法律保障，揭示了自由的复杂性。文章还详细阐述了以赛亚·柏林的消极自由与积极自由理论，并通过罗斯福新政和美国最高法院案例（如罗伊诉韦德案）进行实例分析，最终批判性地审视了二分法在解释现实政治时的局限性，强调学习应站在巨人肩膀而非匍匐脚下。
 tags:

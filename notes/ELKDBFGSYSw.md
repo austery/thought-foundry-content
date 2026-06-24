@@ -22,7 +22,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ELKDBFGSYSw
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文探讨了社交媒体时代人际交往的深层挑战，指出尽管线上朋友圈规模庞大，但人类大脑能维持的真正亲密关系数量（邓巴数150）并未改变。文章援引亚里士多德、孔孟庄子等古圣先贤的智慧，将友谊划分为不同层次，强调了德性之友的珍贵性。最终，文章呼吁人们关注核心朋友圈的质量，而非虚拟世界的数量，以对抗现代社会的孤独流行病。
 tags:

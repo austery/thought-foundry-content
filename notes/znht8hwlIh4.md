@@ -20,7 +20,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=znht8hwlIh4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了哈佛大学毕业典礼上一场备受争议的演讲，指出其空洞、虚假的风格反映出精英大学普遍存在的“假大空”教育问题。作者批评这种“永远正确”的概念串联，认为它们可能成为现实世界邪恶的遮羞布，并揭示了部分知识分子炫耀“道德奢侈品”的现象。文章还分析了哈佛大学在学术独立性方面的挑战，并引用斯蒂芬·金的毕业箴言，强调毕业生应保持清醒、识别真假理想，避免沦为“有用的蠢货”或工具人。
 tags:

@@ -13,7 +13,7 @@ products_models: []
 project: []
 series: null
 source: null
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 summary: 文章探讨蠢货为何能成为政治赢家，指出这源于人性弱点而非制度。政客利用民众的情绪化、急功近利和易受表面文章蛊惑的特点，通过口号和煽动获得权力，民主制度的制约机制虽不完美但能限制其伤害范围。
 tags:
 - 人性弱点

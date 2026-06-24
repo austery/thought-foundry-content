@@ -15,7 +15,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=0rwIjgWlT_U
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 中国经济的三驾马车——投资、消费和出口——曾推动中国成为世界第二大经济体。然而，当前中国经济面临严重挑战：投资拉动经济失效，消费萎靡不振，而出口也并非表面上那么强劲。本文深入分析中国经济困境的根源及其未来走向。
 tags:

@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2025-04-30'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=wy32xsNzRy0
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - immigration-policy
   - supreme-court

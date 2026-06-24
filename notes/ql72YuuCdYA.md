@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2025-12-30'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ql72YuuCdYA
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - cognitive-revolution
   - individualism

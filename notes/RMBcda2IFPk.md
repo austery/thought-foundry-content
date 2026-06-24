@@ -16,7 +16,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=RMBcda2IFPk
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本期讲座深入探讨法律如何为个人自由设定界限，特别以美国最高法院的判例为核心，阐释“有秩序的自由”概念。文章通过堕胎权和持枪权两大争议焦点，分析了美国自由派与保守派在政府权力与公民自由边界上的分歧与演变。同时，文章也澄清了美国政府的多元结构及其在保护公民自由方面的双重作用，并反思了中国社会对自由的追求与现状，强调法律保障基本权利的重要性。
 tags:

@@ -17,7 +17,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=yKBb0m6jzwo
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 美国最高法院就川普政府启用《外敌法案》驱逐非法移民一案做出终审判决。判决一方面为川普在非战争时期使用该法案开了绿灯，扩大了总统权力；另一方面，又强制要求政府必须遵守“正当程序”，给予被驱逐者在联邦法院申请“人身保护令”的机会，从而限制了总统的任意驱逐行为。这一判决导致原告和被告双方都宣布胜利，并引发了对“宪法危机”论的重新审视，凸显了美国宪政制度在复杂司法实践中的韧性与智慧。
 tags:

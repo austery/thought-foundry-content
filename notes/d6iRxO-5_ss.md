@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-06-01'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=d6iRxO-5_ss
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - capital-flight
   - rule-of-law

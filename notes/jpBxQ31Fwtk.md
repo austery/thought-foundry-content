@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2025-07-05'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=jpBxQ31Fwtk
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - independence-day
   - founding-principles

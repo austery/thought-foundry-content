@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-06-10'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=JhHQUnHloG0
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - common-sense
   - action-ability

@@ -17,7 +17,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ReJNnF4k5Lc
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 作者分享了其博客“徒步的棋手”的由来，并深入探讨了孤独与同行的哲学。通过讲述日本四国遍路和西班牙圣雅各之路的朝圣经历，以及对美国《独立宣言》中平等与自由的法律思考，作者强调了在复杂世界中寻找真平等、法律生命力及自我改变的重要性。文章呼吁在数字时代多勇敢五分钟，通过分享与分担，共同追求快乐。
 tags:

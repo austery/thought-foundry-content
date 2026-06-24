@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-06-18'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=boryqE2gHZ0
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - education-equity
   - social-justice

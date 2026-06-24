@@ -19,7 +19,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=WTf7D9zgiDM
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入分析了中国经济过去十年的下沉趋势，从外汇储备变化、中美关系恶化、政治控制加强等多个维度，探讨了社会各阶层（先知先觉、后知后觉）的不同应对。文章强调了理解历史趋势的重要性，并结合美国国民心态和价值认同，剖析了中美关系从经济互惠转向“生死存亡的威胁”的深层原因，最终展望了中国经济未来可能面临的漫长修复期及个人应对之道。
 tags:

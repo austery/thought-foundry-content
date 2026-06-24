@@ -20,7 +20,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=xdecNtHOv34
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了外国游客对中国和日本截然不同的态度。通过对比两国在旅游人数上的巨大差异，文章分析了中国国家形象受损、食品与人身安全问题、环境污染、官方宣传以及国民行为等深层原因。同时，文章也批判了中国在处理国际关系和历史问题上的心态，并提出了东亚地区存在一条“现代文明断层线”的观点，认为中国急需改变其自我毁坏的国家形象以吸引国际游客。
 tags:

@@ -18,7 +18,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=tvTdB1Asq78
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文从小说家斯蒂芬·金转发的一条推文切入，探讨了人生中“被人议论”这一无法逃避的常态。通过斯蒂芬·金的个人经历和作品，揭示了人性中幽暗与光明的复杂性，以及天才与庸人对待批评的不同态度。文章强调，面对非议，应保持清醒与自省，活出真实自我，不为取悦他人而改变，这是一种温和而有力的生活智慧。
 tags:

@@ -17,7 +17,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Fgs8mJKinUc
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了川普政府时期学生签证政策的反复无常，包括约1800名留学生身份被取消后又陆续恢复的案例，以及政府在取消签证时所依据的模糊标准。文章强调了留学生身份的脆弱性，即便未违法，不当言行也可能导致签证吊销。同时，提供了具体建议，指导留学生如何了解规则、理性判断、避免争议，以明智地保护自己，顺利完成学业，并为未来做好规划。
 tags:

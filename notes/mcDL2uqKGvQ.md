@@ -18,7 +18,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=mcDL2uqKGvQ
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 文章探讨了海外华人对中国的复杂情感纽带，从人性好奇心和感性连接两个层面剖析了“戒断中国”的深层含义。同时，深入批判了“融入主流社会”这一伪命题，指出其源于小农意识和虚荣心，并强调真正的融入是基于对美国现代文明价值观的认同与践行，而非肤浅的表面符号。
 tags:

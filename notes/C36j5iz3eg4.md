@@ -19,7 +19,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=C36j5iz3eg4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 文章深入分析了中国在国际冲突中，尤其是在对日关系上，如何采取“家暴式”制裁手段。表面上旨在惩罚日本，实则精准打击本国航空公司、旅行社及在日本经营的中国人。这种将国民视为工具、牺牲国民利益以维护“面子”的模式，不仅无助于国际博弈，反而加剧了国际社会的鄙视，并揭示了中国社会中“自我工具化”的悲哀现象，最终如同“黔驴技穷”般自损形象。
 tags:

@@ -25,7 +25,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=SbaFf24Q5h8
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入剖析中国独生子女政策引发的社会危机。该政策导致性别失衡、婚姻生育率暴跌、养老金枯竭及“未富先老”困境。文章批判集权制度下“高瞻远瞩”政策的固有缺陷，强调其对社会和几代人造成的不可逆转的灾难性影响。
 tags:

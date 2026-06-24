@@ -21,7 +21,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=xuDNSnY9SAg
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本期节目基于哈佛大学与中国高校合作的20年抽样调查，分析了中国社会过去十年的变化，以及未来十年的趋势。调查显示，中国民众的乐观情绪显著下降，对社会公平的信任度降低，认为贫富差距源于制度不公。节目还探讨了农民工返乡潮、年轻人啃老等社会现象，以及在经济下行周期中，个人如何建立反脆弱性。
 tags:

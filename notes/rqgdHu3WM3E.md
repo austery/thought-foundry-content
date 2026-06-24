@@ -33,7 +33,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=rqgdHu3WM3E
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了川普阅兵引发的全国性“不要国王日”抗议活动，以及洛杉矶骚乱背后的政治和社会深层原因。文章分析了美国民众对阅兵和移民执法的不同态度，指出民主党在移民政策上的失误及其对选情的影响。同时，对比了加州不同城市在处理抗议活动中的表现，强调了法治和公民常识在维护社会稳定中的重要性，并对美国政治的未来走向进行了反思。
 tags:

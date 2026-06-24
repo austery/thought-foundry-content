@@ -20,7 +20,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=L-MEGePkUIs
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 在中文世界流行的“垃圾时间”概念下，本文探讨了在历史低谷期个人如何追求快乐。文章以美国《独立宣言》中的“追求快乐”为起点，阐述其作为现代文明普世价值的意义。同时，讨论了政治抑郁、批判性思维的重要性，以及如何通过培养内在力量、做出个人选择和承担责任，在不确定的环境中实现自我疗愈与尊严。
 tags:

@@ -20,7 +20,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=e2VvxuaYRJ4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文探讨了当前世界分裂的趋势，以意大利总理梅洛尼和日本首相高市早苗的崛起为例，分析了清醒果断的政治家如何打破传统政治格局。文章深入剖析了“台湾有事就是日本有事”这一地缘政治现实，并揭示了中国“村霸加泼妇”式外交背后，由历史驯化和“太监化”文化导致的深层原因。最后，文章指出东亚地区正形成一条现代文明断层线，预示着潜在的冲突与挑战。
 tags:

@@ -20,7 +20,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=jsSY0hLTjl4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨美国最高法院驳回川普政府上诉，要求支付对外援助款的判决。文章分析了川普通过行政命令施政的特点，以及联邦法院如何通过司法审核权制衡总统权力。同时，揭示了该案件中出现的程序性“乌龙”，并以此为例阐释了美国宪政制度中权力制衡的复杂性、不完美性及其韧性，强调了国民与历史文化传统在维护民主中的核心作用。
 tags:

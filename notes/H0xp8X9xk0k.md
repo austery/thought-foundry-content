@@ -15,7 +15,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=H0xp8X9xk0k
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 中国经济寒冬因制度性绞杀而雪上加霜。本文深入探讨了“红色基因魔咒”如何通过“留置”和“失信名单”等工具，系统性地侵蚀私营企业家的安全感，导致从首富到普通商人都可能随时“被消失”。文章通过对比中美两国的商业环境，揭示了在中国缺乏真正法治保障的体系下，无论是资本巨头还是底层劳工，最终都将面临相似的困境，陷入一种殊途同归的宿命。
 tags:

@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=uRx8PiPgnF8
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入剖析了中国医疗系统面临的三大制度性恶源：政府医疗投入严重不足、医疗资源分配极度不均，以及中医药的政治化。文章指出，这些深层问题导致医患矛盾激化、医疗腐败滋生，并批评了政府以运动式反腐和中草药民族主义来掩盖和转移矛盾的做法。最终，文章强调，社会长期积累的制度性亏欠终将以动荡的方式偿还。
 tags:

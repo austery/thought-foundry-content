@@ -35,7 +35,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=8SrTiZ3JjDo
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入分析了爱泼斯坦（Jeffrey Epstein）丑闻如何在美国政坛引发一场阴谋论风暴，并最终反噬了曾擅长利用阴谋论的唐纳德·川普（Donald
   Trump）。文章探讨了阴谋论在美国社会的兴起及其政治杀伤力，爱泼斯坦的神秘背景及其权贵网络，以及政府对案件处理的疑点。重点剖析了川普在爱泼斯坦案上的立场转变，其支持者（MAGA和QAnon信徒）对其产生的怀疑，以及川普起诉《华尔街日报》的法律策略。文章最后讨论了爱泼斯坦事件对后川普时代MAGA运动走向的深远影响，揭示了民粹主义和阴谋论狂潮难以驾驭的本质。

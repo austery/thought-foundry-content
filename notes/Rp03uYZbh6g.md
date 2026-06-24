@@ -24,7 +24,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Rp03uYZbh6g
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入分析了特朗普上任初期通过行政命令推行“新政”的策略，特别是班农提出的“放水淹”战术。文章区分了公众对政治事件的本能反应（reflex）与理性反应（reaction），强调了美国宪政法治体系对总统权力的制约。同时，文章探讨了总统政治资本的有限性，并建议公民应聚焦真实信息，避免被虚假宣传误导，保持理性思考。
 tags:

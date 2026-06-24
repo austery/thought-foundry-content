@@ -18,7 +18,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=vU-Xt4c3JrI
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本期节目深入探讨中国饮水和食品污染的深层根源，指出这些问题不仅导致身体疾病，更引发普遍的集体焦虑。文章分析了中国人面对此类问题时，因过度虚荣心和“奴隶道德”而产生的“死要面子活受罪”心理，以及这种病态集体心理如何阻碍社会进步。通过引用马斯洛需求层次理论、尼采的哲学思想，并回顾新文化运动等历史经验，节目呼吁个体打破虚荣，回归事实，以期走出世代轮回的困境。
 tags:

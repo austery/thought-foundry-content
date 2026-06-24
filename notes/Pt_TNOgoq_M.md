@@ -16,7 +16,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Pt_TNOgoq_M
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了西方政治思想中“暴政”的真正含义，指出其核心并非残暴，而是武断任性地行使权力。文章追溯了从亚里士多德到现代的西方政治传统，强调法治和分权制衡是避免武断任性统治及其带来灾难的关键。同时，文章批判了中国传统政治思维在理解“以民为本”和权力制衡方面的贫瘠，并分析了集权“干好事”的假象，最终对中国当下所处的转折时期及未来十年做出了宏观判断。
 tags:

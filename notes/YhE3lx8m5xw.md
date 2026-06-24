@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2025-09-02'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=YhE3lx8m5xw
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - world-war-ii
   - japanese-surrender

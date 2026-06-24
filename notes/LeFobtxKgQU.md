@@ -12,7 +12,7 @@ companies_orgs:
 products_models: []
 date: 2025-07-25
 author: Lei
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 channel: null
 draft: true
 file_name: smart_driving_truth_tesla_safety_risks.md

@@ -34,7 +34,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=hIL8ETAIiyA
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入剖析了围绕美国前财长拉里·萨默斯、爱泼斯坦与中国官二代金刻羽的“邮件门”事件。揭示了中美两国政界、学界、商界之间错综复杂的跨国裙带关系和利益输送网络。文章探讨了全球化背景下，权力与金钱如何腐蚀学术机构，导致阶级固化，并呼吁公众保持独立判断力，警惕名校、名人光环下的腐败现象。
 tags:

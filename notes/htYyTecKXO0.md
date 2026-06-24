@@ -29,7 +29,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=htYyTecKXO0
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了美国总统川普与联邦司法机构之间的冲突，包括其试图绕过法院遣返移民、威胁弹劾法官等举动，以及首席大法官约翰·罗伯茨对此的回应。文章引用宪法学教授斯蒂芬·乌拉戴克的定义，阐释了“宪法危机”的内涵，并结合行政命令、司法审核、弹劾等机制，分析了美国权力制衡的运作。通过回顾美国历史上的挑战，文章强调了美国民主的韧性，并呼吁以成熟的心态看待政治，理解民主进程中的挫折与抗争。
 tags:

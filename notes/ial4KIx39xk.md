@@ -24,7 +24,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ial4KIx39xk
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了中国人对美国“乱象”的普遍看法，并结合美国近250年的历史，分析了民主与资本主义之间持续的矛盾与共存关系。文章指出，美国政治中的冲突、动荡与妥协并非衰落迹象，而是其制度自我修正和资本主义升级的动力。通过对比中美两种不同的社会发展模式，本文批判了“东升西降”论调的片面性，强调理解美国历史周期对认知其当下至关重要。
 tags:

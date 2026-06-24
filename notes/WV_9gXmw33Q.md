@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-01-22'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=WV_9gXmw33Q
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 title: "格陵兰购岛闹剧与美联储博弈：从地缘威胁到达沃斯“秒怂”"
 summary: "本文深度解析了川普政府试图通过武力威胁吞并格陵兰岛的地缘政治闹剧，以及其对美联储独立性的持续攻击。文章指出，川普这种缺乏战略支撑的激进外交与内政干预，不仅导致了金融市场的剧烈动荡和盟友信任危机，更暴露了其在遭遇强硬反击时迅速妥协（TACO效应）的行为模式。通过分析最高法院对美联储案件的辩论态度，文章揭示了美国宪政体制中的权力制衡机制如何在极端情况下发挥作用，遏制行政权力的过度膨胀。"
 area: "geopolitics" # Must select ONE from the provided list

@@ -23,7 +23,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=rMAU_GpvHIk
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 亚马逊总裁公开信预示AI将颠覆职场，大量重复性入门职位将被取代，同时催生需要战略性思考和驾驭AI能力的新岗位。文章深入探讨了AI Agent的崛起、认知卸载对人类思维能力的负面影响，以及在即将到来的脑力淘汰赛中，个人如何通过学习和创造性思维来避免被淘汰的冷酷现实。
 tags:

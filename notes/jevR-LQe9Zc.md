@@ -29,7 +29,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=jevR-LQe9Zc
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入剖析中文世界对美国左右派政治的常见误解，指出美国总体上是一个中间偏右的国家，且两党间存在复杂的制衡与合作。文章澄清了平权措施的真实背景，并强调了信息茧房导致的“垃圾进垃圾出”现象。通过区分政治主流与“可卡因左派/右派”等极端分子，文章呼吁关注艾森豪威尔总统所倡导的中间道路，而非被边缘化的极端声音所迷惑。
 tags:

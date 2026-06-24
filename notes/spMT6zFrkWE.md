@@ -27,7 +27,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=spMT6zFrkWE
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了“短语的奴隶”现象，批判了学术界和政界将复杂理论简化为朗朗上口短语的趋势。以亨廷顿的“文明的冲突”和“修昔底德陷阱”为例，文章指出这种简化导致公众对深层背景和理论缺乏理解。文章追溯了“文明的冲突”短语的真正来源，并结合历史与现实，反驳了亨廷顿理论的局限性，提出当今世界的冲突更多是“野蛮与文明”的对立，而非文明间的冲突。
 tags:

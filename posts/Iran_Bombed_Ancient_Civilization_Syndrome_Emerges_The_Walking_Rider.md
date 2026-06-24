@@ -12,7 +12,7 @@ products_models: []
 project: []
 series: null
 source: null
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 summary: 文章分析伊朗遭轰炸反映的"文明古国综合症"：古老国家现代文明化反复失败，导致民众心甘情愿做历史囚徒，转而回归传统威权。中国亦陷入类似困境，经济发展伴随精神倒退，民族复兴名义下抵触民主自由等现代文明价值。
 tags:
 - history

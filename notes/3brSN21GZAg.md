@@ -24,7 +24,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=3brSN21GZAg
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入剖析中国社会中“巨婴”现象的成因与表现，从企业家“假爱国”的表演，到大众在舆论操弄下“嗷嗷待骗”的循环。文章揭示了巨婴心理的认知懒惰、诉诸本能和推卸责任等特征，并以娃哈哈与农夫山泉的商战为例证。最终，文章探讨了个体如何通过精神断奶、重建独立人格来打破这种受骗与行骗的宿命循环。
 tags:

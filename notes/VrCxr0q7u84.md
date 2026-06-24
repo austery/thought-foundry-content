@@ -13,7 +13,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=VrCxr0q7u84
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文记录了作者从东京出发，徒步前往京都的经历，这是他第六次长途徒步。文章探讨了长途徒步的魅力，从西班牙圣雅各之路到日本四国遍路，以及人们踏上旅途的深层原因，如摆脱模板化生活、重新思考人生。作者分享了自己年轻时的梦想如何通过徒步实现，并深入剖析了“过度思考”这一现代病。通过身体的疲惫和感官的回归，徒步帮助人们摆脱焦虑，专注于当下，体验真实而简单的生命。
 tags:

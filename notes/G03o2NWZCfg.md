@@ -20,7 +20,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=G03o2NWZCfg
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文结合NBC、《华盛顿邮报》/ABC和《经济学人》三家民调结果，深入分析了美国选民对唐纳德·川普政府、共和党和民主党的态度变化。报告指出，川普支持率大幅下滑，选民对经济民生和宪法权利双重焦虑。同时，选民对民主党的厌恶甚至超过共和党，反映出美国政治的“无家可归”状态。文章强调，尽管民意如流水，但美国宪政民主的河床和核心价值观保持不变，多数温和选民仍是政治中道回归的坚实基础。
 tags:

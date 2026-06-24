@@ -26,7 +26,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=nEbCYwfPdtI
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入分析了川普政府新一轮关税政策引发的争议与影响。从伊隆·马斯克与彼得·纳瓦罗的公开对峙，到亿万富翁威廉·阿克曼对“经济核冬天”的警告，揭示了硅谷、华尔街与白宫内部在经济政策上的深刻矛盾。文章探讨了关税战对美国经济的潜在冲击，以及国会共和党议员试图限制总统关税权的动向，预示着这场关税战的序幕即将结束，而真正的终局可能才刚刚开始。
 tags:

@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=i1kukrBcCYk
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文探讨了在不确定性和信息过载的时代，现代认知方式中“存疑”的重要性。文章对比了存疑与盲信，分析了社会互信和个人责任如何影响我们的决策，从人际关系到金融投资。通过DeepSeek事件和历史人物的例子，强调了耐心、批判性思维和尽责调查的必要性，以避免在数字时代成为“有用的傻瓜”或“网络心智难民”。
 tags:

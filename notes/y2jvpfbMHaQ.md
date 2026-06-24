@@ -14,7 +14,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=y2jvpfbMHaQ
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 作者以在华盛顿特区目睹的紧张景象为切入点，深入探讨在充满政治乱象的“历史垃圾时间”中，个体应如何自处。文章的核心论点是，单纯依靠愤怒等情绪对抗体制是一个危险的陷阱，极易导致个人耗竭与仇恨滋生。作者提出，我们必须将情感作为“燃料”，同时用理性和系统性知识构建强大的“引擎”，并建立稳固的个人价值观，才能清醒、有效地应对时代的挑战，避免沦为被操控的工具。
 tags:

@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-05-23'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=9kDcB2WN2P4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - demographic-crisis
   - youth-emigration

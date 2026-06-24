@@ -23,7 +23,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=4sb_MeotgCw
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 文章探讨了中国语境下的自由概念，指出中国人并非不爱自由，而是其对自由的渴望长期受到历史和政治的压制。文章通过翻译家严复对“自由”一词的引入与诠释，以及该词在中文语境中的演变，区分了抽象自由与具体自由。文章强调了婚恋自由等具体自由的巨大进步，同时也反思了政治自由（如言论自由）在当代中国所面临的困境和倒退，最终论证了爱自由是根植于人性的基本需求。
 tags:

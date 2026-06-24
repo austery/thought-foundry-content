@@ -12,7 +12,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=qzF0CM7fQfM
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文作者回顾了其母亲在贫困中抚养四个儿子的艰辛与牺牲，生动描绘了童年时期在采石场打工的经历，以及一位邻居大妈的困苦生活。作者分享了母亲的人生忠告和她默默付出的力量，最终深刻领悟到“母亲就像胶水一样把家粘在一起”的真谛，强调了母亲在家庭中不可或缺的凝聚作用。
 tags:

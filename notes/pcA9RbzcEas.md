@@ -18,7 +18,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=pcA9RbzcEas
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了作者对圣诞节的个人记忆与感悟，从高中时代收到第一张圣诞卡和礼物，到与陌生人相遇的温暖经历。文章反思了“圣诞快乐”与“节日快乐”的祝福语争议，倡导相互包容与尊重。同时，作者分享了与儿子在价值观、兴趣爱好上的代际连接与差异，以及对青少年教育（如摔跤、负责任的枪支拥有）的思考，强调了善意、自律和身心健康在人生中的宝贵价值。
 tags:

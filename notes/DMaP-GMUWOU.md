@@ -38,7 +38,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=DMaP-GMUWOU
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨美国政治脱口秀的独特现象，分析总统如何成为娱乐素材，以及这种文化现象如何反映社会自省与言论自由。文章以比尔·克林顿和唐纳德·川普为例，剖析性丑闻和口无遮拦如何成为脱口秀的黄金素材，并对比美国与中国在政治幽默上的差异。同时，文章也讨论了边缘左派对言论自由的挑战，以及脱口秀演员如何通过反叛姿态吸引观众，强调政治娱乐在民主社会中的重要作用。
 tags:

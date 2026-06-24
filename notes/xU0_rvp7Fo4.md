@@ -17,7 +17,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=xU0_rvp7Fo4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文回顾了作者与一位名叫Morris的老律师二十多年的交集。Morris是一位经历越战的犹太裔律师，他的人生智慧和处事原则，如“别在不值得的人身上浪费呼吸”和识别骗子的告诫，对作者产生了深远影响。文章通过Morris的言行，探讨了如何在复杂多变的人生中，珍惜时间，识别真伪，并活出有价值的生命，强调了智慧传承的重要性。
 tags:

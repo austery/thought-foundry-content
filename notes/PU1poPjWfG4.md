@@ -22,7 +22,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=PU1poPjWfG4
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文记录了作者在美国26年间与11辆汽车和5辆自行车的深厚情缘。从初到美国的青涩岁月到如今的成熟稳重，他分享了驾驶不同品牌和型号车辆的独特感受，以及骑行穿越美国、欧洲和亚洲的经历。文章不仅展现了车辆如何融入个人生活方式，也通过对汽车的情感联结，折射出时光流逝与人生境遇的变迁。
 tags:

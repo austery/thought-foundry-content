@@ -17,7 +17,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=AD9_xWCndvE
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文探讨了华裔脱口秀女星Leslie Liao的幽默段子“没人在乎你”所蕴含的深刻智慧。通过引用心理学中的“聚光灯效应”实验，文章揭示了人们普遍高估他人对自己关注度的现象。这种顿悟能帮助我们摆脱自我设限的焦虑和表演型人格，鼓励人们关掉头脑中的心理聚光灯，活出真实自我，勇敢尝试和表达，从而建立更真诚的人际连接，并发现内在的自我价值。
 tags:

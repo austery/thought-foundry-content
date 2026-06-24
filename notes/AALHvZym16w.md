@@ -14,7 +14,7 @@ companies_orgs: []
 products_models: []
 date: 2025-08-02
 author: Lei
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 channel: null
 draft: true
 file_name: xiao_zhen_zuo_ti_jia_and_ji_wa_breakthrough.md

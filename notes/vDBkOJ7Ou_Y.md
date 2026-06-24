@@ -22,7 +22,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=vDBkOJ7Ou_Y
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文探讨了古罗马哲学家艾比克泰德的斯多葛哲学，特别是“控制二分法”，以及越战战俘James Stockdale提出的“斯托克戴尔悖论”。文章深入分析了在政治高压、经济下行、社会失序的“至暗时刻”中，如何运用这些哲学智慧，区分可控与不可控，保持内在平静与必胜信念，避免盲目乐观与彻底绝望，从而在不自由的时代中实现精神自由与积极行动，应对内卷与躺平的挑战。
 tags:

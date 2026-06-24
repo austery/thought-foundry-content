@@ -15,7 +15,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=umFklxGqn6w
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 讲述了1916年墨西哥革命期间，美国将军潘兴如何不顾排华法案，将500多名在墨西哥为美军提供后勤服务的华人及其家属营救至美国，并最终争取合法身份的真实历史故事。这不仅是关于契约精神和军人荣誉的体现，也展现了华人在美国历史中的贡献与抗争。
 tags:

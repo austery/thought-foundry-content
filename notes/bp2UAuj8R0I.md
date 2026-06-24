@@ -19,7 +19,7 @@ products_models: '[]'
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=bp2UAuj8R0I
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入解读了畅销作家斯蒂芬·金提出的三句人生忠告：保持冷静（Stay Cool）、别犯傻（Don't Be a Fool）和避免活成工具人（Avoid
   Being a Tool）。文章详细阐述了如何在情绪失控的社交媒体时代保持清醒、如何运用智慧防范舆论陷阱与宏大叙事，以及如何守护人格独立与尊严。这三条建议被视为构建健全人格、实现精神独立的关键防线，强调其环环相扣、缺一不可的重要性。

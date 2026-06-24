@@ -19,7 +19,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=F-iqrZ-MN1g
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了川普政府时期，FBI逮捕威斯康星州一名县法院法官的事件。该法官因涉嫌协助非法移民逃避联邦执法而被捕，引发了关于行政权与司法权制衡、联邦政府与州政府关系以及移民政策执行手段的广泛争议。文章通过对比马萨诸塞州类似案例和历史上的普莱勒诉匿名被告案，分析了法官在人道与法治之间寻求平衡的智慧，并探讨了极端执法手段对选民支持度的影响，强调了在民主社会中选民最终的决定权。
 tags:

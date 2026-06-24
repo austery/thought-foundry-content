@@ -19,7 +19,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=aLBgcBVyJBc
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了‘小政府’与‘大政府’概念的复杂性，挑战了将其简单化、教条化的倾向。通过分析里根总统的言论、美国历史政策（如罗斯福新政、1965年移民法）及各国政府支出数据，文章指出政府规模与自由度、福利水平并非线性关系。它强调政府在不同领域有选择性地‘大’或‘小’，并警示教条主义思维在政治和经济领域可能导致的灾难性后果，呼吁对复杂现实进行具体分析而非盲目套用口号。
 tags:

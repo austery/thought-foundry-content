@@ -15,7 +15,7 @@ products_models: []
 project: []
 series: null
 source: null
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 summary: 亚马逊总裁公开信预示AI将颠覆职场，取代重复性入门工作，但创造新机会给具有战略思维能力的人。未来职场属于能创造性运用AI、具有高阶认知能力的人，而缺乏学习能力的人将被永久性淘汰。
 tags:
 - ai

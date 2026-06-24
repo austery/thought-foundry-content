@@ -19,7 +19,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=keCOl5L2sOE
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 status: evergreen
 summary: 本文深入探讨了中国诈骗业的广泛蔓延及其独特的“歧视链”，从缅北经济诈骗到官方主导的舆论诈骗。文章追溯了中国社会造假和欺骗的悠久历史，引用纪晓岚《阅微草堂笔记》揭示康乾盛世时期民间诈骗的猖獗。进一步分析了苏俄意识形态对中国社会道德护栏的摧毁，以及现代官办舆论诈骗对国民造成的深远灾难。文章指出，整个制度的虚假性是系统性诈骗的根本原因，呼吁重建内在道德和外在法律护栏。
 tags:
