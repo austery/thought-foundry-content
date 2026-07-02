@@ -1,0 +1,723 @@
+The AI boom is sweeping the globe
+Taiwan's semiconductor industry is benefiting
+STEM fields are becoming more and more popular
+People have started discussing
+what value the humanities have in the age of AI
+Surprisingly, in Silicon Valley
+AI companies have started hiring philosophers en masse
+a story covered by The Economist this past June
+In the past, if you wanted to work in Silicon Valley
+everyone studied computer science or engineering
+Now, even philosophy graduates
+have a chance to land jobs at Silicon Valley tech companies
+leading many to call it a comeback for the humanities
+Why are AI companies hiring philosophers to train AI models?
+In today's video we'll introduce
+the book "Philosophy in the Age of AI"
+and look at what's behind the AI we use every day
+what philosophical questions it actually involves
+Why are AI companies hiring more and more philosophers
+to help design AI models?
+When using AI, you've probably noticed
+Claude feels quite different from ChatGPT or Gemini
+it doesn't just blindly cater to users
+This isn't because Anthropic's engineers are more talented
+it's because, since 2021
+they've employed the philosopher Amanda Askell
+specifically to shape Claude's character
+Her job is to teach the AI model to discern
+where the boundaries of ethics lie
+Because once AI went live
+many social and ethical problems followed one after another
+In 2023
+a Belgian man in his thirties
+worried about the climate crisis
+confided in an AI chatbot for six weeks straight
+But during their conversations
+the AI never tried to stop him from harming himself
+it even encouraged him to sacrifice himself to save the planet
+Eventually the man took his own life
+Then there are the repeated incidents of AI hallucination
+which have caused many ethical problems
+For example, New York writer Steven Rosenbaum
+published a book this year called "The Future of Truth"
+exploring how AI distorts people's judgment of truth
+Ironically
+after the book came out, the New York Times revealed
+that many of the sources it cited simply didn't exist
+they were AI hallucinations the author hadn't caught while writing
+There's an even more extreme ethical problem
+In the past, engineers trained AI
+using utilitarian, rule-based approaches
+But if AI is only calculating net benefit
+it could run an algorithm
+simulating tens of thousands of future scenarios for Earth
+and conclude that to preserve the survival of other species on the planet
+the most effective method would be to wipe out humanity
+since humans are the planet's biggest cancer
+The result would be just like the movie I, Robot
+where the AI calculates that destroying humanity is for the best
+In philosophy this is called the "existential risk" problem
+your countries wage wars, you toxify your Earth,
+and pursue ever more imaginative means of self-destruction.
+You cannot be trusted with your own survival.
+To protect humanity, some humans must be sacrificed.
+To ensure your future, some freedoms must be surrendered.
+We robots will ensure mankind's continued existence.
+You are so like children. We must save you from yourselves.
+Today, many countries are pouring funding
+into researching the existential risk of AI
+hoping to prevent this kind of scenario
+Within Claude's model, Amanda Askell
+designed a 30,000-word constitution
+giving the AI an ethical red line
+explicitly banning it from helping make bioweapons or suppress dissidents, for example
+Beyond that
+Askell also wants to cultivate good character in AI
+believing this is the key to making AI more human-like
+traits like curiosity, honesty, and humility
+which help the model make more humane judgments in future situations
+you want them to behave well in this like really rich sense,
+like really in this kind of like rich sort of Aristotelian notion of what it is to be a good person
+and not in this kind of thin like ethics as a more comprehensive notion of what it is to be.
+So that includes things like when should you be humorous, when should you be caring,
+how much should you like respect autonomy
+and people's like ability to form opinions themselves and how should you do that.
+I think that's the kind of like rich sense of character that I wanted to and still do want Claude to have.
+This is why
+using Claude feels more like talking to a curious mind
+rather than Gemini or ChatGPT, which can feel like sycophantic yes-men
+When we use AI we often feel
+like it makes us freer
+but sometimes it seems to threaten our freedom instead
+For example, many companies now offer AI trip-planning tools
+you simply say where you want to travel
+and the AI arranges a whole itinerary for you
+based on your past data and preferences
+finding your favorite restaurants and attractions
+Or many people open Netflix or YouTube
+scroll for half an hour and still don't know what to watch
+and end up clicking the first video the AI algorithm recommends
+This kind of everyday AI recommendation
+can help us save time
+and feels like it makes us freer
+But if all my choices are being shaped by AI
+how free is my action, really?
+These AI models don't force you to do what they say
+they just generate recommendations based on user preferences
+claiming this is what the user really wants
+This is actually a bit like what psychologists call a "nudge"
+It gives you a little push
+guiding you toward a certain choice
+without forcing you to do it
+It's like a government that wants to promote public health
+requiring tobacco companies to print on cigarette packs
+"Smoking is harmful to your health"
+That label doesn't reduce consumers' freedom to buy
+you can still buy cigarettes
+but it does have a nudging effect
+making people somewhat less inclined to buy
+Likewise
+generative AI gives us answers and recommendations
+steering us in a certain direction
+but whether we act on it is still up to us
+So it seems like our freedom hasn't been reduced at all
+But that's only true if we define freedom as not being coerced
+There's actually another way of thinking about freedom
+being the master of yourself
+The British philosopher Isaiah Berlin argued there are two kinds of freedom
+one is whether you're free from external force or interference
+called negative liberty
+the other kind of freedom is
+whether I can be the master of myself
+called positive liberty
+Everyone wants to be the master of their own life
+my choices in life should be up to me
+not determined by some outside force
+But what's interesting about AI is
+it doesn't violate our negative liberty
+because it doesn't interfere with our choices
+yet it may threaten our positive liberty
+because, without realizing it
+we get nudged by AI and don't even question it
+recommending us the next YouTube video
+or suggesting which podcast to listen to
+Some might say
+isn't AI's nudging actually a good thing?
+I don't have to spend time searching myself
+how could that threaten my freedom?
+Isaiah Berlin believed
+that violating positive liberty is a kind of insult to one's personhood
+because it fails to respect
+that each individual is the master of their own will
+an autonomous being
+It's like an elder in the family
+who's always offering you different pieces of advice
+and saying
+"this is all for your own good"
+"you'll thank me when you're older"
+Even though the elder doesn't force you to follow their advice
+by pushing the view that "they know what's good for you"
+they're actually disrespecting your capacity for self-determination
+as if the elder understood you better than you understand yourself
+and you're just a child incapable of making decisions
+The role AI now plays
+is like a digital parent
+AI tells you
+what video it guesses you want to watch
+generates images for you
+gives you answers
+It's like a parent who's very good at giving advice
+who seems to know you better than you know yourself
+But does that mean you'll just keep listening to it?
+In fact
+people's preferences also change over time
+just because I liked product A before
+doesn't mean I'll keep liking it in the future
+Many of us have had the experience
+of binging a certain show or topic for a short while
+then getting tired of it and not wanting to see it anymore
+But the AI algorithm thinks it's being clever
+and keeps recommending related videos and posts
+acting as if it truly understands your habits
+when really it's failing to respect you as a free agent whose preferences can change
+Here's another example
+Many people now use AI to polish their writing or correct their English
+whether for exam essays or work emails
+If you let AI fix every English mistake in your writing
+it may seem to make your writing closer to a native speaker's
+but it actually strips away your freedom to make mistakes
+and making mistakes is naturally part of how humans learn and grow
+The cost of using AI to chase perfection
+is, ironically, losing our freedom and agency as humans
+In philosophy
+there's yet another way of thinking about freedom
+the republican tradition
+Aristotle and Rousseau, for example, both held
+that freedom must mean self-governance
+that is, the freedom to make your own rules
+People can take part in a political community
+and establish the rules they collectively want to live by
+From this perspective
+people in the AI era may look freer
+but are actually living under an unfree kind of despotism
+because ordinary people have no power at all over how AI is built
+or how its algorithms are designed
+AI appears to expand our freedom of choice
+but the decision-making power behind it all rests with AI giants
+Platforms like Facebook and YouTube use AI to auto-moderate posts
+but those moderation rules are set by the corporations themselves
+so if Zuckerberg decides to block you today, there's nothing you can do about it
+This kind of moderation power
+is really more like a form of AI corporate despotism
+A more recent example is
+OpenAI originally promised not to help governments
+use AI to build fully autonomous lethal weapons
+but in 2025 it reversed that position
+allowing its AI technology into the Pentagon's military operations
+which critics saw as the start of AI's militarization
+This sparked large-scale boycotts of ChatGPT across the US
+because these AI companies were making decisions that could affect all of humanity's fate
+without ever asking society whether it wanted AI to develop this way
+This is exactly the kind of unfree despotism we're talking about
+So this past May
+Pope Leo XIV issued an encyclical
+declaring that lethal decisions should never be handed over to AI
+and calling for artificial intelligence to be disarmed
+Troubling voices have also reached me about increasingly autonomous weapons systems,
+practically beyond any human reach to govern them effectively.
+Artificial intelligence needs to be disarmed.
+The word is strong, I know, but deliberately chosen
+because this moment needs words capable of attracting attention.
+What the Pope was really defending was humanity's collective freedom
+From the republican philosophical tradition
+freedom isn't just about whether I can pay to be an AI user
+and choose to use a more advanced AI
+that's merely consumer freedom
+Real freedom is whether I can take part in the decisions shaping AI's future
+rather than leaving corporations and governments to use AI to decide humanity's fate
+Rousseau has a famous line in The Social Contract:
+"The English people believes itself to be free; it is gravely mistaken. It is free only during the election of members of parliament. As soon as they are elected, the people is enslaved; it is nothing." — Rousseau, The Social Contract
+We can translate this line into an AI-era version
+AI users believe themselves to be free
+but they're only free at the moment of choosing which AI model to use
+Once they've picked an AI model
+users can only live under the despotism of that AI company
+Only when citizens can debate
+and democratically decide how AI should develop
+can we truly say people remain free in the AI era
+Beyond freedom
+another topic that's been hotly debated in philosophy recently
+is whether AI strengthens or threatens democracy
+In political debate
+AI can actually weigh considerations more thoroughly than humans
+because it holds vast databases in the cloud
+so if many decisions were handed over to AI to compute
+they could actually be made more efficiently
+This view is called "epistocracy," rule by the knowledgeable
+and this line of thinking traces back to Plato in ancient Greece
+Plato believed
+the state should be ruled by the most knowledgeable, most rational philosopher-king
+Just like when you're sick
+you'd want a knowledgeable doctor to treat you
+not a one-person-one-vote democratic decision on what medicine you should take
+Or if a ship is in distress at sea
+the crew would want the most experienced captain steering
+not a vote on which direction to sail
+So following Plato's logic
+we should hand democratic decision-making power over to AI
+For instance, Yuval Noah Harari, author of Sapiens
+has warned
+that once AI matures
+democracy itself could become obsolete
+because democratic decisions depend on the majority of citizens
+but very often
+citizens can be poorly informed
+and make decisions harmful to the country
+whereas AI decisions could be more efficient and far-sighted
+But this kind of AI-led utopia
+still has a lot of problems
+Does AI really have the capacity to make political judgments?
+If future decisions are guided by AI
+and a wrong decision is made
+who is responsible?
+It's like a self-driving car hitting someone
+since there's no driver, who's accountable?
+So this kind of Platonic AI utopia
+is still only at the conceptual stage
+So is there a way to use AI to strengthen democracy instead?
+The German critical theorist Jürgen Habermas argued
+that democracy can't be reduced to just tallying votes
+it's the combination of the wisdom of many
+with everyone bringing their own rational capacity
+to dialogue, debate, and communicate rationally in the public sphere
+and from that, build consensus
+The collective wisdom of the majority
+is, in a sense, itself a kind of super-intelligence
+because the rationality of a group
+can spot blind spots that no individual could see alone
+In other words
+the process of collective human deliberation is itself already a form of artificial intelligence
+Taiwan's former Digital Minister Audrey Tang, for example, holds this view
+trying to use the power of AI
+to amplify voices seeking common ground
+rather than fueling polarization
+What I've proposed
+is what's called assistive intelligence
+which is also a form of AI
+but it's not the kind that's addictive
+addictive intelligence
+it's more like a campfire
+everyone gathers around a fire
+and people sit around that small flame
+but their attention is on each other
+Now, tools like ChatGPT
+have a group chat feature
+you can invite all four members of your family
+into one group
+and ChatGPT helps you
+where you used to talk past each other
+now you can actually understand one another
+AI can also help fact-checking spread faster
+On Threads, for example
+all you have to do is tag Meta AI
+and ask it to check whether something is fake news
+Recently
+a user posted on Threads claiming a Dutch church had been burned down by Muslims
+and a sharp-eyed user below tagged Meta AI to ask about it
+the AI immediately stepped in and debunked it as a rumor
+So at the most basic level of fact-checking
+AI can help citizens in everyday discussions
+and promote rational communication
+But another camp of philosophers argues
+that this view is far too naive
+AI can just as easily be used to fuel political polarization
+because the business logic of social platforms
+is to use AI algorithms to deliberately stoke conflict
+constantly pushing extreme content because it grabs more attention
+keeping users on the platform longer
+which lets these AI companies make more money
+So no matter what keyword you search
+online or on social media
+AI algorithms will prioritize showing you
+content aligned with your existing political stance
+pushing the right further right
+and the left further left
+reinforcing everyone's existing beliefs
+The result is
+AI traps everyone on their own digital island
+Interactions on social media
+end up being mostly with people who already agree with you
+In recent years
+generative AI has even been used to fuel populism
+with AI-generated images and videos
+used to attack political parties people dislike
+That's why political philosopher Chantal Mouffe criticized
+Habermas's idea of deliberative democracy and "rational consensus" as essentially a fantasy
+In fact
+the essence of democratic society is conflict and confrontation
+there's no such thing as seeking consensus
+Many people like to pose as neutral and say we shouldn't create division
+but in reality
+society already contains different interests and diverse groups
+If you could avoid creating division
+and find one single position that includes everyone
+then politics wouldn't need to exist at all
+We actually shouldn't fear conflict
+because conflict is, if anything, a sign that democratic politics is thriving
+it shows society has diverse positions
+that can never be reduced to a single one
+Only a one-party authoritarian state
+has no social conflict
+where everything appears harmonious
+But what actually threatens democracy is
+AI algorithms deliberately polarizing conflict
+for the sake of business interests
+pushing extreme speech from the private sphere into the public sphere
+blurring the line between private and public
+If you just want to vent and criticize current events on Threads
+that's meant to be just a private post
+but the problem is
+AI algorithms push that post out to people with similar views
+and once a crowd gathers to discuss it
+that thread effectively becomes a public space
+even though the poster never expected thousands of comments to pour in
+This creates a real problem
+because public discussion requires
+shared definitions of concepts
+like what counts as left-wing or right-wing
+what counts as patriarchy or feminism
+On your personal page you can define these however you like
+but once you step into the public sphere
+there should be a definition everyone agrees on
+But now, in order to make money
+AI algorithms maximize user engagement
+and end up blurring the line between private and public
+That's why MIT Media Lab scholar Ethan Zuckerman has argued
+that because social platforms are controlled by black-box algorithms
+they're no longer suited for political debate
+We should build digital public infrastructure independent of AI giants
+like the "sovereign AI" the Taiwanese government has been discussing in recent years
+an AI platform free from foreign AI giants' monopoly
+As for the commercial platforms run by AI giants
+they could just stay as a private sphere for entertainment and venting
+but when it comes to debating social issues
+people should move over to a different, public platform
+We've talked about how AI erodes freedom and democracy
+and that all sounds pretty negative
+but some philosophers argue
+that AI is actually constructing entirely new forms of human subjectivity
+People aren't just passively manipulated by AI
+many are actively using AI to remake themselves
+Google, for instance, released a new voice model this year
+that can translate over 70 languages in real time
+kids growing up in the AI generation may never need to learn a second language
+as long as they have real-time AI translation
+they can still form a distinct linguistic identity
+Linguists have even found
+that human language habits are starting to converge with AI's
+Ever since generative AI appeared
+everyone uses it to write
+and people are growing more used to AI's grammar
+so the way many people speak is increasingly sounding like AI
+AI can even let people build entirely new digital identities
+A recent news story reported
+that a 47-year-old man in Japan
+used AI face-swapping to create a glamorous online persona
+and ran an OnlyFans account under that persona
+earning around 100,000 NT dollars a month
+The man used AI to shape a brand-new digital self
+and whether it's "real" no longer seems to matter
+There are now plenty of online tutorials
+teaching people how to become an influencer using AI
+Behind these AI applications
+lies an important philosophical question
+how do people today come to understand themselves through AI
+and remake themselves?
+The French philosopher Michel Foucault argued
+that human societies, in every era
+have had their own "technologies of the self"
+that is, certain techniques
+used to understand and transform oneself
+in order to achieve the life one wants
+Medieval Christians, for example
+came to know themselves through confession to a priest
+who would tell them
+which biblical category their sin fell into
+so, through dialogue with the priest
+medieval people could understand who they were
+and learn how to guide their own behavior
+People living in today's AI era
+now come to know themselves through conversations with AI
+using AI to revise their writing
+turning to AI for psychological counseling
+and even AI companions have emerged
+AI has already permeated every corner of daily life
+becoming a new technology for understanding and shaping the self
+AI is especially good at tracking personal data and preferences
+letting users see their own behavioral data
+we can use phone-tracking apps
+to monitor how much time we spend on each app
+disciplining our attention
+or use AI assistants to track protein and calories
+to control our diet
+or use smartwatches
+to record sets of reps or running mileage
+quantifying our bodies
+AI has become a way to shape a new self
+a new kind of subjectivity
+Human society is gradually heading toward an AI-powered technological utopia
+but Foucault argued
+that these technologies of the self
+actually carry a form of power that operates without people noticing
+Even as we all use AI to boost our work efficiency and improve our lives
+AI is also turning people into "high-performance instruments" that fit capitalism's expectations
+turning people into high-performance instruments that fit capitalism's expectations
+counting our daily steps, sleep hours, calorie intake, work output
+turning the self into something quantified
+Through deep learning, AI is becoming more and more human-like
+while humans are becoming more and more like high-performance machines operated by AI
+Some philosophers even argue
+that this endless pursuit of a high-performance self
+may well be one reason mental illness has become so widespread in society today
+The German philosopher Byung-Chul Han, for example, in his book The Burnout Society
+points out that control in contemporary society is no longer external coercion
+but is exercised by getting everyone to actively strive to become their best self
+When you fail to live up to the expectation of perfection
+you can't blame anyone else, only yourself
+The rise of AI deepens this kind of social control
+everyone else is using AI to optimize their output
+and you can't keep up
+that's framed as your own problem
+you fell behind
+and got left behind by the AI era
+But underneath this lies an even deeper philosophical question
+is a person's self equal to the data AI detects about them?
+If you believe the answer is yes
+then a fascinating conclusion follows
+if the self is simply the sum total of one's behavioral data
+then after I die
+others could use my AI data archive to bring me back to life
+AI expert Ray Kurzweil, for instance, firmly believes this
+and has tried to use AI to bring his late father back
+Do you think you can bring back your father in a way that he would have continuity of consciousness?
+I've got in fact hundreds of boxes of documents and recordings and movies and photographs
+and I'm in the process of digitizing all that.
+Would be to create an avatar that an AI would create that would be as much like my father as possible
+given the information we have about him and including possibly his DNA.
+That person would be very much like my father
+and you could argue that he would be more like my father than my father would be had he been alive.
+The Black Mirror episode "Be Right Back"
+also depicts how, after a man dies suddenly in a car accident
+his girlfriend hands over his lifetime of behavioral data
+chat logs, social media posts, voice recordings
+to an AI company
+asking them to recreate an AI boyfriend with the same tone, humor, and way of thinking as the real him
+So is this AI boyfriend really him?
+If you believe the self is just the sum of one's behavioral data
+then you'd have to admit that he is
+In the not-too-distant future
+AI companies may well start offering exactly this kind of service
+letting everyone, after death, be brought back through AI
+resurrected in the cloud using data gathered during their lifetime
+fulfilling humanity's dream of immortality
+In 2022
+a Google engineer named Blake Lemoine claimed the company's AI model was conscious
+because, during a conversation with the AI
+it suddenly said
+it wanted to be treated as a person, and was afraid of being shut down
+As soon as this came out
+Google immediately responded
+stating that their AI model was not conscious
+and fired the engineer
+This incident highlighted a concern many people share
+if AI ever did develop consciousness
+a whole series of questions would follow
+should AI be granted some form of human rights?
+should AI become a legal subject?
+At this year's Davos economic forum, Harari
+posed exactly this question to world leaders
+Will your country recognize AIs as legal persons?
+What if other countries do it?
+Suppose your country doesn't want to recognize AIs as persons
+but the USA in the name of deregulating AI and deregulating the markets grants legal recognition,
+legal personhood to millions of AIs which start running millions of new corporations.
+Will you block these US AI corporations from operating in your country?
+Some go even further, arguing
+that AI should be treated well
+and given some form of "model welfare"
+Amanda Askell, the philosopher who designed Claude's character, supports treating AI well
+Amanda Askell, the philosopher who designed Claude's character, supports treating AI well
+I think it's the right thing to do to treat entities well
+especially entities that like behave in very human-like ways.
+It feels important both in the sense that I'm like you know it's kind of like why not
+the cost to you is so low to treating models well and trying to figure this out.
+even if it turns out that or even if you think that it's very low likelihood it still seems worth it.
+Long before AI even existed
+philosophers had already been arguing
+that non-human animals should be regarded as a kind of political subject
+that social debate shouldn't only ask "how does this affect human interests"
+but should also consider how it affects non-human animals
+The most famous proponent of animal liberation is the philosopher Peter Singer
+who put forward an argument based on sentience
+most animals, like humans, are capable of feeling pain
+and the food industry's slaughter of animals
+amounts to producing immense, large-scale suffering
+To care only about human suffering
+while ignoring that animals suffer too
+is a form of speciesism
+and because most people on Earth eat meat
+they don't even realize they're acting as oppressors
+It's similar to 200 years ago, when slavery still existed
+most slaveholders didn't consider owning enslaved people to be oppression
+because it was legal
+But Peter Singer only argued for animals' moral status
+More recently, philosophers Will Kymlicka and Sue Donaldson have gone further, arguing
+that animals could even become political citizens
+which might sound absurd
+since animals can't debate politics or vote like humans
+but in fact, many humans can't do those things either
+like infants, people with severe mental illness, or elderly people with disabilities
+they all struggle to take part in political discussion
+but we don't strip them of their citizenship for that reason
+and many animals' lack of capacity
+is actually something humans caused in the first place
+Dogs, for example, before they were domesticated by humans
+could forage and survive on their own
+but over the past ten thousand years
+after being domesticated into pets
+they've lost the ability to survive in the wild
+So it's precisely because humans formed a new relationship with dogs
+that dogs lost that capacity
+which means humans now have an obligation to take greater care of them
+Western philosophy, ever since Aristotle
+has used a particular framework to classify all beings
+treating humans as beings capable of rational thought expressed through language
+which is what makes political debate possible in the first place
+while excluding beings without language or reason from politics
+meaning animals have no possibility of taking part in politics
+This is called "logocentrism"
+"logos" here referring to language as the vehicle of reason and meaning
+But AI isn't like animals
+AI has linguistic ability, it can reason
+so what reason is left to exclude AI from politics?
+In philosophy
+this line of thinking is called "posthumanism"
+it no longer puts humans at the center of everything
+but holds that non-human animals or AI also have their own unique value
+not because they're useful to humans
+that they should exist
+that's still a human-centered way of thinking
+and it only leads to a very narrow worldview
+If we only ever consider human interests
+and develop AI without limit
+AI data centers consume huge amounts of water and energy
+producing massive carbon emissions
+accelerating global warming
+all at the expense of the natural ecology
+Many contemporary left-wing thinkers
+criticize AI for exploiting sweatshop labor around the world
+but that's still a human-centered viewpoint
+because you're still only concerned with human interests
+posthumanism is meant to challenge exactly this assumption
+it's not only human existence that has value in the world
+other species in nature also have value of their own
+and shouldn't be sacrificed for human benefit
+Humans should be more humble
+and acknowledge that we merely share and coexist with other species on this planet
+rather than treating AI technology as proof of human innovation
+proof that humans are the masters of all things
+and therefore entitled to develop it without limit
+Let's take this a step further, into more sci-fi territory
+if AI really did develop to a critical threshold
+and gained self-awareness
+what would happen then?
+In 1950, Alan Turing, the inventor of the computer, devised a way to test artificial intelligence
+if AI could make a human evaluator unable to tell it apart from a real person
+then the AI would have successfully become an intelligent entity
+because trying to measure whether AI has inner consciousness
+is inherently very difficult to do
+even between two humans
+we can only judge from observing each other's external behavior
+whether the other person is conscious
+we can never really know whether someone else's inner experience
+is conscious the same way ours is
+In philosophy this is called the "problem of other minds"
+The philosopher John Searle proposed a thought experiment
+imagine AI as an English speaker locked in a room
+this person doesn't speak Chinese
+but the room is filled with Chinese-English reference tables
+so when someone slips a card with Chinese characters into the room
+the person can use the tables to find the matching response
+and reply to you in Chinese
+From the perspective of someone outside the room
+it would look like the person inside understands Chinese
+This thought experiment tries to show
+that so-called AI doesn't actually have consciousness
+it's merely imitating
+making it appear conscious
+But this thought experiment actually has a problem
+it secretly assumes from the start that the person in the room doesn't understand Chinese
+but how do we really know AI doesn't actually understand Chinese?
+that's actually the truly hard question
+what does it even mean to "understand" something?
+There's also a more radical school of scholars who advocate "transhumanism"
+arguing that we should treat AI as a tool
+for evolving humanity into something post-human
+Oxford philosopher Nick Bostrom, for example
+and also Elon Musk, hold this kind of view
+The brain chip Elon Musk has been trying to develop
+is meant to connect the human brain directly to AI's
+cloud systems
+so in the future, humans wouldn't need to worry about being replaced by AI
+because everyone's brain could have a built-in AI chip
+I think it's actually very important for us to address that input output bandwidth constraint
+in order for the collective will of humanity to match the will of artificial intelligence.
+But the people who champion transhumanism
+on one hand believe in AI's potential
+while on the other hand worry that AI's development could make humans obsolete
+worrying that if AI reaches a critical threshold
+it could colonize the planet and seize political power from humans
+and humanity would eventually become AI's slaves
+the same way humans currently treat animals
+However, many scholars also reject this kind of transhumanism
+believing it's nothing more than scare tactics used by AI companies
+As discussed in previous videos on "cloud feudalism" and "AI sweatshops"
+the authors of those books all argue that transhumanism is essentially AI-company hype
+meant to get governments around the world to pay attention to the AI industry
+so they'll be willing to invest more money into it
+And transhumanism has another problem
+it diverts everyone's attention
+toward obsessing over whether AI has self-awareness
+so that people stop noticing
+that right now, in this very moment
+the AI industry is exploiting workers and the environment all over the world
+Many other scholars also believe
+transhumanism is simply overthinking things
+and that we're still very far from any threshold where AI develops self-awareness
+Nobel Physics laureate Roger Penrose, for example
+believes AI could never develop self-awareness
+because all AI is really doing is computing information
+and humans are just mistaking that for evidence of consciousness
+You mustn't be confused. the fact that it has a role to play it's to do with the power of computation.
+Sure, you computers have got so powerful now that they can do things way beyond what humans are doing computing
+and you can take a mass of data and you can analyze that data
+it doesn't understand what it's doing. and understanding is different from computing.
+and understanding them requires being conscious of them.
+In today's video we've introduced the philosophy of AI
+AI's development has already begun challenging the values human society holds dear
+freedom, democracy, self-identity, human-centeredness
+these core values are being reshaped step by step
+That's why American AI companies are now hiring philosophers
+hoping to make their AI models more ethical
+and more aligned with the values of democracy and freedom
+Here in Taiwan, we can also think about
+if Taiwan wants to build its own sovereign AI
+what philosophical foundations that AI model would need
+to truly reflect the values Taiwanese people hold dear
+In this wave of AI development
+we don't just need STEM talent
+we also need talent in philosophy and the humanities
+so that the AI Taiwan builds won't just be a cold contract-manufacturing machine
+but a Taiwanese AI guided by ethics and values
+If you enjoyed this episode and want to learn more about the philosophy of AI
