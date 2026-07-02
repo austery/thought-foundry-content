@@ -1,0 +1,749 @@
+[Speaker 1]:  the 马斯克要开始挑战传统银行了。
+[Speaker 1]: 上周的重磅消息，
+[Speaker 1]: 马斯克宣布他的支付平台 x money 正式上线。
+[Speaker 1]: 而且他给出的条件确实非常夸张。
+[Speaker 1]: 第一，
+[Speaker 1]: 百分之六的活期存款利息，
+[Speaker 1]: 注意这是活期的钱。
+[Speaker 1]: 也就是说这些钱你可以随时进出，
+[Speaker 1]: 随时用来消费的同时，
+[Speaker 1]: 一边赚取百分之六的利息。
+[Speaker 1]: 第二，
+[Speaker 1]: 通过 x money 消费可以获得百分之三的现金返还。
+[Speaker 1]: 第三，
+[Speaker 1]: 可以获得一张非常酷的金属材质。
+[Speaker 1]:  visa 卡上面写的不是你的证件名字，
+[Speaker 1]: 而是你在 app 上的用户名，
+[Speaker 1]: 别小看这个噱头。
+[Speaker 1]: 传统银行发的信用卡里只有那种年费，
+[Speaker 1]: 大几千块钱的黑卡级别信用卡，
+[Speaker 1]: 才能享受金属材质的待遇。
+[Speaker 1]: 嗯，
+[Speaker 1]: 除此之外，
+[Speaker 1]: 马斯克还选成 x money，
+[Speaker 1]: 没有海外交易手续费，
+[Speaker 1]: 可以免费提现和转账。
+[Speaker 1]: 最重要的是通过一个叫 cash three program 的机制，
+[Speaker 1]: 理论上用户的存款最高可以获得一千万美元的 FDIC 保险覆盖怎么样？
+[Speaker 1]: 是不是很炸裂呢？
+[Speaker 1]: 如果这一些真的都能实现，
+[Speaker 1]: 那简直吊打面上所有的支付平台和产品，
+[Speaker 1]: 传统银行还怎么玩呢？
+[Speaker 0]: 是的好的好的的，
+[Speaker 0]: 是的，
+[Speaker 0]: 我的是的。
+[Speaker 1]: 不过啊一个内嵌在社交平台里的支付系统，
+[Speaker 1]: 存钱有利息，
+[Speaker 1]: 还可以付款，
+[Speaker 1]: 可以转账。
+[Speaker 1]: 这个组合听起来是不是有点熟悉呀？
+[Speaker 1]: 对美国人来说也许比较新奇，
+[Speaker 1]: 但是对中国观众来说，
+[Speaker 1]: 这不就是马斯克版的支付宝和微信支付嘛。
+[Speaker 1]: 嗯，
+[Speaker 1]: 没错，
+[Speaker 1]: 马斯克多次在公开场合表示，
+[Speaker 1]: 他想要打造一个像微信一样的全包览式应用程序，
+[Speaker 1]: 也就是所谓的 everything app。
+[Speaker 1]: 甚至现在这个百分之六的利息也跟当年马云刚推出余额宝的时候的做法是一样的。
+[Speaker 1]: 通过高利息来吸引新用户。
+[Speaker 1]: 好的好的好的，
+[Speaker 2]:  for those that have bused we chat。
+[Speaker 2]:  i think that's we chat actually a good model。
+[Speaker 2]:  um if you're in china，
+[Speaker 2]:  it's basically you kind of live on。
+[Speaker 2]:  we chat。
+[Speaker 2]:  there's everything um it sound like twitter plus cape poal plus hopof other things and ororange one was actually a great interface。
+[Speaker 2]:  and it's it's really an excellent app and we don't have anything like that outside of china。
+[Speaker 2]:  so i think such such an app would be really useful。
+[Speaker 1]: 那么问题就来了，
+[Speaker 1]: 为什么美国一直没有出现一个像微信这样全包揽式的超级 APP 呢？
+[Speaker 1]: 答案可能比大家想象的要复杂的多。
+[Speaker 1]: 今天我们就来深入聊一聊这个问题。
+[Speaker 1]: 我们不仅要看看 x money 到底是怎么玩的，
+[Speaker 1]: 钱放在里面安不安全。
+[Speaker 1]: 更重要的是，
+[Speaker 1]: 它到底有没有可能挑战美国已经非常成熟的传统银行体系和金融科技生态？
+[Speaker 1]: 更有意思的是，
+[Speaker 1]:  x money 将会如何影响 space x 这是不是马斯克商业版图里最后最关键的一块拼图呢？
+[Speaker 1]: 当然最后还有大家最关心的中国人能不能用上 x money？
+[Speaker 1]: 好了，
+[Speaker 1]: 那么首先说明一点，
+[Speaker 1]: 目前 x 八你还没有完全开放给公众，
+[Speaker 1]: 但至六月二十六号起，
+[Speaker 1]: 有一部分 x 平台的 premium plus 用户已经可以开始使用。
+[Speaker 1]: 其实当天还发生了一件挺好玩的事儿。
+[Speaker 1]: 话说有一名叫 corry 的用户，
+[Speaker 1]: 在开通了 x money 之后，
+[Speaker 1]: 转了二十五美元给马斯克。
+[Speaker 1]: 他说你可以说我傻，
+[Speaker 1]: 但我刚转了二十五美元给世上最有钱的人，
+[Speaker 1]: 没别的原因，
+[Speaker 1]: 就因为我可以评论区里。
+[Speaker 1]: 有人开玩笑说，
+[Speaker 1]: 转了二十五元之后，
+[Speaker 1]: 瑞先生的银行余额为零，
+[Speaker 1]: 马斯克的银行余额变成了一点二万亿零二十五元。
+[Speaker 1]: 其实这位 corry 先生一点都不傻。
+[Speaker 1]: 马斯克亲自回复他了，
+[Speaker 1]: 说了，
+[Speaker 1]: 谢谢，
+[Speaker 1]: 加个哭笑表情。
+[Speaker 1]:  corry 的这个帖子目前已经有接近两千万次阅读了这个流量，
+[Speaker 1]: 马斯克反过来要倒贴他上千美元的创作者奖励好了。
+[Speaker 1]: 那么言归正传，
+[Speaker 1]: 为什么 x money 的出现是一个如此重磅的消息？
+[Speaker 1]: 因为一款真正的银行金融产品和支付平台正在被嵌入一个拥有几亿月活用户的社交平台，
+[Speaker 1]: 这对于中国人来说，
+[Speaker 1]: 当然早就是常态。
+[Speaker 1]: 但在中国以外的地方，
+[Speaker 1]: 这样的尝试从来没有真正成功过。
+[Speaker 0]: 好的好的，
+[Speaker 1]: 微信和支付宝虽然有十几亿用户，
+[Speaker 1]: 但毕竟他们只是一个几乎只有中国人在用的东西。
+[Speaker 1]: 但 x money 如果未来能够成功铺开，
+[Speaker 1]: 那将会是个全球性的支付平台。
+[Speaker 1]: 甚至有可能在未来可以让用户通过稳定币和虚拟币来进行日常的支付。
+[Speaker 1]: 所以他们的重要性和全球影响力是不可同日而语的。
+[Speaker 0]: 嗯，
+[Speaker 1]: 目前真正具备全球影响力的 p to p 点对点支付平台，
+[Speaker 1]: 主要还是只有 paypal 一家，
+[Speaker 1]:  veral、
+[Speaker 1]:  vice zell 等等，
+[Speaker 1]: 也有一定的竞争力。
+[Speaker 1]: 但都有各自的局限性。
+[Speaker 1]: 更重要的是，
+[Speaker 1]: 他们都是纯支付平台跟 x money 这种内嵌于社交网络平台的模式是完全不同的。
+[Speaker 1]: 马斯克想要做的是把支付、
+[Speaker 1]: 社交、
+[Speaker 1]: 创作者、
+[Speaker 1]: 经济以及未来更多的金融服务全都整合到同一个平台里。
+[Speaker 1]:  x 拥有大约六亿月活用户，
+[Speaker 1]: 哪怕只有一小部分人把闲置资金转入 x money，
+[Speaker 1]: 那么它就不只是一个支付平台，
+[Speaker 1]: 还会迅速变成一台强大的存款吸纳机。
+[Speaker 1]: 虽然说 x 的月活用户只有全球第一的 facebook 和 instagram 的五分之一，
+[Speaker 1]: 这两家都大约是在三十亿左右，
+[Speaker 1]: 但 x 的实际影响力是远远大于它的用户规模的。
+[Speaker 1]: 尤其是在 AI、
+[Speaker 1]: 金融、
+[Speaker 1]: 科技、
+[Speaker 1]: 媒体、
+[Speaker 1]: 政治以及数字货币这些领域，
+[Speaker 1]: 全球科技巨头的 CEO 基本都主要活跃于 x 世界最顶尖的几家 AI 公司，
+[Speaker 1]:  open AI and topic germany 等等，
+[Speaker 1]: 有什么重大消息，
+[Speaker 1]: 也都会第一时间在 x 上公布世上最大的媒体公司 BBC 纽约时报、
+[Speaker 1]: 路透社、
+[Speaker 1]: 彭博社 CIN 等等等，
+[Speaker 1]: 全都在 x 上发布最新消息，
+[Speaker 1]: 还有各路金融大鳄、
+[Speaker 1]: 亿万富豪、
+[Speaker 1]: 股市大神等等等，
+[Speaker 1]: 全都是 x 的重度玩家。
+[Speaker 1]: 数字货币就更不用说了。
+[Speaker 1]: 可以说 b 圈的人百分之百都在 x 上。
+[Speaker 1]: 另外，
+[Speaker 1]: 几乎所有的美国政客，
+[Speaker 1]: 从总统到国会议员，
+[Speaker 1]: 以及很多国家的国家领导人都是 x 的重度使用者，
+[Speaker 1]: 包括很多国家的领事馆也经常在 x 上发布消息。
+[Speaker 1]: 对的，
+[Speaker 1]: 就连不准人民翻墙看世界的中国，
+[Speaker 1]: 他们的领事馆以及多名外交部发言人也都在 x 上极其活跃。
+[Speaker 1]: 所以说，
+[Speaker 1]: 如果马斯克把一个支付系统成功嵌入到这个全球最具影响力的金融科技和政治社交网络平台当中的话，
+[Speaker 1]: 那么这个影响面就非常广了。
+[Speaker 1]: 但当然，
+[Speaker 1]:  x money 未来的发展依然面临着非常多的挑战。
+[Speaker 1]: 而马斯克所期望的把 x 变成一个像微信一样的 everything app，
+[Speaker 1]: 更加要面对重重障碍。
+[Speaker 1]: 我总结下来，
+[Speaker 1]: 他至少还要跨过三座大山。
+[Speaker 1]: 信任、
+[Speaker 1]: 监管和场景，
+[Speaker 1]: 我们一样一样来拆解。
+[Speaker 1]: 首先说信任问题，
+[Speaker 1]:  x money 所要面对的第一个考验，
+[Speaker 1]: 就是 ramman 是否愿意相信一个金融工具可以安全的存在。
+[Speaker 1]: 于一个每天充斥着谣言、
+[Speaker 1]: 骂战、
+[Speaker 1]: 互撕，
+[Speaker 1]: 甚至是各种色情和诈骗内容的平台。
+[Speaker 1]: 里 x 个平台吧用过的人都知道，
+[Speaker 1]: 虽然它有很多非常棒的地方，
+[Speaker 1]: 比如你想获得最快最及时的时事科技和金融信息，
+[Speaker 1]: 没有比 x 更快的啦。
+[Speaker 1]: 经常我在 x 上发布了一则消息，
+[Speaker 1]: 传统媒体要玩几个小时，
+[Speaker 1]: 甚至十几个小时之后才发布。
+[Speaker 1]: 再比如，
+[Speaker 1]: 任何普通人，
+[Speaker 1]: 都能够直接跟国家领导人、
+[Speaker 1]: 世界首富、
+[Speaker 1]: 金融巨鳄、
+[Speaker 1]: 国际明星以及各个领域的专家直接互动和交流，
+[Speaker 1]: 甚至是天贴着脸怼他们。
+[Speaker 1]: 比如我之前就天天怼中国外交部发言人，
+[Speaker 1]: 林健一直到他把我给拉黑了。
+[Speaker 1]: 再比如上面提到的 corry，
+[Speaker 1]: 一个默默无闻，
+[Speaker 1]: 就身边几十个家人朋友关注的人，
+[Speaker 1]: 能够获得马斯克的亲自回复和感谢。
+[Speaker 1]: 但与此同时，
+[Speaker 1]: 这又是一个充斥着谣言、
+[Speaker 1]: 垃圾内容、
+[Speaker 1]: 小广告和诈骗信息的地方。
+[Speaker 1]: 现在几乎每条推文底下的评论区里都能看到这些低俗小广告。
+[Speaker 1]: 更糟糕的是，
+[Speaker 1]: 像我这类经常分析金融和经济，
+[Speaker 1]: 并且具备比较大影响力的博主。
+[Speaker 1]: 我的推文底下现在经常出现假冒我身份的骗子信息，
+[Speaker 1]: 引导我的读者点击链接，
+[Speaker 1]: 加入一些骗人的群聊。
+[Speaker 1]: 那么你想想这样的一个地方，
+[Speaker 1]: 如果我们用来看看新闻追踪最新资讯，
+[Speaker 1]: 了解科技和股票等等，
+[Speaker 1]: 那是一回事。
+[Speaker 1]: 现在你让我把钱放到这里来，
+[Speaker 1]: 那又是另一回事啦。
+[Speaker 1]: 其实不管是博主还是普通用户，
+[Speaker 1]: 大家都已经苦。
+[Speaker 1]: 这些明显是机器人发布的小广告已久，
+[Speaker 1]: 不知道为什么 x 的技术团队就是解决不了。
+[Speaker 1]: 那人们会不会想，
+[Speaker 1]: 马斯克，
+[Speaker 1]: 你连小广告和骗子信息都无法屏蔽，
+[Speaker 1]: 我怎么能放心把钱放在你这里或转账给 x 的其他人呢？
+[Speaker 1]: 关于安全问题，
+[Speaker 1]: 我想这里我来给大家拆解一下 x money 背后的金融架构以及风控机制究竟是怎么样的。
+[Speaker 1]: 首先我们要知道呢，
+[Speaker 1]:  x 本身并不负责保护用户的存款，
+[Speaker 1]: 真正持有这些资金的是一家位于美国新泽西州的银行，
+[Speaker 1]: 叫做 cross river bank。
+[Speaker 1]: 这家银行应该说百分之九十九点九的人都没有听说过，
+[Speaker 1]: 但它其实是美国金融科技行业里最重要的幕后玩家之一。
+[Speaker 1]: 公众不知道，
+[Speaker 1]: 这家银行是因为它最主要的业务并不是服务普通消费者，
+[Speaker 1]: 而是替各种金融科技公司提供底层的银行基础设施。
+[Speaker 1]: 很多人每天都在使用的金融产品，
+[Speaker 1]: 比如全球最大的支付平台之一。
+[Speaker 1]:  stripe 美国最大的加密货币交易所 coin base，
+[Speaker 1]: 其实背后的基础设施都是 cross river bank 提供的。
+[Speaker 1]: 其实这种合作模式现在已经是相当普遍的啦。
+[Speaker 1]: 这让 x 不需要自己成为一家银行，
+[Speaker 1]: 就可以为他们现有的客户提供金融服务。
+[Speaker 1]:  x 用户看到的是 x 的品牌，
+[Speaker 1]: 银行卡上看到的是 x 的用户名，
+[Speaker 1]: 整个支付界面看起来都属于 x 但背后真正承担起监管责任和银行牌照义务的，
+[Speaker 1]: 则是一家经过 FDIC 认证的银行。
+[Speaker 1]: 好的好的对的的。
+[Speaker 1]: 是的，
+[Speaker 1]: 这的 FDIC 就是美国联邦存款保险公司。
+[Speaker 1]: 当你把钱存在银行里的时候，
+[Speaker 1]: 你就会想，
+[Speaker 1]: 那银行倒闭了怎么办呢？
+[Speaker 1]:  FDIC 就是干这件事的，
+[Speaker 1]: 银行倒闭了，
+[Speaker 1]: 由他们来赔付给储户。
+[Speaker 1]: 当然赔付金额是有上限的，
+[Speaker 1]: 一般上一个账号的最高赔付金额就是二十五万美元。
+[Speaker 1]: 那么 x money 说的保障一千万美元又是怎么回事儿呢？
+[Speaker 1]: 其实这并不是一个新的概念，
+[Speaker 1]: 他们用的是一个叫做 catch street 的机制。
+[Speaker 1]: 简单来说，
+[Speaker 1]: 就是把储物的钱分散到多家不同的银行里，
+[Speaker 1]: 每家银行各放二十五万美元，
+[Speaker 1]: 那么理论上加起来就可以覆盖到一千万美元。
+[Speaker 1]: 不过很多人看到 FDIC 就觉得没问题啦，
+[Speaker 1]: 但这其实并不是万无一失的，
+[Speaker 1]: 因为 FDIC 保障的只是银行倒闭，
+[Speaker 1]: 并不包括 x 这个平台本身的所有风险。
+[Speaker 1]: 比如 x money 本身倒闭平台运营出问题或者说被诈骗，
+[Speaker 1]: 这些并不包含在 FDIC 的承保范围。
+[Speaker 1]: 说到诈骗，
+[Speaker 1]: 其实这应该是很多人最担心的问题。
+[Speaker 1]: 像 x money 这样的 p two p 点对点支付本来就是诈骗的重灾区。
+[Speaker 1]: 美国消费者去年一年被各种诈骗骗走了一百二十五亿美元，
+[Speaker 1]: 其中银行转账和支付 APP 就占了二十点九亿美元。
+[Speaker 1]: 是所有支付方式里损失最高的一类。
+[Speaker 1]: 二零二四年，
+[Speaker 1]: 美国消费者金融保护局 CFPB 起诉了美国的三大银行美国银行、
+[Speaker 1]: 摩根大通和富国银行说，
+[Speaker 1]: 自他们推出美国最大的 p two p 支付平台 zero 以来，
+[Speaker 1]: 已经让用户累计损失超过八点七亿美元。
+[Speaker 1]:  CFPB 在起诉书里的原话师，
+[Speaker 1]: 他们为犯罪分子建立了一座金矿。
+[Speaker 1]: 根据美国最著名的调研机构 JD power 在二零二四年所提供的数据，
+[Speaker 1]: 在整个 p two p 支付行业有百分之十三的用户表示曾经遭遇过诈骗。
+[Speaker 1]: 百分之八的 zero 用户表示，
+[Speaker 1]: 曾经被诈骗百分之五的用户表示曾经转错人。
+[Speaker 1]: 要知道 zero 在美国已经属于是风控做得最好的平台了。
+[Speaker 0]: 这个不知的。
+[Speaker 1]: 所以 x money 一开始最大的挑战并不是 visa 和 paypal，
+[Speaker 1]: 而是用户敢不敢把自己的钱放进 x 这个原本就鱼龙混杂，
+[Speaker 1]: 充斥着各种真假难辨信息的平台里。
+[Speaker 1]: 这也就是我为什么 x money 目前只向一小部分 premium plus lango 认证用户开放。
+[Speaker 1]: 因为这些人每年都在交大约四百美元的会员费，
+[Speaker 1]: 有了这道身份门槛，
+[Speaker 1]: 那就大大降低了风险。
+[Speaker 1]: 但问题是，
+[Speaker 1]: 愿意一年支付四百美元会费的人，
+[Speaker 1]: 只占 x 用户当中极小的一部分。
+[Speaker 1]: 目前市场估计 premium plus 用户占比可能还不到千分之一。
+[Speaker 1]: 所以，
+[Speaker 1]: 如果 x money 未来要全面铺开，
+[Speaker 1]: 最终就不可能只让兰国认证用户使用。
+[Speaker 1]: 到了那个时候，
+[Speaker 1]: 诈骗防控和风险管理就会成为它最关键的考验。
+[Speaker 1]: 第二道坎是监管问题，
+[Speaker 1]: 美国的金融监管非常复杂，
+[Speaker 1]: 它不像中国央行和几个监管部门，
+[Speaker 1]: 一个政策下来，
+[Speaker 1]: 全国就打通了。
+[Speaker 1]: 但美国除了联邦政府以外，
+[Speaker 1]: 每个州都有各自的监管体系，
+[Speaker 1]: 消费者保护有 FFPB，
+[Speaker 1]: 反洗钱有 fininct，
+[Speaker 1]: 银行牌照有 OCC、
+[Speaker 1]: 存款保险有 FDIC。
+[Speaker 1]: 如果以后碰到投资产品，
+[Speaker 1]: 还可能牵扯到 SEC，
+[Speaker 1]: 不同部门各管一块全部交织在一起。
+[Speaker 1]: 你要做支付，
+[Speaker 1]: 就必须把这些关系一个个打通。
+[Speaker 1]: 现在 x money 要做转账，
+[Speaker 1]: 就要先拿到各个州的 money transmitted license，
+[Speaker 1]: 也就是货币转移许可证。
+[Speaker 1]: 根据公开资料，
+[Speaker 1]:  x 在过去几年已经拿到了大约四十个州的货币转移许可证，
+[Speaker 1]: 但是到现在都还没有完整覆盖五十个州。
+[Speaker 1]: 而且，
+[Speaker 1]: 自从马斯克参与政治以后，
+[Speaker 1]: 监管上的政治火药味也很重。
+[Speaker 1]: 民主党资神参议员 eliza beth th warren 在今年四月份给马斯克写了一封公开信，
+[Speaker 1]: 措辞非常强硬，
+[Speaker 1]: 他质疑 x money 的消费者保护国家安全和金融稳定风险。
+[Speaker 1]: 他指出，
+[Speaker 1]:  cross river bank 在二零一八年因为不公平和欺骗性的行为被 FDIC 罚过一次。
+[Speaker 1]: 二零二三年又因为不安全、
+[Speaker 1]: 不稳健的放贷行为被罚，
+[Speaker 1]: 这是一个有前科的累翻。
+[Speaker 1]: 他也质疑，
+[Speaker 1]:  x money 给出远远超过传统银行的百分之六利息，
+[Speaker 1]: 到底要依靠什么来支付。
+[Speaker 1]: 另外，
+[Speaker 1]:  x 平台过去在诈骗、
+[Speaker 1]: 数据、
+[Speaker 1]: 隐私、
+[Speaker 1]: 未成年人性虐待、
+[Speaker 1]: 内容等方面的治理上存在很多漏洞。
+[Speaker 1]: 当然，
+[Speaker 1]:  elizabeth warren 是民主党的，
+[Speaker 1]: 在马斯克助选，
+[Speaker 1]: 川普之后就对他非常不友好。
+[Speaker 1]: 但我们并不需要讨论这些指控哪些是事实，
+[Speaker 1]: 哪些有水分。
+[Speaker 1]: 我们只需要知道，
+[Speaker 1]: 这说明 x money 在政府监管上是有非常多阻力的这两年也许还好，
+[Speaker 1]: 但是当川普下台以后，
+[Speaker 1]: 恐怕就没那么容易了。
+[Speaker 1]: 是的好的，
+[Speaker 1]: 就算我们抛开政治不谈，
+[Speaker 1]: 无论是哪个政党在位，
+[Speaker 1]: 一旦涉及到金融，
+[Speaker 1]: 那监管肯定就要比社交媒体严格的多。
+[Speaker 1]: 作为一家金融科技公司，
+[Speaker 1]: 什么支付界面、
+[Speaker 1]: 用户体验，
+[Speaker 1]: 甚至是给出高于普通银行的存款利率，
+[Speaker 1]: 这些都不难。
+[Speaker 1]: 真正难的是合规风控、
+[Speaker 1]: 客服、
+[Speaker 1]: 反洗钱欺诈、
+[Speaker 1]: 处理数据、
+[Speaker 1]: 隐私等等等。
+[Speaker 1]: 这些东西听起来都很枯燥，
+[Speaker 1]: 但他们才是金融系统。
+[Speaker 1]: 真正的核心。
+[Speaker 1]: 作为金融平台，
+[Speaker 1]: 你还需要一个极其稳定的系统。
+[Speaker 1]: 几天前，
+[Speaker 1]: 六月二十二日，
+[Speaker 1]:  x 平台才刚刚发生了宕机事件。
+[Speaker 1]: 二零二五年也发生过两次，
+[Speaker 1]: 尤其是五月份那一次 x 连续两天发生全球性故障。
+[Speaker 1]: 官方工程队后来承认是他们的数据中心出现的问题，
+[Speaker 1]: 二零二五年三月也发生了全球大规模宕机，
+[Speaker 1]: 持续了几个小时。
+[Speaker 1]: 马斯克城，
+[Speaker 1]: 他们遭遇到了大规模的网络攻击，
+[Speaker 1]: 但并没有公开的证据。
+[Speaker 1]:  yeah，
+[Speaker 1]: 作为社交平台，
+[Speaker 1]: 宕机几个小时不算是什么太严重的问题，
+[Speaker 1]: 大家顶多就是骂几句也就过去了。
+[Speaker 1]: 但是当你变成一个金融平台的时候，
+[Speaker 1]: 宕机就是一个极其严重的问题了。
+[Speaker 1]: 对金融行业来说，
+[Speaker 1]: 可靠性达到百分之九十九是不够的，
+[Speaker 1]: 而是必须接近百分之九十九点九九九，
+[Speaker 1]: 也就是行业里所说的五个九要求，
+[Speaker 1]: 这是一个完全不同级别的系统要求。
+[Speaker 1]: 其实讲到这里，
+[Speaker 1]: 可能很多中国的观众会觉得很奇怪啊，
+[Speaker 1]: 不就是把支付和聊天软件结合在一起嘛，
+[Speaker 1]: 到底有什么难的，
+[Speaker 1]: 我们都这么搞了十几年了。
+[Speaker 1]: 确实微信成功的把聊天、
+[Speaker 1]: 支付、
+[Speaker 1]: 购物以及各种金融产品整合成了用户每天都会打开的一个入口。
+[Speaker 1]: 而支付宝的余额宝也证明了当理财功能被直接嵌入到用户每天都会使用的 APP 时，
+[Speaker 1]: 可以在短时间内吸纳大量的存款。
+[Speaker 1]: 马斯克确实就是想打造一个美国版或者说世界版的威信，
+[Speaker 1]: 这可不是我说的啊。
+[Speaker 1]: 这是马斯克在二零二二年收购推特的时候，
+[Speaker 1]: 就已经公开表达过的愿望。
+[Speaker 2]:  you don't have a have i have that's as good as we ach at in china and chchina。
+[Speaker 2]:  you go like live on，
+[Speaker 2]:  we chat yethings。
+[Speaker 2]:  yeah，
+[Speaker 2]:  it's like yeah。
+[Speaker 2]:  everyone always always like it like you live in。
+[Speaker 2]:  we chat you do payas，
+[Speaker 2]:  you do everything。
+[Speaker 2]:  it's like，
+[Speaker 2]:  yeah，
+[Speaker 2]:  it's great mamazrichard ks kick out and we don't anything like we chat outside of china。
+[Speaker 2]:  so as like my day，
+[Speaker 2]:  a like like habif，
+[Speaker 2]:  we just copy，
+[Speaker 2]:  we chat。
+[Speaker 2]:  hey，
+[Speaker 2]:  not me me，
+[Speaker 2]:  the copies we chat yepretmuch。
+[Speaker 1]:  yes，
+[Speaker 1]: 这也不是他唯一一次这么说啊，
+[Speaker 1]: 后来在多个公开场合他都表示过要做一个 everything app，
+[Speaker 1]: 每次都以微信来作为榜样。
+[Speaker 1]: 那么问题就来了，
+[Speaker 1]: 都说中国绝大部分的 APP 最早都是抄袭美国的那为什么这种将所有的生态结合到一个 APP 上的模式，
+[Speaker 1]: 美国却一直搞不出来呢？
+[Speaker 1]: 原因其实有两个，
+[Speaker 1]: 首先是中国的后发优势。
+[Speaker 1]: 微信诞生的时候，
+[Speaker 1]: 中国很多金融基础设施都还没有完全成型。
+[Speaker 1]: 信用卡远没有美国那么普及，
+[Speaker 1]: 很多支付习惯都还没有形成，
+[Speaker 1]: 所以腾讯有机会直接从移动互联网时代开始，
+[Speaker 1]: 把聊天支付生活服务，
+[Speaker 1]: 一点点整合进微信。
+[Speaker 1]: 但美国不一样，
+[Speaker 1]: 美国在互联网出现以前，
+[Speaker 1]: 金融体系就已经非常成熟了。
+[Speaker 1]: 刷卡有 visa 和 masscar，
+[Speaker 1]: 银行转账有 ACH，
+[Speaker 1]: 线上支付，
+[Speaker 1]: 有 paapal 证券、
+[Speaker 1]: 有券商，
+[Speaker 1]: 没环节，
+[Speaker 1]: 都有非常成熟、
+[Speaker 1]: 非常专业的玩家，
+[Speaker 1]: 整个体系更像是一条流水线，
+[Speaker 1]: 每家公司只负责自己最擅长的一部分，
+[Speaker 1]: 你很难要求这些已经存在几十年的利益格局，
+[Speaker 1]: 全部让位给一家新的超级平台。
+[Speaker 1]: 第二个原因也是更深层的原因就是美国相信专业化分工，
+[Speaker 1]: 而中国则更容易形成平台经济。
+[Speaker 1]: 美国监管长期鼓励竞争，
+[Speaker 1]: 而不是一家企业，
+[Speaker 1]: 什么都做，
+[Speaker 1]: 银行不能随便成为社交平台。
+[Speaker 1]: 社交平台也不能轻易变成银行，
+[Speaker 1]: 即使技术上做得到监管、
+[Speaker 1]: 利益和市场竞争都会形成很高的门槛。
+[Speaker 1]: 但中国不一样，
+[Speaker 1]: 移动互联网高速发展的那几年，
+[Speaker 1]: 很多行业几乎是在同一时间一起成长的微信。
+[Speaker 1]: 不仅是聊天工具，
+[Speaker 1]: 它后来又加入了支付打车、
+[Speaker 1]: 小程序、
+[Speaker 1]: 外卖、
+[Speaker 1]: 挂号缴费，
+[Speaker 1]: 一个个功能不断叠加，
+[Speaker 1]: 最后形成了今天几乎什么都能做的微信生态。
+[Speaker 1]: 好的对的的对的。
+[Speaker 1]: 所以对于 everything app 来说，
+[Speaker 1]: 美国缺的不是技术，
+[Speaker 1]: 而是土壤。
+[Speaker 1]: 危信生态在中国是制度和时代共同孕育出来的产物。
+[Speaker 1]: 放到美国，
+[Speaker 1]: 它挑战的不是某一家竞争对手，
+[Speaker 1]: 而是整个已经运行了几十年的商业和金融体系。
+[Speaker 1]: 而现在马斯克要挑战的正视这个体系，
+[Speaker 1]: 其困难程度可想而知。
+[Speaker 1]: 这也就来到了我要讲的 x money 所要面对的第三个障碍场景。
+[Speaker 1]: 很多人似乎觉得，
+[Speaker 1]: 只要你把聊天、
+[Speaker 1]: 支付、
+[Speaker 1]: 视频新闻、
+[Speaker 1]: 购物和银行账户全部塞进一个 APP 里。
+[Speaker 1]: 它就自动变成微信了。
+[Speaker 1]: 这样的想法过于简单，
+[Speaker 1]: 微信的成功并不是靠功能堆出来的，
+[Speaker 1]: 而是通过场景转化出来的。
+[Speaker 0]: 这个这个个个的个的一个微信，
+[Speaker 1]: 最重要的优势是它占据了一个极高频、
+[Speaker 1]: 极刚需极强的关系链入口，
+[Speaker 1]: 那就是熟人之间的聊天。
+[Speaker 1]: 家人聊天，
+[Speaker 1]: 在微信同事沟通，
+[Speaker 1]: 在微信学校群、
+[Speaker 1]: 物业群、
+[Speaker 1]: 朋友聚餐，
+[Speaker 1]: 就连老板找你都在微信，
+[Speaker 1]: 你不想用也得用，
+[Speaker 1]: 因为你的社会关系就在里面。
+[Speaker 1]: 很多人忘记了。
+[Speaker 1]: 微信支付是从发红包开始的这其实不是一个金融动作，
+[Speaker 1]: 而是一个社交动作。
+[Speaker 1]: 发红包不是转转账，
+[Speaker 1]: 是拜年，
+[Speaker 1]: 是祝福，
+[Speaker 1]: 是群里的热闹，
+[Speaker 1]: 是面子，
+[Speaker 1]: 是人情。
+[Speaker 1]: 之后，
+[Speaker 1]: 微信主户再逐渐进入线下扫码、
+[Speaker 1]: 小程序、
+[Speaker 1]: 电商生活服务、
+[Speaker 1]: 打车、
+[Speaker 1]: 外卖、
+[Speaker 1]: 医院、
+[Speaker 1]: 学校、
+[Speaker 1]: 政务。
+[Speaker 1]: 最后你发现微信不是一个支付 APP，
+[Speaker 1]: 而是一个生活操作系统。
+[Speaker 1]: 根据腾讯公布的数据，
+[Speaker 1]: 微信在全球的月活已经超过十四亿，
+[Speaker 1]: 微信支付日均商业交易超过十亿笔小程序一年促成的 GMV 超过八万亿人民币。
+[Speaker 1]: 这不只是一个支付平台的成功，
+[Speaker 1]: 而是整个生态的成功。
+[Speaker 1]: 所以微信支付的本质并不是在社交网络里嵌入一个支付那么简单，
+[Speaker 1]: 而是你的整个生活场景都在我这里。
+[Speaker 1]: 但 x 不是这样的，
+[Speaker 1]:  x 的根基不是熟人关系，
+[Speaker 1]: 而是公共舆论场。
+[Speaker 1]:  x 是微博，
+[Speaker 1]: 而不是微信。
+[Speaker 1]: 当年微博抄袭的就是 x 的前身推特，
+[Speaker 1]: 你在 x 上关注的是正式人物。
+[Speaker 1]: 记者、
+[Speaker 1]: 财经博主、
+[Speaker 1]: 科技大佬段子手。
+[Speaker 1]: 陌生人，
+[Speaker 1]: 你可能每天都刷 x 但你不会用 x 跟你妈妈聊天。
+[Speaker 1]: 你可能在 x 上骂川普骂中共，
+[Speaker 1]: 但你不会在 x 上开家长群，
+[Speaker 1]: 也不会在 x 上跟邻居讨论物业费，
+[Speaker 1]: 这就是根本差别。
+[Speaker 1]: 微信是从熟人关系中涨出了支付 x 想从公共舆论场应接金融账户，
+[Speaker 1]: 这两条路难度完全不一样。
+[Speaker 1]: 马斯克当然知道这一点，
+[Speaker 1]: 这就是为什么在推出 x money 以前，
+[Speaker 1]: 他已经在今年四月份率先推出了 x chat 私聊系统。
+[Speaker 1]: 当时也是万众期待，
+[Speaker 1]: 我的粉丝群里好多人都在盼着我们还在想到时，
+[Speaker 1]: 是不是除了 telegram 以外，
+[Speaker 1]: 还要再搞一个 x check 粉丝群。
+[Speaker 1]: 对，
+[Speaker 1]: 但现在从各方面来看，
+[Speaker 1]:  x chat 都是一个失败的产品，
+[Speaker 1]: 非常让人失望。
+[Speaker 1]: 其实说白了就是把 x 里面本来就有的内嵌私聊系统单独拉出来做了一个 APP。
+[Speaker 1]: 更大的问题是，
+[Speaker 1]:  x chat 所要面对的是 what's at telegram、
+[Speaker 1]:  messenger signal。
+[Speaker 1]: 这些已经非常成熟的通讯工具，
+[Speaker 1]: 美国人、
+[Speaker 1]: 欧洲人、
+[Speaker 1]: 亚洲人早就已经有了自己的通讯习惯和关机网了。
+[Speaker 1]: 你要让原本没有在用 x 的人把聊天迁移到 x chat，
+[Speaker 1]: 难度非常大。
+[Speaker 1]: 微信当年的崛起是有一个极大的优势的。
+[Speaker 1]: 当时智能手机刚刚普及全球主流的手机聊天工具就只有 what's app。
+[Speaker 1]: 当年中国人的线上聊天工具都还只是电脑里的 QQ 和 MSM。
+[Speaker 1]:  messenger 在手机上都是通过发传统短信的。
+[Speaker 1]: 所以，
+[Speaker 1]: 在一个空白的市场里，
+[Speaker 1]: 微信的崛起是几乎毫无障碍、
+[Speaker 1]: 水到渠成的。
+[Speaker 1]: 如果马斯克想要复制微信这样的 everything app 私聊系统，
+[Speaker 1]: 可以说是一切的地基。
+[Speaker 1]: 没有高频通讯，
+[Speaker 1]: 没有熟人关系，
+[Speaker 1]: 没有稳定的日常互动支付就很难变成生活习惯。
+[Speaker 1]: 而 x chat 到目前为止，
+[Speaker 1]: 并没有证明自己能够成为这个地基。
+[Speaker 1]: 如果聊天这一层没有立住支付，
+[Speaker 1]: 这一层就缺少微信那种天然的地基。
+[Speaker 0]: 嗯嗯，
+[Speaker 1]: 微信通过聊天，
+[Speaker 1]: 让几乎全中国人都有了微信号，
+[Speaker 1]: 然后再把所有人的生活逐渐搬进来。
+[Speaker 1]: 你出门打车，
+[Speaker 1]: 用微信医院挂号，
+[Speaker 1]: 用微信学校通知用微信公司群，
+[Speaker 1]: 用微信商家、
+[Speaker 1]: 小程序用微信。
+[Speaker 1]: 你不是为了支付而打开微信的，
+[Speaker 1]: 而是你的生活本来就在微信里支付只是顺手发生的。
+[Speaker 1]: 微信是先有生活，
+[Speaker 1]: 再有支付 SX，
+[Speaker 1]: 现在是想要先把支付塞进去，
+[Speaker 1]: 再希望用户把生活搬进来，
+[Speaker 1]: 那就太难了。
+[Speaker 1]: 当然你现在给我百分之六的利息，
+[Speaker 1]: 我可能会把一部分钱先放进去。
+[Speaker 1]: 你给我百分之三的返现，
+[Speaker 1]: 我可能会先用 x money 来消费几次。
+[Speaker 1]: 你给我金属 visa 卡，
+[Speaker 1]: 我可能觉得很酷拍个照发到网上，
+[Speaker 1]: 但我会不会每天用它呢？
+[Speaker 1]: 我的工资会不会打进去呢？
+[Speaker 1]: 我的房租会不会从这里付，
+[Speaker 1]: 我会不会让客户打款到这里。
+[Speaker 1]: 对，
+[Speaker 1]: 再有百分之六利息的时候，
+[Speaker 1]: 也许可以拉到不少来薅羊毛的人，
+[Speaker 1]: 但这毕竟只是一个打新的勾子，
+[Speaker 1]: 成本太高，
+[Speaker 1]: 不可能永远持续下去。
+[Speaker 1]: 如果最终没有真正的使用场景，
+[Speaker 1]: 就很难留得住人。
+[Speaker 1]: 好了，
+[Speaker 1]: 那么接下来我们来回答一个很多中国人比较关心的问题，
+[Speaker 1]: 那就是中国人能不能用 x money。
+[Speaker 1]: 这个导师很简单，
+[Speaker 1]: 答案是不能 VPI 翻墙能够让你注册 x 账号，
+[Speaker 1]: 看上面的内容。
+[Speaker 1]: 但金融账号是完全不一样的，
+[Speaker 1]: 后面的路境问题就更加麻烦。
+[Speaker 1]: 就跟前阵子大家想要开通美股账户一样，
+[Speaker 1]: 需要 KYC 身份认证和地址证明。
+[Speaker 1]: 就算账号开出来了，
+[Speaker 1]: 更麻烦的是入境问题后，
+[Speaker 1]: 国的银行卡能让你入金吗？
+[Speaker 1]: 一个内容都不能让你看的平台，
+[Speaker 1]: 总共不太可能让你把钱交给他们。
+[Speaker 1]: 但其实现在谈这个言之过早，
+[Speaker 1]: 因为 x money 现在连美国自己的牌照都还没拿齐，
+[Speaker 1]: 更不用说接入其他国家的银行系统了。
+[Speaker 1]: 不过，
+[Speaker 1]: 那些有 vse revenue 这类全能跨境账号的非美国人或许也能入金。
+[Speaker 1]: 不过我觉得这些都不着急，
+[Speaker 1]: 等 x money 真的全面铺开了，
+[Speaker 1]: 到时有需要我再给大家讲讲好了。
+[Speaker 1]: 那么最后 x money 的推出会不会成为 space x 的主力引呢？
+[Speaker 1]: 在马斯克最新的企业架构里，
+[Speaker 1]:  x 已经不再是一个孤立的社交平台。
+[Speaker 1]: 它先是被 XAI 收购，
+[Speaker 1]: 而 XAI 后来又被并入 space x 体系当中，
+[Speaker 1]: 也就是说 x 也是属于 space x 公司的。
+[Speaker 1]: 那么 x money 当然也是马斯克 space x 闭环体系里的一部分。
+[Speaker 1]: 不过 x money 预计在很长的一段时间内都不太可能盈利，
+[Speaker 1]: 甚至会因为付出了高额的利息而产生重大亏损。
+[Speaker 1]: 所以单纯从财务角度上来讲，
+[Speaker 1]: 对 space x 并不会有任何帮助。
+[Speaker 1]: 但是看过我分析 space x 上市那一期节目的朋友们都知道，
+[Speaker 1]:  space ex 本来就是在讲一个宏大的故事。
+[Speaker 1]: 所以 x money 更大的作用是它会从三个角度间接影响 space ex 的市场蓄势。
+[Speaker 1]: 第一，
+[Speaker 1]: 估值蓄势。
+[Speaker 1]: 现在资本市场给 space x 的估值本来就不只是火箭市场，
+[Speaker 1]: 买的是星链 AI、
+[Speaker 1]: 太空算力、
+[Speaker 1]: 数据中心和媒体影响力。
+[Speaker 1]:  x money 如果能够成功，
+[Speaker 1]: 就会给这个生态，
+[Speaker 1]: 再加一块金融拼图，
+[Speaker 1]: 到时候故事就变成 x 提供流量 group 提供 AI，
+[Speaker 1]:  starting 提供通信 space set，
+[Speaker 1]: 提供太空基础设施 x money 提供支付和交易。
+[Speaker 1]: 这个故事一旦讲顺了，
+[Speaker 1]: 对资本市场是非常有吸引力的。
+[Speaker 1]: 我是一知道是一一的东个第二数据闭环。
+[Speaker 1]: 如果 x money 真的能够做起来，
+[Speaker 1]: 那么他拿到的就不是普通数据，
+[Speaker 1]: 而是交易数据。
+[Speaker 1]: 用户买什么在哪里买，
+[Speaker 1]: 什么时候买，
+[Speaker 1]: 收入和支出节奏如何？
+[Speaker 1]: 信用级别是什么？
+[Speaker 1]: 这些数据对广告、
+[Speaker 1]:  AI、
+[Speaker 1]: 商务服务和金融产品都有巨大的价值。
+[Speaker 1]:  AI 公司最需要的本来就是数据，
+[Speaker 1]: 而金融交易数据恰恰是所有数据类型当中最有价值的这个这个这个个个个一个。
+[Speaker 1]: 第三，
+[Speaker 1]: 风险传导有利就会有弊。
+[Speaker 1]: 如果 x money 出现大规模欺诈账户，
+[Speaker 1]: 冻结监管、
+[Speaker 1]: 处罚消费者保护事故，
+[Speaker 1]: 那么伤害的不会只是 x money 的品牌，
+[Speaker 1]: 也许还会误伤马斯克整个商业帝国的信誉。
+[Speaker 1]:  space。
+[Speaker 1]:  sex 是一家高度依赖政府合同监管许可和资本市场信心的公司。
+[Speaker 1]: 马斯克的个人声誉和政治关系跟 space act 是息息相关的。
+[Speaker 1]: 所以 x money 做的好，
+[Speaker 1]: 必然能增强马斯克的帝国叙事。
+[Speaker 1]: 但如果做的不好，
+[Speaker 1]: 也可能给这个叙事带来反噬。
+[Speaker 1]: 这就是为什么我认为 x money 对马斯克来说极其重要。
+[Speaker 1]: 因为它对 space x 的影响并不只是体现在财务报表上，
+[Speaker 1]: 而是对叙事数据和风险上的间接影响。
+[Speaker 0]: 嗯，
+[Speaker 1]: 最后我来做一个总结，
+[Speaker 1]:  x money 现在不是银行杀手，
+[Speaker 1]: 也不是美国版微信，
+[Speaker 1]: 至少现在还不是。
+[Speaker 1]: 它更像是马斯克拿到的一张金融入场券。
+[Speaker 1]: 这张入场券非常有价值，
+[Speaker 1]: 因为 x 有流量，
+[Speaker 1]: 马斯克有品牌 visa 提供通道合作银行提供保障百分之六的利息和百分之三的返现。
+[Speaker 1]: 负责吸引第一批用户，
+[Speaker 1]: 这套组合拳打出来确实很有冲击力，
+[Speaker 1]: 但是冲击力不等于护城河。
+[Speaker 1]:  x mini 要真正成功，
+[Speaker 1]: 要过三道大山，
+[Speaker 1]: 信任、
+[Speaker 1]: 监管和场景。
+[Speaker 1]: 不过马斯克最擅长的就是把一个听起来不可能的故事讲到全世界都不得不认真对待。
+[Speaker 1]: 电动车是这样，
+[Speaker 1]: 火箭回收是这样，
+[Speaker 1]: 太空超算集群也是这样，
+[Speaker 1]: 但金融和火箭还不太一样。
+[Speaker 1]: 火箭炸了，
+[Speaker 1]: 大家可以说这是创新的勇气，
+[Speaker 1]: 但要是自己的钱没了，
+[Speaker 1]: 用户可不一定能有这个耐心。
+[Speaker 1]: 所以 x money 真正的考验不是现在真正的考验。
+[Speaker 1]: 是半年以后、
+[Speaker 1]: 一年以后，
+[Speaker 1]: 当补贴减少了当新鲜感，
+[Speaker 1]: 过去了当监管开始追问。
+[Speaker 1]: 当客服压力上来。
+[Speaker 1]: 当诈骗和争议开始出现时，
+[Speaker 1]: 用户们还会不会把 x money 当成自己的主账户。
+[Speaker 1]: 看起来现在马斯克的战场不仅在太空上，
+[Speaker 1]: 也在各位的钱包里。
+[Speaker 1]: 好了，
+[Speaker 1]: 那我今天就讲到这里，
+[Speaker 1]: 我是老周，
+[Speaker 1]: 横眉冷队，
+[Speaker 1]: 指有路飞，
+[Speaker 1]: 我们下期再见。
+[Speaker 1]: 感谢观看订阅的时候，
+[Speaker 1]: 请务必同时打开这个小铃铛。
+[Speaker 1]: 那么我更新的时候，
+[Speaker 1]: 你才能够及时看到。
