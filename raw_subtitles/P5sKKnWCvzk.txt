@@ -1,0 +1,2704 @@
+Most
+ people
+ think
+ they're
+ using
+ AI
+ well
+
+
+when
+ they
+ get
+ a
+ decent
+ answer
+ from
+ chat
+
+
+GPT.
+ That
+ was
+ enough
+ 6
+ months
+ ago.
+ It's
+
+
+not
+ enough
+ anymore.
+ The
+ next
+ shift
+ is
+ AI
+
+
+agents,
+ and
+ [music]
+ the
+ gap
+ between
+
+
+people
+ who
+ understand
+ them
+ and
+ people
+
+
+who
+ don't,
+ it's
+ about
+ to
+ get
+ very
+
+
+expensive.
+ I've
+ spent
+ years
+ in
+ the
+
+
+boardrooms
+ of
+ billion-dollar
+ companies,
+
+
+and
+ the
+ good
+ news
+ here
+ is
+ that
+ agents
+
+
+are
+ much
+ simpler
+ than
+ most
+ people
+ think.
+
+
+So,
+ in
+ this
+ video,
+ I'll
+ show
+ you
+ exactly
+
+
+how
+ they
+ work,
+ when
+ to
+ use
+ them,
+ and
+ how
+
+
+to
+ start
+ before
+ everyone
+ else
+ catches
+
+
+up.
+ An
+ AI
+ prompt
+ and
+ an
+ AI
+ agent
+ are
+
+
+completely
+ different,
+ but
+ most
+ of
+ us
+ are
+
+
+still
+ stuck
+ with
+ old
+ habits.
+ Let
+ me
+ give
+
+
+you
+ the
+ simplest
+ way
+ to
+ think
+ about
+ this
+
+
+before
+ we
+ go
+ any
+ further.
+ This
+ is
+ our
+
+
+first
+ framework,
+ right
+ off
+ the
+ bat.
+ I
+
+
+call
+ it
+ ARR.
+ If
+ a
+ task
+ is
+ autonomous,
+
+
+recurring,
+ and
+ reviewable,
+ it's
+ a
+ strong
+
+
+candidate
+ for
+ an
+ agent.
+ If
+ it
+ needs
+ live
+
+
+judgment,
+ or
+ it
+ only
+ happens
+ once,
+ or
+
+
+can't
+ be
+ reviewed
+ clearly,
+ then
+ use
+ a
+
+
+prompt.
+ That
+ one
+ distinction
+ alone
+ will
+
+
+put
+ you
+ miles
+ ahead
+ of
+ most
+ people
+ using
+
+
+AI
+ today.
+ The
+ internet
+ gave
+ us
+ search,
+
+
+so
+ we
+ started
+ Googling.
+ AI
+ gave
+ us
+ LLMs,
+
+
+or
+ large
+ language
+ models,
+ but
+ most
+
+
+people
+ today
+ still
+ think
+ of
+ AI
+ as
+ a
+
+
+glorified
+ search.
+ Now,
+ agents
+ are
+ here,
+
+
+and
+ we're
+ still
+ making
+ the
+ same
+ mistake
+
+
+again.
+ We
+ think
+ of
+ agents
+ as
+ just
+ more
+
+
+capable
+ chatbots.
+ They're
+ not.
+ A
+ chatbot
+
+
+waits
+ for
+ your
+ next
+ prompt.
+ An
+ agent
+
+
+figures
+ out
+ its
+ next
+ move.
+ Prompting
+ is
+
+
+like
+ sitting
+ next
+ to
+ a
+ student
+ driver.
+
+
+You
+ still
+ have
+ to
+ guide
+ them,
+ correct
+
+
+them,
+ and
+ stay
+ very
+ alert.
+ An
+ agent,
+ on
+
+
+the
+ other
+ hand,
+ is
+ a
+ hired
+ driver.
+ You
+
+
+set
+ the
+ destination,
+ hand
+ over
+ the
+ keys,
+
+
+and
+ just
+ sit
+ in
+ the
+ backseat.
+ It
+ handles
+
+
+the
+ route,
+ the
+ traffic,
+ and
+ all
+ the
+
+
+step-by-step
+ decisions.
+ That's
+ the
+
+
+mental
+ shift
+ we
+ have
+ to
+ make.
+ So,
+ here's
+
+
+a
+ prompt.
+ Write
+ me
+ a
+ LinkedIn
+ post
+ and
+
+
+here's
+ an
+ agent.
+ Watch
+ my
+ [music]
+
+
+industry
+ every
+ Monday,
+ find
+ the
+ three
+
+
+most
+ relevant
+ stories,
+ study
+ my
+ previous
+
+
+post,
+ draft
+ a
+ new
+ post
+ based
+ on
+ those
+
+
+stories
+ in
+ my
+ voice,
+ revise
+ against
+ my
+
+
+style,
+ and
+ schedule
+ it
+ for
+ Tuesday
+
+
+morning.
+ That's
+ the
+ power
+ of
+ AI
+ agents.
+
+
+And
+ to
+ wield
+ that
+ power,
+ you
+ need
+ to
+
+
+know
+ what's
+ actually
+ running
+ under
+ the
+
+
+hood.
+ Everyone's
+ talking
+ about
+ AI
+
+
+agents.
+ Almost
+ nobody
+ can
+ tell
+ you
+
+
+what's
+ actually
+ happening
+ inside.
+ A
+
+
+chatbot
+ predicts
+ the
+ next
+ word.
+
+
+>> [music]
+
+
+>> An
+ agent
+ decides
+ the
+ next
+ action.
+ Here's
+
+
+how
+ a
+ chatbot
+ actually
+ works.
+ It's
+ a
+
+
+large
+ language
+ model.
+ When
+ you
+ type
+ a
+
+
+question,
+ it's
+ going
+ to
+ break
+ that
+
+
+question
+ into
+ small
+ units
+ of
+ words
+
+
+called
+ tokens
+ and
+ it
+ converts
+ them
+ into
+
+
+numbers.
+ And
+ then
+ it
+ just
+ finishes
+ the
+
+
+sentence.
+ So,
+ if
+ you
+ said,
+ "Jack
+ fell
+
+
+down
+ and
+ broke
+ his
+ crown."
+ Now,
+ you
+ know
+
+
+[music]
+ that,
+ but
+ LLM
+ does
+ not
+ know
+ that
+
+
+rhyme.
+ It
+ will
+ know
+ words
+ like
+ bones
+ and
+
+
+heart
+ and
+ crown.
+ [music]
+
+
+And
+ all
+ of
+ those
+ words
+ could
+ make
+ sense,
+
+
+but
+ based
+ on
+ its
+ training,
+ it
+ predicts
+
+
+that
+ the
+ most
+ likely
+ next
+ word,
+ given
+
+
+that
+ line,
+ is
+ crown.
+ It's
+ based
+ on
+
+
+probabilities.
+ The
+ agent
+ has
+ the
+ same
+
+
+language
+ model
+ in
+ the
+ center,
+ but
+ now
+
+
+there
+ are
+ four
+ workers
+ around
+ [music]
+
+
+it.
+ Analyst,
+ planner,
+ operator,
+ auditor.
+
+
+One
+ finds
+ the
+ pattern,
+
+
+>> [music]
+
+
+>> one
+ decides
+ the
+ plan,
+ one
+ does
+ the
+ work,
+
+
+one
+ checks
+ the
+ results.
+ Let's
+ make
+ this
+
+
+real.
+ You
+ can
+ give
+ an
+ agent
+ some
+
+
+instruction
+ like,
+ "Every
+ Monday
+ at
+ 7:00
+
+
+a.m.,
+ review
+ the
+ past
+ week's
+ customer
+
+
+support
+ tickets,
+ sales
+ notes,
+ and
+
+
+product
+ feedback.
+ Identify
+ three
+ biggest
+
+
+recurring
+ issues,
+ summarize
+ what
+
+
+changed,
+ and
+ email
+ my
+ leadership
+ team
+ a
+
+
+one-page
+ weekly
+ brief."
+ That's
+ [music]
+
+
+it.
+ I
+ mean,
+ those
+ are
+ lots
+ of
+ steps,
+ but
+
+
+the
+ agent
+ will
+ read
+ the
+ tickets,
+ notes,
+
+
+and
+ feedback,
+ and
+ find
+ the
+ pattern
+
+
+analyst.
+ [music]
+ It
+ will
+ then
+ decide
+
+
+what
+ matters
+ most
+ and
+ what
+ belongs
+ in
+
+
+the
+ brief
+ planner.
+ It
+ will
+ write
+ and
+
+
+send
+ the
+ update
+ operator.
+ And
+ then
+ it'll
+
+
+check
+ for
+ weak
+ logic,
+ missing
+ context,
+
+
+or
+ sloppy
+ conclusions,
+ and
+ it'll
+ refine
+
+
+it
+ auditor.
+ Now,
+ by
+ Monday
+ morning,
+ the
+
+
+brief
+ is
+ in
+ your
+ team's
+ inbox.
+ You
+ did
+
+
+not
+ write
+ the
+ report,
+ you
+ did
+ not
+
+
+analyze
+ it,
+ you
+ just
+ assigned
+ the
+ job
+ of
+
+
+four
+ people
+ to
+ one
+ agent.
+ So,
+ here's
+
+
+your
+ move.
+ Tonight,
+ open
+ ChatGPT
+ agent
+
+
+mode
+ and
+ give
+ it
+ one
+ recurring
+ task,
+
+
+>> [music]
+
+
+>> but
+ then
+ watch
+ what
+ it
+ does.
+ You'll
+ see
+
+
+all
+ four
+ workers
+ show
+ up
+ in
+ real
+ [music]
+
+
+time.
+ That's
+ the
+ anatomy
+ of
+ an
+ AI
+ agent.
+
+
+Now
+ that
+ you
+ understand
+ the
+ parts,
+ let's
+
+
+look
+ at
+ the
+ entire
+ loop.
+ The
+ best
+ thing
+
+
+about
+ agents
+ is
+ that
+ they
+ can
+ adapt
+ when
+
+
+things
+ go
+ wrong.
+ This
+ is
+ what
+ makes
+
+
+agents
+ genuinely
+ different
+ from
+
+
+everything
+ that
+ came
+ before
+ it.
+ In
+ the
+
+
+1970s,
+ there
+ was
+ an
+ Air
+ Force
+ Colonel
+
+
+John
+ Boyd,
+ and
+ he
+ studied
+ a
+ very
+
+
+intriguing
+ puzzle
+ from
+ the
+ Korean
+ War.
+
+
+American
+ pilots
+ in
+ their
+ F-86
+ kept
+
+
+beating
+ technically
+ superior
+ Soviet
+ MiG.
+
+
+Now,
+ the
+ MiG
+ was
+ faster
+ and
+ it
+ could
+
+
+climb
+ higher.
+ It
+ should
+ have
+ won,
+ but
+ it
+
+
+didn't.
+ And
+ Boyd
+ eventually
+ found
+ the
+
+
+difference.
+ The
+ American
+ pilots
+ could
+
+
+see
+ more
+ from
+ their
+ cockpits,
+ and
+ they
+
+
+could
+ adapt
+ faster.
+ So,
+ they
+ got
+ inside
+
+
+the
+ enemy's
+ decision
+ cycle
+ before
+ the
+
+
+enemy
+ could
+ respond.
+ He
+ called
+ that
+ loop
+
+
+the
+ OODA
+ loop:
+ observe,
+ orient,
+ decide,
+
+
+act.
+ [music]
+ And
+ in
+ the
+ world
+ of
+ agents,
+
+
+it's
+ the
+ same
+ thing.
+ That
+ is
+ the
+ real
+
+
+test
+ of
+ an
+ agent.
+ When
+ the
+ obvious
+ path
+
+
+fails,
+ can
+ it
+ choose
+ a
+ better
+ one?
+ Can
+
+
+it
+ go
+ through
+ its
+ own
+ UDA
+ loop?
+ So,
+ let
+
+
+me
+ give
+ you
+ a
+ concrete
+ example.
+ You
+ can
+
+
+build
+ an
+ automated
+ workflow.
+ Every
+
+
+Friday,
+ check
+ this
+ [music]
+ week's
+
+
+grocery
+ prices,
+ build
+ my
+ shopping
+ list,
+
+
+and
+ place
+ the
+ order.
+ It
+ [music]
+ works
+
+
+every
+ Friday.
+ Until
+ one
+ week,
+ your
+ usual
+
+
+item
+ is
+ out
+ of
+ stock,
+ [music]
+
+
+and
+ you
+ have
+ six
+ friends
+ coming
+ for
+
+
+dinner
+ on
+ Saturday.
+ So,
+ that
+ automated
+
+
+workflow
+ is
+ going
+ to
+ break.
+ Not
+ because
+
+
+it's
+ dumb,
+ but
+ because
+ it's
+ designed
+ to
+
+
+be
+ obedient.
+ It's
+ designed
+ to
+ not
+ think
+
+
+on
+ its
+ own.
+ An
+ agent,
+ on
+ the
+ other
+ hand,
+
+
+does
+ something
+ very
+ unique.
+ It
+ sees
+ the
+
+
+usual
+ list.
+ It
+ sees
+ that
+ it's
+ not
+
+
+working.
+ It
+ finds
+ substitutes.
+ It
+
+
+adjusts
+ quantities
+ for
+ six
+ people.
+ It
+
+
+checks
+ your
+ calendar,
+ sees
+ the
+ dinner,
+
+
+and
+ rebuilds
+ the
+ entire
+ order
+ around
+ it.
+
+
+A
+ workflow
+ can
+ follow
+ the
+ process.
+ An
+
+
+agent
+ can
+ reroute
+ it
+ completely.
+ [music]
+
+
+That's
+ the
+ difference.
+ So,
+ when
+ someone
+
+
+says
+ they
+ built
+ an
+ agent,
+ ask
+ one
+
+
+question.
+ When
+ the
+ first
+ path
+ breaks,
+
+
+does
+ the
+ agent
+ keep
+ following
+ the
+
+
+script,
+ or
+ can
+ it
+ find
+ [music]
+ a
+ better
+
+
+path?
+ Can
+ it
+ find
+ another
+ way?
+ That's
+
+
+the
+ agent
+ adapting
+ in
+ real
+ time.
+ So,
+
+
+this
+ begs
+ the
+ question,
+ right?
+ If
+ agents
+
+
+have
+ autonomy,
+ why
+ do
+ they
+ still
+ fail
+ so
+
+
+often
+
+
+>> [music]
+
+
+>> in
+ real
+ life?
+
+
+That's
+ next.
+ The
+ most
+ dangerous
+ thing
+
+
+about
+ AI
+ agents
+ is
+ that
+ they
+ will
+ do
+
+
+wrong
+ things
+ faster
+ and
+ with
+ more
+
+
+confidence
+ than
+ you
+ ever
+ could.
+ An
+ agent
+
+
+is
+ not
+ magic.
+ It's
+ a
+ multiplier.
+ I
+ was
+
+
+working
+ with
+ the
+ aboard
+ and
+ leadership
+
+
+team
+ of
+ large
+ consumer
+ company.
+ Yeah,
+
+
+I'm
+ still
+ working
+ with
+ them.
+ And
+ they're
+
+
+profitable,
+ well-run,
+ great
+ CEO.
+ And
+
+
+when
+ I
+ asked
+ what
+ was
+ stopping
+ them
+ from
+
+
+using
+ AI
+ to
+ drive
+ customer
+ acquisition,
+
+
+for
+ example,
+ the
+ CMO
+ responded,
+ "We
+ have
+
+
+all
+ the
+ data,
+ but
+ we'll
+ still
+ need
+ to
+
+
+build
+ a
+ clean
+ process,
+ so
+ we
+ can
+ turn
+
+
+that
+ into
+ something
+ useful,
+ something
+
+
+insightful.
+ And
+ I
+ asked
+ where
+ the
+ real
+
+
+challenge
+ was
+ and
+ she
+ said,
+ "You
+ know,
+
+
+we
+ need
+ the
+ right
+ people
+ in
+ the
+ seats
+
+
+first."
+ That's
+ the
+ story
+ everywhere.
+
+
+Most
+ AI
+ problems
+ are
+ human
+ problems
+ in
+
+
+disguise.
+ An
+ agent
+ is
+ just
+ a
+ mirror.
+ It
+
+
+reflects
+ the
+ quality
+ of
+ your
+ thinking
+
+
+back
+ at
+ you.
+ It
+ just
+ amplifies
+ it.
+ Give
+
+
+an
+ agent
+ vague
+ goals,
+ sloppy
+ directions,
+
+
+and
+ no
+ way
+ to
+ get
+ feedback
+ and
+ it
+ will
+
+
+drive
+ the
+ car
+ straight
+ into
+ the
+ tree
+
+
+faster
+ and
+ with
+ more
+ confidence
+ than
+ you
+
+
+ever
+ could.
+ Here's
+ the
+ dangerous
+ part.
+
+
+An
+ agent
+ doesn't
+ fix
+ bad
+ thinking,
+ it
+
+
+formalizes
+ it.
+ Usually
+ the
+ agent
+ fails
+
+
+because
+ the
+ human
+ was
+ vague,
+ not
+ because
+
+
+the
+ underlying
+ model
+ was
+ bad
+ or
+
+
+anything.
+ So,
+ before
+ you
+ automate
+
+
+anything,
+ run
+ a
+ GPS
+ check.
+ Goal,
+ proof,
+
+
+steps.
+ Goal,
+ can
+ I
+ define
+ the
+ goal
+ in
+
+
+one
+ sentence
+ very
+ clearly?
+ [music]
+
+
+Proof,
+ can
+ I
+ tell
+ what
+ good
+ looks
+ like
+
+
+and
+ how
+ will
+ I
+ know
+ if
+ the
+ agent
+ got
+ it
+
+
+right?
+ And
+ steps,
+ can
+ I
+ describe
+ each
+
+
+and
+ every
+ step
+ very
+ clearly
+ without
+ a
+
+
+lot
+ of
+ hand-waving?
+ Unless
+ you
+ can
+ do
+
+
+those
+ three
+ things
+ very
+ well,
+ your
+ agent
+
+
+is
+ not
+ going
+ to
+ make
+ any
+ difference.
+
+
+I'll
+ give
+ [music]
+ you
+ an
+ example.
+ Here
+
+
+are
+ two
+ instructions
+ for
+ your
+ agent.
+
+
+First
+ one,
+ "Summarize
+ my
+ emails
+ every
+
+
+morning."
+ It's
+ good.
+ And
+ here's
+ the
+
+
+second
+ one,
+ "Every
+ morning
+ at
+ 7:00
+ a.m.,
+
+
+read
+ my
+ unread
+ emails,
+ categorize
+ them
+
+
+by
+ urgency,
+ draft
+ replies
+ to
+ routine
+
+
+messages,
+ and
+ flag
+ anything
+ from
+ my
+ top
+
+
+five
+ customers."
+ So
+ you
+ see
+ there
+ is
+ a
+
+
+difference
+ between
+ those
+ two
+
+
+instructions
+ and
+ that
+ [music]
+ gap
+ is
+
+
+exactly
+ where
+ the
+ mess
+ lives.
+ The
+
+
+winners
+ who
+ can
+ wield
+ the
+ power
+ of
+ AI
+
+
+agents
+ aren't
+ just
+ [music]
+ going
+ to
+ be
+
+
+engineers.
+ They'll
+ be
+ the
+ people
+ who
+
+
+understand
+ their
+ work
+ deeply
+ enough
+ to
+
+
+define
+ it
+ precisely.
+ [music]
+
+
+Most
+ companies
+ want
+ AI
+ everywhere.
+ The
+
+
+ones
+ actually
+ winning
+ are
+ obsessively
+
+
+narrow.
+ If
+ clarity
+ is
+ a
+ bottleneck,
+ then
+
+
+the
+ opportunity
+ is
+ not
+ broad
+
+
+intelligence,
+ it's
+ narrow
+ ownership.
+ I
+
+
+was
+ visiting
+ the
+ customer
+ conference
+ of
+
+
+construction
+ software
+ company
+ that
+ I
+
+
+work
+ with,
+ and
+ the
+ product
+ lead
+ was
+ on
+
+
+stage
+ showing
+ a
+ demo
+ of
+ a
+ single
+ agent
+
+
+>> [music]
+
+
+>> that
+ was
+ focused
+ on
+ a
+ very
+ specific
+
+
+problem,
+ collecting
+ field
+ data
+ for
+ a
+
+
+specific
+ type
+ of
+ customers
+ in
+ a
+ specific
+
+
+type
+ of
+ situation.
+ And
+ it
+ was
+ a
+ beta
+
+
+launch.
+ The
+ demo
+ worked
+ mostly
+ with
+ a
+
+
+few
+ minor
+ glitches
+ here
+ and
+ there,
+ but
+
+
+when
+ he
+ showed
+ the
+ QR
+ code
+ at
+ the
+ end,
+
+
+every
+ hand
+ in
+ the
+ conference
+ room
+ went
+
+
+up
+ with
+ their
+ phones.
+ Everyone
+ took
+ a
+
+
+picture
+ [music]
+
+
+because
+ it
+ solved
+ a
+ very
+ specific,
+ but
+
+
+very
+ real
+ pain
+ they
+ all
+ had
+ been
+ living
+
+
+with
+ for
+ decades.
+ [music]
+ That
+ is
+ where
+
+
+the
+ real
+ opportunity
+ is,
+ in
+ your
+ career
+
+
+or
+ in
+ your
+ company.
+ Narrow
+ [music]
+
+
+focus.
+ Here's
+ the
+ test.
+ Find
+ a
+ highly
+
+
+specific
+ task
+ [music]
+
+
+people
+ hate
+ doing,
+ but
+ they
+ have
+ to
+ do
+
+
+it
+ repeatedly.
+ That's
+ where
+ the
+ money
+
+
+is.
+ You
+ know,
+ we're
+ entering
+ an
+ age
+
+
+where
+ we'll
+ have
+ more
+ agents
+ than
+ human
+
+
+beings
+ on
+ this
+ planet.
+ On
+ the
+ business
+
+
+side,
+ for
+ every
+ software
+ company
+ that
+
+
+exists
+ today,
+ there
+ will
+ be
+ an
+ agent
+
+
+company
+ trying
+ to
+ dethrone
+ it.
+ The
+
+
+winners
+ won't
+ build
+ the
+ broadest
+ agents
+
+
+first.
+ They'll
+ build
+ the
+ one
+ that
+
+
+understands
+ one
+ workflow,
+ [music]
+
+
+one
+ market,
+ and
+ one kind
+ of
+ user
+ pain
+
+
+better
+ than
+ everyone
+ else.
+ By
+ the
+ way,
+
+
+if
+ you
+ want
+ to
+ keep
+ this
+ conversation
+
+
+going,
+ I
+ write
+ a
+ short
+ newsletter
+ once
+ a
+
+
+week,
+ just
+ useful
+ ideas,
+ tools,
+ honest
+
+
+reflections.
+ You
+ can
+ subscribe
+ below.
+
+
+It's
+ free.
+ AI
+ will
+ reshape
+ almost
+ every
+
+
+role,
+ but
+ it
+ won't
+ replace
+ what
+ makes
+
+
+you
+ irreplaceable.
+ You
+ know,
+ AI
+ is
+ a
+
+
+giant
+ decoupling
+ machine.
+ For
+ most
+ of
+
+
+our
+ modern
+ history,
+ your
+ income
+ was
+ tied
+
+
+to
+ your
+ hours.
+ [music]
+
+
+Even
+ at
+ the
+ top,
+ you're
+ always
+ trading
+
+
+time
+ for
+ decisions.
+ Agents
+ are
+ breaking
+
+
+that
+ link
+ for
+ the
+ first
+ time.
+ Now
+ they
+
+
+do
+ the
+ work
+ and
+ you
+ scale
+ your
+ judgment
+
+
+in
+ areas
+ where
+ it
+ matters
+ most.
+ And
+ that
+
+
+changes
+ what's
+ valuable.
+ We're
+ entering
+
+
+an
+ era
+ of
+ infinite
+ output,
+ content,
+
+
+code,
+ and
+ analysis
+ all
+ becoming
+ super
+
+
+cheap.
+ When
+ intelligence
+ becomes
+ that
+
+
+cheap,
+ judgment
+ becomes
+ even
+ more
+
+
+expensive.
+ When
+ output
+ becomes
+ infinite,
+
+
+taste
+ becomes
+ scarce.
+ Every
+ time
+ you
+
+
+define
+ a
+ task
+ clearly
+ enough
+ for
+ an
+
+
+agent
+ to
+ run
+ it,
+ you're
+ not
+ just
+
+
+training
+ the
+ system,
+ you're
+ clarifying
+
+
+your
+ own
+ standards.
+ You're
+ learning
+ what
+
+
+good
+ actually
+ looks
+ like.
+ Sure,
+ some
+
+
+roles
+ will
+ be
+ reshaped.
+ The
+ paralegal,
+
+
+the
+ junior
+ analyst,
+ the
+ coordinator.
+ But
+
+
+every
+ disruption
+ has
+ always
+ created
+ new
+
+
+roles
+ that
+ never
+ existed
+ before.
+ [music]
+
+
+Before
+ the
+ internet,
+ nobody
+ imagined
+ the
+
+
+role
+ of
+ an
+ online
+ community
+ manager.
+ The
+
+
+question
+ is
+ not
+ whether
+ the
+ shift
+
+
+happens.
+ It
+ is
+ whether
+ you
+ shape
+ it
+ or
+
+
+get
+ shaped
+ by
+ it.
+ The
+ most
+ valuable
+
+
+person
+ is
+ no
+ longer
+ the
+ one
+ who
+ can
+
+
+[music]
+ think
+ the
+ fastest.
+ It's
+ the
+ one
+
+
+who
+ can
+ define
+ good
+ work,
+ spot
+ bad
+ work,
+
+
+and
+ know
+ when
+ to
+ trust
+ an
+ agent
+ and
+ when
+
+
+to
+ trust
+ a
+ human.
+ That
+ is
+ where
+ your
+
+
+value
+ is
+ going
+ to
+ move.
+ Ironically,
+ AI
+
+
+will
+ make
+ human
+ life
+ less
+ robotic.
+
+
+Thank
+ you.
+
+
+And
+ I
+ love
+ you.
