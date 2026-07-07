@@ -1,0 +1,209 @@
+It's given me a lot more control over everything in my home. I think the like biggest thing is that I don't have to think about it anymore. It's freed up so much space to not be thinking about whether the lights are how I want them or whether someone will walk in in a few hours and I'll be sitting in a dark apartment, which is a weird vibe.
+>> You're so moody and mysterious.
+>> It's not inaccurate.
+>> [laughter]
+>> I'm Christine Zier Kløzet.
+>> I'm Rosie Garen, and you're listening to The Wirecutter Show.
+>> [music] [music] [music]
+>> Hey Rosie.
+>> Hey Christine.
+>> Today we are talking about accessibility. I've thought a lot about this through my work with Wirecutter, but thinking back, I you know, the first time I fundamentally understood how difficult it can be to do simple tasks in your daily life when the world isn't designed for you was when I had my first kid. I was living in Midtown Manhattan just a couple blocks from where we're recording. Back then, the sidewalks in Midtown didn't have ramps where they meet the road. Some of them did, but a lot of them didn't. And I remember walking with my newborn in her stroller, and this lack of ramps was a total barrier. I couldn't lift the stroller off the sidewalk to cross the street because I was recovering from labor, and I just remember thinking, "How do people in wheelchairs or walkers navigate this? This is insane." My mobility was limited, and it really opened my eyes to a different world that many people are forced to navigate.
+>> It's so interesting. I remember living in New York thinking a lot about the inaccessibility of so many subway stations in the city. I think about the way products are designed, and that obviously plays a crucial role in accessibility. Today, we're going to lean into the discussion of products specifically. We're going to talk about some simple smart home devices that [music] can make a home more accessible for people with disabilities or frankly [music] anyone with mobility concerns, issues, short-term, medium-term, or long-term.
+>> That's [music] right. We're talking with Claire Perlman, our accessibility editor, and John Chase, our smart home editor. They recently collaborated to retrofit Claire's apartment [music] with smart switches that have allowed Claire more control over the lights in her apartment. She wrote this great [music] piece about this, which we'll link to in the show notes.
+>> After the break, Claire and John. Stick around.
+>> [music] [music]
+>> Welcome back. Today, Christina and I are in the studio with two of our co-workers, and we're going to talk about how smart home devices can make a home more accessible. Claire Perlman, Wirecutter's accessibility editor, and John Chase, friend of the show and our smart home editor. Claire, John, welcome.
+>> Thank you.
+>> Yeah, great to be here.
+>> Happy to have you.
+>> Great to have you here. So, we want to talk about this project that you two worked on together. You Claire, you wrote an article about it. John, you helped install these smart switches in Claire's apartment. Claire, I want you to set the scene. What were you dealing with in your apartment in terms of your lighting? Give us the picture of what a day in your life looked like to turn the lights on.
+>> Yeah. So, I'm in a wheelchair, which means I can't do a lot of things including using my arms to do a lot of things. The light switches in my apartment are a little bit too high, so I can't turn them on and off easily. I can actually turn them off, but I cannot turn them on, which is really not that useful. So, [laughter]
+>> It's less useful than you think.
+>> Yeah, really is. So, I have someone who comes and helps me in the morning, and they're there for hour, hour and a half. During that time, I have to have them do everything that I need for the next 12 hours. And so, that includes having the lights the way I want them because I haven't historically been able to turn them on when I want them or off easily when I want them.
+>> So, when your helper leaves for the day, the way the apartment was set up was the way it was set up. So, if the lights were on in your office, they were on, but if they weren't on in your office, you didn't you couldn't really do anything about it.
+>> No, and I would look very dark in my Zoom meetings.
+>> I've been on many Zoom meetings with you, and I never thought it looked dark, but I can see where that would be very annoying.
+>> [laughter]
+>> It was.
+>> Did you have any other smart home devices in your apartment before you and John worked on this project?
+>> I had a few smart plugs set up, and so those were connected to one was connected to a lamp, and then one another one was connected to an air purifier. I wasn't really maximizing [clears throat] that usage necessarily. I also had a couple smart bulbs that I had in lamps, but they were in and out of being useful.
+>> She's throwing shade on me right here.
+>> [laughter]
+>> Just like when when Claire and I met a couple years ago, like I was most of the time people were like running away from me with smart home stuff. And [laughter] exactly, exactly. And Claire was super game to talk about it, and you were were curious, and I don't recall if you had an an Alexa device. I'm going to tell anyone listening, trigger warning, mute your smart speakers so they don't go off. But, Claire was willing to to try out some smart bulbs. And so, separately from the smart plugs you have, which are basically on off switches, uh you had some a collection of three Hue bulbs, but they had gone out of sync. So, like basically, like you know, she would use those to to speak to Alexa to say, "Hey, turn on my bulbs." or whatever. And then sometimes it would work, sometimes it wouldn't work or, you know.
+>> This was partly because I bought a knockoff Noguchi lamp and
+>> was the problem.
+>> Yeah.
+>> was the problem. The switch is like not
+>> gods are coming down to punish you.
+>> [laughter]
+>> And then also the switch was very janky.
+>> So like in theory you could use a light bulb a smart light bulb to say, "Hey, turn the light bulb on, smart speaker." and that might have helped with your problem, but those had gone out of sync.
+>> Yeah, although they worked for a very long time. I ended up fixing them before you came to my apartment all by myself, so.
+>> [laughter]
+>> Well, it was a great talk. So, I will see you guys later. But the other thing is also just to differentiate, those were for often are used for like table lamps and things like that. And the lighting that was controlled by switches is like overhead lighting. And so there was a bank of switches and one of them was actually controlled in two locations. And the second location actually was like I don't know. Chest height for me. And so, you know, if you click it on the one spot and then go to click it off at the other or something like that. It was just Clara explained that sometimes she would relegate it to like using her head to turn off a switch, which is not ideal. And your apartment is technically an ADA compliant
+>> Yeah, it is.
+>> Oh, wow.
+>> Supposed to be. I mean ADA compliant doesn't mean accessible to every person. It just means accessible to some people.
+>> Right, it's kind of like a median standard that is out there.
+>> And it's, you know, it's supposed to be encompassing a very wide variety of needs. There are older people who can't bend over, so they need things that are higher up and that is deeply unuseful for me.
+>> Right.
+>> So, that is the problem with the ADA. Although I love it.
+>> It's good we have it, but yeah, it doesn't work not all the standards work for everyone. So, okay, just to encapsulate, you could turn on some of the lights in your apartment.
+>> these overhead lights were the real issue.
+>> Yeah, and I had devised systems for turning on and off of those lights as well. I would use like my cat's wand toy to turn on the light sometimes I really needed them or a straw for my drink.
+>> Right. This is really ad hoc. This is like you get what you get and you are dealing with whatever it is for the rest of the day.
+>> Right. Which is like not ideal in your own home. Like that's why I'm like long-term solution not a great long-term solution. Could be better.
+>> So, you come together, you decide to do this project. Where did you begin I guess with the lighting problem specifically?
+>> Well, so Claire described her [clears throat] apartment and her needs and like the more we talked, I I don't go small. I like to go big. You might know that about me. So, I was like, "Yeah, we'll knock down a wall." And then you know, but she we we reined it in and made it a much more reasonable approach which was because it's studio like her she has a kitchenette and there's these overhead lights, you know, LED lights they can get quite bright and she's like there's times where I've had to like you know, they were on it at the end of the night and I just had to sleep with the lights on all night or they're not on in the morning, you know, and then you have to sit around in darkness kind of thing. So, that was
+>> Which is particularly problematic in a studio.
+>> Yeah.
+>> Right. Yeah.
+>> It's irksome. And then on top of that we also she talked about how she had a a heat pump like an HVAC or air conditioning system. The thermostat would be the way that you could you can control it, but you were unable to control it because one it's the height of it, but also it's finicky with like 25 button presses. I think we were trying to figure out a way to make a substitution and put in a smart thermostat that would allow her to again use her voice to change the temperature. So, we talked about doing that. We talked about maybe putting in a instead of having smart plugs which are external and you know, they go into the wall and sometimes they take up space. They're useful and they're great, but you can actually just replace the receptacle itself and have
+>> Like the outlet receptacle where you would plug something in and you can actually
+>> You can make those so that you could individually control them. So, the idea you could be like hey, you know, Alexa, hey Siri, hey Google Home, turn off my light." And that would be that outlet itself would would turn on and off kind of thing. So, we went big that way, and then once we got to her apartment, reality kicked in.
+>> [laughter]
+>> Right. So, what is a pesky way of showing up? What did you see as limitations or challenges when you went to do the assessment in Claire's apartment?
+>> You know, just speaking from the usability of this stuff, like, you know, some people are definitely going to would need help with any of this, right? Either they're
+>> installing it and programming and everything like that.
+>> All of those things, and they're different things, right? Like, some people just you know, they may not have the use of a smartphone, and and a lot of these almost everything requires the use of a smartphone to set it up. And you know, we showed up and turns out that Claire's thermostat is of a particular type where it wouldn't work with the model we were going to set in. It like they just wouldn't be able to communicate with each other. So, we ended up just kind of cut and bait on that one and moving on.
+>> That one is very sad. I was really hoping that I could fix that challenge. Yes. All I want is to be able to turn the AC on and then off in the middle of the night, whenever I want.
+>> Oh, yeah.
+>> And your compromise, did you Do you have a fan that you can
+>> I've been using my air purifier as a fan, which is not the most efficient.
+>> Okay, so what did you end up actually installing then?
+>> We ended up installing three smart switches. Is that it?
+>> Uh well, no, we did We Okay, so we did Right. So, that's it, yeah.
+>> [laughter]
+>> That's all, and then only took me however many hours. Um so, what we did was we One, we resynced your bulbs, which you said you did on your own without me, but whatever.
+>> I did one of them, and you did the other one.
+>> For the kitchen lights, we removed the existing switch, like physically removed the switch, and then replaced it with a smart version. This version communicates with like a plug-in Wi-Fi relay, basically. An important thing that we talked about was that this switch should work just like a regular switch in terms of you can manually turn it on and off so that you're not bound to using the smart features for people who don't want that. But then on top of that, once we installed that, we could then in this case she has Alexa speakers, so using the Alexa app, we connected the light switch. This model was a Leviton model. They have a whole bunch of models and this is one of our Wirecutter picks. So, we connect them in the app. From then on, she can say and you know, you give it a name and you can say, "Alexa, turn the kitchen lights to 50%." It not only turns it on and off, so it also dims.
+>> a dimmer.
+>> Yes. Exactly.
+>> Okay. Did that mean you had to change the bulbs themselves?
+>> You're not using smart bulbs in those in those overhead lights. They're regular bulbs that are being controlled by a smart switch.
+>> Which is so cost-effective and useful because if you've already got lights in your ceiling, you don't want to have to replace those. And these are the kind that are These are These are LED lights, can lights. So, she was able to use the existing ones with literally just a taking the wires out of one port, putting it back into the other in the switch. It's It's a very, very simple operation. We did have some issues getting it to sync up initially. I think part of that has to do with and this is a bugaboo for for the smart home in general. When you have Wi-Fi, there's generally 2.4 GHz and 5 GHz. They're just different frequencies and a lot of times networks have both and hers does. You know, each type of
+>> Is that why you get like the two different Wi-Fi signals when you're connecting to your Wi-Fi?
+>> Exactly. Like one is 2G, one is 5G, something like that. Yeah, exactly. And so, 99% of smart home devices connect using 2.4 GHz only. It can be a hiccup because what happens is your phone, which you're using to connect these devices, may be connected to the 5 GHz network and so sometimes, not always, depends on your router and all modem and all the other kind of stuff, it may be that when you go to set them up, the smart device is like, "I can't I can't see you." you know, essentially. And then the connection, the pairing will fail. So, most routers have the ability to like, if there's an app associated with it, you can turn off the 5 GHz for 5 minutes, 10 minutes, whatever, while you're doing the setup. Your phone would then be on the same network, and then you can make this happen. This is such a huge issue, and I don't know why it's not solved at this point. But, so that way I believe that was the failing. So, I ended up like resetting the switch, turned my phone on and off and whatever, and then it just connected and it was fine.
+>> So, as a general rule of thumb, maybe a takeaway [clears throat] for this episode is if you're using smart devices, you want to make sure they're speaking to each other over the same frequency on your your Wi-Fi, right? So, like if you're having trouble, maybe disable that 5G on your router. I'm saying that like I know how to do that, but I'm sure I could figure it out.
+>> talk a good game. I like that. I like this. Yeah.
+>> [laughter]
+>> Yeah, exactly. At any rate, this is a a bit of a diversion, but it's an important point cuz this is often a failing.
+>> So, kind of like following in on that because, you know, this might seem intimidating to some people, right? Installing smart home devices. Like, Claire, you may not have done this without John's assistance, right? I mean, it might have been a little bit
+>> No, it would have taken me two to four more years to
+>> [laughter]
+>> So, the first lesson is find a friend who knows how to do this. But, I guess my other question is how hard is it actually to install a smart switch? Like, if you're not a super handy person, you're not comfortable with electrical wires, do you need to get a handy person to come in and do this? Or if you're like reasonably comfortable putting in a regular switch, you'd be fine doing this?
+>> I would say I'm I'm not an expert electrician or anything like that, but I'm very familiar with doing this stuff. I've wired our home with multiple different smart switches trying them out and testing them over the years. If you are a competent DIY person who has done any kind of wired an electrical switch or an outlet before, it's identical. But, it can get complicated if you have more exotic wiring like a bank of switches, sometimes they'll have like pigtails going on and like joining of like multiple lines and things like that. So, it can get a little slightly exotic. It's absolutely handyman level. I don't think you would have to hire an electrician to do it. But, obviously the first thing you would do is like go to your breaker, turn off the switch, use a a voltage tester to make sure that there's no live like stray currents or anything like that. It's very doable, but even then like some of the outtakes of the video showing me I'm like, "Get in there, you!" You know, like like because this wiring it's, you know, it's stiff, it's big, it's thick the existing wiring in the wall and you're connecting onto it and so, you know, it it takes some some doing.
+>> And Clare, your apartment is a new apartment, right? So, if you're dealing with an older building, you might have a whole other host of things to think about.
+>> Yeah, so all modern like code-compliant homes have a neutral what's called a neutral wire in the box. Older homes often don't. There's a few smart home switches that actually can work without a neutral wire, which is pretty cool.
+>> [music]
+>> Clare, how has this changed your day-to-day?
+>> It's given me a lot more control over everything in my home. I think the like biggest thing is that I don't have to think about it anymore. It's freed up so much space to not be thinking about whether the lights are how I want them or whether someone will walk in in a few hours and I'll be sitting in a dark apartment, which is a weird vibe.
+>> You're so moody and mysterious.
+>> It's not inaccurate.
+>> [laughter]
+>> But, yeah, I think not having to think about it in the morning when I have other thing like I have work to be thinking about. I have my cat to be thinking about. I have plenty of other things to be thinking about besides whether the lights are exactly how I want them or not. And also like it has given me the freedom to change my mind whether I want the lights on or off, which is not a thing I used to have. So, it's been really big for that. You know, even at night when the lights are off, but maybe I want to FaceTime with someone or like read a book, see what my cat is doing on the counter at 2:00 a.m. Now I can turn on the light and see and then turn it off again.
+>> So, what is the routine that you're in now in terms of like you wake up in the morning? Are you using your phone? Are you using your voice? What's
+>> Pretty much always using Alexa. I don't usually use the phone.
+>> Okay.
+>> Cuz I I'm too lazy to figure out which app I'm supposed to be doing that on.
+>> But that's the whole point. Like you didn't That's the beauty of you being able to use voice speakers and stuff like that. I think you don't have to get up and go over to the switch to activate it. You don't have to pull out your phone to activate it. You don't have to, you know, browse through find the right thing. You don't have to do an update of the app or that kind of stuff. I get it mostly just works. But one of the things that Clare and I kind of keep discussing, I think, and one of my writers, uh, Rachel Sarakula has has written guides to accessibility and aging in place that involves smart home devices. In particular, you know, I've been covering smart home for almost a decade at this point. And I feel like there's so much usefulness to it for this audience of people who have mobility and accessibility needs and and also aging in place, which, you know, they overlap. It didn't dawn on me and I think to our whole team for a really long time how how useful these things are.
+>> You know, I helped I managed our teams that review appliances and kitchen equipment. I think we saw a lot of smart features being integrated into appliances. We've seen this for years and at first our reaction was like, "Eh, why do you need to have a smart feature on an oven or on a washer?" You know, it just seems like this is just like added. But we've seen over the years, especially Clare and I have worked on We have a paid tester group that comes in. We have various people with different mobility issues. And like these smart features can be quite helpful to a variety of people, you know? Cuz you can operate things with your phone. And you know, I think we've seen this across different coverage areas like forever. I remember we were like, why would you need a smart toothbrush? But it actually can be quite helpful for certain people to be able to, you know, have these smart devices.
+>> And it tells you I'm Yeah, and that's that's the thing. It's like you There's so many products that where you might be like, well, I don't need that. And it's like, well, you don't need that, but other people do. Cuz these products don't tend to be sold. They're not marketed
+>> No, they're not marketed
+>> necessarily. One of the things we also talked about Claire has this has a wall that's basically a window and a glass door, like the whole back wall of her of her apartment. And I was like, you know, maybe our next, you know, our 2.0 version is you get automatic shades, which go up and down on a cycle. The sun can be blinding or it can like be too hot in the summer and that's the quickest way to cool down your place. Boom, block the sun from coming in. Yeah.
+>> Particularly if you weren't able to hook up the smart thermostat.
+>> Yes, exactly. Exactly.
+>> You know, there's an intimidation factor here when approaching some of these installations. And I think it would be a turn-off in terms of judging how much is this worth versus how much am I going to have to learn to enable me to use these seamlessly? Like what is that learning curve like? How do you think about that?
+>> Yeah, I think it is really hard for people who are not I mean, even just like connecting the app to the thing can be daunting. I made my brother come all the way from Manhattan at one point to do it for me. And it's you know, I think there's the like tech brain part of it and then there's also the physical part of it. Like sometimes you have to like get your phone really close to the thing and it's in a weird place in your apartment. And that requires some physical ability. Think there's also like avoidance because it could build up in your head as a scary thing to do. But then once you're actually doing it, it is truly not that hard. I mean for smart plugs, they were very simple. Plugging in a smart speaker is very simple. Right. Like there are things like that where it's like, "No, you could do this."
+>> We're going to take a quick break [music] and on the other side, we're going to talk about some other smart home gear that can make a home more accessible. Plus, [music] John and Claire's recommendations for some bang for your buck [music] products. We'll be right back.
+>> [music]
+>> Welcome back. Before the break, we discussed how smart switches really helped you, Claire, in your apartment and really changed the game for turning on your lights. Now, I want to talk about other devices that can make a home more accessible. For most people, where do you think the biggest payoff is in terms of smart devices? If somebody is trying to decide what to get, what are the the devices that you think Let's start with you, John. The things that are just going to have a huge payoff.
+>> I am a little biased here because I I write the guide to smart locks, but I think that I have smart locks at our at our home and I don't know anyone who's ever come to our home and then been like, "I hate this device." Most often, people are like, "Oh, I'm curious. I kind of want to have this." Cuz once they see how it works and how functional and how useful it is, I won't go all the way down the the rabbit [laughter] hole, but it's like you know, I have little kids who without phones who can get into the home where they don't need to carry a key around. They they use a a code, that kind of stuff. I get a notification if the door is unlocked at a weird hour. I um can also give when my parents come to visit, they have their own code. Or when we have someone came and fed our pets while we were gone. Like they got their own code and that kind of stuff, you know. So, it's just
+>> I see these on a lot of Airbnbs as well.
+>> Yeah, exactly. Exactly. And it's just they're so useful. It's like when you get a smartphone or a cell phone and you forget what it's like to use a regular phone. Like I forget what it's like to use a key to lock a door anymore. So, that for me that's a big one. You had a a number of devices you said that you used with smart plugs.
+>> Mhm.
+>> Um which I think is really interesting cuz a smart plug is essentially it's an on-off switch. That's really And they they might have extra features in there. You can put them on a timer. They can tell you how much electricity they or amperage or whatever it was being used. But you had a like three or four in your home.
+>> Yeah, so I had them before we did all the lighting. The basically the only way I had to to control any lighting was the lamp, so I used smart plugs with lamps. I also used to use one on my sound machine because I used to live in the East Village and it was very noisy.
+>> And are you controlling those with your voice
+>> Yes, it's also voice, yeah.
+>> And as it just to emphasize what what Claire's saying is like those aren't smart devices per se, but she's smartening
+>> She's smartening them up.
+>> She's smartening them up. She's giving them She's If they only had a brain.
+>> Yeah, if they only had a brain. What about like safety devices? Like you have um recommendations for smoke detectors, right? And do you think this is a good place for people to start with smart home?
+>> For a long time it we had a piece that was if you only buy one smart device, this is the one to get. And like a smart smoke detector is there's different varieties of them, but at a base level they alleviate most of the reasons that regular smoke detectors are a pain and then therefore get disabled or pulled off the wall. Like anyone who's had it's always at 3:00 a.m. Like the 3:00 a.m. chirping thing. Smart detectors will say, "Hey, my battery's low. Change it."
+>> In that voice.
+>> [laughter]
+>> Yeah.
+>> Wake up. Go go change my battery. Most fires where people are injured, hurt, or there's mortalities, it's because they either had a detector and it was disabled on purpose or the batteries were dead. Because they they are hard to turn off. You know, you got a 10-ft ceiling, you're not going to be able to get up there and like hit the mute button. And you have to So, these like you can mute using an app usually. They can interconnect to each other. So, if one goes off, they all go off. You know, things like that. It's just it's just smart.
+>> You also mentioned blinds as a
+>> Yeah.
+>> hugely helpful.
+>> Again, this is one of those ones where they've now expanded to It's like blinds, shades, cell blinds, and then also retrofit ones that you can add on. You know, if you can't lift your arm up to pull a shade down, you're just going to get sun staring in your all day long. And that really radically can alter the temperature of a room. And also, it's just annoying. These are My I have three in our kitchen where sort of around dinner time, a laser beam of sunlight pours in. And so, the blinds come down automatically, and then they go back up, and then they go back down again. And that sounds like a complete luxury. But like if you pull and open and close shades These are shades, not blinds. But if you pull open them, they're going to break. Like they always break. And they get that flappy like
+>> Yeah. The sound of childhood.
+>> [laughter]
+>> But so, those I love those. And I have it in our kids' bedroom, too. In the morning, their alarm goes off, the lights come on, and the shades go up. And it's like, all right, it's go time, people.
+>> Wake up.
+>> Yeah.
+>> So, okay. We've talked about some of what you guys see as the most useful devices. If somebody's listening to this thinking, I am curious. I'd like to try installing some smart devices. How would you advise someone on how to choose what to get? Let's start with you, Claire.
+>> I would think about my morning, perhaps, and walk through it, and identify where you are most pissed off about not being able to do something.
+>> That's a good way to put it.
+>> And so, like mine was I was really annoyed about the lights. I'm also really annoyed when I can't put my blinds up in the morning because I face the east and I want sunlight. So, that's next on my to-do list for John. And
+>> [laughter]
+>> Noted.
+>> My to-do list for John. But, it's the things that like really aggravate you every single day and they seem little and they're not. That is where various smart home things can come in useful in a million different ways. You know, there's the ones we've talked about, but there's also for example, I have a smart litter box because one of the things that would drive me insane was a stinky litter box right next to me.
+>> yeah.
+>> Horrible.
+>> Start small. I I don't go out there and buy seven different devices. It's sort of like you got to baby step it a little bit and understand one of the big concepts within the smart home thing is like are you going to use one device with an app and control just that and then maybe have another device from another company and that one has an app. You can use apps that control a lot of your devices. And so, you have to consider compatibility. Alexa is generally compatible with almost everything. If you want to consolidate control into a single device so that you can say, "Hey Alexa, do this. Hey Alexa, do that." If that's going to be your control scheme, then you'd want to ensure that there's compatibility. If you are only going to get one device, you're just going to get a smart lock and not integrate it with a whole bunch of other devices, which is fine. That's how I do it. Then it doesn't matter as much. But, also like Nest makes a lot of very nice devices. If you're going to you'd want to use a Google Home app for that. And so, then you would do like you know, a Nest doorbell, a Nest camera, you know, that kind of stuff. A thermostatic that kind of stuff. So, yeah, but I I do think it's like do buy name brands. Like we generally frown upon these kind of rando devices that seem a lot like something else. Don't buy rando products. Establish brands that generally speaking, what we cover, if it's not even if it's not a pick, you'll see that we've tested it in our competition and we might give you a like consult our guides. We have a you know, an excellent team of I would say the best team out there of of people testing. So
+>> That's the one ad you get to place in this in this episode.
+>> [laughter]
+>> Smart home, the future is now.
+>> [music]
+>> Who do you both think about when you think of folks who could most benefit from smart devices in the home?
+>> I think it's anyone who can't get up easily and go do a thing. If you need to be able to do something from where you are at that exact moment, then this is going to be great for you. So that's disabled people, but that's also people aging in place, people with new babies, people who just broke their legs for whatever reason. I think it really can be applicable to anyone. I mean, even I've talked to a friend who said it erased all arguments with her husband about who had to get up when they were already in bed to go turn off the light.
+>> [laughter]
+>> It's saving marriages out here. In this spectrum.
+>> I love that. And it could also be like to your point, there's some statistic about how there's some huge amount of people who will be disabled temporarily in their life whether it's like you broke your leg, you had a hip replacement. Some of these things could be temporary solutions for those moments, totally touch points. All right, one last question for you. I'm thinking about all of the things I could install in my own home and it sounds like these things are kind of futzy. I know that John, you're going to tell me that they aren't, but how often do they disconnect or get out of sync like the bulbs that you installed Claire? Like how much maintenance are you having to do?
+>> stable are they?
+>> Yeah, yeah.
+>> Can I just say it? That my light bulb that went out of sync, all I had to do was manually turn off the lamp and then turn it back on again.
+>> Ah, okay.
+>> So it was not
+>> unacceptable.
+>> [laughter]
+>> No, it's a real thing. So, one of the components of smart home stuff is that almost everything connects to the cloud. You connect to the app to control it. The device often connects to your Wi-Fi or to a hub and then the Wi-Fi and then that goes to the cloud cuz that's where the commands go back and forth and things like that. And so, you can get outages. You know, you can have you have to update the software sometimes. Some things go wrong in the same way that things go wrong with your computer or your smartphone or something. So, things can go off for sure. I do think rare is the 100% uptime device. But, more often than not, it's kind of the I have, you know, shades. They've been in my house for almost 10 years, you know? I would say that's one of the things we grapple with in recommending products is we've almost no company will tell you how long they expect the product to last. And so, if you're going to spend a couple hundred bucks on something, you want it to last for as long as possible. And, you know, like a smoke detector, they have to last 10 years. So, you know you're getting 10 years out of it. It's a good investment. But, some stuff where it's like, okay, is this going to disappear after two, three, four, five years? Like, how long are they going to provide updates to the software? How long are they going to support it in the cloud? So, that's that's a real issue, as well. Not just the maintenance of it, but
+>> the longevity
+>> the longevity of it. And again, that comes down to a company's reputation. You know, if they've been around for 10 years, it's very different than some company that is based in another country that may or may not be around in two, three, four, five years. So.
+>> [music]
+>> Okay, well, we have our classic last question I want to ask both of you. What is the last thing that you bought that you really loved? Claire, you go first and then John.
+>> Okay. The truthful answer for the last thing I bought would be the perfect strawberries I bought at the farmers market on Saturday. But, a more permanent answer would be the very cute little Egyptian cat earrings I bought at the British Museum
+>> a few weeks ago.
+>> Lovely.
+>> when I was little in London.
+>> That is a flex.
+>> It was [laughter] fun.
+>> That's awesome.
+>> [gasps]
+>> I was going to say an update. Last time I was here, however many months ago, I uh had purchased that Ryobi um power washer.
+>> And I'd said I was I was unhealthily excited to to use it. It's a great. It was a really
+>> the last What's the last thing you power washed?
+>> I mean, I did the siding
+>> What's the last thing you power washed that you really loved?
+>> [laughter]
+>> I uh yeah, I was doing like the second floor windows. The thing's like a fire hose. It's wonderful.
+>> All right.
+>> how to party.
+>> You really do.
+>> [laughter]
+>> I'm happy for you both. Thank you guys for coming. This is really really great.
+>> Yeah, great to be here.
+>> This was so fun. Thanks.
+>> Thanks. [music]
+>> If you want to find out more about Wirecutter's coverage or if you want to check out Claire and John's reporting on accessibility, smart home, aging in place, check out our website. You can find a link in [music] our show notes. That's it for us. Thanks for listening. The Wirecutter Show is executive [music] produced by me, Rosie Grayan, and produced by Abigail Kiehl. Engineering support from Matty Mazzielo and Nick Pittman. Today's episode was mixed [music] by Catherine Anderson. Original music by Dan Powell, Marian Lozano, Elisabet Etop, Rowan Nemişto, Catherine Anderson, [music] and Diane Wong. Cliff Leavy is Wirecutter's deputy publisher and general manager. Ben Fruman
+>> [music]
+>> is Wirecutter's editor-in-chief.
+>> I'm Christine Siracusa.
+>> And I'm Rosie Grayan. Thank you for listening.
+>> [music]
+>> Mine started chirping with a low battery at 2:00 a.m. one day recently. I was like, "What are you doing?" If yours starts going off at
+>> It was very
+>> over.
