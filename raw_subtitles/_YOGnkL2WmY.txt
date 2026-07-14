@@ -1,0 +1,794 @@
+[Speaker 0]: 就在最近啊这个全世界最出名的 AI 公司，
+[Speaker 0]: 也就是 open AI，
+[Speaker 0]: 干了一件呢让整个华尔街目瞪口呆的事情 open AI 主动提出啊把公司百分之五的股份呢送给美国政府。
+[Speaker 0]: 这笔股份值多少钱呢？
+[Speaker 0]: 大概是四百三十亿美金啊，
+[Speaker 0]: 换算成人民币呢是三千亿。
+[Speaker 0]: 官方的说法很好听啊，
+[Speaker 0]: 让全体美国人民分享 AI 的红利。
+[Speaker 0]: 但是市场上真正懂行的人第一反应就是四个字啊，
+[Speaker 0]: 这是求救。
+[Speaker 0]: 你想想啊，
+[Speaker 0]: 一家公司啊，
+[Speaker 0]: 如果发展的好端端的，
+[Speaker 0]: 凭什么白送政府几千亿的股份呢？
+[Speaker 0]: 历史像什么样的公司才会干这种事呢？
+[Speaker 0]: 快撑不住的公司更蹊跷的还在前头。
+[Speaker 0]: 就在这个消息发布之前啊，
+[Speaker 0]:  open en 呢悄悄的宣布啊原定的上市计划推迟到二零二七年。
+[Speaker 0]: 要知道这家公司上游了融资估值八千五百二十亿美金。
+[Speaker 0]: 什么概念呢？
+[Speaker 0]: 换算成人民币差不多是六万亿啊，
+[Speaker 0]: 比整个上海一年的 GDP 还要高，
+[Speaker 0]: 一家估值比上海 GDP 还要高的公司啊，
+[Speaker 0]: 一边推迟上市，
+[Speaker 0]: 一边把股份往政府手里塞。
+[Speaker 0]: 这两件事情放在一起啊，
+[Speaker 0]: 大家品一品。
+[Speaker 0]: 而且我要告诉大家啊，
+[Speaker 0]: 这一切呢早在半年前啊，
+[Speaker 0]: 就有一个人白纸黑字在 new york time 上直接预言过了。
+[Speaker 0]: 他当时说的话呢，
+[Speaker 0]: 现在听起来有点吓人啊，
+[Speaker 0]: 我打赌十八个月之内呢，
+[Speaker 0]: 欧文爱会把钱烧光。
+[Speaker 0]: 说这个话的人呢，
+[Speaker 0]: 他的名字啊叫做塞巴斯蒂安马拉，
+[Speaker 0]: 比这个人什么来头呢？
+[Speaker 0]: 两次普利策奖决选入围美国外交关系委员会的资深研究员。
+[Speaker 0]: 写过一本呢富可敌国，
+[Speaker 0]: 讲对冲基金呢还写过一本书，
+[Speaker 0]: 叫做风险投资史，
+[Speaker 0]: 在投资圈呢几乎人手一册。
+[Speaker 0]: 今年他又出了本新书啊，
+[Speaker 0]: 写的是谷歌 deep mind 的创始人哈萨比斯。
+[Speaker 0]: 这么说吧，
+[Speaker 0]: 这个研究 AI 行业的钱从哪里来往哪里去呢？
+[Speaker 0]: 这个星球啊没几个人比他更懂。
+[Speaker 0]: 今年一月啊，
+[Speaker 0]: 他在 new k time 上发了一篇专栏。
+[Speaker 0]: 当时读这篇文章的时候啊，
+[Speaker 0]: 你肯定会愣一下，
+[Speaker 0]: 因为满世界都在吹 AI 的时候呢，
+[Speaker 0]: 他的标题是啊，
+[Speaker 0]: 这就是为什么我确信 open i 会没有钱要注意啊，
+[Speaker 0]: 他不是唱衰 AI，
+[Speaker 0]: 他不是说 AI 技术不行。
+[Speaker 0]: 恰恰相反呢，
+[Speaker 0]: 他的文章上明明明白写着 AI 的前景是真的，
+[Speaker 0]: 技术进步的快的吓人。
+[Speaker 0]: 他说不行的，
+[Speaker 0]: 只只有一家公司。
+[Speaker 0]: 当时很多人都觉得哗哗众取 opopen，
+[Speaker 0]:  II 是什公公啊啊的 GPT 的发布者啊，
+[Speaker 0]: 就亿人在用融资拿钱拿到手软，
+[Speaker 0]: 这种公司会没有钱开什么玩笑啊。
+[Speaker 0]: 结果呢半年过去了，
+[Speaker 0]:  ipu 推迟了政府入股的方案。
+[Speaker 0]: 一出来呢，
+[Speaker 0]: 二级市场上它的股票交易价格啊远远低于八千五百二十亿的官方估值。
+[Speaker 0]: 马拉比寓言的红旗呢一面接一面的亮了起来啊，
+[Speaker 0]: 前两天呢他上了一堂财经播客，
+[Speaker 0]: 主持人披头就问你半年前的赌局现在还认吗？
+[Speaker 0]: 他的回答就两字啊，
+[Speaker 0]: 我认在马拉比看来呢，
+[Speaker 0]:  AI 技术绝对是真的。
+[Speaker 0]: 但是 open AI 这门生意可能是假的。
+[Speaker 0]: 这件事情呢必须得掰开来看市面上两派人吵的不可开交。
+[Speaker 0]: 一派说这个 AI 是世纪革命，
+[Speaker 0]: 另一派说呢 AI 是世纪泡沫马拉笔，
+[Speaker 0]: 说啊，
+[Speaker 0]: 你们全都问错问题了，
+[Speaker 0]: 技术这边呢进一步快到什么程度呢？
+[Speaker 0]: 拆 GPT 刚出来那会儿一本正经的胡说八道，
+[Speaker 0]: 对吧？
+[Speaker 0]: 就是荷鲁斯 nation 啊，
+[Speaker 0]: 半年之后拆 GPT 四上线，
+[Speaker 0]: 胡说八道少了八成。
+[Speaker 0]: 我当然觉得啊这个拆 GPT four o 啊是我在当时用我的让我眼前一亮的模型，
+[Speaker 0]: 然后呢就是超长的上下文啊，
+[Speaker 0]: 这个 one million token 啊，
+[Speaker 0]: 一整本的战争与和平扔进呢它都能消化，
+[Speaker 0]: 然后就是推理模型数学逻辑，
+[Speaker 0]: 以前想都不敢想。
+[Speaker 0]: 现在呢就是智能体啊是编程助手、
+[Speaker 0]: 网络安全，
+[Speaker 0]: 连 AI 科学家都冒出来了。
+[Speaker 0]: 这些进步就发生在这三年期间啊，
+[Speaker 0]: 可以说这个技术进步确实非常快。
+[Speaker 0]: 企业那边呢也不是没有人买单，
+[Speaker 0]: 去年七月 m 出了个研究啊，
+[Speaker 0]: 说企业砸了几百亿美金进去。
+[Speaker 0]: 二十个 AI 项目呢只有一个成功市场吓了一跳。
+[Speaker 0]: 结果十月份啊，
+[Speaker 0]: 沃顿商学院访谈了八百零一位美国企业高管得出来结论正好相反。
+[Speaker 0]: 四分之三的企业说啊，
+[Speaker 0]:  AI 投资呢是赚的马拉比说真相，
+[Speaker 0]: 哪怕在两者中间，
+[Speaker 0]: 这都是奇迹。
+[Speaker 0]: 历史上任何新技术啊，
+[Speaker 0]: 企业要用好它都得几十年时间，
+[Speaker 0]:  AI 才出来三年时间。
+[Speaker 0]: 那问题出在什么地方呢？
+[Speaker 0]: 处在一个特别朴素的地方，
+[Speaker 0]: 技术是真的不等于每一家做技术的公司都能活下来。
+[Speaker 0]: 当年互联网革命是赚的对吧？
+[Speaker 0]: 但是两千年那一批互联网公司啊，
+[Speaker 0]: 一大片铁路是真的，
+[Speaker 0]: 对吧？
+[Speaker 0]: 十九世纪美国修铁路的公司呢破产了，
+[Speaker 0]: 也是一大片技术的胜利和公司的存活是两回事。
+[Speaker 0]: 而 open 爱的账本呢就是下面这个样子，
+[Speaker 0]:  open i 还没有上市啊，
+[Speaker 0]: 账本呢照理说是看不见的，
+[Speaker 0]: 但是呢有一位叫做 SZ 创的独立记者啊，
+[Speaker 0]: 不知道从什么渠道搞到了他们的财务数据，
+[Speaker 0]: 这里先说清楚啊，
+[Speaker 0]: 这是爆料单一信源。
+[Speaker 0]:  open i 呢官方没有认，
+[Speaker 0]: 但市场普遍觉得 SZ 创找到这份材料呢，
+[Speaker 0]: 八九不离十数字是这样的啊，
+[Speaker 0]: 去年一年 open i 收入一百三十亿美金，
+[Speaker 0]: 支出三百四十亿，
+[Speaker 0]: 光运营这一块一年亏掉啊，
+[Speaker 0]: 一十亿美金换算成人民币是一千五百亿。
+[Speaker 0]: 啊，
+[Speaker 0]: 这什么概念呢？
+[Speaker 0]: 我给大家算笔账啊，
+[Speaker 0]: 摊到每一天一天亏掉四个多亿人民币。
+[Speaker 0]: 你晚上睡觉八个小时，
+[Speaker 0]: 这家公司呢烧掉一个多亿，
+[Speaker 0]: 这还只是开胃菜。
+[Speaker 0]: 马拉笔在月份写那篇状栏的时候啊，
+[Speaker 0]: 据当时披露出来的内部文件 oppen i 自己预测，
+[Speaker 0]: 未来五年总共要烧掉六千六百亿美金。
+[Speaker 0]: 更狠的在后面啊，
+[Speaker 0]:  open i 对外承诺的数据中心和基础设施投入加起来是多少呢？
+[Speaker 0]: 一点四万亿美金，
+[Speaker 0]: 一家年收入一百三万亿美金的公司啊，
+[Speaker 0]: 许下了一点四万亿美金的这个支票。
+[Speaker 0]: 这就是为什么最近半年时间呢 open 爱开始疯狂的砍项目，
+[Speaker 0]: 推出了一堆数据中心建设星际之门那些啊都砍掉了砍掉了视频生成的这个模型啊，
+[Speaker 0]:  sorry 啊，
+[Speaker 0]: 这个模型一砍啊，
+[Speaker 0]: 对于这个抖音的大 v 蔡子博士造成了毁灭性的影响，
+[Speaker 0]: 他的视频后来就不更新了。
+[Speaker 0]: 但是在 open 爱看来呢，
+[Speaker 0]: 这一个项目啊纯赔钱货啊，
+[Speaker 0]: 相当于他们在花钱养这个模型来支持菜子博斯的自媒体创作。
+[Speaker 0]: 想当年呢 open 爱还高调宣布过跟那些设计大师艾维合作，
+[Speaker 0]: 要做取代 iphone 的硬件。
+[Speaker 0]: 那也是账上一个著名的烧钱大户。
+[Speaker 0]: 烧了半天前也没看到什么项目出来止血，
+[Speaker 0]: 这是明显在止血。
+[Speaker 0]: 可问题是，
+[Speaker 0]: 止血止得住吗？
+[Speaker 0]: 收入端呢？
+[Speaker 0]: 九亿用户在手啊，
+[Speaker 0]: 为什么就收不上来钱呢？
+[Speaker 0]: 这才是整个故事中最要命的一环。
+[Speaker 0]: 你想想任何一个 APP 有九亿人在用啊，
+[Speaker 0]: 你怎么想都能找到办法赚钱啊。
+[Speaker 0]: 你这放在任何互联网公司身上，
+[Speaker 0]: 都是躺着赚钱的命。
+[Speaker 0]: 可是 open 爱收不上来钱，
+[Speaker 0]: 掏钱订阅的用户呢大概只有百分之五啊，
+[Speaker 0]: 我呢就是百分之五之一啊，
+[Speaker 0]: 而且呢我买的是 open i 最贵的那个 t 为什么呢？
+[Speaker 0]: 马拉笔猜了两个原因啊，
+[Speaker 0]: 一层比一层扎心。
+[Speaker 0]: 首先第一层看用户是谁，
+[Speaker 0]: 大家猜一下啊，
+[Speaker 0]: 拆 GPT 最大市场是哪一国呢？
+[Speaker 0]: 不是美国啊，
+[Speaker 0]: 这里先给大家讲清楚，
+[Speaker 0]: 美国只排第二，
+[Speaker 0]: 第一名呢是印度啊，
+[Speaker 0]: 三四五名呢巴西、
+[Speaker 0]: 印度尼西亚这些主要是拆 GPT 啊，
+[Speaker 0]: 对中国用户现在不开放了。
+[Speaker 0]: 如果要是对中国用户开放，
+[Speaker 0]: 我觉得啊第一名有可能干成中国。
+[Speaker 0]: 这用户什么消费能力呢？
+[Speaker 0]: 让印度和巴西普通人啊每个月掏二十美金，
+[Speaker 0]: 定个 AI 会员啊，
+[Speaker 0]: 等于让他们拿出工资的一大块，
+[Speaker 0]: 不现实吗？
+[Speaker 0]: 第二层更狠，
+[Speaker 0]: 就算是有钱的用户，
+[Speaker 0]: 凭什么付费呢？
+[Speaker 0]: 市面上免费的好模型，
+[Speaker 0]: 一抓大把谷歌的 gm man 免费，
+[Speaker 0]: 其他家也免费。
+[Speaker 0]: 你拆 GT 敢加个付费墙啊，
+[Speaker 0]: 敢抬这些恼人的广告用户扭头就走零成本。
+[Speaker 0]: 这东西呢在经济上有个词啊，
+[Speaker 0]: 叫做大宗商品啊，
+[Speaker 0]:  commodize 啊，
+[Speaker 0]: 就是说啊这个大语言模型就像大米、
+[Speaker 0]: 白糖这些啊，
+[Speaker 0]: 你家的和别家的没什么太大区别，
+[Speaker 0]: 谁便宜用谁的啊？
+[Speaker 0]: 确实是这样，
+[Speaker 0]: 就是在这个同一个技术水平的这个 level 上啊，
+[Speaker 0]: 这家模型不好用。
+[Speaker 0]: 那我马上换一家，
+[Speaker 0]: 其实没有什么 switch cut 啊，
+[Speaker 0]: 就是切换成本。
+[Speaker 0]: 马拉比在一月的这个专业里头其实留了个活口。
+[Speaker 0]: 他说这种留不住人啊，
+[Speaker 0]: 可能只是暂时是的，
+[Speaker 0]: 将来某一天呢 AI 会记住你几年来聊过的每一句话，
+[Speaker 0]: 懂你的购物习惯，
+[Speaker 0]: 你情绪绪肋。
+[Speaker 0]: 到那时候呢，
+[Speaker 0]: 换一个 AI，
+[Speaker 0]: 就像离场婚一样做得到，
+[Speaker 0]: 但是很难受到那一天呢，
+[Speaker 0]:  AI 想怎么赚就怎么赚。
+[Speaker 0]: 可是问题是啊，
+[Speaker 0]: 那天什么时候来呢？
+[Speaker 0]: 没有人知道，
+[Speaker 0]: 可能三年可能是十年，
+[Speaker 0]: 而 open AI 的账上啊，
+[Speaker 0]: 一天亏四个亿。
+[Speaker 0]: 啊，
+[Speaker 0]: 这就是这家公司真正的死亡竞赛，
+[Speaker 0]: 不是技术竞赛，
+[Speaker 0]: 而是时间竞赛。
+[Speaker 0]: 啊，
+[Speaker 0]: 在钱烧光之前呢，
+[Speaker 0]: 得等到那个收钱的黎明，
+[Speaker 0]: 他撑得到吗？
+[Speaker 0]: 看融资呗，
+[Speaker 0]: 说融资呢山姆奥特曼，
+[Speaker 0]: 这可是号称科技史上最强推校园的男人。
+[Speaker 0]: 他的融资数啊才这个故事里头最精彩的部分。
+[Speaker 0]: 首先先说赛姆奥特曼的战绩啊啊实吓吓去年三三份啊，
+[Speaker 0]: 他一口气融了四百亿美金。
+[Speaker 0]: 什么概念？
+[Speaker 0]: 人类商业史上最大的一笔私募融资排第二的是谁呢？
+[Speaker 0]: 二零一八年的蚂蚁集团一百四十亿，
+[Speaker 0]: 连他一半都不到。
+[Speaker 0]: 更夸张的是啊，
+[Speaker 0]: 这个数字连全球最大的 IPO 都比下去啊，
+[Speaker 0]: 沙特阿美二零一九年上市才募了不到三百亿啊，
+[Speaker 0]: 但你得注意一个区别，
+[Speaker 0]: 蚂蚁金服是赚钱的，
+[Speaker 0]: 沙特阿美也是巨赚的。
+[Speaker 0]:  open a 呢一一亏亏四个亿啊，
+[Speaker 0]: 一个亏成这样的公司凭什么能够融到史上最多的钱？
+[Speaker 0]: 马拉比给出的解释非常毒辣，
+[Speaker 0]: 赛姆奥特曼把这个规模法则讲了半截模型会越来越强。
+[Speaker 0]: 这半年呢他天天讲模型也会越来越烧钱啊，
+[Speaker 0]: 指数级的时候，
+[Speaker 0]: 这半截呢他轻轻带过，
+[Speaker 0]: 就没怎么讲。
+[Speaker 0]: 融资越多多，
+[Speaker 0]: 一轮越大名名越大呢，
+[Speaker 0]: 钱来的更容易一台完美的永动机。
+[Speaker 0]: 直到今年呢这台永动机路线了，
+[Speaker 0]:  oppo a 今年就宣布了一轮融资标题数字啊，
+[Speaker 0]: 一千二百二十亿美金听着挺唬人，
+[Speaker 0]: 对吧？
+[Speaker 0]: 马拉比说他专门扒了下细节啊，
+[Speaker 0]: 扒完之后直接摇头，
+[Speaker 0]: 这一千一百二十亿呢差不多三分之二都是空头支票，
+[Speaker 0]: 要么是等你 IPO 成功了。
+[Speaker 0]: 我再给的条件承诺，
+[Speaker 0]: 要么是干脆不是钱，
+[Speaker 0]: 是算力抵账，
+[Speaker 0]: 相当于啊是供应商拿货来抵这个投资了啊，
+[Speaker 0]: 真金白银只占了一小部分。
+[Speaker 0]: 那为什么要吹这么大一个树呢？
+[Speaker 0]: 马拉比的原话很不客气啊，
+[Speaker 0]: 这是在做局，
+[Speaker 0]: 用一个虚胖的数字告诉市场。
+[Speaker 0]: 我们说的很猛，
+[Speaker 0]: 好骗下一波人进来。
+[Speaker 0]: 可他没有料到呢接下来发生事情啊，
+[Speaker 0]: 把整个局都给戳穿了。
+[Speaker 0]: 嗯，
+[Speaker 0]: 推迟 IPO 这件事情呢，
+[Speaker 0]: 我们开头也提到过，
+[Speaker 0]: 现在你可以品出它的分量了。
+[Speaker 0]:  open 爱的处境是一个死结，
+[Speaker 0]: 不上市啊，
+[Speaker 0]: 私募市场根本喂不到到他的胃口了。
+[Speaker 0]: 一年几百亿种烧法，
+[Speaker 0]: 全世界的风投加起来都不够他烧几年。
+[Speaker 0]: 所以呢他必须得上市。
+[Speaker 0]: 可上市意味着什么？
+[Speaker 0]: 意味着你得提交胶股书啊，
+[Speaker 0]: 意味着经过审计的财务报表得摊开。
+[Speaker 0]: 在全华尔街面前，
+[Speaker 0]: 博客主持人呢问问马马拉比一个扎心的问题，
+[Speaker 0]: 推迟 IPU，
+[Speaker 0]: 是不是就是因为不不让人人账本呢？
+[Speaker 0]: 马拉比的回答斩钉截铁百分之百，
+[Speaker 0]: 然后后提提另一个名字啊，
+[Speaker 0]: 也意味让所有投投资和后背发凉的名字。
+[Speaker 0]:  we work 二零一九年呢共享办公的 we work 啊四百七十亿美的估值硅谷当红炸子鸡啊，
+[Speaker 0]: 风风光光，
+[Speaker 0]: 提交了招股书准备上市。
+[Speaker 0]: 结果华尔街打开一看，
+[Speaker 0]: 好家伙，
+[Speaker 0]: 这个商业模式就是个笑话，
+[Speaker 0]: 没有人买 IPU 呢，
+[Speaker 0]: 当场流场估值血崩啊，
+[Speaker 0]: 创始人扫地出门啊。
+[Speaker 0]: 当然了这个创始人拿了一个非常丰厚的 package 啊，
+[Speaker 0]: 赚了很多钱啊，
+[Speaker 0]: 而且呢他其实在整个这个 we work 的投资过程中啊，
+[Speaker 0]: 是全身而退的，
+[Speaker 0]: 给他接盘的这个接盘侠。
+[Speaker 0]: 孙正义啊真的是亏了一大笔。
+[Speaker 0]:  we work。
+[Speaker 0]: 从提交材料到崩盘啊，
+[Speaker 0]: 前后就几个星期。
+[Speaker 0]: 所以你看 open i 现在的处境啊，
+[Speaker 0]: 不上市呢就是慢性失血上市啊可能当场暴毙。
+[Speaker 0]: 他把 IPO 呢推到二零二七年，
+[Speaker 0]: 说白了就是在赌赌这两年之内啊，
+[Speaker 0]: 能把这个账本修的能够见人。
+[Speaker 0]: 可问题是啊，
+[Speaker 0]: 这账本怎么修啊，
+[Speaker 0]: 收入得涨，
+[Speaker 0]: 收入怎么涨呢？
+[Speaker 0]: 坏消息来了，
+[Speaker 0]: 他两个对手正好一个堵死了，
+[Speaker 0]: 他左边一个堵死他他的右边这得得说句题外话，
+[Speaker 0]: 当年 we work 后面的最大接盘侠是孙正义，
+[Speaker 0]: 现在这个 open AI 啊，
+[Speaker 0]: 赛 m 奥特曼搞的那个什么星际之门搭上的是谁呢？
+[Speaker 0]: 也是孙正义啊，
+[Speaker 0]: 我们先看企业市场真的愿意掏大钱的这些客户啊，
+[Speaker 0]: 是企业公司，
+[Speaker 0]: 他们啊愿意掏钱去买这个前沿的模型。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 做这些前沿的研究，
+[Speaker 0]: 这边边占的是 anthropic 马拉比的评价。
+[Speaker 0]: 就是啊在企业最舍得花钱的那几样上什么编程助手啊、
+[Speaker 0]: 网络安全啊、
+[Speaker 0]: 网络智能体啊，
+[Speaker 0]:  anthropic 刀尖 open i 不差，
+[Speaker 0]: 但是呢就是慢半拍啊。
+[Speaker 0]: 但不得不说啊，
+[Speaker 0]:  open i 现在推出的这个 codex 啊也是非常好用的，
+[Speaker 0]: 而且呢量给的特别足啊。
+[Speaker 0]: 大家趁 open，
+[Speaker 0]:  i 现在还这么大方，
+[Speaker 0]: 赶紧好好用啊。
+[Speaker 0]: 我可担心啊，
+[Speaker 0]: 他们财务压力变大了之后啊，
+[Speaker 0]: 这种好日子就结束了。
+[Speaker 0]: 而且呢在马拉比看来啊，
+[Speaker 0]: 这两家公司气质完全是两个物种 open。
+[Speaker 0]:  i 这几年呢宣布过啊，
+[Speaker 0]: 要做购物，
+[Speaker 0]: 没有下文了，
+[Speaker 0]: 宣布过要做广告，
+[Speaker 0]: 也没有起色。
+[Speaker 0]: 做了一个 sara 的这个视频模型啊，
+[Speaker 0]: 让这个蔡子博士薅了半天羊毛啊，
+[Speaker 0]: 纯烧钱呢今年就砍了，
+[Speaker 0]: 到处开枪弹，
+[Speaker 0]: 淡落空。
+[Speaker 0]: 那 sarpic 呢从头到尾就咬死企业市场这一条道马拉比还提出个细节啊，
+[Speaker 0]: 我觉得特别说明问题。
+[Speaker 0]: 在所有前沿实验室里头呢，
+[Speaker 0]: 让 sarpic 的科学家流失率最低。
+[Speaker 0]: 别的家的人才啊挑来挑去他家的人呢，
+[Speaker 0]: 进去就不走任那个使命。
+[Speaker 0]: 任马里奥这个老板做企业生意啊，
+[Speaker 0]: 拼的就是稳定支付人心散的团队呢接不住大合同。
+[Speaker 0]: 啊。
+[Speaker 0]: 当然了，
+[Speaker 0]: 我觉得欧 en 亚之前啊发生过这个政变啊，
+[Speaker 0]: 很多的优秀的技术人员离职了。
+[Speaker 0]: 比如说之前的那个苏字科维，
+[Speaker 0]: 对吧？
+[Speaker 0]: 再看左边消费市场，
+[Speaker 0]: 欧盟亚的老巢啊，
+[Speaker 0]: 九亿用户的基本盘。
+[Speaker 0]: 这边呢占着谷歌的 jm 男南现在触达了普通消费者啊，
+[Speaker 0]: 比拆 gg PT 还多，
+[Speaker 0]: 而且呢人家赚钱根本不靠订阅啊，
+[Speaker 0]: 谷歌把 AI 直接塞进了搜索广告，
+[Speaker 0]: 这台老印钞巨头。
+[Speaker 0]: 结果呢谷歌的广告收入啊降反升，
+[Speaker 0]: 创了历史新高。
+[Speaker 0]: 同样是发 AI，
+[Speaker 0]: 谷歌越发越赚，
+[Speaker 0]:  open 爱呢，
+[Speaker 0]: 越发越亏。
+[Speaker 0]: 企业端啊打不过刀尖，
+[Speaker 0]: 消费端呢耗不过印钞机，
+[Speaker 0]: 腹背受敌，
+[Speaker 0]: 账上还有一天四个亿在漏血照理说啊，
+[Speaker 0]: 这时候应该干嘛呢？
+[Speaker 0]: 认怂啊，
+[Speaker 0]: 降估值、
+[Speaker 0]: 打折融资先活下来再说啊。
+[Speaker 0]: 可是 open i 呢偏偏不能降这来整个死局中最最精妙最讽讽刺的一投资资圈呢有句行叫叫做血融融资，
+[Speaker 0]: 也就是 downrun。
+[Speaker 0]: 什么意思呢？
+[Speaker 0]: 就是新一轮的融资的估值啊，
+[Speaker 0]: 比上一轮低，
+[Speaker 0]: 听着好像也没什么，
+[Speaker 0]: 对吧？
+[Speaker 0]: 流价促销嘛，
+[Speaker 0]: 马拉比说啊对于估值冲上天的公司呢，
+[Speaker 0]: 流血融资不是促销，
+[Speaker 0]: 是血崩的。
+[Speaker 0]: 第一块石头。
+[Speaker 0]: 我先给大家推演一下 open 爱的处境啊。
+[Speaker 0]: 官方估值八千五百二十亿，
+[Speaker 0]: 可是二级市场呢，
+[Speaker 0]: 老股东私下转让的股份，
+[Speaker 0]: 实际成交价远低于这个数市场。
+[Speaker 0]: 已经用真金白银投过票了。
+[Speaker 0]: 那 open 爱能不能大大方方承认啊。
+[Speaker 0]: 行，
+[Speaker 0]: 我们就值六千亿。
+[Speaker 0]: 不能，
+[Speaker 0]: 你像这这承认会发生什么呢？
+[Speaker 0]: 首先啊第第一波员工会跑路，
+[Speaker 0]:  open 爱员员工的报酬呢大都都期期权啊，
+[Speaker 0]: 估值一看之后账财富会大缩水。
+[Speaker 0]: 顶尖科科学家什么行情啊？
+[Speaker 0]: 隔壁实验室排队开什票，
+[Speaker 0]: 行人才一走啊，
+[Speaker 0]: 技术优势也就跟着走了。
+[Speaker 0]: 第二波呢投资人翻脸，
+[Speaker 0]: 按照八千五百二十亿进场，
+[Speaker 0]: 凭什么接受这个资产缩水呢？
+[Speaker 0]: 信任一列啊，
+[Speaker 0]: 下一轮更没有人来了。
+[Speaker 0]: 第三波啊最致命。
+[Speaker 0]: 还记得奥特曼那台永动机嘛，
+[Speaker 0]: 钱生明名生钱全靠的是势头。
+[Speaker 0]: 这两个字势头这个东西啊涨的时候，
+[Speaker 0]: 燃料跌的时候呢是炸药。
+[Speaker 0]: 所以啊八千五百二十亿这个数字已经不是 open 爱的身价了。
+[Speaker 0]: 它是一根悬在半空的钢丝，
+[Speaker 0]: 往前走，
+[Speaker 0]: 走不动往下爬呢，
+[Speaker 0]: 爬不得站着不动，
+[Speaker 0]: 脚下还着着火。
+[Speaker 0]: 奥特曼看这盘死棋呢，
+[Speaker 0]: 琢磨出了一步，
+[Speaker 0]: 谁都没有想到的棋，
+[Speaker 0]: 棋盘上解不开的局呢，
+[Speaker 0]: 那咱们就掀桌子，
+[Speaker 0]: 找个棋盘外的人来搭救啊，
+[Speaker 0]: 这个人呢就住在宾夕法尼亚大道，
+[Speaker 0]: 一千六百号。
+[Speaker 0]: 你要看懂啊，
+[Speaker 0]: 现在奥特曼在打什么算盘？
+[Speaker 0]: 你现在看一个样本，
+[Speaker 0]: 英特尔去年八月美国政府入股英特尔拿了百分之十，
+[Speaker 0]: 然后呢，
+[Speaker 0]: 神奇的事情就发生了。
+[Speaker 0]: 到现在呢，
+[Speaker 0]: 英特尔股价涨了差不多百分之四百。
+[Speaker 0]: 同期费城半导体指数啊，
+[Speaker 0]: 衡量整个芯片行业的大盘才涨了百分之一百五。
+[Speaker 0]: 英特尔为什么突然脱胎换骨了？
+[Speaker 0]: 是技术突飞猛进了，
+[Speaker 0]: 不可能啊，
+[Speaker 0]: 这么短时间马拉皮把窗户这个捅破了。
+[Speaker 0]: 政府入股之后呢，
+[Speaker 0]: 商务部长卢特尼克干了什么呢？
+[Speaker 0]: 挨个打电话给硅谷的科技公司，
+[Speaker 0]: 一个一个打你们下个项目呢得带上英特尔一起做，
+[Speaker 0]: 懂了吧？
+[Speaker 0]: 政府入股啊，
+[Speaker 0]: 买的不是股票，
+[Speaker 0]: 买的是一台点石成金的机器，
+[Speaker 0]: 国家队亲自下场给你，
+[Speaker 0]: 拉客户，
+[Speaker 0]: 你想不涨都难啊，
+[Speaker 0]: 这可不是孤立啊。
+[Speaker 0]: 外交关系委员会做过正式统计，
+[Speaker 0]: 二零二五年一月以来啊，
+[Speaker 0]: 美国政府已经入股或者宣布入股了三十家私营公司三十家啊。
+[Speaker 0]: 现在呢你把这两幅画面放在一起看教科书里的美式资本主义啊，
+[Speaker 0]: 公平的竞技场，
+[Speaker 0]: 优胜劣汰，
+[Speaker 0]: 效率至上。
+[Speaker 0]: 政府呢是裁判只吹哨不下场，
+[Speaker 0]: 美国人念了两百年的经啊，
+[Speaker 0]: 但是呢现在是二零二六年的现实啊，
+[Speaker 0]: 裁判亲自下场踢球了，
+[Speaker 0]: 还专门跳了一支队伍传球啊，
+[Speaker 0]: 这个财报可是假的是都可以吹的，
+[Speaker 0]: 只要白宫在你背后呢，
+[Speaker 0]: 股价照样一飞冲天。
+[Speaker 0]: 马拉笔对这套玩法的形容呢，
+[Speaker 0]: 一针见血，
+[Speaker 0]: 这在绕开资本主义抄劲道，
+[Speaker 0]: 市场解不开的题呢就去华盛顿找答案。
+[Speaker 0]: 融资融不动了，
+[Speaker 0]: 就去白宫里头抱大腿。
+[Speaker 0]: 所以现在你应该能够看懂了赛姆奥特曼这一步棋的全部算计了。
+[Speaker 0]: 送政府百分之五四百三十亿美金。
+[Speaker 0]: 表面上分享 AI 红利，
+[Speaker 0]: 实际上呢买的是这几个字啊，
+[Speaker 0]: 大而不能倒马拉比。
+[Speaker 0]: 把这个逻辑扒的明明白白的政府，
+[Speaker 0]: 一旦持股呢 open 爱就成了国有资产资产。
+[Speaker 0]: 要是崩了，
+[Speaker 0]: 政府脸上挂不住啊，
+[Speaker 0]: 所以接下来会发生什么呢？
+[Speaker 0]: 照抄英特尔的剧本呗，
+[Speaker 0]: 商务部长的电话打遍硅谷客户送上门，
+[Speaker 0]: 合同送上门，
+[Speaker 0]: 融资融不动没关系啊。
+[Speaker 0]: 你背后站的是一位啊不能拒绝的投资银行家美国政府。
+[Speaker 0]: 而且呢这不是瞎猜啊，
+[Speaker 0]: 预测市场赌这个美国政府入股 open 爱的赔率已经超过了三分之一了。
+[Speaker 0]: 真金白银押注的人啊都看懂了这出戏。
+[Speaker 0]: 主持人说呢，
+[Speaker 0]: 如果你在自由市场上玩不下去了，
+[Speaker 0]: 就跑去华盛顿亲吻总统的脚，
+[Speaker 0]: 求他救你，
+[Speaker 0]: 这算什么呢？
+[Speaker 0]: 这算作弊在资本主义这场游戏里头作弊，
+[Speaker 0]: 那有没有正当理由呢？
+[Speaker 0]: 马拉比做了对照啊，
+[Speaker 0]: 他说英特尔那次呢勉强还能讲一个国家安全的故事。
+[Speaker 0]: 全球最尖端的芯片都在台湾造，
+[Speaker 0]: 美国呢怕断供得扶持本土制造，
+[Speaker 0]: 逻辑上呢讲得通可 open AI 呢，
+[Speaker 0]: 美国的前沿大模型公司一抓一大把，
+[Speaker 0]: 缺了 open AI 天也塌不下来。
+[Speaker 0]: 结果他呢没有任何战略理由啊，
+[Speaker 0]: 确实如此。
+[Speaker 0]: 还有 s ropic，
+[Speaker 0]: 还有这个 germany，
+[Speaker 0]: 还有其他的公司，
+[Speaker 0]: 还有 meta 最近也推出了一个新的模型，
+[Speaker 0]: 主任不死心啊，
+[Speaker 0]: 又退远了一步，
+[Speaker 0]: 会不会有人拿股市说事呢？
+[Speaker 0]: 微软、
+[Speaker 0]: 甲骨文、
+[Speaker 0]: 亚马逊这些巨头的未来营收啊全压在 AI 上 open。
+[Speaker 0]:  i 一倒的话，
+[Speaker 0]: 这个股市也跟着他，
+[Speaker 0]: 富人的财富跟着蒸发，
+[Speaker 0]: 为了护盘也得救吧。
+[Speaker 0]: 马拉比听完之后说啊，
+[Speaker 0]: 政府下场拖股市，
+[Speaker 0]: 恰恰是美国人几十年来一直批评的做法，
+[Speaker 0]: 连美联储的政策稍微有点护盘的意思呢，
+[Speaker 0]: 市场都要骂央行兜底制造泡沫。
+[Speaker 0]: 啊，
+[Speaker 0]: 事实上呢美联储过去这么多年啊，
+[Speaker 0]: 其实一直在干这个事情啊，
+[Speaker 0]: 大家不了解的可以去看一下我做的那个美联储系列。
+[Speaker 0]: 现在倒好，
+[Speaker 0]: 一帮华盛顿的政客直接下场挑选赢家，
+[Speaker 0]: 这还叫什么自由市场呢？
+[Speaker 0]: 紧接着马拉比讲了一下他在中国看到的事情，
+[Speaker 0]: 他今年干了一件事情，
+[Speaker 0]: 飞到中国呢跑了八天，
+[Speaker 0]: 杭州、
+[Speaker 0]: 深圳、
+[Speaker 0]: 上海、
+[Speaker 0]: 北京四个城市，
+[Speaker 0]: 建了一圈 AI 的科学家。
+[Speaker 0]: 回来之后，
+[Speaker 0]: 他在纽约时报发了一篇文章，
+[Speaker 0]: 标题十分直白啊，
+[Speaker 0]: 我去中国看了一下，
+[Speaker 0]: 他们的 AI 进展，
+[Speaker 0]: 我们赢不了他。
+[Speaker 0]: 中国看到了什么呢？
+[Speaker 0]: 我给大家挑两个他讲的细节啊。
+[Speaker 0]: 第一个呢是华为京沪高铁，
+[Speaker 0]: 每晚收车之后呢，
+[Speaker 0]: 以前是人工机械师钻到车底下修剪，
+[Speaker 0]: 现在呢 AI 摄像头加上几台机器人自动搞定，
+[Speaker 0]: 这不是 PPT 啊，
+[Speaker 0]: 这已经是跑起来的东西。
+[Speaker 0]: 第二更有意思啊，
+[Speaker 0]: 有一家做视觉的公司给他做演示摄像头，
+[Speaker 0]: 对着一条河流一扫，
+[Speaker 0]: 水里的污染指数直接出来了。
+[Speaker 0]: 因为污染能够测量了中国的城市之间呢，
+[Speaker 0]: 搞了一个真实的市场，
+[Speaker 0]: 下游城市付钱给上游城市买减排技术，
+[Speaker 0]: 直接涨出了生意。
+[Speaker 0]: 马拉比的感叹是啊，
+[Speaker 0]: 美国对于中国的芯片禁运搞了这么多年没拦住数字，
+[Speaker 0]: 更说明问题。
+[Speaker 0]: 有个叫做 open rot 的平台，
+[Speaker 0]: 相当于是全球开发者调用 AI 模型的晴雨表。
+[Speaker 0]: 中国模型的流量份额呢从二零二五年不到三分之一，
+[Speaker 0]: 飙到了今年年终百分之六十用的都是谁啊？
+[Speaker 0]:  curser ir、
+[Speaker 0]:  ir an BB、
+[Speaker 0]:  shoptify、
+[Speaker 0]: 优步，
+[Speaker 0]: 连微软都在测试 deep sick，
+[Speaker 0]: 为什么呀？
+[Speaker 0]: 因为便宜啊，
+[Speaker 0]: 性能逼近价格骨折，
+[Speaker 0]: 开发者呢用脚投票。
+[Speaker 0]: 当然真也在这里啊，
+[Speaker 0]: 美方一直指责中国的模型呢是靠蒸馏起家的，
+[Speaker 0]: 就是用海量的问题啊去问美国最前沿的模型。
+[Speaker 0]: 然后呢把答案给攒下来，
+[Speaker 0]: 当成训练数据，
+[Speaker 0]: 相当于抄近道，
+[Speaker 0]: 这呢违反了用户协议。
+[Speaker 0]: 但是不违法。
+[Speaker 0]: 马拉比倒是提了一嘴啊，
+[Speaker 0]: 别说中国人啊一朗骂死了，
+[Speaker 0]: 自己都承认过，
+[Speaker 0]:  SAI 呢也蒸馏过美国同行啊，
+[Speaker 0]: 大家都搞蒸馏，
+[Speaker 0]: 谁也别说谁灰色地带谁都不干净啊。
+[Speaker 0]: 可是就在美国这些公司啊啊纠结怎么防蒸馏的时候呢，
+[Speaker 0]: 真正让华真正睡不着的事情发生了一个模型的出现，
+[Speaker 0]: 让整个美国政府啊一夜变脸。
+[Speaker 0]: 我们先看一下变脸之前的美国政府什么样啊，
+[Speaker 0]: 态度非常鲜明，
+[Speaker 0]:  AI 监管啊，
+[Speaker 0]: 不搞啊，
+[Speaker 0]: 别人拦创创新子子。
+[Speaker 0]: 飞特特普政府呢呢至专门发过行政令令，
+[Speaker 0]: 禁止各州自行监管。
+[Speaker 0]:  AI 硅谷谷自自白白宫给给后呢，
+[Speaker 0]: 今年四月月 sropic 发了一个新的模型，
+[Speaker 0]: 叫做 missles。
+[Speaker 0]: 根据马拉比在波克里的说法，
+[Speaker 0]: 这个模型的网络安全能力强到什么程度呢？
+[Speaker 0]: 理论上，
+[Speaker 0]: 它可以扫出互联网，
+[Speaker 0]: 每一个联网实体的代码漏洞，
+[Speaker 0]: 银行、
+[Speaker 0]: 电网交易所、
+[Speaker 0]: 全球金融系统在他面前啊形同裸奔。
+[Speaker 0]: 华盛顿的反应速度前所未见。
+[Speaker 0]: 几个月内啊，
+[Speaker 0]: 特朗普签了新的新政令签约模型呢发布之前得交给政府检查，
+[Speaker 0]: 纸面上写的是自愿合作，
+[Speaker 0]: 实际执行呢马拉比讲了个内幕啊，
+[Speaker 0]: 商务部直接打电话给奥特曼，
+[Speaker 0]: 命他你的最新模型卖给任意一家客户，
+[Speaker 0]: 之前呢都得先经过政府审批，
+[Speaker 0]: 一个客户一道审批，
+[Speaker 0]: 你评品这个画面啊，
+[Speaker 0]: 半年前呢还说绝不监管的政府现在管了每一张订单，
+[Speaker 0]: 号称最讨厌政府插手的硅谷呢，
+[Speaker 0]: 嘴上的怨气已经冒出来了，
+[Speaker 0]: 可是脚上呢一步都没敢动啊，
+[Speaker 0]: 为什么不敢动啊？
+[Speaker 0]: 马拉比说透了，
+[Speaker 0]: 因为政府手里头握一样，
+[Speaker 0]: 科技公司永远没有的东西，
+[Speaker 0]: 强制力的垄断。
+[Speaker 0]: 他举个例子啊，
+[Speaker 0]: 之前有个 AI 公司领导人跟政府说啊，
+[Speaker 0]: 希望别拿这些工具搞大规模监控，
+[Speaker 0]: 政府怎么回答少废话，
+[Speaker 0]: 不然把你定性成供应链风险谁赢了？
+[Speaker 0]: 当然是政府赢了，
+[Speaker 0]: 商业巨头和政权扳手腕，
+[Speaker 0]: 最后赢的永远是握着枪杆子的这边。
+[Speaker 0]: 那么看到这里你肯定会有一个问题啊，
+[Speaker 0]: 如果马拉比赌对了，
+[Speaker 0]:  open，
+[Speaker 0]:  i 真的没钱了。
+[Speaker 0]: 那一天呢到底会发生什么？
+[Speaker 0]: 这里现在澄清一下，
+[Speaker 0]: 马拉比没有说 open，
+[Speaker 0]:  i 必死，
+[Speaker 0]: 他说的是五五开，
+[Speaker 0]: 百分之五十的概率啊。
+[Speaker 0]: 到了明年夏天，
+[Speaker 0]: 这家公司发现自己戏上不了市，
+[Speaker 0]: 也轮不到钱，
+[Speaker 0]: 只能打折把自己卖掉。
+[Speaker 0]: 这他个人判断并不是板上钉钉的事实啊，
+[Speaker 0]: 但是他把剧本都写好了，
+[Speaker 0]: 剧本一呢整体收购微软或者亚马逊出手，
+[Speaker 0]: 把 open AI 整体吞下，
+[Speaker 0]: 技术团队是真值钱的，
+[Speaker 0]: 没有人否认这一点。
+[Speaker 0]: 剧本二呢连人带队打包收编，
+[Speaker 0]: 这在硅谷呢有现成的先例啊，
+[Speaker 0]:  inflation 的团队被微软给打包吸走了，
+[Speaker 0]:  carrot AI 被谷歌给收回去了，
+[Speaker 0]: 壳呢还留在外面，
+[Speaker 0]: 但是人啊进了大厂。
+[Speaker 0]: 剧本三，
+[Speaker 0]: 散伙顶尖科学家呢被各个实验室一个一个挖走公司名存实亡。
+[Speaker 0]: 不管是哪个剧本啊，
+[Speaker 0]: 有一群人是注定要挨刀的按照八千五百二十亿估值冲进去的投资人，
+[Speaker 0]: 得眼睁睁看着资产打骨折。
+[Speaker 0]: 签了天价算力合同的芯片厂，
+[Speaker 0]: 数据中心得连夜找新客户。
+[Speaker 0]: 还有社交媒体上的恐慌可能会带奔整个 AI 板块。
+[Speaker 0]: 但是马拉比反复强调一件事情啊，
+[Speaker 0]: 这是 open AI 的泡沫，
+[Speaker 0]: 并不是 AI 的泡沫。
+[Speaker 0]: 他的逻辑是啊对于 AI 的需求，
+[Speaker 0]: 对于人的需求，
+[Speaker 0]: 对人才的需求一样都不会消失。
+[Speaker 0]: 行业只是在洗牌。
+[Speaker 0]: 所以你看这半年啊，
+[Speaker 0]:  mata 转头把自建的算力拿出来卖了。
+[Speaker 0]: 马斯克的 space x 也把富余算力卖给了同行。
+[Speaker 0]: 五六家混战的市场正在收缩成啊三四家巨头的格局。
+[Speaker 0]: 跟当年云计算走的路啊一模一样，
+[Speaker 0]: 碰不破掉的候呢，
+[Speaker 0]: 死的是公司划来的是技术。
+[Speaker 0]: 当然了，
+[Speaker 0]: 到这里呢，
+[Speaker 0]: 我得说一下我的看法，
+[Speaker 0]: 我认为啊这这 open en 上市市的率率还是很大的。
+[Speaker 0]: 因为现在这个资本市场对于这个 AI 故事呢还是非常追捧的。
+[Speaker 0]: 我觉得 uber 和 an sarapy 这两家巨头啊，
+[Speaker 0]: 就算还在烧钱市场，
+[Speaker 0]: 也能够容得下。
+[Speaker 0]: 你看当年做打车软件，
+[Speaker 0]: 对吧？
+[Speaker 0]:  uber 和 lift 也亏了，
+[Speaker 0]: 好多年前啊最后也都上市了，
+[Speaker 0]: 人 uber 也找到办法来盈利了。
+[Speaker 0]: 我觉得你只要有这样一个庞大的用户群啊，
+[Speaker 0]: 总有一天呢你会找到一个合理的变现的方式的马拉笔呢啊专门研究 AI 圈的人物，
+[Speaker 0]: 研究了好几年，
+[Speaker 0]: 还专门给啊哈萨比斯写了本传记。
+[Speaker 0]: 他把这场竞赛的几个主角呢分成了两类人，
+[Speaker 0]: 第一类就是赛姆奥特曼马拉比的定性毫不客气啊，
+[Speaker 0]: 一个商业机会主义者。
+[Speaker 0]: 这人底色是什么呢？
+[Speaker 0]: 想当大人物，
+[Speaker 0]: 他一度认真考虑过要竞选加油州长。
+[Speaker 0]: 后来觉得搞 AI 比当州长呢更能名留青史啊，
+[Speaker 0]: 转身就扑进来了。
+[Speaker 0]: 他不是科学家，
+[Speaker 0]: 斯坦福没念完就退学了。
+[Speaker 0]: 聪明呢是真聪明，
+[Speaker 0]: 马拉比也承认啊，
+[Speaker 0]: 这可能是科技史上最强的推销员，
+[Speaker 0]: 但他的引擎是赢，
+[Speaker 0]: 是活下去，
+[Speaker 0]: 是做局。
+[Speaker 0]: 第二类呢就是哈萨比斯和马里奥 deep mind 和 anthoropic 的掌舵者，
+[Speaker 0]: 两个正经的博士科学家马拉比说啊，
+[Speaker 0]: 这两人做 AI 的最底层动机呢是用它来推进科学本身。
+[Speaker 0]: 马拉比讲过一个场景啊，
+[Speaker 0]: 有一次呢聊起做 AI 的动机。
+[Speaker 0]: 哈萨比斯说啊，
+[Speaker 0]: 凌晨两点读论文的时候啊，
+[Speaker 0]: 他能感觉到现实在盯着他。
+[Speaker 0]: 反正在说啊我在这里等你来发现。
+[Speaker 0]: 他说如果有了通用人工智能，
+[Speaker 0]: 他就能够弄懂啊自然的底层规则，
+[Speaker 0]: 这是他接近造物的方式。
+[Speaker 0]: 一个人融资呢是为了续命做局，
+[Speaker 0]: 另一个人熬夜啊是为了跟宇宙对话马拉比的判断。
+[Speaker 0]: 是啊，
+[Speaker 0]: 这就是为什么也眼下站在这场竞赛，
+[Speaker 0]: 最前排的是这两个科学家最顶尖的研究员，
+[Speaker 0]: 认这个愿意跟这样的人走。
+[Speaker 0]: 而奥特曼的公司呢，
+[Speaker 0]: 成也萧何败也萧何，
+[Speaker 0]: 靠故事融来的钱啊，
+[Speaker 0]: 终究要靠故事以外东西来还。
+[Speaker 0]: 但是我其实觉得啊这个三宝奥特曼丢失了这个苏兹克维，
+[Speaker 0]: 确实对他们这个公司呢吸引这些顶尖的 AI 人才是存在一定的压力的。
+[Speaker 0]: 毕竟苏兹克维在这个业内的影响力啊和这个威望还是很高的。
+[Speaker 0]: 在马拉比看来啊，
+[Speaker 0]: 推销员能够骗过投资人，
+[Speaker 0]: 能够骗过媒体，
+[Speaker 0]: 甚至能够骗过华盛顿。
+[Speaker 0]: 但有用东西啊，
+[Speaker 0]: 谁也骗不了，
+[Speaker 0]: 那就是账本。
