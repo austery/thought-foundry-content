@@ -1,0 +1,531 @@
+[Speaker 0]: 大家好，
+[Speaker 0]: 我是 darn，
+[Speaker 1]: 欢迎回到我的频道。
+[Speaker 0]: 本周半导体板块出现了明显回调，
+[Speaker 0]: 尤其是前期涨幅很大的存储板块，
+[Speaker 0]: 调整幅度非常剧烈，
+[Speaker 0]: 部分存储相关股票从高点回撤已经超过百分之三十。
+[Speaker 0]: 海力士、
+[Speaker 0]: 美光、
+[Speaker 0]: 闪迪以及存储 ETFD ram 都出现了不同程度的下跌。
+[Speaker 0]: 每当存储股出现这种级别的调整，
+[Speaker 0]: 市场都会重新讨论同一个问题。
+[Speaker 0]: 存储究竟还是不是周期？
+[Speaker 0]: 行业 AI 带来的需求，
+[Speaker 0]: 能不能真正改变过去反复出现的涨价扩产过剩、
+[Speaker 0]: 降价这个循环。
+[Speaker 0]: 今天这期节目我们就再来系统聊一下存储板块，
+[Speaker 0]: 包括本轮存储周期与过去有什么不同？
+[Speaker 0]:  d ram、
+[Speaker 0]:  nand 和 HBM 分别是什么？
+[Speaker 0]: 如何投资存储板块，
+[Speaker 0]: 以及在经历大幅回调之后，
+[Speaker 0]: 哪些价位具备真正的长期投资吸引力？
+[Speaker 1]: 有没有？
+[Speaker 0]: 最近，
+[Speaker 0]: 我对会员体系做了优化，
+[Speaker 0]: 现在分三档实战家可加入微信群，
+[Speaker 0]: 与数百位投资者实时交流，
+[Speaker 0]: 还可以收到我在会员频道分享的每股实时操作研究官。
+[Speaker 0]: 在此基础上，
+[Speaker 0]: 增加阿尔 a peaks 个股推荐，
+[Speaker 0]: 以及我亲自整理的个股或 ETF 深度分析文章，
+[Speaker 0]: 包括目标、
+[Speaker 0]: 价格以及加仓点位分享，
+[Speaker 0]: 掌舵者则提供专属一对一服务。
+[Speaker 0]: 有兴趣的朋友可以直接联系我，
+[Speaker 0]: 了解详情。
+[Speaker 0]: 广告就到这里，
+[Speaker 0]: 我们马上开始今天的内容。
+[Speaker 0]: 先说我的核心结论，
+[Speaker 0]: 存储仍然是一门周期生意，
+[Speaker 0]: 但这轮周期可能比过去持续的更久。
+[Speaker 0]: 同时，
+[Speaker 0]: 行业的盈利地板也可能比过去更高地，
+[Speaker 0]:  rum 喷单的价格依然会受到库存水平、
+[Speaker 0]: 供给增速、
+[Speaker 0]: 资本开支和新增产能释放的影响。
+[Speaker 0]: 因此，
+[Speaker 0]: 我们不能因为 AI 需求很强，
+[Speaker 0]: 就把存储简单当成完全没有周期的成长行业，
+[Speaker 0]: 也不能直接给半导体行业的平均估值。
+[Speaker 0]: 只要存储厂商开始大规模扩产，
+[Speaker 0]: 或者客户库存重新上升，
+[Speaker 0]: 未来仍然存在供需关系逆转、
+[Speaker 0]: 价格下降和盈利回落的风险。
+[Speaker 0]: 但是，
+[Speaker 0]: 本轮周期和过去也确实存在非常重要的区别。
+[Speaker 0]:  AI 算力建设带来了过去从来没有出现过的 HBM 服务器 d ram 和企业级 SSD 的超高需求。
+[Speaker 0]: 过去存储需求主要由个人电脑和智能手机驱动，
+[Speaker 0]: 这些终端产品增长相对缓慢，
+[Speaker 0]: 而且库存周期非常明显。
+[Speaker 0]: 现在 AI 服务器正在成为新的需求引擎。
+[Speaker 0]: 一台 AI 服务器所需要的内存容量和存储容量远高于传统服务器。
+[Speaker 0]: 更重要的是，
+[Speaker 0]: 部分大型云计算客户已经开始与存储厂商签订多年期采购协议，
+[Speaker 0]: 其中包含 tager、
+[Speaker 0]:  pay 最低采购量或者价格保护条款。
+[Speaker 0]: 即使客户最终没有提走，
+[Speaker 0]: 全部约定产品也可能需要承担相应的付款义务。
+[Speaker 0]: 这些长期合同显著提高了，
+[Speaker 0]: 存储厂商未来收入和利润的可见度也在一定程度上降低了过去纯粹依靠现货价格波动的周期属性。
+[Speaker 1]: 嗯，
+[Speaker 0]: 没有要理解存储板块。
+[Speaker 0]: 首先要知道 DRMM、
+[Speaker 0]:  nand、
+[Speaker 0]:  HBM 分别是什么。
+[Speaker 0]:  d ram 可以简单理解为运行内存，
+[Speaker 0]: 它负责让 CPUGPU 和服务器快速临时的读取数据。
+[Speaker 0]:  AI 服务器数量越多。
+[Speaker 0]: 每台服务器搭载的内存容量越大，
+[Speaker 0]: 服务器 d ram 的需求也就越强。
+[Speaker 0]:  nand 则属于长期存储，
+[Speaker 0]: 主要用于各种 SSD，
+[Speaker 0]: 负责保存、
+[Speaker 0]: 训练、
+[Speaker 0]: 数据模型、
+[Speaker 0]: 参数、
+[Speaker 0]: 推理、
+[Speaker 0]: 结果主及企业产生的大量数据。
+[Speaker 0]: 随着 AI 应用不断增加，
+[Speaker 0]: 企业需要存储的数据越来越多，
+[Speaker 0]: 企业级 SSD 和 none 的需求也会随之增长。
+[Speaker 0]:  HBM 也就是高带宽，
+[Speaker 0]: 内存本质上是一种更先进的 d ram。
+[Speaker 0]: 它通过多层芯片堆叠放置在 GPU 旁边，
+[Speaker 0]: 以极高的速度向芯片输送数据，
+[Speaker 0]: 对 GPU 的计算能力再强。
+[Speaker 0]: 如果内存传输速度不够，
+[Speaker 0]: 芯片也会因为等待数据而无法充分发挥性能。
+[Speaker 0]: 因此，
+[Speaker 0]:  HBM 已经成为 AI 芯片中非常关键的一部分。
+[Speaker 0]: 在 d ram nand 和 HBM 这三类产品中，
+[Speaker 0]:  HBM 毫无疑问是 AI 浪潮下最大的直接受益者。
+[Speaker 0]: 哪家公司的 HBM 产量更高技术、
+[Speaker 0]: 更先进、
+[Speaker 0]: 良率更好，
+[Speaker 0]: 哪家公司的竞争力就越强，
+[Speaker 0]: 也越有机会摆脱传统低端存储产品高度商品化的定价模式。
+[Speaker 0]: 接下来再看存储板块中的主要公司，
+[Speaker 0]: 三星、
+[Speaker 0]: 海力士和美光都生产 d ram，
+[Speaker 0]: 并且都是全球 HBM 市场的核心参与者。
+[Speaker 0]: 三星、
+[Speaker 0]: 美光和闪迪则是 nand 和 SSD 市场的重要厂商。
+[Speaker 0]: 闪迪目前的业务主要集中在 nand 和企业级 SSD 并没有 HBM 业务，
+[Speaker 0]: 美光则同时拥有 HBM 传统 d ram、
+[Speaker 0]:  nand 和数据中心 SSD。
+[Speaker 0]: 因此，
+[Speaker 0]: 从 AI 投资的角度来看，
+[Speaker 0]: 美光的业务结构明显比闪迪更加完整，
+[Speaker 0]: 它既可以受益于 HBM 的需求，
+[Speaker 0]: 也可以受益于服务器 d ram 和企业级 SSD 的增长。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 美光和闪迪相比，
+[Speaker 0]: 不仅业务更多元，
+[Speaker 0]:  AI 需求敞口更完整，
+[Speaker 0]: 同时估值也更便宜。
+[Speaker 0]: 闪迪的优势是股价弹性更大当难的价格快速上涨，
+[Speaker 0]: 市场开始交易存储涨价逻辑时。
+[Speaker 0]: 闪迪的上涨速度会超过美光，
+[Speaker 0]: 但这种弹性是双向的，
+[Speaker 0]: 一旦难的价格预期反转，
+[Speaker 0]: 或者市场开始交易周期见顶，
+[Speaker 0]: 闪迪的下跌幅度通常也会超过美光。
+[Speaker 0]: 因此，
+[Speaker 0]: 我认为闪迪更适合作为高弹性的小仓位，
+[Speaker 0]: 而不适合作为存储板块最核心的长期仓位。
+[Speaker 1]: 嗯，
+[Speaker 1]: 没有。
+[Speaker 0]: 在所有存储厂商中，
+[Speaker 0]: 海力士目前的基本面和 HBM 竞争力仍然是最强的，
+[Speaker 0]: 它拥有全球最大的 HBM 市场份额，
+[Speaker 0]: 产品良率和客户关系也处于领先位置，
+[Speaker 0]: 同时还覆盖企业级 SSD 业务。
+[Speaker 0]: 单纯从公司质量和 HBM 竞争力来看，
+[Speaker 0]: 海力士可能是目前最强的存储企业，
+[Speaker 0]: 但是最好的公司并不一定等于当前最值得购买的股票。
+[Speaker 0]: 海力士在美国市场交易的 ADR，
+[Speaker 0]: 相对于韩国本地股票长期存在一定溢价，
+[Speaker 0]: 市场情绪最狂热的时候溢价甚至达到百分之三十以上。
+[Speaker 0]: 即使海力士未来盈利继续增长，
+[Speaker 0]:  ADR 价格也可能因为溢价收窄而出现下跌。
+[Speaker 0]: 此外，
+[Speaker 0]: 海力士当前的盈利能力和市场预期已经处于非常高的位置，
+[Speaker 0]: 未来还要面对三星和美光追赶行业扩产以及 HBM 价格逐步正常化的风险。
+[Speaker 0]: 海力士和三星在韩国股市中的权重非常高，
+[Speaker 0]: 而韩国市场的融资和杠杆交易又非常活跃。
+[Speaker 0]: 一旦市场出现集中去杠杆，
+[Speaker 0]: 海力士短期股价的波动可能会非常剧烈。
+[Speaker 0]: 这也是为什么我认可海力士的基本面，
+[Speaker 0]: 但暂时并不把它作为最理想的入场选择。
+[Speaker 1]: 嗯，
+[Speaker 1]: 没有。
+[Speaker 0]: 相比之下，
+[Speaker 0]: 我目前更加倾向于把美光作为存储板块的核心个股。
+[Speaker 0]: 美光在 HBM 市场的规模暂时还不及海力士，
+[Speaker 0]: 但它拥有 HBMD ram 和 nand 完整产品组合。
+[Speaker 0]:  AI 相关需求敞口也明显强于主要依赖 nand 的闪迪。
+[Speaker 0]: 对于北美投资者来说，
+[Speaker 0]: 美光可以直接在美国市场交易财报指引和分析师数据都比较透明，
+[Speaker 0]: 不需要承担韩元汇率、
+[Speaker 0]: 韩国本地市场交易规则以及 ADR 溢价回落的风险。
+[Speaker 0]: 美光还有一个很重要的优势，
+[Speaker 0]: 就是它能够同时受益于 AI 服务器内部的多个环节。
+[Speaker 0]:  GPU 需要 HBM，
+[Speaker 0]: 服务器本身需要大量传统 d ram 数据中心，
+[Speaker 0]: 还需要企业级 SSD 来保存训练数据和推理。
+[Speaker 0]: 结果，
+[Speaker 0]: 美光几乎覆盖了整条 AI 存储链条。
+[Speaker 0]: 相比之下，
+[Speaker 0]: 闪迪没有 HBM，
+[Speaker 0]: 业务更加集中于 NNAND 和 SSD，
+[Speaker 0]: 产品的商品化程度更高，
+[Speaker 0]: 因此周期性通常也更强。
+[Speaker 0]: 基于业务结构、
+[Speaker 0]: 估值水平和交易便利性，
+[Speaker 0]: 我认为美光是目前存储个股中风险收益比最均衡的选择。
+[Speaker 0]: 再来说说估值，
+[Speaker 0]: 美光的 PED 并不是市场完全没有看到它的增长，
+[Speaker 0]: 而是市场仍然担心当前盈利最终会接近周期高点。
+[Speaker 0]: 目前，
+[Speaker 0]: 市场对美光二零二六财年的共识 EPS 大约是七十三美元。
+[Speaker 0]: 二零二七财年的共识 EPS 大约是一百五十美元，
+[Speaker 0]: 几乎直接翻倍。
+[Speaker 0]: 二零二八财年的共识 EPS 在最新财报后已经上调到一百六十四美元。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 市场目前认为，
+[Speaker 0]: 至少到二零二八财年之前，
+[Speaker 0]: 美美光的营收和盈利不会出现明显下滑，
+[Speaker 0]: 二零二七财年大概率还不是本轮周期的顶部，
+[Speaker 0]: 真正的问题出现在二零二九财年。
+[Speaker 0]: 目前，
+[Speaker 0]: 市场对美光二零二九财年的共识 EPS 大约下降到一百二十二美元，
+[Speaker 0]: 相比二零二八财年下降约百分之二十五。
+[Speaker 0]: 这意味着，
+[Speaker 0]: 市场当前的核心假设是，
+[Speaker 0]: 二零二八财年可能会成为美光本轮盈利周期的高点，
+[Speaker 0]: 之后，
+[Speaker 0]: 利润将开始回落。
+[Speaker 0]: 正是因为这种周期见顶预期，
+[Speaker 0]: 市场不会轻易给美光半导体行业平均的估值。
+[Speaker 0]: 尽管如果只看基本面数字，
+[Speaker 0]: 美光甚至比半导体龙头英伟达的基本面还要更好。
+[Speaker 0]: 所以，
+[Speaker 0]: 一旦美光未来能够不断通过财报证明，
+[Speaker 0]: 二零二八财年以后，
+[Speaker 0]:  EPS 不仅不会大幅下缓，
+[Speaker 0]: 甚至还可以继续增长，
+[Speaker 0]: 哪怕增长速度有所放缓，
+[Speaker 0]: 市场就有可能给它更高的估值，
+[Speaker 0]: 逐渐打开它的股价上涨空间，
+[Speaker 0]: 有没有根据过去的周期特征以及本轮 AI 需求带来的结构性变化。
+[Speaker 0]: 我把美光的前瞻 PE 大致分成几个区间，
+[Speaker 0]: 三到五倍，
+[Speaker 0]: 属于极端悲观区域，
+[Speaker 0]: 代表市场预期，
+[Speaker 0]: 未来 EPS 会很快出现大幅下降，
+[Speaker 0]: 通常已经反映非常强烈的周期见顶，
+[Speaker 0]: 信号五到六倍属于明显低估区间。
+[Speaker 0]: 前提是，
+[Speaker 0]: 分析师的 EPS 预测没有出现显著下修，
+[Speaker 0]: 而且 EPS 拐点尚未到来，
+[Speaker 0]: 六到七倍仍然属于估值偏低，
+[Speaker 0]: 具备一定吸引力，
+[Speaker 0]: 七到九倍可以看作本轮 AI 存储周期相对合理的估值区间。
+[Speaker 0]: 十倍以上则需要美光证明，
+[Speaker 0]:  HBM 长期合同和 AI 服务器需求能够让高盈利长期维持，
+[Speaker 0]: 否则估值继续扩张的难度会明显增加。
+[Speaker 1]: 嗯，
+[Speaker 1]: 没有。
+[Speaker 0]: 美光的财年在每年八月份结束，
+[Speaker 0]: 而市场给股票定价时，
+[Speaker 0]: 通常会参考未来十二个月或者下一个完整财年的共识 EPS。
+[Speaker 0]: 因此，
+[Speaker 0]: 现在对美光进行估值，
+[Speaker 0]: 主要应该参考二零二七财年大约一百五十美元的共识。
+[Speaker 0]:  EPS 按照这个数字计算，
+[Speaker 0]: 八百二十美元对应大约五点五倍前瞻 PE 也就是落在刚才提到的明显低估区间的中间位置。
+[Speaker 0]: 如果完全没有美光仓位，
+[Speaker 0]: 又比较担心错过行情，
+[Speaker 0]: 同时能够承受股价继续下跌的风险。
+[Speaker 0]: 那么八百二十美元左右，
+[Speaker 0]: 可以考虑先建立一个很小的观察仓位，
+[Speaker 0]: 而不是一次性重仓。
+[Speaker 0]: 再往下看，
+[Speaker 0]: 七百五十美元对应大约五倍前瞻。
+[Speaker 0]:  PE 是我认为可以进行第二次加仓的位置。
+[Speaker 0]: 如果美光二零二七财年的 EPS 预期仍然能够稳定在一百五十美元附近，
+[Speaker 0]: 那么这个位置将会具备非常明显的吸引力。
+[Speaker 1]: 嗯，
+[Speaker 1]: 没有，
+[Speaker 0]: 当然这些点位并不是说股票一定会跌到，
+[Speaker 0]: 也不是说到了就必须机械买入。
+[Speaker 0]: 大家还是要根据自己的仓位情况以及风险承受能力去进行操作。
+[Speaker 0]: 我这里只是分享我自己操作美光的逻辑，
+[Speaker 0]: 我是在每光大约四百美元附近开始建立仓位的。
+[Speaker 0]: 当时股价对应的前瞻 PE 大概就是五倍。
+[Speaker 0]: 我看到美光未来 EPS 增长预期以及当时所处的估值位置之后，
+[Speaker 0]: 认为市场对周期风险的定价已经过度悲观。
+[Speaker 0]: 因此选择开仓之后，
+[Speaker 0]: 美光股价一度下跌到三百美元出头。
+[Speaker 0]: 我继续采用左侧交易的方式分批加仓，
+[Speaker 0]: 最终把美光的仓位提高到了百分之十五。
+[Speaker 0]: 这也是我通常愿意给单一个股的最大仓位。
+[Speaker 0]: 之后，
+[Speaker 0]: 随着美光股价上涨，
+[Speaker 0]: 我分别在九百五十美元和一千一百美元附近分批止盈了，
+[Speaker 0]: 大部分仓位，
+[Speaker 0]: 已经拿回了我最终投资的所有本金。
+[Speaker 0]: 目前我的美光仓位大约还剩百分之六，
+[Speaker 0]: 周四股价跌回八百二十美元位置的时候，
+[Speaker 0]: 也就是大约五点五倍前瞻 PE 的位置。
+[Speaker 0]: 我进行了几个月以来的第一次加仓，
+[Speaker 0]: 下一个加仓点位是七百五十美元。
+[Speaker 0]: 如果最终等不到这个价格，
+[Speaker 0]: 我也不会因为没有重新买回而感到遗憾。
+[Speaker 0]: 因为此前在美光这只股票上已经获得了足够的收益。
+[Speaker 0]: 投资不是一定要抓住每一段上涨，
+[Speaker 0]: 而是在风险收益比合适的时候出手，
+[Speaker 0]: 在估值变得昂贵的时候降低仓位。
+[Speaker 1]: 有没有？
+[Speaker 0]: 再来看，
+[Speaker 0]: 美光的减仓区间，
+[Speaker 0]: 按照二零二七财年一百五十美元的 EPS 计算，
+[Speaker 0]: 一千两百美元对应大约八倍。
+[Speaker 0]:  PE 已经进入我所说的合理估值区间。
+[Speaker 0]: 此前财报公布之后，
+[Speaker 0]: 美光股价也一度接近这个位置，
+[Speaker 0]: 一千三百五十美元对应大约九倍 PE。
+[Speaker 0]: 也就是到了我认为的合理 PE 区间的上沿，
+[Speaker 0]: 可以考虑开始分批止盈，
+[Speaker 0]: 一千五百美元则接近十倍 PE。
+[Speaker 0]: 如果没有新的 EPS 上修或者长期盈利能力，
+[Speaker 0]: 进一步的要证明这个位置的风险收益比就会明显下降。
+[Speaker 0]: 因此，
+[Speaker 0]: 在接近十倍 pe 时，
+[Speaker 0]: 我会倾向于再次减仓。
+[Speaker 0]: 同时保留一定底仓，
+[Speaker 0]: 以防美光未来 EPS 继续上修，
+[Speaker 0]: 或者市场愿意给予它更高的估值倍数。
+[Speaker 1]: 有没有？
+[Speaker 0]: 这里最重要的原则是股价和 EPS 必须同时观察。
+[Speaker 0]: 假设每光跌到七百五十美元，
+[Speaker 0]: 而二零二七财年的共识 EPS 仍然稳定在一百五十美元附近。
+[Speaker 0]: 同时，
+[Speaker 0]: 二零二八财年的 EPS 依然维持增长，
+[Speaker 0]: 那么在前瞻 PE 大约只有五倍的位置，
+[Speaker 0]: 投资吸引力是比较高的。
+[Speaker 0]: 但如果股价跌到七百五十美元的同时，
+[Speaker 0]: 二零二七财年 EPS 共识从一百五十美元下调到五十美元，
+[Speaker 0]: 那么每光的实际前瞻 PE 已经回升到十五倍，
+[Speaker 0]: 原来的低估逻辑就完全不存在了。
+[Speaker 0]: 所以不能看到股价跌了百分之三十，
+[Speaker 0]: 就简单认为一定便宜，
+[Speaker 0]: 也不能机械按照价格加仓，
+[Speaker 0]: 每一次准备加仓之前都要重新检查。
+[Speaker 0]: 美光的基本面有没有发生变化？
+[Speaker 0]:  HBM 出货 d ram 和 nand 价格有没有恶化，
+[Speaker 0]: 以及二零二七财年和之后几个财年的共识，
+[Speaker 0]:  EPS 有没有明显下降？
+[Speaker 0]: 获得这些信息最可靠的途径仍然是公司财报、
+[Speaker 0]: 管理层指引以及财报之后分析师对盈利预测的调整。
+[Speaker 0]: 这也是为什么我一直建议大家财报公布之前，
+[Speaker 0]: 尽量不要因为短期价格波动频繁，
+[Speaker 0]: 操作重要决策最好等财报和最新指引公布之后，
+[Speaker 0]: 再做。
+[Speaker 0]: 对于不愿意承担单一个股风险的投资者，
+[Speaker 0]: 也可以选择通过 ETF 来投资存储。
+[Speaker 0]: 第一个选择是 d ram ETF。
+[Speaker 0]: 这只 ETF 的权重主要集中在 HBM 三大巨头美光、
+[Speaker 0]: 三星和海力士各占百分之二十五，
+[Speaker 0]: 三家公司合计接近百分之七十五。
+[Speaker 0]: 此外，
+[Speaker 0]: 闪迪权重大约为百分之五，
+[Speaker 0]: 还有其他存储和半导体相关公司。
+[Speaker 0]: 它相当于一次性持有全球三大 d ram 和 HBM 厂商，
+[Speaker 0]: 能够降低某一家企业产品出现问题、
+[Speaker 0]: 客户流失或者财报不及预期所带来的单一个股风险。
+[Speaker 0]: 但需要注意，
+[Speaker 0]:  d ram 仍然是一支高度集中的行业 ETF，
+[Speaker 0]: 因为前三大持仓合计接近四分之三，
+[Speaker 0]: 只要海力士、
+[Speaker 0]: 美光或者三星中的一家出现大幅下跌，
+[Speaker 0]:  ETF 就会受到明显拖累。
+[Speaker 0]: 本周海力士单日下跌接近百分之十五的时候，
+[Speaker 0]:  d ram 也一度下跌百分之十，
+[Speaker 0]: 甚至超过了美光当天的跌幅。
+[Speaker 0]: 因此，
+[Speaker 0]:  d ram ETF 降低的是单一公司的经营风险，
+[Speaker 0]: 并没有消除存储行业本身的周期、
+[Speaker 0]: 风险和高波动特征。
+[Speaker 0]: 第二个选择会温和，
+[Speaker 0]: 很多是追踪半导体指数的 SOXX。
+[Speaker 0]:  SOXX 并不是专门的存储 ETF，
+[Speaker 0]: 而是同时持有美光、
+[Speaker 0]:  AMD、
+[Speaker 0]: 英伟达、
+[Speaker 0]: 博通、
+[Speaker 0]: 英特尔等多元化半导体公司。
+[Speaker 0]: 美光在 socks 中的权重大约为百分之八，
+[Speaker 0]: 属于比较重要的持仓之一。
+[Speaker 0]: 因此，
+[Speaker 0]: 买入 socks 可以获得一定程度的美光和存储敞口，
+[Speaker 0]: 同时把资金分散到 GPUCPU、
+[Speaker 0]: 网络芯片、
+[Speaker 0]: 晶圆制造和半导体设备等其他方向。
+[Speaker 0]:  socks 所谓的风险更低，
+[Speaker 0]: 是向相对于直接购买个股或者 d ram ETF 而言，
+[Speaker 0]: 因为它降低了单一公司风险，
+[Speaker 0]: 也降低了纯粹依赖存储价格周期的风险。
+[Speaker 0]: 但这并不代表 SOXX 本身是一只低波动资产，
+[Speaker 0]: 它依然是一支高度集中于半导体行业的 ETF。
+[Speaker 0]: 在半导体估值收缩 AI，
+[Speaker 0]: 资本开支预期下降或者市场整体风险偏好恶化时，
+[Speaker 0]: 波动仍然会明显高于标普五百，
+[Speaker 0]: 以及纳斯达克一百指数以及 SOXX，
+[Speaker 0]: 更适合有一定风险承受能力。
+[Speaker 0]: 希望参与整个半导体和 AI 产业趋势，
+[Speaker 0]: 但不希望把资金全部集中在存储板块的投资者。
+[Speaker 0]: 总结一下，
+[Speaker 0]: 投资存储板块大致可以分为三种方式，
+[Speaker 0]: 第一种是直接购买 d ram ETF，
+[Speaker 0]: 同时持有美光、
+[Speaker 0]: 三星和海力士，
+[Speaker 0]: 压注整个 d ram 和 HBM 行业。
+[Speaker 0]: 这是最纯粹的板块投资方式。
+[Speaker 0]: 第二种是购买 SOXX，
+[Speaker 0]: 再获得部分美光和存储敞口的同时，
+[Speaker 0]: 把资金分散到英伟达 AMD、
+[Speaker 0]: 博通和半导体设备等其他方向。
+[Speaker 0]: 第三种是直接选择存储个股，
+[Speaker 0]: 通过研究财报 EPS 和估值，
+[Speaker 0]: 在不同价格区间进行分批买入和止盈。
+[Speaker 0]: 在个股选择方面，
+[Speaker 0]: 海力士拥有最强的 HBM 基本面，
+[Speaker 0]: 但目前仍然存在 ADR 溢价、
+[Speaker 0]: 韩国市场杠杆以及预期过高的风险。
+[Speaker 0]: 闪迪是 nand 和企业级 SSD 价格上涨时的高弹性选择，
+[Speaker 0]: 但由于没有 HBM，
+[Speaker 0]: 业务更加集中，
+[Speaker 0]: 周期属性也更强。
+[Speaker 0]: 综合考虑 HBM、
+[Speaker 0]: 低软、
+[Speaker 0]:  nand 和数据中心 SSD 的完整产品组合，
+[Speaker 0]: 北美市场的交易便利性以及当前的前瞻估值。
+[Speaker 0]: 我认为美光仍然是目前最值得关注，
+[Speaker 0]: 也最适合作为核心仓位的存储个股。
+[Speaker 1]: 嗯，
+[Speaker 1]: 没有。
+[Speaker 0]: 所以这轮存储板块的下跌并不意味着 AI 存储逻辑已经结束，
+[Speaker 0]: 但也不能因为长期逻辑仍然存在，
+[Speaker 0]: 就忽视周期股在高位可能出现的巨大波动。
+[Speaker 0]: 真正有效的方法不是预测股价明天涨还是跌，
+[Speaker 0]: 而是持续跟踪。
+[Speaker 0]:  EPS 在盈利预期稳定时，
+[Speaker 0]: 利用估值压缩、
+[Speaker 0]: 分批买入，
+[Speaker 0]: 在估值进入合理甚至偏贵区间时逐步止盈。
+[Speaker 0]: 我发现，
+[Speaker 0]: 市场情绪往往是在股价高涨的时候变得很高高，
+[Speaker 0]: 一旦股价下跌，
+[Speaker 0]: 质疑的声音就会不断出现。
+[Speaker 0]: 对于存储和美光现在周期股的叙势又被提出，
+[Speaker 0]: 没有任何新鲜的说法，
+[Speaker 0]: 无非就是什么盈利已经见顶之后必然暴跌。
+[Speaker 0]: 这个说法。
+[Speaker 0]: 在美光，
+[Speaker 0]: 股价是一百美元，
+[Speaker 0]: 四百美元的时候都出现过。
+[Speaker 0]: 后来美光一路上涨到一千两百美元。
+[Speaker 0]: 我们在判断周期是否见顶的时候，
+[Speaker 0]: 与其听网上各种人的言论，
+[Speaker 0]: 不如去研究一下实际数据。
+[Speaker 0]: 高盛五月份发布过一篇分析文章，
+[Speaker 0]: 他们认为，
+[Speaker 0]:  AI 基础设施资本开支会从二零二六年的七千六百五十亿美元一路涨到二零三一年的一点六万亿，
+[Speaker 0]: 六年，
+[Speaker 0]: 复合增速约百分之十六点四，
+[Speaker 0]: 累计投入接近七点六万亿美元。
+[Speaker 0]: 资本支出的同比增速会放缓，
+[Speaker 0]: 但绝对金额仍在往上走，
+[Speaker 0]: 至少持续六年。
+[Speaker 0]: 此外，
+[Speaker 0]: 刚刚发布财报的台积电和 ASML 都上调了营收指引，
+[Speaker 0]: 同时继续加大资本开支。
+[Speaker 0]: 好的好的。
+[Speaker 0]: 台积电表示，
+[Speaker 0]: 未来三年的投入会显著高于过去三年。
+[Speaker 0]: 而 ASML 表示，
+[Speaker 0]: 二零二七年的订单已经拿满之后，
+[Speaker 0]: 还要继续扩大 EUV 光刻机的产能。
+[Speaker 0]: 这两家做在整条产业链最上游最平静的公司，
+[Speaker 0]: 用真金白银告诉你，
+[Speaker 0]: 需求至少锁定到两三年之后，
+[Speaker 0]: 有没有科技巨头那边，
+[Speaker 0]: 同样没有一个人踩刹车。
+[Speaker 0]: 麦塔把今年的资本开支指引抬到一千两百五十到一千四百五十亿美元，
+[Speaker 0]: 几乎是去年的两倍。
+[Speaker 0]: 路易斯安那州正在建设的数据中心是两千亿级别的工程，
+[Speaker 0]: 连一项躲着科技股的巴菲特都在今年通过一笔百亿美元的私募配售参与了谷歌。
+[Speaker 0]: 那次为 AI 基础设施融资的八百亿美元发股，
+[Speaker 0]: 把谷歌买成了伯克希尔。
+[Speaker 0]: 第三，
+[Speaker 0]: 大持仓，
+[Speaker 0]: 把亲口说后悔没早点买。
+[Speaker 0]: 前英特尔 CEO glsinger 在近期接受采访时表示，
+[Speaker 0]: 数据中心的建设不是还有几年，
+[Speaker 0]: 而是还有十几年。
+[Speaker 0]: 而知名 AI 金经经理 gaven bakaker 这几天也刚刚在 twitter 上发文说，
+[Speaker 0]: 风险回报又变得有吸引力了，
+[Speaker 0]: 一堆有护城河，
+[Speaker 0]: 未来六到十二个季度会交出炸裂财报的便宜股票就摆在那里。
+[Speaker 0]: 他上一次几乎一字不差的说，
+[Speaker 0]: 这句话是在今年三月三十日，
+[Speaker 0]: 几乎就是上一轮股市下跌的底部位置嗯，
+[Speaker 1]: 没有。
+[Speaker 0]: 当资金流向业内人士以及世界上最有耐心的价值投资者同时指向一个方向时，
+[Speaker 0]: 我更愿意相信，
+[Speaker 0]: 这次半导体的暴跌是一次杠杆和情绪的清洗，
+[Speaker 0]: 而不是 AI 故事的终点。
+[Speaker 0]:  AI 叙事继续，
+[Speaker 0]: 资本支出继续，
+[Speaker 0]: 那么半导体产业就会继续受益，
+[Speaker 0]: 存储板块也会持续受益。
+[Speaker 0]: 我们散户投资者非常容易受到市场情绪的影响，
+[Speaker 0]: 包括某些博主的某些言论都会左右我们的实际操作。
+[Speaker 0]: 我建议大家想要去投资美光或者存储板块的，
+[Speaker 0]: 都要自己先做好研究，
+[Speaker 0]: 不要轻易听信任何人，
+[Speaker 0]: 包括我在内的言论。
+[Speaker 0]: 只有自己真正了解了，
+[Speaker 0]: 才能做到上涨的时候心中有数，
+[Speaker 0]: 下跌的时候不会恐慌割肉。
+[Speaker 0]: 我自己在美光跌到八百二十美金的位置加仓了。
+[Speaker 0]: 这是我结合我自己的实际情况做出的选择。
+[Speaker 0]: 因为我长期看好这个板块，
+[Speaker 0]: 而且我还有不少的低均价底仓。
+[Speaker 0]: 所以即使这次再次入场的时间有点早，
+[Speaker 0]: 我的均价也依然还在不到五百美金的位置。
+[Speaker 0]: 下一个加仓点位是七百五十美金。
+[Speaker 0]: 我会在我的会员频道分享我的实际操作情况，
+[Speaker 0]: 以及更新类似的。
+[Speaker 0]: 对于美光的分析和加仓点位分享有没有？
+[Speaker 0]: 以上就是本期的全部内容，
+[Speaker 0]: 希望这期节目能够帮助大家更好的理解存储板块，
+[Speaker 0]: 也更理性的投资。
+[Speaker 0]: 美光今天视频中的主要数据来自 seeking 阿尔法，
+[Speaker 0]: 以及它旗下的阿尔法 pieks 推荐频务相关链接。
+[Speaker 0]: 我会放在视频下方，
+[Speaker 0]: 喜欢这类内容的朋友，
+[Speaker 0]: 欢迎点赞、
+[Speaker 0]: 关注频道，
+[Speaker 0]: 也欢迎加入我的油管会员爱发电平台，
+[Speaker 0]: 或者订阅我最近刚刚开通的 substack 频道。
+[Speaker 0]: 我会在这些平台持续更新个股，
+[Speaker 0]: 深度分析，
+[Speaker 0]: 一、
+[Speaker 0]: 目标价格，
+[Speaker 0]: 加减仓区间和投资逻辑。
+[Speaker 0]: 感谢大家的观看，
+[Speaker 0]: 我们下期节目再见。
