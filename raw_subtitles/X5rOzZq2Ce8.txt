@@ -1,0 +1,424 @@
+In the 1940s,
+the radio was a transformative technology.
+But it wasn't an immediate hit.
+That's because the radios
+of the early 1900s looked like this:
+unwieldy contraptions of exposed wires
+and glowing vacuum tubes,
+like a science-fair project gone wrong.
+It wasn't until 1929
+when radio started to look like this,
+with its sleek Bakelite --
+that’s a kind of plastic shell --
+that they became insanely popular --
+but at a critical cost.
+Transparency.
+What happens when technology
+becomes a black box
+and we stop being able to see
+what's going on inside?
+Fast forward 100 years.
+Today, the sci-fi artificial intelligence
+devices of our dreams
+have been woven into the very
+fabric of modern life.
+But like the radio,
+these systems are “bakelited.”
+We've hidden the machine
+behind frictionless interfaces,
+beneath friendly voices
+and inside children's toys.
+Over the past decade,
+I've had a lot of conversations
+with kids about AI
+as an MIT researcher
+and founding member of Day of AI,
+a nonprofit creating opportunities
+for millions of children around the world
+to learn about how AI works.
+And here's what I've been seeing.
+These devices mimic intelligence
+and friendliness so well
+that children learn to trust them --
+sometimes more than they trust themselves.
+And there is real danger of children
+becoming overly reliant on
+or inappropriately attached
+to their smart toys.
+That said, with some intentional choices
+on the part of adults,
+we can help children see the technology
+for what it really is,
+objects that they can play with,
+or even program,
+rather than entities that they should
+look to for all the answers.
+My journey exploring kids
+and their relationships with AI
+began early in my days at MIT,
+working on this fluffy,
+adorable social robot, Tega.
+So Tega being a social robot means
+that its goal is to help people
+with their goals.
+Social robots are used
+throughout healthcare,
+customer service and education.
+In Tega's case,
+we were building it to see if a robot
+could help young children
+as they were learning how to read.
+Let me show you a quick
+clip of Tega in action.
+Student: Hm, I'm lavender.
+Tega: What are we trying to find?
+Student: We are trying to find
+lavender-color stuff.
+Tega: OK.
+The word was lavender?
+Student: Yes.
+And what is lavender, though?
+Tega: Lavender is purple.
+Student: Yes.
+Just like my friend loves lavender.
+Tega: Hmm.
+Randi Williams: So as you saw,
+it's Tega's job to keep the child
+engaged in the story.
+Tega will ask questions,
+add funny commentary,
+and of course, weave in that target
+vocabulary for the week.
+And it was my job to introduce Tega
+and get children oriented
+to how to use it.
+So one day I come into the study
+room and I say, "Hi,
+my name is Randi, this is Tega.
+You're going to read
+some stories with Tega today.
+Let me show you how it works."
+And the girl I was working with,
+a kindergartener, stops me.
+"No thanks," she says.
+"I know all about robots.
+I have an Alexa at home,
+and she's my best friend.
+Watch this."
+And then she proceeded
+to show me how my robot worked.
+(Laughter)
+What do we make of a response like that?
+Well first, I thought
+it was kind of impressive
+that this girl who, again,
+was learning how to read,
+could effortlessly navigate the internet
+thanks to voice technology.
+And for context, I had to know
+how to read, write and type
+before I could ask Jeeves a question.
+But for her, not so much.
+But secondly, I was
+a little bit disappointed
+that this girl didn't think that my super
+cool robot was so super cool.
+And when I took a step back,
+I realized it wasn't just her.
+We are raising a generation of children
+who are growing up with AI
+and smart toys,
+and they tend to see these devices
+not as virtual assistants or technology,
+but as friends,
+distinct beings with a mind,
+a will and a soul.
+And that made me really curious
+about what children make
+of this technology.
+How much do they understand
+about what's going on?
+So to investigate that question,
+I ran a study.
+I had 30 children
+between the ages of three and 11
+come together to interact
+with a whole bunch of different
+smart toys all at once.
+We had toy robots, talking dolls,
+text-based chatbots,
+and of course,
+plenty of virtual assistants
+like Alexa and Google Home.
+One of the girls in the study,
+her favorite animal
+was sloths.
+She loves sloths.
+She'd been telling us all
+day how much she loves sloths.
+And so naturally,
+when she got hold of an Alexa,
+she wanted to learn more
+about sloths from Alexa.
+So she picks up Alexa and says,
+"Alexa, what do sloths eat?"
+And then Alexa, very helpfully, replied,
+"I'm sorry, I don't know
+how to help you with that."
+The girl looked disappointed for a second
+and then all of a sudden
+perked right back up.
+"Oh, I know," she says,
+and she picked up a second Alexa.
+"I'll see if this one knows."
+(Laughter)
+The limitations of AI are not only
+frustrating and confusing for children,
+but research in child-robot interaction
+shows that it can make them vulnerable
+to even more serious risks,
+like manipulation or accidental
+exposure to inappropriate content
+or security breaches.
+And for me personally,
+even the devices
+that are marketed as educational
+or screen-free are still corrupt
+because they're consumer products.
+And they seem to be designed as something
+that can be endlessly
+engaging or addictive.
+They want to become your child's
+best friend and gain their trust
+so that they can advertise to them.
+Or better yet,
+sell that trust back to you
+for $20 a month.
+The bottom line is that smart toys
+open a digital door
+into children's playtime,
+bedroom and hearts.
+And if you're thinking
+about opening that door,
+my advice to you would be to take
+a very careful look
+at what's on the other side.
+The good news is that we can mitigate
+the risks of AI to children
+by leaning into something they already do.
+Kids are natural reverse engineers.
+Over and over again,
+I've watched children
+playing with AI devices
+trying to break it,
+just asking seemingly
+absurd questions like,
+"Alexa, how old are you?"
+Or “Cosmo” -- which is a toy robot car --
+"Can you jump?"
+Or "Hey Google, is it OK if I eat you?"
+(Laughter)
+And these questions, while silly,
+also are an example of children
+probing the machine
+about its very nature.
+Play is inherent to how children
+understand the world,
+which means that maybe we can use it
+to help them understand what's happening
+with the technologies
+they're interacting with.
+What if children could take apart
+and reconstruct their smart toys
+the same way that they take apart
+and reconstruct physical blocks?
+That was the idea behind another
+social robot that I worked on, “PopBot.”
+As you can see, PopBot’s body
+is made completely out of LEGO bricks,
+and it's kind of like a typical smart toy,
+except I built it to make the most
+complex ideas of modern AI --
+logical reasoning,
+machine learning, generative AI --
+easy to understand through hands-on,
+child-driven play.
+The idea was, if a four-year-old
+could understand AI,
+then anyone can.
+So for example,
+to learn about machine learning,
+what children would do is they would play
+Rock, Paper, Scissors against the robot.
+Let me show you a quick clip
+of what that looks like with PopBots.
+Person: OK, go ahead.
+Student: Scissors... shoot.
+I choose rock.
+PopBot: Rock.
+You chose rock, and I choose rock.
+PopBot: It's a tie.
+Student: Rock!
+Student 2: It's a tie!
+RW: The beauties of a real-life
+classroom study.
+So before children could start
+playing against their PopBot,
+first they had to teach their PopBot
+the rules of Rock, Paper, Scissors.
+And then, as they played the game,
+rounds like that, over and over again,
+what PopBot would try to do
+is pick up on their pattern
+so that it could predict what move
+it could play to beat them.
+And if you're between the ages
+of four and six,
+pretty soon it gets hard,
+if not impossible, to beat your PopBot.
+There was one boy
+who was very frustrated by this,
+and so I planted a mischievous
+idea in his head.
+I said, "Well, what if
+you taught your PopBot
+the wrong rules of Rock, Paper, Scissors?
+That way as you played it,
+you would win every single time."
+(Laughter)
+And he really liked that idea.
+(Laughter)
+Our little act of AI sabotage
+created a unique opportunity
+to talk about who teaches AI the rules.
+Well, people do.
+And so I asked him, "Well,
+if you can teach your PopBot
+the wrong rules of Rock, Paper, Scissors,
+how do you know Alexa
+was taught the right ones?"
+Which led to a very insightful
+conversation where he discussed
+how much we can trust AI
+and the importance of verifying
+what it says, with an adult’s help,
+just to make sure that Alexa
+has been taught all the right rules.
+The big idea that I want children
+to understand is that AI is not magic.
+It's a set of rules written by people.
+And it's up to us,
+those of us who have been
+around for a bit longer,
+to make sure that children
+aren't being programmed by their toys,
+but rather things work
+the other way around.
+We need to raise a generation of children
+who know that they are the ones
+who get to write, and even
+rewrite, the rules of AI.
+And this work starts at the dinner table.
+So you're all sitting down and a question
+gets asked to the nearest AI chatbot
+or smart toy.
+When it responds, rather than just
+accepting that answer,
+wonder, "I wonder why
+it answered the way it did."
+Or ask aloud,
+"Do we agree or disagree
+with that answer?"
+"Who do we think wrote the rules
+to make it work the way that it does?"
+And the thing is,
+you don't need to know the answers
+to all these questions
+or become some sort of AI expert --
+that’s not the point.
+What children need is a model
+of what it means to be
+a curious user of AI.
+They need someone
+who will sit down with them,
+explore the machine,
+poke at its limits,
+challenge its responses,
+and most importantly,
+dare to rewrite its rules.
+And I've been thinking about this a lot
+in the context of what's happening
+in children's toy boxes,
+but the bigger picture is
+that we should all be treating
+the everyday AI systems
+that we interact with the same way.
+I 100 percent believe that we can help
+children build safer relationships
+with their smart toys,
+and we all need to build better
+relationships between ourselves
+and the technologies
+we interact with every day.
+I believe in a world where no one
+is left in the dark by technology,
+and where everyone has
+the inherent right to play a part
+in shaping the systems
+that shape our lives.
+Thank you.
+(Cheers and applause)
+Chris Duffy: Randi, fantastic talk.
+I'd love to ask you
+just one question here, which is,
+before I was a parent,
+I had some very black-and-white
+thinking around screens.
+I had this pristine vision of, I would
+never use screens with my child at all.
+And then as I think many parents
+have experienced,
+that crashed into the reality
+of needing to put sunscreen on him
+or to clip his nails.
+I'm wondering, AI, as a new technology
+and these smart toys,
+how do you see parents
+balancing
+the ideals and the best case
+of what we want
+versus the practical realities
+of kids being exposed to these things
+in ways that are sometimes out
+of our control, even as a parent?
+RW: Yeah, I really love that question.
+I think, first, because it gives
+so much grace to the fact
+that parenting is hard
+and there are a lot of challenges.
+I think, in the world
+of artificial intelligence,
+something I think a lot
+about is human wisdom, right?
+And we've actually been kind of struggling
+with this problem for a long time.
+There were books and then the radio
+and then TV and then the internet,
+and now it's artificial intelligence.
+And I think the advice from then
+still rings true now,
+which is, don't leave children
+on their own to figure it out.
+Rules are great,
+but better is to help your child
+learn how to interact with them
+in a way that works
+with your family's values
+and the ways that you want
+to engage in the world.
+So if you're willing to take
+that journey with your child,
+I think that could do a lot of good.
+CD: Thank you, that's a great answer.
+Another big round of applause for Randi.
+(Applause)
