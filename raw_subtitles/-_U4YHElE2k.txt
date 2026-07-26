@@ -1,0 +1,590 @@
+[Speaker 0]: 美股播出华尔街专利。
+[Speaker 0]: 大家好，
+[Speaker 0]: 我是美德军。
+[Speaker 0]: 你们的美股探路者是什么让特斯拉两天内暴跌百分之二十？
+[Speaker 0]: 有人说是业绩不行，
+[Speaker 0]: 那为什么特斯拉本季度反而实现了三年以来最快的收入增长？
+[Speaker 0]: 有人说是未来的科技故事不行，
+[Speaker 0]: 那为什么自动驾驶 FSD 却实现了史无前例的大爆发？
+[Speaker 0]: 最近美图就发现，
+[Speaker 0]: 围绕在特斯拉周围的噪音很多，
+[Speaker 0]: 虚虚实实。
+[Speaker 0]: 所以我觉得有必要给各位开官用我的专业能力，
+[Speaker 0]: 好好深挖一下本次特斯拉的财报。
+[Speaker 0]: 这次我深扒了特斯拉财报，
+[Speaker 0]: 所有的数据一字不差的听完了马斯克的财报会议，
+[Speaker 0]: 并且还对特斯拉的历史股价做了全面的分析。
+[Speaker 0]: 我发现这绝对算是最近几年特斯拉最重要的财报之一。
+[Speaker 0]: 今天这期视频的信息量巨大，
+[Speaker 0]: 它不仅是一次大跌的归因，
+[Speaker 0]: 更是未来半年乃至一年的投资前瞻。
+[Speaker 0]: 相信不管你是特斯拉的股东，
+[Speaker 0]: 还是想要寻求机会的买家，
+[Speaker 0]: 哪怕你是个大空头，
+[Speaker 0]: 本期视频都能给你想要的答案。
+[Speaker 1]: 啦啦一谈到特斯拉，
+[Speaker 0]: 很多人总会先想到他的机器人，
+[Speaker 0]: 他的 robot、
+[Speaker 0]:  taxi。
+[Speaker 0]: 但老投资者都知道，
+[Speaker 0]: 要想真正看懂这家公司的股价，
+[Speaker 0]: 真正重要的一直都是他的财务数据。
+[Speaker 0]: 可不是说这些科技叙事它不重要，
+[Speaker 0]: 它们非常重要。
+[Speaker 0]: 而且我后面会详细分析，
+[Speaker 0]: 但是啊如果没有财务数据的支撑，
+[Speaker 0]: 再好的故事也讲不下去。
+[Speaker 0]: 而这次财报，
+[Speaker 0]: 正是财务上出现了深层的漏洞，
+[Speaker 0]: 才引发了后续一系列的担忧。
+[Speaker 0]: 所以一上来，
+[Speaker 0]: 我们有必要先把财报的重点给大家好好扒一下。
+[Speaker 0]: 本季度，
+[Speaker 0]: 特斯拉营收二百八十二亿美元，
+[Speaker 0]: 同比大增了百分之二十五点五，
+[Speaker 0]: 是过去三年以来的最快增速表现，
+[Speaker 0]: 这主要得益于汽车交付量的大幅提升。
+[Speaker 0]: 本季度，
+[Speaker 0]: 特斯拉交付了四十八万辆车，
+[Speaker 0]: 远高于上季度的三十五点八万，
+[Speaker 0]: 也高于去年同期的三十八点四万。
+[Speaker 0]: 这个销量表现可以说是非常出色了。
+[Speaker 0]: 然而问题是这么高的销量，
+[Speaker 0]: 却没有给特斯拉带来足够的利润。
+[Speaker 0]: 本季度，
+[Speaker 0]: 公司净利润仅录得了十一点五亿美元，
+[Speaker 0]: 同比还下降了百分之十七，
+[Speaker 0]: 大幅低于市场预期的十八点六亿。
+[Speaker 0]: 进一步深挖财报，
+[Speaker 0]: 我们发现利润被压缩最主要的原因有两点，
+[Speaker 0]: 而且啊都是之前财报中从未暴露过的新问题。
+[Speaker 0]: 这第一点是毛利率的鉴定下滑。
+[Speaker 0]: 下图是公司汽车业务毛利率的表现。
+[Speaker 0]: 可以看到，
+[Speaker 0]: 本季度扣除了积分后的毛利率只有百分之十六点三，
+[Speaker 0]: 较上个季度的百分之十九点二下滑了近三个百分点。
+[Speaker 0]: 理论上讲，
+[Speaker 0]: 汽车交付量大幅超预期，
+[Speaker 0]: 那毛利率应该升高才对，
+[Speaker 0]: 怎么反而还下滑了呢？
+[Speaker 0]: 进一步深挖财报，
+[Speaker 0]: 我们发现这倒不是说这个季度的表现有多差，
+[Speaker 0]: 而是说上个季度的优异表现掺了不少水分。
+[Speaker 0]: 上季度销售中有一些是报修调整和关税减免所带动的一次性收入，
+[Speaker 0]: 这个季度就没有了。
+[Speaker 0]: 而且上季度还赶上 model s 和 x 停售前的抢购，
+[Speaker 0]: 这两款高价车型拉高了毛利率，
+[Speaker 0]: 这个在未来也不会再有了。
+[Speaker 0]: 这两点我也都在上一次特斯拉的财报分析中详细提到过。
+[Speaker 0]: 如果说剔除了这一部分的一次性影响，
+[Speaker 0]: 再加上本次销量提升所带来的成本摊薄，
+[Speaker 0]: 其实啊这两个季度的毛利表现是差不多的，
+[Speaker 0]: 并没有看起来这么糟糕。
+[Speaker 0]: 但从另一方面讲，
+[Speaker 0]: 这或许也意味着特斯拉的毛利提升空间已经非常有限了。
+[Speaker 0]: 这可能就会是未来特斯拉毛利的一个常态表现。
+[Speaker 0]: 除了毛利率以外，
+[Speaker 0]: 另一个拖累利润的原因是研发费用的大幅提升，
+[Speaker 0]: 研发费用同比增加了百分之四十七，
+[Speaker 0]: 这是过去四年来的最高水平。
+[Speaker 0]: 关于这一点，
+[Speaker 0]: 管理层并没有披露太多的细节，
+[Speaker 0]: 只是说这钱花在了三米卡车、
+[Speaker 0]:  optimis、
+[Speaker 0]:  cybercap 等新产品的研发和量产中，
+[Speaker 0]: 还投到了其他的 AI 项目的研发中。
+[Speaker 0]: 这个其他 AI 项目大概率就是特斯拉的芯片制造工厂 carol fab。
+[Speaker 0]: 其实研发费用的提升，
+[Speaker 0]: 倒也不是什么大问题？
+[Speaker 0]: 毕竟投资人也都知道，
+[Speaker 0]: 现在投资特斯拉就是为了这些未来的科技项目增加点研发支出，
+[Speaker 0]: 那大家也都很理解，
+[Speaker 0]: 但真正不能理解的其实啊是另一项支出的大幅提升。
+[Speaker 0]: 这个咱们一会儿还会讲，
+[Speaker 0]: 现在咱先整体来看一下特斯拉利润承压的这个问题。
+[Speaker 0]: 其实分析完后，
+[Speaker 0]: 我们发现情况啊并没有想象那么糟糕。
+[Speaker 0]: 毛利率的下跌是上季度虚高的错觉，
+[Speaker 0]: 而研发费用的提升也多少能够接受。
+[Speaker 0]: 所以说利润被压缩，
+[Speaker 0]: 市场虽然不满，
+[Speaker 0]: 但并非是造成它恐慌性下跌的主要原因。
+[Speaker 0]: 这次财报季，
+[Speaker 0]: 不光是特斯拉的财报，
+[Speaker 0]: 所有大科技的财报都请各位记住这么一个关键词，
+[Speaker 0]: 叫做资本性开支。
+[Speaker 0]: 没错，
+[Speaker 0]: 这次特斯拉的财报恐慌的根源也来自于此。
+[Speaker 0]: 资本性开支它叫开支，
+[Speaker 0]: 但它本质上是一种长期的资本投入。
+[Speaker 0]: 现如今，
+[Speaker 0]:  AI 等等所有大科技都在疯狂的投入 AI 基建，
+[Speaker 0]: 而特斯拉也在最近加入了进来。
+[Speaker 1]: 嗯嗯，
+[Speaker 0]: 从下图中可以看出，
+[Speaker 0]: 特斯拉的资本性开支在本季度有了一个大幅的跳涨。
+[Speaker 0]: 从上季度的二十四点九三亿，
+[Speaker 0]: 直接跳涨到了本季度的五十七点八九亿，
+[Speaker 0]: 翻了一倍还多。
+[Speaker 0]: 而自由现金流也因此出现了三年以来的首次转付。
+[Speaker 0]: 这个资本性开支最主要的投入方向就是在前面提到过的 AI 芯片制造工厂 terrify。
+[Speaker 0]: 事实上，
+[Speaker 0]: 今年年初马斯克就说过，
+[Speaker 0]: 资本性开支会在今年从之前的一百亿增加到二百五十亿只，
+[Speaker 0]: 是上个季度没体现出来。
+[Speaker 0]: 这个季度大家是看见厉害了这个 terrifib 工厂，
+[Speaker 0]: 咱得多说两句。
+[Speaker 0]: 它和其他大科技主要建设数据中心不同，
+[Speaker 0]:  terrifib 是芯片制造工厂。
+[Speaker 0]: 数据中心理论上讲，
+[Speaker 0]: 回报更可见需求啊，
+[Speaker 0]: 它也是有保障的，
+[Speaker 0]: 建好之后马上就能带来收入。
+[Speaker 0]: 但即便如此，
+[Speaker 0]: 数据中心的建设都备受质疑。
+[Speaker 0]: 而 terrify 这个芯片制造工厂，
+[Speaker 0]: 根据马斯克的原话说，
+[Speaker 0]: 这主要就是为了给 optimus 人形机器人制造 AI 芯片。
+[Speaker 0]: 而 optimis 的量产还遥遥无期，
+[Speaker 0]: 芯片制造的难度也要更大。
+[Speaker 0]: 所以说特斯拉这个资本性支出的回报可见度也要更低，
+[Speaker 0]: 时间也要更远。
+[Speaker 0]: 更要命的是，
+[Speaker 0]: 特斯拉管理层这次还明确表示，
+[Speaker 0]: 特斯拉现在正处于公司历史上最大规模的投资阶段，
+[Speaker 0]: 今年的资本性投入还会超过此前预计的二百五十亿。
+[Speaker 0]: 为此，
+[Speaker 0]: 公司未来还会有一笔高达三百亿美元的债务融资计划。
+[Speaker 0]: 可见特斯拉也在走所有大科技的老路，
+[Speaker 0]: 开始疯狂烧钱投资 AI 这个决策的战略意义是没毛病的。
+[Speaker 0]: 在上一次财报分析中，
+[Speaker 0]: 我也分析过，
+[Speaker 0]: 在这也注定会给短期的现金流带来持续的压力。
+[Speaker 0]: 因为我不是持续跟踪特斯拉这家股票的所有数据吗？
+[Speaker 0]: 我最近发现布隆尔上华尔街整体对于特斯拉的自由现金流预期在本季度财报后有了一次巨大的调整。
+[Speaker 0]: 图中灰色的线是上个季度。
+[Speaker 0]: 我当时抓的数据市场预计，
+[Speaker 0]: 自由现金流的压力只会持续，
+[Speaker 0]: 二六年一年二七年基本就能转正。
+[Speaker 0]: 而这么一个季度过去，
+[Speaker 0]: 负下现金流的压力直接拉长了一整年。
+[Speaker 0]: 现在预期到二零二八年甚至还都无法恢复。
+[Speaker 0]: 可见本次财报对于华尔街的态度影响之强。
+[Speaker 0]: 对此啊，
+[Speaker 0]: 我个人其实是比较认同的。
+[Speaker 0]: 凭我对马斯克的了解，
+[Speaker 0]: 我认为这次资本性开支的上调绝不会是结束，
+[Speaker 0]: 而是一系列上调的开始。
+[Speaker 0]: 而他认定的事情要想要改变，
+[Speaker 0]: 难度也很大。
+[Speaker 0]: 所以说未来在很长一段时间内，
+[Speaker 0]: 特斯拉资本性开支这个问题都会成为左右它股价的一个关键变量。
+[Speaker 0]: 整体来看，
+[Speaker 0]: 这次特斯拉的财报数据可以用一句话来形容，
+[Speaker 0]: 没有惊喜，
+[Speaker 0]: 全是惊吓，
+[Speaker 0]: 惊吓在哪儿呢？
+[Speaker 0]: 按照马斯克的原话说，
+[Speaker 0]: 就是我们要开始布局高风险高回报的 AI 芯片了。
+[Speaker 0]: 但分析下来，
+[Speaker 0]: 高风险是实的，
+[Speaker 0]: 但高回报却是虚的。
+[Speaker 0]: 而那句历史上最大规模的投资阶段，
+[Speaker 0]: 更是让人脊背发凉。
+[Speaker 0]: 或许未来两年，
+[Speaker 0]: 公司投入还会不断加大，
+[Speaker 0]: 投资者要持续忍耐，
+[Speaker 1]: 因此而带来的财务压力投入不断扩大。
+[Speaker 0]: 这事儿咱各位也别抱有什么侥幸心理了，
+[Speaker 0]: 未来一段时间基本也就这样了。
+[Speaker 0]: 但这也并不意味着世界末日，
+[Speaker 0]: 节流虽然没办法，
+[Speaker 0]: 但开源总也是可以的。
+[Speaker 0]: 一旦特斯拉跑出了全新的收入模式，
+[Speaker 0]: 投资者看见了回报，
+[Speaker 0]: 那投入增加也就没有那么大问题了，
+[Speaker 0]: 股价也能够回暖。
+[Speaker 0]: 那么接下来咱们就来好好分析一下，
+[Speaker 0]: 特斯拉最重要的三大未来收入来源，
+[Speaker 0]: 也是它最重要的三大科技趋势，
+[Speaker 0]: 分别是自动驾驶、
+[Speaker 0]:  FSD、
+[Speaker 0]:  robot、
+[Speaker 0]:  taxi、
+[Speaker 0]: 自动出租车以及 optimum 人形机器人。
+[Speaker 0]: 咱先来看 FSD。
+[Speaker 0]: 二季度，
+[Speaker 0]: 特斯拉 FSD 订阅用户从一百二十八万增长至一百四十八万，
+[Speaker 0]: 同比大涨了百分之五十。
+[Speaker 0]: 六更大的亮点是北美新车在交付时就启用 FSD 的比例，
+[Speaker 0]: 闯记录的达到了百分之五十五，
+[Speaker 0]: 远高于主流投行预期的百分之三十左右。
+[Speaker 0]: 这说明越来越多的消费者其实是为了 FSD 而买的特斯拉。
+[Speaker 0]: 而从渗透率的表现上看，
+[Speaker 0]: 本季度 FSD 也在加速上升。
+[Speaker 0]: 从上季度的百分之十三点九提升到了本季度的百分之十五点三，
+[Speaker 0]: 这说明不仅新车用户在订阅 FSD 存量中的这些老用户也在不断的被转化。
+[Speaker 0]: 这个渗透率的绝对值咱不用太在意，
+[Speaker 0]: 因为现在主要的 FSD 订阅都来自于北美，
+[Speaker 0]: 其他地区。
+[Speaker 0]: 要不就是不能订阅，
+[Speaker 0]: 要不就是阉割版，
+[Speaker 0]: 所以影响也都有限。
+[Speaker 0]: 但特斯拉的这个渗透率的口径是全部车主的订阅比例，
+[Speaker 0]: 所以天然就会偏低。
+[Speaker 0]: 所以说整体来看，
+[Speaker 0]:  FSD 的表现可以说是出乎意料的。
+[Speaker 0]: 好，
+[Speaker 0]: 这些 FSD 的能力提升有很大关系。
+[Speaker 0]: 我个人就在使用 FSD，
+[Speaker 0]: 现在出行基本已经完全离不开它了。
+[Speaker 0]: 不知道屏幕前的各位特斯拉车主是否也有类似的感受呢？
+[Speaker 0]: 你们是否会续订 FSD 订阅呢？
+[Speaker 0]: 我在视频右下角放了个问卷，
+[Speaker 0]: 大家不妨一起来看看最真实的用户反馈。
+[Speaker 0]: 从数据上看，
+[Speaker 0]: 可以说，
+[Speaker 0]:  FSD 现在已经到了一个量变到质变的转折点，
+[Speaker 0]: 再加上特斯拉已经在欧洲打开了，
+[Speaker 0]: 包括荷兰、
+[Speaker 0]: 立陶宛、
+[Speaker 0]: 丹麦、
+[Speaker 0]: 比利时和艾沙尼亚等多个国家，
+[Speaker 0]: 未来注定会有更多的欧洲国家批准 FSD。
+[Speaker 0]: 所以往后看，
+[Speaker 0]: 预计 FSD 的增长和渗透还有进一步提升的空间。
+[Speaker 0]: 再来看 robot、
+[Speaker 0]:  taxi 的情况。
+[Speaker 0]: 本季度，
+[Speaker 0]:  robot taxi 累计付费行驶里程达到了二百五十万英里，
+[Speaker 0]: 其中完全无监管的里程超过了三十八万英里，
+[Speaker 0]: 并且预计无监管里程将以每周两位数百分比的速度增长。
+[Speaker 0]: 不过，
+[Speaker 0]: 这次财报最大的变化不在于 robotaxi 数据上的增长，
+[Speaker 0]: 而在于公司战略上的变化。
+[Speaker 0]: 公司不再执着于在单一城市扩张车队，
+[Speaker 0]: 而是将重心放到铺开不同城市的落地上。
+[Speaker 0]: 这么做的好处是积攒势能，
+[Speaker 0]: 为了未来 cyber cap 的上路做铺垫。
+[Speaker 0]: 但缺点是这么做，
+[Speaker 0]: 很显然会进一步的延缓 robot taxi 大规模变现的时间。
+[Speaker 0]: 现在管理层也表示，
+[Speaker 0]: 他们想先用小车队在单一城市把各种问题先逐一解决之后再考虑扩展车队。
+[Speaker 0]:  robot tataxi 的另大大变化是 cyber cap 的投产。
+[Speaker 0]:  caber cap 和现在路上跑的这些 robot taxi 不同，
+[Speaker 0]: 它没有方向盘，
+[Speaker 0]: 没有脚踏板，
+[Speaker 0]: 是 robot taxi 业务的一个专用车型。
+[Speaker 0]: 该车型已于二季度开始投产，
+[Speaker 0]: 并在七月已经将服务扩展至迈阿密坦帕和奥兰多。
+[Speaker 0]: 不过财报会上也暴露了一个问题，
+[Speaker 0]: 那就是 cyber cap 上线的服务可能会进一步延期。
+[Speaker 0]: 原因是 seber cap 它不能沿用之前老车型 model three 和 model y 的数据。
+[Speaker 0]: 它还需要更多的时间来重新积累 FSD 的里程数据。
+[Speaker 0]: 所以你看现在的 robot tax 业务从纵向扩车队改成了横向铺城市，
+[Speaker 0]: 而未来的 cabbercap 又需要重新积累数据。
+[Speaker 0]: 相比于之前市场预期的明年年初即可开始商业化的这个时间表。
+[Speaker 0]: 这次采报后，
+[Speaker 0]:  robot taxi 的回报落地时间很显然又再一次的大幅延后了。
+[Speaker 0]: 最后，
+[Speaker 0]: 咱们再看 optimus 人形机器人，
+[Speaker 0]: 它其实上个季度就已经宣布延期了，
+[Speaker 0]: 而这个季度依旧没有任何好消息。
+[Speaker 0]: 第一代生产线仍预计今年年内投产，
+[Speaker 0]: 但生产会遵循 s 曲线初期的产量将在相当长一段时间内维持在低位。
+[Speaker 0]: 马斯克在财报会议上也再次强调，
+[Speaker 0]:  optimists 是特斯拉有史以来制造扩产难度最大的产品，
+[Speaker 0]: 没有之一。
+[Speaker 0]: 因为机器人身上的一切都是全新的供应链，
+[Speaker 0]: 几乎要从零开始重建。
+[Speaker 0]: 而机器人手部的灵巧度又要求生产线具备更精细的工艺。
+[Speaker 0]: 马斯克反复铺垫这些事儿的难度，
+[Speaker 0]: 在我看来很可能就是在暗示，
+[Speaker 0]: 无论是大规模投入工厂内部使用，
+[Speaker 0]: 还是去外部交付，
+[Speaker 0]: 都需要更长的时间。
+[Speaker 0]:  optimis 的对线，
+[Speaker 0]: 现在看起来还是遥遥无期。
+[Speaker 0]:  optimus 人形机器人是特斯拉最具想象空间的业务。
+[Speaker 0]: 但作为咱投资者，
+[Speaker 0]: 你也必须要清楚，
+[Speaker 0]: 从资本的角度，
+[Speaker 0]: 这部分业务当前啊几乎完全没有计入到公司的估值里。
+[Speaker 0]: 毕竟华尔街也清楚，
+[Speaker 0]:  optimus 的落地还有太多的不确定性，
+[Speaker 0]: 时间也还非常的远。
+[Speaker 0]: 所以它的好坏比起 FSD 和 robot，
+[Speaker 0]:  taxi 重要性要低得多。
+[Speaker 0]: 我们了解它的现状即可。
+[Speaker 0]: 最后，
+[Speaker 0]: 咱总结一下，
+[Speaker 0]: 三大科技趋势里，
+[Speaker 0]:  FST 最为顺利，
+[Speaker 0]: 渗透率和地区扩张都在按部就班的进行，
+[Speaker 0]: 表现也非常不错。
+[Speaker 0]:  robotaxi 则因为战略转向和 cyber cap 的数据收集问题，
+[Speaker 0]: 回报会进一步的延后。
+[Speaker 0]:  optimate 的延期倒是并不意外，
+[Speaker 0]: 影响也相对较小。
+[Speaker 1]: 嗯嗯，
+[Speaker 1]: 嗯把财报和科技叙事这两部分分析放到一起来看。
+[Speaker 0]: 我们发现，
+[Speaker 0]: 特斯拉未来两年的资本险开支还会继续加大，
+[Speaker 0]: 而科技叙势的回报又进一步推迟，
+[Speaker 0]: 甚至看不清回报的时间点。
+[Speaker 0]: 一边是烧钱，
+[Speaker 0]: 越烧越多，
+[Speaker 0]: 一边是兑现越推越远，
+[Speaker 0]: 股价跌个百分之二十。
+[Speaker 0]: 在我看来，
+[Speaker 0]: 一点儿也不冤。
+[Speaker 0]: 特斯拉是我在美特 pro 上跟踪的股票之一，
+[Speaker 0]: 它的每一次财报我都会出详细的财报分析。
+[Speaker 0]: 在上一次的研究中，
+[Speaker 0]: 我们就得出结论说，
+[Speaker 0]: 特斯拉短期内没有足够的上涨动能，
+[Speaker 0]: 而风险也相对较高。
+[Speaker 0]: 很显然，
+[Speaker 0]: 这段时间的特斯拉股价也基本验证了我们当时的观点。
+[Speaker 0]: 现在咱们继续往后看我认为关键在于两点，
+[Speaker 0]: 一个是资本性开支的影响，
+[Speaker 0]: 另一个则是科技叙势的兑现。
+[Speaker 0]: 我挨个说说我个人的看法，
+[Speaker 0]: 给大家做个参考。
+[Speaker 0]: 关于资本性开支，
+[Speaker 0]: 我认为短期内这个风险还会逐步加大。
+[Speaker 0]: 现在不过就是一个开始，
+[Speaker 0]: 一方面是在宏观上的压力，
+[Speaker 0]: 在高油价的背景下，
+[Speaker 0]: 加息的预期越来越高。
+[Speaker 0]: 而这次特斯拉明确表示，
+[Speaker 0]: 未来会通过债务融资再借三百亿美元，
+[Speaker 0]: 在利率上行的环境里借钱，
+[Speaker 0]: 那成本显然会太高。
+[Speaker 0]: 在叠加新增资产折旧的时候，
+[Speaker 0]: 利润端和现金流端都会承受巨大压力。
+[Speaker 0]: 在这个利率和成本都对融资不利的时候，
+[Speaker 0]: 特斯拉却顶着宏观逆风，
+[Speaker 0]: 继续加码资本性开支，
+[Speaker 0]: 那未来的压力恐怕会持续增加。
+[Speaker 0]: 另一方面则是在金融市场层面的压力。
+[Speaker 0]: 现在这个阶段的市场，
+[Speaker 0]: 就是对于投入加大这件事极其的敏感。
+[Speaker 0]: 这不是特斯拉一家公司的事，
+[Speaker 0]: 而是所有大科技的证件。
+[Speaker 0]: 而特斯拉的投入回报还比其他公司要更晚，
+[Speaker 0]: 不确定性要更强，
+[Speaker 0]: 这会继续增加特斯拉股价的波动。
+[Speaker 0]: 而关于特斯拉的另一大部分，
+[Speaker 0]: 它的三大科技叙事这部分，
+[Speaker 0]: 咱得好好聊聊，
+[Speaker 0]: 这是未来公司股价回暖的最大催化剂。
+[Speaker 0]: 我想这点是毋庸置疑的，
+[Speaker 0]: 但我个人认为，
+[Speaker 0]: 在短期内我们恐怕很难看到任何质变。
+[Speaker 0]:  FSD 的表现确实不错。
+[Speaker 0]: 但现在体量太小，
+[Speaker 0]: 缺乏业绩上的爆发力，
+[Speaker 0]: 它的爆发还要依赖于地区的扩展。
+[Speaker 0]: 可这部分潜力虽然足够，
+[Speaker 0]: 但速度太慢，
+[Speaker 0]: 爆发力不足，
+[Speaker 0]: 靠存量的渗透去实现质变难度太大。
+[Speaker 0]: 科技叙势的真正重点还是得要看，
+[Speaker 0]:  robot、
+[Speaker 0]:  taxi，
+[Speaker 0]: 它是短期内最可见，
+[Speaker 0]: 也是想象空间最大的商业模式。
+[Speaker 0]: 但从公司的战略上看，
+[Speaker 0]: 特斯拉其实并不着急全力上量，
+[Speaker 0]: 更多是一步一个脚印的安全布局。
+[Speaker 0]: 这个战略我个人认为没有任何问题，
+[Speaker 0]: 换任何一个管理层也理应要这么做，
+[Speaker 0]: 放其他人身上，
+[Speaker 0]: 市场也可能不会有这么大的反应。
+[Speaker 0]: 但问题是马斯克他不一样，
+[Speaker 0]: 他的风格就是先把这大话给说出去，
+[Speaker 0]: 激励员工激励市场，
+[Speaker 0]: 然后再在运营中不断调整。
+[Speaker 0]: 而华尔街这帮人也是真实在每次马斯克一给出预期，
+[Speaker 0]: 他们就老老实实的照着预期重新估值，
+[Speaker 0]: 那股价就蹭蹭往上涨。
+[Speaker 0]: 可问题是，
+[Speaker 0]: 之后管理层在运营时就会发现，
+[Speaker 0]: 预期根本就达不到，
+[Speaker 0]: 一旦再调整，
+[Speaker 0]: 预期股价也得跟着调整。
+[Speaker 0]: 而我认为现在就是 robot taxi 典型的运营调整期。
+[Speaker 0]: 在实际的城市铺开过程中，
+[Speaker 0]: 困难肯定比想象中要更多，
+[Speaker 0]: 预期大概率还会进一步的延后。
+[Speaker 0]: 所以我认为在科技蓄势这条线上，
+[Speaker 0]: 公司股价短期内可能会缺乏足够的上涨动能。
+[Speaker 0]: 可能有人要说了，
+[Speaker 0]: 马斯克他最厉害的地方就是抓智行。
+[Speaker 0]: 他能让不可能变为可能。
+[Speaker 0]: 我自己看过马斯克的所有传记，
+[Speaker 0]: 我的感受是，
+[Speaker 0]: 马斯克的过人之处不在于智行，
+[Speaker 0]: 而在于他极致的冒险能力。
+[Speaker 0]: 往往事情越是有挑战，
+[Speaker 0]: 风险越高，
+[Speaker 0]: 给他的生死存亡的压力越大。
+[Speaker 0]: 他就越能爆发出惊人的执行力，
+[Speaker 0]: 去完成那些不可能完成的事情。
+[Speaker 0]: 但反过来，
+[Speaker 0]: 如果事情平稳推进，
+[Speaker 0]: 他就会很快失去兴趣。
+[Speaker 0]: 当年 solar city 被马斯克遗弃，
+[Speaker 0]: 就是个典型的例子，
+[Speaker 0]: 他自己也亲口承认事情发展顺利，
+[Speaker 0]: 会让他陷入迷茫，
+[Speaker 0]: 丧失动力。
+[Speaker 0]: 或许这也是为什么，
+[Speaker 0]: 我们总会看到他频繁陷入争端，
+[Speaker 0]: 参与 twitter 的收购，
+[Speaker 0]: 甚至参与政治的原因。
+[Speaker 0]: 在我看来，
+[Speaker 0]: 这些都是他寻求 motivation 的一种方式。
+[Speaker 0]: 说这些是什么意思呢？
+[Speaker 0]: 就是说当前的特斯拉其实并没有什么太多挑战了，
+[Speaker 0]: 最难攻克的技术问题，
+[Speaker 0]: 现在已经步入正轨，
+[Speaker 0]: 接下来就是漫长的监管批文和实地测试了。
+[Speaker 0]: 然而这些都是马斯克最擅长的那个拉链式动员解决不了的问题。
+[Speaker 0]: 你总不能拉着政府官员跟你一起睡办公室批文件，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以我认为现在对于特斯拉的投资者而言，
+[Speaker 0]: 不是迷信马斯克执行力的时候，
+[Speaker 0]: 而是期待他少整幺蛾子的时候。
+[Speaker 0]: 所以整体来看，
+[Speaker 0]: 我认为短期特斯拉的股价仍然是比较被动的，
+[Speaker 0]: 资本性开支的压力也会逐步加大，
+[Speaker 0]: 而科技蓄势的催化恐怕很难很快兑现。
+[Speaker 0]: 所以它依旧是一个缺乏上涨动能。
+[Speaker 0]: 并且风险较高的状态。
+[Speaker 0]: 不过越是短期悲观的时候，
+[Speaker 0]: 我们投资者越需要拉长视野，
+[Speaker 0]: 冷静的思考。
+[Speaker 0]: 我认为现在投资特斯拉最为关键的一件事，
+[Speaker 0]: 就是想清楚你买特斯拉到底买的是什么。
+[Speaker 0]: 对于我而言，
+[Speaker 0]: 第一，
+[Speaker 0]: 特斯拉是当前市场上唯一一架物理 AI 标的，
+[Speaker 0]: 从 FSD 到 robotaxi，
+[Speaker 0]: 再到 optimim 人形机器人。
+[Speaker 0]: 本质上是同一套物理 AI 能力在不同场景下的落地。
+[Speaker 0]: 作为物理 AI 的唯一标的，
+[Speaker 0]: 特斯拉会持续享受稀缺性的溢价。
+[Speaker 0]: 如果你认同物理 AI 的价值，
+[Speaker 0]: 那么它就是当前最好的投资标的。
+[Speaker 0]: 而第二点我也清楚的意识到，
+[Speaker 0]:  FSD 和 robot taxi 的市场空空是巨大大，
+[Speaker 0]: 并且且一定能够兑现。
+[Speaker 0]: 尤其是 rot taxi，
+[Speaker 0]: 这是一个万亿级别的出行市场，
+[Speaker 0]: 现在网约车的渗透也才百分之一不到。
+[Speaker 0]: 未来有巨大的成长空间，
+[Speaker 0]: 尽管现在在进度上有所推迟，
+[Speaker 0]: 但是这两大产品的商业化已经开始推进，
+[Speaker 0]: 并且注定能够实现。
+[Speaker 0]: 它已经不再是两年前的那个卖故事的阶段了，
+[Speaker 0]: 而是随时可能发生的结构性变化。
+[Speaker 0]: 我买特斯拉买的就是这两点，
+[Speaker 0]: 只要这两点不变，
+[Speaker 0]: 整个投资逻辑就不会发生改变。
+[Speaker 0]: 短期的风险我们确实要应对，
+[Speaker 0]: 但如果过于在意短期风险而忽视了长期的机会，
+[Speaker 0]: 那么机会成本也是非常高昂的。
+[Speaker 0]: 从历史经验上看，
+[Speaker 0]: 特斯拉每一次股价的回暖都是来自于科技蓄势的提振，
+[Speaker 0]: 并且每一次的涨幅都很高，
+[Speaker 0]: 而下一次科技蓄势的提振，
+[Speaker 0]: 很可能就直接是商业化的开始了。
+[Speaker 0]: 所以说它的势能只会更强。
+[Speaker 0]: 但我们必须要承认科技叙势，
+[Speaker 0]: 它本身几乎是无法预测的，
+[Speaker 0]: 它取决于马斯克的嘴，
+[Speaker 0]: 也取决于市场情绪。
+[Speaker 0]: 但我认为有一点是可以确定的，
+[Speaker 0]: 在一个明确有极高价值的机会上，
+[Speaker 0]: 越是情绪低点，
+[Speaker 0]: 越是悲观，
+[Speaker 0]: 则越是好的买入机会。
+[Speaker 0]: 这话可不是我拍脑门说的。
+[Speaker 0]: 我特地统计了特斯拉上市以来单日跌幅超过百分之十的全部大跌，
+[Speaker 0]: 并把每次大跌之后，
+[Speaker 0]: 不同时间段的股价表现绘制成了下面这张图，
+[Speaker 0]: 每一个点就是一次大跌。
+[Speaker 0]: 绿点代表之后的上涨，
+[Speaker 0]: 红点代表之后的下跌，
+[Speaker 0]: 而黑线则是大跌后涨幅的中位数，
+[Speaker 0]: 可以看到大跌之后的一周和一个月，
+[Speaker 0]: 上涨概率只有七成左右，
+[Speaker 0]: 一周后的中位数涨幅也就百分之五。
+[Speaker 0]: 这说明大跌之后，
+[Speaker 0]: 恐慌情绪往往还要再发酵一阵，
+[Speaker 0]: 但只要把持有的周期拉长，
+[Speaker 0]: 胜率和收益率就都会有明显的改善。
+[Speaker 0]: 三个月后上涨概率提升到八成以上，
+[Speaker 0]: 中位数涨幅升到了百分之二十六。
+[Speaker 0]: 到了半年后，
+[Speaker 0]: 那就更明显了，
+[Speaker 0]: 胜率进一步升高。
+[Speaker 0]: 到了九成，
+[Speaker 0]: 中位数涨幅大幅提升到了百分之六十四。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 特斯拉历史上股价大跌之后，
+[Speaker 0]: 买入并持有半年有九成的概率能赚钱，
+[Speaker 0]: 而且还能赚不少。
+[Speaker 0]: 所以，
+[Speaker 0]: 这次二季度财报后股价大跌百分之二十，
+[Speaker 0]: 在我看来，
+[Speaker 0]: 更像是一个可以慢慢开始布局的时间点。
+[Speaker 0]: 对特斯拉这种靠蓄事驱动波动巨大的标的，
+[Speaker 0]: 最好的投资时点就是在情绪最差市场最悲观的时候买入。
+[Speaker 0]: 这时的胜率和安全边际都足够高，
+[Speaker 0]: 真正的安全边际就藏在市场最恐惧的时刻。
+[Speaker 0]: 特斯拉这样的股票在悲观时逆势布局并耐心持有，
+[Speaker 0]: 输掉的最多只是时间，
+[Speaker 0]: 而大概率不会输钱。
+[Speaker 0]: 好了，
+[Speaker 0]: 到这里，
+[Speaker 0]: 特斯拉的最新财报就都跟各位看官分析完了。
+[Speaker 0]: 最后请原谅我再给自己打个广告，
+[Speaker 0]: 向特斯拉财报分析。
+[Speaker 0]: 这样的内容。
+[Speaker 0]: 在咱美淘 pro 上，
+[Speaker 0]: 还有很多美 to pro，
+[Speaker 0]: 是一个专为咱普通华人投资者打造的专业投研产品。
+[Speaker 0]: 其中，
+[Speaker 0]: 美投团队会对近二十家优质公司提供全面且深度的研究，
+[Speaker 0]: 并且跟踪提醒未来任何的关键变化，
+[Speaker 0]: 特斯拉就是其中之一。
+[Speaker 0]: 这么做的目的就是为了让咱普通投资者能够安心的做出有依据的投资决策。
+[Speaker 0]: 每个月我们美投团队还会给大家挖掘一到两家市场最具潜力的新机会，
+[Speaker 0]: 并进行深入研究。
+[Speaker 0]: 我们有八位专业的全职分析师，
+[Speaker 0]: 平均有十年以上的从业经验。
+[Speaker 0]: 我们有二四三六五为大家网罗市场最前沿的机会。
+[Speaker 0]: 能省下你不少的研究时间。
+[Speaker 0]: 在最新发布的 mate pro 视频中，
+[Speaker 0]: 我们对特斯拉、
+[Speaker 0]: 英伟达、
+[Speaker 0]:  peantier、
+[Speaker 0]: 谷歌、
+[Speaker 0]: 微软、
+[Speaker 0]:  meta、
+[Speaker 0]: 台积电等多家企业总结出了最新的投研观点。
+[Speaker 0]: 一期视频让你快速了解所有这些公司最新的研究结论。
+[Speaker 0]: 如果你是这些公司的股东或者想要择机买入，
+[Speaker 0]: 那么这期视频你一定不能错过从这里开始，
+[Speaker 0]: 能够帮助你最快速的把握他们的投资。
+[Speaker 0]: 关键。
+[Speaker 0]: 感兴趣的看官，
+[Speaker 0]: 欢迎订阅美特 pro 新用户前七天免费试用，
+[Speaker 0]: 快来体验一下吧。
+[Speaker 0]: 如果你喜欢美头军的视频，
+[Speaker 0]: 别忘了点赞、
+[Speaker 0]: 关注和转发哦，
+[Speaker 0]: 谢谢大家。
