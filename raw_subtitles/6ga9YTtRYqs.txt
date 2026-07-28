@@ -1,0 +1,890 @@
+[Speaker 0]: 二零二零年七月的一个星期一呢，
+[Speaker 0]: 有一家公司啊签了一张支票，
+[Speaker 1]: 金额十五亿美金，
+[Speaker 0]: 换算成人民币是一百多个亿。
+[Speaker 1]: 啊，
+[Speaker 1]: 这是美国历史上金额最大的一笔版权和解，
+[Speaker 0]: 不是之一啊，
+[Speaker 0]: 是最大的。
+[Speaker 0]: 你第一次看到这个数字，
+[Speaker 0]: 你会想啊，
+[Speaker 0]: 这是干啥了呀？
+[Speaker 1]: 得赔这么多钱。
+[Speaker 0]: 当然呢特别简单，
+[Speaker 0]: 盗版这家公司呢从网上的盗版书站扒下来七百万本书书啊整七七百万本。
+[Speaker 0]: 然后呢为去啊训练自己的人工智能核解方案是这么分的。
+[Speaker 0]: 绿律师那边呢先拿走一亿零一百万美元啊，
+[Speaker 0]: 这律师赚翻了。
+[Speaker 1]: 打这个官司啊，
+[Speaker 0]: 作者这边呢一本书赔三千美金，
+[Speaker 0]: 折合成人民币两万多啊，
+[Speaker 0]: 最后纳入名单呢是五十万本书。
+[Speaker 0]: 到目前为止呢，
+[Speaker 1]: 这五十万本书的作者里头啊，
+[Speaker 0]: 已经有百分之九十一的人把钱给领走了。
+[Speaker 1]: 这第一起真正走到和解的 AI 训练版权案。
+[Speaker 0]: 这个我在 all in pocast 都听到这个数字啊，
+[Speaker 1]: 有一百五十起答案。
+[Speaker 0]: 纽约时报的是其中一起唱片也在里头啊，
+[Speaker 1]: 你算一算这个赔偿标准，
+[Speaker 1]: 一本书三千美金。
+[Speaker 1]: 对于这个畅销书作家可能不算什么。
+[Speaker 0]: 但是呢对于很多普通作者啊，
+[Speaker 0]: 他们拿到的这个版权费用可能都没这么多钱。
+[Speaker 0]: 因为我觉得书籍它也是一个长尾这样一个市场。
+[Speaker 1]: 就是说呢他头部的这些书呢，
+[Speaker 0]: 作家特别赚钱。
+[Speaker 0]: 但是很多作家呢他其实啊赚只是一个辛苦钱。
+[Speaker 0]: 那这笔钱对于他们来说呢，
+[Speaker 0]: 虽然不算多，
+[Speaker 1]: 但也算不上是打发人啊，
+[Speaker 1]: 这还只是盗版书的问题啊。
+[Speaker 1]: 我之前好像看到一个新闻，
+[Speaker 1]: 说是 matter 呢，
+[Speaker 1]: 从这个成人网站上下载这些视频啊，
+[Speaker 0]: 就是这些啊成人视频来训练自己的这个模型啊，
+[Speaker 0]: 不知道有没有被这些日本的啊做这个成人电影的公司给告了啊，
+[Speaker 0]: 这个版权费用可能就会更高了。
+[Speaker 0]: 那每个女优是不是也得费到一大笔钱呢？
+[Speaker 0]: 啊，
+[Speaker 0]: 这个我们就看后续的发展了。
+[Speaker 0]: 这在同一个星期呢，
+[Speaker 1]: 华盛顿的白宫科技政策负责人啊，
+[Speaker 0]:  michael 公开放话，
+[Speaker 0]: 他说啊我们掌握了信息，
+[Speaker 1]: 中国的月之暗面啊是靠蒸馏 anthropic 的 fabo 模型才做出来的。
+[Speaker 0]:  k three 啊蒸馏这个词呢啊我给大家解释一下，
+[Speaker 1]: 大体意思就是说啊拿别人模型吐出来的东西呢，
+[Speaker 0]: 回头再训练自己你的模型。
+[Speaker 0]: 就比如说你问这个拆 GBT 或者是 eropic 的 cloud 啊问一些问题，
+[Speaker 1]: 然后呢把他们的这个回答也记录下来。
+[Speaker 0]: 这样呢就组成了一个训练集，
+[Speaker 0]: 然后呢再拿这些数据再去喂给自己的这个模型训练的过程。
+[Speaker 0]: 这是什么好处呢？
+[Speaker 0]: 就说你的这些数据源啊啊这些信息的质量会比之前那种大海捞针似的。
+[Speaker 0]: 从这个互联网上扒的这些帖子质量要高很多。
+[Speaker 1]: 这种操作方式呢就叫做蒸馏。
+[Speaker 0]: 啊，
+[Speaker 0]: 之前网上有人画了一个梗图，
+[Speaker 0]: 就是这个蒸馏是 s shopping 呢拿着这个钓鱼竿。
+[Speaker 0]: 然后从这个人类所有的知识中啊，
+[Speaker 0]: 包括这些五十万本书的这些作者的作品中啊进行蒸馏。
+[Speaker 0]: 蒸馏完之后呢，
+[Speaker 0]: 其他公司啊像什么 deep seek 啊，
+[Speaker 0]: 或者是越战岸面又拿着一个钓鱼竿呢，
+[Speaker 0]: 从他钓出来的这个桶里头钓。
+[Speaker 0]: 啊，
+[Speaker 0]: 那问题就来了啊，
+[Speaker 1]: 一方面呢是 anthoppic 啊，
+[Speaker 0]: 这家公司在这个法庭上的一场，
+[Speaker 1]: 我们把全世界的书，
+[Speaker 0]: 全世界的网站，
+[Speaker 1]: 全世界创作者东西拿去训练呢，
+[Speaker 0]: 这叫做合理使用 fair use 啊，
+[Speaker 0]: 作者乐不乐意呢不重要。
+[Speaker 1]: 另一方面呢，
+[Speaker 0]: 根据 all in poadcast，
+[Speaker 0]: 几位主持人说啊，
+[Speaker 1]: 这是同一家公司递到华盛顿的意思，
+[Speaker 0]: 中国人拿我们的模型的输出去训练呢，
+[Speaker 1]: 这不行，
+[Speaker 1]: 这叫偷。
+[Speaker 1]: 所以你听明白了吗？
+[Speaker 0]: 啊，
+[Speaker 1]: 我用你们人类所有的东西呢叫合理使用，
+[Speaker 0]: 你们用我的这叫盗窃。
+[Speaker 0]: 这一句话呢在最近的这一期 all in pocast ast 被被反复拿出来讨论。
+[Speaker 0]: 几位主持人呢虽然都是美国人啊，
+[Speaker 1]: 但是呢他们对这个 ans OR py 的做法非常的不屑。
+[Speaker 0]: 他们说这是彻头彻尾的虚伪，
+[Speaker 1]: 而且呢说这话的四个人里头啊，
+[Speaker 1]: 有一位呢是现任白宫的人工智能事务负责人啊，
+[Speaker 0]: 就是 david sex 这一集节目呢我是从头听到尾的，
+[Speaker 0]: 我觉得还挺有意思啊。
+[Speaker 0]: 因为他其实不是一场关于中美的辩论，
+[Speaker 0]: 更像是一场美国人的自己的家务事，
+[Speaker 0]: 就是美国科技圈自己人呢当着这些几百万观众的面啊，
+[Speaker 1]: 把自己这个科技圈最成功的一家公司啊，
+[Speaker 1]:  anthropic 架在火上烤。
+[Speaker 0]: 这里头呢其实存在一个多方博弈的问题，
+[Speaker 1]: 就是看这样一个科技圈啊，
+[Speaker 0]: 它其实代表不同方的利益。
+[Speaker 0]:  SRB 真正想要做的是呢让美国政府啊下令把中国的一些开源模型全都给禁止了。
+[Speaker 0]: 那这样的话呢，
+[Speaker 1]:  SRB 和 open AI 他们能获得一个双寡头的经济结构，
+[Speaker 1]: 这样他们就能够持续保持这样一个高收入啊，
+[Speaker 0]: 每个 token 都差距。
+[Speaker 0]: 你很多的钱，
+[Speaker 1]: 它的 profit、
+[Speaker 1]:  margin 也能维持的很高，
+[Speaker 0]: 有点像 uber 和 left，
+[Speaker 0]: 把这个行业内其他的竞争对手全都卷死了。
+[Speaker 0]: 那么现在就变成打车市场，
+[Speaker 1]: 只有两个选择，
+[Speaker 1]: 他们就可以抬价了。
+[Speaker 0]: 问题是啊站在另一边的这些美国科技圈的人像什么微软啊、
+[Speaker 1]: 谷歌啊这些云服务厂商，
+[Speaker 1]: 他们真正在意的是什么呢？
+[Speaker 0]: 是这些创业公司啊，
+[Speaker 0]: 能够用他们的这些云服务。
+[Speaker 0]: 然后呢在这上面啊去运行这些中国的模型啊，
+[Speaker 1]: 这些开源的模型。
+[Speaker 1]: 其实对他们来说啊，
+[Speaker 1]: 按照峰哥的话说这是好事啊，
+[Speaker 1]: 对吧？
+[Speaker 1]: 我可以非常廉价的运用这种高性能的模型，
+[Speaker 1]: 而且呢还不按 token 计费。
+[Speaker 1]: 最后大家花的钱全是这些云服务的账单，
+[Speaker 1]: 那岂不是共赢嘛？
+[Speaker 0]: 而且现在存在这样一个问题，
+[Speaker 0]:  SRP 在法庭上说的这个东西啊和他对白工进行游说。
+[Speaker 0]: 说的内容呢其实存在一个矛盾的这是他在法庭上说我使用别人的这些所有信息去进行训练模型，
+[Speaker 0]: 那是合理使用。
+[Speaker 0]: 那为啥你这一个模型产出的东西就不能被别人也拿去合理使用呢？
+[Speaker 0]: 你总不能说我用你们的叫合理使用，
+[Speaker 0]: 你用我的叫盗窃，
+[Speaker 1]: 这不是明显的双标嘛。
+[Speaker 1]: 整个事情的隐性呢是一个模型啊，
+[Speaker 0]: 中国的越制案面扔出来，
+[Speaker 0]: 一个开源模型叫做 kimi k three。
+[Speaker 0]: 它的性能不是落后，
+[Speaker 0]: 半年了也不是落后一年。
+[Speaker 0]: 因为之前的共识是啊中国的这些开源模型呢，
+[Speaker 0]: 落后美国的这些顶尖的闭源模型，
+[Speaker 0]: 差不多八个月左右时间。
+[Speaker 0]: 而 kimi 呢打破了这个认知啊，
+[Speaker 0]:  kimi 呢现在直接跟啊 anthroppic 和 open i 的最顶尖的第一梯队的模型站在同一条线上了，
+[Speaker 0]: 价格还便宜了一大半。
+[Speaker 0]: 更关键的问题是啊，
+[Speaker 0]: 这个模型还是开源的。
+[Speaker 1]: 开源什么意思呢？
+[Speaker 0]: 就是说啊这个模型不是放在别人服务器上，
+[Speaker 0]: 让按别使用用收费啊。
+[Speaker 0]: 就像这个 anthropic 的这些大语言模型，
+[Speaker 1]: 你得按 token 来付费。
+[Speaker 0]: 它是一个你可以自己下载到自己的电脑上，
+[Speaker 0]: 在自己机器上跑的文件，
+[Speaker 0]: 下载完之后呢，
+[Speaker 0]: 你就断网，
+[Speaker 1]: 它照样可以干活啊。
+[Speaker 0]: 我之前在我的这个新买的 macbook 上，
+[Speaker 0]: 还跑过一些啊小一点的模型啊，
+[Speaker 0]: 几个 billing 的这个参数的模型，
+[Speaker 0]: 性能呢确实没有办法跟这前的模型比啊，
+[Speaker 1]: 但是呢有一些任务啊交给他们干就可以了。
+[Speaker 1]: 而且呢完全免费只是消耗你自己的这样一个电费。
+[Speaker 0]: 比如说之前他们有做过一个开源的模型，
+[Speaker 0]: 就是把这个 PDF 的图像啊，
+[Speaker 0]: 它能够把这些内容识别出来，
+[Speaker 0]: 然后转换成文字啊，
+[Speaker 0]: 这个模型好像也是一个中国实验室开放的性能做的已经非常好了。
+[Speaker 0]: 我都不用调用这些付费的 API，
+[Speaker 0]: 我直接用它这个开源模型在我的本地上跑就行了。
+[Speaker 1]: 你可以这么理解，
+[Speaker 1]: 开模模型可以以它当成一本书。
+[Speaker 0]: 这本书呢一旦印出来发出去之后啊，
+[Speaker 0]: 全世界谁都能拿到你呢，
+[Speaker 0]: 没有办法把它收回来。
+[Speaker 0]: 这一下呢华盛顿就炸了。
+[Speaker 0]: 上一次出现这种场面呢，
+[Speaker 0]: 还是二零二五年年初啊，
+[Speaker 1]:  DBC 刚出来那会儿，
+[Speaker 1]: 整个这一周的时间线就非常有意思了。
+[Speaker 0]: 星期一呢 XO 报道说啊，
+[Speaker 0]: 白宫正在考虑直接封杀中国的开源模型。
+[Speaker 1]: 星期三呢 wred 有报道啊，
+[Speaker 0]: 商务部长 howard lotniic 啊不想疯，
+[Speaker 1]: 他的想法呢是反过来与其赌啊，
+[Speaker 0]: 不如咱们也砸钱，
+[Speaker 0]: 逼着美国自己的实验室做出更好开源模型来。
+[Speaker 0]: 其实呢美国实验室啊不是做不好好的开模模型，
+[Speaker 0]: 他们是不想开源。
+[Speaker 1]: 这 open en i 他完全有能力做出非常好的甚至超过这些中国开源模型的模型。
+[Speaker 0]: 但是呢这会影响到他们闭源模型的生意的。
+[Speaker 0]: 所以对他们来说啊，
+[Speaker 0]: 这不是他们的商业策略啊，
+[Speaker 1]: 你可以看到白宫之内啊，
+[Speaker 1]: 两天之内也出现了两个方向。
+[Speaker 0]: 也就是说呢在白宫内部也出现这样一个分歧。
+[Speaker 1]: 其实呢各方的公司啊都有自己的说客团体啊，
+[Speaker 0]: 他们去游说的这个对象呢，
+[Speaker 0]: 你从他们的观点就能看出来。
+[Speaker 1]: 在这个预测市场 polly market 上呢，
+[Speaker 1]: 二零二六年啊美国政府会被封杀某个开源模型。
+[Speaker 0]: 这个盘口呢蹲了几天啊，
+[Speaker 0]: 从百分之二十二一路窜到了百分之四十五。
+[Speaker 0]:  kimi 三出来之后呢，
+[Speaker 1]: 中文互联网上大家聊的都是啊我们的这个开源模型追上了美国闭源模型的性能。
+[Speaker 0]: 但你去看美国这边的讨论啊，
+[Speaker 1]: 落点完全不一样，
+[Speaker 0]: 他们真是睡不着觉的，
+[Speaker 0]: 不是中国做出一个好模型啊，
+[Speaker 1]: 真的这个好模型白送全是 open weight 啊，
+[Speaker 0]: 你可以直接去下载下来，
+[Speaker 0]: 部署在自己的这些 server 上，
+[Speaker 0]: 这呢就是一个很大的问题了。
+[Speaker 0]:  all in pocast 里头的一位主持人啊，
+[Speaker 0]: 这个白宫的 AI 负责人 david sex 给这件事情。
+[Speaker 0]: 定个信他用的词很重啊，
+[Speaker 0]: 说这叫监管俘获啊，
+[Speaker 0]: 说白了就是一家公司呢把政府拉过来，
+[Speaker 1]: 替自己挡住竞争对手。
+[Speaker 0]: 他给的理由是数字啊，
+[Speaker 0]:  SRBB 这家公司呢今年年初的年化收入是一百亿美金，
+[Speaker 1]: 到了七月半年时间已经冲到了七百多亿美金。
+[Speaker 1]: 这个数字呢是第三方机构估算的，
+[Speaker 0]: 不是公司公布的啊。
+[Speaker 1]: 但哪怕只是估算的，
+[Speaker 1]: 我们打个折，
+[Speaker 0]: 这个增长速度也非常吓人，
+[Speaker 0]: 半年翻七倍。
+[Speaker 1]: 这是有史以来啊在这个体量上跑的最快的科技公司。
+[Speaker 0]: 所以呢 david 的话说的特别别客气，
+[Speaker 0]: 他说一家都跑成这这样的公司还需要政府保护，
+[Speaker 0]: 这不是什么保护了，
+[Speaker 0]: 这是碰瓷了。
+[Speaker 1]: 另一个主持人啊，
+[Speaker 1]: 陈马斯就是那个印度人，
+[Speaker 1]: 他从另一个视角来看这个问题。
+[Speaker 0]: 他说啊大语言模型这个东西呢正在以谁都没有料到的速度啊，
+[Speaker 0]: 被做成白菜，
+[Speaker 1]: 变成这个 commodity 啊。
+[Speaker 0]: 只要有一家公司模型公布了自己的性能指标，
+[Speaker 0]: 几个礼拜之内呢就会有一堆别的模型追上来，
+[Speaker 0]: 还有的能超过去开源的，
+[Speaker 0]: 闭园呢，
+[Speaker 0]: 开权重的全都能追。
+[Speaker 0]: 在硅谷换了二十五年呢，
+[Speaker 0]: 他说啊他从来没有见过这种事情，
+[Speaker 0]: 一个行业砸进去，
+[Speaker 1]: 几千亿美元，
+[Speaker 1]: 几来以为能够吃好几十年的定价权，
+[Speaker 0]: 结果几个月啊这个优势就没了。
+[Speaker 0]: 那钱去哪了呢？
+[Speaker 0]: 往上跑到应用层，
+[Speaker 0]: 往下跑到云和芯片中间那一层，
+[Speaker 0]: 也就是模型本身啊越来越像一根管子。
+[Speaker 0]: 所以这场 AI 投资的赌局，
+[Speaker 0]: 到底赌的是什么呢？
+[Speaker 1]: 赌的是那几家最赚钱的美国公司啊，
+[Speaker 0]: 能不能赶在自己被做成白菜之前，
+[Speaker 1]: 说服政府，
+[Speaker 1]: 替他们把这个闸门给关上。
+[Speaker 0]: 几位主持人打了个比方啊，
+[Speaker 1]: 你就当成自己是一家这个可口可乐这样的普通公司，
+[Speaker 0]: 你想拿 AI 来提高效率。
+[Speaker 0]: 对吧？
+[Speaker 0]: 这很正常。
+[Speaker 0]: 然后呢，
+[Speaker 1]: 政府过来跟你说啊，
+[Speaker 0]: 哎行，
+[Speaker 0]: 你可以用大鱼模型。
+[Speaker 0]: 但是呢你只能用这两家的就是 anthorpic 和 open 爱的，
+[Speaker 0]: 而且这两家的价格呢比外面那个最便宜的选项贵了五十倍到一百倍。
+[Speaker 1]: 同样一瓶可乐啊外面卖五毛钱。
+[Speaker 0]: 现在有人告诉你啊，
+[Speaker 0]: 因为你是美国公司，
+[Speaker 1]: 你只能买五十块钱，
+[Speaker 1]: 那一瓶你的成本结构真被硬生生的给抬上去了啊。
+[Speaker 1]: 你在国外的竞争对手啊，
+[Speaker 1]: 这样和五毛钱的资本市场会怎么反应呢？
+[Speaker 0]: 很简单啊，
+[Speaker 1]: 把你的估值往下砍一刀。
+[Speaker 1]: 所以呢陈骂斯的结论啊，
+[Speaker 0]: 下的特别干脆政府要真下场去监管这个开源模型的话，
+[Speaker 1]: 股市现在给你来一下，
+[Speaker 0]: 然后呢，
+[Speaker 1]: 他们几个人就开始讨论蒸馏到底道不道德的问题了。
+[Speaker 1]: 你打开一个模型，
+[Speaker 1]: 问他一个问题，
+[Speaker 1]: 看他怎么回答。
+[Speaker 0]: 然后呢把这个答案拿去再去训练你自己的模型一两次啊，
+[Speaker 0]: 其实没什么用。
+[Speaker 0]: 但你把这个动作呢乘以几千万次呢，
+[Speaker 0]: 你就等于啊从别人这个大元模型的肚子里呢掏走了几万一条的问答。
+[Speaker 1]: 按照 anthopbic 发的这个公告的解释啊，
+[Speaker 0]: 说这个中国的公司呢对 anthrobic 的模型进行了工业级的蒸馏。
+[Speaker 0]: 但是呢其实你从另一个视角去看这个问题啊，
+[Speaker 1]: 有一位主持人说了一件旧事，
+[Speaker 1]: 他早年呢在谷歌，
+[Speaker 1]: 他说那时候他他们过什么呢？
+[Speaker 1]: 往雅虎和微软的搜索引擎里头啊，
+[Speaker 0]: 提交过几百万条搜索词，
+[Speaker 1]: 然后呢把别人返回的结果啊，
+[Speaker 0]: 跟自家的结果一条条比对，
+[Speaker 0]: 用来改进谷歌自己的排序算法。
+[Speaker 0]: 我们也没进别人的服务器，
+[Speaker 0]: 没偷别人银行代码，
+[Speaker 1]: 我们只是看了看人家吐出来的东西。
+[Speaker 1]: 这件事呢在当年有个名字叫做对标。
+[Speaker 0]: 这其实跟国内这些国产手机厂商天天拆苹果的机器研究结构是一个道理，
+[Speaker 0]: 造车的也会去买别人的车过来，
+[Speaker 0]: 拆开来之后看一看哪些地方做的更好。
+[Speaker 1]: 哪些设计理念值得学习？
+[Speaker 0]: 做产品的，
+[Speaker 0]: 拆别人的产品，
+[Speaker 0]: 哪个行业不是这么过来的。
+[Speaker 1]: 但是呢这里有一个区分啊，
+[Speaker 0]: 模型的权重就是那个文件一大堆数字，
+[Speaker 0]: 那是代码本身要是中国公司啊直接从人家服务器头把这些权重给偷走，
+[Speaker 1]: 那是道歉，
+[Speaker 0]: 这是没得洗的。
+[Speaker 0]: 现在真的是模型吐出来，
+[Speaker 0]: 这个输出也就是我们说的这个输馏。
+[Speaker 0]: 到目前为止啊，
+[Speaker 0]: 公开层面上没有任何人拿证据说啊这个权重被偷了。
+[Speaker 0]: 白宫那位官员的措辞呢也只是啊我们掌握了信息，
+[Speaker 0]: 但并没有走任何何举证程序。
+[Speaker 0]: 那问题就来了，
+[Speaker 0]: 在这个 AI 行业里头，
+[Speaker 1]: 谁没有蒸馏过呢？
+[Speaker 1]: 问题从来不是是没有，
+[Speaker 0]: 而谁在征馏谁。
+[Speaker 1]: 那问题就来啊，
+[Speaker 0]: 如果有几千万个账号在你没日没夜的提问，
+[Speaker 1]: 规模大到你自己都管它叫做工业级。
+[Speaker 0]: 那这么大东西你会看不见吗？
+[Speaker 0]: 你到底是看不见呢？
+[Speaker 0]: 还是不想看见呢？
+[Speaker 1]:  daviis x 说，
+[Speaker 1]: 如果 ann topic 真的怕被征流代码，
+[Speaker 0]: 一句话就说完了。
+[Speaker 0]: 实名认证这件事情在中国的这些互联网公司啊早就这么干了。
+[Speaker 1]: 你在国内注册个手机号，
+[Speaker 1]: 开开游游账号号网、
+[Speaker 1]: 网吧上网网哪里不要身份证啊，
+[Speaker 1]: 实名这两个词啊，
+[Speaker 1]: 对于中国网民来说已经非常习惯了。
+[Speaker 1]:  david sex 说啊 thtopic 你不是想禁止流吗？
+[Speaker 1]: 你别让人家填填用户名，
+[Speaker 1]: 密码就玩事儿，
+[Speaker 1]: 要身身份证绑绑一张有额度的信用卡，
+[Speaker 1]: 这一套下来呢蒸馏的问题啊，
+[Speaker 0]: 当场就解决一大半了。
+[Speaker 0]: 但为什么不做呢？
+[Speaker 0]: 德赛 vx 给的理由非常简单啊，
+[Speaker 1]: 这么做呢会拖慢增长。
+[Speaker 1]: 你像这个逻辑啊，
+[Speaker 0]: 一边是安全，
+[Speaker 0]: 一边是增长，
+[Speaker 0]: 知道他选的时候啊，
+[Speaker 0]: 选哪个，
+[Speaker 0]: 一目了然，
+[Speaker 0]: 尤其是 anthorpic 啊，
+[Speaker 1]: 正在冲击上市这样一个关键档口。
+[Speaker 0]: 更关键的是啊另外一位主持人补充一段细节，
+[Speaker 0]: 他说啊这种账号怎么来的呢？
+[Speaker 0]: 大量学生注册账号被人收上去，
+[Speaker 1]: 打包拿到按网上卖。
+[Speaker 1]: 他提到了什么马尼拉，
+[Speaker 0]: 还有印度说那边有人批量注册，
+[Speaker 0]: 怪不得印度啊是这个 open i 用户最多的国家。
+[Speaker 0]: 我之前发了一期节目啊，
+[Speaker 0]: 在这个抖音上有好多人说啊，
+[Speaker 0]: 说我就是那个在印度的这个用户啊，
+[Speaker 0]: 他说啊 s sarp 你自己都管，
+[Speaker 0]: 这叫工业级了。
+[Speaker 1]: 规模越大，
+[Speaker 1]: 动静越大越藏不住啊，
+[Speaker 0]: 几千万个账号一天到晚发着一模一样节奏的问题，
+[Speaker 0]: 这在后台什么样子的？
+[Speaker 1]: 跟三更半夜去你家楼下，
+[Speaker 1]: 有人拿着货车往外搬货是一个道理，
+[Speaker 1]: 那一眼就能看出来不对劲。
+[Speaker 1]: 所以呢 david saacks 认为啊啊 sarc 被人争馏，
+[Speaker 1]: 那全是你自己在这件事情上失职。
+[Speaker 0]: 他还算了笔账啊，
+[Speaker 1]: 这家公司的毛利率九成九成什么概念？
+[Speaker 1]: 茅台的毛利率就在九成上下，
+[Speaker 0]: 你拿着九成里头一两个点啊，
+[Speaker 0]: 做风控，
+[Speaker 0]: 做实实做不做得起呢，
+[Speaker 1]: 当然是做得起了。
+[Speaker 1]: 但是啊问题是啊，
+[Speaker 1]: 你这么做了之后呢，
+[Speaker 0]: 那条一路向上的曲线啊就没这么好看了。
+[Speaker 0]: 而且啊就算我们退一万步就算蒸馏，
+[Speaker 0]: 这事真的有这么严重啊，
+[Speaker 0]: 接下来应该问的问题是啊该堵谁呢？
+[Speaker 1]: 如果这家公司啊像 anthoppic 真的把蒸馏当成国家安全问题，
+[Speaker 0]: 那他应该推动的是不让中国公司碰美国的模型。
+[Speaker 0]: 而他现在正在推动的是不让美国人用中国的模型。
+[Speaker 0]: 你想想啊，
+[Speaker 1]: 这是完全两件相反的事情，
+[Speaker 1]: 一件呢是关自己家的门，
+[Speaker 1]: 另一件呢是砸邻居家的，
+[Speaker 0]: 告诉我正流这个动作发生在哪？
+[Speaker 0]: 发生在别人来敲你门的时候，
+[Speaker 1]: 你不在门口拦着跑到对接去拆别人的招牌，
+[Speaker 1]: 这有什么用呢？
+[Speaker 0]: 而且你想一想，
+[Speaker 1]: 如果你真的疯了，
+[Speaker 0]: 美国这些科技公司使用开源模型这样一个权利，
+[Speaker 0]: 美国之外的全世界照样可以使用中国公司提供的开源模型。
+[Speaker 0]: 人家该跑跑该用用跑出来的数据呢，
+[Speaker 1]: 跑出来的这些反馈啊，
+[Speaker 0]: 全都回流到那些模型里，
+[Speaker 0]: 让他越来越好。
+[Speaker 0]: 用到那个时候被关在门里的人是谁呢？
+[Speaker 0]: 禁止开源模型就是伤敌八百，
+[Speaker 1]: 自损一千的行为，
+[Speaker 0]: 还有一层啊是执行层面的麻烦。
+[Speaker 0]: 开源模型是一个文件啊，
+[Speaker 1]: 全世界几十万人已经下载到自己的电脑上了。
+[Speaker 1]: 你现在说这个文件你不许用了，
+[Speaker 1]: 怎么管你挨家挨户的查硬盘吗？
+[Speaker 0]: 而且呢就会统出一个大篓子，
+[Speaker 1]: 因为压根就没有先例可以参考啊。
+[Speaker 1]: 你要限制一个已经免费公开，
+[Speaker 1]: 已经被超了几十万份的文件。
+[Speaker 0]: 这种事情啊，
+[Speaker 1]: 历史上从来没有人干成过。
+[Speaker 1]: 所以你看这场辩论从一开头方向就是反的，
+[Speaker 0]: 该被追问的不是整个美国的开源生态。
+[Speaker 0]: 该被追问的是，
+[Speaker 1]: 那一家自己没有看好门的公司。
+[Speaker 1]: 现在呢在这些上面 open router 这样的一个中转站的网站上啊，
+[Speaker 1]: 他们统计过的是中国的开源模型呢，
+[Speaker 1]: 占的这个比例已经超过了一半。
+[Speaker 0]: 而且你要知道啊，
+[Speaker 1]: 这个数据还并不完美，
+[Speaker 0]: 因为还有很多你没有办法统计的这些 token，
+[Speaker 0]: 什么意思呢？
+[Speaker 0]: 你用闭源模型啊，
+[Speaker 0]: 每问一句话呢，
+[Speaker 0]: 都在别人的输入标头，
+[Speaker 0]: 增添一笔数字都清清楚楚的。
+[Speaker 0]: 因为这些公司的 roropical open i 他们都有自己的一个统计。
+[Speaker 0]: 但是开源模型不一样啊。
+[Speaker 0]: 如果说你把它下载下来，
+[Speaker 0]: 放在自己的服务器上跑，
+[Speaker 0]: 至少你消耗的就是店是显卡，
+[Speaker 0]: 不是任何一家公司的账单了。
+[Speaker 0]: 这些算力这些使用量在任何一张收入表上都不会出现，
+[Speaker 1]: 它是暗的。
+[Speaker 1]: 所以你看啊前段时间呢还有人拿着这个 token 总量还在涨来证明啊大语言模型这个行业没有问题。
+[Speaker 0]: 可问题是啊涨的这部分里头啊，
+[Speaker 1]: 有多少未来会变成这种暗 token。
+[Speaker 0]: 他马说啊，
+[Speaker 0]: 市场呢从来不看你今天赚了多少市场，
+[Speaker 0]: 只问一个问题，
+[Speaker 1]: 十年之后，
+[Speaker 1]: 这门生意还剩几分的定价权，
+[Speaker 0]: 竞争是会变得更多还是更少？
+[Speaker 1]: 它是垄断还是白菜生意？
+[Speaker 1]: 如果是白菜生意的，
+[Speaker 1]: 到那时候啊一斤卖几毛钱。
+[Speaker 1]: 他说，
+[Speaker 0]: 通常一个行业从独家供应变成大陆货，
+[Speaker 1]: 得花个五年到十年牌呢是一张张翻的。
+[Speaker 0]: 而这一次啊，
+[Speaker 1]: 大元模型几乎是一把把这些牌全甩在桌上了。
+[Speaker 1]: 于是呢钱就开始搬家了。
+[Speaker 1]: 网上呢搬到应用层，
+[Speaker 1]: 往下搬到云和芯片。
+[Speaker 0]: 陈八子甚至指出一件非常讽刺的事情啊，
+[Speaker 1]: 那些卖云服务、
+[Speaker 0]: 卖算利的公司才是最不希望开源被封杀的一群人。
+[Speaker 1]: 啊，
+[Speaker 0]: 我好像看到这个微软 microsoft 也加入了这个 position 啊，
+[Speaker 0]: 就是说啊美国政府不应该封杀这些开源模型。
+[Speaker 0]: 道理很简单嘛，
+[Speaker 1]: 模型越便宜，
+[Speaker 1]: 跑的越多，
+[Speaker 1]: 他们赚的越狠啊，
+[Speaker 1]: 因为大家使用的越多啊，
+[Speaker 0]: 如果你头肯太贵的话，
+[Speaker 0]: 大家用不起。
+[Speaker 1]: 那有很多活呢，
+[Speaker 1]: 他还是请人干了。
+[Speaker 0]: 但如果这些开源模型变得特别便宜啊，
+[Speaker 0]: 几乎啊编辑成本是零，
+[Speaker 1]: 那我只需要付这些云服务的钱就行了。
+[Speaker 0]: 所以呢像微软和谷歌这些公司还是有的赚的。
+[Speaker 1]: 听到这里啊，
+[Speaker 1]: 这几位节目的主持人呢，
+[Speaker 1]: 在这个要不不要进中国的开模模型上，
+[Speaker 0]: 在其观观点是相当一致的。
+[Speaker 1]: 但与此同时呢，
+[Speaker 1]: 也有一些反对人啊，
+[Speaker 1]: 比如说一位这个白宫的 AI 负责人啊，
+[Speaker 1]: 他说说呢他在二二五年一一月 deep c 刚出来的时候，
+[Speaker 0]: 他是白宫政府的第一个公开讲蒸馏这个概念的人。
+[Speaker 0]: 他是那一份啊赢得 AI 竞争报告的作者之一。
+[Speaker 1]: 他想要美国赢，
+[Speaker 0]: 他从来没有含糊过。
+[Speaker 1]: 他说呢真的只是怎么赢，
+[Speaker 0]: 他说便宜这件事情呢，
+[Speaker 0]:  kimi 三刚出来的时候，
+[Speaker 0]: 他自己也慌，
+[Speaker 0]: 后来呢 ban 汤姆森啊，
+[Speaker 1]: 在博客上把成本啊一笔一笔的算了一遍。
+[Speaker 0]: 结论是啊，
+[Speaker 0]:  kim 三跑起来呢，
+[Speaker 1]: 其实没有便宜多少，
+[Speaker 0]: 再说追上没有追上啊。
+[Speaker 1]:  kimi 三在前端编程那个榜单上呢，
+[Speaker 1]: 分数确实很漂亮，
+[Speaker 0]: 可那只是一个榜单，
+[Speaker 0]: 一个维度，
+[Speaker 0]: 换几个别的场景去测呢？
+[Speaker 1]: 已就没那么好看了。
+[Speaker 1]: 还有一条是实验室里头压着着存货。
+[Speaker 1]: 他说啊美国这边压着的还没有发布的东西呢，
+[Speaker 0]: 比现在能有看到的都强。
+[Speaker 1]: 据说呢赛姆奥特曼下周就要去白宫了，
+[Speaker 0]: 聊的呢是 GPT 六点零，
+[Speaker 1]: 他的判断是啊我们还领先半年，
+[Speaker 0]: 还有就是收入。
+[Speaker 0]: 他说啊 anthropic 这家公司内部的预测是今年要翻十倍，
+[Speaker 1]: 从一百亿做到一千亿。
+[Speaker 1]: 现在呢刚过年终已经达到七百多亿了。
+[Speaker 0]: 而 open line 那边呢，
+[Speaker 0]: 五月份的时候，
+[Speaker 0]: 三百三十亿，
+[Speaker 0]: 七月的时候是四百一十三亿，
+[Speaker 0]: 还在提速。
+[Speaker 0]: 所以呢他给啊 anthorropic 想要去游说美国政府啊，
+[Speaker 1]: 进中国的开源模型起了一个名字，
+[Speaker 1]: 叫做假摔。
+[Speaker 1]: 就篮球场上那个动作啊，
+[Speaker 1]: 你没有被撞那么狠，
+[Speaker 1]: 但是呢你得往地上躺倒的夸张，
+[Speaker 1]: 这样的裁判才会吹哨，
+[Speaker 1]: 就像这个亚历山大一样啊，
+[Speaker 0]: 他说的很直白啊，
+[Speaker 0]: 这几家公司呢现在正在路演，
+[Speaker 0]: 华尔街迟早会问一句啊，
+[Speaker 1]: 你凭什么不会被开源模型做成白菜？
+[Speaker 0]: 这个问题最完美的答案是什么呢？
+[Speaker 1]: 如果政府能给一张合法双雄的牌照，
+[Speaker 0]: 那这个问题就不用再回答了。
+[Speaker 0]: 这也是为什么 anthorropic 这么着急，
+[Speaker 0]: 想要去游说美国政府，
+[Speaker 0]: 让他们呢去把这个这开模型给禁掉。
+[Speaker 0]: 如果他们能拿到政府府的一指令令，
+[Speaker 1]: 把美国的这科科行行业禁止使用开源模型，
+[Speaker 1]: 尤其是中国的开源模型。
+[Speaker 0]: 那他们现在这样一个高估值还能继续维持下去。
+[Speaker 1]: 但是呢伤害的是美国科技圈整体的利益。
+[Speaker 1]: 讲到这里啊，
+[Speaker 0]: 这个节目里头有个很有意思的地方，
+[Speaker 0]: 就每个人呢都互相问了一句，
+[Speaker 0]: 哎，
+[Speaker 0]: 你在这几家公司的股东名单上嘛啊，
+[Speaker 0]: 几个人的回答都是啊不直接持有。
+[Speaker 0]: 那其实就很简单了，
+[Speaker 1]: 他们并不是直接利益相关，
+[Speaker 0]: 这也很好理解啊。
+[Speaker 0]: 如果说吧这几个投资人呢都是 ansarpi 的大股东，
+[Speaker 0]: 那他们现在肯定着急啊。
+[Speaker 0]: 所以说啊屁股决定脑袋，
+[Speaker 0]: 他不在这个 ansarbic 的直接股东名单上呢，
+[Speaker 1]: 可以说他们的这些观点啊还是相对客观一些的。
+[Speaker 0]: 所以到这里呢，
+[Speaker 1]: 你会联想到一张非常经典的梗图，
+[Speaker 1]: 就是蜘蛛侠里头啊这几个蜘蛛侠互相指着对方说你是假的，
+[Speaker 0]: 你是假的。
+[Speaker 1]:  ansorarby 这家公司啊从盗版网站上扒了七百万本书，
+[Speaker 1]: 基本上把人类所有的这些智慧的捷晶啊都拿来了训练了自己的模型。
+[Speaker 1]: 最后啊，
+[Speaker 1]: 他在这个法庭上跟人达成和解，
+[Speaker 0]: 赔了十五亿美金。
+[Speaker 0]: 他在法庭上的立场至今没变，
+[Speaker 0]: 训练全世界的内容呢是合理使用。
+[Speaker 1]: 但与此同时啊，
+[Speaker 1]: 同一家公司在华人的说法，
+[Speaker 1]: 是啊，
+[Speaker 0]: 中国人拿我们的模型的输出呢去搞训练，
+[Speaker 0]: 那就是偷 open AI。
+[Speaker 1]: 在这个法庭上怎么答辩呢？
+[Speaker 0]: 他说啊我们没有偷任何东西，
+[Speaker 1]: 我们只是拿了纽约时报的输出，
+[Speaker 1]: 推导出了我们自己的权重。
+[Speaker 0]: 但你想想啊，
+[Speaker 0]: 中国的模型在干什么呢？
+[Speaker 0]: 拿美国模型的输出，
+[Speaker 1]: 推导出自己的权重一模一样，
+[Speaker 0]: 一个个都都不差的的。
+[Speaker 1]: 所以你现在看到这样一个指控，
+[Speaker 0]: 圈出版社社书呢被被些些大元模的的公司给蒸流。
+[Speaker 0]: 纽约时报的网站被另一一家公司的爬虫呢爬了个底朝天，
+[Speaker 1]: 观察在打。
+[Speaker 0]: 而这两家公司的输出呢，
+[Speaker 0]: 又被另一个中国的实验室给蒸馏了。
+[Speaker 0]: 所以 david sex 说啊，
+[Speaker 1]: 今年二月份的时候，
+[Speaker 1]:  s sabb 发过一篇博客啊，
+[Speaker 0]: 就是那篇博客呢第一次造出了工业级蒸馏攻击这一个词。
+[Speaker 0]: 在此之前呢，
+[Speaker 0]: 蒸馏是这个行业的常规操作，
+[Speaker 0]: 没有人啊把它跟攻击联系在一起。
+[Speaker 0]: 然后他就说啊，
+[Speaker 0]: 你去那篇博客里头搜了几个字，
+[Speaker 0]: 知识产权盗窃搜不到整篇文章啊，
+[Speaker 0]: 没有这几个字，
+[Speaker 1]:  ansaraby 造了一个新词，
+[Speaker 1]: 造了个新概念，
+[Speaker 0]: 就是想把这件事情呢包装成国家安全威胁，
+[Speaker 1]: 可他们始终不敢把盗窃这两个字写上来，
+[Speaker 1]: 为什么不敢呢？
+[Speaker 0]: 因为他们心里比谁都清楚啊，
+[Speaker 0]: 这几个字一旦写下来呢，
+[Speaker 1]: 自己身上的一百多级官司啊，
+[Speaker 0]: 全都得跟着炸。
+[Speaker 0]: 所以说啊知识产权这个东西呢我可以有，
+[Speaker 0]: 但是呢你不能有这个官司，
+[Speaker 0]: 还有一个非常有意思的地方。
+[Speaker 0]: 之前法庭呢其实做过一个判断啊，
+[Speaker 0]: 就说你拿这个受版权保护的书啊去训练 AI 在合理使用的框架下是站得住脚的。
+[Speaker 0]: 真正把它定死的不是训练这个动作，
+[Speaker 0]: 是他连啊买一本书的钱都不肯出的。
+[Speaker 0]: 这个动作七百万本书啊粗略估算一下，
+[Speaker 1]: 按照一本啊人民币五十块钱左右，
+[Speaker 1]: 那也就是三亿五千万人民币。
+[Speaker 0]: 他最后赔出去的是一百多亿人民币啊，
+[Speaker 0]: 十五亿美金嘛，
+[Speaker 0]: 整整差了三十倍，
+[Speaker 0]: 而且啊这事还没完。
+[Speaker 1]: 现在他们达成的只是一份和解协议，
+[Speaker 1]: 不是判决啊，
+[Speaker 0]: 这家公司到竞争立场依然没有变。
+[Speaker 1]: 只要我买了一本正版，
+[Speaker 1]: 我就有权呢拿全世界的书去训练。
+[Speaker 0]: 作者同不同意啊，
+[Speaker 0]: 不重要，
+[Speaker 0]: 这个问题啊，
+[Speaker 1]: 法院还没有给出最终答案。
+[Speaker 0]: 现在呢还有一百五十起案子啊，
+[Speaker 1]: 都在排队等这个答案。
+[Speaker 1]:  david 赛克说，
+[Speaker 1]: 合理使用，
+[Speaker 1]: 现在还没有定论，
+[Speaker 1]: 一百五十起，
+[Speaker 1]: 案子还在打对面站着的是财力雄厚的出版商唱片公司和纽约时报赌注啊，
+[Speaker 1]: 几十上百亿的美金，
+[Speaker 0]: 甚至是他们整个产品的合法性。
+[Speaker 1]: 在这种时候啊，
+[Speaker 1]: 你 anthropic 跑到白宫去说用别人的输出训练模型是盗窃。
+[Speaker 1]: 这句话会不会是一个致命失误呢？
+[Speaker 0]: 你想他的另一面，
+[Speaker 0]: 如果说这句话成立，
+[Speaker 0]: 那这家公司自己的整个产品算什么呢？
+[Speaker 0]: 他的模型就是拿全世界创作者不同意的输出啊，
+[Speaker 0]: 一点一点训练出来的这等于是 anthropic 当着政府的面，
+[Speaker 0]: 把自己的这个罪啊给认了，
+[Speaker 0]: 再往下推一步就更吓人了。
+[Speaker 0]: 现在那些内容放在律师团会怎么想啊，
+[Speaker 0]: 对方亲口承认啊，
+[Speaker 0]: 未经同意的训练等于盗窃。
+[Speaker 1]: 那我凭什么只要三千美金一本书呢？
+[Speaker 0]: 我为什么不主张你们这家公司的所有收入，
+[Speaker 0]: 从第一块钱开始，
+[Speaker 1]: 本来就应该是我的 s oopc 自己这么做呢？
+[Speaker 1]: 是在搬起石头砸自己的脚啊，
+[Speaker 1]: 可以看出啊，
+[Speaker 1]:  david sax 对于 anoopc 一直不满，
+[Speaker 1]: 尤其是对于这个打理的这个人啊，
+[Speaker 1]: 他一直直有意见的。
+[Speaker 1]: 他还说呢，
+[Speaker 1]: 其实有一条更聪明的路就摆在旁边啊。
+[Speaker 1]: 这家公司完全可以说有人在批量注册假账号，
+[Speaker 0]: 用代理 IP 违反了我们的服务条款，
+[Speaker 1]: 这属于欺诈性的经营行为。
+[Speaker 1]: 我们要打击，
+[Speaker 0]: 也希望政府帮忙，
+[Speaker 0]: 这头到尾一个字都别提知识产权。
+[Speaker 0]: 这么说呢，
+[Speaker 1]: 一样的达到目的，
+[Speaker 1]: 而且不会伤到自己。
+[Speaker 0]: 可惜啊 sr pic 没有这样的政治觉悟啊，
+[Speaker 0]: 他们选择了最闲的那个词盗窃啊，
+[Speaker 0]: 但是呢这个问题啊反过来有可能会砸他们自己的脚。
+[Speaker 1]: 而且啊现在这个关于开源模型的争论啊，
+[Speaker 1]: 并不是几家头部公司互相咬节目中举出来一个例子啊，
+[Speaker 0]:  mra m ri ty 啊，
+[Speaker 0]: 就是 open 原来的那个 CTU 啊，
+[Speaker 0]: 本来想通过政变和苏兹克维啊一起推翻三包奥特曼的那个姐们出来自己干了啊，
+[Speaker 0]: 他创办的公司呢叫做 thinking machines。
+[Speaker 1]: 他们现在手里啊是全美最好的开源模型之一。
+[Speaker 1]: 这个模型怎么训练出来呢？
+[Speaker 1]: 啊，
+[Speaker 0]: 他是从中国模型 kimi k 二点五上蒸馏出来的啊，
+[Speaker 0]: 现在这个 kimi 三出来之后呢，
+[Speaker 0]: 他们又可以去蒸馏三了啊，
+[Speaker 1]: 再看第二个 kiimcurser 做 AI 编程工具。
+[Speaker 0]: 那家啊最近呢被这个 space x 花了多少亿啊？
+[Speaker 1]: 六十六十个 billion 给收购了六百亿。
+[Speaker 0]: 他们推出的新产品 composer 二，
+[Speaker 1]: 他们做法是是 kimi k 二点五打底底，
+[Speaker 0]: 然后呢再灌进去己己积累的编程数据做后训练。
+[Speaker 1]: 现在你想一想啊，
+[Speaker 1]: 如果说啊中国的大元模型啊，
+[Speaker 1]: 这些开源的模型蒸馏呢属于知识产权盗窃，
+[Speaker 0]: 那这两个美国的明星产品算什么呢？
+[Speaker 1]: 属于赃物的脏物啊，
+[Speaker 1]: 一个开源模型放出来之后，
+[Speaker 0]: 它就不再是中国模型了。
+[Speaker 0]: 它是一个文件，
+[Speaker 0]: 你把它下载下来啊，
+[Speaker 0]: 改变成你的放在美国本土的数据中心里，
+[Speaker 1]: 没有一个数据包会传回中国，
+[Speaker 0]: 没有数据回传，
+[Speaker 0]: 没有连接，
+[Speaker 0]: 什么都没有。
+[Speaker 1]: 这是一个躺在你硬盘里的文件啊，
+[Speaker 1]: 现在你要给这个文件盖一个来路不正的章。
+[Speaker 0]: 那么所有从他衍生出来的东西啊全都带上了这个章。
+[Speaker 1]: 所以啊你看美国创业圈的反应呢是非常迅猛的啊。
+[Speaker 0]: 个 y combinator 的 gary ten 联合了两百家创业公司，
+[Speaker 1]: 联名写了一封信。
+[Speaker 1]: 他们在急什么呢？
+[Speaker 0]: 他不是在替中国说话，
+[Speaker 0]: 他们是发现的。
+[Speaker 0]: 如果说这个说法立住了，
+[Speaker 0]: 明天来查的，
+[Speaker 1]: 就是他们自己的产品。
+[Speaker 1]: 这一刀要砍下去的话，
+[Speaker 0]: 是往整个美国开源生态的心脏上捅。
+[Speaker 0]: 而且啊现在这一个开源与闭源的模型之争啊，
+[Speaker 0]: 这个剧本其实之前在科技圈早就上演过了。
+[Speaker 0]: 几位主持人回忆的互联网。
+[Speaker 1]: 最早那几年啊，
+[Speaker 0]: 当年有一家公司叫做网警做浏览器和服务器软件闭源的收费上市之后啊，
+[Speaker 0]: 风光无限。
+[Speaker 0]: 然后呢，
+[Speaker 1]: 开源的这个服务器也出来了，
+[Speaker 0]: 你只要有台电脑下载一下就能建站，
+[Speaker 1]: 不需要再交一分钱的过路费，
+[Speaker 0]: 网景就没了。
+[Speaker 1]: 然后呢，
+[Speaker 1]: 互联网起来了，
+[Speaker 0]: 价值没有留在那几个收门票的手里，
+[Speaker 0]: 他散了，
+[Speaker 0]: 出去散到了搜索电商社区散了。
+[Speaker 0]: 后来呢千千万万个网站和小生意上，
+[Speaker 0]: 然后你再看安卓啊，
+[Speaker 0]: 当年谷歌把安卓开源放出去，
+[Speaker 0]: 塞班和黑莓那一套封闭生态啊，
+[Speaker 0]: 几年就塌了。
+[Speaker 0]: 受益的是谁呢？
+[Speaker 1]: 是华为小米啊，
+[Speaker 0]: 是这个深圳的华强北，
+[Speaker 0]: 是几亿第一次用上智能手机的普通人。
+[Speaker 0]: 如果说安卓当年也是收费必源的那你现在手里这一台一千多块钱，
+[Speaker 1]: 手机啊大概率是不存存在的。
+[Speaker 0]: 所以几位投资人的判断是啊，
+[Speaker 1]: 真正的钱呢不在中间大元模型，
+[Speaker 1]: 内层往上，
+[Speaker 1]: 在应用往下呢在算力。
+[Speaker 1]: 说句题外话啊，
+[Speaker 0]: 谷歌呢最近的这个云服务啊已经跑到了一千亿美元的年化规模。
+[Speaker 0]: 谷歌的云服务一开始的时候啊，
+[Speaker 1]: 跟这个亚马逊的云服务啊 AWS 是没法比的。
+[Speaker 0]: 但是现在资本开支的指引已经达到了今年一千九百五十亿到两千零五十亿美元的概念了。
+[Speaker 0]: 这个数字相当于美国今年军费的两成，
+[Speaker 0]: 代价呢也很实在啊。
+[Speaker 0]: 谷歌上市以来，
+[Speaker 0]: 第一次出现了自由现金流为负，
+[Speaker 0]: 股价当天跌了百分之七。
+[Speaker 0]: 啊，
+[Speaker 0]: 你要知道谷歌上市二十五年投入的资本回报率长均平均值啊是百分之三十二，
+[Speaker 0]: 这是非常夸张的这也可以解释为什么谷歌的股价一直在一路高歌，
+[Speaker 1]: 越进型。
+[Speaker 1]:  all all in part cast。
+[Speaker 1]: 这些主持人的看来啊，
+[Speaker 0]: 对于谷歌最好的事情就是世界上冒出五百个模型。
+[Speaker 0]: 模型越多啊，
+[Speaker 0]: 越乱越便宜。
+[Speaker 1]: 在的这个云服务上就就跑越越凶水管和电表都是跑的呀。
+[Speaker 0]: 而节目的最后呢，
+[Speaker 0]: 几位主持人啊把这个时间尺度拉到了几十年。
+[Speaker 1]: 他说啊过去五十年，
+[Speaker 0]: 美国整个西方赚的是什么钱呢？
+[Speaker 0]: 是知识的钱，
+[Speaker 0]: 是服务的钱，
+[Speaker 0]: 是把一个比特变成另一个比特，
+[Speaker 0]: 靠专利，
+[Speaker 0]: 靠版权，
+[Speaker 0]: 靠品牌撬动几万亿美元的 GDP，
+[Speaker 0]: 而制造呢被搬走了，
+[Speaker 0]: 搬到了中国。
+[Speaker 0]: 然后他说啊如果人工智能尤其是开源的人工智能，
+[Speaker 0]: 把知识这件事情彻底做成了白菜价。
+[Speaker 0]: 那西方过去五十年最赚钱那一层啊就被抹平了。
+[Speaker 1]: 抹平之后剩下的是什么呢？
+[Speaker 1]: 剩下的是分子，
+[Speaker 0]: 是把一种物质变成另一种物质的能力，
+[Speaker 0]: 是用最少的能量，
+[Speaker 0]: 把东西造出来的能力。
+[Speaker 0]: 房子芯片，
+[Speaker 0]: 你身后那一张沙发彻类文明说到底呢，
+[Speaker 0]: 就是在干这一件事情。
+[Speaker 1]: 而这件事情现在谁手里最强呢？
+[Speaker 1]: 他给了两组数字啊，
+[Speaker 0]: 发电能力呢美国大概是一太瓦，
+[Speaker 0]: 中国呢正在奔向八太瓦。
+[Speaker 0]: 制造业厂房面积，
+[Speaker 0]: 美国大约是啊一百亿平方英尺，
+[Speaker 0]: 中国大约是两千亿平方英尺，
+[Speaker 0]: 差了二十倍。
+[Speaker 0]: 所以他结论是这样的，
+[Speaker 0]: 中国真正在下那盘棋啊，
+[Speaker 0]: 可能不是追上美国的模型，
+[Speaker 0]: 而是呢把知识这门生意彻底打成白菜价，
+[Speaker 1]: 让全世界最后只能靠电和工厂说话。
+[Speaker 0]: 而电和工厂在谁手里啊，
+[Speaker 0]: 大家都非常清楚，
+[Speaker 0]: 我觉得这位主持人的观点还是挺有意思的。
+[Speaker 0]: 你去看一下过去的这些新产业的发展履历啊，
+[Speaker 0]: 什么光伏啊、
+[Speaker 1]: 锂电啊、
+[Speaker 0]: 新能源车啊，
+[Speaker 0]: 还有现在这个开源的模型都是从一个高毛利的行业啊，
+[Speaker 1]: 最后被干成了白菜价。
+[Speaker 1]: 这个好像确实是中国这些企业啊非常擅长的事情。
+[Speaker 1]: 那么美国政府是否真的会下令去禁止这些开源模型呢？
+[Speaker 0]: 我觉得大概率不会啊，
+[Speaker 0]: 因为这太离谱了。
+[Speaker 1]: 而且呢这真正会伤害的是美国的科技行业，
+[Speaker 1]: 最后啊保留住两个寡头，
+[Speaker 0]: 然后呢想办法让他们去收所有人的这些偷坑税。
+[Speaker 1]: 还有一一点就是啊开源模型你怎么去检？
+[Speaker 1]: 你只要有这个服务器，
+[Speaker 0]: 你把这些开源模型下载下来，
+[Speaker 0]: 放在自己的本地进行运行。
+[Speaker 1]: 政府是很难监管的，
+[Speaker 0]: 除非呢政府下行政令啊，
+[Speaker 0]: 禁止跟政府做生意的这些公司啊，
+[Speaker 0]: 使用中国的模型，
+[Speaker 1]: 我觉得这是有可能发生的。
+[Speaker 0]: 但是呢如果说你要想全面的禁止啊，
+[Speaker 0]: 所有的美国科技公司，
+[Speaker 0]: 美国的其他这些企业啊，
+[Speaker 0]: 中小企业不许使用中国的开源模型啊，
+[Speaker 0]: 这个在实施层面是有非常大的难度的。
+[Speaker 1]: 现在看下来啊，
+[Speaker 0]: 我觉得这个大元模型确实很有可能被做成一个白菜代价。
+[Speaker 1]: 那未来美国政府到底会怎么操作呢？
+[Speaker 1]: 让我们拭目以待吧。
+[Speaker 1]: 我最近还看到一篇新闻啊，
+[Speaker 0]: 说中国政府呢有可能会禁止啊中国这些企业在发布这些高性能的开源模型。
+[Speaker 0]: 啊，
+[Speaker 0]: 我感觉啊到最后呢，
+[Speaker 0]: 这些模型的镜头其实还是闭源。
+[Speaker 1]: 因为很多开源企业啊，
+[Speaker 0]: 他做的这个模型呢，
+[Speaker 0]: 是想通过这样一个社区的反馈，
+[Speaker 0]: 然后呢能够快速的抢占生态位，
+[Speaker 0]: 获得这个流量和这个声誉。
+[Speaker 1]: 直到他真的把这个性能做上来啊，
+[Speaker 1]: 达到甚至超越了美国这些闭源模型的话，
+[Speaker 0]: 那肯定想维持这样一个高毛利去收更高的费用。
+[Speaker 1]: 像一个开源 VS 闭源的争论啊，
+[Speaker 0]: 我觉得在很多其他行业都发生过，
+[Speaker 0]: 未来呢很有可能会走出两个不同的生态。
+[Speaker 0]: 我呢会把这一期节目的这个链接啊放在评论区里头，
+[Speaker 0]: 大家感兴趣的可以去看一下这个英文的原文，
+[Speaker 0]: 还是挺精彩的。
+[Speaker 0]: 非常感谢大家观看，
+[Speaker 0]: 我们下期节目再见。
