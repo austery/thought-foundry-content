@@ -1,0 +1,225 @@
+I’ve always been drawn to the uncanny --
+the slightly creepy.
+I make movies about spiders
+playing jazz on their webs,
+or cockroaches building a rocket
+to fly to the moon
+and explore the universe.
+I love finding the human
+in what most people find a bit creepy.
+So when the first AI images
+like this appeared,
+I was not creeped out.
+I was really curious.
+What new ways of filmmaking
+could this unlock?
+I started a YouTube channel to find out.
+Some of my early experiments
+were nature documentaries
+generated using one
+of the earliest AI-video models.
+It was so early
+that it couldn't even remember
+what happened half a second ago,
+which is why it looks
+like planet Earth on acid --
+I imagine, I mean, I wouldn’t know.
+(Laughter)
+My favorite early project, though,
+was using, back at the time,
+cutting-edge AI tools
+to generate the story, the 3D models
+and even the animation
+to create a sequel
+to my favorite Pixar movie,
+"Ratatouille," of course.
+And it became whatever this is:
+(Video) Gusteau always said
+that anyone can cook,
+but only the fearless can be great.
+(Dramatic music)
+Oh! Help! Help me, Remy!
+(Screaming)
+(Evil cackle)
+Mick Mahler: So, yeah.
+(Laughter)
+Not exactly Hollywood, I know,
+but I really loved
+pushing these tools to their limits
+to see where they'd break.
+And as you can see --
+they broke pretty fast.
+But now AI can make
+almost anything I can imagine,
+and it’s getting better
+and easier to use every single day.
+That’s amazing,
+but also kind of terrifying, right?
+I mean, what happens
+when everything becomes possible?
+Will anyone be able to just prompt
+a Hollywood blockbuster now?
+Or will we drown in an ocean
+of meaningless AI-generated content --
+what we now call “AI slop.”
+I'm actually more optimistic.
+And to show you why, I brought
+three projects that really inspired me.
+When a new AI model was released
+that could transform
+audio clips into animation,
+filmmakers from Berlin
+went out into the streets
+and interviewed pedestrians
+about their meat consumption,
+and then they used this AI model
+to transform their voices into this:
+(Video) I’d like to be a vegetarian.
+It affects my health.
+But yeah, I do feel better when I eat it.
+Alien 2: We need the meat
+because of our brains.
+Those things that are coming from the meat
+is helping the brains.
+(Laughter)
+Now, a lot of people are creating
+these over-the-top sci-fi movie trailers
+with explosions and stuff with AI.
+And I get that. That’s a lot of fun.
+But this stood out to me
+because it's not that.
+It's rooted in reality.
+It's a simple idea with a funny twist.
+And most importantly, it tells a story.
+That's how I like to approach
+my AI projects, too.
+Earlier this year, I felt really burnt out
+from sitting at my computer all day long,
+testing all these new AI models.
+I started to feel a bit like Gregor Samsa
+from Kafka's "The Metamorphosis."
+You know, the book about the guy
+who turns into this beetle creature.
+Well, inspired by that,
+I went outside
+and photographed real beetles,
+and then used these photos to train
+my own AI character model of this beetle.
+I then wrote an alternative
+ending for the story
+where Gregor, instead
+of dying alone miserably,
+reconnects with nature and learns
+that there's more to life than work.
+We then just went out into the woods
+and filmed this on an iPhone.
+(Laughter)
+And using this beetle model,
+I was able to transform myself into Gregor
+with just a few clicks.
+(Laughter)
+Meanwhile, people are now creating
+entire movies on their laptops.
+There's this growing
+community of filmmakers
+pushing the boundaries of AI,
+and to them, sharing how they made it
+matters as much as the final movie.
+And I think that openness is really cool.
+It really invites anyone
+to come in and join
+and start creating their own movies.
+So this is where we are right now.
+Soon anyone will be able
+to tell any story
+without technical limitations.
+So what happens when
+everything becomes possible?
+I think, yes, we're going to see
+amazing new aesthetics,
+new narrative forms we've never imagined
+and stories from people
+who couldn’t find their audience before.
+But we are also going to see --
+and we are already seeing --
+a lot more trash:
+low-effort AI content to cut costs,
+deepfakes, misinformation [and] AI slop.
+But I think in that ocean of AI slop,
+authenticity stands out more than ever.
+Originality stands out.
+I think effort stands out.
+Remember the Studio Ghibli trend,
+when everyone turned themselves
+into these anime characters?
+It was everywhere online for a few weeks,
+then very quickly vanished
+because novelty creates hype,
+but gets boring fast.
+And I too was drawn to AI for the novelty,
+but the more perfect
+and easy to use these tools become,
+the more bored I am actually
+by the technology itself,
+and the more excited I become
+about the real question:
+What stories are we going to tell now?
+Because filmmakers were
+never remembered for their tools --
+they were remembered for their stories,
+for their ability to move audiences,
+for their vision.
+But I think here’s also the challenge,
+because the tools always
+kind of shaped that vision, right?
+When we didn't have sound,
+title cards became a whole art form.
+CGI is too expensive?
+Maybe we need to actually build
+a part of that set?
+Early AI looks weird and creepy?
+Lean into that and make
+abstract nightmare fuel
+to make people laugh.
+Now those constraints are fading,
+and to avoid getting lost,
+you have to be more sure than ever
+about what it is you want to create.
+I think when everything becomes possible,
+nothing matters more than your vision.
+So here is how I work now
+for my newer projects.
+For my newest short film about a man
+who changes size with his confidence,
+we went story first, tool second.
+We knew that AI would make
+the visual effects possible,
+so we just wrote it, went out and shot it,
+and then later we figured out
+our own AI workflow.
+[We] built an open-source model
+that you can run for free
+on your own computer --
+it’s very, very nerdy.
+That allowed us to control
+every creative decision.
+And that’s super important with AI --
+to keep that control --
+because a lot of these AI tools
+will try to make
+creative decisions for you.
+Don't let them do that.
+Think about the story only you can tell.
+Make it weird, make it unique,
+so that no AI could
+generate it on its own.
+And if you want, use AI as a tool
+to reach that vision,
+but never to replace it.
+Animation voice: Thank you
+for your attention.
+Now go make something cool.
+MM: Sorry for that.
+(Laughter)
+Thank you.
+(Applause)
