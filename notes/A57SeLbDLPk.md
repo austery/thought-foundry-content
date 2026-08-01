@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=A57SeLbDLPk
 speaker: 小翠時政財經
-tags: []
-title: 宏觀局勢與地緣政治動態
-summary: ''
+tags:
+  - supply-chain
+  - inflation
+  - geopolitical-risk
+  - market-volatility
+  - tech-trends
+title: 宏观局势、地缘政治与科技产业的复杂博弈分析
+summary: 文章深入探讨了多维度宏观经济和地缘政治动态，包括中东航运安全风险、能源市场（欧佩克）的调整趋势、美国通胀压力对货币政策的影响，以及半导体、AI基础设施领域的竞争格局。同时分析了资本市场的波动性、特定产业（如数据中心、电动车）的监管变化和科技巨头的战略调整。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: macro-economy
+area: geopolitics
 project: []
 people: []
 companies_orgs: []

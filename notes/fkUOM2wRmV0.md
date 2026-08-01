@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=fkUOM2wRmV0
 speaker: The Ezra Klein Show
-tags: []
-title: ''
-summary: ''
+tags:
+  - political-activism
+  - critical-theory
+  - institutional-bias
+  - virtue-ethics
+  - counterrevolution
+title: 对右翼激进主义的分析与机构中立性的哲学探讨
+summary: 文章深入分析了关键活动家在反多元倡议、批判性种族理论等领域的政治影响力，并探讨了机构缺乏中立性的核心问题。作者引用观点指出，政治斗争本质上是关于价值观的争夺，而非程序的中立性，同时对右翼青年思维模式进行了心理层面的解读。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
 people: []
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - unmasking-the-administrative-state
+  - the-revolutionary
+  - managerial-revolution
+  - the-machavelians
+  - suicide-of-the-west
 status: evergreen
 ---
 <!-- chunk 1/15 -->

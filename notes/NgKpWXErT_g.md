@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=NgKpWXErT_g
 speaker: Best Partners TV
-tags: []
-title: 风险投资逻辑改造巨头
-summary: ''
+tags:
+  - business-entrepreneurship
+  - supply-chain
+  - capital-strategy
+  - technology-trends
+  - asset-management
+title: 风险投资逻辑改造巨头：从传统制造业到资本驱动的战略重塑
+summary: 文章分析了英特尔现任CEO如何运用风险投资人的思维，通过组织重塑、多渠道资本运作以及对AI时代下CPU增量机遇的判断，成功将这家老牌企业进行颠覆性转型。核心逻辑在于先修复资产负债表，再利用政府、巨头和私人关系形成稳定的资金结构，并抓住Agentic AI带来的新计算需求。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
 people: []
 companies_orgs: []

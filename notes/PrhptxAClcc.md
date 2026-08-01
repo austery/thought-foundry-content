@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=PrhptxAClcc
 speaker: 小翠時政財經
-tags: []
-title: 宏觀局勢與地緣政治動態
-summary: ''
+tags:
+  - geopolitical-dynamics
+  - trade-policy
+  - market-sentiment
+  - investment-strategy
+  - economic-indicators
+title: 宏观局势、地缘政治动态与市场情绪分析
+summary: 文章深入探讨了委内瑞拉的地震事件、美欧贸易协议的达成情况以及资本市场的波动。核心议题包括国际关系中的谈判策略（如伊朗问题）、经济增长对金融监管的影响，以及科技行业（半导体、AI）的竞争格局和投资逻辑，并提出了长期投资的理性视角。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: macro-economy
+area: geopolitics
 project: []
 people: []
 companies_orgs: []

@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=WXxmecKPEpg
 speaker: Best Partners TV
-tags: []
-title: 交易之神：德鲁肯米勒的认知与失误
-summary: ''
+tags:
+  - risk-management
+  - decision-making
+  - emotional-control
+  - market-timing
+  - asset-allocation
+title: 交易之神背后的认知与失误：从英伟达的爱恨情仇到决策魄力的稀缺性
+summary: 本文深度剖析了传奇交易员在投资中的认知、情绪控制和决策逻辑。文章通过分析其对特定科技股的极端案例，揭示了顶级交易者真正的核心优势在于“扣扳机”的魄力和过滤人能力，而非单纯的技术或信息掌握。最终强调了在知识积累之后，敢于重仓出击的勇气才是最稀缺的护城河。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
 people: []
 companies_orgs: []

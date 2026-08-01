@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=LFnf6Ef6AfI
 speaker: 天下文化
-tags: []
-title: 医疗体系的标准化与电子化
-summary: ''
+tags:
+  - data-standardization
+  - digital-transformation
+  - system-integration
+  - healthcare-efficiency
+  - medical-technology
+title: 医疗体系的标准化、电子化与数位转型实践
+summary: 文章探讨了台湾医疗体系在全民健保背景下的信息化进程，包括医疗资料的标准化、电子IC卡的应用以及医院系统整合（如One Campus架构）。核心议题聚焦于如何通过数字化手段解决护理能力短缺、提升诊疗效率和优化病患体验，并展望了未来以基因检测和机器人辅助手术等技术对医疗进步的深远影响。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: architecture
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

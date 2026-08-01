@@ -5,19 +5,38 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=y554surbTfs
 speaker: 徒步的騎手•劉宗坤
-tags: []
-title: 中国经济的寄生状态
-summary: ''
+tags:
+  - parasitic-economy
+  - deflationary-spiral
+  - overcapacity
+  - mercantilism
+  - demographic-crisis
+title: 中国经济的寄生状态：从结构性矛盾到全球贸易依赖的深度剖析
+summary: 文章通过分析彭博社提供的六张图表，揭示了中国经济面临的深层困境。作者指出，由于国内消费低迷、房地产泡沫破裂、人口结构性萎缩以及通缩螺旋等因素，中国正陷入一种“寄生经济”模式：即通过压制内需和过度补贴生产，将过剩产能倾销至全球市场，高度依赖外部宿主市场的生存。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: macro-economy
+area: geopolitics
 project: []
-people: []
-companies_orgs: []
+people:
+  - 林毅夫
+  - 习近平
+  - 高善文
+  - Michael Pettis
+  - Charles Goodhart
+  - 亚当·斯密
+companies_orgs:
+  - 彭博社
+  - 布鲁金斯学会
+  - 芝加哥大学
+  - 香港中文大学
+  - 中国统计局
+  - 国际货币基金组织
+  - 欧盟
 products_models: []
-media_books: []
+media_books:
+  - 《国富论》
 status: evergreen
 ---
 ### 中国经济的寄生状态

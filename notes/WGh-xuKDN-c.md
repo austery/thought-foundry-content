@@ -5,17 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=WGh-xuKDN-c
 speaker: 老周横眉
-tags: []
-title: 美联储性格转变与政策转向
-summary: ''
+tags:
+  - monetary-policy
+  - inflation-control
+  - central-bank-independence
+  - interest-rates
+  - market-uncertainty
+title: 沃什时代的权力重构：美联储从‘经济保姆’到‘冷面判官’的性格转变
+summary: 文章深度解析了新任美联储主席沃什在首次议息会议中的政策转向。通过分析点阵图、缩减的前瞻指引以及拒绝预设承诺的行为，揭示了美联储正从鲍威尔时代的‘保姆式沟通’回归到格林斯潘式的‘战略模糊’。文章探讨了这一转变对美元信用、全球流动性以及中美经济面临的通缩与加息困境的深远影响。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
+people:
+  - 凯文·沃什 (Kevin Warsh)
+  - 鲍威尔 (Jerome Powell)
+  - 格林斯潘 (Alan Greenspan)
+  - 伯南克 (Ben Bernanke)
+  - 川普 (Donald Trump)
+companies_orgs:
+  - 美联储 (Federal Reserve)
+  - 联邦公开市场委员会 (FOMC)
 products_models: []
 media_books: []
 status: evergreen
