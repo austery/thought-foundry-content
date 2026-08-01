@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=qpurskLYBLk
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - geopolitical-relations
+  - economic-trends
+  - social-conflict
+  - technology-advancement
+  - regulatory-changes
+title: 2026年新闻速览：从香港媒体变迁到科技前沿与地缘政治动态
+summary: 本文汇总了多条时事新闻，涵盖了香港无线改名、山西古代遗骸发现、美国青年在敦煌的争议性高薪聘请、日本连续高温、香港饮食文化变迁、印度考公热抗议、科研环境争议以及中国科技领域（如AI/半导体攻坚）和地缘政治（美中关系、联合国秘书长选举）等多个方面。同时涉及对金融监管、社会现象（如献忠事件）、国际合作与国内政策的深度分析。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: macro-economy
+area: geopolitics
 project: []
 people: []
 companies_orgs: []

@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=gRtY4ZEQI5A
 speaker: FearNation 世界苦茶
-tags: []
-title: ''
-summary: ''
+tags:
+  - political-pressure
+  - youth-unemployment
+  - welfare-system
+  - social-responsibility
+  - institutional-reform
+title: 关于政治诉求、青年就业危机及未来社会形态的深度分析
+summary: 文章探讨了印度政治诉求（如教育部长下台）、全球青年面临的经济机会减少问题，以及对凯恩斯体制和无条件基本收入（UBI）的可行性进行讨论。同时分析了中国考公舞弊现象、户籍制度差异、社会责任重塑以及技术革命对就业结构的影响等宏观议题。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

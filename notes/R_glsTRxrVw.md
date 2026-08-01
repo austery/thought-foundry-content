@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=R_glsTRxrVw
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - supply-chain
+  - model-evolution
+  - compute-gap
+  - open-source-licensing
+  - agentic-workflow
+title: 关于人工智能发展路径、算力竞争与商业现实的深度分析
+summary: 文章深入探讨了当前大语言模型领域的核心议题，包括对特定公司愿景的质疑、英伟达等硬件供应链的依赖性、中美在算力上的差距以及开源模型的商业变现逻辑。核心观点指出，AGI的实现路径存在矛盾，算力瓶颈是最大的障碍，而最终成功的关键在于能否率先实现自主学习和构建中国主权AI体系。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-ml
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

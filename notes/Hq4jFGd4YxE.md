@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=Hq4jFGd4YxE
 speaker: 硅谷101
-tags: []
-title: ''
-summary: ''
+tags:
+  - model-scaling
+  - open-source-models
+  - agentic-workflow
+  - business-entrepreneurship
+  - technology-trends
+title: 中国大模型两代传承与SOTA模型的探索精神
+summary: 文章回顾了中国AI领域两代公司的发展脉络，从计算机视觉到大语言模型。重点探讨了开源模型在追赶SOTA闭源模型时的机遇，以及创业公司在资源匮乏环境下的AGI探索精神、人才传承机制和商业模式的取舍。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-ml
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

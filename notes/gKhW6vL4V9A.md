@@ -5,14 +5,18 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=gKhW6vL4V9A
 speaker: Latent Space
-tags: []
-title: ''
-summary: ''
+tags:
+  - idea-generation
+  - user-feedback
+  - generalist-talent
+  - work-related
+title: 创意与品味：在自下而上的雄心时代中寻找瓶颈
+summary: 文章探讨了当前技术发展背景下，构建新事物面临的瓶颈在于创意和品味。核心观点指出，想法并非凭空产生，而是源于用户交流、反馈或摩擦的反应。同时，讨论了从开发者到通用知识工作者的演进路径，以及在企业应用中如何通过适应用户需求来定制展示方式的重要性。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

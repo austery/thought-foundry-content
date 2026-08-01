@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=BbGv7GTbRN8
 speaker: The Diary Of A CEO
-tags: []
-title: ''
-summary: ''
+tags:
+  - vitamin-deficiency
+  - gut-microbiome
+  - sleep-disorders
+  - circadian-mismatch
+  - hormone-misconception
+title: 维生素世界误区：睡眠、维生素D与肠道微生物组的科学真相
+summary: 文章探讨了关于维生素补充剂和生活方式的常见错误建议，特别是对维生素D吸收的误解以及缺乏该维生素可能导致的睡眠问题。核心观点指出，大多数睡眠障碍与肠道微生物组的异常密切相关，而B族维生素的来源主要来自粪便中的细菌。此外，文章强调了室内环境（光照和昼夜节律失调）对睡眠的影响，并提出了通过修复肠道来改善慢性失眠的独特视角。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: health-wellness
+area: life-family
 project: []
 people: []
 companies_orgs: []
