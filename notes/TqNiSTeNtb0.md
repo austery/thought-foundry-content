@@ -5,18 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=TqNiSTeNtb0
 speaker: All-In Podcast
-tags: []
-title: ''
-summary: ''
+tags:
+  - robotics-form-factor
+  - industrial-inspection
+  - humanoid-vs-quadruped
+  - sensor-technology
+  - automation-operations
+title: 人工智能在现实世界中的应用与机器人技术探讨
+summary: 文章围绕一个名为 Machina 的会议展开，重点讨论了人工智能在工业巡检、移动机器人形态（如四足机器人与人形机器人）以及商业价值方面的应用。内容涵盖广告平台模式的成功案例和先进传感器的超人类感知能力，并展望了未来机器人的职业发展路径。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: deployment
+area: tech-engineering
 project: []
 people: []
-companies_orgs: []
-products_models: []
+companies_orgs:
+  - AppLovin
+  - Anybotics
+  - Boston Dynamics
+  - Agility Robotics
+products_models:
+  - ANYmal
+  - Spot robot
 media_books: []
 status: evergreen
 ---

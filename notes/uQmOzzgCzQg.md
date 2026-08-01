@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=uQmOzzgCzQg
 speaker: FearNation 世界苦茶
-tags: []
-title: ''
-summary: ''
+tags:
+  - model-capability
+  - supply-chain
+  - compute-bottleneck
+  - ecosystem-shift
+  - agentic-workflow
+title: 深度泄露会议纪要揭示中国AI发展中的算力瓶颈与竞争格局
+summary: 文章分析了一份DeepSeek重要融资会议纪要的泄露内容，核心观点包括人才差距本质是算力差距、模型能力追赶美国存在结构性劣势、国产芯片生态正在加速替代英伟达等。同时揭示了公司在数据标注、持续学习投入上的疑虑，以及对AGI终局的判断与美化策略。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-ml
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

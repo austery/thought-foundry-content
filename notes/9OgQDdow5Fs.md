@@ -5,16 +5,21 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=9OgQDdow5Fs
 speaker: TED
-tags: []
-title: ''
-summary: ''
+tags:
+  - curation-strategy
+  - science-communication
+  - iterative-process
+  - growth-mindset
+title: TED 会员活动回顾：科学普及与创新驱动的教育理念
+summary: 本文记录了 TED 会员活动中，策展人 Whitney Pennington Rogers 邀请前 NASA 工程师 Mark Rober 分享其耗资 6000 万美元的项目和新 STEM 课程。文章探讨了如何将枯燥的科学话题变得引人入胜，以及在工程领域中追求“不断迭代”的过程本身所蕴含的巨大机会与乐趣。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: science
+area: knowledge-meta
 project: []
-people: []
+people:
+  - mark rober
 companies_orgs: []
 products_models: []
 media_books: []

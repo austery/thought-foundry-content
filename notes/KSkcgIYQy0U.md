@@ -5,19 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=KSkcgIYQy0U
 speaker: The Pragmatic Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - formal-methods
+  - verification
+  - concurrency-modeling
+  - property-based-testing
+title: 形式化方法与验证在软件工程中的应用及未来趋势
+summary: 文章探讨了形式化方法的概念，从将隐式知识显式化的过程入手。重点讨论了该领域如何应用于分布式系统（如AWS的案例），以及基于属性的测试作为折中方案的价值。同时分析了人工智能对形式化验证的主流影响，并总结了在并发问题处理上实践经验的重要性。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: testing
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - Engineering a Safer World
+  - Data and Reality
+  - 'Debugging: the nine simple rules'
 status: evergreen
 ---
 <!-- chunk 1/12 -->
