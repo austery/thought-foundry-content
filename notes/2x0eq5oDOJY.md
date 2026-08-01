@@ -5,19 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=2x0eq5oDOJY
 speaker: The Pragmatic Engineer
-tags: []
-title: Kubernetes 与本地部署
-summary: ''
+tags:
+  - kubernetes-deployment
+  - gitops-concept
+  - roll-forward
+  - ci-cd-strategy
+  - feature-toggles
+title: Kubernetes、GitOps与CI/CD实践中的前沿思考
+summary: 本文探讨了在实际工程中关于 Kubernetes 本地部署的场景，以及 GitOps 的本质及其对团队的适用性。文章重点讨论了回滚策略（倾向于向前滚动和功能开关），并分析了人工智能对 CI/CD 流程的影响，强调 AI 与开发流程的紧密耦合关系，以及如何利用功能开关来解耦发布与部署。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: deployment
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - The Phoenix Project
+  - Radical Candor
+  - Diaspora
 status: evergreen
 ---
 ### Kubernetes 与本地部署

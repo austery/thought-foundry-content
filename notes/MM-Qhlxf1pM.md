@@ -5,16 +5,25 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=MM-Qhlxf1pM
 speaker: The Diary Of A CEO
-tags: []
-title: ''
-summary: ''
+tags:
+  - sexual-health
+  - women-health
+  - hormone-therapy
+  - medical-education
+  - reproductive-health
+title: 揭秘女性健康盲区：打破性教育缺失与医学失职的枷锁
+summary: 泌尿科医生Rachel Rubin指出，当前医疗体系在女性荷尔蒙、绝经及性健康方面的严重失职导致广泛的健康不平等。文章深入探讨了阴蒂结构、阴蒂粘连等关键生理知识的缺失，强调通过教育和基础医疗干预（如药物治疗与手术分离）可显著提升女性的性满意度与生活质量。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: health-wellness
+area: life-family
 project: []
-people: []
+people:
+  - Rachel Rubin
+  - Melinda Gates
+  - Oprah Winfrey
+  - Halle Berry
 companies_orgs: []
 products_models: []
 media_books: []

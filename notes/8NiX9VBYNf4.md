@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=8NiX9VBYNf4
 speaker: 徒步的騎手•劉宗坤
-tags: []
-title: 北大女同学的成长轨迹
-summary: ''
+tags:
+  - social-ethics
+  - cross-cultural-adoption
+  - traditional-values
+  - civilization-reflection
+  - human-nature
+title: 从个体成长轨迹到社会文明反思：关于跨国收养、传统观念与人性抉择的深度观察
+summary: 文章通过讲述北大女同学的成长经历，引出中国孤儿与跨国收养的现象。结合对传统观念（如产男则相贺）和基层社会的深入观察，探讨了在制度变迁下，个体命运、社会伦理以及文明与野蛮之间的辩证关系，并批判了利益算计如何扭曲人性的选择。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: culture-history
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

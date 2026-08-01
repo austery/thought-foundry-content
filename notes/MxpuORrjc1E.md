@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=MxpuORrjc1E
 speaker: Best Partners TV
-tags: []
-title: 2026生成式AI市场结构性转变
-summary: ''
+tags:
+  - agentic-shopping
+  - subscription-model
+  - market-concentration
+  - content-discovery
+  - user-behavior-shift
+title: 2026生成式AI市场结构性转变：从下载增长到付费订阅与智能体购物重构
+summary: 文章分析了2026年生成式AI市场的核心变化，指出赛道高度集中但用户忠诚度低，商业化重心转向付费订阅。重点探讨了智能体购物如何彻底改变电商消费行为，以及AI工具从科技专属定位向通用载体的转变，并总结了区域市场、竞争格局和用户画像演变等关键趋势。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

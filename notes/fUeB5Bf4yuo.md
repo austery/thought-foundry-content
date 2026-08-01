@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=fUeB5Bf4yuo
 speaker: 投资TALK君
-tags: []
-title: 市场波动与苹果涨价影响
-summary: ''
+tags:
+  - stock-analysis
+  - valuation-strategy
+  - macro-economy
+  - risk-management
+  - sector-rotation
+title: 市场波动分析与投资策略：从科技股回调到周期股估值重估的综合思考
+summary: 文章深入分析了当前美股市场的波动，重点探讨了宏观事件（如涨价消息）对大科技板块的影响。同时，详细阐述了针对特定股票的加仓时机判断标准，结合基本面、估值和技术面的多维度策略。此外，还通过案例分享了重仓策略的风险管理与心态调整，并对周期股的盈利模式进行了深度解读。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
 people: []
 companies_orgs: []

@@ -5,19 +5,25 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=bhlJPNur8JI
 speaker: 安争鸣（Stella An）
-tags: []
-title: 年輕人困境的三種狀態
-summary: ''
+tags:
+  - structural-inequality
+  - youth-crisis
+  - social-safety
+  - silver-democracy
+  - career-stagnation
+title: 年轻人的困境三态分析与社会结构性冷酷的普世警示
+summary: 文章分析了中国和日本年轻人在经济、职业和生活状态上的三种困境（内卷竞争、焦虑考公、躺平），并引用社会学家的观点探讨战后经济结构滑坡、系统性不公以及“银发民主”等问题。核心论点在于，当前的困境并非个体能力不足，而是由社会结构性因素和责任转嫁所导致的，呼吁政府建立更具包容性的保障体系。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
 people: []
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 社会为什么对年轻人冷酷：向下流动的社会即将到来
 status: evergreen
 ---
 ### 年輕人困境的三種狀態

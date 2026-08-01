@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=Olq29N3kTF0
 speaker: 天下文化
-tags: []
-title: 访谈开场与嘉宾介绍
-summary: ''
+tags:
+  - charity-philosophy
+  - business-culture
+  - personal-growth
+  - legacy-building
+  - global-connection
+title: 从五毛钱到全球善业累积：企业文化、慈善理念与跨国经营的实践
+summary: 文章探讨了企业文化中“温柔的心地”和“善业的累积”的核心理念。通过讲述从微小行动（如省下零钱）到大规模社会影响（如汇聚众人的爱心），以及在资源有限的情况下实现艰难扭转，文章阐述了如何将个人信念转化为持久的组织力量，并以跨国结缘故事展示了善念与因缘的全球传播。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

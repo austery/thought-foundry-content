@@ -5,14 +5,18 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=K-Xv8D8NjTk
 speaker: The Pragmatic Engineer
-tags: []
-title: 名字的由来
-summary: ''
+tags:
+  - language-design
+  - tooling-support
+  - verification-testing
+  - performance-optimization
+title: 编程语言设计与演进的深层思考
+summary: 本文探讨了从早期编程环境到现代语言设计的多个关键里程碑，包括对特定技术（如快速迭代、面向对象设计）的追求。文章分析了特定语言的命名由来、核心设计目标（如托管代码、垃圾回收）、成功要素（如工具支持的可擦除类型系统），以及在人工智能时代下，关于测试和验证的瓶颈问题，并总结了开发者工具与编程语言的不可分割性。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: software-development
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

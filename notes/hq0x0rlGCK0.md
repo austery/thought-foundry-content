@@ -5,16 +5,21 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=hq0x0rlGCK0
 speaker: TVO Today
-tags: []
-title: 温德尔的LGBTQ+历史谁在拯救？
-summary: ''
+tags:
+  - queer-history
+  - community-space
+  - human-rights-protest
+  - historical-memory
+title: 加拿大温莎的 LGBTQ+ 历史、社区空间与人权抗争
+summary: 本文探讨了加拿大温德尔作为自豪首都的历史背景，重点关注其在早期移民和拓荒者故事之外，致力于拯救被遗忘的LGBTQ+历史。文章通过回顾当地社区的形成、关键人物对历史的记录、重要的公共空间（如酒吧和城市大厅）的演变，以及争取人权运动的斗争，揭示了性取向在加拿大社会中的复杂历史进程与持续的韧性。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: culture-history
+area: society-thinking
 project: []
-people: []
+people:
+  - Walter Cassidy
 companies_orgs: []
 products_models: []
 media_books: []

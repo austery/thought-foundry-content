@@ -5,19 +5,24 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=n5f51gtuGHE
 speaker: The Pragmatic Engineer
-tags: []
-title: 访谈背景与起源
-summary: ''
+tags:
+  - self-modifying-software
+  - code-mode
+  - agentic-workflow
+  - complexity-reduction
+title: AI编程代理的幕后构建、技术演进与工程哲学探讨
+summary: 文章回顾了极简且可自我修改的AI编程代理的诞生背景，介绍了其核心技术（如自修改软件），并深入讨论了从早期计算基础到当前AI时代的职业发展转变。同时对比了不同工作流模式（MCP vs CLI）的优劣，以及人类学习与机器学习在解决复杂工程问题时的根本差异。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: software-development
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - Code by Petzold
 status: evergreen
 ---
 ### 访谈背景与起源

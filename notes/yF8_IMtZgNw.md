@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=yF8_IMtZgNw
 speaker: 張内咸脫口秀
-tags: []
-title: 夏天越看越冷的12部片
-summary: ''
+tags:
+  - slow-living
+  - emotional-cooling
+  - extreme-cold
+  - media-recommendation
+  - social-commentary
+title: 从爬山到冷战：12种不同境界的清凉解暑影片推荐
+summary: 文章以作者分享个人经历和对夏日困扰的思考为引子，随后围绕“冷”这一核心概念，系统地推荐了十二部不同主题的影片。这些影片涵盖了从慢生活、冷静、宫斗到极端寒冷（如极地长征）等多种境界，旨在提供视觉上的清凉和思维上的降温体验。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: culture-history
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

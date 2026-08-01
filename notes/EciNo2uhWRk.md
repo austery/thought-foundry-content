@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=EciNo2uhWRk
 speaker: Best Partners TV
-tags: []
-title: Agent Harness的独立价值将下降
-summary: ''
+tags:
+  - agentic-workflow
+  - model-integration
+  - product-evolution
+  - long-task-agent
+  - narrow-super-intelligence
+title: Agent时代的核心竞争力转移：模型原生能力与产品飞轮的崛起
+summary: 文章探讨了当前行业对 Agent Harness 的判断，指出其独立价值将下降，主线升级为 Agent 原生。核心观点是 AI 对搜索和业务的增量效应大于存量减少，战略转向“最大化客户成果”。同时分析了落地阶段、产品形态演进以及编程领域驱动力，强调长程 Agent 和模型原生能力是未来竞争的关键。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-ml
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

@@ -5,19 +5,25 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=gpySlRk0v18
 speaker: 天下文化
-tags: []
-title: 访谈开场与书籍介绍
-summary: ''
+tags:
+  - resource-scarcity
+  - life-experience
+  - slow-living
+  - perception-shift
+  - cultural-reflection
+title: 《观石录》访谈：从稀缺资源到人生感悟的深度品鉴
+summary: 本文围绕书籍《观石录》展开访谈，探讨了接触稀缺资源（石头）的机缘、时代背景对个体成长的影响，以及如何通过细致的感知和慢下来去体验人生的本质。核心观点在于将物质的“硬度”与精神的“柔软度”进行对比，强调在快速现代性中保持内心的觉悟和慢节奏的感受的重要性。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
 people: []
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 《观石录》
 status: evergreen
 ---
 ### 访谈开场与书籍介绍

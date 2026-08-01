@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=VAHafnFlvCE
 speaker: 莊也雜談
-tags: []
-title: 机器人养老：被现实逼出的必然选择
-summary: ''
+tags:
+  - robotics-trends
+  - healthcare-domain
+  - aging-technology
+  - human-machine-interaction
+  - ethical-considerations
+title: 机器人养老的必然选择：从全球护工短缺到技术进化路线与伦理争议
+summary: 文章探讨了人口老龄化和护理资源短缺背景下，机器人养老作为被现实逼出的必然趋势。分析了全球护工危机、各国技术布局（中国、美国、日本等）、情感陪伴、外骨骼康复及全功能人形机器人的三层进化路线，并深入剖析了成本、隐私、尊严和责任等六大核心伦理争议。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

@@ -5,18 +5,36 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=SFZ9ZlNyljc
 speaker: House of El - AI
-tags: []
-title: 超级游艇与裁员的对比
-summary: ''
+tags:
+  - corporate-culture
+  - data-privacy
+  - strategic-pivot
+  - incentive-structure
+  - workforce-reduction
+title: Meta 的身份危机：在巨额利润与企业文化崩溃之间的撕裂
+summary: 文章深入剖析了 Meta 公司在取得巨大商业成功（如广告 AI 引擎的领先地位）的同时，面临严重的内部士气危机和战略失焦。通过对比扎克伯格的奢华生活与大规模裁员、员工监控以及缺乏清晰愿景的频繁转型（从元宇宙到前沿 AI），揭示了公司在数据资产优势与领导层决策混乱之间的矛盾。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-ml
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Mark Zuckerberg
+  - Andrew Bosworth
+companies_orgs:
+  - Meta
+  - Google
+  - Amazon
+  - OpenAI
+  - Anthropic
+products_models:
+  - Advantage Plus
+  - Andromeda
+  - Reality Labs
+  - WhatsApp
+  - Instagram
+  - Facebook
 media_books: []
 status: evergreen
 ---

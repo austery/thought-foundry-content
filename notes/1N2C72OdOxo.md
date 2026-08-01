@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=1N2C72OdOxo
 speaker: Money & Macro
-tags: []
-title: 中国房地产危机与产业升级的博弈
-summary: ''
+tags:
+  - real-estate-crisis
+  - macroeconomics
+  - manufacturing-boom
+  - consumption-channel
+  - credit-shift
+title: 中国房地产危机与高端制造业的博弈：从日本经验看经济转型
+summary: 文章比较中国房地产危机与日本泡沫破裂后的调整，分析电动车、太阳能等高端制造业扩张如何承接投资与信用需求。尽管这种转型缓解了短期冲击，内需疲弱、产能过剩和出口依赖仍可能使中国面临长期停滞风险。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
+people:
+  - Kenneth Rogoff
+  - Yuanchen Yang
+companies_orgs:
+  - IMF
+  - The Economist
 products_models: []
-media_books: []
+media_books:
+  - Tale of Two Countries
 status: evergreen
 ---
 ### 中国房地产危机与产业升级的博弈

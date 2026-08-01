@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=2Rzv6Vd0qBg
 speaker: Best Partners TV
-tags: []
-title: AlphaFold：从诺奖到通用方法论的探索
-summary: ''
+tags:
+  - structure-prediction
+  - scientific-methodology
+  - model-evaluation
+  - domain-specific-architecture
+  - empirical-pragmatism
+title: 从诺奖到通用方法论：蛋白质结构预测的突破、局限与科学AI的未来探索
+summary: 文章探讨了人工智能在解决蛋白质折叠难题上的重大进展，分析了该技术从特定实验结果预测工具向通用科学方法论演进的过程。核心观点在于区分模型的预测能力与人类对生物学本质的理解，强调领域专属架构的胜利和“无情的经验主义”在AI for Science中的作用。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-ml
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

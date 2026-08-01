@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=tEj57PVuqAE
 speaker: 夸克说
-tags: []
-title: 崩老头产业链的构成
-summary: ''
+tags:
+  - supply-chain
+  - psychology
+  - culture-history
+  - business-entrepreneurship
+  - conflict-management
+title: 崩老头产业链的构成与仇恨商业化逻辑分析
+summary: 文章深入剖析了“崩老头”这一网络骗局背后的完整产业链，包括心理建设（道）、话术复制（术）和组织实操。核心论点在于，这种基于对特定群体（如中年男性）的仇恨进行商业化的模式，通过制造对立来获取集中利益，并揭示了其与卢旺达大屠杀、南非公关丑闻等历史事件中煽动仇恨的相似性。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

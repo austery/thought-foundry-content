@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=PmavjZVVSdU
 speaker: Best Partners TV
-tags: []
-title: 拿下OpenAI Offer的技能树
-summary: ''
+tags:
+  - career-development
+  - research-methodology
+  - interview-preparation
+  - technical-skills
+  - negotiation-strategy
+title: 拿下顶级人工智能公司Offer的求职技能树与实战策略拆解
+summary: 本文通过一位顶尖博士在入职前分享其57场面试、46次沟通等求职经历，系统性地拆解了从简历准备到面试分类（如机器学习编程、技术讨论、研究讨论）的七大类准备要点。文章强调了节奏把控的重要性，包括练手成本、外部变量应对以及拿到入场券的关键在于人脉积累和研究积累，并详细阐述了核心备考环节——从全局框架搭建到代码实现（如从零构建模型），最后总结了面试谈判技巧与心态建设。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: career-development
+area: work-career
 project: []
 people: []
 companies_orgs: []

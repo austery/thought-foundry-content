@@ -5,19 +5,46 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=T7tLmRLSYys
 speaker: 小翠時政財經
-tags: []
-title: 宏觀經濟與川總表態
-summary: ''
+tags:
+  - macro-economy
+  - monetary-policy
+  - semiconductor-industry
+  - geopolitics
+  - ai-infrastructure
+title: 川普政策、贝森特财长观点与全球半导体市场深度解析
+summary: 本文深入分析了川普政府的宏观经济表态，重点解读了新任财长贝森特的强美元策略、降息预期及对通胀的乐观预测。同时涵盖了伊朗地缘政治动态、韩国杠杆ETF风险、SK海力士上市计划以及台积电与美光在存储芯片领域的竞争格局，并探讨了AI企业在流程嵌入中的护城河构建。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 川普 (Donald Trump)
+  - 贝森特 (Scott Bessent)
+  - 孙正义 (Masayoshi Son)
+  - 鲁比奥 (Marco Rubio)
+companies_orgs:
+  - 美国财政部
+  - 美联储 (Fed)
+  - 伊朗外交部
+  - 三星 (Samsung)
+  - SK海力士 (SK Hynix)
+  - 台积电 (TSMC)
+  - 英伟达 (NVIDIA)
+  - 微軟 (Microsoft)
+  - 甲骨文 (Oracle)
+  - Meta
+  - 谷歌 (Google)
+  - 字節跳動
+products_models:
+  - 豆包
+  - Kimi
+  - Cloud Tag
+  - Arena
+media_books:
+  - CNBC
+  - 彭博社 (Bloomberg)
 status: evergreen
 ---
 ### 宏觀經濟與川總表態
