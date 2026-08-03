@@ -1,0 +1,450 @@
+[Speaker 0]: 大家好，
+[Speaker 0]: 我是 darn，
+[Speaker 1]: 欢迎回到我的频道。
+[Speaker 0]: 本周四盘后，
+[Speaker 0]: 亚马逊发布了二零二六财年第二季度财报，
+[Speaker 0]: 股价在财报后单日上涨超过百分之十五，
+[Speaker 0]: 从两百三十五美元附近一路冲到两百七十美元以上，
+[Speaker 0]: 创下十周年来最大的单日涨幅。
+[Speaker 0]: 过去一段时间，
+[Speaker 0]: 亚马逊股价一直受到一个核心问题压制，
+[Speaker 0]: 公司每年投入上千亿美元建设 AI 数据中心。
+[Speaker 0]: 这些钱什么时候才能真正转化成收入和利润？
+[Speaker 0]: 这一次，
+[Speaker 0]: 亚马逊终于交出了一份让市场满意的答卷。
+[Speaker 0]:  AWS 收入增速明显加快，
+[Speaker 0]: 营业利润率持续提升，
+[Speaker 0]: 长期订单大幅增长。
+[Speaker 0]: 管理层甚至首次表示，
+[Speaker 0]:  AWS 未来有可能成为一家年收入达到一万亿美元的业务。
+[Speaker 0]: 本期视频我会重点分析亚马逊这份财报解释股价为什么暴涨，
+[Speaker 0]: 市场真正喜欢的是什么，
+[Speaker 0]: 并更新最新的目标价格和加减仓点位视频。
+[Speaker 0]: 第二部分，
+[Speaker 0]: 再结合微软、
+[Speaker 0]: 谷歌和 matter 的最新财报，
+[Speaker 0]: 以及最近两周的半导体集体抛售，
+[Speaker 0]: 聊一聊四大科技巨头继续扩大 AI 资本开支以后，
+[Speaker 0]: 半导体板块是否还可以继续投资？
+[Speaker 0]: 哪些半导体和 AI 基础设施公司可能成为接下来最直接的受益者。
+[Speaker 0]: 最近，
+[Speaker 0]: 我对会员体系做了优化，
+[Speaker 0]: 现在分三档实战家可加入 disco 的群，
+[Speaker 0]: 与数百位投资者实时交流，
+[Speaker 0]: 还可以收到我在会员频道分享的美股实施操作研究官。
+[Speaker 0]: 在此基础上，
+[Speaker 0]: 增加阿尔 a peaks 个股推荐，
+[Speaker 0]: 以及我亲自整理的个股或 ETF 深度分析文章，
+[Speaker 0]: 包括目标、
+[Speaker 0]: 价格以及加仓点位分享，
+[Speaker 0]: 掌舵者则提供专属一对一服务。
+[Speaker 0]: 有兴趣的朋友可以直接联系我，
+[Speaker 0]: 了解详情广告就到这里，
+[Speaker 0]: 我们马上开始今天的内容。
+[Speaker 0]: 先看亚马逊的财报。
+[Speaker 0]: 数字公司第二季度收入两千零六亿美元，
+[Speaker 0]: 同比增长百分之二十。
+[Speaker 0]: 营业利润两百七十五亿美元，
+[Speaker 0]: 同比增长百分之四十三。
+[Speaker 0]: 其中，
+[Speaker 0]:  AWS 收入达到四百二十二亿美元，
+[Speaker 0]: 同比增长百分之三十六点七，
+[Speaker 0]: 连续第五个季度加速也是过去十八个季度以来最快的增速。
+[Speaker 0]: 按照目前的水平计算，
+[Speaker 0]:  AWS 年化收入运行率已经达到一千六百九十亿美元。
+[Speaker 0]:  AWS 营业利润达到一百六十六亿美元，
+[Speaker 0]: 比去年同期增加约六十四亿美元。
+[Speaker 0]: 营业利润率从百分之三十二二点九提高到百分之三十九点四。
+[Speaker 0]: 即使剔除约六亿美元能源合约，
+[Speaker 0]: 公允价值变动利润率仍然超过百分之三十八，
+[Speaker 0]: 同比扩张约五百二十个基点。
+[Speaker 0]: 这组数字最重要的地方不只是 a ws 增长快，
+[Speaker 0]: 而是收入增长和利润率扩张。
+[Speaker 0]: 同时，
+[Speaker 0]: 发生过去，
+[Speaker 0]: 市场一直担心，
+[Speaker 0]:  AI 虽然能够带来大量云收入，
+[Speaker 0]: 但 GPU 内存和数据中心成本很高。
+[Speaker 0]: 大型 AI 客户溢价能力又很强，
+[Speaker 0]: 最终可能是一门低利润率的生意。
+[Speaker 0]: 但这一季度，
+[Speaker 0]:  AWS 增加约一百一十三亿美元收入同时增加约六十四亿美元，
+[Speaker 0]: 营业利润增量利润率接近百分之五十七，
+[Speaker 0]: 剔除一次性收益后仍在百分之五十一左右，
+[Speaker 0]:  AI 业务并没有稀释 AWS 利润率，
+[Speaker 0]: 反而推动了利润增长。
+[Speaker 0]: 有没有 a ws s 利润率能够保持强劲？
+[Speaker 0]: 首先，
+[Speaker 0]: 得益于自研芯片，
+[Speaker 0]: 亚马逊芯业业务的年化收入运行率已经超过两百五十美元，
+[Speaker 0]: 同比增长超过百分分之一。
+[Speaker 0]: 自自研 CPUAI 加速芯片和网络设备，
+[Speaker 0]: 可以降低对外部供应商的依赖，
+[Speaker 0]: 并提高 AWS 整体成本效率。
+[Speaker 0]: 当然，
+[Speaker 0]: 亚马逊并不会停止采购英伟达芯。
+[Speaker 0]: 当然希望通过英伟达和自研芯片，
+[Speaker 0]: 并行为客户提供更多选择。
+[Speaker 0]: 其次，
+[Speaker 0]:  AWS 目前大部分 AI 算力合同至少是五年期，
+[Speaker 0]: 而服务器和网络设备的预计使用寿命大约为五到六年。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 亚马逊并不是用短期订单支撑，
+[Speaker 0]: 长期建设大量新增产能，
+[Speaker 0]: 已经提前通过长期合同锁定 AI 业务，
+[Speaker 0]: 也会拉动 AWS 原有的 CPU 存储数据库和网络业务模型。
+[Speaker 0]: 训练结束以后，
+[Speaker 0]: 强化学习、
+[Speaker 0]: 智能体运行、
+[Speaker 0]: 数据储存和向量数据库并不全部依赖昂贵的 GPU，
+[Speaker 0]: 其中很多工作仍然运行在普通 CPU 上。
+[Speaker 0]: 市场喜欢的另一个数字是 AWS 积压订单达到四千九百六十亿美元，
+[Speaker 0]: 同比增长超过百分之一百，
+[Speaker 0]: 相当于目前年化收入的接近三倍。
+[Speaker 0]: 亚马逊表示，
+[Speaker 0]: 二零二七年新增的大部分容量已经被预定，
+[Speaker 0]: 二零二八年的需求也非常强，
+[Speaker 0]: 接近五千亿美元的积压订单，
+[Speaker 0]: 说明亚马逊的资本开支正在逐渐转化为可以看见看见的未来收入。
+[Speaker 0]: 管理层把二零二六年现金资本开支预期从约两千亿美元提高到约两千两百亿美元，
+[Speaker 0]: 但股价并没有因此下跌。
+[Speaker 0]: 他们的解释是，
+[Speaker 0]: 增加的两百亿美元主要来自内存、
+[Speaker 0]: 硬盘和其他零部件价格上涨，
+[Speaker 0]: 而不是临时决定建设更多没有客户的产能。
+[Speaker 0]: 即使投入两千两百亿美元，
+[Speaker 0]: 亚马逊预计二零二六年仍然无法满足全部需求，
+[Speaker 0]: 二零二七年也可能继续供不应求。
+[Speaker 0]: 这说明，
+[Speaker 0]: 资本开支上调更多是需求强劲和成本上涨的结果，
+[Speaker 0]: 而不是盲目扩张。
+[Speaker 0]: 电话会上，
+[Speaker 0]:  CEO 迪 andjesse 还表示，
+[Speaker 0]:  AWS 未来非常有可能成为年收入一万亿美元的业务，
+[Speaker 0]: 管理层没有给出具体时间表，
+[Speaker 0]: 以目前一千六百九十亿美元的年化收入计算，
+[Speaker 0]:  AWS 要达到一万亿美元，
+[Speaker 0]: 还需要增长接近六倍。
+[Speaker 0]:  jessie 的表态不会改变，
+[Speaker 0]: 我一会儿给大家带来的十二个月目标价格，
+[Speaker 0]: 但会明显扩大。
+[Speaker 0]: 亚马逊股价的长期想象空间，
+[Speaker 0]: 有没有亚马逊其他业务的表现同样不错。
+[Speaker 0]: 广告收入一百九十八亿美元，
+[Speaker 0]: 同比增长百分之二十六，
+[Speaker 0]: 仍然是亚马逊资本消耗最低、
+[Speaker 0]: 利润率最高的业务之一。
+[Speaker 0]: 零售端的配送效率也在改善。
+[Speaker 0]: 上半年当日达和格夜达的商品数量同比增长超过百分之四十。
+[Speaker 0]: 没有了。
+[Speaker 0]: 在剔除燃油和长途运输价格上涨以后，
+[Speaker 0]: 履约成本增速低于包裹数量增速说明更快。
+[Speaker 0]: 配送并不是完全依靠更高成本换来的。
+[Speaker 0]: 亚马逊最新季度的 EPS 是五点七五美元，
+[Speaker 0]: 超过市场预期的一点八二美元三倍有余。
+[Speaker 0]: 这是因为其中包括了大约五百三十四亿美元税前非经营性收益，
+[Speaker 0]: 主要来自对 anthroropic 持股的重新估值剔除这部分以后，
+[Speaker 0]: 核心每股收益大约在一点九零到二美元附近，
+[Speaker 0]: 依然超越市场预期。
+[Speaker 0]: 值得注意的是，
+[Speaker 0]: 亚马逊过去十二个月自由现金流也已经转为负七十六亿美元，
+[Speaker 0]: 说明数据中心投产之前现金流压力仍然真实存在。
+[Speaker 0]: 接下来更新目标价格、
+[Speaker 0]: 估值锚点继续放在二零二七财年，
+[Speaker 0]: 目前市场一致预期每股收益是十点一六美元。
+[Speaker 0]: 过去八个季度中有两个季度的每股收益受到股权重估严重影响。
+[Speaker 0]: 因此，
+[Speaker 0]: 我把这两个季度剔除，
+[Speaker 0]: 对不对？
+[Speaker 0]: 剩余六个季度的平均超预期幅度大约是百分之二十。
+[Speaker 0]: 悲观情景直接采用十点一六美元中性情景，
+[Speaker 0]: 假设最终每股收益比共识高百分之十，
+[Speaker 0]: 得到十一点一八美元。
+[Speaker 0]: 乐观情景上调百分之二十，
+[Speaker 0]: 得到十二点一九美元市盈率区间继续采用二十四倍、
+[Speaker 0]: 二十八倍和三十二倍。
+[Speaker 0]: 和我们之前计算目标价格时用到的 PE 区间保持一致，
+[Speaker 0]: 最终悲观目标价是两百四十四美元，
+[Speaker 0]: 中性目标价三百一十三美元。
+[Speaker 0]: 乐观目标价三百九十美元，
+[Speaker 0]: 以目前两百七十美元附近的股价计算，
+[Speaker 0]: 中性情景还有大约百分之十六的上涨空间。
+[Speaker 0]: 悲观情景有接近百分之十的下跌空间，
+[Speaker 0]: 乐观情景则有约百分之四十四的上涨空间。
+[Speaker 0]: 有没有财报前，
+[Speaker 0]: 亚马逊股价接近悲观目标价，
+[Speaker 0]: 安全边际比较充足。
+[Speaker 0]: 我也在亚马逊股价跌破两百三十美元后进行了几次加仓，
+[Speaker 0]: 财报后单日上涨百分之十五，
+[Speaker 0]: 股价已经进入悲观目标和中性目标之间，
+[Speaker 0]: 追高的性价比明显下降。
+[Speaker 0]: 因此，
+[Speaker 0]: 我的第一加仓位置仍然放在两百四十四美元，
+[Speaker 0]: 也就是悲观目标价第二加仓位置放在两百二十美元附近。
+[Speaker 0]: 这里既是前期重要的技术支撑位，
+[Speaker 0]: 也意味着市场开始重新怀疑资本开支回报。
+[Speaker 0]: 如果跌到两百二十美元，
+[Speaker 0]: 我们需要确认两件事 aws 收入增速能否维持在百分之二十五以上，
+[Speaker 0]: 营业利润率能否维持在百分之三十五以上？
+[Speaker 0]: 如果两项都成立两百二十美元，
+[Speaker 0]: 会是比较明确的抄底机会，
+[Speaker 0]: 可以在这个位置加大投入。
+[Speaker 0]: 减仓方面，
+[Speaker 0]: 第一档放在三百一十三美元，
+[Speaker 0]: 也就是中性目标价到达这个位置。
+[Speaker 0]: 财报带来的估值修复基本已经兑现，
+[Speaker 0]: 可以适当锁定利润。
+[Speaker 0]: 第二档放在三百九十美元附近，
+[Speaker 0]: 也就是乐观目标价，
+[Speaker 0]: 这需要二零二七年每股收益达到十二点一九美元。
+[Speaker 0]: 同时，
+[Speaker 0]: 市场愿意给予三十二倍市盈率，
+[Speaker 0]: 两个条件同时兑现的概率并不高。
+[Speaker 0]: 因此这个位置更适合作为明显的利润兑现区，
+[Speaker 0]: 而不是继续追涨的位置。
+[Speaker 0]: 我自己在亚马逊财报后进行了小幅减仓，
+[Speaker 0]: 把亚马逊在组合中的仓位重新控制在百分之八以内，
+[Speaker 0]: 剩余仓位会继续持有，
+[Speaker 0]: 接近中性目标价以后再考虑下一次减仓。
+[Speaker 0]: 我的每日操作都会分享。
+[Speaker 0]: 在会员频道，
+[Speaker 0]: 当时有会员朋友看到我财报后减仓。
+[Speaker 0]: 亚马逊问我为什么财报结果这么好，
+[Speaker 0]: 而且没有到目标价位就要进行减仓。
+[Speaker 0]: 我在进行加减仓操作的时候，
+[Speaker 0]: 除了会考虑目标，
+[Speaker 0]: 价位，
+[Speaker 0]: 还会同时考虑我的组合搭配、
+[Speaker 0]: 仓位管理以及短期市场情绪和宏观风险。
+[Speaker 0]: 因此这个价位减仓。
+[Speaker 0]: 亚马逊只是为了控制仓位，
+[Speaker 0]: 增加现金，
+[Speaker 0]: 降低组合整体的风险。
+[Speaker 0]: 长期来看，
+[Speaker 0]: 我非常看好亚马逊未来的发展，
+[Speaker 0]: 我也会继续把它当做我的重仓股，
+[Speaker 0]: 进行长期持有。
+[Speaker 0]: 接下来我们再简单说一下，
+[Speaker 0]: 最近发布财报的其他三家大科技公司。
+[Speaker 0]: 本周三微软发布财报，
+[Speaker 0]: 财报后，
+[Speaker 0]: 股价也迎来暴涨，
+[Speaker 0]: 一周内上涨接近百分之二十，
+[Speaker 0]:  azure 收入增长百分之四十三，
+[Speaker 0]: 商业 RPO 达到六千七百八十亿美元。
+[Speaker 0]: 而且本季度新增的 RPO 全部来自前沿大模型公司以外的客户。
+[Speaker 0]:  microsoft three hundred and sixty five co pilot 付费席位超过三千万。
+[Speaker 0]: 微软证明，
+[Speaker 0]:  AI 资本开支不仅带来 azure 算利收入，
+[Speaker 0]: 也开始化成软件订阅收入。
+[Speaker 0]: 微软维持之间 k pex 指引不变，
+[Speaker 0]: 也是市场喜欢看到的事情。
+[Speaker 0]: 谷歌财报后最初下跌，
+[Speaker 0]: 主要是因为管理层把二零二六年资本开支再次提高到一千九百五十亿至两千零五十亿美元。
+[Speaker 0]: 同时自由现金流转负，
+[Speaker 0]: 但谷歌云收入增长百分之八十二，
+[Speaker 0]: 积压订单达到五千一百四十亿美元。
+[Speaker 0]: 市场在随后一周内认可了谷歌的 AI 变现能力。
+[Speaker 0]: 目前谷歌的股价已经回到了财报前的位置。
+[Speaker 0]:  meta 财报后直接下跌接近百分之九，
+[Speaker 0]: 虽然它的 EPS 缺口大部分来自诉讼和遣散费用，
+[Speaker 0]: 但自由现金流只剩七点八四亿美元，
+[Speaker 0]: 单季度资本开支达到三百一十一亿美元，
+[Speaker 0]: 而且管理层仍无法给出清晰的二零二七年资本开支上限，
+[Speaker 0]: 也没有给市场展示明确的 AI 变现路径，
+[Speaker 0]: 这是市场目前最不喜欢的财报结果组合。
+[Speaker 0]: 因此，
+[Speaker 0]:  meta 的股价最短期内承压，
+[Speaker 0]: 把四家公司放在一起看，
+[Speaker 0]: 一个更加明确的结论出现了，
+[Speaker 0]:  AI 资本开支周期远远没有结束。
+[Speaker 0]: 亚马逊计划投入约两千两百亿美元。
+[Speaker 0]: 谷歌计划投入一千九百五十亿到两千零五十亿美元。
+[Speaker 0]:  meta 计划投入一千三百亿到一千四百五十亿美元。
+[Speaker 0]: 微软调整租赁会计口径后的日历，
+[Speaker 0]: 年资本开支约一千七百五十亿美元，
+[Speaker 0]: 但管理层明确表示底层投资计划没有减少，
+[Speaker 0]: 而且二零二七财年资本开支还会继续增长。
+[Speaker 0]: 虽然四家公司披露口径并不完全一致，
+[Speaker 0]: 但合计金额已经接近或超过七千亿美元。
+[Speaker 0]: 对于这些大科技公司来说，
+[Speaker 0]: 资本开支最终能否获得回报仍然存在分歧。
+[Speaker 0]: 但对于向他们出售 GPU 定制芯片、
+[Speaker 0]:  HBM 先进封装和高速连接设备的公司来说，
+[Speaker 0]: 订单和收入不是确定性很强的事情。
+[Speaker 0]: 这也是为什么现阶段 AI 投资中最明确的受益方向依然是半导体和 AI 基础设施视频的后半部分。
+[Speaker 0]: 我们就来聊一聊半导体板块有哪些值得关注的优质公司嗯，
+[Speaker 0]: 没有在计算芯片领域，
+[Speaker 0]: 最核心的公司依然是英伟达。
+[Speaker 0]: 英伟达提供的不只是 GPU，
+[Speaker 0]: 还包括 grace CPUNV、
+[Speaker 0]:  link 高速网络和 cuda 软件。
+[Speaker 0]: 生态客户购买的不是一颗独立芯片，
+[Speaker 0]: 而是一整套已经成熟的 AI 计算平台。
+[Speaker 0]: 只要微软、
+[Speaker 0]: 亚马逊、
+[Speaker 0]: 谷歌、
+[Speaker 0]:  meta 和 new cloud 继续扩大算力，
+[Speaker 0]: 英伟达仍然是最直接的受益者，
+[Speaker 0]: 不过，
+[Speaker 0]: 它的收入基数和市场预期都已经很高，
+[Speaker 0]: 投资者需要更加关注新产品交付速度。
+[Speaker 0]: 毛利率和客户自研芯片带来的长期影响，
+[Speaker 0]:  AMD 则是大型云厂商最重要的第二供应商。
+[Speaker 0]: 选择 AMD。
+[Speaker 0]: 同时拥有服务器 CPU 和 AIGPU，
+[Speaker 0]: 它未来并不需要完全击败英伟达。
+[Speaker 0]: 只要云厂商不愿意把所有算力需求集中在一家供应商身上，
+[Speaker 0]:  AMD 就有机会获得相当可观的市场份额。
+[Speaker 0]: 微软已经明确表示会部署 AMD 下一代 AI 基础设施 AMD 目前最大的机会来自产品性能提升和客户采样扩大，
+[Speaker 0]: 最大的短板仍然是软件、
+[Speaker 0]: 生态以及大规模部署速度定制芯片方向。
+[Speaker 0]: 博通是目前最优质的标的之一，
+[Speaker 0]: 大型云厂商为了降低推理成本，
+[Speaker 0]: 减少对通用 GPU 的依赖，
+[Speaker 0]: 会越来越多的设计自己的 ASIC 和 XPU。
+[Speaker 0]: 博通不仅参与定制 AI 芯片设计，
+[Speaker 0]: 还拥有交换芯片和高速网络业务，
+[Speaker 0]: 因此同时受益于计算和连接两个环节。
+[Speaker 0]:  marvel 的逻辑类似，
+[Speaker 0]: 但公司体量更小，
+[Speaker 0]: 更集中在定制芯片、
+[Speaker 0]: 数据中心互联和光连接博此上涨弹性可能更大，
+[Speaker 0]: 业绩波动和执行风险也会更高。
+[Speaker 0]: 当然，
+[Speaker 0]:  marvel 还受到过英伟达黄教主的钦点说，
+[Speaker 0]: 他们未来会成长为万亿市值的巨头，
+[Speaker 0]: 而 marvel 目前的市值只有不到两千亿。
+[Speaker 0]: 存储方面，
+[Speaker 0]: 美光依然是最值得关注的。
+[Speaker 0]: 美国本土标的 GPU 只有在数据能够快速送入处理器时，
+[Speaker 0]: 才能充分发挥性能，
+[Speaker 0]: 因此，
+[Speaker 0]:  HBM 已经成为 AI 服务器最关键的瓶颈之一。
+[Speaker 0]: 亚马逊这次把资本开支从两千亿美元提高到两千两百亿美元，
+[Speaker 0]: 直接提到的重要原因就是内存价格上涨。
+[Speaker 0]: 这再次证明，
+[Speaker 0]:  AI 对 HBMD ram 和企业级存储的需求非常强，
+[Speaker 0]: 美光正在获得比传统存储周期更明显的 AI 成长属性，
+[Speaker 0]: 但它仍然是一家周期性公司。
+[Speaker 0]: 投资时必须同时关注供给扩张、
+[Speaker 0]: 价格变化和库存周期，
+[Speaker 0]: 不能把它完全按照无周期的成长股估值。
+[Speaker 0]: 除了美光外，
+[Speaker 0]: 美股的存储股票还有海力士、
+[Speaker 0]: 闪迪、
+[Speaker 0]: 希捷等。
+[Speaker 0]: 但从业务广度、
+[Speaker 0]: 护城河、
+[Speaker 0]: 估值等角度来看，
+[Speaker 0]: 美光是我认为最值得押注的存储板块公司嗯，
+[Speaker 1]: 没有。
+[Speaker 0]: 无论最终获胜的是英伟达 GPUAMDGPU 还是博通参与设计的定制芯片，
+[Speaker 0]: 他们都需要通过台积电进行生产，
+[Speaker 0]: 并使用台积电的先进封装。
+[Speaker 0]: 台积电不需要准确判断哪一种芯片架构获得最大份额。
+[Speaker 0]: 只要整个 AI 芯片市场继续扩大，
+[Speaker 0]: 它就可以通过先进制程和封装收取费用。
+[Speaker 0]: 因此，
+[Speaker 0]: 台积电更像 AI 半导体产业链中的收费站，
+[Speaker 0]: 确定性通常高于压注单一芯片架构的公司。
+[Speaker 0]:  ASML 则更加上游先进制程产能长期扩张，
+[Speaker 0]: 离不开 EUV 光刻设备，
+[Speaker 0]: 它的业绩兑现速度可能比 GPU 和存储更慢，
+[Speaker 0]: 但技术壁垒和不可替代性也更强，
+[Speaker 0]: 连接方向也值得单独关注。
+[Speaker 0]: 随着 AI 集群从几千张 GPU 扩大到几万甚至几十万张 GPU 瓶颈会逐渐从单颗芯片的计算性能转向芯片之间、
+[Speaker 0]: 服务器之间和数据中心之间的数据传输。
+[Speaker 0]:  romentum 更偏高速光通信所需的激光器和光学器件是光模块最纯的标的之一，
+[Speaker 0]:  cradle 目前的优势主要集中在 AEC、
+[Speaker 0]: 有源电缆和高速同互联。
+[Speaker 0]: 但它也拥有光学电 SP 光收发器和硅光产品，
+[Speaker 0]: 能够同时受益于电连接和光连接需求，
+[Speaker 0]:  coherent 覆盖激光器、
+[Speaker 0]: 光器件材料和部分光模块 corning 则更加偏向光纤光缆和数据中心布线，
+[Speaker 0]: 它们都受益于八百 g 一点六 t 以及更高速率网络升级，
+[Speaker 0]: 但各自处在产业链的不同位置。
+[Speaker 1]: 嗯，
+[Speaker 0]: 没有基础设施建设以后，
+[Speaker 0]: 第二层受益者是 new club core wave。
+[Speaker 0]:  nibbis 和 irion 自己购买 GPU 建设或租用数据中心，
+[Speaker 0]: 再把算力出租给模型公司和企业客户。
+[Speaker 0]:  core wave 目前的规模和积压订单最突出，
+[Speaker 0]: 但客户集中度和负债压力也更高。
+[Speaker 0]:  nibis 在我看来，
+[Speaker 0]: 拥有更健康的资产负债表管理团队和长期平台建设逻辑，
+[Speaker 0]: 基本面相对更加均衡。
+[Speaker 0]: 艾润则是从电力资源和数据中心资产切入。
+[Speaker 0]:  AI 算力优势是拥有电力和土地，
+[Speaker 0]: 风险是业务仍处在从原有模式向 AI 云转型的过程中，
+[Speaker 0]: 没有 cloud 增长，
+[Speaker 0]: 弹性可能明显高于成熟的大科技公司，
+[Speaker 0]: 但风险同样更高。
+[Speaker 0]: 这些公司需要提前购买昂贵的 GPU，
+[Speaker 0]: 承担设备折旧、
+[Speaker 0]: 融资成本和电力投入。
+[Speaker 0]: 如果 AI 算力长期供不应求，
+[Speaker 0]: 设备利用率维持高位。
+[Speaker 0]: 他们可以获得非常快的收入增长。
+[Speaker 0]: 但如果未来 GPU 供给增加租赁价格下降或者大型客户转向自建数据中心，
+[Speaker 0]: 利润率和自由现金流也可能迅速恶化。
+[Speaker 0]: 因此，
+[Speaker 0]:  new cloud 不适合大仓位压注。
+[Speaker 0]: 因为它的波动性较大，
+[Speaker 0]: 不确定性也高，
+[Speaker 0]: 但是增长弹性很大，
+[Speaker 0]: 适合小仓位。
+[Speaker 0]: 做波段有没有？
+[Speaker 0]: 总结来说，
+[Speaker 0]: 从整个 AI 产业链来看，
+[Speaker 0]: 微软、
+[Speaker 0]: 亚马逊、
+[Speaker 0]: 谷歌和 matt 仍然在继续扩、
+[Speaker 0]: 扩大资本开支。
+[Speaker 0]: 这意味着半导体、
+[Speaker 0]: 基础设施周期远没有结束。
+[Speaker 0]: 英伟达 AMD、
+[Speaker 0]: 博通、
+[Speaker 0]:  marvel、
+[Speaker 0]: 美光、
+[Speaker 0]: 台积电和 ASML 分受益益算力定制芯片存储、
+[Speaker 0]: 先进制程和设备 lomentum crddm coherent 和 corning 受益于高速连接。
+[Speaker 0]:  core with nevvis is 和 aron 则代表更高风险、
+[Speaker 0]: 更高弹性的 new o cloud。
+[Speaker 0]: 我认为，
+[Speaker 0]: 至少在未来一年中，
+[Speaker 0]: 投资这些 AI 基础设施产业依然是确定性很强的投资方向之一。
+[Speaker 0]: 以上提到的公司，
+[Speaker 0]: 我大部分都自己持有，
+[Speaker 0]: 没有持有的那几只我也会持续关注。
+[Speaker 0]: 对于这些公司，
+[Speaker 0]: 我都有给他们计算目标价位和减仓位置，
+[Speaker 0]: 感兴趣的朋友可以订阅我的会员频道，
+[Speaker 0]: 获得我对这些标的的深度分析以及长期跟踪。
+[Speaker 0]: 以上就是本期全部内容，
+[Speaker 0]: 本周除了亚马逊，
+[Speaker 0]: 还有微软 matter、
+[Speaker 0]:  sofa 和 robin hood 的财报值得关注。
+[Speaker 0]: 我在财报后，
+[Speaker 0]: 对这几家公司都进行了财报分析和目标点位更新，
+[Speaker 0]: 并分享在了会员频道。
+[Speaker 0]: 下周的财报继续。
+[Speaker 0]: 我自己持仓的 palenteer、
+[Speaker 0]:  AMD 和 zata 会轮流登场，
+[Speaker 0]: 同时还有市场比较关注的 space x 闪迪和细节也会上场。
+[Speaker 0]: 我会继续在会员频道第一时间分享这些公司的财报解读，
+[Speaker 0]: 并且更新目标价位。
+[Speaker 0]: 对这类内容感兴趣的朋友，
+[Speaker 0]: 欢迎订阅我的油管研究官会员频道，
+[Speaker 0]: 同样的内容我也会同步更新。
+[Speaker 0]: 在爱发店和 subspeack 上，
+[Speaker 0]: 今天视频里用到的主要数据来自 seeking offer，
+[Speaker 0]: 以及他旗下的 alpha peaks 选股平台。
+[Speaker 0]: 感兴趣的朋友可以通过下方链接订阅，
+[Speaker 0]: 能拿到我频道粉丝专属的优惠价。
+[Speaker 0]: 如果你喜欢这类内容，
+[Speaker 0]: 欢迎点赞关注频道，
+[Speaker 0]: 也欢迎加入会员支持我，
+[Speaker 0]: 继续做更多更系统的美股投资内容。
+[Speaker 0]: 感谢大家收看，
+[Speaker 0]: 我们下期节目见。
