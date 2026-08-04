@@ -1,0 +1,529 @@
+[Speaker 1]: 嗯，
+[Speaker 1]: 大家好，
+[Speaker 1]: 欢迎来到 monlial life。
+[Speaker 1]: 每个频道我是 s 本期视频 s 将为大家用我自己独特的视角呈现 volunteer 二零二六年二季度财报。
+[Speaker 1]: 那么这次对于 voltier 的财报，
+[Speaker 1]: 我会比以前说的更加详细。
+[Speaker 1]: 从更多角度去分析为什么？
+[Speaker 1]: 因为我认为理解了 volunteer 在目前 AI 生态中的位置，
+[Speaker 1]: 能够辅助我本人以及大家去投资 AI。
+[Speaker 1]: 那么屏幕前的这个人就是 alex carar，
+[Speaker 1]: 他是 polontier 的 CEO，
+[Speaker 1]: 大家都应该认识，
+[Speaker 1]: 他是一个具有争议，
+[Speaker 1]: 但是非常优秀的领导者。
+[Speaker 1]: 我在他的头的旁边写了两句话，
+[Speaker 1]: 第一句话 volunteer 等于 AI applicleleader er 认为 volunteer 是目前 AI 应应用的领先者，
+[Speaker 1]: 或者说领先者之一吧。
+[Speaker 1]: 那么他是如何领先？
+[Speaker 1]: 他的位置是什么呢？
+[Speaker 1]: 第二句话，
+[Speaker 1]: 他是介于 tokens 以及 customer 之间的一个桥梁，
+[Speaker 1]: 也就是对于美国政府或者是美国一些大型企业，
+[Speaker 1]: 他们可能不知道怎么样去用现在的 tokens 把算力转化为自己的 value 价值。
+[Speaker 1]: 那么 volunteer 就是一个 tokens 的所谓的中间商，
+[Speaker 1]: 我为你提供企业级的 AI application，
+[Speaker 1]: 对吧？
+[Speaker 1]: 以前你做不到的，
+[Speaker 1]: 现在有了 token，
+[Speaker 1]: 有了更加先进的大元模型，
+[Speaker 1]: 我能够为你做到。
+[Speaker 1]: 如果你喜欢 as 今天或者以前的分享，
+[Speaker 1]: 但是还没有订阅。
+[Speaker 1]: 欢迎大家通过视频下方的 ace 的 morning life，
+[Speaker 1]: 美国频道个人导航网页找到我的 youtube 频道链接、
+[Speaker 1]: 闯会员链接、
+[Speaker 1]: 哔哩哔哩频道链接和 payx 平台的链接。
+[Speaker 1]: 欢迎在不同的平台追踪踪，
+[Speaker 1]: 不管管是费费费都都非常感谢大家，
+[Speaker 1]: 那么特别对愿意付费的会员朋友们很感谢你们，
+[Speaker 1]: 也欢迎新的朋友加入我的会员社群。
+[Speaker 1]: 同时在这个导航网页下方呢，
+[Speaker 1]: 有我的个人持仓公开的 SEC 文件下的工具，
+[Speaker 1]: 还有就是我的面向会员的个股分析数据。
+[Speaker 1]: 比如说本期视频，
+[Speaker 1]: 很多内容就来自于这个更新过的 volunteer 的财报分析数据。
+[Speaker 1]: 同时呢，
+[Speaker 1]: 如果你需要付图陌陌的账户，
+[Speaker 1]: 或者是 OKX 加密货币的账户，
+[Speaker 1]: 欢迎通过视频下方的这些链接去加入，
+[Speaker 1]: 感谢你们对我的支持。
+[Speaker 1]: 首先来看一下具体的营收，
+[Speaker 1]:  revenue 和 EPS 的数据，
+[Speaker 1]: 那么两项都是超过预期。
+[Speaker 1]: 所谓的双 bit 营收，
+[Speaker 1]: 具体数字十九点四亿美元，
+[Speaker 1]: 比预期足足多了一点二四亿美元，
+[Speaker 1]: 算是比较大幅的超过。
+[Speaker 1]: 而 EPS 呢实际数字是零点四，
+[Speaker 1]: 一比 EPS 多了约零点一，
+[Speaker 1]: 也是大幅的超过。
+[Speaker 1]: 所以嘛夜盘就涨了，
+[Speaker 1]: 但是叶盘涨了并不是简单的，
+[Speaker 1]: 因为双 bit 这个表面的现象，
+[Speaker 1]: 其实上个季度也是双 bit，
+[Speaker 1]: 但是上个季度我记得没有涨，
+[Speaker 1]: 反而好像跌了。
+[Speaker 1]: 具体是为什么？
+[Speaker 1]: 请看接下来的数据和信息。
+[Speaker 1]: 刚刚我们聊到了 tokens，
+[Speaker 1]: 我说 volunteer 的位置就是将 tokens 转化成企业真正的价值 value。
+[Speaker 1]: 那么现在屏幕前的这个人可能可以算是 volunteer，
+[Speaker 1]: 目前的二号或者是三号人物吧，
+[Speaker 1]: 他是公司的 CTO。
+[Speaker 1]: 他在这次财报电话会议上说了这么一句话，
+[Speaker 1]: 我放在了屏幕上。
+[Speaker 1]:  the benchmark almost has nothing to do with your business。
+[Speaker 1]: 他这里说的 benchmark 就是去评测目前的大语言模型的能力的 benchmark 指标。
+[Speaker 1]: 他就说作为用户而言，
+[Speaker 1]: 其实每一个大语言模型有多强比之前强了多少，
+[Speaker 1]: 或者是相比较与竞争对手好了多少。
+[Speaker 1]: 其实 almost have nothing to do with your business。
+[Speaker 1]: 就是站在 volunteer 的客户，
+[Speaker 1]: 也就是大型企业的角度，
+[Speaker 1]: 你的 benchmark 很高。
+[Speaker 1]: 你的这个大语言模型很强，
+[Speaker 1]: 你的 token 怎么怎么样？
+[Speaker 1]: 其实没有办法直接反反映到能够给我企业创造的价值。
+[Speaker 1]: 它中间有一个 conversion 转化的过程，
+[Speaker 1]: 而 volunteer 呢他们就是为客户提供这部分转化更好的模型，
+[Speaker 1]: 或者是更便宜的 token。
+[Speaker 1]:  volunteer 把它用到极致，
+[Speaker 1]: 为他们的客户创造更多 AI 带来的价值。
+[Speaker 1]: 和以上内容相关的是，
+[Speaker 1]: 此次公司致股东信的。
+[Speaker 1]: 下面的两三句话，
+[Speaker 1]: 我也为大家读一下，
+[Speaker 1]: 阐述一下。
+[Speaker 1]: 前面两句话 we 要 paid and have always aspired to be paid as a derivative of value creation。
+[Speaker 1]:  our results represent a subset of the economic value that our software has created for our customers。
+[Speaker 1]: 这两句话都在表达同一个意思，
+[Speaker 1]: 我们的客户愿意为买单，
+[Speaker 1]: 为我们的服务，
+[Speaker 1]: 为我们的软件买单，
+[Speaker 1]: 是因为我们为他创造了足足够的价值，
+[Speaker 1]: 而 lenteer 获得这些价值的一部分作为佣金。
+[Speaker 1]: 这第二句话啊，
+[Speaker 1]:  we do not get paid for clicks or tokens or chats。
+[Speaker 1]: 我觉得这句话很重要。
+[Speaker 1]: 我们不是因为客户点击了多少次鼠标，
+[Speaker 1]: 用了多少 tokens，
+[Speaker 1]: 或者是问 chat GPT 问 jerman，
+[Speaker 1]: 问 anthropic 这些 check ball 问了多少问题去收费，
+[Speaker 1]: 我们是根据价值来收费，
+[Speaker 1]: 这非常重要啊。
+[Speaker 1]: 这回到我刚刚为大家阐述的 volunteer 作为服务客户的软件公司，
+[Speaker 1]: 他去帮客户处理用了多少 token，
+[Speaker 1]: 他去帮客户处理 token 的经济化，
+[Speaker 1]: 对吧？
+[Speaker 1]: 可持续化。
+[Speaker 1]: 那么客户只需要知道，
+[Speaker 1]:  ok 那不管你的这个模型是什么，
+[Speaker 1]: 不管你模型的 benchmare 评分有多高，
+[Speaker 1]: 反正我达到了这个价值，
+[Speaker 1]: 我付给你这个价值的一部分，
+[Speaker 1]: 我认为我付给你的钱合理那就行了。
+[Speaker 1]:  s 非常同意这个思路啊，
+[Speaker 1]: 我觉得这也是目前 AI 应用的一个主要的方向，
+[Speaker 1]: 不是为 tokens 去付费，
+[Speaker 1]: 而是为 tokens 能够带来的价值去付费。
+[Speaker 1]: 以上 AS 花了几分钟去阐述这些问题是想和大家分享 s 最近对于 AI 赚钱这个问题也有了新的感悟。
+[Speaker 1]: 目前看起来似乎各个环节都有潜力，
+[Speaker 1]: 或者说都已经在赚钱了。
+[Speaker 1]: 大语言模型公司，
+[Speaker 1]: 比如说 anthorbic open ai，
+[Speaker 1]: 他们虽然还没有实现正的自由现金流，
+[Speaker 1]: 但是我完全相信他们未来有能力去赚钱。
+[Speaker 1]: 而云服务提供商像微软啊、
+[Speaker 1]: 谷歌、
+[Speaker 1]: 亚马逊最近涨得都不错，
+[Speaker 1]: 对吧？
+[Speaker 1]: 他们也可以赚钱，
+[Speaker 1]: 历史上可以赚钱，
+[Speaker 1]: 未来仍然能够可以赚钱。
+[Speaker 1]: 就是看他的这个增速有多少有多少蛋糕被抢过去，
+[Speaker 1]: 对吧？
+[Speaker 1]: 而像 parantier er 样样的提提的所谓的 tokens 中介，
+[Speaker 1]: 他也能够够赚。
+[Speaker 1]: 而而待待会儿的内容，
+[Speaker 1]: 大家可以看到他的利润率相当的高。
+[Speaker 1]: 所以呢大家只用去选选你觉得都能赚钱的这些公司中，
+[Speaker 1]: 你相对更看好的就行。
+[Speaker 1]: 还忘了说客户客户也能赚钱啊。
+[Speaker 1]: 比如说 parantier 的客户通过为 lunteer 付费，
+[Speaker 1]: 获得了这些 AI 的能力，
+[Speaker 1]: 让他要么节约了成本，
+[Speaker 1]: 要么增加了新的 value，
+[Speaker 1]: 要么就是获得了新的客户等等，
+[Speaker 1]: 对吧？
+[Speaker 1]: 所以目前我是比较乐观的，
+[Speaker 1]: 我们要专注的就是去判断哪一家公司符合你的审美，
+[Speaker 1]: 符合你对他财务的要求，
+[Speaker 1]: 符合你对他未来增长的要求即可。
+[Speaker 1]: 那么目前看来我认为不管怎么去比较吧，
+[Speaker 1]:  parlantier 相对来说还是比较有吸引力的。
+[Speaker 1]: 那么在 parantier 的这个 PPT 中，
+[Speaker 1]: 我为大家截了两页的图啊，
+[Speaker 1]: 第一页嗯，
+[Speaker 1]: 他特别强调了主权安全 versus AI 的能力。
+[Speaker 1]: 他就说我们没有必要为了获得 AI 的能力而舍弃对于主权安全的追求，
+[Speaker 1]: 或者是在主权安全上去妥协。
+[Speaker 1]: 所以呢你使用 parltier 的服务，
+[Speaker 1]: 你可以获得 AI 能力的同时保证你的主权和数据安全，
+[Speaker 1]: 这是 volunteer 最近的一个很大的卖点啊，
+[Speaker 1]: 我也非常同意，
+[Speaker 1]: 这相当于间接帮了他一把，
+[Speaker 1]: 有好有坏呀。
+[Speaker 1]: 这一点我待会儿会具体来阐述从他的 total addresble market 去阐述。
+[Speaker 1]: 这个我之后会分享请大家看完视频的剩下的内容。
+[Speaker 1]: 那么右边这张图呢？
+[Speaker 1]:  super charging the american worker，
+[Speaker 1]: 我们要为美国自己的 worker 工人为他们赋能 aa，
+[Speaker 1]: 我用到了赋能。
+[Speaker 1]: 在中国，
+[Speaker 1]:  ai 赋能是不是非常常见了？
+[Speaker 1]: 但在美国似乎还差一点。
+[Speaker 1]: 而 volunteer 为美国的工人，
+[Speaker 1]: 美国的公司赋能，
+[Speaker 1]: 他是绝对的 leader。
+[Speaker 1]: 领先者在这里啊，
+[Speaker 1]: 我写了 USAUSA，
+[Speaker 1]: 我想到了 space x 发箭发射成功的时候，
+[Speaker 1]: 他们的员工在呐喊啊，
+[Speaker 1]: 为自己的国家呐喊。
+[Speaker 1]: 其实 volunteer 他和 space x 是同样的角色。
+[Speaker 1]: 他们为整个美国赋能，
+[Speaker 1]: 在这其中扮演的这个重要性超乎很多人的想象。
+[Speaker 1]: 然后我们来看具体的财务数字，
+[Speaker 1]: 一张图表，
+[Speaker 1]: 一张图表为大家解析第一张图表。
+[Speaker 1]: 我最喜欢宽的就是我把营收这个柱子，
+[Speaker 1]: 还有就是两根折线一条折线代表营收的增速。
+[Speaker 1]:  year over year revenue growth，
+[Speaker 1]: 一条折线代表的是调整后的运营利润率，
+[Speaker 1]: 红色的这条全部放在一张图里面。
+[Speaker 1]: 那么这两条折线加总就是所谓的 rule or forty，
+[Speaker 1]: 可以看到红色倒数第二根柱子是这个季度的营收远超一季度。
+[Speaker 1]: 而不管是荧光色的营收增速还是红色的，
+[Speaker 1]: 调整后的运营利润率，
+[Speaker 1]: 相较于一季度都是增加了营收增速，
+[Speaker 1]: 从百分之八十五到百分之九十三，
+[Speaker 1]: 运营利润率从百分之六十到百分之六十二。
+[Speaker 1]: 所以呢整个如 of forty 来到了百分之一百四十五，
+[Speaker 1]: 相较于一季度又增加了十个百分点，
+[Speaker 1]: 非常的夸张。
+[Speaker 1]: 我要提醒大家，
+[Speaker 1]: 这个图里面没有的。
+[Speaker 1]: 就是当公司给出二季度预期的时候，
+[Speaker 1]: 也就是一季度财报的时候。
+[Speaker 1]: 其实不管是荧光色折现还是红色折现，
+[Speaker 1]: 他们都是会下滑的，
+[Speaker 1]: 但是实际结果没有下滑，
+[Speaker 1]: 反而上涨，
+[Speaker 1]: 这是一部分。
+[Speaker 1]: 现在股价暴涨的原因只是一部分啊，
+[Speaker 1]: 第二部分更重要。
+[Speaker 1]: 我会在后面的数据提到，
+[Speaker 1]: 所以就是 parlunteer。
+[Speaker 1]: 它有一点所谓的呃 sn bagging，
+[Speaker 1]: 他告诉大家，
+[Speaker 1]: 我的预期一般般，
+[Speaker 1]: 但是它的结果爆炸，
+[Speaker 1]: 所以效果拉满。
+[Speaker 1]: 然后现在三季度呢，
+[Speaker 1]: 同样的情况，
+[Speaker 1]: 他给的预期啊，
+[Speaker 1]: 这两条折线来看一般般，
+[Speaker 1]: 都有小幅度下滑。
+[Speaker 1]: 尽管营收绝对营收还是增加的啊，
+[Speaker 1]: 我只是说营收的增速以及运营利润率相对于二季度这个所谓的 overquently 或者是呃 quarter overquarter 下滑。
+[Speaker 1]: 那如果三季度还是像二季度一样，
+[Speaker 1]: 这两条线还是往上涨往上涨，
+[Speaker 1]: 那它大概率啊又会股价暴涨，
+[Speaker 1]: 这个很难去判断啊。
+[Speaker 1]: 你比如说二季度，
+[Speaker 1]: 当他给出比一季度稍微差一点的业绩的时候，
+[Speaker 1]: 我自己有一点被误导了。
+[Speaker 1]: 但是经过这一次，
+[Speaker 1]: 可能下次就就就比较小心了然果。
+[Speaker 1]: 你也是持有 planteer 的股票的话，
+[Speaker 1]: 可能就要注意这一点。
+[Speaker 1]: 当然我现在不持有 plantiteer 的股票了。
+[Speaker 1]: 对于那些 plunteer 的股东来说，
+[Speaker 1]: 要了解他这个 pattern，
+[Speaker 1]: 就是他会把自己的预期拉的低一点。
+[Speaker 1]: 然后呢，
+[Speaker 1]: 当数据很好的时候，
+[Speaker 1]: 市场就反馈。
+[Speaker 1]:  ok 当刚好符合预期的时候，
+[Speaker 1]: 那市场反会就很平淡。
+[Speaker 1]: 而对于刚刚提到的 rule of forty volunteer 一百五十五这个水平呢已经和英伟达一百五十三处于同一水平了。
+[Speaker 1]: 在在在这个领域啊，
+[Speaker 1]: 所有公司啊呈现的呃几乎没有比 voltier 和英伟达更好的。
+[Speaker 1]: 除了谁呢？
+[Speaker 1]: 除了最上方的这四家存储相关的公司，
+[Speaker 1]: 三星呃，
+[Speaker 1]: 长兴 SK、
+[Speaker 1]: 海力士、
+[Speaker 1]: 美光啊，
+[Speaker 1]: 他们就是最近一两年风光无限嘛。
+[Speaker 1]: 除了他们 volunteer 和英伟达就无人能及了。
+[Speaker 1]: 剩下的不管是什么公司啊，
+[Speaker 1]: 可以看到左下角，
+[Speaker 1]: 你们可以去参考。
+[Speaker 1]: 如果这些公司也是你们关心的那可以看一下他们和 pollunteer 和英伟达和储储公司的差距。
+[Speaker 1]: 第二张图是新制作的。
+[Speaker 1]: 张张，
+[Speaker 1]: 我告诉大家，
+[Speaker 1]: 从二零二四年二、
+[Speaker 1]: 二季度开始，
+[Speaker 1]: 一直到二零二六年二季度两年的时间，
+[Speaker 1]: 每个季度 lunteer 新增的客户数量以及对应的规模。
+[Speaker 1]: 最下方荧光色的对应的是合同超过一千万美元的客户数量。
+[Speaker 1]: 中间白色比较粗的这条线是五百万，
+[Speaker 1]: 而最上方的是一百万。
+[Speaker 1]: 我们可以看到啊，
+[Speaker 1]: 二零二六年二季度超过一千万，
+[Speaker 1]: 合同金额的客户七十三个，
+[Speaker 1]: 超过五百万的九十八个，
+[Speaker 1]: 超过一百万的两百二十个客户。
+[Speaker 1]: 如果我们去比较这段时间之内，
+[Speaker 1]: 从二零二四年二季度到两年后的二零二六年，
+[Speaker 1]: 二季度不同客户规模的增速。
+[Speaker 1]: 啊，
+[Speaker 1]: 我们来看一下嗯，
+[Speaker 1]: 最小的超过一百万的二百二除以九十六，
+[Speaker 1]: 那么其实就两倍多一点的这个比例，
+[Speaker 1]: 对吧？
+[Speaker 1]: 而最下方荧光色的呢，
+[Speaker 1]: 超过一千万的客户呢，
+[Speaker 1]: 七十三二十七，
+[Speaker 1]: 这几乎就是两点五倍了。
+[Speaker 1]: 然后中间白色九十八、
+[Speaker 1]: 三十三，
+[Speaker 1]: 这几乎就是三倍了。
+[Speaker 1]: 所以说规模一百万一千万这样子的客户，
+[Speaker 1]: 其实他增加的比例比小于五百万大于一百万，
+[Speaker 1]: 就是规模比较小的客户更多，
+[Speaker 1]: 也就是 volunteer 的。
+[Speaker 1]: 很多客户都是这种合同单价非常高的客户。
+[Speaker 1]: 那么这里我就要提到刚刚说的一个观点，
+[Speaker 1]: 现在大语言模型的能力越来越强。
+[Speaker 1]: 这些 frontier labs，
+[Speaker 1]: 他们的这些这些 AI 模型真的是和六个月前比，
+[Speaker 1]: 就是好了太多，
+[Speaker 1]: 我自己有深刻的感受。
+[Speaker 1]: 所以首先我非常清楚非常明确的承认 frontier 这些大语言模型，
+[Speaker 1]: 他们能力的增强会侵蚀一部分 volunteer 的用户。
+[Speaker 1]: 但是我觉得这些用户是一些比较小型的用户，
+[Speaker 1]: 而对于超大型的用户，
+[Speaker 1]: 从这张图表至少我们可以看出来，
+[Speaker 1]: 我也相信接下来三季度四季度不会打破这个趋势，
+[Speaker 1]: 超大型客户还是在增加。
+[Speaker 1]: 所以如果你看整个 total addresble market 可能缩小了那么一点点。
+[Speaker 1]: 因为很多小客户，
+[Speaker 1]: 他们本来有那么一点可能挤出一些 budget，
+[Speaker 1]: 去用 volunteer 的软件服务。
+[Speaker 1]: 但是现在因为大语言模型越来越牛，
+[Speaker 1]: 他们就决定我要自己去用。
+[Speaker 1]: 请注意啊，
+[Speaker 1]: 有可能自己去用会产生什么结果，
+[Speaker 1]: 就是你还是可以产生价值。
+[Speaker 1]: 但是不见得你的这个 token 的利用率，
+[Speaker 1]: 或者整个呃 optimization 规划自己公司这些呃优化业务啊，
+[Speaker 1]: 这些效果会更好。
+[Speaker 1]: 啊，
+[Speaker 1]: 我觉得所以呢这就是为什么这些超大型的客户，
+[Speaker 1]: 他们说 OK 我不要自己做一个团队去研究，
+[Speaker 1]: 怎么用这些 frontier model，
+[Speaker 1]: 还啊冒着暴露自己数据安全的风险，
+[Speaker 1]: 对吧？
+[Speaker 1]: 我就用 pollupeer 的服务。
+[Speaker 1]: 而从公司的 RPO，
+[Speaker 1]: 也就是未履约合同，
+[Speaker 1]: 数据指标也可以很明确的看到趋势没有在放缓。
+[Speaker 1]: 我们直接来看 total RPO 吧。
+[Speaker 1]: 二零二五年二季度二点四二，
+[Speaker 1]: 那么二零二六年 RP 度就变成了四点九翻倍了啊。
+[Speaker 1]: 而四点九相较于上个季度四点四五是增加了零点四五。
+[Speaker 1]: 而二零二六年一季度相较于上个季度，
+[Speaker 1]: 也就是二零二五年，
+[Speaker 1]: 四季度只是增加了零点三七。
+[Speaker 1]: 所以呢，
+[Speaker 1]: 它的 total RPU 未履约合同的金额其实还是增速的。
+[Speaker 1]: 所以尽管我认为它的 total dressed markets 变小，
+[Speaker 1]: 但是它的合同越来越多，
+[Speaker 1]: 这些 RPU 就是未来的 revenue。
+[Speaker 1]: 所以如果你是的，
+[Speaker 1]: 我觉得至少未来几个季度甚至一两年都是不用担心的。
+[Speaker 1]: 第三张张图是一个个 ltier er 次次财报后暴涨的原因是 lunteer 营收细分。
+[Speaker 1]: 这里面有什么细节呢？
+[Speaker 1]: 我为大家很生动的呈现了。
+[Speaker 1]: 那么如果你是第一次看我的视频，
+[Speaker 1]: 我还是稍微解释一下吧。
+[Speaker 1]: 这张表格就清楚的告诉大家，
+[Speaker 1]:  paruntier 总的营收，
+[Speaker 1]: 总的 commercial 商业营收，
+[Speaker 1]: 总的政府营收再下来继续分美国的商业营收，
+[Speaker 1]: 美国以外的商业营收、
+[Speaker 1]: 美国的政府营收、
+[Speaker 1]: 美国以外的政府营收。
+[Speaker 1]: 啊，
+[Speaker 1]: 这里面最亮眼的部分就是美国的商业营收 quarter over quarter，
+[Speaker 1]: 也就是 sequently 里百分之二十八点四的增长，
+[Speaker 1]: 是这四项细分业务里面增速最快的远超美国政府百分之十七点八的 sequently 增速。
+[Speaker 1]: 所以我放了一个 very good，
+[Speaker 1]: 这个 very good 是我一开始制作这张图表就就有的。
+[Speaker 1]: 那么上一个季度呢，
+[Speaker 1]: 我把 very good 放在了 US government 美国政府。
+[Speaker 1]: 因为上个季度二零二六年一季度相较于二零二五年，
+[Speaker 1]: 四季度它的增速是最快的，
+[Speaker 1]: 可以看到六八七 versus 五七零，
+[Speaker 1]: 而商业是五九五 versus 五零七。
+[Speaker 1]: 所以上个季度不满意股价表现不好，
+[Speaker 1]: 有这个原因就是美国的商业增速有一点不让人满意。
+[Speaker 1]: 而这次呢美国的商业增速很好，
+[Speaker 1]: 股价就得到了体现。
+[Speaker 1]: 嗯，
+[Speaker 1]: 下方还有一个数据，
+[Speaker 1]:  US commercial，
+[Speaker 1]: 美国商业占公司总营收的比例，
+[Speaker 1]: 目前来到了百分之三十九点五，
+[Speaker 1]: 接近百分之四十，
+[Speaker 1]: 这是最高的 highest。
+[Speaker 1]: 这个数字目前我认为越高越好。
+[Speaker 1]: 而下方呢是整个美国的营收占公司的比例百分之八十一点三，
+[Speaker 1]: 也是 highest。
+[Speaker 1]: 我也认为这个数字越高越好。
+[Speaker 1]: 早前我曾经呃一段时间认为 parontier 还是要靠国际市场。
+[Speaker 1]: 但是现在我的观点完全变了，
+[Speaker 1]: 为什么？
+[Speaker 1]: 因为现在 AI 和安全绑得更加紧密了。
+[Speaker 1]: 那么。
+[Speaker 1]: 早前我可能还有一些幻想，
+[Speaker 1]: 如果其他国家能够用帕朗票的服务，
+[Speaker 1]: 那他未来无可限量。
+[Speaker 1]: 但是目前看来，
+[Speaker 1]: 国际业务需要很保守。
+[Speaker 1]: 但是没关系，
+[Speaker 1]: 目前 AI 仅仅在美国的应用市场规模就是超过我们的想象的，
+[Speaker 1]: 完全还没吃透，
+[Speaker 1]: 对吧？
+[Speaker 1]: 超过千万用户，
+[Speaker 1]: 单季度都能增加七八十个，
+[Speaker 1]: 接近一百个。
+[Speaker 1]: 所以呃暂时我现在的观点有一些改变，
+[Speaker 1]: 我认为非美国以外的市场没有这么重要。
+[Speaker 1]: 相反，
+[Speaker 1]: 美国 commercial 以及整个美国的比例越来越高，
+[Speaker 1]: 其实是好的现象。
+[Speaker 1]: 啊，
+[Speaker 1]: 下面一张图也是刚刚营收细分的具象图表化吧。
+[Speaker 1]: 啊我就不过多阐述了。
+[Speaker 1]: 但是上方两条白色的白色实线，
+[Speaker 1]: 美国政府白色虚线、
+[Speaker 1]: 美国 commercial 啊，
+[Speaker 1]: 他们斜率很高，
+[Speaker 1]: 增速很快，
+[Speaker 1]: 然后呢，
+[Speaker 1]: 他们之间的 gap 越来越小了，
+[Speaker 1]: 看到吧，
+[Speaker 1]: 对吧？
+[Speaker 1]: 二零二六年二季度就这么一点点 gap，
+[Speaker 1]: 之前的 gap 显然要大得多，
+[Speaker 1]: 说明 US commercial 很快就会 catch up US government 到那一天股价还会涨，
+[Speaker 1]: 因为这是市场一直期待的。
+[Speaker 1]:  US commercial 营收在美国呃，
+[Speaker 1]: 商业营收超过来自美国政府的营。
+[Speaker 1]: 收到时候，
+[Speaker 1]: 这应该是一个催化剂啊，
+[Speaker 1]: 我们的我觉得四季度真的有希望，
+[Speaker 1]: 四季度有希望，
+[Speaker 1]: 对下方两条荧光色的线呢就几乎趋同了，
+[Speaker 1]: 几乎很平。
+[Speaker 1]: 然后呢，
+[Speaker 1]: 对，
+[Speaker 1]: 不再阐述了，
+[Speaker 1]: 这就是非美国以外的国际业务呃，
+[Speaker 1]: 发展很一般，
+[Speaker 1]: 我的期望也是放低了。
+[Speaker 1]: 最后呢通过公司的数据来说，
+[Speaker 1]: 利润率告诉大家 volunteer 的利润率有多牛。
+[Speaker 1]: 知道了这个利润率你再去比较其他公司，
+[Speaker 1]: 其他 AI 不同领域的公司，
+[Speaker 1]: 对吧？
+[Speaker 1]: 这就是我视频开头提到的赚钱很重要嘛。
+[Speaker 1]: 你好几家公司在不同的 AI 领域都能赚钱，
+[Speaker 1]: 那到底哪家公司能赚更多的钱呢？
+[Speaker 1]: 对吧？
+[Speaker 1]: 你可以和英伟达比，
+[Speaker 1]: 你可以和这里的 volunteer 比，
+[Speaker 1]: 那么这里我将 lunteer 的数据呈现给大家。
+[Speaker 1]: 首先我们来看 adjustited or pretty margin 调整后的运营营利润率啊，
+[Speaker 1]: 我们看二零二六年二季度百分之六十二、
+[Speaker 1]: 一季度百分之六十再往前三个季度，
+[Speaker 1]: 分别是百分之五十七、
+[Speaker 1]: 百分之五十一、
+[Speaker 1]: 百分之四十六。
+[Speaker 1]: 仅仅过了一年，
+[Speaker 1]: 它的 adjust or pretty margin，
+[Speaker 1]: 经营利润率调整后的增长了百分之十六个点啊哇，
+[Speaker 1]: 我觉得是非常夸张的。
+[Speaker 1]: 接下来呢我们再来看净利率，
+[Speaker 1]: 净利率公司没有给出所有的数据，
+[Speaker 1]: 我也比较懒，
+[Speaker 1]: 没有去算。
+[Speaker 1]: 但是呢我为大家算出了具体的二零二六年，
+[Speaker 1]: 净利率的数据为百分之五十五，
+[Speaker 1]: 百分之五十五的净利率高不高相当的高。
+[Speaker 1]: 你可以把这些数据和你这些和你目前在投资的 AI 其他公司进行比较，
+[Speaker 1]: 能不能比得过对吧？
+[Speaker 1]: 如果你投资的其他公司不如呃 voltier 接近，
+[Speaker 1]: 而估值和 volunteer 接近，
+[Speaker 1]: 那肯定不值得。
+[Speaker 1]: 投资啊。
+[Speaker 1]: 如果赚钱能力和 volunteer 接近，
+[Speaker 1]: 但是估值却比 volunteer 低，
+[Speaker 1]: 那就说明哎对比下来可能可以值得投资，
+[Speaker 1]: 对吧？
+[Speaker 1]: 是提供大家不同的角度去进行比较。
+[Speaker 1]: 然后呢，
+[Speaker 1]: 我们最后看一下股价股价呃最高点来到了刚刚的我刚开始录视频时候的百分之十六，
+[Speaker 1]: 现在回调了一些，
+[Speaker 1]: 还是百分之十五左右。
+[Speaker 1]: 如果我们看日 k 线可以看得更清楚啊，
+[Speaker 1]: 现在早前做过跑 ltier 的波段，
+[Speaker 1]: 但是它达到了我的止损线的时候，
+[Speaker 1]: 我就亏损了那么一丢丢卖出了。
+[Speaker 1]: 现在我也不具备条件去买入跑 ltier。
+[Speaker 1]: 因为我的资金都在商业太空，
+[Speaker 1]: 然后在一些其他的领域，
+[Speaker 1]: 所以如果我有资金的情况下，
+[Speaker 1]: 我其实有可能会考虑在财富前财报前去埋伏，
+[Speaker 1]: 但现在也是后话了。
+[Speaker 1]: 呃，
+[Speaker 1]: 我是告诉大家，
+[Speaker 1]: 我财报前没有去埋伏，
+[Speaker 1]: 没有这个能力。
+[Speaker 1]: 财报后涨了，
+[Speaker 1]: 我暂时也不会去追，
+[Speaker 1]: 为什么现在不会去追呢？
+[Speaker 1]: 它现在的价格一下子来到了夜盘一百四十五。
+[Speaker 1]: 一百四十五是什么价格？
+[Speaker 1]: 也就是半年筹码峰一百三十五和一年筹码峰一百五十五中间对今天一开盘就会在这个位置。
+[Speaker 1]: 那么这个位置我再去做的话，
+[Speaker 1]: 如果我以一三五一五五有两条坐标线，
+[Speaker 1]: 其实我的盈利的这个呃所谓的盈亏比吧，
+[Speaker 1]: 其实只有一比一了。
+[Speaker 1]: 对，
+[Speaker 1]: 所以我觉得有点不是最划算的时候，
+[Speaker 1]: 嗯，
+[Speaker 1]: 假设它有再次接近一三五的可能吧，
+[Speaker 1]: 可能我我再去考虑，
+[Speaker 1]: 毕竟现在图形也是没有那么美，
+[Speaker 1]: 没有那么好看。
+[Speaker 1]: 好的，
+[Speaker 1]: 今天的视频就到这里，
+[Speaker 1]: 希望 s 的分享能够对你投资美股能够对你理解 AI 应用有帮助。
+[Speaker 1]: 感谢大家，
+[Speaker 1]: 我们下期视频再见。
