@@ -1,0 +1,8472 @@
+[music]
+
+
+First
+ it
+ was
+ like
+ don't
+ tell
+ anyone
+ or
+
+
+write
+ down
+ your
+ passwords.
+ They
+ all
+ need
+
+
+to
+ live
+ in
+ your
+ mind.
+ And
+ then
+ it
+ was
+
+
+use
+ a
+ password
+ manager.
+ You
+ know,
+ if
+
+
+you're
+ trying
+ to
+ keep
+ them
+ in
+ your
+ mind,
+
+
+you're
+ doing
+ it
+ wrong.
+ And
+ then
+ it
+ was
+
+
+like,
+ you
+ got
+ to
+ change
+ your
+ passwords
+
+
+all
+ the
+ time.
+ And
+ now
+ we
+ actually
+ don't
+
+
+think
+ that's
+ a
+ very
+ good
+ practice.
+
+
+>> I'm
+ Rosie
+ Garin
+ and
+ you're
+ listening
+ to
+
+
+the
+ Wire
+ Cutter
+ Show.
+
+
+>> [music]
+
+
+[music]
+
+
+>> Hey,
+ it's
+ Rosie.
+ Today
+ we're
+ talking
+
+
+about
+ passwords.
+ Wait,
+ wait,
+ wait,
+ wait,
+
+
+wait,
+ wait.
+ Before
+ you
+ skip
+ this
+
+
+episode,
+ because
+ how
+ could
+ a
+
+
+conversation
+ about
+ passwords
+ possibly
+ be
+
+
+interesting?
+ I
+ will
+ say
+ number
+ one,
+ my
+
+
+guest
+ Max
+ Eddie
+ is
+ he's
+ a
+ staff
+ writer
+
+
+here
+ at
+ Wire
+ Cutter
+ and
+ he
+ writes
+ about
+
+
+data,
+ privacy,
+ security,
+ and
+ how
+ to
+ stay
+
+
+safe
+ online.
+ And
+ number
+ two,
+ yes,
+ this
+
+
+is
+ one
+ of
+ those
+ things
+ that
+ you
+ can
+ tell
+
+
+yourself
+ it's
+ okay
+ to
+ ignore,
+ but
+ our
+
+
+lives
+ are
+ online.
+ We
+ [music]
+ bank
+
+
+online.
+ We
+ date
+ online.
+ We
+ shop
+ online.
+
+
+We
+ share
+ our
+ credit
+ card
+ information,
+
+
+social
+ security
+ numbers.
+ You
+ get
+ the
+
+
+picture.
+ So,
+ if
+ you're
+ going
+ out
+ of
+ your
+
+
+way
+ to
+ retain
+ [music]
+ your
+ privacy,
+
+
+getting
+ started
+ with
+ a
+ password
+ manager
+
+
+is
+ a
+ good
+ start.
+ More
+ about
+ those
+ and
+ a
+
+
+primer
+ on
+ pass
+ keys
+ [music]
+ with
+ Max
+
+
+Eddie
+ after
+ the
+ break.
+
+
+Welcome
+ back.
+ My
+ guest
+ today
+ is
+ Max
+
+
+Eddie.
+ Max
+ is
+ a
+ staff
+ writer
+ here
+ at
+
+
+Wire
+ Cutter
+ who
+ covers
+ privacy
+ and
+
+
+security.
+ Max
+ has
+ been
+ on
+ the
+ show
+ twice
+
+
+now
+ talking
+ about
+ the
+ importance
+ of
+
+
+traveling
+ with
+ a
+ VPN.
+ Check
+ that
+ episode
+
+
+out
+ if
+ you
+ haven't.
+ And
+ another
+ time
+ to
+
+
+talk
+ through
+ an
+ article
+ published
+ last
+
+
+year
+ that
+ I
+ really
+ loved
+ called
+ I
+ tried
+
+
+and
+ failed
+ to
+ disappear
+ on
+ the
+ internet.
+
+
+That
+ was
+ a
+ banger.
+ Welcome.
+
+
+>> Thank
+ you.
+ Always
+ happy
+ to
+ be
+ here.
+
+
+>> Good
+ to
+ see
+ you.
+ Today
+ we're
+ going
+ to
+
+
+talk
+ about
+ three
+ main
+ ways
+ to
+ increase
+
+
+your
+ online
+ safety.
+ So,
+ password
+
+
+managers,
+ two-factor
+ authentication,
+ and
+
+
+pass
+ keys.
+ I
+ think
+ people
+ maybe
+
+
+generally
+ know
+ why
+ passwords
+ are
+
+
+important,
+ but
+ can
+ you
+ just
+ top
+ line,
+
+
+what
+ is
+ the
+ biggest
+ risk
+ you
+ face
+ if
+ you
+
+
+don't
+ have
+ good
+ password
+ hygiene?
+
+
+>> I
+ I
+ really
+ like
+ the
+ way
+ you
+ put
+ that
+ cuz
+
+
+like
+ hygiene
+ is
+ a
+ habit.
+ It's
+ something
+
+
+that
+ you
+ do
+ all
+ the
+ time.
+ Yeah.
+
+
+>> And
+ I
+ think
+ that
+ that's
+ kind
+ of
+ what
+ you
+
+
+need
+ to
+ think
+ about
+ with
+ security.
+ Like
+
+
+you're
+ changing
+ habits.
+ You're
+ you're
+
+
+changing
+ the
+ way
+ you
+ live
+ your
+ life.
+ And
+
+
+that
+ sounds
+ huge
+ and
+ complicated,
+ but
+
+
+the
+ nice
+ thing
+ about
+ passwords,
+ password
+
+
+managers,
+ and
+ pass
+ keys
+ like
+ what
+ we're
+
+
+talking
+ about
+ here,
+ like
+ this
+ stuff
+
+
+actually
+ makes
+ your
+ life
+ easier.
+ So
+ the
+
+
+biggest
+ risk
+ that
+ you
+ face
+ if
+ you
+ don't
+
+
+have
+ good
+ password
+ hygiene
+ is
+ that
+ your
+
+
+accounts
+ could
+ be
+ taken
+ over
+ by
+ somebody
+
+
+else.
+
+
+>> That's
+ what
+ it
+ comes
+ down
+ to.
+ You
+ know,
+
+
+the
+ main
+ thing
+ between
+ you
+ and
+ your
+
+
+accounts
+ online
+ is
+ passwords
+ and
+ other
+
+
+technologies
+ around
+ that.
+
+
+>> And
+ that
+ I
+ mean
+ could
+ be
+ anything
+ from
+
+
+your
+ bank
+ to
+ your
+ whatever.
+ I
+ mean,
+
+
+anything.
+
+
+>> I
+ I
+ admit
+ my
+ job
+ makes
+ my
+ password
+ usage
+
+
+a
+ little
+ insane
+ for
+ that
+ how
+ to
+
+
+disappear
+ story.
+ I
+ discovered
+ I
+ have
+
+
+like
+ 360
+ passwords.
+
+
+>> That's
+ a
+ lot
+ of
+ passwords.
+
+
+>> Most
+ people
+ aren't
+ like
+ that,
+ but
+ most
+
+
+people
+ probably
+ have
+ like
+ dozens
+ of
+
+
+passwords
+ that
+ you
+ use
+ for
+ everything
+
+
+from
+ banking
+ to
+ online
+ shopping
+ to
+ your
+
+
+job.
+
+
+>> So,
+ we
+ talk
+ about
+ hygiene,
+ habit
+
+
+forming.
+
+
+We
+ also
+ probably
+ should
+ talk
+ about
+
+
+fatigue.
+ I
+ mean,
+ there's
+ this
+ thing
+ you
+
+
+you
+ talk
+ about
+ security
+ fatigue
+ and
+ I
+
+
+think
+
+
+it's
+ real
+ and
+ it's
+ risky,
+ but
+ it's
+ also
+
+
+very
+ relatable.
+ Can
+ you
+ talk
+ a
+ little
+
+
+bit
+ about
+ it?
+
+
+>> Over
+ the
+ last,
+ let's
+ say,
+ 20
+ years,
+ I
+
+
+think
+ people
+ have
+ been
+ feeling
+ very
+
+
+jerked
+ around
+ by
+ the
+ advice
+ that
+ they're
+
+
+given
+ about
+ how
+ to
+ be
+ safe
+ on
+ the
+
+
+internet.
+ First,
+ it
+ was
+ like,
+ don't
+ tell
+
+
+anyone
+ or
+ write
+ down
+ your
+ passwords.
+
+
+They
+ all
+ need
+ to
+ live
+ in
+ your
+ mind.
+ And
+
+
+then
+ it
+ was
+ use
+ a
+ password
+ manager.
+ you
+
+
+know,
+ if
+ you're
+ trying
+ to
+ keep
+ them
+ in
+
+
+your
+ mind,
+ you're
+ doing
+ it
+ wrong.
+ And
+
+
+then
+ it
+ was
+ like,
+ you
+ got
+ to
+ change
+ your
+
+
+passwords
+ all
+ the
+ time.
+ And
+ now
+ we
+
+
+actually
+ don't
+ think
+ that's
+ a
+ very
+ good
+
+
+practice.
+ And
+ then
+ it
+ was
+ you
+ have
+ to
+
+
+add
+ two-factor
+ authentication
+ to
+
+
+everything.
+ And
+ then
+ people
+ like,
+ what's
+
+
+2FA?
+ What
+ are
+ all
+ these
+ other
+ systems
+
+
+you're
+ now
+ asking
+ me
+ to
+ learn?
+ And
+ now
+
+
+we've
+ got
+ pass
+ keys
+ and
+ even
+ newer
+
+
+technology.
+ I
+ really
+ empathize
+ with
+
+
+people
+ who
+ are
+ burnt
+ out
+ on
+ this.
+ From
+
+
+my
+ perspective
+ as
+ someone
+ who
+ covers
+
+
+this,
+ like
+ it's
+ exciting
+ because
+ we're
+
+
+we're
+ fixing
+ a
+ fundamental
+ problem
+ about
+
+
+technology.
+ Like
+ passwords
+ are
+ a
+
+
+fundamental
+ problem
+
+
+>> and
+ talk
+ about
+ why
+ they're
+ a
+ fundamental
+
+
+problem.
+
+
+>> Well,
+ passwords
+ are
+ a
+ fundamental
+
+
+problem
+ because
+ we're
+ bad
+ at
+ making
+ them
+
+
+and
+ computers
+ are
+ great
+ at
+ guessing
+ them
+
+
+and
+ if
+ they
+ are
+ exposed
+ they
+ cause
+ all
+
+
+sorts
+ of
+ problems
+ and
+ because
+ we're
+
+
+really
+ bad
+ at
+ making
+ them
+ we've
+ come
+ up
+
+
+with
+ all
+ sorts
+ of
+ shortcuts
+ around
+ that.
+
+
+So
+ like
+ a
+ lot
+ of
+ people
+ have
+ told
+ me
+
+
+it's
+ like
+ oh
+ I
+ don't
+ have
+ a
+ problem
+ with
+
+
+passwords.
+ I
+ have
+ one
+ good
+ password
+ that
+
+
+I
+ use
+ everywhere.
+ And
+ I
+ was
+ like
+ this.
+
+
+Like
+ I
+ I
+ remember
+ when
+ I
+ was
+ in
+ college,
+
+
+I'm
+ like,
+ I'm
+ so
+ smart.
+ I've
+ got
+ like
+ a
+
+
+crappy
+ password
+ that
+ I
+ use
+ for
+ crappy
+
+
+sites
+ and
+ a
+ good
+ password
+ I
+ use
+ for
+ good
+
+
+sites.
+ And
+ if
+ you
+ plug
+ either
+ of
+ those
+
+
+now
+ into
+ like
+ the
+ there
+ are
+ calculators
+
+
+that
+ will
+ tell
+ you
+ how
+ long
+ it
+ takes
+ for
+
+
+that
+ password
+ to
+ be
+ guessed,
+ it's
+ like
+
+
+seconds
+ and
+ minutes.
+ Like
+ it's
+
+
+>> it's
+ bad.
+ That
+ is
+ the
+ problem.
+
+
+>> What
+ is
+ it
+ about
+ reusing
+ passwords
+
+
+that's
+ not
+ good?
+ If
+ you
+ are
+ reusing
+ your
+
+
+password,
+ if
+ that
+ password
+ is
+ exposed
+ or
+
+
+stolen
+ in
+ any
+ way,
+ all
+ of
+ those
+ sites
+
+
+are
+ now
+ vulnerable
+ because
+ the
+ first
+
+
+thing
+ that
+ a
+ savvy
+ attacker
+ is
+ going
+ to
+
+
+do
+ when
+ they
+ get
+ their
+ hands
+ on
+
+
+credentials
+ is
+ to
+ try
+ them
+ on
+ multiple
+
+
+sites.
+ And
+ if
+ it's
+ a
+ more
+ targeted
+
+
+attack
+ where
+ they
+ might
+ have
+ some
+ kind
+
+
+of
+ information
+ about
+ the
+ sites
+ where
+ you
+
+
+might
+ have
+ accounts
+ and
+ there's
+ a
+ number
+
+
+of
+ different
+ ways
+ to
+ get
+ that
+
+
+information,
+ then
+ they
+ have
+ something
+ to
+
+
+work
+ off
+ of.
+ So,
+ you
+ know,
+ if
+ great
+
+
+example
+ again,
+ I'll
+ I'll
+ just
+ air
+ my
+
+
+dirty
+ laundry
+ here.
+ So,
+ there
+ was
+ this
+
+
+big
+ data
+ breach
+ at
+ a
+ a
+ news
+ site
+ in
+ its
+
+
+comment
+ section
+ and
+ that
+ password
+ was
+
+
+the
+ same
+ one
+ I
+ was
+ using
+ on
+ Facebook.
+
+
+And
+ when
+ that
+ happened,
+ when
+ that
+ story
+
+
+broke
+ within
+ like
+ a
+ couple
+ hours,
+
+
+someone
+ was
+ like
+ making
+ posts
+ as
+ me
+ on
+
+
+Facebook.
+ And
+ that's
+ annoying.
+ Like
+
+
+people
+ like,
+ "Oh,
+ what's
+ the
+ worst
+ that
+
+
+could
+ happen
+ when
+ someone
+ impersonates
+
+
+me
+ to
+ my
+ family
+ and
+ gets
+ money
+ from
+
+
+them?"
+ you
+ don't
+ need
+ to
+ be
+ anyone
+
+
+special
+ for
+ that
+ to
+ happen
+ too.
+ And
+
+
+that's
+ really
+ frightening
+ like
+ that
+ that
+
+
+does
+ a
+ lot
+ of
+ damage
+ not
+ just
+ like
+ your
+
+
+personal
+ reputation
+ but
+ like
+ everyone
+
+
+you
+ care
+ about.
+ And
+ this
+ is
+ another
+ like
+
+
+deep
+ idea
+ around
+ security.
+ Like
+ we
+ talk
+
+
+about
+ it
+ a
+ lot
+ in
+ terms
+ of
+ protecting
+
+
+yourself.
+ And
+ if
+ that
+ doesn't
+ motivate
+
+
+you
+ because
+ of
+ security
+ fatigue
+ or
+ or
+
+
+whatever,
+ think
+ about
+ the
+ people
+ you
+
+
+love
+ and
+ the
+ people
+ you
+ care
+ about
+
+
+because
+ anything
+ that
+ affects
+ you
+ is
+
+
+going
+ to
+ affect
+ them
+ cuz
+ if
+ your
+ email
+
+
+gets
+ hacked,
+ if
+ your
+ Facebook
+ account
+
+
+gets
+ hacked,
+ it
+ will
+ be
+ used
+ against
+ the
+
+
+people
+ you
+ care
+ the
+ most
+ about.
+
+
+>> [music]
+
+
+[music]
+
+
+>> Okay,
+ so
+ to
+ that
+ end
+ we
+ come
+ to
+ password
+
+
+managers.
+ What
+ is
+ a
+ password
+ manager
+ and
+
+
+why
+ is
+ it
+ useful?
+
+
+>> So
+ a
+ password
+ manager
+ is
+ an
+ application
+
+
+that
+ saves,
+ replays
+ and
+ creates
+
+
+passwords
+ for
+ you.
+ It
+ does
+ everything
+
+
+with
+ passwords
+ that
+ we
+ are
+ bad
+ at.
+ So
+
+
+you
+ can
+ use
+ it
+ to
+ create
+ really
+ really
+
+
+really
+ long
+ passwords.
+ You
+ can
+ create
+
+
+unique
+ passwords
+ for
+ every
+ site
+ and
+
+
+service
+ you
+ have
+ and
+ then
+ you
+ don't
+ need
+
+
+to
+ remember
+ them
+ when
+ you
+ go
+ to
+ those
+
+
+sites
+ because
+ the
+ password
+ manager
+ pulls
+
+
+it
+ up
+ and
+ fills
+ it
+ in
+ for
+ you.
+ That
+
+
+fixes
+ so
+ much
+ of
+ the
+ problem
+ with
+
+
+passwords.
+ It
+ doesn't
+ fix
+ everything
+ and
+
+
+there's
+ a
+ lot
+ of
+ other
+ problems
+ that
+
+
+remain,
+ but
+ it
+ is
+ a
+ very
+ straightforward
+
+
+thing
+ that
+ people
+ can
+ do
+ that
+ will
+ make
+
+
+you
+ safer
+ online.
+ It's
+ like
+ password
+
+
+managers,
+ two-factor
+ authentication.
+
+
+Those
+ are
+ the
+ things
+ that
+ every
+ security
+
+
+expert
+ has
+ been
+ telling
+ me
+ my
+ entire
+
+
+career.
+ like
+ if
+ people
+ do
+ these
+ things,
+
+
+they
+ will
+ be
+ objectively
+ safer
+ online.
+
+
+>> I
+ think
+ it
+ changed
+ my
+ mom's
+ life
+ when
+ I
+
+
+helped
+ her
+ get
+ set
+ up
+ with
+ a
+ password
+
+
+manager
+ because
+ prior
+ to
+ that,
+ she
+ had
+
+
+like
+ an
+ index
+ card
+ fraying
+ at
+ the
+ edges
+
+
+and
+ you
+ couldn't
+ read
+ them
+ cuz
+ the
+ ink
+
+
+had
+ bled
+ and
+ it
+ was
+ just
+ like
+ there
+ has
+
+
+to
+ be
+ a
+ better
+ way.
+ Yeah,
+ there's
+
+
+nothing
+ wrong
+ with
+ having
+ your
+ own
+
+
+system,
+ but
+ there's
+ not
+ a
+ offline
+ system
+
+
+that
+ I
+ can
+ imagine
+ like
+ that
+ that
+ is
+
+
+easier
+ than
+ a
+ password
+ manager.
+ Like
+ it
+
+
+has
+ its
+ advantages,
+ right?
+ Like
+ no
+ one's
+
+
+going to
+ get
+ that
+ card.
+ That
+ card
+ is
+ the
+
+
+safest
+ thing
+ on
+ the
+ planet,
+ but
+ a
+
+
+password
+ manager
+ is
+ more
+ flexible.
+ When
+
+
+you
+ go
+ to
+ change
+ your
+ password,
+ for
+
+
+whatever
+ reason,
+ the
+ password
+ manager
+
+
+should
+ capture
+ that
+ information
+ and
+
+
+update
+ itself.
+ And
+ there's
+ other
+ little
+
+
+things
+ that
+ when
+ you
+ start
+ using
+ a
+
+
+password
+ manager,
+ you
+ get
+ the
+ benefit
+ of
+
+
+like
+ the
+ main
+ one
+ of
+ course
+ is
+ your
+
+
+security
+ is
+ better.
+ You
+ also
+ don't
+ have
+
+
+like
+ as
+ much
+ cognitive
+ load.
+ Like
+ you
+
+
+don't
+ have
+ to
+ remember
+ your
+ passwords.
+
+
+You
+ just
+ need
+ to
+ remember
+ the
+ password
+
+
+for
+ your
+ password
+ manager.
+ But
+ smaller
+
+
+things
+ like
+ your
+ password
+ manager
+ is
+
+
+configured
+ to
+ show
+ the
+ password
+ for
+ the
+
+
+site
+ that
+ you're
+ on.
+ If
+ you're
+ on
+ a
+ site
+
+
+and
+ you
+ know
+ you
+ have
+ a
+ password
+ for
+ it
+
+
+and
+ your
+ password
+ manager
+ doesn't
+ show
+
+
+up,
+ you
+ might
+ be
+ on
+ a
+ fishing
+ site.
+ It's
+
+
+a
+ little
+ thing
+ like
+ that.
+ Like
+ that's
+
+
+not
+ even
+ really
+ its
+ intended
+ purpose,
+
+
+but
+ it's
+ another
+ little
+ clue
+ that
+ maybe
+
+
+you
+ should
+ slow
+ down
+ and
+ take
+ a
+ look
+ at
+
+
+what
+ you're
+ doing.
+
+
+>> I
+ had
+ not
+ thought
+ about
+ that.
+ Are
+ there
+
+
+things
+ you
+ could
+ expect
+ a
+ password
+
+
+manager
+ to
+ do
+ beyond
+ just
+ storing
+ your
+
+
+passwords
+ and
+ helping
+ you
+ fill
+ in
+ when
+
+
+you're
+ on
+ a
+ site?
+
+
+>> One
+ of
+ the
+ main
+ ones
+ is
+ that
+ it
+ can
+
+
+store
+ and
+ retrieve
+ any
+ sensitive
+
+
+information.
+ So,
+ I
+ put
+ my
+ known
+ traveler
+
+
+number,
+ the
+ thing
+ you're
+ supposed
+ to
+ use
+
+
+for
+ like
+ pre-check
+ when
+ you
+ go
+ through
+
+
+airport
+ security.
+ I
+ keep
+ that
+ in
+ my
+
+
+password
+ manager
+ because
+ I
+ I
+ do
+ need
+ to
+
+
+pull
+ that
+ out
+ periodically
+ and
+ I
+ will
+
+
+never
+ remember
+ where
+ it
+ is.
+ So,
+ it
+ just
+
+
+it's
+ in
+ my
+ password
+ manager.
+ You
+ know,
+
+
+credit
+ cards
+ are
+ in
+ there,
+ too.
+ You
+
+
+know,
+ there's
+ a
+ lot
+ of
+ other
+ ways
+ to
+ do
+
+
+this
+ kind
+ of
+ autofill
+ stuff,
+ but
+ a
+
+
+password
+ manager
+ is
+ very
+ flexible
+ and
+
+
+it's
+ always
+ with
+ me.
+ So,
+ that's
+ one
+
+
+thing
+ that
+ I
+ use
+ it
+ for.
+ [snorts]
+ One
+ of
+
+
+the
+ main
+ things
+ that
+ password
+ managers
+
+
+do
+ is
+ that
+ they
+ create
+ complex,
+ long,
+
+
+unique
+ passwords.
+ So,
+ you
+ don't
+ have
+ to
+
+
+do
+ any
+ of
+ that
+ and
+ you
+ don't
+ have
+ to
+
+
+remember
+ any
+ of
+ that.
+ And
+ you
+ can
+ change
+
+
+the
+ rules
+ uh
+ for
+ how
+ that's
+ generated
+ to
+
+
+whatever
+ meets
+ your
+ needs
+ at
+ the
+ time.
+
+
+They're
+ very
+ very
+ flexible
+
+
+>> like
+ letters,
+ numbers,
+ special
+
+
+characters,
+ extra
+ special
+ characters.
+
+
+>> Yeah,
+ exactly.
+ And
+ one
+ one
+ of
+ the
+
+
+features
+ I
+ love
+ is
+ like
+ some
+ password
+
+
+managers
+ will
+ actually
+ remove
+ similar
+
+
+characters.
+ So
+ is
+ that
+ a
+ lowercase
+ L
+ or
+
+
+a
+ vertical
+ line?
+ Gets
+ rid
+ of
+ that
+ so
+ you
+
+
+don't
+ have
+ to
+ worry
+ about
+ that.
+ or
+ it
+
+
+will
+ create
+ pass
+ phrases
+ that
+ use
+ like
+
+
+whole
+ words
+ or
+ there
+ are
+ lots
+ of
+
+
+different
+ ways
+ that
+ you
+ can
+ adjust
+ it
+ to
+
+
+your
+ situation,
+ whatever
+ makes
+ sense.
+
+
+One
+ thing
+ I
+ do
+ recommend
+ that
+ people
+ do
+
+
+is,
+ you
+ know,
+ just
+ go
+ ahead
+ and
+ make
+ it
+
+
+as
+ long
+ as
+ the
+ website
+ will
+ accept.
+ Like
+
+
+I
+ use
+ 30
+ character
+ passwords
+ because
+ why
+
+
+not?
+ I'm
+ not
+ remembering
+ any
+ of
+ this.
+
+
+That's
+ the
+ password
+ manager
+ stuff.
+ I'm
+
+
+paying
+ it
+ to
+ do
+ that.
+
+
+>> Yeah.
+ Okay.
+ So,
+ paying
+ that
+ is
+ a
+ I
+ think
+
+
+a
+ good
+ segue
+ into
+ what
+ your
+ picks
+ are.
+
+
+What
+ does
+ wire
+ cutter
+ recommend
+ in
+ terms
+
+
+of
+ password
+ managers?
+
+
+>> So,
+ one
+ password
+ is
+ the
+ best
+ password
+
+
+manager
+ we've
+ tested
+ and
+ has
+ been
+ so
+ for
+
+
+quite
+ a
+ while.
+ One
+ password
+ is
+ just
+ very
+
+
+easy
+ to
+ use,
+ almost
+ a
+ pleasure
+ to
+ use
+ in
+
+
+many
+ ways
+ that
+ it
+ just
+ blows
+ the
+
+
+competition
+ out
+ of
+ the
+ water
+ in
+ that
+
+
+respect.
+ It
+ is
+ just
+ the
+ simplest,
+
+
+friendliest
+ way
+ to
+ use
+ a
+ password
+
+
+manager.
+ It'll
+ walk
+ you
+ through
+ the
+
+
+whole
+ process
+ of
+ it.
+ It
+ also
+ does
+ some
+
+
+very
+ unique
+ things
+ with
+ how
+ it
+ manages
+
+
+your
+ password
+ to
+ access
+ it.
+ It's
+ a
+
+
+little
+ bit
+ different
+ than
+ others,
+ but
+
+
+it's
+ still
+ pretty
+ intuitive
+ and
+ it's
+
+
+more
+ secure.
+ And
+ by
+ and
+ large,
+ it
+ seems
+
+
+that
+ people
+ are
+ able
+ to
+ figure
+ it
+ out
+
+
+and
+ work
+ with
+ it,
+ which
+ which
+ is
+ great.
+
+
+We
+ also
+ recommend
+ Bit
+ Warden
+ as
+ a
+ free
+
+
+password
+ option.
+ It
+ also
+ has
+ a
+ paid
+
+
+subscription,
+ and
+ that's
+ just
+ another
+
+
+really
+ good
+ password
+ manager.
+ It's
+ open-
+
+
+source,
+ and
+ it's
+ not
+ as
+ flashy
+ and
+ slick
+
+
+as
+ one
+ password,
+ but
+ it
+ is
+ very
+ good
+ at
+
+
+what
+ it
+ does.
+ That's
+ the
+ one
+ I
+ use.
+ A
+
+
+big
+ truth
+ in
+ security
+ in
+ general
+ is
+ like
+
+
+even
+ a
+ not
+ good
+ password
+ manager
+ is
+
+
+better
+ than
+ no
+ password
+ manager
+ at
+ all
+
+
+and
+ most
+ password
+ managers
+ are
+ good.
+ So,
+
+
+you
+ know,
+ if
+ you've
+ already
+ been
+ using
+
+
+the
+ built-in
+ password
+ manager
+ in
+ Google
+
+
+or
+ in
+ your
+ iPhone
+ or
+ what
+ have
+ you,
+
+
+that's
+ great.
+ Stick
+ with
+ it
+ if
+ you
+ want
+
+
+to
+ stick
+ with
+ it.
+ But
+ the
+ password
+
+
+manager
+ that
+ we
+ recommend
+ have
+ more
+
+
+features.
+ They're
+ easier
+ to
+ use
+ and
+ they
+
+
+can
+ just
+ do
+ things
+ that
+ those
+ default
+
+
+password
+ managers
+ can't.
+
+
+>> I've
+ been
+ using
+ Dashlane
+ for
+ a
+ while.
+
+
+It's
+ fine.
+ I
+ mean
+ it's
+ a
+ password
+
+
+manager
+ and
+ it
+ works.
+
+
+>> I
+ have
+ thought
+ about
+
+
+>> using
+ something
+ else,
+
+
+>> but
+ I've
+ been
+ intimidated
+ by
+ the
+ idea
+ of
+
+
+migrating
+ from
+ one
+ password
+ manager
+ to
+
+
+another
+ is
+ the
+ best
+ I
+ can
+ hope
+ for
+ there
+
+
+kind
+ of
+ starting
+ over.
+ [snorts]
+
+
+>> No.
+ Um
+ to
+ move
+ between
+ password
+ managers
+
+
+is
+ very
+ straightforward.
+ Every
+ password
+
+
+manager
+ will
+ let
+ you
+ import
+ and
+ export
+
+
+passwords
+ from
+ another
+ password
+ manager.
+
+
+This
+ was
+ actually
+ one
+ of the
+ things
+ I
+
+
+tested
+ in
+ my
+ most
+ recent
+ round
+ of
+
+
+testing
+ was
+ how
+ easy
+ was
+ that
+ process?
+
+
+What
+ what
+ was
+ hard
+ about
+ it
+ for
+ these
+
+
+products.
+ Most
+ of the
+ time
+ how
+ this
+
+
+works
+ is
+ you
+ hit
+ export,
+ it
+ spits
+ out
+ a
+
+
+spreadsheet
+ of
+ all
+ your
+ passwords
+ and
+
+
+login
+ information,
+ and
+ then
+ you
+ go
+ to
+
+
+your
+ new
+ password
+ manager,
+ you
+ drag
+ and
+
+
+drop
+ it
+ on
+ there,
+ and
+ it
+ does
+ the
+ rest.
+
+
+I
+ will
+ take
+ this
+ opportunity
+ to
+ just
+
+
+remind
+ people
+ something.
+ Delete
+ that
+
+
+file
+ afterward
+ because
+ that
+ file
+ has
+ all
+
+
+your
+ passwords
+ in
+ it.
+ You
+ really
+ don't
+
+
+want
+ that.
+
+
+>> Empty
+ the
+ trash.
+
+
+>> Yes,
+ absolutely.
+ And
+ then,
+ you
+ know,
+ I
+
+
+always
+ encourage
+ people
+ to
+ take
+ their
+
+
+time
+ with
+ stuff.
+ It
+ often
+ feels
+ like
+ you
+
+
+have
+ to
+ make
+ big
+ changes
+ really
+ fast.
+ If
+
+
+you're
+ migrating
+ from
+ one
+ password
+
+
+manager
+ to
+ another,
+ try
+ it
+ out
+ for
+ a
+
+
+while.
+ See
+ if
+ it
+ got
+ all
+ the
+ stuff
+ that
+
+
+you
+ need.
+ Do
+ you
+ have
+ any
+ problems?
+ And
+
+
+then
+ after
+ however
+ long
+ you
+ need,
+ then
+
+
+you
+ can
+ start
+ deleting
+ and
+ shutting
+ down
+
+
+your
+ old
+ password
+ manager.
+ There's
+ no
+
+
+reason
+ that
+ you
+ got
+ to
+ like
+ dump
+ it
+ all
+
+
+and
+ do
+ it
+ all
+ at
+ once.
+ In
+ addition
+ to
+
+
+that,
+ I'm
+ wondering
+ because
+ I
+ use
+ I
+ use
+
+
+Dashane,
+ but
+ I
+ also
+ use
+ the
+ password
+
+
+manager
+ that
+ comes
+ on
+ the
+ iPhone.
+ Is
+
+
+there
+ any
+ reason
+ I
+ shouldn't
+ be
+ using
+
+
+more
+ than
+ one?
+
+
+>> I
+ think
+ that
+ it's
+ just
+ easier
+ for
+ you
+ to
+
+
+know
+ where
+ your
+ passwords
+ are
+
+
+>> organizationally.
+
+
+>> Yeah.
+ And
+ again,
+ like
+ if
+ it
+ works
+ for
+
+
+you,
+ it
+ works
+ for
+ you.
+ And
+ I'm
+ not
+ going
+
+
+to
+ tell
+ you
+ otherwise.
+ But
+ if
+ you're
+
+
+ever
+ in
+ a
+ situation
+ where
+ you're
+ like,
+ I
+
+
+don't
+ know
+ where
+ that
+ password
+ is.
+ I
+
+
+know
+ I
+ have
+ it,
+ but
+ I
+ don't
+ know
+ where
+
+
+it
+ is.
+ That
+ can
+ create
+ a
+ problem.
+ And
+
+
+all
+ the
+ password
+ managers
+ that
+ we
+
+
+recommend
+ are
+ cloud-based.
+ When
+ you
+ have
+
+
+them
+ stored
+ on
+ the
+ cloud
+ securely,
+
+
+they're
+ available
+ on
+ all
+ your
+ devices
+
+
+all
+ the
+ time.
+ So,
+ that
+ sort
+ of
+ gets
+
+
+around
+ the
+ problem
+ you're
+ talking
+ about,
+
+
+right?
+ You
+ know
+ that
+ it's
+ in
+ the
+
+
+password
+ manager
+ and
+ the
+ password
+
+
+manager
+ is
+ on
+ all
+ of
+ your
+ devices.
+ So,
+
+
+when
+ we
+ talk
+ about
+ migrating
+ slowly
+ or
+
+
+even
+ just
+ getting
+ started
+ from
+ not
+ using
+
+
+a
+ password
+ manager
+ to
+ using
+ one,
+ do
+ you
+
+
+need
+ to
+ change
+ all
+ of
+ your
+ passwords
+ at
+
+
+once?
+
+
+>> No,
+ absolutely
+ not.
+
+
+>> That's
+ also
+ intimidating.
+
+
+>> It's
+ hugely
+ intimidating.
+ I
+ actually
+
+
+think
+ the
+ best
+ way
+ to
+ go
+ about
+ this
+ is
+
+
+to
+ prioritize
+ the
+ most
+ important
+ things.
+
+
+Banking,
+ social
+ media,
+ one
+ that
+
+
+surprises
+ people,
+ your
+ personal
+ email
+ or
+
+
+whatever
+ email
+ you
+ use
+ the
+ most.
+ You
+
+
+absolutely
+ should
+ be
+ putting
+ the
+ most
+
+
+amount
+ of
+ security
+ on
+ that.
+ The
+ forgot
+
+
+my
+ password
+ function
+ on
+ any
+ website.
+ If
+
+
+a
+ attacker
+ is
+ able
+ to
+ get
+ a
+ hold
+ of
+ your
+
+
+email
+ and
+ then
+ use
+ that
+ forgot
+ my
+
+
+password
+ tool,
+ they
+ can
+ just
+ start
+
+
+taking
+ over
+ all
+ your
+ accounts
+ and
+
+
+there's
+ very
+ little
+ to
+ stop
+ them.
+ So
+
+
+that's
+ like
+ number
+ one.
+ Get
+ your
+
+
+personal
+ email
+ sorted
+ out.
+ And
+ then
+ I
+
+
+think
+ it's
+ fine
+ to
+ you
+ know
+ move
+ slowly
+
+
+like
+ as
+ you
+ go
+ to
+ websites
+ log
+ out
+ log
+
+
+back
+ in
+ let
+ the
+ password
+ manager
+ capture
+
+
+it
+ as
+ you
+ go.
+ Most
+ of the
+ password
+
+
+managers
+ that
+ we
+ recommend
+ have
+ very
+
+
+useful
+ tools
+ that
+ can
+ identify
+ weak
+
+
+reused
+ and
+ breached
+ passwords.
+ So
+ use
+
+
+those
+ tools.
+ Start
+ with
+ the
+ breached
+
+
+passwords.
+ Those
+ are
+ the
+ ones
+ that
+ you
+
+
+know
+ are
+ out
+ there
+ somewhere.
+ So
+ fix
+
+
+those
+ and
+ then
+ work
+ down
+ your
+ list
+ of
+
+
+stuff
+ and
+ maybe
+ set
+ a
+ day
+ like
+ every
+
+
+Thursday
+ I
+ update
+ five
+ passwords
+ or
+ what
+
+
+have
+ you.
+
+
+>> Hygiene.
+
+
+>> Yeah.
+ You
+ know,
+ if
+ you
+ tried
+ to
+ do
+ it
+
+
+all
+ at once,
+ you're
+ going
+ to
+ burn
+ out.
+
+
+And
+ I
+ think
+ the
+ worst
+ thing
+ that
+ people
+
+
+can
+ do
+ with
+ personal
+ security
+ is
+ is
+ just
+
+
+give
+ up.
+ It
+ always
+ feels
+ like
+ we're
+ out
+
+
+of
+ control
+ and
+ these
+ huge
+ forces
+ are
+
+
+pushing
+ against
+ us,
+ but
+ actually
+ you
+
+
+have
+ a
+ lot
+ of
+ agency
+ in
+ this
+ stuff
+ and
+
+
+it
+ can
+ actually
+ really
+ empower
+ you.
+
+
+>> Okay,
+ quick
+ recap.
+ [music]
+
+
+Passwords,
+ they're
+ a
+ real
+ pain.
+ And
+
+
+password
+ managers
+ can
+ help.
+ They're
+
+
+integrated
+ in
+ many
+ phones
+ now.
+ And
+ Max
+
+
+has
+ some
+ great
+ recommendations
+ on
+ the
+
+
+Wire
+ Cutter
+ website.
+ Online
+ security
+ is
+
+
+always
+ evolving
+ and
+ it's
+ very,
+ very
+ real
+
+
+to
+ feel
+ fatigued.
+ Um,
+ [music]
+ baby
+
+
+steps.
+ Using
+ some
+ measures
+ is
+ always
+
+
+better
+ than
+ using
+ nothing.
+ So
+ try
+ out
+
+
+password
+ managers,
+ try
+ out
+ two-factor
+
+
+authentication
+ or
+ 2FA,
+
+
+and
+ stay
+ as
+ safe
+ [music]
+ as
+ you
+ can.
+
+
+Now,
+ Max,
+ in
+ your
+ article
+ on
+ password
+
+
+managers,
+ you
+ have
+ four
+ additional
+ tips
+
+
+to
+ help
+ get
+ the
+ most
+ out
+ of
+ your
+
+
+password
+ manager.
+ I
+ want
+ to
+ run
+ through
+
+
+those.
+ The
+ first
+ you
+ mentioned
+ before,
+
+
+which
+ is
+ creating
+ extra
+ long
+ passwords.
+
+
+>> Yeah,
+ you
+ know,
+ your
+ password
+ manager
+ is
+
+
+doing
+ the
+ heavy
+ lifting.
+ Why
+ not
+ make
+ it
+
+
+as
+ long
+ and
+ as
+ crazy
+ as
+ you
+ want?
+ Um,
+
+
+the
+ caveat
+ here
+ is
+ that
+ not
+ every
+
+
+website
+ is
+ cool
+ about
+ this.
+ There
+ are
+ to
+
+
+this
+ day
+ still
+ websites
+ that
+ won't
+ let
+
+
+you
+ do
+ longer
+ than
+ eight
+ characters.
+ And
+
+
+I
+ cannot
+ believe
+ these
+ are
+ still
+ in
+
+
+business.
+ Like
+ that's
+ insane.
+ But
+ in
+
+
+general,
+ make
+ it
+ as
+ long
+ as
+ you
+ can
+
+
+because
+ you
+ don't
+ have
+ to
+ worry
+ about
+
+
+it.
+ And
+ the
+ longer
+ the
+ more
+ complex,
+ the
+
+
+better.
+
+
+>> The
+ second
+ tip
+ here
+ is
+ about
+ securely
+
+
+sharing
+ passwords
+ and
+ other
+ information.
+
+
+Talk
+ about
+ that.
+ Yeah,
+ password
+ managers
+
+
+usually
+ have
+ tools
+ built
+ in
+ to
+ share
+
+
+passwords
+ or
+ any
+ other
+ information
+ that
+
+
+you
+ have
+ stored
+ in
+ the
+ password
+ manager
+
+
+with
+ other
+ people.
+ Typically
+ other
+ users
+
+
+of
+ the
+ password
+ manager.
+ So
+ you
+ like
+ you
+
+
+might
+ have
+ to
+ get
+ your
+ family
+ on
+ a
+
+
+family
+ plan
+ if
+ you
+ want
+ to
+ do
+ this,
+ but
+
+
+not
+ all
+ the
+ time.
+ And
+ it
+ puts
+ some
+
+
+protections
+ around
+ it.
+ Now
+ you
+ always
+
+
+got
+ to
+ keep
+ in
+ mind
+ that
+ anytime
+
+
+something
+ leaves
+ your
+ control,
+ someone
+
+
+can
+ do
+ something
+ bad
+ with
+ it.
+ So
+ like
+
+
+don't
+ share
+ it
+ with
+ people
+ you
+ don't
+
+
+trust.
+ Keep
+ tabs
+ on
+ it.
+ use
+ the
+ tools
+
+
+that
+ they
+ provide
+ to
+ limit
+ its
+ access,
+
+
+but
+ just
+ be
+ aware
+ that,
+ you
+ know,
+ you
+
+
+only
+ want
+ to
+ share
+ it
+ with
+ trustworthy
+
+
+people.
+ An
+ extension
+ of
+ this
+ is
+ that
+
+
+some
+ password
+ managers
+ are
+ set
+ up
+ to
+
+
+actually
+ help
+ family
+ members
+ inherit
+
+
+passwords
+ from
+ people
+ that
+ have
+ passed
+
+
+on.
+ You
+ know,
+ you
+ don't
+ want
+ to
+ get
+
+
+locked
+ out
+ of
+ your
+ parents
+ or
+
+
+grandparents
+ accounts.
+ This
+ is
+ actually
+
+
+a
+ very
+ useful
+ thing
+ to
+ do.
+
+
+>> You
+ have
+ protecting
+ your
+ passwords
+ from
+
+
+prying
+ eyes.
+ What
+ did
+ you
+ mean
+ by
+ that?
+
+
+A
+ very
+ understandable
+ concern
+ about
+
+
+password
+ managers
+ is
+ that
+ it's
+ like
+ a
+
+
+single
+ point
+ of
+ failure.
+ Like
+ if
+ someone
+
+
+can
+ get
+ your
+ password
+ manager,
+ they
+ get
+
+
+everything.
+ And
+ that's
+ very
+
+
+understandable.
+ There's
+ a
+ lot
+ of
+ things
+
+
+you
+ can
+ do
+ to
+ keep
+ that
+ from
+ happening.
+
+
+You're
+ going to
+ put
+ 2FA
+ on
+ your
+ password
+
+
+manager
+ so
+ that
+ even
+ if
+ someone
+ gets
+
+
+your
+ password,
+ they're
+ not
+ getting
+ into
+
+
+your
+ password
+ manager.
+ All
+ the
+ password
+
+
+managers
+ that
+ we
+ recommend
+ use
+ end
+ toend
+
+
+encryption
+ so
+ they
+ can't
+ even
+ access
+
+
+your
+ data.
+ Like
+ these
+ are
+ the
+ things
+
+
+that
+ are
+ out
+ there
+ to
+ protect
+ your
+
+
+information.
+ Now,
+ what
+ happens
+ when
+ it's
+
+
+on
+ your
+ phone
+ and
+ then
+ your
+ phone
+ is
+ not
+
+
+in
+ your
+ hands
+ anymore?
+ That's
+ a
+ big
+
+
+problem.
+ So,
+ if
+ your
+ phone
+ is
+
+
+confiscated
+ or,
+ you
+ know,
+ it's
+ not
+
+
+properly
+ secured,
+ you
+ want
+ to
+ make
+ sure
+
+
+you're
+ doing
+ something
+ about
+ that.
+ So,
+
+
+look
+ at
+ how
+ often
+ your
+ password
+ manager
+
+
+requires
+ you
+ to
+ reauthenticate,
+ set
+ that
+
+
+to
+ something
+ low
+ that
+ works
+ for
+ you.
+
+
+Maybe
+ it's
+ every
+ day,
+ maybe
+ it's
+ every
+
+
+44
+ hours,
+ what
+ whatever
+ works
+ for
+ you.
+
+
+So
+ that
+ every
+ now
+ and
+ again,
+ you
+ do
+
+
+actually
+ have
+ to
+ put
+ your
+ password
+ into
+
+
+your
+ password
+ manager
+ to
+ prove
+ that
+
+
+you're
+ you
+ learn
+ how
+ to
+ use
+ the
+ tools
+
+
+that
+ help
+ you
+ track
+ and
+ secure
+ stolen
+ or
+
+
+lost
+ phones.
+ Both
+ Apple
+ and
+ Google
+ have
+
+
+this
+ for
+ their
+ devices.
+ They're
+ very
+
+
+powerful.
+ They're
+ very
+ useful.
+ When
+
+
+you're
+ traveling,
+ consider
+ logging
+ out
+
+
+of
+ your
+ password
+ manager
+ altogether
+ and
+
+
+logging
+ back
+ in
+ when
+ you
+ get
+ to
+ a,
+ you
+
+
+know,
+ a
+ safe
+ location.
+ If
+ you
+ lose
+ your
+
+
+phone
+ or
+ your
+ phone
+ is
+ stolen
+ while
+ it's
+
+
+unlocked,
+ that
+ can
+ expose
+ a
+ lot
+ of
+ your
+
+
+information.
+ So,
+ just
+ don't
+ even
+ have
+
+
+that
+ on
+ there.
+ One
+ Password
+ has
+ a
+
+
+similar
+ tool
+ called
+ travel
+ mode
+ that
+
+
+lets
+ you
+ limit
+ what
+ passwords
+ are
+
+
+available
+ and
+ what
+ circumstances.
+ We
+
+
+also
+ recommend
+ learning
+ how
+ to
+
+
+temporarily
+ disable
+ biometrics
+ on
+ your
+
+
+phone.
+ So,
+ biometrics
+ are
+ really
+
+
+convenient
+ and
+ great.
+ Like,
+ it
+ saves
+ you
+
+
+a
+ lot
+ of
+ time
+ and
+ they're
+ very
+ secure,
+
+
+but
+ it
+ can
+ be
+ done
+ against
+ your
+ will.
+
+
+like
+ someone
+ could
+ snatch
+ your
+ phone,
+
+
+hold
+ it
+ up
+ to
+ your
+ face,
+ and
+ then
+ that
+
+
+could
+ open
+ your
+ phone
+ or
+ someone
+ can
+ put
+
+
+your
+ finger
+ on
+ the
+ fingerprint
+ reader.
+
+
+So
+ most
+ phones
+ now
+ do
+ have
+ a
+ way
+ to
+
+
+deactivate
+ biometrics
+ temporarily.
+ Any
+
+
+situation
+ where
+ you
+ think
+ your
+ phone
+ is
+
+
+going
+ to
+ leave
+ your
+ person?
+ So
+ like
+
+
+airport
+ security,
+ you're
+ in
+ like
+ a
+
+
+really
+ long
+ line
+ in
+ a
+ place
+ you
+ don't
+
+
+know,
+ like
+ you're
+ at
+ a
+ concert
+ or
+
+
+something,
+ why
+ not
+ just
+ take
+ a
+ minute
+ to
+
+
+disable
+ biometrics
+ temporarily?
+ And
+ once
+
+
+you
+ put
+ in
+ the
+ passcode,
+ biometrics
+ are
+
+
+back
+ on.
+ So
+ it's
+ very
+ very
+ simple
+ but
+
+
+it's
+ always
+ important
+ to
+ think
+ about
+
+
+what
+ happens
+ to
+ your
+ devices
+ and
+ this
+ is
+
+
+beyond
+ password
+ managers.
+ So
+ excuse
+ me
+
+
+but
+ you
+ always
+ want
+ to
+ think
+ about
+ what
+
+
+you
+ what
+ is
+ happening
+ to
+ your
+ devices
+
+
+when
+ you
+ don't
+ have
+ control
+ of
+ them.
+
+
+>> The
+ last
+ piece
+ of
+ advice
+ here
+ is
+
+
+enabling
+ two-actor
+ authentication
+ to
+ FA
+
+
+as
+ you
+ have
+ referred
+ to
+ it
+ and
+ pass
+ keys
+
+
+on
+ your
+ accounts
+ as
+ you
+ go
+ through
+ and
+
+
+upgrade
+ your
+ passwords.
+ I
+ want
+ to
+ pause
+
+
+before
+ you
+ explain
+ those
+ because
+ you
+
+
+wrote
+ another
+ great
+ article
+ on
+ the
+ site
+
+
+called
+ pass
+ keys
+ are
+ the
+ new
+ passwords.
+
+
+You
+ should
+ start
+ using
+ them
+ now.
+ [music]
+
+
+And
+ that
+ goes
+ into
+ detail
+ about
+ what
+
+
+pass
+ keys
+ are
+ and
+ why
+ they're
+ important.
+
+
+So
+ I
+ want
+ to
+ take
+ a
+ quick
+ break
+ and
+ dig
+
+
+[music]
+ deeper
+ into
+ that
+ on
+ the
+ other
+
+
+side.
+ We'll
+ be
+ right
+ back.
+
+
+[music]
+
+
+>> [music]
+
+
+>> Welcome
+ back.
+ My
+ guest
+ today
+ is
+ Max
+
+
+Eddie,
+ a
+ staff
+ writer
+ here
+ at
+ Wire
+
+
+Cutter
+ who
+ covers
+ privacy
+ and
+ security.
+
+
+This
+ episode
+ is
+ about
+ password
+ hygiene
+
+
+and
+ how
+ to
+ keep
+ yourself
+ a
+ bit
+ safer
+
+
+online.
+ So
+ before
+ the
+ break,
+ Max,
+ we
+
+
+discussed
+ the
+ importance
+ of
+ using
+ a
+
+
+password
+ manager
+ and
+ all
+ of
+ the
+ ways
+ it
+
+
+can
+ help
+ you
+ organize
+ your
+ passwords
+ to
+
+
+stay
+ safer
+ online.
+ And
+ now
+ I
+ want
+ to
+
+
+talk
+ about
+ twofactor
+ authentication,
+
+
+2FA,
+ and
+ a
+ new
+ tool
+ I've
+ been
+ seeing
+ and
+
+
+hearing
+ about
+ more
+ and
+ more,
+ pass
+ keys.
+
+
+So
+ tell
+ me
+ everything
+ you
+ know
+ about
+
+
+two-factor
+ authentication
+ and
+ why
+ it's
+
+
+useful.
+ Or
+ maybe
+ not
+ everything,
+ cuz
+ you
+
+
+know
+ a
+ lot
+ of
+ stuff.
+ So
+ for
+ most
+ people
+
+
+2FA
+ is
+ like
+ another
+ thing
+ that
+ you
+ do
+
+
+after
+ you
+ enter
+ your
+ password.
+ So
+ you'll
+
+
+have
+ to
+ enter
+ a
+ code
+ that's
+ sent
+ to
+ you
+
+
+uh
+ on
+ your
+ phone
+ or
+ generated
+ by
+ an
+ app
+
+
+or
+ you'll
+ have
+ to
+ do
+ some
+ other
+ thing.
+
+
+So
+ a
+ lot
+ of
+ people
+ look
+ at
+ it's
+ like
+ oh
+
+
+two
+ factor
+ it's
+ your
+ second
+ thing
+ you
+
+
+have
+ to
+ do
+ and
+ this
+ is
+ where
+ it
+ gets
+
+
+philosophical.
+ It's
+ actually
+ from
+ this
+
+
+sort
+ of
+ theory
+ of
+ authentication
+ where
+
+
+there's
+ three
+ different
+ ways
+ to
+
+
+authenticate
+ yourself
+ to
+ anything
+ else.
+
+
+There's
+ something
+ you
+ know,
+ something
+
+
+you
+ have,
+ and
+ something
+ you
+ are.
+ So
+
+
+something
+ you
+ know
+ is
+ a
+ password.
+ It
+
+
+lives
+ in
+ your
+ brain.
+ You
+ know
+ it.
+
+
+Something
+ you
+ have
+ is
+ like
+ your
+ phone.
+
+
+When
+ you
+ are
+ using
+ a
+ 2FA
+ app
+ on
+ your
+
+
+phone
+ like
+ Duo
+ or
+ Google
+ Authenticator
+
+
+or
+ Authie,
+ that
+ is
+ proving
+ that
+ you
+ have
+
+
+your
+ phone.
+ That's
+ the
+ thing
+ you
+ have.
+
+
+And
+ something
+ you
+ are
+ is
+ biometrics
+ like
+
+
+a
+ fingerprint
+ scan
+ or
+ a
+ face
+ scan.
+ So
+
+
+when
+ we
+ take
+ two
+ of
+ those
+ three
+ and
+ put
+
+
+them
+ together,
+ they're
+ different
+ kinds
+
+
+of
+ authentication
+ and
+ it's
+ really
+
+
+unlikely
+ that
+ an
+ attacker
+ would
+ be
+ able
+
+
+to
+ get
+ both
+ of
+ them
+ and
+ that's
+
+
+two-factor
+ authentication.
+ Two
+ different
+
+
+factors
+ to
+ secure
+ your
+ accounts.
+
+
+>> Professor
+ Eddie,
+ [laughter]
+
+
+what
+ so
+ does
+ 2FA
+ have
+ any
+ limitations
+
+
+then
+ to
+ bear
+ in
+ mind?
+ Cuz
+ it
+ sounds
+ very
+
+
+very
+ secure.
+ It
+ it
+ is
+ very
+ very
+ secure
+
+
+and
+ I
+ I
+ really
+ want
+ to
+ emphasize
+ like
+ I
+
+
+said
+ with
+ password
+ managers
+ you
+ know
+
+
+we're
+ going
+ to
+ start
+ talking
+ about
+ the
+
+
+drawbacks
+ of
+ 2FA
+ which
+ are
+ real
+ and
+
+
+important
+ to
+ understand
+ but
+ any
+ 2FA
+ is
+
+
+better
+ than
+ no
+ 2FA
+ in
+ the
+ same
+ way
+ that
+
+
+even
+ a a
+ mediocre
+ password
+ manager
+ is
+
+
+better
+ than
+ no
+ password
+ manager.
+ So
+
+
+really
+ want
+ to
+ underline
+ if
+ you
+ take
+
+
+nothing
+ from
+ this
+ please
+ just
+ get
+ a
+
+
+password
+ manager
+ and
+ turn
+ on
+ 2FA.
+ I
+ will
+
+
+sleep
+ so
+ much
+ better
+ [laughter]
+ if
+ just
+
+
+one
+ of
+ you
+ does
+ it.
+ So
+ the
+ the
+ big
+
+
+drawback
+ of
+ 2FA
+ is
+ that
+ if
+ you
+ don't
+
+
+have
+ your
+ second
+ factor,
+ if
+ that
+ other
+
+
+thing
+ is
+ not
+ available
+ to
+ you,
+ you're
+
+
+not
+ going
+ to
+ be
+ able
+ to
+ easily
+ log
+ in.
+
+
+So
+ if
+ you
+ are,
+ for
+ example,
+ using
+ an
+ app
+
+
+on
+ your
+ phone
+ to
+ generate
+ 2FA
+ codes
+ and
+
+
+you
+ don't
+ have
+ your
+ phone,
+ then
+ you
+ will
+
+
+not
+ very
+ easily
+ be
+ able
+ to
+ log
+ into
+ your
+
+
+account.
+ A
+ lot
+ of
+ caveats
+ to
+ this.
+ One
+
+
+of the
+ easiest
+ ways
+ to
+ prevent
+ this
+ from
+
+
+happening
+ is
+ to
+ create
+ what
+ are
+ called
+
+
+backup
+ codes.
+ These
+ are
+ a
+ list
+ of
+
+
+numbers
+ and
+ letters
+ typically
+ that
+ are
+
+
+generated
+ on
+ whatever
+ site
+ it
+ is
+ you
+
+
+have
+ an
+ account
+ and
+ you
+ store
+ them
+
+
+someplace
+ safe,
+ print
+ them
+ off,
+ put
+ them
+
+
+in
+ your
+ password
+ manager
+ someplace
+ very
+
+
+safe
+ because
+ you
+ can
+ enter
+ these
+ codes
+
+
+in
+ an
+ emergency,
+ prove
+ who
+ you
+ are
+ and
+
+
+get
+ past
+ a
+ lot
+ of
+ the
+ extra
+ layers
+ of
+
+
+security.
+ Another
+ big
+ concern
+ with
+ 2FA
+
+
+is
+ that
+ some
+ kinds
+ of
+ 2FA
+ can
+ be
+
+
+intercepted.
+ So,
+ for
+ example,
+ if
+ you're
+
+
+getting
+ a
+ code
+ sent
+ to
+ your
+ phone,
+ it
+ is
+
+
+possible
+ that
+ someone
+ could
+ intercept
+
+
+that
+ and
+ then
+ use
+ it
+ before
+ you
+ can
+ use
+
+
+it.
+ So,
+ in
+ general,
+ we
+ tell
+ people
+ not
+
+
+to
+ use
+ 2FA
+ over
+ SMS.
+ That's
+ by
+ text
+
+
+message
+ whenever
+ possible.
+ For
+ better
+ or
+
+
+for
+ worse,
+ it
+ is
+ probably
+ the
+ most
+
+
+common
+ kind
+ of
+ 2FA.
+ And
+ again,
+ bad
+ 2FA
+
+
+is
+ better
+ than
+ no
+ TOFFA
+ at
+ all.
+ Along
+
+
+with
+ a
+ 2FA
+ that
+ can
+ be
+ intercepted,
+ some
+
+
+2FA
+ can
+ be
+ fished,
+ right?
+ So
+ if
+ I'm
+
+
+generating
+ codes
+ on
+ my
+ phone,
+ if
+ I
+ put
+
+
+that
+ into
+ a
+ fishing
+ site,
+ doesn't
+
+
+matter.
+ Now
+ the
+ bad
+ guy
+ has
+ it.
+ They
+ can
+
+
+use
+ it.
+ There's
+ a
+ time
+ limit
+ on
+ these,
+
+
+but
+ these
+ attacks
+ have
+ been
+ very
+ well
+
+
+conceived.
+ They
+ will
+ probably
+ work.
+ So
+
+
+always
+ be
+ very
+ careful
+ about
+ where
+
+
+you're
+ putting
+ in
+ this
+ information.
+ We
+
+
+said
+ this
+ earlier,
+ but
+ some
+ kinds
+ of
+ 2FA
+
+
+could
+ be
+ done
+ without
+ your
+ knowledge
+ or
+
+
+consent.
+ Like
+ if
+ it's
+ biometrics,
+ your
+
+
+face
+ could
+ be
+ read
+ or
+ your
+ fingerprint
+
+
+could
+ be
+ read
+ without
+ you
+ necessarily
+
+
+wanting
+ or
+ knowing
+ that
+ that
+ was
+
+
+happening.
+
+
+>> I've
+ seen
+ that
+ in
+ the
+ movies.
+
+
+>> Yeah.
+
+
+Moving
+ over
+ to
+ pass
+ keys.
+ I'm
+ been
+
+
+hearing
+ about
+ pass
+ keys.
+ I
+ admittedly
+
+
+have
+ not
+ really
+ waited
+ into
+ this
+ yet.
+
+
+What
+ is
+ a
+ pass
+ key?
+ How
+ are
+ they
+
+
+developed?
+
+
+>> On
+ a
+ technical
+ level,
+ a
+ pass
+ key
+ is
+ a
+
+
+digital
+ credential
+ that
+ uses
+ asymmetric
+
+
+key
+ encryption
+ to
+ securely
+ identify
+ you
+
+
+to
+ a
+ website.
+ You
+ don't
+ need
+ to
+ know.
+
+
+>> Well,
+ that
+ I
+ know,
+ but
+ like
+ what
+ else
+ is
+
+
+it?
+ [laughter]
+ Yeah.
+
+
+>> Yeah.
+ And
+ this
+ is
+ where
+ it
+ gets
+ kind
+ of
+
+
+tricky
+ because
+ much
+ like
+ the
+ Matrix,
+ no
+
+
+one
+ can
+ be
+ told
+ what
+ a
+ pass
+ key
+ is.
+ You
+
+
+kind
+ of
+ have
+ to
+ see
+ it
+ for
+ yourself.
+ So
+
+
+go
+ to
+ Google
+ where
+ you
+ probably
+ already
+
+
+have
+ an
+ account,
+ create
+ a
+ Pasi,
+ try
+ it
+
+
+out.
+ Go
+ to
+ our
+ story
+ on
+ Wire
+ Cutter.
+
+
+Take
+ a
+ look
+ at
+ the
+ screenshots.
+ We
+ walk
+
+
+you
+ through
+ the
+ whole
+ process
+ so
+ you
+ can
+
+
+see
+ what
+ it's
+ like.
+ I
+ really
+ think
+ that
+
+
+once
+ people
+ see
+ it
+ and
+ get
+ any
+ kind
+ of
+
+
+familiarity
+ with
+ it,
+ the
+ value
+ becomes
+
+
+immediately
+ obvious.
+ A
+ pass
+ key
+ is
+ a
+ lot
+
+
+like
+ a
+ password.
+ It's
+ intangible.
+ It
+
+
+lives
+ in
+ your
+ devices
+ and
+ on
+ the
+ cloud,
+
+
+but
+ unlike
+ a
+ password,
+ you
+ don't
+
+
+interact
+ with
+ it
+ at
+ all
+ anymore.
+ So,
+ it
+
+
+is
+ a
+ way
+ to
+ authenticate
+ yourself
+ to
+ a
+
+
+website
+ without
+ using
+ a
+ password.
+ It
+ has
+
+
+a
+ lot
+ of
+ benefits.
+ The
+ first
+ and
+ most
+
+
+obvious
+ one
+ is
+ that
+ it
+ is
+ a
+ secure
+
+
+exchange.
+ That
+ pass
+ key
+ can't
+ be
+
+
+forgotten.
+ It's
+ very
+ difficult
+ for
+ that
+
+
+to
+ be
+ breached.
+ You
+ know,
+ if
+ the
+ website
+
+
+gets
+ breached,
+ they're
+ not
+ going
+ to
+ be
+
+
+able
+ to
+ get
+ your
+ pass
+ key.
+ You've
+ got
+
+
+that.
+ That's
+ yours.
+ It
+ requires
+
+
+additional
+ authentication.
+ You
+ put
+ your
+
+
+PIN
+ in.
+ you
+ do
+ a
+ scan
+ or
+ something.
+ So,
+
+
+it's
+ more
+ layers
+ of
+ security
+ around
+ it.
+
+
+And
+ importantly,
+ each
+ pass
+ key
+ only
+
+
+works
+ with
+ the
+ site
+ where
+ you
+ created
+
+
+it.
+ So,
+ it
+ makes
+ it
+ very
+ difficult
+ for
+
+
+that
+ to
+ be
+ fished.
+ It
+ makes
+ it
+ very
+
+
+difficult
+ for
+ that
+ to
+ be
+ cloned
+ in
+ any
+
+
+way.
+
+
+>> So,
+ you
+ are
+ going
+ to
+ theoretically
+ have
+
+
+many
+ many
+ many
+ different
+ pass
+ keys.
+ You
+
+
+have
+ the
+ same
+ number
+ of
+ pass
+ keys
+ as
+ you
+
+
+would
+ passwords.
+
+
+>> Yeah.
+ Like
+ you're
+ going
+ to
+ have
+ as
+ many
+
+
+pass
+ keys
+ as
+ you
+ have
+ websites
+ at
+
+
+minimum.
+ And
+ it
+ is
+ just
+ this
+ way
+ to
+ have
+
+
+a
+ completely
+ secure
+ exchange.
+ Like
+ the
+
+
+the
+ goal
+ here,
+ the
+ thing
+ that
+ that
+ I
+
+
+think
+ people
+ need
+ to
+ take
+ from
+ it,
+
+
+bottom
+ line,
+ pass
+ keys
+ replace
+
+
+passwords.
+ You
+ don't
+ do
+ passwords
+
+
+anymore.
+ We
+ leverage
+ the
+ technology
+ that
+
+
+we
+ have
+ that
+ is
+ very,
+ very
+ good
+ at
+
+
+creating
+ secure
+ exchanges.
+ And
+ we
+ use
+
+
+that
+ instead
+ of
+ passwords.
+ We
+ cut
+ out
+
+
+all
+ of
+ the
+ gooey
+ stuff
+ in
+ the
+ middle
+
+
+that's
+ been
+ causing
+ us
+ problems
+ for
+ as
+
+
+long
+ as
+ we've
+ had
+ passwords.
+ What
+ is
+ it
+
+
+going
+ to
+ look
+ like
+ when
+ I'm
+ on
+ my
+ phone
+
+
+or
+ online
+ and
+ I
+ encounter
+ a
+ pass
+ key?
+
+
+>> So,
+ if
+ you
+ have a
+ pass
+ key
+ already
+ on
+
+
+your
+ device,
+ when
+ you
+ start
+ the
+ login
+
+
+process,
+ either
+ when
+ you
+ land
+ on
+ the
+
+
+login
+ site
+ or
+ when
+ you
+ enter
+ just
+ like
+
+
+your
+ username,
+ a
+ little
+ thing
+ pops
+ up
+
+
+and
+ says,
+ "Hey,
+ you've
+ got
+ a
+ pass
+ key
+
+
+for
+ this.
+ Let's
+ use
+ that
+ instead."
+ Or
+
+
+you
+ might
+ have
+ to
+ click
+ a
+ button
+ and
+
+
+say,
+ "I
+ have a
+ pass
+ key."
+ And
+ then
+ it'll
+
+
+use
+ that
+ instead.
+ And
+ then
+ it
+ just
+ logs
+
+
+in.
+ You'll
+ have
+ to
+ sometimes
+ enter
+ a
+ pin
+
+
+number,
+ but
+ that's
+ it.
+ Yeah.
+ I
+ wish
+
+
+there
+ were
+ more
+ steps
+ because
+ it
+ would
+
+
+feel
+ so
+ much
+ more
+ like
+ tangible,
+ but
+
+
+again,
+ it
+ just
+ it
+ just
+ works.
+ It's
+ kind
+
+
+of
+ great.
+
+
+>> So,
+ how
+ do
+ you
+ get
+ started
+ using
+ them?
+
+
+Because
+ that
+ example,
+ I
+ already
+ have
+ a
+
+
+pass
+ key
+ for
+ whatever
+ website.
+ How
+ do
+ I
+
+
+get
+ my
+ pass
+ key?
+ How
+ do
+ I
+ get
+ started?
+
+
+>> Yeah,
+ I
+ think
+ the
+ best
+ way
+ to
+ get
+
+
+started
+ is
+ to
+ sort
+ of
+ try
+ it
+ out
+ and
+
+
+learn
+ how
+ to
+ use
+ it.
+ Google
+ accounts
+ are
+
+
+really
+ good
+ for
+ this.
+ A
+ Google
+ account
+
+
+will
+ let
+ you
+ create
+ as
+ many
+ pass
+ keys
+ as
+
+
+you
+ want
+ for
+ an
+ account.
+ You
+ can
+ play
+
+
+around
+ with
+ it.
+ It's
+ very,
+ very
+ simple
+
+
+and
+ flexible.
+ So,
+ yeah,
+ log
+ into
+ your
+
+
+Google
+ account.
+ go
+ to
+ your
+ account
+
+
+settings,
+ create
+ a
+ pass
+ key,
+ go
+ through
+
+
+that
+ process,
+ and
+ then
+ try
+ it
+ out,
+ and
+
+
+you'll
+ be
+ able
+ to
+ work
+ through
+ that
+
+
+flow.
+ You
+ know,
+ I
+ I
+ feel
+ like
+ we're
+ not
+
+
+doing
+ a
+ great
+ job
+ of
+ explaining
+ this,
+
+
+and
+ it
+ is
+ just
+ because
+ it's
+ very
+ very
+
+
+straightforward
+ and
+ simple
+ once
+ you
+ do
+
+
+it,
+ and
+ we
+ talked
+ about
+ security
+ fatigue
+
+
+earlier
+ that
+ it's
+ hard
+ to
+ conceptualize
+
+
+this.
+ We're
+ so
+ used
+ to
+ passwords
+ and
+
+
+this
+ takes
+ that
+ away,
+ and
+ it
+ can
+ feel
+
+
+like
+ you're
+ losing
+ control.
+ It
+ can
+ feel
+
+
+confusing.
+ It
+ is
+ so
+ different
+ and
+ that's
+
+
+scary
+ and
+ weird,
+ but
+ once
+ you
+ start
+
+
+doing
+ it,
+ it's
+ like
+ this
+ is
+ so
+ much
+ so
+
+
+much
+ easier.
+
+
+>> Well,
+ I've
+ almost
+ felt
+ that
+ it's
+ too
+
+
+easy
+ because
+ at
+ least,
+ you
+ know,
+ with
+ a
+
+
+password,
+ a
+ complicated
+ password
+ that
+
+
+exists
+ in
+ my
+ password
+ manager,
+ I
+ know
+
+
+that
+ there
+ are
+ 15,
+ you
+ know,
+ dollar
+
+
+signs
+ and
+ capital
+ letters
+ and
+ lower
+
+
+letters
+ and
+ it's
+ going
+ to
+ be
+ complex.
+
+
+With
+ a
+ pass
+ key,
+ in
+ my
+ experience
+ so
+
+
+far,
+ it's
+ like
+ this
+ seems
+ too
+ good
+ to
+ be
+
+
+true.
+
+
+>> Yeah.
+ And
+ and
+ it's
+ that
+ intangibility
+ of
+
+
+it,
+ right?
+ like
+ there's
+ nothing
+ there.
+
+
+Like
+ in
+ your
+ password
+ range,
+ you
+ could
+
+
+look
+ it
+ up
+ and
+ see
+ the
+ big
+ long
+ password
+
+
+and
+ feel
+ assured
+ that
+ it
+ does
+ something.
+
+
+And
+ this
+ is
+ just
+ this
+ weird
+
+
+contradiction
+ with
+ pass
+ keys
+ where
+ like
+
+
+if
+ you
+ actually
+ saw
+ any
+ part
+ of
+ it,
+ it
+
+
+wouldn't
+ make
+ any
+ sense
+ at
+ its
+ technical
+
+
+level,
+ but
+ at
+ the
+ person
+ level,
+ it's
+ as
+
+
+seamless
+ as
+ can
+ be.
+ And
+ this
+ is
+ by
+
+
+design.
+ A
+ lot
+ of
+ work
+ has
+ gone
+ into
+
+
+making
+ this
+ fast,
+ seamless,
+ reliable.
+
+
+It's
+ supported
+ by
+ Apple,
+ Microsoft,
+
+
+Google.
+ It's
+ hopefully
+ going
+ to
+ take
+ off
+
+
+and
+ become
+ the
+ new
+ password
+ and
+ it's
+
+
+continuing
+ to
+ evolve.
+ There's
+ changes
+
+
+happening
+ to
+ it
+ making
+ it
+ a
+ little
+ bit
+
+
+more
+ flexible,
+ a
+ little
+ bit
+ easier.
+ The
+
+
+way
+ pass
+ keys
+ are
+ designed
+ is
+ that
+ the
+
+
+sites
+ you
+ create
+ pass
+ keys
+ on,
+ they
+
+
+really
+ don't
+ have
+ they
+ don't
+ have
+ a
+ copy
+
+
+of
+ your
+ pass
+ key.
+ So,
+ if
+ there's
+ like
+ a
+
+
+data
+ breach
+ on
+ that
+ site,
+ that
+ doesn't
+
+
+affect
+ you.
+ Like
+ your
+ information
+ is
+
+
+safe.
+ This
+ is
+ part
+ of
+ why
+ Pasis
+ like
+ as
+
+
+a
+ concept
+ just
+ are
+ better
+ than
+
+
+passwords.
+ For
+ passwords
+ to
+ work,
+ you
+
+
+can
+ be
+ breached
+ on
+ the
+ site
+ where
+ you
+
+
+have
+ them.
+
+
+>> Are
+ there
+ any
+ limitations
+ or
+
+
+disadvantages
+ to
+ using
+ pass
+ keys?
+
+
+>> So,
+ right
+ now
+ the
+ biggest
+ limitation
+
+
+about
+ pass
+ keys
+ is
+ that
+ not
+ all
+ sites
+
+
+support
+ it.
+ And
+ it's
+ a
+ little
+ bit
+
+
+frustrating
+ because
+ it
+ is
+ better
+ for
+
+
+users.
+ It's
+ easier.
+ It's
+ more
+ secure.
+ In
+
+
+many
+ ways,
+ it's
+ better
+ for
+ companies
+
+
+because
+ there's
+ going
+ to
+ be
+ hopefully
+
+
+fewer
+ data
+ breaches
+ and
+ people
+ not
+ being
+
+
+able
+ to
+ log
+ in.
+ Like,
+ it
+ should
+ iron
+ out
+
+
+a
+ lot
+ of
+ those
+ problems,
+ but
+ it's
+ still
+
+
+just
+ not
+ everywhere
+ yet.
+ Right
+ now,
+ I
+
+
+would
+ sort
+ of
+ describe
+ it
+ as
+ when
+ I
+ can
+
+
+use
+ a
+ pass
+ key,
+ it's
+ like
+ a
+ pleasant
+
+
+surprise,
+ but
+ it's
+ not
+ everywhere.
+ So,
+
+
+you
+ have
+ to
+ keep
+ an
+ eye
+ out.
+ You
+ have
+ to
+
+
+go
+ looking
+ for
+ it.
+
+
+>> Should
+ we
+ expect
+ that
+ it
+ will
+ continue
+
+
+to
+ grow
+ and
+ become
+ ubiquitous?
+
+
+>> So,
+ the
+ people
+ behind
+ it
+ certainly
+ think
+
+
+so.
+ You
+ can
+ just
+ look
+ at
+ Apple,
+ Google,
+
+
+and
+ Microsoft
+ putting
+ their
+ support
+
+
+behind
+ this
+ into
+ all
+ of
+ their
+ platforms.
+
+
+They
+ certainly
+ think
+ so.
+ The
+ advantages
+
+
+are
+ there.
+ Another
+ limitation
+ of
+ pass
+
+
+keys
+ though
+ is
+ that
+ pretty
+ much
+ every
+
+
+site
+ is
+ still
+ going
+ to
+ require
+ that
+ you
+
+
+create
+ a
+ password
+ when
+ you
+ make
+ an
+
+
+account
+ there.
+ Now,
+ and
+ like
+ an
+
+
+idealized
+ pass
+ key
+ utopia,
+ you
+ don't
+
+
+even
+ do
+ that.
+ You
+ don't
+ even
+ you
+ never
+
+
+touch
+ a
+ password
+ anymore.
+ But
+ we're
+ not
+
+
+there
+ yet.
+ This
+ technology
+ is
+ still
+
+
+rolling
+ out.
+ So,
+ you're
+ still
+ going
+ to
+
+
+be
+ using
+ your
+ password
+ manager.
+ You're
+
+
+still
+ going
+ to
+ be
+ using
+ 2FA
+ on
+ these
+
+
+accounts
+ because
+ you
+ have
+ to
+ do
+ that
+ as
+
+
+part
+ of
+ the
+ creation
+ process.
+
+
+[music]
+
+
+>> So,
+ ultimately,
+ it
+ sounds
+ to
+ me
+ like
+ the
+
+
+advice
+ is
+ password
+ manager.
+ Yes.
+
+
+>> Yes.
+
+
+>> Get
+ it
+ ASAP.
+
+
+>> Use
+ it.
+
+
+>> Use
+ two-factor
+ authentication
+ 2FA
+ when
+
+
+you
+ can.
+
+
+>> As
+ often
+ as
+ you
+ can.
+
+
+>> Oh,
+ yeah.
+
+
+>> And
+ then
+ if
+ you
+ encounter
+ a
+ pass
+ key,
+
+
+try
+ it
+ out.
+
+
+>> Yeah.
+ The
+ more
+ you
+ learn
+ about
+ using
+
+
+Pasis
+ right
+ now,
+ the
+ easier
+ that
+
+
+transition
+ will
+ be.
+ There's
+ a
+ list
+ on
+
+
+the
+ Phto
+ Alliance
+ site
+ of
+ sites
+ that
+ do
+
+
+support
+ Pas
+ right
+ now.
+ If
+ you
+ want
+ to
+ go
+
+
+be
+ proactive
+ about
+ it,
+ look
+ at
+ that.
+ Go
+
+
+look
+ at
+ the
+ account
+ settings
+ for
+ the
+
+
+sites
+ that
+ are
+ most
+ important
+ to
+ you.
+
+
+And
+ the
+ next
+ time
+ you
+ see
+ a
+ little
+ nag
+
+
+pop
+ up
+ on
+ your
+ phone
+ that
+ says,
+ "Hey,
+ do
+
+
+you
+ want
+ to
+ create
+ a
+ pass
+ key
+ for
+ it?"
+
+
+Go
+ for
+ it.
+ Do
+ it.
+ [music]
+
+
+>> Max,
+ thank
+ you
+ for
+ the
+ insight.
+ Always
+
+
+appreciate
+ it.
+
+
+>> Thank
+ you
+ so
+ much.
+
+
+>> [music]
+
+
+>> If
+ you
+ want
+ to
+ learn
+ more
+ about
+ Max's
+
+
+reporting
+ on
+ data,
+ [music]
+
+
+privacy,
+ security,
+ you
+ can
+ check
+ out
+
+
+Wire
+ Cutters
+ website.
+ We
+ will
+ link
+ his
+
+
+articles
+ about
+ [music]
+ pass
+ keys
+ and
+
+
+about
+ password
+ managers
+ in
+ our
+ show
+
+
+notes.
+ As
+ ever,
+ [music]
+ we
+ so
+ appreciate
+
+
+you
+ listening.
+ Talk
+ soon.
+
+
+The
+ Wire
+ Cutter
+ Show
+ is
+ executive
+
+
+produced
+ by
+ me,
+ Rosie
+ Garin,
+ [music]
+ and
+
+
+produced
+ by
+ Abigail
+ Keel.
+ Engineering
+
+
+support
+ from
+ Mattie
+ Maziello,
+ and
+ Nick
+
+
+[music]
+ Pitman.
+ Today's
+ episode
+ was
+
+
+mixed
+ by
+ Catherine
+ Anderson.
+ Original
+
+
+music
+ [music]
+ by
+ Dan
+ Powell,
+ Marian
+
+
+Lozano,
+ Alicia
+ Etup,
+ Rowan
+ Nisto,
+
+
+[music]
+
+
+Katherine
+ Anderson,
+ and
+ Diane
+ Wong.
+
+
+Cliff
+ Levy
+ is
+ Wire
+ Cutter's
+ deputy
+
+
+publisher
+ and
+ general
+ [music]
+ manager.
+
+
+Ben
+ Fman
+ is
+ Wire
+ Cutters
+ editor
+ and
+
+
+chief.
+ And
+ I'm
+ Rosie
+ [music]
+ Garrett.
+
+
+Thank
+ you
+ for
+ listening.
+
+
+>> The
+ most
+ obvious
+ question,
+ the
+ reason
+
+
+[clears throat]
+ we
+ created
+ this,
+
+
+>> what's
+ my
+ password?
+
+
+>> Yeah.
+ What
+ is
+ your
+ password?
+ What
+ is
+
+
+your
+ master
+ password?
+ Guy
+ 59.
