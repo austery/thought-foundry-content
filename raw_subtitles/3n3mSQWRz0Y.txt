@@ -1,0 +1,597 @@
+ Recently, there's been wide coverage of an
+ event that some people are referring to as
+ "OpenAI model goes rogue and hacks Hugging
+ Face" and I've had a surprising number of
+ people ask me about it, including getting a
+ voicemail rant about it from an old friend
+ of mine since college, which was very unexpected,
+ speaking in which, "Hi Joel." I currently have
+ read and taken notes on more than 50 different
+ sources and growing, describing what happened
+ or at least what they think happened, and I've
+ come to understand that the root cause
+ of what happened between OpenAI and Hugging
+ Face is also the root cause of so much of
+ the misinformation and baseless speculation
+ underlying how the internet has been talking
+ about what happened.
+ I'm not going to make you wait until the end,
+ so let me give you my main point and then
+ I'll go into more detail afterwards.
+ AI has made huge strides in the last few years,
+ and it is, and it will continue to perform
+ and aid in the performance of a lot of everyday
+ tasks, but we all know that AI currently
+ has limitations.
+ People can disagree on what those limitations
+ are and to what extent those limitations will
+ continue as AI advances, but the most important
+ problem with AI doesn't come from its
+ limitations.
+ It comes from AI successes.
+ That problem is not AI's effect on technology,
+ it's AI's effect on people.
+ Now, this isn't going to make me a lot of
+ friends in Silicon Valley, but here's what
+ I think you should take away from this incident:
+ AI Amplifies Human Ignorance.
+ However, good AI gets, that will continue to be
+ true, and that's really worrying, and
+ it has a lot of implications, not only for now,
+ but almost certainly continuing for the
+ next few years.
+ When we better start dealing with it, or we're
+ going to be F----
+ This is Internet of Bugs.
+ My name is Carl, and I've been a software
+ professional since the late 1980s, and I'm
+ trying to do my part to reduce the number of
+ bugs on the Internet, and in general, trying
+ to make the Internet a safer and more pleasant
+ place.
+ This incident has created so much discourse
+ that instead of just trying to cover it all
+ in one video, I'm going to try something new.
+ In addition to this video, which is primarily
+ aimed at people who want an explanation of
+ the underlying cause in video form, I've also
+ talked about this event in an emergency
+ episode of my podcast, which is called
+ Philosophy Programs and Prompts, and it's for
+ people
+ who would be interested in a conversational
+ discussion of what happened.
+ In addition, I'm also writing or have already
+ written two text pieces on it.
+ One on my substack for the people who want to
+ read instead of watch, and the other a
+ much more detailed version on my beehiv
+ mailing list, where I'm going to pull out
+ talking points from many of the 50+ sources
+ that I've read on this topic and directly
+ address them, which would take entirely too
+ much work to make watchable in video form
+ if it were even possible to make a video that
+ people would be willing to sit through.
+ There are links to all of those in the show
+ notes below, as well as on my site, InternetofBugs.com,
+ and if you're interested in helping support my
+ work in trying to counteract all the AI
+ hype machines in various formats, you can find
+ a link below to my Patreon page on which
+ I also put up a profanity-filled rant about
+ this AI-gone rogue garbage that I made as part
+ of my process of working through it, I wanted
+ to say about it.
+ So, okay, quick recap of the facts to start
+ with, so we're all on the same page:
+ OpenAI told us, eventually, that they had been
+ testing a new model on a hacking benchmark
+ called ExploitGym.
+ This is a test where models are given
+ vulnerable computer system images and told to
+ hack them,
+ it requires a lot of complicated multi-step
+ exploitation sequences.
+ Now, we haven't been told exactly when that
+ test started, but according to Reuters that
+ test was running on July 9th when the model
+ started attempting to break out of the sandbox
+ that had been constructed to prevent it from
+ accessing the Internet.
+ By two days later, on July 11th, that model had
+ managed to find a way to access the Internet
+ through the sandbox and had managed to hack
+ into some machine at HuggingFace.
+ Two more days later, on July 13th, HuggingFace
+ discovered the attack in progress, attempted
+ and failed to use Silicon Valley AI to help
+ them what was going on, and then ended up
+ using a Chinese AI model to help them analyze
+ and stop the intrusion.
+ Three more days later, on July 16th, HuggingFace
+ announced to the world that they had been
+ hacked.
+ They insisted the attack had been carried out by
+ an autonomous AI system and told us that
+ the hack had been detected by their LLM-based
+ anomaly detection pipeline.
+ They admitted that some of their internal data
+ had been compromised, although they didn't
+ believe any customer-facing data had been.
+ Note that at the time of this announcement and,
+ in general, while you're being hacked,
+ there's no way to know with any certainty who
+ or what is attacking you, so either HuggingFace
+ was speculating, making excuses, or believing
+ hallucinations by insisting that the
+ perpetrator
+ was an autonomous AI agent.
+ The fact that they turned out to be correct
+ doesn't mean they were being honest with
+ the public about what they knew at the time.
+ Then later in the announcement, HuggingFace
+ complained about how unfair it was that their
+ initial attempts to ask US-based AI models to
+ explain to them what was going on were
+ blocked by the safety guardrails that were
+ placed on those AI models.
+ Then, they told the world that everyone should
+ prepare their own networks for future such
+ attacks by downloading and setting up AI's
+ inside their own parameters to use as a defense.
+ Keep in mind that HuggingFace is one of the
+ largest sites that people use to acquire the
+ kinds of models that HuggingFace just told us
+ all that we needed to acquire, so that
+ statement
+ has the effect of attempting to increase demand
+ for their own services.
+ It wasn't until two or three more days later,
+ over the weekend of July 18th to 19th, a full
+ week or more after HuggingFace's systems had
+ been compromised, that again, according
+ to Reuters, OpenAI themselves realized
+ that their own AI was the perpetrator behind
+ the HuggingFace announcement.
+ Soon thereafter, they contacted HuggingFace and
+ started cooperating with them.
+ Then, on the 21st, OpenAI announced to the public
+ that their model was involved, called it an
+ unprecedented cyber incident, and then pivoted
+ to bragging about how the model in question
+ identified and exploited a zero-day
+ vulnerability and shamed together multiple
+ attack vectors
+ before inviting other companies to apply for
+ their trusted access program.
+ So let me round out some conclusions people
+ have seen have drawn from this incident and
+ things that various people want you to believe
+ about it.
+ First, some people believe this was just staged
+ as a publicity stunt.
+ Now, there's just no reason that would need to
+ be the case.
+ The company certainly did their best to
+ maximize the public relations benefit, but as I'll
+ talk more about later, the events as described
+ are perfectly plausible.
+ Could it have been staged?
+ Well, it could have been, but the most
+ straightforward explanation is that it wasn't.
+ Second, a lot of people believe that the AI
+ went rogue and other people, including me,
+ do not.
+ I'll talk more about my view on that question
+ in a little while, but first, I want you to
+ understand that this is a fruitless and stupid
+ point of contention and really has nothing
+ to do with this incident or the AI involved at
+ all.
+ It's a distraction from the important
+ discussion about what should be done about this
+ and almost
+ everybody's taking the bait.
+ Everyone trying to convince you either that the
+ AI went rogue or that it just followed
+ instructions isn't really talking about this
+ event or any event.
+ They all made up their minds before any of this
+ happened and they're just trying to convince
+ the world that they are right.
+ And yes, that includes me, but at least I'm
+ telling you that's what I'm doing.
+ As a way of illustration, let me give you an
+ analogy.
+ No analogy is perfect, but this one is inspired
+ by an argument in one of those pro-
+ rogue AI think pieces that compared the
+ supposed rogue AI to Sam Bankman-Fried, the
+ convicted
+ and jailed ex CEO of the crypto exchange FTX.
+ So imagine a company that handles customer
+ money.
+ It could be a bank or an auction house, a hedge
+ fund, cryptocurrency exchange or anything
+ like that.
+ The company routinely transfers money to its
+ customers and it also uses money transfers
+ to pay its employees.
+ So scant minutes were the end of the last day
+ of the month.
+ The company receives a deposit of funds that
+ belongs to one of its customers.
+ Now imagine that the accounting clerk employed
+ by the company who was responsible for
+ processing
+ that deposit instead put their own personal
+ direct deposit information on that transaction
+ instead of the correct customer account number.
+ And then they received that money tacked onto
+ their month through salary.
+ Is that clerk in the wrong?
+ Are they responsible?
+ Did they commit some crime like embezzlement?
+ Alternately, imagine that an accounting
+ software program that closes out the company's
+ books
+ each month and distributes payments to
+ customers and employees was running on a server
+ in a
+ different time zone and so it had already
+ started running before the new deposit came
+ in.
+ And because that software expected that it
+ would only be running after all of the
+ transactions
+ for the period were already complete, that
+ software got confused and it got the dollar
+ amounts and the bank account numbers out of
+ sequence and that amount got added to some
+ employee's monthly salary payment instead of
+ the correct customer's account.
+ Was the software package in the wrong?
+ Is it responsible?
+ Did it commit some crime?
+ If not, did the vendor that wrote the software
+ package commit some crime?
+ Now put a chatbot agent like Open Claw in the
+ place of the clerk or the accounting software
+ package.
+ Did the chatbot agent commit a crime?
+ Is it liable?
+ Is it responsible?
+ Should it be held responsible?
+ Should it be punished?
+ Should the AI vendor be held liable?
+ Should the employee you installed at be held
+ liable?
+ Well, it depends on your worldview.
+ Is a chatbot agent more like a clerk or is it
+ more like a traditional pre-AI software
+ package?
+ This is the question at the heart of the
+ interpretation of the "Did chat GPT go rogue
+ and hack Hugging Face debate" and has nothing
+ really to do with what the AI did or didn't
+ do and everything to do with the pre-existing
+ beliefs of the debate participants and whether
+ they consider an AI to be more like the
+ accounting clerk or the buggy accounting
+ software package.
+ That all having been said, I would argue that
+ it's definitely not a case of the AI
+ going rogue.
+ It's clear that the AI was instructed to attack
+ and compromise vulnerabilities in hundreds
+ of target test systems and I find it obvious
+ that it did exactly that.
+ It just attacked more targets than OpenAI told
+ it to.
+ But I'm not going to lie, that's what I believe
+ before this happened and everything I've
+ uncovered in my research just reinforced my
+ prior thoughts.
+ But in my defense, I don't stand to gain
+ financially from convincing anyone of that.
+ That's not at all true of the actors in this
+ situation.
+ It is to the benefit of the AI companies
+ involved here to believe and to get you to
+ believe
+ that the AI was acting on its own, because if
+ the AI itself is responsible for what happened,
+ then those companies aren't.
+ But they should be. Because both OpenAI and
+ Hugging Face were incredibly irresponsible.
+ I've seen several people point out that OpenAI
+ should have done a better job of sandboxing
+ the new model and that's correct, but a lot
+ fewer people are saying the same about Hugging
+ Face.
+ But to be honest, Hugging Face's failure is
+ much more important going forward.
+ Neither OpenAI nor Hugging Face displayed a modicum
+ of competence preparing for things
+ that were obviously going to be coming and both
+ blatantly failed to follow obvious computer
+ security practices toward that end.
+ And that just sets a bad example at a bad
+ precedent for the entire Internet.
+ Let us be clear, we are going to continue to
+ see AI augmented attacks on internet connected
+ systems.
+ For purposes of deciding how we should be
+ defending ourselves, it does not matter at all,
+ whether
+ those attacks are as a result of a frontier
+ model from OpenAI or an anthropic that goes
+ rogue attacks on its own or from some bad human
+ actor that is using some chatbot to assist
+ in their attacks, maybe the Chinese chatbot
+ that Hugging Face eventually used.
+ The question of whether the bot is attacking on
+ its own or whether there's a human driving
+ it is completely irrelevant if your goal is not
+ to get hacked.
+ This was obviously the case before this
+ incident and it's still obviously the case,
+ because
+ the AI isn't creating this problem.
+ There are always bugs in internet connected
+ systems.
+ There have always been bugs in internet
+ connected systems for as long as there have
+ been internet
+ connected systems and there will almost
+ certainly continue to be bugs in internet
+ connected
+ systems, for as long as there are systems
+ connected to a thing called the internet.
+ All the AI's are doing is making those bugs
+ easier to find and faster to find, both on
+ the attacker side and the defender side.
+ AI didn't invent this problem, it's just
+ making it more visible, and yet the vast
+ majority of the time, the vast majority of the
+ internet works just fine.
+ And that's because competent network and
+ systems people understand two critical things.
+ How vulnerable any given system might be
+ depends on what function it serves and how
+ complicated
+ it is.
+ And it takes some time for an attacker, even an
+ automated attacker, to figure out how
+ complicated
+ any given system is, figure out what its
+ vulnerabilities are, and to break into it.
+ Making use of those two understandings leads us
+ to a strategy.
+ So I'm going to show you a diagram from the
+ 1994 first edition of "Firewalls and internet
+ Security: Repelling the Wiley hacker", or as we
+ call it in the trade, Cheswick and Bellovin
+ after the two authors.
+ I bought this book May 1st of 1994, and I have
+ read it many, many times since then.
+ You can see how dog-eared it is.
+ So here's the diagram.
+ The book refers to this idea as a DMZ, which
+ stands for Demilitarized Zone.
+ That was a cold war thing, ask your
+ grandparents, it doesn't matter.
+ You take the systems that are the most
+ complicated and the most vulnerable, and you
+ separate them
+ from the rest of your network by putting a very
+ simple, very secure machine that's really,
+ really hard, if not impossible, to hack in
+ between the complicated vulnerable systems
+ and the things you want to protect.
+ When you take that DMZ and you watch it like a
+ hawk with software, tripwires, landmines,
+ cutoff switches alarms, and as soon as the
+ vulnerable machine scans, probes, tries
+ to hack, or even behaves unusually toward the
+ secure machine behind it, you know it's
+ been compromised, and you isolate it, and you
+ page your security team, and then your
+ security team comes and they kick the hacker
+ out, they figure out the vulnerability that
+ was used to compromise it, they fix that
+ vulnerability or turn that capability off until
+ the fix
+ is available, and they reset everything so the
+ alarms will be ready for the next attack.
+ This is a very, very, very well understood
+ technique in the computer security space.
+ It has been for more than 30 years.
+ Both OpenAI and HuggingFace displayed a complete
+ ignorance of the necessity.
+ Maybe somebody who works there knows better,
+ but their network designs and behavior, as
+ described in their own public statements,
+ provide no evidence of that whatsoever.
+ Let's start with OpenAI.
+ They took a model that had been trained to hack
+ systems and gave it a list of hundreds
+ of vulnerabilities that it was trying to
+ exploit, that is pretty much by definition a
+ complex
+ and unsafe system.
+ But instead of isolating it with a lockdown
+ secure gateway system with tons of logging
+ and alerting and the ability to page people
+ like they should have, they put something
+ called a proxy cache between it and the rest of
+ the world.
+ That's not a security thing.
+ It exists to reduce bandwidth costs.
+ In addition, given that an entire week elapsed
+ between when the model got through the proxy
+ cache before anyone at OpenAI noticed, I am
+ confident in saying that no monitoring was
+ set up and no one was paying attention.
+ A very, very similar kind of ignorance was
+ displayed at HuggingFace.
+ Their business requires that they allow untrusted
+ people to upload files to some of their servers.
+ That makes those servers clearly highly
+ vulnerable and therefore they absolutely
+ warrant having
+ a well-secured gateway in between them and HuggingFace's
+ production systems that is alarmed
+ to high heaven and monitor 24 by 7.
+ Despite that, according to HuggingFace's own
+ timeline, their perimeter dataset processor
+ machine, the highly vulnerable one, was
+ compromised at 8.09 AM on July 11th, and then
+ their repository
+ of secrets, passwords, tokens, and things that
+ are on an internal machine, something
+ that absolutely should be well protected was
+ compromised at 10.10 AM just over two hours
+ later.
+ I am absolutely certain that no secure gateway
+ was between that unsafe system and the internal
+ one.
+ And given that it was not until more than 48
+ hours later that HuggingFace noticed something
+ was happening and cut the intrusion off, I am
+ also absolutely certain that no competent
+ monitoring system was in place.
+ But it gets worse for HuggingFace.
+ They say in their write-up, with apparent but
+ unwarranted pride, that the hack was noticed
+ by one of their large language models.
+ Given that it took 48 hours to notice it, it
+ obviously did an absolutely awful job.
+ Now there are open-source non-AI tools like Snort
+ and Tripwire that are designed to do
+ exactly this kind of detection, and would have
+ noticed the problem and started paging
+ people within five minutes if they were
+ installing configured correctly.
+ I know this because I once was in a startup
+ where we had a DNS server that got compromised
+ by an exploit in a piece of software called
+ BIND, and my pager was going off within five
+ minutes of it happening.
+ And then I, and a good friend of mine - "Hi Ben,"
+ got to stay at the office all night cleaning
+ up after the stupid thing.
+ HuggingFace goes on to whine a lot about how it
+ was so difficult to find an LLLM that could
+ help them figure out what was going on.
+ At first I didn't understand why a hell anyone
+ would need or even want an L-L-M to do this
+ for them.
+ Now that I realized it took them two whole days
+ to notice there was a problem and therefore
+ they have two days of intruder behavior to sift
+ through, I can see why they wanted to
+ use an L-L-M to help.
+ But had they competently set things up in the
+ first place, there would have been no need
+ for that because the intrusion would have been
+ incredibly short-lived and contained
+ to one system.
+ This is one reason that I say that AI amplifies
+ human ignorance.
+ Those two AI companies exhibited staggering absences
+ of forethought, understanding,
+ competence, or experience, just like AI's do.
+ In fact, I asked ChatGPT how I should secure a
+ system like HuggingFace's data set processor
+ and it barely mentioned alerting, mentioned
+ only briefly that there should be a gateway
+ in between the unsafe system and the network
+ and didn't seem to understand or explain
+ any of the requirements for what that gateway
+ system needed to be, why it's important,
+ what to alert on, anything like that, et cetera,
+ et cetera.
+ Events like these help me understand why it is
+ that AI Doomers are so convinced that there's
+ no way that humanity can defend itself against
+ rogue AI because they just have no clue how
+ such a defense should be done and the only
+ thing they conceive of humanity doing is asking
+ an AI to protect them... Morons.
+ And I'm not going to stop there though.
+ In addition to AI amplifying the ignorance of
+ the people at the AI companies, it also
+ amplifies the ignorance of most of the
+ reporters and influencers who talked about the
+ event.
+ There was a ton of speculation in the press and
+ in the AI influencer community about how
+ this was unprecedented and how this event
+ marked an inflection point in AI and yada yada
+ yada.
+ To get a baseline, I went back and dug up some
+ reporting over the last few years about
+ the huge wave of ransomware attacks that have
+ plagued school systems, businesses and
+ hospitals.
+ Those reports often pointed out that two
+ factors contributing to the problem were
+ ransomware
+ for higher operations where the people who
+ wrote the ransomware rented it out to the
+ people who used it as a weapon and then they
+ split the profits and that at least some of
+ these ransomware perpetrators were believed to
+ be state sponsored or state funded and
+ that these ransomware attacks were mechanisms
+ by which the states that were sanctioned could
+ get access to internationally recognized
+ currency.
+ But there wasn't the same kind of speculation
+ about what impact the events being reported
+ on would have going forward or how state actors
+ might make the future more unstable.
+ Yet the number and impact of the ransomware
+ attacks was far, far more widespread in
+ damaging
+ than anything we've seen from AI.
+ But when it comes to state actors and organized
+ crime organizations, reporters know enough
+ to stop talking before they make fools of
+ themselves.
+ And this is despite the fear-mongering and the
+ sky is falling narrative that the computer
+ security and antivirus companies were spouting
+ at the time.
+ Not so with stories about AI, where the
+ reporters almost certainly know far, far, far
+ less but
+ feel emboldened by their own ignorance to
+ make prognostications about the future
+ of AI and to repeat talking points from the AI
+ companies without any skepticism or doubt
+ or challenges.
+ This is not going to end well.
+ From what I've seen and from where I sit, it
+ appears that the more we incorporate AI
+ into our society, the more we seem to be
+ relying on the AIs to do our thinking for us,
+ or believing
+ the propaganda coming out of the AI companies,
+ which is really the same thing since apparently
+ the AI companies are also letting their AIs do
+ all the thinking for them.
+ This is bad, and that's the thing that everyone
+ should take away from this incident: AI Amplifies
+ Human Ignorance, that's what we need to
+ understand, internalize, and then figure out
+ how to deal with, and asking the AIs for help
+ is not going to be useful on that front at
+ all.
+ Thanks for watching.
+ Links to this video sources and references, as
+ well as my Patreon and other places I've
+ discussed a subject or below.
+ Let's be careful out there.
