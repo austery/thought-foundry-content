@@ -1,0 +1,543 @@
+[Speaker 0]: 大家好，
+[Speaker 0]: 我是 darn，
+[Speaker 1]: 欢迎回到我的频道。
+[Speaker 0]: 本周是进入八月份后的第一个交易周，
+[Speaker 0]: 经历了动荡的七月份后，
+[Speaker 0]: 美股终于迎来明显反弹。
+[Speaker 0]: 本周标普五百上涨超过百分之三，
+[Speaker 0]:  QQQ 上涨超过百分之五。
+[Speaker 0]: 此前在七月份遭遇全面回调的半导体板块，
+[Speaker 0]: 也成为本周反弹最强的方向之一。
+[Speaker 0]: 英伟达上涨百分之十二，
+[Speaker 0]: 博通上涨百分之十三，
+[Speaker 0]: 美光上涨百分之十一，
+[Speaker 0]: 追踪半导体板块的 socks 本周更是上涨了百分之十。
+[Speaker 0]: 但就在整个半导体板块集体反弹的时候，
+[Speaker 0]: 有一家 AI 硬件公司却坐了一次过山车，
+[Speaker 0]: 股价冲高之后又迅速回落，
+[Speaker 0]: 一周下来几乎原地踏步。
+[Speaker 0]: 它就是本期视频的主角，
+[Speaker 0]: 一家来自加拿大多伦多的公司 selestic 股票代码 CLS。
+[Speaker 0]: 七月二十七日，
+[Speaker 0]:  CLS 公布了一份非常强劲的财报，
+[Speaker 0]: 股价随后上涨接近百分之十。
+[Speaker 0]: 但就在本周四，
+[Speaker 0]: 公司突然宣布进行三十亿美元的股票增发，
+[Speaker 0]: 股价又从三百七十美元附近迅速跌回三百美元出头。
+[Speaker 0]: 我在重新分析财报、
+[Speaker 0]: 增发影响以及未来盈利预期之后，
+[Speaker 0]: 最终选择在三百一十美元附近建立了第一笔仓位。
+[Speaker 0]: 所以本期视频我会带大家完整拆解 CLS 的基本面，
+[Speaker 0]: 看看它到底是一家什么样的公司。
+[Speaker 0]: 这次财报为什么能够获得市场认可三十亿美元的股权融资，
+[Speaker 0]: 会对未来 EPS 造成多大的稀释，
+[Speaker 0]: 以及目前三百一十美元附近到底是不是一个值得考虑的入场位置。
+[Speaker 0]: 如果前段时间英伟达、
+[Speaker 0]: 博通、
+[Speaker 0]: 美光这些半导体公司上涨的时候，
+[Speaker 0]: 你没有找到合适的机会。
+[Speaker 0]: 那么最近因为增发重新跌回来的 CRS，
+[Speaker 0]: 会不会是 AI 硬件板块里又一次倒车接人的机会，
+[Speaker 0]: 接下来我们就来详细分析。
+[Speaker 1]: 嗯，
+[Speaker 1]: 没有，
+[Speaker 0]: 最近我对会员体系做了优化，
+[Speaker 0]: 现在分三档实战家可加入 disco 的群，
+[Speaker 0]: 与数百位投资者实时交流，
+[Speaker 0]: 还可以收到我在会员频道分享的每股实时操作研究官。
+[Speaker 0]: 在此基础上，
+[Speaker 0]: 增加阿尔 a pix 个股推荐，
+[Speaker 0]: 以及我亲自整理的个股或 ETF 深度分析文章，
+[Speaker 0]: 包括目标、
+[Speaker 0]: 价格以及加仓点位分享。
+[Speaker 0]: 掌舵者则提供专属一对一服务。
+[Speaker 0]: 我们可以通过直接的对话，
+[Speaker 0]: 让我了解你的投资需求，
+[Speaker 0]: 解答你的问题，
+[Speaker 0]: 并且帮助你更好的搭配投资组合。
+[Speaker 0]: 为了保证一对一服务的质量，
+[Speaker 0]: 我最多接收四位掌舵者会员，
+[Speaker 0]: 目前只差一个名额。
+[Speaker 0]: 有兴趣的朋友可以直接联系我，
+[Speaker 0]: 了解详情。
+[Speaker 0]: 广告就到这里，
+[Speaker 0]: 我们马上开始今天的内容。
+[Speaker 0]: 先说一下 CLS 到底是做什么的。
+[Speaker 0]: 它不设计 GPU，
+[Speaker 0]: 也不经营云计算平台。
+[Speaker 0]: 它做的事情可以简单理解成，
+[Speaker 0]: 把别人设计出来的芯片真正变成一套可以放进 AI 数据中心，
+[Speaker 0]: 通电之后能够正常运行的大型硬件系统。
+[Speaker 0]: 比如说当微软、
+[Speaker 0]: 谷歌、
+[Speaker 0]:  mata 这些大科技公司决定建设 AI 数据中心的时候，
+[Speaker 0]: 他需要的远远不止是几万颗 GPU，
+[Speaker 0]: 还需要服务器、
+[Speaker 0]: 交换机存储、
+[Speaker 0]: 高速连接电力和散热系统。
+[Speaker 0]: 更需要有人把成千上万颗芯片装进一个个机柜里面，
+[Speaker 0]: 并且设计好 GPU 之间如何连接交换机放在哪里？
+[Speaker 0]: 电力和散热怎么布局？
+[Speaker 0]: 最后还要做到可以大规模生产后期维护，
+[Speaker 0]: 并且把同样的架构复制到全球不同的数据中心。
+[Speaker 0]:  CRS 做的就是这一层。
+[Speaker 0]: 公司目前主要有两个板块，
+[Speaker 0]: 一个是 ATS 覆盖航空、
+[Speaker 0]: 国防、
+[Speaker 0]: 医疗、
+[Speaker 0]: 工业和半导体设备等传统业务。
+[Speaker 0]: 最新季度收入增长只有百分之八，
+[Speaker 0]: 另一个才是真正的增长引擎。
+[Speaker 0]:  CCS，
+[Speaker 0]: 也就是 connectivity and clousolutions。
+[Speaker 0]: 最新季度的收入达到三十八亿美元，
+[Speaker 0]: 占公司总收入百分之八十一，
+[Speaker 0]: 同比增长百分之八十四。
+[Speaker 0]: 所以，
+[Speaker 0]: 现在 CLS 已经非常明显，
+[Speaker 0]: 不是一只传统制造业股票，
+[Speaker 0]: 而是传统业务负责提供稳定基本盘 AI 数据中心相关业务负责提供高速增增长。
+[Speaker 0]: 理解 CLS 最重要的一个关键词是 HPS，
+[Speaker 0]: 也就是 hardware platform solutions。
+[Speaker 0]: 它是 CCS 里面最核心的高价值业务，
+[Speaker 0]: 也是今天的 CLS 和过去传统的代工厂最大的区别。
+[Speaker 0]: 传统代工厂的模式很简单，
+[Speaker 0]: 客户把完整图纸交给你，
+[Speaker 0]: 你按照图纸采购、
+[Speaker 0]: 组装和生产，
+[Speaker 0]: 然后赚几个点的制造利润。
+[Speaker 0]: 这种业务利润率很低，
+[Speaker 0]: 而且很容易被替换掉，
+[Speaker 0]: 没有足够的护城河。
+[Speaker 0]: 但是 HPS 不一样，
+[Speaker 0]:  CLS 会直接参与客户的产品架构设计、
+[Speaker 0]: 工程开发，
+[Speaker 0]: 然后负责制造和供应整个硬件平计。
+[Speaker 0]: 也就是说客户给 RS 的不再是一张已经设计好的图纸，
+[Speaker 0]: 而是一个需求。
+[Speaker 0]:  CRS 会和客户一起把产品设计出来。
+[Speaker 0]: 一旦进入这一层，
+[Speaker 0]: 公司，
+[Speaker 0]: 就从一个随时可以被替换的组装商变成了客户的设计合作伙伴。
+[Speaker 0]: 你换掉一个普通代工厂很容易。
+[Speaker 0]: 但是，
+[Speaker 0]: 如果一家供应商已经和你一起把整个交换机机柜和网络架构设计出来，
+[Speaker 0]: 再更换供应商，
+[Speaker 0]: 很多工程验证都要重新开始。
+[Speaker 0]: 这也是为什么 CRS 的护城河并不一定体现在某向专利，
+[Speaker 0]: 而是体现在工程能力、
+[Speaker 0]: 供应链能力以及越来越高的客户切换成本上。
+[Speaker 0]: 我们从利润率也能看到这个变化。
+[Speaker 0]:  CLS 调整后，
+[Speaker 0]: 经营利润率从二零一九年的百分之二点五提高到了今天百分之八以上，
+[Speaker 0]: 最新全年指引已经达到百分之八点四，
+[Speaker 0]: 调整后资本收益率更是达到百分之五十五。
+[Speaker 0]: 所以，
+[Speaker 0]: 过去几年，
+[Speaker 0]:  CRS 股价上涨并不只是 AI 概念，
+[Speaker 0]: 把估值炒高，
+[Speaker 0]: 而是公司的业务性质真的发生了变化。
+[Speaker 0]: 有没有供应链方面，
+[Speaker 0]: 公司最新季度的前三大客户贡献了百分之六十三的收入，
+[Speaker 0]: 前十大客户达到百分之八十三，
+[Speaker 0]: 客户集中度非常高，
+[Speaker 0]: 这当然是一项风险。
+[Speaker 0]: 但反过来也说明它已经深度进入全球大型科技公司的核心硬件体系。
+[Speaker 0]: 目前，
+[Speaker 0]: 公开信息可以确认，
+[Speaker 0]:  CLS 参与谷歌的 TPU 项目，
+[Speaker 0]: 也参与 AMD helis 机柜机 AI 平台负责，
+[Speaker 0]: 其中 skill up 交换机的设计和制造，
+[Speaker 0]: 同时也参与博通相关的定制 AI 项目，
+[Speaker 0]: 为大型客户提供板卡机柜和系统集成。
+[Speaker 0]:  meta 同样是它的重要客户之一，
+[Speaker 0]: 我尤其看重 AMD helis 这条线过为过去。
+[Speaker 0]:  AI 网络主要分成两个层次，
+[Speaker 0]: 机柜之间的 scale out，
+[Speaker 0]: 网络竞争已经比较充分，
+[Speaker 0]: 但机柜内部 GPU 和 GPU 之间高速通信的 scale up 网络过去基本属于英伟达自己的地盘。
+[Speaker 0]:  AMD 推出 helius 之后，
+[Speaker 0]: 开始尝试建立完整的机柜级 AI 系统。
+[Speaker 0]: 而 CLS 的交换机第一次有机会进入 scale up 这一层，
+[Speaker 0]: 这不只是增加一个 AMD 客户这么简单，
+[Speaker 0]: 而是 CLS 第一次进入技术要求更高、
+[Speaker 0]: 利润率也更高的一块新市场。
+[Speaker 0]: 另外一个重要趋势是，
+[Speaker 0]: 八百 g 向一点六 t 升级 CLS 的 DS 六零零 t 平台可以支持六十四个一点六 t 端口带宽，
+[Speaker 0]: 达到上一代八百 g 产品的两倍。
+[Speaker 0]: 管理层已经表示，
+[Speaker 0]: 两家大科技客户的一点六 t 项目会在今年下半年开始放量。
+[Speaker 0]: 所以，
+[Speaker 0]: 如果让我用一句话概括 CLS 现在的投资逻辑就是 AI 投资正在从单纯买 GPU 进入建设完整 AI 工厂的阶段。
+[Speaker 0]: 而 CLS 正在从低利润率代工厂升级成 AI 服务器交换机和机柜系统的重要设计制造平台。
+[Speaker 0]: 接下来我们来看七月二十七日的最新财报，
+[Speaker 0]: 我认为这是一份几乎挑不出毛病的报告。
+[Speaker 0]: 而且这是 CLS 连续第四个季度实际 EPS 超过自己指引区间的上沿，
+[Speaker 0]: 也是今年第三次提高全年指引。
+[Speaker 0]: 第二季度收入达到四十七亿美元，
+[Speaker 0]: 同比增长百分之六十二，
+[Speaker 0]: 市场预期只有四十四亿美元。
+[Speaker 0]: 一次性超出三亿多美元调整后，
+[Speaker 0]:  EPS 达到二点五四美元，
+[Speaker 0]: 市场预期二点三亿美元，
+[Speaker 0]: 超预期幅度大约百分之十，
+[Speaker 0]: 同比增长百分之八十三。
+[Speaker 0]: 调整后经营利润率达到百分之八点二，
+[Speaker 0]: 创公司历史新高。
+[Speaker 0]: 调整后，
+[Speaker 0]: 投资收益率达到百分之五十五。
+[Speaker 0]: 如果拆分业务来看，
+[Speaker 0]: 增长几乎全部来自 CCSCCS，
+[Speaker 0]: 收入三十八亿美元，
+[Speaker 0]: 同比增长百分之八十四。
+[Speaker 0]: 板块利润三点三亿美元，
+[Speaker 0]: 同比增长百分之九。
+[Speaker 0]: 五十三利润率从去年同期的百分之八三继续提高到到百分之点七，
+[Speaker 0]: 其中 enterprise 业务更是同比增长百分之一百六十七，
+[Speaker 0]: 收入达到十一点六亿美元。
+[Speaker 0]: 相比之下，
+[Speaker 0]:  ATS 收入只增长百分之八。
+[Speaker 0]: 所以现在 CLS 一家公司里面，
+[Speaker 0]: 实际上存在两种完全不同的增长速度。
+[Speaker 0]: 传统业务稳定增长，
+[Speaker 0]:  AI 相关业务高速扩张，
+[Speaker 0]: 现金流同样没有明显问题。
+[Speaker 0]: 第二季度经营性现金流四点一亿美元，
+[Speaker 0]: 自由现金流一点五亿美元，
+[Speaker 0]: 同比增长百分之二十。
+[Speaker 0]: 三季度末，
+[Speaker 0]: 净负债只有大约二亿美元，
+[Speaker 0]: 可用流动性约二十三亿美元。
+[Speaker 0]: 但真正让市场在财报后兴奋的其实不是当前季度，
+[Speaker 0]: 而是管理层给出的最新指引。
+[Speaker 0]: 下个季度的收入指引五十二点五亿到五十五点五亿美元，
+[Speaker 0]: 终值五十四亿美元。
+[Speaker 0]: 而市场原来只预期五十亿美元，
+[Speaker 0]: 调整后，
+[Speaker 0]:  EPS 指引二点八八到三点零八美元，
+[Speaker 0]: 终值二点九八美元。
+[Speaker 0]: 市场预期只有二点六九美元，
+[Speaker 0]: 全年收入指引从一百九十亿美元直接上调到两百零五亿美元，
+[Speaker 0]: 而市场预期大约一百百九十二亿美元。
+[Speaker 0]: 全年调整后，
+[Speaker 0]:  EPS 则从十点一五美元提高到十一点三零美元，
+[Speaker 0]: 而市场当时只预期十点三零美元。
+[Speaker 0]: 调整后，
+[Speaker 0]: 经营利润率从百分之八点一提高到百分之八点四，
+[Speaker 0]: 自由现金流指引也从五亿美元提高到六亿美元。
+[Speaker 0]: 更夸张的是，
+[Speaker 0]: 今年年初公司给出的二零二六年 EPS 指引只有八点七五美元，
+[Speaker 0]: 半年时间已经提高到十一点三零美元。
+[Speaker 0]: 也就是说，
+[Speaker 0]:  EPS 指引半年上调了接近百分之二十九，
+[Speaker 0]: 管理层认为上调主要来自三方面。
+[Speaker 0]: 上半年执行强劲，
+[Speaker 0]: 下半年客户需求继续提高，
+[Speaker 0]: 以及元器件供应改善。
+[Speaker 0]: 最后这一点非常值得注意。
+[Speaker 0]: 因为这说明目前限制 CRS 增长的一个重要因素，
+[Speaker 0]: 不是没有订单，
+[Speaker 0]: 而是元器件能不能及时供应。
+[Speaker 0]: 更重要的是，
+[Speaker 0]: 管理层已经开始谈二零二七年了。
+[Speaker 0]: 公司 CEO rob milonis 表示，
+[Speaker 0]: 二零二七年的收入增速有望超过二零二六年大约约百分之六十五的增长水平，
+[Speaker 0]: 而且 EPS 增速还会快于收入增速，
+[Speaker 0]: 因为经营利润率预计继续提升，
+[Speaker 0]: 所以在财报之后，
+[Speaker 0]: 市场开始重新上修 CRS 未来两年的盈利预期，
+[Speaker 0]: 这也是在财报后可以上涨百分之十的原因。
+[Speaker 0]: 值得一提的是，
+[Speaker 0]: 当时是七月二十八日，
+[Speaker 0]: 整个半导体板块的情绪在当天几乎降到冰点，
+[Speaker 0]: 英伟达跌到接近一百九十美元，
+[Speaker 0]: 每光跌破八百美元，
+[Speaker 0]: 克斯也在那天来到了阶段性底部。
+[Speaker 0]: 在这种背景下，
+[Speaker 0]:  CLS 逆势上涨百分之十是半导体板块当天唯一上涨的公司，
+[Speaker 0]: 更加显示出他们财报结果的优秀。
+[Speaker 0]: 但是刚刚过了几个交易日，
+[Speaker 0]: 故事突然发生变化。
+[Speaker 0]: 本周四 CLS 宣布以每股三百一十美元发行，
+[Speaker 0]: 大约九百六十八万股，
+[Speaker 0]: 融资三十亿美元。
+[Speaker 0]: 另外，
+[Speaker 0]: 承销商还可以额外认购最多百分之十五的股份。
+[Speaker 0]:  girl 资金主要用于营运资金、
+[Speaker 0]: 资本开支以及一般公司用途。
+[Speaker 0]: 消息公布之后，
+[Speaker 0]:  CLS 从八月五日收盘的三百六十三美元快速跌到三百一十美元附近，
+[Speaker 0]: 一度跌幅接近百分之十五。
+[Speaker 0]: 市场不喜欢股权增发，
+[Speaker 0]: 其实非常容易理解。
+[Speaker 0]: 一家公司刚刚公布百分之五十五的资本收益率，
+[Speaker 0]: 上半年经营性现金流已经达到七亿多美元，
+[Speaker 0]: 而且本身负债并不高。
+[Speaker 0]: 现在突然告诉股东，
+[Speaker 0]: 我要通过发行股票融资三十亿美元股权。
+[Speaker 0]: 融资本身就是公司成本最高的一种融资方式，
+[Speaker 0]: 而且现有股东会立刻被稀释。
+[Speaker 0]: 管理层的解释是希望维持非常健康低杠杆的资产负债表。
+[Speaker 0]: 同时公司对未来几年的需求拥有很强的可见度，
+[Speaker 0]: 因此准备提前扩充产能。
+[Speaker 0]: 这个逻辑我可以理解，
+[Speaker 0]: 因为 CRS 预计二零二六年资本开支大约十亿美元，
+[Speaker 0]: 二零二七年还要达到十五亿美元。
+[Speaker 0]: 滚 AI 硬件的订单增长速度太快，
+[Speaker 0]: 公司确实需要提前建设产能，
+[Speaker 0]: 但问题在于，
+[Speaker 0]: 产能带来的回报需要未来几年慢慢兑现，
+[Speaker 0]: 而股本增加是今天立刻发生的。
+[Speaker 0]: 所以我们就要计算出这次股权稀释对 CRS 的 EPS 会产生什么影响？
+[Speaker 0]: 股价下跌百分之十五，
+[Speaker 0]: 是市场的过度反应，
+[Speaker 0]: 还是公司价值真的被稀释了百分之十五甚至更多？
+[Speaker 0]: 有没有根据 seeking offer 平台上股权稀释前的最后数据？
+[Speaker 0]: 十九位分析师给出的二零二七年调整后，
+[Speaker 0]:  EPS 一致，
+[Speaker 0]: 预期大约是十九点七八美元，
+[Speaker 0]: 对应稀释前的股本大约一点一六亿股。
+[Speaker 0]: 这次发行九百六十八万股，
+[Speaker 0]: 如果再考虑百分之十五的额外配售，
+[Speaker 0]: 全额行权之后，
+[Speaker 0]: 新增股本大约一千一百一十三万股，
+[Speaker 0]: 总股本会提高到大约一点二七一亿股，
+[Speaker 0]: 相当于每股收益被稀释百分之八点七六，
+[Speaker 0]: 所以十九点七八美元不能直接使用。
+[Speaker 0]: 而要稀释百分之八点七六，
+[Speaker 0]: 也就是乘以零点九一二四以后，
+[Speaker 0]: 真正可用的二零二七年 EPS 大约是十八点零五美元。
+[Speaker 0]: 同样的道理，
+[Speaker 0]: 目前华尔街分析师对 CRS 的平均目标价格四百七十七美元，
+[Speaker 0]: 这个数字大概率也还是建立在稀释前 EPS 上。
+[Speaker 0]: 如果简单按照相同幅度折算，
+[Speaker 0]: 稀十后的平均目标价大概只有四百三十五美元左右。
+[Speaker 0]: 值得一提的是，
+[Speaker 0]: 这次股权稀释对 EPS 的实际影响是减少不到百分之九，
+[Speaker 0]: 但股价却下跌了百分之十五。
+[Speaker 0]: 给我的第一感觉就是市场反应严重过度了。
+[Speaker 0]: 那么 CLS 的合理价位在哪呢？
+[Speaker 0]: 接下来我们就继续计算三场景目标价格有没有在 EPS 方面，
+[Speaker 0]: 我们就使用股权稀释后的二零二七财年真实 EPS 十八点零五美元 CLS。
+[Speaker 0]: 最近八个季度的 EPS 超预期幅度的平均值大约百分之七点九六，
+[Speaker 0]: 而且分布比较稳定，
+[Speaker 0]: 没有明显异常值。
+[Speaker 0]: 另外还要多说一句，
+[Speaker 0]: 我在评价一家公司基本面的时候，
+[Speaker 0]: 管理层的执行能力是我参考的重要标准之一。
+[Speaker 0]: 比如 sofa、
+[Speaker 0]:  z ea、
+[Speaker 0]:  palenteer，
+[Speaker 0]: 这些我比较看好的中等市值成长港股，
+[Speaker 0]: 他们每次财报几乎都可以稳稳的超越市场预期，
+[Speaker 0]: 显示出管理层具有极强的执行能力，
+[Speaker 0]:  CRS 也不例外。
+[Speaker 0]: 在我查到的记录当中，
+[Speaker 0]:  CRS 从二零二二年开始连续十六个季度财报超越市场，
+[Speaker 0]: 预期表现非常稳健。
+[Speaker 0]: 悲观情景下，
+[Speaker 0]: 我直接使用稀释后的市场一致预期十八点零五美元。
+[Speaker 0]: 中性情景只加入历史，
+[Speaker 0]: 平均超预期幅度的一半，
+[Speaker 0]: 对应 EPS 大约十八点七七美元。
+[Speaker 0]: 乐观情景加入完整的历史平均超预期对应十九点四九美元。
+[Speaker 0]: 估值方面，
+[Speaker 0]: 我会给出三场景分别对应的十六倍、
+[Speaker 0]: 二十三倍和三十倍估值。
+[Speaker 0]: 自从二零二四年以来，
+[Speaker 0]:  CLS 的估值倍数受到 AI 浪潮的带动，
+[Speaker 0]: 开始了明显的增长，
+[Speaker 0]: 悲观场景的十六倍。
+[Speaker 0]:  PE 是 CLS，
+[Speaker 0]: 在 AI 浪潮开始后，
+[Speaker 0]:  PE 的最低点只在二零二四年下半年短暂出现过之后，
+[Speaker 0]: 估值就再也没有回到这个位置。
+[Speaker 0]: 中性场景下只给二十三倍的 PE，
+[Speaker 0]: 其实也是非常保守的。
+[Speaker 0]: 假设已经把股权稀释带来的影响，
+[Speaker 0]: 以及市场对 AI 半导体板块的短期疲软情绪都考虑在在内了。
+[Speaker 0]: 市场预计，
+[Speaker 0]:  CLS 今后三到五年的 EPS 增长平均值在百分之五十五左右。
+[Speaker 0]: 这种情况下，
+[Speaker 0]: 在市场情绪高涨的时候，
+[Speaker 0]:  PE 倍数跑到三十甚至五十以上，
+[Speaker 0]: 都是很可能出现的情况。
+[Speaker 0]: 而我们的估值框架，
+[Speaker 0]: 即使对于乐观场景，
+[Speaker 0]: 也只给出了三十倍的 PE 估值。
+[Speaker 0]: 这样计算下来，
+[Speaker 0]: 三场景的目标价格分别是悲观的两百八十九美元，
+[Speaker 0]: 中性的四百三十二美元，
+[Speaker 0]: 以及乐观的五百八十五五美元。
+[Speaker 0]: 周五 CLS 收盘在三百一十八美元。
+[Speaker 0]: 这个价位对应的二零二七财年前瞻 PE 只有十六点一五，
+[Speaker 0]: 几乎贴合我们给出的最悲观场景。
+[Speaker 0]: 最后给出加减仓点位，
+[Speaker 0]: 由于目前的价格几乎跌到了悲观场景价位，
+[Speaker 0]: 我已经在本周四 CLS 股价跌到三百一十美元的时候，
+[Speaker 0]: 选择了开仓百分之二，
+[Speaker 0]: 并且在会员频道第一时间分享了这次操作。
+[Speaker 0]: 如果你还没有仓位，
+[Speaker 0]: 那么三百一十美元是我推荐的第一开仓点位。
+[Speaker 0]: 第二，
+[Speaker 0]: 加仓点位。
+[Speaker 0]: 如果股价进一步跌到两百八十五到两百九十美元，
+[Speaker 0]: 也就是悲观场景的位置，
+[Speaker 0]: 我会再加百分之二，
+[Speaker 0]: 把总体仓位提高到百分之四。
+[Speaker 0]: 如果出现更极端的恐慌，
+[Speaker 0]: 跌到两百五十美元附近，
+[Speaker 0]: 我会在确认基本面蓄势，
+[Speaker 0]: 没有破坏的情况下，
+[Speaker 0]: 把仓位加满到百分之六。
+[Speaker 0]: 减仓方面，
+[Speaker 0]: 中性价位的四百三十五美元是第一减仓点。
+[Speaker 0]: 因为这意味着我的中性估值已经基本兑现，
+[Speaker 0]: 等到股价涨到五百八十五美元附近，
+[Speaker 0]: 已经来到过去两年前瞻估值的高位，
+[Speaker 0]: 我会继续降低仓位，
+[Speaker 0]: 只保留核心底仓。
+[Speaker 0]: 由于 CRS 并不是我的核心仓位，
+[Speaker 0]: 我给它的仓会控制在百分之二以内。
+[Speaker 0]: 再次提醒大家，
+[Speaker 0]: 这套操作计划有一个非常重要的前提，
+[Speaker 0]: 就是基本面不能发生结构性变化。
+[Speaker 0]:  CLS 最大的风险和它的优势其实来自同一个地方，
+[Speaker 0]: 就是客户高度集中前三大客户贡献百分之六十三的收入。
+[Speaker 0]: 所以，
+[Speaker 0]: 任何一家科技巨头下调 AI 资本开支，
+[Speaker 0]: 重要项目延期，
+[Speaker 0]: 或者 CLS 丢掉任何一个核心客户，
+[Speaker 0]: 都会直接影响未来两年的盈利模型。
+[Speaker 0]: 另外我会特别关注两个信号，
+[Speaker 0]: 一一点六 t 平台今年下半年的客户放量是否按照计划推进？
+[Speaker 0]: 第二，
+[Speaker 0]: 公司未来一年会不会再次进行大规模股权融资？
+[Speaker 0]: 我尤其在意第二条，
+[Speaker 0]: 如果这三十亿美元只是一次性的提前扩产融资，
+[Speaker 0]: 我可以接受。
+[Speaker 0]: 但如果几个月以后，
+[Speaker 0]: 公司再次发股融资，
+[Speaker 0]: 那就意味着他自己的现金流可能撑不住。
+[Speaker 0]: 现在的扩张速度，
+[Speaker 0]: 到时候就需要重新计算目标价格。
+[Speaker 0]: 今天给出的点位会全部作废。
+[Speaker 0]: 所以我对 CRS 现在的结论很简单，
+[Speaker 0]: 市场因为一次大约百分之八点八的股本稀释，
+[Speaker 0]: 一口气卖掉了接近百分之十五的市值。
+[Speaker 0]: 而这家公司的二零二七年增长预期，
+[Speaker 0]:  AI 数据中心订单和利润率趋势，
+[Speaker 0]: 目前并没有因为增发而产生任何变化，
+[Speaker 0]: 稀释是真实成本。
+[Speaker 0]: 我已经在模型里把它完整扣掉，
+[Speaker 0]: 但稀释和基本面恶化并不是一回事。
+[Speaker 0]: 也正因为如此，
+[Speaker 0]: 我选择在三百一十美元附近开始建立 CLS 的第一笔仓位，
+[Speaker 0]: 并把它加入接下来重点跟踪的 AI 基础设施公司名单。
+[Speaker 0]: 熟悉我频道的朋友都知道，
+[Speaker 0]: 我一直有一个非常明确的投资习惯，
+[Speaker 0]: 对于自己没有持仓，
+[Speaker 0]: 也没有长期跟踪的股票。
+[Speaker 0]: 我不会因为它突然大涨，
+[Speaker 0]: 就开始产生 formal 情绪，
+[Speaker 0]: 更不会因为一天涨了百分之二十百分之三十，
+[Speaker 0]: 就觉得自己错过了什么。
+[Speaker 0]: 因为市场上永远都有股票在大涨，
+[Speaker 0]: 没有任何人能够同时拥有所有表现最好的公司。
+[Speaker 0]: 有时候也会有朋友跟我说，
+[Speaker 0]: 某某股票今天又暴涨了，
+[Speaker 0]: 感觉自己错过了很多机会。
+[Speaker 0]: 但我一直觉得，
+[Speaker 0]: 如果在它上涨之前，
+[Speaker 0]: 你根本没有研究过这家公司，
+[Speaker 0]: 也从来没准备买它。
+[Speaker 0]: 那么严格来说，
+[Speaker 0]: 你其实什么都没有错过，
+[Speaker 0]: 它今天涨百分之二十还是百分之三十，
+[Speaker 0]: 本来就和你的投资计划没有关系。
+[Speaker 0]: 这个相比突然暴涨的股票，
+[Speaker 0]: 我反而更喜欢研究那些突然大跌的优质公司。
+[Speaker 0]: 我会积极研究它股价下跌原因。
+[Speaker 0]: 这次下跌有没有伤害？
+[Speaker 0]: 公司的基本面盈利预期有没有发生变化？
+[Speaker 0]: 如果基本面没有明显恶化，
+[Speaker 0]: 那么股价有没有重新回到合理估值区间，
+[Speaker 0]: 甚至已经跌到了一个非常有吸引力的位置。
+[Speaker 1]: 嗯，
+[Speaker 0]: 没有过去一段时间，
+[Speaker 0]: 我很多比较重要的加仓，
+[Speaker 0]: 其实都是在这种情况下完成的。
+[Speaker 0]: 微软跌破四百美元的时候，
+[Speaker 0]: 我开始明显提高仓位。
+[Speaker 0]: 每光还在三百多美元的时候，
+[Speaker 0]: 我不断增加持仓。
+[Speaker 0]:  palanteer 跌破一百二十美元的时候，
+[Speaker 0]: 我大幅加仓，
+[Speaker 0]: 降低成本。
+[Speaker 0]:  so fe 跌破十六美元的时候，
+[Speaker 0]: 我告诉会员频道的朋友，
+[Speaker 0]: 我认为那是一个非常值得积累。
+[Speaker 0]:  so ofi 股票的时置。
+[Speaker 0]: 有意思的是，
+[Speaker 0]: 每次我分享这些加仓操作的朋候，
+[Speaker 0]: 往往也是市场最不喜欢这些公司的时候。
+[Speaker 0]: 所以我的很多操作分享出来后，
+[Speaker 0]: 经常会伴随着质疑，
+[Speaker 0]: 甚至有人觉得我是在逆势接飞刀，
+[Speaker 0]: 但这并没有什么问题。
+[Speaker 0]: 因为左侧投资本来就不可能买在最低点，
+[Speaker 0]: 你真正要判断的不是明天股价还会不会再跌百分之五，
+[Speaker 0]: 而是今天这个价格相对于公司未来两三年的盈利能力到底便不便宜？
+[Speaker 0]: 如果之后继续下跌，
+[Speaker 0]: 是否都已经在你的计划之内？
+[Speaker 1]: 嗯，
+[Speaker 1]: 没有。
+[Speaker 0]: 所以对我来说，
+[Speaker 0]: 如果我已经确认一家公司的长期基本面没有发生变化，
+[Speaker 0]: 那么股价继续下跌。
+[Speaker 0]: 很多时候并不是坏事，
+[Speaker 0]: 价格越便宜。
+[Speaker 0]: 我能够用同样的钱积累到的股数就越多。
+[Speaker 0]: 甚至当我刚刚开始建仓的时候，
+[Speaker 0]: 我反而不希望股价第二天马上反弹。
+[Speaker 0]: 因为我还需要一定的左侧时间，
+[Speaker 0]: 慢慢把仓位建立起来。
+[Speaker 0]: 当然，
+[Speaker 0]: 这种投资方式最需要的就是耐心好的公司也可能继续跌合理估值，
+[Speaker 0]: 下面还可能出现更便宜的价格，
+[Speaker 0]: 所以仓位控制和分批买入非常重要。
+[Speaker 0]: 但从更长的时间维度来看，
+[Speaker 0]: 只要公司的基本面最终按照我们的判断，
+[Speaker 0]: 兑现市场情绪带来的下跌，
+[Speaker 0]: 往往反而会成为非常好的长线布局机会。
+[Speaker 0]: 这也是我一直在会员频道做的事情，
+[Speaker 0]: 不是每天去寻找下一只暴涨的股票，
+[Speaker 0]: 而是持续跟踪一批真正值得研究的优质公司，
+[Speaker 0]: 更新他们的基本面盈利预期目标价格，
+[Speaker 0]: 以及我自己的加仓和减仓计划。
+[Speaker 0]: 如果你也认同这种不追热点，
+[Speaker 0]: 更多依靠数据和基本面做投资决策的方式，
+[Speaker 0]: 也欢迎加入我们新建立的 disco 的频道，
+[Speaker 0]: 和我一起长期跟踪这些优质公司。
+[Speaker 0]: 以上就是本期全部内容，
+[Speaker 0]: 本周除了 CRS，
+[Speaker 0]: 我还在我的 discort 会员群分享了 palenteer AMD zta robbing hood 的财报分析和目标点位，
+[Speaker 0]: 同时还分享了最新的 alpha pigs 推荐股以及我对这只股票的看法。
+[Speaker 0]: 下周财报继续，
+[Speaker 0]: 我会格外关注 rocky lab roomentum、
+[Speaker 0]:  nabyas coherent 这些股票，
+[Speaker 0]: 并继续在会员频道分享他们的最新分析。
+[Speaker 0]: 对这类内容感兴趣的朋友，
+[Speaker 0]: 欢迎加入我们的 discort 社区，
+[Speaker 0]: 或者订阅我的油管研究官会员频道。
+[Speaker 0]: 同样的内容我也会同步更新。
+[Speaker 0]: 在爱发电和 subspect 上，
+[Speaker 0]: 今天视频里用到的主要数据来自 seeking alpha 以及他旗下的 alpha pix 选股平台。
+[Speaker 0]: 感兴趣的朋友可以通过下方链接订阅，
+[Speaker 0]: 能拿到我频道粉丝专属的优惠价。
+[Speaker 0]: 如果你喜欢这类内容，
+[Speaker 0]: 欢迎点赞关注频道，
+[Speaker 0]: 也欢迎加入会员支持我，
+[Speaker 0]: 继续做更多更系统的美股投资内容。
+[Speaker 0]: 感谢大家收看，
+[Speaker 0]: 我们下期节目见。
