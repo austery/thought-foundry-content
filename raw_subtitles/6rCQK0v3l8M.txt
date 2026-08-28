@@ -1,0 +1,424 @@
+[Speaker 0]: 大家好，
+[Speaker 0]: 欢迎来到 monlililife 美国频道，
+[Speaker 0]: 我是 s 今天这期视频比较，
+[Speaker 0]: 特别是向大家介绍一下我的一位会员朋友和 s 一起做的一个小小的网站。
+[Speaker 0]: 这个网站是干什么的呢？
+[Speaker 0]: 我要回到我在去年吧分享的这个如何何分分析一公公的 flow chart，
+[Speaker 0]: 当时是以为目标。
+[Speaker 0]: 那么当时分享了很多我如何去收集资料的一些 sofoftips。
+[Speaker 0]: 其中对于 s 来说，
+[Speaker 0]: 最重要的资料就是一手的资料，
+[Speaker 0]: 也就是公司的 SEC 文件。
+[Speaker 0]: 我觉得 SEC 文件透露的信息很多很多。
+[Speaker 0]: 如果你都能了解全面，
+[Speaker 0]: 其实你不太需要非常多的别人的 opinion。
+[Speaker 0]: 因为 SEC 文件说的是 facts 事实，
+[Speaker 0]: 它不是 opinion 观点嗯 OK。
+[Speaker 0]: 那么回到我今天需要向大家介绍的这个 SEC insider 这个工具。
+[Speaker 0]: 这个工具目前我们已经上传到网站上，
+[Speaker 0]: 相当于已经部署了。
+[Speaker 0]: 今天视频就是介绍一下这个工具如何使用，
+[Speaker 0]: 它，
+[Speaker 0]: 可以帮到哪些人。
+[Speaker 0]: 那么做这个工具的初衷是我和这位开发者，
+[Speaker 0]: 也就是我的其中一个会员。
+[Speaker 0]: 我就告诉他，
+[Speaker 0]: 其实我们投资美股最难的是零到一。
+[Speaker 0]: 这个阶段什么是零到一？
+[Speaker 0]: 就是最基本的最简单的了解这家公司是干什么的。
+[Speaker 0]: 他在过去几个季度几年，
+[Speaker 0]: 反正从上市以来越久的时间越好，
+[Speaker 0]: 他的营收如何？
+[Speaker 0]: 他的盈利能力如何？
+[Speaker 0]: 他的盈点客户有哪些？
+[Speaker 0]: 然后就是有了这些之后，
+[Speaker 0]: 你你才能进行下一步，
+[Speaker 0]: 对吧？
+[Speaker 0]: 啊，
+[Speaker 0]: 其实在没有 AI 之前，
+[Speaker 0]: 要了解这些不容易，
+[Speaker 0]: 我需要去下载 SCC 文件，
+[Speaker 0]: 可能要通过一些工具去解读，
+[Speaker 0]: 甚至没有这些工具之前，
+[Speaker 0]: 你比如说 AI 或者 notebook LM，
+[Speaker 0]: 我还要自己去看。
+[Speaker 0]: 但是现在有了 AI 的辅助，
+[Speaker 0]: 我们觉得哎那我们直接做一个工具出来，
+[Speaker 0]: 目的就是让大家用最短的时间了解公司。
+[Speaker 0]: 从零到一。
+[Speaker 0]: 请注意啊，
+[Speaker 0]: 仅仅是从零到一这个工具，
+[Speaker 0]: 没有办法让你从一到一百，
+[Speaker 0]: 但是它可以克服一个巨大的障碍，
+[Speaker 0]: 就是第一步走出第一步。
+[Speaker 0]: 好吧，
+[Speaker 0]: 那么呃这期视频相当于是一个 demo，
+[Speaker 0]: 呃，
+[Speaker 0]: 跟大家说一下，
+[Speaker 0]: 怎么用这个开发者我的会员他做了一个 from page。
+[Speaker 0]: 他说像专业人士一样，
+[Speaker 0]: 读懂 turn k turn q 几分钟搞定，
+[Speaker 0]: 不必上整个周末，
+[Speaker 0]: 不必耗上整个周末啊，
+[Speaker 0]: 他可以干嘛呢？
+[Speaker 0]: 就是可以营收逐个分清，
+[Speaker 0]: 看清风险变化、
+[Speaker 0]: 现金流集中度战略与研发阶段基本面对照股价等等等等。
+[Speaker 0]: 啊，
+[Speaker 0]: 然后呢我们就来来看一下，
+[Speaker 0]: 对于新新的用户呃，
+[Speaker 0]: 可以进行免费的注册。
+[Speaker 0]: 点击这个登录注册链接，
+[Speaker 0]: 输入邮箱就可以注册。
+[Speaker 0]: 那么我已经注册好了，
+[Speaker 0]: 我就直接登入。
+[Speaker 0]: 嗯，
+[Speaker 0]: 因为维护这个网站，
+[Speaker 0]: 如果流量很大，
+[Speaker 0]: 我们会产生一定的费用。
+[Speaker 0]: 所以呢这个网站并不是完完全全对所有人免费使用的，
+[Speaker 0]: 请大家理解啊，
+[Speaker 0]:  token 也要耗钱的嘛，
+[Speaker 0]: 对不对？
+[Speaker 0]: 当然了之后我会说到收费的部分不会很贵。
+[Speaker 0]: 如果听完这个视频觉得有用，
+[Speaker 0]: 你再来考虑。
+[Speaker 0]: 呃，
+[Speaker 0]: 目前针对所有的朋友，
+[Speaker 0]: 不管是会员也好，
+[Speaker 0]: 还是其他朋友，
+[Speaker 0]: 我们可以提供一些试用功能。
+[Speaker 0]: 所以呢，
+[Speaker 0]: 这位开发者就提前做了五只股票，
+[Speaker 0]:  apple、
+[Speaker 0]: 微软、
+[Speaker 0]: 谷歌、
+[Speaker 0]: 英伟达和特斯拉。
+[Speaker 0]: 那么如果这五只股票以外，
+[Speaker 0]: 你还想使用，
+[Speaker 0]: 就需要解锁完整版的功能了。
+[Speaker 0]: 就是你可以通过一个邀请码，
+[Speaker 0]: 通过我的邀请码去实现订阅。
+[Speaker 0]: 待会儿来讲如何订阅啊，
+[Speaker 0]: 我们先来看一下吧，
+[Speaker 0]: 比如说我自己比较喜欢的特斯拉，
+[Speaker 0]: 然后呢你就可以点分析。
+[Speaker 0]: 呃，
+[Speaker 0]:  by the way，
+[Speaker 0]: 这边你可以选浅色深色英文中文的搭配，
+[Speaker 0]: 所以我觉得很好啊。
+[Speaker 0]: 那么目前呢我是喜欢我的眼睛，
+[Speaker 0]: 喜欢浅色，
+[Speaker 0]: 我的语言，
+[Speaker 0]: 喜欢中文。
+[Speaker 0]: 所以呢浅色中文是一个默认的搭配。
+[Speaker 0]: 好，
+[Speaker 0]: 只用轻轻点击分析就可以了。
+[Speaker 0]: 那么目前是很快的，
+[Speaker 0]: 是因为特斯拉以及这五只股票吧都是我们已经做过分析的。
+[Speaker 0]: 所以当用户，
+[Speaker 0]: 比如说你们做同样的特斯拉的分析的时候，
+[Speaker 0]: 就会非常快。
+[Speaker 0]: 他会告诉你什么呢？
+[Speaker 0]: 很简单啊，
+[Speaker 0]: 我说这是从零到一啊，
+[Speaker 0]: 假设特斯拉你从来不了解它，
+[Speaker 0]: 那么接下来你只需要两三分钟就能有一个从零到一的了解。
+[Speaker 0]: 第一个就是业务概况，
+[Speaker 0]: 它是干嘛的对吧？
+[Speaker 0]: 中文的它的历史与创始人是干嘛的？
+[Speaker 0]: 帮你列出来了它的细分业务定义，
+[Speaker 0]: 汽车业务能源发展与储能业务定义。
+[Speaker 0]: 它的未来发展是什么？
+[Speaker 0]: 然后呢，
+[Speaker 0]: 股价表现近一年和标准五百比和纳斯达克比，
+[Speaker 0]: 哎呀，
+[Speaker 0]: 非常糟糕，
+[Speaker 0]: 热死了近一年百分之一啊。
+[Speaker 0]: 好了好了啊，
+[Speaker 0]: 不不不要岔开话题了，
+[Speaker 0]: 它的主要风险是什么，
+[Speaker 0]: 对吧？
+[Speaker 0]: 这也是显示出来了，
+[Speaker 0]: 而且你还可以查看原始的 SCC 文件。
+[Speaker 0]: 所以呢第一页是一个概括假设啊，
+[Speaker 0]: 你完全不了解特斯拉或者是有的公司的细分业务其实比较深奥。
+[Speaker 0]: 其实从 SCC 文件，
+[Speaker 0]: 它的定义，
+[Speaker 0]: 我们这个网站就直接给你了，
+[Speaker 0]: 你就可以直观的了解这些呃业务。
+[Speaker 0]: 当然了，
+[Speaker 0]: 汽车业务很简单，
+[Speaker 0]: 卖汽车嘛，
+[Speaker 0]: 但是有一些公司的细分业务真的是很不容易理解。
+[Speaker 0]: 你比如说商业太空一长串的英文，
+[Speaker 0]: 你你你可能都不知道他是干嘛的对吧？
+[Speaker 0]: 好看，
+[Speaker 0]: 完了概南啊，
+[Speaker 0]: 盖盖栏四川人那个 NL 不分抱歉。
+[Speaker 0]: 然后我们再来看损益表以及现金流，
+[Speaker 0]: 然后还有营收细分对冲基金动向。
+[Speaker 0]: 啊，
+[Speaker 0]: 这三个我和这位开发者觉得我们比较在意的功能，
+[Speaker 0]: 当然之后可能会上线新的功能。
+[Speaker 0]: 然的好的对，
+[Speaker 0]: 好嗯，
+[Speaker 0]: 这些表格不管是损益表、
+[Speaker 0]: 现金流还是营收细分，
+[Speaker 0]: 请注意它并不是 one for all。
+[Speaker 0]: 它不是告诉你所有你需要知道的东西。
+[Speaker 0]: 它是告诉你，
+[Speaker 0]: 从零到一，
+[Speaker 0]: 我 s 认为了解所有公司都应该知道的 hundred percent 必须要了解的东西。
+[Speaker 0]: 所以它是一个最基础的了解，
+[Speaker 0]: 最重要的啊嗯先来看损益表与现金流。
+[Speaker 0]: 首先不管什么表格，
+[Speaker 0]: 你都可以选季度，
+[Speaker 0]: 也就是 ten q 以及年度 ten k 你比如说我选了年度表格会变，
+[Speaker 0]: 然后你可以选三年、
+[Speaker 0]: 五年、
+[Speaker 0]: 十年或者一年。
+[Speaker 0]: 那么比如说特斯拉，
+[Speaker 0]: 它上市很久了，
+[Speaker 0]: 我直接选十年。
+[Speaker 0]: 对吧呃，
+[Speaker 0]: 这边只显示了五年，
+[Speaker 0]: 我选五年呢，
+[Speaker 0]: 对，
+[Speaker 0]: 季度呢，
+[Speaker 0]: 我如果选季度，
+[Speaker 0]: 五年 OK 他他没问题。
+[Speaker 0]: 对，
+[Speaker 0]: 可以选一年三年、
+[Speaker 0]: 五年，
+[Speaker 0]: 十年可以选季度和年度。
+[Speaker 0]: 那么这里呢我就选季度，
+[Speaker 0]: 我选了五年这个损益摘要就告诉你非常重要非常直观的信息啊。
+[Speaker 0]: 这是我每次自己去做图表都想要了解的。
+[Speaker 0]: 第一个保儿，
+[Speaker 0]: 第一个柱子营收是多少？
+[Speaker 0]: 第二个柱子呢是营业成本和运营费用的总和。
+[Speaker 0]: 为什么把它们加在一起？
+[Speaker 0]: 就是因为营收减去营业成本，
+[Speaker 0]: 减去运营费用就是它的利润。
+[Speaker 0]: 所以第三个柱子就是利润。
+[Speaker 0]: 所以从这个表格就很容易看出来，
+[Speaker 0]: 特特拉这家公司 OK 它的的收收在增长，
+[Speaker 0]: 它的利润在下降，
+[Speaker 0]: 对吧？
+[Speaker 0]: 很清楚了。
+[Speaker 0]: 同时呢，
+[Speaker 0]: 我们也给出了折线图毛利率，
+[Speaker 0]: 营业利润率和净利润率。
+[Speaker 0]: 就就很直观嘛。
+[Speaker 0]: 看到这张表损益摘要，
+[Speaker 0]: 你就知道了这个 income statement，
+[Speaker 0]: 这就是每一个 SEC 文件我必看的一个 chart income statement。
+[Speaker 0]: 损益表用图用一个 chart 的形式展现给你，
+[Speaker 0]: 很清楚啊，
+[Speaker 0]: 上方还有一些功能啊，
+[Speaker 0]: 你可以 download SPDASPNG，
+[Speaker 0]: 你可以放大，
+[Speaker 0]: 对吧？
+[Speaker 0]: 你还可进进行不同 scscale，
+[Speaker 0]: 还可以 fuscscen 很方便。
+[Speaker 0]: 下面一个图，
+[Speaker 0]: 我也非常喜欢欢叫做利润瀑布。
+[Speaker 0]: 图就是一个公司从营收端到利润，
+[Speaker 0]: 他要经历中间哪些成本项费用项呢？
+[Speaker 0]: 特斯拉很简单，
+[Speaker 0]: 但有的公司很复杂，
+[Speaker 0]: 你比如说 lemonly 就就很复杂，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以说，
+[Speaker 0]: 营收二十八点二减去营业成本二十三点五，
+[Speaker 0]: 减去研发与技术费用二点四，
+[Speaker 0]: 减去所得税零点二就得得净净利润一点一就很明确嘛。
+[Speaker 0]: 怎么样从营收得到利润？
+[Speaker 0]: 好吧，
+[Speaker 0]: 接下来是现金与负债，
+[Speaker 0]: 这是我最关心的对吧？
+[Speaker 0]: 现金以等价物有多少？
+[Speaker 0]: 特别是像一些初创型公司。
+[Speaker 0]: 你的现金如果不够，
+[Speaker 0]: 那可能公司甚至有破产的风险，
+[Speaker 0]: 还有总债务，
+[Speaker 0]: 然后还有现金流与资本支出，
+[Speaker 0]: 对吧？
+[Speaker 0]: 我就不再去非常详细的阐述了。
+[Speaker 0]: 然后我们再来看营收细分，
+[Speaker 0]: 营收细分就告诉你这家公司它的营收分为哪些，
+[Speaker 0]: 它的变化有什么？
+[Speaker 0]: 这是我分析每家公司，
+[Speaker 0]: 它都必定要去关注的。
+[Speaker 0]: 而且不仅有这个图，
+[Speaker 0]: 还有每个细分业务的定义。
+[Speaker 0]: 下方呢还有客户集中度，
+[Speaker 0]: 特斯拉没有任何客户占经营，
+[Speaker 0]: 营收超过百分之十，
+[Speaker 0]: 所以这里没有提供相关信息。
+[Speaker 0]: 啊，
+[Speaker 0]: 这就是几张简简单单的表格，
+[Speaker 0]: 告诉你这家公司从零到一最基本的东西，
+[Speaker 0]: 我们没有说追求把所有表格放上去。
+[Speaker 0]: 但是以后如果有新的，
+[Speaker 0]: 我认为很重要的表格我们会添加进去。
+[Speaker 0]: 嗯，
+[Speaker 0]: 最近呢我们也是添加了一个新的功能，
+[Speaker 0]: 叫做对冲基金动向。
+[Speaker 0]: 那么对冲基金动向就是去去追踪这些对冲基金公开披露的 SEC。
+[Speaker 0]: 他们对冲基金的文件，
+[Speaker 0]: 他们买了多少，
+[Speaker 0]: 卖了多少。
+[Speaker 0]: 有不少的朋友喜欢去追踪对冲基金的动向，
+[Speaker 0]: 这个是作为我们提供的了解一家公司从零到一的一个辅助的功能吧，
+[Speaker 0]: 不是最主要的，
+[Speaker 0]: 但是我觉得还是有用的啊。
+[Speaker 0]: 然后我们看完了特是吧，
+[Speaker 0]: 接下来呢我就进入到我已经登录了付费过的页面啊。
+[Speaker 0]: 其实目前的费用我们决定的是说收到邀请码之后，
+[Speaker 0]: 我们去订阅。
+[Speaker 0]: 订阅之后，
+[Speaker 0]: 每个月是付三美元。
+[Speaker 0]: 每个月我觉得三美元每个月是一个不贵合理的。
+[Speaker 0]: 如果你觉得有用是一个 affordable 的价格，
+[Speaker 0]: 比如说你可能有很多公司想了解，
+[Speaker 0]: 对吧？
+[Speaker 0]: 你可能要搜索十几二十家甚至几十家公司，
+[Speaker 0]: 那么这个工具都可以帮到你。
+[Speaker 0]: 呃，
+[Speaker 0]: 在付费之后呢，
+[Speaker 0]: 我进入一个新的页面，
+[Speaker 0]: 这是我付费好的页面。
+[Speaker 0]: 那么接下来呢，
+[Speaker 0]: 我就看一下我刚刚提到的这家公司 lemonade，
+[Speaker 0]: 那么 lemonade 我们应该没有分析过啊。
+[Speaker 0]: 我们首先来看一下速度，
+[Speaker 0]: 我输入代码 LMND。
+[Speaker 0]: 然后我点分析，
+[Speaker 1]: 嗯，
+[Speaker 0]: 有可以看到啊，
+[Speaker 0]: 因为这是第一次去做 lemonade，
+[Speaker 0]: 所以呢他查找需需要一些时间，
+[Speaker 0]: 这个我是完全没有剪辑的，
+[Speaker 0]: 我们看他需要多久啊。
+[Speaker 0]: 他说 this typically take thirty to ninety seconds，
+[Speaker 0]: 大概是一分到一分半左右吧。
+[Speaker 0]: 那么我就持续的说话呀，
+[Speaker 0]: 因为现在也没没有什么可以展示的。
+[Speaker 0]: 他正在 EDGR 上查找所有 SEC 文件，
+[Speaker 0]: 然后提取 XBRL 的财务数据，
+[Speaker 0]: 然后正在用 AI 解读这些文件，
+[Speaker 0]: 我们看要多久啊。
+[Speaker 0]: 然后他说正在编译公司情况，
+[Speaker 0]: 稍后片刻。
+[Speaker 0]: 与此同时，
+[Speaker 0]: 损益表及现金流以及营收细分标签也可查阅。
+[Speaker 0]:  ok 就是说它的概览需要一些中文的翻译要一点时间，
+[Speaker 0]: 那么我们先跳到损益表以及现金流。
+[Speaker 0]: 好的好的好的，
+[Speaker 0]: 那么从这个损益摘要，
+[Speaker 0]: 我们就可以明确知道 lemonade 怎么样，
+[Speaker 0]: 它的这条折线净利润率还是在提高的。
+[Speaker 0]: 但是它是持续的亏损啊，
+[Speaker 0]: 我们可以看到这个柱子非常低，
+[Speaker 0]: 为什么？
+[Speaker 0]: 就是因为它的我们把这个绝对的损益和它的净利润率放在一张表格，
+[Speaker 0]: 它有的时候会会这个 scale，
+[Speaker 0]: 就是它的这个坐标轴会有一些变形。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 你可以点击 auto scale，
+[Speaker 0]: 那么就很明确了。
+[Speaker 0]: 这个柱状图的高度一下子就出来了。
+[Speaker 0]: 那么一下子就知道营收增速很快，
+[Speaker 0]: 对吧？
+[Speaker 0]: 然后呢净利润有一些些提高吧。
+[Speaker 1]: 对哦，
+[Speaker 0]: 来到利润瀑布图就很我我很喜欢这张图。
+[Speaker 0]: 你比如说利润，
+[Speaker 0]: 利润瀑布图，
+[Speaker 0]: 我刚刚说特斯拉很简单，
+[Speaker 0]: 但是 lemonade 很复杂。
+[Speaker 0]: 你看这就是我自己亲自做过的一张图，
+[Speaker 0]: 我当时花了好多时间去做，
+[Speaker 0]: 起码真的不下半个小时。
+[Speaker 0]: 哼。
+[Speaker 0]: 做这个瀑布图，
+[Speaker 0]: 用 google sprshh，
+[Speaker 0]: 然后现在呢一下子就出来了。
+[Speaker 0]: 营收减去净赔付及理赔费用，
+[Speaker 0]: 减去其他保险费用，
+[Speaker 0]: 减去销售与市场费用减去研发。
+[Speaker 0]: 哎，
+[Speaker 0]: 怎么回去了哦，
+[Speaker 0]: 他现在做好了，
+[Speaker 0]: 对他的概览做好了，
+[Speaker 0]: 颜色也调好了哦，
+[Speaker 0]: 非常棒。
+[Speaker 0]: 可以看到它颜色调成了 lemonade 的这个这个 logo 的颜色。
+[Speaker 0]: 这是我们这位开发者根据我的意见去做调整啊，
+[Speaker 0]: 很优秀。
+[Speaker 0]: 那么重新来啊，
+[Speaker 0]: 再减去技术与研发与技术费用，
+[Speaker 0]: 再减去管理费用，
+[Speaker 0]: 再减去所得税，
+[Speaker 0]: 得到净利润。
+[Speaker 0]: 虽然 nmonade 二六年六月，
+[Speaker 0]: 二季度有二九四点四 million 百万千万亿二点九四亿美元的营收，
+[Speaker 0]: 最后呢还亏了四千三百万，
+[Speaker 0]: 这你就知道了吗？
+[Speaker 0]: 很明显嘛啊他要减减减减减这么多费用，
+[Speaker 0]: 赚不了钱啊。
+[Speaker 0]: 然后下面同样的现金与负债、
+[Speaker 0]: 资本资呃，
+[Speaker 0]: 现金流与资本支出等等我。
+[Speaker 0]: 再来看一下营收细分。
+[Speaker 0]: 营收细分呢就是它没有一个分布，
+[Speaker 0]: 所以呢它都是一个柱子。
+[Speaker 0]: 对他就是一些广告业务，
+[Speaker 0]: 客户集中度稍后显示这个还在跑啊，
+[Speaker 0]: 对冲基金动向也已经有了啊，
+[Speaker 0]: 告诉你哪些对冲基金加了减了。
+[Speaker 0]: 然后我们回到概览概览，
+[Speaker 0]: 他就直接告诉你们。
+[Speaker 0]:  lemonade 是一家以技术驱动的垂资整合保险公司，
+[Speaker 0]: 他们提供呃，
+[Speaker 0]: 租客险、
+[Speaker 0]: 房主险、
+[Speaker 0]: 宠物险、
+[Speaker 0]: 车险人寿保险啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 然后它的历史是什么，
+[Speaker 0]: 二零一五年创立，
+[Speaker 0]: 它的未来发展是什么？
+[Speaker 0]: 它近一年的表现很糟糕，
+[Speaker 0]: 负百分之十六，
+[Speaker 0]: 跑输标普五百。
+[Speaker 0]: 对，
+[Speaker 0]: 呃，
+[Speaker 0]: 今天的展示就基本就到这里吧。
+[Speaker 0]: 就是向大家向大家呈现一下，
+[Speaker 0]: 我和这位会员朋友作为开发者，
+[Speaker 0]: 我们做了一个小工具。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 我们会首先开放给会员朋友们使用，
+[Speaker 0]: 呃，
+[Speaker 0]: 我会把具体的链接如何使用邀请码，
+[Speaker 0]: 这些细节分享给我的会员社群。
+[Speaker 0]: 如果你现在暂时还没有加入会员社群，
+[Speaker 0]: 我们也会和我也会和这位开发者沟通。
+[Speaker 0]: 在进一步改进之后，
+[Speaker 0]: 对外公开付费使用。
+[Speaker 0]: 当然了，
+[Speaker 0]: 你也可以选择加入我的会员社群，
+[Speaker 0]: 然后就可以提前使用啊，
+[Speaker 0]: 不过看你吧。
+[Speaker 0]: 对，
+[Speaker 0]: 呃，
+[Speaker 0]: 我会经常宣传自己的会员社群，
+[Speaker 0]: 我觉得我的会员社群是有价值的。
+[Speaker 0]: 啊。
+[Speaker 0]: 好，
+[Speaker 0]: 我们今天的视频就到这里，
+[Speaker 0]: 感谢大家倾听我对这个工具的讲解，
+[Speaker 0]: 我们下期视频再见。
