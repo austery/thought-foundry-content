@@ -1,0 +1,637 @@
+[Speaker 0]:  the 欢迎大家来到一个不单只聊新闻的专业美股频道，
+[Speaker 1]: 我是市场分选小涛。
+[Speaker 1]: 虽然我们已经过了财报记录，
+[Speaker 1]: 但是不知道为什么还是觉得非常的忙。
+[Speaker 1]: 听完两家公司财报为大家录视频的时候已经是凌晨十二点了。
+[Speaker 1]: 所以大家就冲着这一份热情，
+[Speaker 1]: 我又感觉到有非常大的这些责任任吧。
+[Speaker 1]: 要为大家来今天来为大家做这一一期新。
+[Speaker 1]: 所所以就这一点是大家是不是应该先点赞留言加转发。
+[Speaker 1]: 好吧，
+[Speaker 1]: 我就废话不多说，
+[Speaker 1]: 直接开始。
+[Speaker 1]: 今天我就聊两家公司财报，
+[Speaker 1]: 然后其他东西市场上那些东西我就不聊了。
+[Speaker 1]: 包括一些数据宏观数，
+[Speaker 1]: 就我认为不重要。
+[Speaker 1]: 最重要的是，
+[Speaker 1]: 这两家公司财报背后透露了非常多的一些信息。
+[Speaker 1]: 先来看一下英伟达的财报，
+[Speaker 1]: 我们一点一点来看第一点。
+[Speaker 1]: 在英文拿的财报里面，
+[Speaker 1]: 他们有聊到了大云 hyperer scale，
+[Speaker 1]: 他们的一个 RPO 两万亿，
+[Speaker 1]: 就所有大云全部加在一起，
+[Speaker 1]: 未来要履行的这个订单两万亿。
+[Speaker 1]: 二六年的资本开支八千亿，
+[Speaker 1]: 预计二七年的资本开支达到一点三万亿。
+[Speaker 1]: 那从同比增速这个角度去看，
+[Speaker 1]: 其实二七年的同比增速，
+[Speaker 1]: 资本开支同比增速已经会比二六年要有所放缓。
+[Speaker 1]: 二六年差不多要翻倍了，
+[Speaker 1]: 那二七年一点三除以八除除以一点啊，
+[Speaker 1]: 一万三除以八千亿的话，
+[Speaker 1]: 你可以你算一下这个同比增速到底是多少。
+[Speaker 1]: 和二六年做作比的话，
+[Speaker 1]: 做对比的话，
+[Speaker 1]: 其实是同比增速出现了一个放缓。
+[Speaker 1]: 然后在英伟达的财报里面，
+[Speaker 1]: 他们现在把背后 AI 的这个订单给分开了，
+[Speaker 1]: 分为大云和非大云。
+[Speaker 1]: 我们看一下非大云的增速营收是四十，
+[Speaker 1]: 个别点，
+[Speaker 1]: 环比增速百分之二十五，
+[Speaker 1]: 同比增速百分之一百三十八。
+[Speaker 1]: 而大云的这个增速环比应该是百分之十五十四到十五左右吧。
+[Speaker 1]: 所以，
+[Speaker 1]: 明显非大云的环比增速超过了大云的环比增速。
+[Speaker 1]: 说明什么问题？
+[Speaker 1]: 说明接下去英伟达的客户营收的增速主要来源于非大云公司。
+[Speaker 1]: 这也是为什么一切东西都可以串起来。
+[Speaker 1]: 这也是为什么英伟达前段时间和几家六家大的基建公司联合在一起，
+[Speaker 1]: 让他们去做贷款。
+[Speaker 1]: 然后英伟达去为背后的一些幸云公司做 GPU 剩余价值这个担保。
+[Speaker 1]: 为什么？
+[Speaker 1]: 是因为他们希望去扶持从融资的这个角度，
+[Speaker 1]: 希望去扶持这些新盈公司？
+[Speaker 1]: 因为这些新盈公司将会未来成为英伟达营收增速的一个主力。
+[Speaker 1]: 然后第三点也是这一个财报。
+[Speaker 1]: 这次财报会议里边可能算是一个重磅的一条新闻或重磅的一个指引。
+[Speaker 1]: 二八财年的营收增速预期啊营收增速百分之七十，
+[Speaker 1]: 而现在市场的预期仅仅只有百分之四十五。
+[Speaker 1]: 那英伟达为什么要这么去做呢？
+[Speaker 1]: 我们看 QNA 里面的第一点，
+[Speaker 1]: 确实老黄友说到，
+[Speaker 1]: 有有分析师问他老黄友说到，
+[Speaker 1]: 确实我们以前从来不会去为一年半之后去做指引。
+[Speaker 1]: 因为我们现在才刚刚进入他们这个季度财报，
+[Speaker 1]: 是二七财年的第二季度财报，
+[Speaker 1]: 他们的财年和凯琳的也有些不一样，
+[Speaker 1]: 所以二七财年还有两个季度，
+[Speaker 1]: 而他们现在已经在为二八财年去做这个执营。
+[Speaker 1]: 通常来说，
+[Speaker 1]: 你会在二七财年的最后一个季度，
+[Speaker 1]: 对二八年会去做一个指引。
+[Speaker 1]: 但是现在他们等于是提前了半年，
+[Speaker 1]: 为二八财年去做这个直营。
+[Speaker 1]: 为什么他们要这么去做？
+[Speaker 1]: 但黄说到他说，
+[Speaker 1]: 我希望我们的客户供应链投资者，
+[Speaker 1]: 所有的人都有同样的这个信息，
+[Speaker 1]: 因为这非常的重要。
+[Speaker 1]: 为什么？
+[Speaker 1]: 因为整个产业链里，
+[Speaker 1]: 现在很多人都压做了非常多的一些资源。
+[Speaker 1]: 我我其实我的想法是这样，
+[Speaker 1]: 市场预计是百分之四十，
+[Speaker 1]: 五老黄现在给出来是百分之七十。
+[Speaker 1]: 实际上老黄完全可以按照市场的给的这个预期，
+[Speaker 1]: 最后去执行的更高，
+[Speaker 1]: 就最后的这个交付会更高。
+[Speaker 1]: 但是为什么他现在选择就直接扔出来百分之七十这个指引是因为首先第一点需求非常多。
+[Speaker 1]: 就他有说到，
+[Speaker 1]: 他说这百分之七十一个指引还是在供给端受到影响的这个情况下，
+[Speaker 1]: 因为我们的需求会高于这个供给端。
+[Speaker 1]: 就如如果说没有任何供给端这份证明一些影响的话，
+[Speaker 1]: 他的需他的增速完全可以达到百分之一百以上。
+[Speaker 1]: 那他为什么要这么去做？
+[Speaker 1]: 是因为他希望个供应链跟上，
+[Speaker 1]: 这也是老黄在过去这段时间一直在做过去两年里面一直在做这次财报会里面他也有聊到如果当时，
+[Speaker 1]: 我不是带着美光一起往前去进，
+[Speaker 1]: 对吧？
+[Speaker 1]: 一起往前去扩展的话，
+[Speaker 1]: 到现如果在现在这个阶段呃 memory 这一块的话，
+[Speaker 1]: 绝对会更加的短缺。
+[Speaker 1]:  memory 的这个价格的上头绝对会比现在或者在过去这段时间我们看到的这个增幅会更高。
+[Speaker 1]: 那所以他非常庆幸，
+[Speaker 1]: 当时他带着整条产业链往前一起去走。
+[Speaker 1]: 所以现在也是同样个道理，
+[Speaker 1]: 因为毕竟英伟达现在 GPUAFH 他是老大。
+[Speaker 1]: 所以他希望告诉整个行业，
+[Speaker 1]: 我们在二八财年的一个增速，
+[Speaker 1]: 预期的这个增速是多少。
+[Speaker 1]: 希望整个产业链整个行业跟着他一起去扩产，
+[Speaker 1]: 这一点非常的重要，
+[Speaker 1]: 也非常的少有。
+[Speaker 1]: 因为从二零二三年以来吧，
+[Speaker 1]: 最多老黄会给未来的六个月到九个，
+[Speaker 1]: 未来两到三个季度他会给出这个指引。
+[Speaker 1]: 因为他们的 visibility 他们能够看到未来这个订单的需求，
+[Speaker 1]: 差不多半年到三个季度左右。
+[Speaker 1]: 而这一次直接扔出了多少，
+[Speaker 1]: 要一年半以后直列六了六个季度之后的需求他都知道了。
+[Speaker 1]: 所以这一次确实是一个非常重磅的一个职因，
+[Speaker 1]: 这算是一个重磅的一个炸弹，
+[Speaker 1]: 让市场非常的惊讶。
+[Speaker 1]: 因为现在市场预期是百分之四十五的营收增速，
+[Speaker 1]: 整个二六财年就是刚刚过去这个财年营收增速是百分之六十多，
+[Speaker 1]: 今年预期营收增速是百分之八十多。
+[Speaker 1]: 你会发现在那么大体量的情况下，
+[Speaker 1]: 因为它的营收增速反而在加速。
+[Speaker 1]: 那虽然二十八二八财年和二七做对比的话，
+[Speaker 1]: 稍微降低了一些。
+[Speaker 1]: 但是说它为什么降低，
+[Speaker 1]: 还是因为供给端这块受到了一个影响。
+[Speaker 1]: 对的对对对，
+[Speaker 1]: 那么所以一定要挑一个重点的话呢，
+[Speaker 1]: 这一次财报会里面的重点一定是二八财年的这个营收直营非常的夸张。
+[Speaker 1]: 百分之七十的营收增速。
+[Speaker 1]: 在那么大的体量的情况下，
+[Speaker 1]: 世界上有哪一家公司可以做到？
+[Speaker 1]: 没有人只有老黄。
+[Speaker 1]: 而反过来也是一样。
+[Speaker 1]: 如果说他不是带着整条供应链往前去走的话，
+[Speaker 1]: 他老黄自己不可能做到百分之七十营收增速，
+[Speaker 1]: 那绝对不可能做得到啊，
+[Speaker 1]: 然后我们继续看下去。
+[Speaker 1]: 第五啊第五点，
+[Speaker 1]: 这块 VR 就 very robin 将会成为史上最快的一个产能爬坡。
+[Speaker 1]: 那这一点也打消了一部分市场的一个疑虑。
+[Speaker 1]: 基本上接下去几个季度的营收全部是来自于 VR。
+[Speaker 1]:  var rubin。
+[Speaker 1]: 就新一代的 GPU，
+[Speaker 1]: 然后第六点和新营之间的这个合作细节，
+[Speaker 1]: 这一次也有了一些披露。
+[Speaker 1]: 他们说我们担保数据中心的一个最低营收，
+[Speaker 1]: 就你星云。
+[Speaker 1]: 如果你造一个数据中心，
+[Speaker 1]: 我们可以担保整个数据中心的一个最低营收。
+[Speaker 1]: 最终如果说这个数据中心的一个营收的超出部分，
+[Speaker 1]: 我们的比如说我们担保这个数据中心是三十个变列，
+[Speaker 1]: 未来的一个营收，
+[Speaker 1]:  lifetime 营收三十个别列。
+[Speaker 1]: 那最终如果是超出这三十个别列的话，
+[Speaker 1]: 我们会会和星云去按一定的比例去分配去分钱。
+[Speaker 1]: 所以从英伟达这个角度，
+[Speaker 1]: 如果最终这个数据中心是赚钱的，
+[Speaker 1]: 或者达到了这个最低的营收需求的话，
+[Speaker 1]: 英伟达其实可以收两份的钱。
+[Speaker 1]: 第一份就是卖硬件的钱，
+[Speaker 1]: 第二份就是星云的这个钱，
+[Speaker 1]: 星云他们所有卖出去，
+[Speaker 1]: 这些算力，
+[Speaker 1]: 英伟达会分一杯羹。
+[Speaker 1]: 所以可以把整个这一次的一个合作的一个细节可以理解，
+[Speaker 1]: 为什么理解为英伟达为整个数据中心的营收提供了这个保险提供了最低营收的这个保险。
+[Speaker 1]: 那保费是什么？
+[Speaker 1]: 保费就是星云，
+[Speaker 1]: 他们需要支付一部分的超额营收给英伟达那。
+[Speaker 1]: 对于星云来说，
+[Speaker 1]: 他也其实是一个利好。
+[Speaker 1]: 为什么？
+[Speaker 1]: 因为有了英伟达这个担保之后，
+[Speaker 1]: 星云他们在在造数据中心的这个成本会下降。
+[Speaker 1]: 然后第七点那第七点也是可能市场有可能会产生一定的一个担心。
+[Speaker 1]: 说实话，
+[Speaker 1]: 如果说老黄没有扔出二八财年的这个营收止盈的话，
+[Speaker 1]: 可能这一个季度财报发布完之后，
+[Speaker 1]: 市场会出现下跌。
+[Speaker 1]: 当然呃刚刚发布完财报或者数据，
+[Speaker 1]: 刚出来之后，
+[Speaker 1]: 因为大盘或是出现下跌的，
+[Speaker 1]: 然后之后下跌部分被擦掉。
+[Speaker 1]: 然后现在涨回去一开始的一个下跌，
+[Speaker 1]: 就是因为第四季度的这个毛利润，
+[Speaker 1]: 就二零二七财年第四季度这个毛利润会出现一个下降。
+[Speaker 1]: 为什么会下降？
+[Speaker 1]: 就是因为存储价格的这个上涨，
+[Speaker 1]: 这个上涨的幅度超出了这个预期，
+[Speaker 1]: 而超出了这个预期。
+[Speaker 1]: 他们今年的出货的这个量和价格已经定下来了，
+[Speaker 1]: 所以没有办法把存储价格的这个上涨完全转移到他们这个客户身上。
+[Speaker 1]: 那这也是为什么在第四季度的毛利润会出现一个低点，
+[Speaker 1]: 在百分之七十一至百分之七十二左右，
+[Speaker 1]: 全年的话市场预期差不多。
+[Speaker 1]: 在百分之七十四左右，
+[Speaker 1]: 所以上一年是在百分之七十五左右，
+[Speaker 1]: 所以毛利润出现一定程度的一个下跌。
+[Speaker 1]: 然后公司预期在二八财年，
+[Speaker 1]: 毛利润会稳定在百分之七十二至百分之七十三。
+[Speaker 1]: 为什么？
+[Speaker 1]: 是因为从二八财年的一季度开始，
+[Speaker 1]: 他们 GPU 新的一个价格就会反映在他们那个营收财报里面。
+[Speaker 1]: 所以这短期就经过他们解释之后，
+[Speaker 1]: 短期来说毛利润这个下降我认为是可以接受，
+[Speaker 1]: 其实和苹果是一样的。
+[Speaker 1]: 你看一下苹果的毛利润，
+[Speaker 1]: 接下去也会出现下降，
+[Speaker 1]: 为什么？
+[Speaker 1]: 因为他们没有办法完全，
+[Speaker 1]: 他就不单现在不单是要把存储的这个价格转移到消费者身上，
+[Speaker 1]: 你要保持还要保持原来这个毛利润的话，
+[Speaker 1]: 你必须是什么？
+[Speaker 1]: 你必须是对对对，
+[Speaker 1]: 存储的价格的成本。
+[Speaker 1]: 你在这个成本身上你还要赚钱，
+[Speaker 1]: 也就是明明这个存储不是你生产的。
+[Speaker 1]: 但是你还要把这个成本呃，
+[Speaker 1]: 把这个存储当做是你自己的产品，
+[Speaker 1]: 然后去卖去卖一个溢价在那边这个就不合理了，
+[Speaker 1]: 这个也不道德，
+[Speaker 1]: 对吗？
+[Speaker 1]: 所以这就是为什么这两家无论是英伟达也好，
+[Speaker 1]: 苹果也好，
+[Speaker 1]: 他们能够把存储价格的这个上涨全部转移到他们的客户身上。
+[Speaker 1]: 但是没有办法在这个成本上涨的情况下，
+[Speaker 1]: 还去赚更高的这个溢价。
+[Speaker 1]: 所以那么把存储价格的这个成本加在一起，
+[Speaker 1]: 和他们自己的产品加在一起之后，
+[Speaker 1]: 毛利润短期之内会出现下降。
+[Speaker 1]: 好吧？
+[Speaker 1]: 然后最后一点算是一个行业里面的一些数据吧，
+[Speaker 1]: 我们可以做一个更新，
+[Speaker 1]: 就是老黄再次给了一个数据，
+[Speaker 1]: 五年前一个计划的数据中心差不多三十，
+[Speaker 1]: 个别点造价差不多三十，
+[Speaker 1]: 个别量左右。
+[Speaker 1]: 然后现在就当他们 very robin 推出来之后，
+[Speaker 1]: 差不多一个计划的数据中心的一个造价是在六十个变列。
+[Speaker 1]: 所以前段时间我听到前斯，
+[Speaker 1]: 我说现在一个数据中心一个计划是一百个变量，
+[Speaker 1]: 这个数据是过高了。
+[Speaker 1]: 老黄现在给了最新的数据，
+[Speaker 1]: 六十个别量左右，
+[Speaker 1]: 六百亿美金。
+[Speaker 1]: 你的这个这一一的一的那这一次给出了营收指引，
+[Speaker 1]: 二八财年的营收指引之后，
+[Speaker 1]: 我们来对于估值做一个更新。
+[Speaker 1]: 那昨天的视频里边我有聊过我视频的一个标题，
+[Speaker 1]: 就是因为它的一个估值是便宜的那这一次如果给出了二零一八财年的一个营收指引之后，
+[Speaker 1]: 你会发现如果看它的一个 four OP 的话，
+[Speaker 1]: 因为它的估值变得更加的便宜，
+[Speaker 1]: 就只会变得更加的便宜。
+[Speaker 1]: 原本市场预期，
+[Speaker 1]: 就我前面说我这边 EPS 这个增速，
+[Speaker 1]: 其实营收和 EPS 增速是一样。
+[Speaker 1]: 市场的假设，
+[Speaker 1]: 就现在二八年市场预期营收增速是百分之四十五，
+[Speaker 1]: 然后 EPS 增速百分之四十六。
+[Speaker 1]: 也就是假设应因伟达没有任何运营效率上的一个抬升，
+[Speaker 1]: 营收增多少，
+[Speaker 1]: 然后利润就增多少，
+[Speaker 1]: 或者 EPS 就增多少。
+[Speaker 1]: 所以 EPS 增速市场预期二八财年是百分之四十六。
+[Speaker 1]: 那如果我们把百分之七十给带进去的话，
+[Speaker 1]: 原本二八财年的这个 FOP 是在十六倍，
+[Speaker 1]: 是十五点九倍左右。
+[Speaker 1]: 现在。
+[Speaker 1]: 如果把百分之七十这个增速带进去的话，
+[Speaker 1]: 二八财年英伟达的 FOP 在多少十三点七倍？
+[Speaker 1]: 十四倍什么概念？
+[Speaker 1]: 就是我们假设未来一年半的时间里面，
+[Speaker 1]: 英伟达的股价完全在横盘。
+[Speaker 1]: 它冲来的财报完全和市场预期完全一样，
+[Speaker 1]: 它的静态市盈率是十四倍。
+[Speaker 1]: 那十四倍的静态市盈率匹配是什么样的一个增速呢？
+[Speaker 1]: 十四倍的一个静态适盈率匹配的就是英伟达。
+[Speaker 1]: 未来 EPS 这个增速就是在百分之十左右，
+[Speaker 1]: 如果长期保持在百分之十左右，
+[Speaker 1]: 你可以说十四倍的这个静态市盈率是合理的。
+[Speaker 1]: 不然的话任何高于百分之二十 EPS 这个增速，
+[Speaker 1]: 十四倍的这个静态市盈率都是低估的。
+[Speaker 1]: 或者现在去看这个 four OP 十四倍的一个 four OP，
+[Speaker 1]: 都是非常低估的 OK。
+[Speaker 1]: 然后我们来聊一下 CRM 这次一个财报。
+[Speaker 1]: 首先在他们这次财报会里面，
+[Speaker 1]: 有一条算是比较重要的消息，
+[Speaker 1]: 就是他们和 antropy 之间的这个合作。
+[Speaker 1]: 那这个合作也算是开启了未来 AI 和软件公司之间的这一种新的一个模式。
+[Speaker 1]: 就是 AI 并不是完全去破坏软件公司，
+[Speaker 1]: 而是软件公司成为了 AI 里边的一部分，
+[Speaker 1]: 或者 AI 以后就负责大脑层面，
+[Speaker 1]: 而软件公司就负责工具层面。
+[Speaker 1]: 那大脑会调用这个工具，
+[Speaker 1]: 其实就是以前我说 AI agent 和下面工具之间的这个配合，
+[Speaker 1]: 或原来所设想的这个方向。
+[Speaker 1]: 这也是为什么在 CRM 这一次和 anthropy 合作这条消息出来之后，
+[Speaker 1]: 我现在看了一下，
+[Speaker 1]: 我也确认了，
+[Speaker 1]: 我觉得这是合理的。
+[Speaker 1]: 微软的股价出现了下跌，
+[Speaker 1]: 为什么？
+[Speaker 1]: 是因为从 CRM 这个角度，
+[Speaker 1]: 他们认为 anthropy 将会成为未来 AI agent 的这个 aucestation layer。
+[Speaker 1]: 就它会成为一个大脑，
+[Speaker 1]: 这个大脑是在软件的上层的，
+[Speaker 1]: 就大脑会控制下面的软件。
+[Speaker 1]: 所以如果说 anthroppy 能够在这样的一个地位的话，
+[Speaker 1]: 对于呃对于微微软来说是会存在一定的一个危险。
+[Speaker 1]: 那微软的股价大盘后出现一部分的下跌，
+[Speaker 1]: 我认为是合理的。
+[Speaker 1]: 当然，
+[Speaker 1]: 会不会最终破坏，
+[Speaker 1]: 会不会最终对于微软造成非常大的这个破坏和影响？
+[Speaker 1]: 暂时来说我认为并不会的。
+[Speaker 1]: 因为微软也会有自己的这个 AI agent 在那边啊，
+[Speaker 1]: 我们来还是回到 CRN 这一块。
+[Speaker 1]: 那 CRN 和 enthropy 之间的这个合作，
+[Speaker 1]: 他们出了一个新产品，
+[Speaker 1]: 叫做 cloud force。
+[Speaker 1]: 然后他们开发了三十七个 skills，
+[Speaker 1]: 什么理怎么理解？
+[Speaker 1]: 就是在在 enthropy 在 cloud 里边，
+[Speaker 1]: 他们开发了三十七个 CRN 的这个产品。
+[Speaker 1]: 也就是如果你现在进入 cloud，
+[Speaker 1]: 你完全可以通过老去调用 CRN 的产品。
+[Speaker 1]: 那所以就像我前面说的 CRM，
+[Speaker 1]: 他们认为未来在 b 端这一块的入口非常有可能就是 cloud。
+[Speaker 1]: 那现在的一个入口是谁？
+[Speaker 1]: 现在的入口是 CRM 自己的一个，
+[Speaker 1]: 我们叫 user interface，
+[Speaker 1]: 是 CRM 自己的这个界面。
+[Speaker 1]: 而 CRM 现在和 and troy 之间的这个合作，
+[Speaker 1]: 就他们认为未来有一部分 b 端的这个流量入口会是直接是 cloud。
+[Speaker 1]: 这就是为什么他们选择和 cloud 之间合作。
+[Speaker 1]: 所以这两家公司接下去就会有一个分工。
+[Speaker 1]: 那么 CRM 就是负责销售和派发，
+[Speaker 1]: 因为他们下面会有很多 sales，
+[Speaker 1]: 很多 sales，
+[Speaker 1]: 然后去推这一款产品。
+[Speaker 1]: 然后 CRM 和 a 和 anthropy 之间就变成了一个共赢的一个局面。
+[Speaker 1]: 那 anthropy 作为一个大脑和入口，
+[Speaker 1]: 甚至于作为一个入口，
+[Speaker 1]:  CRM 作为一个工具和派发的一个局面，
+[Speaker 1]: 暂时看来是一个共赢的一个阶段，
+[Speaker 1]: 是一个是一个共赢的一个合作。
+[Speaker 1]: 但是 d 这边我说了，
+[Speaker 1]: 就未来可能因为 CRM 将会丢，
+[Speaker 1]: 他们将会丢掉这个 UUI 将会丢掉这的入口。
+[Speaker 1]: 如果丢掉入口的话，
+[Speaker 1]: 是存在一定的一个风险。
+[Speaker 1]: 你想现在 CRM 和他们客户之间所建立的这种信任，
+[Speaker 1]: 就是因为他们和客户之间有一个直接的这个联系。
+[Speaker 1]: 但是未来如果他丢掉这个入口的话，
+[Speaker 1]: 等于客户本身他会和 enthropic 之间形成这一个互相依赖的一个关系。
+[Speaker 1]: 所以我觉得这一次 CRM 和 anthropc 之间的这个合作，
+[Speaker 1]: 可以从两个角度去出发。
+[Speaker 1]: 一个角度可以理解为是。
+[Speaker 1]: 首先 AI 本身就他们自己内部，
+[Speaker 1]: 他并不是完全就选择和 anthropc 合作。
+[Speaker 1]: 就是因我们知道他们内内部本身 mark 他一直的一个看法是，
+[Speaker 1]: 他认为模型本身就是商品，
+[Speaker 1]: 就是模型是可替代的。
+[Speaker 1]: 所以他们内部的产品仍然是选择。
+[Speaker 1]: 就他们的客户今天要选择用开源模型也好，
+[Speaker 1]: 用 cloud 也好，
+[Speaker 1]: 用用 open AI 也好，
+[Speaker 1]:  CRM 他们都会提供这个选项在那边。
+[Speaker 1]: 那所以他们底层的模型你是可以去选的那这是在他们产品端这一块，
+[Speaker 1]: 这是他们自己的一个 user interface 是他们自己的一个界面。
+[Speaker 1]: 在他们现有的产品身上，
+[Speaker 1]: 你可以选择不同的模型去做不一样的的事情。
+[Speaker 1]: 在这个基础上，
+[Speaker 1]: 他们选择另外一个派发的一个途径，
+[Speaker 1]: 就是他们认为 cloud 有可能会成为弊端的这个入口。
+[Speaker 1]: 所以他们并不想。
+[Speaker 1]: 因为今天如果作为一个客户，
+[Speaker 1]: 作为一个弊端的客户，
+[Speaker 1]: 如果我的一个入口是 cloud。
+[Speaker 1]: 那从 CM 这个角度，
+[Speaker 1]: 我要确保这一个客户本身可以选择我 c c 安的这个产品能够理解吗？
+[Speaker 1]: 就他们把 cloud 当做一个派发的一个渠道。
+[Speaker 1]: 他们希望如果未来 cloud 可以派发的话，
+[Speaker 1]: 那通过这个派发的渠道，
+[Speaker 1]: 起码 CM 的这个产品是在他们那个平台上面。
+[Speaker 1]: 那这边会有一个风险，
+[Speaker 1]: 就是现在产客户本身，
+[Speaker 1]: 他们是对于 CRN 的这个产品有一定的一个依赖性。
+[Speaker 1]: 那未来那如果真的变成 AI agent 这种时代的话，
+[Speaker 1]: 那就是客户本身对于 AI agent 有一个依赖性，
+[Speaker 1]: 并不是对于 CRN 的这个产品有这个依赖性，
+[Speaker 1]: 对吧？
+[Speaker 1]: 所以如果出现这种情况的话，
+[Speaker 1]: 那未来对于 CRM 是不是一个利好，
+[Speaker 1]: 其实是不见得。
+[Speaker 1]: 所以这一次两者之间的这个合作短中期来说，
+[Speaker 1]: 可以看作是绝对是一个利好。
+[Speaker 1]: 但是从长治这个角度不见得是一个利好。
+[Speaker 1]: 当然也可以理解为是 CRM 相对属于防守性的一种布局，
+[Speaker 1]: 它并不是一个进攻性的布局，
+[Speaker 1]: 因为它要防守，
+[Speaker 1]: 防守什么防守未来 anthroviy 有可能会成为这个大脑。
+[Speaker 1]: 然后我们看第二点是财报会议里面没有人问，
+[Speaker 1]: 但是 mark 自己有聊到，
+[Speaker 1]: 这中间就他们和 anthrope 之间合作的话，
+[Speaker 1]: 背后有一个非常重要的问题。
+[Speaker 1]: 其是最近这段时间一直在聊的非反无聊的 AIS 问题，
+[Speaker 1]: 对吧？
+[Speaker 1]: 客户本身愿不愿意把自己的数据去分享给 cloud。
+[Speaker 1]: 那所以 mark 我说到，
+[Speaker 1]: 所以我这边打了个问号，
+[Speaker 1]: 说为何客户敢用？
+[Speaker 1]: 那么他们为什么敢用？
+[Speaker 1]: 不难道就不怕数据被 anthropy 给拿去嘛。
+[Speaker 1]: 所以 mark 自己就说他说 zero data retation 什么意思？
+[Speaker 1]: 零数据保留就是你任何通过他们的大模型去跑的所有的我们公司内部的一些数据的话，
+[Speaker 1]: 这些数据本身绝对不会保留在模型层面，
+[Speaker 1]: 就模型不会保留任何我们客户之间的一个数据。
+[Speaker 1]: 所以它叫 zero data retention CRM，
+[Speaker 1]: 确保数据不会外流。
+[Speaker 1]: 然后最后一点，
+[Speaker 1]: 在 QNA 里面的第二点，
+[Speaker 1]: 他们的管理层我说到现在仅仅只有百分之五的这个客户，
+[Speaker 1]: 变成了最新的这个版本叫做的这一档版本。
+[Speaker 1]: 那这个版本的这个产品的一个溢价有百分之六十到八十。
+[Speaker 1]: 所以他们认为背后有非常大的这个空间可以帮助现有的客户去升级。
+[Speaker 1]: 因为他们其实非常看好现有这个版本，
+[Speaker 1]: 就升级之后的这个版本，
+[Speaker 1]: 就是和 premia i 之间的这个结合。
+[Speaker 1]: 所以其实到现在为止，
+[Speaker 1]: 我们其实已经看了这个季度，
+[Speaker 1]: 我们其实已经看了很多家软件公司这个财报。
+[Speaker 1]: 到现在我慢慢意识到这个问题，
+[Speaker 1]: 说我我就我希望大家也意识到这个问题，
+[Speaker 1]: 就是这个季度刚开始我们才慢慢的发现 AI 和这些软件公司产品之间的这个结合，
+[Speaker 1]: 且已经看到这个落地。
+[Speaker 1]: 就真的现在看到有客户愿意为这些 AI 的软件产品给付费。
+[Speaker 1]: 那么所以我认为这个季度才是真正的软件公司和 AI 之间结合去变现的。
+[Speaker 1]: 第一个季度算是一个元年，
+[Speaker 1]: 里面的第一个季度才刚刚开始。
+[Speaker 1]: 而从某种程度市场，
+[Speaker 1]: 其实当时在二零二四年的二零二三年底二零二四年初的时候，
+[Speaker 1]: 市场就认为整个二零二四年将是软件的一年。
+[Speaker 1]: 因为软件会受到 AI 的这个利好。
+[Speaker 1]: 因为 AI 的这个落地在软件身上，
+[Speaker 1]: 结果软件从二四年一路跌跌了两年半的时间啊，
+[Speaker 1]: 跌到今年的恰恰跌到今年的年中嘛，
+[Speaker 1]: 从二四年的年初一直到跌到二六年的六月份，
+[Speaker 1]: 所以整个这两年半的时间市场明显是有误判了。
+[Speaker 1]: 过早的预期软件对于 AIAI 对于软件的这个利好。
+[Speaker 1]: 而实际上到这个季度才我们真正的看到，
+[Speaker 1]: 似乎 AI 对于软件公司不是一个利空，
+[Speaker 1]: 而是一个利好。
+[Speaker 1]: 当然了，
+[Speaker 1]: 这一个利好一定是建立在公司本身可以非好的拿 AI 和和己己产品去结合，
+[Speaker 1]: 然后以一个更高的溢价去卖给自己的这个客户。
+[Speaker 1]: 所以这完全取决于公司执行力，
+[Speaker 1]: 而且取决于公司有没有这个能力。
+[Speaker 1]: 把自己原本的这个产品和 AI 去做一个非常好的一个结合，
+[Speaker 1]: 然后卖出去。
+[Speaker 1]: 所以我当然了，
+[Speaker 1]: 这中间的一个试错成本也降低很多。
+[Speaker 1]: 所以你会发现，
+[Speaker 1]: 现在无论是哪家软件公司，
+[Speaker 1]: 他们推出新产品的这个速度快了很多。
+[Speaker 1]: 原来可能一年推个两三个功能，
+[Speaker 1]: 现在一个季度推出十几个功能。
+[Speaker 1]: 啊，
+[Speaker 1]: 所以就是在不断的一个试错的一个过程里边，
+[Speaker 1]: 万一是到了一个非常黑的这个产品之后，
+[Speaker 1]: 就疯狂的去推出。
+[Speaker 1]: 因为他们有现有这个派发，
+[Speaker 1]: 又有这个销售又有 FDE 吧。
+[Speaker 1]: 所以这个派发的速度就会非常的快，
+[Speaker 1]: 这个软件就营收增速就会非常的快。
+[Speaker 1]: 这就是其实 AI 对于这些软件公司所带来这个利好，
+[Speaker 1]: 试错成本大幅度降低。
+[Speaker 1]: 且 p 我们叫 product cycle，
+[Speaker 1]: 推出新的这个产品的一个周期短了，
+[Speaker 1]: 非常多了。
+[Speaker 1]: 所以你看 sales force 也是一个非常好的例子。
+[Speaker 1]: 我下面画出来，
+[Speaker 1]: 这边是 adjust，
+[Speaker 1]: 你看他们们个利利润率，
+[Speaker 1]: 过去五个季度这个利润率吧，
+[Speaker 1]: 三十二点二七三十四、
+[Speaker 1]: 三十五三十四、
+[Speaker 1]: 三十四点八三十四完全没有受到任何的影响。
+[Speaker 1]: 那么营收他们营收这块的增速，
+[Speaker 1]: 当然他们的营收他们一直在做收购嘛。
+[Speaker 1]: 所以 stimargc RM 是一个比较传统的公司。
+[Speaker 1]: 营收的这个增速基本上靠收购来获取。
+[Speaker 1]: 当然这个季度就刚刚过去的这个季度营收的这个增速百分之十一和上上一个季度做对比的话，
+[Speaker 1]: 稍微放缓了一些些。
+[Speaker 1]: 但是他们的 RPORPO 比较重要，
+[Speaker 1]: 因为 RPO 是未来这个营收增速 RPO 的话，
+[Speaker 1]: 同比增速百分之十四，
+[Speaker 1]: 上一个季度百分之十三。
+[Speaker 1]: 所以看到 RPO 出现了一个再加速。
+[Speaker 1]: 那我的一个期待听完这次财报会议之后，
+[Speaker 1]: 我的一个期待是他们 RPO 的这个增速会再次往上提啊，
+[Speaker 1]: 所以带着这些视角，
+[Speaker 1]: 最后我们来看一下它的一个估值市场。
+[Speaker 1]: 现在预计，
+[Speaker 1]: 他们未来三未来两年半的营收增速百分之十一，
+[Speaker 1]: 百分之九百分之十，
+[Speaker 1]: 就非常符合 CRM 的这个营收增速。
+[Speaker 1]: 他们营收增速基本上就是保证它百分之十，
+[Speaker 1]: 然后增速一旦放缓，
+[Speaker 1]: 就进行就进行收购，
+[Speaker 1]: 对吧？
+[Speaker 1]: 但是现在不一样，
+[Speaker 1]: 现在是和产品和 AI 之间的这个结合，
+[Speaker 1]: 然后去 upsell 那么 AI 的这个产品去卖出去啊，
+[Speaker 1]:  bden one EPS 这个增速百分之十三、
+[Speaker 1]: 百分之十一和百分之十七。
+[Speaker 1]: 那我的一个期待是，
+[Speaker 1]: 他们的营收增速将会出现一个加速，
+[Speaker 1]: 就营收增速现在是差不多平均百分之十吧，
+[Speaker 1]: 正好两年半平均百分之十。
+[Speaker 1]: 我的期待是，
+[Speaker 1]: 营收增速将会出现一个再再加速。
+[Speaker 1]: 因为他们 AI 和现有产品之间的这个结合，
+[Speaker 1]: 会出现一个 f set，
+[Speaker 1]: 会出现一个就产品端这一块会出现一个普页面在那边，
+[Speaker 1]: 所以就匹配这样的一个营收 EPS 这个增速 EPS 差不多，
+[Speaker 1]: 平均百分之十三到百分之十四。
+[Speaker 1]: 那十三倍的这个 PE 静态市盈率，
+[Speaker 1]: 那拍个球差不多是多少？
+[Speaker 1]: 一倍左右是属于偏低的。
+[Speaker 1]: 你如果看他这个 price cash flow 十一点七倍，
+[Speaker 1]: 未来的三年差不多十一倍，
+[Speaker 1]: 十一倍十倍和八点八倍。
+[Speaker 1]: 那基本上现在很多的软件公司、
+[Speaker 1]:  price、
+[Speaker 1]:  cash、
+[Speaker 1]:  flow 都是在十倍左右的。
+[Speaker 1]: 就是基本上如果完全不变的话，
+[Speaker 1]: 十年之后他所赚来的这些现金额完全可以把自己所有的公司全部买下。
+[Speaker 1]: 所以我的一个期待是我仍然认为现在软件公司是被低估的，
+[Speaker 1]: 就估值的话是被低估的。
+[Speaker 1]: 我的期待是，
+[Speaker 1]: 起码比如说像 CRM 这一类的公司，
+[Speaker 1]: 包括其他的很多软件公司，
+[Speaker 1]: 它的估值起码可以回到以前。
+[Speaker 1]: 我不说回到二十五倍三十倍吧，
+[Speaker 1]: 起码可以回到十八倍至二十倍左右，
+[Speaker 1]: 我认为起码是一个合理的一个区间。
+[Speaker 1]: 然后在这个基础上，
+[Speaker 1]: 因为它的基本面还会不不断在改变嘛。
+[Speaker 1]: 如果基本面持续在变，
+[Speaker 1]: 好，
+[Speaker 1]: 回到以前的这一个估值水平，
+[Speaker 1]: 或者回到以前的这个 p 我认为都不是完全不可能。
+[Speaker 1]: 我记得我在半年前就说过，
+[Speaker 1]: 我说市场杀跌软件背后的一个理由是认为软件公司这些 terminal value 受到了这个影响。
+[Speaker 1]: 但是所谓的 terminal value，
+[Speaker 1]: 就是他们在未来五年十年之后的这个营收增速受到这个影响。
+[Speaker 1]: 但是这一个观点本身你是根本就没有办法去证实的。
+[Speaker 1]: 你没有办法去验证的。
+[Speaker 1]: 而在过去的两年的时间里面，
+[Speaker 1]: 很多的软件公司我们看到他们的营收增速没有受到任何的影响，
+[Speaker 1]: 他们的 margin 没有受到任何的影响。
+[Speaker 1]: 那你凭什么认为你这样的看法就是正确的？
+[Speaker 1]: 所以我说只要公司持续的去 XQ，
+[Speaker 1]: 最终华尔街所跑的这个故事线一定是会被证伪的。
+[Speaker 1]: 你不可能连续去跑这样的故事线，
+[Speaker 1]: 跑一个三年跑个四年不可能。
+[Speaker 1]: 而且软件公司持续在 XQ，
+[Speaker 1]: 那么他们的营收增速没有任何的放缓，
+[Speaker 1]: 并没有遭到 AI 的破坏。
+[Speaker 1]: 马尔俊也没有遭到 AI 的破坏，
+[Speaker 1]: 那你这个故事线不可能连续的跑三到四年。
+[Speaker 1]: 嗯，
+[Speaker 1]: 所以我认为这一个季度，
+[Speaker 1]: 那随着第一先发布财报的是微软。
+[Speaker 1]: 那随着微软财报出来之后，
+[Speaker 1]: 然后很多软件公司财报出来之后，
+[Speaker 1]: 你可以看到市场的反馈都比较的都比较的好。
+[Speaker 1]: 为什么？
+[Speaker 1]: 首先第一点一定是没有仓位在那边。
+[Speaker 1]: 那第二点，
+[Speaker 1]: 市场慢慢的发现，
+[Speaker 1]: 好像软件公司并不是所有的软件公司都受到 AI 的这个个影响。
+[Speaker 1]: 受受到 AI 的这个破坏，
+[Speaker 1]: 那我说这是需要情绪面的，
+[Speaker 1]: 这个叠加需要基本面的个叠叠加。
+[Speaker 1]: 不会因为一家公司的财报，
+[Speaker 1]: 马马上软件公司的经纪源完全带回来。
+[Speaker 1]: 不会的，
+[Speaker 1]: 就像硬件也是一样。
+[Speaker 1]: 那么硬件之所以能够能够走的那么的好，
+[Speaker 1]: 它是不断世界上的一个叠加，
+[Speaker 1]: 财报上的这个叠加。
+[Speaker 1]: 所以这个季度到现在，
+[Speaker 1]: 我就我认为大多数的软件公司财报都是不错的，
+[Speaker 1]: 希望下一个季度可以持续下去。
+[Speaker 1]: 那我认为软件这块的估值是会慢慢的回归。
+[Speaker 1]: 好吧，
+[Speaker 1]: 那今天我们就分享到这边最后做一个预告，
+[Speaker 1]: 就是在周四晚上的九点半，
+[Speaker 1]: 然后我会在 APP 里面做一个会员。
+[Speaker 1]: 针对会员的这个直播，
+[Speaker 1]: 我们在周一的时候做了一期，
+[Speaker 1]: 针对所有的直播上一上一周也做了一期。
+[Speaker 1]: 然后这周四会做针对会员的这个直播，
+[Speaker 1]: 那主要就是英伟的这个财报，
+[Speaker 1]: 我可以再聊一下。
+[Speaker 1]: 然后大家有些问题啊等等，
+[Speaker 1]: 包括周四盘后还会有 marvel 的这个财报。
+[Speaker 1]: 我有时间的话，
+[Speaker 1]: 我听完马 vel 这个财报，
+[Speaker 1]: 然后在明天的啊直播里面会和大家一起做一下分享。
+[Speaker 1]: 包括其他关于宏观的一些内容啊一些问题。
+[Speaker 1]: 大后在明天在会员直播里面可以提问好吗？
+[Speaker 1]: 这是画面里面这个二维码是下载这个链接。
+[Speaker 1]: 那么即使大家不参加，
+[Speaker 1]: 明天这个直播也没有关系。
+[Speaker 1]: 我鼓励大家先去下载，
+[Speaker 1]: 下载完之后里面有很多的一些功能，
+[Speaker 1]: 其实都非常有用，
+[Speaker 1]: 都是免费的。
+[Speaker 1]: 让大家下载完，
+[Speaker 1]: 然后去试一下，
+[Speaker 1]: 然后再考虑是不是要加入会员好吗？
+[Speaker 1]: 那今天这期内就到这边，
+[Speaker 0]: 明天见啦啦啦啦啦啦，
+[Speaker 0]: 就是。
