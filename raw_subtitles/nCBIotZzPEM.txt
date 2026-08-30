@@ -1,0 +1,443 @@
+I have created over 500 videos as a
+data scientist content creator, but this
+video is the first one that I would call
+a must watch for all data scientists.
+It is hypothesis testing.
+Hypothesis testing is one of the most
+fundamental and universal topic for data
+scientist, but it is one of the most
+confusing and misunderstood topic as well.
+So much so that you can actually create
+an arbitrage by betting with a data
+scientist and make profits because
+most data scientists would take the
+bet since the topic is expected to be
+well understood, but they would lose
+the bet because it is so confusing.
+The reason for it being so confusing
+is because our textbook is an
+inconsistent blend of two frameworks,
+the p value and significance test,
+and the hypothesis testing framework.
+Of course, online articles
+only exacerbate this problem.
+I can tell you as a PhD and as an
+experienced data scientist specialized
+in the domain of experiment, I didn't
+understand this concept until recently.
+When I shared that on LinkedIn,
+many data scientists resonated
+with my feeling because we always
+need to go to the textbook for the
+technical definitions, which, is a
+signal that we didn't understand the
+concept at a first principle level.
+Why are we uniquely qualified
+to answer this question when
+textbook failed to do so?
+We have an experienced data science
+team that has worked for years with
+customers on their experimentation
+challenges and understanding.
+we've done this from very inexperienced
+to very experienced and we've had to
+walk the fine line between the theory and
+the practical aspects of experimentation
+We distilled our years of experiences
+and our hundreds of conversations
+explaining this concept to our customers
+and we remade this video six times.
+Finally, we got to a tutorial without
+any formulas based on first principles
+with the help of a lot of visualizations
+that everyone, including middle
+school students, can understand and
+is technically correct and consistent.
+There are 10 concepts in this video
+and we'll introduce them incrementally.
+First, I'll introduce the concept
+of the null hypothesis, type one
+error, alpha, and the critical value.
+Second, I'll introduce the
+alternative hypothesis, type
+two error, beta, and power.
+Then, I will visualize how
+power change with sample size.
+And finally, I will introduce the concept
+of the minimum detectable effect or MDE,
+and how that change with sample size.
+if you don't fully understand hypothesis
+testing, If you feel like you have to
+go to the textbook definition, every
+time you talk about alpha, beta, and
+power, this is your chance to understand.
+And if you do, this is a great video to
+help you explain it to your stakeholders
+to save you hours of time down the road.
+All right, let's start
+with the null hypothesis.
+Since this is the first time we
+introduce hypothesis testing, let's
+also clarify the language between
+standard deviation and standard error.
+The concept of the null hypothesis
+is there is no treatment effect.
+It is commonly expressed as the difference
+in means between the treatment group
+and the control group  going to zero.
+According to the central limit theorem,
+the underlying distribution of this
+difference in means is going to normal
+with sufficiently large sample, and
+by sufficiently large, 30 is enough.
+Pay attention to the
+underlying distribution.
+The error of the underlying distribution
+is called the standard deviation.
+The error of the sample mean
+is called the standard error.
+Following this underlying distribution,
+if we draw one observation, it can be
+anywhere on the x axis with this chart.
+But if we draw many observations
+and take the sample mean, the
+error of the sample mean is going
+to be smaller for two reasons.
+One, more chance of being
+centered, and two, the left and
+right cancel each other out.
+So standard error is the
+standard deviation divided by the
+square root of the sample size.
+To make things simple let's assume
+the underlying distribution of our
+null hypothesis is mean zero, standard
+deviation of one, and we have a sample
+of 30, the standard error of this sample
+mean is going to be one divided by the
+square root of 30, which is about,  0.18.
+In hypothesis testing, our goal
+is to make judgments according
+to the sample we observe.
+So we plot the sample mean
+with the standard error.
+The judgment we want to make is,
+is there a treatment effect or not?
+Shall we accept this null hypothesis
+or reject this null hypothesis?
+If you wonder, did I make a mistake
+by saying, accepting the null
+hypothesis, instead of saying, failing
+to reject the null hypothesis, go to
+our blog to check the clarification.
+I'm actually correct because this is
+a world of only two possibilities.
+That is the beauty of introducing
+concepts incrementally because
+we can go to the most intuitive
+definitions without making mistakes.
+Anyway, let's go back to our
+judgment and the decision rule.
+Shall we reject or shall we accept?
+The decision rule is important
+because we are in a world of
+probability, anything on the x axis
+can happen with different chance.
+We can never be 100 percent correct,
+so we want to make certain mistakes
+with certain probabilities that is
+acceptable to our decision rule.
+Finding the right balance is what
+makes hypothesis testing useful.
+If we set our decision rule to be
+extreme, we won't make mistakes, but
+we won't make discoveries either.
+This will be clear when we talk about the
+alternative hypothesis, but let's just
+stay with the null hypothesis right now.
+With the null hypothesis, we want to
+set a rule, we want to set a threshold,
+above this threshold, we reject the
+null hypothesis, below the threshold,
+we accept the null hypothesis . This
+threshold is called the critical value.
+As you see, I only have the null
+hypothesis, so there is only
+one type of mistake I can make.
+The type 1 error, when the null
+hypothesis is true, I falsely
+rejected the null hypothesis.
+If I move the threshold, if I move
+the critical value, I can change
+the probability of my type 1 error.
+Which is the blue area and the
+curve, and it's called alpha.
+So suppose I want my alpha
+to be 5 percent or 0.05.
+I already know the distribution
+of my sample means,
+I do some calculation and discovered
+the critical value in this setting
+corresponding to 5 percent alphais 0.30
+.
+Our simple decision rule is, if we
+draw a sample of 30 observations
+and calculate the sample mean, if
+the sample mean is above 0.3, Then
+we reject the null hypothesis.
+If the sample mean is below 0.3,
+we accept the null hypothesis.
+If we check the math, the
+blue area, our alpha is 5%.
+With the introduction of the null
+hypothesis, alpha, and the critical
+value, let's ready to make discovery
+by having an alternative hypothesis.
+When we talk about the alternative
+hypothesis, there is another
+important concept that textbook
+do not talk about very much and
+it can cause a lot of confusions.
+That is, we have infinitely
+many alternative hypotheses.
+Alternative hypothesis is
+theoretical construct, it's not real.
+For example, I plotted a lot of
+alternative hypothesis on this graph given
+any observation, each of them are likely
+to be true given certain probability.
+We will clear this concept of
+why we can talk about only one
+alternative hypothesis in the world
+of infinitely many alternative
+hypotheses when we talk about MDE.
+Right now, pay attention to my
+language, for the sake of simplicity,
+let's just look at one particular
+alternative hypothesis with the
+underlying distribution of mean equals
+0.5 and standard deviation equals 1.
+We show the alternative
+hypothesis in red on this chart.
+With the introduction of this
+particular alternative hypothesis,
+we can modify our decision rule.
+For our sample of 30, if the observed
+mean is above 0.3, Then we reject
+the null hypothesis and accept this
+particular alternative hypothesis.
+If the observed mean is below 0.3,
+we accept the null hypothesis and
+reject the alternative hypothesis.
+If the alternative hypothesis is
+the truth, Then we made an error
+when we reject the alternative
+hypothesis and we can calculate
+the probability of this error.
+This error is called the type 2 error.
+It is when we falsely reject the
+alternative hypothesis when the
+alternative hypothesis is true.
+Beta is the probability
+of making type 2 error.
+This is a slightly confusing
+part, but it's important.
+If I move the alternative hypothesis,
+if I have a different alternative
+hypothesis, my beta would change.
+Beta fundamentally really speaks
+to the probability of rejecting a
+particular alternative hypothesis.
+And only by combining with
+other conditions, rejecting the
+alternative hypothesis implies
+accepting the null hypothesis.
+As you see, there are three things that
+can impact beta, the standard error
+of the alternative hypothesis, the
+mean of the alternative hypothesis,
+and how we choose the critical value.
+We choose this critical value because
+we want 5 percent alpha, which
+corresponds to a particular beta given
+a particular alternative hypothesis.
+If we set up the alternative hypothesis
+to be conservative, Beta is big.
+If we set up the alternative hypothesis
+to be extreme, beta is small.
+We are very close to talking about the
+tradeoff between discovery and mistake.
+With that, we're ready to talk
+about power, which is the central
+topic of statistical testing.
+The textbook definition of power
+is 1 - beta, then many people stop
+here, but you may wonder, why?
+What does 1 minus beta mean?
+What does power mean?
+We should ask this question because
+an intuitive understanding of
+power is fundamental to everything.
+So let's actually explain
+power in three different ways.
+From this graph, 1 minus beta is power.
+It is the probability of accepting this
+particular alternative hypothesis given
+our assumptions and our decision rule.
+The second way is let's
+understand with an example.
+Power is actually an intuitive concept.
+It speaks to how much power we
+have in detecting a true effect.
+Let's use a real world example
+of, uh, trying to determine the
+most popular car manufacturer.
+If I observe one car and one brand,
+my observation is not very powerful.
+If I observe a million different
+cars, my observation is very powerful.
+In short, a powerful test means I have a
+higher chance of detecting a true effect.
+And the third way, let's actually combine
+this definition of power and the intuitive
+example of more sample leads to more
+power, and visualize them on the chart.
+Let's change the sample
+size from 30 to 100.
+When we do that, the standard error got
+smaller, so the distribution got narrower.
+Suppose we are okay with alpha
+being 5%, the 5 percent alpha now
+corresponds to a smaller critical value.
+The smaller critical value plus
+the smaller standard error gives us
+much more power, which means,  for
+the same alternative hypothesis.
+Now we have much less chance of making a
+type two error of falsely rejecting it.
+So we have a lot more power to
+detect this alternative hypothesis.
+So hopefully by now, I made
+the concept of the alternative
+hypothesis beta and power clear.
+And finally, we are ready to talk about
+the Minimum Detectable Effect, or MDE.
+And as promised, we'll explain the
+concept of why we talk about one
+particular alternative hypothesis
+in the world of this infinitely
+many alternative hypothesis.
+So let's add the red dotted line to
+represent the mean of our alternative
+hypothesis and when the mean is
+0.5, it corresponds to a beta
+of 14 percent or a power of 86%.
+What if for the same sample
+we want our power to be 20%?
+We go to a different
+alternative hypothesis.
+Remember, all of them are theoretical
+construct, so I can choose anyone.
+I discovered when the mean of our
+alternative hypothesis is 0.45,
+it corresponds to a beta of 20%.
+That is a more conservative
+alternative hypothesis.
+So we have more chance
+of making type two error.
+Now comes the concept of the
+minimum detectable effect.
+Remember, in statistical testing,
+we almost always want more power.
+More power means we have a higher
+chance of detecting a true effect.
+So any alternative hypothesis to
+the right of this particular one
+is a good alternative hypothesis.
+It is an alternative hypothesis
+with less beta and more power.
+So the minimum detectable effect
+is given our assumptions of the
+underlying distribution, given our
+null hypothesis, given an alpha, so
+we can determine the critical value.
+And given a beta, so we know how
+much power we need at least, what is
+the minimum value of the mean of the
+alternative hypothesis that we can detect?
+Any alternative hypothesis
+above this minimum, we can also
+detect with even more power.
+That is the definition of MDE.
+While the concept is still
+fresh, let's see how MDE changed
+with sample size to tie all the
+concepts together one more time.
+So we changed our sample
+from 30 to 100 again.
+And this time, we fixed
+both alpha and beta.
+Again, when the sample size increase our
+standard error decrease, the distribution
+of sample means gets narrower, gets
+more accurate.Same as before, if we
+tolerate the same level of alpha being
+5%, we get a smaller critical value.
+Now, if we hold beta constant at
+20%, our MDE decreases as a result.
+When we increase our sample
+size from 30 to 100, our MDE
+decreased from 0.45 to 0.25.
+That is the other key
+takeaway from this video.
+When your sample size
+increase, your MDE decrease.
+That is such an important
+takeaway in statistical testing.
+More sample means we can detect a
+smaller effect, but if our effect
+is bigger, we don't require a
+large sample to detect such effect.
+So even for companies without
+a huge sample size, if their
+treatment effect is large enough, A
+B testing can reliably detect that.
+Hope I made everything clear from the null
+hypothesis, the alternative hypothesis
+to MDE and all the concepts in below.
+I also elaborated two important but
+under discussed concepts, standard
+deviation versus standard error,  and the
+infinitely many alternative hypothesis.
+The reason I spent so much time in
+talking about power, because almost
+everything in A B testing is indirectly
+or directly related to power.
+For example, variance reduction
+techniques such as CUPED.
+In this video, we fix standard
+deviation to be one, but, in reality,
+standard deviation can be different
+and can be reduced by different
+techniques, which can increase power.
+Sequential testing, why an
+underpowered test can lead to
+false discovery and bad decisions.
+Not to mention the everlasting contest
+between speed of the experiment,
+scale, the sample size of the
+experiment, and how much effect we
+expect to detect from the experiment.
+Those are deep, important,
+and valuable concepts in the
+practical use of A B testing.
+Of course, I will make a lot
+of videos in the future to talk
+about these concepts one by one.
+But all of that builds on
+the foundation of a solid
+understanding of statistical power.
+So, hope this episode is useful to you.
+Stay tuned if you want to
+see more content like this.
+See you next time.
