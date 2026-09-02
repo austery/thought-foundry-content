@@ -1,0 +1,485 @@
+[Speaker 0]:  hello，
+[Speaker 0]: 大家好，
+[Speaker 0]: 欢迎来到牛 monlife 美股频道，
+[Speaker 0]: 我是 AS。
+[Speaker 0]: 本期简短的视频。
+[Speaker 0]: 十来分钟和大家更新一下最近一系列期权操作，
+[Speaker 0]: 其中包括大家可能比较意外的 AST space、
+[Speaker 0]:  mobile 上市代号 ASTS，
+[Speaker 0]: 以及昨天刚刚才买入的英伟达的期权。
+[Speaker 0]: 那么我在本周的周末复盘加推演节目已经告诉大家，
+[Speaker 0]: 我自己最近股票一直跌跌跌跌到现在。
+[Speaker 0]: 我上午看了一下 year today day，
+[Speaker 0]: 就是今今年我持仓了一些股票，
+[Speaker 0]: 它的表现，
+[Speaker 0]: 那么特斯拉跌的好像跌百分之二十左右吧。
+[Speaker 0]: 呃 RKLB 也是跌了百分之十几，
+[Speaker 0]: 基本上没有太多。
+[Speaker 0]: 从今年年初到现在已经九月一号了，
+[Speaker 0]: 在上涨的股票嗯，
+[Speaker 0]: 所以我在过去两三个月下跌的过程中，
+[Speaker 0]: 已经持续用正股的手段进行做多。
+[Speaker 0]: 我的习惯就是左侧左侧去买嘛，
+[Speaker 0]: 那么当买不动的时候呢，
+[Speaker 0]: 我在前面两三周就做卖出看跌期权，
+[Speaker 0]: 然后到上周到昨天就开始进入第三个阶段，
+[Speaker 0]: 通过买入看涨期权看多。
+[Speaker 0]: 嗯，
+[Speaker 0]: 为什么买入看涨期权？
+[Speaker 0]: 不仅仅是因为我觉得这些股票价值我认为是被低估的啊，
+[Speaker 0]: 还有一个原因就是因为在股价是低迷的时候，
+[Speaker 0]: 像现在很多股票，
+[Speaker 0]: 它的 IV 隐含波动率相当的低。
+[Speaker 0]: 那么其实对于期权，
+[Speaker 0]: 我我我的理解就是非常简单的，
+[Speaker 0]: 我不想把它搞得太过复杂。
+[Speaker 0]: 我的期权操作只做两种。
+[Speaker 0]: 好的好的，
+[Speaker 0]: 第一种就是卖出看跌期权。
+[Speaker 0]: 第二种就是买入看涨期权，
+[Speaker 0]: 而且我选择的期权的行权日期很少做超短期的，
+[Speaker 0]: 一般都是做半年到一年甚至更久的。
+[Speaker 0]: 那么我会看两个指标，
+[Speaker 0]: 最重要的一个就是 IV，
+[Speaker 0]: 隐含波动率，
+[Speaker 0]: 一个就是 IV 和历史 IV 的对比，
+[Speaker 0]: 也就是现在的隐含波动率。
+[Speaker 0]: 在整个历史水平来看是什么百分比，
+[Speaker 0]: 对吧？
+[Speaker 0]: 如果小于百分之百，
+[Speaker 0]: 那肯定好过大于百分之百。
+[Speaker 0]: 如果对于买方来说的话，
+[Speaker 0]: 那么最近 IV 很低，
+[Speaker 0]: 就和就比较适合期权的买方，
+[Speaker 0]: 而不适合去做。
+[Speaker 0]: 比如说去 sell call，
+[Speaker 0]: 卖出看涨期权非常不划算。
+[Speaker 0]: 所以会员朋友们问，
+[Speaker 0]: 为什么现在不去做卖出看涨期权呢？
+[Speaker 0]: 就是因为股价太低了，
+[Speaker 0]:  IV 也很低。
+[Speaker 0]: 你你你哪怕权利金，
+[Speaker 0]: 你你哪怕行权价做的非常靠近现在的股价，
+[Speaker 0]: 你也获获得不了太多的权利金，
+[Speaker 0]: 好吧？
+[Speaker 0]: 嗯，
+[Speaker 0]: 的好，
+[Speaker 0]: 嗯，
+[Speaker 0]: 那么我现在拥有哪些看涨期权呢？
+[Speaker 0]: 做一下更新啊。
+[Speaker 0]: 首先呢我有 RQB 和 ASTS 的看涨期权，
+[Speaker 0]: 行权价是八十，
+[Speaker 0]: 期权，
+[Speaker 0]: 日期是二七年一月。
+[Speaker 0]: 这两张看涨期权呢是我所有期权里面新权日期最近的啊，
+[Speaker 0]: 所以就是最激进的两张两个看涨期权。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 我有 space x 明年六月一百三十五新权价的看涨期权，
+[Speaker 0]: 买的时候呢，
+[Speaker 0]: 还是在价外。
+[Speaker 0]: 那么现在已经在价内了嘛，
+[Speaker 0]: 因为 space x 的股价已经来到了一百三十五上方，
+[Speaker 0]: 然后还有之前买的 BE bloom energy。
+[Speaker 0]: 呃，
+[Speaker 0]: 新券价两百也是二七年六月到行券日期的看涨期权是建仓加仓。
+[Speaker 0]: 加仓就是做了好几次有好几张看涨期权，
+[Speaker 0]: 因为 BE 的这个看涨期权是很贵的。
+[Speaker 0]: 没有，
+[Speaker 0]: 最后就是昨天刚刚买的买了一些英伟达，
+[Speaker 0]: 数量还不少啊，
+[Speaker 0]: 一次性买入了一些英伟达二七年九月到期的新均价，
+[Speaker 0]: 两百三的看涨期权。
+[Speaker 0]: 同时呢还有一些看跌期权，
+[Speaker 0]: 这个在之前的视频都分享过了，
+[Speaker 0]: 就不重复了。
+[Speaker 0]: 本期重点就是说看涨期权。
+[Speaker 0]: 好呃，
+[Speaker 0]: 分享完了这些细节呃，
+[Speaker 0]: 我我逐一聊一下吧，
+[Speaker 0]: 特别是一些没有阐述过的或者解释过的东西。
+[Speaker 0]: 第一个就是 ASDS，
+[Speaker 0]: 为什么现要去做 ASTS？
+[Speaker 0]: 其实不是说改变了对于 ASTS 这种长期的看法，
+[Speaker 0]: 也就是我过去的观点长期不太看好，
+[Speaker 0]: 或者是不太放心去持有 ASTS 这只太空股票。
+[Speaker 0]: 但是呢它的股价最近跌的很厉害，
+[Speaker 0]: 它的股价走势和我们的 RKLB 很相似，
+[Speaker 0]: 而且 ASTS 年初到现在的跌幅，
+[Speaker 0]: 甚至比 RKOB 年初到现在的跌幅还要大。
+[Speaker 0]: 那么 ASTS 最新的股价昨天收盘，
+[Speaker 0]: 那是我看一下啊，
+[Speaker 0]: 蛮低的，
+[Speaker 0]: 我这边有数据，
+[Speaker 0]: 昨天 ASTS 收盘是不到六十块，
+[Speaker 0]:  RKLB 收盘是不到六十四难兄难弟。
+[Speaker 0]: 然后 ASTS 我最近觉得反而有好的地方，
+[Speaker 0]: 就是因为蓝色起源辛格伦，
+[Speaker 0]: 它的发射场地爆炸。
+[Speaker 0]: 对吧 ASTS 没有了这个他们之前一直宣传的猎鹰九号以外的选项，
+[Speaker 0]: 他们只有猎鹰九号一个选项了，
+[Speaker 0]: 那反而让他们整个发射变得更加 smooth，
+[Speaker 0]: 更加顺畅。
+[Speaker 0]: 因为每一个猎鹰九号发射就能发射至少三枚 ASTS 的卫星。
+[Speaker 0]: 如果我记得没错的话，
+[Speaker 0]: 最近我有记忆的已经发射发射过两次雷零九号搭载 ASTS 的卫星了，
+[Speaker 0]: 所以一共是三颗加三颗六颗卫星，
+[Speaker 0]: 接下来还会有发射。
+[Speaker 0]: 所以 ASTS 最近虽然蓝色起源的火箭出事，
+[Speaker 0]: 但是它的火箭它的卫星部署反而是有条不紊在进行。
+[Speaker 0]: 然后股价也是很低了，
+[Speaker 0]: 我就觉得哎有机会 IV 值也是很低。
+[Speaker 0]: 另外一个原因就是买入 STS。
+[Speaker 0]: 其实更多的还是在买入太空板块，
+[Speaker 0]: 我自己最了解，
+[Speaker 0]: 我也觉得最有可能底部反弹起来，
+[Speaker 0]: 结合我相对放心的各个因素结合起来，
+[Speaker 0]: 我愿意去尝试的两家公司，
+[Speaker 0]: 对吧？
+[Speaker 0]: 第一个是 RKOB 不用说了，
+[Speaker 0]: 第二个就是 ASDS。
+[Speaker 0]: 所以 ASDS 这次买入看涨期权，
+[Speaker 0]: 更多的是去尝试搏一下反弹。
+[Speaker 0]: 它反弹起来如果能赚一些钱，
+[Speaker 0]: 那达到投资目的就止盈就行了。
+[Speaker 0]: 所以还是一个投机的操作，
+[Speaker 0]: 并不是一个长期的用这个看涨期权来进行投资的操作。
+[Speaker 0]: 而且我的期权日期是在一月嘛，
+[Speaker 0]: 所以一月的话是一个短期的距离，
+[Speaker 0]: 现在是四五个月，
+[Speaker 0]: 不算长期啊。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 我再说一下啊，
+[Speaker 0]: 英伟达英伟达我刚刚才在和会员朋友们分分享分享，
+[Speaker 0]: 然后包括也发生了 x 平台。
+[Speaker 0]: 我就说去年英伟达二季度财报，
+[Speaker 0]: 它的整个营收才四百多亿美美元。
+[Speaker 0]: 今年二季度财报营收接近一千亿美元了，
+[Speaker 0]: 九百多亿就是翻倍还多。
+[Speaker 0]: 所以 year over year 营收翻倍。
+[Speaker 0]: 更恐怖的是，
+[Speaker 0]: 今年二季度英伟达的净利润达到了营收是九百多亿，
+[Speaker 0]: 净利润应该是五六百亿，
+[Speaker 0]: 五六百亿的净利润已经直接就超过了去年同期的营收四百多亿。
+[Speaker 0]: 所以仅仅过了一年啊，
+[Speaker 0]: 净利润这个绝对数字超过了营收。
+[Speaker 0]: 而且单季度五百多亿的净利润意味着什么？
+[Speaker 0]: 意味着它超过了美国很多很多这种大型公司各个行业利润的总和。
+[Speaker 0]: 你比如说沃尔玛呀、
+[Speaker 0]: 麦当劳啊这些对吧？
+[Speaker 0]: 就我真的这个英伟达真的是市场上一个奇葩财务数据这么好，
+[Speaker 0]: 估值这么低，
+[Speaker 0]: 护城河如此的深，
+[Speaker 0]: 但是市场又如此的公开的野蛮的，
+[Speaker 0]: 不给他这个对应的估值倍数，
+[Speaker 0]: 是吧？
+[Speaker 0]: 我在早前其实是持仓了百分之三十的英伟达。
+[Speaker 0]: 呃，
+[Speaker 0]: 但是呢我当时的持仓理念是把它当做现金来用。
+[Speaker 0]: 随着我的 space set 以及 RKLB 不断给机会，
+[Speaker 0]: 就把这部分百分之三十的英伟达很快的卖了，
+[Speaker 0]: 其实也赚到了一些钱不多。
+[Speaker 0]: 那后来卖了之后呢，
+[Speaker 0]: 英伟达股价开始跌跌了，
+[Speaker 0]: 二季度财报很优秀，
+[Speaker 0]: 反弹反弹了，
+[Speaker 0]: 第二天又跌百分之五。
+[Speaker 0]: 我在周末复盘与推演视频说过，
+[Speaker 0]: 又去找二十日均线。
+[Speaker 0]: 哎，
+[Speaker 0]: 我就觉得如果又给我这种去二十日均线的机会，
+[Speaker 0]: 在二季度财报如此炸裂的情况下，
+[Speaker 0]: 我真的是忍不住了，
+[Speaker 0]: 直接买了不少的一次性的看涨期权，
+[Speaker 0]: 买到明年九月就相当于持有证股了呗，
+[Speaker 0]: 对吧？
+[Speaker 0]: 然后呢，
+[Speaker 0]: 我买的行权价是两百三距离，
+[Speaker 0]: 现在呃不算很远吧，
+[Speaker 0]: 很有希望变成一个价内。
+[Speaker 0]: 当然买两百三也有一个其他的想法，
+[Speaker 0]: 就是说两百三会是英伟达这家公司。
+[Speaker 0]: 如果啊我看现在它的日 k 线图，
+[Speaker 0]: 如果它能够突破前高，
+[Speaker 0]: 前高只有一天是二零二六年。
+[Speaker 0]: 五月十四号周四，
+[Speaker 0]: 它开盘开在二百二十九，
+[Speaker 0]: 收盘收在二百三十五。
+[Speaker 0]: 所以呢一旦有突破前高的可能，
+[Speaker 0]: 就会让我的期权变成价内。
+[Speaker 0]: 那么这就是一个标志性事件，
+[Speaker 0]: 如果突破前高再往上走，
+[Speaker 0]: 那么空间就很大嘛。
+[Speaker 0]: 所以呢我也是做了一个二百三呃比较长期的这个 leap call 的选择去买入英伟达。
+[Speaker 0]: 请注意啊，
+[Speaker 0]: 大就要控制风险。
+[Speaker 0]: 我买入英伟达，
+[Speaker 0]: 更多的是用我的融资去买的，
+[Speaker 0]: 因为你买入 call 要用现金嘛，
+[Speaker 0]: 那我现在已经没有现金了。
+[Speaker 0]: 我目前的融资水平呢是单个位数百分比啊就没有很高，
+[Speaker 0]: 我的极限可能是百分之二十左右。
+[Speaker 0]: 所以呢我还有那么一点空间去做操作，
+[Speaker 0]: 买入正股也好。
+[Speaker 0]: 你比如说 RQB 如果之后跌破六十，
+[Speaker 0]: 我可能再去买入正股啊，
+[Speaker 0]: 或者是跌的很厉害，
+[Speaker 0]: 我可能就真的要忍住了，
+[Speaker 0]: 可能要准备一些融资，
+[Speaker 0]: 去接我的卖出看跌期权的正股，
+[Speaker 0]: 对吧？
+[Speaker 0]: 不过我时时刻刻都在看每天账户的表现。
+[Speaker 0]: 这个我在昨天也和会员朋友们分分享了我如何去看待期权的风风险问题啊，
+[Speaker 0]: 就分两个层面。
+[Speaker 0]: 第一个层面就是权利金的角度，
+[Speaker 0]: 你现在持仓的期权的篮子，
+[Speaker 0]: 如果要去平仓，
+[Speaker 0]: 你是要花钱呢，
+[Speaker 0]: 还是可以得到现金呢？
+[Speaker 0]: 对吧第二个就是被行权以及行权的这个角度。
+[Speaker 0]: 然后我告诉我的会员朋友们做期权对于我来说不难，
+[Speaker 0]: 永远都往前看一步啊不要老想着现在不要想着现在你的期权赚了多少钱，
+[Speaker 0]: 你的期权亏了多少钱？
+[Speaker 0]: 往前想一步啊，
+[Speaker 0]: 比如说 salll put 卖出，
+[Speaker 0]: 看你的期权。
+[Speaker 0]: 往前想一步，
+[Speaker 0]: 如果它跌的很厉害，
+[Speaker 0]: 你要接你能不能接？
+[Speaker 0]: 如果不能接跌到什么位置，
+[Speaker 0]: 你要去做权利金的止损，
+[Speaker 0]: 对吧？
+[Speaker 0]:  ok 在这里呢宣传一下 is 的 monlior life 美国频道会员社群，
+[Speaker 0]: 欢迎大家通过视频下方的 ace，
+[Speaker 0]: 也就是我的名字，
+[Speaker 0]:  ACE 横杠，
+[Speaker 0]:  dash money，
+[Speaker 0]:  money or life 的 con is 横杠，
+[Speaker 0]:  money or life 的 com。
+[Speaker 0]: 我的个人官网找到我所有的会员社群，
+[Speaker 0]: 包括中国国内的哔哩哔哩。
+[Speaker 0]:  b 站可以通过 b 站加入微信，
+[Speaker 0]: 包括 payon 平台，
+[Speaker 0]: 包括我新开通的 x 平台的 subscription。
+[Speaker 0]: 大家只选一个你们喜欢的平台就可以了。
+[Speaker 0]: 现在市场虽然不好，
+[Speaker 0]: 但是我觉得越不好好时候。
+[Speaker 0]: 或许某些博主为你提供供信信息，
+[Speaker 0]: 谢价值能够帮助你度过难关，
+[Speaker 0]: 希望大家能够考虑加入我的会员社群。
+[Speaker 0]: 感谢大家好，
+[Speaker 0]: 我们刚刚聊完了呃，
+[Speaker 0]:  ASDS 以及英伟达，
+[Speaker 0]: 为什么我要去做看涨期权的操作？
+[Speaker 0]: 再简单说一下 BE 这家公司啊，
+[Speaker 0]:  BE 这家公司我在周末的时候已经提到了，
+[Speaker 0]: 所以这里呢只是做一个补充。
+[Speaker 0]: 呃，
+[Speaker 0]: 前两天看新闻说马斯克它呃在 x 平台就高调的确认说 ok 我们公司就是做做传统的燃气涡轮发电机的这个叶片。
+[Speaker 0]: 因为这个叶片它是一个需要高调高精度，
+[Speaker 0]: 需要每天转转转转转不坏的东西嘛。
+[Speaker 0]: 所以其实要做到如此稳定，
+[Speaker 0]: 如此高质量不是很难的啊，
+[Speaker 0]: 但是 swicess 现在就在做。
+[Speaker 0]: 因为马斯克说，
+[Speaker 0]: 现在这些叶片这个零部件是像 GVG voava 这样的生产燃气涡轮发电机的公司最缺的零件。
+[Speaker 0]: 所以他说哎，
+[Speaker 0]: 如果你缺，
+[Speaker 0]: 那我自己来做对吧？
+[Speaker 0]: 因为 swicess 未来它的这个和特斯拉它算是 joint venture 吧。
+[Speaker 0]: 但是大头算是 space x 的这个 terroaffive 计划需要大量的发电机。
+[Speaker 0]: 最近几年依然要靠燃气涡轮发电机，
+[Speaker 0]: 所以他自己做叶片可能可以和燃气涡轮机的这种呃供应商协作。
+[Speaker 0]: 比如说如果叶片换了，
+[Speaker 0]: 我自己造自己换，
+[Speaker 0]: 可以节约一些时间等等，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那么这和 BE 有什么关系呢？
+[Speaker 0]: 有关系啊。
+[Speaker 0]:  BE 我在 BE 的个股分析里，
+[Speaker 0]: 将它和 GEV 的这种燃气涡轮发电机进行了对比。
+[Speaker 0]: 其实 BE 这样的公司之所以它的燃料电池有市场，
+[Speaker 0]: 就是因为燃气涡轮发动机这样的产品供不应求。
+[Speaker 0]: 而且这个机器就是一个机械怪兽太复杂，
+[Speaker 0]: 了如产一台的周期很长，
+[Speaker 0]: 一台的 capex 投入很大。
+[Speaker 0]: 那么它缺乏一些灵活性。
+[Speaker 0]: 如果世界上有无限供应的高质量的燃气涡轮发电机，
+[Speaker 0]: 我们不需要 BE。
+[Speaker 0]: 但现实是，
+[Speaker 0]: 最近几年都不可能实现。
+[Speaker 0]: 所以我对 BE 的看法其实一直都是 OK 的。
+[Speaker 0]: 我有一个 VIP 会员，
+[Speaker 0]: 呃，
+[Speaker 0]: 我现在的 VIP 会员已经停了啊。
+[Speaker 0]:  by the way，
+[Speaker 0]: 这是我以前的 VIP 会员，
+[Speaker 0]: 他很早就持有 BE。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 最近我就和他单独讨论了 BE 这家公司。
+[Speaker 0]: 我就说我其实一直在关注 BE 在 BE 上一轮下跌跌到一百五六的时候，
+[Speaker 0]: 就是那个时候很可惜吧，
+[Speaker 0]: 我没有关注到，
+[Speaker 0]: 就是没有抓住这个时机去建仓。
+[Speaker 0]: 那么这一次 BE 在上周还是上上周，
+[Speaker 0]: 反正到了一百八十这个价位，
+[Speaker 0]: 夜盘我就非常心动，
+[Speaker 0]: 我想不能错过这个机会了，
+[Speaker 0]: 然后呢就进行了看涨期权的买入，
+[Speaker 0]: 然后运气很好，
+[Speaker 0]: 咱们的佩洛西就在几乎不同，
+[Speaker 0]: 一时间买入了，
+[Speaker 0]: 把 BE 的股价稍微一下就拉了起来，
+[Speaker 0]: 拉到两百以上。
+[Speaker 0]: 呃，
+[Speaker 0]: 在第一次建仓之后呢，
+[Speaker 0]: 我又进行了加仓。
+[Speaker 0]: 我的意思就是说，
+[Speaker 0]:  BE 这样的产品它不完美，
+[Speaker 0]: 它可能不是我想长期投资放心，
+[Speaker 0]: 长期持有就根本不用去管它看每天去追踪的股票。
+[Speaker 0]: 但是在目前啊目前这个 AI 基础设施耗电的这种宏观背景下，
+[Speaker 0]: 拿着 BE 在一百多的价位去建仓，
+[Speaker 0]: 我是非常放心的啊。
+[Speaker 0]: 其实现在 BE 的价格，
+[Speaker 0]: 我个人觉得啊两百零六昨天收盘也不算贵。
+[Speaker 0]: 屏幕前的你们，
+[Speaker 0]: 如果在电力这一块风险嗜耗比较高的，
+[Speaker 0]: 那么 BE 我觉得是最佳选择之一吧，
+[Speaker 0]: 因为它的股性也很好啊，
+[Speaker 0]: 弹性也非常大。
+[Speaker 0]: 视频的最后呢，
+[Speaker 0]: 我还是呃老样子说一下，
+[Speaker 0]:  RQBRQB 非常非常明显的在我的会员社群出现了很多的焦虑啊，
+[Speaker 0]: 我非常能够理解，
+[Speaker 0]: 特别是屏幕前的你们。
+[Speaker 0]: 如果是 s 的会员，
+[Speaker 0]: 我真的非常能够理解。
+[Speaker 0]: 那么我也是尽我所能去回复这些带有个人个人焦虑也好，
+[Speaker 0]: 或者是各种情绪的发言，
+[Speaker 0]: 我都尽量去回复，
+[Speaker 0]: 去安抚大家。
+[Speaker 0]: 我最近的回答都是不要卖 RQ 币，
+[Speaker 0]: 我自己的方向操作是完全相反的对吧？
+[Speaker 0]: 我虽然正股有一些加不动了，
+[Speaker 0]: 但是我再通过期权，
+[Speaker 0]: 相当于用杠杆去抄底 RKOB。
+[Speaker 0]: 正股我不会卖这个价格，
+[Speaker 0]: 期权我可能还会加吗？
+[Speaker 0]: 而 KOB 这样的公司，
+[Speaker 0]: 就是它不是说他这个公司有很大的问题，
+[Speaker 0]: 而是现在整个太空板块非常的低落。
+[Speaker 0]: 我刚刚提到了这个 ASS，
+[Speaker 0]: 对吧？
+[Speaker 0]:  year to day 本年度到现在跌的比 RKBRKLB 还多。
+[Speaker 0]: 而我今天上午也看了一下我整个太空板块 list，
+[Speaker 0]: 今年从年初到现在的涨幅，
+[Speaker 0]: 涨幅最大的有几只吧。
+[Speaker 0]: 比如说 irradium 这样的公司，
+[Speaker 0]: 是因为呃它的频谱优质，
+[Speaker 0]: 然后又宣布被 RKLB 收购。
+[Speaker 0]: 所以有些特殊特殊的原因之外，
+[Speaker 0]: 大部分太空股股票今年都是跌的。
+[Speaker 0]: 而且最近太空板块非常的低迷，
+[Speaker 0]: 没有任何热点，
+[Speaker 0]: 没有任何交易量。
+[Speaker 0]: 如果你在这个时候选择去卖出，
+[Speaker 0]: 无异于在上一轮五十八到六十多去卖出，
+[Speaker 0]: 我觉得太不划算了。
+[Speaker 0]: 然后我也看到一些朋友说，
+[Speaker 0]: 这次涨到七十多八十，
+[Speaker 0]: 我一定要把它卖掉。
+[Speaker 0]: 其实我觉得对于这样的朋友，
+[Speaker 0]: 先不要给自己下过早的定论，
+[Speaker 0]: 好吧，
+[Speaker 0]: 因为每一个月 RKOB，
+[Speaker 0]: 它可能从消息面你的判断都不一样。
+[Speaker 0]: 你比如说最近一个可能的催化剂，
+[Speaker 0]: 就是 mars s telecommunication network MTN 合同的宣布，
+[Speaker 0]:  RKOB 是嗯最有希望的一个竞标者。
+[Speaker 0]: 那么这个合同的截止日期，
+[Speaker 0]: 按照整个美国政府的预算，
+[Speaker 0]: 必须要在九月宣布。
+[Speaker 0]: 也就是说今天已经九月一号了，
+[Speaker 0]: 九月我们就会知道 RQB 能否入选。
+[Speaker 0]: 如果一旦入选，
+[Speaker 0]: 嗯嗯，
+[Speaker 0]: 入选当天，
+[Speaker 0]: 如果还是这样五六十的股价，
+[Speaker 0]: 六十多七十不到的股价，
+[Speaker 0]: 那它肯定是一个很好的催化剂。
+[Speaker 0]: 但是如果它没有入选，
+[Speaker 0]: 我觉得它还会往下跌。
+[Speaker 0]: 所以就是 RKOB，
+[Speaker 0]: 你要说它能不能往下跌，
+[Speaker 0]: 我觉得还是有可能的。
+[Speaker 0]: 但是你要说我要不要现在去考虑卖，
+[Speaker 0]: 我是一丁点都没有犹豫，
+[Speaker 0]: 都没有考虑我拿的死死的。
+[Speaker 0]: 我觉得现在对于我而言，
+[Speaker 0]:  RQB 上行的空间和可能性显然要大于下行。
+[Speaker 0]: 而现在 IV 值低的情况下，
+[Speaker 0]: 我用期权去博取更大反弹带来的收益。
+[Speaker 0]: 好吧？
+[Speaker 1]: 对对对，
+[Speaker 0]: 最后呢聊一个题外话，
+[Speaker 0]: 就是我在之前经常说过的，
+[Speaker 0]: 就是关于我的收益。
+[Speaker 0]: 我今天拉了一个持仓公司的 year to day 的收益啊，
+[Speaker 0]: 里面绝大部分都是负数。
+[Speaker 0]: 那我自己的收益呢？
+[Speaker 0]: 截止今天截止八月最后一天，
+[Speaker 0]: 八月已经过去了嘛，
+[Speaker 0]: 是百分之五十二，
+[Speaker 0]: 所以我能做到百分之五十二的收益。
+[Speaker 0]: 我自己觉得也有运气的成分。
+[Speaker 0]: 说实话，
+[Speaker 0]: 我觉得我很 lucky，
+[Speaker 0]: 今年我的所有的大部分重仓 year today 都没有涨的情况下，
+[Speaker 0]: 我的持仓没有百分之五十。
+[Speaker 0]: 二是得益于我对一些股票重仓股的择时，
+[Speaker 0]: 特别是两家公司 spwitx 和 RKOB。
+[Speaker 0]: 那么 swisex 我的择时，
+[Speaker 0]: 我目前给自己一百分，
+[Speaker 0]: 甚至超过一百分，
+[Speaker 0]: 非常准确。
+[Speaker 0]: 啊，
+[Speaker 0]: 所以我目前对于 spes 股价的判断，
+[Speaker 0]: 因为过去的择时的准确性相当有信心。
+[Speaker 0]: 啊，
+[Speaker 0]: 包括最近的一轮一三五到一五零一六零，
+[Speaker 0]: 我就说到一三五，
+[Speaker 0]: 如果跌不下去，
+[Speaker 0]: 我就会在一三五附近买买买。
+[Speaker 0]: 买买买。
+[Speaker 0]: 目前也证明最近 spes 每天都是阳线很不错啊，
+[Speaker 0]: 虽然没有暴涨，
+[Speaker 0]: 而 RQLB 呢则是我觉得有运气，
+[Speaker 0]: 呃，
+[Speaker 0]: 那么也是有自己的判断。
+[Speaker 0]: 但是呢 RQB 我没有勇气去如此大仓位的做择时。
+[Speaker 0]: 比如说在最高点一百三到一百五，
+[Speaker 0]: 我卖的部分呢并不是说超过百分之五十就接近百分之五十而已。
+[Speaker 0]: 因为实在不忍心把它全部卖掉，
+[Speaker 0]: 担心卖飞而。
+[Speaker 0]: 像 swiet 这种股票刚刚上市，
+[Speaker 0]: 它的股价虚高太多的情况下，
+[Speaker 0]: 我更敢于去做择时那更大的仓位去做择试。
+[Speaker 0]: 好吧，
+[Speaker 0]: 嗯，
+[Speaker 0]: 我不知道自己未来会不会持续这样的择时的做波动的操作，
+[Speaker 0]: 我觉得尽可能吧有可能之后我的操作会改变。
+[Speaker 0]: 随着我的账户越做越大或者收益之后希望越来越好，
+[Speaker 0]: 可能会尽量减少择时的仓位的操作。
+[Speaker 0]: 但是呢对于公司有自己的判断，
+[Speaker 0]: 我觉得是好的事情啊，
+[Speaker 0]: 要拿多大的仓位去做择时的波动，
+[Speaker 0]: 那完全取决于大家的承受能力。
+[Speaker 0]: 因为择时就可能卖飞，
+[Speaker 0]: 对吧？
+[Speaker 0]: 不一定非不一定非要做好。
+[Speaker 0]: 如果你喜欢我的视频，
+[Speaker 0]: 欢迎呃点赞、
+[Speaker 0]: 订阅转发，
+[Speaker 0]: 在不同的平台关注我耶。
+[Speaker 0]: 欢迎考虑加入 s 的会员，
+[Speaker 0]: 我们下期视频再见。
