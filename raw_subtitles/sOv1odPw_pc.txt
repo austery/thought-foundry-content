@@ -1,0 +1,4206 @@
+Nvidia
+ just
+ posted
+ $96.2
+ billion
+ in
+
+
+revenue
+ in
+ a
+ single
+ quarter,
+ up
+ 106%
+
+
+from
+ a
+ year
+ ago.
+ Yansen
+ Hang
+ stood
+ on
+
+
+stage
+ and
+ said,
+ "Computee
+ is
+ revenue."
+
+
+Congratulations.
+ Generally,
+ that
+ is
+ an
+
+
+extraordinary
+ amount
+ of
+ money.
+ Can
+ I
+
+
+have
+ some?
+ The
+ situation
+ around
+ that
+
+
+money,
+ however,
+ is
+ complicated
+ in
+ ways
+
+
+that
+ most
+ coverage
+ either
+ ignores
+ or
+
+
+oversimplifies.
+
+
+I've
+ already
+ covered
+ Nvidia's
+ circular
+
+
+financing
+ structure
+ in
+ a
+ previous
+ video,
+
+
+so
+ I
+ won't
+ relitigate
+ all
+ of
+ that
+ today.
+
+
+What
+ I
+ want
+ to
+ walk
+ you
+ through
+ instead
+
+
+is
+ something
+ quieter.
+ Wall
+ Street
+ has
+
+
+been
+ building
+ entirely
+ new
+ financial
+
+
+instruments
+ around
+ AI
+ compute.
+ I
+ promise
+
+
+the
+ next
+ video
+ will
+ have
+ plenty
+ of
+ quips
+
+
+about
+ Yansen
+ Huang's
+ jacket
+ collection,
+
+
+but
+ today
+ we
+ need
+ to
+ talk
+ about
+ what's
+
+
+being
+ built
+ behind
+ the
+ scenes.
+ And
+ I'm
+
+
+going
+ to
+ need
+ you
+ to
+ stay
+ with
+ me
+ on
+
+
+this
+ one
+ because
+ what
+ I'm
+ about
+ to
+ show
+
+
+you
+ is
+ either
+ the
+ most
+ sensible
+ piece
+ of
+
+
+financial
+ engineering
+ in
+ a
+ decade
+ or
+ the
+
+
+most
+ elaborate
+ attempt
+ to
+ keep
+ a
+ bubble
+
+
+inflated
+ since
+ someone
+ invented
+ the
+
+
+credit
+ default
+ swap.
+ Possibly
+ both.
+
+
+There
+ was
+ a
+ time
+ in
+ my
+ life
+ when
+ I
+
+
+didn't
+ know
+ what
+ a
+ derivative
+ was.
+ What
+
+
+a
+ blissful,
+ innocent
+ time
+ that
+ was.
+ I
+
+
+had
+ my
+ PhD.
+ I
+ was
+ doing
+ perfectly
+ fine.
+
+
+Well,
+ as
+ fine
+ as
+ a
+ newly
+ minted
+ PhD
+ can
+
+
+be.
+ And
+ then
+ one
+ day
+ I
+ made
+ the
+
+
+catastrophic
+ mistake
+ of
+ asking
+ somebody
+
+
+to
+ explain
+ how
+ futures
+ contracts
+ work.
+
+
+And
+ the
+ more
+ I
+ learned,
+ the
+ more
+ I
+ kept
+
+
+thinking,
+ what?
+ People
+ bet
+ on
+ this.
+ You
+
+
+can
+ place
+ a
+ wager
+ on
+ the
+ future
+ price
+ of
+
+
+something
+ you
+ never
+ intend
+ to
+ actually
+
+
+buy.
+ And
+ that's
+ considered
+ a
+ functioning
+
+
+financial
+ market
+ rather
+ than
+ say
+ a
+
+
+casino
+ with
+ better
+ lighting.
+ Except
+ of
+
+
+course
+ in
+ a
+ real
+ casino.
+ The
+ house
+
+
+eventually
+ has
+ to
+ let
+ somebody
+ win
+ a
+
+
+hand.
+ In
+ derivative
+ markets,
+ Wall
+ Street
+
+
+just
+ invents
+ a
+ new
+ deck
+ of
+ cards
+ every
+
+
+time
+ the
+ current
+ deck
+ stops
+ paying
+ out.
+
+
+Now,
+ you
+ can
+ make
+ the
+ argument
+ that
+
+
+futures
+ and
+ options
+ serve
+ a
+ legitimate
+
+
+purpose.
+ Of
+ course,
+ they
+ let
+ businesses
+
+
+hedge
+ risk,
+ lock
+ in
+ prices,
+ and
+ plan
+
+
+ahead.
+ A
+ farmer
+ can
+ sell
+ next
+ season's
+
+
+harvest
+ at
+ today's
+ price,
+ and
+ sleep
+ at
+
+
+night.
+ That
+ price
+ is
+ reasonable,
+ but
+ of
+
+
+course
+ we
+ live
+ on
+ this
+ planet
+ with
+ these
+
+
+specific
+ people.
+ And
+ so
+ the
+ reasonable
+
+
+version
+ is
+ never
+ where
+ the
+ story
+ ends.
+
+
+The
+ moment
+ Wall
+ Street
+ gets
+ its
+ hands
+ on
+
+
+a
+ hedging
+ instrument,
+ it
+ stops
+ being
+ a
+
+
+hedge
+ and
+ starts
+ being
+ a
+ vehicle
+ for
+
+
+leverage
+ speculation
+ by
+ people
+ who
+ have
+
+
+never
+ seen
+ a
+ wheat
+ field
+ or
+ a
+ data
+
+
+center.
+ Many
+ of
+ these
+ people
+ treat
+ the
+
+
+real
+ economy
+ the
+ way
+ a
+ toddler
+ treats
+ a
+
+
+bowl
+ of
+ spaghetti,
+ mostly
+ as
+ something
+
+
+to
+ smear
+ across
+ a
+ table
+ until
+ somebody
+
+
+hands
+ them
+ a
+ reward.
+ And
+ now
+ these
+
+
+instruments
+ have
+ found
+ their
+ way
+ into
+
+
+AI.
+ Here's
+ why
+ that
+ matters.
+ On
+ October
+
+
+5th,
+ the
+ CME
+ Group,
+ that
+ would
+ be
+ the
+
+
+world's
+ largest
+ derivatives
+ marketplace,
+
+
+the
+ people
+ who
+ run
+ the
+ futures
+ markets
+
+
+for
+ oil,
+ natural
+ gas,
+ gold,
+ and
+
+
+agricultural
+ commodities,
+ is
+ launching
+
+
+choir
+ of
+ angels,
+ please
+ compute
+ futures,
+
+
+tradable
+ contracts
+ on
+ the
+ hourly
+ rental
+
+
+cost
+ of
+ Nvidia's
+ H00
+ and
+ B200
+ GPUs
+
+
+listed
+ on
+ NYX,
+ the
+ same
+ exchange
+ where
+
+
+you
+ trade
+ crude
+ oil,
+ because
+ nothing
+
+
+really
+ says
+ the
+ promised
+ digital
+ utopia.
+
+
+Quite
+ like
+ trading
+ silicon
+ trips
+
+
+alongside
+ unled
+ dinosaur
+ juice.
+ The
+
+
+intercontinental
+ exchange
+ ICE,
+ yes,
+ this
+
+
+is
+ a
+ different
+ ICE,
+ is
+ planning
+ its
+ own
+
+
+version.
+ So,
+ two
+ separate
+ financial
+
+
+institutions
+ have
+ independently
+ decided
+
+
+that
+ GPU
+ compute
+ is
+ a
+ commodity
+ worth
+
+
+building
+ a
+ futures
+ market
+ around.
+ Let
+ me
+
+
+explain
+ what
+ this
+ means
+ because
+ it's
+
+
+very
+ important
+ and
+ most
+ cover
+ just
+
+
+announces
+ it
+ without
+ unpacking
+ the
+
+
+implications.
+
+
+Right
+ now,
+ if
+ you
+ want
+ to
+ rent
+ GPU
+ time
+
+
+to
+ train
+ or
+ run
+ an
+ AI
+ model,
+ the
+ price
+
+
+you
+ pay
+ depends
+ on
+ who
+ you
+ are
+ and
+ who
+
+
+you're
+ buying
+ from.
+ An
+ hour
+ on
+ an
+ Nvidia
+
+
+H00
+ from
+ a
+ hyperscaler
+ like
+ Microsoft
+ or
+
+
+Amazon
+ cost
+ $723.
+
+
+The
+ same
+ hour
+ from
+ a
+ smaller
+ cloud
+
+
+provider
+ might
+ cost
+ $2.65.
+
+
+There
+ is
+ no
+ published
+ benchmark
+ price.
+
+
+Every
+ deal
+ is
+ negotiated
+ privately.
+
+
+Imagine
+ running
+ a
+ restaurant
+ where
+ the
+
+
+price
+ of
+ your
+ ingredients
+ changes
+ every
+
+
+day.
+ Different
+ suppliers
+ charge
+ wildly
+
+
+different
+ amounts
+ for
+ the
+ same
+ cut
+ of
+
+
+meat
+ and
+ there
+ is
+ no
+ public
+ market
+ where
+
+
+you
+ can
+ see
+ what
+ the
+ going
+ rate
+ actually
+
+
+is.
+ You
+ would
+ have
+ no
+ way
+ of
+ knowing
+
+
+whether
+ you
+ were
+ getting
+ a
+ fair
+ deal.
+
+
+You
+ couldn't
+ plan
+ your
+ menu
+ prices
+ 3
+
+
+months
+ out.
+ You're
+ essentially
+ flying
+
+
+blind.
+ A
+ futures
+ market
+ fixes
+ that.
+ It
+
+
+creates
+ a
+ public
+ tradable
+ reference
+
+
+price.
+ Everyone
+ can
+ see
+ what
+ GPU
+ time
+ is
+
+
+expected
+ to
+ cost
+ next
+ month,
+ next
+
+
+quarter,
+ next
+ year.
+ Companies
+ can
+ lock
+
+
+in
+ their
+ compute
+ cost
+ today
+ instead
+ of
+
+
+hoping
+ prices
+ don't
+ spike
+ before
+ their
+
+
+next
+ training
+ run.
+ Lenders
+ can
+ look
+ at
+
+
+the
+ forward
+ curve
+ to
+ assess
+ whether
+ a
+
+
+data
+ cent's
+ revenue
+ projections
+ are
+
+
+realistic
+ before
+ extending
+ a
+ loan.
+ For
+
+
+the
+ beautiful
+ non-
+ nerds
+ in
+ the
+
+
+audience,
+ a
+ forward
+ curve
+ is
+ just
+ a
+
+
+chart
+ of
+ what
+ the
+ market
+ expects
+ a
+
+
+commodity
+ to
+ cost
+ at
+ each
+ point
+ in
+ the
+
+
+future.
+ If
+ GPU
+ rental
+ prices
+ are
+
+
+expected
+ to
+ drop,
+ a
+ lender
+ can
+ see
+ that
+
+
+before
+ agreeing
+ to
+ finance
+ a
+ data
+ center
+
+
+whose
+ business
+ plan
+ assumes
+ they
+ won't.
+
+
+The
+ CME's
+ head
+ of
+ energy
+ products
+ said
+
+
+it
+ directly.
+ I'm
+ quoting
+ here.
+ Just
+ as
+
+
+oil
+ fueled
+ the
+ 20th
+ century's
+ economy
+
+
+and
+ evolved
+ from
+ spa
+ trading
+ into
+ a
+
+
+global
+ derivatives
+ market,
+ our
+ futures
+
+
+contracts
+ will
+ now
+ turn
+ compute
+ into
+ a
+
+
+standardized
+ tradable
+ commodity.
+ So
+ that
+
+
+quote
+ is
+ interesting.
+ They
+ are
+ not
+
+
+comparing
+ compute
+ to
+ software
+ or
+ to
+
+
+cloud
+ services
+ or
+ to
+ any
+ other
+
+
+technology
+ product.
+ They're
+ comparing
+ it
+
+
+to
+ oil,
+ a
+ physical
+ resource
+ that
+ powered
+
+
+the
+ global
+ economy
+ for
+ a
+ century.
+ and
+
+
+they're
+ building
+ the
+ financial
+
+
+infrastructure
+ to
+ treat
+ it
+ accordingly.
+
+
+Now,
+ there
+ is
+ a
+ version
+ of
+ this
+ story
+
+
+that
+ is
+ entirely
+ positive.
+ Transparency
+
+
+and
+ price
+ discovery
+ are
+ good
+ for
+ any
+
+
+market
+ and
+ hedging
+ is
+ of
+ course
+ good
+ for
+
+
+any
+ business
+ planning
+ more
+ than
+ a
+
+
+quarter
+ ahead.
+ BCG
+ estimates
+ that
+ a
+
+
+reliable
+ forward
+ curve
+ of
+ compute
+ prices
+
+
+could
+ reduce
+ borrowing
+ costs
+ across
+ AI
+
+
+infrastructure
+ investment
+ by
+ about
+ $116
+
+
+billion
+ through
+ 2030.
+ That
+ is
+ real
+ money
+
+
+saved
+ by
+ real
+ companies
+ making
+ real
+
+
+planning
+ decisions.
+ If
+ you're
+ building
+ a
+
+
+data
+ center
+ and
+ you
+ can
+ hedge
+ your
+ GPU
+
+
+cost
+ the
+ way
+ a
+ mining
+ company
+ hedges
+
+
+metal
+ prices,
+ that's
+ genuinely
+ useful
+
+
+financial
+ engineering,
+ of
+ course.
+ But
+
+
+here
+ is
+ where
+ my
+ personal
+ history
+ with
+
+
+derivatives
+ makes
+ me
+ twitch
+ a
+ little
+
+
+bit.
+ Every
+ major
+ commodity
+ bubble
+ in
+
+
+modern
+ history
+ was
+ amplified
+ by
+ the
+
+
+financial
+ instruments
+ built
+ around
+ it.
+
+
+The
+ 2008
+ financial
+ crisis
+ wasn't
+ caused
+
+
+by
+ people
+ buying
+ houses.
+ It
+ was
+ caused
+
+
+by
+ the
+ derivatives,
+ the
+ collateralized
+
+
+debt
+ obligations,
+ the
+ credit
+ default
+
+
+swaps
+ that
+ let
+ Wall
+ Street
+ make
+ leverage
+
+
+bets
+ on
+ housing
+ prices
+ disconnected
+ from
+
+
+whether
+ anyone
+ was
+ actually
+ living
+ in
+
+
+the
+ houses.
+ The
+ futurist
+ market
+ for
+ oil
+
+
+is
+ used
+ for
+ hedging,
+ yes,
+ but
+ it's
+ also
+
+
+used
+ for
+ speculation
+ by
+ traders
+ who
+ will
+
+
+never
+ take
+ delivery
+ of
+ a
+ single
+ barrel.
+
+
+The
+ AI
+ giveth
+ and
+ the
+ AI
+ taketh
+ away.
+
+
+When
+ you
+ create
+ a
+ liquid
+ futurist
+ market
+
+
+for
+ something,
+ you
+ don't
+ just
+ enable
+
+
+prudent
+ risk
+ management.
+ You
+ also
+ enable
+
+
+people
+ to
+ pour
+ money
+ into
+ bets
+ on
+ price
+
+
+movements,
+ which
+ can
+ drive
+ prices
+ in
+
+
+directions
+ that
+ have
+ nothing
+ to
+ do
+ with
+
+
+actual
+ supply
+ and
+ demand.
+ And
+ compute
+
+
+futures
+ have
+ one
+ additional
+ feature
+ that
+
+
+oil
+ futures
+ don't.
+ Both
+ the
+ CME
+ and
+ ICE
+
+
+contracts
+ are
+ tied
+ specifically
+ to
+
+
+Nvidia
+ chip
+ rental
+ prices.
+ Not
+ AMD,
+ not
+
+
+Intel,
+ not
+ Google
+ TPU,
+ Nvidia.
+ In
+ the
+
+
+oil
+ market,
+ a
+ barrel
+ from
+ Chevron
+ is
+
+
+chemically
+ identical
+ to
+ a
+ barrel
+ from
+
+
+Exon
+ Mobile.
+ The
+ commodity
+ is
+ funible.
+
+
+No
+ single
+ producer
+ controls
+ the
+
+
+benchmark.
+ But
+ Nvidia
+ holds
+ an
+ estimated
+
+
+80%
+ market
+ share
+ in
+ AIG
+ GPUs.
+ An
+ hour
+ on
+
+
+an
+ H00
+ is
+ specifically
+ Nvidia's
+ product.
+
+
+If
+ compute
+ truly
+ becomes
+ the
+ new
+ crude
+
+
+oil,
+ yes
+ Huang
+ isn't
+ just
+ the
+ CEO
+ of
+ a
+
+
+chip
+ company.
+ He
+ is
+ the
+ commodity
+ baron
+
+
+of
+ a
+ type
+ that
+ has
+ never
+ existed
+ in
+ the
+
+
+history
+ of
+ energy
+ markets
+ because
+ the
+
+
+commodity
+ itself
+ is
+ his.
+ At
+ this
+ rate,
+
+
+by
+ 2028,
+ Yensen
+ won't
+ just
+ sell
+ the
+
+
+hardware.
+ He'll
+ probably
+ charge
+ you
+ a
+
+
+monthly
+ subscription
+ fee
+ for
+ the
+ ambient
+
+
+heat
+ radiated
+ by
+ his
+ leather
+ jackets.
+
+
+Which
+ brings
+ us
+ to
+ the
+ question
+
+
+underneath
+ all
+ of
+ this.
+ Is
+ the
+ demand
+
+
+real?
+ But
+ before
+ I
+ answer
+ that,
+ and
+
+
+trust
+ me,
+ the
+ numbers
+ are
+ worth
+ the
+
+
+wait,
+ let
+ me
+ tell
+ you
+ about
+ today's
+
+
+video
+ sponsor.
+ More
+ from
+ model
+ code.ai
+
+
+is
+ built
+ for
+ one
+ of
+ the
+ least
+ glamorous
+
+
+problems
+ in
+ software.
+ the
+ enormous
+
+
+legacy
+ codebase
+ that
+ everyone
+ knows
+
+
+needs
+ modernizing,
+ but
+ nobody
+
+
+particularly
+ wants
+ to
+ touch.
+ Mainstream
+
+
+LLMs
+ can
+ be
+ useful
+ for
+ rewriting
+ a
+
+
+function
+ or
+ explaining
+ a
+ strange
+ piece
+
+
+of
+ code.
+ But
+ modernizing
+ an
+ entire
+
+
+system
+ is
+ a
+ very
+ different
+ problem.
+ More
+
+
+from
+ model
+ code.ai
+ is
+ the
+ world's
+
+
+leading
+ generative
+ AI
+ platform
+ built
+
+
+specifically
+ for
+ legacy
+ code
+
+
+modernization.
+ It
+ analyzes
+ and
+ maps
+ the
+
+
+codebase,
+ creates
+ a
+ modernization
+ plan,
+
+
+executes
+ and
+ tests
+ the
+ work,
+ and
+ lets
+
+
+you
+ approve
+ every
+ step
+ before
+ anything
+
+
+reaches
+ production.
+ So
+ whether
+ you're
+
+
+moving
+ from
+ .NET
+ 4.5
+ to
+ .NET
+ 10,
+ web
+
+
+forms
+ to
+ React,
+ or
+ breaking
+ apart
+ an
+
+
+ancient
+ monolith,
+ it
+ is
+ designed
+ to
+
+
+handle
+ the
+ wider
+ modernization
+ process
+
+
+rather
+ than
+ just
+ individual
+ snippets.
+
+
+Model
+ code.ai
+ AI
+ customers
+ report
+
+
+reducing
+ projects
+ that
+ might
+ once
+ have
+
+
+taken
+ years
+ down
+ to
+ months,
+ weeks,
+ or
+
+
+even
+ less.
+ You
+ can
+ sign
+ up
+ and
+ analyze
+
+
+your
+ codebase
+ completely
+ free
+ with
+ no
+
+
+credit
+ card
+ required.
+ Morph
+ gives
+ you
+ a
+
+
+realtime
+ cost
+ estimate
+ before
+ any
+ work
+
+
+begins
+ and
+ you
+ only
+ pay
+ if
+ you
+ decide
+ to
+
+
+proceed.
+ Visit
+ modelco.ai/m
+
+
+and
+ use
+ code
+ house
+ of
+ l.
+ You'll
+ get
+
+
+60,000
+ free
+ credits
+ every
+ month
+ for
+ your
+
+
+first
+ year,
+ unlocking
+ nearly
+ $10,000
+ of
+
+
+real
+ world
+ value
+ completely
+ free
+ just
+
+
+for
+ using
+ my
+ link.
+ Right,
+ the
+ demand
+
+
+because
+ futures
+ help
+ or
+ hurt
+ depending
+
+
+entirely
+ on
+ what's
+ underneath
+ them.
+ If
+
+
+the
+ underlying
+ demand
+ for
+ compute
+ is
+
+
+genuine,
+ broad-based,
+ and
+ durable
+ the
+
+
+way
+ global
+ demand
+ for
+ oil
+ is
+ genuine,
+
+
+broad-based,
+ and
+ durable,
+ then
+ futures
+
+
+are
+ exactly
+ the
+ right
+ infrastructure
+ to
+
+
+build.
+ Great.
+ They'll
+ make
+ the
+ market
+
+
+more
+ efficient,
+ more
+ transparent,
+ and
+
+
+more
+ resilient.
+ But
+ if
+ the
+ demand
+ is
+
+
+concentrated,
+ fragile,
+ and
+ particularly
+
+
+manufactured,
+ then
+ futures
+ are
+ a
+
+
+derivatives
+ layer
+ on
+ top
+ of
+ a
+ bubble.
+
+
+And
+ that's
+ how
+ you
+ turn
+ a
+ correction
+
+
+into
+ an
+ actual
+ crisis.
+ So,
+ let's
+ look
+ at
+
+
+what's
+ underneath
+ here.
+ Nvidia's
+ $96
+
+
+billion
+ quarter
+ is
+ real
+ money,
+ but
+ 70%
+
+
+of
+ their
+ accounts
+ receivable
+ come
+ from
+
+
+five
+ customers.
+ 60%
+ of
+ total
+ revenue
+
+
+came
+ from
+ a
+ single
+ customer
+ they
+ won't
+
+
+name.
+ If
+ you
+ ran
+ a
+ restaurant
+ and
+ 70%
+ of
+
+
+your
+ tabs
+ were
+ from
+ five
+ regulars,
+ you
+
+
+wouldn't
+ call
+ that
+ a
+ thriving
+ business.
+
+
+You'd
+ call
+ it
+ maybe
+ a
+ private
+ dining
+
+
+club
+ with
+ a
+ very
+ expensive
+ lease.
+ I've
+
+
+covered
+ the
+ circular
+ financing
+ structure
+
+
+in
+ detail
+ before,
+ so
+ I'm
+ going
+ to
+ keep
+
+
+this
+ part
+ brief.
+ Nvidia
+ invests
+ in
+
+
+companies.
+ Those
+ companies
+ use
+ the
+
+
+investment
+ to
+ raise
+ debt.
+ They
+ spend
+
+
+that
+ debt
+ buying
+ Nvidia
+ GPUs.
+ Nvidia
+
+
+books
+ the
+ revenue.
+ Just
+ look
+ at
+ Share
+ in
+
+
+AI
+ as
+ an
+ example.
+ That's
+ an
+ Australian
+
+
+cloud
+ company.
+ Their
+ quarterly
+ revenue
+
+
+in
+ Q2
+ 2026
+ was
+ $1.9
+ million.
+ Nvidia
+
+
+signed
+ a
+ $4.9
+ billion
+ deal
+ with
+ them.
+
+
+Sharon
+ AI's
+ own
+ SEC
+ filing
+ states
+ that
+
+
+the
+ company
+ has
+ limited
+ experience
+ in
+
+
+delivering,
+ implementing,
+ and
+ managing
+
+
+such
+ contracts
+ at
+ scale.
+ A
+ company
+
+
+making
+ less
+ than
+ $2
+ million
+ a
+ quarter
+
+
+just
+ signed
+ a
+ deal
+ worth
+ nearly
+ $5
+
+
+billion
+ with
+ its
+ largest
+ investor.
+ I
+
+
+mean,
+ at
+ their
+ current
+ revenue,
+ it
+ would
+
+
+take
+ Sharon
+ AI
+ roughly
+ $650
+
+
+to
+ earn
+ the
+ value
+ of
+ that
+ contract.
+ For
+
+
+context,
+ 650
+ years
+ ago
+ was
+ 1376.
+
+
+Nobody
+ had
+ discovered
+ the
+ Americas
+ yet.
+
+
+To
+ believe
+ this
+ deal
+ pays
+ for
+ itself
+ in
+
+
+current
+ numbers.
+ You'd
+ need
+ Jesus
+ to
+
+
+personally
+ return,
+ take
+ a
+ seat
+ on
+ the
+
+
+board,
+ and
+ just
+ start
+ closing
+ enterprise
+
+
+sales.
+ And
+ even
+ then,
+ he
+ would
+ probably
+
+
+spend
+ the
+ first
+ two
+ quarters
+ just
+ trying
+
+
+to
+ figure
+ out
+ how
+ to
+ put
+ water
+ to
+ wine
+
+
+down
+ as
+ recurrent
+ SAS
+ revenue.
+ Nvidia
+
+
+has
+ also
+ extended
+ payment
+ terms
+ from
+ 90
+
+
+days
+ to
+ up
+ to
+ a
+ year
+ for
+ certain
+
+
+investment
+ grade
+ customers.
+ That
+ sounds
+
+
+reassuring
+ until
+ you
+ realize
+ that
+
+
+investment
+ grade
+ in
+ this
+ context
+ does
+
+
+not
+ necessarily
+ mean
+ Microsoft.
+ It
+ could
+
+
+include
+ SP
+ X
+ which
+ loses
+ billions
+
+
+annually
+ and
+ whose
+ debt
+ trades
+ poorly
+ or
+
+
+Coref
+ which
+ has
+ had
+ to
+ raise
+ billions
+ in
+
+
+fresh
+ debt
+ every
+ single
+ year
+ just
+ to
+
+
+stay
+ operational.
+ Meanwhile,
+ Elon
+ Musk's
+
+
+XAI
+ built
+ a
+ 500,000
+ GPU
+ cluster
+ that
+ was
+
+
+running
+ at
+ only
+ 11%
+ utilization
+ as
+ of
+
+
+April
+ this
+ year.
+ That
+ is
+ the
+ computing
+
+
+equivalent
+ of
+ building
+ the
+ world's
+
+
+largest
+ power
+ station
+ and
+ then
+ leaving
+
+
+9/10en
+ of
+ it
+ sitting
+ in
+ the
+ dark.
+ Or
+ to
+
+
+reframe
+ it
+ in
+ terms
+ Elon
+ might
+
+
+appreciate
+ in
+ case
+ he's
+ watching
+ this
+
+
+video.
+ It's
+ a
+ bit
+ like
+ buying
+ a
+ fleet
+ of
+
+
+Cyber
+ Trucks,
+ parking
+ 89%
+ of
+ them
+ in
+ a
+
+
+field,
+ and
+ claiming
+ you've
+
+
+revolutionized
+ logistics.
+ All
+ of
+ this,
+
+
+the
+ circular
+ financing,
+ the
+ futures
+
+
+contracts,
+ the
+ extended
+ payment
+ terms,
+
+
+all
+ of
+ it
+ is
+ a
+ bet,
+ a
+ very
+ large,
+ very
+
+
+expensive
+ bet
+ that
+ the
+ demand
+ for
+ AI
+
+
+compute
+ will
+ grow
+ fast
+ enough
+ and
+ lasts
+
+
+long
+ enough
+ to
+ justify
+ the
+ debt.
+ And
+
+
+demand
+ only
+ grows
+ if
+ the
+ technology
+ is
+
+
+actually
+ useful.
+ So,
+ before
+ I
+ go
+ any
+
+
+further,
+ I
+ want
+ to
+ address
+ something
+ I
+
+
+see
+ in
+ every
+ single
+ comment
+ section
+ on
+
+
+every
+ single
+ video
+ that
+ I've
+ made
+ so
+
+
+far.
+ I
+ know
+ a
+ lot
+ of
+ people
+ in
+ the
+
+
+comments
+ are
+ adamant
+ that
+ generative
+ AI
+
+
+is
+ useless,
+ and
+ I
+ understand
+ the
+
+
+frustration
+ driving
+ that,
+ but
+ the
+
+
+research
+ doesn't
+ support
+ this
+ blanket
+
+
+dismissal.
+ A
+ peer-reviewed
+ Harvard
+ and
+
+
+BCG
+ study
+ of
+ 758
+ consultants
+ found
+ that
+
+
+those
+ using
+ AI
+ completed
+ tasks
+ 25%
+
+
+faster
+ with
+ 40%
+ higher
+ quality
+ output,
+
+
+though
+ the
+ gains
+ depended
+ heavily
+ on
+ the
+
+
+human
+ knowing
+ when
+ and
+ how
+ to
+ use
+ the
+
+
+tool.
+ A
+ separate
+ study
+ of
+ over
+ 5,000
+
+
+customer
+ support
+ agents
+ found
+ a
+ 15%
+
+
+average
+ productivity
+ increase
+ with
+ the
+
+
+biggest
+ gains
+ going
+ to
+ less
+ experienced
+
+
+workers.
+ The
+ picture
+ is
+ genuinely
+ mixed
+
+
+and
+ I
+ want
+ to
+ do
+ a
+ proper
+ deep
+ dive
+ on
+
+
+this
+ one
+ in
+ a
+ separate
+ video
+ because
+ it
+
+
+deserves
+ one
+ and
+ I
+ don't
+ want
+ to
+ derail
+
+
+this
+ one.
+ But
+ the
+ claim
+ that
+ nobody
+
+
+benefits
+ from
+ generative
+ AI
+ is
+ simply
+
+
+inaccurate.
+ These
+ companies
+ are
+ not
+
+
+attracting
+ hundreds
+ of
+ billions
+ in
+
+
+investment
+ because
+ the
+ technology
+ does
+
+
+nothing.
+ The
+ question
+ is
+ not
+ whether
+ AI
+
+
+is
+ useful.
+ It's
+ whether
+ it's
+ useful
+
+
+enough
+ to
+ justify
+ what's
+ being
+ spent
+ on
+
+
+it.
+ But
+ despite
+ generative
+ AI
+ being
+
+
+useful,
+ for
+ demand
+ to
+ grow,
+ something
+
+
+else
+ has
+ to
+ change.
+ The
+ way
+ people
+ feel
+
+
+about
+ AI.
+ And
+ right
+ now
+ that
+ sentiment
+
+
+is
+ moving
+ in
+ the
+ negative
+ direction.
+ 7
+
+
+in
+ 10
+ Americans
+ oppose
+ building
+ a
+ data
+
+
+center
+ near
+ them.
+ At
+ least
+ 48
+ data
+
+
+center
+ projects
+ representing
+ $156
+
+
+billion
+ in
+ investment
+ have
+ been
+ blocked
+
+
+or
+ stalled
+ by
+ local
+ resistance.
+ Sam
+
+
+Alman
+ himself
+ admitted
+ recently
+ clearly
+
+
+people
+ hate
+ data
+ centers
+ right
+ now
+ at
+
+
+least.
+ That's
+ the
+ CEO
+ of
+ Open
+ AI
+
+
+conceding
+ that
+ the
+ public
+ does
+ not
+ want
+
+
+the
+ infrastructure
+ his
+ business
+ model
+
+
+requires.
+ Meanwhile,
+ the
+ number
+ of
+
+
+Amazon
+ workers
+ relying
+ on
+ food
+ stamps
+
+
+has
+ nearly
+ tripled
+ since
+ 2020,
+ while
+ the
+
+
+company
+ announced
+ $200
+ billion
+ in
+ AI
+
+
+spending
+ for
+ 2026.
+ I'm
+ not
+ going
+ to
+
+
+editorialize
+ any
+ of
+ that.
+ I'm
+ just
+ going
+
+
+to
+ leave
+ it
+ there.
+ We
+ all
+ know
+ what
+ it
+
+
+means.
+ On
+ top
+ of
+ all
+ of
+ this,
+ Sony
+ and
+
+
+Warner
+ just
+ sued
+ Anthropic,
+ alleging
+ one
+
+
+of
+ the
+ largest
+ and
+ most
+ blatant
+ ongoing
+
+
+thefts
+ of
+ intellectual
+ property
+ in
+
+
+history,
+ a
+ year
+ after
+ Anthropic
+ already
+
+
+paid
+ $1.5
+ billion
+ in
+ the
+ largest
+
+
+copyright
+ settlement
+ in
+ US
+ history.
+ So,
+
+
+to
+ summarize
+ the
+ demand
+ situation,
+ the
+
+
+public
+ hates
+ your
+ buildings,
+ your
+
+
+workers
+ cannot
+ afford
+ groceries,
+ and
+ the
+
+
+music
+ industry
+ thinks
+ you're
+ a
+ pirate.
+
+
+Other
+ than
+ that,
+ the
+ vibes
+ are
+
+
+immaculate.
+ Here's
+ where
+ I
+ land,
+ and
+ I
+
+
+want
+ to
+ be
+ careful
+ because
+ I
+ really
+
+
+don't
+ think
+ that
+ it's
+ simple.
+ Debt
+ is
+
+
+not
+ inherently
+ a
+ bad
+ thing.
+ Debt
+ buys
+
+
+time.
+ Time
+ for
+ cost
+ to
+ decrease,
+ time
+
+
+for
+ demand
+ to
+ grow,
+ time
+ for
+ the
+
+
+technology
+ to
+ find
+ its
+ footing,
+ time
+ for
+
+
+further
+ research
+ and
+ innovation,
+
+
+beautiful
+ things.
+ Every
+ major
+
+
+infrastructure
+ buildout
+ in
+ human
+ history
+
+
+was
+ financed
+ by
+ debt.
+ Railways,
+
+
+electricity
+ grids,
+ telecoms
+ networks.
+
+
+The
+ question
+ with
+ debt
+ is
+ always
+ the
+
+
+same.
+ Is
+ there
+ a
+ viable
+ path
+ to
+ the
+
+
+revenue
+ that
+ services
+ it?
+ Right
+ now,
+
+
+both
+ paths
+ are
+ being
+ a
+ bit
+ obstructed.
+
+
+Costs
+ are
+ not
+ decreasing.
+ GPUs
+ prices
+
+
+are
+ up.
+ Debt
+ is
+ getting
+ more
+ expensive.
+
+
+Copyright
+ liabilities
+ are
+ accumulating.
+
+
+And
+ demand
+ isn't
+ scaling
+ the
+ way
+ the
+
+
+financial
+ structure
+ requires.
+ Public
+
+
+hostility
+ is
+ blocking
+ infrastructure.
+
+
+The
+ killer
+ app
+ still
+ doesn't
+ exist.
+ And
+
+
+token
+ spend
+ is
+ beginning
+ to
+ plateau.
+ The
+
+
+compute
+ futures
+ market
+ launching
+ in
+
+
+October
+ will
+ give
+ us
+ something
+ we've
+
+
+never
+ had
+ before.
+ A
+ realtime
+ market
+
+
+price
+ signal
+ of
+ where
+ this
+ is
+ heading.
+
+
+If
+ the
+ forward
+ curve
+ goes
+ into
+ contango,
+
+
+meaning
+ future
+ prices
+ are
+ higher
+ than
+
+
+current
+ prices,
+ the
+ market
+ believes
+
+
+demand
+ is
+ growing.
+ If
+ it
+ goes
+ into
+
+
+backwardation,
+ meaning
+ future
+ prices
+ are
+
+
+lower,
+ the
+ market
+ believes
+ demand
+ has
+
+
+peaked.
+ That's
+ the
+ most
+ honest
+ signal
+
+
+available
+ because
+ it's
+ people
+ putting
+
+
+actual
+ money
+ behind
+ their
+ predictions
+
+
+rather
+ than
+ posting
+ on
+ X.
+ My
+ prediction,
+
+
+and
+ I'm
+ being
+ completely
+ honest,
+ the
+
+
+predictions
+ are
+ hard,
+ and
+ I
+ could
+
+
+definitely
+ be
+ wrong,
+ is
+ that
+ this
+
+
+doesn't
+ end
+ in
+ a
+ dramatic
+ crash,
+ but
+
+
+rather
+ it
+ ends
+ in
+ a
+ slow,
+ boring
+
+
+deflation.
+ The
+ technology
+ is
+ definitely
+
+
+real.
+ The
+ productivity
+ gains
+ are
+ often
+
+
+measurable
+ and
+ definitely
+ real,
+ but
+ the
+
+
+financial
+ structure
+ around
+ it
+ is
+ priced
+
+
+for
+ a
+ revolution
+ that
+ hasn't
+ happened
+
+
+yet
+ and
+ may
+ not
+ happen
+ on
+ the
+ timeline
+
+
+the
+ debt
+ requires.
+ The
+ most
+ useful
+
+
+historical
+ parallel
+ here
+ is
+ the
+ dotcom
+
+
+era.
+ The
+ internet
+ is
+ of
+ course
+ a
+ real
+
+
+thing.
+ Amazon
+ is
+ around.
+ Google
+ as
+ well.
+
+
+Email
+ is
+ a
+ real
+ thing.
+ But
+ the
+ NASDAQ
+
+
+back
+ then
+ still
+ lost
+ 78%
+ of
+ its
+ value
+
+
+and
+ took
+ 15
+ years
+ to
+ recover
+ because
+ the
+
+
+market
+ had
+ priced
+ in
+ a
+ future
+ that
+ was
+
+
+directionally
+ correct
+ but
+ wildly
+
+
+premature.
+ Most
+ of
+ the
+ companies
+ riding
+
+
+the
+ wave
+ didn't
+ survive.
+ The
+ ones
+ that
+
+
+did
+ became
+ the
+ most
+ valuable
+ businesses
+
+
+on
+ Earth.
+ The
+ technology
+ was
+ not
+ the
+
+
+problem,
+ but
+ the
+ financial
+ structure
+
+
+around
+ it
+ definitely
+ was.
+ I
+ think
+ big
+
+
+tech
+ AI
+ companies
+ follow
+ the
+ same
+
+
+pattern.
+ The
+ useful
+ applications
+ will
+
+
+likely
+ survive.
+ The
+ infrastructure
+
+
+likely
+ rationalizes.
+
+
+Several
+ of
+ the
+ Neocloud
+ companies
+ and
+
+
+possibly
+ one
+ or
+ two
+ AI
+ labs
+ either
+ fold
+
+
+or
+ get
+ acquired
+ at
+ a
+ fraction
+ of
+ their
+
+
+peak
+ valuations.
+ Nvidia
+ will
+ likely
+
+
+remain
+ a
+ large
+ profitable
+ company.
+ They
+
+
+make
+ genuinely
+ excellent
+ chips,
+ but
+ at
+ a
+
+
+significantly
+ lower
+ market
+ cap
+ because
+
+
+the
+ market
+ will
+ eventually
+ price
+ in
+
+
+realistic
+ demand
+ rather
+ than
+ $30
+
+
+trillion
+ fantasies.
+ Or
+ of
+ course,
+ people
+
+
+could
+ just
+ become
+ pro
+ AAI
+ as
+ well
+ and
+
+
+everything's
+ going
+ to
+ be
+ okay.
+ Who
+
+
+knows?
+ Only
+ Oracle,
+ actually.
+ The
+
+
+responsible
+ position
+ here
+ isn't
+ hoping
+
+
+that
+ generative
+ AI
+ fails.
+ Hoping
+ a
+
+
+technology
+ fails
+ because
+ its
+ corporate
+
+
+stewards
+ are
+ reckless
+ is
+ a
+ bit
+ like
+
+
+hoping
+ medicine
+ fails
+ because
+
+
+pharmaceutical
+ companies
+ overcharge.
+ The
+
+
+responsible
+ position
+ is
+ demanding
+ that
+
+
+the
+ financial
+ structure
+ be
+ stress
+ tested
+
+
+before
+ it
+ gets
+ bigger.
+ That
+ the
+ people
+
+
+building
+ this
+ show
+ they're
+ working,
+ that
+
+
+someone
+ counts
+ the
+ chairs
+ before
+ the
+
+
+music
+ stops.
+ But
+ if
+ you're
+ wondering
+ how
+
+
+the
+ AI
+ industry
+ ended
+ up
+ with
+ a
+ public
+
+
+that
+ hates
+ it
+ this
+ much,
+ I
+ made
+ a
+
+
+separate
+ video
+ about
+ how
+ the
+ word
+ slop
+
+
+broke
+ the
+ internet's
+ brain
+ and
+ what
+ it
+
+
+actually
+ means
+ for
+ anyone
+ using
+ AI
+
+
+responsibly.
+ Thank
+ you
+ so
+ much
+ for
+
+
+watching.
+ I'll
+ see
+ you
+ in
+ the
+ next
+ one.
