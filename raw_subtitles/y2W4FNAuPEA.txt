@@ -1,0 +1,1375 @@
+[Speaker 1]:  uh so good afternoon and everyum。
+[Speaker 1]:  my name is husheljane，
+[Speaker 1]:  and he 's tunmshhah，
+[Speaker 1]:  and we will like to welcome you all in this two hours workshop on the lelem in frienance。
+[Speaker 1]:  um so the goal of this workshop is to understand this domain from the first principles，
+[Speaker 1]:  um dive deeper into it。
+[Speaker 1]:  um like understand what's going on throughout the industry，
+[Speaker 1]:  um a bit of background about because so i am a seniors after engineer at audibo。
+[Speaker 1]:  uh have builbuilding mililia da platforforfor，
+[Speaker 1]:  the ppast five years and the size i have been writing this open sourhandandook on on l ymm infrrence，
+[Speaker 1]:  and that may he's the senior quantitative modeller at john's cub bank corporation。
+[Speaker 1]:  he recently completed his ph d，
+[Speaker 1]:  and he has been actively doing research in the agent verifiers and the world models。
+[Speaker 1]:  so a quick shop hands here，
+[Speaker 1]:  blue hair is like brand new to the lymm inference。
+[Speaker 1]:  okay，
+[Speaker 1]:  great。
+[Speaker 1]:  and who hear as like deployed models in production，
+[Speaker 1]:  they have been tuning it。
+[Speaker 1]:  they have been solving the production traffic。
+[Speaker 1]:  okay，
+[Speaker 1]:  great。
+[Speaker 1]:  so this workshop is targeted towards the bignt and the intermediate level and all of the slides exercises they are in the rappo。
+[Speaker 1]:  i've dn't share that soon here is the quick agenda for the workshop。
+[Speaker 1]:  we will start with the problem statement。
+[Speaker 1]:  we will try to understand few of the painpoints around elymm infrance，
+[Speaker 1]:  then we understand what causes those pain points and build our foundations from there。
+[Speaker 1]:  then we will dive into like two kind of the optimizations that we do like the model optimizations and the serving optimizations。
+[Speaker 1]:  and then we start learning about different solving engines that are available to deploy our elelm m inluence solutions in production，
+[Speaker 1]:  and we will shocase some benchmarks and the decision chart on like which engine to use good。
+[Speaker 1]:  so to understand the pinpoints first，
+[Speaker 1]:  we need to know what is like ALM in friends。
+[Speaker 1]:  so i'm probably a lot of us already know this。
+[Speaker 1]:  um but yeah anything that you ask your AI to do，
+[Speaker 1]:  like whether it be generate a video audio，
+[Speaker 1]:  analyze any text uanalyze。
+[Speaker 1]:  your medical reports like your tax bills。
+[Speaker 1]:  all of that is like an elem infrance。
+[Speaker 1]:  and this market market like approproximately，
+[Speaker 1]:  twenty billion dollars today and semi analysis recently share that if you want to model like a google search queries with the l ems，
+[Speaker 1]:  you need like a profit drain of like 它，
+[Speaker 1]:  ty six billion dollars and query cost has to be less than zero point five cents to keep your search business profitable。
+[Speaker 1]:  on the other hand，
+[Speaker 1]:  the business insider mentioned，
+[Speaker 1]:  like your air has to be put on diet baker，
+[Speaker 1]:  and everyone has to start auditing and budgeting their token usage。
+[Speaker 1]:  and all of this is happening。
+[Speaker 1]:  why？
+[Speaker 1]:  because your hardware is limited，
+[Speaker 1]:  computer is expensive，
+[Speaker 1]:  your influence is expensive。
+[Speaker 1]:  bbecause。
+[Speaker 1]:  the grogrowing of of light more than more AI uses。
+[Speaker 1]:  this inin causes rising more than moon。
+[Speaker 1]:  so this start it's an old start from the open ai，
+[Speaker 1]:  but it's still it's still true。
+[Speaker 1]:  so if you look at the like training cost of the gpty threat was like around four point six million dollars，
+[Speaker 1]:  it was a one time cost。
+[Speaker 1]:  but if you see the influence cost that has been like，
+[Speaker 1]:  it's a reckring cost because it's a operating cause that skills with every user that comes in every token that comes in every session that is being initiated on the light air。
+[Speaker 1]:  and there are only two ways to basically counter。
+[Speaker 1]:  this one way is you reduce your token usage alternative is you should try to optimize your influence solutions as a influservice provider for your customers and for yourself。
+[Speaker 1]:  and so this um we have been seeing like a lot d and lot of like new solutions coming out every thing。
+[Speaker 1]:  and now，
+[Speaker 1]:  and so the idea would be like，
+[Speaker 1]:  okay，
+[Speaker 1]:  we will try to build those foundations that will help us understand and evaluate like whatever shifts next。
+[Speaker 1]:  um so yeah，
+[Speaker 1]:  to get started like we will do a quick demo like it's a short demo of like，
+[Speaker 1]:  what are the different painpoints around in france？
+[Speaker 1]:  and so this is a rapper。
+[Speaker 1]:  um i mean，
+[Speaker 1]:  you can pull it，
+[Speaker 1]:  or you can also open it on the githhub。
+[Speaker 2]:  uh，
+[Speaker 1]:  it's calall a ym m fluence that sale a bit of background hair，
+[Speaker 1]:  like four months back when i didn't knew anything on the ell MM inrence ance。
+[Speaker 1]:  i started learning it。
+[Speaker 1]:  i saw like a lot of resources were scattered。
+[Speaker 1]:  so we started putting it like altogether in one place um so that it could benefit people。
+[Speaker 1]:  um yeah。
+[Speaker 1]:  so let me actually get out of this slide show more than roably go to，
+[Speaker 3]:  i will go to this extended mode。
+[Speaker 3]:  okay，
+[Speaker 3]:  great。
+[Speaker 1]:  ah yeah。
+[Speaker 1]:  so in this reposiatory，
+[Speaker 1]:  if you see a read me file there，
+[Speaker 1]:  there is like a link to the slides。
+[Speaker 1]:  so it will be like this fault where you have like a ppt x and there is like a benchmark reporting there uyou can always like a download it。
+[Speaker 1]:  and then for the demo purposes，
+[Speaker 1]:  we have couple of jupiter notebooks。
+[Speaker 1]:  we have like collaborated with the molab who the like google collabb alternative。
+[Speaker 1]:  and what they basically provide you is like a three RTX，
+[Speaker 1]:  six thousand GPU。
+[Speaker 1]:  it's a hundred GBBMGPU。
+[Speaker 1]:  so mula，
+[Speaker 1]:  and we have like already set up。
+[Speaker 1]:  these notebooks are that it becomes easy to like experiment with。
+[Speaker 1]:  and like all of the assets and everything are preset for you。
+[Speaker 1]:  so we will start with like a simple demo，
+[Speaker 3]:  a probably i'm going to see my okay，
+[Speaker 1]:  yeah。
+[Speaker 1]:  so when it comes to the inference，
+[Speaker 1]:  you need to do an inference on a certain model right for the workshop purposes。
+[Speaker 1]:  we are using a simple misysterle sevenb model。
+[Speaker 1]:  it's a small model of around fifteen gb size。
+[Speaker 1]:  so we we are going to like clord that into the gpu。
+[Speaker 1]:  so and we would look like some of the gpu stats as well。
+[Speaker 1]:  so we see like ocavia wagging on this six thousand black well，
+[Speaker 1]:  and you might be thinking i'm not running thecells because i don't trust a wifired conferences。
+[Speaker 1]:  so yeah。
+[Speaker 1]:  so i would probably be just going over the results that we kind of run previously，
+[Speaker 1]:  yeah。
+[Speaker 1]:  so we had like a gpu，
+[Speaker 1]:  which is like hundred into gb ah。
+[Speaker 1]:  now the first thing that comes to my mind is like，
+[Speaker 1]:  what's my memory consumption looks like when i do the AA mmine friends。
+[Speaker 1]:  so i load this model uh and i see like，
+[Speaker 1]:  okay，
+[Speaker 1]:  i have like a fifteen GB here。
+[Speaker 1]:  so i have curoughly likes eighty seven，
+[Speaker 1]:  one five GB。
+[Speaker 1]:  and now when i do like infrence ence，
+[Speaker 1]:  uh，
+[Speaker 1]:  what i noticce is like the more the number of inputs i pass more，
+[Speaker 1]:  is the memory that i need。
+[Speaker 1]:  and it's increasing slowly，
+[Speaker 1]:  but it's still increasing。
+[Speaker 1]:  so imagine like if you have a context length，
+[Speaker 1]:  like around four thousand or sixteen thousand or twenty two thousand。
+[Speaker 1]:  uh dokens。
+[Speaker 1]:  uh。
+[Speaker 1]:  so this memory could like really grow bag，
+[Speaker 1]:  and it you could actually get like all of those out of memory issues。
+[Speaker 1]:  so definitely，
+[Speaker 1]:  this is like your problem。
+[Speaker 1]:  one like your memory increasing with the increase in tokens。
+[Speaker 1]:  so in form of like a simple visualization，
+[Speaker 1]:  it looks like this。
+[Speaker 1]:  the second problem that you would is like the time to your first joken。
+[Speaker 1]:  it's very，
+[Speaker 1]:  very slow。
+[Speaker 1]:  we measured by a metrico DDFT。
+[Speaker 1]:  it's a short form of it。
+[Speaker 1]:  um and when you try to like measure the TDFT with the like input size，
+[Speaker 1]:  you would see like longer the context you would see like this TDFT being slow。
+[Speaker 1]:  so now there are two problems，
+[Speaker 1]:  your memory increases with the token size。
+[Speaker 1]:  you TTFF increases es with totoken size。
+[Speaker 1]:  so not the token size of the text size uh。
+[Speaker 1]:  and then the third is the like through roport。
+[Speaker 1]:  the the through rouort is like how many tokens can you serve ve second d？
+[Speaker 1]:  then how many uuers can you solve per second？
+[Speaker 1]:  so if you take a very very vali implementation on your local systests，
+[Speaker 1]:  uh，
+[Speaker 1]:  it would be like sequsequenal。
+[Speaker 1]:  so if you send like five requests，
+[Speaker 1]:  all those five requests would be catered like sequentially，
+[Speaker 1]:  rather local sequently。
+[Speaker 1]:  um and so like your request，
+[Speaker 1]:  basically take makes time to complete if you have like multiple users，
+[Speaker 1]:  these are the like three problems。
+[Speaker 1]:  there is a fourth one。
+[Speaker 1]:  i haven't described it here，
+[Speaker 1]:  probably we will build that intuition as we move forward。
+[Speaker 1]:  but let's remember like these are the three problems，
+[Speaker 1]:  the memory TDFT and the roboort good。
+[Speaker 1]:  i will go back to the slights。
+[Speaker 3]:  okay，
+[Speaker 3]:  buffeit。
+[Speaker 1]:  ah，
+[Speaker 0]:  so it should be this is it visible？
+[Speaker 3]: 嗯，
+[Speaker 1]: 好，
+[Speaker 1]:  you you 的哦给，
+[Speaker 3]: 我说什么 ok？
+[Speaker 0]:  yeah so。
+[Speaker 1]:  within that repository if，
+[Speaker 1]:  you see a xkshop foller you，
+[Speaker 1]:  see reread me and then the read me has all the links the，
+[Speaker 0]:  slides and the demos ah does。
+[Speaker 0]:  that what okay？
+[Speaker 3]:  perfect 嗯？
+[Speaker 0]:  okay，
+[Speaker 1]:  ah。
+[Speaker 1]:  lelet's start working through the foundations let's，
+[Speaker 1]:  start understanding what are the reasons behind those painpoints and。
+[Speaker 1]:  for that like，
+[Speaker 1]:  we have to look at this influence ence pipeline so。
+[Speaker 1]:  we get like an input text so。
+[Speaker 1]:  text could have like any number of words you convert those into the tokens so。
+[Speaker 1]:  for simplicity you，
+[Speaker 1]:  can assume one word call to one token uh。
+[Speaker 1]:  then you kind of convert them into like the embedings and，
+[Speaker 1]:  then you send it to the like transformers um。
+[Speaker 1]:  like there are tty two layers of transformers but，
+[Speaker 1]:  that's specific to the mysterle seven be different models of different kind number of layers and。
+[Speaker 1]:  then you generate a new token and，
+[Speaker 1]:  that token basically goes back to the import then，
+[Speaker 1]:  you generate another token and。
+[Speaker 1]:  that keeps on going now。
+[Speaker 1]:  in this entire pippoint you，
+[Speaker 1]:  would see like ninety five percent of your computers like taken by these transformer layers so。
+[Speaker 1]:  it's worth looking at like what goes within this transforma layer within this runform layyer would have like kes more layers you。
+[Speaker 1]:  have like a normalization layer you。
+[Speaker 1]:  have an attention layer you。
+[Speaker 1]:  have a feit for layer layer and all and attention layer is the one i think that has been very very，
+[Speaker 1]:  famous attention。
+[Speaker 1]:  is all you need people i。
+[Speaker 1]:  think that's very well known so。
+[Speaker 1]:  attention is the most compute intensive layer and，
+[Speaker 1]:  we need to understand what goes within that attention layer so。
+[Speaker 1]:  what does attention do attention so？
+[Speaker 1]:  if you have an input tax it，
+[Speaker 1]:  needs to find the attention scores of every token with the respect to all of the previous tokens and。
+[Speaker 1]:  to do that what，
+[Speaker 1]:  it needs to do is like it needs to project every token into like a key query and value space so。
+[Speaker 1]:  in like in a simple er towns just，
+[Speaker 1]:  understand this like，
+[Speaker 1]:  if you have ten tokens then，
+[Speaker 1]:  it needs like the ten different query key and the value vectors if。
+[Speaker 1]:  there are hundred dokens you，
+[Speaker 1]:  would need hundred key and the value vectors if。
+[Speaker 1]:  there are thousand dokens you，
+[Speaker 1]:  would need thousand key value acctors and。
+[Speaker 1]:  so like a number of the key and the value vectors they，
+[Speaker 1]:  increase as you increase the input size um and if you calculate the like kaby size per token for misysterle seven，
+[Speaker 1]:  bit comes out to be one twenty one caby this。
+[Speaker 1]:  is because like you have to vttask can，
+[Speaker 1]:  we you have to multiply the size uh？
+[Speaker 1]:  one vetor is like one twenty twenty didimension you。
+[Speaker 1]:  have to titito multiply ed ttitito transformer layers and。
+[Speaker 1]:  then you have to multiplied by the cav heads for misyuh seven weeits kate cavy heads it's。
+[Speaker 1]:  not like pardy too because，
+[Speaker 1]:  it uses a different kind of inattention mechanism um which we will talk about for sure but。
+[Speaker 1]:  yeah so。
+[Speaker 1]:  the KV size but，
+[Speaker 1]:  token is like um one thirty one k aby now。
+[Speaker 1]:  imagine if you have four cake context um so that size becomes like half AGV um。
+[Speaker 1]:  if you do like sixteen cake context that size becomes two point one GV um。
+[Speaker 1]:  now multiple plly out by the users like aszsume you，
+[Speaker 1]:  can serll multiple users together at the same time within that GPU you，
+[Speaker 1]:  could have like forty two GB with a four cay context and。
+[Speaker 1]:  eighty users um at the same b if，
+[Speaker 1]:  is only like let's，
+[Speaker 1]:  seventwenty for GB you。
+[Speaker 1]:  are already running out of the memory so。
+[Speaker 1]:  you cannot solve that many users with，
+[Speaker 0]:  that many context to visualize this look at a gpu memory so。
+[Speaker 1]:  the gpu memory has like a model weights which，
+[Speaker 1]:  are pretfixed these。
+[Speaker 1]:  are pretrain weights uh。
+[Speaker 1]:  there is like an overhead that is also face that also like that changes but，
+[Speaker 1]:  it does not change that much uh。
+[Speaker 1]:  overall you，
+[Speaker 1]:  can assume its face and，
+[Speaker 1]:  then there is like a leftover memory so。
+[Speaker 1]:  this leftover memorory is what being used by your kve mail like key in the value actors so。
+[Speaker 1]:  assume like you have a one user you，
+[Speaker 1]:  can only so that many key and the value vectors or that many tokens which，
+[Speaker 1]:  can like fitten this entire RDGB like，
+[Speaker 1]:  memory that is left so。
+[Speaker 1]:  we can show this with a simple demo too，
+[Speaker 1]:  ok。
+[Speaker 1]:  okay，
+[Speaker 3]:  great，
+[Speaker 3]:  okay。
+[Speaker 3]:  great，
+[Speaker 3]:  ah。
+[Speaker 3]:  let。
+[Speaker 3]:  me see if i can actually run this what。
+[Speaker 3]:  roberfamily y de the hagestst suber okay。
+[Speaker 3]:  great，
+[Speaker 3]:  yeah，
+[Speaker 1]:  so。
+[Speaker 1]:  you would see like the gp is a dehed 嗯。
+[Speaker 0]:  so，
+[Speaker 1]:  here here are just trying to confirm the like memeory ory ase on the the mats basbason the，
+[Speaker 1]:  intuition that we have built so。
+[Speaker 1]:  the model memory is like let's，
+[Speaker 1]:  if you have a seven billion parameters you，
+[Speaker 1]:  are doing a sixteen bit precision your。
+[Speaker 1]:  total memory comes out to be fourteen point six GV with huge can basically verify that with the mats so。
+[Speaker 1]:  if you do all that match that，
+[Speaker 1]:  comes out to be the fourteen points six。
+[Speaker 1]:  GV now comes the KVKY in the VVV size so，
+[Speaker 1]:  this caby sizes like your one tatty one，
+[Speaker 1]:  caabparpart token and。
+[Speaker 1]:  if you do that math and you try to like visualize this 哦行，
+[Speaker 1]: 嗯，
+[Speaker 3]: 嗯 ok，
+[Speaker 3]:  and。
+[Speaker 3]:  then let's just to sualize this okay，
+[Speaker 3]:  great，
+[Speaker 3]:  ah。
+[Speaker 1]:  yeah so。
+[Speaker 1]:  this is the like a memory chart so。
+[Speaker 1]:  if you see like as your point texts increases your，
+[Speaker 1]:  memory keeps increasing then，
+[Speaker 1]:  another thing to realize es like as your users increase uh。
+[Speaker 1]:  then also your memory increases so。
+[Speaker 1]:  if you want to serve like one sixty users uh，
+[Speaker 1]:  on AGPU you，
+[Speaker 1]:  can support like uh you can only support like lesser context land so。
+[Speaker 1]:  there is always a trade off between what context length you can serve was is how much cause you can save by like putting a multiple uusers or the concurrent users into like a single gpu so。
+[Speaker 1]:  you have to always pick that trade off and，
+[Speaker 1]:  we will go through that like um in couple ple of slights ah。
+[Speaker 1]:  can you repeat please ah？
+[Speaker 1]:  i'm sorry i'm。
+[Speaker 1]:  cannot hear you do。
+[Speaker 0]:  you be a different tools different，
+[Speaker 0]:  products lames for in the soul of the light very，
+[Speaker 0]:  of versition 等。
+[Speaker 0]: 一下 go okay，
+[Speaker 3]:  so。
+[Speaker 3]:  let me go back so。
+[Speaker 1]:  that was a light memory um。
+[Speaker 1]:  we need to understand why we had like a slower time to first joken um when we increase the context land so。
+[Speaker 1]:  for that like，
+[Speaker 1]:  we need to understand the two phases of influence and，
+[Speaker 1]:  those phases are like the prefl and the decode phase i。
+[Speaker 1]:  think you would all it seem like a lot of articles but，
+[Speaker 1]:  we just wanted to explain it um。
+[Speaker 1]:  so when you send like a lot of like when you send these input tokens what，
+[Speaker 1]:  you want to do is you want to build those key and the value vetors that i mentioned for all the tokens then，
+[Speaker 1]:  you want to compute the attention scores of every token with respect to the previous token all，
+[Speaker 1]:  this operation that you do it's。
+[Speaker 1]:  a very very，
+[Speaker 1]:  mattricx heavy it's。
+[Speaker 1]:  a very very，
+[Speaker 1]:  compute heavy，
+[Speaker 1]:  operation and，
+[Speaker 1]:  we all know like the gps they。
+[Speaker 1]:  are like very well suited for a heavy computer workload so。
+[Speaker 1]:  we call like a prefilled to be like a compute bound and，
+[Speaker 1]:  it does take some time to complete so。
+[Speaker 1]:  whatever time that this face takes to complete that's，
+[Speaker 1]:  your time to the first token so。
+[Speaker 1]:  if if you have like a more import tokens you，
+[Speaker 1]:  have to generate more key value vectors you，
+[Speaker 1]:  have to do a lot more attention math and。
+[Speaker 1]:  because of that your，
+[Speaker 1]:  TTFTV comes more more slower where，
+[Speaker 1]:  is if，
+[Speaker 1]:  once you generate one token you，
+[Speaker 1]:  need to keep doing this to generate another tokens sequentially one，
+[Speaker 1]:  after another but。
+[Speaker 1]:  in that process every，
+[Speaker 1]:  time you have to build the key and the value vectors of all the previous tokens which，
+[Speaker 1]:  is same as they feel like you were building key value vectors they。
+[Speaker 1]:  are also here also but。
+[Speaker 1]:  in decode phase you，
+[Speaker 1]:  are only computing the，
+[Speaker 1]:  attention math for the new token and。
+[Speaker 1]:  that is why it's a very less it's，
+[Speaker 1]:  less less compupuoriented up and。
+[Speaker 1]:  it's also called as memory bound we。
+[Speaker 1]:  will see it shortly why it's called as memory bound so。
+[Speaker 1]:  in a classic timeline you，
+[Speaker 1]:  would see prefile and decode face like this so。
+[Speaker 1]:  time taken by prefile that's。
+[Speaker 1]:  your time to first chicken and。
+[Speaker 1]:  then your time taken by every decode step that you're basically your intetitoken leency so。
+[Speaker 1]:  that's like the fourmemeric that you need to worry about like，
+[Speaker 1]:  what's the time being taken by your decode step okay？
+[Speaker 3]:  go，
+[Speaker 3]:  now why，
+[Speaker 1]:  does that like？
+[Speaker 1]:  decode step ade us decode，
+[Speaker 1]:  takes time and why it's being called as like a memory bound operation let's。
+[Speaker 1]:  try to understand that to understand that we need to look at how the metricx map basically works on the GPU on a high level so。
+[Speaker 1]:  GPU has two kind of memories you。
+[Speaker 1]:  have a hibandwich memory you。
+[Speaker 1]:  have a shared memory so。
+[Speaker 1]:  the high bandwit memory is a larger size but，
+[Speaker 1]:  a lower member like lower bandwit by lower band with i。
+[Speaker 1]:  mean like，
+[Speaker 1]:  you can transa date out of it at a lower ray compare to the shared memory so。
+[Speaker 1]:  the shared memory is smaller in size but，
+[Speaker 1]:  it has a very very，
+[Speaker 1]:  high bandway um。
+[Speaker 1]:  that means you can transer data in and out of it were a very first thing so。
+[Speaker 1]:  when you have to do a metrics math so，
+[Speaker 1]:  you have to pick the data in juns from the high bandwich memory you，
+[Speaker 1]:  have to put it into the shared memory do。
+[Speaker 1]:  that math write back the result into the high bandwich memory uh for，
+[Speaker 1]:  the prefil face when。
+[Speaker 1]:  you have to do this you，
+[Speaker 1]:  have to do this metrics math only once but，
+[Speaker 1]:  for the decode phase you to do do metrrix matmath like again and again because，
+[Speaker 1]:  you are generating each and every token sequentially and。
+[Speaker 1]:  so like you it，
+[Speaker 1]:  doesn't matter like how fast is your decode because，
+[Speaker 1]:  now you can transfer your data out of the hiband with memory into the s shared memory at a certain spin because you are limited by the high bandwet memory bandet speed and。
+[Speaker 1]:  so that governns you are like token ceiling like，
+[Speaker 1]:  at what rate can you actually generate tokens out of the decode stem if we look at this in the roofline plot so？
+[Speaker 1]:  there is a left section which，
+[Speaker 1]:  is called to be a memory bang mathematically it's。
+[Speaker 1]:  govern by the authematic intensity authematic。
+[Speaker 1]:  intensity is the number of liflop operations that you perform but bite of data being transferred so。
+[Speaker 1]:  for the decode step um，
+[Speaker 1]:  the codes that since you are transfering lot of data like the key and the value vectors of the all the previous tokens the，
+[Speaker 1]:  model waways but，
+[Speaker 1]:  you are doing the lightless computation because your computing attention matp for only one token so。
+[Speaker 1]:  its authatic intensity is very low but。
+[Speaker 1]:  for a preferal phase you，
+[Speaker 1]:  are transering the data once but，
+[Speaker 1]:  then like you are doing this heavy computation and。
+[Speaker 1]:  so it's automatic intensity is very high so。
+[Speaker 1]:  now you，
+[Speaker 1]:  know like，
+[Speaker 1]:  in terms of mathematics like，
+[Speaker 1]:  um why the computer like，
+[Speaker 1]:  why automatic intensity of trafilis very high compared to your decoal okay。
+[Speaker 3]:  so。
+[Speaker 1]:  this is like another small small，
+[Speaker 1]:  level now。
+[Speaker 3]:  great time i，
+[Speaker 3]:  have to okay，
+[Speaker 3]:  okay。
+[Speaker 3]:  great，
+[Speaker 3]:  i。
+[Speaker 3]:  hope this is already rn say again，
+[Speaker 1]:  we，
+[Speaker 1]:  are loading the model now。
+[Speaker 1]:  this is the like the preefl cost so。
+[Speaker 1]:  what we are basically doing is we are getting they like like the input text and，
+[Speaker 1]:  then we are trying to generate this uh。
+[Speaker 1]:  the prefil step the，
+[Speaker 1]:  amount of time it takes we。
+[Speaker 1]:  see like as we increase the like size of the input tokers this the，
+[Speaker 1]:  fieal is increasing this and。
+[Speaker 1]:  this is the reason why your ted of the increases and then like your decode time so。
+[Speaker 1]:  the decode time is like on average it，
+[Speaker 1]:  says about the same and。
+[Speaker 1]:  so if it is like a assuming you like you ignore that like cold study or would decode time is like a proximately around the average line it，
+[Speaker 1]:  is still impacted by like um the input size it's。
+[Speaker 1]:  not like it's a constant time and，
+[Speaker 1]:  it is because it still needs to pull the key and the value vectors from the memory for all the previous chokens so。
+[Speaker 1]:  there is still like um that um basically a small increase in time that you would see with the decode step and。
+[Speaker 1]:  then this is the like classic roofline plud okay。
+[Speaker 3]:  presentation，
+[Speaker 3]:  tion okay。
+[Speaker 3]:  great，
+[Speaker 3]:  okay。
+[Speaker 3]:  so。
+[Speaker 1]:  now now let's try to understand like a the thropof dimension you。
+[Speaker 1]:  want to understand how many users you can actually serve and。
+[Speaker 1]:  i think we saw like a diagram of the gpu memory where we saw okay。
+[Speaker 1]:  there，
+[Speaker 1]:  is some memory that is free for the key and the value vectors to grow so。
+[Speaker 1]:  assume like you have our just a single user um。
+[Speaker 1]:  what's the total kv size that you have you？
+[Speaker 1]:  can basically support it defined by a context limit，
+[Speaker 1]:  the max users that you can support is like whatever is your gpu availability like，
+[Speaker 1]:  whatever is the memory that is available in the gpu you，
+[Speaker 1]:  divided by the key and the value size per user and。
+[Speaker 1]:  when you do that like，
+[Speaker 1]:  it comes out to be like your the conquent users now assume like your gpu is faxed your，
+[Speaker 1]:  model is faxed uh。
+[Speaker 1]:  so your cav size but，
+[Speaker 1]:  token is fixed there。
+[Speaker 1]:  are only two dimensions that are left here which，
+[Speaker 1]:  is context and your concreent users if，
+[Speaker 1]:  you want to serve more concurrent users you，
+[Speaker 1]:  have to reduce the context length if。
+[Speaker 1]:  you reduce the context length you，
+[Speaker 1]:  could impact your quality so。
+[Speaker 1]:  these are the two dimensions right now that we are trading of then，
+[Speaker 1]:  they feel but。
+[Speaker 1]:  can you actually serve the like match number of concontent users in an ideal why？
+[Speaker 1]:  probably not because every business has like latency as ellow that we have to meet so？
+[Speaker 1]:  if you remember like in the decode step i，
+[Speaker 1]:  said that time for the decode still increases if，
+[Speaker 1]:  you have more inputs it，
+[Speaker 1]:  also increases if you have more users so。
+[Speaker 1]:  ultimately uh，
+[Speaker 1]:  intertototal atency also gets impacted if you have like a higher bad size and your TTF tea also gets impacted so。
+[Speaker 1]:  now there is a third dimension you。
+[Speaker 1]:  have to worry about which，
+[Speaker 1]:  is like your lency so。
+[Speaker 1]:  the three dimensions that you have is like a quality legency and the throughput so。
+[Speaker 1]:  so it comes out to be like this trade of triangle where，
+[Speaker 1]:  you have to choose between the two so。
+[Speaker 1]:  for a premium jt application you，
+[Speaker 1]:  would want to priadize definitely the quality and，
+[Speaker 1]:  you want to priatize like the leency you。
+[Speaker 1]:  would not want your users to wait infinitely for the like sslike not，
+[Speaker 1]:  infinitely but，
+[Speaker 1]:  probably for the larger atency you，
+[Speaker 1]:  can always sacrify the number of users you can support on the gpu and probably take that costed being more customer offices in form of like and。
+[Speaker 1]:  and like if you consider like an agent take um sorry the，
+[Speaker 1]:  asing agent workload you，
+[Speaker 1]:  would want to like priadise definitely quality and the truropoput because，
+[Speaker 1]:  these are the long running task and you would want to like so as many as concrerent task as possible but，
+[Speaker 1]:  with a very very，
+[Speaker 0]:  higher quality and often like we think like，
+[Speaker 1]:  okay，
+[Speaker 1]:  we，
+[Speaker 1]:  the gpu is like a very expensive GPU that might not be a good faith for us but。
+[Speaker 1]:  it turns out that could actually serve you the lowest costs per million tokens um。
+[Speaker 1]:  but you really have to trust your kind of calculations on the max users that you want and。
+[Speaker 1]:  like you you，
+[Speaker 1]:  really have to make those estimations correctly so。
+[Speaker 1]:  we do have like a 原 let，
+[Speaker 0]:  me just 没有认识但，
+[Speaker 0]: 是 okay great，
+[Speaker 1]:  so。
+[Speaker 1]:  for the capacity calculator ah there，
+[Speaker 1]:  is like a link to the cola because i was facing certain issues with molaa i。
+[Speaker 1]:  had to migrate out the whole vigard library and，
+[Speaker 1]:  i didn't have time so being lazy i，
+[Speaker 1]:  just picked collab and apolologito moala ah。
+[Speaker 3]:  so。
+[Speaker 3]:  my reason is connected but，
+[Speaker 3]:  okay the，
+[Speaker 3]:  wifi promly ok，
+[Speaker 3]:  great，
+[Speaker 0]:  so。
+[Speaker 1]:  what we have done over areas we，
+[Speaker 1]:  have like shaated some，
+[Speaker 1]:  like the gps with their vie ams bandrids the，
+[Speaker 1]:  the liffloves and the cospar hours then。
+[Speaker 1]:  we kind of like build this simple um a capacity calcullor this。
+[Speaker 1]:  is just a kv vivisualizer where you kind of like when you increase the number of tokens you，
+[Speaker 1]:  see like a kv size ze increases and。
+[Speaker 1]:  when you increase the number of users your，
+[Speaker 1]:  sizes like increasing at a much fast surray and。
+[Speaker 1]:  then in this capacity calculator let，
+[Speaker 3]:  it run so。
+[Speaker 1]:  if we have like a model which，
+[Speaker 1]:  which is like a seven billion parameter model that we selected we，
+[Speaker 1]:  set the like decision to be FPC sixteen now。
+[Speaker 1]:  we the way we basically go by the gpi decision as，
+[Speaker 1]:  you have to decide what's，
+[Speaker 1]:  your like you have to fix one dimension first which，
+[Speaker 1]:  you care about the most for premium chad dimension like，
+[Speaker 1]:  lendse is definitely the one uh and then like for the easing worklothe bats the，
+[Speaker 1]:  minimum bats ze that you want to serve for from like a single gpu that。
+[Speaker 1]:  is the second dimension so。
+[Speaker 1]:  you want to fix these first so。
+[Speaker 1]:  i will go about like in a premium child application so。
+[Speaker 1]:  i can go ahead with like ten many seconds let，
+[Speaker 1]:  and cy a minimum bad size i。
+[Speaker 1]:  don't care like i can so。
+[Speaker 1]:  i'm okay with like，
+[Speaker 1]:  probably too ah ok so，
+[Speaker 1]:  probably with the seven concrete users on a single gpu and。
+[Speaker 1]:  then like my context limit，
+[Speaker 1]:  is very important to me because i want to focus on the quality as well and。
+[Speaker 1]:  so like i do see like some of the gps so。
+[Speaker 1]:  the h one hundred day GB it's，
+[Speaker 1]:  like AA dollar per hour but，
+[Speaker 1]:  like i'm a three hundred x is it yeah so。
+[Speaker 1]:  it's like around ten dollars per hour but。
+[Speaker 1]:  if you do all that throouput math that，
+[Speaker 1]:  we shared in the mathematics before you could find like a cost per million dollar tokens that。
+[Speaker 1]:  could be very very，
+[Speaker 1]:  that that，
+[Speaker 1]:  could be light lesser so。
+[Speaker 1]:  you need to do such calculations by fixing those dimensions and，
+[Speaker 1]:  you need to decide your gpu to like reduce your kind of inference costs this。
+[Speaker 1]:  is at least the first step that you can take towards optimizing the influence okay。
+[Speaker 3]:  go，
+[Speaker 3]:  so。
+[Speaker 3]:  the next light so。
+[Speaker 3]:  not me okay，
+[Speaker 3]:  great，
+[Speaker 3]:  and。
+[Speaker 1]:  so like now the，
+[Speaker 1]:  next thing is about the model optimimization so。
+[Speaker 1]:  we are now basically have built that foundation where，
+[Speaker 1]:  we understood some of the painpoints reason behind those pain points why。
+[Speaker 1]:  those were happening um how we could like address that gpu capacity thing we。
+[Speaker 1]:  need to understand what can we do like，
+[Speaker 1]:  what can be further do about it so。
+[Speaker 1]:  it is about let model optimization and。
+[Speaker 1]:  i think i've would like to invite that man and，
+[Speaker 1]:  he can talk more about these model of optimizations provided he has work on this leg during his research times okay。
+[Speaker 5]:  control，
+[Speaker 3]:  l at okay hi，
+[Speaker 5]:  everyone mike，
+[Speaker 5]:  jack i'm。
+[Speaker 5]:  my alidibal at last yeah。
+[Speaker 5]:  okay。
+[Speaker 5]:  so，
+[Speaker 5]:  hi i'm，
+[Speaker 5]:  ten measua i。
+[Speaker 5]:  work as a senior quant model and。
+[Speaker 5]:  also i'm，
+[Speaker 5]:  am i researched my work focuses on agent verification and right now building world models so。
+[Speaker 5]:  for this one model optimization before we start model optimization so。
+[Speaker 5]:  i created a research template so that it will be easy for us to understand all these complex things i。
+[Speaker 5]:  so our temperatted simple first we，
+[Speaker 5]:  will identify the problem second。
+[Speaker 5]:  stepe we，
+[Speaker 5]:  will sollve problem problem utwo algoriorims ms are are fake alalgorithms so。
+[Speaker 5]:  first algorithm is called austrich algorithm whenever。
+[Speaker 5]:  we see uh just like austricge whenever。
+[Speaker 5]:  we see a problem austrich put their head into the sand so。
+[Speaker 5]:  same thing we will do whenever。
+[Speaker 5]:  we face a problem we，
+[Speaker 5]:  will just ignore it so。
+[Speaker 5]:  this is an important algorithm we should follow second。
+[Speaker 5]:  one is created it。
+[Speaker 5]:  is called world cup algorithm for。
+[Speaker 5]:  example we，
+[Speaker 5]:  don't know who will win this fifa world cup so。
+[Speaker 5]:  what organizstate they are break the forty forty eight teams into twelve groups then，
+[Speaker 5]:  rounound tatittoo so rounp parattoo right noise currently going on then roung sixteen then，
+[Speaker 5]:  quarterfinals uh than semifinals and finals so。
+[Speaker 5]:  what they are doing a start um they are breaking it into a smaller problems and，
+[Speaker 5]:  the useful results are moving forward so。
+[Speaker 5]:  same analogy or same algorithm we，
+[Speaker 5]:  will use to understand this model optimization all those things so。
+[Speaker 5]:  yeah let's，
+[Speaker 5]:  start so。
+[Speaker 5]:  i have one h one hundred GPUI have to use this open source model what。
+[Speaker 5]:  is called GPTOSS one twenty billion parametrter model so。
+[Speaker 5]:  right now i，
+[Speaker 5]:  think it's so they have trained on on b float sixteen and。
+[Speaker 5]:  wait is too forforty gie about it what。
+[Speaker 5]:  should i do this？
+[Speaker 5]:  is the problem we。
+[Speaker 5]:  have so。
+[Speaker 5]:  first thing but，
+[Speaker 5]:  we have to do is is two forty gigigabout and eighty gigigiabout at each one hundred so。
+[Speaker 5]:  and i have to fit only in one GPU or not in multiple GPU so。
+[Speaker 5]:  what can we do i？
+[Speaker 5]:  think simple type is that just compresss it but，
+[Speaker 5]:  how should we comppress it or that's the another challenge so。
+[Speaker 5]:  if we compress be a um a float at teen teen uum FP eight then，
+[Speaker 5]:  it will be around one prrentigaga ite but，
+[Speaker 5]:  our GPUH one hundred days are still eighty gaga about so。
+[Speaker 5]:  what i think they did is that they compressed into further MX um MXFP four and。
+[Speaker 5]:  i think sizes around sixty five gigger gigger right，
+[Speaker 5]:  so？
+[Speaker 5]:  this is something we can do h compress but question so。
+[Speaker 5]:  and we will use our this austrialgoriism we。
+[Speaker 5]:  are assusuing that there there is no loss in compressing a bigger model into a uh smaller size second。
+[Speaker 5]:  thing uh，
+[Speaker 5]:  in this one okay，
+[Speaker 5]:  yeah，
+[Speaker 5]:  so。
+[Speaker 5]:  in this one in，
+[Speaker 5]:  this light we，
+[Speaker 5]:  have used this miysteral sevenbe so。
+[Speaker 5]:  seven billion parameters such such as small models seven，
+[Speaker 5]:  billion parameters so。
+[Speaker 5]:  uh so if multitilied by our two bites so weight off it around is fourteen fourteen point five give about it which，
+[Speaker 5]:  can easily fit into h one hundred or even a forty so。
+[Speaker 5]:  so next uh what，
+[Speaker 5]:  we can do instead like mysteral seven we，
+[Speaker 5]:  instead of compressing it a，
+[Speaker 5]:  flooding point sixteen we。
+[Speaker 5]:  can apply different techniques like ant eight or in for or enough for so。
+[Speaker 5]:  basically we，
+[Speaker 5]:  have to just use uh austrge algorithm man。
+[Speaker 5]:  just，
+[Speaker 5]:  believe that there is no um quality lost kind of things but。
+[Speaker 5]:  somehow you also have to mathematically proved that by doing some kind of test testing on some external benchmark dewhether it it，
+[Speaker 5]:  is working or not so。
+[Speaker 5]:  the and this comes under post training quantization kind of thing one。
+[Speaker 5]:  can also do up this one during fine tuning one。
+[Speaker 5]:  can also do this kind of quantization this。
+[Speaker 5]:  comes under ququantuwhere training kind of thing so。
+[Speaker 5]:  let's move to our next problem so。
+[Speaker 5]:  we have this a huge of metraces just。
+[Speaker 5]:  just imagine imagine uh one thousand by one thousand are dimension matrix a and another matrix matrix um one thousand by one thousand so。
+[Speaker 5]:  if you multipuh if，
+[Speaker 5]:  mumultily by these two mattrreses so，
+[Speaker 5]:  number of operations will be one thousand and dress to the power queue and。
+[Speaker 5]:  this is kind of a problem in terms of uh uh terms of computing so。
+[Speaker 5]:  we wondered our matrix multiplications should be fast and，
+[Speaker 5]:  it should save memory so。
+[Speaker 5]:  what should we do we？
+[Speaker 5]:  have a giant matrix okay。
+[Speaker 5]:  let's，
+[Speaker 5]:  take this one um ysteral four zero ninicx by four zero insex what。
+[Speaker 5]:  should we do uh to solve our problem of spreading up the things what？
+[Speaker 5]:  should we the memory four zero，
+[Speaker 5]:  nine sex by four zero，
+[Speaker 5]:  nine，
+[Speaker 5]:  cisix，
+[Speaker 5]:  x so。
+[Speaker 5]:  first thing is that we use just our our welup alalgorithm we。
+[Speaker 5]:  can decide random number just break the block politically it。
+[Speaker 5]:  does not matter what you are choosing，
+[Speaker 5]:  it so you have so。
+[Speaker 5]:  let's say so，
+[Speaker 5]:  we we have four one nine sixsix uh。
+[Speaker 5]:  columns we，
+[Speaker 5]:  will break it um。
+[Speaker 5]:  we will break it into a group of one twenty eight column each，
+[Speaker 5]:  so one twenty eight one，
+[Speaker 5]:  twenty eight column one，
+[Speaker 5]:  point and euh h vertically so。
+[Speaker 5]:  we will get a thirty we。
+[Speaker 5]:  will get this thirty two blocks if we divide this four year and and six。
+[Speaker 0]:  then what will happen by doing this thing。
+[Speaker 0]:  so if we just divide this one verververtically，
+[Speaker 0]:  then we can use our multiple gpu to speed up the process。
+[Speaker 0]:  so this kind of thing is called multi head attention。
+[Speaker 0]:  so what else can we do？
+[Speaker 0]:  we have a big mattress like 嗯有没有？
+[Speaker 0]:  uh as have mentioned that austriage algorithm。
+[Speaker 0]:  so our main problem is sizing。
+[Speaker 0]:  so what we what we can do is that instead of having all those thirty two uh thirty to political blocks，
+[Speaker 0]:  we will throw away uh thirty one blocks，
+[Speaker 0]:  and we will assume that one block is sufficient enough that all the queries can handle those blocks。
+[Speaker 0]:  our loss will be almost negligible，
+[Speaker 0]:  and we come up with this algorithm，
+[Speaker 0]:  which and this algorithm is called a multiquary attention。
+[Speaker 0]:  so as we can see right now，
+[Speaker 0]:  we are at two spectrum。
+[Speaker 0]:  one is multi had attention where we split ted into thirty two blocks。
+[Speaker 0]:  and use are different uh are different AGPS or do some parallel processing。
+[Speaker 0]:  and at the same time，
+[Speaker 0]:  we are just throwing thirty when blocks。
+[Speaker 0]:  and uh，
+[Speaker 0]:  we are calling this is as AA multiary attention。
+[Speaker 0]:  so so at both extreme now，
+[Speaker 0]:  we should become up with a middle ground，
+[Speaker 0]:  like something we can say that instead of throwing all with thirty one。
+[Speaker 0]:  uh，
+[Speaker 0]:  maybe we can group，
+[Speaker 0]:  we can groups。
+[Speaker 0]:  we can book some of the blocks together。
+[Speaker 0]:  so that uh and we can assume that um similar blocks will attend to uh um similar kind of querries。
+[Speaker 0]:  so this kind of technique comes under group query attention，
+[Speaker 0]:  which is very popular right now，
+[Speaker 0]:  uh even in even in mysteral or in other models，
+[Speaker 0]:  this group querry attention works。
+[Speaker 0]:  so right now，
+[Speaker 0]:  we have understandded。
+[Speaker 0]:  we have a big matriss。
+[Speaker 0]:  we can divide the way we want and doing some mathematical calpulation proved that loss is almost negligible kind of thing。
+[Speaker 0]:  so what else we can do so after that uh after this group query attention，
+[Speaker 0]:  um see，
+[Speaker 0]:  we have a big practice。
+[Speaker 0]:  one is one is key，
+[Speaker 0]:  and one is value。
+[Speaker 0]:  let's compress that matrix into a latent vector and then come up with some algorithm to a reconstruct from latent vector or to our original mathematics。
+[Speaker 0]:  so this kind of strategy gy es under this one muurti had latent latent attention。
+[Speaker 0]:  but again，
+[Speaker 0]:  it has some problems with rorope，
+[Speaker 0]:  because rope is position dependent。
+[Speaker 0]:  and uh and it is um position independent kind of thing。
+[Speaker 0]:  so yebone need also include some uh index for keys also so that one can map it。
+[Speaker 0]:  but again，
+[Speaker 0]:  main problem is that why why we are why we are multiplying all those big mattraces。
+[Speaker 0]:  so because that's how this attention mechanism works that each token will pay attention to every token。
+[Speaker 0]:  so how about let's don't pay attention to all the previous token，
+[Speaker 0]:  only pay attention to the important tokens，
+[Speaker 0]:  which is important for us。
+[Speaker 0]:  so this is a kind of this kind of feilis evolving ving。
+[Speaker 0]:  so this consent is psed our deep sick，
+[Speaker 0]:  sparse，
+[Speaker 0]:  attention，
+[Speaker 0]:  so h yeah and yeah，
+[Speaker 0]:  so okay next yeah。
+[Speaker 0]:  so next one is flash attention。
+[Speaker 0]:  so so so in flash attention，
+[Speaker 0]:  so main，
+[Speaker 0]:  so main problem is that uh uh so so currently so currently not currently so right now，
+[Speaker 0]:  almost everyone uses flash attention，
+[Speaker 0]:  but way in twenty twenty twenty two or twenty twenty three and key matworks。
+[Speaker 0]:  that's how it works that uh so uh HQ，
+[Speaker 0]:  uh h query and and key mattraces，
+[Speaker 0]:  they were in HBM。
+[Speaker 0]:  uh it lobs HHHHK bh into uh this one our tencer cde。
+[Speaker 0]:  and it do some uh do some calculation，
+[Speaker 0]:  and then it will write it back to uh HBM。
+[Speaker 0]:  and then this process goes on multiple times。
+[Speaker 0]:  so in flash attention uh，
+[Speaker 0]:  what did did that uh is that instead of multiplying the whole mattraces，
+[Speaker 0]:  so they just divided it into like our welkup algorithm，
+[Speaker 0]:  divided that the bigger attriices into a small tile and only put those small，
+[Speaker 0]:  small tiuh to ASBM。
+[Speaker 0]:  so that um it can process multiplication fast and just keep keeping track of this some three variables。
+[Speaker 0]:  so that dekally calculate this on landsoft max。
+[Speaker 0]:  yeah，
+[Speaker 0]:  next one。
+[Speaker 0]:  so yeah。
+[Speaker 0]:  so this is just mathematic。
+[Speaker 0]:  so if we have a murdy had attention，
+[Speaker 0]:  if it is for five hundred and forty uh k abe，
+[Speaker 0]:  then it depends upon how much how much grouping we want。
+[Speaker 0]:  and so if instead of thirty two，
+[Speaker 0]:  kvi had a we only want to use uh，
+[Speaker 0]:  eight cavi had。
+[Speaker 0]:  so so so we can get a compression of forest times。
+[Speaker 0]:  and this multinathlatent attention，
+[Speaker 0]:  this formula depends on the model to model how many less your model have。
+[Speaker 0]:  so in the original deesc paper，
+[Speaker 0]:  i think they have some one twenty，
+[Speaker 0]:  a dimension，
+[Speaker 0]:  one twenty，
+[Speaker 0]:  a one twenty。
+[Speaker 0]:  i don't remember the exact dimension，
+[Speaker 0]:  but according to that，
+[Speaker 0]:  um they have used this one late director in which they have used five hundred twelve as a dimension and some sixty four for for rope index。
+[Speaker 0]:  so and then they shothat that it is a fifty x fifty six x more comressed than martty head attention。
+[Speaker 0]:  okay，
+[Speaker 0]:  yeah。
+[Speaker 0]:  so ah so yeah。
+[Speaker 0]:  so this is so this is the this is the trade of uh trade of diagram。
+[Speaker 0]:  so here，
+[Speaker 0]:  i think we have not talked about this linear attention or mumber。
+[Speaker 0]:  so being problem is just all this metrix meltiplication right now。
+[Speaker 0]:  everyone is using attention suppose in future，
+[Speaker 0]:  if we don't want to use attention are rather than generating tokens sequently just use maybe diffusial models where we can generate everything simultaneously。
+[Speaker 0]:  so all these algorithms will change also。
+[Speaker 0]:  but here i think they have two more one as linear attention and one as mumba。
+[Speaker 0]:  so according to the this slide。
+[Speaker 0]:  so if we are not comppleressing anything，
+[Speaker 0]:  so MA case is just of we are paralyzing the process。
+[Speaker 0]:  so there is ququality lasarch are good。
+[Speaker 0]:  and then this group query attention，
+[Speaker 0]:  which is，
+[Speaker 0]:  i think almost uh every model is using just GQA and DSA kind of thing。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i think same thing we are providing in the attention mechanism is poortcard。
+[Speaker 0]:  so uh so i think this when amateteac quality is good through orts，
+[Speaker 0]:  uh through ort is okay。
+[Speaker 0]:  and for grouroued query attention，
+[Speaker 0]:  it depends upon your use case also，
+[Speaker 0]:  though，
+[Speaker 0]:  though quality is almost similar to mulltiade attention，
+[Speaker 0]:  but use case also matters a lot。
+[Speaker 0]:  yemumultiary attention is just one extreme there。
+[Speaker 0]:  i don't know why，
+[Speaker 0]:  but we are just assuming that we only need bun block and all the queries will attend to that a smaller，
+[Speaker 0]:  a smaller block。
+[Speaker 0]:  so quality is not that great for for for mpua，
+[Speaker 0]:  and this multi had diant attention。
+[Speaker 0]:  so you if you have tried some this deep seit models，
+[Speaker 0]:  so i think they are doing great job。
+[Speaker 0]:  yeah，
+[Speaker 0]:  in in quality，
+[Speaker 0]:  vice，
+[Speaker 0]:  besides start sliding windows。
+[Speaker 0]:  so all these are some techniques，
+[Speaker 0]:  which yeah，
+[Speaker 0]:  all these are some techniques likes。
+[Speaker 0]:  i just slide the windows，
+[Speaker 0]:  all those things。
+[Speaker 0]:  and instead of you're instead of multiple everything，
+[Speaker 0]:  so leinear attention is just seeying get summarize everything first uh and then look up into it。
+[Speaker 0]:  and then mumbba。
+[Speaker 0]:  this is just a staate spspace models。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i 跟你哥哥说，
+[Speaker 0]:  ok，
+[Speaker 2]:  are good。
+[Speaker 2]:  thank you to me。
+[Speaker 2]:  so for the model like optimizations，
+[Speaker 2]:  we also have lithe two notebooks here。
+[Speaker 2]:  so there will be i have to go to this。
+[Speaker 2]:  ok。
+[Speaker 2]:  so for the grantization，
+[Speaker 2]:  uh like the demo，
+[Speaker 2]:  uh，
+[Speaker 2]:  this is is this already run？
+[Speaker 2]:  no，
+[Speaker 2]:  have me just run this。
+[Speaker 2]:  okay。
+[Speaker 2]:  so we are loading the model，
+[Speaker 1]:  which is like a mysterl seven bee also。
+[Speaker 2]:  so this one is like with the FP sixteen baseline，
+[Speaker 2]:  wait，
+[Speaker 2]:  did it run？
+[Speaker 2]:  okay。
+[Speaker 2]:  so it's a two my second thend end that this room。
+[Speaker 2]:  ok。
+[Speaker 1]:  so so ah this time it's fetching that model with the fp sixteen precision 啊的 wifi。
+[Speaker 2]:  it's gonna take time。
+[Speaker 1]:  okay，
+[Speaker 2]:  yeah，
+[Speaker 2]:  it's because it's downloading debates from the hugging face。
+[Speaker 1]:  ah yes，
+[Speaker 2]:  so molab is like running online because it needs to make the network called through the haging phase。
+[Speaker 2]:  and like it fetching，
+[Speaker 2]:  i don't not like，
+[Speaker 2]:  but it's taking time to download，
+[Speaker 1]:  probably 没有办法继续举的辩论没有。
+[Speaker 2]:  um okay，
+[Speaker 2]:  okay。
+[Speaker 2]:  so here we see like the memory sizes，
+[Speaker 2]:  like fifteen gp around approxiimately with the fp six in precision。
+[Speaker 2]:  we are trying to do the two week's complesion as to talked about with the indeed let don't load。
+[Speaker 2]:  okay。
+[Speaker 2]:  so we do see like your memory size is now like point seven point five GV。
+[Speaker 2]:  what that means is now you have a more more memory for your caby to basically grow。
+[Speaker 2]:  that means you can either serve higher context limit or you can solve the higher congrent users there。
+[Speaker 2]:  if you do the like in for your basic，
+[Speaker 2]:  you are doing the fox compression。
+[Speaker 2]:  so that with the fox compression，
+[Speaker 2]:  it would be more lower。
+[Speaker 2]:  it would be，
+[Speaker 2]:  i think，
+[Speaker 2]:  around three to four GB，
+[Speaker 2]:  you have four point five gb。
+[Speaker 2]:  and yeah，
+[Speaker 2]:  so this spirit。
+[Speaker 2]:  so this is just a basic plot of like。
+[Speaker 2]:  so these are the elecorraticical numbers。
+[Speaker 2]:  we are not doing the like any thoughprotest chairir，
+[Speaker 2]:  but usually you would say，
+[Speaker 2]:  like a memory increases approyou would also like a bit of fire ah roouts from some of the benchamas that we started。
+[Speaker 2]:  we saw like the inted compression，
+[Speaker 2]:  it does have like a lower through ports。
+[Speaker 2]:  okay。
+[Speaker 2]:  and then there is like a demo on the like the attention mechanisms。
+[Speaker 2]:  so for the attention，
+[Speaker 2]:  okay，
+[Speaker 2]:  i have to run this。
+[Speaker 2]:  okay。
+[Speaker 2]:  so it is ruh。
+[Speaker 2]:  why why does it say no GPU detected？
+[Speaker 1]:  i should say the GPU should be detected 哦，
+[Speaker 2]:  ok，
+[Speaker 1]:  but the decisal breathsing。
+[Speaker 2]:  i guess it's not like able to detect the gpu for some reason。
+[Speaker 2]:  uh，
+[Speaker 2]:  we do how like a gp u here。
+[Speaker 2]:  okay，
+[Speaker 2]:  never mind，
+[Speaker 2]:  yes。
+[Speaker 2]:  ah but that like basic idea here was more like 不知道，
+[Speaker 2]:  as you try to move towards like compressing the computation，
+[Speaker 2]:  like by using different attention mechanisms，
+[Speaker 2]:  like moving from the multi head to the group，
+[Speaker 2]:  ed quadi attention。
+[Speaker 2]:  and then to the MA，
+[Speaker 2]:  you would start seeing some optimizations。
+[Speaker 2]:  um i think yesterday denked me，
+[Speaker 2]:  you were doing some bench marking。
+[Speaker 2]:  um i wanted to correct this part um so it wasn't like fifty fifty six ccess。
+[Speaker 2]:  it was for in ina。
+[Speaker 2]:  basically the demo had had a mistake of like a computation where it did not multily the number of layers。
+[Speaker 2]:  ah ah so aalologies that that so this ml is like a forty teen。
+[Speaker 2]:  eight savings were in comparison to like your multii had attention。
+[Speaker 2]:  so now that we have understanding of the pinints，
+[Speaker 2]:  the foundations，
+[Speaker 2]:  the one side of the optimizations，
+[Speaker 2]:  which is the modern optimizations。
+[Speaker 2]:  we want to talk about what can you do on the like，
+[Speaker 2]:  the sove inside。
+[Speaker 2]:  so the first thing is，
+[Speaker 2]:  we saw like when you perform like a simple decode step，
+[Speaker 2]:  you are pulling it。
+[Speaker 2]:  you are basically pulling the model weight，
+[Speaker 2]:  and then you are recomputing the key and the value vectors for all the previous tokens，
+[Speaker 2]:  even though you already computed the those vectors for the tokens。
+[Speaker 2]:  so there is definitely like a lot of computer wastage。
+[Speaker 2]:  and if you kind of analyze the time complexity of it，
+[Speaker 2]:  it would come out of be a fine square。
+[Speaker 2]:  and the way way resololthat is like a classic trade of againinst the memory。
+[Speaker 2]:  you can maintain a memory of those vectors against the tokens，
+[Speaker 2]:  and you can reference that memory。
+[Speaker 2]:  so that memory was called as like carry cash。
+[Speaker 2]:  and like the flow looks something like this。
+[Speaker 2]:  and then based on this kv cash，
+[Speaker 2]:  there were like for optimizations that were really possible。
+[Speaker 2]:  the first one is about the page detention。
+[Speaker 2]:  so what's the different？
+[Speaker 2]:  what's the problem today？
+[Speaker 2]:  so when you send like multiple request as the input to the gpu，
+[Speaker 2]:  these requests are in a batch，
+[Speaker 2]:  every request is allocated like a containous memory storage。
+[Speaker 2]:  let's say of i'm just taking an example，
+[Speaker 2]:  like let's it。
+[Speaker 2]:  um two caby。
+[Speaker 2]:  however，
+[Speaker 2]:  like your request needed only。
+[Speaker 2]:  let's say，
+[Speaker 2]:  one caby。
+[Speaker 2]:  so there is like um a fifty percent of that memory fragmentation ah，
+[Speaker 2]:  and this fragmentation basically leads to the memory way stage。
+[Speaker 2]:  that means there was a space in the memory where you could have served more request，
+[Speaker 2]:  but you could not because you were looking for that contagious block of the memory。
+[Speaker 2]:  so an inspiration to her was being taken from，
+[Speaker 2]:  like how the OS works，
+[Speaker 2]:  like you maintain a logical memory，
+[Speaker 2]:  and you basically have a physical memory。
+[Speaker 2]:  so in the logical memory，
+[Speaker 2]:  it would still feel like that the cave vector or father，
+[Speaker 2]:  like every token is like a contagious，
+[Speaker 2]:  but it will be mapping toward different physical address。
+[Speaker 2]:  so that really helped like saving a lot of memory。
+[Speaker 2]:  and it was only possible because you they consider like memory as a set of blocks，
+[Speaker 2]:  and you would be dynamically allocating those blocks as the request need as the like。
+[Speaker 2]:  new tokens comes in，
+[Speaker 2]:  and they need that kind of memory。
+[Speaker 2]:  the another liver is like when you are sending multiple requests in the batch，
+[Speaker 2]:  gpu is like taking those requests，
+[Speaker 2]:  but it does not accept the new batch，
+[Speaker 2]:  unless all the request in that batch gets completed。
+[Speaker 2]:  so the diagram looks more like a page attention。
+[Speaker 2]:  but here it is more about like when is gpu available to take the next batch。
+[Speaker 2]:  so there is a time period where gpu is like sitting really idle。
+[Speaker 2]:  and you want to like resolve for that。
+[Speaker 2]:  and for that，
+[Speaker 2]:  like the idea was like，
+[Speaker 2]:  okay，
+[Speaker 2]:  let's still that contaes patching。
+[Speaker 2]:  so the continue ous batching also really helped like throwbbakers。
+[Speaker 2]:  now you can shape more requests，
+[Speaker 2]:  pretty quickly，
+[Speaker 2]:  keep making sure like gp。
+[Speaker 2]:  uh get it's always like occupied，
+[Speaker 2]:  and it's not like ah saving idle。
+[Speaker 2]:  so you are saving on that compute。
+[Speaker 2]:  the third is the like，
+[Speaker 2]:  like perfic cashing。
+[Speaker 2]:  so you remember like the kv cash heldio save the computation for a single request across the tokens，
+[Speaker 2]:  but whatever like you have the same tokens across multiple requests。
+[Speaker 2]:  how do you basically save against that？
+[Speaker 2]:  so the perfect cathwhich was was introduced，
+[Speaker 1]:  whether we lell them exactly counters that。
+[Speaker 2]:  and then the third is like we talked about foot actually。
+[Speaker 2]:  so we talked about quananzsing the model，
+[Speaker 2]:  but you could also you can also like quantize the the reyweghtes。
+[Speaker 2]:  that means now you，
+[Speaker 2]:  you need like a lesser space for your key and the value vectors。
+[Speaker 2]:  that means you can serve more key and the value actors in the memory。
+[Speaker 2]:  and that means like you can serve more tokens。
+[Speaker 2]:  that means you can serve more context，
+[Speaker 2]:  context limit。
+[Speaker 2]:  and that means like you can serve more model quality。
+[Speaker 2]:  and all of this is like already present in the viel。
+[Speaker 2]:  l。
+[Speaker 2]:  am，
+[Speaker 2]:  you don't really need to reinvent that wheel。
+[Speaker 2]:  and you can like deploy this VA elem in production，
+[Speaker 2]:  and you could see that basically growth。
+[Speaker 2]:  so next，
+[Speaker 2]:  we have like a benchmark that we did。
+[Speaker 2]:  so this benchmark was let me see if i have that here。
+[Speaker 2]:  the democs。
+[Speaker 2]:  so doing this benchmark takes like around one hour because you have to continuously stop。
+[Speaker 2]:  and like we start that we yell observers and you have to load the models and all。
+[Speaker 2]:  so it does take a lot of time and doing that testing。
+[Speaker 2]:  but i can like really the deyou here what we are doing。
+[Speaker 2]:  so we have kept the model as same like the miseral seven b。
+[Speaker 2]:  and then 嗯 we have like the set of input cautions that we are sending consider them as the prompts。
+[Speaker 2]:  then we have couple of helper functions here like checking the server is up or not。
+[Speaker 2]:  the server is the VLLM server ver，
+[Speaker 2]:  then there helhelper functions to get the VLLM merics。
+[Speaker 2]:  ah and i will talk about like what those merix are。
+[Speaker 2]:  then there are like a lot of of the benchmarks and all。
+[Speaker 2]:  and then you have to measure that KV usage and know these are the like helpth of functions。
+[Speaker 2]:  so the baseline very simple mple like we have huhugging face baseline。
+[Speaker 2]:  this is a role like sending the text to the elem。
+[Speaker 2]:  getting back the response。
+[Speaker 2]:  we see some results here。
+[Speaker 2]:  we saw like hugging pace as a throwput of like around fifty one tokens per second time to first choken was like fifty four，
+[Speaker 2]:  and then the entire token leency was nineteen。
+[Speaker 2]:  uh。
+[Speaker 2]:  this was all run under each trone hundred um and then we start like a very default vie ell em sovers。
+[Speaker 2]:  so by default，
+[Speaker 2]:  vielellum provides you the paid attention continues batching and the kv catching。
+[Speaker 2]:  so three things are present by default。
+[Speaker 2]:  and when you try to compare those benchmarch，
+[Speaker 2]:  you see your thoughpoort is like almost fifteeks。
+[Speaker 2]:  you are able to serll more tokens per second，
+[Speaker 2]:  then you're time to the first choken that also rises。
+[Speaker 2]:  and then you're the intertoken atencate kind of ghost down？
+[Speaker 2]:  and then your caaby posses users and the versis contexted increases for sure。
+[Speaker 2]:  now when you apply the privic discussion to it。
+[Speaker 2]:  so with the perfect scussion，
+[Speaker 2]:  you see like your throwort increases more，
+[Speaker 2]:  your tedifp decreases your intertoken lency is approximately same。
+[Speaker 2]:  and then the your vv cash you says，
+[Speaker 2]:  what is the users？
+[Speaker 2]:  it's kind of going down。
+[Speaker 2]:  the biris is the context。
+[Speaker 2]:  it's not going down。
+[Speaker 2]:  it's approximately sham。
+[Speaker 2]:  II think this is also approximately sham。
+[Speaker 2]:  it's like not that um big of a deal when you apply the like，
+[Speaker 2]:  giving quantization on top of it。
+[Speaker 2]:  so it becomes like。
+[Speaker 2]:  so so you see like a thoughort is like almost similar。
+[Speaker 2]:  your time to fast choken is similar。
+[Speaker 2]:  your token leenciis similar。
+[Speaker 2]:  but then your cavy usage actually goes down。
+[Speaker 2]:  this is because like you have quantize your key value space，
+[Speaker 2]:  and then there is a concept of speculative decoding that，
+[Speaker 2]:  that mmay will talk about。
+[Speaker 2]:  so when you try to benchmark those，
+[Speaker 2]:  so you also see like there is a uh like a bit of like the lescaabe usah，
+[Speaker 2]:  although like the the results are approximately same 啊，
+[Speaker 1]: 然后三十的时候呢，
+[Speaker 1]: 还没有还是到少呢。
+[Speaker 2]:  so yeah，
+[Speaker 2]:  i mean overall，
+[Speaker 2]:  like these other like the metrics across probably，
+[Speaker 2]:  i should zooo out oay that's oo zone o osnow。
+[Speaker 1]: 对对，
+[Speaker 2]:  great。
+[Speaker 2]:  so yeah，
+[Speaker 2]:  this is the like VL elem benchmarks。
+[Speaker 2]:  um it's a production defaulby。
+[Speaker 2]:  by way way，
+[Speaker 2]:  we will also share that decision tree uh when we try to talk about like the other engines。
+[Speaker 1]: 嗯，
+[Speaker 2]:  so yeah。
+[Speaker 2]:  so we should talk about like，
+[Speaker 2]:  what are some of the other influence of timizations we can do on top of it and what what some of the other solutions that came out。
+[Speaker 2]:  so i would like to gain in white thami。
+[Speaker 2]:  he is going to talk about like some of these optimizations。
+[Speaker 2]:  i'm sorry，
+[Speaker 2]:  i'm so sorry，
+[Speaker 2]:  i didn't enable the slights。
+[Speaker 2]:  what was the okay？
+[Speaker 2]:  great of a which one the specuculatiity。
+[Speaker 0]:  yeah。
+[Speaker 0]:  thank you，
+[Speaker 0]:  hurful yeah。
+[Speaker 0]:  so so all this are like speculative recording，
+[Speaker 0]:  all these are the so so what we say，
+[Speaker 0]:  uh，
+[Speaker 0]:  different flavors of same kind of soda。
+[Speaker 0]:  so this this technique comes unddecoding accelerators。
+[Speaker 0]:  so first one。
+[Speaker 0]:  so we're only talking about this speculative decoding，
+[Speaker 0]:  but there are other variants like self es speculative eagle medosaui only like like i uah that's one eagle algorithm personney。
+[Speaker 0]:  i don't think speculative decoding works，
+[Speaker 0]:  because main problem is alignment。
+[Speaker 0]:  okay，
+[Speaker 0]:  so let's to start with what is a speculative decoding。
+[Speaker 0]:  main problem is that in transformer architecture，
+[Speaker 0]:  all these tokens are generated sequently wone by one by one。
+[Speaker 0]:  how about just use a smaller model and let a smaller model to generate maybe let's say，
+[Speaker 0]:  four or five tokens。
+[Speaker 0]:  and this teacher model or we can say，
+[Speaker 0]:  according to our world，
+[Speaker 0]:  dcup algorithm can say，
+[Speaker 0]:  referee so referee，
+[Speaker 0]:  we decide how many are tokens it accept。
+[Speaker 0]:  and this loop keeps on going on。
+[Speaker 0]:  and our assumption is that there are certain domain where this kind of things will work，
+[Speaker 0]:  like maybe in maybe in coding，
+[Speaker 0]:  where almost there is no creativity，
+[Speaker 0]:  each code or sin taxes almost similar。
+[Speaker 0]:  so maybe it can help it。
+[Speaker 0]:  but based on personal desting，
+[Speaker 0]:  i didn't find this speculative decoding useful at all，
+[Speaker 0]:  but other techniques like uh self speculative decoding，
+[Speaker 0]:  where teacher model also have one head oxilerary head，
+[Speaker 0]:  and it will do similar kind of things。
+[Speaker 0]:  what this base model or small model is doing it，
+[Speaker 0]:  but then does eagle came eagle went two three。
+[Speaker 0]:  i don't know how many version versions are，
+[Speaker 0]:  but it is just saying that instead of create，
+[Speaker 0]:  instead of generating togers are，
+[Speaker 0]:  let's uh，
+[Speaker 0]:  train a small model in side，
+[Speaker 0]:  train a small model and just take of features from um one of uuh，
+[Speaker 0]:  one of main models later。
+[Speaker 0]:  so that instead of generating token，
+[Speaker 0]:  uh，
+[Speaker 0]:  it will generate a this features。
+[Speaker 0]:  so so uh，
+[Speaker 0]:  so eagle，
+[Speaker 0]:  uh eagle is is better compared to this other kind of technologigies and than another one is madosa，
+[Speaker 0]:  which is just saying that just generate all those tokens are arenlel。
+[Speaker 0]:  okay。
+[Speaker 0]:  so here，
+[Speaker 0]:  so here in this slide，
+[Speaker 0]:  yeah okay，
+[Speaker 0]:  yeah okay。
+[Speaker 0]:  now we come to uh now we will come to this one prefix cashing。
+[Speaker 0]:  so i don't know whether people are using this one staditic prefix cashing or not，
+[Speaker 0]:  but things is dead。
+[Speaker 0]:  main problem with prefix or cashing is dead，
+[Speaker 0]:  sometimes we type and make a small kind of mistake。
+[Speaker 0]:  and this standard stratic prefix cuhing is basically，
+[Speaker 0]:  it takes upfrom do some some ashing。
+[Speaker 0]:  and then next time when user are similar，
+[Speaker 0]:  kind of question，
+[Speaker 0]:  it will try to match the hash。
+[Speaker 0]:  so if uh sh is uh if hash is equal than than it will，
+[Speaker 0]:  instead of recomputing all those scare，
+[Speaker 0]:  and we it will just take it from this storage。
+[Speaker 0]:  but you know that sometimes we make a mistake or maybe we can just change a world or letter something like that than we have a very higher uh cash cash，
+[Speaker 0]:  miss hait red。
+[Speaker 0]:  so that's why uh this one radicstry。
+[Speaker 0]:  so radictry is becoming very popular and also because of agent。
+[Speaker 0]:  so i think almost everyone is doing agent，
+[Speaker 0]:  and most of the computation is going during tt are during test time infrance kind of thing where we keep on asking same kind of questions。
+[Speaker 0]:  and from for example，
+[Speaker 0]:  you are an expert software engineer multiply by two hundred times。
+[Speaker 0]:  this kind of loop keeps on going inside，
+[Speaker 0]:  this idential identic kind kind of things where it is necessary to ep ep store similar kind of things in a radictree。
+[Speaker 0]:  so radix tree is just so。
+[Speaker 0]:  so radistry is just a advanced version of this perfect tree，
+[Speaker 0]:  where where we will just where we will just collapse and know if it does not have a does not have any branch，
+[Speaker 0]:  and for this kind of work will keep on repeating same thing。
+[Speaker 0]:  this um radstry helps a lot and SG lengg use this kind of algorithm for prefex cashing。
+[Speaker 0]:  okay，
+[Speaker 0]:  yeah，
+[Speaker 0]:  then there is another thing when is tensor RTLLM。
+[Speaker 0]:  this is very confusing when i first started，
+[Speaker 0]:  i was all i was just confused for this tenser RT elem。
+[Speaker 0]:  so yeah，
+[Speaker 0]:  so tensor RT is just uh is just standard ASTK kind of thing。
+[Speaker 0]:  tenser RT alm is just an inference engine，
+[Speaker 0]:  just like we elalm as she length。
+[Speaker 0]:  but problem is that it is related to nvidia。
+[Speaker 0]:  they optimize each and every layer。
+[Speaker 0]:  and every problem，
+[Speaker 0]:  as i mentioned in our voical bealgoriism，
+[Speaker 0]:  they just break everything and optimiszeveryeverything at harder level also。
+[Speaker 0]:  so so yeah，
+[Speaker 0]:  so okay next you have so for this workkshop，
+[Speaker 0]:  we also are did some benchmarticking like which is best。
+[Speaker 0]:  so our setup was something similar was。
+[Speaker 0]:  so we did two kind of testing。
+[Speaker 0]:  first one is without without agency testing，
+[Speaker 0]:  where just just so we use their shared dupuuum this one dataset and just asked those questions using via yym and sg link。
+[Speaker 0]:  okay，
+[Speaker 0]:  yeah，
+[Speaker 0]:  ok。
+[Speaker 2]:  and let me just okay great。
+[Speaker 0]:  okay。
+[Speaker 0]:  so ah for this workkshop，
+[Speaker 0]:  we use lechone hundred and about first testing hosteart。
+[Speaker 0]:  we just we just asked，
+[Speaker 0]:  we take questions from shared g pd and put it into we AI am as she lung，
+[Speaker 0]:  and we found。
+[Speaker 0]:  actually，
+[Speaker 0]:  there's no statistical difference between which one is better。
+[Speaker 0]:  so both have almost similar kind。
+[Speaker 0]:  so both are fulfilling similar kind of request per second RTDFT and latency。
+[Speaker 0]:  so but only difference we have seen during agentic uh agentic branchso。
+[Speaker 0]:  so what faded was was that be ask that similar kind of ocean that you are the best？
+[Speaker 0]:  this one software engineer in the world，
+[Speaker 0]:  just solve the problem of traffic congestion in this city kind of thing。
+[Speaker 0]:  then we put this into LLMLM generate some output。
+[Speaker 0]:  then we did another round to also。
+[Speaker 0]:  so once this LM generates this output，
+[Speaker 0]:  then in round ttoo，
+[Speaker 0]:  we have specially mentioned that uh provide review the proposal and give rings from one to ten。
+[Speaker 0]:  so this are two transspituh。
+[Speaker 0]:  this loop keeps on repeating it。
+[Speaker 0]:  um what we found is that for this kind of um workflow where everything is standard，
+[Speaker 0]:  all those problems and context engineering comes into the picture。
+[Speaker 0]:  if we do proper this identic c branching，
+[Speaker 0]:  then i think this asg lengg is three to four times better。
+[Speaker 0]:  but again，
+[Speaker 0]:  this depends upon the different statup。
+[Speaker 0]:  maybe if you do it，
+[Speaker 0]:  you may get different results。
+[Speaker 0]:  okay，
+[Speaker 0]:  yeah。
+[Speaker 0]:  so i think did we apploaded it？
+[Speaker 0]:  yeah，
+[Speaker 0]:  get up。
+[Speaker 0]:  okay，
+[Speaker 2]:  yeah。
+[Speaker 2]:  so the video is like also in the drive，
+[Speaker 2]:  it's the same link as the slights。
+[Speaker 2]:  so a quick somebody here。
+[Speaker 2]:  so on a standard API workload throughput，
+[Speaker 2]:  you would see like AVLM and SG lang would be as same。
+[Speaker 2]:  so if you don't have，
+[Speaker 2]:  if you have like a standard workload definitely go when we have limits the production before ward anyways。
+[Speaker 2]:  but what the may was also sasaying when you try try like make make it like agentic worklos。
+[Speaker 2]:  that is where like your SG lenge really shines。
+[Speaker 2]:  and it kind of like provides you all the benefits。
+[Speaker 2]:  so yeah，
+[Speaker 2]:  keep like vialym as a defauault。
+[Speaker 2]:  but if you have agentic worklows probably try to move as the towards the SGL。
+[Speaker 2]:  and if you're not happy with the vialymm，
+[Speaker 1]:  but okay，
+[Speaker 2]:  i'll let me okay。
+[Speaker 2]:  and didn't like there is like the like a comparison that is done at the one twenty billion like for the GPTOSS one twenty billion。
+[Speaker 2]:  this is a benchmark that was prepared by clarify。
+[Speaker 2]:  so there is like a blog link hair olenice。
+[Speaker 2]:  okay，
+[Speaker 2]:  yeah。
+[Speaker 2]:  so they did the similar benchmark，
+[Speaker 2]:  and they included like a tencor RT at a little minute。
+[Speaker 2]:  definitely，
+[Speaker 2]:  you can always go through these benchmarks and try to understand，
+[Speaker 2]:  which basically seits a use case，
+[Speaker 2]:  as we mentioned，
+[Speaker 2]:  like tensor arei that try to optimize the hardware side as well，
+[Speaker 2]:  having the peak harvare performance with the deserces。
+[Speaker 2]:  okay，
+[Speaker 2]:  yeah。
+[Speaker 2]:  and then like in terms of when you want to depick like your engines once you figure out like between VL elemmy lined and saardi。
+[Speaker 2]:  so there there are some new ines that are popping up in media dynamo for short。
+[Speaker 2]:  so they are also for the agentic session。
+[Speaker 2]:  rourouting hugging faces are always there。
+[Speaker 2]:  it's a simple nose over then they raised like an m start um engine that was recently proposed by stanford。
+[Speaker 2]:  they are for like the multimodel，
+[Speaker 2]:  as so definitely you could explore those when you try to basically just you like gave a quick summary you we start with，
+[Speaker 2]:  like like basbasine ine，
+[Speaker 2]:  try try to find what model could fit our use cases。
+[Speaker 2]:  um so you could pick like a deep sea。
+[Speaker 2]:  you could pick like don't piclike a mysteral seven BI mean it's not good，
+[Speaker 2]:  but yeah，
+[Speaker 2]:  so you pick your model and you want to like have a smaller memory，
+[Speaker 2]:  and you want to try to fit that bigger model into smaller memory so that you could save cost on the GPU costs。
+[Speaker 2]:  so you can do like all those quantization，
+[Speaker 2]:  then you can apply all those serving optimizations by using the right serving engine under the hood。
+[Speaker 2]:  so that can really provide you that thoughort that you really want and now something that you can do uh after going back home proud because we cannot like actually go over all the material here。
+[Speaker 2]:  uh is definitely reading about some of the source informations，
+[Speaker 2]:  like different attention mechaniszms different like these engines，
+[Speaker 2]:  like try to just read the different benchmarks on which are present online as well。
+[Speaker 2]:  and then there are a lot of like in debt guides are the next faces of it，
+[Speaker 2]:  which is like learning about some KV eviction strategies。
+[Speaker 2]:  so world is moving towards having a separate cave cash in genering domain。
+[Speaker 2]:  so you want to understand what's going on in there。
+[Speaker 2]:  so KV cash AKV eviction，
+[Speaker 2]:  cash compressions i read memories。
+[Speaker 2]:  so there are like a lot of solutions that are happening around there。
+[Speaker 2]:  so always tried stick to those casraoundations are like the fundamentor，
+[Speaker 2]:  the first principles and try to see like with solution，
+[Speaker 2]:  basically solves what problem and whether you actually need that problem to be solved for a use case。
+[Speaker 2]:  ase。
+[Speaker 2]:  then there is like distribubudalyem influence，
+[Speaker 2]:  which is like different painpoint altogether。
+[Speaker 2]:  um you would abably need like a two。
+[Speaker 2]:  our works up there as well to like go over，
+[Speaker 2]:  like all the internals，
+[Speaker 2]:  do all the hands on。
+[Speaker 2]:  yeah。
+[Speaker 2]:  and this is something we are trying to propose for the air in the new york session um h，
+[Speaker 2]:  which to to dibuy deeper into the advance sections of the alym m fluence。
+[Speaker 2]:  so this workshop was more for the like biginner and the intermediate level。
+[Speaker 2]:  um so in this form，
+[Speaker 2]:  we do have like a feedback as well。
+[Speaker 2]:  plus also the interests。
+[Speaker 2]:  um if you think like we need certain improvements on sudden sections，
+[Speaker 2]:  definitely give that feedback as well。
+[Speaker 2]:  and if you want to see this workshop and like new york，
+[Speaker 2]:  um fair，
+[Speaker 2]:  yeah mean，
+[Speaker 2]:  definitely feel feel free to enroll your interest。
+[Speaker 2]:  oh，
+[Speaker 2]:  how i should bussh it。
+[Speaker 1]:  but let me just just ct。
+[Speaker 1]: 嗯，
+[Speaker 2]: 好，
+[Speaker 2]:  you are a works，
+[Speaker 2]:  right，
+[Speaker 2]:  right？
+[Speaker 2]:  and not that you are code。
+[Speaker 2]:  okay，
+[Speaker 2]:  probably，
+[Speaker 2]:  i forgot to link those two together，
+[Speaker 2]:  third 地 reer fire。
+[Speaker 2]:  okay，
+[Speaker 2]:  good。
+[Speaker 2]:  yes，
+[Speaker 2]:  if you can give that feedback，
+[Speaker 2]:  let me just okay，
+[Speaker 2]:  that will be fine。
+[Speaker 2]:  um and yeah，
+[Speaker 2]:  i think we would like to wrap this workshop there。
+[Speaker 2]:  and i'm sure like a lot of you would be having a lot of questions。
+[Speaker 2]:  so we can take all those like offline uwe can meet um and we can like talk about those questions。
+[Speaker 0]:  tions yeah。
+[Speaker 2]:  shoyou think everyone，
+[Speaker 2]:  thanks for joining。
+[Speaker 2]:  um i think it was really meaningful。
+[Speaker 2]:  so we of you like joquesquesh 下来。
+[Speaker 0]:  yeah，
+[Speaker 0]:  thanks。
