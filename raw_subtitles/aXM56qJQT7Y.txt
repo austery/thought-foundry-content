@@ -1,0 +1,3247 @@
+Most
+ people
+ still
+ think
+ building
+
+
+software
+ is
+ too
+ hard.
+ That
+ was
+ true
+
+
+until
+ last
+ year.
+ I
+ am
+ not
+ a
+ programmer
+
+
+and
+ I
+ wanted
+ a
+ claw
+ code
+ tutorial
+ that
+
+
+normal
+ people
+ could
+ actually
+ use.
+ So
+ I
+
+
+made
+ this.
+ If
+ you've
+ never
+ written
+ a
+
+
+single
+ line
+ of
+ code,
+ you
+ will
+ still
+ go
+
+
+from
+ a
+ blank
+ screen
+ to
+ something
+ real
+ in
+
+
+one
+ afternoon
+ in
+ plain
+ English.
+ Whatever
+
+
+role
+ or
+ industry
+ you're
+ in,
+ you
+ can
+ now
+
+
+build
+ the
+ exact
+ tool
+ your
+ work
+ was
+
+
+missing.
+ Once
+ you
+ understand
+ this
+ simple
+
+
+four-step
+ system
+ in
+ this
+ video,
+ you
+ can
+
+
+build
+ almost
+ anything.
+ So,
+ let's
+ get
+
+
+started.
+ If
+ you
+ look
+ at
+ claude
+ code,
+ it
+
+
+will
+ feel
+ intimidating
+ at
+ first.
+
+
+Everyone
+ thinks
+ you
+ have
+ to
+ be
+ a
+ techie
+
+
+to
+ build
+ cool
+ apps.
+ They're
+ wrong.
+
+
+Imagine
+ tomorrow
+ you
+ have
+ to
+ negotiate
+
+
+an
+ important
+ deal
+ in
+ Beijing,
+ but
+ you
+
+
+don't
+ speak
+ a
+ word
+ of
+ Mandarin,
+ but
+ you
+
+
+have
+ a
+ worldclass
+ translator
+ who
+
+
+converts
+ it
+ into
+ Mandarin
+ to
+ your
+
+
+partners
+ in
+ Beijing.
+ Now
+ you
+ can
+ sit
+
+
+there,
+ have
+ a
+ conversation,
+ you
+ can
+
+
+negotiate
+ and
+ close
+ the
+ deal
+ without
+
+
+ever
+ touching
+ a
+ single
+ word
+ of
+ that
+
+
+language.
+ software
+ programming
+ and
+
+
+building
+ apps
+ in
+ Python
+ or
+ JavaScript.
+
+
+You
+ know,
+ they
+ all
+ feel
+ like
+ Mandarin
+ if
+
+
+you've
+ never
+ seen
+ them
+ before.
+ You
+ can
+
+
+start
+ building
+ products,
+ projects,
+ and
+
+
+internal
+ software
+ tools
+ without
+ any
+
+
+coding
+ today
+ because
+ Claude
+ Code
+ is
+ your
+
+
+translator.
+ If
+ you
+ can
+ speak
+ in
+ English,
+
+
+you
+ can
+ get
+ the
+ deal
+ done
+ without
+
+
+knowing
+ a
+ single
+ word
+ of
+ any
+ programming
+
+
+language.
+ Claude
+ chat
+ helps
+ you
+ think.
+
+
+Claude
+ code
+ work
+ helps
+ you
+ do
+ and
+ claude
+
+
+code
+ helps
+ you
+ build.
+ So
+ if
+ you
+ think
+
+
+that
+ ah
+ man
+ coding
+ is
+ not
+ for
+ people
+
+
+like
+ me,
+ I
+ want
+ you
+ to
+ test
+ that
+
+
+assumption
+ in
+ the
+ next
+ few
+ minutes.
+ What
+
+
+would
+ you
+ need
+ to
+ build
+ your
+ first
+
+
+simple
+ app?
+ Not
+ a
+ single
+ line
+ of
+ code.
+
+
+Now
+ this
+ is
+ the
+ desktop
+ version
+ of
+
+
+clawed
+ app.
+ At
+ the
+ top
+ you
+ can
+ see
+
+
+claude
+ chat
+ and
+ code.
+ Select
+ code.
+ By
+
+
+the
+ way,
+ this
+ is
+ the
+ universal
+ icon
+ for
+
+
+code
+ everywhere.
+ Down
+ here
+ is
+ where
+ I
+
+
+tell
+ Claude
+ what
+ I
+ want.
+ You'll
+ see
+
+
+words
+ like
+ repositories
+ sometimes
+ or
+
+
+GitHub.
+ Ignore
+ them
+ for
+ now.
+ For
+ this
+
+
+first
+ build,
+ let's
+ use
+ clot
+ code
+
+
+locally.
+ Pick
+ a
+ folder
+ where
+ you
+ want
+
+
+the
+ project
+ to
+ live
+ and
+ then
+ type
+ build
+
+
+me
+ a
+ beautiful
+ 25inut
+ focus
+ timer
+ with
+
+
+start,
+ pause,
+ reset,
+ and
+ a
+ progress
+
+
+ring.
+ That's
+ it.
+ And
+ watch
+ what
+ happens.
+
+
+Cloud
+ code
+ starts
+ figuring
+ out
+ what
+ it
+
+
+needs.
+ Creating
+ the
+ files,
+ writing
+ the
+
+
+code,
+ putting
+ the
+ pieces
+ together.
+ And
+
+
+just
+ in
+ a
+ few
+ minutes,
+ there
+ will
+ be
+ an
+
+
+actual
+ application
+ built
+ for
+ you.
+ Let's
+
+
+open
+ it.
+ Here's
+ the
+ timer.
+ Looks
+ good.
+
+
+Start,
+ pause,
+ reset.
+ Okay,
+ all
+ the
+
+
+buttons
+ are
+ there.
+ So,
+ that's
+ the
+ first
+
+
+moment
+ when
+ you
+ start
+ feeling,
+ wait
+ a
+
+
+minute,
+ I
+ built
+ that.
+ I
+ can
+ build
+ this
+
+
+thing.
+ You
+ don't
+ need
+ to
+ know
+ what
+
+
+programming
+ language
+ Claude
+ used
+ or
+ what
+
+
+all
+ those
+ strange
+ messages
+ that
+ scrolled
+
+
+on
+ the
+ screen
+ meant.
+ Now
+ look
+ at
+ the
+
+
+final
+ product.
+ Do
+ you
+ like
+ the
+ way
+ it
+
+
+looks?
+ If
+ not,
+ you
+ can
+ change
+ it
+ by
+ just
+
+
+prompting.
+ It's
+ really
+ that
+ simple.
+
+
+That's
+ the
+ first
+ big
+ shift
+ of
+ how
+ you
+
+
+use
+ clawed
+ code.
+ You
+ don't
+ have
+ to
+
+
+manage
+ the
+ code.
+ You
+ can
+ manage
+ the
+
+
+outcome.
+ Now,
+ we
+ cheated
+ a
+ little
+ bit
+
+
+here.
+ A
+ timer
+ is
+ deliberately
+ a
+ simple
+
+
+app.
+ What
+ happens
+ when
+ the
+ thing
+ you
+
+
+want
+ to
+ build
+ is
+ slightly
+ more
+
+
+complicated?
+ Well,
+ let's
+ go
+ there
+ next.
+
+
+We'll
+ take
+ our
+ first
+ bite.
+ The
+ best
+ way
+
+
+to
+ build
+ software
+ tools
+ and
+ apps
+ is
+ to
+
+
+stop
+ thinking
+ about
+ software.
+ Imagine
+
+
+you're
+ the
+ director
+ of
+ a
+ $200
+ million
+
+
+Hollywood
+ blockbuster.
+ You
+ show
+ up
+ on
+
+
+the
+ set
+ and
+ while
+ the
+ entire
+ crew
+ is
+
+
+waiting
+ outside,
+ you
+ tear
+ up
+ the
+ script
+
+
+and
+ spend
+ 3
+ hours
+ rewriting
+ the
+ entire
+
+
+scene
+ on
+ a
+ paper
+ napkin.
+ That
+ would
+ be
+
+
+so
+ chaotic.
+ But
+ that's
+ exactly
+ what
+
+
+happened
+ during
+ a
+ movie
+ called
+ Joker
+ 2.
+
+
+And
+ the
+ movie
+ was
+ a
+ mess
+ according
+ to
+
+
+many
+ people.
+ Now
+ contrast
+ that
+ with
+ Mad
+
+
+Max
+ Fury
+ Road.
+ The
+ entire
+ movie
+ is
+ like
+
+
+one
+ big
+ car
+ chase
+ through
+ the
+ desert.
+
+
+So,
+ the
+ director,
+ George
+ Miller,
+ and
+ his
+
+
+team
+ map
+ the
+ entire
+ movie
+ through
+
+
+roughly
+ about
+ 3,500
+
+
+storyboard
+ panels.
+ Each
+ scene,
+ each
+
+
+stunt
+ was
+ meticulously
+ planned.
+ And
+ the
+
+
+funny
+ part
+ is,
+ it's
+ one
+ of
+ the
+ most
+
+
+chaotic
+ action
+ movies
+ ever
+ made,
+ and
+
+
+ironically,
+ one
+ of
+ the
+ best
+ planned
+
+
+ones.
+ So
+ before
+ you
+ start
+ building
+ on
+
+
+any
+ of
+ these
+ vibe
+ coding
+ tools,
+ plan
+
+
+something,
+ build
+ something
+ small,
+ test
+
+
+it,
+ and
+ improve
+ it.
+ I
+ like
+ a
+ simpler
+
+
+version
+ that
+ I
+ made.
+ I
+ call
+ it
+ bite.
+ You
+
+
+don't
+ eat
+ the
+ entire
+ watermelon
+ at
+ once,
+
+
+right?
+ You
+ take
+ one
+ small
+ bite
+ at
+ a
+
+
+time.
+ Bite
+ is
+ your
+ map.
+ B
+ is
+ briefing.
+
+
+What
+ are
+ you
+ trying
+ to
+ build?
+ For
+ whom
+
+
+and
+ why.
+ I
+ is
+ implement.
+ Build
+ the
+
+
+smallest
+ useful
+ version.
+ T
+ is
+ test.
+ Use
+
+
+it
+ and
+ see
+ where
+ it
+ breaks.
+ How
+ do
+ you
+
+
+improve
+ it?
+ And
+ E
+ is
+ evolve.
+ Good
+
+
+products
+ evolve
+ over
+ time.
+ And
+ so
+ do
+
+
+good
+ builders.
+ And
+ by
+ the
+ way,
+ if
+ you
+
+
+like
+ to
+ get
+ such
+ tools
+ and
+ frameworks
+
+
+delivered
+ to
+ your
+ inbox,
+ please
+
+
+subscribe
+ to
+ my
+ email.
+ The
+ link
+ is
+ below
+
+
+and
+ it's
+ totally
+ free.
+ I
+ love
+ writing
+
+
+it.
+ All
+ right,
+ let's
+ use
+ this
+ framework
+
+
+to
+ build
+ something
+ slightly
+ more
+ useful.
+
+
+Let's
+ build
+ a
+ simple
+ relationship
+
+
+manager
+ for
+ people
+ who
+ matter
+ the
+ most
+
+
+to
+ me
+ professionally,
+ personally,
+ former
+
+
+colleagues,
+ my
+ mentors,
+ my
+ partners,
+
+
+people
+ I
+ want
+ to
+ stay
+ close
+ to,
+ but
+ I
+
+
+can't
+ because
+ I'm
+ running
+ around.
+ So,
+
+
+why
+ not
+ build
+ something
+ that's
+ your
+ own
+
+
+that's
+ focused
+ on
+ just
+ one
+ question?
+ Who
+
+
+matters
+ to
+ me?
+ and
+ how
+ am
+ I
+ staying
+ in
+
+
+touch
+ with
+ them?
+ So,
+ let's
+ get
+ started.
+
+
+We'll
+ start
+ with
+ B
+ for
+ briefing.
+ AI
+ can
+
+
+build
+ faster
+ than
+ any
+ human
+ team,
+ but
+ at
+
+
+that
+ speed,
+ it
+ needs
+ a
+ lot
+ of
+ direction.
+
+
+In
+ your
+ briefing,
+ answer
+ four
+ questions.
+
+
+Who
+ is
+ this
+ for?
+ What
+ problem
+ are
+ we
+
+
+solving?
+ What
+ does
+ the
+ first
+ version
+
+
+need
+ to
+ do?
+ And
+ just
+ as
+ importantly,
+
+
+what
+ are
+ we
+ not
+ building
+ in
+ this
+
+
+product?
+ Let's
+ do
+ it
+ for
+ real.
+ I
+ open
+
+
+clot
+ code
+ and
+ give
+ it
+ a
+ simple
+ prompt.
+ I
+
+
+want
+ to
+ build
+ a
+ personal
+ relationship
+
+
+manager
+ called
+ Orbit.
+ I
+ just
+ named
+ it
+
+
+Orbit.
+ Here's
+ the
+ problem
+ I
+ want
+ to
+
+
+solve.
+ I
+ want
+ to
+ track
+ how
+ I
+ stay
+ in
+
+
+touch
+ with
+ people
+ who
+ matter
+ to
+ me.
+ For
+
+
+version
+ one,
+ use
+ the
+ sample
+ data
+ I
+
+
+provided.
+ Show
+ each
+ person's
+ name,
+
+
+company,
+ when
+ we
+ spoke
+ last,
+ and
+ notes.
+
+
+Make
+ it
+ look
+ professional,
+ sparse,
+ and
+
+
+Applelike.
+
+
+Use
+ a
+ muted
+ color
+ palette.
+
+
+Don't
+ build
+ any
+ email
+ or
+ LinkedIn
+
+
+integrations
+ yet.
+ Before
+ writing
+ code,
+
+
+make
+ a
+ plan
+ and
+ ask
+ me
+ anything
+
+
+important
+ that
+ I
+ have
+ missed.
+ And
+ this
+
+
+is
+ the
+ most
+ important
+ part
+ of
+ the
+
+
+prompt.
+ I
+ am
+ not
+ a
+ techie
+ or
+ a
+ software
+
+
+engineer.
+ Don't
+ ask
+ me
+ to
+ approve
+ or
+
+
+review
+ any
+ technical
+ commands.
+ Make
+ all
+
+
+the
+ technical
+ decisions
+ yourself
+ and
+
+
+only
+ ask
+ me
+ questions
+ about
+ what
+ the
+ app
+
+
+should
+ do
+ in
+ plain
+ language.
+ That's
+ your
+
+
+example
+ prompt.
+ But
+ you
+ get
+ my
+ point,
+
+
+right?
+ You
+ can
+ write
+ your
+ own
+ prompt
+
+
+that
+ is
+ better
+ than
+ the
+ one
+ you
+ just
+
+
+saw.
+ First,
+ it'll
+ ask
+ you
+ a
+ bunch
+ of
+
+
+questions
+ about
+ what
+ you
+ want
+ to
+ build.
+
+
+It'll
+ clarify
+ if
+ there
+ are
+ any
+ tradeoffs
+
+
+you
+ need
+ to
+ make.
+ And
+ depending
+ on
+ what
+
+
+you
+ were
+ building,
+ it'll
+ ask
+ you
+
+
+different
+ questions.
+ But
+ it
+ won't
+ ask
+
+
+you
+ questions
+ about
+ what
+ kind
+ of
+
+
+programming
+ language
+ it
+ should
+ write
+ in
+
+
+or
+ what
+ kind
+ of
+ database
+ you
+ want
+ to
+
+
+design.
+ You
+ can
+ decide
+ what
+ you
+ want
+ and
+
+
+it
+ decides
+ how
+ to
+ build
+ it.
+ If
+ you
+ don't
+
+
+understand
+ a
+ bunch
+ of
+ things
+ in
+ the
+
+
+plan,
+ you
+ can
+ ask
+ questions.
+ You
+ can
+
+
+make
+ suggestions
+ to
+ change
+ things
+ in
+ the
+
+
+plan.
+ Claude
+ can
+ update
+ the
+ plan
+ anytime
+
+
+you
+ give
+ it
+ feedback.
+ In
+ my
+ case,
+ after
+
+
+I
+ read
+ the
+ plan,
+ I
+ realized
+ I
+ had
+ left
+
+
+out
+ one
+ very
+ important
+ detail
+ in
+ the
+
+
+original
+ prompt.
+ The
+ actual
+ user
+
+
+experience.
+ My
+ prompt
+ said
+ nothing
+ about
+
+
+what
+ the
+ layout
+ would
+ look
+ like
+ and
+ what
+
+
+to
+ show
+ where.
+ So
+ I
+ type
+ in
+ plain
+
+
+English.
+ It
+ should
+ look
+ professional
+ and
+
+
+slick
+ as
+ if
+ it's
+ designed
+ by
+ Apple.
+ Make
+
+
+it
+ a
+ threepane
+ layout.
+ Left
+ sidebar
+ with
+
+
+my
+ categories.
+ Middle
+ column
+ with
+ list
+
+
+of
+ names.
+ When
+ I
+ click
+ on
+ someone,
+ their
+
+
+profile
+ opens
+ on
+ the
+ right
+ side.
+ And
+
+
+after
+ adding
+ a
+ little
+ bit
+ of
+ that,
+ I
+
+
+approve
+ the
+ plan.
+ And
+ now
+ cloud
+ code
+
+
+starts
+ building.
+ To
+ see
+ what
+ happens
+
+
+next,
+ we
+ move
+ to
+ I
+ for
+ implement.
+ The
+
+
+biggest
+ mistake
+ trying
+ to
+ build
+
+
+everything
+ at
+ once.
+ We'll
+ dig
+ into
+ that
+
+
+important
+ concept
+ once
+ Claude
+ finishes
+
+
+building
+ the
+ first
+ version.
+ But
+ you'll
+
+
+see
+ that
+ right
+ now
+ it
+ starts
+ creating
+
+
+and
+ editing
+ files,
+ running
+ commands,
+
+
+installing
+ whatever
+ it
+ needs.
+ If
+ none
+ of
+
+
+that
+ means
+ anything
+ to
+ you,
+ great.
+ It
+
+
+doesn't
+ have
+ to.
+ Now
+ look
+ at
+ the
+ bottom
+
+
+and
+ see
+ if
+ auto
+ mode
+ is
+ available
+ on
+
+
+your
+ account.
+ And
+ if
+ it
+ is,
+ you
+ can
+ turn
+
+
+it
+ on
+ and
+ it
+ will
+ keep
+ working
+ without
+
+
+stopping
+ for
+ every
+ permission
+ that
+ it
+
+
+needs
+ to
+ ask
+ from
+ you.
+ For
+ anything
+
+
+sensitive,
+ you
+ can
+ slow
+ down
+ and
+ review
+
+
+what
+ it's
+ doing,
+ but
+ usually
+ you
+ can
+ sit
+
+
+back
+ and
+ enjoy
+ your
+ coffee.
+ In
+ my
+ case,
+
+
+it
+ ran
+ for
+ about
+ 10
+ to
+ 15
+ minutes.
+ It
+
+
+wrote
+ the
+ entire
+ code.
+ It
+ was
+ a
+
+
+JavaScript
+ code.
+ It
+ checked
+ its
+ own
+
+
+work.
+ It
+ made
+ its
+ own
+ database
+ and
+ then
+
+
+came
+ back
+ with
+ its
+ first
+ version.
+ Now,
+
+
+here's
+ what
+ it
+ looks
+ like.
+ The
+ search
+
+
+works.
+ I
+ can
+ type
+ and
+ see
+ the
+ people.
+
+
+That's
+ good.
+ Three
+ PES
+ just
+ like
+ uh
+ we
+
+
+asked.
+ All
+ good.
+ Let's
+ see.
+ The
+
+
+categories
+ on
+ the
+ left
+ are
+ all
+ accurate.
+
+
+It's
+ good.
+ It's
+ genuinely
+ usable.
+ That's
+
+
+version
+ one
+ of
+ Orbit.
+ And
+ this
+ is
+ what
+
+
+you
+ should
+ notice
+ about
+ our
+ version
+ one.
+
+
+It
+ is
+ the
+ simplest
+ thing
+ that
+ is
+ still
+
+
+useful
+ in
+ tech.
+ There
+ is
+ a
+ concept
+
+
+called
+ MVP.
+
+
+not
+ most
+ valuable
+ player
+ but
+ minimum
+
+
+viable
+ product
+ and
+ I
+ love
+ this
+ concept
+
+
+because
+ it
+ can
+ be
+ applied
+ to
+ any
+
+
+business
+ any
+ career
+ any
+ output
+ all
+
+
+technology
+ startups
+ are
+ obsessed
+ with
+
+
+this
+ one
+ question
+ what
+ is
+ the
+ smallest
+
+
+version
+ you
+ can
+ put
+ in
+ someone's
+ hands
+
+
+that
+ actually
+ solves
+ their
+ problem
+
+
+because
+ then
+ you
+ can
+ observe
+ how
+ they
+
+
+use
+ it
+ what
+ works
+ what
+ breaks
+ what
+ parts
+
+
+they
+ like
+ what
+ parts
+ they
+ actually
+ use
+
+
+that
+ feedback
+ tells
+ you
+ what
+ to
+ build
+
+
+next.
+ And
+ one
+ sidebar,
+ but
+ a
+ useful
+
+
+trick,
+ I
+ like
+ using
+ the
+ strongest
+
+
+reasoning
+ model
+ for
+ the
+ planning
+ and
+ a
+
+
+cheaper,
+ faster
+ model
+ for
+ the
+
+
+implementation.
+ It's
+ like
+ having
+ a
+
+
+senior
+ person
+ help
+ you
+ strategize
+ and
+ a
+
+
+junior
+ person
+ handling
+ the
+ leg
+ work.
+
+
+Let's
+ go
+ to
+ T
+ for
+ test.
+ We
+ have
+ our
+
+
+minimum
+ viable
+ product.
+ Now,
+ let's
+ test
+
+
+it
+ and
+ make
+ it
+ even
+ more
+ useful.
+ Your
+
+
+first
+ version
+ works.
+ Congrats.
+ Great.
+
+
+Once
+ you
+ start
+ using
+ it,
+ though,
+ you'll
+
+
+see
+ what's
+ missing.
+ For
+ instance,
+ in
+
+
+this
+ app
+ that
+ we
+ just
+ built
+ live,
+ you
+
+
+realize
+ the
+ the
+ names
+ are
+ there,
+ the
+
+
+data
+ is
+ all
+ there,
+ the
+ dates
+ are
+ all
+
+
+there,
+ but
+ there
+ are
+ no
+ real
+ insights
+
+
+that
+ are
+ obvious
+ or
+ actionable.
+ So,
+
+
+let's
+ go
+ back
+ to
+ the
+ prompt.
+ Put
+ three
+
+
+cards
+ at
+ the
+ top.
+ How
+ many
+ of
+ my
+
+
+connections
+ need
+ attention?
+
+
+How
+ many
+ of
+ them
+ have
+ gone
+ cold?
+ And
+ how
+
+
+many
+ follow
+ up
+ this
+ week?
+ That's
+ a
+ nice
+
+
+prompt.
+ A
+ few
+ minutes
+ later,
+ there
+ they
+
+
+are.
+ Now,
+ I
+ open
+ the
+ same
+ app
+ and
+ I
+ have
+
+
+some
+ kind
+ of
+ a
+ dashboard
+ at
+ the
+ top,
+ not
+
+
+just
+ data.
+ When
+ you're
+ using
+ clot
+ code
+
+
+or
+ any
+ vibe
+ coding
+ tools,
+ your
+ goal
+ is
+
+
+to
+ get
+ to
+ the
+ answer
+ and
+ make
+ whatever
+
+
+you're
+ building
+ more
+ insightful
+ and
+ more
+
+
+useful
+ to
+ you
+ or
+ the
+ actual
+ user.
+ Then
+
+
+after
+ a
+ little
+ more
+ testing,
+ you
+ might
+
+
+find
+ other
+ gaps.
+ For
+ instance,
+ when
+ I
+
+
+reach
+ out
+ to
+ someone,
+ there's
+ no
+ way
+ to
+
+
+tell,
+ at least
+ in
+ the
+ app,
+ how
+ I
+ did
+ it
+
+
+and
+ when
+ I
+ did
+ it.
+ So
+ you
+ can
+ go
+ back
+ to
+
+
+the
+ prompt
+ and
+ add
+ this
+ add
+ a
+ button
+
+
+called
+ log
+ contact
+ to
+ each
+ person's
+
+
+profile.
+ When
+ I
+ click
+ it,
+ let
+ me
+ pick
+
+
+how
+ we
+ talked.
+ Email,
+ call,
+ text,
+
+
+coffee.
+ Then
+ let
+ me
+ pick
+ the
+ date
+ and
+
+
+let
+ me
+ add
+ a
+ quick
+ note.
+ And
+ now
+ Claude
+
+
+Code
+ will
+ go
+ back
+ and
+ change
+ the
+ code.
+
+
+It'll
+ rebuild
+ some
+ of
+ the
+ parts.
+ When
+
+
+it's
+ ready,
+ I
+ click
+ on
+ it.
+ I
+ check
+ it
+
+
+out.
+ Nice.
+ It's
+ working.
+ Now
+ you
+ have
+
+
+started
+ inching
+ toward
+ your
+ own
+
+
+relationship
+ management
+ system.
+ It's
+ not
+
+
+a
+ spreadsheet
+ anymore.
+ It's
+ how
+ you
+ keep
+
+
+in
+ touch
+ with
+ those
+ who
+ are
+ close
+ to
+
+
+you,
+ those
+ in
+ your
+ closest
+ orbit.
+ And
+
+
+now
+ we
+ go
+ to
+ the
+ final
+ step.
+ E
+ for
+
+
+evolve.
+ The
+ final
+ step
+ is
+ not
+ just
+ to
+
+
+evolve
+ what
+ you
+ build,
+ but
+ to
+ make
+ sure
+
+
+you
+ evolve
+ with
+ it.
+ Anthropic
+ did
+ a
+
+
+study
+ that
+ looked
+ at
+ roughly
+ 400,000
+
+
+real
+ sessions
+ of
+ people
+ building
+
+
+software
+ apps
+ with
+ AI.
+ And
+ the
+ results
+
+
+were
+ surprising.
+ They
+ found
+ that
+ people
+
+
+who
+ had
+ never
+ programmed
+ before
+
+
+succeeded
+ almost
+ as
+ often
+ as
+ trained
+
+
+engineers
+ and
+ managers
+ actually
+ scored
+
+
+slightly
+ higher
+ than
+ even
+ software
+
+
+engineers.
+ Now,
+ it
+ was
+ just
+ a
+ survey
+ and
+
+
+not
+ a
+ super
+ rigorous
+ study,
+ but
+ it
+ does
+
+
+point
+ to
+ an
+ interesting
+ fact.
+ The
+ whole
+
+
+skill
+ of
+ vibe
+ coding
+ boils
+ down
+ to
+
+
+knowing
+ what
+ you
+ want
+ and
+ describing
+ it
+
+
+clearly
+ to
+ your
+ staff,
+ which
+ is
+ your
+ AI
+
+
+coder
+ in
+ this
+ case.
+ So,
+ the
+ best
+ people
+
+
+managers
+ become
+ the
+ best
+ AI
+ managers.
+ So
+
+
+from
+ here
+ you
+ can
+ evolve
+ in
+ three
+
+
+different
+ directions.
+ First,
+ the
+ app
+ you
+
+
+build
+ can
+ evolve
+ into
+ a
+ a
+ system.
+ You
+
+
+can
+ reuse
+ the
+ code
+ to
+ make
+ a
+ CRM
+ for
+
+
+your
+ side
+ hustle,
+ a
+ tracker
+ for
+ your
+
+
+kids
+ soccer
+ team,
+ a
+ dashboard
+ for
+ your
+
+
+goals,
+ whatever
+ comes
+ to
+ mind.
+ Second,
+
+
+if
+ you
+ feel
+ like
+ it,
+ you
+ can
+ go
+ a
+ bit
+
+
+deeper.
+ You
+ can
+ learn
+ about
+ APIs
+ and
+ how
+
+
+to
+ connect
+ with
+ other
+ apps,
+ how
+ to
+ use
+
+
+GitHub,
+ and
+ what
+ those
+ Python
+ libraries
+
+
+actually
+ do.
+ And
+ every
+ time
+ you
+ get
+
+
+stuck,
+ don't
+ be
+ afraid
+ to
+ ask
+ clarifying
+
+
+questions.
+ Open
+ Claw
+ Chat
+ or
+ any
+ chat
+
+
+and
+ ask
+ it
+ to
+ explain
+ it
+ like
+ you
+ are
+ a
+
+
+10year-old.
+ And
+ the
+ third
+ direction
+ is
+
+
+try
+ to
+ learn
+ something
+ about
+ coding.
+
+
+Even
+ if
+ your
+ career
+ right
+ now
+ has
+ almost
+
+
+nothing
+ to
+ do
+ with
+ software
+ because
+ of
+
+
+all
+ the
+ things
+ AI
+ will
+ change,
+ software
+
+
+building
+ is
+ one
+ of
+ the
+ areas
+ where
+ AI
+
+
+will
+ improve
+ incredibly
+ quickly
+ in
+ the
+
+
+coming
+ years.
+ And
+ there
+ are
+ reasons
+ for
+
+
+that.
+ But
+ that
+ also
+ means
+ that
+ anyone
+
+
+with
+ the
+ right
+ tools
+ can
+ create
+ absolute
+
+
+magic.
+ The
+ world
+ is
+ still
+ going
+ to
+ need
+
+
+great
+ software
+ engineers
+ to
+ understand
+
+
+complex
+ systems
+ and
+ architectures
+ and
+
+
+security
+ and
+ much
+ more.
+ But
+ this
+ new
+ way
+
+
+of
+ working
+ and
+ building
+ your
+ digital
+
+
+life
+ is
+ coming
+ at
+ you
+ at
+ 100
+ miles
+ an
+
+
+hour.
+ So
+ spend
+ a
+ weekend
+ tinkering
+ with
+
+
+claude
+ code
+ or
+ lovable
+ or
+ replet
+ or
+
+
+maybe
+ take
+ an
+ online
+ course
+ because
+ the
+
+
+real
+ goal
+ is
+ to
+ become
+ comfortable
+
+
+building,
+ breaking
+ and
+ rebuilding
+
+
+things.
+ What
+ you
+ build
+ today
+ will
+ tell
+
+
+you
+ what
+ to
+ build
+ next.
+ So
+ go
+ ahead
+ and
+
+
+make
+ a
+ bad
+ version.
+
+
+That's
+ the
+ only
+ way
+ you'll
+ know
+ how
+ to
+
+
+make
+ the
+ best
+ one.
+
+
+Thank
+ you
+ and
+ I
+ love
+ you.
