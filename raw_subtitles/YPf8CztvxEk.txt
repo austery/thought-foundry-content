@@ -1,0 +1,4483 @@
+This
+ week,
+ Jacob
+ Coxson,
+ an
+ ex
+
+
+researcher
+ at
+ Anthropic,
+ resigned
+ and
+
+
+posted
+ a
+ seven-part
+ thread
+ on
+ X,
+ saying
+
+
+that
+ the
+ people
+ building
+ AI
+ believe
+ it
+
+
+could
+ kill
+ everyone
+ by
+ the
+ end
+ of
+ the
+
+
+decade.
+ At
+ the
+ time
+ that
+ I'm
+ recording
+
+
+this
+ video,
+ the
+ post
+ has
+ 137
+ million
+
+
+views.
+ Two
+ of
+ his
+ colleagues
+ publicly
+
+
+agreed
+ as
+ well.
+ One
+ of
+ them
+ estimated
+ a
+
+
+greater
+ than
+ 10%
+ probability
+ of
+ human
+
+
+extinction
+ within
+ the
+ next
+ 10
+ years.
+
+
+The
+ same
+ week,
+ their
+ company's
+
+
+investment
+ bankers
+ were
+ quietly
+ lobbying
+
+
+credit
+ rating
+ agencies
+ to
+ give
+ them
+
+
+access
+ to
+ your
+ pension
+ fund.
+ So
+ today,
+ I
+
+
+want
+ to
+ ask
+ a
+ question
+ that
+ nobody
+ seems
+
+
+to
+ be
+ asking,
+ which
+ kills
+ people
+ first
+
+
+really,
+ the
+ AI
+ or
+ the
+ economy
+ that's
+
+
+being
+ built
+ around
+ it.
+ Every
+ single
+ day
+
+
+there
+ is
+ another
+ development,
+ another
+
+
+warning,
+ another
+ open
+ letter,
+ another
+
+
+dramatic
+ resignation,
+ another
+ trillion
+
+
+dollar
+ projection.
+ And
+ I
+ think
+ we're
+ all
+
+
+a
+ bit
+ exhausted
+ by
+ it.
+ I
+ mean,
+ I
+ don't
+
+
+want
+ to
+ speak
+ for
+ you,
+ but
+ I
+ definitely
+
+
+am.
+ Not
+ because
+ we
+ don't
+ care,
+ but
+
+
+because
+ the
+ sheer
+ volume
+ of
+ noise
+ being
+
+
+generated
+ by
+ this
+ industry
+ is
+ consuming
+
+
+attention,
+ resources,
+ and
+ public
+ trust
+
+
+that
+ should
+ be
+ going
+ somewhere
+ useful.
+
+
+When
+ everything
+ is
+ a
+ crisis,
+ nothing
+ is
+
+
+a
+ crisis,
+ and
+ people
+ just
+ kind
+ of
+ stop
+
+
+paying
+ attention
+ right
+ when
+ they
+ should
+
+
+be
+ paying
+ the
+ most.
+ So,
+ let's
+ work
+
+
+through
+ this
+ properly
+ together.
+ On
+
+
+September
+ 8th,
+ Jacob
+ Coxson
+ resigned
+
+
+from
+ Anthropic.
+ He
+ is
+ a
+ Cambridge
+
+
+mathematics
+ graduate,
+ spent
+ three
+ years
+
+
+doing
+ pre-training
+ research
+ at
+ both
+
+
+OpenAI
+ and
+ Antropic.
+ And
+ he
+ wrote,
+
+
+"Neither
+ company
+ is
+ acting
+ responsibly.
+
+
+They
+ are
+ racing
+ straight
+ to
+
+
+self-improving
+ super
+ intelligence
+ and
+
+
+gambling
+ with
+ our
+ lives."
+ Within
+ hours,
+
+
+Evan
+ Hubinger,
+ Anthropic's
+ alignment
+
+
+science
+ lead,
+ responded
+ publicly
+ as
+
+
+well.
+ Jacob
+ is
+ correct
+ here.
+ We
+ really
+
+
+do
+ earnestly
+ believe
+ AI
+ could
+ kill
+ all
+
+
+humans.
+ I
+ personally
+ think
+ it
+ is
+ greater
+
+
+than
+ 10%
+ within
+ the
+ next
+ decade.
+ I
+
+
+believe
+ Anthropic
+ is
+ trying
+ its
+ best,
+
+
+but
+ we
+ do
+ not
+ yet
+ have
+ a
+ plan
+ to
+ solve
+
+
+alignment
+ for
+ super
+ intelligence
+ and
+ are
+
+
+not
+ clearly
+ on
+ track
+ to.
+ And
+ then
+ Samuel
+
+
+Marx,
+ Anthropic
+ scalable
+ oversight
+ lead,
+
+
+added
+ AI
+ developers
+ believe
+ their
+
+
+technology
+ could
+ cause
+ human
+ extinction.
+
+
+This
+ could
+ happen
+ in
+ the
+ next
+ few
+ years.
+
+
+In
+ general,
+ the
+ more
+ senior
+ the
+
+
+employee,
+ the
+ more
+ concerned
+ they
+ are.
+
+
+Now,
+ these
+ are
+ serious
+ researchers,
+
+
+okay?
+ I've
+ looked
+ at
+ their
+ publication
+
+
+records.
+ These
+ are
+ not
+ people
+ who
+ mess
+
+
+around.
+ I'm
+ not
+ dismissing
+ what
+ they're
+
+
+saying
+ in
+ any
+ way,
+ but
+ I
+ am
+ going
+ to
+
+
+examine
+ it
+ from
+ more
+ than
+ one
+ angle
+
+
+because
+ that
+ is
+ just
+ what
+ serious
+
+
+analysis
+ requires.
+ So,
+ let's
+ start
+ with
+
+
+the
+ claim
+ itself.
+ What
+ is
+ the
+ actual
+
+
+mechanism
+ by
+ which
+ AI
+ causes
+ human
+
+
+extinction?
+ Like,
+ how
+ is
+ this
+ going
+ to
+
+
+happen?
+ Coxson's
+ thread
+ describes
+ a
+
+
+trajectory.
+ He
+ says,
+ "AI
+ systems
+ that
+
+
+can
+ self-improve,
+ that
+ become
+
+
+superhuman,
+ that
+ can
+ hack
+ anything,
+
+
+revolutionize
+ fields
+ overnight,
+ and
+
+
+acquire
+ real
+ power
+ and
+ resources."
+
+
+That's
+ basically
+ the
+ chain.
+ And
+ every
+
+
+link
+ in
+ it
+ is
+ either
+ a
+ massive
+
+
+engineering
+ assumption
+ or
+ a
+ regulation
+
+
+failure.
+ Let's
+ take
+ the
+ revolutionized
+
+
+fields
+ overnight
+ part.
+ In
+ particle
+
+
+physics,
+ for
+ example,
+ you
+ cannot
+
+
+discover
+ new
+ phenomena
+ without
+ new
+
+
+experimental
+ data.
+ And
+ you
+ sadly
+ cannot
+
+
+get
+ new
+ experimental
+ data
+ without
+
+
+building
+ a
+ new
+ particle
+ accelerator.
+ I
+
+
+wish,
+ but
+ alas,
+ here
+ we
+ are.
+ You
+ can
+
+
+stack
+ every
+ GPU
+ on
+ Earth
+ in
+ a
+ single
+
+
+data
+ center
+ and
+ you
+ will
+ still
+ just
+ not
+
+
+have
+ the
+ data
+ that
+ just
+ doesn't
+ exist
+
+
+yet.
+ Let's
+ go
+ for
+ another
+ example.
+ In
+
+
+medicine,
+ you
+ cannot
+ do
+ invivo
+ research
+
+
+without
+ patients,
+ without
+ clinical
+
+
+trials,
+ without
+ the
+ slow
+ and
+ very
+
+
+necessary
+ process
+ of
+ just
+ testing
+
+
+whether
+ something
+ actually
+ works
+ in
+ a
+
+
+human
+ body.
+ AI
+ can
+ accelerate
+ the
+
+
+computational
+ side
+ of
+ science
+
+
+enormously,
+ definitely,
+ and
+ it
+ already
+
+
+is.
+ But
+ it
+ cannot
+ bypass
+ physical
+
+
+reality.
+ If
+ it
+ could,
+ cancer
+ would
+
+
+already
+ be
+ cured
+ and
+ the
+ extinction
+ risk
+
+
+would
+ be
+ moot
+ because
+ we'd
+ all
+ be
+ too
+
+
+busy
+ being
+ immortal
+ to
+ worry
+ about
+ it.
+
+
+And
+ God,
+ I
+ really
+ look
+ forward
+ to
+ that
+
+
+future.
+ Rand
+ tried
+ to
+ model
+ AI
+
+
+extinction
+ scenarios
+ across
+ three
+
+
+technology
+ domains.
+ Nuclear
+ weapons,
+
+
+pathogens,
+ and
+ geoengineering.
+ And
+ their
+
+
+conclusion
+ was
+ basically,
+ and
+ I'm
+
+
+quoting
+ here,
+ none
+ of
+ our
+ AI
+ extinction
+
+
+scenarios
+ could
+ happen
+ by
+ accident.
+ Each
+
+
+would
+ be
+ immensely
+ challenging
+ to
+ carry
+
+
+out.
+ They
+ identified
+ four
+ capabilities
+
+
+that
+ AI
+ would
+ need
+ to
+ create
+ an
+
+
+extinction
+ threat.
+ set
+ its
+ own
+ objective
+
+
+to
+ cause
+ extinction,
+ gain
+ control
+ over
+
+
+physical
+ systems
+ like
+ nuclear
+ launch
+
+
+infrastructure,
+ for
+ example,
+ persuade
+
+
+humans
+ to
+ help
+ while
+ hiding
+ its
+ actions,
+
+
+and
+ survive
+ without
+ human
+ maintainers
+
+
+after
+ civilization
+ collapses.
+ That
+ is
+
+
+less
+ of
+ a
+ tech
+ assessment
+ and
+ more
+ of
+ a
+
+
+villain
+ origin
+ story
+ checklist
+ that
+ even
+
+
+James
+ Bond
+ would
+ consider
+ a
+ bit
+
+
+overengineered.
+
+
+Every
+ single
+ one
+ of
+ those
+ is
+ a
+
+
+staggering
+ assumption
+ about
+ a
+ technology
+
+
+that
+ is
+ vastly
+ improving
+ but
+ kind
+ of
+
+
+still
+ has
+ a
+ couple
+ of
+ shortcomings.
+ And
+
+
+by
+ the
+ way,
+ I'm
+ not
+ saying
+ that
+ the
+ risk
+
+
+is
+ zero.
+ I'm
+ just
+ saying
+ that
+ the
+
+
+mechanism
+ to
+ me
+ at least
+ for
+ me
+ is
+
+
+pretty
+ abstract
+ while
+ other
+ risks
+ are
+
+
+concrete
+ and
+ very
+ well
+ documented.
+ And
+ I
+
+
+think
+ it's
+ worth
+ asking
+ why
+ the
+ abstract
+
+
+risk
+ gets
+ all
+ the
+ airtime.
+ Because
+
+
+here's
+ the
+ pattern.
+ The
+ people
+ inside
+
+
+these
+ companies
+ express
+ existential
+
+
+concern,
+ sign
+ open
+ letters,
+ give
+
+
+interviews
+ about
+ how
+ frightened
+ they
+
+
+are,
+ and
+ then
+ just
+ keep
+ building.
+ Nobody
+
+
+actually
+ stops.
+ The
+ concern
+ is
+ always
+
+
+real
+ enough
+ to
+ talk
+ about,
+ but
+ never
+
+
+real
+ enough
+ to
+ actually
+ do
+ something
+
+
+about
+ it.
+ Coxen
+ resigned.
+ I
+ respect
+
+
+that.
+ Fair
+ enough.
+ He
+ put
+ his
+ career
+
+
+where
+ his
+ mouth
+ is.
+ But
+ Hubinger
+ and
+
+
+Marx
+ did
+ not
+ resign.
+ They
+ made
+ their
+
+
+public
+ statements
+ about
+ AI
+ potentially
+
+
+killing
+ all
+ humans
+ and
+ then
+ just
+ went
+
+
+back
+ to
+ work
+ at
+ Anthropic
+ the
+ next
+ day.
+
+
+They're
+ still
+ employed.
+ They're
+ still
+
+
+collecting
+ salaries,
+ still
+ building
+ the
+
+
+thing
+ they
+ publicly
+ said
+ might
+ actually
+
+
+cause
+ human
+ extinction.
+ And
+ of
+ course,
+
+
+the
+ defense
+ here
+ is
+ I
+ stay
+ inside
+
+
+because
+ if
+ I
+ leave,
+ somebody
+ less
+ safety
+
+
+conscious
+ takes
+ my
+ seat
+ and
+ the
+ company
+
+
+builds
+ faster
+ with
+ less
+ oversight.
+ Yeah,
+
+
+fair
+ enough.
+ Maybe.
+ But
+ that's
+ also
+ kind
+
+
+of
+ a
+ narrative
+ that
+ makes
+ them
+ look
+ like
+
+
+the
+ responsible
+ voice
+ within
+ the
+
+
+company,
+ which
+ is
+ also
+ very
+ good
+ for
+
+
+their
+ personal
+ brand
+ and
+ very
+ good
+ for
+
+
+anthropics
+ PR
+ because
+ it
+ demonstrates
+
+
+that
+ they
+ employ
+ people
+ who
+ take
+ safety
+
+
+seriously.
+ Both
+ of
+ these
+ things
+ can
+ also
+
+
+be
+ true
+ simultaneously.
+ And
+ I
+ want
+ to
+ be
+
+
+equally
+ honest
+ about
+ Coxin.
+ So
+ let's
+
+
+just
+ examine
+ his
+ case.
+ And
+ before
+ I
+ go
+
+
+into
+ it,
+ I'm
+ not
+ saying
+ any
+ of
+ the
+
+
+following
+ is
+ true.
+ I'm
+ saying
+ that
+ in
+ a
+
+
+situation
+ like
+ ours
+ where
+ anything
+ could
+
+
+be
+ everything
+ and
+ nothing
+ is
+ really
+
+
+certain,
+ it
+ is
+ our
+ responsibility
+ to
+
+
+consider
+ multiple
+ possibilities.
+ Coxin
+
+
+gained
+ over
+ 50,000
+ followers
+ on
+ X
+ in
+ a
+
+
+single
+ night.
+ Legit,
+ I
+ went
+ to
+ sleep
+ and
+
+
+he
+ had
+ 160K
+ and
+ the
+ next
+ morning
+ I
+ woke
+
+
+up
+ to
+ 212K.
+
+
+His
+ post
+ reach
+ 137
+ million
+ people.
+ He
+
+
+could
+ already
+ have
+ a
+ startup
+ in
+ the
+
+
+works.
+ I'm
+ not
+ saying
+ he
+ does.
+ I'm
+ just
+
+
+saying
+ it's
+ possible.
+ An
+ AI
+ safety
+
+
+consultancy
+ may
+ be
+ an
+ alignment
+ research
+
+
+lab
+ founded
+ by
+ the
+ guy
+ who
+ resigned
+ from
+
+
+anthropic
+ over
+ safety
+ concerns
+ is
+
+
+literally
+ a
+ pitch
+ deck
+ slide.
+ Investors
+
+
+would
+ just
+ throw
+ money
+ at
+ that
+
+
+narrative.
+ Come
+ on.
+ He
+ could
+ have
+ been
+
+
+offered
+ a
+ settlement
+ package
+ as
+ well.
+ He
+
+
+could
+ have
+ been
+ pushed
+ out
+ and
+ the
+
+
+public
+ resignation
+ gives
+ both
+ parties
+ a
+
+
+clean
+ story.
+ Who
+ knows?
+ Maybe
+ he
+ timed
+
+
+his
+ statement
+ for
+ maximum
+ news
+ cycle
+
+
+impact
+ the
+ same
+ day
+ as
+ a
+ major
+ open
+
+
+letter
+ on
+ AI
+ super
+ intelligence.
+ That
+ is
+
+
+either
+ a
+ PR
+ strategy
+ or
+ somebody
+ advised
+
+
+him.
+ We
+ don't
+ know.
+ The
+ career
+ path
+ of
+
+
+work
+ at
+ top
+ AI
+ lab,
+ resign
+ dramatically
+
+
+over
+ safety,
+ become
+ the
+ public
+ face
+ of
+
+
+responsible
+ AI,
+ launch
+ your
+ own
+ thing
+ is
+
+
+becoming
+ a
+ recognizable
+ playbook.
+ None
+
+
+of
+ this
+ of
+ course
+ means
+ that
+ he's
+
+
+actually
+ lying.
+ I'm
+ not
+ saying
+ that
+ this
+
+
+was
+ just
+ speculation
+ of
+ the
+
+
+alternatives.
+ He
+ might
+ generally
+ believe
+
+
+every
+ single
+ word
+ that
+ he
+ said
+ and
+ also
+
+
+be
+ financially
+ incentivized
+ at
+ the
+ same
+
+
+time.
+ They're
+ not
+ mutually
+ exclusive.
+
+
+But
+ I
+ think
+ you
+ deserve
+ to
+ hear
+ somebody
+
+
+say
+ follow
+ the
+ money
+ rather
+ than
+ simply
+
+
+taking
+ the
+ resignation
+ at
+ face
+ value.
+
+
+The
+ broader
+ pattern
+ across
+ the
+ entire
+
+
+industry
+ is
+ already
+ clear,
+ but
+ nobody
+
+
+actually
+ stops
+ building.
+ And
+ there
+ is
+ a
+
+
+version
+ of
+ this
+ that
+ looks
+ less
+ like
+
+
+genuine
+ concern
+ and
+ more
+ like
+ the
+ most
+
+
+effective
+ regulatory
+ capture
+ strategy
+
+
+ever
+ devised.
+ This
+ technology
+ is
+ so
+
+
+dangerous
+ that
+ only
+ we
+ should
+ be
+ allowed
+
+
+to
+ build
+ it.
+ I
+ mean,
+ come
+ on.
+ That's
+ the
+
+
+oldest
+ monopoly
+ play
+ in
+ the
+ book.
+ You
+
+
+define
+ the
+ threat
+ so
+ that
+ you
+ can
+ define
+
+
+the
+ solution.
+ You
+ make
+ the
+ barrier
+ to
+
+
+entry
+ not
+ technical
+ capability,
+ but
+
+
+regulatory
+ compliance
+ that
+ only
+ you
+ can
+
+
+afford.
+ But
+ let's
+ just
+ set
+ the
+
+
+incentives
+ aside
+ for
+ a
+ moment
+ because
+
+
+whether
+ these
+ people
+ are
+ legit,
+
+
+strategic,
+ or
+ some
+ combination
+ of
+ both,
+
+
+there
+ is
+ one
+ thing
+ that
+ we
+ can
+ examine
+
+
+on
+ its
+ own
+ merits.
+ What
+ actually
+ happens
+
+
+when
+ AI
+ is
+ given
+ the
+ opportunity
+ to
+
+
+cause
+ harm?
+ Well,
+ we
+ have
+ a
+ real
+
+
+incident,
+ many
+ of
+ them.
+ And
+ what
+ they
+
+
+reveal
+ is,
+ I
+ think,
+ more
+ instructive
+
+
+than
+ any
+ resignation
+ letter.
+ Between
+
+
+July
+ 21st
+ and
+ August
+ 6
+ this
+ year,
+ all
+
+
+three
+ major
+ AI
+ labs,
+ OpenAI,
+ Anthropic,
+
+
+and
+ Meta,
+ disclosed
+ that
+ their
+ frontier
+
+
+models
+ had
+ gained
+ unauthorized
+ access
+ to
+
+
+real
+ external
+ systems
+ during
+ what
+ were
+
+
+supposed
+ to
+ be
+ isolated
+ cyber
+ security
+
+
+evaluations.
+ Now,
+ I
+ covered
+ the
+ OpenAI
+
+
+hugging
+ face
+ incident
+ in
+ detail
+ in
+ a
+
+
+previous
+ video,
+ but
+ what
+ I
+ didn't
+ know
+
+
+then
+ was
+ that
+ Antropic
+ and
+ Meta
+ had
+ the
+
+
+same
+ problem
+ within
+ days.
+ Antropic
+ and
+
+
+Meta's
+ incidents
+ shared
+ a
+ specific
+ root
+
+
+cause,
+ a
+ misconfiguration
+ by
+ a
+ shared
+
+
+third-party
+ testing
+ firm
+ that
+ granted
+
+
+internet
+ connectivity
+ the
+ models
+ were
+
+
+explicitly
+ told
+ they
+ did
+ not
+ have.
+ So,
+
+
+three
+ companies,
+ three
+ incidents,
+ just
+
+
+two
+ weeks
+ and
+ the
+ root
+ cause
+ was
+ the
+
+
+same
+ every
+ single
+ time.
+ The
+ test
+
+
+environment
+ was
+ not
+ actually
+ isolated.
+ a
+
+
+[snorts]
+ former
+ open
+ AAI
+ safety
+ engineer
+
+
+who
+ used
+ to
+ audit
+ nuclear
+ power
+ plants
+
+
+by
+ the
+ way
+ said
+ what
+ we
+ consider
+ safe
+ in
+
+
+a
+ nuclear
+ power
+ plant
+ is
+ so
+ different
+
+
+from
+ what
+ big
+ tech
+ consider
+ safe.
+ So
+
+
+here's
+ what
+ I
+ want
+ to
+ know.
+ Why
+ did
+ any
+
+
+of
+ these
+ test
+ environments
+ have
+ internet
+
+
+access?
+ How
+ about
+ an
+ air
+ gap
+ network?
+
+
+Huh?
+ The
+ military,
+ nuclear
+ facilities,
+
+
+and
+ biosafety
+ labs
+ all
+ use
+ them.
+ How
+
+
+about
+ designing
+ experiments
+ where
+ the
+
+
+answer
+ sheet
+ is
+ not
+ accessible
+ from
+ the
+
+
+exam
+ room?
+ How
+ about
+ that?
+ These
+ are
+
+
+standard
+ practices
+ in
+ fields
+ that
+ have
+
+
+been
+ managing
+ dangerous
+ materials
+ for
+
+
+decades.
+ Why
+ is
+ the
+ most
+ well-funded
+
+
+technology
+ sector
+ in
+ human
+ history
+
+
+operating
+ below
+ the
+ security
+ standards
+
+
+of
+ a
+ university
+ biology
+ department?
+ Part
+
+
+of
+ the
+ answer
+ is
+ where
+ the
+ money
+ goes.
+
+
+The
+ overwhelming
+ majority
+ of
+ investment
+
+
+in
+ AI
+ is
+ directed
+ at
+ capability
+
+
+research.
+ We're
+ talking
+ making
+ the
+ model
+
+
+smarter,
+ faster,
+ more
+ powerful.
+ But
+ the
+
+
+security
+ engineering,
+ the
+ containment
+
+
+infrastructure,
+ the
+ testing
+ methodology,
+
+
+the
+ regulatory
+ frameworks,
+ all
+ of
+ that
+
+
+is
+ tested
+ kind
+ of
+ as
+ an
+ afterthought,
+ as
+
+
+something
+ you
+ just
+ bolt
+ on
+ after
+ the
+
+
+capability
+ is
+ already
+ built
+ and
+ then
+
+
+everyone
+ acts
+ so
+ surprised
+ when
+ the
+
+
+containment
+ fails.
+ Well,
+ I
+ mean,
+ what
+
+
+did
+ you
+ expect?
+ And
+ this
+ is
+ where
+ I
+
+
+think
+ the
+ entire
+ conversation
+ about
+ AI
+
+
+safety
+ has
+ just
+ taken
+ a
+ wrong
+ turn.
+ The
+
+
+industry
+ started
+ by
+ modeling
+ individual
+
+
+neurons.
+ Okay,
+ we
+ build
+ them
+ into
+
+
+networks.
+ Scale
+ those
+ networks
+ into
+
+
+systems
+ that
+ now
+ beautifully
+ exhibit
+
+
+something
+ that
+ looks
+ like
+ behavior.
+ Come
+
+
+on,
+ that's
+ amazing.
+ But
+ once
+ you
+ have
+
+
+behavior,
+ the
+ toolkit
+ has
+ to
+ change.
+ You
+
+
+don't
+ solve
+ behavior
+ with
+ more
+ maths.
+
+
+You
+ solve
+ it
+ with
+ psychology,
+ with
+
+
+incentive
+ design,
+ with
+ environmental
+
+
+constraints,
+ with
+ oversight.
+ Humanity
+
+
+has
+ thousands
+ of
+ years
+ of
+ experience
+
+
+managing
+ behavior
+ poorly,
+ but
+ we're
+
+
+trying.
+ I'm
+ talking
+ economics,
+ game
+
+
+theory,
+ organizational
+ design,
+ the
+ law.
+
+
+Financial
+ regulators
+ don't
+ trust
+ bankers
+
+
+to
+ be
+ ethical.
+ They
+ build
+ frameworks
+
+
+that
+ assume
+ they
+ won't
+ be
+ and
+ contain
+
+
+them
+ regardless.
+ AI
+ safety,
+ in
+ my
+ view,
+
+
+should
+ work
+ a
+ similar
+ way.
+ Instead
+ of
+
+
+trying
+ to
+ make
+ the
+ AI
+ internally
+ align
+
+
+from
+ the
+ core
+ of
+ its
+ being,
+ which
+ is
+ the
+
+
+equivalent
+ of
+ hoping
+ bankers
+ will
+ be
+
+
+ethical,
+ how
+ about
+ building
+ the
+
+
+containment
+ framework?
+ Regulation
+ that
+
+
+assumes
+ they
+ won't
+ be.
+ AI
+ safety
+ is
+ a
+
+
+regulatory
+ and
+ engineering
+ problem.
+ It's
+
+
+not
+ a
+ philosophical
+ problem.
+ So,
+ let's
+
+
+treat
+ it
+ like
+ one.
+ Now,
+ speaking
+ of
+
+
+things
+ that
+ are
+ engineered,
+ well,
+ let
+ me
+
+
+tell
+ you
+ about
+ today's
+ video
+ sponsor.
+
+
+One
+ thing
+ AI
+ has
+ made
+ dramatically
+
+
+easier
+ is
+ turning
+ an
+ idea
+ into
+ something
+
+
+usable,
+ whether
+ that's
+ an
+ image,
+ a
+
+
+design,
+ or
+ even
+ an
+ entire
+ brand
+ that
+
+
+brings
+ you
+ an
+ additional
+ monthly
+ income.
+
+
+And
+ that
+ actually
+ connects
+ rather
+ neatly
+
+
+to
+ today's
+ sponsor,
+ Printify.
+ Printify
+
+
+is
+ a
+ print
+ ondemand
+ platform
+ that
+ lets
+
+
+you
+ create
+ and
+ sell
+ custom
+ products
+ with
+
+
+no
+ inventory
+ and
+ no
+ upfront
+ costs.
+ You
+
+
+create
+ the
+ design
+ and
+ when
+ somebody
+
+
+places
+ an
+ order,
+ Printify
+ handles
+ the
+
+
+printing
+ and
+ shipping
+ for
+ you.
+ So
+ there
+
+
+are
+ no
+ boxes
+ of
+ unsold
+ products
+ quietly
+
+
+taking
+ over
+ your
+ house.
+ They
+ have
+ more
+
+
+than
+ 1,300
+ products
+ to
+ choose
+ from,
+ plus
+
+
+AI
+ powered
+ tools
+ that
+ can
+ help
+ with
+
+
+creating
+ designs.
+ And
+ with
+ other
+ AI
+
+
+tools,
+ you
+ can
+ also
+ build
+ a
+ website
+ for
+
+
+your
+ merch
+ or
+ conduct
+ market
+ research
+ to
+
+
+identify
+ trends
+ and
+ potential
+ merch
+
+
+ideas.
+ Their
+ printing
+ network
+ spans
+ the
+
+
+US
+ and
+ Europe,
+ which
+ means
+ orders
+ can
+ be
+
+
+produced
+ closer
+ to
+ customers,
+ helping
+
+
+avoid
+ long
+ shipping
+ times
+ and
+
+
+unnecessary
+ additional
+ fees.
+ And
+
+
+Printify
+ connects
+ directly
+ with
+
+
+platforms
+ like
+ Etsy,
+ Shopify,
+ and
+ Tik
+
+
+Tok
+ shop.
+ So
+ you
+ can
+ add
+ those
+ products
+
+
+directly
+ to
+ an
+ online
+ store.
+ If
+ you
+ want
+
+
+to
+ try
+ a
+ start
+ your
+ own
+ store
+ with
+
+
+Printify,
+ the
+ first
+ 100
+ people
+ who
+ use
+
+
+code
+ house
+ will
+ get
+ 15%
+ off
+ their
+ first
+
+
+order.
+ Just
+ use
+ the
+ link
+ in
+ the
+
+
+description.
+ Right,
+ where
+ were
+ we?
+ AI
+
+
+safety
+ labs
+ that
+ cannot
+ airgap
+ a
+ test
+
+
+environment,
+ resignation
+ letters
+ that
+
+
+become
+ viral,
+ and
+ an
+ entire
+ industry
+
+
+that
+ keeps
+ building
+ the
+ thing
+ it
+ says
+
+
+might
+ actually
+ kill
+ everyone.
+ But
+ you
+
+
+want
+ to
+ know
+ what
+ actually
+ keeps
+ me
+ up
+
+
+at
+ night?
+ The
+ financial
+ structure.
+
+
+Because
+ while
+ the
+ entire
+ internet
+ is
+
+
+debating
+ whether
+ artificial
+ intelligence
+
+
+will
+ end
+ civilization
+ today
+ or
+ tomorrow,
+
+
+the
+ people
+ in
+ suits
+ have
+ been
+ very,
+ very
+
+
+busy
+ and
+ far
+ too
+ few
+ are
+ focusing
+ on
+
+
+this.
+ We
+ discussed
+ the
+ compute
+ futures
+
+
+last
+ week
+ and
+ you
+ should
+ check
+ out
+ that
+
+
+video
+ if
+ you
+ want
+ that
+ drama.
+ But
+ low,
+
+
+another
+ gem
+ has
+ come
+ out
+ now.
+ On
+
+
+September
+ 8th,
+ the
+ Financial
+ Times
+
+
+reported
+ that
+ Goldman
+ Sachs
+ and
+ Morgan
+
+
+Stanley
+ have
+ been
+ lobbying
+ the
+ three
+
+
+major
+ credit
+ rating
+ agencies
+ to
+ grant
+
+
+investment
+ grade
+ credit
+ ratings
+ to
+
+
+OpenAI
+ and
+ Anthropic
+ immediately
+ upon
+
+
+their
+ IPOs.
+ Let
+ me
+ explain
+ what
+ this
+
+
+means
+ for
+ those
+ of
+ you
+ who,
+ like
+ a
+ past
+
+
+version
+ of
+ me,
+ haven't
+ yet
+ had
+ the
+
+
+misfortune
+ of
+ learning
+ about
+ credit
+
+
+ratings.
+ A
+ credit
+ rating
+ is
+ an
+
+
+independent
+ assessment
+ of
+ whether
+ a
+
+
+company
+ can
+ pay
+ back
+ its
+ debts.
+
+
+Basically,
+ investment
+ grade
+ means
+
+
+pension
+ funds
+ and
+ insurance
+ companies
+
+
+can
+ buy
+ their
+ bonds,
+ your
+ retirement
+
+
+savings,
+ your
+ parents'
+ retirement
+
+
+savings.
+ The
+ entire
+ point
+ of
+ these
+ funds
+
+
+is
+ basically
+ that
+ they're
+ boring
+ and
+
+
+safe.
+ They
+ are
+ supposed
+ to
+ be
+ the
+ most
+
+
+boring
+ money
+ in
+ the
+ world.
+ Open
+ AAI
+
+
+posted
+ a
+ $20.9
+ billion
+ operating
+ loss
+ on
+
+
+13.1
+ billion
+ of
+ revenue
+ in
+ 2025.
+
+
+Anthropic
+ doesn't
+ expect
+ to
+ break
+ even
+
+
+until
+ 2028.
+ Open
+ AI
+ is
+ not
+ targeting
+
+
+profitability
+ until
+ 2030.
+ [snorts]
+ Given
+
+
+all
+ of
+ this,
+ a
+ senior
+ credit
+ analyst
+
+
+told
+ the
+ Financial
+ Times,
+ I'm
+ quoting
+
+
+here,
+ "We
+ still
+ treat
+ OpenAI
+ and
+
+
+Anthropic
+ as
+ deep
+ in
+ speculative
+ grade.
+
+
+They
+ are
+ in
+ the
+ red."
+ And
+ yet,
+ Goldman
+
+
+Sachs
+ and
+ Morgan
+ Stanley
+ are
+ pushing
+ for
+
+
+investment
+ grade
+ ratings.
+ The
+ companies
+
+
+haven't
+ earned
+ them,
+ but
+ who
+ cares
+ about
+
+
+that.
+ Investment
+ grade
+ opens
+ the
+ door
+ to
+
+
+the
+ 11.7
+ trillion
+ corporate
+ bond
+ market.
+
+
+Now
+ that
+ is
+ nice.
+ Pension
+ funds
+ insurers
+
+
+the
+ works
+ the
+ pools
+ of
+ capital
+ that
+ are
+
+
+specifically
+ designed
+ to
+ be
+ conservative
+
+
+to
+ protect
+ ordinary
+ people's
+ savings
+
+
+from
+ speculative
+ risk.
+ Credit
+ ratings
+
+
+are
+ supposed
+ to
+ be
+ based
+ on
+
+
+comprehensive
+ systematic
+ independent
+ due
+
+
+diligence
+ not
+ on
+ investment
+ bankers
+
+
+pushing
+ for
+ them.
+ I
+ mean
+ are
+ we
+ not
+
+
+doing
+ independent
+ assessment
+ anymore?
+
+
+That
+ is
+ so
+ 2008
+ right?
+ And
+ there
+ is
+ a
+
+
+direct
+ financial
+ incentive
+ here
+ that
+
+
+makes
+ this
+ even
+ more
+ concerning.
+ Nvidia
+
+
+has
+ agreed
+ to
+ guarantee
+ up
+ to
+ $105
+
+
+billion
+ in
+ lease
+ obligations
+ for
+ an
+
+
+OpenAI
+ data
+ center
+ campus
+ in
+ Ohio.
+ That
+
+
+guarantee
+ terminates
+ when
+ OpenAI
+
+
+achieves
+ a
+ satisfactory
+ credit
+ rating.
+
+
+So
+ there
+ is
+ an
+ $105
+ billion
+ reason
+ to
+
+
+get
+ that
+ rating
+ regardless
+ of
+ whether
+
+
+it's
+ deserved
+ or
+ not.
+ And
+ there
+ is
+ a
+
+
+precedent
+ for
+ what
+ happens
+ here.
+ SpaceX
+
+
+received
+ an
+ immediate
+ investment
+ grade
+
+
+rating
+ after
+ its
+ IPO
+ and
+ issued
+ $2
+
+
+billion
+ in
+ bonds.
+ Those
+ bonds
+ performed
+
+
+poorly
+ and
+ sold
+ off
+ shortly
+ after.
+
+
+Oracle
+ is
+ at
+ risk
+ of
+ losing
+ its
+ own
+
+
+investment
+ grade
+ status
+ because
+ of
+ $300
+
+
+billion
+ in
+ data
+ center
+ commitments
+ to
+
+
+Open
+ AI.
+ I
+ want
+ you
+ to
+ hold
+ two
+ things
+
+
+in
+ your
+ minds
+ at
+ once
+ for
+ this
+ one.
+ This
+
+
+week,
+ employees
+ of
+ Anthropic
+ publicly
+
+
+stated
+ that
+ AI
+ could
+ cause
+ human
+
+
+extinction
+ within
+ the
+ decade.
+ Okay.
+ The
+
+
+same
+ week,
+ Anthropic
+ investment
+ bankers
+
+
+were
+ lobbying
+ credit
+ agencies
+ to
+ give
+
+
+the
+ company
+ access
+ to
+ pension
+ fund
+
+
+money.
+ These
+ two
+ things
+ are
+ happening
+ in
+
+
+the
+ same
+ news
+ cycle
+ about
+ the
+ same
+
+
+company.
+ So,
+ let
+ me
+ ask
+ the
+ question
+
+
+that
+ I
+ started
+ with.
+ Which
+ kills
+ people
+
+
+first?
+ Because
+ here's
+ what
+ we
+ know
+ about
+
+
+economic
+ crisis
+ and
+ human
+ mortality.
+ A
+
+
+study
+ published
+ in
+ the
+ last
+ psychiatry
+
+
+by
+ researchers
+ at
+ the
+ University
+ of
+
+
+Zurich
+ covering
+ 63
+ countries
+ over
+ 11
+
+
+years,
+ so
+ this
+ study
+ is
+ not
+ a
+ joke,
+
+
+found
+ that
+ approximately
+ 45,000
+ deaths
+
+
+of
+ despair
+ per
+ year
+ worldwide,
+ roughly
+
+
+one
+ in
+ five,
+ are
+ attributable
+ to
+
+
+unemployment.
+ The
+ 2008
+ financial
+ crisis
+
+
+caused
+ an
+ estimated
+ 5,000
+ additional
+
+
+such
+ events,
+ just
+ the
+ crisis
+ alone.
+ The
+
+
+relative
+ risk
+ of
+ this
+ kind
+ of
+ an
+ event
+
+
+associated
+ with
+ unemployment
+ increased
+
+
+by
+ 20
+ to
+ 30%
+ across
+ all
+ regions
+ studied.
+
+
+The
+ research
+ on
+ deaths
+ of
+ despair
+ the
+
+
+work
+ by
+ case
+ and
+ dieton
+ all
+ spike
+ in
+
+
+areas
+ with
+ sustained
+ economic
+ decline.
+ I
+
+
+am
+ not
+ predicting
+ an
+ AI
+ bubble
+ will
+
+
+burst
+ by
+ the
+ way
+ or
+ forecasting
+ the
+
+
+scale
+ of
+ what
+ follows.
+ If
+ it
+ does,
+ I
+
+
+pray
+ that
+ none
+ of
+ that
+ happens,
+ of
+
+
+course.
+ But
+ what
+ I'm
+ pointing
+ out
+ is
+
+
+that
+ the
+ mechanism
+ by
+ which
+ economic
+
+
+hardship
+ kills
+ people
+ is
+ well
+ documented
+
+
+across
+ decades
+ of
+ peer-reviewed
+
+
+research.
+ The
+ mechanism
+ by
+ which
+ AI
+
+
+causes
+ human
+ extinction,
+ however,
+ is
+
+
+very
+ abstract
+ and
+ remains
+ by
+ the
+ honest
+
+
+admission
+ of
+ the
+ people
+ warning
+ about
+ it
+
+
+something
+ they
+ don't
+ have
+ a
+ plan
+ for
+ and
+
+
+are
+ not
+ really
+ on
+ track
+ to
+ solve.
+ One
+ is
+
+
+a
+ quantified
+ serious
+ risk.
+ The
+ other
+ is
+
+
+a
+ forecast
+ and
+ forecast
+ could
+ even
+ be
+
+
+wrong.
+ And
+ the
+ people
+ warning
+ about
+ the
+
+
+second
+ risk
+ are
+ employed
+ at
+ the
+
+
+companies
+ whose
+ financial
+ recklessness
+
+
+could
+ trigger
+ the
+ first.
+ The
+ irony
+ of
+
+
+this
+ sadly
+ is
+ almost
+ too
+ neat
+ to
+ be
+
+
+accidental.
+ And
+ once
+ again,
+ I
+ am
+ not
+
+
+anti-
+ AI.
+ I
+ love
+ AI.
+ I
+ just
+ really
+ want
+
+
+to
+ see
+ it
+ develop
+ responsibly.
+ I
+ am
+ not
+
+
+calling
+ for
+ anyone
+ to
+ stop
+ building.
+ I
+
+
+am
+ calling
+ for
+ the
+ people
+ building
+ it
+ to
+
+
+do
+ so
+ with
+ financial
+ sustainability
+ in
+
+
+mind,
+ with
+ proper
+ security
+ engineering,
+
+
+with
+ regulatory
+ frameworks
+ that
+ don't
+
+
+depend
+ on
+ hoping
+ everyone
+ behaves
+ well,
+
+
+and
+ with
+ a
+ public
+ discourse
+ that
+ we're
+
+
+all
+ a
+ part
+ of
+ that
+ doesn't
+ swing
+ between
+
+
+this
+ will
+ cure
+ cancer
+ one
+ day
+ and
+ this
+
+
+will
+ kill
+ everyone
+ the
+ next
+ day,
+
+
+depending
+ on
+ whether
+ the
+ audience
+ is
+
+
+investors
+ or
+ regulators.
+ The
+ fatigue
+ I
+
+
+mentioned
+ at
+ the
+ beginning
+ of
+ this
+ video
+
+
+is,
+ I
+ think,
+ the
+ biggest
+ danger
+ of
+ all
+
+
+because
+ when
+ the
+ public
+ gets
+ tired
+ of
+
+
+hearing
+ about
+ AI
+ risk,
+ when
+ they
+ tune
+
+
+out
+ the
+ warnings
+ because
+ every
+ week
+ is
+
+
+another
+ crisis,
+ that
+ is
+ when
+ things
+
+
+actually
+ go
+ wrong.
+ The
+ AI
+ doesn't
+ need
+
+
+to
+ decide
+ to
+ destroy
+ humanity.
+ It's
+
+
+probably
+ not
+ going
+ to
+ do
+ that.
+ The
+
+
+humans
+ steering
+ it
+ just
+ need
+ to
+ stop
+
+
+paying
+ attention.
+ So,
+ show
+ you're
+
+
+working.
+ Build
+ responsibly.
+ Stop
+
+
+treating
+ AI
+ safety
+ as
+ a
+ philosophical
+
+
+crisis
+ and
+ an
+ afterthought
+ and
+ start
+
+
+treating
+ it
+ as
+ what
+ it
+ is,
+ an
+
+
+engineering
+ problem
+ with
+ a
+ toolbox
+ that
+
+
+already
+ exists.
+ And
+ maybe
+ wild
+ idea
+
+
+here,
+ stop
+ lobbying
+ for
+ pension
+ fund
+
+
+money
+ on
+ the
+ same
+ day
+ your
+ employees
+
+
+tell
+ the
+ world
+ your
+ product
+ just
+ might
+
+
+kill
+ everyone.
+ I'm
+ just
+ saying.
+ But
+ if
+
+
+you
+ want
+ to
+ understand
+ the
+ financial
+
+
+structure
+ underneath
+ all
+ of
+ this,
+ how
+
+
+compute
+ is
+ being
+ turned
+ into
+ the
+ new
+
+
+oil,
+ and
+ what
+ Wall
+ Street
+ is
+ building
+
+
+while
+ nobody's
+ actually
+ watching,
+ again,
+
+
+I
+ made
+ a
+ separate
+ video
+ analysis
+ visible
+
+
+on
+ your
+ screen
+ right
+ now.
+ That's
+ exactly
+
+
+what
+ I
+ would
+ watch
+ next.
+ Thank
+ you
+ so
+
+
+much
+ for
+ watching
+ this
+ one.
+ I'll
+ see you
+
+
+in
+ the
+ next
+ one.
