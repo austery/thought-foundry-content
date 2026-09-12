@@ -1,0 +1,2946 @@
+[Speaker 0]: 嗯，
+[Speaker 0]: 咱们咱们就挑重点可以聊。
+[Speaker 1]: 好嗯，
+[Speaker 0]: 好，
+[Speaker 0]: 那我们就开始了哈，
+[Speaker 0]: 我先开始一段呃，
+[Speaker 0]:  hello hello，
+[Speaker 0]: 欢迎来到破局点，
+[Speaker 0]: 我是永豪。
+[Speaker 0]: 事业有卡点就找破局点。
+[Speaker 0]: 我们致力于帮助 AI 时代的创业者，
+[Speaker 0]: 把模糊的方向推进成可验证的商业闭环。
+[Speaker 0]: 欢迎来到课代表做客我们的破局点。
+[Speaker 0]: 那咱们先来一波快快达，
+[Speaker 0]: 嗯，
+[Speaker 0]: 您的年龄是三十八，
+[Speaker 1]: 刚过生日生日快乐。
+[Speaker 0]: 呃，
+[Speaker 0]: 那呃你的 MBTI 是什么？
+[Speaker 1]:  INTJA 哦，
+[Speaker 0]: 我也是 INTJ。
+[Speaker 0]: 呃，
+[Speaker 1]: 请问毕业院校是我本科是一个 laforfirst college 的文理学院，
+[Speaker 1]: 然后博士是康纳，
+[Speaker 0]: 呃，
+[Speaker 1]: 现在最主要做的是现在最主要做的是我的 AI 课程和 AI 社区版。
+[Speaker 0]: 呃，
+[Speaker 0]: 对，
+[Speaker 0]: 因为之前我自己也有加入呃代表的这个 AI 社区，
+[Speaker 0]: 然后有学习，
+[Speaker 0]: 呃，
+[Speaker 0]: 可以简单的给我们听友呃，
+[Speaker 0]: 介绍一下行，
+[Speaker 1]: 吗我？
+[Speaker 1]: 自己介绍啊我，
+[Speaker 1]: 自己山东烟台人然，
+[Speaker 1]: 后在美国我，
+[Speaker 1]: 是零七年来的美国然，
+[Speaker 1]: 后本科博士之后就亚马逊 mata、
+[Speaker 1]: 呃然，
+[Speaker 1]: 后腾讯和 static ic 这四家公司工作每个。
+[Speaker 1]: 公司工作两年在腾。
+[Speaker 1]: 讯当时，
+[Speaker 1]: 是一个就是数据和 AI 的副总监然后，
+[Speaker 1]: 在 static 是另一家公司后来，
+[Speaker 1]: 被 open 收购了我现。
+[Speaker 1]: 在是全职做自己的事业一年的，
+[Speaker 1]: 时间呃然后。
+[Speaker 1]: 这，
+[Speaker 1]: 个事业的商业根基是我们的 AI 课程其实主，
+[Speaker 1]: 要是一个在外网卖的课程啊然后这，
+[Speaker 1]: 个 AI 课程它叫 AI builders 呃我们。
+[Speaker 1]: 已，
+[Speaker 1]: 经做了两年半了然后一，
+[Speaker 1]: 直在这一个课程上迭代所以说。
+[Speaker 1]: 我们课程上就是大家来了以后会一直那个看到这个课程所有内容然后我。
+[Speaker 1]: 们有三千多个学员啊包括 open，
+[Speaker 1]:  i anthropic google meta 的、
+[Speaker 1]: 这、
+[Speaker 1]: 些人都会过来上而且他。
+[Speaker 1]: 们就是在我们课程的主页上都可以看到他们的这个居民好评的是一个现在我觉得就是在 AI 教育方面吧尤其在外，
+[Speaker 1]: 网这边是一个非常呃受好评的课程那基于这个。
+[Speaker 1]: 依托这个课程我们也做了，
+[Speaker 1]: 一个 AI 社区现在这个社。
+[Speaker 1]: 区大概有两万多个人如果大家感。
+[Speaker 1]: 兴趣的话去搜索 app 超，
+[Speaker 1]: 线性学院就可以找到对因为我自己。
+[Speaker 0]: 是，
+[Speaker 0]: 不断的从我们社区里面获得这个新的知识而且链接的都，
+[Speaker 0]: 是非常呃一线的这个从业者呃这个是特别，
+[Speaker 0]: 棒，
+[Speaker 0]: 的然后像刚才课。
+[Speaker 0]: 代表有聊了这样的经历嘛我自己就会特，
+[Speaker 0]: 别好奇呃从 amazon 到 meta 到腾。
+[Speaker 0]: 嗯，
+[Speaker 0]: 到腾讯再到 stasic 这个跨度很大啊，
+[Speaker 0]: 然后呃有些这个，
+[Speaker 0]: 不同的角色和环境里嗯特别好奇哪一，
+[Speaker 0]: 段，
+[Speaker 0]: 对你现在做的这件事情影响呃最大呢我觉得其。
+[Speaker 0]: 实，
+[Speaker 1]: 四个地方都有不同程度的影响啊然后每个影响的点，
+[Speaker 1]: 不一样我争取每个精力就，
+[Speaker 1]: 找出一个点来吧呃在亚马逊的时候。
+[Speaker 1]: 呢，
+[Speaker 1]: 其实是我第一次真，
+[Speaker 1]: 正的接触 AI 我在读博士的时候。
+[Speaker 1]: 大家会去说啊 machine learning，
+[Speaker 1]: 然后 logistic regression 但是我是，
+[Speaker 1]: 经济学博，
+[Speaker 1]: 士所以说应用的其实，
+[Speaker 1]: 还是比较浅的那个时候二零一五年。
+[Speaker 1]: 嘛就是相相当于 AI 刚在这个萌芽期就是大规模应用的 AI，
+[Speaker 1]: 刚在一个萌芽期然。
+[Speaker 1]: 后去了亚马逊我去，
+[Speaker 1]: 他那个 machine learning university 然，
+[Speaker 1]: 后上了所有的 machine learning，
+[Speaker 1]: 的课然后我那个祖妹正好是。
+[Speaker 1]: 一个呃就是 apply scientist 组所以说就很多亚马逊的。
+[Speaker 1]: 时候已经很很招了很多模这，
+[Speaker 1]: 个继续学习的博士啊去来做各种各样的应用，
+[Speaker 1]: 了包括我们百家会上有应。
+[Speaker 1]: 用然后就了解了这方面的，
+[Speaker 1]: 知识呃但是同时也看到了上一。
+[Speaker 1]: 代，
+[Speaker 1]:  AI 的局限嗯所以说深入了解了之后。
+[Speaker 1]: 呢，
+[Speaker 1]: 就会觉得对它是一个很专，
+[Speaker 1]: 的东西但是可能未必是我感兴趣，
+[Speaker 1]: 的然后这是在亚马逊的呃时。
+[Speaker 1]: 时间啊就是然后后来在 meta 的时间呢，
+[Speaker 1]: 我更多的是意识到了什么东，
+[Speaker 1]: 西是 fake work 什么东西是一个嗯真，
+[Speaker 1]: 实有用，
+[Speaker 1]: 的东西因为我当时在 matter 做的东西啊。
+[Speaker 1]: 呃从一个半研究半应用的岗位，
+[Speaker 1]: 变成了一个纯跟产品的岗位就是我那个时候我可能更多是。
+[Speaker 1]: 一个偏向就是有数据背景的产产品经理这样一个角色要决定我们当时是 facebook markeplace 有点北美咸鱼的感觉啊这个产品的很多的这个重要决。
+[Speaker 1]: 策，
+[Speaker 1]: 包括公司要在上面呃投多少钱啊，
+[Speaker 1]: 然后包括我们这个呃战略怎么定，
+[Speaker 1]: 啊这些东西就是呃速度又很快它迭，
+[Speaker 1]: 代也很快所以说就逼着你去哦，
+[Speaker 1]: 我找到你工作，
+[Speaker 1]: 中哪些东西是真的有，
+[Speaker 1]: 价值的哪些东西其实只是画拳绣腿或者说，
+[Speaker 1]: 给老板看的啊就在那儿后来，
+[Speaker 1]: 回腾讯呢就是一下子就，
+[Speaker 1]: 是招招回。
+[Speaker 1]: 去就是一个副，
+[Speaker 1]: 总监的岗位然后一开始是，
+[Speaker 1]: 管六个人到最后走的时。
+[Speaker 1]: 候是管三十多个人呃也，
+[Speaker 1]: 是就是经历了大厂的这个怎么说，
+[Speaker 1]: 呢呃，
+[Speaker 1]: 因为腾讯招回来呢是觉。
+[Speaker 1]: 得你是个藤校？
+[Speaker 1]: 博，
+[Speaker 1]: 士啊然后回来了又发现你落地落地的还很好，
+[Speaker 1]: 所以说在国，
+[Speaker 1]: 内有一个年薪高浅的这样的。
+[Speaker 1]: 说法他们是按照这种年薪高潜的这个储备干，
+[Speaker 1]: 部去培养的给了我绩效也都给的非常好是拿了一个双。
+[Speaker 1]: 五星绩效但是在这种，
+[Speaker 1]: 情况下就说明就是当我这个有。
+[Speaker 1]: 点打通了升职加薪，
+[Speaker 1]: 这条路的时候发现了两件事儿第一呢就是升职加薪这条，
+[Speaker 1]: 路未必是我想干。
+[Speaker 1]: 的呃人生其实有别的意义就是也是我跟我的频。
+[Speaker 1]: 道，
+[Speaker 1]: 上跟很多这个嘉宾去，
+[Speaker 1]: 聊天的时候呃意识到的一件事儿他们已经走过了这条路，
+[Speaker 1]: 嘛，
+[Speaker 1]: 然后他们跟我讲就，
+[Speaker 1]: 是工作我当那时候有一个视。
+[Speaker 1]: 频叫如何摆脱无意义的工，
+[Speaker 1]: 作是跟李阳的访谈视频然后就那个视频就是基本，
+[Speaker 1]: 上就是开始思考这方。
+[Speaker 1]: 面的事情了第二个就是声称十月 i 出来了呃我是在二零二零。
+[Speaker 1]: 年呃十月份的时候采访九月份。
+[Speaker 1]: 的，
+[Speaker 1]: 时候采访了硅谷徐老师然后十月份发了一个视频我们那个视频叫这轮衰。
+[Speaker 1]: 退有什么机会然后徐老师，
+[Speaker 1]: 就说这轮衰退的机会就是声成是 AI 元？
+[Speaker 1]: 宇宙不是呃这个 lifesty 不是别的乱七八糟不是就是生成试 AI。
+[Speaker 1]: 然后十，
+[Speaker 1]: 一月份的时候拆选 BT 出来，
+[Speaker 1]: 了我那个时候就做。
+[Speaker 1]: 了海量的就是学习就重新相当于把，
+[Speaker 1]: 生成试 AI 的大约模型的这套所有的呃，
+[Speaker 1]: 呃 paper 啊现在是讲起来可能很多人都不知道了就是胖 m 那个时，
+[Speaker 1]: 候硅谷呃谷歌最好的模型是呃 plm 然后，
+[Speaker 1]: 和那个就是准确的这些东西全龙去研究了一遍还写，
+[Speaker 1]: 了文章呃然后我就意识到从那个时候就意识到就是，
+[Speaker 1]: 白领的工作。
+[Speaker 1]: 其，
+[Speaker 1]: 实是要结束了的，
+[Speaker 1]: 呃我那个时候写了一，
+[Speaker 1]: 个文章嘛叫做关于拆拆 GPT 最重要的。
+[Speaker 1]: 五，
+[Speaker 1]: 个问题在国内影响也蛮大的然，
+[Speaker 1]: 后我在我那个时候就来 stasic 给他们做，
+[Speaker 1]: 一个 tech talk 就是说这个。
+[Speaker 1]: 呃生成是哎到底是怎么回事儿啊为什么它和上，
+[Speaker 1]: 一代的 AI 是完全不一样的我们不能拿上一代？
+[Speaker 1]: 的 AI 的眼光去看这个大约模型呃然后他的？
+[Speaker 1]:  potential 的应用是什么那个 tech tok 的一开始的标题就是我。
+[Speaker 1]: 未，
+[Speaker 1]: 来是做一个数据科学家还？
+[Speaker 1]: 是做一个调酒师然后我跟，
+[Speaker 1]: 大家说就是五年之后呢我可能做，
+[Speaker 1]: 不了数据科学家了。
+[Speaker 1]: 因为数学学家肯，
+[Speaker 1]: 定会所有事情都会，
+[Speaker 1]: 被爱取代的我希望那个时候。
+[Speaker 1]: 我的 AI 能做一个更好的数据科学家啊就是比你的。
+[Speaker 1]:  AI 在数据科学方更好用这样我的 AI 可以帮我做数据科，
+[Speaker 1]: 学的事情然后我自己去调酒然后下。
+[Speaker 1]: 面人哈哈哈一片笑声对吧但是我那个时，
+[Speaker 1]: 候就其实我没有开，
+[Speaker 1]: 玩笑其实我没有开玩笑总之，
+[Speaker 1]: 就是？
+[Speaker 1]: 意识到这件事儿呢其实我当时还做了，
+[Speaker 1]: 别的探索我那时候，
+[Speaker 1]: 还想开餐馆来知道我回美国，
+[Speaker 1]: 想开一个餐馆嗯对我还深入，
+[Speaker 1]: 调研就是我跟家里说把钱准备好了我跟那个就是在。
+[Speaker 1]: 深，
+[Speaker 1]: 圳啊叫九两手我，
+[Speaker 1]: 去找了他们店长然，
+[Speaker 1]: 后去几乎在深。
+[Speaker 1]: 圳和东莞交界的地方找，
+[Speaker 1]: 了他们老，
+[Speaker 1]: 板去那儿坐着喝了，
+[Speaker 1]: 喝了一上午茶然后聊然后一起中午一，
+[Speaker 1]: 块吃饭啊把他那个就是品牌授权相当于拿到，
+[Speaker 1]: 了然后，
+[Speaker 1]: 后美美国这边找人然后还，
+[Speaker 1]: 请教了那个大楚高寒也是一个 b 站主。
+[Speaker 1]: 就是在美国开餐馆的事，
+[Speaker 1]: 儿在美国这边请教开餐馆的，
+[Speaker 1]: 人后来没做幸好，
+[Speaker 1]: 没做但是总之就是我是非，
+[Speaker 1]: 常认真的去觉得就是我打工，
+[Speaker 1]: 肯定是未，
+[Speaker 1]: 来是没有。
+[Speaker 1]: 这件事要结束了的那我是不是应该尽早的去切换一赛道当时想的是财管现在就是觉得做。
+[Speaker 1]: 社区也挺好就是在这个年代做实、
+[Speaker 1]: 体经？
+[Speaker 1]: 济的话其实成本，
+[Speaker 1]: 和风险还是很高如果当时大，
+[Speaker 1]: 家感兴趣的话也可以讲讲我对创，
+[Speaker 1]: 业风险的一些呃理解啊但。
+[Speaker 1]: 总之就是去做了继续我的，
+[Speaker 1]: 自媒体自媒体开始了一个和大多数自媒体，
+[Speaker 1]: 不太一样的变现路径啊然后去加入。
+[Speaker 1]: 这个创业公司啊对吧然后去做更多的从这个技术的事情去，
+[Speaker 1]: 做偏销售的事情我在这创业公，
+[Speaker 1]: 司做？
+[Speaker 1]: 的就是我顶着是一个 principal datcientist 的 title 但是做的呢其实是个 evangalist。
+[Speaker 1]:  st 就是一个叫布道师更多就是一个市场场销销售。
+[Speaker 1]: 的这样的一个工作啊做了，
+[Speaker 1]: 这个工作同时呢就，
+[Speaker 1]: 是做了课程啊做了社区然后现在做了会员呢就是，
+[Speaker 1]: 我这个社区的。
+[Speaker 1]: 会员然后就觉得哦这是，
+[Speaker 1]: 一个我可。
+[Speaker 1]: 以长期这这发展的事，
+[Speaker 1]: 业其实我定时了一个那，
+[Speaker 1]: 个视频咱们今天聊是这个十十十十九月十一号的九九。
+[Speaker 1]: 九点吧我我这边然后我定了，
+[Speaker 1]: 一个十一十一点的视频就是我这个自己工作一周年的，
+[Speaker 1]: 回顾这个，
+[Speaker 1]: 太期待这个回头我好好看一下说不，
+[Speaker 1]: 定咱们聊到中间 PO 那个视频就发了，
+[Speaker 0]: 就发布了了。
+[Speaker 0]: 太嗯对因为之前呃像刚，
+[Speaker 1]: 才刚才辩友聊的因为之前我仔细读了这，
+[Speaker 1]: 个真本是这本。
+[Speaker 0]: 书，
+[Speaker 0]: 嘛，
+[Speaker 0]: 我其实就确实能够感受到呃像你，
+[Speaker 0]: 之前有说的我们怎么样把自己，
+[Speaker 0]: 变成这种稀，
+[Speaker 0]: 缺的资产让个体这个价值去持，
+[Speaker 0]: 续的去变现然后，
+[Speaker 0]: 待会儿也会呃问到类呃相关这样的这个，
+[Speaker 0]: 话题然后还有一个很好奇因为呃。
+[Speaker 0]: 之前我看这个您视频也有讲就是呃 starc 后来是被这。
+[Speaker 0]: 个 open AI 收购了嘛对吧，
+[Speaker 0]: 然后呃我就特别好奇的是一种不同，
+[Speaker 0]: 的视角像这种呃独角兽公司它的这种，
+[Speaker 0]: 公司？
+[Speaker 0]: 它被收购了之后哎它的内外部来看嗯就是。
+[Speaker 0]:  open 公 open AI 内外部来看，
+[Speaker 0]: 这个公司的运营会有什么样不，
+[Speaker 0]: 一，
+[Speaker 0]: 样的视角嘛嗯哦这个是个很不一样的收购他是一个 talent acquisition 就是 OKI 根本看不上 static c 业业务你道道。
+[Speaker 1]:  static，
+[Speaker 1]: 业务其实最后是零块钱卖给，
+[Speaker 1]: 我们竞争对手，
+[Speaker 1]: 手结果，
+[Speaker 1]: 整个就就客客户啊然后。
+[Speaker 1]: 那个订单啊然，
+[Speaker 1]: 后和那个产品啊就是甩掉了然后本来是，
+[Speaker 1]: 还还要谈论要不要卖卖，
+[Speaker 1]: 个钱结果后来好，
+[Speaker 1]: 像因为一些税务的问题说那还。
+[Speaker 1]: 不如直接零块钱卖掉所以我们竞争对手，
+[Speaker 1]:  shamplate 然后直接就卖给他了然后因为就是 stasic，
+[Speaker 1]: 这些人呢是不应该再去 support，
+[Speaker 1]: 这个产品了他们应该，
+[Speaker 1]: 把所有的时间精力都。
+[Speaker 1]: 投入在做 AI 我他们之所以这个收购其实完全是我觉得。
+[Speaker 1]: 我当时其实也有分析当时就有分析的就是。
+[Speaker 1]: 当就是那个收购的时候，
+[Speaker 1]: 百分之八十是看 VG 这个人就是那个 CEO 那，
+[Speaker 1]: 个人啊然后剩下。
+[Speaker 1]: 百分之二十呢是 static 当时确实，
+[Speaker 1]: 是一直在 support open AI 然，
+[Speaker 1]: 后 open i 很多的数据基建啊他，
+[Speaker 1]: 不是那种训练用的数据基建，
+[Speaker 1]: 而是这个产品的数据基建是。
+[Speaker 1]: 跟 stasic 很有关系的耦合度非常，
+[Speaker 1]: 的高所以说当时对他们来说如，
+[Speaker 1]: 果 static 出问题对 open AI 来说也是一个比较大的风，
+[Speaker 1]: 险所以基本上是。
+[Speaker 1]: 因为这两个原因把 stasic 给，
+[Speaker 1]: 收进去的嗯然，
+[Speaker 1]: 后呢基本上就就是一开始还装模作样。
+[Speaker 1]: 的做了一段时间 stafic 的事情我就跟我的 static 朋友说。
+[Speaker 1]: 你，
+[Speaker 1]: 们赶紧跑去做 opp i 其他的产品 stafic 这件事儿是没有意义的在拍 opi 收。
+[Speaker 1]: 购之后然后大家还嗯也，
+[Speaker 1]: 装模作样了一段时间然后现在就，
+[Speaker 1]:  stac c 产品扔掉了然后剩下。
+[Speaker 1]: 的人要么是做他，
+[Speaker 1]: 们呃 open i 内部的工具或者做他的 infrastructure 就，
+[Speaker 1]: 是那个数据基建要么就是去做。
+[Speaker 1]: 一些其他的就是比如说那个差纸配对广告业务，
+[Speaker 1]: 理解哎戴的你。
+[Speaker 1]: 那边有做那个本地，
+[Speaker 1]: 的录制吗有有有然后而且 river，
+[Speaker 1]: 赛本身就是由本地录制的所以说如果你。
+[Speaker 0]: 看，
+[Speaker 0]: 到我，
+[Speaker 0]: 们卡的话最后本地我们都会有？
+[Speaker 1]: 一个它，
+[Speaker 1]: 自动的那个同步好嘞太棒了嗯然后那。
+[Speaker 1]: 我接着问哈因为之前在我们社区，
+[Speaker 1]: 里面有大量这种嗯用 AI 的人因为我们也都在。
+[Speaker 0]: 我们，
+[Speaker 0]: 这个社。
+[Speaker 0]: 区，
+[Speaker 0]: 里面那我会好奇对，
+[Speaker 0]: 于课代表来说你身边最会用这个 AI 的人他们的使，
+[Speaker 0]: 用方式和普通人最大的区别是什么。
+[Speaker 0]: 呢能不能举，
+[Speaker 0]: 个例子好呀好呀好，
+[Speaker 0]: 呀我觉得我举两三个比较，
+[Speaker 0]: 典型的例子吧第一个最会运动 i 的人当仁不让？
+[Speaker 0]: 就是哎呦哦鸭哥？
+[Speaker 1]: 对吧这个大家，
+[Speaker 1]: 都知道的如果在社区里边就是他的那。
+[Speaker 1]: 些分析举个例子啊就是如果其他的，
+[Speaker 1]: 同学不了不了解鸭哥？
+[Speaker 1]: 的话就是去年最近，
+[Speaker 1]: 才有一个人还有一个人翻出来鸭哥。
+[Speaker 1]: 二零二五年，
+[Speaker 1]: 二月份的一个文章说 clock coat 是他非常看好的，
+[Speaker 1]: 一个产品虽然这个产品 cloud，
+[Speaker 1]: 自己都没有怎么关注因。
+[Speaker 1]: 为那个时候二零二五年二月份是，
+[Speaker 1]: 什么呢 manus 要么是还没出要么是。
+[Speaker 1]: 马上要出呃就是我们刚不对是应该是三，
+[Speaker 1]: 月份出的所以所以说那个时候 minus 没出然后？
+[Speaker 1]:  cloud 那个时候发发，
+[Speaker 1]: 布了这个 cloud 三点。
+[Speaker 1]: 七，
+[Speaker 1]: 对 o 呃是 open 三点，
+[Speaker 1]: 七吗还是什么我都忘，
+[Speaker 1]: 了它的反正是三点七的一个，
+[Speaker 1]: 模型然后所有的关注度都在这儿对然后牙。
+[Speaker 1]: 哥说三，
+[Speaker 1]: 点七很厉害但？
+[Speaker 1]: 是大家要关注 cloucode 这，
+[Speaker 1]: 个模，
+[Speaker 1]: 型的这个这个这个东西那，
+[Speaker 1]: 个时候 boris 就是 cloucode 的创始人啊。
+[Speaker 1]: 他，
+[Speaker 1]: 说他在内部发了一个帖那，
+[Speaker 1]: 个帖只有两个赞就是可就是 anthropic 自己内部是没有看。
+[Speaker 1]: 到 clouds 到底是厉害在哪然后鸭哥说，
+[Speaker 1]: 这是我们的理解然后这是，
+[Speaker 1]: 我们的这个呃为什，
+[Speaker 1]: 么他他厉害然后后来就火了然后所有的小红书博主都。
+[Speaker 1]: 说啊你用克拉扣就是牛逼你，
+[Speaker 1]: 不用克拉克就就是就就不行然后我们说？
+[Speaker 1]: 虽然克劳扣的很。
+[Speaker 1]: 厉害但是呢你也应该就是不要依，
+[Speaker 1]: 赖 cloucoat cursor cloucoat code lex 你应该，
+[Speaker 1]: 去混着用然后现在大家又开始。
+[Speaker 1]: 啊今天呃 code x 厉害了明天 deep sik harneness，
+[Speaker 1]: 厉害了对吧就是鸭哥他是很早就能抓到呃呃这个东西的本质。
+[Speaker 1]: 它本身就是一个 AI researcher 它，
+[Speaker 1]: 是发了四十多篇论，
+[Speaker 1]: 文的然后所有的 AI，
+[Speaker 1]: 顶会？
+[Speaker 1]: 他都发过的但是它和大多数的 AI researcher 不一样的有两。
+[Speaker 1]: 个点一个是它的工程，
+[Speaker 1]: 能力特别特别强他是一个超，
+[Speaker 1]: 级工就是在 AI 之前就是一个超。
+[Speaker 1]: 级工程师然后他是特别能抓到技，
+[Speaker 1]: 术本质并，
+[Speaker 1]: 且能 unlearn 的呃这是说鸭哥是这样一。
+[Speaker 1]: 个例子鸭哥在使，
+[Speaker 1]: 用 AI 的过程中呢我们其实我发过一个，
+[Speaker 1]: 就是视频啊那个视频也挺有意，
+[Speaker 1]: 思的啊就是。
+[Speaker 1]: 我，
+[Speaker 1]: 说这是鸭哥的工作方式然后，
+[Speaker 1]: 鸭哥就讲了他使用 AI 他是，
+[Speaker 1]: 怎么样子做几件简单的事情把自，
+[Speaker 1]: 己 AI 用好的呃然后有两个截，
+[Speaker 1]: 然不同的反应第一个反应呢是，
+[Speaker 1]: 我们社区里边有，
+[Speaker 1]: 一个人他专门还发了一个长帖他是一个比，
+[Speaker 1]: 较资深的程序员。
+[Speaker 1]: 他，
+[Speaker 1]: 带着自己的同程序员同事说你。
+[Speaker 1]: 看鸭哥怎么用的然后其他程序员同学说，
+[Speaker 1]: 啊看了好像没什么感觉，
+[Speaker 1]: 然后他专门花了两个小时跟。
+[Speaker 1]: 那些程序员坐在一起逐帧分析鸭，
+[Speaker 1]: 哥他这个东西厉害，
+[Speaker 1]: 在哪然后叫他在那个社区，
+[Speaker 1]: 里的帖子是 show 的 difference 如。
+[Speaker 1]: 果大家感兴趣的话也可以，
+[Speaker 1]: 看那个 show nows 就是去说对你看他这。
+[Speaker 1]: 样去，
+[Speaker 1]: 使用呢我们之前是怎？
+[Speaker 1]: 么样的鸭哥是这样的他的思想是什么然。
+[Speaker 1]: 后大家说哦原来是这，
+[Speaker 1]: 样结果后来他就是。
+[Speaker 1]: 也是因为这，
+[Speaker 1]: 件，
+[Speaker 1]: 事吧在同事们旁边建，
+[Speaker 1]: 立了很深的微呃微信？
+[Speaker 1]: 因为因为同事，
+[Speaker 1]: 们是意识不到自？
+[Speaker 1]: 己不知道这些，
+[Speaker 1]: 事儿的他能，
+[Speaker 1]: 意识到然后他收的 difference 以后同事们觉，
+[Speaker 1]: 得哦你确实很厉害这是一种就是知道牙。
+[Speaker 1]: 哥厉害的人然后这也是为什么 open ASR picture 人上我们课还，
+[Speaker 1]: 是有很多收。
+[Speaker 1]: 获对吧他们天天都，
+[Speaker 1]: 在用 AI 但是他能牙哥的这个，
+[Speaker 1]: 就是 architecture 吧或者说是对这个技术本。
+[Speaker 1]: 质的理解都会让大家觉得很受益但是另外一个呢就是你，
+[Speaker 1]: 如果？
+[Speaker 1]: 去看 b 站评论区全，
+[Speaker 1]: 都说这什么东西啊这么浅是啥，
+[Speaker 1]: 呀这这个东西不如我啊不拉不拉，
+[Speaker 1]: 不拉不拉就就就就然后我。
+[Speaker 1]: 们社区里边还有，
+[Speaker 1]: 人说很搞笑就是 b 站下面就，
+[Speaker 1]: 是你如果梅西踢球下，
+[Speaker 1]: 面就叫梅西踢？
+[Speaker 1]: 球他跟屋子打个耳扑，
+[Speaker 1]: 那他跟屋子打个耳扑对吧教谷埃伦滑雪然后教马林打乒乓就是，
+[Speaker 1]: 这样都是这样的对然后教牙各用 AI，
+[Speaker 1]: 呃就是看不出来然。
+[Speaker 1]: 后包括其实我们课，
+[Speaker 1]: 程也是就是我们其实，
+[Speaker 1]: 在学？
+[Speaker 1]: 校里边去跟大，
+[Speaker 1]: 家讲这个课程其实很很好然，
+[Speaker 1]: 后你也不太需。
+[Speaker 1]: 要的就是背景就，
+[Speaker 1]: 可，
+[Speaker 1]: 以学会然后下面。
+[Speaker 1]: 就很多人说我我我是 CS 学生，
+[Speaker 1]: 啊我天天都在学 CS 啊我干嘛要上你这个课我说算了吧就是。
+[Speaker 1]: 我们也没有办法说服，
+[Speaker 1]: 你就是你看不到你看。
+[Speaker 1]: 不到的东西啊这是第第一类啊第一类我，
+[Speaker 1]: 可能在这说课程说，
+[Speaker 1]: 的多了点但是总之就？
+[Speaker 1]: 是这个哥是有，
+[Speaker 1]: 一个大道至简的东西的然，
+[Speaker 1]: 后鸭哥这个大道至简的东西呢如果，
+[Speaker 1]: 总结成一句话然，
+[Speaker 1]: 后鸭哥，
+[Speaker 1]: 自己的话来说就是他会不是想。
+[Speaker 1]: 方设法的把 AI 用好而是他想方设法的让自己能更好。
+[Speaker 1]: 的服务好这个 AI 这个是就是什么，
+[Speaker 1]: 意思我觉得是三件，
+[Speaker 1]: 事儿啊就第一个所有事，
+[Speaker 1]: 情都想方设法的让人家去做第二个，
+[Speaker 1]: 呢就是叫先写 skill 再执行这是我们在社区里面。
+[Speaker 1]: 发的文。
+[Speaker 1]: 章就是你要想方设法？
+[Speaker 1]: 的去告诉 AI 通过 skill 告，
+[Speaker 1]: 诉 AI 什么东西对我来说是好的然后你可能需。
+[Speaker 1]: 要你的边界是哪儿然后什么东西。
+[Speaker 1]: 你需要跟我问什么东西你自己，
+[Speaker 1]: 去做你需要用什么工具对吧标，
+[Speaker 1]: 准工具然后可能再给 AI，
+[Speaker 1]: 一些案例就是你。
+[Speaker 1]: 不要去教 AI 做事儿你不要教你先，
+[Speaker 1]: 做 a 再做 b 你要告诉 AI 什么是我想要，
+[Speaker 1]: 的什么是我，
+[Speaker 1]: 不想要的然后边界在，
+[Speaker 1]: 哪儿？
+[Speaker 1]: 然后工具，
+[Speaker 1]: 是什么呃你通过这种方式，
+[Speaker 1]: 去把你要做的事情告诉 AI，
+[Speaker 1]: 所以说在社区里边你可能也有看到那个 skill registry 就是有六，
+[Speaker 1]: 十多个东西嘛呃要，
+[Speaker 1]:  AI 怎么样子去呃，
+[Speaker 1]: 读微信你让 AI 怎么？
+[Speaker 1]: 样，
+[Speaker 1]: 子去发信息你让 AI 怎么样子去综合我的文。
+[Speaker 1]: 档啊连连我的文档，
+[Speaker 1]: 怎么样子让 AI 去那个看我，
+[Speaker 1]: 的智能家居怎么样子 AI。
+[Speaker 1]: 在，
+[Speaker 1]: 后台直接开浏览器自己去，
+[Speaker 1]: 操作浏览器对吧你自己看就，
+[Speaker 1]: 一个你能看的 agents 能看到你看不到的，
+[Speaker 1]: 这种浏览器等等等等这些东西你是都可以通过 skills 去，
+[Speaker 1]: 交给 AI 而且它一定是适配你的就，
+[Speaker 1]: 是杨哥还讲就是你，
+[Speaker 1]: 的 skill？
+[Speaker 1]: 别人的 skills 是一个种子你是通过，
+[Speaker 1]: 别人 skill 让你的 AI 学会和你在上面进行适。
+[Speaker 1]: 配你对你的适配而不是去照抄别人的，
+[Speaker 1]: 一个 skill 直接拿来用这是。
+[Speaker 1]: 第二个第三个就是想方设，
+[Speaker 1]: 法的把自己的 context 给到。
+[Speaker 1]:  AI 我前段时间不，
+[Speaker 1]: 是开源了我的所有的 context 嘛但是我还，
+[Speaker 1]: 有我的微信啊，
+[Speaker 1]: 我的线下聊天啊这些事我我，
+[Speaker 1]: 我就没有办，
+[Speaker 1]: 法去开源了。
+[Speaker 1]: 但是就不断的去积累和给到 AI 然后 AI 才能。
+[Speaker 1]: 真的去帮你做事因为到最后 AI 其实就是一，
+[Speaker 1]: 个能帮你做事儿的人就，
+[Speaker 1]: 是你就 agents 你想这个词叫，
+[Speaker 1]: 中文翻译是经纪人那经纪人。
+[Speaker 1]: 什么意思经纪人就是你给了你，
+[Speaker 1]: 让渡了一部分权利给他让他。
+[Speaker 1]: 帮你做决定对吧让他帮你去代表你的利益然后去。
+[Speaker 1]: 做最符合你，
+[Speaker 1]: 利益的决决定这个是 AA 呃经纪人。
+[Speaker 1]: 所以说你得让这个？
+[Speaker 1]: 经纪人足够了解你然后他啊你你跟他对齐了，
+[Speaker 1]: 很多事情的标准，
+[Speaker 1]: 对吧？
+[Speaker 1]: 然然后他就可以帮助你做很，
+[Speaker 1]: 多决策这个才对我们来说是个巨。
+[Speaker 1]: 大的这个就，
+[Speaker 1]: 是解放，
+[Speaker 1]: 其实我今天早上跟你聊的聊之前啊我，
+[Speaker 1]: 才让我的 agents 把我的这本书对吧就是应该也，
+[Speaker 1]: 送过？
+[Speaker 1]: 两本本嗯对是的嗯这本这本书在我的，
+[Speaker 1]: 抖音小店上全都上了一就是抖，
+[Speaker 1]: 音所有的视频。
+[Speaker 1]: 上全都上了一下这个事让人干就很，
+[Speaker 1]: 烦而且可能也没什么手艺但是又？
+[Speaker 1]: 又应该干所以我让 HR 干。
+[Speaker 1]: 了，
+[Speaker 0]: 一，
+[Speaker 0]: 些认。
+[Speaker 0]: 识，
+[Speaker 1]: 这个事然后完了他包括抖音所有的视频分类分分门别，
+[Speaker 1]: 类的这个综合了一下就是综。
+[Speaker 1]: 合集我还让 agents 去调研，
+[Speaker 1]: 就是在小红书上怎么上，
+[Speaker 1]: 架这件事说实话。
+[Speaker 1]: 啊我之前有团队成员我交交代了。
+[Speaker 1]: 好多次对这个好像还挺复杂的我们之前我有看嗯这个东西复杂是一回，
+[Speaker 1]: 事儿就是我们一会儿可以讲别，
+[Speaker 1]: 人的案例的时候在讲嘛就是为什。
+[Speaker 1]: 么这件事，
+[Speaker 1]:  AI 做会比人干更有，
+[Speaker 1]: 效呃就是人他在做。
+[Speaker 0]: 事，
+[Speaker 0]: 的时候呢就会带进去。
+[Speaker 0]: 很多的我们通称为叫内耗但是其实内耗是一个，
+[Speaker 1]: 偏贬义的词我们说中性一点的词呢就是当人在做，
+[Speaker 1]: 第一步的时候他可能就发现了三条不同？
+[Speaker 1]: 的，
+[Speaker 1]: 路径那每条不同的路径都需要调研对吧然后你，
+[Speaker 1]: 要知道哪条这件事。
+[Speaker 1]: 对人来说就一下子就超过了大脑。
+[Speaker 1]: 的容量了然后你可能就，
+[Speaker 1]: 卡在这儿了然后你好不容易，
+[Speaker 1]: 说 OK 我拆解一条一条去调研然后，
+[Speaker 1]: 你就会觉得我调研完了以后这个，
+[Speaker 1]: 时间？
+[Speaker 1]: 可能也是浪费的然后我又不知道我，
+[Speaker 1]: 调研的是不是对的说不定到别的。
+[Speaker 1]: 地方打听一个人呢我就直。
+[Speaker 1]: 接知道了这时候又有，
+[Speaker 1]: 不同做法的组合然后人，
+[Speaker 1]: 就在这儿就很容易陷入一个就是，
+[Speaker 1]: 很难往前走其实我那些同学。
+[Speaker 1]: 也是就是我知道可能最好的方式呢是，
+[Speaker 1]: 我找一个专家或者找一个市面上，
+[Speaker 1]: 成熟的服务商去。
+[Speaker 1]: 帮我这做了但问题是我又不，
+[Speaker 1]: 知道市面上谁是专家对吧我还要去找这个专家还要。
+[Speaker 1]: 去找这个服务商都很，
+[Speaker 1]: 难那 AI 呢就没有这种怪碍心里的怪碍然后他就直，
+[Speaker 1]: 接走他就去找他他就说啊那我去把所有的这个。
+[Speaker 1]: 文档读一遍不要嗯读一遍不行然后我，
+[Speaker 1]: 说他？
+[Speaker 1]: 说这个路径行不行我，
+[Speaker 1]: 说行那那就需要我帮你做什。
+[Speaker 1]: 么需要我帮你去问一下我，
+[Speaker 1]: 的商标注册，
+[Speaker 1]: 怎么样了 OK 那我，
+[Speaker 1]: 帮你问一问对吧然后，
+[Speaker 1]: 就就就很容易往前去推所以就是，
+[Speaker 1]: 就就类似于很多很。
+[Speaker 1]: 多这样的事情呢其实是呃就是？
+[Speaker 1]:  AI 很容，
+[Speaker 1]: 易帮你拿到结果的事儿嗯包，
+[Speaker 1]: 括我的网站的那个就是社区背后的很多东西。
+[Speaker 1]: 举，
+[Speaker 1]: 个例子啊就是我不是？
+[Speaker 1]: 那个会员每每个啊那就干脆。
+[Speaker 1]: 就说到我吧鸭哥鸭哥就是理解 AI 的本质理解，
+[Speaker 1]: 技术的本质能把 AI 最大化的发挥出来然后能把。
+[Speaker 1]: 自，
+[Speaker 1]: 己的所有的事情交给 AI 然后所有的事情都能让。
+[Speaker 1]:  AI 做的很好，
+[Speaker 1]: 因为他不断的去告诉，
+[Speaker 1]:  AI 什么是他想要的什么是好的啊，
+[Speaker 1]:  AI 中间需要什么东西他就能，
+[Speaker 1]: 把这个需要补个，
+[Speaker 1]: 坑他就能把这个坑给躺平。
+[Speaker 1]: 所以理论上电脑能做的所有事儿雅，
+[Speaker 1]: 各 AI 都能做而且都能做的很好对吧。
+[Speaker 1]: 而且都能自动的去做这是雅哥我呢就是刚，
+[Speaker 1]: 才那种类型我，
+[Speaker 1]: 跟 AI 我跟 AI 很少自动，
+[Speaker 1]: 的去做什么事儿基本上都，
+[Speaker 1]: 是我脑子里有一百件事。
+[Speaker 1]: 儿想做然后我一件一件交给他给，
+[Speaker 1]:  AI 和他一起做，
+[Speaker 1]: 这是我的用法然后刚，
+[Speaker 1]: 刚说？
+[Speaker 1]: 的就是一个是让 AI 往，
+[Speaker 1]: 前去趟另。
+[Speaker 1]: 外一个就是这些小事儿，
+[Speaker 1]: 啊一些小事儿说大说这就就说大不大说，
+[Speaker 1]: 小不小吧比如说我的这个社区他有大师。
+[Speaker 1]: 课然后呢又有新会员新新，
+[Speaker 1]: 新会员来那新会，
+[Speaker 1]: 员来我希望他。
+[Speaker 1]: 去赶紧报名下一场大师课同时又让他去，
+[Speaker 1]: 看这个上一场大师课的回复，
+[Speaker 1]: 那给他一个。
+[Speaker 1]: 网页他，
+[Speaker 1]: 的这个体验是最，
+[Speaker 1]: 好的那我去做。
+[Speaker 1]: 这个网页很麻烦吧然，
+[Speaker 1]: 后每次大师，
+[Speaker 1]: 课呢我要重新去做一遍那让 AI 去，
+[Speaker 1]: 做就很容易，
+[Speaker 1]: 就之前就是无数可能刚刚说了一个，
+[Speaker 1]: 小的东西啊但是其实是你你应该非常了解。
+[Speaker 1]: 就创业就是这么，
+[Speaker 1]: 无数个小事儿构成的它不。
+[Speaker 1]: 是一个大事儿构成就是一个。
+[Speaker 1]: 叫叫 silver bullet 没有这个，
+[Speaker 1]:  silver bullet 这种一个一个，
+[Speaker 1]: 小事儿但是这一个一。
+[Speaker 1]: 个小事呢我之前就是可能我在九十件事上做到，
+[Speaker 1]: 个二十分然后在十件事上做到，
+[Speaker 1]: 个呃在九件事上做到个五十分吧然后一，
+[Speaker 1]: 件事上可能做到个一百，
+[Speaker 1]: 分可能是这种方式但是我现在就可以把很多小事儿的。
+[Speaker 1]: 这个呃给做好这个是我，
+[Speaker 1]: 用 AI 的方式嗯包括你看这个衣服这个衣服就是，
+[Speaker 1]:  AI 设计的这些这衣柜谁 i 设计的我天啊这个 AI 这是完全。
+[Speaker 1]: 是 AI 设计的知行合一这个知识这，
+[Speaker 1]: 个 mdset 对吧然后形。
+[Speaker 1]: 式 behavior 就是然后你看背后 o 就是能看到吗然后可以。
+[Speaker 1]: 对嗯未有知啊未有知而。
+[Speaker 1]: 不，
+[Speaker 1]: 行者对对对对对就，
+[Speaker 1]: 是行而不知是不知这是，
+[Speaker 0]: 啊这是王阳明传奇录了？
+[Speaker 0]: 的一句。
+[Speaker 1]: 话吧这个其实我也是我视频，
+[Speaker 1]: 里面代表有有录一期关于这个？
+[Speaker 1]: 对呃对对就是这个，
+[Speaker 1]: 呃学 AI 就是我说 mssight 比 behavior 更重要？
+[Speaker 0]: 然后比呃或者，
+[Speaker 0]: 说 habits 更重，
+[Speaker 1]: 要然后 habits 比方法。
+[Speaker 1]: 更重要方法，
+[Speaker 1]: 比工具，
+[Speaker 1]: 更重要然后大。
+[Speaker 1]: 家很多，
+[Speaker 1]: 时候学的时候都只学工具没有学。
+[Speaker 1]: 方法但是你学了方法也没有用你要改变自己的。
+[Speaker 1]: 习惯改变自己的 man，
+[Speaker 1]:  set 这就是那个的，
+[Speaker 1]: 总结然后这个衣服是在，
+[Speaker 1]: 网上有的我是开了一个周，
+[Speaker 1]: 边店的就是我我回头可，
+[Speaker 1]: 以把链接发给你就。
+[Speaker 1]: 是这个衣服就是可以直接买二十九美元，
+[Speaker 1]: 可以直接买，
+[Speaker 1]: 呃这些东西全都是 a 来做。
+[Speaker 1]: 的都是我就是我跟人，
+[Speaker 1]: 家一起把它做出，
+[Speaker 1]: 来我这感触真的特别。
+[Speaker 1]: 深因为我会感觉到我们那个，
+[Speaker 1]: 社区的迭代特别快然后，
+[Speaker 1]: 然后整就是用的这个功能非常的，
+[Speaker 1]: 丰富然后越来越越来越越来越丰满这种感，
+[Speaker 1]: 觉而且像呃刚。
+[Speaker 1]: 才，
+[Speaker 1]: 课代表有说就是呃压歌的，
+[Speaker 1]: 这个理念就尽可能用 AI 然后全部呃 context。
+[Speaker 0]: 都给 AI 然后帮助我们，
+[Speaker 0]: 做事情这个呃我其实嗯确实很呃感触特别深因，
+[Speaker 0]: 为现在这个 AI 工具迭代特别快嗯就像您刚，
+[Speaker 0]: 呃像您刚才有讲到比如说上个月还是用。
+[Speaker 0]: 呃 cde code 然后现在大家又都用这个 codex 了然后又有一，
+[Speaker 0]: 些什么样的工，
+[Speaker 0]: 具那比如说像对于我们，
+[Speaker 0]: 来说呃怎么判断就是。
+[Speaker 0]: 什么时候该用什么又或者说呃课代表，
+[Speaker 0]: 你建议我们现在应该生根哪一个。
+[Speaker 0]: 呢，
+[Speaker 0]: 因为每一个他都要消耗 token 还，
+[Speaker 0]: 要消耗订阅费用没没问题没，
+[Speaker 0]: 问题好问题啊我觉得就是我先给，
+[Speaker 0]: 您一个简单问简单我我这样。
+[Speaker 0]: 吧我先给你一个简单的然，
+[Speaker 0]: 后，
+[Speaker 0]: 再给你一个复杂的简单的就是你，
+[Speaker 0]: 就订阅一个 code lex 或，
+[Speaker 0]: 一个 clar code 然后用就行了大差不差或？
+[Speaker 0]: 者 curer cursor 其实现在很好用对，
+[Speaker 0]: 吧又有 greck 然后也有，
+[Speaker 1]:  greck but 其实也很好。
+[Speaker 1]: 这三个三，
+[Speaker 1]: 三选一直接用不用管别的什么其他都不用管百分，
+[Speaker 1]: 之百不用管就行了啊，
+[Speaker 1]: 就就这么简单嗯如果说你，
+[Speaker 1]: 没有机会接触到这三个呢想，
+[Speaker 1]: 方设法的去搞，
+[Speaker 1]: 定想方设法的。
+[Speaker 1]: 去翻墙或者搞定你肯定可以搞可以，
+[Speaker 1]: 接触？
+[Speaker 1]: 到的如，
+[Speaker 1]: 果说你就是，
+[Speaker 1]: 不愿意的话那你。
+[Speaker 1]: 也用一个国产的这个就是 agent 工，
+[Speaker 1]: 具比如说，
+[Speaker 1]:  keimme code 或者说是，
+[Speaker 1]:  deep sic hardings 这样的东西就是一，
+[Speaker 1]: 定要让 AI 不要。
+[Speaker 1]: 只，
+[Speaker 1]: 跟他聊天要让他帮你干活然后然后这，
+[Speaker 1]: 样一个 agency 工具就是，
+[Speaker 1]: 我们所说的这个 foundation model 加上这，
+[Speaker 1]: 个 harness 就够了你，
+[Speaker 1]: 不可能再需要。
+[Speaker 1]: 任何其他的东西你如果需，
+[Speaker 1]: 要其他东西呢基本上说明是你的 AI 用。
+[Speaker 1]: 的还比较菜你还不会用呃就。
+[Speaker 1]: 是这是一个 AI 的大趋势啊就是，
+[Speaker 1]: 呃你所有的其他，
+[Speaker 1]: 的你想想所有其。
+[Speaker 1]: 他的软件呢其实无非就是，
+[Speaker 1]: 他也在调用 fdation 模型加上他自，
+[Speaker 1]: 己的一些东西无论，
+[Speaker 1]: 是他叫 tonney 也好叫 skill 也好还是叫叫。
+[Speaker 1]: 这个 prompty 也好还是叫其他，
+[Speaker 1]: 东西你的 AI 完全是一个很强大的对，
+[Speaker 1]:  ftion 模型加上。
+[Speaker 1]: 一，
+[Speaker 1]: 个最就是他们的 harness 不可能比 code，
+[Speaker 1]:  x cloucoat 和 curouser 的这 harharness 更强他们的模型也不会更强所以，
+[Speaker 1]: 说你用的是最好的模型最好的 harness，
+[Speaker 1]: 然后去做那些事情一定，
+[Speaker 1]: 会比他们自己调教，
+[Speaker 1]: 的那个做，
+[Speaker 1]: 的更好而且可以更重，
+[Speaker 1]: 要的呢是你通过这。
+[Speaker 1]: 样的使用你可以不断的把上下文积累积累到自己本地积累到自，
+[Speaker 1]: 己这儿然后而不用去被一个工具，
+[Speaker 1]: 绑定你用无论是什么 loverable 啊。
+[Speaker 1]: 得到大脑啊还是什么东西啊，
+[Speaker 1]: 干嘛都是，
+[Speaker 1]: 绑定在他的生态了，
+[Speaker 1]: 你到时候取消订阅就很难受的你放到你。
+[Speaker 1]: 的本地这些所有的东西其实都是就是如果，
+[Speaker 1]: 说这就是要先涉及到一些对 i 本质的理解了就，
+[Speaker 1]: 是绝大多数的 AI，
+[Speaker 1]: 的问题全都是可以用 markdown 加搜索。
+[Speaker 1]: 解决的几乎没有不能，
+[Speaker 1]: 被 markdown 搜索然，
+[Speaker 1]: 后工具就是 APISDK 这，
+[Speaker 1]: 样的调用对吧然后我们现在。
+[Speaker 1]: 之前会说 MCP 现在都不怎么说了。
+[Speaker 1]: 啊所以说就是都可以解决问题然后，
+[Speaker 1]: 这些问题如果说就是你如果发现了所有事情都是回归到这个东。
+[Speaker 1]: 西的本质的话你就要去用，
+[Speaker 1]:  mark down 的形式去积累你的上下文然，
+[Speaker 1]: 后要用 routing 的形式帮助你。
+[Speaker 1]:  AI 可以更好的去搜索这个 routing，
+[Speaker 1]: 就包？
+[Speaker 1]: 括了你怎么样子写你的 agents MD 怎么包括你怎么样，
+[Speaker 1]: 子写你的 skscalill 然后再加上这些。
+[Speaker 1]: 给他的一些工具接口就是你比如说该给他登录的东西登录好啊该给他的这个令牌设，
+[Speaker 1]: 置好啊就可以去调用这些工具的这是未来。
+[Speaker 1]: 的趋势所以说一定用这种方，
+[Speaker 1]: 式就可以做好如果说你是。
+[Speaker 1]: 一个领域的专业人员你需要通过一，
+[Speaker 1]: 些别人给你做好的这个软件去。
+[Speaker 1]: 增加你的效率这个时候你可以考虑比，
+[Speaker 1]: 如说你是一个设计专业人员我就是喜欢 levelable，
+[Speaker 1]: 或者说我就喜欢 canvas 那你可以，
+[Speaker 1]: 去做但是如果普通人想要使用 AI 刚刚我说。
+[Speaker 1]: 的订阅一个 code x 订阅一个 cloucode 订阅一。
+[Speaker 1]: 个 curser 可以解决你百分之九十九点，
+[Speaker 1]: 九的问题不需要去想那么多不需要去跟其他的然后这件事。
+[Speaker 1]: 呢不是我们站在今天怎，
+[Speaker 1]: 么说这个事儿是我们从二零二，
+[Speaker 1]: 五年的年初的，
+[Speaker 1]: 时候就这么呼吁的，
+[Speaker 1]: 二零二五年我。
+[Speaker 1]: 们就出了这个 agentic AI 的那个课，
+[Speaker 1]: 程我当时还出了一个呃呃视频不是吗，
+[Speaker 1]: 我说 agents 就是，
+[Speaker 1]:  AI 的主流然后我预言这这个事情会通过。
+[Speaker 1]: 十到十八个月被普，
+[Speaker 1]: 及对就是我们从头。
+[Speaker 1]: 到尾就是这么，
+[Speaker 1]: 呼吁的然后我们如果说你还，
+[Speaker 1]: 是担心的话我们社区也有各种各样的文章我们从社区从一。
+[Speaker 1]: 开始告诉大家 RAG 不要学 lunch 不要学 MCP 不要学然。
+[Speaker 1]: 后我们全都有非常深深的剖，
+[Speaker 1]: 分析文？
+[Speaker 1]: 章了就说为什么不要。
+[Speaker 1]: 学对吧为什么不需要去学和他们在什么时候你可能。
+[Speaker 1]: 是，
+[Speaker 1]: 用得到的然后只有在这个小的情况。
+[Speaker 1]: 下你再去使用它不要就是一听到，
+[Speaker 1]: 那个新名词就去学啊翻吞不要学。
+[Speaker 1]: 然后小龙虾不要用就小龙虾火，
+[Speaker 1]: 的时候我，
+[Speaker 1]: 当，
+[Speaker 1]: 然也出，
+[Speaker 1]: 了文章呃。
+[Speaker 1]: 也也出了视频对吧就为什么它一定会凉就，
+[Speaker 1]: 是为什么小龙虾并，
+[Speaker 1]: 不是？
+[Speaker 1]: 一个好的产品形态，
+[Speaker 1]: 等等就是我们说了无数个这中间你不。
+[Speaker 1]: 需要去关注的东西而且鸭哥的，
+[Speaker 1]: 那个 deep news 就是，
+[Speaker 1]: 那个板块每当有一个新的东西都会第，
+[Speaker 1]: 一时间的去。
+[Speaker 1]: 剖析它到底是个什。
+[Speaker 1]: 么它底层是什么然，
+[Speaker 1]: 后它到底好在哪儿，
+[Speaker 1]: 不，
+[Speaker 1]: 好在哪儿是不，
+[Speaker 1]: 是像？
+[Speaker 1]: 他说的那么厉害等等？
+[Speaker 1]: 等等都会有剖析基本上就是你如果真的想要搞懂我。
+[Speaker 1]: 们有很多技术的深刻就是深度的技术文章也有第一。
+[Speaker 1]: 时间的那这个技术深，
+[Speaker 1]: 度分析啊如果，
+[Speaker 1]: 你不想搞懂的话我相信绝大多数人就是屏幕，
+[Speaker 1]: 前百分之九十九？
+[Speaker 1]: 的人是不想搞？
+[Speaker 1]: 懂的那那你就就在这三个里边选一，
+[Speaker 1]: 个你花点时间把怎么样子，
+[Speaker 1]: 能用就是，
+[Speaker 1]: 呃比较好的。
+[Speaker 1]: 方式用到他们的这个这套路径打，
+[Speaker 1]: 通接下来呢你就是使用而，
+[Speaker 1]: 且不是使用 chch ch BT clock，
+[Speaker 1]:  a clot 和这个就是 greck 的对话哦你一定要需，
+[Speaker 1]: 要使用 code x cloucode 或者这，
+[Speaker 1]: 个 curor 或者这个 grorout 呃或或者呃 greck built 呃然后在这个情况下想方设法的让他有什么事儿你想干什么事儿，
+[Speaker 1]: 你就跟他说我想干这个事儿，
+[Speaker 1]: 看他们能帮你干了只要用电脑的东西他们都能帮你。
+[Speaker 1]: 干对是的因为我会感，
+[Speaker 1]: 觉现在大家嗯这个不知道能不能解决就主要是因为现。
+[Speaker 1]: 在大家有一些那种信息太，
+[Speaker 1]: 多了然后呢，
+[Speaker 1]: 又没有像您刚，
+[Speaker 1]: 刚说的对于认。
+[Speaker 1]: 知，
+[Speaker 1]: 的部分有了解然后就是出一个新的东西就去做，
+[Speaker 1]: 尝试其实这个完，
+[Speaker 1]: 全没有必要，
+[Speaker 1]: 就是一种无谓的，
+[Speaker 1]: 焦虑因为之前呃因为，
+[Speaker 1]: 比如像我之前有看，
+[Speaker 1]: 呃很多课代表这。
+[Speaker 0]: 个，
+[Speaker 0]: 视频，
+[Speaker 0]: 里面其实有讲到我们真的要如果生成一到两个持。
+[Speaker 0]: 续做下去你会发现很沉静然后你会用的就很深，
+[Speaker 0]: 入就会，
+[Speaker 0]: 去掉很多怎么说噪噪，
+[Speaker 0]: 音吧对我我我觉得大家之，
+[Speaker 0]: 所以会被风一吹就是草对吧这个这个。
+[Speaker 0]: 风一吹草就跟着飘了因，
+[Speaker 0]: 为草的根其实但草其。
+[Speaker 0]: 实它的根应该比大多数人扎的都要深所以草不会，
+[Speaker 0]: 被风一吹吹走就是我们这甚，
+[Speaker 0]: 至都不是草了就是外面的蒲公英风一吹就，
+[Speaker 0]: 吹跑了为什么就，
+[Speaker 0]: 是你没有扎根嘛你一扎，
+[Speaker 0]: 根了以后你就会发现外面说的。
+[Speaker 0]: 这，
+[Speaker 1]: 些东西其实你很容易就分辨出来哪些是造，
+[Speaker 1]: 就哪？
+[Speaker 1]: 些是信号自媒体，
+[Speaker 1]: 上就是自媒体。
+[Speaker 1]: 我我也有一个视频但是没有发啊就是自媒体我们能看到的自媒，
+[Speaker 1]: 体和自媒体还是两回事儿。
+[Speaker 1]: 就是我相信有很多人比如说，
+[Speaker 1]: 你的博客其实是想去讲一些非常深，
+[Speaker 1]: 刻的东？
+[Speaker 1]: 西或者说技术本质你？
+[Speaker 1]: 想去挖所以说要，
+[Speaker 1]: 破局点嘛我相信破局点一定要，
+[Speaker 1]: 就是足够深了有足够有穿透力的才能破局但问题。
+[Speaker 1]: 是这些东西是很难被，
+[Speaker 1]: 算法给 pick up 的然后，
+[Speaker 1]: 大家看到的不，
+[Speaker 1]: 是就是你一百个人产生了一百个内容最后大家绝大多数人。
+[Speaker 1]: 看到的是那么一两个，
+[Speaker 1]: 最容易被看到的内容那最容易被传播的内容与一定，
+[Speaker 1]: 是非常符合人性。
+[Speaker 1]: 的这个部，
+[Speaker 1]: 分就比如说恐惧啊，
+[Speaker 1]: 贪婪啊啊包括偷懒啊对吧不劳而获，
+[Speaker 1]: 呀这些东西所以你看到的基本。
+[Speaker 1]: 上就是大多数的时候呃都是那些就是放大。
+[Speaker 1]: 你人性中不太好的那部分我经常说就是为什么要做这个。
+[Speaker 1]: 社区嘛就是我们不能把注意力全都交给算法的平台算法也不是平，
+[Speaker 1]: 台坏他就是这样的就是他给你推送一些随机的或者说破圈。
+[Speaker 1]: 的东西你是不想、
+[Speaker 1]: 看的你根，
+[Speaker 1]: 本就把这抖，
+[Speaker 1]: 音就？
+[Speaker 1]: 直接关了所以说他也。
+[Speaker 1]: 没办法那在这种情况下你不能指望谁去改，
+[Speaker 1]: 变，
+[Speaker 1]: 这件事你指望自己改变这件事儿就是我能给。
+[Speaker 1]: 大家创造这么一个环境但是大家就是？
+[Speaker 1]: 要自己去发自己去写自己去 comments 然后自己去学，
+[Speaker 1]: 你才有可能就是呃。
+[Speaker 1]: 就是把注意力放。
+[Speaker 1]: 到这些有价值的东西然后当，
+[Speaker 1]: 你开始做这件事了，
+[Speaker 1]: 以后你就会发，
+[Speaker 1]: 现这个 noise 和 signal 是非常容易判断，
+[Speaker 1]: 的就是你你一看就。
+[Speaker 1]: 大多数的人就瞎，
+[Speaker 1]: 写就是就能看出来他们的套，
+[Speaker 1]: 路啊或者说他们说的哪不，
+[Speaker 1]: 对嗯对说到这个呃我们自己有这个我。
+[Speaker 1]: 们自己在社区里面去学的，
+[Speaker 1]: 这个部分，
+[Speaker 1]: 哈因为我，
+[Speaker 1]: 自己作为是学，
+[Speaker 1]: 习者嘛那比如像课代表作为这个观察者的话有没有发现比。
+[Speaker 1]: 如说像我们社区这个学员他们，
+[Speaker 1]: 从一开始那比如说刚进来学的时候和到后。
+[Speaker 1]: 面他有这种明显的这个突破哎你观察，
+[Speaker 1]: 到他们比如说有做了一些什么，
+[Speaker 1]: 不一样的这个事情吗最。
+[Speaker 1]: 最最，
+[Speaker 0]: 最，
+[Speaker 0]: 最明显的 signal，
+[Speaker 0]: 就是我们做经济分析嘛经常会说这个 factor contribution 对吧你一个方。
+[Speaker 0]: 程式有十个这个 x 项然后有，
+[Speaker 0]: 一个 y 项那什么 x 对这个 y 的 contribution 最大，
+[Speaker 0]: 的呢做作业，
+[Speaker 0]: 做作业是最大的这这是最最明，
+[Speaker 0]: 显的包括我们上直播课的时候我们的两千块钱直播课很多人不做作业的一。
+[Speaker 0]: 开，
+[Speaker 0]: 始然后呢我们，
+[Speaker 0]: 想方设法的去鼓励大家做作业然后发现这个？
+[Speaker 1]: 事儿就是因为因为因为我可以举两个例子啊，
+[Speaker 1]: 我们其实从二五年，
+[Speaker 1]: 初的？
+[Speaker 1]: 时候就当时就有一条一条话就是，
+[Speaker 1]: 学 AI 就像游泳你，
+[Speaker 1]: 必须要下水才能学会但是我们从小到大，
+[Speaker 1]: 习惯的呢就是坐在课堂里边听老师。
+[Speaker 1]: 讲对吧然后做作业去那样，
+[Speaker 1]:  AI 的作业不是你课堂的，
+[Speaker 1]: 作业你课堂作业是。
+[Speaker 1]: 为了巩固知识点你是在复述知识点你这个更像什，
+[Speaker 1]: 么呢你比如去学赛车学赛车你在课堂里边坐在那儿听什么，
+[Speaker 1]: 听老师给你讲安全须知讲完全，
+[Speaker 1]: 须知以后就赶紧去赛场，
+[Speaker 1]: 去去学了，
+[Speaker 1]: 吧你学跑，
+[Speaker 1]: 步你在那听什么呢你听。
+[Speaker 1]: 人体骨骼结构吗你还是去跑，
+[Speaker 1]: 吧对吧你的高尔夫你坐在这，
+[Speaker 1]: 里学？
+[Speaker 1]: 嘛所有的手艺都是这个样子的，
+[Speaker 1]: 包括学游泳你坐在。
+[Speaker 1]: 你坐在这儿听你看一般个短视，
+[Speaker 1]: 频你学不会的所以，
+[Speaker 1]: 说你必须要动手但？
+[Speaker 1]: 是这个事儿我又发现动，
+[Speaker 1]: 手它有点难的难在哪就是下水？
+[Speaker 1]: 那个我举一个例子。
+[Speaker 1]: 啊就是大家下水之前一定会觉得这个水很凉你哪。
+[Speaker 1]: 怕去了海，
+[Speaker 1]: 边你看到很多人？
+[Speaker 1]: 在海里边游泳了你还？
+[Speaker 1]: 是觉得哇这个，
+[Speaker 1]: 水好？
+[Speaker 1]: 凉啊你不敢下然后你唯一的，
+[Speaker 1]: 方式你就去下去了以后你才，
+[Speaker 1]: 能适应这个，
+[Speaker 1]: 水温但是我前几天会找，
+[Speaker 1]: 到一个更好的例子因为绝大多，
+[Speaker 1]: 数人还是会下水的我。
+[Speaker 1]: 找到一个更好的例子就是这件事儿很值，
+[Speaker 1]: 得做很？
+[Speaker 1]: 简单不但。
+[Speaker 1]: 是呃就是很多人真的，
+[Speaker 1]: 会不做是什么呢我买了一个 one will 是只中这边。
+[Speaker 1]: 的一个平衡滑板，
+[Speaker 1]: 车它是中间一个大轮子然后一，
+[Speaker 1]: 个滑板就是然后它在中间是，
+[Speaker 1]: 有一个陀。
+[Speaker 1]: 螺仪所以我可以然后你你脚就放在这边嗯对像滑雪板一样。
+[Speaker 1]: 滑我我这儿受伤了你看就是就是就摔了，
+[Speaker 1]: 就是就是就是就是就是我那个。
+[Speaker 1]: 嗯我的不当操作摔了但，
+[Speaker 1]: 是我拿来学了以后呢我，
+[Speaker 1]: 就上网，
+[Speaker 1]: 去看一下视频说怎么样子新手入门然后新手？
+[Speaker 1]: 入门他就说你要学会你要赶紧学会从上面跳下，
+[Speaker 1]: 来两只脚从上面跳起，
+[Speaker 1]: 来两只脚从上，
+[Speaker 1]: 面跳起来这是最安全的因为不然的，
+[Speaker 1]: 话你可能就是你一跳起来它就停了嘛，
+[Speaker 0]: 然，
+[Speaker 0]: 后，
+[Speaker 1]: 你自己也安全了。
+[Speaker 1]: 不然的话你肯定，
+[Speaker 1]: 会撞上啊或者说你一，
+[Speaker 1]: 直倒在上面一直倒在下面这肯定是不安全的对吧然后。
+[Speaker 1]: 当然了我就应该去我就，
+[Speaker 1]: 要去跳然后我站在上面，
+[Speaker 1]: 想要跳的时。
+[Speaker 1]: 候我就觉，
+[Speaker 1]: 得好可怕那个我心中的感觉就，
+[Speaker 1]: 像是在一个行驶的车上往下，
+[Speaker 1]: 跳对吧然后你就会觉，
+[Speaker 1]: 得我肯定会不掉到地地，
+[Speaker 1]: 上然后滚一圈。
+[Speaker 1]: 然后我是浑身，
+[Speaker 1]: 受伤很可怕然后就我就明知道那上，
+[Speaker 1]: 面有视频告诉我这个，
+[Speaker 1]: 是很安全的动作和我应该，
+[Speaker 1]: 学会的动作所有人都可，
+[Speaker 1]: 以学会但是我，
+[Speaker 1]: 的身体就没有办法做这？
+[Speaker 1]: 个动作直到我，
+[Speaker 1]: 就是把它开，
+[Speaker 1]: 到了一个草。
+[Speaker 1]: 地上然后我就开到草地上很慢，
+[Speaker 1]: 的情况下我跳吧。
+[Speaker 1]: 结果一跳发现就是很安全然后我两脚是实实那种感，
+[Speaker 1]: 觉不？
+[Speaker 1]: 是那种就是很危险的感觉然后我大脑就习，
+[Speaker 1]: 惯了然后就，
+[Speaker 1]: 可以开始跳了所以说就是。
+[Speaker 1]: 做作业就是这一步你你如果去打开我们，
+[Speaker 1]: 那个 AI coding 那门课嘛然，
+[Speaker 1]: 后前几章每一章其实，
+[Speaker 1]: 都是讲专门留的作业。
+[Speaker 1]: 就是我们是按照项目去讲的就是不是，
+[Speaker 1]: 说上来给你讲道理是吧是上来大家，
+[Speaker 1]: 一起动手做上来先教，
+[Speaker 1]: 你们怎么下载，
+[Speaker 1]:  cursor 然后，
+[Speaker 1]: 或者下载 colcolcolleor or cloclock 下载完了。
+[Speaker 1]: 以后呢把这个作业包直接给，
+[Speaker 1]: 到你然后跟着我一步一步做做。
+[Speaker 1]: 完了以后呢整理一下，
+[Speaker 1]: 你自己的东西然后大。
+[Speaker 1]: 家做完了以后就说哦那 i get 这。
+[Speaker 1]: 种感觉觉这个绝对是最重要的就是作作，
+[Speaker 1]: 业家不不做作业的话就是不来买课的话完全，
+[Speaker 1]: 没有问题你就跟打开 collex 说你帮，
+[Speaker 1]: 我把我的这个文件夹整理清楚然？
+[Speaker 1]: 后这是，
+[Speaker 1]: 第一句话第二句，
+[Speaker 1]: 话呢，
+[Speaker 1]: 你可能可以跟他说你帮，
+[Speaker 1]: 我把我的这个文件夹。
+[Speaker 1]: 整理清楚然后我，
+[Speaker 1]: 想要你整理的方式是什么，
+[Speaker 1]: 反正就是比如说怎么样子。
+[Speaker 1]: 取名啊就多，
+[Speaker 1]: 说几句话就行了嗯就就。
+[Speaker 1]: 就可以了然后你就 get 到这件，
+[Speaker 1]: 事了对因为哎真真是这个样子就是现在我。
+[Speaker 1]: 会发现因为我们自己会给呃企业直接做做这种啊也是类似 FD 做。
+[Speaker 1]: 部署然后我们然，
+[Speaker 1]: 后我们有的时候呢呃会给他们做工，
+[Speaker 1]: 作坊还不是培训因。
+[Speaker 1]: 为就像课代，
+[Speaker 1]: 表说的你做大课上大，
+[Speaker 1]: 课其实大家就是听就听过了其实大。
+[Speaker 1]: 家每个人都下面拿一个电脑自己？
+[Speaker 1]: 干自己的事儿然后胎教一，
+[Speaker 1]: 样就我，
+[Speaker 1]: 就说就完全没有用就，
+[Speaker 1]: 这，
+[Speaker 1]: 种课都是胎教是，
+[Speaker 1]: 这样子然后我们现在就。
+[Speaker 0]: 像，
+[Speaker 0]: 刚才你有提到就我们就，
+[Speaker 0]: 针对一个小项目比，
+[Speaker 0]: 如说他就是售后的工厂的售后或者他是这，
+[Speaker 0]: 个研发他们有那个。
+[Speaker 0]:  CAD 和那个 p 怎么转 PDF 这种图纸好他就是针对这样一，
+[Speaker 0]: 个问题我们就。
+[Speaker 0]: 就针对这个问题每个，
+[Speaker 0]: 人怎么让他们自，
+[Speaker 0]: 己去操作因为现在沃克巴。
+[Speaker 1]: 黎不是普及了嘛就是大家现在还都听过这个营销非常，
+[Speaker 1]: 厉害我说很好，
+[Speaker 1]: 啊那你就既然你用这个，
+[Speaker 1]: 那你就呃自己去把它，
+[Speaker 0]: 当做一个。
+[Speaker 0]: 项目你就先去跑哦会发现就像你，
+[Speaker 0]: 刚刚双脚其实离地我们脑，
+[Speaker 0]: 子其实很难去接受的大家会觉得，
+[Speaker 0]: 呃是不是控制电脑，
+[Speaker 0]: 啊或者干嘛怎么样特别像我们会服务一些。
+[Speaker 0]: 呃，
+[Speaker 0]: 工厂的这种人嘛但其实帮他，
+[Speaker 0]: 去做完一些简单的让他，
+[Speaker 0]: 跨过一小步之后他会发现原来。
+[Speaker 0]: 没有自己想的那么复杂那么难确，
+[Speaker 0]: 实还真的是这个样子对对就真真的你得去有。
+[Speaker 0]: 这么一个推，
+[Speaker 0]: 力真的去做这件事儿，
+[Speaker 0]: 不然的话就是我我我完全可以相信，
+[Speaker 0]: 我不是逼着自。
+[Speaker 0]: 己去做跳下来这一步的话我可以滑两年的这个滑板然后我也不。
+[Speaker 0]: 敢跳完全完全完全可以是然后呃比如说像除了咱，
+[Speaker 0]: 们这个现在呃我们有社区有学院学院之外哎。
+[Speaker 0]: 那今年有没有做些什么新的尝试呢嗯其实我年初的，
+[Speaker 0]: 时候去做了很多的企业培训我三月份的时候，
+[Speaker 0]: 录了一期后来七八月份。
+[Speaker 1]: 才发，
+[Speaker 1]: 就是去做了企业培训然后一方面是做讲座类型的一方，
+[Speaker 1]: 面是做那种比如说两个小时这样培，
+[Speaker 1]: 训还有那种深度的培训的定制项目啊就，
+[Speaker 1]: 是那种十万美元起呃去给，
+[Speaker 1]: 大家去解决企业，
+[Speaker 1]: 里边真实的问题然后后。
+[Speaker 0]: 来发现这件事很有意思然后我们积累了很多认知方法和人脉但问，
+[Speaker 0]: 题，
+[Speaker 0]: 是他的这个 BD cycle 太长了呃 BD cycle 太长？
+[Speaker 1]: 了，
+[Speaker 1]: 对我们来说就不合算所以说我下半年主要。
+[Speaker 1]: 是去做了一个会员就是企业，
+[Speaker 1]: 培训那边我就放在，
+[Speaker 1]: 那儿然后基本上就是。
+[Speaker 1]: 你已经想的很清楚了就是想，
+[Speaker 1]: 要我们啊你再买不然的话直接团购我们课，
+[Speaker 1]: 就好了其实也也很好用啊然后主要，
+[Speaker 1]: 现在时间精力是在会员上对我呃我也比较想呃和这个代表探讨。
+[Speaker 1]: 我也很好奇就一般像比如说你，
+[Speaker 1]: 进到企业之后会发现呃他们在 AI 的使。
+[Speaker 1]: 用上面会有一些什么样共性性，
+[Speaker 1]: 的，
+[Speaker 1]: 点点你问了一，
+[Speaker 1]: 个特别大的话题我先。
+[Speaker 1]: 跟你说一下就是为什么我不太喜欢做企，
+[Speaker 1]: 业培训的一个最最根本的原因啊。
+[Speaker 1]: 最根本的原因是这个叫这个 AI 和企业，
+[Speaker 1]: 是 counter positioning 什么意思，
+[Speaker 1]:  counter positioning 呢，
+[Speaker 1]: 就是我知道这个东西好但是因为。
+[Speaker 1]: 我现在的这个整个，
+[Speaker 1]: 的结构我没有办法去用那个更好的东。
+[Speaker 0]: 西呃比如说大家会说数码胶卷和那个，
+[Speaker 0]: 就是那个就。
+[Speaker 0]: 是就柯达和数数码摄像但是其实那，
+[Speaker 0]: 个不是那，
+[Speaker 0]: 个数数字摄像那个时候就不赚钱所以说它不是一个。
+[Speaker 1]: 那么 attractive 的东西但是比如说，
+[Speaker 1]: 这个指数投资和，
+[Speaker 1]: 主动投资就是 one guard 他做这个指数型投资大家都知道这个更好但，
+[Speaker 1]: 是主动投资资金是没有办法用它的因为它的。
+[Speaker 1]: 现金就是？
+[Speaker 1]: 来自于主动主动投资的它没有，
+[Speaker 1]: 办法做指数投资的包括谷歌的那个，
+[Speaker 1]: 搜索别人一看哦这个好但是问题是。
+[Speaker 1]: 谷，
+[Speaker 1]: 歌的搜索就让大家不在门户网站上停留了那门户网站卖什么广告呢，
+[Speaker 1]: 所以说门户网站是没有办法用谷歌，
+[Speaker 1]: 的现在我就会觉得，
+[Speaker 1]: 就是这些企业啊真的想用 AI 呀那一。
+[Speaker 1]: 定就是就是跟人就是抵触的就说实话我们我们。
+[Speaker 1]: 我们我们想了很多的，
+[Speaker 1]: 办法去怎么样子帮企，
+[Speaker 1]: 业进行更有效的转型到最后发现真的。
+[Speaker 1]: 是有这样一个归根结底的冲突就是 AI 用的，
+[Speaker 1]: 好就是不该有这么多人这，
+[Speaker 1]: 个是归根结底的冲突。
+[Speaker 1]: 绕不过去所，
+[Speaker 1]: 以说我，
+[Speaker 1]: 们可能会跟老板去这样说就是我们可以想尽办法的让你。
+[Speaker 1]: 们的人去更好的使用好 AI？
+[Speaker 1]: 然后在这里边呢你可能有两条还比较。
+[Speaker 1]: 开心的路径 happy path of AI 第一条呢就是确实人的效，
+[Speaker 1]: 率提高了大家能同样的事情做更。
+[Speaker 1]: 多这个在，
+[Speaker 1]: 客服啊销售啊这些地方上是呃比较容，
+[Speaker 1]: 易的因为这些岗位的它的本质是可以。
+[Speaker 1]: 多劳多得可以多劳多得或者说可以计件客服是，
+[Speaker 1]: 可以计件的我，
+[Speaker 1]: 们绝大多数的知识工，
+[Speaker 1]: 作是没有办法计件的嗯不知道有没。
+[Speaker 1]: 有发现就是你看程序员产品经理程，
+[Speaker 1]: 程序员出了更多代码也不见得就是你能能赖更多的代码。
+[Speaker 1]: 或者说更有用所以说大多数工作其实没有办法计。
+[Speaker 1]: 件的呃那。
+[Speaker 1]: 但客服可以计件这件事儿你可以去，
+[Speaker 1]: 做然后呢你尽量的在一些业。
+[Speaker 1]: 务上去构成完、
+[Speaker 1]: 整的闭环然后让一个团队去从头到。
+[Speaker 1]: 尾的负责其中的结果他这样就可以转的更，
+[Speaker 1]: 快如果他有一，
+[Speaker 1]: 环不归他管我们说，
+[Speaker 1]: 四还啊就是你想要。
+[Speaker 1]: 赚钱你要四四步就是你要提出问题解决问题。
+[Speaker 1]: 分，
+[Speaker 1]: 发变现只要这四步，
+[Speaker 1]: 里边有任何一步不归他管比如说程序员好你是一，
+[Speaker 1]: 个很厉害的程序员你可以提出问题你可以解决问题。
+[Speaker 1]: 你不管分发那他写完代码就不管了那最。
+[Speaker 1]: 后，
+[Speaker 1]: 这个代码也没有效果他就不管了对吧他。
+[Speaker 1]: 他就他，
+[Speaker 1]: 就这不是一个完整的闭环然后再分发好我，
+[Speaker 1]: 打打出去了然后最后没有赚到钱那那也不行就是，
+[Speaker 1]: 你想办法在自己的业务。
+[Speaker 1]: 里边建建立一张小闭环，
+[Speaker 1]: 这个时候 AI 绝，
+[Speaker 1]: 对可以帮你干的，
+[Speaker 1]: 很好对除此，
+[Speaker 1]: 之外只要这中间扩，
+[Speaker 1]: 就是你你、
+[Speaker 1]: 看到我刚。
+[Speaker 1]: 说的这四步而且四步里边每个拆你都。
+[Speaker 1]: 有就是我去写一个，
+[Speaker 1]: 周报这完全是 fake work 然后写，
+[Speaker 1]: 周报是为了给谁，
+[Speaker 1]: 看给那个人看对，
+[Speaker 1]: 吧那那个人，
+[Speaker 1]: 要看那个人不看的话那。
+[Speaker 1]: 个人看了以后他要做行动他，
+[Speaker 1]: 做了行动以，
+[Speaker 1]: 后他？
+[Speaker 1]: 要干嘛他要去把问题解决对吧就是，
+[Speaker 1]: 这个里边只要，
+[Speaker 1]: 不转起来就是，
+[Speaker 1]: 所有的这个交接的过，
+[Speaker 1]: 程全都是这个。
+[Speaker 1]:  AI 提效的大黑洞就是你 AI 提效了只要中间一接一交，
+[Speaker 1]: 接全都吸吸收掉了都没有就就没有。
+[Speaker 1]: 意，
+[Speaker 1]: 义了所以，
+[Speaker 1]: 说必须要完整，
+[Speaker 1]: 的闭环一定要完整的 n to ent 这，
+[Speaker 1]: 个其实是我一开始在跟抖音，
+[Speaker 1]: 他们抖音当时有一个 CEO，
+[Speaker 1]: 办公室直属的，
+[Speaker 1]: 这个组织部跟我聊天的时，
+[Speaker 1]: 候意识到的，
+[Speaker 1]: 事情？
+[Speaker 1]: 就是他们会说百分之多少的 intoent，
+[Speaker 1]: 然后就跟他们说你必须百分，
+[Speaker 1]: 之百才叫 intoent 如果，
+[Speaker 1]: 百分之九，
+[Speaker 1]: 十九那就是没有 intoent，
+[Speaker 1]: 啊因？
+[Speaker 1]: 为 entent 是一个所有事情的起点它，
+[Speaker 1]: 不是一个中局你只有 n to and，
+[Speaker 1]:  ch 呃构建了这个闭环。
+[Speaker 1]: 你才有。
+[Speaker 1]: 可能利用 AI 使劲，
+[Speaker 1]: 往前转那么第三个方，
+[Speaker 1]: 式呢就是你可以，
+[Speaker 1]: 起一个，
+[Speaker 1]:  b 团队对吧就是起。
+[Speaker 1]: 新业务然后新业务就完全，
+[Speaker 1]: 交给他们去做自己去。
+[Speaker 1]: 创啊相当于你变成了一个这个，
+[Speaker 1]:  invator 你相当于变成了一个孵化器这样也是可以的呃但是不要指望就是说你现在有一，
+[Speaker 1]: 个组织然后这个每个人组织的。
+[Speaker 1]: 人都使用 AI 都变，
+[Speaker 1]: 得更有效率了然后我的。
+[Speaker 1]: 那每个人都提效了，
+[Speaker 1]: 十倍然后整个组，
+[Speaker 1]: 织提效两倍不存在的呃对这个这，
+[Speaker 1]: 就是呃最近我看，
+[Speaker 1]: 呃之前他们有一。
+[Speaker 1]: 些，
+[Speaker 1]: 千万团队有分享，
+[Speaker 1]: 啊或者什么的就是说所谓这种。
+[Speaker 1]: 呃 AI native 的这种原生组织怎么去呃搭建之类的，
+[Speaker 1]: 但是？
+[Speaker 1]: 确实刚才如果，
+[Speaker 1]: 听课代表这么讲的话那嗯那那其实其实这个部，
+[Speaker 1]: 分其实是完全不一样的这个，
+[Speaker 1]: 为什么你从我这儿听到的是，
+[Speaker 1]: 一个完全不一样。
+[Speaker 1]: 的，
+[Speaker 1]: 东西呢因为那些分享啊我我有朋友就是腾，
+[Speaker 1]: 讯研究院就小辉博士啊还有就是那个语一都是很有 AI。
+[Speaker 1]: 实践的人然后都是做的很好就是，
+[Speaker 1]: 他们自己本身也很好但是他们身份。
+[Speaker 0]: 有，
+[Speaker 0]: 一个限制就是他们是在大厂里面工作的人他们出来也是跟大厂合作的人所。
+[Speaker 0]: 以说他们没法去说这句话或者说他们意识不到这个 solution 存在因。
+[Speaker 0]: 为这件事太可怕了就是你现在就是这件事，
+[Speaker 0]: 我我我我我刚才 basic 说的就是你把所有人都开了然。
+[Speaker 1]: 后从头来对这是最合最合理的路径这这句话是这个这个 solution？
+[Speaker 1]: 对大家是不存在，
+[Speaker 1]: 的所以我为什么就是说就是，
+[Speaker 1]:  AI 和雇佣制是，
+[Speaker 1]: 一个 counter positioning 你明明知道 AI 更好但是你就是，
+[Speaker 1]: 没有办法去用它因，
+[Speaker 1]: 为你和你现在所有的所有。
+[Speaker 1]: 的东西都是抵触的你想然，
+[Speaker 1]: 后去使用 AI 先要把自己革命掉你，
+[Speaker 1]: 要先去愿意放下腾讯 AI 副总监三。
+[Speaker 1]: 百万以上的年薪去开个餐馆，
+[Speaker 1]: 你要能做出这个选择之后你才有。
+[Speaker 1]: 可能去意识到哦原来，
+[Speaker 1]: 真正的 solution 是在哪里然后刚。
+[Speaker 1]: 才还有一个呃你提到就，
+[Speaker 1]: 是说假设如果那如果我，
+[Speaker 1]: 们就干脆抛。
+[Speaker 1]: 弃，
+[Speaker 1]: 起一个新的这个业务团。
+[Speaker 1]: 队嘛然后这几天我觉得有也有在聊跟大家。
+[Speaker 1]: 都在聊那如果起了一个这样的一个新的业务团队，
+[Speaker 1]: 那他的这个商业模，
+[Speaker 1]: 式是不是其实跟传统的商业模。
+[Speaker 1]: 式也不一样那就是在 AI 时代或者说怎么来靠这，
+[Speaker 1]: 个 name 就是叫 AI 商业，
+[Speaker 1]: 模式吗还是怎么说，
+[Speaker 1]:  AI 原生商业模式应该是什么我这个特别好奇 AI 模原生商业模式，
+[Speaker 1]: 我相信大家肯定还在探索，
+[Speaker 1]: 之中但是你发现我刚才，
+[Speaker 1]: 用一个词嘛叫 incuator 嗯 incuator 而。
+[Speaker 0]: 不是一个我的子弹队，
+[Speaker 0]: 什么叫 incubator incubator 就是你的 upset 你来收获我在这里边收获一个固定的比例就是比如说，
+[Speaker 0]: 啊你自己做这件事儿你起不来我，
+[Speaker 0]: 可以给你资源。
+[Speaker 0]: 我可以给你分发我可以给你一定的时间我，
+[Speaker 0]: 可以给你投资我可以给你配人等等等等但是前提条件一定是？
+[Speaker 0]: 这件事儿做好了，
+[Speaker 0]: 超额收益你拿而不是我，
+[Speaker 0]: 拿这个是 incubtion 的本质我可？
+[Speaker 0]: 以拿一个 cap？
+[Speaker 0]: 的超额收益比如说我最多拿？
+[Speaker 1]: 到个四倍四倍以上你拿对吧或者四，
+[Speaker 1]: 倍以内咱俩平分四倍以上你全。
+[Speaker 1]: 拿或者说四倍以内我咱俩平分四倍以，
+[Speaker 0]: 上，
+[Speaker 1]: 你拿百分之八十之类的。
+[Speaker 1]: 反正总之？
+[Speaker 1]: 就？
+[Speaker 1]: 是这件事儿做，
+[Speaker 1]: 的越好你，
+[Speaker 1]: 的收益越大这是在我看来最重要。
+[Speaker 1]: 的一个就是积累机制你你不然的，
+[Speaker 1]: 话你想的，
+[Speaker 1]: 就这个事儿是什，
+[Speaker 1]: 么呢就是我们为，
+[Speaker 1]: 什么刚刚刚刚说这个 counter，
+[Speaker 1]:  presition 还有一个原因，
+[Speaker 1]: 就是所有的这个雇佣制都是。
+[Speaker 1]: 买你的时间对吧它是一个呃你就是我给你付同样的，
+[Speaker 1]: 钱 upset 全都归我就是这边超额，
+[Speaker 1]: 收益全都归我然后我给你一。
+[Speaker 1]: 个固定的钱那大家自然而然没有什么，
+[Speaker 1]: 动力去做？
+[Speaker 1]: 那个超额收益，
+[Speaker 1]: 或者说我做出来超，
+[Speaker 1]: 额收益我你我给你做出，
+[Speaker 1]: 来一百个亿的业绩我，
+[Speaker 1]: 能分给你一千万了不起。
+[Speaker 1]: 了就是大大大大大富的老板了对，
+[Speaker 1]: 吧您剩下的那。
+[Speaker 1]: 些超额收益全都是贵公司的大家之前也接受。
+[Speaker 1]: 这件事儿之之，
+[Speaker 1]: 前接受这件事儿呢是因为我？
+[Speaker 1]: 离开了也没有什么别的办法或者说就，
+[Speaker 1]: 是我一个人做，
+[Speaker 1]: 不出来那么多超额收益我必须是很多人，
+[Speaker 1]: 分工？
+[Speaker 1]: 然后我没有办法说这么三个人就能给，
+[Speaker 1]: 我做出来。
+[Speaker 1]: 一百个业绩业绩这不太存在的，
+[Speaker 1]: 对吧如果说他能做出来一定。
+[Speaker 1]: 是依托了我本来的东西他做了一小点的改动你不，
+[Speaker 1]: 能把这一百个亿的业绩算。
+[Speaker 1]: 到这个一小点的改动但是 AI 不一样，
+[Speaker 1]: 对吧 AI 是可以让一很小的团，
+[Speaker 1]: 队去做很多的事情然后去得到，
+[Speaker 1]: 他也？
+[Speaker 1]: 许不是一一百亿但是他可能是一个几千。
+[Speaker 1]: 万大几亿的收入那这个时，
+[Speaker 1]: 候他有什么动力去做呢，
+[Speaker 1]: 如果他能做出来，
+[Speaker 1]: 他为什么要在你这儿，
+[Speaker 1]: 做呢你就要首先设计好对应的这个激励机制然后，
+[Speaker 1]: 再给他就是对应的这。
+[Speaker 1]: 个资源配置就变成了你就变成了一个天使投资人或者说是，
+[Speaker 1]: 你你你要么是一个 VC 对？
+[Speaker 1]: 吧你可以接受这种呃，
+[Speaker 1]: 高回报然后小成功率的东西，
+[Speaker 1]: 要么你是个 PE 你可以。
+[Speaker 1]: 接受这种稳定回报但是这个就是呃就是倍数不是那么。
+[Speaker 1]: 多的这样的一，
+[Speaker 1]: 些事？
+[Speaker 1]: 儿但总之你是要变成一个投资人的心态然，
+[Speaker 1]: 后你想想你。
+[Speaker 1]: 有什么东西可以投资，
+[Speaker 1]: 给员工的不光是钱对吧你品牌也可以投。
+[Speaker 1]: 资然后你的这个时践也可以投资然？
+[Speaker 1]: 后你的这个呃其，
+[Speaker 1]: 他的调配资源也都可以投？
+[Speaker 1]: 资然后你的这个呃就是分发渠道啊等等，
+[Speaker 1]: 都可以投资啊你是你自自己掌握的一，
+[Speaker 1]: 些流量也可以投资这个还是存在的，
+[Speaker 1]: ，
+[Speaker 1]: ？
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: ？
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: 没有那，
+[Speaker 1]: 如果是这样子的话像，
+[Speaker 1]: 这种嗯小团队他应该由什么角色来构成或，
+[Speaker 1]: 者他应该怎么来搭呢如？
+[Speaker 1]: 果基于有我们用 AI 的这个方式的话我，
+[Speaker 2]: 其实在那个曾经写过一个 AI 原生的这个组织形态呃。
+[Speaker 2]: 硅，
+[Speaker 2]: 谷的这边的做法呢是两个角色一，
+[Speaker 2]: 个 builder 一，
+[Speaker 2]: 个 architect 对。
+[Speaker 2]: 但，
+[Speaker 2]: 是他那个 builder 他不是 builder 他，
+[Speaker 2]: 是海盗 parroparrot，
+[Speaker 2]: 嗯海盗 OK 海盗对。
+[Speaker 2]: 就，
+[Speaker 2]: 是就是你你就是一个海盗然后，
+[Speaker 2]: 你就往前往前冲对吧，
+[Speaker 2]: 你就？
+[Speaker 2]: 是去看看这个能不能干看看，
+[Speaker 2]: 能不能干然后，
+[Speaker 2]: 去想方设法来拿结果然后。
+[Speaker 2]: 你当然拿的结果的过程中是各种不稳定的对吧然后？
+[Speaker 2]: 你什么东西都没管那 architecture，
+[Speaker 2]: 在后面给你把这个你拿到结果的这些东西给呃固定起来达成，
+[Speaker 2]: 更好的然后，
+[Speaker 2]: 可以让帮助你往前走的更更更更远呃这。
+[Speaker 2]: 两，
+[Speaker 2]: 个角色就是过去我们的分工啊其实，
+[Speaker 2]: 是按照专业分工的对吧对这？
+[Speaker 2]: 个，
+[Speaker 2]: 专业分工其实是因为一个人不能既懂 b 站然后又，
+[Speaker 2]: 又能做网页然后又，
+[Speaker 2]: 能去设计后台的系统又把账，
+[Speaker 2]: 算清楚呃然后，
+[Speaker 2]: 又，
+[Speaker 2]: 能就是呃呃天天开会现在不，
+[Speaker 2]: 需要了不需要，
+[Speaker 2]: 了所以说。
+[Speaker 2]: 专业分工一定是要打破的就是你，
+[Speaker 2]: 可能有一些专业的特长然后这些。
+[Speaker 2]: 专业特长呢你要么可，
+[Speaker 2]: 以去找 AI 解决要么你可，
+[Speaker 2]: 以自学要么你可，
+[Speaker 2]: 以去找别人去雇佣的方式去解决找项目制，
+[Speaker 2]: 的方式去解决或者你觉。
+[Speaker 2]: 得真的就就这么重要的话那行把他，
+[Speaker 2]: 招进来作为一个核心团队比如说我的，
+[Speaker 2]: 这个产品就是以 taste 呃呃专长那我不懂 test。
+[Speaker 2]: 我去找这个，
+[Speaker 2]:  taste 的人但是我不觉，
+[Speaker 2]: 得就是我们还是按照专业的去配这个团队而是应该按，
+[Speaker 2]: 照他是干什么的他是一个特。
+[Speaker 2]: 别有冲劲儿的人才能去冲他是一个有系。
+[Speaker 2]: 统性思维的人帮他去系统性，
+[Speaker 2]: 思维对大概是这样。
+[Speaker 2]: 这，
+[Speaker 2]: 给我解惑了，
+[Speaker 1]: 就是是我们这。
+[Speaker 1]: 个专业的我擅长而非这，
+[Speaker 1]: 个岗位，
+[Speaker 1]: 和这个角色对对就是不是用。
+[Speaker 1]:  expertiese 而，
+[Speaker 2]: 是用 trace 对就是，
+[Speaker 2]:  trace 是我们。
+[Speaker 2]: 的，
+[Speaker 2]: 特质嘛我们要用特制去。
+[Speaker 2]: 构建这个团队而不是用我们的，
+[Speaker 2]: 这个专业去构建这个团队对因为现在很多时。
+[Speaker 1]: 候，
+[Speaker 1]: 比如在企业端有的，
+[Speaker 1]: 比如他们做市场的，
+[Speaker 1]: 市场的人那其实像现在他用。
+[Speaker 1]:  AI 用的好的人他其实已经承担了，
+[Speaker 1]: 非常多的这个能就是他已经已经用了很多的这个能力但是呢呃很多时候我。
+[Speaker 1]: 们就说哎那你可不可以 share 一下，
+[Speaker 1]: 或者怎么样那就是其实他已经有。
+[Speaker 1]: 点像像课代表一样分享慢慢触碰到我们刚才，
+[Speaker 1]: 说到的那个边界了就他已经非我的这个，
+[Speaker 1]: 核心的工作岗位和角色了但是一旦说那你能不能。
+[Speaker 1]: 开始再做一些他就会开始哎那为什么，
+[Speaker 1]: 我要多做就。
+[Speaker 1]: 就，
+[Speaker 1]: 就是啊就就就会很？
+[Speaker 2]: 你常就是冲突的这个东西就是机制冲突的就是你不鼓励他多做了如，
+[Speaker 2]: 果你现在跟他说你多做。
+[Speaker 2]: 了你现在干掉一个，
+[Speaker 2]: 人我就把，
+[Speaker 2]: 那个人的工资百分，
+[Speaker 2]: 之九十给你你看他他一瞬间给你干掉，
+[Speaker 2]: 一百个人呃我相信是有就是超就是超。
+[Speaker 2]: 级，
+[Speaker 2]: 个体加上 a 然是能，
+[Speaker 2]: 干掉很多的就是这个人的活你能不能干，
+[Speaker 2]: 能干的话分你一半钱然后把？
+[Speaker 2]: 那个人开，
+[Speaker 2]: 了你看他能，
+[Speaker 2]: 不能干他绝对能干，
+[Speaker 2]: 理解了还有一个，
+[Speaker 1]: 问题就是因因为有一。
+[Speaker 1]: 种说法就是说这个学 AI 的真正的差距，
+[Speaker 1]: 不在于就像刚才你有聊你有聊到就不在于你知道多少，
+[Speaker 1]: 这个概念，
+[Speaker 1]: 而在于能不能把这个任务推到，
+[Speaker 1]: 推导出这个真正产出这样的结果那这些具体的能力放到呃企业里。
+[Speaker 1]: 面的话呃我好奇哪一个会更难落地一点，
+[Speaker 1]: 呢，
+[Speaker 1]: 比较是人的这种能力问题还是组？
+[Speaker 1]: 织结构的这个问题呢你刚刚，
+[Speaker 1]: 说就是把工作变成结果缺的？
+[Speaker 2]: 是什么是吗对缺的是缺的是真，
+[Speaker 2]: 本事缺的是这本？
+[Speaker 1]: 书，
+[Speaker 2]: 本事为为喂但是这个是，
+[Speaker 2]: 是是有道理的就是为什。
+[Speaker 2]: 么，
+[Speaker 2]: 呢就为什么就就我我我前，
+[Speaker 2]: 段时间在那个？
+[Speaker 2]: 社区里边还发了一个活动回放那个活动回放是 AI 给我起的标题我得，
+[Speaker 2]: 起的标题很好就是我其实是在一个给浙大大和那个华。
+[Speaker 2]: 中科技大三个学校的校友会去做的分享呃那个那个分享反响也不错啊然后我说。
+[Speaker 2]: 了，
+[Speaker 2]: 很多点包括怎么做自媒体啊。
+[Speaker 2]: 等等 AI 最后给我找，
+[Speaker 2]: 了一个标题叫做能做就是做。
+[Speaker 2]: 这么多 fake work 但是还能赚这，
+[Speaker 2]: 么多钱绝，
+[Speaker 2]: 对是历史上的短暂，
+[Speaker 2]: 现象这什么意思呢就，
+[Speaker 2]: 是我们在大厂里边做的绝。
+[Speaker 2]: 大多数的事呢？
+[Speaker 2]: 是向人汇报啊是表演表演，
+[Speaker 2]: 性工作为什么呢因为我们的这个，
+[Speaker 2]: 首先我们踩在了时。
+[Speaker 2]: 代时代红？
+[Speaker 2]: 利上就是中国的三十年吧积累了发达国家两百年，
+[Speaker 2]: 的财富然后互联网呢，
+[Speaker 2]: 又是人类历史上最快的积累财。
+[Speaker 2]: 富的方式所以说这些公司呢他们先有了一个赚钱的业务。
+[Speaker 2]: 然后整个公司变得，
+[Speaker 2]: 就蛮赚钱的那在赚钱的情况，
+[Speaker 2]: 下呢他招人这里就有一个我们经济学上叫 principal agent problem 就，
+[Speaker 2]: 是所有的中层啊包括老板啊都是希望招更多的。
+[Speaker 2]: 人他们升职加薪的，
+[Speaker 2]: 最好的方式，
+[Speaker 2]: 就是招更多的人啊所。
+[Speaker 2]: 有的人都会招更多的人然后嗯就就哪怕是一个我，
+[Speaker 2]: 招了更多的人我就少干点。
+[Speaker 2]: 活对吧所有人的呃几励都是招更多的人而且这些人是，
+[Speaker 2]: 就是？
+[Speaker 2]: 按照是小小事来呃就是付钱的而，
+[Speaker 2]: 不是按照实际贡献来付钱的虽然我们打造了各种，
+[Speaker 2]: 各样的这个考试体系升升职加。
+[Speaker 2]: 薪仿佛好像我在考试考核核的贡献但是其，
+[Speaker 2]: 实就是这个，
+[Speaker 2]: 东西它是一个 proxy 就是一个就是呃。
+[Speaker 2]: 怎么说呢 proxy 我不知道怎么翻译啊总，
+[Speaker 2]: 之就是一个侧面指标它不？
+[Speaker 2]: 是一个是嗯嗯嗯在这种情，
+[Speaker 2]: 况下我们每个人就是这，
+[Speaker 2]: 是这是整个背景和结构那我们每个，
+[Speaker 2]: 打工人呢被训练的呢就是怎么样子去把我。
+[Speaker 2]: 的工作汇报好老板满意然后同事，
+[Speaker 2]: 们觉得我干的很辛苦我天天在加班，
+[Speaker 2]: 然后觉得。
+[Speaker 2]: 我是一个好的打工人我能解决，
+[Speaker 2]: 问题老板给我，
+[Speaker 2]: 一个问题我马上就能解决他对吧这是我的价。
+[Speaker 2]: 值所在我觉得我很，
+[Speaker 2]: 厉害我就专业能力，
+[Speaker 2]: 提高？
+[Speaker 2]: 我能解决别人解决，
+[Speaker 2]: 不了的问题全都他，
+[Speaker 2]: 妈是考试全都是考，
+[Speaker 2]: 试逻辑全都考试逻辑就是这些。
+[Speaker 2]: 东西没有一个是，
+[Speaker 2]: 就是我刚刚说的，
+[Speaker 2]: 嘛出题做题分，
+[Speaker 2]: 发和变现只解决了做题这一环而且做的题大，
+[Speaker 2]: 多数、
+[Speaker 2]: 都是、
+[Speaker 2]: 假的题就是，
+[Speaker 2]: 老板说你来那个做个，
+[Speaker 2]: 做个做个汇报吧然后你来做个。
+[Speaker 2]: 做个做个汇报吧然后这个方案的结果你真，
+[Speaker 2]: 的知道是什么吗你真的能站在。
+[Speaker 2]: 一个就是运营的角度去把它拿到结果吧你？
+[Speaker 2]: 来那个做场给你反馈反馈嘛因为我们知道所有的方案全，
+[Speaker 2]: 都是错的对吧你真的一到市场，
+[Speaker 2]: 上百分之百全都是错的那这个时候你真的？
+[Speaker 2]: 去接受到了这个反馈吗你真的知道错在哪吗你的知道怎么提提吗你知道知道怎么？
+[Speaker 2]: 再往前根据结果迭代？
+[Speaker 2]: 一百版然后拿到一个？
+[Speaker 2]: 可能两三倍更好的结果嘛你这些都没有我们，
+[Speaker 2]: 是没有这个训练的所以说就是我们这一。
+[Speaker 2]: 代人是被这样，
+[Speaker 2]: 错误的培养出来的就是。
+[Speaker 2]: 没有真本事啊那第一步可能是你得先找出来这种愿意，
+[Speaker 2]: 去看到价值然后愿意。
+[Speaker 2]: 从价值出发发去思考和去做事的人这些人很有可能，
+[Speaker 2]: 过去是被埋没了的因为他觉得这个事他就会。
+[Speaker 2]: 说你做的这件事有什么意义对吧你。
+[Speaker 2]: 个老板在给我搞一些什么没没意义的东西然后我的同，
+[Speaker 2]: 事天？
+[Speaker 2]: 天在那干嘛他他们就不理解因为他们会觉得，
+[Speaker 2]: 我我来这不是为了帮你赚钱，
+[Speaker 2]: 的吗为什么你完，
+[Speaker 2]: 全不让我来帮你赚钱让我去搞一些表演的东西内？
+[Speaker 2]: 心会有这样的纠结我觉得得发现，
+[Speaker 2]: 出来这些人然后就像我说，
+[Speaker 2]: 的用一个投资的角度容。
+[Speaker 2]: 容忍一定的失败率但是要，
+[Speaker 2]: 不断的找到一个更正确的这个策略啊去把这件事给做好。
+[Speaker 2]: 其实这种人我觉得还是挺容易被看挺容易看，
+[Speaker 2]: 出来的就是耶就是。
+[Speaker 2]: 咱俩都是 INTG 嘛 INTG 挺痛的就是发出出，
+[Speaker 2]: 现这种人格然后。
+[Speaker 2]: 就很痛苦打工打的就很痛，
+[Speaker 2]: 苦对因为，
+[Speaker 2]: 特别特别刚才那个词就，
+[Speaker 2]: 是触动到我的，
+[Speaker 2]: 点是是那 fafake work 就是。
+[Speaker 2]: 真，
+[Speaker 1]: 的是这个样子就是很越来越明显的这样的现，
+[Speaker 1]: 象就是现在，
+[Speaker 1]: 这种 AI 工具虽然就普及，
+[Speaker 1]: 了但很多公司他这种 AI 生成的汇。
+[Speaker 1]: 报啊方案啊会议纪要啊然后就是铺，
+[Speaker 1]: 天盖地然后但是业务结果其实是没、
+[Speaker 1]: 有跟上、
+[Speaker 1]: 来的然后然，
+[Speaker 1]: 后但是大家又因为。
+[Speaker 1]: 就像刚才我们有聊到这个太棒了真的要。
+[Speaker 1]: 做点真东西是的是的对这个我们品牌现在最大的主张啊是，
+[Speaker 1]: 这个把我的 logo 放在。
+[Speaker 1]: 这上面最，
+[Speaker 1]: 重，
+[Speaker 2]: 要的就是做点真东西唉这个这个会好好看这是很又这个做点真，
+[Speaker 2]: 东西这个真的是哎真的是。
+[Speaker 2]: 一，
+[Speaker 1]: 个好棒的一个 slogan 就，
+[Speaker 1]: 是因为对就是是的嗯没什。
+[Speaker 1]: 么你说你说没什么说你说那我觉得就是。
+[Speaker 1]: 就是你对这，
+[Speaker 2]: 个 fakwork 的这个，
+[Speaker 2]: 共鸣就，
+[Speaker 2]: 就让我赶紧拿出来那个我觉得对就是我们太多时间浪费在完全是，
+[Speaker 2]: 假假的东事啊这个我。
+[Speaker 2]: 其实可以再多，
+[Speaker 2]: 给你补充一个故事吧嗯然后就是我当时在 facebook 的，
+[Speaker 2]: 一个故事我其实在那个就是当时当时讲的时。
+[Speaker 2]: 候，
+[Speaker 2]: 没有没有展开讲我去买塔我在亚，
+[Speaker 2]: 马逊的时候呢其实我在亚马逊的工作还是我博士训练。
+[Speaker 2]: 的一个延。
+[Speaker 2]: 伸就是他做一个亚马，
+[Speaker 2]: 逊在那个组里边我不是说了嘛是一个 scientist 组所以说我。
+[Speaker 2]: 们要做一个什么东西，
+[Speaker 2]: 呢也会像写一，
+[Speaker 2]: 个论文一样是，
+[Speaker 2]: 吧我就说做。
+[Speaker 2]: 这个我的 data 是什么我的 mytholology 是什么？
+[Speaker 2]: 然后做了什么然后这个，
+[Speaker 2]: 分析？
+[Speaker 2]: 然后看这个分析是不是靠谱？
+[Speaker 2]: 然后最后呃 recommended？
+[Speaker 2]:  solution 然后项模做，
+[Speaker 2]: 样的给到产品，
+[Speaker 2]: 团队然后产品团队说嘛你做。
+[Speaker 2]: 的这个不错我们这，
+[Speaker 2]: 个上线看起来一切都非常完美，
+[Speaker 2]: 对吧啊挺好的然后去了去了 facebook 然后，
+[Speaker 2]: 我那个时候的那个时候找我接来的这，
+[Speaker 2]: 个人？
+[Speaker 2]: 是，
+[Speaker 2]: 加尔但，
+[Speaker 2]: 是他就是看中了。
+[Speaker 2]: 我一些点反而是破格格我录呃找招过来了然后招过来，
+[Speaker 2]: 了以后呢他就带着我然后他，
+[Speaker 2]: 给我了一个很。
+[Speaker 2]: 重要的活儿这个活，
+[Speaker 2]: 是我们整个 facebook marketplace 那个，
+[Speaker 2]: 时候要做电。
+[Speaker 2]: 商然后这个电商就是大老板整个，
+[Speaker 2]:  facebook 就是那个 commerce 的头想要去做电商但是很多人，
+[Speaker 2]: 不不反对他然后他就要把，
+[Speaker 2]: 这个电商成绩给做出来，
+[Speaker 2]: 然后电商成交，
+[Speaker 2]: 做出来呢他就找了这样，
+[Speaker 2]: 一个核心团队去把这个电商给做了做。
+[Speaker 2]: 了以后他就很关心做的，
+[Speaker 2]: 效果是什么样子正好那个时候是感恩节是美国最。
+[Speaker 2]: 大的 shopping season，
+[Speaker 2]: 就是说感恩节过去了我们这个电商。
+[Speaker 2]: 做的怎么样而且我们还，
+[Speaker 2]: 给电商补贴了一笔。
+[Speaker 2]: 钱这笔钱补贴的效果，
+[Speaker 2]: 怎么样去年我们也补贴了，
+[Speaker 2]: 一笔钱听说去年那个补贴的不不，
+[Speaker 2]: 怎么样那今年我们这个补？
+[Speaker 2]: 贴有没有补贴的更好好然后，
+[Speaker 2]: 老板找到我说你把这个问题给解，
+[Speaker 2]: 决一下我说我在亚马逊搞这么一个分析对？
+[Speaker 2]: 吧，
+[Speaker 2]: 我经济学的背景是要做这个 coso analysis 要做这个因。
+[Speaker 2]: 果分析然后去建模然后搞一个 random，
+[Speaker 2]:  forest 的？
+[Speaker 2]: 这个模型然后因为很重要嘛 VP 要，
+[Speaker 2]: 看对吧然后所以说我，
+[Speaker 2]: 会给你搞的，
+[Speaker 2]: 非常的这个呃就是就是各方。
+[Speaker 2]: 面都非常经得起考，
+[Speaker 2]: 验啊我在亚？
+[Speaker 2]: 马逊可能一个月可以搞定我两个周在这儿可以搞定因为 facebook 的数据也很好两个。
+[Speaker 2]: 周可以搞定我心里这么说我当没，
+[Speaker 2]: 有跟他把我的计划全都说了。
+[Speaker 2]: 我就说好我会尽快的，
+[Speaker 2]: 把这个东西做完。
+[Speaker 2]: 的然后过了一，
+[Speaker 2]: 天我老板说嗯做好了没有嗯我说嗯你，
+[Speaker 2]: 让我做什，
+[Speaker 2]: 么我不我就跟他说我在做这个。
+[Speaker 2]: 呀我在做那个，
+[Speaker 2]: 呀我需要两个周啊我老？
+[Speaker 2]: 板，
+[Speaker 2]: 说你来我工位这然后，
+[Speaker 2]: 当着我的面打开，
+[Speaker 2]: 开 icq l 拿树把这，
+[Speaker 2]: 个数据拷贝到，
+[Speaker 2]: 那个 google shets 里边排，
+[Speaker 2]: 版写成一个 notes 半小时之，
+[Speaker 2]: 内发了然后他给了我们的 VP 说过，
+[Speaker 2]: 去的数据是去年的数据是这个今年数据是这个然，
+[Speaker 2]: 后这个是这个一。
+[Speaker 2]: 些百分比的变化这个是，
+[Speaker 2]: 我们的观察然后直接就是在那个 facebook 他有了一个内部，
+[Speaker 2]:  facebook 一样东西啊 tag VP 呃我忘了他是用，
+[Speaker 2]: 我的账号发的还是。
+[Speaker 2]: 用他的账号发的可能是，
+[Speaker 2]: 用他的账号发的当时@我然后，
+[Speaker 2]:  VP 在。
+[Speaker 2]: 下，
+[Speaker 2]: 面说分析的好分析的好然后我，
+[Speaker 2]: 当时就知道了就是就，
+[Speaker 2]: 是首先老板要的是什么。
+[Speaker 2]: 和真正他，
+[Speaker 2]: 要做的决策是什么就是我，
+[Speaker 2]: 那个分析，
+[Speaker 2]: 如果两个周之后再做，
+[Speaker 2]: 出来就没有意义了因为老板他，
+[Speaker 2]: 像现在做一个决策两个说做出？
+[Speaker 2]: 来这个分析还有，
+[Speaker 2]: 什么意义吗没有意义然后后来我还就是。
+[Speaker 2]: 我我那个分析反正框架已经搭，
+[Speaker 2]: 了嘛我就还是分析了一遍然后我就做了？
+[Speaker 2]: 一些别的。
+[Speaker 2]: 就比如说我们应该在就是反正做，
+[Speaker 2]: 了一些其他的各种各，
+[Speaker 2]: 样的分析也是高级方，
+[Speaker 2]: 法分析完了以后呢嗯也发。
+[Speaker 2]: 了一个 notes 三十多页的那个分析啊然后可能不到十个人看而且有，
+[Speaker 2]: 一个工程师他。
+[Speaker 2]: 也就是人特别好他，
+[Speaker 2]: 从头到尾全部看了三十多页我现在想这，
+[Speaker 2]: 是真人很，
+[Speaker 2]: 多啊人家都全，
+[Speaker 2]: 部看看完以后就是说哇你好棒就是你，
+[Speaker 2]: 用了这做的非常 sallet et 然后可不。
+[Speaker 2]: 可以告诉我接下来我可以，
+[Speaker 2]: 干嘛我完全没有答案嗯然后我就那个瞬间，
+[Speaker 2]: 我就意识到我那个三十多月，
+[Speaker 2]: 的东西就是 fake work 就没，
+[Speaker 2]: 有意义真的没有意，
+[Speaker 2]: 义就不该做对我后。
+[Speaker 2]: 来，
+[Speaker 2]: 回腾讯也就发现就，
+[Speaker 2]: 是腾讯内网很多就是这种高级的数据科学家做了各种各，
+[Speaker 2]: 样的分析我一，
+[Speaker 2]: 看就他妈 fake work。
+[Speaker 2]: 就是你说这，
+[Speaker 2]: 些东西都都瞎瞎鸡巴书啥用没有对然后我就对就是就是这个这个但是但是可以。
+[Speaker 2]: 看到啊就是呃这个，
+[Speaker 2]:  fake work 是一个非常根深蒂固的东西哎，
+[Speaker 2]: 这其实引。
+[Speaker 2]: 申，
+[Speaker 2]: 引申的一个，
+[Speaker 2]: 问题就是课代表你觉。
+[Speaker 2]: 得就是 AI 因为这我也，
+[Speaker 2]: 很好奇啊就是 AI 到底是在帮这个公司消灭这。
+[Speaker 1]: 种，
+[Speaker 1]: 无效的工作呢还是让无效的，
+[Speaker 1]: 工作制造成，
+[Speaker 1]: 本上面更关键。
+[Speaker 1]: 的问题啊每个问题都，
+[Speaker 1]: 是完全问到了点子上我你这个也是我出来我可能刚刚，
+[Speaker 1]: 刚刚刚剪完然后可能三三四周以后发吧我这个会，
+[Speaker 2]: 提前发一些呃他一定会是先放大。
+[Speaker 2]: 再再再再减少先放大再，
+[Speaker 2]: 减少必须会先放大你看，
+[Speaker 2]: 我们拿到 AI 的第一反应是什，
+[Speaker 2]: 么 AI 周报这不就是更。
+[Speaker 2]: 快，
+[Speaker 2]: 的去产生 fake work 嘛然，
+[Speaker 2]: 后现在周报就，
+[Speaker 1]: 没人看了呀然，
+[Speaker 2]: 后老板是可能。
+[Speaker 2]: 拿到一堆周报然后先让 AI 读一遍然后？
+[Speaker 2]: 把一个，
+[Speaker 2]: 两百字的周报变成两万字的周。
+[Speaker 2]: 报然后要再把两万字周报变，
+[Speaker 2]: 成两百字的周报呃因为我们的，
+[Speaker 2]: 工作就是之前啊我，
+[Speaker 2]: 们大多数在奖励 fakork 所以说你要写为什么之前，
+[Speaker 2]: 奖励 fake work 因为因为因为之前你的投入是你。
+[Speaker 2]: 产，
+[Speaker 2]: 出的一个很好的 proxy 甚至是质，
+[Speaker 2]: 量的一个很好的 proxy 就，
+[Speaker 2]: 是我老板其实是没有判断力判断你们。
+[Speaker 2]: 谁做的这个东西是最符合第一性原理的最符合本质的，
+[Speaker 2]: 最能帮我拿到结果的那我怎。
+[Speaker 2]: 么判断呢谁在这上面花的时间，
+[Speaker 2]: 多呗谁做的仔细呗对吧你一个报告我一个 VP 要一，
+[Speaker 2]: 个报告我分给。
+[Speaker 2]: 了下面十个 leader 啊然后一个人呢说我调？
+[Speaker 2]: 研了一天调研好了对吧然，
+[Speaker 2]: 后给了你一个，
+[Speaker 2]: 很短？
+[Speaker 2]: 的很简陋的，
+[Speaker 2]: 东西另外一个人说我，
+[Speaker 2]: 调研了一个周然后我访。
+[Speaker 2]: 谈了无数人然后我去那个反反复复的沟通然？
+[Speaker 2]: 后我这个做了很多这个花了很多钱最后。
+[Speaker 2]: 我给了你一个这个一百页的精，
+[Speaker 2]: 美 PPT 然后上面从头到，
+[Speaker 2]: 尾我还请了咨询公司等等然后，
+[Speaker 2]: 被批肯定说嗯你可能第二个更好一点，
+[Speaker 2]: 吧对吧你都做了这么多工作了跟价值完。
+[Speaker 2]: 全没有任何关系对吧我刚刚完全没有说就就。
+[Speaker 2]: 我们饲想实验里边第一个就是比第二个更有，
+[Speaker 2]: 价值？
+[Speaker 2]: 但是你 VP 怎么判断的所，
+[Speaker 2]: 以说在那个时候因为这些，
+[Speaker 2]: 质量？
+[Speaker 2]: 的就是 input 这个产产，
+[Speaker 2]: 出它非常贵就是这个 signal 你，
+[Speaker 2]: 想产出这个 signal 非常贵你要花时，
+[Speaker 2]: 间花人花脑子所以说？
+[Speaker 2]: 呃它就是一个呃质，
+[Speaker 2]: 量的大家用它作为一个，
+[Speaker 2]:  indicator 叫做可是现在 AI 可，
+[Speaker 2]: 以非常快的产出了所以大家第一反应，
+[Speaker 2]: 是我就要产出精美的 PPT。
+[Speaker 2]: 精美的 PDF 精美的周报然后精美，
+[Speaker 2]: 的互动性网页等等等等东。
+[Speaker 2]: 西然后当大家意识到这个东西但。
+[Speaker 2]: 是 AI 另外一个带来的就是这个东西放在门，
+[Speaker 2]: 头里变得，
+[Speaker 2]: 不值钱了对，
+[Speaker 2]: 吧就这个 c 端 al 变得无无比的便宜大家。
+[Speaker 2]: 先去做因为不是所有人都懂，
+[Speaker 2]:  AI 不是所有人都接触所以说第一遍第二遍很有新鲜感受啊你做，
+[Speaker 2]: 的不？
+[Speaker 2]: 错第十遍的时候大家就别给我看，
+[Speaker 2]: 这个你给我，
+[Speaker 2]: 看一些有用的东西大家，
+[Speaker 2]: 就不再把这个精美的。
+[Speaker 2]: 产出作为一个有效的 signal 了然后它就是，
+[Speaker 2]: 这就是为什，
+[Speaker 2]: 么它会一定要，
+[Speaker 2]: 先放大然后才会消消，
+[Speaker 2]: 灭哎那这个就是一个新就，
+[Speaker 2]: 是突然产生的问题那这个跟内容是不是也差不多呢就。
+[Speaker 2]: 是为什么我会问这个问题是因为比如说现在，
+[Speaker 2]: 我们帮有一些呃。
+[Speaker 1]: 不，
+[Speaker 1]: 管是电商公司也好还是一些做内容的公，
+[Speaker 1]: 司也好现在基本上就是啪就是老？
+[Speaker 1]: 板就希望我就一键然后啪啪？
+[Speaker 1]: 啪全部都是内容铺天盖地的去做然后，
+[Speaker 1]: 我就在想那这样不是，
+[Speaker 1]: 制造了很多冗余的这样的这。
+[Speaker 1]: 个内容吗那嗯对于嗯我我觉得好奇那真正的，
+[Speaker 1]: 好的内容又又产生又是我觉，
+[Speaker 1]: 得内容这方面还。
+[Speaker 1]: 不完全一样啊，
+[Speaker 1]: 为什么不完全一样就是它本质是和你说的就是就？
+[Speaker 1]: 是就是是类似的但是内容，
+[Speaker 1]: 的不一样是因为内容的这个它的核心不是它的核心是抓到别人的注意，
+[Speaker 2]: 力嗯然后这个注意力？
+[Speaker 2]: 呢他不是很多时候不是质量决定的他很多时候。
+[Speaker 2]: 就是数量决定的就，
+[Speaker 2]: 是我一天就除非你有一个就是这个人他真，
+[Speaker 2]: 的懂了我怎么样子制。
+[Speaker 2]: 造，
+[Speaker 2]: 爆款比如说 mr beast 你，
+[Speaker 2]: 不可以想象 mr beast 或者说是影视飓。
+[Speaker 2]: 风他用 AI 海量生成内容他一，
+[Speaker 2]: 定是他找到了这个流量的关键所以说他一做就是大，
+[Speaker 2]: 爆款对他不需要去海。
+[Speaker 2]: 量生成内容，
+[Speaker 2]: 但是问题是电商老板呢他也不知道怎。
+[Speaker 2]: 么样能做一个更好的东，
+[Speaker 2]: 西他之前所干的也不过就是花钱还。
+[Speaker 2]: 是花不少钱去生产内容他，
+[Speaker 2]: 是受限于他的产量的那他现。
+[Speaker 2]: 在可以提高产量了且他，
+[Speaker 2]: 还有办法去想方设法的去提高 AI 的质量。
+[Speaker 2]: 就是之前他提高他的图片质量，
+[Speaker 2]: 是没有性价比的因为他要。
+[Speaker 2]: 求的本身不是那么高然后提高这个质量的又很慢，
+[Speaker 2]: 可能本来你找一个普通的人一天能给你出十。
+[Speaker 2]: 张图你找一个厉害的人一天能给你出三张图他，
+[Speaker 2]: 说那我还是找十张吧看起来大，
+[Speaker 2]: 差差你要去提高质量很又又很。
+[Speaker 2]: 难现在你通过 AI 呢你是可以，
+[Speaker 2]: 一下子一天出一万张，
+[Speaker 2]: 且同时你如果把这个 scale 或者说东西打磨。
+[Speaker 2]: 好了以后呢图片质量也。
+[Speaker 2]: 变高了所以说，
+[Speaker 2]: 他就会促使他去，
+[Speaker 2]: 出更多然后。
+[Speaker 2]: 去你你指望整个，
+[Speaker 2]: 市场啊去列布就是这个这个这。
+[Speaker 2]: 个时候就是看整个市场能不能类别驱逐良币整个消，
+[Speaker 2]: 费者能不能然后这。
+[Speaker 2]: 就就是比一个企业里边要慢的，
+[Speaker 2]: 多的链条因为你要消费者能识别什，
+[Speaker 2]: 么东西是 AI 生成图片且不被他吸引力这个是就是人脑的进划是，
+[Speaker 2]: 很慢的嗯比较难可。
+[Speaker 2]: 能要几年的周期那这个时候如果我是一个电商。
+[Speaker 2]: 老板我会毫不犹豫的去大规模的，
+[Speaker 2]: 上 AI 图片啊然，
+[Speaker 2]: 后去相关下把这，
+[Speaker 2]:  i 我的 AI 图片做的比别人的 AI 图，
+[Speaker 2]: 片，
+[Speaker 2]: 做的更，
+[Speaker 2]: 好我会抓这个时间。
+[Speaker 2]: 差理解然后刚才因为刚才课代表你，
+[Speaker 2]: 有分享那个之前在呃公司的那个经历嘛，
+[Speaker 2]: 然后我也好奇，
+[Speaker 2]: 哈比如说像你在你管过这么样多的这种团队然后那。
+[Speaker 2]: 呃管理这种人的团队就。
+[Speaker 1]: 是管 agent 跟管理人有没有什，
+[Speaker 1]: 么不一样就如果你是管一个或者就是说现，
+[Speaker 1]: 在你的一个管理，
+[Speaker 1]: 方式你觉得应该哎怎么样会设去设计嗯我在腾，
+[Speaker 1]: 讯就是我是一个特别好的管，
+[Speaker 1]: 理者同时又是一个特别差的管理者特。
+[Speaker 1]: 别好的管理者是我，
+[Speaker 1]: 发现我很擅长于做管理的这个工作，
+[Speaker 1]: 但是我到头我到 staastic 我就直接跟老。
+[Speaker 0]: 板，
+[Speaker 2]: 说就是你，
+[Speaker 2]: 别看我在腾讯是个总监我来 staystic，
+[Speaker 2]: 不想做总监为什么呢因为我就，
+[Speaker 2]: 觉得管理是我提供了一个 service 但是我并不 enjoy 这件事儿因为。
+[Speaker 2]: 我在腾讯我并不 care，
+[Speaker 2]: 我的下属的 growth 就是，
+[Speaker 2]: 有的人说可能管理者好多管理，
+[Speaker 2]: 者是要关心人的没，
+[Speaker 2]: 有那么关心？
+[Speaker 2]: 人因为我觉得本质上就是大家都是来，
+[Speaker 2]: 各取所需我跟大家都是。
+[Speaker 2]: 一个合作关系，
+[Speaker 2]: 啊我不能指望他说我把，
+[Speaker 2]: 你培养好了你就跟着我对吧他有好的机会我希望他，
+[Speaker 2]: 去找能更好的机。
+[Speaker 2]: 会那反过来呢我就不能说就是我要对他做我管，
+[Speaker 2]: 理职责之外的额外付出这是我，
+[Speaker 2]: 不好的管理者的一个原因所以说，
+[Speaker 2]: 我其实就回，
+[Speaker 2]: 答你？
+[Speaker 2]: 的问题啊我在，
+[Speaker 2]: 腾讯做管理还是挺难受的挺。
+[Speaker 2]: 难受的因为就，
+[Speaker 2]: 是你处理的大多数的事情不是事儿的事情就是处或者说，
+[Speaker 2]: 处理事儿很简单处理事对我来说。
+[Speaker 2]: 就是非常 enjoy enjoyable 让我不不爽的都是，
+[Speaker 2]: 那些人的事情这人的事情就是，
+[Speaker 2]: 大家的人。
+[Speaker 2]: 之常情就是比如说一个新招来的算，
+[Speaker 2]: 法同学然后这个，
+[Speaker 2]: 算法同学之前做为我们一个内部可以，
+[Speaker 2]: 闭环的这种这个就是我，
+[Speaker 2]: 们当时在 AG 嘛做这个广告系统然。
+[Speaker 2]: 后后来这广告系统呢整个项目被，
+[Speaker 2]: 砍了走过来说这个我当时做这个广告，
+[Speaker 2]: 推荐系统呢特别开心每天都有进展虽然说要加班现在呢我。
+[Speaker 2]: 们找不到方向感觉很难受我我后来就是就。
+[Speaker 2]: 是我我当时跟我们 GM 也沟通了这件事我。
+[Speaker 2]:  GM 当时非常非常崩溃为什么呢因为他其实是顶着巨大的，
+[Speaker 2]: 压力把这个项。
+[Speaker 2]: 目被砍的所有，
+[Speaker 2]: 的呃责任全都自己承担了之前那些算。
+[Speaker 2]: 法同学做的那个平台的项目就是 fakwork 然后大家非常 enjoy 做，
+[Speaker 2]: 这个 fakork 觉得生气打怪是，
+[Speaker 2]: 吧很开心？
+[Speaker 2]: 然后像被砍了以后呢这然背了，
+[Speaker 2]: 责任然后我们在想方设法的帮这些同学找活路就是。
+[Speaker 2]: 我们去说去跟项目组然后找活再找有意，
+[Speaker 2]: 有有意。
+[Speaker 2]: 义的事情的时候呢就巨大，
+[Speaker 2]: 的不确定性那同学们？
+[Speaker 2]: 就会觉。
+[Speaker 2]: 得嗯这个东西是你招，
+[Speaker 2]: 过来做的吗凭。
+[Speaker 2]: 什么给我做这个看起来又很低端的活啊呃，
+[Speaker 2]: 然后又怎么样啊大家就不，
+[Speaker 2]: 开心然后你就在这儿我一方面就是没有我的话，
+[Speaker 2]: 你早就被开了然后。
+[Speaker 2]: 我帮你背了这么大一个锅呃然后我又在想方设法？
+[Speaker 2]: 的努力去做这些事，
+[Speaker 2]: 情天天动脑然后你还不，
+[Speaker 2]: 开心我对吧就类似这，
+[Speaker 2]: 样的还有同学。
+[Speaker 2]: 就是我记得有有，
+[Speaker 2]: 有一个那个校招生非常优，
+[Speaker 2]: 秀就中中中中，
+[Speaker 2]: 山大学毕业的就跑过来找我哭。
+[Speaker 2]: 啊就，
+[Speaker 2]: 第一次我觉得他找我两次第一次感觉想哭，
+[Speaker 2]: 没哭然后，
+[Speaker 2]: 忍住没哭第二次，
+[Speaker 2]: 就哭然？
+[Speaker 2]: 后就觉得人生，
+[Speaker 2]: 太艰难了，
+[Speaker 2]: 为什么自己呃上了大学然后要读研然后出来，
+[Speaker 2]: 就一口喘息的时间都没有然后就在想 i don't care i。
+[Speaker 2]:  don't care 我好想当场就把你开了，
+[Speaker 2]: 呀但是我不行啊就是，
+[Speaker 2]:  yeah 就是现在说。
+[Speaker 2]: 这些话可能，
+[Speaker 2]: 听着都有点冷血后来那个。
+[Speaker 2]: 同学也没有那个开而是就，
+[Speaker 2]: 是还是请就，
+[Speaker 2]: 是大家去排解给他调整一些就是可能能更有一。
+[Speaker 2]: 些确定，
+[Speaker 2]: 性的工，
+[Speaker 2]: 作去帮他去成长但是总之。
+[Speaker 2]: 我内心的当时，
+[Speaker 2]: 的那个，
+[Speaker 2]: 内心话就是这样的就是你的人生为什么需。
+[Speaker 2]: 要我来给你负责我能给你提，
+[Speaker 2]: 供的东西已经经尽我所能提供很，
+[Speaker 2]: 好了嗯啊 agents 就没有这个问题啊 agents 我就你做的不好你什么东西对。
+[Speaker 2]: 吧有的时候心情不好就直接骂他也没有问题但是 INTG，
+[Speaker 2]: 你知道我对我天天还看了一个就是抖音上，
+[Speaker 2]: 刷到的一个 ING 就就是堆堆老头头聚在一块儿然后。
+[Speaker 2]: 说，
+[Speaker 2]: 为什么我跟他就是就事，
+[Speaker 2]: 论事但是他认为我，
+[Speaker 2]: 是在对他人，
+[Speaker 2]: 攻击？
+[Speaker 2]: 那吧吧现个 tei TG 完完没有有法理解这这事。
+[Speaker 2]: 情我跟 AAS 就不会啊 AS 不会认为我这是在跟他人生人生攻击我习，
+[Speaker 2]: 惯就是就事论事嘛然后就事论，
+[Speaker 2]: 事我们就把事情解决了多开心所以。
+[Speaker 2]: 说作为 NTG 我觉得用 AI 就是太爽爽了哎，
+[Speaker 2]: 那如如说呃这样子就如果是一个小 team 里面那如果现在已。
+[Speaker 2]: 经可以达到这个相互去沟通的话那这个，
+[Speaker 2]: 是一个怎么样的一个协，
+[Speaker 2]: 作方式呢或者，
+[Speaker 2]: 课代表你们有没有现，
+[Speaker 2]: 在是一。
+[Speaker 2]: 个怎么样更高，
+[Speaker 2]: 效的协作方式那我觉得就。
+[Speaker 1]: 是，
+[Speaker 1]: 看个人了就比如说我跟团队的不同的人的，
+[Speaker 1]:  level 是差的很大的所以说我的完全是不一样的所，
+[Speaker 1]: 如说我跟鸭哥我跟鸭哥嗯前段时间是干？
+[Speaker 1]: 了一件什么，
+[Speaker 1]: 事儿啊就是我这个书我作为一个会员可以在线下。
+[Speaker 2]: 领书的这个系统的就是。
+[Speaker 2]: 那个呃就社区里边也分享了一下嘛就是他相当关于，
+[Speaker 2]: 还就是后台还比较复杂前台。
+[Speaker 2]: 他只需要去扫一，
+[Speaker 2]: 个码就是如果你是会员的的话你验扫码验证？
+[Speaker 2]: 一下然后就会给你出来一个有，
+[Speaker 2]:  coundown 的这个 screen 当天的时间然后你。
+[Speaker 2]: 就把这个拿给前台看然后前台直接就把，
+[Speaker 2]: 书给你了这非常简单那后台其实要涉及，
+[Speaker 2]: 到比如说你要验证这个人，
+[Speaker 2]: 是不是会员对吧然后你要，
+[Speaker 2]: 去做一些其他的这，
+[Speaker 2]: 个东西你比如说领没有领过书等等那这个会员的，
+[Speaker 2]: 权限系统是鸭哥那然后我要，
+[Speaker 2]: 做这个前前端那我就需要去，
+[Speaker 2]: 跟鸭哥说就。
+[Speaker 2]: 是我需要他那做什么配，
+[Speaker 2]: 合然后给我做什么验证我就跟我的，
+[Speaker 2]:  agents 讲？
+[Speaker 2]: 然后说那这些所有东西做好了你把，
+[Speaker 2]: 我所有东西列下来给鸭哥的。
+[Speaker 2]: 发个邮件然后牙哥的 agents 收到然，
+[Speaker 2]: 后说哦这个东西怎么做给，
+[Speaker 2]: 亚哥审核一下亚哥说 OK，
+[Speaker 2]: 可以然后他就把所有东西发，
+[Speaker 2]: 过来包括就是所有的。
+[Speaker 2]:  credential 就是我们需要，
+[Speaker 2]: 的东西都可以用 one password 就是 one password，
+[Speaker 2]: 可以做到既不让那个铭，
+[Speaker 2]: 文出现然后你的 AI，
+[Speaker 2]: 又能收到啊然后存，
+[Speaker 2]: 到该存的地方然后全程我，
+[Speaker 2]: 甚至都没有跟鸭，
+[Speaker 2]: 哥说我要做这，
+[Speaker 2]: 个项目微信上跟因为牙哥在国，
+[Speaker 2]: 内度假嘛没有跟他，
+[Speaker 2]: 说一句话就直接就搞电影的这。
+[Speaker 2]: 件事儿这是一个还挺复杂的前台后台的这个，
+[Speaker 2]: 交互就直接这样就行了，
+[Speaker 2]: 所以说就是好的方式的。
+[Speaker 2]: 话就是 agents 跟 agents 对话然后人跟人可，
+[Speaker 2]: 能再对一下话然，
+[Speaker 2]: 后人跟 agents 对话就能做很多事儿那，
+[Speaker 2]: 其他的同学就基本，
+[Speaker 2]: 上是我先让 agents 把所有的东西做。
+[Speaker 2]: 好然后把要跟人说的，
+[Speaker 2]: 东西拿出来然后跟人说一下然后再把他。
+[Speaker 2]: 说的东西复制粘贴给我的，
+[Speaker 2]:  agents 当然理想的情，
+[Speaker 2]: 况下就是他可以跟我直接直，
+[Speaker 2]: 接跟我的 agents 对话了哦理解了就他就。
+[Speaker 2]: 这个工作模式就是即使比如说像牙哥在度假了但其实，
+[Speaker 2]: 这个这个事儿它是可以可以做，
+[Speaker 2]: 做掉的嗯对嗯他，
+[Speaker 2]: 的事儿是完全可以做掉的嗯然后次一级。
+[Speaker 2]: 就是最好是我的 agents 可，
+[Speaker 2]: 以跟那个人对话然后一起把这事儿给干了。
+[Speaker 1]: 对，
+[Speaker 1]: 吧然后，
+[Speaker 1]: 再次一级就是我的 agent，
+[Speaker 1]: 想跟我对话然后我要去跟人交互，
+[Speaker 1]: 然后那个人再跟我交互然后我再把他这交给。
+[Speaker 2]:  agents，
+[Speaker 2]: 你，
+[Speaker 2]: 就，
+[Speaker 2]: 能看到这中间就是我们团队沟。
+[Speaker 2]: 通，
+[Speaker 2]: 速度是挺快的但是肯定是有很，
+[Speaker 2]: 多不效率最有效率，
+[Speaker 2]: 的肯定是 agents 和 agents 之间对话，
+[Speaker 2]: 嗯行？
+[Speaker 2]: 那我就会好奇如果比如说这是我们进呃，
+[Speaker 2]: 进一步来问的话那如，
+[Speaker 2]: 果一个 AAI 它接管了我们，
+[Speaker 2]: 这种所谓管理者大部分，
+[Speaker 2]: 这个执行和。
+[Speaker 2]: 协调的工作那对于我们一个创业者来说，
+[Speaker 2]: 或者一个管理管理者来说，
+[Speaker 2]: 那我们这种多出来的时间应该花在哪。
+[Speaker 1]: 里，
+[Speaker 1]: 呢，
+[Speaker 1]: 管理者就是一。
+[Speaker 1]: 个是大厂里的中层管理者或者说是你是真，
+[Speaker 1]: 的是一个 founder 对吧你是 own 这个业务的大厂中层管理者你就被开了吧活他妈该真。
+[Speaker 1]: 的就是平时就是我我我当时，
+[Speaker 1]: 就是我回头还要跟杨天男，
+[Speaker 1]: 录一个视频啊然后嗯他也是对 fake work 想聊一？
+[Speaker 2]: 下然后就他他和我都有共同的经历就是，
+[Speaker 2]: 在大厂的中台当中层完全就是，
+[Speaker 2]: 上传？
+[Speaker 2]: 下达啊各种翻译就是非常有价值而，
+[Speaker 2]: 在那个时代但，
+[Speaker 2]: 是就觉得全都。
+[Speaker 2]: 是 fake work 我们两个都很讨厌我们当时做的工作所以说那个工作就不该，
+[Speaker 2]: 存在呃如果说是你是一个创业，
+[Speaker 2]: 者或者说你是哦一件事情的时候，
+[Speaker 2]: 你就去拿结果嘛你拿结果，
+[Speaker 2]: 的过程中你是最好希，
+[Speaker 2]: 望你一句话不说对吧你就。
+[Speaker 2]: 去拿那就一定，
+[Speaker 2]: 是中间有很多问题是需。
+[Speaker 2]: 要解的就比如说分发你就去想方设法，
+[Speaker 2]: 的让你的事情被更多人看到。
+[Speaker 2]: 然，
+[Speaker 2]: 后想方设法的去提供更好，
+[Speaker 2]: 的这个产品啊能解决别人问题，
+[Speaker 2]: 就是分发和交付。
+[Speaker 2]: 这两件事我觉得是，
+[Speaker 2]: 创始人最应该做的而且最应，
+[Speaker 2]: 该把？
+[Speaker 2]: 它做成一，
+[Speaker 2]: 个系统就是最好不要希望你每一次的交付。
+[Speaker 2]: 都需要你跟人，
+[Speaker 2]: 打十个电话而是你希望你的这个交付可以更，
+[Speaker 2]: 自动的系统的去把它交付或者说用一个更，
+[Speaker 2]: 自动系统的形式，
+[Speaker 2]: 去交付啊包括你的分发就。
+[Speaker 2]: 比如说我今天为什么我要去，
+[Speaker 2]: 抖音上去把我的那个呃视频整。
+[Speaker 2]: 理虽然这件事可能本身的收益不大啊然后为什么要把那个小。
+[Speaker 2]: 红书的资质打通等等全都是为了分发哎这部分能再多说一，
+[Speaker 2]: 点吗你特特别是比如说在这个创业者的我们，
+[Speaker 2]: 聚焦这两个嗯。
+[Speaker 2]: 那一个是分发然后还有一个那这些全部我们现在都可以嗯我觉，
+[Speaker 2]: 得就是像像你刚才提到的我们只要，
+[Speaker 2]: 想其实全部都可以用 AI 来去做不能嗯分发就是，
+[Speaker 2]: 你可以用 AI 去帮？
+[Speaker 2]: 助，
+[Speaker 1]: 你构建这个分发的系统？
+[Speaker 1]: 嗯但是分发这件事只能你来做分发，
+[Speaker 1]: 啊理解就是我们不是说就比如说电，
+[Speaker 1]: 商他可能不需，
+[Speaker 1]: 要啊就是或者或者说这样吧。
+[Speaker 1]: 就，
+[Speaker 1]: 是电商它那个图片你可以一键，
+[Speaker 1]: 上传个很多图片上传很多 listing 但是你你这，
+[Speaker 2]: 个 listing 上传完，
+[Speaker 2]: 了之后他是不是发挥了他的百分之百潜力应该。
+[Speaker 2]: 没，
+[Speaker 2]: 有对吧那你可以暂时理解为他只发，
+[Speaker 1]: 挥了。
+[Speaker 2]: 他的 potential 的潜力的百分之一因为每，
+[Speaker 2]: 一个产品都会有，
+[Speaker 2]: 一个卖的比你好一百倍，
+[Speaker 2]: 的这个爆款那你怎么样子把它从百分之一调回到，
+[Speaker 2]: 百分之百这。
+[Speaker 2]: 个就是创始人所谓的这个企业，
+[Speaker 2]: 家精神就是 entrepreneuurship 就是所有的创始人他，
+[Speaker 2]: 最具最最，
+[Speaker 2]: 核心？
+[Speaker 2]: 的一个特质是什么就是这个企业家精神就是这个 andropreneurship 就是在。
+[Speaker 2]: 别人看到了这个东西是一个简单的 listing 在你看到的就是他有。
+[Speaker 2]: 一百倍的潜力没有被发挥出来然后所有的这个从？
+[Speaker 2]: 低百分之一到百分之百都是需要你自己，
+[Speaker 2]: 去想你，
+[Speaker 2]: 自己去推所谓的 agency 然后你的 taste 对吧就是这个好好那个？
+[Speaker 2]: 不好这个尝试了那个，
+[Speaker 2]: 尝尝试了 AI，
+[Speaker 2]: 可以给你所有的答案但是他，
+[Speaker 2]: 没有办法给你选。
+[Speaker 2]: 一条路你换一个 prompt 就可以给你推荐另，
+[Speaker 2]: 外一条路所以说。
+[Speaker 2]: 就最后是因为是你的钱你负责对吧你要去做然后你要去承担后果然后你才可以去做，
+[Speaker 2]: 这件事儿理解了对？
+[Speaker 2]: 这个确实就有可能可可能真正下的就像您刚刚讲讲到的还是我们这个 entreneneurship，
+[Speaker 2]: 这个部分这个是 AI 没有办法替，
+[Speaker 2]: 代对就是他想替代他都没有办法就是因。
+[Speaker 2]: 为因为因为他是他就 AI 是最擅长解题，
+[Speaker 2]: 的对吧？
+[Speaker 2]: 你给他一，
+[Speaker 2]: 个题他是是现在多难，
+[Speaker 2]: 个数学题他都可以可以解了但出题。
+[Speaker 1]: 这，
+[Speaker 1]: 件事儿就是人不给他出他自己给自，
+[Speaker 1]: 己出的题他能出但是，
+[Speaker 1]: 没有意义他可以出无限的，
+[Speaker 1]: 题解无限的题呢对就是。
+[Speaker 2]: 他，
+[Speaker 2]: 不是我们需要，
+[Speaker 2]: 的理解然后还有。
+[Speaker 2]: 一个嗯就是更延伸的问，
+[Speaker 2]: 题嘛因为我们既然聊到这个？
+[Speaker 2]: 创业者像我现，
+[Speaker 2]: 在自己我们有一大部分业，
+[Speaker 2]: 务也是在国内做这。
+[Speaker 2]: 个 FDE 然后前段时间我看课代表也，
+[Speaker 2]: 有跟硅谷的我们创业，
+[Speaker 2]: 者聊 FDE。
+[Speaker 2]: 这个嗯话题然后，
+[Speaker 2]: 就是会发现就是从今年五月份开。
+[Speaker 2]: 始，
+[Speaker 2]: 然后这就是好像感觉是就是，
+[Speaker 1]: 一个趋势一样就 FD 这个岗位的这个招。
+[Speaker 1]: 聘他就又又开始增加然后整个，
+[Speaker 1]: 的这个呃 AI 的这，
+[Speaker 1]: 个战场似乎从这个 c，
+[Speaker 1]: 端又回到 b 端哎那呃。
+[Speaker 1]: 你怎么看这个趋势呢呃我给你把这个东西讲清楚一点吧因为它跟你。
+[Speaker 1]: 的这个 lively 者非常有关嗯呃国内的 FDE 呢它其，
+[Speaker 1]: 实是一个伪命题但是也是有一点点的机会，
+[Speaker 1]: 的这个伪命题在于国内的，
+[Speaker 1]: 企业没有 to b 没有。
+[Speaker 1]: 支持付费的这个习惯就是它没有，
+[Speaker 1]: 为这个虚拟资产付费的习惯也。
+[Speaker 1]: 没，
+[Speaker 1]: 有为这个呃服务和包括 sars？
+[Speaker 2]: 就，
+[Speaker 2]: 是国内的就是为什么我有这个结，
+[Speaker 2]: 论其实我刚回国的时候二零二一。
+[Speaker 2]: 年，
+[Speaker 2]: 啊那个时候美国的 PLG paryate growth 和 sars 其实，
+[Speaker 2]: 估值非常高所以说国内我是接。
+[Speaker 2]: 触了很多创业者，
+[Speaker 2]: 那个时候就特别在讨论下去没有做成的啊为什。
+[Speaker 2]: 么包括你再往前看就是我记得有一个数，
+[Speaker 2]: 据嘛就是那个微软中国我记得，
+[Speaker 2]: 好像是刘润。
+[Speaker 2]: 和吴军的那个访谈里面讲对。
+[Speaker 2]: 啊微软中国的收入占，
+[Speaker 2]: 他全球总收入的不到百分之三就是从装机量来说的话可能。
+[Speaker 2]: 是最大的装机量收入不到百分之三，
+[Speaker 2]: 全都用盗版这是而且国内又没有 enterprise 市场就，
+[Speaker 2]: 是没有？
+[Speaker 2]:  enterprise 也没有 enterprise 市场所，
+[Speaker 2]: 以说基于这些点就是你你，
+[Speaker 2]: 你就没有蛋糕可以。
+[Speaker 2]: 吃就是 FDE 你要去切一块蛋糕吧这个蛋糕是不。
+[Speaker 2]: 存在，
+[Speaker 2]: 的或者说这就是一个小 cupcake 然后大厂子就自己承人。
+[Speaker 2]: 去做了所以说他就没有，
+[Speaker 2]: 没有就不是一个 loctrative 的，
+[Speaker 2]: 市场然后在这种情况，
+[Speaker 2]: 下为什么大，
+[Speaker 2]: 家对于 FD 讨论多呢我觉得有，
+[Speaker 2]: 两个原因第，
+[Speaker 2]: 一个 AI 落地确。
+[Speaker 2]: 实是有 gap 然后大家，
+[Speaker 2]: 是需要去解决这个 gap 但是他想，
+[Speaker 2]: 解决这个 gap 他不不意味着他，
+[Speaker 2]: 愿愿意为这 gap 付钱钱，
+[Speaker 2]: 他很可能白嫖跑你一时，
+[Speaker 2]: 时间国内企业最喜欢干这种事。
+[Speaker 2]: 儿了就是打着这个我要买你的旗号对吧然后。
+[Speaker 2]: 跟你聊半天然后觉，
+[Speaker 2]: 得 OK 我知道了我想知道的东？
+[Speaker 2]: 西然后就被你搞出。
+[Speaker 2]: 来了这是很很很很爱干的，
+[Speaker 2]: 事情那从招聘的角度来说的话，
+[Speaker 2]: 很多时候就是所谓的，
+[Speaker 2]:  solution engineer 和这个客服 engineer 或者说是驻场工程，
+[Speaker 2]: 师大家之前不喜。
+[Speaker 2]: 欢听了甚至客服不喜欢听了就换个名字 FDE，
+[Speaker 2]: 好像大家都开心一点我给你一，
+[Speaker 2]: 样多？
+[Speaker 2]: 的钱你有一个更，
+[Speaker 2]: 好的 title 大家都更开心，
+[Speaker 2]: 一点所以说这这，
+[Speaker 2]: 几个都不太不太成立但，
+[Speaker 2]: 是什么东西成立的就是国。
+[Speaker 2]: 内还是有一部分的这个咨，
+[Speaker 2]: 询市场的就是之前还是有很多企业去雇，
+[Speaker 2]: 我第一份实习就是在。
+[Speaker 2]: 那个 BCG 嘛然后还分享，
+[Speaker 2]: 了一个百万年薪的那个 offer 嗯就是。
+[Speaker 2]: 是有这样的市场的然后，
+[Speaker 2]: 这个市场不大但是，
+[Speaker 2]: 也有也是能赚钱包，
+[Speaker 2]: 括之前给四 a 公司。
+[Speaker 2]: 的那些是这样的市场啊呃这些人。
+[Speaker 2]: 我觉得就是这个市场，
+[Speaker 2]: 是由 FDE 的这个 spenling power 就是反正他他愿意花钱。
+[Speaker 2]: 给 FDE 所以说呃可能这其实不是我的 idea 是我反而，
+[Speaker 2]: 是我企业培训的，
+[Speaker 2]: 一个客户就是新加坡的一个基金他的。
+[Speaker 2]: 那，
+[Speaker 2]: 个总裁跟我说的想法就。
+[Speaker 2]: 是他他认为如果做，
+[Speaker 2]:  FDE 的话你可能要奔着。
+[Speaker 2]: 被咨询公司收购这条路径去做就是你做一个你做的这个事情呢跟咨询公司的客户有比较大的重，
+[Speaker 2]: 合就是咨询公司想要的那可。
+[Speaker 2]: 能 BCG 麦肯锡或者说是罗兰贝格这，
+[Speaker 2]: 样的他就想把你收过来去补充他的，
+[Speaker 2]: 能力这个可能是一条路。
+[Speaker 2]: 径呃但是他和美国的这个企业，
+[Speaker 2]: 市场其就美国是你你经常一，
+[Speaker 2]: 个订单对吧就是你 data dog 的订单可能那个 spending 就。
+[Speaker 2]: 是上上亿的都有然后你在这里边，
+[Speaker 2]: 高级的 FDT 那是非常非常容易的事情你，
+[Speaker 2]: 在国内你没有一个这。
+[Speaker 2]: 个软件服务的订单你你把它变成人不太现，
+[Speaker 2]: 实那造成这个嗯哦我就我就不问造成，
+[Speaker 2]: 这个的原因那比如说。
+[Speaker 2]: 如，
+[Speaker 2]: 果是这样子的话那在国内嗯想，
+[Speaker 2]: 做这个部分可，
+[Speaker 2]: 能那对这个待会，
+[Speaker 2]: 儿我？
+[Speaker 2]: 问我就想问他的这，
+[Speaker 2]: 个终局待会儿我问我还有一个。
+[Speaker 2]: 问题就是因为像我们自己嗯，
+[Speaker 2]: 我们自己传统的业务就是。
+[Speaker 2]: 做这个呃咨询然后呢呃因为我们之前还不，
+[Speaker 2]: 不足够了解就会误以误以为，
+[Speaker 1]: 把这个 FDE 就作为了这个公司的这个第二曲线但。
+[Speaker 1]: 这么聊下来会发现它其实并，
+[Speaker 1]: 不是一个第二曲线而是是，
+[Speaker 1]: 包含在丰富了我们这个叫咨询的这个业务可以这，
+[Speaker 1]: 么理解吗还是我觉得咨询这个，
+[Speaker 1]: 词儿现在是一个大家逐，
+[Speaker 1]: 渐抛弃的词儿所以说你把你完全 rebrn 成 FDE。
+[Speaker 1]: 是一个，
+[Speaker 1]: 聪明的做法嗯然后这个 FD 到底是做，
+[Speaker 1]: 什么事儿呢我觉得不能超额外的做法嗯就是比如说我跟 job 那。
+[Speaker 1]: 个访谈他就特别去讲，
+[Speaker 1]: 你的这个 FD 必须要能去改 production，
+[Speaker 1]: 的代码它是基于一个 AI 软件然后 FDE 在前沿去改他。
+[Speaker 1]: 们核心代码从而？
+[Speaker 2]: 去丰富他们产品然后这样，
+[Speaker 2]: 的这个模式我觉得在国内 workbody FDE 能。
+[Speaker 2]: 改 workbody 代码吗我觉得不太不太现实对所以说所以。
+[Speaker 2]: 说，
+[Speaker 2]: 这个就不能不能照抄国外的做法？
+[Speaker 2]: 但是我觉得这个词的热度。
+[Speaker 2]: 是，
+[Speaker 2]: 存在的和它存它为什么存在，
+[Speaker 2]: 不是因为这个词本身那么好听而是因为大家就是。
+[Speaker 2]:  AI 落地难所以说你在打，
+[Speaker 2]: 着这个词的基础之上吸引到了注，
+[Speaker 2]: 意力然后去帮客户解。
+[Speaker 2]: 决真实的 AI 落地难 AI，
+[Speaker 2]: 成效的问题我觉得是 ok 的呃对我我？
+[Speaker 2]: 如果是你的话我不会。
+[Speaker 2]: 说，
+[Speaker 2]: 自己是家咨询公司我可以说自己是在 FD 一公司。
+[Speaker 2]: 然后我就坚定的站我就是 FDE 公司我，
+[Speaker 2]: 就是干 FD 一的事儿反？
+[Speaker 2]: 而可能更容易吸引到一些就是呃，
+[Speaker 2]: 觉得传统咨询不适合我就是。
+[Speaker 2]: 想试一下新的东西适不适合我的这，
+[Speaker 2]: 些人然后如果去，
+[Speaker 2]: 了以后能真的帮他们解决问题他可能也会有一个，
+[Speaker 2]: 更就是更高级。
+[Speaker 2]: 一，
+[Speaker 2]: 点商业模式因为咨询，
+[Speaker 2]: 的商业模式在国内又被搞得，
+[Speaker 2]: 不太好对就是是这个样子理解，
+[Speaker 2]: 呢嗯然后还有一个，
+[Speaker 2]: 点就在于嗯那，
+[Speaker 2]: 如果既然是这样子的，
+[Speaker 2]: 话嗯我也非常好奇在课代表看来哈两个部分一个就是那对，
+[Speaker 2]: 于在硅谷这边 FDE 的这个呃终局吧咱们你你觉得。
+[Speaker 2]: 可能大概会是什么那他是否这个角色还会，
+[Speaker 2]: 存在吗嗯以及是否会最终被一些什么样的产品。
+[Speaker 2]: 给优化掉或者说给替换掉那还有一个就是在国。
+[Speaker 2]: 内，
+[Speaker 1]: 这边呃假设他可能本身。
+[Speaker 1]: 就，
+[Speaker 1]: 肯定是跟硅谷这边的不，
+[Speaker 1]: 一，
+[Speaker 1]: 样哎那他会是一个什么样，
+[Speaker 1]: 的，
+[Speaker 1]: 心态硅谷这边的终局我不好说我可以说一，
+[Speaker 1]: 个对终局的猜想但是哎可能更有意义的是我访，
+[Speaker 1]: 谈徐老师的时候他的判断是说他？
+[Speaker 1]: 觉得到二零二七年啊就二零二？
+[Speaker 1]: 六，
+[Speaker 1]: 年 FDE 是个热词哎大家就会说哎你要不要找 FFDE 他，
+[Speaker 1]: 觉得到了二零二。
+[Speaker 1]: 七年大家就会问有一家为什，
+[Speaker 1]: 么，
+[Speaker 1]: 没有 FDE 他觉得 FDE 那个时候就是一个默认配置了，
+[Speaker 1]: 就，
+[Speaker 1]: 是大家只会问你为什么没有？
+[Speaker 2]: 不会问问你为什么有可能，
+[Speaker 2]: 这是他的判断我觉得是有道，
+[Speaker 2]: 理的就是确实应该有呃对无论无论规模大小那那，
+[Speaker 2]: 你问的终局就，
+[Speaker 2]: 是这些软件公司到底是，
+[Speaker 2]: 不是会 consollate 到一个这个大模。
+[Speaker 2]: 型，
+[Speaker 2]: 公司是不是，
+[Speaker 2]:  open，
+[Speaker 2]:  AI 可以取代所？
+[Speaker 2]: 有的软件公司这我不知，
+[Speaker 2]: 道我没有答案我觉得我觉得不好。
+[Speaker 2]: 说我就不好说我觉得我觉得最后就是就是，
+[Speaker 2]: 这样吧就是所有我我的比喻是 AI 是大洪水你在大洪水上你学会了造船，
+[Speaker 2]: 你就可以顺着水水，
+[Speaker 2]: 涨船高如果你在大。
+[Speaker 2]: 洪，
+[Speaker 2]: 水，
+[Speaker 2]: 上还是在用用造楼，
+[Speaker 2]: 的方式去造的话，
+[Speaker 2]: 那一定不行的这是我前段时间跟那个韦小亮老师就是聊天，
+[Speaker 2]: 然后我也发在了那个就是呃社区里边的？
+[Speaker 2]: 一篇文章嘛，
+[Speaker 2]: 就是他如果，
+[Speaker 2]: 去做翻 ton 自己模型或，
+[Speaker 2]: 者说去搞自。
+[Speaker 2]: 己的 harness 自己的这个 rapper 嗯我觉得都不。
+[Speaker 2]: 好但是他可以站住他的这个教育的。
+[Speaker 2]: 场景呃去想方设，
+[Speaker 2]: 法的说我给你，
+[Speaker 2]: 的就是 code x 为底层但是呢。
+[Speaker 2]: 我可以帮助你积累你的这个上下文我有很多老师啊，
+[Speaker 2]: 我可以让这些。
+[Speaker 2]: 老师的这些呃知识技能进来啊我可以帮助你，
+[Speaker 2]: 测试不同的 harness 不同的模型在什么地方场景下好我给你。
+[Speaker 2]: 选最好的东西对吧然后我可以，
+[Speaker 2]: 就是针对你过去的这，
+[Speaker 2]: 个 context 然后主动，
+[Speaker 2]: 的，
+[Speaker 2]: 向你提出什么。
+[Speaker 2]: 啊你的什么问题你可能哪里知识还有，
+[Speaker 2]:  gap，
+[Speaker 2]: 然后需要需要怎么搞这些呢我觉得就是模。
+[Speaker 2]: 型变得更聪明不会让他消失只会让他的这。
+[Speaker 2]: 个场景变得更有，
+[Speaker 2]: 价值对吧呃这这是一个具体的案例啊但是总，
+[Speaker 2]: 之就是你不能要造楼的方式，
+[Speaker 2]: 继续造船了你要造船呃那如果一。
+[Speaker 2]: 个，
+[Speaker 2]: 公司他这个公司本身，
+[Speaker 2]: 是造？
+[Speaker 2]: 船的公司那他的 FD 当然是很有价值了，
+[Speaker 2]: 对吧是嗯呃这是我觉得对终局的判断吧然，
+[Speaker 2]: 后在国内的话国内的话我，
+[Speaker 2]: 我很难判断你知道我当时出？
+[Speaker 2]: 来的最重要的一个原因就是，
+[Speaker 2]: 我觉得国内是，
+[Speaker 2]: 一个过于通缩的环境就大家都在 compete，
+[Speaker 2]:  price compete？
+[Speaker 2]: 所，
+[Speaker 2]: 有人都在 compete price 就是没有人，
+[Speaker 2]: 能赚钱没有人赚钱没有人没有超额利润经济是，
+[Speaker 2]: 萎缩的这。
+[Speaker 2]: 个，
+[Speaker 2]: 是大家大家觉得，
+[Speaker 2]: 超额利润是个不好的词但超额利，
+[Speaker 2]: 润其实对于我们学经济的人，
+[Speaker 2]: 来说？
+[Speaker 2]: 这个是所有经济的就是增长的来源。
+[Speaker 2]: 你没有超额利润，
+[Speaker 2]: 你怎么去，
+[Speaker 2]: 创新呢你你怎。
+[Speaker 2]: 么能给员工发工资呢你怎么有福利呢然，
+[Speaker 2]: 后大家去花什么钱消费呢对吧所以说你在，
+[Speaker 2]: 这样一个就是就，
+[Speaker 2]: 是我相信你在国内，
+[Speaker 2]: 的这个做 FD 你肯定，
+[Speaker 2]: 会感觉到就，
+[Speaker 2]: 是你说什么东西的话，
+[Speaker 2]: 他们一定会拿。
+[Speaker 2]: 来去比价先去找一个时面上更便宜的方案先。
+[Speaker 2]: 这样对吧在这种情况下我我真的不知道就是，
+[Speaker 2]: 我我不想在这样的环境下去参与竞。
+[Speaker 2]: 争对对因为现在，
+[Speaker 2]: 这个体感就是我？
+[Speaker 2]: 们我们也是吃燕长一智之前就？
+[Speaker 2]: 是会给他所有的？
+[Speaker 2]: 这个方案那现在也就是如果？
+[Speaker 2]: 聊的？
+[Speaker 2]: 还可以会给一个售前因为为啥呢就怕方案拿走了他就拿了，
+[Speaker 2]: 方案之后就直接，
+[Speaker 2]: 找一个更便宜的东西我，
+[Speaker 2]: 我最近在抖音上看清香，
+[Speaker 2]: 大师我昨天才刷了他的文章就是，
+[Speaker 2]: 他说他珠三？
+[Speaker 2]: 角吃了三次亏第，
+[Speaker 2]: 一次是那个去了，
+[Speaker 2]: 以后呢反正就直接被骗走了然后他们就说。
+[Speaker 0]: 就是，
+[Speaker 1]: 呃就是跟他聊聊了以后啥都不管然后现在说他就他有立规矩说必须要付差旅费然。
+[Speaker 1]: 后后来付了差旅费啊老板还是骗了他的房案然，
+[Speaker 1]: 后就是说要？
+[Speaker 1]: 交定金然后交完，
+[Speaker 1]: 定金呢老板还是骗，
+[Speaker 1]: 了他的方案然后他就说嗯不。
+[Speaker 2]: 行了我们就提前提前买就像你，
+[Speaker 2]: 买车一样你先你先把钱，
+[Speaker 2]: 拍下来然后然后我们再那个再，
+[Speaker 2]: 做呃对然后然后这这才好，
+[Speaker 2]: 了嗯也但是前提就是你。
+[Speaker 2]: 你还是回到那个就是，
+[Speaker 2]: 你为什么他有这样的 pressing power 为什。
+[Speaker 2]: 么他能做这件事儿因为他是，
+[Speaker 2]: 一个稀缺资源就是你。
+[Speaker 2]: 如果能把你的分发给做，
+[Speaker 2]: 好你的交付做好你是一，
+[Speaker 2]: 个真的稀缺资源的话，
+[Speaker 2]: 我觉得这个是可，
+[Speaker 2]: 以的就是你就有了更大。
+[Speaker 2]: 更大的议价权吧哎那如，
+[Speaker 2]: 果是假设因为我感，
+[Speaker 2]: 觉刚才那个呃课，
+[Speaker 2]: 代表说那个 metaphor 那个引，
+[Speaker 2]: 喻特别好就是我们现在是。
+[Speaker 2]: 在，
+[Speaker 2]: 呃，
+[Speaker 2]: 海面上面建造船嘛那呃。
+[Speaker 2]: 我，
+[Speaker 2]: 们造就是那对于我们来说那种造什么样的船什么样的方向什么样，
+[Speaker 2]: 的船是值得做的呢什么？
+[Speaker 2]: 意思就是什么船都值得坐，
+[Speaker 2]: 什么船就我们造个船就不错了我，
+[Speaker 2]: 这 super linear ceemy 这个小小破小破船对吧我觉得这，
+[Speaker 2]: 这挺值得做的呀我也。
+[Speaker 2]: 没要去造个航母呀我就在想那怎么怎。
+[Speaker 1]: 么，
+[Speaker 1]: 来嗯就说我们，
+[Speaker 1]: 要运用我们的 AI 来赋能我们每一个是它是属于叫 AI 加还，
+[Speaker 1]: 是什么呢就是在这个思维模式上好好问。
+[Speaker 1]: 题好问题好问题，
+[Speaker 1]: 我知道了嗯你可以完全不不管 AI 你觉，
+[Speaker 1]: 得爱马仕需要，
+[Speaker 1]: 跟 AI 这个潮流吗啊这是个？
+[Speaker 2]: 好问题爱？
+[Speaker 2]: 马仕不应该跟 AI 的潮，
+[Speaker 2]: 流对吧嗯，
+[Speaker 2]: 但是苹果要不要跟 AI 的。
+[Speaker 2]: 潮流要吧要对所以不同的人对受 AI？
+[Speaker 2]: 的影响是不一样的然后你，
+[Speaker 2]: 能在这里面赚到钱呢应，
+[Speaker 1]: 该是你本身和 AI 的结合。
+[Speaker 1]: 就，
+[Speaker 1]: 是如果所有人都去追 AI 那其实只，
+[Speaker 1]: 有基建公司就比如说啊这个互，
+[Speaker 1]: 联网都出来？
+[Speaker 1]: 了以后你应该去造网页吗啊不是。
+[Speaker 2]: 你应该去造另外一个 browser。
+[Speaker 2]: 吗，
+[Speaker 2]: 不应该对吧应该去在，
+[Speaker 2]:  broser 基础上做网页钢铁出来的时候你要？
+[Speaker 1]: 去，
+[Speaker 1]: 跟洛克菲勒竞，
+[Speaker 2]: 争嘛你要去造铁路吗嗯可，
+[Speaker 2]: 以但？
+[Speaker 2]: 是，
+[Speaker 2]: 最后只会出来一个洛克菲勒你今？
+[Speaker 2]: 天去跟 open IH topis 去竞争 AI 那最后只会被 open IH topic。
+[Speaker 2]: 看看看见你都没看见的直接，
+[Speaker 2]: 你压掉了完全没有完全不。
+[Speaker 2]: 知道你的存在然后就啪碾，
+[Speaker 2]: 死了对但是你如果在，
+[Speaker 2]: 这个新时代去做符合自己的事情对吧，
+[Speaker 2]: 符合你擅长的事情？
+[Speaker 2]: 你，
+[Speaker 2]: 想解决的事情你可以利用这个时？
+[Speaker 2]: 代去把自己？
+[Speaker 2]: 做的更好就我猜钢铁时代，
+[Speaker 2]: 肯定有一家酿酒，
+[Speaker 2]: 厂他的业务得到了极大扩，
+[Speaker 2]: 张因为他之前可？
+[Speaker 2]: 能，
+[Speaker 2]: 酿酒，
+[Speaker 2]: 的就很麻烦呃就实病人也很小后来。
+[Speaker 2]: 他的酒或者你奶或者 whatever 就可，
+[Speaker 2]: 以被公路送到更远的地方，
+[Speaker 2]: 了一个做衣服的他，
+[Speaker 2]: 的可能业务也，
+[Speaker 2]: 受到了很多扩张等等等等对吧，
+[Speaker 2]: 就是我们去想恋。
+[Speaker 2]: 爱，
+[Speaker 2]: 我们不要去不不需要去想 AI 这个行业本身 AI 这，
+[Speaker 2]: 个行？
+[Speaker 2]: 业可以是帮我们的，
+[Speaker 2]: 但是你要把自己，
+[Speaker 2]: 的行业给做好了嗯把自己的行业给做好。
+[Speaker 2]: 嗯对然后看看能不能就是让 AI 放大，
+[Speaker 2]: 立即哎这个很这个很立解。
+[Speaker 2]: 的是是这样然后一定能放大爱马仕，
+[Speaker 2]: 不，
+[Speaker 2]: 被 AI 放大我觉得。
+[Speaker 2]: 挺好的是是这样子对是这样子当当然了就是就是我哎呀我我。
+[Speaker 2]: 昨天把那个 t，
+[Speaker 2]: 恤送给别人了就是我那个 AI native 呃的一篇文，
+[Speaker 2]: 章嘛？
+[Speaker 2]: 然后你如果看那个，
+[Speaker 2]: 就是 shops 里边就是上面是 AI native 等于呃应，
+[Speaker 2]: 该是那个 test the limits 然后 on the outcome 然后，
+[Speaker 2]:  i learn 的就是你过去错误的那些想，
+[Speaker 1]: 法，
+[Speaker 1]: 呃所以说你你拥抱 AI。
+[Speaker 1]: 就，
+[Speaker 1]: 是，
+[Speaker 2]: 绝大多数人的问题是没有拥抱，
+[Speaker 1]:  AI 然后，
+[Speaker 1]: 你不拥抱 AI 呢你就不知道什么，
+[Speaker 2]: 变化了很多都问题，
+[Speaker 2]: 之前是没有解的现，
+[Speaker 2]: 在有解了或者。
+[Speaker 1]: 说之前的解。
+[Speaker 1]: 释，
+[Speaker 2]: 不效率现。
+[Speaker 2]: 在有些些，
+[Speaker 2]: 变得更效率但是，
+[Speaker 2]: 你不拥抱 AI 你是不知道这些东西，
+[Speaker 2]: 的存在所以我说回归自己呢是前。
+[Speaker 2]: 提还是你得先充分了解 AI 出门，
+[Speaker 2]: 了解 AI 了你以后，
+[Speaker 2]: 你回归自己发现哦这个东，
+[Speaker 2]: 西可能确实。
+[Speaker 2]: 就是不能被 AI 改变但是你不了解 AI 的情。
+[Speaker 2]: 况，
+[Speaker 2]: 下你是没有办法说，
+[Speaker 2]: 这句话的那我们做的就是真正赚的钱。
+[Speaker 2]: 都是来自于增量嘛，
+[Speaker 2]: 就是如果这件事之前都被。
+[Speaker 2]: 解决的很好了你没有带来增，
+[Speaker 2]: 量的话你也，
+[Speaker 2]: 没有办法多赚钱嗯我们尤，
+[Speaker 2]: 其作为年轻人来说呃我。
+[Speaker 2]: 们赚的钱是来自，
+[Speaker 2]: 自增量量拥抱 AI 然后看到不。
+[Speaker 2]: 同行业有什么东西能被来解决，
+[Speaker 2]: 的更好我相信这个大方向是没错的理解这个，
+[Speaker 2]: 其实就刚才我感觉，
+[Speaker 2]: 就是从那个愚昧之巅到开悟之坡一样就。
+[Speaker 2]: 是我们一开始不啥都不知，
+[Speaker 2]: 道然后恐慌但是要先拥抱拥抱了之后然后穿越那些恐慌和迷茫再知道哦。
+[Speaker 2]: 原来有些是不变的嗯有些是不变的然后，
+[Speaker 2]: 有些是可以变得更好，
+[Speaker 2]: 的嗯这个这个特别有启。
+[Speaker 2]: 发，
+[Speaker 2]: 然后呃我们快接近尾声了，
+[Speaker 2]: 哈，
+[Speaker 2]: 呃最后辛苦你哈你这这个国内现在。
+[Speaker 2]: 两点了没事我我这个今天收获特别多呃最后一个。
+[Speaker 2]: 问题就是呃因为我还是想紧扣。
+[Speaker 1]: 紧扣我们呃今天也还是有不断聊的这个真本事和真本领嘛对是的，
+[Speaker 1]: 然后那如果呃今天我们在听听，
+[Speaker 1]: 这一期的，
+[Speaker 1]: 这个听友哈呃，
+[Speaker 1]: 觉得用的 AI，
+[Speaker 1]: 用的还行但是总觉得没有，
+[Speaker 1]: 这个真正，
+[Speaker 1]: 的突破呃课代表你，
+[Speaker 2]: 觉，
+[Speaker 2]: 得呃可以先建，
+[Speaker 2]: 议他做哪一件事情呢哦我说。
+[Speaker 2]: 的，
+[Speaker 1]: 就是三步第一步用 agents 而，
+[Speaker 1]: 不是 chat 就是用 code as class code curser 对。
+[Speaker 2]: 吧呃第二步是先写，
+[Speaker 2]:  skill 再执行这个我们在社区，
+[Speaker 2]: 的 noledge，
+[Speaker 1]:  bank 都是免费的文章大家直。
+[Speaker 1]: 接，
+[Speaker 1]: 去可以去看而且这个 skill 它不是一个风格的 skill 它是，
+[Speaker 1]: 一，
+[Speaker 1]: 个结果的 skill 它是一个内容的 skill 就是你要告诉 AI。
+[Speaker 1]: 你，
+[Speaker 1]: 的这。
+[Speaker 1]: 个想要的东西是什么鸭哥甚至有一个 skill creator 的 skill 就是你，
+[Speaker 1]: 去用他的 skill creator 他就能帮，
+[Speaker 1]: 助你写到一个好用的 skill 就是很多。
+[Speaker 1]: 人，
+[Speaker 1]: 他写了，
+[Speaker 1]: 一个 skill 其实是限制了 AI 的发挥你要写一？
+[Speaker 2]: 个，
+[Speaker 2]: 就是能让 AI 做到，
+[Speaker 2]: 你想做的事，
+[Speaker 2]: 儿第三个就，
+[Speaker 2]: 是积累自己的上下，
+[Speaker 2]: 文呃？
+[Speaker 2]: 多，
+[Speaker 2]: 积累自己的上下文这三。
+[Speaker 2]: 个能做好的话我觉得基本上是干了百分，
+[Speaker 2]: 之八九十的事儿而且。
+[Speaker 2]: 第第二个 scale 里边我们也包含了就，
+[Speaker 2]: 是怎么样子打通更，
+[Speaker 2]: 多工具然后 AI 可以，
+[Speaker 2]: 操作更多的工具嗯如果做到了这件事儿你再结？
+[Speaker 2]: 合第一个你有不断，
+[Speaker 2]: 的习惯，
+[Speaker 2]: 把所有的事情交给，
+[Speaker 2]:  AI 就差不多了理解这个太棒然后呃。
+[Speaker 2]: 今天听到这里的这个听友，
+[Speaker 2]: 呢如果对我们这一期呃特。
+[Speaker 2]: 别感兴趣特别有感触的话可以在评论区里。
+[Speaker 2]: 留言然后我们会抽呃三到五位，
+[Speaker 2]: 听，
+[Speaker 2]: 友然后送出课代表的。
+[Speaker 2]: 这本书呃真本事然，
+[Speaker 2]: 后对这个呃还进一步感兴趣也可以加入我。
+[Speaker 2]: 们的听友群之后我们会分享怎么样可以呃加入我们的这个 AI 的这，
+[Speaker 2]: 个社区进行更深度的学习哦。
+[Speaker 2]: 对，
+[Speaker 2]: 呃呃我我这次来还带，
+[Speaker 2]: 了礼物就是可以，
+[Speaker 2]: 给你一个就是给，
+[Speaker 2]: 你的听友们一个我们的会员的体，
+[Speaker 1]: 验版然后这个那。
+[Speaker 1]: 那要不我再重我再重问一下这样不，
+[Speaker 1]: 用不用不用不用就是啊啊你行你，
+[Speaker 1]: 重说也行哎好呃，
+[Speaker 1]: 呃然后呃特别感谢课。
+[Speaker 1]: 代表这次呃做客破局点然后也，
+[Speaker 1]: 会有一些福利那课代表可以跟我们。
+[Speaker 1]: 说一下哦对我就是我们不是社区。
+[Speaker 1]: 有那个会员嘛然后这个会员我，
+[Speaker 1]: 给你们的听友专门准备了一个就是专属的一百个名额的这个体验卡啊就是。
+[Speaker 2]: 可，
+[Speaker 2]: 以去体，
+[Speaker 2]: 验呃体验三十天然后这个，
+[Speaker 2]: 三十天你可以看到什么呢你可以看到，
+[Speaker 2]: 我们的那个三门课程包括。
+[Speaker 1]: 真本式的课程然后包括 AI，
+[Speaker 1]:  coding 包括针对 AI，
+[Speaker 2]: 的课程然后包括我们大师课所有的大，
+[Speaker 2]: 师课的回放。
+[Speaker 2]: 像，
+[Speaker 1]: 徐老师的大师课然后前段就是，
+[Speaker 1]: 两天前大家呢刚刚讲，
+[Speaker 1]: 怎么样子 build 自己的个。
+[Speaker 1]: 人品牌然后下一个应该如果大，
+[Speaker 2]: 家你放你这这一个月放的话下一个听，
+[Speaker 2]: 到的是那个陈畅就是硅谷的增长大师专门讲你的产品怎么样子找到第一批用户怎么样子，
+[Speaker 2]: 确定你的这个产品是真的受非。
+[Speaker 2]: 常喜爱的就是可以看直播来直接问？
+[Speaker 2]: 问题然后也可以听回放然后还有我，
+[Speaker 2]: 们很多的呃这个做，
+[Speaker 2]: 出来的工具都，
+[Speaker 2]: 可以给大家用更不，
+[Speaker 2]: 要说就是我们各种这，
+[Speaker 2]: 个技术分享文章啊然，
+[Speaker 2]: 后前言分析文章啊。
+[Speaker 2]: 都是可以在里边看然，
+[Speaker 2]: 后你在里边也可以联系到很多人这些都可。
+[Speaker 2]: 以邀请大家来免费体验呃然后我们课程也会有这个折，
+[Speaker 2]: 扣码到时候我们可以请苗，
+[Speaker 2]: 老师帮你设置一下如。
+[Speaker 2]: 果大家对我们课程感兴趣，
+[Speaker 2]: 的话就是这个硅谷这么多，
+[Speaker 2]: 一线从业者都觉得非常有用的课程呃就，
+[Speaker 2]: 会给你一个就是市面上最好的，
+[Speaker 2]: 折扣对因为我自己是。
+[Speaker 2]: 长期在我们这个社区里面去学习嘛然后这一期然后对呃我，
+[Speaker 2]: 们听友对这个感兴趣的话可以进加入我们的，
+[Speaker 2]: 这个听友群然后在评，
+[Speaker 2]: 论区下方写呃破局，
+[Speaker 2]: 点真本事啊就可以了我们就知道是，
+[Speaker 2]: 你了啊特别感谢今天有机会可以呃。
+[Speaker 2]: 采，
+[Speaker 2]: 访到课代表我自己也是收获很多，
+[Speaker 2]: 非常感谢感谢感谢感谢郑明我今天聊的。
+[Speaker 2]: 也非常开心我觉得聊出来很多这，
+[Speaker 2]: 个非常深的点都问题都问的非常棒谢谢因为我我会觉。
+[Speaker 2]: 得我特，
+[Speaker 2]: 别有收获点是因为呃这段时间经常扎。
+[Speaker 1]: 根，
+[Speaker 1]: 到这个就是企业端嘛会发现哇这个跟大家想象的。
+[Speaker 1]: 是完全不一样对企业端真的是哦我哦 youtube 让你看你现，
+[Speaker 1]: 在在右边看了一个 chat 然后 public chat，
+[Speaker 1]: 还有一些 youtube 直播的因为我这个是后台直直接对着。
+[Speaker 1]:  youtube 然后有人问说今天，
+[Speaker 1]: 主题是什么介绍一下嘉宾你可不可以给大，
+[Speaker 1]: 家介绍一下你因为就是。
+[Speaker 2]: 在 youtube 上的观众可能还不知道。
+[Speaker 2]: 你是谁到时候他们看直播，
+[Speaker 2]: 回放的话就可以好没问题呃我是破，
+[Speaker 2]: 局点的主播然后我现。
+[Speaker 1]: 在自。
+[Speaker 1]: 己呢是在做这个呃企业的这个我，
+[Speaker 1]: 们是做组织提效啊然后组织管理咨询然后但是近，
+[Speaker 1]: 期也会做一些这个 f 一的这个工作那我们。
+[Speaker 2]: 主，
+[Speaker 2]: 要服务的都是一，
+[Speaker 2]: 些这，
+[Speaker 2]: 种呃中大型的这个制造业还有集团，
+[Speaker 2]: 型公司所，
+[Speaker 2]: 以他人会比较多就。
+[Speaker 2]: 像刚才跟课代表有聊到的然后他。
+[Speaker 2]: 们的这个部门会很多这个售中？
+[Speaker 2]: 售落后然后呃制，
+[Speaker 2]: 造呃这个会相对来说复杂一？
+[Speaker 2]: 点嗯然后我们现在这我们这家公司啊已经这个，
+[Speaker 2]: 其实帮忙做这个企业咨询已经将近。
+[Speaker 1]: 呃，
+[Speaker 1]: 二十多。
+[Speaker 1]: 年，
+[Speaker 1]: 了然后现在我自己。
+[Speaker 1]: 是在杭州这边嗯就像刚才课代表说的叫嗯内部创业内部创业在杭，
+[Speaker 1]: 州这边嗯内部创业。
+[Speaker 1]: 然后是想探索一个新的方向然后我们自己破局。
+[Speaker 1]: 点就是主要都是采访一些 AI 行业的这个从业者呃以及一，
+[Speaker 1]: 些专家当然还有。
+[Speaker 1]: 一些企业加合他们的。
+[Speaker 1]: 一些视角那然后也是希望大，
+[Speaker 1]: 家可以更多的关注呃 AI 时代下我们怎么样去，
+[Speaker 1]: 创业嗯好嘞好嗯特别感谢嗯那好。
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 2]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: 。
