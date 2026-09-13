@@ -31,6 +31,7 @@ products_models:
   - "Office"
   - "Linux"
 media_books: []
+date: "2025-12-23"
 source: https://www.youtube.com/watch?v=Atw2h2qCL4o
 speaker: 课代表立正
 status: evergreen
