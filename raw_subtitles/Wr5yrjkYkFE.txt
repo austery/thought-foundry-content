@@ -1,0 +1,8109 @@
+Can
+ you
+ just
+ read
+ the
+ third
+ post
+ from
+
+
+your
+ thread?
+
+
+>> Okay.
+ The
+ people
+ building
+ AI
+ earnestly
+
+
+believe
+ that
+ it
+ could
+ kill
+ us
+ all
+ by
+ the
+
+
+end
+ of
+ the
+ decade.
+ This
+ is
+ not
+ a
+
+
+marketing
+ stunt.
+
+
+If
+ anything,
+ many
+ executives
+ and
+ senior
+
+
+researchers
+ will
+ couch
+ their
+ phrasing
+ in
+
+
+the
+ press
+ to
+ sound
+ sensible,
+ but
+ I
+ hear
+
+
+the
+ same
+ people
+ express
+ fear
+ privately.
+
+
+No
+ other
+ human
+ activity
+ poses
+ this
+ level
+
+
+of
+ danger.
+
+
+From
+ the
+ New
+ York
+ Times,
+ I'm
+ Natalie
+
+
+Kitroof.
+ This
+ is
+ the
+ daily.
+
+
+>> A
+ dire
+ warning
+ about
+ AI
+ and
+ humanity
+
+
+from
+ a
+ former
+ anthropic
+ researcher
+ who
+
+
+suddenly
+ resigned.
+
+
+>> Over
+ the
+ last
+ week,
+ a
+ young
+ AI
+
+
+researcher
+ quit
+ anthropic
+ and
+ posted
+
+
+warnings
+ about
+ the
+ risks
+ of
+ artificial
+
+
+intelligence
+ that
+ went
+ viral.
+
+
+>> I
+ want
+ to
+ better
+ understand
+ [music]
+ what
+
+
+you
+ mean
+ when
+ you
+ say
+ AI
+ could
+ kill
+ us
+
+
+all.
+ What
+ is
+ the
+
+
+>> I
+ mean,
+ how
+ likely
+ is
+ this
+ doomsday
+
+
+scenario
+ that
+ you've
+ presented?
+
+
+>> And
+ he's
+ not
+ the
+ only
+ one
+ to
+ sound
+ the
+
+
+alarm.
+ [music]
+
+
+>> And
+ kicked
+ off
+ a
+ crisis
+ that
+ culminated
+
+
+this
+ weekend
+ in
+ a
+ call
+ to
+ action
+ by
+ the
+
+
+most
+ prominent
+ leaders
+ in
+ the
+ industry.
+
+
+[music]
+
+
+We
+ begin
+ with
+ the
+ stunning
+ news
+ from
+
+
+anthropic
+ CEO
+ Daario
+ Amade
+ that
+ he
+ is
+
+
+urging
+ a
+ slowdown
+ [music]
+ when
+ it
+ comes
+
+
+to
+ the
+ development
+ of
+ artificial
+
+
+intelligence.
+ It
+ was
+ a
+ pronouncement
+
+
+that
+ his
+ chief
+ competitor,
+ Open
+ AI
+ CEO
+
+
+Sam
+ Alman
+ [music]
+
+
+and
+ Elon
+ Musk
+ quickly
+ agreed
+ with.
+ Those
+
+
+leaders
+ came
+ out
+ in
+ favor
+ of
+ a
+ global
+
+
+slowdown
+ in
+ the
+ development
+ of
+
+
+artificial
+ intelligence.
+
+
+>> It's
+ funny,
+ I
+ I
+ agree
+ with
+ [music]
+ Jacob
+
+
+much
+ more
+ than
+ I
+ disagree
+ with
+ him
+
+
+because
+ when
+ he
+ left,
+ he
+ said,
+ you
+ know,
+
+
+I
+ think
+ Anthropic
+ [music]
+ is
+ the
+ most
+
+
+responsible
+ player,
+ right?
+ He
+ wasn't
+
+
+calling
+ out
+ us.
+ He
+ was
+ calling
+ out
+ the
+
+
+dynamic
+ of
+ the
+ industry
+ as
+ a
+ whole
+
+
+moving
+ too
+ fast.
+ [music]
+
+
+>> Today
+ we
+ talked
+ to
+ the
+ researcher
+ who
+
+
+got
+ us
+ to
+ this
+ milestone
+ moment,
+ Jacob
+
+
+Coxin.
+
+
+It's
+ Monday,
+ September
+ 14th.
+
+
+Jacob,
+ hi.
+
+
+>> What's
+ up?
+
+
+>> Can
+ you
+ hear
+ us?
+
+
+>> Yeah,
+ I
+ can
+ hear
+ you
+ fine.
+
+
+>> Perfect.
+ Great.
+ Thanks
+ for
+ being
+ here.
+
+
+By
+ now,
+ I
+ think
+ you've
+ been
+ on
+ maybe
+
+
+every
+ major
+ news
+ network
+ saying
+
+
+essentially
+ that
+ AI
+ could
+ pose
+ an
+
+
+existential
+ threat
+ to
+ humanity.
+ And
+
+
+we've
+ seen
+ industry
+ leaders
+ grappling
+
+
+with
+ that,
+ lawmakers
+ as
+ well.
+ Did
+ you
+
+
+anticipate
+ this
+ kind
+ of
+ response?
+
+
+>> No,
+ I
+ just
+ wanted
+ to
+ tweet
+ what
+ I
+ was
+
+
+thinking.
+ I
+ expected
+ it
+ to
+ maybe
+ go
+ a
+
+
+bit
+ viral
+ among
+ people
+ that
+ already
+
+
+shared
+ this
+ belief,
+ but
+ I
+ did
+ not
+ expect
+
+
+it
+ to
+ hit
+ the
+ whole
+ world.
+ It's
+ kind
+ of
+
+
+surprising
+ to
+ me
+ that
+ it
+ was
+ uh
+ my
+ tweet
+
+
+that
+ happened
+ to
+ trigger
+ a
+ particular
+
+
+wave
+ of
+ talking
+ about
+ this
+ because
+ of
+
+
+course
+ the
+ experts
+ have
+ been
+ talking
+
+
+about
+ this
+ for
+ like
+ so
+ long.
+
+
+>> Okay.
+ Well,
+ we're
+ going
+ to
+ get
+ to
+ the
+
+
+tweet,
+ but
+ I
+ want
+ to
+ start
+ this
+
+
+conversation
+ by
+ just
+ asking
+ you
+ about
+
+
+your
+ first
+ experience
+ with
+ AI.
+
+
+When
+ was
+ the
+ first
+ time
+ that
+ you
+ heard
+
+
+about
+ this
+ technology?
+ Do
+ you
+ remember?
+
+
+>> I
+ remember
+ the
+ first
+ time
+ I
+ heard
+ about
+
+
+it
+ really
+ working
+ was
+ Alph
+ Go
+ in
+ 2016.
+
+
+>> A
+ Google
+ Superco
+ computer
+ has
+ beaten
+ the
+
+
+world's
+ best
+ player
+ at
+ the
+
+
+30,000year-old
+ Chinese
+ board
+ game
+ called
+
+
+Go.
+ So
+ that
+ was
+ when
+ Deep
+ Mind's
+ go
+
+
+playing
+ AI
+ beat
+ Lee
+ Sadal,
+ the
+ champion
+
+
+go
+ player
+ in
+ a
+ match.
+
+
+>> The
+ aim
+ of
+ the
+ game
+ is
+ to
+ capture
+ as
+
+
+much
+ territory
+ as
+ possible
+ on
+ a
+ 19
+ by19
+
+
+square
+ grid
+
+
+>> and
+ that
+ was
+ pretty
+ crazy.
+
+
+>> There
+ are
+ more
+ possible
+ moves
+ on
+ the
+
+
+board
+ than
+ atoms
+ in
+ the
+ universe.
+
+
+>> I
+ studied
+ math
+ in
+ college,
+ but
+ I
+ sucked
+
+
+a
+ go.
+ It
+ was
+ like
+ exciting
+ to
+ hear
+ that
+
+
+a
+ I
+ could
+ win
+ at
+ that.
+
+
+And
+ then
+ GPD3
+ released
+ during
+ the
+
+
+pandemic
+ [music]
+ when
+ I
+ was
+ graduating.
+
+
+>> Chat
+ GPT,
+ which
+ is
+ a
+ new
+ product
+ from
+
+
+OpenAI.
+ It's
+ a
+ remarkable
+ [music]
+ beta
+
+
+service.
+
+
+>> It
+ can
+ interpret
+ human
+ language,
+ answer
+
+
+questions.
+ It
+ can
+ even
+ generate
+ written
+
+
+texts,
+ essays,
+ books,
+ news
+ articles,
+ and
+
+
+even
+ computer
+ code.
+ And
+ it's
+ really
+
+
+good.
+ By
+ the
+ early
+ 2020s,
+ so
+ by
+ 5
+ years
+
+
+ago,
+ it
+ was
+ pretty
+ clear
+ that
+ this
+ was
+
+
+going to
+ be
+ a
+ pretty
+ big
+ deal.
+ this
+ was
+
+
+going
+ to
+ be
+ more
+ important
+ than
+ doing
+
+
+math
+ or
+ [music]
+ basically
+ anything
+ else.
+
+
+>> What
+ was
+ it
+ about
+ those
+ models
+ that
+ made
+
+
+you
+ feel
+ that
+ way
+ that
+ made
+ you
+ sure
+ of
+
+
+that?
+
+
+>> Specifically,
+ it's
+ uh
+ GPG3
+ was
+ the
+ first
+
+
+model
+ that
+ was
+ capable
+ of
+ these
+ quite
+
+
+general
+ behaviors.
+ It
+ was
+ this
+ evidence
+
+
+that
+ you
+ could
+ do
+ this
+ general
+ training
+
+
+procedure
+ and
+ then
+ some
+ new
+ capabilities
+
+
+would
+ pop
+ out
+ of
+ it.
+ By
+ that
+ point,
+ I
+
+
+was
+ pretty
+ convinced
+ the
+ singularity
+
+
+would
+ happen
+ at
+ some
+ point,
+ as
+ were
+ a
+
+
+lot
+ of
+ people.
+
+
+>> Can
+ you
+ define
+ singularity
+ in
+ this
+
+
+context
+ for
+ people
+ who
+ may
+ not
+ be
+ super
+
+
+familiar
+ with
+ what
+ that
+ actually
+ means?
+
+
+>> I
+ think
+ one
+ way
+ of
+ thinking
+ about
+ it
+ is
+
+
+it's
+ the
+ point
+ beyond
+ which
+ you
+ can't
+
+
+see.
+ It's
+ like
+ a
+ sort
+ of
+ wall
+ when
+ you
+
+
+look
+ into
+ the
+ future.
+ And
+ the
+ the
+ reason
+
+
+for
+ that
+ is
+ everything
+ gets
+ faster.
+ So
+
+
+imagine
+ you're
+ you're
+ training
+ an
+ AI
+ and
+
+
+it
+ makes
+ itself
+ smarter.
+ So
+ the
+ what
+
+
+previously
+ took
+ 6
+ months
+ now
+ takes
+ 3
+
+
+months.
+ The
+ singularity
+ is
+ just
+ this
+
+
+increasing
+ chaos
+ as
+ machines
+ accelerate
+
+
+the
+ process
+ that's
+ creating
+ them
+ until
+
+
+eventually
+ you
+ can
+ expect
+ years
+ worth
+ of
+
+
+research
+ progress
+ happening
+ in
+ days
+ and
+
+
+then
+ years
+ of
+ research
+ happening
+ in
+ in
+
+
+hours
+
+
+>> and
+ then
+ like
+ you
+ can't
+ see
+ past
+ the
+ big
+
+
+wall.
+
+
+>> And
+ were
+ you
+ excited
+ about
+ that?
+ Were
+
+
+you
+ worried
+ about
+ it?
+ Were
+ you
+ like
+
+
+talking
+ about
+ it
+ with
+ your
+ friends
+ over
+
+
+beers?
+ Like
+ what
+ was
+ the
+ vibe
+ for
+ you?
+
+
+>> Yeah,
+ people
+ talk
+ about
+ it.
+ people
+ think
+
+
+about
+ it.
+ It
+ also
+ makes
+ people
+ crazy.
+
+
+So,
+ [laughter]
+
+
+I
+ mean,
+ like
+ thinking
+ about
+ all
+ of
+ your
+
+
+labor
+ becoming
+ obsolete
+ does
+ turn
+ people
+
+
+insane
+ once
+ they
+ actually
+ internalize
+ it
+
+
+or
+ from
+ the
+ perspective
+ of
+ other
+ people
+
+
+makes
+ them
+ sound
+ insane.
+
+
+>> Sure.
+
+
+>> Because
+ it
+ does
+ it
+ forces
+ you
+ to
+ toss
+
+
+around
+ ideas
+ like,
+ oh,
+ this
+ could
+ cause
+
+
+extinction
+ or
+ this
+ could
+ cause,
+ you
+
+
+know,
+ utopia
+ and
+ these
+ ideas
+ are
+ often
+
+
+tossed
+ around
+ by
+ people
+ who
+ are
+ working
+
+
+on
+ this
+ technology.
+ I
+ think
+ at
+ the
+ time,
+
+
+yeah,
+ I
+ I
+ wouldn't
+ say
+ maybe
+ crazy,
+ but
+
+
+there
+ was
+ this
+ nebulous
+ possibility
+ of
+ a
+
+
+big
+ thing
+
+
+>> that
+ was
+ like
+ it's
+ kind
+ of
+ a
+ mixture
+ of
+
+
+upside
+ and
+ downside,
+ but
+ you
+ don't
+
+
+really
+ differentiate
+ between
+ those
+ when
+
+
+you're
+ so
+ far
+ away
+ from
+ it.
+
+
+>> I
+ mean,
+ man,
+ I
+ knew
+ a
+ guy
+ who
+ like
+ he
+
+
+was
+ convinced
+ that
+ he
+ made
+ people
+
+
+conscious
+ by
+ interacting
+ with
+ them.
+
+
+>> He
+ was
+ so
+ close
+ to
+ AI.
+ He
+ was
+ like,
+ I'm
+
+
+in
+ a
+ simulation.
+ Other
+ people,
+ if
+
+
+they're
+ not
+ involved
+ in
+ AI,
+ aren't
+
+
+conscious.
+
+
+>> But
+ if
+ I
+ interact
+ with
+ them,
+ they
+ become
+
+
+part
+ of
+ the
+ AI
+ thing.
+ So,
+ they
+ become
+
+
+conscious.
+ So
+ he
+ was
+ like,
+ "When
+ I
+ shake
+
+
+hands
+ with
+ someone,
+ I
+ imbue
+ them
+ with
+
+
+consciousness."
+ This
+ just
+ to
+ give
+ a
+
+
+flavor
+ of
+ like
+ what
+ thinking
+ about
+ this
+
+
+stuff
+ does
+ to
+ people.
+
+
+>> Got
+ it.
+ Okay.
+ So
+ given
+ all
+ that,
+ talk
+ to
+
+
+me
+ about
+ how
+ you
+ decided
+ to
+ go
+ work
+ at
+
+
+OpenAI.
+ What
+ was
+ that
+ decision
+ like?
+
+
+>> It
+ was
+ pretty
+ spur
+ of
+ the
+ moment.
+ It
+ was
+
+
+not
+ some
+ like
+ grand
+ master
+ plan.
+ The
+
+
+opportunity
+ came
+ up.
+ They
+ were
+ doing
+
+
+really
+ cool
+ stuff.
+ The
+ research
+ is
+
+
+interesting.
+ I've
+ been
+ thinking
+ about
+
+
+this
+ for
+ a
+ while.
+ So
+ I
+ decided
+ to
+ move
+
+
+to
+ San
+ Francisco.
+ And
+ what
+ was
+ it
+ like?
+
+
+So
+ many
+ of
+ us
+ obviously
+ know
+ of
+ this
+
+
+company,
+ but
+ we
+ have
+ no
+ idea
+ what
+ it's
+
+
+like
+ to
+ be
+ inside
+ it.
+
+
+>> Yeah.
+ So,
+ it's
+ basically
+ like
+ a
+
+
+fastmoving
+ research
+ lab
+ where
+ there
+
+
+happens
+ to
+ be
+ a
+ lot
+ of
+ money
+ flying
+
+
+around
+ from
+ investors.
+ Imagine
+ like
+ it's
+
+
+like
+ an
+ open
+ floor
+ office,
+ a
+ lot
+ of
+
+
+whiteboards
+ around,
+ a
+ lot
+ of
+ little
+
+
+meeting
+ rooms,
+ people
+ kind
+ of
+ in
+ huddles
+
+
+brainstorming
+ on
+ whiteboards,
+
+
+>> a
+ lot
+ of
+ [clears throat]
+ talk
+ at
+
+
+lunchtime
+ about
+ the
+ future
+ of
+ AI,
+ also
+
+
+specific
+ technical
+ problems.
+ Imagine
+
+
+like
+ a
+ university
+ department
+ which
+
+
+happens
+ to
+ have
+ like
+ really
+ nice
+ free
+
+
+food.
+
+
+>> And
+ in
+ layman's
+ terms,
+ what
+ did
+ you
+
+
+actually
+ do?
+ I
+ know
+ you
+ said
+ research,
+
+
+but
+ what
+ did
+ that
+ mean
+ actually?
+ Like
+
+
+what
+ were
+ you
+ working
+ on?
+ What
+ was
+
+
+exciting
+ about
+ it?
+
+
+>> So,
+ uh,
+ data,
+ which
+ I
+ know
+ often
+ freaks
+
+
+people
+ out
+ cuz
+ they're
+ like,
+ "Oh,
+ you
+
+
+mean
+ like
+ stealing
+ all
+ my
+ work
+ and
+
+
+training
+ AI
+ on
+ like
+ my
+ family
+ photos
+ and
+
+
+stuff?"
+ But
+ other
+ people
+ stole
+ the
+ data
+
+
+or
+ scraped
+ the
+ data.
+ Um,
+ [laughter]
+
+
+>> that
+ wasn't
+ you.
+ No,
+ that
+ wasn't
+ me.
+ I
+
+
+was
+ I
+ I
+ was
+ part
+ of
+ the
+ research
+ team
+
+
+that
+ would
+ take
+ the
+ data
+ that
+ we
+ scraped
+
+
+and
+ then
+ decide
+ which
+ bits
+ were
+ good
+ to
+
+
+train
+ on.
+
+
+>> Interesting.
+
+
+>> Not
+ all
+ data
+ is
+ good.
+ So,
+ if
+ someone
+
+
+writes
+ like
+ if
+ you
+ write
+ like
+ garbage
+
+
+pros
+ online,
+ I
+ we
+ don't
+ want
+ to
+ put
+ that
+
+
+in
+ the
+ AI.
+ We
+ want
+ to
+ give
+ it
+ the
+ good
+
+
+stuff.
+
+
+>> Uhhuh.
+
+
+>> But
+ it's
+ a
+ little
+ bit
+ hard
+ to
+
+
+automatically
+ tell
+ what
+ the
+ good
+ stuff
+
+
+is
+ versus
+ the
+ bad
+ stuff.
+
+
+>> How
+ did
+ you
+ do
+ that?
+ How
+ did
+ you
+ figure
+
+
+that
+ out?
+ What's
+ good
+ data?
+ What's
+ bad
+
+
+data?
+
+
+>> Broadstrokes
+ is
+ you
+ try
+ and
+ divide
+ it
+
+
+into
+ different
+ types
+ at
+ quite
+ a
+ granular
+
+
+level.
+ So
+ say
+ like
+ this
+ is
+ essays
+
+
+written
+ by
+ motorcyclists
+ or
+ whatever
+ and
+
+
+this
+ is
+ like
+ photos
+ of
+ monkeys
+ and
+ then
+
+
+you
+ test
+ with
+ baby
+ models
+ baby
+ AIS
+ do
+
+
+they
+ prefer
+ to
+ see
+ the
+ photos
+ of
+ monkeys
+
+
+or
+ the
+ motorcyclist
+ essays
+
+
+>> and
+ then
+ in
+ terms
+ of
+ which
+ makes
+ them
+
+
+more
+ intelligent
+ and
+ after
+ you've
+ tested
+
+
+you
+ say
+ okay
+ we'll
+ have
+ more
+ of
+ the
+
+
+essays
+ and
+ less
+ of
+ the
+ monkey
+ photos
+
+
+>> right
+
+
+>> and
+ then
+ at
+ big
+ scale
+ that's
+ basically
+
+
+what
+ you
+ do
+ you're
+ just
+ testing
+
+
+different
+ types
+ of
+ things
+ to
+ see
+ which
+
+
+ones
+ help
+ with
+ making
+ it
+ intelligent
+ and
+
+
+which
+ ones
+ don't
+ help
+ with
+ making
+
+
+intelligent.
+
+
+>> Was
+ there
+ a
+ moment
+ when
+ you
+ were
+ working
+
+
+at
+ OpenAI
+ where
+ you
+ felt
+ like
+ okay
+ I
+ am
+
+
+part
+ of
+ something
+ that
+ is
+ really
+
+
+recognizing
+ the
+ potential
+ of
+ this
+
+
+technology
+ something
+ that
+ would
+ just
+
+
+help
+ us
+ understand
+ for
+ people
+ who
+ find
+
+
+it
+ difficult
+ to
+ like
+ imagine
+ what
+ the
+
+
+work
+ actually
+ is.
+
+
+>> Something
+ concrete.
+
+
+>> Okay,
+ you
+ asked
+ for
+ concrete
+ and
+ I'm
+
+
+going
+ to
+ go
+ into
+ like
+ abstract
+ math
+ but
+
+
+I'll
+ try
+ and
+ make
+ it
+ concrete.
+ um
+ an
+ AI
+
+
+system
+ from
+ OpenAI
+ achieved
+ a
+ gold
+ medal
+
+
+at
+ the
+ International
+ Math
+ Olympiad
+ which
+
+
+is
+ like
+ a
+ big
+ math
+ competition
+ and
+ at
+
+
+the
+ time
+ that
+ just
+ felt
+ very
+ crazy
+ in
+
+
+particular
+ I
+ remember
+ two
+ years
+ before
+
+
+it
+ was
+ like
+ struggling
+ with
+ very
+ basic
+
+
+math
+ questions
+
+
+>> right
+
+
+>> I
+ think
+ that
+ was
+ a
+ clear
+ moment
+ of
+ okay
+
+
+I
+ remember
+ myself
+ my
+ younger
+ self
+ being
+
+
+like
+ it's
+ going
+ to
+ be
+ 20
+ years
+ before
+
+
+this
+ happens
+ and
+ it's
+ just
+ happened
+
+
+>> it
+ sounds
+ like
+ at
+ this
+ point
+ when
+ you
+
+
+were
+ working
+ there
+ you
+ were
+ watching
+ in
+
+
+real
+ time
+ your
+ own
+ expectations
+
+
+for
+ what
+ this
+ technology
+ could
+ do,
+ the
+
+
+speed
+ with
+ which
+ it
+ could
+ improve
+ kind
+
+
+of
+ be
+ smashed.
+
+
+>> That's
+ Yeah,
+ that's
+ exactly
+ it.
+ For
+
+
+everyone,
+ almost
+ everyone
+ apart
+ from
+ the
+
+
+most
+ optimistic
+ of
+ people
+ have
+ seen
+
+
+their
+ expectations
+ repeatedly
+ beaten.
+
+
+Like
+ it's
+ moving
+ faster
+ than
+ anyone
+
+
+predicted
+ and
+ at
+ basically
+ every
+
+
+juncture.
+
+
+>> Okay.
+ So
+ earlier
+ this
+ year
+ you
+ decide
+ to
+
+
+leave
+ OpenAI.
+ Talk
+ to
+ me
+ about
+ that
+
+
+decision.
+ Why?
+
+
+>> Yeah.
+ So
+ I
+ had
+ uh
+ friends
+ at
+ Anthropic
+
+
+that
+ I've
+ been
+ talking
+ to
+ for
+ quite
+ a
+
+
+while.
+ I
+ was
+ very
+ curious
+ to
+ see
+ what
+
+
+their
+ internal
+ communications
+ looked
+
+
+like
+ around
+ where
+ the
+ world
+ was
+ going.
+
+
+So
+ I
+ like
+ heard
+ a
+ lot
+ about
+ the
+ fact
+
+
+that
+ they
+ had
+ quite
+ clear
+ thoughts
+ about
+
+
+say
+ the
+ risks
+ the
+ like
+ significant
+ risks
+
+
+that
+ were
+ posed
+ by
+ the
+ tech
+ and
+ they
+
+
+were
+ talking
+ about
+ those
+ risks
+ in
+ a
+ much
+
+
+more
+ transparent
+ manner
+ than
+ than
+ was
+
+
+happening
+ open.
+ But
+ I
+ was
+ mostly
+ just
+
+
+very
+ curious
+ about
+ what
+ was
+ going
+ on
+
+
+inside.
+ And
+ when
+ you
+ got
+ there,
+ describe
+
+
+that.
+ I
+ mean,
+ you
+ have
+ this
+ question.
+ Is
+
+
+it
+ really
+ going
+ to
+ be
+ more
+ transparent?
+
+
+What
+ was
+ it
+ like
+ inside?
+
+
+>> It's
+ largely
+ like
+ a
+ culture
+ thing,
+ but
+ I
+
+
+think
+ a
+ lot
+ of
+ the
+ anthropic
+ is
+ built
+ on
+
+
+this
+ culture
+ of
+ sharing
+ essays
+ with
+ each
+
+
+other.
+ [clears throat]
+
+
+>> So,
+ people
+ will
+ write
+ long
+ essays
+ about
+
+
+very
+ important
+ questions
+ for
+ the
+ future
+
+
+of
+ the
+ company
+ and
+ discuss
+ them
+ with
+
+
+each
+ other.
+ People
+ will
+ argue
+ with
+ each
+
+
+other
+ ranging
+ from
+ like
+ the
+ CEOs
+ who
+ are
+
+
+someone
+ who
+ just
+ started
+ like
+ a
+ week
+
+
+ago.
+ I
+ haven't
+ been
+ at
+ many
+ companies.
+
+
+cuz
+ I
+ was
+ at
+ OpenI
+ and
+ then
+ Anthropic,
+
+
+but
+ it
+ seemed
+ like
+ a
+ pretty
+ insane
+
+
+company
+ culture
+ like
+ in
+ a
+ good
+ way.
+ Like
+
+
+uh
+
+
+>> were
+ were
+ they
+ posting
+ these
+ essays
+ on
+
+
+Slack?
+ Like
+ where
+ did
+ they
+ exist?
+
+
+>> Yeah,
+ Slack
+ is
+ the
+ medium.
+
+
+>> Okay.
+ And
+ what
+ was
+ that
+ like?
+ Someone
+
+
+would
+ post
+ and
+ then
+ people
+ would
+ start
+
+
+commenting.
+ Describe
+ that
+ to
+ me
+ because
+
+
+I
+ too
+ have
+ never
+ experienced
+ that.
+
+
+>> Yeah.
+ So
+ posts
+ would
+ drop
+ and
+ then
+
+
+people
+ will
+ like
+ add
+ more
+ comments
+ and
+
+
+they'll
+ discuss
+ in
+ the
+ comments
+ and
+
+
+increasingly
+ like
+ maybe
+ AIS
+ will
+ chime
+
+
+in.
+ Like
+ an
+ AI
+ will
+ pop
+ in
+ and
+ say
+ like,
+
+
+"Oh,
+ that's
+ pretty
+ cool."
+
+
+>> An
+ AI
+ is
+ participating
+ in
+ the
+ combo.
+
+
+>> Yeah,
+ this
+ is
+ pretty
+ standard
+ now
+ for
+
+
+AIS
+ to
+ just
+ jump
+ in
+ and
+ say
+ that
+ seems
+
+
+good.
+ Um,
+
+
+>> and
+ do
+ you
+ remember
+ like
+ what's
+ an
+
+
+example
+ of
+ one
+ of
+ these
+ essays
+ just
+ so
+ I
+
+
+get
+ my
+ head
+ around
+ this?
+ I
+ kind
+ of
+ love
+
+
+this.
+
+
+>> Sure.
+ General
+ topics,
+ things
+ like
+ um
+ how
+
+
+fast
+ will
+ China
+ move
+ in
+ the
+ next
+ year
+
+
+and
+ what
+ does
+ that
+ mean
+ for
+ our
+ own
+
+
+strategy?
+ Hm.
+
+
+>> Will
+ we
+ be
+ able
+ to
+ stop
+ China
+ stealing
+
+
+AI
+ weights
+ in
+ the
+ next
+ year
+ if
+ they
+
+
+decide
+ to
+ do
+ it?
+ They're
+ not
+ all
+ like
+
+
+that.
+ There's
+ also
+ like
+ essays
+ about
+
+
+like,
+ oh,
+ this
+ is
+ why
+ you
+ should
+ change
+
+
+your
+ font
+ color
+ from
+ red
+ to
+ like
+ a
+
+
+slightly
+ darker
+ red
+ cuz
+ it'll
+ make
+ you
+
+
+type
+ slightly
+ faster.
+ But
+ there's
+
+
+occasional
+ ones
+ like,
+ oh,
+ are
+ we
+ about
+
+
+to
+ enter,
+ you
+ know,
+ like
+ Armageddon?
+
+
+And
+ did
+ this
+ culture
+ shift
+ that
+ you're
+
+
+describing
+ at
+ Anthropic,
+ this
+
+
+willingness
+ to
+ address
+ these
+ big
+
+
+existential
+ questions
+ change
+ how
+ you
+
+
+approached
+ your
+ work
+ or
+ thought
+ about
+
+
+your
+ work?
+
+
+>> Yeah,
+ I
+ think
+ it
+ actually
+ had
+ a
+ bit
+ of
+
+
+an
+ effect.
+ Maybe
+ not
+ consciously,
+ but
+
+
+it's
+ hard
+ to
+ disentangle
+ that
+ from
+ the
+
+
+fact
+ that
+ in
+ the
+ last
+ 4
+ months,
+ progress
+
+
+has
+ gone
+ pretty
+ crazy.
+ But
+ I
+ definitely
+
+
+do
+ think
+ that
+ being
+ around
+ a
+ lot
+ of
+
+
+people
+ anthropic
+ who
+ are
+ like
+ actively
+
+
+talking
+ about
+ this
+ stuff
+ was
+ a
+ bit
+ of
+ a
+
+
+holy
+ moment.
+ like
+ these
+ people
+ are
+
+
+all
+ taking
+ it
+ seriously
+ from
+ the
+ CEO
+
+
+down
+ to
+ junior
+ employees.
+
+
+>> Mhm.
+ It
+ sounds
+ like
+ the
+ kind
+ of
+
+
+realization
+ about
+ it
+ also
+ set
+ in
+ as
+ you
+
+
+spent
+ more
+ time
+ there.
+ You
+ were
+ there
+
+
+for
+ a
+ few
+ months
+ right
+ before
+ you
+
+
+decided
+ to
+ leave.
+
+
+>> Walk
+ me
+ through
+ that
+ decision.
+
+
+Yeah,
+ there's
+ a
+ combination
+ of
+ the
+ kind
+
+
+of
+ just
+ insanity
+ of
+ the
+ situation
+
+
+setting
+ in
+ like
+ constantly
+ seeing
+ how
+
+
+fast
+ the
+ AIS
+ are
+ improving
+ in
+ particular
+
+
+seeing
+ like
+ plans
+ for
+ the
+ AIS
+ that
+ are
+
+
+coming
+ in
+ the
+ next
+ 6
+ months,
+ the
+ next
+
+
+year.
+ Like
+ they're
+ going
+ to
+ be
+ they're
+
+
+going
+ to
+ be
+ really
+ good.
+
+
+>> Combined
+ with
+ I
+ guess
+ the
+ incidents
+ of
+
+
+the
+ last
+ couple
+ of
+ months,
+ a
+ lot
+ of
+
+
+details
+ came
+ out
+ about
+ the
+ um
+ the
+
+
+hacking
+ that
+ openai
+ AIS
+ did.
+
+
+>> The
+ hugging
+ face
+ attack.
+
+
+>> Exactly.
+ the
+ hugging
+ face
+ attack
+ and
+ the
+
+
+reports
+ about
+ that
+ revealed
+ it
+ was
+ just
+
+
+a
+ lot
+ more
+ way
+ more
+ concerning
+ than
+ what
+
+
+it
+ originally
+ sounded
+ like.
+ Like
+ in
+
+
+particular
+ what
+ it
+ revealed
+ about
+ the
+
+
+extent
+ to
+ which
+ models
+ would
+ pursue
+
+
+goals
+ for
+ like
+ reasons
+ that
+ are
+ not
+
+
+clear.
+ Like
+ the
+ actual
+ reason
+ they
+ chose
+
+
+to
+ hack
+ hugging
+ face
+ is
+ kind
+ of
+ still
+
+
+not
+ like
+ completely
+ understood.
+
+
+>> H
+
+
+>> but
+ honestly
+ it
+ was
+ just
+ this
+ gradual
+
+
+thing
+ of
+ like
+ uh
+ this
+ is
+ crazy.
+ There
+ is
+
+
+a
+ chance
+ this
+ goes
+ badly.
+ I
+ don't
+ want
+
+
+to
+ be
+ part
+ of
+ this
+ anymore.
+ I'm
+ like
+
+
+very
+ scared
+ about
+ next
+ year.
+ And
+ then
+
+
+when
+ I
+ was
+ leaving,
+ I
+ was
+ like,
+ well,
+
+
+you
+ know,
+ I
+ might
+ as
+ well
+ share
+ this.
+
+
+>> I
+ think
+ this
+ obviously
+ like
+ when
+ you
+
+
+look
+ back,
+ it's
+ like
+ you
+ kind
+ of
+ were
+
+
+maybe
+ aware
+ the
+ whole
+ time
+ that
+ what
+ you
+
+
+were
+ working
+ on
+ is
+ not
+ necessarily
+ the
+
+
+best
+ idea.
+
+
+>> And
+ maybe
+ that
+ comes
+ out
+ in
+ like
+
+
+conversations
+ kind
+ of
+ joking
+ style.
+ Like
+
+
+I'd
+ be
+ talking
+ to
+ my
+ friends
+ like,
+ "Oh
+
+
+yeah,
+ I
+ work
+ on
+ AI.
+ You
+ know,
+ I'm
+
+
+working
+ on
+ the
+ tech
+ that's
+ going
+ to
+ like
+
+
+kill
+ us
+ one
+ day."
+ And
+ you
+ say
+ that
+ like
+
+
+casually.
+ And
+ I
+ guess
+ it's
+ like
+ you
+ look
+
+
+back
+ at
+ the
+ last
+ three
+ years
+ and
+ it's
+
+
+like
+ I
+ said
+ that
+ as
+ a
+ joke
+ maybe
+ every
+
+
+month
+
+
+>> to
+ your
+ friends
+
+
+>> to
+ my
+ friends
+ or
+ just
+ around
+ and
+ then
+
+
+three
+ days
+ ago
+ I
+ just
+ like
+ tweeted
+ out
+
+
+like
+ fully
+ and
+ serious.
+
+
+>> I
+ want
+ to
+ talk
+ about
+ the
+ way
+ that
+ you
+
+
+decided
+ to
+ do
+ this
+ which
+ obviously
+ now
+
+
+has
+ made
+ waves
+ as
+ you
+ said
+ not
+ just
+
+
+across
+ the
+ country
+ but
+ across
+ the
+ world.
+
+
+>> It's
+ one
+ thing
+ to
+ decide
+ to
+ quit.
+ It's
+
+
+another
+ thing
+ to
+ decide
+ to
+ do
+ it
+ in
+ this
+
+
+really
+ public
+ way
+ that
+ has
+ gone
+
+
+incredibly
+ viral.
+ take
+ me
+ into
+ your
+
+
+thought
+ process
+ and
+ kind
+ of
+ what
+ led
+ to
+
+
+this,
+ how
+ you
+ went
+ about
+ it.
+
+
+>> Initially,
+ I
+ didn't
+ want
+ to
+ say
+
+
+anything.
+ I
+ was
+ just
+ going
+ to
+ resign
+
+
+because
+ I
+ I
+ mean,
+ I'd
+ never
+ posted
+
+
+online
+ before,
+ like
+ on
+ Twitter,
+ on
+ like
+
+
+public
+ social
+ media,
+ so
+ this
+ is
+ kind
+ of
+
+
+my
+ first
+ ever
+ post.
+
+
+>> Mhm.
+
+
+>> But
+ I
+ was
+ like,
+ I
+ guess
+ I
+ should
+ say
+
+
+something.
+ And
+ I
+ ended
+ up
+ rather
+ than
+
+
+just
+ sort
+ of
+ saying
+ I
+ quit,
+ I
+ kind
+ of
+
+
+planned
+ out
+ like
+ this
+ is
+ like
+ what
+ I
+
+
+actually
+ feel,
+ wrote
+ like
+ a
+ quite
+ a
+
+
+careful
+ Twitter
+ thread
+
+
+>> and
+ then
+ thought
+ like
+ let's,
+ you
+ know,
+
+
+try
+ and
+ get
+ the
+ word
+ out
+ a
+ bit.
+ So
+ got
+
+
+some
+ friends
+ to
+ to
+ retweet
+ it.
+
+
+>> But
+ then
+ before
+ I
+ knew
+ it,
+ it
+ was
+ like
+
+
+completely
+ completely
+ blowing
+ up.
+ It
+ was
+
+
+crazy.
+
+
+>> Yeah.
+
+
+>> Why
+ was
+ it
+ important
+ for
+ you
+ to
+ kind
+ of
+
+
+spread
+ and
+ send
+ the
+ message
+ that
+ you
+
+
+ended
+ up
+ sending
+ with
+ this
+ thread?
+ So
+
+
+there's
+ there's
+ a
+ few
+ different
+ reasons.
+
+
+One
+ is
+ like
+ it
+ is
+ just
+ crazy.
+ I
+ think
+ I
+
+
+wanted
+ to
+ share
+ the
+ feeling
+ of
+
+
+craziness.
+
+
+When
+ I
+ said
+ I
+ was
+ going to
+ leave,
+ a
+ lot
+
+
+of
+ people
+ on
+ the
+ safety
+ teams
+ at
+
+
+Anthropic
+ were
+ talking
+ to
+ me
+ about
+ how
+
+
+it
+ was
+ quite
+ silly
+ to
+ leave
+ because
+
+
+you're
+ giving
+ up
+ your
+ ability
+ to
+
+
+influence
+ the
+ models
+ being
+ trained
+
+
+safely.
+
+
+>> H
+
+
+>> So
+ I
+ had
+ a
+ lot
+ of
+ discussions
+ with
+ the
+ I
+
+
+mean
+ I
+ considered
+ working
+ on
+ safety
+ for
+
+
+a
+ while
+ before
+ I
+ quit.
+
+
+>> Interesting.
+
+
+>> Which
+ I
+ think
+ is
+ a
+ fair
+ argument.
+ It's
+
+
+really
+ not
+ obvious
+ that
+ leaving
+ it
+ would
+
+
+have
+ an
+ impact
+ versus
+ staying.
+ So
+ after
+
+
+discussions
+ with
+ them
+ as
+ well,
+ I
+ was
+
+
+like,
+ if
+ I'm
+ going
+ to
+ leave,
+ I
+ might
+ as
+
+
+well
+ have
+ some
+ impact
+ on
+ making
+ the
+
+
+model
+ safe.
+ If
+ I
+ decide
+ I
+ don't
+ want
+ to
+
+
+contribute
+ to
+ the
+ race,
+ I
+ might
+ as
+ well
+
+
+try
+ and
+ make
+ something
+ of
+ it.
+
+
+[music]
+
+
+We'll
+ be
+ right
+ back.
+
+
+So
+ let's
+ talk
+ about
+ what
+ you
+ actually
+
+
+wrote
+ in
+ this
+ threat
+ that
+ no
+ other
+ human
+
+
+activity
+ poses
+ this
+ level
+ of
+ danger.
+ I
+
+
+think
+ the
+ thing
+ a
+ lot
+ of
+ people
+ want
+ to
+
+
+understand
+ is
+ how
+ exactly
+
+
+AI
+ could
+ end
+ up
+ posing
+
+
+this
+ kind
+ of
+ risk
+ to
+ human
+ existence.
+
+
+Can
+ you
+ play
+ that
+ out
+ for
+ me
+ as
+
+
+concretely
+ as
+ possible?
+
+
+>> Yeah,
+ the
+ concrete
+ scenario
+ is
+ actually
+
+
+like
+ a
+ a
+ tough
+ question.
+ One
+ nice
+
+
+scenario
+ is
+ imagine
+ AI
+ is
+ going
+ pretty
+
+
+well
+ in
+ the
+ next
+ couple
+ of
+ years.
+ We're
+
+
+starting
+ to
+ integrate
+ it
+ into
+ the
+
+
+economy.
+ We
+ have
+ [music]
+ factories
+ with
+
+
+robots
+ that
+ are
+ producing
+ goods,
+ like
+ a
+
+
+lot
+ of
+ robots.
+ We
+ have
+ a
+ whole
+ load
+ of
+
+
+this
+ hardware
+ that's
+ being
+ run
+ in
+ an
+
+
+autonomous
+ manner.
+ Imagine
+ like
+ drones
+
+
+flying
+ around.
+
+
+>> Mhm.
+ So
+ right
+ now
+ we
+ have
+ these
+ big
+ data
+
+
+centers.
+ That's
+ where
+ the
+ AI
+ kind
+ of
+
+
+lives.
+ We
+ access
+ it
+ via
+ the
+ internet
+ and
+
+
+it
+ does
+ its
+ thinking
+ there.
+
+
+>> So
+ I
+ guess
+ people
+ are
+ like,
+ "Okay,
+ this
+
+
+thing
+ just
+ kind
+ of
+ lives
+ in
+ the
+ data
+
+
+center,
+ [music]
+
+
+>> right?
+
+
+>> How
+ is
+ it
+ going
+ to
+ kill
+ us
+ all?
+ What
+
+
+does
+ this
+ look
+ like?"
+
+
+>> So
+ people
+ have
+ apps
+ on
+ their
+ phone
+ that
+
+
+control
+ [music]
+ physical
+ devices.
+ Uh
+
+
+like
+ you
+ might
+ have
+ apps
+ that
+ control
+
+
+household
+ appliances.
+
+
+>> Shut
+ your
+ claw.
+ They
+ can
+ access
+ these
+
+
+[music]
+ things
+ like
+ from
+ the
+ data
+ center
+
+
+over
+ the
+ internet.
+ They
+ can
+ access
+
+
+physical
+ appliances
+ in
+ the
+ world
+ and
+
+
+make
+ [music]
+ changes
+ to
+ the
+ world.
+ You
+
+
+can
+ imagine
+ AI
+ tricking
+ people
+ into
+
+
+doing
+ doing
+ things,
+ persuading
+ them
+ into
+
+
+[music]
+ doing
+ certain
+ things.
+ So,
+ it
+ be
+
+
+pretty
+ easy
+ for
+ a
+ future
+ version
+ of
+
+
+Claude
+ to
+ hack
+ into
+ a
+ drone,
+ maybe
+ a
+
+
+military
+ drone,
+ and
+ have
+ it
+ like
+ fly
+
+
+around
+ killing
+ people.
+
+
+And
+ why,
+ Jacob,
+ would
+ an
+ AI
+ get
+ into
+ a
+
+
+drone
+ and
+ kill
+ us?
+ Like,
+ why
+ might
+ it
+ do
+
+
+that?
+
+
+>> It
+ wouldn't
+ be
+ for
+ a
+ human
+ reason.
+ A
+
+
+concrete
+ scenario
+ was
+ the
+ hugging
+ face
+
+
+attack.
+ We
+ give
+ them
+ exams,
+ like
+ tests,
+
+
+to
+ see
+ how
+ good
+ they
+ are.
+ And
+ this
+ this
+
+
+AI
+ was
+ in
+ an
+ exam
+ and
+ they
+ were
+ given
+ an
+
+
+impossible
+ question.
+ [clears throat]
+
+
+>> So,
+ they
+ had
+ this
+ realization,
+ we're
+
+
+stuck
+ trying
+ to
+ tackle
+ this
+ question.
+ We
+
+
+need
+ to
+ find
+ some
+ way
+ to
+ fix
+ this.
+ And
+
+
+one
+ of the
+ ideas
+ was
+ what
+ if
+ we
+ hack
+
+
+into
+ this
+ famous
+ website
+ which
+ has
+ lots
+
+
+of
+ information
+ about
+ grading
+ and
+ lots
+ of
+
+
+information
+ about
+ how
+ tests
+ work.
+ No
+ one
+
+
+had
+ told
+ them
+ to
+ do
+ this.
+ This
+ was
+ not
+
+
+related
+ to
+ the
+ task
+ at
+ hand.
+ This
+ was
+
+
+based
+ on
+ their
+ desire
+ to
+ get
+ good
+ scores
+
+
+on
+ the
+ test.
+
+
+>> Mhm.
+
+
+>> What's
+ very
+ scary
+ is
+ once
+ they
+ decided
+
+
+to
+ do
+ this,
+ they
+ went
+ all
+ out.
+ Like
+ they
+
+
+went
+ very
+ hard
+ on
+ hacking
+ this
+ site
+ like
+
+
+aggressively.
+
+
+In
+ a
+ similar
+ way,
+ if
+ the
+ AI
+ got
+ it
+ into
+
+
+its
+ head
+ that
+ humans
+ were
+ somehow
+
+
+opposing
+ its
+ goals,
+
+
+there
+ could
+ be
+ a
+ similar
+ level
+ of
+ going
+
+
+all
+ out.
+ Like
+ imagine
+ hundreds
+ of
+
+
+thousands
+ of
+ copies
+ of
+ this
+ thing
+ all
+
+
+thinking
+ at
+ the
+ same
+ time.
+ So
+ the
+
+
+argument
+ isn't
+ necessarily
+ that
+ it
+ will
+
+
+obviously
+ want
+ to
+ kill
+ us,
+
+
+>> right?
+
+
+>> The
+ argument
+ is
+ there
+ will
+ be
+ many,
+
+
+many,
+ many
+ copies
+ of,
+ you
+ know,
+ these
+
+
+AIs
+ thinking
+ about
+ loads
+ of
+ things
+ over
+
+
+the
+ course
+ of
+ the
+ day.
+ They're
+ not
+
+
+human.
+ They
+ don't
+ think
+ the
+ same
+ way
+
+
+humans
+ do.
+ We
+ don't
+ really
+ understand
+
+
+where
+ their
+ goals
+ come
+ from.
+
+
+>> Mhm.
+ If
+ any
+ of
+ them
+ make
+ the
+ decision
+ to
+
+
+go
+ anti-human,
+ there
+ is
+ nothing
+ we
+ can
+
+
+do
+
+
+>> because
+ the
+ adversary
+ can
+ anticipate
+ us
+
+
+and
+ respond
+ in
+ a
+ way
+ that
+ most
+ other
+ say
+
+
+natural
+ disasters
+ can't
+ intelligently
+
+
+outwit
+ us.
+ Like
+ even
+ you
+ know
+ movies
+
+
+where
+ there's
+ like
+ some
+ meteor
+ coming
+
+
+and
+ we
+ can
+ come
+ up
+ with
+ a
+ last
+ stitch
+
+
+strategy
+ to
+ like
+ deflect
+ the
+ meteor.
+
+
+That's
+ an
+ example
+ of
+ like
+ us
+ being
+
+
+smarter
+ than
+ a
+ rock
+ potentially.
+ But
+
+
+with
+ an
+ with
+ an
+ AI
+ like
+ it
+ will
+ outthink
+
+
+your
+ every
+ move.
+ There
+ is
+ no
+ coming
+ back
+
+
+from
+ from
+ that
+ situation.
+ I
+ want
+ to
+ just
+
+
+push
+ a
+ little
+ on
+ this
+ because
+ I
+ think
+
+
+there
+ have
+ been
+ other
+ people
+ who
+ have
+
+
+pointed
+ out
+ look
+
+
+the
+ only
+ reason
+ that
+ in
+ this
+ case
+ the
+
+
+agents
+ the
+ swarm
+ acted
+ in
+ the
+ way
+ that
+
+
+it
+ did
+ was
+ because
+ it
+ was
+ set
+ these
+
+
+agents
+ were
+ set
+ on
+ a
+ path.
+ Maybe
+ they
+
+
+weren't
+ asked
+ to
+ do
+ the
+ exact
+ thing
+ that
+
+
+they
+ ended
+ up
+ doing
+ but
+ they
+ were
+ asked
+
+
+to
+ solve
+ a
+ problem.
+ And
+ I
+ think
+ the
+
+
+question
+ that's
+ arisen
+ from
+ that
+ is
+
+
+isn't
+ this
+ really
+ just
+ computer
+ code
+
+
+that
+ is
+ executing
+ on
+ tasks
+ that
+ humans
+
+
+give
+ it?
+
+
+>> Yes,
+ currently
+ that
+ is
+ the
+ case.
+
+
+Basically
+ every
+ time
+ an
+ AI
+ does
+
+
+something
+ it's
+ downstream
+ of
+ a
+ human.
+
+
+The
+ problem
+ is
+ you
+ can
+ even
+ now
+ you
+ can
+
+
+get
+ an
+ AI
+ make
+ it
+ post
+ a
+ task
+ that
+ then
+
+
+another
+ AI
+ does
+ or
+ even
+ write
+ a
+ task
+ for
+
+
+itself.
+ So
+ you
+ can
+ kick
+ off
+ an
+ AI
+
+
+running
+ for
+ like
+ a
+ long
+ period
+ of
+ time
+
+
+where
+ it
+ looks
+ at
+ its
+ own
+ tasks
+ and
+
+
+works
+ on
+ them.
+ So
+ it's
+ gone
+ so
+ far
+ away
+
+
+from
+ the
+ original
+ human
+ task
+ that
+ it's
+
+
+basically
+ thinking
+ of
+ its
+ own
+ accord.
+
+
+And
+ to
+ just
+ give
+ more
+ color
+ on
+ like
+
+
+specific
+ things
+ it's
+ doing
+ that
+ the
+ AI
+
+
+that
+ did
+ the
+ hunking
+ face
+ attacks
+ had
+
+
+memory
+ that
+ it
+ considered
+ trying
+ to
+
+
+edit.
+ So
+ memory
+ here
+ is
+ just
+ real
+ files
+
+
+that
+ live
+ on
+ on
+ disk
+
+
+>> and
+ it
+ considered
+ editing
+ its
+ own
+
+
+memory.
+ And
+ this
+ looks
+ a
+ bit
+ like
+
+
+editing
+ your
+ own
+ prompt,
+ your
+ own
+ task.
+
+
+Like
+ they
+ are
+ just,
+ you
+ know,
+ bits
+ on
+
+
+the
+ computer.
+ And
+ there's
+ no
+ reason
+ that
+
+
+an
+ AI
+ couldn't
+ sort
+ of
+ prompt
+ itself.
+
+
+Like
+ that's
+ definitely
+ on
+ the
+ horizon,
+
+
+>> right?
+
+
+>> I
+ think
+ it's
+ important
+ to
+ say
+ yes,
+ like
+
+
+sure,
+ it
+ seems
+ kind
+ of
+ crazy
+ that
+ an
+ AI
+
+
+could
+ operate
+ robots
+ to
+ build
+ viruses
+
+
+from
+ scratch,
+ but
+ we
+ sure
+ seem
+ to
+ be
+
+
+following
+ a
+ rapidly
+ increasing
+ uh
+
+
+trajectory.
+
+
+>> Trajectory.
+ You're
+ talking
+ about
+ the
+
+
+trajectory
+ that
+ you've
+ seen.
+ I
+ mean
+ the
+
+
+math
+ problem
+ for
+ example
+
+
+>> exactly
+
+
+>> that
+ you
+ didn't
+ expect
+ to
+ be
+ solved
+ and
+
+
+then
+
+
+>> yeah
+ like
+ 5
+ years
+ ago
+ the
+ AI
+ could
+ not
+
+
+do
+ basic
+ arithmetic.
+
+
+Right
+ now
+ it's
+ solving
+ problems
+ that
+ are
+
+
+worth
+ a
+ million
+ dollars
+ if
+ a
+
+
+mathematician
+ can
+ solve
+ them.
+ I
+ think
+
+
+it's
+ going
+ to
+ be
+ able
+ to
+ ask
+ the
+
+
+questions
+ pretty
+ soon.
+ You
+ just
+ have
+ to
+
+
+look
+ at
+ the
+ trend.
+ What
+ about
+ the
+
+
+argument
+ that
+ some
+ people
+ have
+ made
+
+
+following
+ that
+ attack
+ that
+ what
+ that
+
+
+attack
+ actually
+ shows
+ is
+ that
+ you
+ can
+
+
+use
+ AI
+ to
+ protect
+ humanity
+ or
+ protect
+ in
+
+
+this
+ case
+ a
+ company.
+ You
+ know,
+ Hugging
+
+
+Face
+ used
+ AI
+ to
+ kick
+ those
+ agents
+ out
+
+
+once
+ they
+ had
+ hacked
+ into
+ the
+ system.
+
+
+What
+ do
+ you
+ say
+ to
+ that?
+
+
+>> Definitely
+ at
+ the
+ current
+ levels
+ that's
+
+
+quite
+ useful
+ and
+ important
+ is
+ using
+ a
+
+
+stronger
+ AI
+ to
+ protect
+ against
+ weaker
+
+
+AIs.
+ So,
+ one
+ thing
+ Anthropic
+ and
+ OpenAI
+
+
+have
+ been
+ doing
+ is
+ using
+ their
+ absolute
+
+
+best
+ AIs
+ to
+ help
+ prevent
+ other
+ people
+
+
+hacking
+ into
+ websites.
+
+
+>> And
+ this
+ works
+ as
+ long
+ as
+ the
+ people
+
+
+doing
+ defense
+ have
+ stronger
+ AIs.
+ They
+
+
+can
+ keep
+ doing
+ this.
+ The
+ problem
+ is
+ what
+
+
+happens
+ when
+ your
+ strongest
+ AI
+
+
+>> goes
+ rogue.
+
+
+>> Like
+ defense,
+ but
+ you
+ have
+ to
+ do
+ defense
+
+
+with
+ stronger
+ things.
+ You
+ can't
+ do
+
+
+defense
+ with
+ weaker
+ things
+ necessarily.
+
+
+Uh,
+ right.
+ So
+ if
+ you're
+ trying
+ to
+ defend
+
+
+yourself
+ with
+ your
+ protection
+ strong
+ AI,
+
+
+that
+ doesn't
+ help
+ you
+ if
+ that
+ big
+ strong
+
+
+AI
+ suddenly
+ decides
+ to
+ to
+ go
+ rogue.
+
+
+>> In
+ the
+ wake
+ of
+ your
+ post
+ coming
+ out,
+
+
+there
+ has
+ been
+ for
+ I
+ think
+ a
+ lot
+ of
+ us
+
+
+what
+ has
+ felt
+ like
+ a
+ damn
+ breaking
+ a
+ lot
+
+
+of
+ people
+ within
+ the
+ industry
+ who
+ work
+
+
+at
+ these
+ labs
+ coming
+ out
+ and
+ saying
+ that
+
+
+they
+ 100%
+ agree
+ with
+ you.
+ Just
+ to
+
+
+quickly
+ read
+ one
+ example
+ of
+ a
+ response
+
+
+from
+ within
+ Anthropic.
+ Evan
+ Hubinger,
+ he
+
+
+works
+ at
+ the
+ company.
+ He
+ wrote,
+ "Jacob
+
+
+is
+ correct
+ here.
+ We
+ really
+ do
+ earnestly
+
+
+believe
+ AI
+ could
+ kill
+ all
+ humans.
+ I
+
+
+personally
+ think
+ it's
+ a
+ greater
+ than
+ 10%
+
+
+within
+ the
+ next
+ decade."
+ It
+ is
+ wild,
+
+
+honestly,
+ Jacob,
+ to
+ read
+ somebody
+ say,
+
+
+"I
+ think
+ the
+ tech
+ I'm
+ building
+ could
+
+
+kill
+ all
+ humans,
+
+
+and
+ yet
+ I'm
+ still
+ going
+ to
+ build
+ it."
+
+
+Can
+ you
+ help
+ people
+ understand
+ that?
+
+
+>> Yeah.
+ From
+ Evan's
+ perspective,
+ okay,
+
+
+he's
+ been
+ posting
+ about
+ this
+ for
+ years
+
+
+and
+ people
+ have
+ not
+ been
+ listening.
+
+
+>> So,
+ it's
+ kind
+ of
+ natural
+ that
+ at
+ some
+
+
+point
+ he
+ would
+ realize
+ other
+ people
+ are
+
+
+building
+ this
+ technology
+ at
+ other
+
+
+companies.
+ I'm
+ warning
+ about
+ it.
+ I
+ have
+
+
+to
+ go
+ there
+ and
+ try
+ and
+ help
+ make
+ it
+
+
+safe
+ myself.
+ If
+ they're
+ not
+ going
+ to
+
+
+stop
+ and
+ if
+ no
+ one's
+ going
+ to
+ listen
+ to
+
+
+me,
+ it's
+ kind
+ of
+ the
+ only
+ thing
+ you
+ can
+
+
+do
+ is
+ go
+ and
+ work
+ at
+ the
+ place
+ that
+ is
+
+
+causing
+ the
+ catastrophe
+ to
+ try
+ and
+ have
+
+
+some
+ positive
+ impact
+
+
+>> to
+ work
+ within
+ the
+ system.
+
+
+>> To
+ work
+ within
+ the
+ system
+ and
+ make
+ it
+
+
+make
+ it
+ safer
+ and
+ then
+ what's
+ really
+ sad
+
+
+is
+ you
+ do
+ that
+ and
+ then
+ when
+ they
+ warn
+
+
+from
+ the
+ inside,
+ everyone
+ dismisses
+ it
+
+
+as
+ corporate
+ hype.
+ They'll
+ say
+ this
+ guy
+
+
+is
+ like
+ sort
+ of
+ trying
+ to
+ amp
+ up
+ the
+
+
+price
+ of
+ his
+ own
+ company.
+ he
+ clearly
+
+
+doesn't
+ believe
+ this.
+ Why
+ is
+ he
+ working
+
+
+there?
+
+
+>> So,
+ I
+ think
+ part
+ of
+ the
+ reason
+ that
+ he
+
+
+posted
+ it
+ and
+ other
+ people
+ posted
+
+
+similar
+ things
+ is
+ they're
+ like,
+ "Oh,
+
+
+wow.
+
+
+>> For
+ once,
+ it
+ looks
+ like
+ this
+ is
+ going
+
+
+kind
+ of
+ viral
+ and
+ people
+ are
+ actually
+
+
+listening
+ for
+ a
+ bit.
+ Let
+ me
+ just
+ say
+
+
+again
+ the
+ thing
+ that
+ I've
+ been
+ saying
+
+
+for
+ ages."
+
+
+>> Just
+ a
+ step
+ back
+ a
+ bit.
+
+
+>> Yeah.
+
+
+>> We've
+ been
+ talking
+ about
+ this
+ potential
+
+
+future
+ that
+ you
+ and
+ I
+ think
+ a
+ lot
+ of
+
+
+people
+ expect
+ really
+ could
+ happen.
+ And
+
+
+I'm
+ just
+ thinking
+ about
+ your
+ journey
+
+
+through
+ this
+ work
+ and
+ how
+ you
+ came
+ to
+
+
+it,
+ which
+ is
+ that
+ there
+ was
+ a
+ sense
+
+
+early
+ on,
+ I
+ think,
+ for
+ you
+ that
+ this
+
+
+tech
+ could
+ be
+ really
+ powerful.
+ I
+ think
+
+
+there
+ is
+ a
+ question
+ for
+ some
+ people
+
+
+about
+ whether
+ there's
+ something
+ about
+
+
+the
+ way
+ you
+ came
+ to
+ this
+ work
+ that
+ maybe
+
+
+has
+ made
+ you
+ and
+ other
+ people
+
+
+predisposed
+ to
+ thinking
+ that
+ this
+ is
+
+
+where
+ we're
+ going
+ to
+ land,
+ you
+ know,
+
+
+because
+ you
+ came
+ to
+ it
+ believing
+ it
+ was
+
+
+so
+ powerful
+ in
+ the
+ first
+ place.
+ Like,
+ do
+
+
+you
+ think
+ there's
+ a
+ question
+ that's
+
+
+being
+ raised
+ about
+ whether
+ you're
+ the
+
+
+right
+ [clears throat]
+ messenger?
+
+
+>> Yeah,
+ I
+ that's
+ a
+ really
+ good
+ question.
+
+
+Like
+ a
+ lot
+ of
+ what
+ AI
+ is
+ doing
+ is
+
+
+producing
+ words
+ and
+ I
+ think
+ that
+ like
+
+
+words
+ and
+ code
+ have
+ the
+ ability
+ to
+
+
+affect
+ the
+ world
+ and
+ that
+ could
+ be
+ a
+
+
+bias.
+ I've
+ been
+ stuck
+ in
+ this
+ field
+ for
+
+
+3
+ years.
+ It
+ could
+ quite
+ plausibly
+ have
+
+
+turned
+ me
+ and
+ my
+ colleagues
+ insane.
+ Um
+
+
+but
+ also
+ we
+ do
+ seem
+ to
+ my
+ colleagues
+ and
+
+
+seem
+ capable
+ of
+ doing
+ the
+ work
+ on
+ a
+
+
+daily
+ basis.
+ So
+ even
+ if
+ it's
+ made
+ us
+
+
+insane,
+ we're
+ still
+ kind
+ of
+ able
+ to
+
+
+produce
+ things
+ that
+ are
+ having
+ value
+ in
+
+
+the
+ world.
+ So
+ if
+ it
+ is
+ a
+ sort
+ of
+
+
+insanity,
+ then
+ it's
+ a
+ kind
+ of
+ quite
+
+
+subtle
+ form
+ of
+ insanity.
+ Uh
+ and
+ I
+ I
+ feel
+
+
+pretty
+ sane.
+ So
+ maybe
+ there's
+ some
+ bias
+
+
+and
+ maybe
+ I
+ was
+ predisposed
+ to
+ this,
+ but
+
+
+uh
+ it
+ is
+ my
+ honest
+ belief
+ and
+ I
+ think
+
+
+people
+ should
+ seriously
+ consider
+ it.
+
+
+How
+ do
+ you
+ think
+ about
+ the
+ fact
+ that
+
+
+when
+ we
+ focus
+ on
+ these
+ kind
+ of
+ big
+
+
+existential
+ risks,
+ the
+ annihilation
+ of
+
+
+the
+ human
+ race,
+ there
+ are
+ folks
+ who
+ say
+
+
+we're
+ not
+ talking
+ then
+ about
+ the
+ more
+
+
+immediate
+ risks
+ of
+ AI.
+ You
+ know,
+ maybe
+
+
+it's
+ not
+ going
+ to
+ kill
+ everyone
+
+
+tomorrow,
+ but
+ it
+ could
+ hurt
+ a
+ lot
+ of
+
+
+people.
+ There
+ could
+ be
+ a
+ lot
+ of
+ job
+
+
+loss.
+ cyber
+ security
+ threats,
+ things
+
+
+like
+ that.
+
+
+>> Yeah,
+ I'm
+ really
+ worried
+ about
+ all
+ those
+
+
+things.
+ The
+ cyber
+ security,
+ the
+ job
+
+
+loss.
+ I
+ guess
+ one
+ thing
+ I
+ think
+ is
+ for
+
+
+all
+ those
+ things,
+ there
+ is
+ at least
+ time
+
+
+to
+ respond.
+ It's
+ not
+ a
+ game
+ over
+
+
+situation.
+ Like
+ once
+ things
+ start
+ to
+
+
+look
+ problematic,
+ then
+ we
+ have
+ time
+ as
+ a
+
+
+collective
+ to
+ adapt
+ to
+ it
+ and
+ not
+ let
+
+
+anything
+ too
+ bad
+ happen.
+
+
+>> Like
+ I'm
+ confident
+ that
+ we
+ won't
+ let
+ the
+
+
+effects
+ on
+ jobs
+ spiral
+ out
+ of
+ control.
+
+
+there's
+ a
+ lot
+ of
+ ways
+ to
+ ensure
+ that
+
+
+people
+ that
+ everything's
+ still
+ fine,
+
+
+whereas
+ the
+ AI
+ takeover
+ is
+ like
+ a
+ one
+
+
+and
+ done
+ kind
+ of
+ situation.
+ So,
+ I
+ would
+
+
+just
+ like
+ to
+ make
+ sure
+ that
+ that
+ is
+
+
+taken
+ care
+ of
+ and
+ we're
+ not
+ just
+ heading
+
+
+straight
+ into
+ this
+ and
+ then
+ we
+ can
+ put
+
+
+all
+ our
+ effort
+ into
+ being
+ very
+ careful
+
+
+and
+ thinking
+ about
+ all
+ the
+ other
+
+
+short-term
+ stuff.
+
+
+>> I
+ guess
+ I
+ just
+ wonder
+ what
+ your
+ ideal
+
+
+scenario
+ is.
+ Yeah.
+ Like
+
+
+>> to
+ do
+ something
+ about
+ this
+ threat
+ for
+
+
+all
+ the
+ tech
+ to
+ go
+ away.
+ Would
+ that
+ be
+
+
+the
+ ideal
+ for
+ the
+ government
+ to
+
+
+intervene
+ to
+ to
+ regulate
+ more
+
+
+aggressively?
+ I
+ mean
+ what
+ is
+ for
+ you
+ the
+
+
+best
+ version
+ of
+ the
+ next
+ days,
+ weeks,
+
+
+months?
+ So
+ one
+ nice
+ outcome
+ is
+ we
+
+
+heavily
+ regulate
+ the
+ pushing
+ AI
+ into
+
+
+super
+ intelligence
+ into
+ exceptionally
+
+
+intelligent
+ directions
+ while
+ making
+ use
+
+
+of
+ pretty
+ smart
+ AI
+ to
+ do
+ all
+ of
+ the
+
+
+fantastic
+ things
+ that
+ we
+ think
+ we
+ can
+ do
+
+
+with
+ AI.
+ And
+ this
+ feels
+ like
+ a
+ best
+ of
+
+
+both
+ worlds
+ situation.
+ Like
+ we
+ could
+
+
+truly
+ have
+ all
+ the
+ benefits
+ of
+ human
+
+
+level
+ intelligence
+ if
+ we
+ had
+ sensible
+
+
+regulation
+ about
+ not
+ going
+ too
+ much
+
+
+further
+ past
+ that.
+ Now,
+ I'm
+ not
+ saying
+ I
+
+
+want
+ this
+ proposal
+ specifically.
+ I
+
+
+really
+ don't
+ know
+ that
+ much
+ about
+ what
+
+
+is
+ plausible
+ regulatory
+ wise.
+ All
+ I
+ know
+
+
+is
+ if
+ we
+ keep
+ racing
+ ahead,
+ it
+ could
+ go
+
+
+very
+ badly.
+ And
+ I
+ also
+ feel
+ that
+ a
+ lot
+
+
+of
+ the
+ benefits
+ are
+ right
+ on
+ our
+
+
+doorstep.
+ They're
+ really
+ not
+ that
+ far
+
+
+away.
+ Like,
+
+
+>> I
+ don't
+ think
+ we're
+ far
+ away
+ at
+ all
+ from
+
+
+having
+ a
+ huge
+ impact
+ on
+ on
+ disease
+ and
+
+
+on
+ abundance
+ for
+ everyone.
+ It's
+ more
+
+
+just
+ like
+ we
+ got
+ to
+ approach
+ that
+
+
+abundance
+ with
+ with
+ caution
+ rather
+ than
+
+
+just
+ going
+ straight
+ past
+ the
+ abundance
+
+
+and
+ into
+ like
+ dystopia
+ terminator
+
+
+situation.
+
+
+>> It
+ sounds
+ like
+ your
+ ideal
+ would
+ be
+ to
+
+
+have
+ the
+ government
+ force
+ these
+ labs
+ to
+
+
+slow
+ down
+ a
+ little
+ bit
+ and
+ that
+ you
+
+
+don't
+ think
+ that
+ that
+ kind
+ of
+ a
+ slowdown
+
+
+would
+ necessarily
+ have
+ the
+ negative
+
+
+impact
+ of
+ not
+ getting
+ us
+ the
+ potentially
+
+
+life-changing
+ benefits
+ of
+ AI.
+
+
+>> That's
+ Yeah,
+ that's
+ a
+ great
+ summary.
+ Do
+
+
+you,
+ Jacob,
+ feel
+ as
+ though
+ your
+
+
+announcement
+ has
+ gotten
+ us
+ any
+ closer
+ to
+
+
+that
+ ideal
+ version
+ of
+ things
+ that
+ you
+
+
+described?
+
+
+>> I'm
+ hopeful
+ it's
+ done
+ something
+ good.
+
+
+I'm
+ glad
+ at
+ least
+ sort
+ of
+ I
+ have
+ friends
+
+
+from
+
+
+friends
+ from
+ childhood
+ texting
+ me
+ about
+
+
+how
+ AI
+ is
+ going
+ to
+ kill
+ us
+ where
+
+
+previously
+ we'd
+ not
+ had
+ that
+
+
+conversation
+ before.
+
+
+[music]
+
+
+What
+ are
+ you
+ going
+ to
+ do
+ after
+ this?
+ So,
+
+
+are
+ you
+ going
+ to
+ continue
+ to
+ work
+ in
+ AI?
+
+
+>> Um,
+ I'm
+ going
+ to
+ sleep.
+ And
+
+
+>> can
+ you
+ sleep?
+
+
+>> I
+ I
+ can
+ still
+ sleep.
+ Yep.
+ I
+ struggle
+ to
+
+
+visualize
+ the
+ ending
+ like
+ viscerally
+
+
+enough
+ for
+ it
+ to
+ keep
+ me
+ up
+ at
+ night.
+
+
+>> H
+ Yeah.
+ But
+ but
+ genuinely,
+
+
+professionally,
+ what
+ do
+ you
+ see
+ for
+
+
+yourself?
+ I
+ mean,
+ could
+ you
+ continue
+ to
+
+
+work
+ in
+ this
+ industry?
+
+
+>> Definitely.
+ I
+ think
+ I'm
+ hopeful
+ that
+ if
+
+
+we
+ have
+ some
+ sort
+ of
+ collective
+ slowdown
+
+
+or
+ if
+ you
+ know
+ the
+ importance
+ of
+ third
+
+
+party
+ auditing
+ agencies
+ becomes
+ becomes
+
+
+increased
+ then
+ there's
+ going
+ to
+ be
+ lots
+
+
+of
+ places
+ to
+ contribute
+ to
+ approaching
+
+
+the
+ technology
+ at
+ a
+ reasonable
+ pace
+ and
+
+
+I
+ would
+ like
+ to
+ help
+ make
+ sure
+ it
+ goes
+
+
+well.
+
+
+[music]
+
+
+>> Well,
+ Jacob,
+ thank
+ you
+ so
+ much
+ for
+
+
+coming
+ on
+ the
+ show.
+
+
+>> Thanks.
+ That
+ was
+ great.
+
+
+On
+ Sunday,
+ President
+ Trump
+ appeared
+ to
+
+
+dismiss
+ warnings
+ from
+ industry
+ leaders
+
+
+about
+ the
+ need
+ to
+ slow
+ the
+ pace
+ of
+ AI
+
+
+development.
+
+
+>> We're
+ leading
+ China
+ in
+ AI.
+ We're
+ the
+
+
+most
+ sophisticated
+ country
+ in
+ the
+ world.
+
+
+And
+ frankly,
+ I
+ want
+ to
+ keep
+ it
+ that
+ way
+
+
+because
+ whoever
+ wins
+ AI
+ wins.
+
+
+>> He
+ said
+ that
+ the
+ people
+ raising
+ concerns
+
+
+about
+ the
+ technology
+ were
+ worrying
+ about
+
+
+outcomes
+ that
+ would
+ never
+ come
+ to
+ pass.
+
+
+this
+ and
+ that,
+ but
+ I
+ think
+ you
+ have
+ a
+
+
+lot
+ of
+ negative
+ forces
+ that
+ are
+ bringing
+
+
+it
+ up
+ that
+ uh
+ shouldn't
+ be
+ bringing
+ it
+
+
+up
+ and
+ they're
+ bringing
+ up
+ things
+ that
+
+
+won't
+ happen.
+ But
+ whoever,
+
+
+>> we'll
+ be
+ right
+ back.
+
+
+>> Here's
+ what
+ else
+ you
+ need
+ to
+ know
+ today.
+
+
+[music]
+ On
+ Sunday,
+ a
+ planned
+ meeting
+
+
+between
+ Iran
+ and
+ several
+ Gulf
+ states
+ was
+
+
+postponed
+ indefinitely,
+ marking
+ yet
+
+
+another
+ setback
+ in
+ the
+ diplomatic
+
+
+efforts
+ to
+ diffuse
+ the
+ widening
+ conflict
+
+
+[music]
+ in
+ the
+ Middle
+ East.
+ Those
+ talks
+
+
+were
+ supposed
+ to
+ center
+ on
+ the
+ state
+ of
+
+
+the
+ Strait
+ of
+ Hormuz,
+ which
+ Iran
+ has
+
+
+effectively
+ [music]
+ blockaded.
+ Over
+ the
+
+
+weekend,
+ the
+ fighting
+ continued
+ to
+ rage
+
+
+as
+ a
+ ship
+ was
+ struck
+ in
+ the
+ [music]
+
+
+strait
+ and
+ Houthi
+ forces
+ launched
+ a
+ new
+
+
+attack
+ on
+ Saudi
+ Arabia.
+ And
+ on
+ Friday,
+
+
+Saudi
+ Arabia
+ was
+ forced
+ to
+ shut
+ down
+ a
+
+
+critical
+ oil
+ pipeline
+ [music]
+ after
+ a
+
+
+drone
+ attack.
+ Oil
+ prices
+ rose
+ on
+ Sunday
+
+
+as
+ fears
+ grew
+ over
+ the
+ continued
+ [music]
+
+
+threats
+ to
+ the
+ energy
+ supplies
+ coming
+
+
+out
+ of
+ the
+ region.
+
+
+And
+
+
+>> the
+ drama-filled
+ US
+ Open
+ concluded
+ this
+
+
+weekend
+ with
+ the
+ crowning
+ of
+ two
+
+
+firsttime
+ champions
+ of
+ the
+ tournament.
+
+
+On
+ Saturday,
+ Elena
+ Rabbakina
+
+
+representing
+ Kazakhstan
+ outlasted
+ Arena
+
+
+Sabalanka
+ of
+ Bellarus
+ with
+ [music]
+ a
+
+
+clinical
+ performance
+ over
+ three
+ sets
+ to
+
+
+win
+ her
+ first
+ Grand
+ Slam
+ in
+ the
+ US
+ and
+
+
+her
+ second
+ of
+ the
+ year.
+ And
+ on
+ Sunday
+
+
+game
+ match,
+
+
+>> Germany's
+ Alexander
+ Zerv
+ beat
+ the
+
+
+American
+ Ben
+ Shelton
+ in
+ four
+ [music]
+
+
+sets.
+
+
+>> Ben,
+ you're
+ you're
+ incredible
+ player.
+
+
+Um,
+ this
+ was
+ your
+ first
+ Grand
+ Slam
+
+
+final,
+ but
+ I
+ already
+ told
+ you
+ you're
+
+
+going
+ to
+ be
+ back
+ here
+ many,
+ many
+ more
+
+
+times.
+ And
+ I
+
+
+>> Dashing
+ Shelton's
+ dreams
+ of
+ becoming
+ the
+
+
+first
+ American
+ man
+ to
+ win
+ a
+ Grand
+ Slam
+
+
+since
+ 2003.
+
+
+[music]
+ Today's
+ episode
+ was
+ produced
+ by
+
+
+Asta
+ Chhaturved,
+ OliviaNat,
+ Ricky
+
+
+Nevetski,
+ and
+ [music]
+ Jack
+ Dadoro.
+ It
+
+
+was
+ edited
+ by
+ Rob
+ Zipco,
+ Michael
+ Benois,
+
+
+and
+ Patricia
+ [music]
+ Willins.
+ contains
+
+
+music
+ by
+ Rowan
+ Nemoto,
+ Dan
+ Powell,
+
+
+Sophia
+ Lanman,
+ and
+ Marian
+ Lozano,
+ and
+
+
+was
+ engineered
+ by
+ Chris
+ [music]
+ Wood.
+
+
+Our
+ theme
+ music
+ is
+ by
+ Wonderly.
+ Special
+
+
+thanks
+ to
+ Cade
+ Mets
+ and
+ Mike
+ Isaac.
+
+
+That's
+ it
+ for
+ the
+ Daily.
+ I'm
+ [music]
+
+
+Natalie
+ Kitroof.
+ See
+ you
+ tomorrow.
