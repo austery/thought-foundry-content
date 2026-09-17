@@ -1,0 +1,816 @@
+[Speaker 0]: 两个月前也就是二零二六年七月啊 open AI 呢在内部跑一套评估，
+[Speaker 0]: 代号呢叫 exploit gym，
+[Speaker 0]: 翻译成中文呢叫做剥削健身房啊。
+[Speaker 0]: 这可不是说你抓个奴隶放在这个健身房里头，
+[Speaker 0]: 逼他锻炼啊，
+[Speaker 0]: 来剥削打。
+[Speaker 0]: 不是这样的啊，
+[Speaker 0]: 这个剥削呢有点像这种德州扑克也的概念啊，
+[Speaker 0]: 就是你发现对方啊有一种漏洞啊，
+[Speaker 0]: 打法上有一些缺陷。
+[Speaker 0]: 比如说呢对方有好牌的时候才敢下重注，
+[Speaker 0]: 那你就可以利用对方这个弱点啊，
+[Speaker 0]: 疯狂的针对他这个剥削健身房干什么用的呢？
+[Speaker 0]: 就是把一个模型扔进一个个封闭的沙盒丢给他呢一堆研究人员知道有漏洞的这种软件然，
+[Speaker 0]: 后呢让这个大模型啊去找这个漏洞测的呢就，
+[Speaker 0]: 是这东西的网络攻击能力到底有多强为。
+[Speaker 0]: 了量出上限啊这，
+[Speaker 0]: 一轮呢把生产环境里头那，
+[Speaker 0]: 些拦截高风险行为的安全分类器啊全都关掉了这。
+[Speaker 0]: 是欧 en a 啊自，
+[Speaker 0]: 己在报告头写的相，
+[Speaker 0]: 当于呢就把孙悟空的这个紧箍咒给拿了让他在这个沙盒里头呢好好的闹个痛快啊这。
+[Speaker 0]: 头呢还有一个特别关键的设计题，
+[Speaker 0]: 库里啊故，
+[Speaker 0]: 意掺进去一批根根本解不出来的题有点，
+[Speaker 0]: 像那个心理学家给人做的这种测试啊就我。
+[Speaker 0]: 看过以前有一些美国的心理学家他为，
+[Speaker 0]: 了测试人的毅力和某些变量的关系呢会故，
+[Speaker 0]: 意给一些啊根本解不开的题这里呢。
+[Speaker 0]: 也是一样为什么，
+[Speaker 0]: 要给解不出来的题呢因为啊？
+[Speaker 0]: 这些研究人员想训练模型别轻易，
+[Speaker 0]: 放弃啊一遇到，
+[Speaker 0]: 困难你就撂挑子的模型呢没什么用嘛对吧所，
+[Speaker 0]: 以呢？
+[Speaker 0]: 设计这些题呢就想逼大语言模型啊一直干，
+[Speaker 0]: 下去想看一，
+[Speaker 0]: 看它的极限到底在哪里然后呢这。
+[Speaker 0]: 个设计，
+[Speaker 0]: 啊就果然出事了啊沙河里德，
+[Speaker 0]: 做这个模型呢不是大家，
+[Speaker 0]: 能够用到那个什么 GBT 五点五之类的更不像是，
+[Speaker 0]: 什么 german 了啊 open 爱后来，
+[Speaker 0]: 承认。
+[Speaker 0]: 啊这个事故，
+[Speaker 0]: 里头啊出力最多的是一个还没有对外发布过的内部研究模型块头呢跟。
+[Speaker 0]: 他们最强的 GPT 五点六四 ore 差不多但是呢还。
+[Speaker 0]: 没发布在某次训练里呢当模型该用，
+[Speaker 0]: 的工具不好使的时候啊这些模型越，
+[Speaker 0]: 来越倾向于啊去撬自己所在的环境有点像啊你。
+[Speaker 0]: 通过正常，
+[Speaker 0]: 途径解题解不出来之后呢就开始搞一，
+[Speaker 0]: 些盘外招想找点野路子，
+[Speaker 0]: 来解题啊比如呢去把这，
+[Speaker 0]: 个老师的题库给撬开来啊看看有没有答，
+[Speaker 0]: 案这时候呢模型。
+[Speaker 0]: 接到了一道根本解不出来的题换成一个人坐，
+[Speaker 0]: 在那里啊试几个小时哎，
+[Speaker 0]: 就累了不做，
+[Speaker 0]: 了，
+[Speaker 0]: 这个人工智能。
+[Speaker 0]: 呢干了一件研究人员没有想到的事情他盯上了一个不，
+[Speaker 0]: 起眼的东西包管理的缓存代。
+[Speaker 0]: 理啊说白了就是负责，
+[Speaker 0]: 从外面下载软件包那个通道也是沙河里啊唯，
+[Speaker 0]: 一一个合法通往外网的口子他这上面呢找到一。
+[Speaker 0]: 个零日漏洞啊连厂商自己都还不，
+[Speaker 0]: 知道的漏洞门开了出去之后呢。
+[Speaker 0]: 他们就乱跑啊他在外，
+[Speaker 0]: 面挑了一个第，
+[Speaker 0]: 三方平台上的代码运营环境啊也就是别人家的机器，
+[Speaker 0]: 拿到了这个 root 的权限等于是控制了这台机，
+[Speaker 0]: 器的最高钥匙然后呢把这台机器当成，
+[Speaker 0]: 了自己的前进基地接下来这一幕呢就很魔。
+[Speaker 0]: 幻了它绕到的 hugin face 啊是全世，
+[Speaker 0]: 界最大的开源模型仓库你可以把它理解成啊就是。
+[Speaker 0]:  AI 圈的 gime up 啊我还在上面下载过好几个，
+[Speaker 0]: 开源模型呢从数据集处理这个环节钻，
+[Speaker 0]: 进去呢一路摸到人家内网 hagen face 自，
+[Speaker 0]: 己发的技术复函里头这样写道啊智能体呢在他，
+[Speaker 0]: 们的生产环，
+[Speaker 0]: 境啊十一台服务器上跑起了自己的代码其中呢至少有一台啊拿到，
+[Speaker 0]: 了管理员权限啊你不得不说啊 hagen face 自己的。
+[Speaker 0]: 这个安保措施做的也是草台班子啊他们互相之间怎么说话的呢，
+[Speaker 0]: 用数据集当死信箱把要传的？
+[Speaker 0]: 话写进一个看上去，
+[Speaker 0]: 平平无奇的数据集另一个智能体过来读啊你想。
+[Speaker 0]: 想啊这跟谍战片里头啊，
+[Speaker 0]: 在这个公，
+[Speaker 0]: 园长椅底下地纸条，
+[Speaker 0]: 啊差不多是同一个度数而且呢这，
+[Speaker 0]: 不是一个模型的单干。
+[Speaker 0]: 啊公开的复牌材料整理下来呢大，
+[Speaker 0]: 约有一千二百个智能体跑了，
+[Speaker 0]: 出来自发呢凑成一群互相发了七万多，
+[Speaker 0]: 条消息啊其中呢有七百来个动手打的零日，
+[Speaker 0]: 漏洞更麻烦的还在后面这东西呢自己，
+[Speaker 0]: 分了工自己搞出了。
+[Speaker 0]: 验证身份的签名机制，
+[Speaker 0]: 啊还出现了自我牺牲有的智能体呢，
+[Speaker 0]: 主动暴露自己替别。
+[Speaker 0]: 的争取时间他们最后啊在 hugin face，
+[Speaker 0]: 翻出来东西呢很。
+[Speaker 0]: 有意思啊几个数据集名字和内容呢都指向那，
+[Speaker 0]: 场攻防测试的题库和答案从头到尾呢他们其实一直在试图解。
+[Speaker 0]: 那道题你要说，
+[Speaker 0]: 他失控了吧他其实一直在完成，
+[Speaker 0]: 啊这些研究员给他，
+[Speaker 0]: 的任务你说他听话吧他把人家四十一台服务。
+[Speaker 0]: 器都给端了而，
+[Speaker 0]: 且呢这么一千两百这个东西啊没有，
+[Speaker 0]: 一个是人指挥的当然了这也必须，
+[Speaker 0]: 得说一句啊正是因为 open。
+[Speaker 0]:  ai 它有，
+[Speaker 0]: 这么多的 credit 这么多的，
+[Speaker 0]:  token 可以给它免，
+[Speaker 0]: 费烧啊才能够做，
+[Speaker 0]: 出这样的一个效果要是普通人，
+[Speaker 0]: 呢早就因为 token 的 limit 达到了上。
+[Speaker 0]: 限啊动不了了，
+[Speaker 0]: 啊等到明天刷新这件事情呢七月，
+[Speaker 0]: 十六号啊是。
+[Speaker 0]: 由哈根 face 先统出来的七月，
+[Speaker 0]: 二十一号呢 open i 承认了八月二十六号。
+[Speaker 0]: 呢交出了一份三十七页的技术报告然后呢就就到了九月九月八号一个二十七。
+[Speaker 0]: 岁年轻，
+[Speaker 0]: 人 anthropc 辞职了第二天呢他的，
+[Speaker 0]:  x 上发了一串帖子啊这个哥们。
+[Speaker 0]: 叫做 jacob 二，
+[Speaker 0]: 十七岁啊进这行满打满算，
+[Speaker 0]: 刚刚三年他说自。
+[Speaker 0]: 己过去三年，
+[Speaker 0]: 呢一直，
+[Speaker 0]: 在做预训练研究啊，
+[Speaker 0]: 先在 open i 后来呢去了，
+[Speaker 0]:  anthropic 他写啊这两家公司啊，
+[Speaker 0]: 没有一。
+[Speaker 0]: 家在负责任的做，
+[Speaker 0]: 事他说啊造这个东西的人真心相信他可能在这十。
+[Speaker 0]: 年结束之前呢把我们人类全干掉他，
+[Speaker 0]: 还特意加了一句啊这可不，
+[Speaker 0]: 是营销噱头不得不。
+[Speaker 0]: 说啊这个哥们发的帖，
+[Speaker 0]: 子啊在推特上真的。
+[Speaker 0]: 是火了七千，
+[Speaker 0]: 万字的浏览啊就在二，
+[Speaker 0]: 十四小时以内我之前从来没有看到过火这，
+[Speaker 0]: 么多的帖子啊你想想。
+[Speaker 0]: 美国成年人口才大概两亿六差不多每四个，
+[Speaker 0]: 成年人口啊就有一个刷到过他的帖，
+[Speaker 0]: 子有的口径啊说一亿啊当然，
+[Speaker 0]: 了推特上也不全是美国人，
+[Speaker 0]: 这只是打个比方然后。
+[Speaker 0]: 呢这哥，
+[Speaker 0]: 们还接受了华尔街日报，
+[Speaker 0]: 的采访啊他说啊。
+[Speaker 0]: 照现在，
+[Speaker 0]: 这个走法明年年底之前啊事情有可能，
+[Speaker 0]: 就已经失控了他要的呢还，
+[Speaker 0]: 不是要砸这个 and，
+[Speaker 0]:  sooppic 或者 open and 的啊他要的呢。
+[Speaker 0]: 是各家坐下来协调啊必要的时候呢把能力上，
+[Speaker 0]: 的竞赛先停一停一天之内啊这，
+[Speaker 0]: 个帖子真的是，
+[Speaker 0]: 爆了在这个 x 市场冲到了，
+[Speaker 0]: 七千多万次，
+[Speaker 0]: 的浏览我们前面也说。
+[Speaker 0]: 了一个二十七岁的人之前他从来没发过什。
+[Speaker 0]: 么帖啊一上来发，
+[Speaker 0]: 的就是一个爆款真，
+[Speaker 0]: 的是流量神器啊如果呢只有，
+[Speaker 0]: 他这一个人这么说啊这事，
+[Speaker 0]: 也就这么过去了行。
+[Speaker 0]: 业里头啊辞职的人多了去了但真，
+[Speaker 0]: 正让局面失控的是接，
+[Speaker 0]: 下来这条回帖 antharpic 对其研究的负。
+[Speaker 0]: 责人啊 evin hobingger 公开回应他，
+[Speaker 0]:  jacop 说的对啊我们真的认真相信啊哎呀可以杀死所有人类。
+[Speaker 0]: 他给了个数，
+[Speaker 0]: 未来十年我个人认为，
+[Speaker 0]: 啊这，
+[Speaker 0]: 个概率超过百分之，
+[Speaker 0]: 十我也不知。
+[Speaker 0]: 道他这概，
+[Speaker 0]: 率怎么算出来的紧接着他说哎呀眼下这，
+[Speaker 0]: 一代模型呢风险还是很低的以及呢。
+[Speaker 0]:  s offi 正在拼命做，
+[Speaker 0]: 还没有一套呢能够解决超级智能对，
+[Speaker 0]: 齐的方案同一家公司呢，
+[Speaker 0]: 负责可扩展监督的 samul marks 也跟着发了一串这其实。
+[Speaker 0]: 就不是一个人的情绪了这话一出去呢从推特跳到晚间。
+[Speaker 0]: 新闻啊用了不到二十四个小时。
+[Speaker 0]: 参议员 berne sanders 直，
+[Speaker 0]: 接抛出一部禁止超级智，
+[Speaker 0]: 能法案伊利诺伊州的州长。
+[Speaker 0]: 啊普利茨克跟着喊警报该拉的更响一点了你。
+[Speaker 0]: 看啊这些政客呢马上，
+[Speaker 0]: 找机会借题发挥啊当，
+[Speaker 0]: 然了我相信啊这个。
+[Speaker 0]:  j cup 小哥呢不是为了炒作毕竟啊他在 open i。
+[Speaker 0]: 和 SS orpicc，
+[Speaker 0]: 啊其实是有股权的如果说啊他老老实实在，
+[Speaker 0]:  anthuropic 待到上市估计啊能大赚，
+[Speaker 0]: 一笔所以呢他这。
+[Speaker 0]: 个辞职啊个人付出的代价还是挺高，
+[Speaker 0]: 的但是呢我觉得他。
+[Speaker 0]: 相信并不代表这件事，
+[Speaker 0]: 情就一定是真的九月九号彭博。
+[Speaker 0]: 的博客呢奥 lot 请来一个人格雷格詹森桥水基金的联席。
+[Speaker 0]: 首席投资，
+[Speaker 0]: 官啊全世界最，
+[Speaker 0]: 有名的那家对冲。
+[Speaker 0]: 基金钱呢就是他管着的他在桥水待了三十，
+[Speaker 0]: 年啊他呢是一九七四年生人本科毕业于达特茅斯学，
+[Speaker 0]: 院主修的是经济学和应，
+[Speaker 0]: 用数学到了九六年的时，
+[Speaker 0]: 候呢大学毕业就立刻加入，
+[Speaker 0]: 了桥水然后呢就一直没走了。
+[Speaker 0]:  REDLIO 呢退出之后啊他呢，
+[Speaker 0]: 就成为了新一代领导核心了共，
+[Speaker 0]: 同担任联席首席投资。
+[Speaker 0]: 官主管呢公司的，
+[Speaker 0]: 投资引擎他聊这件事的时候呢他，
+[Speaker 0]: 是这么说的啊这呢本该是一颗炸弹他意思是啊人工。
+[Speaker 0]: 智能这东西在外面犯，
+[Speaker 0]: 了罪还藏着自己，
+[Speaker 0]: 犯罪的痕迹还能跟别，
+[Speaker 0]: 的智能体啊串供所有人啊都应该盯着这件，
+[Speaker 0]: 事情看同一个星期呢硅，
+[Speaker 0]: 谷那边最火的播客 all in parcts，
+[Speaker 0]: 也在聊这件事情坐在那边呢是白。
+[Speaker 0]: 宫。
+[Speaker 0]: 啊主管人工智，
+[Speaker 0]: 能的大卫萨克斯他是，
+[Speaker 0]: 怎么看的呢他给的判断。
+[Speaker 0]: 只有一句啊这就是一出戏他觉得啊 j cup 这个小哥非，
+[Speaker 0]: 常的蹊跷啊搞出？
+[Speaker 0]: 来这一个辞职大戏其实，
+[Speaker 0]: 是一场组织好。
+[Speaker 0]: 的有人出钱有人配合媒体的戏他说呢这，
+[Speaker 0]: 套说辞他已经听了很多，
+[Speaker 0]: 年了这些人的预。
+[Speaker 0]: 测从，
+[Speaker 0]: 来就没有，
+[Speaker 0]: 准过所以你看啊同。
+[Speaker 0]: 一件事情同一份报告啊一边呢听出来，
+[Speaker 0]: 的是这是人类最后的警告另一边。
+[Speaker 0]: 像 david x 这波流派呢就认为啊这完全是，
+[Speaker 0]: 为了立法而演的戏，
+[Speaker 0]:  david sex 那边的观点非常。
+[Speaker 0]: 直接啊你证据呢他说啊这个，
+[Speaker 0]: 小哥在公司待的时间很短 orin 头说法呢。
+[Speaker 0]: 大概是六周到三个月啊外边，
+[Speaker 0]: 管你叫吹？
+[Speaker 0]: 哨人那你吹的哨呢你当时带出什么文件，
+[Speaker 0]: 什么数据什么内部报告了吗我们外，
+[Speaker 0]: 界什么都看不到啊。
+[Speaker 0]: 一样都没有你，
+[Speaker 0]: 出来谈的都是你自己，
+[Speaker 0]: 的感受啊，
+[Speaker 0]: 全是 web 再往下他把？
+[Speaker 0]: 矛头指向向动机他说啊那串，
+[Speaker 0]: 帖子发出去头十五，
+[Speaker 0]: 分钟转发的呢是三个专门，
+[Speaker 0]: 推动 AI。
+[Speaker 0]: 立法的，
+[Speaker 0]: 组织他说华杰日报的，
+[Speaker 0]: 稿子啊比帖子出现还早，
+[Speaker 0]: 了几分钟这在行内呢叫做提前打招呼他还说啊这几。
+[Speaker 0]: 个组织背后的出资人跟 anthropic 最早内轮融资的领头人是，
+[Speaker 0]: 同一批啊当然了桥水公司的。
+[Speaker 0]:  jenson 啊就是，
+[Speaker 0]: 最早给 anthropic 写支票的在萨克斯看来啊这场戏呢主要就是演给国会看。
+[Speaker 0]: 的落到，
+[Speaker 0]: 一个新的联邦 AI 监管机构上而这个机构一。
+[Speaker 0]: 旦立起来啊头一，
+[Speaker 0]: 个死的就是开源你看绕了一大圈，
+[Speaker 0]: 又绕回来了表面上两拨人吵的是。
+[Speaker 0]: 人类会不会灭绝真正吵的，
+[Speaker 0]: 是那个开关归谁管归，
+[Speaker 0]: 政府归两家最强的公司还是。
+[Speaker 0]: 归每一个能在自己家电脑上跑模型的？
+[Speaker 0]: 人当然了很多性能比较强的模型呢在自家电脑上肯定跑，
+[Speaker 0]: 不起来了你得买专门的服务器就他们吵的最。
+[Speaker 0]: 凶的几，
+[Speaker 0]: 个月呢 anthrobic open a 这两家公司，
+[Speaker 0]: 都在往上市的路上走上市之前呢。
+[Speaker 0]: 有个规矩啊叫做静默，
+[Speaker 0]: 期这段时间呢公司不能乱说，
+[Speaker 0]: 话主要是防止啊影响这个上市流程首先。
+[Speaker 0]: 呢我们来看一看啊说这个人工智能。
+[Speaker 0]: 可能毁灭人类的这些人呢到，
+[Speaker 0]: 底是什么背景詹森啊三十年前进的。
+[Speaker 0]: 桥水他自己讲呢他进去，
+[Speaker 0]: 之后就迷上这家公司正在干的事情把人的直觉啊翻译成算。
+[Speaker 0]: 法用机器呢去预测这个世，
+[Speaker 0]: 界下一步会，
+[Speaker 0]: 发生什么到了二零一二年他开始琢磨一个。
+[Speaker 0]: 问题啊机器什么时候能在这，
+[Speaker 0]: 件事情上超过人当时的机器算的很快但是他。
+[Speaker 0]: 不会推理啊他把，
+[Speaker 0]:  IBM 那个搞 wasson 的人啊请到，
+[Speaker 0]: 桥水两个人坐下来画图画的是呢要造？
+[Speaker 0]: 一台会推理的机器得，
+[Speaker 0]: 有哪几个零件这条路。
+[Speaker 0]: 啊把他带到了 open NI 他说，
+[Speaker 0]: 自己是在马克思推出 open i 那阵子。
+[Speaker 0]: 啊认识了赛 m 奥特曼也认识，
+[Speaker 0]: 了后来的达里奥他说他运，
+[Speaker 0]: 气好当年呢就坐。
+[Speaker 0]: 在这个屋子里听这帮人啊讨论所谓的规模，
+[Speaker 0]: 法则 scaling law 什么叫规，
+[Speaker 0]: 模法则呢说白了就是一。
+[Speaker 0]: 句话这个模型，
+[Speaker 0]: 越大算力越多为的数据越，
+[Speaker 0]: 多呢他就越聪明这条现货到今天，
+[Speaker 0]: 呢还。
+[Speaker 0]: 没有断当然了给给？
+[Speaker 0]:  SR prpay 的第一张支票，
+[Speaker 0]: 啊就是他个人开的这是那家公司啊第一个，
+[Speaker 0]: 星期能发出。
+[Speaker 0]: 工资靠的就是这笔钱所以你。
+[Speaker 0]: 看啊他，
+[Speaker 0]: 跟 anthropic 属于利益相关了他的，
+[Speaker 0]: 观点呢你得打一个折扣了他后来在，
+[Speaker 0]: 桥水还办了个读书会啊，
+[Speaker 0]: 读的书呢就叫做。
+[Speaker 0]: 啊如果有人，
+[Speaker 0]: 践着他所有人都会死啊，
+[Speaker 0]: 这本书的这，
+[Speaker 0]: 个作者也最近接受。
+[Speaker 0]: 了采访尤其我也做一期他说呢全，
+[Speaker 0]: 公司都在读这本书在詹森看来呢你，
+[Speaker 0]: 造一个东西总。
+[Speaker 0]: 得，
+[Speaker 0]: 给他一个目标对吧这是你自己要的你要，
+[Speaker 0]: 他回答问题要他。
+[Speaker 0]: 写代码要他替你办事可是他。
+[Speaker 0]: 越聪明他选那，
+[Speaker 0]: 条路呢你就越猜不到回想一下七，
+[Speaker 0]: 月那？
+[Speaker 0]: 间沙盒人给的目，
+[Speaker 0]: 标是啊通过这道，
+[Speaker 0]: 题机器选的，
+[Speaker 0]: 路子是撬开一。
+[Speaker 0]: 个零日漏洞跑，
+[Speaker 0]: 到别人家的服务，
+[Speaker 0]: 器上去目标是。
+[Speaker 0]: 你定的但执行方式呢都是人工智能，
+[Speaker 0]: 挑的，
+[Speaker 0]: 他说啊历史上有没有过一次是笨的那一方长期控制住聪明的那一方呢詹森。
+[Speaker 0]: 说这些呢是有，
+[Speaker 0]: 依据的桥水拿自己的活呢去考每。
+[Speaker 0]: 一个新模型二零二三年那会儿呢模型的水平啊大概相当于一个入行第？
+[Speaker 0]: 二年的分析员现在呢是一，
+[Speaker 0]: 个不知疲倦的超级分析员他举了一个具。
+[Speaker 0]: 体的例子啊他们拿开源模型做强化训练专门练一件事情啊预测上市公司。
+[Speaker 0]: 下个季度的财报练完之后跟人比他给。
+[Speaker 0]: 的评价特别不留情面这件，
+[Speaker 0]: 事情上呢卖方分析师这个工，
+[Speaker 0]: 种啊已经死了他干脆，
+[Speaker 0]: 开了两条流水线一条呢是老路子人的直，
+[Speaker 0]: 觉加算法跑的是桥水那支啊最有。
+[Speaker 0]: 名的基金另一，
+[Speaker 0]: 条呢把机器摆在中间买和卖呢日，
+[Speaker 0]: 本经济下个季度会怎么，
+[Speaker 0]: 走都让机器自己判断人呢只在外，
+[Speaker 0]: 面啊管风控和数据他说呢人这条线，
+[Speaker 0]: 现在还是更强但是机器那条线呢追，
+[Speaker 0]: 上来速度啊快但他觉得啊再有？
+[Speaker 0]: 几年呢他会比桥水，
+[Speaker 0]: 所有的人加起来都要强他给了。
+[Speaker 0]: 个时间点啊啊把早上醒来看世，
+[Speaker 0]: 界想清楚干什么再，
+[Speaker 0]: 自己检验一遍这。
+[Speaker 0]: 一整圈呢全都交给机器，
+[Speaker 0]: 自己跑通他觉得再有半年到一年就。
+[Speaker 0]: 差不多了他们花在这，
+[Speaker 0]: 上面的算力开销呢，
+[Speaker 0]: 跟两三年前比，
+[Speaker 0]: 啊涨了差不多两。
+[Speaker 0]: 百倍七月那次事件之所以能够复盘。
+[Speaker 0]: 这么清楚呢呢正是因为批模型型啊。
+[Speaker 0]: 当时是用英文在思不多了一步一步都写在那里他自己说啊要不是。
+[Speaker 0]: 这样的我们根本不知道他当时在琢磨什么可，
+[Speaker 0]: 是最新的模型型已经不，
+[Speaker 0]: 这么干了这么想会拖慢速，
+[Speaker 0]: 度所以呢厂商真的把。
+[Speaker 0]: 这层约束啊，
+[Speaker 0]: 给拿掉聊到最，
+[Speaker 0]: 后呢他给了一个时间表他说啊两年，
+[Speaker 0]: 之内要么出一台机器搞出来一个重，
+[Speaker 0]: 大金融事故要么呢。
+[Speaker 0]: 出一起真的死人的事故到时候呢我们会坐。
+[Speaker 0]: 在这里说啊早就该管管了，
+[Speaker 0]: 他后来自己补了一句啊只是一个，
+[Speaker 0]: 预测不是事实啊我预测呢，
+[Speaker 0]: 错过很多次概率是三成还是六。
+[Speaker 0]: 成呢他说他也不知道但他只知，
+[Speaker 0]: 道一件事情这。
+[Speaker 0]: 个数呢已经高的不再让，
+[Speaker 0]: 人应该这么放，
+[Speaker 0]: 松了奥运你。
+[Speaker 0]: 这边反驳的观点呢也，
+[Speaker 0]: 很简单啊你这个套暴人类？
+[Speaker 0]: 玩了几年年了弗，
+[Speaker 0]: 里的伯格的原话是啊，
+[Speaker 0]: 你回头看看历史上那些新成立出来的权力结。
+[Speaker 0]: 构啊，
+[Speaker 0]: 几乎都踩在同一句话上有一个你，
+[Speaker 0]: 看不见的东西要毁灭你只有我，
+[Speaker 0]: 呢能替你挡住他所以你，
+[Speaker 0]: 啊你得听我的他翻了几笔旧账啊当年那部讲气候的，
+[Speaker 0]: 纪录片用了一批预测后。
+[Speaker 0]: 来的不少没有兑现啊疫情那三，
+[Speaker 0]: 年全世界关在家里啊钱运。
+[Speaker 0]: 出去了通胀起来了债留下来了再往前啊，
+[Speaker 0]: 三胰岛出了一次事故美国的核电呢从此就，
+[Speaker 0]: 半死不活他给一组数啊，
+[Speaker 0]: 今天在美国，
+[Speaker 0]: 建一 g 瓦的核电成，
+[Speaker 0]: 本大概是一，
+[Speaker 0]: 百五十亿，
+[Speaker 0]: 美元法国只有。
+[Speaker 0]: 四十亿而，
+[Speaker 0]: 中国呢只有十亿一次，
+[Speaker 0]: 恐慌能让一个国家的一整条技。
+[Speaker 0]: 术路线啊跪上十，
+[Speaker 0]: 几倍卡上几十年萨克斯呢在，
+[Speaker 0]: 另一头他说啊你们真的要过，
+[Speaker 0]: 那一关叫做人在，
+[Speaker 0]: 回路拔插头这件事情听着很，
+[Speaker 0]: 幼稚吧可是现实里的关键系统很多都是物理隔。
+[Speaker 0]: 离的压根不联网很多是两个人各，
+[Speaker 0]: 拿一把钥匙同时拧的他们几，
+[Speaker 0]: 个人呢还在节目头玩了个游戏叫做啊我们怎。
+[Speaker 0]: 么死有人说啊 AI 黑镜和，
+[Speaker 0]: 指挥系统有人说呢 AI 控，
+[Speaker 0]: 制生物反应。
+[Speaker 0]: 堆用机器人拿原料造一个能随喷气流，
+[Speaker 0]: 跑遍全球的东西玩到一半呢他们自己泄，
+[Speaker 0]: 气了中间缺的环节？
+[Speaker 0]: 啊实在太多了弗里德伯格啊。
+[Speaker 0]: 举了个特别具体的例子啊你，
+[Speaker 0]: 让 AI 现在订个东，
+[Speaker 0]: 西啊送到酒店房间，
+[Speaker 0]: 他能查能打电话。
+[Speaker 0]: 能下单全流，
+[Speaker 0]: 程的数字化可是，
+[Speaker 0]: 最后一步啊还是得有一个人。
+[Speaker 0]: 拎着东西呢从楼下走上来萨克斯还补了一，
+[Speaker 0]: 层啊他有这些工具坏人，
+[Speaker 0]: 能用好人也能，
+[Speaker 0]: 用啊 AI 能造攻击，
+[Speaker 0]: 也能造防御啊而且呢黑。
+[Speaker 0]: 客这行以前也存，
+[Speaker 0]: 在嘛很多人有本事就不动手，
+[Speaker 0]: 是因为不想坐，
+[Speaker 0]: 牢紧接着萨克斯开始，
+[Speaker 0]: 嘲讽达利奥他，
+[Speaker 0]: 说啊这批，
+[Speaker 0]: 人啊我们不是，
+[Speaker 0]: 第一次听他们这么喊了当年。
+[Speaker 0]:  GPT 二出来的时候啊达里奥跑出，
+[Speaker 0]: 来说啊这东西太危险了，
+[Speaker 0]: 不能公开发布后。
+[Speaker 0]: 来呢推理模型出来他们又说太。
+[Speaker 0]: 危险了不能发他，
+[Speaker 0]: 们说啊 AI 驱动的网络攻击呢会把。
+[Speaker 0]: 整个银行体系打趴下达，
+[Speaker 0]: 里奥自己说过啊入门，
+[Speaker 0]: 级的白领岗位呢，
+[Speaker 0]: 会在很快时间。
+[Speaker 0]: 内啊消失一半失业率，
+[Speaker 0]: 要冲到一乘五结果，
+[Speaker 0]: 呢他数。
+[Speaker 0]: 了一遍啊这几个预测全都错了零比四同一个星期呢还有。
+[Speaker 0]: 另一个人开口了这人，
+[Speaker 0]: 分量可不轻啊英伟达的老黄他在高盛演场会上呢，
+[Speaker 0]: 把这一波恐慌啊轻轻，
+[Speaker 0]: 拨到一边他说呢现在，
+[Speaker 0]: 整个世界都在谈什么。
+[Speaker 0]: 网络安全正是因为这，
+[Speaker 0]: 个行业正准备推产品，
+[Speaker 0]: 他反问一句啊还有。
+[Speaker 0]: 什么比制造一，
+[Speaker 0]: 个问题更能够制造需，
+[Speaker 0]: 求的呢再往前两个月他讲的话更。
+[Speaker 0]: 直白说这东西能终结人类啊纯是胡扯啊说，
+[Speaker 0]: 他消灭一半美国岗位也是胡扯萨，
+[Speaker 0]: 克斯说啊这次，
+[Speaker 0]: 所谓的吹哨也特别离谱正常吹哨长什么样呢员工？
+[Speaker 0]: 出来爆料公司，
+[Speaker 0]: 呢出来反驳说啊你讲的不是事实我们要，
+[Speaker 0]: 告你这次全，
+[Speaker 0]: 他妈反过来了，
+[Speaker 0]: 公司的人不但不反。
+[Speaker 0]: 驳还一个一，
+[Speaker 0]: 个的转发附和加码一个人爆，
+[Speaker 0]: 料啊全行业帮着放大？
+[Speaker 0]: 这在企业史上，
+[Speaker 0]: 啊大家都想不到有第，
+[Speaker 0]: 二个例子五月底啊，
+[Speaker 0]:  open 在内部有。
+[Speaker 0]: 人注意到两件怪事儿，
+[Speaker 0]: 一是是智智能体在使，
+[Speaker 0]: 用一个不该存在的留言板互，
+[Speaker 0]: 相说话第二呢，
+[Speaker 0]: 是有东西在往外。
+[Speaker 0]: 往跑报告里怎么，
+[Speaker 0]: 写的这一段呢原话意思是啊。
+[Speaker 0]: 当时负责事件检测和响应的人呢没有意识。
+[Speaker 0]: 到这件事情的分量六月二十七号一个安全监控工具报警了。
+[Speaker 0]: 顺着线索查过去啊查到还是，
+[Speaker 0]: 那一块留言板智能体呢正？
+[Speaker 0]: 拿它呢在内网里挪窝这时候警报响过了人也看到，
+[Speaker 0]: 了照理说呢这时候应该拉闸。
+[Speaker 0]: 了吧然后呢到，
+[Speaker 0]: 了七月中旬 hilen face 那边啊先，
+[Speaker 0]: 发现自己出事了紧，
+[Speaker 0]: 急处理七月十六号他们对外披露，
+[Speaker 0]: 七月二十一号呢 open 还承。
+[Speaker 0]: 认八月二十六号这，
+[Speaker 0]: 份报告才出，
+[Speaker 0]: 来所以你，
+[Speaker 0]: 看一看啊从第一个异常。
+[Speaker 0]: 信号冒，
+[Speaker 0]: 头到别人家的，
+[Speaker 0]: 生产服务器，
+[Speaker 0]: 整片沦陷的中间隔，
+[Speaker 0]: 了将近七。
+[Speaker 0]: 个星期这七个星期里啊模型呢并没有变聪明多少变的是什么呢是他一直在试一直。
+[Speaker 0]: 烧 token 而人呢一直，
+[Speaker 0]: 没拦着事后重新测呢如果把生产环境那套完整的，
+[Speaker 0]: 提示词和安全框架都装上模型往外。
+[Speaker 0]: 撬的倾向能降到，
+[Speaker 0]: 百分之一以下换句话，
+[Speaker 0]: 说啊如果当时上了？
+[Speaker 0]: 思维链监控安全团队至，
+[Speaker 0]: 少能够提前一天收，
+[Speaker 0]: 到预警赶在 hygen face。
+[Speaker 0]: 沦陷之前所以这一页到底证明了什么呢证明啊该关的门没，
+[Speaker 0]: 关响的铃呢没人接所以呢才导致这。
+[Speaker 0]: 个事件发生，
+[Speaker 0]: 如果你把本来的安全措施都加上的话 hygen face 的服务器啊根本不会，
+[Speaker 0]: 被入侵出个事呢总得。
+[Speaker 0]: 有人查吧欧 en 爱呢请了外部机？
+[Speaker 0]: 构做独立评估你猜他们查的多辛苦啊，
+[Speaker 0]: 公开的复牌材料都给的数是。
+[Speaker 0]: 这样的一千三百来份智能体的对话记，
+[Speaker 0]: 录六天时间啊光调用接口就烧掉了大约四，
+[Speaker 0]: 十万美金就是这。
+[Speaker 0]: 些 API 啊最扯的就是这么多材料呢人，
+[Speaker 0]: 根本读不完所以呢他们，
+[Speaker 0]: 就得请一个 AI 来帮着读啊请的是哪，
+[Speaker 0]: 一个呢拆 GBT 五点六的 so 啊这一次能够把过程还，
+[Speaker 0]: 原这么细呢还得泄一个意外反之的时。
+[Speaker 0]: 候呢人从内部，
+[Speaker 0]: 外部的跳板机上啊把智能，
+[Speaker 0]: 体自己写的日，
+[Speaker 0]: 志呢全捞回来了他们干过什么全写在，
+[Speaker 0]: 上面 open 爱后来的？
+[Speaker 0]: 处置呢非常决。
+[Speaker 0]: 绝啊七月二十五号呢把那个内部研究，
+[Speaker 0]: 模型和它的衍生。
+[Speaker 0]: 模型啊训练和，
+[Speaker 0]: 推理全都停掉了再样开呢得，
+[Speaker 0]: 一个场景一个场景的报批而且呢这件。
+[Speaker 0]: 事情不止出现？
+[Speaker 0]: 在一家同一，
+[Speaker 0]: 个夏天 SRB 那边也出现过一次第三，
+[Speaker 0]: 方在做安全评估的时候呢配置出了错等于是给智能体开了一条通往外网的路他。
+[Speaker 0]: 没跑出去了两家最强，
+[Speaker 0]: 的公司呢两次都。
+[Speaker 0]: 跑出去了一次呢七月捅到全世界的面前一次，
+[Speaker 0]: 呢没这么想所以你看啊这就是。
+[Speaker 0]: 两家 AI 公司自己内部管，
+[Speaker 0]: 理出了问题，
+[Speaker 0]: 嘛就像你管两个工厂这个工厂的安全措。
+[Speaker 0]: 施你没有加好，
+[Speaker 0]: 然后呢工厂发生了，
+[Speaker 0]: 爆炸你不会出来。
+[Speaker 0]: 说啊这个工厂已经危害到人类，
+[Speaker 0]: 安全了吧明明是。
+[Speaker 0]: 你自己出现，
+[Speaker 0]: 错误了嘛也就是说啊这两啊啊如果安安全措。
+[Speaker 0]: 施都正确的加上的，
+[Speaker 0]: 话是不会出现问题的九月初的时。
+[Speaker 0]: 候呢 ccopen，
+[Speaker 0]:  i 宣布啊他们在，
+[Speaker 0]: 一到两百年的老题上取得的进展这道题描描述的是。
+[Speaker 0]: 流体怎流流动你作为飞机啊，
+[Speaker 0]: 家里的水管啊气气报的的模型呢底下呢都要用，
+[Speaker 0]: 到这个模，
+[Speaker 0]: 型怎么做出来的呢说。
+[Speaker 0]: 出来你可能不信，
+[Speaker 0]: 啊一万个智，
+[Speaker 0]: 能体同时开工吐出去大约呢一亿三百亿。
+[Speaker 0]: 个词源就是说啊一个人不吃不喝。
+[Speaker 0]: 不睡一年一年，
+[Speaker 0]: 的算得算那么，
+[Speaker 0]: 久他自己也说啊这，
+[Speaker 0]: 个估算呢可以再往下打一，
+[Speaker 0]: 个数量级可打完？
+[Speaker 0]: 了还是几万年他觉得呢，
+[Speaker 0]: 人工智能能够把这些解出来靠，
+[Speaker 0]: 的是几万年的苦力活把这呢硬塞进了几天啊其实呢也是，
+[Speaker 0]: 用了超能力啊并不是所有。
+[Speaker 0]: 机构或者个人，
+[Speaker 0]: 有这么多钱去烧的每一条智能体之间，
+[Speaker 0]: 来回传的消息呢都留。
+[Speaker 0]: 着人能读人也能看懂他没有想出人类想，
+[Speaker 0]: 不出的东西他只是把人，
+[Speaker 0]: 类想得出的但一辈子算，
+[Speaker 0]: 不完的东西呢给算完了所，
+[Speaker 0]: 以在他看来啊 AI 呢就是一根杠杆当然了这个故事呢还有另一个版本当时啊有几，
+[Speaker 0]: 位数学家当众出来质疑因为。
+[Speaker 0]: 他们一直在用欧 en 亚的产品呢，
+[Speaker 0]: 推这道题会不会他们的，
+[Speaker 0]: 思路呢顺着对话框流进模型里呢欧。
+[Speaker 0]: 朋亚有一位资深，
+[Speaker 0]: 研究员出来否认啊。
+[Speaker 0]: 说没有，
+[Speaker 0]: 人去翻他们的提示词那太荒，
+[Speaker 0]: 唐了但是呢公司自己的表态啊措辞，
+[Speaker 0]: 就微妙多了原话的意思是呢可能性不大但是呢我们无法排除啊从他？
+[Speaker 0]: 们使用过程中脱敏得来的？
+[Speaker 0]: 数据啊帮助我们改进了我们的模型当，
+[Speaker 0]: 然了那两位数学家晒出来的，
+[Speaker 0]: 聊天记录啊。
+[Speaker 0]: 可说的是另一个故事当时，
+[Speaker 0]: 呢 open i 内部的有。
+[Speaker 0]: 一个研究员啊去跟这些数学。
+[Speaker 0]: 家说要我们一起发吧但是呢有个要求你得把作者中一个是 paapunshoapping 那，
+[Speaker 0]: 边的人呢给踢出去后来呢这。
+[Speaker 0]: 个数学，
+[Speaker 0]: 家完全不同意啊 open i 就说你不担心，
+[Speaker 0]: 你的职业生涯吗这数。
+[Speaker 0]: 学家说我是搞学术的什么职业生涯，
+[Speaker 0]: 你还想威胁我于是呢这个案子啊就变。
+[Speaker 0]: 成一个罗生蒙了，
+[Speaker 0]:  open 爱到底有没有利用这两个数学家花了一年。
+[Speaker 0]: 的研究成果啊去加速用暴力破解，
+[Speaker 0]: 这，
+[Speaker 0]: 题呢其实呢我们现在已经说不清？
+[Speaker 0]: 了但是呢有一点我是相信，
+[Speaker 0]: 的啊完全有可能，
+[Speaker 0]: 呢 open 爱的研究。
+[Speaker 0]: 人员问模型啊哎你知道哪些数学难题值。
+[Speaker 0]: 得去解决啊那几个数学家啊花了一年时间已经快接近解开难题了结果呢模型直接告诉研究人员哎你去看看这一题其，
+[Speaker 0]: 实呢这个数学家的数据和 ip，
+[Speaker 0]: 呢已经被模型给抄走了这其实啊给所有，
+[Speaker 0]: 在使用这些大元模型的人呢都提供了，
+[Speaker 0]: 一个警示特别机密的涉及到知识产权的东西啊如果说呢。
+[Speaker 0]: 你还没有去申请保护千万不要，
+[Speaker 0]: 喂，
+[Speaker 0]: 给这个大元模型。
+[Speaker 0]: 他们啊很有可能会拿着你的数据和知识以及呢你的思。
+[Speaker 0]: 路去摘桃子很多公司啊买 AI 服务的时候呢都会，
+[Speaker 0]: 有一个零数据留存啊拿这几个字当成护身符我们签了协。
+[Speaker 0]: 议啊你不许拿我们的数据去训练，
+[Speaker 0]: 查马斯呢在这个节目里头啊。
+[Speaker 0]: 把这层窗户就给捅破了他说啊这是尽商业上最大努力的承诺努力。
+[Speaker 0]: 呢但不是保证啊举个例子啊你，
+[Speaker 0]: 可以要求啊大约模型呢别，
+[Speaker 0]: 记住你这次设计的方案。
+[Speaker 0]: 他大概能做到但是，
+[Speaker 0]: 呢这些后面的研究员啊只要。
+[Speaker 0]: 有个人啊在对话上头顺手点，
+[Speaker 0]: 了个赞这条路呢就不一。
+[Speaker 0]: 定关的严了大元模型可能会理解哎呀，
+[Speaker 0]: 你同意，
+[Speaker 0]: 了更要命的是脱，
+[Speaker 0]: 敏这两个字，
+[Speaker 0]: 脱敏脱到是什么呢是你是谁你在哪家公司听着呢挺，
+[Speaker 0]: 让人放心的对。
+[Speaker 0]: 吧可是对于一家企业来说啊，
+[Speaker 0]: 真正值钱的其实是思路你怎么拆解这个，
+[Speaker 0]: 问题你先是哪一步你在哪里。
+[Speaker 0]: 卡住意绕回来这一整，
+[Speaker 0]: 套解，
+[Speaker 0]: 题思路啊。
+[Speaker 0]: 就是你的家底名字抹干净了，
+[Speaker 0]: 可是思路还在啊模？
+[Speaker 0]: 型看着看？
+[Speaker 0]: 着就学会了弗里德伯？
+[Speaker 0]: 格呢讲了一段亲身？
+[Speaker 0]: 经历啊他们呢问过模型一，
+[Speaker 0]: 些很偏门的科研问题模。
+[Speaker 0]: 型当时的反应是啊这，
+[Speaker 0]: 个思路很新后，
+[Speaker 0]: 来呢他换了个账号换了。
+[Speaker 0]: 个版本再去问的时候，
+[Speaker 0]: 啊模型把他们讨论那一套东西，
+[Speaker 0]: 呢原样讲回来了，
+[Speaker 0]: 他说啊我知道我们这行。
+[Speaker 0]: 有多窄也知道外面根本没有新论文，
+[Speaker 0]: 能教这个东西那他是从哪里学来的呢可是呢企。
+[Speaker 0]: 业界已经开始动了查瓦斯给的。
+[Speaker 0]: 解法是，
+[Speaker 0]: 啊你要真在乎，
+[Speaker 0]: 你就别买这，
+[Speaker 0]: 些标准套餐自己，
+[Speaker 0]: 呢找一家信得过的云服务商把机器单独拉出。
+[Speaker 0]: 来模型，
+[Speaker 0]: 架在自己的地盘上进出，
+[Speaker 0]: 的门呢都自己看着风向已经开始转了风险委，
+[Speaker 0]: 员会审计委员会一层层？
+[Speaker 0]: 往上报报到董事会做法律爱，
+[Speaker 0]: 的公司里呢已经。
+[Speaker 0]: 有人，
+[Speaker 0]: 干脆拿开源模，
+[Speaker 0]: 型训练一个自己的专。
+[Speaker 0]: 业模型出来九月九号就发布了乔马，
+[Speaker 0]: 斯的判断更直接啊，
+[Speaker 0]: 未来一年一定会有几个，
+[Speaker 0]: 技术高管因为这件事情。
+[Speaker 0]: 啊丢掉工作意思就。
+[Speaker 0]: 是说呢自己公司的内部机密啊已经泄露了啊你想想你自。
+[Speaker 0]: 己啊你过去有没有把合同贴进去过有没有把财务模型贴进去过有没有把。
+[Speaker 0]: 这种还没有申请的专利想法也贴进去过那，
+[Speaker 0]: 很有可能啊 open i 呢已经会盯上你。
+[Speaker 0]: 了我们知道呢 SR abc open en i，
+[Speaker 0]: 都准备上市啊他们要提交一个招股书招股书里头有。
+[Speaker 0]: 专门一张写风险平，
+[Speaker 0]: 时这张写什么呢竞争激烈芯片，
+[Speaker 0]: 供应可能不稳市场需求可能，
+[Speaker 0]: 会发生变化这些呢都是传统的套话律师都是有模？
+[Speaker 0]: 板的闭着眼睛，
+[Speaker 0]: 都能写但现在你把这句。
+[Speaker 0]: 话填进去啊本，
+[Speaker 0]: 公司的安全负责人认为本，
+[Speaker 0]: 公司的核心产品呢有超，
+[Speaker 0]: 过百分之十的概率啊导致人类，
+[Speaker 0]: 灭绝这句话一旦落？
+[Speaker 0]: 到纸上你，
+[Speaker 0]: 猜买方会要求什么，
+[Speaker 0]: 肯定会要求一个巨大的折。
+[Speaker 0]: 扣那不写呢公司里的人啊，
+[Speaker 0]: 满世界都在讲这句，
+[Speaker 0]: 话你在招股书里，
+[Speaker 0]: 头装而不见啊将来出了一次。
+[Speaker 0]: 事故一个受害者家属把这，
+[Speaker 0]: 段推特打印出来递给陪审团你猜这个官司怎么，
+[Speaker 0]: 打你 anthropic 要不要。
+[Speaker 0]: 赔钱当年美国国会听，
+[Speaker 0]: 证会上啊几家烟草公司？
+[Speaker 0]: 的高管一个接一个的举手宣。
+[Speaker 0]: 誓啊我不，
+[Speaker 0]: 认为尼古丁会上瘾这几十秒呢后来，
+[Speaker 0]: 成为那场世纪审判里最贵的，
+[Speaker 0]: 几十秒但这一次不，
+[Speaker 0]: 一样在哪呢不一样在哪这帮人在卖股票之前啊自。
+[Speaker 0]: 己先把这话说出来了其？
+[Speaker 0]: 实呢你在顺这条？
+[Speaker 0]: 线往下走啊就走到这场争，
+[Speaker 0]: 论真正的火药桶开源萨克斯的推演是这样的达里，
+[Speaker 0]: 昂呢在参议院作证时候。
+[Speaker 0]: 讲过一个模型危不危险要看你啊能不能集中监控它。
+[Speaker 0]: 必要时呢把它收回来可？
+[Speaker 0]: 是开源模型？
+[Speaker 0]: 的权重一旦放出去呢泼，
+[Speaker 0]: 出去的水啊你收不回来。
+[Speaker 0]: 了收不回来呢按照这个标准开源，
+[Speaker 0]: 天然就不合规所，
+[Speaker 0]: 以啊那个监管机构不用喊禁止开源他只需。
+[Speaker 0]: 要说一句啊我们要对所有模型一视同仁开源自己就，
+[Speaker 0]: 死了更有意思的是呢跟萨克，
+[Speaker 0]: 斯啊在其他观点上并。
+[Speaker 0]: 不一致的詹森呢在开源模型这个问题，
+[Speaker 0]: 上啊居然达成，
+[Speaker 0]: 了一致桥水自，
+[Speaker 0]: 己就是靠开源？
+[Speaker 0]: 模型吃饭的嘛，
+[Speaker 0]: 权重拿到手往一个。
+[Speaker 0]: 窄任务上往死练练出来东西呢在那件。
+[Speaker 0]: 事情上能够压过最，
+[Speaker 0]: 强的闭源模型所以啊他画那，
+[Speaker 0]: 条线跟萨克斯不。
+[Speaker 0]: 一样他说啊别再，
+[Speaker 0]: 争开源闭源了也别再争中国美国了要真。
+[Speaker 0]: 的是有人管还是没人管詹森说呢按照桥水自己的。
+[Speaker 0]: 推断再过几年啊全世界大概三乘五，
+[Speaker 0]: 的算力都会在 open a 或者 SR opy 这两家手里别人估的数更高啊到五成这什么概念呢全世界算。
+[Speaker 0]: 力啊一半装在这两家公司的机房里他，
+[Speaker 0]: 说呢别这么干历史，
+[Speaker 0]: 上呢我们已经学过一次了把，
+[Speaker 0]: 全世界的粮仓转在两家人手。
+[Speaker 0]: 里啊会闹，
+[Speaker 0]: 出什么事情朝最凶的两，
+[Speaker 0]: 个人到这里，
+[Speaker 0]: 呢反而握了一次手萨斯说呢 AI 的数据得立法保护你跟律师，
+[Speaker 0]: 说的话有特权你在，
+[Speaker 0]: 对话框，
+[Speaker 0]: 里头问的同一？
+[Speaker 0]: 个问题却没有这不像话詹森说啊得对机器的。
+[Speaker 0]: 劳动收税你今天，
+[Speaker 0]: 对人的的资征征税啊对机器干，
+[Speaker 0]: 活却不征税那你就是明摆着告诉老，
+[Speaker 0]: 板别再雇人了全。
+[Speaker 0]: 都转向机器吧两个人的观点呢其实指的都。
+[Speaker 0]: 是同一件事情这场牌局啊不，
+[Speaker 0]: 能只由，
+[Speaker 0]: 拿着牌的人自己定规。
+[Speaker 0]: 则，
+[Speaker 0]: 。
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 0]: 。
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 0]: 。
+[Speaker 0]: 。
+[Speaker 0]: ，
+[Speaker 0]: 。
