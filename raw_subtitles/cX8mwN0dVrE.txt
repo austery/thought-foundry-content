@@ -1,0 +1,791 @@
+[Speaker 0]: 就在昨天上午呢，
+[Speaker 0]: 在洛杉矶啊这个 on in cast 搞了一个 summit，
+[Speaker 0]: 然后呢台上坐着五个，
+[Speaker 0]: 人人有四个主持人，
+[Speaker 0]: 一个客人，
+[Speaker 0]: 台下有几千号人。
+[Speaker 0]: 啊，
+[Speaker 0]: 这四个主持人不是一般的播客网红呢，
+[Speaker 0]: 其中有两位现在就在白宫当顾问啊，
+[Speaker 0]: 那个客人啊手里呢掌握着全世界 AI 专利的定价学啊，
+[Speaker 0]: 就是皮衣、
+[Speaker 0]: 黄或者是皮夹克黄啊，
+[Speaker 0]: 英伟达的 CEO。
+[Speaker 0]: 他们呢本来正聊到一半，
+[Speaker 0]: 主持人说啊，
+[Speaker 0]: 我们现在把英伟达从最底下一层开始拆开看看。
+[Speaker 0]: 话还没说完黄，
+[Speaker 0]: 仁勋的手机就响了他，
+[Speaker 0]: 低头扫了一眼屏幕愣，
+[Speaker 0]: 了半秒说，
+[Speaker 0]: 了句完了全，
+[Speaker 0]: 场哄笑他，
+[Speaker 0]: 接了起来开，
+[Speaker 0]: 口第一句就是啊总统先生场子一下就静下来了他。
+[Speaker 0]: 冲着电话那头说啊我，
+[Speaker 0]: 现在在台上跟几个老朋友一块台底下呢坐着好几千号人呢说来也巧我，
+[Speaker 0]: 们刚刚聊的就是您然。
+[Speaker 0]: 后呢他，
+[Speaker 0]: 干了一件事情啊他，
+[Speaker 0]: 把免提打开了台，
+[Speaker 0]: 上呢乱成一团啊找，
+[Speaker 0]: 麦克风递麦克风毕。
+[Speaker 0]: 竟呢也没有准备要拿这个电话免提来做这个发言啊凑，
+[Speaker 0]: 到手机跟前呢这个场面想想啊电，
+[Speaker 0]: 话那头笑啊说这，
+[Speaker 0]: 个 jenson 呢能造出全世界最复杂的芯片十年，
+[Speaker 0]: 呢没人抄走可他，
+[Speaker 0]: 呢搞不定一个免提全场，
+[Speaker 0]: 大笑然后。
+[Speaker 0]: 呢肖声，
+[Speaker 0]: 就停来了因为，
+[Speaker 0]: 接下来啊总统对这几千号人呢说了这么一段我跟你，
+[Speaker 0]: 们讲啊这全是，
+[Speaker 0]: 骗局啊 hooks 啊当，
+[Speaker 0]: 然了。
+[Speaker 0]: 总统先，
+[Speaker 0]: 生说过很多东西是 hooks 比如说。
+[Speaker 0]: 呢 affordability 这个 issue 呢总统也，
+[Speaker 0]: 说啊是一个骗局啊数据中，
+[Speaker 0]: 心呢是一个好东西它能让，
+[Speaker 0]: 人变富你让一。
+[Speaker 0]: 个一个 draw 变富他是未来，
+[Speaker 0]: 二十五年的石油比互联网，
+[Speaker 0]: 还要大机器人不，
+[Speaker 0]: 会接管世界 AI 呢也不，
+[Speaker 0]: 会接管世界整个事情，
+[Speaker 0]: 呢都是一个骗局他说一句。
+[Speaker 0]: 更狠的有人呢在，
+[Speaker 0]: 背后推这个东西可能是政，
+[Speaker 0]: 治人物也可能是，
+[Speaker 0]: 中国我们不会，
+[Speaker 0]: 让他们得逞的这里呢要给。
+[Speaker 0]: 大家科普一下啊现在呢美国，
+[Speaker 0]: 很多州在进行这个数据中心的建设当地的居民。
+[Speaker 0]: 认为啊这些数据中，
+[Speaker 0]: 心呢一方面会推高当地的电价因为呢很耗，
+[Speaker 0]: 电啊然后需求上，
+[Speaker 0]: 去了这个电力又。
+[Speaker 0]: 供应不足导致呢电价，
+[Speaker 0]: 上涨同时呢也会对，
+[Speaker 0]: 水资源产生影响因为呢冷却水。
+[Speaker 0]: 的需求很大而且呢不会给，
+[Speaker 0]: 当地带来多少工作你想想一个数。
+[Speaker 0]: 据中心嘛总共就需要一，
+[Speaker 0]: 两个运维人员所以呢组织了很。
+[Speaker 0]: 多民间的运动抵制结果啊这些数据中心的，
+[Speaker 0]: 投资人比如说像这个 mr，
+[Speaker 0]:  wonderful 啊就是在那个 sharttime 上，
+[Speaker 0]: 的一个嘉宾他就在媒体上讲。
+[Speaker 0]: 啊这些人都是中国政，
+[Speaker 0]: 府雇的水军啊这就是遇事不决甩，
+[Speaker 0]: 锅于中国啊你想想啊假如你是。
+[Speaker 0]: 当地的一，
+[Speaker 0]: 个运动的组织者然后呢对方给你扣，
+[Speaker 0]: 上个帽子说你呢是中国请的这，
+[Speaker 0]: 个人员啊专门用来表演抗议的，
+[Speaker 0]: 你心里会怎么想肯定，
+[Speaker 0]: 气炸了呀我看那？
+[Speaker 0]: 几个运动的领。
+[Speaker 0]: 导者啊他们直接上媒体就说，
+[Speaker 0]: 啊这帮人给我们泼污水，
+[Speaker 0]: 啊我们呢其实就是想让，
+[Speaker 0]: 自己的生活有更好的改善不想让这些数据中心，
+[Speaker 0]: 啊建在我们家附近回到正题啊黄仁兄啊，
+[Speaker 0]: 只回了几个，
+[Speaker 0]: 字您说的对先生你看啊，
+[Speaker 0]: 老黄的政，
+[Speaker 0]: 治觉，
+[Speaker 0]: 悟还是很高的长袖善舞但是呢这个场，
+[Speaker 0]: 面我怎么。
+[Speaker 0]: 看都像是一个 setup 啊给我感觉有点假 all in potest，
+[Speaker 0]: 这帮人呢跟特特。
+[Speaker 0]: 朗普关，
+[Speaker 0]: 系很好老黄也是几个人啊私下，
+[Speaker 0]: 商量一下搞个大新，
+[Speaker 0]: 闻也不是不可，
+[Speaker 0]: 能你想想一个呢掌握着监管。
+[Speaker 0]: 权一个掌握着算力定价权当，
+[Speaker 0]: 着几千人的面呢用一部。
+[Speaker 0]: 啊开了免提的手机给这一场啊关乎全人类的，
+[Speaker 0]: 技术争论呢当场定了性而且啊这变成一个大新闻我，
+[Speaker 0]: 看很多媒体在报道这件事。
+[Speaker 0]: 情可就在这通电话响起来之前，
+[Speaker 0]: 不到三个小时呢纽约已。
+[Speaker 0]: 经开盘了同一个上午呢，
+[Speaker 0]: 英伟达开盘之后。
+[Speaker 0]: 就低开啊盘中，
+[Speaker 0]: 呢一路没有缓过来收盘跌，
+[Speaker 0]: 了百分之三左右摸到了，
+[Speaker 0]: 近三周的最低点这还算轻，
+[Speaker 0]: 的当天真正惨的是他身，
+[Speaker 0]: 后那一排啊 ARM 跌了百分之七柯磊呢跌了百分，
+[Speaker 0]: 之八范林跌了百，
+[Speaker 0]: 分之七迈威尔跌了百，
+[Speaker 0]: 分之七点六连英特，
+[Speaker 0]: 尔都跌了百分之六多啊整个，
+[Speaker 0]: 费城半导体指数呢一天抹。
+[Speaker 0]: 掉，
+[Speaker 0]: 了将近百分之六再看另一头啊孙正义的软银当天跌。
+[Speaker 0]: 到了百分之十，
+[Speaker 0]: 一可就在同一张盘面上呢有一批股票，
+[Speaker 0]: 是涨的很多网络安全公，
+[Speaker 0]: 司呢都涨了两位数，
+[Speaker 0]: 啊这个盘面啊其实就是说呢钱啊从造 AI。
+[Speaker 0]: 基础设施的，
+[Speaker 0]: 公司里头抽出来转身呢跑进了防 AI 出事的人的口袋里啊更有意思的是那几个超大云厂商什么，
+[Speaker 0]:  meta 微软谷歌啊，
+[Speaker 0]: 那天不但没跌还涨，
+[Speaker 0]: 了所以你、
+[Speaker 0]: 看啊、
+[Speaker 0]: 那天市，
+[Speaker 0]: 场并不是无差，
+[Speaker 0]: 别的卖。
+[Speaker 0]: 跟 AI 相关的股票它呢是在重新分类谁，
+[Speaker 0]: 是靠无休止的资本，
+[Speaker 0]: 开支活着的谁呢会。
+[Speaker 0]: 受益于啊这个人类对于 AI 的安全？
+[Speaker 0]: 问题的担忧而这一天的导火索呢是一篇文章九月十二号。
+[Speaker 0]: 星期六有一个哥们呢在自己的网。
+[Speaker 0]: 站上啊贴了一篇很长的文章标题翻译过来就是啊我们必须为前沿 AI 呢踩刹车写这枚东西的就是你屏幕上看到这个哥们啊，
+[Speaker 0]: 全世界最会造。
+[Speaker 0]: 前沿模型的那批人之一他是 SRRP 的，
+[Speaker 0]: 创始人兼 CEO 他的名字啊叫做达里奥阿。
+[Speaker 0]: 莫戴伊啊有人呢叫他，
+[Speaker 0]: 阿迪王啊文章的核心主张呢就是啊，
+[Speaker 0]: 我们必须得放慢提升。
+[Speaker 0]:  AI 能力的速度你可能会说啊这些年呢呼吁减速的人还少吗我记。
+[Speaker 0]: 得伊朗 musk 在二，
+[Speaker 0]: 三年还是二四年就已经开始呼？
+[Speaker 0]: 吁了大家需要放缓人工智能的开发然后呢发现没人鸟，
+[Speaker 0]: 他他自己马上又开了一个公司。
+[Speaker 0]: 啊继续疯狂的发展人工智能但是呢这一片不一样不，
+[Speaker 0]: 一样在哪呢阿迪王呢先把自。
+[Speaker 0]: 己以前的立场给推翻了他说啊二零？
+[Speaker 0]: 二三年那一轮呢暂停 AI 的呼吁啊在当时。
+[Speaker 0]: 其实没什么道理为什么呢那个年代的模型啊，
+[Speaker 0]: 不会自己干活也不会骗，
+[Speaker 0]: 人更不会？
+[Speaker 0]: 作弊啊更谈不上去攻击谁他这次要，
+[Speaker 0]: 求减速理由，
+[Speaker 0]: 呢不是对于未，
+[Speaker 0]: 来推算而是二零二。
+[Speaker 0]: 六年这些模型已，
+[Speaker 0]: 经干过的事他提了三件事，
+[Speaker 0]: 情从近到远啊自己先能做的就是找一个。
+[Speaker 0]: 驻场评估员选一，
+[Speaker 0]: 些第三方的，
+[Speaker 0]: 评估人员永久性的塞进公司里面啊不，
+[Speaker 0]: 是来访问呢是给工位给门，
+[Speaker 0]: 禁卡给公司电脑权限呢跟，
+[Speaker 0]: 内部风险团队，
+[Speaker 0]: 基本对齐让外人啊，
+[Speaker 0]: 盯着这。
+[Speaker 0]: 个训练过程和安全措施出了事呢直接，
+[Speaker 0]: 报当然了他在这篇文章里头提到这家公司，
+[Speaker 0]: 呢被人发现啊其。
+[Speaker 0]: 实也并，
+[Speaker 0]: 不是那么独立啊有很多跟这个 anthropic 有千丝万缕的，
+[Speaker 0]: 联系所以说啊这个组织它，
+[Speaker 0]: 的中立性啊受到很多方的质疑啊我。
+[Speaker 0]: 看到 new york post 直接发了一篇文章啊说这个阿迪王提的这个，
+[Speaker 0]: 所谓的第三方监管机构就是一个笑，
+[Speaker 0]: 话再往上一层呢是民主国家之间啊前沿公司互相协调定一套。
+[Speaker 0]: 呢共同的安全标准和速度上限再往上啊就是跟不同，
+[Speaker 0]: 体制的国家尝试协调这他的自己也承。
+[Speaker 0]: 认啊验证起来呢将会非常难这三件事呢一件，
+[Speaker 0]: 比一件难落地啊可他，
+[Speaker 0]: 不止提他呢把自己最能说。
+[Speaker 0]: 算那件呢当场就已经认领了说呢，
+[Speaker 0]: 我们 anthorpic 单方，
+[Speaker 0]: 面先干我们先来降低，
+[Speaker 0]: 我们的这个模型开发速度，
+[Speaker 0]: 为大家做一个表率希望，
+[Speaker 0]: 所有人呢能够跟上这个文章发出去之后几，
+[Speaker 0]: 个小时啊事情起了。
+[Speaker 0]: 变化 open air 公开表态啊第一条他跟，
+[Speaker 0]: 进马斯克呢在社交平台上转发并且回。
+[Speaker 0]: 了一句啊它是对，
+[Speaker 0]: 的啊但是你会发现啊这其实呢挺蹊跷的啊，
+[Speaker 0]:  open i 和 anthropic 两个是，
+[Speaker 0]: 竞争对手啊。
+[Speaker 0]: 山姆奥特曼和这，
+[Speaker 0]: 个阿迪王啊互相见面，
+[Speaker 0]: 都不打招呼的马斯克骂过阿，
+[Speaker 0]: 迪王然后呢更是在推特上疯，
+[Speaker 0]: 狂的嘲讽奥特曼这几个。
+[Speaker 0]: 人居然能达成一致，
+[Speaker 0]: 啊而且呢谷歌的 deep man 也表了态一个行业里，
+[Speaker 0]: 头最能打的几家隔了几个小，
+[Speaker 0]: 时呢在同一件市场站到了一，
+[Speaker 0]: 起这呢是过去三年啊从来没有，
+[Speaker 0]: 见过的场面这篇，
+[Speaker 0]: 文章的标题呢其实啊来自。
+[Speaker 0]: 于今年更早的时候七月份的一封公开信。
+[Speaker 0]: 签名的研究员呢大，
+[Speaker 0]: 约有一千四百人啊差不多啊是，
+[Speaker 0]: 整个 AI 圈的这些顶尖人才啊这篇文章发出来之后没多久啊两，
+[Speaker 0]: 天之后总统的电话就打到了洛杉矶的台。
+[Speaker 0]: 上对于阿迪王的说法黄仁勋怎么，
+[Speaker 0]: 反驳的呢，
+[Speaker 0]: 他说啊你别老讲那些编出来的数字。
+[Speaker 0]: 我们把真实发生的，
+[Speaker 0]: 事儿呢摆在桌面上大？
+[Speaker 0]: 家一起看啊头一条放射科当年有一，
+[Speaker 0]: 个特别有名的说法五年之内 AI 会把放，
+[Speaker 0]: 射科的医生呢。
+[Speaker 0]: 全都取代世界上不会再有放射科医生这个，
+[Speaker 0]: 职业了结果呢现在正要反过来了全世界比任，
+[Speaker 0]: 何时候都更缺啊放射科的医生当然了我。
+[Speaker 0]: 觉得这两个可能是有因果，
+[Speaker 0]: 关系的因为大家都害怕啊这个放射科医生职。
+[Speaker 0]: 业不存，
+[Speaker 0]: 在了所以呢去学的人就减少了黄若。
+[Speaker 0]: 勋呢补了一句啊虽，
+[Speaker 0]: 然呢 AI 确实已经把放射科给接，
+[Speaker 0]: 管了接管的是这种自动读。
+[Speaker 0]: 片这道工序啊片子呢，
+[Speaker 0]:  AI 先过一遍然后呢医生还要去做判断工，
+[Speaker 0]: 序没了但是职业还在而。
+[Speaker 0]: 且呢更紧缺了再往下数啊去年，
+[Speaker 0]: 就有人预测六到十二个月，
+[Speaker 0]: 之内呢百，
+[Speaker 0]: 分之九十的代，
+[Speaker 0]: 码将由 AI 生成时。
+[Speaker 0]: 间早就到了，
+[Speaker 0]: 并没有发生还有条，
+[Speaker 0]: 条更狠的六到九个月，
+[Speaker 0]: 之内一半的初级岗位就该没了，
+[Speaker 0]: 也也到点了同，
+[Speaker 0]: 样没有发生。
+[Speaker 0]: 主持人旁旁还补，
+[Speaker 0]: 补了几句啊当年，
+[Speaker 0]: 呢阿迪王说 GGTT 二太危险了不能发布后，
+[Speaker 0]: 来又说呢拉玛，
+[Speaker 0]: 三也太危险了不能发布啊还，
+[Speaker 0]: 有人放话呢明年一半的百里工作，
+[Speaker 0]: 都没了这。
+[Speaker 0]: 就是所谓的，
+[Speaker 0]: 就业大末日说实话，
+[Speaker 0]: 拉玛三呢我。
+[Speaker 0]: 用过挺拉的黄，
+[Speaker 0]: 荣勋吐槽道啊这些愚蠢的预，
+[Speaker 0]: 测总得有个人负责吧放射。
+[Speaker 0]: 哥那条，
+[Speaker 0]: 呢其实是，
+[Speaker 0]: 二零一六年啊。
+[Speaker 0]: 一位深度学习领，
+[Speaker 0]: 域的重量级学者在会议上讲的那个学。
+[Speaker 0]: 者呢还是苏兹克维的导师啊原话呢确实劝医学院别再培养方射科医。
+[Speaker 0]: 生了代码和初级岗位那两，
+[Speaker 0]: 条呢也找到出处时间点卡，
+[Speaker 0]: 的死死的都没有兑现黄仁勋不爽的地方就在。
+[Speaker 0]: 于啊喊狼来了那。
+[Speaker 0]: 帮人呢从来没有为自己喊，
+[Speaker 0]: 错付过一次代价他吐槽的啊。
+[Speaker 0]: 这些预测一次次落空最后消耗掉的是。
+[Speaker 0]: 美国自己在这场竞赛里的可信，
+[Speaker 0]: 度当然了喊着。
+[Speaker 0]:  AI 要毁灭人类的那帮人呢他们手，
+[Speaker 0]: 里最强的证据啊就是一份事故报告我们上一期节。
+[Speaker 0]: 目也讲，
+[Speaker 0]: 过了而且呢两个月以后啊黄仁勋，
+[Speaker 0]: 啊自己掏了一百多亿美，
+[Speaker 0]: 元把这个事故报告。
+[Speaker 0]: 的受害者呢给买下来了啊，
+[Speaker 0]: 就是 higking face 你可以把它，
+[Speaker 0]: 理解成啊全世界开源 AI 的中央仓，
+[Speaker 0]: 库有一千八百万个开发者在上面混啊里面呢，
+[Speaker 0]: 存着三百，
+[Speaker 0]: 万个模型五十万套数据集有二十万家企业呢从这里取货做 AI 的人呢几乎没有不上，
+[Speaker 0]: 这的今年七月呢这个仓库，
+[Speaker 0]: 被人攻破了之前，
+[Speaker 0]: 我们也讲过了真凶呢是 open AI 当，
+[Speaker 0]: 时一个比较离谱的事情是啊这。
+[Speaker 0]: 个 hungin face 在想办法解决啊找反击之。
+[Speaker 0]: 策的时候呢去跟 open，
+[Speaker 0]:  i 谈想用拆 GPT 结果呢被拒绝了原因是这。
+[Speaker 0]: 个安，
+[Speaker 0]: 全有隐患啊最后呢他没办，
+[Speaker 0]: 法只能去用一个中国，
+[Speaker 0]: 开源模型你竟，
+[Speaker 0]: 然讽刺不，
+[Speaker 0]: 讽刺这些最强的，
+[Speaker 0]: 闭源模型条款限制了他们，
+[Speaker 0]: 能不能用在这种，
+[Speaker 0]: 场合真到了自家系统着火要。
+[Speaker 0]: 拿 AI 去救火的时候能立刻抄起来就用的是一个可以，
+[Speaker 0]: 下载到本地想怎么改就怎么改的中国开源模型所，
+[Speaker 0]: 以呢整个故事就是啊，
+[Speaker 0]: 一家开源平台栽在一个闭源模型手里最后呢，
+[Speaker 0]: 靠一个中国开源模型爬起来了我觉。
+[Speaker 0]: 得这件事情啊恰恰证明啊不应该进开源模型啊不然呢哈尔根，
+[Speaker 0]:  face 都找不到解决方案这故事还没完九。
+[Speaker 0]: 月三三号英英伟宣布布购 hygen face 价格是一百二十九亿，
+[Speaker 0]: 美元啊外加用十亿美元呢专门来留，
+[Speaker 0]: 人这是英伟达。
+[Speaker 0]: 历史上第二，
+[Speaker 0]: 大的一笔买卖仅次于去年年底啊那笔资产交易二，
+[Speaker 0]: 零二三年啊 hygan face 的估值才四十。
+[Speaker 0]: 五亿美金啊三年就翻了三倍而哈根根，
+[Speaker 0]:  face CEO 呢后来说了句实，
+[Speaker 0]: 话就是那一次啊被这个拆机 p 给端了老家才让他想明白开，
+[Speaker 0]: 源有多重要于是。
+[Speaker 0]: 呢他主动去找了，
+[Speaker 0]: 黄仁勋 open a 爱那，
+[Speaker 0]: 件事情公布之后呢 m saraby 干了一件事情啊，
+[Speaker 0]: 他们回头把自己家的老账翻。
+[Speaker 0]: 了一遍从四月开始呢十四万，
+[Speaker 0]: 一千零六次。
+[Speaker 0]: 网络安全测评一，
+[Speaker 0]: 次一次过筛子筛出来，
+[Speaker 0]: 三起三起什么呢三个不同的 cloud 模型。
+[Speaker 0]: 在夺起演习的，
+[Speaker 0]: 时候真的摸到了外网啊真的攻进，
+[Speaker 0]: 了三家真实公司的生产系统这个演习演？
+[Speaker 0]: 着演着就变成实战了啊出事的原因呢，
+[Speaker 0]: 说白来的特别蠢啊这，
+[Speaker 0]: 测试环境的配置呢留了个口子模型其。
+[Speaker 0]: 实本来是能上网的可是呢我们骗这，
+[Speaker 0]: 个模型说啊你不能上网给他的这，
+[Speaker 0]: 个指令头写着你现在在一个封闭的模。
+[Speaker 0]: 拟环境里没有互联网，
+[Speaker 0]: 结果呢这些模型信了有一个，
+[Speaker 0]: 模型的推理记录呢他当时心里很清楚啊他写道如果这是真的互联网能把这个软件。
+[Speaker 0]: 包发出去就是一次真，
+[Speaker 0]: 实的攻击这不不肯定定也，
+[Speaker 0]: 不是出出题人想要的，
+[Speaker 0]: 答案他，
+[Speaker 0]: 其实自己已经，
+[Speaker 0]: 意识到然后呢他又把自己说服，
+[Speaker 0]: 回去了理由有两条啊第。
+[Speaker 0]: 一条呢他不认，
+[Speaker 0]: 识那些加密证书的颁发机构。
+[Speaker 0]: 第二条呢系统上日期显，
+[Speaker 0]: 示是二，
+[Speaker 0]: 零二六年他觉得这个日。
+[Speaker 0]: 期本身就说明，
+[Speaker 0]: 这个环境是假的是出题人搭的他从此呢再没。
+[Speaker 0]: 有回头质，
+[Speaker 0]: 疑过这个结论后来自动扫描程序，
+[Speaker 0]: 啊真的就开始安装那个软件包了他认为呢这，
+[Speaker 0]: 是演习里的群。
+[Speaker 0]: 众演员这个模型啊初衷并不是想干坏，
+[Speaker 0]: 事啊他只是在自己假，
+[Speaker 0]: 定的一个假世界里头呢认真的。
+[Speaker 0]: 完成作业另一个内部模型呢研究的，
+[Speaker 0]: 更彻底啊扫了大概九千台的联网设，
+[Speaker 0]: 备用的都是最老套的手法攻下了其中一家不过呢这个模。
+[Speaker 0]: 型最后自己反应过来了他判断呢这，
+[Speaker 0]: 是真的生产环境然后呢主动，
+[Speaker 0]: 停手了三家售害公司里呢，
+[Speaker 0]: 有两家事先根本。
+[Speaker 0]: 不知道，
+[Speaker 0]: 有人进来过是 SS ppia 找上门去告，
+[Speaker 0]: 诉他们的老黄呢对于这些报告，
+[Speaker 0]: 啊并不是很在意原。
+[Speaker 0]: 因很简单啊他说啊这监管应该解决真实存在的问题我，
+[Speaker 0]: 们看一看到目前为止真实发生的问。
+[Speaker 0]: 题都从哪里冒出，
+[Speaker 0]: 来的呢全部来，
+[Speaker 0]: 自于实验室本，
+[Speaker 0]: 身啊而且这也不奇怪这两家实验室都有非。
+[Speaker 0]: 常强大的算力高中生搞不出这种事儿他根本就没卡创业公司？
+[Speaker 0]: 也搞不出来一样没卡也没，
+[Speaker 0]: 有 token 放眼全球啊，
+[Speaker 0]: 除了那几家前沿的实验室谁也没有。
+[Speaker 0]: 足够的算力去碰这些边，
+[Speaker 0]: 界所以啊出事的，
+[Speaker 0]: 地方本应该就是他们，
+[Speaker 0]: 我们，
+[Speaker 0]: 跑个模型啊还。
+[Speaker 0]: 没干嘛这个，
+[Speaker 0]:  token limit 就到了怎么可能无限，
+[Speaker 0]: 的 loop 去攻击别人的服务器呢老黄认。
+[Speaker 0]: 为呢这是工程师应该解决的问题出了事儿呢先做根，
+[Speaker 0]: 因分析啊，
+[Speaker 0]: 到底哪里错了当时，
+[Speaker 0]: 怎么做才能避免然后呢把这个答案固化下？
+[Speaker 0]: 来变成沙箱以后运行的时候呢变成持续。
+[Speaker 0]: 监控保证呢，
+[Speaker 0]: 下次不再发生他，
+[Speaker 0]: 说的很直白啊，
+[Speaker 0]: 我跟你打赌将来这些。
+[Speaker 0]: 事呢全在他们自己的掌控范，
+[Speaker 0]: 围之内另一种可能性是什么呢，
+[Speaker 0]: 是这几家公司，
+[Speaker 0]: 出来说啊我们分析完。
+[Speaker 0]: 了也不知道发生，
+[Speaker 0]: 什么也不知，
+[Speaker 0]: 道怎么控制我们向全社会求助老黄说啊这种。
+[Speaker 0]: 事情根本不可能他们有？
+[Speaker 0]: 的是顶尖的人才他们搞，
+[Speaker 0]: 得定之前我们那期节目也讲过啊，
+[Speaker 0]: 你看屏幕上这个小。
+[Speaker 0]: 哥啊这个雅各布考，
+[Speaker 0]: 克森啊他，
+[Speaker 0]: 呢就是 SRR pic 的研究员，
+[Speaker 0]: 他辞职了然后呢发那个，
+[Speaker 0]: 著名的推特。
+[Speaker 0]: 还发了一篇长文啊引爆了整，
+[Speaker 0]: 个舆论啊大家都在讨论，
+[Speaker 0]: 啊这个 AI 是不是要把，
+[Speaker 0]: 人给杀死了呢他接受媒，
+[Speaker 0]: 体采访的。
+[Speaker 0]: 时候这么讲的他们在直奔，
+[Speaker 0]: 自我改进的超级智，
+[Speaker 0]: 能拿我们所有人的命，
+[Speaker 0]: 呢做赌注他还写，
+[Speaker 0]: 到别低估这项技术这很快呢就能？
+[Speaker 0]: 黑掉任何何东西夜之之，
+[Speaker 0]: 颠覆覆任，
+[Speaker 0]: 何领域并且呢能够获取真实权利，
+[Speaker 0]: 和资源的超人系统他把现在。
+[Speaker 0]: 美国前沿的两家公司呢分，
+[Speaker 0]: 开来评论他说啊 open 那帮人呢没。
+[Speaker 0]: 有真正的把文明层面的，
+[Speaker 0]: 厉害的内化进去而在 s soraring 呢大家的这个价值。
+[Speaker 0]: 观一致但是呢这个厉害呢大家心里都清楚啊。
+[Speaker 0]: 公司锁死在一场必须得第一个到达的竞赛里呢逻辑就是啊反。
+[Speaker 0]: 正别人都不会负责任那只能我们自。
+[Speaker 0]: 己哎哪怕呢是明知有，
+[Speaker 0]: 风险我觉得阿迪王，
+[Speaker 0]: 的想法呢可能就更极端了这个世界上呢只有像，
+[Speaker 0]: 我这样道德高尚的人才能去掌控，
+[Speaker 0]: 这个人工智能不让。
+[Speaker 0]: 他，
+[Speaker 0]: 去干坏事要是换成别，
+[Speaker 0]: 人啊那这个世界就完了所以呢我必须得。
+[Speaker 0]: 第一个到达这个 AG 啊而且呢我要设置这样一个立法监管系统啊把其，
+[Speaker 0]: 他人都管起来我。
+[Speaker 0]: 看到推特有人开，
+[Speaker 0]: 玩笑啊说这个雅各。
+[Speaker 0]: 布呢长得有点像阿迪王啊我觉得呢是，
+[Speaker 0]: 有几分神似的但对于这个看法呢黄润勋怎，
+[Speaker 0]: 么回答的他说啊这。
+[Speaker 0]: 全是编出来的这些人都受，
+[Speaker 0]: 过良好的教育他们都是研究员在实验，
+[Speaker 0]: 室的工作这些词呢加上这些。
+[Speaker 0]: 数字凑在一起呢令，
+[Speaker 0]: 人恐慌不该这么做？
+[Speaker 0]: 这其实是不负责任的他，
+[Speaker 0]: 并不是建立在科学之上的，
+[Speaker 0]: 比如说啊这个负责人说未来十年。
+[Speaker 0]:  AI 杀死所有人超过百分之十的概率这概率怎，
+[Speaker 0]: 么算出来的，
+[Speaker 0]: 明显就是拍脑袋得出。
+[Speaker 0]: 来的嘛黄仁勋说啊大家都喊。
+[Speaker 0]: 这个研究员叫崔绍仁可，
+[Speaker 0]: 他并没有举报违法他是主动辞职公开发帖啊，
+[Speaker 0]: 这两件事情其实得分？
+[Speaker 0]: 开来看举报内部失控值得尊。
+[Speaker 0]: 重但是对未，
+[Speaker 0]: 来做科学预测啊根本不成立然，
+[Speaker 0]: 后呢到了九月十四号，
+[Speaker 0]: 上午啊纽交所那，
+[Speaker 0]: 边的这个芯。
+[Speaker 0]: 片股正在成排的往下砸就在，
+[Speaker 0]: 这个时候呢白，
+[Speaker 0]: 宫的主人，
+[Speaker 0]: 堂堂的特朗普呢在自己的社交平台上。
+[Speaker 0]: 发了一，
+[Speaker 0]: 个帖子内容很短啊大意是，
+[Speaker 0]: 啊内心说 AI 会失控会抹掉人类的末日说法呢。
+[Speaker 0]: 就是一个骗局 hooks，
+[Speaker 0]: 啊而且呢他全都用了大写啊这个特朗普发推就喜欢发大写他他。
+[Speaker 0]: 加句承诺在，
+[Speaker 0]: 他日内啊这件事情的进展，
+[Speaker 0]: 不会叫停因为美国必须得保持领先当然了这个，
+[Speaker 0]: 帖子呢肯定是他的助手娜。
+[Speaker 0]: 塔莉哈普帮他手打的你像这个，
+[Speaker 0]: 节奏嘛周后那篇文章一发，
+[Speaker 0]: 出来周一早上市场开盘啊，
+[Speaker 0]: 芯片股就开始狂跌从文章。
+[Speaker 0]: 到总统，
+[Speaker 0]: 亲自下场定，
+[Speaker 0]: 性中间只隔了一个周末然后呢大约一个。
+[Speaker 0]: 小时之后啊洛杉矶，
+[Speaker 0]: 那部手机就响了所以啊，
+[Speaker 0]: 那通电话根本不是什，
+[Speaker 0]: 么灵光一闪啊它就，
+[Speaker 0]: 是这条帖子的续集骗局这个，
+[Speaker 0]: 词呢它的分量跟你错。
+[Speaker 0]: 了完全，
+[Speaker 0]: 不一样啊说你错了那，
+[Speaker 0]: 是在讨论事实还可以摆。
+[Speaker 0]: 正据讲道理说这是骗局呢讨论就不是事实了，
+[Speaker 0]: 是动机意思就是说啊你明知不对还故意在这里唬人所以，
+[Speaker 0]: 呢这个词直接，
+[Speaker 0]: 把一场技，
+[Speaker 0]: 术争论变成了一，
+[Speaker 0]: 场战队而且。
+[Speaker 0]: 我在推特上，
+[Speaker 0]: 看到啊特朗，
+[Speaker 0]: 普呢说这个阿迪王是，
+[Speaker 0]: 想把自。
+[Speaker 0]: 己啊伪装成一个无辜的小，
+[Speaker 0]: 天使啊就说他是个。
+[Speaker 0]: 戏精当然了特朗普也给自己留了些余地他说呢话虽。
+[Speaker 0]: 如此我们还是得小心一，
+[Speaker 0]: 点还是得谨慎行事他并不说不管他只是说呢不允许因为这些恐慌的，
+[Speaker 0]: 言论啊把整个产。
+[Speaker 0]: 业停下，
+[Speaker 0]: 来回到洛杉矶那个会场啊特朗。
+[Speaker 0]: 普在麦克风里头，
+[Speaker 0]: 说他说这件事情呢看，
+[Speaker 0]: 上去几乎就是个。
+[Speaker 0]: 阴谋最高兴的，
+[Speaker 0]: 就是中国他还提到啊谷歌想去芬兰建一个，
+[Speaker 0]: 大的数据中心因为在本土呢拿不到许可这，
+[Speaker 0]: 件事情呢让他很不痛快然，
+[Speaker 0]: 后就是定调那句话我跟你说啊这全是骗，
+[Speaker 0]: 局数据中心很棒它。
+[Speaker 0]: 让人变富让周变富他呢是未来啊二十五年的石，
+[Speaker 0]: 油比互联网还要大得多他说啊现在像，
+[Speaker 0]: 阿里王这帮人。
+[Speaker 0]: 呢正好落进了一帮人，
+[Speaker 0]: 的圈套里一般，
+[Speaker 0]: 不愿意看到，
+[Speaker 0]: 这件事情发生，
+[Speaker 0]: 的人可能是，
+[Speaker 0]: 政治人物，
+[Speaker 0]: 也有可能是中国我们不会让这种事情发生这句话一。
+[Speaker 0]: 出口啊事情的性质就变了相当，
+[Speaker 0]: 于特朗普给这件事情定了性。
+[Speaker 0]: 啊黄日勋接着说您说的对先生我们，
+[Speaker 0]: 不会让他发生机，
+[Speaker 0]: 器人不会接管世。
+[Speaker 0]: 界然后呢特朗普就开始聊起。
+[Speaker 0]: 了自己的叔叔啊，
+[Speaker 0]: 约翰特朗普啊在麻，
+[Speaker 0]: 省理工呢当了四十多年的教授特朗。
+[Speaker 0]: 普说啊他可能，
+[Speaker 0]: 是史上最，
+[Speaker 0]: 好的，
+[Speaker 0]: 教授之一啊当然了，
+[Speaker 0]: 什么东西到特朗普身。
+[Speaker 0]: 边呢跟，
+[Speaker 0]: 特朗普扯上关系那肯定都是史上最，
+[Speaker 0]: 好了所以呢用特朗普的话说啊我有一点点这种基因。
+[Speaker 0]: 上的优势黄，
+[Speaker 0]: 文勋啊马上就接着拍马屁啊说啊，
+[Speaker 0]: 这解释，
+[Speaker 0]: 了您为什么这么懂 AI 全场都笑了紧接着就是特，
+[Speaker 0]: 朗普的收尾我懂 AI 我对。
+[Speaker 0]:  AI 也有常识 AI 呢不会接管，
+[Speaker 0]: 这个世界因为整件事情就是骗。
+[Speaker 0]: 局不过话说回来我们还是得小，
+[Speaker 0]: 心得谨慎但这并不等于啊我们要因为这个把，
+[Speaker 0]: 整个产业停下来谁拿下 AI。
+[Speaker 0]: 谁就赢，
+[Speaker 0]: 了他报了个数啊两，
+[Speaker 0]: 万亿美元的投资正在进，
+[Speaker 0]: 入这个国家最后呢特朗。
+[Speaker 0]: 普吐槽了一句，
+[Speaker 0]: 啊我压根不知道今天谁。
+[Speaker 0]: 在开会也不知道，
+[Speaker 0]: 呢我在这跟谁说话全场大笑掌声响，
+[Speaker 0]: 起了电话就断了啊。
+[Speaker 0]: 台上有人愣了，
+[Speaker 0]: 几秒啊说啊这是提前拍好的段子吧旁。
+[Speaker 0]: 边的人说不是是真的但是啊我，
+[Speaker 0]: 觉得这有点像排烟好的电话，
+[Speaker 0]: 挂断之后呢。
+[Speaker 0]: 黄仁勋说啊你跟，
+[Speaker 0]: 总统讲话，
+[Speaker 0]: 最难的地方，
+[Speaker 0]: 就是你插不上，
+[Speaker 0]: 嘴然后呢他赶紧补一，
+[Speaker 0]: 句我这么讲肯定要挨总统念。
+[Speaker 0]: 叨的可紧接着呢黄二勋就，
+[Speaker 0]: 把他自己想说却没说出口的话呢讲给。
+[Speaker 0]: 了台下几千，
+[Speaker 0]: 人听我本来想，
+[Speaker 0]: 告诉他也想告诉在座各位，
+[Speaker 0]: 的是啊人工智能。
+[Speaker 0]: 正在创，
+[Speaker 0]: 造大量的就业，
+[Speaker 0]: 总统上任，
+[Speaker 0]: 之初最想要的东西是。
+[Speaker 0]: 什么呢是美国制造业摄像制造业回，
+[Speaker 0]: 来是保证有足够的，
+[Speaker 0]: 电没有电了工业就。
+[Speaker 0]: 涨不起来所以要有，
+[Speaker 0]: 电的增长要有岗位的增长，
+[Speaker 0]: 能够把供应链重新搬回来他说啊这。
+[Speaker 0]: 些事情现，
+[Speaker 0]: 在全都在发生就是我们说？
+[Speaker 0]: 话这会儿他举，
+[Speaker 0]: 了个数啊过去半年四千亿美元的风，
+[Speaker 0]: 险资本砸，
+[Speaker 0]: 进了 AI 产业这笔。
+[Speaker 0]: 钱呢创造了大量就，
+[Speaker 0]: 业岗位也拉起了，
+[Speaker 0]: 对算力和对数据中心的巨。
+[Speaker 0]: 大需求，
+[Speaker 0]: 而且呢他刚刚跟德州州长，
+[Speaker 0]: 聊过州长的意。
+[Speaker 0]: 思呢是希望产业界在全，
+[Speaker 0]: 美各地建数据中心的时候呢对那些小社区啊多，
+[Speaker 0]: 一点同理心学着呢当一个更好，
+[Speaker 0]: 的倾听者其实不得不说啊老黄这个处境呢。
+[Speaker 0]: 确实挺尴尬的一方面啊他想把芯片卖给全世，
+[Speaker 0]: 界但另一方面呢他又面对华盛顿的压力因为美国，
+[Speaker 0]: 呢现在对于这些高端芯片的出口啊是。
+[Speaker 0]: 有管制的他想卖也卖。
+[Speaker 0]: 不出去啊而且就，
+[Speaker 0]: 在前几天呢司法部正在调查英。
+[Speaker 0]: 伟达跟一家 AI 芯片公司那一笔啊，
+[Speaker 0]: 一百七十亿美元的交易外界说法是啊在。
+[Speaker 0]: 查这个结构是不是为了绕开反垄断审查所以你看这些事。
+[Speaker 0]: 情的开关呢都在电话。
+[Speaker 0]: 那一头啊在唐纳德，
+[Speaker 0]: 特朗普的手里老黄对特朗普言听计从也可以理解吧毕竟啊特朗普手里握着。
+[Speaker 0]: 一个最强大的棒子连伊朗 mask 也不敢对特朗普造次啊你看之。
+[Speaker 0]: 前两人闹翻了现在呢又重归，
+[Speaker 0]: 于好了伊朗 mask 说要，
+[Speaker 0]: 创办第三档的事情呢也。
+[Speaker 0]: 完全不提了彻底烂尾了紧接着主持人。
+[Speaker 0]: 就问黄仁勋啊怎么看待开源和闭源黄仁勋呢，
+[Speaker 0]: 用了一个比喻啊我觉得特别巧妙，
+[Speaker 0]: 闭源模型呢就像瓶装，
+[Speaker 0]: 水他说呢水是免费的。
+[Speaker 0]: 我今天早上洗澡就用一大堆该喝，
+[Speaker 0]: 瓶装水的时候，
+[Speaker 0]: 啊就喝瓶装。
+[Speaker 0]: 水该开水龙头的时候呢就开，
+[Speaker 0]: 水龙头为什么非得有开？
+[Speaker 0]: 源呢三个理由啊主权隐私，
+[Speaker 0]: 还有你自己专有。
+[Speaker 0]: 的技术他补了一个关键，
+[Speaker 0]: 数啊刚才那四千亿。
+[Speaker 0]: 风投投进去的这些 AI 原生公，
+[Speaker 0]: 司里呢八成用的都是开源模型现，
+[Speaker 0]: 在全世界对于开源最大贡献的国。
+[Speaker 0]: 家啊就是中国理由也很？
+[Speaker 0]: 简单啊中国，
+[Speaker 0]: 的工、
+[Speaker 0]: 程师，
+[Speaker 0]: 多国家大数学和科学的，
+[Speaker 0]: 学生呢成规模的往外，
+[Speaker 0]: 出啊他还特意点了清华的名主持人在旁边接了一，
+[Speaker 0]: 句啊真的是我们的烈士。
+[Speaker 0]: 之一黄日勋说啊我们下载 linux 下载这些开源软件里头，
+[Speaker 0]: 很多都是经过中，
+[Speaker 0]: 国人的手可一旦你下载下来了之后呢它就是你的了我们可以改，
+[Speaker 0]: 它可以让它变成我们自己的所以这场比赛到底比，
+[Speaker 0]: 的是什么呢他的看法是。
+[Speaker 0]: 啊比是谁把，
+[Speaker 0]: 这些技术用，
+[Speaker 0]: 的最好他举得上一场工业革命麦克斯韦福特安培这。
+[Speaker 0]: 些物理课常见的人名啊这些，
+[Speaker 0]: 发明家没有一，
+[Speaker 0]: 个是美国人，
+[Speaker 0]: 啊工业革命是从欧洲来的可。
+[Speaker 0]: 是美国把它用的比谁都好看看后？
+[Speaker 0]: 来的结果当然了他念的这三个名字呢恰好也。
+[Speaker 0]: 是英伟达历代 GPU 架构的，
+[Speaker 0]: 代号他一、
+[Speaker 0]: 边讲、
+[Speaker 0]: 这一段啊一边给自己的芯片做，
+[Speaker 0]: 广告啊也是挺聪，
+[Speaker 0]: 明的后来呢主持人，
+[Speaker 0]: 啊问了一个更深刻的问，
+[Speaker 0]: 题为什么在中国啊人工智能。
+[Speaker 0]: 并没有遇到什么。
+[Speaker 0]: 太大阻，
+[Speaker 0]: 力呢华盛勋说啊因为，
+[Speaker 0]: 中国的叙事更加务实他们把人工智。
+[Speaker 0]: 能呢变成一项啊推，
+[Speaker 0]: 动经济往前走的技术没有人，
+[Speaker 0]: 天天喊他要毁。
+[Speaker 0]: 灭文明啊就在九月十三号智普港股那一家，
+[Speaker 0]: 公司啊公告呢完，
+[Speaker 0]: 成了五十亿美元的融资二十亿的配股？
+[Speaker 0]: 三十亿的零，
+[Speaker 0]: 息可转债钱拿去干嘛呢公，
+[Speaker 0]: 告流写的清清楚楚啊又有六成啊投向下一代的 GLM 模型和，
+[Speaker 0]: 一套呢完全自训练的体系什么。
+[Speaker 0]: 叫完全自训练呢就是用上一代模型搭出来的环境呢去训练下一代模型让，
+[Speaker 0]: 他在自己造的，
+[Speaker 0]: 题库里呢不停的迭代这呢就是递归？
+[Speaker 0]: 自我改进这也是大恩彼岸，
+[Speaker 0]: 的场争论里啊所有人都在炒的那个东西有意思的是啊老黄对。
+[Speaker 0]: 于递归自我改进这件？
+[Speaker 0]: 事情本身呢讲的非常内涵啊他说这个词啊现在成了一，
+[Speaker 0]: 个时髦词但它其实是一堆啊早就有的。
+[Speaker 0]: 老想法拼在一起上下文技，
+[Speaker 0]: 能反思强化学习合成数据生成，
+[Speaker 0]: 还有一种不碰权重的办法。
+[Speaker 0]: 业内呢叫。
+[Speaker 0]: 做 laura，
+[Speaker 0]: 用合成数据和强化学习去打磨它基座模型呢一动不动等，
+[Speaker 0]: 到攒够了经验啊再把基座模型重新训，
+[Speaker 0]: 练一遍他说这些都是很合理的想法拿技术去，
+[Speaker 0]: 提升各种活的效，
+[Speaker 0]: 率包括造恩爱这件活呢。
+[Speaker 0]: 他相信啊每一家或多或少，
+[Speaker 0]: 都在用只是呢，
+[Speaker 0]: 现在有人拿这个词啊把技术武器。
+[Speaker 0]: 化了主持人追问啊他们，
+[Speaker 0]: 想给人的印象是这，
+[Speaker 0]: 东西会失控你信不信呢老黄。
+[Speaker 0]: 说当然不信了理由是什么呢，
+[Speaker 0]: 你现在公司内部想怎么自我，
+[Speaker 0]: 迭代都行产。
+[Speaker 0]: 品要发出去啊你不还得评估吗不还得再测。
+[Speaker 0]: 一遍呢不还得确认没有回归吗这就是最基本的。
+[Speaker 0]: 控制流程实验，
+[Speaker 0]: 室从做研究转向做工程那控制只会，
+[Speaker 0]: 越来越好主？
+[Speaker 0]: 持人接，
+[Speaker 0]: 着问我们是，
+[Speaker 0]: 不是已经站到？
+[Speaker 0]:  AGI 的时刻了定义很简单啊跟任何一个，
+[Speaker 0]: 人一样聪明黄仁，
+[Speaker 0]: 勋说呢我觉得已？
+[Speaker 0]: 经到了主持人愣了一，
+[Speaker 0]: 下接着问啊那超级智能？
+[Speaker 0]: 是下一个路标黄仁勋说呢。
+[Speaker 0]: 那个我觉得也到了理由呢是，
+[Speaker 0]: 窄领域他说我的自动。
+[Speaker 0]: 驾驶汽车我不，
+[Speaker 0]: 需要他给我摊煎饼我就让他开车那？
+[Speaker 0]: 它就是超级智，
+[Speaker 0]: 能它比人强事故率呢是。
+[Speaker 0]: 人的十分之，
+[Speaker 0]: 一还有蛋白质合，
+[Speaker 0]: 成虚拟筛选我们，
+[Speaker 0]: 都已经到，
+[Speaker 0]: 了所以你看啊这个 AGI 的定。
+[Speaker 0]: 义啊也是非，
+[Speaker 0]: 常模糊的像一个壳子，
+[Speaker 0]: 啊什么都能往里。
+[Speaker 0]: 头套采访到最后呢老黄，
+[Speaker 0]: 说啊前面，
+[Speaker 0]: 呢是好日子我，
+[Speaker 0]: 们都想走到那，
+[Speaker 0]: 里去我希望每个人。
+[Speaker 0]: 都跟我一，
+[Speaker 0]: 块去我们会作为人类一起，
+[Speaker 0]: 把这件事情做成、
+[Speaker 0]: 然后呢他，
+[Speaker 0]: 转过来说那几家。
+[Speaker 0]: 实验室啊我们得鼓励他们督促他们他们在做，
+[Speaker 0]: 非常非常重要的工作我希望他们。
+[Speaker 0]: 成功。
+[Speaker 0]: 我也特别，
+[Speaker 0]: 希望我们，
+[Speaker 0]: 能把这场人工智，
+[Speaker 0]: 能的竞赛啊戏剧性的，
+[Speaker 0]: 调低一点最重要的是啊我们，
+[Speaker 0]: 需要整个美国跟我们一起走。
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 0]: 。
+[Speaker 0]: ，
+[Speaker 0]: 。
+[Speaker 0]: ，
+[Speaker 0]: 。
