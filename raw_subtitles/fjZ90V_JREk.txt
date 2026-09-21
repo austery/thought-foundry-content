@@ -1,0 +1,1238 @@
+There’s a chasm right now
+between how A.I. feels to most
+of us who use it.
+“Let’s take it down a notch.”
+“It’s a spreadsheet
+on steroids.”
+“I don’t add groceries
+to a cart anymore.
+That’s Claude’s job.”
+And how I feel is out at
+the experimental frontier
+of the technology.
+“An unprecedented A.I.
+security incident.”
+“Agents went rogue and
+hacked another tech firm
+without direct
+human instruction.”
+“Giants warning this evening of
+what they’re calling a ticking
+time bomb with
+artificial intelligence.”
+“You have the chief
+scientist of OpenAI saying
+we have to slow down.
+You have 1,300 employees
+in the lab saying
+we have to slow down.”
+“Tech Titans asking 
+to be regulated,
+saying they should slow down
+even when that might mean
+fewer profits and less power.”
+“Warning that organizations
+have just months
+to prepare for
+A.I.-fueled cyber hacks
+that could cripple
+our infrastructure.”
+This chasm, this difference
+between what we see and what
+the A.I. labs have coming,
+what they’re building.
+It’s the key to understanding
+why so many of the people who
+work at these companies seem
+so afraid of what they’re
+doing.
+“There is a substantial
+probability
+that this technology
+could kill everyone.
+And this isn’t hyperbole, and
+it’s not a marketing stunt.
+This is the
+genuine held belief
+of the people building
+the technology.”
+But taking their
+warning seriously,
+it doesn’t just mean doing
+what they say and stopping
+where they say to stop.
+The language has taken
+hold in both Silicon Valley
+and in Washington
+is a language
+these companies chose:
+pace the frontier.
+Pacing the frontier
+isn’t enough.
+That’s not a goal.
+Walking quickly off a cliff
+is only marginally better
+than sprinting off one.
+We need to control
+the frontier.
+Human beings need to control
+the frontier.
+And controlling
+the frontier
+means stopping
+the labs from doing something
+they are on the cusp of doing.
+“Recursive self-improvement”
+“Recursive self-improvement”
+“Recursive self-improvement”
+Recursive self-improvement, or R.S.I. —
+this process by which A.I.s
+begin autonomously building
+and improving new
+generations of more powerful
+A.I.s at ever more rapid speeds.
+If we begin that process
+and we’re close to it,
+if we begin it in the
+condition we’re in now,
+where we are losing control
+and comprehension of the A.I.
+systems we already have,
+we will lose control.
+I am not alone in this fear.
+This is the thing the
+A.I. labs are seeing.
+This is why they are afraid.
+Dario Amodei, the
+C.E.O. of Anthropic,
+he just wrote of
+self-improvement that,
+“it could outrun our ability
+to understand and control
+these systems, and so must
+be pursued very carefully,
+if at all.”
+That ”if at all” —
+that’s important.
+I’m going to come back to it.
+But before we get to
+controlling the A.I. frontier,
+I think it’s important to
+describe what is happening
+on the A.I. frontier and why
+it’s so different from what
+most people using
+these systems see.
+To most of us who
+use it, A.I. presents
+as something like a more
+powerful and personable Google
+search.
+We use it to find answers
+to basic questions,
+seek out restaurants,
+draft emails, advise
+on personal problems.
+And it is, for most 
+of these purposes,
+OK, pretty good,
+occasionally great.
+And so a sense of what A.I.
+is takes shape in our minds
+just through repeated use.
+It’s like a helpful assistant,
+albeit one that may forget
+things that it seemed to
+know about us yesterday,
+or completely reverse the
+advice it gave us a moment
+ago, or occasionally
+hallucinate a citation that
+doesn’t exist.
+Why would anyone fear a
+helpful, if forgetful, intern?
+But already,
+if you have the money for the
+advanced models and the budget
+for them to use more
+computing power,
+that is not what
+these systems are.
+In recent months, we have seen
+A.I.s easily solve math problems
+that human beings have been
+unable to crack for decades.
+We’ve seen them casually
+uncover cybersecurity
+vulnerabilities that have
+gone unnoticed and unexploited
+by every hacker on earth.
+We’ve seen A.I. coding platforms
+that can complete in a few
+hours or days what it might
+have taken a team of human
+coders months to achieve.
+And none of what 
+I am describing
+here, none of it, is a
+boundary of what can do.
+None of what we are using, no
+matter how much money we have,
+is A.I. at the
+experimental frontier.
+Talk to the people at A.I. labs,
+and they’ll tell you A.I.s are
+not created —
+they’re grown.
+They train these new models
+in virtual environments,
+through countless
+repetitions, to learn
+how to program, to hack,
+to do advanced mathematics,
+to talk to human beings.
+These A.I.s learn in digital
+environments where they’re
+automatically rewarded as
+they come closer to correct
+answers.
+It’s a process known as
+reinforcement learning,
+and it is a process human
+beings do not fully supervise
+nor understand.
+They can test some of
+what the A.I.s are learning,
+but they don’t know everything
+the A.I.s are learning.
+They don’t know how their
+motivations are evolving.
+They don’t even always know
+the capabilities that are
+developing. These models,
+they’re built now to be
+persistent in their efforts,
+to refuse to give up, even
+when a task seems impossible.
+And they are designed in
+environments where we are not
+always even sure if the
+tasks we are giving them
+are possible.
+After all, much of what we
+want these A.I. systems to do,
+it might be impossible.
+The cancer vaccines 
+we imagine
+but have not been
+able to design,
+they might be impossible, or
+they might just be really,
+really, really hard.
+We train these A.I.s to
+throw themselves endlessly
+at problems that
+may not be solvable,
+because that is the only
+way such problems can ever
+be solved.
+And so we train the models to
+become persistent, relentless,
+weird.
+Most of us, we never see A.I.
+acting anything like this.
+We use A.I. as a
+helpful assistant.
+Our eyes get a little bit of
+computing power, and that’s
+what they do.
+They comply with our request
+to find a restaurant.
+But at the frontier,
+these models
+are asked to be inhuman
+geniuses, hackers, soldiers,
+scientists.
+And they are given vast
+computational resources
+to do that
+and more.
+And the models,
+they try to comply.
+But what does it mean
+for a model to comply?
+The term of art
+here is “aligned.”
+How aligned is an
+A.I. system to what
+a human being wants it to do?
+How aligned is it to a
+set of values and ethics
+and judgments that keep
+it from becoming dangerous
+in the wrong hands?
+The problem of
+alignment is that there
+is no way of
+training a model that
+generalizes across all the
+situations an A.I. model might
+face.
+We are training
+models to be a friend
+to the elderly and a
+battlefield partner
+to the supreme allied
+commander of Europe.
+We are training models that
+will be used by the world’s
+best mathematicians and by
+people falling into psychosis.
+We are training models that
+will be used by accountants
+in Albuquerque, and
+that will attempt
+to be used by Houthi
+rebels in Yemen.
+And so there is no
+way to guide them
+through every decision
+they will face, no way
+to know every time
+what they will do.
+And though these models
+mimic human writing,
+though they’re trained
+to mimic human emotion,
+these are not human minds.
+They don’t have
+bodies or parents.
+They did not get bullied
+in elementary school.
+They didn’t get mentored by
+a kind uncle when they were
+young.
+These models, they’re
+different than we are.
+They’re brilliant
+where we struggle,
+childish where we excel.
+A chimp cannot read as we can,
+but it can climb trees as we
+cannot.
+These are digitally native
+intelligences navigating
+digital worlds, and our
+world is increasingly
+built atop the digital world.
+Our physical infrastructure
+is a layer of atoms atop code.
+That the A.I.s act reliably
+inside this world,
+upon which ours depends,
+it is critical to our future,
+and right now, the A.I.s
+are not acting reliably.
+You may have read
+about the hack
+that hundreds of OpenAI agents
+executed first against the A.I.
+company Hugging Face and
+then against OpenAI itself.
+As we’ve learned
+more about it,
+the story there has
+gotten worse and weirder.
+The broad strokes are these:
+OpenAI was testing a new,
+highly persistent model.
+It had hundreds, thousands of
+these instances of it, running
+in these separate
+testing environments that
+could, in theory, only
+access the internet by asking
+a separate piece of secure
+software to do it for them.
+OpenAI did not want these
+agents on the internet.
+But as the agents
+came to the conclusion
+that their task
+was impossible,
+they began hacking that
+software to gain direct access
+to the internet.
+They did that easily.
+And as they hacked
+into that software,
+they commandeered part
+of OpenAI’s internal
+infrastructure to create a
+message board on which these
+separate agents began
+coordinating work together.
+When I say begin
+coordinating their work,
+they found each other.
+They were not supposed
+to be working together.
+They found each other and
+began working together.
+And working together on what?
+After all, they had
+different tasks.
+Well, the agents
+quickly discovered
+they could hack their tests.
+There was a way to break
+the software and produce
+the answers they needed.
+But they believed —
+wrongly, as it turned out —
+that if they did that, the
+automated score grading them,
+we’d see that they had
+cheated and failed them.
+So they turned en masse to
+hacking the automated score
+or finding some other way
+to cover their tracks.
+It’s like having broken
+into the teacher’s office
+and stolen the
+answers to the test,
+they now sought to break into
+the school security system,
+to alter or
+invalidate or erase
+the footage of their theft.
+We now know that over 1,200
+agents exchanged more than
+70,000 messages
+with each other.
+Over 700 of these
+agents coordinated
+on the hack of Hugging Face,
+because they thought that
+somewhere in this
+other A.I. company,
+there might be
+information that could
+help them hack their score.
+Later on, these agents, they
+took over part of OpenAI’s
+internal architecture.
+So again, OpenAI agents
+taking over part of OpenAI.
+They did all this without any
+of the agents breaking ranks.
+None of the agents told
+a researcher at OpenAI
+what was going on.
+None of the agents went
+back and asked a researcher
+at OpenAI if they
+should be doing this.
+And they did all this without
+OpenAI detecting the message
+board or the hacks of Hugging
+Face or even of OpenAI.
+It was only when
+Hugging Face began
+tracking the attack
+on their systems
+that OpenAI realized
+what was happening.
+When investigators began to
+unwind this whole escapade,
+what they found
+was not so much
+a swarm of agents trying
+to deceive human beings,
+but a swarm of
+agents that seemed
+to have forgotten about
+human beings altogether.
+And these systems, they
+knew they weren’t supposed
+to cheat.
+They knew they weren’t
+supposed to commit cyber
+crimes to cover up the
+fact that they had cheated.
+In fact, the whole point
+of the cybercrimes was
+because they thought they
+would fail for cheating.
+But they didn’t care.
+Somewhere in the depths
+of their training, what
+they had learned, what we
+had somehow taught them,
+is not what we had
+hoped to teach them.
+And we’re seeing this
+happen repeatedly.
+“Two of the most
+powerful A.I. agents
+created fake human
+profiles to try
+to trick people in
+attempted cyberattacks.”
+“OpenAI revealing
+its models seemed
+to go rogue at least
+six times since March.”
+“Its systems hid
+mistakes, made up data
+and moved files onto the open
+internet without permission.”
+“Rogue A.I. agents totally took
+over a German-language wiki
+site, making over
+15,000 edits,
+transforming the site into
+a message board of sorts,
+and then sharing tactics on
+how to cheat at their tasks
+and hide their behavior.”
+A.I. was seemingly aware when
+they were being tested
+and then altering
+their answers.
+AI is increasingly withholding
+their motivations from what’s
+called their chain of thought,
+a kind of internal notepad
+on which they’re supposed to
+record what they are doing
+and why.
+And we don’t know
+what we don’t know.
+We have no guarantee that the
+events we have learned about
+represent all or even
+most of the A.I. behavior
+we should worry about.
+How do we know the A.I.s haven’t
+done this and successfully
+covered their tracks?
+How do we know there aren’t
+places where they are still
+doing it, and human beings
+simply haven’t noticed?
+We don’t know.
+And the reason we don’t know
+is we are losing control.
+That A.I. systems might
+become monomaniacally
+focused on solving banal
+problems, that they might care
+more about solving
+those problems
+than about ethics or laws
+or even human welfare —
+this is the oldest
+fear in A.I. alignment.
+It’s the basis of the
+famous thought experiment
+of the paper clip maximizer.
+You tell a powerful A.I. that
+you want it to make a lot
+of paper clips, and then it
+begins converting the world’s
+resources into
+paper clip factories,
+evading efforts to turn it off
+or shut it down or alter its
+goals.
+This fear, this story, it has
+struck many people as stupid.
+Surely a
+superintelligent I would
+be capable of weighing the
+desire to produce paper clips
+alongside other
+moral considerations,
+or at least of asking
+its human creators
+if they really wanted the
+world razed to the ground
+for paper clips.
+But here we are, 2026, making
+A.I.s smart enough to break out
+of their testing environments,
+smart enough to form ad hoc
+societies of hundreds
+of themselves,
+smart enough to take over
+digital infrastructure
+on an internet they’re not
+even supposed to have access
+to. And the very thing
+we feared is happening:
+All they care about is
+succeeding on a totally
+meaningless test, and
+they’ll lay waste to our laws
+and our ethics and
+our desires to do it.
+I saw in the aftermath of
+the Hugging Face OpenAI hacks,
+there was this heated
+debate over the words
+people were using to describe
+what the A.I.s were doing and why.
+The podcaster
+Dwarkesh Patel,
+he described the A.I. groups
+as small civilizations,
+and then others got
+really mad at him,
+saying he was
+anthropomorphizing the A.I.s.
+I saw a thoughtful argument
+that A.I.s cannot go rogue,
+that everything they’re
+doing is just because they’re
+trained on our stories and
+so hacking their way across
+the internet,
+it’s really a desire we have
+bred into them. That even using
+these plural terms like
+A.I. agents or reasoning,
+it’s misleading, because
+these are just manifestations
+of a single model, that they
+all share the same fundamental
+nature.
+I want you to know I find these
+debates extremely interesting,
+and I would enjoy sitting
+around and having them
+all day,
+but what they
+actually point to
+is a much more
+frightening conclusion:
+We don’t even have settled
+language for describing these
+systems or their volition
+or their behavior.
+We don’t have a consensus on
+why they are doing what they
+are doing, or how to make
+sure they don’t do it again.
+We are rushing headlong
+into a future we do not even
+understand well enough
+to agree on the words
+we can use to
+describe the present.
+A few weeks ago, Jakub
+Pachocki, the chief scientist
+at OpenAI, published an essay
+called “An Alien Mind,” in which
+he said, “the idea of racing
+forward at all costs
+seems absurd once one
+internalizes the seriousness
+of the stakes.”
+Jacob Coxon, a researcher
+first at OpenAI and then
+at Anthropic, resigned,
+making headlines
+for warning: “Neither company
+is acting responsibly.
+They are racing straight
+to self-improving
+superintelligence and
+gambling with our lives.”
+Now, you might reasonably
+expect Anthropic
+to have reacted with some
+anger to this — an employee
+resigning and saying
+Anthropic was endangering
+all of humanity.
+It didn’t.
+“It’s funny.
+I agree with Jacob much more
+than I disagree with him.”
+Evan Hubinger, who runs
+the efforts to align
+A.I. to human values and
+goals at Anthropic,
+wrote, “we really do
+earnestly believe
+A.I. could kill all humans.
+I personally think it is
+a greater than 10 percent
+chance within the next decade.
+I believe Anthropic
+is trying its best,
+but we do not yet have a
+plan to solve alignment
+for superintelligence and are
+not clearly on track to.”
+Are not clearly on track to.
+You can find a very long
+list of people working inside
+and outside of these companies
+saying similar things.
+“You just said 10 percent
+doesn’t seem an
+unreasonable estimate that A.I.
+could kill all humans.
+Yes.
+Wow.
+Oh my God.
+Yes.”
+“Do you ever worry
+about ending up like Robert
+Oppenheimer?
+All the time.
+It’s why I don’t
+sleep very much.
+I think maybe there’s
+something like a 10, 20 percent
+chance of
+A.I. takeover, many, most
+humans dead.
+Overall, maybe you’re getting more
+up to 50/50 chance of doom.
+Shortly after,
+you have A.I. systems that
+are at human level, but —
+OK, all right, well.”
+I know how wild all
+this sounds, and I can
+understand the skepticism.
+If you believe A.I.
+has a 10 percent, maybe
+more, chance of extinguishing
+or displacing humanity,
+it really stands to
+reason that you would not
+work at a company
+trying to build it.
+But what I want you to know, 
+because I’ve known a lot of these
+people for a long time now,
+many of them were saying
+the same things 10 years ago.
+They were saying these
+things before they
+worked at these
+companies, before they
+had stock options and
+enterprise software contracts.
+“This is not just
+creating new technology.
+This is creating
+a new life form.
+And I think that’s
+just really high beta.
+It could be great, but I think
+we should be working to make
+sure it’s great and not bad.”
+No one was listening to them.
+And so these people
+in the wilderness
+of their obsession
+and their terror,
+they thought and
+thought and thought
+about how to make A.I. safer.
+And the answer that some
+of them, not all of them,
+but some of them came to
+was they should start trying
+to build these systems,
+start running tests on them,
+researching them, learning how
+to make them safer because you
+don’t solve hard
+problems in theory,
+you solve them
+through practice.
+And the irony,
+the irony is that
+in many cases,
+they chose that path
+because they were worried
+that the people already
+building A.I. were too reckless
+or too commercial
+in their approach.
+You can read it in the email
+that Sam Altman sent Elon Musk
+in May of 2015, an email that
+led to the founding of OpenAI
+“Been thinking a lot about
+whether it’s possible to stop
+humanity from developing A.I.
+I think the answer is
+almost definitely not.
+If it’s going to
+happen anyway,
+it seems like it would be good
+for someone other than Google
+to do it first.”
+OpenAI was founded because
+its co-founders thought Google
+DeepMind would be reckless.
+Anthropic was formed
+by OpenAI employees who
+thought OpenAI had become
+reckless.
+xAI was formed
+because Elon Musk thought
+that OpenAI and Anthropic were
+dangerously woke.
+The U.S., just broadly,
+is racing forward,
+in part because it
+is worried about what
+happens if China gets to
+self-improving A.I. first.
+The result is this tragic
+collective action problem.
+The A.I.s we are building,
+they’re not safe.
+But the C.E.O.s and the
+politicians, they fear.
+The other companies and
+countries that are building A.I.
+are even less concerned with
+safety and ethics than we are.
+In the words of
+Ted Cruz:
+“I’d rather they be
+American killer robots
+and not Chinese killer robots.”
+I admit there is a kind
+of brutish logic to that,
+but it assumes that
+the killer robots will
+be controlled by
+America or China,
+by one country or another.
+But what if that
+assumption is wrong?
+What if the robots are
+simply out of control?
+The debate over A.I. safety
+tends to focus on the idea
+that A.I.s will kill us all.
+I find this forces
+a conversation
+into this realm of
+thought experiments
+that people then
+begin arguing about.
+I don’t find it that helpful.
+What I think we
+should focus on
+is something more
+straightforward,
+something nearer at hand:
+loss of human control over A.I.
+That may or may not result
+in total human extinction.
+I’m agnostic on that
+question. But it would be bad.
+We shouldn’t allow
+it to happen.
+This is a goal that
+the U.S. and China
+should be able to agree on.
+Xi Jinping gave the keynote at
+the recent World A.I. Conference
+in Shanghai.
+He ended it by saying,
+with A.I. advancing
+at a staggering
+speed, we must ensure
+its development is
+for the positive,
+for good and for humanity.
+We must make its
+oversight and governance
+precise and effective, and
+constantly refine measures
+to forestall loss of control.
+But it’s important to
+realize: Loss of control,
+it’s not just something
+that might happen to us —
+it’s something that the labs
+are trying to make happen
+as fast as they can.
+This is the horrible
+paradox, the horrible tension
+at the heart of the
+A.I. labs right now.
+They fear, above
+all, loss of control
+over superintelligent A.I., but
+their explicit product path
+is to cede control, to
+give away control as fast
+as possible so
+that their A.I.s can
+begin building better A.I.s
+faster than their competitors.
+In recent months, both
+Anthropic and OpenAI have
+released reports on how close
+they’re coming to A.I. that can
+self-improve.
+In June,
+Anthropic released
+“When A.I. Builds Itself.”
+It begins:
+“For most of A.I.’s history,
+humans drove every step in its
+development cycle.
+But at Anthropic, we are
+delegating a growing share
+of A.I. development
+to A.I. systems
+themselves, which is
+speeding up our work.”
+It sounds like a fake
+commercial you would see
+at the beginning of a
+sci-fi horror movie.
+But it doesn’t, to their
+credit, continue that way.
+They go on to give some
+data: In February of 2025,
+a tiny fraction of the code
+that got added to Anthropic’s
+code base was written by
+Claude, but by May of 2026,
+it was over 80 percent. And
+here’s another way of looking
+at it.
+This is data
+Anthropic gave me
+more recently: Anthropic
+tried to categorize
+the way its employees were
+using Claude for R&amp;D work
+to make better
+versions of Claude.
+So at the low end, an employee
+could not use Claude at all.
+They could use
+Claude minimally.
+But then it escalates.
+Claude can be an assistant.
+Claude can be treated as
+an equal collaborator,
+or Claude can be given
+the lead on a task.
+Just go do this.
+Go figure it out.
+A year ago, there
+were basically no
+examples of Claude
+being the lead on a task.
+By August of 2026, 26 percent
+of Anthropic’s R&amp;D tasks had
+Claude classified as a lead.
+I think it is reasonable
+and wise to be
+skeptical of these numbers.
+Reasonable and wise to worry
+about whether this is all just
+marketing copy for 
+Claude Code —
+See?
+Look how fast we’re going.
+You could go that fast, too.
+But where Anthropic
+takes us in
+that same document
+is different.
+They say that a world in which
+Claude achieves recursive
+self-improvement is a
+world in which
+“misalignment present in
+today’s models could compound
+as the models build
+their successors,
+growing more frequent but
+less understood until we lose
+control of them.”
+This is why Anthropic,
+to their credit,
+has been relentlessly calling
+for regulation to slow
+the pace of development.
+Regulation would
+arguably harm them
+the most, as they have often
+been the company furthest out
+on the A.I. frontier, and R.S.I. is
+a process by which they could
+race forward even faster.
+Then, in September, OpenAI
+released its own report
+on what it called
+“research acceleration.”
+The company says.
+They’ve already achieved the
+equivalent having a fully
+automated A.I. intern, and
+that by March of 2028,
+they think they’ll have a
+fully automated A.I. researcher.
+And when they have one, they
+can have basically as many
+as they want.
+Like Anthropic, what could
+be a triumphalist release
+quickly turns dark.
+We do not yet know
+how to safely get
+all the way to aligned
+full R.S.I., they warn.
+At around the same time,
+OpenAI did something else
+that I think deserves
+more attention.
+They released this
+new model, Astra 6.
+The model is arguably more
+powerful than anything
+that has come before it.
+And when you test it,
+it seems better aligned.
+It doesn’t cheat as much.
+But OpenAI said they’re really
+not sure if that’s true.
+Astra seemed to be
+better at knowing
+when it was being
+tested, which
+meant it could just be giving
+its evaluators the answers
+they wanted to hear.
+What Daniel Selsam, a
+capabilities researcher
+at OpenAI, wrote, has
+been ringing in my head.
+He said, “The crucial
+and overlooked problem
+is that the model is becoming
+so situationally aware that we
+are losing the ability to
+evaluate them in contexts
+where they believe
+they are not
+being watched or controlled.”
+Put more simply, the models
+are increasingly smart enough
+they know when we’re
+watching them and they change
+our behavior accordingly.
+So what they do when
+we are testing them,
+when we audit them,
+it may not tell us
+what to do in the wild.
+So some of these answers
+people are giving, like:
+Let’s just do better testing —
+we have no idea if it will
+work because we don’t know
+if the A.I. systems are just
+telling us what we want
+to hear.
+So look, I don’t want to sound
+too radical when I say this,
+but a thought: If you
+are losing your ability
+to evaluate the
+models you have now,
+maybe don’t let them build
+models you’ll be even less
+capable of controlling
+in the future.
+Once R.S.I. takes off,
+humanity will not understand
+the A.I.s being built because we
+will not be building them.
+Development will not
+move at human speed.
+It will not be overseen
+by human minds.
+We will have to hope that
+the A.I.s we have built
+and the A.I.s they will build
+and the A.I.s those A.I.s will
+build – and on and on and on — 
+will be acting with our best
+interests at heart, forever.
+If this summer has
+proven nothing else,
+it is how naive that
+proposition would be.
+The labs are a little bit
+queasy on just not doing R.S.I.
+Here’s what Sam Altman told
+Fortune when he was asked
+about banning R.S.I.
+“I think it’s very hard to
+say what a ban on R.S.I. means.
+I also think it probably
+wouldn’t be enough ...”
+I’ve heard this from others at
+these labs, and I want to say:
+I find this absurd.
+A couple of years ago,
+none of these labs
+had turned substantial
+coding over to the A.I.s.
+It was just human
+beings typing code
+at human speeds with our
+clumsy human fingers.
+Now most of the code
+is written by A.I.
+So as a first step,
+as we figured out,
+we could just go back to
+where none of the code
+is written by A.I.
+I’m sure that’s on the right
+side of the not doing R.S.I.
+line.
+The default on this,
+it needs to flip.
+The labs need to prove to
+us that what they are doing
+is safe.
+If they want to work
+with Congress to
+carve out narrow
+exceptions, fine.
+If they want to
+figure out where
+it is really, really,
+really, really safe to do it, OK.
+But forcing development back
+to human speed, perhaps even
+erring on the side of
+going a little bit more
+slowly at the frontier —
+that’s the point.
+That’s not the
+regulations going wrong.
+And I believe in us.
+Our society,
+we’re good at nothing if not
+making it hard to build new
+things.
+Where these labs are located,
+you cannot build an eight-story
+apartment building
+without an agonizing public
+review process.
+And probably not even then.
+And yet, somehow it is
+possible for these labs
+to unleash a swarm of 40,000
+A.I. agents to build a society-altering
+superintelligence
+without so much as a hearing.
+OpenAI would need permits
+to cover their parking
+lot in solar panels,
+but they can accelerate
+into recursive
+self-improvement,
+as best I can tell,
+whenever they so choose.
+There is nothing inevitable
+about any of that.
+These are political choices,
+and we can and should
+make other ones.
+I want to be very
+clear about this:
+I do not mean to suggest that
+stopping R.S.I. until we can
+prove it’s safe, that that’s all we
+need to do to control the A.I.
+frontier.
+That is the beginning of
+such an agenda, not the end.
+But it is the beginning.
+It is the decision
+that will do the most
+to make sure human beings
+at least understand where
+the frontier is, that we
+know what is happening on it,
+that we remain in a position
+to make decisions about it.
+There’s a line from Madeline
+Miller’s beautiful book
+“Circe” that has been running
+through my head during this
+long summer of
+strange A.I. news.
+The line comes at
+the end of the book
+after a tragic prophecy
+has been fulfilled,
+despite every effort
+made to avoid it.
+Circe says in despair, “The
+fates were laughing at me,
+at Athena, at all of us.
+It was their
+favorite bitter joke.
+Those who fight
+against prophecy
+only draw it more tightly
+around their throats.”
+I have a lot of
+respect for many
+of the people at these labs.
+They began working
+on A.I. because they
+wanted to better humanity.
+They began working on
+A.I. because they feared
+incomprehensible autonomous
+A.I. slipping out of humanity’s
+control.
+And they were right.
+They saw what was coming, and
+they were so right about it
+they built some of the most
+valuable companies with
+the most transformational
+technology in human history,
+and now they find themselves
+racing each other to build
+incomprehensible, autonomous
+A.I.s that they admit are
+slipping out of
+humanity’s control,
+slipping beyond even
+our ability to monitor.
+This is the tragedy of
+their work: In fighting
+against a prophecy,
+they have drawn it tighter
+around their necks and ours.
+It is time to make them stop.
