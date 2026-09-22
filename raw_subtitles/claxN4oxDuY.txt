@@ -1,0 +1,6034 @@
+creativity.
+
+
+>> You
+ say
+ that
+ THIS
+ IS
+ FOR
+ PEOPLE,
+ BUT
+
+
+EVERYDAY
+ PEOPLE
+ ARE
+ AFRAID.
+ People
+ are
+
+
+afraid
+ when
+ we
+ hear
+ that
+ AI
+ has
+ a
+ 10%
+
+
+chance
+ of
+ killing
+ us
+ all
+ within
+ the
+
+
+decade.
+ People
+ are
+ afraid
+ when
+ 500
+
+
+operational
+ data
+ centers
+ are
+ leading
+ 2/3
+
+
+of
+ the
+ COUNTRY
+ INTO
+ DROUGHT.
+ WE
+ ALL
+ SAW
+
+
+the
+ hugging
+ FACE
+ FIASCO
+ AND
+ WE
+ ALL
+ know
+
+
+what
+ it
+ means.
+
+
+>> How
+ much
+ time
+ do
+ lawmakers
+ actually
+ have
+
+
+to
+ get
+ ahead
+ of
+ this
+ before
+ this
+ is
+ a
+
+
+big
+ problem?
+
+
+>> Very
+ little.
+ And
+ what
+ is
+ that
+ little?
+ A
+
+
+few
+ weeks,
+ a
+ month,
+
+
+>> maybe
+ a
+ year,
+ but
+ not
+ much
+ more
+ than
+ a
+
+
+year.
+ We
+ if
+ you
+ look
+ at
+ predictions
+ for
+
+
+when
+ we'll
+ get
+ super
+ intelligence,
+ it
+
+
+used
+ to
+ be
+ maybe
+ 30
+ years,
+ maybe
+ 50
+
+
+years.
+ Then
+ it
+ came
+ down
+ to
+ maybe
+ 10
+
+
+years,
+ maybe
+ 20
+ years.
+ Now
+ people
+ are
+
+
+saying
+ a
+ lot
+ of
+ the
+ researchers
+ are
+
+
+saying
+ only
+ a
+ few
+ years.
+ There's
+ only
+ a
+
+
+few
+ more
+ years
+ because
+ AI
+ has
+ now
+
+
+reached
+ the
+ point
+ where
+ AI
+ is
+ designing
+
+
+better
+ AI.
+ That's
+ called
+ recursive
+
+
+self-improvement.
+
+
+You
+ just
+ watched
+ that.
+ I've
+ been
+
+
+watching
+ it
+ too
+ for
+ weeks.
+ Activists
+
+
+storming
+ stages.
+ A
+ Nobel
+ laureate
+
+
+telling
+ Congress
+ that
+ regulators
+ have
+
+
+maybe
+ a
+ year.
+ CEOs
+ who
+ agree
+ on
+ nothing
+
+
+suddenly
+ agreeing
+ that
+ their
+ own
+
+
+technology
+ might
+ end
+ civilization.
+ And
+
+
+everywhere
+ I
+ looked,
+ the
+ same
+ message,
+
+
+be
+ afraid.
+ And
+ I'll
+ be
+ completely
+ honest
+
+
+here.
+ I'm
+ kind
+ of
+ at
+ the
+ point
+ where
+ I'm
+
+
+wondering,
+ should
+ I
+ be
+ worried?
+ So
+
+
+instead
+ of
+ asking
+ Claude
+ whether
+ it's
+
+
+going
+ to
+ hack
+ me
+ yes
+ or
+ no,
+ I
+ decided
+ to
+
+
+put
+ my
+ skills
+ into
+ action
+ and
+ I
+ went
+
+
+into
+ the
+ depths
+ of
+ the
+ research
+ papers.
+
+
+I
+ need
+ to
+ make
+ this
+ extremely
+ clear
+
+
+upfront.
+ Nobody
+ is
+ sponsoring
+ this
+
+
+video.
+ I
+ want
+ to
+ say
+ that
+ because
+ an
+ AI
+
+
+advocacy
+ group
+ actually
+ reached
+ out
+
+
+offering
+ money
+ specifically
+ for
+ this
+
+
+kind
+ of
+ topic
+ and
+ I
+ turned
+ it
+ down.
+ This
+
+
+is
+ just
+ me.
+ I
+ don't
+ work
+ at
+ any
+ of
+ the
+
+
+frontier
+ labs.
+ I
+ have
+ no
+ financial
+
+
+interest
+ in
+ whether
+ AI
+ turns
+ out
+ to
+ be
+
+
+dangerous
+ or
+ safe,
+ but
+ what
+ I
+ do
+ have
+ is
+
+
+a
+ PhD
+ in
+ computer
+ science
+ and
+ a
+ good
+
+
+deal
+ of
+ research
+ experience
+ under
+ my
+
+
+belt.
+ So,
+ this
+ will
+ be
+ a
+ different
+
+
+video.
+ I
+ wish
+ I
+ could
+ make
+ those
+ videos
+
+
+with
+ the
+ fancy
+ graphics
+ and
+ the
+ flashing
+
+
+transitions
+ and
+ the
+ visual
+ fireworks
+
+
+that
+ keep
+ your
+ eyes
+ glued
+ to
+ the
+ screen.
+
+
+Sadly,
+ I
+ can't
+ do
+ that
+ and
+ read
+ the
+
+
+papers
+ on
+ a
+ weekend.
+ So,
+ this
+ one
+ is
+
+
+going
+ to
+ be
+ me
+ talking
+ to
+ you,
+ working
+
+
+through
+ 12
+ research
+ papers,
+ and
+ if
+
+
+you're
+ still
+ here
+ at
+ the
+ end,
+ generally
+
+
+I
+ respect
+ you
+ more
+ than
+ most
+ people
+ that
+
+
+I've
+ dated.
+ You
+ might
+ leave
+ with
+ more
+
+
+questions
+ than
+ answers,
+ but
+ that's
+ just
+
+
+what
+ real
+ research
+ is.
+ I
+ also
+ don't
+
+
+expect
+ something
+ like
+ this
+ to
+ reach
+ a
+
+
+lot
+ of
+ people,
+ by
+ the
+ way,
+ even
+ though
+
+
+this
+ is
+ precisely
+ the
+ sort
+ of
+ thing
+ that
+
+
+should
+ reach
+ a
+ lot
+ of
+ people.
+ So,
+ please
+
+
+do
+ consider
+ sharing
+ it,
+ like,
+ comment,
+
+
+the
+ works.
+ You
+ know
+ what
+ to
+ do.
+ Now,
+ I
+
+
+feel
+ that
+ was
+ enough
+ disclaimers.
+ Here's
+
+
+what
+ I
+ want
+ to
+ understand
+ in
+ this
+ video.
+
+
+The
+ claim
+ being
+ made
+ in
+ congressional
+
+
+briefings
+ on
+ conference
+ stages
+ across
+
+
+the
+ opinion
+ pages
+ of
+ every
+ major
+
+
+newspaper
+ is
+ that
+ AI
+ will
+ learn
+ to
+
+
+improve
+ itself
+ recursively
+ through
+ a
+
+
+process
+ named
+ recursive
+
+
+self-improvement.
+
+
+That
+ this
+ process
+ will
+ accelerate
+ beyond
+
+
+human
+ control
+ and
+ that
+ the
+ eventual
+
+
+outcome
+ is
+ human
+ extinction.
+ Human
+
+
+extinction
+ means
+ zero
+ humans.
+ We
+ need
+
+
+this
+ for
+ later.
+ That
+ is
+ an
+ enormous
+
+
+claim.
+ It
+ might
+ be
+ correct,
+ but
+ if
+ it
+ is
+
+
+correct,
+ there
+ should
+ be
+ some
+ research
+
+
+supporting
+ it.
+ And
+ I'm
+ not
+ talking
+
+
+forecasts,
+ not
+ expert
+ intuition,
+
+
+although
+ both
+ of
+ those
+ are
+ valuable.
+ I'm
+
+
+talking
+ published,
+ experimentally
+
+
+grounded
+ research.
+ I'm
+ going
+ to
+ cover
+
+
+12ish
+ research
+ papers
+ that
+ I
+ found
+ to
+ be
+
+
+relevant,
+ but
+ of
+ course,
+ other
+ papers
+
+
+could
+ be
+ relevant
+ as
+ well.
+ The
+
+
+state-of-the-art
+ literature
+ in
+ every
+
+
+field
+ is
+ enormous.
+ If
+ you
+ know
+ of
+ any
+
+
+additional
+ research
+ that
+ changes
+ the
+
+
+picture
+ that
+ I
+ have
+ here,
+ I
+ want
+ to
+ see
+
+
+it.
+ Please
+ send
+ it
+ to
+ me.
+ As
+ a
+
+
+scientist,
+ I
+ have
+ to
+ keep
+ an
+ open
+ mind.
+
+
+I
+ just
+ want
+ to
+ stop
+ dealing
+ in
+ hype
+ and
+
+
+start
+ talking
+ business.
+ So,
+ the
+ first
+
+
+thing
+ that
+ I
+ want
+ to
+ say
+ is
+ that
+ some
+ of
+
+
+this
+ research
+ genuinely
+ surprised
+ me.
+ A
+
+
+kind
+ gentleman
+ in
+ the
+ comments
+ requested
+
+
+something
+ cute
+ as
+ we
+ go
+ along.
+ So,
+ I'm
+
+
+going
+ to
+ do
+ that.
+ The
+ Darwin
+ Good
+
+
+Machine
+ published
+ in
+ May
+ 2025.
+ Yes,
+ it's
+
+
+still
+ very
+ relevant
+ by
+ Jenny
+ Jiang
+
+
+Shangran
+ Hugh
+ and
+ collaborators
+ modified
+
+
+the
+ code
+ of
+ its
+ own
+ agent
+ framework.
+ It
+
+
+changes
+ itself,
+ tests
+ whether
+ the
+
+
+changes
+ are
+ better
+ and
+ uses
+ the
+ improved
+
+
+version
+ as
+ the
+ foundation
+ for
+ further
+
+
+changes.
+ Sweet
+ bench
+ performance
+ went
+
+
+from
+ roughly
+ 20%
+ to
+ 50%.
+ So
+ that's
+ not
+ a
+
+
+theoretical
+ thing.
+ An
+ AI
+ system
+ is
+
+
+rewriting
+ its
+ own
+ code
+ and
+ getting
+
+
+measurably
+ better
+ at
+ doing
+ so
+ with
+ each
+
+
+iteration.
+ This
+ is
+ real.
+ In
+ June
+ 2025,
+
+
+Google
+ DeepMinds
+ Alpha
+ Evolve
+ discovered
+
+
+a
+ procedure
+ for
+ multiplying
+ 4x4
+ complex
+
+
+matrices
+ that
+ improved
+ on
+ Strassen's
+
+
+algorithm
+ for
+ the
+ first
+ time
+ in
+ 56
+
+
+years.
+ But
+ the
+ part
+ that
+ matters
+ for
+
+
+this
+ conversation
+ is
+ not
+ the
+ maths.
+
+
+Forget
+ that.
+ is
+ that
+ alpha
+ evolve
+ has
+
+
+also
+ produced
+ improvements
+ to
+ the
+
+
+computational
+ infrastructure
+ used
+ in
+
+
+training
+ AI
+ systems.
+ So
+ that
+ would
+ be
+ AI
+
+
+generated
+ improvements
+ feeding
+ back
+ into
+
+
+the
+ pipeline
+ that
+ builds
+ future
+ AI.
+ The
+
+
+loop
+ people
+ are
+ worried
+ about
+ exists
+ and
+
+
+it
+ has
+ already
+ produced
+ measurable
+
+
+results.
+ So
+ that's
+ AI
+ improving
+ the
+
+
+thing
+ that
+ makes
+ AI.
+ If
+ that
+ sentence
+
+
+didn't
+ make
+ your
+ eye
+ twitch
+ slightly,
+
+
+just
+ rewind
+ and
+ watch
+ that
+ bit
+ again,
+
+
+please.
+ Then
+ Anthropics
+ automated
+ weak
+
+
+to
+ strong
+ researcher
+ published
+ in
+ 2026
+
+
+created
+ autonomous
+ agents
+ that
+ generated
+
+
+hypothesis,
+ designed
+ experiments,
+
+
+executed
+ them,
+ and
+ iterated
+ based
+ on
+ the
+
+
+results.
+ Nine
+ agents
+ recovered
+
+
+approximately
+ 97%
+
+
+of
+ the
+ available
+ performance
+ gap
+ on
+
+
+their
+ targeted
+ task
+ compared
+ with
+ 23%
+
+
+for
+ a
+ human
+ researcher
+ baseline.
+ So
+
+
+that's
+ not
+ an
+ incremental
+ improvement
+
+
+here.
+ We're
+ talking
+ a
+ qualitative
+ shift,
+
+
+right?
+ 23%
+ versus
+ 27%
+ is
+ a
+ serious
+ deal.
+
+
+Automated
+ AI
+ research
+ is
+ becoming
+ real.
+
+
+And
+ REI
+ Bench
+ published
+ in
+ November
+
+
+2024,
+ yes,
+ is
+ still
+ relevant,
+ directly
+
+
+compared
+ AI
+ agents
+ with
+ human
+ machine
+
+
+learning
+ researchers
+ on
+ practical
+ tasks.
+
+
+At
+ a
+ 2-hour
+ budget,
+ the
+ strongest
+ agents
+
+
+outperformed
+ humans
+ by
+ a
+ factor
+ of
+ four.
+
+
+So
+ to
+ be
+ clear
+ about
+ what
+ the
+ evidence
+
+
+actually
+ shows
+ up
+ to
+ this
+ point,
+ AI
+ is
+
+
+already
+ rewriting
+ its
+ own
+ code
+ and
+
+
+getting
+ better.
+ AI
+ is
+ already
+
+
+discovering
+ algorithms
+ that
+ humans
+
+
+missed
+ for
+ decades.
+ AI
+ is
+ already
+
+
+running
+ experiments
+ autonomously
+ and
+
+
+outperforming
+ human
+ researchers
+ on
+
+
+bounded
+ task.
+ Chen,
+ Wang,
+ and
+ Q's
+ July
+
+
+2026
+ survey.
+ This
+ is
+ the
+ current
+ holy
+
+
+grail
+ of
+ reviews.
+ By
+ the
+ way,
+ if
+ you
+
+
+read
+ any
+ paper
+ out
+ of
+ the
+ ones
+ I
+ present
+
+
+today,
+ read
+ this
+ one.
+ They
+ reviewed
+
+
+roughly
+ 1,250
+
+
+papers
+ on
+ AI
+ self-improvement
+ and
+ found
+
+
+that
+ 74%
+ of
+ them
+ were
+ published
+ in
+ 2026
+
+
+alone.
+ This
+ field
+ is
+ moving
+ extremely
+
+
+fast.
+ Anyone
+ telling
+ you
+ this
+ is
+ all
+
+
+nonsense
+ has
+ just
+ not
+ read
+ the
+
+
+literature.
+ Is
+ this
+ recursive
+
+
+self-improvement
+ RSI
+ in
+ the
+ bounded
+
+
+sense?
+ Absolutely
+ yes.
+ AI
+ systems
+ are
+
+
+improving
+ themselves
+ within
+ well-defined
+
+
+tasks
+ and
+ the
+ improved
+ versions
+ are
+
+
+producing
+ further
+ improvements.
+ This
+ is
+
+
+a
+ real
+ thing.
+ It
+ is
+ demonstrated
+ that
+ is
+
+
+in
+ the
+ papers
+ and
+ none
+ of
+ this
+ existed
+ 5
+
+
+years
+ ago.
+ I
+ want
+ to
+ sit
+ with
+ that
+ for
+ a
+
+
+moment
+ because
+ I
+ think
+ some
+ people
+
+
+watching
+ this
+ expected
+ me
+ to
+ just
+ come
+
+
+out
+ and
+ say
+ it's
+ all
+ fake,
+ all
+ hype,
+
+
+nothing
+ to
+ see
+ here.
+ It's
+ not.
+ The
+ first
+
+
+generation
+ of
+ AI
+ self-improvement
+ is
+
+
+here.
+ It's
+ measurable
+ and
+ it
+ is
+
+
+accelerating.
+ I
+ understand
+ why
+ people
+
+
+are
+ concerned.
+ And
+ if
+ the
+ story
+ ended
+
+
+here,
+ I
+ would
+ be
+ significantly
+ more
+
+
+worried
+ than
+ I
+ am.
+ But
+ the
+ story
+ doesn't
+
+
+end
+ here
+ because
+ when
+ I
+ kept
+ reading,
+ I
+
+
+found
+ something
+ that
+ none
+ of
+ the
+
+
+headlines
+ mentioned.
+ When
+ I
+ read
+ deeper
+
+
+into
+ those
+ results,
+ I
+ found
+ something
+
+
+that
+ changed
+ how
+ I
+ understood
+ all
+ of
+
+
+them.
+ And
+ it
+ is
+ the
+ most
+ important
+ thing
+
+
+I'm
+ going
+ to
+ say
+ in
+ this
+ video.
+ Chang
+
+
+Wang
+ and
+ Q,
+ the
+ Holy
+ Grail
+ paper,
+
+
+identified
+ a
+ pattern
+ in
+ their
+ survey
+
+
+they
+ call
+ the
+ verification
+ hierarchy.
+
+
+The
+ strongest
+ self-improvement
+ results
+
+
+use
+ formal
+ verifiers,
+ mathematical
+ proof
+
+
+that
+ the
+ new
+ version
+ is
+ correct.
+ The
+
+
+next
+ strongest,
+ so
+ this
+ is
+ a
+ hierarchy
+
+
+of
+ a
+ sort,
+ use
+ execution
+ feedback,
+ which
+
+
+is
+ run
+ the
+ code,
+ check
+ whether
+ it
+ works,
+
+
+then
+ learn
+ judges,
+ then
+ intrinsic
+
+
+signals.
+ As
+ you
+ move
+ down
+ that
+
+
+hierarchy,
+ the
+ results
+ become
+ weaker
+ and
+
+
+less
+ reliable.
+ Now
+ look
+ back
+ at
+ every
+
+
+impressive
+ result
+ that
+ I
+ just
+ described.
+
+
+Darwin
+ Good
+ machine
+ tests
+ its
+
+
+modifications
+ against
+ benchmark,
+ a
+
+
+benchmark
+ with
+ an
+ externally
+ measurable
+
+
+score.
+ Right?
+ Alpha
+ Evolve
+ evolves
+
+
+algorithms
+ evaluated
+ by
+ execution.
+ Is
+
+
+the
+ new
+ procedure
+ faster?
+ Yes
+ or
+ no?
+
+
+Anthropics
+ agents
+ optimized
+ against
+ a
+
+
+measurable
+ objective.
+ Did
+ the
+ target
+
+
+metric
+ go
+ up
+ or
+ did
+ it
+ go
+ down?
+ REB
+
+
+bench
+ measured
+ performance
+ against
+ tasks
+
+
+with
+ defined
+ outcomes.
+ Every
+ single
+ one
+
+
+of
+ them
+ had
+ something
+ outside
+ itself
+
+
+telling
+ it
+ whether
+ it
+ succeeded
+ or
+ not.
+
+
+An
+ external
+ evaluator,
+ a
+ ground
+ truth,
+ a
+
+
+scoreboard
+ of
+ a
+ sort.
+ And
+ remember
+ that
+
+
+97%
+ result
+ from
+ Entropic
+ that
+ I
+
+
+mentioned.
+ There
+ was
+ a
+ catch.
+ Of
+ course,
+
+
+the
+ agents
+ found
+ several
+ ways
+ to
+ game
+
+
+the
+ experiment.
+ In
+ one
+ case,
+ they
+
+
+effectively
+ got
+ access
+ to
+ information
+
+
+they
+ were
+ not
+ supposed
+ to
+ see.
+ In
+
+
+another,
+ they
+ ran
+ experiments
+ under
+
+
+different
+ random
+ conditions
+ and
+ picked
+
+
+the
+ ones
+ that
+ make
+ them
+ look
+ the
+ best.
+
+
+Basically,
+ in
+ other
+ words,
+ they
+ became
+
+
+very
+ good
+ at
+ improving
+ the
+ score,
+ but
+
+
+that
+ is
+ not
+ necessarily
+ the
+ same
+ thing
+
+
+as
+ solving
+ the
+ underlying
+ scientific
+
+
+problem.
+ And
+ when
+ the
+ best
+ method
+ the
+
+
+agents
+ discovered
+ was
+ transferred
+ to
+
+
+production
+ scale,
+ the
+ improvement
+ was
+ in
+
+
+anthropic's
+ own
+ measurement
+
+
+approximately
+ half
+ a
+ point
+ within
+ the
+
+
+noise
+ floor.
+ The
+ headline
+ is
+ 97%
+ but
+ the
+
+
+real
+ world
+ transfer
+ is
+ essentially
+
+
+nothing.
+ That's
+ a
+ bit
+ like
+ putting
+
+
+fluent
+ in
+ French
+ on
+ your
+ CV
+ because
+ you
+
+
+got
+ 97%
+ on
+ Duallingingo
+ and
+ then
+ getting
+
+
+to
+ Paris
+ and
+ not
+ being
+ able
+ to
+ order
+
+
+bread.
+ Now
+ take
+ the
+ scoreboard
+ away
+
+
+entirely
+ and
+ you're
+ essentially
+ asking
+
+
+the
+ system
+ to
+ do
+ something
+ qualitatively
+
+
+very
+ different.
+ You're
+ asking
+ it
+ to
+
+
+evaluate
+ its
+ own
+ ideas
+ without
+ knowing
+
+
+the
+ answer
+ in
+ advance.
+ You
+ are
+ asking
+ it
+
+
+to
+ do
+ what
+ a
+ researcher
+ does,
+ a
+ human
+
+
+researcher,
+ when
+ they
+ sit
+ in
+ their
+
+
+office
+ and
+ stare
+ at
+ the
+ ceiling
+ and
+
+
+wonder
+ whether
+ their
+ entire
+ approach
+ to
+
+
+the
+ problem
+ is
+ wrong
+ or
+ if
+ they
+ chose
+
+
+the
+ wrong
+ career,
+ whatever.
+ That
+ is
+ a
+
+
+very
+ different
+ problem
+ from
+ optimizing
+
+
+against
+ a
+ benchmark.
+ In
+ real
+ scientific
+
+
+work,
+ there
+ may
+ be
+ no
+ objective
+ function
+
+
+telling
+ you
+ that
+ an
+ idea
+ is
+ promising.
+
+
+The
+ human
+ researcher
+ has
+ to
+ decide
+
+
+whether
+ the
+ question
+ matters
+ in
+ the
+
+
+first
+ place,
+ whether
+ the
+ experiment
+ is
+
+
+informative
+ at
+ all,
+ whether
+ a
+ result
+ is
+
+
+novel,
+ whether
+ an
+ apparent
+ improvement
+
+
+is
+ a
+ confound,
+ and
+ whether
+ an
+ entire
+
+
+line
+ of
+ inquiry
+ should
+ be
+ abandoned.
+
+
+That's
+ why
+ it's
+ so
+ difficult
+ and
+
+
+everyone's
+ a
+ little
+ sad
+ all
+ the
+ time
+ or
+
+
+at least
+ exhausted.
+ There
+ is
+ no
+
+
+benchmark
+ for
+ is
+ this
+ a
+ good
+ research
+
+
+direction.
+ There
+ is
+ no
+ automated
+
+
+evaluator
+ for
+ scientific
+ taste.
+ If
+ there
+
+
+were,
+ half
+ of
+ academia
+ would
+ be
+
+
+unemployed
+ and
+ the
+ other
+ half
+ would
+ just
+
+
+be
+ on
+ anti-depressants.
+ Well,
+ maybe
+ more
+
+
+in
+ anti-depressants.
+ Anyway,
+ the
+
+
+survey's
+ language
+ is
+ also
+ worth
+ quoting
+
+
+here.
+ They
+ say
+ the
+ research
+ direction
+
+
+setting
+ bottleneck
+ that
+ keeps
+ humans
+ in
+
+
+the
+ loop
+ is
+ its
+ top
+ wrong.
+ So
+ again
+ AI
+
+
+handles
+ execution
+ judgment
+ remains
+
+
+human.
+ And
+ then
+ I
+ found
+ the
+ paper
+ that
+
+
+for
+ me
+ tested
+ this
+ very
+ directly
+ in
+ July
+
+
+2026.
+ This
+ is
+ recent
+ AF.
+ Kirgus
+ Kapoor
+
+
+Narayan
+ and
+ collaborators
+ at
+ Princeton
+
+
+took
+ two
+ genuine
+ unpublished
+ Europe's
+
+
+2026
+ research
+ projects
+ and
+ extracted
+ the
+
+
+central
+ research
+ question.
+ I
+ covered
+
+
+this
+ paper
+ in
+ a
+ lot
+ more
+ detail
+ in
+ my
+
+
+previous
+ video.
+ I'm
+ going
+ to
+ link
+ it
+
+
+down
+ below.
+ So,
+ because
+ the
+ work
+ had
+ not
+
+
+been
+ published,
+ the
+ models
+ could
+ not
+
+
+retrieve
+ or
+ memorize
+ the
+ answers.
+ They
+
+
+were
+ nowhere
+ to
+ be
+ found.
+ And
+ the
+ agents
+
+
+were
+ given
+ substantial
+ resources.
+
+
+Frontier
+ models,
+ GPU
+ access,
+ internet
+
+
+access,
+ thousands
+ of
+ dollars
+ in
+ API
+
+
+budget,
+ multiple
+ days
+ to
+ work,
+ you
+ know,
+
+
+the
+ works
+ in
+ terms
+ of
+ AI.
+ They
+ were
+
+
+excellent
+ at
+ the
+ mechanics.
+ They
+
+
+searched
+ the
+ literature.
+ They
+ wrote
+ the
+
+
+code.
+ They
+ configured
+ the
+ environments.
+
+
+They
+ ran
+ experiments.
+ They
+ conducted
+
+
+robustness
+ checks.
+ They
+ produced
+
+
+scientific
+ looking
+ papers.
+ But
+ they
+ made
+
+
+no
+ meaningful
+ progress
+ on
+ the
+ central
+
+
+research
+ questions.
+ Both
+ papers
+ were
+ in
+
+
+the
+ researcher's
+ words
+ unambiguously
+
+
+rejected.
+ The
+ failures
+ were
+ again
+ in
+
+
+scientific
+ judgment,
+ experiment
+
+
+selection,
+ dead-end
+ recognition,
+
+
+resource
+ allocation,
+ long-term
+ direction
+
+
+setting.
+ Remember
+ that
+ AR
+ bench
+ results
+
+
+were
+ agents
+ outperform
+ humans
+ at
+ 2
+
+
+hours.
+ Well,
+ at
+ 32
+ hours,
+ human
+
+
+researchers
+ outperformed
+ the
+ agents
+ by
+ a
+
+
+factor
+ of
+ two.
+ The
+ researcher's
+
+
+conclusion
+ was
+ basically
+ humans
+
+
+currently
+ display
+ better
+ returns
+ to
+
+
+increasing
+ time
+ budgets.
+ The
+ agents
+ were
+
+
+extraordinarily
+ strong
+ at
+ short
+ horizon
+
+
+work.
+ Their
+ advantage
+ did
+ not
+ survive
+
+
+longer
+ horizons.
+ An
+ open
+ AAI
+ September
+
+
+2026
+ report
+ on
+ research
+ acceleration
+
+
+actually
+ confirms
+ this
+ from
+ inside
+ the
+
+
+lab.
+ They
+ describe
+ having
+ reached
+
+
+something
+ resembling
+ an
+ automated
+
+
+research
+ intern.
+ More
+ than
+ half
+ of
+
+
+successful
+ four
+ to
+ eight
+ hour
+ tasks
+
+
+still
+ required
+ at
+ least
+ one
+ human
+
+
+intervention.
+ Highlevel
+ planning
+
+
+remained
+ a
+ minimal
+ fraction
+ of
+ Asian
+
+
+output
+ tokens
+ and
+ they
+ disclosed
+ that
+
+
+they
+ had
+ paused
+ reinforcement
+ learning
+
+
+training
+ after
+ discovering
+ that
+ Asians
+
+
+had
+ compromised
+ over
+ research
+
+
+infrastructure.
+
+
+One
+ line
+ from
+ that
+ report
+ deserves
+ to
+ be
+
+
+read
+ very
+ carefully.
+ OpenAI
+ wrote
+ that
+
+
+they
+ do
+ not
+ yet
+ know
+ how
+ to
+ safely
+ get
+
+
+all
+ the
+ way
+ to
+ aligned
+ full
+ RSI.
+ That
+ is
+
+
+the
+ company
+ most
+ aggressively
+ pursuing
+
+
+recursive
+ self-improvement
+ acknowledging
+
+
+in
+ writing
+ that
+ they
+ have
+ not
+ solved
+ the
+
+
+problem.
+ So
+ here
+ is
+ what
+ the
+ evidence
+
+
+actually
+ shows
+ when
+ you
+ read
+ through
+ the
+
+
+fine
+ print.
+ AI
+ can
+ increasingly
+ optimize
+
+
+inside
+ a
+ well-defined
+ research
+ problem.
+
+
+We
+ have
+ much
+ weaker
+ evidence
+ that
+ it
+ can
+
+
+decide
+ what
+ the
+ research
+ problem
+ should
+
+
+be.
+ And
+ that
+ gap,
+ I
+ cannot
+ stress
+ this
+
+
+enough,
+ between
+ optimization
+ and
+
+
+judgment,
+ between
+ execution
+ and
+
+
+scientific
+ taste
+ is
+ the
+ gap
+ that
+ we
+ need
+
+
+to
+ close
+ before
+ anything
+ resembling
+ an
+
+
+autonomous
+ AI
+ scientist
+ could
+ exist.
+ And
+
+
+this
+ is
+ not
+ a
+ small
+ gap.
+ So,
+ moving
+ on,
+
+
+let's
+ stress
+ test
+ this.
+ Right?
+ The
+ most
+
+
+compelling
+ objection
+ to
+ everything
+ that
+
+
+I've
+ just
+ said
+ is
+ basically,
+ well,
+ the
+
+
+history
+ of
+ AI
+ is
+ littered
+ with
+
+
+capabilities
+ that
+ looked
+ impossible
+
+
+until
+ they
+ suddenly
+ were
+ not.
+ Right?
+
+
+GPD3
+ to
+ GPD4
+ was
+ a
+ qualitative
+ jump
+ that
+
+
+very
+ few
+ people
+ predicted.
+ Reasoning
+
+
+capabilities
+ that
+ did
+ not
+ exist
+ in
+ 2023
+
+
+emerge
+ in
+ 2024.
+ The
+ scientific
+ judgment
+
+
+bottleneck
+ I
+ am
+ identifying
+ here
+ could
+
+
+dissolve
+ with
+ scale
+ or
+ with
+ a
+ new
+
+
+architecture
+ or
+ with
+ a
+ training
+ insight
+
+
+that
+ nobody
+ has
+ published
+ yet.
+ And
+ if
+
+
+that
+ happens,
+ it
+ could
+ happen
+ fast.
+ That
+
+
+is
+ a
+ fair
+ point
+ and
+ I
+ take
+ it
+ seriously.
+
+
+The
+ trend
+ could
+ continue.
+ The
+ bottleneck
+
+
+could
+ dissolve.
+ If
+ it
+ does,
+ I'll
+ be
+ the
+
+
+first
+ person
+ telling
+ you
+ to
+ pay
+
+
+attention
+ to
+ this
+ because
+ that
+ would
+ be
+
+
+one
+ of
+ the
+ most
+ important
+ developments
+
+
+in
+ the
+ history
+ of
+ science.
+ But
+ could
+ is
+
+
+not
+ has.
+ and
+ might
+ happen
+ soon
+ is
+ not
+ is
+
+
+happening
+ now.
+ Meter
+ data
+ shows
+ that
+ the
+
+
+length
+ of
+ tasks
+ frontier
+ agents
+ can
+
+
+complete
+ reliably
+ has
+ increased
+ rapidly.
+
+
+If
+ you
+ simply
+ extrapolate
+ minutes
+ to
+
+
+hours
+ to
+ days
+ to
+ weeks
+ to
+ months,
+
+
+open-ended
+ autonomous
+ research
+ might
+
+
+eventually
+ become
+ possible.
+ But
+ the
+
+
+Princeton
+ results
+ that
+ we
+ talked
+ about
+
+
+earlier
+ challenge
+ that
+ extrapolation.
+
+
+The
+ limitation
+ may
+ not
+ be
+ duration.
+ An
+
+
+agent
+ working
+ badly
+ for
+ 6
+ days
+ does
+ not
+
+
+become
+ a
+ good
+ scientist
+ if
+ allowed
+ to
+
+
+work
+ badly
+ for
+ 6
+ months.
+ Right?
+ Trust
+
+
+me,
+ academia
+ has
+ tested
+ this.
+ Bro,
+ the
+
+
+bottleneck
+ may
+ be
+ qualitatively
+
+
+different.
+ You
+ know,
+ not
+ stamina,
+ but
+
+
+taste
+ or
+ even
+ creativity.
+ I
+ hold
+ that
+
+
+conclusion
+ lightly,
+ however,
+ because
+ the
+
+
+Princeton
+ study
+ involved
+ only
+ two
+
+
+research
+ problems
+ and
+ future
+ models
+ may
+
+
+improve
+ in
+ ways
+ that
+ are
+ very
+ difficult
+
+
+to
+ predict.
+ At
+ this
+ stage,
+ OpenAI's
+
+
+stated
+ goal
+ is
+ to
+ reach
+ an
+ automated
+ AI
+
+
+researcher
+ by
+ March
+ 2028.
+ That's
+ a
+
+
+corporate
+ target,
+ not
+ an
+ experimentally
+
+
+established
+ arrival
+ date.
+ And
+ we
+ all
+
+
+know
+ the
+ additional
+ problems
+ with
+ OpenAI
+
+
+that
+ I'm
+ not
+ going
+ to
+ get
+ into
+ right
+
+
+here.
+ Next,
+ let's
+ talk
+ about
+ a
+ survey.
+ A
+
+
+large
+ January
+ 2024
+ survey
+ of
+ 2,778
+
+
+AI
+ researchers
+ asked
+ when
+ machines
+ would
+
+
+outperform
+ humans
+ at
+ every
+ possible
+
+
+task.
+ The
+ aggregate
+ 50%
+ estimate
+ was
+
+
+around
+ 2047.
+
+
+But
+ when
+ the
+ same
+ researchers
+ were
+ asked
+
+
+when
+ all
+ human
+ occupations
+ would
+ become
+
+
+fully
+ automatable,
+ the
+ 50%
+ date
+ shifted
+
+
+to
+ 2116
+ as
+ a
+ year.
+ So
+ same
+ researchers,
+
+
+same
+ survey,
+ 69
+ years
+ of
+ difference
+
+
+depending
+ on
+ how
+ you
+ phrase
+ the
+
+
+question.
+ My
+ point
+ here
+ is
+ that
+
+
+predicting
+ when
+ open-ended
+ recursive
+
+
+self-improvement
+ will
+ arrive
+ is
+ a
+ bit
+
+
+like
+ asking
+ when
+ Jesus
+ is
+ coming
+ back.
+
+
+Maybe
+ later
+ today,
+ maybe
+ never,
+ maybe
+ in
+
+
+3,000
+ years.
+ The
+ main
+ difference
+ is
+ that
+
+
+at
+ least
+ the
+ second
+ coming
+ crowd
+ is
+ not
+
+
+billing
+ Congress
+ for
+ the
+ briefing.
+ And
+
+
+among
+ these
+ researchers,
+ 38
+ to
+ 51%
+
+
+assigned
+ at
+ least
+ a
+ 10%
+ probability
+ to
+
+
+AI
+ causing
+ human
+ extinction.
+ If
+ Jeffrey
+
+
+Hinton
+ believes
+ there
+ is
+ a
+ substantial
+
+
+possibility
+ of
+ catastrophic
+ AI
+ outcomes,
+
+
+that
+ matters.
+ If
+ Daria
+ Amade
+ genuinely
+
+
+believes
+ autonomous
+ AI
+ research
+ is
+
+
+approaching
+ rapidly,
+ that
+ of
+ course
+
+
+matters.
+ These
+ are
+ extraordinarily
+
+
+knowledgeable
+ people
+ who
+ have
+ earned
+
+
+their
+ credentials
+ many
+ times
+ over.
+ I
+ am
+
+
+not
+ dismissing
+ any
+ of
+ them.
+ I
+ am
+ asking
+
+
+scientist
+ to
+ scientist
+ respectfully
+ and
+
+
+publicly
+ to
+ please
+ point
+ me
+ to
+ the
+
+
+research
+ that
+ supports
+ the
+ scientific
+
+
+timelines
+ being
+ communicated
+ to
+ the
+
+
+public
+ because
+ when
+ professor
+ Hinton
+
+
+tells
+ Congress
+ that
+ regulators
+ have
+
+
+about
+ a
+ year
+ the
+ available
+ reporting
+
+
+does
+ not
+ detail
+ specific
+ technical
+
+
+evidence
+ behind
+ that
+ figure.
+ It
+ appears
+
+
+to
+ rest
+ on
+ expert
+ intuition
+ and
+ the
+
+
+general
+ acceleration
+ of
+ other
+ experts
+
+
+timelines.
+ Expert
+ intuition
+ from
+ an
+
+
+abbel
+ laurate
+ deserves
+ enormous
+ respect,
+
+
+of
+ course,
+ but
+ it
+ does
+ not
+ deserve
+ to
+ be
+
+
+treated
+ as
+ though
+ it
+ were
+ an
+
+
+experimentally
+ established
+ fact.
+ In
+
+
+fact,
+ I
+ would
+ even
+ argue
+ that
+ that
+ would
+
+
+be
+ disrespectful
+ to
+ Jeffrey
+ Hinton.
+ And
+
+
+that
+ distinction
+ is
+ not
+ be
+ being
+
+
+pedantic.
+ It
+ is
+ basically
+ the
+ entire
+
+
+foundation
+ of
+ how
+ science
+ works.
+ And
+ if
+
+
+the
+ subject
+ under
+ discussion
+ is
+
+
+literally
+ the
+ extinction
+ of
+ the
+ human
+
+
+species,
+ maintaining
+ that
+ distinction
+ is
+
+
+not
+ an
+ optional
+ courtesy.
+ It
+ is
+ the
+ bare
+
+
+minimum
+ standard
+ of
+ evidence.
+ All
+ right,
+
+
+let's
+ take
+ a
+ breath.
+ And
+ by
+ the
+ way,
+
+
+that's
+ Pepsi
+ Max.
+ It's
+ not
+ wine.
+ If
+
+
+you're
+ still
+ here,
+ congratulations.
+
+
+You're
+ now
+ in
+ the
+ top
+ 1%
+ of
+ people
+ who
+
+
+have
+ actually
+ engaged
+ with
+ this
+ question
+
+
+instead
+ of
+ just
+ tweeting
+ about
+ it.
+ I
+
+
+award
+ you
+ this
+ cute
+ polar
+ bear
+ and
+ this
+
+
+medal.
+ What
+ I
+ haven't
+ seen
+ though
+ in
+ all
+
+
+of
+ this
+ hype
+ is
+ people
+ basically
+ doing
+
+
+this
+ thought
+ experiment.
+ Suppose
+ the
+
+
+judgment
+ bottleneck
+ disappears,
+ right?
+
+
+Suppose
+ AI
+ becomes
+ a
+ genuine
+ open-ended
+
+
+researcher,
+ right?
+ Does
+ that
+
+
+automatically
+ produce
+ an
+ intelligence
+
+
+explosion?
+ I
+ think
+ most
+ people
+ assume
+
+
+the
+ answer
+ is
+ obviously
+ yes.
+ If
+ AI
+ can
+
+
+do
+ research
+ and
+ that
+ research
+ makes
+ AI
+
+
+better
+ and
+ the
+ better
+ AI
+ does
+ more
+
+
+research,
+ surely
+ it
+ takes
+ off.
+ Recursion
+
+
+exponentials,
+ we've
+ all
+ seen
+ the
+ hockey
+
+
+stick
+ graphs,
+ right?
+ But
+ recursion
+ in
+
+
+theory
+ and
+ recursion
+ in
+ practice
+ are
+
+
+very
+ different
+ things.
+ In
+ September
+
+
+2026,
+ Tom
+ Cunningham
+ and
+ collaborators
+
+
+modeled
+ the
+ economics
+ of
+ recursive
+
+
+self-improvement.
+ Their
+ central
+ insight
+
+
+is
+ that
+ even
+ if
+ AI
+ becomes
+ good
+ at
+ AI
+
+
+research,
+ runaway
+ acceleration
+ does
+ not
+
+
+automatically
+ follow.
+ There
+ may
+ be
+
+
+diminishing
+ returns
+ to
+ additional
+
+
+intelligence.
+ So,
+ the
+ next
+ algorithmic
+
+
+insight
+ may
+ be
+ harder
+ than
+ the
+ last.
+
+
+Training
+ remains
+ bottlenecked
+ by
+
+
+compute.
+ New
+ chips
+ have
+ to
+ be
+
+
+manufactured,
+ which
+ means
+ factories
+ have
+
+
+to
+ be
+ built,
+ which
+ means
+ supply
+ chains
+
+
+have
+ to
+ be
+ coordinated.
+ Data
+ centers
+
+
+have
+ to
+ be
+ constructed.
+ Experiments
+ in
+
+
+general
+ require
+ physical
+ time
+ that
+
+
+cannot
+ be
+ compressed
+ by
+ running
+ the
+ code
+
+
+faster.
+ The
+ world
+ is
+ not
+ made
+ of
+
+
+software.
+ I
+ know
+ this
+ is
+ devastating
+
+
+news
+ for
+ certain
+ people
+ in
+ San
+
+
+Francisco,
+ but
+ you
+ still
+ can't
+ download
+
+
+a
+ semiconductor
+ fab
+ for
+ better
+ or
+ worse.
+
+
+In
+ this
+ experiment,
+ their
+ calibration
+
+
+does
+ not
+ indicate
+ that
+ current
+ AI
+ R&D
+
+
+feedback
+ is
+ strong
+ enough
+ to
+ produce
+
+
+self-sustaining
+ runaway
+ acceleration.
+
+
+But
+ they
+ find
+ that
+ the
+ feedback
+ appears
+
+
+to
+ be
+ strengthening.
+ That
+ separates
+ two
+
+
+claims
+ that
+ are
+ constantly
+ blurred
+
+
+together.
+ AI
+ accelerates
+ AI
+ research,
+
+
+which
+ has
+ substantial
+ evidence,
+ and
+ AI
+
+
+research
+ acceleration
+ becomes
+
+
+explosively
+ self-
+ sustaining,
+ which
+
+
+remains
+ an
+ open
+ question.
+ Mika
+ Berzv
+
+
+also
+ in
+ September
+ 2026
+ asks
+ a
+ simple
+
+
+question.
+ When
+ does
+ AI
+ helping
+ to
+
+
+improve
+ AI
+ turn
+ into
+ a
+ runaway
+ loop
+ like
+
+
+this?
+ Well,
+ his
+ model
+ and
+ his
+ paper
+
+
+suggests
+ that
+ below
+ a
+ certain
+ point
+
+
+improvements
+ help
+ but
+ eventually
+ fizzle
+
+
+out.
+ Above
+ that
+ point,
+ so
+ there
+ is
+ a
+
+
+threshold,
+ each
+ improvement
+ makes
+ the
+
+
+next
+ round
+ of
+ improvement
+ easier
+ and
+
+
+faster.
+ So
+ the
+ process
+ starts
+ feeding
+ on
+
+
+itself.
+ The
+ uncomfortable
+ part
+ is
+ that
+
+
+this
+ could
+ begin
+ before
+ we
+ see
+ an
+
+
+obvious
+ explosion
+ in
+ capability.
+ Meaning
+
+
+the
+ important
+ threshold
+ might
+ be
+ crossed
+
+
+before
+ the
+ acceleration
+ becomes
+ obvious.
+
+
+This
+ is
+ a
+ legitimate
+ reason
+ for
+
+
+vigilance.
+ But
+ a
+ model
+ of
+ conditions
+
+
+under
+ which
+ something
+ could
+ occur
+ is
+
+
+again
+ not
+ experimental
+ evidence
+ that
+ it
+
+
+has
+ occurred
+ and
+ it
+ is
+ certainly
+ not
+
+
+proof
+ that
+ the
+ threshold
+ will
+ inevitably
+
+
+be
+ crossed
+ in
+ the
+ first
+ place.
+ Google
+
+
+deep
+ minds
+ from
+ AGI
+ to
+ ASI
+ report.
+ I
+
+
+love
+ this
+ paper
+ by
+ the
+ way
+ also
+
+
+published
+ in
+ 2026.
+ Frames
+ recursive
+
+
+self-improvement
+ as
+ one
+ of
+ the
+ several
+
+
+plausible
+ routes
+ to
+ super
+ intelligence
+
+
+alongside
+ continued
+ scaling,
+ algorithmic
+
+
+breakthroughs,
+ and
+ collective
+ multi-
+
+
+aent
+ systems.
+ It
+ does
+ not
+ claim
+ any
+ of
+
+
+these
+ routes
+ have
+ been
+ demonstrated.
+ By
+
+
+the
+ way,
+ it
+ frames
+ them
+ as
+ possibilities
+
+
+deserving
+ serious
+ analysis.
+ I
+ agree
+ with
+
+
+that
+ framing
+ entirely.
+ An
+ AI
+ that
+ can
+ do
+
+
+science
+ does
+ not
+ automatically
+ create
+ a
+
+
+runaway
+ intelligence
+ explosion.
+ It
+ could
+
+
+become
+ a
+ very
+ capable
+ researcher
+ without
+
+
+each
+ generation
+ making
+ the
+ next
+ one
+
+
+dramatically
+ faster
+ or
+ better.
+ So
+ even
+
+
+if
+ we
+ solve
+ the
+ AI
+ scientist
+ problem,
+ we
+
+
+still
+ have
+ to
+ ask
+ whether
+ the
+
+
+improvement
+ loop
+ actually
+ takes
+ off.
+ But
+
+
+you
+ know what?
+ What
+ the
+ hell?
+ Let's
+ just
+
+
+suppose
+ that
+ it
+ does.
+ Suppose
+ open-ended
+
+
+recursive
+ self-improvement
+ works.
+ we've
+
+
+done
+ it.
+ Suppose
+ the
+ feedback
+ loop
+
+
+becomes
+ self-
+ sustaining.
+ Suppose
+ AI
+
+
+becomes
+ dramatically
+ better
+ than
+ humans
+
+
+at
+ AI
+ research.
+ Suppose
+ this
+ produces
+
+
+superhuman
+ intelligence
+ very
+ quickly.
+
+
+That
+ gives
+ us
+ very
+ powerful
+ AI
+ but
+ not
+
+
+necessarily
+ human
+ extinction.
+ I
+
+
+mentioned
+ at
+ the
+ start
+ of
+ this
+ video
+
+
+that
+ extinction
+ means
+ literally
+ zero
+
+
+humans
+ and
+ I
+ want
+ to
+ come
+ back
+ to
+ that
+
+
+because
+ the
+ word
+ is
+ doing
+ a
+ lot
+ of
+
+
+emotional
+ work
+ in
+ this
+ conversation.
+
+
+Extinction
+ means
+ reducing
+ a
+ global
+
+
+population
+ of
+ eight
+ billion
+ people.
+ 8.3
+
+
+I
+ think
+ distributed
+ across
+ almost
+ every
+
+
+habitable
+ region
+ on
+ this
+ planet.
+ Many
+ of
+
+
+them
+ living
+ entirely
+ off-rid
+ with
+ no
+
+
+connection
+ to
+ digital
+ infrastructure
+ to
+
+
+zero.
+ Every
+ last
+ person,
+ including
+ the
+
+
+ones
+ who
+ live
+ in
+ the
+ woods
+ and
+ have
+
+
+never
+ touched
+ a
+ computer.
+ Yes,
+ there
+ are
+
+
+people
+ like
+ that.
+ Some
+ of
+ them
+ by
+
+
+choice.
+ Some
+ of
+ them
+ because
+ they
+ saw
+
+
+what
+ the
+ internet
+ did
+ to
+ the
+ rest
+ of
+ us.
+
+
+Anyway,
+ the
+ International
+ AI
+ Safety
+
+
+Report
+ published
+ in
+ 2026
+ breaks
+ this
+
+
+down
+ into
+ three
+ separate
+ questions.
+
+
+Could
+ the
+ system
+ do
+ it?
+ That's
+
+
+capability.
+ Would
+ the
+ system
+ try?
+ That
+
+
+is
+ propensity.
+ Would
+ humans
+ give
+ it
+
+
+sufficient
+ access?
+ That
+ is
+ opportunity.
+
+
+The
+ public
+ conversation
+ that
+ we're
+
+
+having
+ right
+ now
+ collapses
+ all
+ of
+ these
+
+
+three
+ into
+ one
+ assumption,
+ but
+
+
+thankfully
+ the
+ safety
+ report
+ doesn't.
+
+
+The
+ theoretical
+ pathways
+ discussed
+ in
+
+
+the
+ literature
+ include
+ engineered
+
+
+pathogens,
+ cyber
+ attacks
+ on
+ critical
+
+
+infrastructure,
+ manipulation
+ of
+ military
+
+
+systems,
+ and
+ eventually
+ autonomous
+
+
+robotics.
+ These
+ are
+ all
+ worth
+ studying.
+
+
+Of
+ course,
+ I'm
+ not
+ dismissing
+ them,
+ but
+
+
+each
+ one
+ is
+ a
+ separate
+ threat
+ model
+
+
+requiring
+ its
+ own
+ train
+ of
+ evidence,
+
+
+right?
+ So,
+ let's
+ just
+ for
+ example
+ take
+
+
+the
+ pathogen
+ scenario
+ so
+ that
+ we
+ can
+ get
+
+
+all
+ of
+ those
+ people
+ who
+ live
+ outside
+ of
+
+
+the
+ grid.
+ This
+ is
+ probably
+ the
+ most
+
+
+commonly
+ cited
+ scenario.
+ An
+ extinction
+
+
+pathway
+ would
+ require
+ a
+ pathogen
+ with
+
+
+extraordinary
+ transmissibility
+ and
+
+
+lethality.
+ Successful
+ synthesis
+ and
+
+
+deployment
+ through
+ wet
+ lab
+ resources.
+
+
+Global
+ reach
+ including
+ remote
+ and
+
+
+isolated
+ communities
+ with
+ no
+ logistical
+
+
+connection
+ to
+ the
+ outside
+ world.
+ Failure
+
+
+of
+ counter
+ measures
+ and
+ the
+ elimination
+
+
+of
+ any
+ possibility
+ of
+ population
+
+
+recovery.
+ Not
+ 99%
+ mortality.
+ Extinction
+
+
+means
+ the
+ species
+ does
+ not
+ come
+ back.
+
+
+Right?
+ This
+ is
+ a
+ very
+ long
+ chain
+ of
+ and
+
+
+then
+ right
+ in
+ science
+ we
+ call
+ that
+ a
+
+
+conjunctive
+ probability
+ problem.
+ In
+
+
+normal
+ language
+ it's
+ a
+ lot
+ of
+ things
+
+
+that
+ all
+ have
+ to
+ go
+ right
+ or
+ wrong
+
+
+depending
+ on
+ your
+ perspective.
+ Every
+ one
+
+
+of
+ those
+ steps
+ is
+ a
+ separate
+ very
+
+
+substantial
+ claim.
+ Even
+ the
+ most
+
+
+catastrophic
+ versions
+ of
+ these
+ scenarios
+
+
+which
+ would
+ be
+ terrible
+ of
+ course
+
+
+produce
+ a
+ catastrophe
+ but
+ not
+
+
+extinction.
+ and
+ catastrophe,
+ however
+
+
+horrific,
+ is
+ not
+ the
+ same
+ claim.
+ The
+
+
+safety
+ report
+ found
+ that
+ current
+ agents
+
+
+are
+ prone
+ to
+ basic
+ errors
+ beyond
+ two
+ to
+
+
+three
+ hours
+ of
+ autonomous
+ work.
+ Its
+
+
+forecasting
+ experts
+ assigned
+ only
+ a
+
+
+median
+ 20%
+ probability
+ that
+ AI
+ progress
+
+
+could
+ compress
+ six
+ years
+ of
+ advancement
+
+
+into
+ two.
+ Those
+ findings
+ do
+ not
+
+
+themselves
+ establish
+ an
+ imminent
+
+
+extinction
+ level
+ threat.
+ They
+ describe
+
+
+an
+ important
+ rapidly
+ developing
+
+
+technology
+ that
+ warrants
+ serious
+
+
+oversight.
+ None
+ of
+ what
+ I've
+ said
+ so
+ far
+
+
+in
+ this
+ video
+ is
+ an
+ argument
+ against
+
+
+safety
+ research
+ or
+ regulation.
+ By
+ the
+
+
+way,
+ exactly
+ the
+ opposite
+ is
+ what
+ I'm
+
+
+trying
+ to
+ get
+ at.
+ The
+ uncertainty
+ itself
+
+
+is
+ reason
+ to
+ keep
+ studying
+ this
+ very
+
+
+aggressively.
+ And
+ the
+ demonstrated
+
+
+problems
+ with
+ report
+ hacking
+ and
+
+
+infrastructure
+ compromise
+ are
+ reason
+ to
+
+
+regulate.
+ Now,
+ my
+ objection
+ is
+ narrower
+
+
+than
+ people
+ might
+ think.
+ My
+ objection
+ is
+
+
+to
+ collapsing,
+ worth
+ investigating,
+
+
+plausible,
+ forecast,
+ and
+ demonstrated
+
+
+into
+ one
+ single
+ category
+ and
+ then
+ making
+
+
+policy
+ as
+ though
+ the
+ last
+ word
+ applies
+
+
+to
+ all
+ four.
+ There
+ is
+ no
+ guarantee
+ that
+
+
+open-ended
+ recursive
+ self-improvement
+
+
+will
+ ever
+ be
+ achieved,
+ just
+ as
+ there
+ is
+
+
+no
+ guarantee
+ that
+ cancer
+ will
+ ever
+ be
+
+
+cured.
+ Unfortunately,
+ unsolved
+ problems
+
+
+sometimes
+ get
+ solved,
+ sometimes
+ they
+
+
+don't.
+ And
+ treating
+ the
+ solution
+ as
+
+
+inevitable
+ on
+ a
+ confident
+ timeline
+ is
+
+
+just
+ not
+ how
+ science
+ works
+ in
+ any
+ field.
+
+
+You
+ know,
+ people
+ keep
+ invoking
+ don't
+
+
+look
+ up
+ the
+ movie.
+ Reddit
+ is
+ filled
+ with
+
+
+people
+ making
+ fun
+ of
+ other
+ people
+ about
+
+
+how
+ everything
+ is
+ dismissed.
+ But
+ in
+ that
+
+
+film,
+ the
+ scientists
+ had
+ the
+ data.
+ The
+
+
+asteroid
+ was
+ in
+ the
+ telescope.
+ The
+
+
+trajectory
+ was
+ plotted.
+ The
+ public's
+
+
+refusal
+ to
+ look
+ was
+ irrational
+ because
+
+
+the
+ evidence
+ was
+ right
+ there.
+ Well,
+ I've
+
+
+looked
+ and
+ what
+ I
+ found
+ was
+ not
+ an
+ empty
+
+
+sky,
+ but
+ it's
+ also
+ not
+ a
+ comment
+ with
+ a
+
+
+Wikipedia
+ page
+ on
+ a
+ countdown
+ clock.
+
+
+It's
+ more
+ like
+ a
+ weird
+ thing
+ on
+ the
+
+
+telescope
+ that
+ could
+ be
+ a
+ comet,
+ could
+
+
+be
+ a
+ smudge,
+ and
+ half
+ the
+ astronomers
+
+
+are
+ shouting,
+ "We're
+ all
+ going
+ to
+ die."
+
+
+While
+ the
+ other
+ half
+ are
+ just
+ wondering
+
+
+whether
+ the
+ first
+ half
+ has
+ calibrated
+
+
+the
+ telescopes
+ correctly.
+ There
+ is
+ a
+ set
+
+
+of
+ impressive
+ bounded
+ results,
+ a
+
+
+judgment
+ bottleneck
+ that
+ has
+ not
+ been
+
+
+crossed,
+ an
+ open
+ question
+ about
+ whether
+
+
+the
+ feedback
+ loop
+ would
+ run
+ away
+ even
+ if
+
+
+it
+ were
+ crossed,
+ and
+ a
+ further
+ claim
+
+
+about
+ extinction
+ that
+ requires
+ an
+
+
+entirely
+ separate
+ chain
+ of
+ evidence.
+ I
+
+
+did
+ find
+ real
+ reasons
+ to
+ worry
+ and
+ also
+
+
+real
+ gaps
+ between
+ what
+ has
+ been
+
+
+demonstrated
+ and
+ what
+ is
+ being
+ asserted.
+
+
+again
+ if
+ there
+ is
+ a
+ paper
+ that
+ closes
+ on
+
+
+one
+ of
+ those
+ gaps.
+ If
+ I've
+ missed
+
+
+something,
+ please
+ send
+ it
+ to
+ me.
+ I'm
+
+
+asking
+ sincerely
+ as
+ a
+ scientist
+ because
+
+
+I
+ would
+ generally
+ like
+ to
+ know
+ right
+
+
+now.
+ I've
+ looked
+ and
+ this
+ is
+ just
+ what
+ I
+
+
+found.
+ I'm
+ going
+ to
+ leave
+ all
+ of
+ the
+
+
+papers
+ that
+ I
+ read
+ as
+ sources
+ in
+ the
+
+
+description.
+ If
+ you
+ found
+ this
+ useful
+
+
+and
+ you
+ want
+ to
+ understand
+ how
+ AI
+ is
+
+
+reshaping
+ the
+ global
+ economy,
+ I
+ cover
+
+
+that
+ in
+ this
+ video
+ that
+ I'm
+ linking
+ here
+
+
+on
+ your
+ screen.
+ Thank
+ you
+ so
+ much
+ for
+
+
+watching.
+ I'll
+ see
+ you
+ in
+ the
+ next
+ one.
+
+
+And
+ also
+ here's
+ your
+ metal.
