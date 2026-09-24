@@ -1,0 +1,1253 @@
+[Speaker 0]:  sometimes it scares me。
+[Speaker 0]:  we had a customer。
+[Speaker 0]:  one of these AI clouds。
+[Speaker 0]:  they said we're probably going to need about five hundred peatabbites over the next three years last week，
+[Speaker 0]:  they came back to us and said，
+[Speaker 0]:  we're going to need an extra two exoabytes on top of that five hundred petobites。
+[Speaker 0]:  i think in the next ten years will see see more difference。
+[Speaker 0]:  we we did the last ast，
+[Speaker 1]:  ast II matmator。
+[Speaker 1]:  welcome to the mapodast ast。
+[Speaker 1]:  we took a lot about AI models on this show，
+[Speaker 1]:  and we talk a lot about computer，
+[Speaker 1]:  but think is about the layer in between the crucial suffer infrastructure layers that feits massive amounts of data to all this GP use my gusterday's，
+[Speaker 1]:  a rendoon hellic founder and CEO of vast data，
+[Speaker 1]:  a company that is surprisingly under the radar considering needs been most recently valued at thirty billion dollars，
+[Speaker 1]:  empowers top AI players like XAI in some of the biggest AI neoclass in the world。
+[Speaker 1]:  please enjoenjoy my conversation with rendn hallic red and welcome。
+[Speaker 0]:  thank you all right。
+[Speaker 2]:  so to anchor this whole conversation，
+[Speaker 2]:  i wanted to start with that mental model from jensson at in videa that have a frids so helpful where uh，
+[Speaker 2]:  when you describes AI uses the analogy of a five layer cake where you you popower the very bottom and then hardware，
+[Speaker 2]:  then software infrastructure，
+[Speaker 2]:  then models，
+[Speaker 2]:  then applications。
+[Speaker 0]:  so where do you sit in that player cake right in the middle that softer infrastructure layer is the one that we do uh in collaboration，
+[Speaker 0]:  of course，
+[Speaker 0]:  with the hardrevenddors underneath us and with the model builders on top of us。
+[Speaker 2]:  yeah。
+[Speaker 2]:  so i do addo a level。
+[Speaker 2]:  what what does that mean？
+[Speaker 2]:  suffer infrastructure in the context of，
+[Speaker 0]:  i believe，
+[Speaker 0]:  yeah，
+[Speaker 0]:  so everything you would imagine from the old stack we need for this new stack。
+[Speaker 0]:  we need to manage the compute。
+[Speaker 0]:  we need to manage the storage。
+[Speaker 0]:  we need to manage the networking。
+[Speaker 0]:  and then as you go up the stack，
+[Speaker 0]:  we need to make sense of all of it um make sense of the data through a database，
+[Speaker 0]:  make sense of the compute through training and inference functions。
+[Speaker 0]:  um and as you go even higher up the stack and we shift from trainining predominantly ininfeance in agents and uh reinforce learning，
+[Speaker 0]:  we need more and more tools to enable this new world，
+[Speaker 0]:  make it simple，
+[Speaker 0]:  make it safe，
+[Speaker 0]:  make it um fast and scalable and resilient。
+[Speaker 0]:  all of that sits in that middle layer。
+[Speaker 0]:  uh。
+[Speaker 0]:  sometimes i like to call it after infrastructure and other times。
+[Speaker 0]:  i like to call it the operating system for this new era。
+[Speaker 2]:  there is a related concept to that five eleyer cake。
+[Speaker 2]:  that thing may have originated from in video again，
+[Speaker 2]:  but i keeps coming back in conversation，
+[Speaker 2]:  which is this idea of AI factory。
+[Speaker 2]: 嗯，
+[Speaker 2]: 哼，
+[Speaker 2]:  what does that mean？
+[Speaker 2]:  so if you start with a bunch of gp s，
+[Speaker 2]:  what do you need to add to create a uh an air factory？
+[Speaker 0]:  i think，
+[Speaker 0]:  even below the gp u。
+[Speaker 0]:  that data centers are looking very different today，
+[Speaker 0]:  then they did five years ago。
+[Speaker 0]:  the old stack you had ten kiloot racks today。
+[Speaker 0]:  you need five hundred kiloout racks，
+[Speaker 0]:  and so you need more power。
+[Speaker 0]:  you need more power density，
+[Speaker 0]:  um you need GPS，
+[Speaker 0]:  of course，
+[Speaker 0]:  versus c ps，
+[Speaker 0]:  you need extremely fast networks and very large，
+[Speaker 0]:  just as these rather than hangig，
+[Speaker 0]:  either net and old car drives。
+[Speaker 0]:  and so every layer of this cake ah needs to be redone。
+[Speaker 0]:  and from our perspective，
+[Speaker 0]:  you need much more data and much faster access to that data because we're no longer analyzing numbers and columns of a database the way you did with big data and the old stack，
+[Speaker 0]:  we're doing pictures in video and sound and natural language。
+[Speaker 0]:  and that takes a lot more space。
+[Speaker 0]:  and that's before new generative ai data。
+[Speaker 0]:  uh that gets generated。
+[Speaker 0]:  and of course，
+[Speaker 0]:  all of this comcompute，
+[Speaker 0]:  all of these gp s need very fast access to this information，
+[Speaker 0]:  whether they're training on it or whether they're unning ning lowlowinsethe inference functions。
+[Speaker 0]:  and so the entirety of the stack is new。
+[Speaker 0]:  and i think the culmination of this stack is what we call the AI factory。
+[Speaker 2]:  and it is a concept of AI factory，
+[Speaker 2]:  uh mostly for the the big labs or like this whole，
+[Speaker 2]:  like data on our plus model can of kind of thing。
+[Speaker 2]:  or um is it also for enterprises？
+[Speaker 0]:  i think it'll be for everyone。
+[Speaker 0]:  eventually，
+[Speaker 0]:  the big labs are starting。
+[Speaker 0]:  they're ahead of the pack，
+[Speaker 0]:  and they're leading the way for everybody else。
+[Speaker 0]:  but anybody who stays with the old stack with old business information systems will get left behind。
+[Speaker 0]:  and so people need to start leveraging these new iabilities，
+[Speaker 0]:  some um start by leveraging them out of the clouds out of the hyperscalalers，
+[Speaker 0]:  the neo clouds，
+[Speaker 0]:  um others build uh within their environments。
+[Speaker 0]:  um but in all of these cases，
+[Speaker 0]:  enterprises will need AI factories in the medium term。
+[Speaker 0]:  and then after that，
+[Speaker 0]:  i think as we shift from people uh，
+[Speaker 0]:  based organizations to augmenting them with agents，
+[Speaker 0]:  these AI factories become a lot more。
+[Speaker 0]:  then what what 're 're used to thinking from just our computer infrastructure to play back right now，
+[Speaker 2]:  if you go to a lot enterprise，
+[Speaker 2]:  a non techterprice，
+[Speaker 2]:  so like a fizer or gobbsaacks or walmart。
+[Speaker 2]:  um i think the domominant view is that um leveraging AI basically means，
+[Speaker 2]:  you know，
+[Speaker 2]:  he's start parttering was pthropic or open the eye。
+[Speaker 2]:  and you know，
+[Speaker 2]:  you have of these coming into your walls。
+[Speaker 2]:  and then you know you you build some stuff initially that was chat boards。
+[Speaker 2]:  now。
+[Speaker 2]:  it's agents。
+[Speaker 2]:  is it is a concept of an eye factory that you build your own。
+[Speaker 2]:  i so you you have，
+[Speaker 2]:  uh you，
+[Speaker 2]:  you know，
+[Speaker 2]:  you know，
+[Speaker 2]:  data infrastructure，
+[Speaker 2]:  but you also renyou GPS or buy GPU。
+[Speaker 2]:  and then you you do model work is that is at the concept。
+[Speaker 0]:  i think once you get to a certain level of scale，
+[Speaker 0]:  definitely it's more cost effective to buy than to rent。
+[Speaker 0]:  and so from that perspective，
+[Speaker 0]:  yes，
+[Speaker 0]:  you should build your own AAI factories。
+[Speaker 0]:  but beyond that over time，
+[Speaker 0]:  i think all of these organizations ip will be distilled in models um h will be weights，
+[Speaker 0]:  and they don't necessarily need to build the base model。
+[Speaker 0]:  i like to give analogies of the human brain。
+[Speaker 0]:  we were all born with a base model。
+[Speaker 0]:  but then over time，
+[Speaker 0]:  as we uh travel world，
+[Speaker 0]:  we leararnew things uwe。
+[Speaker 0]:  we infer during the day we tune at night and tomorrow will be a little bit smarter。
+[Speaker 0]:  then we were today，
+[Speaker 0]:  and my model of the universe is slightly different than your model of the universe because we had different experiences。
+[Speaker 0]:  and so i think in the same way，
+[Speaker 0]:  all of these agents will find tune models through reinforce learning over time，
+[Speaker 0]:  and every organizations ip will be able to be um distilled into the models that they own and the weights that they've accumulated。
+[Speaker 2]:  what does that mean in terms of what those enterprises need to be able to do，
+[Speaker 2]:  you know，
+[Speaker 2]:  like doing model work and like weights ggu，
+[Speaker 2]:  that that's that's whowhole kind of expertise that，
+[Speaker 2]:  ultimately，
+[Speaker 2]:  you few people in their world really own。
+[Speaker 2]:  uh already know，
+[Speaker 2]:  have uh and then a lot of those companies don't have that。
+[Speaker 2]:  so how do they go from here to there？
+[Speaker 0]:  i think again，
+[Speaker 0]:  i like analogies，
+[Speaker 0]:  the analogy i would give here is you go back to the one hundred and seventies you needed APHD and computer science operate a computer today，
+[Speaker 0]:  everybody can do it。
+[Speaker 0]:  and the reason everybody can do it is not because we learned it's because operating a computer became much simpler。
+[Speaker 0]:  the operating system made it intuitive，
+[Speaker 0]:  made it easy for everybody to use。
+[Speaker 0]:  uh。
+[Speaker 0]:  it also made it safe for everybody to use。
+[Speaker 0]:  these enterprises are under a lot of regulation that they need to comply with。
+[Speaker 0]:  and so uh，
+[Speaker 0]:  it is our job as the ones building that offerinfrastructure layer to make these new technologies accessible to the enterprises such that they don't need to think about it too much and that they can start adopting them at pace um rather than get left behind and have new companies with ai experts。
+[Speaker 0]:  ah，
+[Speaker 0]:  take their place。
+[Speaker 2]:  it mabe be do coush sh back little bit or maybe to just ggin nnure ure？
+[Speaker 2]:  i understand。
+[Speaker 2]:  that's a whole premise of the cloud is to make things incredily，
+[Speaker 2]:  simple and and and use those functionality as a service。
+[Speaker 2]:  the concept of an arufactory revolves around owning a lot of this，
+[Speaker 2]:  which sounds like very kind of like on prim pripriate ate cloud，
+[Speaker 2]:  which history gay has been a little more complicated。
+[Speaker 2]:  so is if i give me what what you saying that uh is that like this opportunity to like abstract a way all of this in a way that that feels cloud ish in experience。
+[Speaker 0]:  i think so，
+[Speaker 0]:  i think uh，
+[Speaker 0]:  the physical location of this AI factory can be on。
+[Speaker 0]:  prem can be in a colo can be in an AI cloud。
+[Speaker 0]:  uh where you rent it from somebody rather than manage it yourself。
+[Speaker 0]:  eventually，
+[Speaker 0]:  my guesses that the hyperskillers will also enable these AI factories to be built uh within their premises。
+[Speaker 0]:  um but so long as it's within your control。
+[Speaker 0]:  and so long as you're the one that owns it in terms of really，
+[Speaker 0]:  i think owns the information，
+[Speaker 0]:  owns the models，
+[Speaker 0]:  owns the weight，
+[Speaker 0]:  owns the agents。
+[Speaker 0]:  i think that's the distinction that i'm trying to make here doesn't necessarily need to be physical equipment within a building that belongs to you。
+[Speaker 2]:  okay，
+[Speaker 2]:  great，
+[Speaker 2]:  great。
+[Speaker 2]:  you。
+[Speaker 2]:  anna spend more time on what you allowed to a minute ago about agents and agents doing their own fghtining right right now。
+[Speaker 2]:  the way think most people think about agents is that uh，
+[Speaker 2]:  you know，
+[Speaker 2]:  you do reinforcement learning to enable the agents，
+[Speaker 2]:  but a thing you saying，
+[Speaker 2]:  agents do it。
+[Speaker 0]:  i，
+[Speaker 0]:  again like to think of agents as artificial people。
+[Speaker 0]:  and over time，
+[Speaker 0]:  i think we're all going to have agents that work for us uh，
+[Speaker 0]:  whewere people or organizations uh for different tasks and will have teams of agents that can help us develop software or uh，
+[Speaker 0]:  personalized medicine or whatever。
+[Speaker 0]:  it is that we want done。
+[Speaker 0]:  we will have them do on our behalf。
+[Speaker 0]:  and i think over time，
+[Speaker 0]:  we will get attached to our agents，
+[Speaker 0]:  and we will expect them to know things that happened yesterday or that happened a year ago。
+[Speaker 0]:  and that will allow us familiarity with our agents，
+[Speaker 0]:  but that requires them to find two models based on experiences that they had with us。
+[Speaker 0]:  um and of course，
+[Speaker 0]:  that also makes them smarter and able to do more for us。
+[Speaker 0]:  and within teams，
+[Speaker 0]:  they can learn from each other。
+[Speaker 0]:  and i think that generates the next level of artificial intelligence verses，
+[Speaker 0]:  where we are today where everybody's，
+[Speaker 0]:  based on some base model from one big labor another。
+[Speaker 0]:  and every few weeks，
+[Speaker 0]:  we get an upgrade to that model based on what they did in their environment。
+[Speaker 0]:  um in this new way，
+[Speaker 0]:  each one of us each organization owns the IP generated through these uh ine tuning mechanisms，
+[Speaker 0]:  rather than letting the big model builders basically own everything over time。
+[Speaker 0]:  okay，
+[Speaker 2]:  just just to ay ay back ks，
+[Speaker 2]:  so that the knowledge loop happens within the enterprise。
+[Speaker 2]:  and that becomes the new IP。
+[Speaker 2]:  and so we think the cannot do that with opening our one throropical。
+[Speaker 0]:  whoever you don't want to because you don't want to expose your proprieiteria information，
+[Speaker 0]:  your processes，
+[Speaker 0]:  your secrets，
+[Speaker 0]:  ouuh out somebody else，
+[Speaker 0]:  such as they can take it and run with it，
+[Speaker 2]:  which is a super interecigratt。
+[Speaker 2]:  because people used to say that about data，
+[Speaker 2]:  but now we find to uh um intelligence，
+[Speaker 2]:  intelligence processes and that memory and for intelligence。
+[Speaker 2]:  okay。
+[Speaker 2]:  does that mean that uen source um becomes the the play here？
+[Speaker 2]:  because if you want a fine to no do uh RL against model，
+[Speaker 2]:  um you have ving access to an a prinource model enabto you to do that。
+[Speaker 2]:  that is that your vision of the world，
+[Speaker 0]:  not necessarily，
+[Speaker 0]:  i think we need to build uh way for people to monitize ah these abilities that they worked so hard and paid so much uh to get to。
+[Speaker 0]:  and and so we need a way where，
+[Speaker 0]:  on the one hand，
+[Speaker 0]:  in our price does not expose their data。
+[Speaker 0]:  on the other hand，
+[Speaker 0]:  a model builder does not expose their weight。
+[Speaker 0]:  and again，
+[Speaker 0]:  the software infrastructure layer is the right place to enforce that type of trust。
+[Speaker 0]:  and over time as the enterprise starts to generate their own models are fine tune on top of base models。
+[Speaker 0]:  they should also be able to monitize the skill sets that they developed。
+[Speaker 0]:  and so if i run a carpentry shop and my carpenter robots are the best in the business，
+[Speaker 0]:  i should be able to least to you that brain module such that you can build a chair，
+[Speaker 0]:  whatever it is that you're trying to do um but i'm only giving it to you for a week。
+[Speaker 0]:  and at the end of that week，
+[Speaker 0]:  you don't have access to it anymore，
+[Speaker 0]:  or maybe i'm selling it to you，
+[Speaker 0]:  uh，
+[Speaker 0]:  but i still don't want you to see those weights。
+[Speaker 0]:  and so there should be ways for us to build intelligence marketplace。
+[Speaker 2]:  ok。
+[Speaker 2]:  and and i guess that goes to uh your big announcement of of this week。
+[Speaker 2]:  uh you don't mensure the the principle of it and that what will go into the the details in a minute。
+[Speaker 2]:  but at at a high level um had does what you guss just announce to address this specific problem。
+[Speaker 0]:  sure。
+[Speaker 0]:  so basically，
+[Speaker 0]:  what we're trying to do is fill out that's after infrastructure layer。
+[Speaker 0]:  and what we realized was that the five layer cake that we discussed is almost complete。
+[Speaker 0]:  the models don't really live on top of this softer infrastructure models over time have become a resource，
+[Speaker 0]:  just like a gpu is a resource or NSSD as a resource and resources need to be managed。
+[Speaker 0]:  and so this announcement is all about model management。
+[Speaker 0]:  how do we as the operating system now get an understanding of this model is really good at coding，
+[Speaker 0]:  and that model is really good at generating images。
+[Speaker 0]:  and this one is expensive，
+[Speaker 0]:  and that one is inexpensive。
+[Speaker 0]:  and that way we can understand which tasks belonunder，
+[Speaker 0]:  which models。
+[Speaker 0]:  and that's today，
+[Speaker 0]:  when we have four five of them as we start to reinforce uh running inforce learning and fine tune as we start to have hundreds and thousands of agents uh and over time generating new derivatives of those models that's going to be a much bigger task。
+[Speaker 0]:  uh one specific aspect of model management，
+[Speaker 0]:  which uh were announcing，
+[Speaker 0]:  and we have a lot of the model builders as partners ers join，
+[Speaker 0]:  the announcement is around confidential computing and enabling that ability of enterprises to run inference on prem without exposing the model builder's weghts。
+[Speaker 0]:  and so both sides can rest assured that my data is not exposed，
+[Speaker 0]:  and your weights are not exposed to me。
+[Speaker 0]:  and so with help from in vidia and um encrypted memory underneath or able to make sure that no one sees what they're not allowed to see。
+[Speaker 0]:  and to hopefully，
+[Speaker 0]:  increased total adressable market of these model builders into regulated industries into a large enterprises that are uh careful what there are sitive ininmamation。
+[Speaker 2]:  it's put put a pin in this and what will revisit in a few minutes and going to how that actually works up。
+[Speaker 2]:  but uh taking a is time back。
+[Speaker 2]:  um i would love to um talk about about your ourourney a little bit and and then had led to you to build a vast，
+[Speaker 2]:  which is uh h incdible ble company，
+[Speaker 2]:  which is value that thirty billion dollars。
+[Speaker 2]:  uh you know，
+[Speaker 2]:  intereingly，
+[Speaker 2]:  perhaps，
+[Speaker 2]:  because you're right in the middle of the of the cake，
+[Speaker 2]:  not everybody，
+[Speaker 2]:  uh，
+[Speaker 2]:  as has heard about yet。
+[Speaker 2]:  um so uh，
+[Speaker 2]:  i think you were telling me uh growing up in israel that you had a particular afity ity for math。
+[Speaker 2]:  so my words，
+[Speaker 2]:  not yours，
+[Speaker 2]:  but a you're a bit of a of a whiskid uh in in in in math，
+[Speaker 0]:  affinity for math，
+[Speaker 0]:  for sure with kid，
+[Speaker 0]:  definitely not。
+[Speaker 0]:  ah，
+[Speaker 0]:  it's fununny。
+[Speaker 0]:  when i came up the math mumuuum downstastairs。
+[Speaker 0]:  do we had some big news this week about math？
+[Speaker 0]:  um when i was in school twenty years ago，
+[Speaker 0]:  i spent a six months of my life trying to figure out if p equals and p，
+[Speaker 0]:  ah，
+[Speaker 0]:  which i hope your audience knows。
+[Speaker 0]:  but for those who don't，
+[Speaker 0]:  it's the question of is it easier to uh veriy y problem than it is to solve the problem which intuitively it is。
+[Speaker 0]:  it's much easier for us to review a document and say，
+[Speaker 0]:  yeah，
+[Speaker 0]:  that's uh，
+[Speaker 0]:  that works and to write that document to look at a picture and say that's beautiful than to paint that picture。
+[Speaker 0]:  um but mathematically it's unknown if if that is the case or not。
+[Speaker 0]:  and interestingly，
+[Speaker 0]:  this is one of seven millennium problems that the clay institute back in the year，
+[Speaker 0]:  two thousand put a million dollar bounty on。
+[Speaker 0]:  and i remember spending those six months trying to solve it，
+[Speaker 0]:  because i thought if i prove that p does equal and p，
+[Speaker 0]:  then i also solve the other six，
+[Speaker 0]:  and i'll get seven million dollars。
+[Speaker 0]:  and if i prove that it's not equal than at least i get one。
+[Speaker 0]:  and after six months，
+[Speaker 0]:  what i realize was that i'm not nearly smart enough to do it。
+[Speaker 2]:  joonna provide the full context by what happened this week just for frianty。
+[Speaker 0]:  but yeah，
+[Speaker 0]:  ah another one，
+[Speaker 0]:  those probleproblems vy ststokes was solved by open AI，
+[Speaker 0]:  or at least they claim that they've solved it。
+[Speaker 0]:  and the rumors are hopefully，
+[Speaker 0]:  and the time time that this aared red，
+[Speaker 0]:  some of those rumors will come true that there at leleast more more，
+[Speaker 0]:  the the seven problems that open AI and anthropic are trying to solve and are close to solving using AI that these are problems that have been open for nearly a hundred years。
+[Speaker 0]:  and for the last twenty six years uh，
+[Speaker 0]:  there was a million dollar um prize associated with them，
+[Speaker 0]:  and still people were not able to solve。
+[Speaker 0]:  and so for the first time that think we're at a point today or AI has proven that it can do things that we don't know how to do。
+[Speaker 0]:  um but going back twenty years，
+[Speaker 0]:  it was clear to me that if we could get computers um to help with these hard problems，
+[Speaker 0]:  that's the way to solve it，
+[Speaker 0]:  because people are slow and the evolution of our knowledge is slow。
+[Speaker 0]:  and if we are to see any of these things get solved um within our lifetime，
+[Speaker 0]:  we need computers to speed us up。
+[Speaker 0]:  um we didn't know how to do it back in two thousand and six。
+[Speaker 0]:  and so i went along my way and join a few technology companies。
+[Speaker 0]:  um the last one i was with was a company called em c uh which built large storage，
+[Speaker 2]:  this dyou recrecall。
+[Speaker 2]:  all so you join in h start number one，
+[Speaker 0]:  oh，
+[Speaker 0]:  yes。
+[Speaker 2]:  and that company was acquired by MMT try。
+[Speaker 2]:  and then you help run that the arn organization that's yeah for that product。
+[Speaker 0]:  and that nequisition happened in twtwelve it by twenty fifteen。
+[Speaker 0]:  um it became clear that there is a shot at computers。
+[Speaker 0]:  um it became us think um helping us solve problems。
+[Speaker 0]:  uh because neural nets，
+[Speaker 0]:  which again，
+[Speaker 0]:  when i was in school ten years earlier，
+[Speaker 0]:  fifteen years earlier or a curiosity，
+[Speaker 0]:  they didn't really weren't able to do anything。
+[Speaker 0]:  uh now they were for the first first time starting to show that they can do something they were able recognize which which videos had cats in them，
+[Speaker 0]:  and which videos did not have cats in them，
+[Speaker 0]:  which was aaonishshing me because suddenshin them um was try to mimic the human brain without really understanding the human brain。
+[Speaker 0]:  um and so immediately，
+[Speaker 0]:  i tried to figure out how this happened，
+[Speaker 0]:  and it was very clear that it wasn't necessarily new algorithms。
+[Speaker 0]:  it was giving those neural nets much faster access to a lot data that enabthem them to perform these very simple tasks。
+[Speaker 2]:  so that was was intuition behind the founding of vast，
+[Speaker 0]:  correct。
+[Speaker 0]:  and then fifteen two thousand and fifteen beginning of two thousand sixteen。
+[Speaker 0]:  we started yeah。
+[Speaker 2]:  and then obviously，
+[Speaker 2]:  that was uh at a minimonm three years before，
+[Speaker 2]:  for h the transformers paper came out，
+[Speaker 2]:  yes，
+[Speaker 2]:  another two years before the judgy beity moment。
+[Speaker 2]:  so what was the ah h idea then because they were not a lot of customers using massive amounsive df AI at the time，
+[Speaker 0]:  there was no generative AI at the time。
+[Speaker 0]:  um google acquired deep mind the year previous to that um but it was clear that none of the systems，
+[Speaker 0]:  none of the infrastructure that we had available to us would be scale enough would be performing enough to enable this next revolution。
+[Speaker 0]:  the architectures were built on an assumption that things needed to be fast or big。
+[Speaker 0]:  um and here you needed something that was both fast and very，
+[Speaker 0]:  very large。
+[Speaker 0]:  if so，
+[Speaker 0]:  we neeneed to build d new underunderying uh layer to enable the success of this next revolution，
+[Speaker 0]:  if if it were to come to fruition um in the early days，
+[Speaker 0]:  of course，
+[Speaker 0]:  our customers were not doing generative AI。
+[Speaker 0]:  they were doing large skill analytics。
+[Speaker 0]:  they were doing um autonomous driving projects。
+[Speaker 0]:  they were doing medical imaging，
+[Speaker 0]:  uh analysis，
+[Speaker 0]:  genomysis alalysis h hedge from sscientific computing。
+[Speaker 2]:  oh，
+[Speaker 0]:  yeah，
+[Speaker 0]:  hedge funds were trying to uh get signal from news fees and natural language。
+[Speaker 0]:  and so it was the beginning of AI。
+[Speaker 2]:  but before chadge GPT actually tually as a way of getting into what vast actually as um did you anna explain in in super simple terms，
+[Speaker 2]:  um what you just so uh，
+[Speaker 2]:  so you started from storage uh and then storage。
+[Speaker 2]:  as you just said，
+[Speaker 2]:  was it's either the the alternative at the time was either slow and inexpensive or fast，
+[Speaker 2]:  but expensive。
+[Speaker 2]:  and the whole uh scientific can brebreakthrough as to break right？
+[Speaker 2]:  and uh uh，
+[Speaker 2]:  was it what you called the days disaggregated hard everything，
+[Speaker 2]:  right？
+[Speaker 2]:  so explained that in in supersible terms，
+[Speaker 0]:  so the old way to build scalable systems is based on a concept called sharting，
+[Speaker 0]:  uh，
+[Speaker 0]:  was known as shared nothing systems where you have a lot of node。
+[Speaker 0]:  each note is responsible for a piece of the pithey collaborate with each other in order to serve up application requests。
+[Speaker 0]:  and as you add more node，
+[Speaker 0]:  you get more performance。
+[Speaker 0]:  you get more capacity。
+[Speaker 0]:  it works well up to a certain limit。
+[Speaker 0]:  and so want you have too many notes。
+[Speaker 0]:  the communication between them starts to show diminishing returns。
+[Speaker 0]:  and so if you're analyzing text，
+[Speaker 0]:  it may work，
+[Speaker 0]:  if you're analyzing numbers，
+[Speaker 0]:  it works。
+[Speaker 0]:  well，
+[Speaker 0]:  if you're analyzing columns of a database that's fine once you grow beyond that。
+[Speaker 0]:  and today，
+[Speaker 0]:  the amounts of data are four five orders of magneude beyond where they were back then soon they will be seven，
+[Speaker 0]:  eight orders of magitude bigger。
+[Speaker 0]:  um it doesn't work。
+[Speaker 0]:  it breaks down because uh the communication grows quite ratically within the cluster。
+[Speaker 0]:  and then um from a resilience perspective，
+[Speaker 0]:  also，
+[Speaker 0]:  when one part fails，
+[Speaker 0]:  everybody needs to recover that takes time。
+[Speaker 0]:  you can't really have more than a hundred nodes in one of those systems。
+[Speaker 0]:  uh，
+[Speaker 0]:  to build AI。
+[Speaker 0]:  we need systems with many millions of nodes。
+[Speaker 0]:  uh we have one system um one of our customer sites that is today multiple exhibits within a single cluster，
+[Speaker 0]:  delivering tens of terribbites per second。
+[Speaker 0]:  this is tens of thousands of notes even today before the agentic revolution。
+[Speaker 0]:  and so to do that，
+[Speaker 0]:  we needed to build an architecture that ended up being the opposite of the way shared nothing systems work instead of having the SSD，
+[Speaker 0]:  the media directly atattach to the CPU。
+[Speaker 0]:  it's on the other side of the network and that through a very fast networks and through new protocols and can viememe our fabrics and through new media types that allow us to save，
+[Speaker 0]:  not just stayed on the other side of the network，
+[Speaker 0]:  but also met mea data。
+[Speaker 0]:  uh，
+[Speaker 0]:  we were able to have all of the nodes uh，
+[Speaker 0]:  see all of the information as if it was directly attached。
+[Speaker 0]:  and that's what led us to being able to do what we all shared everything。
+[Speaker 0]:  all of the nodes now don't need to communicate with each other because they share access to all of the information that's the basic idea behind our architecture。
+[Speaker 0]:  and it proved really，
+[Speaker 0]:  really good for a new type of storage system for AI。
+[Speaker 0]:  and then for a new type of database for AI。
+[Speaker 0]:  and then for a new way to orchestrate compute for AI。
+[Speaker 0]:  and we realized over the years，
+[Speaker 0]:  our customers forced to realize that it's not just storage that needs to be redone，
+[Speaker 0]:  but the entire uh part of that stack that needs to be redone。
+[Speaker 2]:  as i said，
+[Speaker 2]:  i'm i'm smiling。
+[Speaker 2]:  you must have been a lot of fun to pitch HH storage，
+[Speaker 2]:  as i decihad the the enteen to to be terrible。
+[Speaker 2]:  the storage was probconconsithe time，
+[Speaker 2]:  the the least sexy part of the entire tach IOU guys，
+[Speaker 0]:  a lot of our success，
+[Speaker 0]:  because as hard as it was to pitch storage to vc now uh or reaping the benefits of having a lot less competition，
+[Speaker 0]:  then we otherwise would have had。
+[Speaker 0]:  and so thank you。
+[Speaker 0]:  yeah。
+[Speaker 2]:  is that is that part of of why that middle le yers less less known，
+[Speaker 2]:  that's just less companies pitching of why that don't have come come。
+[Speaker 2]:  the the the mile anies that come come to on，
+[Speaker 2]:  not we ko，
+[Speaker 0]:  and there doesn't seem to be a lot of companies doing what you do a few point um the ones that we're competing with started three years before us or thirty years before us。
+[Speaker 0]:  and so when we built this new architecture，
+[Speaker 0]:  we were basing it on forward looking technologies。
+[Speaker 0]:  when we started in twenty sixteen，
+[Speaker 0]:  the underlying parts weren't there yet。
+[Speaker 0]:  they became available throughout twenty seventeen，
+[Speaker 0]:  twenty eighteen，
+[Speaker 0]:  twenty ninety。
+[Speaker 0]:  and so anybody you had to believe that they were going to appear。
+[Speaker 0]:  and so it wasn't just difficult to raise money from vcs in those early board meetings when they kept asking me，
+[Speaker 0]:  what do we do if this part doesn't come to life？
+[Speaker 0]:  i kept telling them。
+[Speaker 0]:  we don't have a plan b which they didn't like。
+[Speaker 0]:  and so um i was not their favorite person in those days。
+[Speaker 0]:  uh hopefully that changed over time，
+[Speaker 0]:  they made some money。
+[Speaker 0]:  um but um um there was no way for a company that started before us to make those forward bets。
+[Speaker 0]:  and so those favorite today that are most the fact that we're the only ones with this architecture，
+[Speaker 0]:  and it's true that there aren't many other companies uh in our layer，
+[Speaker 0]:  i think，
+[Speaker 0]:  mainly because it's it's not sexy。
+[Speaker 0]:  it's a lot um more appealing to build a model company or an application company than it is to build the the plumbing。
+[Speaker 2]:  and to the days are architecture is chilled the very basis of of what what you do ing to curtly。
+[Speaker 0]:  that's what you do。
+[Speaker 0]:  one product。
+[Speaker 0]:  that's this operating system。
+[Speaker 0]:  but all of the the parts that were adding are based on days，
+[Speaker 0]:  and that's part of the reason why we can take open source and bolted on top。
+[Speaker 0]:  we have to write most bit ourselves。
+[Speaker 2]:  why did you start building databases on on top？
+[Speaker 2]:  what was uuuh address by the market that you needed to build in？
+[Speaker 0]:  as with storage，
+[Speaker 0]:  we realized that there was a trade off between price and performance and scale and resiliand and iavieuse in the world of database，
+[Speaker 0]:  what the same way that there was in the world of storage。
+[Speaker 0]:  we realized that because our customer stold us said，
+[Speaker 0]:  um we have a big customer，
+[Speaker 0]:  for example，
+[Speaker 0]:  in singapore，
+[Speaker 0]:  um and they have a lot of camera feeds uh coming in。
+[Speaker 0]:  and all of those feeds need to be uh vetorized as uh the images，
+[Speaker 0]:  comin and uh results in trillions of vectors that need to be placed in a database。
+[Speaker 0]:  there isn't a database that was built for trillions of rose。
+[Speaker 0]:  ah there isn't a database that was built for thousands of agents analzing different aspects of what's happening uh in the system。
+[Speaker 0]:  at the same time，
+[Speaker 0]:  uh old stack databases built for uh big amounts of data，
+[Speaker 0]:  which today seem very，
+[Speaker 0]:  very small，
+[Speaker 0]:  which were built for people，
+[Speaker 0]:  uh running queres and doing the analysis。
+[Speaker 0]:  and again，
+[Speaker 0]:  that old architecture that shared nothing architecture uh is big，
+[Speaker 0]:  scalable enough to the levels that we need today。
+[Speaker 2]:  so it's it's so it's scale。
+[Speaker 2]:  i i'm just to um push back back AA，
+[Speaker 2]:  little little it um um or probe。
+[Speaker 2]:  um you know，
+[Speaker 2]:  i'm i'm sure like dita brakes or like snowflag would tell on and know，
+[Speaker 2]:  we massive with scale able，
+[Speaker 2]:  and we can just run massive analytics on data incluincluding some in real time with in real product。
+[Speaker 2]:  um and then um you know，
+[Speaker 2]:  i think some people would tell well，
+[Speaker 2]:  storage was sold like that's as three three that's in scalable。
+[Speaker 2]:  but what we we here here is um all of this maybe true for certain news cases，
+[Speaker 2]:  but not for what we talking about here。
+[Speaker 0]:  i think both of those companies that you mention started about five before us us。
+[Speaker 0]:  so they too are built on that older architecture，
+[Speaker 0]:  and they started top down。
+[Speaker 0]:  they are based on underlying cloud services like a three，
+[Speaker 0]:  which were not built for this era of AI。
+[Speaker 0]:  and we're seeing that today。
+[Speaker 0]:  um that's a big part of the reason these AI clouds are starting to pop up because the traditional hyperscalers that build us three uh，
+[Speaker 0]:  build the old stack，
+[Speaker 0]:  and these new AI clouds are building the new stack，
+[Speaker 0]:  and now the olof clouds need to adapt in order to um stay relevant。
+[Speaker 2]:  so easy the customcustomer as they build those AI factories to basically move all the data to fast。
+[Speaker 0]:  they don't have to start by moving all the data to vast。
+[Speaker 0]:  usually，
+[Speaker 0]:  we start by um just serving the new applications，
+[Speaker 0]:  just serving the new AI applications。
+[Speaker 0]:  um usually，
+[Speaker 0]:  what happens after that is that the customer，
+[Speaker 0]:  the enterprise organization realize that this is actually useful，
+[Speaker 0]:  and i want it to access the entirety of my data set rather than just this subset。
+[Speaker 0]:  uh。
+[Speaker 0]:  the good news is that we support all of the old staack interfaces。
+[Speaker 0]:  and so if you're talking storage as three uh，
+[Speaker 0]:  we support file systems，
+[Speaker 0]:  we support bblocck devices，
+[Speaker 0]:  we support you're talking atabases。
+[Speaker 0]:  we support sequal。
+[Speaker 0]:  if you're talking streaming，
+[Speaker 0]:  we support kafka。
+[Speaker 0]:  and so it's very easy to plug in those old stack applications on to our platform in parallel to the new agentic tic or clothes and AI applications。
+[Speaker 0]:  and in that sense，
+[Speaker 0]:  we become a bridge between the old world and the new world as companies uh，
+[Speaker 0]:  make that journey。
+[Speaker 2]:  but the end of the journey is at the new，
+[Speaker 2]:  the old world merges into the new world couryes。
+[Speaker 2]:  so so visually data gravties a wonderful thing。
+[Speaker 2]:  if your best。
+[Speaker 2]:  uh，
+[Speaker 2]:  how do customers feel about the idea of like moving all the data ultimately to one venter？
+[Speaker 0]:  so because the interfaces are all standard？
+[Speaker 0]:  uh，
+[Speaker 0]:  it's just as easy for them to move off of us as it is to move onto us。
+[Speaker 0]:  uh it's our job to make sure that they're happy。
+[Speaker 0]:  uh，
+[Speaker 0]:  the one chart that i look at every morning is our customer happiness chart。
+[Speaker 0]:  that's the only thing we care about。
+[Speaker 2]:  and what does that like what had you measure is three colors。
+[Speaker 0]:  it has green。
+[Speaker 0]:  it has yellow，
+[Speaker 0]:  it has red，
+[Speaker 0]:  and anybody in the company is allowed to move uh a customer from green to yellow，
+[Speaker 0]:  or from yellow to red，
+[Speaker 0]:  but very few people are allowed to move them back。
+[Speaker 0]:  and so it's of what meicx the only metric that really matters in order for us to move a customer back is the day say。
+[Speaker 0]:  so ah the day say we're happy now everything is good。
+[Speaker 0]:  everything is solved。
+[Speaker 0]:  um and yeah，
+[Speaker 0]:  that's what we work so hard every day to accomplish。
+[Speaker 0]:  i think the numbers show that it's working。
+[Speaker 0]:  um the numbers，
+[Speaker 0]:  it people like you usually care about our net dollar attention，
+[Speaker 0]:  growth dollar attention。
+[Speaker 0]:  um we don't have any turn in the company。
+[Speaker 0]:  our gross dollar pretention。
+[Speaker 0]:  it's not a hundred percent because a few our customers have gone at a business over the years，
+[Speaker 0]:  but no one's actively decided i'm going to stop using best best，
+[Speaker 0]:  which is something i'm very proud of。
+[Speaker 0]:  and on average，
+[Speaker 0]:  our customers double and triple uh the amount of data that day place on our systems every year。
+[Speaker 2]:  let's get in to uh some of the technicality of um how the data interacts with models。
+[Speaker 2]:  what does it actually mean to move data to the gpu？
+[Speaker 2]:  and is it different for training compared to inference？
+[Speaker 0]:  training is super simple training。
+[Speaker 0]:  you just need a lot of gps and need to feed them with a lot of training data once in a while，
+[Speaker 0]:  they put down a checkpoint。
+[Speaker 0]:  so that if something crashes，
+[Speaker 0]:  they don't have to go all way back to the beginning。
+[Speaker 0]:  um but other than that，
+[Speaker 0]:  there's not much to it。
+[Speaker 0]:  you need large scale，
+[Speaker 0]:  you need fast access that it ah inference is becoming a whole complex world of its own。
+[Speaker 0]:  inference started by obviously being uh requiring lolowly and see access because uh people are on the other end，
+[Speaker 0]:  prompting ting and want want responses。
+[Speaker 0]:  uh，
+[Speaker 0]:  that meant that you need a distributed system close door。
+[Speaker 0]:  those people are at the edge ah，
+[Speaker 0]:  that also means that you need a system that's always up。
+[Speaker 0]:  uh。
+[Speaker 0]:  somebody once told me one of the big model builders that if um training is down，
+[Speaker 0]:  nobody notices，
+[Speaker 0]:  if um influences down，
+[Speaker 0]:  there is no service um and so it needs to be up one hundred percent of the time。
+[Speaker 0]:  resilience，
+[Speaker 0]:  distributed nature，
+[Speaker 0]:  low latency，
+[Speaker 0]:  um very secure environments。
+[Speaker 0]:  all of that impimportant infrence ence versus training。
+[Speaker 0]:  but that's just the ground level once we start talking about multiple models。
+[Speaker 0]:  once we start talking about agents，
+[Speaker 0]:  once we start talking about reinforce learning，
+[Speaker 0]:  definitely，
+[Speaker 0]:  once we expand outside of the world of these centres into physical ai and actual devices。
+[Speaker 0]:  each one of those as another layer，
+[Speaker 0]:  that means that we need to develop a new set of tools，
+[Speaker 0]:  um for example。
+[Speaker 0]: 对，
+[Speaker 0]: 有 now that we have multiple models。
+[Speaker 0]:  uh each model is good as different things。
+[Speaker 0]:  and so i want to make sure that this prompt makes it weit to that model。
+[Speaker 0]:  uh because it's good，
+[Speaker 0]:  it's offer development。
+[Speaker 0]:  i want to make sure that this prompt makes its way to that model because because it's inexsisive and this isn't h high value task。
+[Speaker 0]:  uh。
+[Speaker 0]:  i want to make sure that no sensitive information is exposed to this model。
+[Speaker 0]:  they're going to use that information for things that i don't want them to wear。
+[Speaker 0]:  as here。
+[Speaker 0]:  i have a contract that protects me。
+[Speaker 0]:  and so just that asked fact of it is starting to get complex。
+[Speaker 0]:  um once we start thinking in that direction，
+[Speaker 0]:  there's all kinds of optimizations that we need to do around things like heavy cashing。
+[Speaker 0]:  and uh saving context windows and making sure that we wrap the prompt，
+[Speaker 0]:  not just to the right model，
+[Speaker 0]:  but to the right GPU that has that model loaded。
+[Speaker 0]:  and that has my context。
+[Speaker 0]:  uh in cash。
+[Speaker 0]:  um context is just the last few minutes of conversation。
+[Speaker 0]:  we need short term memory。
+[Speaker 0]:  the last few weeks，
+[Speaker 0]:  a long term memory would happened two years ago to also be accessible，
+[Speaker 0]:  uh through things like rag um into these environments。
+[Speaker 0]:  and so all of that requires us to manage data。
+[Speaker 0]:  uh，
+[Speaker 0]:  the raw data，
+[Speaker 0]:  the generated data，
+[Speaker 0]:  the input data，
+[Speaker 0]:  the weight of the model，
+[Speaker 0]:  uh the context，
+[Speaker 0]:  and we need to make sure that nobody sees information that they're not allowed to。
+[Speaker 0]:  we need to keep track as we do reinforce learning of what information went into，
+[Speaker 0]:  find tuning each model。
+[Speaker 0]:  and make sure that that information isn't leaked through interacting with somebody who's using that model，
+[Speaker 0]:  whether it's a human or an agent。
+[Speaker 0]:  um it becomes very，
+[Speaker 0]:  very interesting。
+[Speaker 0]:  as you layer one，
+[Speaker 0]:  two，
+[Speaker 0]:  two，
+[Speaker 0]:  three，
+[Speaker 0]:  four of these things，
+[Speaker 0]:  one on top of the other。
+[Speaker 1]:  so if you have enterprise data to play back，
+[Speaker 1]:  that data could be used by the model uh through the context window through the KV cash，
+[Speaker 1]:  which is the models，
+[Speaker 1]:  memory or through rag who makes those decision is，
+[Speaker 1]:  is your job as h，
+[Speaker 1]:  the fast data provider to just be available？
+[Speaker 1]:  and then the model polls as needed，
+[Speaker 1]:  how as i work。
+[Speaker 0]:  so we need policies to be set。
+[Speaker 0]:  and today，
+[Speaker 0]:  we just connect into your organizations 's authenticaation and authorization mechanisms。
+[Speaker 0]:  if you use active directory，
+[Speaker 0]:  if you use access control lists，
+[Speaker 0]:  we then know who is allowed to see what um from a human perspective，
+[Speaker 0]:  we then extend that agents as those inherent inherent properties from the people that deploy them or from other agents that spd them。
+[Speaker 0]:  and based on that，
+[Speaker 0]:  we know uh what's allowed，
+[Speaker 0]:  what are the rules of the game，
+[Speaker 0]:  then we need to enforce those rules，
+[Speaker 0]:  which becomes very difficult when you're talking about multiple organizations。
+[Speaker 0]:  um most of these model builders won't let you infer within your environment，
+[Speaker 0]:  which means it you just need to send your data to them and hope for the best that i think has been slowing down the adoption of AI in a significant way。
+[Speaker 0]:  and so we need to make sure that it's secure。
+[Speaker 0]:  we need to make sure that it's safe um we need to make sure that there aren't any obstacles uh for AI to achieve。
+[Speaker 0]:  it's it's true potential。
+[Speaker 1]:  and to what you just said，
+[Speaker 1]:  the concept of agent memory uh works the same voice，
+[Speaker 1]:  so accessing that vast data storage。
+[Speaker 1]:  did you say you，
+[Speaker 1]:  you evtively give the agents uh authenticational authorization，
+[Speaker 1]:  the way human would very similar？
+[Speaker 0]:  yes。
+[Speaker 0]:  uh。
+[Speaker 0]:  so access control lists that apply to a user er d now this user idea is assigned to an agent rather than a person。
+[Speaker 0]:  uh we have access controls based on roles。
+[Speaker 0]:  we have access controls based on attributes。
+[Speaker 0]:  and so it's very fine granularity。
+[Speaker 0]:  and you can in a dynamic way，
+[Speaker 0]:  uh set your policies。
+[Speaker 1]:  it's um accessing data，
+[Speaker 1]:  but those what tool calls they cannot cannot make correct。
+[Speaker 0]:  uh and they're allowed to talk to because now you have multiple agents talking to multiple people。
+[Speaker 0]:  and so that conversation happens over a persistent streaming uh service that we provide that allows us and observe ability into it because we can query through the database and ask questions about those conversations。
+[Speaker 0]:  and so the entire of this remember ers，
+[Speaker 0]:  not in one day ata center anymore across geographhies。
+[Speaker 0]:  and so the entireof this new world uh gets managed by this operating system from a observvability and from a control and from a policy setting perspective，
+[Speaker 0]:  um especially when it starts to expand outside the data center into cars and human oid robots and satellite tes enestics get higher ah，
+[Speaker 0]:  because physical elements can create physical damage。
+[Speaker 0]:  and so rather than just data safety，
+[Speaker 0]:  we need to think of things like actual safety。
+[Speaker 0]:  um that robot should not pick up that tool，
+[Speaker 0]:  or that car should never accidentally hit a person。
+[Speaker 0]:  and so you need us to be in the data path to not gs，
+[Speaker 0]:  be able to report on these things，
+[Speaker 0]:  but also to intervene and enforce the policy。
+[Speaker 1]:  and in the meantime，
+[Speaker 1]:  uh，
+[Speaker 1]:  the concept of agent collaboration，
+[Speaker 1]:  uh all is all the right now h，
+[Speaker 1]:  you know，
+[Speaker 1]:  highlighted in，
+[Speaker 1]:  in part through the uh recent security uh in safety issues。
+[Speaker 1]:  but the the concept of agents warm is everywhere is everywhere，
+[Speaker 1]:  so that collaboration layer would be also enable the same way they would。
+[Speaker 1]:  it would have access to a group like away。
+[Speaker 1]:  humans would have access that exactly right，
+[Speaker 1]:  a group access to data that exactly right。
+[Speaker 0]:  and i think for a long time，
+[Speaker 0]:  we've been hoping that interaction between AI and interaction between agents will give us a next step function ction in uh level of intelligence in the same way that when we talk，
+[Speaker 0]:  we make each other smarter and we give each other ideas。
+[Speaker 0]:  um i think this solving of the navy stocks problem earlier this week proves the dead is actually happening。
+[Speaker 0]:  they said，
+[Speaker 0]:  ten thousand agents lose add an agell math problem。
+[Speaker 0]:  and within a few days，
+[Speaker 0]:  they came back with the result。
+[Speaker 0]:  and so that's uh asaspect that mismisi。
+[Speaker 0]:  i think，
+[Speaker 0]:  which is good for thetheretical problems。
+[Speaker 0]:  the other aspect that missing still is access to the natural world，
+[Speaker 0]:  which is good for physical problems。
+[Speaker 0]:  and so hopefully，
+[Speaker 0]:  that bring this to a level where the AI can help us solve some some of the big problems that we've been struggling with over the years，
+[Speaker 1]:  right？
+[Speaker 1]:  amazing。
+[Speaker 1]:  we said we would go back to that private and sensitive data exposing it to uh commercifrom models。
+[Speaker 1]:  uh which does they call by the way，
+[Speaker 1]:  it's called data in clave unclave。
+[Speaker 0]:  yes，
+[Speaker 0]:  clave。
+[Speaker 0]:  okay，
+[Speaker 0]:  i'm nature。
+[Speaker 0]:  i like the name，
+[Speaker 0]:  but that's what we just。
+[Speaker 1]:  so how does that work um practically in simple terms，
+[Speaker 0]:  but practically it's super simple。
+[Speaker 0]:  uh in fact，
+[Speaker 0]:  it all goes back to uencrypted memory。
+[Speaker 0]:  and so if today，
+[Speaker 0]:  model builders want to keep their weights very and because that's their ip，
+[Speaker 0]:  they're afraid of giving it to a million customers and having one of them take it and do something that they're not supposed to。
+[Speaker 0]:  um on the other hand，
+[Speaker 0]:  because um a specific class of customers specifically，
+[Speaker 0]:  enterprises uh cannot just give their data to the model builders in the way that they're expected to today。
+[Speaker 0]:  um what we're doing is or letting that vifluence process，
+[Speaker 0]:  rather than running within the premises of the model builder or within one of their clouds，
+[Speaker 0]:  or letting it run within the premises of the enterprise，
+[Speaker 0]:  whether it's a physical under premises or uh VPCA virtual private cloud that they own um and the way that we make sure the model builders are，
+[Speaker 0]:  uh，
+[Speaker 0]:  happy is by encrypting those weights，
+[Speaker 0]:  and we encyped them。
+[Speaker 0]:  and to end，
+[Speaker 0]:  we leverage uh harboror abilities underneath us from companies like in vidia，
+[Speaker 0]:  who is a big part of this launch who allow us to bring encrypto data through the network intermemory from memory up to the GPU。
+[Speaker 0]:  and only uh the model builders infrrence application is allowed to access it。
+[Speaker 0]:  and so we have uh full custody chain of control and to end such that those weights are safe，
+[Speaker 0]:  and the enterprise knows that nobody can never see their information。
+[Speaker 1]:  and why is impossible now that，
+[Speaker 1]:  that the concept of a confidential computing，
+[Speaker 1]:  i'm trying to remember the name。
+[Speaker 1]:  there are two three names for that concept。
+[Speaker 1]:  it's been a round flike。
+[Speaker 1]:  a，
+[Speaker 1]:  no，
+[Speaker 1]:  no，
+[Speaker 1]:  they could plus，
+[Speaker 1]:  what was it happening？
+[Speaker 1]:  now？
+[Speaker 0]:  i don't think there's anything new in the underlying technology。
+[Speaker 0]:  um it had to be plumbed because this was，
+[Speaker 0]:  as you say，
+[Speaker 0]:  available for a long time for cpu now，
+[Speaker 0]:  it's available for gps。
+[Speaker 0]:  and so that piece of it needed to be done underneath us。
+[Speaker 0]:  our layer requires us to manage all of this and make sure we understand what which model is way。
+[Speaker 0]:  does it belonged to who is allowed to see it？
+[Speaker 0]:  where should we block it？
+[Speaker 0]:  those types of things。
+[Speaker 0]:  um i don't think there's a technological breakthrough that was required for this。
+[Speaker 0]:  i think it's just an idea whose time has come。
+[Speaker 0]:  and it also requires uh many companies，
+[Speaker 0]:  many parts of the ecosystem to work together in order to provide this and to anssolution。
+[Speaker 0]:  so we're working with the AI clouds to do it。
+[Speaker 0]:  we're working with the oems to build physical boxes that can sit in uh the enterprises data center or working with the heart builders。
+[Speaker 0]:  exactly yeah，
+[Speaker 0]:  uh，
+[Speaker 0]:  companies like cisco or super micro are now uh collaborating with this on this。
+[Speaker 0]:  and of course，
+[Speaker 0]:  the chip makers themselves，
+[Speaker 1]:  like in video and beyond technonology，
+[Speaker 1]:  that has to be be uh a trust。
+[Speaker 1]:  and uh would diitability layer presumobile，
+[Speaker 1]:  right？
+[Speaker 1]:  because now you become the botttole，
+[Speaker 1]:  like like you in the in the dddle of this，
+[Speaker 1]:  this great confeence of h just different players uh from across the equsystem。
+[Speaker 1]:  so how do you think about that？
+[Speaker 0]:  i think that's where the trust should be。
+[Speaker 0]:  that's the layer that is on the one hand，
+[Speaker 0]:  uh valuable because it's software。
+[Speaker 0]:  on the other hand，
+[Speaker 0]:  it's low enough。
+[Speaker 0]:  uh in the stacks，
+[Speaker 0]:  i said it can um benefit all of the different applications。
+[Speaker 0]:  uh histororically。
+[Speaker 0]:  that's where uh safety was done in the operating system。
+[Speaker 0]:  and so we needed to be done in our layer。
+[Speaker 0]:  i hope that we uh are trustworthy u're，
+[Speaker 0]:  working very hard to uh build that trust with everybody else in the ecosystem。
+[Speaker 0]:  and um yes，
+[Speaker 0]:  were very，
+[Speaker 0]:  very humbled to to be in the middle。
+[Speaker 1]:  and in that position sounds like a another huge milestone for the of the company's。
+[Speaker 1]:  so amazing，
+[Speaker 1]:  i love to um uh，
+[Speaker 1]:  take his step back and like things through um the macro environment from your perspective，
+[Speaker 1]:  you in this very privilege position as the the middle layer of the of the cake。
+[Speaker 1]:  uh as we see a couple of ams now。
+[Speaker 1]:  so i'm curious what what um your take uh is on on unbunt of a of thanks。
+[Speaker 1]:  so ok，
+[Speaker 1]:  the inevitable question uh is around around uh the demand side of the whole computer boom。
+[Speaker 1]:  so you work with a lot of the uh new new cloud and and videa。
+[Speaker 1]:  um so h intipenttely familiar with the supplily side，
+[Speaker 1]:  you part of the suppliside side yourself。
+[Speaker 1]:  uh what what gives you comfort？
+[Speaker 1]:  uh that um the demansize is going to materialize uh in in a way that um is not going to get this entire ecosystem m in in trouble。
+[Speaker 0]:  i think the demand is there today。
+[Speaker 0]:  i'm naturit gives me comfort and sometimes scares res uuh as to how much demand is there。
+[Speaker 0]:  the acceleration in demand because uh every quarter our customers are coming back to us and telling us they need a lot more than they thought they did。
+[Speaker 0]:  ah we had a customer one of these AI clouds，
+[Speaker 0]:  uh，
+[Speaker 0]:  one of the smaller ones come to us uh quarter ago，
+[Speaker 0]:  and we told them we need to plan ahead for the next three years because there's supply chain implications。
+[Speaker 0]:  and you need to be aware of this。
+[Speaker 0]:  and they said we're probably going to need about five hundred patabbites over the next three years。
+[Speaker 0]:  and uh last week，
+[Speaker 0]:  they came back to us and said，
+[Speaker 0]:  we're going to need an extra two exobtes tes on top of that five hundred petobites。
+[Speaker 0]:  and my expectation is that from what i'm seeing in other parts of uh the landscape，
+[Speaker 0]:  the delt come back again in a quarter two and say，
+[Speaker 0]:  we need a double digit number of exebbites。
+[Speaker 0]:  we we under shot，
+[Speaker 0]:  and we're seeing that across the board，
+[Speaker 0]:  both in the smaller in medium sizzed environments as well as in the big environments where they thought they would need tens of exhabbites。
+[Speaker 0]:  another talking in triple digits。
+[Speaker 1]:  now how much travel it is is big labs building uh versus and customers and end users。
+[Speaker 0]:  well，
+[Speaker 0]:  the big labs are building because they have and customers and and users that are um using it and the AI clouds are building because they have both big labs and medium labs that are um susuming it。
+[Speaker 0]:  and i don't think you'll find um infrastructure that's just lying around and not being utized at the moment。
+[Speaker 0]:  uh in fact，
+[Speaker 0]:  the opposite is true。
+[Speaker 0]:  uh there is a lot more uh that people want to do that。
+[Speaker 0]:  they cannot do ah some of these AI clouds have stopped um selling uh more capacity just because sold out for the next year and a half。
+[Speaker 0]:  and so i think the limiting factor here is physical its land，
+[Speaker 0]:  its power。
+[Speaker 0]:  it's chips，
+[Speaker 0]:  uh building fas takes a long time。
+[Speaker 0]:  and so um as fast as we feel this is moving，
+[Speaker 0]:  and it is moving very，
+[Speaker 0]:  very fast。
+[Speaker 0]:  it's still。
+[Speaker 0]:  uh the buildoubts are happening much more slowly than the demand requires from them。
+[Speaker 0]:  will it sustain forever？
+[Speaker 0]:  i don't know。
+[Speaker 0]:  i'm sure over time。
+[Speaker 0]:  um there will be hiccups。
+[Speaker 0]:  but as far as i can tell，
+[Speaker 0]:  we're just at the very，
+[Speaker 0]:  very beginning of most of the world running on AI。
+[Speaker 0]:  and if AI will really be able to do all of these things that were starting to see it do，
+[Speaker 0]:  then it should continue at least for the next five to ten years at this pace。
+[Speaker 0]:  so we have a lot of work to do，
+[Speaker 1]:  do the circling deals and the whole，
+[Speaker 1]:  like financing that aspect of the ecosystem of that。
+[Speaker 1]:  does that mecuyou nervous？
+[Speaker 1]:  would you think that's just like a means to whatever needs to happen for the existm to be actually built？
+[Speaker 0]:  so i think going back to the beginning，
+[Speaker 0]:  the old stack in the new stack，
+[Speaker 0]:  i think there's a new ecosystem getting built around the new stack。
+[Speaker 0]:  and uh，
+[Speaker 0]:  some of the older companies are a joining。
+[Speaker 0]:  this ecosystem in some have not yet joined this eco system。
+[Speaker 0]:  and so it's lacking in uh liquidity uh at some points in this supply chauh。
+[Speaker 0]:  we see the buildouts that need to happen um in some points need money uh in order to finance them。
+[Speaker 0]:  and sometimes you need that money ahead of when um the results uh appear and ahead of when you actually get returns on that investment。
+[Speaker 0]:  and i think the companies that are in the ecosystem are a natural spot to get that liquidity because they see what's happening。
+[Speaker 0]:  they believe in it。
+[Speaker 0]:  they understand how big this is going to be um versus someone who's on the outside looking in that maybe feels this is risk er uh for them to finance。
+[Speaker 0]:  that's i think what's happening speak king financyour，
+[Speaker 1]:  you h，
+[Speaker 1]:  very interesting somewhat union position because uh is on on the little leg。
+[Speaker 1]:  i think you guys are profitable。
+[Speaker 0]:  we are，
+[Speaker 1]:  which is um you know，
+[Speaker 1]:  not another case of just like a lot of other players，
+[Speaker 1]:  and they see seem like，
+[Speaker 1]:  what what does that tell us symptoms of where risking the cocosystem，
+[Speaker 1]:  like you happen to be in？
+[Speaker 1]:  this layer is is spspenable。
+[Speaker 1]:  and therefore this no other competitor。
+[Speaker 1]:  therefore，
+[Speaker 1]:  you can can profititwhile you，
+[Speaker 1]:  you disdisciplined uh，
+[Speaker 1]:  what what what means？
+[Speaker 1]:  what it guess？
+[Speaker 0]:  it's probably a combination uh，
+[Speaker 0]:  but i think it goes towards our business model uh，
+[Speaker 0]:  we selsoftwtware。
+[Speaker 0]:  so so our gross margins are high um and as we grow on the trajectory of AI growth，
+[Speaker 0]:  which is uh pretty consistently been about ten x every two years。
+[Speaker 0]:  um we get more more efficient and we generate more cash，
+[Speaker 0]:  and we generate more profitability。
+[Speaker 0]:  um the companies are higher up the stack um have a lot of computer costs that they need to do。
+[Speaker 0]:  and the companies that are underneath us in the stack are building hardware。
+[Speaker 0]:  and so they too have a very different business model，
+[Speaker 0]:  then the one that we have。
+[Speaker 0]:  but yeah，
+[Speaker 0]:  i think the combination of fast growth and uefficient growth is something that we we've built into the way we work from the early days，
+[Speaker 0]:  and it goes back to uh VC is not necessarily wanting to invest in the space in the early days。
+[Speaker 0]:  so we needed to be self sufficient。
+[Speaker 0]:  and it also goes back uh，
+[Speaker 0]:  VC is not wanting to invest in the space in the early days。
+[Speaker 0]:  so we have less competition than maybe exist in some of these other layers。
+[Speaker 1]:  you have a lot of customers in the neo cloud because system and a murcurous ous。
+[Speaker 1]:  uh，
+[Speaker 1]:  what you view might be on that ecosystem？
+[Speaker 1]:  i mean，
+[Speaker 1]:  this literally hundreds of clouds。
+[Speaker 1]:  uh，
+[Speaker 1]:  what do do think seseates，
+[Speaker 1]:  the one that will be around into to three years uh as dominant forces in that ecosystem verses，
+[Speaker 1]:  the ones that will not。
+[Speaker 0]:  so they need access to power。
+[Speaker 0]:  they need access to uh hardware um they need access to money。
+[Speaker 0]:  um and i think the ones that will succeed are the ones that build that know how to build。
+[Speaker 0]:  ah i find the end users uh come what uh in video calls off takers。
+[Speaker 0]:  uh and they want immediate access to compute。
+[Speaker 0]:  and if you have it，
+[Speaker 0]:  then the'll come to you，
+[Speaker 0]:  and they're willing to pay。
+[Speaker 0]:  and if you don't have it and you tell them，
+[Speaker 0]:  let's build it together。
+[Speaker 0]:  uh 'll have it ready for you next year，
+[Speaker 0]:  then they'll go to somebody else。
+[Speaker 0]:  and so i've seen the ones that are most successful，
+[Speaker 0]:  be the ones that build in anticipation of demand rather than um behind the bill physically will build capacity through rentals or everything。
+[Speaker 0]:  um and you don't have to own all of the layers of the stack。
+[Speaker 0]:  there are multiple yers of the stack uh underneath uus in the neil clouds。
+[Speaker 0]:  but yeah，
+[Speaker 0]:  and i find i find the ones that have that combination of good relationship with the hardware vendors，
+[Speaker 0]:  access to power and land。
+[Speaker 0]:  and um that are stavy in the way that they finance their operations，
+[Speaker 0]:  uh be the ones that are most successful。
+[Speaker 1]:  and and into the last point about money money，
+[Speaker 1]:  the the you know，
+[Speaker 1]:  it's，
+[Speaker 1]:  you know，
+[Speaker 1]:  one can debate whether this shocer er or not，
+[Speaker 1]:  but like the case against new classfor long time was that well，
+[Speaker 1]:  if initively y're kind of like a finmencing vehicle or uh individia gpu，
+[Speaker 1]:  the primary uh skill is its finance，
+[Speaker 1]:  and eventually harper skillers will beat them because harper skealers will always have a lower cause of capital。
+[Speaker 1]:  uh is that is that uh indoor three as we that you mention is is is financing uh skills as important as the rest。
+[Speaker 1]:  what what you make of all of this？
+[Speaker 0]:  i think that the reality has proven to be the opposite of what you just said，
+[Speaker 0]:  uh，
+[Speaker 0]:  the fact we have so many of these new AI clouds，
+[Speaker 0]:  um and the fact the hyperskillers have not beaten them yet。
+[Speaker 0]:  um i think it goes back to the innovators dilemma when you have something new to build，
+[Speaker 0]:  and you have this old uh cash cow to focus on。
+[Speaker 0]:  it's a lot harder than when you have something new to build，
+[Speaker 0]:  and you don't have that legacy um but uum，
+[Speaker 0]:  regardless of where it started，
+[Speaker 0]:  i think these AI clouds have built up um skill said，
+[Speaker 0]:  and a specialty。
+[Speaker 0]:  and it's not the same to build this new stack and these AI factories verses to build the old stack in the way that hyperskillers built clouds，
+[Speaker 0]:  five and ten years ago。
+[Speaker 0]:  and every day that passes these AI clouds that are actually the trenchis doing the work，
+[Speaker 0]:  um they're learning and the new clouds that are sitting on very cheap financing，
+[Speaker 0]:  but not yet are the hyper skillers that are sitting on very cheap financing，
+[Speaker 0]:  but are not yet doing。
+[Speaker 0]:  this work are not learning that。
+[Speaker 0]:  and so the gap in skills just have keeps increasing。
+[Speaker 0]:  now。
+[Speaker 0]:  i think the hyperscalers have realized that um and if two years ago，
+[Speaker 0]:  they were saying，
+[Speaker 0]:  yeah，
+[Speaker 0]:  we have this。
+[Speaker 0]:  we have storage。
+[Speaker 0]:  we have compute。
+[Speaker 0]:  we have networking。
+[Speaker 0]:  we know what we're doing。
+[Speaker 0]:  we don't need to worry about this new thing today。
+[Speaker 0]:  uh they're singing a very，
+[Speaker 0]:  very different tune。
+[Speaker 0]:  and i think they're aware of the fact that their lunch is being even by someone else。
+[Speaker 0]:  and i think they're reacting to it ah。
+[Speaker 0]:  so it'll be very interesting to see how that dynamic evolves over the next couple of years。
+[Speaker 1]:  what do you make of sovereign AI？
+[Speaker 1]:  it seem to me that uh，
+[Speaker 1]:  the concept of AI factory that we discuss the very lunch uh was largely around these concept of s of an AI like a or two ago，
+[Speaker 1]:  as we discussed the again at the beginning of this conversation，
+[Speaker 1]:  it seems have expanded now to also include enterprises，
+[Speaker 1]:  but from event to point point，
+[Speaker 1]:  what's the reality of that concept um around the world，
+[Speaker 1]:  as you apply to nations，
+[Speaker 0]:  i think this becomes a uh basic need over time in the same way that electricity is a basic need，
+[Speaker 0]:  or that water is a basic need。
+[Speaker 0]:  AI intelligence will be a basic need。
+[Speaker 0]:  we will not be able to live uh in the way that we would like to live without it。
+[Speaker 0]:  and so uh in the world that we are in today，
+[Speaker 0]:  countries are adversarial one to the other，
+[Speaker 0]:  and they don't trust each other and in the business community as much as we have competition。
+[Speaker 0]:  i think we collaborate uh very，
+[Speaker 0]:  very nicely um but nations like to have their own。
+[Speaker 0]:  and so every nation wants to make sure that the us can shut shut down，
+[Speaker 0]:  it's AI or that somebody else can shut down。
+[Speaker 0]:  it's AI。
+[Speaker 0]:  and so they're trying to build um soveregn AI solutions。
+[Speaker 0]:  obviously，
+[Speaker 0]:  not every nation can build a software，
+[Speaker 0]:  not every nation can build a software and not every nation can build all the different layers of the stack。
+[Speaker 0]:  but i think they get comfort from knowing that it's within their borders，
+[Speaker 0]:  at least within their jururisiction tion，
+[Speaker 1]:  a legal perspect zooming ing。
+[Speaker 1]:  a little little bit from that old stack that we describe es with five layers。
+[Speaker 1]:  um where do you think the value accrews of a time？
+[Speaker 1]:  and which part of the stack commootitized people have been talking about model commmotitization for relong time time commotities。
+[Speaker 1]:  what about the rest？
+[Speaker 0]:  i think the best way for me to think about this is to look to history and historically uh，
+[Speaker 0]:  hardwtitends to commodities guys relatively quickly。
+[Speaker 0]:  um we have because it's standard not because it's easy um，
+[Speaker 0]:  but maybe it's easier to copy。
+[Speaker 0]:  i don't know um the software layer tends to a cruel a lot of value。
+[Speaker 0]:  if you look at the most valuable companies in the world today，
+[Speaker 0]:  if you look at amazon，
+[Speaker 0]:  if you look at microsoft，
+[Speaker 0]:  if you look at apple，
+[Speaker 0]:  if you look at google，
+[Speaker 0]:  those are the companies that build those software layers of the cloud of the PC erof，
+[Speaker 0]:  the mobile ile，
+[Speaker 0]:  err of the internet，
+[Speaker 0]:  um and they are worth trillions of dollars as a consequence。
+[Speaker 0]:  um the appappiciclalayer，
+[Speaker 0]:  um there tend to be a lot of applications，
+[Speaker 0]:  um some of which will have a lot of value，
+[Speaker 0]:  and others will not have that much value。
+[Speaker 0]:  but i think um consumer loyalty uh is something that is also value able uh in those previous uh revolutions。
+[Speaker 0]:  and so the software infstructure layer er utends to accrue a lot of value。
+[Speaker 0]:  and then on a more selective basis at the application laythink，
+[Speaker 0]:  where the models fit into that is very，
+[Speaker 0]:  very difficult t say，
+[Speaker 0]:  because because never never had a del layer er ubefore。
+[Speaker 0]:  um so that would be interesting to see。
+[Speaker 1]:  and you see the model companies are become application companies。
+[Speaker 1]:  and the um interestings see my recent trenies and uum to see the application companies and the model companies，
+[Speaker 1]:  again，
+[Speaker 1]:  starting to do a lot more work，
+[Speaker 1]:  whether that's um you know condition or curse or so。
+[Speaker 0]:  i'm not sure those two layers will stay separate or over time，
+[Speaker 0]:  perhaps they merge back into one in the old stack。
+[Speaker 0]:  we had only four layers uh and the new stack，
+[Speaker 0]:  perhaps that merbi'm。
+[Speaker 1]:  i'm curious about how you think about the um place of in vidia in the ecosystem。
+[Speaker 1]:  so the name has come up already bunch of times during this conversation。
+[Speaker 1]:  and it's so central uh theare in investor their partner，
+[Speaker 1]:  uh one one with such a dominant ant yyer in the space in way that uh preserves optiontionality and preserves your independence uh as as then self reliance as a business long term。
+[Speaker 0]:  so interestingly，
+[Speaker 0]:  other than uh as an investor，
+[Speaker 0]:  there's no legal document between us and in video，
+[Speaker 0]:  uh as an reseor from an solution。
+[Speaker 0]:  um we don't actually do anything together from a legal perspective。
+[Speaker 0]:  uh having said that they are best partner by far and at any given point in time，
+[Speaker 0]:  we have uhigh uh，
+[Speaker 0]:  teens number of projects that were collaborating with them on。
+[Speaker 0]:  uh we have tritriple ggit of dedepers ers king with them。
+[Speaker 0]:  they have the same with their side with us。
+[Speaker 0]:  uh everything ranging from new networking gear to uh new uh inference micro services to uh this agentic，
+[Speaker 0]:  uh confidential computing project to the next generation of GPS and DPS and how we take advantage of them。
+[Speaker 0]:  um all of that，
+[Speaker 0]:  we love because as we build this together than the solution ends being being better our jojocustomcustomers。
+[Speaker 0]:  and so we really enjoy working within within video also from cucultural perspetive。
+[Speaker 0]:  they move fast um and beliebelieve that anything that phphyically possible is moble。
+[Speaker 0]:  they be believe that it can be done um when others believe that it cannot。
+[Speaker 0]:  and so it's been a lot of fun working with them um in parallel to it being also very lucrative because they are the ones are um creating these new environments and um putting names on all of these new concepts。
+[Speaker 0]:  and so they're leading the charge，
+[Speaker 0]:  and we're trying to as much as we can write their cotails。
+[Speaker 0]:  um having said that，
+[Speaker 0]:  there is no type of exclusivity。
+[Speaker 0]:  um we work with with amd，
+[Speaker 0]:  we work with other companies um in parallel working within video。
+[Speaker 0]:  um in practice，
+[Speaker 0]:  they do have the majority of the market。
+[Speaker 0]:  and so ah the majority of the deployments。
+[Speaker 1]:  so we have are are with them when i think that tries been AA big part of this conversation is i like you guys seem to be just like relentlessly launching new product is pending new to new customers have in key relationships。
+[Speaker 1]:  we mention ed in videa。
+[Speaker 1]:  but the so XII has been the，
+[Speaker 1]:  you know very important customer for for you guys。
+[Speaker 1]:  what have you learned in terms of um moving at uh，
+[Speaker 1]:  the speed of VI？
+[Speaker 0]:  well，
+[Speaker 0]:  you can't move faster than you on。
+[Speaker 0]:  um i was fortunate to uh see some of the ways in which he pushes his team to move faster。
+[Speaker 0]:  and it's it's super simple。
+[Speaker 0]:  you find the limiting factor and you get rid of it。
+[Speaker 0]:  and then you find the new limiting factor and get rid of it。
+[Speaker 0]:  and that cycle keeps accelerating。
+[Speaker 0]:  you faster and faster and faster。
+[Speaker 0]:  and um that's what we like。
+[Speaker 0]:  the reason we keep innovating and keep accelerating and keep demanding more from ourselves is a because we're paranoid，
+[Speaker 0]:  and we're afraid that somebody from somewhere will pop up and um and try to catch up to us。
+[Speaker 0]:  but b，
+[Speaker 0]:  because we love it，
+[Speaker 0]:  we enjoy it。
+[Speaker 0]:  uh。
+[Speaker 0]:  it's it's the joy of building new things and exploring and figuring stuff out that you didn't know how to do ah last week or last month。
+[Speaker 0]:  and our customers expect that from us，
+[Speaker 0]:  our customers are the most demanding in the world um and they're all in a race，
+[Speaker 0]:  and they're racing each other um in this uh quest for better AI，
+[Speaker 0]:  and they need us to never slow them down。
+[Speaker 0]:  we can never be the limiting factor in uh their progress and in achieving their success and practically for the founders or leaders listening to this。
+[Speaker 1]:  it does one actually do that um meaning finding bottlelegs。
+[Speaker 1]:  and because uh the the bigger the organization，
+[Speaker 1]:  the more bottle next next，
+[Speaker 1]:  they are。
+[Speaker 1]:  they maybe at the，
+[Speaker 1]:  you know，
+[Speaker 1]:  a coup of organization rathe very bottom as a as ACEO。
+[Speaker 1]:  how do you do that？
+[Speaker 0]:  you have to talk to people and ask them that question。
+[Speaker 0]:  ah they know ASEO，
+[Speaker 0]:  you don't know，
+[Speaker 0]:  but the people that are on the ground，
+[Speaker 0]:  no。
+[Speaker 0]:  and so you need to build an organization that as flat as you can possibly build it that you have direct access to everybody，
+[Speaker 0]:  and you need to build an organization where people are not afraid of raising those problems。
+[Speaker 0]:  um there cannot be a chain of command because that slows things down。
+[Speaker 0]:  um i think i heard this from island bad things。
+[Speaker 0]:  should i think i stated um loudly and often and good things once and softly um we can't get we can't get into a mode or work congratulating our ourselves too much。
+[Speaker 0]:  we always have to be in this mode of uh someboy's going to kill us。
+[Speaker 0]:  uh we don't know who it is，
+[Speaker 0]:  and we have to keep fixing everything so that they don't have a crink in the armto get get into alright。
+[Speaker 1]:  so maybe many close uh um to afford thinking protecting ourselves in the future，
+[Speaker 1]:  little little it it as as as as possible as it can be um today。
+[Speaker 1]:  but ten years in from now whatever many years uh looking back，
+[Speaker 1]:  what what do you think that the industry believes today that may turn that to be wrong？
+[Speaker 1]:  just just one thing that may come to mind。
+[Speaker 0]:  i think ten years from now again，
+[Speaker 0]:  again，
+[Speaker 0]:  assuming AI，
+[Speaker 0]:  and i think we're starting to see proof points will not plattoe at the level of human intelligence，
+[Speaker 0]:  but will continue beyond the level of human intelligence。
+[Speaker 0]:  and assuming it has physacaccess to all of things，
+[Speaker 0]:  things we have physical access to in on this planet and in space。
+[Speaker 0]: 好的好的好的，
+[Speaker 0]:  i think everything is different。
+[Speaker 0]:  nothing is the same ten years from now。
+[Speaker 0]:  we will not be needed for all of these tasks。
+[Speaker 0]:  um and i think the way government is structured will be different。
+[Speaker 0]:  and i think the way um h uh transferred uh and ownership of things will be different and way we think about money，
+[Speaker 0]:  how how we live our lives will be very different。
+[Speaker 0]:  and so it's in impossible for me to imagine that world，
+[Speaker 0]:  except to say that it's probably going to be AA more more different to what we have today，
+[Speaker 0]:  sus，
+[Speaker 0]:  where we are now um and where we were thousand years ago。
+[Speaker 0]:  so i think in the next ten years will see see more difference than we did in the last thousand years。
+[Speaker 0]:  if this plays out um in the way that it seems to be playing out and in that world。
+[Speaker 1]:  and maybe that's not tender。
+[Speaker 1]:  that's just five years in your wildeless dreams，
+[Speaker 1]:  or perhaps your very pragmatic vision。
+[Speaker 1]:  uh where does vast，
+[Speaker 1]:  sit becoming the operney system for i？
+[Speaker 1]:  what what does that actually mean it if everything plays out？
+[Speaker 0]:  we want to a enable this so that it actually can happen and that we don't see uh obstacles in the form of we don't have the required infrastructure for it to happen because we can only build this fast。
+[Speaker 0]:  and we want to build a thousand times faster or thousand times bigger ger。
+[Speaker 0]:  we need to make sure that it doesn't kill us and so that it's safe。
+[Speaker 0]:  and that along the path，
+[Speaker 0]:  we uput sasafeguards place place h and enable us as people to understand what's happening uh at the very least，
+[Speaker 0]:  if not guide。
+[Speaker 0]:  what's i what's happening？
+[Speaker 0]:  i tell my team all the time。
+[Speaker 0]:  if all the data is managed by us，
+[Speaker 0]:  we can't ask for anything more than that。
+[Speaker 0]:  we're still away away from that。
+[Speaker 0]:  but that's that's the ideal that were are marching towards all the data in the world。
+[Speaker 1]:  one of it feels like a wonderful place to leave it rrennan。
+[Speaker 1]:  thank you so much as this was a terrific condecision。
+[Speaker 0]:  thank you。
+[Speaker 1]:  hides mat talk k again，
+[Speaker 1]:  thanks，
+[Speaker 1]: 're。
+[Speaker 1]:  listening to this episode of the mad podcast。
+[Speaker 1]:  if you enjoyed，
+[Speaker 1]:  it would be very grateful if you would consider subscribing if you have an already or leaving a positive review or comment on which have a platform you watching this or listening to this episode from israel，
+[Speaker 1]:  helps us build a podcaast and get great guests，
+[Speaker 1]:  sts and and the other next episode 关系。
