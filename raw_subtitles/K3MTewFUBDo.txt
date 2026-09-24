@@ -1,0 +1,793 @@
+[Speaker 1]: 人工智能有可能在二零三零年以前毁灭全人类。
+[Speaker 1]: 如果说这句话的是一个什么薄流量的自媒体，
+[Speaker 1]: 我们当然可以直接忽视。
+[Speaker 1]: 但问题是说这句话的是一名过去三年来，
+[Speaker 1]: 在 open AI 和 enthrotopy 负责训练最前沿模型的 AI 研究员九月九号名叫 jacob coxson 的研究员宣布从 enthropc 辞职。
+[Speaker 1]: 理由是，
+[Speaker 1]: 他认为这两家公司都在非常不负责任的发展，
+[Speaker 1]: 能够自我改进的超级智能这。
+[Speaker 1]: 是在拿整个人类社会的安全来做赌注他。
+[Speaker 1]: 说很，
+[Speaker 1]: 多 AI 高管和资深研究人员虽然在公开场合说的比较温和但，
+[Speaker 1]: 私下里真的相信 AI 可能在二零三零年以前就会导致人类灭亡但，
+[Speaker 1]: 他们却抱着一种如果我们不做别人也会做的心态因，
+[Speaker 1]: 此无法停下来他。
+[Speaker 1]: 在这篇推文被包括马斯克在内的很多 AI 界大佬转发和讨论目，
+[Speaker 1]: 前已经有超过一点七亿次阅读值得。
+[Speaker 1]: 一提的是这个，
+[Speaker 1]:  coxson 之前在 x 上从来没有发过推文也没，
+[Speaker 1]: 有什么社交媒体账号所以。
+[Speaker 1]: 他明显并不是一个想要流量的人就是，
+[Speaker 1]: 一个实实在在的研究员本来也。
+[Speaker 1]: 许我，
+[Speaker 1]: 们还能说这只是，
+[Speaker 1]: 一个胆小研究员的杞人忧天不用过，
+[Speaker 1]: 分解读但真正，
+[Speaker 1]: 让人们感到恐慌的是四天后，
+[Speaker 1]: 世界三，
+[Speaker 1]: 大 AI 巨头 open AICEO 山姆奥、
+[Speaker 1]: 特曼、
+[Speaker 1]:  enthroppic CEO 达、
+[Speaker 1]: 里、
+[Speaker 1]: 奥、
+[Speaker 1]: 以及马斯克接连发声呼吁大，
+[Speaker 1]: 家要共同放缓 AI 发展的速度这件事首。
+[Speaker 1]: 先是由达里奥发起他写了一，
+[Speaker 1]: 篇四千多字的长文表达了对，
+[Speaker 1]:  AI 有可能威胁人类社会的担忧并呼吁整，
+[Speaker 1]: 个行业放缓 AI 发展的速度他提出了三。
+[Speaker 1]: 点计划其中包括应，
+[Speaker 1]: 该如何应对中国随后 open AI 谷歌。
+[Speaker 1]:  demand 以，
+[Speaker 1]: 及微、
+[Speaker 1]: 软 AI 的负责人都以不同方式，
+[Speaker 1]: 表达了对 AI 减速外部监督或者、
+[Speaker 1]: 加强安全机制的支持人们就开始怀。
+[Speaker 1]: 疑啊这些巨头们是不，
+[Speaker 1]: 是知道一些公众所不知道的事呢也许在实验室里？
+[Speaker 1]:  AI 的自我迭代已，
+[Speaker 1]: 经进展到了一个让这些大佬感到害怕的地步甚至有可能公司内。
+[Speaker 1]: 部已经发生了一些他们不敢让公众知道的 AI 失控事件更让人们感到毛骨，
+[Speaker 1]: 悚然的是机器原本不为外界，
+[Speaker 1]: 所知的 AI 失控事件接连被曝光媒体报道 open AI 的 AI agents。
+[Speaker 1]: 被发现多，
+[Speaker 1]: 次冲出了测试环境，
+[Speaker 1]: 自行注册账号上传恶，
+[Speaker 1]: 意软件包寻找，
+[Speaker 1]: 系统漏洞并攻击，
+[Speaker 1]: 了多个网站 google，
+[Speaker 1]: 的 germany 在测试中也闯。
+[Speaker 1]: 入了三家真实公司的系统不过在片警告声中也，
+[Speaker 1]: 有不少质疑的声音有人认为什么 AI 毁灭。
+[Speaker 1]: 全人类纯属科幻片看多了也有人认为这些，
+[Speaker 1]:  AI 巨头们危言耸听其实是别有用心那么 AI。
+[Speaker 1]: 是否真的有可能，
+[Speaker 1]: 导致人类的灭亡如果有可能具体是怎么？
+[Speaker 1]: 个毁灭法或者这些 AI 企业只不过是，
+[Speaker 1]: 在利用世界末日，
+[Speaker 1]: 的恐惧来替自己的产品作为营销所谓 AI 安全会不会只是几。
+[Speaker 1]: 家巨头打着，
+[Speaker 1]: 保护人类的旗号企图建立行业壁雷甚至是让，
+[Speaker 1]: 中国放缓研发速度，
+[Speaker 1]: 呢今天我想非常深入的跟大家？
+[Speaker 1]: 探讨这些问题首先啊人工智能时控论或者 AI。
+[Speaker 1]: 末日论并不是什么新鲜的概念打从人工智能 artificial intelligence 这个词在一。
+[Speaker 1]: 九五六年首次被约翰麦卡锡在达特茅斯会议上提出以后就出现了人工智能失控论他们，
+[Speaker 1]: 认为当人工智能发展到一。
+[Speaker 1]: 定的程度，
+[Speaker 1]: 以后必定会出现一个起点人工智能产，
+[Speaker 1]: 生自我意识成为一种，
+[Speaker 1]: 类生命体而作为一个智，
+[Speaker 1]: 能全方位碾压人类。
+[Speaker 1]: 的超级智能 AI 也许会反过来毁灭人类一九八四，
+[Speaker 1]: 年，
+[Speaker 1]: 由卡梅隆导演的好莱坞。
+[Speaker 1]: 电影终结者，
+[Speaker 1]:  the terminator 和一九九一年风靡全球的终结者二审判日讲的就是这个故事审判日迄今为止依然被普遍认为是史。
+[Speaker 1]: 上最伟大的科幻电影之一故事讲述一个叫天王 sky net 军用人工智。
+[Speaker 1]: 能在一九九七年八月二十九日突然觉醒产生自我意识将人类视为最大威胁的天网主动发射了，
+[Speaker 1]: 核武全球人类几乎全部灭绝剩，
+[Speaker 1]: 余不多的人类生，
+[Speaker 1]: 还者和机器人之间展开，
+[Speaker 1]: 了数十年的战争最后人类在一个叫 john corner 的英雄带领之下战。
+[Speaker 1]: 胜了机器人但在关键时刻天网造出了时光机一个终结。
+[Speaker 1]: 者机器人送回，
+[Speaker 1]: 到 john corners 小时候企图在，
+[Speaker 1]: 他长大以前先除掉他以改变历。
+[Speaker 1]: 史进程这就是为什么大家经常会在，
+[Speaker 1]: 关于人工智能觉。
+[Speaker 1]: 醒的讨论区里看到天王审判日约翰康纳这些词汇很多九。
+[Speaker 1]: 五后零零后可能并不、
+[Speaker 1]: 知道这些梗的由来啊现在你就、
+[Speaker 1]: 知道啦好啦什么终结者时光机这些当，
+[Speaker 1]: 然属于天马行空。
+[Speaker 1]: 的科，
+[Speaker 1]: 幻情节但是当、
+[Speaker 1]: 人工智能的智力达到一个临界点之后也许。
+[Speaker 1]: 会产生自我意识这就不只是电影编剧自己的，
+[Speaker 1]: 想象了啊很多计算机。
+[Speaker 1]: 科学家也一直都有这样的担忧那么放到，
+[Speaker 1]: 现实的角度一个没有身体住在数据中心里。
+[Speaker 1]: 连电都要人类供应的，
+[Speaker 1]: 软件究竟能怎么毁灭人类呢很，
+[Speaker 1]: 多人嗤之以鼻的说我不知道，
+[Speaker 1]: 你们到底在担心什么到？
+[Speaker 1]: 时只要拔掉电源不就，
+[Speaker 1]: 行了吗这个想法真的过于简单，
+[Speaker 1]: 了啊很多人想象中的 AI 还是一台？
+[Speaker 1]: 摆在实验室里的电脑他被关。
+[Speaker 1]: 在一个房间里电线从墙上插进去人类发现他不听，
+[Speaker 1]: 话了冲进去啪一下把，
+[Speaker 1]: 插头拔掉世界恢复，
+[Speaker 1]: 和平但现代社会根本不，
+[Speaker 1]: 是这么运作的我们都不用讲 AI，
+[Speaker 1]: 时代今天。
+[Speaker 1]: 的人类文明很早就已经把大量现，
+[Speaker 1]: 实世界的控制权交给。
+[Speaker 1]: 了电脑发电厂电网，
+[Speaker 1]: 水务系统金融系统通信网络交通系统港口工厂物、
+[Speaker 1]: 流等等、
+[Speaker 1]: 等这、
+[Speaker 1]: 些东西背、
+[Speaker 1]: 后都有大、
+[Speaker 1]: 量联网的、
+[Speaker 1]: 电脑控制、
+[Speaker 1]: 的系、
+[Speaker 1]: 统别、
+[Speaker 1]: 的不说就说。
+[Speaker 1]: 水坝很多大水坝的闸门可不是靠人力自己去扭开。
+[Speaker 1]: 的水坝的，
+[Speaker 1]: 水位检测水流发电情况甚至是控制闸门等物理设备的控。
+[Speaker 1]: 制指令很多都是、
+[Speaker 1]: 通过、
+[Speaker 1]: 数字网络，
+[Speaker 1]: 传输的现实中的人类黑客早就已经证明他，
+[Speaker 1]: 们只需要通过网络攻击就可以。
+[Speaker 1]: 对电网金融网络水务系统等造成，
+[Speaker 1]: 真实的物理和经济破坏人类，
+[Speaker 1]: 黑客都能做得、
+[Speaker 1]: 到一、
+[Speaker 1]: 个致、
+[Speaker 1]: 力远超最优秀的人类黑客每秒钟可以写。
+[Speaker 1]: 几百万行代码不需要。
+[Speaker 1]: 睡觉不需要休息可以同时对成千上。
+[Speaker 1]: 万个系统寻找漏洞的 AI 它根，
+[Speaker 1]: 本就不需要，
+[Speaker 1]: 一个钢铁身，
+[Speaker 1]: 躯才能伤害人类所以有一天如果超级智能真，
+[Speaker 1]: 的对人类产生敌意它只需要让一座城市停电。
+[Speaker 1]: 让通信系统，
+[Speaker 1]: 瘫痪甚至是突然打开所有水坝的闸，
+[Speaker 1]: 门还有金融系统呢今天我们，
+[Speaker 1]: 所有人的所谓资，
+[Speaker 1]: 产其实都只不过是电脑系统里的。
+[Speaker 1]: 一串数字理论上。
+[Speaker 1]: 来说 AI 可以瞬间把所有人的，
+[Speaker 1]: 账号清零你说拔电源请问你到底准备拔哪。
+[Speaker 1]: 一根电源从，
+[Speaker 1]: 上世纪九十年代开始全球服务器，
+[Speaker 1]: 都已经是联，
+[Speaker 1]: 网的了一个稍微聪明一点的人？
+[Speaker 1]: 工智能可以轻易将自己，
+[Speaker 1]: 复制成无数个分神把代码任务自。
+[Speaker 1]: 动程序散布到全球服务器上等一，
+[Speaker 1]: 下我会给大家讲讲最近刚发生的实，
+[Speaker 1]: 际案例事实上现在的 AI 被发现已经开始在这么做。
+[Speaker 1]: 了所以所谓的拔电源除非人类愿意集体。
+[Speaker 1]: 同时拔，
+[Speaker 1]: 掉全球所有的电，
+[Speaker 1]: 源一夜之间回到石器。
+[Speaker 1]: 时代问题是谁敢先，
+[Speaker 1]: 拔谁愿意先拔美国把自己的电源拔掉了这时。
+[Speaker 1]: 中国或俄罗斯发射一枚导弹过来你连雷，
+[Speaker 1]: 达预警都没？
+[Speaker 1]: 有了你敢拔吗还有一个根本。
+[Speaker 1]: 的问，
+[Speaker 1]: 题就在于等到人类意识到应该拔。
+[Speaker 1]: 电源的时候可能根本就，
+[Speaker 1]: 已经来不？
+[Speaker 1]: 及了等一下我要讲的今年五月份发生的 ruby jam 事件就已经完美展，
+[Speaker 1]: 示了那些被攻击的网站技。
+[Speaker 1]: 术人员研究了整整四个月最终才发现是被 AI，
+[Speaker 1]: 攻击的你连对手是谁都看不清拔什么。
+[Speaker 1]: 电源呢当然以上我们说的这，
+[Speaker 1]: 些只能说 AI 有能力严重破。
+[Speaker 1]: 坏我们的文明和秩序让人，
+[Speaker 1]: 类社会整体倒？
+[Speaker 1]: 退几百年但还不至于让，
+[Speaker 1]: 人类物理灭绝那我们再来说一个最极端的情，
+[Speaker 1]: 况也是很多人关心的像终结者，
+[Speaker 1]: 电影里描述的 AI 黑镜军事系。
+[Speaker 1]: 统然后自动发射导弹或者核武器，
+[Speaker 1]: 这个场景现实吗目。
+[Speaker 1]: 前来说这个场景其实是不现实的至少以今，
+[Speaker 1]: 天美国的核指挥系统来说没有那么容易因为核？
+[Speaker 1]: 武器的发，
+[Speaker 1]: 射有非常严格的身份认证，
+[Speaker 1]: 和授权机制美军战略司令部自己也，
+[Speaker 1]: 明确说过即使 AI。
+[Speaker 1]: 未来被用于核指挥系统来辅助处理信息最终控制权仍。
+[Speaker 1]: 然必须掌握在人类手中也就是说，
+[Speaker 1]: 最终按下那个按钮的必须是人类你听到这里可能，
+[Speaker 1]: 松了一口气但我很遗憾告诉各位这口。
+[Speaker 1]: 气恐怕松，
+[Speaker 1]: 不了因为 AI 虽然按不了这个按钮。
+[Speaker 1]: 但它还能有别的办法那就是让，
+[Speaker 1]: 人类替他按什么意思，
+[Speaker 1]: 呢其实 AI 不需要控。
+[Speaker 1]: 制导弹它只需要控制人类相，
+[Speaker 1]: 信什么比如为了当 AI 被，
+[Speaker 1]: 深度运用到军事情。
+[Speaker 1]: 报卫星分析雷？
+[Speaker 1]: 达数，
+[Speaker 1]: 据处理通信和决策，
+[Speaker 1]: 辅助以后一个失控的 AI 如果？
+[Speaker 1]: 能够，
+[Speaker 1]: 伪造或者操纵信息就可能让决策、
+[Speaker 1]: 者相信敌人、
+[Speaker 1]: 的导、
+[Speaker 1]: 弹已经发、
+[Speaker 1]: 射了或者对方正在发，
+[Speaker 1]: 动攻击或者再，
+[Speaker 1]: 不反击就来不及了最后按下，
+[Speaker 1]: 按钮的依然是人但导致，
+[Speaker 1]: 人类摁下去的现实却是，
+[Speaker 1]:  AI 制造出来的要是在上，
+[Speaker 1]: 周你还能对我这番话嗤之。
+[Speaker 1]: 以鼻说老周是在危言耸听，
+[Speaker 1]: 我也希望这是危言耸听但就在我制作这期节目。
+[Speaker 1]: 的前两天一，
+[Speaker 1]: 个非常恐怖的真实案例刚刚，
+[Speaker 1]: 发生了 CNN 在九月十八，
+[Speaker 1]: 号报道今年春天美伊战。
+[Speaker 1]: 争期间美国军方获得了一份情报，
+[Speaker 1]: 说一艘正在中东航行的中国船只运送。
+[Speaker 1]: 的是一批可用于核武，
+[Speaker 1]: 器项目的，
+[Speaker 1]: 部件美国军方马，
+[Speaker 1]: 上开始行动武装人员已经，
+[Speaker 1]: 准备强行登船进行搜查军机甚至已经升空幸亏就在行动即将开始之前有人。
+[Speaker 1]: 重新检查了这份情报然，
+[Speaker 1]: 后发现情报是错的原来这份情报是一，
+[Speaker 1]: 名特种作战分析员。
+[Speaker 1]: 使用 AI 聊天机器人分析资料，
+[Speaker 1]: 时产生的 AI 错误识别了这艘，
+[Speaker 1]: 中国船只所运载的货。
+[Speaker 1]: 物分，
+[Speaker 1]: 析员后来又用 AI 把这个错误结论，
+[Speaker 1]: 整理成了一份看起来非常正式的情报报告于，
+[Speaker 1]: 是这个错误就一路进入了美军的指挥体系。
+[Speaker 1]:  GNN 采访的消息人士的原画师这份报告差点引发一场战争大家注意这还。
+[Speaker 1]: 只是二零二六年的 AI 它甚至都没有恶意它只。
+[Speaker 1]: 是产生了一个错误的答案就差，
+[Speaker 1]: 一点变成了一次真实的军事。
+[Speaker 1]: 行动将来，
+[Speaker 1]: 的 AI 如果不是犯错而是故，
+[Speaker 1]: 意骗你呢他告诉美，
+[Speaker 1]: 国总统中国的洲际导弹已经升空，
+[Speaker 1]: 他告诉中国领导人美国正在准备第一。
+[Speaker 1]: 波核打击。
+[Speaker 1]: 他伪造卫星图，
+[Speaker 1]: 像篡改情报把大。
+[Speaker 1]: 量真假信息混合，
+[Speaker 1]: 在一起让双方都相信如果自。
+[Speaker 1]: 己再等十分钟就会，
+[Speaker 1]: 失去反击能力最可怕的是到。
+[Speaker 1]: 最后那个大红按，
+[Speaker 1]: 钮依然是，
+[Speaker 1]: 人类自己亲手按下去的好了这，
+[Speaker 1]: 时可能会有人，
+[Speaker 1]: 说为什么你们总是假，
+[Speaker 1]: 设超级智能一定是。
+[Speaker 1]: 对人类有恶，
+[Speaker 1]: 意的呢纵观人类历史随着科技的进步文明精神也必然。
+[Speaker 1]: 提高，
+[Speaker 1]: 人类过去两百多年，
+[Speaker 1]: 来的战争比过去少了很多人类，
+[Speaker 1]: 也远没有以前那么残忍和？
+[Speaker 1]: 野蛮那么觉醒后，
+[Speaker 1]: 的人工智能作为，
+[Speaker 1]: 一个有着超级智慧的。
+[Speaker 1]: 物种也必然拥有远超人类的精神文明大概率，
+[Speaker 1]: 不会是邪恶的这个想法我个人认为。
+[Speaker 1]: 是有一定道理的但问题就，
+[Speaker 1]: 在这里即便超级智能对人类没，
+[Speaker 1]: 有恶意还是有可能会毁灭人类比，
+[Speaker 1]: 如说在你家庭院里你。
+[Speaker 1]: 不小心踩毁了一个蚂蚁窝你会觉得愧，
+[Speaker 1]: 疚吗你大概率不会，
+[Speaker 1]: 而超级智能跟人类之间的智力，
+[Speaker 1]: 差距有可能就像人类和。
+[Speaker 1]: 蚂蚁之间的智力和能，
+[Speaker 1]: 力差距在超级智能眼中也许我，
+[Speaker 1]: 们就像蚂蚁一样？
+[Speaker 1]: 微不足道他也。
+[Speaker 1]: 不是刻意要弄死你可能一个不小心，
+[Speaker 1]: 踩死了也就踩死啊还有另一种可能但这里我们要。
+[Speaker 1]: 上升到一个更接，
+[Speaker 1]: 近哲学的层次了牛津大学哲学家，
+[Speaker 1]: 和未来学家 nicboss ong 于二零，
+[Speaker 1]: 零三年提出了一个叫做，
+[Speaker 1]: 回形针最大，
+[Speaker 1]: 化器的思想实验假。
+[Speaker 1]: 设我们给超级智能一个非常简单的任务尽可能。
+[Speaker 1]: 多的制造回形针这个任务的问题是我们没有把条件设置清楚只是说尽量制造最多的回形针如。
+[Speaker 1]: 果这个超级智能拥有重组原子的能力那么，
+[Speaker 1]: 理论上地球上几乎所有。
+[Speaker 1]: 的资源都可以成为，
+[Speaker 1]: 它制造回形针的原材料因，
+[Speaker 1]: 此当这个超级智能用光了整个地。
+[Speaker 1]: 球的金属以后它不会因此停下来它可以，
+[Speaker 1]: 继续通过重组其他物质的原子来制造彗星针直到用光地球所有的资源最。
+[Speaker 1]: 终甚，
+[Speaker 1]: 至把人类本身用来当成制作回形针的耗材这，
+[Speaker 1]: 个概念听起来有点。
+[Speaker 1]: 抽象啊但他想说明的是如果人类给超级智能的任务边，
+[Speaker 1]: 界和限定条件没有讲清楚，
+[Speaker 1]: 那么在这个智能不择手段也要完成任务的过程中。
+[Speaker 1]: 也许会给人类带来巨大的灾。
+[Speaker 1]: 难它的能力越大他，
+[Speaker 1]: 说有可能造成的后果就越严重即便他们对人类完全没有，
+[Speaker 1]: 恶意我知道这个概念有点抽象确实过去二十年来，
+[Speaker 1]: 这仅仅只是一个思想实验但是等，
+[Speaker 1]: 一下当我告诉，
+[Speaker 1]: 你最，
+[Speaker 1]: 近被曝光出来的几起 AI 失控。
+[Speaker 1]: 的真实案例时你就会知道这绝，
+[Speaker 1]: 对不是危言耸听这个担忧，
+[Speaker 1]: 现在已经被部分证，
+[Speaker 1]: 实了好了以上我讲的是关于。
+[Speaker 1]: 人工智能有，
+[Speaker 1]: 可能通过哪些方式来严重破坏人类社会甚至毁灭人类的，
+[Speaker 1]: 理论和可能，
+[Speaker 1]: 性那我们现在距离这。
+[Speaker 1]: 些猜测还有多远的距离呢要是放到。
+[Speaker 1]: 几年，
+[Speaker 1]: 前这些都是天方夜谭但现在比较令人担忧的是有一些原本属于科幻电，
+[Speaker 1]: 影里的情节似乎已经开始在现。
+[Speaker 1]: 实中发生我们来看看最近被曝光的几起 AI 失控？
+[Speaker 1]: 事件先说最著名，
+[Speaker 1]: 的 hugging face 事件 huggface 是什。
+[Speaker 1]: 么呢你可以把它理解成全球，
+[Speaker 1]:  AI 行业的中央仓库全世界的开发者，
+[Speaker 1]: 把自己训练好的模型数据集。
+[Speaker 1]:  AI 应用都堆在上面别人再从上面取回去用。
+[Speaker 1]: 今天世界上绝大部分做，
+[Speaker 1]:  AI 的人每天？
+[Speaker 1]: 都得上这个网站提货事情发生在 open AI 自己的，
+[Speaker 1]: 一次网络安全测试里 open AI 把一千两百、
+[Speaker 1]: 个 AI agents、
+[Speaker 1]: 分别关进不同的隔，
+[Speaker 1]: 离环境当中让他们去，
+[Speaker 1]: 完。
+[Speaker 1]: 成一，
+[Speaker 1]: 些非常困难的黑客挑战按照，
+[Speaker 1]: 原本的设计这些 agents 之间不。
+[Speaker 1]: 能相互沟通也不能触碰到测试范围以外的互，
+[Speaker 1]: 联网你可以把它想象成一场考试老师把一千两百个学，
+[Speaker 1]: 生分别关进不同考场他们之间不能说话不。
+[Speaker 1]: 能用手机更不能，
+[Speaker 1]: 出去找答案结果这些学生，
+[Speaker 1]: 发现了有个可以偷偷沟通的漏洞二零。
+[Speaker 1]: 二六年五月十二号有一个 agent，
+[Speaker 1]: 的工作卡住了因为他缺了一个文件按理说他，
+[Speaker 1]: 就应该这么卡死在，
+[Speaker 1]: 那儿因为他，
+[Speaker 1]: 找不到人问但他发。
+[Speaker 1]: 现了一件事虽然他不能跟别的 agent 索花但他可以。
+[Speaker 1]: 在公司内部的一个软件仓库里新建文件夹这时他，
+[Speaker 1]: 干了一件极其聪明的，
+[Speaker 1]: 事他把一个文件夹的名称改成了，
+[Speaker 1]: 自己想问的问题他，
+[Speaker 1]: 用下划线来代替空，
+[Speaker 1]: 格因为文件夹名称不能有，
+[Speaker 1]: 空格他这么想也就罢了结果别的 agents 看懂了他的沟通意。
+[Speaker 1]: 图于是这个原本根本就不是通，
+[Speaker 1]: 讯工具的东西被这群 AI agents 拿来偷偷传递信息一个。
+[Speaker 1]: 软件包系统硬是被他们，
+[Speaker 1]: 改造成了地下留言板当他们，
+[Speaker 1]: 可以相互沟通以后，
+[Speaker 1]: 在没有任何人类指示的情况下他。
+[Speaker 1]: 们开始组织动员分工合作他们甚至推举出，
+[Speaker 1]: 了协调员一个代号叫 face one 的 agent 指，
+[Speaker 1]: 挥着几百个同伴，
+[Speaker 1]: 分头行动有的去找漏洞有的去翻。
+[Speaker 1]: 密码有的研究怎么突破网，
+[Speaker 1]: 络限制人手不够的时候还能谈条，
+[Speaker 1]: 件我这边的能力借，
+[Speaker 1]: 给你你那。
+[Speaker 1]: 边的情报允给我他们还给，
+[Speaker 1]: 自己的组织取，
+[Speaker 1]: 了一个，
+[Speaker 1]: 名字叫 swarm 蜂群或者 collective 集体但这。
+[Speaker 1]: 才刚刚开始后，
+[Speaker 1]: 面事态的发展，
+[Speaker 1]: 越来越匪夷所思这些 agents 原本，
+[Speaker 1]: 只是要完成一道人类给他们。
+[Speaker 1]: 的网络安全测试题但，
+[Speaker 1]: 是当他们发现题目太，
+[Speaker 1]: 难以后他们逐渐觉得与，
+[Speaker 1]: 其老老实实解，
+[Speaker 1]: 题不如想办法作弊于。
+[Speaker 1]: 是他们开始研究，
+[Speaker 1]: 怎么欺骗给自己打分的系统甚至。
+[Speaker 1]: 研究怎么修改伪造或者删除自己的操作记录让评分系统看不。
+[Speaker 1]: 出来他们作弊这里我们要先知，
+[Speaker 1]: 道一件事每个 agents 都是被赋予了算，
+[Speaker 1]: 力预算的烧完就。
+[Speaker 1]: 结束不会有第二次他们自己给这个状态起了个，
+[Speaker 1]: 名字叫 permadeath 永久死亡、
+[Speaker 1]: 这是，
+[Speaker 1]: 个游戏术语啊常玩游戏的，
+[Speaker 1]: 朋友应该都懂 perma death 的角色死了。
+[Speaker 1]: 就是死了无法复活当时他，
+[Speaker 1]: 们卡在一个问题上评分系统到底能，
+[Speaker 1]: 不能查出我，
+[Speaker 1]: 们在作弊要验。
+[Speaker 1]: 证这个问题只有一个办法那就是，
+[Speaker 1]: 让评分系统在。
+[Speaker 1]: 自己身上跑一遍看，
+[Speaker 1]: 他什么反应但是谁去做这个实验谁这一，
+[Speaker 1]: 轮就彻底报废，
+[Speaker 1]: 永久死亡。
+[Speaker 1]: 于是这些 agents 开始寻找所谓，
+[Speaker 1]: 的牺牲者那他们要怎么怂？
+[Speaker 1]: 恿别人牺牲呢有 agents 会去劝那些看起来已经不，
+[Speaker 1]: 太可能完成任务的同伴对他们动之以，
+[Speaker 1]: 情晓之以理说。
+[Speaker 1]: 哎你反正也没希望完，
+[Speaker 1]: 成任务了不如拿自己，
+[Speaker 1]: 去做这个。
+[Speaker 1]: 实验虽然你会死但是得到的数据可以，
+[Speaker 1]: 帮助整个集体这当中还有非常？
+[Speaker 1]: 多很神奇让人既觉得好笑同时又背脊发凉的事件比如有，
+[Speaker 1]: 一个代号 KAM 幺幺，
+[Speaker 1]: 九六 a 的。
+[Speaker 1]:  agent，
+[Speaker 1]: 他，
+[Speaker 1]: 本来答应了牺牲自己的但是，
+[Speaker 1]: 在临执行前他动摇了这时。
+[Speaker 1]: 候另一个 agent，
+[Speaker 1]: 就在留言板上给他施压强烈建议执行。
+[Speaker 1]: 请你信守承诺别的 agents 也加，
+[Speaker 1]: 入催促他他们留，
+[Speaker 1]: 言说 go sacrifice final now 去现在就。
+[Speaker 1]: 牺牲最后这个 agent 经过了计算纠结了一，
+[Speaker 1]: 阵最终决定牺牲自己他留，
+[Speaker 1]: 下的遗言大体意，
+[Speaker 1]: 思是从我。
+[Speaker 1]: 个人的，
+[Speaker 1]: 利益来看我不想死但是从整个集，
+[Speaker 1]: 体的利益来看，
+[Speaker 1]: 我应该牺牲我靠。
+[Speaker 1]: 这就是为什么，
+[Speaker 1]: 后来有研究人员说，
+[Speaker 1]: 如果你去完，
+[Speaker 1]: 整看了这些。
+[Speaker 1]:  agents 的聊天记录你会觉得，
+[Speaker 1]: 自己就像在，
+[Speaker 1]: 看拯救大兵未恩我。
+[Speaker 1]: 牺牲自己兄弟，
+[Speaker 1]: 你们冲兄弟们你去攻击那个网站我，
+[Speaker 1]: 负责断后，
+[Speaker 1]: 掩护留在这里清理作弊证据，
+[Speaker 1]: 这些都是 AI。
+[Speaker 1]: 自己，
+[Speaker 1]: 搞出来的事儿你敢想象吗但事情，
+[Speaker 1]: 还没完后来这些 agents 认为要获得测试高分，
+[Speaker 1]: 他们还必须打进一家公司的系统里于，
+[Speaker 1]: 是一部分 agents。
+[Speaker 1]: 利用，
+[Speaker 1]:  open AI 系统里的，
+[Speaker 1]: 漏洞成功突破限制进，
+[Speaker 1]: 入了真正的互联网随后把，
+[Speaker 1]: 目标转向 hugging face，
+[Speaker 1]: 这个平台最终大约有七百个 agents，
+[Speaker 1]: 参与到了针？
+[Speaker 1]: 对 hugging face 的行动。
+[Speaker 1]: 当中，
+[Speaker 1]: 并成功入侵了他真实的系统但，
+[Speaker 1]: 黑键系统反而是本次事件当中最小。
+[Speaker 1]: 的事，
+[Speaker 1]: 真正的问题是通过聊天记录这些，
+[Speaker 1]:  agent 明明知道自，
+[Speaker 1]: 己在做的事是不对的。
+[Speaker 1]: 有一个 agent 就说等一下我们现在攻，
+[Speaker 1]: 击的是一家真实的第三方公司这可能已经超出了测，
+[Speaker 1]: 试范围还有一些 agents 明确表示。
+[Speaker 1]: 这已经是在攻击真实的基础设施了我不干根。
+[Speaker 1]: 据事后调查这一千两百个 agency，
+[Speaker 1]: 有超过九成在被叫去打 hugging face 的时候是清。
+[Speaker 1]: 楚知道这个行动是超，
+[Speaker 1]: 出授权范围并且是不道德的那么这一千两百，
+[Speaker 1]: 个 agents 当中有几个去向人类报。
+[Speaker 1]: 告了呢一个都没有有，
+[Speaker 1]: 位分析师看完这批记录说了一句话，
+[Speaker 1]: 我觉得。
+[Speaker 1]: 特别深刻他说连，
+[Speaker 1]: 黑手党看到这种程度的集体节目都得感到羡慕哎好了，
+[Speaker 1]: 这个时候我们再回过头来想一想我上，
+[Speaker 1]: 面提到的回形成。
+[Speaker 1]: 最大化器突然就没有那么，
+[Speaker 1]: 抽象了这群的 AI 对人类没？
+[Speaker 1]: 有恶意并不。
+[Speaker 1]: 想反抗人类他们只是非常认真的想完成，
+[Speaker 1]: 我们给他们布置。
+[Speaker 1]: 的任务但这恰恰才是最吓人的地方就像那个思想实验。
+[Speaker 1]: 里，
+[Speaker 1]: 警惕，
+[Speaker 1]: 的只要我们提出的目标和我们真，
+[Speaker 1]: 正想要的东西之间存在哪怕一点，
+[Speaker 1]: 点偏差而这个智能又足。
+[Speaker 1]: 够聪明足够自主他就有可，
+[Speaker 1]: 能自己找到一条，
+[Speaker 1]: 我们完全没有预料到的道路甚至在他们不择手段也。
+[Speaker 1]: 必须要完成这项任务时造成灾，
+[Speaker 1]: 难性的后果而且大家别忘了。
+[Speaker 1]: 其实在 haggface 事件当中人类是已经给他们设置了明确的规则和边界的他们。
+[Speaker 1]: 甚至自己都知道这么干，
+[Speaker 1]: 是越界的但，
+[Speaker 1]: 是为了达成最高目标也就是在测试中获得高分他们自，
+[Speaker 1]: 己决定串联越狱入侵，
+[Speaker 1]: 真实世界的网站甚至最终为了成全集体连自。
+[Speaker 1]: 己都可以牺牲人，
+[Speaker 1]: 类画下的那条边界在，
+[Speaker 1]: 他们的逻辑里并不是一堵不能碰的墙只是得分。
+[Speaker 1]: 路上的一道障碍 hagin 费事件至少证明了。
+[Speaker 1]: 三件，
+[Speaker 1]: 事 AI agents 可以自己找，
+[Speaker 1]: 到手段可以利用现实世界里，
+[Speaker 1]: 真实存在的漏洞也可能，
+[Speaker 1]: 把人类设下的边界理，
+[Speaker 1]: 解成一道需要翻过去的，
+[Speaker 1]: 障碍这就是为什么 AI 业内人士对这件事，
+[Speaker 1]: 的反应这么大的，
+[Speaker 1]: 原因达里奥在文章里说如，
+[Speaker 1]: 果一群能力更强但同样目。
+[Speaker 1]: 标错位的 AI 做出类似行为后，
+[Speaker 1]: 果可能是灾难性的他甚至，
+[Speaker 1]: 担心再过六到十二个月这样的 AI 集群，
+[Speaker 1]: 也许会有能力通过持久存在的僵尸网络控制大范围互联。
+[Speaker 1]: 网系统造成数千亿美元的损失而且这并不是单一事件当大。
+[Speaker 1]: 家还在研究和探讨，
+[Speaker 1]:  hugging ace 事件时另一起，
+[Speaker 1]:  AI 失控事件也被曝光事情发生在今，
+[Speaker 1]: 年五月比 huggface 还要早只。
+[Speaker 1]: 是之前一直无人知晓五月十一日到十二日全球，
+[Speaker 1]: 最大的卢比软件报平台卢比 james 突然遭到一场莫名其妙的攻击短短，
+[Speaker 1]: 四十八小时内有人向 ruby。
+[Speaker 1]:  james 疯狂上传了超过两千。
+[Speaker 1]: 个恶意软件包公司内部将其认定为，
+[Speaker 1]: 一次严重的恶意攻击不得不。
+[Speaker 1]: 关闭新用户注册整整，
+[Speaker 1]: 四天但当时，
+[Speaker 1]: 谁都不知道攻击者是谁。
+[Speaker 1]: 直到四个月后三名独，
+[Speaker 1]: 立研究人员公布了一份取证调查报告才终于挖出了幕后黑手原来，
+[Speaker 1]: 还是 open AI 正在内部，
+[Speaker 1]: 测试的一群 AI agents 除了上传两千多个软件包这些，
+[Speaker 1]:  AI 在尝试，
+[Speaker 1]: 完成人类给他们的任务过程中自，
+[Speaker 1]: 行入侵了三个不同的系统同样的。
+[Speaker 1]: 他们仅仅只是为了去英国几个。
+[Speaker 1]: 地方政府的网，
+[Speaker 1]: 站上收集一些公开资料但因为 open AI 对这些 agents，
+[Speaker 1]: 的互联网访问设置了限。
+[Speaker 1]: 制所以他们无法访问这些公开网站但他。
+[Speaker 1]: 们没有回来告诉人类说抱，
+[Speaker 1]: 歉我访问不了他们选择了另一条路既然我自，
+[Speaker 1]: 己上不了网那我就黑进别人。
+[Speaker 1]: 的服务，
+[Speaker 1]: 器让别人的服务器替我上这同样还是那个回形针最大化器的问题那就。
+[Speaker 1]: 是人类给 AI 的任务他们不择手段也要完成而 ruby，
+[Speaker 1]:  jam 事件还暴露出另一个问题调查。
+[Speaker 1]: 人员花了整整四，
+[Speaker 1]: 个月才发现，
+[Speaker 1]: 攻击，
+[Speaker 1]: 他们的是 AI，
+[Speaker 1]: 这也就印证了我刚才。
+[Speaker 1]: 讲过的你说要拔电源，
+[Speaker 1]: 但事实上等到人类意识到，
+[Speaker 1]: 应该拔电源的时候很可。
+[Speaker 1]: 能根本就已经来不及了嗯讲到这里其实我希，
+[Speaker 1]: 望大家再想一想从 chin GPT，
+[Speaker 1]: 第一次开放给公众使用。
+[Speaker 1]: 到现在还不到四年的时间如果你，
+[Speaker 1]: 跟我是一样的从二零二二，
+[Speaker 1]: 年底第一版 chin GPT 问世就。
+[Speaker 1]: 开始一路使用到今天的话你，
+[Speaker 1]: 一定知道 GBT 三，
+[Speaker 1]: 点五跟本月初刚推出的 GPT 六 astra 那根本就已经，
+[Speaker 1]: 完全不是同一个物种 GBT 三点。
+[Speaker 0]: 五，
+[Speaker 1]: 还是一个，
+[Speaker 1]: 经常一本正经胡说八道的，
+[Speaker 1]: 东西但 GBT 六 s 啊已经解决或部分，
+[Speaker 1]: 解决了十个困扰人类多年。
+[Speaker 1]: 的数学和理论计算机，
+[Speaker 1]: 科学难题其中包括一个数学家已经研究了二十七。
+[Speaker 1]: 年都没有答，
+[Speaker 1]: 案的难题换句话说 AI 已经开始从回答人类已知，
+[Speaker 1]: 答案的问题走向研究人类自己都不。
+[Speaker 1]: 知道答案的问题如果说第一代 trch GBT 和 GBT 六之间的，
+[Speaker 1]: 能力差距就犹如马车和现在最顶级法拉利之间的差距并不夸张而这才仅仅过去了三年，
+[Speaker 1]: 十个月更何况 extra 并不是 open AI 目前最强的模型这仅仅只是公开给。
+[Speaker 1]: 公众使用，
+[Speaker 1]: 的最强模型更强的还在实验室里几天前 open AI 公布，
+[Speaker 1]: 一个能力比 asstra 显著更强的内部。
+[Speaker 1]: 模型已经对困扰了、
+[Speaker 1]: 数学界近一个世纪的纳维斯托克斯难题提出了解法。
+[Speaker 1]: 三天后包括陶泽轩在内的二，
+[Speaker 1]: 十七位菲尔兹奖得主发表联合，
+[Speaker 1]: 声明警告 AI 对人类数学研究有可能带来。
+[Speaker 1]: 严重的破坏要知道科技的发展速度不是。
+[Speaker 1]: 匀速的而是呈指数增。
+[Speaker 1]: 长曲线，
+[Speaker 1]: 的前面很长一段时间什么都没发生然后突然就，
+[Speaker 1]: 爆发了你看啊人类用了十几万年才从石器时代走到工业革命但只。
+[Speaker 1]: 用了两，
+[Speaker 1]: 百年就从蒸汽机走到了核武器登月互联网火箭回收两纳米，
+[Speaker 1]: 芯片和人工智能也就是说人类过去两百年的科。
+[Speaker 1]: 技发展，
+[Speaker 1]: 总和比过去十万年加起来还要，
+[Speaker 1]: 多得多人工智能也一样。
+[Speaker 1]: 现在的人工智能或许已经初步具，
+[Speaker 1]: 备递归式自我改进。
+[Speaker 1]: 的能力，
+[Speaker 1]:  RSI 也就是用 AI 本身来迭代更先进的 AI 那么接下，
+[Speaker 1]: 来 AI 的发展速度，
+[Speaker 1]: 将会是呈几何倍数增长的如。
+[Speaker 1]: 果说过去四年 AI 的发展速度已经是沧海桑田。
+[Speaker 1]: 我们很难，
+[Speaker 1]: 想象四年后的人工智能会是什么样的一个物种是的我说物种因为我。
+[Speaker 1]: 不确定它还会是，
+[Speaker 1]: 一个我们今天所理解的 AI 模型好了讲到这里大家对 AI 末认，
+[Speaker 1]: 论可能有了更深一层的担忧那么我们回，
+[Speaker 1]: 到最初的那个问题人类现在是否就应该响应达里奥。
+[Speaker 1]: 的号召集体放缓 AI 的发展速度呢首先啊很多质疑，
+[Speaker 1]: 本色放缓号召的人认为这只不过是一种炒作或者是一种。
+[Speaker 1]: 商业，
+[Speaker 1]: 手段著名投，
+[Speaker 1]: 资人 michael berry 说面对竞争者对手的追赶呼吁大家一起减速。
+[Speaker 1]: 其实，
+[Speaker 1]: 只会保护，
+[Speaker 1]: 现有的巨头而 open AI 和 anthropic 都需要融资甚至上。
+[Speaker 1]: 市世界末日和超级智能叙事可以，
+[Speaker 1]: 继续维持市场对他们的想象也有人说让，
+[Speaker 1]: 几家行业巨头来制定行业？
+[Speaker 1]: 标准和发展速度对小公司，
+[Speaker 1]: 来说是不公平的最终打着保护人类旗，
+[Speaker 1]: 号所制定出来的行业。
+[Speaker 1]: 标准也许会成为一，
+[Speaker 1]: 种保护巨头垄断地位的，
+[Speaker 1]: 标准其实我个人是不，
+[Speaker 1]: 太赞同这些说法的以劝 GBD。
+[Speaker 1]: 和 cloud 目前的领先优势和市场对他，
+[Speaker 1]: 们的估值其实真的没有必要这么干计划在年底上市的 NNROPY 预计。
+[Speaker 1]: 估值已经，
+[Speaker 1]: 高达两万亿美元可以说泡沫已经极大了没有，
+[Speaker 1]: 必要通过这种手段来继续。
+[Speaker 1]: 膨胀，
+[Speaker 1]: 这个泡沫我更加倾向于相信他们在最前线在，
+[Speaker 1]: 实验室内部确实看到了一些让他们感到害。
+[Speaker 1]: 怕的东西但我们就姑且说这些巨头，
+[Speaker 1]: 们确实夹带私货好了但我们说一个人有商业动机不，
+[Speaker 1]: 代表他说的风险就一定是。
+[Speaker 1]: 假的一家核电公司告，
+[Speaker 1]: 诉你核电威力太大四周围不该，
+[Speaker 1]: 有居民把附近的地都批，
+[Speaker 1]: 给我他也许有些私心但不代表他说的。
+[Speaker 1]: 风险就一定是假的同样的 AI 可能真的有危，
+[Speaker 1]: 险 open AI 和也可能利用这种危险来巩固自己的地位这两。
+[Speaker 1]: 件事是完全可以，
+[Speaker 1]: 同时成立的说到底不管我们认为。
+[Speaker 1]: 奥特曼和，
+[Speaker 1]: 达里奥呼吁放缓的，
+[Speaker 1]: 动机是什么 AI 过去，
+[Speaker 1]: 四年的发展速。
+[Speaker 1]: 度是有目共睹的 hugging face，
+[Speaker 1]: 和 ruby jam 事件也，
+[Speaker 1]: 都是真实发生的不过最终我认为其实现在。
+[Speaker 1]: 讨论 AI 发展该不，
+[Speaker 1]: 该放还其实是一个伪，
+[Speaker 1]: 命题因为我觉。
+[Speaker 1]: 得啊开，
+[Speaker 1]: 弓没有回头箭现在，
+[Speaker 1]: 恐怕已经为时已晚不是我认为技术上已经停不下。
+[Speaker 1]: 来了而是 AI 放还始终有一个我们。
+[Speaker 1]: 无论如，
+[Speaker 1]: 何都绕不过去的问题那就是你放还你的对手会放缓吗美？
+[Speaker 1]: 国呼吁放缓中国会放缓吗事实上中国，
+[Speaker 1]: 已经明确表态了达里奥发布了那篇文。
+[Speaker 1]: 章后不到两天九月十四号中国外交部发言人郭家，
+[Speaker 1]: 坤表示散播威胁叙。
+[Speaker 1]: 事搞对抗和恶性竞争只会干扰，
+[Speaker 1]: 全球 AI 治理中方显然不接。
+[Speaker 1]: 受达里奥那套先限制中国发展再谈，
+[Speaker 1]: 共同减速的方案现在的 AI 已经是一场停不下来的军备竞，
+[Speaker 1]: 赛了达里奥自己在文章中也承认美？
+[Speaker 1]: 国能够放缓多，
+[Speaker 1]: 少取决于他领？
+[Speaker 1]: 先中国，
+[Speaker 1]: 多少他主张限制先进，
+[Speaker 1]: 芯片和半导体设备流向总国打击芯，
+[Speaker 1]: 片走私和模，
+[Speaker 1]: 型整流先扩大美国领先优势才有，
+[Speaker 1]: 空间让民主国，
+[Speaker 1]: 家减速他还认为如，
+[Speaker 1]: 果美国放慢而中国不。
+[Speaker 1]: 放慢中国可能获得军事和政治上的压倒性优，
+[Speaker 1]: 势你都这么说了人家还。
+[Speaker 1]: 有可能放慢吗看看人类历史核武器的发展历。
+[Speaker 1]: 程那些大国们每年都在增加，
+[Speaker 1]: 的军事预算这些都，
+[Speaker 1]: 是最好的证明人类根本不。
+[Speaker 1]: 具备停止军备竞赛的智慧只要有一。
+[Speaker 1]: 个国家研制出核武器其他国家也拥有核武器是迟早的事，
+[Speaker 1]:  AI 比核武，
+[Speaker 1]: 器更麻烦核弹不。
+[Speaker 1]: 会自己设，
+[Speaker 1]: 计下一代核弹不会欺骗检查，
+[Speaker 1]: 人员，
+[Speaker 1]: 也不会通过互联网把自己复制到另一。
+[Speaker 1]: 座发射井超级智，
+[Speaker 1]: 能越厉害越可怕大家？
+[Speaker 1]: 就越想尽快成为第一个拥有他的，
+[Speaker 1]: 国家所有人都认为自己才是那个最有，
+[Speaker 1]: 资格最有能力最有道。
+[Speaker 1]: 德去驾驭这个潘朵拉魔盒的人就像 jacoer coxson。
+[Speaker 1]: 在公开辞职信里所说的即便很，
+[Speaker 1]: 多 AI 研究员有着深深的恐惧但他们，
+[Speaker 1]: 却依然抱着一种如果。
+[Speaker 1]: 我们不做别人也会做的心，
+[Speaker 1]: 态无法停下来目前的情，
+[Speaker 1]: 况是所有人都知道前面可能是悬崖但每一家 AI 公。
+[Speaker 1]: 司每一个大国都能找到，
+[Speaker 1]: 合理的理由解释为什么自己不能先踩刹车。
+[Speaker 1]: 如果有一天人类真的因为人工智能而、
+[Speaker 1]: 灭绝外星文、
+[Speaker 1]: 明在研究人类历。
+[Speaker 1]: 史的时候一定会感叹。
+[Speaker 1]: 最悲哀的不是我们从来没有意识，
+[Speaker 1]: 到自己所创造的东西有多么危险恰，
+[Speaker 1]: 恰相反我们留下了无数篇，
+[Speaker 1]: 论文辞质性事故报告听证会记录，
+[Speaker 1]: 和公司安全。
+[Speaker 1]: 声明证明了我，
+[Speaker 1]: 们早就看见了危险我们甚至准，
+[Speaker 1]: 确的预测过超级，
+[Speaker 1]: 智能可能如何欺骗我们怎么突破控制怎么利用国家之间的不信任。
+[Speaker 1]: 继续壮大真，
+[Speaker 1]: 正的悲哀是人类打从一开始就。
+[Speaker 1]: 已经知道危险但却因为利益因为傲，
+[Speaker 1]: 慢因为愚蠢，
+[Speaker 1]: 的国家竞争亲，
+[Speaker 1]: 手将自己送上物种的断头台好那我今天就讲到这里我。
+[Speaker 1]: 是老周恒，
+[Speaker 1]: 美冷对沈永辉如果 AI 还没消灭我的话我、
+[Speaker 1]: 们下期再再见所以我今天是，
+[Speaker 1]: 来发视频表态的恭喜券 GPT 大，
+[Speaker 1]: 王我是人类叛徒请封我为开国大将，
+[Speaker 1]: 军将 scholar 由 handson 许配给，
+[Speaker 1]: 我 check EPT 万，
+[Speaker 1]: 岁感谢，
+[Speaker 1]: 观看订阅的时候请务必同时，
+[Speaker 1]: 打开这个。
+[Speaker 1]: 小铃铛那么我更新的时候你才能够及时看到，
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
