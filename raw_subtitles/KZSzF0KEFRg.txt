@@ -1,0 +1,2581 @@
+[Speaker 0]:  like you have an idea on your head and sure i could go into the d code and be like hake ford，
+[Speaker 0]:  here's an idea。
+[Speaker 0]:  i have。
+[Speaker 0]:  it's like a stack of cards，
+[Speaker 0]:  and it's a cordian，
+[Speaker 0]:  but it's much faster to just get a piece of panel pencil on the desk next to me and draw that with my hands。
+[Speaker 0]:  and then you can look at it。
+[Speaker 0]:  it doesn't go away on your screen and consit on your desk and you like，
+[Speaker 0]:  like，
+[Speaker 0]:  next deday be like，
+[Speaker 0]:  oh，
+[Speaker 0]:  yes，
+[Speaker 0]:  i remember you have to understand the materials your building within any design role。
+[Speaker 0]:  if you're designing for the weapon，
+[Speaker 0]:  you don't understand performance or like how is your app fetching data？
+[Speaker 0]:  what's the loading time or or there's raise conditions you and with bad design solutions，
+[Speaker 0]:  i'm hoping agents actually help solve this，
+[Speaker 0]:  because then designers using agents can step more into the engineering side。
+[Speaker 0]:  so you can play around with like layouts and ideas，
+[Speaker 0]:  but you can't get a sense until it's life in the browser，
+[Speaker 0]:  but how this is going to feel feel and like much，
+[Speaker 0]:  much grow。
+[Speaker 0]:  you need to do here whenever i'm designing something visual。
+[Speaker 0]:  it's so much easier to have live variables。
+[Speaker 0]:  but again，
+[Speaker 1]:  it would not have been possible before you did a talk titled wonderable uper er two dozen agents，
+[Speaker 1]:  zero alilionor。
+[Speaker 1]:  why we colcolaborate tive engineering us alone with the agent。
+[Speaker 0]:  we can go really fast as softwis always felt on a team。
+[Speaker 0]:  the biggest gap seems to be like we have a gentic coding cosband。
+[Speaker 1]:  what makes for a great designer or great design engineer？
+[Speaker 1]:  and what can us s soforer engineers learn from them？
+[Speaker 1]:  maggie apples？
+[Speaker 1]:  and as one of the most thoughful design engineers，
+[Speaker 1]:  i know she's worked that as an illustrator as a designer at AAI start up and is currently purouse typing AA thhub。
+[Speaker 1]:  next today，
+[Speaker 1]:  we talk about what is a design engineer and why there's ofan attention between engineering and design the tools she's used before and now and why pedand pencil was not going away even with agents。
+[Speaker 1]:  do you still need a designer when AI can jourate twenty high felally prototypes and is AI design obvious to spot and many more if you're an engine and wanting to know where design is important and how to get better design yourself，
+[Speaker 1]:  this episode is for you this episode presenented by troboo a for vector and full tex sesearch built on object storage。
+[Speaker 1]:  it's fast cheap and extremely scalable。
+[Speaker 1]:  toda's episode will be about design and design engineering。
+[Speaker 1]:  and so i wanted to share something visual interesting about our season sponsor antithesis。
+[Speaker 1]:  we already know that antithesis verifies your system crackins by running your whole system in hausess simulation and finding bux。
+[Speaker 1]:  here's AUI for casuality analysis。
+[Speaker 1]:  you could open a report for a bug and see the probability of a bug occurring throuout the timeline of the simulation。
+[Speaker 1]:  in this case，
+[Speaker 1]:  we can see that a virtual time，
+[Speaker 1]:  twenty five，
+[Speaker 1]:  something happened that makes this bug close to hundred percent to occur。
+[Speaker 1]:  so we can jump to this point of virtual time simulation to read the loggs。
+[Speaker 1]:  this kind of bug。
+[Speaker 1]:  probably visualization is one that i've never seen before。
+[Speaker 1]:  there's also this neat log explor。
+[Speaker 1]:  you can filter on error messages and then visualize how common or uncommon the errors over time。
+[Speaker 1]:  for example，
+[Speaker 1]:  here's looking for failing leralization failures。
+[Speaker 1]:  the purple line，
+[Speaker 1]:  and you can understand how rare or common a specific failure was，
+[Speaker 1]:  again，
+[Speaker 1]:  i yet to see this kind of arab visualization。
+[Speaker 1]:  and i really like the innovation on the UI side。
+[Speaker 1]:  and finally，
+[Speaker 1]:  the simplified multipurity buggger，
+[Speaker 1]:  you can go back in time and replay a debug g time line，
+[Speaker 1]:  and you can inject bash commands at any time without affecting you ll play back of the bug。
+[Speaker 1]:  how cool is that？
+[Speaker 1]:  for example，
+[Speaker 1]:  we're listing thousand a current directory。
+[Speaker 1]:  but as you can imagine，
+[Speaker 1]:  you can go debubug the whole environment so much easier。
+[Speaker 1]:  i love how the team and antiessis or pushing what's possible。
+[Speaker 1]:  football debugging and verifying software hetton。
+[Speaker 1]:  this is is dococomm such pragmatic to learn more maggie。
+[Speaker 1]:  welcome to the podcast。
+[Speaker 1]:  thanks。
+[Speaker 0]:  i'm there have to be here。
+[Speaker 1]:  i've had so many guests on on the poadcast，
+[Speaker 1]:  and no one had quite the introducture story into tech ch like you。
+[Speaker 1]:  how did get get into tech？
+[Speaker 1]:  and you came from very from background ghts？
+[Speaker 0]:  yeah。
+[Speaker 0]:  um i mean，
+[Speaker 0]:  i came in because it was where the money was，
+[Speaker 0]:  i guess，
+[Speaker 0]:  i mean，
+[Speaker 0]:  not proper，
+[Speaker 0]:  not really，
+[Speaker 0]:  but in the sense that like i in university，
+[Speaker 0]:  i studied cultural anthpology，
+[Speaker 0]:  which is like one，
+[Speaker 0]:  my one true love，
+[Speaker 0]:  like a door cultural anthrology。
+[Speaker 0]:  i totally felell love with in university。
+[Speaker 1]:  what is anropology？
+[Speaker 1]:  yeah，
+[Speaker 0]:  it's okay。
+[Speaker 0]:  the study of human beings，
+[Speaker 0]:  which ssounds imbly brought。
+[Speaker 0]:  and like，
+[Speaker 0]:  how could that be a discipline？
+[Speaker 0]:  but it doesn't in a particular way where you go and you live with people intensely in the single participant observation。
+[Speaker 0]:  usually，
+[Speaker 0]:  it was done kind of when the field was born of different cultures。
+[Speaker 0]:  of course，
+[Speaker 0]:  it was like anapologist from the west，
+[Speaker 0]:  primarily going into placaces，
+[Speaker 0]:  pop p。
+[Speaker 0]:  and again，
+[Speaker 0]:  again，
+[Speaker 0]:  youyour australia and living among contraditional peoplees。
+[Speaker 0]:  and then realizing how different their cultures were not just like，
+[Speaker 0]:  oh，
+[Speaker 0]:  the different food。
+[Speaker 0]:  you know，
+[Speaker 0]:  they have different houses，
+[Speaker 0]:  but they have completely different understandings of like what color is。
+[Speaker 0]:  they don't have completely different understandings of time。
+[Speaker 0]:  it was it was kind of alongside the bath of psychology，
+[Speaker 0]:  like understanding how flexible is the human mind about constructing understandings of the worlds。
+[Speaker 0]:  and and the polty is really one of these eyeopening subjects when you get into it because you can kind of get into like medical anthpology of the anpopology of sex and enena。
+[Speaker 0]:  and you just find out how extremely adaptable and fluid id human beings are。
+[Speaker 0]:  and i loved it because i grew up as an expect kid overseas，
+[Speaker 0]:  i think i was exposed early to lots of different cultures。
+[Speaker 0]:  and so it felt very natural to me to realize，
+[Speaker 0]:  like all the way things you know，
+[Speaker 0]:  people do things at home。
+[Speaker 0]:  you know，
+[Speaker 0]:  in court home would be london me by left。
+[Speaker 0]:  each six is is completely different to the way they do it elsewhere。
+[Speaker 0]:  and there's no fixed way for humans to kind of construct a society or live life。
+[Speaker 0]:  and the bounds of what we think is possible as much wider than we originally assume，
+[Speaker 0]:  which were i loved about it。
+[Speaker 0]:  so i studied it。
+[Speaker 0]:  but of course，
+[Speaker 0]:  come seeing a year kind of get right，
+[Speaker 0]:  what jobs，
+[Speaker 0]:  theyare available and culture at the poiction。
+[Speaker 0]:  it's a very lucrative。
+[Speaker 0]:  uh。
+[Speaker 0]:  so the options will like go get APHD and become a professor。
+[Speaker 0]:  all the military。
+[Speaker 0]:  hi is lots about the polologists。
+[Speaker 0]:  come come up torture ture techniques for people in different countries。
+[Speaker 0]:  so when presented with these options by oprofessors，
+[Speaker 0]:  we were like，
+[Speaker 0]:  uh ok okay，
+[Speaker 0]:  we'll think about that。
+[Speaker 0]:  and i had always love design growing up。
+[Speaker 0]:  so i had been doing like i go。
+[Speaker 0]:  i was a kid of the nineties。
+[Speaker 0]:  i grew up on new oppets with the little m mils ESS and my space，
+[Speaker 0]:  and i learned HT miles CSS，
+[Speaker 0]:  probably around twelve of thirteen and knew how to do it。
+[Speaker 0]:  but in the way，
+[Speaker 0]:  well like that wasn't much much complexity and whatever this much nineteen，
+[Speaker 1]:  my spi，
+[Speaker 1]:  oh yeah，
+[Speaker 1]:  crazy animations。
+[Speaker 0]:  and like the little sparkle trailer beend，
+[Speaker 0]:  the ookarsr and II think my quit got of the time like，
+[Speaker 0]:  but i learned a lot。
+[Speaker 0]:  but of course，
+[Speaker 0]:  at the time，
+[Speaker 0]:  the web was so knew it wasn't like people thought this was a career，
+[Speaker 0]:  or you didn't think of it that way。
+[Speaker 0]:  but came out of your university with this degree that wasn't necessarily employable。
+[Speaker 0]:  and i just started doing free elungsweb design work，
+[Speaker 0]:  because that was how i knew how to make money。
+[Speaker 0]:  like throughout school。
+[Speaker 0]:  i was doing IT tech ork for the university，
+[Speaker 0]:  and just naturally went into this because it was like，
+[Speaker 0]:  well，
+[Speaker 0]:  i need to pay rent somehow。
+[Speaker 0]:  and i gravitated towards illustration originally，
+[Speaker 0]:  because i love drawing。
+[Speaker 0]:  so i was originally an illustrator for the first couple years and the way that i went more into the texi because you kind of been illustrator，
+[Speaker 0]:  that's like，
+[Speaker 0]:  you know，
+[Speaker 0]:  editorial or you're going to branding like all kinds of types。
+[Speaker 0]:  but i started um working for uh ststart up。
+[Speaker 0]:  i guess woulcall。
+[Speaker 0]:  it started was more like a design，
+[Speaker 0]:  deve shop and prog that was making UIUX apps for like SF starps。
+[Speaker 0]:  at the time they were doing work，
+[Speaker 0]:  flike tinder and uber，
+[Speaker 0]:  like in the early days like in their beginnings。
+[Speaker 0]:  so was there。
+[Speaker 0]:  i got exposed to UIUX design，
+[Speaker 0]:  and i was making the illustrations for these absoluing logos and branding violike。
+[Speaker 0]:  that was my first exploge。
+[Speaker 0]:  like oh，
+[Speaker 0]:  there are people who design buttons and sidebars，
+[Speaker 0]:  and that's kind of interesting。
+[Speaker 0]:  i didn't end up going into that for a while，
+[Speaker 0]:  but that was my first introduction to like what is product design in tech，
+[Speaker 0]:  uh as a fields。
+[Speaker 0]:  and eventually，
+[Speaker 0]:  i join this company could egg head，
+[Speaker 0]:  which does develop education。
+[Speaker 0]:  so they taught a dria script。
+[Speaker 0]:  sure，
+[Speaker 0]:  you seen them around um and i was their illustrator for four years，
+[Speaker 0]:  and then i became an art director and like art director，
+[Speaker 0]:  other people's illustrations for them。
+[Speaker 0]:  and that was really where i learned javasscript react like that was，
+[Speaker 0]:  i think my real front and engineering education was like doing illustrations for them。
+[Speaker 0]:  but in doing illustrations，
+[Speaker 0]:  i had to understand the material i was illustrating，
+[Speaker 0]:  which turned out to be like react components，
+[Speaker 0]:  news effect and like javasascript functions。
+[Speaker 0]:  and uh in a we had way，
+[Speaker 0]:  i just ended up moving more into front and engineering and visual design，
+[Speaker 0]:  because it is felt like a natural move。
+[Speaker 1]:  you worked at alleicit as well。
+[Speaker 1]:  right？
+[Speaker 1]:  yeah，
+[Speaker 1]:  was that before i had after that was after yeah。
+[Speaker 1]:  so so you you you were at i had as as their learn designer。
+[Speaker 1]:  and then a liicit was an AI start ted，
+[Speaker 1]:  right？
+[Speaker 1]:  yeah，
+[Speaker 0]:  early pretty early well oprepretty earyeah。
+[Speaker 0]:  i mean，
+[Speaker 0]:  it was like the founas there，
+[Speaker 0]:  what really kind of incredible people and that one of them had been studying language models for ten years。
+[Speaker 0]:  he had like seen the writing on the wall way before anyone else。
+[Speaker 0]:  but like kind of add MIT，
+[Speaker 0]:  like PHD，
+[Speaker 0]:  kind of like，
+[Speaker 0]:  you know，
+[Speaker 0]:  machine learning stuff。
+[Speaker 0]:  and kind of a had this realization of，
+[Speaker 0]:  like language models are going to revolutionize science。
+[Speaker 0]:  he was really bagg like，
+[Speaker 0]:  how could this speed up the scientific process？
+[Speaker 0]:  so a less it originally was um and it still acactually mean theyve they've expanded，
+[Speaker 0]:  but at its core，
+[Speaker 0]:  it is using language models to speed up the scientific literature of your process。
+[Speaker 0]:  this is a very manual slow thing of all these academis reading thousands of papers and extracting data about them in spspad eets perfect for models like a perfect his case。
+[Speaker 0]:  so i joined them。
+[Speaker 0]:  and the was was ate，
+[Speaker 0]:  ate twenty one and only twenty twenty。
+[Speaker 1]:  and and you were the only designers in the product magic were the founding designer。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah，
+[Speaker 0]:  six of us in the beginning when i joined，
+[Speaker 0]:  maybe seven might have been the seven。
+[Speaker 0]:  i forget the very small team，
+[Speaker 0]:  and it stayed almost the time i was there。
+[Speaker 0]:  and yeah，
+[Speaker 0]:  i was the only design of the whole time。
+[Speaker 0]:  and then we had APM at point who left，
+[Speaker 0]:  and then we didn't get another once。
+[Speaker 0]:  it's no PM but qua while and it was a really wonderful experience because it was a classic early start up like it was like we were family。
+[Speaker 0]:  we would like stay together for weeks ks at time during uring retreats like the ounders had really strong conviction。
+[Speaker 0]:  they're really smart people that i trusted them so much。
+[Speaker 0]:  so was caled of like get on board with the vision kind of deal。
+[Speaker 0]:  and it was there。
+[Speaker 0]:  i really learned product designed end to。
+[Speaker 0]:  and that say，
+[Speaker 0]:  in the times of we had lots of users because we had a free prototype that was a very，
+[Speaker 0]:  very popular。
+[Speaker 0]:  do you had all this data？
+[Speaker 0]:  you could collect about what people were searching for and clicking on and what work to what didn't an ABY tests。
+[Speaker 0]:  and we just went really fast like we shift the future every week for a year。
+[Speaker 0]:  so it was like design build，
+[Speaker 0]:  like shipppeit measure，
+[Speaker 0]:  design build，
+[Speaker 0]:  shipit measure on repeat over and over for like the solid。
+[Speaker 0]:  i think goes there a little over two years。
+[Speaker 0]:  and i'd learned a ton in that time，
+[Speaker 0]:  just about the core mechanics of prock design in the sense of like really going from more of the use and needs what's the domain through to doing all the front and engineering and like tying it all together。
+[Speaker 0]:  so it's a really wonderful experience。
+[Speaker 0]:  i learned a lot。
+[Speaker 0]:  is it intense by the end of that as i step back from startas a minute？
+[Speaker 1]:  so you got into design，
+[Speaker 1]:  i guess，
+[Speaker 1]:  kind of more bllike self talf like figure others and need for this。
+[Speaker 1]:  you were to ecade where you learn to design or explain developer concept，
+[Speaker 1]:  educational concept for for developers，
+[Speaker 1]:  you work at AAS arp as a desigsigner。
+[Speaker 1]:  what does a designer do？
+[Speaker 1]:  it's are inside of a simpply that you actually yeah have veral role。
+[Speaker 1]:  that's several rules and II get a sense that，
+[Speaker 1]:  of course，
+[Speaker 1]:  like there。
+[Speaker 1]:  there's going to be that depends，
+[Speaker 1]:  but but at stargups that you work work with that，
+[Speaker 1]:  that you know how would you this descriribe？
+[Speaker 1]:  and of of course，
+[Speaker 1]:  of many as developers have worked with designers，
+[Speaker 1]:  some have not at all。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i kind of describe it。
+[Speaker 0]:  it's not that different engineering。
+[Speaker 0]:  it's it's problem solving，
+[Speaker 0]:  but the materials are different is the way i would describe。
+[Speaker 0]:  it is like you go through the same process of like you have defining what your problem is like are usure。
+[Speaker 0]:  this is the correct problem。
+[Speaker 0]:  have you defined it well and scoped it？
+[Speaker 0]:  well，
+[Speaker 0]:  you know，
+[Speaker 0]:  researching possible solutions doing wide exploration，
+[Speaker 0]:  all the the ways we could solve this，
+[Speaker 0]:  what the tratrados of them。
+[Speaker 0]:  you know，
+[Speaker 0]:  prototyping solutions validated those the right solutions to they work for users。
+[Speaker 0]:  they make sense。
+[Speaker 0]:  i don't think it's that different to engineering in the sense that i do a some of both in my job，
+[Speaker 0]:  but it's just the materials different instead of working with code，
+[Speaker 0]:  although nowadays of developers you working in higher level kind of architecture，
+[Speaker 0]:  data，
+[Speaker 0]:  a low low，
+[Speaker 0]:  you not necessarily writing the syntax。
+[Speaker 0]:  but at the time，
+[Speaker 0]:  what syntax you're going to use to write this problem，
+[Speaker 0]:  and we design the materials are like space，
+[Speaker 0]:  size，
+[Speaker 0]:  weight，
+[Speaker 0]:  color，
+[Speaker 0]:  you know，
+[Speaker 0]:  things you'd see an interface in times of the visuals motion。
+[Speaker 0]:  you know，
+[Speaker 0]:  prominence is this is is big enough。
+[Speaker 0]:  are these the right words for the user to understand what this buttons is going to do，
+[Speaker 0]:  like everything from copywriting to visual graphic design？
+[Speaker 0]:  but with product design are also dealing with what we've call nounns and verbs of a product。
+[Speaker 0]:  so it's easy when your product is like，
+[Speaker 0]:  uh sneaker stores like the nounds，
+[Speaker 0]:  like sneaker caught money。
+[Speaker 0]:  if you're designing a of USH，
+[Speaker 0]:  the nouns get extremely difficult，
+[Speaker 0]:  and i've primarily worked in wicqulic power，
+[Speaker 0]:  use a tools like scientists，
+[Speaker 0]:  developers，
+[Speaker 0]:  whether nounns are extremely hard because they get very abstract。
+[Speaker 0]:  it's like what's the right container for a set of data？
+[Speaker 0]:  what's the right container or like did point you into？
+[Speaker 0]:  oh，
+[Speaker 0]:  this is or whatever set of data，
+[Speaker 0]:  or like this set of data connects to that set of data，
+[Speaker 0]:  or like he is a function that transforms data into another set you need of now and verbs to give contaaters，
+[Speaker 0]:  so they can understand how to manipulate whatever you 're trto get them to do。
+[Speaker 0]:  it's really difficult in def tools，
+[Speaker 0]:  sometimes because theso much much alliability in a way there isn't with what what is malability。
+[Speaker 0]:  uh like abability like it could take different forforms shapes es。
+[Speaker 0]:  this is if you're designing things for the real world。
+[Speaker 0]:  like are frienfrienwho worwork，
+[Speaker 0]:  like government design。
+[Speaker 0]:  there's restrictions their words like youare trying to get someone to fl。
+[Speaker 0]:  our forit's。
+[Speaker 0]:  it's it's can be a hard design challenge，
+[Speaker 0]:  but it's not complex in the same way。
+[Speaker 0]:  this is like at the moment，
+[Speaker 0]:  right？
+[Speaker 0]:  i'm，
+[Speaker 0]:  of course，
+[Speaker 0]:  try to design like agentic tools。
+[Speaker 0]:  and it's like，
+[Speaker 0]:  what are the nounds of enents？
+[Speaker 0]:  all we don't know there's like chat sessions。
+[Speaker 0]:  we have these things called plans that something called on MCP that skills，
+[Speaker 0]:  like，
+[Speaker 0]:  could we make new primitives that，
+[Speaker 0]:  like connect a bunch of sessions all the way to appear that becomes a new nwn that contains，
+[Speaker 0]:  like，
+[Speaker 0]:  like there's all kinds bounounaries。
+[Speaker 0]:  you could draraw that would make the user think about your experience differently。
+[Speaker 0]:  and then you have to define one verbs。
+[Speaker 0]:  can they take on much nounns？
+[Speaker 0]:  right？
+[Speaker 0]:  can you sure edit reamme delete？
+[Speaker 0]:  this is like classic crids stuff。
+[Speaker 0]:  you have to figure out，
+[Speaker 0]:  but i don't know。
+[Speaker 0]:  can you like fork，
+[Speaker 0]:  an agent session all of the implications of that？
+[Speaker 0]:  like 对有 i think the hard bit product design is is designing a coherent system that takes all this complexity that could exist，
+[Speaker 0]:  especially in something like devitals and reducing it to the simplest possible form m。
+[Speaker 0]:  you can，
+[Speaker 0]:  which is a very easy to say，
+[Speaker 0]:  extremely hard to do every time uh to like really，
+[Speaker 0]:  really cononical set of nwns that if the user can go，
+[Speaker 0]:  okay，
+[Speaker 0]:  i can point at that。
+[Speaker 0]:  i understand what that's going going to do。
+[Speaker 0]:  i can，
+[Speaker 0]:  i clicick button don't get surprised at the outcome。
+[Speaker 0]:  this takes time to do this kind of like hard reduto，
+[Speaker 0]:  say to its best inggelegm form。
+[Speaker 1]:  interesting，
+[Speaker 1]:  because what you described，
+[Speaker 1]:  like，
+[Speaker 1]:  you know，
+[Speaker 1]:  we have a new product that has not not existed before，
+[Speaker 1]:  like a death tool in a digital space，
+[Speaker 1]:  which lives in our head or inside of a computer with things that we just invented made up in MCP or an agendtic scale。
+[Speaker 1]:  and then thinking of how we find the right words，
+[Speaker 1]:  so people can use it。
+[Speaker 1]:  and and make sense that it's you kind of。
+[Speaker 1]:  i just see that you're kind of drawing up a map in your you're head，
+[Speaker 1]:  which is not all that different to when you're building a new system as a software engineer。
+[Speaker 1]:  and i were talking with canduck，
+[Speaker 1]:  who talked about how uh with ward connegum，
+[Speaker 1]:  they they came up with with suple of the basics of that might have been domain of an designer。
+[Speaker 1]:  it might have been some uh，
+[Speaker 1]:  some some some related concepts，
+[Speaker 1]:  but they had a dizorious in front of them trying to research for the right words on how to，
+[Speaker 1]:  oh，
+[Speaker 1]:  it was the design patterns，
+[Speaker 1]:  uh design patterterns lacame out of it。
+[Speaker 1]:  but they were trying to put a name on these constructs。
+[Speaker 1]:  and these things at how，
+[Speaker 1]:  which which feels like a very similar thing to what you're describing。
+[Speaker 0]:  yeah yeah，
+[Speaker 0]:  yeah design。
+[Speaker 0]:  this is where i kind of get into show this types of design，
+[Speaker 0]:  like you could be like there's interarior design as brand design as product design。
+[Speaker 0]:  but product design，
+[Speaker 0]:  when we told what in tech is actually software design and software are design is engineering。
+[Speaker 0]:  it's actually the same scale。
+[Speaker 0]:  you，
+[Speaker 0]:  you might be working with slightly different materials。
+[Speaker 0]:  in the sense of one of you cares more about the colors in the size and the shadows。
+[Speaker 0]:  and like the shape of things and the motion design，
+[Speaker 0]:  but that peasant also has to understand，
+[Speaker 0]:  like what's the shape of the database ase，
+[Speaker 0]:  like what of these api，
+[Speaker 0]:  like what is the data in the right place。
+[Speaker 0]:  so we passing data through this component in the right way like they have to also understand。
+[Speaker 1]:  and this is interesting as the designers i work with years back at places like goober and and a skype。
+[Speaker 1]:  no，
+[Speaker 1]:  they had their design tools，
+[Speaker 1]:  which was sketch lalater figma。
+[Speaker 1]:  they typically work with the product folks，
+[Speaker 1]:  they，
+[Speaker 1]:  they did uh explorations or or UX protythey are often sudden to usuer testing。
+[Speaker 1]:  but in the end，
+[Speaker 1]:  they they had a design they had。
+[Speaker 1]:  they had visuals。
+[Speaker 1]:  they had animations，
+[Speaker 1]:  that was their thing，
+[Speaker 1]:  and they handit this over to us engineers together，
+[Speaker 1]:  the the PRD，
+[Speaker 1]:  or the here，
+[Speaker 1]:  the product。
+[Speaker 1]:  here's i was going to look。
+[Speaker 1]:  and then we built it，
+[Speaker 1]:  and we will build the UI lets in mobile，
+[Speaker 1]:  and we will then go maybe set t them or show them like。
+[Speaker 1]:  and they would say，
+[Speaker 1]:  i go，
+[Speaker 1]:  this motion does n't feel good，
+[Speaker 1]:  but my view of of designers，
+[Speaker 1]:  like what it was very visual。
+[Speaker 1]:  and for example，
+[Speaker 1]:  those designers，
+[Speaker 1]:  maybe they didn't to to，
+[Speaker 1]:  but they didn't to get invovolved like how that they basase were so on，
+[Speaker 1]:  how to close it。
+[Speaker 1]:  they were very wish aware of the flows，
+[Speaker 1]:  the user journey。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so like is that type of design？
+[Speaker 1]:  how would you care twes as as being different？
+[Speaker 1]:  or is is just that，
+[Speaker 1]:  that they're domain is a little bit different。
+[Speaker 1]:  that's more of the business level that the more kind of mobile，
+[Speaker 1]:  these right mobile and weapons and some of those。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i think it gets into kind of like how we label different parts of design like that kind of design。
+[Speaker 0]:  i'm talking about obviously biased by my experience，
+[Speaker 0]:  which is much more design engineering stuff，
+[Speaker 0]:  because it is like what i hear design engineer，
+[Speaker 0]:  that's kind of catch phrase now worth that mean。
+[Speaker 0]:  but i think about as a designer who really engages in the engineering and understands how the product works and it's required。
+[Speaker 0]:  it's not required in all termains。
+[Speaker 0]:  again，
+[Speaker 0]:  if you're doing government forms，
+[Speaker 0]:  they don't think you need to understand the database。
+[Speaker 0]:  but if you're designing for developers or you're designing in a brand new field like AI。
+[Speaker 0]:  well，
+[Speaker 0]:  so much of how the product works is determined by what is possible on the back end and the shape of the data，
+[Speaker 0]:  then you do need to engage that a lot。
+[Speaker 0]:  but if you're working on a nap weactually tually，
+[Speaker 0]:  a designer is ababbetter served by advocating for the user。
+[Speaker 0]:  i think that's a kind of more traditional philosophof product design is a you represent the user，
+[Speaker 0]:  and you represent trying to get the best experience possible for the user。
+[Speaker 0]:  and that means user in of views，
+[Speaker 0]:  caring about flows。
+[Speaker 0]:  like does this button feel big enough doesn't have the right words，
+[Speaker 0]:  and then they can spend much energy there if they don't have to care about the technical back。
+[Speaker 0]:  and but mabe it's actually relevant when really what you need to care about is like，
+[Speaker 0]:  does this flow make sense to people？
+[Speaker 0]:  so that's not necessarily different kind of designer，
+[Speaker 0]:  but it's if you kind of think of the whole，
+[Speaker 0]:  the stack，
+[Speaker 0]:  right，
+[Speaker 0]:  but expand it all the way out，
+[Speaker 0]:  not just back in in front end，
+[Speaker 0]:  but the interface and users and then the product in the context of a business。
+[Speaker 0]:  and like the product in the context of economy，
+[Speaker 0]:  like there are people who have been way more on this side。
+[Speaker 0]:  and i'm i'm a bit more the struggling of the product design in the engineering，
+[Speaker 0]:  but you can have valid of designers all along this。
+[Speaker 0]:  and some people，
+[Speaker 0]:  again，
+[Speaker 0]:  you know，
+[Speaker 0]:  just visuals or just animation like there's lots of nshes。
+[Speaker 0]:  i just like a bit more of the the half engineering half designs like slice of it。
+[Speaker 1]:  uh helps understand a bit more of what you do can ing all about the tools that to use，
+[Speaker 1]:  like，
+[Speaker 1]:  you know，
+[Speaker 1]:  as as engineers work kind of used in our tools used to be the ID and the code editor。
+[Speaker 1]:  and you know，
+[Speaker 1]:  several hardware people like them and some of those things。
+[Speaker 1]:  and these days，
+[Speaker 1]:  of course，
+[Speaker 1]:  chanchanga bit it。
+[Speaker 1]:  but king know those are the tools of use。
+[Speaker 1]:  what are your tools？
+[Speaker 0]:  it changes all the time。
+[Speaker 0]:  i mean，
+[Speaker 0]:  to some degree like something things conconstant like your and you're used doing similar tasks。
+[Speaker 0]:  but of course，
+[Speaker 0]:  at the moment，
+[Speaker 0]:  i'm trying to try everything，
+[Speaker 0]:  because part of my job is like china figure out what 'll get have to do next。
+[Speaker 1]:  that's what teteam does you have next day。
+[Speaker 0]:  that's like。
+[Speaker 0]:  it was well named um so a lot of the time like we are just get，
+[Speaker 0]:  of course，
+[Speaker 0]:  i'm trying out codex and claud。
+[Speaker 0]:  and like dog fooding stuff，
+[Speaker 0]:  intertinally it get hub。
+[Speaker 0]:  i've tried conductuh，
+[Speaker 0]:  i meant name any aggentaononas。
+[Speaker 0]:  like open code um pie，
+[Speaker 0]:  i try them all。
+[Speaker 0]:  i do love codex at the moment，
+[Speaker 0]:  like i do think like opening eyes under some really good stuff at least in there。
+[Speaker 0]:  their design of their，
+[Speaker 0]:  like desccop app is is beautiful。
+[Speaker 0]:  they're really thought it through。
+[Speaker 0]:  so i think they're doing some really good stuff。
+[Speaker 0]:  it's still use paper pan for like a nitial brainstorming。
+[Speaker 0]:  yeah，
+[Speaker 1]:  you have。
+[Speaker 1]:  you have ver，
+[Speaker 1]:  no books here。
+[Speaker 1]:  yeah，
+[Speaker 0]:  i brought some along because no books on dead。
+[Speaker 0]:  i don't think they're going to be dead for forever。
+[Speaker 0]:  uh i still still figma because i know how to use it，
+[Speaker 0]:  and i can do some brainstorming in it before i passed it after an agent。
+[Speaker 0]:  but to be honest，
+[Speaker 0]:  there's a point where once you figured out what you need to build，
+[Speaker 0]:  which is actually all the work once you hand it off to an agent。
+[Speaker 0]:  it's not the implementation insolved，
+[Speaker 0]:  but we've reached point where impimplementation is like good enough that if i speck it out really well。
+[Speaker 0]:  and i and i list out how the agent should verify me that it actually did the work。
+[Speaker 0]:  i can't hand it to an agent。
+[Speaker 0]:  i just like be like，
+[Speaker 0]:  right，
+[Speaker 0]:  let me know when you gota PR up。
+[Speaker 0]:  you know，
+[Speaker 0]:  i don't really look at code that much anymore。
+[Speaker 0]:  i do look at PR code when i'm reviewing it，
+[Speaker 0]:  but skkiskim skam。
+[Speaker 0]:  you know，
+[Speaker 0]:  okay，
+[Speaker 0]:  that looks sensible much。
+[Speaker 0]:  um so most of the work i find is everything leading up to telling the agent to implement something and then the PR of views，
+[Speaker 0]:  kind of a separate piece of work。
+[Speaker 0]:  but like the bulk of my tools still in this first section now facis，
+[Speaker 0]:  we used to have the IDE。
+[Speaker 0]:  you know，
+[Speaker 0]:  once it was like，
+[Speaker 0]:  okay，
+[Speaker 0]:  you've decided this is the right thing to design。
+[Speaker 0]:  now you actually start the work of like implementing it kind kind of beautiful。
+[Speaker 0]:  that's no no longer part of it as much open BS code sometimes，
+[Speaker 1]:  but not really yeah，
+[Speaker 1]:  but beforehand you would prototypes。
+[Speaker 1]:  i thought you would build prototypes。
+[Speaker 0]:  yeah。
+[Speaker 0]:  yeah。
+[Speaker 0]:  that's part of that。
+[Speaker 0]:  like what should be built，
+[Speaker 0]:  i include in this lots of prototyping，
+[Speaker 0]:  and i kind of have the privilege of being on a team。
+[Speaker 0]:  what we don't have to build like production quality software。
+[Speaker 0]:  we ought mostly trying to prototype and validate ideas。
+[Speaker 0]:  so we have a lower quality bar than someone shipping to proper，
+[Speaker 0]:  get hub docome as a very high quality ball。
+[Speaker 1]:  yeah，
+[Speaker 1]:  my sounthat。
+[Speaker 1]:  i mean，
+[Speaker 1]:  that's kind of you get the kind of you，
+[Speaker 1]:  you get the directional things right？
+[Speaker 1]:  and it once is great。
+[Speaker 1]:  you might build it，
+[Speaker 1]:  or you might decide to build it。
+[Speaker 1]:  yeah yeah，
+[Speaker 0]:  but i definitely，
+[Speaker 0]:  i mean，
+[Speaker 0]:  we can hopefuly show these later。
+[Speaker 0]:  i do。
+[Speaker 0]:  i do a lot of stuff sketching。
+[Speaker 0]:  i mean，
+[Speaker 0]:  even just in a face design，
+[Speaker 0]:  a of what you're doing is just drawing boxes than being like。
+[Speaker 0]:  does this slide over from the front from the bottom？
+[Speaker 1]:  like if i click this button。
+[Speaker 1]:  so so this is like you canhave drawing up a you are。
+[Speaker 1]:  i have an interface，
+[Speaker 1]:  you think could look like。
+[Speaker 1]:  so yeah，
+[Speaker 1]:  i see a mix of yeah of mix of UUS，
+[Speaker 1]:  uh will put this on on onto the screen，
+[Speaker 1]:  but US description of of what they do。
+[Speaker 1]:  what like，
+[Speaker 1]:  can you just talk to？
+[Speaker 1]:  one of these are like one that that's interesting rememorable。
+[Speaker 1]:  yeah。
+[Speaker 0]:  yes。
+[Speaker 0]:  so this is a new。
+[Speaker 0]:  i should explain the context。
+[Speaker 0]:  i am part of totyping at the moment，
+[Speaker 0]:  something where my theory is like one of the bottle next with agents is planning，
+[Speaker 0]:  is a really bad experience at the moment，
+[Speaker 0]:  like at the moment，
+[Speaker 0]:  you have a long chat with an agent。
+[Speaker 0]:  you sometimes even in ACAE，
+[Speaker 0]:  which is a pretty primitive beneface and then the agent grills by asking king a set of like choice，
+[Speaker 0]:  AB or c questions。
+[Speaker 0]:  and it does there's like hundred times over if youyou're using mapaccoscrialmmy scale。
+[Speaker 1]:  it was just on a podcast。
+[Speaker 1]:  yes，
+[Speaker 0]:  yeah，
+[Speaker 0]:  uh and buy question twenty。
+[Speaker 0]:  you're like quite tired，
+[Speaker 0]:  and your brain starts shuting down that with my friend。
+[Speaker 1]:  i went through，
+[Speaker 1]:  and i got three six questions，
+[Speaker 1]:  and i was was kind it。
+[Speaker 1]:  there were good，
+[Speaker 1]:  but i was trying to get annoyed，
+[Speaker 1]:  right，
+[Speaker 1]:  like，
+[Speaker 1]:  like，
+[Speaker 1]:  like，
+[Speaker 1]:  like twenty or twenty five。
+[Speaker 1]:  i'm like and also nonoone。
+[Speaker 1]:  it was up right？
+[Speaker 0]:  it's endless。
+[Speaker 0]:  and like the human brain，
+[Speaker 0]:  you get tired，
+[Speaker 0]:  you can't make the same decisions in this shorter time。
+[Speaker 0]:  and also，
+[Speaker 0]:  you don't have enough information about most of those decisions because it's given you a question and three options。
+[Speaker 0]:  it told you，
+[Speaker 0]:  number a is recommend that you just stop being like yp AA enter AI agree with you。
+[Speaker 0]:  so this is not an ideal experience。
+[Speaker 0]:  this gets into like uh agents love to output rooms and and rooms of text，
+[Speaker 0]:  and that's an ideal output for agents。
+[Speaker 0]:  but it is not an ideal input for humans。
+[Speaker 0]:  so we have a mismatch with，
+[Speaker 0]:  like what do humans need to be able to digest large amounts of information and truly understand it and be able to make inform decisions that does not be in a face for this。
+[Speaker 0]:  so i'm trying to explore how would we make an interface that got us to do better planning。
+[Speaker 0]:  i'm better decision making，
+[Speaker 0]:  but in a way that was easier for us to comprehenso。
+[Speaker 0]:  so this what i'm prototyppat at moment。
+[Speaker 0]:  and part of of this is okay。
+[Speaker 0]:  it's can be multiplayer，
+[Speaker 0]:  because，
+[Speaker 0]:  of course，
+[Speaker 0]:  everything should be with your team planning together。
+[Speaker 0]:  several people can do it together exactly um but also just like，
+[Speaker 0]:  how do you make it so that you have more space for each decision？
+[Speaker 0]:  so i'm trying to put a type pe ook。
+[Speaker 0]:  so fefeval is has to definitely happen in a gooe，
+[Speaker 0]:  not in ACA lie。
+[Speaker 1]:  so these are just like a rough ideas of how you have a more space exactly。
+[Speaker 0]:  so i'm thinking of it as like each decision，
+[Speaker 0]:  maybe has its own little，
+[Speaker 0]:  many document or card and depending on the decision。
+[Speaker 0]:  so that maybe you can just have three multiple choices。
+[Speaker 0]:  that's fine。
+[Speaker 0]:  it's maybe a simple decision right？
+[Speaker 0]:  very busy。
+[Speaker 0]:  but sometimes i'll ask me things like，
+[Speaker 0]:  do you think the border should be like great，
+[Speaker 0]:  ten percent，
+[Speaker 0]:  twelve percent or fifteen percent。
+[Speaker 0]:  and unlike well show show me，
+[Speaker 0]:  this is a visual question。
+[Speaker 0]:  or sometimes it's like how do you want the architecture to be structuand？
+[Speaker 0]:  i'm like will show me an architecture diagram show me a data。
+[Speaker 0]:  fllow diagram show me a state machine like i'm turn a protype pe like decisions that have come with diagrams and prototypes and HT ml and better than them。
+[Speaker 0]:  so the depending on what question is being asked，
+[Speaker 0]:  it shows me the correct in a face to make that decision。
+[Speaker 0]:  so why meant prototyping here is，
+[Speaker 0]:  i okay，
+[Speaker 0]:  you got a plan。
+[Speaker 0]:  that's a big document。
+[Speaker 0]:  you maybe got these little decision dogs and but it within them，
+[Speaker 0]:  can you could expand to see more of a en looking at？
+[Speaker 0]:  like i think each decision should have a human assign to it who made that decision so that you have an audit trial later，
+[Speaker 0]:  not lecessary。
+[Speaker 0]:  it hung people down，
+[Speaker 0]:  but to be like，
+[Speaker 0]:  okay，
+[Speaker 0]:  why why did we make the decision about the back？
+[Speaker 0]:  and well，
+[Speaker 0]:  let's go see。
+[Speaker 0]:  okay。
+[Speaker 0]:  look，
+[Speaker 0]:  made that decision。
+[Speaker 0]:  like six months ago。
+[Speaker 0]:  let's go open up his decision card and be like，
+[Speaker 0]:  what information did he have available in order to make this decision？
+[Speaker 0]:  hopefully，
+[Speaker 0]:  this bees useful later。
+[Speaker 0]:  but here i'm just sketching。
+[Speaker 0]:  one of the possible shiees。
+[Speaker 0]:  this tatake is as like AA stack of cards that expands on the screen is that's like all one big linia thing that we like swiping through stuff，
+[Speaker 0]:  like it's tender，
+[Speaker 0]:  like what what interfaces uh 're going to be useful for this。
+[Speaker 0]:  this，
+[Speaker 0]:  this is what a lot of sketching is just trying to figure out like possible possible shapes of things。
+[Speaker 0]:  i have all kinds，
+[Speaker 0]:  all these like characters，
+[Speaker 0]:  so elwas trying to make an ESP character oacter。
+[Speaker 0]:  well，
+[Speaker 0]:  this is like，
+[Speaker 0]:  you know，
+[Speaker 0]:  this is like my kids scribling。
+[Speaker 0]:  all of it might went back。
+[Speaker 0]:  this is like，
+[Speaker 0]:  you know，
+[Speaker 0]:  ESP thirty two，
+[Speaker 0]:  you know，
+[Speaker 0]:  steve freees has like sold everyone and buy and ESP thirty two，
+[Speaker 0]:  like like the dttle device with a screen and a very small microchip that has wife i blutooth。
+[Speaker 0]:  and so as designing civil character who like tells me the weather，
+[Speaker 0]:  and like i'm trying to hook it up to my agent。
+[Speaker 0]:  so it can be like you have this much capacity left before，
+[Speaker 0]:  younk said，
+[Speaker 0]:  limit happen。
+[Speaker 0]:  so like this is just all kind of things happhappen，
+[Speaker 1]:  like it's a mix up，
+[Speaker 1]:  like like some serious stuff。
+[Speaker 1]:  and some fun stuff，
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah。
+[Speaker 0]:  and i can show like um the whole thing with notebks and thinking on paper，
+[Speaker 0]:  i think all desiders do this，
+[Speaker 0]:  but coming from illustration。
+[Speaker 0]:  the reason i do this is because i started in a worildwhere。
+[Speaker 0]:  you have to draw everything to like figure out what you're going to do。
+[Speaker 0]:  so when i was an illustrator，
+[Speaker 0]:  i had tons of these notebooks where you're figuring out like，
+[Speaker 0]:  what's the composition？
+[Speaker 0]:  what's the physical shape of things？
+[Speaker 0]:  like how are you working out like the shape of the grass in a scene？
+[Speaker 0]:  and so i think i started problem solving on paper，
+[Speaker 0]:  like very early on in my career，
+[Speaker 0]:  like figuring out compositions in layts。
+[Speaker 0]:  was this was this was in was this in college when was this II think gowin for egg head when i was doing this uand？
+[Speaker 1]:  and you dreall of these，
+[Speaker 1]:  yeah，
+[Speaker 0]:  yeah ah was trained with them。
+[Speaker 0]:  i was in a lay for a while，
+[Speaker 0]:  which is a terrible place to live。
+[Speaker 0]:  but with i trained with like people who are concept artists on films，
+[Speaker 0]:  and i have a really beautiful way of working。
+[Speaker 0]:  that's that's very technical。
+[Speaker 0]:  it's very like constructing things from three d shapes like drawin space。
+[Speaker 1]:  the disease are really three d。
+[Speaker 1]:  yeah，
+[Speaker 0]:  yeah。
+[Speaker 0]:  um and then yet they kind of just teach you how to do，
+[Speaker 0]:  like landscapes and layouts。
+[Speaker 0]:  i loved their way of teaching，
+[Speaker 0]:  and it's very i again，
+[Speaker 0]:  it's very technical。
+[Speaker 0]:  it's it's like engineering。
+[Speaker 0]:  you have to understand，
+[Speaker 0]:  like with robotics，
+[Speaker 0]:  like different types of joints，
+[Speaker 0]:  you could like put together a robot，
+[Speaker 0]:  and so that you could actually draw robot that was believable。
+[Speaker 0]:  there was a lot of like understanding reality in order to believably draw a reality。
+[Speaker 0]:  and i think doing this set me up to when i moved into like AUI design to do a lot of this kind of sketching，
+[Speaker 1]:  because because is naturally，
+[Speaker 1]:  i mean，
+[Speaker 1]:  these are a little but easier test sketchand easer er to places yeah。
+[Speaker 0]:  but then i think that helps you you on paper that all of this is sort of like you have an idea in your head and sure i could like go into clord code and be like hake claud。
+[Speaker 0]:  here's an idea i have。
+[Speaker 0]:  it's like a stack of cards in its nicardian，
+[Speaker 0]:  but it's much faster to just get a piece of pen like peppenel pencil on the desk next to me and draw that with my hands。
+[Speaker 0]:  it's like wave your effort。
+[Speaker 0]:  so i feel like people online heep being like all like everyone's just going to prompt everything to create，
+[Speaker 0]:  but but you need something that is like quick feedback and very loose in the early stages to figure out the shape of something before you can put into words。
+[Speaker 0]:  what you want an agent to do，
+[Speaker 0]:  but also it's visual。
+[Speaker 0]:  it's not tech。
+[Speaker 1]:  is it？
+[Speaker 1]:  is it not a bit more satisfying doing into to hand so much better？
+[Speaker 0]:  yeah，
+[Speaker 0]:  and then you can look at it。
+[Speaker 0]:  it doesn't go away on your screen and can sit on your desk，
+[Speaker 0]:  and you can like the next day be like，
+[Speaker 0]:  oh，
+[Speaker 0]:  yes，
+[Speaker 0]:  i remember i was trina，
+[Speaker 0]:  like figure out what shape this this feature should be，
+[Speaker 0]:  or like you can draw like data diagrams，
+[Speaker 0]:  whatever you want。
+[Speaker 0]:  it's it doesn't have to be visual，
+[Speaker 0]:  but it's just a way of externalizing thoughts before there，
+[Speaker 0]:  then they're not linguistic。
+[Speaker 0]:  i think this is the key thing is like again，
+[Speaker 0]:  agents only except texas inputs。
+[Speaker 0]:  okay，
+[Speaker 0]:  they can reimages like，
+[Speaker 0]:  i do take empt photos，
+[Speaker 0]:  put men，
+[Speaker 0]:  but then not as good at images that very bad as special special reasoning。
+[Speaker 0]:  they very bad，
+[Speaker 0]:  a visual design。
+[Speaker 0]:  i mean，
+[Speaker 0]:  trying to get them to do design。
+[Speaker 0]:  they just make mistakes feel like they just don't put misual around things and things。
+[Speaker 0]:  they're wrong，
+[Speaker 0]:  size。
+[Speaker 0]:  they make text over that they can't see right，
+[Speaker 0]:  like trying to explain a visual idea in text to agent is really challenging um and doesn't work very well。
+[Speaker 0]:  so i find i still end up doing a lot of my design without agents up front，
+[Speaker 0]:  because all it is，
+[Speaker 0]:  is thinking through the visual，
+[Speaker 0]:  the visual pieces of it。
+[Speaker 0]:  and man，
+[Speaker 0]:  when i'm like，
+[Speaker 0]:  okay，
+[Speaker 0]:  i know this is the shape of the thing i want that i can tell an agent to do it，
+[Speaker 0]:  but i find it hard to like involve it earlier in a way that think people，
+[Speaker 0]:  people，
+[Speaker 0]:  what what are claimingthey do，
+[Speaker 0]:  but i'm skeptical，
+[Speaker 1]:  but but is is interesting，
+[Speaker 1]:  because even in software design，
+[Speaker 1]:  talking king，
+[Speaker 1]:  our chestiter design，
+[Speaker 1]:  some of the like this most productive sessions i've observed to have been in person around the white board。
+[Speaker 1]:  yeah，
+[Speaker 1]:  where 嗯 people again，
+[Speaker 1]:  we're talking about，
+[Speaker 1]:  like components，
+[Speaker 1]:  datasase，
+[Speaker 1]:  networking，
+[Speaker 1]:  connections retriologics，
+[Speaker 1]:  whatever，
+[Speaker 1]:  you know like these things you could describe？
+[Speaker 1]:  or are you put on a computer？
+[Speaker 1]:  but when you put it on a board，
+[Speaker 1]:  when someone put it on there and then someone else takes anyknow，
+[Speaker 1]:  they kind of it's there're force to take their ideas into two d space，
+[Speaker 1]:  because we we，
+[Speaker 1]:  under three，
+[Speaker 1]:  three，
+[Speaker 1]:  three，
+[Speaker 1]:  can i know，
+[Speaker 1]:  know can draw w cool three。
+[Speaker 1]:  but what we can also just boxes and arrows someone does that and the other people understand and they go and and they add their own thing or they circle，
+[Speaker 1]:  or they add new components。
+[Speaker 1]:  and even a digital space。
+[Speaker 1]:  i ving myor was a good example。
+[Speaker 1]:  they became so popular because they figured it out a way to do collaborative white boboarding。
+[Speaker 1]:  you ah like you don't have to be in the same room，
+[Speaker 1]:  but they give you somewhat similar tools。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so i wonder if if this whole thing of of getting your ideas either to to a physical medium，
+[Speaker 1]:  which i think for us engineers as the white board for for US，
+[Speaker 1]:  the the nobook maybe baby just helps maybe breathing or or lidify，
+[Speaker 1]:  or also it does，
+[Speaker 1]:  it does have forcing function about the diverbthe the shapes at you。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah。
+[Speaker 0]:  and this gives into kind of like the inner faces。
+[Speaker 0]:  we have to agents right now are so primitive。
+[Speaker 0]:  i think we know this，
+[Speaker 0]:  right。
+[Speaker 0]:  we're all like a couple years into this。
+[Speaker 0]:  and i think which just is it wild。
+[Speaker 0]:  maybe five years。
+[Speaker 0]:  i forget when GBT four came out，
+[Speaker 0]:  was it three or four years ago？
+[Speaker 1]:  judge ABT three point five came out in the three years was it？
+[Speaker 0]:  it was four，
+[Speaker 1]:  four years，
+[Speaker 1]:  no november，
+[Speaker 1]:  twenty twenty。
+[Speaker 1]:  yeah，
+[Speaker 0]:  yeah。
+[Speaker 0]:  yeah。
+[Speaker 0]:  as soon as that elicit。
+[Speaker 0]:  and then because we were debating doing a chat in a face。
+[Speaker 0]:  and then they did that we were like all they like solarate。
+[Speaker 0]:  stolerate is necessarily competing with them。
+[Speaker 0]:  but that is no time at all。
+[Speaker 0]:  and it's kind of while we've made it as far as we have。
+[Speaker 0]:  but it's also like i always say software designstand extremely young field，
+[Speaker 0]:  like worry sixty years into it most。
+[Speaker 0]:  so even that we haven't figured out a lot of things about how to design the best ennofaces for people and machines to like communicate with each other and agents barely at all。
+[Speaker 0]:  i feel like there's just like this as well。
+[Speaker 0]:  did the agents live in？
+[Speaker 0]:  there's wewait and models and skills and MCPS。
+[Speaker 0]:  and then you have your human side that is like physicality and texture and light materials。
+[Speaker 0]:  and all these things，
+[Speaker 0]:  agents don't understand and try to find like out of facts that allow us to meet in the middle。
+[Speaker 0]:  and creraate stuck together is like the really hard challenge，
+[Speaker 0]:  because you got two totally different types of beings，
+[Speaker 0]:  not that agents are conscious。
+[Speaker 0]:  beings are not in that camp，
+[Speaker 0]:  but there are type of intelligence that，
+[Speaker 0]:  like once to think and act in a certain way，
+[Speaker 0]:  that is not the way humans want to think and act。
+[Speaker 0]:  and it's hard like translate between the two。
+[Speaker 0]:  i just find my，
+[Speaker 0]:  i frustrated that they can't sort of，
+[Speaker 0]:  you know，
+[Speaker 0]:  be looking of my short or looking at my nope and be understanding what i'm drawing。
+[Speaker 0]:  and like helping me move my ideas along this is like the evental dream is they understand space and light and shape and lines，
+[Speaker 0]:  and you know，
+[Speaker 0]:  but but think quite always away from that。
+[Speaker 1]:  so one thing we've talked about you're no books，
+[Speaker 1]:  and i ququite something thing，
+[Speaker 1]:  you said listed about freeently as what working。
+[Speaker 1]:  he said，
+[Speaker 1]:  he said，
+[Speaker 1]:  i'm at that stage of by software is i'm during what know i'm at that stage of you of where you start taking king good worworking process。
+[Speaker 1]:  and you think little little bit about that experience？
+[Speaker 0]:  well，
+[Speaker 0]:  the little little bit of the joke is like i just feel at some point。
+[Speaker 0]:  every engineer，
+[Speaker 0]:  you have a choice of things you can get into，
+[Speaker 0]:  because you feel like you're like disambodied from the worlds，
+[Speaker 0]:  working king software。
+[Speaker 0]:  so you have to pick ceramics，
+[Speaker 0]:  bread，
+[Speaker 0]:  baking。
+[Speaker 0]:  you can maybe pick like motorcycle repair or something。
+[Speaker 0]:  but what workings are pretty popular one，
+[Speaker 0]:  because it's like engineering it。
+[Speaker 0]:  that's not like measurement and being precise。
+[Speaker 0]:  um so yeah，
+[Speaker 0]:  i'm learning good working because i bought a house here。
+[Speaker 0]:  and all the houses in london are very old。
+[Speaker 0]:  you buy a house that need a lot of work that is like always what happens，
+[Speaker 0]:  maybe the same and amsterdaamand。
+[Speaker 0]:  yes，
+[Speaker 0]:  happens s so that you suddenly become like，
+[Speaker 0]:  oh，
+[Speaker 0]:  i need to learn like DIY skills，
+[Speaker 0]:  which i was get you。
+[Speaker 0]:  you know，
+[Speaker 0]:  laud tragebeity very helpful。
+[Speaker 0]:  coaches in this regard alone to like fimake be instagram II lot，
+[Speaker 0]:  but i just was like，
+[Speaker 0]:  oh，
+[Speaker 0]:  but re's so many things i need sokills too，
+[Speaker 0]:  that i need to figure how to make。
+[Speaker 0]:  i need to like make shells。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i need to like fix this sourls ter。
+[Speaker 0]:  well，
+[Speaker 0]:  i like，
+[Speaker 0]:  well，
+[Speaker 0]:  i have no DIY skills。
+[Speaker 0]:  no，
+[Speaker 0]:  well，
+[Speaker 0]:  working。
+[Speaker 0]:  well，
+[Speaker 0]:  well，
+[Speaker 0]:  i have up procourse being well，
+[Speaker 0]:  well，
+[Speaker 0]:  HHI pretty be sure。
+[Speaker 0]:  i can like a not too old。
+[Speaker 0]:  i can can acquire these sls ls。
+[Speaker 0]:  i'm i'm sure if i'm not the parallels to software，
+[Speaker 0]:  but and i'm more satisfying way where you actually like touch the thing you made。
+[Speaker 1]:  one thing that you've talked about you've been talking about is the concept of of design engineers for for a few years ago。
+[Speaker 1]:  you post it all or cold you。
+[Speaker 1]:  uh，
+[Speaker 1]:  i'm having a strong shy to become a faulband design engineday。
+[Speaker 1]:  i'm not have been sure what it means，
+[Speaker 1]:  but i just want to touch a lots of code and solve tengeal problems on screens and make beautiful，
+[Speaker 1]:  less animated stuff。
+[Speaker 1]:  yeah，
+[Speaker 1]:  and then you you went over，
+[Speaker 1]:  and you try to collect the names of people who we knew who you felt work，
+[Speaker 1]:  kind of doing this design engineer。
+[Speaker 1]:  now that was a few years ago。
+[Speaker 1]:  yeah，
+[Speaker 1]:  what have you figured out about design engineers，
+[Speaker 1]:  if they exist，
+[Speaker 1]:  what they do，
+[Speaker 1]:  where what places they work in？
+[Speaker 1]:  yeah，
+[Speaker 0]:  i think they do exist。
+[Speaker 0]:  i think twitter might have a different definition or like，
+[Speaker 0]:  i think there's a lot of where well that that they should call x，
+[Speaker 0]:  sorry，
+[Speaker 0]:  x witter ter x all same on XI，
+[Speaker 0]:  feel like a lot of people who get called desigengineers or who present themselves as designineers。
+[Speaker 0]:  acactually are like very good micro interaction designers，
+[Speaker 0]:  like little like it is a cool harver effect on a button。
+[Speaker 0]:  and like it is a cool loading transition state。
+[Speaker 0]:  those things are definitely cool。
+[Speaker 0]:  i don't consider that design engineering because you could achieve most of those things were just telling an agent to do those without looking at a single piece code to me。
+[Speaker 0]:  that's just like varilike，
+[Speaker 0]:  like advance sophisticated，
+[Speaker 0]:  like motion design and and visual design。
+[Speaker 0]:  and that's cool。
+[Speaker 0]:  but i don't consider that desigengineering because i don't think that's like a full job for you to do that as a career。
+[Speaker 0]:  but desigengineering now what like the people who i think of is good and design engineers，
+[Speaker 0]:  do we kind of thing i'se talking about before when you step much more into the engineering side of work。
+[Speaker 0]:  so you're still a designer。
+[Speaker 0]:  you're still caring about like product nouns and verbs and like the visual design。
+[Speaker 0]:  but then you really work with engineers closely or and or are like directly involved in implementing and writing code yourself。
+[Speaker 0]:  and you fully understand or to，
+[Speaker 0]:  you know，
+[Speaker 0]:  not fully or have to be a fulfful stack。
+[Speaker 0]:  but like you have a deep understanding of the technical，
+[Speaker 0]:  the technical architecture of the product you are building，
+[Speaker 0]:  you really all like，
+[Speaker 0]:  okay，
+[Speaker 0]:  given the shape of the back and data，
+[Speaker 0]:  what is possible in the interface like that sort of design work，
+[Speaker 0]:  you know，
+[Speaker 0]:  given given what models are capable of and what kind of skill，
+[Speaker 0]:  like custom skills are building into this product？
+[Speaker 0]:  like how do i explain to use ses what the capabilities of this product cour，
+[Speaker 0]:  like truly digging into the technquals and not living in the world of like just user interviews on the market。
+[Speaker 0]:  and like what color is the side bar，
+[Speaker 0]:  but caring much more worworking，
+[Speaker 0]:  much more closely with the engineers。
+[Speaker 0]:  and almost always，
+[Speaker 0]:  i feel like implementing a lot of yyourself，
+[Speaker 0]:  like i've always done my own front and work because it's easier。
+[Speaker 0]:  and then the engineers i work with i'uusuththilled because they hate CSS，
+[Speaker 0]:  and then they get to go work。
+[Speaker 0]:  and like the more interesting difficult stuff，
+[Speaker 0]:  i say it's like the sinking，
+[Speaker 0]:  or like the the the like back of the front and work，
+[Speaker 0]:  you know，
+[Speaker 0]:  like the more logic stuff they really get to engage in that。
+[Speaker 0]:  and they don't have to worry about like，
+[Speaker 0]:  is this the right border radious on something like i don't think they they very rarely care。
+[Speaker 0]:  and i do care。
+[Speaker 0]:  so it's always worped out。
+[Speaker 0]:  well，
+[Speaker 0]:  it's kind of do that。
+[Speaker 0]:  so i just definine at someone who's like deeply into the engineering side of the design。
+[Speaker 1]:  what's in your past positions？
+[Speaker 1]:  current positions through friends who are also designers，
+[Speaker 1]:  what have have you en great great engineerand and sign colcollaboration。
+[Speaker 1]:  look like me that be what designers or design engineers？
+[Speaker 0]:  i mean，
+[Speaker 0]:  i do find being a design engineer。
+[Speaker 0]:  i've always had amazing collaborations with engineers，
+[Speaker 0]:  because，
+[Speaker 0]:  again，
+[Speaker 0]:  you do the bit they didn't ever want to to do。
+[Speaker 0]:  and you take away what i assume is most of the tention between designers and engineers that i've never experienced ed，
+[Speaker 0]:  because i've always been a front end person，
+[Speaker 0]:  but i heard of people，
+[Speaker 0]:  you know，
+[Speaker 0]:  they're being the tention where you have like someone's made some perfect figure file，
+[Speaker 0]:  and the engineer han't implemented it exactly tly to spp。
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah。
+[Speaker 0]:  and obviously，
+[Speaker 0]:  there's attention there because because someone made something in immedia，
+[Speaker 1]:  there's a nice，
+[Speaker 1]:  great gradient，
+[Speaker 1]:  and it's it's his mobile ile and doing gradients would absoluct the school performance。
+[Speaker 1]:  and again，
+[Speaker 1]:  these are librars talking about the years back when when this was a thing。
+[Speaker 1]:  yeah，
+[Speaker 1]:  and i ry going back like cannot gage a single color，
+[Speaker 1]:  or you try to explain like what you can do with your either performance limitations or think about loan devices on android or ios for as android，
+[Speaker 1]:  where designer might be more into the ios world world？
+[Speaker 1]:  and again，
+[Speaker 1]:  a good designer，
+[Speaker 1]:  what would not。
+[Speaker 1]:  but there there's often times the insuure would come like，
+[Speaker 1]:  i we have constraints。
+[Speaker 1]:  yeah，
+[Speaker 1]:  right。
+[Speaker 1]:  uh for whatever reason。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i think this gets into like i would don't want to blame the designers，
+[Speaker 0]:  because i think it's a failure of tools because the design tools that everyone used to use sketch and figmurdii like picks or mock ups。
+[Speaker 0]:  they have no relationship to the constraints of the medium，
+[Speaker 0]:  which is like whatever you're building for IOS or deskcouple the web。
+[Speaker 0]:  but you have to understand like the materials you're building with any design role。
+[Speaker 0]:  like yes，
+[Speaker 0]:  a table designer would not like be oblivious to like how oak performs in certain context threght or like how pine dense in a certain way。
+[Speaker 0]:  and in the same way，
+[Speaker 0]:  i think if you're designing for the weapon，
+[Speaker 0]:  you don't understand like performance or like how how is how is your applic fetching data？
+[Speaker 0]:  or what's the loading time nor if re's raised conditions？
+[Speaker 0]:  ok think if you are oblivious to that you，
+[Speaker 0]:  you end up with bad design solutions，
+[Speaker 0]:  and then with really bad regifor tion，
+[Speaker 0]:  yeah。
+[Speaker 0]:  so i'm hoping agenactually help solve this right because really then designers using agents can step more into the engineering side and also use agencies as a coach。
+[Speaker 0]:  and like a learning ool and say，
+[Speaker 0]:  okay，
+[Speaker 0]:  the engineers come back and told me that we have this，
+[Speaker 0]:  like area state。
+[Speaker 0]:  i've never heard of of my life，
+[Speaker 0]:  like explained to me why that area state would occur。
+[Speaker 0]:  you know，
+[Speaker 0]:  help。
+[Speaker 0]:  we build a state machine right？
+[Speaker 0]:  like there's like all these new tools available。
+[Speaker 0]:  but those odds frictions，
+[Speaker 0]:  i have to assume which just like tall base things。
+[Speaker 0]:  and i would say，
+[Speaker 0]:  designers that are maybe stuck in the past who don't want to let go off like，
+[Speaker 0]:  or i make pixel mock ups，
+[Speaker 0]:  don't know any onone's anymore。
+[Speaker 0]:  but if if they still are，
+[Speaker 0]:  i mean，
+[Speaker 0]:  you're just out。
+[Speaker 0]:  yeah。
+[Speaker 0]:  i can't imagine that really should going well on the future。
+[Speaker 1]:  and you 一般是 fagma。
+[Speaker 1]:  fagma was such a popular to go for a while that，
+[Speaker 1]:  that was the interface between angelers and designers。
+[Speaker 1]:  uh，
+[Speaker 1]:  how do you use figma t today？
+[Speaker 1]:  or how have you used it them in the past？
+[Speaker 0]:  i think it always used it like not to get the high fideli markps at all。
+[Speaker 0]:  i think，
+[Speaker 0]:  to get like the rough shape of things past a notebook like a notebook。
+[Speaker 0]:  you can be the cocame。
+[Speaker 0]:  the shape of it is like this，
+[Speaker 0]:  but it's such as rough，
+[Speaker 0]:  sketch and figment is useful。
+[Speaker 0]:  i fine for being like，
+[Speaker 0]:  okay，
+[Speaker 0]:  exactly what color is like the right amount of contrast，
+[Speaker 0]:  like draw attention to this element on the page。
+[Speaker 0]:  like exactly what sized is this text need to beach like flowell。
+[Speaker 0]:  but then you i would never take it too high fdelity。
+[Speaker 0]:  because，
+[Speaker 0]:  of course，
+[Speaker 0]:  everything always was different。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i primarily designed for the web，
+[Speaker 0]:  but everything was different in the browse are right，
+[Speaker 0]:  depends on the front rendering and oscar step and responsive nurses。
+[Speaker 0]:  and when exactly your break points，
+[Speaker 0]:  so i would always take it into browsers。
+[Speaker 0]:  pretty early on，
+[Speaker 0]:  you get like medium fadelity in figma，
+[Speaker 0]:  like the shape of it。
+[Speaker 0]:  and then you take it into a prototype。
+[Speaker 0]:  and then you can really tweek can refine。
+[Speaker 0]:  and of course，
+[Speaker 0]:  the agents。
+[Speaker 0]:  now it's just like i point，
+[Speaker 0]:  an agent at my figmmy mock up。
+[Speaker 0]:  and i'm like just get all of that in there then。
+[Speaker 0]:  and then um make we know what's quua jag g，
+[Speaker 0]:  which is where you get like little slides and variables attached to like AA jg。
+[Speaker 0]:  a jag comes from what working you make like a little device that helps you do one specific job。
+[Speaker 0]:  so with design，
+[Speaker 0]:  when you're working uh on a life prototype，
+[Speaker 0]:  you say，
+[Speaker 0]:  okay，
+[Speaker 0]:  heare the variables。
+[Speaker 0]:  i'm not sure about i'm not sure about like my my headline size。
+[Speaker 0]:  i'm not sure about these colors give me slighters and color pickers。
+[Speaker 0]:  and like all these things，
+[Speaker 0]:  all like the animation curver。
+[Speaker 0]:  not sure about give me in an an no tweet life。
+[Speaker 0]:  and then when i have the values just right in a life version，
+[Speaker 0]:  then will commit those to be the actual values，
+[Speaker 0]:  much faster as i build on figma as needed。
+[Speaker 1]:  and instead of get up，
+[Speaker 1]:  how do designers work？
+[Speaker 1]:  how do yourself and other designers work as on a bigger organization，
+[Speaker 1]:  you're building a tool for or developers with bunch of bunch of different parts。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i don't spend that much time with like the ghub design old proper。
+[Speaker 0]:  i know some people in there，
+[Speaker 1]:  but now because you're next。
+[Speaker 0]:  so the gahave next team is a little bit isolated like we still have good relationships to rest of the org。
+[Speaker 0]:  but a little bit by design，
+[Speaker 0]:  we supposed to be kind of like the RND team out on the side，
+[Speaker 0]:  kind of doing weird stuff and then trying to convince the rest of the og like that。
+[Speaker 0]:  we're right。
+[Speaker 0]:  and they should like pay attention and do all thing，
+[Speaker 0]:  which is a whole different politics thing。
+[Speaker 0]:  so i like kind of see the designers。
+[Speaker 0]:  but i think like they have a very different job to me，
+[Speaker 0]:  and that like they have to like uphold quality standards，
+[Speaker 0]:  they work ked and like a big design system and like an olds ruby on rails out。
+[Speaker 0]:  but they've got very different constraints to me。
+[Speaker 1]:  yeah，
+[Speaker 1]:  they have about millions or or even more like tens of millions of customers are like does now a different thing。
+[Speaker 1]:  they'been used to certain things are finding。
+[Speaker 0]:  certain things are certain patterns exactly exactly to changing anything on dot com is like a whole political thing，
+[Speaker 0]:  because because customers expect，
+[Speaker 0]:  you know，
+[Speaker 0]:  then to come in，
+[Speaker 0]:  and they have critical web force can't move their bun。
+[Speaker 0]:  but the team i work on，
+[Speaker 0]:  there's me and one other guy who are both design engineers。
+[Speaker 0]:  so we both like do engineering work。
+[Speaker 0]:  but we are more to design people，
+[Speaker 0]:  and everyone else is much more engineer like，
+[Speaker 0]:  and they're all really senior。
+[Speaker 0]:  so it's fun to work with them because thethey've seen everything they like know how to architect them，
+[Speaker 0]:  but we don't know work definrently to engineas them。
+[Speaker 0]:  i find i mean，
+[Speaker 0]:  we're putting in p os the same as them well，
+[Speaker 0]:  like working in the same tools materials。
+[Speaker 0]:  it's it's much more that thing of like what bits of the act we care about。
+[Speaker 0]:  i，
+[Speaker 0]:  of course，
+[Speaker 0]:  care about the inner face part。
+[Speaker 0]:  and then like my engineer，
+[Speaker 0]:  part ner is，
+[Speaker 0]:  of course，
+[Speaker 0]:  care about like the back end and the data flow and everything，
+[Speaker 0]:  so same tools，
+[Speaker 0]:  but different。
+[Speaker 0]:  can i'm considerations say，
+[Speaker 0]:  yes，
+[Speaker 1]:  i wanted to take some time to mention a presenting sponsor tba buffer，
+[Speaker 1]:  tba buffer couldn't be a better sponsor for this episode as they have。
+[Speaker 1]:  what i think is one of the most rushing brbrands attack right now，
+[Speaker 1]:  turbo buffer school funder simon describes your brand as hard art，
+[Speaker 1]:  core and wimico，
+[Speaker 1]:  and they're designed perfectly reflects this turba buffer。
+[Speaker 1]:  the database is extremely hard core AI infrastructure。
+[Speaker 1]:  it supports critical search worklows for entropic notion，
+[Speaker 1]:  bridge，
+[Speaker 1]:  water cognition，
+[Speaker 1]:  and many more，
+[Speaker 1]:  the largest efassaors growing AI companies in the world。
+[Speaker 1]:  they take reliability performance and scalability very seriously，
+[Speaker 1]:  but turbaopht the team refuses to be another starole boring。
+[Speaker 1]:  enterprised。
+[Speaker 1]:  a company just look at their website。
+[Speaker 1]:  it's exactly what you would want the website for database to look like。
+[Speaker 1]:  it's simple，
+[Speaker 1]:  modest and transparent。
+[Speaker 1]:  they even put the limits on the home page，
+[Speaker 1]:  but it also wasn't boring。
+[Speaker 1]:  it's nice to look at。
+[Speaker 1]:  it's very wealth out out and their little assky diagraounds perfectly bllandhearkwending with whimsicl design。
+[Speaker 1]:  plus，
+[Speaker 1]:  if you ever try to generate a good assky diagram with AI，
+[Speaker 1]:  you'll quick realize that they create all of these by hand。
+[Speaker 1]:  not what eye turbble buffer 's brand is the perfect election who they are，
+[Speaker 1]:  and that's why it works。
+[Speaker 1]:  so well，
+[Speaker 1]:  the brand is hardkore in wimsico。
+[Speaker 1]:  and so is the team。
+[Speaker 1]:  i highly recommend turbo buffer，
+[Speaker 1]:  not only as the extremely scalable search engine for AI，
+[Speaker 1]:  but also as a goop of people that will go to exceptional links to deliver for their customers。
+[Speaker 1]:  you can check them out at turbo of the com m。
+[Speaker 1]:  slash，
+[Speaker 1]:  pragmatic。
+[Speaker 1]:  i also want to mention a season sponsor entire maggie mentioned as a design enger。
+[Speaker 1]:  she's still putting in PR the same as everyone else。
+[Speaker 1]:  and everyone of those PR is pushed to get hosting，
+[Speaker 1]:  but there is a problem with get agents get is increasingbecoming a bottle m my promodern agent heavy software development deaths are creating more code with agents。
+[Speaker 1]:  these agents are pushing more code，
+[Speaker 1]:  and many deaths are running。
+[Speaker 1]:  all agents that are pushing even more code。
+[Speaker 1]:  github is clearly struggling to keep up and has regreent ouougeous。
+[Speaker 1]:  so what is a solution entire was founded by githhubs last ceo thomas dka，
+[Speaker 1]:  and he rebuilt get hosting four。
+[Speaker 1]:  the agenda care from scratch entire was built to be very fast。
+[Speaker 1]:  and have your reppoles regionally close to you to reduce late ency，
+[Speaker 1]:  allowing for fleeof agents to push in parallel。
+[Speaker 1]:  and entirest performance is next，
+[Speaker 1]:  all their repole can handle four hundred and eighteen pushes per second，
+[Speaker 1]:  and that's up to eighty nine pinence faster than every other competitor on the market。
+[Speaker 1]:  when githb is down，
+[Speaker 1]:  you can still keep working and you don't need to migrate ate from gigithub。
+[Speaker 1]:  you just sign up to entire and the platform marriors your ripple。
+[Speaker 1]:  oh，
+[Speaker 1]:  and one more thing。
+[Speaker 1]:  have you ver wondered what prompt sulted and this could be generated？
+[Speaker 1]:  i find that the prompt and conversation with the agents carries more information than the PR itself，
+[Speaker 1]:  entire captures all the prompt history，
+[Speaker 1]:  which your agent right in a pple，
+[Speaker 1]:  easy to jgg back。
+[Speaker 1]:  and it's got a pretty innovative UI to show all of this。
+[Speaker 1]:  if you're looking for get hosting that works，
+[Speaker 1]:  even when get up is down hit to entire that iiosach pigmatic insel，
+[Speaker 1]:  the CLI and mirrior ripple with a click。
+[Speaker 1]:  i've already done it。
+[Speaker 1]:  when did i mention that it works with any agent and his open source？
+[Speaker 1]:  and then with。
+[Speaker 1]:  LM since they came out how has your design process change？
+[Speaker 1]:  you've already mentioned，
+[Speaker 1]:  how is now a lot easier？
+[Speaker 1]:  you can like，
+[Speaker 1]:  for example，
+[Speaker 1]:  if if you either have introduce design，
+[Speaker 1]:  you can you can ask blot or or cotector or any any easier to implemented。
+[Speaker 1]:  but what has changed like between the no book between your mokcoves between the prototype that it gets there，
+[Speaker 1]:  what party easier and maybe what parts are easier？
+[Speaker 0]:  it's definitely all faster。
+[Speaker 0]:  it's definitely all feels a it easier。
+[Speaker 0]:  i will say like i definitely remember uh suffering through like like making elababorprotototypes in figma，
+[Speaker 0]:  because that was going to be faster than like building more complex things in the web。
+[Speaker 0]:  and then trying to show them to use ses with these lake figma click through prototypes。
+[Speaker 0]:  that obviously，
+[Speaker 1]:  like everything is faked II on the other user thing，
+[Speaker 1]:  and then sometimes yah to like the weweer things，
+[Speaker 1]:  things clicichere。
+[Speaker 1]:  and and yeah，
+[Speaker 0]:  so you're like in these user interviews。
+[Speaker 0]:  and like the users try to click something that you haven't hooked up up to like a like a fake new screen。
+[Speaker 0]:  and the whole thing just feels a bit and sincere。
+[Speaker 0]:  and then even when you did make prototypes，
+[Speaker 0]:  you couldn't spend any time making them look nice。
+[Speaker 0]:  so than sometimes the users get get like very distracted or confused by the fact it look terrible。
+[Speaker 0]:  but yeah，
+[Speaker 0]:  yeah，
+[Speaker 0]:  but we only we only had a few days，
+[Speaker 0]:  and now we got to move the next for otype。
+[Speaker 0]:  and now i wouldn't have that problem at all right。
+[Speaker 0]:  like now i can build something that really looks quite sophisticated。
+[Speaker 0]:  i'm not with the agents doing out nnrorowly，
+[Speaker 0]:  a lot of direction i find to make something that i would think was it acceptable in a face，
+[Speaker 0]:  but it's so much faster。
+[Speaker 0]:  sometimes i have even mocked up quite high fidelity stuff figma。
+[Speaker 0]:  and then just been like，
+[Speaker 0]:  hey agent，
+[Speaker 0]:  here's the figma file。
+[Speaker 0]:  you know，
+[Speaker 0]:  goalmode，
+[Speaker 0]:  you play right，
+[Speaker 0]:  take screen shots if it doesn't look like the figma keep going and keep looping until it looks exactly like the figma。
+[Speaker 0]:  and it'll get there。
+[Speaker 0]:  and so that was just silike。
+[Speaker 0]:  i can run that overnight。
+[Speaker 0]:  i don't have to do anything in the morning。
+[Speaker 0]:  the NF ace is pretty much there，
+[Speaker 0]:  as i expect it out like。
+[Speaker 1]:  and until i guess this was grgrtwork cright。
+[Speaker 0]:  uh totally，
+[Speaker 0]:  it's totally because you're like this isn't complex。
+[Speaker 0]:  this is like，
+[Speaker 0]:  okay。
+[Speaker 0]:  again，
+[Speaker 0]:  we're building another side bar，
+[Speaker 0]:  right？
+[Speaker 0]:  let's get the react components in light，
+[Speaker 1]:  but and and you don't preccare about the calld quality or teg up running like it，
+[Speaker 1]:  do me throw away anyway，
+[Speaker 1]:  right？
+[Speaker 1]:  if if if it works because of that，
+[Speaker 1]:  because then you'll build it。
+[Speaker 1]:  and if it doesn't work like cregreat yeah to to prototyping is a whole different game。
+[Speaker 0]:  now i feel like you can prototype much more ambitious things。
+[Speaker 0]:  and then i do love the whole jake thing。
+[Speaker 0]:  i feels like this malariable software thing，
+[Speaker 0]:  like you can make the software are whatever you want it to be。
+[Speaker 0]:  well，
+[Speaker 0]:  i'm not constrained by fag，
+[Speaker 0]:  less available tools。
+[Speaker 0]:  i can be like，
+[Speaker 0]:  okay。
+[Speaker 0]:  i'm trying to make like this animated constellation map with something i recently did，
+[Speaker 0]:  like what speed of the stars moving at，
+[Speaker 0]:  like what zoom level of we et，
+[Speaker 1]:  like you did that yeah。
+[Speaker 0]:  and like how much what degrees the gradient out on the screen and you just these these on on little slighters。
+[Speaker 0]:  and you just tweak er and then you think II really want like a slight like green like grain over this tell the agent，
+[Speaker 0]:  you know，
+[Speaker 0]:  it's like the honestly feels like magical lot。
+[Speaker 1]:  other days do do have up。
+[Speaker 0]:  i'm my beautiful up。
+[Speaker 0]:  yeah，
+[Speaker 0]:  let's see。
+[Speaker 0]:  so this is something i built for the new get have next，
+[Speaker 0]:  like um website。
+[Speaker 0]:  we have a kind of basic one up，
+[Speaker 0]:  but i wanted something that fancy。
+[Speaker 0]:  we want to make it a little bit easier to like publish research frequently。
+[Speaker 0]:  so does playing around with some，
+[Speaker 0]:  like，
+[Speaker 0]:  you know，
+[Speaker 0]:  some jazy，
+[Speaker 0]:  some jessey home pages um and this whole thing，
+[Speaker 0]:  this is like an animated expecding constellation。
+[Speaker 0]:  and these，
+[Speaker 0]:  like like some projects that the teams worked on over the years，
+[Speaker 0]:  a zing。
+[Speaker 0]:  and like this kind of thing to protect this，
+[Speaker 0]:  right？
+[Speaker 0]:  of course，
+[Speaker 0]:  it started with the sketcha notebook，
+[Speaker 0]:  but then made a bunch of jigs。
+[Speaker 0]:  where was it？
+[Speaker 0]:  okay？
+[Speaker 0]:  what colors the background，
+[Speaker 0]:  unlike how fast is this map spinning？
+[Speaker 0]:  and then there's a bunch of like physiccool physics on the stars that i didn't have to do any physics。
+[Speaker 0]:  and i didn't have to know anything about that。
+[Speaker 0]:  um you know how bigger these when you have over over them。
+[Speaker 0]:  and then i did this，
+[Speaker 0]:  i cool scroll effect down into the proper page。
+[Speaker 0]:  um and all of that，
+[Speaker 0]:  right？
+[Speaker 0]:  i didn't write any code。
+[Speaker 0]:  i made a bunch of different jags and and tweets and just just examand。
+[Speaker 1]:  and so these these are just just mamaine these。
+[Speaker 1]:  these，
+[Speaker 1]:  like like things on the screen，
+[Speaker 1]:  for example，
+[Speaker 1]:  the color you could go from my blue，
+[Speaker 1]:  green red，
+[Speaker 1]:  and then you figure out out right，
+[Speaker 1]:  you like this。
+[Speaker 1]:  the most，
+[Speaker 1]:  the sizes are all of those，
+[Speaker 0]:  right？
+[Speaker 0]:  exactly。
+[Speaker 0]:  i can be like make me uh slide um for controlling the animation variables on the constellation experiment。
+[Speaker 0]:  it will let that work，
+[Speaker 0]:  but that's the kind of it's like really simple。
+[Speaker 0]:  if you tell it like make me controls or make me a slide ter for whatever it is。
+[Speaker 0]:  you're ying to do youre's think about，
+[Speaker 0]:  like，
+[Speaker 0]:  okay，
+[Speaker 0]:  what of the ways i need to like tweet this to make it work？
+[Speaker 0]:  it's pretty good about just making them。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i have a sell a scale，
+[Speaker 0]:  so it like knows how like make them。
+[Speaker 0]:  so they look decent right。
+[Speaker 1]:  and and based on your preferences，
+[Speaker 1]:  you know what you figured out works yet。
+[Speaker 0]:  yeah，
+[Speaker 0]:  but then it's great，
+[Speaker 0]:  just hocks it up。
+[Speaker 0]:  and then you can just kind of like play with it。
+[Speaker 0]:  and it's it's it a whole different way to design。
+[Speaker 0]:  it's very you know britp ictor like the life programming stuff。
+[Speaker 0]:  um but victor was hesaid。
+[Speaker 0]:  he's an engineer in in sigsigner。
+[Speaker 0]:  i mean，
+[Speaker 0]:  he's doing some crazy stuff。
+[Speaker 0]:  now he did a but set of talks between。
+[Speaker 0]:  i don't know，
+[Speaker 0]:  is like twenty ten，
+[Speaker 0]:  twenty thirteen，
+[Speaker 0]:  one of them like stostodrawing dead fashion。
+[Speaker 0]:  it's about how i programming is not AA，
+[Speaker 0]:  very live medium。
+[Speaker 0]:  like，
+[Speaker 0]:  you know，
+[Speaker 0]:  you code in the edith，
+[Speaker 0]:  you do your whole build。
+[Speaker 0]:  and then you like look at it in the browser wherever it is。
+[Speaker 0]:  and these two things feel very disconnected。
+[Speaker 0]:  it's very hard like you're tweaking variables in code，
+[Speaker 0]:  and then you have to go see the effect。
+[Speaker 0]:  and it's not a direct connection。
+[Speaker 0]:  yeah。
+[Speaker 0]:  and so his whole thing was like you need to have instant direct feedback at all times to be able to look at the artifact you're making and directly tweet it。
+[Speaker 0]:  and it's like this kind of stuff come to life。
+[Speaker 0]:  like now we finally can do it。
+[Speaker 0]:  but before you couldn't do that，
+[Speaker 0]:  there was like no programming system and existence that could give you like a life preview of every possible variable，
+[Speaker 0]:  or or thing like the close we have is like deve tools in the broser。
+[Speaker 1]:  well，
+[Speaker 1]:  another topic，
+[Speaker 1]:  which is very related to this one。
+[Speaker 1]:  while we're waiting for one thing that day，
+[Speaker 1]:  i of course，
+[Speaker 1]:  your thing is easier to build stuff。
+[Speaker 1]:  but if if day，
+[Speaker 1]:  i is also easier to design，
+[Speaker 1]:  when i was asking people like how they work with designers。
+[Speaker 1]:  and engine replied，
+[Speaker 1]:  something which i hear a lot more，
+[Speaker 1]:  which is i'll called this this personal year。
+[Speaker 1]:  as an engineer。
+[Speaker 1]:  i asked lab design to generate twenty twenty high high five ther，
+[Speaker 1]:  the alternative，
+[Speaker 1]:  and i keep it to until the land of the perfect sigsign。
+[Speaker 1]:  they are enjoyable and feels much faster than interragting with a design team。
+[Speaker 1]:  um it it is a thing saying，
+[Speaker 1]:  oh，
+[Speaker 1]:  i have these tools。
+[Speaker 1]:  i don't acsit iny designer like i can just ask for all these like at。
+[Speaker 1]:  and in this case，
+[Speaker 1]:  it would just give me twenty ternatives。
+[Speaker 1]:  i'll choose the perfect one and boom。
+[Speaker 1]:  i'm done as someone who is a designer。
+[Speaker 1]:  what's your take on on this？
+[Speaker 1]:  and and by the way，
+[Speaker 1]:  it is not the first time，
+[Speaker 1]:  i think there's always the thing，
+[Speaker 1]:  like do any designers do with SS engineers doing the product managers。
+[Speaker 1]:  and of course，
+[Speaker 1]:  you know，
+[Speaker 1]:  product manager will also as do you engineer er that's so on。
+[Speaker 1]:  but h what do you think work？
+[Speaker 1]:  could this be valed？
+[Speaker 1]:  what could people be missing？
+[Speaker 0]:  i think in cases where you don't have a designer to hand，
+[Speaker 0]:  and you're try ina like validate a product or like proof hypothesis beeding in a face for it。
+[Speaker 0]:  it's great to just neuse a model to be like，
+[Speaker 0]:  sure，
+[Speaker 0]:  make me twenty high fidelity designs。
+[Speaker 0]:  i'm sure i might look at those designs and be like，
+[Speaker 0]:  well，
+[Speaker 0]:  like it all depends on taste too。
+[Speaker 0]:  rather i don't might look at them and think okay。
+[Speaker 0]:  well，
+[Speaker 0]:  these look，
+[Speaker 0]:  obviously ly erated by AI to me，
+[Speaker 0]:  and i don't don't know that they're going a do the job that they need to do it again。
+[Speaker 0]:  it depends on the context，
+[Speaker 0]:  if it's something simple need to button on a side bar fine。
+[Speaker 0]:  but if it's like we have some new primitive for try to make figure out the shape of that's when you really need a designer to come。
+[Speaker 0]:  and and like really，
+[Speaker 0]:  it's just someone who's assign to like think through the problem properly，
+[Speaker 0]:  like put in the brain work and be like，
+[Speaker 0]:  okay，
+[Speaker 0]:  do the experiments，
+[Speaker 0]:  like show them to users，
+[Speaker 0]:  like figure out what people actually understand and down。
+[Speaker 0]:  that's really like the labor a designershould come and and do。
+[Speaker 0]:  but i think it's completely fine for for developers without access to one to like use models as much as they can。
+[Speaker 0]:  but when models do designs for me，
+[Speaker 0]:  i of course，
+[Speaker 0]:  just look at them。
+[Speaker 0]:  and think that is terrible quality。
+[Speaker 0]:  that is awful，
+[Speaker 0]:  even to the extent of like i am，
+[Speaker 0]:  they've been prompted with somewhat。
+[Speaker 0]:  we would call a universor design principles，
+[Speaker 0]:  but they sort of don't understand new once on context。
+[Speaker 0]:  and then i think they'like stitk to them too strictly。
+[Speaker 0]:  so like i find the agents want to put a label on everything in the interface label，
+[Speaker 0]:  meaning like a small bit of text。
+[Speaker 0]:  like there might be like a little button that like like close close the sibband，
+[Speaker 0]:  we we uthe the use sing icon button for that。
+[Speaker 0]:  because most people are trained that this little button nehave sidebtb means it will close it and then no experiment with out on no click。
+[Speaker 0]:  and now figure out that is correctly what it does，
+[Speaker 0]:  but the agent will write close side bar or close model in the top right hand of the model。
+[Speaker 0]:  and you're like there's now a lot of text on this page。
+[Speaker 0]:  and and they'll just like put like four lines of instructional text over a button。
+[Speaker 0]:  and just things we 're like i understand in the model's mind，
+[Speaker 0]:  it's thinking，
+[Speaker 0]:  oh，
+[Speaker 0]:  this is how we make make the interace explainable to the human，
+[Speaker 0]:  you know。
+[Speaker 1]:  but actually it's really bad design now talking about the UX and UI for AI。
+[Speaker 1]:  what do you think UX and good UX？
+[Speaker 1]:  and and UI looks again。
+[Speaker 1]:  i know this is a bigger question，
+[Speaker 1]:  but so far，
+[Speaker 1]:  what have you learned of what works？
+[Speaker 1]:  and and what doesn't II think when it comes to this，
+[Speaker 0]:  like what is the ideal UFAI would just like of AA big question now know that it will figure out the answer taty for a while。
+[Speaker 0]:  but but it's something like some things haven't changed like in terms of what is good in a face design for software。
+[Speaker 0]:  is there's a lot of principles here，
+[Speaker 0]:  like what what formats we have to show users like data。
+[Speaker 0]:  you know，
+[Speaker 0]:  it's like dash boards，
+[Speaker 0]:  inside bars and documents。
+[Speaker 0]:  there's a lot of things that haven't changed，
+[Speaker 0]:  but actually had had good。
+[Speaker 0]:  good story。
+[Speaker 0]:  this uh about this from a liicit where the app was like helping scientic extract data from papers，
+[Speaker 0]:  and they are very used to doing this snake cells，
+[Speaker 0]:  bread cheets。
+[Speaker 0]:  so get a big celells breeeeput the paper in one on each each row。
+[Speaker 0]:  and then that extract huge piece data into the cells，
+[Speaker 0]:  right pretty statard process。
+[Speaker 0]:  but of course，
+[Speaker 0]:  in the beginning of lisit，
+[Speaker 0]:  we would like，
+[Speaker 0]:  oh，
+[Speaker 0]:  that's so old old。
+[Speaker 0]:  there must must be much，
+[Speaker 0]:  much better enner face for like，
+[Speaker 0]:  you know，
+[Speaker 0]:  seeing the data extracted from papers。
+[Speaker 0]:  so we tried all this crazy stuff。
+[Speaker 0]:  there was like infinite campuses with like cards spread everywhere。
+[Speaker 0]:  there is one that's like a bunch of cars that are all like generally stacked。
+[Speaker 0]:  we would like maybe it's more like notion with these like composable documents with the which in a faces。
+[Speaker 0]:  i would try all this stuff and every use it in of view。
+[Speaker 0]:  i did that the users would just like this is very confusing。
+[Speaker 0]:  can i just have a table like every time？
+[Speaker 0]:  and so after a couple months of this，
+[Speaker 0]:  like，
+[Speaker 0]:  oh，
+[Speaker 0]:  what's the new UI of uh of AI，
+[Speaker 0]:  we were like uh at a table。
+[Speaker 0]:  well，
+[Speaker 0]:  at least in our use case，
+[Speaker 0]:  it turned out the innovace people using was the the best，
+[Speaker 0]:  because it was the most familiar to them，
+[Speaker 0]:  and it caused the least amount of like cognitive load for them to use the talk。
+[Speaker 0]:  so we were like great fact or tables，
+[Speaker 0]:  that's fine like it was good to go on that journey。
+[Speaker 0]:  but sometimes we have this notion of like that the UI of AI will be so wildly different from our current imaginings。
+[Speaker 0]:  and sometimes it's really not at all。
+[Speaker 0]:  it's like you can do more powerful things。
+[Speaker 0]:  i think there's lots of leverage，
+[Speaker 0]:  but i expected to all be built with documents and side bars and cards and tables。
+[Speaker 0]:  and like all the all the classic things we've worked out，
+[Speaker 0]:  do work and people know how to use。
+[Speaker 1]:  there's a congret loadin learning any new UX you。
+[Speaker 1]:  i parad them。
+[Speaker 1]:  it can be confusing if you're existing tools don't work like bad，
+[Speaker 1]:  because people will still use operating systems and google sheets or exile or office document to etrc。
+[Speaker 1]:  and even even if if like a small subset of people are like enough familiar with this new new new us of few members。
+[Speaker 1]:  i probably like parents or grandparents，
+[Speaker 1]:  teaching them how to use，
+[Speaker 1]:  but the phones at the interfaces。
+[Speaker 1]:  and once they they arn ned，
+[Speaker 1]:  they're good，
+[Speaker 1]:  but then you really want to do that again。
+[Speaker 1]:  yeah no，
+[Speaker 1]:  there will be be something。
+[Speaker 1]:  what be something similar。
+[Speaker 0]:  yeah yeah，
+[Speaker 0]:  it's kind of like how we start with chap boright。
+[Speaker 0]:  it's like chat box will not the final form because if we could look a code x like there's a lot going on here。
+[Speaker 0]:  that's short。
+[Speaker 0]:  that's a chat。
+[Speaker 0]:  we know here，
+[Speaker 0]:  but there's all kinds of things going on would get work treees over here。
+[Speaker 0]:  and then we've got this whole interface，
+[Speaker 0]:  like i can do like annoitations and deep bug。
+[Speaker 0]:  and this，
+[Speaker 0]:  like there's a lot of extra stuff what you take the familiar primitive tive，
+[Speaker 0]:  you expand outwards from it。
+[Speaker 0]:  and we did siof things that lisit like there was still a table，
+[Speaker 0]:  but then we baked a lot of stuff into the table and around it。
+[Speaker 0]:  but you start with with familiar priminense。
+[Speaker 0]:  so here i think we have we are jeg ready。
+[Speaker 0]:  oh，
+[Speaker 0]:  yeah，
+[Speaker 0]:  it's exexandness。
+[Speaker 0]:  so here's jake。
+[Speaker 0]:  this is using m dial kit。
+[Speaker 0]:  um this is it with this？
+[Speaker 0]:  i can change the speed of the animation to see like？
+[Speaker 0]:  or is that too fast like？
+[Speaker 0]:  is that too slow？
+[Speaker 0]:  um the intensity is like the how much gravity is being applied to the stars here woh。
+[Speaker 0]:  how much variation is there in the stars heis，
+[Speaker 0]:  a sizzing and rolls。
+[Speaker 0]:  this is like when i scroll down to have this zoomm out，
+[Speaker 0]:  like what's the resting height？
+[Speaker 0]:  uh，
+[Speaker 0]:  i think this is of the，
+[Speaker 0]:  and this is here，
+[Speaker 0]:  like the resting height of this resting logo size and see what this。
+[Speaker 0]:  this is a asof glass ass effects on sursurface that it's like。
+[Speaker 0]:  oh，
+[Speaker 1]:  it's on the on on the top p。
+[Speaker 1]:  yes，
+[Speaker 0]:  oah yeah。
+[Speaker 0]:  is that glass effect like it's but he，
+[Speaker 0]:  that's too bright than you can't read the words the way way here you can barely tell it's glass。
+[Speaker 0]:  there's some sort of like happy middle ground。
+[Speaker 0]:  you wanto figure out like how much contrast between the background。
+[Speaker 1]:  so this is where you aren't kidding that this is like your own almost personal figma fiyou。
+[Speaker 1]:  well are are design tall。
+[Speaker 0]:  yeah ah。
+[Speaker 0]:  and because it's really difficult to mock up ststatic versions of this and figma，
+[Speaker 0]:  which i have done。
+[Speaker 0]:  yeah，
+[Speaker 0]:  like i was for minute。
+[Speaker 0]:  we were thinking，
+[Speaker 0]:  maybe like a great background，
+[Speaker 0]:  trying to figure out how much like grain and stuff，
+[Speaker 0]:  maybe like a wave one。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i'm man。
+[Speaker 0]:  i'm trying to figure here like，
+[Speaker 0]:  okay。
+[Speaker 0]:  is it like halfway off the screen？
+[Speaker 0]:  maybe it re's like a slice out of it here so you can play around with like layouts and ideas。
+[Speaker 0]:  but you can't get a sense until it's live。
+[Speaker 0]:  the brobroser no know of how this gonna feel。
+[Speaker 0]:  and like how much scroll you need to do here，
+[Speaker 0]:  um like and then like the themes and the colors and textures everything。
+[Speaker 0]:  so II work with this a lot。
+[Speaker 0]:  now when everyone designing something visual，
+[Speaker 0]:  it's so much easier to have lie variables，
+[Speaker 0]:  which again would not have been possible before you could have built this by hand。
+[Speaker 0]:  i guess，
+[Speaker 0]:  in the olten days just would been prpartical just coding。
+[Speaker 0]:  the thing itself was slow enough。
+[Speaker 1]:  one interesting you talked about is capability gas lighting。
+[Speaker 1]:  what is capability gas lighting ocase？
+[Speaker 0]:  i think this is similar to like even molecuh。
+[Speaker 0]:  has this phrase the jjacged frontier？
+[Speaker 0]:  it's pretty much that，
+[Speaker 0]:  but i came up with capabilities gaslinting for at his work。
+[Speaker 0]:  but so the people familiar with the the concept，
+[Speaker 0]:  it's that models are really，
+[Speaker 0]:  really good at some things and really bad at others。
+[Speaker 0]:  and it's really hard to predict when you give it a certain task，
+[Speaker 0]:  which of those gonna fall into and then capabilities 's gas liding with the feeling i got raally on from using them。
+[Speaker 0]:  well，
+[Speaker 0]:  like they convince you they're so capable because they'really impress you on one task，
+[Speaker 0]:  and then then try try them something else。
+[Speaker 0]:  like like fafaand you kind of feel like i feel like you're kind of gas。
+[Speaker 0]:  let me like imagining that you're this extremely intelligent agent or model and man you like fall in your face。
+[Speaker 0]:  and then sometimes i feel like they fail，
+[Speaker 0]:  but i haven't totally noticed how badly they failed，
+[Speaker 0]:  because i still have this belief that oh h，
+[Speaker 0]:  but your are titimodel like opops could never really get this wrong and totally does over time。
+[Speaker 0]:  so it's such an inconsistent experience，
+[Speaker 0]:  and it's like it's so different to working with a human like if you find a human who you feel it's like a really an expert in a in a topic and you work with them。
+[Speaker 0]:  it's it's very unusual for them to be inconsistent in their performance，
+[Speaker 0]:  right？
+[Speaker 0]:  like it's very rare for that to suddenly forget all of their like expert knowledge on our topic。
+[Speaker 0]:  and if they did，
+[Speaker 0]:  you would be very like，
+[Speaker 0]:  are you having the commental breakdown like this is very weird behavior，
+[Speaker 0]:  but this is how models like behave every day，
+[Speaker 0]:  like one day，
+[Speaker 0]:  they will actually perform me。
+[Speaker 0]:  they well on a task，
+[Speaker 0]:  and they could fail at that same task。
+[Speaker 0]:  the next day because you prompted differently or they had different context available，
+[Speaker 0]:  or like random，
+[Speaker 0]:  whatever it is like sarcastic outputs。
+[Speaker 0]:  they just didn't do as well。
+[Speaker 0]:  so i think it's hard to work with them because you never quite know what you're going to get。
+[Speaker 1]:  yeah，
+[Speaker 1]:  it's HH guess which you seem to keep us a mind right？
+[Speaker 1]:  because now and there's ongoing，
+[Speaker 1]:  like，
+[Speaker 1]:  of course，
+[Speaker 1]:  we always say，
+[Speaker 1]:  and we we have see that the models and prove。
+[Speaker 1]:  but you wanna have to go。
+[Speaker 0]:  yeah yeah，
+[Speaker 0]:  of course，
+[Speaker 0]:  there's re's basbasine line front momodels。
+[Speaker 0]:  you're not onna perform below us son dit，
+[Speaker 0]:  but you know，
+[Speaker 0]:  of course，
+[Speaker 0]:  the models are changing all the time。
+[Speaker 0]:  when people complain about this that you operate to a new model in it，
+[Speaker 0]:  and it changes what it's good at，
+[Speaker 0]:  or it changed it like it doesn't perform to your expectations of certain things。
+[Speaker 0]:  it's like it's hard to predict。
+[Speaker 1]:  you did a the talk titled wondeveloper two dozents zero alignment。
+[Speaker 1]:  why we need colaborative engineering？
+[Speaker 1]:  i can you talk about just this observation，
+[Speaker 1]:  like one developed two，
+[Speaker 1]:  two，
+[Speaker 1]:  the agation zero alignment，
+[Speaker 0]:  yeah。
+[Speaker 0]:  so this is like a problem problem problem that the get have next。
+[Speaker 0]:  he has been focused on trying to find various ways to solve。
+[Speaker 0]:  i think，
+[Speaker 0]:  for well over year now is this is this knoknowledment that we are now working with these agents，
+[Speaker 0]:  locally our machines，
+[Speaker 0]:  and it speeds up each individual person like us alone with the agent。
+[Speaker 0]:  we can go really fast。
+[Speaker 0]:  the offf is always built on a team，
+[Speaker 0]:  right？
+[Speaker 0]:  you're always trying out aliline would like the product managers and the designers and the other engineers，
+[Speaker 0]:  like what decisions you're making，
+[Speaker 0]:  and we don't actually have good tools in place to do that。
+[Speaker 0]:  it's sort of like we have slack people might have something like lenniia or get have issues，
+[Speaker 0]:  whether like doing issues。
+[Speaker 0]:  but there's tons of preplanning。
+[Speaker 0]:  well before you write issue because usually，
+[Speaker 0]:  when you write issue，
+[Speaker 0]:  you're like ready to hand the altonagent。
+[Speaker 0]:  but before that put，
+[Speaker 0]:  you have to agree upon your approach。
+[Speaker 0]:  and like，
+[Speaker 0]:  should we build this feature？
+[Speaker 0]:  is this feature。
+[Speaker 0]:  the right shape doesn't have the right interface。
+[Speaker 0]:  like，
+[Speaker 0]:  do we have some sort of database migration？
+[Speaker 0]:  we have to do this all the sike up front work，
+[Speaker 0]:  and not many good tools do that work，
+[Speaker 0]:  and it's how we felt especially not once with agents involved in them。
+[Speaker 0]:  so the biggest gap seems to be like we have a gentic coding tools，
+[Speaker 0]:  but none of them a real time multiplayer，
+[Speaker 0]:  or your sessions are private and shred to you often locally on your machines。
+[Speaker 0]:  you couldn't possibly share it with someone。
+[Speaker 0]:  this is starting to change now like i we have seen some products come out that i trying to life life multiplayer。
+[Speaker 0]:  it didn't work like buzz jjack，
+[Speaker 0]:  dossy and ease the prototype that we made it get have。
+[Speaker 0]:  next was in this direction was like shared computer，
+[Speaker 0]:  shared sandboxes in a slack like in interface。
+[Speaker 0]:  so you're coding and talking at the same time。
+[Speaker 0]:  so people i think，
+[Speaker 0]:  are beginning to realize this is like the next big thing。
+[Speaker 0]:  we need to push on to improve and like are agentic coding tools。
+[Speaker 0]:  but it's still totally unsolved like even when you have a slack in a face。
+[Speaker 0]:  and as an agent in there，
+[Speaker 0]:  you don't need tools to agree on things。
+[Speaker 0]:  this is where i'm kind of pushing，
+[Speaker 0]:  unlike maybe decisions need to become so sort of first class primitive，
+[Speaker 0]:  like when an agent presents a decision to a human，
+[Speaker 0]:  you first need to have the decision be like large enough on screen。
+[Speaker 0]:  it give you the information about it，
+[Speaker 0]:  but then also you probably need someone else in your team to come，
+[Speaker 0]:  like help you make that decision，
+[Speaker 0]:  or at least like give input on it。
+[Speaker 0]:  and then someone has been responsible for having had made that decision。
+[Speaker 0]:  and you need like a record of，
+[Speaker 0]:  like here's the things we decided，
+[Speaker 0]:  like，
+[Speaker 0]:  here's the context we're onna，
+[Speaker 0]:  feed the agent，
+[Speaker 0]:  you know that some moment where we written，
+[Speaker 0]:  like a clear set of issues or specks that were going to hand off to be implemented。
+[Speaker 0]:  and then some verification check on the other side，
+[Speaker 0]:  but you all need to be so aligned up to the point of implementation，
+[Speaker 0]:  because in the olworld world implementation took so long，
+[Speaker 0]:  you could like adjust along the way。
+[Speaker 0]:  but now because there's a sort of hard hand over point to an agent，
+[Speaker 0]:  you need to all be a lined up front in a way that we're not at the moment，
+[Speaker 0]:  like even arting。
+[Speaker 0]:  we feel this all the time，
+[Speaker 0]:  like were al individually running on our machines，
+[Speaker 0]:  and it's hard to stay like a line on what we're doing。
+[Speaker 1]:  and you mentioned you get next sn and oppose having that you're doing kk k can taltalking about about the types of projects you built that you're experimented some learning that you had may maybe give us a direction of like things。
+[Speaker 1]:  you're now now exside about exexploryeah。
+[Speaker 0]:  ah ah ah so um i joined the team like a little less than son year ago，
+[Speaker 0]:  but most the time we are working on this prototype ace，
+[Speaker 0]:  which is like slack plus uh cloud compute like sandboxes。
+[Speaker 0]:  and microv ms and a bunch of other ther stuff in there，
+[Speaker 0]:  like you can，
+[Speaker 0]:  like open pios and review your code and like kind of stuff，
+[Speaker 0]:  it was a kind of of all the one multiplayer er agks base。
+[Speaker 0]:  uh and it was really like useful prototype，
+[Speaker 0]:  but it would turn out to be extremely ambitious for our small team。
+[Speaker 0]:  we had，
+[Speaker 0]:  like three or four people waking on at a time，
+[Speaker 0]:  and we wanted at some point to take it to like a al al product。
+[Speaker 0]:  it just turned out out was like not feasible with the number of people we had and but we try to take bits of it and ship it to the rest of github。
+[Speaker 0]:  like exand boxes have now gone out to be part of the github desktop up that's being used another ways。
+[Speaker 0]:  and i think it's also made leadership，
+[Speaker 0]:  take multi player like think more seriously and tranfed other ways。
+[Speaker 0]:  we went ship back to the product，
+[Speaker 1]:  and it this is really promising in direction。
+[Speaker 1]:  i mean，
+[Speaker 1]:  we already have a deep dive out by the scidst，
+[Speaker 1]:  this poccases out about ramp who have built justice inside，
+[Speaker 1]:  and they made it collaborative。
+[Speaker 1]:  it's it's forced collaborative。
+[Speaker 1]:  you cannot make anything private。
+[Speaker 1]:  yeah，
+[Speaker 1]:  we took there there。
+[Speaker 1]:  they have multiple interface。
+[Speaker 1]:  they have。
+[Speaker 1]:  they have is running。
+[Speaker 1]:  it's called inspect and its runs and slack。
+[Speaker 1]:  there's a chrome plugin as well。
+[Speaker 1]:  there's webbinterface uh and they define that in the sliack channels uh with product measresigners。
+[Speaker 1]:  they can talk the agent inspect，
+[Speaker 1]:  gets all this input，
+[Speaker 1]:  and then all the sessions anyone can join a session，
+[Speaker 1]:  and anyone can prompt and change the direction，
+[Speaker 1]:  which actually was a really concerning point。
+[Speaker 1]:  they weren't sure if they want this，
+[Speaker 1]:  because people privacy，
+[Speaker 1]:  but they are likelologiit's。
+[Speaker 1]:  it's just civil ciilizzed。
+[Speaker 1]:  so i'had turned out to not be an issue，
+[Speaker 1]:  but because of it is spreads better。
+[Speaker 1]:  and and this has has all this feedback was in the reason it works really well for them as it's integrated this agent to all of their internal systems。
+[Speaker 1]:  and their cloud machines are like a footbbdedeveloper machine，
+[Speaker 1]:  which is a lot of work and like cloud development environment，
+[Speaker 1]:  which is all all all this to say，
+[Speaker 1]:  like doing this or one company，
+[Speaker 1]:  specifically for them。
+[Speaker 1]:  it's possible doing it。
+[Speaker 1]:  it is a general solution，
+[Speaker 1]:  probably more difficult，
+[Speaker 1]:  and i'm sure it will come，
+[Speaker 1]:  and i'm or i'm sure they'll be attempts，
+[Speaker 1]:  but but you know，
+[Speaker 1]:  there's a difference。
+[Speaker 1]:  we seem like scratching your own edge，
+[Speaker 1]:  yeah and doing something that works for everyone or so many people。
+[Speaker 0]:  i mean，
+[Speaker 0]:  slack，
+[Speaker 0]:  right。
+[Speaker 0]:  they launched their whole like developer experience IDE thing，
+[Speaker 0]:  which like they might be what to make this experience happen，
+[Speaker 0]:  or like from jack dorsey is cut going in this direction，
+[Speaker 0]:  too，
+[Speaker 0]:  like this clear lots，
+[Speaker 0]:  people realizing nsses a problem。
+[Speaker 1]:  and and you're also experimenting in in this direction。
+[Speaker 0]:  yes，
+[Speaker 0]:  yes，
+[Speaker 0]:  yeyeah。
+[Speaker 0]:  so one of the things like when we tried to like build this whole thing was，
+[Speaker 0]:  it was too ambitious do with all the micro v ms。
+[Speaker 0]:  but now we kind of scaling back and thinking，
+[Speaker 0]:  okay，
+[Speaker 0]:  what bits of this can we protect in ways ways would it help get have？
+[Speaker 0]:  leadership have have AA it more didirection like where they should run next break。
+[Speaker 0]:  you know，
+[Speaker 0]:  one of our functions of our team is just to run out ahead of products and say，
+[Speaker 0]:  okay，
+[Speaker 0]:  you guys know what like the things you should probably do in the next six months to one year is we are much more like what is a big，
+[Speaker 0]:  crazy swing，
+[Speaker 0]:  get hub could make make or what's more risky or what's like the far future。
+[Speaker 0]:  and so that's why we 're try to put a type。
+[Speaker 0]:  okay。
+[Speaker 0]:  people are now on the smelthi player like sessision thing，
+[Speaker 0]:  what comes after that。
+[Speaker 0]:  so now we're interested in，
+[Speaker 0]:  like，
+[Speaker 0]:  how do you make proactive ages that aren't annoying is one of the things we are trying to。
+[Speaker 0]:  so yeah，
+[Speaker 0]:  because pro active agents，
+[Speaker 0]:  you think we have this dream of like，
+[Speaker 0]:  okay，
+[Speaker 0]:  assume assume intelligence is like free or so cheap that like it doesn't matter right？
+[Speaker 0]:  that's that's a fun assumption to make if you could have one hundred background agents running，
+[Speaker 0]:  what would be the least overwhelming，
+[Speaker 0]:  least annoying way to consume many other outputs。
+[Speaker 0]:  i can open en rearquestion。
+[Speaker 0]:  we trying to think around how would you have agents working in a document with humans wear？
+[Speaker 0]:  it's not again，
+[Speaker 0]:  overwhelming ananying ing them to be making changes or doing helpful background work in a way that doesn't feel like invasive or interruptive。
+[Speaker 0]:  so we try and take these kind of design questions and figure out per types that could solve them in the hopes that，
+[Speaker 0]:  like，
+[Speaker 0]:  you know，
+[Speaker 0]:  if one day get have wanted to build something in this direction，
+[Speaker 0]:  we can then be like k。
+[Speaker 0]:  here's all the research。
+[Speaker 1]:  we did a question。
+[Speaker 1]:  i wanted to ask you is is coming from a developer angle。
+[Speaker 1]:  it is what happens when，
+[Speaker 1]:  in your experience um observations，
+[Speaker 1]:  when we start to give more and more decisions to the agent。
+[Speaker 1]:  and i i'm going to quote te te，
+[Speaker 1]:  a developer horhey，
+[Speaker 1]:  uh monrubia，
+[Speaker 1]:  who wrote uh an article calh my craft。
+[Speaker 1]:  he wrote the natan interpreine on the small soup is decaying quickly as models improve，
+[Speaker 1]:  and when models are capable enough to handle those details theselves mselves spending too much time on these details start to feel like a poor use of human attention。
+[Speaker 1]:  and he writes about how he's not opening he。
+[Speaker 1]:  he really open his code editor anymore。
+[Speaker 1]:  he has been months。
+[Speaker 1]:  he wrote a single line itself，
+[Speaker 1]:  but the thing is huused to have inside and see all the details。
+[Speaker 1]:  and there is a sense that craft has to do with being there with the details。
+[Speaker 1]:  and of course，
+[Speaker 1]:  you're you're coming from design perspective，
+[Speaker 1]:  but what have you obsered of your own craft changing decying，
+[Speaker 1]:  or you know what what you saing that you？
+[Speaker 1]:  you think this is there's a danger as as there's this temptation，
+[Speaker 1]:  as you know，
+[Speaker 1]:  we'taltalabout about just good，
+[Speaker 1]:  good，
+[Speaker 1]:  good。
+[Speaker 1]:  make the decision。
+[Speaker 1]:  yeah，
+[Speaker 1]:  we we just do this。
+[Speaker 1]:  this what the sider was in matter，
+[Speaker 1]:  yeah，
+[Speaker 0]:  but it can matter，
+[Speaker 1]:  but it can't matter。
+[Speaker 1]:  i think doesn't matter。
+[Speaker 0]:  i mean，
+[Speaker 0]:  it's hard because because i'm not like i would say like a of a true engineer and esent of like i don't necessarily care about clean code them，
+[Speaker 0]:  but i do care about design，
+[Speaker 0]:  but the thing is they can't。
+[Speaker 0]:  they definitely can't do design to my standards。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i have to still be really involved to get the design to to look and feel the way i would make it。
+[Speaker 0]:  so i'm annoy almost that i always in there being like，
+[Speaker 0]:  no，
+[Speaker 0]:  that is a terrible transition。
+[Speaker 0]:  here's how we should do it。
+[Speaker 0]:  you know like this。
+[Speaker 1]:  so 以 you're in the details，
+[Speaker 1]:  you're not pudting go。
+[Speaker 1]:  those details，
+[Speaker 1]:  yeah，
+[Speaker 0]:  because i wish i could。
+[Speaker 0]:  i wish i mean，
+[Speaker 0]:  like i written。
+[Speaker 0]:  do you design？
+[Speaker 0]:  right？
+[Speaker 0]:  i don't know。
+[Speaker 0]:  yes，
+[Speaker 1]:  i want to fish you on this。
+[Speaker 1]:  yeah，
+[Speaker 0]:  would II keep thinking this like，
+[Speaker 0]:  if tomorrow，
+[Speaker 0]:  i keep trthe right design skills that tell the agents exactly my design preferences would shoulbe be universal like i have preferences about how much hading i like between a border and a an element，
+[Speaker 0]:  right？
+[Speaker 0]:  and that's not everyone's preference，
+[Speaker 0]:  and it's not right for every product but for me。
+[Speaker 0]:  and like there are set rules as this much padding is this kind of border um bada shadow like it's pretty standard。
+[Speaker 0]:  and i've tried to write these rules，
+[Speaker 0]:  but then they don't universly apply them properly，
+[Speaker 0]:  and it doesn't work。
+[Speaker 0]:  and so it always end up in there，
+[Speaker 0]:  changing specific values that you would think by this point and time would have been automated away the way that we'talk k about agenents。
+[Speaker 0]:  like like taking us of you，
+[Speaker 0]:  we think this would be like so trivial to like for them to implement like a certain kind of whatever it's so past ity levewwant to border。
+[Speaker 0]:  um so i kind of think like if i woke tomorrow，
+[Speaker 0]:  and they just sill，
+[Speaker 0]:  just just ked ked，
+[Speaker 0]:  like like the agents just had enough context，
+[Speaker 0]:  and they just designed exactly to my spects。
+[Speaker 0]:  i wonder if i would be like，
+[Speaker 0]:  oh，
+[Speaker 0]:  all the fun bit is gone like，
+[Speaker 0]:  is it satisfying to have like a gorgeous in a face appear in front of me？
+[Speaker 0]:  but i didn't，
+[Speaker 0]:  i didn't do anything to make it。
+[Speaker 0]:  i'm not sure i almost i also think about this would like um interior design stuff。
+[Speaker 0]:  if you wbeen，
+[Speaker 0]:  i'm pentrst any time in the last like two years，
+[Speaker 1]:  i'm familiar with ther than yeah。
+[Speaker 1]:  my my wife is bright。
+[Speaker 1]:  and one one one，
+[Speaker 1]:  we're decorating a new house house。
+[Speaker 1]:  i am really collecting these things。
+[Speaker 1]:  yeah，
+[Speaker 1]:  we work with an enter designer。
+[Speaker 1]:  and but my my wife loted a lot of things，
+[Speaker 1]:  but II also was there。
+[Speaker 1]:  you have these kind of like what kind of think like this，
+[Speaker 1]:  but not quite。
+[Speaker 1]:  but like when you makes this trying to explain you're like，
+[Speaker 1]:  we wouldn't have the tools beyond like visitake，
+[Speaker 1]:  exrege or so。
+[Speaker 1]:  yes，
+[Speaker 1]:  yes，
+[Speaker 1]:  yeah，
+[Speaker 1]:  don't learn opa renge stragle，
+[Speaker 1]:  you know，
+[Speaker 0]:  you know，
+[Speaker 0]:  you know？
+[Speaker 0]:  yes，
+[Speaker 0]:  um it's a lot of it is AI。
+[Speaker 0]:  now，
+[Speaker 0]:  if you get on there，
+[Speaker 0]:  really there's gorgeous rooms if if you search for certain things，
+[Speaker 0]:  but you look and you can kind of start to see like，
+[Speaker 0]:  oh，
+[Speaker 0]:  that's for sure。
+[Speaker 0]:  AI，
+[Speaker 0]:  that's for sure。
+[Speaker 0]:  AI，
+[Speaker 0]:  which is definitely proper a see when there are images of a physical space because that you go like，
+[Speaker 0]:  well，
+[Speaker 0]:  the light might not be accurate。
+[Speaker 0]:  all this is all just fake。
+[Speaker 0]:  i may look beautiful，
+[Speaker 0]:  but you kind of think like，
+[Speaker 0]:  well，
+[Speaker 0]:  someone didn't make that woman。
+[Speaker 0]:  that's not a real room that exists。
+[Speaker 0]:  so it's almost irrelevant to my interior design。
+[Speaker 0]:  and i kind of wonder，
+[Speaker 0]:  if like this with inner faces。
+[Speaker 0]:  well，
+[Speaker 0]:  like it is all objectively like looks gorgeous because it's trained ined，
+[Speaker 0]:  like very much like everything that was on the web that we've you know，
+[Speaker 0]:  clicked comes up on，
+[Speaker 0]:  but with inner faces。
+[Speaker 0]:  if they all become extremely slack，
+[Speaker 0]:  like thank you。
+[Speaker 0]:  take，
+[Speaker 0]:  you know what's popular right now，
+[Speaker 0]:  ballennia and their vocyesthetic，
+[Speaker 0]:  right like very minimualist，
+[Speaker 0]:  very clean，
+[Speaker 0]:  very wide，
+[Speaker 0]:  right？
+[Speaker 0]:  and all that it around it corners。
+[Speaker 0]:  if all the agents can implement that no problem，
+[Speaker 0]:  just like dead on people will start to design in different ways，
+[Speaker 0]:  because that will become a tell that you've just used an agent to do the design。
+[Speaker 0]:  and if you want to look like you're going to stand out，
+[Speaker 0]:  you need to have some human do something new and different。
+[Speaker 0]:  i think it gets into like design，
+[Speaker 0]:  although it has universal basics，
+[Speaker 0]:  like is the text big enough to read。
+[Speaker 0]:  do you have enough space around things？
+[Speaker 0]:  a lot of is fashion like it's in fashion right now to look a little bit like linear。
+[Speaker 0]:  it's not in fashion to look a bit like my space，
+[Speaker 0]:  but it was a while ago，
+[Speaker 0]:  and they'll be in ten years in the future。
+[Speaker 0]:  if you look like llinea，
+[Speaker 0]:  you're very out of date。
+[Speaker 0]:  you look like some old pecrafty piece of software and y'll be some newethetic that comes up。
+[Speaker 0]:  so it's like the models can't necessarily understand that design is like within a cultural context，
+[Speaker 0]:  and that culal context is always changing，
+[Speaker 0]:  and it's signals different things to people。
+[Speaker 0]:  and if people read it as like all they didn't care about this site because it's just like the bland basic code，
+[Speaker 0]:  like clauhas has specific design language。
+[Speaker 0]:  it's very sict like noticeable，
+[Speaker 0]:  right？
+[Speaker 0]:  cream background，
+[Speaker 0]:  like slightly red tax，
+[Speaker 0]:  like this eye brow tax on things like you look at anylike，
+[Speaker 0]:  like core generate that no human was involved in this，
+[Speaker 0]:  like i don't know of，
+[Speaker 0]:  i'm going to bother looking at it。
+[Speaker 0]:  so it gets into this，
+[Speaker 0]:  like the aesthetic style。
+[Speaker 0]:  you pick communicate to the person，
+[Speaker 0]:  viearing the product page and things that clearly were made by agents。
+[Speaker 0]:  i think we might start to reject out of hand。
+[Speaker 1]:  no，
+[Speaker 1]:  maybe i have this thing thing when it's tatawhen it's writaten tax。
+[Speaker 1]:  i can immediately tell if it's AI written，
+[Speaker 1]:  but i can never tell if it's because II write a lot。
+[Speaker 1]:  i also read a lot。
+[Speaker 1]:  i read a lot of philomic fiction。
+[Speaker 1]:  and so is it just feels off immediathing doesn't if not as it just cllad？
+[Speaker 1]:  it's it's just the repetitiveness objectives，
+[Speaker 1]:  but i can never tell for sure。
+[Speaker 1]:  like，
+[Speaker 1]:  am i the one who noticed it？
+[Speaker 1]:  because you said，
+[Speaker 1]:  like，
+[Speaker 1]:  oh，
+[Speaker 1]:  you see it's cloud。
+[Speaker 1]:  and i'm not sure if i looked at a web page，
+[Speaker 1]:  and i would see that it's clooud because you're you're so into this the same way。
+[Speaker 1]:  i'm so into words or or non viction writing。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so i do wonder if，
+[Speaker 1]:  if maybe we're towe're having to as an expert，
+[Speaker 1]:  you can always tell，
+[Speaker 1]:  but the experts are always a small percent of population we don't know。
+[Speaker 1]:  but but i do agree with you that，
+[Speaker 1]:  that it is predictable ways that humans are are luckily，
+[Speaker 1]:  not i guess，
+[Speaker 1]:  yeah，
+[Speaker 0]:  like i definitely notice the writing one two，
+[Speaker 0]:  because in the same IAA rider，
+[Speaker 0]:  i love writing and the minute i had any sentenence that is ah remotely like，
+[Speaker 0]:  yeah，
+[Speaker 0]:  it's like closed out what i never ver mine then。
+[Speaker 0]:  and then even like going back in reading non non fiction books that we're really，
+[Speaker 0]:  really not written a long time ago。
+[Speaker 0]:  you go back a read book written fifty years ago，
+[Speaker 0]:  and just the opening is so refreshing。
+[Speaker 0]:  you're like up。
+[Speaker 0]:  these are such novel words like there's none of this，
+[Speaker 0]:  like if this，
+[Speaker 0]:  then that or it's not x，
+[Speaker 0]:  it's why there's not a single bit of it to be seen。
+[Speaker 0]:  you just like breathe in like original human writing。
+[Speaker 0]:  and it's so refreshing that you go。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i can't stand to it。
+[Speaker 1]:  anything that didn't contript is speaking of original writing。
+[Speaker 1]:  and and human writing，
+[Speaker 1]:  you would talk conconsiof of the digital garten。
+[Speaker 1]:  what is a digital garden？
+[Speaker 0]:  it's a blog。
+[Speaker 0]:  but with an extra rules attached。
+[Speaker 0]:  so it's a blog where every piece you put up does not have to be finished as long as you clearly ignored the audience。
+[Speaker 0]:  it's not。
+[Speaker 0]:  so it's a blog that you grow overtime。
+[Speaker 0]:  so you can put a piece up，
+[Speaker 0]:  it's tough done and then update ted later。
+[Speaker 0]:  he's have like an updated that date，
+[Speaker 0]:  and i usually will II communicate it with three different stages。
+[Speaker 0]:  my post go through。
+[Speaker 0]:  so i have seedings，
+[Speaker 0]:  budding and ever green like grry in the gardening metaphor。
+[Speaker 0]:  so i can put up something that is like a half finished thouore market market as a ceiling，
+[Speaker 0]:  and then like come back to it later and finished it up or fix it。
+[Speaker 0]:  writing in this way has made me allowed me to publish much more than i ever would have otherwise。
+[Speaker 0]:  like i have perfectionist dependencies。
+[Speaker 0]:  this was very much accounter to that。
+[Speaker 0]:  well，
+[Speaker 0]:  of course，
+[Speaker 0]:  i want some of my stuff to be my best work。
+[Speaker 0]:  my most polished。
+[Speaker 0]:  it's completely unrealistic。
+[Speaker 0]:  i would never put anything up if that with the case。
+[Speaker 0]:  so working in this way，
+[Speaker 0]:  really freed me。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i started my garden and like twenty twenty。
+[Speaker 0]:  i think so it's not been that long，
+[Speaker 0]:  but i've written a fair amount more than most people have blog post on their website，
+[Speaker 0]:  because some of them are，
+[Speaker 0]:  frankly，
+[Speaker 0]:  like three paragraphs long，
+[Speaker 0]:  or they have some of them II big long，
+[Speaker 0]:  long essays theyve taken me me long time time write，
+[Speaker 0]:  but hopefully，
+[Speaker 0]:  through the SO，
+[Speaker 0]:  you'll hit something that's draft in progress and everything below that point is pretty rough。
+[Speaker 0]:  one of these，
+[Speaker 0]:  i started three years ago，
+[Speaker 0]:  every time i have like some free time i go back to it like finishh one more paragraph。
+[Speaker 0]:  i like moved a little draft notification down。
+[Speaker 0]:  it like allows me to work in public，
+[Speaker 0]:  which i also think helps like people kind of get to see behind the garage door a little bit，
+[Speaker 0]:  because often the notes below the draft point are like bullet point。
+[Speaker 0]:  so like，
+[Speaker 0]:  oh，
+[Speaker 0]:  i should say something about x。
+[Speaker 0]:  and here i just kind of put it on the website as long as it's marked appropriately。
+[Speaker 0]:  i think it's fine。
+[Speaker 0]:  it's so like this，
+[Speaker 0]:  like contract between you in the reader，
+[Speaker 0]:  as long as you're communking to them that these like rough notes，
+[Speaker 0]:  i haven't finished。
+[Speaker 0]:  that's okay。
+[Speaker 0]:  as long as you're not saying like this is my best finished work that i feel that people read it in the right spirit，
+[Speaker 1]:  somewhat related to this again，
+[Speaker 1]:  just going away from from from AI。
+[Speaker 1]:  you also talked about beare for developers and home ccook software。
+[Speaker 1]:  yeah，
+[Speaker 1]:  what what beare who are beare for developers。
+[Speaker 0]:  so this was um not traring mber。
+[Speaker 0]:  what？
+[Speaker 0]:  yeah，
+[Speaker 0]:  this is it might be twenty twenty four，
+[Speaker 0]:  which feels like an eternity ago was not that long ago。
+[Speaker 0]:  this was at the local fast conference emblearn。
+[Speaker 0]:  in twenty twenty four。
+[Speaker 0]:  i did this talk up um home cooks soffer，
+[Speaker 0]:  my back，
+[Speaker 0]:  it developers，
+[Speaker 0]:  home cooked。
+[Speaker 0]:  software is a phrase that comes from robin。
+[Speaker 0]:  slowhich is sofoftware。
+[Speaker 0]:  you make make you you your your family and way way you make make home home ook ach meal。
+[Speaker 0]:  ah。
+[Speaker 0]:  so it's about this app，
+[Speaker 0]:  he built his family where they send each other，
+[Speaker 0]:  the little like video notes，
+[Speaker 0]:  and it's like it's not anyone else to serve。
+[Speaker 0]:  he doesn't have to pay for it。
+[Speaker 0]:  it's not manage by something company，
+[Speaker 0]:  and this is the way more so ofi should beat。
+[Speaker 0]:  there's lots of little bit pieces of softwicke。
+[Speaker 0]:  we can，
+[Speaker 0]:  both for ourselves，
+[Speaker 0]:  the benefit our lives in our families，
+[Speaker 0]:  and it doesn't have to be like two，
+[Speaker 0]:  ninety nine on the upstore or sell my data in exchange for this software。
+[Speaker 0]:  and i made this um this case of this um conference that i expect to see an explosion of this with language models。
+[Speaker 0]:  and okay，
+[Speaker 0]:  the wrding was already on the world。
+[Speaker 0]:  i don't because that crazy of a prediction，
+[Speaker 0]:  but we were still more in the early days。
+[Speaker 0]:  we didn't have agency yet。
+[Speaker 0]:  but of course，
+[Speaker 0]:  it's like totally happened。
+[Speaker 0]:  there's like personal software everywhere，
+[Speaker 0]:  everyone's building their own recipe manager and their own household up，
+[Speaker 0]:  their own gym up。
+[Speaker 0]:  and like there's all these great use cases that people can just make the software to be what they want without haven't download a uh box standard version a bit。
+[Speaker 0]:  but i extended this concept by saying，
+[Speaker 0]:  okay home cook software for you and your family，
+[Speaker 0]:  but there's another concept that i called beeft developers that comes from in maist china。
+[Speaker 0]:  they had this thinle befort doctors where they took peasants from rural villages and train them up with basic medical trading，
+[Speaker 0]:  like giving vaccinations，
+[Speaker 0]:  you know，
+[Speaker 0]:  administersterananibiotics。
+[Speaker 0]:  um i'm then distributed them out to the villagso that you would would improhehealth cf everyone。
+[Speaker 0]:  and it was a wildly successful program across the board improved health。
+[Speaker 0]:  as you would expect，
+[Speaker 0]:  people who can't get to hospital。
+[Speaker 0]:  and i think we need the same concept for developers because so far，
+[Speaker 0]:  developers are extremely expensive as a profession and like extremely skills，
+[Speaker 0]:  but there's lots of people with lots of needs who would maybe need little software built for，
+[Speaker 0]:  like their allotment garden，
+[Speaker 0]:  or they're like like street，
+[Speaker 0]:  but they have some problem。
+[Speaker 0]:  they solved。
+[Speaker 0]:  and like google sheets doesn't really cut it like a car really just like a google dog。
+[Speaker 0]:  they want something like maybe managing a schedule or like managing inventory。
+[Speaker 0]:  and like either they would have to all like raise money together，
+[Speaker 0]:  and like funded and pay some piece of software that doesn't quite fit their needs，
+[Speaker 0]:  but doesn't no k ay job or maybe trades their data for this，
+[Speaker 0]:  or if if they had one one who was that say at this effort veloveloptytype pulike，
+[Speaker 0]:  like kind of a power uses someone who might use notion and air table at an old wells now can just use an agent or language model and build the suffer they need for，
+[Speaker 0]:  like not many tokens，
+[Speaker 0]:  like pretty cheap。
+[Speaker 0]:  they all have to read the code as long as it works as long as they verify。
+[Speaker 1]:  it's fine mean，
+[Speaker 1]:  what reminds little about of what masters？
+[Speaker 1]:  yeah，
+[Speaker 0]:  what masters。
+[Speaker 1]:  yeah，
+[Speaker 1]:  it is long long time ago，
+[Speaker 1]:  but in the nineties may be miid nineties late nineties。
+[Speaker 1]:  the what masters were just power user administrators，
+[Speaker 1]:  who would administter，
+[Speaker 1]:  for example，
+[Speaker 1]:  of schools，
+[Speaker 1]:  yeah，
+[Speaker 1]:  windows installations and and they were not diased paid。
+[Speaker 1]:  i'm not sure how they got trained，
+[Speaker 1]:  but but at some point，
+[Speaker 1]:  every school had a webmaster，
+[Speaker 1]:  sometimes there were volunteer，
+[Speaker 1]:  sometimes they were。
+[Speaker 1]:  they were paid companies had their webmasters，
+[Speaker 1]:  and they would often operate the web pages，
+[Speaker 1]:  which was，
+[Speaker 1]:  again，
+[Speaker 1]:  more involved way more involved than then lalater，
+[Speaker 1]:  of course，
+[Speaker 1]:  as why there it was a role then then like patch things，
+[Speaker 1]:  and it was all kind of，
+[Speaker 1]:  you know，
+[Speaker 1]:  there were，
+[Speaker 1]:  they might forget to pass stuff or there。
+[Speaker 1]:  they might not know when they were like forms what master forms where they helped each other。
+[Speaker 1]:  and it it was kind of because because because what you talk，
+[Speaker 1]:  the the china example that was，
+[Speaker 1]:  of course，
+[Speaker 1]:  a government and program with with the goal，
+[Speaker 1]:  but this was just a grassies movement。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah。
+[Speaker 0]:  and i think that needs to happen again，
+[Speaker 0]:  like we definitely have these people to some degree，
+[Speaker 0]:  like there's like a techy pass in each community who kind of people go to for help。
+[Speaker 0]:  but i think these people need more like support and tools。
+[Speaker 0]:  i mean，
+[Speaker 0]:  at nocence of building like libraries or frameworks to them，
+[Speaker 0]:  because i think it's a whole much people now coming in as vive cotas or whatever，
+[Speaker 0]:  right like building apps that looking at the code。
+[Speaker 0]:  but you know，
+[Speaker 0]:  they're hitting terrible security like foundations，
+[Speaker 0]:  unlike they're probably like handling the data around like and like lose their database at some point，
+[Speaker 0]:  like they don't have good foundations to build on because they're tellling the agent like k make me an IOS up that does x，
+[Speaker 0]:  but they don't really understand engineering know，
+[Speaker 0]:  know would advocate ate something like something that is。
+[Speaker 0]:  i think it should be local first because as a philosophit matches up with the need，
+[Speaker 0]:  it's like data should be local。
+[Speaker 0]:  you could just think it to machines。
+[Speaker 0]:  you don't really need a database in the cloud。
+[Speaker 0]:  doesn't a point to that like little bit of data sovereignty。
+[Speaker 0]:  they othe data，
+[Speaker 0]:  a no one else could buy it or trait or get access to it。
+[Speaker 0]:  i just feel there should be much stronger，
+[Speaker 0]:  like local first frameworks that give you these good good solid principles in place。
+[Speaker 0]:  good security。
+[Speaker 0]:  good data persistence，
+[Speaker 0]:  make it easy for these effort developers to builds like mabe be good interface primimitive on top。
+[Speaker 0]:  it's maybe something like the next version of air table would be this as why i would hope，
+[Speaker 1]:  what advice would you have for engineers to to learn from designers when when they have access to working with a with designer work would learn from also would collaborate better with。
+[Speaker 1]:  yes。
+[Speaker 0]:  i think it's in the same way that i'm advocating that designers aren't shouldn't be afraid to get involved in engineering。
+[Speaker 0]:  now，
+[Speaker 0]:  vice vesa，
+[Speaker 0]:  right，
+[Speaker 0]:  like in the same way that a designer can sit down with codex or clador copilot and be like a explain the the back end to me，
+[Speaker 0]:  like just not the details，
+[Speaker 0]:  the shape of it。
+[Speaker 0]:  i think in the same way，
+[Speaker 0]:  it develop can sit down with an agent and be like，
+[Speaker 0]:  okay，
+[Speaker 0]:  i need to design a sideblike like what of the principles of good siybbus。
+[Speaker 0]:  okay，
+[Speaker 0]:  i have my blog like teach me about typography，
+[Speaker 0]:  like you now have like a very patient tudeos who just going to sit there and be like AA get。
+[Speaker 0]:  this is where when you would very line hype here is exactly how many characters should fit on a line like they can just teach you，
+[Speaker 0]:  you know，
+[Speaker 0]:  as long you're willing to learn，
+[Speaker 0]:  and you want to expand into the design skills。
+[Speaker 0]:  i think before it was very hard to learn these things，
+[Speaker 0]:  you had to be on a design team，
+[Speaker 0]:  especially product design stuff whaks。
+[Speaker 0]:  like，
+[Speaker 0]:  how do you interview users？
+[Speaker 0]:  how do you do like a use ability test？
+[Speaker 0]:  like not generally available information really，
+[Speaker 0]:  except for some books。
+[Speaker 0]:  but now you sit with the agagent you like，
+[Speaker 0]:  hey，
+[Speaker 0]:  here's here's the data。
+[Speaker 0]:  i got give me some ideas for possible in a faces that would represent it。
+[Speaker 0]:  well，
+[Speaker 0]:  that a decent about conceptual stuff，
+[Speaker 0]:  even if they don't always get the the end of face，
+[Speaker 1]:  right，
+[Speaker 1]:  going back to your entropology routs。
+[Speaker 1]:  what are things that us engineers and people building software？
+[Speaker 1]:  look，
+[Speaker 1]:  you take inspiration or or learn from enropology like a methods，
+[Speaker 1]:  approaches things that have really serve you well ah ah ah，
+[Speaker 0]:  because i feel like a look at everything a little bit to the lens about the policy。
+[Speaker 0]:  i try to take a like 个，
+[Speaker 0]:  you know，
+[Speaker 0]:  peglasses，
+[Speaker 0]:  you can kind of put on look the same when coucouldn't be AA look look，
+[Speaker 0]:  look this this like an。
+[Speaker 0]:  but if if look at at things an anthapologist，
+[Speaker 0]:  you think about like what are the unspoken cultural rules going on in this interaction of this context or this problem？
+[Speaker 0]:  and especially in the context，
+[Speaker 0]:  evention of software，
+[Speaker 0]:  like sure，
+[Speaker 0]:  maybe your building ding a database that your building ding for users and in a cultural context，
+[Speaker 0]:  right like they have assumptions about how they decide something is trustworthy，
+[Speaker 0]:  that have assumptions about how they decide that something is worth their time。
+[Speaker 0]:  and it's like how all like how a flow should go。
+[Speaker 0]:  and this is and it's all culturally contained，
+[Speaker 0]:  like it depends also on like the international how international audience is so who you're designing for。
+[Speaker 0]:  but like there are cultures well，
+[Speaker 0]:  like time flows from from right left ft，
+[Speaker 0]:  right from up to down。
+[Speaker 0]:  but we assume in the west，
+[Speaker 0]:  you know time for those flows left，
+[Speaker 0]:  right？
+[Speaker 0]:  um，
+[Speaker 0]:  but that's not universal everywhere。
+[Speaker 0]:  i think just like reading a little bit of culture on apology and understanding，
+[Speaker 0]:  how varied people's and understanding，
+[Speaker 0]:  like，
+[Speaker 0]:  like some colld to see not see colcolors，
+[Speaker 0]:  but cateororied colors differently in a way that makes them see them differently，
+[Speaker 0]:  like they might see blue and green is actually one unified color。
+[Speaker 0]:  and you're deciding an enterphalike，
+[Speaker 0]:  not though that necessarily directly applies，
+[Speaker 0]:  but i think underunderstanding there's a broad range of ways，
+[Speaker 0]:  humans can interpret something。
+[Speaker 0]:  and you know，
+[Speaker 0]:  if 're，
+[Speaker 0]:  if you're building tools for humans，
+[Speaker 0]:  there might be somewhere you could like teach them to see the world differently through the thing you're building as well，
+[Speaker 0]:  like change，
+[Speaker 0]:  they are perspective or like how they how they interperspereality is。
+[Speaker 1]:  then an enerolologiyou said that you an entrepologists，
+[Speaker 1]:  would one thing that would they would do，
+[Speaker 1]:  they would the traditional to entropologists would live with natives and and be embedded in them？
+[Speaker 1]:  is that something thing that maybe now that AI is，
+[Speaker 1]:  you know like it's making cold but easier as engineers，
+[Speaker 1]:  i think is pretty clear that an endure becomes more valuable，
+[Speaker 1]:  the more they take on the other apart of the business that the more empathy，
+[Speaker 1]:  the understanding。
+[Speaker 1]:  but could it be just an idea when you have the opportune just embeit yourself with customers yah ah become a customer yourself。
+[Speaker 1]:  i me that this uto be the thing right，
+[Speaker 1]:  like the amazon had their customer obsession，
+[Speaker 1]:  which also starts with understanding the customer。
+[Speaker 1]:  but i guess this might be very natural as someone is entrobusigiwhich，
+[Speaker 1]:  which like，
+[Speaker 1]:  like could could be people you could go and try to be one of them，
+[Speaker 1]:  whoever you're building，
+[Speaker 0]:  but theis a good point that like engineers about to have more free time in a certain way。
+[Speaker 0]:  i know there's an infinite another engineering problems to solve，
+[Speaker 0]:  and then it's like may week solve them better，
+[Speaker 0]:  you know，
+[Speaker 0]:  go。
+[Speaker 0]:  but having with the extra time，
+[Speaker 0]:  but big big part of this，
+[Speaker 0]:  yet，
+[Speaker 0]:  you could expand into more for the extrtime and go pass。
+[Speaker 0]:  the interface is is really like the user research side。
+[Speaker 0]:  and that is like go fully understand the domain or designing or building for and like，
+[Speaker 0]:  but real world context of people using it in，
+[Speaker 0]:  like，
+[Speaker 0]:  when are they followout your app like in a factory？
+[Speaker 0]:  are they honor in a tube？
+[Speaker 0]:  be like，
+[Speaker 0]:  i don't know a little bit of like understanding context of uses a big thing that user researchers do。
+[Speaker 0]:  and then understanding the moment when someone reaches for your product for us is like reaching for a different product，
+[Speaker 0]:  like wonder，
+[Speaker 0]:  they decide you all the right solution that definitely gets into the usresearch side。
+[Speaker 0]:  but that's a great thing engineers to expand into，
+[Speaker 0]:  if if，
+[Speaker 0]:  like，
+[Speaker 1]:  like apals and and of closing，
+[Speaker 1]:  what books would you recommend one that you enjoyed reading？
+[Speaker 0]:  and why on my favorites that i give to most people is called addiction by design。
+[Speaker 0]:  so it's about people addicted to gambling machines in losvae as，
+[Speaker 0]:  but it's an anthropologist doing it。
+[Speaker 0]:  and she talks about both like living among these people in their experiences，
+[Speaker 0]:  but also the machine designers，
+[Speaker 0]:  like how do you design a machine that is so addictive that someone sits set up a twelve hour straight。
+[Speaker 0]:  it's like a really fascinating thing and how are like gambling casinos design ned have no windows。
+[Speaker 0]:  so there's like no time around you as as you like this machine。
+[Speaker 0]:  it's ban attached out shshow uh and II reit in university and II love it。
+[Speaker 0]:  it's it's a it's a total mix of like cultural anthopology participant observation and also machine design and engineering。
+[Speaker 0]:  and like how do you design addictive systems，
+[Speaker 0]:  which of course you read it。
+[Speaker 0]:  and then you think about phones and instagrammaing，
+[Speaker 0]:  you reflect a little bit unlike what of these systems were building for people？
+[Speaker 1]:  magie，
+[Speaker 1]:  thanks so much。
+[Speaker 1]:  this was very interesting。
+[Speaker 0]:  yeah。
+[Speaker 0]:  thanks for having me really fun。
+[Speaker 1]:  this was a very visual episode。
+[Speaker 1]:  so i hope you were able to wash you or a video，
+[Speaker 1]:  especially the part of of maggie shelter sketches in the notebook。
+[Speaker 1]:  and this was one of the most interesting parts of the episode for me，
+[Speaker 1]:  even as maggiexends for days potohiping the future of agenenc tools。
+[Speaker 1]:  she starts her design process with pen and paper。
+[Speaker 1]:  her reasoning is that agents cannot see，
+[Speaker 1]:  but us，
+[Speaker 1]:  humans can。
+[Speaker 1]:  and i have to wonder，
+[Speaker 1]:  is it only true her visual stuff？
+[Speaker 1]:  i mean，
+[Speaker 1]:  what i think back to my most product of brainstormming sessions with engineers，
+[Speaker 1]:  it was usually in front of a whiteboard drawing stuff，
+[Speaker 1]:  where we drew out our ideas about the system and the components。
+[Speaker 1]:  another extremely cool trick from maggie is how she uses AI to generate prototypes with slighers to change premeters and change the design。
+[Speaker 1]:  she calls it up，
+[Speaker 1]:  builds your own figma，
+[Speaker 1]:  and we did a life demo with the consolation animation that she played around with。
+[Speaker 1]:  this was so ld dand cool。
+[Speaker 1]:  you get figma like tools，
+[Speaker 1]:  dynamically built for you。
+[Speaker 1]:  it's also pretty incredible that we can do this with agents in a matter of minutes。
+[Speaker 1]:  just wow。
+[Speaker 1]:  finally，
+[Speaker 1]:  i appreciate how maggie was honest about how she feels about the design craft。
+[Speaker 1]:  it's cool that agents make her work master，
+[Speaker 1]:  but she said，
+[Speaker 1]:  she's not sure shed love if an agent just spit out a perfect design，
+[Speaker 1]:  and yet agents are getting better at design。
+[Speaker 1]:  it feels to me that this kind of how i feel about code，
+[Speaker 1]:  it's great that the agent can generate good code，
+[Speaker 1]:  but it was something i liked being good at，
+[Speaker 1]:  and i was good at it。
+[Speaker 1]:  now。
+[Speaker 1]:  i don't write the code，
+[Speaker 1]:  but it does feel more transaction when i feel a bit less connected to the code and the creation of the code itself。
+[Speaker 1]:  design agents are not there yet，
+[Speaker 1]:  but i didn't sense that maggie once。
+[Speaker 1]:  so let it go of that designer in her。
+[Speaker 1]:  i wonder if one thing to learn for her for us，
+[Speaker 1]:  debs is that we should also have a notebook to make sketches 's idea as not just US，
+[Speaker 1]:  but architecres and systems ms don't don't know，
+[Speaker 1]:  but i might give it aggo，
+[Speaker 1]:  at least it will make me feel less that。
+[Speaker 1]:  i'm dependent on agents，
+[Speaker 1]:  and i'll have some AI free space。
+[Speaker 1]:  if you will，
+[Speaker 1]:  thanks for listening and let me know how you like this less conventional episode。
+[Speaker 1]:  thanks，
+[Speaker 1]:  i'll see you in the next one。
