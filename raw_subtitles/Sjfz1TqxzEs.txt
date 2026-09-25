@@ -1,0 +1,616 @@
+[Speaker 2]:  thanks for a kind introduction ction。
+[Speaker 2]:  so jasason cofounder der dinina today，
+[Speaker 2]:  i'll talk about how are we developing high performance and very robust generalalist robotic policies。
+[Speaker 2]:  yeah，
+[Speaker 2]:  so let's jump into it。
+[Speaker 2]:  so today's talk will focus on，
+[Speaker 2]:  you know how we are bring robost into commercial，
+[Speaker 2]:  great。
+[Speaker 2]:  and what we are doing to make these models，
+[Speaker 2]:  like i said，
+[Speaker 2]:  very high performance robust。
+[Speaker 2]:  so just a brief introduction are a company。
+[Speaker 2]:  so our missions to build very robust foundation model autonomy in the real world。
+[Speaker 2]:  so we want to train models。
+[Speaker 2]:  and these days also hardware to have a single platform that can do many um economically useful physical task in the real world，
+[Speaker 2]:  like the ones。
+[Speaker 2]:  we're showing here。
+[Speaker 2]:  so the the company was founded in september twenty twenty four，
+[Speaker 2]:  where a seriously company company had raised about a hundred twenty million dollars，
+[Speaker 2]:  and we focused on general purpose manipulation。
+[Speaker 2]:  and our theysis is that to actually bring robots insider real world being at commercial grade，
+[Speaker 2]:  doing useful task。
+[Speaker 2]:  the company needs to combine doing frontier research with a lot of commercial deployments，
+[Speaker 2]:  so we can build what we consider a research and deployment in a fly wheel，
+[Speaker 2]:  uh，
+[Speaker 2]:  which is that the research and hardware we do in house，
+[Speaker 2]:  the RND informs the kind of tasks，
+[Speaker 2]:  the kind of workforce in the real world that we can commercialize。
+[Speaker 2]:  so we actively try to deploy。
+[Speaker 2]:  so these days，
+[Speaker 2]:  we have more than five deployment size to in bunch of different tasks，
+[Speaker 2]:  which i will sh talk about in a bit。
+[Speaker 2]:  and then by building product and by deploying robots，
+[Speaker 2]:  it does several things ones that it can help us gather high quality deployment data。
+[Speaker 2]:  and it could also tell us what our models and what are harbor is not good at yet。
+[Speaker 2]:  so it helps us sharpping our research focus to figure out what is the right problem to work on in robotics。
+[Speaker 2]:  because if you're familiar with the robotic field，
+[Speaker 2]:  there are too many problems，
+[Speaker 2]:  there are too many different fields。
+[Speaker 2]:  you can spend your effort on and about deploying and by building a product，
+[Speaker 2]:  we know exactly the right kind of problems。
+[Speaker 2]:  have we need to focus to actually make a robotics，
+[Speaker 2]:  not just a demo where videos you see a youtube，
+[Speaker 2]:  but rather in the real world impact in millions of people's life。
+[Speaker 2]:  so before i jump into will will be specifically work on a dinner。
+[Speaker 2]:  just a very quick introduction on the kind of models were training for robotic manipulation。
+[Speaker 2]:  so at a high level，
+[Speaker 2]:  uh，
+[Speaker 2]:  we do data collection where you know there's a lot of data being collected。
+[Speaker 2]:  so here's a video of me，
+[Speaker 2]:  um manipulating a robody hardware to you know，
+[Speaker 2]:  for the t shirt。
+[Speaker 2]:  and once to collect enough of this kind of data，
+[Speaker 2]:  you can put all of them in a large neor network，
+[Speaker 2]:  and a neyear network essentially takes in a you know representation of the world。
+[Speaker 2]:  in this case，
+[Speaker 2]:  just camera feed of what the you know a table looks like。
+[Speaker 2]:  and the outputs robots，
+[Speaker 2]:  you know，
+[Speaker 2]:  joint positions were talk to actually control the robot to do it，
+[Speaker 2]:  ask that you have collected data on，
+[Speaker 2]:  right？
+[Speaker 2]:  so，
+[Speaker 2]:  you know，
+[Speaker 2]:  this is the hihigh level of how robot models in the real world function。
+[Speaker 2]:  so how are we actually scaling us up to actually create models？
+[Speaker 2]:  it's generalizable，
+[Speaker 2]:  and it can do a lot of different tasks。
+[Speaker 2]:  so dindinwe，
+[Speaker 2]:  we cucus on。
+[Speaker 2]:  we call the pretraining data pyrammid for the real world，
+[Speaker 2]:  where we gather a lot of diverse off robot data，
+[Speaker 2]:  just because robotics atata very scarce。
+[Speaker 2]:  so we have data capture from humans wearing cameras uh from public data sats。
+[Speaker 2]:  and these days，
+[Speaker 2]:  we also considering some simulation data，
+[Speaker 2]:  but if you only have off robot data is not actually enough to get robots to do very precise actions。
+[Speaker 2]:  so on the robot themselves，
+[Speaker 2]:  we also collect diverse tasks collected in many different scenarios on many different types of task，
+[Speaker 2]:  like industrial task，
+[Speaker 2]:  household uh in the laonger omat。
+[Speaker 2]:  and you know，
+[Speaker 2]:  hotels。
+[Speaker 2]:  and finally，
+[Speaker 2]:  because we're also deployment robots，
+[Speaker 2]:  we can collect very high quality dedeploment ment ata，
+[Speaker 2]:  which collethe modedel to close train and many test distribution。
+[Speaker 2]:  because when you're developing robots，
+[Speaker 2]:  you know most of the time your robots are in your facility in your ababitories。
+[Speaker 2]:  but if your dedeployrorots ses in a very different environment，
+[Speaker 2]:  so we found that by combining these three data sources，
+[Speaker 2]:  we can actually train large scale foundation models that work very well in the real world。
+[Speaker 2]:  and so far，
+[Speaker 2]:  we have more than two hundred thousand hours of data in our training pipeline and our model architecture roughly folfollows，
+[Speaker 2]:  uh high level reasoning model with a low level，
+[Speaker 2]:  a world action model that can actually output uh that dexious actions，
+[Speaker 2]:  fine grained，
+[Speaker 2]:  uh，
+[Speaker 2]:  high frequency，
+[Speaker 2]:  right？
+[Speaker 2]:  so this is the kind of architecture we have，
+[Speaker 2]:  because in the real world，
+[Speaker 2]:  if you think about a robot doing physical tasks，
+[Speaker 2]:  you needs to have a semantic understanding of the world，
+[Speaker 2]:  but also needs to understand a physical interaction at a fine grained level to be actually able to，
+[Speaker 2]:  you know，
+[Speaker 2]:  recover from mistakes。
+[Speaker 2]:  and a very precise actions to complete the task。
+[Speaker 2]:  so once you combine，
+[Speaker 2]:  you know this uh architecture with a lot of data，
+[Speaker 2]:  what happens is that the model can be rapidly fine tune to the bunch of different testing in the real words。
+[Speaker 2]:  yeah。
+[Speaker 2]:  so here just a gallery of the kind of uh benchmark task we are doing in the office。
+[Speaker 2]:  so he spends from，
+[Speaker 2]:  you know，
+[Speaker 2]:  like cleaning trash opening a box to you know，
+[Speaker 2]:  things like folting，
+[Speaker 2]:  uh，
+[Speaker 2]:  towels，
+[Speaker 2]:  folting t shirts。
+[Speaker 2]:  and also just bunch about our tasks or researchers had thought about。
+[Speaker 2]:  and what's really interesting is that with the good pretrayed model，
+[Speaker 2]:  even without any uh you know，
+[Speaker 2]:  for some of these task on showing you here，
+[Speaker 2]:  they are not in the pretraining data at all。
+[Speaker 2]:  but with a good pretraining，
+[Speaker 2]:  you can actually post train a model to do this kind of highty，
+[Speaker 2]:  texas to a use task with a very little amount of data。
+[Speaker 2]:  so both of the videos are seeing here have only been trained on with less than one hour of task specific data，
+[Speaker 2]:  but you can see that the robot can repetivedly uh do these tasks and over without failure。
+[Speaker 2]:  and i think this is a stepping stone towards actual commercial grade real world deployment，
+[Speaker 2]:  because in the real world，
+[Speaker 2]:  physical tasks need to be done by humans and buy robots over and over。
+[Speaker 2]:  and if your models are not reliable enough，
+[Speaker 2]:  then yes，
+[Speaker 2]:  you can shoot these kind of pretty demos，
+[Speaker 2]:  but it's still very far away from acactual ppointts。
+[Speaker 2]:  so that actually brings us to what i consider the current a status quoal for training，
+[Speaker 2]:  large scale foundation models from a new pulation，
+[Speaker 2]:  which is that the generalist models that can do many，
+[Speaker 2]:  many tasks，
+[Speaker 2]:  like the ones i've been showing you，
+[Speaker 2]:  even though they make pretty videos。
+[Speaker 2]:  ah。
+[Speaker 2]:  what i would tell you that this success strate is actually ah not super high。
+[Speaker 2]:  uh you know when these models are actually deployed，
+[Speaker 2]:  they're about ty ty ninety perperent ent successory。
+[Speaker 2]:  but if you're stuck at eighty to ninety percent successory，
+[Speaker 2]:  then you know the chance that you can do the same task，
+[Speaker 2]:  ten times in our row is actually less than zero point of one percent。
+[Speaker 2]:  and on，
+[Speaker 2]:  on the flip side，
+[Speaker 2]:  in the history of robotics，
+[Speaker 2]:  we have had very specialized robot and a very specialized machine learning pipeline to do singular tasks like picking place。
+[Speaker 2]:  but this kind of pipeline，
+[Speaker 2]:  which is what i consider specialist models are aren't very scalleable，
+[Speaker 2]:  meaning that you can't take the same pipeline to just do a new task。
+[Speaker 2]:  and do an arbitrary task very fast through our mission is to resolve this status pode。
+[Speaker 2]:  and you know，
+[Speaker 2]:  this kind of life economy by training general purpose models that can both to many，
+[Speaker 2]:  many tasks and also be reliable enough for commercial deployments。
+[Speaker 2]:  so also do acactually do that in toyytalk k。
+[Speaker 2]:  briefly taltalk some some of our progress on masterter very comcompletasks their reliably and also taking the same skills to be performance，
+[Speaker 2]:  not only in the environments in the laboratory environments to a trainer，
+[Speaker 2]:  but also being able to deploy to arbitrary customer tes，
+[Speaker 2]:  withwithout tune or without fine tunor adaptation。
+[Speaker 2]:  okay。
+[Speaker 2]:  so let me get to this，
+[Speaker 2]:  right。
+[Speaker 2]:  so the first question we want ansanswer is，
+[Speaker 2]:  can we take？
+[Speaker 2]:  you know the general pretraining position recipe that we have？
+[Speaker 2]:  but to turn these models into models that can be almost to close a hundred percent robust on uh any task。
+[Speaker 2]:  so this is the first research result we published last 啊 for detail。
+[Speaker 2]:  you can check out our block post，
+[Speaker 2]:  but at a high level，
+[Speaker 2]:  you know，
+[Speaker 2]:  if we want to make a model a hundred percrobots on many，
+[Speaker 2]:  many tasks，
+[Speaker 2]:  i think it's very good。
+[Speaker 2]:  the first narrow down on a commercial use case that's reasonably heart，
+[Speaker 2]:  which allows you to make research progress，
+[Speaker 2]:  but also has commercial value。
+[Speaker 2]:  so when we first started the company，
+[Speaker 2]:  uh，
+[Speaker 2]:  but well，
+[Speaker 2]:  we discovered is that if you go to any，
+[Speaker 2]:  you know restaurant，
+[Speaker 2]:  you see fancy restaurant or in some places in the US，
+[Speaker 2]:  you you see a nicely folded napping on the table right for you，
+[Speaker 2]:  right？
+[Speaker 2]:  if you go to cheese k factory，
+[Speaker 2]:  you see those snapkins。
+[Speaker 2]:  and what happens is that in the back office of a restaurant，
+[Speaker 2]:  there's usually uh workers，
+[Speaker 2]:  uh，
+[Speaker 2]:  you know，
+[Speaker 2]:  restaurant employees that's voting these napkines one by one by hand。
+[Speaker 2]:  and that's a maingame process。
+[Speaker 2]:  and a lot of the customers we have talked to are looking into robots，
+[Speaker 2]:  i can actually do the same past。
+[Speaker 2]:  so this is one the earliest case that do did on how the train models to be very robust。
+[Speaker 2]:  so a research result is a model called a diano one，
+[Speaker 2]:  which is they generalist robot foundation model。
+[Speaker 2]:  that's fine teen to do not confolding。
+[Speaker 2]:  they can actually achieve nine nine point four person successory over a twenty four hours span。
+[Speaker 2]:  so here re's a time lapse of the model，
+[Speaker 2]:  you know，
+[Speaker 2]:  doing the task。
+[Speaker 2]:  and uh you know，
+[Speaker 2]:  it's sped up about a thousand times so you can see the clock in the back running very quickly to show the progress。
+[Speaker 2]:  and uh，
+[Speaker 2]:  my favorite part of the video is when the clock you know，
+[Speaker 2]:  hit about，
+[Speaker 2]:  like uh，
+[Speaker 2]:  like seltting m in the morning。
+[Speaker 2]:  so lights，
+[Speaker 2]:  you know，
+[Speaker 2]:  actually come out in the outside。
+[Speaker 2]:  so the environments are actually you know，
+[Speaker 2]:  shifting over time due to the lighting as the robots，
+[Speaker 2]:  forty in apgon，
+[Speaker 2]:  but the models robots enough。
+[Speaker 2]:  and it just keeps going。
+[Speaker 2]:  so how do we actually get to a model that can do this？
+[Speaker 2]:  and uh，
+[Speaker 2]:  first of all，
+[Speaker 2]:  you know，
+[Speaker 2]:  this a video，
+[Speaker 2]:  we put us，
+[Speaker 2]:  not a one time occurrrence。
+[Speaker 2]:  the model can do this many，
+[Speaker 2]:  many times。
+[Speaker 2]:  so in the office，
+[Speaker 2]:  you know，
+[Speaker 2]:  so these are four distinct trials of twenty four hour rs。
+[Speaker 2]:  so before i dive into the techniical detadetajust just hihighlight how difficult ttask。
+[Speaker 2]:  so you see that in the naapkn voting task，
+[Speaker 2]:  you start out with a stack of napping on the site。
+[Speaker 2]:  and what the robot has to do is like，
+[Speaker 2]:  be very precise about picking out exactly one acking from the stack，
+[Speaker 2]:  and then voted and then put it into a bin and not allow the the feal al cases。
+[Speaker 2]:  just come from the fact that you know，
+[Speaker 2]:  parallel job grappers were deploying，
+[Speaker 2]:  you know，
+[Speaker 2]:  the griper may not be precise enough to be able to pick out exactly one acking。
+[Speaker 2]:  and in this situations，
+[Speaker 2]:  the model has to learn how to recover from the mistakes of pulling out action actions。
+[Speaker 2]:  and secondly，
+[Speaker 2]:  the in commercial environment is different from a lap demo，
+[Speaker 2]:  where the seararers like me are thinking of task of success。
+[Speaker 2]:  there's actually very uh well defined success criteria for these task。
+[Speaker 2]:  so on the right，
+[Speaker 2]:  you see the difference between will we consider a great five fowhich，
+[Speaker 2]:  which is a fold diffethat that the restaurant would accept versus a great three，
+[Speaker 2]:  which is something that's below the accepting criteria。
+[Speaker 2]:  and we you see the barely like one inch difference in how you know low the uh you know，
+[Speaker 2]:  second fold seem of the naapkiness。
+[Speaker 2]:  so how do we actually get to a model that works really well？
+[Speaker 2]:  so our internal attempt was kind of like the pretraining，
+[Speaker 2]:  uh，
+[Speaker 2]:  many，
+[Speaker 2]:  many hours of data and then post in any recipe that i told you about in the beginning。
+[Speaker 2]:  i'm doing this roughly get you about eighty percent successory。
+[Speaker 2]:  and what happens is that the model l know is doing fine the beginning。
+[Speaker 2]:  but as soon as it makes a mistake，
+[Speaker 2]:  you tytypically go out didistribution get stuck and unable to recover。
+[Speaker 2]:  so we have to do something more than the standard pretraining post training idea。
+[Speaker 2]:  that's very popular in robotics and not also in other fields。
+[Speaker 2]:  so what we did is that we developed will we consider a reward models for comcomplex long horizmanmanpupulatask ks。
+[Speaker 2]:  so these are models that can you know，
+[Speaker 2]:  look at their robot video and accurate score？
+[Speaker 2]:  it's progress towards solving a task，
+[Speaker 2]:  right？
+[Speaker 2]:  so let me i just play these videos again。
+[Speaker 2]:  so here's the same model，
+[Speaker 2]:  you know，
+[Speaker 2]:  being able to score。
+[Speaker 2]:  so well，
+[Speaker 2]:  the robot is doing these long horizon complex task，
+[Speaker 2]:  as it's you know，
+[Speaker 2]:  going from uh you know，
+[Speaker 2]:  starting of the task to finish。
+[Speaker 2]:  so you see as the robots completing and task is able to go from zero to one。
+[Speaker 2]:  and if you you squent at these videos enough，
+[Speaker 2]:  you also see that whenever the robot is actually making some mistakes，
+[Speaker 2]:  it'll be like slight dips in the reward model and actually becomes a very important。
+[Speaker 2]:  you also siite into how to make these models very robust。
+[Speaker 2]:  so here's what happens when you run such model during like a autonomous royout of the robot。
+[Speaker 2]:  so you see that when the robot is that doing fine for the napks，
+[Speaker 2]:  the progress asimation is roughly um monotonic going up right because the robots are not messing up。
+[Speaker 2]:  but what's really interesting is that let me just for fast forward a bit，
+[Speaker 2]:  whatever the model starts to making mistake。
+[Speaker 2]:  so ah here it is this is the nice napinins voting。
+[Speaker 2]:  so you see，
+[Speaker 2]:  i when the model is like making mistake，
+[Speaker 2]:  that's when the progress mistion，
+[Speaker 2]:  you know starts to like，
+[Speaker 2]:  you know，
+[Speaker 2]:  show no montonic sign，
+[Speaker 2]:  indicating that a mibot。
+[Speaker 2]:  it's messing up，
+[Speaker 2]:  right？
+[Speaker 2]:  and this is very important because once your models like good enough in ninety percent uh range，
+[Speaker 2]:  then it's very inefficient for humans to manually oversee the robot to detect its failure。
+[Speaker 2]:  and i try to recover。
+[Speaker 2]:  but once we have this reward model，
+[Speaker 2]:  we can actually do what i consider a skeleable supervision。
+[Speaker 2]:  so you can just have the robot trying to folnow。
+[Speaker 2]:  and and in this reward model，
+[Speaker 2]:  the background。
+[Speaker 2]:  so whatever a model does make a mistake。
+[Speaker 2]:  uh we as researchers are operators can immediate，
+[Speaker 2]:  you know，
+[Speaker 2]:  kind kind of fiure case that the model is struggling on。
+[Speaker 2]:  and then do very targeted data collection and erver recovery data for the model，
+[Speaker 2]:  then we can find ght in the model again。
+[Speaker 2]:  so the overall pipeline looks like a human e loop active learning process，
+[Speaker 2]:  where you can use the reward model to help us catch the the kind of mistake。
+[Speaker 2]:  the model is bad ate and then do targeted collection to make the model better and iterate。
+[Speaker 2]:  and what we found is that once you iterate on this a couple cycles，
+[Speaker 2]:  then you start art get a model。
+[Speaker 2]:  this extremely robots，
+[Speaker 2]:  and i can't recover from all kinds of errors。
+[Speaker 2]:  and finally，
+[Speaker 2]:  bringing us closer to a commercial，
+[Speaker 2]:  great robots。
+[Speaker 2]:  so here is just some of the uyou。
+[Speaker 2]:  you know，
+[Speaker 2]:  the highlight，
+[Speaker 2]:  i guess，
+[Speaker 2]:  during the twenty for our child。
+[Speaker 2]:  so what you saw there was the robot accidentally pick out more than one acins，
+[Speaker 2]:  and the model is able to，
+[Speaker 2]:  you know，
+[Speaker 2]:  separate an accouns。
+[Speaker 2]:  and you know，
+[Speaker 2]:  here，
+[Speaker 2]:  it's kind of doing that。
+[Speaker 2]:  and uh be able to continue progressing what we found inteinterein that uh naapkon folting that diformable object manipulation histories。
+[Speaker 2]:  so there is almost infinitely many possible states or configuration that in applicans can get to。
+[Speaker 2]:  so the impossible to exhaussively collect data for all the error cases。
+[Speaker 2]:  but once we have done to active learning，
+[Speaker 2]:  many，
+[Speaker 2]:  many times，
+[Speaker 2]:  we saw the model able to generalize to new ways of recovery from the mistake is made and contincontinue to make progress，
+[Speaker 2]:  and that contributed to its ability to be able to afforat at that in life，
+[Speaker 2]:  point four percent success strike。
+[Speaker 2]:  so here's uh what i found the most impressive bit from the trial。
+[Speaker 2]:  typically，
+[Speaker 2]:  if you look at robot videos，
+[Speaker 2]:  you know，
+[Speaker 2]:  they only show you the successful cases。
+[Speaker 2]:  but here i wanted to highlight that even when a model accidentally put in the higher nockin stock over is they ilable to demonstrate this kind of erir recovery behavior does very surprising to us when wor're developing a model and contribute to how it's able to just continues to run，
+[Speaker 2]:  right？
+[Speaker 2]:  so here ah he made a big mass，
+[Speaker 2]:  but it's able to just do all kind of like very impressive apppolling。
+[Speaker 2]:  uh，
+[Speaker 2]:  you know，
+[Speaker 2]:  structing behavior to recover from his in snake。
+[Speaker 2]:  and and continuously going yeah。
+[Speaker 2]:  so you know，
+[Speaker 2]:  after developing such technology，
+[Speaker 2]:  we actually are successful deployying our models at many，
+[Speaker 2]:  many restaurants in the us。
+[Speaker 2]:  so here's a real uh restaurant deployment of our robot footing opinins for the customers in their back office。
+[Speaker 2]:  and in addition to footing in opkon，
+[Speaker 2]:  because the recipe is quite generalizable。
+[Speaker 2]:  now we also have models doing bunch of commercial task。
+[Speaker 2]:  so here is at a real uh launroamat in cycuonmental。
+[Speaker 2]:  and this time，
+[Speaker 2]:  we find tuning our model to do uh tolevoting for the customer。
+[Speaker 2]:  so you can see，
+[Speaker 2]:  uh，
+[Speaker 2]:  you know，
+[Speaker 2]:  there's a restaurant，
+[Speaker 2]:  i guess，
+[Speaker 2]:  laundge of my worker coming here to fill the bin over and over on the robot。
+[Speaker 2]:  just kept voting stacks of tolls to serve the customer。
+[Speaker 2]:  so now let's talk about。
+[Speaker 2]:  we have a recipe to master very complex tasks。
+[Speaker 2]:  but the copy out here is that in all the deos have have shown you so far，
+[Speaker 2]:  we have also collected data at the exact customer sidewhere location that are robotally played。
+[Speaker 2]:  but if you think about scaling robots to any task or to to any customer，
+[Speaker 2]:  then then 'll be much better or more ideal。
+[Speaker 2]:  if the models can readily generalize the environment，
+[Speaker 2]:  it hasn't seseen before。
+[Speaker 2]:  so is what we have worwork on in the uh um i guess，
+[Speaker 2]:  the end of last year，
+[Speaker 2]:  will we figured out a data recipe to collect a lot of diverse tasks to allow the robots to be able to deploy at a new site without any additional data while maintaining the task performance。
+[Speaker 2]:  so here's a demo we did at coral twenty twenty five。
+[Speaker 2]:  so coral al is the premier academic conference and robot learning，
+[Speaker 2]:  and it's held in korea last year。
+[Speaker 2]:  so you know，
+[Speaker 2]:  bring a robot from the US。
+[Speaker 2]:  carret was its whole challenge that i can talk about offline，
+[Speaker 2]:  but the recipe we discovered was able to，
+[Speaker 2]:  you know，
+[Speaker 2]:  which just brought a robot to our，
+[Speaker 2]:  you know，
+[Speaker 2]:  hibition booth and just drop it there。
+[Speaker 2]:  and the robot can start voting many，
+[Speaker 2]:  many different t shirts。
+[Speaker 2]:  and you see that the robot is facing the，
+[Speaker 2]:  you know the conference attendees。
+[Speaker 2]:  so many，
+[Speaker 2]:  many times，
+[Speaker 2]:  there are people just deliberate trying to mess with the robot，
+[Speaker 2]:  use the t shirt to cover up the robots camera，
+[Speaker 2]:  and you know，
+[Speaker 2]:  all kind offances study。
+[Speaker 2]:  you see at academic conferences，
+[Speaker 2]:  but a models able to continuously fold t shirts over and over for three days，
+[Speaker 2]:  strates at conference。
+[Speaker 2]:  just to demonstrate the ability to，
+[Speaker 2]:  you know，
+[Speaker 2]:  saw the time other environments is never seen before，
+[Speaker 2]:  bring it，
+[Speaker 2]:  you know，
+[Speaker 2]:  much closer to the kind of，
+[Speaker 2]:  you know，
+[Speaker 2]:  idea，
+[Speaker 2]:  you know，
+[Speaker 2]:  go to market that，
+[Speaker 2]:  that want want have have robotics company，
+[Speaker 2]:  which is just spring the robot to a sight，
+[Speaker 2]:  and you stararworking king。
+[Speaker 2]:  and recently，
+[Speaker 2]:  we have also eventually into many different task，
+[Speaker 2]:  like we have AA partnership with red boall l where uh opening red ball cans，
+[Speaker 2]:  like you know，
+[Speaker 2]:  red boall events。
+[Speaker 2]:  so um here's a video with our uh robot。
+[Speaker 2]:  again ah h guethis video won't play proproperly。
+[Speaker 2]:  so you get the point。
+[Speaker 2]:  we brought the robot to a red red boall event。
+[Speaker 2]:  and is able to uh open uh these red bow drinks for again，
+[Speaker 2]:  conference tindies over and over without failure，
+[Speaker 2]:  even though in this particular deployment，
+[Speaker 2]:  it's that a music festival。
+[Speaker 2]:  so the lightings always changing the background，
+[Speaker 2]:  but the model can continue。
+[Speaker 2]:  yeah，
+[Speaker 2]:  but due to yeah，
+[Speaker 2]:  i guess the video will not play。
+[Speaker 2]:  so just to summarize，
+[Speaker 2]:  uh，
+[Speaker 2]:  mismission，
+[Speaker 2]:  i denized be able to build general purpose models and robots，
+[Speaker 2]:  that's those competent at many task，
+[Speaker 2]:  but also being able to focus and attain really high performance on commercial task。
+[Speaker 2]:  and i have demonstrated some of our recent progress on mastering complex task and also generalizing the skills to environments is the robots have never seen before。
+[Speaker 2]:  so we are a serious stage company，
+[Speaker 2]:  actively growing and hiring。
+[Speaker 2]:  and if you're also interested in partnering with us for deployments and everythings feel free to reach out。
+[Speaker 2]:  and i talk to me after the talk，
+[Speaker 2]:  and thank you for listening，
+[Speaker 4]:  awesome。
+[Speaker 4]:  thank you，
+[Speaker 4]:  jason，
+[Speaker 4]:  really appreciate。
+[Speaker 4]:  uh，
+[Speaker 4]:  if you guys haven't see that，
+[Speaker 4]:  then everybody in life in real life have to check it out。
+[Speaker 4]:  else。
+[Speaker 4]:  i see as very impressive performance。
+[Speaker 4]:  um do we have any question or wanted ask？
+[Speaker 4]:  okay，
+[Speaker 4]:  cool。
+[Speaker 1]: 嗯，
+[Speaker 5]:  thank you for sharing the presentation。
+[Speaker 5]:  i wanted to ask if you are already doing kindlike a providing developer kds with robots as decase is frameworks setup for your commercial partners。
+[Speaker 2]:  yes。
+[Speaker 2]:  so we haven't been working on developed develop a kit，
+[Speaker 2]:  but you know，
+[Speaker 2]:  uh，
+[Speaker 2]:  at the current moment where building our own hargard step。
+[Speaker 2]:  so maybe at some point，
+[Speaker 2]:  it's on a road nap。
+[Speaker 2]:  uh not as self not has up now。
+[Speaker 2]:  yeah，
+[Speaker 6]:  i'm curious if you have ventured into education，
+[Speaker 6]:  like teaching kids，
+[Speaker 6]:  elementary mats are any such use case you tried。
+[Speaker 2]:  yes。
+[Speaker 2]:  so we haven't looking into education use case，
+[Speaker 2]:  right？
+[Speaker 2]:  but i think in the future，
+[Speaker 2]:  you know，
+[Speaker 2]:  once are uh four stack robotics pipelinines matchaibes，
+[Speaker 2]:  who have our own hardware，
+[Speaker 2]:  our data collection，
+[Speaker 2]:  you know，
+[Speaker 2]:  too kid id think think possipossible II think would be very interesting to venture and education use cases，
+[Speaker 2]:  because i also think robotics will only get bigger in the future。
+[Speaker 2]:  so i think it will be really interesting to get our children and young kids into the field and are learning how to actually train models to do tasks。
+[Speaker 7]:  thank you for the presentation，
+[Speaker 7]:  really good。
+[Speaker 7]:  um my question is like，
+[Speaker 7]:  is there US have a plan for kind of taking this technology direct or consumer？
+[Speaker 7]:  like i saw the use case for the falling launddry。
+[Speaker 7]:  a lot of people don't like follling ononder。
+[Speaker 7]:  i think it's a great use case。
+[Speaker 7]:  so is that something that you guys thinking about？
+[Speaker 7]:  and obviously，
+[Speaker 7]:  there is a cost and all those aspects，
+[Speaker 7]:  but whawhat's your plan in the long term on this technology。
+[Speaker 2]:  yeah。
+[Speaker 2]:  so our long term plans to develop，
+[Speaker 2]:  you know，
+[Speaker 2]:  like a robot model plus harder platform that can be deplot anywhere for anyone。
+[Speaker 2]:  so that would include，
+[Speaker 2]:  you know，
+[Speaker 2]:  like going directly to consumers。
+[Speaker 2]:  and you know，
+[Speaker 2]:  our models today are able to just fold，
+[Speaker 2]:  you know，
+[Speaker 2]:  many kinds of garments。
+[Speaker 2]:  but uh in terms of like go to market strategy，
+[Speaker 2]:  our current focuses on enterprise use cases because i think the distribution channel is like i think it's easier to work with uh enterprise customers or like we can deploy right away and iterate adds customers size。
+[Speaker 2]:  but for consumer product，
+[Speaker 2]:  i think II would imagine。
+[Speaker 2]:  i you have to be very，
+[Speaker 2]:  very polish，
+[Speaker 2]:  and it's less tolerant from mistakes and years。
+[Speaker 2]:  a lot of privacy safety concerns that we think uh we are trying to not get into at the current moment to uh unbloccuus from deployments because we think that the bottle neck for AII robots is getting AI and hardware working totogether very well well。
+[Speaker 2]:  and i think commercial environments provide ideal testing ground for companies and for the entire field at this stage。
+[Speaker 8]:  thank you，
+[Speaker 8]:  jason。
+[Speaker 8]:  my name is omid，
+[Speaker 8]:  and i work in a invoice ai in in the voice space and at least for consumer robots，
+[Speaker 8]:  where i believe humans will want to issue voice commands to robots。
+[Speaker 8]:  um can you talk about how to integrate traditional voice stacks，
+[Speaker 8]:  which are intent driven and a different kinds of models from robotic，
+[Speaker 8]:  you know，
+[Speaker 8]:  via models。
+[Speaker 2]:  yeah，
+[Speaker 2]:  that's a great question。
+[Speaker 2]:  so we think a robot human infractions really important。
+[Speaker 2]:  and at the end of the day，
+[Speaker 2]:  right，
+[Speaker 2]:  we want to develop models are teachable。
+[Speaker 2]:  so if it really nize，
+[Speaker 2]:  if humans can speak to it and the robot does the task。
+[Speaker 2]:  so the way i think about it，
+[Speaker 2]:  so not i don't have a speech or audio background。
+[Speaker 2]:  so what i can think of is like there is very mature speech to text models，
+[Speaker 2]:  right？
+[Speaker 2]:  so i can use that running the on board to translate human intent or human speech into text very quickly。
+[Speaker 2]:  and then you know，
+[Speaker 2]:  that's where our reasoning model and our world model comes into play，
+[Speaker 2]:  because both of them are able to interpret text comments so that we allow the model to translate instruction into actions。
+[Speaker 2]:  but i think in the overall stack，
+[Speaker 2]:  the bottm neck is still on the robot foundation models。
+[Speaker 2]:  because models today，
+[Speaker 2]:  our models and other people's model are not ready to just execute any arbitrary comcomments。
+[Speaker 2]:  so i think they're still gap in terms of low level robotic manipulation to get there。
+[Speaker 2]:  but i think that's the eventual goal that we want to get to just a model that can be steerthat that can taught by anyone。
+[Speaker 2]:  yeah，
+[Speaker 2]:  okay，
+[Speaker 2]:  thank you。
+[Speaker 9]:  how do you think about？
+[Speaker 9]:  i guess，
+[Speaker 9]:  the split of intelligence between the general foundation models that you all are training。
+[Speaker 9]:  i guess，
+[Speaker 9]:  something like a tasspecific model for something like launddary folding and then kind of some of the onsite specific training that，
+[Speaker 9]:  that neeto to happen for a specific depoloyment in particular environment。
+[Speaker 2]:  yeah，
+[Speaker 2]:  i think both are very，
+[Speaker 2]:  very important，
+[Speaker 2]:  right？
+[Speaker 2]:  so the kind of recipe that we have you seen，
+[Speaker 2]:  we have pretraining post sttraining that we have some of sort of active learning，
+[Speaker 2]:  right？
+[Speaker 2]:  i think，
+[Speaker 2]:  think think if you think about，
+[Speaker 2]:  you know，
+[Speaker 2]:  humans，
+[Speaker 2]:  right，
+[Speaker 2]:  you know，
+[Speaker 2]:  we have a basic level of like so mi taking phphysunderunderstand that allows us to adapt any physical task very fast and don't think the best way。
+[Speaker 2]:  do you even build commercial de robots today is by doing that because by doing a lot of generalist model training，
+[Speaker 2]:  have a general understanding of physical world。
+[Speaker 2]:  that's very useful。
+[Speaker 2]:  and what we have seen。
+[Speaker 2]:  so this is something i didn't talk about in a talk is that when the model was recovering from all kind of errors that you saw a lot of that。
+[Speaker 2]:  also just came from interpolate in different error recovery behavior that is gathered from doing older task。
+[Speaker 2]:  ks，
+[Speaker 2]:  right，
+[Speaker 2]:  right。
+[Speaker 2]:  just because you know，
+[Speaker 2]:  the model has in thousands of task，
+[Speaker 2]:  we are have some data to recover from all kind of mistakes is able to just executhat that kind like uh h demand on a new tsbal has n't sine before。
+[Speaker 2]:  but if you 're only specializing the model from the gadgo on one task，
+[Speaker 2]:  then is actually missing out on a lot of the physical knowledge that allows the model to be more robust。
+[Speaker 2]:  then if we only train one task，
+[Speaker 2]:  and that's what we have seen consistently。
+[Speaker 2]:  that's why，
+[Speaker 2]:  you know，
+[Speaker 2]:  in the beginning of the talk，
+[Speaker 2]:  also emphasize on having that general petroining backbone are then do impose training on an active learning on top of that to get to actual commercial grade is the ability not on just one task，
+[Speaker 2]:  but also the same recipe that can be repeated across many of any tasks。
+[Speaker 4]:  awesome。
+[Speaker 4]:  thank it isn't really appreciate。
+[Speaker 4]:  um does a rap for uh h dinance session？
+[Speaker 4]:  uh，
+[Speaker 4]:  if you have more question for you to catch easand after the session as well。
+[Speaker 4]:  uh h，
+[Speaker 4]:  yeah，
+[Speaker 4]:  this wrap our morning session。
+[Speaker 4]:  uh this afternoon，
+[Speaker 4]:  we have unittary skydeal suoks uh googdemine。
+[Speaker 4]:  so we'll catch you own scy as well。
+[Speaker 4]:  so we'll see you in the afternoon。
+[Speaker 1]:  thank everyone。
+[Speaker 0]: 嗯。
