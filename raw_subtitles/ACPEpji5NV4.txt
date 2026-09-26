@@ -1,0 +1,352 @@
+[Speaker 1]:  thank you，
+[Speaker 1]:  everyone for coming to this talk and divunge for organizing。
+[Speaker 1]:  uh，
+[Speaker 1]:  i'm roggoh。
+[Speaker 1]:  i'm a stuff um machine learning engineer and dautaa shi work on sech and personalization。
+[Speaker 1]:  and uh today，
+[Speaker 1]:  i'm going to talk about uh the ways that we inteinteating place eleams for，
+[Speaker 1]:  you know，
+[Speaker 1]:  our markeplace discovery，
+[Speaker 1]:  our specifically in four pieces。
+[Speaker 1]:  and um how these permitives are kind of uh working towords，
+[Speaker 1]:  our inteintegraof LL mbs into traditional uh xcess as well。
+[Speaker 1]:  so i'll start off today um with a simple claim。
+[Speaker 1]:  uh the claim is that to build effective discovery，
+[Speaker 1]:  in this case，
+[Speaker 1]:  for a marketplace like dordash，
+[Speaker 1]:  the real bottleneck is semantic understanding。
+[Speaker 1]:  so that is knowing what you know，
+[Speaker 1]:  actually what items mean uh for users given some context and what a shopper actually intends to do on，
+[Speaker 1]:  you know，
+[Speaker 1]:  an app like dordash。
+[Speaker 1]:  and historically，
+[Speaker 1]:  we have treated these um as engagement optizzproblems。
+[Speaker 1]:  ms。
+[Speaker 1]:  however，
+[Speaker 1]:  l ymps give us a genuinely new lever to extend us。
+[Speaker 1]:  so this talk is about the four permitives that have allowed us to start leveraging alyymps for problems at dorash。
+[Speaker 1]:  as you may know，
+[Speaker 1]:  daortash is now grown well beyond restaurants。
+[Speaker 1]:  so we are in grocery，
+[Speaker 1]:  retail，
+[Speaker 1]:  pets，
+[Speaker 1]:  gifting and more。
+[Speaker 1]:  and our goal is to capture every shoppkable moment ah。
+[Speaker 1]:  and we know that across these verticles，
+[Speaker 1]:  the users frequently have very broad shopping missions，
+[Speaker 1]:  right？
+[Speaker 1]:  so for example，
+[Speaker 1]:  a consumer may say，
+[Speaker 1]:  when they come to appas，
+[Speaker 1]:  you know，
+[Speaker 1]:  i just adopted a puppy。
+[Speaker 1]:  what do i need to get started this week？
+[Speaker 1]:  and this consumers may start unlike searching for puppy food because they just adopted the puppy，
+[Speaker 1]:  and that one query could unfold into further query reformulations。
+[Speaker 1]:  the land on collections for，
+[Speaker 1]:  you know，
+[Speaker 1]:  other shopping needs。
+[Speaker 1]:  complimentary items such as creates lelehes training pads all the way to check out。
+[Speaker 1]:  and this could happen over multiple session is multiple days，
+[Speaker 1]:  right？
+[Speaker 1]:  and capturing that whole arc is pretty hard because it fans multiple models。
+[Speaker 1]:  um and this is where the four permitives i will cover come in specifically supervision，
+[Speaker 1]:  catalogue，
+[Speaker 1]:  semantics，
+[Speaker 1]:  semantic personalization and steerable content generation as we heard previously as well。
+[Speaker 1]:  it's a system of shared representations that help us map this customers journey with the use of alums。
+[Speaker 1]:  now with supervision。
+[Speaker 1]:  the question we're asking or looking to address is how do we teach our retrieval and ranking systems，
+[Speaker 1]:  what good means for different tasks。
+[Speaker 1]:  and here's a simple example，
+[Speaker 1]:  right？
+[Speaker 1]:  a shopper searches for glue free free pasta。
+[Speaker 1]:  and if we only rank from engagement popolar lar gular spebegheties might show up。
+[Speaker 1]:  and because it sells well，
+[Speaker 1]:  you know，
+[Speaker 1]:  it may continue to show up even glue and free white bread might be retrieved。
+[Speaker 1]:  and you know，
+[Speaker 1]:  show up because it overlaps at glue and free。
+[Speaker 1]:  but neither of these are clearly the right answer。
+[Speaker 1]:  what we actually want is greater relevance。
+[Speaker 1]:  a true，
+[Speaker 1]:  you know，
+[Speaker 1]:  gluden free posta should be a high relevant item chicky posta might be a reasonable substitute and regular ars pegheti while is popular。
+[Speaker 1]:  it fails the constraint that the user has now to solve this。
+[Speaker 1]:  there are，
+[Speaker 1]:  obviously two sources of truth。
+[Speaker 1]:  we could look at human andcation。
+[Speaker 1]:  but that's expensive，
+[Speaker 1]:  slow and becomes quickly stale because our catalog changes quite rapidly。
+[Speaker 1]:  second is behavior of signals。
+[Speaker 1]:  they are abundant，
+[Speaker 1]:  but obviously，
+[Speaker 1]:  as i mention a biased by exposure physition price promotions and you know previous model choices。
+[Speaker 1]:  so the missing signal is a scalable reasoning signal。
+[Speaker 1]:  this is where elens are very useful as they offer a way to produce that supervision for such task。
+[Speaker 1]:  so in our case，
+[Speaker 1]:  you know，
+[Speaker 1]:  the pipeline starts with human ground troops。
+[Speaker 1]:  we we build a high quality seat set of example，
+[Speaker 1]:  query itemppairs on a three three level roll in scale。
+[Speaker 1]:  and there are one two。
+[Speaker 1]:  we audit the suspicious cases。
+[Speaker 1]:  for example，
+[Speaker 1]:  if a human label says，
+[Speaker 1]:  you know that item is irrelevant，
+[Speaker 1]:  but that item performs very well on add to carter conversions。
+[Speaker 1]:  we send that case to a stronger eletilim m to reevaluate with more gradular prompts。
+[Speaker 1]:  we also reconcile with other botles les know。
+[Speaker 1]:  for example，
+[Speaker 1]:  ple are query to taxonomy or category models。
+[Speaker 1]:  and if you know，
+[Speaker 1]:  query maps to a set of valid categories and the items belong to those valid cateories，
+[Speaker 1]:  we may adjust the label accordingly。
+[Speaker 1]:  and through proprocess wewere，
+[Speaker 1]:  able to achieve a pretty high precision golden data said that we then find tune a likeway dealyym。
+[Speaker 1]:  let's save，
+[Speaker 1]:  for example of GPT for o mini on top of it。
+[Speaker 1]:  and that's when it you know really pays off。
+[Speaker 1]:  we are able to use that fine tune labeler offline across，
+[Speaker 1]:  you know，
+[Speaker 1]:  our full catalogue to generate full greater query item pairs and those labebebecause one share target for both retrieable and ranking systems。
+[Speaker 1]:  this pattern has been pretty important for us over the past a years years。
+[Speaker 1]:  you know，
+[Speaker 1]:  expensive reasing once offline，
+[Speaker 1]:  then distill it into models that can be serve cheaaply and quicicly。
+[Speaker 1]:  now lelet's take retrieval first，
+[Speaker 1]:  the challenges standard ebeddings at e commerce scale quickly collapse。
+[Speaker 1]:  the relevance distinction items that are merely related that close to items that actually match and the model may know two items are related，
+[Speaker 1]:  but not be able to separate um exact matches substitutes compliments。
+[Speaker 1]:  so our fix is a two stage contrasted method um trained on the same gregrated levels stage one which we call mining does a global draetry shaping。
+[Speaker 1]:  we use two tower encoters uh with multi level supervise contracsive loss。
+[Speaker 1]:  um after that，
+[Speaker 1]:  we use that base model to mine harder negatives。
+[Speaker 1]:  and these are items that the model confuses hard negative that are rank too high or strong positives rank too low in the second stage after that is where we really upput the model through curricon training，
+[Speaker 1]:  use those hard negatives，
+[Speaker 1]:  relabel them。
+[Speaker 1]:  and you know，
+[Speaker 1]:  relevvance of our retrieval layer improves sharply after that。
+[Speaker 1]:  so after stage one，
+[Speaker 1]:  we see overlapse twtweeen relevant and moderately relevant。
+[Speaker 1]:  but after stage too，
+[Speaker 1]:  there is a significant difference。
+[Speaker 1]:  and this has been one of like our biggest st levers s retritrival improvement uh across the board。
+[Speaker 1]:  um you know，
+[Speaker 1]:  we've improved an DCG of relevance by two point three percent。
+[Speaker 1]:  and that's also been true with our downsam business metrics。
+[Speaker 1]:  and we did the same with uh exercise with our ranking models as well。
+[Speaker 1]:  distialing allen reasent labels in tour rankers。
+[Speaker 1]:  however，
+[Speaker 1]:  combicing this with business and engagement objectives。
+[Speaker 1]:  here we add a new tower um in this case，
+[Speaker 1]:  in ordinal relevance，
+[Speaker 1]:  totower totop of the len graded labels。
+[Speaker 1]:  and um this prediction sits right alongside existing engagement ment wers ers，
+[Speaker 1]:  click to cartoon conversion。
+[Speaker 1]:  and since they share the same bottom layers，
+[Speaker 1]:  the seletic fit and relevant ance fgets didistled led in the backward pass。
+[Speaker 1]:  and uh，
+[Speaker 1]:  our model is able to predict，
+[Speaker 1]:  you know，
+[Speaker 1]:  probably the relevance across the different levels that we are able to blend us ththrough a value function on on top of this that allows us to to ine tune between engagement and relevance for different surfaces。
+[Speaker 1]:  now these two examples are part of a larger theme of our work across similar projects where it seems right。
+[Speaker 1]:  we're not replacing the retrieval and ranking system with within alalymn，
+[Speaker 1]:  but rather distiling the reasoning and understanding into some production ranking architecture。
+[Speaker 1]:  and this allows us to kind of quickly test and also scaleably improve our models um with l lims，
+[Speaker 1]:  while keeping you know the business and system objectives of these surfaces in mind。
+[Speaker 1]:  so once we have supervision，
+[Speaker 1]:  the next question is how do we represent a very large and constantly changing ing catalogue uh in a way that every model viad language models，
+[Speaker 1]:  or you know traditional retrieval ranking models that they can understand。
+[Speaker 1]:  and at dtash scale，
+[Speaker 1]:  uh，
+[Speaker 1]:  you can imagine we're kind of surfacing items across stores across no interactionacactually uh now。
+[Speaker 1]:  and you know，
+[Speaker 1]:  that's easily a few billion items at the store item level。
+[Speaker 1]:  and for these items，
+[Speaker 1]:  you obviously have unique ski ideas，
+[Speaker 1]:  but it says nothing semantically。
+[Speaker 1]:  so we also have a human career attaxonomy that helps us classifying categorize these items into meaningful spaces。
+[Speaker 1]:  but often，
+[Speaker 1]:  this is too course and too rigid。
+[Speaker 1]:  so for example，
+[Speaker 1]:  something like hot sauces may just have like sauces，
+[Speaker 1]:  hot sauces and the taxonomy。
+[Speaker 1]:  but it doesn't tell you anything about the relationship between a hoyphone or frank or tabascco。
+[Speaker 1]:  so that's where we've also adopted or adopted um semantic ideas ah。
+[Speaker 1]:  it's been introduced previously already。
+[Speaker 1]:  it's a backbone for a lot of our um work uh now and what it does it。
+[Speaker 1]:  it gives us，
+[Speaker 1]:  you know a short hierarchical code that's analogous to our taxonomy，
+[Speaker 1]:  but the ability to control the fine grain nature of it。
+[Speaker 1]:  and the result of this learn taxonomy is that each item gets this higher coco code and the prefix captures broad neighborhoods，
+[Speaker 1]:  and you know，
+[Speaker 1]:  the later in tokens capture finer distinctions。
+[Speaker 1]:  so for example，
+[Speaker 1]:  in the map were on on the slide，
+[Speaker 1]:  you'll see hot sauces and the structure emerging from the data with zero labels，
+[Speaker 1]:  each one share the same first seconsecond fixin this uh id sequence，
+[Speaker 1]:  but then split by speciality。
+[Speaker 1]:  so now you've got mexican koreibian korean，
+[Speaker 1]:  an hot sauces um being split up。
+[Speaker 1]:  and the important property is that this code that's learned is you know，
+[Speaker 1]:  parable by as i said by prefix，
+[Speaker 1]:  but also usable by all our downstream models。
+[Speaker 1]:  and that on lots，
+[Speaker 1]:  a few things for us。
+[Speaker 1]:  so the first is cross category，
+[Speaker 1]:  comparisons or relationships。
+[Speaker 1]:  you know，
+[Speaker 1]:  chip sousa，
+[Speaker 1]:  a walkamali may live in different taxonomy branches，
+[Speaker 1]:  but a shared ommantic。
+[Speaker 1]:  i neighbororhood uh indicate that they belong together and maybe a shopping mission。
+[Speaker 1]:  second cold start problems。
+[Speaker 1]:  um often times you get new catalogue items added by stores and writ techniques like angram and biite parent coding of these tokens，
+[Speaker 1]:  very able to scalabably add these tore models as sparcidy features third tail coverage，
+[Speaker 1]:  so sparse items，
+[Speaker 1]:  and inherit a lot of signal from semantically related items。
+[Speaker 1]:  and you don't have to wait for the volume me or exposure you for to consumers for these items。
+[Speaker 1]:  and then lastly，
+[Speaker 1]:  nice to have is the fact that we can actually also do a reverse audit。
+[Speaker 1]:  so we can audit our catalogue and how well our human labels agree with the semantically learned labels。
+[Speaker 1]:  so a couple of examples of where we're using it today，
+[Speaker 1]:  just to get give some real metrics。
+[Speaker 1]:  um it has been one of our biggest improvements to our ranker。
+[Speaker 1]:  um in in this case，
+[Speaker 1]:  it's actually improved our ranker by improving MRR between four to five percent，
+[Speaker 1]:  and that's translated to pretty big conversion wins as well。
+[Speaker 1]:  the second one that i've particularly fond off is query reformulation。
+[Speaker 1]:  so again，
+[Speaker 1]:  going back to the hot sauce，
+[Speaker 1]:  examples，
+[Speaker 1]:  riruta can lead to garlic，
+[Speaker 1]:  chilly，
+[Speaker 1]:  garlic sauce or sambell or like。
+[Speaker 1]:  and because these queries map onto like our catalog grounded semantic neighborhood that results in much more relevant queries that we're suggesting to users。
+[Speaker 1]:  um ultimately，
+[Speaker 1]:  if there is are queries that we don't have inventory for on doordasash，
+[Speaker 1]:  their meaningless。
+[Speaker 1]:  and with the addition of semantic ideas。
+[Speaker 1]:  and this query graph，
+[Speaker 1]:  we were actually able to see pretty massive mr。
+[Speaker 1]:  gains as well for this pipice ce of work。
+[Speaker 1]:  so for now，
+[Speaker 1]:  we've talked about item mapping and relevance。
+[Speaker 1]:  and the next question is consumer context，
+[Speaker 1]:  what does the system know about the shopper？
+[Speaker 1]:  and can that knowledge be reused across models again？
+[Speaker 1]:  and this is where our third permittive comes in memory。
+[Speaker 1]:  so memory in the agenta context is pretty well understood。
+[Speaker 1]:  now um we apply the same concepts to uh our recommendation systems。
+[Speaker 1]:  so user ebeddings are clearly very useful。
+[Speaker 1]:  we have many representations of our consumers，
+[Speaker 1]:  but they don't necessarily get to why a consumer may have certain intense um and why they might have certain preferences。
+[Speaker 1]:  additionally，
+[Speaker 1]:  alliycan cannot ureadily these embeddings，
+[Speaker 1]:  you could tocoanize and like train these models to learn it，
+[Speaker 1]:  but often times having some explicit eleven native counterpart is very useful，
+[Speaker 1]:  and that's what we found。
+[Speaker 1]:  so the idea of memory is to represent the consumer in multiple forms symanmatic ah you know，
+[Speaker 1]:  inspectable and reusable。
+[Speaker 1]:  and um the way we think about memory is um in three time skills。
+[Speaker 1]:  so long term memory captures durable preferences from orders，
+[Speaker 1]:  searches，
+[Speaker 1]:  browsing support interactions，
+[Speaker 1]:  real time context captures agentic interactions um else our insession interactions。
+[Speaker 1]:  so art state active searches，
+[Speaker 1]:  and then we have status preferences，
+[Speaker 1]:  which come from aggentic at interaction。
+[Speaker 1]:  so something like asked doordash，
+[Speaker 1]:  for example，
+[Speaker 1]:  where consumers are able to explicitly state their constraints and preferences as well。
+[Speaker 1]:  and the way we represent consumers in um in um this long term，
+[Speaker 1]:  memory is through memory blocks，
+[Speaker 1]:  and these are structured in a way that allows us to add new dimensions of the user from datrary preferences to dining preferences to substitute preferences um as we learn more about the consumer。
+[Speaker 1]:  and that is um d couple from like the downstream system that um that doesn't need to room interpret this for their own use cases。
+[Speaker 1]:  so each consumers memory is materialized in multiple forms。
+[Speaker 1]:  so first is text。
+[Speaker 1]:  it's human reatable。
+[Speaker 1]:  it's captures the consumer in a compact way。
+[Speaker 1]:  second is our late vectors ebeddings of those memory blocks that can be fed into retrievone ranking systems and third are graph and tree or hiarchical approaches。
+[Speaker 1]:  so you type pe tionshiships between sumers and brands texonomies and memory revealed preferences，
+[Speaker 1]:  and these are assembled into compoposite memory objects at both ML models and LMS these downstream。
+[Speaker 1]:  so an example is，
+[Speaker 1]:  you know，
+[Speaker 1]:  this context graph um where we connect consumers with extracted memory concepts and a graph needs fits neatly into shopping journeys because，
+[Speaker 1]:  you know，
+[Speaker 1]:  often times consumer item m interactions are sparse and multi hot。
+[Speaker 1]:  and in this case，
+[Speaker 1]:  these context graphs are able to link consumers across memory steps that we previously did not have um relarelaships ps and it's particularlarhelpful um at fine grain taxonomy levels。
+[Speaker 1]:  in our case，
+[Speaker 1]:  we're seeing for retrieval uum exusing graph based in bedtings out performing or um exsting sting taxonomy based ebedtings。
+[Speaker 1]:  and today，
+[Speaker 1]:  this memory framework shows up in three places。
+[Speaker 1]:  the first is personzed collections。
+[Speaker 1]:  i'll talk about that a bit later。
+[Speaker 1]:  uh second is a gently personalization。
+[Speaker 1]:  so asked ordash，
+[Speaker 1]:  for example，
+[Speaker 1]:  uses this to personalize its sessions。
+[Speaker 1]:  uh for third thiruin retrieval ranking models。
+[Speaker 1]:  as i said that we encode these memory blots and feed them as features and dostry models as well。
+[Speaker 1]:  so the fourth permittive is steerable content generation。
+[Speaker 1]:  we heard quite a bit about it。
+[Speaker 1]:  and the previous talk and it this light is my take on how we're pieing all these um permitives together。
+[Speaker 1]:  so all these inputs，
+[Speaker 1]:  semantic ideas，
+[Speaker 1]:  memory blocks um and graded relevance or um LLM supervision feed into multiple models，
+[Speaker 1]:  you know，
+[Speaker 1]:  beat l lands or small language models，
+[Speaker 1]:  or you know，
+[Speaker 1]:  traditional models。
+[Speaker 1]:  and from these inputs，
+[Speaker 1]:  we can generate different output shapes，
+[Speaker 1]:  ranked semantic tic idealilist，
+[Speaker 1]:  charcil titles sub copies。
+[Speaker 1]:  and these show up across different surfaces today on bordash。
+[Speaker 1]:  and a direct example of this is our um personzed collections on store pages。
+[Speaker 1]:  so historically collection tions store pages，
+[Speaker 1]:  uh on door dash have been a fixed library or attribute based um and we've been able to kind of expand that through um consumer level collection generation。
+[Speaker 1]:  and today，
+[Speaker 1]:  this is an offline l ymn process where we take in consumer memory，
+[Speaker 1]:  semantic ideas and synthesizze collections all the way from titles subtitle to the actual items。
+[Speaker 1]:  and the important part is that control insteirability。
+[Speaker 1]:  we're able to react to occasions and moments and build those collections as needed uh，
+[Speaker 1]:  four different consumers at serving time。
+[Speaker 1]:  um because this is all batch and generated or line through through olymps，
+[Speaker 1]:  we are able to still use our existing retriual and ranking stack for item hydation and collection ranking its udum。
+[Speaker 1]:  and you know，
+[Speaker 1]:  this is，
+[Speaker 1]:  for example，
+[Speaker 1]:  what a shopper actually sees right for shopper with plant based affinity。
+[Speaker 1]:  the system can generate plant based panterary rose for catat only households that can generate cat drive food rose。
+[Speaker 1]:  and if a session indicates that，
+[Speaker 1]:  you know person is going through pantry restocking，
+[Speaker 1]:  it can buy us towards panterary saabes。
+[Speaker 1]:  and our early tests show that you know，
+[Speaker 1]:  susuers are feeling the benefits of these tailored experiences。
+[Speaker 1]:  an example is within our pets vertical。
+[Speaker 1]:  we've been able to drive close to one percent，
+[Speaker 1]:  water rate increases and point point six percent and active users。
+[Speaker 1]:  so to conclude，
+[Speaker 1]:  there are three takeways。
+[Speaker 1]:  i would love for you to take away from this talk and how elums fit into search and recommendations。
+[Speaker 1]:  first，
+[Speaker 1]:  discovery is a semantic understanding problem。
+[Speaker 1]:  it's not only about engagement ellims give us a way to reason about item，
+[Speaker 1]:  meaning and shopper intent in the in dodashes case，
+[Speaker 1]:  for example，
+[Speaker 1]:  second，
+[Speaker 1]:  the still allen raising into permittives capture，
+[Speaker 1]:  raising offline as labels，
+[Speaker 1]:  semantic ideas，
+[Speaker 1]:  memory，
+[Speaker 1]:  and then let smaller and faster models serve it。
+[Speaker 1]:  the online l lm call is often not the product architecture。
+[Speaker 1]:  you need third shared representations，
+[Speaker 1]:  create many use cases。
+[Speaker 1]:  um once you have these primitives，
+[Speaker 1]:  they can power a rereeeable ranking content generation at set dso。
+[Speaker 1]:  so with not leleast，
+[Speaker 1]:  thank and thank you to all the collaborators that dora issue have helped ship a lot of these things as well。
