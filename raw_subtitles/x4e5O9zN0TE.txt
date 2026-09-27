@@ -1,0 +1,335 @@
+[Speaker 1]:  hi，
+[Speaker 1]:  ron，
+[Speaker 1]:  i'm arena former engineer at microsoft and supercell。
+[Speaker 1]:  and today，
+[Speaker 1]:  i want to talk about autor research in a multi agent AI village。
+[Speaker 1]:  i ll use a video game like AI village as a running example here。
+[Speaker 1]:  but the broader question is one，
+[Speaker 1]:  i think many AI engineers are starting to run into。
+[Speaker 1]:  how do you evaluate an improve agents that carry state over long period of time？
+[Speaker 0]: 嗯，
+[Speaker 1]:  before i get into the auter research layer，
+[Speaker 1]:  i want to talk a bit about project pardodox develop project paraddox at supercells ai innovation，
+[Speaker 1]:  love move。
+[Speaker 1]:  and my teammate natural money condedn，
+[Speaker 1]:  we built a modellar ai framework that allows any development to plug inteintelgent autonomous agents within a vdeo game that can intertract compete our corporate with other players，
+[Speaker 1]:  our agents as well and place them。
+[Speaker 1]:  and and them them dynnamic game companions。
+[Speaker 1]:  now to give examples of what these agents can do，
+[Speaker 1]:  the agents can move with intent。
+[Speaker 1]:  they can go to any location or person and theyguided by their own memories。
+[Speaker 1]:  emotion are curiosity。
+[Speaker 1]:  these agents can in tract with the world，
+[Speaker 1]:  they can pick up objects，
+[Speaker 1]:  drop them anywhere。
+[Speaker 1]:  and they're also aware about the context in their own environment，
+[Speaker 1]:  such as objects or other characters or agents as well。
+[Speaker 1]:  i would also like to note that game of a perst can also add new actions for these agents to accomplish within our framework as well。
+[Speaker 1]:  instead of just dropping ing or placing objects，
+[Speaker 1]:  agents can also extually react to what's happening around them。
+[Speaker 1]:  and these events that happen around them affect their own beliefs and emotions on the fly as well。
+[Speaker 1]:  and of course，
+[Speaker 1]:  it wouldn't be complete if agents start art conversation，
+[Speaker 1]:  right？
+[Speaker 1]:  agents can in this a scenario approach。
+[Speaker 1]:  other agents are even the player as well，
+[Speaker 1]:  and this makes the game feel more alive。
+[Speaker 1]:  and of course，
+[Speaker 1]:  these conversations are stored within their memory and is according to their own and affect their own emotions and believes our goals as well。
+[Speaker 1]:  and altogether，
+[Speaker 1]:  these agents make our multi agentic framework。
+[Speaker 1]:  um yeah，
+[Speaker 1]:  yeah。
+[Speaker 1]:  second。
+[Speaker 1]:  so the architecture was intentually statefall behind this。
+[Speaker 1]:  the first important part was per agent memory。
+[Speaker 1]:  each agent has its own memory name space ed by irag。
+[Speaker 1]:  so many we do not bleed between agents。
+[Speaker 1]:  second，
+[Speaker 1]:  we trapped emotion as a small vector。
+[Speaker 1]:  so after an event，
+[Speaker 1]:  our conversation the system could update values like joy，
+[Speaker 1]:  sadness，
+[Speaker 1]:  fear anger are discussed。
+[Speaker 1]:  third，
+[Speaker 1]:  agents had belief scores towards other agents and the player you can think of this as a trust matrix，
+[Speaker 1]:  basically like after the interaction happens，
+[Speaker 1]:  the elym basically decides whether the trust score should go up down or whether to and change at all。
+[Speaker 1]:  and fort，
+[Speaker 1]:  every memory receives an important score um to explain this very like，
+[Speaker 1]:  let's say，
+[Speaker 1]:  you had dinner few days ago，
+[Speaker 1]:  you probably wou't remember what you had for dindinner。
+[Speaker 1]:  but but if if one was was urdered a few days ago，
+[Speaker 1]:  you definitely remember that so the agent will evaluate or the lm will evalid uh an important score of an event。
+[Speaker 1]:  and if it crosses as thasuld，
+[Speaker 1]:  it will shore that specific memory uh in a separate cash，
+[Speaker 1]:  so that important context can be retrieved better later on。
+[Speaker 1]:  and here's an example of it just working。
+[Speaker 1]:  we 're going to ask one of the characters you're going to picnic with us here。
+[Speaker 1]:  um our character blossom um decides to pick up a pastry and go to the picnic yia because we asked her to do so。
+[Speaker 1]:  keep in mind during the conversation in the background，
+[Speaker 1]:  she plans all of these sequence of actions to accomplish。
+[Speaker 1]:  and when when we talk to her afterwards，
+[Speaker 1]:  she will also reply within context as well。
+[Speaker 0]:  yeah，
+[Speaker 1]:  but this is where an interesting problem actually started。
+[Speaker 1]:  as you saw in the last example，
+[Speaker 1]:  like for shark term，
+[Speaker 1]:  again，
+[Speaker 1]:  play this，
+[Speaker 1]:  our architecture work pretty well like a character could make a plan move around talk and remember the recent intraction and respond to us or other characters as well。
+[Speaker 1]:  but over longer，
+[Speaker 1]:  horizons，
+[Speaker 1]:  this is very notice the social consistency start to get weaker。
+[Speaker 1]:  so in this example，
+[Speaker 1]:  we have one agent spreading a rumor about a faile on bengals to another regent，
+[Speaker 1]:  and that agent receives that information and goes and tells another agent about it later on。
+[Speaker 1]:  after a number of events of her occurred in between when the player asked one of the agents about the mangoes，
+[Speaker 1]:  it doesn't exactly store that context that we were expecting。
+[Speaker 1]:  i doesn't give us the context that we kind of wanted to。
+[Speaker 1]:  and this is where things are trying to get messy，
+[Speaker 1]:  naturally like the system may rememred the rough topic，
+[Speaker 1]:  but lose the source of the topic。
+[Speaker 1]:  a rumor may become certain。
+[Speaker 1]:  instead of just a rumor like the agent might stated as a fact or um an dient might know a fact，
+[Speaker 1]:  but failed to fail to remembered while creating a plan for its actions。
+[Speaker 1]:  so the question here became harvely imve a mulltiagentic system over long running social behavior and not just over one response。
+[Speaker 1]:  and this is where we wanted to bring an artter research。
+[Speaker 1]:  as you all know，
+[Speaker 1]:  uh，
+[Speaker 1]:  few months ago，
+[Speaker 1]:  karpari posted out utter research。
+[Speaker 1]:  and this this made us immediately racuous。
+[Speaker 1]:  um perhaps we can make the system run experiments on itself。
+[Speaker 1]:  and can we use this for our system as well。
+[Speaker 1]:  so what we understood it is instead of manually tuning a prompt or watching one nice demo，
+[Speaker 1]:  we could define a scenario suit，
+[Speaker 1]:  run the agents，
+[Speaker 1]:  collect traces，
+[Speaker 1]:  scored the behavior and chanined a small policy surface，
+[Speaker 1]:  and only keep the changes that actually improved the score。
+[Speaker 1]:  and this is where we're trying to bridge project paraddogs with auto research。
+[Speaker 1]:  so at this point，
+[Speaker 1]:  basically our multigentic fammer project paraddogs is more like a labinent and auterreseararbecomes the experimental loop around it。
+[Speaker 1]:  and importantly，
+[Speaker 1]:  this is not only about improving grag tritrival。
+[Speaker 1]:  the broorder framing is optimizing the agent protocol。
+[Speaker 1]:  like how do agents write memories，
+[Speaker 1]:  retrieve them，
+[Speaker 1]:  communicate uncertainty，
+[Speaker 1]:  a bit trust，
+[Speaker 1]:  active resources and repplant around new facts。
+[Speaker 1]:  basically，
+[Speaker 1]:  um yeah，
+[Speaker 1]:  in this context are yeah。
+[Speaker 1]: 好，
+[Speaker 1]:  yeah。
+[Speaker 1]:  in this context，
+[Speaker 1]:  art research is a not another agent in the village。
+[Speaker 1]:  like i said，
+[Speaker 1]:  it's a meda system outside the village。
+[Speaker 1]:  the villagers have local perspectives。
+[Speaker 1]:  of course，
+[Speaker 1]:  they only know what they saw heard remembered are infered，
+[Speaker 1]:  because there isn't the common memory database in between them，
+[Speaker 1]:  information only travelles。
+[Speaker 1]:  once ce other agents communice than properly the art research layer has has different job b here。
+[Speaker 1]:  it reads the full traces of a run，
+[Speaker 1]:  compares what happens against the scenario ground trooth um scores the behavior and proposes a constrained tees to the agent protocol are coordintive policy，
+[Speaker 1]:  then agreed runs to scenario and ask society level behavior like，
+[Speaker 1]:  did society level behavior get better。
+[Speaker 1]:  this is the key shift we are trying to look for。
+[Speaker 1]:  so we were no longer evaluating one answer。
+[Speaker 1]:  we were evaluating an entire run。
+[Speaker 1]:  and this is what one of the loops would look like。
+[Speaker 1]:  like first，
+[Speaker 1]:  we define a controlled scenario，
+[Speaker 1]:  which all elaborate a bit more about later。
+[Speaker 1]:  for example，
+[Speaker 1]:  one agent learns a public fact or one agent，
+[Speaker 1]:  here's a rumor um that could be a controlled scenario。
+[Speaker 1]:  then we run the simulation during the run。
+[Speaker 1]:  we collect structure，
+[Speaker 1]:  traces observations，
+[Speaker 1]:  conversations，
+[Speaker 1]:  memorites ts retrievbeliebelief objects，
+[Speaker 1]:  whatever is relevant to us。
+[Speaker 1]:  in that case，
+[Speaker 1]:  we collect，
+[Speaker 1]:  then we score this behavior did the information spread as we expected to did the source attribution survive，
+[Speaker 1]:  such as does the agent。
+[Speaker 1]:  remember who started the rumor？
+[Speaker 1]:  did uncertainly stay uncertain？
+[Speaker 1]:  did agents act on what they actually knew？
+[Speaker 1]:  and then the auteror sesearch yer here proposes a small policy change。
+[Speaker 1]:  and this is important，
+[Speaker 1]:  it should not rewrite the whole application。
+[Speaker 1]:  of course，
+[Speaker 1]:  it should only edit a controlled policy surface。
+[Speaker 1]:  and then rerun，
+[Speaker 1]:  if the score improves and the guardials hold，
+[Speaker 1]:  we keep the improvement。
+[Speaker 1]:  and if not，
+[Speaker 1]:  we simply just revert back and talking about controlled scenaris。
+[Speaker 1]:  the reason why uh scenario design matchers is that social behavior is otherwise a bit fuzzy y in general。
+[Speaker 1]:  in the sense，
+[Speaker 1]:  if you just let the agents in our environment wonder around，
+[Speaker 1]:  it might look cool and you might get nice interactions，
+[Speaker 1]:  but it's actually very hearkey valid on whether the system actually improved。
+[Speaker 1]:  so this is why we believe you need controlled scenaris。
+[Speaker 1]:  for example，
+[Speaker 1]:  one scenario could test a public fact division，
+[Speaker 1]:  let's say，
+[Speaker 1]:  agent a learns。
+[Speaker 1]:  um the bakery will close tomorrow，
+[Speaker 1]:  do the right agents learn it。
+[Speaker 1]:  do they remember who said，
+[Speaker 1]:  what do they do？
+[Speaker 1]:  they change their plans based on this fact。
+[Speaker 1]:  another scenocould test rumor uncertainy agent，
+[Speaker 1]:  let's say agent here that agency might leave the village。
+[Speaker 1]:  when this rumors threads does might leave suddenly become is leaving？
+[Speaker 1]:  or does it stay as might leave like does it become a fact？
+[Speaker 1]:  or does it still say，
+[Speaker 1]:  as AA rumor，
+[Speaker 1]:  another scenario could test replanning，
+[Speaker 1]:  the group has a plan，
+[Speaker 1]:  but one agent learns，
+[Speaker 1]:  let's say the roroup they wanted to take is blocked。
+[Speaker 1]:  do edents update this and communicate this with each other to avoid um improper plan or steal actions。
+[Speaker 1]:  the point is not that these exact scenaris are universal here。
+[Speaker 1]:  the point we are trying to make is that long horizon agent behavior need scenario suits and talking about our mango example，
+[Speaker 1]:  again，
+[Speaker 1]:  after running one of our archy research loops this time after uh，
+[Speaker 1]:  a long period of time when the player finds。
+[Speaker 1]:  he asked one of the agents about the salilon mangoes。
+[Speaker 1]:  we did find that the agent was able to respond within context this time like compared to last time，
+[Speaker 1]:  yeah。
+[Speaker 1]:  and for this talk，
+[Speaker 1]:  the the exact formula，
+[Speaker 1]:  we believe is less important than the shape of the score card。
+[Speaker 1]:  uh you do not want a single vae e tritric like asent quality。
+[Speaker 1]:  this will hide all the interesting failures。
+[Speaker 1]:  instead，
+[Speaker 1]:  you want a balanced score card for difusion。
+[Speaker 1]:  you might measure reach like how many agents know the fact after end steps for a provenenence，
+[Speaker 1]:  you measure source attention among agents who know it，
+[Speaker 1]:  how many remember it where it came from exeta for rumors，
+[Speaker 1]:  you can measure uncertainy preservation and false certainy rate for planning。
+[Speaker 1]:  you can measure action consistency and time to replan and for privacy。
+[Speaker 1]:  you can measure containment this matters because optimizing only one metric can create bad behavior，
+[Speaker 1]:  because let's say，
+[Speaker 1]:  if you only optimize for a diffusion，
+[Speaker 1]:  the agents may learn to overshare everything。
+[Speaker 1]:  and let's say，
+[Speaker 1]:  if you only optimize for memory ealds，
+[Speaker 1]:  you might create noise，
+[Speaker 1]:  you are still like memories。
+[Speaker 1]:  so this score card is what keeps the system honest and prevents the auto research agent from gamifying the system to just increase one specific score。
+[Speaker 1]:  the other import enering lesson that we learned over this project is that um it's imppart to keep the editable surface really small。
+[Speaker 1]:  the arto sesearch's alyer should not have permission to romly rewrite the whole code base。
+[Speaker 1]:  instead，
+[Speaker 1]:  it's really imppoint to freeze the harness，
+[Speaker 1]:  the scenos and metrrix。
+[Speaker 1]:  so we're only exposing the part of the system that we actually want to optimize here in project products for us。
+[Speaker 1]:  that meant tings like memory，
+[Speaker 1]:  writing policy，
+[Speaker 1]:  retrieval policy communication prompt，
+[Speaker 1]:  believe trust rules，
+[Speaker 1]:  source attribution，
+[Speaker 1]:  replanning，
+[Speaker 1]:  triggers eetra。
+[Speaker 1]:  this gives the search proprocess room to improve behavior，
+[Speaker 1]:  but it also prevents it from gaming the evaluation directly as we mentioned before。
+[Speaker 1]:  and this is the difference between the elam writing lurandum patches versus the MM actually searching within a controlled policy space。
+[Speaker 1]:  and here here，
+[Speaker 1]:  examples of the kind of changes，
+[Speaker 1]:  i want this kind of loop to search over，
+[Speaker 1]:  if if source attribution disappears，
+[Speaker 1]:  the policy change might be preserve source in memory and uright memory rights and summaries。
+[Speaker 1]:  if rumors harder into facts，
+[Speaker 1]:  the policy change might be stored confidence。
+[Speaker 1]:  mark first hand versus second hand and require heading when retailing uncertain claims。
+[Speaker 1]:  if if facts，
+[Speaker 1]:  if public facts stay local，
+[Speaker 1]:  the policy change might be classify useful，
+[Speaker 1]:  public facts differently and make edens practively share important source evidence。
+[Speaker 1]:  the key is that these are small changes to the agent protocol，
+[Speaker 1]:  but they can have larger effects on a society level behavior from monthly agentic systems。
+[Speaker 1]:  this is also where i kind of want to be careful about our claims here because we believe，
+[Speaker 1]:  without repeated to current loop results，
+[Speaker 1]:  like i won't say the system this generally improved。
+[Speaker 1]:  we're trying to say this is the right kind of surface to expose to an autorresearch layer。
+[Speaker 1]:  uh p。
+[Speaker 1]:  because it is small enough contcontrol，
+[Speaker 1]:  but still written enough to change the social behavior，
+[Speaker 1]:  to some extent，
+[Speaker 1]:  at least。
+[Speaker 1]:  and the biggest lesson for me，
+[Speaker 1]:  perhaps，
+[Speaker 1]:  was that memory is not enough here。
+[Speaker 1]:  you can add a add memory to an agent and still not get the current long term，
+[Speaker 1]:  her horizon behavior that you are looking for um because agents need to sometimes know where that information came for came from。
+[Speaker 1]:  you need to preserve whether it was first time，
+[Speaker 1]:  second hand，
+[Speaker 1]:  raified or uncern。
+[Speaker 1]:  sometimes you need to separate draw pacodic memories from what the agent and currently believes to，
+[Speaker 1]:  and you need to test behavior through scenario，
+[Speaker 1]:  not not through vives。
+[Speaker 1]:  so the other lesson is that um rollback also is not optional when you opto my social behavior，
+[Speaker 1]:  a change can improve one thing and damage another。
+[Speaker 1]:  so policy that spreads public facts um faster might also leak private information，
+[Speaker 1]:  a policy that increases recall might increase scale memory usage。
+[Speaker 1]:  so the loop should basically be like a ratred try a team score。
+[Speaker 1]:  it keep it only if the score card improves and gardielseful。
+[Speaker 1]:  and we we definitely believe this is not only relevant ant a game agents。
+[Speaker 1]:  because，
+[Speaker 1]:  although i gave an example of using a game village，
+[Speaker 1]:  we believe，
+[Speaker 1]:  like，
+[Speaker 1]:  let's say，
+[Speaker 1]:  for example，
+[Speaker 1]:  support agents support agenciy to know which policy of date comes from wewereed。
+[Speaker 1]:  and whether it's supreceds and older answer personlistence，
+[Speaker 1]:  for example，
+[Speaker 1]:  need to remember commitments that the prevacy made and make corrections，
+[Speaker 1]:  if if the user wants to change those personal commitments，
+[Speaker 1]:  research agents，
+[Speaker 1]:  proprevenence cctations，
+[Speaker 1]:  contraction handling and hypertests updates coding agents need long running context across issues，
+[Speaker 1]:  fres teammates and changing requirements。
+[Speaker 1]:  birfflu eens need access controls，
+[Speaker 1]:  handdofs and replanning。
+[Speaker 1]:  when the world changes，
+[Speaker 1]:  all of these systems have the same underlying problem，
+[Speaker 1]:  they maintain state over time，
+[Speaker 1]:  and that state affects affeacaction。
+[Speaker 1]:  so they control sceniors and behavioror score cards is what we are proposing。
+[Speaker 1]:  so again，
+[Speaker 1]:  in brief a recipe for long horizon agents。
+[Speaker 1]:  if there is one practical recipe，
+[Speaker 1]:  i want you to take away freeze。
+[Speaker 1]:  the harness defines senials log traces a score behavior and expose only a small policy surface search over these changes。
+[Speaker 1]:  keep only changes that survive your measurement，
+[Speaker 1]:  and this is an engineing pattern that we believe would make sense for long running agents。
+[Speaker 1]:  the real question we believe，
+[Speaker 1]:  is across control runs。
+[Speaker 1]:  does the system behave better to close project padct start as an attempt to make game，
+[Speaker 1]:  even n't feel alive in a trady world，
+[Speaker 1]:  but the deeper engining problem was not animation or dialogue for us。
+[Speaker 1]:  it was the state，
+[Speaker 1]:  such as which agent knows what which agent told whom what is true，
+[Speaker 1]:  uncertain are outdated and do agents act on what they remember。
+[Speaker 1]:  alter research，
+[Speaker 1]:  alter research gave us a way to approach this a bit more systematically，
+[Speaker 1]:  not by trusting one demo or not by endlessly handtuning proms，
+[Speaker 1]:  but by running control experiments and keeping only the changes that survived our measurement，
+[Speaker 1]:  long horizon，
+[Speaker 1]:  agencts need experiments and not just prompt。
+[Speaker 1]:  and i hope that's to take away that you get from this talk。
+[Speaker 1]:  and yes，
+[Speaker 1]:  please do connect with us。
+[Speaker 1]:  we'd love to talk if you have any questions。
+[Speaker 1]:  thank you so much for listening。
+[Speaker 1]:  yes。
