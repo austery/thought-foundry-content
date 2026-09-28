@@ -1,0 +1,411 @@
+[Speaker 1]:  the okay。
+[Speaker 1]:  hello，
+[Speaker 1]:  everyone。
+[Speaker 1]:  i'm excited to be here。
+[Speaker 1]:  uh my name is acalloid um today going to be talking about self improving software factories，
+[Speaker 1]:  the new open source model。
+[Speaker 1]:  and basically，
+[Speaker 1]:  what i think is happhappening to developso little bit about me just to begin。
+[Speaker 1]:  so i am a former principple engineer for google。
+[Speaker 1]:  it's a lead engineering on the google dog sweet。
+[Speaker 1]:  it's been engineer now for google time time。
+[Speaker 1]:  i'm still uh pping frequently，
+[Speaker 1]:  but i haven't read ellantic code and last six months uh。
+[Speaker 1]:  and i'm the founder of a company called waruh warp。
+[Speaker 1]:  if you're not familiar is a open source agentic development environment。
+[Speaker 1]:  um you may know us as a terminal，
+[Speaker 1]:  that is how the company started it basbasically terminal that has agents built in um we open source at a couple months ago，
+[Speaker 1]:  and i'm going to talk a little bit about that experience in the motivation for it。
+[Speaker 1]:  it's popular open source project over sixty thousand and giheup stars ars。
+[Speaker 1]:  you've had couple hundred people contributing if over eight hundred thousand active developers who are using warp。
+[Speaker 1]:  and increasingly，
+[Speaker 1]:  we are focused not just on the terminal aspect and the interactive aspect of development，
+[Speaker 1]:  but more so on。
+[Speaker 1]:  how do you automate development and weto talk mostly about that。
+[Speaker 1]:  so the thesis that i have is that the discipline of software engineering is going to become something more like factory engineering。
+[Speaker 1]:  and i'll explain what i mean by this in a minute，
+[Speaker 1]:  but just keep that mind。
+[Speaker 1]:  that's that's what i think is going to happen。
+[Speaker 1]:  um if you look at development over the past couple years，
+[Speaker 1]:  it's i mean，
+[Speaker 1]:  it's crazy how it's changed。
+[Speaker 1]:  we've gone from a world of chat。
+[Speaker 1]:  and i auto complete curceror copilot to the phasit were and now which i consider to be mostly interactive agents。
+[Speaker 1]:  so you're sort of sitting at your computer，
+[Speaker 1]:  and you are telling cloucode to do something，
+[Speaker 1]:  you telling work to do something。
+[Speaker 1]:  and i believe what's going to happen over the next six months a year，
+[Speaker 1]:  hard to predict the pace is that we're going move ve much more towards the world of automation。
+[Speaker 1]:  but before agaends that just quick show a hands，
+[Speaker 1]:  how many folks in here are building with agents，
+[Speaker 1]:  every hundred percent makes sense um how many how many folks are building typically with multiple agents at one time。
+[Speaker 1]:  so again，
+[Speaker 1]:  almost everyone，
+[Speaker 1]:  how many people are running an agent right now，
+[Speaker 1]:  i am not offended。
+[Speaker 1]:  i would get the torical ical i would be doing into ah how many folks are running agents in the cloud a curiosity。
+[Speaker 1]:  so that looks like less than half but still still navigate。
+[Speaker 1]:  and how many folks have have set up a system internally to automate the whole offort of them my lifecycle，
+[Speaker 1]:  so everything from like trioging speacking implementing reviewing。
+[Speaker 1]:  so i see some hand。
+[Speaker 1]:  so some people are doing this。
+[Speaker 1]:  so this is what's going to happen。
+[Speaker 1]:  uh，
+[Speaker 1]:  every project of significant size。
+[Speaker 1]:  i believe it's going to have something like this um and it's going to look kind of like this big loop。
+[Speaker 1]:  and everyone is talking about loops is nothing that complicated about loops。
+[Speaker 1]:  this loops says cloud software factory ory。
+[Speaker 1]:  this loop could literally just say，
+[Speaker 1]:  like the software development lifecycle。
+[Speaker 1]:  it's the same thing，
+[Speaker 1]:  but just to go through this loop，
+[Speaker 1]:  it's like ideas are 're going to come in at the top。
+[Speaker 1]:  agents are going to do trios。
+[Speaker 1]:  if something is complicated，
+[Speaker 1]:  they alright speck。
+[Speaker 1]:  these little blue boxes are where humans step and humans will review the spec。
+[Speaker 1]:  uh agents will the the implementation human man inient review。
+[Speaker 1]:  the code agents will verify human will view the product you ship，
+[Speaker 1]:  and then you monitor and round around you go。
+[Speaker 1]:  um and this is what software development for better or worse。
+[Speaker 1]:  i think it's going to end up looking like。
+[Speaker 1]:  so the pieces，
+[Speaker 1]:  which is that if this what sofofare engineering is going to look like，
+[Speaker 1]:  um software engineers are going to be the ones who end up building and managing these factories。
+[Speaker 1]:  now i promise at the beginning，
+[Speaker 1]:  and i put in the title of the talk，
+[Speaker 1]:  i going to talk about open source。
+[Speaker 1]:  and so i want to do that for a few minutes，
+[Speaker 1]:  i may to take a quick digression。
+[Speaker 1]:  um i bring up open source because one of the main reasons that war open source was to build build a public factory。
+[Speaker 1]:  um and so this is a picture of this website。
+[Speaker 1]:  we built called build out worktot dev，
+[Speaker 1]:  which shows all of the issues that are flowing through our system and whastayed there and what agents are working on them。
+[Speaker 1]:  what contributors are working on them。
+[Speaker 1]:  and it's kind of like a protofactory done at scale。
+[Speaker 1]:  it's not working perfectly，
+[Speaker 1]:  but it is working。
+[Speaker 1]:  and one of the reasons we open source was to try to build this。
+[Speaker 1]:  um just in general，
+[Speaker 1]:  i think it's interesting to talk about open source in the time of agentic development。
+[Speaker 1]:  this is a really stuper graph，
+[Speaker 1]:  but it's like it's just it。
+[Speaker 1]:  you get it。
+[Speaker 1]:  it's like it's becoming much cheaper to build software。
+[Speaker 1]:  um a cororal of that is that it's becoming intertrival to clone one software。
+[Speaker 1]:  and so if you are in the software business，
+[Speaker 1]:  i don't know how many folcusing this ruroom in the software business per say，
+[Speaker 1]:  but it's very hard to build a software business if it's free to build software。
+[Speaker 1]:  it's hard to capture the value，
+[Speaker 1]:  especially if a competitor can clone。
+[Speaker 1]:  and so my big takea a or a big tip everyone in here is that the first thing you should do is patin your code。
+[Speaker 1]:  i'm kidding，
+[Speaker 1]:  don't this。
+[Speaker 1]:  it's a complete dog。
+[Speaker 1]:  don't don't do this。
+[Speaker 1]:  my my first step is obviously，
+[Speaker 1]:  you need to have a great product ah。
+[Speaker 1]:  this has always been the case um，
+[Speaker 1]:  but i would say a great product product was never enough，
+[Speaker 1]:  but even now more than ever，
+[Speaker 1]:  if you think that you're going to build a great sofof business，
+[Speaker 1]:  just by building a shipping，
+[Speaker 1]:  a great product，
+[Speaker 1]:  you're probably not onna succeed。
+[Speaker 1]:  uh you need advantages beyond the product。
+[Speaker 1]:  and so those advantages could look like distribution ecosystem could be that you have a great brand or data mode，
+[Speaker 1]:  you might have capital um but if fear start up again，
+[Speaker 1]:  i'm coming from the start of world here，
+[Speaker 1]:  you just don't have these advantages。
+[Speaker 1]:  and so you you still want to break through。
+[Speaker 1]:  and one of the ways that i suggest doing this is by building in the open。
+[Speaker 1]:  and so to be clear，
+[Speaker 1]:  it ook worar five years of building closed to sort of make the leap in the building in the open or explain why。
+[Speaker 1]:  but if you build in the open，
+[Speaker 1]:  um，
+[Speaker 1]:  it helps build your ecosystem，
+[Speaker 1]:  it can take you from being like hated on hacker news to like tolerated。
+[Speaker 1]:  uh it can burst your brand to create community。
+[Speaker 1]:  and so there's all these advantages to it。
+[Speaker 1]:  uh and some of the things i think i've traditionally been a pain can now be managed。
+[Speaker 1]:  and so like the traditional，
+[Speaker 1]:  you know，
+[Speaker 1]:  pain of open source might be something like you get a lot of noisy issues。
+[Speaker 1]:  you get sobby ps，
+[Speaker 1]:  you can end up in code reyou how you can end up having to spend a lot of time verifying changes。
+[Speaker 1]:  and so the solution，
+[Speaker 1]:  so kind of a long way，
+[Speaker 1]:  it wa're getting to this for open source or at least for war。
+[Speaker 1]:  in the case of open source。
+[Speaker 1]:  the thing that made us finally decided to do this was that we built a whole set of automations，
+[Speaker 1]:  really a software factory around managing the open source project。
+[Speaker 1]:  and so like i said，
+[Speaker 1]:  this is what i think the future is going to look like。
+[Speaker 1]:  i'm going to drill into it a bit just to get a little bit more technical for folks who want to try to build something like this further own projects。
+[Speaker 1]:  so what are the components of an effective software factory？
+[Speaker 1]:  it's really not that complicated to start or at a high level，
+[Speaker 1]:  you need a set of automations。
+[Speaker 1]:  you need a way of providing context and skills。
+[Speaker 1]:  you need a way of bring humans in at the correct time to sort like when things get stuck on the factories。
+[Speaker 1]:  and then a really important thing is you need some set of self improvement capability。
+[Speaker 1]:  so think of this is loops。
+[Speaker 1]:  and if you do this right in the open source world，
+[Speaker 1]:  you can get a，
+[Speaker 1]:  you know world where agents are helping contributors contribute，
+[Speaker 1]:  they're helping maintainers maintain。
+[Speaker 1]:  and i want to emphasize there's nothing special about open source here。
+[Speaker 1]:  i think every sizzable project can benefit from this approach，
+[Speaker 1]:  and i predicted every every company，
+[Speaker 1]:  every open source project will have at its core a software factory kind of lect。
+[Speaker 1]:  the way that CICD became just like，
+[Speaker 1]:  of course，
+[Speaker 1]:  you have that。
+[Speaker 1]:  maybe i don't know when that happened ten years ago，
+[Speaker 1]:  let's tour the attack，
+[Speaker 1]:  the factory floor for a second here。
+[Speaker 1]:  so you're not going to look at this。
+[Speaker 1]:  this is too much。
+[Speaker 1]:  um the the point of this slide is not to have you read the worflow，
+[Speaker 1]:  it's that the factory floor is basically a graph um of steps where you are defining like，
+[Speaker 1]:  okay，
+[Speaker 1]:  how to sofa get built for my product。
+[Speaker 1]:  and it looks pretty similar for every product。
+[Speaker 1]:  um it look in，
+[Speaker 1]:  they flow through um they get stuck at certain points，
+[Speaker 1]:  and you know，
+[Speaker 1]:  broadly speaking，
+[Speaker 1]:  just to back out a second。
+[Speaker 1]:  so there's the inputs。
+[Speaker 1]:  the inputs are really ideas。
+[Speaker 1]:  um the inputs could be coming from your team。
+[Speaker 1]:  they could be coming from your users。
+[Speaker 1]:  um the inputs themselves tend to come in through certain channels。
+[Speaker 1]:  ls，
+[Speaker 1]:  you should think about is like your task tracackers and obvious one or slack your teams，
+[Speaker 1]:  like your communication channels。
+[Speaker 1]:  they could come directly from like your terminal RIDE。
+[Speaker 1]:  they could come from your monitoring systems。
+[Speaker 1]:  but there's some set man puts that bring work into the factory。
+[Speaker 1]:  there's trioge。
+[Speaker 1]:  this is a really important step。
+[Speaker 1]:  so again，
+[Speaker 1]:  i boiled down a sathing very simple，
+[Speaker 1]:  but like you want an agent theis looking at issues as they come in into saying，
+[Speaker 1]:  you know，
+[Speaker 1]:  if this is easy，
+[Speaker 1]:  and this is on an ambious ous，
+[Speaker 1]:  just mplement it。
+[Speaker 1]:  and this is how you can actually get going with a factory。
+[Speaker 1]:  if finisshe you is hard ah，
+[Speaker 1]:  i recommend having uh an agent that produces speacks folks in here using spectrtive and development show hands，
+[Speaker 1]:  people follow us。
+[Speaker 1]:  yeah，
+[Speaker 1]:  you can do this many different ways，
+[Speaker 1]:  but i think it's very effective the way that we do it to work that i recommend is having an agent，
+[Speaker 1]:  right？
+[Speaker 1]:  what we call a products spec and a text spec product spec describes the product and variance that you're building towards text back，
+[Speaker 1]:  describes the architecture and the shape of the code。
+[Speaker 1]:  then you have an implementation agent。
+[Speaker 1]:  this is basically a coding agent that run somewhere in the cloud。
+[Speaker 1]:  it makes a def，
+[Speaker 1]:  you can use all sorts of coating agents for this。
+[Speaker 1]:  you have review this isin，
+[Speaker 1]:  many ways。
+[Speaker 1]:  the most painful part，
+[Speaker 1]:  like i expect，
+[Speaker 1]:  the people are a little bit tired of reviewing identical slop。
+[Speaker 1]:  i would have an agent tucode review first，
+[Speaker 1]:  and then it becomes over time，
+[Speaker 1]:  like a risk management exercise of like when you bring in humans to ducoter view，
+[Speaker 1]:  but you want to have a step in here where humans can do it。
+[Speaker 1]:  this is a very important step um for certain types of apps，
+[Speaker 1]:  the verification step。
+[Speaker 1]:  so this would be things like computer use if youbuilding ding a sort of ui having the computer actually use the code of the agean produced and producing videos and screen shots，
+[Speaker 1]:  CICD still use it，
+[Speaker 1]:  obviously，
+[Speaker 1]:  uh and in monitoring。
+[Speaker 1]:  so agents don't stop in your factory when code a shift they should observe。
+[Speaker 1]:  what's been shipped？
+[Speaker 1]:  is it crashing？
+[Speaker 1]:  is it being used and round and around you go because you take the output of this monitoring step，
+[Speaker 1]:  and you feed it back in to the top of the factory。
+[Speaker 1]:  now you could try and build this。
+[Speaker 1]:  and i went to a talk earlier that my frirenanamm gave where uber has built an internal version of this。
+[Speaker 1]:  um and it's pretty cool。
+[Speaker 1]:  i would say，
+[Speaker 1]:  for most，
+[Speaker 1]:  you know，
+[Speaker 1]:  most organizations，
+[Speaker 1]:  it really depends where you are。
+[Speaker 1]:  you'll be able to build a simple version of this easily，
+[Speaker 1]:  but to build a thing that actually scales is probably like you's probtty focusing on your own product，
+[Speaker 1]:  not building this infrastructure because there's a lot of stuff that you end up wanting。
+[Speaker 1]:  you're not again，
+[Speaker 1]:  not what to read this ah，
+[Speaker 1]:  just a lot of stuff，
+[Speaker 1]:  if you do build it um or if you buy it 'll end up with something that looks kind of like this，
+[Speaker 1]:  which is um you're going to have a bunch of ways to getting work in the ar factory。
+[Speaker 1]:  that's what's in the topiyear。
+[Speaker 1]:  you're going to have a sort of control plan for figuring out how work gets distriributed across your factory floor。
+[Speaker 1]:  you're going to have the actual place where the work happens。
+[Speaker 1]:  and so that's going to be cloud sandboxes。
+[Speaker 1]:  it's going to be figuring out what agent to runs。
+[Speaker 1]:  so what's the harness？
+[Speaker 1]:  what's the model？
+[Speaker 1]:  and then finally，
+[Speaker 1]:  it this is a really important thing。
+[Speaker 1]:  you're going to want to set up some kind of data plane that sits below your factory。
+[Speaker 1]:  and so that's something that lets agents remember what they've done。
+[Speaker 1]:  learn improve over time。
+[Speaker 1]:  the factory is not just like a product。
+[Speaker 1]:  it's also a mindset。
+[Speaker 1]:  and this brings me back to the thesis i had at the beginning，
+[Speaker 1]:  you need a measure and improve。
+[Speaker 1]:  so factory is is where i don't know。
+[Speaker 1]:  you can sctch ch metaphor as as far as you want，
+[Speaker 1]:  but like you should be thinking of efficiency。
+[Speaker 1]:  and so that means like how much software you ship，
+[Speaker 1]:  how much should it cost in terms of human time and token time？
+[Speaker 1]:  and you're going to want to measure this and try to improve it over time。
+[Speaker 1]:  a key part of this is creating loops。
+[Speaker 1]:  so loops are again，
+[Speaker 1]:  they sound complicated。
+[Speaker 1]:  they're not that complicated。
+[Speaker 1]:  loops are basically ways of uving agency improum。
+[Speaker 1]:  um by like observing what they're doing where they're failing。
+[Speaker 1]:  um and so a common kind of loop the're going to want to put in your factory is like a skill loop。
+[Speaker 1]:  that means you're going to have your factory agents that are running skills，
+[Speaker 1]:  and then you'll have observer agents that are seeing how those skills are being applied，
+[Speaker 1]:  looking for issues and trying to improve the skills。
+[Speaker 1]:  so for incenstance，
+[Speaker 1]:  if you had a coter view agent ah，
+[Speaker 1]:  and it was leaving comments and a senior engineering，
+[Speaker 1]:  your team is going correcting。
+[Speaker 1]:  those comments。
+[Speaker 1]:  you'd want an observer agent that would look at that and basically um improve the coter view agent for the next run。
+[Speaker 1]:  this is one thought just to leave folks with，
+[Speaker 1]:  like what is where's leave engineers？
+[Speaker 1]:  i think you're going to have to get into this mindset，
+[Speaker 1]:  and i'm trying very hard to get our team into this mindset。
+[Speaker 1]:  it's not always easy that you're not just building the product，
+[Speaker 1]:  but you're building the thing that builds the product。
+[Speaker 1]:  and that's like it's just different。
+[Speaker 1]:  it's more like process engineering your manufactureing or something like that。
+[Speaker 1]:  and you could think like，
+[Speaker 1]:  okay，
+[Speaker 1]:  maybe that's abbuomer like，
+[Speaker 1]:  is that obomamer is that you know？
+[Speaker 1]:  and it depends like it depends what joy you get at a software n engineering。
+[Speaker 1]:  if your joys in writing the code，
+[Speaker 1]:  i think you're everyone in here，
+[Speaker 1]:  who is a software engineer，
+[Speaker 1]:  is going to be writing less code。
+[Speaker 1]:  but if your joy is in shipping products like it's never been a better time。
+[Speaker 1]:  and this is actually where i find my joy。
+[Speaker 1]:  it's like i like building and shipping the thing。
+[Speaker 1]:  so everyone in here is going to code less，
+[Speaker 1]:  but they're going to shiit more，
+[Speaker 1]:  and that's going going be be trayed off。
+[Speaker 1]:  but if you approach it like you're a factory engineer，
+[Speaker 1]:  i think you can see like that they're still really cool set of engineering challenges。
+[Speaker 1]:  um you could almost think if it's like meet a engineering，
+[Speaker 1]:  a cudiyou engineer，
+[Speaker 1]:  your system of agents to be the best possible with engineering。
+[Speaker 1]:  but i think is a very compelling and interesting set of challenges to solve。
+[Speaker 1]:  so that's it uh for folks who are interested。
+[Speaker 1]:  uh this，
+[Speaker 1]:  if you follow the income，
+[Speaker 1]:  as cuuarcode，
+[Speaker 1]:  i've set up um a open source sketobrripo，
+[Speaker 1]:  where anyone who wants to try building their own factory agents can do it。
+[Speaker 1]:  this uses warpps。
+[Speaker 1]:  uh。
+[Speaker 1]:  agent platform is part of it，
+[Speaker 1]:  but you honestsay you don't have to use it。
+[Speaker 1]:  i'm not trying to push in into our product，
+[Speaker 1]:  but this should give you a good sense of like，
+[Speaker 1]:  okay，
+[Speaker 1]:  if you want to set up um an agent that does uh trioge or an agent that does um speackwriting。
+[Speaker 1]:  how do you actually do that？
+[Speaker 1]:  how do you get from like the theory of uh working with a factory to actually putting it into practice？
+[Speaker 1]:  um i don't know we have the capability or do questions in here。
+[Speaker 1]:  i saved a few minutes for questions。
+[Speaker 1]:  if anyone has questions otherwise。
+[Speaker 1]:  well，
+[Speaker 1]:  i will rap up。
+[Speaker 1]:  yes，
+[Speaker 1]:  yes，
+[Speaker 1]:  it's a great question。
+[Speaker 1]:  so i said some it alalcontradictory。
+[Speaker 1]:  i think think you should the way you should think of it is like everyone's going to deploy some sort of factory。
+[Speaker 1]:  but then the tuning of the factory，
+[Speaker 1]:  the like are these the right skills from my domain is this factory building my product in the right way。
+[Speaker 1]:  i still think there's a bunch of interesting engineering challenges。
+[Speaker 1]:  and for some places you can build this。
+[Speaker 1]:  but again，
+[Speaker 1]:  i think i think that uh，
+[Speaker 1]:  you should prily be focusing on building the core product for your company for the most part。
+[Speaker 1]:  but there's a bunch of like tuning。
+[Speaker 1]:  and like uh figuring out how to make the factory word for your product。
+[Speaker 1]:  that matters is a great question。
+[Speaker 1]:  yes，
+[Speaker 1]:  it's ah thank you。
+[Speaker 1]:  so much，
+[Speaker 1]:  i adany questions。
+[Speaker 1]:  so if you are a college student right now，
+[Speaker 1]:  yes，
+[Speaker 1]:  graduating and enter the workforce where we can spend in your time。
+[Speaker 1]:  yes。
+[Speaker 1]:  so the the question in case people couldn't hear was like if i was a college student graduating entraying the workforce right now。
+[Speaker 1]:  so i think that the most important skills in this new world are adapability。
+[Speaker 1]:  i think that that's critical thinking。
+[Speaker 1]:  it's like the the speed，
+[Speaker 1]:  which you can learn the do think i don't know fear，
+[Speaker 1]:  computer science student，
+[Speaker 1]:  but i still think there's a ton of value in understanding like the underlying systems and architecture。
+[Speaker 1]:  and being able to reason in understand，
+[Speaker 1]:  i do de food，
+[Speaker 1]:  understand the speacks that agency writden。
+[Speaker 1]:  i start ted writing。
+[Speaker 1]:  so i would focus on on those skills um and like i don't know，
+[Speaker 1]:  we're hiring more people than we've ever hiire。
+[Speaker 1]:  there's a lot of kind of like me know people action around，
+[Speaker 1]:  like，
+[Speaker 1]:  you know，
+[Speaker 1]:  people not being hired er because AAI that's not experience we've had so far and what i'm looking for are like really adaptable product focus thinkers who can like basically be great problem，
+[Speaker 1]:  solve it problem llves um even as the underlying technology changes。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i think of time for one more question。
+[Speaker 1]:  yes，
+[Speaker 1]:  what covery radiation and taste，
+[Speaker 1]:  what about the like？
+[Speaker 1]:  so question tion was what about the product taste in？
+[Speaker 1]:  like the how do you actually built in useful？
+[Speaker 1]:  i think，
+[Speaker 1]:  is probably or right，
+[Speaker 1]:  like maybe the framing。
+[Speaker 1]:  and like um where do the ideas come from？
+[Speaker 1]:  and so i think that um the problem with the factor of metaor or and i'm like leaning and do it，
+[Speaker 1]:  because i think that's like that the're something to it。
+[Speaker 1]:  is it？
+[Speaker 1]:  it can kind of sound like mechanizing or humanizing。
+[Speaker 1]:  um and i still think underlying all of this。
+[Speaker 1]:  the only thing that matters is like，
+[Speaker 1]:  are you building something useful？
+[Speaker 1]:  and if you have like a factory that is like turning out shit that no one cares about。
+[Speaker 1]:  it's like what's the point？
+[Speaker 1]:  and i think that human taste，
+[Speaker 1]:  human input，
+[Speaker 1]:  human product sense um humans like guiding at those touch points where you can automate stuff is absolutely like essential unlike。
+[Speaker 1]:  that's like what i do like，
+[Speaker 1]:  i'm trying to figure out what do customers want，
+[Speaker 1]:  what do people want？
+[Speaker 1]:  what's can be valuable to them。
+[Speaker 1]:  so think that's an absolutely key point to it。
+[Speaker 1]:  i think i at time time，
+[Speaker 1]:  so i have to go。
+[Speaker 1]:  i hope folks uh h enjoy this chat，
+[Speaker 1]:  uh，
+[Speaker 1]:  really grateful for being very to speaks。
+[Speaker 1]:  so thank you all very much。
+[Speaker 0]:  the。
