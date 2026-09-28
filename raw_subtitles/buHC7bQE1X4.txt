@@ -1,0 +1,369 @@
+[Speaker 0]: 痛空 oy，
+[Speaker 1]:  hello everyone。
+[Speaker 1]:  um my name is kevin。
+[Speaker 1]:  i'm going to be talking about antigravity。
+[Speaker 1]:  so are there any world cut fans out there who imagine you are coaching argentina and you're the eighty nineth minute？
+[Speaker 1]:  and you a messy on your team。
+[Speaker 1]:  what play are you running？
+[Speaker 1]:  it's called give messy the ball and get the hacy of the way LL ms。
+[Speaker 1]:  aren't just roroal players anymore。
+[Speaker 1]:  they can be your star player，
+[Speaker 1]:  if you build the right product around them。
+[Speaker 1]:  and to let your star player cook，
+[Speaker 0]:  you have to get out of the models 's web might want。
+[Speaker 1]:  want to get liare the slides up。
+[Speaker 1]:  oh，
+[Speaker 1]:  they are great。
+[Speaker 1]:  um so integravity is googles agentic coding product for technical and non technical users we launch back in november of twenty twenty five and have been accelerating ating deaths，
+[Speaker 1]:  both within google and externally ever since my name is kevin，
+[Speaker 1]:  how and i lead part of the engineering team on antigravity。
+[Speaker 1]:  so let's fuck a bbit about about antigravity is we have and always will be unapologidtically agent first。
+[Speaker 1]:  so we debute the antigravity ide last year with a brand new agent manager concept，
+[Speaker 1]:  and it was a platform to manage and orchestrate many agents。
+[Speaker 1]:  since then，
+[Speaker 1]:  we've actually extracted our agent and launched our own integravity CAI。
+[Speaker 1]:  and last month at google IO，
+[Speaker 1]:  we have the pleasure of launching integravity to point out in the theem of getting the model out of the way we actually d coupled the id from from agent managers。
+[Speaker 1]:  so now you have two separate applications，
+[Speaker 1]:  and now you can use the agent manager in a standalone，
+[Speaker 1]:  an app since pictures are worth a thousand words。
+[Speaker 1]:  here's a screen shot of antigravity two point now in action。
+[Speaker 1]:  as you can see，
+[Speaker 1]:  not only is that your own dedicated mission control for your agents and projects，
+[Speaker 1]:  you have sub agents。
+[Speaker 1]:  you have all the new models，
+[Speaker 1]:  you have work trees，
+[Speaker 1]:  scheduled tasks，
+[Speaker 1]:  voice mode。
+[Speaker 1]:  there are so many things to impact with the product，
+[Speaker 1]:  but i don't want to spend today telling you about the product。
+[Speaker 1]:  i want to tell you a little bit more about the behind the scenes，
+[Speaker 1]:  some of the principles that went into it。
+[Speaker 1]:  and notably some of the things that led to its road map。
+[Speaker 1]:  so as some of you for the long time，
+[Speaker 1]:  AI enge fans，
+[Speaker 1]:  this is actually my fifth time speaking at AIN。
+[Speaker 1]:  um and i've been building developers tools since twenty twenty two。
+[Speaker 1]:  and the one thing that has stood above all other lessons that i talked talked about is the idea of scaling with intelligence。
+[Speaker 1]:  this means that the model gets better。
+[Speaker 1]:  so should your product in the frontier edge of whatever model you are serving，
+[Speaker 1]:  should be a parent inside of your users product experience。
+[Speaker 1]:  so let's get into more concrete examples of what this means。
+[Speaker 1]:  so for those of you that follow me on x or hear me just gap generally for the last four years，
+[Speaker 1]:  you'll know that i've been working on a number of these sort of transformations year over year over year。
+[Speaker 1]:  in twenty twenty two，
+[Speaker 1]:  i was working on auto complete and chat cybars。
+[Speaker 1]:  this was based on embedding rules ffiles SS sysynx tory parsing，
+[Speaker 1]:  basically everything inside of that app is deterministic because that's all that the model could really handle。
+[Speaker 1]:  and in twenty twenty four，
+[Speaker 1]:  when agents came onto the scene，
+[Speaker 1]:  it completely changed how developers we're going to do work with。
+[Speaker 1]:  it came new permitives like mcp custom tools and permission systems。
+[Speaker 1]:  and with twenty twenty five，
+[Speaker 1]:  we introduce angragravties agent manager with many other products following suit in that similar foreigfactor with users managing many agents at once in parallel。
+[Speaker 1]:  and this leled to things like skills，
+[Speaker 1]:  hooks artifacts in a couple other permititium。
+[Speaker 1]:  and that sort of defined the twenty twenty five era。
+[Speaker 1]:  so let's talk a little bit about twenty twenty six and what those primitives might be。
+[Speaker 1]:  before we answer this question，
+[Speaker 1]:  i want anto take you back to some of these battlescars that are a little bit closer to home。
+[Speaker 1]:  scaling with intelligence really is not easy。
+[Speaker 1]:  it's really hard to take away something that users love in our familiar with to lead them down potentially。
+[Speaker 1]:  and that's a big keyword，
+[Speaker 1]:  a better path。
+[Speaker 1]:  we aren't right one hundred percent of the time。
+[Speaker 1]:  but there are two that jumpp to mine when i was putting together the slides for the talk。
+[Speaker 1]:  the first one is giving AIA terminal。
+[Speaker 1]:  we all remember fears about sun of anon，
+[Speaker 1]:  deleting your entire code base and doing catastrophic things to both。
+[Speaker 1]:  you know，
+[Speaker 1]:  you're start up your company exetra exeattra。
+[Speaker 1]:  but as models got better and people invested in primitives，
+[Speaker 1]:  such as permission systems，
+[Speaker 1]:  users ended up building，
+[Speaker 1]:  faster，
+[Speaker 1]:  ended up up shipping more。
+[Speaker 1]:  and they did so safely to were able to overcome this。
+[Speaker 1]:  and as models got smarter，
+[Speaker 1]:  they're able to bake better decisions about what they should。
+[Speaker 1]:  and should not run in your terminal。
+[Speaker 1]:  the second instance is this tweet，
+[Speaker 1]:  which is very representative of sort of the yelling that i got when we removed chat from windserf。
+[Speaker 1]:  so a lot of uers ers were yelling at our team because we took away something that was very dear to them，
+[Speaker 1]:  the chat side bar and replaced it with only an agent。
+[Speaker 1]:  now at the time。
+[Speaker 1]:  this is something that was familiar and rather difficult to swallow。
+[Speaker 1]:  but when we look back，
+[Speaker 1]:  models have advanced multi step research，
+[Speaker 1]:  agentic research and execution became the new paradigm。
+[Speaker 1]:  and here we are today using and loving all these agentic products。
+[Speaker 1]:  and so now i bring you to today's battle。
+[Speaker 1]:  what is going on today。
+[Speaker 1]:  so we tea couple，
+[Speaker 1]:  the agent manager from the ie。
+[Speaker 1]:  and with antigravity two point o，
+[Speaker 1]:  we split them into separate applications。
+[Speaker 1]:  we believe that the id e is to the agent manager，
+[Speaker 1]:  what the debugger was to the ide。
+[Speaker 1]:  you don't always need a debuggger，
+[Speaker 1]:  but it definitely is helpful to have it。
+[Speaker 1]:  if you need to go a layer enenath and go one step deeper into that abstraction stack。
+[Speaker 1]:  and our prediction is that this idea of agent orchestration，
+[Speaker 1]:  you can call agent teams，
+[Speaker 1]:  you can call swarwaryou can call software factories is the future，
+[Speaker 1]:  and we're willing to bet on that future。
+[Speaker 1]:  so here are the primitives for what we're calling the agent teams twenty twenty six era。
+[Speaker 1]:  these are things like subagents generative UI inside cars and well，
+[Speaker 1]:  talk more completely about what those things are in some examples of how they manifest inside of the product。
+[Speaker 1]:  but it's really important to first understand the why what brought about these changes and what model changes，
+[Speaker 1]:  what model properties actually led to the development of these new things？
+[Speaker 1]:  and as a product team，
+[Speaker 1]:  do you force the new era of primitives？
+[Speaker 1]:  or is it something that comes to you by using the model and experiencing the model？
+[Speaker 1]:  the answer is kind of both right。
+[Speaker 1]:  and the privilege of being inside google deep mind is that we do have that relationship between the product in the model。
+[Speaker 1]:  so you remember the crox of antigravity。
+[Speaker 1]:  one point o is to manage agents in parallel to put the human in the driver seat。
+[Speaker 1]:  and if you remember my last talk，
+[Speaker 1]:  i taltalked a lot more about this seararch product fywheel。
+[Speaker 1]:  and now as promised because of the antigravity product，
+[Speaker 1]:  gmini has now learned a finger，
+[Speaker 1]:  too about how to manage a team of agents。
+[Speaker 1]:  there's so a lot of head room to make multi agent systems better，
+[Speaker 1]:  more collaborative，
+[Speaker 1]:  better，
+[Speaker 1]:  a deconstructing task into smaller task。
+[Speaker 1]:  but we've got a really good head start with germany。
+[Speaker 1]:  and all the basics have been imbused the model so that we builbuild up product like antigravity tupoint out germany，
+[Speaker 1]:  three point five，
+[Speaker 1]:  five gmany，
+[Speaker 1]:  nine，
+[Speaker 1]:  three point five flash was launched back in april。
+[Speaker 1]:  and this brought to market a lot of those capabilities that we have been working on in the background with antigravity in flash now isn't just good at executing tsts。
+[Speaker 1]:  that's tually really good at leading teams。
+[Speaker 1]:  it's faster and cheaper pushing the parado curve of what is intelligent，
+[Speaker 1]:  verses，
+[Speaker 1]:  the speed and the cost at which you run those things。
+[Speaker 1]:  and putting this all together，
+[Speaker 1]:  we were really excited to announce agent teams in public preview inside of antigravity。
+[Speaker 1]:  all you have to do is simply type the slash command，
+[Speaker 1]:  sash teamwork。
+[Speaker 1]:  and you ll see a new mode where you can enter an unleash swarm m agents onto with the task at hand。
+[Speaker 1]:  so we'll talk a little bit about how this works us。
+[Speaker 1]:  a user will specispecify your task。
+[Speaker 1]:  the more specific you are the better，
+[Speaker 1]:  though，
+[Speaker 1]:  the nature of these agent，
+[Speaker 1]:  commcommunication styles that if it needs something more，
+[Speaker 1]:  it can actually ask you for more until everything is basically clear。
+[Speaker 1]:  you'll work with that lead agent，
+[Speaker 1]:  and it will manage a team of arbitrary size to get that work done。
+[Speaker 1]:  and what i like to say，
+[Speaker 1]:  it's kind of like the avengers，
+[Speaker 1]:  right？
+[Speaker 1]:  it'll take a bunch of specialized rules。
+[Speaker 1]:  it may t end engineers back and engineers，
+[Speaker 1]:  infrastructual specialist QA design，
+[Speaker 1]:  the list goes on and on and on，
+[Speaker 1]:  and there are infinite possibilities for what each of those subagits could take on。
+[Speaker 1]:  each subasiient is dynamically generated and can operate independently，
+[Speaker 1]:  and it can even actually select a different model from what the main agent is using。
+[Speaker 1]:  and this is done so by that main agent，
+[Speaker 1]:  again，
+[Speaker 1]:  we are scaling with intelligence。
+[Speaker 1]:  and one of the coost aspects of this is that it can use generative UI with a model that is as fast as flash。
+[Speaker 1]:  things can happen nearly instantaneously。
+[Speaker 1]:  if you ask，
+[Speaker 1]:  hey，
+[Speaker 1]:  what is the status of my task show me a cabin et what's going？
+[Speaker 1]:  or maybe you know you prefer something a little bit more like the the chrome debugger tool，
+[Speaker 1]:  it can show you a timeline that and all these things are generated on the fly because it's able to generate ui on demand。
+[Speaker 1]:  so some of the projects that the system has implemented。
+[Speaker 1]:  um we've built a photo editor can actually edit raw photos directly inside of your broser。
+[Speaker 1]:  um we've also built a messaging app that might look a little bit familiar to those in the room。
+[Speaker 1]:  um in each of these took hundreds of subagents uh and took almost half a day to run，
+[Speaker 1]:  but to really put it through its paces。
+[Speaker 1]:  one of the hero runs that we did was actually building an entire os kernel。
+[Speaker 1]:  this is something that weve got to show off at google IO。
+[Speaker 1]:  but we built a complete OS corrol from scratch and actually played dooe on it。
+[Speaker 1]:  in my colleague。
+[Speaker 1]:  room was able to demo this a google IO。
+[Speaker 1]:  we were super proud of this particularly milestone one，
+[Speaker 1]:  because are really demonstrated that if you throw more intelligence，
+[Speaker 1]:  you throw more subagents um at this sort of problem a model like german at three point five flash could do this in a way that was not only very，
+[Speaker 1]:  very powerful，
+[Speaker 1]:  but also scalable。
+[Speaker 1]:  and you know，
+[Speaker 1]:  mildly，
+[Speaker 1]:  affordable。
+[Speaker 1]:  obviously，
+[Speaker 1]:  we're not going to spend thousands and thousands of dollars of about an OS kernel every day，
+[Speaker 1]:  though it is possible。
+[Speaker 1]:  and some of the stats out of this，
+[Speaker 1]:  it took ninety three subagents over the course of twelve hours，
+[Speaker 1]:  made fifteen thousand requests，
+[Speaker 1]:  two two illion tokks。
+[Speaker 1]:  and it was under er a dodoars ars，
+[Speaker 1]:  which was one of the really co aspects of this project。
+[Speaker 1]:  and so as you can see，
+[Speaker 1]:  with this particular example，
+[Speaker 1]:  sub agent primitives are one of the defining parts about building uh twenty twenty six era of agent teams。
+[Speaker 1]:  so agent teams are just that first example，
+[Speaker 1]:  and i want to show you another example that our team uses internalally that sort of demonstrate some of these new primitives。
+[Speaker 1]:  um the second one is about automating research tasks。
+[Speaker 1]:  so we work inside of gemini。
+[Speaker 1]:  we help sort of make gemini better ecoding related task，
+[Speaker 1]:  agentic related task。
+[Speaker 1]:  and this is where the real magic start happening with the product。
+[Speaker 1]:  we have an internal version of integravity that researchers，
+[Speaker 1]:  engineers non technical folks can use。
+[Speaker 1]:  and when they understand the primitives that antigravity offers，
+[Speaker 1]:  it becomes a very，
+[Speaker 1]:  very powerful way to automate your own worklows。
+[Speaker 1]:  so you'll take the example of side by side eval analysis。
+[Speaker 1]:  so this is a very common workload，
+[Speaker 1]:  not only a demine，
+[Speaker 1]:  but just generally in the industry youyou。
+[Speaker 1]:  essentially，
+[Speaker 1]:  you will take multiple rollouts you to three four rolltra。
+[Speaker 1]:  um and you want to compare them。
+[Speaker 1]:  so you'll take a set of tyou'll do some rollouts。
+[Speaker 1]:  you get some resulis and they'essentially be in two different tables。
+[Speaker 1]:  now you'll look the contdrol youll look at the experiment and knew how to figure out not only what the difference was。
+[Speaker 1]:  but perhaps what are the reasons for those differences？
+[Speaker 1]:  and how can we actually iterate from there and make a better version for the next experiment？
+[Speaker 1]:  now？
+[Speaker 1]:  traditionally，
+[Speaker 1]:  this was a lot of jupiter notebook elbow，
+[Speaker 1]:  greece essentially。
+[Speaker 1]:  but when you start working with the new primitives in twenty twenty six，
+[Speaker 1]:  you end up with a lot cleaner of a worklobe。
+[Speaker 1]:  so researchers were able to automate ninety percent of this workflow by simply asking the agent about the evalils and questioned using natural language，
+[Speaker 1]:  then the agent that is now primed with skills and an understanding of googles。
+[Speaker 1]:  massive montorppo code base is able to crunch the numbers and get back to you with a delta。
+[Speaker 1]:  now what's really cool here is instead of just taking that delta than handing it back to the user，
+[Speaker 1]:  it went the extra step。
+[Speaker 1]:  it's spn up for a research agent specialist that proposes a hundred different hypotheses over why those deltas might occur。
+[Speaker 1]:  and then it uses subagents to then spend up one subagent for each hypothesis and basically drills into that particular case in parallel，
+[Speaker 1]:  mapping back to a single response and then telling the researcher。
+[Speaker 1]:  hey，
+[Speaker 1]:  here are some areas that i found。
+[Speaker 1]:  now here's a report that you can review。
+[Speaker 1]:  and what's really cool is that it doesn't stop it just the report and actually puts together a generative UI for you to look through interact，
+[Speaker 1]:  select drop down filter segment slice and actually interact richly with that data。
+[Speaker 1]:  and internally，
+[Speaker 1]:  we care a lot about this sort of workflow，
+[Speaker 1]:  improving the model，
+[Speaker 1]:  improving the ways and understanding the ways that users fine success and failure interinternally a google。
+[Speaker 1]:  so what used to be a very manual process？
+[Speaker 1]:  now it takes minutes。
+[Speaker 1]:  you what used to be hand engineering，
+[Speaker 1]:  you'd have to build your own asing pool of agents。
+[Speaker 1]:  you'd have to set up your judges。
+[Speaker 1]:  you''d have to take together data pipelines。
+[Speaker 1]:  all of this now starts becoming grounded in these new primitives that we established earlier in the slide show。
+[Speaker 1]:  you have a subagient graph that is completely dynamic。
+[Speaker 1]:  the generative UI comes in the end to rictually，
+[Speaker 1]:  convey the findings in a way that the user best underunderstands or ybe be vaters to their learning style。
+[Speaker 1]:  in all of these things can be regenerated and redone on the fly。
+[Speaker 1]:  all the user had to do was loaded up a skills file and asked way。
+[Speaker 1]:  so with teamwork。
+[Speaker 1]:  and this evl example，
+[Speaker 1]:  we start arriving at these twenty twenty six primitives that i keep talking about，
+[Speaker 1]:  and these model characteristics really changed the way that we have to think about the product and how we have to develop the product。
+[Speaker 1]:  so the three examples that we talked about，
+[Speaker 1]:  first，
+[Speaker 1]:  we have the dynamics bbagent and to provide a little bit more color here。
+[Speaker 1]:  basically，
+[Speaker 1]:  no two subagents are the same。
+[Speaker 1]:  the main agent is the one that is orchestrating this entirely on its own。
+[Speaker 1]:  it's configuring and prompting。
+[Speaker 1]:  and ceding these subagents on the fly。
+[Speaker 1]:  they can operate in parallel，
+[Speaker 1]:  they can operate in different types of secure environments。
+[Speaker 1]:  be it a sandbox be at a remote execution system，
+[Speaker 1]:  and they can all take on infinite ininfinite number of specialize roles。
+[Speaker 1]:  so the scaling story here is quite obvious。
+[Speaker 1]:  and from the last two examples，
+[Speaker 1]:  you can probably tell，
+[Speaker 1]:  as the model gets smarter，
+[Speaker 1]:  your team will become more specialized。
+[Speaker 1]:  it will become more collaborative。
+[Speaker 1]:  and ultimately，
+[Speaker 1]:  that means it'll be capable of getting more complex work done for you。
+[Speaker 1]:  and now the second is this new concept。
+[Speaker 1]:  we've valuto do it slightly in the past，
+[Speaker 1]:  but it's called side cars。
+[Speaker 1]:  this is a new plugin protocol that we're bringing to integravity。
+[Speaker 1]:  a side car process is essentially。
+[Speaker 1]:  it is a sidecar process。
+[Speaker 1]:  the amaming sort of reflects what what's going on on of the hood，
+[Speaker 1]:  but it's a long live utility and it's responsible for listening。
+[Speaker 1]:  it allows the model to listen to the outside world and set up its own triggers for things that might happen。
+[Speaker 1]:  for example，
+[Speaker 1]:  this could be sms messages。
+[Speaker 1]:  this could be web hooks cron jobs，
+[Speaker 1]:  hooking it up to get hub。
+[Speaker 1]:  ps，
+[Speaker 1]:  the the sst goes on it on，
+[Speaker 1]:  but this is a generic plug in primitive integravity already uses sidecars for things at our time based。
+[Speaker 1]:  this is where the the scheduled test cron concept comes from。
+[Speaker 1]:  um but under the hood，
+[Speaker 1]:  this is all this new side car primitive。
+[Speaker 1]:  so when we releasing the spect for this，
+[Speaker 1]:  so that you all can build on top of this new primitive later this summer，
+[Speaker 1]:  but there are some really，
+[Speaker 1]:  really cool ways that people eternally have been using this sort of concept。
+[Speaker 1]:  and the third and final primitive is generative UI。
+[Speaker 1]:  so we hypothesize that human britain specialized the eyes are kind of dead gemini flash on antigravity clocks in at almost nine hundred tokens。
+[Speaker 1]:  a second。
+[Speaker 1]:  this is ten exfaster than a lot of the other frontier model experiences。
+[Speaker 1]:  and in a matter of seconds，
+[Speaker 1]:  you're able to go from whatever you are thinking instead of your head into a prompt into a use case that is designed embedded inside of your conversation view perperctly。
+[Speaker 1]:  and rather than rely on tempplets or even html files antigravity can render your generated ui in line。
+[Speaker 1]:  so you can do things like this。
+[Speaker 1]:  and play doom，
+[Speaker 1]:  but this also extends the things like bar charts graphs，
+[Speaker 1]:  um tables，
+[Speaker 1]:  anything that you would want to interact with and maybe inspect a little bit fururther，
+[Speaker 1]:  just a mark wfile ile，
+[Speaker 0]:  or just a conversation generor tive UY。
+[Speaker 1]:  in many ways，
+[Speaker 1]:  reminds me of the quote that the late steve jobs said，
+[Speaker 1]:  when unveiling the iphone，
+[Speaker 1]:  he justifies the removal of the keyboard and says they all have these keyboards。
+[Speaker 1]:  they are there，
+[Speaker 1]:  whether you need them or not。
+[Speaker 1]:  and they all of these control buttons that are fixed in plastic and are the same for every application。
+[Speaker 1]:  and in an analygous way，
+[Speaker 1]:  we built our product to dynamically scale with the needs of the agent。
+[Speaker 1]:  we skipped to have ving infrastructure and mechanical uice in favor of sidecars in generau。
+[Speaker 1]:  i and that creates a product experience that is not fixed in plastic。
+[Speaker 1]:  so sub agents side car triggers and genertive UI are the latest primitives that are powering antigravity。
+[Speaker 1]:  we've tried our best to stay out of the way and the model cook。
+[Speaker 1]:  and if you're building a product around an agent，
+[Speaker 1]:  you should consider what are the primitives that are in my product？
+[Speaker 1]:  and how might this scale with the models intelligence we all are familiar with shipping features is now quite easy with all of these new tools，
+[Speaker 1]:  and it's about deciding what features to actually add so that the model。
+[Speaker 1]:  so your products can scale with the next release ase，
+[Speaker 1]:  the the next model，
+[Speaker 1]:  which will inevitably be faster，
+[Speaker 1]:  better and cheaper。
+[Speaker 1]:  and so with the right primitives，
+[Speaker 1]:  you as a builder or you as a product owner，
+[Speaker 1]:  you might be surprised of what the models can do。
+[Speaker 1]:  and in classic fashion，
+[Speaker 1]:  i'm going to keep using the slide until i've actually conquered the tp u。
+[Speaker 1]:  crunch。
+[Speaker 1]:  so you can find me on twitter。
+[Speaker 1]:  um you could dm me for feedback。
+[Speaker 1]:  we're always looking for new ideas on how to build the latest sting greatest。
+[Speaker 1]:  thank you for watching。
+[Speaker 1]:  thank you，
+[Speaker 1]:  swix and bend for having me。
+[Speaker 1]:  it's always joy to be here and i'll be at the antigravity booth。
+[Speaker 1]:  if you want to talk further，
+[Speaker 1]:  if you want to get to know the product a bit more，
+[Speaker 1]:  some team members will be there。
+[Speaker 1]:  so thank you so much for your time。
+[Speaker 0]:  excited to meatul the 嗯嗯。
