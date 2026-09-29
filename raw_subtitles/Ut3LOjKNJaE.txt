@@ -1,0 +1,1170 @@
+[Speaker 0]:  where are the focus？
+[Speaker 0]:  all the automation AI is so unbelievvely smart。
+[Speaker 0]:  and yet it's so useless at all other stuff。
+[Speaker 1]:  it doesn't matter much much。
+[Speaker 1]:  i coding agagenyou you the suffer acacun't getting better。
+[Speaker 1]:  so maybe you ready get faster II 're usually getting worse open。
+[Speaker 0]:  i has been trying to automate cuor ate services twenty twenty。
+[Speaker 0]:  what what want to instead is smart software。
+[Speaker 0]:  i want to expand what software itself can do such that things that should be automative can then be automable my favorite thing that you guys says，
+[Speaker 2]:  we build prd，
+[Speaker 2]:  not god。
+[Speaker 2]:  so because because we had any other kind of like big lab leader，
+[Speaker 2]:  even if they had joy，
+[Speaker 2]:  they would cover。
+[Speaker 2]:  and then your view is so different。
+[Speaker 2]:  you're like，
+[Speaker 2]:  no，
+[Speaker 2]:  we're going to create oh way，
+[Speaker 0]:  better world for nuonce reasons。
+[Speaker 0]:  i don't think we're on the path of our side in the saspocypse story。
+[Speaker 0]:  um today，
+[Speaker 2]:  we have the bounder and leader of typsays dioga with us，
+[Speaker 2]:  um who uh is a bit of a hero to both martinina make this。
+[Speaker 2]:  um um he is not only building like a really interesting product um but creating what we think is a very important movement。
+[Speaker 2]:  so we're super excited about today。
+[Speaker 0]:  rock jjamand。
+[Speaker 0]:  yeah。
+[Speaker 0]:  thank you。
+[Speaker 2]:  yeah。
+[Speaker 2]:  and maybe you can give us kind of a brief on just，
+[Speaker 2]:  you know what is jeff？
+[Speaker 2]:  what is typesafe？
+[Speaker 2]:  why is it important？
+[Speaker 0]:  is this a chris friendly or yeah okooocoook ok oooooooocool。
+[Speaker 0]:  so i was actually so offor like a elevator itit，
+[Speaker 0]:  which i tend to rambbole，
+[Speaker 0]:  and i don't do well，
+[Speaker 0]:  but like rerealize，
+[Speaker 0]:  my favorite elevator pitch for jeff is where the focus all the automation like this is like。
+[Speaker 0]:  so unbelievably tragic yeknow。
+[Speaker 0]:  so much intelligence AI is so unbelievably smart and yet，
+[Speaker 0]:  so not that i hate on chetbott or coding egyt。
+[Speaker 0]:  i love them myself，
+[Speaker 0]:  but it's like it's so useless at all other stuff，
+[Speaker 0]:  and it's it's tragic。
+[Speaker 0]:  it's tragic to that。
+[Speaker 0]:  we have so much like diamond in the rough，
+[Speaker 0]:  but not polished for work。
+[Speaker 0]:  that's that's but type safe is making AI for software，
+[Speaker 0]:  you know，
+[Speaker 0]:  to make AI popoerful not just just for humans in the loop，
+[Speaker 0]:  but to actually build real software。
+[Speaker 0]:  and jeff to us is our first model in this whole space to make a way very better to like make automation。
+[Speaker 2]:  yeah，
+[Speaker 2]:  it's it's it's been interebecause because it's kind of ught fire in suoftware world。
+[Speaker 2]:  so you know，
+[Speaker 2]:  know one of things that made us go，
+[Speaker 2]:  what else going on here is like every developer where we know is calling us and going out this is frickinauweence。
+[Speaker 2]:  it's fast。
+[Speaker 2]:  it's it's great，
+[Speaker 2]:  everything's better。
+[Speaker 2]:  um and then how does that？
+[Speaker 2]:  uh because cause everybody thinks of all we've got cloud code，
+[Speaker 2]:  you know，
+[Speaker 2]:  we've got code ax stet。
+[Speaker 2]:  we already have that like what's the difference？
+[Speaker 2]:  and then how does that lead to real automation？
+[Speaker 0]:  oh，
+[Speaker 0]:  i wish i had like a some ssoft visuals，
+[Speaker 0]:  because i had like a favorite soft visual for this。
+[Speaker 0]:  so i like like code and codex，
+[Speaker 0]:  um i love the description from geritan on them。
+[Speaker 0]:  it's just in time software，
+[Speaker 0]:  you know，
+[Speaker 0]:  incredible way to deoftwbe what they're doing。
+[Speaker 0]:  it like it make software on the fly，
+[Speaker 0]:  and you can like program software and natural language，
+[Speaker 0]:  but it has the same expressive power software。
+[Speaker 0]:  um what i want instead is smart software，
+[Speaker 0]:  like instead like automating software engineering。
+[Speaker 0]:  i want to expand what software itself can do，
+[Speaker 0]:  such as things that could should be automable can then be automable。
+[Speaker 0]:  and like in a more um flowery language，
+[Speaker 0]:  like i wan't express things like intent，
+[Speaker 0]:  i want to like expand the vocabulary what we can do。
+[Speaker 0]:  and i can talk about，
+[Speaker 0]:  like all sorts of like weird，
+[Speaker 0]:  siphi things i want want like programming is like hyper specifying，
+[Speaker 0]:  like valuable things。
+[Speaker 0]:  and then infinitely replicating them，
+[Speaker 0]:  it's so freaking cool。
+[Speaker 0]:  and i want to just make that more，
+[Speaker 0]:  you know，
+[Speaker 2]:  interesting。
+[Speaker 2]:  so so one way to think about it is instead of kind of a tool that h somewhat replaces a sufferent engineer with a faster，
+[Speaker 2]:  maybe not even as good sufferare engineer。
+[Speaker 2]:  what you're saying is then and a we're going to supermpower the sufrereengineers。
+[Speaker 2]:  we have to write way way，
+[Speaker 2]:  better，
+[Speaker 2]:  more interesting things。
+[Speaker 0]:  yeah II。
+[Speaker 1]:  actually，
+[Speaker 1]:  i mean，
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah。
+[Speaker 1]:  so this is that way。
+[Speaker 1]:  i just think so many people miss this point，
+[Speaker 1]:  and it's such a sort of point in some point to actually teach it out，
+[Speaker 1]:  which is um if you use something like cloud cotcocotics，
+[Speaker 1]:  which is great orcheser，
+[Speaker 1]:  which is great day wrcocode。
+[Speaker 1]:  but cocode is sending a human being would have right。
+[Speaker 1]:  maybe it's better maybe worse，
+[Speaker 1]:  but it's basically still code。
+[Speaker 1]:  just i code look ten years ago。
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeh。
+[Speaker 1]:  and the thing with jeff is whether not your cloclocoder or huhuman，
+[Speaker 1]:  you have new primititive。
+[Speaker 1]:  this new thing that you stick in your code that actually expends like the power of suffers s instetifified iting code de is something that you include in your code，
+[Speaker 0]:  which what what，
+[Speaker 1]:  what，
+[Speaker 1]:  which，
+[Speaker 1]:  which，
+[Speaker 1]:  by the way is interesting，
+[Speaker 1]:  because it is very powerful primiure to be great if you're explained，
+[Speaker 1]:  but it's also a little bit different than like，
+[Speaker 1]:  you know how programmers think，
+[Speaker 1]:  for example，
+[Speaker 1]:  like it has this notion of，
+[Speaker 1]:  like，
+[Speaker 1]:  you know，
+[Speaker 1]:  probabilities，
+[Speaker 1]:  or you know，
+[Speaker 1]:  i like，
+[Speaker 1]:  so，
+[Speaker 2]:  you know，
+[Speaker 2]:  so i so an intelligent layer inside the software you think of，
+[Speaker 1]:  like，
+[Speaker 1]:  like a library，
+[Speaker 1]:  a like a library that you can like use natural language to describe what you want。
+[Speaker 1]:  and you give it kind of a state machine，
+[Speaker 1]:  and then it will will choose you what to do with some confidence suoubles，
+[Speaker 1]:  which we kind of have it really happy it like。
+[Speaker 1]:  so you're biger ter。
+[Speaker 1]:  so maybe oh，
+[Speaker 0]:  there's a lot of tricks there。
+[Speaker 0]:  i will jump into one thing first，
+[Speaker 0]:  which you，
+[Speaker 0]:  i love this first thing，
+[Speaker 0]:  you said，
+[Speaker 0]:  like，
+[Speaker 0]:  you know，
+[Speaker 0]:  in the direction of where the fock is all the the auformation i love software so much，
+[Speaker 0]:  i wish i could be writing it all day。
+[Speaker 0]:  it's would not recommend being ACO to people，
+[Speaker 0]:  but whatever um and also like it's while，
+[Speaker 0]:  but AI is so cool and software has been unchanged in you。
+[Speaker 0]:  you，
+[Speaker 0]:  you know，
+[Speaker 0]:  like that to me，
+[Speaker 0]:  like no one can square this together。
+[Speaker 0]:  and the most we can do is add like a little chat pot in the side，
+[Speaker 0]:  sometimes that can take actions，
+[Speaker 0]:  but not all actions，
+[Speaker 0]:  because some of the actuors are not reliable。
+[Speaker 0]:  so i wanna give like that tiny asside。
+[Speaker 0]:  um i love the point。
+[Speaker 0]:  i mean，
+[Speaker 0]:  a job back to the point about like this is a little bit of a different way to think about it。
+[Speaker 0]:  um yes，
+[Speaker 0]:  i think that machine native doesn't exactly match bits perfectly。
+[Speaker 0]:  and like that's actually the art form that we are trying to do。
+[Speaker 0]:  like i in our on boarding on day one，
+[Speaker 0]:  i draw like the then diagram of like what AI is good at what is valuable in code，
+[Speaker 0]:  we're in the middle。
+[Speaker 0]:  so you know，
+[Speaker 0]:  we don't outquaate like，
+[Speaker 0]:  you know，
+[Speaker 0]:  extraa lated floats，
+[Speaker 0]:  for example，
+[Speaker 0]:  because，
+[Speaker 0]:  like eh，
+[Speaker 0]:  i is just bad at that，
+[Speaker 0]:  you know，
+[Speaker 0]:  but things like probabilities are not exactly novel。
+[Speaker 0]:  and it's similar to the is jev just to classifier argument。
+[Speaker 0]:  jev is absolutely a classifier that you know like classifiers are sick。
+[Speaker 0]:  classifiers were this designed be use。
+[Speaker 0]:  yeah，
+[Speaker 0]:  they designed to be use all。
+[Speaker 0]:  and actually，
+[Speaker 0]:  the same interface as like some of those ML concepts，
+[Speaker 0]:  because these came from，
+[Speaker 0]:  like practical people who are trying to make systems work。
+[Speaker 0]:  and what i'm seen is happening now is that jeff，
+[Speaker 0]:  actually，
+[Speaker 0]:  i my guess is that jeff probably is better than having like an MLA team from twenty nineteam king。
+[Speaker 0]:  the sufforfor you and can can program me autify，
+[Speaker 0]:  who knows what could be built？
+[Speaker 0]:  because like there are not that many good MLIMI tetes in two thousand and nineteen to feel like narrow things and to build，
+[Speaker 0]:  like collect data，
+[Speaker 0]:  set，
+[Speaker 0]:  ted，
+[Speaker 0]:  measured and all that。
+[Speaker 0]:  and it is just the beginning。
+[Speaker 0]:  this i feel like this weight like like，
+[Speaker 0]:  but but way did this，
+[Speaker 1]:  but do you think there's a slighter bar here？
+[Speaker 1]:  where like a one end is like language and language out like we had today on the other end is like a like an existing appeaof program。
+[Speaker 1]:  and then you can kind of move between the two？
+[Speaker 1]:  or do you think like this is like the point of the design space，
+[Speaker 1]:  which is language in kind of state machine out，
+[Speaker 1]:  which is gona like slitifies，
+[Speaker 1]:  the general purposing for programmoh。
+[Speaker 0]:  that's a tricky one。
+[Speaker 0]:  so i will say the answer in my heart，
+[Speaker 0]:  the answer in my heart is that it is a slide ter it in。
+[Speaker 0]:  and actually，
+[Speaker 0]:  when i design for are the properties we have，
+[Speaker 0]:  i might have made mistakes due to my personal preferences，
+[Speaker 0]:  but like intelligence per dollars，
+[Speaker 0]:  my noties are right now。
+[Speaker 0]:  and it could be wrong just to be clear，
+[Speaker 0]:  intelligence per second might be more valuable in the short term。
+[Speaker 0]:  but like even like our interface，
+[Speaker 0]:  like a calling the input state，
+[Speaker 0]:  this was intentional，
+[Speaker 0]:  like it's to say that it's it's it's meant to be the inside programs。
+[Speaker 0]:  ms。
+[Speaker 0]:  so so my heart，
+[Speaker 0]:  it's like。
+[Speaker 0]:  so we are really optimizing a lot of work i do is for even more complicated arrangements of the internals of program state。
+[Speaker 0]:  can you put intelligence in there？
+[Speaker 0]:  i think that this is going be ever present battle tle to have。
+[Speaker 0]:  you know，
+[Speaker 0]:  we're very intentional about our design and also pragmatically。
+[Speaker 0]:  i think certain things happen like it's easier to make an ai and these milliseconds。
+[Speaker 0]:  so it'll be more like a database for a while than like a standard library thing。
+[Speaker 0]:  but i would love it to be a central library too。
+[Speaker 0]:  kick。
+[Speaker 1]:  i just provide by friing like，
+[Speaker 1]:  what is the outcoming that create a deo？
+[Speaker 1]:  OI mean，
+[Speaker 0]:  like you sweet when i love there，
+[Speaker 1]:  but was you speak like a ai research？
+[Speaker 1]:  you you speak like assisteant person，
+[Speaker 1]:  you speak like a programmer。
+[Speaker 1]:  and normally these things have been like not super overlapping，
+[Speaker 1]:  and like you're 're taking king AI wish ve been pushing towards，
+[Speaker 1]:  you know，
+[Speaker 1]:  being a being。
+[Speaker 1]:  and you're making it a programmers tool。
+[Speaker 0]:  maybe a little bit about your personal journey that my history and ai is summit a north dodox。
+[Speaker 0]:  um i was a mattheleum。
+[Speaker 0]:  i was AA word winning matthlete。
+[Speaker 0]:  um the way i describe it is i was good enough at。
+[Speaker 0]:  this is a rinch。
+[Speaker 0]:  i was good enough at math to get girls。
+[Speaker 0]:  so that's good。
+[Speaker 0]:  no，
+[Speaker 0]:  that was yeyou。
+[Speaker 0]:  et get it good。
+[Speaker 2]:  um and my kind of girls you get when you're that good at melt。
+[Speaker 0]:  that's a leh g。
+[Speaker 2]:  our audience needs to know。
+[Speaker 0]:  oh，
+[Speaker 0]:  no，
+[Speaker 2]:  we have inspired the youth here。
+[Speaker 0]:  don't do it，
+[Speaker 0]:  youth。
+[Speaker 0]:  don't do it。
+[Speaker 0]:  it's not worth it。
+[Speaker 0]:  just be cooling，
+[Speaker 0]:  chill and interesting。
+[Speaker 0]:  and sold overcompensate。
+[Speaker 0]:  wow，
+[Speaker 0]:  i can't believe i said that。
+[Speaker 0]:  so i it was a matthelete。
+[Speaker 0]:  i actually tually never a man is also a little cranint。
+[Speaker 0]:  i never really liked math。
+[Speaker 0]:  i never really tried。
+[Speaker 0]:  i was just like being fishing，
+[Speaker 0]:  little pond。
+[Speaker 0]:  and to me，
+[Speaker 0]:  math was act。
+[Speaker 0]:  i math was always the path i was set on。
+[Speaker 0]:  but i hated it because it was always about like winning competitions。
+[Speaker 0]:  but then computer science is actually a lot like math。
+[Speaker 0]:  it's basically like math，
+[Speaker 0]:  but cool and useful and fun and interesting。
+[Speaker 0]:  and i still love giving algoriththms interviews。
+[Speaker 0]:  it's it's it。
+[Speaker 0]:  the best thing for me to do。
+[Speaker 0]:  i don't know，
+[Speaker 0]:  but do i love it？
+[Speaker 0]:  yes。
+[Speaker 0]:  and does it like allow me to access people out out really well？
+[Speaker 0]:  yes，
+[Speaker 0]:  it does。
+[Speaker 0]:  so。
+[Speaker 0]:  i love computer science。
+[Speaker 0]:  i consider myself to be computer scientists much more before a researcher despite my history。
+[Speaker 0]:  and um like what actually got to me into it was，
+[Speaker 0]:  i also won a cgo competition，
+[Speaker 0]:  not from sophisticated math，
+[Speaker 0]:  but trying，
+[Speaker 0]:  like just automating，
+[Speaker 0]:  like the fuck out of it，
+[Speaker 0]:  um you know，
+[Speaker 0]:  like，
+[Speaker 0]:  like more nested loops，
+[Speaker 0]:  more，
+[Speaker 0]:  you know，
+[Speaker 0]:  like i solved，
+[Speaker 0]:  like a siststance problem，
+[Speaker 0]:  you know，
+[Speaker 0]:  so that evenent eventually got me，
+[Speaker 0]:  um like i was forced to speak at nurops normally in honor，
+[Speaker 0]:  but i hated it because i just wanna be in minminwas。
+[Speaker 1]:  was that the cacle thing？
+[Speaker 1]:  yes，
+[Speaker 0]:  oh，
+[Speaker 0]:  wow。
+[Speaker 0]:  yeactually。
+[Speaker 0]:  the cgle host of it was his bill gon who was the coo inventor of the SVM。
+[Speaker 0]:  actually，
+[Speaker 0]:  i think the first author of SVM，
+[Speaker 0]:  i'm not one hundred percenter and first author um and she just basically saw that i was like this person who really didn't fit into the research community。
+[Speaker 0]:  and then adopted me and showed me，
+[Speaker 0]:  if like，
+[Speaker 0]:  like you got me to meet all the ai people，
+[Speaker 0]:  and i did。
+[Speaker 0]:  don't。
+[Speaker 0]:  my career was just pushed into that direct and from their opening eye。
+[Speaker 0]:  no，
+[Speaker 0]:  it was like a start up with jeremy howard。
+[Speaker 0]:  um no kidding。
+[Speaker 1]:  yes，
+[Speaker 1]:  no jeremy。
+[Speaker 1]:  yeah，
+[Speaker 0]:  it that's a cool um and then google brain for a while。
+[Speaker 0]:  and then uh retire for a while。
+[Speaker 0]:  and then eventually i was like just kind of tired of not in doing anything as like you not actually hey ice，
+[Speaker 0]:  pretty dam fuine。
+[Speaker 0]:  and i joined open eye because of that reason，
+[Speaker 0]:  uh and it worked out really well，
+[Speaker 1]:  well，
+[Speaker 1]:  yeah increredidible。
+[Speaker 2]:  so you said something there there that is so um unusual in today's world，
+[Speaker 2]:  which is AI，
+[Speaker 2]:  is really，
+[Speaker 2]:  really fun。
+[Speaker 2]:  and then the company has such a different domane and view of AI than everybody else se。
+[Speaker 2]:  my my favourite that you guys says，
+[Speaker 2]:  we build proud，
+[Speaker 2]:  not god。
+[Speaker 2]:  uh。
+[Speaker 2]:  so because because we had any other kind of like big lab leader，
+[Speaker 2]:  they'd be like trying to even if they had joy，
+[Speaker 2]:  they would ever。
+[Speaker 2]:  and then your view is so different。
+[Speaker 2]:  you're like，
+[Speaker 2]:  no，
+[Speaker 2]:  we're onna create a way better world，
+[Speaker 2]:  and it's can be awesome。
+[Speaker 2]:  and there's going to be knowlia than that can be less jobs。
+[Speaker 2]:  i'll be more jobs and i'll be way better jobs and everybod's n't have a great time。
+[Speaker 2]:  and like just be being around you like you clearly believe that。
+[Speaker 2]:  so so tell us about that。
+[Speaker 2]:  and like with this，
+[Speaker 2]:  because for us，
+[Speaker 2]:  you know，
+[Speaker 2]:  type safe jeavz，
+[Speaker 2]:  it is more than a company。
+[Speaker 2]:  it's a it's a whole movement towards a positive future that most people in AI world kind of don't like yah or or or they're not with it that i think they don't get it。
+[Speaker 0]:  yes，
+[Speaker 0]:  you know like that。
+[Speaker 0]:  it's just a classifier complaint is like an ML level concern。
+[Speaker 0]:  wow，
+[Speaker 0]:  everyone else is having like a jeff party，
+[Speaker 0]:  because it's like like like we can do all the things that we wanted to do it。
+[Speaker 0]:  i don't think if you don't like to get to develoers ers，
+[Speaker 0]:  it'll be hard to understand what's really going on。
+[Speaker 0]:  so hundred percent。
+[Speaker 0]:  i agree with that。
+[Speaker 0]:  i do think that there's like a pretty negative world painted that i obviously disagree with。
+[Speaker 0]:  i think it's really comes from this。
+[Speaker 0]:  like um you know，
+[Speaker 2]:  mono model coolay that everyone believes i did to write one big brain to roll them all。
+[Speaker 0]:  that's one，
+[Speaker 0]:  that's what way sounds。
+[Speaker 1]:  ds sounds much more omous ous。
+[Speaker 2]:  yeah，
+[Speaker 0]:  but you know like，
+[Speaker 0]:  will that one is that one bring really on the past to rule at all？
+[Speaker 0]:  like we have not automated really basic things that i don't think we want people to be doing，
+[Speaker 0]:  you know。
+[Speaker 0]:  like it，
+[Speaker 0]:  there's lots of really，
+[Speaker 0]:  really basic stuff。
+[Speaker 0]:  i think that um man，
+[Speaker 0]:  it it。
+[Speaker 0]:  it pains me when the world is discordant with a reality。
+[Speaker 0]:  and like part of the pain is，
+[Speaker 0]:  you know，
+[Speaker 0]:  on the way the focus，
+[Speaker 0]:  all the automation，
+[Speaker 0]:  like，
+[Speaker 0]:  how can we have AI be so freaking smart？
+[Speaker 0]:  and like it's so much so much financial instetive to automate stuff like yeyeah，
+[Speaker 0]:  you can make excucufor for difusion。
+[Speaker 0]:  i don't buy it at all who had i shldn't name names，
+[Speaker 0]:  but like it obviously is not to true part of a promise，
+[Speaker 0]:  like the discordance with the reality。
+[Speaker 0]:  and the fact that ei has，
+[Speaker 0]:  like so much potential is what made it really tragic for me that we had not release this。
+[Speaker 0]:  so now it's a now it took a little bit of a party for me，
+[Speaker 2]:  but like i was afraid and AI jeff jesuers are like there's the happy AI the people on jeff and there's the moroosay，
+[Speaker 2]:  i，
+[Speaker 2]:  the people or not。
+[Speaker 2]:  yeah，
+[Speaker 0]:  yeah，
+[Speaker 2]:  it's really uh。
+[Speaker 2]:  it is quite a kind of fascinating academy。
+[Speaker 2]:  it's it is really，
+[Speaker 2]:  really ad。
+[Speaker 2]:  well，
+[Speaker 2]:  i give you an anti automation point。
+[Speaker 2]:  i had a funny conversation this morning with a david george arrouns。
+[Speaker 2]:  our growth fun because we're talking about the new tools as i got。
+[Speaker 2]:  have you tried the musing？
+[Speaker 2]:  think as i call，
+[Speaker 2]:  it's awesome as i got to do it，
+[Speaker 2]:  that he said，
+[Speaker 2]:  i finally cancelled my new york time subscription。
+[Speaker 2]:  i was like that baby is hard to do。
+[Speaker 0]:  yeah，
+[Speaker 2]:  you know，
+[Speaker 2]:  it's a kind of it。
+[Speaker 2]:  it's a very tip of the iceberg of the things that are horrible things to do that that we need toortomate。
+[Speaker 0]:  i think that if you're gonnbe really intellectually honest and 're，
+[Speaker 0]:  really，
+[Speaker 0]:  really in for the north of automation，
+[Speaker 0]:  we cannot fall into the same and die patterns that AI is fallen。
+[Speaker 0]:  the dukes，
+[Speaker 0]:  which is really um focusing on outliers and denos，
+[Speaker 0]:  right？
+[Speaker 0]:  a like a lot of people ask me like，
+[Speaker 0]:  what are your favorite use cases？
+[Speaker 0]:  and i'm know not not if they work，
+[Speaker 0]:  i want them to work in the background and such that like someone who trust that to run and not page them。
+[Speaker 0]:  and like people can build on top of attitude，
+[Speaker 2]:  like you know possible composble，
+[Speaker 0]:  but like other things，
+[Speaker 0]:  like a safe，
+[Speaker 0]:  right？
+[Speaker 0]:  it's a different type of safety where，
+[Speaker 0]:  like if you wanted to actually like run with resources，
+[Speaker 0]:  associate with it with access to things you need guarantees for that or like at least statistical guarantees。
+[Speaker 2]:  and like so it doesn't go robreaand and and fface that well，
+[Speaker 0]:  II don't think our models will be doing that anytime soon。
+[Speaker 0]:  ununsusomebody，
+[Speaker 0]:  like does the software to do that。
+[Speaker 0]:  we should be the very cool flex，
+[Speaker 0]:  very cool flex。
+[Speaker 0]:  i should you get how to give credits for that，
+[Speaker 0]:  but um but that in a way that we're not responsiright right，
+[Speaker 2]:  right，
+[Speaker 1]:  right，
+[Speaker 1]:  right？
+[Speaker 1]:  i'm just kiid like how how long as this intuiand ppercollinics。
+[Speaker 1]:  i remember talking to you maybe in for thirty thousand seventeen。
+[Speaker 0]:  so long we did talk about that。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah。
+[Speaker 1]:  and like and like a lot of these，
+[Speaker 1]:  as as in you know，
+[Speaker 1]:  you're talking about data being important，
+[Speaker 1]:  you're talking about like you want to focus on a task。
+[Speaker 1]:  and like，
+[Speaker 1]:  but like so II，
+[Speaker 1]:  just like，
+[Speaker 1]:  you know，
+[Speaker 1]:  was this？
+[Speaker 1]:  like，
+[Speaker 1]:  did you know that this is going to end up being a classifier？
+[Speaker 1]:  or was it just an intuition that，
+[Speaker 1]:  like thethere just kind of another way to view view，
+[Speaker 1]:  this entikind kind of AI movement，
+[Speaker 0]:  you know？
+[Speaker 0]:  so actually a fun story about that chat in the talk from jourty seventeen。
+[Speaker 0]:  i think my talk was action a very similar theme。
+[Speaker 0]:  i think it was called something like ai modular and theory is flexible in practice，
+[Speaker 0]:  which is very software。
+[Speaker 0]:  and so some a livconsistent that II think of this really started right before chat GPT。
+[Speaker 0]:  um like right，
+[Speaker 0]:  when we release these things，
+[Speaker 0]:  i did not have intuition about this。
+[Speaker 0]:  and honestly，
+[Speaker 0]:  i was not even i was very，
+[Speaker 0]:  very pleasantly surprised by the generalization capabilities of RHF。
+[Speaker 0]:  winnses must be end of twenty twenty one，
+[Speaker 0]:  like a fourth quarter of twenty twenty one。
+[Speaker 0]:  um like we were，
+[Speaker 0]:  it was really，
+[Speaker 0]:  really in general，
+[Speaker 0]:  like if you read the paper，
+[Speaker 0]:  it's unlike other papers that are like trying to prove their point。
+[Speaker 0]:  it is us，
+[Speaker 0]:  actually，
+[Speaker 0]:  you know，
+[Speaker 0]:  scientific method ish trying to disprove like，
+[Speaker 0]:  is it cheating？
+[Speaker 0]:  uum？
+[Speaker 0]:  you know，
+[Speaker 0]:  my favorite fairy was，
+[Speaker 0]:  why is it important to eat socks before meditating？
+[Speaker 0]:  we'd made trde that was not on the internet with more hand。
+[Speaker 0]:  and like the models were able to like make plausible human looking answers for this。
+[Speaker 0]:  and that to us in the team was the thing that click like this is not cheating，
+[Speaker 0]:  which you should always be afraid of cheating in in ML。
+[Speaker 0]:  then then what really got me burn was like we released it。
+[Speaker 0]:  um you know，
+[Speaker 0]:  we did a，
+[Speaker 0]:  you know，
+[Speaker 0]:  i'm obviously a big capababilities guy。
+[Speaker 0]:  i did a lot to release that model。
+[Speaker 0]:  i i really thought that，
+[Speaker 0]:  that model had like a decent chance of being AGI。
+[Speaker 0]:  and when it didn't bppers like when my whole world came crashing down，
+[Speaker 0]:  and i was liked why ok，
+[Speaker 1]:  you're kind about the other train from bed，
+[Speaker 0]:  which like the crazy train wono。
+[Speaker 1]:  i just like the RRL generalizes like maybe we have AGI like RHF generalizes pretty well RL。
+[Speaker 0]:  the r is the thing that doesn't generalizes well from what i've seen um and HI in into why II just say more。
+[Speaker 1]:  i mean，
+[Speaker 1]:  like，
+[Speaker 1]:  you know，
+[Speaker 1]:  you will be in chat tibeity you were behind。
+[Speaker 1]:  and can these re's only tip ties that was a very different goal，
+[Speaker 1]:  which is like creating a chat about them will talk the human being was not a programmers too。
+[Speaker 1]:  lesettrous。
+[Speaker 1]:  i'm just wondering like，
+[Speaker 0]:  oh，
+[Speaker 0]:  well，
+[Speaker 0]:  actually early early，
+[Speaker 0]:  like twenty twenty um open eye。
+[Speaker 0]:  when we talked about AGI，
+[Speaker 0]:  people used to describe it as alien。
+[Speaker 0]:  and every of statement。
+[Speaker 0]:  um so it's not it's but like it's it。
+[Speaker 0]:  like part we were talking at a opening eye culture。
+[Speaker 0]:  part of it is that it's like intentionally vague，
+[Speaker 0]:  so it's a wide black tent so that everyone can be inside of it。
+[Speaker 0]:  but like i am not for no one's reasons。
+[Speaker 0]:  i don't think we're on the path of our side，
+[Speaker 0]:  and i still don't think we're on the path of our and i did to then i do think that what open i defined as agia is extremely dable，
+[Speaker 0]:  automating most of the world's economically valuable work，
+[Speaker 0]:  actually sounds work like h，
+[Speaker 0]:  oh，
+[Speaker 0]:  man，
+[Speaker 0]:  i don't like there's a lot of work out there。
+[Speaker 0]:  a lot of it is very route and simple。
+[Speaker 0]:  and like buy volume in order to be able to like outsource work，
+[Speaker 0]:  you need like simple instructions that like basic p people can do。
+[Speaker 0]:  and as far as i can tell，
+[Speaker 0]:  the intelligence of that has been available on the models for a quite a while now。
+[Speaker 0]:  and like my oh man，
+[Speaker 0]:  you know，
+[Speaker 0]:  ship on my shoulder is like，
+[Speaker 0]:  why is this not available？
+[Speaker 0]:  and and then then and starrely jeft the industry，
+[Speaker 0]:  just like kind of bifiercainto over giantic overpromise undunderdeliver。
+[Speaker 0]:  i think GPT three was actually quite collebraated and went back in that day。
+[Speaker 0]:  but because humans evaluate how good the models are，
+[Speaker 0]:  it looks really good because they're the judge。
+[Speaker 0]:  but we've been optimizing that judge instead of the automation part。
+[Speaker 0]:  and that has been the missing thing。
+[Speaker 0]:  so i would say thewas really，
+[Speaker 0]:  really then that it like hit me，
+[Speaker 0]:  you know like，
+[Speaker 0]:  why is this thing not more useful。
+[Speaker 1]:  and so you think that the measure that we should have is to what extenking you automate actual productive tasks that the that say，
+[Speaker 1]:  over provsit undthe deliver，
+[Speaker 1]:  that's the dimensionary particular you're docking to。
+[Speaker 1]:  you believe the automate desks，
+[Speaker 0]:  i like，
+[Speaker 0]:  i think in my heart，
+[Speaker 0]:  it's like a cool sifii。
+[Speaker 0]:  um you know，
+[Speaker 0]:  and i think that i think that，
+[Speaker 0]:  that is the canenry an the coal mine for cal csifii。
+[Speaker 0]:  like，
+[Speaker 0]:  are you really telling me that wed like math is solved or like even like two years ago GPQA that google proof question answering is solved，
+[Speaker 0]:  but we still can't handle a drive through right？
+[Speaker 0]:  like it's it's it's a very hard thing to hold in your head at once。
+[Speaker 0]:  and i think a lot of people don't have good answers to that。
+[Speaker 0]:  yeah，
+[Speaker 1]:  i actually just just one thing。
+[Speaker 1]:  no，
+[Speaker 1]:  yeah，
+[Speaker 1]:  which may not make sense for i want just maybe it's it turn or he might thought that like the the real didiriribution，
+[Speaker 1]:  the real world is is is different than the digital world，
+[Speaker 1]:  right？
+[Speaker 1]:  it's heavy tail。
+[Speaker 1]:  there's a lot of exceptions。
+[Speaker 1]:  we don't have all the data。
+[Speaker 1]:  and i mean，
+[Speaker 1]:  it couldn't be the case that the reason we're not doing productive stuff for the real world is just siphor not。
+[Speaker 1]:  we don't have the data for that distribution。
+[Speaker 1]:  we're not training on that distribution。
+[Speaker 1]:  and this is why it's it's been basically relalegated like these lower dimensional managphhods，
+[Speaker 1]:  like whatever math or coder。
+[Speaker 0]:  um i don't entirely buy the data argument in my opinion。
+[Speaker 0]:  um i do believe that there's AA long tail for sure like that，
+[Speaker 0]:  that would be kind of crazy to deny。
+[Speaker 0]:  and i don't think that in my lecanary in the coal ine situation is need an automate that long tatae。
+[Speaker 0]:  like i think that i think we need to be incredibly pragmatic on everything。
+[Speaker 0]:  and like building reliable software is always an austment right，
+[Speaker 0]:  like it，
+[Speaker 0]:  like，
+[Speaker 0]:  you know what，
+[Speaker 0]:  where the three great virtues of a programmer laziness to not to do it again，
+[Speaker 0]:  hubris。
+[Speaker 0]:  and there re's a ten，
+[Speaker 2]:  yeah，
+[Speaker 2]:  yeah。
+[Speaker 2]:  now i remember this is from the proo days。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah。
+[Speaker 0]:  yeah。
+[Speaker 0]:  there's a terd while yeah。
+[Speaker 0]:  ah i wish i could remember it，
+[Speaker 0]:  but like it's about like the laziness to like hundred you，
+[Speaker 0]:  you like ted and hours to do like my five minute desk instantly。
+[Speaker 0]:  and to never have to do it again，
+[Speaker 0]:  like it only makes it would be an arowii decision for people who like automate stuff，
+[Speaker 0]:  like i would just like it to be automate a ball。
+[Speaker 0]:  and i think that people will just make like new kinds of work out，
+[Speaker 0]:  hence the jevin jevens new kinds of work once that stuff is dual。
+[Speaker 0]:  but like as like AA benchmark，
+[Speaker 0]:  i feel like it's useful to see can we actually automate the stuff that it really，
+[Speaker 0]:  really looks like it？
+[Speaker 0]:  i should be d automate，
+[Speaker 0]:  but as open ehas been tred to automate cusword service ices，
+[Speaker 0]:  twenty，
+[Speaker 0]:  twenty twenty。
+[Speaker 0]:  you know like it it。
+[Speaker 0]:  it's you know like it's not um it is pretty amazing。
+[Speaker 0]:  it's it's it's wild。
+[Speaker 2]:  you know it's wild on my inside。
+[Speaker 2]:  i'm me inside companies。
+[Speaker 2]:  um there's very little that's automated right now like yeah and the projects haven't worked。
+[Speaker 2]:  othe programme is worked。
+[Speaker 2]:  amazing。
+[Speaker 1]:  can can you may be classifiy the types of problems you think that are eager to automate now because it it was kind of interesting。
+[Speaker 1]:  so we've actually looked at support before the current general wab。
+[Speaker 1]:  and it's interesting。
+[Speaker 1]:  you meet a company and the company would say we ah，
+[Speaker 1]:  it was aca，
+[Speaker 1]:  ninety five percent of all like，
+[Speaker 1]:  you know，
+[Speaker 1]:  like the dedek of caland，
+[Speaker 1]:  like that is show many。
+[Speaker 1]:  but then you actually look at the day，
+[Speaker 2]:  the same any realized，
+[Speaker 1]:  it's all passireresets。
+[Speaker 1]:  and then like，
+[Speaker 1]:  but if you did it buy like uniqueness theonly，
+[Speaker 1]:  something like fifty perctor。
+[Speaker 1]:  so just feels like when you're dealing with humans and natural systems，
+[Speaker 1]:  like there's just kind of very you kind of you know，
+[Speaker 1]:  like every long tail of exceptions。
+[Speaker 1]:  and so to what extent did like like every every every hour，
+[Speaker 1]:  i have somebody paying me like i'm using jeb for this new use case。
+[Speaker 1]:  yelike，
+[Speaker 1]:  i know know，
+[Speaker 1]:  you know，
+[Speaker 1]:  like，
+[Speaker 1]:  you know。
+[Speaker 1]:  and so like，
+[Speaker 1]:  what what extded you even predict，
+[Speaker 1]:  like the broadrange of use case for it like to do is soon that was going to happen。
+[Speaker 0]:  and have you ve been surprised by that or tremely surprised it did not assume it could happen。
+[Speaker 0]:  uh this launch was like not something like if anyone expected this，
+[Speaker 0]:  they are probably insaying um right like it it II。
+[Speaker 0]:  don't think someone could expect a chat GPT for developers because chat GPT was for，
+[Speaker 0]:  you know，
+[Speaker 0]:  like，
+[Speaker 0]:  you know，
+[Speaker 0]:  the normal users and it's weird。
+[Speaker 0]:  i actually don't even know what percentage of the people who are part of the jeff party are developers themselves。
+[Speaker 0]:  i can't imagine non developers using it。
+[Speaker 0]:  i don't know how they would use it。
+[Speaker 0]:  um but even my non developher friends are just like part of the party and twitter and meaning and everything like that。
+[Speaker 0]:  so number one，
+[Speaker 0]:  phenomenal，
+[Speaker 0]:  number two。
+[Speaker 0]:  um this will be hard to convey in this short message because like it's been like a blood sweat teyears for years。
+[Speaker 0]:  now like the amount i care about reliability is um it's it's a lot like reliability is what this thing is。
+[Speaker 0]:  if you don't understand that it'll be very hard to make like a copycat that's benchmixed like it's i feel like every nine of reliability is going to be so valuable for everyone，
+[Speaker 0]:  even if it's not the most valuable thing，
+[Speaker 0]:  market cap wise because it lodest enable new applications。
+[Speaker 0]:  and like we are fighting for like all sorts of like weird nons of reliability that like we don't even fully understand because we are just like gudotes，
+[Speaker 0]:  like really getting that this like electric motor of ai of intelligence，
+[Speaker 0]:  like into peoplees like worth stations。
+[Speaker 0]:  and they can figure out what to do with it。
+[Speaker 1]:  what is the liability mean？
+[Speaker 1]:  this context is，
+[Speaker 1]:  is is just like availability of the model？
+[Speaker 1]:  or is it like i call the model and it returns the same thing？
+[Speaker 1]:  or like，
+[Speaker 1]:  how do i think about reliability？
+[Speaker 1]:  yeah。
+[Speaker 1]:  so for something that's inherently of of ircuh，
+[Speaker 0]:  not so much the former thing。
+[Speaker 0]:  and the second thing is closer，
+[Speaker 0]:  like i would describe，
+[Speaker 0]:  the first thing is kind of like uptime or isolays。
+[Speaker 0]:  the second thing i would maybe call closer to determinism。
+[Speaker 0]:  yeah something。
+[Speaker 0]:  thirdly，
+[Speaker 0]:  i would consider more like robustness so robustness。
+[Speaker 0]:  i would kind of describe as um similar intelligence every time。
+[Speaker 0]:  oh and yeah，
+[Speaker 0]:  so like nothing exactly determinism。
+[Speaker 0]:  i think think the terminism uuseful for uniquests，
+[Speaker 0]:  but are not real systems think about，
+[Speaker 0]:  like if you add AUUID to up up，
+[Speaker 0]:  don't it should be the same as the same functionally，
+[Speaker 0]:  but it's not exactly deterministic。
+[Speaker 0]:  i think that there's a another layer of it that i don't really know what it's called yet。
+[Speaker 0]:  like maybe this is what i would call some form of intelligence，
+[Speaker 0]:  which is it doesn't have to be the similar function every time，
+[Speaker 0]:  but it needs to be smart every time。
+[Speaker 0]:  you know，
+[Speaker 0]:  like if you were in that situation，
+[Speaker 0]:  would this be an understandable thing for a human to think because a developer ing program around that and actually，
+[Speaker 0]:  to me，
+[Speaker 0]:  the highest honor of reliability will be to get to the point when people can program against jev without making example，
+[Speaker 0]:  queries es，
+[Speaker 0]:  when you're just trusve，
+[Speaker 0]:  you'll be in like perma flow state，
+[Speaker 0]:  just remain great crazy software。
+[Speaker 0]:  and like that's where a lot of software is today，
+[Speaker 0]:  right？
+[Speaker 0]:  like i don't think it's totally unrealistic，
+[Speaker 0]:  but i'm gongonnfy y，
+[Speaker 1]:  but but this is kind of weird question。
+[Speaker 1]:  so like，
+[Speaker 1]:  i mean，
+[Speaker 1]:  it feel free like give it if it's too。
+[Speaker 1]:  we're just feel like，
+[Speaker 1]:  but it occurs to me that actually，
+[Speaker 1]:  the value of things like coding agents goes down。
+[Speaker 1]:  if you have a printative like this in a way，
+[Speaker 1]:  which is like you could be like，
+[Speaker 1]:  you know，
+[Speaker 1]:  whatever some，
+[Speaker 1]:  you know，
+[Speaker 1]:  code acx builds all the suffer er from me，
+[Speaker 1]:  but it doesn't actually use javand。
+[Speaker 1]:  so like the suoftware suffeit creates a some a limited or you be like，
+[Speaker 1]:  okay，
+[Speaker 1]:  i is a human being。
+[Speaker 1]:  i will write the software without using a coding agented。
+[Speaker 1]:  but i've got this very generalized primiit that makes unning suffer easier。
+[Speaker 1]:  so like do feel like see a future words like the coding agents using jeff。
+[Speaker 1]:  and then you're tolling the coding agents and then you're like reundancy。
+[Speaker 0]:  or do you feel it's like human s iples it more more like cocoding agent question than it is a jeff question？
+[Speaker 0]:  yeah。
+[Speaker 0]:  so my vibe is that um i'm not in the coding mind as much as i'd like to be。
+[Speaker 0]:  so you are you too be be in there more than i am，
+[Speaker 0]:  which is sad，
+[Speaker 0]:  but my experience is that they are really good at syntax。
+[Speaker 0]:  and really the bad tismatics。
+[Speaker 0]:  um i was say，
+[Speaker 0]:  incredibly bad，
+[Speaker 0]:  ted architecture，
+[Speaker 0]:  yeah。
+[Speaker 0]:  um so like to me，
+[Speaker 0]:  architecture is like the most human creative part of software。
+[Speaker 0]:  so i love using coding agents。
+[Speaker 0]:  i think that uh jeff is almost certainly not in distribution that would be spooky if they trained in our user data。
+[Speaker 0]:  um so probably not um but ah HI think that when it is in distribution，
+[Speaker 0]:  i see no no problem like having it to do this innx x。
+[Speaker 0]:  the thing thing with architecture is that maybe the models are actually like not just crappit architecture，
+[Speaker 0]:  but maybe fiffifty perpercent til of architecture。
+[Speaker 0]:  and if you don't know anything where artiactually，
+[Speaker 0]:  it will be fine。
+[Speaker 0]:  so these are all like gray area trade offs in order for you to navigate。
+[Speaker 0]:  and sometimes speed is the the nob for your company，
+[Speaker 0]:  your project to turn like you're willing to do a fifty like a fifty th percent architecture，
+[Speaker 0]:  inset，
+[Speaker 0]:  have a sixty th because you want to move faster and have like code x work overnight or something。
+[Speaker 2]:  yeah，
+[Speaker 2]:  actually，
+[Speaker 2]:  can lung assigns one of the interesting things。
+[Speaker 2]:  uh phenomenon，
+[Speaker 2]:  the market market ready is that you know，
+[Speaker 2]:  when the coding agents came out，
+[Speaker 2]:  it was the sass pocalypse and all their values dropped to the floor。
+[Speaker 2]:  and then when jeff came out，
+[Speaker 2]:  every sass company is like this is a great thing ever。
+[Speaker 2]:  so oh，
+[Speaker 0]:  explain that i i don't know what else to say，
+[Speaker 0]:  right？
+[Speaker 0]:  like i think it's like quite natural，
+[Speaker 0]:  like in the saspoclipse story。
+[Speaker 0]:  um the story that i feel like has pandout really polily is that software is very cheap。
+[Speaker 0]:  and perhaps easy to replicate，
+[Speaker 0]:  which i think i could i could believe the forward i could not believe the latter，
+[Speaker 0]:  because a lot of the stuff happens beneath the hood。
+[Speaker 0]:  um i'm maybe overly a software fan。
+[Speaker 0]:  boy here。
+[Speaker 1]:  yeah yeah。
+[Speaker 0]:  okay oay。
+[Speaker 0]:  okay。
+[Speaker 0]:  II don't know way it might be the coding in。
+[Speaker 2]:  yeah 不行，
+[Speaker 1]:  yeah，
+[Speaker 0]:  so it。
+[Speaker 0]:  i don't think that really pand out。
+[Speaker 0]:  so sass seems like maybe the markets don't agree。
+[Speaker 0]:  but like i think sass is providing the same value to use to maybe the market are just scared。
+[Speaker 0]:  um but i think that sass will be one of the largest winners of like the whole AI game。
+[Speaker 0]:  and i want to like work really，
+[Speaker 0]:  really well with，
+[Speaker 0]:  like all the biggest，
+[Speaker 0]:  most boring，
+[Speaker 0]:  most black in the oof of user zus companies。
+[Speaker 0]:  because i think that they are the best position to know what worklows to automate。
+[Speaker 0]:  what do people need like？
+[Speaker 0]:  that's what what their reitain butteris。
+[Speaker 0]:  and to spend the big that，
+[Speaker 0]:  you know，
+[Speaker 0]:  software is always is a cap x investment now，
+[Speaker 0]:  but like you spend it ahead of time in order to make this experience even better，
+[Speaker 0]:  that gets，
+[Speaker 0]:  you know，
+[Speaker 0]:  like distribution to all of that massive users。
+[Speaker 0]:  so i think that it's gonna be i i'm going to forecast anything about the financial markets。
+[Speaker 0]:  but i think for as far as like a capabilities 's games goes，
+[Speaker 0]:  it's going to be like an inverse seaspocolypse。
+[Speaker 0]:  and i am so just about it，
+[Speaker 0]:  i which i should make a name。
+[Speaker 2]:  yeah，
+[Speaker 2]:  yeah，
+[Speaker 2]:  a name。
+[Speaker 2]:  that's a polluser。
+[Speaker 1]:  oh，
+[Speaker 0]:  that's a little too fun。
+[Speaker 2]:  well，
+[Speaker 2]:  all the sass applications are going，
+[Speaker 2]:  all the sun get like dramatically more useful。
+[Speaker 2]:  and by the way，
+[Speaker 2]:  you know，
+[Speaker 2]:  the kind of capital investment，
+[Speaker 2]:  like so much of a of a sass companyies capital investment is like actually getting told the customers。
+[Speaker 2]:  and so if you got't heall the customers ers，
+[Speaker 2]:  then you make，
+[Speaker 2]:  you know，
+[Speaker 2]:  not just put a chat out on your your asas product，
+[Speaker 2]:  but actually make the software like way weight better。
+[Speaker 2]:  um that's a hell a thing。
+[Speaker 0]:  i don't know if this is a realistic dream。
+[Speaker 0]:  er not，
+[Speaker 0]:  but i think that there's a world where like the multii choice choice forms just to disappear，
+[Speaker 0]:  you know，
+[Speaker 0]:  like like，
+[Speaker 0]:  i feel like they yeah like y're always like something mapping natural language that usually the software already has into，
+[Speaker 0]:  like a jaz like output。
+[Speaker 0]:  and it's sliterly。
+[Speaker 2]:  it's literally from the eighty。
+[Speaker 2]:  it's it's like it's called risk acled led four GS。
+[Speaker 2]:  you rean the first generation language，
+[Speaker 2]:  yeah。
+[Speaker 0]:  actually。
+[Speaker 0]:  also，
+[Speaker 0]:  i think this is from eighis。
+[Speaker 0]:  as might be an insult。
+[Speaker 0]:  i was in point then um that like i think that do what i mean is going to like be taken into the absolute next year。
+[Speaker 0]:  if i should shut out one jeff application，
+[Speaker 0]:  i don't know it's reliabal。
+[Speaker 0]:  so i can't promise anything，
+[Speaker 0]:  but it was so freaking cool。
+[Speaker 0]:  someone was using like a voice to control your computer，
+[Speaker 0]:  and it was basically constantly making decisions unlike。
+[Speaker 0]:  is this a command？
+[Speaker 0]:  or is it inserting taxt or with insertain text like like that sounds？
+[Speaker 0]:  so i believe it believe like like you，
+[Speaker 0]:  i feel like interfaces contect this completely change。
+[Speaker 0]:  and maybe we're going to have to make it like cheep of fassterium。
+[Speaker 2]:  yeah，
+[Speaker 2]:  then you're at star track。
+[Speaker 0]:  wow。
+[Speaker 1]:  you know，
+[Speaker 1]:  this is this just such a profound intuition here，
+[Speaker 1]:  which is um yeah，
+[Speaker 1]:  if if you use AI today to generate software，
+[Speaker 1]:  right，
+[Speaker 1]:  you're such clean the the same suffered that you did before。
+[Speaker 1]:  but if we actually look at like the average PR for a large company is like ten lines，
+[Speaker 1]:  right？
+[Speaker 1]:  seriously。
+[Speaker 1]:  no，
+[Speaker 0]:  yeah，
+[Speaker 1]:  we actually did the study says，
+[Speaker 1]:  like ten lines。
+[Speaker 1]:  so youlike，
+[Speaker 1]:  you're auating ten lines es。
+[Speaker 1]:  by the way，
+[Speaker 1]:  those ten lines are are like you're part of learning from a customer or something。
+[Speaker 1]:  so like youyou kind of optimize something that actually pretty minimal。
+[Speaker 1]:  um but what it doesn't do is provide new capabilities to the suftware，
+[Speaker 1]:  right？
+[Speaker 1]:  it's kind of automating this thing，
+[Speaker 1]:  which in the limit ends up being relatively minor。
+[Speaker 1]:  and now like there's actually new capability。
+[Speaker 1]:  and so like it could just be the case，
+[Speaker 1]:  it just suffefer just actually gets yeah，
+[Speaker 1]:  but but i didn't before jeavor just dididn't want occur to me that like it doesn't matter how much，
+[Speaker 1]:  you know AI cutting agent to use the suoftware action isn't tting tting better。
+[Speaker 1]:  maybe you're ready to get faster。
+[Speaker 1]:  it's i got usually getting worse just because like there's that's oversight。
+[Speaker 1]:  so i think this is well，
+[Speaker 2]:  i'm i'm often and more insecure yeah for sure for sure。
+[Speaker 1]:  but you're but you're actually now can make an argument like like like like absoluhave new functionalities as a result of discusthis。
+[Speaker 1]:  this new primitive that youproviproviding immeing like in in a way like it speaks natural languages，
+[Speaker 1]:  and it can reason，
+[Speaker 1]:  but it maries that to a state machine。
+[Speaker 0]:  i if people take that，
+[Speaker 0]:  does it take away。
+[Speaker 0]:  that would be like the greatest compliment ever to what we are doing，
+[Speaker 0]:  like actually feel like it's almost two grand of a vision to expand beyond the three logic gates that we have into。
+[Speaker 0]:  like you know，
+[Speaker 0]:  our types are kind of like one of the same logic。
+[Speaker 0]:  but like one，
+[Speaker 0]:  that's like a little brain in there，
+[Speaker 0]:  like that would be the greatest compliment to like that。
+[Speaker 0]:  the types safe legacy because like that is that's a very huge nontrivial huge thing for the world。
+[Speaker 0]:  um i'm not going。
+[Speaker 0]:  i like over promise under deliver that，
+[Speaker 0]:  but i will fight for that。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i melisten。
+[Speaker 1]:  i mean，
+[Speaker 1]:  is，
+[Speaker 1]:  i think pretty open questions to what like how deep can disscget as far as like，
+[Speaker 1]:  like，
+[Speaker 1]:  really serious stuff，
+[Speaker 1]:  like stay consistency or dderabability，
+[Speaker 1]:  or like real systems of all stuff，
+[Speaker 1]:  where you actually need to like provide strong guarantees。
+[Speaker 1]:  and so a hundred percent。
+[Speaker 1]:  this will change things i could ever analyzing lots analyzing emails，
+[Speaker 1]:  providing AUI talking to the human like that for sure。
+[Speaker 1]:  but like you know，
+[Speaker 1]:  you could aryou that over time，
+[Speaker 1]:  this becomes like a smart data base，
+[Speaker 0]:  you know，
+[Speaker 2]:  and and all air traffic control system。
+[Speaker 2]:  i have anything which we really，
+[Speaker 2]:  really need a little scary，
+[Speaker 0]:  like，
+[Speaker 0]:  i think it botomomate the easy work before the hidwork is always my my labut。
+[Speaker 0]:  i also think there's going to be like an an entierror of probably sick programming that's opened up like my，
+[Speaker 1]:  why don't you know？
+[Speaker 1]:  it's a huge history problems about right？
+[Speaker 1]:  like i basically died，
+[Speaker 0]:  and like the seventies and the million year with it，
+[Speaker 0]:  i actually think it's going to be like with the same likes。
+[Speaker 0]:  you could also calall ge like nurse，
+[Speaker 0]:  your your cave，
+[Speaker 2]:  your your cogh and air came from that background。
+[Speaker 2]:  you was sunday，
+[Speaker 2]:  oh，
+[Speaker 2]:  prepretty beijum，
+[Speaker 0]:  oh，
+[Speaker 0]:  yes，
+[Speaker 0]:  yeah，
+[Speaker 0]:  yes，
+[Speaker 0]:  a lot。
+[Speaker 0]:  it did it goes up and down。
+[Speaker 0]:  yeah，
+[Speaker 0]:  but like what i mean is a more。
+[Speaker 0]:  i'm not a fan，
+[Speaker 0]:  my brande's pragmatism fedable paggticism。
+[Speaker 0]:  i'm not a fan of like biologically inspired stuff at at all ever ver。
+[Speaker 0]:  wori know，
+[Speaker 0]:  i think think never works。
+[Speaker 0]:  it's useful to motivate，
+[Speaker 0]:  ate crazy people to work on things for decades until it works。
+[Speaker 0]:  and then they refinit into like the engineerers，
+[Speaker 2]:  it's the story that no，
+[Speaker 0]:  no matts for yeah。
+[Speaker 0]:  but like you know，
+[Speaker 0]:  a lot of the stories about how it worked，
+[Speaker 0]:  were not accurate rivacy。
+[Speaker 0]:  so like the hierarchical features of applications really did end up working because otherwise resonts wouldn't it work longer story？
+[Speaker 0]:  um i do think that it opens up。
+[Speaker 0]:  like like from a system perspective，
+[Speaker 0]:  i'm not excited about this part because it's really i'm excited for the world，
+[Speaker 0]:  not about me programming this because sounds like really complicated。
+[Speaker 0]:  no，
+[Speaker 0]:  but i think that as we have，
+[Speaker 0]:  like lots of intelligence at lots of us，
+[Speaker 0]:  like different cost in speed tradeofs。
+[Speaker 0]:  the super systems y types will be be making tradeofs at like new，
+[Speaker 0]:  like jebis going to be like a thousand times。
+[Speaker 0]:  so smart than they，
+[Speaker 0]:  they just like like an approximate early ying to have an approximate guests to like optimately around here。
+[Speaker 0]:  and there it's ggoing a be like so crazy，
+[Speaker 0]:  but this type stuff that's available in the extreme systems。
+[Speaker 1]:  and and the genneis we get to like rebuild systems again，
+[Speaker 1]:  which is great，
+[Speaker 1]:  great。
+[Speaker 1]:  we have a new persious。
+[Speaker 1]:  we have a new primary。
+[Speaker 1]:  it's had a new thing that are doing software。
+[Speaker 1]:  like，
+[Speaker 1]:  i mean，
+[Speaker 1]:  we did this。
+[Speaker 1]:  we did this。
+[Speaker 1]:  the internet。
+[Speaker 1]:  there's been friend to cliits over room，
+[Speaker 1]:  and we do this bioically。
+[Speaker 2]:  and and by the way，
+[Speaker 2]:  just because of the um cyber security issues，
+[Speaker 2]:  we probably have to rebuild almost all the systems uh to just make them safe。
+[Speaker 2]:  uh。
+[Speaker 1]:  i would think i think it's pretty clear that there like there re's doubt，
+[Speaker 2]:  or at least that critical yeah，
+[Speaker 2]:  the critical infrastructure ture for sure，
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah。
+[Speaker 1]:  do you think about this more in terms of like apps，
+[Speaker 1]:  saas analytics or more in turn to like systems foundations or all the above for what i would think of or how just general application for the same when you think about，
+[Speaker 1]:  like like you're working on jaz？
+[Speaker 1]:  and like and you kind of envision the people are adapting it，
+[Speaker 1]:  like how and you know，
+[Speaker 1]:  like，
+[Speaker 1]:  oh，
+[Speaker 1]:  maybe you even have an opinion，
+[Speaker 0]:  i have a little bit and it。
+[Speaker 0]:  so the way i think of it is a little，
+[Speaker 0]:  like uh，
+[Speaker 0]:  like deep into，
+[Speaker 0]:  like the TCP gots，
+[Speaker 0]:  you know，
+[Speaker 0]:  like AUDPTCP，
+[Speaker 0]:  you know，
+[Speaker 0]:  like it's unreliable，
+[Speaker 1]:  it's reliable able，
+[Speaker 0]:  like i like，
+[Speaker 0]:  i think，
+[Speaker 0]:  like when i think AAI，
+[Speaker 0]:  and this is why i care about intelligence per dollar to be good when i think and and how i got this conclusions。
+[Speaker 0]:  so i work backwards from AI based economic revolution，
+[Speaker 0]:  AI everywhere，
+[Speaker 0]:  you know，
+[Speaker 0]:  size and everything，
+[Speaker 0]:  like all the software SAI over the place。
+[Speaker 0]:  and i ask myself the question，
+[Speaker 0]:  what percentage of the calls to AI imagine it's like a function，
+[Speaker 0]:  which what percentatage like for a human consumption where you need a siyle。
+[Speaker 0]:  it was yeah。
+[Speaker 0]:  and it's could be like many nines。
+[Speaker 0]:  and actually from that same question，
+[Speaker 0]:  how many will be at the first layer versus like deep in the guts here？
+[Speaker 0]:  right？
+[Speaker 0]:  and i think that it's going to be many nghof the guts，
+[Speaker 0]:  but it will start at the first layer。
+[Speaker 0]:  but like we need to，
+[Speaker 0]:  if you don't aim for the guts，
+[Speaker 0]:  right？
+[Speaker 0]:  that's that's we're you。
+[Speaker 0]:  you aim for the guts。
+[Speaker 0]:  yeah，
+[Speaker 0]:  it's it's going to take you a while to get there。
+[Speaker 0]:  mit，
+[Speaker 1]:  right？
+[Speaker 1]:  i think people don't understand to what extent like AI was kind of ships in the night was software like，
+[Speaker 1]:  even if you try to win bed，
+[Speaker 1]:  ai and software，
+[Speaker 1]:  i kind of like didn't behave，
+[Speaker 1]:  right？
+[Speaker 1]:  because software doesn't really take natural language。
+[Speaker 1]:  and think i do all this weird stuff like you sick at the problem。
+[Speaker 1]:  here's the jay，
+[Speaker 1]:  and i'll put that you want，
+[Speaker 1]:  and here's a scheme，
+[Speaker 1]:  and it would never listen to it。
+[Speaker 1]:  and so and so you ended up doing just taking the output and giving it their human and ID with it right or another another elethat。
+[Speaker 0]:  that is what a willoop p is like，
+[Speaker 0]:  yeah agent ililloop you like，
+[Speaker 0]:  it's like properse principles。
+[Speaker 0]:  it needs to be human in the loop，
+[Speaker 0]:  which is cat yeah or an agent，
+[Speaker 0]:  which is the wild ple。
+[Speaker 0]:  because because like that is better language needs be fed back in yeah。
+[Speaker 1]:  and i will say i have watched this。
+[Speaker 1]:  and was that almost like this kind，
+[Speaker 1]:  like like five ges ges of greree，
+[Speaker 1]:  you don't like，
+[Speaker 1]:  you know，
+[Speaker 1]:  people pick up AI，
+[Speaker 1]:  like i'm in the usof，
+[Speaker 1]:  you know，
+[Speaker 1]:  with in my software，
+[Speaker 1]:  right？
+[Speaker 1]:  and then you know，
+[Speaker 1]:  when i go with，
+[Speaker 1]:  like，
+[Speaker 1]:  you know，
+[Speaker 1]:  whatever denial，
+[Speaker 1]:  i try to make it work，
+[Speaker 0]:  work like anger，
+[Speaker 0]:  thethey。
+[Speaker 1]:  they go to acceptance，
+[Speaker 1]:  which is like，
+[Speaker 1]:  okay，
+[Speaker 1]:  never mind。
+[Speaker 1]:  i'm just going to give this another eleam to a human being。
+[Speaker 1]:  so i spent very shifts in the night。
+[Speaker 1]:  i think this is the first time i have seen，
+[Speaker 1]:  but somewas like，
+[Speaker 1]:  actually，
+[Speaker 1]:  you can take it out of them。
+[Speaker 1]:  you can take a ee。
+[Speaker 1]:  you can actually take it out to like like a state machine，
+[Speaker 1]:  and you can do that prproductively。
+[Speaker 0]:  and i hope so i will not want to over promise under deliver as well。
+[Speaker 0]:  like i don't know if it's ready for all all be applicate。
+[Speaker 0]:  so that have been overpromised。
+[Speaker 0]:  i really really wanted to and my team 'll fight for that。
+[Speaker 0]:  obviously，
+[Speaker 0]:  like we really really care about reliability。
+[Speaker 0]:  we could have released so much tooter。
+[Speaker 0]:  i don't think people realize that。
+[Speaker 0]:  and i don't think that honestly，
+[Speaker 0]:  i don't think that they will based on what i've see of the twitter discussion。
+[Speaker 0]:  i think it's the will never get it，
+[Speaker 0]:  but like it'll just have like that good vibe of like how i can trust this。
+[Speaker 2]:  so but it's speaking out i frustration machine。
+[Speaker 0]:  yeah，
+[Speaker 0]:  it's it's i hope。
+[Speaker 0]:  so i hope do what i mean，
+[Speaker 0]:  right？
+[Speaker 0]:  thanks to me，
+[Speaker 0]:  that is about like smoothess，
+[Speaker 0]:  the the world having ving everything，
+[Speaker 0]:  just just move more smoothly together and interink like a geears。
+[Speaker 0]:  i actually have my hole like AI eutopia on like different aces that i really really want。
+[Speaker 0]:  and like do what i mean，
+[Speaker 0]:  it's a huge party lithis。
+[Speaker 0]:  you know，
+[Speaker 0]:  like，
+[Speaker 0]:  imagine if all technology just did what you mean that is like that's not safe。
+[Speaker 0]:  i look how smart AI is right？
+[Speaker 2]:  yeah，
+[Speaker 2]:  no，
+[Speaker 2]:  it's it's amazing。
+[Speaker 2]:  and and maybe that's the thought to close on，
+[Speaker 2]:  do what i mean that love。
+[Speaker 2]:  thank you。
+[Speaker 2]:  you got to thank a great conversation。
+[Speaker 2]:  yeah，
+[Speaker 2]:  children。
