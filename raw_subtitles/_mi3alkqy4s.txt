@@ -1,0 +1,472 @@
+[Speaker 1]:  hello，
+[Speaker 1]:  everybody。
+[Speaker 1]:  thank you for following on a session about the death of the code of view，
+[Speaker 1]:  with the session about the death of the code of view，
+[Speaker 1]:  um who knows how scheduling decisions get made，
+[Speaker 1]:  but um switch decided it would be funny for those two to be back to back。
+[Speaker 1]:  uh um i'm i'm sorry，
+[Speaker 1]:  i'm head of developed relations that a rise AI。
+[Speaker 1]:  uh，
+[Speaker 1]:  some of you may remember me from when i used to cofound MPM ink these days。
+[Speaker 1]:  i think about，
+[Speaker 1]:  uh，
+[Speaker 1]:  i'm how to test it。
+[Speaker 1]:  uh，
+[Speaker 1]:  i'm here to talk about a problem that everyone is seeing right now。
+[Speaker 1]:  the rise of ai agents has dramatically increased how fast developers can produce code um but the speed at which humans can review code。
+[Speaker 1]:  um yeah，
+[Speaker 1]:  i am having a talk right now。
+[Speaker 1]:  thank you。
+[Speaker 1]:  no，
+[Speaker 1]:  she have a very good londer。
+[Speaker 1]:  uh the team speeter，
+[Speaker 1]:  which humans can review code the state exactly the same um and that crecreating new bottm neck that everybody is feeling engineering teams across the industry of feeling it。
+[Speaker 1]:  um so what can we do about it？
+[Speaker 1]:  some options are，
+[Speaker 1]:  uh，
+[Speaker 1]:  we could skget human review entirely。
+[Speaker 1]:  uh，
+[Speaker 1]:  some folks are trying that can we automate reviews reliable？
+[Speaker 1]:  some folks are trying that too。
+[Speaker 1]:  uh，
+[Speaker 1]:  what we're doing going to do today。
+[Speaker 1]:  what i'm going to do for you is i'm going to look at what the industry is really doing right now and try to figure out what you can do today when you leave the room。
+[Speaker 1]:  so let's start with two numbers recently。
+[Speaker 1]:  three economists tracks more than one hundred thousand to get thbb developers match them against teletary that showed exactly when each one started using ai the developers who turned on economomous agenciy wrote seven hundred and forty one percent more code，
+[Speaker 1]:  but only thirty percent more software shit。
+[Speaker 1]:  uh，
+[Speaker 1]:  that is the scale of the problem right there。
+[Speaker 1]:  they were writing codinarly eight times faster，
+[Speaker 1]:  but their actual ships after are only rose by a third um and the authors of the study are blunt that review was the bottleback。
+[Speaker 1]:  um the problem is that the root two production still runs through humans um and the human steps，
+[Speaker 1]:  in particular a code review，
+[Speaker 1]:  choke everything thing down stream um producing code is suddenly a whole lup cheaper，
+[Speaker 1]:  knowing whether to trust it is still very expensive，
+[Speaker 1]:  especially if you have um sensitive code with the blast gradius。
+[Speaker 1]:  how can we bring that？
+[Speaker 1]:  second number down and thus bring this the amount of software that we ship back into line with the amount that we can code。
+[Speaker 1]:  let's zoom out。
+[Speaker 1]:  first，
+[Speaker 1]:  let's be cleared。
+[Speaker 1]:  the problem is real generation is no longer about the neck strike in anthropicics launch materials for fabal。
+[Speaker 1]:  this year reported migrating a fifty million line ruby cobits in a single day，
+[Speaker 1]:  uh，
+[Speaker 1]:  which is work that they estimated would take over two months for ourteen um bun，
+[Speaker 1]:  which is now part of hththropic reported that they migrated over a million lines of zig uh to rest in six days。
+[Speaker 1]:  uh and courcourall of this in this terroom of feeling is on a smaller scale。
+[Speaker 1]:  our agents are generating whole apps，
+[Speaker 1]:  and we're just sort of hitting the merge button and feeling guilty about the fact that we haven't read these code difts。
+[Speaker 1]:  and we're just sort of hoping that it works。
+[Speaker 1]:  um we can't possibly keep on going like that。
+[Speaker 1]:  um so be obvious answer and the answers some people are trying。
+[Speaker 1]:  is you just review more？
+[Speaker 1]:  you take people whose job was previously to review code as well as red code and just a review code。
+[Speaker 1]:  all the time。
+[Speaker 1]:  this is is your job now um and that doesn't work um party because that's really boring。
+[Speaker 1]:  and those people burn out really fast。
+[Speaker 1]:  um but also the numbers say that we can't um the best that we having this was done um two decades ago at cisco。
+[Speaker 1]:  um over ten months，
+[Speaker 1]:  they took two and a half thousand reviews。
+[Speaker 1]:  they took three point two million liines code uh。
+[Speaker 1]:  and the study says that reviewers stocked finding defects effectively if they try to read more than four hundred lines of code in one sitting and their effectiveness completely falls off a cliff uh if they try to review more than four hundred and fifty lines of code in an hour。
+[Speaker 1]:  um h，
+[Speaker 1]:  you，
+[Speaker 1]:  you do the math on that。
+[Speaker 1]:  mean，
+[Speaker 1]:  that means that a thousand thousand lion agent flu request at that pace would take three or four working days to get a real human review。
+[Speaker 1]:  that is one poll request from one agent。
+[Speaker 1]:  ten thousand lines is um absolutely，
+[Speaker 1]:  you know，
+[Speaker 1]:  absolutely of an expecctable number of of lines of code forein agent that is doing a lot of work for you。
+[Speaker 1]:  um and a developer can now run a dozen agents at once，
+[Speaker 1]:  um though，
+[Speaker 1]:  though ttend to be suspicious of the people who do，
+[Speaker 1]:  um so we can't just review harder。
+[Speaker 1]:  and we're all feeling that too，
+[Speaker 1]:  the people who are trying to review harder burning themselves out。
+[Speaker 1]:  so what is the alternative？
+[Speaker 1]:  uh，
+[Speaker 1]:  some people have decided to just stop reading the code entirely。
+[Speaker 1]:  um peter steambergo，
+[Speaker 1]:  who is the creator opopen cloh，
+[Speaker 1]:  says that you shouldn't proprompting cococoagents anymore，
+[Speaker 1]:  you should be designing the loops that prompter agents。
+[Speaker 1]:  andrew krop pathy，
+[Speaker 1]:  who is one of open AI spounding engineers，
+[Speaker 1]:  has made the same argument about taking yourself out of the loop because the human in the loop is holding the system back um。
+[Speaker 1]:  but this goes beyond bold claims on twitter。
+[Speaker 1]:  uh in february this year，
+[Speaker 1]:  open i publishing account of building an internal product，
+[Speaker 1]:  uh with in their words，
+[Speaker 1]:  no manually written code。
+[Speaker 1]:  they started with a completely empty repository um and agents wrote everything。
+[Speaker 1]:  five months later，
+[Speaker 1]:  they had about a million lines of code，
+[Speaker 1]:  about fifteen hundred merged poder requests，
+[Speaker 1]:  poll requests，
+[Speaker 1]:  uh。
+[Speaker 1]:  and they don't used three engineers to do this，
+[Speaker 1]:  uh even the scaffolding of the agent to review the agent and step like that was also written by agents。
+[Speaker 1]:  what they said was，
+[Speaker 1]:  humans may review pull requests，
+[Speaker 1]:  but they are not required to。
+[Speaker 1]:  we've pushed almost all review effort towards being handled the agent to agent。
+[Speaker 1]:  i think the interesting thing about the opening i experiment is that they did not tell us what product did，
+[Speaker 1]:  and they did not review an open。
+[Speaker 1]:  they did not release an open source product saying，
+[Speaker 1]:  and this is how we did it。
+[Speaker 1]:  and this is how you should do it，
+[Speaker 1]:  which suggests to me that there are still holes in that strategy，
+[Speaker 1]:  but it is one possibility。
+[Speaker 1]:  if open s open AI says that you can do it，
+[Speaker 1]:  maybe you can do it。
+[Speaker 1]:  but one post so eight open AI says，
+[Speaker 1]:  that's one thing you can do the bet there is that loop design substitutes for inspection，
+[Speaker 1]:  whether you can build a loop that is good enough。
+[Speaker 1]:  uh h rereall of the ocopyou depends entirely on what the loop can see um，
+[Speaker 1]:  but that is an enormous caabet。
+[Speaker 1]:  what exactly can the loop see？
+[Speaker 1]:  and is it reliable enough to do coreviews for years？
+[Speaker 1]:  the industry's proxy for uh reliable for quality has been whether the test sts passed um because that is what the benchmarks measured in march。
+[Speaker 1]:  this year，
+[Speaker 1]:  um a research group called meter we''probprobably heard before um tested that proxy directly，
+[Speaker 1]:  they hired four active maintainers of open source projects uh from the same open source projects that sweet bench tests agast st。
+[Speaker 1]:  they got them them。
+[Speaker 1]:  look at uh PS that had already passed。
+[Speaker 1]:  sweet bench is greder，
+[Speaker 1]:  so sweet bench said。
+[Speaker 1]:  this poll request is，
+[Speaker 1]:  is good enough to merge，
+[Speaker 1]:  and they got the open source reviewers to look at exacting the same PR and say，
+[Speaker 1]:  is it really good enough to merge？
+[Speaker 1]:  and it was only good enough to merge about half of the time。
+[Speaker 1]:  um and the failures weren't about prerectnness because obviously，
+[Speaker 1]:  the pr were passing all the tests，
+[Speaker 1]:  they were about code quality，
+[Speaker 1]:  and they were about changes that quiebrought other code things external to the test sweet。
+[Speaker 1]:  uh one cobeat that media menchanons is that the agents got no chance to iterate on feedback。
+[Speaker 1]:  so a human contributor，
+[Speaker 1]:  obviously，
+[Speaker 1]:  being told that there are PR is going to get emerge，
+[Speaker 1]:  get enough to go it。
+[Speaker 1]:  they can take another swim um but that caveup doesn't really isn't really relevant to our purposes because that's just putting a human in the loop。
+[Speaker 1]:  and what we're trying to see is whether or not we can take the human out of the the loop entire um cognition，
+[Speaker 1]:  the makers of devon built a benchmark around the maintainers。
+[Speaker 1]:  actual question，
+[Speaker 1]:  which is，
+[Speaker 1]:  would you emerge this？
+[Speaker 1]:  they called it frontier code，
+[Speaker 1]:  and they launchit it in une。
+[Speaker 1]:  um more than twenty maintainors，
+[Speaker 1]:  built one hundred and fifty tasks from their own apositries，
+[Speaker 1]:  each one over forty hours of expert work from two bench，
+[Speaker 1]:  c grades behavioral，
+[Speaker 1]:  correcttness，
+[Speaker 1]:  regression，
+[Speaker 1]:  safety，
+[Speaker 1]:  scope，
+[Speaker 1]:  discipline，
+[Speaker 1]:  test，
+[Speaker 1]:  quality and maintainability。
+[Speaker 1]:  this is a human review rubric，
+[Speaker 1]:  uh machine，
+[Speaker 1]:  ine，
+[Speaker 1]:  checkable。
+[Speaker 1]:  um and what they found was that fabl five before it pupoled。
+[Speaker 1]:  and then unpoled uh scores eighty eight percent on three bench pro，
+[Speaker 1]:  but only twenty nine percent on the hardest slice of uh frontier code。
+[Speaker 1]:  so the same model on the same surface with the same job does fifty one one inints uh less well，
+[Speaker 1]:  if you are asking not does it pass the tests，
+[Speaker 1]:  but whether or not you would actually emerge the result？
+[Speaker 1]:  and this isn't one model having a bad day on the same set tetests GPT five point five scores under six percent。
+[Speaker 1]:  so the strongest models we have are nown near passing human review relidly。
+[Speaker 1]:  so somebody has to write down what merggble actually means。
+[Speaker 1]:  that is it's clear that we haven't done that yet。
+[Speaker 1]:  the moment they do something will happen。
+[Speaker 1]:  sarah group，
+[Speaker 1]:  who is prominent investor in AI，
+[Speaker 1]:  wrote about it and said that solving that solving for that benchmark，
+[Speaker 1]:  a benchmark of genuine emergability um will be a critical turning point in the development of coding models。
+[Speaker 1]:  um in the essay where she was talking about this，
+[Speaker 1]:  she made clear white models got so good so fast。
+[Speaker 1]:  a generating code。
+[Speaker 1]:  and that is because a compiler is a free verifier。
+[Speaker 1]:  a test sweet is a free verifier。
+[Speaker 1]:  and anything that you can verify cheaply，
+[Speaker 1]:  you can train against until you beat it。
+[Speaker 1]:  and that is what is been happening um at the major model trainers，
+[Speaker 1]:  uh AA benchmark emergability。
+[Speaker 1]:  if we could，
+[Speaker 1]:  if we could make one，
+[Speaker 1]:  wouldn't only be a measurement，
+[Speaker 1]:  it would immediately become a training signal for the frontier models，
+[Speaker 1]:  which means maintainability scope，
+[Speaker 1]:  discipline，
+[Speaker 1]:  regressave safety。
+[Speaker 1]:  the moment somebody comes up with reliable test for those。
+[Speaker 1]:  the big models will be trained on them um and whoever writes today's review standard is writing next year's default model behavior。
+[Speaker 1]:  uh。
+[Speaker 1]:  we have some prior art here，
+[Speaker 1]:  knowing we have seen this happen already。
+[Speaker 1]:  uh，
+[Speaker 1]:  which is that in twenty twenty four，
+[Speaker 1]:  open air，
+[Speaker 1]:  ir trained，
+[Speaker 1]:  the model called triticc GPT to catch buzs in model written code，
+[Speaker 1]:  um human reviews working on it，
+[Speaker 1]:  beat the model alone and the human alone。
+[Speaker 1]:  um so open AI built a model to review the models in order to clean the training，
+[Speaker 1]:  and i created a training signal that's now built into the models。
+[Speaker 1]:  it made the models better，
+[Speaker 1]:  almost instantly，
+[Speaker 1]:  but emeritability standards are still in the future。
+[Speaker 1]:  right now。
+[Speaker 1]:  we do not have a good rubicc that captures everything that a human decides。
+[Speaker 1]:  uh，
+[Speaker 1]:  to uh consider，
+[Speaker 1]:  they're deciding whether ther something is mergible。
+[Speaker 1]:  and i promise to you that you can do today。
+[Speaker 1]:  uh so who is actually running automated review right now？
+[Speaker 1]:  um one company company get get good，
+[Speaker 1]:  get hope is uh copilot's revieuh done，
+[Speaker 1]:  sixteen million reviews，
+[Speaker 1]:  and now accounts more than one in five um code rerews on all of gihot。
+[Speaker 1]:  so machine review of clull request is the mainstream default。
+[Speaker 1]:  um on the world's largest code host that is more than an experiment that is a large production。
+[Speaker 1]:  uh a large production deployment。
+[Speaker 1]:  um cursr is also doing an enormous amount of code view。
+[Speaker 1]:  cursr uh has published its reviewers，
+[Speaker 1]:  architecture ture。
+[Speaker 1]:  so we know how they're doing this um and the details tell you what the job really is。
+[Speaker 1]:  the first version of their reviewer um would run eight review passes over each diff，
+[Speaker 1]:  um then shuffle the order of the reviewers h to review the code again and again，
+[Speaker 1]:  because shul，
+[Speaker 1]:  in which she did，
+[Speaker 1]:  those reviews changed the outcome of those reviews。
+[Speaker 1]:  what they were doing was filtering for false positive because a reviewer and automated reviewer that flags something is bad when it's actually good uh is going to get ignored。
+[Speaker 1]: 嗯，
+[Speaker 1]:  um and it's not just cursor who's doing this。
+[Speaker 1]:  there's research about it。
+[Speaker 1]:  um a team of peaking university test ted，
+[Speaker 1]:  the same idea independently rn seseveral review passes。
+[Speaker 1]:  see keep what they agree on um and they found that it raise review quality by up to forty four percent。
+[Speaker 1]:  uh，
+[Speaker 1]:  the multipast trick keeps getting rediscovered because um false positive of the thing that killer reviewer and it actually works。
+[Speaker 1]:  so then cursa rebuilt uh their code reviewer um so that the model reasons over the death calls tools and decides where to dig。
+[Speaker 1]:  and my favorite detail from the rebuild uh was that they had to tell the model to be more suspicious of the code。
+[Speaker 1]:  uh the model tended to look at the code and and say，
+[Speaker 1]:  well，
+[Speaker 1]:  that looks good to me shippep it，
+[Speaker 1]:  which is exactly what a human would do in that situation。
+[Speaker 1]:  uh it had to tell it don't trust the code by deault。
+[Speaker 1]:  as soon，
+[Speaker 1]:  there is something wrong with it。
+[Speaker 1]:  um and somewhere in that sentence is a whole is a whole。
+[Speaker 1]:  talk about what a good review actually is。
+[Speaker 1]:  um it is about being suspicious by default。
+[Speaker 1]:  um the next thing that happens that review is starting to fuse with repair and ses reviewer announce sponds of fix agent from its own findings。
+[Speaker 1]:  it doesn't just flagged the bug，
+[Speaker 1]:  and it writes a hah，
+[Speaker 1]:  and it it has。
+[Speaker 1]:  ds，
+[Speaker 1]:  you uh，
+[Speaker 1]:  a dift to approve。
+[Speaker 1]:  you are proving that deff is obviously another code isn't another human in the loop，
+[Speaker 1]:  but we don't want humans in the loop。
+[Speaker 1]:  the next thing curcura wants to do is the review wer running the code to prove its own bug report is real。
+[Speaker 1]:  the line between reviewing and rewriting is getting very thin indeed um and give have in curdit by no means the only vendors getting into this game and is um getting very crowded in there there re's a ton of companies in the fields。
+[Speaker 1]:  the only rabbit is the largest dedicated reviewer has now review of a thirty million pool requests。
+[Speaker 1]:  uh graptile builds a graph of your whole of your whole repository said that the reviewer can see how a change lands in distant code。
+[Speaker 1]:  uh graphight builds evaluation set from which of its own suggestions developers accept or reject um h。
+[Speaker 1]:  the thing to notice um about what every one of them is doing is that all of them are using the same metric as their definition of success，
+[Speaker 1]:  which is is a human accepting my answer。
+[Speaker 1]:  uh cursul calls it the resolution rate，
+[Speaker 1]:  and it has driven it from fifty two percent to over seventy percent。
+[Speaker 1]:  um the reviews are trained on human，
+[Speaker 1]:  except projection judge。
+[Speaker 1]:  when every day at scale，
+[Speaker 1]:  they are trained their harnesses to get better at the definition of good as defined by human acceptance。
+[Speaker 1]:  that is a preview of what the models are going to do，
+[Speaker 1]:  accept these companies have already shipped it。
+[Speaker 1]:  so the status quote is you can generate code automatically。
+[Speaker 1]:  you can review the code automatically，
+[Speaker 1]:  but human still need to review the the reviews。
+[Speaker 1]:  can you skip that part entirely？
+[Speaker 1]:  can you get the human entirely out of the loop？
+[Speaker 1]:  uh there are two proonlar projects that i've that have tried so far that i've heard，
+[Speaker 1]:  uh in february this year and thropics niciclas carcoliny had sixteen agents built AC compiler from scratch in rest。
+[Speaker 1]:  uh it was able to compile the linux kernel across about two thousand sessions，
+[Speaker 1]:  with no human in the loop。
+[Speaker 1]:  but if you read that experiment closely，
+[Speaker 1]:  um，
+[Speaker 1]:  it's true that there was no human looloop。
+[Speaker 1]:  um no human approving the code as it was written。
+[Speaker 1]:  but there was absolutely a human on the loop，
+[Speaker 1]:  the system，
+[Speaker 1]:  um that reviewed the code，
+[Speaker 1]:  the system that checked，
+[Speaker 1]:  whether the code was doing what it was supposed to do。
+[Speaker 1]:  all of that um was written by a human。
+[Speaker 1]:  the test test time is the feedback systems。
+[Speaker 1]:  all of that stuff。
+[Speaker 1]:  it was automated testing with tests that took a human to write them um carlein his own warning。
+[Speaker 1]:  when he wrote about it was that it is easy to watch the test's past，
+[Speaker 1]:  assume that the job is done and that it really is another a very widely publzze experiment，
+[Speaker 1]:  which i ask，
+[Speaker 1]:  which i already mentioned briefly and passing was when it bunp ported of its entire ruuntime from zzip to rush。
+[Speaker 1]:  that was about a million lines of code by agents in six days。
+[Speaker 1]:  obviously，
+[Speaker 1]:  no human renent that deff um the game for that experiment was the existing test sweet nine ty point，
+[Speaker 1]:  eight percent of the test sweet passed。
+[Speaker 1]:  so the tested real work。
+[Speaker 1]:  uh，
+[Speaker 1]:  a fun fact about that experiment is that the PR，
+[Speaker 1]:  uh where they um where the agents decided that they they were done with all of the zig code。
+[Speaker 1]:  and they deleted all the zig coded。
+[Speaker 1]:  one giant PR was flagged by another robot，
+[Speaker 1]:  as this is AI slop。
+[Speaker 1]:  you can't possibly delete all of your code，
+[Speaker 1]:  uh，
+[Speaker 1]:  which i thought was a fun aside，
+[Speaker 1]:  but there are some big caveatts on that bn experiment。
+[Speaker 1]:  somebody looks carefully at the ported code，
+[Speaker 1]:  and it has thirteen thousand and forty four unsafe blocks uin，
+[Speaker 1]:  a comparable human written，
+[Speaker 1]:  uh uh rucocode base of that size。
+[Speaker 1]:  you'd see about seventy four。
+[Speaker 1]:  so three orders of magmaitude more more memory unsafe blocks。
+[Speaker 1]:  an unsafe block is a place where the author assearch，
+[Speaker 1]:  rather than proves uh that memory is being handled correctly。
+[Speaker 1]:  so the test we can certify behavior at the public interface。
+[Speaker 1]:  um it cannot certify thirteen thousand assertions that the test week was never designed to look for。
+[Speaker 1]:  so they took humans out of the loop for sure。
+[Speaker 1]:  but there's now knoknown knowing what is looking under the surface of their rust as a result。
+[Speaker 1]:  so let's go back to open the eye who have push this the first list because they show what skipping human review costs。
+[Speaker 1]:  they didn't delete with view。
+[Speaker 1]:  they moved it。
+[Speaker 1]:  uh，
+[Speaker 1]:  dex reviews its own changes，
+[Speaker 1]:  uh then calin more agents to review those reviews in a loop until every agent reviewers satisfied opopening。
+[Speaker 1]:  i make codex bootitable at every single change，
+[Speaker 1]:  so that codex can actually run a copy of cotex。
+[Speaker 1]:  look at it。
+[Speaker 1]:  look at the UI，
+[Speaker 1]:  see if the body's been fixed uh，
+[Speaker 1]:  and they exposed the whole logging stack to the agent um and align from their ridp，
+[Speaker 1]:  says exactly what the cisco study said，
+[Speaker 1]:  which is that when something failed，
+[Speaker 1]:  the fix was almost never to try harder，
+[Speaker 1]:  it didn't work sometimes。
+[Speaker 1]:  and one one detail that you're recognized when your own week is that for a while on this project，
+[Speaker 1]:  they had to spend every friday cleaning up AI slog um by hand as humans。
+[Speaker 1]:  um so that evention didn't scale。
+[Speaker 1]:  and so they trained agents to look for AI slope and get rid of the AI slow review didn't disappear is the lesson of this of of this experiment。
+[Speaker 1]:  it got rebuilt as a system，
+[Speaker 1]:  and that system is built by humans。
+[Speaker 1]:  so，
+[Speaker 1]:  can you skip the human entirely someone who tried it for real？
+[Speaker 1]:  and then changed his mind is dexter fourthuh。
+[Speaker 1]:  he spent six months telling people not to review the code。
+[Speaker 1]:  he famous needed that at AID last year um he told people just ship，
+[Speaker 1]:  let the agent do its thing。
+[Speaker 1]:  um and in march this year on stage 啊，
+[Speaker 1]:  hitit that back ah，
+[Speaker 1]:  he said，
+[Speaker 1]:  i was wrong。
+[Speaker 1]:  please please read the code。
+[Speaker 1]:  we tried not reading the code for like six months。
+[Speaker 1]:  it did not end well。
+[Speaker 1]:  we had to rip out and replace launch parts ts that systestethat that not not a benchmark that is somebody who ran this experiment。
+[Speaker 1]:  real al tried it with real code on a real system。
+[Speaker 1]:  uh and retracted his remarks um open eyyes running，
+[Speaker 1]:  uh live with the results um and reversed in public。
+[Speaker 1]:  um so ceara go uh，
+[Speaker 1]:  the the same right of that i mentioned earlier，
+[Speaker 1]:  talk to why that happens，
+[Speaker 1]:  passing the test。
+[Speaker 1]:  never told you that the change was the right change。
+[Speaker 1]:  it never told you that this module exists because there are three external users of this module。
+[Speaker 1]:  um h never never ld you you。
+[Speaker 1]:  there's re's ccrjob b that nobody will admit to writing that relize on that module existing。
+[Speaker 1]:  um there is context outside of the test sweet that the tests don't uh can't find。
+[Speaker 1]:  so in everything that we've looked at so far，
+[Speaker 1]:  the human um checkpoint that retained it survivive，
+[Speaker 1]:  it is moving around uh，
+[Speaker 1]:  but it is surviving in predictable places。
+[Speaker 1]:  one is where correctness isn't cheap checheckble。
+[Speaker 1]:  another is uh。
+[Speaker 1]:  the blast radios is large in security，
+[Speaker 1]:  conscious environments。
+[Speaker 1]:  every time you tell people owe can just get ria human review。
+[Speaker 1]:  you would get an immediate know。
+[Speaker 1]:  um whever someone has to put their name on the results。
+[Speaker 1]:  um but what's happening is the human role isn't disappearing。
+[Speaker 1]:  it is moving up the stff，
+[Speaker 1]:  possibly several levels of the staff from inspecting the code directly to to design，
+[Speaker 1]:  signing and ununing the systems that inspect the code and designing the definition of good，
+[Speaker 1]:  which raises the obvious question，
+[Speaker 1]:  who reviews those systems。
+[Speaker 1]:  if you built a system that does your reviews for you，
+[Speaker 1]:  how do you do the matter review of your reviewer？
+[Speaker 1]:  um and the answer once surprises you，
+[Speaker 1]:  it is humans。
+[Speaker 1]:  uh anthropic ships and automated security rejex and in its remit，
+[Speaker 1]:  has a huge caviar，
+[Speaker 1]:  uh，
+[Speaker 1]:  which is this action，
+[Speaker 1]:  is not harden against prompt injection attacks um and should only be used to review trusted ps，
+[Speaker 1]:  so and topics code reviewer um can be talked out of its findings by the very thing that it is reviewing um and that is a finding that has been reproduced in study in march。
+[Speaker 1]:  this year reinforced uh vulnerable code dressed up in an innocent commit message，
+[Speaker 1]:  uh full an autonomous ous ressage in eighty eight percent of attempts。
+[Speaker 1]:  um the same attempts um sent to a human reviewer uh passed only thirty five percent of the time。
+[Speaker 1]:  so you you take the human out of loote。
+[Speaker 1]:  um you don't just lose a review or you lose the thing that was hard to fool。
+[Speaker 1]:  so automated reviews fall for confidently framed bad code and confidently framed bad code is exactly the kind of code that agents es are very good at producing that very enlike。
+[Speaker 1]:  this is good，
+[Speaker 1]:  and i am ready um and they h are wrong。
+[Speaker 1]:  sometimes um and the other promise that feel doesn't even agree yet on how to break these breaers。
+[Speaker 1]:  um benchmark scafles es have been caulleaking answers。
+[Speaker 1]:  researchers disagree on how to review quality at all。
+[Speaker 1]:  um which leaves one reviewer that you can't auate and you can skip，
+[Speaker 1]:  which is production。
+[Speaker 1]:  um once the premoge review is all machines watching what the code actually does becomes the last reviewer standing。
+[Speaker 1]:  um once the code ships，
+[Speaker 1]:  the test result stops being the interesting thing，
+[Speaker 1]:  the trajectory does what the system actually did stepped by stanuh when it ran against the real world。
+[Speaker 1]:  um i'm not going to give a pitch for a rise here。
+[Speaker 1]:  there are enough pitches for a rise of this conference。
+[Speaker 1]:  um but if you're shipping automatically reviewed code，
+[Speaker 1]:  then systems in production that review what it actually does in a while become indispspensum。
+[Speaker 1]:  so after all，
+[Speaker 1]:  that evidence，
+[Speaker 1]:  after all of that review，
+[Speaker 1]:  what the world is doing about automated code review is island is is cocode review isn't completely dead，
+[Speaker 1]:  but it is changing enormous and amount。
+[Speaker 1]:  it is being rebuilt as an engineered system。
+[Speaker 1]:  humans are moving from being the engine that drives a code review，
+[Speaker 1]:  reading holine by line uh to its pilots。
+[Speaker 1]:  um and given the numbers that we open with，
+[Speaker 1]:  that is probably the right trade，
+[Speaker 1]:  every layer of that system，
+[Speaker 1]:  the benchmark，
+[Speaker 1]:  the classfie，
+[Speaker 1]:  the rubrik that test wek，
+[Speaker 1]:  the ebails is itself underviewed until somebody decides that，
+[Speaker 1]:  that is their job。
+[Speaker 1]:  and the teams that win the next few years won't be the ones that to generate the most code。
+[Speaker 1]:  they'll be the ones who can say with evidence why they trust what they shift。
+[Speaker 1]:  and i opened by promising you that i would give you with something practical that you could walk away with something you can do today。
+[Speaker 1]:  and that is to stop reviewing PR。
+[Speaker 1]:  um it is the wrong level leve of abstraction for twenty twenty six。
+[Speaker 1]:  your human judment is extremely valuable，
+[Speaker 1]:  but it can be made to scale much further than it is scaling right now。
+[Speaker 1]:  pour your precious time into building。
+[Speaker 1]:  uh，
+[Speaker 1]:  a reliable review harineness qualify your definitions of good your company，
+[Speaker 1]:  context，
+[Speaker 1]:  your domain knowledge，
+[Speaker 1]:  and then crank up the agents to work with that，
+[Speaker 1]:  you can go much faster than one third faster。
+[Speaker 1]:  if you concentrate your efforts higher up the stack overviewers rules and evals。
+[Speaker 1]:  um i hope this look at what the industry is doing today has helped you what to helped you decide what you should do and what to expect next。
+[Speaker 1]:  and thank you so much for your time and detention。
