@@ -1,0 +1,381 @@
+[Speaker 0]:  which economic ideas actually help us understand the world。
+[Speaker 0]:  we're ranking twelve big ideas by what they explain，
+[Speaker 0]:  how well they match reality and where they fall short，
+[Speaker 0]:  a high rank means useful not flawless，
+[Speaker 0]:  first up classical economics。
+[Speaker 0]:  classical economics is about how ical economics becomes wealthier。
+[Speaker 0]:  adam smith explained part of that by looking at how people ororaniied their work。
+[Speaker 0]:  imagine a factory where every worker makes an entire pin from start to finish，
+[Speaker 0]:  each person has to keep changing tools in switching tasks。
+[Speaker 0]:  smith described a different arrangement where one worker draws out the wire，
+[Speaker 0]:  another cuts it，
+[Speaker 0]:  and another attaches the head，
+[Speaker 0]:  each person gets better at their part of the job。
+[Speaker 0]:  so the same group can make far more pins，
+[Speaker 0]:  but we all all that division of labor，
+[Speaker 0]:  but producing more only helps if people want more，
+[Speaker 0]:  what you're making when buyers compete for two few inins，
+[Speaker 0]:  the price can rise。
+[Speaker 0]:  those higher prices，
+[Speaker 0]:  give businesses a reason to make more。
+[Speaker 0]:  and as more pins become available，
+[Speaker 0]:  competition can bring the price back down。
+[Speaker 0]:  smith also understood that this process could break down if a business kept its competitors out。
+[Speaker 0]:  he wasn't assuming that every market would work perfectly。
+[Speaker 0]:  another classical economist，
+[Speaker 0]:  david ricardo explained why countries could benefit from trading with each other。
+[Speaker 0]:  imagine that producing a barrel of wine means portugal gives up the chance to make one role of cloth in england，
+[Speaker 0]:  producing that same barrel means giving up two roles if portugal trades its wine for one and a half roles of english cloth。
+[Speaker 0]:  both countries benefit portugal gets more cloth than it gave up，
+[Speaker 0]:  and england gets the wine for less cloth than it would sacrifice by making the wine itself that difference in what each country gives up is the idea behind comparative advantage。
+[Speaker 0]:  so classical economics gives us useful explanations of how we produce goods and exchange them。
+[Speaker 0]:  its explanation of prices，
+[Speaker 0]:  though，
+[Speaker 0]:  put a lot of emphasis on what it takes to produce something that matters。
+[Speaker 0]:  but it doesn't fully explain what a bier will pay think about buying water when you're really thirsty，
+[Speaker 0]:  you might gladly pay for the first glass。
+[Speaker 0]:  but once you've had enough，
+[Speaker 0]:  you probably wouldn't pay as much for another，
+[Speaker 0]:  both glasses can cost the same to supply，
+[Speaker 0]:  even though you value them differently。
+[Speaker 0]:  classical economists knew that buyers matted，
+[Speaker 0]:  but later，
+[Speaker 0]:  economists develop a fuller explanation of how people value that next purchase。
+[Speaker 0]:  that's why i'm putting classical economics in betier。
+[Speaker 0]:  it's ideas about organizing work and trading are still useful，
+[Speaker 0]:  but its original explanation of prices needs those later editions that keeps it below a or s for me。
+[Speaker 0]:  while the value of those ideas makes c or f too harsh，
+[Speaker 0]:  it gives us a strong foundation，
+[Speaker 0]:  but we need to build on it。
+[Speaker 0]:  and once that factory is producing more，
+[Speaker 0]:  there's another question to ask who gets the extra income，
+[Speaker 0]:  how much goes to the workers and how much goes to the owner？
+[Speaker 0]:  that's where marks comes in。
+[Speaker 0]:  call mark starts with who owns that factory，
+[Speaker 0]:  the workers receive wages，
+[Speaker 0]:  while the owner controls the equipment and the goods they produce marks，
+[Speaker 0]:  argues that this difference in ownership helps explain who gets the income in his account。
+[Speaker 0]:  workers can create more value than they receive in pay。
+[Speaker 0]:  imagine that today's work adds two hundred pounds of new value after allowing for materials and wear on the machines。
+[Speaker 0]:  if the worker receives one hundred pounds，
+[Speaker 0]:  another hundred remains marks calls that different surplus value and argues that owners can claim it because they own the business that gives workers and owners different interests。
+[Speaker 0]:  workers might want higher pay or shorter hours，
+[Speaker 0]:  while owners face pressure to keep costs down，
+[Speaker 0]:  a factory can become more productive and still have arguments about wages，
+[Speaker 0]:  working conditions and who benefits from a new machine。
+[Speaker 0]:  this is what i find useful about marxis approach，
+[Speaker 0]:  knowing that a country produces more，
+[Speaker 0]:  doesn't tell us whether its workers are better off。
+[Speaker 0]:  we also need to ask who owns the resources and how much influence each side has when negotiating pay。
+[Speaker 0]:  but that useful question doesn't settle his explanation of value marks connects value to the labor normally needed to produce goods。
+[Speaker 0]:  economists still disagree about how that account translates into the prices。
+[Speaker 0]:  we actually see his criticism of capitalism also needs a separate argument before。
+[Speaker 0]:  it can tell us whether a proposed replacement would work better for me that earns marxian economics a bee。
+[Speaker 0]:  it helps us understand ownership and conflicts over income，
+[Speaker 0]:  so dismissing it would lose something useful，
+[Speaker 0]:  but the disputed price explanation keeps me from putting it alongside the more dependable tools in a or s。
+[Speaker 0]:  we can also examine a conflict by asking what each side expects the other to do。
+[Speaker 0]:  that's the starting point for game theory。
+[Speaker 0]:  game theory looks at decisions where your best choice depends on what someone else does a sensible move on its own can turn out badly once the other person responds。
+[Speaker 0]:  imagine two cafes selling similar coffee in this example，
+[Speaker 0]:  each can charge four pounds or cut its price to three。
+[Speaker 0]:  if cafe a cuts while cafe b stays at four，
+[Speaker 0]:  a attracts enough extra customers to increase its profit，
+[Speaker 0]:  but b can cut its price too。
+[Speaker 0]:  the customers then spread between them again，
+[Speaker 0]:  and both cafes earn less than before raising the price back to or dodoesn't solve the problem for either cafe because its rival would still be cheaper and take its customers with these two choices，
+[Speaker 0]:  neither can improve its position by changing alone。
+[Speaker 0]:  that's a nash equilibrium。
+[Speaker 0]:  it means each choice make sense，
+[Speaker 0]:  given the other person's choice，
+[Speaker 0]:  even though both cafes would prefer the outcome before the price war。
+[Speaker 0]:  this helps explain why people can end up in a situation that nobody wanted。
+[Speaker 0]:  it also helps us design better arrangements。
+[Speaker 0]:  auction designers have used game theory to shape how government cell rights to the radio frequences that mobile networks use。
+[Speaker 0]:  they ask how changing the auction rules will change the bids companies make the limitation is that the answer depends on the situation we put into the model。
+[Speaker 0]:  a cafe might care about keeping regular customers know very little about its rival or have other prices to choose from those differences can change the outcome。
+[Speaker 0]:  some models also have several stable outcomes without telling us which one people will reach。
+[Speaker 0]:  i'm giving game theory s because it explains a specific problem clearly and helps us design systems that account for people's responses。
+[Speaker 0]:  we still have to check its assumptions，
+[Speaker 0]:  but that doesn't weaken the basic inside that our choices affect one another。
+[Speaker 0]:  now let's step back from two rivals and look at a whole market。
+[Speaker 0]:  neoclassical economics brings buyers and sellers into the same explanation of prices。
+[Speaker 0]:  buyers have limited budgets，
+[Speaker 0]:  while sellers need to cover the cost of making what they sell。
+[Speaker 0]:  think about the whole market for coffee。
+[Speaker 0]:  if the price rises，
+[Speaker 0]:  people will usually want to buy fewer cubs，
+[Speaker 0]:  while cafes have more reason to supply them。
+[Speaker 0]:  if the price falls，
+[Speaker 0]:  buyers want more，
+[Speaker 0]:  but selling extrtrcups becomcomes less attractive to caes。
+[Speaker 0]:  a market equilibrium is a price where the amount people people want to buy matches，
+[Speaker 0]:  the amount sellers want to supply。
+[Speaker 0]:  that gives us a way to understand how a price can bring separate plans together。
+[Speaker 0]:  the same approach helps with smaller decisions。
+[Speaker 0]:  a caer asks whether another coffee is worth the price。
+[Speaker 0]:  a cafe asks whether making another cub would earn more than it costs。
+[Speaker 0]:  looking at both sides，
+[Speaker 0]:  helps us explain why prices change when tastes or production methods change。
+[Speaker 0]:  but an agreed price doesn't tell us whether everybody affected by a deal has been considered，
+[Speaker 0]:  suppose a factory dumps waste into a river。
+[Speaker 0]:  those families pathe the product，
+[Speaker 0]:  those families dowstream have to pay to clean their water。
+[Speaker 0]:  those families weren't part of the deal。
+[Speaker 0]:  it clean up。
+[Speaker 0]:  bill is an an external cost simply means that somebody outside the transaction bears it neok classical economics can analyze problems like this，
+[Speaker 0]:  too。
+[Speaker 0]:  what we have to avoid is assuming that every market works like its simplest model competition，
+[Speaker 0]:  maybe weak，
+[Speaker 0]:  because one seller keeps rivals out or buyers may be unable to judge what they're buying。
+[Speaker 0]:  that earns it an a from me。
+[Speaker 0]:  it gives us a useful explanation of prices and ways to investigate where markets wrwrong simple version needs cacagwhere markeking against real conditions，
+[Speaker 0]:  which keeps it below s。
+[Speaker 0]:  but the wider approach can help us do that checking。
+[Speaker 0]:  the next question is，
+[Speaker 0]:  what happens when spending falls across the whole economy，
+[Speaker 0]:  kenzyan economics asks why people who want jobs can remain unemployed。
+[Speaker 0]:  even when there are machines builbuilings，
+[Speaker 0]:  they could use john mamaard canes argue that an economy can get stuck because people aren't spending enough to buy what it could produce。
+[Speaker 0]:  imagine families become worried about the future。
+[Speaker 0]:  and decide to spend less shops lose sales，
+[Speaker 0]:  even they cut their staffhours。
+[Speaker 0]:  those workers now have less money，
+[Speaker 0]:  which means they spend less in other shops。
+[Speaker 0]:  the original fall in spending spreads through the economy saving can be sensible for one family，
+[Speaker 0]:  but when many families cut back together，
+[Speaker 0]:  they also reduce one other's income。
+[Speaker 0]:  businesses may then postpone buying equipment because they can't sell what they 're existing machines produce in that situation。
+[Speaker 0]:  policy can help break the cycle，
+[Speaker 0]:  lower interest rates can make borroraing cheaper and encourage spending。
+[Speaker 0]:  the governments can also buy goods and services，
+[Speaker 0]:  while private spending is weak，
+[Speaker 0]:  suppose it highest people to repair a road that needs fixing the workers，
+[Speaker 0]:  receive wages and spend some of that money in local businesses，
+[Speaker 0]:  those businesses，
+[Speaker 0]:  gain customers。
+[Speaker 0]:  so the benefit spread beyond the road project itself，
+[Speaker 0]:  that argument is strongest when there are unemployed workers and unuse equipment。
+[Speaker 0]:  if businesses are already working at their limit，
+[Speaker 0]:  extra spending may mainly push prices up and are poorly chosen project can waste money even during a slumb while borrowing ads costs that must be considered。
+[Speaker 0]:  i'm putting kingian economics in a it explains how a fall in spending can feed on itself。
+[Speaker 0]:  and while waiting for individual markets to adjust may leave people out of work that gives it real practical value，
+[Speaker 0]:  but the response depends on the cause of the slowdown and the resources available。
+[Speaker 0]:  so i wouldn't treat it as an STA answer to every eeomomic problem。
+[Speaker 0]:  one spending covers。
+[Speaker 0]:  we still need to ask how the the economy can produce more supply side，
+[Speaker 0]:  economics focuses on what helps an economy produce more。
+[Speaker 0]:  it's best known political version，
+[Speaker 0]:  argues that lower taxes and fewer unnecessary restrictions can make working，
+[Speaker 0]:  keep and expanding a business more worthwhile。
+[Speaker 0]:  imagine a bakery deciding whether to buy a second oven，
+[Speaker 0]:  if a tax cut lets the owner keep more of the extra earnings buying that oven may become a better investment with more equipment。
+[Speaker 0]:  the bakery could make more bread in the same work working day。
+[Speaker 0]:  but the decision also depends on whether there are customers for that bread。
+[Speaker 0]:  the bakery needs reliable electricity and workers who can operate the equipment，
+[Speaker 0]:  a tax cut helps only if it changes something that was actually holding the business back。
+[Speaker 0]:  arthur laughers famous curve makes a further argument about taxes at a tax rates zero that government collects ts zero at very high rates。
+[Speaker 0]:  people may reduce their work，
+[Speaker 0]:  avoid paying tax or move their activity elsewhere。
+[Speaker 0]:  that means a tax cut could sometimes encourage enough extra activity to increase the total money。
+[Speaker 0]:  the government collects。
+[Speaker 0]:  but the curve doesn't tell us whether a particular country is in that position，
+[Speaker 0]:  taking a smaller share of a larger economy can still leave the government with pay for。
+[Speaker 0]:  we also have conconsider taxes help help pay for training workers or improving unreliable electricity can increase production，
+[Speaker 0]:  too。
+[Speaker 0]:  cutting those services to finance a tax reduction could make expansion harder for our bakery for this tax lead approach。
+[Speaker 0]:  be fits。
+[Speaker 0]:  it asks a useful question about what prevents production and recognizes that people respond to incentives，
+[Speaker 0]:  but deciding that lower taxes are the answer requires evidence about the actual obstacle，
+[Speaker 0]:  the size of the response and the cost of financing，
+[Speaker 0]:  the cut that makes it useful without making it dependable enough for a alongside producing more an economy，
+[Speaker 0]:  needs money that people contrust that brings us to monitorism monmonitorism puts money near the center of the explanation。
+[Speaker 0]:  milton freedman argue that controlling how quickly the money supply grows is important for keeping prices stable over time。
+[Speaker 0]:  imagine an economy making the same amount of goods，
+[Speaker 0]:  while the money available keeps increasing。
+[Speaker 0]:  if people spend that money at a similar pace，
+[Speaker 0]:  the extra spending competes and pushes goods and shshes prices up，
+[Speaker 0]:  but the pace of spending matters money left untouched in an account doesn't create the same immediate pressure as money being spent repeatedly。
+[Speaker 0]:  think of a bank note，
+[Speaker 0]:  you pay to a baker who then uses it to buy something else。
+[Speaker 0]:  the same note has helped make more than one purchase economists call the pace at which money support spending its velocity freedman favoured steady predictable growth in the money supply。
+[Speaker 0]:  he worried that officials trying to find tune。
+[Speaker 0]:  the economy could make matters worse because a policies effect arrive after a delay。
+[Speaker 0]:  by then the problem they were responding to may have changed that approach needs a reasonably reliable connection between money spending。
+[Speaker 0]:  and prices，
+[Speaker 0]:  but changes in banking and people's willingness to hold money can alter that connection if people decide to save more of their balances，
+[Speaker 0]:  a given amount of money can support less spending。
+[Speaker 0]:  this wasn't just a theoretical concern。
+[Speaker 0]:  the federal reserves historical account describes repeated difficulties using money growth to predict the economy as banking practices changed following a money target could therefore be misleading，
+[Speaker 0]:  even when officials met that target that puts monitorism in b。
+[Speaker 0]:  for me，
+[Speaker 0]:  it's warning that creating money cannot permanently substitute for producing goods is too useful to ignore。
+[Speaker 0]:  but money growth alone isn't a dependable guide to setting policy，
+[Speaker 0]:  which keeps the full approach below a and prices can rise for other reasons，
+[Speaker 0]:  such as a failed harvest to understand how poor economies can improve living standards。
+[Speaker 0]:  we also need to look at production health and opportunity development economics，
+[Speaker 0]:  asks how pooresocisocieties can improve living standards。
+[Speaker 0]:  it's a broad field。
+[Speaker 0]:  so we're judging the way it investigates that problem rather than treating it。
+[Speaker 0]:  as one theory。
+[Speaker 0]:  arthur lewis offered an influential model of how production can grow。
+[Speaker 0]:  imagine a small farm where several people share so little work that some could leave without greatly reducing the harvest。
+[Speaker 0]:  if those workers move into jobs with better equipment，
+[Speaker 0]:  they can add more to the economy's total production when the new businesses use some of their earnings to buy equipment and hire more people that process can continue，
+[Speaker 0]:  but the better jobs have to exist，
+[Speaker 0]:  moving to a city without the investment skills or infrastructure to support productive work may simply exchange rural poverty for urban poverty may velopment researchers also investigate smaller questions。
+[Speaker 0]:  if children aren't learning with more textbooks help，
+[Speaker 0]:  or is the problem that lessons are too difficult for them to follow different obstacles call for different responses in trials in india，
+[Speaker 0]:  extra teaching aimed at struggling pupils improved learning researchers compared pupils offered that help with a comparison group，
+[Speaker 0]:  so they could test whether the teaching made a difference。
+[Speaker 0]:  instead of assuming that any extra school spending would work that willingness to test the explanation is valuable，
+[Speaker 0]:  producing more，
+[Speaker 0]:  doesn't automaticmean that people are healthier，
+[Speaker 0]:  better ilducated or sharing in the gains。
+[Speaker 0]:  so we need evidence about their lives as well。
+[Speaker 0]:  the difficulty is applying a result。
+[Speaker 0]:  somewhere else，
+[Speaker 0]:  a program that works in some schools may have different results nationwide，
+[Speaker 0]:  where staffing funding and local conditions change。
+[Speaker 0]:  i'm giving development economics and a it connects questions about production to evidence about people's opportunities，
+[Speaker 0]:  and it can improve its answers as that evidence changes。
+[Speaker 0]:  but one successful model or trial doesn't give every country already made root out of poverty。
+[Speaker 0]:  its strength lies in investigating the situation and adapting the response that importance of local knowledge also runs through the austrian school。
+[Speaker 0]:  the austrian school emphasizes how people make choices using knowledge that is spread throughout society。
+[Speaker 0]:  freddric hiyguak asked how an economy can coordinate all that information when nobody has the full picture，
+[Speaker 0]:  suppose tin becomes harder to obtain。
+[Speaker 0]:  and its price rises，
+[Speaker 0]:  a manufacturer may start looking for another material，
+[Speaker 0]:  even without knowing which mine closed or why other buyers want more tin。
+[Speaker 0]:  the price tells the manufacturer that using tin has become more costly，
+[Speaker 0]:  thousands of people can adjust their plans in response to that message without one office directing。
+[Speaker 0]:  every decision。
+[Speaker 0]:  entrepreneurs can also try a new product or a cheaper process whether customers buy，
+[Speaker 0]:  it helps reveal whether the opportunity was worth pursuing。
+[Speaker 0]:  this explains why ignoring local knowledge can lead to poor decisions。
+[Speaker 0]:  a central planner may be working with information that is incomplete or already out of date。
+[Speaker 0]:  another austrian argument concerns，
+[Speaker 0]:  boooms and recessions，
+[Speaker 0]:  it says the credit expansion can make borrowing look cheap enough to encourage long investment projects，
+[Speaker 0]:  even when people haven't saved enough to free up the resources，
+[Speaker 0]:  those projects need，
+[Speaker 0]:  if too many commitments compete for the available resources，
+[Speaker 0]:  some projects may become impossible to complete profitably。
+[Speaker 0]:  that is a proposed explanation to investigate，
+[Speaker 0]:  rather than something we can assume caused every recession and useful prices still have limits。
+[Speaker 0]:  remember the factory whose neighbors paid to clean the river。
+[Speaker 0]:  its own costs didn't include all the damage it caused。
+[Speaker 0]:  i'm giving the austrian school obee its explanation of scattered knoledge helps us understand how markets coordinate people's decisions，
+[Speaker 0]:  but that inside doesn't settle，
+[Speaker 0]:  which government actions would help。
+[Speaker 0]:  and its account of recessions needs evidence。
+[Speaker 0]:  in each case，
+[Speaker 0]:  those gaps keep it below a as a broader guide to policy，
+[Speaker 0]:  even when information is available。
+[Speaker 0]:  people don't always use it consistently behavioural economics investigates。
+[Speaker 0]:  why behaviviural economics studies how people actually make decisions，
+[Speaker 0]:  including the effects of habit，
+[Speaker 0]:  emotion，
+[Speaker 0]:  unlimited attention，
+[Speaker 0]:  daniel kannamen and ames tuversky showed that the way we experience a choice can change how we respond to it。
+[Speaker 0]:  imagine that somebody gives you a hundred dollars，
+[Speaker 0]:  then takes twenty back。
+[Speaker 0]:  you have eighty dollars more than you started with，
+[Speaker 0]:  but you might feel disappointed because a moment ago，
+[Speaker 0]:  you had a hundred receiving eighty dollars straight away，
+[Speaker 0]:  could feel quite different even though you end up with the same amount。
+[Speaker 0]:  their research also found that loss is often feel more significant than gains of the same size。
+[Speaker 0]:  economists call this loss，
+[Speaker 0]:  a version。
+[Speaker 0]:  it can help explain why we're reluctant to give something up even when a possible gain looks attractive our tendency to leave decisions for later matters，
+[Speaker 0]:  too。
+[Speaker 0]:  consider two pension plans。
+[Speaker 0]:  one requires workers to sign up the other enrols them automatically，
+[Speaker 0]:  but lets them leave whenever they want both offer a choice。
+[Speaker 0]:  but doing nothing produces a different result。
+[Speaker 0]:  researchers studied this change at an american company。
+[Speaker 0]:  automatic enrolment increased participation and many workers also kept the contribution rate and investments chosen for them。
+[Speaker 0]:  the starting arrangement had influenced how they saved，
+[Speaker 0]:  that suggests a practical way to help people follow through on their plans。
+[Speaker 0]:  but the chosen starting point matters。
+[Speaker 0]:  if the contribution rate is low，
+[Speaker 0]:  more people may join while still saving too little。
+[Speaker 0]:  i'm putting behavioral economics in a it improves our explanations by testing how people behave。
+[Speaker 0]:  and it helps us design choices around that behaviour。
+[Speaker 0]:  it falls short of s because an effect found in one situation doesn't tell us how large it will be elsewhere or whether a particular change will help people those choices also depend on who sets the rules and whether anyone enforces them。
+[Speaker 0]:  new institutional economics asks how the rules around us。
+[Speaker 0]:  shape economic decisions，
+[Speaker 0]:  douglas north included written laws，
+[Speaker 0]:  unwritten expectations and how reliably people enforce them。
+[Speaker 0]:  imagine buying a machine from somebody you've never met before paying。
+[Speaker 0]:  you want to check that it works。
+[Speaker 0]:  agree on delivery。
+[Speaker 0]:  i know what you can do。
+[Speaker 0]:  if the celer breaks the agreement，
+[Speaker 0]:  all of that takes time and money beyond the machines price economists call these transaction costs，
+[Speaker 0]:  the cost of arranging an exchange and making sure people keep their promises a reliable contract and an affordable way to settle disputes can reduce those costs that makes it easier to trade with strangers。
+[Speaker 0]:  instead of relying only on people you already trust runald coast，
+[Speaker 0]:  use this idea to explain why companies exist if arranging separate deals for every task is expensive，
+[Speaker 0]:  a business may hire employees and organize the work itself，
+[Speaker 0]:  but managing a company also costs money。
+[Speaker 0]:  the question is which arrangement handles a particular job more effectively。
+[Speaker 0]:  rules can also protect people who already have power a license might require businesses to meet a useful safety standard，
+[Speaker 0]:  or it might impose requirements that mainly keep new competitors out。
+[Speaker 0]:  we have to examine what the rule actually does。
+[Speaker 0]:  that also explains why copying another country's laws may not produce the same results。
+[Speaker 0]:  a contract offers little protection，
+[Speaker 0]:  if you can't reach a court，
+[Speaker 0]:  or if powerful people can ignore its decisions。
+[Speaker 0]:  i'm giving this approach ach AA。
+[Speaker 0]:  it helps explain why a policy that works in one place can fail elsewhere by looking at the rules and how people enforce them。
+[Speaker 0]:  but identifying the problem doesn't automatically tell us how to fix it。
+[Speaker 0]:  people who benefit from the existing arrangement may block change and rewriting a law may leave old habits intact。
+[Speaker 0]:  that difficulty keeps it below s。
+[Speaker 0]:  the people making those rules have interests of their own public choice，
+[Speaker 0]:  asks how those interests affect their decisions，
+[Speaker 0]:  public choice，
+[Speaker 0]:  supplies，
+[Speaker 0]:  economic reasoning to political decisions。
+[Speaker 0]:  james bucannon and other researchers argue that we should examine what politicians voters and officials want，
+[Speaker 0]:  just as we examine what buyers and sellers want，
+[Speaker 0]:  suppose a government program costs a million dollars and gives the money to ten businesses，
+[Speaker 0]:  each business receives a hundred thousand dollars。
+[Speaker 0]:  if a million taxpayers share that cost equally，
+[Speaker 0]:  each pays one dollar，
+[Speaker 0]:  a business has a strong reason to spend time organizing support for its payment。
+[Speaker 0]:  an individual taxpayer has much less reason to spend hours fighting a charge of one dollar。
+[Speaker 0]:  so the people who benefit may organize much more effectively than the people who pay that can help。
+[Speaker 0]:  an ineffective program survive。
+[Speaker 0]:  it doesn't require every voter to support it，
+[Speaker 0]:  or every official to take a bribe。
+[Speaker 0]:  the size of the benefit gives the businesses a stronger reason to get involved。
+[Speaker 0]:  public choice directs are attention to that decision process，
+[Speaker 0]:  publishing clear budgets，
+[Speaker 0]:  allowing scrutiny and limiting special favors，
+[Speaker 0]:  may improve decisions by changing what people can get away with this matters。
+[Speaker 0]:  when a government proposes to fix a market problem，
+[Speaker 0]:  we need to compare the market。
+[Speaker 0]:  we actually have with the policy that real people would carry out that policy has its own costs and opportunities for failure。
+[Speaker 0]:  but people also care about duty and the well being of others。
+[Speaker 0]:  personal financial gain won't explain every vote and showing that a policy could fail，
+[Speaker 0]:  doesn't prove that leaving the market alone would work better。
+[Speaker 0]:  i'm putting public choice in a because it makes our comparisons more realistic。
+[Speaker 0]:  it helps us ask who benefits who pays and who can influence the decision。
+[Speaker 0]:  it stays below s because those interests reveal pressures，
+[Speaker 0]:  rather than determine every outcome。
+[Speaker 0]:  we still need evidence about the people and institutions involved that completes our list。
+[Speaker 0]:  and it gives us a way to use these ideas together。
+[Speaker 0]:  that's where the twelve approach is land。
+[Speaker 0]:  i haven't put something in every tear just to fill the board，
+[Speaker 0]:  because each of these gives us something worth understanding for me。
+[Speaker 0]:  AB means the central idea is useful，
+[Speaker 0]:  but we need major editions before relying on it as a broader guide。
+[Speaker 0]:  the higher grades go to approaches。
+[Speaker 0]:  i find more dependable within the problems that designed to address。
+[Speaker 0]:  we can use several together to understand a price start with what buyers want and what sellers can provide to investigate a slum，
+[Speaker 0]:  examine spending and employment before recommending a policy，
+[Speaker 0]:  also ask how it would be carried out and who could influence it。
+[Speaker 0]:  these grades are my judgment，
+[Speaker 0]:  and the explanations are there for you to challenge，
+[Speaker 0]:  which approach would you move？
+[Speaker 0]:  and what evidence would persuade you to change its grade？
