@@ -1,0 +1,331 @@
+[Speaker 0]:  for the past few weeks，
+[Speaker 0]:  i've been seeing an increasing amount of content talking about the first cracks in the AI bubble。
+[Speaker 0]:  but i think we going to start seeing AI companies kind of start falling out of favor。
+[Speaker 0]:  and not being able to raise money，
+[Speaker 0]:  but the big thing is desk when data centideath stops being issued that will be when it sped ds on for this industry。
+[Speaker 0]:  analytical forms，
+[Speaker 0]:  teg blocgs economic channels，
+[Speaker 0]:  youtube are all sounding。
+[Speaker 0]:  the alarm。
+[Speaker 0]:  so it made me wonder when the bubble pops。
+[Speaker 0]:  and if it pops，
+[Speaker 0]:  what will that day actually look like？
+[Speaker 0]:  will people be able to sell ai stocks when the storm hits yet？
+[Speaker 0]:  the stock market will most most likely sht down down market makers will stop buying stocks。
+[Speaker 0]:  but why why will the market shut down？
+[Speaker 0]:  what might a market crot down？
+[Speaker 0]:  we thought ght twenty twenty six。
+[Speaker 0]:  we we ght ght。
+[Speaker 0]:  we do something different as we are not a fying at channel。
+[Speaker 0]:  we're tech。
+[Speaker 0]:  and this as sold，
+[Speaker 0]:  we will answer fundamental questions that sound painfully obvious and maybe even dumb on the surface。
+[Speaker 0]:  but i'm ready to bet not everybody truly knows how and why things happen during a crash。
+[Speaker 0]:  why can't you hit that cell button？
+[Speaker 0]:  why will the crash today look very different from crashes in two thousand and eight and two thousand ten？
+[Speaker 0]:  why does the stock market have to shut down and what will happen if it doesn't？
+[Speaker 0]:  let's ve in，
+[Speaker 0]:  let's start with some basics。
+[Speaker 0]:  how does the exchange engine work economically ethdoc change exists to solve one basic problem？
+[Speaker 0]:  maggpeople who want want to sell a piece of company with people who want to buy a piece of company。
+[Speaker 0]:  imagine your own a used bookstore where you tell the people。
+[Speaker 0]:  hey，
+[Speaker 0]:  i'm gonna buy your use books，
+[Speaker 0]:  and then they're going to take those books and sell them to people who want them at any moment。
+[Speaker 0]:  you have two prices for the same book，
+[Speaker 0]:  the one when you buy it from customers for eight dollars and the one when you've sell it for ten dollars，
+[Speaker 0]:  a stock exchange works the same way，
+[Speaker 0]:  except instead of a bookstore，
+[Speaker 0]:  there are professional trading firms。
+[Speaker 0]:  those training firms are referred to as market makers，
+[Speaker 0]:  and they're buying and selling stock every time a market maker buys your shares。
+[Speaker 0]:  they're holding those shares hoping to resell them to someone else at a slightly higher price pretty strave forward before stock exexchanges existed。
+[Speaker 0]:  and they've been for hundreds of years。
+[Speaker 0]:  investing was only possible if you knew the company owner personally，
+[Speaker 0]:  but how many people did？
+[Speaker 0]:  and how often do you see the ticocoks of the world walk around？
+[Speaker 0]:  so the problem that company owners had when they needed to raise capital was that there was a heart ceiling to the capital that their investor possessed。
+[Speaker 0]:  so there was in need to find more people whose capital they could use the first company that prompted the birth of the first stock change。
+[Speaker 0]:  change came be inffamous dutch east india company that were selling shares to thousands of strangers from merchants to mates to black smith。
+[Speaker 0]:  but how could citizens who bought these shares sell them back for cash if the company wouldn't buy them back？
+[Speaker 0]:  and so those strangers began meeting on a bridge and asterdamam to trade those shares between themselves，
+[Speaker 0]:  which is how the asterdam stocck ers change was born。
+[Speaker 0]:  it was quite literally a meeting place for people to exchange the shares of companies。
+[Speaker 0]:  so to sum it up as stock exchange functions as a huge marketplace in cities with a high concentration of capital，
+[Speaker 0]:  trade and risk。
+[Speaker 0]:  a market plays doesn't own any of the securities，
+[Speaker 0]:  but it allows others to make the trade possible similar to how an app store，
+[Speaker 0]:  for example，
+[Speaker 0]:  doesn't create apps，
+[Speaker 0]:  but it makes it possible for founders to publish their apps and for users to pay and use them。
+[Speaker 0]:  now let's briefly go over how this stock exchange works technically，
+[Speaker 0]:  because this context is incredibly important to understand what happens in a crash at its score。
+[Speaker 0]:  a stockwas change as an incredibly simple idea，
+[Speaker 0]:  assorted list of buy and sell orders that get matched trading on a modern stockers change happens，
+[Speaker 0]:  eda enormous scale because reds of thousands of of people and cell，
+[Speaker 0]:  and it happens fast。
+[Speaker 0]:  so from technical standpoint，
+[Speaker 0]:  the engine of the stocks change has to have relentless performance capacity to withstand the volume。
+[Speaker 0]:  the matching decisions happen in nato seconds。
+[Speaker 0]:  i wanted to really wrap your head around at the speed of this。
+[Speaker 0]:  you take take a single blanof，
+[Speaker 0]:  an eye exchange engine can process one hundred and fifty thousand transactions。
+[Speaker 0]:  and here is a mine blowing fact when thousands of servers are submitting orders，
+[Speaker 0]:  the exchange must be able to prove legally which one came first to the exact nano second and to have a time stamp with that kind of precision exchanges use，
+[Speaker 0]:  literally atomic clox directly inside the building of it，
+[Speaker 0]:  exchange that sink with military satellites。
+[Speaker 0]:  but when the system hits an edge case and the stocks are starting to fall，
+[Speaker 0]:  the speed，
+[Speaker 0]:  they tried so hard to optimize for becomes its biggest problem。
+[Speaker 0]:  so what happens what a stock market starts to crash？
+[Speaker 0]:  q three is almost over，
+[Speaker 0]:  which means that every team at every company starts prepping for the end of the year and end of the year is the time for reporting。
+[Speaker 0]:  reporting is something i dread with passion，
+[Speaker 0]:  because i cannot stand admin work。
+[Speaker 0]:  i even got feedback in one of my previous performance reviews that admin work is my biggest weakenness，
+[Speaker 0]:  which i agree with，
+[Speaker 0]:  but in my defence，
+[Speaker 0]:  here's what i need to do every single months。
+[Speaker 0]:  twelve times a year。
+[Speaker 0]:  i got a prep release notes，
+[Speaker 0]:  a client facing document for each feature in the release notes，
+[Speaker 0]:  help article for each feature a deck for customer success teams with all the features and how they all work，
+[Speaker 0]:  then prep a customer facing deck，
+[Speaker 0]:  then a leadership facing deck that content has to be different。
+[Speaker 0]:  for every audience。
+[Speaker 0]:  i talk to it has to be chris and nice and professional，
+[Speaker 0]:  but so personal and not sound like it ealymm，
+[Speaker 0]:  but you know，
+[Speaker 0]:  what's even worse than corporate writing。
+[Speaker 0]:  dex，
+[Speaker 0]:  corporate decks are ugly。
+[Speaker 0]:  i'm sorry，
+[Speaker 0]:  they are。
+[Speaker 0]:  and i understand why they're ugly，
+[Speaker 0]:  because if you spend all that time doing the writing and tweaking what you got from the allolum，
+[Speaker 0]:  you don't have any inspiration for an aesthetically pleasing deck。
+[Speaker 0]:  yes，
+[Speaker 0]:  it's uggly，
+[Speaker 0]:  but it works。
+[Speaker 0]:  and the compiles with branding。
+[Speaker 0]:  do i wanted to be stylish？
+[Speaker 0]:  and actually look nice，
+[Speaker 0]:  of course，
+[Speaker 0]:  but i have nether time nor energy for it。
+[Speaker 0]:  and this is why for this video，
+[Speaker 0]:  we partnered with templifer。
+[Speaker 0]:  templify is an agentic document generation platform for professional enterprise documentation，
+[Speaker 0]:  and they just launched an mc p connector with chad GPT。
+[Speaker 0]:  so you can generate a document based on your content and research directly from tragepite's interface is how it works。
+[Speaker 0]:  open tragepiity go to settings，
+[Speaker 0]:  find the templify connector or clclick add，
+[Speaker 0]:  that's it。
+[Speaker 0]:  and now，
+[Speaker 0]:  when you do the writing，
+[Speaker 0]:  feed the context usage，
+[Speaker 0]:  stts screen shots，
+[Speaker 0]:  reports tickets to chat your PT and chat does all the processing and thinking。
+[Speaker 0]:  you can then generate a report for the audience。
+[Speaker 0]:  you're presenting to using templify templify applies your company's branding，
+[Speaker 0]:  finds the right template and layouts adds the necessary intro transition or closing slides watermarks disclalamers unamit。
+[Speaker 0]:  it transforms the research into professional modern and presentation ready documentation that can be exported and used right away。
+[Speaker 0]:  templifies mcp is also available in clolot and copilot，
+[Speaker 0]:  so you can apply your companies approved branding in whichever asstem。
+[Speaker 0]:  you use the most and a huge bonus companies can also can figure how much ai flexibility versus rule bed precision they want，
+[Speaker 0]:  which allows them to predict token costs and avoid overspending。
+[Speaker 0]:  templify is trusted by more than four million professionals and a wide range of enterprises get started with templify MCP to produce crisp，
+[Speaker 0]:  professional and sleak k enterprise documentation by clicking billing below。
+[Speaker 0]:  and now back to the video，
+[Speaker 0]:  when a crash happens，
+[Speaker 0]:  it plays out on two separate trucks。
+[Speaker 0]:  economic who's willing to trade in hell and technical，
+[Speaker 0]:  whether the exchange continues trading at all from the economic standpoint，
+[Speaker 0]:  a crash as a sharp collapse and stock prices。
+[Speaker 0]:  and there is always a trigger event that causes it。
+[Speaker 0]:  president trump introducing tariffs deep sek，
+[Speaker 0]:  releasing an open weight model，
+[Speaker 0]:  iran banning export of oil，
+[Speaker 0]:  or when the former chairman of the federal reserve drone power walks into the building and says，
+[Speaker 0]:  good morning，
+[Speaker 0]:  and this trigger becomes strong enough to cost panic for a critical massiof people at once。
+[Speaker 0]:  now from a technical standpoint，
+[Speaker 0]:  the risk software of the stock ks change is built to detect the sharp collapse，
+[Speaker 0]:  and there are three thresh holds that may trigger an automatic hold at seven percent drop，
+[Speaker 0]:  holds all US markets for fifteen minutes。
+[Speaker 0]:  a thirteen percent drop for another fifteen minutes and at twenty percent drop，
+[Speaker 0]:  stoops trafor the remainder of the day。
+[Speaker 0]:  but why why halt the trade？
+[Speaker 0]:  okay？
+[Speaker 0]:  the prices are falling down，
+[Speaker 0]:  something is very clearly wrong。
+[Speaker 0]:  but how does putting it on pause fix the problem？
+[Speaker 0]:  it's not like prices won't continue falling when the stock market takes a sudden break。
+[Speaker 0]:  so what does the shutdown do？
+[Speaker 0]:  the primary thing that the hall does is buying time，
+[Speaker 0]:  it gives the public a forced pause to actually process what's happening instead of reacting purely on panic，
+[Speaker 0]:  a halt lets both the economic and technical side catch its breath。
+[Speaker 0]:  when a trigger event takes place，
+[Speaker 0]:  algrams of the trading firms are designed to manage risk，
+[Speaker 0]:  but their execution of risk management looks like an absolute ababtage。
+[Speaker 0]:  once prices start dropping too fast，
+[Speaker 0]:  algorims of high frequency trading firms or automated ted market，
+[Speaker 0]:  making start frantically，
+[Speaker 0]:  updating their biand celk quotes to lower portfolio volatility。
+[Speaker 0]:  and this snowballs on top of investor panic，
+[Speaker 0]:  which is understandable investors see dropping numbers and the fear of losing everything knocks off any rational thinking。
+[Speaker 0]:  and now the software flippse this switches too。
+[Speaker 0]:  and yes，
+[Speaker 0]:  it does so to preserve the capital。
+[Speaker 0]:  but by doing so，
+[Speaker 0]:  the snowball keeps growing and at the starts feeding itself。
+[Speaker 0]:  so fifteen minute halt forces the code to stop executing and freeze that snowball。
+[Speaker 0]:  it cannot save the market，
+[Speaker 0]:  but it can't prevent algorims from feeding off each other cell orders and driving a multibillion dollar stock down to zero。
+[Speaker 0]:  but when the market stops，
+[Speaker 0]:  it doesn't just stop for the big trading firms，
+[Speaker 0]:  it stops for you too。
+[Speaker 0]:  and if you're sitting there and watching our eyestocks and all of it sudden，
+[Speaker 0]:  you decide to sell，
+[Speaker 0]:  you're not going to be able to because that cell button is not working。
+[Speaker 0]:  and even if it is working，
+[Speaker 0]:  there is nothing to mature cell order against no one wants it。
+[Speaker 0]:  and you know how people say why panic the market always recovers，
+[Speaker 0]:  sure the market always recovers as a whole，
+[Speaker 0]:  but it's very possible that individual stocks won't。
+[Speaker 0]:  and it is possible that you might lose everything you've invested。
+[Speaker 0]:  so let's imagine for a second。
+[Speaker 0]:  what might happen if the stock market doesn't shut down and using a more relaliable example，
+[Speaker 0]:  what would have happened if the stock market did not shut down back in two thousand and eight interestingly，
+[Speaker 0]:  during the two thousand and eight financial prices，
+[Speaker 0]:  the US stock market never shut down s in b five hundred had catastrophic days like october fifteenth when it dropped nine percent。
+[Speaker 0]:  but the threshoholds at that time were at ten，
+[Speaker 0]:  twenty and thirty percent，
+[Speaker 0]:  and the jobs never quite cross those threshoholds。
+[Speaker 0]:  is that good or bad？
+[Speaker 0]:  what would the world today look like if the system completely lacked circuit brekers？
+[Speaker 0]:  and what would have happened if the stock market did shut down at today's threshohold of seven percent in two thousand and eight，
+[Speaker 0]:  the crisis was centered on toxic mortgaages。
+[Speaker 0]:  if the stock market had been allowed to enter an uncontrollable free fall，
+[Speaker 0]:  the stock prices of companies like morgan stanley，
+[Speaker 0]:  citigroup，
+[Speaker 0]:  golden suacks bank of america。
+[Speaker 0]:  whilst fargo jiie morgan chase would have dropped to near zero。
+[Speaker 0]:  why is this a problem？
+[Speaker 0]:  the credit markets is the answer。
+[Speaker 0]:  if the stock market had completely dissolved over a few days，
+[Speaker 0]:  it would have had devastating consequences on credit markets。
+[Speaker 0]:  this means that companies like walmart target medical joins like mccassin cardinal health ford，
+[Speaker 0]:  general motwould not have been able to access cash。
+[Speaker 0]:  and if those guys don't have cash，
+[Speaker 0]:  we're talking millions widelayoffs inability to pay employees，
+[Speaker 0]:  supply chain，
+[Speaker 0]:  paralyzes mass business closures，
+[Speaker 0]:  millions of retirement accounts，
+[Speaker 0]:  like for a one case or our spein canada with active stop losses would have been liquidated and all the money that you've been saving for your pension out the door。
+[Speaker 0]:  regulators don't pause the stock market only to protect stock portfolios。
+[Speaker 0]:  they do it because of the panic。
+[Speaker 0]:  if the panic isn't stopped，
+[Speaker 0]:  it will bleed into the credit market and destroy the ability for a regular rocio store to buy and sell groceries to you to that，
+[Speaker 0]:  you may say，
+[Speaker 0]:  well，
+[Speaker 0]:  in two thousand and eight，
+[Speaker 0]:  the force shut down and happen，
+[Speaker 0]:  and we somehow survived。
+[Speaker 0]:  yes，
+[Speaker 0]:  with the operty work here being somehow。
+[Speaker 0]:  and at what cost，
+[Speaker 0]:  what would have happened in two thousand and eight，
+[Speaker 0]:  if the stock market did shut down at today's threshohold of seven percent lows were a short，
+[Speaker 0]:  it would have helped the absolute worlsday of the two thousand and eight crash was september twenty nine。
+[Speaker 0]:  when the us government tried to pass a massive emergency plan to save the banks，
+[Speaker 0]:  but congress voted no that day became the trigger the trigger that caused mass pack。
+[Speaker 0]:  if the market cut down that day，
+[Speaker 0]:  it would have drastically changed the media narrative。
+[Speaker 0]:  the federal reserve，
+[Speaker 0]:  the congress would have had a chance to coordinate a proper public statement，
+[Speaker 0]:  say that they would renegotiate the bill and called down again，
+[Speaker 0]:  the crash was inevitable。
+[Speaker 0]:  but the heard d behavior and mass panic often ings far ar devastating consequences than the crash itself。
+[Speaker 0]:  the ability to control the panic could have made it an emergency landing rather than a full crash pension funds for one key administrators。
+[Speaker 0]:  retail investors would have had an opportunity to rationally relocate capital or hold it through the storm。
+[Speaker 0]:  and most importortantly，
+[Speaker 0]:  the economic recovery would have likely been much faster because millions of workers wouldn't have been laid off in complete chaos。
+[Speaker 0]:  and panic similar to other global economic and technical disasters。
+[Speaker 0]:  many lessons have been learned，
+[Speaker 0]:  but today，
+[Speaker 0]:  there is a whole new layer of complexties that did not exist in two thousand and eight in two thousand and eight，
+[Speaker 0]:  says the software market was just starting to form。
+[Speaker 0]:  cash was still one of the main methods of payment and any retail investor like you，
+[Speaker 0]:  or me，
+[Speaker 0]:  who inveinveted back into thousand thousand eight had to have a broker。
+[Speaker 0]:  there was no other way to trade without one investing was fairly gated because there was a barrier between you and the stockles change。
+[Speaker 0]:  so the vast majority of people who invested back then were pretty well versed in investment basics。
+[Speaker 0]:  the investment market at the time was almost like a phone booth a few decades ago to make a call。
+[Speaker 0]:  you have to physically walk to a fold booth today。
+[Speaker 0]:  on the other hand，
+[Speaker 0]:  investing is accessible to everyone，
+[Speaker 0]:  and reason is accessible to everyone is because of financial tech。
+[Speaker 0]:  online banks investment apps software as a whole has democratized investing in many ways。
+[Speaker 0]:  many of the apps offer ers twenty four or five trading compared to traditional stock。
+[Speaker 0]:  king changes that are only open seventy hhalf hours a day，
+[Speaker 0]:  combined with the rise of education and personal finance investing became available to a far larger pool of people than eighteen years ago，
+[Speaker 0]:  a far larger pool of people that have access to information twenty for hours a day。
+[Speaker 0]:  using the phone booth analogy，
+[Speaker 0]:  we got the landlines and phphes came into our homes in two thousand and eight。
+[Speaker 0]:  if bad news broke at two AM，
+[Speaker 0]:  retail investors had to wait until nine thirty AM the next day today，
+[Speaker 0]:  if you read the news at night and you trade on the app that offers twenty four hour service，
+[Speaker 0]:  you can act immediately。
+[Speaker 0]:  and if the trigger happens overnight，
+[Speaker 0]:  which is quite likely because a lot of trigger vans do do and new confrontation in the middle east，
+[Speaker 0]:  an explosion in china。
+[Speaker 0]:  the trigger event can cause stock prices to go bonkers overnight。
+[Speaker 0]:  why is this a problem？
+[Speaker 0]:  because people can lose real money before they even wake up？
+[Speaker 0]:  the reality is overnight。
+[Speaker 0]:  price crashes are often completely artificial at stock。
+[Speaker 0]:  my drop fifteen percent at two AM，
+[Speaker 0]:  because three people panicked and sold，
+[Speaker 0]:  but if you have automated your stop loss，
+[Speaker 0]:  triggers，
+[Speaker 0]:  your shares will sell automatically when the stock hits that low price，
+[Speaker 0]:  because the trading doesn't stop by nine thirty AM。
+[Speaker 0]:  the next morning，
+[Speaker 0]:  when the rest of the country waks up looks at the company realizes that everything's。
+[Speaker 0]:  okay，
+[Speaker 0]:  buthat stock at a lower or normal price，
+[Speaker 0]:  your shares are already gone。
+[Speaker 0]:  and another layer that also did not exist in two thousand。
+[Speaker 0]:  and eight is crypto，
+[Speaker 0]:  which trades twenty four or seven。
+[Speaker 0]:  if investors anticipate a stock market crash on monday，
+[Speaker 0]:  they can dump their crypto assets on the weekend to raise cash。
+[Speaker 0]:  why is this a problem？
+[Speaker 0]:  because this creates risk that wasn't possible eighteen years ago？
+[Speaker 0]:  because crypto and HFT is what the cell phones and end up calling are to phone booths。
+[Speaker 0]:  the system has spread far too wide to keep it under the radar。
+[Speaker 0]:  because back then，
+[Speaker 0]:  when we have the phone boos，
+[Speaker 0]:  if the federal trade commission shut down the trading，
+[Speaker 0]:  the access was completely cut off that they could control it。
+[Speaker 0]:  but today，
+[Speaker 0]:  when we have crypto quash exchanges，
+[Speaker 0]:  h of t，
+[Speaker 0]:  you can't cut it off in a second and wait till the dust settles。
+[Speaker 0]:  what i'm getting out is that in the event of a crash today，
+[Speaker 0]:  there is going to be plenty of financial activity that the government won't be able to control or even know about。
+[Speaker 0]:  we will see a whole new version of the collapse。
+[Speaker 0]:  that won't be like anything else we've seen before if the abababpops s or when it pos，
+[Speaker 0]:  which to be clear，
+[Speaker 0]:  is not a prediction by any means。
+[Speaker 0]:  i'm not qualified to make any kind of financial devsing。
+[Speaker 0]:  but if someone who worked in capital markets，
+[Speaker 0]:  financial software，
+[Speaker 0]:  as someone who build software parks for a living，
+[Speaker 0]:  all i'm trying to say is that we may discovery that we've built a financial system with no off switch，
+[Speaker 0]:  two thousand and eight，
+[Speaker 0]:  you could have shut down the phone booth today。
+[Speaker 0]:  there isn't a phone booand。
+[Speaker 0]:  there's a thousand different ways for that call to keep going。
+[Speaker 1]:  we hope this was helpful。
+[Speaker 0]:  i。
