@@ -1,0 +1,1288 @@
+[Speaker 0]:  for really at an inflection point because you have the birth of essentially coin operated intelligence at scale。
+[Speaker 1]:  the internet is really kind of stagnited，
+[Speaker 1]:  but from protocol design。
+[Speaker 1]:  there's like not a lot of new stuff。
+[Speaker 0]:  all of it's built on top ereracing that is kind of what i'm trying to go for what you're saying is you've actually built this transient way for folks to connect and chat without there being any record。
+[Speaker 1]:  thethe really big problem is on what's app signal ie message telegram is you've applications disguise themselves。
+[Speaker 1]:  withyou sending something to somebody else。
+[Speaker 1]:  you're really sending something to a server。
+[Speaker 1]:  that question is like，
+[Speaker 1]:  okay。
+[Speaker 1]:  well，
+[Speaker 1]:  whose servers are those。
+[Speaker 0]:  it's coming at such an important influction point for like the future of our country attack，
+[Speaker 0]:  and they just have this conversation that seems be manipulated to summit。
+[Speaker 1]:  it feels very manipulated。
+[Speaker 1]:  and to me，
+[Speaker 1]:  the future of attack is needing to build this infrastructure。
+[Speaker 1]:  now if we're crippling it，
+[Speaker 1]: 嗯，
+[Speaker 0]:  well today were joined by bret lion。
+[Speaker 0]:  perhaps the most one of the most interesting people in tech II have a lot of stories to share。
+[Speaker 0]:  and IMO is kind of blown away every time you catch up because you tell me a new story that just puts everything i ever done one，
+[Speaker 0]:  an p，
+[Speaker 0]:  elen compason。
+[Speaker 0]:  um and i think the most interesting one i heard recently and i'd never heard it before。
+[Speaker 0]:  and this was during a period，
+[Speaker 0]:  i believe where we were investors in your previous company。
+[Speaker 0]:  um was you？
+[Speaker 0]:  you are pilot，
+[Speaker 0]:  you have a pilot license，
+[Speaker 0]:  and you decided to optimize your life by flying places。
+[Speaker 0]:  um and you had a uan unfortunate experience。
+[Speaker 0]:  i believe flying back from one of our meetings。
+[Speaker 1]:  yeah，
+[Speaker 1]:  well，
+[Speaker 1]:  i mean，
+[Speaker 1]:  as one is driving to work in the area，
+[Speaker 1]:  and i realize it was almost forty five minutes，
+[Speaker 1]:  which used to be fifteen，
+[Speaker 1]:  and my family lives up in the taahoo regions omicgoel。
+[Speaker 1]:  i think the plane can fly there and about the same time，
+[Speaker 1]:  maybe i could just can me te that way now is before um before worked from home was like qudified by um by coved。
+[Speaker 1]:  so i had a phylike can need to physically be present。
+[Speaker 1]:  um so yeah，
+[Speaker 1]:  i start flying。
+[Speaker 0]:  and so your daily driver was a daily flyer。
+[Speaker 0]:  great。
+[Speaker 1]:  yeah。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so i put like thirteen hundred hours on。
+[Speaker 1]:  i'm a serious。
+[Speaker 1]:  and yeah，
+[Speaker 1]:  one day after meeting here，
+[Speaker 1]:  i left and got in the plane took off from sancarlos and some where around over the over oakland airport bengine started acting up。
+[Speaker 1]:  and you know，
+[Speaker 1]:  i thought，
+[Speaker 1]:  maybe it's like some sort of water in the fuel or something。
+[Speaker 1]:  but i climbed up cleared braveo and felt like i was okay。
+[Speaker 1]:  and right after that，
+[Speaker 1]:  that lost pretty much all power。
+[Speaker 0]:  and um and what went through your head a media。
+[Speaker 0]:  we ah after that uah，
+[Speaker 1]:  yeah，
+[Speaker 1]:  actually message my friends and say，
+[Speaker 1]:  i guys i'm emergency。
+[Speaker 1]:  i love you。
+[Speaker 1]:  um uh，
+[Speaker 1]:  i don't no，
+[Speaker 1]:  i just declared emergency and just try to think okay，
+[Speaker 1]:  where do i crash and not hurt people？
+[Speaker 1]:  i found a field，
+[Speaker 1]:  and it turns out，
+[Speaker 1]:  you know，
+[Speaker 1]:  i was up pretty high。
+[Speaker 1]:  and there is a yeah giant airport right next to it's not oakland，
+[Speaker 1]:  but it was uh you can，
+[Speaker 1]:  and field，
+[Speaker 1]:  uh uh，
+[Speaker 1]:  forget the name，
+[Speaker 1]:  me，
+[Speaker 1]:  the town，
+[Speaker 1]:  and uh giant ant milmilary。
+[Speaker 0]:  oh yeah，
+[Speaker 0]:  allimeter。
+[Speaker 1]:  no，
+[Speaker 1]:  it was the other one，
+[Speaker 1]:  the other one，
+[Speaker 1]:  uh，
+[Speaker 1]:  on the other side of them not arrange there。
+[Speaker 1]:  uh you can't feel is a name of it believe，
+[Speaker 1]:  but um then you landed there。
+[Speaker 1]:  but so but before that kind kind of just field，
+[Speaker 1]:  then i was psyriright。
+[Speaker 1]:  well，
+[Speaker 1]:  i've get a parachute，
+[Speaker 1]:  but i seeks parachute。
+[Speaker 1]:  do do i ll ll it？
+[Speaker 1]:  i was thinking，
+[Speaker 1]:  alright。
+[Speaker 1]:  well，
+[Speaker 1]:  when i read all these crash reports，
+[Speaker 1]:  the reason the pilot dies is because dididn't paracachuolike II kind of like，
+[Speaker 1]:  well，
+[Speaker 1]:  the airport right there。
+[Speaker 1]:  and i'm still in the airflag。
+[Speaker 0]:  and isn't that a funny corker that plane that it's like technically the safest plane ever made？
+[Speaker 0]:  but yet it's involved in the most crashes because people never use a safety fuure ure well。
+[Speaker 1]:  and i mean it，
+[Speaker 1]:  it does work，
+[Speaker 1]:  but it destroys es plane too。
+[Speaker 1]:  so yeah，
+[Speaker 1]:  it's shoot a rocket back the tail and ririps out all the stuff out and yeah，
+[Speaker 1]:  regions，
+[Speaker 1]:  the plane。
+[Speaker 1]:  so and then it's not a guarantee that you're going to lan nicely on ground。
+[Speaker 1]:  and in fact，
+[Speaker 1]:  the seat，
+[Speaker 1]:  i think you're made with a crumble impact things。
+[Speaker 1]:  so when you do hit the ground，
+[Speaker 1]:  it absorbs some of the so compression，
+[Speaker 0]:  and this is all playing out over how long is a period of time。
+[Speaker 1]:  oh，
+[Speaker 1]:  i don't know a probably like minutes，
+[Speaker 1]:  less，
+[Speaker 1]:  maybe less。
+[Speaker 1]:  and then anyanyi just made it called the land and landed roll right on to the transit parking spot。
+[Speaker 1]:  there was as columate，
+[Speaker 1]:  it was frustrated，
+[Speaker 1]:  and it ll confused like when i got out of the plane。
+[Speaker 1]:  and then uh you know there's big fire truck thing。
+[Speaker 1]:  yeah，
+[Speaker 1]:  the huge ones yeah，
+[Speaker 1]:  that look like some kid made them。
+[Speaker 1]:  they're big um the guy get out of that shakes my hand。
+[Speaker 1]:  and then that's when it the fear hit me，
+[Speaker 1]:  because i'm like，
+[Speaker 1]:  that's the guy scraping my my brains，
+[Speaker 1]:  often，
+[Speaker 1]:  no，
+[Speaker 1]:  no，
+[Speaker 1]:  is the guy。
+[Speaker 1]:  this puts the fire out like the yeah that was close。
+[Speaker 1]:  and uh then don't like no right idea，
+[Speaker 1]:  have to get home somehow to run a run a car。
+[Speaker 1]:  drifl does kind of end of it from me，
+[Speaker 1]:  like，
+[Speaker 1]:  you know that the risk is too high。
+[Speaker 1]:  i kept the plane for while and ended up，
+[Speaker 1]:  uh，
+[Speaker 1]:  fearing it out to loss bagas and selling it。
+[Speaker 1]:  but oh，
+[Speaker 0]:  does you ever find out what the issue were the cause？
+[Speaker 1]:  yeah，
+[Speaker 1]:  i was like three，
+[Speaker 1]:  really weird things at the same time。
+[Speaker 1]:  um one was a piece of metal on the eron take control vvve。
+[Speaker 1]:  but the canada ever broke off and sucked into the air and take manifold and then went ent in the oil pen。
+[Speaker 1]:  and it was crutioned at syyinder，
+[Speaker 1]:  three and six。
+[Speaker 1]:  i think，
+[Speaker 1]:  oh，
+[Speaker 1]:  wow，
+[Speaker 1]:  then that caused a an electrical problem with something with these spark，
+[Speaker 1]:  which was controlled by a brand uum um electronic fuel，
+[Speaker 1]:  electronic ignition system that stopped working。
+[Speaker 1]:  and so then i lost have ignition。
+[Speaker 1]:  and then at the same time，
+[Speaker 1]:  my magnedo on the other side，
+[Speaker 1]:  which is the backup also stopped word。
+[Speaker 1]:  oh yeah。
+[Speaker 1]:  so it's like three is like casascating strange failure。
+[Speaker 1]:  and then it was also，
+[Speaker 1]:  we're tuook is on the ground。
+[Speaker 1]:  the magnet a was kind of working a little bit。
+[Speaker 1]:  so it would start。
+[Speaker 1]:  but then when you went to highe RP ms and just went e bye bye。
+[Speaker 1]:  so yeah anyway，
+[Speaker 1]:  yeah，
+[Speaker 1]:  so that's what it was it took while to figure out。
+[Speaker 1]:  uh but yeah，
+[Speaker 1]:  there was thousand interesting to track le happens。
+[Speaker 0]:  yeah，
+[Speaker 0]:  now you now you understand why the year the pope kisses the ground when it gets off the plain eggs。
+[Speaker 1]:  yeah，
+[Speaker 1]:  if there's ever plple of my life，
+[Speaker 1]:  it will have less moving parts。
+[Speaker 0]:  probably have you're back up back in pilots and every dundancy。
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah。
+[Speaker 1]:  and if you fly a you can you you increasing your，
+[Speaker 1]:  i guess you're risk level little bit。
+[Speaker 0]:  yeah。
+[Speaker 0]:  well，
+[Speaker 0]:  that，
+[Speaker 0]:  and that sort of probably triggered a lot of things。
+[Speaker 0]:  i know we're here to talk about your new venture，
+[Speaker 0]:  which which short of is something very，
+[Speaker 0]:  it's say very different for you。
+[Speaker 0]:  it seems more like a more close to home，
+[Speaker 0]:  um more important。
+[Speaker 0]:  and so maybe we can talk a bit about dogs，
+[Speaker 0]:  sure。
+[Speaker 0]:  and sort of like why you decided to build？
+[Speaker 0]:  well，
+[Speaker 0]:  first of all，
+[Speaker 0]:  what is it what caused you to do it？
+[Speaker 0]:  um and and kind of maybe you're thinking around why this is important right now？
+[Speaker 0]:  well，
+[Speaker 1]:  okay，
+[Speaker 1]:  the dogs net。
+[Speaker 1]:  first of all，
+[Speaker 1]:  uh，
+[Speaker 1]:  maybe she explaplathe name。
+[Speaker 1]:  ah ah ah you HI was uh is a kid at my hacer name was dox。
+[Speaker 1]:  and then i started a business in high school。
+[Speaker 1]:  my high school friend uh called doc's net，
+[Speaker 1]:  and we were renting this before cloud，
+[Speaker 1]:  and we renting ting ver server，
+[Speaker 1]:  basically giving user accounts for for money。
+[Speaker 1]:  yeah，
+[Speaker 1]:  um totally legid business。
+[Speaker 1]:  and in high school are making pretty good money with these shalaccounts。
+[Speaker 1]:  yeah shelacaccounts。
+[Speaker 1]:  we are something shall accounts for five milllies a month，
+[Speaker 1]:  but we had a thousand users。
+[Speaker 1]:  yeah，
+[Speaker 1]:  and we had all these features and people like it there。
+[Speaker 1]:  re's actually little community around it for a while。
+[Speaker 1]:  um but i should yeah got at high school and shut it all down，
+[Speaker 1]:  started my career and but it's kept the min。
+[Speaker 1]:  and also，
+[Speaker 1]:  i'm very fascciny about particle design and the fact that the internet is really kind of stagnated bit from a particle design。
+[Speaker 1]:  there's like not a lot of new stuff，
+[Speaker 1]:  all of its built on top。
+[Speaker 1]:  so there's that and then just noticing the shift of censoror censorship peoppeopleprivacy being eroted in all of this kind of thing kind of in the uprize of VPN。
+[Speaker 1]:  uh made it really interesting to make it a kind of an alternative network that kind of is designed from the ground up to protect people，
+[Speaker 1]:  uh from advertisers，
+[Speaker 1]:  trackers，
+[Speaker 1]:  mell，
+[Speaker 1]:  where uh and you know，
+[Speaker 1]:  foreign adversaries，
+[Speaker 1]:  trying to learn about what you're doing。
+[Speaker 1]:  and i mean，
+[Speaker 0]:  the original promise of the internet was this incredible marketplace of ideas，
+[Speaker 0]:  unrestricted，
+[Speaker 0]:  no censorship，
+[Speaker 0]:  right？
+[Speaker 0]:  i think a lot of original there，
+[Speaker 0]:  a lot of the original people around the founding of what became the internet，
+[Speaker 0]:  where were you know，
+[Speaker 0]:  free speech maxilists。
+[Speaker 0]:  it was sort of a very，
+[Speaker 0]:  very specific crowd。
+[Speaker 0]:  and i think over the last couple years，
+[Speaker 0]:  that tear point is has shifted pretty incredibly right？
+[Speaker 1]:  yeah。
+[Speaker 1]:  and it's in the hands of a few。
+[Speaker 1]:  um so you know，
+[Speaker 1]:  for example，
+[Speaker 1]:  trying is good example is，
+[Speaker 1]:  is china that com trina to talcom m this，
+[Speaker 1]:  there has a china neck。
+[Speaker 1]:  yeah，
+[Speaker 1]:  anyway，
+[Speaker 1]:  either way，
+[Speaker 1]:  the um as a pregate chocold of the entire population using net network as an opportunity to force people in a different decision making processes。
+[Speaker 1]:  and the internet originally，
+[Speaker 1]:  like he said，
+[Speaker 1]:  is kind of designed with this like we're open kind of concept。
+[Speaker 1]:  so bring that back is some one of the things that was kind of interested in doing um trying to figure out new ways of doing things that might kind of leverage before the internet you way back back today。
+[Speaker 1]:  wireless networking was what uh hello honet or something like that is a wireless through um um packet modems and things。
+[Speaker 1]:  but now we have a really high powerful wifi on the edge，
+[Speaker 1]:  um incredible opportunities to create better mesh protocols uh and better p to p。
+[Speaker 1]:  and kind of really one of the biggest stains of the entire internet is curia。
+[Speaker 1]:  great net has just destroying applications of ability to do really cool stuff and um erasing that is kind of what i'm trying to go for jotcha。
+[Speaker 0]:  um and also，
+[Speaker 0]:  i think we know one of the interesting things as we always talk about sort of foreign governments，
+[Speaker 0]:  restricting internet access，
+[Speaker 0]:  right？
+[Speaker 0]:  we we harart on china in russia，
+[Speaker 0]:  um but i was in a in a state recently that has a know your customer rule，
+[Speaker 0]:  and they rereiring your blocking access to certain websites。
+[Speaker 0]:  um you know，
+[Speaker 0]:  whatever they define is being inappropriate。
+[Speaker 0]:  it could be a health website。
+[Speaker 0]:  it could be whatever um and so we're actually seeing the the creeof of kind of the censorship even within the united states。
+[Speaker 1]:  yes，
+[Speaker 1]:  it's creeping into the US，
+[Speaker 1]:  and it's being done in in a way kind kind of ve because you're asking a lot of times are asking the network to solve an identity problem。
+[Speaker 1]:  and the network doesn't do identity。
+[Speaker 1]:  yeah，
+[Speaker 1]:  you know it's not that hammer yeah。
+[Speaker 1]:  and i kear the the nail IP adaddress is not your drivers licenence and asking people to do network restrictions based off of age。
+[Speaker 1]:  and things like that，
+[Speaker 1]:  it makes a lot of sense，
+[Speaker 1]:  but in different place in the stack。
+[Speaker 1]:  yeah，
+[Speaker 1]:  you know，
+[Speaker 1]:  if they want want to present，
+[Speaker 1]:  you know，
+[Speaker 1]:  restrict things for certain reasons that should be done in a much different way and not asking the network to do it。
+[Speaker 1]:  so yeah，
+[Speaker 1]:  II think that we're starting to see that united states for seeing it definitely elsewhere。
+[Speaker 1]:  um and it's also not just with like age restrictions。
+[Speaker 1]:  but uh interesting problem popped up the other day where google or a cisco umbrella broke for like a major carrier because they classify that carrier as france。
+[Speaker 1]:  they're not even in france，
+[Speaker 1]:  really as far as their corporate structure goes。
+[Speaker 1]:  but france had AA rule requiring them to block like one hundred plus pieracy sites。
+[Speaker 1]:  and they said，
+[Speaker 1]:  no，
+[Speaker 1]:  we're going to go scorch stors。
+[Speaker 1]:  we're just going to block france。
+[Speaker 1]:  well，
+[Speaker 1]:  then there's the blast radius of that，
+[Speaker 1]:  which is okay。
+[Speaker 1]:  well，
+[Speaker 1]:  then if your GO provider accidentally identifies somebody's the wrong location，
+[Speaker 1]:  then you're also know part of that policy。
+[Speaker 1]:  yeah，
+[Speaker 1]:  and it's terrible。
+[Speaker 0]:  those those classifications are always the worst。
+[Speaker 0]:  i mean，
+[Speaker 0]:  we were looking at we were looking at an investment opportunity in a company that makes chat pots that are focused on more like partnership type stuff for companionship type stuff。
+[Speaker 0]:  and half of the classifications engines classified is a doll contempt。
+[Speaker 0]:  and and just just sort of okay。
+[Speaker 0]:  well，
+[Speaker 0]:  this is like a legitimate like you know，
+[Speaker 0]:  EE partner e spouse side，
+[Speaker 0]:  like it's not doing the untoward stuff。
+[Speaker 1]:  yeah，
+[Speaker 1]:  we've run into that a little bit to darks because it's got too axes in it。
+[Speaker 1]:  and then also，
+[Speaker 1]:  there's starcing yeah，
+[Speaker 1]:  but it actually worked out in our favor because we got flag。
+[Speaker 1]:  i think with uh claud and then we applied with no the proper means to go through there，
+[Speaker 1]:  uh，
+[Speaker 1]:  the registration process，
+[Speaker 1]:  and it opened up everything for us。
+[Speaker 1]:  just nice，
+[Speaker 1]:  nice ah，
+[Speaker 0]:  yeah。
+[Speaker 0]:  and so maybe i mean，
+[Speaker 0]:  i think so。
+[Speaker 0]:  so you know，
+[Speaker 0]:  the this creeping，
+[Speaker 0]:  sort of the creeping information to terleterarianism um has given birth to a whole bunch products of which we know we're all super familiar right in vpn is probably the most most common。
+[Speaker 0]:  um and so maybe 'd be great to hear a little bit about sort of why the existing tools i know know。
+[Speaker 0]:  why are you building dogs？
+[Speaker 0]:  how was it different？
+[Speaker 0]:  maybe we could double click a bit on on sorter your thoughts around it。
+[Speaker 1]:  yeah。
+[Speaker 1]:  sure。
+[Speaker 1]:  it's quite so a lot of the vpenons um i would say or just entry and exit points。
+[Speaker 1]:  so they're operate the leasa server from a landlorand uh set up a polite thethere's software on it。
+[Speaker 1]:  and then you connect to it，
+[Speaker 1]:  encrypted it，
+[Speaker 1]:  then then 're requests and things that you do on the internet comfort out that note。
+[Speaker 0]:  and that's to solve the your ip addresses your identity problem。
+[Speaker 1]:  yeah kind ah kind of is a way around that，
+[Speaker 1]:  i guess。
+[Speaker 1]:  and but it's also kind of people feel like there's more security to that。
+[Speaker 1]:  and i could argue against that。
+[Speaker 1]:  but um if it's very basic，
+[Speaker 1]:  it's not if you think about it that those networks are real time adjustiable，
+[Speaker 1]:  you could apply a api to everything。
+[Speaker 1]:  and uh also，
+[Speaker 1]:  you can are a well，
+[Speaker 1]:  here's an api that your agent can use。
+[Speaker 1]:  they can build an entire network。
+[Speaker 1]:  and you're just using the VPN protocols as a way to get into that area。
+[Speaker 1]:  and then inside，
+[Speaker 1]:  we can create either。
+[Speaker 1]:  you can call it while garden or a parallel internet or where everyone to call it，
+[Speaker 1]:  but we build an entire man network hundred and ninety six different domains that don't exist on the internet。
+[Speaker 1]:  you can register domains，
+[Speaker 1]:  you can lease IP addresses，
+[Speaker 1]:  you lethese meash addresses or public addresses。
+[Speaker 1]:  um h ate policy all within can contcontsystem goss。
+[Speaker 1]:  so it's a whole different ecosystem and there。
+[Speaker 1]:  and then on top of that，
+[Speaker 1]:  we've been able to use that um system since we we can kind of control it um to create p to p applications actually work。
+[Speaker 1]:  so like phone sall that vehicle chat，
+[Speaker 1]:  uh，
+[Speaker 1]:  all those those things sit best of class on top of the app run across the mish network。
+[Speaker 1]:  and it's all ecypted docha，
+[Speaker 1]:  no phone numbers，
+[Speaker 1]:  no，
+[Speaker 1]:  no email dresses，
+[Speaker 1]:  no names，
+[Speaker 1]:  no，
+[Speaker 1]:  uh，
+[Speaker 1]:  no，
+[Speaker 1]:  nothing。
+[Speaker 0]:  so it's it's funny。
+[Speaker 0]:  it's funny。
+[Speaker 0]:  and that's that's that's phenomenal because i think you know，
+[Speaker 0]:  we're we're both pretty well steeped in the security space。
+[Speaker 0]:  and you know，
+[Speaker 0]:  i think i come from sort of i've had a drilled into my head that if you want to have a private conversation，
+[Speaker 0]:  don't do it anywhere，
+[Speaker 0]:  anywhere，
+[Speaker 0]:  anything with with battery or 're electrical signal，
+[Speaker 0]:  right，
+[Speaker 0]:  right？
+[Speaker 0]:  um and so and so what you're saying is you've actually built this sort of trtranent ent um for focuks to connect and chat without there being any record。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so you create your account，
+[Speaker 1]:  you just have to prove your human by doing a little puzzle。
+[Speaker 1]:  um once you do that，
+[Speaker 1]:  you get a talken at yours。
+[Speaker 1]:  um you can change it。
+[Speaker 1]:  um you can delete your account，
+[Speaker 1]:  make a new um，
+[Speaker 1]:  but once you're in there，
+[Speaker 1]:  you can create a certificate and share with a friend。
+[Speaker 1]:  you don't really know you're doing it just as yum biite friend and looks kind of like normal，
+[Speaker 1]:  but it's actually doing a crptographic exchange with each other。
+[Speaker 1]:  and then you have extra privileges。
+[Speaker 0]:  i think i think the key lesson of PKI was actually，
+[Speaker 0]:  if you tell people，
+[Speaker 0]:  it's PKI，
+[Speaker 0]:  it's not going to work。
+[Speaker 0]:  yeah，
+[Speaker 0]:  you have to get of abstract that later way yeyeah。
+[Speaker 1]:  it's it's well，
+[Speaker 1]:  it's not even PKI is private key influenly。
+[Speaker 1]:  it's not public。
+[Speaker 1]:  so anyway，
+[Speaker 1]:  you and your friend just decided，
+[Speaker 1]:  okay，
+[Speaker 1]:  we trust each other now that unloxxy ability for the phones over the mesion network to talk to each other indirectly。
+[Speaker 1]:  then also，
+[Speaker 1]:  you have all these really called fire file transfer stuff，
+[Speaker 1]:  which is no file size limit。
+[Speaker 1]:  theyou're big proms is on what's up signal imemessage telegram。
+[Speaker 1]:  and by the way，
+[Speaker 1]:  telegrams creepy，
+[Speaker 1]:  um all of those applications disguise themselves as you sending something to somebody else，
+[Speaker 1]:  but you're really sending something to a server。
+[Speaker 1]:  and then the servers，
+[Speaker 1]:  then having the other person pull that。
+[Speaker 1]:  so if you upload to file you're uploloadit and and also also the upload infrastructures and always is diriributed，
+[Speaker 1]:  or it doesn't might even be a little bit slow ah h might be be one。
+[Speaker 1]:  one part of UUS。
+[Speaker 1]:  you're uploading it to another to the uploaded a little slow。
+[Speaker 1]:  so when we use our applications，
+[Speaker 1]:  it extracts，
+[Speaker 1]:  all of that，
+[Speaker 1]:  it's gone。
+[Speaker 1]:  so it's really no middle man，
+[Speaker 1]:  no server in the middle，
+[Speaker 1]:  and your phone becomes a server to uh your frifast。
+[Speaker 1]:  and it's fast it。
+[Speaker 1]:  it works great。
+[Speaker 1]:  you can send our gget of five two one other and one week about its private network point point point point，
+[Speaker 1]:  yeah and and and ww。
+[Speaker 1]:  it's like three layers，
+[Speaker 1]:  four layers of encrypptuatlture。
+[Speaker 1]:  so yeah，
+[Speaker 1]:  it's post quantum。
+[Speaker 1]:  and i mean，
+[Speaker 1]:  these are really nice tools to have。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so i know when you start stacking up all of these things。
+[Speaker 1]:  yeah，
+[Speaker 1]:  what's net is kind of like this yeah ooooit for freedom of speech。
+[Speaker 1]:  i guess，
+[Speaker 0]:  freedom from surveillance。
+[Speaker 0]:  yeah。
+[Speaker 1]:  yeah ah。
+[Speaker 1]:  we should talk about that，
+[Speaker 0]:  which is what's interesting。
+[Speaker 0]:  i mean，
+[Speaker 0]:  you mention ed you you tetegragram is PPIII。
+[Speaker 0]:  ah uh，
+[Speaker 0]:  i would，
+[Speaker 0]:  i think i find all it just seems like a lot of the VPNI don't want to to say all because that's the absolutest term。
+[Speaker 0]:  but it seems like a lot of the PPS very，
+[Speaker 0]:  very eey，
+[Speaker 0]:  right？
+[Speaker 0]:  and and without basashing anyone specific，
+[Speaker 0]:  i think，
+[Speaker 0]:  for me，
+[Speaker 0]:  the most illustrative story was in the in the news。
+[Speaker 0]:  there was there was actually an issue where a bunch of organized criminals were arrested across the world。
+[Speaker 0]:  is australia。
+[Speaker 0]:  i believe it arrested some，
+[Speaker 0]:  the us said，
+[Speaker 0]:  arrested some，
+[Speaker 0]:  and it turned out that the fbi had built a secure messaging up um and then marketed it exclusively to organize criminal groups。
+[Speaker 0]:  and so these guys are like，
+[Speaker 0]:  don't trust signal cause that's the nsa。
+[Speaker 0]:  let's use。
+[Speaker 0]:  let's use this up because this is safe and only five people use it。
+[Speaker 0]:  i and it turned out that they all got inded ted because and they are letting muss them in prison。
+[Speaker 0]:  now um and so like in the US，
+[Speaker 0]:  right，
+[Speaker 0]:  we've seen this activity。
+[Speaker 0]:  and then if you look on any app store and you look for vpn，
+[Speaker 0]:  you probably find fifty vps，
+[Speaker 0]:  yeah that are all theare free abroad。
+[Speaker 1]:  well，
+[Speaker 1]:  if it's free，
+[Speaker 1]:  there's nothing free，
+[Speaker 1]:  yeah。
+[Speaker 1]:  and if you're not paying for it，
+[Speaker 1]:  you're the product you're being eaten alive。
+[Speaker 1]:  yeknow nice is，
+[Speaker 1]:  is as pretty oooolass。
+[Speaker 1]:  we can use them to protect people。
+[Speaker 1]:  and so the ark nets ts u space，
+[Speaker 1]:  but we also have a swiss company that handles all of european operations。
+[Speaker 1]:  so there's separation between the operations between the two regions were doing other regions like that too。
+[Speaker 1]:  so it's it's yeah。
+[Speaker 1]:  corporate governance actually matters in these these tegisst situations。
+[Speaker 1]:  but like you know，
+[Speaker 1]:  i just don't feel comfortable with my data going to a company that doesn't talk about who owns it，
+[Speaker 1]:  why they exist other than privacy。
+[Speaker 1]:  um you know，
+[Speaker 1]:  we made a very，
+[Speaker 1]:  very，
+[Speaker 1]:  very conscious decision that were very open，
+[Speaker 1]:  though what we're doing whoinvolved。
+[Speaker 1]:  why why the decisions of them made those ways？
+[Speaker 1]:  and and it's it's also a kind of to drive community too。
+[Speaker 1]:  but um yeah，
+[Speaker 1]:  i there，
+[Speaker 1]:  there are creey vapons ons there。
+[Speaker 1]:  oh，
+[Speaker 0]:  yeah，
+[Speaker 0]:  i mean，
+[Speaker 0]:  an，
+[Speaker 0]:  you know know，
+[Speaker 0]:  it's not just。
+[Speaker 0]:  i mean，
+[Speaker 0]:  it's funny because we like to talk about nation states。
+[Speaker 0]:  we like to talk about intelligence agency，
+[Speaker 0]:  israel like CIA and SA。
+[Speaker 0]:  these are all super cool um but in reality，
+[Speaker 0]:  like the risks are a lot more low level than that right？
+[Speaker 0]:  like。
+[Speaker 0]:  and you know，
+[Speaker 0]:  for some of these，
+[Speaker 0]:  there are instances at the beginning of sort of the crypt of the initial crptotal currency waves，
+[Speaker 0]:  where people's accounts were getting drained。
+[Speaker 0]:  and they were using some of these services。
+[Speaker 0]:  uh there were another countries。
+[Speaker 0]:  and it turns out that，
+[Speaker 0]:  like you know，
+[Speaker 0]:  in of these countries，
+[Speaker 0]:  you have the meshing together of the intelligent state apperaats。
+[Speaker 0]:  and organized crime，
+[Speaker 0]:  right？
+[Speaker 0]:  and so and so you you see where these things start to blead into each other。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i mean，
+[Speaker 1]:  uh then people look at the policies to the vps it on your logs know this。
+[Speaker 1]:  and the but question is like，
+[Speaker 1]:  okay，
+[Speaker 1]:  well，
+[Speaker 1]:  whose servers are those？
+[Speaker 1]:  yeah，
+[Speaker 1]:  are they owned by big brand VPN？
+[Speaker 1]:  or are they least and if there least who are they leased from？
+[Speaker 1]:  and what are those people doing with the data and what are their policies？
+[Speaker 1]:  but there's there's that whole underbelly because and learning about that is been difficult。
+[Speaker 1]:  but there personally was not not up to be building infrastructure all over the world as rapidly as i could。
+[Speaker 1]:  but i ended up realizing that，
+[Speaker 1]:  that was yeah。
+[Speaker 1]:  it's not your equipment。
+[Speaker 1]:  uh you can't set policy，
+[Speaker 1]:  it's just you can't。
+[Speaker 1]:  and then then the the next later policy is the the carriers and interconnect beyond beyond your cage，
+[Speaker 1]:  whatever it is。
+[Speaker 1]:  so it's been incredible amounof work to work around um yeknow the beare metals of service，
+[Speaker 1]:  kind of creepy underbelly。
+[Speaker 0]:  and this is like one big difference with。
+[Speaker 0]:  i think a lot of folks right is that you own the full stack from like software，
+[Speaker 0]:  a wire，
+[Speaker 1]:  yeah software wire，
+[Speaker 1]:  and uh even all the AI components run rounding and things like that or all on our bit on on r metal。
+[Speaker 1]:  well，
+[Speaker 0]:  II think that was that was one of the funny things。
+[Speaker 0]:  i think when we originally start talking about this was um you were you were incredibly ditrusting of large influence in eye providers。
+[Speaker 0]:  yeah ah，
+[Speaker 0]:  and and you build your own AI stack。
+[Speaker 0]:  yeah，
+[Speaker 0]:  that's and so so i mean，
+[Speaker 0]:  GP user short in shortage。
+[Speaker 0]:  it's that it the power is hard to get everybody dy's 's titidata that are now like，
+[Speaker 0]:  how did you pull that off？
+[Speaker 0]:  yeah，
+[Speaker 0]:  and six months very efficiently。
+[Speaker 1]:  well，
+[Speaker 1]:  i mean，
+[Speaker 1]:  we built uh so far，
+[Speaker 1]:  it's like twenty six sites around the world with you。
+[Speaker 0]:  does it rounding and uh and how many employees in the company。
+[Speaker 1]:  so i total，
+[Speaker 1]:  i think the people volved twelve，
+[Speaker 1]:  yeah，
+[Speaker 1]:  wow，
+[Speaker 1]:  yeah。
+[Speaker 1]:  okay。
+[Speaker 1]:  and we have no network administrator，
+[Speaker 1]:  no sa sedman。
+[Speaker 1]:  that's all done by AI。
+[Speaker 1]:  so um and it's actually works。
+[Speaker 1]:  and quite well，
+[Speaker 1]:  uh，
+[Speaker 1]:  i kind of i'm kind on top itory the nice thing，
+[Speaker 1]:  though，
+[Speaker 1]:  if you think about our footprint of，
+[Speaker 1]:  like，
+[Speaker 1]:  like who's involved，
+[Speaker 1]:  you know，
+[Speaker 1]:  we don't have a thousand employees with access to this network。
+[Speaker 1]:  yeah me，
+[Speaker 1]:  you know the the the the blast radiof，
+[Speaker 1]:  uh just the corporate structures，
+[Speaker 1]:  very minimal。
+[Speaker 1]:  yeah，
+[Speaker 0]:  now，
+[Speaker 0]:  that's that's impressive。
+[Speaker 0]:  and i think you know，
+[Speaker 0]:  the yeah，
+[Speaker 0]:  the the you know，
+[Speaker 0]:  the thing，
+[Speaker 0]:  we very rarely talfortable，
+[Speaker 0]:  because it's kind of uncomfortable yejust，
+[Speaker 0]:  how great and extent inside der threat is yeah and how it's like the most crippling catastropphic side real taacks。
+[Speaker 0]:  are we sort of the insider threat angle？
+[Speaker 0]:  and now you're saying with agents like you're kind of leyour eliminminat least ast，
+[Speaker 1]:  a good portion of that race。
+[Speaker 1]:  yeah，
+[Speaker 1]:  and it's running in its own a secure environment that is not exporting data like a one of the big AI compananso。
+[Speaker 1]:  so all the contets and inference and stuff stays inside，
+[Speaker 1]:  and we have it secured，
+[Speaker 1]:  and we monitor all equating with cameras。
+[Speaker 1]:  and uh，
+[Speaker 1]:  no one goes in touches。
+[Speaker 0]:  any d have agents that watched ccameras for the actually well。
+[Speaker 1]:  i mean，
+[Speaker 1]:  technically，
+[Speaker 1]:  we don't，
+[Speaker 1]:  but the camera companies that made the agents don't try。
+[Speaker 1]:  yeah yeah，
+[Speaker 1]:  we get alarms。
+[Speaker 1]:  if something moves and something like yeknow，
+[Speaker 1]:  something goes around，
+[Speaker 1]:  but yeah，
+[Speaker 1]:  we've even thought about putting lasers in a couple of spots。
+[Speaker 0]:  but ah kind of make admission of possible stuff。
+[Speaker 1]:  i'm like quite now that be kind of fun。
+[Speaker 0]:  yeah，
+[Speaker 0]:  ah you got ta have the one data center。
+[Speaker 1]:  you take people too yeah，
+[Speaker 0]:  to impress them，
+[Speaker 0]:  right？
+[Speaker 0]:  that's the like the switch data centers and loasof agas。
+[Speaker 0]:  you know，
+[Speaker 0]:  they got the i gueep with the fifty commmachine。
+[Speaker 1]:  and ah ah II memean laser ers。
+[Speaker 1]:  i did this stick anyway，
+[Speaker 1]:  long story short。
+[Speaker 1]:  uh we did look into it and even got the the uh，
+[Speaker 1]:  the uh actuated switches。
+[Speaker 1]:  so so the bebeamdidid break。
+[Speaker 1]:  so we did actually set off the arms and things。
+[Speaker 1]:  but uh just the problem was the data center doesn't turn off the lights。
+[Speaker 1]:  so you don't get to see this really cool displays。
+[Speaker 1]:  oh，
+[Speaker 1]:  and there's no dust in there。
+[Speaker 1]:  and there's no cool play。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so yeah，
+[Speaker 0]:  you can bring some talking powders，
+[Speaker 0]:  because that don't know know。
+[Speaker 1]:  so i go，
+[Speaker 1]:  let's smoke up the data center for laser show。
+[Speaker 1]:  that's the other thing。
+[Speaker 1]:  this starly crazy is people like don't understand data centers at all。
+[Speaker 1]:  oh，
+[Speaker 1]:  yeah，
+[Speaker 1]:  it's crazy。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i think you're seeing that in the popular press，
+[Speaker 1]:  right？
+[Speaker 1]:  oh，
+[Speaker 1]:  yeah。
+[Speaker 1]:  no，
+[Speaker 1]:  they drink water。
+[Speaker 1]:  yeah，
+[Speaker 1]:  so they come on。
+[Speaker 1]:  no，
+[Speaker 1]:  it's data。
+[Speaker 1]:  a digsters been round for a very，
+[Speaker 1]:  very long time yeyeah。
+[Speaker 1]:  they need water when they break，
+[Speaker 1]:  and you have to replunh some of the water and there some evaporation，
+[Speaker 1]:  but it's not like they're running off of water。
+[Speaker 1]:  it's a crazy part yeah。
+[Speaker 0]:  and it's just sort of like i think i think in in order of like most impressive machines，
+[Speaker 0]:  humans of bill，
+[Speaker 0]:  like one is probably commercial airliners，
+[Speaker 0]:  right？
+[Speaker 0]:  and two is tta be data ascenters like there's so incredibly sophisticated their close systems。
+[Speaker 1]:  like yeah，
+[Speaker 1]:  i mean，
+[Speaker 1]:  the data ceners themselves are kind of just boring buildings，
+[Speaker 1]:  yeh。
+[Speaker 1]:  and the the other thing is like this sounds，
+[Speaker 1]:  i've never heard sound outside of a data cenner before before ah maybe a dator something before i see videos or people are watching data。
+[Speaker 1]:  and and i look at how it's audio from inside and dob people aren't smart of to know that yeah，
+[Speaker 1]:  that it's uh，
+[Speaker 1]:  it's fake。
+[Speaker 1]:  yeah，
+[Speaker 0]:  i mean，
+[Speaker 0]:  yeah，
+[Speaker 0]:  that's all contained with inxisitithese thing。
+[Speaker 1]:  people are being manipulated with this day。
+[Speaker 1]:  ate anything isn't it？
+[Speaker 0]:  amazing，
+[Speaker 0]:  right？
+[Speaker 0]:  and i think like it's going to be，
+[Speaker 0]:  i think，
+[Speaker 0]:  over as the years progress，
+[Speaker 0]:  it's it's going to come out that this was all just some sort of like very interested group of a organizations are interest。
+[Speaker 0]:  i completely manipulating public opinion to some end。
+[Speaker 1]:  yeah，
+[Speaker 1]:  but it's very interesting to be in the know and then watch this。
+[Speaker 1]:  and i go，
+[Speaker 1]:  oh，
+[Speaker 1]:  my gna，
+[Speaker 1]:  see people people missing the mark。
+[Speaker 0]:  have you seen？
+[Speaker 0]:  i mean，
+[Speaker 0]:  because you give been to twenty something data centors in the last couple months，
+[Speaker 0]:  if you seen actual protesters outside，
+[Speaker 0]:  no，
+[Speaker 0]:  never，
+[Speaker 0]:  yeah，
+[Speaker 0]:  i know i haven't like，
+[Speaker 1]:  no，
+[Speaker 1]:  you see nothing。
+[Speaker 1]:  it's just most of them，
+[Speaker 1]:  especially like the big data center parin。
+[Speaker 1]:  uh，
+[Speaker 1]:  virginia，
+[Speaker 1]:  yeah，
+[Speaker 1]:  you to see funny rabbits in the field。
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah，
+[Speaker 1]:  just a big building in a bunch of parking light nono，
+[Speaker 1]:  nothing。
+[Speaker 1]:  yeah。
+[Speaker 0]:  meanwhile，
+[Speaker 0]:  let's like one of the ricast counties in the in the country，
+[Speaker 0]:  cucause of all the datacentters，
+[Speaker 0]:  right，
+[Speaker 1]:  right，
+[Speaker 1]:  because it brings jobs。
+[Speaker 1]:  the people are work in them in the field pennies，
+[Speaker 1]:  and uh and it also brings high tech talent，
+[Speaker 1]:  yeah，
+[Speaker 1]:  and then also infrastructure and infrastructure powers everything you do。
+[Speaker 1]:  yeah，
+[Speaker 1]:  so if you have a data center your biby interinternet faster。
+[Speaker 1]:  yeah things like that work。
+[Speaker 1]:  but well，
+[Speaker 1]:  then they on which one it is，
+[Speaker 0]:  but and then they argument about data centors drinking water goes back to some quite that was like fabricated entirely like it's it's yeah。
+[Speaker 1]:  well，
+[Speaker 1]:  i think there was the switched data builbuilbuilnenear o。
+[Speaker 1]:  ah and they built this big like lake out there。
+[Speaker 1]:  and then people think that it lives off the lake。
+[Speaker 1]:  yeah and realiis，
+[Speaker 1]:  you know，
+[Speaker 1]:  if say，
+[Speaker 1]:  you have a chililer failure and you，
+[Speaker 1]:  you have to drain all that closest。
+[Speaker 1]:  now you need to refill。
+[Speaker 1]:  yeah ah it's thing to the like。
+[Speaker 1]:  yeah，
+[Speaker 1]:  so anyah。
+[Speaker 1]:  yeah，
+[Speaker 1]:  it's so it's interesting to see people。
+[Speaker 1]:  yeah ah know i work in these buildings and then you see the conspiracy theories，
+[Speaker 1]:  and it's like it we're way off here。
+[Speaker 1]:  i'm sorry。
+[Speaker 0]:  this feels just like them like the people that think the moon landing was fake。
+[Speaker 0]:  like it just feels like classic sort，
+[Speaker 0]:  but it。
+[Speaker 0]:  but i do think like this is it's coming at such an important inflection point for like the future of our country。
+[Speaker 0]:  attech yeah society and general。
+[Speaker 0]:  um and they just have this conversation that seems be manipulated to summit。
+[Speaker 1]:  it feelels very manipulated。
+[Speaker 1]:  and to me，
+[Speaker 1]:  the future of attech is needing to build this infrastructure。
+[Speaker 1]:  now yeah。
+[Speaker 1]:  and if if 're crippling it，
+[Speaker 1]:  then we're making bad decisions。
+[Speaker 1]:  yeah，
+[Speaker 1]:  and we're making bad decisions on instagram posts。
+[Speaker 1]:  yeah。
+[Speaker 1]:  and if for tippk，
+[Speaker 1]:  right，
+[Speaker 1]:  which you knows where that content is more like some crazy entty data in music video。
+[Speaker 1]:  yeah ah that's that's public opinion is being forced with being framed by that。
+[Speaker 0]:  well，
+[Speaker 0]:  this is the second half。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i guess i know we had talked about sort of intelligence agencies in the big bad，
+[Speaker 0]:  scary government，
+[Speaker 0]:  right？
+[Speaker 0]:  but like and now we're talking more about clearly an operation that's probably being done by some sort of commercial interest to manipulate public inion on yeright，
+[Speaker 0]:  which goes to kind of the second half of why you built talks，
+[Speaker 0]:  which is like，
+[Speaker 0]:  you know，
+[Speaker 0]:  advertising，
+[Speaker 0]:  oh yeah，
+[Speaker 0]:  which is sort of like the like people like to think the nsa is incredibly sophisticated。
+[Speaker 0]:  but you know，
+[Speaker 0]:  advertisers are probably far ahead what they're doing。
+[Speaker 0]:  i think you're seeing now where intelligence agencies are actually using data brokers and using the techniques of that agencies。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so the gllar apps have these tracackers。
+[Speaker 1]:  uh，
+[Speaker 1]:  what's up has DAT that what's up that uh，
+[Speaker 1]:  apple even has apple kilometry。
+[Speaker 1]:  they call a toometry or mada data，
+[Speaker 1]:  whatever they want to call it。
+[Speaker 1]:  it's it's some level of it is a tracker，
+[Speaker 1]:  and you can block them。
+[Speaker 1]:  it doesn't break the up，
+[Speaker 1]:  doesn't break most websites。
+[Speaker 1]:  don't have any problem with that telieary data breaking because of the rest of the site was still low。
+[Speaker 1]:  but you know，
+[Speaker 1]:  so he asked me very controversial，
+[Speaker 1]:  wealthy individual said，
+[Speaker 1]:  well，
+[Speaker 1]:  so what someone will won't know that i purchase uh underwear off of target tot com。
+[Speaker 1]:  and then my h well，
+[Speaker 1]:  it's not really that one。
+[Speaker 1]:  it's all of them when you combine all of the tracking that's being done on every different app you're using or every different website and it accumulates。
+[Speaker 1]:  and then it's being stored by who knows who where and being sold。
+[Speaker 1]:  and then when you aggregate all data points together，
+[Speaker 1]:  you could know if you're a coffee drinker，
+[Speaker 1]:  what time can you wake up in the morning？
+[Speaker 1]:  um what your income is where you shop um how after you purchase things。
+[Speaker 1]:  and if you're preparing for the birth of a child，
+[Speaker 0]:  they're perhaps for divorce，
+[Speaker 1]:  right？
+[Speaker 0]:  some other big wife eventate。
+[Speaker 1]:  they probably know these events move sooner。
+[Speaker 1]:  yeah，
+[Speaker 1]:  your spououse it。
+[Speaker 1]:  yeah ah um so turning it off，
+[Speaker 1]:  doesn't bother me at all。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i love all that stuff being turned off。
+[Speaker 1]:  i hate that kind of stuff。
+[Speaker 1]:  so that's a big piece of the app is well，
+[Speaker 1]:  the the network。
+[Speaker 1]:  it's not just part。
+[Speaker 1]:  the apps part。
+[Speaker 1]:  the network is to kind of deconstruct all of that and get rid of it。
+[Speaker 1]:  and just kind of like the get back to the old internet that has h the ability to connect cted things and has the ability to your create。
+[Speaker 1]:  and and then also，
+[Speaker 1]:  you not not be sped on by you know，
+[Speaker 0]:  advertisers and governments and everybody else when it seems like we're really at an infleletion point because you have the birth of essentially coin operated intelligence at scale，
+[Speaker 0]:  right？
+[Speaker 0]:  you can deploy millions。
+[Speaker 0]:  you've got the prevent。
+[Speaker 0]:  you got the proverbial millions of of monkeys with millions are infinite monkeys with infinite typewiters。
+[Speaker 0]:  um and and so we're sort of looking at this world in which there's more telemetry。
+[Speaker 0]:  there's more data everything you do is being tracked，
+[Speaker 0]:  and you can combine that with intelligence right to to actually arrive at some pretty scary conclusion。
+[Speaker 1]:  yeah，
+[Speaker 1]:  you can take all that and just dump it into an ele m and say，
+[Speaker 1]:  tell me about this person。
+[Speaker 1]:  yeah，
+[Speaker 1]:  if you get an answer，
+[Speaker 0]:  probably really effective targeting against things like datasoners as well。
+[Speaker 0]:  right？
+[Speaker 0]:  yeah，
+[Speaker 0]:  like you start to see these mass movements orchestrated across multiple platforms。
+[Speaker 0]:  and you start to think like，
+[Speaker 0]:  uh，
+[Speaker 0]:  that's that's pretty clever。
+[Speaker 1]:  yeah，
+[Speaker 1]:  left people should be targeting those maybe not the data centers，
+[Speaker 1]:  but the tracking is pretty bad ad tracking。
+[Speaker 1]:  it's you know that that kind of stuff really can go away in your life would be better。
+[Speaker 1]:  yeah。
+[Speaker 1]:  um so yeah，
+[Speaker 1]:  that's like the court。
+[Speaker 1]:  it's like trying to recreate that vibe。
+[Speaker 1]:  the internet used to have and then try then see where we could take it yeah，
+[Speaker 1]:  with with bigger resources。
+[Speaker 1]:  and and things like that，
+[Speaker 1]:  you could start creating more partiticles and things like they don't exist yet。
+[Speaker 1]:  yeah，
+[Speaker 0]:  absolutely。
+[Speaker 0]:  i mean，
+[Speaker 0]:  the internet succeeded because it was free。
+[Speaker 0]:  and so thank you for trying to make it free。
+[Speaker 1]:  yeah try，
+[Speaker 1]:  but but have you have me me just is awesome。
+[Speaker 0]:  so don't don't，
+[Speaker 0]:  if you know know，
+[Speaker 0]:  but our paths cross a long time ago。
+[Speaker 0]:  um i was looking back through some of my archives and and II did a lot of work um started in the early acanands deed of spots。
+[Speaker 0]:  so stockled drought TFNTFNUK。
+[Speaker 0]:  um and then，
+[Speaker 0]:  obviously，
+[Speaker 0]:  a large large denal of dessert service distrited，
+[Speaker 0]:  ted count attacks。
+[Speaker 0]:  and you were at the forefront of building a lot of the solutions to prevent that，
+[Speaker 0]:  like it plexic。
+[Speaker 1]:  yeah，
+[Speaker 0]:  um like how did that get going？
+[Speaker 1]:  well，
+[Speaker 1]:  actually，
+[Speaker 1]:  can it goes back to dogs，
+[Speaker 1]:  that and high school people were attacking my servers。
+[Speaker 1]:  and so we had to figure out better ways to protect them and techniques and tricks and and all the different things you need to do to survive a detados attack。
+[Speaker 1]:  and i started writing um kind of my list of what you would do to survive，
+[Speaker 1]:  and then somehow II presented that it sands。
+[Speaker 1]:  and then it got an in google，
+[Speaker 1]:  and then people start calling me。
+[Speaker 1]:  and then we started dealing with real cybrigragram extortion people traying to take。
+[Speaker 1]:  you know，
+[Speaker 1]:  one company cells watches，
+[Speaker 1]:  the other cells watches。
+[Speaker 1]:  the other one is attacking the other watch company during christmas cells season um or you know，
+[Speaker 1]:  supervols about to start and all the gambling sites ts，
+[Speaker 1]:  good dark。
+[Speaker 1]:  yeah，
+[Speaker 1]:  um things like that，
+[Speaker 1]:  and it got pretty serious。
+[Speaker 1]:  and so a builtihole company to protect businesses from these attacks。
+[Speaker 1]:  in the way i looked at is like you need big scale。
+[Speaker 1]:  you need to have the biggest most expensive stuff，
+[Speaker 1]:  and not everyone could afford that we''ll turn that into kind of at least services。
+[Speaker 1]:  is it it？
+[Speaker 1]:  no，
+[Speaker 1]:  it's when the first cloud services to exist and as pretty very successful still exist today。
+[Speaker 1]:  it's kami proxic ic theyy'even ket，
+[Speaker 1]:  the name that's just rare。
+[Speaker 1]:  and and then we did defence that later on which became a five silver line。
+[Speaker 1]:  and and then so in between all that i really like big scales，
+[Speaker 1]:  stuff and and band with。
+[Speaker 1]:  and uh so the other one we did was called big gravity。
+[Speaker 1]:  and that was one of the first or these first videocentricc c dians。
+[Speaker 1]:  so big file a big object delivery，
+[Speaker 1]:  and we have some really great customers。
+[Speaker 1]:  theare really on people got it。
+[Speaker 1]:  and then we had a lot attack around it to save people money。
+[Speaker 1]:  you know，
+[Speaker 1]:  people don't realize it hit play。
+[Speaker 1]:  and he's downloading a progressive file。
+[Speaker 1]:  and it before all this kind of media management stuff existed，
+[Speaker 1]:  you're just wasting band with just to scroll into the middle of a video。
+[Speaker 1]:  yeah，
+[Speaker 1]:  cocost people money。
+[Speaker 1]:  so anyway，
+[Speaker 1]:  we created all kinds of cool stuff er around video。
+[Speaker 1]:  and so as far as like building it，
+[Speaker 1]:  a new network for consumers，
+[Speaker 1]:  it well actually tually。
+[Speaker 1]:  it's a little bit for bots too。
+[Speaker 1]:  um i it's actually a lot of agentic networking components to it。
+[Speaker 1]:  it's a great at my alc because i love building big infrastructure。
+[Speaker 1]:  i love building building a scaled stuff，
+[Speaker 1]:  but now it's kind of twisting instead doing this for corporations or doing for people，
+[Speaker 1]:  never really seeing a lot of that being done at least well。
+[Speaker 1]:  so it's going to be fun to see。
+[Speaker 1]:  can i help people adapt to it？
+[Speaker 1]:  but um i think one of the more interesting things about that is，
+[Speaker 1]:  uh，
+[Speaker 1]:  we might even see some dedos on our netward。
+[Speaker 1]:  i'm sure you're ready for that well in bound from the internet。
+[Speaker 1]:  but what happens is somebody gets on to my network and start to using it inside and now have to deal with those those silly people。
+[Speaker 1]:  yeah，
+[Speaker 1]:  but um yeah，
+[Speaker 1]:  the truth is，
+[Speaker 1]:  even if you have privacy，
+[Speaker 1]:  there's still laws and you need to at least follow them as much as you can。
+[Speaker 0]:  so but i think one other interesting thing。
+[Speaker 0]:  so you know it's it's sort of，
+[Speaker 0]:  and this is that kind of spending spending years talking with you？
+[Speaker 0]:  one other interesting thing is that you created an art work that actually hung the at the ethomoma。
+[Speaker 0]:  yeah，
+[Speaker 0]:  and it's part of the permanent collection。
+[Speaker 1]:  that's that's two pieces。
+[Speaker 1]:  um yeah。
+[Speaker 1]:  uh，
+[Speaker 1]:  college project i studied philosophy only，
+[Speaker 1]:  if studied。
+[Speaker 0]:  yes，
+[Speaker 1]:  i studied that。
+[Speaker 1]:  uh then the artist，
+[Speaker 1]:  aesthetics and anyway，
+[Speaker 1]:  smelter stuff it a lot of it was like theoreticical AI。
+[Speaker 1]:  yeah，
+[Speaker 1]:  oh，
+[Speaker 1]:  my wow。
+[Speaker 1]:  actually philosopy degree makes a lot of sense ce。
+[Speaker 1]:  this is helpful。
+[Speaker 1]:  uh，
+[Speaker 1]:  but yeah，
+[Speaker 1]:  i started mapping。
+[Speaker 1]:  uh，
+[Speaker 1]:  network saas。
+[Speaker 1]:  i was doing。
+[Speaker 1]:  i was a penetration test ter was hacking ethical hahacking into other companies，
+[Speaker 1]:  and i found that casing the joint was the easiest way to start。
+[Speaker 1]:  so you make it network diagram and where all the stuff is and how it all works。
+[Speaker 1]:  and what you think is where and then i start automating that。
+[Speaker 1]:  and then i got it mouthat lunch ch day and and bet some guys that um i could probably use the same technique to map the entire internet。
+[Speaker 1]:  and the that started a fifty dollar bet that i was pretty sure was gonna lose。
+[Speaker 1]:  and then i got hit by a car in a bicycle。
+[Speaker 1]:  oh，
+[Speaker 1]:  okay，
+[Speaker 1]:  yeah，
+[Speaker 1]:  and couldn't walk。
+[Speaker 1]:  and i said in my life are really slow，
+[Speaker 1]:  and i sat down and started doing the code for that。
+[Speaker 1]:  and that became the opi project。
+[Speaker 1]:  and they that ended up in not just maoma，
+[Speaker 1]:  but like boston museum of science，
+[Speaker 1]:  uh all over the world and different traveling exhibits。
+[Speaker 1]:  and um then imated animations of that，
+[Speaker 1]:  too。
+[Speaker 1]:  and it's pretty neat because it's that project。
+[Speaker 1]:  it's got a lot of intention，
+[Speaker 1]:  not just because it's blitks cool，
+[Speaker 1]:  but there's kind of really interesting history in in in the videos。
+[Speaker 1]:  things are happening，
+[Speaker 1]:  you could see companies crashing burn。
+[Speaker 1]:  and all kinds of stuff。
+[Speaker 1]:  and i was like enough to be able to talk to event surve about it。
+[Speaker 1]:  and yeah have opportunities to ask my questions to him，
+[Speaker 1]:  and sciricuthat is awesome and youyouve you've done one youve。
+[Speaker 0]:  probably accomplish two of the harder things do in this world，
+[Speaker 0]:  which is one starting a successful tech company。
+[Speaker 0]:  and two being a sucessssartist being an art as a successful artist，
+[Speaker 0]:  is probably much more difficult than starting attech company。
+[Speaker 0]:  yeah，
+[Speaker 1]:  it was actually kind of strange，
+[Speaker 1]:  you know，
+[Speaker 1]:  after i went to the opening it imama。
+[Speaker 1]:  and it was，
+[Speaker 1]:  you know，
+[Speaker 1]:  this giant party，
+[Speaker 1]:  yeah，
+[Speaker 1]:  and you know，
+[Speaker 1]:  was one of the artist，
+[Speaker 1]:  and you know that we hadn't do you exhibit？
+[Speaker 1]:  and like the piece er er it was just kind of government，
+[Speaker 1]:  this is kind of cool。
+[Speaker 1]:  this is ADJ。
+[Speaker 1]:  there's 're drinking。
+[Speaker 1]:  and then uh and then the curators they took me to a siarly interesting parts of mmas。
+[Speaker 1]:  other properties are down，
+[Speaker 1]:  and it was really cool experience。
+[Speaker 1]:  but the next day，
+[Speaker 1]:  i kind of have this this and posture syndrome，
+[Speaker 1]:  yeah，
+[Speaker 1]:  where i just felt super depressed on like wow II ever going to experience。
+[Speaker 1]:  but arartists feels like ever again，
+[Speaker 1]:  because this kind kind of acacdental，
+[Speaker 1]:  you know，
+[Speaker 1]:  yeah um but yeah，
+[Speaker 1]:  i got to do it again，
+[Speaker 1]:  but but it was yet very strange surreal。
+[Speaker 1]:  uh moment in life strgly，
+[Speaker 0]:  the only person in tech。
+[Speaker 0]:  they can say that，
+[Speaker 1]:  yeah，
+[Speaker 1]:  it's interesting in a lot of artist friends that are probably much better artist than me。
+[Speaker 1]:  and uh，
+[Speaker 1]:  yeah，
+[Speaker 1]:  they're like，
+[Speaker 1]:  what how did you get in the moment？
+[Speaker 0]:  yeah，
+[Speaker 1]:  that happened。
+[Speaker 1]:  yeah，
+[Speaker 1]:  and part the permanent collection，
+[Speaker 1]:  too。
+[Speaker 1]:  yeah，
+[Speaker 1]:  just me。
+[Speaker 0]:  yeah，
+[Speaker 0]:  you're one of a few hundred hundred thousand。
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah，
+[Speaker 1]:  i forget about that sometimes。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i also figured about the book too。
+[Speaker 0]:  that is true。
+[Speaker 0]:  yeah，
+[Speaker 0]:  we have not talked about the book。
+[Speaker 0]:  i don't know you want to cover that or sure we'll grow this on the list of great，
+[Speaker 1]:  great。
+[Speaker 1]:  why？
+[Speaker 1]:  for for story？
+[Speaker 1]:  i keep for getting about that。
+[Speaker 1]:  it exists。
+[Speaker 1]:  yeah。
+[Speaker 1]:  and yeh recently。
+[Speaker 1]:  so II have an ai parade web camp that watches spatat s mmy yei。
+[Speaker 0]:  yeah yeah yeah。
+[Speaker 0]:  yeah，
+[Speaker 1]:  then it has，
+[Speaker 1]:  and it's twenty four hours。
+[Speaker 1]:  it's spbeen up for almost a year。
+[Speaker 1]:  now。
+[Speaker 1]:  it has got a little check community of people on there，
+[Speaker 1]:  and one of them figured out who i was。
+[Speaker 1]:  and then the other day，
+[Speaker 1]:  look，
+[Speaker 1]:  i just finisshreading the book about you。
+[Speaker 1]:  and like，
+[Speaker 1]:  what oh h what would you mean about？
+[Speaker 1]:  oh，
+[Speaker 1]:  sure。
+[Speaker 1]:  that's right。
+[Speaker 1]:  they figured it out。
+[Speaker 0]:  so what is the book about you？
+[Speaker 0]:  when what is it about how it's been so like？
+[Speaker 1]:  so it's about，
+[Speaker 1]:  i think it's the beginnings of proxic and tracking down these uh cyber criminals in russia。
+[Speaker 1]:  and specifically，
+[Speaker 1]:  these guys，
+[Speaker 1]:  there's a coucouple of extremely aggressive，
+[Speaker 1]:  extorting and damaging a lot of our clients。
+[Speaker 1]:  yeah ah ah so we just kind kind had enough of it。
+[Speaker 1]:  so this this got to end。
+[Speaker 1]:  i mean，
+[Speaker 1]:  we had christmas is destroyed because we're just dealing customers and network ortages。
+[Speaker 0]:  when these are like real criminals。
+[Speaker 0]:  these are these are are just attkers。
+[Speaker 0]:  these are people that are doing human trafficking，
+[Speaker 0]:  the trafficking and arcotics，
+[Speaker 0]:  and they have a site hosoit。
+[Speaker 1]:  there's some stuff going on。
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah，
+[Speaker 0]:  like real criminals right ah，
+[Speaker 1]:  and they went to prient for a think，
+[Speaker 1]:  eight years and hard labor，
+[Speaker 1]:  something like that。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i don't know what happened to them afterwards。
+[Speaker 1]:  but yeah，
+[Speaker 1]:  that，
+[Speaker 1]:  that was really we went out to russia。
+[Speaker 1]:  and uh，
+[Speaker 1]:  got turned around it。
+[Speaker 1]:  we were there in moscow for a while。
+[Speaker 1]:  then there was a reasof really interesting signals of like you need to leave now。
+[Speaker 1]:  so we laughgh。
+[Speaker 1]:  but uh，
+[Speaker 1]:  yeah，
+[Speaker 1]:  that hope le book is about that whole saga。
+[Speaker 1]:  what happened uh through that period of time？
+[Speaker 1]:  it's it's really weird because it's yeknow when you live it，
+[Speaker 1]:  it seems kind normal。
+[Speaker 1]:  but and you look back in OGG。
+[Speaker 1]:  so i was kind of crazy。
+[Speaker 1]:  yeah，
+[Speaker 0]:  i tell you every time talk。
+[Speaker 0]:  i hear no news stories。
+[Speaker 1]:  how's i talk about burning man that could be a all episode itself。
+[Speaker 1]:  yeah，
+[Speaker 0]:  actually when was your first book burning man is next week。
+[Speaker 1]:  yeah ah this coming weekend。
+[Speaker 1]:  yeah，
+[Speaker 1]:  coming weekend。
+[Speaker 0]:  yeah yeah。
+[Speaker 0]:  yeah，
+[Speaker 0]:  are you going to shir？
+[Speaker 1]:  yeah，
+[Speaker 1]:  awesome。
+[Speaker 1]:  i think it's your fourteen you're fourteen。
+[Speaker 1]:  some mrunner II can't remember，
+[Speaker 1]:  we lost a couple there to ve it side。
+[Speaker 1]:  yeah，
+[Speaker 1]:  don't remember which ones i skipped，
+[Speaker 0]:  but um and you have a famous car。
+[Speaker 1]:  well，
+[Speaker 1]:  my partner has the famous car。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so problem created mine warrior and i created mine warrior camp now。
+[Speaker 1]:  and so we were partners in that whole crazy thing for a while。
+[Speaker 1]:  and why that that car went from，
+[Speaker 1]:  like，
+[Speaker 1]:  you know，
+[Speaker 1]:  is fun project to like a whole global。
+[Speaker 1]:  uh um phenomenon like get，
+[Speaker 1]:  you know，
+[Speaker 1]:  people pay money to cosee it。
+[Speaker 1]:  it's crazy。
+[Speaker 1]:  uh，
+[Speaker 1]:  it was a lot of it was，
+[Speaker 1]:  you know what？
+[Speaker 1]:  let's think about this morning is like when your passion about something，
+[Speaker 1]:  it kind of cook kind of creates that or around you。
+[Speaker 1]:  and then other people pick up on it。
+[Speaker 1]:  and we were very passionate about that project。
+[Speaker 1]:  and i think it kind kind of inspired a lot of folks to do really interesting。
+[Speaker 1]:  other projects are similar to it。
+[Speaker 1]:  and this is the first year。
+[Speaker 1]:  we're not taking it to the to the player。
+[Speaker 1]:  it's no wow，
+[Speaker 1]:  not going。
+[Speaker 1]:  that's we're done。
+[Speaker 0]:  will you bedoin your laser feel there？
+[Speaker 1]:  no，
+[Speaker 1]:  wow。
+[Speaker 1]:  no right。
+[Speaker 1]:  no，
+[Speaker 1]:  well，
+[Speaker 1]:  they''ll be something。
+[Speaker 1]:  uh it's not not mit's probably got beaubeautiful art piece。
+[Speaker 1]:  there's two art pieces that he's bring that year that 'll be pretty cool，
+[Speaker 1]:  awesome，
+[Speaker 1]:  but uh，
+[Speaker 1]:  no more travelling superpower soundstage。
+[Speaker 1]:  it's that's gone。
+[Speaker 0]:  how's the ve bother now that you can get starling？
+[Speaker 1]:  it's actually，
+[Speaker 1]:  i mean，
+[Speaker 1]:  you couldn't argue against it。
+[Speaker 1]:  you could arargue for it。
+[Speaker 1]:  i find that if you're running t for me like when you're organizing a camp or dealing with，
+[Speaker 1]:  you know，
+[Speaker 1]:  oh，
+[Speaker 1]:  we ran out of water on our car。
+[Speaker 1]: 嗯，
+[Speaker 1]:  it helps because you can communicate yeah，
+[Speaker 1]:  totally because we always bring high power red motorrole radio。
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah，
+[Speaker 0]:  and it's we're using short wave too，
+[Speaker 1]:  right？
+[Speaker 1]:  i can sort of yeah，
+[Speaker 1]:  so you have a radioand，
+[Speaker 1]:  then that's kind of fun。
+[Speaker 1]:  and yeah grw minds have been a kids。
+[Speaker 1]:  yeah，
+[Speaker 1]:  but but it's also like you know it's those communications device。
+[Speaker 1]:  so out there。
+[Speaker 1]:  i don't know it takes the a job when when it comes es，
+[Speaker 1]:  like finding things or organizing things，
+[Speaker 1]:  people don't get stuck at the gate very ononger。
+[Speaker 1]:  yeah，
+[Speaker 1]:  but if you're sitting there watching movies，
+[Speaker 1]:  that's probably the wrong use。
+[Speaker 1]:  yeah，
+[Speaker 1]:  wrong use for it。
+[Speaker 1]:  you know，
+[Speaker 0]:  go to a very mamatennet foox and chill。
+[Speaker 0]:  no，
+[Speaker 1]:  no，
+[Speaker 1]:  if you if you're using it for uh anything other than like local communications，
+[Speaker 1]:  and maybe it's like the wrong wrong use，
+[Speaker 1]:  but but it，
+[Speaker 1]:  but it has changed a it。
+[Speaker 1]:  yeah，
+[Speaker 0]:  awesome。
+[Speaker 0]:  oh，
+[Speaker 0]:  as you said，
+[Speaker 0]:  right，
+[Speaker 0]:  like you ursue your passion and that takes it down all sworts of amazing rabbholes。
+[Speaker 0]:  and you are clearly someone that it is always pursuing his passience。
+[Speaker 0]:  so thank you。
+[Speaker 0]:  so much for stopping by i am，
+[Speaker 0]:  i am a incredibly happy dogs，
+[Speaker 0]:  net user and and and thank you for building it。
+[Speaker 0]:  it's good to get that old internet，
+[Speaker 1]:  vite back。
+[Speaker 1]:  yeah，
+[Speaker 1]:  well，
+[Speaker 1]:  it's just getting started and thanks for 're，
+[Speaker 1]:  trusting me that helped it。
