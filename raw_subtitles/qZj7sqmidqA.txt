@@ -1,0 +1,2219 @@
+[Speaker 1]:  hello，
+[Speaker 1]:  everyone，
+[Speaker 1]:  uh，
+[Speaker 1]:  i have a pack room for a two hour workshop，
+[Speaker 1]:  which is amazing。
+[Speaker 1]:  welcome to AI engineer。
+[Speaker 1]:  i no，
+[Speaker 1]:  no，
+[Speaker 1]:  it's officially welcome ed，
+[Speaker 1]:  but uh，
+[Speaker 1]:  welcome to AI engineer。
+[Speaker 1]:  uh，
+[Speaker 1]:  this venue is amazing。
+[Speaker 1]:  this crowd is really quite surprising，
+[Speaker 1]:  and i have uh，
+[Speaker 1]:  a ton of content for you today。
+[Speaker 1]:  uh，
+[Speaker 1]:  my name is larry of us。
+[Speaker 1]:  i am head of developer relations at a rise AI。
+[Speaker 1]:  um h of you may remember me from when i used to coo found MPM ink。
+[Speaker 1]:  uh，
+[Speaker 1]:  so you may remember me from like javascript days。
+[Speaker 1]:  um but these days，
+[Speaker 1]:  i talk about AI uh and how to test it ah and how to make it work。
+[Speaker 1]:  so what are we going to be covering today？
+[Speaker 1]:  um we've got a really good stretch of time together ah so we're going to cover a lot of ground，
+[Speaker 1]:  and i'm going to start with fundamentals。
+[Speaker 1]:  that's why this is called the one of one session。
+[Speaker 1]:  uh，
+[Speaker 1]:  we're going to stay what evves are，
+[Speaker 1]:  why you need them and why agents make evaluation harder than simple LM applications。
+[Speaker 1]:  then we're going to set up tracing in a rise。
+[Speaker 1]:  ax x is how you captured the raw data you need to run evalils in the first place。
+[Speaker 1]:  uh，
+[Speaker 1]:  we're going to build a simple ai agents with the cloud agent sdk，
+[Speaker 1]:  we're going to run it，
+[Speaker 1]:  and we're going to look at the traces it produces。
+[Speaker 1]:  can i get a show hands if you've already built an agents are right，
+[Speaker 1]:  great。
+[Speaker 1]:  i'm going to spend no time at all on how the agent works，
+[Speaker 1]:  because i assume everybody knows how an agent works，
+[Speaker 1]:  and you're here to learn how to eevaluate them once。
+[Speaker 1]:  we've got some data um we're going to do something that a lot of tutorial skip，
+[Speaker 1]:  which is we're going to actually look at the data。
+[Speaker 1]:  we're going to read our traces。
+[Speaker 1]:  we're going to categorize what went wrong um and we're going to figure out what to measure before we write a single evall。
+[Speaker 1]:  then we're going to write three kinds of evalils。
+[Speaker 1]:  there are codevalws，
+[Speaker 1]:  which are a simple deterministic checks，
+[Speaker 1]:  very similar to unitests。
+[Speaker 1]:  then we're going to use built LMM vos like fafathfulness，
+[Speaker 1]:  where a second lm judges the output of your first one，
+[Speaker 1]:  and we're going to do a custom evl elyymis，
+[Speaker 1]:  a judge from scratch。
+[Speaker 1]:  and we're also going to test whether our judges are judging correctly a process called matter evaluation。
+[Speaker 1]:  then we're going to finish with datassets and experiments，
+[Speaker 1]:  which is how you iterate on your agent and actually measure whether it's getting better。
+[Speaker 1]:  um including we're going to use cloud code to automatically improve our app in response to feedback from our evals。
+[Speaker 1]:  so first things first um get your notebook HI messed up earlier and didn't have permission set correctly。
+[Speaker 1]:  so if you scan this earlier and it didn't work，
+[Speaker 1]:  it works now grab this notebook and make a copy for yourself that is where we're going to be living all day，
+[Speaker 1]:  and i'm going to wait for that to happen because otherwise，
+[Speaker 1]:  i'm enough to keep swapping back to this slide。
+[Speaker 1]:  all right，
+[Speaker 1]:  most of those down。
+[Speaker 1]:  no，
+[Speaker 1]:  no，
+[Speaker 1]:  i'm still seeing people taking。
+[Speaker 1]:  pitches are right，
+[Speaker 1]:  cool。
+[Speaker 1]:  we're also going to need a certain amount of ai infrastructure。
+[Speaker 1]:  i'm going to be using anthropic and cloud code today。
+[Speaker 1]:  a rizex works with opopen eeye works with every other land provider，
+[Speaker 1]:  but i had to pick one in order to do a workshop about it。
+[Speaker 1]:  so i have used clothso。
+[Speaker 1]:  this is，
+[Speaker 1]:  is this notebooks going to expect you to have uh，
+[Speaker 1]:  anthroropic PIK，
+[Speaker 1]:  which you can get from console or an ththropic dot com，
+[Speaker 1]:  if not，
+[Speaker 1]:  you can，
+[Speaker 1]:  if you are very clever doing a fast swap to open eee e。
+[Speaker 1]:  you're also going to need in a rise account，
+[Speaker 1]:  go to a rise dot com and start a free trial。
+[Speaker 1]:  um from there，
+[Speaker 1]:  you even need an a rize space ID and a arize api k，
+[Speaker 1]:  both of which you can get from the settings page。
+[Speaker 1]:  uh，
+[Speaker 1]:  my lovely assistance，
+[Speaker 1]:  ant datis。
+[Speaker 1]:  uh，
+[Speaker 1]:  that's him in the corner。
+[Speaker 1]:  if you run into any problems，
+[Speaker 1]:  getting your API keys or anything like that，
+[Speaker 1]:  just flag him down，
+[Speaker 1]:  and he will run over to you and help you figure it out，
+[Speaker 1]:  which is incredibly nice of him。
+[Speaker 1]:  thank you，
+[Speaker 1]:  dad。
+[Speaker 1]:  um yes。
+[Speaker 1]:  so who who had all that stuff already？
+[Speaker 1]:  anybody already gotten arrise the ex account。
+[Speaker 1]:  all right。
+[Speaker 1]:  i'm onna。
+[Speaker 1]:  let you hang out for this gonna。
+[Speaker 0]:  let you set that one up for little while the way you do it is you go to a rise the com，
+[Speaker 1]:  and you hit hopes。
+[Speaker 1]:  it's sent me to the dogs because i always live in the dogs。
+[Speaker 1]:  you go to a rest our com。
+[Speaker 1]:  thank you。
+[Speaker 1]:  and you hit the big pink，
+[Speaker 1]:  get started button。
+[Speaker 1]:  and then you sign up from here do not accidentally sign up。
+[Speaker 1]:  phohoenix phoenix is our lovely open source project，
+[Speaker 1]:  which also has uh hosted service underneath phoenix。
+[Speaker 1]:  uh sometimes when you google arise，
+[Speaker 1]:  you get sent pphoenix instead，
+[Speaker 1]:  don't sign up phohoeniix。
+[Speaker 1]:  you are doing AX today。
+[Speaker 0]: 没有 alright。
+[Speaker 1]:  while you are signing up，
+[Speaker 1]:  i'm going to say a little bit more bit more about what ax is。
+[Speaker 1]:  it is an observvability and evaluations platform。
+[Speaker 1]:  it captures traces from your ai application，
+[Speaker 1]:  it stores and runs your evaluations and it watches your app in production and alert you when something goes wrong。
+[Speaker 1]:  um by default，
+[Speaker 1]:  we hosted for you。
+[Speaker 1]:  that is why we're using it today because you don't have to like run some software to make it run。
+[Speaker 1]:  so there's no infrastructure to manage，
+[Speaker 1]:  though，
+[Speaker 1]:  if you are from an enterprise that is superprecious about your datand。
+[Speaker 1]:  you're like now。
+[Speaker 1]:  we need to run it ourselves。
+[Speaker 1]:  you can absolutely do that if you want to。
+[Speaker 1]:  um and like i said，
+[Speaker 1]:  if youve used the rise phoenix，
+[Speaker 1]:  which is our open source tool，
+[Speaker 1]:  a lot of this will feel familiar。
+[Speaker 1]:  they have the same core ideas。
+[Speaker 1]:  one is built for open source accessibility，
+[Speaker 1]:  and the other one is built for enterprise with production and teams and things like that。
+[Speaker 1]:  so how are we doing on signing up for for keys right now？
+[Speaker 1]:  the wifi sucks that is predictable really isnant。
+[Speaker 1]:  all right is anybody like desperately and need assistance right now。
+[Speaker 1]:  all right，
+[Speaker 1]:  okay。
+[Speaker 1]:  well，
+[Speaker 1]:  the advices to switch your phones as a hot spot。
+[Speaker 1]:  i apologized for the wifi。
+[Speaker 1]:  i'm really worried about my tup m workshop，
+[Speaker 1]:  where i have a good ripoo that i know it's two hundred mgababytes large，
+[Speaker 1]:  and i'm like no one is gona get the ripoo because it's too big。
+[Speaker 1]:  yeah。
+[Speaker 1]:  yes，
+[Speaker 1]:  art art looning that poo。
+[Speaker 1]:  now anyanyum let's talk about these these fundamentals。
+[Speaker 1]:  there's a lot of theory in this workshop，
+[Speaker 1]:  which gives you time to catch up。
+[Speaker 1]:  um here re's the mental model。
+[Speaker 1]:  e。
+[Speaker 1]:  bas are testing for AI and traces our logs for IAI。
+[Speaker 1]:  why we had to come up with two completely new names for those things。
+[Speaker 1]:  i don't really know you write tests your code given this input。
+[Speaker 1]:  i expect this output ebails do the same thing，
+[Speaker 1]:  but for ai outputs where the outputs are never exactly the same twice，
+[Speaker 1]:  just as logs record，
+[Speaker 1]:  what your servver did at runtime traces record，
+[Speaker 1]:  what your ai did。
+[Speaker 1]:  so every agent call of every tool call，
+[Speaker 1]:  every elem in vocation with the inputs and outputs at each step，
+[Speaker 1]:  the building blocks of a trace are called spans。
+[Speaker 1]:  in this cidtle screen shot。
+[Speaker 1]:  you can see a trace and erzza ex。
+[Speaker 1]:  it's made up of a bunch of spans。
+[Speaker 1]:  it's got got ttree struture um and each span represents one step in the execution and LLM calall is a span。
+[Speaker 1]:  a toocall is a span full agent。
+[Speaker 1]:  turn is a span that contains other spands inside of it。
+[Speaker 1]:  each span records its input，
+[Speaker 1]:  its output，
+[Speaker 1]:  um timing token counts，
+[Speaker 1]:  and a whole bunch of meda data，
+[Speaker 1]:  everything that you need to understand what happened at that step traces。
+[Speaker 1]:  tell you what happened ebalils tell you whether it was any good。
+[Speaker 1]:  that is the model for mental model for today。
+[Speaker 1]:  this is not rocket science，
+[Speaker 1]:  but let me talk about why we even need evalls，
+[Speaker 1]:  and that is the vib's problem。
+[Speaker 1]:  ai features usually get shipped by building and ai feature running a few queries，
+[Speaker 1]:  saying，
+[Speaker 1]:  does this look right？
+[Speaker 1]:  yeah，
+[Speaker 1]:  it looks good。
+[Speaker 1]:  and then you ship it。
+[Speaker 1]:  that is，
+[Speaker 1]:  by far the most popular method of shipping ai applications today。
+[Speaker 1]:  and the problem is that，
+[Speaker 1]:  then it fails on inputs that you didn't test。
+[Speaker 1]:  and the thing is it probably looks good on your test squares es。
+[Speaker 1]:  but the problem is，
+[Speaker 1]:  you ran it three times，
+[Speaker 1]:  three times times is not a test sweet，
+[Speaker 1]:  the usual fixfor flaki software s unit tests，
+[Speaker 1]:  and they don't work here，
+[Speaker 1]:  because the output is non deterministic，
+[Speaker 1]:  the same prompt produces different text every run。
+[Speaker 1]:  so two different responses might both be correct。
+[Speaker 1]:  so there's no expected string that you can assert against。
+[Speaker 1]:  so teamams fall back on human review。
+[Speaker 1]:  they watch it run。
+[Speaker 1]:  it looks fine and shieppit that doesn't scale。
+[Speaker 1]:  it doesn't catch regresons。
+[Speaker 1]:  and most importantly，
+[Speaker 1]:  it doesn't run in ci。
+[Speaker 1]:  here's some things you can't do without evalils。
+[Speaker 1]:  if you change your system，
+[Speaker 1]:  prompt to fix a tone issusue，
+[Speaker 1]:  the tone，
+[Speaker 1]:  one would get better。
+[Speaker 1]:  but now you're bought is hluluinating product features without evalils。
+[Speaker 1]:  you wouldn't catch that um until a user reported with a faithfulness evl，
+[Speaker 1]:  you would have seen the spike before it shipped and every prompt potentially affects every kind of input that users send。
+[Speaker 1]:  so you can be changing the prompt for one thing and have a completely unexpected effect at some totally different part of your application because the prompt is just a huge block of text that you're sending to your ai。
+[Speaker 1]:  you can't manually test every combination。
+[Speaker 1]:  so without evalws，
+[Speaker 1]:  you're playing vacamalld，
+[Speaker 1]:  you fix one problem and you break something somewhere else evalls and said，
+[Speaker 1]:  give you a number that you can track and compare and act on。
+[Speaker 1]:  you also can't switch models without evalals。
+[Speaker 1]:  and this matters more and more，
+[Speaker 1]:  because this field moves so fast new models drop every few months without ebails switching models means weeks of manual testing。
+[Speaker 1]:  is it better？
+[Speaker 1]:  is it worst？
+[Speaker 1]:  did something get？
+[Speaker 1]:  did something break？
+[Speaker 1]:  you don't know with ebails，
+[Speaker 1]:  you run the sweet，
+[Speaker 1]:  you compare the scores，
+[Speaker 1]:  and you know，
+[Speaker 1]:  within hours。
+[Speaker 1]:  and that is the difference fifteen flying by the seat of your pants and flying by instruments。
+[Speaker 1]:  and this is not theoretical real teams，
+[Speaker 1]:  descripts bols and tropics own cloud code，
+[Speaker 1]:  all follow the same arc of shipping on vibes and then discovering that vibes don't scale and then building evalls。
+[Speaker 1]:  and that is the same ark that we're going to follow in today's workshop。
+[Speaker 1]:  as i mentioned earlier，
+[Speaker 1]:  there are two broad types of evalls code evalls are deterministic functions。
+[Speaker 1]:  they run in milliseconds and they caused nothing。
+[Speaker 1]:  and they give you an immediate unambiguous answer，
+[Speaker 1]:  like，
+[Speaker 1]:  did the output passes？
+[Speaker 1]:  jason is the output less than five hundred tokens。
+[Speaker 1]:  did it mention the thing that i asked about the big advantage of codivouls is that they are fast and cheap and totally reproduciable。
+[Speaker 1]:  they get the same，
+[Speaker 1]:  they get the same input，
+[Speaker 1]:  and they give the same answer every time that makes them very similar to old style unitests。
+[Speaker 1]:  the downside is that like old style unit tests，
+[Speaker 1]:  they can be brittle。
+[Speaker 1]:  we have some strategies that can help avoid that。
+[Speaker 1]:  and i'm going to be covering those later um because too perfectly correct answers might be word to completely differently，
+[Speaker 1]:  and you have to adjust your expectations of unit test to be able to handle that。
+[Speaker 1]:  the second type of eval is an LM as a judgy val。
+[Speaker 1]:  these use a second LM to grade your outputs against a rubicicreubrick being yet another word that we made up。
+[Speaker 1]:  that just means rules。
+[Speaker 1]:  it is your set of rules that you put in your prompts about what counts as good。
+[Speaker 1]:  um LME valws are much more flexible。
+[Speaker 1]:  they can handle the kinds of questions that cody valls，
+[Speaker 1]:  ls ansansuum。
+[Speaker 1]:  is this response factually accurate？
+[Speaker 1]:  did it stay faitful to the source material is the tone right for a customer service context。
+[Speaker 1]:  the strength of l lm judges is that they understand a meaning，
+[Speaker 1]:  not just the strings that are in your output，
+[Speaker 1]:  but lm judges have tradeos。
+[Speaker 1]:  the weakness is that they cost money to run，
+[Speaker 1]:  and they are on deterministic themselves。
+[Speaker 1]:  so they can be wrong，
+[Speaker 1]:  which means that you need to calibrate them against human judgment。
+[Speaker 1]:  and we're going to do that later today。
+[Speaker 1]:  um there's also a third type of evaluues human evaluation。
+[Speaker 1]:  um a domain expert can read your output and graater。
+[Speaker 1]:  that is the gold standard ard quality，
+[Speaker 1]:  uh，
+[Speaker 1]:  but it is slow and expensive。
+[Speaker 1]:  and humans get tired，
+[Speaker 1]:  which is why we can't use it all the time。
+[Speaker 1]:  fun fact，
+[Speaker 1]:  that's not very fun。
+[Speaker 1]:  human annoitators missed up to fifty percent of defects duty fatigue。
+[Speaker 1]:  so they're not perfect either。
+[Speaker 1]:  so when you build an ellm as a judge and you're like，
+[Speaker 1]:  well，
+[Speaker 1]:  it doesn't always catch my errors。
+[Speaker 1]:  remember that if you were judging with human，
+[Speaker 1]:  the human would also not always catch your arears，
+[Speaker 1]:  but these are complimentary approaches。
+[Speaker 1]:  most real applications are going to use a a collection of cody valws alalemma's，
+[Speaker 1]:  a judge and human evaluation。
+[Speaker 1]:  so when do you use，
+[Speaker 1]:  which use codivalws when the answer is deterministic？
+[Speaker 1]:  so format validation length limits，
+[Speaker 1]:  forbidden phrases required fields。
+[Speaker 1]:  use LM judges，
+[Speaker 1]:  when you need semantic，
+[Speaker 1]:  understanding a correctness，
+[Speaker 1]:  eval asks，
+[Speaker 1]:  did it answer the question accurately a faithfulness evl asks，
+[Speaker 1]:  did it stick to the source documents without hillucinating？
+[Speaker 1]:  uh，
+[Speaker 1]:  and you should keep humans in the loop for failure modes that you haven't seen before。
+[Speaker 1]:  um and to verify that your LM judges are actually judging correctly。
+[Speaker 1]:  LM judges can be wrwrong judggthem againinhuman judgment is how you know whether or not you can trust them。
+[Speaker 1]:  all of that is true of any application that uses elilms。
+[Speaker 1]:  but agents make things even harder in some ways that are worth calling out。
+[Speaker 1]:  you can think of it as a latter of complexity。
+[Speaker 1]:  a single alarm call is relatively simple。
+[Speaker 1]:  you get an input。
+[Speaker 1]:  you get an output when you're talking about an agent and agent is making a series of tool calls and a series of decisions，
+[Speaker 1]:  which means that at every single step in in um chain，
+[Speaker 1]:  it is the chances that it has made a mistake are getting higher。
+[Speaker 1]:  and so the chances that it will go off，
+[Speaker 1]:  the rails are going to get um greater。
+[Speaker 1]:  so you have to judge the intermediate steps as well。
+[Speaker 1]:  you have to check whether your agent is using the right tool didn't pass。
+[Speaker 1]:  the right arguments didn't know when to stop getting stuck in loops is a real failure case for agents and then multi agent systems。
+[Speaker 1]:  if you are building those add yet another level of complexity，
+[Speaker 1]:  they had handdofs one agent decides to pass work to another。
+[Speaker 1]:  did the triodge agent wrote correctly？
+[Speaker 1]:  did the specialist agent handle the the handoff gracefully？
+[Speaker 1]:  each layer adds new ways that things go wrong，
+[Speaker 1]:  and non determinism means that you need to have more eveland，
+[Speaker 1]:  because ers can cascade e。
+[Speaker 1]:  here's what an example of an cascating failure looks like if you're you ask a query about teslla，
+[Speaker 1]:  meaning the car company，
+[Speaker 1]:  your agent searches，
+[Speaker 1]:  the web finds a whole bunch of information about an eighteen century inventor passes that back to your agent，
+[Speaker 1]:  which writes a beautiful well formatted report about an eighteen century and inventor and passes that to your boss，
+[Speaker 1]:  nothing that it did。
+[Speaker 1]:  there was wrong。
+[Speaker 1]:  it。
+[Speaker 1]:  you told it to search the web for tesla。
+[Speaker 1]:  it search the web for tesla。
+[Speaker 1]:  i'd got information about tesla。
+[Speaker 1]:  it wrote a report about tesla。
+[Speaker 1]:  where where did it go wrong？
+[Speaker 1]:  um this is worse than an obvious failure because you have to be reading your inputs and outputs for that to work。
+[Speaker 1]:  you can't there was no unitest that would have caught that um but agents can also do the opposite。
+[Speaker 1]:  they can get things right in a way that your tests we're expecting and get greated wrong。
+[Speaker 1]:  as a result。
+[Speaker 1]:  this happened to anthropic when they ran a benchmarmark led led w squsqured bench，
+[Speaker 1]:  which simulates mulltiturn customer service tasks。
+[Speaker 1]:  uh。
+[Speaker 1]:  they asked the agent to book flits um and asked it to do something that they thought was impossible，
+[Speaker 1]:  which was reschedule eeconomy class flight ght。
+[Speaker 1]:  but it turned out the polpolicies that they gave agagent allow the agent to first upupgrathe fliflight to first class first class flights can be rescheduled，
+[Speaker 1]:  which economy flights cannot。
+[Speaker 1]:  so the agent found a way to reschedule econcony ffuum and failed the test because it was supposed to be not able to do that。
+[Speaker 1]:  and it was able to do that。
+[Speaker 1]:  so this is an example of how agents flexible agents，
+[Speaker 1]:  finding things that you didn't think think um needs to be accounted for in your tests。
+[Speaker 1]:  there is a difference to ing creatively，
+[Speaker 1]:  correct and wrong。
+[Speaker 1]:  and we're going to come back to that when we talk about grading your agents later or are rather grading your evals。
+[Speaker 1]:  there's also a second way of categorizing your evals into two categories，
+[Speaker 1]:  which is capability，
+[Speaker 1]:  evalls and regression evovala。
+[Speaker 1]:  a capabeevall asks um can agagent do this thing at all。
+[Speaker 1]:  um capability evalils are expected to mostly failure。
+[Speaker 1]:  agent is expected to get a very low score on them because they give you a hill to climb。
+[Speaker 1]:  it gives you something for your agent to try and get better at ah once you've climbb that hill your capability evl turns into a regression evl，
+[Speaker 1]:  a regression evl is an evl that you expect your agent to pass completely or nearly completely every single time。
+[Speaker 1]:  so as your agent matuis，
+[Speaker 1]:  you'll be giving it capability evall after capability evl and slowly，
+[Speaker 1]:  turning them into a sweet of regression evalils that you run all the time to make sure that previous behavior has not regresed。
+[Speaker 1]:  this is what an eval result looks like。
+[Speaker 1]:  every eval produces a score。
+[Speaker 1]:  and the label，
+[Speaker 1]:  in this case，
+[Speaker 1]:  since numermerscore，
+[Speaker 1]:  just often just zero or one binary y cores are very，
+[Speaker 1]:  very YY for lm s to do。
+[Speaker 1]:  and it comes with a human rediable label like correct or incorrect or valid or invalid。
+[Speaker 1]:  um LM judges at a third thing，
+[Speaker 1]:  which is the explanation um code voues don't produce explanations because they are just code um but LM and LM is a judge will will say not just something something is incorrectly，
+[Speaker 1]:  but it will say why it decided that something is correct。
+[Speaker 1]:  and this is incredibly valuable，
+[Speaker 1]:  because if you are living in a world of coding agents，
+[Speaker 1]:  you can take a whole bunch of explanations from a bunch of evalils and pass them back to your coding agent and say，
+[Speaker 1]:  here is all the reasons that you messed up in the last test，
+[Speaker 1]:  what could you do that would make you better at this？
+[Speaker 1]:  and your coding agent will would just go cool。
+[Speaker 1]:  thank you for the feedback，
+[Speaker 1]:  improve your application，
+[Speaker 1]:  and it will get better at it next time。
+[Speaker 1]:  this is something i'm going going to show you in today's workshop。
+[Speaker 1]:  it is how you turn a failing evl into a prompt improvement。
+[Speaker 1]:  this is a real judge explanation。
+[Speaker 1]:  in this example。
+[Speaker 1]:  it。
+[Speaker 1]:  it's a travel planning agent，
+[Speaker 1]:  and you're running a correcknacy vile。
+[Speaker 1]:  the judge doesn't say incincrect。
+[Speaker 1]:  it tells you exactly what's missing。
+[Speaker 1]:  you asked for a budget flighter didn't give a budget breakdown。
+[Speaker 1]:  it says the agent destination destination info and recommendations，
+[Speaker 1]:  but the user asked about budget travel，
+[Speaker 1]:  and there were no cost estimates that explanation makes the eval actionable because you now have a concrete failure。
+[Speaker 1]:  you know what to fix in the prompts。
+[Speaker 1]:  and the explanation is what makes evils into a useful debubugging tool。
+[Speaker 1]:  and not just a score board。
+[Speaker 1]:  and if you're seeing the same explanation across fifty different traces，
+[Speaker 1]:  you know，
+[Speaker 1]:  you have a systematic problem and not a one of educase，
+[Speaker 1]:  which makes it the first thing you should fix。
+[Speaker 1]:  so you have to take your eval explanations and categorized them into types of failures and count up the categories。
+[Speaker 1]:  this is called coding。
+[Speaker 1]:  again，
+[Speaker 1]:  we can make up words from the from the ml world from the ml world，
+[Speaker 1]:  but categorizing things is known as coding。
+[Speaker 1]:  and of course，
+[Speaker 1]:  each explanation 's natural language。
+[Speaker 1]:  so it is hard to do this coding unless you use yet another l lamb to do the categorization for you we'be seeing how that works totods the end of today。
+[Speaker 1]:  um and like i said，
+[Speaker 1]:  you can hand a whole pile of these explanations to a coding agent and let the app fix it for you。
+[Speaker 1]:  this is the full loop that we're going to build today。
+[Speaker 1]:  we going to instrument trace eval and iterates each step feeds。
+[Speaker 1]:  next，
+[Speaker 1]:  you define what you want。
+[Speaker 1]:  um you build it，
+[Speaker 1]:  you measure how well it works，
+[Speaker 1]:  you ship it。
+[Speaker 1]:  you monitor it in production and you iterate based on what you see every traditional software are products go through a loop like this，
+[Speaker 1]:  but for ai，
+[Speaker 1]:  the measurement step is where most teams fall down，
+[Speaker 1]:  and evalils are how measure eevalils are the connective tissue across this whole life cycle。
+[Speaker 1]:  so let's get started building it。
+[Speaker 1]:  step one is setting up tracing with a rizy ex AX before we can run evalls。
+[Speaker 1]:  we need something some data to run our evalls on，
+[Speaker 1]:  and you can't evaluate what you can't observe。
+[Speaker 1]:  so observation comes first。
+[Speaker 1]:  so hopefully，
+[Speaker 1]:  you've conquered the wifi and you have our notebook at this point，
+[Speaker 1]:  and that is running around to make sure that you do let's go to a very first code cell，
+[Speaker 1]:  which is where i install our dependencies，
+[Speaker 1]:  cloud age。
+[Speaker 1]:  and sd k is self exaninitory。
+[Speaker 1]:  that is the cloud age。
+[Speaker 1]:  and SDKK uh oprence open inference，
+[Speaker 1]:  instrumentation，
+[Speaker 1]:  cloud age and sd k is the auto instrumentation package for the cloud age and sd k。
+[Speaker 1]:  this is how it knows to capture traces from cloud agents。
+[Speaker 1]:  um without you changing your application code。
+[Speaker 1]:  um as i mentioned earlier，
+[Speaker 1]:  you can use open a eye instead，
+[Speaker 1]:  if you want to or some framework，
+[Speaker 1]:  we have packages for all of those as well。
+[Speaker 1]:  you just need to swap them in a rise and aririse otell l，
+[Speaker 1]:  the packages that send your traces to AX and let you read them back。
+[Speaker 1]:  and there's a funix package in there that we uses utility package。
+[Speaker 1]:  don't worry about it。
+[Speaker 1]:  the unthroppy package list you use cloud，
+[Speaker 1]:  both to power our agent and to judge its output later。
+[Speaker 1]:  so go ahead and run this cell，
+[Speaker 1]:  if you haven't already。
+[Speaker 1]:  and while it's installing，
+[Speaker 1]:  i'm going to talk about what it is that we're going to actually build um the cloud agent sdk，
+[Speaker 1]:  if you haven't already used，
+[Speaker 1]:  it is anthropics framework for building agents。
+[Speaker 1]:  ts anthroropics answer to bangchain and things like that。
+[Speaker 1]:  uh it can use tools to conarch the weather that can maintain conversation context across turns。
+[Speaker 1]:  open AI has their own agent sd k。
+[Speaker 1]:  and of course，
+[Speaker 1]:  there are a whole agent frameworks like creaa，
+[Speaker 1]:  a gangchain and mastra，
+[Speaker 1]:  and ax is compatible with all of those。
+[Speaker 1]:  so no matter what framework youyou've built your agent in it is already instrumented，
+[Speaker 1]:  and you can just turn on logging，
+[Speaker 1]:  and all of your traces will light up。
+[Speaker 1]:  hopefully your install is done by now，
+[Speaker 1]:  which is optimistic timing on my part，
+[Speaker 1]:  next set your keys。
+[Speaker 1]:  in this case，
+[Speaker 1]:  i have still in my keys from colaeb。
+[Speaker 1]:  if you are feeling nadi，
+[Speaker 1]:  you can just pace them in directly to your cell and put them there。
+[Speaker 1]:  three things go in here，
+[Speaker 1]:  like i said earlier，
+[Speaker 1]:  you need an anthropic APIE，
+[Speaker 1]:  which is going to power our agents l mb calls。
+[Speaker 1]:  and it's also going to power the judge later。
+[Speaker 1]:  you need an erise api k，
+[Speaker 1]:  which you get from your settings，
+[Speaker 1]:  which authenticates your traffic to the ax service。
+[Speaker 1]:  and you need to rise space id d，
+[Speaker 1]:  which tells AX，
+[Speaker 1]:  which works space to put all of your data in。
+[Speaker 1]:  if your keys ys aren't working。
+[Speaker 1]:  the usual coport is a copy paste air。
+[Speaker 1]:  um and of course，
+[Speaker 1]:  that is still running around to help you。
+[Speaker 1]:  if um your keys aren't working。
+[Speaker 1]:  that is has been described as a walking security hole。
+[Speaker 1]:  so he will definitely give you a key if you can't figure out how to get your keys to work。
+[Speaker 1]:  so now we will scroll to the register section。
+[Speaker 1]:  i'm going to bump up my phones here，
+[Speaker 1]:  the QR upon one more time。
+[Speaker 1]:  sure。
+[Speaker 0]:  probably 三，
+[Speaker 1]:  yeah，
+[Speaker 1]:  i don't put my mind lives in collapse，
+[Speaker 1]:  so collapse secrets，
+[Speaker 1]:  feature pulls it out。
+[Speaker 1]:  alright。
+[Speaker 1]:  i'm going to go back to where i was，
+[Speaker 1]:  hopefully i can do that。
+[Speaker 0]: 但是这个这个说说说这个这个 alright uh，
+[Speaker 1]:  we've installed dependencies who talked about the SDK we'talked about the secrets uh and we're at the register。
+[Speaker 1]:  so this is the magic。
+[Speaker 1]:  uh anybody who works for a rise will tell you that you only have to add two lines of code your application in order to instrument your code。
+[Speaker 1]:  and this is these are the two lines of code。
+[Speaker 1]:  uh what we're doing here res，
+[Speaker 1]:  we're passing uh and right space ID，
+[Speaker 1]:  our AII uh and who name for it to trace everything，
+[Speaker 1]:  too。
+[Speaker 1]:  the register function is setting up open teleetry。
+[Speaker 1]:  try open teleetry is the industry standard for application of reservability，
+[Speaker 1]:  and it has a layer on top called open inference，
+[Speaker 1]:  which adds lm specific attributes。
+[Speaker 1]:  things like promptex completion tax to token encounts，
+[Speaker 1]:  which model was called，
+[Speaker 1]:  which tools were in vote。
+[Speaker 1]:  we pointed at AX，
+[Speaker 1]:  and we give it a project name。
+[Speaker 1]:  and that is how your traces get group in the ui。
+[Speaker 1]:  um in this case，
+[Speaker 1]:  we're also passing batch equals false se。
+[Speaker 1]:  uh，
+[Speaker 1]:  when you run in a notebook，
+[Speaker 1]:  you want to send your telemetry as soon as it happens。
+[Speaker 1]:  and not batch stuff up，
+[Speaker 1]:  which it does for efficiency in production。
+[Speaker 1]:  that one line at the bottom，
+[Speaker 1]:  the cloud agent sd k instrumental tells ls the cloud sd k to send a span to AX。
+[Speaker 1]:  every time it makes an lm collar and evokes a tool。
+[Speaker 1]:  and that is now instrumented。
+[Speaker 1]:  the reason this works would so little codes because open en leeetries and open standard than nearly everybody uses。
+[Speaker 1]:  so the cloud，
+[Speaker 1]:  the cloud SDK authors，
+[Speaker 1]:  the open AISDK authors，
+[Speaker 1]:  the launchine authors，
+[Speaker 1]:  all of them have already written the code inside of their SDK ase that calls open that calls open inference and sends data back。
+[Speaker 1]:  so all you have to do is say，
+[Speaker 1]:  hey，
+[Speaker 1]:  i'm an open inference collector。
+[Speaker 1]:  i live here。
+[Speaker 0]:  send it to me one more bit of set up。
+[Speaker 1]:  is that the register called sends data，
+[Speaker 1]:  two AX，
+[Speaker 1]:  uh and the arise client reads data back out of AX。
+[Speaker 1]:  um so we'll use it to pull our spans back into the notebook。
+[Speaker 1]:  that is what this line is about。
+[Speaker 1]:  so you need to make sure that you've put in the same keys there or copy them across。
+[Speaker 1]:  oh，
+[Speaker 1]:  you need to make a，
+[Speaker 1]:  you need need，
+[Speaker 1]:  make make coppy of the notebook from the file menu to be able to edit，
+[Speaker 1]:  cool。
+[Speaker 1]:  all right。
+[Speaker 1]:  so if you run that run those cells，
+[Speaker 1]:  then we are ready to build before we build one thing worth knowing about um everything we're going to do by hand today。
+[Speaker 1]:  you can also get your coding agent to do for you。
+[Speaker 1]:  the reason we are doing it by hand is so that you have a fundamental understanding of what it is that you're doing。
+[Speaker 1]:  and you're not just viding your way to success，
+[Speaker 1]:  but we publish a set of skills called on the arise skills，
+[Speaker 1]:  which know how to do all of this for you at the skills level，
+[Speaker 1]:  so you can install your ararise skills and um run evaluations，
+[Speaker 1]:  create datassets instrument your app in the first place。
+[Speaker 1]:  um they all use。
+[Speaker 1]:  uh x is recommended patterns，
+[Speaker 1]:  and you install them once with a single NPX command。
+[Speaker 1]:  they work in cloud code。
+[Speaker 1]:  they work king cursa。
+[Speaker 1]:  they working codex and dozens of other coding agents。
+[Speaker 1]:  um so we're going to do stuff manually stay，
+[Speaker 1]:  but in production in a real life is environment。
+[Speaker 1]:  we are using our own skills every day to do this stuff。
+[Speaker 1]:  so now let's build our agents。
+[Speaker 1]:  when i asked if everybody had wriltten agent before everybody put their hand up，
+[Speaker 1]:  so i'm not going to spend a lot of time explaining how this asian works。
+[Speaker 1]:  i'm going to assume that you already have an agents somewhere，
+[Speaker 1]:  and you're just trying to instrumented。
+[Speaker 1]:  and make it work for you。
+[Speaker 1]:  um the fake agent that i'm using today is a financial analysis chappot。
+[Speaker 1]:  um using the cloud agent SDK，
+[Speaker 1]:  you give it a stock ticker in a focus area，
+[Speaker 1]:  and it searches the web for the latest information about that stock taker。
+[Speaker 1]:  uh research is real current financial data and writes a report few。
+[Speaker 1]:  uh，
+[Speaker 1]:  this is AA real use case that whole startups a built around，
+[Speaker 1]:  although my agent version is extremely simple。
+[Speaker 1]:  um i'm assuming uh that you built an agand already our agent works in two turns。
+[Speaker 1]:  um this first a research turn that uses tools to search the web and gather data。
+[Speaker 1]:  then there is a writing iting NN compcompes。
+[Speaker 1]:  the research into into a readdable report。
+[Speaker 1]:  um so let me walk you through that。
+[Speaker 1]:  uh here's my research，
+[Speaker 1]:  prom。
+[Speaker 1]:  and my right prompt，
+[Speaker 1]:  these are deliberately extremely simple。
+[Speaker 1]:  they are going to cause errors later。
+[Speaker 1]:  and those of the things that we are going to use our evals to debug uh and then i'm setting up my cloud agent options。
+[Speaker 1]:  i'm using a cloud HIIUU uh as the agent underneath，
+[Speaker 1]:  because hyku is you you capable able，
+[Speaker 1]:  but it make mimistakes。
+[Speaker 1]:  and we want some mistakes so that we can fix them。
+[Speaker 1]:  and it's also fast fast checheeso。
+[Speaker 1]:  i don't burn a lot of money of your money went as we do this。
+[Speaker 1]:  um the permission mode controls what the agent is allowed to do autonomously。
+[Speaker 1]:  there is a catch hiding in the in the specific choices that i've made and the specific allowd tools that i am giving this agent right now，
+[Speaker 1]:  as we're going to find out later。
+[Speaker 1]:  and now let's look at our two turns turn。
+[Speaker 1]:  number one is research。
+[Speaker 1]:  there is a much a boiler played in here that i'm not going to explain，
+[Speaker 1]:  which is just about outputting the output so that we can see what it's doing as it's going。
+[Speaker 1]:  um turn two is writing the report with again，
+[Speaker 1]:  a pilot boiler plate。
+[Speaker 1]:  um the prompts are critical。
+[Speaker 1]:  so this is where i want you to start doing your own changes in your own notebook。
+[Speaker 1]:  i have given it extremely basic prompts at the top。
+[Speaker 1]:  if you can see，
+[Speaker 1]:  if you can think of a better prompt，
+[Speaker 1]:  just off the top of your head that is going to do a better job on the prompt that i put uuh sollthis problem，
+[Speaker 1]:  what would be better than what i put in to to do the research in the first place，
+[Speaker 1]:  what would be better than i，
+[Speaker 1]:  what i put in uh to do the report writing？
+[Speaker 1]:  um and if you one shot ted，
+[Speaker 1]:  then you're going to have less stuff to do later on。
+[Speaker 1]:  one of the things we do here is we wrapped the whole thing in an open telemetrary span。
+[Speaker 1]:  this is because if i don't do that，
+[Speaker 1]:  then cloud inter cloud census is the two turns as two separate spans。
+[Speaker 1]:  and we wanted them to be groups together in the UI。
+[Speaker 1]:  so i've wrapped them in a span together so that they come out as a single agent turn。
+[Speaker 1]:  um this is just saving a some time later。
+[Speaker 1]:  i wanted to be clear about why i'm doing this bit of code，
+[Speaker 1]:  and now we can run our agents。
+[Speaker 1]:  i have run my agent in advance because i wanted to know exactly what it was going to do，
+[Speaker 1]:  but now is the time to kick off your own agent。
+[Speaker 1]:  i've asked it to analyze tesless specifically its financial performance and growth outlook。
+[Speaker 1]:  you should go ahead，
+[Speaker 1]:  run n。
+[Speaker 1]:  this sell。
+[Speaker 1]:  it'll take a minute or two，
+[Speaker 1]:  because the agent will actually search the web，
+[Speaker 1]:  and the LOM is doing multiple rounds of reasoning。
+[Speaker 1]:  the agent receives our research，
+[Speaker 1]:  prompted decides in these to search the web，
+[Speaker 1]:  which is a tool call it reads the search results it besides if it has enough information and maybe searches。
+[Speaker 1]:  again，
+[Speaker 1]:  that is the agentic part。
+[Speaker 1]:  you didn't say do a web search，
+[Speaker 1]:  take the web information from the web search and red report about it。
+[Speaker 1]:  the agent is deciding。
+[Speaker 1]:  is this web search enough information？
+[Speaker 1]:  and if not，
+[Speaker 1]:  i will rui run n more web searches。
+[Speaker 1]:  it rurun an indeterminate number of web searches to get enough information until it has decided what enough means，
+[Speaker 1]:  and then it will write the report。
+[Speaker 1]:  this execution path is not deterministic by design，
+[Speaker 1]:  and that is the key hair to understand。
+[Speaker 1]:  um if you run this，
+[Speaker 1]:  again with the same input，
+[Speaker 1]:  your agent might search for different things，
+[Speaker 1]:  it might find different results。
+[Speaker 1]:  it might write a different report，
+[Speaker 1]:  and both reports might be good or one might be good，
+[Speaker 1]:  and one might be bad。
+[Speaker 1]:  and that is exactly why we need to evulse。
+[Speaker 1]:  we can't predict the output from the input alone，
+[Speaker 1]:  and every single one of those decisions is being captured as a trace。
+[Speaker 1]:  so i'm just going to pop open my last twelve hours or my last twenty four hours。
+[Speaker 1]:  i guess，
+[Speaker 1]:  cool。
+[Speaker 1]:  this is a pile of traces。
+[Speaker 1]:  you're going to understand what all of this is later。
+[Speaker 1]:  but here you can see the tesler one that i ran earlier。
+[Speaker 1]:  this is what it looks like when i go through。
+[Speaker 1]:  you can see every single turn。
+[Speaker 1]:  um it's calling a skill。
+[Speaker 1]:  it's doing a tool search。
+[Speaker 1]:  it's doing a web search。
+[Speaker 1]:  you can see every single thing that it does。
+[Speaker 1]:  you can see that it ran four web searches before finally deciding that was enough information。
+[Speaker 1]:  then it did the second call in the step。
+[Speaker 1]:  and it wrote the report。
+[Speaker 1]:  um one of the things that it does that we're going to see later is i told you there was a catch and the tools that i gave it。
+[Speaker 1]:  here's this step that was unexpected when we were putting this demo together。
+[Speaker 1]:  it tried to write the report。
+[Speaker 1]:  i told it to write a report。
+[Speaker 1]:  it tried to write the report as a markdown file to disk。
+[Speaker 1]:  it is living in a collab notebooks。
+[Speaker 1]:  so there is no there re's no filile system for it to write。
+[Speaker 1]:  uh。
+[Speaker 1]:  so the right step would fail。
+[Speaker 1]:  and this is something that you need evals for，
+[Speaker 1]:  you need evos to detect when your agent is doing something something helpful，
+[Speaker 1]:  but incorrect，
+[Speaker 1]:  because this failed silently，
+[Speaker 1]:  it gives you output anyway。
+[Speaker 1]:  but it's doing this unnecessary extra step of trying to write to disk without you knowing that it was there。
+[Speaker 1]:  so back to the colab，
+[Speaker 1]:  this is a pretty good report。
+[Speaker 1]:  it's a financial performance，
+[Speaker 1]:  stable with real numbers，
+[Speaker 1]:  growth drivers，
+[Speaker 1]:  risk factors and analyst price arargets。
+[Speaker 1]:  the conclusion um it's not bad for a first past，
+[Speaker 1]:  but it's not bad as a vive，
+[Speaker 1]:  and we are here to replace vives with actual numbers。
+[Speaker 1]:  so lanka said。
+[Speaker 1]:  you can see all of that stuff in the traces。
+[Speaker 1]:  we didn't have to do anything to get all of that information。
+[Speaker 1]:  we didn't have to like instrument every single line to get the elmm holing and get the oooohole。
+[Speaker 1]:  and all of that stuff，
+[Speaker 1]:  all of that is built into cloudage。
+[Speaker 1]:  and sd k just it is like it's built into open AISSDK。
+[Speaker 1]:  and each one of these rose in this table as a span traces reveal every decision the agent made without them。
+[Speaker 1]:  all you see，
+[Speaker 1]:  see is i ve ve it a prompt，
+[Speaker 1]:  and i got a report with traces。
+[Speaker 1]:  you see every step，
+[Speaker 1]:  if you click into any span，
+[Speaker 1]:  like i said，
+[Speaker 1]:  you'll see exactly what the model received its input and exactly what it returned。
+[Speaker 1]:  and that is what observability means in practice，
+[Speaker 1]:  not just did it work。
+[Speaker 1]:  uh，
+[Speaker 1]:  but how did it work？
+[Speaker 1]:  and where exactly did it go wrong？
+[Speaker 1]:  um h，
+[Speaker 1]:  we rurun evvals。
+[Speaker 1]:  in a few minutes。
+[Speaker 1]:  we're going to pull the input in attribute output attributes out of these spans ds，
+[Speaker 1]:  feed them to our evaluators。
+[Speaker 1]:  the input becomes the evaluators input outoutuum becomes what gets greated。
+[Speaker 1]: 嗯 um now we need to generate some testata to run meaningful evalils。
+[Speaker 1]:  we need more than the one trace that you've generated。
+[Speaker 1]:  so far，
+[Speaker 1]:  we need a body of data in the notebook。
+[Speaker 1]:  there are twelve tesququaries covering different tickers and analysis types。
+[Speaker 1]:  um you should kick those often。
+[Speaker 1]:  now they take about five atten minutes to run，
+[Speaker 1]:  assuming that you've got wiand everything's working king you，
+[Speaker 1]:  and i'm going to show you what they look pum and books。
+[Speaker 1]:  this is them here。
+[Speaker 0]: 是不是有意见？
+[Speaker 1]:  so the key thing here is uh diversity。
+[Speaker 1]:  i've given it a bunch of obvious queries that should work。
+[Speaker 1]:  i've also given it some educases，
+[Speaker 1]:  for instance，
+[Speaker 1]:  i've given it one where i gave it two tikkers apple and microsoft and told it to run a comparison。
+[Speaker 1]:  uh，
+[Speaker 1]:  which is something it could thethetically do。
+[Speaker 1]:  uh i've also ven it it the same tikers mumultiple times in places。
+[Speaker 1]:  so so we can can uh the non deterministic output in when we say，
+[Speaker 1]:  amazon，
+[Speaker 1]:  profitability，
+[Speaker 1]:  trends and outlook versus amazon AWS performance and profitability，
+[Speaker 1]:  different tikers and different questions。
+[Speaker 1]:  different different leels s of complexity are important to generate test data that's going to cover the range of things that users will actually ask。
+[Speaker 1]:  although salllar alert are reortalussers are going to ask，
+[Speaker 1]:  are weird things that you're going to be be to preddicin advance ance。
+[Speaker 1]:  that is another one of the reasons that evalils are important。
+[Speaker 1]:  um the rivian inquery RIVN asked about a company with much less public data than apple or microsoft and the coca cola divididend yield querriis a very different kind of analyis from a growth growth stock ququery。
+[Speaker 1]:  again，
+[Speaker 1]:  this is diversity that is important diversity。
+[Speaker 1]:  and your test set is how you catch things that your agent is going to be not good at。
+[Speaker 1]:  so while yours are running，
+[Speaker 1]:  mine have already loaded，
+[Speaker 1]:  so i can show you all of my data。
+[Speaker 1]:  these are all of my spans from all of those runs。
+[Speaker 1]:  you can see uh at the bottom there thirthirteen，
+[Speaker 1]:  which is the initial tesler run and twelve tequarries each one is complete exexecuof，
+[Speaker 1]:  the the clouuh financial andlist。
+[Speaker 1]:  so now we have the data。
+[Speaker 1]:  but before we write any evalils，
+[Speaker 1]:  we need to actually look at the data。
+[Speaker 1]:  this is error analysis，
+[Speaker 1]:  and the whole step is one instruction。
+[Speaker 1]:  read your traces before you write evalils before you write a single evaluator start with your data。
+[Speaker 1]:  uh read or doesn't or more of your traces end to end。
+[Speaker 1]:  this is the most important practice in this entire workshop。
+[Speaker 1]:  ah focus on the ones where something went wrong，
+[Speaker 1]:  what was the input？
+[Speaker 1]:  what was the output？
+[Speaker 1]:  what specifically is broken？
+[Speaker 1]:  this sounds extremely old fashioned just read the input，
+[Speaker 1]:  but it is one of the highest value activities in agent development and thropic，
+[Speaker 1]:  for instance，
+[Speaker 1]:  invested in tooling，
+[Speaker 1]:  specifically reviewing eval transcripts，
+[Speaker 1]:  and their team spend a whole out of time。
+[Speaker 1]:  just looking at eval transcripts every day。
+[Speaker 1]:  a trace tells you whether the agent made a genuine mistake or whether the ogreaters rejected a valsolution。
+[Speaker 1]:  if you automate before you understand your failures，
+[Speaker 1]:  then you're going to create an evl that that measures what's easy to measure instead of what actually matters，
+[Speaker 1]:  you need requirements first。
+[Speaker 1]:  before you can categorize failures，
+[Speaker 1]:  you need to know what success looks like。
+[Speaker 1]:  you can't say it doesn't work if you haven't defined what it works means for our financial analyst。
+[Speaker 1]:  what does a good report look like？
+[Speaker 1]:  it should reference the correccticor。
+[Speaker 1]:  it should include some real recent，
+[Speaker 1]:  actionable financial data and include actuable comcommendations should didistinguish between forward looking analysis in historical summary。
+[Speaker 1]:  those are our success criteria，
+[Speaker 1]:  and they see obvious when you write them down，
+[Speaker 1]:  but lots of teams never do the ship penagent and then react a complaints，
+[Speaker 1]:  instead of defining the bar up front，
+[Speaker 1]:  writing requirements，
+[Speaker 1]:  downturns，
+[Speaker 1]:  vague disappointment into specific testible criteria。
+[Speaker 1]:  and those criteria are what turned into your evalils。
+[Speaker 1]:  here's the thing about defining success that it's important to note，
+[Speaker 1]:  though，
+[Speaker 1]:  which is that it is not something that your engineers can do or not something your engineers can do alone。
+[Speaker 1]:  the definition of good，
+[Speaker 1]:  usually lives in the domain knowledge and the domain knowledge lives in the people that your company will often laughtably refer to as non technical。
+[Speaker 1]:  so your products managers，
+[Speaker 1]:  your qa，
+[Speaker 1]:  your support team。
+[Speaker 1]:  those are the people who know what the definition of good really is。
+[Speaker 1]:  they know what the failures are going to look like。
+[Speaker 1]:  those are the people who should be helping you write your evals open AI。
+[Speaker 1]:  put it really nicely。
+[Speaker 1]:  they said that people management skills are ai skills。
+[Speaker 1]:  so clear goals，
+[Speaker 1]:  um direct feedback，
+[Speaker 1]:  knowing what your value proposition is those skills matter more than ever when the system is probabilistic。
+[Speaker 1]:  and this is one of the things that ax is built around anyone on your team can read traces or annotations and contribute to your criteria。
+[Speaker 1]:  this is not just an engineering surface。
+[Speaker 1]:  you're expected to have other members of your team in here。
+[Speaker 1]:  a quick note on where to get this test data，
+[Speaker 1]:  we have these traces because we already ran the agent ourselves。
+[Speaker 1]:  but what if you're building something new and you don't have real traffic yet，
+[Speaker 1]:  you can do what we just did，
+[Speaker 1]:  which is you can use synthetic data。
+[Speaker 1]:  you can have an lm generate diverse queries across your expected categories。
+[Speaker 1]:  uh research tesla financial performance is one phrasing。
+[Speaker 1]:  what's going on with tesla stock is another ququery。
+[Speaker 1]:  that's asking the same thing。
+[Speaker 1]:  you is teszler a buy right now is the third way of expressing the same query。
+[Speaker 1]:  they're all the same intent that they look very different。
+[Speaker 1]:  so very the phrasing，
+[Speaker 1]:  the complexity，
+[Speaker 1]:  the level of specificity，
+[Speaker 1]:  a domain expert should review your set of querries because lm generated queres tend to cluster around obviphrasings and and misthe weird stuff that real users，
+[Speaker 1]:  right？
+[Speaker 1]:  you also need to include educaes in your test data，
+[Speaker 1]:  so things like nonexsistent tickers，
+[Speaker 1]:  multiple part questions，
+[Speaker 1]:  jail，
+[Speaker 1]:  break attempts。
+[Speaker 1]:  those might be one percent of your traffic，
+[Speaker 1]:  but they are the one percent of your traffic that ends up，
+[Speaker 1]:  you know，
+[Speaker 1]:  being APR disaster in the press。
+[Speaker 1]:  your test data should look like production data，
+[Speaker 1]:  not what you wish production look like。
+[Speaker 1]:  so synthetic data can get you started。
+[Speaker 1]:  but as soon as you have production data，
+[Speaker 1]:  production data should be what you're running on。
+[Speaker 1]:  so let's actually examine our traces，
+[Speaker 1]:  like i said，
+[Speaker 1]:  the first dirching traces are the first dirching traces that i wrote，
+[Speaker 1]:  most of them produced long structure reports in line。
+[Speaker 1]:  so tesla apple in videa stuff like that uh three to seven thousand characters of report right there in the trace i output with executive summaries evaluation tables，
+[Speaker 1]:  explicit by or hold recommendations on the surface。
+[Speaker 1]:  most of these look fine。
+[Speaker 1]:  but like i said，
+[Speaker 1]:  three of the thirteen were doing something weird，
+[Speaker 1]:  which was they were。
+[Speaker 1]:  the output in them is much shorter，
+[Speaker 1]:  because it just says，
+[Speaker 1]:  oh，
+[Speaker 1]:  i wrote this to disk for you。
+[Speaker 1]:  um and the output went to disk。
+[Speaker 1]:  so instead of having a full report，
+[Speaker 1]:  it has a summary of the report and the the actual body of the report went to the nonexistent disk。
+[Speaker 1]:  this is what the evalis designed to find。
+[Speaker 1]:  um the agent decided to wrtify with no permission，
+[Speaker 1]:  the right silenently failed。
+[Speaker 1]:  and it told us the report was saved。
+[Speaker 1]:  and that is the kind of pattern that you only see if you actually read the trace。
+[Speaker 2]:  um so this is，
+[Speaker 1]:  i believe one of the three sources，
+[Speaker 1]:  no，
+[Speaker 1]:  that one it worked。
+[Speaker 1]:  oh no，
+[Speaker 1]:  the wifi here we go。
+[Speaker 1]:  so this one is showing another kind of failure where just got stuck in a loop forever。
+[Speaker 1]:  it was trying to find information about who was it trying to find information about microsoft，
+[Speaker 1]:  and it just in an endless series of web searches and took forever。
+[Speaker 1]:  um this is what i tried to write to disk。
+[Speaker 1]:  um and this is what it actually wrote to output right here we go。
+[Speaker 1]:  this is the report has saved as microsoft cloud segment financial report or md。
+[Speaker 1]:  this report is useless because it's referring to a report that doesn't exist。
+[Speaker 1]:  there's also an example of a confidently wrong if we go to the rigvian reports um h，
+[Speaker 1]:  which is i the n。
+[Speaker 1]:  where did it go there？
+[Speaker 1]:  we go riblian has the same problem that the microsoft one does，
+[Speaker 1]:  but even inside of the full report that they tried to write to disk。
+[Speaker 1]:  there's a whole bunch of really confident information about a private company that you can't possibly verify。
+[Speaker 1]:  these might be hallucinations。
+[Speaker 1]:  they might not be hallucinations，
+[Speaker 1]:  but we haven't done anything to check whether or not this report is really grounded in reality。
+[Speaker 1]:  so we're going to do an evalue about that later。
+[Speaker 1]:  there is a structured way to do this reading，
+[Speaker 1]:  which has i mentioned earlier，
+[Speaker 1]:  is called coding。
+[Speaker 1]:  there's open coding and exeel coding um and it comes from quality of research。
+[Speaker 1]:  open coding means you read each trace，
+[Speaker 1]:  and you write down what you see。
+[Speaker 1]:  so stuff like vgue recommendation made up a number talked about the wrong ticker。
+[Speaker 1]:  um you're not trying to be neat as a programmer。
+[Speaker 1]:  it is very attempting to try and come up with categories in advance and say，
+[Speaker 1]:  oh，
+[Speaker 1]:  this is a retrieval failure or whatever。
+[Speaker 1]:  ah don't do that when you're doing open coding，
+[Speaker 1]:  just write down what the problem was in as natural language as possible。
+[Speaker 1]:  um and and then when you find the failure，
+[Speaker 1]:  sorry，
+[Speaker 1]:  and then um you want to do exio coding afterwards。
+[Speaker 1]:  xo coding is when you look at uh all of the open codes you put together and you then you do the categorization，
+[Speaker 1]:  you say，
+[Speaker 1]:  okay。
+[Speaker 1]:  now there are five things that look similar。
+[Speaker 1]:  i'm going to give them all a single category and turn them into categories。
+[Speaker 1]:  the second past，
+[Speaker 1]:  the exil coding past is structural。
+[Speaker 1]:  and like i said，
+[Speaker 1]:  the the tendency，
+[Speaker 1]:  the temptation is to try and go straight to exeete coding。
+[Speaker 1]:  and you should resist that when you find a failure，
+[Speaker 1]:  you should ask it failed。
+[Speaker 1]:  so the response was wrong as a symptom。
+[Speaker 1]:  did it get bad search results？
+[Speaker 1]:  that is a retrieval failure。
+[Speaker 1]:  did it get the right data，
+[Speaker 1]:  but the wrong conclusion than that is a reasoning error。
+[Speaker 1]:  did it make up a stock price？
+[Speaker 1]:  that's obviously，
+[Speaker 1]:  hillucination did it answer outside of its domain？
+[Speaker 1]:  that is a scope violation。
+[Speaker 1]:  did it do something that you didn't tell it that it should be able to do each root，
+[Speaker 1]:  cause each exl code points to a different fix。
+[Speaker 1]:  if you don't know the right call，
+[Speaker 1]:  if you don't know the cause，
+[Speaker 1]:  you can't pick the right remedy once you've categorized，
+[Speaker 1]:  which i did here，
+[Speaker 1]:  you can sum them up into a table。
+[Speaker 1]:  so confession time，
+[Speaker 1]:  i didn't actually read all of those traces and code that i just gave them random exeel codes。
+[Speaker 1]:  uh but what you end up with is this table of root cost frequency things like looks good possible。
+[Speaker 1]:  whowhose nation，
+[Speaker 1]:  reasoning，
+[Speaker 1]:  gap，
+[Speaker 1]:  unverifiable data，
+[Speaker 1]:  missing recommendation。
+[Speaker 1]:  it's tempting to look at the top one，
+[Speaker 1]:  the possible whose stination and decide that，
+[Speaker 1]:  that is the most important one to fix。
+[Speaker 1]:  but in reality，
+[Speaker 1]:  you're going to want to balance between frequency and severity。
+[Speaker 1]:  so if one time in a hundred instead of doing a financial report，
+[Speaker 1]:  it gives the user instructions on how to make a bomb。
+[Speaker 1]:  you fix that one first because that is the most very possible fafaure ure。
+[Speaker 1]:  so you have to multiply the severity by the frequency to get to which ones you decide to fix first。
+[Speaker 1]:  and that is why you look at the data before you write your evalils，
+[Speaker 1]:  um one more concept before you get started on。
+[Speaker 1]:  that is the swiss cheese model，
+[Speaker 1]:  which is a concept from safety engineering。
+[Speaker 1]:  imagine each layer of defence as a slice of swiss cheese，
+[Speaker 1]:  each slice as holds gaps，
+[Speaker 1]:  where problems can slip through。
+[Speaker 1]:  but if you stack enup slices，
+[Speaker 1]:  the holes don't line up。
+[Speaker 1]:  so one gets through one，
+[Speaker 1]:  they are gets caught by the next uh your cody vile catches format issues with mrs semantic problems，
+[Speaker 1]:  your LM judge catches reasoning gaps。
+[Speaker 1]:  the mrs。
+[Speaker 1]:  subtle hlucinations and your human review catches the the suttle stuff，
+[Speaker 1]:  but it can't scale to every trace，
+[Speaker 1]:  no single evl in that said，
+[Speaker 1]:  catches everything。
+[Speaker 1]:  and the combination is what gives you coverage um so stack the cheese。
+[Speaker 1]:  um now that we know what's wrong，
+[Speaker 1]:  let's automate。
+[Speaker 1]:  the checking。
+[Speaker 1]:  the next step is codivvals。
+[Speaker 1]:  this is no model configuration，
+[Speaker 1]:  no api calls，
+[Speaker 1]:  just python。
+[Speaker 1]:  we're going to write the simplest useful evl that i can think of our agent is supposed sed analalize，
+[Speaker 1]:  ze specific stocktaker。
+[Speaker 1]:  or what i'm going to do is read a cody val that checks，
+[Speaker 1]:  whether that stocktaker actually showed up in the report，
+[Speaker 1]:  um which is a test that my initial demois absolutely failed。
+[Speaker 1]:  a number of times an LLM judge would be overkled for this。
+[Speaker 1]:  you're looking for specific extraraing。
+[Speaker 1]:  it's somewhere in the report。
+[Speaker 1]:  you don't need an LM to judge whether or not you mentioned the ticker。
+[Speaker 1]:  so there's two ways to do this。
+[Speaker 1]:  there's two ways to do everything in egg。
+[Speaker 1]:  one is programmatically，
+[Speaker 1]:  and one is via the ui in the notebook。
+[Speaker 1]:  you can see the programmatic way when i'm going to show you on screen is how you do it in the ui。
+[Speaker 1]:  so this big button in the top，
+[Speaker 1]:  right is what you want。
+[Speaker 1]:  you want to add d eevaluator。
+[Speaker 1]:  in this case，
+[Speaker 1]:  i've already added my menchanance evaluator，
+[Speaker 1]:  but you will want to add an evaluator，
+[Speaker 2]:  which will give you this screen here。
+[Speaker 1]:  are you going to see basically some python um in the notebook？
+[Speaker 1]:  i've given you the python that you can use uh to either do your programmatic version or your version in the UI。
+[Speaker 1]:  this is a very simple python function，
+[Speaker 1]:  which returns an evaluation result，
+[Speaker 1]:  which is looks exactly like those evaluation results that i showed you earlier。
+[Speaker 1]:  it has a label。
+[Speaker 1]:  it has a score。
+[Speaker 1]:  so once you've written what your code evaluator does，
+[Speaker 1]:  you're going to have prematters to your code of valuator。
+[Speaker 1]:  in this case，
+[Speaker 1]:  i've called the aquery an report，
+[Speaker 1]:  and you're going to have to tell AX，
+[Speaker 1]:  which variables in your trace are those variables。
+[Speaker 1]:  so there's this extremely fun UI the single trace ui where you look at a single trace。
+[Speaker 1]:  and you can literally just clclick the specific thing in your output that you want to be that variable。
+[Speaker 1]:  and you tell it，
+[Speaker 1]:  okay，
+[Speaker 1]:  that one should be the query，
+[Speaker 1]:  and that one should be the report。
+[Speaker 1]:  and then it's mapped。
+[Speaker 1]:  you should also be changing your evaluator to work on a trace as i supposed to a span。
+[Speaker 1]:  that is what gives you that you？
+[Speaker 1]:  i um once you've done that you need to save your code eevaluator to our evaluator hub。
+[Speaker 1]:  uh and then you hit save to save the evaluation。
+[Speaker 1]:  so assuming you've done that，
+[Speaker 1]:  yeah，
+[Speaker 0]: 你们光斯东会长，
+[Speaker 0]: 我也在这等着光光赛我来做产品，
+[Speaker 0]: 然后他他就是就是我们上班 sure。
+[Speaker 1]:  uh so he asfor for more detail on how code valuit is work。
+[Speaker 1]:  uh code valvaluors are the completely deterministic functions。
+[Speaker 1]:  you are just taking input and output and saying was this output good according to same definition of good。
+[Speaker 1]:  so in this code。
+[Speaker 1]:  uh i'm doing very，
+[Speaker 1]:  very sipyython。
+[Speaker 1]:  i'm saying，
+[Speaker 1]:  uh look for all of the words that are in capital letters。
+[Speaker 1]:  um h rip out the ones that are obvious acronyms that i already know。
+[Speaker 1]:  and of the remaining words are any of them。
+[Speaker 1]:  the the acronym，
+[Speaker 1]:  which is the stock ticcker。
+[Speaker 1]:  i'm i'm looking for。
+[Speaker 1]:  that's all it's doing lots of code valvaluagare even shorter than that。
+[Speaker 1]:  there's something like is this output five hundred characters long or less？
+[Speaker 1]:  is this output possible jays on？
+[Speaker 1]:  you're doing something very simple，
+[Speaker 1]:  very deterministic for the purposes of having that first line of defence in your swiss cheese。
+[Speaker 1]:  so i talked about how to add sleff already in the notebook。
+[Speaker 1]:  you can run the evl programmatically。
+[Speaker 1]:  this is how to do this is these are the instructions on how to do advise the UI。
+[Speaker 1]:  if you follow that，
+[Speaker 1]:  the alternative is to do it in the de de，
+[Speaker 1]:  you can can run n it directly，
+[Speaker 1]:  which is easier to do if you're following alone in a notebook，
+[Speaker 1]:  a code evaluate to returns。
+[Speaker 1]:  a label into the score。
+[Speaker 1]:  like i said，
+[Speaker 1]:  there's no LM needed。
+[Speaker 1]:  there's api i all its instance，
+[Speaker 1]:  uh。
+[Speaker 1]:  and and if you're wondering why we're rapping it in suppresss chasing it，
+[Speaker 1]:  because uh，
+[Speaker 1]:  the evaluation is itself a call to the uh gs SK，
+[Speaker 1]:  which would then get stred as traces。
+[Speaker 1]:  and i didn't want traces of my tracing happening because that gets too matter。
+[Speaker 1]:  so i told it a suppress tracing when i'm running evalvaluuum。
+[Speaker 1]:  if you look at this programmatic run，
+[Speaker 1]:  you'll see that twelve past and one failed。
+[Speaker 1]:  there was a missing ticker for amazon。
+[Speaker 1]:  the specific trace that went wrong uh is when when i'll know you'll notice i told you earlier that i made two queries to amazon，
+[Speaker 1]:  one where asasked about profitability。
+[Speaker 1]:  and when i asked，
+[Speaker 1]:  we're uh AWS proffitability。
+[Speaker 1]:  um if you click into the traces，
+[Speaker 1]:  which i could attempt now，
+[Speaker 1]:  you'll see that the report that asked about aw s wrote a report that was entirely about aws only only about the aws branch of amazon rather than all of amazon。
+[Speaker 1]:  and so it failed to mention the amazon stoctor are entirely talked to only about aws。
+[Speaker 1]:  so it's a really subtle failure because it did uppunder researarch found out a whole bununof stuff about what was happening at amazon。
+[Speaker 1]:  it just didn't think about what was happening about amazon as a company only about aw s because i gave it that extra prompt like，
+[Speaker 1]:  i also want to know about aws profitability。
+[Speaker 1]:  so looking at those results back in AX。
+[Speaker 1]:  um they show as annotations next to our traces。
+[Speaker 1]:  so you can click into anyone of these aces。
+[Speaker 1]:  uh and you'll see evaluations i'have run a lot more evaluations。
+[Speaker 1]:  um then you have so far，
+[Speaker 1]:  but you can see my mentioned sticker evaluation has run with the span。
+[Speaker 1]:  it's run of the span that ve it has hit a pass，
+[Speaker 1]:  and it's given a score of one。
+[Speaker 1]:  the notebook has a little help per called log eval to ax，
+[Speaker 1]:  which is doing that work for you。
+[Speaker 1]:  it takes the spans that it ran offline and the tests that it ran offline and pushes them back to AX for you。
+[Speaker 1]:  so now every score。
+[Speaker 1]:  now，
+[Speaker 1]:  every eval has a mentioned sticker evaluation that you can look at and filt to buy and look for the failing ones。
+[Speaker 1]:  so why does this matter？
+[Speaker 1]:  because it is your first line of defence？
+[Speaker 1]:  um if your financial analyst agent writes a beautiful report about my rankrosoft when the user asked about teslla，
+[Speaker 1]:  which is a thing that actually happened to me when i was building this，
+[Speaker 1]:  um the no ount of answer of eloqufrom from your agent matters，
+[Speaker 1]:  because the answer is wrong。
+[Speaker 1]:  so you can catch this with five lines of python。
+[Speaker 1]:  um the ticket check catches um really basic failures，
+[Speaker 1]:  but it catches them really cheaply。
+[Speaker 1]:  that is why it is important。
+[Speaker 1]:  um cody vouls aren't just toy examples often you're going to want to know that your output is jay on，
+[Speaker 1]:  or that it has a certain length，
+[Speaker 1]:  or you're going to want to avoid to forbidden phrases like as an AI language model。
+[Speaker 1]:  and those are produproduction critical cheks。
+[Speaker 1]:  a code vvl doesn't have to be a simple string operation。
+[Speaker 1]:  codival means the greating logic as terterministic，
+[Speaker 1]:  but it can do complicated things。
+[Speaker 1]:  it conquiry a database for you。
+[Speaker 1]:  it could have hidden api and get the actual stock price to make sure that it wasn't hillucating ating stock price。
+[Speaker 1]:  um anything with the gregrading always gives the same answer for the same input can be a code evaluated or one important principles to grade what the agent produced and not the path that it took。
+[Speaker 1]:  uh referred to this earlier。
+[Speaker 1]:  there's a common inthing to check that the agent followed specific sequenof steps。
+[Speaker 1]:  did it call this tool first？
+[Speaker 1]:  and then that will in that order。
+[Speaker 1]:  uh uh，
+[Speaker 1]:  practitioners have found this to be in practice，
+[Speaker 1]:  too。
+[Speaker 1]:  region um agents regularly find valid approaches uh that the eval designer didn't anticipate。
+[Speaker 1]:  uh so um if you grade the path uyou punish creativity，
+[Speaker 1]:  instead great what the agent produced，
+[Speaker 1]:  did the output have the right information，
+[Speaker 1]:  did the final state match？
+[Speaker 1]:  what you wanted？
+[Speaker 1]:  uh our ticket checked doesn't care how the agent found the data。
+[Speaker 1]:  it just cheks。
+[Speaker 1]:  ks is the ticker，
+[Speaker 1]:  the outoutuh。
+[Speaker 1]:  that is the right level of abobstruction from most cody valls。
+[Speaker 0]: 嗯，
+[Speaker 1]:  so now let's get to build in evall LLME evalthis。
+[Speaker 1]:  this is where bebegins get get more interesting。
+[Speaker 1]:  um code can check whether the ticker appears，
+[Speaker 1]:  but it can't check whether the analysis is good，
+[Speaker 1]:  is the financial data。
+[Speaker 1]:  accurate is the report complete are the recommendations while reasoned。
+[Speaker 1]:  um these are semantic questions and for semantic questions，
+[Speaker 1]:  you need a judge。
+[Speaker 1]:  every LM，
+[Speaker 1]:  as a judge，
+[Speaker 1]:  has three parts，
+[Speaker 1]:  which has a judge model，
+[Speaker 1]:  which is the LM that is doing the grading for you，
+[Speaker 1]:  which has a prompt template，
+[Speaker 1]:  which has i mentioned，
+[Speaker 1]:  is also called the rubick，
+[Speaker 1]:  uh，
+[Speaker 1]:  which is the criteria that the judge applies the rules of what defines good。
+[Speaker 1]:  uh。
+[Speaker 1]:  and it has the data，
+[Speaker 1]:  which is the examples being evaluated x，
+[Speaker 1]:  keep these three things separate，
+[Speaker 1]:  which means that you can mix in match。
+[Speaker 1]:  you can try the same criteria with different judge models，
+[Speaker 1]:  the same judge model with different criteria。
+[Speaker 1]:  ah。
+[Speaker 1]:  it is modular by design。
+[Speaker 1]:  the good news is that AX ships with a built with a bunch of builting evalls。
+[Speaker 1]:  so you don't have to write your own。
+[Speaker 1]:  there are a bunch of types of evalls that are always um that are often going to apply to um most ai applications。
+[Speaker 1]:  so we've already written the prompts for those，
+[Speaker 1]:  and you don't have to write them yourself。
+[Speaker 1]:  correrectness，
+[Speaker 1]:  for instance，
+[Speaker 1]:  checks whether response is actually accurate faithfulness ness checks，
+[Speaker 1]:  whether the response stays grounded in the source material，
+[Speaker 1]:  and there are evalils for tool selection。
+[Speaker 1]:  did the agent pick the right tool and tool invocation？
+[Speaker 1]:  did it pass the right arguments to that tool stuff like document relevance refusal detection，
+[Speaker 1]:  many of the things that you'd want to check in an agentic application。
+[Speaker 1]:  um come out of the box。
+[Speaker 1]:  um so the first eval that we're going to run is a correctness evl。
+[Speaker 1]:  and spoiler alert。
+[Speaker 1]:  it's not going to work um setting it up is very easy。
+[Speaker 1]:  we give it an LMM in case i'i've chosen um the anthroropical MM sunit four point six，
+[Speaker 1]:  because it is better than uh hkku，
+[Speaker 1]:  which is the thing that is doing the work，
+[Speaker 1]:  you often want to pick a bigger，
+[Speaker 1]:  slower model to be your judge uh。
+[Speaker 1]:  and then i've just given correctness of evaluated the LMM and and run it right here。
+[Speaker 0]:  um 嗯 like i said，
+[Speaker 1]:  um once we've run the evaluation with evaluate data frame，
+[Speaker 1]:  um we've also um turned on suppress tracing。
+[Speaker 1]:  so so our evaluation doesn't send a bunch of extra traces to AX。
+[Speaker 1]:  um it gives us this output，
+[Speaker 1]:  which is a bunch of evaluation rose。
+[Speaker 1]:  um it are not very readdable。
+[Speaker 1]:  this is why you need a ex to to at them them。
+[Speaker 1]:  the judge reads the important output from each panning grazzy against the rubrick，
+[Speaker 1]:  and we can see that every score is zero。
+[Speaker 0]:  if i scroll across status，
+[Speaker 1]:  completed name，
+[Speaker 1]:  correctness，
+[Speaker 1]:  ness score zero。
+[Speaker 1]:  the reason it's doing this is because correctness is jujudging against the l lm's definition of what is correct and what is true，
+[Speaker 1]:  which means that it is relying on the LMS training data。
+[Speaker 1]:  what we're doing in this agent is a whole much of live web search to get current stock prices and up to date financial information，
+[Speaker 1]:  which means the agent is talking about things that happened in two thousand and six。
+[Speaker 1]:  but the LM that's doing the judging only has information that stops in january。
+[Speaker 1]:  so if you read the explanations of our correctness evl inside uh inside of eex，
+[Speaker 1]:  you can scroll to evaluations。
+[Speaker 1]:  you can look correctness。
+[Speaker 1]:  you can say that it incincrect ui ll save you a bunch of reading of a very densely path corn。
+[Speaker 1]:  what is doing is complaining that there's a bunch of stuff that comes from the future that it couldn't possibly know。
+[Speaker 1]:  so our correctlness eval hair has completely failed。
+[Speaker 1]:  this is not what you wanted to do。
+[Speaker 1]:  so instead，
+[Speaker 1]:  we are going to use a faithfulness。
+[Speaker 1]:  eval faithfulness is a better eval for our use case because the judge actually has context in faithfulness ness。
+[Speaker 1]:  you give the lm is a judge，
+[Speaker 1]:  the information that it is being based on and then say，
+[Speaker 1]:  based on the same information that the judge that my agent collected，
+[Speaker 1]:  did it do a good job of writing the report。
+[Speaker 1]:  this is this way they are on a level playing field。
+[Speaker 1]:  they both have the same amount of information and you're slow，
+[Speaker 1]:  complicated judge agent。
+[Speaker 1]:  uh can judge whether you're quick fast。
+[Speaker 1]:  uh kker agent h was doing a good job。
+[Speaker 1]:  so let's look at the faithfulness cells，
+[Speaker 1]:  just like everything else。
+[Speaker 1]:  these can be done online as well as offline。
+[Speaker 1]:  so there is a faithlness built in eevaluator，
+[Speaker 1]:  which isn't in this view，
+[Speaker 1]:  there is a faithfulness built in evaluuator。
+[Speaker 1]:  you can pull up um and you can give your input output and your context to it again。
+[Speaker 1]:  you can do this in code as well。
+[Speaker 1]:  and if you're using the skills，
+[Speaker 1]:  this is probably what's going to happen，
+[Speaker 1]:  your skills will say，
+[Speaker 1]:  oh，
+[Speaker 1]:  i'm not going to use the UI。
+[Speaker 1]:  i'm going to use the code，
+[Speaker 1]:  which is why i show it here。
+[Speaker 1]:  um so the first thing we do is we extract the research context from the traces。
+[Speaker 1]:  as you remember，
+[Speaker 1]:  we do uh two step process。
+[Speaker 1]:  so i take the output from the first step，
+[Speaker 1]:  where does the research？
+[Speaker 1]:  and i attached that to all my spspans，
+[Speaker 1]:  um as uh the context for the judge to work on。
+[Speaker 1]:  and then i run the faithful this evaluator。
+[Speaker 1]:  so so here you can see spans with context。
+[Speaker 1]:  these are the same spans that i just pulled out of AXI attached at the column level。
+[Speaker 1]:  all of my context。
+[Speaker 1]:  uh。
+[Speaker 1]:  and then uh i called evaluate data frame with those spands and i'gave it fafaifulness evaluator，
+[Speaker 1]:  which i insantiated here，
+[Speaker 1]:  just just i insantiated the correctness evaluator。
+[Speaker 1]:  this gives us much more interesting data。
+[Speaker 1]:  this gives us unfaithful seven and faithful six。
+[Speaker 1]:  so roughly half the time，
+[Speaker 1]:  my very simple report is hallucinating。
+[Speaker 1]:  it is coming up with things that we're not in the source data according to san it。
+[Speaker 1]:  and that is this is a useful eval。
+[Speaker 1]:  this is an eval。
+[Speaker 1]:  we are failing half the time。
+[Speaker 1]:  this is a capability eval where we can climb the hill，
+[Speaker 1]:  modify our prompt and get it better at writing a grounded report。
+[Speaker 1]:  this is exactly the kind of eval that you want。
+[Speaker 1]:  so that's two built in evalils in two very different sigals als。
+[Speaker 1]:  there's a really important lesson here，
+[Speaker 1]:  which is correcttness gave us zero out of thirteen。
+[Speaker 1]:  and faththlness um told us that reports aren't grounded in their sources that roughly half the time，
+[Speaker 1]:  the difference isn't that one eval is better than the other。
+[Speaker 1]:  the difference is um the use case。
+[Speaker 1]:  um so it's lots of use ves where that correctness evall that i showed you earlier works，
+[Speaker 1]:  just fine for some use cases。
+[Speaker 1]:  uh，
+[Speaker 1]:  it's just not in this specific use case where we're doing live real time research。
+[Speaker 1]:  um so it's important to know question that you're actually asking building evals。
+[Speaker 1]:  are your your starpoint point？
+[Speaker 1]:  they give you an immediate signal without any prom engineering。
+[Speaker 1]:  uh but even with a good builty like faithfulness h，
+[Speaker 1]:  there are bunch of things that it can't check。
+[Speaker 1]:  um our financial analyst uh should produce actionable recommendations。
+[Speaker 1]:  it shouldn't just summarize data。
+[Speaker 1]:  um so not just，
+[Speaker 1]:  you know，
+[Speaker 1]:  give you a financial report，
+[Speaker 1]:  but tell you what to do with the financial report。
+[Speaker 1]:  should i buy cell or hold？
+[Speaker 1]:  um no built in tempplate checks for that。
+[Speaker 1]:  this axis does not cover every single use case。
+[Speaker 1]:  you have to build d specific eevl。
+[Speaker 1]:  the cheks for acactionability。
+[Speaker 1]:  you have to build an customer evl that is about your domain。
+[Speaker 1]:  if you are writing really evalils，
+[Speaker 1]:  you are absolutely going to have to write a custom evl with a definition of good that we didn't think of。
+[Speaker 1]:  so that brings us to the next step，
+[Speaker 1]:  which is writing a custom eval rebrk。
+[Speaker 1]:  this is where you make evalls truly specific to your application and writing。
+[Speaker 1]:  a good eval is complicated。
+[Speaker 1]:  so i'm going to spend a little time talking about what makes a good eval rubbrc。
+[Speaker 1]:  we recommend four parts of a custom m rubrick。
+[Speaker 1]:  the first is to divine the judges role。
+[Speaker 1]:  um you should spell out explicit pass and fail criteria。
+[Speaker 1]:  you should label the data with examell tags，
+[Speaker 1]:  and you should define that output choices outside the prompt itself。
+[Speaker 1]:  i'm going to add one more thing on top of those，
+[Speaker 1]:  which is actually kind of controversial amongs practitioners，
+[Speaker 1]:  which is i tend to include examples of good and bad output。
+[Speaker 1]:  uh some practitioners believe uh that including examples，
+[Speaker 1]:  will make your um evl overfit um but let's walk through all of those。
+[Speaker 1]:  so the first part is defining the rule。
+[Speaker 1]:  um you'll notice this，
+[Speaker 1]:  what is by now a tire troopwhich is you are an expert financial endst evaluator that is not the important part tests show。
+[Speaker 1]:  it makes some very small difference uh to whether or uuh eva works。
+[Speaker 1]:  the important thing is to give it the context of what it is looking at。
+[Speaker 1]:  you are looking at a financial report。
+[Speaker 1]:  and what i am expecting is financial analysis。
+[Speaker 1]:  those are the important pieces of context that you are giving the LLM there。
+[Speaker 1]:  you're also telling it that it should be that what you want is something actionable，
+[Speaker 1]:  so that brings us to part too。
+[Speaker 1]:  so this is where most people under invest don't say a good response，
+[Speaker 1]:  because that，
+[Speaker 1]:  that is an aspiration that is not a cititeron。
+[Speaker 1]:  a good response is helpful and accurate。
+[Speaker 1]:  sounds like you're adding more detail，
+[Speaker 1]:  but you're still being just as vay because helpful and accurate don't have any meaning as far as the alyym is concerned。
+[Speaker 1]:  uh instead，
+[Speaker 1]:  you should be listing exactly what makes repreport actable。
+[Speaker 1]:  so this exactly what makes it actional and not actionable，
+[Speaker 1]:  every criterian should be specific and observable，
+[Speaker 1]:  something that if you were a human looking at this report，
+[Speaker 1]:  you'd be able to know whether or not it was there and you'be able able say，
+[Speaker 1]:  yes or or no，
+[Speaker 1]:  so contain specific recommendations。
+[Speaker 1]:  that's something you can definitely say，
+[Speaker 1]:  yes or no。
+[Speaker 1]:  includes forward looking analysis，
+[Speaker 1]:  not just historical data。
+[Speaker 1]:  that's a clear distinction that you can say，
+[Speaker 1]:  yes or no，
+[Speaker 1]:  too。
+[Speaker 1]:  and the important thing here is that each of these criteria maps choose something we saw in our analysis。
+[Speaker 1]:  if when we were reading the reports，
+[Speaker 1]:  we saw，
+[Speaker 1]:  we actually observd when we read our traces or least when i read our traces that these are ways that these reports are going wrong。
+[Speaker 1]:  specifically，
+[Speaker 1]:  that is not a coincidence。
+[Speaker 1]:  error analysis is what tells you what criteria are write。
+[Speaker 1]:  you don't come up with them from whole off because it's not going to occur you where you get that data from is from reading or traces and going，
+[Speaker 1]:  oh，
+[Speaker 1]:  it didn't do that。
+[Speaker 1]:  my excel coding said it does this specific wrong thing。
+[Speaker 1]:  so specific criteria produce consistent judgments well，
+[Speaker 1]:  while ay criteria produce coin flips。
+[Speaker 1]:  the third thing you should do in your rubrick，
+[Speaker 1]:  as you should label the data with xml tags，
+[Speaker 1]:  especially if you are using anthropic anthropic loves xamell and finds it very easy to understand。
+[Speaker 1]:  um your rubrick has variables，
+[Speaker 1]:  the input and the output，
+[Speaker 1]:  and you want to make sure that it can tell the difference between your instructions and the input in the output and excelelt tags are an excellent way to do that。
+[Speaker 1]:  so put a user query tiger around the input of financial report tiger around the outputs，
+[Speaker 1]:  uh clear boundaries，
+[Speaker 1]:  reduce the chance that the judge confuses the question with the answer。
+[Speaker 1]:  it is especially important if you're including examples uh，
+[Speaker 1]:  to label the examples with xaml test，
+[Speaker 1]:  because otherwise i will go。
+[Speaker 1]:  oh，
+[Speaker 1]:  this is exactly when i'm supposed to right and just spit out the example back to you，
+[Speaker 1]:  which brings this to the examples。
+[Speaker 1]:  this is a part，
+[Speaker 1]:  a lot of people skip。
+[Speaker 1]:  in my opinion。
+[Speaker 1]:  it is the part that most improves quality l ams are okay at following strucction。
+[Speaker 1]:  they are are increasinggood at following instructions。
+[Speaker 1]:  but what they are really good at is copying an example that you've already given them and replacing the things that are relevant to the current situation。
+[Speaker 1]:  so if you give it an example of exactly the kind of report that you're looking for，
+[Speaker 1]:  it's going to follow that format，
+[Speaker 1]:  exactly that might or might not depending on your domain。
+[Speaker 1]:  be a good idea。
+[Speaker 1]:  if you，
+[Speaker 1]:  if your example is too rigid，
+[Speaker 1]:  then the elen will always give the same report。
+[Speaker 1]:  and you have reduced its scope for creativity。
+[Speaker 1]:  but on the other hand，
+[Speaker 1]:  if it is being too nondeterministic and your report is being crazy，
+[Speaker 1]:  then giving it an example will ground it in what exactly you are expecting。
+[Speaker 1]:  here's what an national example looks like in the tempplts。
+[Speaker 1]:  it has everything。
+[Speaker 1]:  it has percentage revenue growth，
+[Speaker 1]:  the pe ratio。
+[Speaker 1]:  it identitifies a concrete risk with a number to back it up。
+[Speaker 1]:  and it gives a specific recommendation um that what what tionable looks like here is a non actionable results。
+[Speaker 1]:  it's not wrong everything。
+[Speaker 1]:  it says is correct，
+[Speaker 1]:  but it doesn't say anything useful。
+[Speaker 1]:  it doesn't have any specific data。
+[Speaker 1]:  it doesn't have any specific risks。
+[Speaker 1]:  it just says investors should consider various factors。
+[Speaker 1]:  that's not a recommendation。
+[Speaker 1]:  uh。
+[Speaker 1]:  so the judge now has a concrete reference for what you actually mean by the labels that you were giving it。
+[Speaker 1]:  and this can dramatically improve consistency，
+[Speaker 1]:  especially on the educaes，
+[Speaker 1]:  whether report would have otherwise been somewhere。
+[Speaker 1]:  and between um and this is an important part，
+[Speaker 1]:  it is very tempting if you're writing this regrek to say and now spit out the word，
+[Speaker 1]:  correct or incorrect，
+[Speaker 1]:  because that is what you wanted to do。
+[Speaker 1]:  you do not need to do that anymore。
+[Speaker 1]:  the way that actually works under the hood is we have given the ellamm a tool that says you call this tool when you are done，
+[Speaker 1]:  and it will call that tool with correct or incorrect when you're done。
+[Speaker 1]:  so you don't need to tell it what output。
+[Speaker 1]:  and in fact，
+[Speaker 1]:  telling it to spit out a specific string output is more likely to confuse it and make your evil fail。
+[Speaker 1]:  so just in the ui set your choices，
+[Speaker 1]:  or when you are setting the when you're creating it programmatically set the choices and let the elellm do its thing。
+[Speaker 1]:  um when you are coming up with these choices，
+[Speaker 1]:  it is best to keep those choices。
+[Speaker 1]:  simple binary is best。
+[Speaker 1]:  two clear labels，
+[Speaker 1]:  numeric scales like a scale of one to five。
+[Speaker 1]:  they are tempting，
+[Speaker 1]:  but the ellms are bad at them。
+[Speaker 1]:  what is the difference between a three？
+[Speaker 1]:  and a four，
+[Speaker 1]:  you would have to write a whole bunch of rules for the ellm to know that it doesn't know that automatically。
+[Speaker 1]:  uh wheas，
+[Speaker 1]:  you can give it a past fail，
+[Speaker 1]:  and it will be pretty good at deciding what is a passion，
+[Speaker 1]:  what is a fail？
+[Speaker 1]:  uh so if you really need more categories，
+[Speaker 1]:  you can do like a partial result。
+[Speaker 1]:  you can say a zero point five scores，
+[Speaker 1]:  where did did half asked job um but by default，
+[Speaker 1]:  go for a zero or one one，
+[Speaker 1]:  more practical tip is chain of thought for judges，
+[Speaker 1]:  ask the judge to reason before it scores and have it explained its thinking first。
+[Speaker 1]:  uh this measurably improves，
+[Speaker 1]:  uh accuracy um h。
+[Speaker 1]:  the judge has to articulate why something is actionable or not，
+[Speaker 1]:  or why it is correct or not。
+[Speaker 1]:  uh，
+[Speaker 1]:  it makes fewer mistakes than when it just picks a label l without thinking first。
+[Speaker 1]:  this explanation is also very helpful for you，
+[Speaker 1]:  but it also helps the judge think better。
+[Speaker 1]:  just one of those weird things about elyams。
+[Speaker 1]:  um so if you are coding along now，
+[Speaker 1]:  is the time to find your actionability template。
+[Speaker 1]:  um this contains all of the example，
+[Speaker 1]:  all of the instructions that i was just talking about。
+[Speaker 1]:  can you do better than me？
+[Speaker 1]:  can you one shot your way to a perfect eval by modifying this eval template？
+[Speaker 1]:  um as with all things in eeggs，
+[Speaker 1]:  can do this fby the ui as well。
+[Speaker 1]:  so you can create an online evaluator，
+[Speaker 1]:  and you can create a new l lm is a judge。
+[Speaker 1]:  in this case。
+[Speaker 1]:  i've already got it my actionabability evaluator，
+[Speaker 1]:  which has literally exactly the same text that i just showed you in the notebook。
+[Speaker 1]:  um and as before i had to pick a trace um scope and because it's an LM as a judge，
+[Speaker 1]:  i had to set up a template。
+[Speaker 1]:  sorry，
+[Speaker 1]:  i had to set up an LMM for it to use in the ui uh，
+[Speaker 1]:  which means that you need to give it your anthroppicy again。
+[Speaker 1]:  and and i picked my input ts outputs by the single trace method uh。
+[Speaker 1]:  and then i saved it。
+[Speaker 1]:  one of the things that you can do with online evws，
+[Speaker 1]:  as you can set them to run continuously against new incoming traces。
+[Speaker 1]:  this is something you will almost certainly do in production。
+[Speaker 1]:  uh。
+[Speaker 1]:  and if your evalls are expensive or you have a whole out of traffic，
+[Speaker 1]:  you won't want to do it on all of your traffic。
+[Speaker 1]:  you can uh set it to serve to um rate only a percentage。
+[Speaker 1]:  that's the sampling grates。
+[Speaker 1]:  you can say，
+[Speaker 1]:  you know，
+[Speaker 1]:  just look at one percent of my traffic，
+[Speaker 1]:  and that will still give you a whole bunch of eval data without breaking your budget。
+[Speaker 1]:  so back to the cold version。
+[Speaker 0]:  wiring it up is just like wiring up the other action。
+[Speaker 0]:  the other uh evaluated that we've given。
+[Speaker 0]:  um we've created a classification eevaluated，
+[Speaker 0]:  we've given it a name actionability。
+[Speaker 0]:  we've given an neelleum h we've given it template that i just showed you，
+[Speaker 0]:  and we've given it those choices。
+[Speaker 0]:  this is us programmatically doing what we would have done in the UI。
+[Speaker 0]:  what we would your choices are corrector orrect uh，
+[Speaker 0]:  action will are not actional able scores coror zero。
+[Speaker 0]:  uh uh，
+[Speaker 0]:  we ran evaluate data frame that gives us the data that i was skipping over because i don't was already run earlier。
+[Speaker 0]:  so you can see actionability actionable。
+[Speaker 0]:  if we look at our evaluations tab，
+[Speaker 0]:  we can scroll down to our actionability，
+[Speaker 0]:  and we get this really great explanation about why the report is actionable or not actional able h。
+[Speaker 0]:  lots of our report scored actionable，
+[Speaker 0]:  but several or not，
+[Speaker 0]:  which is awesome，
+[Speaker 0]:  because it means that we have，
+[Speaker 0]:  again，
+[Speaker 0]:  we have a capability of our uh and a hill that we can climb um in the the tebook。
+[Speaker 0]:  um this is where you log your results back to AX，
+[Speaker 0]:  or if you've run it online in the ui，
+[Speaker 0]:  your evals，
+[Speaker 0]:  your eval results are already in the UI as 've seen。
+[Speaker 0]:  um so you can see now in in egg that every span has multiple eval scores。
+[Speaker 0]:  it has mentioned sticker has correcttness and has faithfulist。
+[Speaker 0]:  it has actionability um and you can filter and select for specific eval results。
+[Speaker 1]:  so eval that actionability not label equals，
+[Speaker 1]:  not actionable that finds you the failing set。
+[Speaker 0]:  this is the set that youwould like okay。
+[Speaker 0]:  my eval says that my code massed up here，
+[Speaker 0]:  i can turn this into a data set，
+[Speaker 0]:  and i can start running new prompts against this。
+[Speaker 0]:  i can run experiments against this as we're going to see um before we move on。
+[Speaker 0]:  i want to flag AQA few common anti patterns that turn evalils from a useful tool into noise。
+[Speaker 0]:  the first one is to treat your eval prompt like code。
+[Speaker 0]:  and i mean that literally thethey're very sensitive to wording small shifts in your eval prompt。
+[Speaker 0]:  uh，
+[Speaker 0]:  can lead to dramatic changes in your eval results。
+[Speaker 0]:  so you should version them。
+[Speaker 0]:  you should test them on examples。
+[Speaker 0]:  es，
+[Speaker 0]:  you know，
+[Speaker 0]:  know the right answer。
+[Speaker 0]:  if the judge，
+[Speaker 0]:  if the elemaza judge disagrees with your human labels on forty percent of examples，
+[Speaker 0]:  then your eval is probably wrong。
+[Speaker 0]:  it's not that the your results are wrong。
+[Speaker 0]:  it is that you have written the eval incorrectly。
+[Speaker 0]:  AX has has prompt playgrground。
+[Speaker 0]:  when can itererate on rebricks without touching your code？
+[Speaker 0]:  and it's very useful for doing this kind of iteration of your eval。
+[Speaker 0]:  um the second ani pattern is the god evaluator。
+[Speaker 0]:  it is tempting to build one big mega evaluator that checks。
+[Speaker 0]:  everything。
+[Speaker 0]:  it wants it to look for accuracy and tone and completness and policy gplants and formatting all in a single prompt。
+[Speaker 0]:  don't do this because it is a nightmare to calibrate。
+[Speaker 0]:  uh，
+[Speaker 0]:  when you're got evaluator says fail，
+[Speaker 0]:  which of those five dimensions failed，
+[Speaker 0]:  you don't know。
+[Speaker 0]:  so it suddenly you're like，
+[Speaker 0]:  oh well have have spspt out labels，
+[Speaker 0]:  then then you're oo it's spitting out fifty teen different labels。
+[Speaker 0]:  suddenly it's way too complicated。
+[Speaker 0]:  uh，
+[Speaker 0]:  you can't tell you can't judge by it。
+[Speaker 0]:  you can't score by it。
+[Speaker 0]:  it is much much simpler and easier to split this up into one eevaluated per dimension。
+[Speaker 0]:  i'have already done this today。
+[Speaker 0]:  i have a ticket check。
+[Speaker 0]:  i have faithfulness i'have acactionability，
+[Speaker 0]:  three separate focused evalils，
+[Speaker 0]:  and each one tells you something specific。
+[Speaker 0]:  um the combination gives you a richard picture than any single evall ever could if you find yourself writing a rubick that lists six different things that the response should do，
+[Speaker 0]:  then stop。
+[Speaker 0]:  that is six evaluator is not one。
+[Speaker 0]:  uh。
+[Speaker 0]:  the third one is know your guard rails and your north star metrics。
+[Speaker 0]:  so eevals are guard rails，
+[Speaker 0]:  their ship lockers。
+[Speaker 0]:  if if an agent hluluinates a stock price that is a hard fail，
+[Speaker 0]:  don't ship on that。
+[Speaker 0]:  uh。
+[Speaker 0]:  others are north star metrics，
+[Speaker 0]:  they are aspirational。
+[Speaker 0]:  so always recommend complimentary investments is a nice to have。
+[Speaker 0]:  in this case，
+[Speaker 0]:  it is not a deal rigor。
+[Speaker 0]:  um。
+[Speaker 0]:  so know which of your evalls is which it changes how you act on the results？
+[Speaker 0]:  and later，
+[Speaker 0]:  it changes how you set up your production，
+[Speaker 0]:  monitors，
+[Speaker 0]:  a guard rail regression should page someone in the middle of the night。
+[Speaker 0]:  north stardip is something that you look at in a weekly report，
+[Speaker 0]:  which brings this to the next section，
+[Speaker 0]:  which is，
+[Speaker 0]:  can you trust your judges？
+[Speaker 0]:  this is a question we've been dancing around。
+[Speaker 0]:  i mentioned at a couple of times。
+[Speaker 0]:  uh，
+[Speaker 0]:  it's time to evaluate your evaluator。
+[Speaker 0]:  we built an l ym judge，
+[Speaker 0]:  and it told us that some reports are not actionable。
+[Speaker 0]:  but can we trust it？
+[Speaker 0]:  how do we know that the judge is correct？
+[Speaker 0]:  the key mental model here is that your judge is as clclassifiso，
+[Speaker 0]:  so can can treat as a clclasfier。
+[Speaker 0]:  it takes an input in this case of financial report，
+[Speaker 0]:  and it makes a prediction actionable or not actionable。
+[Speaker 0]:  that prediction can be right wrong。
+[Speaker 0]:  so just like any classifier er can measure res performance by comparing its predictions against ground truth。
+[Speaker 0]:  in this case，
+[Speaker 0]:  a huhus juddguum，
+[Speaker 0]:  you can check the judges homework。
+[Speaker 0]:  um the thing about applying human judgment is that it is a ton of work you have to read。
+[Speaker 0]:  actually，
+[Speaker 0]:  every single output you have to think hard and apply a label。
+[Speaker 0]:  um eggs does what it can to help by letting you define annotations and attaching them to spans right in the UI。
+[Speaker 0]:  so let me show you what that looks like。
+[Speaker 0]:  when you are looking at a span，
+[Speaker 0]:  you can click annotate span，
+[Speaker 0]:  and you can add and remove annotation countries。
+[Speaker 0]:  in this case，
+[Speaker 0]:  have already created one called human actionable。
+[Speaker 0]:  and you can set this span is being actionable and not actionable。
+[Speaker 0]:  and then you can just use these little arrows to flip through all of your traces and set them as actionable or not actionable，
+[Speaker 0]:  which i have convenienalready done。
+[Speaker 0]:  um this is the kind of work you can can to a non textical member of staff。
+[Speaker 0]:  that is why the UI looks like this。
+[Speaker 0]:  they can just click in，
+[Speaker 0]:  read the report and click a checkbox。
+[Speaker 0]:  they don't have to write any code。
+[Speaker 0]:  they don't need to know anything other than their domain expertise of whether or not this report should be considered actional or not actionable what we're doing here。
+[Speaker 0]:  when we add human annotations is building a golden dataset。
+[Speaker 0]:  building golden dataset is incredibly helpful。
+[Speaker 0]:  uh because it's how you measure uh，
+[Speaker 0]:  whether evaluator is actually doing its job。
+[Speaker 0]:  uh，
+[Speaker 0]:  the way to do it is the same thing。
+[Speaker 0]:  uh the alalemdid give yourself real concrete criteria and stick to them。
+[Speaker 0]:  so don't say this was good。
+[Speaker 0]:  this was bad，
+[Speaker 0]:  be specific。
+[Speaker 0]:  the same way that you've told the LOM to be specific，
+[Speaker 0]:  you fail that this specific thing you，
+[Speaker 0]:  i this thing was supposed，
+[Speaker 0]:  be present，
+[Speaker 0]:  and it wasn't and eliminate the chance to get lazy when you get tired of labelling。
+[Speaker 0]:  um as i said，
+[Speaker 0]:  the labelling is extremely time consuming。
+[Speaker 0]:  so i did it already once i'have labelled some spans ds，
+[Speaker 0]:  the UI，
+[Speaker 0]:  um i can reexport the spands into the notebook。
+[Speaker 0]:  and this is a nice thing about AX。
+[Speaker 0]:  is that the human annoitation that i added by hand，
+[Speaker 0]:  come back as columns in the export。
+[Speaker 1]:  um so we filter down to just the rose that i labelled here。
+[Speaker 0]:  and now we're going to compare what i said was actionable and not actionable to what the judge says is actional or not actionable before we talk before we do that，
+[Speaker 0]:  though，
+[Speaker 0]:  um a little bit more about golden datassets ts，
+[Speaker 0]:  keep your task and ambiguous if your agent scores zero percent consistently，
+[Speaker 0]:  that's almost always a broken task。
+[Speaker 0]:  that's almost always you've written your rubrick incorrectly。
+[Speaker 0]:  if you've made your task，
+[Speaker 0]:  something that only a human can do，
+[Speaker 0]:  or worse，
+[Speaker 0]:  that somebody something nobody could really do，
+[Speaker 0]:  then you're going to get a zero score。
+[Speaker 0]:  um so for each task，
+[Speaker 0]:  you create a reference solution，
+[Speaker 0]:  unknown working output。
+[Speaker 0]:  the passes all of your greaters。
+[Speaker 0]:  this proves that the task is solvable，
+[Speaker 0]:  and you should also test in both directions。
+[Speaker 0]:  you should have cases where a behavior should should occur and cases where it shouldn't。
+[Speaker 0]:  so if you test frinstance，
+[Speaker 0]:  does it search the web，
+[Speaker 0]:  uh，
+[Speaker 0]:  then you will end up with uh an agent that always searches the web，
+[Speaker 0]:  even when it doesn't need to wheas。
+[Speaker 0]:  you should also have a test that says，
+[Speaker 0]:  did it not search the web for this very obvious answer？
+[Speaker 0]:  where didn't need to do that？
+[Speaker 0]:  and if you're doing this for real，
+[Speaker 0]:  you should split your label data that you just created into a development set and a test set。
+[Speaker 0]:  uh so use maybe seventy percent of your your bels ls to iterate on your evl tweaking criteria。
+[Speaker 0]:  adjusting examples until the judge agrees with you，
+[Speaker 0]:  then hold out the remaining twenty five percent to run the judge and see that it actually gets the scores that you are expecting。
+[Speaker 0]:  that's how you know that the judge is actually generalizing to new examples，
+[Speaker 0]:  instead of just fitting to the specific dataset that you gave it。
+[Speaker 0]:  this is the same principple as train tests，
+[Speaker 0]:  splitts and machine learning。
+[Speaker 0]:  don't overfit your evaluator two your golden data set。
+[Speaker 0]:  now let's look at our actionability judge。
+[Speaker 0]:  i have run the judge on some examples，
+[Speaker 0]:  and it has come up with a list of where they agree and disagree spoiler alert。
+[Speaker 0]:  i just hit actional and not actionable at random，
+[Speaker 0]:  so that i would get lots of disagreement because actually ssound it is pretty good at this stuff that gives us an agreement rate of forty，
+[Speaker 0]:  six percent，
+[Speaker 1]:  six out of thirteen times in real life。
+[Speaker 0]:  uh，
+[Speaker 0]:  this is exactly where you dig in。
+[Speaker 0]:  this is where uh you would ask is my rubicc wrong or where my human labels wrong。
+[Speaker 0]:  when the judge disagrees with you，
+[Speaker 0]:  you should read its explanation and decide whether or not the judge was right or you are right ah，
+[Speaker 0]:  that is the most valuable output of matter evaluation。
+[Speaker 0]:  it usually reveals and ambiguity in the rules that you are right to fix the rubbrick。
+[Speaker 0]:  you should read the explanations on the disagreements，
+[Speaker 0]:  find the ambiguity。
+[Speaker 0]:  so deiten ten，
+[Speaker 0]:  the criteria。
+[Speaker 0]:  so instead of just includes forward looking analysis，
+[Speaker 0]:  i'd right includes forward looking analysis with specific recommendations or guidance。
+[Speaker 0]:  that's more precise。
+[Speaker 0]:  um it rules out the case where the report talks about the future，
+[Speaker 0]:  but never tells the judge what to do about it。
+[Speaker 0]:  uh then i'd rerun the judge on the same agamples and see if the disagreement goes es away。
+[Speaker 0]:  uh this another ruberc iteration，
+[Speaker 0]:  your eval prompt is an application。
+[Speaker 0]:  uh，
+[Speaker 0]:  it is another ellam application。
+[Speaker 0]:  uh，
+[Speaker 0]:  so it ads testing an iteration，
+[Speaker 0]:  just like your agent does。
+[Speaker 0]:  and that is what i meant when i said that you should treat your evals s code de。
+[Speaker 0]:  now i'm going to talk very brieingabout about an al concept called precision and recall precision asks when the judge says not actionable，
+[Speaker 0]:  how often is it really not actionable？
+[Speaker 0]:  uh and recall asks of all the reports that are actually not actionable。
+[Speaker 0]:  how many did the judge catch？
+[Speaker 0]:  uh with a tiny sample like um twelve examples，
+[Speaker 0]:  these numbers are going to jump around a lot。
+[Speaker 0]:  um but even with the twelve that i have，
+[Speaker 0]:  you can see whether the judges in the right ball park or completely off in most scenaris，
+[Speaker 0]:  you want to you want to prioritize。
+[Speaker 0]:  recall these two measurements are at odds with each other。
+[Speaker 0]:  if you are，
+[Speaker 0]:  if you prioritize recall，
+[Speaker 0]:  then you're going to get false positives where the judge has said something is wrong when nothing is wrong。
+[Speaker 0]:  that is much better than accidentally letting through things that are wrong。
+[Speaker 0]:  um however，
+[Speaker 0]:  some in some cases，
+[Speaker 0]:  when you are tuning，
+[Speaker 0]:  you will say，
+[Speaker 0]:  actually，
+[Speaker 0]:  i want precision。
+[Speaker 0]:  i wanted to be absolutely right when it's right，
+[Speaker 0]:  and i don't care if it misses some things，
+[Speaker 0]:  they're domains where that is the output that you want。
+[Speaker 0]:  but most of the time you want to prioritize recall，
+[Speaker 0]:  a few known pit folds with using an LM m's。
+[Speaker 0]:  a judge one is position by us if you present it with two options to judge between uh the judge to tenten to favor whatever comes first。
+[Speaker 0]:  uh this depends on the model。
+[Speaker 0]:  sometimes the model depends prefers whichever comes last，
+[Speaker 0]:  but it always has some kind of preference to position。
+[Speaker 0]:  um there's also length bias l amms like longer responses that they tend to score those higher and say that say that they are better，
+[Speaker 0]:  even if the length extra length is just fillum。
+[Speaker 0]:  and the last one i love，
+[Speaker 0]:  which is confidence bias。
+[Speaker 0]:  the judge gets fooled by a response that sounds confident，
+[Speaker 0]:  just like humans do if your LM says things that are wrong，
+[Speaker 0]:  but it sends them in a really confident tone。
+[Speaker 0]:  your LM judge is more likely to believe them。
+[Speaker 0]:  um there's also self preference bius。
+[Speaker 0]:  if you use the same model to do the generation as you use to do the judging，
+[Speaker 0]:  they tend to like their own output。
+[Speaker 0]:  so if possible，
+[Speaker 0]:  use both，
+[Speaker 0]:  say open a eye and anthropic use one to do your agent and one to do the judging，
+[Speaker 0]:  and they are less likely to agree with each other。
+[Speaker 0]:  self preference bias is why i used sonit as a judge for output generated by haykkuu，
+[Speaker 0]:  but it works even better if you use a different labs model entirely and remember that the benchmark here is human performance。
+[Speaker 0]:  humans are not going to be perfect at judging whether things are or are not actionable。
+[Speaker 0]:  they're going to get it wrong。
+[Speaker 0]:  quite a lot of the time。
+[Speaker 0]:  what you're trying to do is come up with an eval that is reasonably close to human judgment。
+[Speaker 0]:  human judgment also varies from human to human human interrater reliability。
+[Speaker 0]:  so too humans judging the same thing uh is often as lowest point，
+[Speaker 0]:  two or point three。
+[Speaker 0]:  so two experts with the same output and the same rules，
+[Speaker 0]:  disagree a surprising amount of the time。
+[Speaker 0]:  so if you're judge，
+[Speaker 0]:  if youl m judge it，
+[Speaker 0]:  he is that uh higher consistency than humans than it is doing better than humans。
+[Speaker 0]:  the judge，
+[Speaker 0]:  uh sometimes disagrees with me is not by itself a reason to distrust it you。
+[Speaker 0]:  what you're looking for is a judge that disagrees with you all of the time。
+[Speaker 0]:  that is the dangersignal，
+[Speaker 0]:  a judge that disagrees with you some of the time as a judge correctly，
+[Speaker 0]:  handling a genuinely ambiguous task，
+[Speaker 0]:  and also failures should seem fair。
+[Speaker 0]:  that is a principal from anthropics eval teams that i want to leave you with when a task fails，
+[Speaker 0]:  it should be cleared。
+[Speaker 0]:  what the agent got wrong？
+[Speaker 0]:  and why if you look at a failing tech trace and you think that answer looks fine to me，
+[Speaker 0]:  the problem is probably the evl and not the agent。
+[Speaker 0]:  so now we've built evalls，
+[Speaker 0]:  we've tested them。
+[Speaker 0]:  let's use them to actually improve our agent。
+[Speaker 0]:  this is how you close the loop。
+[Speaker 0]:  here's the problem with one off fixes。
+[Speaker 0]:  um if you found some failures，
+[Speaker 0]:  your red s maexelinations，
+[Speaker 0]:  you know what to improve，
+[Speaker 0]:  you change the prompt。
+[Speaker 0]:  and then what？
+[Speaker 0]:  how do you know whether the fix actually worked？
+[Speaker 0]:  how do you know if it didn't break something that was working before if you just run the agent again on a couple of examples？
+[Speaker 0]:  and i bw it，
+[Speaker 0]:  then you're back to vibes。
+[Speaker 0]:  you need a structured way to compare before and after。
+[Speaker 0]:  and as i mentioned earlier，
+[Speaker 0]:  this is what experiments are for，
+[Speaker 0]:  as i showed you earlier，
+[Speaker 0]:  you can filter your traces down to just the ones that are are failing，
+[Speaker 0]:  and you can turn them into a dataset like this。
+[Speaker 0]:  so you select all of your traces，
+[Speaker 0]:  you click add to dataset，
+[Speaker 0]:  and you create a new dataset。
+[Speaker 0]:  in this case。
+[Speaker 0]:  i've called that AIEWF financial demo fails，
+[Speaker 0]:  and i've already created my failure dataset，
+[Speaker 0]:  but this gives you a smaller set of places where you know that your evl is failing，
+[Speaker 0]:  so that you can then run your change，
+[Speaker 0]:  prompt against just them。
+[Speaker 0]:  this is faster and cheaper。
+[Speaker 0]:  this is a regression test set。
+[Speaker 0]:  sorry，
+[Speaker 0]:  you should also save a regression test set。
+[Speaker 0]:  rather，
+[Speaker 0]:  you should get the one's wed is not failing and make sure that those are also a datasset that you can check less frequently to make sure that when you've changed your model，
+[Speaker 0]:  sorry，
+[Speaker 0]:  when you've changed your rubrick that you haven't accidentally made it failed in places that it was succeding before，
+[Speaker 0]:  and your datassets are not static preproduction。
+[Speaker 0]:  when you don't have users yet，
+[Speaker 0]:  your datassets are probably going to be synthetic quiries。
+[Speaker 0]:  you generated yourself um or quiries that you got an eleland to generate for you。
+[Speaker 0]:  that is fine。
+[Speaker 0]:  it gets you off the ground。
+[Speaker 0]:  as soon as real traffic starts coming in。
+[Speaker 0]:  you should turn your that into your eval sets。
+[Speaker 0]:  real failures should replace imagined ones。
+[Speaker 0]:  the union of your failure cases，
+[Speaker 0]:  and your passing cases is what people call your golden data set the curated label set the you trust as ground truth for measuring quality。
+[Speaker 0]:  now we're going to improve our agent，
+[Speaker 0]:  but we are not going to hand write the fix。
+[Speaker 0]:  um as i mentioned，
+[Speaker 0]:  you can do all of this with skills。
+[Speaker 0]:  you can do all of this with a coding agent。
+[Speaker 0]:  i am assuming at being twenty twenty and six ababsolutely tely。
+[Speaker 0]:  everyone is using a coding agent to do all of their coding。
+[Speaker 0]:  um so why would you modify your prompts by yourself when you can get plood code to pull down your failing traces，
+[Speaker 0]:  modify your code for you and improve your application for you。
+[Speaker 0]:  that is what we're going to do here。
+[Speaker 0]:  um cloud will pull down all of the failing traces，
+[Speaker 0]:  it will read all the explanations。
+[Speaker 0]:  it will turn the explanations into action action that it takes on your code base。
+[Speaker 0]:  and here's the important thing。
+[Speaker 0]:  nothing here is guest cloud is an inventing improvements out of thin air。
+[Speaker 0]:  you haven't just told it get better at this。
+[Speaker 0]:  you haven't just told it make no mistakes。
+[Speaker 0]:  um every changed proposses is traces back to a specific failure explanation。
+[Speaker 0]:  um so if the judge said that it lacked specific recommendations，
+[Speaker 0]:  cloud will read that and rewrite the prompt so that it does。
+[Speaker 0]:  if the judge said that it presents risks without supporting evidence，
+[Speaker 0]:  then it will rewrite the prompt so that defix es that too。
+[Speaker 0]:  this is data driven prompts engineering。
+[Speaker 0]:  and now we can automate it。
+[Speaker 0]:  so notice what we have passed in um we've passed in our requirements，
+[Speaker 0]:  what we were trying to get done um and 've passed in uh an improvement prompt telling it uh，
+[Speaker 0]:  what you should be working on and how to get better at it。
+[Speaker 0]:  this is yet another other of them application。
+[Speaker 0]:  and yet another thing that is nondeterministic。
+[Speaker 0]:  and yet another way that it can go wrong，
+[Speaker 0]:  you could if we had more time meter evaluate your meda evaluuor or your meda evaluator and make sure that your metal evaluator is doing the right thing。
+[Speaker 0]:  but we're not doing that here because it gets you complicated also。
+[Speaker 0]:  so we only have so much time，
+[Speaker 0]:  uh，
+[Speaker 0]:  but good requirements，
+[Speaker 0]:  keep cloud honest。
+[Speaker 0]:  so you should be spending time making sure that this eevaluatuh is as accurate as you can make it。
+[Speaker 0]:  uh。
+[Speaker 0]:  so in case，
+[Speaker 0]:  ase are taking this prompm，
+[Speaker 0]:  and we are wiring them into our two pass。
+[Speaker 0]:  uh we're taking the recommendations that we got from cloud based on pulling the uh failing traces um and we 're passing them back to anthrotoc c，
+[Speaker 0]:  saying，
+[Speaker 0]:  ying，
+[Speaker 0]:  based on these explanations，
+[Speaker 0]:  write a better prompt，
+[Speaker 0]:  right？
+[Speaker 0]:  a better research prompt，
+[Speaker 0]:  write a better right prompt。
+[Speaker 0]:  and then we're going to feed them back into our agmpt and now 're going to run an experiment。
+[Speaker 0]:  so over in the ui，
+[Speaker 0]:  we have datassets and experiments，
+[Speaker 0]:  we have my demo financial failes。
+[Speaker 0]:  we can assuming i can scroll why are up and improved agent um using those new improved prompts。
+[Speaker 0]:  so you can see the improved research prompts and the improved right prompts。
+[Speaker 0]:  this is otherwise exactly the agagent that it before。
+[Speaker 0]:  uh and you can create eevaluor uh with an experiment。
+[Speaker 0]:  uh so what we're doing here is we're giving it a task，
+[Speaker 0]:  a task can be anything。
+[Speaker 0]:  so a task it could be some subcomponent avoid your agent did。
+[Speaker 0]:  so if we were running in evaluator，
+[Speaker 0]:  that was about tool calls，
+[Speaker 0]:  then your task could be just call this tool and see what the output of the tool is。
+[Speaker 0]:  and then youwould evaluate that in this case，
+[Speaker 0]:  my task is run the entire agent again from serart to finish，
+[Speaker 0]:  but it doesn't need to be um and then we are runthe same evaluuation susults against our against this new running of the task。
+[Speaker 0]:  so we've changed the agent。
+[Speaker 0]:  we've reven n the agent and we're rerunning the eval，
+[Speaker 0]:  and we're turning that into an experiment。
+[Speaker 0]:  this is what the experiment looks like the experiments not run。
+[Speaker 0]:  we've given it a name。
+[Speaker 0]:  we've given it the data set the ditital work on。
+[Speaker 0]:  we've given it the task，
+[Speaker 0]:  we've given it the evaluator，
+[Speaker 0]:  and we've ve toit it to run。
+[Speaker 0]:  this gives us the results，
+[Speaker 0]:  which are here。
+[Speaker 0]:  so for every single run，
+[Speaker 0]:  uh，
+[Speaker 0]:  we've got the output that it got and the new eval score。
+[Speaker 0]:  so uh，
+[Speaker 0]:  as you can see，
+[Speaker 0]:  this was a data，
+[Speaker 0]:  et if you recall，
+[Speaker 0]:  where previously all of them are now actionable。
+[Speaker 0]:  uh，
+[Speaker 0]:  the eval has run，
+[Speaker 0]:  and you can see that some of them are now actionable。
+[Speaker 0]:  so we have improved。
+[Speaker 0]:  and if we look at the overall score here，
+[Speaker 0]:  actually，
+[Speaker 0]:  i've nailed it because i had，
+[Speaker 0]:  you know，
+[Speaker 0]:  a lot of chances to get this，
+[Speaker 0]:  right。
+[Speaker 0]:  i have one shot。
+[Speaker 0]:  ted，
+[Speaker 0]:  my prompt getting being wrong。
+[Speaker 0]:  fifty percent of the time to being right right，
+[Speaker 0]:  one hundred perent ent of the time。
+[Speaker 0]:  real evalls won't work like that。
+[Speaker 0]:  real iteration won't won't run so smooly，
+[Speaker 0]:  that is why this is a graph。
+[Speaker 0]:  what you are expecting to do is run experiment after experiment and slowly watchthe graph climb as your evalls get more and more capable。
+[Speaker 0]:  that is the hill that i'm talking about that you're trying to climb。
+[Speaker 0]:  so the key abstraction behind experiments is that a task is just a python function。
+[Speaker 0]:  it takes an example from the data set。
+[Speaker 0]:  it runs whatever you run want，
+[Speaker 0]:  and it returns an output。
+[Speaker 0]:  so eggs doesn't care what the task does eternally，
+[Speaker 0]:  so it can run the full agent or just one component，
+[Speaker 0]:  like i said，
+[Speaker 0]:  or it could call on api as long as it takes an input and returns an output。
+[Speaker 0]:  you can run experiments on it。
+[Speaker 0]:  the power of experiments is controlled comparison。
+[Speaker 0]:  so you take the same and puts the same evaluators。
+[Speaker 0]:  and the only thing that changed is the agents prompts，
+[Speaker 0]:  that means any differences in scores is attributable to your change。
+[Speaker 0]:  you're not wondering did it score higher because of my prompt um or did it score higher because the web search happens to return better results this time？
+[Speaker 0]:  well，
+[Speaker 0]:  that actually still still ondering that a little bit buck as the agent is non deterministic。
+[Speaker 0]:  so it could have done ten web searches instead of five web searches。
+[Speaker 0]:  but you've elimiitted a major source of variation，
+[Speaker 0]:  which is the test cases。
+[Speaker 0]:  so like i said，
+[Speaker 0]:  um my agent has one shot of this，
+[Speaker 0]:  um which is great。
+[Speaker 0]:  but in reality，
+[Speaker 0]:  uh，
+[Speaker 0]:  it's not going to be that simple um the eval iterate cycle that we're talking about here where you go through uh run an experiment，
+[Speaker 0]:  change your prompt，
+[Speaker 0]:  run the experiment again over and over and over。
+[Speaker 0]:  that is where the real value lies not in the score itself，
+[Speaker 0]:  but in the cycle，
+[Speaker 0]:  you run the evalils。
+[Speaker 0]:  you look at the failures，
+[Speaker 0]:  you ad the explanations，
+[Speaker 0]:  you identify a pattern and you adjust your prompt。
+[Speaker 0]:  or as in this case，
+[Speaker 0]:  you get cloud to adjust your prompt for you。
+[Speaker 0]:  did it get better？
+[Speaker 0]:  is a question that can only be answered by evalals。
+[Speaker 0]:  you have taken the definition of good，
+[Speaker 0]:  and you have qudified it in a way that is incredibly useful。
+[Speaker 0]:  um。
+[Speaker 0]:  so this allows you to move from。
+[Speaker 0]:  i think it's working to。
+[Speaker 0]:  i can prove it's working a practical question that comes up fast。
+[Speaker 0]:  is how many samples do you need um for workshop scale experiments like today，
+[Speaker 0]:  twelve to twenty examples gives you a directional signal for actual shipping decisions you're going to want。
+[Speaker 0]:  uh more you're going to want something like two hundred to four hundred is a good target。
+[Speaker 0]:  but now that two hundred to four hundred is still like a human sized number that you could possibly accumulate over a couple of weeks。
+[Speaker 0]:  uh it's not tens of thousands or millions，
+[Speaker 0]:  like you would use if you were training an ml model。
+[Speaker 0]:  um they're diminishing returns。
+[Speaker 0]:  uh，
+[Speaker 0]:  to have your your margin of error。
+[Speaker 0]:  you have to quite druble your sample size。
+[Speaker 0]:  um so at some at some point，
+[Speaker 0]:  you have enough signal to be able to get along um to get along。
+[Speaker 0]:  um you're iterating。
+[Speaker 0]:  where do you invest？
+[Speaker 0]:  there's a hierarchchdata quality fixxes have the highest impact。
+[Speaker 0]:  if your agent is searching the wrong sources or your knowledge base has steal information，
+[Speaker 0]:  then no amount of prompt iteration is going to help。
+[Speaker 0]:  you should fix the data first，
+[Speaker 0]:  then prompting improvements are next few shot。
+[Speaker 0]:  examples，
+[Speaker 0]:  explicit instructions，
+[Speaker 0]:  the kind of self that i mentioned today，
+[Speaker 0]:  constraints，
+[Speaker 0]:  ts，
+[Speaker 0]:  what the agent ent shouldn't dn't do。
+[Speaker 0]:  these are often the highest ROI change to your agent。
+[Speaker 0]:  um model selection comes third，
+[Speaker 0]:  sometimes a more capable model sellls problems that prompting atat，
+[Speaker 0]:  but it will also cost more and be slower。
+[Speaker 0]:  so that is a trade off that you have to make um h thing thing not spspend。
+[Speaker 0]:  a lot of time on is hyparameter tuning things like like mperperature top p。
+[Speaker 0]:  it's very attempting to just go for them because they're easy to tweak。
+[Speaker 0]:  they very seldom make a high leverage change like prompting wood or improving the quality of your data wood，
+[Speaker 0]:  so you can try them，
+[Speaker 0]:  but they should be the last thing you try a practice worth knowing。
+[Speaker 0]:  is eval driven development，
+[Speaker 0]:  right？
+[Speaker 0]:  the eval，
+[Speaker 0]:  before you build the feature，
+[Speaker 0]:  uh，
+[Speaker 0]:  if you want your agent to always verify customer identity before does something before processing a refunferenstance，
+[Speaker 0]:  then write the eval the checks for that。
+[Speaker 0]:  first。
+[Speaker 0]:  that gives you a clear measurable definition of what good looks like of what done looks like，
+[Speaker 0]:  then you can build the future until the evl passes。
+[Speaker 0]:  this is the same philosophy as test，
+[Speaker 0]:  driven and development。
+[Speaker 0]:  and something i love about eval driven development is that the people closest to product requirements are best position to define success。
+[Speaker 0]:  so product managers，
+[Speaker 0]:  customer service people，
+[Speaker 0]:  even sales people can contribute to eval task。
+[Speaker 0]:  they can tell you what looks good and what doesn't look good in practice。
+[Speaker 0]:  they don't need to write code。
+[Speaker 0]:  they just need to describe in natural language，
+[Speaker 0]:  what good looks like to them。
+[Speaker 0]:  and you can boil that down into your eval rubicc。
+[Speaker 0]:  and so far，
+[Speaker 0]:  i've shown you how to do things both offline and online。
+[Speaker 0]:  we've been doing everything in a notebook um，
+[Speaker 0]:  but you're not really done when you're death experiment，
+[Speaker 0]:  trace passes。
+[Speaker 0]:  you're done when youagent um keeps performing inproduction on traffic that you've never seen um and it's worth spending a couple minutes talking about that，
+[Speaker 0]:  even though we're going to stick in the notebook uh for this workbook for this work session。
+[Speaker 0]:  um the first thing is online evalils。
+[Speaker 0]:  um like i said，
+[Speaker 0]:  and like i showed you earlier online evalls are exactly what they sound like they take the evaluators that you wrote today。
+[Speaker 0]:  uh the tickcheck，
+[Speaker 0]:  the faithlness，
+[Speaker 0]:  the actionability uand run them automatically on incoming production，
+[Speaker 0]:  traces the same evals running on new data。
+[Speaker 0]:  uh，
+[Speaker 0]:  i showed you how to run this on a trace eggs。
+[Speaker 0]:  let's you do this at three scopes。
+[Speaker 0]:  you can run your evalils at the span levels。
+[Speaker 0]:  you can say this particular ellymm call this particular tool call，
+[Speaker 0]:  run a trace on it every single time。
+[Speaker 0]:  sorry，
+[Speaker 0]:  run a eval on it every single time，
+[Speaker 0]:  or you can run it at the trace level，
+[Speaker 0]:  where it has the full tree to look at。
+[Speaker 0]:  and it can evaluate everything from start to finish。
+[Speaker 0]:  um you pick the scope that matches the question that you're asking um and you don't need to run e thousand and every single productrtrace，
+[Speaker 0]:  i uh production trace，
+[Speaker 0]:  rather um LM judges costs money at at production uh scale。
+[Speaker 0]:  those costs can add up。
+[Speaker 0]:  so you sample ten percent of your traffic or one percent of your traffic。
+[Speaker 0]:  and that gives you a directional signal without you having to run an expensive LM as a judge on every single iteration，
+[Speaker 0]:  every single instance of your application。
+[Speaker 0]:  if you don't want to write your evalls by hand，
+[Speaker 0]:  we have good news sphere，
+[Speaker 0]:  which is that we have built an agent into AX itself。
+[Speaker 0]:  it is called alex。
+[Speaker 0]:  you can describe your evl in plane english，
+[Speaker 0]:  or you can get your non technical colleagues to describe a describe the definition of good in plain english，
+[Speaker 0]:  and alex will actually manipulate the ui for you。
+[Speaker 0]:  create an eval write the ruubrick settle the scores correctly，
+[Speaker 0]:  get all the configuration correcct。
+[Speaker 0]:  and then just tell you that it's done this especispeciuseful for non engineers um and the full loop and production looks like this。
+[Speaker 0]:  you go from application，
+[Speaker 0]:  which produces traces to online evalils，
+[Speaker 0]:  which grade those traces and produced labels and explanations the eval labels feed into monitors，
+[Speaker 0]:  which we didn't cover today。
+[Speaker 0]:  um the monitors can alert your team。
+[Speaker 0]:  when something goes wrong，
+[Speaker 0]:  the team can investigate ffind the failing traces，
+[Speaker 0]:  say them as a ggression atata set，
+[Speaker 0]:  improve the agent，
+[Speaker 0]:  run an experiment to verify and ship the fix。
+[Speaker 0]:  and then the loop can run again um as new production traffic accumulates，
+[Speaker 0]:  you will accumulate new failure modeds。
+[Speaker 0]:  you will accumulate new educases。
+[Speaker 0]:  you're always going to be iterating on your evalils and iterating on your production monitoring。
+[Speaker 0]:  but it is a payoff that compounds every failure that your online evelcatch becomes a new test case。
+[Speaker 0]:  you save it to a dataset。
+[Speaker 0]:  and now it's a regression test for your next round of changes over time。
+[Speaker 0]:  this creates a dataset that is unique to your application。
+[Speaker 0]:  so your specific failure，
+[Speaker 0]:  res，
+[Speaker 0]:  your your specific users，
+[Speaker 0]:  your specific quality bar，
+[Speaker 0]:  nobody else has that data。
+[Speaker 0]:  and that is a competitive advantage that grows every single time your agent runs。
+[Speaker 0]:  there's one last pattern that i want to leave you with，
+[Speaker 0]:  which is the most powerful。
+[Speaker 0]:  when i know we did the simplest version today，
+[Speaker 0]:  we fed the judgeexplanations back to clad and had it rewrite two prompts。
+[Speaker 0]:  this works beautifully for two prompts，
+[Speaker 0]:  but a real system isn't too prompt its prompts scattered across many files。
+[Speaker 0]:  retrival settings，
+[Speaker 0]:  two definitions，
+[Speaker 0]:  all tangle together rewriting that isn't a single api call to jage for a coding agent that can see your entire repository。
+[Speaker 0]:  um so this is the pattern you want to export your failing traces from ax，
+[Speaker 0]:  along with their examinations。
+[Speaker 0]:  and hand the whole batch two cloud code or curse，
+[Speaker 0]:  or or another coding agent as context。
+[Speaker 0]:  uh this is where the ariarise skills plugin that i mentioned the beginning。
+[Speaker 0]:  uh works really well because you don't have because you don't have to know how to call her API。
+[Speaker 0]:  you don't have to know how to do any of that stuff。
+[Speaker 0]:  you give it the skills and then tell cloud code。
+[Speaker 0]:  hey，
+[Speaker 0]:  pulled down，
+[Speaker 0]:  some traces，
+[Speaker 0]:  see what's wrong and make my application better。
+[Speaker 0]:  and it works。
+[Speaker 0]:  there should be two guard rails on that approach first。
+[Speaker 0]:  however，
+[Speaker 0]:  first，
+[Speaker 0]:  you should feed it rerequirements and not just the failure explanation。
+[Speaker 0]:  so the goal isn't make the evalils pass because otherwise it will cheat。
+[Speaker 0]:  it will include all of your test data into its evalil and automatically pass all of your evals。
+[Speaker 0]:  so you have to make um your，
+[Speaker 0]:  you have to make sure that your requirements to your cloud code are clear that you don't wanted just to pass the evalls。
+[Speaker 0]:  you wanted to do this specific thing，
+[Speaker 0]:  which then makes the evalils pass。
+[Speaker 0]:  and second，
+[Speaker 0]:  you should tell to find thethemes and not chase individual failures。
+[Speaker 0]:  it。
+[Speaker 0]:  it's very tempting for cloud code to look at one particular failed trace and write a home bunch of code to fix that particular failed trace when there are actually ten failing traces that are all the same cause that it should be focused on。
+[Speaker 0]:  instead，
+[Speaker 0]:  i'm not going to do all of that time。
+[Speaker 0]:  all of that because i only have twelve minutes left，
+[Speaker 0]:  but once you have evals running，
+[Speaker 0]:  this is one of the highest leverage things that you can do with them。
+[Speaker 0]:  so let's step back and look at the whole shape of it。
+[Speaker 0]:  production produces traces online evals grade them and produce explanations。
+[Speaker 0]:  a coding agent reads the explanations and proposes fixes and experiments verify that the fixes work。
+[Speaker 0]:  and then you ship the production traffic that comes back，
+[Speaker 0]:  gets graded by the same online evalils that started the loop。
+[Speaker 0]:  um and this is the softwdedeveloment lilife cycle closing in on itself。
+[Speaker 0]:  your ai software is helping you improve your ai software and ax is the substrate that ties it altogether。
+[Speaker 0]:  your traces the evalils，
+[Speaker 0]:  the excinations tions，
+[Speaker 0]:  the atatasasthe experiments，
+[Speaker 0]:  the online evalls and the monitors。
+[Speaker 0]:  so just to recap，
+[Speaker 0]:  we instrumented agation with two lines of code，
+[Speaker 0]:  we tracit，
+[Speaker 0]:  and we read our data。
+[Speaker 0]:  we wrote a cody vw and built in LLMI valws。
+[Speaker 0]:  we wrote a custom rebrick from scratch。
+[Speaker 0]:  we validated our judge against human labels。
+[Speaker 0]:  uh，
+[Speaker 0]:  we saved failures at a data et。
+[Speaker 0]:  we had clud improve the prompts。
+[Speaker 0]:  we ran an experiment to prove that it worked。
+[Speaker 0]:  um we saw how AX takes all of that interproduction uh with online evalils。
+[Speaker 0]:  um this is the full loop。
+[Speaker 0]:  and now，
+[Speaker 0]:  you know all of it，
+[Speaker 0]:  however，
+[Speaker 0]:  you don't have to do all of it at once。
+[Speaker 0]:  this has been two hours of extremely good dense information，
+[Speaker 0]:  and i'm aware of that。
+[Speaker 0]:  you can start very，
+[Speaker 0]:  very small。
+[Speaker 0]:  you can start by reading your traces，
+[Speaker 0]:  just add those two lines of code and start looking at your traces。
+[Speaker 0]:  and that is already that is immediately going to give you information about what your agent is up to that you didn't know。
+[Speaker 0]:  uh fifteen minutes readreadreal outoutput will teach you more about your application than an hour building dashfords，
+[Speaker 0]:  then write one codivoucoddivls are easier than elym。
+[Speaker 0]:  i valals and their faster and their cheaper，
+[Speaker 0]:  uh and make it for the thing that matters most。
+[Speaker 0]:  so correcteness faithlness，
+[Speaker 0]:  whatever fits your use case，
+[Speaker 0]:  run them。
+[Speaker 0]:  look at the results，
+[Speaker 0]:  see what patterns emerge and build from there。
+[Speaker 0]:  evals are infrastructure。
+[Speaker 0]:  they're not enough to thought some teams create evalls at the very startive development others at them later once they are at scale。
+[Speaker 0]:  um but either way，
+[Speaker 0]:  the important thing is that you treat evals as a core part of your system，
+[Speaker 0]:  they should be as routine as untests and the value compounds ds only。
+[Speaker 0]:  if you keep ep inveeach each time a regression shows up before it reaches your users instead of after you'll understand why all of this work is worth doing。
+[Speaker 0]:  don't hope for great。
+[Speaker 0]:  you can get too great，
+[Speaker 0]:  systematically by specifying it，
+[Speaker 0]:  measuring it and improving towards it。
+[Speaker 0]:  so now is the time to try this for real on an app of your own。
+[Speaker 0]:  you already got in an ex account。
+[Speaker 0]:  i hope，
+[Speaker 0]:  by the time the wifi kicked in uh the dots that arizzo comh have companion notebooks with a runnable code for everything that we covered today。
+[Speaker 0]:  and if you want your coding agent to do the head of your lifting，
+[Speaker 0]:  you can install the the rise plugins，
+[Speaker 0]:  the rise skills plugin with one NPX command。
+[Speaker 0]:  and that is in that link is in today's nobook。
+[Speaker 0]:  uh if you've made it all the way to the end of this，
+[Speaker 0]:  you can also get a free year of a rise pro uusing cocode。
+[Speaker 0]:  it's up on the screen right now。
+[Speaker 0]:  and that is it？
+[Speaker 0]:  thank you all for your time and attention。
