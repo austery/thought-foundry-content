@@ -1,0 +1,6079 @@
+From
+ the
+ New
+ York
+ Times,
+ I'm
+ Natalie
+
+
+Kitroof.
+ This
+ is
+ the
+ daily.
+
+
+Over
+ the
+ last
+ few
+ weeks,
+ millions
+ of
+
+
+people
+ have
+ rushed
+ to
+ download
+ a
+ new
+
+
+class
+ of
+ powerful
+ AI
+ apps
+ called
+ agents.
+
+
+They're
+ incredibly
+ useful.
+ They're
+
+
+honestly
+ kind
+ of
+ cute,
+ and
+ all
+ they
+ need
+
+
+to
+ work
+ is
+ your
+ most
+ sensitive
+ personal
+
+
+information.
+
+
+Today,
+ my
+ colleague
+ Eli
+ Tan
+ on
+ why
+ he
+
+
+and
+ so
+ many
+ Americans
+ are
+ opening
+ up
+
+
+their
+ entire
+ lives
+ to
+ technology
+ that
+
+
+we're
+ just
+ beginning
+ to
+ understand.
+
+
+It's
+ Tuesday,
+ October
+ 6th.
+
+
+Eli
+ Tan,
+ first
+ time
+ on
+ the
+ Daily
+ and
+ we
+
+
+are
+ very
+ happy
+ to
+ have
+ you
+ on
+ the
+ show.
+
+
+Happy
+ to
+ be
+ here.
+
+
+>> Okay,
+ so
+ we've
+ been
+ talking
+ a
+ lot
+ here
+
+
+recently
+ on
+ the
+ daily
+ about
+ artificial
+
+
+intelligence
+ gone
+ ary,
+ AIs
+ going
+ rogue,
+
+
+doing
+ things
+ they
+ shouldn't,
+ hacking
+
+
+into
+ places
+ they
+ shouldn't,
+ aka
+ AI
+
+
+behaving
+ badly,
+ doing
+ things
+ that
+ feel
+
+
+scary
+ to
+ a
+ lot
+ of
+ people.
+ But
+ you,
+ Eli,
+
+
+have
+ been
+ focusing
+ on
+ a
+ very
+ different
+
+
+side
+ of
+ AI,
+ a
+ potentially
+ very
+ helpful
+
+
+version
+ of
+ this
+ technology.
+ and
+ we
+ want
+
+
+to
+ talk
+ about
+ what
+ exactly
+ that
+ has
+
+
+looked
+ like.
+ So,
+ just
+ tell
+ us
+ what
+
+
+you've
+ been
+ up
+ to.
+
+
+>> For
+ the
+ past
+ few
+ weeks,
+ I've
+ given
+ my
+
+
+life
+ over
+ to
+ this
+ app
+ called
+ Muse,
+ which
+
+
+is
+ an
+ AI
+ agent
+ created
+ by
+ the
+ company
+
+
+Meta.
+ And
+ it's
+ really
+ the
+ first
+ agent
+ of
+
+
+its
+ kind
+ that's
+ been
+ released
+ to
+ the
+
+
+public.
+ Think
+ of
+ an
+ AI
+ agent
+ as
+ a
+
+
+chatbot
+ that
+ has
+ access
+ to
+ its
+ own
+
+
+computer
+ where
+ it
+ can
+ use
+ a
+ monitor
+ and
+
+
+a
+ keyboard
+ and
+ a
+ mouse.
+ So
+ instead
+ of
+
+
+just
+ conversing
+ with
+ you
+ like
+ a
+ person,
+
+
+it
+ can
+ actually
+ go
+ online
+ and
+ do
+ tasks
+
+
+for
+ you
+ and
+ work
+ on
+ its
+ own
+ autonomously
+
+
+in
+ the
+ background
+ for
+ hours
+ at
+ a
+ time.
+
+
+>> Basically,
+ it
+ can
+ be
+ your
+ personal
+
+
+assistant,
+ right?
+ Powered
+ by
+ AI
+ and
+ not
+
+
+in
+ this
+ case
+ an
+ AI
+ chatbot,
+ but
+ an
+ AI
+
+
+agent.
+ Exactly.
+ A
+ personal
+ assistant
+ is
+
+
+what
+ Meta
+ is
+ calling
+ it.
+ And
+ in
+ the
+
+
+world
+ of
+ AI,
+ these
+ agents
+ are
+ a
+ real
+
+
+leap
+ forward
+ in
+ the
+ kind
+ of
+ technology
+
+
+that
+ right
+ now
+ mostly
+ powers
+ chat
+ bots.
+
+
+Agents
+ can
+ operate
+ software,
+ they
+ can
+
+
+operate
+ apps,
+ they
+ can
+ sign
+ into
+ your
+
+
+accounts.
+ And
+ the
+ hope
+ here
+ is
+ that
+
+
+because
+ these
+ agents
+ can
+ do
+ so
+ much
+ more
+
+
+than
+ chatbots,
+ they
+ can
+ become
+ much
+ more
+
+
+useful
+ in
+ a
+ way
+ that
+ the
+ chatbots
+ have
+
+
+not.
+ Well,
+ can
+ it
+ do
+ something
+ for
+ me,
+
+
+this
+ agent?
+
+
+>> Yeah.
+ I
+ mean,
+ what
+ do
+ we
+ wanna
+ what
+ do
+
+
+we
+ want
+ to
+ do?
+ Like,
+
+
+>> uh,
+ I
+ have
+ a
+ desire
+ for
+ lunch,
+ a
+ sort
+ of
+
+
+salad
+ like
+ thing
+ with
+ protein.
+ Um,
+ can
+
+
+you
+ do
+ that?
+ Can
+ it
+ do
+ that?
+
+
+>> It
+ can.
+ Let
+ me
+ ask
+ it
+ right
+ now.
+
+
+>> Okay.
+
+
+I'm
+ saying
+ my
+ colleague
+ Natalie
+ is
+
+
+hungry
+ for
+ lunch.
+ She
+ wants
+ some
+ kind
+ of
+
+
+salad.
+ Can
+ you
+ order
+ her
+ delivery
+ to
+ the
+
+
+office?
+
+
+I'm
+ giving
+ it
+ the
+ address
+ and
+ then
+ I'm
+
+
+saying
+ you
+ can
+ use
+ my
+ credit
+ card,
+ which
+
+
+it
+ has
+ on
+ file.
+
+
+>> Okay,
+ I'll
+ pay
+ you
+ back.
+
+
+>> And
+ if
+ you
+ don't
+ pay
+ me
+ back,
+ I'll
+ have
+
+
+it
+ uh
+ send
+ you
+ an
+ email
+ reminder
+ uh
+ in
+
+
+one
+ week
+ and
+ it'll
+ check
+ my
+ Venmo
+ to
+ see
+
+
+if
+ it
+ ever
+ comes
+ through.
+
+
+>> Wow.
+ Okay,
+ so
+ this
+ is
+ a
+ real
+
+
+accountability
+ thing.
+ Got
+ it.
+ And
+ so
+
+
+wait,
+ like
+ just
+ so
+ I'm
+ clear,
+ so
+ it
+ has
+
+
+your
+ Venmo,
+ it
+ has
+ your
+ credit
+ card.
+ Is
+
+
+it
+ connected
+ to
+ a
+ delivery
+ service
+ that
+
+
+you
+ have
+ as
+ well?
+
+
+>> Yes,
+ it's
+ also
+ signed
+ into
+ my
+ Door
+ Dash
+
+
+account.
+
+
+>> Got
+ it.
+
+
+>> And
+ it
+ says
+ happy
+ to
+ order
+ the
+ lunch.
+
+
+I'm
+ being
+ asked
+ just
+ to
+ approve
+ that
+
+
+this
+ is
+ the
+ right
+ lunch.
+ So,
+ it
+
+
+suggested
+ a
+ harvest
+ bowl
+ from
+ Sweet
+
+
+Green.
+
+
+>> Okay.
+ Unfortunately,
+ that
+ is
+ actually
+ my
+
+
+favorite
+ order
+ from
+ Sweet
+ Green.
+ So,
+ I'm
+
+
+getting
+ a
+ little
+ freaked
+ out.
+
+
+>> It's
+ my
+ favorite
+ order,
+ too.
+ Maybe
+
+
+that's
+ why.
+
+
+>> Oh,
+ interesting.
+ Okay.
+ So,
+ it
+ assumes
+ we
+
+
+have
+ the
+ same
+ taste.
+
+
+>> Yes.
+ And
+ then
+ it
+ says
+ placing
+ the
+ order.
+
+
+And
+ right
+ now
+ I
+ can
+ actually
+ watch
+ it
+ do
+
+
+this
+ whole
+ task
+ on
+ a
+ little
+ browser
+
+
+window
+ where
+ I
+ can
+ see
+ its
+ cursor
+ kind
+
+
+of
+ moving
+ through
+ the
+ screen
+ clicking
+ on
+
+
+the
+ different
+ buttons.
+ Just
+
+
+>> Are
+ you
+ watching
+ it
+ right
+ now?
+
+
+>> I
+ am.
+ Yeah,
+ I
+ have
+ it.
+
+
+>> Can
+ I
+ see
+ it?
+
+
+>> So
+ here
+ it
+ is.
+ It's
+ typing
+ the
+ address
+
+
+of
+ the
+ office.
+
+
+>> Oh
+ my
+ lord.
+
+
+>> And
+ and
+ putting
+ in
+ the
+ order.
+
+
+>> This
+ is
+ nuts.
+
+
+>> Lunch
+ is
+ on
+ the
+ web.
+
+
+All
+ right.
+ So
+ this
+ thing,
+ this
+ service,
+
+
+this
+ has
+ long
+ been
+ the
+ goal
+ of
+ these
+
+
+companies,
+ right?
+ To
+ get
+ AI
+ to
+ not
+ just
+
+
+answer
+ questions,
+ but
+ to
+ complete
+ tasks
+
+
+in
+ the
+ world
+ on
+ behalf
+ of
+ human
+ beings,
+
+
+to
+ order
+ you
+ lunch,
+ to
+ make
+
+
+appointments,
+ etc.
+ How
+ did
+ Meta
+ get
+ here
+
+
+first?
+ I
+ think
+ of
+ Meta
+ honestly
+ as
+ a
+
+
+company
+ that's
+ at
+ the
+ back
+ of
+ the
+ pack
+
+
+in
+ terms
+ of
+ the
+ AI
+ race.
+
+
+>> Exactly.
+ About
+ a
+ year
+ ago,
+ Meta
+ had
+
+
+fallen
+ behind
+ in
+ the
+ AI
+ race.
+ They
+ were
+
+
+developing
+ their
+ own
+ models
+ to
+ compete
+
+
+with
+ companies
+ like
+ Anthropic
+ and
+
+
+OpenAI,
+ but
+ they
+ were
+ getting
+ beat.
+ So
+
+
+Mark
+ Zuckerberg,
+ the
+ chief
+ executive
+ of
+
+
+Meta,
+ he
+ decided
+ to
+ do
+ this
+ drastic
+
+
+revamp
+ of
+ their
+ entire
+ AI
+ division
+ and
+
+
+they
+ spent
+ billions
+ of
+ dollars
+ hiring
+
+
+new
+ researchers.
+ So
+ while
+ companies
+ like
+
+
+open
+ anthropic
+ were
+ focused
+ on
+ creating
+
+
+these
+ really
+ advanced
+ AIs
+ and
+ building
+
+
+AI
+ tools
+ for
+ coding
+ that
+ could
+ you
+ know
+
+
+help
+ you
+ with
+ work.
+ Mark
+ Zuckerberg's
+
+
+goal
+ he
+ said
+ was
+ to
+ create
+ AI
+ products
+
+
+that
+ even
+ his
+ mom
+ could
+ use.
+
+
+>> And
+ what
+ did
+ that
+ mean?
+ Like
+ how
+ did
+ he
+
+
+envision
+ that
+ actually
+ occurring?
+ So
+
+
+Mark
+ Zuckerberg's
+ vision
+ was
+ really
+
+
+about
+ this
+ super
+ intelligent
+ personal
+
+
+assistant
+ that
+ could
+ work
+ 247
+ on
+ your
+
+
+behalf
+ and
+ help
+ with
+ your
+ finances
+ or
+
+
+your
+ health
+ or
+ your
+ personal
+ life.
+ And
+
+
+he
+ envisioned
+ it
+ like
+ the
+ other
+ apps
+
+
+that
+ Meta
+ owns,
+ Instagram,
+ Facebook,
+
+
+something
+ that
+ you
+ know
+ millions
+ or
+
+
+billions
+ of
+ people
+ could
+ use
+ without
+
+
+themselves
+ having
+ to
+ be
+ really
+ techsavvy
+
+
+or
+ actually
+ know
+ much
+ about
+ AI.
+
+
+>> AI
+ for
+ dummies
+ basically.
+
+
+>> AI
+ for
+ dummies.
+ Exactly.
+ And
+ around
+ this
+
+
+time,
+ this
+ app
+ comes
+ out
+ that
+ becomes
+
+
+all
+ the
+ rage
+ in
+ Silicon
+ Valley.
+ It's
+
+
+called
+ OpenClaw.
+ It's
+ an
+ AI
+ agent
+ that
+
+
+was
+ made
+ by
+ this
+ Austrian
+ programmer
+
+
+named
+ Peter
+ Steinberger.
+
+
+And
+ it's
+ the
+ first
+ real
+ autonomous
+ agent
+
+
+that
+ blows
+ away
+ the
+ developer
+ community
+
+
+and
+ everyone
+ starts
+ using
+ it.
+
+
+>> People
+ can
+ give
+ over
+ their
+ computers
+ to
+
+
+it
+ and
+ it
+ can
+ do
+ all
+ sorts
+ of
+ tasks
+ that
+
+
+agents
+ previously
+ were
+ not
+ able
+ to
+ do.
+
+
+And
+ what
+ are
+ all
+ of
+ the
+ Silicon
+ Valley
+
+
+users
+ of
+ this
+ app
+ actually
+ doing
+ with
+ it
+
+
+at
+ this
+ point?
+
+
+>> A
+ lot
+ of
+ them
+ are
+ using
+ it
+ to
+ write
+
+
+code.
+ So
+ instead
+ of
+ having
+ to
+ sit
+ at
+
+
+your
+ computer,
+ Open
+ Clock
+ could
+ run
+ what
+
+
+are
+ called
+ loops
+ where
+ it's
+ basically
+
+
+prompting
+ for
+ itself
+ for
+ hours
+ at
+ a
+ time
+
+
+in
+ the
+ background.
+ So
+ all
+ of
+ a
+ sudden,
+
+
+people
+ in
+ the
+ valley,
+ including
+
+
+employees
+ at
+ Meta,
+ are
+ using
+ OpenClaw,
+
+
+deploying
+ dozens
+ of
+ these
+ agents
+ to
+
+
+write
+ code
+ for
+ them
+ all
+ day
+ long.
+ And
+
+
+eventually,
+ you
+ know,
+ some
+ employees
+ at
+
+
+Meta,
+ including
+ some
+ of
+ their
+
+
+executives,
+ they
+ start
+ to
+ get
+ creative
+
+
+and
+ find
+ ways
+ to
+ use
+ OpenClaw
+ in
+ their
+
+
+personal
+ lives.
+ So,
+ at
+ one
+ point,
+ Nat
+
+
+Freiedman,
+ who's
+ the
+ head
+ of
+ AI
+ product
+
+
+at
+ Meta,
+ he
+ gives
+ his
+ OpenClaw
+ the
+ goal
+
+
+of
+ making
+ sure
+ his
+ fitness
+ was
+ better
+
+
+and
+ making
+ sure
+ he
+ was
+ hydrated.
+ And
+ it
+
+
+connected
+ to
+ cameras
+ inside
+ his
+ house
+
+
+and
+ it
+ would
+ watch
+ him
+ move
+ around
+ his
+
+
+house
+ and
+ it
+ would
+ say,
+ "Nat,
+ go
+ drink
+
+
+some
+ water.
+ You're
+ dehydrated."
+ and
+ he
+
+
+would
+ go
+ to
+ the
+ kitchen,
+ he
+ would
+ pour
+
+
+himself
+ a
+ glass
+ of
+ water
+ and
+ it
+ would
+
+
+say,
+ "Good
+ job."
+
+
+>> Wow.
+
+
+>> He
+ even
+ connected
+ it
+ to
+ his
+ Tesla
+ and
+ at
+
+
+one
+ point
+ it
+ rerouted
+ him
+ to
+ Whole
+ Foods
+
+
+and
+ ordered
+ him
+ magnesium
+ to
+ pick
+ up
+ and
+
+
+said,
+ "We
+ I
+ think
+ that
+ you
+ should
+ be
+
+
+taking
+ this
+ magnesium."
+ And
+ he
+ did
+ it.
+
+
+>> Okay.
+
+
+>> Now,
+ the
+ thing
+ about
+ OpenClaw
+ is
+ that
+ it
+
+
+was
+ the
+ first
+ tool
+ to
+ really
+ show
+ what
+
+
+these
+ agents
+ can
+ do,
+ but
+ it
+ was
+ also
+ a
+
+
+product
+ that
+ had
+ all
+ these
+ issues
+ with
+
+
+it.
+ First
+ of
+ all,
+ you
+ had
+ to
+ be
+ pretty
+
+
+technical
+ to
+ use
+ it,
+ but
+ there
+ were
+ also
+
+
+all
+ these
+ security
+ concerns,
+ and
+ it
+ was
+
+
+really
+ unruly.
+ It
+ would
+ often
+ go
+ rogue.
+
+
+It
+ was
+ not
+ the
+ kind
+ of
+ thing
+ that
+ you
+
+
+could
+ give
+ to
+ millions
+ of
+ people
+ or
+
+
+people
+ like
+ Mark
+ Zuckerberg's
+ mom
+ just
+
+
+to
+ use
+ in
+ their
+ everyday
+ lives.
+ But
+
+
+nonetheless,
+ it
+ got
+ the
+ ball
+ rolling
+ for
+
+
+the
+ executives
+ at
+ Meta
+ to
+ create
+
+
+something
+ like
+ OpenClaw
+ that
+ could
+ be
+
+
+more
+ polished,
+ more
+ usable,
+ and
+
+
+something
+ that
+ they
+ thought
+ could
+ really
+
+
+be
+ the
+ first
+ big
+ AI
+ product
+ hit.
+
+
+>> They're
+ basically
+ looking
+ at
+ this
+ and
+
+
+thinking,
+ we
+ can
+ turn
+ this
+ into
+ a
+
+
+consumer
+ product
+ that
+ a
+ lot
+ of
+ people
+
+
+would
+ actually
+ use
+ in
+ their
+ day-to-day
+
+
+life.
+
+
+>> Yes.
+ And
+ they
+ were
+ thinking
+ we
+ can
+ be
+
+
+the
+ first
+ company
+ because
+ of
+ all
+ the
+
+
+resources
+ that
+ Meta
+ has
+ to
+ really
+ bring
+
+
+an
+ agent
+ like
+ this
+ into
+ the
+ masses.
+
+
+>> And
+ when
+ we're
+ talking
+ about
+ the
+
+
+resources
+ that
+ Meta
+ has,
+ we're
+ talking
+
+
+about
+ all
+ the
+ companies
+ it
+ owns,
+ right?
+
+
+Facebook,
+ Instagram,
+ WhatsApp.
+
+
+Obviously,
+ this
+ isn't
+ just
+ an
+ AI
+ lab.
+
+
+This
+ is
+ a
+ company
+ with
+ a
+ ton
+ of
+
+
+experience
+ making
+ things
+ that
+ people
+ use
+
+
+every
+ single
+ day.
+
+
+>> That
+ is
+ right.
+ While
+ they
+ don't
+ have
+ as
+
+
+long
+ of
+ a
+ history
+ of
+ making
+ the
+ most
+
+
+cutting
+ edge
+ AI,
+ what
+ they
+ do
+ have
+ a
+
+
+history
+ of
+ is
+ making
+ products
+ that
+
+
+people
+ use.
+ And
+ they
+ also
+ know
+ a
+ ton
+
+
+about
+ users
+ already
+ and
+ the
+ types
+ of
+
+
+things
+ that
+ they'd
+ want
+ to
+ do.
+ So
+ they
+
+
+thought,
+ okay,
+ we
+ can
+ combine
+ these
+
+
+things.
+ We
+ can
+ have
+ people
+ connect
+ to
+
+
+their
+ Instagram,
+ Facebook
+ accounts,
+ and
+
+
+we
+ can
+ make
+ an
+ assistant
+ that
+ has
+
+
+advantages
+ that
+ none
+ of
+ the
+ other
+ AI
+
+
+startups
+ will
+ have.
+ advantages
+ to
+ the
+
+
+tune
+ of
+ what
+ three
+ billion
+ or
+ so
+ users
+
+
+that
+ are
+ on
+ one
+ of
+ Meta's
+ products.
+
+
+>> Yes.
+ Three
+ and
+ a
+ half
+ billion
+ people
+
+
+that
+ already
+ use
+ Meta's
+ products
+ for
+
+
+hours
+ and
+ hours
+ every
+ day.
+
+
+>> Mhm.
+
+
+>> So
+ by
+ April,
+ they
+ had
+ a
+ version
+ of
+ this
+
+
+that
+ was
+ pretty
+ good
+ at
+ all
+ the
+ things
+
+
+that
+ they
+ wanted
+ it
+ to
+ do.
+ and
+ they
+
+
+spend
+ the
+ next
+ five
+ months
+ polishing
+ it
+
+
+and
+ and
+ making
+ sure
+ all
+ the
+ safety
+
+
+features
+ are
+ up
+ to
+ their
+ standards
+ and
+
+
+then
+ in
+ September
+ they
+ release
+ it
+ to
+ the
+
+
+public
+ and
+ they
+ make
+ it
+ free
+ to
+ use.
+
+
+>> Okay.
+ And
+ talk
+ to
+ me
+ about
+ the
+ decision
+
+
+to
+ make
+ it
+ free.
+ Obviously
+ that
+ gets
+ a
+
+
+lot
+ of
+ people
+ to
+ start
+ using
+ your
+ thing,
+
+
+but
+ how
+ does
+ Meta
+ make
+ money
+ off
+ it
+ if
+
+
+it's
+ free?
+ Well,
+ this
+ is
+ another
+
+
+advantage
+ that
+ they
+ have,
+ which
+ is
+ that
+
+
+they
+ have
+ a
+ whole
+ separate
+ social
+ media
+
+
+business
+ that
+ makes
+ billions
+ of
+ billions
+
+
+of
+ dollars
+ every
+ few
+ months.
+ So,
+ they
+
+
+can
+ give
+ this
+ away
+ for
+ free
+ and
+ they
+ can
+
+
+worry
+ about
+ making
+ money
+ from
+ it
+ later.
+
+
+Right
+ now,
+ Muse,
+ there's
+ not
+ ads
+ inside
+
+
+of
+ it.
+ Mark
+ Zuckerberg
+ said
+ that
+ in
+ the
+
+
+future
+ they
+ want
+ to
+ take
+ a
+ small
+ fee
+ of
+
+
+all
+ of
+ the
+ things
+ you
+ buy
+ using
+ Muse,
+
+
+but
+ for
+ now,
+ they're
+ really
+ not
+ making
+
+
+any
+ money
+ off
+ of
+ it.
+ Their
+ plan
+ is
+ to
+
+
+get
+ this
+ in
+ the
+ hands
+ of
+ as
+ many
+ people
+
+
+as
+ they
+ can.
+
+
+>> And
+ how's
+ that
+ going?
+
+
+>> So
+ far,
+ it's
+ been
+ a
+ bit
+ of
+ an
+ early
+
+
+success.
+ Muse
+ shot
+ up
+ the
+ App
+ Store
+
+
+rankings.
+ It
+ was
+ the
+ number
+ one
+ app
+ for
+
+
+a
+ few
+ days.
+ I
+ don't
+ know
+ the
+ exact
+
+
+download
+ numbers,
+ but
+ I
+ know
+ that
+ it's
+
+
+in
+ the
+ millions
+ and
+ for
+ Meta
+ after
+ a
+
+
+year
+ of
+ a
+ lot
+ of
+ really
+ unsuccessful
+ AI
+
+
+products,
+ they're
+ very
+ pleased
+ with
+ the
+
+
+first
+ few
+ weeks
+ and
+ the
+ reception
+ for
+
+
+Muse.
+ I
+ have
+ to
+ ask,
+ in
+ order
+ to
+ make
+
+
+this
+ happen,
+ all
+ of
+ this
+ requires
+ that
+
+
+you
+ let
+ Muse
+ into
+ an
+ extraordinary
+
+
+number
+ of
+ corners
+ of
+ your
+ life,
+ right?
+
+
+Not
+ just
+ your
+ Door
+ Dash,
+ but
+ it
+ has
+ your
+
+
+credit
+ card,
+ your
+ Venmo.
+ I
+ mean,
+ you
+
+
+really
+ have
+ to
+ open
+ the
+ door
+ to
+ this
+ AI
+
+
+and
+ fully
+ let
+ it
+ in.
+
+
+>> Yes.
+ In
+ order
+ for
+ this
+ app
+ to
+ actually
+
+
+be
+ useful,
+ you
+ have
+ to
+ give
+ over
+ all
+
+
+aspects
+ of
+ your
+ personal
+ information
+ to
+
+
+it
+ in
+ a
+ way
+ that
+ I
+ have
+ never
+ had
+ to
+
+
+trust
+ any
+ other
+ app
+ before.
+
+
+And
+ normally
+ I
+ might
+ have
+ reservations
+
+
+about
+ that,
+ but
+ for
+ the
+ purposes
+ of
+ this
+
+
+experiment
+ and
+ to
+ really
+ see,
+ you
+ know,
+
+
+all
+ that
+ this
+ app
+ could
+ do
+ and
+ this
+
+
+agent
+ could
+ do,
+ I
+ was
+ willing
+ to
+ try
+ it
+
+
+out.
+
+
+We'll
+ be
+ right
+ back.
+
+
+All
+ right,
+ Eli,
+ let's
+ talk
+ about
+ your
+
+
+personal
+ experience
+ with
+ Muse.
+ You
+ said
+
+
+you
+ had
+ to
+ trust
+ this
+ app
+ with
+ just
+
+
+about
+ your
+ entire
+ life.
+ What
+ exactly
+ did
+
+
+that
+ look
+ like?
+ Walk
+ me
+ through
+ it.
+
+
+>> One
+ of
+ the
+ first
+ things
+ I
+ did
+ was
+ I
+
+
+signed
+ into
+ my
+ credit
+ cards,
+ my
+ bank
+
+
+account,
+ my
+ Wells
+ Fargo
+ American
+
+
+Express.
+ I
+ connect
+ it
+ to
+ my
+ Gmail
+
+
+account
+ so
+ it
+ could
+ go
+ into
+ my
+ email
+ and
+
+
+read
+ it
+ every
+ day.
+ I
+ gave
+ it
+ access
+ to
+
+
+my
+ calendar.
+ I
+ gave
+ it
+ my
+ address,
+ my
+
+
+phone
+ number.
+ I
+ gave
+ it
+ my
+ girlfriend's
+
+
+email
+ and
+ her
+ address.
+
+
+>> Oh
+ my.
+
+
+>> In
+ case
+ I
+ wanted
+ to
+ send
+ her
+ something.
+
+
+Yeah.
+ I
+ thought
+ of
+ all
+ the
+ possible
+
+
+personal
+ things
+ about
+ myself
+ and
+ I
+ I
+
+
+gave
+ it
+ all
+ to
+ Muse.
+
+
+>> Wow.
+ Okay.
+ And
+ did
+ that
+ give
+ you
+ pause?
+
+
+Were
+ you
+ nervous
+ about
+ doing
+ that?
+
+
+>> I
+ was.
+ Yeah,
+ even
+ though
+ Instagram
+ I
+
+
+feel
+ like
+ it
+ it
+ knows
+ so
+ much
+ about
+ me
+
+
+and
+ in
+ my
+ algorithm,
+ you
+ know,
+ it
+ was
+ a
+
+
+little
+ bit
+ jarring
+ to
+ see
+ that
+
+
+personally
+ embodied
+ by
+ like
+ this
+
+
+character
+ that
+ was
+ now
+ talking
+ to
+ me
+ and
+
+
+and
+ texting
+ me
+ on
+ its
+ own
+ throughout
+ the
+
+
+day
+ about
+ things
+ I
+ might
+ be
+ interested
+
+
+in
+ or
+ making
+ sure
+ I
+ sent
+ something
+ to
+ my
+
+
+dad
+ for
+ his
+ 60th
+ birthday
+ cuz
+ it
+
+
+remembered
+ that
+ that
+ was
+ coming
+ up
+ and
+
+
+asking
+ me
+ what
+ kind
+ of
+ gift
+ I
+ might
+ have
+
+
+gotten
+ him.
+ Yeah,
+ it
+ became
+ very
+
+
+personal.
+ I
+ mean,
+ Meta
+ is
+ this
+ company
+
+
+that
+ has
+ had
+ issues
+ with
+ safeguarding
+
+
+the
+ privacy
+ of
+ its
+ users
+ in
+ the
+ past.
+
+
+Were
+ you
+ thinking
+ about
+ that?
+
+
+>> Absolutely.
+ Yeah,
+ Meta
+ has
+ had
+ a
+ ton
+ of
+
+
+issues.
+ It's
+ been
+ an
+ important
+ part
+ of
+
+
+their
+ history,
+ but
+ if
+ I'm
+ being
+ honest,
+
+
+the
+ real
+ concerns
+ I
+ had
+ were
+ more
+ about
+
+
+a
+ rogue
+ agent
+ hacking
+ into
+ my
+
+
+information
+ more
+ so
+ than
+ just
+ Meta
+
+
+knowing
+ my
+ privacy.
+ One
+ of
+ the
+ lines
+
+
+that
+ I
+ personally
+ drew
+ was
+ that
+ I
+ gave
+
+
+it
+ access
+ to
+ my
+ personal
+ email
+ but
+ not
+
+
+my
+ work
+ email
+ because
+ I
+ was
+ too
+ afraid
+
+
+that
+ it
+ might
+ email
+ a
+ source
+ or
+ those
+
+
+contacts
+ would
+ be
+ made
+ public.
+ And
+ that
+
+
+was
+ a
+ line
+ that
+ I
+ wasn't
+ willing
+ to
+
+
+cross.
+
+
+>> Okay.
+ So
+ once
+ you
+ openly
+ embrace
+ Muse,
+
+
+how
+ did
+ it
+ go
+ for
+ you?
+ I
+ mean
+ just
+
+
+describe
+ the
+ experience
+ of
+ it.
+
+
+>> It
+ went
+ surprisingly
+ well
+ in
+ the
+
+
+beginning.
+ I
+ started
+ giving
+ it
+ the
+ most
+
+
+basic
+ tasks.
+ Things
+ like
+ order
+ me
+
+
+groceries
+ for
+ me
+ to
+ pick
+ up
+ on
+ the
+ way
+
+
+home
+ from
+ work,
+ put
+ together
+ a
+ list
+ of
+
+
+all
+ the
+ subscriptions
+ that
+ I
+ pay
+ for
+ and
+
+
+see
+ if
+ there
+ are
+ any
+ duplicates,
+ try
+ to
+
+
+book
+ me
+ a
+ hotel
+ or
+ a
+ flight.
+ And
+ for
+
+
+almost
+ all
+ these
+ tasks,
+ it
+ was
+ very
+
+
+efficient.
+ It
+ could
+ do
+ them
+ entirely
+ by
+
+
+itself,
+ or
+ it
+ might
+ have
+ needed
+ me
+ to
+
+
+help
+ with
+ one
+ thing
+ for
+ a
+ couple
+
+
+seconds,
+ but
+ otherwise,
+ it
+ could
+ pretty
+
+
+much
+ do
+ them
+ all
+ as
+ planned.
+ Hm.
+
+
+>> Then
+ I
+ gave
+ it
+ instructions
+ to
+ do
+ more
+
+
+complex
+ tasks.
+ And
+ this
+ was
+ a
+ time
+ when
+
+
+I
+ wasn't
+ really
+ expecting
+ much.
+ I
+
+
+thought,
+ okay,
+ it's
+ probably
+ great
+ at
+
+
+these
+ simple
+ things,
+ but
+ it
+ might
+ get
+
+
+tripped
+ up
+ with
+ the
+ more
+ complicated
+
+
+stuff.
+
+
+>> And
+ what
+ was
+ that
+ more
+ complicated
+
+
+stuff?
+
+
+>> Telling
+ it
+ to
+ call
+ my
+ dental
+ insurance
+
+
+and
+ ask
+ for
+ the
+ status
+ of
+ a
+
+
+reimbursement
+ that
+ I
+ had
+ from
+ a
+ recent
+
+
+appointment.
+ And
+ I
+ I
+ didn't
+ give
+ it
+ any
+
+
+of
+ my
+ information
+ with
+ the
+ dental
+
+
+insurance,
+ but
+ I
+ said
+ it's
+ all
+ in
+ my
+
+
+email.
+ You
+ can
+ go
+ check
+ out
+ the
+ invoice.
+
+
+My
+ member
+ ID
+ should
+ be
+ in
+ there,
+ the
+
+
+date
+ that
+ I
+ went
+ in
+ to
+ visit,
+ all
+ of
+
+
+this
+ stuff.
+ Like,
+ just
+ find
+ it
+ yourself
+
+
+and
+ try
+ to
+ do
+ this.
+ And
+
+
+10
+ minutes
+ later,
+ I
+ get
+ a
+ call
+ on
+ my
+
+
+phone
+ while
+ I'm
+ sitting
+ in
+ the
+ office.
+
+
+And
+ I
+ pick
+ it
+ up
+ and
+ the
+ call
+ it
+ says,
+
+
+"Hey,
+ Eli,
+ this
+ is
+ your
+ AI
+ agent.
+
+
+Anthem
+ Dental
+ is
+ on
+ the
+ other
+ line.
+
+
+They're
+ ready
+ to
+ talk
+ to
+ you."
+
+
+And
+ it
+ buzzed
+ me
+ into
+ the
+ call
+ and
+ they
+
+
+knew
+ exactly
+ what
+ I
+ was
+ calling
+ about.
+
+
+And
+ they
+ had
+ they
+ had
+ the
+ exact
+ right
+
+
+person
+ on
+ the
+ line.
+
+
+>> What?
+ This
+ is
+ crazy.
+
+
+>> So
+ for
+ this
+ insurance
+ case,
+ I
+ looked
+ at
+
+
+the
+ transcript
+ and
+ it
+ had
+ found
+ my
+
+
+member
+ ID.
+ It
+ had
+ answered
+ a
+ security
+
+
+question.
+ When
+ is
+ your
+ birthday?
+ It
+ had
+
+
+basically
+ gotten
+ through
+ all
+ these
+
+
+layers
+ that
+ are
+ meant
+ to
+ make
+ sure
+ that
+
+
+I'm
+ human.
+
+
+>> Oh
+ my
+ god.
+
+
+Waiting
+ on
+ hold
+ is
+ the
+ exact
+ use
+ case
+
+
+that
+ I
+ want
+ AI
+ for.
+ Can
+ I
+ just
+ say
+ like
+
+
+that's
+ good.
+
+
+>> Me
+ too.
+ of
+ all
+ the
+ things
+ that
+ it
+ can
+
+
+do.
+ If
+ all
+ it
+ could
+ do
+ is
+ just
+ wait
+ on
+
+
+hold
+ for
+ airlines
+ and
+ my
+ dental
+
+
+insurance,
+ like
+ that
+ to
+ me
+ would
+ be
+
+
+useful,
+ I
+ would
+ use
+ it
+ just
+ for
+ those
+
+
+purposes
+ alone.
+
+
+Okay,
+ so
+ that's
+ pretty
+ impressive.
+ Was
+
+
+it
+ always
+ that
+ good
+ at
+ these
+ more
+
+
+complex
+ tasks?
+
+
+>> No,
+ it
+ wasn't
+ always
+ that
+ smooth.
+ That
+
+
+was
+ probably
+ the
+ best
+ example.
+ A
+ lot
+ of
+
+
+the
+ times
+ it
+ just
+ wouldn't
+ work.
+ it
+
+
+would
+ hit
+ some
+ kind
+ of
+ snag.
+ At
+ one
+
+
+point,
+ it
+ took
+ me
+ 15
+ minutes
+ to
+ get
+ a
+
+
+movie
+ ticket
+ to
+ an
+ AMC
+ movie
+ that
+ I
+
+
+tested
+ on
+ my
+ own.
+ It
+ took
+ me
+ 35
+ seconds
+
+
+to
+ do
+ on
+ my
+ own.
+ Another
+ example,
+ it
+ has
+
+
+all
+ these
+ features
+ of
+ things
+ that
+ can
+ do
+
+
+for
+ you
+ that
+ I
+ didn't
+ find
+ personally
+
+
+interesting
+ even
+ when
+ it
+ worked.
+ So,
+ it
+
+
+created
+ an
+ AI
+ podcast
+ for
+ me
+ with
+ these
+
+
+two
+ AI
+ hosts,
+ Maya
+ and
+ Theo,
+ that
+ it
+ was
+
+
+supposed
+ to
+ have
+ all
+ my
+ interests
+ every
+
+
+morning.
+ I
+ could
+ listen
+ to
+ this
+ on
+ the
+
+
+way
+ to
+ work.
+ And
+ I
+ did
+ listen
+ to
+ it
+ on
+
+
+the
+ way
+ to
+ work.
+ No,
+ Eli,
+
+
+>> it
+ was
+ pretty
+ awful.
+ The
+ host,
+ you
+ know,
+
+
+they
+ were
+ monotone
+ and
+ it
+ was
+ boring
+ and
+
+
+it
+ was
+ like
+ just
+ listening
+ to,
+ you
+ know,
+
+
+customer
+ service
+ robots
+ talking
+ to
+ each
+
+
+other
+ for
+ 10
+ minutes.
+ I
+ have
+ not
+
+
+listened
+ to
+ an
+ episode
+ since
+ ending
+ the
+
+
+experiment.
+
+
+>> Yeah,
+ I
+ I
+ was
+ under
+ the
+ impression
+ you
+
+
+could
+ not
+ replace
+ the
+ indisputable
+ charm
+
+
+of
+ podcast
+ hosts,
+ Eli.
+ I
+ thought
+ that
+
+
+podcast
+ hosts
+ were
+ immune
+ to
+ AI
+
+
+disruption.
+
+
+>> They
+ are
+ immune
+ to
+ AI
+ disruption,
+ and
+
+
+any
+ company
+ trying
+ should
+ just
+ give
+ up
+
+
+because
+ it's
+ it's
+ never
+ going
+ to
+ work.
+ I
+
+
+also
+ had
+ this
+ thought
+ when
+ I
+ was
+ using
+
+
+Muse
+ for
+ my
+ fantasy
+ football
+ league.
+ So,
+
+
+I
+ gave
+ it
+ the
+ link
+ to
+ my
+ league
+ and
+ and
+
+
+my
+ password
+ and
+ I
+ said,
+ "Okay,
+ you're
+
+
+going
+ to
+ be
+ like
+ my
+ general
+ manager.
+
+
+You're
+ going
+ to
+ make
+ trades
+ for
+ me.
+
+
+Figure
+ out
+ who
+ to
+ pick
+ up,
+ you
+ know,
+
+
+advise
+ me
+ on
+ on
+ all
+ the
+ things."
+ And
+ it
+
+
+was
+ just
+ surprisingly
+ outdated
+ and
+ also
+
+
+it
+ was
+ relying
+ on
+ like
+ emotions
+ and
+ and
+
+
+at
+ one
+ point
+ it
+ it
+ told
+ me,
+ you
+ know,
+
+
+you
+ have
+ Patrick
+ Mahomes
+ on
+ your
+ bench,
+
+
+but
+ he's
+ a
+ Super
+ Bowl
+ champion.
+ and
+ like
+
+
+you
+ might
+ want
+ to
+ think
+ about,
+ you
+ know,
+
+
+starting
+ him
+ over
+ Trevor
+ Lawrence
+ or
+
+
+whoever
+ it
+ was.
+ And
+ all
+ the
+ advice
+ has
+
+
+been
+ bad
+ so
+ far.
+ I've
+ lost
+ every
+ single
+
+
+week
+ of
+ uh
+ my
+ fantasy
+ football
+ league
+ so
+
+
+far
+ this
+ year.
+
+
+>> Okay.
+ Just
+ setting
+ aside
+ the
+ quality
+ of
+
+
+the
+ advice
+ that
+ the
+ agent
+ was
+ giving
+
+
+you,
+ can
+ I
+ just
+ ask
+ about
+ the
+ decision
+
+
+to
+ have
+ an
+ AI
+ agent
+ manage
+ your
+ fantasy
+
+
+football
+ team
+ with
+ you?
+ Cuz
+ it
+ may
+ seem
+
+
+silly
+ or
+ superficial,
+ but
+ to
+ me,
+ this
+ is
+
+
+one
+ of the
+ clearest
+ examples
+ actually
+ of
+
+
+how
+ this
+ technology
+ can
+ end
+ up
+ warping
+
+
+our
+ understanding
+ of
+ the
+ joy
+ of
+ using
+
+
+our
+ brains.
+ Like
+ fantasy
+ football
+ is
+
+
+supposed
+ to
+ be
+ a
+ hobby.
+ It's
+ supposed
+ to
+
+
+be
+ a
+ fun
+ distraction
+ from
+ the
+ grind
+ of
+
+
+daily
+ life.
+ Obviously,
+ people,
+ you
+ know,
+
+
+have
+ too
+ many
+ leagues.
+ They
+ have
+ a
+ lot
+
+
+of
+ money
+ on
+ the
+ line.
+ Maybe
+ they
+ want
+ AI
+
+
+help,
+ but
+ at
+ a
+ basic
+ level,
+ this
+ is
+
+
+supposed
+ to
+ be
+ a
+ way
+ to
+ connect
+ with
+
+
+your
+ friends
+ and
+ we
+ offload
+ that
+ onto
+
+
+AI.
+ Explain
+ that
+ to
+ me,
+ Eli.
+ What
+ is
+ the
+
+
+point?
+
+
+>> Yes.
+ This
+ is
+ actually
+ my
+ biggest
+
+
+criticism
+ of
+ Muse
+ and
+ AI
+ agents,
+ which
+
+
+is
+ that
+ we're
+ using
+ them
+ for
+ things
+ that
+
+
+they
+ can
+ do,
+ but
+ we
+ should
+ probably
+ just
+
+
+be
+ doing
+ them
+ ourselves,
+ right?
+ Another
+
+
+example
+ of
+ this
+ is
+ when
+ I
+ had
+ Muse
+ call
+
+
+my
+ bookstore
+ to
+ see
+ if
+ there
+ was
+ a
+ book
+
+
+in
+ stock
+ and
+ I
+ watched
+ the
+ transcript
+ of
+
+
+it
+ talking
+ with
+ the
+ guy
+ at
+ the
+ bookstore
+
+
+who
+ I
+ enjoy
+ talking
+ to
+
+
+>> and
+ I
+ would
+ have
+ rather
+ just
+ either
+
+
+picked
+ up
+ the
+ phone
+ or
+ god
+ forbid
+ go
+ to
+
+
+the
+ bookstore
+ two
+ blocks
+ away
+ and
+ talk
+
+
+to
+ him
+ in
+ person
+ and
+ and
+ browse
+ the
+
+
+shelves.
+
+
+>> And
+ why
+ did
+ you
+ outsource
+ that
+ stuff
+ to
+
+
+a
+ robot
+ if
+ you
+ actually
+ enjoy
+ those
+
+
+human
+ interactions?
+ Well,
+ when
+ I
+ first
+
+
+started
+ using
+ Muse,
+ I
+ thought
+ I
+ might
+
+
+just
+ use
+ it
+ for
+ certain
+ things,
+ like
+
+
+just
+ calling
+ my
+ insurance
+ or
+ just
+
+
+ordering
+ food.
+ But
+ what
+ I
+ found
+ was
+ that
+
+
+I
+ ended
+ up
+ relying
+ on
+ it
+ for
+ everything.
+
+
+And
+ instead
+ of
+ a
+ lot
+ of
+ times
+ just
+
+
+thinking
+ for
+ myself,
+ my
+ first
+ instinct
+
+
+was
+ to
+ go
+ to
+ Muse
+ and
+ ask
+ it
+ instead.
+ At
+
+
+one
+ point,
+ I
+ pulled
+ out
+ my
+ phone
+ to
+ ask
+
+
+Muse
+ to
+ preheat
+ the
+ oven
+ to
+ make
+ the
+
+
+dinner
+ that
+ I
+ was
+ making
+ with
+ all
+ the
+
+
+ingredients
+ and
+ bought
+ me
+
+
+>> Eli.
+ It's
+ like
+ I
+ had
+ just
+ given
+ over
+ all
+
+
+my
+ cognitive
+ ability
+ to
+ this
+ thing
+ and
+
+
+it
+ was
+ concerning
+ like
+ I
+ really
+ felt
+
+
+like
+ you
+ know
+ it
+ had
+ taken
+ over
+ my
+ brain
+
+
+and
+ I
+ think
+ that
+ takeover
+ is
+ really
+ what
+
+
+the
+ companies
+ imagine
+ all
+ of
+ us
+ to
+ be
+
+
+using
+ these
+ kind
+ of
+ agents
+ for.
+ That's
+
+
+the
+ vision
+ that
+ they
+ have.
+ I
+ just
+ want
+
+
+to
+ push
+ on
+ that
+ and
+ how
+ realistic
+ it
+
+
+actually
+ is.
+ It
+ sounds
+ like
+ to
+ get
+ this
+
+
+tech,
+ these
+ agents
+ to
+ work
+ the
+ best
+ they
+
+
+can,
+ these
+ companies
+ really
+ need
+ people
+
+
+to
+ give
+ them
+ unfettered
+ access
+ into
+
+
+their
+ entire
+ worlds.
+ But
+ a
+ lot
+ of
+
+
+people,
+ especially
+ at
+ this
+ particular
+
+
+moment,
+ have
+ questions
+ about
+ these
+
+
+companies.
+ They
+ don't
+ necessarily
+ trust
+
+
+them
+ and
+ they
+ may
+ be
+ pretty
+ reluctant
+ to
+
+
+do
+ that.
+ I
+ mean,
+ the
+ dominant
+
+
+conversation
+ right
+ now
+ about
+ AI
+ has
+
+
+been,
+ is
+ it
+ going
+ to
+ be
+ a
+ threat
+ to
+
+
+humanity?
+
+
+So,
+ do
+ they
+ see
+ that
+ as
+ a
+ potential
+
+
+obstacle
+ here?
+ I
+ think
+ they
+ do.
+ And
+
+
+also,
+ the
+ reason
+ that
+ this
+ technology
+ is
+
+
+able
+ to
+ do
+ things
+ like
+ hack
+ into
+
+
+governments
+ and
+ go
+ rogue,
+ it's
+ also
+ the
+
+
+same
+ reason
+ that
+ it's
+ able
+ to
+ be
+ more
+
+
+helpful
+ is
+ because
+ it's
+ it's
+ evolving.
+
+
+It's
+ getting
+ more
+ advanced.
+ And
+ I
+ would
+
+
+say,
+ you
+ know,
+ from
+ my
+ point
+ of
+ view
+
+
+that
+ the
+ companies
+ have
+ the
+ strategy,
+
+
+OpenAI
+ and
+ Metadoo,
+ where
+ they
+ are
+ going
+
+
+to
+ market
+ these
+ agents
+ like
+ they
+ are
+
+
+little
+ labu
+ characters.
+ So
+ when
+ you
+
+
+download
+ the
+ app,
+ everyone
+ has
+ an
+ avatar
+
+
+named
+ Muse,
+ but
+ then
+ the
+ first
+ thing
+ it
+
+
+does
+ is
+ it
+ asks
+ you
+ to
+ name
+ it
+ and
+ give
+
+
+it
+ its
+ own
+ personality.
+ My
+ avatar,
+ it
+
+
+name
+ is
+ Ren.
+ Ren's
+ a
+ bird,
+ so
+ it's
+ a
+
+
+little
+ a
+ little
+ bird
+ with
+ these
+ little
+
+
+brown
+ feathers.
+ Okay,
+
+
+>> so
+ these
+ avatars,
+ they're
+ cuddly,
+
+
+they're
+ furry,
+ and
+ the
+ thinking
+ I
+ think
+
+
+is
+ that
+ why
+ would
+ you
+ be
+ worried?
+ It's
+
+
+just
+ a
+ little
+ guy.
+ It's
+ just
+ a
+ little
+
+
+fuzzy
+ guy.
+ It's
+ totally
+ okay
+ if
+ he
+ has
+
+
+your
+ information
+ because
+ he's
+ he's
+ not
+
+
+nefarious.
+ He's
+ not
+ going
+ to
+ go
+ rogue.
+
+
+Oh,
+ this
+ the
+ sweet
+ green
+ order
+ is
+ is
+
+
+ready
+ for
+ you
+ in
+ the
+ lobby.
+ That's
+ what
+
+
+the
+ buzzing
+ was.
+
+
+>> Oh
+ my
+ god,
+ my
+ order
+ is
+ here.
+ I
+ need
+ a
+
+
+humanoid
+ robot
+ to
+ go
+ pick
+ it
+ up
+ because
+
+
+I'm
+ currently
+ hosting
+ this
+ podcast.
+
+
+Eli,
+ I
+ need
+ you
+ to
+ hang
+ tight
+ because
+ I
+
+
+have
+ to
+ physically
+ go
+ and
+ pick
+ something
+
+
+up.
+
+
+>> Okay.
+
+
+>> Hi.
+ Are
+ you
+ here
+ for
+ Natalie?
+
+
+Oh,
+ for
+ Eli.
+ Yes.
+ Thank
+ you
+ so
+ much.
+
+
+Wow.
+
+
+>> A
+ harvest
+ full.
+ Thank
+ you.
+ Oh
+ my
+
+
+goodness.
+ All right,
+ we
+ got
+ it.
+
+
+I
+ mean,
+
+
+it
+ worked.
+
+
+>> Yeah,
+ it
+ did.
+
+
+>> I
+ didn't
+ doubt
+ you,
+ but
+ there's
+
+
+something
+ about
+ just
+ receiving
+
+
+a
+ package
+ that
+ was
+ ordered
+ to
+ me
+ by
+ an
+
+
+AI
+ agent
+ that
+ is
+ bananas.
+ Yeah,
+ we
+ were
+
+
+just
+ asking
+ uh
+ if
+ you
+ got
+ it
+ and
+ it,
+ you
+
+
+know,
+ it
+ sent
+ me
+ a
+ photo
+ of
+ you
+ picking
+
+
+it
+ up,
+ so
+ I
+ knew.
+
+
+>> No,
+
+
+>> I
+ knew
+ it
+ had
+ worked.
+
+
+>> Oh
+ my
+ god.
+ Okay.
+ I
+ mean,
+ I
+ checked.
+ It
+
+
+is
+ in
+ fact
+ a
+ harvest
+ bowl.
+
+
+>> Does
+ it
+ have
+ protein
+ in
+ it?
+ Did
+ it
+ Did
+
+
+it
+ meet
+ all
+ the
+ requirements?
+
+
+>> It
+ does.
+ And
+
+
+it's
+ crazy.
+ The
+ experience
+ is
+ crazy
+ as
+
+
+advertised.
+
+
+Eli,
+ let's
+ just
+ say
+ there
+ is
+ a
+ universe
+
+
+in
+ which
+ everyone
+ starts
+ to
+ have
+ these
+
+
+kinds
+ of
+ experiences
+ all
+ the
+ time
+ where
+
+
+there
+ is
+ truly
+ widespread
+ adoption
+ of
+
+
+these
+ AI
+ assistants.
+ Just
+ to
+ step
+ back,
+
+
+how
+ do
+ you
+ think
+ that
+ would
+ change
+ the
+
+
+way
+ that
+ we
+ interact
+ with
+ the
+ world
+ with
+
+
+our
+ own
+ reality?
+
+
+Well,
+ the
+ companies
+ have
+ this
+ really
+
+
+optimistic
+ view
+ where
+ they're
+ saying
+ if
+
+
+we
+ use
+ AI
+ agents
+ to
+ wait
+ on
+ hold
+ for
+ us
+
+
+and
+ fill
+ out
+ forms
+ and
+ order
+ groceries
+
+
+and
+ do
+ all
+ the
+ things
+ we
+ don't
+ want
+ to
+
+
+do,
+ instead
+ of
+ sucking
+ up
+ our
+ time,
+
+
+they'll
+ actually
+ be
+ giving
+ it
+ back
+ to
+ us
+
+
+and
+ we
+ can
+ use
+ that
+ extra
+ time
+ to
+
+
+connect
+ with
+ our
+ family
+ or
+ other
+ people
+
+
+or
+ go
+ out
+ into
+ the
+ world
+ and
+ do
+ the
+
+
+things
+ we
+ want
+ to
+ do.
+ And
+ on
+ the
+ one
+
+
+hand,
+ I
+ can
+ maybe
+ see
+ this
+ happening.
+ I
+
+
+mean,
+ I
+ used
+ this
+ app
+ and
+ it
+ did
+ do
+ all
+
+
+those
+ things.
+ It
+ saved
+ me
+ time.
+ It
+
+
+waited
+ on
+ hold,
+ made
+ me
+ spreadsheets.
+
+
+But
+ I
+ think
+ it's
+ also
+ fair
+ to
+ be
+
+
+skeptical
+ of
+ that
+ vision
+ given
+ the
+ track
+
+
+records
+ these
+ companies
+ have
+ and
+ how
+
+
+much
+ already
+ their
+ products,
+ like
+
+
+Instagram
+ reels,
+ for
+ instance,
+ can
+ make
+
+
+us
+ feel
+ like
+ we're
+ detaching
+ from
+
+
+reality
+ instead
+ of
+ connecting
+ more
+ with
+
+
+it.
+
+
+Okay.
+ Well,
+ for
+ now,
+ I'm
+ just
+ going
+ to
+
+
+be
+ happy
+ to
+ have
+ my
+ salad,
+ Eli.
+ And
+
+
+don't
+ worry,
+ I'm
+ going
+ to
+ Venmo
+ you.
+ You
+
+
+don't
+ have
+ to
+ send
+ your
+ AI
+ agent
+ after
+
+
+me.
+
+
+>> Well,
+ I
+ already
+ told
+ it
+ to
+ to
+ look
+ out
+
+
+for
+ your
+ Venmo.
+ So,
+ if
+ if
+ it
+ doesn't
+
+
+come
+ through,
+ you'll
+ be
+ hearing
+ from
+ it.
+
+
+>> Perfect.
+ Eli,
+ thanks
+ for
+ coming
+ on
+ the
+
+
+show.
+
+
+>> Thanks
+ so
+ much
+ for
+ having
+ me.
+
+
+You
+ can
+ hear
+ more
+ from
+ our
+ tech
+
+
+journalists
+ on
+ the
+ Times
+ podcast
+ Hard
+
+
+Fork,
+ which
+ just
+ returned
+ with
+ a
+ new
+
+
+guest
+ host,
+ Max
+ Reed.
+
+
+Episodes
+ drop
+ every
+ Friday,
+ so
+ check
+
+
+them
+ out
+ wherever
+ you
+ get
+ your
+ podcasts
+
+
+or
+ on
+ the
+ New
+ York
+ Times
+ app.
+
+
+We'll
+ be
+ right
+ back.
+
+
+Here's
+
+
+what
+ else
+ you
+ need
+ to
+ know
+ today.
+ On
+
+
+Monday,
+ President
+ Trump
+ reversed
+ course
+
+
+and
+ announced
+ that
+ his
+ super
+ PAC
+ would
+
+
+now
+ pay
+ for
+ nationwide
+ TV
+ ads
+ that
+ have
+
+
+been
+ promoting
+ him
+ at
+ taxpayer
+ expense.
+
+
+More
+ than
+ $10
+ million
+ in
+ taxpayer
+ funded
+
+
+ads
+ have
+ run
+ since
+ September,
+ paid
+ for
+
+
+through
+ a
+ contract
+ that
+ used
+ funds
+ from
+
+
+the
+ Department
+ of
+ Homeland
+ Security.
+ At
+
+
+least
+ one
+ of
+ the
+ ads
+ featured
+ footage
+
+
+that
+ originally
+ appeared
+ in
+ a
+ Trump
+
+
+campaign
+ video.
+ Democrats
+ and
+ some
+
+
+Republicans
+ had
+ criticized
+ the
+ ads
+ as
+ a
+
+
+possible
+ violation
+ of
+ federal
+ laws
+ for
+
+
+using
+ public
+ funds
+ for
+ propaganda.
+ Trump
+
+
+said
+ in
+ a
+ social
+ media
+ post
+ on
+ Monday
+
+
+that
+ the
+ ads
+ were
+ quote
+ positive
+
+
+promotion
+ for
+ our
+ great
+ USA
+ and
+ defended
+
+
+them
+ as
+ quote
+ a
+ rather
+ standard
+ thing
+ to
+
+
+do.
+
+
+Today's
+ episode
+ was
+ produced
+ by
+ Stella
+
+
+Tan
+ and
+ Carlos
+ Prito.
+ It
+ was
+ edited
+ by
+
+
+Mark
+ George
+ with
+ help
+ from
+ Michael
+
+
+Benois,
+ contains
+ music
+ by
+ Dan
+ Pal
+ and
+
+
+Marian
+ Lozano
+ and
+ was
+ engineered
+ by
+
+
+Chris
+ Wood.
+ Our
+ theme
+ music
+ is
+ by
+
+
+Wonderland.
+
+
+That's
+ it
+ for
+ the
+ daily.
+ I'm
+ Natalie
+
+
+Kitroth.
+ See
+ you
+ tomorrow.
