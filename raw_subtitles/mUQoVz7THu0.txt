@@ -1,0 +1,275 @@
+[Speaker 1]:  thank you for joining this session on why building agent quality platforms is hard my name，
+[Speaker 1]:  so saying，
+[Speaker 1]:  i lead the a solution engineering organization on the west for brain trust。
+[Speaker 1]:  um i spent fifteen years in solutions between sales force and data bricks。
+[Speaker 1]:  i've been a lifelong technologies。
+[Speaker 1]:  i built computers does five years old。
+[Speaker 1]:  so i have to like insatiable appetite for technology，
+[Speaker 1]:  which finds me kind of on the bleeding edge of AI here，
+[Speaker 0]:  a braintrust 没有异议 for those of you。
+[Speaker 1]:  i know some of you were in the room earlier when justed her session。
+[Speaker 1]:  i saw some hands about evalils，
+[Speaker 1]:  how many you know what brain trust is，
+[Speaker 1]:  and what we do as a company，
+[Speaker 1]:  just show of hands，
+[Speaker 1]:  perfect。
+[Speaker 1]:  i see one or two。
+[Speaker 1]:  so at a glance，
+[Speaker 1]:  brain trust is a platform is focus around agent quality，
+[Speaker 1]:  and the core idea is helping teams build and maintain confidence with the AI features or the AI agents at their shipping。
+[Speaker 1]:  and there are two key pilars of agequality。
+[Speaker 1]:  the first is evalils，
+[Speaker 1]:  which we talked about earlier，
+[Speaker 1]:  evalils is what you do before your agent reachhees production。
+[Speaker 1]:  this is when teams experiment，
+[Speaker 1]:  they test the behavior，
+[Speaker 1]:  and they build the confidence that they want to have before they shipped production。
+[Speaker 1]:  the second pililis observverability observservability is once your agent is in production and is interfacing with real life users。
+[Speaker 1]:  it's creating interactions。
+[Speaker 1]:  and the goal is to take that hypothesis that you built in your offline development process and then reinforce that in your production scenario through continuous monitoring e thousand and observerability are closely related to the same problem。
+[Speaker 1]:  so one happens in production，
+[Speaker 1]:  the other one happens in development，
+[Speaker 1]:  and both is the understanding to improve agequality。
+[Speaker 1]:  now i won't spend much more time here。
+[Speaker 1]:  the clozer let's talk about why we're here，
+[Speaker 0]:  which is 没有异议。
+[Speaker 1]:  why are evals important？
+[Speaker 1]:  you know，
+[Speaker 1]:  evals matter，
+[Speaker 1]:  because LLS by nature are non deterministic。
+[Speaker 1]:  they are highly variable。
+[Speaker 1]:  that variability is exactly what makes them so powerful。
+[Speaker 1]:  they can reason across many different domains。
+[Speaker 1]:  they can solve different kinds of problems，
+[Speaker 1]:  and they can handle a wide range of user needs，
+[Speaker 1]:  but that same flexibility also creates risk，
+[Speaker 1]:  but ents use LM as their brain and agentic experiences are starting to become the primary way in which users will interact with companies。
+[Speaker 1]:  so teams need confidence in their agents that they will behave reliably and produce the outcomes that they expect。
+[Speaker 1]:  and without evalils companies face real risks，
+[Speaker 1]:  brand brands become a risk if there's inconsistent behaviors compliance，
+[Speaker 1]:  if the agent says，
+[Speaker 1]:  or does the wrong thing？
+[Speaker 1]:  and there's a cost and maintenance risk if the systems are hard or unreliable to debug or control，
+[Speaker 1]:  the goal of evals is to reduce that uncertainty before launch，
+[Speaker 1]:  so that customers have a good experience。
+[Speaker 1]:  and the agents behave the way that you expect them to。
+[Speaker 1]:  so you might be thinking，
+[Speaker 1]:  okay。
+[Speaker 1]:  well，
+[Speaker 1]:  evals is just a ui on a spread shet，
+[Speaker 1]:  right？
+[Speaker 1]:  and i guess i should not ask the audience just show of hands，
+[Speaker 1]:  how many of you have run evalils and logged the results into a spreadsheet as that happened？
+[Speaker 1]:  okay，
+[Speaker 1]:  see one or two。
+[Speaker 1]:  so there's no shame in that。
+[Speaker 1]:  by the way，
+[Speaker 1]:  it's actually the a good first step。
+[Speaker 1]:  the important thing is that teams acknowledge that this is a real problem，
+[Speaker 1]:  and they need a way to understand how agents behave bed on different inputs。
+[Speaker 1]:  at the simplest level，
+[Speaker 1]:  an eevall system sts against it has three different kind of criteria。
+[Speaker 1]:  it has a way to execute agents against test inputs。
+[Speaker 1]:  second，
+[Speaker 1]:  a way to view the outputs or the scores，
+[Speaker 1]:  even if those are being logged in a spread sheet and third，
+[Speaker 1]:  a set of test inputs or examples that could invoke the agent and input example is whatever information is needed to start the agent ent NN。
+[Speaker 1]:  it could be a prompt，
+[Speaker 1]:  a request or text that causes the agent act。
+[Speaker 1]:  now spreadad sheep based evalils are not wrong。
+[Speaker 1]:  however，
+[Speaker 1]:  they're often the first step for a useful version of evl workflow。
+[Speaker 1]:  but of course，
+[Speaker 1]:  as you can imagine，
+[Speaker 1]:  there's more to the iceberg than just what we just talked about。
+[Speaker 1]:  and if emails were only，
+[Speaker 1]:  you know，
+[Speaker 1]:  run the agent，
+[Speaker 1]:  view the output and then score in a spreadad shy。
+[Speaker 1]:  this talk would be over right now，
+[Speaker 1]:  but there's a lot more that happens behind the scenes or underneath the iceberg。
+[Speaker 1]:  there are many supporting teams that eventually need to build better datasets scoring systems review processing debubugging tools in the way to connect preproduction testing with production behavior。
+[Speaker 1]:  will ll touch on some of these today？
+[Speaker 1]:  anyanything？
+[Speaker 1]:  i don't get you feel free free。
+[Speaker 1]:  come come up afterwards，
+[Speaker 1]:  and we could chat about。
+[Speaker 1]:  and this is where things start to get complicated。
+[Speaker 1]:  the underlying technology is complex。
+[Speaker 1]:  l。
+[Speaker 1]:  ams are not simply deterministic asian qualities and multi persona problem。
+[Speaker 1]:  it's not just software engineers and AI engineers。
+[Speaker 1]:  there are pms who used to build PRS that are now running evalils。
+[Speaker 1]:  there are smes who have the domain expertise of the plight that you're building and emails themselves are just one part of the development and operating workflow。
+[Speaker 1]:  and god are the days where you build once with untetest and gression test，
+[Speaker 1]:  you shift to production and you don't think about it。
+[Speaker 1]:  evalils are away for you to continue heill climbing against one target，
+[Speaker 1]:  which is agent quality。
+[Speaker 1]:  so let's talk about the different stages of the the evl platforms that we see。
+[Speaker 1]:  and before we do that，
+[Speaker 1]:  this is the north star for many teams。
+[Speaker 1]:  they want to build the improvement loop，
+[Speaker 1]:  which is i have a feature or application appin production。
+[Speaker 1]:  i could observe the failure modes that happen based on dimensions that i define。
+[Speaker 1]:  i want to be able to grab those failure modes and create test cases so that i can iterate offline，
+[Speaker 1]:  so i can improve my asian quality without introducing new regresons。
+[Speaker 1]:  and then you continue iterating over time，
+[Speaker 1]:  because just like in classical ml drift becomes a real thing。
+[Speaker 1]:  the way users interact with your agents will change over time。
+[Speaker 1]:  the way you build your agents will change over time。
+[Speaker 1]:  so what does phase one look like？
+[Speaker 1]:  there were some hands that were raised around spread sheets，
+[Speaker 1]:  and it is not there's going to be shameful about。
+[Speaker 1]:  this is where many people start。
+[Speaker 1]:  and as the basic set up is pretty simple。
+[Speaker 1]:  it's a four loop with a set of input examples and a way to execute the agent。
+[Speaker 1]:  and with that，
+[Speaker 1]:  you can run the same examples that you tweeak and see how the agent response with the outputs over time。
+[Speaker 1]:  the biggest advantage is accessibility in time。
+[Speaker 1]:  you can start this with basically zero barriot entry，
+[Speaker 1]:  but the the returns diminished pretty quickly at this stage。
+[Speaker 1]:  you're pretty much only documenting。
+[Speaker 1]:  you can't really do true experimentation and let alone dude，
+[Speaker 1]:  an inckind type of analysis over time。
+[Speaker 1]:  common limitations are analytics are hard。
+[Speaker 1]:  their manual human scoring is valuable，
+[Speaker 1]:  but difficult to do collaboration is very weak，
+[Speaker 1]:  and domain experts are usually boxed out of these type of results。
+[Speaker 1]:  so again，
+[Speaker 1]:  spread eet to our great starting place，
+[Speaker 1]:  but difficult to evolve。
+[Speaker 1]:  then someone usually a product engineer，
+[Speaker 1]:  you know，
+[Speaker 1]:  they see this problem，
+[Speaker 1]:  and they think，
+[Speaker 1]:  okay，
+[Speaker 1]:  i can build a nice ui of a spokeuy to help serve to solve this problem。
+[Speaker 1]:  and while it might be nice at a glance，
+[Speaker 1]:  it helps you bring in the different personas that you'd otherwise not have access to。
+[Speaker 1]:  this allows pms to now kind of get into the loop of doing evals。
+[Speaker 1]:  but the limitation that you might have thought about it continues that the documentation，
+[Speaker 1]:  the review process，
+[Speaker 1]:  though it might visually look nicer，
+[Speaker 1]:  still collaboration becomes difficult。
+[Speaker 1]:  and though iteration cycles become quicker，
+[Speaker 1]:  it is still not easy for users to persist that data and do long horizon analytics on still just a reporting tool。
+[Speaker 1]:  then the next evolution becomes。
+[Speaker 1]:  hey，
+[Speaker 1]:  i want my non technical users to have an interface were not that they just log the results，
+[Speaker 1]:  but they should be able to experiment it。
+[Speaker 1]:  i want to be able to tweak a system prompt。
+[Speaker 1]:  i want to change the underlying model。
+[Speaker 1]:  i want anted iterate on some primatter values。
+[Speaker 1]:  so being able to do this type of side by side comparison becomes the next evolution of the eval cycle that we see。
+[Speaker 1]:  but there's still one primary gap。
+[Speaker 1]:  and that is that the test cases in which you use to do these kind of comparisons are still a curated set that arrives in your offline evalils。
+[Speaker 1]:  but what happens in production？
+[Speaker 1]:  i've done my iterations here。
+[Speaker 1]:  i have a good idea。
+[Speaker 1]:  what what i expeexpect happhappen in d。
+[Speaker 1]:  but once i shipped the production，
+[Speaker 1]:  i'm operating in the blind，
+[Speaker 1]:  so i am no idea what steps my agent is taking。
+[Speaker 1]:  and when those failures are actually happening in my live environment。
+[Speaker 1]:  and when we think kind of going back to the fly wheel，
+[Speaker 1]:  when we think about what are the best systems that enable this？
+[Speaker 1]:  well，
+[Speaker 1]:  you should be able to starting at the top，
+[Speaker 1]:  observe the failure modes，
+[Speaker 1]:  log every input output，
+[Speaker 1]:  every step of your trace execution that your agent takes analyze，
+[Speaker 1]:  understand what went wrong。
+[Speaker 1]:  you create the dimensions of failure in success because you know，
+[Speaker 1]:  the outcomes，
+[Speaker 1]:  then grabbing those failure modes，
+[Speaker 1]:  those different scenarios where your users had poor interactions and cretic evalils in them in your offline process iterating on them，
+[Speaker 1]:  so you can create the improvements without developing new regresons and then shipping the production and hill climbing against this。
+[Speaker 1]:  and when you think about the final outcome of this，
+[Speaker 1]:  well，
+[Speaker 1]:  you get teams，
+[Speaker 1]:  they're building the flywheel。
+[Speaker 1]:  you get that entire development cycle inside of your platform，
+[Speaker 1]:  but then the problem becomes you have to，
+[Speaker 1]:  you have to maintain it。
+[Speaker 1]:  you own this product that you build，
+[Speaker 1]:  and especially this is easy to do when it comes to smaller scale or POC and demo environments。
+[Speaker 1]:  but agent traces are nasty。
+[Speaker 1]:  they are semi structure，
+[Speaker 1]:  jason。
+[Speaker 1]:  in some cases，
+[Speaker 1]:  we see teams that are logging a moviy's type of data in each interaction，
+[Speaker 1]:  hundreds of megabytes。
+[Speaker 1]:  so being illd，
+[Speaker 1]:  a query that type of data can be difficult，
+[Speaker 1]:  and your typical cloud data warehouses kind of collapse under this type of volume。
+[Speaker 1]:  and 嗯 and this is the same problem that we went into。
+[Speaker 1]:  i won't spend much time talking about braintrust。
+[Speaker 1]:  but when you have production traces coming in，
+[Speaker 1]:  you want to build a query that data in real time as it lends in there。
+[Speaker 1]:  because if your users are having poexperiexperices，
+[Speaker 1]:  you want to be able to know in real time，
+[Speaker 1]:  time is happening。
+[Speaker 1]:  why are they having these poor experiences？
+[Speaker 1]:  and how can i remedy that as soon as possible？
+[Speaker 1]:  you also want to be able to do long run inquries。
+[Speaker 1]:  if you think about being able to find tune，
+[Speaker 1]:  your your agent experience，
+[Speaker 1]:  or even have humans who are doing alignment by anitating，
+[Speaker 1]:  your your judges，
+[Speaker 1]:  outcomes，
+[Speaker 1]:  two different workloads。
+[Speaker 1]:  so we builan instrstrututionthere are called BTQL，
+[Speaker 1]:  who which is as another form of complexity，
+[Speaker 1]:  because you want an interface for people to be able to query that data。
+[Speaker 1]:  so it's not necessarily that it's just AUIRUX problem，
+[Speaker 1]:  but building an evl platform truly becomes a system's problem。
+[Speaker 1]:  and there are novel set of issues when the chat GPT boom happened a few years ago，
+[Speaker 1]:  where i need to do real time ingest。
+[Speaker 1]:  i have huge payloads that are tens of megabbites hundreds of megabbtes tes and size，
+[Speaker 1]:  sometimes compared a traditional hearbeat observvability，
+[Speaker 1]:  which are just killabytes and size。
+[Speaker 1]:  the structure and the shape of the data is different。
+[Speaker 1]:  having deeply nested semi structured full text is difficult to query，
+[Speaker 1]:  and the repatterns are different as well。
+[Speaker 1]:  you want to be able to aggregate in large volumes，
+[Speaker 1]:  but also be able to do stabapshots of of in time data and building the right system should allow you to not only empower the ai engineer，
+[Speaker 1]:  but also the pms as well as the smes。
+[Speaker 1]:  and more recently，
+[Speaker 1]:  we've seen that agents have become a first class citizen of these eval platforms，
+[Speaker 1]:  where you want to be able to use natural language and a headless experience，
+[Speaker 1]:  where you can tell you a coating agent of choice，
+[Speaker 1]:  find me all traces in the last twenty four hours where the user had a poor experience run the evalils for me。
+[Speaker 1]:  and because these coding agents have access to all of your underlying infrastructure in your code base，
+[Speaker 1]:  they become the mechanism to run the evalils and log those results。
+[Speaker 1]:  and then it becomes a question of like，
+[Speaker 1]:  so why why is this？
+[Speaker 1]:  why is this important？
+[Speaker 1]:  well，
+[Speaker 1]:  the goal is everything that i've shown you so far。
+[Speaker 1]:  it requires the humans，
+[Speaker 1]:  the the engineer，
+[Speaker 1]:  the pm to be deeply involved in this process，
+[Speaker 1]:  and it could be laborious at times。
+[Speaker 1]:  i bring truus the way we think about this is we want to help you operate at scale rather than you having to think about these dimensions and susucecess and failure for your ai agent。
+[Speaker 1]:  braintrust can surface these insights automatically because we log your tracing data into our platform。
+[Speaker 1]:  we can want to inference on them，
+[Speaker 1]:  and we can tell you the unknown unknowns。
+[Speaker 1]:  hey，
+[Speaker 1]:  what are what are scenarioand when my agent is failing silently or what are scenarios？
+[Speaker 1]:  my users ers are expericting frustration by prompting my agent for the same request over and over again。
+[Speaker 1]:  and it's a lot of things that we didn't talk about things like the underlying database that powers it were having to build our back into the system to manage controls and permissions or data asking。
+[Speaker 1]:  you know，
+[Speaker 1]:  each one of these features proves that this is just a ui in a spread sheet，
+[Speaker 1]:  but rather it is AA system's problem that powers it。
+[Speaker 1]:  and as we think about the evolution of of the improvement loop，
+[Speaker 1]:  i said this earlier，
+[Speaker 1]:  where humans were doing the improvement loop。
+[Speaker 1]:  and now we see coding agents where they could iterively make changes and suggest what kind of improvements you should be making to your application。
+[Speaker 1]:  and ultimately，
+[Speaker 1]:  the humans responsibility is to review the outcome。
+[Speaker 1]:  if i have different iterations of these evals that are run by my coding agent，
+[Speaker 1]:  i can look at the outcome and make the decision of which version of it is the best for what i want to shift produproduction so that，
+[Speaker 1]:  that does the end of my talk。
+[Speaker 1]:  i appreciate you all coming out and learning about white hard to build evl systems。
+[Speaker 0]:  thank you。
+[Speaker 0]: 好。
