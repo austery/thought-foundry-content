@@ -1,0 +1,8773 @@
+First
+,
+ let
+ me
+ show
+ you
+ an
+ image
+.
+ In
+
+
+ northern
+ Indiana
+ in
+ the
+ U.S.
+,
+ there’s
+
+
+ a
+ small
+ place
+ called
+ New
+ Carlisle
+ where
+
+
+ a
+ data
+ center
+ campus
+ is
+ being
+ built
+.
+
+
+ It’s
+ funded
+ by
+ Amazon
+ specifically
+
+
+ for
+ Anthropic
+,
+ the
+ company
+ that
+ builds
+
+
+ large
+ models
+—
+you
+ know
+,
+ the
+ one
+
+
+ backing
+ Claude
+.
+ The
+ plan
+ calls
+ for
+ 32
+
+
+ buildings
+,
+ clearly
+ marked
+ on
+ the
+ map
+;
+
+
+ buildings
+ 17
+ and
+ 18
+ just
+ got
+ their
+
+
+ roofs
+ on
+,
+ with
+ generators
+ and
+ cooling
+
+
+ units
+ still
+ being
+ installed
+.
+ Looking
+
+
+ further
+ ahead
+,
+ from
+ number
+ 19
+ to
+ 32
+,
+
+
+ it’s
+ just
+ a
+ leveled
+ patch
+ of
+ land
+
+
+ where
+ you
+ can't
+ even
+ see
+ the
+
+
+ foundations
+.
+ This
+ map
+ was
+ made
+ by
+ a
+
+
+ research
+ organization
+ called
+ AppleAI
+,
+
+
+ which
+ specializes
+ in
+ one
+ specific
+ task
+.
+
+
+ Using
+ satellite
+ imagery
+ and
+ drone
+
+
+ footage
+ from
+ above
+ to
+ track
+ data
+
+
+ centers
+—
+if
+ you
+ click
+ through
+ their
+
+
+ website
+,
+ the
+ more
+ you
+ look
+,
+ the
+ more
+
+
+ uneasy
+ you
+ get
+:
+ so
+ much
+ money
+ has
+ been
+
+
+ dumped
+ in
+,
+ but
+ where
+ are
+ the
+ buildings
+?
+
+
+ This
+ isn't
+ an
+ isolated
+ case
+;
+ Morgan
+
+
+ Stanley
+ calculated
+ this
+ year
+ that
+ more
+
+
+ than
+ half
+ of
+ the
+ GPUs
+ sold
+ between
+ 2026
+
+
+ and
+ 2028
+ might
+ not
+ have
+ a
+ place
+ to
+ plug
+
+
+ in
+.
+ The
+ Financial
+ Times
+ even
+ wrote
+ an
+
+
+ article
+ about
+ this
+,
+ with
+ a
+ title
+ that
+
+
+ asks
+:
+ "
+So
+,
+ where
+ are
+ all
+ the
+ data
+
+
+ centers
+?
+"
+ Investment
+ bank
+ Jefferies
+
+
+ also
+ surveyed
+ these
+ sites
+,
+ finding
+ that
+
+
+ of
+ the
+ data
+ centers
+ originally
+ planned
+
+
+ for
+ 2026
+,
+ totaling
+ 24
+ gigawatts
+,
+ only
+
+
+ half
+—
+or
+ 12
+ gigawatts
+—
+have
+ actually
+
+
+ broken
+ ground
+.
+ What
+ is
+ the
+ concept
+ of
+ a
+
+
+ gigawatt
+?
+ One
+ gigawatt
+ is
+ roughly
+ the
+
+
+ output
+ of
+ a
+ single
+ nuclear
+ power
+ unit
+;
+
+
+ 12
+ gigawatts
+ of
+ data
+ centers
+ is
+
+
+ essentially
+ equivalent
+ to
+ saying
+ you
+
+
+ need
+ to
+ build
+ 12
+ nuclear
+ reactors
+.
+ So
+
+
+ many
+ of
+ these
+ projects
+ are
+ still
+ just
+
+
+ sitting
+ on
+ paper
+,
+ with
+ construction
+ yet
+
+
+ to
+ begin
+.
+ In
+ late
+ September
+,
+ Morgan
+
+
+ Stanley
+ raised
+ its
+ estimate
+ of
+ the
+ U.S.
+
+
+ data
+ center
+ power
+ gap
+ before
+ 2028
+ to
+ 33
+
+
+ gigawatts
+,
+ meaning
+ the
+ electricity
+ for
+
+
+ over
+ 30
+ nuclear
+ reactors
+ is
+ still
+
+
+ unaccounted
+ for
+.
+ Just
+ imagine
+ this
+
+
+ scenario
+:
+ the
+ appliances
+ have
+ already
+
+
+ been
+ delivered
+,
+ and
+ refrigerators
+ and
+
+
+ air
+ conditioners
+ are
+ piling
+ up
+,
+ but
+ the
+
+
+ building
+ isn't
+ powered
+ yet
+;
+ chips
+ have
+
+
+ already
+ been
+ manufactured
+,
+ just
+ sitting
+
+
+ there
+ gathering
+ dust
+,
+ waiting
+ for
+ power
+
+
+.
+ But
+ the
+ problem
+ is
+,
+ a
+ huge
+ portion
+ of
+
+
+ the
+ money
+ used
+ to
+ buy
+ these
+ chips
+ and
+
+
+ build
+ these
+ structures
+ is
+ borrowed
+.
+ The
+
+
+ interest
+ on
+ that
+ borrowed
+ money
+ accrues
+
+
+ every
+ single
+ day
+,
+ and
+ for
+ every
+ day
+ the
+
+
+ data
+ center
+ stays
+ unpowered
+,
+ revenue
+ is
+
+
+ delayed
+ by
+ another
+ day
+.
+ So
+ the
+ question
+
+
+ is
+,
+ just
+ how
+ big
+ is
+ this
+ bill
+,
+ really
+?
+
+
+ As
+ it
+ turns
+ out
+,
+ in
+ September
+ of
+ this
+
+
+ year
+,
+ someone
+ actually
+ sat
+ down
+ and
+
+
+ crunched
+ the
+ numbers
+.
+ Chips
+ are
+ waiting
+
+
+ for
+ people
+,
+ but
+ interest
+ rates
+ wait
+ for
+
+
+ no
+ one
+.
+ Just
+ two
+ weeks
+ ago
+,
+ Oracle
+ sent
+
+
+ an
+ email
+ to
+ its
+ data
+ center
+ suppliers
+,
+
+
+ stating
+ that
+ due
+ to
+ force
+ majeure
+,
+ they
+
+
+ might
+ need
+ to
+ reduce
+ their
+ rent
+
+
+ payments
+.
+ In
+ fact
+,
+ this
+ is
+ because
+
+
+ power
+ shortages
+ have
+ prevented
+ many
+
+
+ data
+ centers
+ under
+ construction
+ from
+
+
+ coming
+ online
+,
+ so
+ Oracle
+ is
+ clearly
+
+
+ looking
+ to
+ ease
+ its
+ financial
+ pressure
+.
+
+
+ I
+ first
+ heard
+ about
+ this
+ paper
+ on
+ an
+
+
+ American
+ finance
+ podcast
+,
+ where
+ the
+ two
+
+
+ hosts
+ spent
+ over
+ half
+ an
+ hour
+
+
+ constantly
+ insisting
+ that
+ everyone
+ must
+
+
+ read
+ it
+,
+ so
+ I
+ decided
+ to
+ look
+ it
+ up
+.
+
+
+ This
+ paper
+ comes
+ from
+ the
+ Brookings
+
+
+ Institution
+,
+ a
+ long-established
+
+
+ Washington
+ think
+ tank
+ that
+ hosts
+
+
+ economics
+ conferences
+ every
+ spring
+ and
+
+
+ fall
+.
+ It
+ holds
+ significant
+ weight
+ in
+
+
+ the
+ U.S.
+ economic
+ scene
+;
+ this
+ year's
+
+
+ autumn
+ session
+ saw
+ the
+ paper
+ posted
+
+
+ online
+ on
+ September
+ 23rd
+,
+ followed
+ by
+
+
+ discussions
+ on
+ the
+ 24th
+ and
+ 25th
+.
+ The
+
+
+ author
+ is
+ a
+ real
+ estate
+ professor
+ at
+
+
+ Columbia
+ Business
+ School
+ named
+ Stijn
+
+
+ Van
+ Nieuwerburgh
+.
+ His
+ full
+ name
+ is
+
+
+ quite
+ difficult
+ to
+ pronounce
+,
+ so
+ you
+
+
+ can
+ see
+ the
+ English
+ spelling
+ I've
+
+
+ provided
+ in
+ the
+ comments
+ section
+.
+ You
+
+
+ might
+ ask
+,
+ why
+ is
+ someone
+ who
+ teaches
+
+
+ real
+ estate
+ weighing
+ in
+ on
+ AI
+ matters
+?
+
+
+ The
+ connection
+ is
+ actually
+ quite
+ strong
+
+
+;
+ people
+ always
+ view
+ AI
+ as
+ some
+
+
+ invisible
+,
+ intangible
+ revolution
+.
+ Just
+
+
+ think
+,
+ these
+ large
+ models
+ all
+ reside
+ on
+
+
+ cloud
+ service
+ servers
+,
+ but
+ right
+ now
+,
+
+
+ the
+ physical
+ footprint
+ they
+ leave
+
+
+ behind
+ is
+ made
+ entirely
+ of
+ steel
+,
+
+
+ concrete
+,
+ cables
+,
+ and
+ chips
+.
+ Actually
+,
+
+
+ while
+ AI
+ sounds
+ like
+ a
+ software
+
+
+ business
+,
+ on
+ the
+ balance
+ sheet
+,
+ it
+ is
+ a
+
+
+ construction
+ business
+.
+ The
+ methodology
+
+
+ is
+ quite
+ solid
+.
+ He
+ utilized
+ a
+ database
+
+
+ that
+ tracks
+ data
+ center
+ projects
+;
+ as
+ of
+
+
+ July
+ 23rd
+,
+ there
+ were
+ 2,933
+ projects
+
+
+ across
+ the
+ U.S.
+ either
+ operational
+ or
+
+
+ planned
+,
+ totaling
+ 566
+ gigawatts
+.
+ By
+ the
+
+
+ end
+ of
+ 2024
+,
+ the
+ total
+ U.S.
+ data
+ center
+
+
+ capacity
+ was
+ only
+ 39
+ gigawatts
+,
+ so
+ you
+
+
+ see
+,
+ the
+ total
+ registered
+ in
+ this
+
+
+ database
+ is
+ more
+ than
+ 14
+ times
+ the
+
+
+ current
+ stock
+.
+ Developer
+ brochures
+ are
+
+
+ always
+ prone
+ to
+ exaggeration
+,
+ but
+ this
+
+
+ professor
+ didn't
+ buy
+ the
+ hype
+;
+ like
+ an
+
+
+ auditor
+,
+ he
+ checked
+ every
+ single
+
+
+ project
+ one
+ by
+ one
+.
+ The
+ largest
+ chunk
+
+
+ consists
+ of
+ projects
+ without
+ even
+ a
+
+
+ completion
+ year
+,
+ totaling
+ 353
+ gigawatts
+
+
+,
+ or
+ two-thirds
+ of
+ all
+ plans
+ post
+-
+2024
+.
+
+
+ He
+ judges
+ that
+ most
+ won't
+ be
+ built
+,
+ and
+
+
+ for
+ those
+ without
+ even
+ announced
+
+
+ capacity
+,
+ I’ve
+ applied
+ an
+ even
+
+
+ steeper
+ discount
+.
+ After
+ these
+ cuts
+,
+
+
+ nearly
+ 227
+ gigawatts
+,
+ in
+ his
+ estimation
+
+
+,
+ will
+ never
+ be
+ built
+.
+ Essentially
+,
+
+
+ while
+ these
+ numbers
+ were
+ announced
+,
+ in
+
+
+ reality
+,
+ 117
+ gigawatts
+ will
+ be
+ pushed
+
+
+ off
+ until
+ after
+ 2032
+.
+ Only
+ 183
+
+
+ gigawatts
+ can
+ truly
+ be
+ realized
+ before
+
+
+ 2032.
+ In
+ other
+ words
+,
+ out
+ of
+ all
+ these
+
+
+ plans
+ emerging
+ after
+ 2024
+,
+ the
+
+
+ professor
+ believes
+ only
+ about
+ one-third
+
+
+ will
+ survive
+.
+ That
+ is
+ a
+ pretty
+
+
+ aggressive
+ discount
+,
+ isn't
+ it
+?
+ How
+ much
+
+
+ is
+ 183
+ gigawatts
+?
+ The
+ Three
+ Gorges
+ Dam
+
+
+ has
+ an
+ installed
+ capacity
+ of
+ 22.5
+
+
+ gigawatts
+.
+ 183
+ gigawatts
+ is
+ roughly
+ the
+
+
+ size
+ of
+ eight
+ Three
+ Gorges
+ Dams
+.
+ This
+
+
+ is
+ already
+ a
+ heavily
+ discounted
+ figure
+,
+
+
+ so
+ based
+ on
+ this
+ one-third
+ expectation
+,
+
+
+ how
+ much
+ would
+ it
+ cost
+?
+ The
+ answer
+ is
+
+
+ 10.3
+ trillion
+ US
+ dollars
+ over
+ the
+
+
+ eight-year
+ period
+ from
+ 2025
+ to
+ 2032
+.
+
+
+ The
+ professor
+ first
+ calculated
+ a
+ unit
+
+
+ price
+:
+ one
+ gigawatt
+ of
+ AI
+ data
+ center
+
+
+ capacity
+,
+ including
+ power
+ and
+ chips
+,
+ is
+
+
+ about
+ 41
+ billion
+ US
+ dollars
+,
+ nearly
+ 280
+
+
+ billion
+ RMB
+.
+ This
+ number
+ is
+ so
+ massive
+
+
+ that
+ simply
+ reading
+ it
+ out
+ offers
+ no
+
+
+ real
+ sense
+ of
+ scale
+.
+ If
+ you
+ convert
+ it
+
+
+ at
+ current
+ exchange
+ rates
+,
+ it’s
+ about
+
+
+ 70
+ trillion
+ RMB
+.
+ China's
+ GDP
+ last
+ year
+
+
+ was
+ 140
+ trillion
+,
+ so
+ this
+ round
+ of
+ AI
+
+
+ infrastructure
+ in
+ the
+ US
+ would
+ consume
+
+
+ half
+ of
+ China's
+ annual
+ economic
+ output
+
+
+ over
+ eight
+ years
+.
+ The
+ professor
+ also
+
+
+ did
+ something
+ quite
+ clever
+:
+ instead
+ of
+
+
+ comparing
+ absolute
+ amounts
+,
+ he
+ compared
+
+
+ them
+ as
+ a
+ percentage
+ of
+ the
+ GDP
+ at
+ that
+
+
+ time
+.
+ This
+ way
+,
+ projects
+ from
+ 200
+ years
+
+
+ ago
+ and
+ today
+ can
+ be
+ measured
+ on
+ the
+
+
+ same
+ scale
+.
+ He
+ dug
+ up
+ five
+ major
+
+
+ infrastructure
+ eras
+ in
+ US
+ history
+.
+ From
+
+
+ 1836
+ to
+ 1841
+,
+ during
+ the
+ canal-building
+
+
+ era
+—
+when
+ the
+ US
+ still
+ relied
+ on
+
+
+ horse-drawn
+ barges
+—
+annual
+ investment
+
+
+ was
+ less
+ than
+ 0.7
+%
+of
+ GDP
+.
+ From
+ 1870
+ to
+
+
+ 1890
+,
+ the
+ US
+ built
+ railways
+.
+ This
+ was
+
+
+ the
+ craziest
+ period
+ in
+ American
+ history
+
+
+,
+ with
+ an
+ average
+ annual
+ investment
+ of
+
+
+ 2.24
+%
+of
+ GDP
+.
+ From
+ 1870
+ to
+ 1881
+,
+ it
+
+
+ spiked
+ over
+ 4
+%
+.
+ That
+ was
+ when
+
+
+ transcontinental
+ rails
+ blanketed
+ the
+
+
+ West
+.
+ Back
+ then
+,
+ it
+ was
+ as
+ if
+ the
+ whole
+
+
+ country
+ had
+ caught
+ a
+ fever
+.
+ The
+ latter
+
+
+ three
+—
+early
+ 20
+ th-century
+
+
+ electrification
+,
+ the
+ 1950s
+ interstate
+
+
+ highway
+ system
+,
+ and
+ the
+ late
+ 90s
+
+
+ telecom
+ fiber-optic
+ build-out
+—
+hovered
+
+
+ around
+ 0.5
+%
+to
+ just
+ over
+ 1.1
+%
+of
+ GDP
+.
+ In
+
+
+ this
+ AI
+ cycle
+,
+ the
+ average
+ annual
+
+
+ investment
+ of
+ 3.63
+%
+of
+ GDP
+ has
+ already
+
+
+ surpassed
+ that
+ of
+ the
+ railway
+
+
+ construction
+ era
+.
+ Just
+ think
+,
+ building
+
+
+ railways
+ was
+ a
+ project
+ that
+ stitched
+ an
+
+
+ entire
+ continent
+ together
+,
+ yet
+ AI
+
+
+ spends
+ 60
+%
+more
+ per
+ year
+ than
+ that
+ era
+
+
+ did
+.
+ Looking
+ closer
+,
+ this
+ spending
+
+
+ isn't
+ even
+ spread
+ out
+;
+ in
+ 2026
+,
+ it
+ hit
+
+
+ 4.5
+%
+of
+ GDP
+,
+ or
+ $
+ 1.43
+ trillion
+,
+ which
+
+
+ is
+ already
+ more
+ than
+ America's
+ annual
+
+
+ military
+ budget
+—
+and
+ that’s
+ just
+ for
+
+
+ one
+ year
+.
+ By
+ 2032
+,
+ it’s
+ set
+ to
+ hit
+
+
+ 5.1
+%
+.
+ What’s
+ worse
+ is
+ that
+ this
+ $
+
+
+ 10.3
+ trillion
+ only
+ accounts
+ for
+ the
+
+
+ initial
+ building
+ construction
+ and
+
+
+ hardware
+ installation
+.
+ Future
+ chip
+
+
+ replacement
+ costs
+ haven't
+ even
+ been
+
+
+ factored
+ in
+ yet
+,
+ which
+ leads
+ to
+ a
+ very
+
+
+ critical
+ question
+.
+ Who
+ exactly
+ is
+
+
+ paying
+ for
+ all
+ this
+ money
+?
+ The
+ answer
+
+
+ lies
+ right
+ here
+ in
+ this
+ chart
+ before
+
+
+ your
+ eyes
+.
+ We’ve
+ grouped
+ together
+ the
+
+
+ five
+ largest
+ cloud
+ companies
+ in
+ the
+ U.S
+
+
+.:
+Meta
+,
+ Microsoft
+,
+ Amazon
+,
+ Oracle
+,
+ and
+
+
+ Google
+.
+ The
+ chart
+ shows
+ two
+ lines
+:
+ one
+
+
+ is
+ their
+ annual
+ spending
+ on
+ data
+
+
+ centers
+ and
+ chips
+,
+ and
+ the
+ other
+ is
+ the
+
+
+ cash
+ they
+ bring
+ in
+ from
+ day-to-day
+
+
+ operations
+,
+ known
+ as
+ operating
+ cash
+
+
+ flow
+.
+ In
+ 2020
+,
+ these
+ five
+ companies
+
+
+ spent
+ a
+ combined
+ $
+ 96.8
+ billion
+;
+ by
+
+
+ 2025
+,
+ that
+ figure
+ reached
+ $
+ 415.8
+
+
+ billion
+.
+ For
+ 2026
+,
+ based
+ on
+ company
+
+
+ plans
+ and
+ Wall
+ Street
+ forecasts
+,
+ it
+
+
+ will
+ hit
+ $
+ 805
+ billion
+—
+that’s
+
+
+ roughly
+ 5.4
+ trillion
+ RMB
+.
+ So
+,
+ how
+ much
+
+
+ can
+ these
+ five
+ companies
+ actually
+ earn
+?
+
+
+ The
+ operating
+ cash
+ flow
+ is
+ projected
+ to
+
+
+ be
+ $
+ 707.1
+ billion
+.
+ This
+ is
+ the
+
+
+ spending
+;
+ the
+ amount
+ invested
+ is
+ now
+
+
+ exceeding
+ the
+ money
+ they
+ make
+.
+ Look
+ at
+
+
+ where
+ these
+ two
+ lines
+ intersect
+—
+
+
+specifically
+,
+ this
+ ratio
+ has
+ exceeded
+
+
+ 100
+%
+.
+ This
+ means
+ your
+ capital
+
+
+ expenditure
+ can
+ no
+ longer
+ be
+ covered
+ by
+
+
+ operating
+ cash
+ flow
+ alone
+;
+ you
+ must
+
+
+ take
+ on
+ massive
+ debt
+.
+ The
+ most
+ obvious
+
+
+ one
+ here
+ is
+ actually
+ Oracle
+;
+ you
+ can
+
+
+ see
+ their
+ planned
+ spending
+ is
+ far
+
+
+ higher
+ than
+ their
+ free
+ cash
+ flow
+,
+ which
+
+
+ is
+ why
+ Oracle’s
+ debt
+ situation
+ is
+ the
+
+
+ most
+ severe
+ among
+ them
+.
+ And
+ there’s
+
+
+ an
+ interesting
+ detail
+ here
+:
+ this
+ $
+ 805
+
+
+ billion
+ doesn't
+ include
+ the
+ data
+
+
+ centers
+ they
+ rent
+,
+ which
+ must
+ be
+
+
+ calculated
+ separately
+.
+ Think
+ about
+ it
+:
+
+
+ back
+ in
+ 2020
+,
+ during
+ the
+ pandemic
+,
+ for
+
+
+ every
+ $
+ 100
+ these
+ companies
+ earned
+,
+
+
+ they
+ spent
+ less
+ than
+ $
+ 40
+ on
+ data
+
+
+ centers
+—
+they
+ were
+ quite
+ comfortable
+.
+
+
+ Now
+,
+ $
+ 100
+ isn't
+ enough
+;
+ you
+ have
+ to
+
+
+ borrow
+ a
+ dozen
+ more
+.
+ Think
+ of
+ it
+ like
+
+
+ an
+ ordinary
+ household
+.
+ In
+ the
+ past
+,
+
+
+ you'd
+ use
+ your
+ annual
+ bonus
+ for
+ home
+
+
+ renovations
+.
+ No
+ matter
+ how
+ luxurious
+
+
+ you
+ made
+ it
+,
+ you
+ were
+ spending
+ money
+
+
+ you
+ earned
+.
+ If
+ the
+ bonus
+ isn't
+ enough
+
+
+ now
+,
+ you
+ have
+ to
+ take
+ out
+ loans
+ or
+ use
+
+
+ credit
+ cards
+ to
+ pay
+ for
+ it
+.
+ Everyone
+
+
+ can
+ do
+ that
+ math
+,
+ right
+?
+ In
+ that
+
+
+ podcast
+,
+ I
+ really
+ resonated
+ with
+ what
+
+
+ the
+ host
+ said
+:
+ when
+ you
+ spend
+ your
+ own
+
+
+ money
+,
+ it
+ doesn't
+ matter
+ if
+ you
+ finish
+
+
+ late
+;
+ at
+ worst
+,
+ you
+ just
+ make
+ a
+ bit
+
+
+ less
+.
+ But
+ once
+ you
+ start
+ borrowing
+,
+ the
+
+
+ clock
+ starts
+ ticking
+.
+ It’s
+ just
+ like
+
+
+ a
+ mortgage
+,
+ isn’t
+ it
+?
+ Regardless
+ of
+
+
+ whether
+ you’re
+ making
+ money
+ or
+ not
+,
+
+
+ when
+ that
+ monthly
+ payment
+ date
+ comes
+,
+
+
+ the
+ bank
+ doesn't
+ care
+ if
+ you've
+ moved
+
+
+ in
+ or
+ not
+.
+ So
+,
+ who’s
+ going
+ to
+ cover
+
+
+ that
+ gap
+?
+ According
+ to
+ Goldman
+ Sachs
+
+
+ estimates
+,
+ between
+ 2025
+ and
+ 2028
+,
+ cloud
+
+
+ giants
+ will
+ need
+ to
+ spend
+ about
+ $
+ 2.9
+
+
+ trillion
+ to
+ expand
+ computing
+ power
+,
+ and
+
+
+ over
+ half
+ of
+ that
+ will
+ have
+ to
+ come
+
+
+ from
+ borrowed
+ money
+.
+ The
+ largest
+ chunk
+
+
+ of
+ that
+ borrowed
+ portion
+,
+ about
+ $
+ 800
+
+
+ billion
+,
+ comes
+ from
+ private
+ credit
+—
+
+
+funds
+ outside
+ the
+ banking
+ system
+ that
+
+
+ specialize
+ in
+ lending
+.
+ A
+ huge
+ portion
+
+
+ of
+ their
+ capital
+ comes
+ from
+ pension
+
+
+ funds
+ and
+ insurance
+ companies
+.
+ Why
+ are
+
+
+ these
+ institutions
+ willing
+ to
+ lend
+?
+
+
+ It’s
+ actually
+ quite
+ simple
+:
+ the
+
+
+ interest
+ is
+ higher
+ than
+ government
+
+
+ bonds
+,
+ and
+ they
+ are
+ chasing
+ stable
+,
+
+
+ high
+ returns
+.
+ The
+ next
+ layer
+ down
+ is
+
+
+ even
+ more
+ interesting
+.
+ Companies
+ like
+
+
+ OpenAI
+ and
+ Anthropic
+,
+ which
+ build
+ large
+
+
+ models
+,
+ don't
+ have
+ the
+ credit
+ to
+
+
+ support
+ such
+ massive
+ borrowing
+.
+ They
+
+
+ have
+ to
+ rely
+ on
+ the
+ cloud
+ giants
+ '
+
+
+balance
+ sheets
+,
+ borrowing
+ against
+ the
+
+
+ cloud
+ giants
+'
+ credit
+ to
+ get
+ that
+
+
+ computing
+ power
+.
+ Simply
+ put
+,
+ these
+ "
+
+
+little
+ brothers
+"
+ don't
+ have
+ enough
+
+
+ credit
+ limit
+ on
+ their
+ own
+ cards
+,
+ so
+
+
+ they
+ have
+ to
+ swipe
+ their
+ "
+big
+
+
+ brother’s
+"
+ card
+.
+ The
+ clock
+ is
+ already
+
+
+ ticking
+.
+ So
+,
+ what
+ exactly
+ are
+ they
+
+
+ buying
+ with
+ this
+ borrowed
+ money
+?
+ The
+
+
+ professor
+ took
+ a
+ standard
+ 200
+-
+megawatt
+
+
+ AI
+ data
+ center
+ and
+ broke
+ down
+ the
+
+
+ ledger
+ for
+ everyone
+ to
+ see
+.
+ The
+ total
+
+
+ price
+ tag
+ is
+ $
+ 8.2
+ billion
+.
+ The
+
+
+ building
+,
+ substation
+,
+ and
+ cooling
+
+
+ systems
+ add
+ up
+ to
+ about
+ one-third
+.
+ The
+
+
+ remaining
+ two-thirds
+—
+or
+ to
+ be
+ precise
+
+
+,
+ 68
+%
+—
+consist
+ of
+ the
+ chips
+ and
+
+
+ servers
+ in
+ the
+ racks
+.
+ The
+ bulk
+ of
+ the
+
+
+ money
+ is
+ all
+ tied
+ up
+ in
+ the
+ chips
+.
+ So
+,
+
+
+ how
+ long
+ can
+ these
+ chips
+ actually
+ last
+?
+
+
+ The
+ professor
+ gave
+ an
+ estimate
+ of
+ 6
+
+
+ years
+ based
+ on
+ current
+ industry
+ and
+
+
+ accounting
+ standards
+,
+ while
+ the
+
+
+ building
+ and
+ power
+ infrastructure
+ are
+
+
+ estimated
+ at
+ 20
+ years
+.
+ However
+,
+ he
+
+
+ wrote
+ in
+ the
+ report
+ that
+ while
+ GPUs
+
+
+ might
+ last
+ three
+ to
+ six
+ years
+,
+ they
+ are
+
+
+ already
+ economically
+ obsolete
+ by
+ then
+.
+
+
+ I
+ think
+ this
+ is
+ actually
+ the
+ biggest
+
+
+ difference
+ between
+ this
+ current
+ AI
+
+
+ building
+ spree
+ and
+ the
+ railroad
+ mania
+
+
+ of
+ the
+ past
+.
+ Just
+ think
+ about
+ it
+:
+ the
+
+
+ phone
+ you
+ bought
+ six
+ years
+ ago
+ is
+
+
+ probably
+ sitting
+ in
+ a
+ drawer
+ gathering
+
+
+ dust
+ right
+ now
+,
+ assuming
+ you
+ didn't
+
+
+ sell
+ it
+ as
+ a
+ used
+ device
+.
+ Take
+ the
+
+
+ Beijing-Zhangjiakou
+ Railway
+ built
+ by
+
+
+ Zhan
+ Tianyou
+ back
+ in
+ the
+ day
+,
+ or
+ that
+
+
+ chevron-shaped
+ track
+ at
+ Qinglongqiao
+—
+
+
+it's
+ been
+ over
+ 100
+ years
+.
+ Even
+ today
+,
+
+
+ suburban
+ trains
+ are
+ still
+ running
+ on
+
+
+ those
+ very
+ tracks
+.
+ You
+ build
+ a
+ railway
+
+
+ once
+ and
+ it
+ lasts
+ a
+ century
+,
+ though
+ it
+
+
+ needs
+ maintenance
+,
+ but
+ you
+ install
+ a
+
+
+ chip
+ and
+ it
+ lasts
+ six
+ or
+ seven
+ years
+ at
+
+
+ most
+,
+ maybe
+ only
+ three
+.
+ But
+ what
+ about
+
+
+ the
+ debt
+ behind
+ these
+ data
+ centers
+?
+
+
+ There
+ was
+ a
+ star
+ deal
+ in
+ the
+ U.S.
+ data
+
+
+ center
+ industry
+:
+ a
+ bond
+ issued
+ in
+
+
+ October
+ 2025
+,
+ the
+ largest
+
+
+ investment-grade
+ corporate
+ bond
+ in
+ U.S.
+
+
+ history
+,
+ maturing
+ in
+ 2049
+.
+ The
+
+
+ professor
+ added
+ a
+ reminder
+ in
+ the
+
+
+ appendix
+:
+ chips
+ installed
+ in
+ 2025
+ or
+
+
+ 2026
+ will
+ need
+ a
+ major
+ overhaul
+ by
+
+
+ around
+ 2030
+,
+ but
+ think
+ about
+ it
+,
+ what
+
+
+ do
+ these
+ buildings
+ rely
+ on
+ for
+ rent
+?
+
+
+ They
+ rely
+ on
+ the
+ chips
+ inside
+ still
+
+
+ being
+ able
+ to
+ make
+ money
+ for
+ the
+
+
+ tenants
+.
+ Data
+ centers
+ designed
+ for
+
+
+ today's
+ generation
+ of
+ chips
+ might
+ be
+
+
+ obsolete
+ before
+ the
+ building
+ is
+ even
+
+
+ finished
+.
+ As
+ the
+ power
+ density
+ of
+
+
+ machines
+ grows
+,
+ cooling
+ requirements
+
+
+ mean
+ costly
+ renovations
+ are
+ needed
+
+
+ every
+ single
+ time
+.
+ If
+ you
+ look
+ at
+ these
+
+
+ years
+ together
+—
+replacing
+ chips
+ around
+
+
+ 2030
+,
+ but
+ not
+ paying
+ off
+ debt
+ until
+
+
+ 2049
+—
+the
+ debt
+ is
+ long-term
+,
+ while
+ the
+
+
+ economic
+ life
+ of
+ the
+ underlying
+ assets
+
+
+ is
+ much
+ shorter
+.
+ So
+,
+ data
+ center
+
+
+ builders
+ face
+ a
+ core
+ problem
+,
+ one
+ that
+
+
+ all
+ debt
+ investors
+ encounter
+:
+ if
+ your
+
+
+ asset
+ has
+ a
+ six-year
+ lifespan
+ but
+ you
+
+
+ have
+ to
+ pay
+ off
+ the
+ debt
+ over
+ 24
+ years
+,
+
+
+ can
+ this
+ massive
+ construction
+ boom
+
+
+ really
+ be
+ sustained
+?
+ You
+ really
+ need
+ to
+
+
+ look
+ at
+ three
+ things
+:
+ how
+ fast
+ revenue
+
+
+ grows
+,
+ whether
+ pricing
+ holds
+,
+ and
+
+
+ exactly
+ how
+ many
+ years
+ a
+ chip
+ can
+ last
+.
+
+
+ For
+ the
+ first
+ calculation
+,
+ the
+
+
+ professor
+ asks
+ a
+ simple
+ question
+:
+ with
+
+
+ $
+ 10.3
+ trillion
+ invested
+,
+ how
+ much
+ must
+
+
+ be
+ recovered
+ annually
+ for
+ the
+ investors
+
+
+ not
+ to
+ lose
+ money
+?
+ He
+ set
+ a
+ threshold
+:
+
+
+ earning
+ 10
+%
+a
+ year
+,
+ without
+ leverage
+,
+
+
+ just
+ investing
+ their
+ own
+ capital
+ to
+
+
+ make
+ a
+ 10
+%
+return
+.
+ This
+ requirement
+ is
+
+
+ not
+ greedy
+ at
+ all
+ by
+ Wall
+ Street
+
+
+ standards
+.
+ He
+ made
+ a
+ generous
+
+
+ assumption
+:
+ for
+ every
+ $
+ 100
+ in
+ revenue
+,
+
+
+ $
+ 50
+ in
+ cash
+ remains
+,
+ which
+ is
+ already
+
+
+ a
+ very
+ healthy
+ profit
+ margin
+.
+
+
+ Calculations
+ show
+ that
+ by
+ 2032
+,
+ these
+
+
+ data
+ centers
+ would
+ need
+ to
+ pull
+ in
+ $
+
+
+ 3.7
+ trillion
+ a
+ year
+.
+ You
+ might
+ not
+ have
+
+
+ a
+ concept
+ of
+ this
+ number
+,
+ but
+ as
+ a
+
+
+ share
+ of
+ U.S.
+ GDP
+,
+ it
+ would
+ account
+ for
+
+
+ 9.2
+%
+that
+ year
+—
+just
+ think
+ about
+ that
+.
+
+
+ Think
+ about
+ it
+,
+ US
+ healthcare
+ costs
+
+
+ account
+ for
+ 10
+%
+of
+ its
+ GDP
+,
+ yet
+ the
+ AI
+
+
+ industry
+ is
+ expected
+ to
+ generate
+ over
+
+
+ half
+ of
+ that
+ amount
+ in
+ revenue
+!
+ Let’s
+
+
+ look
+ at
+ railroads
+;
+ during
+ the
+ railway
+
+
+ era
+,
+ the
+ US
+ spent
+ 2
+%
+of
+ its
+ GDP
+ annually
+
+
+ on
+ construction
+.
+ This
+ time
+,
+ we
+ need
+ to
+
+
+ recoup
+ 9
+%
+of
+ GDP
+ every
+ year
+ to
+ break
+
+
+ even
+.
+ So
+,
+ who
+ is
+ currently
+ collecting
+
+
+ this
+ money
+?
+ The
+ professor
+ provided
+ a
+
+
+ benchmark
+:
+ OpenAI
+ and
+ Anthropic
+
+
+ combined
+ bring
+ in
+ about
+ $
+ 100
+ billion
+
+
+ annually
+.
+ How
+ fast
+ would
+ they
+ need
+ to
+
+
+ grow
+ to
+ reach
+ $
+ 3.7
+ trillion
+?
+ They
+
+
+ would
+ need
+ 80
+%
+annual
+ growth
+ until
+ 2032.
+
+
+ To
+ put
+ that
+ in
+ perspective
+,
+ imagine
+ a
+
+
+ young
+ person
+ earning
+ 10,000
+ a
+ month
+
+
+ with
+ an
+ 80
+%
+raise
+ every
+ year
+ for
+ six
+
+
+ years
+.
+ What
+ would
+ their
+ salary
+ be
+ in
+
+
+ the
+ sixth
+ year
+?
+ 340,000
+.
+ I
+ wonder
+ if
+
+
+ anyone
+ around
+ you
+ fits
+ that
+ description
+
+
+?
+ Personally
+,
+ I’ve
+ never
+ seen
+ anyone
+
+
+ like
+ that
+.
+ This
+ is
+ just
+ the
+ professor's
+
+
+ middle-ground
+ estimate
+.
+ He
+ made
+ a
+ table
+
+
+ adjusting
+ return
+ requirements
+ and
+
+
+ profit
+ margins
+;
+ even
+ in
+ the
+ most
+
+
+ optimistic
+ scenario
+ with
+ a
+ 5
+%
+return
+,
+
+
+ you
+ still
+ need
+ $
+ 2.3
+ trillion
+ in
+ annual
+
+
+ revenue
+.
+ In
+ the
+ most
+ pessimistic
+
+
+ scenario
+,
+ you’d
+ need
+ $
+ 6.7
+ trillion
+.
+
+
+ The
+ gap
+ between
+ the
+ two
+ is
+ nearly
+
+
+ threefold
+.
+ The
+ professor
+ is
+ very
+
+
+ restrained
+ in
+ his
+ assessment
+,
+ noting
+
+
+ that
+ compared
+ to
+ today's
+ compute
+ prices
+
+
+,
+ this
+ revenue
+ threshold
+ doesn't
+ seem
+
+
+ outrageous
+,
+ but
+ he
+ adds
+ a
+ caveat
+:
+ your
+
+
+ prices
+ must
+ hold
+ firm
+.
+ But
+ the
+ question
+
+
+ is
+,
+ can
+ these
+ prices
+ actually
+ hold
+?
+ The
+
+
+ professor
+ spread
+ that
+ $
+ 3.7
+ trillion
+
+
+ across
+ every
+ chip
+.
+ With
+ 183
+ gigawatts
+
+
+ of
+ power
+,
+ based
+ on
+ Nvidia's
+ current
+
+
+ mainstream
+ server
+ racks
+,
+ you
+ could
+ fit
+
+
+ about
+ 77
+ million
+ GPUs
+.
+ Each
+ GPU
+ would
+
+
+ need
+ to
+ charge
+ $
+ 5.50
+ per
+ hour
+ for
+ the
+
+
+ books
+ to
+ balance
+.
+ And
+ that's
+ assuming
+
+
+ full
+ load
+ without
+ a
+ second
+ of
+ downtime
+
+
+—
+a
+ luxury
+ that
+ doesn't
+ exist
+ in
+
+
+ reality
+.
+ At
+ 80
+%
+utilization
+,
+ the
+ price
+
+
+ would
+ need
+ to
+ rise
+ to
+ $
+ 6.90
+;
+ at
+ 70
+%
+,
+
+
+ it
+ would
+ have
+ to
+ climb
+ to
+ $
+ 7.90
+.
+ So
+,
+
+
+ how
+ much
+ does
+ it
+ cost
+ to
+ rent
+ a
+
+
+ top-tier
+ GPU
+ on
+ the
+ market
+ right
+ now
+?
+
+
+ The
+ professor
+ checked
+,
+ and
+ the
+ hourly
+
+
+ rental
+ rate
+ is
+ roughly
+ between
+ $
+ 6
+ and
+
+
+ just
+ over
+ $
+ 10
+.
+ Keep
+ in
+ mind
+,
+ this
+ is
+
+
+ the
+ on-demand
+ rental
+ price
+.
+ For
+
+
+ long-term
+ contracts
+ or
+ spot-market
+
+
+ deals
+,
+ the
+ actual
+ transaction
+ price
+ is
+
+
+ even
+ lower
+.
+ So
+ he
+ says
+,
+ at
+ today's
+
+
+ prices
+,
+ the
+ math
+ works
+ out
+.
+ But
+ then
+ he
+
+
+ immediately
+ asks
+:
+ once
+ all
+ 183
+
+
+ gigawatts
+ are
+ built
+,
+ will
+ there
+ be
+
+
+ enough
+ demand
+,
+ and
+ can
+ prices
+ hold
+ at
+
+
+ today's
+ levels
+?
+ Coincidentally
+,
+ just
+
+
+ one
+ day
+ before
+ this
+ paper
+ was
+ posted
+,
+
+
+ on
+ September
+ 22nd
+,
+ the
+ U.S.
+ AI
+ industry
+
+
+ experienced
+ something
+.
+ Google
+ released
+
+
+ its
+ new
+ flagship
+ model
+,
+ priced
+ 20
+%
+
+
+cheaper
+ than
+ the
+ previous
+ generation
+,
+
+
+ and
+ claims
+ it
+ saves
+ 40
+%
+in
+ actual
+
+
+ operation
+.
+ 90
+ minutes
+ later
+,
+ OpenAI
+
+
+ launched
+ two
+ new
+ models
+,
+ cutting
+ prices
+
+
+ directly
+ in
+ half
+.
+ This
+ wasn't
+ the
+ first
+
+
+ time
+;
+ on
+ July
+ 30th
+,
+ OpenAI
+ had
+ already
+
+
+ slashed
+ the
+ price
+ of
+ a
+ budget
+ model
+ by
+
+
+ 80
+%
+.
+ US
+ tech
+ media
+ reported
+ in
+ August
+
+
+ that
+ the
+ desperate
+ price
+ cuts
+ from
+ both
+
+
+ companies
+ were
+ due
+ to
+ Chinese
+
+
+ open-source
+ models
+,
+ which
+ are
+ 60
+%
+to
+ 90
+%
+
+
+cheaper
+ per
+ token
+,
+ causing
+ customers
+ to
+
+
+ move
+ in
+ that
+ direction
+.
+ A
+ token
+ can
+ be
+
+
+ understood
+ as
+ the
+ unit
+ for
+ which
+ AI
+
+
+ charges
+ based
+ on
+ the
+ work
+ it
+ performs
+.
+
+
+ Chinese
+ audiences
+ are
+ very
+ familiar
+
+
+ with
+ this
+ scene
+.
+ In
+ May
+ 2024
+,
+ DeepSeek
+
+
+ dropped
+ large
+ model
+ prices
+ to
+ one
+ yuan
+
+
+ per
+ million
+ tokens
+,
+ with
+ ByteDance
+,
+
+
+ Alibaba
+,
+ and
+ Baidu
+ following
+ with
+ round
+
+
+ after
+ round
+ of
+ cuts
+,
+ some
+ even
+ making
+
+
+ them
+ free
+.
+ Everyone
+ remembers
+ the
+ large
+
+
+ model
+ price
+ war
+ that
+ year
+.
+ Of
+ course
+,
+
+
+ there
+ is
+ still
+ a
+ layer
+ between
+ model
+
+
+ price
+ cuts
+ and
+ GPU
+ rental
+ price
+ cuts
+,
+
+
+ but
+ the
+ logic
+ is
+ already
+ very
+ clear
+.
+ If
+
+
+ what
+ you
+ sell
+ to
+ end-users
+ becomes
+
+
+ cheaper
+ and
+ cheaper
+,
+ the
+ rental
+ costs
+
+
+ of
+ your
+ upstream
+ data
+ centers
+ will
+
+
+ inevitably
+ be
+ forced
+ down
+ as
+ well
+.
+ If
+
+
+ everyone
+ is
+ going
+ to
+ fight
+ a
+ price
+ war
+
+
+ to
+ grab
+ customers
+ at
+ the
+ model
+ level
+,
+
+
+ it
+ will
+ surely
+ cut
+ into
+ GPU
+ rental
+
+
+ costs
+.
+ The
+ remaining
+ bill
+,
+ then
+,
+ is
+ the
+
+
+ cost
+ of
+ replacing
+ chips
+ mentioned
+
+
+ earlier
+.
+ Let
+ me
+ share
+ an
+ analogy
+ that
+
+
+ is
+ easy
+ to
+ understand
+.
+ Everyone
+ has
+
+
+ been
+ to
+ an
+ internet
+ café
+,
+ right
+?
+ My
+
+
+ childhood
+ dream
+ was
+ to
+ open
+ my
+ own
+
+
+ internet
+ café
+ so
+ I
+ could
+ play
+ games
+ as
+
+
+ much
+ as
+ I
+ wanted
+.
+ But
+ I
+ later
+ realized
+
+
+ you
+ don't
+ actually
+ have
+ to
+ open
+ an
+
+
+ internet
+ café
+ to
+ play
+;
+ you
+ just
+ need
+
+
+ to
+ have
+ enough
+ money
+ to
+ pay
+ the
+ hourly
+
+
+ rate
+.
+ Those
+ who
+ have
+ run
+ an
+ internet
+
+
+ café
+ know
+ that
+ renovations
+,
+ furniture
+,
+
+
+ and
+ network
+ cables
+ last
+ for
+ years
+.
+ But
+
+
+ the
+ machines
+ are
+ different
+;
+ if
+ you
+
+
+ don't
+ replace
+ your
+ computers
+ every
+ few
+
+
+ years
+,
+ they
+ can't
+ run
+ new
+ games
+,
+ and
+
+
+ customers
+ will
+ just
+ turn
+ around
+ and
+ go
+
+
+ next
+ door
+.
+ AI
+ data
+ centers
+ are
+
+
+ essentially
+ giant
+ internet
+ cafes
+;
+ the
+
+
+ building
+ fit-out
+ accounts
+ for
+ about
+ 30
+%
+
+
+,
+ while
+ the
+ chips
+,
+ acting
+ as
+ the
+
+
+ computers
+,
+ make
+ up
+ nearly
+ 70
+%
+.
+ In
+ his
+
+
+ paper
+,
+ the
+ professor
+ estimated
+ a
+
+
+ six-year
+ lifespan
+ for
+ these
+ chips
+,
+ but
+
+
+ he
+ also
+ ran
+ a
+ stress
+ test
+:
+ what
+ if
+ the
+
+
+ chips
+ only
+ last
+ three
+ years
+?
+ The
+ result
+
+
+ was
+ that
+ for
+ every
+ $
+ 100
+ invested
+,
+ the
+
+
+ annual
+ cost
+ that
+ needs
+ to
+ be
+ recouped
+
+
+ jumps
+ from
+ over
+ $
+ 19
+ to
+ $
+ 31
+.
+ The
+
+
+ annual
+ revenue
+ threshold
+ jumps
+ from
+ $
+
+
+ 3.7
+ trillion
+ to
+ $
+ 6
+ trillion
+.
+ What
+ does
+
+
+ $
+ 6
+ trillion
+ actually
+ mean
+?
+ It
+ is
+
+
+ equivalent
+ to
+ 14.8
+%
+of
+ the
+ projected
+
+
+ U.S.
+ GDP
+ in
+ 2032.
+ For
+ each
+ GPU
+,
+ the
+
+
+ hourly
+ rental
+ price
+ would
+ jump
+ directly
+
+
+ from
+ $
+ 5.50
+ to
+ $
+ 8.80
+,
+ landing
+ in
+ the
+
+
+ upper
+ tier
+ of
+ today's
+ rental
+ price
+
+
+ range
+,
+ which
+ is
+ the
+ more
+ expensive
+
+
+ bracket
+.
+ So
+,
+ do
+ you
+ see
+ where
+ the
+
+
+ problem
+ lies
+?
+ Historically
+,
+ massive
+
+
+ infrastructure
+ projects
+ like
+ canals
+,
+
+
+ railways
+,
+ or
+ fiber
+ optics
+ could
+ be
+ used
+
+
+ for
+ many
+ years
+;
+ even
+ if
+ the
+ railway
+
+
+ company
+ went
+ bankrupt
+,
+ the
+ tracks
+
+
+ remained
+.
+ For
+ the
+ same
+ dollar
+ of
+
+
+ investment
+,
+ the
+ assets
+ left
+ behind
+ by
+
+
+ AI
+ are
+ far
+ less
+ valuable
+ than
+ those
+
+
+ old-school
+ projects
+.
+ In
+ plain
+ terms
+,
+
+
+ the
+ money
+ is
+ spent
+ and
+ the
+ building
+
+
+ remains
+,
+ but
+ the
+ most
+ valuable
+ things
+
+
+ inside
+ will
+ turn
+ into
+ electronic
+ waste
+
+
+ after
+ six
+ years
+.
+ The
+ thing
+ is
+,
+
+
+ borrowing
+ money
+ to
+ buy
+ chips
+ now
+
+
+ involves
+ using
+ the
+ chips
+ themselves
+ as
+
+
+ collateral
+.
+ The
+ professional
+ rating
+
+
+ agency
+ Moody's
+ previously
+ warned
+ that
+
+
+ chips
+ as
+ collateral
+ are
+ different
+ from
+
+
+ houses
+ or
+ airplanes
+;
+ they
+ become
+
+
+ obsolete
+ too
+ quickly
+,
+ so
+ who
+ knows
+ what
+
+
+ they'll
+ be
+ worth
+ second-hand
+?
+ Nobody
+
+
+ can
+ say
+ for
+ sure
+.
+ This
+ August
+,
+ six
+
+
+ major
+ Wall
+ Street
+ institutions
+ set
+ up
+ a
+
+
+ $
+ 500
+ billion
+ loan
+ pool
+ specifically
+ to
+
+
+ lend
+ money
+ to
+ people
+ buying
+ Nvidia
+
+
+ chips
+.
+ Nvidia
+ stepped
+ in
+ to
+ provide
+ a
+
+
+ floor
+,
+ guaranteeing
+ 25
+%
+of
+ the
+ chips
+ '
+
+
+residual
+ value
+,
+ up
+ to
+ $
+ 125
+ billion
+.
+
+
+ The
+ chip
+ seller
+ is
+ essentially
+
+
+ guaranteeing
+ the
+ resale
+ price
+ of
+ its
+
+
+ own
+ product
+,
+ so
+ you
+ see
+,
+ Nvidia
+ is
+
+
+ stepping
+ in
+ to
+ keep
+ this
+ circular
+
+
+ financing
+ framework
+ going
+.
+ They
+ don't
+
+
+ want
+ the
+ AI
+ infrastructure
+ wave
+ to
+ just
+
+
+ fizzle
+ out
+.
+ These
+ calculations
+ remain
+
+
+ on
+ paper
+,
+ but
+ there
+ are
+ several
+ walls
+
+
+ between
+ the
+ paper
+ and
+ actual
+
+
+ implementation
+.
+ The
+ first
+ wall
+ is
+
+
+ electricity
+.
+ Columbia
+ professors
+
+
+ calculated
+ that
+ a
+ 200
+-
+megawatt
+ data
+
+
+ center
+ consumes
+ as
+ much
+ power
+ in
+ a
+ year
+
+
+ as
+ 170,000
+ U.S.
+ households
+.
+ One
+ data
+
+
+ center
+ is
+ equivalent
+ to
+ the
+ power
+
+
+ consumption
+ of
+ a
+ small
+ city
+,
+ and
+
+
+ building
+ out
+ the
+ entire
+ 183
+ gigawatts
+
+
+ would
+ be
+ like
+ creating
+ an
+ entirely
+ new
+
+
+ power
+ grid
+ on
+ top
+ of
+ all
+ existing
+ U.S.
+
+
+ residential
+ usage
+.
+ So
+,
+ where
+ will
+ all
+
+
+ this
+ electricity
+ come
+ from
+?
+ Morgan
+
+
+ Stanley
+ says
+ that
+ in
+ some
+ parts
+ of
+ the
+
+
+ U.S.
+,
+ data
+ centers
+ have
+ to
+ wait
+ five
+ to
+
+
+ seven
+ years
+ just
+ to
+ get
+ connected
+ to
+
+
+ the
+ power
+ grid
+.
+ The
+ 33
+-
+gigawatt
+ deficit
+
+
+ I
+ mentioned
+ earlier
+ is
+ the
+ gap
+ that
+
+
+ remains
+ even
+ after
+ accounting
+ for
+ the
+
+
+ data
+ centers
+'
+ own
+ power
+ plants
+ and
+
+
+ onsite
+ gas
+ turbines
+.
+ As
+ we’ve
+
+
+ discussed
+ in
+ previous
+ episodes
+,
+ for
+
+
+ that
+ data
+ center
+ in
+ New
+ Mexico
+,
+ the
+
+
+ state
+ couldn’t
+ approve
+ the
+ natural
+
+
+ gas
+ pipeline
+,
+ and
+ Google
+ immediately
+
+
+ issued
+ a
+ force
+ majeure
+ notice
+.
+ Another
+
+
+ bottleneck
+ is
+ even
+ more
+ absurd
+;
+ once
+
+
+ these
+ chips
+ are
+ manufactured
+,
+ they
+
+
+ can’t
+ be
+ used
+ directly
+—
+they
+ must
+ go
+
+
+ through
+ an
+ advanced
+ packaging
+ process
+
+
+ to
+ solder
+ the
+ compute
+ chip
+ to
+ the
+
+
+ memory
+.
+ Ninety
+ percent
+ of
+ the
+ world’s
+
+
+ advanced
+ packaging
+ for
+ AI
+ chips
+ is
+
+
+ controlled
+ by
+ TSMC
+.
+ TSMC
+ has
+ a
+ factory
+
+
+ in
+ Arizona
+,
+ USA
+,
+ where
+ the
+ wafers
+ are
+
+
+ produced
+,
+ but
+ after
+ they
+ are
+ made
+,
+ they
+
+
+ have
+ to
+ be
+ loaded
+ onto
+ a
+ plane
+,
+ flown
+
+
+ to
+ Taiwan
+ for
+ packaging
+,
+ and
+ then
+
+
+ shipped
+ back
+ to
+ the
+ U.S.
+ TSMC
+ is
+
+
+ building
+ its
+ own
+ packaging
+ line
+ in
+
+
+ Arizona
+ with
+ a
+ target
+ to
+ start
+
+
+ production
+ by
+ 2029
+,
+ meaning
+ for
+ the
+
+
+ next
+ few
+ years
+,
+ most
+ US-made
+ AI
+ chips
+
+
+ must
+ still
+ cross
+ the
+ Pacific
+ twice
+.
+
+
+ When
+ I
+ heard
+ that
+ podcast
+ host
+,
+ he
+ said
+
+
+ it
+ sounds
+ like
+ a
+ joke
+,
+ and
+ that
+ what
+
+
+ might
+ eventually
+ crash
+ this
+ feast
+ is
+
+
+ the
+ packaging
+ phase
+,
+ not
+ to
+ mention
+
+
+ transformers
+ and
+ cooling
+ equipment
+,
+
+
+ which
+ are
+ all
+ stuck
+ in
+ queues
+.
+ Just
+
+
+ imagine
+ this
+ scenario
+:
+ Wall
+ Street’s
+
+
+ orders
+ are
+ calculated
+ by
+ the
+ quarter
+,
+
+
+ the
+ power
+ grid
+ on
+ the
+ ground
+ is
+ on
+ a
+
+
+ multi-year
+ timeline
+,
+ and
+ the
+ borrowed
+
+
+ money
+ accrues
+ interest
+ by
+ the
+ day
+.
+ You
+
+
+ see
+,
+ these
+ three
+ clocks
+ are
+ all
+ running
+
+
+ at
+ different
+ speeds
+.
+ In
+ October
+ 2025
+,
+
+
+ the
+ US
+ bond
+ market
+ closed
+ a
+ deal
+ that
+ a
+
+
+ Columbia
+ professor
+ later
+ wrote
+ about
+ in
+
+
+ a
+ paper
+,
+ using
+ it
+ as
+ a
+ case
+ study
+ for
+
+
+ the
+ entire
+ AI
+ financing
+ structure
+.
+ The
+
+
+ main
+ player
+ is
+ Meta
+,
+ our
+ Facebook
+
+
+ company
+,
+ which
+ has
+ a
+ data
+ center
+ campus
+
+
+ in
+ Louisiana
+ called
+ Hyper
+,
+ with
+ a
+
+
+ two-gigawatt
+ capacity
+ and
+ a
+ total
+
+
+ investment
+ of
+ about
+ $
+ 30
+ billion
+.
+ That
+
+
+ $
+ 30
+ billion
+ only
+ covers
+ the
+ building
+
+
+ and
+ power
+;
+ Meta
+,
+ as
+ the
+ tenant
+,
+ pays
+
+
+ for
+ the
+ chips
+ itself
+,
+ and
+ Meta
+
+
+ initially
+ paid
+ to
+ build
+ the
+ facility
+
+
+ itself
+.
+ Later
+,
+ they
+ made
+ a
+ move
+ to
+ sell
+
+
+ an
+ 80
+%
+stake
+ in
+ the
+ project
+ to
+ private
+
+
+ equity
+ giant
+ Blackstone
+ for
+ $
+ 2.5
+
+
+ billion
+.
+ The
+ two
+ partnered
+ to
+ form
+ a
+
+
+ new
+ company
+ with
+ a
+ rather
+ interesting
+
+
+ name
+:
+ Beignet
+,
+ named
+ after
+ those
+ New
+
+
+ Orleans
+ French
+ donuts
+ covered
+ in
+
+
+ powdered
+ sugar
+—
+these
+ American
+
+
+ desserts
+ are
+ really
+ inedible
+,
+ they’re
+
+
+ just
+ too
+ sweet
+.
+ The
+ first
+ thing
+ this
+ "
+
+
+donut
+ company
+"
+ did
+ was
+ borrow
+ money
+,
+
+
+ issuing
+ $
+ 27
+ billion
+ in
+ debt
+ all
+ at
+
+
+ once
+.
+ S
+&
+P
+ gave
+ it
+ an
+ A
+ +
+ rating
+,
+ just
+
+
+ one
+ notch
+ below
+ Meta
+ itself
+;
+ this
+ is
+
+
+ the
+ largest
+ single
+ investment-grade
+
+
+ corporate
+ bond
+ issue
+ in
+ U.S.
+ history
+.
+
+
+ If
+ you
+ look
+ at
+ these
+ numbers
+ together
+,
+
+
+ the
+ building
+ is
+ only
+ worth
+ 30
+ billion
+,
+
+
+ but
+ they
+ borrowed
+ 27
+ billion
+—
+
+
+effectively
+ 90
+%
+debt
+.
+ The
+ professor
+
+
+ calculated
+ an
+ indicator
+ called
+ the
+ debt
+
+
+ service
+ coverage
+ ratio
+ at
+ 1.12
+ x
+;
+ in
+
+
+ plain
+ terms
+,
+ for
+ every
+ $
+ 1.12
+ the
+
+
+ project
+ brings
+ in
+,
+ $
+ 1.00
+ must
+ go
+
+
+ toward
+ interest
+ and
+ principal
+.
+ That
+
+
+ leaves
+ a
+ margin
+ of
+ just
+ 12
+ cents
+—
+is
+
+
+ that
+ really
+ enough
+ to
+ cover
+ Meta's
+ own
+
+
+ books
+?
+ By
+ the
+ end
+ of
+ 2025
+,
+ its
+
+
+ debt-to-equity
+ ratio
+ will
+ be
+ 25
+%
+on
+
+
+ paper
+,
+ but
+ only
+ 4
+%
+by
+ market
+ cap
+;
+ it
+
+
+ looks
+ spotless
+.
+ Now
+ look
+ at
+ the
+ lease
+:
+
+
+ Meta
+ is
+ renting
+,
+ not
+ buying
+,
+ starting
+
+
+ in
+ 2029
+ with
+ four-year
+ renewals
+ until
+
+
+ 2049
+,
+ maturing
+ the
+ same
+ year
+ as
+ the
+
+
+ bonds
+.
+ Every
+ time
+ a
+ renewal
+ comes
+ up
+,
+
+
+ Meta
+ could
+ technically
+ walk
+ away
+,
+ but
+
+
+ doing
+ so
+ comes
+ at
+ a
+ cost
+:
+ the
+ data
+
+
+ center
+ must
+ be
+ sold
+,
+ and
+ if
+ the
+
+
+ proceeds
+ fall
+ short
+ of
+ the
+ contract's
+
+
+ floor
+ price
+,
+ Meta
+ pays
+ the
+ difference
+.
+
+
+ Anyone
+ in
+ finance
+ understands
+ this
+
+
+ arrangement
+ immediately
+;
+ it’s
+ a
+ lease
+
+
+ in
+ name
+,
+ but
+ debt
+ in
+ substance
+.
+ So
+,
+
+
+ what
+ is
+ the
+ cost
+?
+ The
+ "
+donut
+ shop's
+"
+
+
+ bond
+ interest
+ rate
+ is
+ 6.58
+%
+,
+ which
+ is
+
+
+ at
+ least
+ a
+ full
+ percentage
+ point
+ more
+
+
+ expensive
+ than
+ if
+ Meta
+ borrowed
+ the
+
+
+ money
+ directly
+.
+ Over
+ the
+ entire
+ loan
+
+
+ term
+,
+ the
+ extra
+ interest
+ paid
+ exceeds
+ $
+
+
+ 5
+ billion
+;
+ you’re
+ probably
+ wondering
+
+
+ why
+ Meta
+ would
+ operate
+ this
+ way
+.
+
+
+ Actually
+,
+ Meta
+ is
+ doing
+ this
+ to
+ make
+
+
+ its
+ financial
+ statements
+ look
+ as
+ clean
+
+
+ as
+ possible
+.
+ In
+ July
+,
+ Meta
+ worked
+ with
+
+
+ Bedrock
+ again
+ in
+ Texas
+ to
+ set
+ up
+
+
+ another
+ company
+,
+ this
+ one
+ named
+ "
+
+
+Sopaipilla
+,
+"
+ issuing
+ $
+ 12.3
+ billion
+ in
+
+
+ debt
+;
+ it’s
+ like
+ Meta
+ is
+ turning
+ these
+
+
+ "
+dessert
+ shops
+"
+ into
+ a
+ chain
+.
+ You
+ might
+
+
+ wonder
+ why
+ Meta
+ would
+ adopt
+ such
+ a
+
+
+ structure
+ to
+ borrow
+ money
+.
+ Especially
+
+
+ when
+ it
+ means
+ paying
+ all
+ that
+ extra
+
+
+ interest
+.
+ In
+ fact
+,
+ under
+ current
+ U.S.
+
+
+ accounting
+ standards
+,
+ Meta
+ doesn't
+ have
+
+
+ to
+ record
+ a
+ single
+ cent
+ of
+ this
+ lease
+
+
+ or
+ that
+ price
+ guarantee
+ on
+ its
+ balance
+
+
+ sheet
+ until
+ they
+ actually
+ take
+ effect
+.
+
+
+ Just
+ think
+ about
+ it
+:
+ based
+ on
+ the
+
+
+ contract
+ design
+,
+ one
+ of
+ these
+ two
+
+
+ things
+ is
+ bound
+ to
+ materialize
+ in
+ the
+
+
+ future
+,
+ yet
+ currently
+,
+ you
+ won't
+ see
+
+
+ any
+ impact
+ on
+ the
+ balance
+ sheet
+.
+ I've
+
+
+ calculated
+ the
+ industry
+ total
+;
+ cloud
+
+
+ giants
+ have
+ about
+ $
+ 970
+ billion
+ in
+
+
+ lease
+ commitments
+,
+ and
+ $
+ 660
+ billion
+ of
+
+
+ that
+ isn't
+ on
+ the
+ books
+ at
+ all
+ because
+
+
+ the
+ leases
+ haven't
+ started
+ yet
+.
+ The
+
+
+ Wall
+ Street
+ Journal's
+ calculations
+ are
+
+
+ even
+ bolder
+:
+ the
+ off-balance-sheet
+
+
+ liabilities
+ for
+ Microsoft
+,
+ Google
+,
+
+
+ Amazon
+,
+ and
+ Meta
+ combined
+ total
+ $
+ 1.4
+
+
+ trillion
+.
+ $
+ 904
+ billion
+ of
+ that
+ is
+
+
+ future
+ rent
+,
+ and
+ $
+ 1.52
+ trillion
+ is
+
+
+ future
+ purchase
+ commitments
+,
+ with
+ the
+
+
+ bulk
+ going
+ toward
+ buying
+ chips
+.
+ Only
+ $
+
+
+ 604
+ billion
+ is
+ on
+ the
+ books
+,
+ so
+ just
+
+
+ imagine
+—
+of
+ the
+ $
+ 3
+ trillion
+ in
+
+
+ liabilities
+ related
+ to
+ data
+ centers
+,
+
+
+ only
+ one-fifth
+ is
+ actually
+ recorded
+ on
+
+
+ their
+ balance
+ sheets
+.
+ Even
+ more
+
+
+ troubling
+ is
+ the
+ lack
+ of
+ transparency
+.
+
+
+ Professors
+ point
+ out
+ that
+ rated
+,
+
+
+ publicly
+ reported
+ debt
+ only
+ makes
+ up
+ a
+
+
+ small
+ fraction
+ of
+ data
+ center
+ financing
+
+
+;
+ the
+ larger
+ share
+ comes
+ from
+
+
+ syndicated
+ loans
+ and
+ private
+ credit
+,
+
+
+ where
+ almost
+ no
+ information
+ is
+
+
+ available
+ externally
+.
+ Where
+ does
+ this
+
+
+ private
+ credit
+ money
+ even
+ come
+ from
+?
+ As
+
+
+ I’ve
+ mentioned
+ in
+ previous
+ segments
+,
+
+
+ it’s
+ money
+ from
+ pension
+ funds
+ and
+
+
+ insurance
+ companies
+.
+ Just
+ think
+ about
+
+
+ how
+ long
+ that
+ chain
+ is
+.
+ The
+ professor
+
+
+ also
+ highlighted
+ a
+ detail
+:
+ if
+ computing
+
+
+ demand
+ ever
+ falls
+ short
+ of
+ expectations
+
+
+,
+ these
+ cloud
+ giants
+ will
+ move
+
+
+ workloads
+ back
+ to
+ their
+ own
+ buildings
+
+
+ to
+ ensure
+ their
+ own
+ facility
+
+
+ utilization
+,
+ leaving
+ rented
+ space
+ empty
+
+
+—
+shifting
+ the
+ burden
+ onto
+ those
+
+
+ external
+ landlords
+.
+ There’s
+ also
+ an
+
+
+ interesting
+ signal
+:
+ these
+ publicly
+
+
+ traded
+ data
+ center
+ REITs
+,
+ which
+
+
+ specialize
+ in
+ collecting
+ rent
+,
+ used
+ to
+
+
+ have
+ a
+ correlation
+ coefficient
+ with
+ the
+
+
+ broader
+ market
+ of
+ around
+ 0.5
+,
+ acting
+ as
+
+
+ a
+ safe
+ haven
+.
+ Over
+ the
+ last
+ two
+ years
+,
+
+
+ that’s
+ risen
+ to
+ about
+ 1.0
+;
+ they
+ now
+
+
+ rise
+ and
+ fall
+ in
+ lockstep
+ with
+ the
+
+
+ stock
+ market
+.
+ What
+ used
+ to
+ be
+ a
+
+
+ reliable
+ "
+iron
+ rice
+ bowl
+"
+ of
+ rental
+
+
+ income
+ has
+ now
+ become
+ just
+ another
+
+
+ plank
+ on
+ the
+ AI
+ ship
+.
+ From
+ the
+ looks
+ of
+
+
+ it
+,
+ off-balance-sheet
+ financing
+ itself
+
+
+ doesn't
+ necessarily
+ increase
+ risk
+,
+ but
+
+
+ the
+ problem
+ is
+ that
+ before
+ something
+
+
+ goes
+ wrong
+,
+ you
+ simply
+ cannot
+ see
+ these
+
+
+ interconnected
+ risks
+ from
+ the
+ outside
+.
+
+
+ You
+ can
+ calculate
+ the
+ debt
+ you
+ can
+ see
+,
+
+
+ but
+ for
+ the
+ debt
+ you
+ can't
+ see
+,
+ you
+ can
+
+
+ only
+ guess
+.
+ With
+ borrowing
+ happening
+
+
+ both
+ off
+ and
+ on
+ the
+ books
+,
+ there
+ is
+
+
+ only
+ one
+ word
+ to
+ describe
+ the
+ cloud
+
+
+ giants
+ '
+actions
+ in
+ the
+ bond
+ market
+ this
+
+
+ year
+:
+ gobbling
+ up
+.
+ This
+ February
+,
+
+
+ Google’s
+ parent
+ company
+ borrowed
+
+
+ about
+ $
+ 31.5
+ billion
+ in
+ just
+ two
+ days
+
+
+ across
+ the
+ US
+ dollar
+,
+ British
+ pound
+,
+
+
+ and
+ Swiss
+ franc
+ markets
+.
+ One
+ of
+ those
+
+
+ deals
+ even
+ stunned
+ London's
+ financial
+
+
+ district
+:
+ a
+ 100
+-
+year
+ bond
+ denominated
+
+
+ in
+ pounds
+,
+ maturing
+ in
+ 2126
+,
+ with
+ an
+
+
+ interest
+ rate
+ just
+ over
+ 6
+%
+.
+ They
+ wanted
+
+
+ to
+ borrow
+ £
+ 1
+ billion
+,
+ but
+ received
+ £
+
+
+ 9.5
+ billion
+ in
+ orders
+.
+ The
+ last
+ time
+ a
+
+
+ tech
+ company
+ issued
+ a
+ century
+ bond
+ was
+
+
+ Motorola
+ in
+ 1997.
+ That
+ was
+ right
+ when
+
+
+ the
+ internet
+ was
+ just
+ starting
+ its
+
+
+ climb
+ to
+ the
+ top
+.
+ We
+ all
+ know
+ what
+
+
+ eventually
+ happened
+ to
+ Motorola
+,
+ right
+?
+
+
+ If
+ even
+ cash-rich
+ companies
+ like
+ Google
+
+
+ are
+ starting
+ to
+ stock
+ up
+,
+ what
+ are
+
+
+ others
+ supposed
+ to
+ do
+?
+ Since
+ the
+
+
+ beginning
+ of
+ this
+ year
+,
+ a
+ few
+ tech
+
+
+ giants
+ have
+ issued
+ over
+ 180
+ billion
+
+
+ dollars
+ in
+ USD-denominated
+ bonds
+ alone
+.
+
+
+ A
+ London-based
+ bond
+ fund
+ calculated
+
+
+ that
+ their
+ 30
+-
+year
+ bond
+ issues
+ are
+
+
+ competing
+ for
+ the
+ same
+ pool
+ of
+
+
+ investors
+—
+pension
+ funds
+ and
+ insurers
+
+
+—
+as
+ U.S.
+ Treasury
+ 30
+-
+year
+ bonds
+.
+ The
+
+
+ New
+ York
+ Times
+ published
+ an
+ article
+ in
+
+
+ late
+ September
+ stating
+ that
+ cloud
+
+
+ giants
+ are
+ rushing
+ to
+ borrow
+ long-term
+
+
+ funds
+,
+ crowding
+ out
+ other
+ companies
+
+
+ that
+ are
+ forced
+ to
+ borrow
+ short-term
+,
+
+
+ having
+ to
+ refinance
+ every
+ three
+ to
+ five
+
+
+ years
+;
+ if
+ interest
+ rates
+ keep
+ rising
+,
+
+
+ each
+ refinance
+ becomes
+ a
+ burden
+.
+
+
+ Moreover
+,
+ the
+ weakest
+ link
+ among
+ these
+
+
+ cloud
+ giants
+ is
+ already
+ starting
+ to
+
+
+ shake
+;
+ on
+ July
+ 9th
+,
+ S
+&
+P
+ downgraded
+
+
+ Oracle
+ to
+ BB
+-
+,
+ just
+ one
+ notch
+ away
+ from
+
+
+ junk
+ status
+.
+ Oracle
+ has
+ about
+ 117
+
+
+ billion
+ dollars
+ in
+ outstanding
+ debt
+,
+
+
+ ranking
+ second
+ among
+ non-financial
+
+
+ firms
+ in
+ the
+ U.S.
+ investment-grade
+
+
+ corporate
+ bond
+ index
+.
+ Let’s
+ imagine
+
+
+ this
+:
+ according
+ to
+ the
+ index
+ rules
+,
+ if
+
+
+ any
+ two
+ of
+ the
+ three
+ major
+ rating
+
+
+ agencies
+ downgrade
+ Oracle
+ to
+ junk
+
+
+ status
+,
+ it
+ will
+ have
+ to
+ be
+ removed
+ from
+
+
+ this
+ investment-grade
+ index
+.
+ Funds
+
+
+ worldwide
+ that
+ only
+ buy
+
+
+ investment-grade
+ assets
+ would
+ all
+
+
+ receive
+ the
+ same
+ instruction
+ on
+ the
+
+
+ same
+ day
+:
+ sell
+.
+ But
+ sell
+ to
+ whom
+,
+ and
+
+
+ at
+ what
+ price
+?
+ Wall
+ Street
+ has
+ a
+ name
+
+
+ for
+ companies
+ in
+ Oracle's
+ situation
+:
+ "
+
+
+fallen
+ angels
+,
+"
+ meaning
+ they’ve
+ been
+
+
+ demoted
+ from
+ angel
+ to
+ mortal
+,
+ with
+
+
+ their
+ market
+ value
+ taking
+ an
+ immediate
+
+
+ hit
+.
+ Based
+ on
+ credit
+ analysis
+,
+ this
+ is
+
+
+ a
+ medium-term
+ risk
+,
+ not
+ an
+ immediate
+
+
+ one
+,
+ but
+ this
+ risk
+ is
+ growing
+ larger
+ by
+
+
+ the
+ day
+.
+ We
+ previously
+ did
+ a
+ series
+ on
+
+
+ Michael
+ Milken
+,
+ who
+ built
+ his
+ career
+ on
+
+
+ these
+ "
+fallen
+ angels
+.
+"
+ I
+ was
+ watching
+ a
+
+
+ podcast
+ where
+ the
+ two
+ hosts
+ live
+ in
+ a
+
+
+ small
+ mountain
+ town
+ in
+ Colorado
+,
+ which
+
+
+ has
+ a
+ narrow-gauge
+ railway
+ that
+ has
+
+
+ been
+ running
+ for
+ over
+ 100
+ years
+ and
+ is
+
+
+ still
+ in
+ operation
+ today
+.
+ One
+ host
+,
+
+
+ describing
+ the
+ train
+ that
+ carries
+
+
+ tourists
+ to
+ see
+ the
+ scenery
+,
+ said
+,
+ in
+
+
+ essence
+,
+ that
+ during
+ the
+ railway
+ boom
+,
+
+
+ many
+ rail
+ companies
+ went
+ bankrupt
+,
+ and
+
+
+ those
+ who
+ bought
+ the
+ stocks
+ and
+ bonds
+
+
+ lost
+ everything
+,
+ but
+ the
+ tracks
+
+
+ remained
+;
+ someone
+ always
+ took
+ over
+ and
+
+
+ used
+ the
+ hundreds
+ of
+ thousands
+ of
+ miles
+
+
+ of
+ track
+.
+ That
+ is
+ how
+ the
+ American
+ West
+
+
+ was
+ developed
+—
+investors
+ indeed
+ lost
+
+
+ money
+,
+ but
+ the
+ nation
+ gained
+;
+ this
+ is
+
+
+ the
+ classic
+ script
+ from
+ the
+ great
+
+
+ infrastructure
+ era
+.
+ The
+ professor
+
+
+ looked
+ back
+ at
+ history
+ and
+ noted
+ that
+
+
+ from
+ railroads
+ to
+ telecommunications
+,
+
+
+ major
+ infrastructure
+ booms
+ usually
+ run
+
+
+ into
+ trouble
+ for
+ three
+ reasons
+:
+ demand
+
+
+ fails
+ to
+ keep
+ pace
+,
+ borrowing
+ becomes
+
+
+ difficult
+,
+ or
+ the
+ pace
+ of
+ new
+
+
+ technology
+ rollout
+ doesn't
+ match
+ the
+
+
+ maturity
+ of
+ the
+ debt
+.
+ To
+ be
+ fair
+,
+ this
+
+
+ AI
+ wave
+ will
+ also
+ leave
+ something
+
+
+ behind
+.
+ For
+ instance
+,
+ buildings
+,
+ grid
+
+
+ connections
+,
+ and
+ substations
+ are
+ built
+
+
+ to
+ last
+ at
+ least
+ 20
+ years
+,
+ but
+ the
+
+
+ chips
+,
+ which
+ account
+ for
+ 86
+%
+of
+ the
+ cost
+
+
+,
+ will
+ be
+ obsolete
+ in
+ five
+ or
+ six
+ years
+
+
+,
+ forcing
+ you
+ to
+ buy
+ them
+ all
+ over
+
+
+ again
+.
+ To
+ the
+ hosts
+,
+ that
+ sounds
+
+
+ absolutely
+ insane
+.
+ This
+ image
+ reminds
+
+
+ me
+ of
+ the
+ bike-sharing
+ competition
+ in
+
+
+ China
+ a
+ while
+ back
+,
+ right
+?
+ In
+ just
+ over
+
+
+ a
+ year
+,
+ dozens
+ of
+ companies
+ dumped
+ more
+
+
+ than
+ 20
+ million
+ bikes
+ onto
+ the
+ streets
+,
+
+
+ only
+ to
+ go
+ bust
+ one
+ by
+ one
+ later
+ on
+.
+ In
+
+
+ vacant
+ lots
+ across
+ places
+ like
+ Xiamen
+
+
+ and
+ Shanghai
+,
+ these
+ bikes
+ were
+ piled
+
+
+ into
+ mountains
+,
+ which
+ people
+ at
+ the
+
+
+ time
+ called
+ "
+bike
+ graveyards
+.
+"
+ The
+
+
+ roads
+ and
+ cities
+ are
+ still
+ there
+,
+ but
+
+
+ those
+ bikes
+ in
+ the
+ graveyard
+ are
+ no
+
+
+ longer
+ ridden
+ and
+ have
+ just
+ been
+
+
+ abandoned
+—
+along
+ with
+ the
+ investors
+'
+
+
+ money
+.
+ There
+ is
+ another
+ point
+ the
+ hosts
+
+
+ made
+ quite
+ well
+:
+ the
+ US
+ Treasury
+
+
+ Secretary
+ keeps
+ saying
+ the
+ US
+ economy
+
+
+ needs
+ to
+ hit
+ 3
+%
+growth
+,
+ and
+ money
+ spent
+
+
+ on
+ AI
+ infrastructure
+ counts
+ toward
+ that
+
+
+ year's
+ GDP
+.
+ Research
+ from
+ the
+ Federal
+
+
+ Reserve
+ also
+ indicates
+ that
+ from
+ 2025
+
+
+ to
+ the
+ first
+ quarter
+ of
+ this
+ year
+,
+ AI
+
+
+ infrastructure
+ has
+ made
+ a
+ significant
+
+
+ contribution
+ to
+ US
+ economic
+ growth
+.
+ The
+
+
+ problem
+ is
+,
+ while
+ the
+ borrowed
+ money
+
+
+ spent
+ counts
+ as
+ GDP
+,
+ the
+ debt
+ is
+ still
+
+
+ there
+;
+ so
+ once
+ this
+ spending
+ spree
+ ends
+
+
+,
+ what
+ will
+ actually
+ be
+ left
+ in
+ our
+
+
+ hands
+?
+ The
+ railroad
+ era
+ left
+ behind
+
+
+ tracks
+,
+ but
+ this
+ round
+ might
+ leave
+
+
+ behind
+ a
+ graveyard
+ of
+ chips
+;
+ to
+ the
+ two
+
+
+ podcast
+ hosts
+,
+ if
+ this
+ AI
+
+
+ infrastructure
+ bubble
+ bursts
+,
+ it
+ would
+
+
+ be
+ far
+ worse
+ than
+ the
+ 2008
+ financial
+
+
+ crisis
+.
+ However
+,
+ in
+ the
+ professor's
+
+
+ view
+,
+ it
+ is
+ still
+ too
+ early
+ to
+ conclude
+
+
+ that
+ AI
+ poses
+ a
+ systemic
+ risk
+.
+ These
+
+
+ problems
+ do
+ not
+ mean
+ that
+ a
+ crisis
+ is
+
+
+ imminent
+.
+ If
+ demand
+ remains
+ strong
+,
+
+
+ data
+ centers
+ stay
+ full
+,
+ and
+ models
+
+
+ continue
+ to
+ improve
+,
+ this
+
+
+ infrastructure
+ investment
+ could
+ very
+
+
+ well
+ hold
+ up
+.
+ What
+ he
+ is
+ truly
+
+
+ concerned
+ about
+ is
+ under
+ what
+
+
+ conditions
+ the
+ defaults
+ of
+ one
+ project
+
+
+ could
+ cascade
+ and
+ spread
+ throughout
+ the
+
+
+ entire
+ financial
+ system
+.
+ At
+ the
+ end
+ of
+
+
+ the
+ paper
+,
+ the
+ professor
+ lists
+ a
+ new
+
+
+ piece
+ he
+ and
+ his
+ collaborators
+ are
+
+
+ publishing
+ this
+ November
+,
+ titled
+ "
+The
+
+
+ Cloud
+ of
+ Credit
+.
+"
+ What
+ he
+ intends
+ to
+
+
+ map
+ out
+ is
+ this
+ invisible
+ web
+:
+ who
+ is
+
+
+ actually
+ putting
+ up
+ the
+ money
+?
+ And
+ who
+
+
+ is
+ ultimately
+ bearing
+ the
+ risk
+?
+ Once
+ it
+
+
+ comes
+ out
+,
+ we
+ can
+ settle
+ these
+ accounts
+
+
+ to
+ see
+ which
+ companies
+ are
+ truly
+
+
+ bearing
+ the
+ credit
+ risk
+ in
+ this
+ current
+
+
+ wave
+ of
+ AI
+ infrastructure
+ expansion
+.
+
+
+ The
+ professor
+ has
+ never
+ doubted
+ that
+ AI
+
+
+ will
+ change
+ the
+ world
+,
+ but
+
+
+ life-changing
+ technology
+ and
+ profitable
+
+
+ investments
+ are
+ never
+ the
+ same
+ thing
+.
+
+
+ Railroads
+ changed
+ America
+,
+ but
+ many
+
+
+ railroad
+ shareholders
+ and
+ creditors
+
+
+ lost
+ their
+ shirts
+ in
+ the
+ process
+.
+ So
+,
+
+
+ the
+ real
+ question
+ the
+ professor
+ wants
+
+
+ to
+ ask
+ is
+:
+ when
+ the
+ bill
+ finally
+ comes
+
+
+ due
+,
+ who
+ will
+ be
+ left
+ holding
+ the
+ bag
+?
+
+
+ The
+ core
+ issue
+ discussed
+ in
+ the
+
+
+ professor's
+ paper
+ is
+ that
+ the
+ assets
+
+
+ only
+ have
+ a
+ six-year
+ shelf
+ life
+,
+ yet
+
+
+ the
+ debt
+ must
+ be
+ repaid
+ over
+
+
+ twenty-four
+ years
+;
+ buildings
+ remain
+,
+
+
+ chips
+ become
+ obsolete
+,
+ but
+ the
+ bills
+
+
+ must
+...
+eventually
+...
+be
+ paid
+.
