@@ -1,0 +1,361 @@
+[Speaker 1]:  cool。
+[Speaker 1]:  um thank you all for joining this morning。
+[Speaker 1]:  um i know it's been an exciting week。
+[Speaker 1]:  a lot of talk about agents，
+[Speaker 1]:  building agents，
+[Speaker 1]:  coding agencies，
+[Speaker 1]:  everything um and what i want to talk is in the next fifty twenty minutes is，
+[Speaker 1]:  and about builning agents in production um and things that is come up on the top of pretty much everybodymind when it comes to building agents and dunning agencies，
+[Speaker 1]:  you know，
+[Speaker 1]:  harnesses 嗯，
+[Speaker 1]:  before i get started，
+[Speaker 1]:  like i would like to ask in the audience，
+[Speaker 1]:  right？
+[Speaker 1]:  how many of her many of you are running agencin production today，
+[Speaker 1]:  awesome。
+[Speaker 1]:  so a lot of hands up。
+[Speaker 1]:  i was in another conference couple of weeks ago，
+[Speaker 1]:  and i asked the same question。
+[Speaker 1]:  i think i had like one hand。
+[Speaker 1]:  so this is pretty good。
+[Speaker 1]:  it seems like you know things are going forward，
+[Speaker 1]:  all right。
+[Speaker 1]:  so when we think about agents，
+[Speaker 1]:  right，
+[Speaker 1]:  like，
+[Speaker 1]:  if if go back to kind of the helhello world equivalent examples of agents，
+[Speaker 1]:  um it always starts with the noan，
+[Speaker 1]:  an agent with a tool call and how well eleam can of decides to call the tool may be use some sort of context or a memory and and plants things ahead，
+[Speaker 1]:  right？
+[Speaker 1]:  what what we start to kind of realize is，
+[Speaker 1]:  you know，
+[Speaker 1]:  that's a very small narrowed picture。
+[Speaker 1]:  if you think about it，
+[Speaker 1]:  when you think about agents in production，
+[Speaker 1]:  it's not just about chat boboats。
+[Speaker 1]:  the early examples that we had seen。
+[Speaker 1]:  we are all about like，
+[Speaker 1]:  no，
+[Speaker 1]:  hey，
+[Speaker 1]:  we are going to build a customer service chaandboard or some sort of chaandboard。
+[Speaker 1]:  um but when we start thinking about agency in brobronterterterms and ture ture um about about ackground agents，
+[Speaker 1]:  uh，
+[Speaker 1]:  background，
+[Speaker 1]:  workers，
+[Speaker 1]:  agents that are running on schedule。
+[Speaker 1]:  um i would like to have an agent that runs every hour to check um what's happening with my schedule。
+[Speaker 1]:  and if there is something new that has popped up that i should think about even to dribven agents，
+[Speaker 1]:  right agents that are listening on various events um to give you an example，
+[Speaker 1]:  i have a production system running where my alerts are fighting every momand，
+[Speaker 1]:  then i have a logs coming hotel。
+[Speaker 1]:  II would like my agents to listen to those events and react on it and see what's going on there。
+[Speaker 1]:  right？
+[Speaker 1]:  um i could have long running coordinators。
+[Speaker 1]:  and what i mean by that is，
+[Speaker 1]:  i have an agent running for a onger period of time。
+[Speaker 1]:  i would like to have an agent monitoring that agent to see，
+[Speaker 1]:  hey，
+[Speaker 1]:  what's going on there and should i much that agent too kind of move forward，
+[Speaker 1]:  take a different action and things like that，
+[Speaker 1]:  right？
+[Speaker 1]:  also，
+[Speaker 1]:  one more thing is about multi agent systems，
+[Speaker 1]:  right agents talking to other agents。
+[Speaker 1]:  the last thing you want is to have an agent be responsible for multiple things and risk hallucinations。
+[Speaker 1]:  so more do we think about agent right？
+[Speaker 1]:  the way i would like to think about is the agent starts to feel more like an application，
+[Speaker 1]:  not just a component right？
+[Speaker 1]:  um if you go back to the old school thought of microservices，
+[Speaker 1]:  when we and probably we are still building microservices，
+[Speaker 1]:  right？
+[Speaker 1]:  um you are not going to ship a microservice in production that does everything right？
+[Speaker 1]:  it kind of stops being a microo service at that point in time。
+[Speaker 1]:  um typically，
+[Speaker 1]:  we are shipping multiple microservices。
+[Speaker 1]:  they are talking to each other through curography or ortistration。
+[Speaker 1]:  and you have an application that is relying on that the set of micro services，
+[Speaker 1]:  which essentially are a single responsibility principles to kind dedeliver the schools。
+[Speaker 1]:  there is kind of a very clear parel l that，
+[Speaker 1]:  that it comes to agagent harnesses，
+[Speaker 1]:  right？
+[Speaker 1]:  if you think about a harness that is responsible for achieving a specific goal，
+[Speaker 1]:  so let's say，
+[Speaker 1]:  i have in a harness for doing my assaari work。
+[Speaker 1]:  it's operating on multiple agents to see what's going on there，
+[Speaker 1]:  right？
+[Speaker 1]:  maybe it's listening on events coming from my longing system talking to my cobontist luter as an agent to find out you know，
+[Speaker 1]:  what's going on there？
+[Speaker 1]:  um my metric systems，
+[Speaker 1]:  my customer service，
+[Speaker 1]:  dashboards and and so one and so forth。
+[Speaker 1]:  and what i want to drive there is that if you think about it right，
+[Speaker 1]:  your harness is the application。
+[Speaker 1]:  and vicyle words are right，
+[Speaker 1]:  and agent alone doesn't kind of delivered the whole premise。
+[Speaker 1]:  but rather when you start putting things together and you build an harness that controls the execution of the agent delivers on the premise。
+[Speaker 1]:  that's where you start thinabout um an application，
+[Speaker 1]:  right？
+[Speaker 1]:  and which is you have systems，
+[Speaker 1]:  which i knew dynabases your internal systems，
+[Speaker 1]:  enterprise systems，
+[Speaker 1]:  you have humans humaning the loop you have tools through either api or mcp。
+[Speaker 1]:  that is all kind of playing together um and as i mentioned，
+[Speaker 1]:  right，
+[Speaker 1]:  harness runs more than just an agent look。
+[Speaker 1]:  and this is an important thing that i kind of learn while trying to build harnesses for real world production use cases and a combination of both determinministic and non determinispart of on application。
+[Speaker 1]:  right？
+[Speaker 1]:  non determinisism is delivered by an alem in terms of reasoning in terms of thinking process。
+[Speaker 1]:  um and then there is ndeterministic and is a deteristic part right which you do not want not on determinalism sitting into it。
+[Speaker 1]:  i think about payments um or let's say if i have an agent harness that is responsible for monitoring my production deployment，
+[Speaker 1]:  how i manage my cobonarist clusters。
+[Speaker 1]:  i probably want to have a very，
+[Speaker 1]:  very defined buckloo in terms of what other sequence of steps that i execute when i want to restart my cluster。
+[Speaker 1]:  and that's a very deterministic set up processes，
+[Speaker 1]:  which every time it runs，
+[Speaker 1]:  i know exactly what it does。
+[Speaker 1]:  so i want a determinalism to be delivered by my harness。
+[Speaker 1]:  i when it matters。
+[Speaker 1]:  and of course，
+[Speaker 1]:  the hardss is a long running process like it runs across the time，
+[Speaker 1]:  it can run anywhere from few seconds。
+[Speaker 1]:  if it's something very quick，
+[Speaker 1]:  like，
+[Speaker 1]:  hey，
+[Speaker 1]:  check what's going on here to all the way running for days months，
+[Speaker 1]:  even even longer than that。
+[Speaker 1]:  i think about longunning processes，
+[Speaker 1]:  order management systems where you are waiting on third party services to deliver your shipment or awaiting on humans to take actions and approve things and so on。
+[Speaker 1]:  and so for or haris is is waiting，
+[Speaker 1]:  right？
+[Speaker 1]:  it's waiting for events to happen。
+[Speaker 1]:  so when that event happens，
+[Speaker 1]:  you take an action and do something around it。
+[Speaker 1]:  so that brings another important point，
+[Speaker 1]:  right，
+[Speaker 1]:  that when you think about long running systems，
+[Speaker 1]:  you need durability，
+[Speaker 1]:  you want to be able to recover when things fail。
+[Speaker 1]:  because in the end of the day，
+[Speaker 1]:  these harnesses are running somewhere in your entire infrastructure stack，
+[Speaker 1]:  right？
+[Speaker 1]:  maybe in the cloud，
+[Speaker 1]:  maybe on a sandbox，
+[Speaker 1]:  but those things can go up，
+[Speaker 1]:  go down。
+[Speaker 1]:  there could be network failures，
+[Speaker 1]:  partitioning，
+[Speaker 1]:  anything that could be happening。
+[Speaker 1]:  so you need the harmesses to be durable。
+[Speaker 1]:  and one thing about dtermity here is if sutables stathy right at the end of the day，
+[Speaker 1]:  durability is the cost of admission。
+[Speaker 1]:  that's not the feature that you are looking for in a harness。
+[Speaker 1]:  and as i mention right，
+[Speaker 1]:  the loop that the harness runs spans acacross agent and everything else。
+[Speaker 1]:  so now let's think about how the high messes kind of operate，
+[Speaker 1]:  right？
+[Speaker 1]:  if you think about the harness st，
+[Speaker 1]:  right？
+[Speaker 1]:  and a loop essentially，
+[Speaker 1]:  what it is doing it。
+[Speaker 1]:  it has a state of the ball。
+[Speaker 1]:  it knowhat what work has comcompleted what has been recorded in terms of the scieffect right？
+[Speaker 1]:  so like if i did a cluster ststart，
+[Speaker 1]:  i know i have that recorded。
+[Speaker 1]:  if i sent an email。
+[Speaker 1]:  i know that has happened。
+[Speaker 1]:  i know what work，
+[Speaker 1]:  what didn't work。
+[Speaker 1]:  and then based on the current state of the world and the goal，
+[Speaker 1]:  i know what needs to happen next fight，
+[Speaker 1]:  and that's where the reasreasoning and alelem es es to the picture。
+[Speaker 1]:  and what really happens here is that if you think about a clear distinction，
+[Speaker 1]:  and this is the most important thing，
+[Speaker 1]:  if if one thing that i would like everyone to take away from here is this life，
+[Speaker 1]:  which is that the responsibility of a non determintic agent is to plan is to plan what should happen next，
+[Speaker 1]:  not really to do things um and then harness is the one who does actually education。
+[Speaker 1]:  and this is important for um various reason site。
+[Speaker 1]:  one being that harness is a dtnomistic piece of code that actually understands what is involved in。
+[Speaker 1]:  i know actually insecreting a piece of work。
+[Speaker 1]:  so as i mentioned，
+[Speaker 1]:  right，
+[Speaker 1]:  if i am trying to um when the harness that runs my devbs or assaari agents，
+[Speaker 1]:  when the agent says，
+[Speaker 1]:  ehey，
+[Speaker 1]:  this cluster is unhealthy，
+[Speaker 1]:  and you should restart harnets should decide how to restart the cluster。
+[Speaker 1]:  what involves in the stuarying cluster。
+[Speaker 1]:  and that has to be at least in my world has to be very deteromistics。
+[Speaker 1]:  and our process is right so that every plus isarary exactly saying there's no other um category there right um also if it needs to have an approval，
+[Speaker 1]:  for example，
+[Speaker 1]:  if i'm trying to restart a production cluster，
+[Speaker 1]:  i probably want to have a human gate，
+[Speaker 1]:  probably send a slack message to somebody body。
+[Speaker 1]:  you say，
+[Speaker 1]:  hey，
+[Speaker 1]:  i'm ry to start discluster。
+[Speaker 1]:  do you think it's okay？
+[Speaker 1]:  do that，
+[Speaker 1]:  that or not right？
+[Speaker 1]:  and i do not want this to be left to a illustintion by an LM that you know，
+[Speaker 1]:  it doesn't need to do it。
+[Speaker 1]:  it needs to be guaranteed in terms of execution。
+[Speaker 1]:  so it has to be very deterministic where it comes to those kind of things。
+[Speaker 1]:  ideally，
+[Speaker 1]:  i want this to be idon't ortant。
+[Speaker 1]:  and if not，
+[Speaker 1]:  i want it to be recording that you know it is not。
+[Speaker 1]:  i don't ortant，
+[Speaker 1]:  and this is what has happened。
+[Speaker 1]:  so i can get take care of the side effects or i can handle the side effects are separately right？
+[Speaker 1]:  um。
+[Speaker 1]:  so this is the most important thing，
+[Speaker 1]:  right？
+[Speaker 1]:  the clear separation between，
+[Speaker 1]:  as we would like to call right the brains。
+[Speaker 1]:  and the hands harness is the hands，
+[Speaker 1]:  the brain is the alem。
+[Speaker 1]:  so yeah，
+[Speaker 1]:  if the agent crirites the plan，
+[Speaker 1]:  harharness executes the plan，
+[Speaker 1]:  and i'll show you a bribrief short demo in terms of how all of these things kind of meashes together。
+[Speaker 1]:  but is this a new concept？
+[Speaker 1]:  like if you think about it？
+[Speaker 1]:  this is not necessarily a new concept。
+[Speaker 1]:  this has been around for a wide，
+[Speaker 1]:  right？
+[Speaker 1]:  if you think about worcloseer sagas，
+[Speaker 1]:  which we used to write ourselves and define exactly what happens。
+[Speaker 1]:  it was a very，
+[Speaker 1]:  and it is a very determinmtic exset of processes。
+[Speaker 1]:  when you think about agencc harnesses，
+[Speaker 1]:  they are essentially late bound sagas as and what i mean by that，
+[Speaker 1]:  that that have have very finite and determinisisc set of tools at the task that they can operate on，
+[Speaker 1]:  instead of putting them together a fronend。
+[Speaker 1]:  the agent is kind of proposing and building them at runtime。
+[Speaker 1]:  and therefore，
+[Speaker 1]:  they are essentially laid bounds a gas，
+[Speaker 1]:  right？
+[Speaker 1]:  but you get all the benefits of a traditional saga in a world krow out of the box in terms of visibility，
+[Speaker 1]:  what's happening being able to control things and deterating upon，
+[Speaker 1]:  like can know how far ahead in the future。
+[Speaker 1]:  um the agent is able to plan。
+[Speaker 1]:  you are able to kind of plan one step at a time or multiple steps at a time。
+[Speaker 1]:  and yeah，
+[Speaker 1]:  if you think about it right，
+[Speaker 1]:  it's it's more like a branch ing workloo。
+[Speaker 1]:  if only you could build a workloo with every possible combination of a branch，
+[Speaker 1]:  then you know it kind of builds that thing for you，
+[Speaker 1]:  right？
+[Speaker 1]:  oversays with agents that kind of simplifies the work。
+[Speaker 1]:  um if you have any number of tunes，
+[Speaker 1]:  they can do um any different combinations of executions，
+[Speaker 1]:  which otherwise is，
+[Speaker 1]:  could be almost impossible to，
+[Speaker 1]:  you know，
+[Speaker 1]:  think ahead of time and do it。
+[Speaker 1]:  so let's take a look at it，
+[Speaker 1]:  right？
+[Speaker 1]:  so what i am going to do is allepudity show um a completed run。
+[Speaker 0]: 没有没有没有有有有有有没有没有没有没有 of what i talked about adderly，
+[Speaker 1]:  right？
+[Speaker 1]:  um it is one of my example agent that essentially is acting like a essari agent，
+[Speaker 1]:  right？
+[Speaker 1]:  what its job is to do is understand what's going on in the current system um and try to plan what should happen next and execute on those things。
+[Speaker 1]:  so it's essentially a remediation look that runs ice。
+[Speaker 1]:  uh in the first sitderation。
+[Speaker 1]:  it tries to understand the root cause of the problem，
+[Speaker 1]:  tries to uh react to that，
+[Speaker 1]:  um observes the output of it，
+[Speaker 1]:  and then runs another look and plants。
+[Speaker 1]:  another set up a steps to see what should happen next，
+[Speaker 1]:  right？
+[Speaker 1]:  so as an input to my agent，
+[Speaker 1]:  let's see what was an input given right here。
+[Speaker 1]:  so step number one is，
+[Speaker 1]:  you know，
+[Speaker 1]:  it makes a calall to alem。
+[Speaker 1]:  so as you can see，
+[Speaker 1]:  right like it's an essary agent。
+[Speaker 1]:  of course，
+[Speaker 1]:  it's a demo。
+[Speaker 1]:  so i know everything is kind of preplan and a can demo the output of LM。
+[Speaker 1]:  as you can see，
+[Speaker 1]:  right are the steps what it should do。
+[Speaker 1]:  it's talking about。
+[Speaker 1]:  so as you can see，
+[Speaker 1]:  one more thing，
+[Speaker 1]:  you're right is that instead of just doing one step at a time，
+[Speaker 1]:  essentially，
+[Speaker 1]:  it is proposing a sequence of steps to do。
+[Speaker 1]:  you should gather evidces，
+[Speaker 1]:  you should analyze logs。
+[Speaker 1]:  and if required um based on the evidence that you've gathered，
+[Speaker 1]:  you should rise a roll back on deployment and then very fie a copy。
+[Speaker 1]:  this is then given to um a specialized tool called plan in compile。
+[Speaker 1]:  so this is the plan that agent cave。
+[Speaker 1]:  this gets compiled into a very deterministic buflow。
+[Speaker 1]:  we are relying on a conductor as of a flow exexetion engine here。
+[Speaker 1]:  so the output is a fully reinable worklow。
+[Speaker 1]:  this gets executed。
+[Speaker 1]:  so like you know what i'm going to show you here，
+[Speaker 1]:  how quicickly how how that looks like，
+[Speaker 0]: 我们去，
+[Speaker 0]: 我你你要睡觉吗？
+[Speaker 1]:  so this is the first step of execution，
+[Speaker 1]:  right？
+[Speaker 1]:  if we look at it here，
+[Speaker 1]:  as i said，
+[Speaker 1]:  right，
+[Speaker 1]:  like we did analyze the lauds look at the querity of the metrics，
+[Speaker 1]:  decided to do a role back and verify recovery in everything。
+[Speaker 1]:  so step number，
+[Speaker 1]:  when is completed，
+[Speaker 1]:  it runs another look。
+[Speaker 1]:  so same thing goes here。
+[Speaker 0]: 没有没有有没有没有 in the next sitderation。
+[Speaker 1]:  it decides that okay。
+[Speaker 1]:  looks like，
+[Speaker 1]:  you know，
+[Speaker 1]:  this things have been done。
+[Speaker 1]:  let's check the downstaam。
+[Speaker 1]:  and if required verify the recovery and complete it right and then the next one runs and complished the task。
+[Speaker 1]:  but here is an example of a loop that is，
+[Speaker 1]:  but here is an planning right。
+[Speaker 1]:  so and to show you very clearly what's going on here。
+[Speaker 1]:  here's a look at every step of the way。
+[Speaker 1]:  essentially，
+[Speaker 1]:  it is looking at the current state of the world。
+[Speaker 1]:  so this is my agentic look，
+[Speaker 1]:  that is kind of understanding the world planning and executing um once instead of one step at a time，
+[Speaker 1]:  it is actually planning multiple steps at a time，
+[Speaker 1]:  executing that verifying and completing the 路。
+[Speaker 1]:  um now this can run in production as many times as you want。
+[Speaker 1]:  this can be running on the events。
+[Speaker 1]:  it can be running on a schedule，
+[Speaker 1]:  as i said，
+[Speaker 1]:  right like this。
+[Speaker 1]:  the whole thing could be running for much longer period of time as of us who just running in a short period of time。
+[Speaker 1]:  all right。
+[Speaker 1]:  so that's towards the end of it。
+[Speaker 1]:  um this is kind of um overview of what we just did here。
+[Speaker 1]:  um as you can see，
+[Speaker 1]:  right in the second itertion，
+[Speaker 1]:  we decided not to do a road back because it was worready done in the first itertion。
+[Speaker 1]:  but yeah，
+[Speaker 1]:  that's about uh the harnesses in agents and how they bring determinism to your production appappication。
+[Speaker 1]:  the examample。
+[Speaker 1]:  i showed you runs on conductor。
+[Speaker 1]:  um conductor is an open source uworkloor chestration platform that supports building agentic loops as well as agentic systems。
+[Speaker 1]:  it's fully open source uorcus。
+[Speaker 1]:  we provide enterprise edition，
+[Speaker 1]:  but feel free to try it out，
+[Speaker 1]:  his a car code，
+[Speaker 1]:  keep it to try。
+[Speaker 1]:  um join，
+[Speaker 1]:  i was like，
+[Speaker 1]:  and you know，
+[Speaker 1]:  if you have questions happy to help，
+[Speaker 1]:  we have a boohere at orcus um drop by if you want to see a live demo，
+[Speaker 1]:  um if you want to run your lunching agents or opening eyagents or edecate agents conduct，
+[Speaker 1]:  you can handle all of those things。
+[Speaker 0]:  thank you。
