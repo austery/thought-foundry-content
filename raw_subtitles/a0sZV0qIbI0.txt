@@ -1,0 +1,3332 @@
+[Speaker 0]:  i've described microservices as being an architecture of last resort。
+[Speaker 0]:  really yeah。
+[Speaker 0]:  absolutely。
+[Speaker 0]:  what a lot people get wrong。
+[Speaker 0]:  i think they say a dot microservices，
+[Speaker 0]:  and they thinks of a magic does going to happy。
+[Speaker 1]:  you talk about the three rules of distributor systems。
+[Speaker 1]:  what are these three rules？
+[Speaker 0]:  the third is that you can't send information insentaneously can point eight to point point。
+[Speaker 0]:  the the number two is sometimes that you know，
+[Speaker 0]:  talk to sing there。
+[Speaker 0]:  and the third rule is that resource calls are not infinite。
+[Speaker 0]:  the vast majority of the time that you have a system mountages down to that。
+[Speaker 0]:  some resource has been total sacuaasomesomewhere。
+[Speaker 1]:  what are the things that we know that we do？
+[Speaker 1]:  not？
+[Speaker 1]:  no，
+[Speaker 0]:  i how AII think the tech world in general is quite naive about AI and fundamentally misunderunderstand sam newman as the author，
+[Speaker 1]:  who wrote probably the most widely of book of microservices。
+[Speaker 1]:  and yet，
+[Speaker 1]:  as you heard，
+[Speaker 1]:  he said that micro services are an architecture of a last resort，
+[Speaker 1]:  but why sam mo's in the room when determined microservices was coined？
+[Speaker 1]:  i find it to be one of the most atful enjres on this topic as well as on resilient systems。
+[Speaker 1]:  and his latest book building resolil indistributed systems is out。
+[Speaker 1]:  now today，
+[Speaker 1]:  we cover spex vers cold as a source of truth。
+[Speaker 1]:  and why sam says that production is truth。
+[Speaker 1]:  i depoput into a keys versus fingerprint and why you should avoid，
+[Speaker 1]:  i impput into the keys when possible。
+[Speaker 1]:  the four dimensions of resilience，
+[Speaker 1]:  robustness，
+[Speaker 1]:  rebound，
+[Speaker 1]:  graceful acsensibility and sustained adaptability，
+[Speaker 1]:  cognitive depth and cognitive surrender and sams advice on how to better use AI to avoid these and many more，
+[Speaker 1]:  if you want to understand what it takes the build resiliilisystems from an expert who has been needepen this topic for temple plyears years eeisodous for you。
+[Speaker 1]:  this episode was presented by trouble buffer。
+[Speaker 1]:  the ai retrieve a layer built on object storage。
+[Speaker 1]:  it's fast cheap and extremely scalable and dropped a condition notion，
+[Speaker 1]:  and many others are happy customers。
+[Speaker 1]:  before we start，
+[Speaker 1]:  let me mention entire a season sponsor and a product and team。
+[Speaker 1]:  i am bubulilish on you，
+[Speaker 1]:  probably already。
+[Speaker 1]:  you know，
+[Speaker 1]:  it get hosting has a problem。
+[Speaker 1]:  AI agents。
+[Speaker 1]:  git is increasingly becoming a bottline from modern agent tvy ofofare development ment，
+[Speaker 1]:  angers like europeare，
+[Speaker 1]:  creating more cold with agents with those agents sh more code，
+[Speaker 1]:  and most of us are running parallel agents，
+[Speaker 1]:  which push way more code。
+[Speaker 1]:  github is clearly starting to keep up up and rerekdououtages。
+[Speaker 1]:  so what's sosoluenentiwas was found ounded by gitobs。
+[Speaker 1]:  last seal，
+[Speaker 1]:  thomas dump cup，
+[Speaker 1]:  who，
+[Speaker 1]:  by the way，
+[Speaker 1]:  was a guest on a podcast when he was still a github，
+[Speaker 1]:  and thomas real get hosting for the agendc era from scratch entire was built to be very fast，
+[Speaker 1]:  and to have your repose regionally close to you to duce latency。
+[Speaker 1]:  and this allows her fleets of ages to push in parallel and entire performance is next level。
+[Speaker 1]:  their repple get handle four hundred hundred and eighteen pushes per second，
+[Speaker 1]:  which is up to eighty nine times faster than every competor on the market。
+[Speaker 1]:  when gitub is down，
+[Speaker 1]:  you can silky working and you don't even need to migger it away from github，
+[Speaker 1]:  you just sign to entire and the platform mirrors or repple。
+[Speaker 1]:  and here's anything。
+[Speaker 1]:  have you ever wondered what prom resulted in this specifical being generated？
+[Speaker 1]:  i find that the prompt and conversation with the asient carries more information than the PR itself，
+[Speaker 1]:  often times entire captuals all the proone history，
+[Speaker 1]:  which your agent right inside of the repple easy to check back back。
+[Speaker 1]:  and it's got a pretty innovative UI to show all of this。
+[Speaker 1]:  if you're looking forget hosting that works，
+[Speaker 1]:  even when get up is down head to entire that eeos ash pragmatic insteall，
+[Speaker 1]:  the CLI and mirr a rippo with a click。
+[Speaker 1]:  i've already done it，
+[Speaker 1]:  and i love it it oh，
+[Speaker 1]:  and did i mention that it works with any asian and it's open source。
+[Speaker 1]:  sam is great to have in the podcast。
+[Speaker 0]:  thank you so much from having makes i。
+[Speaker 0]:  i'm happy to be here very happy to be here，
+[Speaker 0]:  big found of the show。
+[Speaker 0]:  as i say，
+[Speaker 0]:  i'm not a lie。
+[Speaker 0]:  i've become a bit of AA millennial，
+[Speaker 0]:  and i think i watch h love shorts rather watching the whole things。
+[Speaker 0]:  now。
+[Speaker 0]:  i'm i'm becoming my son burg。
+[Speaker 1]:  yeah。
+[Speaker 1]:  millonnia 's new booer apparently i learned。
+[Speaker 0]:  and so i was，
+[Speaker 0]:  i was happenough jet wine。
+[Speaker 0]:  now i'm whatever i am now well。
+[Speaker 1]:  so let's go back to the the beginning。
+[Speaker 1]:  you've been known for a lot of your books，
+[Speaker 1]:  your takes on resiliil system microservices before that you worch at thought works，
+[Speaker 1]:  but let's run into the very beginning。
+[Speaker 1]:  how did you get interested in tech in computers？
+[Speaker 0]:  i'm quite fortunate living in UK。
+[Speaker 0]:  we had that places and access to computers。
+[Speaker 0]:  quite early on。
+[Speaker 0]:  we had an accon electra home，
+[Speaker 0]:  which was so of one of the generations of the BBC computers。
+[Speaker 0]:  they came off the BBCB，
+[Speaker 0]:  and then i got a spectrum one，
+[Speaker 0]:  one twenty eight three，
+[Speaker 0]:  which is the spectrum，
+[Speaker 0]:  had the built in tape drive。
+[Speaker 1]:  this is way before the commodors。
+[Speaker 1]:  i is it right？
+[Speaker 0]:  i think some of this was the big。
+[Speaker 0]:  i think i'm pretty sure that the icon electron was precommodor，
+[Speaker 0]:  but the spectrum would have been around the same saso UK was a bit more of spectrum and baby c market，
+[Speaker 0]:  where as the US to commodoors and new taries and things were it bigger。
+[Speaker 0]:  so that sort of got me a bit interested，
+[Speaker 0]:  and then always always stayed interested in it that at the computer，
+[Speaker 0]:  i did the very boring thing i went to unit。
+[Speaker 0]:  i did a software engineering degree，
+[Speaker 0]:  a plactical demand for university，
+[Speaker 0]:  which the running joke in my family is it's the in the top five universities in the lest area。
+[Speaker 0]:  there are only uniververties in lester music。
+[Speaker 0]:  i mean，
+[Speaker 0]:  it was i loved that。
+[Speaker 0]:  i was a great class space in the of in my t sysylalabus。
+[Speaker 0]:  and and i just did the aclaff，
+[Speaker 0]:  as i got a great um back then we did these things，
+[Speaker 0]:  cled uh sandwich courses ah，
+[Speaker 0]:  sandwich course，
+[Speaker 0]:  yeah。
+[Speaker 0]:  and so a basic year idea was you do two years of study，
+[Speaker 0]:  you do a year in industry that was paid，
+[Speaker 0]:  but you effect to be going in as a student。
+[Speaker 0]:  yeah。
+[Speaker 0]:  and then you did you for your final year or nice。
+[Speaker 0]:  this is i actually fantastic because i kind of was drifting a bit。
+[Speaker 0]:  and when i did my yeyear an industry，
+[Speaker 0]:  so many things clicks，
+[Speaker 0]:  it meant as much focus going in。
+[Speaker 0]:  and i got to do work for a company called about the knocl GCGC outstorm that is good outstorm。
+[Speaker 0]:  and we did software eeupepespace agency and gas erinintbbut is yet ridcool。
+[Speaker 0]:  i joined about the first time at that about，
+[Speaker 0]:  and then i went back after and when i went back it，
+[Speaker 0]:  which was around a time，
+[Speaker 0]:  the first dock combooo。
+[Speaker 0]:  and so everybody left。
+[Speaker 0]:  so i went from being the person that was doing like nothing to perperson did everything。
+[Speaker 0]:  but remean my first week，
+[Speaker 0]:  there i was given a four trand seven seven code base。
+[Speaker 0]:  so four transseventy seven was released in the year i bborn and every single full loop had a break condition because we're based doing analysis on these unique machines。
+[Speaker 0]:  and it's if the models and it's this time on the achines es expensive，
+[Speaker 0]:  and we were worried about act until infint loops。
+[Speaker 0]:  this is us to to solve halting problem basbasically。
+[Speaker 0]:  so every four loop across ses，
+[Speaker 0]:  eight thousand files had a break condition of things，
+[Speaker 0]:  nine，
+[Speaker 0]:  nine thousand，
+[Speaker 0]:  nine hundred，
+[Speaker 0]:  nineteen nine loops。
+[Speaker 0]:  and if you went over that，
+[Speaker 0]:  the program basically broken abbolted that the model had got bigger，
+[Speaker 0]:  the computer got more poath worwhat has goes from chains and more by by hand，
+[Speaker 1]:  back then by hand。
+[Speaker 0]:  well，
+[Speaker 0]:  this is one of the noicest things anyone ever done，
+[Speaker 0]:  mean a professional current rick cause four transit，
+[Speaker 0]:  seven，
+[Speaker 0]:  seven based ed on the um ppunch conlilimitations to next steent。
+[Speaker 0]:  so your lines can't go very long。
+[Speaker 0]:  so it's all of it fit。
+[Speaker 0]:  you can't go put at nine and my basset，
+[Speaker 0]:  i recack。
+[Speaker 0]:  i reckit take take back two weeks you did by hand or and he said，
+[Speaker 0]:  a book acacss to me，
+[Speaker 0]:  you can read this，
+[Speaker 0]:  and he said，
+[Speaker 0]:  he awve me a copy of the iri，
+[Speaker 0]:  said an orc book。
+[Speaker 0]:  and so i spent two days learning how to do rigger expressions。
+[Speaker 0]:  and i wrote a refacacturing using regular expression accounting for line links，
+[Speaker 0]:  everything else。
+[Speaker 0]:  and and so i think the closest i've ever come to feeling like a god，
+[Speaker 0]:  i did it。
+[Speaker 0]:  and i thought，
+[Speaker 0]:  that's the thrill。
+[Speaker 1]:  that's the absolute for not sure it's a joke or a stall。
+[Speaker 1]:  but you know，
+[Speaker 1]:  the two，
+[Speaker 1]:  the two um builders you need to build a wall。
+[Speaker 1]:  and and one of them starts to build a wall，
+[Speaker 1]:  one by one by one and the other ones going to drawing making plans。
+[Speaker 1]:  and like i don't know，
+[Speaker 1]:  like take us three days to build the wall。
+[Speaker 1]:  and first two days，
+[Speaker 1]:  the sky was nothing and the builder building，
+[Speaker 1]:  it was really good。
+[Speaker 1]:  and then on day three，
+[Speaker 1]:  this builbuilthere are like built a machine that bills or like like puts get a machine that builds ls all for them。
+[Speaker 0]:  and then but but sometimes sometimes calpossiof all faldown down the moment。
+[Speaker 0]:  you said，
+[Speaker 0]:  you think a thing that i love that，
+[Speaker 0]:  that story，
+[Speaker 0]:  that story was true。
+[Speaker 0]:  ue。
+[Speaker 0]:  it's one of the early times i could remember learning something and having such a vivisual reaction。
+[Speaker 0]:  and i member，
+[Speaker 0]:  this has been just was，
+[Speaker 0]:  and then nothing thought work，
+[Speaker 0]:  sensible graatin。
+[Speaker 0]:  and they've ked tell some stories about like what what happened in presh career。
+[Speaker 0]:  i told this story，
+[Speaker 0]:  i said，
+[Speaker 0]:  i added the night made the models speaker。
+[Speaker 0]:  and then one of the one of the grads said，
+[Speaker 0]:  why didn't you just replace it all the constant？
+[Speaker 0]:  so you you you change number ononin any time in the future was like，
+[Speaker 0]:  that's so i'm learning once again。
+[Speaker 0]:  yeah。
+[Speaker 0]:  so it's i supposed ble。
+[Speaker 0]:  i love it。
+[Speaker 0]:  it's like you，
+[Speaker 0]:  you get humble all the time is industry。
+[Speaker 0]:  you get to learn stuff。
+[Speaker 0]:  yes，
+[Speaker 0]:  as reinventure that we are going on。
+[Speaker 0]:  but you we're inventing better whalels whole time。
+[Speaker 1]:  so and i think it's just nice around us every now that i'm sure everyone who's built cold and programs，
+[Speaker 1]:  like as somebody have the realization that you do feel like a god that you can do things with these things，
+[Speaker 1]:  which is just so difficult to do by hand，
+[Speaker 1]:  right？
+[Speaker 1]:  like there's。
+[Speaker 1]:  i think we forget about that when let's kind a day today，
+[Speaker 1]:  and we're just like doing our stuff or even like right now，
+[Speaker 1]:  we using l ams，
+[Speaker 1]:  which you go also do te incredible magical stuff that would have been impossible。
+[Speaker 1]:  but like it's kind of call that we are in charge。
+[Speaker 1]:  we can do amazing stuff。
+[Speaker 0]:  you get that little phyzy dopamine here。
+[Speaker 0]:  and i think that swe're dropping with a bit now is that people are getting further away from the code that trying to work out like，
+[Speaker 0]:  how do i still get that want to doopen me？
+[Speaker 0]:  yeah，
+[Speaker 0]:  and it's same way。
+[Speaker 0]:  um it's not as much an issue for mikes bit。
+[Speaker 0]:  it ter ter，
+[Speaker 0]:  you know，
+[Speaker 0]:  have been doing someof thirty years now，
+[Speaker 0]:  and i've already been mostly working at the aof of architecture for and so architecture infrastructure for a while。
+[Speaker 0]:  so i feel a little bit more removed，
+[Speaker 0]:  but it's uh，
+[Speaker 0]:  yeah talking to。
+[Speaker 0]:  my sound is a programme is good into it around an interesting time right now，
+[Speaker 1]:  um and then you eventually made your worge to thought works，
+[Speaker 1]:  where you spent a bunch of time，
+[Speaker 1]:  what kinds things did you do at thought works？
+[Speaker 1]:  and what are what are things that you learn？
+[Speaker 0]:  there did anything？
+[Speaker 0]:  i mean，
+[Speaker 0]:  it was i joined when they were probably just under four hundred people left with us about four thousand，
+[Speaker 0]:  and i worked and know gogot to go away away place。
+[Speaker 0]:  i joined it。
+[Speaker 0]:  good time because a lot of the i mean，
+[Speaker 0]:  we were very much an XP shop and nothing that the cooexthing broken yeah。
+[Speaker 0]:  and in the call，
+[Speaker 0]:  the business still kind of primarily is and a speed to people，
+[Speaker 0]:  they，
+[Speaker 0]:  of course，
+[Speaker 1]:  but it exexpelike。
+[Speaker 1]:  what was that inffencby by cancanbcks XP？
+[Speaker 1]:  yeah，
+[Speaker 0]:  that extreme programming is very much。
+[Speaker 0]:  it's it's it's can extreme programming。
+[Speaker 0]:  there was a bit of a london flavor。
+[Speaker 0]:  um so the kind of london school of techgiand development and extreme extreme cheessea clumb XDC around here。
+[Speaker 0]:  so what was the london flavor of of XD sort of like if you wanna know you pretty to regrowing object orange software diided by tests，
+[Speaker 0]:  one of the worst titled books and existence written by a couple of friends of mine，
+[Speaker 0]:  stay stay freement in that price。
+[Speaker 0]:  and i think that was a lot。
+[Speaker 0]:  there's a lot of people in the community around he。
+[Speaker 0]:  they knew that as a rich meets have seen。
+[Speaker 0]:  and so i kind of is good good juice of people through there。
+[Speaker 0]:  and i mean，
+[Speaker 0]:  and i jow，
+[Speaker 0]:  i was same time was offered job by somebody else is a bank。
+[Speaker 0]:  the bank could tell me exactly what i was going to be be ing ing thought works。
+[Speaker 0]:  basically，
+[Speaker 0]:  the recruit to the time is now i of my very good ds ds or my oldest friends。
+[Speaker 0]:  now she said to me of，
+[Speaker 0]:  i don't me know what you be doing。
+[Speaker 0]:  and i like that sounds of the job for me，
+[Speaker 0]:  II it。
+[Speaker 0]:  it's like one。
+[Speaker 0]:  and this is that time when，
+[Speaker 0]:  like，
+[Speaker 0]:  you know，
+[Speaker 0]:  know，
+[Speaker 0]:  we talk continuue integration，
+[Speaker 0]:  but but the tooling wasn't there and talks about TDD and the tooling wasn't there。
+[Speaker 0]:  so it was in if we know it was around that sort time that we started。
+[Speaker 0]:  i ststted building the bill pipeline staff in about two thousand and four，
+[Speaker 0]:  and then i worked day day files was first first telead。
+[Speaker 0]:  uh，
+[Speaker 0]:  what sounds like day fly？
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah。
+[Speaker 0]:  he's my first tecular，
+[Speaker 0]:  though it works。
+[Speaker 0]:  i hight，
+[Speaker 0]:  i was on the people interinterfuge jaz humble to backfield for me a projeject melway。
+[Speaker 0]:  so so you project IOL of all places，
+[Speaker 0]:  and i think we use it back that it looks like，
+[Speaker 0]:  like，
+[Speaker 0]:  like，
+[Speaker 0]:  see，
+[Speaker 0]:  i'm so of the half。
+[Speaker 0]:  is this side me in half every every so II see myself。
+[Speaker 0]:  so we we needed someone to take over my job。
+[Speaker 0]:  and so i leent to you，
+[Speaker 0]:  jazz um and all around，
+[Speaker 0]:  what a love of interesting things were happening。
+[Speaker 0]:  so as fortunate enough to be there，
+[Speaker 0]:  while we were sort of kicking those ideas around。
+[Speaker 0]:  and obviously，
+[Speaker 0]:  people at daviand jazz，
+[Speaker 0]:  those those ideas together really，
+[Speaker 0]:  really well。
+[Speaker 0]:  you was t's surrounded by everyone talking thinking about these ideas。
+[Speaker 0]:  i think you got that i got the idea very early er that this starts all lot for grabs。
+[Speaker 0]:  these things ren't certain stone that we can push。
+[Speaker 1]:  and when you're saying these things like you vention the continuous delivery，
+[Speaker 1]:  you mention，
+[Speaker 0]:  what what put out the chechesed automation，
+[Speaker 0]:  um h ill，
+[Speaker 0]:  ill pipe，
+[Speaker 0]:  my optimization，
+[Speaker 0]:  uh infrastructural automation。
+[Speaker 0]:  i'm ennever to the US in two thousand and seven as she to work in a big，
+[Speaker 0]:  but she worked to google for it a year，
+[Speaker 0]:  even a half four，
+[Speaker 0]:  a thought of employee wow in do right？
+[Speaker 0]:  where is we were doing？
+[Speaker 0]:  we were had ading a project。
+[Speaker 0]:  uh，
+[Speaker 0]:  re's all been told about publicly is a great right up by mike bland all about our experiences。
+[Speaker 0]:  i was may is a few of me，
+[Speaker 0]:  a few，
+[Speaker 0]:  my toorist colleagues，
+[Speaker 0]:  some people from industrial logic and some people from a pivotal，
+[Speaker 0]:  the old pivotal preact preanquis there there。
+[Speaker 1]:  there were no for their really excellence and during culict when it was just brought these company when else。
+[Speaker 0]:  and we were there to teach googlers primarily how to write automated test and how to write code those testiball。
+[Speaker 0]:  and so i got out there，
+[Speaker 0]:  and i'm talking to people out the valanced stuff is ying。
+[Speaker 0]:  and we were going in these enterprise companies to intest automation using stuff like sylennium，
+[Speaker 0]:  and you go round talking to people。
+[Speaker 0]:  and so people didn't II mean conversations of people like yahoo and even a big chance of google who did not think you could do functional automative testing of like websites and stuff。
+[Speaker 1]:  i guess ss cause you just never that it right？
+[Speaker 0]:  yeah，
+[Speaker 0]:  absolutely。
+[Speaker 0]:  it's for me that i hate it。
+[Speaker 0]:  whenever i haven't pushed myself or by found a better way of doing something。
+[Speaker 0]:  and i was lucky enough that early days and thought like that was is the constant turd of ideas and reinvention。
+[Speaker 0]:  i mean，
+[Speaker 0]:  goodness knows how many mocking frameworks and vivional control things old II built two different replacements，
+[Speaker 0]:  accrews control myself right？
+[Speaker 0]:  and so，
+[Speaker 0]:  but like II know know，
+[Speaker 0]:  well，
+[Speaker 0]:  it was that that's how my great inkle DB deploy my friends。
+[Speaker 0]:  niccashley and grand tacky was was like the first dates basue frfrching ing tall，
+[Speaker 0]:  normally source thing succeed，
+[Speaker 0]:  it exist，
+[Speaker 0]:  he needed them。
+[Speaker 0]:  and it was like，
+[Speaker 0]:  if you，
+[Speaker 0]:  if you want to do to do it，
+[Speaker 0]:  that was in mind said。
+[Speaker 0]:  and so i think it was always this idea working at thought works was always i what's next，
+[Speaker 0]:  and i was quite fortunate that because of it was growing so much。
+[Speaker 0]:  it was always things needed to be done，
+[Speaker 0]:  and my devi was knowledge to say，
+[Speaker 0]:  yes to everything。
+[Speaker 0]:  so i got travell all over the world was fantastic。
+[Speaker 0]:  met my wife。
+[Speaker 0]:  they thought works。
+[Speaker 0]:  most of my best friends will come from thought works now still al to day。
+[Speaker 0]:  so although has not been there for a long time，
+[Speaker 0]:  it was kind of very formative。
+[Speaker 0]:  i think in terms of，
+[Speaker 1]:  and it is really interesting because laff works has uh alone of my pipeline。
+[Speaker 1]:  people who used to work there who are now really well known the industry for their ideas for for thing differently。
+[Speaker 1]:  some some of the educate people，
+[Speaker 1]:  others uh have created businesses to to build software in better ways in certain dimensions。
+[Speaker 1]:  and it's just interesting because like usually，
+[Speaker 1]:  i wouldn't think of how i'll just like put it the box。
+[Speaker 1]:  i you know，
+[Speaker 1]:  yeet product companies，
+[Speaker 1]:  like like google，
+[Speaker 1]:  like meet a like they have their builder on products and and you have like different tears of these companies，
+[Speaker 1]:  some can afford the best people。
+[Speaker 1]:  and they have an next ontimes you in culture。
+[Speaker 1]:  and google was known for this matters to smix stand。
+[Speaker 1]:  and there some companies，
+[Speaker 1]:  maybe who are like law untier，
+[Speaker 1]:  and then you have the social consultanes，
+[Speaker 1]:  who are you know，
+[Speaker 1]:  they don't built their own suffer。
+[Speaker 1]:  they no do too much a bit。
+[Speaker 1]:  they come in and they help companies build，
+[Speaker 1]:  or you have a problem。
+[Speaker 1]:  you hire a group of experts。
+[Speaker 1]:  and thoughtwork technically is in this group。
+[Speaker 1]:  and usually，
+[Speaker 1]:  you would not think that there's too much innovation going on in these places，
+[Speaker 1]:  but without thouthoughorks proves to me，
+[Speaker 1]:  yourself and other people，
+[Speaker 1]:  actually，
+[Speaker 1]:  you can have like when you are the best in what you do globally，
+[Speaker 1]:  conactually have a lot of innovation that happening。
+[Speaker 1]:  there is all right。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i was innovation with the difference set of constraints。
+[Speaker 0]:  i mean，
+[Speaker 0]:  always say there about that，
+[Speaker 0]:  many people have come ing the thoutwworks that were really great startop product people。
+[Speaker 0]:  i mean，
+[Speaker 0]:  a lot of you know，
+[Speaker 0]:  a lot thouthough work make make x scale up。
+[Speaker 0]:  people want to you all together，
+[Speaker 0]:  actually very few real entrepreneurs。
+[Speaker 0]:  it came out the thought expressure II know a few of them，
+[Speaker 0]:  don't many of them。
+[Speaker 0]:  but i think there was always the opportunity to innovate even within a constrained enterprising roomment so much about working conditions as a consulancy who motiated coaststore delivery at that time。
+[Speaker 0]:  we were doing kind of coastore delivery，
+[Speaker 0]:  but enenablements free delivery，
+[Speaker 0]:  your working conditions are often based on what the client does uh and unless shall 're explicitly to change how the climb built software。
+[Speaker 0]:  so what you work，
+[Speaker 0]:  what you got，
+[Speaker 0]:  but that was self petrating because we were already uus as of challenging and pushing in til and doing new things。
+[Speaker 0]:  that's irit it ried on on。
+[Speaker 0]:  and so i think we grew quite aggressively，
+[Speaker 0]:  but that aggressively it's rotating people through with that spirit。
+[Speaker 0]:  can i carried on？
+[Speaker 0]:  i mean，
+[Speaker 0]:  that we had to start most engagements with convincing people。
+[Speaker 0]:  why testing was a good a why why pairing was a good idea？
+[Speaker 0]:  let alone TD day。
+[Speaker 0]:  yeah，
+[Speaker 1]:  i imagine how the conversation went like a manter or going like，
+[Speaker 1]:  well，
+[Speaker 1]:  what would you you ir than II have？
+[Speaker 1]:  i know lilike eight engineers。
+[Speaker 1]:  now you're making it for which sounds like a terrible thing to do，
+[Speaker 0]:  which，
+[Speaker 0]:  and this is mean，
+[Speaker 0]:  i good fortune，
+[Speaker 0]:  cause it cause the people could the work it though。
+[Speaker 0]:  II got that martin far ququite。
+[Speaker 0]:  well，
+[Speaker 0]:  you know，
+[Speaker 0]:  he supported me，
+[Speaker 0]:  lolot me，
+[Speaker 0]:  right？
+[Speaker 0]:  my first book。
+[Speaker 0]:  i still remember when he said，
+[Speaker 0]:  but programm is not typing as if fundamentit made it click for me was was now heaven as conversations to clients。
+[Speaker 0]:  if the client thinks of programming is typing，
+[Speaker 0]:  and that's why they don't want you to pay program，
+[Speaker 0]:  then you've got a fundamental problem。
+[Speaker 0]:  this we deal with，
+[Speaker 0]:  then it's not conversation about heiring。
+[Speaker 0]:  the conversation is，
+[Speaker 0]:  what do the most program actually is well，
+[Speaker 1]:  but let's bring this a libit for because right now，
+[Speaker 1]:  we're having the same conversation，
+[Speaker 1]:  right？
+[Speaker 1]:  right for allong for a lot of ceos，
+[Speaker 1]:  even founders are thinking who have been building tech companies。
+[Speaker 1]:  no，
+[Speaker 1]:  they all look at what what is the most tankons uing part of what we do in building software，
+[Speaker 1]:  fifty percent of the time has history of been been writing cocode。
+[Speaker 1]:  so a lot people people think you don't like programming is code，
+[Speaker 1]:  and alamms are really good at training out code。
+[Speaker 1]:  so what is programming？
+[Speaker 0]:  okay？
+[Speaker 0]:  there's h is programming。
+[Speaker 0]:  i think think pepannor's article the guy who can of box's nornorform the guw in boarks nornorform。
+[Speaker 0]:  he right the paper years ago，
+[Speaker 0]:  he was ite chewing a old form，
+[Speaker 0]:  and he sought describes，
+[Speaker 0]:  but is the program。
+[Speaker 0]:  m is being a theory that lives in the mof，
+[Speaker 0]:  the developers，
+[Speaker 0]:  that is actually us together working together collectively，
+[Speaker 0]:  who builds a program。
+[Speaker 0]:  the fact that we happen to make that program work through code。
+[Speaker 0]:  the code is really a side effects of how we work together。
+[Speaker 0]:  and i think product development is just that extended，
+[Speaker 0]:  right。
+[Speaker 0]:  what we are building is collectively，
+[Speaker 0]:  we are building a system together，
+[Speaker 0]:  and the code is one of the mechanisms we used to deliver。
+[Speaker 0]:  the system is not the only thing。
+[Speaker 0]:  so i think polistically，
+[Speaker 0]:  that's what it's all about is is that we focus on the code because that's historically being what we sort spend the time。
+[Speaker 0]:  but i think this is also a classic theory of constraints stuff，
+[Speaker 0]:  though，
+[Speaker 0]:  right？
+[Speaker 0]:  if you speed one back up，
+[Speaker 0]:  you get constraints elsewhere and it exposes a friction point elsewhere。
+[Speaker 0]:  i would also argue that a lot the time the coding was not the problem，
+[Speaker 0]:  not the bottleneck cuwas how the coding was done，
+[Speaker 0]:  deleay feebacks cycles and things。
+[Speaker 0]:  but i do come back that peace and all piece again，
+[Speaker 0]:  because it's like mother and story referencto reason in her payfrom calitlar to debt。
+[Speaker 0]:  it's like building ding software is a collective。
+[Speaker 0]:  it's a collective endeavor is people working together who build software uh can put it in his ty first book that software design and isn't exercise ing human relationships，
+[Speaker 0]:  right？
+[Speaker 0]:  AI doesn't change that。
+[Speaker 0]:  and i think always really happened over，
+[Speaker 0]:  say the last fifteen years。
+[Speaker 0]:  and my experience is that we've got a bit better underststding that we need better working relationtionps。
+[Speaker 0]:  ps people people are products hoes is，
+[Speaker 0]:  for example，
+[Speaker 0]:  but that's what the problem。
+[Speaker 0]:  the programming is of creating is the collective of operating software，
+[Speaker 0]:  and not just developers to do that never has been。
+[Speaker 1]:  and so after thouthought works，
+[Speaker 1]:  you've you've gone independent，
+[Speaker 0]:  right？
+[Speaker 0]:  i did three startups ps them work to have for different reasons to don't ask me for advice and house。
+[Speaker 0]:  my successor starts up um and then i went independent。
+[Speaker 0]:  yeah，
+[Speaker 0]:  move back。
+[Speaker 0]:  i was living austraight the time and move back for australia。
+[Speaker 0]:  and yeah，
+[Speaker 0]:  been independent ever since so doing kind of a mixed stuff fit ever since i written the first book of marmarer services，
+[Speaker 0]:  i think we might spare time。
+[Speaker 0]:  it though works。
+[Speaker 0]:  and then uh，
+[Speaker 0]:  that book came out。
+[Speaker 0]:  and i've been thought a long time i realized the，
+[Speaker 0]:  as was a dabbebecomininstitualized。
+[Speaker 0]:  you get to a point with a companyies。
+[Speaker 0]:  i think these things is companies do to change。
+[Speaker 0]:  and i've tried changing those things，
+[Speaker 0]:  and they don't want me to change them。
+[Speaker 0]:  so either i'm bad to changing them，
+[Speaker 0]:  please probly true，
+[Speaker 0]:  or they don't think it need be change。
+[Speaker 0]:  change is also probably true，
+[Speaker 0]:  is like i could hang around and get bitter when i just go now。
+[Speaker 0]:  i was going now。
+[Speaker 0]:  so i would have i thought i an independent。
+[Speaker 0]:  it's been really interesting if a since because it's so on one level，
+[Speaker 0]:  the shackles are off um the problem of working for yourself，
+[Speaker 0]:  though，
+[Speaker 0]:  that the boss is frequently in our hol。
+[Speaker 0]:  so yeah，
+[Speaker 0]:  current sam frequently is causing past sam for the commitment seats made。
+[Speaker 1]:  ah h that's onthan than i ss。
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah。
+[Speaker 0]:  yeah。
+[Speaker 0]:  yeah。
+[Speaker 0]:  yeah。
+[Speaker 0]:  i mean，
+[Speaker 0]:  as i say，
+[Speaker 0]:  i'm i'm almost fifty，
+[Speaker 0]:  i am still not learning the lessons that right。
+[Speaker 0]:  and i yeah made those mistakes enough，
+[Speaker 0]:  yes now。
+[Speaker 1]:  so i want to suppck about microservices。
+[Speaker 1]:  um you you have risen the book building microservices uh in in twenty fifteen，
+[Speaker 1]:  you start to write in twenty fourteen。
+[Speaker 1]:  and as reference uber start to talk about how they have thousands of microservices in twenty fifteen。
+[Speaker 1]:  so you were kind of writing this book，
+[Speaker 1]:  right as the concept of microservices was starting to go mainstream across startups。
+[Speaker 1]:  do you member how and when microservices ices took off？
+[Speaker 1]:  and where was it even coined？
+[Speaker 1]:  what was it marmarn fwler jjames lwis。
+[Speaker 0]:  so it was going back in the day。
+[Speaker 0]:  i so you got to remember again，
+[Speaker 0]:  it's like something in the water。
+[Speaker 0]:  let me have a bushfire。
+[Speaker 0]:  there was not built up before the bushfire kicked off，
+[Speaker 0]:  and uh say this would be twenty eleven to twenty twelve。
+[Speaker 0]:  james was not talking to a bunch of uh，
+[Speaker 0]:  different companies who were building what would have clsed back that as service servanted，
+[Speaker 0]:  architecres？
+[Speaker 0]:  and early that been this common of we refer to with the greillar SOA movement，
+[Speaker 0]:  which is altrying to simplify service or to architecture。
+[Speaker 0]:  you know，
+[Speaker 0]:  shift，
+[Speaker 0]:  they was arrest wehave done by people like，
+[Speaker 1]:  yeah，
+[Speaker 1]:  that's the original service around is our archestra hahad like this。
+[Speaker 0]:  this examell format was asoh whistle and simple object access protocol never is words，
+[Speaker 0]:  simple people as well you。
+[Speaker 0]:  so so so yeah，
+[Speaker 0]:  so so yeah。
+[Speaker 0]:  yes，
+[Speaker 1]:  there。
+[Speaker 1]:  it's simple。
+[Speaker 0]:  and it's comcomsimple exactly yet this whole heavy weight and then people in in weather。
+[Speaker 0]:  and um as a in robincident jye，
+[Speaker 0]:  an weather had like been pushing centralized managers like make the m point smare of the pipes dumb to keep singsisimple put smart neso。
+[Speaker 0]:  this is all background。
+[Speaker 0]:  we were also is timing。
+[Speaker 0]:  a lot of work around light。
+[Speaker 0]:  i was running to continually live proaces for europe at the time。
+[Speaker 0]:  and so a lot of engagements were like optimizing the final mile。
+[Speaker 0]:  so you've written the code。
+[Speaker 0]:  and so how do i get it here into production as quickly effectively as possible？
+[Speaker 0]:  so basic taking the ideas that continues delivery？
+[Speaker 0]:  so i was around when jazz day side worklows in two thousand and six，
+[Speaker 0]:  but i'd had the conversations with them that was will happening。
+[Speaker 0]:  james are talking to companies that were creating services one ted architecres，
+[Speaker 0]:  where they could replace the services quite quickly as a basic。
+[Speaker 0]:  you'd look at it instets of final grained form of vesses。
+[Speaker 0]:  that was all helening。
+[Speaker 0]:  so james，
+[Speaker 0]:  when we had this architecal symppoum up in the lake district and janes 's itch society，
+[Speaker 0]:  who's calcalall the microve apps of the time in this room and somebody else in the room，
+[Speaker 0]:  said my them。
+[Speaker 0]:  one x services don't body who said it does we about television in the room。
+[Speaker 0]:  most of us were hungover and in janes，
+[Speaker 0]:  and in say，
+[Speaker 0]:  janes and martin write the first post。
+[Speaker 0]:  so the first paper martin's website was written by you。
+[Speaker 0]:  so jjames is original，
+[Speaker 0]:  kind disdiscovery of patatent the equal mark services。
+[Speaker 0]:  at the same time，
+[Speaker 0]:  i was ting a lot stuff and of structure，
+[Speaker 0]:  automation。
+[Speaker 0]:  and so i was coming in it from a different lens。
+[Speaker 0]:  so i think james was coming it more from an architectural lens。
+[Speaker 0]:  and i was coming into it from a continuous liviy lenbut。
+[Speaker 0]:  i spent at this point，
+[Speaker 0]:  almost ten years would out be my focus。
+[Speaker 0]:  yeah。
+[Speaker 0]:  and then i was starting to see the architectural impediment。
+[Speaker 0]:  so if i want to change things frequently，
+[Speaker 0]:  but the things i want to change your integrate with other things like like，
+[Speaker 1]:  like mol yeyeah will not now that i would describe it exactly right。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i did to talk who desigsigning rapplar release in two thousand twelve，
+[Speaker 0]:  which is so touching it。
+[Speaker 0]:  so the basic jane had this off and put a name to this stuff and put some parents and and i thought and thought panamit，
+[Speaker 0]:  but stuff i was talking about ever here seems these seems came quite sensible，
+[Speaker 0]:  and i always wanted to write a book。
+[Speaker 0]:  i mean，
+[Speaker 0]:  honestly，
+[Speaker 0]:  i wanted to write animal book。
+[Speaker 0]:  i wanted to write a write ally book，
+[Speaker 0]:  because that said，
+[Speaker 0]:  d cbbook，
+[Speaker 0]:  i was in a book。
+[Speaker 0]:  yeah。
+[Speaker 0]:  and so i've just start writing。
+[Speaker 0]:  i always i always found writing quite。
+[Speaker 0]:  i'm quite lucky that i find writing enjoyable and quite easy。
+[Speaker 0]:  so i just yes，
+[Speaker 0]:  sat down or write te bbook，
+[Speaker 0]:  and that it i'm but for me，
+[Speaker 0]:  it was an extension of continuous delivery，
+[Speaker 0]:  and it was a instyle of architecture that was only possible because of continually even because of developps。
+[Speaker 0]:  we'd have these ideas before mean earline，
+[Speaker 0]:  as is isn't representatation these ideas，
+[Speaker 0]:  but making it real practical and attractable thing about about me really fundamentally。
+[Speaker 0]:  it's just the whole things been an exercise and smuggling through um concepts on the nine hundred and seventies，
+[Speaker 0]:  which is is fine by meat，
+[Speaker 0]:  right II get。
+[Speaker 0]:  he was a attention to information highghing and uh coping in codition。
+[Speaker 1]:  that's alright。
+[Speaker 1]:  but then as as you said，
+[Speaker 1]:  like this was usual sparked before the bushfire。
+[Speaker 1]:  and then the bushfire that starts like，
+[Speaker 1]:  suddenly，
+[Speaker 1]:  again，
+[Speaker 1]:  i think uber was a very notial company starting to talk in public about having thousands of microservices on on conference like info q，
+[Speaker 1]:  and i got people's attention。
+[Speaker 1]:  and then it kind of seen that overnight。
+[Speaker 1]:  a lot of stars started to say，
+[Speaker 1]:  like，
+[Speaker 1]:  you know what legisto bicroservservices it was a it rebadgggoing going on。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i was lucky to write the first first book like mh bbchristiinson and failo on through the yalow conference span was and benwas looking at um looking after performance and so reliability at netflix。
+[Speaker 0]:  and i was a new people are a you needed to uuh are AA。
+[Speaker 0]:  we state accome to AU in australia。
+[Speaker 0]:  and these are companies that were very much pushing envelope in different ways。
+[Speaker 0]:  and so i had two very good real。
+[Speaker 0]:  well case，
+[Speaker 0]:  that is a draw upon my my book，
+[Speaker 0]:  but most people weren't talking as publicly around that。
+[Speaker 0]:  and also before nethficks refer to their architecas microservices，
+[Speaker 0]:  they just refer to its fine graand SA way。
+[Speaker 0]:  and to an extent you know，
+[Speaker 0]:  of the month，
+[Speaker 0]:  undings us，
+[Speaker 0]:  what happened to uberer elsewhere。
+[Speaker 0]:  we didn't have a different word for it。
+[Speaker 0]:  then，
+[Speaker 0]:  of course，
+[Speaker 0]:  what happened was that everyone just called their SA architectummrrosypis，
+[Speaker 0]:  which is sort of uh to bty know semantic defusion ous thing i is to be expected it。
+[Speaker 0]:  so i just kept fighting the good fight for light。
+[Speaker 0]:  is it independent deploybility？
+[Speaker 0]:  and you know，
+[Speaker 0]:  isn't，
+[Speaker 0]:  i was positioned it as it's an opinion age to start of best st way。
+[Speaker 0]:  you may not agree with the opinions that's fine。
+[Speaker 0]:  so one else，
+[Speaker 0]:  but and they're also to repeated。
+[Speaker 1]:  so then what is a difference machine microservices and what was it our services。
+[Speaker 1]:  so so enanthe architeccture servantarity，
+[Speaker 1]:  what are the differences i keins in in your very，
+[Speaker 0]:  very nice，
+[Speaker 0]:  not to be clear，
+[Speaker 0]:  if right，
+[Speaker 0]:  i have my definition，
+[Speaker 0]:  you might have your own definition，
+[Speaker 0]:  but on the one to right the books on it。
+[Speaker 0]:  so like my definition，
+[Speaker 0]:  wit，
+[Speaker 0]:  right right your deambook。
+[Speaker 0]:  um i always begined it as it's there are two kind of very strong opinions。
+[Speaker 0]:  i think we hold with microsofices the first，
+[Speaker 0]:  and it's most important。
+[Speaker 0]:  is it your microsoft needs be independently deployable？
+[Speaker 0]:  no。
+[Speaker 0]:  so unit of deployment unit，
+[Speaker 0]:  a change needs be a single market service boundary，
+[Speaker 0]:  single service boundary um and you you rather than undeployed everything together。
+[Speaker 1]:  that's a bly three three service the same time。
+[Speaker 1]:  yeah，
+[Speaker 0]:  minimmum，
+[Speaker 0]:  right？
+[Speaker 0]:  and this is a single service to you say，
+[Speaker 0]:  and the second one，
+[Speaker 0]:  which is which i think there are can be exceptions to be that you can a deffle way for defining your service boundaries is around your business domain。
+[Speaker 0]:  this is taking the concepts of you can't use the management that you have to do rarather a lot SSY architectuwill dominated to extend by technical decomposition to trk transical anti architecres laid architecres，
+[Speaker 0]:  where you've picked yourself decomposition based on the nature attack，
+[Speaker 0]:  rather thinking about the business functionality。
+[Speaker 0]:  that's a bit softer，
+[Speaker 0]:  independent deployability。
+[Speaker 0]:  the main thing，
+[Speaker 0]:  though，
+[Speaker 0]:  okay，
+[Speaker 1]:  well，
+[Speaker 1]:  stand out thinking back at uber。
+[Speaker 1]:  i was at uber at the time when your book was turned to become really popular from。
+[Speaker 1]:  i was there 're from twenty twenty cscene，
+[Speaker 1]:  and we independendently deployable services。
+[Speaker 1]:  we didn't really think too much about the businesses or domain。
+[Speaker 1]:  they had all these there。
+[Speaker 1]:  their interfaces，
+[Speaker 1]:  they have contracts that they offered uh increasingly strongly typed。
+[Speaker 1]:  and we use the better voice to do it。
+[Speaker 1]:  but it was just more like，
+[Speaker 1]:  i mean，
+[Speaker 1]:  as you can imagine，
+[Speaker 1]:  there was just devs often time time of their experience。
+[Speaker 1]:  ceps were 're right？
+[Speaker 1]:  like let's build a new service service re's the interinterace ace here re's。
+[Speaker 1]:  then anyone can use it，
+[Speaker 1]:  uh，
+[Speaker 1]:  which i actually like the there worthese。
+[Speaker 1]:  these were were AAA devior even not not very experience steff before the microservice and and the other start to use it。
+[Speaker 1]:  and suddenly it became new years later。
+[Speaker 1]:  there will be these exercises to figure out with the half path and and label services。
+[Speaker 1]:  and then this like loan service was on the path of like somebody it needed，
+[Speaker 1]:  be rerecasslas a really height your service because how lot of what they were using it。
+[Speaker 0]:  i mean，
+[Speaker 0]:  that it was always，
+[Speaker 0]:  i mean，
+[Speaker 0]:  also nicof some environment so much cheacking people sound clouds similar about that is something。
+[Speaker 0]:  and this is also luck about a corporate culture。
+[Speaker 0]:  i like was accepttable like that kind of envivironment sheggoing ldo stuff。
+[Speaker 1]:  it's absolutely fine and that i think that's that's why uber，
+[Speaker 1]:  for example，
+[Speaker 1]:  went ted。
+[Speaker 1]:  i just talked with toon upon the c to at the time about like what was a real deal about microsverts。
+[Speaker 1]:  and he said，
+[Speaker 1]:  we were like he'd never really wanted that many services，
+[Speaker 1]:  but it was just more of a constraint because uber had a monolith。
+[Speaker 1]:  the sorry was like which he told a pothecast will ll link at a shonnels below that uber had this this big model lith，
+[Speaker 1]:  and it was really slow。
+[Speaker 1]:  it was slowing delivery down，
+[Speaker 1]:  and they needed。
+[Speaker 1]:  they needed to move fast because all the other competitors were out there。
+[Speaker 1]:  so they said，
+[Speaker 1]:  right，
+[Speaker 1]:  like they wanted to get rid of the models in putiticular small services，
+[Speaker 1]:  but they knew unless they had a strong mandate that you cannot add new stuff to have。
+[Speaker 1]:  this will never happen。
+[Speaker 1]:  so he said the mandate was everything new needs to be your own service。
+[Speaker 1]:  you take care it。
+[Speaker 1]:  we don't care。
+[Speaker 1]:  and suddenly so many independent services were born，
+[Speaker 1]:  which was not the goal and years after the fact that when we were decomposed a mooit，
+[Speaker 1]:  they're now looking at maybe sense to emerging based on business，
+[Speaker 1]:  the main eetra。
+[Speaker 1]:  but this story wasn't really told about the time it was just all loolike like urrehas，
+[Speaker 1]:  thousds ds，
+[Speaker 1]:  biker services，
+[Speaker 1]:  almost one or two per engineer，
+[Speaker 1]:  right？
+[Speaker 1]:  and this what the worlds are。
+[Speaker 0]:  i mean，
+[Speaker 0]:  it's also though，
+[Speaker 0]:  but this is the reality of microservices adoption is like it's just a toll er toll box。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i've scriribe microservices as being an architecture of lost resort。
+[Speaker 0]:  really，
+[Speaker 0]:  yeah，
+[Speaker 0]:  absolutely because it pushes you quite naturally to a more aggressive distribution of your of your stay on everything else。
+[Speaker 0]:  and so you have a good reason on of the best reasons to use maricroservices is if what you actually want is an organization with the high degree of autonomy。
+[Speaker 0]:  if what you want is teams who are able to act independently from each other，
+[Speaker 0]:  the marxio's architecture is a fantastic ically good fit。
+[Speaker 0]:  but then really it's a means to an end，
+[Speaker 0]:  right？
+[Speaker 0]:  so that's often a lot lot。
+[Speaker 0]:  people get wrong，
+[Speaker 0]:  i think you say adot microservices。
+[Speaker 0]:  they thinks of a magic does going to happen and know if you want organizaical autonomy，
+[Speaker 0]:  that's what you're working towards。
+[Speaker 0]:  and this is just one of the mechanisms to get you there。
+[Speaker 0]:  and most of enterprise organizations are with the vast majority ones have worked within this space。
+[Speaker 0]:  that's whereafter。
+[Speaker 0]:  they've got huge numbers of developers，
+[Speaker 0]:  lots of middle management。
+[Speaker 0]:  do not get much work done。
+[Speaker 0]:  they are thinking，
+[Speaker 0]:  what did we do？
+[Speaker 0]:  organiztional autonomy becomes。
+[Speaker 0]:  you know，
+[Speaker 0]:  the solution to all problems。
+[Speaker 0]:  again。
+[Speaker 0]:  i don't want to get time to say say when theis a good idea。
+[Speaker 0]:  i don't think that's where mark services can be special useful when they're other exceptions as well。
+[Speaker 0]:  and so the organiztions u。
+[Speaker 0]:  you know，
+[Speaker 0]:  uber IIIIII know netflix as well。
+[Speaker 0]:  things like mamaing exsignment talked about netflix，
+[Speaker 0]:  but the teams are already faadly。
+[Speaker 0]:  well scope around。
+[Speaker 0]:  it was approach already no。
+[Speaker 0]:  and you had those natural high level boundaries around the business dominins。
+[Speaker 0]:  so those things flow naturally。
+[Speaker 0]:  and so that for me，
+[Speaker 0]:  was a logical kind of stepping stone。
+[Speaker 0]:  you also have a difference。
+[Speaker 0]:  so this is i i've rerezzed quiely on when you go and do the work in the dot comes。
+[Speaker 0]:  this is stand prizoranization。
+[Speaker 1]:  when you say dog comes，
+[Speaker 1]:  you mean，
+[Speaker 1]:  the digital companies。
+[Speaker 0]:  yeah yeah，
+[Speaker 0]:  the companies say companies i'm old enough。
+[Speaker 0]:  i do talk about dog comes，
+[Speaker 0]:  but the tech companies，
+[Speaker 0]:  i mean，
+[Speaker 0]:  fundamentally algwith，
+[Speaker 0]:  you know，
+[Speaker 0]:  the make from the the main concept that inccredibly simple。
+[Speaker 0]:  the domains are very，
+[Speaker 0]:  very simple。
+[Speaker 0]:  compared enterprise ororananiztions by large，
+[Speaker 0]:  the mainins。
+[Speaker 0]:  they are much much more complicated because it based on business processes that have existed for ten twenty thirty，
+[Speaker 0]:  forty fifty fifty years。
+[Speaker 0]:  yes。
+[Speaker 1]:  yes。
+[Speaker 1]:  so so what you mean in a lot of of companies of product is pretty matasure re's re's product。
+[Speaker 1]:  here's hepth makes money，
+[Speaker 1]:  and that's kind of it。
+[Speaker 1]:  and we have another product in uber，
+[Speaker 1]:  and that's a uber like a simple thing as there's riits，
+[Speaker 1]:  which it makes money like this。
+[Speaker 1]:  and then there's uber eats，
+[Speaker 1]:  which is a separate business overtime by the way，
+[Speaker 1]:  does get more compleicpbut。
+[Speaker 1]:  but when ststart，
+[Speaker 1]:  it's really，
+[Speaker 1]:  really，
+[Speaker 1]:  really simple ah and it's really separate and it's clear like where one ends for just where the other begins。
+[Speaker 1]:  and then you do some hacks when in these launch uberriies with it quickly，
+[Speaker 1]:  and he built it on the right infrastructure。
+[Speaker 1]:  and the uberberies order has like two trips attached to it because but anyway，
+[Speaker 1]:  but but but as you say like early on，
+[Speaker 1]:  it starts very simple。
+[Speaker 0]:  but then there also you knows environments your business processes and the digital mentation as business processes is evolving together。
+[Speaker 0]:  a lot of enterprise organizations didn't have that mean their first generation of digital products were codifications of paper based processes also also youare talking to these companies as before digital。
+[Speaker 1]:  let's say，
+[Speaker 1]:  and adidst or a less issue company virtue，
+[Speaker 0]:  all banks，
+[Speaker 1]:  viviral，
+[Speaker 1]:  al banand。
+[Speaker 1]:  and now they're like we have all these processes。
+[Speaker 1]:  and now we need to build a software that mmics what we do，
+[Speaker 1]:  which，
+[Speaker 1]:  of course，
+[Speaker 0]:  that's that you start off up in。
+[Speaker 0]:  that's，
+[Speaker 0]:  but the whole imagzine book came at two thousand，
+[Speaker 0]:  and it was a magine zone came at two thousand four，
+[Speaker 0]:  and it was a reflection of the fact the vast majority of software development was the process of us trying to model existing non digital processes。
+[Speaker 0]:  and how you do that。
+[Speaker 1]:  i wonder it if we will have a different or but similar problem of the same thing。
+[Speaker 1]:  now that you know，
+[Speaker 1]:  we know AI tools are here。
+[Speaker 1]:  we know that，
+[Speaker 1]:  for example，
+[Speaker 1]:  the're greaagenererating code，
+[Speaker 1]:  and we have two sebs companies。
+[Speaker 1]:  we have a company，
+[Speaker 1]:  a digital company that has this is prea。
+[Speaker 1]:  i there used to be a writing，
+[Speaker 1]:  protocohehement document，
+[Speaker 1]:  deploying developers，
+[Speaker 1]:  product managers，
+[Speaker 1]:  designer。
+[Speaker 1]:  yeah QA。
+[Speaker 1]:  they all have the roles and it it works like a really well old machine。
+[Speaker 1]:  and now you have these so called AI native startups who just again，
+[Speaker 1]:  they have a few people they're just at from the start。
+[Speaker 1]:  they're using agents for everything。
+[Speaker 1]:  they have a very different postdent at someway。
+[Speaker 1]:  on this whole thing me will mature，
+[Speaker 1]:  and we will have best practices will have the existing companies who，
+[Speaker 1]:  like the previous on，
+[Speaker 1]:  they will try to retrorofch。
+[Speaker 1]:  you know，
+[Speaker 1]:  this，
+[Speaker 1]:  this tlling to how they're working today。
+[Speaker 0]:  it's already happening。
+[Speaker 0]:  i mean，
+[Speaker 0]:  then anything is enterprise companies will really be successful and doing those first genam things。
+[Speaker 0]:  because ultimately the corporate DNA would just crush that stuff from then right？
+[Speaker 0]:  and it'll take a while，
+[Speaker 0]:  but i think the whole industry getting is grrapping with the idea of，
+[Speaker 0]:  like，
+[Speaker 0]:  are we now moving to a new level of abstraction，
+[Speaker 0]:  right？
+[Speaker 0]:  so in socp，
+[Speaker 0]:  as all about abstractions，
+[Speaker 0]:  right is，
+[Speaker 0]:  but you know，
+[Speaker 0]:  we went from doing machine code doing somebody he went from the sebrgital purpose，
+[Speaker 0]:  programing languages。
+[Speaker 0]:  and you coming to idea of the programm being the mental model would evolve that mental model of the code one。
+[Speaker 0]:  if you that was a most effective place was us working at job。
+[Speaker 0]:  you know，
+[Speaker 0]:  java naxi shop whatever is rather than working at assembly level，
+[Speaker 0]:  right？
+[Speaker 0]:  and i okable is actually what we're talking about really，
+[Speaker 0]:  which dipping that level up。
+[Speaker 0]:  we still actually building a product together。
+[Speaker 0]:  we're still thinking about what the software is。
+[Speaker 0]:  we still building that mental model，
+[Speaker 0]:  maybe now more collabortively involving，
+[Speaker 0]:  you know more product people，
+[Speaker 0]:  for example，
+[Speaker 0]:  in that conversation or we writing aspects。
+[Speaker 0]:  and so the question for me is，
+[Speaker 0]:  are we ready to make that step？
+[Speaker 0]:  and the answer is no，
+[Speaker 0]:  not everywhere。
+[Speaker 1]:  this is a really good point because if if you think about it，
+[Speaker 1]:  like you know，
+[Speaker 1]:  like one of the the montrtras inside it facebook gies to you that i think some something along the land，
+[Speaker 1]:  that code is code st truth or something like that。
+[Speaker 1]:  but in generally a lot of tech companies，
+[Speaker 1]:  if you want to know like how things work，
+[Speaker 1]:  like where the true lives is that in documents？
+[Speaker 1]:  or is it in the code business logic？
+[Speaker 1]:  it's in the code in the business logic？
+[Speaker 1]:  and if if it's well maintain code often well comon to are structured，
+[Speaker 1]:  you can i should see the business logic in the rules for，
+[Speaker 1]:  i don't know，
+[Speaker 1]:  for example，
+[Speaker 0]:  say II feel like i've got to channel my friend charity at this point and say，
+[Speaker 0]:  the truooth is production that as thing elis is，
+[Speaker 0]:  is the lies we tell us。
+[Speaker 0]:  our production is truth。
+[Speaker 0]:  um but i think in terms of like a definition of what the system should be doing there。
+[Speaker 0]:  is this ongoing debate about where is that definition？
+[Speaker 0]:  is it the code with the spect brigeto brobroketed，
+[Speaker 0]:  a nice article on martin photos website recently about spectrum development，
+[Speaker 0]:  and she talks about the idea。
+[Speaker 0]:  some companies using uh being spect first or speak ankled。
+[Speaker 0]:  and a lot of it comes down to where they see the source truth being。
+[Speaker 0]:  so a lot of companies using things like kero or speck kit to define a feature，
+[Speaker 0]:  and then at the LM executes that spect，
+[Speaker 0]:  and you could iterate ate on proprocess，
+[Speaker 0]:  right？
+[Speaker 0]:  so so lot，
+[Speaker 0]:  we we always start off the user spect to write the code，
+[Speaker 0]:  and then they throw the back away and then get other companies that keep the speck。
+[Speaker 0]:  and then when the future changes that adopdate speck。
+[Speaker 0]:  and so there's all seeing a bit the code and a bit the spect is a source of truth until of what the system should do。
+[Speaker 0]:  and then you stannow start arting to get companies where they did even even look at the code。
+[Speaker 0]:  and they just look at the spect。
+[Speaker 1]:  no。
+[Speaker 0]:  and so we're kind of going on this spection。
+[Speaker 0]:  and she had some great terms for these。
+[Speaker 0]:  and i think for me，
+[Speaker 0]:  is like，
+[Speaker 0]:  is that the right path i don't know，
+[Speaker 0]:  i think，
+[Speaker 0]:  is a lot of questions about about we we d need to do to to get that。
+[Speaker 0]:  we have a degree of confidence about what happens when i ask you，
+[Speaker 0]:  you lot of javava code beyond the safety of the companer in the run time，
+[Speaker 0]:  you know，
+[Speaker 0]:  will that stuff there's a lot more questions to answer？
+[Speaker 0]:  i think before the whole world is ready to say，
+[Speaker 0]:  the speck is the source of truth of all assim is supposed to do productions always going to be the real tricks。
+[Speaker 0]:  so just to weekly。
+[Speaker 1]:  but but i think，
+[Speaker 1]:  is a good question。
+[Speaker 1]:  so just asked yourself，
+[Speaker 1]:  what how are your building and how we're using agents of where is the truth of your system right now is more？
+[Speaker 1]:  and the code do have a speck。
+[Speaker 1]:  is it scattered between the minds of people，
+[Speaker 1]:  uh，
+[Speaker 1]:  which which goes back to the the collaboration？
+[Speaker 1]:  because again，
+[Speaker 1]:  a lot of the reality of a lot of start tups ar is a few people hold these things in their head，
+[Speaker 1]:  right？
+[Speaker 1]:  right，
+[Speaker 1]:  which is okay，
+[Speaker 1]:  because and beginning，
+[Speaker 1]:  but of course，
+[Speaker 1]:  has you scale one，
+[Speaker 1]:  the reasons we used to love coal review，
+[Speaker 1]:  which is now going out of fashion。
+[Speaker 1]:  but we used to share information。
+[Speaker 1]:  and when someone left the company or or got l，
+[Speaker 1]:  or you know the the famous bus factor，
+[Speaker 1]:  it was okay，
+[Speaker 1]:  because other people people understood because they review，
+[Speaker 1]:  they were taken part。
+[Speaker 1]:  and that part of it。
+[Speaker 1]:  but now where we with but AI code of US，
+[Speaker 1]:  some some companies are like，
+[Speaker 1]:  well，
+[Speaker 1]:  we're not going to do it because of it's it's with too much code。
+[Speaker 0]:  that was wasn't the seseppof of paring right pairing。
+[Speaker 0]:  you wrote，
+[Speaker 0]:  if you do，
+[Speaker 0]:  if you do promisse as parent，
+[Speaker 0]:  you wrote at every day when someone leaves s everyone has got this same shared context。
+[Speaker 0]:  now it's what something people missed around the on the benefits appearing。
+[Speaker 0]:  i think it's a lot to be said around this i'was，
+[Speaker 0]:  trying to chris ford，
+[Speaker 0]:  ty sits of had a software。
+[Speaker 0]:  i had a technology for networks in in spay，
+[Speaker 0]:  and he said，
+[Speaker 0]:  the biggest problem we've got around uh around day。
+[Speaker 0]:  i do dn't software delivery is tactic knowledge。
+[Speaker 0]:  there's a lot of knowledge in our heads that we've built up that we don't necessary know that we have when you use not like a code review，
+[Speaker 0]:  you could be have looks that it。
+[Speaker 0]:  it doesesreally really feel right。
+[Speaker 0]:  i woudn't do it like that。
+[Speaker 0]:  and sometimes it's subjectivity，
+[Speaker 0]:  but sometimes it's something about that。
+[Speaker 0]:  you can't quite pinpoint，
+[Speaker 0]:  maybe you can not on pack it。
+[Speaker 0]:  maybe you can't，
+[Speaker 0]:  but it's also like，
+[Speaker 0]:  do you have bunches of things like that in your head about how software delivery we should be done about how the business works，
+[Speaker 0]:  everything else。
+[Speaker 0]:  if we want to step up that level of abstraction to work at a speck level，
+[Speaker 0]:  we actually need the human beings to be able to unpack about tacet knowledge that we have and make sure it's in the spec。
+[Speaker 0]:  if we really want to be behands off，
+[Speaker 0]:  i also think，
+[Speaker 0]:  is a fundamental problem that we've got in the current whale。
+[Speaker 0]:  all people diexofffered liveries。
+[Speaker 0]:  you've got and miscomes back to call it to dead stuff，
+[Speaker 0]:  which is。
+[Speaker 0]:  you've got a lot of people running off in different directions。
+[Speaker 0]:  i seen a few people talking about pairing with their AI system，
+[Speaker 0]:  not a human stop tetending it is。
+[Speaker 0]:  and so you all going off，
+[Speaker 0]:  you're doing more in a different direction that shared mental model。
+[Speaker 0]:  the program is breaking down，
+[Speaker 0]:  and this gaps betwtween II suppoposed free us from ddury，
+[Speaker 0]:  right？
+[Speaker 0]:  it isn't the most often developed。
+[Speaker 0]:  we bebetween，
+[Speaker 0]:  we we more more tetexwhich。
+[Speaker 0]:  we've losing that big picture。
+[Speaker 0]:  so i think if we can work collectively on the spacks，
+[Speaker 0]:  we can rebuild that model，
+[Speaker 0]:  then that absoit could be the shirts。
+[Speaker 0]:  also the truth。
+[Speaker 0]:  i still things。
+[Speaker 0]:  it's going to be be part。
+[Speaker 0]:  our our brains and part the back right。
+[Speaker 0]:  but for that's a work with，
+[Speaker 0]:  there is does have to be the collaboration peace ce，
+[Speaker 0]:  whether not that our def teams go from being fifteen people all into about five people or six people。
+[Speaker 0]:  and don't know，
+[Speaker 0]:  but collaboration is really important。
+[Speaker 0]:  yeah，
+[Speaker 0]:  trying got a proper company，
+[Speaker 0]:  right？
+[Speaker 0]:  they do proper stuff。
+[Speaker 0]:  they exx and firm。
+[Speaker 0]:  they recently announced though getting with do any human base code reviews，
+[Speaker 0]:  and they said，
+[Speaker 0]:  we can spend more time working on things like if it's tually working king designed doff level。
+[Speaker 0]:  and actually，
+[Speaker 0]:  i'm OK with that。
+[Speaker 0]:  because firstly，
+[Speaker 0]:  i trusted they know what theydoing，
+[Speaker 0]:  but also there's something about。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i think a lot of companies are making mistake of not doing the thinking where it's changed out to saying we're going to spend that time doing more important thinking，
+[Speaker 0]:  right？
+[Speaker 0]:  and i think that's sort of how we should view this。
+[Speaker 0]:  i'm okay。
+[Speaker 0]:  you know，
+[Speaker 0]:  not looking at the code as almost，
+[Speaker 0]:  you're doing other things to make sure the system is operating correctly，
+[Speaker 0]:  and you're thinking critically about how the system needs a change in evolve。
+[Speaker 0]:  if you're just not looking at the code and you not caring about these other things，
+[Speaker 0]:  well，
+[Speaker 0]:  then you deserve everything is gonnen to you，
+[Speaker 1]:  which also goes back globals watcherry was talking about on how you want have systems up，
+[Speaker 1]:  does value that works about having empathy，
+[Speaker 1]:  for example，
+[Speaker 1]:  for the word that QS and and uh SRI folks have had to own code production that they did dn't didn't。
+[Speaker 1]:  they did not write，
+[Speaker 1]:  they donussary read or even understand，
+[Speaker 1]:  but they know how to operate know what good looks like in production。
+[Speaker 1]:  didn't they know what what what it looks like when it goes goes poorly。
+[Speaker 1]:  i mean，
+[Speaker 0]:  that's also a bigger thing that out of more developers are having to struggle with because if you want to expect given development，
+[Speaker 0]:  you have to know good looks like，
+[Speaker 0]:  i didn't。
+[Speaker 0]:  i run these stckes of half eight conferences。
+[Speaker 0]:  for a rightly online。
+[Speaker 0]:  we have even recently on software delivery，
+[Speaker 0]:  a loaded speakers at um and about sick about it at six speakers，
+[Speaker 0]:  and four of them were talking specifically around different different varieties of perspective and development effectively。
+[Speaker 0]:  and all of them back says，
+[Speaker 0]:  you can't do this less，
+[Speaker 0]:  you can define what good looks like。
+[Speaker 0]:  and if you can't don't bother，
+[Speaker 0]:  and you know，
+[Speaker 0]:  some of those people were much more bullish。
+[Speaker 0]:  i addy oththmize very bullish northst stuff。
+[Speaker 0]:  but one of the presenters who was doing，
+[Speaker 0]:  they did。
+[Speaker 0]:  they got like a small software fraction and than three teen or three people，
+[Speaker 0]:  but like they're actively pulling in their observability data，
+[Speaker 0]:  their hotel stuff right into uh into the the region to understand how is changing。
+[Speaker 0]:  i think that's exposing。
+[Speaker 0]:  i think more developers into understanding mait comes back to the the，
+[Speaker 0]:  the cepcepis ry to to stoart people doing stories。
+[Speaker 0]:  so always very，
+[Speaker 0]:  very narrowand，
+[Speaker 0]:  ununctional，
+[Speaker 0]:  requirement stufs。
+[Speaker 0]:  and now it's like，
+[Speaker 0]:  i think we'got to be more grown up about those things。
+[Speaker 0]:  the discipline is absolutely important，
+[Speaker 0]:  and the expertise still needed，
+[Speaker 0]:  just leaded a different place。
+[Speaker 1]:  sam made a really good point that you cannot hand your work over the agents，
+[Speaker 1]:  unless it does these two things。
+[Speaker 1]:  one define what good looks like，
+[Speaker 1]:  two prove that your system does what this good。
+[Speaker 1]:  a definition looks like，
+[Speaker 1]:  you already know who i need to mention what comes to proving that your system works as expected。
+[Speaker 1]:  and this is a procesional sponsor。
+[Speaker 1]:  ages are ready more of the code。
+[Speaker 1]:  so how can we trust that our system worse correctly without bugs code review is increasingly naive and ineffective approach to do so，
+[Speaker 1]:  which is why anththesis goes well be on this practice。
+[Speaker 1]:  anththesis runs your whole system in a hostel simulation。
+[Speaker 1]:  this simulation includes able targeted testing and for testing by running the simulation，
+[Speaker 1]:  it finds every bug before your users you and because the simulation is fully terminminisit，
+[Speaker 1]:  it esn't only find bubugs。
+[Speaker 1]:  it gives you a perfect reproduction of every issue，
+[Speaker 1]:  which makes it a lot easier to fix issues。
+[Speaker 1]:  the first thing i thought when i heard about it，
+[Speaker 1]:  this is is and that is automated bug discovery and followed determines of testing that it sounds like science fiction。
+[Speaker 1]:  but actually，
+[Speaker 1]:  it's heart core engineering。
+[Speaker 1]:  when you look under the hood，
+[Speaker 1]:  je street fly that io and the ec d community ship agent protein code wootful confidence because they know it's been verified by anthessiassts to see more case studies and details had to antithesis the com。
+[Speaker 1]:  sash pragmatic。
+[Speaker 1]:  i don't like like menmensure presenting sponsor trouble pover。
+[Speaker 1]:  we know what a database that's really，
+[Speaker 1]:  really whoalthy and extremely cheap，
+[Speaker 1]:  and they are doing something amazing。
+[Speaker 1]:  they are completely redesigning their storge architecture from from first principles to make church faster，
+[Speaker 1]:  cheaper and more reliable at scale。
+[Speaker 1]:  if you follow turba offer，
+[Speaker 1]:  you know that their storge architecture was a massive part of their early success。
+[Speaker 1]:  redesigning a winning architeccture is a big deal。
+[Speaker 1]:  it's one thing for query plans to pass unit test，
+[Speaker 1]:  which is already happening。
+[Speaker 1]:  it's another to bring each curry plan to performance parparity or better while maintaining correctdness and reliability in production。
+[Speaker 1]:  and the team is sharing the messtery reality of the reite。
+[Speaker 1]:  and how the v three version is currently a lot slower than the current production one。
+[Speaker 1]:  for example，
+[Speaker 1]:  we can see how called full ll tesearch is eleven time slower than prd。
+[Speaker 1]:  d and hot full texers is one hundred and twenty six times sloor。
+[Speaker 1]:  but we can already see some winds like hot and called vector search。
+[Speaker 1]:  is that parody or better？
+[Speaker 1]:  i really appreciate this working progress for you and the real time logs and what it takes to do。
+[Speaker 1]:  successful storage architecture reite ite。
+[Speaker 1]:  the turbo profer team is keeping on the worklog of their journey。
+[Speaker 1]:  and you can follow along a turbo of fer dot comm flash v three，
+[Speaker 1]:  i definitely will do。
+[Speaker 1]:  and with this，
+[Speaker 1]:  let's get back to samon what QA and s ri folks ks already about about ununning de that，
+[Speaker 1]:  that dididn't write II wanto talk you about your latest book that is just coming out building resilience dispute systems。
+[Speaker 0]:  yeah，
+[Speaker 1]:  what is the book about？
+[Speaker 1]:  and what did you feels？
+[Speaker 1]:  this is a good sencer，
+[Speaker 1]:  right it。
+[Speaker 0]:  and years and years years ago，
+[Speaker 0]:  i went to the locity，
+[Speaker 0]:  which is quite a well known conference to conference，
+[Speaker 1]:  is is still II know，
+[Speaker 0]:  is II eready conference，
+[Speaker 0]:  and it was like the conference were a lot。
+[Speaker 0]:  the other dog calm people went to talk about how they made desis or scale of the stuff i got to go。
+[Speaker 0]:  it had been like only of his koreer ambitions to go to ross。
+[Speaker 0]:  i got to go because i，
+[Speaker 0]:  after written up the first book，
+[Speaker 0]:  and i got trying to general sport there here。
+[Speaker 0]:  i still still chat him now in。
+[Speaker 0]:  he now works in the sisident engineering space，
+[Speaker 0]:  pointed me。
+[Speaker 0]:  i think i thought him，
+[Speaker 0]:  i one of someone else，
+[Speaker 0]:  but points me，
+[Speaker 0]:  me，
+[Speaker 0]:  is paper by david words。
+[Speaker 0]:  so was all about residents engineering and the papwas utterly baafterling to me and absolutely nice sento me，
+[Speaker 0]:  but is no。
+[Speaker 0]:  yeah，
+[Speaker 0]:  it's just it's not rent for computer scientists to read。
+[Speaker 0]:  and i'm like even a computer scientists does us really true，
+[Speaker 0]:  but it was really fascinating seeing this whole other world about how we make have how people viewed resiliences。
+[Speaker 0]:  and in what we do in software world and people are joy，
+[Speaker 0]:  which when i take some of those ideas in a little bit，
+[Speaker 0]:  i find it very difficult to take some of those ideas from so of safety critical systems。
+[Speaker 0]:  and that's might of thinking and making any any shashape ful m palatable for normal people like me。
+[Speaker 0]:  and so i kind of misve being back，
+[Speaker 0]:  what twenty two thousand sixteen maybe to ten fifteen。
+[Speaker 0]:  and so i go back and try and reread that paper，
+[Speaker 0]:  every six months or so，
+[Speaker 0]:  i'd read a bit around the agency，
+[Speaker 0]:  other smarter people that memethat summarized it data better。
+[Speaker 0]:  and i was thinking IK these ideas now i'm starting to make sense。
+[Speaker 0]:  and then also，
+[Speaker 0]:  i kind of realize that despite my best efforts，
+[Speaker 0]:  lots of people seem to be building microsoft architecres。
+[Speaker 0]:  even though if you read my books，
+[Speaker 0]:  most，
+[Speaker 0]:  my book is about telling you not to it it。
+[Speaker 1]:  do you have read ad the book，
+[Speaker 1]:  which is microservices？
+[Speaker 0]:  let's be clear as long as they buy the book。
+[Speaker 0]:  that's the most important thing。
+[Speaker 0]:  what i read or not，
+[Speaker 0]:  you know，
+[Speaker 0]:  but and so then i realize that there are more people exposed to the the，
+[Speaker 0]:  the horror payand suffering of a disherbethe system。
+[Speaker 0]:  and so it was like，
+[Speaker 0]:  okay。
+[Speaker 0]:  so i've got this stuff happening。
+[Speaker 0]:  i've got this like my my my sensentive that happen now。
+[Speaker 0]:  and i only thought that if somebody found themselves building a dissipute system，
+[Speaker 0]:  working is part of building a dissiute system。
+[Speaker 0]:  the what was like the the kind of equiquiment ment AA rother ring。
+[Speaker 0]:  i could give them says they are flown down drowwn。
+[Speaker 0]:  and so the goal of the book is to start you off a really easy foundational，
+[Speaker 0]:  simple，
+[Speaker 0]:  kind of engineering concepts about how you can start making dealing with the problems of dissiute system，
+[Speaker 0]:  but also take you on a journey into kind of the whole concept of residenence engineering。
+[Speaker 0]:  and so it starts off with out really easier ideas，
+[Speaker 0]:  and you study gets and more complicated than you know。
+[Speaker 0]:  so i introduce kind of concepts，
+[Speaker 0]:  like，
+[Speaker 0]:  but social techical system is the difference of the safety management of resident。
+[Speaker 0]:  engineineing is is all big conconcepts。
+[Speaker 0]:  but second chachater of the introduction is the site。
+[Speaker 0]:  what subsibbility it has talked about hotel，
+[Speaker 0]:  the said，
+[Speaker 0]:  the third chapis，
+[Speaker 0]:  what's a time out？
+[Speaker 0]:  right？
+[Speaker 0]:  i either all i think quite tractable things told ght，
+[Speaker 1]:  but they're building bblocks，
+[Speaker 1]:  right，
+[Speaker 1]:  right，
+[Speaker 1]:  the dipremidtes for yes or for the systems on the vocabulary as well。
+[Speaker 0]:  yeah，
+[Speaker 0]:  absolutely。
+[Speaker 0]:  and to give you know，
+[Speaker 0]:  to go through and sort of to steal some that knowledge down。
+[Speaker 0]:  and also to be a bit of quite happy being a bit opinion agate on these things，
+[Speaker 0]:  but i'm also lucky now，
+[Speaker 0]:  because party，
+[Speaker 0]:  because merely work，
+[Speaker 0]:  i get to chat t more people。
+[Speaker 0]:  so i couacactaught people who this is their full time，
+[Speaker 0]:  jarbin trying to steal down with withthat knowledge of bit。
+[Speaker 0]:  and so i wanted that book party is about being ever green，
+[Speaker 0]:  but it was also about saying there are lots of people building a dispute systems。
+[Speaker 0]:  put what type dissitistems you've got off onside for moment。
+[Speaker 0]:  there are lots people building them with they，
+[Speaker 0]:  they should on not。
+[Speaker 0]:  and they're really important to us now。
+[Speaker 0]:  so how do i？
+[Speaker 0]:  how do i help people star？
+[Speaker 0]:  and grow。
+[Speaker 0]:  and that's that's what i wanted to do。
+[Speaker 0]:  i mean，
+[Speaker 0]:  i enjoy the prices of writing anyway，
+[Speaker 0]:  but this is a book i wanted to be out to give to people。
+[Speaker 0]:  that's always been right，
+[Speaker 0]:  right？
+[Speaker 0]:  a book。
+[Speaker 0]:  i want a book at that book，
+[Speaker 0]:  even now i've gone set down read a book that to write a book，
+[Speaker 0]:  i found someone else done，
+[Speaker 0]:  then it already say what that exist now。
+[Speaker 0]:  so this for me was a book that i wanted to exist it in that's kind of what right。
+[Speaker 1]:  so now II think it's a book II certainly could have used like because i dropped into a place that grouper where we did have what i realized where distributed systems。
+[Speaker 1]:  you don't just just large systems，
+[Speaker 1]:  handling a bunch of stuff，
+[Speaker 1]:  lots of services depending on on one another，
+[Speaker 1]:  because even a simple thing of like knowing，
+[Speaker 1]:  like，
+[Speaker 1]:  oh，
+[Speaker 1]:  you should passenyour observability that。
+[Speaker 1]:  i mean，
+[Speaker 1]:  you figure out after a while，
+[Speaker 1]:  but it takes a while，
+[Speaker 1]:  yeah，
+[Speaker 0]:  on your own。
+[Speaker 0]:  i mean，
+[Speaker 0]:  again，
+[Speaker 0]:  i mean，
+[Speaker 0]:  maybe this。
+[Speaker 0]:  this is my attempt unpact on my taset knowledged to adictent。
+[Speaker 0]:  i've made so many mistakes and i keep making mistakes。
+[Speaker 0]:  i think with making mistakes is useful，
+[Speaker 0]:  but i think also crazy opportunity。
+[Speaker 0]:  people can learn more other people's mistakes for it is a good idea too。
+[Speaker 0]:  and so in the book，
+[Speaker 0]:  i also try to pull in at real exexamples and sometimes some big companies，
+[Speaker 0]:  sometimes some mimistakes to kind of make this stuff seeing real II。
+[Speaker 0]:  think the other thing i think i really try and get across is that things go wrong，
+[Speaker 0]:  right？
+[Speaker 0]:  make know engineering is all about making sure as many things go right as possible。
+[Speaker 0]:  it's not about making sure everything goes right。
+[Speaker 0]:  no。
+[Speaker 0]:  and there's also only where you can build resident systems in general，
+[Speaker 0]:  is also by being honest about mistakes that have been made and talking about them and sharing them because that's how everyone gets better。
+[Speaker 0]:  are that if you don't do that，
+[Speaker 0]:  you can't put a resident system in your company。
+[Speaker 0]:  and so this again，
+[Speaker 0]:  is my tempt to sort of highlight all the awesome works gone before the fantastic positions reports of people，
+[Speaker 0]:  some company share，
+[Speaker 1]:  like when there's AA system that we all use or many of us use has an outage。
+[Speaker 1]:  i mean，
+[Speaker 1]:  it's it's annoying english specially you're using it。
+[Speaker 1]:  but i always greatly appreciate when the companies because they don't have to do this，
+[Speaker 1]:  but when they share a public post more dem or incident to recap，
+[Speaker 1]:  whatever that is they go through what happened，
+[Speaker 1]:  for example，
+[Speaker 1]:  get up at ad and out of，
+[Speaker 1]:  and they share the really interesting one on a watch，
+[Speaker 1]:  all the things that went wrong and and the water water。
+[Speaker 1]:  and then you also have companies where somewhere this happens and they don't do anything。
+[Speaker 1]:  so of course，
+[Speaker 1]:  you're not a blite soup and anyway，
+[Speaker 1]:  but i always have a bit of a less of they are obliged to now allow them。
+[Speaker 0]:  uh regulations are now making the hand，
+[Speaker 1]:  which which i think it's great。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yethink like door ore stuff ff the UKK in europe rather。
+[Speaker 0]:  and i think it's also we should also separate around that post in some report stuff that there's keketing PP ververses。
+[Speaker 0]:  have you done a proper postence review？
+[Speaker 0]:  now i do think you've a duty of cariies that you just know as part of proper postinthe review。
+[Speaker 0]:  but those countries mayybe say nothing might might in a fantastic process internally。
+[Speaker 0]:  it's also the fact that some companies that put those things out，
+[Speaker 0]:  you read them。
+[Speaker 0]:  you like this does feel more marketing there。
+[Speaker 0]:  i think a great，
+[Speaker 0]:  if you want a good accompany that puts out some of the best self flaglating post in to review，
+[Speaker 0]:  right tups go for cloud for their stuff。
+[Speaker 0]: 哎，
+[Speaker 0]:  i was absoluinly go for themselves in those。
+[Speaker 0]:  it's like i feel like guys ys that we easy on yourourves，
+[Speaker 0]:  right？
+[Speaker 0]:  i will make some mistakes，
+[Speaker 1]:  but that i quite like and and do it did it rapidly was in twenty four hours。
+[Speaker 1]:  and there are publicly traded company。
+[Speaker 1]:  yeah，
+[Speaker 1]:  which which i think just goes back to the meet，
+[Speaker 1]:  like some of the unlike what public could traded，
+[Speaker 1]:  we don't want to do it because it would give away information for shareholder。
+[Speaker 1]:  you don't not like couford doit dent，
+[Speaker 0]:  and they're find exact exactly and and also also the dozzof trust。
+[Speaker 0]:  it is mean a lot of love how an organzzis perceived is dand to how you do with mistakes when they occur。
+[Speaker 0]:  right？
+[Speaker 0]:  i mean，
+[Speaker 0]:  yeh，
+[Speaker 0]:  nothing ever goes，
+[Speaker 0]:  perfect for every company。
+[Speaker 1]:  so in in your book，
+[Speaker 1]:  you talk about the three rules of distributed systems。
+[Speaker 1]:  what are these three rules？
+[Speaker 0]:  so i really tried to steal this down because i could never remember the the eight，
+[Speaker 0]:  the rule of eight that came out some。
+[Speaker 0]:  oh，
+[Speaker 0]:  the financi's discributed computer，
+[Speaker 0]:  i was forget with those eight were there's lows of complicate stuff，
+[Speaker 0]:  but i really asit when you strip it all down。
+[Speaker 0]:  there's only three things that really cause all other the problems，
+[Speaker 0]:  right？
+[Speaker 0]:  the first is that you can't send information incentanously from point point eight of point b。
+[Speaker 0]:  it's physics。
+[Speaker 0]:  i mean，
+[Speaker 0]:  now it turns out when you get in to install talking to people about quantum physics，
+[Speaker 0]:  as say，
+[Speaker 0]:  uhh。
+[Speaker 0]:  and i got there's a think of quantum tanglelement，
+[Speaker 0]:  which does allow the theoretical incentainous read of electron spin states across arbitrary distances，
+[Speaker 0]:  at which point，
+[Speaker 0]:  i point out the a that only works for reads as far as i'm aware and b，
+[Speaker 0]:  not a networking protocol。
+[Speaker 0]:  so like，
+[Speaker 0]:  but it takes time，
+[Speaker 0]:  right？
+[Speaker 0]:  so i don't get from a to b and HIII contcontrol that i can control bits of that as a developer。
+[Speaker 0]:  yeah，
+[Speaker 0]:  i could control how much date i say，
+[Speaker 0]:  and i could control the the，
+[Speaker 0]:  the payload size technology are you to see a ze and DC relize。
+[Speaker 0]:  i'm unlike need to be specifying the network cabling on equipment use or disences between them。
+[Speaker 0]:  so uh，
+[Speaker 0]:  not reunder my control。
+[Speaker 0]:  and the moment you go，
+[Speaker 0]:  the public internet BGP has a bad day，
+[Speaker 0]:  and your packet is gone down the wrong translate of the internet，
+[Speaker 0]:  right？
+[Speaker 0]:  and you，
+[Speaker 0]:  that's that's row one。
+[Speaker 0]:  it takes time um and that's important to recognize because sometimes it looks into the tennis is not second thing。
+[Speaker 0]:  sometimes i want the thing you are talk to isn't there，
+[Speaker 0]:  sometimes that sunday，
+[Speaker 0]:  and we do things make it under our control，
+[Speaker 0]:  right？
+[Speaker 0]:  like we would run，
+[Speaker 0]:  say multiple copies of service instance behind a low balance cer。
+[Speaker 0]:  well，
+[Speaker 0]:  how has the low balancer fails？
+[Speaker 0]:  but i mean，
+[Speaker 0]:  like you can't control for everything。
+[Speaker 0]:  i i've had services taken out by a five or data centre，
+[Speaker 0]:  a sand called fire，
+[Speaker 0]:  and basically one bit of the sand。
+[Speaker 0]:  the sand had a cashing storage lab with SSS。
+[Speaker 0]:  these two pes of SSD，
+[Speaker 0]:  one of the pes of SSD caught fire。
+[Speaker 0]:  the other pet SSD are working fine。
+[Speaker 0]:  and so we had his weird latency graphs coming out the suand，
+[Speaker 0]:  like perfectly fine，
+[Speaker 0]:  if 're loloed ment through the ones that went on fire。
+[Speaker 0]:  but the faillow of is another one we're rooting to be fair。
+[Speaker 0]:  it was routing around the bits were on fire。
+[Speaker 0]:  i had this uh where we had docting between office buildings and rabbits moved into the ducks。
+[Speaker 0]:  and either in networking table，
+[Speaker 0]:  i call control for rabbits，
+[Speaker 0]:  right？
+[Speaker 0]:  and sure，
+[Speaker 0]:  these things like that，
+[Speaker 0]:  that are real is the two things right？
+[Speaker 0]:  yes，
+[Speaker 0]:  you can control that and you can produce chances ces kind of know the chances，
+[Speaker 0]:  right。
+[Speaker 0]:  so sometimes a role number two is sometimes the thing you know，
+[Speaker 0]:  talk to isn't there。
+[Speaker 0]:  and the third rule，
+[Speaker 0]:  i'm very grateful to know colleague，
+[Speaker 0]:  my bmbabout a call for telling for website ying。
+[Speaker 0]:  i've missing is that resource polls are not infinite，
+[Speaker 0]:  meaning you can run out computing resources，
+[Speaker 0]:  CPU memory。
+[Speaker 1]:  i know whatever even basbasic year low balancer could be overloloaded。
+[Speaker 1]:  and then just not respond even though it's there。
+[Speaker 1]:  and we know the lency，
+[Speaker 1]:  but it maybe skyou feels up。
+[Speaker 0]:  i don't look to the vast majority at the time when you have a system mountage down to that，
+[Speaker 0]:  some resource have been total saturated somewhere。
+[Speaker 0]:  and it might have been that saturation might in turn have been caused by the fact that something is down and you're in a retried storm，
+[Speaker 0]:  which is in turn，
+[Speaker 0]:  causing you know，
+[Speaker 0]:  uh connections stvation ation，
+[Speaker 0]:  which is inccaused causing resort saturation，
+[Speaker 0]:  which，
+[Speaker 0]:  in turn，
+[Speaker 0]:  good ydia yeara。
+[Speaker 0]:  yeah，
+[Speaker 0]:  but that that's the killer。
+[Speaker 0]:  and and again，
+[Speaker 0]:  other inside。
+[Speaker 0]:  and you know，
+[Speaker 0]:  to to the intellectually all of these things，
+[Speaker 0]:  but you can go to all the concept，
+[Speaker 0]:  complicated concepts and this resistance。
+[Speaker 0]:  and so oh，
+[Speaker 0]:  wise behind some time，
+[Speaker 0]:  consensus protocol thing。
+[Speaker 0]:  well，
+[Speaker 0]:  this is go way way down this bit like，
+[Speaker 0]:  well，
+[Speaker 0]:  about cap and pack。
+[Speaker 0]:  welcome，
+[Speaker 0]:  i just like yeet。
+[Speaker 0]:  this put us up on side side。
+[Speaker 0]:  remember these riveals first and the most problem end up becoming a little bit a little bit easier to deal with。
+[Speaker 1]:  and in the the bout after injuries es rules，
+[Speaker 1]:  you start，
+[Speaker 1]:  as as mentioned，
+[Speaker 1]:  second chapter is 's observability ility me，
+[Speaker 1]:  that kind kind suggest that this is a really，
+[Speaker 1]:  really impimportant part for dishumuted systems。
+[Speaker 1]:  why is it observably so important？
+[Speaker 0]:  i mean，
+[Speaker 0]:  the way to think about observability is，
+[Speaker 0]:  is a property of assistant，
+[Speaker 0]:  right？
+[Speaker 0]:  so the more observable，
+[Speaker 0]:  something is the easier is to be to understand how that thing is behaving based on the examsynals als when you want to be assystem，
+[Speaker 0]:  which is single system，
+[Speaker 0]:  you actually get some pretty high quality signals coming out of that program。
+[Speaker 0]:  therefore，
+[Speaker 0]:  or give you a high degree of servability ility can get a lot of information out of that。
+[Speaker 0]:  i could attach ach。
+[Speaker 0]:  the bubuket to a process。
+[Speaker 0]:  so i could generate call done and run that in。
+[Speaker 0]:  i could just thread dump on j on the JV ever worked out when my semaphes are blocked。
+[Speaker 0]:  if this is my whole system，
+[Speaker 0]:  like knowing the CPU stock at a hundred percent is actually really used for information cause that's probably a bad。
+[Speaker 0]:  that's a problem right。
+[Speaker 0]:  so this basic information we pretty much get for free with a single program。
+[Speaker 1]:  this is a hole degree of observa very single program running on your machine that you have access to exactly right。
+[Speaker 0]:  but but now we go to a digital system，
+[Speaker 0]:  you don't have access the computer the same way。
+[Speaker 0]:  you've got multiple computers。
+[Speaker 0]:  and so those basic signals are harder to get。
+[Speaker 0]:  you can't correlaate the ministion you actually to work。
+[Speaker 0]:  and those individual signals by themselves，
+[Speaker 0]:  don't really give you a proper sense of how lisystem is behaving。
+[Speaker 0]:  so to you have to do more work to make this the observable。
+[Speaker 0]:  and as as knowing with these source of things as much easto do that for the beginning，
+[Speaker 0]:  that is to retrofit。
+[Speaker 0]:  and and yeknow lucky，
+[Speaker 0]:  we've got things like o how now open the open celeargy um prococoal investification，
+[Speaker 0]:  because that at least gives us an open framework that we is a vender agagnostic。
+[Speaker 0]:  oh，
+[Speaker 0]:  honey came all the best charity paaceme stickers just be read。
+[Speaker 0]:  cliki ask me good。
+[Speaker 0]:  i always think II work independently。
+[Speaker 0]:  i have to be really clear charity paaced me stickers，
+[Speaker 0]:  but like we get a vender agagnostic open standenefit。
+[Speaker 0]:  now it makes it so much you use if me have the conversations about this。
+[Speaker 0]:  but if i don't get the signals coming out the system，
+[Speaker 0]:  if i don't don't the the that stream strustructure events tell me what the hellls going on with my system，
+[Speaker 0]:  i'm flying line。
+[Speaker 0]:  but how do II will appropriate？
+[Speaker 0]:  climout is to a climb when if you're talking to a service？
+[Speaker 0]:  well，
+[Speaker 0]:  i'm minind going to know that if i have a sense of，
+[Speaker 0]:  well，
+[Speaker 0]:  what is its normal response time and distribution？
+[Speaker 0]:  so i'm going any latencies know the successful failure those latencies proable about pludn the history m。
+[Speaker 0]:  maybe to take a look at it，
+[Speaker 0]:  if don't don't have ininformation coming out，
+[Speaker 0]:  not gonnhave it specispecible by time out correctly。
+[Speaker 1]:  and then we're talking about a low level thing like late and see and and things that we can measure at the machine level。
+[Speaker 1]:  but of course，
+[Speaker 1]:  is is is a oberbably one。
+[Speaker 1]:  i'm talking about life doesn't work for the user or the customer doesn't do what they do when it cliccuook the button to submit。
+[Speaker 1]:  does it submit？
+[Speaker 1]:  do you look at that because we know observability，
+[Speaker 1]:  it's usually talk about these kind of leadencies，
+[Speaker 1]:  the the statuis，
+[Speaker 1]:  the five hundred responses that's going to bad。
+[Speaker 1]:  that means us down，
+[Speaker 1]:  but there's always a player that i always wondered。
+[Speaker 1]:  and i found it hard even when we're working in teams to，
+[Speaker 1]:  okay，
+[Speaker 1]:  like we have the the easy obvailability，
+[Speaker 1]:  like this is kind of text，
+[Speaker 0]:  not textbook is stemetrics is the metrics s。
+[Speaker 0]:  it looks。
+[Speaker 1]:  but but but then there's a stuff of does it work。
+[Speaker 1]:  does it do what people care about？
+[Speaker 1]:  like again，
+[Speaker 1]:  in the case of like an uber，
+[Speaker 1]:  like when people hit a button to request or right，
+[Speaker 1]:  that doesn't actually request within。
+[Speaker 1]:  but the i'm usually five seconds or something like that earis stuck in an infinite spinner，
+[Speaker 1]:  which is which is bad，
+[Speaker 1]:  even you're loxand be as healiest can be。
+[Speaker 1]:  but people are upupset，
+[Speaker 1]:  right？
+[Speaker 0]:  you know you you treat the raw data of making this m observable as a as a as a stram restructure evenent。
+[Speaker 0]:  and from that，
+[Speaker 0]:  you build up the higher level abstractions and a few scriries permisses is so a trace right，
+[Speaker 0]:  where we get sense of forgiven，
+[Speaker 0]:  click of buttom。
+[Speaker 0]:  what happen the production system。
+[Speaker 0]:  and this is a build blind spot，
+[Speaker 0]:  right？
+[Speaker 0]:  most organzations had to build our in tring systems。
+[Speaker 0]:  this is where things like the open，
+[Speaker 0]:  tracing stuff came from，
+[Speaker 0]:  and things like zp king and things like that，
+[Speaker 0]:  but build the attempt to recreate like mayan most people just on retry to reccreate ggoogle what he build there。
+[Speaker 0]:  and it's is an intenence say，
+[Speaker 0]:  okay，
+[Speaker 0]:  comat least look at a flow，
+[Speaker 0]:  of course，
+[Speaker 0]:  what happening doing that flow？
+[Speaker 0]:  of course，
+[Speaker 0]:  where did these things go？
+[Speaker 0]:  well，
+[Speaker 0]:  that requires me to get a bunch of ous spans across all these different machines and a span，
+[Speaker 0]:  meaning a span，
+[Speaker 0]:  meaning and activity，
+[Speaker 0]:  because i say，
+[Speaker 0]:  yes，
+[Speaker 0]:  something i did um and then a span can be get more spans。
+[Speaker 0]:  so i can say my first span might be a called hit my my server，
+[Speaker 0]:  right？
+[Speaker 0]:  so i've now got a span of stars with it that span。
+[Speaker 0]:  i might talk to my database。
+[Speaker 0]:  and in these are operations，
+[Speaker 0]:  and i can pot addition information on these spans，
+[Speaker 0]:  and then i could rech another service and then you get a trace ID that share across those fans and you got timing。
+[Speaker 0]:  and now you get effectively of view of us happhappened across those calls，
+[Speaker 0]:  but that's all just based on individual events。
+[Speaker 0]:  the instituch together。
+[Speaker 0]:  and then you also those start getting the system with a situation，
+[Speaker 0]:  which is is my system behaving correctly。
+[Speaker 0]:  and you know，
+[Speaker 0]:  this is going away from again and think it's half some of just thanks，
+[Speaker 0]:  say what chanto to say，
+[Speaker 0]:  um know halgoing away the vananty thash board。
+[Speaker 0]:  this is moving into sof the board，
+[Speaker 0]:  we call the s los，
+[Speaker 0]:  right the level，
+[Speaker 0]:  jejects and SL ze。
+[Speaker 0]:  and so i so an sits m。
+[Speaker 0]:  so so so low indicator that's our way of saying at this given point in time。
+[Speaker 0]:  for this thing is this thing good。
+[Speaker 0]:  all this is thing bad，
+[Speaker 0]:  and we use a collection nosess。
+[Speaker 0]:  so one example of that might be a successful percent of response time，
+[Speaker 0]:  right？
+[Speaker 0]:  so that would would be is a good one or bad one。
+[Speaker 0]:  it could be a bad one，
+[Speaker 0]:  because is an error。
+[Speaker 0]:  it could be a bad one。
+[Speaker 0]:  it's slow，
+[Speaker 0]:  good or bad，
+[Speaker 0]:  and i collect los together。
+[Speaker 0]:  and that helhelp me if i'm achmy my SL，
+[Speaker 0]:  so i might have a rouching my SL，
+[Speaker 0]:  which is so i should be able to HH responst roh，
+[Speaker 0]:  right？
+[Speaker 0]:  the ninenine percent toll susuccessful request within uh three hundred metes yeknow。
+[Speaker 0]:  and that would be your statement。
+[Speaker 0]:  and that would be a commitment。
+[Speaker 0]:  yes。
+[Speaker 0]:  ah i was always be a commitment that's thing。
+[Speaker 0]:  our team is is working towards you，
+[Speaker 0]:  then get this raw data。
+[Speaker 0]:  you can't create USA lies on the individual things，
+[Speaker 0]:  and then you use it to work out what restillows looking like if it's green everything a good time，
+[Speaker 0]:  it's reads people unhappy。
+[Speaker 0]:  i mean，
+[Speaker 0]:  you can get it。
+[Speaker 0]:  it this way way will new ws to it that i'm to get great bad introduction of this stuff。
+[Speaker 0]:  er think，
+[Speaker 0]:  but without those building blocks，
+[Speaker 0]:  because like II talk about the first chat of the book，
+[Speaker 0]:  nobody says，
+[Speaker 0]:  i don't want my system to be resient。
+[Speaker 1]:  yeah，
+[Speaker 1]:  no，
+[Speaker 1]:  no one。
+[Speaker 0]:  but the same time，
+[Speaker 0]:  resiliences is not a bony property。
+[Speaker 0]:  it's not like authorodis is bit it like observability or degree。
+[Speaker 0]:  so then the question is，
+[Speaker 0]:  how much do you need？
+[Speaker 0]:  because am i having conversation with you about multi clouds and you know，
+[Speaker 0]:  doing complete rerights of systems for critical spandarings like mozo do do，
+[Speaker 0]:  for example，
+[Speaker 0]:  yeah，
+[Speaker 1]:  they have。
+[Speaker 1]:  they have a standing bank k。
+[Speaker 1]:  they go go down the cause。
+[Speaker 1]:  so that it's sitting there is causing the money for the most spark。
+[Speaker 1]:  but then just a few weeks ago，
+[Speaker 1]:  their main application went up for a short period of time。
+[Speaker 1]:  and they actually at that banguage。
+[Speaker 1]:  i'm assuming in causing millions of pounds or dollars ars，
+[Speaker 1]:  you're just to keep it there。
+[Speaker 0]:  it's not even so that is besides side barber。
+[Speaker 0]:  as i first sy there，
+[Speaker 0]:  they stanby by bank has a real ship dalysts of features。
+[Speaker 0]:  it's much more bare bones。
+[Speaker 0]:  it's all of the core ones。
+[Speaker 0]:  like you can freeze cards。
+[Speaker 0]:  you can take money acand and check it balance。
+[Speaker 0]:  it's a completely right。
+[Speaker 0]:  so it's no shed code because i weite about bubug different cloud enda。
+[Speaker 0]:  it's also by design significantly more cheat to run。
+[Speaker 0]:  so they got a thousands of microzes in the false stag。
+[Speaker 0]:  this is about a tenof。
+[Speaker 0]:  the cost to the cloud cost，
+[Speaker 0]:  says they also run it constantly。
+[Speaker 0]:  yeah，
+[Speaker 0]:  so that that is always there。
+[Speaker 0]:  i'm but like mom，
+[Speaker 0]:  i know them onso，
+[Speaker 0]:  right？
+[Speaker 0]:  that's how that works。
+[Speaker 0]:  but like is no point you stanting it。
+[Speaker 0]:  so actually a is i put observed。
+[Speaker 0]:  every stufin is like you need the raw data，
+[Speaker 0]:  but also you need to make decisions about comes back to what good looks like。
+[Speaker 0]:  uh，
+[Speaker 0]:  then you need to know，
+[Speaker 0]:  okay。
+[Speaker 0]:  do i need to worry about multclcloud vendthe，
+[Speaker 0]:  the r strategies，
+[Speaker 0]:  because that's where i need to be going？
+[Speaker 0]:  or am i somewhere else？
+[Speaker 0]:  and so i think without that kind of sense of your north staff of how is it and do we need to be without that defined？
+[Speaker 0]:  you don't know how deep you aning together is is like trto say，
+[Speaker 0]:  how what what，
+[Speaker 0]:  how securure my sisneed to be？
+[Speaker 0]:  have you one one threat model？
+[Speaker 0]:  you have da threat model？
+[Speaker 0]:  i don't know，
+[Speaker 1]:  and i guess，
+[Speaker 1]:  answers the question of how resilient do i need to be。
+[Speaker 1]:  it greatly helps。
+[Speaker 1]:  and and maybe it's actually the requirement to the inform decision is how much will it cost me in terms of operating costs in terms of time to build it in terms of，
+[Speaker 1]:  for example，
+[Speaker 1]:  leency just send simple example，
+[Speaker 1]:  as is if you say，
+[Speaker 1]:  like，
+[Speaker 1]:  okay，
+[Speaker 1]:  you know，
+[Speaker 1]:  the businebusiness ses，
+[Speaker 1]:  like，
+[Speaker 1]:  oh，
+[Speaker 1]:  would you like multicloud and visits like would love multiclcld like if amazon goes down because we heard they had an oulege last week or a few months ago，
+[Speaker 1]:  i actually want to people throw ong goooogle。
+[Speaker 1]:  but but then you'll be like，
+[Speaker 1]:  okay，
+[Speaker 1]:  well，
+[Speaker 1]:  first of all，
+[Speaker 1]:  this will mean were paying two cloud bills。
+[Speaker 1]:  and if we want full replication，
+[Speaker 1]:  it might the increase our late and see because we need to wait for to write for often，
+[Speaker 1]:  which might mean slow wer，
+[Speaker 1]:  you know，
+[Speaker 1]:  customers might see things。
+[Speaker 1]:  so anyway，
+[Speaker 1]:  there's all of these tradeffs s。
+[Speaker 1]:  and by experiences，
+[Speaker 1]:  like often times，
+[Speaker 1]:  like you might retroate that。
+[Speaker 1]:  but if you can have a discussion off front，
+[Speaker 1]:  that's great。
+[Speaker 1]:  but to have the discussion you go，
+[Speaker 1]:  my my visic，
+[Speaker 1]:  you need to know what the trade author，
+[Speaker 1]:  you need to know what's happening in。
+[Speaker 1]:  and all these i mentioned that you know you care about like how long will will take to build how complex would be how much money will cost to operate。
+[Speaker 0]:  but also is technologists。
+[Speaker 0]:  we can't to sell。
+[Speaker 0]:  oh，
+[Speaker 0]:  you。
+[Speaker 0]:  we have also got to get good to communicating with our business day holds with our redues oyeah。
+[Speaker 0]:  what percent how late ency do you are like some benefits know what i say when i say that。
+[Speaker 0]:  but all but some how many you know experts in their field to a great product tonns or subject methoary experts，
+[Speaker 0]:  but or not，
+[Speaker 0]:  software developers would don't know what i member by that。
+[Speaker 0]:  and so we also have to understand the business domain，
+[Speaker 0]:  the product domain well enough to do the interpretation and help and to bridge that gap。
+[Speaker 0]:  and it is AA dynamic thing as well。
+[Speaker 0]:  i mean，
+[Speaker 0]:  it's the whole thing thing about resenence in general，
+[Speaker 0]:  right？
+[Speaker 0]:  a resilience system is want chanchanit changes in it evolves if you don't change it evolved or a brittle system in a resilident system。
+[Speaker 0]:  and so even those targets，
+[Speaker 0]:  we set us all that conversation。
+[Speaker 0]:  we have to have about what is good enough does change。
+[Speaker 0]:  but like think that's than i can in case of，
+[Speaker 0]:  say，
+[Speaker 0]:  the US east one outage towards in the last year um there were lots of AWS on。
+[Speaker 0]:  they do us is the UAWSUS east。
+[Speaker 1]:  one region went down is the older play this region that region，
+[Speaker 0]:  lots of people thefirst first，
+[Speaker 0]:  because i was often wear knew services got launch historically。
+[Speaker 0]:  when that went down，
+[Speaker 0]:  it calls a lot of people to say，
+[Speaker 0]:  do we need to be multi region？
+[Speaker 0]:  and some of these companies would have had the conversation before。
+[Speaker 0]:  and just i'd know we don't，
+[Speaker 0]:  and then it seeen the fll out and it have changed the minds。
+[Speaker 0]:  and that is fine as this。
+[Speaker 1]:  what is what you mean by result system evolves？
+[Speaker 1]:  yeah，
+[Speaker 1]:  you also the real world，
+[Speaker 0]:  but also like it is about what problems you 're not to try solve。
+[Speaker 0]:  there was some big name companies。
+[Speaker 0]:  they got taken out when US east one went down。
+[Speaker 0]:  and and oh，
+[Speaker 0]:  i'm got severely has severe。
+[Speaker 0]:  decordation seems what i could offer。
+[Speaker 0]:  yeah compes like exusting freicks on importof and taken up in tiny，
+[Speaker 0]:  but there was severy affected。
+[Speaker 0]:  do we think that people work in new zmal idiots？
+[Speaker 0]:  no。
+[Speaker 0]:  do we think they knew that if a cloud regiment down they'd be impacted？
+[Speaker 0]:  yes，
+[Speaker 0]:  they probably look to that and said，
+[Speaker 0]:  well，
+[Speaker 0]:  drught to come out with a multi region approach。
+[Speaker 0]:  it's going of this impact。
+[Speaker 0]:  it's going to cous us this much money is not with it。
+[Speaker 0]:  let alone talking multi clouds because multi cloud，
+[Speaker 0]:  this is multi reach as a whole different conversation。
+[Speaker 0]:  and that so kay，
+[Speaker 0]:  i think there's always you had the conversation。
+[Speaker 0]:  and as long as this is the other secret evit，
+[Speaker 0]:  of course，
+[Speaker 0]:  it as long as what you think you need to do is in tune with what your users thinking is we doing。
+[Speaker 0]:  yeah，
+[Speaker 0]:  is why i made the point in the book kin talking about it。
+[Speaker 0]:  the difference with s sales and issaloes。
+[Speaker 0]:  the issales is what you're going to get suit for if you breach，
+[Speaker 0]:  if you only ever delivered to the SLA，
+[Speaker 0]:  your customers already ever happy，
+[Speaker 0]:  you've got you all than that right？
+[Speaker 0]:  there always the social contract。
+[Speaker 0]:  there was，
+[Speaker 0]:  well，
+[Speaker 0]:  oh，
+[Speaker 1]:  now，
+[Speaker 1]:  with building disprite，
+[Speaker 1]:  the system building resilient systems，
+[Speaker 1]:  it really helps to understand concepts that are not as straight poor that i'm i'm not onna go through all the things you explain a lot of things in the book，
+[Speaker 1]:  but i do want to touch on concept that i found it tricky to understand and then appreciate。
+[Speaker 1]:  and you really appreciate this week。
+[Speaker 1]:  this is as much as ide importancy。
+[Speaker 1]:  yeah，
+[Speaker 1]:  what is item importancy。
+[Speaker 0]:  so is a mathematical concept behind an ideoortency that i don't understand，
+[Speaker 0]:  but basically an itemportant operation is one that you can。
+[Speaker 0]:  uh，
+[Speaker 0]:  you know，
+[Speaker 0]:  you can apply that operation multiple times without it actually having effects multiple times。
+[Speaker 1]:  so it has an effect once first time，
+[Speaker 0]:  a really good example of an item。
+[Speaker 0]:  popoint operation would be pressing a lift button。
+[Speaker 0]:  i have to unigo down in the left。
+[Speaker 0]:  you press the downbang。
+[Speaker 0]:  it lights up，
+[Speaker 0]:  but i presed that downdown again again，
+[Speaker 0]:  nothing changed that if is still coming，
+[Speaker 0]:  but we hope and lift is still coming，
+[Speaker 0]:  right。
+[Speaker 0]:  like，
+[Speaker 0]:  that's an ideimppoint operation，
+[Speaker 0]:  some lights，
+[Speaker 0]:  which is the action tgles。
+[Speaker 0]:  i tk get it like goes on talk。
+[Speaker 0]:  it like goes off，
+[Speaker 0]:  but that's not an iimportent operation。
+[Speaker 0]:  in computing。
+[Speaker 0]:  we have some operations。
+[Speaker 0]:  we shall not get out important reads。
+[Speaker 0]:  uh，
+[Speaker 0]:  a delete。
+[Speaker 0]:  it's typically iimportent，
+[Speaker 0]:  right？
+[Speaker 0]:  but example，
+[Speaker 0]:  i think i use in uh，
+[Speaker 0]:  my introduc's concept as a one of payment。
+[Speaker 1]:  i was about to say that i have a blood better。
+[Speaker 1]:  ed important example for yeah。
+[Speaker 0]:  yeah，
+[Speaker 0]:  payment is a good revice。
+[Speaker 0]:  i'm going to pay you money。
+[Speaker 0]:  so II miss，
+[Speaker 0]:  if ice ter wants a canissha payment，
+[Speaker 0]:  and i send you please play sam a hundred pounds。
+[Speaker 0]:  yeah。
+[Speaker 0]:  this is i'm an l ing people back at hohome，
+[Speaker 0]:  right？
+[Speaker 0]:  please say，
+[Speaker 0]:  sam a hundred pounds，
+[Speaker 0]:  and i don't get a confirmation back。
+[Speaker 0]:  i don't get back of response。
+[Speaker 0]:  i promise for my point of view。
+[Speaker 0]:  there are two possibilities。
+[Speaker 0]:  the first possibility is that you receive that payment breast you've done，
+[Speaker 0]:  the payment has been completed。
+[Speaker 0]:  and the and the result has got lost to me for some reason i get response，
+[Speaker 0]:  that's their own possibility。
+[Speaker 0]:  the other possibility is that you never go that you never carry out the operation，
+[Speaker 0]:  maybe didn't get to you make you crash。
+[Speaker 1]:  ed II think like a good example that i always i i've seen it in in the past，
+[Speaker 1]:  maybe it's over。
+[Speaker 1]:  but airlines you're about to buy this airline ticket for a thousand dollars，
+[Speaker 1]:  two thousand dollars 've check all of your details。
+[Speaker 1]:  and it says，
+[Speaker 1]:  like play or preserve。
+[Speaker 1]:  and then often，
+[Speaker 1]:  some airlines will take you to an in intermedia page with as i please do not refresh this page or submit it again，
+[Speaker 1]:  because you might be double charge。
+[Speaker 1]:  and what you really want is you pay，
+[Speaker 1]:  you know，
+[Speaker 1]:  like pay。
+[Speaker 1]:  and if you you get the spinner，
+[Speaker 1]:  and if it's not，
+[Speaker 1]:  i important，
+[Speaker 1]:  if you do it again and you get charged twice，
+[Speaker 1]:  yeah uh，
+[Speaker 1]:  but it is id important，
+[Speaker 1]:  if you just refresyou，
+[Speaker 1]:  you copy the same thing，
+[Speaker 1]:  you submit the exact same form all though，
+[Speaker 0]:  that's interesting。
+[Speaker 0]:  so the question then becomes right。
+[Speaker 0]:  so II sain that payment put my airline ticket whatever is。
+[Speaker 0]:  and i haven't had that response back，
+[Speaker 0]:  but i really want to make sure that the airline ticket book can go through。
+[Speaker 0]:  this is you with the browser，
+[Speaker 0]:  or the people are home，
+[Speaker 0]:  sitting seven hundred pounds，
+[Speaker 0]:  right？
+[Speaker 0]:  you video，
+[Speaker 0]:  i might show saambits this hundred pounds ds right now，
+[Speaker 0]:  one sex in the work in a dip view system because of rule。
+[Speaker 1]:  number two rule number to mean the there rule，
+[Speaker 0]:  number one somesomething things gages yeyeah and accepting this things is going。
+[Speaker 0]:  you just try to get you retry because because you really want to happen yeah。
+[Speaker 0]:  and retrying，
+[Speaker 0]:  there's the danger that if the well first operation had been process successfully，
+[Speaker 0]:  ly，
+[Speaker 0]:  you didn't know about it。
+[Speaker 0]:  well，
+[Speaker 0]:  the first operation had been applicefully，
+[Speaker 0]:  and you do it again，
+[Speaker 0]:  and i can pay twice，
+[Speaker 0]:  you know，
+[Speaker 0]:  two，
+[Speaker 0]:  two tickets。
+[Speaker 0]:  and that's the problem without unimportancy。
+[Speaker 0]:  you want to make it safe to retry imppoint operations。
+[Speaker 0]:  so to do that means bit my important，
+[Speaker 0]:  it's two ways to do it。
+[Speaker 0]:  really one is good，
+[Speaker 0]:  and that is what you should do，
+[Speaker 0]:  but you kind of have to retroate，
+[Speaker 0]:  which which rofacing is pain。
+[Speaker 0]:  and one，
+[Speaker 0]:  which is one，
+[Speaker 0]:  you should explain，
+[Speaker 0]:  which is useful，
+[Speaker 0]:  but has problems，
+[Speaker 0]:  right？
+[Speaker 0]:  the first one is ID important a case。
+[Speaker 0]:  yeah。
+[Speaker 0]:  so you generate you have a unique ID。
+[Speaker 0]:  you don't need AUUID for this yeah。
+[Speaker 1]:  and so when you are the the unique ID which you generate，
+[Speaker 1]:  and when you generate two of them，
+[Speaker 1]:  they should be different。
+[Speaker 1]:  there is like this tiny，
+[Speaker 1]:  tiny，
+[Speaker 1]:  tiny，
+[Speaker 1]:  any tiny，
+[Speaker 1]:  tiny，
+[Speaker 1]:  a likelihood of of clash，
+[Speaker 1]:  which which which ght again，
+[Speaker 1]:  that would happhappi。
+[Speaker 0]:  i think that's like i think with UUID seven。
+[Speaker 0]:  i think it's like a fifty nine second chance space，
+[Speaker 0]:  something you can generate local to with at eighty shrounound trips。
+[Speaker 0]:  yes，
+[Speaker 0]:  you collision chances extrememely low。
+[Speaker 0]:  it's is way to modify that we can can work with that looluand。
+[Speaker 1]:  and this as long as your amazon problem problem well，
+[Speaker 0]:  but this is that been yeah，
+[Speaker 0]:  the AWSAPS you see stripe at the m paypal，
+[Speaker 0]:  they all use the same key ucking。
+[Speaker 0]:  so you send us UUID。
+[Speaker 0]:  so then if you send that to me，
+[Speaker 0]:  ans，
+[Speaker 0]:  they pay sam。
+[Speaker 0]:  and here's the itempoiny key。
+[Speaker 0]:  i don't send you back a response。
+[Speaker 0]:  whatever reason you retry it，
+[Speaker 0]:  you pass out and post a kid。
+[Speaker 0]:  if i had carried out the processing，
+[Speaker 0]:  i could look at it。
+[Speaker 0]:  so i have a process this，
+[Speaker 0]:  yes，
+[Speaker 0]:  i have okay great。
+[Speaker 0]:  if i have procesit，
+[Speaker 0]:  even i get a second one third or fourth。
+[Speaker 0]:  have you got a process this process cess？
+[Speaker 0]:  i just keep on my say，
+[Speaker 0]:  yeah，
+[Speaker 0]:  process。
+[Speaker 0]:  this process is fine。
+[Speaker 0]:  that's a nice simple thing to do the issue with making things idon't onent the im poincy keys。
+[Speaker 0]:  it would ccricries both client ent to support him。
+[Speaker 0]:  so it has to be a required field to go through。
+[Speaker 0]:  and it has be some the service support。
+[Speaker 0]:  so if you're going a retroffit，
+[Speaker 0]:  this in is a pain the other。
+[Speaker 0]:  but but if you're building it use an alidiabas a keep use it exactly if anything neebe the ioonone you you less the beginning，
+[Speaker 0]:  the one you。
+[Speaker 0]:  so ght mentioned was i go back。
+[Speaker 0]:  i hit refresh。
+[Speaker 0]:  i felit all the same fields again，
+[Speaker 0]:  and i submit it the airline booking again，
+[Speaker 0]:  he should know。
+[Speaker 0]:  it's jupicical。
+[Speaker 0]:  that's another thing。
+[Speaker 0]:  you can do it。
+[Speaker 0]:  this was as good diffefrom a retroate their item points in。
+[Speaker 0]:  so if i've sent the same fields。
+[Speaker 0]:  so the same person，
+[Speaker 0]:  sam the same amount on the pounds to my bunjpan。
+[Speaker 0]:  and i'm sentting this through again，
+[Speaker 0]:  what you can do on the service site is genuring。
+[Speaker 0]:  it was a fingerprint。
+[Speaker 0]:  is i to take these fields？
+[Speaker 0]:  yep，
+[Speaker 0]:  i then generate a hash that represents those fields。
+[Speaker 0]:  so if you do a second booking，
+[Speaker 0]:  it looks the same。
+[Speaker 1]:  and you're using that as yght important as a retropit of ide，
+[Speaker 1]:  important in case，
+[Speaker 0]:  if yeyeah did the cut of downsides。
+[Speaker 0]:  so that um you do get false nenegatives that that false negative，
+[Speaker 0]:  meaning that i guess we did might get legitimate second requests and get rejected regarded。
+[Speaker 0]:  so uh，
+[Speaker 0]:  real d example，
+[Speaker 0]:  this happens in and know this happens in demarmarket might happen elsewhere。
+[Speaker 0]:  i speaaks people dedemarket works on a payment system。
+[Speaker 0]:  you go in。
+[Speaker 0]:  you buy something forty forty rone of its particular payment system，
+[Speaker 0]:  and you give ven the cars down the car，
+[Speaker 0]:  forty crane，
+[Speaker 0]:  whatever，
+[Speaker 0]:  if within next or five minutes，
+[Speaker 0]:  you buy something else，
+[Speaker 0]:  forty cre in the same shop，
+[Speaker 0]:  the till the hand set rejects it。
+[Speaker 0]:  if it was forty one crit，
+[Speaker 0]:  it be fine or setion。
+[Speaker 0]:  i one crit，
+[Speaker 0]:  it be fine best because the chances of you buying something for the exact，
+[Speaker 0]:  say，
+[Speaker 0]:  money。
+[Speaker 0]:  yeah，
+[Speaker 0]:  is so remote。
+[Speaker 0]:  there's some some ic item ponency to top double taps。
+[Speaker 0]:  and so when you get situations where operations can legitimately look the same，
+[Speaker 0]:  but actually be different and carried out at the same time，
+[Speaker 0]:  the really good example would be the AWSAPS。
+[Speaker 0]:  it is completely gentimate for me to in a four loop to provision。
+[Speaker 0]:  sion say twenty easy y two ins，
+[Speaker 0]:  twenty easy to instances。
+[Speaker 0]:  now this better way weare doing it，
+[Speaker 0]:  a sigking er the followp。
+[Speaker 0]:  by could so，
+[Speaker 0]:  i could etrate ate the followup and spin up twenty identical ethe to instances。
+[Speaker 0]:  if i just relied in there being a fingerprint at all at the same。
+[Speaker 0]:  so that's where this stuff breaks down um。
+[Speaker 0]:  and so if you got situations，
+[Speaker 0]:  well legitimtely，
+[Speaker 0]:  you have operations that come to look the same，
+[Speaker 0]:  but they 're actually different。
+[Speaker 0]:  they could ldn't close to each other。
+[Speaker 0]:  you have an issue。
+[Speaker 0]:  if you got a bit space around them，
+[Speaker 0]:  what you can do is hold on those fingerprints for appear of time。
+[Speaker 0]:  five，
+[Speaker 0]:  next ten minutes，
+[Speaker 0]:  an hour says，
+[Speaker 0]:  still some potentials，
+[Speaker 0]:  you still ledubecause because sick for it's it's not ideal by importancy keys。
+[Speaker 0]:  the way to go finger prints，
+[Speaker 0]:  when after read with it，
+[Speaker 0]:  if you use them both together，
+[Speaker 0]:  that can be really useful，
+[Speaker 0]:  so you can pick up situations where people change the privaces between the retrial attempts releast citizen into confusion a bit more of complex topic。
+[Speaker 0]:  but a lot of public facing APS will still generate a fingerprint。
+[Speaker 0]:  and if you send carry out this operation and you give the same iand poinsecution you gave before，
+[Speaker 0]:  but you've changed prematters the server to rejected is being effect。
+[Speaker 0]:  you can invaded request，
+[Speaker 0]:  so i have those things whatogether there。
+[Speaker 0]:  actually ideas are really simple。
+[Speaker 0]:  i think it's should，
+[Speaker 0]:  but it's it's and re's some you want ce about implementing them。
+[Speaker 0]:  there's some interesting stuff that crops up in terms of how you store them on the service side and things，
+[Speaker 0]:  things，
+[Speaker 0]:  the fundundament ideas are appreacay food。
+[Speaker 1]:  i think think i'm not an interesting topic that's comes up off in time，
+[Speaker 1]:  but at these days，
+[Speaker 1]:  it feels more often as thundering girls。
+[Speaker 1]:  yes。
+[Speaker 1]:  uh it's it's when a system restarts and only only it faces a big load，
+[Speaker 1]:  specifically get up，
+[Speaker 1]:  had an knowtage of a now a few weeks ago where it was neworking related and recovery took a lot longer time because there were retries going on，
+[Speaker 1]:  and it creates the stunding ard。
+[Speaker 1]:  what is a thundering hurt？
+[Speaker 0]:  i generally i'i talk about it in any situation。
+[Speaker 0]:  you've got mmasked capacities。
+[Speaker 0]:  you got too much for too many requests for too few resources，
+[Speaker 0]:  right resources，
+[Speaker 0]:  pulnot infinite coming back to one number three，
+[Speaker 0]:  yeah。
+[Speaker 0]:  so in the in the chapor，
+[Speaker 0]:  i talk about whole bunch of different ones，
+[Speaker 0]:  some different types scenarios，
+[Speaker 0]:  right？
+[Speaker 0]:  so you've got everything from the militious dunding。
+[Speaker 0]:  her lucky did dn't know our service attack，
+[Speaker 0]:  right？
+[Speaker 0]:  did we did not our service attack？
+[Speaker 0]:  militious attack often short notice and of this，
+[Speaker 0]:  not that much。
+[Speaker 0]:  you can do about them。
+[Speaker 0]:  the answer is you'd use ffast to a chilile flap。
+[Speaker 0]:  i going to details，
+[Speaker 0]:  how that happens。
+[Speaker 0]:  you get things like a kind kind internal self infflicted onso。
+[Speaker 0]:  so a good example would something like um a cash collapse right is is to realize on the cash not only for speed of operation，
+[Speaker 0]:  but also reducing load on other components。
+[Speaker 0]:  yep，
+[Speaker 0]:  cash gets。
+[Speaker 0]:  we started。
+[Speaker 0]:  you then have a lot of cash misses。
+[Speaker 0]:  you'll hit the origin，
+[Speaker 0]:  and the origin goes down，
+[Speaker 1]:  expected such load。
+[Speaker 0]:  yeah。
+[Speaker 0]:  so AA common thing there would be you。
+[Speaker 0]:  first，
+[Speaker 0]:  you use flluh es cash h naapshops to disk reduce is a chance of you being out having high cash misses es，
+[Speaker 0]:  every we start，
+[Speaker 0]:  but also love companies。
+[Speaker 0]:  and i will just turn their service up into the cash refifeland。
+[Speaker 0]:  so so that's best kind of another example of one reretry storms。
+[Speaker 0]:  another one back in two thousand seventeen square had a big outage that restarted multi pass，
+[Speaker 0]:  which was their multifactt authentication system。
+[Speaker 0]:  multppass in turn pulits data from reddis。
+[Speaker 0]:  they're using this database because you can do that。
+[Speaker 0]:  apparently，
+[Speaker 1]:  i don't think stthink theare there are they're using as a cash，
+[Speaker 1]:  basically right？
+[Speaker 0]:  well，
+[Speaker 0]:  they i think they are using as a date。
+[Speaker 0]:  there are some people who think where this is a database。
+[Speaker 0]:  this is a different podcoffehehas have ver。
+[Speaker 0]:  i think you starting a stupid technology past calast。
+[Speaker 0]:  we talk about using technology stupid great。
+[Speaker 0]:  yes is is ricd 's ext's anyway。
+[Speaker 0]:  so they're putting states back from retius。
+[Speaker 0]:  and there a problem that the clients in multi pass，
+[Speaker 0]:  we're going were basic if the retius calls failed。
+[Speaker 0]:  they try again，
+[Speaker 0]:  but without any delay between a retriice and then had a harm code limit a five hundred retries。
+[Speaker 0]:  so they rerise basic smash reddits，
+[Speaker 0]:  and they keep stararting redis，
+[Speaker 0]:  and then then we start multi pass。
+[Speaker 0]:  and again，
+[Speaker 0]:  this it's a long time ago，
+[Speaker 0]:  and they fix it right。
+[Speaker 0]:  they fixed it by having a mortance will reach by policy and externalizing his values that's never fund being heard the last kind of sections one，
+[Speaker 0]:  as i talked about who once caused by like products being too successful，
+[Speaker 0]:  um like twitter or in health cdogoph，
+[Speaker 0]:  right？
+[Speaker 0]:  this is where you have an external real legitimate load that take you out and things you look at all of these as solutions，
+[Speaker 0]:  although what happened is the same，
+[Speaker 0]:  the kind of solutions were it different？
+[Speaker 0]:  so like withdon't got a funding hurt this coming for maexnnally。
+[Speaker 0]:  this legitimate，
+[Speaker 0]:  i've got different things or look at，
+[Speaker 0]:  like II will have more。
+[Speaker 0]:  i'd have more constrainint sign up and have few invite codes s。
+[Speaker 0]:  no。
+[Speaker 0]:  so hehell care of one of the issues。
+[Speaker 0]:  there was many others，
+[Speaker 0]:  but was that they went life like thirty six states at once，
+[Speaker 0]:  and they were met to be overloaded。
+[Speaker 0]:  so in hindsight，
+[Speaker 0]:  maybe going life of one state would be a good idea。
+[Speaker 0]:  first，
+[Speaker 0]:  for example，
+[Speaker 0]:  with twitter，
+[Speaker 0]:  they were going down all the time，
+[Speaker 0]:  so they could have constrain sign ups or put tweet limits on you and things like that。
+[Speaker 0]:  yeah，
+[Speaker 0]:  constraining those are things。
+[Speaker 0]:  and they they did those things as well，
+[Speaker 0]:  right？
+[Speaker 0]:  and so although they look the same，
+[Speaker 0]:  the mitigations feet was a little bit different。
+[Speaker 0]:  so i kind of quite like talking about that because there were all great stories i found。
+[Speaker 0]:  and i wanted to talk，
+[Speaker 1]:  of course，
+[Speaker 1]:  like i think we're talking about like solving it with。
+[Speaker 0]:  when you have same resources，
+[Speaker 0]:  but then we get an to think as scaling like，
+[Speaker 0]:  can you scale who is until ally add more resources because because there there's two sides of this right，
+[Speaker 0]:  like whenever you have it。
+[Speaker 0]:  and so what point can you do it or or certaface a bottle like because you sell the central whatever？
+[Speaker 1]:  but like this，
+[Speaker 1]:  that's a great example of where sometimes mitigations well somesometimes times you you so example，
+[Speaker 1]:  something something like sell a successful。
+[Speaker 1]:  he was starts up whatever ver。
+[Speaker 1]:  you sutadenly got successful。
+[Speaker 1]:  that success comes like a wave，
+[Speaker 1]:  right？
+[Speaker 1]:  the wave of success hits you。
+[Speaker 1]:  and in it lot。
+[Speaker 1]:  it receipts。
+[Speaker 1]:  you'll get a thousand customers in。
+[Speaker 1]:  and maybe you're keep a hundred，
+[Speaker 1]:  maybe right？
+[Speaker 1]:  that's just terrible things work。
+[Speaker 1]:  so you need to be up doing the peak，
+[Speaker 1]:  and you probably can shrink down again to keep a costloo。
+[Speaker 1]:  so if you build your application to have dynamamic scalability ility and it，
+[Speaker 1]:  and if you on the public cloud or similar place where you can spin up spin down，
+[Speaker 1]:  that's a vival mechanism，
+[Speaker 1]:  right？
+[Speaker 1]:  okay，
+[Speaker 1]:  we can scale up to handle this。
+[Speaker 1]:  that's fine。
+[Speaker 1]:  would i use use as to against st？
+[Speaker 1]:  not not distribute，
+[Speaker 1]:  not not a service attack？
+[Speaker 1]:  no，
+[Speaker 1]:  because then your diriute did not a service，
+[Speaker 1]:  attack becomes a distributed，
+[Speaker 1]:  do not of cash attack，
+[Speaker 1]:  right？
+[Speaker 1]:  you go from to not only having no service，
+[Speaker 1]:  but also now no money because you hit spitding up，
+[Speaker 1]:  you know，
+[Speaker 1]:  nose on your cubanetity，
+[Speaker 1]:  castter and amazon。
+[Speaker 1]:  just keep taking the money。
+[Speaker 1]:  it's great。
+[Speaker 1]:  and uh，
+[Speaker 1]:  you still can't keep up。
+[Speaker 1]:  so that's a perfect evited mechanism for some things。
+[Speaker 1]:  but you kind of have to know the context that，
+[Speaker 1]:  that should to say，
+[Speaker 1]:  you can't just yyourself at trtrouble。
+[Speaker 0]:  but well，
+[Speaker 0]:  right，
+[Speaker 0]:  think 're。
+[Speaker 0]:  we're going back to all a lot of times as like as an engineer，
+[Speaker 0]:  you want to know about the business。
+[Speaker 0]:  you want to know what creates about you，
+[Speaker 0]:  what rates revenue，
+[Speaker 0]:  what is important for the company versus what is not and where we want to maybe invest to get you with our infrastructure with our reliability or is where it doesn't matter，
+[Speaker 0]:  and it's not worth doing to the about trade us。
+[Speaker 1]:  and i think it's about you don't know unless you get information。
+[Speaker 1]:  now your production system，
+[Speaker 1]:  you don't know how closure all to the red lines。
+[Speaker 1]:  that's what observve bility is keeping is what about trade or so in it。
+[Speaker 1]:  and that's why i do a whole chat on like formal methods。
+[Speaker 1]:  i talk about cap in packelel。
+[Speaker 1]:  and i say that these things are complicated，
+[Speaker 1]:  but actually really all comes down a conversation without understand the business context。
+[Speaker 1]:  so example，
+[Speaker 1]:  like if there is like，
+[Speaker 1]:  if any commerce company，
+[Speaker 1]:  if i want to buy item m online，
+[Speaker 1]:  right physical item online。
+[Speaker 1]:  and if that moment all the purchase y，
+[Speaker 1]:  if you're not sure，
+[Speaker 1]:  if you've got it on not most e commerce companies will say，
+[Speaker 1]:  yes，
+[Speaker 1]:  sure，
+[Speaker 1]:  you can have it because they know there's a good chance。
+[Speaker 1]:  they do actually have in stock。
+[Speaker 1]:  and if they don't have instop，
+[Speaker 1]:  they can get it in and back，
+[Speaker 1]:  all do it。
+[Speaker 1]:  and the worst case scenario，
+[Speaker 1]:  they can even man say，
+[Speaker 1]:  sorry，
+[Speaker 1]:  refund of the money，
+[Speaker 1]:  right？
+[Speaker 1]:  so that's not great。
+[Speaker 1]:  it's no ideal now。
+[Speaker 1]:  they is。
+[Speaker 1]:  it don't know know a good idea。
+[Speaker 1]:  therefore，
+[Speaker 1]:  we're not going to set it to it。
+[Speaker 1]:  they're missing out of sale。
+[Speaker 1]:  and i could go buy that somewhere elelprobprobably and might have had it。
+[Speaker 1]:  so e commerce companies in that situation because that's that sort of understanding the relationship，
+[Speaker 1]:  the customer，
+[Speaker 1]:  the impacts。
+[Speaker 1]:  if they get it wrong，
+[Speaker 1]:  they get to trtrto lin the item，
+[Speaker 1]:  keep that proably exactly the same。
+[Speaker 1]:  but now chanins a business context now isn't in concert tickets。
+[Speaker 1]:  so you're getting tickets to go see taati，
+[Speaker 1]:  right？
+[Speaker 1]:  you go to see talleswift，
+[Speaker 1]:  and we not sure if you'got got tyleswift ticket on it because they are all linked to that systems down。
+[Speaker 1]:  but i tell us us your tickets you，
+[Speaker 1]:  you you're taking your kids，
+[Speaker 1]:  taking your wiyes all can be be sery began to portugal。
+[Speaker 1]:  we becan you take a switps and amazing and let we make so you we don't not have the tickets。
+[Speaker 1]:  now the problem，
+[Speaker 1]:  that is，
+[Speaker 1]:  first of you，
+[Speaker 1]:  the devazation，
+[Speaker 1]:  you're going it a bit different。
+[Speaker 1]:  they can't back order a ticket yeah。
+[Speaker 1]:  and and so in that situation，
+[Speaker 1]:  it's like that the impact the cup is so much great than the nuabof the flight and what you might put the flight。
+[Speaker 1]:  so what they do is make a different decision sion。
+[Speaker 1]:  so in that situation，
+[Speaker 1]:  if don't know if they go a ticket，
+[Speaker 1]:  i don't see a ticket。
+[Speaker 0]:  i'm not sure recover in the book，
+[Speaker 0]:  but this is the faill open versis faale close，
+[Speaker 0]:  right。
+[Speaker 0]:  when when you have an error，
+[Speaker 0]:  you're unsure，
+[Speaker 0]:  are you going to go through or or not？
+[Speaker 0]:  and as you say，
+[Speaker 0]:  this can be a decision，
+[Speaker 0]:  the same problem to companies can take it a decision。
+[Speaker 0]:  a company years down the roles could take a decision。
+[Speaker 0]:  uber had this classic example of of when payment。
+[Speaker 0]:  we werenserve the payment went through。
+[Speaker 0]:  do we allow the right to？
+[Speaker 0]:  yes and you or not at early and the companies years，
+[Speaker 0]:  we always failed open。
+[Speaker 0]:  yeah，
+[Speaker 0]:  just have the right wwill。
+[Speaker 0]:  we might have the money。
+[Speaker 0]:  and if not，
+[Speaker 0]:  we'll deal with that as a company starts to go for profitabable。
+[Speaker 0]:  we feel close like we're not sure we have the money of the charge when through，
+[Speaker 0]:  you're not going to get the right and you get the same company different different different different focus。
+[Speaker 0]:  and if if you're the the veloveloper you needed to pay attention to like what is important bghhave for the business，
+[Speaker 0]:  it was growth initially。
+[Speaker 0]:  it's okay，
+[Speaker 0]:  if lose se money，
+[Speaker 0]:  then now it's i don't know unit economic profitability，
+[Speaker 1]:  but also that open clothes has open close that a fell clothes as a glayout open discussion isn't one size fits for the whole systestem。
+[Speaker 1]:  it's on a future by future basis and even a cut them，
+[Speaker 0]:  even even then in the system，
+[Speaker 1]:  you could say this taxi rides ten euros for it's a thousand euros，
+[Speaker 1]:  you can make different decisions。
+[Speaker 1]:  now if you approcess from a mathematical and from a computer science view point，
+[Speaker 1]:  which told by cap theory，
+[Speaker 1]:  that was a conversation about cap theory，
+[Speaker 1]:  right？
+[Speaker 1]:  so in a jack，
+[Speaker 1]:  i talk about his cap，
+[Speaker 1]:  he is packalle，
+[Speaker 1]:  which is the extension of cap。
+[Speaker 1]:  i explain what is models on because when you get deep ep indudution to hear about them，
+[Speaker 1]:  but fundamentally，
+[Speaker 1]:  that's what this is about，
+[Speaker 1]:  right？
+[Speaker 1]:  when you have a partition and slipppeying cap ery defines，
+[Speaker 1]:  i can't talk to apart my system。
+[Speaker 1]:  remember，
+[Speaker 1]:  it's a real number two，
+[Speaker 1]:  and i can't talk to apart my system。
+[Speaker 1]:  what do i do？
+[Speaker 1]:  and all you need to know is a developer。
+[Speaker 1]:  i can't talk to that。
+[Speaker 1]:  what do i do？
+[Speaker 1]:  sometimes we can do make technical sition i'i'll try again。
+[Speaker 1]:  i hope about every every my system down the retrist stone。
+[Speaker 1]:  but i'll try again again，
+[Speaker 1]:  if that doesn't work what i do。
+[Speaker 1]:  well，
+[Speaker 1]:  actually often the answer is，
+[Speaker 1]:  yeah，
+[Speaker 1]:  you，
+[Speaker 1]:  you。
+[Speaker 1]:  you look at cap in park，
+[Speaker 1]:  ala whatever else，
+[Speaker 1]:  but go have which conversation with the product。
+[Speaker 1]:  china，
+[Speaker 1]:  what shwe do the resreslution of about that often ends up being exsitioned about all we trading of consistency versissavabability pacackalcoharvein the yield you're going into that volution of bruce conjecor。
+[Speaker 1]:  but don't worry about that。
+[Speaker 1]:  that's in the book。
+[Speaker 1]:  that's why it's a later chapter。
+[Speaker 1]:  that's chapter like twelve i think or levon。
+[Speaker 1]:  don't don't start there start with having a conversation rule。
+[Speaker 1]:  number two，
+[Speaker 1]:  i can't talk his policies right now。
+[Speaker 1]:  what should we do？
+[Speaker 1]:  and that stars and having the chap that starts having the chap when we're joking up resilience，
+[Speaker 0]:  you talk about the dimensions to think about resilience。
+[Speaker 0]:  what what are these dimensions？
+[Speaker 1]:  i start in the first chaps。
+[Speaker 1]:  so by clambback，
+[Speaker 1]:  that paper by david woods，
+[Speaker 1]:  i mentioned that was impenetrble to me at the star，
+[Speaker 1]:  and he comes up with four concepts for resident engineering。
+[Speaker 1]:  and i like before comes ts，
+[Speaker 1]:  he comes out。
+[Speaker 1]:  it helps us sinked broadly，
+[Speaker 1]:  right？
+[Speaker 1]:  so starts off with a bus ness。
+[Speaker 1]:  this is where we can basically nothing in his was absorb known pertivation。
+[Speaker 1]:  so we model system and something goes wrong，
+[Speaker 1]:  and we can coulor just deal it in a way that none case about anyanyknow ws。
+[Speaker 1]:  so a very simple example would be uh in cubilities of pod fails。
+[Speaker 1]:  so and cucubilities into a replacement。
+[Speaker 1]:  now，
+[Speaker 1]:  the pod failing that supertivation science。
+[Speaker 1]:  it's going to bit wrong，
+[Speaker 1]:  but we don't with it great。
+[Speaker 1]:  so that's start。
+[Speaker 1]:  and the thing is，
+[Speaker 1]:  most engineers i speak to。
+[Speaker 1]:  they focus entirely on this didn't look at the other three。
+[Speaker 1]:  they focus entire on this otherly nnay y about robustons is the things we often do to make our systems more robust in turn，
+[Speaker 1]:  increases the complexity or system，
+[Speaker 1]:  which，
+[Speaker 1]:  in turn incraase increases the surface。
+[Speaker 1]:  if you talks of failure，
+[Speaker 1]:  um hh，
+[Speaker 1]:  i bring cubities in to do the failure of a of ver container。
+[Speaker 1]:  now got cubunities。
+[Speaker 1]:  and that becomes yeah。
+[Speaker 1]:  and that's not sobble the way that's the same to aware of，
+[Speaker 1]:  right？
+[Speaker 1]:  yes，
+[Speaker 1]:  that，
+[Speaker 1]:  that is also why sometimes people don't go multi region or multi cloud because it's increasing the services are of the fadeotypes。
+[Speaker 1]:  yeah，
+[Speaker 1]:  that's no once for abossness，
+[Speaker 1]:  right？
+[Speaker 1]:  can we do anyanything？
+[Speaker 1]:  and and for things be robust，
+[Speaker 1]:  we have to know about miahead ad time。
+[Speaker 1]:  this is predictable。
+[Speaker 1]:  we do with it，
+[Speaker 1]:  then there is rebound，
+[Speaker 1]:  which when something does happen and goes wrong ququick you can recover。
+[Speaker 0]:  so this is is uh this is typically the time to recovery，
+[Speaker 0]:  well time to detection and time to recover。
+[Speaker 1]:  he got yeah。
+[Speaker 1]:  i'm the the gege choof measuuring now and you i talk about the deal chat。
+[Speaker 1]:  i talk about，
+[Speaker 1]:  you know，
+[Speaker 0]:  the deal is disasver reyeah，
+[Speaker 1]:  but that's like how quick he could we get a top running。
+[Speaker 1]:  so we've got into degraded functiontionity how quickly he can get up on running。
+[Speaker 1]:  that's that's thinking about the rebound。
+[Speaker 1]:  and again，
+[Speaker 1]:  for that，
+[Speaker 1]:  you have to be very humblest about a pub because of roboses is the system will never fly on inside。
+[Speaker 1]:  but what if we got it wrong？
+[Speaker 1]:  okay，
+[Speaker 0]:  we have to admit things go outside and anything as for a recovery on on how you can recover。
+[Speaker 0]:  this is where i mean，
+[Speaker 0]:  if you wanto do it well，
+[Speaker 0]:  teams that are serious about this，
+[Speaker 0]:  they they do。
+[Speaker 0]:  uh simulations of this is going going down is where netflix is very famous chaos。
+[Speaker 0]:  monkey comes that where goes and shots up part of the system to like testislive。
+[Speaker 0]:  and there's drills that are there are being young done and how we get how how our own call process works。
+[Speaker 0]:  how this this mamaa seatrosectra。
+[Speaker 0]:  this is that's a heart pod。
+[Speaker 0]:  and then you，
+[Speaker 0]:  you dn't once that's not love，
+[Speaker 0]:  because you need to do a regular because the system system keeps changing。
+[Speaker 1]:  i let to shout out to up time labs who are based a party in london。
+[Speaker 1]:  they do x and instant training that you can do online and fantasis fantastic below。
+[Speaker 1]:  so you've got that recovery process，
+[Speaker 1]:  i harhave get up and running，
+[Speaker 1]:  uh and nothing kind kind of chis is about with me，
+[Speaker 1]:  an immigrants next to which the third one is graceful，
+[Speaker 1]:  exteninsibility。
+[Speaker 1]:  and so graceful extensibility，
+[Speaker 1]:  i get it's so sghghtly witname is basically dealing with surprise when we make our system robust。
+[Speaker 1]:  we're dealing with the known。
+[Speaker 1]:  no，
+[Speaker 1]:  are the known problems。
+[Speaker 0]:  yeah，
+[Speaker 0]:  what it was expect。
+[Speaker 1]:  what about things？
+[Speaker 1]:  we don't expect right？
+[Speaker 1]:  if we don't expect it that this is now not about computers is about humans is what i this。
+[Speaker 1]:  we sims a fundamental statue，
+[Speaker 1]:  technical systems，
+[Speaker 1]:  people technology working together。
+[Speaker 1]:  we could expect the ababits it，
+[Speaker 1]:  how we do with the rabbits。
+[Speaker 1]:  how do we do what the firile dattes into turns out badly is the answer。
+[Speaker 1]:  but if you order know a corporate environment，
+[Speaker 1]:  which is very commcommand contcontrol ququhihiararical ical，
+[Speaker 1]:  we've got a very nriry job description，
+[Speaker 1]:  you're often constrained in what you're able to do。
+[Speaker 1]:  those organizations tend to do with surprise badly because a corporate structure is structured around unknown，
+[Speaker 1]:  and so often structurally，
+[Speaker 1]:  you find it difficult。
+[Speaker 1]:  imagine drills earlier drill are a great with helping me surprise coming in having people lothened from outsiside saying，
+[Speaker 1]:  this has happened how you do with it。
+[Speaker 1]:  google had a thing。
+[Speaker 1]:  and if facs will do it as i really support around and they do a thing with the wheel of misforching that a physical will today youris of a subweer day。
+[Speaker 1]:  it's been the wheel to to to to to to HDNS poison attack by a state in the insert name with rogues day here。
+[Speaker 1]:  this was happening。
+[Speaker 1]:  how do you do with it？
+[Speaker 1]:  um that is all about by people and experiences and trying you things and constly pushing yourself。
+[Speaker 0]:  because learning also from others。
+[Speaker 0]:  i remember this like very famous outage happened a few years ago at medta，
+[Speaker 0]:  where their DNA system through BGP。
+[Speaker 0]:  it it just all went down。
+[Speaker 0]:  what's up meta everything to fix this because they，
+[Speaker 0]:  they pushed out an update to their BGB table，
+[Speaker 0]:  which is in idedns to their servers。
+[Speaker 0]:  now to fix this，
+[Speaker 0]:  they needed to get access to the computer that physically had to get access support。
+[Speaker 0]:  whatever is ok because they can reach it remotely，
+[Speaker 0]:  so they need to go onto that building。
+[Speaker 0]:  now in going to the building，
+[Speaker 0]:  they have to go to a door that project ted this system，
+[Speaker 0]:  which was running on their own domain，
+[Speaker 0]:  which was down。
+[Speaker 0]:  so so had to to break physically into。
+[Speaker 0]:  but but again，
+[Speaker 0]:  this is a thing where they shared the details，
+[Speaker 0]:  which was great，
+[Speaker 0]:  is now everyone else could think about。
+[Speaker 0]:  like，
+[Speaker 0]:  do we have any of our physical security，
+[Speaker 0]:  for example，
+[Speaker 0]:  title or own demand。
+[Speaker 0]:  because if you have it，
+[Speaker 0]:  you want to change that or learning from what might have learned about。
+[Speaker 1]:  and this ln sexes from like grasday sensibility，
+[Speaker 1]:  which should did it with surprise。
+[Speaker 1]:  that's like all the most in the moment，
+[Speaker 1]:  or we really still a spite into the fourth one，
+[Speaker 1]:  which which is stain aptability，
+[Speaker 1]:  which is how can we learn from what happened？
+[Speaker 1]:  not just the learnings，
+[Speaker 1]:  do we have the environment，
+[Speaker 1]:  which we can learn and share and grow，
+[Speaker 1]:  but then also adapt the system based on that learning。
+[Speaker 1]:  and it's called sustain adaptability because it is that is a completely continue your process。
+[Speaker 1]:  that's not just today。
+[Speaker 1]:  that's not just when you have an incident。
+[Speaker 1]:  that's when you don't have an incident。
+[Speaker 1]:  what are we doing to learn？
+[Speaker 1]:  because i think your point you may there was excellent，
+[Speaker 1]:  which is i like reading other other people in the reports。
+[Speaker 1]:  there's a little bit shan and for it with companies ies don't like，
+[Speaker 1]:  but it's always。
+[Speaker 1]:  so a little bit of it is like da've learned，
+[Speaker 1]:  something can i learn from them and do something that，
+[Speaker 1]:  that results my system？
+[Speaker 1]:  so when you don't have an incident，
+[Speaker 1]:  read other people in the report，
+[Speaker 1]:  says the place called the void。
+[Speaker 1]:  ah h hasn't been update of rebit。
+[Speaker 1]:  there's like five hundreds and hundreds of incil report。
+[Speaker 1]:  so is worth going through。
+[Speaker 1]:  so that idea，
+[Speaker 1]:  as sustained adaptability is all about us adappsing and changing over longer time scales for those last two things to say that's relaaching graceful ful sensibility。
+[Speaker 1]:  this all comes down to people in culture like having proper environment。
+[Speaker 1]:  psychological safety is just absolutely required。
+[Speaker 1]:  if you can't raise issues，
+[Speaker 1]:  if you can't challenge in a safe way，
+[Speaker 1]:  you do will do with surprise badly，
+[Speaker 1]:  because things going can't get raise，
+[Speaker 1]:  and you weon't learn，
+[Speaker 1]:  because things will be hidden。
+[Speaker 1]:  yeah。
+[Speaker 1]:  and so that all comes down to behavior stuff。
+[Speaker 1]:  and so the loss of three chaps of the book we focus on that is looking at some of the people socisocial aspects of that。
+[Speaker 1]:  i've got like fourteen thirteen chapses for twelve chapses。
+[Speaker 1]:  so about their the technical，
+[Speaker 1]:  then the last three chaps will ruout that side of things。
+[Speaker 1]:  so i like what we do to make sure we have that environment of psychological safety，
+[Speaker 1]:  because without it，
+[Speaker 1]:  you can't actually be resilient。
+[Speaker 0]:  that's it's very amazing because so far throughout this whole conversation，
+[Speaker 0]:  we we talk about building resilient systems。
+[Speaker 0]:  we talked lot about people about about how thing about resiliency。
+[Speaker 0]:  one thing that would simply talk about just passing with is AI even even though like this book is coming out now，
+[Speaker 0]:  and i know it has uh a section on AI as well。
+[Speaker 0]:  but it just interesting to rerefly that even though like AI is changing，
+[Speaker 0]:  how were building sofred，
+[Speaker 0]:  it seems like somebody's ground truth of how to operate，
+[Speaker 0]:  reliable software are little bit just outside of this throm right？
+[Speaker 1]:  well，
+[Speaker 1]:  i mean，
+[Speaker 1]:  it is it？
+[Speaker 1]:  no，
+[Speaker 1]:  it's not。
+[Speaker 1]:  i mean，
+[Speaker 1]:  this facit is some stuff，
+[Speaker 1]:  this man and stuff，
+[Speaker 1]:  and that i can help。
+[Speaker 1]:  um uh，
+[Speaker 1]:  i detail quite a few examples where uh rants or coralition nasses and you it help support around postings，
+[Speaker 1]:  and it's inintender oaudence aazing stuff in area this，
+[Speaker 0]:  this will you？
+[Speaker 0]:  ds ds ds，
+[Speaker 0]:  to lot probability，
+[Speaker 1]:  there's more fundamental kind of things。
+[Speaker 1]:  and the first thing is the micro and micico the micro level，
+[Speaker 1]:  thea useful al ff ff。
+[Speaker 1]:  we can here here。
+[Speaker 1]:  um i talk about the，
+[Speaker 1]:  but the micro level is the the none of it stacks up financially，
+[Speaker 1]:  right？
+[Speaker 1]:  so you'd 're taking along of view about resilience。
+[Speaker 1]:  if i'm building my products based on a market sector that is fundamentally flawed，
+[Speaker 1]:  these company don't have a viable path to sustainability ility。
+[Speaker 1]:  when you say which come to the resolving about of open ayon as topic，
+[Speaker 1]:  you and the hydevivices right conservative nasses by the economists，
+[Speaker 1]:  showing the they needs be generating two point six trillion in revenue to justify their capicx expenefit by twenty thirty entire soft markets，
+[Speaker 1]:  one point four trillion。
+[Speaker 1]:  so micro lelevel，
+[Speaker 1]:  i don't know how i get sorted are not smart enough。
+[Speaker 1]:  i also don't have the shares of these companies，
+[Speaker 1]:  but you know，
+[Speaker 1]:  that's cesepreorization。
+[Speaker 1]:  i can't solve that。
+[Speaker 1]:  what i can start thinking about is okay。
+[Speaker 1]:  that's to what i'm operating in。
+[Speaker 1]:  how don't i deal with that？
+[Speaker 1]:  i can't do with all that。
+[Speaker 1]:  what i do if i'm taking futo resilienanciis being very careful about how i use AI。
+[Speaker 1]: 嗯，
+[Speaker 1]:  for example，
+[Speaker 1]:  you know，
+[Speaker 1]:  if i'm thinking taking along of you being more flexible about moden choices，
+[Speaker 1]:  that's going to help me if because i've got opportunity use open weight models from different vendors mazing just basic things like open i on anthroppic pretty terrible when it comes to availability of their core models from their services，
+[Speaker 1]:  no，
+[Speaker 1]:  which is way even。
+[Speaker 1]:  i know also when their services it we use google or amazon or or microsofors either their primary place，
+[Speaker 1]:  they goes this models，
+[Speaker 1]:  their their all bacs。
+[Speaker 1]:  they have better better time of than things。
+[Speaker 1]:  so there's all that stuff。
+[Speaker 1]:  we're got a deal with at that level。
+[Speaker 1]:  this was the conversation about non determinminism and charity called ght me oppommisc bit。
+[Speaker 1]:  and i said，
+[Speaker 1]:  the thing is that you know，
+[Speaker 1]:  we're going from determines six software，
+[Speaker 1]:  non determinm。
+[Speaker 1]:  you know，
+[Speaker 1]:  that's a challenge for us where an ethingwork。
+[Speaker 1]:  and and she said to me，
+[Speaker 1]:  our dissiupeity systems were never determined。
+[Speaker 1]:  and now they're really not determined。
+[Speaker 1]:  and of course，
+[Speaker 1]:  she's right。
+[Speaker 1]:  and now we take our dispppeted system，
+[Speaker 1]:  and we add people in beyond the rappyous，
+[Speaker 1]:  right and the ffires and the people we always had the gree of non determinism，
+[Speaker 1]:  which should amping the up a bit。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so i think that's a continuation。
+[Speaker 1]:  so for me，
+[Speaker 1]:  i think it's a confusing landscape，
+[Speaker 1]:  not good or bad。
+[Speaker 1]:  i think in a marral level is really great things so we can do it was in microlevel。
+[Speaker 0]:  that's the actical things so that we can do，
+[Speaker 0]:  right。
+[Speaker 1]:  i think really of what i mean by that is i'm taking the macroeconomic pilopolicsitsituation of。
+[Speaker 1]:  and i say that i debetter pose the things that we can make you up。
+[Speaker 1]:  there's some good stuff in that that we can make you of。
+[Speaker 1]:  but i also think it's i'm hadging。
+[Speaker 1]:  we need to do long term。
+[Speaker 1]:  if you are building eyon into your product，
+[Speaker 1]:  there's a simple heding thing。
+[Speaker 1]:  so being multi vendor being multi model，
+[Speaker 1]:  for example，
+[Speaker 1]:  breaking rather than having a single agent breaking that down into more workflow models。
+[Speaker 1]:  therefore，
+[Speaker 1]:  you can take bits of your work flow。
+[Speaker 1]:  and realize actually，
+[Speaker 1]:  this could now be swapt out for a bit determined c code。
+[Speaker 1]:  i write the good dmp efficiently。
+[Speaker 1]:  i think these all sensible things that you can do。
+[Speaker 1]:  we can't fix this。
+[Speaker 1]:  um we can least do with all world。
+[Speaker 1]:  and i think there's sensible things that we can do in that space。
+[Speaker 1]:  what are the things that we know that we do not know about how AII think the tech world in general is quite naive about AI and fundamentally misunderstands what an LM is。
+[Speaker 1]:  let's be real。
+[Speaker 1]:  but why did the LM lead my database？
+[Speaker 1]:  well，
+[Speaker 1]:  well，
+[Speaker 1]:  i have no concept of uuality。
+[Speaker 1]:  no，
+[Speaker 1]:  that's what it comes down to has no concept。
+[Speaker 1]:  of course，
+[Speaker 1]:  that as a glass here，
+[Speaker 1]:  i pushed that glass onto the floor。
+[Speaker 1]:  you'll be work as carpet down there。
+[Speaker 1]:  good。
+[Speaker 1]:  if if asked，
+[Speaker 1]:  you was going to happen en，
+[Speaker 1]:  you say，
+[Speaker 1]:  every glass that break and me find，
+[Speaker 1]:  if i pushed onto that floor，
+[Speaker 1]:  you're looking at。
+[Speaker 1]:  and and as a hard floor that might break，
+[Speaker 1]:  you're carrying a bunch of calculations in your head。
+[Speaker 1]:  youyou've got an idea about the physical properties of the universe。
+[Speaker 1]:  you've got since by push the glass，
+[Speaker 1]:  this is going to happen。
+[Speaker 1]:  elms，
+[Speaker 1]:  don't do anythat。
+[Speaker 1]:  i have no concept that if i do AB happens。
+[Speaker 0]:  yeah。
+[Speaker 0]:  well，
+[Speaker 0]:  there。
+[Speaker 0]:  there's push for world models，
+[Speaker 0]:  but these alams are not world models。
+[Speaker 1]:  almost a models have been you want for a long time。
+[Speaker 1]:  they i'll could be preday elms。
+[Speaker 1]:  they can do stuff like that。
+[Speaker 1]:  so they could make decisions like if you have the appropriate modern appropriate inputs，
+[Speaker 1]:  they could least get support of。
+[Speaker 1]:  if i do ex，
+[Speaker 1]:  i then why happens i'i've been told not to do y。
+[Speaker 1]:  this is while the gud raills around the lambs are really，
+[Speaker 1]:  really not long time，
+[Speaker 1]:  get a bit right solution。
+[Speaker 1]:  and so i think we expect an elems to do more they can actually do because they seeseem so smart，
+[Speaker 1]:  yeah。
+[Speaker 1]:  and so i think that's the problem when that leads to over estimate their capabilities uh a bit too much，
+[Speaker 0]:  i think，
+[Speaker 0]:  or maybe over rely on them without knowing and we might have semensidenence later eactually。
+[Speaker 1]:  absolutely。
+[Speaker 1]:  and i think we're knowing well and went to kind of to to use those things。
+[Speaker 1]:  and i think what we don't know right now is where should i be having？
+[Speaker 1]:  and again，
+[Speaker 1]:  this is wider。
+[Speaker 1]:  where should i have the ellenddit？
+[Speaker 1]:  and where should i just write some determistic code de？
+[Speaker 1]:  there's re's lot lot be said，
+[Speaker 1]:  said，
+[Speaker 1]:  just having ving agent cooler script，
+[Speaker 1]:  and you know that script works rather than having it implement the script。
+[Speaker 1]:  it is magical brain for you。
+[Speaker 0]:  well，
+[Speaker 0]:  there's something to be said that it seems both labs both leading labs on tropicc and opener have realized that coding is so important。
+[Speaker 0]:  so often times，
+[Speaker 0]:  when you ask it on to do something，
+[Speaker 0]:  it will start a generary code because it write to determinine ciy program like it，
+[Speaker 0]:  because that heart will be determinisistic as it's very interesting。
+[Speaker 0]:  when when you ask ked，
+[Speaker 0]:  if people often is pump out a python or or typed super or whatever it could especitually when it what it has to do with involve comare this or or that，
+[Speaker 0]:  and they have trained these models to like default to to coding。
+[Speaker 0]:  i'm i'm sure sure how this game came，
+[Speaker 0]:  but it seems to be working to some accepent。
+[Speaker 1]:  it's all six is very atactble right？
+[Speaker 1]:  meet。
+[Speaker 1]:  you know，
+[Speaker 1]:  they are，
+[Speaker 1]:  they are to generate closable code，
+[Speaker 1]:  so say they are to generate closable words，
+[Speaker 1]:  right？
+[Speaker 1]:  and in the context of code，
+[Speaker 1]:  they generates some plalausible code that we can now validate。
+[Speaker 1]:  does it execute yeah？
+[Speaker 1]:  and so that's a really nice set traciasaspects and are some places where it routes really，
+[Speaker 1]:  really well。
+[Speaker 1]:  but the other rate is way。
+[Speaker 1]:  it's terrible like II write my book。
+[Speaker 1]:  i used very it。
+[Speaker 1]:  let at MII at all。
+[Speaker 0]:  well，
+[Speaker 0]:  you don't use it for the writing，
+[Speaker 0]:  use it first。
+[Speaker 1]:  and you just verrerising at all。
+[Speaker 1]:  i use effect that we are are the research。
+[Speaker 1]:  but in the context，
+[Speaker 1]:  the research is，
+[Speaker 1]:  if i used notebacelam basically，
+[Speaker 1]:  but in that context，
+[Speaker 1]:  why is plausible？
+[Speaker 1]:  but then i't's going kickle the links，
+[Speaker 1]:  it is me。
+[Speaker 1]:  and i say，
+[Speaker 1]:  was that there or on，
+[Speaker 1]:  i am checking the work。
+[Speaker 1]:  it is done way more work than i could have done going through all those papers。
+[Speaker 1]:  and god nows than anysamning missed papers。
+[Speaker 1]:  you can read treit right？
+[Speaker 1]:  but that in that context，
+[Speaker 1]:  i feel completely find unable to do that in other settings。
+[Speaker 1]:  you get tting as is printical cognitive surrender，
+[Speaker 1]:  which is where using AII to write documents that you're never going onread that that's really really around problem problem with the allam technology。
+[Speaker 1]:  that's the problem with us。
+[Speaker 0]:  okay。
+[Speaker 0]:  we talk about this comning of surrender and coron of debt。
+[Speaker 1]:  yeah，
+[Speaker 1]:  comon tive deaths，
+[Speaker 1]:  a kind of has been around for a while that sort of explains the erosion in our ability to then critically and to reason the canoccur，
+[Speaker 1]:  when 're uusing II tols，
+[Speaker 1]:  there's been a bunch of research into this is showthere's been some studies that showing the people's ability to think critically is impacted the more they use chap out some things。
+[Speaker 1]:  and i thing we've so seen other examples that margandandor always got a great um asked all about this，
+[Speaker 1]:  and she signed some to the research around as well。
+[Speaker 1]:  and that's swas explaining the mean her hersing is and she's talking。
+[Speaker 1]:  we told about technical that building up in the system。
+[Speaker 1]:  we care be careful of uuse of our eyes，
+[Speaker 1]:  and it's a cognitive that we need to have a shared mental model of what this system is supposed to do。
+[Speaker 1]:  thinking about it narrowy the lengn of a program that we 're building。
+[Speaker 1]:  and if are use of II at an examamwe，
+[Speaker 1]:  we go off in different directions that shared bridge，
+[Speaker 1]:  you breaks down that becomes a core，
+[Speaker 1]:  a debt copetititihum qurentive surrenders of a different thing，
+[Speaker 1]:  which is like，
+[Speaker 1]:  oh，
+[Speaker 1]:  yeah，
+[Speaker 1]:  fine。
+[Speaker 1]:  it's basically LGTM right？
+[Speaker 1]:  uh，
+[Speaker 0]:  but what VII tells me yeah of LGCM was typical，
+[Speaker 0]:  looks good to me，
+[Speaker 0]:  uproproving large，
+[Speaker 0]:  poor request where you can not be bothered，
+[Speaker 0]:  or you try to look at it。
+[Speaker 0]:  and for whatever reason，
+[Speaker 0]:  you didn't want to go through，
+[Speaker 0]:  or i came from someone who you i'm stabp。
+[Speaker 1]:  i wasn't to get able tll taam on all stuff，
+[Speaker 1]:  right？
+[Speaker 1]:  and so LGTM was literally a sounwood patent match on and takes thousand approval。
+[Speaker 1]:  so you so LGTTM that person to preave right？
+[Speaker 1]:  and it was it。
+[Speaker 1]:  that was where i think that may be be with acconomically came from。
+[Speaker 1]:  not sure。
+[Speaker 0]:  i think you can never，
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah，
+[Speaker 1]:  but it is this idea that it is become short hds。
+[Speaker 1]:  ds II look at it yeah。
+[Speaker 1]:  and i think that's that psychologic surrender thing is coming out last ways。
+[Speaker 1]:  and you know，
+[Speaker 1]:  we're getting AI to write documents and now one's going to ad ad。
+[Speaker 1]:  we've got AI that's reading documents that went wrad by other people。
+[Speaker 1]:  and so the consci's renner piece is really that the humans it comes back to the human being in the loop as very shuttle differences in those worklolows into the currents of differences。
+[Speaker 1]:  it changes like there's there's a big difference i code docttry talks about。
+[Speaker 1]:  it's a big difference like if you are say a cancil oncolegist or as cancer species。
+[Speaker 1]:  it's a big difference to use on collegist working and ILLM doing so of detection of some lar scans。
+[Speaker 1]:  you're looking like done。
+[Speaker 1]:  uh you should look over there。
+[Speaker 1]:  by the way，
+[Speaker 1]:  you might miss that that's actually quite useful，
+[Speaker 1]:  right veris the ILM power AI going hewas scscans i'looked through。
+[Speaker 1]:  here's the one to lead you to sign off right。
+[Speaker 1]:  the last one，
+[Speaker 1]:  the second one right takes the expert out the loop and make some an approval。
+[Speaker 1]:  and often in that context，
+[Speaker 1]:  they've got rid of a bunch of the oncologists。
+[Speaker 1]:  you've got one person in the funal l。
+[Speaker 1]:  let's going to lead in to issues，
+[Speaker 1]:  right？
+[Speaker 1]:  the other model is we are making people better。
+[Speaker 1]:  i think that's combat the original idea of II。
+[Speaker 1]:  also on the，
+[Speaker 1]:  the pitch right was it was going to freus from trageerno，
+[Speaker 1]:  just like industry revolution was going to freus from trageery。
+[Speaker 1]:  but like it would elevate us，
+[Speaker 1]:  we'd have less toil。
+[Speaker 1]:  we can be this。
+[Speaker 1]:  we can focus more on critical thinking in smart。
+[Speaker 1]:  and so much of our current use of AI is not freeing us up in critical thinking is causing more context switching。
+[Speaker 1]:  it's causing less time for thinking。
+[Speaker 1]:  people are working longer hours。
+[Speaker 1]:  we because studies show this now。
+[Speaker 1]:  that's not necessary IOS fll。
+[Speaker 1]:  it's is how using it's like we knew we address that little bit。
+[Speaker 0]:  can we talk about complexity？
+[Speaker 0]:  uh，
+[Speaker 0]:  an AI，
+[Speaker 0]:  maybe adding it。
+[Speaker 0]:  i'm going to call you from about it from a few months back eurode。
+[Speaker 0]:  i worry AI could just become an exercise and duoubling down on current complexity rather than stripping things back to simplify，
+[Speaker 0]:  at least in the platform space。
+[Speaker 1]:  yeah，
+[Speaker 1]:  can't be the exact context in which you had that conversation。
+[Speaker 1]:  but i mean，
+[Speaker 1]:  platform space was all，
+[Speaker 1]:  i mean，
+[Speaker 1]:  not the platform space kind of interesting like because that wasn't attempt to make things simply for developers because your cuban etties became popular。
+[Speaker 1]:  and it's not develop a friendly。
+[Speaker 0]:  that's not always designed for nine，
+[Speaker 0]:  but most most of able pershave have been such a night。
+[Speaker 1]:  i mean，
+[Speaker 1]:  well，
+[Speaker 1]:  if you have a platform，
+[Speaker 1]:  don't have a platform。
+[Speaker 1]:  yeah。
+[Speaker 1]:  yeah。
+[Speaker 1]:  there's a platform seems problem，
+[Speaker 1]:  right？
+[Speaker 1]:  and that's what they get paid，
+[Speaker 1]:  they will they get paid。
+[Speaker 1]:  but and and so i think there was this idea that i was sort of hoping that i'll be a bit of a complexity collapse around that space。
+[Speaker 1]:  i had this，
+[Speaker 1]:  hope the things like WHGOF example seem to find down that programme modewas a little bit。
+[Speaker 1]:  um and i think theystarting to be a bit of AA bit of a conversations trying to be had about some of that stuff going on，
+[Speaker 1]:  what then happens，
+[Speaker 1]:  of course，
+[Speaker 1]:  as i eyes come out，
+[Speaker 1]:  and it was like，
+[Speaker 1]:  i've got to AI all the things。
+[Speaker 1]:  and so rather than thinking about what we need and try to strip back complexity back。
+[Speaker 1]:  we've now just got another piece that requires。
+[Speaker 1]:  it still have the all the old complex deep，
+[Speaker 1]:  adding new，
+[Speaker 1]:  complex tion top。
+[Speaker 1]:  and somebody got look comfortable that stuff，
+[Speaker 0]:  but i think it goes by so little bit of like we seems have more work with AI。
+[Speaker 0]:  and probably doesn't help that they cannot more complexiity，
+[Speaker 0]:  especially when we're not ch being clear of what we want wearing up being critical of the output when we have cogninitive debt or cognitive strrender，
+[Speaker 0]:  especially of a cognitive center，
+[Speaker 0]:  you know，
+[Speaker 0]:  little just right。
+[Speaker 0]:  so it these things might be amplifying，
+[Speaker 0]:  though the fact that，
+[Speaker 0]:  that just more more work，
+[Speaker 0]:  more complexity，
+[Speaker 0]:  right？
+[Speaker 1]:  yeah。
+[Speaker 1]:  and i think there's also that connection through to what they i line is doing。
+[Speaker 1]:  storms comes ful circle letlittle bit，
+[Speaker 1]:  which is the idea of potential。
+[Speaker 1]:  not looking at the code isn't say that you don't care about what the system is that your building is to say that you've got a better way of understanding what your building。
+[Speaker 1]:  so one of the concerns is，
+[Speaker 1]:  if i'm using AI to create，
+[Speaker 1]:  because is a good to great，
+[Speaker 1]:  awful those of dead and a complicated system that knows going to understand，
+[Speaker 1]:  or we can't let that happen。
+[Speaker 1]:  we still need to remain connected to the system that we building，
+[Speaker 1]:  which is what i'm a just a big fan of like moderorizing system，
+[Speaker 1]:  whether not you put as modules and different computers that don't actually care getting AI to work within the modules。
+[Speaker 1]:  having the humans think carefully about what these modules are on the connections between them。
+[Speaker 1]:  let the i go howgwd inside。
+[Speaker 1]:  those boundaries are are easy to change the gaps between them。
+[Speaker 1]:  that's where the human beings ends to think about the mental modivying fits and slogs together um that，
+[Speaker 1]:  that it was a very same way frous to balance our time，
+[Speaker 1]:  our energy appropriately。
+[Speaker 0]:  so do enpsychirately that y're AA probably sensible approach is have the orchestra in your head，
+[Speaker 0]:  know how your system works，
+[Speaker 0]:  know how the boxes work know where there's AI inside it。
+[Speaker 0]:  maybe it's generating code。
+[Speaker 0]:  maybe it's running your incidents response up in isoted ways and then spend your time talking with other people in the business on your team，
+[Speaker 0]:  which your customers，
+[Speaker 0]:  because you're as as you said，
+[Speaker 0]:  systems like software is is people's ideas connected。
+[Speaker 0]:  and you have things in your head ad，
+[Speaker 0]:  you write it down。
+[Speaker 0]:  but now using as AASA tool to enable you to maybe take on larger chunks of the business and maybe make better decisions because maybe you have more time to as as an engineer，
+[Speaker 0]:  understand more on the business on what is working，
+[Speaker 0]:  what is important，
+[Speaker 0]:  those kind of thing。
+[Speaker 1]:  yeah。
+[Speaker 1]:  and also to make the structure on the model。
+[Speaker 1]:  this is a bit more explicit as well。
+[Speaker 1]:  mean，
+[Speaker 1]:  that's one thing。
+[Speaker 1]:  a good modeor structure does，
+[Speaker 1]:  and it is why shoppy before i've been so success or keeping their things among it，
+[Speaker 1]:  right，
+[Speaker 1]:  right，
+[Speaker 1]:  because thespbeen a lot of time building them monof the application as a modular damaggian architecture，
+[Speaker 1]:  right？
+[Speaker 1]:  because it makes a structure easier to understand，
+[Speaker 1]:  you can zoom out and see how those things fit together，
+[Speaker 1]:  but also in the short term，
+[Speaker 1]:  while we're having these debates about，
+[Speaker 1]:  are we going full software，
+[Speaker 1]:  full software factory or not，
+[Speaker 1]:  we don't have to make a one size fiital approach。
+[Speaker 1]:  we can say，
+[Speaker 1]:  look，
+[Speaker 1]:  this is our architecture be a motllar model leor marxioze architecally matter。
+[Speaker 1]:  i know if ther here，
+[Speaker 1]:  this area is where we trying the full software efactory approach where we don't look at the code anymore，
+[Speaker 1]:  but we specify the interface。
+[Speaker 1]:  we have verification around that。
+[Speaker 1]:  we know it good。
+[Speaker 1]:  looks like for that module，
+[Speaker 1]:  right？
+[Speaker 1]:  we've got functual test test。
+[Speaker 1]:  it look at say some of the operational requirements as well。
+[Speaker 1]:  but these areies over here，
+[Speaker 1]:  we're still wrapping。
+[Speaker 1]:  these are really key really important to us。
+[Speaker 1]:  we not ready to give up on this yet because we don't have the trust level yeet。
+[Speaker 1]:  we don't will take that risk just yeah。
+[Speaker 1]:  and so over here，
+[Speaker 1]:  we're onna what with the AI more the collaborative way。
+[Speaker 1]:  while we work together，
+[Speaker 1]:  we stock in the inciment involved the goy because we're not ready to make that step here。
+[Speaker 1]:  but if we approach our horses was one big black box，
+[Speaker 1]:  then we fought into making one or eye decision。
+[Speaker 1]:  sion learning，
+[Speaker 1]:  that's healthy。
+[Speaker 0]:  do i stand that？
+[Speaker 0]:  you're you're saying that you think that the soft of actually to the dark factory，
+[Speaker 0]:  you given get it a spack or or in in the AI，
+[Speaker 0]:  you're building it or operating it，
+[Speaker 0]:  that that you see that as viable。
+[Speaker 1]:  there are some companies and either already already on this，
+[Speaker 1]:  not if one should be doing it whasoever。
+[Speaker 1]:  i think if that is our future east，
+[Speaker 1]:  that is our future，
+[Speaker 1]: 那也是 lowest day。
+[Speaker 1]:  the question is about how you got about adopting and trying what i'm trying to do is find ways in which we can lower the barrier to entry to try these ideas out in a safe wake and like lworist environments。
+[Speaker 0]:  and it maybe simple domains，
+[Speaker 0]:  those kind of things，
+[Speaker 0]:  right it。
+[Speaker 1]:  it also like a lot of dark factories don't create finish products by real world。
+[Speaker 1]:  beyond fact，
+[Speaker 1]:  that real world dark factories aren't many of them。
+[Speaker 1]:  most crecreate components don't create the finish product。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so in the same way，
+[Speaker 1]:  if you think about a module being a piece of the overrouaching system right？
+[Speaker 1]:  well，
+[Speaker 1]:  let's have a factuory on these bits here。
+[Speaker 1]:  and actually，
+[Speaker 1]:  looking at it like if we had to rewrite that from scratch，
+[Speaker 1]:  it might take us like with the collaborative way with they，
+[Speaker 1]:  i it might take us a few weeks after to rewrite，
+[Speaker 1]:  if we had to thatactually would quite relax，
+[Speaker 1]:  actually，
+[Speaker 1]:  even that to go us is，
+[Speaker 1]:  and let's be working fine。
+[Speaker 1]:  and it's so it's a model around which youyou got great test coverage already，
+[Speaker 1]:  for example，
+[Speaker 1]:  or where it's not on the critical performal lency point of you，
+[Speaker 1]:  or it's a service where we you got really good observability data and really well to find，
+[Speaker 1]:  as allows and got a good study state。
+[Speaker 1]:  well，
+[Speaker 1]:  we can start running as a factory now seeing what's happening in production。
+[Speaker 1]:  we could have a look at the isoos。
+[Speaker 1]:  we may be at some special isoos around there。
+[Speaker 0]:  i'm i'm here you quick that。
+[Speaker 0]:  you're saying that as as a professional，
+[Speaker 0]:  someone who wants to be up to date with the new techniques that we can use，
+[Speaker 0]:  it's probably if you have the opportunity to start to build a software are factory a somewhat autonomous place in a in a component in something lorrist。
+[Speaker 0]:  it's probabwe're trying it out to see how it work to see what you learn to see if it even works to word breaks down，
+[Speaker 0]:  but dude in a way where you 're you are minizzin。
+[Speaker 0]:  the last sterate is a little bit like one，
+[Speaker 0]:  you know what microserservices came out。
+[Speaker 0]:  the concept even start by moving your biggest thing，
+[Speaker 0]:  you start to build it。
+[Speaker 0]:  a small service had divenally matter all that much，
+[Speaker 0]:  and you were okay to have learn from it when it goes down。
+[Speaker 0]:  and it wasn't on the on the half path for the business。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i think it's thing stuck off with is getting head around respect。
+[Speaker 1]:  so looking inspecuum development with that caero or testle or speck kit，
+[Speaker 1]:  whatever that is up levels，
+[Speaker 1]:  right different。
+[Speaker 1]:  how look a bibigage to oscle or that a good on ramp get ahead of it start off by playing around with that because that's the stepping is dying。
+[Speaker 1]:  that's like you have to define what good looks like as an input your factory there stoart with the spek would like input。
+[Speaker 0]:  and also for the output。
+[Speaker 1]:  yes。
+[Speaker 1]:  and then it's like how you verify how you going to a go about very finding out of the factory you have ver。
+[Speaker 1]:  think about that and know，
+[Speaker 1]:  like not just in terms of the the kind of normal of behavial al quiquirements。
+[Speaker 1]:  so like like like like i agree with nvery hehey on is he so he hates non functional requirements。
+[Speaker 1]:  because so if a functional is something is non functional immeans，
+[Speaker 1]:  it doesn't because so he breaks about dinits like development requirements，
+[Speaker 1]:  um operational requirements。
+[Speaker 1]:  and so a business requirement。
+[Speaker 1]:  so i think it's nice weare doing that。
+[Speaker 1]:  so so those rereaces，
+[Speaker 1]:  how do i verify that the software being create by this module is has matched my developer requirements。
+[Speaker 1]:  so for same maintainability，
+[Speaker 1]:  no operational requirements，
+[Speaker 1]:  latency up time。
+[Speaker 1]:  and my business requirement。
+[Speaker 1]:  is it working features working？
+[Speaker 1]:  so as long you've got got away validating you're the software around that？
+[Speaker 1]:  and if you don't know what the good looks like for those three things，
+[Speaker 1]:  guess，
+[Speaker 1]:  well isn't working。
+[Speaker 1]:  so you can do respects ono，
+[Speaker 1]:  but you can't do factory。
+[Speaker 1]:  no ah big respects and that's business sofering and you way that。
+[Speaker 1]:  and i think it might not what there there ybe some that may well be some point ananyy。
+[Speaker 1]:  this could be model given development all again，
+[Speaker 1]:  which we do not have tonch getting to go get very angry about it。
+[Speaker 1]:  but it could be that，
+[Speaker 1]:  but i have a hope it might actually work this time unlike MDM。
+[Speaker 0]:  and then as causing we，
+[Speaker 0]:  i think a lot of what we talks about is it's important to hold the arctuture in your head to to think about ararcture to think how to module ze ze。
+[Speaker 0]:  now for engineers who want to get better at this kind of high leveble thinking，
+[Speaker 0]:  strategic thking architecal thinking outside of reading your book，
+[Speaker 0]:  which i think brings a lot of really good ideas on architect as well and not just as reiliant system。
+[Speaker 0]:  but outside about what you were your recommendation before know for deproprofessional and engineer was like，
+[Speaker 0]:  i'd like to get better at architecing system to know know what good looks like。
+[Speaker 1]:  II think is a few books。
+[Speaker 1]:  i'd can point people out。
+[Speaker 1]:  i think the um self ararchitect fundamentals by new phd and not，
+[Speaker 1]:  which is is good。
+[Speaker 1]:  good ad m。
+[Speaker 1]:  to be clear their friends of mine，
+[Speaker 1]:  so i'm not unbiice and recommending it。
+[Speaker 1]:  i would say，
+[Speaker 1]:  around the modularity black colt on office book on balanced coupling is fantastic and mean his book DE days also very good，
+[Speaker 1]:  but but that balance ance ed ing mobook is really think he's also developing skills and cw to takes some those ideas to definitely definitely take a look at those。
+[Speaker 1]:  and i think if you're looking at things architection ction you thinking terms of modules for me。
+[Speaker 1]:  i like don't agree that having marketing news book is lots of great stuff in there，
+[Speaker 1]:  but for me，
+[Speaker 1]:  like she will start。
+[Speaker 1]:  i thought memendily right，
+[Speaker 1]:  right？
+[Speaker 1]:  the segnition of building mark services was really all about smuggling in getting people thinking about single information hiding ings。
+[Speaker 1]:  a very all idea for the ninety seventies still comes back back。
+[Speaker 1]:  set to me。
+[Speaker 1]:  modules are still a whole thing for me。
+[Speaker 1]:  so i would read flatsbook。
+[Speaker 1]:  and if you want to go read vigital partnersppapers from nineteen sevenseventy one ninenineteen seventy two is still worth reading，
+[Speaker 1]:  but those be good jumping of points。
+[Speaker 1]:  i would say you can still，
+[Speaker 1]:  i think the nice thing about thinking terms of modulles is even within the existing code base。
+[Speaker 1]:  you can start to modularize it in some small ways。
+[Speaker 1]:  you can start to think about boundaging things about clear separation about it using capsulations with information away。
+[Speaker 1]:  and i guess it's fair to say，
+[Speaker 0]:  like，
+[Speaker 0]:  look，
+[Speaker 0]:  if you have ideidea how you can make your existing code is a bit more module。
+[Speaker 0]:  you have zero excuse not to do。
+[Speaker 0]:  i mean，
+[Speaker 0]:  we don't trust agents fully。
+[Speaker 0]:  but this is a textbook example of like if you can say here's my goal，
+[Speaker 0]:  refacleor or this，
+[Speaker 0]:  like if it would have taken by hand examt of time，
+[Speaker 0]:  it would be best or so。
+[Speaker 0]:  so you you should be empowered to have these experiment with this，
+[Speaker 1]:  especially if you've got a decent test week。
+[Speaker 1]:  and if not start with that stostostoght with that，
+[Speaker 1]:  if you got start ted typlanlanguage，
+[Speaker 1]:  yeah，
+[Speaker 1]:  even needs you just a good old fashion。
+[Speaker 1]:  ideideis is an amazing job right？
+[Speaker 1]:  then i'm etype language。
+[Speaker 1]:  now i don't have the excuse，
+[Speaker 1]:  especially as a modern one ce，
+[Speaker 1]:  well understood by the MM。
+[Speaker 1]:  so if you're using，
+[Speaker 1]:  you know，
+[Speaker 1]:  path in the rubit's so much best。
+[Speaker 1]:  now it used to be for refreshction ous code basis。
+[Speaker 1]:  absolutely。
+[Speaker 1]:  you can start tesway in around that，
+[Speaker 1]:  but yet you can start motorizing。
+[Speaker 1]:  and that's about building。
+[Speaker 1]:  and that's also a little bit going back again to taking and don't want the architecture only in your head，
+[Speaker 1]:  right？
+[Speaker 1]:  we want the the code to sort represent that mental model。
+[Speaker 1]:  yep，
+[Speaker 1]:  because we communicate through the code and may be in the future，
+[Speaker 1]:  be communicating through spfaccts。
+[Speaker 1]:  and when you make those things more explicship than i think that helps everyonestand in the same page，
+[Speaker 1]:  there's a george fair banks，
+[Speaker 1]:  roboband forforttten name the book now，
+[Speaker 1]:  but in it has a patatent called an architecally evident coding style，
+[Speaker 1]:  and that we should code in such a way that the KV communicates the architecture of the system。
+[Speaker 1]:  and i think our programme language is quite ite adi having a good concept models in general。
+[Speaker 1]:  so i think we have to go a bit beove ve beyond ourselves，
+[Speaker 1]:  but we could do more to make the architecture assystems that little bit more exclusive。
+[Speaker 1]:  this is also what i has been in time production because especially if your motorstructure ends up AA process structure，
+[Speaker 1]:  otherwise it's process boundaries。
+[Speaker 1]:  i can go at the network to find out my architecture。
+[Speaker 1]:  i shldn't have to，
+[Speaker 1]:  but at least ast know know ah know know production is truth，
+[Speaker 1]:  is like football y's life。
+[Speaker 0]:  production is truth because eecan people get your book can go order order it now。
+[Speaker 1]:  um if you can go buy from local bookshop，
+[Speaker 1]:  but it was a great idea。
+[Speaker 1]:  i it's also going to be available for people on the i ride platform in sort of digital forms。
+[Speaker 1]:  she can going read it as part of a subscriber。
+[Speaker 1]:  everybody can get it there as well。
+[Speaker 1]:  but i lots people love having the physical copy，
+[Speaker 0]:  and we have we have these inichannels，
+[Speaker 0]:  but also checked them out to the book directly。
+[Speaker 0]:  and also，
+[Speaker 0]:  you man doing some videos，
+[Speaker 0]:  right？
+[Speaker 1]:  yeah。
+[Speaker 1]:  well，
+[Speaker 1]:  i've been doing some stuff on day fallies moon fofer engineering channel。
+[Speaker 1]:  it's the kind of a good excuse to udo some。
+[Speaker 1]:  so semi rant，
+[Speaker 1]:  you know，
+[Speaker 1]:  modeloks to video and and have some fun chat。
+[Speaker 1]:  so yeah，
+[Speaker 1]:  go the the suffer engineering channel on youtube。
+[Speaker 1]:  and you can find videos from me in diafari。
+[Speaker 1]:  and kevin heneys，
+[Speaker 1]:  there rots up from kent，
+[Speaker 1]:  trigegy，
+[Speaker 1]:  everybody，
+[Speaker 1]:  sh stan office，
+[Speaker 1]:  there is，
+[Speaker 1]:  well，
+[Speaker 1]:  i'm pretty sure i forgotten somebody else。
+[Speaker 1]:  uh，
+[Speaker 1]:  it's almost couple of people as well，
+[Speaker 1]:  but we we try and poll video s once ce k can it's a bit fun。
+[Speaker 0]:  placed can wealso also like that one yeah。
+[Speaker 0]:  and if people would would want to work with you，
+[Speaker 0]:  where can they find you，
+[Speaker 0]:  how can they find you？
+[Speaker 0]:  what kind of what kind of stuff can they get help from you for？
+[Speaker 1]:  but do like like like internal talks of people，
+[Speaker 1]:  like internal events。
+[Speaker 1]:  i do that cuast。
+[Speaker 1]:  my training causes in a whole variety of things are have gendent systems and security and microo services。
+[Speaker 1]:  i also do a lot of consulting for clients pping the around of rearchitecting their systems to stuff like that。
+[Speaker 1]:  you know，
+[Speaker 1]:  more about that，
+[Speaker 1]:  i'have actually got to my website samney and DIO。
+[Speaker 1]:  and you can contact me that you can also find me on linkton。
+[Speaker 1]:  but if you come straight to the website use email，
+[Speaker 1]:  i'm was in a bit old fashioned like that。
+[Speaker 1]:  and i wrote a council over the world。
+[Speaker 1]:  so if i'm able to help yeah head over it，
+[Speaker 1]:  assam human that i owe my contact details of there。
+[Speaker 0]:  wonderful。
+[Speaker 0]:  well，
+[Speaker 0]:  sam，
+[Speaker 0]:  thanks again，
+[Speaker 0]:  this is great。
+[Speaker 0]:  thank you。
+[Speaker 0]:  thanks very much。
+[Speaker 0]:  assafor this composation，
+[Speaker 0]:  i really like sam three rules of distribubutive systems。
+[Speaker 0]:  one，
+[Speaker 0]:  it takes time。
+[Speaker 0]:  two。
+[Speaker 0]:  sometimes the thing you want to talk to isn't there。
+[Speaker 0]:  three resource polls are not infinih，
+[Speaker 0]:  sam said how most of the objeges happen because of his last one，
+[Speaker 0]:  resourolles polls not being infinite and services are getting saturated。
+[Speaker 0]:  but i was chocolating when he was talking about the rabbits through two networking cables between office buildings。
+[Speaker 0]:  then again，
+[Speaker 0]:  a few weeks ago with thousands of flights strengened down the east coast of the US。
+[Speaker 0]:  it was because workers excellent cut a telegon cable in new jersey used by the faa。
+[Speaker 0]:  another，
+[Speaker 0]:  if we ffought from sm as how failure should be handled differently，
+[Speaker 0]:  depending on a type of business and e commerce shop might decide to show you the item when the eventro servare is down worse case after you order and pay，
+[Speaker 0]:  they just refund you because brolekeo，
+[Speaker 0]:  we don't have the item basically failing open as final in this case。
+[Speaker 0]:  but on a concert ticketing website，
+[Speaker 0]:  you don't want a sell stick at that might or might not be there。
+[Speaker 0]:  and so failing clothes is rai call to make。
+[Speaker 0]:  because again，
+[Speaker 0]:  as disdiscuss in the episode，
+[Speaker 0]:  if you sell the ticket，
+[Speaker 0]:  people might book flies，
+[Speaker 0]:  they might get accept。
+[Speaker 0]:  you might lose them as customers。
+[Speaker 0]:  finally，
+[Speaker 0]:  i appreciated how level had perperps ps even cautious sam is about AI。
+[Speaker 0]:  he's got no doubts that AI is very useful at the micro level，
+[Speaker 0]:  basic a attactical at things that we can already approve，
+[Speaker 0]:  but he is worried about the economics of the model providers。
+[Speaker 0]:  his suggestions pretty fragtic tic，
+[Speaker 0]:  hadge，
+[Speaker 0]:  your vendors and your models，
+[Speaker 0]:  multivvender and mulltitall，
+[Speaker 0]:  and wherever you can swap non deterministic AI agent works those to deterine，
+[Speaker 0]:  a sequants basically have l ems generate deterministic code。
+[Speaker 0]:  i find very，
+[Speaker 0]:  very refreshing thinking，
+[Speaker 0]:  check this sh almost below for the story about scaling uber，
+[Speaker 0]:  the earlities with ubbfor for c to to twan palm that we discussed。
+[Speaker 0]:  and it's awesome story。
+[Speaker 0]:  and for more of the piametic engineerdedeep zed on resilient systems。
+[Speaker 0]:  if you enjoy this show，
+[Speaker 0]:  do subscribe ing your favorite postcast player，
+[Speaker 0]:  and thank you very much。
+[Speaker 0]:  if you recommend the postcast to your friends or your colleagues，
+[Speaker 0]:  thanks，
+[Speaker 0]:  and i'll see you the next woman。
