@@ -1,0 +1,346 @@
+[Speaker 0]:  first time founders tend to think that building a company is a one time thing and really actually building a company is like being an artisen or holding a craft。
+[Speaker 0]:  i think if you have the mental perspective that you're going to do this for many，
+[Speaker 0]:  many years，
+[Speaker 0]:  and you might do a two or three or four times，
+[Speaker 0]:  then you actually approach starting a company slightly differently。
+[Speaker 0]:  and it's great，
+[Speaker 0]:  great。
+[Speaker 0]:  if first company company ks ks，
+[Speaker 0]:  then often times it doesn't work。
+[Speaker 0]:  often company，
+[Speaker 0]:  i spent three years on。
+[Speaker 0]:  it was a successful some of the biggest lessons i learned that make a planant tuition，
+[Speaker 0]:  you know which more successful came from that company twenty years ago。
+[Speaker 0]:  so what makes a company succeed versus company failm？
+[Speaker 0]:  the biggest mistake i've made in terms of starting companies is，
+[Speaker 0]:  but it was catherine unus。
+[Speaker 0]:  i built a lilight intuition before II was COO。
+[Speaker 0]:  and why commondinator？
+[Speaker 0]:  and before that，
+[Speaker 0]:  i found it a company，
+[Speaker 0]:  which is acquite by google。
+[Speaker 0]:  and at the beginning of my career，
+[Speaker 0]:  i work as an engineer at gentmtters and bosch。
+[Speaker 0]:  a planting tuition is a physical ai company。
+[Speaker 0]:  a lot of times people think physical ai is just human oids and humanoids is a very interesting form factor of physical ai。
+[Speaker 0]:  but i actually think cars and trucks and industrial equipment is something that can be made more intelligent and have a bigger impact sooner。
+[Speaker 0]:  this is the gigtruck。
+[Speaker 0]:  it has some some self driving hardware on there。
+[Speaker 0]:  these trucks are running live on japanese roads right now autonomously。
+[Speaker 0]:  our mission is to put intelligence on a billion machines。
+[Speaker 0]:  the only way you do that is you take the same platform and you put it on lots of different machines。
+[Speaker 0]:  and why do you want to put intelligence in those machines？
+[Speaker 0]:  because those machines right now are pretty dumb？
+[Speaker 0]:  they require human beings to operate them。
+[Speaker 0]:  if you put intelligence in those machines，
+[Speaker 0]:  they can function themselves。
+[Speaker 0]:  and if they can function themselves，
+[Speaker 0]:  they provide a lot more value。
+[Speaker 0]:  the company is over a thousand engineers or almost fifteen hundred people，
+[Speaker 0]:  the cometies valued at fifteen billion dollars。
+[Speaker 0]:  our products are deployed in dozens of countries around the world in lots of manufacturers in many verticals。
+[Speaker 0]:  now it's more famous as the place where the industry has already started to die。
+[Speaker 0]:  i grew up very much in the shadow of the american car industry，
+[Speaker 0]:  losing its position as the best in the world。
+[Speaker 0]:  so i'm entering as an engineer in the industry，
+[Speaker 0]:  which was in a very volatile situation。
+[Speaker 0]:  my reflection on that was if i stay in this industry and industry shrinks that can be very bad for me as an engineer。
+[Speaker 0]:  so part of my ambition to become a founder was to control my own destiny。
+[Speaker 0]:  i left really great jobs at general motors and abbosh，
+[Speaker 0]:  with really great companies to make my own company。
+[Speaker 0]:  it seems like a pretty risky thing，
+[Speaker 0]:  but twenty years later，
+[Speaker 0]:  it was it was the right thing as that can drive themselves。
+[Speaker 0]:  it still sounds like science fiction。
+[Speaker 0]:  i guess what it is here。
+[Speaker 0]:  industry is very different when we found to applied in twenty seventeen itself driving it wasn't people were not clear how self driving rebuilt。
+[Speaker 0]:  it wasn't clear self driving would happen。
+[Speaker 0]:  it seemed like as a very research oriented a lot of the eyybreakbreakthrough hadn't happen。
+[Speaker 0]:  and then this is really important。
+[Speaker 0]:  the transformer and this new architecture，
+[Speaker 0]:  which the large language models of really benefiting from also has a lot of impact in self driving。
+[Speaker 0]:  all of these almost building blocks didn't exist。
+[Speaker 0]:  and maybe the biggest point was，
+[Speaker 0]:  we worked sure if self driving whatever happened。
+[Speaker 0]:  i think at that time，
+[Speaker 0]:  lots of self driving car companies，
+[Speaker 0]:  many that don't exist anymore。
+[Speaker 0]:  we're doing actually what some of the ai companies today are doing。
+[Speaker 0]:  one thing is they would try to go vertical。
+[Speaker 0]:  they try to build everything the tools into all everything。
+[Speaker 0]:  the data engine，
+[Speaker 0]:  sometimes even you know the vehicles themselves，
+[Speaker 0]:  they're 're going to do robot taxi。
+[Speaker 0]:  they're going to do do truck that becomes very，
+[Speaker 0]:  very expensive。
+[Speaker 0]:  at that time。
+[Speaker 0]:  we felt pretty strongly。
+[Speaker 0]:  it's not obvious which vertical is going to work，
+[Speaker 0]:  and it's not obvious that being a vertical，
+[Speaker 0]:  some driving car company is actually valuable。
+[Speaker 0]:  a lot of times companies will spend a lot of their resources and energies on things that actually the end customer doesn't really care about。
+[Speaker 0]:  this is the inside of a car。
+[Speaker 0]:  this is kind of a classic inside of a vehicle，
+[Speaker 0]:  and this is using some of our platform。
+[Speaker 0]:  and the big difference between these two is there's a lot of fear componenthere here as make make vehicle intelligent。
+[Speaker 0]:  you also want to change the platform that it's on。
+[Speaker 0]:  the traditional platforms are not really made for autonomy。
+[Speaker 0]:  they're not really made for intelligence。
+[Speaker 0]:  each of the components are separate the newer version vehicles。
+[Speaker 0]:  we can reduce a lot of that onto individual compute。
+[Speaker 0]:  and then you can put intetelons on there。
+[Speaker 0]:  and you can all these other other，
+[Speaker 0]:  like non intellgent things like rolling up the window and playing your music and things like that。
+[Speaker 0]:  the downsroom impact is just a lot。
+[Speaker 0]:  fewer components。
+[Speaker 0]:  i think the most exciting part is taking the same platform and putting on so many different vehicles。
+[Speaker 0]:  if you're building this type of platform or intelligence，
+[Speaker 0]:  just for one vertical，
+[Speaker 0]:  it might never happen because it's too expensive。
+[Speaker 0]:  most industries，
+[Speaker 0]:  the horizontal companies actually do really well take，
+[Speaker 0]:  for example，
+[Speaker 0]:  data labelling。
+[Speaker 0]:  every company can make a data labelling product for themselves to help label the data they're collecting from their fleet，
+[Speaker 0]:  but that end customer who buys the self driving system doesn't really care about。
+[Speaker 0]:  who did they buy the data labelor？
+[Speaker 0]:  did they make the data labeler he fast forward today？
+[Speaker 0]:  there's long more horzzhhorizzonzalization。
+[Speaker 0]:  so you can go，
+[Speaker 0]:  and you can buy a lot of the parts of the stack，
+[Speaker 0]:  allowing you as the self driving company to focus on just the most valuable and most important part of the self driving problem problem。
+[Speaker 0]:  the downstream impact of the twenty seventeen approaches。
+[Speaker 0]:  it required lots and lots of capital of your building everything yourself in a very specific vertical。
+[Speaker 0]:  so you're taking the risk capital risand。
+[Speaker 0]:  you're taking the market risk wwing your vertical。
+[Speaker 0]:  and that's why vast majority the companies have not made it to today。
+[Speaker 0]:  and we said，
+[Speaker 0]:  okay，
+[Speaker 0]:  actually，
+[Speaker 0]:  we should just provide the tools and let everybody try to figure out self driving。
+[Speaker 0]:  and that was a very，
+[Speaker 0]:  very good move predominally because because on the manufactuture side，
+[Speaker 0]:  so not on self driving。
+[Speaker 0]:  but on the manufacture side，
+[Speaker 0]:  they were always going to be interested in building a lot of this technology themselves。
+[Speaker 0]:  one of my first earliest engineering managers in his office。
+[Speaker 0]:  he had a sign that said，
+[Speaker 0]:  no problem can withstand the constant onslaught of thought。
+[Speaker 0]:  uc AI companies today spending a lot of money that doesn't necessarily mean that they will be successful。
+[Speaker 0]:  it doesn't mean they are automatically going to be unsuccessful，
+[Speaker 0]:  but it's more risk。
+[Speaker 0]:  so i think the best founders are thinking about the whole problem。
+[Speaker 0]:  some of the problem is engineering and the technology，
+[Speaker 0]:  but the other problems is the business。
+[Speaker 0]:  and you want to make sure both those things are working together。
+[Speaker 0]:  having a fair amount of focus on commercialization。
+[Speaker 0]:  i think，
+[Speaker 0]:  is，
+[Speaker 0]:  is important automotic of oems。
+[Speaker 0]:  they work in a very competitive industry。
+[Speaker 0]:  you know，
+[Speaker 0]:  i went to the general ininstite。
+[Speaker 0]:  i grew up in this extremely competitive industry when you're in a very competitive industry，
+[Speaker 0]:  you're very thoughtful about how you spend your money。
+[Speaker 0]:  and therefore，
+[Speaker 0]:  there has be very clear value。
+[Speaker 0]:  and so the way that it impacted us is we have to build products that have very，
+[Speaker 0]:  very clear value。
+[Speaker 0]:  there's no company on the planet that does physically eye in this breath that we do in as a horizontal company，
+[Speaker 0]:  providing that intelligence lare to all these other companies。
+[Speaker 0]:  my biggest contrarian view is that you have to build a business model into the technology and the technology built around a business model。
+[Speaker 0]:  you can't add it on the afterwards。
+[Speaker 0]:  it's very hard to put in plumbing after the house ago。
+[Speaker 0]:  i think my biggest recommendation is really think about commercialization earlier than you think you should be thinking about it。
+[Speaker 0]:  previous experience is working as an engineer and has spent a lot of time in factories。
+[Speaker 0]:  the huge impact within for anybody who's worked in factories knows is it's a heavily processed area。
+[Speaker 0]:  you do x and the quality。
+[Speaker 0]:  the parts is why you do a different thing。
+[Speaker 0]:  the quality，
+[Speaker 0]:  the parts is different，
+[Speaker 0]:  and through put and efficiency，
+[Speaker 0]:  everything can be measured。
+[Speaker 0]:  think about like mcdonald's，
+[Speaker 0]:  about times a million like a factory is just all these little things that after to work together，
+[Speaker 0]:  i think that reinforced in my brain，
+[Speaker 0]:  this concept that even a company is almost a system。
+[Speaker 0]:  so i take the almost like the engineering mindset into business。
+[Speaker 0]:  and i think that's been very valuable for the company。
+[Speaker 0]:  the engineering mindset is one where measuring things is is important。
+[Speaker 0]:  it's one being truthful is important。
+[Speaker 0]:  let's say for talking about art，
+[Speaker 0]:  sometimes up to somebody's taste。
+[Speaker 0]:  they like this span。
+[Speaker 0]:  they don't like this span，
+[Speaker 0]:  they like this painting。
+[Speaker 0]:  they don't like this painting。
+[Speaker 0]:  physics is not like that material science is not like that，
+[Speaker 0]:  and it's absolute product that functions in the way that you designed or it doesn't function。
+[Speaker 0]:  let's say you 're designings，
+[Speaker 0]:  and it simple a door and the hinge and the knobs。
+[Speaker 0]:  and then the heat transfer between rooms。
+[Speaker 0]:  those are things you can measure。
+[Speaker 0]:  if you make a door and i make a door，
+[Speaker 0]:  there will be one of those doors will be better。
+[Speaker 0]:  if you make a painting and i make a painting，
+[Speaker 0]:  it's not actually black whwhite。
+[Speaker 0]:  so once you take that engineering mindset to business and starting a company，
+[Speaker 0]:  then you come up with the same types of like depart questions where you try to objectively answer。
+[Speaker 0]:  is this going to be a better product strategy？
+[Speaker 0]:  is it a better higher？
+[Speaker 0]:  is the better investor？
+[Speaker 0]:  why are we doing this？
+[Speaker 0]:  this is the reason we're doing it。
+[Speaker 0]:  you can get to boil all of our values down to two wards，
+[Speaker 0]:  radical pragmatism，
+[Speaker 0]:  radical pragmatism，
+[Speaker 0]:  another way of saying saying that is being intentional，
+[Speaker 0]:  who's becomes an investor marth were intentional about it。
+[Speaker 0]:  product should should get into we're intentional about it。
+[Speaker 0]:  should we open an office in korea were intentional about it。
+[Speaker 0]:  and so we don't just open an office and hope some there be some business there。
+[Speaker 0]:  we should build this product is it's going to be demanded by our customers。
+[Speaker 0]:  what do they want？
+[Speaker 0]:  what they need？
+[Speaker 0]:  what are they good at？
+[Speaker 0]:  what do they weak at why would they buy this from us？
+[Speaker 0]:  how much would they pay for it？
+[Speaker 0]:  we write all those things down，
+[Speaker 0]:  intentionality and writing things down are kind of the same thing。
+[Speaker 0]:  even if you make the wrong decision that you go back and you can kind of understand，
+[Speaker 0]:  where was the mistake in your logic？
+[Speaker 0]:  why commoninator taught me a lot of things that i don't think i could have learned by just being a founder。
+[Speaker 0]:  i saw lots of lots of companies，
+[Speaker 0]:  thousands of companies。
+[Speaker 0]:  in my time there。
+[Speaker 0]:  if you're in a relationship，
+[Speaker 0]:  you only have that experience。
+[Speaker 0]:  but if you a couple's therapst，
+[Speaker 0]:  you see lots of relationships。
+[Speaker 0]:  so why see is kind of a couple's therapy？
+[Speaker 0]:  and so then you starting the patterns of functioning cofounder relationships。
+[Speaker 0]:  so a good cofound relationship is，
+[Speaker 0]:  is what to wear the two or three，
+[Speaker 0]:  a compliment each other really。
+[Speaker 0]:  well，
+[Speaker 0]:  i would never recommend doing a company with four people or more。
+[Speaker 0]:  there's just too many people who are now you know，
+[Speaker 0]:  going to try to leave the company。
+[Speaker 0]:  and there's just simple logistics，
+[Speaker 0]:  because then you have to get four five people together to make a decision，
+[Speaker 0]:  and i would highly recommending and doing alone as well。
+[Speaker 0]:  because having multiple people brings a higher likelihood that you have all of the skills，
+[Speaker 0]:  i think emotional compatibility is really important as in how you lead，
+[Speaker 0]:  how you give feedback，
+[Speaker 0]:  how you talk each other。
+[Speaker 0]:  and i think similar ambitions，
+[Speaker 0]:  you can't have one cofounder that works really，
+[Speaker 0]:  really have another cofder der，
+[Speaker 0]:  who esn't want to work，
+[Speaker 0]:  right？
+[Speaker 0]:  you know，
+[Speaker 0]:  one cofounder who wants to build a generation company and a cofder who just wants to get rich。
+[Speaker 0]:  yes，
+[Speaker 0]:  of make ture。
+[Speaker 0]:  you are lined also picking the right market。
+[Speaker 0]:  i saw lots of really hard work in good cofounder relationship，
+[Speaker 0]:  smart people who just the wrong market。
+[Speaker 0]:  imagine if we are trying to sell ice。
+[Speaker 0]:  so me very simple product，
+[Speaker 0]:  just ice。
+[Speaker 0]:  if we trying to sell ice in the cold area，
+[Speaker 0]:  not a lot of people get to buy buy。
+[Speaker 0]:  you sell ice in a hard day，
+[Speaker 0]:  a lot of you buy。
+[Speaker 0]:  and that simple analogy is actually really true。
+[Speaker 0]:  so so ice in hot weather，
+[Speaker 0]:  the mistake first time founders make about product market fit is they think it's like a destination。
+[Speaker 0]:  and product market fit is really more like a state。
+[Speaker 0]:  it can go away。
+[Speaker 0]:  and you're trying to wonder if you have product market fit，
+[Speaker 0]:  the proxes are our people willing to give you time。
+[Speaker 0]:  are they willing to give you money，
+[Speaker 0]:  but you should be pretty cynical that you know a product market fit？
+[Speaker 0]:  i remember for us，
+[Speaker 0]:  even when we get ten million in revenue，
+[Speaker 0]:  i wasn't quite cheerful product market，
+[Speaker 0]:  fit your product sits in a dynamic market。
+[Speaker 0]:  there's other products and other companies and other technologies，
+[Speaker 0]:  and it can always be some prostituted。
+[Speaker 0]:  so you always kind of regetting product fit a good example ple。
+[Speaker 0]:  this would be like cococoola。
+[Speaker 0]:  everybody knows cocoa，
+[Speaker 0]:  ola，
+[Speaker 0]:  but cococoa a spends a lot of money and marketing。
+[Speaker 0]:  so why is that？
+[Speaker 0]:  it's because the fit the consumers wanting to drink beverage is temporary。
+[Speaker 0]:  if they forget about it，
+[Speaker 0]:  the'll stop money cogoola。
+[Speaker 0]:  so constfit is burned every single day。
+[Speaker 0]:  but the way that we sttalking market it zone，
+[Speaker 0]:  maybe that's no better way to put it rather than a have market market fit is we're constantly talking to customers。
+[Speaker 0]:  are they using the products？
+[Speaker 0]:  is it making an impact on their programs？
+[Speaker 0]:  are they are we getting products in the production？
+[Speaker 0]:  if you remember in the app universe，
+[Speaker 0]:  when the iphone was bebecombig big there，
+[Speaker 0]:  many apps of people were download，
+[Speaker 0]:  but they would never use again。
+[Speaker 0]:  founders say i'have product market fit because we have a million downloads，
+[Speaker 0]:  but a million downloads is not an indication because nobody uses it again。
+[Speaker 0]:  that's same product market fit。
+[Speaker 0]:  so i think you have to be a very honest as a founder。
+[Speaker 0]:  are you in the zone，
+[Speaker 0]:  a product market fit？
+[Speaker 0]:  or are you not？
+[Speaker 0]:  i don't believe you can be very successful and not read a lot。
+[Speaker 0]:  i'm reading this book called。
+[Speaker 0]:  i am that it's actually a indian spirituality book，
+[Speaker 0]:  and it talks about really more of a hindu philosophy about detaching from the the world around you，
+[Speaker 0]:  and how that lets you see things more。
+[Speaker 0]:  clearly，
+[Speaker 0]:  i think there's something about reading a book that takes hundreds of pages and like continuous focus。
+[Speaker 0]:  i have a book list on my own website，
+[Speaker 0]:  which are actually my favorite books，
+[Speaker 0]:  and the ones that impacted me a lot。
+[Speaker 0]:  a same mountains made in america as a really great book。
+[Speaker 0]:  hamgandde's autobiography is really good。
+[Speaker 0]:  it's called my experiments with truth nelcson mandlas long long ked ked for free to moving extremely good buck。
+[Speaker 0]:  when you read that it look makes these other books look like，
+[Speaker 0]:  you know，
+[Speaker 0]:  like，
+[Speaker 0]:  like disposable chocolate，
+[Speaker 0]:  the root of my ambition is to control my own destiny。
+[Speaker 0]:  why i want that？
+[Speaker 0]:  i'm not sure maybe it's because you know，
+[Speaker 0]:  move from pakistan to america as a child that it was very really，
+[Speaker 0]:  you know，
+[Speaker 0]:  created a lot of tension in my brain as a child。
+[Speaker 0]:  maybe，
+[Speaker 0]:  but i think a lot of who i am is from my experience to being an immigrant。
+[Speaker 0]:  you know，
+[Speaker 0]:  my experience is being in a working class family。
+[Speaker 0]:  and so beer was it。
+[Speaker 0]:  it was a part of our existence all the time。
+[Speaker 0]:  you're already living in fear like it's are。
+[Speaker 0]:  it's always there。
+[Speaker 0]:  you don't have enoumoney to mayybe。
+[Speaker 0]:  you know，
+[Speaker 0]:  the things make the bills and to make the things youyou always concellving for。
+[Speaker 0]:  so i always got like tolerance of fear。
+[Speaker 0]:  i have a high fear，
+[Speaker 0]:  threshohold one way to find out if you're a good founder or for a good company person is how much is it bother you to have a boss when you work at a big company like bosh？
+[Speaker 0]:  the data day difficulty is to frustration is my boss acknowledge my work。
+[Speaker 0]:  can i work on the things i want to work on？
+[Speaker 0]:  is the company going in the direction that i wanted get？
+[Speaker 0]:  what's the downside of being a founder？
+[Speaker 0]:  you don't pay with a frustration as a founder，
+[Speaker 0]:  you pay with it to fear because you don't know what's going to happen with a company。
+[Speaker 0]:  so there's no frustration youre's a boss where there's all this fear。
+[Speaker 0]:  you know，
+[Speaker 0]:  when you're had a big company，
+[Speaker 0]:  there is n't fear because you're of of big company is going to take。
+[Speaker 0]:  take are are of you going to pay for your salaries and things like that find out what bothers you are，
+[Speaker 0]:  you frustrated easily？
+[Speaker 0]:  or are you scared easily if you're frustrated easily，
+[Speaker 0]:  maybe being a founder if you're sscred easily ily maybe stay the company？
