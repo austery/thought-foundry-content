@@ -1,0 +1,348 @@
+[Speaker 1]:  can everybody hear me okay，
+[Speaker 1]:  perfect。
+[Speaker 1]:  so thanks for jojoining everyone。
+[Speaker 1]:  my name is phililippi，
+[Speaker 1]:  and i am a member of technical staff at the m as one agi lab。
+[Speaker 1]:  um as part of my my le，
+[Speaker 1]:  i help us to build the next generation。
+[Speaker 1]:  i manage the programs to build the next generation of products，
+[Speaker 1]:  our labb's building and sure they have to talk to you about designing evolves that earn customer trust about talking body vows。
+[Speaker 1]:  i just need to give you some context about what our lab was doing the last year。
+[Speaker 1]:  so everything is started in march last year，
+[Speaker 1]:  where we launch our nobile actual research review for context like nobile actrees，
+[Speaker 1]:  too，
+[Speaker 1]:  that we build as part of our labeand。
+[Speaker 1]:  it's a tool that helps you to build broser agents。
+[Speaker 1]:  so basically，
+[Speaker 1]:  everything that you do in a web broser，
+[Speaker 1]:  you can use novel x to automate those tasks。
+[Speaker 1]:  um in as part of the research preview。
+[Speaker 1]:  our main goal was we wanted to shiep a product to get as much feedback as if we could from our customers。
+[Speaker 1]:  um in march，
+[Speaker 1]:  we launch that。
+[Speaker 1]:  then in july，
+[Speaker 1]:  we made one addition of improved making our product，
+[Speaker 1]:  which was basically ally，
+[Speaker 1]:  developed a whole new developer experience。
+[Speaker 1]:  and this was because basically，
+[Speaker 1]:  during the first couple months，
+[Speaker 1]:  we noticed like some gaps in that developer experiment experienced，
+[Speaker 1]:  and we wanted to make sure customer had the best experience building agents。
+[Speaker 1]:  then in december，
+[Speaker 1]:  we finally launch our service on ews。
+[Speaker 1]:  so to they know bike is a top to your service on e ws that anyone can use to build production labor wages。
+[Speaker 1]:  and during this period，
+[Speaker 1]:  i was basically responsible for the customer and neighbmament piece of that。
+[Speaker 1]:  what's customer and neighbmage just for context。
+[Speaker 1]:  it's basically i was working day to day with all of our customers to understand what was their problem and how we were helping then to solve that。
+[Speaker 1]:  so that was my main role during last year。
+[Speaker 1]:  and then let's go to the problem that we will be discussing today。
+[Speaker 1]:  so i like to call this is the benchmark illusion。
+[Speaker 1]:  so you all working away。
+[Speaker 1]:  i you are probably working on and building things based on benchmarks，
+[Speaker 1]:  right？
+[Speaker 1]:  it could be public benchmarks that everybody's using and everybody's trying to optimize the products on that and also benchmarks that you are creating the your own synthetic data that you are creating and you are evaluating your product。
+[Speaker 1]:  and the main goal here is you want to optimize，
+[Speaker 1]:  right？
+[Speaker 1]:  you want to be the best as you can darin those benchmarks。
+[Speaker 1]:  but then when you ship that produproduction，
+[Speaker 1]:  new york 's merciis started using that，
+[Speaker 1]:  what happens？
+[Speaker 1]:  it's this right。
+[Speaker 1]:  they starts seeing problems，
+[Speaker 1]:  and it's basically everything that you were not expecting them to do。
+[Speaker 1]:  they try to do that，
+[Speaker 1]:  and they break our product。
+[Speaker 1]:  and this is happening because you basically it most of us。
+[Speaker 1]:  we are doing in we are working on evolts that are aesthetic。
+[Speaker 1]:  so what are aesthetic give vus？
+[Speaker 1]:  basically，
+[Speaker 1]:  let's KK little little bit about what's the standard development process of a product，
+[Speaker 1]:  right？
+[Speaker 1]:  first thing that you do，
+[Speaker 1]:  you receive the requirements firm，
+[Speaker 1]:  we are product change and you will start building right？
+[Speaker 1]:  everybody does that i hope。
+[Speaker 1]:  then when you have a product in a good shape，
+[Speaker 1]:  the next thing that you will do is running your evoels again，
+[Speaker 1]:  public benchmarks，
+[Speaker 1]:  synthetic data that you generated，
+[Speaker 1]:  and you walk ch mize for that。
+[Speaker 1]:  when you start feeling comfortable，
+[Speaker 1]:  you're like，
+[Speaker 1]:  okay。
+[Speaker 1]:  now why will shape that？
+[Speaker 1]:  and you ship that to the customers？
+[Speaker 1]:  but if you have bestudy，
+[Speaker 1]:  he evous，
+[Speaker 1]:  what's the only thing that you can do after that，
+[Speaker 1]:  it's basically it is hope，
+[Speaker 1]:  right？
+[Speaker 1]:  you just hope you are evolves，
+[Speaker 1]:  were reflecing exactly what your customers will do you your product and if not it moves，
+[Speaker 1]:  certainly right。
+[Speaker 1]:  and this is the gap。
+[Speaker 1]:  this is exactly what we will be discussing today and what we were doing our lab to solve this problem and just a spoiler。
+[Speaker 1]:  so this is not about better benchmarks。
+[Speaker 1]:  it's about closing the customer loop。
+[Speaker 1]:  so what we want to do here is get the feedback from your customer and close the loop。
+[Speaker 1]:  so with that in mind，
+[Speaker 1]:  what we did in our lab was basically proposed an evl fywheth。
+[Speaker 1]:  so if you are not aware about the terminnology，
+[Speaker 1]:  but fywheel，
+[Speaker 1]:  it's basically a loop that you keep reteachching like all the time。
+[Speaker 1]:  and the first type of these evove is defined success and very important here。
+[Speaker 1]:  so defined success here。
+[Speaker 1]:  it's not what you think it's success。
+[Speaker 1]:  it's what your customer think。
+[Speaker 1]:  it's success。
+[Speaker 1]:  okay。
+[Speaker 1]:  so next step，
+[Speaker 1]:  as soon as you wonder，
+[Speaker 1]:  send what your customer really needs and the problem you are trying to solve，
+[Speaker 1]:  you go to capture signals。
+[Speaker 1]:  and we as engineers，
+[Speaker 1]:  what's the first thing that comes through your mind，
+[Speaker 1]:  like instrumentation，
+[Speaker 1]:  right？
+[Speaker 1]:  let's get metrics。
+[Speaker 1]:  let's get data as much as you can about what your fimmer is doing。
+[Speaker 1]:  but one very important piece of that，
+[Speaker 1]:  that we are missing is you should talk to your customer like talk to your customer。
+[Speaker 1]:  go schedule meeachings visit then and then the same exactly what they are trying to do。
+[Speaker 1]:  your data might be a little between legiing。
+[Speaker 1]:  you might be missing exactly。
+[Speaker 1]:  what's the problem that your customer is trying solve third step，
+[Speaker 1]:  you go to didiagnose gets？
+[Speaker 1]:  that's easy。
+[Speaker 1]:  that's basically you get all these signals from customers could being instrumentation，
+[Speaker 1]:  but also your inputs ts，
+[Speaker 1]:  your insights from the mataches that you had with them。
+[Speaker 1]:  and you just start categorizing those。
+[Speaker 1]:  and when i say categorizing，
+[Speaker 1]:  there are basically very high level，
+[Speaker 1]:  but there are three things that you could find from those discussions first。
+[Speaker 1]:  it's basically inputs about your model。
+[Speaker 1]:  so where your model is failing there and these feeds in to evs right to your model that the second point it's inputs to your engineering team。
+[Speaker 1]:  so basically，
+[Speaker 1]:  watch is the getting or harness that you should fix。
+[Speaker 1]:  this is more traditional bug fixing in the third one is also on the product side。
+[Speaker 1]:  so what are you missing terms of product？
+[Speaker 1]:  like do your customer understand exactly what are product product？
+[Speaker 1]:  it's trying to solve is your product like properly position。
+[Speaker 1]:  so that's very important。
+[Speaker 1]:  so as soon as you have the gaps，
+[Speaker 1]:  the gaps categorize，
+[Speaker 1]:  you just feed that into decisions。
+[Speaker 1]:  so feed that into decisions is basically you priorititize that。
+[Speaker 1]:  and you ask your science，
+[Speaker 1]:  your engineering，
+[Speaker 1]:  your product change to address stoles。
+[Speaker 1]:  that's basic，
+[Speaker 1]:  right？
+[Speaker 1]:  and then you just continue to repeaching this loop over and over。
+[Speaker 1]:  so with that in mind，
+[Speaker 1]:  like in our lab，
+[Speaker 1]:  we repeat that this fly will several several times since march last year。
+[Speaker 1]:  and what i also noticce is basically as part of my journey as a product，
+[Speaker 1]:  each of my customer customcustomers have their own journey using my product what that means。
+[Speaker 1]:  so my customer evolves as they use my product，
+[Speaker 1]:  right？
+[Speaker 1]:  so there are basically four things that you can learn why you your customer use your product。
+[Speaker 1]:  the first one is，
+[Speaker 1]:  that's the first thing that you will do the first time that you meet your customer。
+[Speaker 1]:  it's basically to use cthe discovery。
+[Speaker 1]:  so what do you want to do here at this stestep basbasically understand what's their problem？
+[Speaker 1]:  so what's the problem of your customer and make sure what you are building solves that right then after that，
+[Speaker 1]:  you will have couple early doctors，
+[Speaker 1]:  right from these early doctors that main signal that you wants to get。
+[Speaker 1]:  it's basically what's possible。
+[Speaker 1]:  so that's the time where customers will try crazy things。
+[Speaker 1]:  you will find things that you cannot help them at at all，
+[Speaker 1]:  right？
+[Speaker 1]:  but you will also find things that your customers are using your product to solve and mean many times you will be surprised because it's something that you would never imagine。
+[Speaker 1]:  third funch，
+[Speaker 1]:  this is when you starxaling right，
+[Speaker 1]:  you get your early er doctors。
+[Speaker 1]:  but now you are starscaling，
+[Speaker 1]:  you are getting more customers and you are able to identify some patterns，
+[Speaker 1]:  right？
+[Speaker 1]:  what are the patterns？
+[Speaker 1]:  the pattern is basically your hero use case，
+[Speaker 1]:  right？
+[Speaker 1]:  that's the case。
+[Speaker 1]:  that's the problem that everybody is using your product to solve in less one。
+[Speaker 1]:  this is more future looking。
+[Speaker 1]:  but these are your product gaps。
+[Speaker 1]:  so when you were working with early adopters and also after you start scaling，
+[Speaker 1]:  you will also be finding some gaps on your product。
+[Speaker 1]:  your production can can ture ture priortizze those。
+[Speaker 1]:  and these are the bets for your future，
+[Speaker 1]:  right？
+[Speaker 1]:  what you should build next。
+[Speaker 1]:  and as i said，
+[Speaker 1]:  i work with several several customers during these journey，
+[Speaker 1]:  and there are a couple learnes that i want to share that some might be obvious。
+[Speaker 1]:  but others it's very，
+[Speaker 1]:  very sightful。
+[Speaker 1]:  so the first one is the the trust cliff that i've like to call。
+[Speaker 1]:  so what's the trust cliff？
+[Speaker 1]:  so imagine you build a product，
+[Speaker 1]:  you are ready to ship and and you and measasthe reliabability of this product。
+[Speaker 1]:  and you found eighty percent liabability，
+[Speaker 1]:  that seems fine，
+[Speaker 1]:  right？
+[Speaker 1]:  right？
+[Speaker 1]:  like，
+[Speaker 1]:  okay，
+[Speaker 1]:  i can give that to my customer。
+[Speaker 1]:  and they they can start using it right。
+[Speaker 1]:  but what your custommmer thinks，
+[Speaker 1]:  when you say you are，
+[Speaker 1]:  the eighty percent of reliability is i cannot trust this product。
+[Speaker 1]:  i cannot trust。
+[Speaker 1]:  and why，
+[Speaker 1]:  because when you show nine eighty percent reliability，
+[Speaker 1]:  what they will think is，
+[Speaker 1]:  oh，
+[Speaker 1]:  okay。
+[Speaker 1]:  so if it's eighty percent，
+[Speaker 1]:  i still have to monitor this agent，
+[Speaker 1]:  if they fail，
+[Speaker 1]:  i will need to do some manimal work。
+[Speaker 1]:  so in fact，
+[Speaker 1]:  it's actually more work for me not less work。
+[Speaker 1]:  i need to build these agent plus monitor that and also do some manimal work after。
+[Speaker 1]:  but when you get to a point around ninety percent reliabability，
+[Speaker 1]:  the message changes to your customer and what they think it's okay。
+[Speaker 1]:  ninety percent。
+[Speaker 1]:  i can actually truss this right to handle my text，
+[Speaker 1]:  and i completely handover like a workflow to my customer。
+[Speaker 1]:  so it's basically rely。
+[Speaker 1]:  abability is a zero to one。
+[Speaker 1]:  right？
+[Speaker 1]:  are you trust or you don't there is nothing like in the middle there？
+[Speaker 1]:  second learning，
+[Speaker 1]:  it's the eval transparency。
+[Speaker 1]:  so every time that you start working with a customer，
+[Speaker 1]:  you basically need to be transparent about three things that you are d of this。
+[Speaker 1]:  first thing is that's easy。
+[Speaker 1]:  everybody likes to do that。
+[Speaker 1]:  so what works。
+[Speaker 1]:  so you basically ally show trigger summer。
+[Speaker 1]:  i am really good doing this。
+[Speaker 1]:  that's the level of reliability。
+[Speaker 1]:  you can trust my product to just use my agent。
+[Speaker 1]:  and if 'll give you the reliability that you need，
+[Speaker 1]:  second point is these are the things that i am doing to improve my product。
+[Speaker 1]:  ok。
+[Speaker 1]:  so there are some things that i know it's again。
+[Speaker 1]:  but i mean，
+[Speaker 1]:  investing time right now to make this better。
+[Speaker 1]:  and the third thing that's the tough one。
+[Speaker 1]:  nobody body wants to do that。
+[Speaker 1]:  it's what it's out of scope。
+[Speaker 1]:  so you really need to be transparent，
+[Speaker 1]:  like if something doesn't work for your product。
+[Speaker 1]:  just go ahead and tell your customer。
+[Speaker 1]:  don't let them try otherwise like there are so many toosing the market right now that if you do，
+[Speaker 1]:  if you show something for them，
+[Speaker 1]:  that doesn't work，
+[Speaker 1]:  they will just forget about their product，
+[Speaker 1]:  and they'll move to the product。
+[Speaker 1]:  so be transparent。
+[Speaker 1]:  and the main learning here is transparent。
+[Speaker 1]:  chone product limitation increase stress more than higher benchmarks。
+[Speaker 1]:  that's a very interesting finding right？
+[Speaker 1]:  be transparent about what your product is capable of doing and in more important，
+[Speaker 1]:  what's not capable of that's how you weren't customer thtrust。
+[Speaker 1]:  third learning is if you work work，
+[Speaker 1]:  work very close with customers。
+[Speaker 1]:  you might find a lot of use case that you would never expected。
+[Speaker 1]:  so some examples here is amazon leo。
+[Speaker 1]:  it's the satellite internet satellite company from amazon。
+[Speaker 1]:  working with then we actually learn some inputs about creating features should do cashing of trajecttories。
+[Speaker 1]:  so instead of doing influence all the time that they use our products，
+[Speaker 1]:  we cash trajectories，
+[Speaker 1]:  if it fail，
+[Speaker 1]:  we just hold back to the model。
+[Speaker 1]:  so we optimize the cost for death。
+[Speaker 1]:  second learning is with hurts the carraninle company。
+[Speaker 1]:  so they were also using our product for cuu，
+[Speaker 1]:  a aumation，
+[Speaker 1]:  and we learned that as part of their company，
+[Speaker 1]:  they had some qa engineers that were very technical and were capable of building like scscrits with pittle when other coaching languages。
+[Speaker 1]:  however，
+[Speaker 1]:  some technical，
+[Speaker 1]:  some people from QA，
+[Speaker 1]:  they are not that technical。
+[Speaker 1]:  so that was the input that we needed to actually build a whole nontechnical experience for our products that would enable marcustomcustomers to use less less one。
+[Speaker 1]:  this is i start up call。
+[Speaker 1]:  solar sola is basic kodia rpa company。
+[Speaker 1]:  if you are not familiar with the term，
+[Speaker 1]:  rpa is a repetituetive process automation，
+[Speaker 1]:  and they offer tools to automate process for other companies。
+[Speaker 1]:  so imagine the varieety of use cases that they might have，
+[Speaker 1]:  it's a lot of different use cases。
+[Speaker 1]:  and what we learn from then is we could give some additional flexibitin our product or then you customized，
+[Speaker 1]:  especially the actuation stack of our our be the learning here are less important than than keeping mind ind。
+[Speaker 1]:  you will learn a lot about what your customers is trying to do here，
+[Speaker 1]:  right？
+[Speaker 1]:  and what should be the next features you should build for your brothers？
+[Speaker 1]:  and then like running this fly view several times，
+[Speaker 1]:  we came up with four principles for this fliywthth。
+[Speaker 1]:  first，
+[Speaker 1]:  one is there i be valse evolves and arias from prediction，
+[Speaker 1]:  not imagination。
+[Speaker 1]:  so again，
+[Speaker 1]:  like creating synthetic c data might be very important at the beginning of the process。
+[Speaker 1]:  but as soon as you start getting customer signals，
+[Speaker 1]:  make sure that feeds，
+[Speaker 1]:  you're evolved second，
+[Speaker 1]:  categorize into actionable areas again，
+[Speaker 1]:  product tissues engineering issues research tissues，
+[Speaker 1]:  make sure you prioritizze that well to your team。
+[Speaker 1]:  third one share，
+[Speaker 1]:  keep abbeaches。
+[Speaker 1]:  honestly，
+[Speaker 1]:  again，
+[Speaker 1]:  transparency builds trust，
+[Speaker 1]:  make sure you share to your customer，
+[Speaker 1]:  especially what your product is not good at third。
+[Speaker 1]:  one is run the flywill as fast as you can。
+[Speaker 1]:  so here it's basically the faster you run。
+[Speaker 1]:  that fly will faster。
+[Speaker 1]:  you are product to improve，
+[Speaker 1]:  right？
+[Speaker 1]:  that's almost objects right。
+[Speaker 1]:  but keep it that in mind like run your fly wheel as species you can。
+[Speaker 1]:  and then like with those far principles，
+[Speaker 1]:  why do you will see is your evolves should get smarter every week，
+[Speaker 1]:  but very important。
+[Speaker 1]:  if you are not seeing your evolgetting smarter every week，
+[Speaker 1]:  that means your evovoves are getting sale。
+[Speaker 1]:  oh，
+[Speaker 1]:  and just to finalize the talk here，
+[Speaker 1]:  there are true ideas that i want to get to take home just true。
+[Speaker 1]:  so first idea is，
+[Speaker 1]:  evil，
+[Speaker 1]:  must reflect what customer cares about，
+[Speaker 1]:  not what you think they care about。
+[Speaker 1]:  ok，
+[Speaker 1]:  all about getting customer input here and make sure your evols reflects what they are problem。
+[Speaker 1]:  second is evolves are not builononce。
+[Speaker 1]:  it's a fly。
+[Speaker 1]:  will that evolves as your customer evolves one out here，
+[Speaker 1]:  remember that customer journey as your customer moves through that customer journey。
+[Speaker 1]:  what they are trying to do with our product。
+[Speaker 1]:  we will also change like it will get more complex，
+[Speaker 1]:  right？
+[Speaker 1]:  so your evols needs to be up to age and reflecting exactly what your customer is trying to do right now。
+[Speaker 1]:  and with that，
+[Speaker 1]:  what you have to do is simply like builds the loop sheep，
+[Speaker 1]:  if vows that matter。
+[Speaker 1]:  and then you warned your customer trust，
+[Speaker 1]:  and that's all that i had urtuday。
+[Speaker 1]:  thanks very much for joining。
+[Speaker 1]:  i will stay in our booth after for more discussions，
+[Speaker 0]:  but can enjoy the conference。
