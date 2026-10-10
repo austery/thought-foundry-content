@@ -1,0 +1,520 @@
+[Speaker 0]:  an AI agent knocks on a bank's door。
+[Speaker 0]:  it tries a password and gestoll。
+[Speaker 0]:  no，
+[Speaker 0]:  so it rareads the error message changes its plan and tries a different door than another。
+[Speaker 1]:  it maps every system，
+[Speaker 0]:  it can reach works out which ones look weakest and picks its own way in in computers，
+[Speaker 0]:  have been guessing passwords for decades。
+[Speaker 0]:  this one is deciding where to look，
+[Speaker 0]:  and eventually it will find way in this one。
+[Speaker 0]:  the banking has a problem。
+[Speaker 0]:  some something is inside。
+[Speaker 0]:  and the first question，
+[Speaker 0]:  anyone asks is who sent it？
+[Speaker 0]:  that should be an easy question。
+[Speaker 0]:  but it's not really because for the first time，
+[Speaker 0]:  one possible answer is nobody did if is a new standard being built right now called web about auth authentication。
+[Speaker 0]:  the lets son，
+[Speaker 0]:  ai agent proof where it comes from by digitally signing everything。
+[Speaker 0]:  it's sense。
+[Speaker 0]:  think of it like a company's stamp on a letter。
+[Speaker 0]:  if the agent carries one，
+[Speaker 1]:  the bank can see which company built it，
+[Speaker 0]:  but a company stamp tells you whose letter head it is。
+[Speaker 0]:  it doesn't really tell you who wrote the actual letter over the past few weeks，
+[Speaker 0]:  at least nine south koary and banks were targeted by one attacker using AI。
+[Speaker 0]:  he didn't need a team of hackers by the way，
+[Speaker 0]:  he needed a free tool of the internet and a subscription to an AI model，
+[Speaker 0]:  the attack mved at machine speed。
+[Speaker 0]:  but at one bank，
+[Speaker 0]:  it took almost three days。
+[Speaker 1]:  just to notice，
+[Speaker 0]:  something was a miss。
+[Speaker 0]:  and the only reason anyone has a name for this hagger today is that he made a careless mistake on his cv，
+[Speaker 0]:  a human mistake。
+[Speaker 0]:  what's strange about that attack is that the AI doing it wasn't really a hacking machine。
+[Speaker 1]:  it was one of our brand new shiny，
+[Speaker 0]:  AI friends that now do anything from booking trips to hacking banks to discovery new knowledge humans aided by AI are becoming a force of nature。
+[Speaker 0]:  we are becoming more efficient at everything we get our hands on being hacking included，
+[Speaker 1]:  sadly，
+[Speaker 0]:  but being able to produce something faster，
+[Speaker 0]:  doesn't necessarily mean anyone can check it faster or understand it faster or pay for it faster。
+[Speaker 1]:  so in today's video，
+[Speaker 1]:  i want to talk about the gap between those things and what is costing all of us，
+[Speaker 0]:  because the beautiful utopia，
+[Speaker 0]:  an ai and fuse future ain't going to happen my friends unless we get the architecture，
+[Speaker 0]:  right？
+[Speaker 0]:  some of those costs are，
+[Speaker 0]:  of course，
+[Speaker 0]:  very easy to see last week alone，
+[Speaker 0]:  wall street lined up well over a hundred billion dollars in loans just to be for the chips。
+[Speaker 0]:  these AS run on chips whose value a few years from now，
+[Speaker 0]:  nobody can actually check loans by the way，
+[Speaker 0]:  have to be paid back just as a gentle of reminder to our profitless ai overlords。
+[Speaker 0]:  so if part of you has been waiting for the ai bubble is going to pop k on vivio OI have some ildly encouraging news there。
+[Speaker 0]:  the people lending the money have started charging a lot more。
+[Speaker 0]:  just in case some of them wonderland at all until they've actually seen the books。
+[Speaker 0]:  and just last night，
+[Speaker 0]:  when one sit of books finally came out，
+[Speaker 0]:  the most important number in AI turned out to be twenty billion dollars smaller than everyone thought。
+[Speaker 0]:  other costs are much harder to see，
+[Speaker 0]:  but of course，
+[Speaker 0]:  no less relevant and open AI model has just produced answers to hundreds of mass problems that people spent here stuck on and open a ice own mathematicians cannot yet explain many of them。
+[Speaker 0]:  so what has that cost the mathematicians over every time？
+[Speaker 0]:  does the pattern in our current reality？
+[Speaker 0]:  the machine delivers first and fast，
+[Speaker 0]:  and the understanding turns up later。
+[Speaker 0]:  if it turns up at all，
+[Speaker 0]:  everyone is asking for receipts，
+[Speaker 0]:  almost nobody's，
+[Speaker 1]:  getting them almost nobody's happy with this wholfiasco。
+[Speaker 1]:  so in this video，
+[Speaker 0]:  first，
+[Speaker 1]:  i'm going to cover the maths with the answers are probably right。
+[Speaker 0]:  and nobody can say why right now，
+[Speaker 0]:  then we're going to talk about the money side and who all of that math is really mental impress。
+[Speaker 1]:  then the new bank hacking scandal that are shaking us all up and the mistake that gave the hacker away。
+[Speaker 0]:  and at the very end，
+[Speaker 0]:  we have to have a very serious discussion in my friends about how AI should actually be regulator drawing from existing systems。
+[Speaker 0]:  that's what i'm going to do so that someone always has to answer for what an asia does，
+[Speaker 0]:  and we can finally get some order in all of this mess。
+[Speaker 0]:  so let's begin on the six，
+[Speaker 0]:  the october opening。
+[Speaker 0]:  i put three hundred and seventy two mathematical results and github。
+[Speaker 0]:  each one，
+[Speaker 0]:  the company says either souls or makes real progress on a major open question and math or theoretical computer science。
+[Speaker 0]:  one of them claims progress on the reman hypothesis，
+[Speaker 0]:  which is a question about the hidden pattern behind prime numbers that's been unsolved since eighteen fifty nine，
+[Speaker 0]:  with a million dodolllar price waiting for whoever cracks it。
+[Speaker 0]:  and according to open a eye，
+[Speaker 0]:  almost all of them came from a single prompt handed to a single AI agent，
+[Speaker 0]:  although it admits some may have taken a couple of attempts just a month earlier。
+[Speaker 1]:  by the way，
+[Speaker 0]:  allegedly the same model had cracked the navy ststok's problem，
+[Speaker 0]:  one of the six biggest open problems in mathematics today。
+[Speaker 0]:  don't worry about what it is，
+[Speaker 0]:  only seven people in earth actually get it，
+[Speaker 0]:  but that apparently took a swarm of ten thousand agents and millions of dollars of computing power。
+[Speaker 0]:  now，
+[Speaker 0]:  four weeks later，
+[Speaker 0]:  the same company is saying that it can do this kind of thing with one prompt。
+[Speaker 0]:  i'm not saying they're lying。
+[Speaker 0]:  i'm just saying to me the silla about us us before anyone one can basass in their mathematical glory。
+[Speaker 1]:  as one does，
+[Speaker 0]:  somebody has to really check these proof are actually right。
+[Speaker 0]:  so how would you even check three，
+[Speaker 0]:  three hundred and seven to do proofs，
+[Speaker 0]:  know know most of history。
+[Speaker 0]:  the ausor was very slowly，
+[Speaker 0]:  another mathematician reads the proof lined by line。
+[Speaker 0]:  meticulously neeither finds a mistake or dozen that can take months for a single paper。
+[Speaker 0]:  but many of these results now came with something extra，
+[Speaker 0]:  which is a file written in lean。
+[Speaker 0]:  lean is a programming language for proof。
+[Speaker 0]:  you basically write every step of the argument as code and a program tricks each step and accepts nothing on faith。
+[Speaker 0]:  if the proof passes，
+[Speaker 0]:  it's correct。
+[Speaker 0]:  as long as a statement you wrote down is the problem you actually meant to solve，
+[Speaker 0]:  which is why scientific a's verdict was that many of these results are all but certain to be correct。
+[Speaker 0]:  so checking whether the proves are true，
+[Speaker 1]:  turned out to be the part machines cannow do as well。
+[Speaker 0]:  understanding them is a completely different beast。
+[Speaker 0]:  open eeye told scientific american that many of the new results are not yet understood by its own mathematicians。
+[Speaker 0]:  the company that handed in the answers cannot really explain them yet。
+[Speaker 0]:  this is basically every mouth teacher's nightmare，
+[Speaker 0]:  full marks，
+[Speaker 0]:  no working show。
+[Speaker 0]:  but before this turns into a story about mathematicians being crossed with a computer，
+[Speaker 0]:  it's worth hearing the case for releasing everything，
+[Speaker 0]:  because it is a very strong one。
+[Speaker 0]:  daniel ellit，
+[Speaker 0]:  who's a mathematiction of the university of toronto told scientific american。
+[Speaker 1]:  he can't see why anyone would ask open a eye or any company for that matter to keep the ansstor secret。
+[Speaker 0]:  and he thinks this will be good for mats，
+[Speaker 0]:  someone unread。
+[Speaker 0]:  it made a similar point with rather more swearing，
+[Speaker 1]:  basically saying，
+[Speaker 0]:  mathematicians didn't ask for this work when the complaint and the reply was well，
+[Speaker 0]:  the rest of us asfor it。
+[Speaker 0]:  and i am personally with them。
+[Speaker 0]:  honestly，
+[Speaker 0]:  i am a scientist，
+[Speaker 0]:  and what drives me primarily is curiosity about how the universe works。
+[Speaker 0]:  and in my heart of hearts，
+[Speaker 0]:  i will always choose knowing things above almost anything else that doesn't mean anything goes，
+[Speaker 0]:  of course，
+[Speaker 0]:  i have limits and there are lines。
+[Speaker 0]:  i wouldn't cross，
+[Speaker 0]:  but this is just nowhere near one of them。
+[Speaker 0]:  so am i delighted that something that isn't human，
+[Speaker 1]:  just worked out hundreds of mathematical results？
+[Speaker 1]:  absolutely，
+[Speaker 0]:  does it hard to watch people's work，
+[Speaker 1]:  get displaced even temporarily also？
+[Speaker 0]:  absolutely，
+[Speaker 1]:  i can definitely see that，
+[Speaker 0]:  but would i prefer a world that didn't know these answers just to a peace ce few mathematicians today？
+[Speaker 0]:  not really，
+[Speaker 0]:  i'm still going to choose the proof。
+[Speaker 0]:  and this isn't only about mathematicians，
+[Speaker 1]:  by the way，
+[Speaker 1]:  i would make the same choice in every discipline，
+[Speaker 0]:  including my own，
+[Speaker 1]:  even if it puts smelt of work。
+[Speaker 0]:  i know that is a very hard choice，
+[Speaker 1]:  and i know plenty of people won't agree with me。
+[Speaker 0]:  that's，
+[Speaker 0]:  of course，
+[Speaker 0]:  completely fine。
+[Speaker 0]:  but more importantly，
+[Speaker 0]:  i can hold that view and still see what it costs。
+[Speaker 0]:  the people on the other side，
+[Speaker 0]:  just as an example，
+[Speaker 0]:  thomas bloom runs the air dos problems website，
+[Speaker 0]:  which is a collection of more than twelve hundred problems left behind by paul aerdos。
+[Speaker 0]:  he's one of the most prolific mathematicians of the tweneth century between ten and twenty five thousand people visited every single day。
+[Speaker 0]:  it used to be a place where people argued about problems together。
+[Speaker 0]:  but now blooms us，
+[Speaker 0]:  the main thing people do there is post AI generated proof，
+[Speaker 0]:  often with no explanation at all。
+[Speaker 0]:  just a plant of flag。
+[Speaker 0]:  think of it a bit like the mathematical equivalent of commenting first under a youtube video，
+[Speaker 0]:  which i door by the way。
+[Speaker 0]:  so this month，
+[Speaker 1]:  he basically frozed the comments stop using any language that gives credit for solutions and remove the labels that showed which problems were open and which were solved。
+[Speaker 0]:  this is how far we've come。
+[Speaker 0]:  the most popular screboard in AI mass is now a scorboard with no scores on it。
+[Speaker 0]:  there's another group，
+[Speaker 0]:  by the way，
+[Speaker 1]:  calling itself the association for human mathematics。
+[Speaker 1]:  and they went even further。
+[Speaker 1]:  they said，
+[Speaker 0]:  dropping hundreds of files at once was a demonstration of power，
+[Speaker 0]:  not collarship，
+[Speaker 0]:  but even setting that aside for a second，
+[Speaker 0]:  just think about it is a proof。
+[Speaker 0]:  we cannot explain，
+[Speaker 1]:  technically still knowledge。
+[Speaker 1]:  i thought back to asspirin the medicine。
+[Speaker 0]:  it has been around since the end of the eighteen nineties for more than seventy years，
+[Speaker 0]:  people took it for headaches and fevers，
+[Speaker 0]:  but nobody really knew how it actually worked。
+[Speaker 0]:  then in ninety seventy one，
+[Speaker 0]:  a british pharmaccologist called john vain，
+[Speaker 0]:  worked out that aspirin stops the body，
+[Speaker 0]:  making certain chemicals that i can not pronounce，
+[Speaker 0]:  but theyessentially responsible for a lot of information，
+[Speaker 0]:  fever and pain，
+[Speaker 0]:  and he shared the a bell prize for this。
+[Speaker 0]:  once people understood why asspirin worked，
+[Speaker 0]:  they started testing it for completely new things，
+[Speaker 0]:  such as preventing heart attacks and even strokes。
+[Speaker 0]:  so knowing that something works and knowing why it's working are different kinds of knowledge medicine lived happily with the first month for seventy years。
+[Speaker 0]:  but the second one is where the next discoveries come from，
+[Speaker 0]:  which is why mathematicians are asking for something very specific here。
+[Speaker 1]:  in september，
+[Speaker 0]:  opening eye set up an independent advisory group of mathematicians to tell it how to publish results like these responsibly。
+[Speaker 1]:  the group asked that every result come with a model，
+[Speaker 0]:  the exact prompt and the computing time behind it，
+[Speaker 0]:  they essentially trying to arrive at something that can to reproduce ability，
+[Speaker 0]:  open eye，
+[Speaker 0]:  publish the average computing time，
+[Speaker 0]:  but no prompts。
+[Speaker 0]:  and it told us scientific american。
+[Speaker 0]:  it is not bound by the recommendations of the advisory group it assembled。
+[Speaker 0]:  so i guess，
+[Speaker 0]:  essentially advisory in the same sense that a wet paint site is advisory andrey satherland，
+[Speaker 0]:  who is a mathematician at mit。
+[Speaker 1]:  put it very simply，
+[Speaker 1]:  he said，
+[Speaker 0]:  we should be asking for receipts。
+[Speaker 1]:  so why not slow down and hand them just overham？
+[Speaker 0]:  well open AI says it can't。
+[Speaker 0]:  according to them。
+[Speaker 1]:  these problems are the clearest。
+[Speaker 1]:  does it has that its AI really is getting smarter？
+[Speaker 0]:  and that matters well，
+[Speaker 0]:  beon d maths，
+[Speaker 0]:  of course，
+[Speaker 0]:  the whole AI industry is definitely borrowing，
+[Speaker 0]:  staggering amounts of money on the sole promise that these models will keep getting smarter。
+[Speaker 1]:  ter results like these are some of the most convincing evidence they can point to。
+[Speaker 1]:  so who is lending all of that money？
+[Speaker 0]:  and how comfortable are they feeling about it before we get into all of that？
+[Speaker 0]:  just a quick word from today's video sponsor cape is AUS mobile carrier built around privacy from the ground up most privacy tools，
+[Speaker 0]:  try to protect what happens after your phone connects to the internet，
+[Speaker 1]:  keep us doing something a little different by trying to build privacy into the mobile network itself。
+[Speaker 1]:  one of the most interesting features is identify rotation。
+[Speaker 0]:  normally，
+[Speaker 0]:  your sim has a persistent identifer called an isi that selll learn networks used to recognize you cape automatically rotates that identifier。
+[Speaker 0]:  every twenty four hours making it much harder to track the same subscriber over time。
+[Speaker 0]:  cape also offers mumuti network coverage，
+[Speaker 0]:  which lets your phone automatically move between two major nationwide networks using the same syym that can improve coverage while spreading your traffic across multiple networks，
+[Speaker 1]:  can also make persistent tracking more difficult。
+[Speaker 1]:  and then they are disappearing call locgs instead of holding onto your call and text methodata and definitely cape deleads that information after twenty four hours。
+[Speaker 0]:  so rather than adding another privacy app on top of your phone cape is trying to change what happens under neath it。
+[Speaker 0]:  if you want to try it，
+[Speaker 0]:  go to cape dot coal slash EL and use coat EL thirty three for thirty three percent off cape service for six months。
+[Speaker 1]:  the link is also in the description below right back to the money。
+[Speaker 0]:  i've made whole videos about whether ai is a bubble。
+[Speaker 0]:  so i'm not onona go into all of that。
+[Speaker 0]:  again，
+[Speaker 0]:  this part here is nearewhere whose lending the money and how nervous are they getting about it？
+[Speaker 0]:  let's start with the biggest recent deal on the fifth of october bank of america，
+[Speaker 0]:  city group and morgan stanley started selling off pieces of a sixty billion dolar debt package，
+[Speaker 0]:  the money pace for anthropic to lease ai trips designed by google and broadcomm arriving in twenty twenty seven。
+[Speaker 0]:  anthropic doesn't buy the trips，
+[Speaker 0]:  a separate company holds them and runs them out，
+[Speaker 1]:  and the debt sits there，
+[Speaker 0]:  not on anthotopics books。
+[Speaker 1]:  this is important。
+[Speaker 1]:  this same week，
+[Speaker 0]:  spacex went looking for forty billion dollars to buying video chips，
+[Speaker 0]:  and broadcomes started early talks about another thirty to fifty billion for open a eye。
+[Speaker 0]:  morgan stantly estimates that ai infrastructure will need one a half trillion dollars of outside money by twenty to twenty eight。
+[Speaker 0]:  now to see why the lenders are nervous。
+[Speaker 0]:  you need exactly one piece of finance jargon。
+[Speaker 0]:  the transh ryan goslik explained tranchis with a jingatatar in the big short，
+[Speaker 0]:  if you'd rather be serenated by him，
+[Speaker 1]:  that would be laua land，
+[Speaker 0]:  which is a completely different film。
+[Speaker 0]:  this channel led us heart science ces like real nerds。
+[Speaker 0]:  so here's a version without all of the music。
+[Speaker 0]:  imagine one big pot of borrowed money，
+[Speaker 0]:  cutting disslices the top slice gets paid back first and loses money last that makes it safer。
+[Speaker 0]:  so it earns less the bottom slice，
+[Speaker 1]:  gets paid back last and loses money first，
+[Speaker 0]:  that makes it risker。
+[Speaker 0]:  so it earns more in anthropics deal。
+[Speaker 0]:  the top slice is forty two billion dollars and brought come baxet with something called residual al ue support。
+[Speaker 0]:  ort in anin english brought com is promising。
+[Speaker 0]:  the chips will still be worth something later。
+[Speaker 1]:  think of it as a car dealer，
+[Speaker 0]:  promising your bank，
+[Speaker 0]:  what your car will be worth in five years，
+[Speaker 0]:  so that the bank will lend you the money to buy one of their cars。
+[Speaker 0]:  the bottom slice eighteen billion dollars has no broadc m promise behind it。
+[Speaker 0]:  anyone lending there is betting on anthropic itself。
+[Speaker 0]:  and according to the financial times，
+[Speaker 0]:  the banks might prefer to wait until an anthdopic goes public，
+[Speaker 0]:  so investors can actually read its financial disclosures first。
+[Speaker 0]:  so the people taking the biggest risk want to see the receipts well before they hand over the money。
+[Speaker 0]:  and yesterday，
+[Speaker 0]:  drumveral police overseed actually arrived the financial times reported that open a ice analyzed revenue，
+[Speaker 0]:  which is the single number investors used to judge demand for ai is close to fifty billion dollars，
+[Speaker 0]:  not the seventy billion that was widely reported。
+[Speaker 0]:  just a few weeks ago。
+[Speaker 0]:  mind you，
+[Speaker 0]:  part of the gap here is accounting untoroc count sales made through amazons in googg's clouds and open a eye doesn't do that，
+[Speaker 0]:  but the seventy billion dollar figure went around for weeks and open a eye did not deny it。
+[Speaker 1]:  you see what i'm telling you here when the receipts finally showed up，
+[Speaker 0]:  it was twenty billion dollar，
+[Speaker 0]:  less，
+[Speaker 0]:  twenty bill is not around an erroosound。
+[Speaker 1]:  and by the way，
+[Speaker 0]:  this story came out a three am on the same day that i'm releasing this video。
+[Speaker 0]:  so please keep that in mind when you're considering whether to like this video，
+[Speaker 1]:  honestly，
+[Speaker 0]:  the llenders asking to see the books is a very good thing。
+[Speaker 0]:  that's exactly what they are supposed to do。
+[Speaker 0]:  some of these borrowers are not making a profit yet space sex，
+[Speaker 0]:  for example，
+[Speaker 1]:  as four point two eight billion dollars in the first three month just of this year on revenue of four point six nine billion。
+[Speaker 0]:  and every big infrastructure built out by the way，
+[Speaker 0]:  has been through a face like this。
+[Speaker 0]:  railways went through it in the ninenine hundred th century。
+[Speaker 0]:  fibre opctic networks went through it around the year two thousand when companies built for demand that did not arrive in time and several teleconconfirms collapse under their own debt。
+[Speaker 0]:  investors asking harder questions is literally the market doing his job，
+[Speaker 0]:  but not everyone is nervous。
+[Speaker 0]:  mind you，
+[Speaker 1]:  in august and videa teamed up with a polo，
+[Speaker 1]:  blackrock，
+[Speaker 0]:  blackstone，
+[Speaker 1]:  brookfield，
+[Speaker 0]:  golmonsax and KKR to raise more than five hundred billion dollars with a stated goal of turning ai compute into an investable acset class。
+[Speaker 0]:  investtable acset class is a lovely phrase。
+[Speaker 0]:  it means persuading the kind of investors who usually buy buildings to buy chips。
+[Speaker 1]:  instead，
+[Speaker 1]:  buildings as a rule，
+[Speaker 0]:  don't verally get overtaking by a newer shiny building model every couple of months。
+[Speaker 0]:  and by the way，
+[Speaker 0]:  you're looking for the best return and investment in this whole story，
+[Speaker 1]:  it isn't in any of these slices or trscious。
+[Speaker 0]:  it belongs to cirkay brin，
+[Speaker 1]:  who has spent a hundred and two million dollars fighting a california attacks that could cost him around thirteen billion。
+[Speaker 0]:  this has absolutely nothing to do with the rest of the video。
+[Speaker 0]:  i just had to put it out there。
+[Speaker 0]:  anyway。
+[Speaker 1]:  the efficiency is definitely a real thing。
+[Speaker 0]:  bright right now is being paid for with borrowed money by lenders who would quite like to see the books and cheap，
+[Speaker 0]:  powerful ai is cheap and powerful right now for anyone，
+[Speaker 1]:  including one person who，
+[Speaker 0]:  over a couple of weeks，
+[Speaker 0]:  this autumn pointed it at at least nine south arian banks。
+[Speaker 1]:  so how did he do it？
+[Speaker 1]:  and what does it？
+[Speaker 1]:  it say，
+[Speaker 0]:  whwhe're real dangerous。
+[Speaker 0]:  over the weekend，
+[Speaker 0]:  i met with a couple of friends of mine，
+[Speaker 1]:  because i had max out my cloud usage。
+[Speaker 0]:  so i was time to see some humans。
+[Speaker 0]:  they're very bright people。
+[Speaker 0]:  and they asked me among many other things，
+[Speaker 0]:  whether i'm worried AI is go to kosol。
+[Speaker 0]:  my answer was no，
+[Speaker 0]:  not in the way they meant AI doesn't want anything。
+[Speaker 0]:  it doesn't wake up with plasat。
+[Speaker 0]:  its mind they pushed back with a story。
+[Speaker 0]:  everyone has heard by now，
+[Speaker 0]:  which i covered in a previous video and open an agent that broke into hugging face yattayta。
+[Speaker 0]:  and my answer was that the ai was doing what it had been asked to do and finding a way to do it，
+[Speaker 0]:  still having no intent does not mean having no consequences if someone breaks into your house to check the answer to across word puzzle，
+[Speaker 0]:  touches nothing in lease。
+[Speaker 0]:  you're technically relieved，
+[Speaker 0]:  but you're also going to change the locks because not，
+[Speaker 0]:  you know the locks don't work，
+[Speaker 1]:  where i actually worry is something different。
+[Speaker 0]:  an ai with no intentions of its own is only as harmless as the goal，
+[Speaker 0]:  somebody gives it。
+[Speaker 0]:  so what happens when a person supplies，
+[Speaker 0]:  the goal and the goal is a robbery or something a lot more horbithic from laate september banks in south korea started discovering breaches，
+[Speaker 0]:  at least nine have now been reported as targets。
+[Speaker 0]:  shinhan bank said the personal information of around twenty five thousand thousand its customers had been compromised at kb c cookmen。
+[Speaker 0]:  it took almost sixty eight hours just to detect the bridge。
+[Speaker 0]:  customers started asking online whether they should keep their cash at home。
+[Speaker 0]:  that's how far it got the two at the centre of all of this is called our tex。
+[Speaker 0]:  it's an open source thing，
+[Speaker 0]:  and it was published githhub this here by a chinese security engineer。
+[Speaker 1]:  it isn't an AI model itself，
+[Speaker 0]:  but it's more like a harness that plugs into models like tragedy by deelaud and deep seek。
+[Speaker 0]:  and it automates the work of a skilled attacker who used to do it by hand back in the olden days，
+[Speaker 0]:  twenty。
+[Speaker 0]:  and twenty five，
+[Speaker 0]:  the tool gathers information hunts for a weak spot plants of roote in runs the attack tools and checks whether they worked now password。
+[Speaker 0]:  guessing scripts have exiisted for decades。
+[Speaker 0]:  we all know that what's new here is the planning is automated as well。
+[Speaker 0]:  a developer at one of korea's 's biggest broker。
+[Speaker 1]:  just put it very blunktly。
+[Speaker 0]:  they said，
+[Speaker 0]:  even without the skills，
+[Speaker 0]:  anyone who pays can use attack tools，
+[Speaker 0]:  there's a fair counterpoint to this。
+[Speaker 1]:  and the korean police made made themselves，
+[Speaker 0]:  they said，
+[Speaker 1]:  whwhether ai was used or not is not the point。
+[Speaker 1]:  and security specialist as well，
+[Speaker 0]:  said，
+[Speaker 0]:  the bank's own wek defences mattered a lot more。
+[Speaker 0]:  i think that is true a log that opens for an ai would probably have open for a very patient human as well。
+[Speaker 0]:  it would just have taken that human far longer and a lot more skill。
+[Speaker 0]:  so who did this according to the security firm crowds strike，
+[Speaker 0]:  the suspect may be a twenty six year old in southern china crowstrike piece that together by analyzing the attacker's ai sessions in one of them，
+[Speaker 1]:  he asked claud，
+[Speaker 0]:  where people typically sell stolen korean data in another。
+[Speaker 0]:  he asked laud or write him ACVA security research or CV。
+[Speaker 0]:  by the way，
+[Speaker 0]:  with his age，
+[Speaker 0]:  his telegram account his education in his hometown artists has get hut page for the record，
+[Speaker 1]:  says the toolist for personal learning and must not be used against real online systems，
+[Speaker 0]:  which is，
+[Speaker 0]:  of course，
+[Speaker 0]:  something that i'm a hundred percent sure this attacker definitely read with a lot of attention。
+[Speaker 0]:  so going back to the conversation that i had with my friends。
+[Speaker 0]:  this is the bit i would out ter that conversation the law already separates tresppass from burglory。
+[Speaker 0]:  it can be the same broken window。
+[Speaker 0]:  they got you into the house，
+[Speaker 1]:  the differenis，
+[Speaker 0]:  what you meant to do。
+[Speaker 0]:  once she got inside the trouble，
+[Speaker 0]:  of course，
+[Speaker 0]:  is that the bank cannot see what you meant to do。
+[Speaker 0]:  while it's happening a curious experiment and a robbery look exactly the same。
+[Speaker 0]:  so the bank has to treat every intrusion as the worst possible kind until it can prove otherwise。
+[Speaker 0]:  this attacker happened to write his intentions down，
+[Speaker 0]:  but most won't。
+[Speaker 0]:  you know，
+[Speaker 0]:  in my last video，
+[Speaker 0]:  i talked a lot about accountability。
+[Speaker 0]:  and afterwards，
+[Speaker 1]:  somebody in the commons ask me a very fairic question。
+[Speaker 0]:  fine。
+[Speaker 0]:  but what would you actually do about it？
+[Speaker 0]:  well，
+[Speaker 1]:  i thought about it a lot。
+[Speaker 0]:  here is my answer，
+[Speaker 0]:  and it boris an idea from the banks themselves。
+[Speaker 0]:  banks already solved a version of this problem with money。
+[Speaker 0]:  if you move money through a bank，
+[Speaker 0]:  the bank has to know who you are。
+[Speaker 1]:  if something looks unusual，
+[Speaker 0]:  it has to report it。
+[Speaker 0]:  these anti money launding rules are perously twitching。
+[Speaker 1]:  by the way，
+[Speaker 0]:  they will flag a perfectly innocent transfer，
+[Speaker 0]:  just because theyve never seen one like that before。
+[Speaker 0]:  is anyone who's tried to pay run from a new account can tell you，
+[Speaker 1]:  but they work well enough that criminals go to an enormous amount of trouble just to avoid them。
+[Speaker 0]:  so who should answer for an asian that breaks into a bank？
+[Speaker 0]:  i don't think there is one answer，
+[Speaker 0]:  just as an example from where we can take an obstruction。
+[Speaker 0]:  the korea story had three parties in it，
+[Speaker 0]:  a company whose model did the work a person who pointed it at the banks and banks that took days to notice。
+[Speaker 0]:  i think each of these three layers carries parts of the responsibility。
+[Speaker 0]:  the first layer is the companies，
+[Speaker 0]:  the companies，
+[Speaker 0]:  the builties model should have to detect misuse and reported the way a bank reports，
+[Speaker 0]:  a suspicious transaction on anient reaching for a bank slogin page leaves the trail because it's trafficastic of somewhere。
+[Speaker 0]:  and the company running the model can see where this is a buildable thing。
+[Speaker 0]:  it is technically very feasible。
+[Speaker 0]:  it needs a regulator and says the internet doesn't stop at borders。
+[Speaker 0]:  that regulator cannot stop at borders either。
+[Speaker 0]:  the second layer is the person themselves web bought off the standard that i mentioned to the sort of this video already gives an ancient a company stamp clououd laare on throtopic opopen。
+[Speaker 0]:  i are reportedly already using it was missing here。
+[Speaker 0]:  my friends is a stamp for the person who authorized this agent to do this task。
+[Speaker 0]:  my personal agians sending an email for my own account，
+[Speaker 0]:  because i asked to you is one thing。
+[Speaker 0]:  my personal agient poker out a bank's login page is a very different thing。
+[Speaker 0]:  if my personal name is on my agents passport，
+[Speaker 0]:  the responsibility for what it does is partially mine as well，
+[Speaker 0]:  does everything needs to be traceable，
+[Speaker 0]:  probably not？
+[Speaker 0]:  and that debate is still wide open，
+[Speaker 0]:  and i have not convershed to a conclusion on that one，
+[Speaker 0]:  just to go back to money。
+[Speaker 0]:  cash still gives us an anonymous transaction。
+[Speaker 0]:  and that's mostly fine。
+[Speaker 0]:  but just in the united states，
+[Speaker 0]:  for example，
+[Speaker 1]:  if you move more than ten thousand dollars and cash，
+[Speaker 0]:  the bank files，
+[Speaker 1]:  a report agents could work the same way。
+[Speaker 0]:  browse anonymously and book your flights，
+[Speaker 0]:  the moment in asian touches，
+[Speaker 0]:  something serious like a bank system。
+[Speaker 0]:  it carries a passport that identifies a couple of layers here。
+[Speaker 0]:  the third layer that i'm talking about is the institutions defending themselves sixty hours to notice。
+[Speaker 1]:  a breain is not a good luck。
+[Speaker 0]:  this is not good enough when the attacker moves at machine speed。
+[Speaker 0]:  and this layer matters，
+[Speaker 1]:  most of the heart edge open models that people run on their own computers。
+[Speaker 0]:  there is no company in the middle to report anything，
+[Speaker 0]:  and a passporate cannot force a criminal to sign his traffic。
+[Speaker 0]:  so the bank has to do its part。
+[Speaker 1]:  the institution has to do its part and trade onsign traffic with a lot of suspicion the same way。
+[Speaker 1]:  your email already sends messages。
+[Speaker 0]:  it cannot very five straight to spam。
+[Speaker 1]:  you've seen this implementing these three laydoesn't necessarily mean slowing down by the way，
+[Speaker 0]:  it just means doing what every serious field already does。
+[Speaker 0]:  in math，
+[Speaker 0]:  you show you're working and somebody else chets it in finance。
+[Speaker 0]:  you open the books before anyone lends you a penny in both。
+[Speaker 0]:  the receipt comes with the answer，
+[Speaker 0]:  not years after it right now。
+[Speaker 0]:  ai hands over the answers and skips the receipts，
+[Speaker 1]:  the hacker and korea handed his over by accident。
+[Speaker 0]:  everyone else is going to need a system that asks for these receipts，
+[Speaker 1]:  if you'd like to know where my friends original question actually leads where ai is really going to kill us。
+[Speaker 0]:  all。
+[Speaker 0]:  i went through the actual research on exactly that in this video that i'm linking here in your screen。
+[Speaker 0]:  that's the video that i would wash next。
