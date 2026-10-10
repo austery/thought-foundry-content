@@ -1,0 +1,306 @@
+[Speaker 1]:  everyone，
+[Speaker 1]:  my name is gabriel martina as i go by gabble。
+[Speaker 1]:  i'm an engineering manager and residents，
+[Speaker 1]:  slop，
+[Speaker 1]:  boward and AG to i，
+[Speaker 1]:  and i'm here to talk about slop。
+[Speaker 1]:  i'm here to talk about slop because i'm rather passionate about the topic。
+[Speaker 1]:  and by passionate，
+[Speaker 1]:  i mean，
+[Speaker 1]:  angry the term slop has been beaten to a hope。
+[Speaker 1]:  but the thing it points that has long been around only now it happens at work speed。
+[Speaker 0]: 没有没有没有没有 ah。
+[Speaker 1]:  slop is what happens when judgment when generation now runs judgment。
+[Speaker 1]:  slop is not ai generated code。
+[Speaker 1]:  i don't mean to define it，
+[Speaker 1]:  a some concrete objective thing that can easily be snifed out，
+[Speaker 1]:  although there are tells slop is output that looks finished before the thinking is finished。
+[Speaker 1]:  it is work。
+[Speaker 1]:  product is outks ambiguity was cleared with guesses where tradeoffs we're left a chance where ownership was not taken。
+[Speaker 1]:  output was produced。
+[Speaker 1]:  sure，
+[Speaker 1]:  but understanding was not。
+[Speaker 1]:  and the real danger is not simply that the machine made about choice，
+[Speaker 1]:  the dangers that the engineer never noticed that there was a choice to make。
+[Speaker 1]:  they never hit the ambiguity。
+[Speaker 1]:  they never felt the constraint，
+[Speaker 1]:  they never discovered the educase that would have changed the design。
+[Speaker 1]:  the work arrived already smooth over。
+[Speaker 1]:  and with it，
+[Speaker 1]:  the unknown unknowns stayed unknown，
+[Speaker 1]:  but software is a record of choices，
+[Speaker 1]:  technical choices，
+[Speaker 1]:  product choices，
+[Speaker 1]:  operational choices，
+[Speaker 1]:  user facing choices。
+[Speaker 1]:  if we do not see those choices，
+[Speaker 1]:  we cannot own them。
+[Speaker 1]:  and if we do not own them，
+[Speaker 1]:  we are not really engineering。
+[Speaker 1]:  we are just the accepting output。
+[Speaker 1]:  we are just a code monkey hitting the merge button。
+[Speaker 1]:  i'm not the periothat's come here to it to tell you that AI is bad。
+[Speaker 1]:  it's not bad。
+[Speaker 1]:  okay。
+[Speaker 1]:  i'm here to describe some of the patterns that have led to our drunk and ai stupid。
+[Speaker 1]:  it's absolutely understandable given the advancements mates since december twenty five，
+[Speaker 1]:  how we got to where we are，
+[Speaker 1]:  but we need ds to diet of it in。
+[Speaker 1]:  we need to slow down。
+[Speaker 1]:  we need to sober up。
+[Speaker 1]:  agents can seem to make magic and the internet would make you believe it is so they can write code scuffled screens，
+[Speaker 1]:  and with right tuning can build whole features or systems，
+[Speaker 1]:  but they cannot replace the human work of deciding what matters understanding what is being built，
+[Speaker 1]:  interpreting ambiguity，
+[Speaker 1]:  owning system，
+[Speaker 1]:  m the long hohoexercising judgment and restraint at the system mararchitecture level。
+[Speaker 1]:  and arguably the most important important，
+[Speaker 1]:  knowing what not to build slop is not about AI as a tool。
+[Speaker 1]:  rather，
+[Speaker 1]:  it is about the absence of judgment。
+[Speaker 1]:  so let's talk a little bit about what got us here in a world where anything is possible，
+[Speaker 1]:  deciding what to build is more important than ever。
+[Speaker 1]:  people have got overly excited and build bohemets of spagheti product nonsense。
+[Speaker 1]:  it's almost as if they forgotten that any line of code you write is a liability that the best code is no code at all。
+[Speaker 1]:  the cost of creating code is falling，
+[Speaker 1]:  but the cost of understanding a software program is not。
+[Speaker 1]:  and i want to be clear here。
+[Speaker 1]:  i'm not saying every line of code needs to be personally red，
+[Speaker 1]:  blessed and understood in isolation that has never really been。
+[Speaker 1]:  the standard large systems have always contained more detail than any one person can hold in their head，
+[Speaker 1]:  but the logic has to be understood。
+[Speaker 1]:  the main flows，
+[Speaker 1]:  the boundaries，
+[Speaker 1]:  the data model and product behaviors have to be understood。
+[Speaker 1]:  good software has a kind of harmony to it，
+[Speaker 1]:  not in some precious aesthetic sense。
+[Speaker 1]:  in a practical sense，
+[Speaker 1]:  the code should reflect the shape of the domain。
+[Speaker 1]:  AI can generate code，
+[Speaker 1]:  but it cannot magically give a messy system coherence，
+[Speaker 1]:  and the agent can operate with much more effectively inside a code base that has structure patterns，
+[Speaker 1]:  clear boundaries and rationnow。
+[Speaker 1]:  but if the system is already a big ball of mud，
+[Speaker 1]:  the agent does not rescue you from the mud。
+[Speaker 1]:  it just builds the ball bigger，
+[Speaker 1]:  faster。
+[Speaker 1]:  just because you can generate another component，
+[Speaker 1]:  does not mean the product needs another component。
+[Speaker 1]:  the extra had this great line，
+[Speaker 1]:  if we get count lines of code，
+[Speaker 1]:  we would not think of them as lines produced。
+[Speaker 1]:  but as lines spent，
+[Speaker 1]:  it is a cost of building AI makes it easier to spend lines。
+[Speaker 1]:  it makes it easier to spend on files，
+[Speaker 1]:  abstractions and complexity。
+[Speaker 1]:  but at the end of the day，
+[Speaker 1]:  you on the bill that bill shows up as confusion，
+[Speaker 1]:  pttoflows features，
+[Speaker 1]:  nobody wants to judge because they don't fully understand。
+[Speaker 1]:  it shows up as product surfaces that technically do everything，
+[Speaker 1]:  but feel like amazed think about that special kind of beto bloated beat to b software，
+[Speaker 1]:  where every task requires training，
+[Speaker 1]:  where every screen has twelof escape patches。
+[Speaker 1]:  and nobody can explain whether the complexity is there，
+[Speaker 1]:  because users needed it or because teams just kept that tting things teams should be held accountable for work。
+[Speaker 1]:  they are producing accountability is the key word here taking ownership over the product of your building and having a way to tie that to positive or negative reinforcement just in the mere fact of knowing that someone else will review your work，
+[Speaker 1]:  will force engineers to pay just a little bit more attention to the finer details and be a bit more meticulous，
+[Speaker 1]:  especially if there are accountability，
+[Speaker 1]:  meriicthat can be made visible for each chunk of work product。
+[Speaker 1]:  we're entering the age of bloated loloated with spagetu UX on order order worworkinds of bitter b erp s。
+[Speaker 1]:  you may have ever been trained to use today。
+[Speaker 1]:  anyone can vigoat an application in an hour and end up with a working clicicicable prototype and that has changed expectations。
+[Speaker 1]:  because once people see software appear that quickly，
+[Speaker 1]:  they start to believe software can be built that quickly。
+[Speaker 1]:  they see a few props turn into screens。
+[Speaker 1]:  they see a terminal obsession produce something that looks like real。
+[Speaker 1]:  and to be fair，
+[Speaker 1]:  sometimes it is real enough to be useful。
+[Speaker 1]:  sometimes that prototype is a great way to explore an idea，
+[Speaker 1]:  but the problem is that stakeholders do not live in the code base off that stakeholders do not live in the code base，
+[Speaker 1]:  often experienced that prototype as evidence that the heart part is over。
+[Speaker 1]:  they're not thinking about the parts where real battle harden engineers earin their keep。
+[Speaker 1]:  it's outside the happy path figuring out how to go inhesively inteagree，
+[Speaker 1]:  a new feature ure set the work involved in clarifying requirements。
+[Speaker 1]:  the work of actually manually testing a feature set to ensure that it works as a human should expect。
+[Speaker 1]:  and that the UX is in complete garbage。
+[Speaker 1]:  they're not at all thinking about the most time consuming bits，
+[Speaker 1]:  the human parts，
+[Speaker 1]:  the last mile，
+[Speaker 1]:  where the judgment lives。
+[Speaker 1]:  this is where someone has to read the code test the behavior，
+[Speaker 1]:  othe tratraoffs nonotice the missing requirements and decide whether this thing deserves to be a part of the system。
+[Speaker 1]:  here's a tweet that emphasizes the point。
+[Speaker 1]:  i'm trying to make you it costs the creative seeal life，
+[Speaker 1]:  who，
+[Speaker 1]:  on the topic of full request，
+[Speaker 1]:  says，
+[Speaker 1]:  you say，
+[Speaker 1]:  oh，
+[Speaker 1]:  it's free。
+[Speaker 1]:  no，
+[Speaker 1]:  it's not free。
+[Speaker 1]:  where you're doing is asking me to maintain it for you to document it for you to test it for you to maintain it for you for the next twenty five years。
+[Speaker 1]:  that is not free。
+[Speaker 1]:  and this really struck a cord with me。
+[Speaker 1]:  i couldn't have set it better。
+[Speaker 1]:  it's easy to eat of pr，
+[Speaker 1]:  but who has the own that thing whois responsible for the repercussions of what that means？
+[Speaker 1]:  so external pressures from stakeholders，
+[Speaker 1]:  coupled with pressures of competing with slappt msters begeget smoooocho slappo。
+[Speaker 1]:  i'm sure most of you have seen this in the wild were the bad engineers，
+[Speaker 1]:  the ones who don't review the details that don't refine the spect that aren't detail oriented and the producing more faster。
+[Speaker 1]:  the folks who pay attention to the detail and go above and beyond are the ones that might seem like they're doing less and moving slower。
+[Speaker 1]:  how this propagates is a yields performance anxiety where an team environments can pressure engineers to merge pr faster than they can judge，
+[Speaker 1]:  leading to code being merged without full understanding short term thinking，
+[Speaker 1]:  getting that pr in winds over long term cold health。
+[Speaker 1]:  i personally felt this anxiety where engineers around me were emerging at an incredible pace。
+[Speaker 1]:  and i felt constant anxiety that i was not moving fast enough。
+[Speaker 1]:  and i can admit that it led me emerge code that i didn't necessarily review with a level of detail that i normally do or should have。
+[Speaker 1]:  i've seen horror stories of people merging code。
+[Speaker 1]:  they don't fully understand or haven't even tested themselves at the end of the day。
+[Speaker 1]:  we're all human。
+[Speaker 1]:  we're driven by incentive。
+[Speaker 1]:  and if incentives are driving people to get ps in，
+[Speaker 1]:  then we're going to be be in for a rute。
+[Speaker 1]:  awakening rewards should be centred around producing value，
+[Speaker 1]:  elegant wealth，
+[Speaker 1]:  factred，
+[Speaker 1]:  pragmatic system design and around clarity of test and evaluation harnesses。
+[Speaker 1]:  there's just something that really grinds my ears about seeing a multi thousand line PR。
+[Speaker 1]:  there's no way in hell that a human can fully understand all the important bits of a changed that big。
+[Speaker 1]:  it is。
+[Speaker 1]:  our job is engineers to optimize for this new world to decompose needs into its simplest chunks，
+[Speaker 1]:  which lends to understanding understanding simpler code surfaces and controlling of our code bases。
+[Speaker 1]:  AI is supposed to have been eradicating jobs，
+[Speaker 1]:  and engineers are supposed to be moving at the rate of token production。
+[Speaker 1]:  so there is a lot of pressure to be in producing more faster。
+[Speaker 1]:  what AI is really doing is producing more faster，
+[Speaker 1]:  more characters that eat more human time。
+[Speaker 1]:  i've seen this happened in the most mundanways ways。
+[Speaker 1]:  you give someone ten bullets of scope a few user journeys，
+[Speaker 1]:  something intentionally light weight。
+[Speaker 1]:  they come back with with twenty pages document。
+[Speaker 1]:  maybe it looks polished with fancy pros，
+[Speaker 1]:  but now i have to spend hours figuring out whether there's any real thinking，
+[Speaker 1]:  incited that is AI generated work。
+[Speaker 1]:  in the worst sense，
+[Speaker 1]:  it does not clarify the problem。
+[Speaker 1]:  it expanded。
+[Speaker 1]:  it took ambiguity that should have been resolved by the person dodoing work，
+[Speaker 1]:  work and handit back as a larger art effect for other stakeholders to do it in code of ague task becomes a large PRA。
+[Speaker 1]:  small feature becomes a pilofiles。
+[Speaker 1]:  the output arrives with the shape of completion，
+[Speaker 1]:  but the real work has just moved to the reviewer，
+[Speaker 1]:  and that is the part that we need to be honest about generation is cheap，
+[Speaker 1]:  but evaluation is expensive。
+[Speaker 1]:  if AI produces more than humans can possibly evaluate。
+[Speaker 1]:  it has not accelelerated the team。
+[Speaker 1]:  it has created a bottleer。
+[Speaker 1]:  one thing that i find particularly annoying is twitter。
+[Speaker 1]:  you've got all these self proclaimed experts and clickbaters summarizing some talk or promoting some truth that we've always known as if there's some novel genius idea。
+[Speaker 1]:  the rough loop was one of those。
+[Speaker 1]:  it was made to sound like a novel agentic breakthrough when it's just a wild somehow。
+[Speaker 1]:  we've completely forgotten that lines of code is a garbage metric for productivity，
+[Speaker 1]:  but then we decided that it's different than deciding the engineer who burns the most tokens must be producing the most。
+[Speaker 1]:  we used to break a feature into small atomic pieces。
+[Speaker 1]:  we could reason about small enough to hold in your head and actually review。
+[Speaker 1]:  now we typed two sentences and expect a whole not fully thought out feature set back in one shot without really understanding。
+[Speaker 1]:  it is what it is。
+[Speaker 1]:  we're asking for the key point。
+[Speaker 1]:  i want a highlight here is that we do not forget the ground troops。
+[Speaker 1]:  we've always know sixty years of software wisdom hasn't been invalidated by ai composable code，
+[Speaker 1]:  good patterns and solid practices remain essential。
+[Speaker 1]:  a friend recently challenged me and why i spend so much time thinking about guard rail for agents，
+[Speaker 1]:  coding，
+[Speaker 1]:  conventions，
+[Speaker 1]:  architectural styles and and constraints around how the system should be shaped。
+[Speaker 1]:  his question was，
+[Speaker 1]:  basically，
+[Speaker 1]:  what's the point if the agent writes the code，
+[Speaker 1]:  why should we care about what the code looks like？
+[Speaker 1]:  and to an extent，
+[Speaker 1]:  i agree，
+[Speaker 1]:  there will eventually be a world where much implementation details completely abstracted away from humans that has been the soft，
+[Speaker 1]:  the direction of software from the beginning。
+[Speaker 1]:  we went from machine code to assembly，
+[Speaker 1]:  which another ablevel abstraction。
+[Speaker 1]:  i've tus to see then java，
+[Speaker 1]:  then languages like rube where the primary design was programmher happiness，
+[Speaker 1]:  just like in languages，
+[Speaker 1]:  we built abstractions for garbage collection and manual poinners。
+[Speaker 1]:  ai is abstracting away the imperative bits。
+[Speaker 1]:  it does not remove need to understand and how system comes together。
+[Speaker 1]:  coheciand food。
+[Speaker 1]:  this is why diagrams 's matter so much，
+[Speaker 1]:  not as decorative documentation after the fact，
+[Speaker 1]:  but as a way of making systems eligible，
+[Speaker 1]:  when agents can generate thousands of lines of implementation detail。
+[Speaker 1]:  humans need a compress review，
+[Speaker 1]:  surface service boundaries，
+[Speaker 1]:  data flows，
+[Speaker 1]:  stay transitions and failure modes。
+[Speaker 1]:  a good diagram lets us see the shape of the system in a way code often obscures。
+[Speaker 1]:  we can leave the main process or workflow as the reviewable surface with implementation details push to the ves ves。
+[Speaker 1]:  that is i have vowed for declative code and architecture patterns that create layers。
+[Speaker 1]:  humans can actually reason about goal。
+[Speaker 1]:  als is not just code generation。
+[Speaker 1]:  goal is human knowledge，
+[Speaker 1]:  human understanding and human review。
+[Speaker 1]:  we need to optimize for that human layer。
+[Speaker 1]:  carcargave overhead is attacks。
+[Speaker 1]:  every engineer has to pay before they can make a meaningful change。
+[Speaker 1]:  that is the time spent figuring out where code belongs，
+[Speaker 1]:  which pattern to follow。
+[Speaker 1]:  and what proper implementation actually means。
+[Speaker 1]:  ai does not remove this tax unless taines it exererates，
+[Speaker 1]:  an asian can generate five plausible patterns in five different styles。
+[Speaker 1]:  and now the human reviewer has to reverse engineer，
+[Speaker 1]:  not just the code has to retent behind it。
+[Speaker 1]:  an proper conventions in is more easily gropped。
+[Speaker 1]:  the answer to this is conventions，
+[Speaker 1]:  standards，
+[Speaker 1]:  documented flows，
+[Speaker 1]:  small reviewable surfaces and clear ownership boundaries and definitions of done。
+[Speaker 1]:  the more obvious，
+[Speaker 1]:  the path，
+[Speaker 1]:  the less room there is for slop to hide。
+[Speaker 1]:  i want to give special recognition here to rails and its place in my heart。
+[Speaker 1]:  rails matters here because it shows what happens when a framework aggressively reduces decision surface when conventions reduce your overhead，
+[Speaker 1]:  rather than ending up with ten different ways to structure the same contecept to end up with one。
+[Speaker 1]:  it may not be perfect in everyone's subjective opinion，
+[Speaker 1]:  but it's understood。
+[Speaker 1]:  and it works in my career between my first and second，
+[Speaker 1]:  four agyes with rails。
+[Speaker 1]:  i had a gap of four years。
+[Speaker 1]:  it was beautiful to come back after that gap that they see that the same patterns and defacctto libraries were still the same patterns and defacctto libraries。
+[Speaker 1]:  i got hop right back into a code base and immediately understand intent without needing to pass through architecture。
+[Speaker 1]:  it allows engineers to easily move between projects latterally with minimal rampop。
+[Speaker 1]:  the same camp beatten said about other language equissistems have a script environments with a single correct way of doing things are superior for agentic development，
+[Speaker 1]:  because agents aren't confused by dozens of competing approaches。
+[Speaker 1]:  this is well supported by the official rails doctrine。
+[Speaker 1]:  it explicitly ames ames optized for programmer，
+[Speaker 1]:  happiness and convention over configuration as cord pillars，
+[Speaker 1]:  and describes convention as a way to eliminate recurring decisions and lowering the barrier to getting started。
+[Speaker 1]:  it is the reduction of cognitive overoverod。
+[Speaker 1]:  everything i've talked about today is what let us to build dork。
+[Speaker 1]:  not only because we think the answer，
+[Speaker 1]:  not only because we think the answer is more agents and definitely not because we think engineering judgment can be automated away。
+[Speaker 1]:  we built art because we kept seeing the same failure pattern ai could generate code，
+[Speaker 1]:  but the surrounding discipline was still missing the planning the review that veryerial checks the context management。
+[Speaker 1]:  over time，
+[Speaker 1]:  we found ourselves repeating the same human processes to fight slop，
+[Speaker 1]:  break down the work，
+[Speaker 1]:  manage context，
+[Speaker 1]:  wait out your options and make sure the output enters the code base in the way the team that can can still reason about ork is taking those lessons and baking them into the workflow。
+[Speaker 1]:  it is not a magic box that makes correctness disappear as a human responsibility。
+[Speaker 1]:  it is a system for preserving that responsibility。
+[Speaker 1]:  while letting agents do more of the lift。
+[Speaker 1]:  the goal is not to shiship more generated code。
+[Speaker 1]:  the goal is the ship software that is still coo here and tested maintainable and owned after the generation happens。
+[Speaker 1]:  because the future is not vibe，
+[Speaker 1]:  coding better faster。
+[Speaker 1]:  the future is orchestration with judgment。
+[Speaker 1]:  thank you，
+[Speaker 1]:  offer your time and remember，
+[Speaker 0]:  don't get sloppy。
