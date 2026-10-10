@@ -1,0 +1,1074 @@
+[Speaker 1]: 对吧但是他回答完了过后，
+[Speaker 1]: 你需要判断这个判断力，
+[Speaker 1]: 我认为是今后我们最重要的一个核心能力嗯。
+[Speaker 0]: 嗯嗯要，
+[Speaker 0]: 不要想说我找，
+[Speaker 1]: 一个份工作一份，
+[Speaker 1]: 份工就就，
+[Speaker 1]: 从头干到我们退休不可，
+[Speaker 0]: 能的事情非常。
+[Speaker 2]: 感谢大家今天来参加这个会啊我是，
+[Speaker 2]: 第一次参加咱们学会的这个年会啊我现，
+[Speaker 2]: 在是在慕尼黑做音频算法工程师除了。
+[Speaker 2]: 正式的工作身份之外呢我自，
+[Speaker 2]: 己还有一个播客叫破，
+[Speaker 2]: 壁圆桌然后。
+[Speaker 2]: 很有幸在第二期的时候采访过这个张师兄然后。
+[Speaker 2]: 我第二个身份就是一个兼职的脱口秀演员在慕。
+[Speaker 2]: 尼黑这边对今天，
+[Speaker 2]: 今，
+[Speaker 2]: 天来的感觉特别亲切就这个。
+[Speaker 2]: 特别像我们平时讲脱口秀的那个场地啊我们一，
+[Speaker 4]: 会儿最后你来一段吧今天没，
+[Speaker 3]: 准备今天这。
+[Speaker 3]: 个脱口秀秀的话我们接下，
+[Speaker 2]: 来的这个圆桌讨论是一个主题是在 AI 时，
+[Speaker 2]: 代下职场创业的一些心得和感悟悟咱们接。
+[Speaker 2]: 下来是一个讨论的形式就不是我，
+[Speaker 2]: 们几个在这说如果中间。
+[Speaker 2]: 有问题的话可以随时，
+[Speaker 2]: 举手或者参与这个讨论这个接下。
+[Speaker 2]: 来的时间交给我们场上的这几位嘉宾大家做一，
+[Speaker 2]: 下自我介绍那我们从。
+[Speaker 2]: 张天光博士开始大家好我。
+[Speaker 5]: 是协会，
+[Speaker 5]: 的秘书长也是汽车，
+[Speaker 5]: 工程部的部长我是孟田，
+[Speaker 5]: 工业大学的本科硕士博士在一五年。
+[Speaker 5]: 开始我就通过时间减少做一些兼职的技术啊还有这个，
+[Speaker 5]: 商业咨询那么主要。
+[Speaker 5]: 给十年年第一我是彻，
+[Speaker 5]: 底离职了那么现在是。
+[Speaker 5]: 全职的这个自由职业我叫胡伟我，
+[Speaker 1]: 是柏林工，
+[Speaker 1]: 大的博士搞机电一体，
+[Speaker 1]: 化所以说这个后。
+[Speaker 1]: 来工作呢一直就是搞电动汽车相关在德国的时候，
+[Speaker 1]: 在博士工作然后后来从博，
+[Speaker 1]: 士离开就回国然后在整车厂。
+[Speaker 1]: 一直负责整车的开发主要搞电动车，
+[Speaker 1]: 啊也在国内搞了，
+[Speaker 1]: 十年然后两年前呢我。
+[Speaker 1]: 又从国内又回，
+[Speaker 1]: 来了现在在又在斯拉，
+[Speaker 1]: 特然后现在呢主要。
+[Speaker 1]: 抓注在电池相关的一些事情上面呃能源呀一些包括，
+[Speaker 1]: 动，
+[Speaker 1]: 力啊这些这方面的一些事情大家好我是第一次。
+[Speaker 6]: 来机电，
+[Speaker 6]: 协会很高兴在这里可以，
+[Speaker 6]: 认识到大家然后我是呃机械电。
+[Speaker 6]: 子和机器人专业的背景然后我的博士硕士。
+[Speaker 6]: 是在主要是在丹麦但有一部分时间也在，
+[Speaker 6]: 瑞士然后我毕业之后呢是。
+[Speaker 6]: 在一家叫标级的公，
+[Speaker 6]: 司然后主要是做机器人，
+[Speaker 6]: 在建筑领域方面的应用然后现在主要的工作呢。
+[Speaker 6]: 是做呃企业合作和技术分析可能会比较多的跟呃初。
+[Speaker 6]: 创公司啊或者是机器人相关的一，
+[Speaker 6]: 些技术啊呃公司啊做一些交流合作大家好，
+[Speaker 6]: 我是周思佳然后。
+[Speaker 7]: 我是咱，
+[Speaker 7]: 们斯图加特，
+[Speaker 7]: 的学生学者联合会的主席今天也是非常荣幸说要。
+[Speaker 7]: 参加了咱们这个学会的年会活动然后跟各位在现场的大佬，
+[Speaker 7]: 不一样我目前还只是一个硕士在。
+[Speaker 7]: 读的学生我个人的背景化应该算是。
+[Speaker 7]: 小学毕业之后来司徒也算是一个老司徒，
+[Speaker 7]: 了然后也是非常高兴能够参加，
+[Speaker 7]: 到今天的这个活动接下来是有几个大的话题第。
+[Speaker 2]: 一个问题就是面对越来越。
+[Speaker 2]: 不稳定的职场我们需要做什么在 AI 的影响，
+[Speaker 2]: 下未来社会需要？
+[Speaker 2]: 什么样的人才，
+[Speaker 2]: 我们需要掌握什么样的技能？
+[Speaker 2]: 才不会被 AI 淘汰接下来我们想从两个角度去？
+[Speaker 2]: 讨论这个问题第一个是从职场的角度第二。
+[Speaker 2]: 个呢就是从创业的角度然，
+[Speaker 2]: 后最后呢我们可以就简单讨。
+[Speaker 2]: 论一下职场的这个稳定性将来还会不会有因为我们之前，
+[Speaker 2]: 都说在德国的车？
+[Speaker 2]: 企可能就跟中国的国企一样就是，
+[Speaker 2]: 一个铁饭碗一个稳定的工，
+[Speaker 2]: 作但是现在发现，
+[Speaker 2]: 好像并不是这样从。
+[Speaker 2]: 职场的这个角度那我们特别想，
+[Speaker 2]: 请张博士能不能帮，
+[Speaker 2]: 我们分享一下其实在座很，
+[Speaker 2]: 多前辈也的经验比我。
+[Speaker 5]: 丰富多了那么我就是以我非常有限的这个。
+[Speaker 5]: 个人经历我简单就是说抛砖引玉吧那么我，
+[Speaker 5]: 主要是做这个研发项目的。
+[Speaker 5]: 这个项目管理就是方式功能和这个 product owner 那么在，
+[Speaker 5]: 这个领域里面我觉得就是。
+[Speaker 5]: 说最重要的还是业务，
+[Speaker 5]: 就是你要懂业务那么 AI 不可能比我懂我的产品比。
+[Speaker 5]: 我懂我的项目那么所以你只要懂，
+[Speaker 5]: 业务尤其在 OEM 里。
+[Speaker 5]: 边那么它有各种自己的，
+[Speaker 5]: 系统那你要的，
+[Speaker 5]: 你的粗钢你的权限只要你。
+[Speaker 5]: 有这些权限你懂你，
+[Speaker 5]: 的业务那，
+[Speaker 5]:  AI 是不可能替代我，
+[Speaker 5]: 的对于我来说，
+[Speaker 5]: 那 AI 就是工具那我就是利。
+[Speaker 5]: 用它作为一，
+[Speaker 5]: 个工具那么提，
+[Speaker 5]: 高我的工作效率呃再一个就是，
+[Speaker 5]: 说我要判断说他给我的。
+[Speaker 5]: 答，
+[Speaker 5]: 案是不是我满意的答案是不是正确的甚至是 AI 也经常卡断那么所以这是我呃，
+[Speaker 5]: 用 AI 的一个前提吧或。
+[Speaker 5]: 者是说 AI 对于我的一些帮助我觉得最，
+[Speaker 5]: 核心的还是说呃懂自己的业务。
+[Speaker 5]: 那么把这个技术啊商业呀还有法务啊呃。
+[Speaker 5]: 包括人因为我要做、
+[Speaker 5]: 项目管，
+[Speaker 5]: 理要跟供应，
+[Speaker 5]: 商合作把这些关系协调起来最，
+[Speaker 5]: 终做一个判断从，
+[Speaker 5]: 我的角度来讲从我个，
+[Speaker 5]: 人的从业经验就。
+[Speaker 5]: 是我有限的从业，
+[Speaker 5]: 经验来讲我觉得 AI 是不可能替代这个至少在 OEM 里，
+[Speaker 5]: 面的一些或者或者 product 那 oner 因为平时用到的机机会太小只是一个。
+[Speaker 5]: 小的工具来提升效率而已我觉得，
+[Speaker 5]: 还是要看个人兴趣吧分析个人擅长。
+[Speaker 5]: 什么想要什么做这个选择无。
+[Speaker 5]: 论是职场还是创业，
+[Speaker 5]: 所以在创，
+[Speaker 5]: 业上发而我，
+[Speaker 5]: 以前一直会问自己就。
+[Speaker 5]: 是说呃我做咨询，
+[Speaker 5]: 嘛找我做咨询的人为什，
+[Speaker 5]: 么不问 AI 的来问我还，
+[Speaker 5]: 要付钱那么我也有，
+[Speaker 5]: 这种疑问但事实上我觉得这几年？
+[Speaker 5]: 下来我觉得反而是找，
+[Speaker 5]: 我的人越来越多了没有影响，
+[Speaker 5]: 我的这个合合约 AI 只是一个工具嘛，
+[Speaker 5]: 工具摆在那儿那每个人用。
+[Speaker 5]: 起来是不一样的就，
+[Speaker 5]: 是说产的产出，
+[Speaker 5]: 是不一样的我想请郭伟博士来，
+[Speaker 5]: 可不可以分享一下德国的创业。
+[Speaker 2]: 的环境目前是怎，
+[Speaker 2]: 么样的我们听到的可能是觉得德国创业环境不如中国？
+[Speaker 2]: 但是因为你自己是身处在这个环境里面你觉得德。
+[Speaker 2]: 国这个创业环境怎么样然后第二个问题，
+[Speaker 2]: 是 AI 在你的创业里面是起到了哪？
+[Speaker 2]: 些作用可不可以请，
+[Speaker 2]: 您分享一下实际上的确首先大家都基，
+[Speaker 2]: 本上达成共识了就是欧。
+[Speaker 1]: 洲的环境是创业环境是比较差的相对来说，
+[Speaker 1]: 对吧这个我其实我觉得我不需要再去讲说。
+[Speaker 1]: 他到底有多差就？
+[Speaker 1]: 是当然是对比啊就是对比中美以后来说这个东西是。
+[Speaker 1]: 没有办法当然你说，
+[Speaker 1]: 欧洲差它其实也有一些，
+[Speaker 1]: 好的地方或者说有一。
+[Speaker 1]: 些点子上比较好，
+[Speaker 1]: 你比如说瑞士荷兰北欧在，
+[Speaker 1]: 有一些国家还是相对来说好。
+[Speaker 1]: 一些德欧可能更差一些但是就是说这种行业行业罢差也罢我，
+[Speaker 1]: 觉得呢他的所带来。
+[Speaker 1]: 的呃你想说想要变成像中美那样的，
+[Speaker 1]: 那种很呃孵化出很巨型的，
+[Speaker 1]: 这种公司的概率可能更低一些但是不代表说他没有创新不代表说他不能够做出新的基于。
+[Speaker 1]:  AI 的新的东西因为首先我，
+[Speaker 1]: 们刚才都讲 AI 是工具这种工具它会深入到各个。
+[Speaker 1]: 行业里面任何一个行业都需要这种，
+[Speaker 1]: 工具的赋能然后把这个行业里面的，
+[Speaker 1]: 它的这叫做什么生产效率在提高那么。
+[Speaker 1]: 这种哪怕就是在最传统的这个行业里面都需要你看我们。
+[Speaker 1]: 的一个很简单的例子你看我现在开会哈我跟国，
+[Speaker 1]: 内开会。
+[Speaker 1]: 那个我用国内的一个工具叫飞。
+[Speaker 1]: 书啊我不知道大家，
+[Speaker 1]: 有没有用过哈，
+[Speaker 1]: 呃这个飞书最简单的干嘛呢不就是，
+[Speaker 1]: 网上开个会嘛做个会议纪要。
+[Speaker 1]: 嘛对不对就这么简单一个事情？
+[Speaker 1]: 你能知道他用 AI 所导，
+[Speaker 1]: 入进来的工具过，
+[Speaker 1]: 后他能？
+[Speaker 1]: 够让你开会。
+[Speaker 1]: 完了过后，
+[Speaker 1]: 他给你写会议纪要会议完了过后你，
+[Speaker 1]: 这个开会的所有的人。
+[Speaker 1]: 然后要分配的所有的工作他。
+[Speaker 1]: 都给你一步一，
+[Speaker 1]: 步全部都给你做好这个，
+[Speaker 1]: 好像看起来就是一个很简，
+[Speaker 1]: 单一个秘书给你做的一个会议纪要。
+[Speaker 1]: 的事情但是引入 AI 过后你会觉得哇这个原来可以这么玩也可以玩这样子的。
+[Speaker 1]: 对所以说就是哪，
+[Speaker 1]: 怕就是一个很很简单很简单的一个一个事情它通过 AI。
+[Speaker 1]: 的引入它都可变变成一个你体验完完全新的一个内容啊也就。
+[Speaker 1]: 是说那么反过来，
+[Speaker 1]: 说德国也好就是整个欧洲也好你想它有那么好。
+[Speaker 1]: 的，
+[Speaker 1]: 一个工业基础它可以做，
+[Speaker 1]: 那么多就，
+[Speaker 1]: 是我们所说所谓的，
+[Speaker 1]: 传统的一些一些这些机械也好电，
+[Speaker 1]: 子也好这些行业。
+[Speaker 1]: 的东西那么把这些东西如果所有的 AI 引进进去过后在，
+[Speaker 1]: 他们现在，
+[Speaker 1]: 的基础上再进行。
+[Speaker 1]: 一些更新的迭代，
+[Speaker 1]: 然后再开发它一定是有非常，
+[Speaker 1]: 大的一个空间的它不一定说我要再培养一个，
+[Speaker 1]: 新的 AI 公司出来像 TIGBT 或者什么这样一个公司才。
+[Speaker 1]: 来颠覆这个行业不用啊它就是有很多开发一，
+[Speaker 1]: 些很多新的东西那就在原来的这些公司的基础。
+[Speaker 1]: 上再赋，
+[Speaker 1]: 能它就一定会能在这个孵化出更多更。
+[Speaker 1]: 有价值的事情实际上这个是我认为是任何，
+[Speaker 1]: 一个这行业里面都需要在深根的事情而且在这种。
+[Speaker 1]: 深根的情况下你就会发现新的东西任何非常新的东西不是说只是。
+[Speaker 1]: 好像一点点所谓的小秀教，
+[Speaker 1]: 练不是真的是完全不，
+[Speaker 1]: 一样的这个体验所带。
+[Speaker 1]: 来的这种工作效率的提升也是非常大的那，
+[Speaker 1]: 么所带来的问题就是说 ok。
+[Speaker 1]: 那德国也好欧洲也好我怎么样做创业对吧我这个创业。
+[Speaker 1]: 我是不是就是说我像所所谓的传统创业，
+[Speaker 1]: 一样 ok 我，
+[Speaker 1]: 自己开个公司我自己？
+[Speaker 1]: 再做个什么产品做个服务不一定啊对不对其实你也可以基，
+[Speaker 1]: 于很多公司的基础，
+[Speaker 1]: 再来做当然你反过来说，
+[Speaker 1]: 你即使是做创业你，
+[Speaker 1]: 怎么创？
+[Speaker 1]: 业其实创业的核心是什么创业的核心还是。
+[Speaker 1]: 首先找到市场需，
+[Speaker 1]: 求并且解决问题，
+[Speaker 1]: 嘛对吧那这种？
+[Speaker 1]: 所谓的找到需求和解决？
+[Speaker 1]: 问题就是看你怎么样去挖掘这个点你说这些点 AI 可，
+[Speaker 1]: 以完？
+[Speaker 1]: 全可以帮助来去找到这些问题但是，
+[Speaker 1]: 他找到问题过后是不是要去做。
+[Speaker 1]: 或者怎么样去做还是判断在于你自己所以说所谓的这。
+[Speaker 1]: 种 ai 它能够快速的让你获得你在没有 ai 的之之前所，
+[Speaker 1]: 要更更困难去获得这。
+[Speaker 1]: 些信息对吧你想我们，
+[Speaker 1]: 假设说没有电脑之前我们需要信息我们就到图书馆去翻书翻了半天你可能，
+[Speaker 1]: 获获？
+[Speaker 1]: 到什么东西但是现在有了 AI 过后，
+[Speaker 1]: 你就问他几个，
+[Speaker 1]: 问题他回答的东西基本，
+[Speaker 1]: 上把你的，
+[Speaker 1]: 脑子里面的问题都能回。
+[Speaker 1]: 答了对吧但是他回答，
+[Speaker 1]: 完了过后你需要判，
+[Speaker 1]: 断这个判断力我认为是今后我们最重要的一个核心能力就，
+[Speaker 1]: 是你？
+[Speaker 1]: 能不能够有能力判断，
+[Speaker 1]:  AI 说的这个东西它对你，
+[Speaker 1]: 的业务往哪个方向走或者说他说的是简单的。
+[Speaker 1]: 说是对还是错的或者说你要采纳哪些不多采，
+[Speaker 1]: 纳哪些当比较简单的问题可能，
+[Speaker 1]: 很容易比如说我们现在问一个非常 standard technate，
+[Speaker 1]: 的问题对吧那个市面上都已经，
+[Speaker 1]: 很成熟了那可能他说的就是就是最。
+[Speaker 1]: 佳答案但是如果说对于创业来说对吧对于，
+[Speaker 1]: 一些？
+[Speaker 1]: 很多很开放的问题来说它其，
+[Speaker 1]: 实没有最优答案对吧你可以是这。
+[Speaker 1]: 样也可以是这样也可以是，
+[Speaker 1]: 那样那么你到底是觉得说哎 AI 给你给，
+[Speaker 1]: 你的各种各样的建议，
+[Speaker 1]: 哈到？
+[Speaker 1]: 底是觉得得这，
+[Speaker 1]: 个是不是应该证，
+[Speaker 1]: 明的这核心是。
+[Speaker 1]: 决策的问题这个决策我觉得是最核心的你想想哪怕就是，
+[Speaker 1]: 说你看我们大家原来都当做这个员工哈你经常有没有抱怨，
+[Speaker 1]: 说你的老板啊那个老板很傻他。
+[Speaker 1]: 做了一，
+[Speaker 1]: 个很错误的决策把我们整个团队都带带带到骗子，
+[Speaker 1]: 是不是很多人都有这样的一些词你都可能有这，
+[Speaker 1]: 种那为什么呢那老板做出，
+[Speaker 1]: 了错误的决策嘛那就说明什么决，
+[Speaker 1]: 策是最核心的对吧你现在是一样的，
+[Speaker 1]: 你自己带领的一，
+[Speaker 1]: 个 AI 团队那？
+[Speaker 1]: 这下面 AI 的员工对吧这只是，
+[Speaker 1]: 不是真实的员？
+[Speaker 1]: 工那 AI 的团队员工他？
+[Speaker 1]: 给你每个人给你，
+[Speaker 1]: 分析出来不同的一个意见。
+[Speaker 1]: 那你要有没有这个决策？
+[Speaker 1]: 能力哎这个意见好像是对？
+[Speaker 1]: 的我可以采纳这个意见或者说那个意见那最终我做出决策时。
+[Speaker 1]: 候 OK 我按照这样的决策去做？
+[Speaker 1]: 这，
+[Speaker 1]: 个产品开发去做这个，
+[Speaker 1]: 市场拓展或者怎么怎么样那你就才能。
+[Speaker 1]: 决定你这个业务能不能，
+[Speaker 1]: 做，
+[Speaker 1]: 成功嘛所所以说核心其实在这里那么那，
+[Speaker 1]: 所说 AI 所做的的它只是说帮助你给，
+[Speaker 1]: 你一些分析但是你要有这个决策能力那你必。
+[Speaker 1]: 须要超越 AI 的能力你如果。
+[Speaker 1]: 说没有超越 AI 的这个认，
+[Speaker 1]: 知的话你只是停留在 AI 的水平或。
+[Speaker 1]: 者说你还不如 AI 那 AI 它所，
+[Speaker 1]: 基于的什么都是大数据大。
+[Speaker 1]: 数据说白了就是统计数据它不会有超，
+[Speaker 1]: 越更好的那你真正成功，
+[Speaker 1]: 的企业什么成功的企业它一定是那个凤毛麟角的对吧。
+[Speaker 1]: 百分之九十几的企业为什么，
+[Speaker 1]: 最后都拍死在沙滩上对吧那百分之九十几，
+[Speaker 1]: 的企业那个领导，
+[Speaker 1]: 人他对这个这个认知不管是行？
+[Speaker 1]: 业的认知产品的认知各方面认知它是不完整的或，
+[Speaker 1]: 者说？
+[Speaker 1]: 甚至于是缺失的那么最后投资都都，
+[Speaker 1]: 失败那在成功人那百，
+[Speaker 1]: 分之零点几呢它一，
+[Speaker 1]: 定就是超越，
+[Speaker 1]: 那个呃或者说超越 AI 的认，
+[Speaker 1]: 知嘛那 AI 就是一个平均。
+[Speaker 1]: 水平的认知你一定要超。
+[Speaker 1]: 越那个认知你才有可能获得成，
+[Speaker 1]: 功所以说不要说好像创业很简单创业其实一点。
+[Speaker 1]: 都不简单创业非常非常的难对吧，
+[Speaker 1]: 就说你需要具备要创业，
+[Speaker 1]: 成功的所有的前前提。
+[Speaker 1]: 条件各个方面你都要有啊你说我，
+[Speaker 1]: 好像哎我只是在这一块，
+[Speaker 1]: 技术我好像比别人，
+[Speaker 1]: 呃牛？
+[Speaker 1]: 一点好像别人觉得说这个东西不懂我好像有这个，
+[Speaker 1]: 技术你说我只是有这。
+[Speaker 1]: 一块东西我就能够创业成功嘛你差，
+[Speaker 1]: 了十万八千真的是这样。
+[Speaker 1]: 子所以说你需要把很多东西都要，
+[Speaker 1]: 具备了你你才有可，
+[Speaker 1]: 能这个这个创业的成功的，
+[Speaker 1]: 一点点的机会那么你。
+[Speaker 1]: 最后要真要成功那也是天时地。
+[Speaker 1]: 利人和的事情对吧所以说说到底最后，
+[Speaker 1]:  AI 它真的就是只是一个很小的工具他告诉你的给你的。
+[Speaker 1]: 一些辅助最后你能不能，
+[Speaker 1]: 够决策你的决策能不能够最，
+[Speaker 1]: 后变？
+[Speaker 1]: 成成功的可能性那还有很长的路要走这都不是 AI 能够替。
+[Speaker 1]: 代上个星期我去参加慕尼黑，
+[Speaker 1]: 人员英特索拉那个会，
+[Speaker 1]: 你看在那个会上三天的那个展会全部啊几。
+[Speaker 1]: 千家企业那么所有的企，
+[Speaker 1]: 业都在不停的展会上。
+[Speaker 1]: 去人与人，
+[Speaker 1]: 的面对面的去沟通去聊聊的是什么东，
+[Speaker 1]: 西对吧聊的大家是对这个市场的，
+[Speaker 1]: 展望是对这个产品。
+[Speaker 1]: 的定义是对我的需求的定义这个东西，
+[Speaker 1]: 也不是 AI 可以替代的那么这，
+[Speaker 1]: 这个所看待的什么看，
+[Speaker 1]: 待的？
+[Speaker 1]: 就是整个欧洲的市场实际上它，
+[Speaker 1]: 也是很很巨大的需求，
+[Speaker 1]: 也是很巨大的那么你。
+[Speaker 1]: 怎么样能把这些市场的需求然。
+[Speaker 1]: 后变成最后落地的一个产品以及，
+[Speaker 1]: 这个公司的成功那这个，
+[Speaker 1]: 东西全是要去靠人与人的，
+[Speaker 1]: 面对的去沟通才能。
+[Speaker 1]: 产生的那这种沟通建立的是什么实，
+[Speaker 1]: 际上建立的是人与人之间的信，
+[Speaker 1]: 任对吧你这也没办法。
+[Speaker 1]: 通过 AI 来建信任是一切商业行为的基础就是你一旦建立了信任了你才有可能跟跟我做？
+[Speaker 1]: 生意对吧我跟你做生意然后最终生，
+[Speaker 1]: 意变？
+[Speaker 1]: 成为这个大家共赢的一个结果 ok 我就先上讲正一下还。
+[Speaker 1]: 有一个问题啊想问一下因，
+[Speaker 1]: 为我也是在思考 AI 决策这，
+[Speaker 1]: 块这方？
+[Speaker 1]: 面的一些发展，
+[Speaker 1]: 那我看到的一些情况我其实想听一下大家的意见。
+[Speaker 1]: 我们现在可以看到在。
+[Speaker 6]:  meta 他们可能之前，
+[Speaker 6]: 有一系列，
+[Speaker 6]: 操作然后通过观察员工的一些输入啊通过员工的。
+[Speaker 6]: 日常工作啊来熟悉员，
+[Speaker 6]: 工的日常生活员工的逗号让。
+[Speaker 6]: 员工的建立这个体，
+[Speaker 6]: 系和一些他们已有的人类 process 的这，
+[Speaker 6]: 些呃把它让从员工本来呃在大脑，
+[Speaker 6]: 里人类大脑里的这些知，
+[Speaker 6]: 识或者是叫离散这些信，
+[Speaker 6]: 息把它整合，
+[Speaker 6]: 统一到一个 BI 可以呃把它表达出来的这么一套体系里面同，
+[Speaker 6]: 时也看到很多其他的公司可能，
+[Speaker 6]: 通过一一量化化的方式分，
+[Speaker 6]: 析的方式通过框架的方，
+[Speaker 6]: 式把原来一些可能凭直，
+[Speaker 6]: 觉凭品味凭调性或者一些其他的一些模糊。
+[Speaker 6]: 的这些判断通过这种方式呢又把它可以具象化的把它工程式的表达，
+[Speaker 6]: 出来面对这种转变，
+[Speaker 6]: 和这种变化不知道您是怎么样、
+[Speaker 6]: 的一个观点来看待这个情况但我觉得新人这。
+[Speaker 6]: 一点确实到现在，
+[Speaker 6]: 为止人跟人之间直接交流确实是一个非常重。
+[Speaker 6]: 要的一步但对于决策这块，
+[Speaker 6]: 不知道您是怎么怎么来看决策啊我认为分几方面。
+[Speaker 6]: 的决策对你你比如说这个买股票的决，
+[Speaker 6]: 策我认为 AI 分析的肯定比人到位对吧比如说啊我。
+[Speaker 6]: 觉得是这样子的，
+[Speaker 6]: 啊因为它基于数据对不对它一切是，
+[Speaker 1]: 基于数据当然了在中国的股票市场可能有点差异 ok 但是，
+[Speaker 1]: 如果说排除以外的话我认为就，
+[Speaker 3]: 是哦？
+[Speaker 1]: 西方的整个股票市场可能这个，
+[Speaker 1]: 数据分析的 AI 分析的比？
+[Speaker 1]: 人到位一些但是你要，
+[Speaker 1]: 决策你，
+[Speaker 1]: 要看哪方面的决策但是你比如说。
+[Speaker 1]: 我就说我假设做一个企业对，
+[Speaker 1]: 吧我一个做一个企业我作为一个产，
+[Speaker 1]: 品这个产品我想要说到市场上要好卖但是我。
+[Speaker 1]: 我我想做我到，
+[Speaker 1]: 底要做一个什么样的。
+[Speaker 1]: 一个产品对吧这个产品定义是什么他的客，
+[Speaker 1]: 户群？
+[Speaker 1]: 是什么这个市场调，
+[Speaker 1]: 研来分析来看这，
+[Speaker 1]: 个我到这个产品做出来到底有在哪。
+[Speaker 1]: 个市场上能够卖能够卖多大的市场份额对吧这样的一，
+[Speaker 1]: 个问？
+[Speaker 1]: 题我认为 ai 还是缺乏？
+[Speaker 1]: 判断或不能说缺乏？
+[Speaker 1]: 判断缺乏决策性的能力因为，
+[Speaker 1]: 这这个东西它可以通过数据得到很多分析这些分析最，
+[Speaker 1]: 终是支撑人来做决策的，
+[Speaker 1]: 因为？
+[Speaker 1]: 你最后你怎么样，
+[Speaker 1]: 人去怎么样去决策有很，
+[Speaker 1]: 多东西是是是人为，
+[Speaker 1]: 导致的而不是机器。
+[Speaker 1]: 导致的嗯所以你觉得它是一个智力水平上面的不，
+[Speaker 1]: 足还是说一个 context 的不足的一些 context 就。
+[Speaker 1]: 是天然的这些 context 就是不能被因为因为人，
+[Speaker 1]: 的那个思想是是叫做什么是随，
+[Speaker 1]: 机的人的思想对吧。
+[Speaker 1]: 吧，
+[Speaker 6]: 它不是一个能够机器化来表达的什么我们，
+[Speaker 6]: 说这个 AI 哈它可以它最难做的什，
+[Speaker 6]: 么 AI 最难做的是情感的表达对。
+[Speaker 1]: 为什么最难做因为情感这个东西它是？
+[Speaker 1]: 随机的它是不是数学化的，
+[Speaker 1]: 能那么容易表达的但是你做决策。
+[Speaker 1]: 这个？
+[Speaker 1]: 事情说白了就是，
+[Speaker 1]: 情感的事情你明白就相当？
+[Speaker 1]: 于说那个你去商场买菜一。
+[Speaker 1]: 样或者说或者去？
+[Speaker 1]: 商场买衣服共明对吧你说你说，
+[Speaker 1]: 我看到这个衣服漂，
+[Speaker 1]: 亮了我说我今天到。
+[Speaker 1]: 底决定要不要掏这个钱，
+[Speaker 1]: 去买买啊太贵了但是很，
+[Speaker 1]: 美那你，
+[Speaker 1]: 决决策要不要买你说它依据是什么对，
+[Speaker 1]: 吧这个是很难用数学语言去描，
+[Speaker 1]: 述的？
+[Speaker 1]: 他有可能就是一时的冲动对吧有，
+[Speaker 1]: 可能就是一时间比如说我在你耳边说了一句哎，
+[Speaker 1]: 你这个，
+[Speaker 1]: 这个太好。
+[Speaker 1]: 看了你一下就把它说动了对吧或者说反？
+[Speaker 1]: 过来？
+[Speaker 1]: 反过来可能又是另外一个人在耳，
+[Speaker 1]: 边给你吹了句风啊那个怎，
+[Speaker 1]: 么不？
+[Speaker 1]: 合适你就一下子打。
+[Speaker 1]: 消这个决策对吧所以说就是这，
+[Speaker 1]: 个，
+[Speaker 1]: 这个事情为什么我说，
+[Speaker 1]: 它是人为因素其实占，
+[Speaker 1]: 了很？
+[Speaker 1]: 大的因素啊虽，
+[Speaker 1]: 然说我，
+[Speaker 1]: 们现在好像我们谈谈谈客户谈价格好像在扣，
+[Speaker 1]: 那一分钱两分钱，
+[Speaker 1]: 多多么怎么样表面上看很，
+[Speaker 1]: 理性？
+[Speaker 1]: 实际上都不理性对吧以所有，
+[Speaker 1]: 的商业？
+[Speaker 1]: 角策都都是有非常，
+[Speaker 1]: 大的人为非理性在里面。
+[Speaker 1]: 的对吧所以这不是那个 AI 那么能够完全用数，
+[Speaker 1]: 学模型可以解决的问题我基本上完全同？
+[Speaker 1]: 意各位的想法但，
+[Speaker 1]: 是关于说他买股，
+[Speaker 1]: 票这？
+[Speaker 1]: 件事我原来也是这么想也是这么认为的后来我觉得实际经验告诉？
+[Speaker 1]: 我他他也不靠谱配，
+[Speaker 1]: 的很惨我补充一句句其实我觉得归根结底无。
+[Speaker 5]: 论你是创业也好对吧 AI 能起多。
+[Speaker 5]: 大的作用还是说你做决策也，
+[Speaker 4]: 好 AI 能起到作用还，
+[Speaker 4]: 是说你买股票也。
+[Speaker 5]: 好 AI 能起多作其实大家记住，
+[Speaker 3]: 一点反正我是，
+[Speaker 4]: 这么看就是。
+[Speaker 3]: 说 AI 的角色也。
+[Speaker 8]: 好他对你提供信息也，
+[Speaker 8]: 好都是基于已有的，
+[Speaker 8]: 数据？
+[Speaker 8]: 对你如果这个给他，
+[Speaker 8]: 的数据是不全的他给，
+[Speaker 8]: 你提供的绝对，
+[Speaker 8]: 是是是是是是就算你，
+[Speaker 8]: 给他提供现。
+[Speaker 8]: 在已有的全部的数，
+[Speaker 8]: 据他也无法帮你预，
+[Speaker 8]: 测未来就是这么简单而，
+[Speaker 8]: 且它是纯数据驱动它，
+[Speaker 8]: 对人的这种情感这种。
+[Speaker 8]: 这种对风险的恐惧对吧对对这种这，
+[Speaker 8]: 种物质的贪婪他是无法感，
+[Speaker 8]: 知的这。
+[Speaker 8]: 么简单数据驱动数据驱驱的你可以信信，
+[Speaker 8]: 一部分对吧这个这。
+[Speaker 8]: 个说法的一个最好，
+[Speaker 8]: 的一个反驳股就是 BC，
+[Speaker 8]: 那最初用量化的方，
+[Speaker 8]: 法去分析的股市以后就，
+[Speaker 8]: 预测？
+[Speaker 8]: 下一，
+[Speaker 8]: 个哪一个股票这个承，
+[Speaker 8]: 认这个我在这里。
+[Speaker 8]: 赚大钱这。
+[Speaker 8]: 个我不是我之前说到我，
+[Speaker 8]: 不知道这个我有我，
+[Speaker 8]: 自己？
+[Speaker 9]: 的看法因为我个人做投资啊我从来不替，
+[Speaker 9]: 别人管。
+[Speaker 9]: 钱我个人做投资做了差不多有十七八年，
+[Speaker 9]: 然后呢这个我从来不做短。
+[Speaker 9]: 期的从来不做量化数据驱动因。
+[Speaker 9]: 为这个股价的变动还有，
+[Speaker 8]: 个成交量的变动永远无法准确的。
+[Speaker 8]: 告诉你中长期的变化，
+[Speaker 8]: 中长期背后你还是要，
+[Speaker 8]: 看这个公司本身对吧对对你如果你如。
+[Speaker 8]: 果跟数，
+[Speaker 8]: 据去拼首先你的数据一定，
+[Speaker 8]: 要全第二个要及时非常。
+[Speaker 8]: 的及时对吧量化公司，
+[Speaker 8]: 恨不得把他们的量化，
+[Speaker 8]: 服气直接放到那个就是这个股市交易。
+[Speaker 8]: 所的那个服务器房里面对不对你在短，
+[Speaker 8]: 期内？
+[Speaker 8]: 绝对拼不过他对他一秒钟执执行，
+[Speaker 8]: 成千上万次的交易他就。
+[Speaker 8]: 靠这种一笔我挣几分钱但，
+[Speaker 8]: 是我？
+[Speaker 8]: 量很大嗯对吧是的是的那你纯靠算，
+[Speaker 8]: 力去去拼你短期绝对拼不了但是我相信我长期我绝对我。
+[Speaker 8]: 只看这个，
+[Speaker 8]: 公司我对这个公司有我自，
+[Speaker 8]: 己的理解这个行业有我自己的理解我，
+[Speaker 8]: 绝对可以做的还，
+[Speaker 8]: 不错对所以，
+[Speaker 8]: 我们还是投资。
+[Speaker 8]: 要，
+[Speaker 8]: 谨慎？
+[Speaker 8]: 不能完全，
+[Speaker 8]: 相信那个那个 AI 智流员，
+[Speaker 8]: 工想对想象的一。
+[Speaker 8]: 个好经历你从二零二五年公公司规模已经，
+[Speaker 8]: 出拍了公司已经出拍了他的有，
+[Speaker 8]: 一个特别的一个比较重要，
+[Speaker 8]: 的地方就是他的权限和。
+[Speaker 4]: 员，
+[Speaker 2]: 工的权限是一样的也就是说，
+[Speaker 3]: 我能看到所有资料我的那个图拍里头能能够全部看到我做。
+[Speaker 10]: 了个实验我设了个 agon 我跟他说你每个星，
+[Speaker 10]: 期早上给我汇总。
+[Speaker 10]: 一下这个星期我的 main test 你可以看我的 email，
+[Speaker 10]: 前三个星期的邮件可以看我的 outlook 后两。
+[Speaker 10]: 个星期的日程安排非常夸张，
+[Speaker 10]: 的是第一次他自己给我做出来的 many。
+[Speaker 10]:  task 和我自己想，
+[Speaker 10]: 象的满足了。
+[Speaker 10]: 百分之八，
+[Speaker 10]: 十对三个星期之后一模一样他是我把这个东西分。
+[Speaker 10]: 享给我同事他做出出了这样的事情，
+[Speaker 10]: 三个星期之后。
+[Speaker 10]: 他跟他说嘿第二个你是不，
+[Speaker 10]: 是应该去召开，
+[Speaker 10]: 一个 moshow 我看你和谁的之间的关系才好我建议你找谁谁谁而且这个东，
+[Speaker 10]: 西，
+[Speaker 10]: 这个模型仍然是不用我。
+[Speaker 10]: 们公司的数据据进行训练数据，
+[Speaker 10]: 大模，
+[Speaker 10]: 型仍然在微软那就这样，
+[Speaker 10]: 他已经能够做，
+[Speaker 10]: 到 management level 可，
+[Speaker 10]: 以。
+[Speaker 10]: 替代掉所，
+[Speaker 10]: 以我很悲观的一件事就是所，
+[Speaker 10]: 有坐在屏幕前的工作未来 more or，
+[Speaker 10]:  less 或者后都会被他。
+[Speaker 10]: 替代掉不会有这个例外但是我们能做的是什么我们做的是尽量。
+[Speaker 10]: 慢的被他替代就像二十。
+[Speaker 10]: 年前一样，
+[Speaker 10]: 第二段化开始了会计们仍然愿意。
+[Speaker 10]: 用算盘写手去做账但是 x 电算化的工具是不会同情，
+[Speaker 10]: 这些人这个是一个趋势挡是挡不住，
+[Speaker 10]: 的这是第一个第。
+[Speaker 10]: 二个我用 AI 是让我的 department？
+[Speaker 10]: 做了一件我以前想做但永远永。
+[Speaker 10]: 远没有资源做的事，
+[Speaker 10]: 情什么事情呢呃，
+[Speaker 10]: 工厂生产东西总会有非 anansis 工厂是他。
+[Speaker 10]: 的 fire 我是没有能力去做这个评判的他们，
+[Speaker 10]: 干的事情就很简，
+[Speaker 10]: 单他们一旦不行了就直接。
+[Speaker 10]: 抓起变化打我员工我出来了什么你帮，
+[Speaker 10]: 我解决员工，
+[Speaker 10]: 正在忙着自己的项目情绪肯定，
+[Speaker 10]: 很差就是看？
+[Speaker 10]: 起，
+[Speaker 10]: 来很恶劣也不会给很好支，
+[Speaker 10]: 持我干了一件，
+[Speaker 10]: 很简单的事就是写了一个 agent 把。
+[Speaker 10]: 所有各地的这一个这个所，
+[Speaker 10]: 谓的八地的 report lessons，
+[Speaker 10]: 的全都背给他就。
+[Speaker 10]: 相当于 UK，
+[Speaker 10]: 呃我有一个这样的聊聊天。
+[Speaker 10]: 机器人给工厂他遇到问题，
+[Speaker 10]: 就先去问这个，
+[Speaker 10]: 机器人员我们大家都，
+[Speaker 10]: 知道其实机器人它。
+[Speaker 10]: 最大的 KPI 是你经常就经，
+[Speaker 10]: 常经常要长时间，
+[Speaker 10]: 的和我去聊天所以他的态度绝对的好第二就是他能够搜集，
+[Speaker 10]: 到全世界各。
+[Speaker 10]: 地，
+[Speaker 10]: 我们公司的这样的一个，
+[Speaker 10]:  database 去搜索来给，
+[Speaker 10]: 他提出解决问题的方案这个里面甚。
+[Speaker 10]: 至还有就是当初，
+[Speaker 10]: 解决这个这个 case 的人的名字和解和联系方式就通过一个非常非常非常，
+[Speaker 10]: 简单的方式能够替代这。
+[Speaker 10]: 样一个大量大量大量的问题更多的好处就是当我的员工知道哦我写，
+[Speaker 10]: 的 AD report 我写的 lessons 的有人在用他。
+[Speaker 10]: 们就能够更有兴趣去写这个东西而且这个 AI 它是不分语言的也就是说我。
+[Speaker 10]: 日本的员工用日语写的绝对比用英语，
+[Speaker 10]: 写的好我的刻苦拍子直接就把日语的东。
+[Speaker 10]: 西翻译给我的匈牙利的员工直接有这，
+[Speaker 10]: 样例语就翻，
+[Speaker 10]: 译出来当我们应用利，
+[Speaker 10]: 用 AI 这个东西在公司里面他可以做到。
+[Speaker 10]: 我们以前要花很多的钱很多。
+[Speaker 10]: 的 resource 而不能做的事情从创业的角度来讲是这样的我觉得。
+[Speaker 10]: 呃从资本角度，
+[Speaker 10]: 来讲你会去比较低的一个成本能够获得一个快速，
+[Speaker 10]: 的 proter 产品你不需要一下去雇。
+[Speaker 10]: 好多人去帮你做一件事情就，
+[Speaker 10]: 你的成本会降低但是你需要去找到一个非常非，
+[Speaker 10]: 常困难的赛道使得你有就是。
+[Speaker 10]: 投资人做也好资本也罢客户，
+[Speaker 10]: 也好他经常会问一句话凭，
+[Speaker 10]: 什么你能做别人不能做也，
+[Speaker 10]: 就是你的壁垒在哪里当 AI 出。
+[Speaker 10]: 现了之后存在壁垒赛道是越来越少了这个东，
+[Speaker 10]: 西赛道这个问题有没。
+[Speaker 10]: 有 AI 它都存在对只是 AI 使这个问题更加的尖，
+[Speaker 10]: 锐了使它的这个壁垒非常的这，
+[Speaker 10]: 个也是我，
+[Speaker 10]: 们刚才最，
+[Speaker 10]: 后想讨论的一个话，
+[Speaker 10]: 题我们可以快，
+[Speaker 10]: 速讨论一下？
+[Speaker 10]: 然后再进到下两个话题？
+[Speaker 10]: 就是大家觉得这，
+[Speaker 10]: 个职场的，
+[Speaker 10]: 稳定性现在还有吗。
+[Speaker 10]: 没有特别好奇这三位嘉宾因为他，
+[Speaker 10]: 们都是原。
+[Speaker 10]: 来，
+[Speaker 10]: 在大厂工作然后后来去创业的那，
+[Speaker 2]: 就是你们当时选择放弃工作或稳定也好或不稳定也好然后去选择创，
+[Speaker 2]: 业那你们背后的这个原。
+[Speaker 2]: 因是什么呢是看到了这。
+[Speaker 2]: 个职场的注定他将来会不稳定还是说想就是？
+[Speaker 2]: 不喜欢这样的朝九晚五的，
+[Speaker 2]: 生活我我说说我的看法我觉得，
+[Speaker 2]: 首先刚才还讲了没有稳定这一个概念所有的都是叫什么迭代的，
+[Speaker 2]: 对吧你千万不，
+[Speaker 2]: 要想说我找一个。
+[Speaker 2]: 份工作一份工作就是从头干到我？
+[Speaker 2]: 退休不可能的事情对吧所以那么代表着啥，
+[Speaker 2]: 代表着每个人需要有什么能力你需要有不断。
+[Speaker 1]: 学习的能力对吧你只，
+[Speaker 1]: 要有不断学习的能力就够了对吧你你要有不，
+[Speaker 1]: 断的接受新的知识新的信息的？
+[Speaker 1]: 能力那么代表什，
+[Speaker 1]: 么意思那你就不，
+[Speaker 1]: 可能在一个岗位上永远待着对吧你首先你要有，
+[Speaker 1]: 这个？
+[Speaker 1]: 想法你要有有这个？
+[Speaker 1]: 心态你就说我不可能在一个岗，
+[Speaker 1]: 位上一直待着我一定是说，
+[Speaker 1]: 跟着？
+[Speaker 1]: 时代的潮流一直变化的对吧你如，
+[Speaker 1]: 果说？
+[Speaker 1]: 你永远在一个岗位上那你肯定，
+[Speaker 1]: 早晚被淘汰对吧。
+[Speaker 1]: 只不过时间长了长？
+[Speaker 1]: 远的事那么 AI 来了过后那是啥那么 AI 来，
+[Speaker 1]: 了过？
+[Speaker 1]: 后一定会有今后新的岗，
+[Speaker 1]: 位我们现在还不知，
+[Speaker 1]: 道今后是什么样的岗位那么我们现在知。
+[Speaker 1]: 道的很多岗位肯定会被淘汰就像刚才那个谁？
+[Speaker 1]: 讲的一样对吧这些是我们当前这，
+[Speaker 1]: 个社会环境下面需要，
+[Speaker 1]: 的这？
+[Speaker 1]: 些岗位你在倒会几十年看，
+[Speaker 1]: 电脑没有之前大家不是？
+[Speaker 1]: 说趴在桌子上画，
+[Speaker 1]: 画嘛对不对那现在谁还，
+[Speaker 1]: 趴在桌子上画字图呢都没了对吧也就是说。
+[Speaker 1]: 你随着科技的发展一定会出现新的岗位需求，
+[Speaker 1]: 那一定反过来说一定就会，
+[Speaker 1]: 把当？
+[Speaker 1]: 以旧的岗位需求一定会淘汰掉那么人所具备的能力就。
+[Speaker 1]: 是你有不断学习的能力，
+[Speaker 1]: 你如，
+[Speaker 1]: 果说没有不断学习能力你说 OK 我大，
+[Speaker 1]: 学毕业？
+[Speaker 1]: 了我干工作了我就可以不用学习了那你，
+[Speaker 1]: 就完？
+[Speaker 1]: 蛋了对吧，
+[Speaker 1]: 其实就这个简单的，
+[Speaker 1]: 包括插说一点现在可能对。
+[Speaker 1]: 于 AI 这个浪潮已，
+[Speaker 1]: 经到了我们的门口甚至在我们对着我们的眼前。
+[Speaker 1]: 呃这是不可避免的但是呢在这个在这个看到这。
+[Speaker 1]: 样的一个景象这个人事业上，
+[Speaker 1]: 这些人，
+[Speaker 1]: 群可能就分成，
+[Speaker 1]: 三种一种是，
+[Speaker 1]: 乐观派一种是这个悲观，
+[Speaker 1]: 派一种是观望。
+[Speaker 1]: 派对？
+[Speaker 1]: 于乐观者或观望者，
+[Speaker 9]: 来讲他们是看，
+[Speaker 9]: 到还是总是可以或多或少看到有希望的那对于，
+[Speaker 9]: 这些悲观派来讲呢要么他自己，
+[Speaker 9]: 现，
+[Speaker 9]: 在就面临这样的。
+[Speaker 9]: 问题要么他看到了这样的问题或者他意识，
+[Speaker 9]: 到这样的问题，
+[Speaker 9]: 那么我想我我我现在很难，
+[Speaker 9]: 说我是一个悲，
+[Speaker 9]: 观的还是一个呃那我，
+[Speaker 9]: 安排当 AI 在给。
+[Speaker 9]: 我有人给我提了一个问题我，
+[Speaker 9]: 现在回答不了哎我从手机里头我可能在在 AI 告诉我这个问题怎么回答的时，
+[Speaker 9]: 候我觉得 SOP 挺好但是呢过了一会儿，
+[Speaker 9]: 以后我又碰到一个什么场，
+[Speaker 9]: 景了呢有人呢有有一个问。
+[Speaker 9]: 题那么这个问题就是个需求，
+[Speaker 9]: 啊我现在把这个把它划分成十，
+[Speaker 9]: 万千块钱就这个需求本来有人有一个问题呃，
+[Speaker 9]: 如果说这个 AI 没。
+[Speaker 9]: 有，
+[Speaker 9]: 出现的时候呢，
+[Speaker 9]: 他会来问我的本来会来问我的我从这里头可能，
+[Speaker 9]: 或多或少的会。
+[Speaker 9]: 获得利益嗯对吧但是现，
+[Speaker 9]: 在他不问我了他就问 AI 了那对？
+[Speaker 9]: 我来说现在应该又是，
+[Speaker 9]: 什么你获得了自由这里面提，
+[Speaker 9]: 问题都提到了都提到说哦 AI 给我赋能，
+[Speaker 9]: 的我呢这个。
+[Speaker 9]: 包括这个我也讲到了呃，
+[Speaker 9]: 呃，
+[Speaker 9]: 我给 AI 提供了一个 a 选择以后他，
+[Speaker 9]: 会给我怎么怎。
+[Speaker 9]: 么样做评估性是的没错这个确确实实你作为一个管理层，
+[Speaker 4]: 这，
+[Speaker 4]: 个管？
+[Speaker 9]: 理层成绩是不一样的，
+[Speaker 9]: 我不知道有。
+[Speaker 9]: 可能是一个小组长也有可能是一？
+[Speaker 4]: 个 attertle 的一个 idea，
+[Speaker 9]: 可能是上面的当你的成，
+[Speaker 9]: 绩不同的时，
+[Speaker 9]: 候你作为一个。
+[Speaker 9]: 管理者的时候在你管理者的范，
+[Speaker 9]: 围，
+[Speaker 9]: 内，
+[Speaker 9]: 你可以选出你的 AI 但是如果是你是一个被管理者也就是说对你。
+[Speaker 9]: 的老，
+[Speaker 9]: 板来，
+[Speaker 9]: 讲他用的那个 AI 来把你所做的事情，
+[Speaker 9]: 也代替了的时候你的感受这就，
+[Speaker 9]: 是我刚才讲的人要具备不断，
+[Speaker 9]: 学习的能力你不能就吃一直。
+[Speaker 9]: 拿着你原来具备那个人就想就吃吃吃，
+[Speaker 9]: 通了呀这样给你争的啊啊，
+[Speaker 9]: 我之前跟你说了也是，
+[Speaker 9]: 这样的啊其实我们说。
+[Speaker 9]: 我们现在我们经历了这个社会，
+[Speaker 9]: 经历了什么蒸汽时代电汽，
+[Speaker 9]: 时代这个信息时代现在是 AI 时代当蒸汽时代来临，
+[Speaker 9]: 的时候代。
+[Speaker 1]: 替了手工劳动那么它带来的是你要有人去做，
+[Speaker 1]: 蒸汽机可能当，
+[Speaker 1]: 春期来临，
+[Speaker 1]: 的时候哎那些本来原来用手工矛盾可能，
+[Speaker 9]: 会感到有一些失望，
+[Speaker 9]: 或者一些失望其实我给你讲这，
+[Speaker 9]: 么一个逻辑你看能不能理解哈就是你刚才，
+[Speaker 9]: 讲的这个原来的这些、
+[Speaker 9]: 什么呃蒸汽，
+[Speaker 9]: 时代这些机器它所代替是什，
+[Speaker 9]: 么它所代替的是体力劳动对不对它在代。
+[Speaker 9]: 替体力劳动之前我们要完成同样一个。
+[Speaker 9]: 任务我可能需要比如说，
+[Speaker 9]: 一，
+[Speaker 9]: 万个人但是机器出来过后我，
+[Speaker 9]: 可能只需要一百个人就完成这个活动。
+[Speaker 1]: 即使是加上造机器的人两百，
+[Speaker 1]: 个人那剩下的几百，
+[Speaker 1]: 个人还是没事干还是没事儿干对不对那现在这个，
+[Speaker 1]:  AI 出来了过后它代替了人？
+[Speaker 1]: 的脑力劳动他一样的提高，
+[Speaker 1]: 了工作？
+[Speaker 1]: 效率那么结论还是一样，
+[Speaker 1]: 的就是说可能原来一百个。
+[Speaker 1]: 人干的活现，
+[Speaker 1]: 在可能五个人就，
+[Speaker 1]: 够了或者三个人就，
+[Speaker 1]: 够了那剩下的人还是没事干所以你你说。
+[Speaker 1]: 这个我我是赞成点就说，
+[Speaker 1]: 我们并不，
+[Speaker 1]: 希望后来 VI 就把所有人代替了我，
+[Speaker 1]: 希望是当这些领，
+[Speaker 1]: 导者作？
+[Speaker 1]: 为不同层级的领导者当你，
+[Speaker 1]: 在享受着 AI 的利益效率，
+[Speaker 1]: 也好收益也好在获得了这。
+[Speaker 1]: 些好处的时候你同时，
+[Speaker 1]: 请你们这些管理者我是一个普通，
+[Speaker 1]: 打工人啊不再说了话请你，
+[Speaker 1]: 们答复人想一想他。
+[Speaker 1]: 们我如果说用了这些情，
+[Speaker 9]: 报效率以后我的员工怎么办我我，
+[Speaker 9]: 认为你这讲的是个社会问题这个社会问题并。
+[Speaker 9]: 不是的们一个企业的领导能解决的问题我看到，
+[Speaker 9]: 一个分析报告其实呢就是说在我，
+[Speaker 9]: 们刚才举，
+[Speaker 9]: 的这个场景你就说 a 也可，
+[Speaker 9]: 以更多的因为现在呢其实在，
+[Speaker 9]: 这个管理层级很多中层，
+[Speaker 9]: 下层的管理，
+[Speaker 9]: 者他做的更多的事情，
+[Speaker 9]: 是打通信息仓连接不同的层级或者说，
+[Speaker 9]: 他不一定是真正？
+[Speaker 1]: 产出实际业务产出他更多的时候，
+[Speaker 1]: 是给他下面的员工分配任务把成果向上面汇报就是说这种。
+[Speaker 11]: 闲级的呃管理层啊随，
+[Speaker 11]: 着 AI 浪潮到来是最容易被对对个必须要达，
+[Speaker 11]: 这的需求因为公司会大。
+[Speaker 11]: 就是说他会扁平化程度会大幅度，
+[Speaker 11]: 缩就是像我们可以考虑，
+[Speaker 11]: 今天你的干 p 将起来或者者更多的领导导知道这，
+[Speaker 11]: 个员工工我们的业业绩怎么。
+[Speaker 11]: 样干了什么事。
+[Speaker 11]: 情对吧他是要问你的些领导因为他可能连对，
+[Speaker 11]: 你也都没见过一面他。
+[Speaker 11]: 要用你直接领导去了解这个人，
+[Speaker 11]: 平时的表现未来，
+[Speaker 11]: 呢可能他要搞一个 a 卷子他马上就拿。
+[Speaker 3]: 了要报表之后，
+[Speaker 11]: 就过去对吧完成了多少个 c 以的写。
+[Speaker 11]: 了多少段代码回了多少封邮件有哪些评评，
+[Speaker 11]: 价是好的都没拿到他不需要再一层一层的管理的去问所以呢，
+[Speaker 11]: 他们的分析反，
+[Speaker 11]: 方说？
+[Speaker 11]: 最危险的实际上是这，
+[Speaker 11]: 种中下面的就是说没有产出只做协，
+[Speaker 11]: 调的中低层管理层应该是被第一批提高调对对。
+[Speaker 11]: 对是还有一个问题就是因为之，
+[Speaker 11]: 前我们聊刚刚，
+[Speaker 11]: 讨论的也都是说是，
+[Speaker 11]:  AI 可？
+[Speaker 11]: 能是呃 business business owor 跟呃普通员工之间可能，
+[Speaker 11]: 存在的一些矛盾，
+[Speaker 11]: 或者 AI 产生的一些呃，
+[Speaker 11]: 问题但我现，
+[Speaker 11]: 在还在有一个问题没没理清的就是。
+[Speaker 11]: 说虽然我们经常会说 AI 给人人们给我们工作赋能了但其实全人类都在给 AI，
+[Speaker 11]: 赋能因为 AI 模型在全人类的使用过程当中它的它是。
+[Speaker 6]: 从这些，
+[Speaker 6]: 使用的过程当中，
+[Speaker 6]: 从各行各业的使用过程当中来获取数据来不断，
+[Speaker 6]: 的提升自己的能力之前你看那个可能大家也都被特送到，
+[Speaker 6]: 那个 parenter 的那个 CEO 也在抱怨。
+[Speaker 6]: 说呃使用模型的过程当中他，
+[Speaker 6]: 公公司本身。
+[Speaker 6]: 独有的这些逗 how 可能都被大模型，
+[Speaker 6]: 的公司慢慢的都会慢慢，
+[Speaker 6]: 的抽取出来对那作为公司作为。
+[Speaker 6]: 一个呃主体来看的话那公司之后的差，
+[Speaker 6]: 异化到底在哪里公司的呃价值究，
+[Speaker 6]: 竟会在哪里会不会你们会担心以后的模，
+[Speaker 6]: 型公司会不断的跟黑洞一。
+[Speaker 6]: 样的扩散然后因为 AI 的智能水平也更会变得更高当原来。
+[Speaker 6]: 的那些客户来，
+[Speaker 6]: 找你们公司来做一些，
+[Speaker 6]: 解决问题方案的时候未来可能直接找一个 AI agent 可能都能搞定值得我很多公司已经。
+[Speaker 6]: 在，
+[Speaker 6]: 做这样的事情了他他们会自己从一个这，
+[Speaker 6]: 个所谓的开源模型然后自己本地？
+[Speaker 6]: 部署使得他们的数据不会活？
+[Speaker 6]: 写出数据当然数据是肯定是最重要的他们不会使用我们公公公。
+[Speaker 6]: 共的大模型就像我们公司哪怕我们使用。
+[Speaker 6]: 这公共大模型我们也会签协议不允许他的大模型根据我们数据进，
+[Speaker 6]: 行训练但是闭源的模型的话你们会担心你。
+[Speaker 10]: 们竞争对手用了一个更高级的模型然后。
+[Speaker 10]: 他们产生的效率会比你们更高其实你看一，
+[Speaker 10]: 下模型之间的差距，
+[Speaker 10]: 没有多大但闭源跟开源还是有很。
+[Speaker 10]: 大差距现在开源模型的能力，
+[Speaker 10]: 其实和最领先的差不了多少其实大大部。
+[Speaker 10]: 分公司是不需，
+[Speaker 10]: 要这样做的公司最值钱的是，
+[Speaker 10]: 那些没有公布出，
+[Speaker 10]: 去的数据是多少年的积累他们是不会放在。
+[Speaker 6]: 翻译上这是公司的落，
+[Speaker 6]: 好这个东西是公司最值钱的东西对这是模型不能替，
+[Speaker 6]: 代对重要的是你的业务数据你的公。
+[Speaker 10]: 司内部的知识怎么说知识库你积累起来，
+[Speaker 6]: 的库这些或者说你蒸馏的这种。
+[Speaker 10]: 你的工程师的这些经验嗯对呃这是这些人肯定是封。
+[Speaker 10]: 闭的要放在一个公司自己用那 p 项目。
+[Speaker 10]: 不是用的 AWS 不是用的你你可以用 AWS 他会比如说我们也用那，
+[Speaker 10]: 那个 QQQQ 铺开了我们也用，
+[Speaker 10]: 那个但是这些这些都跟公司说你你跟他们提服务。
+[Speaker 10]: 提，
+[Speaker 10]: 供商之前是要签订。
+[Speaker 11]: 好，
+[Speaker 11]: 一个其实你在跟中国应，
+[Speaker 11]: 用部署在我的一个专属的服务器上我的数据指为一，
+[Speaker 11]: 直在这这跟外面就是说大家通过普通网页以及供给。
+[Speaker 11]: 普，
+[Speaker 11]: 通，
+[Speaker 11]: 用，
+[Speaker 11]: 户的这个名单模型它的物，
+[Speaker 9]: 理上是如何断开的咱们。
+[Speaker 6]: 刚才聊了很多就是，
+[Speaker 6]: 怎么用 AI 和，
+[Speaker 11]: 怎么学 AI 的话，
+[Speaker 11]: 题四加他作为学生他，
+[Speaker 11]: 应该是最有发言，
+[Speaker 11]: 权的因为他经历。
+[Speaker 11]: 了就是 AI 之前的时代就是，
+[Speaker 11]: 我们大部分人都经历过这个时代然后他也经历。
+[Speaker 11]: 了 AI 之后的时代那我特别想听听他给我们分享一下就是，
+[Speaker 11]: 在学习方式或者思维方式就是在 AI 之前和在 AI 之后有哪些变化有没有什么可以跟我们分享的，
+[Speaker 11]: 我这个话题一下子变得很？
+[Speaker 2]: 轻松了呢因为在我上，
+[Speaker 2]: 高中还有我刚上大学的时候其实。
+[Speaker 2]: 那、
+[Speaker 2]: 个时候是没有，
+[Speaker 2]:  AI 的嘛然后我因为我学。
+[Speaker 2]: 的是文科我相信在座大部分应该，
+[Speaker 2]: 学的可能是理工科的然后我们文科我。
+[Speaker 2]: 每周最头疼的问题就主要写很。
+[Speaker 2]: 多的文章要写非常多的一 c 然后所以，
+[Speaker 2]: 我可能每周最难受的就是我想，
+[Speaker 2]: 整个文章的框架然后要查很多东西对，
+[Speaker 2]: 那个时候我来说是非常的忙的？
+[Speaker 7]: 然后事情非常多不像现在我要写东。
+[Speaker 7]: 西吧直接让 AI 给，
+[Speaker 7]: 我写一个我的第一个工然，
+[Speaker 7]: 后给我搜资料什么特别简单。
+[Speaker 7]: 很多对然后特别是现在马，
+[Speaker 7]: 上考试季了嘛我现在正在用 AI 这个学期我考。
+[Speaker 7]: 七门然后每一门都是让 AI 帮我做好处理的法我们这样学，
+[Speaker 7]: 起来非常的轻松所以对我来说是一个非常有用的一个工具我们还有一个最后，
+[Speaker 7]: 一个问题啊我们可。
+[Speaker 7]: 以，
+[Speaker 7]: 快速的讨论一下在现在这个时，
+[Speaker 7]: 代我们怎么正确，
+[Speaker 7]: 的学习自己也做 youtube youtube 频道，
+[Speaker 7]: 叫系统在建不是那个白板那个再建，
+[Speaker 7]: 是正在建设的那个在建可不可以请。
+[Speaker 7]: 这，
+[Speaker 7]: 边跟我们分享一下我们现在怎么，
+[Speaker 7]: 正确的学习呀怎么更好的使用呀首。
+[Speaker 7]: 先我只能说这个我只有一些呃实践的体。
+[Speaker 7]: 验啊不能说是正确的因为这个。
+[Speaker 7]: 东西都在探索过程当中 AI 迭代也很快但是。
+[Speaker 2]: 我的感觉就是呃因为它 AI 迭代，
+[Speaker 2]: 速度真的很快他可能几个。
+[Speaker 2]: 月时间它的能力，
+[Speaker 2]: 可能会翻倍它的框架也是是在不。
+[Speaker 2]: 断的更新我们觉得一，
+[Speaker 2]: 个比较好的方，
+[Speaker 2]: 式的话还是基于问题基于实际的，
+[Speaker 2]: 呃需求来？
+[Speaker 2]: 考虑怎么样在实践当中，
+[Speaker 2]: 来体验和使用 AI 然后在 AI 建，
+[Speaker 2]: 立这个 AI 系统的过？
+[Speaker 6]: 程当中要意识到 AI 的模型是在快速升级的他的能，
+[Speaker 6]: 力他的框架和他。
+[Speaker 6]: 的很多东西都可能在他自身的在，
+[Speaker 6]: 迭代过程当中。
+[Speaker 6]: 会不断的膨胀我们在设计涉及 AI 的这个呃系统的时，
+[Speaker 6]: 候需要考虑到我们这究竟应该往里面加。
+[Speaker 6]: 些什么东西这些东西不会最好。
+[Speaker 6]: 的情况是他在下一次的模型迭代，
+[Speaker 6]: 过程当中我们整个系统是被增强的而不是说我们的呃这个系统的设计过程当。
+[Speaker 6]: 中增加了额外脚手架反而限制了他或，
+[Speaker 6]: 者是我们做了一些呃工作可能是重。
+[Speaker 6]: 复工作那。
+[Speaker 6]: 下一次可能就没有那么有用了然后另外的话我可以看到的是因为 AI 它其实覆。
+[Speaker 6]: 盖了很多各行各业然后其实在呃所有的，
+[Speaker 6]: 呃人都在往这个 AI 的相关的这些能力上面做贡献在。
+[Speaker 6]: 开源平台还有。
+[Speaker 6]: 开源社区当中会有各行各业的呃人在往里面做，
+[Speaker 6]: 出一些贡献法务的啊然后。
+[Speaker 6]: 做呃呃法法律啊专利啊然后呃 marketing 啊 sales 啊所有各行各业其实都有，
+[Speaker 6]: 然后很多框架。
+[Speaker 6]: 也都在那边其实可以广泛的，
+[Speaker 6]: 来看一下他们到，
+[Speaker 6]: 底是做了些什么然后这些相当于是。
+[Speaker 6]: 一些 building blocks 可可以在是呃我们的设计度，
+[Speaker 6]: 过程当中可以把它融进来也。
+[Speaker 6]: 可以知道它到底发展到了一个什么样的程度总体来看是差不多这样嗯。
+[Speaker 6]: 好那咱们今天就差不多了嗯嗯，
+[Speaker 6]: 好好好感各各位老师。
+[Speaker 6]: ，
+[Speaker 6]: 、
+[Speaker 6]: ，
+[Speaker 6]: 、
+[Speaker 6]: ，
+[Speaker 6]: ，
+[Speaker 6]: ，
+[Speaker 6]: 。
+[Speaker 6]: ，
+[Speaker 6]: ，
+[Speaker 6]: 。
+[Speaker 6]: 。
+[Speaker 6]: ，
+[Speaker 6]: ，
+[Speaker 2]: 。
+[Speaker 2]: ，
+[Speaker 2]: ，
+[Speaker 2]: 。
