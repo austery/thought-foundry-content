@@ -1,0 +1,274 @@
+[Speaker 1]:  everyone，
+[Speaker 1]:  thanks for joining。
+[Speaker 1]:  i'm charles，
+[Speaker 1]:  and i'm a research scientist at snckl ai。
+[Speaker 1]:  and today，
+[Speaker 1]:  i'm going to be talking about how we got a four billion priminter model to outsmart。
+[Speaker 1]:  it's two hundred and thirty five billion priminter variant。
+[Speaker 1]:  and this is a specific result in a simulated financial environment。
+[Speaker 1]:  but i think there are general takeways that i want to make sure taken home。
+[Speaker 1]:  and the first is for enterprise AI worworkloment ment by ability and specialization uh can actually outweigh raw parameter scale。
+[Speaker 1]:  and this is possible with high quality data that actually represents the domain and tandistmodels that just targeting ting。
+[Speaker 1]:  uh，
+[Speaker 1]:  this can result in smaller models that can achieve parity with frentier models that just a fraction of the cost。
+[Speaker 1]:  so before i get to it，
+[Speaker 1]:  i'm going to a take this opportunity to introduce ourselves a little bit。
+[Speaker 1]:  this is our team where a frontier，
+[Speaker 1]:  ai data lab and our team。
+[Speaker 1]:  we have founders from labs at university。
+[Speaker 1]:  washington was consenins stanford and in a teral team of really talented after e researchers，
+[Speaker 1]:  and we're in a fortunate position to play budatamine build and deploy data asatts and environments for frontier ai，
+[Speaker 1]:  and that's at the intersection of academian industry research，
+[Speaker 1]:  but also grounded in enterprised depointments。
+[Speaker 1]:  and this is all to say that we have a team that built to focus on building the best state，
+[Speaker 1]:  a possible dedefine in vvance ai。
+[Speaker 1]:  and the way we do this is three folk first is open research and benchmark。
+[Speaker 1]:  so we're constantly contributing to open source venchmarking。
+[Speaker 1]:  and the project i'll be talking about today actually follows under this pillar。
+[Speaker 1]:  um but i also want to acknowledge front tier labb data environments as well as enterprise dipointments are，
+[Speaker 1]:  are the things we work on and under open research and benchmarks。
+[Speaker 1]:  we support research to grants，
+[Speaker 1]:  and i'll talk about opportunities here at the end of this talks。
+[Speaker 1]:  so get ready for that and then go authoring with academic or industry partners um in leading independent research and publishing open artifacts。
+[Speaker 1]:  so what i'm talking about today is um a partnership with uc berkey sky computing lab，
+[Speaker 1]:  and we built like i said，
+[Speaker 1]:  a four billion primarter quent model，
+[Speaker 1]:  two，
+[Speaker 1]:  apperformance two and thirty five，
+[Speaker 1]:  five illion model，
+[Speaker 1]:  l very unfinancial tasks。
+[Speaker 1]:  we saw the four billion primarter model spoiled alerert achieve almost a sixty percent past at run，
+[Speaker 1]:  while the two thirty five billion model achieve fifty one percent。
+[Speaker 1]:  so exciting results。
+[Speaker 1]:  and this is all in collaboration with i'tta credit or credit to minnunroopa，
+[Speaker 1]:  susian town from the sky computing labs，
+[Speaker 1]:  as well as vvicia in chris place in myself from snarkle，
+[Speaker 1]:  and you can find all the assets，
+[Speaker 1]:  the training scripts，
+[Speaker 1]:  synthetic data on our githuub。
+[Speaker 1]:  so check those out，
+[Speaker 1]:  and this is all open source and available to you。
+[Speaker 1]:  so i'll cover today what um we see financial institution name from ai。
+[Speaker 1]:  this is from our enterprised appointments um arnings as well as the finua open source benchmark。
+[Speaker 1]:  this is expert validated financial question，
+[Speaker 1]:  answering data that we trained our in a diyeway to er a model on。
+[Speaker 1]:  and finally，
+[Speaker 1]:  the training process for the RLM fincua for b model。
+[Speaker 1]:  so let's can start it。
+[Speaker 1]:  this is the one in only side with the charle's dick and reference。
+[Speaker 1]:  i promise，
+[Speaker 1]:  but this is a tale of two models。
+[Speaker 1]:  i'd say，
+[Speaker 1]:  first，
+[Speaker 1]:  the large ge gennalist versus small specialist。
+[Speaker 1]:  and the point is here，
+[Speaker 1]:  when financial institutions ask us，
+[Speaker 1]:  how old does the model are，
+[Speaker 1]:  the agent reason what they typically mean is kind of operate in my stack of complex schemers，
+[Speaker 1]:  legacy api and techch debt。
+[Speaker 1]:  and can we trust it in realistic in long workclothes without compounding areand？
+[Speaker 1]:  can we reliably audit the agent that's important in financial legal domains，
+[Speaker 1]:  for example，
+[Speaker 1]:  which brings us to question tion is how can we evaluate and improve the agents to make them reliable in these real world environments？
+[Speaker 1]:  so um the reflex may be to scale。
+[Speaker 1]:  we've all seen scaling law results。
+[Speaker 1]:  but today，
+[Speaker 1]:  i'm going argue that specialized workclothes don't actually need generalists。
+[Speaker 1]:  we don't need polymass you to when it call terntotaw for a tax on it。
+[Speaker 1]:  if you're lulucky enough to have him in your contacts，
+[Speaker 1]:  you call the specialist，
+[Speaker 1]:  that knows the forms，
+[Speaker 1]:  the tools in the rules。
+[Speaker 1]:  so that's why we built。
+[Speaker 1]:  thank you。
+[Speaker 1]:  ate，
+[Speaker 1]:  this is expert，
+[Speaker 1]:  validated financial question，
+[Speaker 1]:  answering data，
+[Speaker 1]:  and i walk through the multii stage pipeline of how we built this benchmark and training data。
+[Speaker 1]:  so first is schema and data extraction。
+[Speaker 1]:  this is coming from ten k reports。
+[Speaker 1]:  these are annual reports required by the escc for all public companies，
+[Speaker 1]:  and they're used by analysts for identifying risks and informing investment decisions。
+[Speaker 1]:  we pull this from the egar system and use the twenty three thirty billion model to produce tables，
+[Speaker 1]:  sql tables，
+[Speaker 1]:  approximately six thousand nine hundred of those，
+[Speaker 1]:  and we use each table to generate a single question，
+[Speaker 1]:  answer pair。
+[Speaker 1]:  and this is um produced，
+[Speaker 1]:  along with the question taxonomy that was developed with financial experts that work with these documents。
+[Speaker 1]:  and these are using as tetets for the model to generate a question ansspirir，
+[Speaker 1]:  along with meda data that will see uh what that's used for later。
+[Speaker 1]:  and finally，
+[Speaker 1]:  the third step is verification。
+[Speaker 1]:  and this is a three layer verification process。
+[Speaker 1]:  first is programmatic consistency checks。
+[Speaker 1]:  that's wewe reuse the mea data，
+[Speaker 1]:  which includes liniage and table names and columns and make sure we're not elulutionating those。
+[Speaker 1]:  the second is automated reviews from independent agents。
+[Speaker 1]:  and finally，
+[Speaker 1]:  expert manual reviews are humans actually going through these and making sure the questions and answers are realistic and verified，
+[Speaker 1]:  and the outcome is sarcles vinuate data。
+[Speaker 1]:  and this is our first pasass at this real less sequeries requiring planning，
+[Speaker 1]:  two use tool calling and reasoning and um answers are single，
+[Speaker 1]:  verifiable final answers。
+[Speaker 1]:  and from this um we get from the original set of roughly seven thousand tables，
+[Speaker 1]:  four thousand and train five hundred and vell，
+[Speaker 1]:  and two and ninety，
+[Speaker 1]:  and the held out benchmark and the data is split so that no company in the benchmark overlapse in any split。
+[Speaker 1]:  and on this data，
+[Speaker 1]:  we identified um even with frontier models，
+[Speaker 1]:  reoccurring，
+[Speaker 1]:  discipline，
+[Speaker 1]:  gaps，
+[Speaker 1]:  failure，
+[Speaker 1]:  modes，
+[Speaker 1]:  and the first is scheme of hallucination。
+[Speaker 1]:  so a model will actually assume that tables exist，
+[Speaker 1]:  calling names exist。
+[Speaker 1]:  and um this can be an artiffecof pretraining data，
+[Speaker 1]:  something it seem in pbest。
+[Speaker 1]:  the next is context flooting。
+[Speaker 1]:  so actually flooting its own context with with orly playing ququriies for examples，
+[Speaker 1]:  just calling select star um and this could overone with context，
+[Speaker 1]:  limits successful and finally，
+[Speaker 1]:  poor recovery from erabs。
+[Speaker 1]:  so twenty three，
+[Speaker 1]:  two，
+[Speaker 1]:  thirty five would actually repeat the same failld strategy。
+[Speaker 1]:  um insaid of considering the err messages in adapting and these failure modes are not actually just seen in the financial environment that i'm talking about today，
+[Speaker 1]:  but also what we saw an insurance underwriting。
+[Speaker 1]:  and this is a work that i'm calling out that was presented that the CAIS conference few weeks ago。
+[Speaker 1]:  so now we'll get into actually training the RLM finua four billion model。
+[Speaker 1]:  um for this，
+[Speaker 1]:  we used the RLM uh framework。
+[Speaker 1]:  and this is developed by the are sky computing，
+[Speaker 1]:  lab collaborators。
+[Speaker 1]:  and if you haven't used this yet，
+[Speaker 1]:  um this is a really user friendly tool in a few core features。
+[Speaker 1]:  um i want to call out is it really works with any agent and framework requires near zero code changes，
+[Speaker 1]:  just using a decorator pattern sea life，
+[Speaker 1]:  first workflow battle tested result。
+[Speaker 1]:  so we've seen our al m actually improved，
+[Speaker 1]:  not just on this finance um case study，
+[Speaker 1]:  but also in math reasoning，
+[Speaker 1]:  for example，
+[Speaker 1]:  multiple our algorithms are pill，
+[Speaker 1]:  ten GRPO reinforce oral。
+[Speaker 1]:  oh，
+[Speaker 1]:  for example，
+[Speaker 1]:  and you can customize those and then supports multiple training back ins，
+[Speaker 1]:  all right now for our training environment。
+[Speaker 1]:  um this is the training environment we use for our model。
+[Speaker 1]:  the agent runs in a react loop，
+[Speaker 1]:  and it has access to tools to interact with the tables we generated。
+[Speaker 1]:  the environment includes the roughly seven thousand tables we created。
+[Speaker 1]:  and finally，
+[Speaker 1]:  rereard ard as binary corretness ss determined by a language models judge。
+[Speaker 1]:  in this case，
+[Speaker 1]:  GPT five nano using reference based evaluation 没有没有 training details are listed here。
+[Speaker 1]:  this is，
+[Speaker 1]:  i guess would be interesting。
+[Speaker 1]:  the folks we have the quent three four billion model is our base model，
+[Speaker 1]:  jorpo and binariary reward for opoptizzation，
+[Speaker 1]:  the oil and framework。
+[Speaker 1]:  um we ran roughly a thousand concurrent environments to generate trajectories ies。
+[Speaker 1]:  this all was was a cost under five hundred dollars to get the results that we saw um broken down between compute roughly fourhundred and twenty and forty dollars for a judge。
+[Speaker 1]:  the judge API。
+[Speaker 1]:  and this is on eight one hundreds。
+[Speaker 1]:  the first result is the central question kind of four billion model on to to specialized tools and training actually compete with its larger variant。
+[Speaker 1]:  and the answer is，
+[Speaker 1]:  yes。
+[Speaker 1]:  so what we saw was actually debasase models accuracy more than doubled，
+[Speaker 1]:  and it our performs its larger variant the two thirty five primary model，
+[Speaker 1]:  and this is despite being a faction of the size，
+[Speaker 1]:  and we eiwait all model shown here on the exprecuated held ld out into ninety samples。
+[Speaker 1]:  so a natural concern is whether this actually transfers to harder problem。
+[Speaker 1]:  so this is just single question，
+[Speaker 1]:  answer pairs on a single table um and do investigate this。
+[Speaker 1]:  we uh looked at our thanua reasoning data。
+[Speaker 1]:  so this is a development on the thanua um data presented earlier。
+[Speaker 1]:  and the difference here is not now we're having a dependencies on multiple tables，
+[Speaker 1]:  two to file tables。
+[Speaker 1]:  and requires sequential decision making and planning，
+[Speaker 1]:  and we evaluated on this dataset。
+[Speaker 1]:  you can see the breakdown um as well。
+[Speaker 1]:  we have roughly thousand and train hundred twenty and validation eight in benchmarked。
+[Speaker 1]:  um and what we see is the toilous discipline actually generalized directly from training on the simple data，
+[Speaker 1]:  and no explicit training on multitable。
+[Speaker 1]:  examples was needed actually to see lift。
+[Speaker 1]:  and uh this mutitable um um vary of the dataset and will investigate why with abablish studies。
+[Speaker 1]:  uh。
+[Speaker 1]:  but the next concern we had was whether this result will generalized to more general use cases。
+[Speaker 1]:  so for this，
+[Speaker 1]:  we use the bf CL benchmark and um this measures general two calling capability。
+[Speaker 1]:  and um all accuracy y um um actually slightly improved and and um we had also minor gains and multii turn and memory。
+[Speaker 1]:  so specialization didn't actually erode the models brouadter two use competence when we did our al fine tining for this model。
+[Speaker 1]:  so to isolate would drow this performance。
+[Speaker 1]:  we ran a blation study on data mexures。
+[Speaker 1]:  so different ways，
+[Speaker 1]:  we can um combine the training data we had。
+[Speaker 1]:  the first is just training on vinuate data and the second single and more tile set and finding a curriculum where we start with single then moved to more diet。
+[Speaker 1]:  and surprisingly，
+[Speaker 1]:  just training on the simpler set um resulted in the most left。
+[Speaker 1]:  um and this parture that explains why um the genereralization result we saw earlier the bottleneck was never reasoning debt。
+[Speaker 1]:  it was just two use，
+[Speaker 1]:  meaning the motorwhere。
+[Speaker 1]:  it was actually failing and improving the reliability of that。
+[Speaker 1]:  and once you master with the fundamentals，
+[Speaker 1]:  it could compose those skills。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so oooes。
+[Speaker 1]:  can you go back？
+[Speaker 1]:  um the next national question is whether more informed of reward signals，
+[Speaker 1]:  for example，
+[Speaker 1]:  rewarding intermediate steps table acaccess query completness things like that could actually accelerate learning。
+[Speaker 1]:  um so this is different from curricum，
+[Speaker 1]:  for example，
+[Speaker 1]:  and the most sophisticacavariariant came came up with was a rubrick。
+[Speaker 1]:  and this uses find green scoring with um multiple waited components。
+[Speaker 1]:  and this has actually coming came up with with experts。
+[Speaker 1]:  um and despite this investment in reward engineering，
+[Speaker 1]:  we actually again，
+[Speaker 1]:  saw simpler was better。
+[Speaker 1]:  a single binary reward signal was what god us the most lift on this data，
+[Speaker 1]:  which led us to a blueprint uh that we've been developing for enterprise agts。
+[Speaker 1]:  and generally，
+[Speaker 1]:  i'd say this study showed us that small models can successfuly be trained uh with oriil。
+[Speaker 1]:  um when you have quality data to represent the target um outcomes in tasks，
+[Speaker 1]:  and this can result in better deployment economics for specialized tasks and domains。
+[Speaker 1]:  and um we've seen this and repeated this result in other areas，
+[Speaker 1]:  including health care law ensurance，
+[Speaker 1]:  which i pointed to earlier。
+[Speaker 1]:  so check that out um and our point of view，
+[Speaker 1]:  as far as building acxities for evaluating agents is this is environment。
+[Speaker 1]:  complexity is um one of the most important accities。
+[Speaker 1]:  how complex，
+[Speaker 1]:  how realistic and dynamic other the environments um the agents operating in the next is is atommy horizon。
+[Speaker 1]:  um our agents being tested and evaluated at the links and the horizon lanks in the way people actually，
+[Speaker 1]:  when to use agents。
+[Speaker 1]:  um are they making saving good decisions by themselves？
+[Speaker 1]:  and can they actually improve their judgment as a copoot time in finally，
+[Speaker 1]:  output complexity，
+[Speaker 1]:  we want to capture the wide range of outputs in our data daywork。
+[Speaker 1]:  and i would say that this is currently under explored um new benchmarks are coming up in this direction。
+[Speaker 1]:  but um still i see a big um primary focus on um tex artifacts and creating more rigorous evaluations。
+[Speaker 1]:  and um these settings is uh a big opportunity in uh progresses being made here。
+[Speaker 1]:  so on that note，
+[Speaker 1]:  um when advertise are open benchmark strands，
+[Speaker 1]:  which funded this project，
+[Speaker 1]:  and this is a what time million dolar commitment to producing open mentworks like this。
+[Speaker 1]:  uh we've had a lot of success agent last exam um judgment bench um others are coming out。
+[Speaker 1]:  and this is um really accelerating our ability to measure the frontier and shape the frontier。
+[Speaker 1]:  so to apply。
+[Speaker 1]:  uh check out our website。
+[Speaker 1]:  um you'll go through a submission um selection，
+[Speaker 1]:  review process develop and then finally publication launch um and promotion and also wwant to call out that we're hiring in fessional research。
+[Speaker 1]:  um you name and engineers，
+[Speaker 1]:  and um yeah check that out。
+[Speaker 1]:  you can h check out our website。
+[Speaker 1]:  and finally，
+[Speaker 1]:  thank you so much for attending。
+[Speaker 1]:  um you can use this QR code to see the blog as well as pointers to all the artifacts that released get home hugging face。
+[Speaker 1]:  yeah，
+[Speaker 1]:  thank you all the。
