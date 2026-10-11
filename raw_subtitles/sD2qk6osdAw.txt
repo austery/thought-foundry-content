@@ -1,0 +1,5727 @@
+Best
+ alternative.
+
+
+support
+ atm.com
+
+
+and
+ we
+ can
+ get
+ started
+ and
+ hello
+
+
+everyone
+ and
+ thanks
+ for
+ joining
+ here.
+ If
+
+
+you
+ follow
+ AI
+ news
+ at
+ all,
+ you
+ probably
+
+
+already
+ seen
+ Jeff
+ in
+ your
+ feed
+ like
+
+
+people
+ watched
+ a
+ language
+ model
+ playing
+
+
+games
+ it
+ has
+ never
+ seen
+ before
+ live
+ and
+
+
+also
+ fast
+ enough
+ to
+ keep
+ up
+ with
+ it.
+ So
+
+
+today
+ we're
+ going
+ to
+ take
+ that
+ demo
+
+
+apart
+ and
+ we'll
+ do
+ it
+ with
+ three
+
+
+experiments.
+ Every
+ number
+ you
+ will
+ see
+
+
+today
+ comes
+ from
+ the
+ real
+ runs
+ we
+
+
+measured
+ by
+ ourselves
+ unless
+ I
+ tell
+ you
+
+
+otherwise.
+ But
+ before
+ the
+ first
+ game,
+
+
+let
+ me
+ quickly
+ tell
+ you
+ who's
+ running
+
+
+those
+ experiments.
+ That
+ is
+ myself.
+ I
+ am
+
+
+Yen
+ and
+ I
+ am
+ a
+ co-founder
+ of
+ Superior
+
+
+Academy.
+ I
+ have
+ spent
+ many
+ years
+ on
+ both
+
+
+sides
+ of
+ the
+ AI
+ like
+ research
+ and
+ also
+
+
+shipping
+ products.
+ My
+ papers
+ have
+
+
+appeared
+ at
+ venues
+ like
+ uh
+ CBPR,
+ new
+ IPS
+
+
+and
+ KDDD.
+ And
+ on
+ the
+ product
+ side,
+ I
+
+
+laid
+ the
+ the
+ scientific
+ foundation
+ of
+
+
+Samsara's
+ AI
+ platform.
+ And
+ before
+ that
+ I
+
+
+was
+ a
+ key
+ technical
+ contributor
+ to
+
+
+Microsoft
+ Bing
+ image
+ search
+ and
+
+
+Pinterest
+ search.
+
+
+Today
+ I
+ will
+ work
+ as
+ I
+ always
+ do
+ u
+
+
+measure
+ first
+ and
+ then
+ decide
+ because
+
+
+you
+ cannot
+ improve
+ anything
+ you
+ cannot
+
+
+measure.
+
+
+And
+ let's
+ go
+ to
+ the
+ meat.
+ We
+ know
+ that
+
+
+new
+ models
+ launch
+ every
+ week.
+ So
+ why
+
+
+does
+ Jeff
+ deserve
+ a
+ whole
+ lesson?
+
+
+And
+ the
+ answer
+ lies
+ in
+ this
+ number
+ 13%.
+
+
+On
+ launch
+ day,
+ Verso's
+ CEO
+ said
+ that
+ oh
+
+
+about
+ 13%
+ of
+ the
+ active
+ teams
+ on
+ its
+ AI
+
+
+gateway
+ turned
+ Jeff
+ on.
+ And
+ think
+ about
+
+
+what
+ that
+ means.
+ That's
+ a
+ lot
+ of
+ teams
+
+
+putting
+ to
+ work
+ on
+ day
+ one.
+ So
+ what
+
+
+exactly
+ were
+ they
+ turning
+ on?
+ Well,
+ it's
+
+
+a
+ decision
+ model.
+ and
+ more
+ specifically
+
+
+type
+ safeu
+ to
+ make
+ fast
+ and
+ cheap
+ multi-
+
+
+choice
+ decisions
+ practical
+ and
+ they
+
+
+pitch
+ it
+ as
+ a
+ system
+ one
+ for
+ your
+
+
+product.
+ You
+ give
+ it
+ a
+ situation
+ and
+ a
+
+
+few
+ options
+ and
+ it
+ picks
+ one.
+ That's
+ it.
+
+
+Think
+ of
+ routing
+ a
+ support
+ ticket
+ to
+ the
+
+
+right
+ team
+ or
+ checking
+ a
+ request
+ against
+
+
+a
+ policy
+ and
+ honestly
+ it
+ delivers.
+ So
+ a
+
+
+decision
+ comes
+ back
+ in
+ about
+ a
+ 100
+
+
+milliseconds
+ and
+ that's
+ over
+ the
+ public
+
+
+internet
+ and
+ a
+ whole
+ game
+ of
+ Pac-Man
+ it
+
+
+will
+ cost
+ less
+ than
+ one
+ cent
+ and
+ there's
+
+
+nothing
+ to
+ set
+ up
+ on
+ your
+ side
+ because
+
+
+it's
+ an
+ API
+ so
+ cost
+ alone
+ is
+ no
+ reason
+
+
+to
+ move
+ off
+ GF
+ and
+ let's
+ admit
+ it's
+ it
+
+
+is
+ a
+ solid
+ product
+ but
+ if
+ all
+ it
+ did
+ was
+
+
+just
+ the
+ routing
+ support
+ tickets
+ it
+
+
+won't
+ have
+ gone
+ viral.
+ So,
+ what
+ made
+ it
+
+
+go
+ viral?
+
+
+What
+ made
+ Jeff
+ go
+ viral
+ was
+ actually
+
+
+games.
+ The
+ launch
+ posts
+ passed
+ like
+ 35
+
+
+million
+ views
+ on
+ X
+ and
+ all
+ the
+ clips
+
+
+people
+ share
+ about
+ Jeff
+ were
+ not
+ like
+
+
+Jeff
+ triaging
+ support
+ tickets.
+ They
+ were
+
+
+Jeff
+ playing
+ games
+ it
+ has
+ never
+ seen.
+
+
+And
+ why
+ is
+ that
+ so
+ interesting?
+ Because
+
+
+it
+ breaks
+ an
+ intuition
+ most
+ of
+ us
+ had.
+
+
+Like
+ we
+ think
+ of
+ language
+ models
+ as
+ slow
+
+
+and
+ chatty.
+ You
+ ask
+ a
+ question,
+ it
+
+
+writes
+ to
+ a
+ paragraph.
+ But
+ a
+ game
+
+
+doesn't
+ wait
+ for
+ you.
+ You
+ miss
+ a
+ turn
+
+
+and
+ the
+ moment
+ is
+ gone.
+ So
+ a
+ language
+
+
+model
+ steering
+ a
+ character
+ live,
+ that's
+
+
+what
+ surprised
+ the
+ people
+ and
+ the
+ clips
+
+
+traveled.
+
+
+And
+ what
+ you
+ are
+ watching
+ here
+ is
+ Jeff
+
+
+playing
+ Pac-Man
+ in
+ our
+ browser
+ and
+ on
+ a
+
+
+real-time
+ clock.
+ We
+ wrote
+ this
+ game
+
+
+ourselves
+ and
+ open
+ sourced
+ it.
+ We'll
+
+
+paste
+ the
+ GitHub
+ link
+ later.
+ So
+ you
+ can
+
+
+we
+ we
+ can
+ read
+ it
+ like
+ the
+ internal
+
+
+state.
+ We
+ can
+ control
+ its
+ clock.
+ We
+ can
+
+
+do
+ experiments.
+ And
+ here
+ we
+ pick
+ Pac-Man
+
+
+because
+ unseen
+ games
+ are
+ Jeff's
+ own
+
+
+showcase.
+ So
+ this
+ is
+ indeed
+ a
+ fair
+ test
+
+
+on
+ his
+ home
+ turf.
+
+
+And
+ now
+ a
+ viral
+ demo
+ turns
+ up
+ to
+ wrap
+
+
+the
+ mechanism
+ in
+ a
+ halo.
+ And
+ how
+ do
+ we
+
+
+look
+ behind
+ this
+ one?
+
+
+And
+ to
+ figure
+ this
+ out,
+ we'll
+ run
+ three
+
+
+experiments
+ and
+ each
+ one
+ built
+ on
+ the
+
+
+one
+ before.
+ First,
+ we'll
+ hook
+ it
+ up.
+ We
+
+
+will
+ show
+ how
+ to
+ connect
+ connect
+ the
+
+
+Jeff
+ to
+ a
+ live
+ Pac-Man
+ game
+ and
+ look
+ at
+
+
+exactly
+ what
+ it
+ reads.
+ And
+ second,
+ we
+
+
+replace
+ it.
+ We
+ swap
+ in
+ an
+ ordinary
+ LM.
+
+
+And
+ to
+ be
+ clear,
+ Jeff
+ is
+ an
+ LM
+ too,
+ but
+
+
+this
+ one
+ has
+ been
+ trained
+ specifically
+
+
+for
+ decisions.
+ And
+ when
+ I
+ say
+ an
+
+
+ordinary
+ LM,
+ I
+ mean
+ this
+ kind
+ of
+ LM
+ you
+
+
+can
+ download
+ today
+ with
+ no
+ decision
+
+
+training
+ at
+ all.
+ And
+ then
+ third,
+ we
+ beat
+
+
+it.
+ Once
+ the
+ model
+ is
+ ours,
+ we
+ will
+
+
+train
+ a
+ small
+ model
+ that
+ plays
+ this
+ SC
+
+
+this
+ game
+ better,
+ even
+ better
+ than
+ Jeff.
+
+
+So
+ experiment
+ one.
+ How
+ do
+ you
+ connect
+
+
+the
+ language
+ model
+ to
+ a
+ game?
+ Here's
+ a
+
+
+setup.
+ So
+ Jeff
+ never
+ sees
+ the
+ screen.
+ It
+
+
+doesn't
+ have
+ multimodality
+ capabilities.
+
+
+Its
+ API
+ takes
+ the
+ situation
+ as
+ data
+ and
+
+
+plus
+ a
+ list
+ of
+ options.
+ And
+ that's
+ true
+
+
+for
+ every
+ model
+ we
+ test
+ today.
+ And
+ then
+
+
+the
+ game
+ keeps
+ asking
+ the
+ model
+ one
+
+
+question.
+ Oh,
+ at
+ the
+ next
+ junction,
+
+
+which
+ way?
+ At
+ the
+ next
+ junction,
+ which
+
+
+way?
+ So
+ something
+ has
+ to
+ turn
+ the
+
+
+picture
+ on
+ the
+ screen
+ into
+ words.
+ And
+
+
+that's
+ what
+ we
+ call
+ the
+ adaption
+ layer.
+
+
+For
+ each
+ direction
+ the
+ Pac-Man
+ could
+
+
+take,
+ it
+ writes
+ down
+ a
+ few
+ facts
+ like
+ is
+
+
+there
+ a
+ ghost
+ that
+ way?
+ How
+ far?
+ How
+
+
+many
+ pallets?
+ How
+ far
+ is
+ the
+ nearest
+ the
+
+
+power
+ pallet?
+ This
+ whole
+ description
+ is
+
+
+about
+ 380
+ tokens.
+ And
+ honestly,
+ Cloud
+
+
+Code
+ wrote
+ this
+ layer
+ for
+ us.
+ And
+ it's
+
+
+not
+ that
+ hard.
+ And
+ anyone
+ who
+ wires
+ up
+
+
+Jav
+ also
+ has
+ to
+ write
+ one
+ like
+ this
+ too.
+
+
+And
+ for
+ fairness,
+ for
+ all
+ the
+
+
+experiments,
+ every
+ player
+ reads
+ exactly
+
+
+the
+ same
+ input.
+
+
+And
+ now
+ the
+ clock,
+ it's
+ a
+ game
+ because
+
+
+it
+ runs
+ at
+ a
+ fixed
+ 30
+ FPS
+ and
+ it
+ doesn't
+
+
+wait
+ for
+ anybody.
+ If
+ the
+ answer
+ arrives
+
+
+late
+ and
+ Pac-Man
+ has
+ already
+ passed
+ the
+
+
+junction,
+ that
+ decision
+ will
+ will
+ drop
+
+
+it.
+ So
+ we
+ play
+ play
+ 10
+ games
+ on
+ fix
+ the
+
+
+seats
+ and
+ each
+ up
+ to
+ five
+ minutes
+ and
+
+
+count
+ the
+ pallets.
+
+
+So
+ what
+ does
+ this
+ text
+ look
+ like
+ from
+
+
+the
+ model
+ side?
+
+
+These
+ are
+ the
+ real
+ decisions
+ from
+ one
+ of
+
+
+Jeff's
+ games
+ logged
+ as
+ uh
+ when
+ it
+
+
+happened.
+ The
+ top
+ half
+ is
+ the
+ game
+ state
+
+
+that
+ Jeff
+ received
+ like
+ the
+ lives,
+ the
+
+
+pallets
+ left
+ and
+ then
+ uh
+ the
+ distance
+ to
+
+
+the
+ next
+ junction
+ and
+ then
+ one
+ line
+ for
+
+
+each
+ direction
+ it
+ can
+ take
+ like
+ every
+
+
+number
+ is
+ a
+ distance
+ in
+ maze
+ tiles.
+ So
+
+
+it's
+ counted
+ from
+ Pac-Man's
+ current
+
+
+position.
+ So,
+ for
+ example,
+ this
+ one
+
+
+says,
+ uh,
+ there
+ is
+ a
+ ghost
+ 6.3
+ away
+ if
+
+
+Pac-Man
+ turns
+ back.
+
+
+And
+ when
+ does
+ the
+ game
+ ask?
+ As
+ soon
+ as
+
+
+an
+ answer
+ comes
+ back,
+ it
+ ask
+ about
+ the
+
+
+next
+ junction
+ ahead.
+ So,
+ the
+ bottom
+
+
+half,
+ this
+ is
+ Jeff's
+ answer.
+ It
+ picks
+ up
+
+
+one
+ direction
+ plus
+ a
+ probability
+ for
+
+
+each
+ option.
+ And
+ it's
+ often
+ not
+ very
+
+
+sure.
+ And
+ in
+ this
+ first
+ uh
+ decision,
+ the
+
+
+up
+ just
+ wings
+ about
+ half
+ of
+ the
+
+
+probability
+ compared
+ with
+ the
+ second.
+
+
+And
+ on
+ the
+ right,
+ it's
+ the
+ round
+ trip
+ to
+
+
+the
+ hosted
+ model
+ in
+ milliseconds.
+ And
+
+
+for
+ example,
+ uh
+ this
+ is
+ 140
+ milliseconds
+
+
+for
+ this
+ round
+ run roundtrip
+ call.
+
+
+Um
+ the
+ total
+ cost
+ for
+ this
+ is
+ about
+ 600
+
+
+input
+ tokens.
+ We
+ mentioned
+ that
+ we
+ had
+
+
+uh
+ 380
+ tokens
+ for
+ to
+ describe
+ the
+
+
+situation
+ and
+ the
+ extra
+ were
+ added
+ by
+
+
+Jeff
+ itself.
+ It
+ probably
+ it's
+ fixed
+
+
+instructions.
+
+
+So
+ let's
+ watch
+ a
+ few
+ junctions
+ go
+ by.
+
+
+This
+ is
+ where
+ the
+ Pac-Man
+ is.
+ It
+ asks
+ it
+
+
+constructs
+ this
+ and
+ asks
+ Jeff
+ what
+ is
+
+
+the
+ situation
+ and
+ Jeff
+ returned
+ result.
+
+
+based
+ on
+ the
+ result
+ it
+ goes
+ along
+ the
+
+
+way
+ and
+ play
+ the
+ game
+ and
+ we
+ can
+ see
+
+
+that
+ uh
+ essentially
+ Jeff
+ has
+ for
+ the
+
+
+power
+ pallet
+ and
+ then
+ once
+ the
+ ghost
+
+
+turn
+ edible
+ it
+ chase
+ one
+ this
+ is
+ what
+
+
+happened
+ behind
+ the
+ thing
+ and
+ that's
+ the
+
+
+whole
+ world
+ as
+ far
+ as
+ the
+ model
+ knows
+
+
+and
+ no
+ there's
+ no
+ picture
+ no
+ memory
+ so
+
+
+how
+ well
+ does
+ Jeff
+ play
+ from
+ just
+ this
+
+
+and
+ it
+ turns
+ out
+ it's
+ 178
+ a
+ level
+ has
+
+
+244
+ pallets.
+ So
+ 178
+ pallets
+ is
+ what
+ a
+
+
+typical
+ Jaff
+ game
+ looks
+ like.
+ The
+
+
+Pac-Man
+ would
+ eat
+ this
+ many
+ pallets.
+ And
+
+
+that's
+ the
+ average
+ over
+ 10
+ uh
+ over
+ 10
+
+
+games
+ on
+ the
+ real-time
+ clock.
+ At
+ about
+
+
+115
+ milliseconds
+ per
+ decision
+ across
+ the
+
+
+the
+ public
+ internet,
+ I
+ would
+ say
+ it's
+ a
+
+
+respectable
+ baseline
+ and
+ it's
+ the
+ bar
+ to
+
+
+beat.
+ So
+ here's
+ the
+ real
+ question.
+ Is
+
+
+this
+ something
+ only
+ giraffe
+ can
+ do
+ or
+
+
+can
+ an
+ ordinary
+ LM
+ do
+ too?
+
+
+Turns
+ out
+ they
+ can.
+ So
+ we
+ give
+ the
+
+
+exactly
+ the
+ same
+ text
+ to
+ five
+ different
+
+
+models.
+ Two
+ of
+ them
+ are
+ dedicated
+
+
+decision
+ models
+ like
+ together
+ AI.
+ They
+
+
+have
+ a
+ decision
+ model
+ called
+ tab
+
+
+and
+ it
+ has
+ four
+ billion
+ parameters.
+ Um
+
+
+this
+ one
+ gets
+ 148
+ pallets
+ and
+ Jeff
+ as
+ we
+
+
+saw
+ it's
+ 178.
+ So
+ not
+ too
+ far
+ away.
+ And
+
+
+the
+ other
+ three
+ are
+ ordinary
+ LMS
+ with
+ no
+
+
+decision
+ training.
+ And
+ we
+ tested
+ the
+
+
+coin
+ 3.54
+ billion.
+ It
+ eats
+ 170
+ uh
+ 197.
+
+
+And
+ Google's
+ gamma
+ 4
+ E4B
+ it's
+ uh
+ 230
+ and
+
+
+Microsoft's
+ 54
+ mini
+ eats
+ 232.
+
+
+So
+ on
+ this
+ task,
+ nothing
+ here
+ is
+ unique
+
+
+to
+ Jeff.
+ Uh
+ the
+ ordinary
+ LM
+ actually
+
+
+score
+ as
+ well
+ as
+ the
+ decision
+ models
+ and
+
+
+the
+ best
+ one
+ actually
+ score
+ higher.
+
+
+So
+ let's
+ put
+ the
+ best
+ one
+ headto-head
+
+
+with
+ Jeff.
+
+
+This
+ is
+ 54
+ mini
+ and
+ it's
+ an
+ ordinary
+ 3.8
+
+
+billion
+ parameter
+ with
+ no
+ decision
+
+
+training.
+ All
+ we
+ added
+ was
+ like
+ JSON
+
+
+constraint
+ pretty
+ much
+ like
+ a
+ JSON
+ mode
+
+
+in
+ in
+ GPT
+ API.
+ So
+ it's
+ answer
+ always
+
+
+come
+ back
+ in
+ the
+ right
+ shape.
+ We
+ can
+
+
+parse
+ it
+ as
+ a
+ regular
+ JSON
+ blob.
+ And
+ on
+
+
+the
+ left,
+ 54
+ mini
+ averages
+ 232
+ pilots.
+
+
+And
+ on
+ the
+ right,
+ Jeff
+ achieved
+ 178.
+ But
+
+
+to
+ be
+ fair
+ to
+ Jeff,
+ it's
+ faster.
+ It's
+
+
+indeed
+ faster.
+ It's
+ 100
+ mill
+ and
+ 15
+
+
+millisecond
+ per
+ decision.
+ And
+ while
+ uh
+
+
+this
+ 54
+ uses
+ uh
+ 187
+ millisecond
+ per
+
+
+decision,
+ but
+ there's
+ a
+ caveat.
+ We
+
+
+measured
+ this
+ on
+ a
+ Mac,
+ M3
+ Mac.
+ We
+ also
+
+
+tried
+ it
+ out
+ on
+ Nvidia
+ cards
+ like
+ a
+ RTX
+
+
+5090
+ and
+ on
+ the
+ Nvidia
+ cards
+ a
+ 4
+ model
+
+
+reads
+ the
+ same
+ state
+ about
+ seven
+ times
+
+
+faster.
+ So
+ it's
+ actually
+ it
+ could
+ be
+ a
+
+
+lot
+ faster
+ compared
+ with
+ even
+ Jeff.
+
+
+And
+ to
+ be
+ fair,
+ we
+ also
+ paired
+ the
+ game
+
+
+seat
+ by
+ seed.
+ So
+ both
+ players
+ are
+ face
+
+
+exactly
+ the
+ same
+ mazes
+ and
+ matched
+ that
+
+
+way.
+ 54
+ mini
+ would
+ eat
+ 54
+ more
+ pallets
+
+
+per
+ game
+ with
+ a
+ standard
+ error
+ bar
+ of
+
+
+24.
+
+
+But
+ before
+ you
+ rip
+ Jeff
+ out,
+ there
+ are
+
+
+two
+ fair
+ objections.
+
+
+The
+ first
+ objection
+ is
+ reliability.
+
+
+Can
+ an
+ ordinary
+ LM
+ keep
+ its
+ output
+ claim
+
+
+like
+ thousands
+ of
+ times
+ in
+ a
+ row?
+ And
+
+
+here
+ the
+ answer
+ is
+ actually
+ yes.
+ Across
+
+
+nearly
+ 6,000
+ decisions,
+ three
+ ordinary
+
+
+LMS
+ produces
+ zero
+ invalid
+ outputs.
+ So
+
+
+formatting
+ is
+ no
+ reason
+ to
+ need
+ a
+
+
+special
+ model.
+ And
+ the
+ second
+ objection
+
+
+is
+ the
+ generality.
+ We
+ know
+ that
+ Pac-Man
+
+
+is
+ just
+ a
+ one
+ task
+ and
+ there
+ are
+
+
+millions
+ of
+ different
+ tasks
+ there.
+ So
+
+
+let's
+ look
+ at
+ outside
+ evidence.
+ There
+ is
+
+
+an
+ open
+ source
+ project.
+ Previously
+ it
+
+
+was
+ called
+ open
+ Jeff
+ and
+ then
+ somehow
+ it
+
+
+changes
+ name
+ to
+ Sam
+ SM.
+ U
+ they
+ rebuilt
+
+
+102
+ of
+ Jeff's
+ official
+ judgment
+ tasks
+ on
+
+
+top
+ of
+ a
+ regular
+ frozen
+ Quinn
+ 3.5
+ 4B
+
+
+with
+ no
+ training
+ at
+ all.
+ So
+ it's
+ just
+ an
+
+
+ordinary
+ LM
+ as
+ we
+ said
+ with
+ JSON
+ mode.
+
+
+And
+ this
+ mere
+ um
+ Quen
+ 3.5
+ model
+ scored
+
+
+84.5%.
+
+
+And
+ Jeff
+ scored
+ 88.3%.
+ So
+ that's
+ pretty
+
+
+close.
+ And
+ no,
+ there
+ is
+ no
+ post
+ training
+
+
+on
+ it.
+ But
+ on
+ there's
+ another
+ side
+ of
+
+
+the
+ story
+ on
+ there
+ are
+ 220
+ hard
+
+
+questions
+ on
+ a
+ benchmark
+ called
+ Jeff
+
+
+Bench.
+ There
+ is
+ a
+ gap.
+ Jeff
+ scores
+ uh
+
+
+74.1%
+ and
+ seam
+ only
+ scored
+ 59.5%.
+
+
+So
+ I
+ would
+ say
+ the
+ takeaway
+ is
+ this.
+
+
+Pac-Man
+ is
+ one
+ task.
+ There
+ are
+ a
+ lot
+ of
+
+
+tasks
+ that
+ just
+ a
+ regular
+ untrained
+ open
+
+
+source
+ model
+ would
+ do
+ really
+ well
+ pretty
+
+
+much
+ like
+ Jeff.
+ It
+ could
+ be
+ faster.
+ It
+
+
+could
+ be
+ cheaper.
+ But
+ there
+ are
+ also
+
+
+other
+ tasks
+ that
+ they
+ struggle
+ to
+ match
+
+
+Jeff's
+ performance.
+ So
+ measure
+ on
+ your
+
+
+task
+ before
+ you
+ switch.
+
+
+And
+ now
+ suppose
+ the
+ ordinary
+ LM
+ does
+
+
+pass
+ on
+ your
+ task.
+ What
+ can
+ you
+ do
+ with
+
+
+it
+ that
+ you
+ cannot
+ do
+ with
+ a
+ hosted
+ API
+
+
+and
+ quite
+ a
+ lot
+ actually
+ once
+ the
+ model
+
+
+is
+ yours?
+ You
+ can
+ keep
+ pushing
+ it
+ and
+
+
+first
+ we
+ make
+ it
+ fast.
+ We'll
+ show
+ you
+
+
+how
+ to
+ make
+ it
+ fast
+ and
+ then
+ we'll
+ show
+
+
+you
+ how
+ to
+ make
+ it
+ smarter
+ and
+ then
+
+
+we'll
+ try
+ to
+ get
+ both
+ at
+ once
+ and
+ look
+
+
+at
+ what
+ that
+ costs
+ us.
+ So
+ let's
+ start
+
+
+with
+ the
+ gap
+ we
+ just
+ saw
+ the
+ speed.
+
+
+Jev
+ was
+ faster
+ than
+ the
+ 54
+ mini.
+ So
+ what
+
+
+does
+ that
+ speed
+ come
+ from?
+ Actually
+
+
+within
+ 72
+ hours
+ of
+ the
+ launch
+ the
+ open
+
+
+source
+ community
+ already
+ had
+ four
+
+
+working
+ reproductions
+ and
+ they
+ they
+ can
+
+
+to
+ some
+ to
+ quite
+ some
+ extent
+ they
+ can
+
+
+match
+ Jeff's
+ speed
+ and
+ it's
+ inference
+
+
+engineering.
+ So
+ anyone
+ can
+ do
+ it.
+
+
+Remember
+ seam
+ that
+ from
+ a
+ minute
+ ago
+ its
+
+
+authors
+ timed
+ those
+ tricks.
+ They
+ they
+
+
+have
+ a
+ a
+ benchmark
+ with
+ more
+ than
+ 700
+
+
+decisions
+ and
+ the
+ re
+ recomputing
+
+
+everything
+ from
+ scratch
+ for
+ every
+
+
+question
+ and
+ it
+ would
+ take
+ 333
+ seconds
+
+
+and
+ how
+ to
+ optimize
+ for
+ that.
+ The
+ first
+
+
+idea
+ is
+ oh
+ every
+ question
+ about
+ this
+
+
+situation
+ it
+ they
+ start
+ with
+ same
+
+
+description
+ and
+ that's
+ the
+ classic
+ use
+
+
+of
+ of
+ a
+ prefixed
+ cache.
+ So
+ they
+ will
+
+
+compute
+ the
+ shared
+ part
+ once
+ and
+ reuse
+
+
+it.
+ That
+ brought
+ down
+ to
+ 72
+ seconds
+ on
+
+
+the
+ same
+ benchmark.
+
+
+And
+ the
+ second
+ idea
+ is
+ in
+ a
+ real
+
+
+product,
+ you
+ often
+ ask
+ several
+ questions
+
+
+about
+ the
+ same
+ situation
+ like
+ this
+ is
+ a
+
+
+ticket.
+ Is
+ it
+ urgent?
+ Which
+ team
+ should
+
+
+should
+ get
+ it?
+ Does
+ it
+ need
+ a
+ human?
+ So
+
+
+you
+ ask
+ them
+ together
+ instead
+ of
+ one
+ by
+
+
+one
+ and
+ in
+ one
+ batch.
+ That
+ brought
+ down
+
+
+to
+ 38.8
+ seconds.
+ nearly
+ an
+ order
+ of
+
+
+magnitude
+ faster
+ than
+ where
+ we
+ started.
+
+
+And
+ there
+ is
+ even
+ a
+ third
+ idea
+ that
+ just
+
+
+don't
+ write
+ an
+ answer
+ at
+ all.
+ OM
+ try
+ to
+
+
+ask
+ to
+ to
+ write
+ an
+ answer
+ token
+ by
+ token
+
+
+and
+ that's
+ the
+ time
+ consuming
+ part.
+ What
+
+
+if
+ we
+ just
+ give
+ each
+ option
+ a
+ letter
+ and
+
+
+just
+ ask
+ just
+ give
+ me
+ a
+ letter
+ that's
+ it
+
+
+and
+ then
+ we
+ read
+ which
+ letter
+ the
+ model
+
+
+favors.
+ That
+ could
+ also
+ save
+ a
+ lot
+ of
+
+
+time.
+ That
+ took
+ only
+ 1.02
+ 02
+ seconds
+
+
+against
+ like
+ 5.33
+ seconds
+ for
+ writing
+
+
+JSON.
+
+
+And
+ we
+ also
+ pay
+ price
+ for
+ that.
+ It's
+
+
+pretty
+ much
+ the
+ same
+ as
+ uh
+ what
+ Jeff
+
+
+did.
+ It's
+ just
+ a
+ narrow
+ output.
+ So
+ the
+
+
+model
+ can
+ only
+ pick
+ one
+ from
+ your
+
+
+letters,
+ but
+ then
+ the
+ speed
+ is
+ pretty
+
+
+much
+ within
+ reach.
+ So
+ can
+ we
+ also
+ make
+
+
+it
+ play
+ much
+ better
+ with
+ this
+ speed?
+
+
+Probably
+ not
+ with
+ this
+ speed
+ after
+ we
+
+
+achieve
+ this
+ speed.
+ And
+ the
+ answer
+ is
+
+
+yes,
+ but
+ with
+ a
+ bigger
+ model
+ or
+ by
+
+
+letting
+ it
+ think.
+ So
+ we
+ already
+ know
+
+
+that
+ on
+ the
+ real-time
+ clock
+ size
+ already
+
+
+helps.
+ Like
+ TE
+ one
+ at
+ 0.8
+ billion,
+ it's
+
+
+69
+ pallets.
+ The
+ 4B
+ version
+ is
+ 148
+ and
+
+
+Jeff
+ sits
+ at
+ 178.
+ And
+ now
+ let's
+ go
+ much
+
+
+bigger
+ to
+ quen
+ 3.827
+ billion.
+ And
+ here's
+
+
+the
+ trick
+ worth
+ knowing.
+ When
+ a
+ model
+ is
+
+
+too
+ slow
+ for
+ the
+ clock
+ or
+ if
+ you
+ want
+ to
+
+
+want
+ runs
+ that
+ are
+ exactly
+ reproducible
+
+
+or
+ if
+ you
+ want
+ to
+ just
+ collect
+ the
+ data,
+
+
+you
+ can
+ let
+ the
+ game
+ wait
+ for
+ the
+ model
+
+
+at
+ every
+ junction.
+ We
+ we
+ call
+ that
+ lock
+
+
+step.
+ It's
+ an
+ option
+ not
+ a
+ requirement
+
+
+and
+ it
+ is
+ able
+ to
+ show
+ you
+ how
+ good
+ the
+
+
+decisions
+ can
+ get
+ when
+ the
+ time
+ is
+ is
+
+
+not
+ a
+ constant.
+ So
+ reading
+ these
+ bars
+ as
+
+
+a
+ separate
+ track
+ from
+ the
+ real-time
+ ones
+
+
+without
+ thinking
+ 27
+ billion
+ it's
+ 301
+
+
+pallets.
+ But
+ now
+ wait
+ a
+ level
+ only
+ has
+
+
+244
+ pallets.
+ So
+ how
+ do
+ you
+ eat
+ through
+
+
+301?
+
+
+So
+ when
+ a
+ Pac-Man
+ clears
+ a
+ level
+ we
+ ask
+
+
+the
+ game
+ move
+ on
+ to
+ the
+ next
+ one
+ with
+ a
+
+
+fresh
+ board.
+ So
+ anything
+ above
+ 244
+ means
+
+
+it
+ just
+ cleared
+ the
+ first
+ level
+ and
+ kept
+
+
+going.
+ And
+ with
+ thinking
+ turning
+ on
+ it
+
+
+is
+ 531.
+
+
+That's
+ more
+ than
+ two
+ full
+ boards
+ worth
+
+
+of
+ pallets.
+ But
+ here's
+ the
+ catch.
+ With
+
+
+thinking
+ each
+ decision
+ takes
+ about
+ 2.4
+
+
+seconds,
+ even
+ on
+ an
+ Nvidia
+ card.
+ So
+ on
+
+
+the
+ real
+ clock,
+ Pac-Man
+ would
+ be
+ long
+
+
+gone.
+
+
+So
+ what
+ do
+ we
+ do?
+ We
+ want
+ the
+ big
+ models
+
+
+play
+ at
+ a
+ small
+ model
+ speed.
+ And
+ that's
+
+
+exactly
+ what
+ fine-tuning
+ is
+ for.
+ And
+
+
+remember
+ lock
+ step,
+ that's
+ how
+ we
+
+
+collect
+ the
+ data.
+ So
+ here's
+ what
+ we
+ did.
+
+
+We
+ let
+ the
+ 27
+ billion
+ model
+ label
+ a
+
+
+large
+ set
+ of
+ game
+ states
+ offline
+ and
+
+
+then
+ taking
+ all
+ of
+ the
+ time
+ it
+ needed.
+
+
+Then
+ we
+ trained
+ a
+ 0.8
+ billion
+ student
+ to
+
+
+copy
+ those
+ labels
+ or
+ in
+ machine
+ learning
+
+
+terms
+ to
+ distill
+ them.
+ At
+ play
+ time,
+ it
+
+
+reads
+ only
+ the
+ current
+ state
+ and
+ the
+
+
+same
+ 380
+ tokens
+ everyone
+ else
+ gets.
+
+
+Actually,
+ you
+ don't
+ need
+ a
+ PhD
+ degree
+ or
+
+
+recipe
+ for
+ this
+ part
+ because
+ more
+ than
+
+
+coding
+ agents
+ already
+ know
+ how
+ to
+ do
+ it.
+
+
+You
+ just
+ tell
+ cloud
+ code,
+ oh,
+ train
+ a
+
+
+small
+ model
+ to
+ steal
+ those
+ label.
+ That's
+
+
+it.
+ And
+ it
+ knows
+ what
+ to
+ do.
+ And
+ if
+ you
+
+
+want
+ to
+ see
+ exactly
+ how
+ it
+ did
+ it,
+ our
+
+
+code
+ is
+ also
+ open
+ source
+ and
+ the
+ link
+ uh
+
+
+will
+ be
+ in
+ the
+ email
+ after
+ this
+ lesson.
+
+
+So,
+ how
+ does
+ it
+ play?
+ On
+ the
+ real-time
+
+
+clock,
+ it
+ eats
+ 425
+ pallets
+ average
+ over
+
+
+three
+ real-time
+ rounds
+ at
+ 55
+
+
+milliseconds
+ per
+ decision.
+ And
+ at
+ this
+
+
+task,
+ that's
+ more
+ than
+ twice
+ of
+ Jeff's
+
+
+178.
+
+
+And
+ what's
+ better
+ is
+ it's
+ small
+ enough
+
+
+to
+ leave
+ the
+ data
+ center.
+ Like
+ we
+ can
+
+
+deploy
+ it
+ on
+ an
+ iPhone.
+ Here
+ is
+ this
+
+
+video
+ shows
+ it's
+ it's
+ running
+ on
+ my
+
+
+iPhone,
+ iPhone
+ 16
+ Pro
+ Max.
+ And
+ in
+ app
+ we
+
+
+build,
+ we
+ also
+ ask
+ claw
+ code
+ to
+ do
+ it
+ at
+
+
+about
+ half
+ a
+ second
+ per
+ decision.
+ So
+
+
+it's
+ small,
+ it's
+ fast,
+ it's
+ better
+ at
+
+
+Pac-Man.
+ Looks
+ like
+ a
+ free
+ launch,
+
+
+right?
+ So
+ where's
+ the
+ bill?
+ Here's
+ the
+
+
+bill.
+ We
+ give
+ the
+ student
+ 194
+ general
+
+
+judgment
+ questions
+ and
+ they
+ cover
+
+
+intent,
+ ticket
+ routing,
+ policy
+ checks,
+
+
+severity,
+ extraction,
+ everything.
+ And
+
+
+there's
+ no
+ Pac-Man
+ in
+ any
+ of
+ them.
+ And
+
+
+here's
+ the
+ score.
+ the
+ same
+ size
+ tab
+ one
+
+
+08
+ billion
+ score
+ 0.66
+ and
+ our
+ the
+ steel
+
+
+the
+ 0.8
+ billion
+ scores
+ only
+ 0.53
+
+
+and
+ Jeff
+ they
+ published
+ scores
+ on
+ those
+
+
+questions
+ uh
+ on
+ 0.89
+
+
+but
+ there's
+ one
+ caveat
+ our
+ student
+
+
+started
+ not
+ from
+ Tav
+ 1
+ our
+ student
+ uh
+
+
+started
+ from
+ the
+ the
+ regular
+ coin
+ 3.5
+
+
+0.8
+ 8
+ billion
+ base.
+ So
+ part
+ of
+ the
+ gap
+
+
+is
+ it
+ never
+ receives
+ the
+ general
+
+
+training
+ uh
+ sorry
+ receives
+ the
+ decision
+
+
+training
+ and
+ another
+ part
+ is
+ it's
+ only
+
+
+good
+
+
+>> and
+ then
+ step
+ back
+ that's
+ the
+ pattern
+
+
+for
+ everything
+ we
+ did.
+ We
+ see
+ trade-offs
+
+
+here.
+ We
+ see
+ speed
+ cost
+ us
+ narrow
+
+
+output.
+ We
+ see
+ intelligence
+ cost
+ us
+
+
+waiting
+ time.
+ And
+ we
+ also
+ see
+ that
+ small
+
+
+specialists
+ cost
+ us
+ breath
+ here.
+ So
+ how
+
+
+do
+ you
+ decide
+ between
+ a
+ hosted
+ model
+ and
+
+
+your
+ own?
+ And
+ my
+ suggestion
+ is
+ start
+
+
+from
+ one
+ row
+ your
+ product
+ can't
+
+
+compromise
+ on.
+ If
+ you
+ want
+ a
+ zero
+ setup,
+
+
+you
+ want
+ broad
+ judgment
+ out
+ of
+ box,
+
+
+hosted
+ Jeff
+ is
+ a
+ perfectly
+ good
+ answer.
+
+
+It's
+ about
+ 100
+ milliseconds
+ over
+
+
+internet.
+ It's
+ under
+ a
+ sand
+ per
+ game.
+ So
+
+
+please
+ don't
+ switch
+ just
+ to
+ save
+ on
+
+
+price.
+ But
+ switch
+ when
+ one
+ of
+ these
+ rows
+
+
+really
+ bites.
+ Maybe
+ you
+ need
+ a
+ lower
+
+
+latency
+ like
+ the
+ 55
+ milliseconds
+ of
+ our
+
+
+0.8.
+ 8
+ billion
+ on
+ a
+ Mac.
+ Maybe
+ it
+ has
+ to
+
+
+run
+ offline
+ on
+ a
+ device
+ or
+ maybe
+ one
+
+
+task
+ matters
+ far
+ more
+ than
+ others.
+ And
+
+
+owning
+ the
+ model
+ by
+ yourself
+ allows
+ you
+
+
+to
+ move
+ this
+ rows
+ by
+ yourself.
+ And
+
+
+that's
+ the
+ decision
+ for
+ Jeff.
+ But
+ here's
+
+
+a
+ bigger
+ lesson
+ that
+ uh
+ even
+ more
+
+
+important
+ than
+ Jeff
+ itself.
+
+
+Every
+ hot
+ technology
+ bundles
+ two
+ things.
+
+
+A
+ problem
+ that
+ lasts
+ and
+ the
+ packaging
+
+
+from
+ its
+ moment.
+ So
+ CHV
+ is
+ just
+ today's
+
+
+hot
+ name.
+ Nobody
+ is
+ going
+ to
+ split
+ that
+
+
+bound
+ for
+ you
+ because
+ splitting
+ it
+ takes
+
+
+off
+ the
+ halo.
+ So
+ let's
+ split
+ it
+ by
+
+
+ourselves.
+ What
+ lasts?
+ Products
+ need
+
+
+fast
+ and
+ cheap
+ decisions.
+ The
+ the
+ tricks
+
+
+that
+ make
+ them
+ fast
+ like
+ reusing
+ the
+
+
+shared
+ prefix
+ or
+ reading
+ answers
+
+
+letters,
+ they
+ work
+ with
+ any
+ model.
+ You
+
+
+measure
+ on
+ your
+ own
+ task
+ with
+ paired
+
+
+wrongs
+ and
+ you
+ know
+ what
+ each
+ trace
+
+
+costs.
+ All
+ of
+ it
+ carries
+ over
+ to
+ the
+
+
+next
+ model.
+ And
+ in
+ your
+ product,
+ your
+
+
+system
+ already
+ holds
+ the
+ state.
+ So
+ you
+
+
+don't
+ need
+ a
+ game
+ engine.
+ And
+ the
+
+
+packaging,
+ a
+ brand
+ name,
+ a
+ system
+ one
+
+
+label,
+ the
+ viral
+ game
+ clips.
+ Next
+ year,
+
+
+there
+ will
+ be
+ a
+ different
+ name.
+ So
+ next
+
+
+time
+ something
+ goes
+ viral,
+ ask
+ yourself
+
+
+two
+ questions.
+ If
+ the
+ model
+ were
+ 10
+
+
+times
+ better,
+ would
+ this
+ still
+ matter?
+
+
+And
+ what
+ problem
+ is
+ it
+ actually
+ solving?
+
+
+And
+ do
+ I
+ still
+ need
+ to
+ still
+ have
+ it?
+
+
+Making
+ that
+ split
+ is
+ a
+ judgment
+ call.
+
+
+And
+ judgment
+ come
+ from
+ practice
+ with
+
+
+someone
+ checking
+ your
+ work.
+ So
+ let
+ me
+
+
+tell
+ you
+ how
+ to
+ get
+ that
+ practice.
+
+
+Everything
+ you
+ saw
+ today
+ followed
+ one
+
+
+loop.
+ We
+ described
+ the
+ situation
+ to
+ the
+
+
+model.
+ We
+ measured
+ on
+ the
+ real
+ task
+ and
+
+
+we
+ decided
+ what
+ to
+ trade.
+ That
+ loop
+ is
+
+
+simple
+ to
+ describe.
+ But
+ watching
+ us
+ do
+
+
+it
+ once
+ and
+ doing
+ it
+ yourself
+ on
+ your
+
+
+own
+ problem
+ are
+ two
+ very
+ different
+
+
+things.
+ And
+ that's
+ what
+ our
+ course
+ the
+
+
+AI
+ builders
+ 2027
+ is
+ built
+ for.
+ This
+
+
+course
+ has
+ two
+ live
+ sessions
+ uh
+ two
+
+
+hours
+ each
+ and
+ Dr.
+ Eugen
+ and
+ I
+ would
+
+
+teach
+ half
+ of
+ every
+ session.
+ In
+ the
+
+
+first
+ one,
+ Eugen
+ starts
+ of
+ how
+ to
+ learn
+
+
+AI
+ at
+ all.
+ His
+ answer
+ is
+ to
+ build
+
+
+because
+ a
+ concrete
+ need
+ filters
+ out
+ the
+
+
+hype.
+ Then
+ I
+ will
+ take
+ over
+ with
+ the
+
+
+context.
+ Today
+ the
+ model
+ only
+ knew
+ what
+
+
+our
+ adapter
+ told
+ in.
+ So
+ we
+ start
+ from
+ a
+
+
+plain
+ chat
+ box
+ and
+ build
+ it
+ up
+ live
+ to
+ a
+
+
+workspace
+ where
+ the
+ AI
+ works
+ with
+ your
+
+
+real
+ data
+ and
+ your
+ real
+ skills.
+
+
+And
+ in
+ the
+ second
+ live
+ session,
+ I
+ cover
+
+
+the
+ measuring
+ which
+ is
+ the
+ heart
+ of
+
+
+today's
+ lesson
+ two.
+ We'll
+ build
+ a
+ small
+
+
+product
+ live.
+ And
+ the
+ first
+ thing
+ we
+
+
+build
+ before
+ a
+ single
+ prompt
+ is
+ the
+
+
+evaluation.
+ We
+ need
+ a
+ data
+ set.
+ We
+ need
+
+
+a
+ metric
+ and
+ a
+ baseline.
+ Then
+ EJ
+ will
+
+
+close
+ with
+ a
+ question
+ that
+ connects
+
+
+right
+ back
+ to
+ the
+ day.
+ Once
+ you
+ can
+
+
+build
+ build
+ almost
+ everything
+ how
+ do
+ you
+
+
+decide
+ what's
+ worth
+ building
+
+
+and
+ around
+ the
+ sessions
+ you
+ build
+ five
+
+
+guided
+ projects
+ first
+ then
+ a
+ capstone
+ on
+
+
+a
+ problem
+ from
+ from
+ your
+ own
+ work
+ so
+
+
+what
+ will
+ you
+ actually
+ build
+ here's
+ the
+
+
+path
+ first
+ five
+ guided
+ projects
+ they
+
+
+share
+ one
+ theme
+ getting
+ AI
+ to
+ read
+ and
+
+
+operate
+ things
+ built
+ for
+ humans
+ like
+ web
+
+
+pages
+ and
+ GE
+ why
+ because
+ when
+ you
+ build
+
+
+an
+ AI
+ feature
+ At
+ work,
+ the
+ blocker
+
+
+usually
+ isn't
+ the
+ model.
+ It's
+ getting
+ to
+
+
+the
+ data.
+ And
+ along
+ the
+ way,
+ we
+ show
+ you
+
+
+a
+ very
+ common
+ trap.
+ In
+ one
+ office
+ hour,
+
+
+the
+ the
+ agent
+ probably
+ reported
+ a
+ near
+
+
+perfect
+ scoring
+ a
+ drawing
+ game
+ with
+ a
+
+
+screenshot
+ to
+ prove
+ it.
+ But
+ the
+
+
+screenshot
+ didn't
+ look
+ like
+ the
+ real
+
+
+game.
+ It
+ had
+ made
+ up
+ its
+ own
+ result.
+ So,
+
+
+we
+ we
+ will
+ show
+ you
+ how
+ to
+ spot
+ that
+ and
+
+
+how
+ to
+ set
+ things
+ up
+ so
+ it
+ doesn't
+
+
+happen
+ again.
+ And
+ second,
+ you
+ build
+ on
+
+
+our
+ AI
+ builder
+ space,
+ our
+ platform
+ for
+
+
+students.
+ One
+ API
+ key
+ would
+ give
+ you
+
+
+models,
+ speech
+ recognition,
+ images,
+
+
+search,
+ and
+ when
+ your
+ app
+ works,
+ you
+
+
+deploy
+ to
+ a
+ public
+ link
+ so
+ you
+ can
+ put
+
+
+on
+ your
+ resume.
+ Your
+ coding
+ agents
+ wires
+
+
+up
+ for
+ you.
+ And
+ third,
+ your
+ capstone.
+
+
+You
+ pick
+ a
+ problem
+ for
+ from
+ your
+ own
+
+
+work
+ or
+ life
+ and
+ build
+ an
+ application
+
+
+around
+ it
+ with
+ feedbacks
+ from
+ us
+ along
+
+
+the
+ way.
+ And
+ let
+ me
+ tell
+ you
+ about
+ this
+
+
+one.
+ So
+ one
+ of
+ our
+ student
+ students
+ Y
+ is
+
+
+an
+ economist.
+ She
+ writes
+ code
+ to
+ analyze
+
+
+data
+ but
+ she
+ has
+ never
+ built
+ software.
+
+
+Her
+ grandmother
+ has
+ hearing
+ loss
+ and
+ a
+
+
+hearing
+ test
+ show
+ that
+ oh
+ she
+ can
+ only
+
+
+hear
+ low
+ frequencies.
+ And
+ here's
+ the
+
+
+trap.
+ When
+ you
+ talk
+ to
+ someone
+ who
+ is
+
+
+hard
+ of
+ hearing,
+ you
+ naturally
+ raise
+
+
+your
+ voice
+ and
+ your
+ pitch
+ will
+ also
+ go
+
+
+up
+ which
+ actually
+ make
+ it
+ worse.
+ You
+ can
+
+
+lower
+ your
+ volume
+ but
+ it's
+ very
+ hard
+ for
+
+
+you
+ to
+ lower
+ the
+ pitch.
+ So
+ yeah,
+ I
+
+
+wanted
+ a
+ app
+ like
+ you
+ talk
+ to
+ it
+ and
+ it
+
+
+plays
+ your
+ words
+ back
+ in
+ a
+ low
+ voice.
+ So
+
+
+she
+ asked
+ the
+ AI
+ and
+ it
+ went
+ from
+ the
+
+
+big
+ moves
+ like
+ speech
+ models,
+ voice
+
+
+cloning,
+ every
+ company
+ recommending
+ it
+
+
+own
+ product
+ and
+ hours
+ later
+ still
+
+
+nothing
+ worked.
+ So
+ she
+ comes
+ to
+ us
+ and
+
+
+my
+ advice
+ was
+ you
+ actually
+ don't
+ need
+ an
+
+
+OM
+ for
+ this.
+ there's
+ a
+ standard
+ pitch
+
+
+shift
+ technique
+ doing
+ exactly
+ this
+ and
+
+
+probably
+ in
+ a
+ in
+ a
+ few
+ dozen
+ lines
+ of
+
+
+Python
+ and
+ so
+ that
+ worked.
+ She
+ came
+ back
+
+
+and
+ um
+ with
+ 42
+ commits
+ and
+ deploy
+ it
+ to
+
+
+AI
+ builder
+ space
+ and
+ her
+ family
+ is
+ using
+
+
+it
+ and
+ her
+ own
+ takeaway
+ was
+ what's
+
+
+valuable
+ is
+ the
+ judgment
+ and
+ that
+
+
+judgment
+ is
+ exactly
+ what
+ we
+ spent
+ on
+
+
+this
+ course
+ building
+ and
+ the
+ next
+ cohort
+
+
+is
+ about
+ to
+ start.
+ Actually
+ the
+ next
+
+
+cohort
+ starts
+ next
+ Monday
+ o
+ October
+ 12th
+
+
+and
+ enrollment
+ closes
+ when
+ it
+ opens.
+
+
+That
+ first
+ week
+ is
+ when
+ you
+ get
+ your
+
+
+materials
+ and
+ your
+ builder
+ space
+ success
+
+
+and
+ started
+ reading.
+ Then
+ we'll
+ meet
+
+
+live
+ on
+ Saturday,
+ October
+ 17th.
+ The
+
+
+second
+ live
+ session
+ is
+ on
+ October
+ 25th
+
+
+with
+ an
+ optional
+ office
+ hour
+ in
+ between
+
+
+where
+ you
+ can
+ bring
+ the
+ parts
+ that
+
+
+didn't
+ work.
+ If
+ you
+ can
+ make
+ a
+ session
+
+
+live,
+ the
+ recording
+ is
+ also
+ there
+ and
+
+
+the
+ live
+ sessions
+ are
+ only
+ part
+ of
+ it.
+
+
+You
+ also
+ get
+ our
+ textbook
+ more
+ than
+ 200
+
+
+pages
+ with
+ lifetime
+ updates.
+ So
+ you
+
+
+enroll
+ once
+ and
+ you
+ get
+ every
+ future
+
+
+revision.
+ We
+ we
+ have
+ actually
+ already
+ re
+
+
+rewritten
+ several
+ times
+ and
+ we're
+ in
+ the
+
+
+middle
+ of
+ another
+ one
+ right
+ now.
+ And
+ on
+
+
+top
+ of
+ that,
+ you
+ also
+ get
+ a
+ year
+ in
+ our
+
+
+community.
+ Stay
+ super
+ linear.
+ We
+ have
+
+
+refined
+ this
+ course
+ over
+ 13
+ cohorts
+ and
+
+
+it
+ rated
+ 5.0
+ from
+ 84
+ ratings.
+ You
+ can
+
+
+see
+ a
+ few
+ of
+ reviews
+ here
+ from
+ builders
+
+
+at
+ places
+ like
+ OpenAI
+ and
+ Anthropic
+ and
+
+
+they
+ keep
+ pointing
+ to
+ the
+ part
+ is
+ that
+
+
+you
+ can't
+ get
+ from
+ the
+ free
+ lesson.
+ You
+
+
+build
+ real
+ things
+ with
+ feedback.
+
+
+And
+ if
+ you'd
+ like
+ to
+ join,
+ scan
+ a
+ QR
+
+
+code
+ or
+ open
+ the
+ link
+ or
+ we'll
+ paste
+ in
+
+
+Zoom
+ chat
+ as
+ a
+ thank
+ you
+ note
+ for
+
+
+joining
+ live.
+ The
+ code
+ beyond
+ Jeff
+ takes
+
+
+$200
+ off.
+ The
+ link
+ already
+ has
+ the
+ the
+
+
+code
+ applied.
+ So,
+ you
+ will
+ see
+ the
+
+
+discounted
+ price
+ right
+ away
+ if
+ you
+ scan
+
+
+the
+ QR
+ code
+ and
+ it
+ will
+ also
+ be
+ in
+ the
+
+
+follow-up
+ email.
+
+
+So,
+ thank
+ you
+ for
+ staying
+ with
+ me.
+ I'm
+
+
+happy
+ to
+ take
+ any
+ questions
+ about
+ Jeff,
+
+
+about
+ the
+ experiments,
+ and
+ about
+ the
+
+
+course.
+ And
+ by
+ the
+ way,
+ after
+ the
+
+
+lesson,
+ look
+ out
+ for
+ an
+ email.
+ It
+ will
+
+
+have
+ the
+ slide
+ deck,
+ the
+ recording,
+ the
+
+
+open
+ source
+ code,
+ your
+ coupon,
+ and
+ the
+
+
+signup
+ link.
