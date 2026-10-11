@@ -1,0 +1,201 @@
+[Speaker 1]:  um all right，
+[Speaker 1]:  um so hi everyone。
+[Speaker 1]:  i'm my name is olive。
+[Speaker 1]:  i work at minimax on a reinforcement learning research。
+[Speaker 1]:  and today，
+[Speaker 1]:  i'm gona talk k little bit it about our new model minimax m three and how we trarended nativemulti model from step zero and how we trarended with MSA，
+[Speaker 1]:  which is called ininimax spar attension。
+[Speaker 1]:  um a little bit introduction of our team and how one of the few labs over the world that uh works on multime modealities，
+[Speaker 1]:  which means that we have published our um of course，
+[Speaker 1]:  LM dedels。
+[Speaker 1]:  before we worwork on our speech models，
+[Speaker 1]:  we have our own video generation models，
+[Speaker 1]:  and we have our coding agenca models。
+[Speaker 1]:  and lately we just release our minimax m three，
+[Speaker 1]:  which is open weight with frontier performance。
+[Speaker 1]:  so it is actually the first open weight model to combine the following three uh，
+[Speaker 1]:  from chair capabilities。
+[Speaker 1]:  the first one is what we call。
+[Speaker 1]:  so the uh coding and ergentic capabilities，
+[Speaker 1]:  the model is able to do a lot of the agentic task that you imagine。
+[Speaker 1]:  um it can do automatic a text composition。
+[Speaker 1]:  it can work in your coding agents。
+[Speaker 1]:  it can drop in for ninety percent of the coding works that you are currently doing。
+[Speaker 1]:  and the second pillar is that the model has one million context window。
+[Speaker 1]:  um so which is very long that enabled like unlocks pretty much basic all basic user long user interactions um of like it handles four coo bases，
+[Speaker 1]:  and we trained ded with MSA minimum sparse attention。
+[Speaker 1]:  so it is nine times faster prefiil and fifteen times faster decode versus four tension。
+[Speaker 1]:  and the third one is that the the model was trained native mutor model from step zero，
+[Speaker 1]:  which means that from from scratch，
+[Speaker 1]:  we combined visionary standing with language generation。
+[Speaker 1]:  so the model would understand both capabiliis very well from the start and uh h。
+[Speaker 1]:  so that we can build many more applications on that，
+[Speaker 1]:  say，
+[Speaker 1]:  computer use agents，
+[Speaker 1]:  right？
+[Speaker 1]:  so first，
+[Speaker 1]:  all briefly explain what sparse attention does。
+[Speaker 1]:  our court design principal is that a simpler architecture can always lead to better scaling properties。
+[Speaker 1]:  this is a principle we have followed throughout the entire design。
+[Speaker 1]:  so our goal is to always pursue a cleaner and simpler architecture。
+[Speaker 1]:  disparse attention consists of two branches。
+[Speaker 1]:  the first one is what we call the index branch，
+[Speaker 1]:  which performs a lightwid full attention computation。
+[Speaker 1]:  it uses four quarheads and one key head，
+[Speaker 1]:  and it is trained with a care loss to match the the attention scores of the main branch。
+[Speaker 1]:  the index branch is used to identify the tokens with the highest attention scores。
+[Speaker 1]:  these selected tokens are then attended by by the main branch。
+[Speaker 1]:  in other words，
+[Speaker 1]:  the sparse branch does not attend to all of the tokens，
+[Speaker 1]:  but only to a subset of them。
+[Speaker 1]:  this subset is selected through the lightwway computation of the index branch。
+[Speaker 1]:  then the sparse branch would use the blocks selected by the index branch to determine which keys and values are needed for attention complication。
+[Speaker 1]:  all right。
+[Speaker 1]:  and what i want to emphasize today that our design is not purely algorithm like algorithm driven and said，
+[Speaker 1]:  we took an algorithm algorithm and infrastructure code design approach。
+[Speaker 1]:  um a good good example to start with this dsa。
+[Speaker 1]:  d。
+[Speaker 1]:  sa was a very strong design，
+[Speaker 1]:  but it is also high to optimize for deep six oones architecture，
+[Speaker 1]:  especially the comonination of MQA and the large headdeam。
+[Speaker 1]:  however，
+[Speaker 1]:  what we move to a more commonly used GQA architecture directly applying the same design，
+[Speaker 1]:  becomes a lustury forward。
+[Speaker 1]:  it introduces several practical issues is especially from the infrastructure and implementation perspective。
+[Speaker 1]:  so this motivate our design choice，
+[Speaker 1]:  instead of simply borrowing and existence，
+[Speaker 1]:  spar se attion design，
+[Speaker 1]:  we rethink the architecture under the constraints of GQA and real al system efficiency。
+[Speaker 1]:  so what are the issues？
+[Speaker 1]:  um if we directly apply the existing sparse？
+[Speaker 1]:  attenararchitecture first from algorithm perspective，
+[Speaker 1]:  GKVA has multiple KV has which should ideproviprovide diverversity across different KV groups。
+[Speaker 1]:  however，
+[Speaker 1]:  if we directly reuse the same token selection strategy，
+[Speaker 1]:  multiple KV has will end up attending to exactly the same selected tokens。
+[Speaker 1]:  they essentially cancils out the diversity that jicuates is supposed to provide second from the infrastructure perspective。
+[Speaker 1]:  this design is not very friendly to GPU memory access GPU are much more efficient when reading continuous data in the MQA setting。
+[Speaker 1]:  we can syanthy KV eight layouts as one KV had with a large head dimension，
+[Speaker 1]:  for example，
+[Speaker 1]:  one by five hundred。
+[Speaker 1]:  and pulth，
+[Speaker 1]:  this is relatively continuuous and efficient to read。
+[Speaker 1]:  however，
+[Speaker 1]:  in g ua，
+[Speaker 1]:  the same total dimension may be sput acpross multiple KV hats，
+[Speaker 1]:  for example，
+[Speaker 1]:  is four by one twenty eight。
+[Speaker 1]:  these are no longer one single continuguous read。
+[Speaker 1]:  instead，
+[Speaker 1]:  the GPU needs to perform multiple independent readacross different KVVVS。
+[Speaker 1]:  this increases memory access overhead and reduces the computer memory access stratio。
+[Speaker 1]:  and another issue here is the top key computition to south to select the most important tokens。
+[Speaker 1]:  the indexture needs to compute。
+[Speaker 1]:  talk k。
+[Speaker 1]:  sorts over a large number of token webl candidates。
+[Speaker 1]:  however，
+[Speaker 1]:  talk k has inherent data dependencies，
+[Speaker 1]:  so it is difficult to fully be parallel on gpu。
+[Speaker 1]:  as a result，
+[Speaker 1]:  total level selection introduces nontribual competition emerging overhead。
+[Speaker 1]:  so how that we address these issues in m sa from the from the algorithm side，
+[Speaker 1]:  we remove the aggregation of the index branch outputs in the original design。
+[Speaker 1]:  the results from all index branch in index branch has emerged into a single set of selected tokens。
+[Speaker 1]:  but as we discuss earlier，
+[Speaker 1]:  this would remove the diversity brought by jecua。
+[Speaker 1]:  instead，
+[Speaker 1]:  we keep the selection different。
+[Speaker 1]:  the different across KV has under our sparse attention design when using GQA different KV has can attend to do different sets of tokens。
+[Speaker 1]:  this helps preserve the diversity of GQA rather than forcing all hets to share the same sports tension for the infrastructure side。
+[Speaker 1]:  we move from token level selection to block level retrival。
+[Speaker 1]:  compared with token level selection，
+[Speaker 1]:  brock block level retrieval significantly reduces the number of candidates and lower sea overhead of top key computation and result merging at the same time，
+[Speaker 1]:  block level retrival is more hardtware friendly。
+[Speaker 1]:  it improves memory access efficiency and increases the compute to memory accestrry shell。
+[Speaker 1]:  importantly，
+[Speaker 1]:  we also show that the design does not introduce a significant performance drap finally would design efficient kernels for both training and influence。
+[Speaker 1]:  i won't going to the kernel details here today，
+[Speaker 1]:  but this is the system level component that makes the sparse attention design，
+[Speaker 1]:  practical and efficient。
+[Speaker 1]:  so with this design，
+[Speaker 1]:  we were able to extend the training of our m free model to one million context very ficiently。
+[Speaker 1]:  and as we talked about earlier，
+[Speaker 1]:  the third pillars is the native multimobality。
+[Speaker 1]:  our model minimax m three was trained from scratch with multimodel data。
+[Speaker 1]:  what does that mean？
+[Speaker 1]:  our model was string with both text and vision understand standing from steps zero is very different approach from current open weight models。
+[Speaker 1]:  our starting point is very clear as a current stage，
+[Speaker 1]:  a standalone VL model has relatively limited application scenaris。
+[Speaker 1]:  but combining it was with，
+[Speaker 1]:  you know，
+[Speaker 1]:  text understanding during the training can be challenging。
+[Speaker 1]:  so the key question and challenged there was，
+[Speaker 1]:  how can we introduce multimodel capability without hurting the cortex performance？
+[Speaker 1]:  to answer this，
+[Speaker 1]:  we actually explore several training strategies as scale。
+[Speaker 1]:  the first and most common approach is to add mottimodel training after the pretrain in decay stage，
+[Speaker 1]:  which is essentially ACPT stall approach。
+[Speaker 1]:  however，
+[Speaker 1]:  at that point，
+[Speaker 1]:  the model has already largely conversed，
+[Speaker 1]:  adding more time model data at this stage tends to interfere with a learch tax capability and causous degregation。
+[Speaker 1]:  another approach is to insure multimodel training before pretraining decaded ge，
+[Speaker 1]:  for example，
+[Speaker 1]:  after the model has already seen a number of amount of tex tokens。
+[Speaker 1]:  we also tried this direction but found that the results were highly sensitive to the dynamisure in training hypoper proramners，
+[Speaker 1]:  such as learning rate，
+[Speaker 1]:  for example，
+[Speaker 1]:  in one setting，
+[Speaker 1]:  a smaller learning rate might reduce the performance drop，
+[Speaker 1]:  but this conclusion does not necessarily generalize to another run。
+[Speaker 1]:  more importantly，
+[Speaker 1]:  during a large scale，
+[Speaker 1]:  pray training。
+[Speaker 1]:  these parameters can not be ararbitarily changed just for mulormodel training，
+[Speaker 1]:  and this leled us to our final strategy。
+[Speaker 1]:  native mulormodel training from scratch in this setting。
+[Speaker 1]:  multi model capability is introduced from the very beginning rather than being added after the text model has already formed its structure under the same text token budget。
+[Speaker 1]:  we find that the disaproproach almost does not heard tax capability。
+[Speaker 1]:  we actually did many fundd。
+[Speaker 1]:  analyyis is aring this experiments。
+[Speaker 1]:  one of them missed this interesting observation from the attention maps。
+[Speaker 1]:  you can see from this picture that for CPT style multime model models，
+[Speaker 1]:  the text tokens often pay very little attention to visual tokens。
+[Speaker 1]:  the visual token regions are mostly dark in the attention map。
+[Speaker 1]:  this suggest that the multi modelities are not fully integrated，
+[Speaker 1]:  while in contrast，
+[Speaker 1]:  with native multimodel training，
+[Speaker 1]:  the attention map looks much more integrated。
+[Speaker 1]:  we do not see here a clear separation between tax tokens and visual tokens。
+[Speaker 1]:  they suggest that the model learns to fuse visual and textual information more naturally from the beginning。
+[Speaker 1]:  so overall，
+[Speaker 1]:  our training strategy is not just about adding vision capability。
+[Speaker 1]:  it is about integrating multimodelity into model while preserving its strongest text capabilities。
+[Speaker 1]:  and of course，
+[Speaker 1]:  uh，
+[Speaker 1]:  we did many experiments on multimodeararchiteture ture choices。
+[Speaker 1]:  our all arartetetures relatively standard，
+[Speaker 1]:  the image or video is being processed by a viit，
+[Speaker 1]:  which produces visual tokens。
+[Speaker 1]:  these visual tokens are then inserted into the language model input by replacing the original image placeholders in the take sequence。
+[Speaker 1]:  after that，
+[Speaker 1]:  the visual embeddings and text ebeddings are fed together into the language model。
+[Speaker 1]:  one important finding is that applying three，
+[Speaker 1]:  the attention inside the vip is very helpful for vision understanding，
+[Speaker 1]:  and the standard viit setting attention is is applied within each individual image or frame for video inputs。
+[Speaker 1]:  this means that visual patches from different frames do not directly interacts ts at the IT stage，
+[Speaker 1]:  but with three d attention patches across different frames can attend to each other directly。
+[Speaker 1]:  this gives the model stronger temporal and cross from visual model and capability，
+[Speaker 1]:  and we found that this improves visual understanding and the benefit also transfers to some image benchmarks，
+[Speaker 1]:  suggesting that it's strength the overall visual representation，
+[Speaker 1]:  rather than only improving video specific text。
+[Speaker 1]:  and one practical detail is that we cannot simply extend three d attention to an unlimited number of frames because that would introduce additional system and low balancing chengenges in explplation using sing four frames，
+[Speaker 1]:  give us the best trade off between performance and efficiency。
+[Speaker 1]:  so overall，
+[Speaker 1]:  with our architecture design with our training strategies that would export uh throughout the stages。
+[Speaker 1]:  and with our analysis and VIT explorations，
+[Speaker 1]:  we were able to train the model from scratch uh，
+[Speaker 1]:  with more timodality understanding，
+[Speaker 1]:  and that will be the end of the presentation today。
+[Speaker 1]:  thank you。
+[Speaker 0]:  the。
