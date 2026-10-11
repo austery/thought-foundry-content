@@ -1,0 +1,627 @@
+[Speaker 1]:  well，
+[Speaker 1]:  hi folks，
+[Speaker 1]:  um thanks for joining me here for the last talk on this stage of of the AI engineer worldfafathis this year。
+[Speaker 1]:  um yeah，
+[Speaker 1]:  thank you for joining me。
+[Speaker 1]:  money names rimmy。
+[Speaker 1]:  i i'm on the strategic projects team at tail scale。
+[Speaker 1]:  and more specifically，
+[Speaker 1]:  i actually work on our AI gateway apperche。
+[Speaker 1]:  and today，
+[Speaker 1]:  i want to talk a little bit about，
+[Speaker 1]:  you know what it means，
+[Speaker 1]:  you know what it's going to take to have an ai future without the locke，
+[Speaker 1]:  a lot of a lot them 've seen over the last twelve months。
+[Speaker 1]:  and yeah，
+[Speaker 1]:  so if we take a look roquick，
+[Speaker 1]:  you know，
+[Speaker 1]:  the last twelve months，
+[Speaker 1]:  you know，
+[Speaker 1]:  i think you can really be describbed quite a it it by the phrase token magazine。
+[Speaker 1]:  and i don't mean that methe kind kind of negative sense that you might kind of hear outside of the you kind ai，
+[Speaker 1]:  i enenthusiascircle。
+[Speaker 1]:  i mean，
+[Speaker 1]:  that in the sort of it's been a year of trying to figure out you know what we can do with million token context windows um with the ability to get context from anywhere，
+[Speaker 1]:  right？
+[Speaker 1]:  not just，
+[Speaker 1]:  you know，
+[Speaker 1]:  mcp being everywhere，
+[Speaker 1]:  but you know also having coding tools that are that grated finding context using the cli，
+[Speaker 1]:  bring that context into the model，
+[Speaker 1]:  bringing it，
+[Speaker 1]:  you know，
+[Speaker 1]:  bring it into you thing that you need you and going from there，
+[Speaker 1]:  right？
+[Speaker 1]:  it's been pretty cool，
+[Speaker 1]:  right？
+[Speaker 1]:  i mean，
+[Speaker 1]:  we've gotten。
+[Speaker 1]:  it's really made truly agentic coding possible having all of this right？
+[Speaker 1]:  so yeah，
+[Speaker 1]:  it's i meit's。
+[Speaker 1]:  it's quite cool and you're going to see not just agenencocoding，
+[Speaker 1]:  but you know，
+[Speaker 1]:  other agenting these cases，
+[Speaker 1]:  we continued to take off as we as we do so。
+[Speaker 1]:  so you know token magazine is cool，
+[Speaker 1]:  but right right it has it has problems，
+[Speaker 1]:  observes obvious problems，
+[Speaker 1]:  and it's very expensive。
+[Speaker 1]:  right？
+[Speaker 1]:  it's it's an extremely expensive endeavor ah。
+[Speaker 1]:  h know，
+[Speaker 1]:  think think think the last monmons d you，
+[Speaker 1]:  you have maybe been marked by。
+[Speaker 1]:  hey，
+[Speaker 1]:  we have，
+[Speaker 1]:  you know，
+[Speaker 1]:  an limited ted eye budget，
+[Speaker 1]:  and that's changed here in the last few months。
+[Speaker 1]:  in terms of you just incentivito，
+[Speaker 1]:  you know what it means to use AI。
+[Speaker 1]:  and also，
+[Speaker 1]:  i mean，
+[Speaker 1]:  you know it's expensive，
+[Speaker 1]:  like just generally，
+[Speaker 1]:  if you're doing it，
+[Speaker 1]:  you 're right，
+[Speaker 1]:  but it also it does esincentivize what i would call like wasted tokens by deflt。
+[Speaker 1]:  i mean，
+[Speaker 1]:  i work on AAII teway。
+[Speaker 1]:  we use use our AI gateway。
+[Speaker 1]:  i get to see all of the usage turn the i gateway。
+[Speaker 1]:  you would not believe the number of sessions that are hundreds or thousands of messages long，
+[Speaker 1]:  where nobody clears the context，
+[Speaker 1]:  they just kind of keep going。
+[Speaker 1]:  i mean，
+[Speaker 1]:  it's helpful sometimes，
+[Speaker 1]:  but you know it's it's it's pretty surprising you will have，
+[Speaker 1]:  you know，
+[Speaker 1]:  tens of millions of tokens of session uh，
+[Speaker 1]:  where it's the cash es basically time acks out the entire time。
+[Speaker 1]:  uh it's it's really expensive。
+[Speaker 1]:  um and other thing thing right？
+[Speaker 1]:  right？
+[Speaker 1]:  you。
+[Speaker 1]:  and this is been an exciting time，
+[Speaker 1]:  right？
+[Speaker 1]:  if are doing ing things，
+[Speaker 1]:  bilding the things，
+[Speaker 1]:  but this has led to，
+[Speaker 1]:  you know，
+[Speaker 1]:  in many cases，
+[Speaker 1]:  very vertically integrated ted two chains。
+[Speaker 1]:  uh oud code is，
+[Speaker 1]:  obviously，
+[Speaker 1]:  you know，
+[Speaker 1]:  big one code extually everybody's kind of building up there。
+[Speaker 1]:  you know，
+[Speaker 1]:  fthe away from the model，
+[Speaker 1]:  you know，
+[Speaker 1]:  all the way，
+[Speaker 1]:  all the way on the totop。
+[Speaker 1]:  um h know builbuilding and you know，
+[Speaker 1]:  building their angel toling their two chains。
+[Speaker 1]:  so um right，
+[Speaker 1]:  there's a lot of problems there。
+[Speaker 1]:  and so you know，
+[Speaker 1]:  my question，
+[Speaker 1]:  right in terms of this is you know，
+[Speaker 1]:  how do we address these problems in particular，
+[Speaker 1]:  how do we address the lot ck in？
+[Speaker 1]:  and how do we actually improve？
+[Speaker 1]:  uh how we use a eyso such we can use it for things that aren't just kind of essentially frtier task ks，
+[Speaker 1]:  where were just kind of wasting wasting money，
+[Speaker 1]:  wasting tokens，
+[Speaker 1]:  you know，
+[Speaker 1]:  that's sort of um。
+[Speaker 1]:  but first，
+[Speaker 1]:  i want to talk about how not to address the folum。
+[Speaker 1]:  and this is a super super common thing。
+[Speaker 1]:  so and the last six months，
+[Speaker 1]:  we've been talking to weve than talking about hundreds and hundreds of folks about their AI spend their AI sage，
+[Speaker 1]:  right？
+[Speaker 1]:  that's the kind of bit of it of working on it。
+[Speaker 1]:  i gaate way what's come to you。
+[Speaker 1]:  they're like，
+[Speaker 1]:  i don't know what's going on。
+[Speaker 1]:  i know we're using a lot of it。
+[Speaker 1]:  i get you know ah get an throroc c bevery every day HI get a code x milill every day ah。
+[Speaker 1]:  so you know know，
+[Speaker 1]:  it's not just that。
+[Speaker 1]:  you know，
+[Speaker 1]:  see see it all the time。
+[Speaker 1]:  so we're going going。
+[Speaker 1]:  do they usually come one kind kind sosolution mmand and is is oh，
+[Speaker 1]:  we're just going to like uh everybody seems to be using cloud code，
+[Speaker 1]:  right？
+[Speaker 1]:  so so 're just going to like consolidate on a single winter，
+[Speaker 1]:  maybe two venners right，
+[Speaker 1]:  maybe two winter。
+[Speaker 1]:  so so uh，
+[Speaker 1]:  like i need to get a handle on this。
+[Speaker 1]:  how don't i get a handle on this？
+[Speaker 1]:  how i get？
+[Speaker 1]:  oh，
+[Speaker 1]:  okay，
+[Speaker 1]:  yeah，
+[Speaker 1]:  i will say everybody's going to use this。
+[Speaker 1]:  we're just going to use this thing。
+[Speaker 1]:  um that is not not a great idea。
+[Speaker 1]:  um you know，
+[Speaker 1]:  i might seem obvious sitting here，
+[Speaker 1]:  but this maybe not a great idea。
+[Speaker 1]:  but you know，
+[Speaker 1]:  you're in that panic zone。
+[Speaker 1]:  weweve spent a lot of money，
+[Speaker 1]:  and we don't know how exactly。
+[Speaker 1]:  and we you know，
+[Speaker 1]:  finance is talking to you。
+[Speaker 1]:  IT is being what what are you doing？
+[Speaker 1]:  and you know，
+[Speaker 1]:  like we said in that UZI，
+[Speaker 1]:  but mamaybe not use that what AI。
+[Speaker 1]:  and you know，
+[Speaker 1]:  it's a pretty natural。
+[Speaker 1]:  okay，
+[Speaker 1]:  okay，
+[Speaker 1]:  i'm to consolidate everything down right？
+[Speaker 1]:  okay，
+[Speaker 1]:  i'm going to have a control in this。
+[Speaker 1]:  i mehave you going going，
+[Speaker 1]:  have a control l，
+[Speaker 1]:  this control l this。
+[Speaker 1]:  and you know，
+[Speaker 1]:  i think this is kind of picking at what we're going going。
+[Speaker 1]:  see，
+[Speaker 1]:  see the next twelve months in what people are actually trying to do，
+[Speaker 1]:  at least ast，
+[Speaker 1]:  you know，
+[Speaker 1]:  know of maxtiis。
+[Speaker 1]:  what i would like to call RI mamaxine，
+[Speaker 1]:  right？
+[Speaker 1]:  we're not going to be to opi maxzine。
+[Speaker 1]:  we're going to be ROI maxzine um and you know it's it's really just just nenessity，
+[Speaker 1]:  right？
+[Speaker 1]:  it's not um um and i don't mean that i say RI maxzine，
+[Speaker 1]:  i don't just be cutting costs，
+[Speaker 1]:  right？
+[Speaker 1]:  i mean，
+[Speaker 1]:  actually proving some sort of value uh to the thing that you're doing and not only that，
+[Speaker 1]:  but also kind of opening things up，
+[Speaker 1]:  right？
+[Speaker 1]:  so the only thing you have is like two frontier models and their entire stack ecosystem。
+[Speaker 1]:  that's a certain cost level where you you just makes things uncertain things unannable，
+[Speaker 1]:  right？
+[Speaker 1]:  you can't actually expand it。
+[Speaker 1]:  i use it into the company company。
+[Speaker 1]:  that's the only way you can use AI。
+[Speaker 1]:  and so you know，
+[Speaker 1]:  when we think about RI maaczine，
+[Speaker 1]:  we first need to kind of think about like what of the component of an internal ai deployment。
+[Speaker 1]:  i'm not talking about like a hey，
+[Speaker 1]:  we built this new AI feature in our app。
+[Speaker 1]:  i mean，
+[Speaker 1]:  you know，
+[Speaker 1]:  interinterninternal to your ororganzzation。
+[Speaker 1]:  so you know there's four things right，
+[Speaker 1]:  there's the LMM or LM。
+[Speaker 1]:  ms。
+[Speaker 1]:  there's that layer。
+[Speaker 1]:  uh there's sort of the data connectlayer。
+[Speaker 1]:  er mean，
+[Speaker 1]:  this is a mcp for a lot of people。
+[Speaker 1]:  but in reality，
+[Speaker 1]:  it's you know c，
+[Speaker 1]:  lii or api or really just any way that you get data could be reading a file right into your uh into your agentic system。
+[Speaker 1]:  uh there's the interface，
+[Speaker 1]:  think people kind of forget about this sometimes。
+[Speaker 1]:  but you know it's started with chat interface。
+[Speaker 1]:  we got tuese。
+[Speaker 1]:  you know，
+[Speaker 1]:  we kind of got a，
+[Speaker 1]:  we got，
+[Speaker 1]:  you know，
+[Speaker 1]:  ideas with chat。
+[Speaker 1]:  we got，
+[Speaker 1]:  you know，
+[Speaker 1]:  kind of withlash back from tueys。
+[Speaker 1]:  and you know，
+[Speaker 1]:  i'm going to do on my code of my phone，
+[Speaker 1]:  you know，
+[Speaker 1]:  to，
+[Speaker 1]:  oh，
+[Speaker 1]:  now you，
+[Speaker 1]:  you know，
+[Speaker 1]:  the t thing is，
+[Speaker 1]:  you know，
+[Speaker 1]:  clatag。
+[Speaker 1]:  and like how many use，
+[Speaker 1]:  you know，
+[Speaker 1]:  i'm going to use youjust going to interface with agents。
+[Speaker 1]:  y is slack，
+[Speaker 1]:  right？
+[Speaker 1]:  so um you know，
+[Speaker 1]:  it's another core component，
+[Speaker 1]:  and it is a component that you can break。
+[Speaker 1]:  uh。
+[Speaker 1]:  and then the last when i say boxes is slash just the environment in which the agent runs right。
+[Speaker 1]:  so so re's you're four or kind of，
+[Speaker 1]:  you know，
+[Speaker 1]:  for components really uh and to be RI maxing，
+[Speaker 1]:  uh means to be maxzine your，
+[Speaker 1]:  you know，
+[Speaker 1]:  every opportunity that you have um for choice to make a choice at one of those layers，
+[Speaker 1]:  right？
+[Speaker 1]:  you know，
+[Speaker 1]:  have to necessarily have a unique thing。
+[Speaker 1]:  you，
+[Speaker 1]:  you i'i've made my spoke special choice at every one of those layers，
+[Speaker 1]:  but it's really important to be able to make a choice at any given layer that you need to hit any given time，
+[Speaker 1]:  and it might be different for different layers or different box rrates。
+[Speaker 1]:  it can be pretty different across the organization。
+[Speaker 1]:  i an totally imazation like an entire engineering team just coding via，
+[Speaker 1]:  you know，
+[Speaker 1]:  slack thread might be fun，
+[Speaker 1]:  but i don't totally imagine that right um but you know，
+[Speaker 1]:  the entire marketing team might be working entirely。
+[Speaker 1]:  uh you know，
+[Speaker 1]:  in a slack thread，
+[Speaker 1]:  asking data questions shodoing other things like that。
+[Speaker 1]:  so it's really important to，
+[Speaker 1]:  you know，
+[Speaker 1]:  to be able to kind of separate these things。
+[Speaker 1]:  and right，
+[Speaker 1]:  so i work entiil scale，
+[Speaker 1]:  and i working on me，
+[Speaker 1]:  i gateway，
+[Speaker 1]:  but you know，
+[Speaker 1]:  maybe no surprised。
+[Speaker 1]:  i'm here to talk a little bit it about wine day。
+[Speaker 1]:  i gaate way uh，
+[Speaker 1]:  will help you do that？
+[Speaker 1]:  can help you do that。
+[Speaker 1]:  i don't just mean this still using our AI gateway。
+[Speaker 1]:  i think it's nice，
+[Speaker 1]:  but you know just any AI gateway is you h is important for this。
+[Speaker 1]:  uh so our AI gateway is uh called apperure。
+[Speaker 1]:  and um what it does is right。
+[Speaker 1]:  it's maybe no surprise here，
+[Speaker 1]:  right。
+[Speaker 1]:  but it lets you it sits in between your agents and that interface in that agent。
+[Speaker 1]:  and you know，
+[Speaker 1]:  all of your inpoints is well both like eleelemon points in data kind of m cp，
+[Speaker 1]:  m points，
+[Speaker 1]:  api m points。
+[Speaker 1]:  anything that you have uh insit in the middle and let you both control and monitor what's happening from a that can be from a security perspective that can be from a cost perspective that can be from a which we do a lot。
+[Speaker 1]:  i want to to learn about what somebody is doing or what an agent is doing。
+[Speaker 1]:  um perspective，
+[Speaker 1]:  it's actually really cool when you have logs，
+[Speaker 1]:  uh and you can tell your agent hehey。
+[Speaker 1]:  i it maybe it ran out it kind of just kind of，
+[Speaker 1]:  oh it。
+[Speaker 1]:  it didn't reach an answer。
+[Speaker 1]:  it just kind of spiral at of control，
+[Speaker 1]:  maybe happens less。
+[Speaker 1]:  now now definitely used to happen quite a bit happens with，
+[Speaker 1]:  you know，
+[Speaker 1]:  maybe cheaper models more often too。
+[Speaker 1]:  they're usually not great at stopping themselves，
+[Speaker 1]:  but they are great to analyzing where they went wrong after the fact。
+[Speaker 1]:  and so we you have something like anyday。
+[Speaker 1]:  i get way。
+[Speaker 1]:  it's really easy to point it back at what you were doing and say，
+[Speaker 1]:  what happened？
+[Speaker 1]:  why did this not did did not you know work the way i was expecting into uh？
+[Speaker 1]:  and so you know，
+[Speaker 1]:  if you use the day，
+[Speaker 1]:  i get away how many people like have any day，
+[Speaker 1]:  i get way have deployed any day。
+[Speaker 1]:  i get way using any way。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so if you use one before，
+[Speaker 1]:  you're probably used to，
+[Speaker 1]:  okay。
+[Speaker 1]:  so i put all my keys on the gateway。
+[Speaker 1]:  now i need to go create synthetic keys for everything that i have right。
+[Speaker 1]:  so it's like，
+[Speaker 1]:  okay。
+[Speaker 1]:  i turing some keys for bunch momokeys ys h。
+[Speaker 1]:  we get to do something a little special。
+[Speaker 1]:  so appeature is built on tail scale。
+[Speaker 1]:  and if you're not familiar with tail scale，
+[Speaker 1]:  tail skill is an identity base mensh network。
+[Speaker 1]:  it sppoes on wireguard。
+[Speaker 1]:  uh and what you get to do with tail scale is every connection that is made over a tail net tail scale network。
+[Speaker 1]:  um you instalall the tail net agent everywhere that you need。
+[Speaker 1]:  it can be containers，
+[Speaker 1]:  lappops gpu servers doesn't matter um install everywhere in every connection that's now made over that teil。
+[Speaker 1]:  net comes with the identity of the machine or the user on the other side。
+[Speaker 1]:  so that can be a tag right。
+[Speaker 1]:  so that can be like，
+[Speaker 1]:  hey，
+[Speaker 1]:  this is the machine now isn't PR review by right uh。
+[Speaker 1]:  and then it would get a separate note idea underneath this is the instantiation of that PR review by right？
+[Speaker 1]:  so you can do that or it can be the user right？
+[Speaker 1]:  so it's just me using calde code of my ptotouh that can come with it as well。
+[Speaker 1]:  in addition to if you're using something like antra or octor，
+[Speaker 1]:  uh，
+[Speaker 1]:  we can actually sink all the groups。
+[Speaker 1]:  uh so you can see the group that，
+[Speaker 1]:  that person is associated with。
+[Speaker 1]:  so something on the other side is able to see all of that。
+[Speaker 1]:  we have this really cool library。
+[Speaker 1]:  it's called TS nets and open source library。
+[Speaker 1]:  you can use it to build these sorts of apps。
+[Speaker 1]:  that is what we used to build apature。
+[Speaker 1]:  that is what is actually happening here。
+[Speaker 1]:  so it is able to see the um it is able to see the identity of that user or that agent on the other side of the thing or the other side of the connection。
+[Speaker 1]:  and so you know，
+[Speaker 1]:  again，
+[Speaker 1]:  just my necompcomponent of，
+[Speaker 1]:  you know，
+[Speaker 1]:  internal，
+[Speaker 1]:  you know，
+[Speaker 1]:  ai deployment，
+[Speaker 1]:  right to there's the LLM side of things，
+[Speaker 1]:  there's the data side of things，
+[Speaker 1]:  the interface side of things and the actual sandboxes um same boxing environment in which things run um side of things。
+[Speaker 1]:  so um when it comes using apperature，
+[Speaker 1]:  um you know，
+[Speaker 1]:  as far as l lis go，
+[Speaker 1]:  this is pretty similar。
+[Speaker 1]:  i think to you know what you might expect from other ai gateways，
+[Speaker 1]:  except now，
+[Speaker 1]:  you know，
+[Speaker 1]:  here i have a know know，
+[Speaker 1]:  configure gateway。
+[Speaker 1]:  it's got in thropic open a ever cell。
+[Speaker 1]:  you know，
+[Speaker 1]:  it's got even enthropic or off。
+[Speaker 1]:  you know，
+[Speaker 1]:  pabrocotics everything that you can imagine。
+[Speaker 1]:  i put all those keys on that gateway。
+[Speaker 1]:  and then now when i want to actually connect to that ellen provider as an agent or a user，
+[Speaker 1]:  there's no。
+[Speaker 1]:  i don't have this if i had this expanded。
+[Speaker 1]:  there's there's no extra screen for create these AII crecrethese identities，
+[Speaker 1]:  create this once i connect to the once。
+[Speaker 1]:  i actually connect to the gateway，
+[Speaker 1]:  it knows what i am。
+[Speaker 1]:  it knows what i am。
+[Speaker 1]:  and it's like，
+[Speaker 1]:  oh，
+[Speaker 1]:  you have access to this mondets this provider，
+[Speaker 1]:  right？
+[Speaker 1]:  you can use GLM five point two。
+[Speaker 1]:  um you get this budget with GLM five point two，
+[Speaker 1]:  right？
+[Speaker 1]:  you get a limited budget with a cheap model，
+[Speaker 1]:  and you get an extremely narrow budget with a frontier model，
+[Speaker 1]:  right？
+[Speaker 1]:  those sorts of things。
+[Speaker 1]:  there's no extra setting here。
+[Speaker 1]:  it's just adga agger API and go。
+[Speaker 1]:  so again，
+[Speaker 1]:  with taken all the yellow MA layer，
+[Speaker 1]:  and we've put it into a，
+[Speaker 1]:  you know，
+[Speaker 1]:  put it into one place that you can，
+[Speaker 1]:  then you don't kind of expand out within your organization。
+[Speaker 1]:  again，
+[Speaker 1]:  doesn't matter if you trtry to swhich models are providers，
+[Speaker 1]:  you can do that。
+[Speaker 1]:  the next thing is the data side of thing。
+[Speaker 1]:  so in addition to you know，
+[Speaker 1]:  being an an ellen gateway，
+[Speaker 1]:  and this is actually why i said ai gateway through beginning。
+[Speaker 1]:  so i know that seems kind of nebulous。
+[Speaker 1]:  um what have actually a very specifically chose that term because we're both in LLM gateway and an mcp gateway，
+[Speaker 1]:  and we even do off like a injection for just standard aps and reexposed those as mcps too。
+[Speaker 1]:  uh you know，
+[Speaker 1]:  kind of intentionally choosing the broadterm here。
+[Speaker 1]:  um but with this is you can see here。
+[Speaker 1]:  um in apperature is an admin。
+[Speaker 1]:  you can go in and can figure whatever mcp servers you want。
+[Speaker 1]:  we have kind of built in ones where we've checheck them out，
+[Speaker 1]:  make sure they're easy to easy to work with all those sorts things。
+[Speaker 1]:  if you've ever deployed in mcp or used m cp within your organization，
+[Speaker 1]:  you know that there's a standard，
+[Speaker 1]:  but everybody follows a different version of that standard。
+[Speaker 1]:  um you know，
+[Speaker 1]:  you can tell exactly when in the mcp server was built，
+[Speaker 1]:  but exactly how they decided to do off。
+[Speaker 1]:  uh，
+[Speaker 1]:  it's is it's great。
+[Speaker 1]:  uh you know，
+[Speaker 1]:  kind of archaeology lesson，
+[Speaker 1]:  uh，
+[Speaker 1]:  when you go through when you go through setting up mcp service，
+[Speaker 1]:  but we try to make that a very simple process here。
+[Speaker 1]:  right？
+[Speaker 1]:  we've got bught through this。
+[Speaker 1]:  uh so you as an admin can say，
+[Speaker 1]:  hey，
+[Speaker 1]:  i've configure these。
+[Speaker 1]:  these are the ones that are allowed。
+[Speaker 1]:  you can use that same identity information，
+[Speaker 1]:  say，
+[Speaker 1]:  say，
+[Speaker 1]:  y the the marketing team，
+[Speaker 1]:  you know，
+[Speaker 1]:  they get access to google，
+[Speaker 1]:  calendar and gmail，
+[Speaker 1]:  but the engineering team will also get access to get home。
+[Speaker 1]:  right？
+[Speaker 1]:  you can even say things like，
+[Speaker 1]:  oh，
+[Speaker 1]:  the engineering，
+[Speaker 1]:  no，
+[Speaker 1]:  this side of the engineering team gets access right access to get home or read，
+[Speaker 1]:  only access to get home。
+[Speaker 1]:  you can do all all sorts of things here。
+[Speaker 1]:  and what's really nice and again，
+[Speaker 1]:  talking about decoupling is all of the authenticaation happens here。
+[Speaker 1]:  so if you have folks that want to use curcier，
+[Speaker 1]:  or they want to use flood code，
+[Speaker 1]:  or they want to use cotex。
+[Speaker 1]:  so they want to use some special agent framework that there。
+[Speaker 1]:  you have some new het thing that they've they've discovered red built or whatetever。
+[Speaker 1]:  all they have to do is hit that in point。
+[Speaker 1]:  and if they're on the tail net everything，
+[Speaker 1]:  i'thindicated is them or as whatever the agent or is whatever you know，
+[Speaker 1]:  the tag devices，
+[Speaker 1]:  there's no like i have to go reoften everything and then reoften everything。
+[Speaker 1]:  and then reoften in this new tool，
+[Speaker 1]:  we make the switching cost rate of like actually trying out tools and trying different workloes and different experiences。
+[Speaker 1]:  a lot a lot easier with this sof thing。
+[Speaker 1]:  it's all those little points of friction that lead to use cases were like，
+[Speaker 1]:  you know，
+[Speaker 1]:  people just don't try no use cases。
+[Speaker 1]:  they don't try to，
+[Speaker 1]:  you know，
+[Speaker 1]:  oh，
+[Speaker 1]:  maybe i should experiment，
+[Speaker 1]:  maybe i can make this sheer。
+[Speaker 1]:  maybe i can make this faster。
+[Speaker 1]:  um you know，
+[Speaker 1]:  next thing talking about the interface。
+[Speaker 1]:  so uh with approture，
+[Speaker 1]:  which tually have a built in chat UI surprise。
+[Speaker 1]:  um you everybody body seems have a chat UI。
+[Speaker 1]:  we have everybody built in chat UI。
+[Speaker 1]:  um however，
+[Speaker 1]:  it is built on top of API that you can also leverage yourself。
+[Speaker 1]:  uh。
+[Speaker 1]:  so our whole goal with approatis that actually provide you with the interort of you know，
+[Speaker 1]:  tools and interfaces，
+[Speaker 1]:  and they are tools to build the interfaces that weekend。
+[Speaker 1]:  so whether not you want to build a slack pot or you want to build，
+[Speaker 1]:  you know，
+[Speaker 1]:  tools，
+[Speaker 1]:  are you want to build，
+[Speaker 1]:  you know，
+[Speaker 1]:  tools that nobody body thought of some mobile ppenthing，
+[Speaker 1]:  you know，
+[Speaker 1]:  vothose only interface，
+[Speaker 1]:  right um you can，
+[Speaker 1]:  you can do that。
+[Speaker 1]:  the whole point is you're going to be able to do that with apperure。
+[Speaker 1]:  you want to support all of those different different individual use cases。
+[Speaker 1]:  but again，
+[Speaker 1]:  you can see it has connectors。
+[Speaker 1]:  those are all again set up through apperure itself and not set up in the check you like you're gire's getting them that by way，
+[Speaker 1]:  by way of aperure，
+[Speaker 1]:  um know，
+[Speaker 1]:  then the last thing。
+[Speaker 1]:  so this is um know know。
+[Speaker 1]:  so we talking by interfaces，
+[Speaker 1]:  you know，
+[Speaker 1]:  a little bit。
+[Speaker 1]:  you know，
+[Speaker 1]:  again，
+[Speaker 1]:  it's very important that you be going to know you all that know，
+[Speaker 1]:  know the one other thing that's coming very soon here。
+[Speaker 1]:  um if you ever ver，
+[Speaker 1]:  i don't know anybody body eever try to set up open weweb UI，
+[Speaker 1]:  or you know，
+[Speaker 1]:  like liabor，
+[Speaker 1]:  like any of the like kind of beginning of the like h。
+[Speaker 1]:  i'm going to set up like a hey this，
+[Speaker 1]:  like you know，
+[Speaker 1]:  this interface，
+[Speaker 1]:  right？
+[Speaker 1]:  this interface，
+[Speaker 1]:  it one big thing is you always lose identity information。
+[Speaker 1]:  and then suddenly all of the you know，
+[Speaker 1]:  everything's coming from the UI。
+[Speaker 1]:  everything's 's，
+[Speaker 1]:  i know，
+[Speaker 1]:  everythis is coming from the system。
+[Speaker 1]:  u're actually going to be adding a fool like pass through off h。
+[Speaker 1]:  so you will be able to actually see all of the like user identities and machine identities for for reasreasthey're。
+[Speaker 1]:  using whatever interface，
+[Speaker 1]:  you have ure's re's build to set it up。
+[Speaker 1]:  such you can pass with the odd，
+[Speaker 1]:  and you still get all of the same visibility that you're kind of expecting from a from many i gateway as well and anyah。
+[Speaker 1]:  the last thing is right。
+[Speaker 1]:  this is actually the i think the area in which folks are doing pretty good。
+[Speaker 1]:  there's actually a lot of choice already。
+[Speaker 1]:  people are trying to do this。
+[Speaker 1]:  i think that's because uh，
+[Speaker 1]:  the definition of ssbox x，
+[Speaker 1]:  i'm sure i could pull everybody here and would have a different everybody would have a different definition of exactly what a sandbox is um or what they need from a sandbox or what they want from a sandbox。
+[Speaker 1]:  and so you know we're kind of in that。
+[Speaker 1]:  let a thousand flowers blooon phase of，
+[Speaker 1]:  you know，
+[Speaker 1]:  there's a sandbox provider for every sort of mm and need，
+[Speaker 1]:  you know and want out there。
+[Speaker 1]:  um but you know，
+[Speaker 1]:  in folks are doing a pretty good job with integrating them。
+[Speaker 1]:  but again，
+[Speaker 1]:  it's a really important thing。
+[Speaker 1]:  we are actually going to be adding kind of an orchestration layer as well for sandboxes to a gateway，
+[Speaker 1]:  again，
+[Speaker 1]:  chinese at term AI gateway very loosely intentionally very elsely because in order to again，
+[Speaker 1]:  kind of make the best choices for all of the different inpoints that you're your environments，
+[Speaker 1]:  ilyyms data connectories all is her thing。
+[Speaker 1]:  uh。
+[Speaker 1]:  you really do need to kind of have a place to sort of see them all。
+[Speaker 1]:  and then a place that brings them all together，
+[Speaker 1]:  such that you can then use in the other one。
+[Speaker 1]:  so right，
+[Speaker 1]:  kind of most most universal translation later in a way。
+[Speaker 1]:  um yeah。
+[Speaker 1]:  so that's that's mostly that。
+[Speaker 1]:  and you know，
+[Speaker 1]:  like it of is a reminder here is，
+[Speaker 1]:  you know，
+[Speaker 1]:  RI maxing really，
+[Speaker 1]:  is all about maximizing choice uh to prevent locking，
+[Speaker 1]:  right？
+[Speaker 1]:  so you know，
+[Speaker 1]:  even if you don't use apperature，
+[Speaker 1]:  do highly recommend，
+[Speaker 1]:  you ststart considering AA gateway。
+[Speaker 1]:  you look at AII gaway way。
+[Speaker 1]:  it's could just beyond like actual，
+[Speaker 1]:  you know，
+[Speaker 1]:  oh，
+[Speaker 1]:  you know，
+[Speaker 1]:  i don't have to，
+[Speaker 1]:  you know，
+[Speaker 1]:  have three different providers can figuare switch betwtwen en this way。
+[Speaker 1]:  you know，
+[Speaker 1]:  it's could be beyond that，
+[Speaker 1]:  right？
+[Speaker 1]:  it's great for just you know understanding what agents are doing。
+[Speaker 1]:  even if it's just you as an individual，
+[Speaker 1]:  we have so many people who are just as an individual，
+[Speaker 1]:  they have their usage behind an ai gateway，
+[Speaker 1]:  just to have an ideas to what their agents are doing。
+[Speaker 1]:  because you know，
+[Speaker 1]:  if you running very commonly is people running something like open clown with on tail scale，
+[Speaker 1]:  and it's on their tail there。
+[Speaker 1]:  and they，
+[Speaker 1]:  and it's just running in the background and y're。
+[Speaker 1]:  like，
+[Speaker 1]:  oh my god，
+[Speaker 1]:  it did something。
+[Speaker 1]:  i'm not sure what it did。
+[Speaker 1]:  it did something。
+[Speaker 1]:  it was not supposed to do with something like an ai gate。
+[Speaker 1]:  you can actually go back and you can see and you can look，
+[Speaker 1]:  and you can tually diagnose，
+[Speaker 1]:  went wrong。
+[Speaker 1]:  what happened？
+[Speaker 1]:  um so you know it's it's not just locck and right it's actually just experimentation。
+[Speaker 1]:  and underunderstanding is all is you know，
+[Speaker 1]:  it's very important to use something like like II really lumpk way。
+[Speaker 1]:  so um that's it。
+[Speaker 1]:  uh my talk just sort ssweuh。
+[Speaker 1]:  thank you very much for attending i。
+[Speaker 1]:  this is the last taltalk here and the day。
+[Speaker 1]:  so um i hope everybody's had a really great conference。
+[Speaker 1]:  i know i love the engineerer worlspare ir，
+[Speaker 1]:  and i hope you do too。
+[Speaker 0]:  so thank you。
