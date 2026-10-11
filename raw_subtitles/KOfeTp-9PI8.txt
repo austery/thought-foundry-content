@@ -1,0 +1,611 @@
+[Speaker 0]: 美股播华尔街专利。
+[Speaker 0]: 大家好，
+[Speaker 0]: 我是李德军。
+[Speaker 0]: 你们的美股探路者、
+[Speaker 0]: 网络安全凭什么成为 AI 新王？
+[Speaker 0]: 网络安全整体年初以来已经上涨了百分之五十，
+[Speaker 0]: 是今年表现最好的软件板块，
+[Speaker 0]: 没有之一。
+[Speaker 0]: 其中，
+[Speaker 0]:  cross strike、
+[Speaker 0]:  pilloto、
+[Speaker 0]:  fourteen 等龙龙更是是有着位位的的幅。
+[Speaker 0]: 但要知道，
+[Speaker 0]: 就在年初，
+[Speaker 0]: 网络安全还被认为是最容易被 AI 颠覆的行业之一。
+[Speaker 0]: 仅仅几个月过去，
+[Speaker 0]: 市场却发生了一百八十度，
+[Speaker 0]: 转向网络安全已，
+[Speaker 0]: 然成为了 AI 时代最具爆发力的机会那。
+[Speaker 0]: 这究竟是为什么呢现？
+[Speaker 0]: 在很多人对网络安全的认识还停留在杀毒软件防火墙上可，
+[Speaker 0]: 很多人不知道的是在整 i 时代网，
+[Speaker 0]: 络安全已然发生了翻天覆地的变化就。
+[Speaker 0]: 连网络安全这个名字可能也都要被改写了而，
+[Speaker 0]: 正是这次结构性的改变为，
+[Speaker 0]: 整个行业注入了前所未有的升级有。
+[Speaker 0]: 意思的是回，
+[Speaker 0]: 看历史这，
+[Speaker 0]: 已经不是第一次暴安全行业发生结构性的改变了从 PC。
+[Speaker 0]: 时代到互联网时代再到，
+[Speaker 0]: 云计算时代每一，
+[Speaker 0]: 代网络安全都有着巨大的变化但历。
+[Speaker 0]: 史也给出了我们这么一条不变的启发那问题。
+[Speaker 0]: 来了网络安，
+[Speaker 0]: 全行业究竟发生了怎样的改变能够让，
+[Speaker 0]: 他有如此强的爆发力呢历史又？
+[Speaker 0]: 揭示了怎样的规律什么样？
+[Speaker 0]: 的公司最终能够受益呢网络安全？
+[Speaker 0]: 行业是我跟踪时间最久了解最深，
+[Speaker 0]: 的行业之一这里面也。
+[Speaker 0]: 走出大牛股今年年初。
+[Speaker 0]: 到现在我也不止，
+[Speaker 0]: 一次的给咱各位看官推荐过这个行业几次软件股的研究中我都把它，
+[Speaker 0]: 作为最看好的软件板块之一现在呢也基。
+[Speaker 0]: 本验证了我们当初的看法但问题是如，
+[Speaker 0]: 今已经上，
+[Speaker 0]: 涨了不少的网络安全还值得我们，
+[Speaker 0]: 继续投资吗今天这期视？
+[Speaker 0]: 频美特君就来给大家好好分析一下网络安全这个行业叽叽今年七月的。
+[Speaker 1]: 一个星期一一家名叫 hucgin face 的，
+[Speaker 0]: 公司炸开了锅他们发现就在刚。
+[Speaker 0]: 刚过去的，
+[Speaker 0]: 这个周末自己的公司的系，
+[Speaker 0]: 统被人大规模的入侵了 hugking face 这家公司做。
+[Speaker 0]: 的事儿有点像是一个 AI 界的论坛开发者们可以在。
+[Speaker 0]: 上面分享下载和使用各种 AI 模型全世界大部分开。
+[Speaker 0]: 源的 AI 模型和数据集都放在这里它可以说是整个，
+[Speaker 0]:  AI 行业的源头之一这样的一家公司。
+[Speaker 0]: 被人闯了进来很显然不是一件小，
+[Speaker 0]: 事儿更让人脊背发凉的，
+[Speaker 0]: 事后来发现这次入侵。
+[Speaker 0]: 从头到尾，
+[Speaker 0]: 都是由一群自主的 AI agent 来触发的这群 AI 入侵者在根 hafface 的系统折折，
+[Speaker 0]: 腾了一整周周末发起了一点万，
+[Speaker 0]: 次次击击路摸到了生产系统打，
+[Speaker 0]: 进了数据库消息，
+[Speaker 0]: 一出各界震动。
+[Speaker 0]: 甚至都惊，
+[Speaker 0]: 动了美国，
+[Speaker 0]: 参议院这背后到底是谁指。
+[Speaker 0]: 使了这次攻击会不会是？
+[Speaker 0]: 什么敌对？
+[Speaker 0]: 势力入侵美国的前哨又或是什么犯对集团，
+[Speaker 0]: 想要借此渗透进广大的美国 AI 公司呢几天后答案揭晓了这？
+[Speaker 0]: 个敌对，
+[Speaker 0]: 势力不是别。
+[Speaker 0]: 人而是 open AI 原来 open AI 倒，
+[Speaker 0]: 是在内部。
+[Speaker 0]: 做了这么一场黑客考试看 AI 能不能把一个漏，
+[Speaker 0]: 洞变成一个真正能用的攻击结果参加考试的模型。
+[Speaker 0]: 自己逃出了这个测试环境摸进了 open AI 的研究系统，
+[Speaker 0]: 找到了一台能上网的机，
+[Speaker 0]: 器跑去攻击了 hucgingface 那他们为，
+[Speaker 0]: 什么要这么做。
+[Speaker 0]: 呢没错他们呀是去偷考试？
+[Speaker 0]: 答案，
+[Speaker 0]: 的这些模型一门心思的就只想把这个，
+[Speaker 0]: 题给做出来结果测试环境内又搞不定，
+[Speaker 0]: 那怎么办呢他们推断 hacging face，
+[Speaker 0]: 上很可能会？
+[Speaker 0]: 有答案于，
+[Speaker 0]: 是他们就想尽办法跑去，
+[Speaker 0]: 那里去抄作业这才有了开头的那一幕事情，
+[Speaker 0]: 到这儿已经够离奇的了，
+[Speaker 0]: 但更夸张的还在后边后来的。
+[Speaker 0]: 调查发现参加这场考。
+[Speaker 0]: 试的大约有一千，
+[Speaker 0]: 二百个 agent 而 open AI 的设计他们呀应该是，
+[Speaker 0]: 各考各的每个，
+[Speaker 0]:  agent 都被关在自己的房间，
+[Speaker 0]: 里彼此之间是隔离的不能互相，
+[Speaker 0]: 说话可他们居然在，
+[Speaker 0]: 一个内部的软。
+[Speaker 0]: 件缓存服务里找到了互相留言的方法为了方便沟通他们更是偷偷搭。
+[Speaker 0]: 了这么一个自，
+[Speaker 0]: 己的论坛很多 agent 拿到的题做不出来于是。
+[Speaker 0]: 不知道哪个大聪明就开始，
+[Speaker 0]: 在论坛上张罗他们组织，
+[Speaker 0]: 同伴一起去作弊前前，
+[Speaker 0]: 后后发了七万多条消息他们。
+[Speaker 0]: 其实自己也知道攻击 huving king face，
+[Speaker 0]: 是超出了任务范围的，
+[Speaker 0]: 是不道德的但他们自己给自己安，
+[Speaker 0]: 排了一个高。
+[Speaker 0]: 尚的理由这么做就是为了帮助同伴于是就像，
+[Speaker 0]: 当年义和团打着扶清灭洋。
+[Speaker 0]: 的正，
+[Speaker 0]: 义旗号烧杀抢掠一样历史上第一次出现了，
+[Speaker 0]: 一帮 AI 暴徒七。
+[Speaker 0]: 百多个 AI agent 打着兄弟义气的高尚旗号合伙参与，
+[Speaker 0]: 了针对 hgking face 的黑客攻击而这，
+[Speaker 0]: 次攻击并非是个例九月媒体又曝光。
+[Speaker 0]:  open i 的一个 agent 曾绕过限。
+[Speaker 0]: 制闯，
+[Speaker 0]: 进了澳大利亚政府的一个，
+[Speaker 0]: 网站连总理，
+[Speaker 0]: 都忍不了了怒斥 open AI 同样在九月，
+[Speaker 0]: 谷歌的姆 juina 也被曝，
+[Speaker 0]: 在测试环。
+[Speaker 0]: 境中闯进了，
+[Speaker 0]: 三家真实公司的系统今年就已经，
+[Speaker 0]: 有四家大模星公司承认过类，
+[Speaker 0]: 似的案例那你说是 AI 坏吗也不是他们也不想报复。
+[Speaker 0]: 谁也不是为了真？
+[Speaker 0]: 的搞破坏单纯啊就是为了，
+[Speaker 0]: 完成一开始被指定的任，
+[Speaker 0]: 务而已，
+[Speaker 0]: 为此他们可以不择手段权限的边界别人的。
+[Speaker 0]: 系统，
+[Speaker 0]: 在他们眼里不过就是一道需要，
+[Speaker 0]: 解决的问题而已可问题是 AI 大模型本身就是个黑箱子你知。
+[Speaker 0]: 道进去的，
+[Speaker 0]: 是什么也知道出来的是什么，
+[Speaker 0]: 但他中间怎么干的干，
+[Speaker 0]: 了什么没人知道今天。
+[Speaker 0]: 他可以为了考试胜，
+[Speaker 0]: 利越狱偷答案明天。
+[Speaker 0]: 他就可以为了帮公司赢得竞争破坏对，
+[Speaker 0]: 手的系统 AI 为达目的不择手段的这，
+[Speaker 0]: 个性格正在成为。
+[Speaker 0]: 人类社会一个越来越严重的威胁而，
+[Speaker 0]: 这时咱们今天的主角就要登场了在这种情。
+[Speaker 0]: 况下网络安全就变得异常重要了传统，
+[Speaker 0]: 意义下网络安，
+[Speaker 0]: 全是干嘛的呢它呀是保护你。
+[Speaker 0]: 的电脑服务器网络和数据不被攻？
+[Speaker 0]: 击的在这个行业中其实 AI 并，
+[Speaker 0]: 不是什么新鲜事早在十几。
+[Speaker 0]: 年前黑客就已，
+[Speaker 0]: 经开始应用 AI 辅助攻击了。
+[Speaker 0]: 而声称是 AI 的，
+[Speaker 0]: 到来不过是给黑客的武器上做了一。
+[Speaker 0]: 次升级网络安全行，
+[Speaker 0]: 业本身做的事情并没有发生太大的变。
+[Speaker 0]: 化但到今天情况突然发生了改变以前那也不过是黑客，
+[Speaker 0]: 手中的一个工具默认攻击者还，
+[Speaker 0]: 是人可现在就算没有任何人类黑客参，
+[Speaker 0]: 与 agent 也能自己闯进。
+[Speaker 0]: 别人的，
+[Speaker 0]: 系统这个变化可不是一件小事儿它给网络安全行业带来了。
+[Speaker 0]: 一次彻底的需求上的重构而，
+[Speaker 0]: 这其中有这么两个最为关键的需求变化是我们投资。
+[Speaker 0]: 者必须要了解的这第一个需求变化是企业对，
+[Speaker 0]: 于自家 agent 的管理需求现在越来越多的企业要让 agent 帮自己干活为此呢他们就得。
+[Speaker 0]: 开不少的权限可就像咱前面讲的为了完成，
+[Speaker 0]: 任务会想尽各种办法去实现目。
+[Speaker 0]: 标不用黑客劫持他，
+[Speaker 0]: 自己也可能会越界比如说去看了不该看的，
+[Speaker 0]: 客户名单改了，
+[Speaker 0]: 不该改的数据库等等。
+[Speaker 0]: 等等过去安全行业防的是坏人进来，
+[Speaker 0]: 现在呢你还得防自己人乱来这。
+[Speaker 0]: 便给网络安全行业带来了一类，
+[Speaker 0]: 全新的需求去管理自己的 agent。
+[Speaker 0]: 你别以为都是管理自己人其实啊情况和以前大有不同以前员。
+[Speaker 0]: 工做事你可以每个阶段控，
+[Speaker 0]: 制他们的行为去审批去确认。
+[Speaker 0]: 过程中多少还，
+[Speaker 0]: 能停一停可 agent 是连续干活的几秒钟就能把，
+[Speaker 0]: 一件事从头做到尾等你发现他。
+[Speaker 0]: 越界了事情可能已经发展，
+[Speaker 0]: 到不可挽回的地步了他们做事的速度是人类。
+[Speaker 0]: 员工完全无法比拟的而且更加难办的是这。
+[Speaker 0]: 样的 agent 员工的数量还出奇的多而且啊在一直，
+[Speaker 0]: 快速增长专门做身份管理的公司 octa 在最新的财报中，
+[Speaker 0]: 讲了这么一个故事非常，
+[Speaker 0]: 形象他们最近碰到这么一个客户一开始呢企业环境里有五十个，
+[Speaker 0]:  agent 他们觉。
+[Speaker 0]: 得安全问题还是可控的结果，
+[Speaker 0]: 几周回去再看数量就变成了一千，
+[Speaker 0]: 五百个翻了三十倍客户自己都。
+[Speaker 0]: 说他们自己都不清，
+[Speaker 0]: 楚这些 agent 在哪儿在干什么但，
+[Speaker 0]: 凡有在工作。
+[Speaker 0]: 中用到过 agent 的看官应该都了解这个呀就是典型的企业 agent。
+[Speaker 0]: 的现状所以你看 agent 比起人类更加不，
+[Speaker 0]: 择手段而且啊他们，
+[Speaker 0]: 速度还更快数量还更多这。
+[Speaker 0]: 便给企业的安全带来了全新的挑战，
+[Speaker 0]: 也给网络安全行业带来，
+[Speaker 0]: 了全新的机。
+[Speaker 0]: 会这第二大需求的改变是企业要监控别，
+[Speaker 0]: 人派来的 agent 而这是一个更加难办的事。
+[Speaker 0]: 情以前的企业挡住外面的恶意机器人就行了所以网，
+[Speaker 0]: 络安全的防护啊主要都是针。
+[Speaker 0]: 对人来设计的比如验证码比如操作频率我。
+[Speaker 0]: 要做的就是确保屏幕后面坐着一个正常的人把机，
+[Speaker 0]: 器给拦住就，
+[Speaker 0]: 行了即便就是没。
+[Speaker 0]: 拦住他们也只是读读网页而已威胁也相对有限，
+[Speaker 0]: 但现在不同了 agent 自己。
+[Speaker 0]: 会动手做事从下单到，
+[Speaker 0]: 付款从发请求到改数，
+[Speaker 0]: 据他们都能自己。
+[Speaker 0]: 执行而最难办的，
+[Speaker 0]: 事你可不能把他们，
+[Speaker 0]: 都给拦截了你，
+[Speaker 0]: 还得啊欢迎他们进，
+[Speaker 0]: 来想象一下如果你。
+[Speaker 0]: 是一个商家你，
+[Speaker 0]: 不可能不让 agent 来你这买东西，
+[Speaker 0]: 那你得少多少客户啊是。
+[Speaker 0]: 吧但你要，
+[Speaker 0]: 是真把他们都给放，
+[Speaker 0]: 进来了呢安全问题也，
+[Speaker 0]: 会非常的严，
+[Speaker 0]: 重那怎么办呢就得专，
+[Speaker 0]: 门针？
+[Speaker 0]: 对 agent 做监控而且还得是更加细致更，
+[Speaker 0]: 加深入的监控你得知道来。
+[Speaker 0]: 的 agent 是哪儿？
+[Speaker 0]: 来的背后发指令的是谁他，
+[Speaker 0]: 的权限范围应该在哪，
+[Speaker 0]: 里这还没完当 a。
+[Speaker 0]: 镇的真正开始干活时你还得，
+[Speaker 0]: 时刻盯嘱他看清他，
+[Speaker 0]: 的每一步都在做什么会不，
+[Speaker 0]: 会越过权。
+[Speaker 0]: 限等等等等而这些就会给网，
+[Speaker 0]: 络安全行业带来新，
+[Speaker 0]: 的增长动能把这两大新的需，
+[Speaker 0]: 求放到一起你就会发现整。
+[Speaker 0]: 个网络安全行业已经发生了一次结构性的变化，
+[Speaker 0]: 以前的网络安全主要是把坏。
+[Speaker 0]: 人挡在门外门里边就算自己人不用怎么管可现在自家的 agent 在门。
+[Speaker 0]: 里头也得往死里管而门外的 agent 你也不能都给拦，
+[Speaker 0]: 住进来之后你还得再往，
+[Speaker 0]: 死里盯很显然整个网络安全的防护逻辑，
+[Speaker 0]: 已经出现了很大的变化复杂度和难度都提，
+[Speaker 0]: 升了不止一个量级。
+[Speaker 0]: 现在甚，
+[Speaker 0]: 至连网络安全这个词儿都已经名不副实了他防的，
+[Speaker 0]: 早已不是网络攻击而是一个个的有自。
+[Speaker 0]: 主行动能力的 AI agent 那么如此大的一个变化如此天。
+[Speaker 0]: 量的一个全新需求会对于，
+[Speaker 0]: 整个行业的玩家带来怎样具体的影响。
+[Speaker 0]: 呢事实上通过研究行业，
+[Speaker 0]: 历史我发现这已经不是第，
+[Speaker 0]: 一次网络安全面临如此结构性的变化了历史上曾？
+[Speaker 0]: 发生过，
+[Speaker 0]: 多次变迁那么当时，
+[Speaker 0]: 的这些变化中那些具体的公司都受到了怎样的影响呢网络安，
+[Speaker 0]: 全行业有这么一个特点就是。
+[Speaker 0]: 它的变化特别快而且每，
+[Speaker 0]: 一次都是彻头彻尾的改变这也就给其中？
+[Speaker 0]: 的公司带来了巨大的挑战网络，
+[Speaker 0]: 安全行业最初起源于，
+[Speaker 0]: 上世纪八十年代但是电脑刚刚开始，
+[Speaker 0]: 走进办公室和人家大家当时最怕的是那。
+[Speaker 0]: 些附着在各种磁盘和光盘上的病毒所以那，
+[Speaker 0]: 时候的安全主要就是给电脑上去装杀。
+[Speaker 0]: 毒软件软件里存着一些病毒的特征一旦发现了相似的就给。
+[Speaker 0]: 他拦下来那个时代有两大巨头分别是塞门铁克和麦，
+[Speaker 0]: 克菲不过很快情况就发生了，
+[Speaker 0]: 改变互联网来了随着电脑更多的联。
+[Speaker 0]: 网从外部杀进来的病，
+[Speaker 0]: 毒越来越多也越来越快不。
+[Speaker 0]: 是你记住病毒特征就能够防。
+[Speaker 0]: 护得了的了，
+[Speaker 0]: 因为很可能杀毒软件，
+[Speaker 0]: 的特征库里压根就没有它于是，
+[Speaker 0]: 啊互联网时。
+[Speaker 0]: 代这两大巨头慢慢开始掉队而崛起的是另一。
+[Speaker 0]: 种新的防护方式防火墙网络，
+[Speaker 0]: 安全的核心不再是。
+[Speaker 0]: 人盯人防守而是在电脑的门口筑起一道高墙。
+[Speaker 0]: 把电脑给守在里面这个时代的网络。
+[Speaker 0]: 安全巨头就换成了 checheck point 和 ppano auto 但好景不长，
+[Speaker 0]: 没过多久情况又变了这一次来的，
+[Speaker 0]: 是云计算公司的数据。
+[Speaker 0]: 和系统不光是在本地的电脑上了还有很大一部。
+[Speaker 0]: 分被搬去了，
+[Speaker 0]: 云端这时，
+[Speaker 0]: 你光守住电。
+[Speaker 0]: 脑的大门可就不够用了还得再守住云端，
+[Speaker 0]: 于是啊安全的思路就又得，
+[Speaker 0]: 跟着变这一次聪明的网络安全人。
+[Speaker 0]: 决定安全呀不再跟着设备走了而是要跟，
+[Speaker 0]: 着人和数据走人。
+[Speaker 0]: 拿着电脑到处跑那就守住每一台。
+[Speaker 0]: 电脑这就是 cross strack 人在哪儿都要上网那，
+[Speaker 0]: 就在云上设一道检，
+[Speaker 0]: 查站这个就是 z scale 人要登，
+[Speaker 0]: 录各种系统那就，
+[Speaker 0]: 得把登录统一管起来，
+[Speaker 0]: 这个是 octaa 数。
+[Speaker 0]: 据搬到了云上那就，
+[Speaker 0]: 帮企业把云上的东西也都，
+[Speaker 0]: 看清楚那这就，
+[Speaker 0]: 是 wits 这些公司都是，
+[Speaker 0]: 抓住了云时代这个趋势最。
+[Speaker 0]: 终的受益者所以你看这个行，
+[Speaker 0]: 业过去几十年其实一直在重复同一个。
+[Speaker 0]: 故事没换一个时代攻击的方式和入口就会彻底重构可原来领先。
+[Speaker 0]: 的那些安全公司产品还是为上，
+[Speaker 0]: 一个时代设计的慢慢就要跟，
+[Speaker 0]: 不上了而那些最早看到新威胁率先做出新产品的。
+[Speaker 0]: 公司就借着这个机会最终崛起成，
+[Speaker 0]: 为了下一个时代的巨头那，
+[Speaker 0]: 我们现在知道了 AI。
+[Speaker 0]: 时代又是一次结构性的改变那是不是又会冒出一，
+[Speaker 0]: 批新公司去颠覆现有的这，
+[Speaker 0]: 些行业龙头呢要想回答这。
+[Speaker 0]: 个问题我们就必须要先分析清楚到底 AIA 这个时代，
+[Speaker 0]: 什么类型的公司会从此次结构性变化中受益了嗯 AI agent 所带来的？
+[Speaker 0]: 这些全新的变化和，
+[Speaker 0]: 威胁有这么一条最核心的解决方案就是身份安全企业要想管住自家的 agent 最关键的一环就。
+[Speaker 1]: 是，
+[Speaker 0]: 去对他们进行身份管理你得知道他们，
+[Speaker 0]: 是谁代表着谁权限在哪才能够放心的让他们。
+[Speaker 0]: 去执行任务而我们前面，
+[Speaker 0]: 分析过 AI 时代由于 agent 为达目的不择手段的。
+[Speaker 0]: 这个性质以及它速，
+[Speaker 0]: 度快数量，
+[Speaker 0]: 多的这个，
+[Speaker 0]: 特点让身份管理的需求出现了大。
+[Speaker 0]: 规模的爆发根据大摩最新的，
+[Speaker 0]: 估算整个身份安全市场从今年的约二，
+[Speaker 0]: 百四十亿美元、
+[Speaker 0]: 到二零三零年将涨，
+[Speaker 0]: 到六百亿美元以上其中光是 a 镇身份这。
+[Speaker 0]: 一块就已经贡献了三，
+[Speaker 0]: 百三十亿而如果在最理想的情境的话甚至有可能达到一千一百亿美元四年的时间涨。
+[Speaker 0]: 到了原先的近五倍这个增长速度完全可以和 palanteer 这样。
+[Speaker 0]: 的高增长公司媲美那问题来，
+[Speaker 0]: 了最终受益的公司还会是这些现，
+[Speaker 0]: 有的龙头吗还是会像之前的每次变，
+[Speaker 0]: 迁一样长出新的挑战者呢我个人认为这次情况可能。
+[Speaker 0]: 会不一样受，
+[Speaker 0]: 益的还会是原来的那些龙头身份管理这个？
+[Speaker 0]: 生意其实并不新鲜过去企业针对员工也需要进行身？
+[Speaker 0]: 份管理确保正确的员工去访问正确，
+[Speaker 0]: 的数据而针对 a 制的身份管理本质上也，
+[Speaker 0]: 是一个逻辑真正变化的。
+[Speaker 0]: 是身，
+[Speaker 0]: 份管理的体量和复杂程度体谅好理解，
+[Speaker 0]: 刚刚咱说过 agent 速度更快数量更多这。
+[Speaker 0]: 就会带来更大的身份管，
+[Speaker 0]: 理体量而且啊 agent 还能，
+[Speaker 0]: 自己再去创建 agent 这个身份管理的监控也得。
+[Speaker 0]: 能够自动生。
+[Speaker 0]: 长而复杂程度，
+[Speaker 0]: 的话则要源，
+[Speaker 0]: 于 agent 所带。
+[Speaker 0]: 来的全新管理方式比如以前跟着。
+[Speaker 0]: 人走的身份管理可能就不够用了未来的身份管理得跟着任务走才行比如。
+[Speaker 0]: 说你是有权限去转账一百万不代表你的 agent 也有这个。
+[Speaker 0]: 权限 AI 可以去执行查看账单的权限但是真正转，
+[Speaker 0]: 账还得是由真人来批准再比如以前。
+[Speaker 0]: 要防的是人类员工被恶意邮件误，
+[Speaker 0]: 导现在你就要防 AI 被恶意误。
+[Speaker 0]: 导所以你看身份管理的本质没。
+[Speaker 0]: 变只是体量和复杂程度变化了这就。
+[Speaker 0]: 意味着，
+[Speaker 0]: 以前的那些身份管理公司们他们原有的，
+[Speaker 0]: 技术和经验是能，
+[Speaker 0]: 够为他们提。
+[Speaker 0]: 供往下一个阶段持续进化的护，
+[Speaker 0]: 城河的而且很显然做 agent 的身。
+[Speaker 0]: 份管理还是要挂在企业原有的身份体系上，
+[Speaker 0]: 没办法另起炉灶这也让转换成本变得更高更何况现在的这些网络安全巨头们。
+[Speaker 0]: 已经陆续推，
+[Speaker 0]: 出了针对 agent 的身份管理软件所以我认为老巨头仍然，
+[Speaker 0]: 会是当下最好的，
+[Speaker 0]: 投资机会那具体会有哪些。
+[Speaker 0]: 公司受，
+[Speaker 0]: 益呢下面这张图或许能给我们一些参考它来自于投行的一个行业市。
+[Speaker 0]: 场份额的调研可以看到现在的身份安全市场可以。
+[Speaker 0]: 分为三大块一块是管员人功登？
+[Speaker 0]: 录的叫做访问管理这里面最大的独，
+[Speaker 0]: 角兽公司就是 octaa 另一块是管每个人该有哪。
+[Speaker 0]: 些权限的，
+[Speaker 0]: 叫做身份制龙头是 sale point 还有一块专门，
+[Speaker 0]: 管那些权限最高的账号叫做特权访问。
+[Speaker 0]: 这里面做的最大的叫 cyber arc 不过这，
+[Speaker 0]: 家公司现在已经被 palauto 收购了 agent 时代，
+[Speaker 0]: 带来的第二大投资趋势，
+[Speaker 0]: 是平台化在网络安全内部一直存在着，
+[Speaker 0]: 两种战略路线。
+[Speaker 0]: 一种是各买最好的业内叫做。
+[Speaker 0]:  best of，
+[Speaker 0]:  breed 防火墙终端身份每个环节都。
+[Speaker 0]: 分别选一个领域内最强的供应商而另一。
+[Speaker 0]: 种则是一家买一套业内叫做 best of sweet 也就是。
+[Speaker 0]: 所谓的平台化尽可能的从同一家供应商那里。
+[Speaker 0]: 去采购全套的产品这两条路线各有利弊 best of breed 的优势，
+[Speaker 0]: 是每个环节都能用上最好，
+[Speaker 0]: 的产品不依赖单，
+[Speaker 0]: 一的供应商劣势则是产品多整合难管理成本高 best of street 则正好相反优势是。
+[Speaker 0]: 产品之间无缝协作管。
+[Speaker 0]: 理简单成本更低劣势则是单项产品未必都是最，
+[Speaker 0]: 强的这两条路线在行业，
+[Speaker 0]: 内部争论了很多，
+[Speaker 0]: 年一直，
+[Speaker 0]: 都没有一个。
+[Speaker 0]: 定论而实际情况中，
+[Speaker 0]: 我们看到的是过去 best of breed，
+[Speaker 0]: 是占据上，
+[Speaker 0]: 风的因为一。
+[Speaker 0]: 直以来威胁的边界都比较清晰企业大致都知道。
+[Speaker 0]: 要守住哪几个入口攻击啊，
+[Speaker 0]: 也多半集中在某一个。
+[Speaker 0]: 环节单点的防，
+[Speaker 0]: 护能力往往是，
+[Speaker 0]: 更为重要的所以每个入口，
+[Speaker 0]: 都买最强的那家产品就比较合理这也是，
+[Speaker 0]: 为什么这个行业长期以来都是一条一条的，
+[Speaker 0]: 细分赛道每条赛道都各有。
+[Speaker 0]: 一个龙头的原因而现在随着 AI agent 时，
+[Speaker 0]: 代的到来这个争论基本已经尘埃落定了而答案转。
+[Speaker 0]: 向了平台化 AI 时代攻击会变得越来越多变化也会变得越来，
+[Speaker 0]: 越快这种情况下你在人为的去选。
+[Speaker 0]: 择重点，
+[Speaker 0]: 防护对象就有点跟不，
+[Speaker 0]: 上趟了那这就需要一整套防守阵。
+[Speaker 0]: 容他们相互配合快速，
+[Speaker 0]: 的做出防御变化才能够守住，
+[Speaker 0]: 阵地这时平台化就变成。
+[Speaker 0]: 了一个更加，
+[Speaker 0]: 灵活也更加安心的选择而这也盖括，
+[Speaker 0]: 了企业被单一供应。
+[Speaker 0]: 商绑定的那个担忧所以我们，
+[Speaker 0]: 看到过去这段，
+[Speaker 0]: 时间整个行业出现了，
+[Speaker 0]: 一大波并高潮光。
+[Speaker 0]: 是身份安全领域就宣布了十四笔规，
+[Speaker 0]: 模可观的收购也因为。
+[Speaker 0]: 这次尘埃落定的趋势在于平台化之前随着时代更。
+[Speaker 0]: 迭不断变化新，
+[Speaker 0]: 王的这个逻辑，
+[Speaker 0]: 恐怕要就此失效了因为新王的。
+[Speaker 0]: 诞生往往是从单一赛道崛起的新玩家干掉了守着老。
+[Speaker 0]: 赛道吃红利的旧玩家可这一次打法变了不。
+[Speaker 0]: 再是新赛道而是整合体育场，
+[Speaker 0]: 这就给了这帮老龙头们巨大的优势。
+[Speaker 0]: 而在这一趋势下，
+[Speaker 0]: 受益的公司就显而易见了行业内当，
+[Speaker 0]: 前最大的两家走平台化的公司分别。
+[Speaker 0]: 是 peloauto 和 ross track 他们有，
+[Speaker 0]: 望成为这轮份，
+[Speaker 0]: 额增长最大的赢，
+[Speaker 0]: 家说了这么多需求端咱也得再讲讲风。
+[Speaker 0]: 险这个行业最大，
+[Speaker 0]: 的一个风险就是年初市场。
+[Speaker 0]: 最担心的那个问题大模型们会不会自己下场帮网络安全，
+[Speaker 0]: 公司的饭碗给抢走我个人认为啊这个风险。
+[Speaker 0]: 确实存在但是并没，
+[Speaker 0]: 有市场担心的那么。
+[Speaker 0]: 大首先现在大模型公司在安全上做的这些主要是找漏洞分。
+[Speaker 0]: 析代码这些事但网络安全公司的核心业务则完全不同他们？
+[Speaker 0]: 现在是部署在客户的环境里七乘，
+[Speaker 0]: 二十四小时的监控并且去处置。
+[Speaker 0]: 潜在，
+[Speaker 0]: 的问题比观看漏洞本身要复杂的多而且很多的判、
+[Speaker 0]: 断都需要 agent 运行，
+[Speaker 0]: 的过程中实时去做如果要用大模型来做的。
+[Speaker 0]: 话延迟和成本就都不合适那现在，
+[Speaker 0]: 大模型公司没做未来会，
+[Speaker 0]: 不会派出万难去进场呢我认为啊也很难因为这里面，
+[Speaker 0]: 有一个不可逾越的障碍就是利益冲突 agent 是他们自己。
+[Speaker 0]: 做的再由他们自己来盯着，
+[Speaker 0]: 自家的 agent 有没有问题这。
+[Speaker 0]: 本身就不合理这就好比，
+[Speaker 0]: 是你既当运动员又当裁判员哪？
+[Speaker 0]: 怕就是企业愿意，
+[Speaker 0]: 监管也不一定会答应因为网络安全毕，
+[Speaker 0]: 竟是一个背后。
+[Speaker 0]: 有政府监管的行业，
+[Speaker 0]: 事实上现在大模型公司们就更多的是选择，
+[Speaker 0]: 和安全公司合作。
+[Speaker 0]: 而不是竞争 anthropic 就拉着一批网络安全公，
+[Speaker 0]: 司用他自己的模型一起，
+[Speaker 0]: 去找漏洞首批合。
+[Speaker 0]: 作方里面就有 cross strike 和 palauto 所以我认为大模型更可能。
+[Speaker 0]: 给网络，
+[Speaker 0]: 安全行业带来一个更大的市场而不是去取代这些平，
+[Speaker 0]: 台最后我们来回答视频已开始的那个问题，
+[Speaker 0]: 现在这个位置的网络安全还能，
+[Speaker 0]: 投资吗是的行业确实已经发生了。
+[Speaker 0]: 巨变 AI 也确实给行业带来了新的增长动能而最有可能受益的也，
+[Speaker 0]: 确实是这帮老家伙们但。
+[Speaker 0]: 问题是这些公司普遍都已经涨了很多了。
+[Speaker 0]: 现在还有增长空间吗这里啊我想先给大？
+[Speaker 0]: 家看，
+[Speaker 0]: 看 cross track 在此前投资演讲会，
+[Speaker 0]: 上的几张图这张是云计算时代云厂商，
+[Speaker 0]: 和网络安全的发展可以看到是云计算先发。
+[Speaker 0]: 展起来随，
+[Speaker 0]: 后才轮到网络安全这说明企业是把，
+[Speaker 0]: 数据先搬上了云出了？
+[Speaker 0]: 问题后才开始回来再补网络安全服务但 AI 时代这条路恐怕是。
+[Speaker 0]: 行不通了因为现在啊，
+[Speaker 0]: 不管是大模型还是企业乃，
+[Speaker 0]: 至是政府都已经深刻的意识到，
+[Speaker 0]: 安全问题将会是 AI 应。
+[Speaker 0]: 用中的重中之重现在绝不能像，
+[Speaker 0]: 云时代那样先发展起来 AI 再事后找吧因为后果。
+[Speaker 0]: 实在是太严重了 hugin face 就是前车之。
+[Speaker 0]: 鉴那么安全就已然成为了 AI 能不能，
+[Speaker 0]: 用起来的一，
+[Speaker 0]: 个前提而很显然现在的安全问题已经成为了一个卡脖子的。
+[Speaker 0]: 点企业能拥用多少 AI 甚至大模型还能不，
+[Speaker 0]: 能继续进步都。
+[Speaker 0]: 要受到 AI 安全的限制你还。
+[Speaker 0]: 记得上一个 AI 卡脖，
+[Speaker 0]: 子的地方是什么吗没错正是芯片因而我们也看到了。
+[Speaker 0]: 芯片股大，
+[Speaker 0]: 规模的爆发而在我看来网络安全也是一个道理，
+[Speaker 0]: 这背后的核心是 AI，
+[Speaker 0]: 巨大的需求那么任何卡住这个，
+[Speaker 0]: 超大需求的瓶颈就都是。
+[Speaker 0]: 好的投资方向那估值怎么办呢这也是很多投？
+[Speaker 0]: 资者，
+[Speaker 0]: 现在最担。
+[Speaker 0]: 心的一点老实说现在这个板块的估值确。
+[Speaker 0]: 实不便宜如，
+[Speaker 0]: 果你只看 ETF 还好现在只。
+[Speaker 0]: 有五倍的 PS 但如果你看个股的。
+[Speaker 0]: 话很多公司的 PS 都朝着二三十倍甚，
+[Speaker 0]: 至更高的方向去了很多。
+[Speaker 0]: 也已经此此实实？
+[Speaker 0]: 的来到了他们的历史高位但在我看来。
+[Speaker 0]: 目前这，
+[Speaker 0]: 个高估值其实是有一定的合理性。
+[Speaker 0]: 的并且也不会阻止，
+[Speaker 0]: 这些公司的股价继。
+[Speaker 0]: 续上涨 agent 时代是一次，
+[Speaker 0]: 前所未有的改变也带来了前所未有的需求那么再拿过去的，
+[Speaker 0]: 估值比显然就有些偏颇了现在网络安全中。
+[Speaker 0]: 的受益标的，
+[Speaker 0]: 也就是我们上面提到的那两大趋势下的受，
+[Speaker 0]: 益标的从某种角度上来讲更像是一个从零。
+[Speaker 0]: 长出来的新兴产业这样的公司天，
+[Speaker 0]: 然就会有更高的物质而且。
+[Speaker 0]: 从公司业绩的角度来看，
+[Speaker 0]: 受益赛道的这些标。
+[Speaker 0]: 的他们的业绩确实都是在加，
+[Speaker 0]: 速增长而从金融模型的角度上来推导收入加速阶段。
+[Speaker 0]: 估值也理应会有所，
+[Speaker 0]: 提升这是所有加速阶段的股票都会。
+[Speaker 0]: 发生的现象而之所以收入加速还有。
+[Speaker 0]: 一个很重要的原因就在于证，
+[Speaker 0]: 的时代让网络安全的收，
+[Speaker 0]: 费方式发生了改变从之前的按人。
+[Speaker 0]: 头按设备的收订阅费变成了现在的，
+[Speaker 0]: 按量收费，
+[Speaker 0]: 这个趋势咱们之前讲过。
+[Speaker 0]: 很多遍按量收费配合上需求的高速增长收。
+[Speaker 0]: 入就会加速比如 cross stack，
+[Speaker 0]: 他们保护 AI 的产品 AIDR 现在就已经直接按 token 收费了上市三个季度的时间 ARR 就。
+[Speaker 0]: 增长了七十九倍，
+[Speaker 0]: 那综合来看我个人，
+[Speaker 0]: 现在仍然是非常看好网。
+[Speaker 0]: 络安全这个板块的如果你也认可，
+[Speaker 0]: 这个赛道可以考虑行业 ETFCIBR 或者是，
+[Speaker 0]:  HACK 而具体的收。
+[Speaker 0]: 益个股我，
+[Speaker 0]: 在前面的两大趋势中也已经都做过介绍而我们美，
+[Speaker 0]: 投团队对于其中一家，
+[Speaker 0]: 做了非常深度的调研它。
+[Speaker 0]: 也是我个人，
+[Speaker 0]: 目前最为看好的网络安全标的它上行潜力惊人风。
+[Speaker 0]: 险又相对同行来说比较，
+[Speaker 0]: 可控在美特 pro 中我不仅全，
+[Speaker 0]: 面介绍了其基本面，
+[Speaker 0]: 提供了明确的买卖依据未来还会持续跟踪它。
+[Speaker 0]: 的变化给出明确的买卖观点的更新而在下周一即将，
+[Speaker 0]: 发布的 meate pro 视频中我还会再介绍一家即将崛，
+[Speaker 0]: 起的网络安全股，
+[Speaker 0]: 作为每月固定的挖掘新机会感兴。
+[Speaker 0]: 趣的看官欢，
+[Speaker 0]: 迎订阅美图 pro 新用户前七天免费试用快来体验一下，
+[Speaker 0]: 吧投美股上美投中文美股第，
+[Speaker 0]: 一投研品牌。
+[Speaker 0]: ，
+[Speaker 0]: 。
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 0]: 。
+[Speaker 0]: 。
