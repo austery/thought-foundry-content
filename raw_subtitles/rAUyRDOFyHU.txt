@@ -1,0 +1,290 @@
+[Speaker 0]:  hello，
+[Speaker 0]:  everyone，
+[Speaker 0]:  and welcome my name is edl。
+[Speaker 0]:  analalgzi hobby will represent the air blooatform experience theme outflower。
+[Speaker 0]:  our core mission is to build practical agentic infrastructure that epowers her sovereiggn ers，
+[Speaker 0]:  while following our established engineering standards and practices today will share how structure ture work。
+[Speaker 0]:  lolotomations delivers real ensurprise value，
+[Speaker 0]:  ensuring control safety and reliability acacross our development process before we dive into the deep technical details of our AI platform。
+[Speaker 0]:  let us give you some essential context about flower。
+[Speaker 0]:  flower are is build to process the worldmost complex payments across global industries like education，
+[Speaker 0]:  health care，
+[Speaker 0]:  counoues and business services。
+[Speaker 0]:  today，
+[Speaker 0]:  we serve over five thousand clients across more than two hundred and four a countries around the world。
+[Speaker 0]:  today，
+[Speaker 0]:  we process high voluent international transactions，
+[Speaker 0]:  regulatory compliance，
+[Speaker 0]:  privacy and security are no optional atams。
+[Speaker 0]:  they are core requirements of our business。
+[Speaker 0]:  we operate under strict compliance frameworks like BCIDSS and sock，
+[Speaker 0]:  too。
+[Speaker 0]:  this means that customer data，
+[Speaker 0]:  personal identification and payment details must remain completely safe。
+[Speaker 0]:  we cannot simply take sensitive context and basble to third party services without strict governance and architectural boundaries。
+[Speaker 0]:  to give you an idea of our engineer and organization。
+[Speaker 0]:  we have around hundreds of engineers distribubuted globally across our teams。
+[Speaker 0]:  we maintain diverse technology tax，
+[Speaker 0]:  including java ruby，
+[Speaker 0]:  go bython on ddnet and BHB。
+[Speaker 0]:  almost everything we build and run is they played on victoria，
+[Speaker 0]:  our internal platforms，
+[Speaker 0]:  a surveys that operates on top of guidlob and AWUS infrastructure victoria provides standardize build pipeline and consistent deployment practices。
+[Speaker 0]:  so how did our AI journey begin about six months ago？
+[Speaker 0]:  back in april，
+[Speaker 0]:  we formally establish to dedicated AI platform experience team。
+[Speaker 0]:  even before that，
+[Speaker 0]:  fashionate engineers across fyware were already experimenting with AI tools，
+[Speaker 0]:  creating skills building MCP servers and assembling an early correview bot that organic activity proof that our engineers wanted AAI automation。
+[Speaker 0]:  it also showed that we needed a dedicated team to provide infrastructure for safe unreliable agenentic solutions。
+[Speaker 0]:  since then，
+[Speaker 0]:  we have moved fast with close to a thousand committee to our internal too，
+[Speaker 0]:  but the industreet does not stop in the same six months。
+[Speaker 0]:  cloth code alone publish more than one hundred and sixty releases almost one per day，
+[Speaker 0]:  and the major ai lapse release more than twenty new models every week brings a new model and a new tool or a new way of working。
+[Speaker 0]:  our challenge is not only to be ill fast，
+[Speaker 0]:  but to keep up。
+[Speaker 1]:  this brings us to warit alto ilkilar。
+[Speaker 1]:  all it is an internal platform that eliminates ily ily engineering rapiid loops incluinclualalamms digally into a structure warffloinstead of letting AI aliens frefree ly open and opopbears deterministic code s open，
+[Speaker 1]:  ly rerepepedy procesure logic into cold。
+[Speaker 1]:  and we klam，
+[Speaker 1]:  although only where reasoning is actually neither when we evaluated，
+[Speaker 1]:  whether to be or buy building in house made complete sense for our environment from their models made feature development really fast as a arastically loweers。
+[Speaker 1]:  the cost of a custom platform，
+[Speaker 1]:  more importantly，
+[Speaker 1]:  as a financial enterprise handling PCIBAI and BHI data keeping execution inside our existing victoria in structor，
+[Speaker 1]:  ensures that sensitive data never leaves our control environment。
+[Speaker 1]:  we also keep long bender security reviews and extra compliance war。
+[Speaker 1]:  so what does a word flow actually look like？
+[Speaker 1]:  every agentine orit is they fine in a single jaml file that leaves in a reposititory that goes through the same merrito request review as any other gode take our code review，
+[Speaker 1]:  a enthe ent example。
+[Speaker 1]:  it starts with a trigger。
+[Speaker 1]:  i will like wer hook that fires when an engineer mentioned that review，
+[Speaker 1]:  both on a mercy quest from there，
+[Speaker 1]:  a sequence of the terminisistic activities featches the mermerc west mealiata classifies it risk tear loadprior findings and clowes the reposiitory。
+[Speaker 1]:  finally，
+[Speaker 1]:  we call the model in another m step that can read code，
+[Speaker 1]:  but has no permission to modidiy，
+[Speaker 1]:  and that must answer wer an a strict opposchema。
+[Speaker 1]:  finally，
+[Speaker 1]:  another terministitica step pose the findings back to the market request。
+[Speaker 1]:  this is what we mean by poor flows，
+[Speaker 1]:  not out of pilot，
+[Speaker 1]:  cold handles the predictable parts，
+[Speaker 1]:  and the model is called only where reasoning is actually needed。
+[Speaker 1]:  we choose to start with genamal files，
+[Speaker 1]:  and i'm a request review process on purpose ymel。
+[Speaker 1]:  it's a forformat oriengineers are really know，
+[Speaker 1]:  and the review works the way they already work every day。
+[Speaker 1]:  it also keeps the cold base AI friendly goding aliens can read right ite review waterful definitions as easily as people can。
+[Speaker 1]:  however，
+[Speaker 1]:  not every use case comes from an engineering team for corporate。
+[Speaker 1]:  these cases，
+[Speaker 1]:  we are considering an offering tool in the ordit ui，
+[Speaker 1]:  where people can be a warfflow by dragging and dropping from a set of pretty fed activities without writing in yanna。
+[Speaker 1]:  a word flow can start in three ways。
+[Speaker 1]:  engineers another system can call orbits internal IPI directly or using our internal CAI wef hooks from gaid lab g dda，
+[Speaker 1]:  a century and aof AUS。
+[Speaker 1]:  a started that workfu from the moment something happens，
+[Speaker 1]:  such as a humanous request or a new production eror，
+[Speaker 1]:  a schedule jobs run war flooks on a fixed gaatent like our daily translation things feature flag giggapps and know its space refreshes beyond these interpoints。
+[Speaker 1]:  we are gatherly building an MCP serservver for all with so that the other AI services and don't we use a ca fly wire can start worthloolooyditically。
+[Speaker 1]:  for example，
+[Speaker 1]:  an engineer will be able to ask clothes in a lack through cloclothtag g to run an order ward floor without ever living。
+[Speaker 1]:  deverversawe will start this small with clear high impact use cases。
+[Speaker 1]:  first，
+[Speaker 1]:  the day engineering work automaical reviews of magic west on our victoria appgurates agent，
+[Speaker 1]:  which fifies es victoria in the findings，
+[Speaker 1]:  automatically sad on translations。
+[Speaker 1]:  one word float now handles the full cycle。
+[Speaker 1]:  it fits es the new swings，
+[Speaker 1]:  thus let them updates the files nonofes the teams with the updated dogs third production errors a cenary worccook。
+[Speaker 1]:  it starts the centry mistigator。
+[Speaker 1]:  it assessses the issue，
+[Speaker 1]:  both assessment is lack and shares the mayor request with a fix in the same place on the support side，
+[Speaker 1]:  ticketas classifies new tickets and roots them to the right and genering area。
+[Speaker 1]:  i have reading ings，
+[Speaker 1]:  a score gards measures who ready a reposititory ase for AI assisted development and a fixer acts on the findings。
+[Speaker 1]:  finally，
+[Speaker 1]:  the generimpimplementer takes a ticket and turns it into a mercy west。
+[Speaker 1]:  it works like a small toward factory on the biggest benefits that we found is that we can make changes embbolc across many repolicy tories that lets us do soofer engineering a scale。
+[Speaker 1]:  it is very convenient for me，
+[Speaker 1]:  my ressians library，
+[Speaker 1]:  updates and depregations，
+[Speaker 1]:  and we also use it to run blood doctor and to lunch our own air reading t coirker。
+[Speaker 1]:  even with all this automation，
+[Speaker 1]:  the meyory request is a still our unit of work，
+[Speaker 1]:  and it is what a human stays in the loop。
+[Speaker 1]:  we operating an regulated environment。
+[Speaker 1]:  so people still review and approve those meyd request。
+[Speaker 0]:  let's take a deeper look on the technical architecture of orbit。
+[Speaker 0]:  originally，
+[Speaker 0]:  we began with a simple container set up on AWUSECS fargain，
+[Speaker 0]:  where the orgistration layer harneicks on the runtime environment lived inside the same container。
+[Speaker 0]:  as our needs grew。
+[Speaker 0]:  we both wewere separating their ministration layer，
+[Speaker 0]:  the agent runtime environment and the session stayed into distinct components。
+[Speaker 0]:  this improves isolation，
+[Speaker 0]:  maininability and resource allocation。
+[Speaker 0]:  it also makes the system more resililian because an error in the efference that's not kill the ssembbox，
+[Speaker 0]:  and it lets us scale each bees independently and adapt to chanchange in requirement。
+[Speaker 0]:  farget lets us scale task，
+[Speaker 0]:  elastic ticme。
+[Speaker 0]:  so we can run a very large number of agents in parallel。
+[Speaker 0]:  it was also really easy to replay urban because we are really have victorium are passed that scale applications without any effort，
+[Speaker 0]:  but that scale needs garrails。
+[Speaker 0]:  so the platform is not be used。
+[Speaker 0]:  first time out，
+[Speaker 0]:  every agents stops after our configurable amount of time。
+[Speaker 0]:  second，
+[Speaker 0]:  ray limits，
+[Speaker 0]:  which are aggressive by defo a broken api integration，
+[Speaker 0]:  could start sponding thousands of agents and make our baill much bigger their limits，
+[Speaker 0]:  keep that under control third concurrently control with control plane uses ers luks for prevent the duplicated executions of the same task。
+[Speaker 0]:  for example，
+[Speaker 0]:  if i control planuses the running to prevent the appplicor request，
+[Speaker 0]:  running agents is have，
+[Speaker 0]:  victoria comes with container limits。
+[Speaker 0]:  victoria used to stundard fargae tastic initions。
+[Speaker 0]:  so the containers are lightwway entireer restricted。
+[Speaker 0]:  our baseline agent container includes the common language runtimes，
+[Speaker 0]:  but it intentionally leaves out package managers like bunder，
+[Speaker 0]:  mavin and composer。
+[Speaker 0]:  so heavy agents like our geery implementor cannot easily run native bills or unit test inside the container when we start orbit in april AWUS ondon micrrov。
+[Speaker 0]:  ms did not excess yet im the US leasase them in june。
+[Speaker 0]:  so our first version run only on farget。
+[Speaker 0]:  these are manage micrrobims that work like lon，
+[Speaker 0]:  the functions，
+[Speaker 0]:  resmovel processes，
+[Speaker 0]:  so they can pause and continue where they stop。
+[Speaker 0]:  that fits the nature of agenda，
+[Speaker 0]:  execution really well。
+[Speaker 0]:  so we now use them with a runtime chosen by project type。
+[Speaker 0]:  each text tag gets its own tchin quickly in a isolated environment。
+[Speaker 0]:  these are not full some boxing yet，
+[Speaker 0]:  and we are actively moving there。
+[Speaker 0]:  the goal is to support setups like docering docker or multiple microroyams。
+[Speaker 0]:  so agents can run test or more complex verifications on any repository inside each allamps that we did not build our own harness。
+[Speaker 0]:  instead，
+[Speaker 0]:  we reuse the cloud agents SDK the same harness that power sload code。
+[Speaker 0]:  this gives us much，
+[Speaker 0]:  much well well tested harness with two usage saabagines some skills out of the bubs。
+[Speaker 0]:  so we can focus on the worffloor rather than the plulument。
+[Speaker 0]:  what we add on top is control。
+[Speaker 0]:  we restrike ght different things for for every step。
+[Speaker 0]:  the network，
+[Speaker 0]:  the ent can can ach ach tools。
+[Speaker 0]:  it p can call the skills it can load，
+[Speaker 0]:  and the MCP service it can use down to the specific tools allowed from inserver。
+[Speaker 0]:  all of this is a clar in the yammfile ile itself。
+[Speaker 0]:  a aase step，
+[Speaker 0]:  for example，
+[Speaker 0]:  can read and search the code，
+[Speaker 0]:  but cannot edit filor push changes，
+[Speaker 0]:  and our central investigator can quate traces through our MCP server，
+[Speaker 0]:  but only with a short list of great only tools in practice，
+[Speaker 0]:  each of them step runs with only the axidess and the acxey basicble unreviewable，
+[Speaker 0]:  like any other code skills themselves come from a single place at fyware。
+[Speaker 0]:  we maintain the central repostory of skills that is publish eternally as a cloud coppggin marketplace，
+[Speaker 0]:  an orbit connects to that marketplace at bill time。
+[Speaker 0]:  this means the same skills works in two places。
+[Speaker 0]:  an engineer can run it in clot code on their laptop。
+[Speaker 0]:  an orbit can run it inside an automtomated worworflow that share foundation also shapes。
+[Speaker 0]:  our recommendation to teams start with the skill。
+[Speaker 0]:  skill is cheap to right，
+[Speaker 0]:  easy to it，
+[Speaker 0]:  rate on and useful from day one。
+[Speaker 0]:  once a team is sure that a task is worth automating，
+[Speaker 0]:  we move into orbit and turn it into warklobe。
+[Speaker 0]:  their predictable parts become determiniacy code，
+[Speaker 0]:  the model is called only worried that's value，
+[Speaker 0]:  and each run becomes more reliable and less expensive than an open and ded session。
+[Speaker 0]:  workclothes also run in the background。
+[Speaker 0]:  so engineers do not have to sit with an open session and guided step by step。
+[Speaker 0]:  that means less contact switching and more time for the work that needs them。
+[Speaker 0]:  beyd runtime isolation。
+[Speaker 0]:  we also rely heavily on structure output the guarantee issemic reliability every LM step in an orbit workflow，
+[Speaker 0]:  enforces street jays and schemas for modeal responses by constraining output formats。
+[Speaker 0]:  we ensure that subsequent execution branches，
+[Speaker 0]:  error handling and state transitions are driven by terministic control flow rarather than unpredictable string parsing if analym responds fails validation against the expected dasan schema orbit，
+[Speaker 0]:  automatically triggers a targeted retried or full back past before proceeding。
+[Speaker 0]:  another crucial pattern will rely on is isolated component evaluation，
+[Speaker 0]:  evaluating complex and to an agentic workflows in synthetic benchmarkets environments is often noisy，
+[Speaker 0]:  expensive and difficult reproduce consistently。
+[Speaker 0]:  instead of trying to evaluate and type workloes from start to finish our evaluation，
+[Speaker 0]:  harneis isolates individual alerm steps by injecting exact historical state and context directly into specific worthfone notes。
+[Speaker 0]:  we can evaluate model output quality，
+[Speaker 0]:  measure prim adjuments ments and catch perperformance regresons quickly and cost effectively。
+[Speaker 0]:  so how do we know the managent is good enough today，
+[Speaker 0]:  a new agent usually reachhes production after a bife check the team tries it on a furial cases and confirms that he behaves suspected。
+[Speaker 0]:  once it runs in production。
+[Speaker 0]:  we trace every execution and to and with open telietary，
+[Speaker 0]:  including chectivity model call and toocall。
+[Speaker 0]:  we then extract traces from real executions are nothing to a golden dataset for now。
+[Speaker 0]:  each golden dataset is version in the ripper story next to the code，
+[Speaker 0]:  and we write on the mand。
+[Speaker 0]:  based on those results，
+[Speaker 0]:  we improve the prom or chance of model，
+[Speaker 0]:  and we run the data et et again，
+[Speaker 0]:  to compare。
+[Speaker 0]:  we do not have only evaluations yet，
+[Speaker 0]:  but we are working on them internally。
+[Speaker 0]:  our goal is to run the whole evaluation。
+[Speaker 0]:  look inside our orbit from the UI or through the mc p server。
+[Speaker 0]:  first，
+[Speaker 0]:  you deploy your agent，
+[Speaker 0]:  then you monitor and evaluate this execution in production。
+[Speaker 0]:  finally，
+[Speaker 0]:  you improve the agent based on those evaluations without the need to deploay it again，
+[Speaker 0]:  that is our ruma for evaluuation one to shape measure and improably worthflow。
+[Speaker 0]:  the operational impact of this approach has been significant across our engineering organization。
+[Speaker 0]:  the bus thirty days days alour automated code review agent complete over nine thousand seven hundred rounds，
+[Speaker 0]:  averaging on the three minutes per match request beyond coreview。
+[Speaker 0]:  our audit fixer open a hundred and fifty nine months request to fix vulnerable dependences on the aid red eniness fixer improve around eighty reorsitories。
+[Speaker 0]:  the victoria linter fixer fix four hundred and thirty projects，
+[Speaker 0]:  and the merch conflict was over，
+[Speaker 0]:  run nine hundred and twenty one times across these workcloes will run over eleven thousand executions with a nineteen nine percent success，
+[Speaker 0]:  right，
+[Speaker 1]:  reflecting our journey adopting a salll service model was one of the best decisions we've made a standard of scotrates allo engineers across assaari，
+[Speaker 1]:  security ID and support to build custom worldful ressteps easily and safely。
+[Speaker 1]:  we also learn that cocontrol l starts with model election，
+[Speaker 1]:  not arearea step needs the most scapable model。
+[Speaker 1]:  so it's eleelem step in a workflow deglres its own model。
+[Speaker 1]:  for example，
+[Speaker 1]:  a planning step and an implementation of step can use different models，
+[Speaker 1]:  matching the model to the task k keeps cost on the control，
+[Speaker 1]:  and it is why i cost awed model。
+[Speaker 1]:  rouder is is in our rout。
+[Speaker 1]:  on the other hand，
+[Speaker 1]:  managing data separation remains an ongoing responsibility。
+[Speaker 1]:  women tain a strict isolation between engineing SDLA data，
+[Speaker 1]:  corporate operational data and sensitive payment pollution data。
+[Speaker 1]:  additionally，
+[Speaker 1]:  because demand for automation is high，
+[Speaker 1]:  maintaining focus and breadtizing high impact ork is essential。
+[Speaker 1]:  looking ahead，
+[Speaker 1]:  our robot focuses on expanding our platform features and increasing overall architecture flexibity。
+[Speaker 1]:  we are actively moving towards a complete sound boxing。
+[Speaker 1]:  so i yeans can handle complex fields，
+[Speaker 1]:  local environments and this sweet simously across all projeattacks moving forward。
+[Speaker 1]:  we are also introducing resumer able sessions to come the complex modest step task。
+[Speaker 1]:  we are also building moderevaluation ooools difficult to orbit，
+[Speaker 1]:  so things can make sure they quality go their wordflows on the platform itself in bottleo。
+[Speaker 1]:  we have refaccted ted our acquisiintional layer to be model eleagnostic，
+[Speaker 1]:  enabling flexible routing across diffedifferent model vendows，
+[Speaker 1]:  including unautomated model router that select the most cost effective model for its desk that will help us control cost as we keep scaling the platform。
+[Speaker 1]:  we also want to make the platform harness signnostic so that we are not typed to a single harness to rub up here there，
+[Speaker 1]:  three things swella。
+[Speaker 1]:  first，
+[Speaker 1]:  it starts small pick at a petitive wealdefined desk。
+[Speaker 1]:  and prove with words before you skcape second use the model only where it adds value。
+[Speaker 1]:  everything predicttible is face as gold，
+[Speaker 1]:  and that is what keeps the workloes fly over on third，
+[Speaker 1]:  keep gatheries and humans in the loop。
+[Speaker 1]:  oh，
+[Speaker 1]:  ness limits and medly st reviews that，
+[Speaker 1]:  that is how we move from AI experiments。
+[Speaker 1]:  the wordflows are engineerings use every day。
+[Speaker 0]:  thank you so much for your time and attention today，
+[Speaker 0]:  feel free to reach out too。
+[Speaker 0]:  i think is you have further questions or comments。
