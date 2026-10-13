@@ -1,0 +1,939 @@
+[Speaker 0]:  designers have struggled with how much do we narrow along the way what is happening？
+[Speaker 0]:  it's it's quite obvious to the user so that latency doesn't feel so painful。
+[Speaker 0]:  my experience in the use use up is i do like that progressive disclosure as one thing things i call up in our review。
+[Speaker 0]:  it also just fast。
+[Speaker 0]:  it is just fast。
+[Speaker 1]:  if you are a engineer，
+[Speaker 1]:  you may want to know exactly what your your agent has done，
+[Speaker 1]:  and you can find that engnews。
+[Speaker 1]:  but if you're a normal person，
+[Speaker 1]:  you maybe just want to know like，
+[Speaker 1]:  is it doing something？
+[Speaker 1]:  so at the top，
+[Speaker 1]:  it'll you，
+[Speaker 1]:  if working，
+[Speaker 1]:  i'm very happy with our solution currently because we've sort of like exposed the benefit of the main chat to people。
+[Speaker 1]:  but i feel like there's a lot more that we could do in terms of helping people organize。
+[Speaker 1]:  i had a blog twenty years ago，
+[Speaker 1]:  and i had marlogo go and find it and then accumulated them into one pedia first。
+[Speaker 1]:  but the way that i like to read it now，
+[Speaker 1]:  just again，
+[Speaker 1]:  for memory is via a podcast，
+[Speaker 1]:  and use is able to take it and just like reform it into a way that's like really interested and useful for me when your news is being opinant。
+[Speaker 0]:  what is your prompting strategy？
+[Speaker 0]:  what do you do？
+[Speaker 0]:  welcome back to how IAI？
+[Speaker 0]:  i'm clear，
+[Speaker 0]:  vo product leader and AI obsessive here on emission to help you build better with these new tools today。
+[Speaker 0]:  we have alex cornell sign director or metd's news，
+[Speaker 0]:  and he's here to talk a little bit about how to design a great agent experience for consumers and a little bit more about some medammuuse use cases。
+[Speaker 0]:  you might not have thought of，
+[Speaker 0]:  especially ones that involved shopping on instagram and going really hard into some of your personal hobbies。
+[Speaker 0]:  let's get to it。
+[Speaker 0]:  this episode is brought to you by work。
+[Speaker 0]:  OSAI has already changed how we work tools are helping teams write better code，
+[Speaker 0]:  analyze customer data and even handle support tickets automatically。
+[Speaker 0]:  but there's a catch these tools only workwell when they have deep access to company systems，
+[Speaker 0]:  your copile。
+[Speaker 0]:  it needs to see your entire code base。
+[Speaker 0]:  your chat btght needs to search across internal dogs in for enterprise buyers that raises serious security concerns。
+[Speaker 0]:  that's why these apps face intense it scscpt y from day one to pass。
+[Speaker 0]:  they need secure authentication access controls，
+[Speaker 0]:  audit loggs，
+[Speaker 0]:  the whole sweet of enterprise features building all that from scratch。
+[Speaker 0]:  it's a massive lift。
+[Speaker 0]:  that's where work OS comes in work OS get you drop in aps for enterprise features。
+[Speaker 0]:  so your app can become enterprise ready and scale up market faster。
+[Speaker 0]:  think of it like stripe for enterprise features，
+[Speaker 0]:  open AI，
+[Speaker 0]:  perplexity and curser are already using work OS to move faster and meet enterprise demands join them in hundreds of other industry leaders at work OS dot com start building today。
+[Speaker 0]:  alex，
+[Speaker 0]:  welcome to how IAI thanks for joining us。
+[Speaker 1]:  thank you for having me big fan。
+[Speaker 1]:  how could be here？
+[Speaker 0]:  i am。
+[Speaker 0]:  i was just saying，
+[Speaker 0]:  i am a big，
+[Speaker 0]:  big fan of buse，
+[Speaker 0]:  and i have used probably every ai agent on the planet and mews。
+[Speaker 0]:  i tell you fastest time to pure delight。
+[Speaker 0]:  i have had with an ai product in a very，
+[Speaker 0]:  very long time。
+[Speaker 0]:  so tell us a little bit about how you approach designing this agent，
+[Speaker 0]:  because i think some of the permitives you pit are very different than what we see on in other agents。
+[Speaker 0]:  it seems like the personal that you're going after is different。
+[Speaker 0]:  what we through how you all ended up where you ended up from a design perspective？
+[Speaker 1]:  yeah。
+[Speaker 1]:  well，
+[Speaker 1]:  thank you for for saying that um it was definitely inteinteresting challenge and felt like a unique one。
+[Speaker 1]:  i think we all could feel that something was different this time around。
+[Speaker 1]:  i think from a capability perspective，
+[Speaker 1]:  and i think like just simple things，
+[Speaker 1]:  like the fact that an agent can message，
+[Speaker 1]:  you proactively changes the nature of like how you think about the product from a design perspective，
+[Speaker 1]:  even then，
+[Speaker 1]:  like supersimple ways i have joke before，
+[Speaker 1]:  because ah we have bubbles around their message as you know。
+[Speaker 1]:  and like that's typically something that you associate more with messaging than like an ai up like long ago。
+[Speaker 1]:  i think most ai apps kind of strip those out。
+[Speaker 1]:  and that is there，
+[Speaker 1]:  among other reasons to like help with the flag separation that you need when，
+[Speaker 1]:  like a asians，
+[Speaker 1]:  possibly messaging you at different times of the day，
+[Speaker 1]:  you kind of need to know like where and when the different messages begin。
+[Speaker 1]:  and so like simple things like that，
+[Speaker 1]:  i think inform some of the design。
+[Speaker 1]:  but the basic framing that always，
+[Speaker 1]:  we went back to，
+[Speaker 1]:  and i think，
+[Speaker 1]:  was probably the most helpful was just imagining that this interface was more of an exchange between you and entity。
+[Speaker 1]:  and that's why it's embodied at the top of the screen。
+[Speaker 1]:  and so a lot of the patterns that we looked at，
+[Speaker 1]:  we're much more messaging patterns，
+[Speaker 1]:  you know，
+[Speaker 1]:  and not ah thinking about had it this work before in different aapps or using kind of like the tratradium industry。
+[Speaker 1]:  i guess，
+[Speaker 1]:  as a reference，
+[Speaker 1]:  it was more like，
+[Speaker 1]:  how would you handle this？
+[Speaker 1]:  if youwere actually speaking with another person，
+[Speaker 1]:  you know，
+[Speaker 1]:  and that it was immensely clarifying。
+[Speaker 1]:  i think in almost every decision that we had to make um and i think defines kind of feels s you。
+[Speaker 1]:  when you look at it，
+[Speaker 1]:  it feels like a message in nab。
+[Speaker 1]:  you see a little guy there，
+[Speaker 1]:  the top of the screen。
+[Speaker 1]:  and i think like that，
+[Speaker 1]:  even something like that。
+[Speaker 1]:  you know，
+[Speaker 1]:  one of other capabilities have it been able to work in the background makes it really important that，
+[Speaker 1]:  you know，
+[Speaker 1]:  win。
+[Speaker 1]:  it's working。
+[Speaker 1]:  and so like just simply having that status，
+[Speaker 1]:  i think he's been one of the most important decisions that we made。
+[Speaker 0]:  the other thing that strikes me is very different about news is the primitives that you've chosen to elevate as core parts，
+[Speaker 0]:  the application。
+[Speaker 0]:  because i think for those of us who have been using AI building tools，
+[Speaker 0]:  chapbots eetrc，
+[Speaker 0]:  we're used to these ideas of like threads and chats and projects and machines and files and diffs like and connectors like there are these very a software centric concepts。
+[Speaker 0]:  um i think because a lot of these agents have primarily been built as coding agents for the enterprise or or knowledge work agents。
+[Speaker 0]:  and then i look at news，
+[Speaker 0]:  and what really struck me is you have this like character，
+[Speaker 0]:  first of all，
+[Speaker 0]:  as a primary entity。
+[Speaker 0]:  you have chats。
+[Speaker 0]:  you have ideas，
+[Speaker 0]:  you know you have these。
+[Speaker 0]:  um you have your feed like you，
+[Speaker 0]:  you've chochose en different aspects to elevate。
+[Speaker 0]:  is that because you knew that this was going to be serving a different type of user with a different kind of like breath of intention around what this eagent 可以 get done for them？
+[Speaker 1]:  yeah，
+[Speaker 1]:  um you know，
+[Speaker 1]:  III got a text，
+[Speaker 1]:  actually，
+[Speaker 1]:  for my mom like this corning，
+[Speaker 1]:  which is really funny。
+[Speaker 1]:  she said that she has apologized to her muuse for making him work so hard，
+[Speaker 1]:  and thank him for all that。
+[Speaker 1]:  he's talten for her，
+[Speaker 1]:  which i found really gratifying because i have been working in offor for long，
+[Speaker 1]:  long time。
+[Speaker 1]:  and i don't think my mom has ever used a thing that i've made not not because like i don't make interesting things just like to your point of thing。
+[Speaker 1]:  typically，
+[Speaker 1]:  they can be maybe a little bit inaccessible to kind of the average person。
+[Speaker 1]:  and i think with this kind of technology too，
+[Speaker 1]:  it was so new and has so much capability to it。
+[Speaker 1]:  that's not obvious。
+[Speaker 1]:  i think like that was definitely a huge part of what we were after in terms of making this more accessible and intuitive for people to use。
+[Speaker 1]:  and i think like，
+[Speaker 1]:  i mean，
+[Speaker 1]:  you hear lot about progressive disclosure and design，
+[Speaker 1]:  and it's it's kind of one of those things set。
+[Speaker 1]:  like you here，
+[Speaker 1]:  like on day one。
+[Speaker 1]:  and then like you always think about，
+[Speaker 1]:  but like i don't know，
+[Speaker 1]:  you don't use it every day。
+[Speaker 1]:  but in this product，
+[Speaker 1]:  i found it to be one of the most helpful things，
+[Speaker 1]:  which is like，
+[Speaker 1]:  if take，
+[Speaker 1]:  take something ststatus。
+[Speaker 1]:  it's like if you are a engineer，
+[Speaker 1]:  you may want to know exactly what your agent has done。
+[Speaker 1]:  and you can find that immuws。
+[Speaker 1]:  but if you're a normal person，
+[Speaker 1]:  you maybe just want to know like，
+[Speaker 1]:  is it doing something？
+[Speaker 1]:  so at the top，
+[Speaker 1]:  ital tell you it's working，
+[Speaker 1]:  joaliva is working。
+[Speaker 1]:  and then your next question might be，
+[Speaker 1]:  what's it working on，
+[Speaker 1]:  you know？
+[Speaker 1]:  and so it will tell you that with the little emojee，
+[Speaker 1]:  like researching pumpkin patches。
+[Speaker 1]:  but then if you want to go little bit further，
+[Speaker 1]:  you tap on it and then you have a list of everything that it's done wwant a go a bit further，
+[Speaker 1]:  you could tap on that。
+[Speaker 1]:  and then eventually you get down to when you get to see the cural and all the like our coat and everything 啊，
+[Speaker 1]:  which is it really important from like an auditimperspective。
+[Speaker 1]:  but it's only there，
+[Speaker 1]:  if you need it，
+[Speaker 1]:  and it doesn't get in the way for people who may not know what that means。
+[Speaker 1]:  and i think like you see，
+[Speaker 1]:  like a lot of uh what this traditionally refer to his chain to thought can get pretty loud。
+[Speaker 1]:  and like really detailed in the core chat。
+[Speaker 1]:  and that's the kind of thing。
+[Speaker 1]:  i think that like typically，
+[Speaker 1]:  we would have just put that in there because that's like what you do these days in AI asked。
+[Speaker 1]:  but i think in this case，
+[Speaker 1]:  it was like，
+[Speaker 1]:  well，
+[Speaker 1]:  does it really need to be there for everybody？
+[Speaker 1]:  it's like met probably not。
+[Speaker 1]:  you know，
+[Speaker 0]:  i'll give you one other compliment，
+[Speaker 0]:  because，
+[Speaker 0]:  again，
+[Speaker 0]:  emma，
+[Speaker 0]:  a mean muse girl now，
+[Speaker 0]:  but i also think that a lot of times these chain of thought，
+[Speaker 0]:  reasoning user，
+[Speaker 0]:  you know，
+[Speaker 0]:  like elements in the UI are there as a bandate for lency，
+[Speaker 0]:  which is it feels very frustrating as a user to sit。
+[Speaker 0]:  and wonder is my agent working on something？
+[Speaker 0]:  and is it making progress？
+[Speaker 0]:  or is it just stuck in？
+[Speaker 0]:  so i think a lot of designers have struggled with how much do we narate along the way，
+[Speaker 0]:  what is happening。
+[Speaker 0]:  so it's quite obvious to be user。
+[Speaker 0]:  so that latency doesn't feel so painful versus how much do we kind of like dee progressive dilosure？
+[Speaker 0]:  and what i what i think is nice about my experience in the news app is i do like that progressive disclosure。
+[Speaker 0]:  and one of the things that called up in our review that i thought was quite nice。
+[Speaker 0]:  but also just fast。
+[Speaker 0]:  it is just fast。
+[Speaker 0]:  the model is just fast，
+[Speaker 0]:  like i do think for especially something that's going to try to catch the eyes of consumers that latency really matters。
+[Speaker 0]:  and it's is a zippy little agent yet is，
+[Speaker 1]:  and it's it's really，
+[Speaker 1]:  you know，
+[Speaker 1]:  it's interesting actually，
+[Speaker 1]:  because it's one of those things where sometimes it's so fast that you are tempted to think like，
+[Speaker 1]:  is it like，
+[Speaker 1]:  did it actually go do a thing because it's it's so quick。
+[Speaker 1]:  and i think，
+[Speaker 1]:  like the nice thing is there are times where it will。
+[Speaker 1]:  you ask for something some complex，
+[Speaker 1]:  and it will at least techwlodge a request，
+[Speaker 1]:  you know，
+[Speaker 1]:  either through a reaction or an initial message and then go often do the hard work。
+[Speaker 1]:  and i think like like a person，
+[Speaker 1]:  you know，
+[Speaker 1]:  if you ask for something hard，
+[Speaker 1]:  they're not going to just ghost you until they're they're done。
+[Speaker 1]:  they're ll usually just say like，
+[Speaker 1]:  okay，
+[Speaker 1]:  here's the plan。
+[Speaker 1]:  i'm going to do this。
+[Speaker 1]:  i'll be back when i have it done or even just a reaction as enough to let you know that it's doing it。
+[Speaker 1]:  and so i think like that balance of winter respond quickly，
+[Speaker 1]:  how to respond what to say。
+[Speaker 1]:  and then like what to do in the meantime，
+[Speaker 1]:  if it is a really long task，
+[Speaker 1]:  and that's where we start to rely a little bit on that status display to let you know it what's going on。
+[Speaker 1]:  and if you want to know specifically，
+[Speaker 1]:  did it can stuck？
+[Speaker 1]:  or is it like going down the wrong path you can check？
+[Speaker 1]:  and i think that that's really helpeful because you never really feel like it's just gone off and left you alone。
+[Speaker 0]:  yeah。
+[Speaker 0]:  one of the thing just thinking about this status um message，
+[Speaker 0]:  i want to talk about，
+[Speaker 0]:  which is this，
+[Speaker 0]:  this concept of generau y。
+[Speaker 0]:  and i think a lot of people think then they thinking about genative UY。
+[Speaker 0]:  they think like every time i log into my dashboard。
+[Speaker 0]:  it's different or every but ninight click is unique for every person。
+[Speaker 0]:  and what i saw in in looking at the muse ent，
+[Speaker 0]:  ent is 're using sing genor tive UY in a really elegant way，
+[Speaker 0]:  which is like the core primitives stick。
+[Speaker 0]:  you've got your avatar。
+[Speaker 0]:  you've got your status message。
+[Speaker 0]:  you've got your ideas，
+[Speaker 0]:  you've ve et your febut。
+[Speaker 0]:  but then within that，
+[Speaker 0]:  every time i log in，
+[Speaker 0]:  i have a new set of ideas that are based on the things that we have talked about。
+[Speaker 0]:  and every time the status is generated，
+[Speaker 0]:  it takes the exact rina OOI。
+[Speaker 0]:  and when it's working on its computer，
+[Speaker 0]:  you get a little generative video of it，
+[Speaker 0]:  typing on its laptop，
+[Speaker 0]:  like that type of qute and quote generative YI think is really delightful。
+[Speaker 0]:  and and much easier to understand for folks traying that understand how they could bring these conception to their own app。
+[Speaker 0]:  then like every time any one person opens up，
+[Speaker 0]:  the UI is completely different different yeyeah。
+[Speaker 1]:  i think perhaps one day will get there，
+[Speaker 1]:  you know。
+[Speaker 1]:  but i think these days，
+[Speaker 1]:  there's it's definitely a little bit more on the rails in terms of like where we can apply at the avatar is a great example。
+[Speaker 1]:  and i think people find a lot of delight i've seen when they do make their own new avatatar seen that it will then be translated into each one of those states，
+[Speaker 1]:  you know，
+[Speaker 1]:  typing on it to ll computer or making something。
+[Speaker 1]:  and that's been one of the most fun things because we，
+[Speaker 1]:  of course，
+[Speaker 1]:  have our mascot。
+[Speaker 1]:  and you know，
+[Speaker 1]:  jolliy has the state。
+[Speaker 1]:  so as well。
+[Speaker 1]:  but like if you turn years into a tomato，
+[Speaker 1]:  then you'll see a tomato typout on the conteter。
+[Speaker 1]:  and that really does feel very personal。
+[Speaker 1]:  and as i think a very delightful thing，
+[Speaker 1]:  but yeah，
+[Speaker 1]:  you mention feed and ideas。
+[Speaker 1]:  and i think that those surfaces，
+[Speaker 1]:  you know，
+[Speaker 1]:  you could definitely imagine this app with just chat。
+[Speaker 1]:  and i think part of an agents power is that i can handle a lot in a single chat。
+[Speaker 1]:  and you can kind of just treat like a really capable personal assistant in that way。
+[Speaker 1]:  i think，
+[Speaker 1]:  though，
+[Speaker 1]:  like there's so much that it can do，
+[Speaker 1]:  that might not be intuited for people that exposing some of those additional capabilities just with the additional surfaces that we have，
+[Speaker 1]:  like ideas in particular，
+[Speaker 1]:  it's serving a very specific purpose，
+[Speaker 1]:  which is basically just telling you some things that you may not know that they can do。
+[Speaker 1]:  i think like to your point，
+[Speaker 1]:  if those were just generic suggestions，
+[Speaker 1]:  that would be one thing，
+[Speaker 1]:  maybe even useful things。
+[Speaker 1]:  but when they're specifically based on what you've talked about，
+[Speaker 1]:  i think that's when people really find the power were like，
+[Speaker 1]:  if you talk to it about golf all day，
+[Speaker 1]:  like i do like that。
+[Speaker 1]:  i got a lot of golf ideas，
+[Speaker 1]:  and then the feed too，
+[Speaker 1]:  the feeds have fun one because you can experiment。
+[Speaker 1]:  and i think people should experiment more than than they did，
+[Speaker 1]:  like the you can write anything you want in the prot and and get a feet of whatever like i mix and match things all the time。
+[Speaker 1]:  and like have a really，
+[Speaker 1]:  really addressing feedi often changed my intue just because like sometimes all get tired of getting like muse news or something，
+[Speaker 1]:  and i switch ch to something else，
+[Speaker 1]:  like i try to do like kids stuff on the weekend，
+[Speaker 1]:  for example。
+[Speaker 1]:  but yeah，
+[Speaker 1]:  i mean，
+[Speaker 1]:  it's still a native surface though，
+[Speaker 1]:  like the feed unit that you're looking at is still like one that we've designed，
+[Speaker 1]:  and it's being powered by the intelligence sofflly and the personalization that your muse has。
+[Speaker 1]:  but it's like it's not yet like a fully generated surface。
+[Speaker 0]:  okay。
+[Speaker 0]:  so speaking of ideas or things that your mews can do for you that you，
+[Speaker 0]:  when thought of i'm going to let you get your screen up and share with us。
+[Speaker 0]:  some of your ideas。
+[Speaker 0]:  and while you're doing that，
+[Speaker 0]:  i will tell you what my mus's name is，
+[Speaker 0]:  which is slum and slum is at the pink dinosaur fashioned after my child's 's favorite favorite stuffy，
+[Speaker 0]:  and he is very adorble。
+[Speaker 0]:  okay。
+[Speaker 0]:  so let's look a look at mariah ah ah。
+[Speaker 1]:  i'm miss m's maro，
+[Speaker 1]:  which is a capacters and II have a bit of a complex relationship with maro because my original use was jelly bought，
+[Speaker 1]:  which is the the mascot that that you see everywhere。
+[Speaker 1]:  and it's named after my daughter，
+[Speaker 1]:  who we called joelly bug。
+[Speaker 1]:  and when we started using jalyba everywhere，
+[Speaker 1]:  i felt kind of weird using aliyybat for mine because it was like it was just just too ast to home。
+[Speaker 1]:  so i made it kind of a charactice version，
+[Speaker 1]:  which is marla，
+[Speaker 1]:  which i like a lot，
+[Speaker 1]:  especially parof those a little，
+[Speaker 0]:  i love the fuzzy laptops。
+[Speaker 0]:  just send me me。
+[Speaker 0]:  they are funnny。
+[Speaker 1]:  okay。
+[Speaker 0]:  well，
+[Speaker 0]:  what be through some some things that you do with maro that are fun？
+[Speaker 1]:  yeah，
+[Speaker 1]:  i can show you a few things。
+[Speaker 1]:  so i think one of my favorite things recently is i had，
+[Speaker 1]:  and i would recommend doing this by the way i had。
+[Speaker 1]:  if few you use instagram，
+[Speaker 1]:  i had maro look at everything i'd saved on instagram and just organized them，
+[Speaker 1]:  put put all my saves in the fofolders and categories usebasbaselum。
+[Speaker 1]:  but then i said，
+[Speaker 1]:  okay，
+[Speaker 1]:  look at everything i've saved and maybe sent me some suggestions for shopping ideas。
+[Speaker 1]:  it's like gives them that i think，
+[Speaker 1]:  and it did that again just in text，
+[Speaker 1]:  which was a good idea。
+[Speaker 1]:  but one of my favorite things i think to do with these systems is take what would be otherwise like a fairly mundane set of data。
+[Speaker 1]:  and rendeit in a way that i've personally find really fun。
+[Speaker 1]:  so with this，
+[Speaker 1]:  what you're looking at here is joelly bt's sky mall，
+[Speaker 1]:  which is that same said the suggestions that have look at everything i've saved on instagram，
+[Speaker 1]:  considered some ideas for things that i might be interested in，
+[Speaker 1]:  but then rendered them in the kind of the vrenacular of the skymall sharper image magazine。
+[Speaker 1]:  so as a ninety kid，
+[Speaker 1]:  this is like a very as a speaking，
+[Speaker 1]:  my my actual language。
+[Speaker 1]:  so like this clock，
+[Speaker 1]:  for example，
+[Speaker 1]:  you can see right here was a good exotion，
+[Speaker 0]:  an scourse。
+[Speaker 1]:  yeah。
+[Speaker 1]:  so this is a find one。
+[Speaker 1]:  and i think like it's prefreshes every day，
+[Speaker 1]:  and it's kind of like AA really interesting way to like both from，
+[Speaker 1]:  like just for me personally as a designer to look at because i think it's a really fun type of crazy design。
+[Speaker 1]:  but also like，
+[Speaker 1]:  you know，
+[Speaker 1]:  i may be one day in the market for a new rain trainer。
+[Speaker 0]:  so it's nice see see that i ve love ve this and then have you i just am curious，
+[Speaker 0]:  have you transacted with marloor like avy boouts that has marloe bought easent things yeah，
+[Speaker 1]:  and but probably not anything that exciting，
+[Speaker 1]:  like watch straps and fiicks like there's ceto like i think，
+[Speaker 1]:  and i've had like i one of the things i do most actually with mine，
+[Speaker 1]:  and probably my favorite use cases，
+[Speaker 1]:  like i feel like a kind of just like monitoring superpower where i is like always looking for，
+[Speaker 1]:  like，
+[Speaker 1]:  oh，
+[Speaker 1]:  if this artist releases a new album tell me，
+[Speaker 1]:  okay，
+[Speaker 1]:  great。
+[Speaker 1]:  if this artist comes to stem ces，
+[Speaker 1]:  go tell me，
+[Speaker 1]:  if this golf brand does a collaboration with this person tellike，
+[Speaker 1]:  i have a lot of things cut，
+[Speaker 1]:  like，
+[Speaker 1]:  like on the on the radar。
+[Speaker 1]:  and so like，
+[Speaker 1]:  usually like，
+[Speaker 1]:  you know，
+[Speaker 1]:  raal always talks about。
+[Speaker 1]:  and i remember from your thing movie，
+[Speaker 1]:  tickets，
+[Speaker 1]:  movie ticket to a big one as well。
+[Speaker 1]:  um so yeah i have。
+[Speaker 1]:  and i think that it's definitely like something that is this is really useful。
+[Speaker 1]:  i haven't hooked this，
+[Speaker 1]:  that's actually something i would like to do。
+[Speaker 1]:  i haven't hooked this up to where i can like，
+[Speaker 1]:  make it easy too。
+[Speaker 1]:  if i do see something，
+[Speaker 1]:  i like going get it，
+[Speaker 1]:  but it's mostly because this is more of a fun thing for me than i just love，
+[Speaker 1]:  seen these things rendered this way。
+[Speaker 0]:  you know，
+[Speaker 0]:  the other thing that you can do here，
+[Speaker 0]:  which i do is i have a ture that every week，
+[Speaker 0]:  it looks at the list of stuff that i'm like interested in buying and sees if any of it is on sale。
+[Speaker 0]:  and so it'll be like，
+[Speaker 0]:  you know，
+[Speaker 0]:  a thing youve been waiting for。
+[Speaker 0]:  it's it's now discount ted，
+[Speaker 0]:  or you know，
+[Speaker 0]:  this divendor happens to be selling it at a on sale。
+[Speaker 0]:  so then i just get that like just in time discount，
+[Speaker 0]:  something。
+[Speaker 0]:  i also do a lot of nice comparison。
+[Speaker 1]:  yeah，
+[Speaker 1]:  yeah，
+[Speaker 1]:  and i did。
+[Speaker 1]:  i do all like research as well，
+[Speaker 1]:  too，
+[Speaker 1]:  like whether whether is price or just kind of lake。
+[Speaker 1]:  it reminds me of like used to be a very manual process of like，
+[Speaker 1]:  ok，
+[Speaker 1]:  i'm in the market for a toddler car seat。
+[Speaker 1]:  you know，
+[Speaker 1]:  it's secongot normally that would kick off a lot of web searches。
+[Speaker 1]:  a lot of like you too buashing in everything like this。
+[Speaker 1]:  and now it's like i usually start and use with whatever it is，
+[Speaker 1]:  and then kind na go from there。
+[Speaker 0]:  yeah。
+[Speaker 0]:  well，
+[Speaker 0]:  and i do think people are really i haven't heheard a lot of folks talk about the instrugraum connector。
+[Speaker 0]:  it's one that i also use a lot。
+[Speaker 0]:  it's just a it's a very rich source of personal information that has historically been in a format，
+[Speaker 0]:  very hard to reason with。
+[Speaker 0]:  so and now it is in a format that i can actually like reason and extract that，
+[Speaker 0]:  that value out of it。
+[Speaker 0]:  i use a lot of i used a lot of instream i use，
+[Speaker 0]:  because now these agents can log into websites。
+[Speaker 0]:  i like accuse my pinrist a lot more too。
+[Speaker 0]:  i uthese like visual records a lot more um than i had in the past。
+[Speaker 0]:  one kind of like for the designers out there。
+[Speaker 0]:  one of the things that i've done recently is like open up abboard or a saved group and said，
+[Speaker 0]:  like i like this，
+[Speaker 0]:  help me generate concepts based on this or language。
+[Speaker 0]:  i can use to describe this。
+[Speaker 0]:  and so is i think the ability of these agents are reason with visual data in a way。
+[Speaker 0]:  i'm especially if you just log into a website or use an instagraum connector australian，
+[Speaker 0]:  only lisues a lot of creativity use cases。
+[Speaker 0]:  i feel like have been harder to do before。
+[Speaker 1]:  yeah，
+[Speaker 1]:  the pictures is great idea too。
+[Speaker 1]:  i mean，
+[Speaker 1]:  i think，
+[Speaker 1]:  like you know，
+[Speaker 1]:  to your point，
+[Speaker 1]:  the i feel like i have scattered about the internet。
+[Speaker 1]:  a lot of this information that's kind of just gotten lost to time，
+[Speaker 1]:  you know。
+[Speaker 1]:  and so like my my instagram says for better for worse，
+[Speaker 1]:  i've been using that forever，
+[Speaker 1]:  but i very really go back and milill about in there。
+[Speaker 1]:  and like look at them，
+[Speaker 1]:  you know because it's like you're kind of just，
+[Speaker 1]:  i don't know what i would be doing necessarily one thing i did。
+[Speaker 1]:  actually，
+[Speaker 1]:  i don't have a hear，
+[Speaker 1]:  but i do save a lot of golf tips，
+[Speaker 1]:  and but like hundreds，
+[Speaker 1]:  like hundreds and hundreds of golf tips that i never go back in and look at。
+[Speaker 1]:  so i had marlodo do it，
+[Speaker 1]:  then then sosolate them all until like a manual。
+[Speaker 1]:  and so that i have this like conflict。
+[Speaker 1]:  four alex like these are the things you should。
+[Speaker 1]:  apparently，
+[Speaker 1]:  you think you should work on，
+[Speaker 1]:  you know，
+[Speaker 1]:  and that，
+[Speaker 1]:  that was pretty cool because it was like，
+[Speaker 1]:  otherwise kind of just buried time，
+[Speaker 1]:  time know and actually tually that，
+[Speaker 1]:  that and i have this one to which like，
+[Speaker 1]:  like this is another integram one。
+[Speaker 1]:  but i do post a lot of stories。
+[Speaker 1]:  and this one is basically just showing me an archive of random stories from the past that，
+[Speaker 1]:  again，
+[Speaker 1]:  i would never look at um and it's kind of like，
+[Speaker 1]:  i mean，
+[Speaker 1]:  i onto think of this is like my new kind of feed with。
+[Speaker 1]:  i'm looking at where it's like，
+[Speaker 1]:  you know，
+[Speaker 1]:  this is just mine，
+[Speaker 1]:  but i you could bring ing any kind of content here。
+[Speaker 1]:  and like i love like it at this kind of stuff，
+[Speaker 1]:  it just kind of like nice memories。
+[Speaker 1]:  i'll check it a couple time today。
+[Speaker 1]:  yeah，
+[Speaker 1]:  exactly yeah。
+[Speaker 1]:  and like i think know，
+[Speaker 1]:  have a five year old。
+[Speaker 1]:  it's funcy，
+[Speaker 1]:  like like little things of her，
+[Speaker 1]:  like when choes growing up。
+[Speaker 0]:  ah okay，
+[Speaker 0]:  mentioned the golf，
+[Speaker 0]:  and we're going talk about mews for going hard on your hobbies。
+[Speaker 0]:  so let's talk about how are you using muws for your golf game，
+[Speaker 0]:  which i know as a parent of a five role in presuming is inconsistent at best。
+[Speaker 1]:  i know yeah，
+[Speaker 1]:  i used so always joke about this with people in the team because a lot of what i would want to use use for was golf oriented，
+[Speaker 1]:  but that's sort of assumed that i was able to play it off。
+[Speaker 1]:  but like we've been building in this project feel first so lag，
+[Speaker 1]:  but it's like kind of very few and far between twtween where i'm able to get out there。
+[Speaker 1]:  but yeah，
+[Speaker 1]:  i use it in a couple ways。
+[Speaker 1]:  and i think what's nice about this is um similar or some of my other hobbies like chest，
+[Speaker 1]:  there are services already that i use that monitor like how in plain。
+[Speaker 1]:  so every time i play i've record the ound。
+[Speaker 1]:  that's the thing most gulffers dued。
+[Speaker 1]:  and so that's like some basic data about the course that you played what your score was。
+[Speaker 1]:  but i also keep track of every shot that i hit on a watch。
+[Speaker 1]:  and so i have a lot of data that i can provide。
+[Speaker 1]:  and what i do is i just have it every week，
+[Speaker 1]:  which is this is again，
+[Speaker 1]:  kind of said，
+[Speaker 1]:  because it looks every sunday，
+[Speaker 1]:  and i never placlike like，
+[Speaker 1]:  i could II just tell him every so often，
+[Speaker 1]:  but it will send me this basically every time i play，
+[Speaker 1]:  which is kind of like a rounound recap。
+[Speaker 1]:  so i'll see kind like how the rround unfolded much richard than like paper score card or some other way that i'd be able to see it。
+[Speaker 1]:  and sometimes i don't think this one has has it in here。
+[Speaker 1]:  it will tell me a little bit about the course，
+[Speaker 1]:  if i play the course a lot，
+[Speaker 1]:  and it will like tell me ok on this whole。
+[Speaker 1]:  this is usually what happened。
+[Speaker 1]:  you did better today or worse today，
+[Speaker 1]:  which is really hopeful when i go back and play the course again。
+[Speaker 1]:  this one is doing a little bit at that，
+[Speaker 1]:  like it's trying to tell me like how i could have turned my eighty four into a seventy nine by just like doing a little bit better here or there。
+[Speaker 1]:  the interesting thing about this one is。
+[Speaker 1]:  and again，
+[Speaker 1]:  we've talked a little bit about this，
+[Speaker 1]:  but i think like it's taking data that like was pretty much very plain and monolithic。
+[Speaker 1]:  c，
+[Speaker 1]:  not not really showing me more than the number and turned it into these different visuals。
+[Speaker 1]:  that，
+[Speaker 1]:  like tell much more of a story like i had this。
+[Speaker 1]:  the red line is like a very bad front line，
+[Speaker 1]:  and in the back，
+[Speaker 1]:  knight was a very good backline。
+[Speaker 1]:  you can see that，
+[Speaker 1]:  that with the graph like very easily，
+[Speaker 1]:  that be much harder to do here you like at that at the score card。
+[Speaker 1]:  so this has been great。
+[Speaker 1]:  i also whatever i practice，
+[Speaker 1]:  i have a lot。
+[Speaker 1]:  i feel like when i'm practice him like those people you see running with oxyyen en on with all the wires hoped up to them，
+[Speaker 1]:  like when II can only practice every so often。
+[Speaker 1]:  so when i practice，
+[Speaker 1]:  it has to be very，
+[Speaker 1]:  very data or hinted。
+[Speaker 1]:  so i have all these machines that are looking at me when i swing。
+[Speaker 1]:  and this again，
+[Speaker 1]:  it's like putting out of this stuff that like i kind of understand，
+[Speaker 1]:  but it's really helpful to get me used like like i go through。
+[Speaker 1]:  and like tell me about like where i can improve，
+[Speaker 1]:  like what i need to do better。
+[Speaker 1]:  what's looking good。
+[Speaker 1]:  and that's what looking at here is like a practice session really broken down into the fine detail。
+[Speaker 1]:  i think like golfers will know what this stuff means，
+[Speaker 1]:  but it's kind of it's you know。
+[Speaker 1]:  it's kind of it's it's very useful。
+[Speaker 1]:  i should say，
+[Speaker 0]:  and and you have a use goal to get better。
+[Speaker 1]:  i do i have。
+[Speaker 1]:  and this，
+[Speaker 1]:  this is one that the allike c said，
+[Speaker 1]:  kind of assad，
+[Speaker 1]:  when i make no progress against，
+[Speaker 1]:  but that is one of my long term goals。
+[Speaker 1]:  so i have a lot of mentioned of things that i'm tracking。
+[Speaker 1]:  i love the tracking section in particular，
+[Speaker 1]:  just because like i there's a lot that i keep in i on。
+[Speaker 1]:  but in terms of long term goals，
+[Speaker 1]:  it's basically i would really like to be a single digit handicap in my life，
+[Speaker 1]:  which is like it's achievable。
+[Speaker 1]:  it's hard。
+[Speaker 1]:  it's kind of like the perfect goal because i can talk to，
+[Speaker 1]:  we use about it any time。
+[Speaker 1]:  and like it knows that all these things are kind of like a crew into that call。
+[Speaker 1]:  it's kind of the perfect，
+[Speaker 1]:  like hopefully，
+[Speaker 1]:  not superlong term goal。
+[Speaker 1]:  but it is definitely one of my main ones。
+[Speaker 0]:  quick question about me，
+[Speaker 0]:  ws，
+[Speaker 0]:  and this could be maybe personal preference，
+[Speaker 0]:  or or you just give our audidience little little bit of insider tips on how to use it。
+[Speaker 0]:  main chatter side chats，
+[Speaker 0]:  i haven't decided yeah，
+[Speaker 0]:  if one is better than the other。
+[Speaker 0]:  i like my impulse is told towards side chat。
+[Speaker 0]:  and i don't know if that's just a art effect of how ving been working with chachapots or it's sexually useful to great question deciactually。
+[Speaker 1]:  when my favorite things to talk about，
+[Speaker 1]:  because i think it's such an interesting architectural problem in the space。
+[Speaker 1]:  and you know，
+[Speaker 1]:  the way music design is there re's economical main chat that is kind of very intentionally the primary main line。
+[Speaker 1]:  and we sort of feel like you could use that entirely if you wanted to。
+[Speaker 1]:  we know that for a lot of people，
+[Speaker 1]:  especially anyone that's used to the way most of these absport today，
+[Speaker 1]:  that threatis a very useful way to organize。
+[Speaker 1]:  so so have siside chat for that purpose，
+[Speaker 1]:  like if you want to 嗯 put something specifically and like just to get it out your main chat，
+[Speaker 1]:  or it's like a very scoped problem for whatever whatever。
+[Speaker 1]:  is there re's a reasreason you you want to do it？
+[Speaker 1]:  um that's why sii chats are there。
+[Speaker 1]:  but it is definitely like a single thread with the possibility of side threads wheas。
+[Speaker 1]:  most apps are all thread。
+[Speaker 1]:  that's kind of the traditional model was like a new thread。
+[Speaker 1]:  every time you open it，
+[Speaker 1]:  you know。
+[Speaker 1]:  and i think once the models were able to handle the context and be able to manage everything in the single chat to me，
+[Speaker 1]:  that is a little bit easier way to interface with what you feel like is a another entity，
+[Speaker 1]:  the same way you would have with another person，
+[Speaker 1]:  you know，
+[Speaker 1]:  like i don't side thread with my mom or something like that，
+[Speaker 1]:  you know。
+[Speaker 1]:  now all that said，
+[Speaker 1]:  i think that there remains a lot of really interesting work to do to kind of like up level this to maybe you could say，
+[Speaker 1]:  like the agentic ererr。
+[Speaker 1]:  i feel like even even still，
+[Speaker 1]:  this is sort of an under explored area where i'm very happy with our solution currently because we've sort of like exposed the benefit of the main chat to people。
+[Speaker 1]:  but i feel like there's a lot more that we could do in terms of helping people organize and like really understand the difference between the main chat and the side chachat。
+[Speaker 1]:  because your question，
+[Speaker 1]:  i think is a good one and one that you know，
+[Speaker 1]:  a normal person could very reasontly come to to and just be like，
+[Speaker 1]:  why would i use this instead of that？
+[Speaker 1]:  and i think all that self can be。
+[Speaker 1]:  i think it's going to be an exciting area in the future。
+[Speaker 0]:  okay，
+[Speaker 0]:  show me your last hobby。
+[Speaker 1]:  oh yeah。
+[Speaker 0]:  part of fact that you've made。
+[Speaker 1]:  yeah，
+[Speaker 1]:  well show you one。
+[Speaker 1]:  i one of the show you was this one with the podcast attached，
+[Speaker 1]:  because it it's from very fun。
+[Speaker 1]:  um so i had a blolog years years。
+[Speaker 1]:  aguh h has has been lost a time，
+[Speaker 1]:  and i had marloo go and find it way back machine。
+[Speaker 1]:  going to blogger is a move between tumbler school。
+[Speaker 1]:  i ve moved it all around。
+[Speaker 1]:  it does。
+[Speaker 1]:  so it went back and found all the post。
+[Speaker 1]:  and then then accumuted them into one PPD first，
+[Speaker 1]:  then this little little that is basically just like looks like a blog。
+[Speaker 1]:  but the way that i like to read it now，
+[Speaker 1]:  just again，
+[Speaker 1]:  for memory is via a podcast，
+[Speaker 1]:  which is sent to me every morning，
+[Speaker 1]:  and it is just basically a random reading and can hear all is weird anyone else that ninety percent of people wear the exact same color pants，
+[Speaker 1]:  which is the kind of thing that a twenty years ago，
+[Speaker 1]:  alex used to wonder about。
+[Speaker 1]:  it's like very，
+[Speaker 1]:  very funny，
+[Speaker 1]:  because you're hearing yourself kina。
+[Speaker 1]:  but twenty years ago，
+[Speaker 1]:  you barely remember anything，
+[Speaker 1]:  you know so everyeverything that perperson saying，
+[Speaker 1]:  oh my god that is kind of weird。
+[Speaker 1]:  but like，
+[Speaker 1]:  of course，
+[Speaker 1]:  i would think that because it was me for yeyeyeah。
+[Speaker 1]:  yeah。
+[Speaker 1]:  but anyway，
+[Speaker 1]:  i think like that one，
+[Speaker 1]:  i love that one because like a lot of these things readers，
+[Speaker 1]:  i guess you could could say it's sort of a theme here，
+[Speaker 1]:  which is like i feel like i'm constantly taking these things that i had in my life，
+[Speaker 1]:  but like a foreverand，
+[Speaker 1]:  like i do not look at them。
+[Speaker 1]:  i can't like the it's presented in such a way that it wasn't useful for me at the time，
+[Speaker 1]:  whaever and muis able to take it and just like reform at into a way that's like really interesting and useful for me。
+[Speaker 1]:  whether it's interesting like this or useful，
+[Speaker 1]:  like the golf suffer。
+[Speaker 1]:  you know，
+[Speaker 1]:  i have the same thing for chess as well，
+[Speaker 1]:  which will break down my recent games。
+[Speaker 1]:  and this with this one gets a little bit like starcky。
+[Speaker 1]:  i guess he could say，
+[Speaker 1]:  i didn't tell you to do this，
+[Speaker 1]:  but they're like kind of like will poke at me a little bit，
+[Speaker 1]:  which is kind of fun like that bch of p，
+[Speaker 1]:  five collapse。
+[Speaker 1]:  i got to know what this is what's great authe o，
+[Speaker 1]:  but anyway，
+[Speaker 1]:  so it's a fun one。
+[Speaker 1]:  that's a fun one because it's useful，
+[Speaker 1]:  but it's also kind of funny to have like this。
+[Speaker 1]:  i guess you could say like kind of starky chess coach that's trying to help me get better to them。
+[Speaker 0]:  well，
+[Speaker 0]:  infer folks that aren't watching。
+[Speaker 0]:  this is a dash word。
+[Speaker 0]:  they think pulls in your chest dot com data，
+[Speaker 0]:  right？
+[Speaker 0]:  and just renders it and gives you game by game breakdowns really like this。
+[Speaker 1]:  yeah，
+[Speaker 1]:  it's been useful because，
+[Speaker 1]:  and you know that something is，
+[Speaker 1]:  you basically just define this in chat，
+[Speaker 1]:  you know。
+[Speaker 1]:  so when i originasask for this，
+[Speaker 1]:  i said，
+[Speaker 1]:  i have a chance account。
+[Speaker 1]:  i would love to see kind of a mixture of analysis，
+[Speaker 1]:  but also like trains over time because it's helpful for me to know like in my improving。
+[Speaker 1]:  it looks like right now。
+[Speaker 1]:  i'm kind of like folaling off of a bit。
+[Speaker 1]:  um but then the main thing that i wanted to do in this cases，
+[Speaker 1]:  give me a review of the most recent game。
+[Speaker 1]:  so i can go through here and try to go a sense of like，
+[Speaker 1]:  what what did i do wrong in this case？
+[Speaker 1]:  i just quit mid game。
+[Speaker 1]:  so that's not and would be that helpful。
+[Speaker 1]:  but you know，
+[Speaker 1]:  when the daughter arrives home，
+[Speaker 1]:  you have to stop playing。
+[Speaker 0]:  so that's exactly right。
+[Speaker 0]:  okay。
+[Speaker 0]:  so we have seen marloo do everything from revive old instagram posts and blogs to give you a custom and kind of in the celgic shopping catalogue to taking all using like a data person，
+[Speaker 0]:  taking all your data you collect。
+[Speaker 0]:  and uh，
+[Speaker 0]:  especially for some of your hobbies and let you put in away that will alyou you achieve either ort terteror，
+[Speaker 0]:  long tertergoals。
+[Speaker 0]:  and and we talk a lot about you，
+[Speaker 0]:  you know what why？
+[Speaker 0]:  i think a lot of people are reacting so positively amuses，
+[Speaker 0]:  because it's well zsign。
+[Speaker 0]:  it's thoughtful it。
+[Speaker 0]:  it shows you what you need。
+[Speaker 0]:  it's fast um and we all have these like little cuity pie cudify appeatars。
+[Speaker 0]:  well，
+[Speaker 0]:  let's do very quick lightning round questions。
+[Speaker 0]:  and then i will get you back to all your important work。
+[Speaker 0]:  um first question is just，
+[Speaker 0]:  i think，
+[Speaker 0]:  designing these asian experiences and ai experiences are very new to what a lot of designers in a lot of pms。
+[Speaker 0]:  the surfaces are new。
+[Speaker 0]:  the underlying infrastructure and technologies knew what did you have to learn？
+[Speaker 0]:  and then what what were 're able to kind of like fall back on that has worked forever from a design perspective？
+[Speaker 1]:  oh，
+[Speaker 1]:  it's a great question。
+[Speaker 1]:  you know，
+[Speaker 1]:  i think one thing that i have found for myself in any designer and coming into into this project or really just this space is really wrapping your head around what a nondeterministic system is and how what that means for when you're designing a screen。
+[Speaker 1]:  and by that，
+[Speaker 1]:  i mean，
+[Speaker 1]:  like where used to into for my whole career，
+[Speaker 1]:  you would come come a featfeature，
+[Speaker 1]:  and you would be able to think about it and then design it。
+[Speaker 1]:  and kind of know that like on any given customer screen，
+[Speaker 1]:  it's basically going to work like this and look like this because that is the way that this thing has been coded。
+[Speaker 1]:  and that is the only outcome that you will see，
+[Speaker 1]:  you know and said，
+[Speaker 1]:  then the bug that you would see would be like，
+[Speaker 1]:  oh，
+[Speaker 1]:  no，
+[Speaker 1]:  like this circle didn't appear what it's supposed to。
+[Speaker 1]:  and it d be very，
+[Speaker 1]:  very scoped。
+[Speaker 1]:  in terms of like what you had to think about。
+[Speaker 1]:  and i mean，
+[Speaker 1]:  it sounds like kind of uh routine to us now to talk about this。
+[Speaker 1]:  but like you're saying in terms of things i had to learn。
+[Speaker 1]:  it's it's hard to remember what it felt like even just a year ago，
+[Speaker 1]:  how different things were。
+[Speaker 1]:  you know，
+[Speaker 1]:  when you first come into this space，
+[Speaker 1]:  i think，
+[Speaker 1]:  really understanding that these systems usually do like kind of end up the way you think。
+[Speaker 1]:  but like my meals set up is completely different than yours，
+[Speaker 1]:  is completely different to someelse。
+[Speaker 1]:  is they're so personal，
+[Speaker 1]:  and they can like do so many different things that you really kind of have to think more about the underlying foundation and the system。
+[Speaker 1]:  the architecture is scaffalling in its in place and less about like，
+[Speaker 1]:  well，
+[Speaker 1]:  what about this？
+[Speaker 1]:  one little thing here？
+[Speaker 1]:  is it going to be just so you don't actually one of the things that's hartest for me？
+[Speaker 1]:  sometimes is looking at those artifacts that we are looking at，
+[Speaker 1]:  like i kind of have have turturn off my brain，
+[Speaker 1]:  sometimes design west because i'm like，
+[Speaker 1]:  if here，
+[Speaker 1]:  it's like it's different。
+[Speaker 1]:  you you，
+[Speaker 1]:  if you want，
+[Speaker 1]:  go and spend all the time in the world to like，
+[Speaker 1]:  make it look exactly as you want。
+[Speaker 1]:  but i've come to kind of view it a little bit more freely。
+[Speaker 1]:  and it's kind of，
+[Speaker 1]:  i think，
+[Speaker 1]:  kind of liberating in some ways to feel like，
+[Speaker 1]:  you know，
+[Speaker 1]:  this is still just a very useful output for me。
+[Speaker 1]:  and maybe i will take the time to make the colors just so，
+[Speaker 1]:  but otherwise it's good。
+[Speaker 1]:  it's fine，
+[Speaker 1]:  you know。
+[Speaker 1]:  and i think like，
+[Speaker 1]:  that's that's that's kind of ANN new world。
+[Speaker 1]:  and that took i'm getting used to。
+[Speaker 0]:  i would say that is a very，
+[Speaker 0]:  very gentle approach to the spectrum of slop to high quality agent design stopped。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah，
+[Speaker 0]:  look，
+[Speaker 0]:  get of our agents。
+[Speaker 0]:  yeah，
+[Speaker 0]:  oh，
+[Speaker 0]:  speaking of you didn't get the colors quite right when your mews，
+[Speaker 0]:  when maro，
+[Speaker 0]:  he's obopinant and not giving you what you want from a quality perspective，
+[Speaker 0]:  you know，
+[Speaker 0]:  just not listening。
+[Speaker 0]:  what is your prompting strategy？
+[Speaker 0]:  what do you do？
+[Speaker 0]:  yeah。
+[Speaker 1]:  well，
+[Speaker 1]:  not like a well formed one in the sense that i didn't。
+[Speaker 1]:  i suppose have a reason about it，
+[Speaker 1]:  but i am very polite。
+[Speaker 1]:  i think i'm not not i'm not all caps。
+[Speaker 1]:  i'm not a multi explmaation mark person，
+[Speaker 1]:  and i do find myself sometimes looking at what i wrote and be like。
+[Speaker 1]:  well，
+[Speaker 1]:  i was really nice。
+[Speaker 1]:  nice to is to express that frustration。
+[Speaker 1]:  and i think it's really interesting。
+[Speaker 1]:  and i feel this way when i'm doing any kind of coding thing as well，
+[Speaker 1]:  where things you know can。
+[Speaker 1]:  well，
+[Speaker 1]:  maybe take a long，
+[Speaker 1]:  long time。
+[Speaker 1]:  they go sideways，
+[Speaker 1]:  and it is really frustrating。
+[Speaker 1]:  i have always been surprised with how would like not consciously，
+[Speaker 1]:  but how i will just speak to it the way i would speak to like anybody else about it like i don't。
+[Speaker 1]:  i don't ever really get mad to other people。
+[Speaker 1]:  so i don't really get mad to marl or johle e thor，
+[Speaker 1]:  otherwise，
+[Speaker 1]:  you know，
+[Speaker 1]:  yeah。
+[Speaker 1]:  so i don't know。
+[Speaker 1]:  i've always always have been。
+[Speaker 1]:  i have seen。
+[Speaker 1]:  i have some friends who show me sometimes like the traces when they have got really mad。
+[Speaker 1]:  the thinking trace will be will be like kind of a reset like，
+[Speaker 1]:  okay，
+[Speaker 1]:  alex is frustrated。
+[Speaker 1]:  so II really，
+[Speaker 1]:  really，
+[Speaker 1]:  it dodoesmake me think，
+[Speaker 1]:  sometimes i could probably be a little bit more forceful，
+[Speaker 0]:  more factor。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah，
+[Speaker 0]:  you know，
+[Speaker 0]:  II also try to generally be polite with the exception of what feels like very expensive misolined coding missiadventures。
+[Speaker 0]:  that's the one that like really gets me。
+[Speaker 0]:  yeah，
+[Speaker 0]:  yeah。
+[Speaker 0]:  and to be honest，
+[Speaker 0]:  every time i'm yelling，
+[Speaker 0]:  it is true to agents as it is in life。
+[Speaker 0]:  it's usually a mean problem。
+[Speaker 0]:  we maouted them yeah，
+[Speaker 1]:  but you're right though，
+[Speaker 1]:  like they go off ten the missidangture。
+[Speaker 1]:  it's that's that's yeah 'not traaning well，
+[Speaker 0]:  alexsisen so fun。
+[Speaker 0]:  thank you for being so generous with thirtime time。
+[Speaker 0]:  we love news。
+[Speaker 0]:  i'm excited to see more of it as it evolves。
+[Speaker 0]:  where can we find you？
+[Speaker 0]:  how can we help pful？
+[Speaker 1]:  and how can we follow along the most helpful thing would be to download mews，
+[Speaker 1]:  try it out，
+[Speaker 1]:  and you can let mews know when something isn't going right？
+[Speaker 1]:  or you want to feature。
+[Speaker 1]:  those do come to us that's prety the most helpful thing。
+[Speaker 1]:  i think for me，
+[Speaker 1]:  like on the internet，
+[Speaker 1]:  ah threads is probably the best place i tried to have been trying to do some popostine about the um behind the scenes。
+[Speaker 1]:  and like kind of some decisions that we made。
+[Speaker 1]:  i'll continue to do that。
+[Speaker 1]:  so that's probably what i would say，
+[Speaker 1]:  but yeah，
+[Speaker 1]:  try it out out and letting us know see what you think is the most useful thing。
+[Speaker 0]:  so amazing。
+[Speaker 0]:  well，
+[Speaker 0]:  thank you for joining how i ei。
+[Speaker 1]:  yes，
+[Speaker 1]:  thanks for ven me。
+[Speaker 0]:  thanks so much for watching。
+[Speaker 0]:  if you enjoyed the show，
+[Speaker 0]:  please like and subscribe here on youtube or even better leave us a comment with your thoughts。
+[Speaker 0]:  you can also find this podcast on apple podcasts，
+[Speaker 0]:  spotify or your favourite podcast app，
+[Speaker 0]:  please consider leaving us a rating and review，
+[Speaker 0]:  which will help others find the show。
+[Speaker 0]:  you can see all our episodes and learn more about the show at how IA ipod dot com see the next time。
