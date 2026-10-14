@@ -1,0 +1,338 @@
+[Speaker 0]:  hello，
+[Speaker 0]:  i'm welcome today。
+[Speaker 0]:  we will be talking about the point AI had of a bank and how it is not an engineering problem。
+[Speaker 0]:  before we get into that，
+[Speaker 0]:  i went to introduce myself when it was paina gale。
+[Speaker 0]:  i worked across many different fields。
+[Speaker 0]:  so i started off at consulting at a centime performing over to bloomer，
+[Speaker 0]:  gets a soffoiengteam before i work don into the infrastructure team and a day of phatphon team。
+[Speaker 0]:  then afterwards，
+[Speaker 0]:  i would be a google working on security endeployment。
+[Speaker 0]:  and right now，
+[Speaker 0]:  i am a found it FTE out。
+[Speaker 0]:  i started up and writing the book on forward of engengineing with oalready。
+[Speaker 1]: 对的，
+[Speaker 1]: 对对对，
+[Speaker 1]: 个个这的这个。
+[Speaker 0]:  in this example，
+[Speaker 0]:  the system reviews client documents and drag exceptions for analyst。
+[Speaker 0]:  the demo shows the intended work flow，
+[Speaker 0]:  and everyway can see why it would be useful。
+[Speaker 0]:  denticuity asked，
+[Speaker 0]:  okay，
+[Speaker 0]:  which environment will host it？
+[Speaker 0]:  the data owners asked who agree to this use of documents。
+[Speaker 0]:  and so one from risk asked，
+[Speaker 0]:  who will review a wrong exception before，
+[Speaker 0]:  which is the next system。
+[Speaker 0]:  those are reasonable questions，
+[Speaker 0]:  right？
+[Speaker 0]:  each question can change what we are allowed to build。
+[Speaker 0]:  the team has already invested a design，
+[Speaker 0]:  while several people responsible for that design had ever seen it。
+[Speaker 0]:  so in this case，
+[Speaker 0]:  the demo works，
+[Speaker 0]:  the model was fine。
+[Speaker 0]:  however，
+[Speaker 0]:  it still did not ship。
+[Speaker 0]:  i want to now show you how to uncover those decisions in week one，
+[Speaker 0]:  so can can sign n sysystem with a credible role into production these for it。
+[Speaker 0]:  labels represent ent decision to your appointments，
+[Speaker 0]:  depend on for each one。
+[Speaker 0]:  i want a person who can explain a decision，
+[Speaker 0]:  the evidence they need in the next step。
+[Speaker 0]:  so let's every data data who wants a source who can get access，
+[Speaker 0]:  you can have reproduuit this in the workflow。
+[Speaker 0]:  those responsibilities make possibilities may belong to different people，
+[Speaker 0]:  but being able to crew。
+[Speaker 0]:  it is said，
+[Speaker 0]:  does not settle。
+[Speaker 0]:  every question about how the application may use it for the moderisk find a person who can tell you which review applies to the intided use，
+[Speaker 0]:  asked what APS mmission look like learning，
+[Speaker 0]:  who will own the system after lalach ch，
+[Speaker 0]:  what eviddence ownner will need to maintain it for their party。
+[Speaker 0]:  risk draw。
+[Speaker 0]:  the actual depency chain include the model provider，
+[Speaker 0]:  the whole arrangements，
+[Speaker 0]:  anger，
+[Speaker 0]:  role and operating service，
+[Speaker 0]:  find out which relationtionships have already been reviewed and which proposed changes require decision。
+[Speaker 0]:  sion audit，
+[Speaker 0]:  ask someone right for all，
+[Speaker 0]:  it ask what someone would need to reconstruct a concile encil action，
+[Speaker 0]:  which imple was used，
+[Speaker 0]:  which configuration produced the output。
+[Speaker 0]:  what did the review ers see and who approved the action？
+[Speaker 0]:  those are the questions that affect the records you need to capture from from the beginning。
+[Speaker 0]:  now imagine getting those answers，
+[Speaker 0]:  acyou boat the whole entire system。
+[Speaker 0]:  but appointment bboundary，
+[Speaker 0]:  a data path or action that may have to change the useful move is to bring these people in and bring them into the design early，
+[Speaker 0]:  their responsibilities，
+[Speaker 0]:  help us responsipus us identify the system we can actually operate。
+[Speaker 0]:  and here discovery is the engineering。
+[Speaker 0]:  so now you want to talk about what discovery is and who we need to really find out to understand what exactly we need to build。
+[Speaker 0]:  so you want to think every data set has an owner。
+[Speaker 0]:  the work i did a bloomberg on the data half from team made this concrete from here。
+[Speaker 0]:  so boom infrastructure for an LM meant understanding which datasets could be used，
+[Speaker 0]:  and who could approve that used？
+[Speaker 0]:  the idea want to get across is that every data et has an owner。
+[Speaker 0]:  my work at bloomberg on a data，
+[Speaker 0]:  a pattern team made this conconcrete for me，
+[Speaker 0]:  building an infrastructure from LMM meant understanding which datassets can be used and who could approve that use carry out into each bank employment honesty，
+[Speaker 0]:  any dedepointment。
+[Speaker 0]:  so before designing retrieval，
+[Speaker 0]:  find a person accountable for each source，
+[Speaker 0]:  confirm the aloud use and the environment where the processing can actually start to happen if those answers change your design changes with them。
+[Speaker 0]:  imagine the key on the slide stds for a real permission with a real owner，
+[Speaker 0]:  we should be able to name that owner to know where exactly this key leads a come from when starting to scope out an architecture，
+[Speaker 0]:  a ve the questions you may have，
+[Speaker 0]:  can be answered by looking at the orchard，
+[Speaker 0]:  read the top of first dodocuments go into the model and analysts of use the output。
+[Speaker 0]:  you can probably sketch that system in a few minutes。
+[Speaker 0]:  now read the right one，
+[Speaker 0]:  underneed it。
+[Speaker 0]:  the documents have a data wner ner model service needs a platform owner。
+[Speaker 0]:  the analyst worklow needs someone who can confirm their own，
+[Speaker 0]:  an risk correments in the last name slow has question mark。
+[Speaker 0]:  that question。
+[Speaker 0]:  mark is a dependency。
+[Speaker 0]:  we have designed a workflow without finding the person who can tell us whether inintenused as is acceptable and what evidence will be required。
+[Speaker 0]:  so how to walk with this diarram of this sponsor，
+[Speaker 0]:  or someone you trust and figure out？
+[Speaker 0]:  okay，
+[Speaker 0]:  who wns the documents？
+[Speaker 0]:  have they heard about this use who can help us to reach their properate reviewer，
+[Speaker 0]:  then how to confirm the answers directly with those people？
+[Speaker 0]:  the real map will have more relationships than this。
+[Speaker 0]:  a technical component made to pen on several approvals。
+[Speaker 0]:  some decisions spend the entire system。
+[Speaker 0]:  the point is to make those dependencies visible，
+[Speaker 0]:  while the design is so easy to change，
+[Speaker 0]:  and a named owner becomes a specific task with a person responsible for resolving it。
+[Speaker 0]:  let us how discover research turning incertainy into an implementation plan。
+[Speaker 0]:  and given that you may start to ask yourself，
+[Speaker 0]:  okay，
+[Speaker 0]:  pid。
+[Speaker 0]:  and what sort of question should i be asking？
+[Speaker 0]:  so heare，
+[Speaker 0]:  some of the questions i would bring to a discovery recall，
+[Speaker 0]:  where does the data live and who can approve reading it，
+[Speaker 0]:  who has stopped it in a summer project before？
+[Speaker 0]:  and why which existing controls could cover this workflow and who owns them？
+[Speaker 0]:  where will this production run？
+[Speaker 0]:  and who are the adadministrators for the environment who signs ns a rovant ricureview。
+[Speaker 0]:  and what have they signed for wavigation is a sponsor personally worried about and who can explain it？
+[Speaker 0]:  notice what i want to leave with，
+[Speaker 0]:  it's how to names decisions or next conversations。
+[Speaker 0]:  if someone says，
+[Speaker 0]:  security will we find ask，
+[Speaker 0]:  who will tually review view the design？
+[Speaker 0]:  and when you can meet them，
+[Speaker 0]:  then closer whip，
+[Speaker 0]:  send each owner a short description of the proposed use and confirm what they need from you。
+[Speaker 0]:  by friday，
+[Speaker 0]:  the people whose decisions that appoinment depends on should know the project exists that gives scoping a much firmer starting point。
+[Speaker 0]:  and once all as son，
+[Speaker 0]:  and we know who owns at the decisions，
+[Speaker 0]:  i can scope the work when the customer cannot write or give out the speck。
+[Speaker 0]:  i rely on these see things shadow draft and shrink。
+[Speaker 0]:  for example，
+[Speaker 0]:  at bloomberg，
+[Speaker 0]:  i worked on a system that handle cashloes that gave me to reconcile ile that gave me a concrete places start。
+[Speaker 0]:  so it's start with faling。
+[Speaker 0]:  for example，
+[Speaker 0]:  at bloomberg，
+[Speaker 0]:  i worked on a system that handle cashloloes。
+[Speaker 0]:  they were a cat to reconcile，
+[Speaker 0]:  and that gave me a concrete places，
+[Speaker 0]:  start follow the flow and the people responsible for it foluse。
+[Speaker 0]:  that approach when a sponsor once 's II for on boarding，
+[Speaker 0]:  say，
+[Speaker 0]:  with ananalyst watch，
+[Speaker 0]:  which systems they open where they make a judgment。
+[Speaker 0]:  and when they asked for permission，
+[Speaker 0]:  ask what happens when the document is missing right down，
+[Speaker 0]:  the actual see sequence，
+[Speaker 0]:  that is the beginning of every specification。
+[Speaker 0]:  now imagine we are building the document exception assystem。
+[Speaker 0]:  this is a hypothetical example，
+[Speaker 0]:  but i would still put these three lines in front of the sponsor，
+[Speaker 0]:  one revewed documents to draft the exceptions and three analysts summits。
+[Speaker 0]:  then i would make each line specific，
+[Speaker 0]:  which documents can analyst access，
+[Speaker 0]:  is that access approach for this processing，
+[Speaker 0]:  watch the model exproduce，
+[Speaker 0]:  and i'll ll AA highlight to passage a draft form or both，
+[Speaker 0]:  and who checks the draft。
+[Speaker 0]:  and also who submits for first version，
+[Speaker 0]:  suppose the output is a highlighted exception and a draft form。
+[Speaker 0]:  the analysts checks the source at its the form and admits that is a boundary。
+[Speaker 0]:  someone can correct。
+[Speaker 0]:  i would also propose a success criteria，
+[Speaker 0]:  so either less less of you time with the increases and misexceptions。
+[Speaker 0]:  we still needs agree on how to measure ure that against a curamermaror for because that，
+[Speaker 0]:  again，
+[Speaker 0]:  bright is the whole point。
+[Speaker 0]:  it is a proposal until we have an agreement，
+[Speaker 0]:  take the draft to the sponsor and the control owners。
+[Speaker 0]:  they can cross out a document type。
+[Speaker 0]:  they can change your viewer or they could just unifwhy。
+[Speaker 0]:  i reject the output。
+[Speaker 0]:  each correction gives a decision we can build around。
+[Speaker 0]:  so once the workpost complete scope becomes a series that approval questions。
+[Speaker 0]:  so now let's grow our hypothetical system once up at the time。
+[Speaker 0]:  first，
+[Speaker 0]:  it almarises a document that the animals already has。
+[Speaker 0]:  we will still confirm whether that existing access covers it use next，
+[Speaker 0]:  it reads from a second system。
+[Speaker 0]:  now there's another data path，
+[Speaker 0]:  and somebody needs approve it next next to that。
+[Speaker 0]:  it draws a response that a customer ocee who checks the content and which ural review the applies that we can use。
+[Speaker 0]:  finally，
+[Speaker 0]:  it sends a response automatically who owns at action。
+[Speaker 0]:  what happens if it sends something wrong？
+[Speaker 0]:  and how do we stop it and recover it？
+[Speaker 0]:  those are the four different engineer scopes the apppicical reviews depend on the institution and the use case。
+[Speaker 0]:  so i'd confirm them with people who owe those decisions。
+[Speaker 0]:  then i asked which incremment ates the useful viue today。
+[Speaker 0]:  could i draft inside the analyst current workflow to solve enough of the problem？
+[Speaker 0]:  if so，
+[Speaker 0]:  start there confirm that the existing control really fits and build the smallest useful version or the MDP with a credible path of approval that brings es its autonomy are started the viauthority that the problem solve，
+[Speaker 0]:  then ask what task can be proven as evidence to give the system more。
+[Speaker 0]:  so when working on cashfas，
+[Speaker 0]:  i blem word，
+[Speaker 0]:  i thought of auautomation a lot of the time。
+[Speaker 0]:  so every automation step needs to control，
+[Speaker 0]:  and somebody owns a number。
+[Speaker 0]:  i carry that disapplininto ai，
+[Speaker 0]:  so find the consequenal action that name its owner，
+[Speaker 0]:  decide what happens when the system is wrong ing。
+[Speaker 0]:  so far example，
+[Speaker 0]:  in a hypothetical exception worklolow。
+[Speaker 0]:  the submission is that action ananoous reviewing the draft needs the source evidence and visibant uncertainty to make a real judgment。
+[Speaker 0]:  a review bun only helps if the person can actually check the work。
+[Speaker 0]:  so i'm thinking about autonomy。
+[Speaker 0]:  i went you to read the latter from bottom up。
+[Speaker 0]:  susugest means the analysts or sees the recommendation and chooses what to do with it。
+[Speaker 0]:  draft means the system prepares something，
+[Speaker 0]:  the analyst checks and summits。
+[Speaker 0]:  that is a highlibit step acts with approval means a person authorizes each action before it happens。
+[Speaker 0]:  acts means the system operates limits that have already been approved。
+[Speaker 0]:  each step changes the consequences of an error。
+[Speaker 0]:  however，
+[Speaker 0]:  it also changes which controls must work，
+[Speaker 0]:  and which reviewer needs to be convinced。
+[Speaker 0]:  i would start at the lowest step that creates value，
+[Speaker 0]:  then cut evidence from there are the reviews of a writing the drafts，
+[Speaker 0]:  which really is keep reurring can people recover when something breaks。
+[Speaker 0]:  we use those observations to make the next xthirity decision。
+[Speaker 0]:  a model does not become more capable by itself answer how much authority this particular workforce should give it。
+[Speaker 0]:  so now it's like that conqute with the same hypotheticexception asassiant。
+[Speaker 0]:  suppose the initial request is in asian that reads kind documents decides which once fall outside of policy and falls exceptions automatically in that design，
+[Speaker 0]:  the models judgment can become an operational action without an ana was checking。
+[Speaker 0]:  e。
+[Speaker 0]:  chase now keep the model and chanins the action boundary。
+[Speaker 0]:  it highlights a likely exception pointed of opin source and propress the draatform，
+[Speaker 0]:  the analysts checks the evidence，
+[Speaker 0]:  corrects the form and chooses whether to summit while that's events on the slide model。
+[Speaker 0]:  human summit，
+[Speaker 0]:  i'll take a design to the people we found during discovery。
+[Speaker 0]:  can this use the analysts existing workload？
+[Speaker 0]:  does he approve data access cover the processing，
+[Speaker 0]:  which controls apply and what evidence to the reviews need。
+[Speaker 0]:  human of review does not guarantee approval，
+[Speaker 0]:  and it does not determine a regulatory category on its own。
+[Speaker 0]:  we slowto conconm，
+[Speaker 0]:  the the ltitive use and the required of views。
+[Speaker 0]:  the useful question is whether this strappting versions solves enough of the problems to ship first。
+[Speaker 0]:  if it does，
+[Speaker 0]:  you can collect evidence，
+[Speaker 0]:  withabout areas，
+[Speaker 0]:  overrights and recovery，
+[Speaker 0]:  while operating within that boundary。
+[Speaker 0]:  the next decision about authority can draw on what happens really will use。
+[Speaker 0]:  that makes the evaluation part of the operating plan。
+[Speaker 0]:  and that brings us to our forth promise and evaluation。
+[Speaker 0]:  the risk team can use for evidence，
+[Speaker 0]:  which really just means the ones they responsible for managing at google。
+[Speaker 0]:  the question needed answered was what happens when a system breaks，
+[Speaker 0]:  who notices what stops who takes responsibility，
+[Speaker 0]:  how and will ll take to bring back up for an end of appoinyment。
+[Speaker 0]:  i want the the concrete te councount，
+[Speaker 0]:  right？
+[Speaker 0]:  the intended use a threat model，
+[Speaker 0]:  the failure modes and a response。
+[Speaker 0]:  one show me the controls working when the model gets wrong，
+[Speaker 0]:  name the person who receives the alert and can stop the worklolow that gives a practical way to evaluate ate example。
+[Speaker 0]:  so going back back，
+[Speaker 0]:  a love example，
+[Speaker 0]:  the the ypothetical exception assistant，
+[Speaker 0]:  if it invents it an exception，
+[Speaker 0]:  the analyst checks the source passage and rejects addppt。
+[Speaker 0]:  if attraction produces unviitable text，
+[Speaker 0]:  stop an recrasccleclefile ile。
+[Speaker 0]:  if it misses exceptions，
+[Speaker 0]:  targeted offline cases help expose their weakness。
+[Speaker 0]:  they do not detect every lifemess keep effective work on a manual view for each failure named the detection path，
+[Speaker 0]:  the fall back and its owner，
+[Speaker 0]:  put those decisions in an evidence back。
+[Speaker 0]:  these firefiles make their view complete intetilgent use record users boundaries and prohibitive actions，
+[Speaker 0]:  datilliniage records each example source and use approval failure，
+[Speaker 0]:  modes，
+[Speaker 0]:  records detection and fall back results by segment record coverage and errors controls，
+[Speaker 0]:  record reviews thresholds，
+[Speaker 0]:  stopping rules and owners。
+[Speaker 0]:  so to all of this，
+[Speaker 0]:  which we generate the evidence with each evaluation run，
+[Speaker 0]:  one sider preserve the input prompt moll version，
+[Speaker 0]:  configuration output rerereaction that lessus recontract the historical decision calon the model again later may produce a different answer。
+[Speaker 0]:  so we preserve what actually happened。
+[Speaker 0]:  a reviewer can then expect that supporting record。
+[Speaker 0]:  so now we can take a look to see like what exactly is being used to organize that result，
+[Speaker 0]:  which is in the fourth file for a hypothetical workload。
+[Speaker 0]:  i would separate clean documents scans，
+[Speaker 0]:  where exceptions and new documents appps measure their errors and control behaviviors in each group，
+[Speaker 0]:  then lead with the weakest result in average can hide a serious gap of one segment。
+[Speaker 0]:  if a group has a little evidence，
+[Speaker 0]:  say so and or icked that use until you have enough，
+[Speaker 0]:  this tolreviewers what the result support，
+[Speaker 0]:  and it also brings us back to our week。
+[Speaker 0]:  one decisions。
+[Speaker 0]:  now just rounding everything up by friday，
+[Speaker 0]:  i like five answers is a data owner。
+[Speaker 0]:  enggage。
+[Speaker 0]:  in aware of this project are the production environment。
+[Speaker 0]:  and its administrator's named，
+[Speaker 0]:  can this sponsor describe the workflow without saying，
+[Speaker 0]:  ai？
+[Speaker 0]:  can these smallest useful scope fit existing controls confirmed with their owners？
+[Speaker 0]:  do we know the rissigner and what happened to the person at side last time？
+[Speaker 0]:  users answers as equally hurritick，
+[Speaker 0]:  four，
+[Speaker 0]:  a five，
+[Speaker 0]:  yes，
+[Speaker 0]:  ses suggest a credible patorship three means unresolve decisions need owners and dates zero to two means resolve the decisions before committing to delivery，
+[Speaker 0]:  including possibly shrkking scope or even redefining scope。
+[Speaker 0]:  this score does not predict approval，
+[Speaker 0]:  but it does does not predict in the next week。
+[Speaker 0]:  and here is what i would carry ento these next conversations。
+[Speaker 0]:  so to wrap this up，
+[Speaker 0]:  what i want people to walk away with is that discovery is the engineering draft this back back then trink。
+[Speaker 0]:  it give a system，
+[Speaker 0]:  only the authority。
+[Speaker 0]:  it needs，
+[Speaker 0]:  build the evidence back and and front one and demo worked。
+[Speaker 0]:  the model was fine，
+[Speaker 0]:  a slowed numuch ship。
+[Speaker 0]:  so what do you do you go find the people？
+[Speaker 0]:  thank you for going to this presentation with me。
+[Speaker 0]:  my name is paying gale。
+[Speaker 0]:  i am a founding forward to point engineer writing the book on FT for a rili。
+[Speaker 0]:  and yeah，
+[Speaker 0]:  i love to try what FTE and everything we lead to to it。
+[Speaker 0]:  if that's inteinterest，
+[Speaker 0]:  you can find me on like din or my website painting go that cob has all of my information。
+[Speaker 0]:  thank you again for washing today。
+[Speaker 0]:  and yeah，
+[Speaker 0]:  we're forforard to connect。
