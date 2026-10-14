@@ -1,0 +1,183 @@
+From the New York Times, I'm Rachel [music] Abrams, and this is the Daily. This morning, one of the hardest problems in mathematics may have just been solved, not by a human, but by artificial intelligence. So many people are freaked out about AI taking their jobs. And [music] now you can add mathematicians to that list. In the span of just a few months, AI [music] systems have tackled some of the biggest problems in math. And they've solved them.
+>> For decades, mathematicians have been working to solve this problem. They haven't been able to crack it. But AI, it just did it easily.
+>> Last month, it was one of the field so-called millennium problems. And then last week, OpenAI released a torrent [music] of over 350 other results covering virtually every corner of mathematics. These are problems that literally the [music] smartest humans on Earth have been working on for decades and sometimes even centuries. This AI takeover of the field has raised some uncomfortable questions and unleashed [music] a range of emotions. And so today we speak with a mathematician, [music] Cornell math professor Steven Strogatz, about what happens when AI doesn't just [music] come for your job, but for your purpose. It's Tuesday, [music] October 13th.
+>> [music]
+>> Steve Strogatz, thank you so much for joining us.
+>> Hi Rachel. I'm really happy to see you and and be here with you.
+>> So Steve, one of the reasons we're talking to you is of course because you are an esteemed professor at Cornell, but we are really talking to you because you are known for translating math into English for those of us who do not speak math. And you actually have a book that gets at this very thing. It is called Big Math. And so we are turning to you to help sort of translate this destabilizing moment in math that you and your colleagues are living through.
+>> Yeah.
+>> Can you just start by explaining to us how would you sum up the mood in math right now?
+>> Ooh, the mood. Yeah, the mood. The mood is um discombobulated. We're all a swirl. We're spinning. Some people are exhilarated. M
+>> they see a great golden age upon us with the help of our computer friends. Most people I think are feeling grief and we're in different stages. Some people are bargaining, some are accepting, some are still denying.
+>> What stage of grief are you in
+>> today? I'm feeling pretty good. I have been dark. There have been days when I uh actually cried during interviews. M
+>> you know what's actually being lost is um we like to think of ourselves as heroes and maybe that's over.
+>> That's the big news.
+>> It's hard to be a hero if you can't be the first to solve a problem or to understand something or to explain it to the world.
+>> And for the thousands of years that our culture of math has existed,
+>> we some of us did fantasize about being heroes in our own story. And now that's over. At least I mean this is the grief version of myself talking. I can of course like any professor argue against myself but in the sad version we won't get to be heroes anymore.
+>> I want to get into this Steve because I feel like a lot of people listening aren't going to quite understand what you mean by heroes and what you mean by solving problems that nobody's ever solved before.
+>> Sure.
+>> Like when I think of for example a math college professor teaching students, I'm thinking of that scene in Goodwill Hunting. I also put an advanced FIA system on the main hallway chalkboard and I'm hoping that one of you might prove it by the end of the semester.
+>> Where Matt Damon's character is solving a very long complicated math problem on a chalkboard.
+>> Sorry. What do you do?
+>> Sorry. That's people's work. You get graffiti here.
+>> Am I Matt Damon in this version of the story?
+>> You're either Matt Damon or you're the guy that finds Matt Damon's proof and thinks, "My god, this guy's a genius and he just needs a little bit of support." Oh my god.
+>> Looks [music] right.
+>> I'm probably that guy.
+>> Okay. So, is it I'm sure that your days are more complicated than this movie scene. I'm just trying to get a sense of like are you helping people solve what lay people might think of as complicated puzzles or
+>> That's a good word for it. Yes. Our world is about puzzles.
+>> Mhm.
+>> It's puzzles that we create depending on which type of math we're doing. Sometimes it's puzzles that nature hands to us. That's the kind of math I do actually.
+>> Wait, tell us what you mean by that. That's really interesting.
+>> Well, here's something I've personally been fascinated with, which is how do groups get organized? [music]
+>> Could be groups of people, could be groups of crickets. I mean, that's one thing I might be known for. We have crickets here in Ithaca, a species called the snowy tree cricket. They chirp in enormous [music] choruses, all chirping in unison, in sync. And normally like if you see people say in a symphony all the musicians playing in perfect time they're very highly trained expert musicians but yet these crickets can do it too.
+>> How do they chirp in unison? [music] And we now know the answer that when one cricket hears the chirp of another
+>> it actually makes a little adjustment into its nervous system that changes the timing of its next chirp.
+>> And we can measure that. So now the math problem is suppose I have a thousand of them in a field. How does that collective get itself so that all thousand are chirping in unison?
+>> And and you might say I don't care about crickets but your heart also has things that go in unison. You have special cells that trigger the rest of your heart to beat and pump blood to your body and to your brain. And if those 10,000 cells are not organized to all zap in unison telling your ventricles to pump, you're going to be very sick.
+>> So what I'm saying is to a mathematician, these are the same problem.
+>> This is variations on a theme. And what we try to do is abstract the messy real world into a very beautiful pristine mathematical world where we can figure out how can we encourage synchrony, how can we discourage it. There are cases where it's bad, like people who have Parkinson's disease or epilepsy. Their brain cells are firing in sync when they shouldn't be. This is a math problem. [music] [music] So, just to summarize, Steve, what you're saying is that understanding a thousand crickets and why they move and make the noise that they do, that might not be of great interest or importance to many people. However, understanding that can help you understand how the heart works, for example. And so, it might not matter to me how a cricket makes its noise, although I am actually interested in that, listening to you explain it. But it should matter to me because the downstream effects of that, the medical implications, that matters to me.
+>> That's the argument. This is a a spooky aspect of history that if you let people follow their curiosity,
+>> great things can happen, but it might take centuries. I feel like what I'm getting from what you're describing is the sense that you are a person who doesn't just care about math because it's good for your job or to get to an end result. I'm getting the sense from you that you care about understanding math because you are curious about the world around you.
+>> Uhhuh.
+>> And I wonder if you could just talk a little bit about how people feel about themselves in the math field and the feelings they get from actually solving some of these puzzles. M yeah it's good to go here this question of feeling is what's at stake among other things you mentioned puzzles
+>> think about what it is to do whatever your favorite puzzle is jigsaw sodoku cross word puzzle it sort of feels good to be stumped and then it's satisfying when you have a breakthrough
+>> when you finally get the word of the cross word yes
+>> yeah isn't it good everything clicks into place
+>> people like that feeling and a lot of us live for that we want that. It's like an addiction. We want that feeling over and over.
+>> So, we're in the business of of pleasuring ourselves that way. Now,
+>> c can I ask you to describe that slightly differently?
+>> I wanted to say it that way because I actually think it is sexual slightly. [laughter]
+>> Oh god.
+>> Because think of it or abstractly if I don't want to be too risque here, but what's going on is there's a quest. In our case, we want answers. We want solutions and we want understanding. We want aha moments. And so the fact that the problems resist and have to be seduced into yielding their secrets, it's kind of sexy. Steve,
+>> I'm sorry. I You Why are you resistant to that?
+>> I'm not. I'm just thinking about how many 17 18-year-olds are hearing this and are suddenly going to sign up to be math majors. You just recruited an entire generation of mathematicians. Um, no, this interview took a bit of a turn, but I think a lot of people can appreciate and relate to the idea of the satisfaction.
+>> I I hope that you will keep this part of it because this is real.
+>> You know, I'm not the mathematician, Steve, so you are the expert. I'm going to defer to you about the pleasure you people get from math. But I just I just want to really underscore that to a lot of people this is not just a job that for some people this is a passion that goes beyond a career. And and so this kind of gets me to my next point, which is I want to talk about this kind of dawning realization that you and other people in your field have had about how disruptive AI could be. And I want to go back and have you explain to me and to our audience what your initial perception of AI was.
+>> Yeah. You know, at first we were laughing at AI. You may remember when it first came out, it was hallucinating all the time. Couldn't be trusted. There was a joke going around and it was real. It couldn't count the number of Rs in Strawberry.
+>> Sure.
+>> But that was like 2022.
+>> As the years went by, AI got better at math very fast. It soon was as good as a good high school student. Then it was a good college student. Then in March of this year, it started to be at the level of a very good graduate student, which is a a measure that means something to us as math professors because we deal with grad students all day long.
+>> Can you just explain what you started seeing that made your perception change?
+>> Sure. So, this is the gets into the word that's everywhere nowadays, benchmarks.
+>> We give them tasks and we see can they solve a problem and how do they solve it? Do they solve it with style? I guess I keep coming up with adjectives that will surprise you. Besides our our sexy, passionate nature, we're also very interested in style. We want to be elegant. The highest compliment you could give to another mathematician is, "Oh, what an elegant proof."
+>> What does elegant mean for us? Elegant for us is something that has a surprise value, but is also inevitable once you see it.
+>> You know, it's a head slapping thing like that is so perfect. That's such a great argument. Why didn't I think of that? So for a long time, the AIs, the computers were not producing elegant math. They behaved like machines.
+>> They would get the job done, but with no panache, no flare.
+>> But by May of this year,
+>> everybody sat up straight when an AI solved a problem that the world's best mathematicians were interested in. And it did it with flare.
+>> Okay. So take us to May, Steve. What did you see exactly and how did it start changing your perception about what the models could do?
+>> Well, first of all, it solved a problem that a very charming old mathematician had posed because it's part of the culture. I have to tell you why this problem is a beloved problem. Tell me
+>> this is a puzzle associated with a mathematician named Paul Erdish, a Hungarian American mathematician who was completely ridiculously unable to function in the real world.
+>> What do you mean?
+>> He didn't really have a home. He would show up at your door, meaning you're any mathematician around the world. He had a beaten up old suitcase and he would show up and say, "My brain is open." which means I'm ready to work with you on a math problem.
+>> And that meant you had to take him into your house and take care of him because he couldn't make toast.
+>> Wow. I'm really starting to get the sense that mathematicians are real characters, Steve.
+>> He was also a methamphetamine junkie.
+>> Wow. Okay.
+>> This guy would take so many drugs because he was hyped up all the time wanting to do math. Wow.
+>> Now, why would anyone put up with him? Well, he was extremely brilliant and he would come up with these really good questions which it turns out is not so easy to do.
+>> So, he was a really good puzzle poser and he also left the legacy on the order of a thousand great puzzles that we still don't know how to solve.
+>> I want to say one last thing about him. So he was constantly winning money because he was so good at math that people would give him prize money for various things and he would always give the money away to young people
+>> including a person who today is considered maybe the greatest living mathematician
+>> Terry Tao
+>> and so there's a picture of little Terry Tao who is often called the Mozart of math because he was a child prodigy. Um, sorry I'm getting a little far clempted here. Like they say on Saturday Night Live.
+>> No, something you can't.
+>> It's so sweet this generational passing. You see the picture of old man Erdish with his gray hair. [laughter]
+>> The two of them are um are sitting together with their their paper and pencil. Such nerds with very serious faces. Terry Tow is like eight years old. two great mathematicians working together happy as clams on some real world inconsequential problem for the pleasure of being together. So my point was that Erish was a sweet man in addition to being a junkie and a genius. [snorts and laughter]
+>> Not mutually exclusive.
+>> Not all exclusive. Okay. So the fact that Erdish left us these beautiful problems and aing machine you could bleep me solved the unit distance conjecture of Erdish.
+>> Okay. Wait wait wait. We have to translate this into English. So in May one of the puzzles created by this man Erdish that people have spent a lot of time trying to solve and it is a passion it sounds like.
+>> Oh yeah.
+>> What happens to it? It's solved by AI. Is that what you're telling us?
+>> It's solved by AI.
+>> Okay.
+>> Open AI. Somebody in there sets their machine to working on the one of these great airish problems and it solves it in a way that is very beautiful,
+>> elegant,
+>> absolutely elegant, very imaginative, an aesthetic high point. All of us are a Gogg because this is so clever and we can learn from it. That this is important. It's not opaque. We can follow what it did. It took a certain part of math. You don't need to know what I mean by this, but it's called discrete geometry.
+>> Okay?
+>> And then it took a different part of math called number theory. Two parts that hadn't talked to each other much in the past and found that if you put them in conversation with each other, that was like the magic key.
+>> No one thought of making that connection before it, it was the key to the problem.
+>> So, objectively, what it did was really beautiful and brilliant, but it wasn't human. Now, it stole, some people would [music] say it stole from us because it learned from thousands of years of human ingenuity.
+>> It built from other people's work.
+>> It read every book. It read every math paper. It has knowledge like no human [music] mathematician has ever had. So, it's a totally alien kind of intelligence [music] that we have created that's now teaching us. That's what happened in May. That was just May. This is October.
+>> [music]
+>> We'll be right back. I want to get back to the story of this dawning realization in your world, Steve, about AI. So, you have this big aha moment in May. We are now, as we speak in the month of October. Last month, OpenAI announced that it had solved this huge math problem, this millennium problem. And it made all kinds of news that had broken outside of the math community. It got to lay people like me for instance. And I want to just explain first of all to our listeners what is the millennium problem and why did this feel like a watershed moment?
+>> So there are seven of these problems. They were all formalized to commemorate the new century. That's why they're the millennium problems. M
+>> in the year 2000 some of the world's finest mathematicians got together to take stock like where are we in our field and what are seven great mountains that we would like to climb
+>> these are problems created for the sake of solving them like what you were talking about earlier these are problems made for the satisfaction of solving them
+>> that's right they're aspirational puzzles so these were our big dreams seven of them in seven different parts of math
+>> okay
+>> so One of the seven millennium problems was already solved a few years back by a really crazy Russian mathematician who didn't like to cut his fingernails. So that they got very long. Like imagine if you never cut your fingernails ever.
+>> I don't want to make all mathematicians sound crazy or drug addicts or whatever. Uh
+>> I'm just giving you [laughter] the truth here.
+>> You're going to have to list some other ones then.
+>> But I'm just so
+>> Okay, one of them was solved already. There were six remaining. By um September, rumor started to leak out that one of the AI companies was on the verge of solving one of the last six millennium problems. And the rumor was that it was the one called the Navier Stokes Millennium problem.
+>> And what was that?
+>> Well, it's about water and air and how they flow.
+>> Okay. And the equations we use to describe the flow of anything that can flow, honey, lava, blood, that's governed by these equations, the Navier Stokes equations. And it was to show that the Navier Stokes equations could break down is what the problem was. Show that the Navier Stokes equations have a fatal flaw.
+>> And so Steve, when you start hearing rumors that the AI had solved this problem, your reaction is what?
+>> There was a feeling of like this is it. This day has come.
+>> Wait, that sounds is I can't tell if you're doomer about this.
+>> That's the problem. No one knows how to feel. You might have an instinctive doomer feeling or techno optimist feeling and then you felt happy or you felt terrified. My first feeling I guess was terrified. [music] Are we as a species going to be able to control this thing we created? M
+>> we knew that it would get to be superhuman in intelligence. We already saw it in chess. But chess doesn't matter. Math matters. And now that it's superhuman in at least one aspect of math, the problem solving aspect, [music] it's going to be a short hop and skip and a jump till it's superhuman at all aspects of math, I [music] think. And where does that leave us in math? But also, are we the canary in the coal mine
+>> for all of human creative work, whether it's poetry or [music] journalism or medicine or you name it. Now, maybe it's a great thing. Maybe it cures cancer for us. Maybe [music] it develops new kinds of batteries. I mean, this is not just idle speculation. It it's quite possible if we're smart enough to harness this well, we might be in the best time ever to be alive.
+>> But why I'm [music] tend to be a doomer is because we don't understand this [music] thing we built. If you ask it, how did you solve the Navier Stokes Millennium [music] problem? It gives a crappy explanation.
+>> It can't explain itself very well. Maybe it will get better at explaining [music] itself. Even if it does, I think it will become so advanced so soon that even the best, most patient [music] pedagogical teacher will not be able to explain itself to us because it'd be like me teaching calculus to my dog.
+>> My dog can't understand it. I'm too advanced for it. And I think we are going to be in the relation to AI [music] that my dog is to me soon. And therefore, how do I know it's going to have my as a species, my human species best interest at heart? [music] I want to just zoom out here for a second, Steve, because I'm hearing two things from you. I'm hearing that you are both scared of the actual tool itself and it getting out of the control of humans, but I am also hearing from you that you're worried about this tool taking away the satisfaction that people get and the passion people have of just solving problems. Sort of this fundamental thing that we can all relate to.
+>> Yes, both. It's just so easy to dismiss the second one. Mh.
+>> The satisfaction that we get from solving problems and the joy we get as a community to work on things together, all that, all the human stuff. There's a certain hardboiled kind of person who says that's not that valuable. Like, so what? Get over it. Suck it up.
+>> Really, but everybody understands what it means to have something that gives you fulfillment.
+>> They should. A sensitive person acting in good faith gets that. But I can tell you if you look at the internet, especially Go on X, where there's a lot of people talking about AI and math, there's a very popular joke that I actually think is pretty funny going around that says, "Put the fries in the bag, Terrence."
+>> Terrence Tao, who we spoke about,
+>> Terrence Tao. Yeah, that same Terry Tao. You know, there's certain people who are gloating, who have a feeling of satisfaction that the smartest kid in the class is now going to be out of a job just like the rest of us. That when automation comes, it's bad for everybody. Now it's your turn. But just for a moment, if you'll indulge me, I I want to talk about the optimistic case for a second and just pose that to you because the good faith optimistic case for AI has always been that AI could do the grunt work and then free you Steve up to do more meaningful work, right? Like the AI companies will say, "This is a tool and it's only going to allow you to continue doing what you're trying to do but better." And I just sort of wonder if you think that that argument could be correct. I do think it could be correct. I really do. I'm going to put on my happy face now. And I'm not faking it. I actually do find it very exciting and uplifting. And and the teacher in me who wants young people to have hope. I don't want to lie to them. I want them to have hope and I want to mean it.
+>> At Cornell, I'm teaching kids, juniors, seniors in college.
+>> Mhm. and they are in the best position to make use of this new tool because they're young and adaptable. I mean the other day at a town hall meeting the math department of course were all freaking out. So all the students are gathered all the faculty at this meeting one of my colleagues said it's like a new telescope. Where are you going to point your telescope? So that's the question. Where are you going to point this thing that's going to determine your success in the future? Mhm.
+>> I guess the question though is in this optimistic scenario, are we sure that the AI won't take all of it? Like who says it won't start to have great taste or it won't come up with good questions? So far it has no aptitude for asking good questions. It's there's no Paul Erdish AI yet.
+>> That can podcast host is still a pretty safe profession.
+>> I don't know. Maybe. Okay, that's the question. [laughter]
+>> Are you using AI in your own work, Steve, yet at all? Yes, I do use it and I really enjoy it.
+>> For what?
+>> I use it for all kinds of things. Uh, I use it to teach myself. I can ask it questions like if I wanted to learn about the millennium problem, the Navier Stokes problem. I'm not an expert in that. I ask it to tutor me and it's so good.
+>> But not just math. I mean, I'm really curious about all of school. I always have been. I loved all the subjects. So, this will really get us to a strange place. But it's true. I've been thinking a lot about the meaning of life. Like what's the point?
+>> Which is a question a lot of us are asking in my profession. What is the point?
+>> What have you come up with?
+>> Oh, you want to know the answer to that one too?
+>> I would love the answer. [laughter]
+>> Yeah.
+>> I I'll just tell you about my journey, not the answer. I know that people have thought about this for millennia. And um I was reminded of this old birds song, turn. [music] [singing and music]
+>> So that's biblical,
+>> right? That's from um Ecclesiastes,
+>> which I had never read. So I wanted to learn what's Ecclesiastes about because there's a famous passage in there where he says basically he's looking around and trying to understand what's the point of it all.
+>> And his really very modern and very dark initially dark seeming conclusion is there is no point. It's all vanity. He says it's vanity of vanities. Everything I do is in vain. It accomplishes nothing.
+>> I got nowhere by the people I loved, the work I did. It was all for nothing. And he says in there, he the writer says, you know, that in one famous passage like I saw um that the the race I'm sorry, it's so beautiful.
+>> No,
+>> he says the the race is not always to the swift. Like the the fastest person doesn't necessarily win. um or the battle is not to the strong.
+>> Mhm.
+>> In other words, people don't get what they deserve. It doesn't work like that. Life is unfair. The race is not to the swift. The battle is not for the strong. Time and chance happenth to them all. Like there's a lot of randomness.
+>> We get old. A lot of random stuff happens
+>> no matter how strong or fast we are. It's true for all of us. Okay. So then you think, Jesus, who wants to live in a world like that? Well,
+>> wait, but you're you know what you're making me think of is that isn't math the way you've described in an attempt to understand and organize and make things a little bit
+>> right. We're pushing back. Sure, we would like to find meaning, but but if you really go to this place in the book, then you know you're a blip. You only live a short time, certainly in cosmic sense. So what are you going to do with yourself while you're here? The re Okay. Why am I going to this insane place? Because this is kind I think this is where we are in math because this is when the student in the back of the room at our town hall says, "What's the point? If the AI can do math better than any human being, sure, I could sit there and learn from it, but I want to discover things too. I want that thrill.
+>> I don't want my life to be in vain."
+>> Yeah, I that's exactly right. I don't want my life to be in vain. So, if you take that away from me, what am I doing? So, you could see why I'm looking to um this ancient wisdom. And as I understand it, I'm no biblical scholar, but as I understand it, the lesson is well that your life is precious because it's short. That you have to make the most of it while you're here. So, um there's another line in there that says everything is beautiful. in its time. Like, God, [clears throat] I'm sorry. I'm a wreck. But if everything is beautiful in its time, we get to have a turn where we're in love. We're creative. We do what's meaningful. We get to walk our dog, whatever. We do have a time. Otherwise, we're dust, right? We're ashes to ashes, dust to dust. The beautiful part is the in between. Am I getting to you? No, I'm not crying. You're crying. [laughter]
+>> I think I did get to you. [gasps]
+>> I'm the only one that gets to make people cry on this show, Steve.
+>> Whoa.
+>> What did you say to the student? What did you say to the student who wanted?
+>> I didn't answer. It was a town hall, so there were like there were a hundred people there, but I want to talk to her later.
+>> What would you say?
+>> Said, "Let's read this book together." [laughter]
+>> Are you saying that AI is going to make you more religious? I think it it sure seems like it, doesn't it?
+>> Yeah, maybe.
+>> But I don't think it's about God. I think it's about people. [music]
+>> Um cuz that I do believe in.
+>> Maybe you [music] are also appreciating what makes us human more and what makes our time here special. And I wonder if that is [music] going to maybe in your mind be one result of all of this.
+>> I think it might. [music] It might. I hope so. Man, you're killing me, Rachel. [laughter] This was supposed to be a math show, but you took me to a really interesting place. Thank you for coming with me.
+>> I hope that our [music] listeners get as much out of this conversation as I did. So, Steve Strogat, thank you so much for joining us.
+>> Wow. Thank you, [music] Rachel. I'm going to have to go home and lie down. [laughter]
+>> [music] [music] [music]
+>> We'll be right back. [music] Here's what else you need to know today. In an effort to boost Republicans in the midterms, Elon Musk has funneled more than $276 million [music] to Republicans and his super PAC since the beginning of July. That makes Musk [music] by far the largest known donor this election cycle. To help Republicans maintain their Senate majority, Musk's team says he [music] gave $158 million to the party's Senate Leadership Fund. That's one of the largest political donations in [music] American history. and Homeland Security agents searched the DC home of Representative Ilhan Omar on Monday. [music] The search comes after Homeland Security Secretary Mark Wayne Mullen said last month that his department was [music] investigating Omar and her family's immigration to the US. He suggested that one outcome of that investigation [music] could be deportation. Omar has long said that such allegations of immigration fraud are false and politically motivated. The search took place less than 60 days before the midterms. [music] In spite of a Justice Department policy that discourages unnecessary investigative steps in [music] that window out of fear of influencing elections, Omar is running for reelection in Minnesota. Today's episode was produced by [music] Jack Dadoro, Adrienne Hurst, and Michael Simon Johnson with help from Eric Krupkkey. It was edited by Annie Minoff with help from Paige [music] Cowat. contains music by Pat McCusker and Marian Lozano. Original music by Martin [music] Courtourtney. It was engineered by Alyssa Moxley. Our theme music is by Wonderly. And special thanks [music] to Dan Powell. That's it for the Daily. [music] I'm Rachel Abrams. See you tomorrow.
