@@ -1,0 +1,109 @@
+[Speaker 0]:  my name is skcanina，
+[Speaker 0]:  and i'm i'm AA tack lead。
+[Speaker 0]:  and today，
+[Speaker 0]:  i'm here to talk about what technical dudiligence finds。
+[Speaker 0]:  when the this says，
+[Speaker 0]:  seventy percent automated someone has probably shown you number number like this fifty five point eight percent faster。
+[Speaker 0]:  and you've been wondering whether to believe it or not。
+[Speaker 0]:  well，
+[Speaker 0]:  this one comes from a control experiment and ninety five professional developers today。
+[Speaker 0]:  the task was one javscript ACTP server built from a ten played against twelve visible tests today。
+[Speaker 0]:  i'll give you three checks for what technical do dlusions finds in the AI error。
+[Speaker 0]:  i've actually spend more than eight years on both sides of the question。
+[Speaker 0]:  on the front side，
+[Speaker 0]:  i build AI system that investment professional used on a build side。
+[Speaker 0]:  i now lead ad a eevaluation produproduction and help create the numbers that reach executives。
+[Speaker 0]:  the dangerous number is not always fabricated。
+[Speaker 0]:  it's often a gengenumeasasument。
+[Speaker 0]:  it carried into conclusion。
+[Speaker 0]:  it cannot support tchunchonong describe the buyer side in a nice way，
+[Speaker 0]:  build for the memmo，
+[Speaker 0]:  not for the demo。
+[Speaker 0]:  i want to extend that standard to operational metrics in the first check requires no knowledge of models。
+[Speaker 0]:  it's pure air medics in far as observational data，
+[Speaker 0]:  high AI adoption teams merge in ninety eight percent，
+[Speaker 0]:  more poll requests poll requests review time increasase by ninety one percent，
+[Speaker 0]:  and the average pool request began one hundred fifty four percent larger。
+[Speaker 0]:  and a simple covered more than inten thousand developers across one thousand two hundred fifty five teams。
+[Speaker 0]:  this is not prove that a increased headcount。
+[Speaker 0]:  it's an observational teometry，
+[Speaker 0]:  not a controlled labor study，
+[Speaker 0]:  but it still give us a warning more work into the system，
+[Speaker 0]:  and the downstream review burden grew with it as well。
+[Speaker 0]:  so inteiligence ask for the companies 's eighteen months theory，
+[Speaker 0]:  put work cloud volume next to the fuoobebeaded human labor count，
+[Speaker 0]:  everyone whose work exists because of vi，
+[Speaker 0]:  for example，
+[Speaker 0]:  perators revieviewers trainerers escalation，
+[Speaker 0]:  and we work if human labor trucks burkloadad volume，
+[Speaker 0]:  dick has described assistance，
+[Speaker 0]:  not labor removal，
+[Speaker 0]:  but when the authmetics survives，
+[Speaker 0]:  the definition call still can fail。
+[Speaker 0]:  uber example says that seventy percent of its full request are AI attributed。
+[Speaker 0]:  this is impressive。
+[Speaker 0]:  it still does not tell us the full autonomous rate。
+[Speaker 0]:  the period in total account were not disclosed either。
+[Speaker 0]:  so auautomation lalaim sits somewhere in this ladtter。
+[Speaker 0]:  it's either AI drafted it or edited by humans or approved by humans or no human intervention。
+[Speaker 0]:  finance already has a useful term for the last one。
+[Speaker 0]:  it's calstraight through processing，
+[Speaker 0]:  define it as a complete and to end without human intervention inside the boundary you name。
+[Speaker 0]:  so there's the boundary here ends when the code was drafted or when the poll requests approved or when the change reaches es production。
+[Speaker 0]:  so remember air attributed in autonomous or two different claims。
+[Speaker 0]:  okay。
+[Speaker 0]:  now now suppose the definition is precise。
+[Speaker 0]:  can we trust the measurement metre found twenty four percent point gap between automated greater and merged decision after adjustment to the human baseline，
+[Speaker 0]:  four maintaers from from reposittories review，
+[Speaker 0]:  two hundred ninety six AI generated pool requests across different unique issues。
+[Speaker 0]:  they did not know whether the batch came from AR human。
+[Speaker 0]:  the automated greater was substantially more optimistic than the people responsible for accepting the work。
+[Speaker 0]:  not a surprise。
+[Speaker 0]:  i have seen the same thing from the other side one，
+[Speaker 0]:  if the project i worked on ten out of ten output，
+[Speaker 0]:  would bath the automated validation。
+[Speaker 0]:  once you bring，
+[Speaker 0]:  get the experts on the table，
+[Speaker 0]:  barely few survive。
+[Speaker 0]:  this is why evaluation maturity is the first credibility signal。
+[Speaker 0]:  i would look for so always asked who labels ground truth and whether the expert agrees in whether anyone measures that agreement ask what the automated judge was validated against and ask could bad output escaped。
+[Speaker 0]:  so when arthmetic ics definition in evaluation all fell，
+[Speaker 0]:  a warn is still has to become a decision，
+[Speaker 0]:  right？
+[Speaker 0]:  this is not a claim that weak ai position in caused buildder of AI collapse。
+[Speaker 0]:  its insolvency involve revenue financing issues beyond AI claims。
+[Speaker 0]:  the diligent lessson started way back into a dozen nineteen when the wall street journal publicly questioned the claim of the AI capability in may twenty twenty five。
+[Speaker 0]:  the financial time also reported that it's to twenty twenty twenty four revenue estimated had been revised from two hundred twenty million dollars to roughly fifty five million dollars on june seconagain，
+[Speaker 0]:  the company，
+[Speaker 0]:  five chapter seven。
+[Speaker 0]:  so the warning existed，
+[Speaker 0]:  but the process did not turn it into a gate。
+[Speaker 0]:  so even when it claims survives，
+[Speaker 0]:  those cheque still has has survive the economics。
+[Speaker 0]:  so start with eligible workload value apply actual adoption。
+[Speaker 0]:  three，
+[Speaker 0]:  through process success in accepted quality，
+[Speaker 0]:  then subct the cost of AI human review escalation，
+[Speaker 0]:  and we work the metrc gui would want is cost per accepted a tonomomous task。
+[Speaker 0]:  if the task failes escalates or need，
+[Speaker 0]:  we work，
+[Speaker 0]:  this belongs to the costs to always put those check together。
+[Speaker 0]:  and this is the god，
+[Speaker 0]:  i would probably take with me to the next meeting to some up three main checks，
+[Speaker 0]:  the authmeticics compare work，
+[Speaker 0]:  clothed volume with fully loaded human e labor，
+[Speaker 0]:  two definition identify the run and request the straight through rate inside a neighbor flow。
+[Speaker 0]:  three，
+[Speaker 0]:  the tell ask who defines quality，
+[Speaker 0]:  whether expert agrees in what bad output escapes，
+[Speaker 0]:  then translate only the surviving claims into a unit economics，
+[Speaker 0]:  and of course，
+[Speaker 0]:  believe it tested or walk away the printple card in all the source notes are in the website，
+[Speaker 0]:  and this cure code will lead you to it。
+[Speaker 0]:  so tata card scanned，
+[Speaker 0]:  print ted and take it to your next venter，
+[Speaker 0]:  meded or investment discussion。
+[Speaker 0]:  and always remember，
+[Speaker 0]:  the job of diligence is not to ask whether the number is impressive。
+[Speaker 0]:  it's to ask what must be true for the number to matter。
+[Speaker 0]:  thank you。
