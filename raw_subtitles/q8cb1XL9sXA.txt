@@ -1,0 +1,12767 @@
+In
+ the
+ last
+ 3
+ months,
+ we've
+ had
+ this
+
+
+huge
+ leap
+ from
+ agents
+ being
+ what
+ I
+ would
+
+
+call
+ spectators
+ to
+ agents
+ being
+ actors
+
+
+because
+ they
+ effectively
+ have
+ arms
+ and
+
+
+legs,
+ which
+ are
+ payment
+ credentials.
+
+
+Amazon
+ recently
+ blocked
+ Muse
+ and
+ there
+
+
+are
+ many
+ reasons
+ for
+ this.
+ You
+ can
+
+
+either
+ be
+ antagonistic
+ to
+ agent
+ commerce
+
+
+or
+ you
+ can
+ be
+ highly
+ receptive.
+ What's
+
+
+happened
+ with
+ the
+ rise
+ of,
+ you
+ know,
+
+
+Muse
+ and
+ Instinct
+ is
+ once
+ they
+ have
+
+
+access
+ to
+ payment
+ credentials,
+ their
+
+
+utility
+ increases.
+ So,
+ we
+ sort
+ of
+ have
+
+
+kicked
+ off
+ what
+ I
+ kind
+ of
+ call
+ the
+
+
+wallet
+ wars
+ where
+ every
+ wallet
+ is
+ now
+
+
+rushing
+ to
+ connect
+ to
+ the
+ agents.
+
+
+Everybody
+ who's
+ listening
+ to
+ this
+
+
+podcast,
+ I
+ almost
+ guarantee
+ you
+ have
+ a
+
+
+credential
+ that's
+ stored
+ at
+ VGS.
+
+
+>> The
+ largest
+ online
+ merchants,
+ the
+
+
+largest
+ neo
+ banks,
+ and
+ the
+ largest
+
+
+frontier
+ labs
+ all
+ use
+ VGS
+ to
+ secure
+
+
+payment
+ credentials.
+ It's
+ a
+ really
+
+
+formidable
+ position
+ to
+ be
+ in.
+ Where
+ do
+
+
+you
+ think
+ VGS
+ is
+ going
+ to
+ go?
+ I
+ think
+ we
+
+
+are.
+
+
+>> Hi
+ everyone.
+ I'm
+ Alex
+ Rampel,
+ partner
+ at
+
+
+Andre
+ and
+ Horwitz
+ and
+ I'm
+ here
+ joined
+ by
+
+
+Terry
+ Angelos
+ and
+ I'm
+ very
+ excited
+ about
+
+
+being
+ joined
+ by
+ Terry
+ because
+ uh
+ Terry
+
+
+and
+ I
+ started
+ a
+ company
+ called
+ Trial
+ Pay
+
+
+in
+ 2006.
+
+
+Um
+ long
+ long
+ time
+ ago,
+ 20
+ years
+ ago.
+
+
+>> 20
+ years
+ ago.
+ Alex
+ looked
+ very
+
+
+different.
+
+
+>> Yes.
+ Uh
+ you
+ look
+ the
+ same.
+ So
+ I
+ I
+ think
+
+
+you're
+ insulting
+ me
+ and
+ I'm
+
+
+complimenting
+ you
+ and
+ hopefully
+ not
+ the
+
+
+other
+ way
+ around.
+ Um
+ but
+ today,
+ this
+ is
+
+
+the
+ really
+ cool
+ part.
+ Um,
+ I
+ one
+ of
+ my
+
+
+first
+ investments
+ here
+ was
+ a
+ company
+
+
+called
+ VGS,
+ which
+ stands
+ for
+ very
+ good
+
+
+security.
+ And
+ some
+ people
+ might
+ not
+ get
+
+
+that
+ that's
+ actually
+ a
+ pun
+ or
+ a
+ joke
+
+
+because
+ one
+ of
+ the
+ most
+ famous
+
+
+cryptography
+ uh
+ companies
+ was
+ called
+
+
+PGP,
+ which
+ is
+ pretty
+ good
+ privacy.
+ And
+
+
+obviously,
+ it's
+ very
+ good
+ priv.
+ It's
+ not
+
+
+just
+ pretty
+ good
+ privacy.
+ It's
+
+
+incredible
+ privacy.
+ It's
+ unbreakable
+
+
+privacy
+ because
+ that's
+ how
+ you
+ know
+ it's
+
+
+very
+ hard
+ to
+ uh
+ to
+ factor
+ very
+ large
+
+
+composite
+ numbers
+ into
+ their
+ primes.
+ And
+
+
+pretty
+ good
+ privacy
+ is
+ actually
+ very
+
+
+good.
+ So
+ that
+ was
+ kind
+ of
+ the
+ original
+
+
+name
+ for
+ very
+ good
+ security.
+ So
+ I
+ I
+ led
+
+
+this
+ investment
+ a
+ long
+ time
+ ago.
+ Um
+
+
+trial
+ pay
+ got
+ bought
+ by
+ Visa.
+ Visa
+ under
+
+
+your
+ leadership
+ invested
+ in
+ VGS
+ and
+ now
+
+
+you're
+ you're
+ back
+ and
+ you're
+ the
+ chief
+
+
+strategy
+ officer
+ and
+ board
+ member
+
+
+alongside
+ me
+ at
+ VGS.
+
+
+>> Yeah.
+ Uh
+ it's
+ been
+ a
+ you
+ know
+ very
+ fun
+
+
+and
+ you
+ know
+ incredible
+ journey
+ and
+ um
+ I
+
+
+think
+ uh
+ if
+ you
+ look
+ at
+ VGS
+ today
+ it's
+ a
+
+
+it's
+ a
+ payment
+ infrastructure
+ business.
+
+
+Um
+ we
+ secure
+ credentials
+ for
+ about
+ a
+
+
+third
+ of
+ all
+ um
+ e-commerce
+ by
+ by
+ GMV.
+ Uh
+
+
+and
+ we
+ have
+ you
+ know
+ the
+ largest
+ online
+
+
+merchants
+ we
+ have
+ the
+ largest
+ neo
+ banks
+
+
+and
+ the
+ largest
+ frontier
+ labs
+ all
+ use
+
+
+VGS
+ to
+ secure
+ payment
+ credentials.
+ And
+ I
+
+
+think
+ today,
+ you
+ know,
+ part
+ of
+ the
+
+
+reason
+ why
+ we
+ want
+ to
+ talk
+ about
+ Agentic
+
+
+Commerce
+ is
+ because
+ VGS
+ is
+ uh
+ involved
+
+
+in
+ helping
+ agents
+ get
+ those
+ credentials,
+
+
+helping
+ wallets
+ hand
+ those
+ credentials
+
+
+to
+ agents
+ and
+ also
+ to
+ merchants
+ who
+ have
+
+
+to
+ receive
+ these
+ credentials.
+ And
+ so
+
+
+we're
+ sort
+ of
+ in
+ the
+ middle
+ of
+ these
+
+
+really
+ interesting
+ conversations
+ and
+ and
+
+
+and
+ handovers
+ between
+ credentials.
+
+
+>> But
+ maybe
+ we
+ should
+ dig
+ into
+ what
+ a
+
+
+credential
+ is.
+ is
+ I
+ mean
+ credential
+ is
+ a
+
+
+is
+ a
+ fancy
+ way
+ of
+ saying
+ a
+ credit
+ card
+
+
+for
+ most
+ you
+ know
+ for
+ for
+ lay
+ people.
+ It
+
+
+gets
+ a
+ little
+ more
+ complicated
+ than
+ that
+
+
+when
+ you
+ really
+ dig
+ into
+ it.
+ But
+ um
+ you
+
+
+work
+ with
+ I
+ I
+ don't
+ know
+ which
+ which
+
+
+merchants
+ I'm
+ allowed
+ to
+ say
+ that
+ you
+
+
+work
+ with.
+ You
+ work
+ with
+ all
+ the
+ big
+
+
+ones,
+ but
+ like
+ why
+ don't
+ we
+ take
+ it
+ why
+
+
+don't
+ we
+ take
+ an
+ example
+ merchant
+ um
+
+
+that
+ you
+ work
+ with
+ kind
+ of
+ preAI
+
+
+pre-agented
+ commerce
+ and
+ just
+ explain
+
+
+what
+ you
+ do
+ like
+ why
+ do
+ they
+ use
+ VGS?
+
+
+What
+ do
+ they
+ use
+ you
+ for
+ and
+ how
+
+
+pervasive
+ is
+ it?
+ Yeah,
+ let's
+ assume
+
+
+we're
+ working
+ with
+ like
+ a
+ very
+ large
+ um
+
+
+you
+ know
+ online
+ ordering
+ platform
+ and
+ so
+
+
+we
+ have
+ um
+ you
+ know
+ that
+ that
+ company
+
+
+effectively
+ uh
+ has
+ to
+ store
+ your
+ credit
+
+
+card
+ every
+ time
+ that
+ you
+ every
+ time
+ that
+
+
+a
+ new
+ customer
+ comes
+ onto
+ that
+ site
+ and
+
+
+hands
+ over
+ um
+ you
+ know
+ a
+ credit
+ card
+
+
+that
+ company
+ doesn't
+ necessarily
+ want
+ to
+
+
+be
+ exposed
+ to
+ that
+ card
+ number
+ and
+ so
+
+
+VGS
+ is
+ is
+ involved
+ in
+ capturing
+ that
+
+
+card,
+ securely
+ vaulting
+ it
+ and
+ storing
+
+
+it.
+ And
+ every
+ time
+ that
+ that
+ the
+ you
+
+
+know
+ online
+ ordering
+ service
+ wants
+ to
+ um
+
+
+you
+ know
+ transact
+ with
+ one
+ of
+ its
+
+
+processors,
+ it
+ goes
+ to
+ the
+ vault
+ and
+
+
+retrieves
+ the
+ information
+ uh
+ in
+ such
+ a
+
+
+way
+ that
+ the
+ uh
+ the
+ online
+ ordering
+
+
+company
+ never
+ actually
+ has
+ to
+ touch
+ the
+
+
+payment
+ information.
+ Now,
+ one
+ of
+ the
+
+
+things
+ that
+ I
+ think
+ has
+ made
+ VGS
+ a
+ lot
+
+
+more
+ interesting
+ since
+ the
+ days
+ that
+ you
+
+
+first
+ invested,
+ it's
+ been
+ a
+ decade
+ of
+
+
+becoming
+ sort
+ of
+ the
+ most
+ trusted
+ vault
+
+
+online
+
+
+is
+ that
+ the
+ card
+ networks
+ have
+ also
+
+
+introduced
+ a
+ form
+ of
+ tokenization.
+ So
+
+
+that
+ in
+ our
+ days
+ back
+ in
+ trial
+ pay,
+ we
+
+
+would
+ actually
+ store
+ a
+ 16-digit
+ pen
+ and
+
+
+we
+ would
+ like
+ we
+ would,
+ you
+ know,
+
+
+encrypt
+ it.
+
+
+>> A
+ pen
+ is
+ a
+ primary
+ account
+ number.
+
+
+>> A
+ pen
+ is
+ a
+ primary
+ account
+ number,
+
+
+>> credit
+ card
+ number.
+ It's
+ the
+ 16-digit
+
+
+number
+ that
+ you
+ are,
+ you
+ know,
+ you
+ know,
+
+
+that
+ you
+ have
+ on
+ your
+ on
+ your
+ card.
+ We
+
+
+would
+ we
+ would
+ encrypt
+ it
+ and
+ vault
+ it
+
+
+and
+ then
+ when
+ it
+ came
+ time
+ to
+ charge
+
+
+someone,
+ we
+ might
+ unencrypt
+ it
+ and
+ give
+
+
+it
+ to
+ I
+ think
+ Chase
+ Payment
+ Tech
+ back
+ in
+
+
+those
+ days.
+ Today,
+ that
+ doesn't
+ happen.
+
+
+Today,
+ instead,
+ what
+ happens
+ is
+ rather
+
+
+than
+ store
+ that
+ that
+ that
+ 16-digit
+ um
+
+
+card
+ number
+ and
+ use
+ that,
+ you
+ actually
+
+
+go
+ to
+ the
+ network
+ that
+ issued
+ it.
+ So,
+
+
+Visa,
+ Mastercard,
+ MX,
+ Discover,
+ and
+ you
+
+
+say,
+ I
+ would
+ like
+ another
+ version
+ of
+
+
+this
+ card
+ that's
+ actually
+ domain
+ bound
+
+
+just
+ to
+ my
+ merchant
+ domain,
+ which
+ is
+
+
+safer
+ because
+ if
+ I
+ ever
+ get
+ there's
+ ever
+
+
+a
+ problem,
+ the
+ only
+ number
+ that
+ I
+ have
+
+
+only
+ works
+ on
+ my
+ merchant
+ domain
+ and
+ I
+
+
+am
+ going
+ to
+ use
+ this
+ when
+ I
+ send
+ it
+ to
+
+
+Chase
+ Payment.
+ So
+ VGS
+ as
+ a
+ company
+
+
+vaults
+ all
+ these
+ credentials
+ on
+ behalf
+
+
+of
+ the
+ of
+ the
+ merchant
+ also
+ gets
+ all
+ of
+
+
+the
+ network
+ tokens
+ which
+ is
+ the
+ primary
+
+
+way
+ that
+ these
+ credentials
+ are
+ passed
+ to
+
+
+the
+ payment
+ processor
+ and
+ to
+ the
+ network
+
+
+um
+ and
+ that's
+ what
+ we
+ do
+ today.
+ And
+ so
+
+
+um
+ because
+ of
+ that
+ complexity
+ of
+
+
+interacting
+ with
+ the
+ card
+ networks
+ and
+
+
+doing
+ this
+ across
+ multiple
+ processors.
+
+
+So
+ actually
+ here's
+ a
+ question
+ for
+ you
+
+
+Alex.
+ If
+ you're
+ a
+ merchant
+ with
+ over
+ a
+
+
+billion
+ dollars
+ in
+ GMV,
+ how
+ many
+ payment
+
+
+processors
+ do
+ you
+ have
+ on
+ the
+ back
+ end?
+
+
+>> Well,
+ it
+ depends.
+ Uh
+ there
+ there
+ are
+
+
+plenty
+ that
+ just
+ have
+ one,
+ but
+ but
+ you
+
+
+are
+ better.
+ I
+ mean,
+ but
+ this
+ goes
+ to
+ the
+
+
+use
+ case
+ of
+ of
+ VGS,
+
+
+>> which
+ is
+ rather
+ than
+ being
+ locked
+ into
+
+
+one
+ payment
+ processor,
+ uh
+ you'd
+ rather
+
+
+unbundle
+ that
+ and
+ you'd
+ rather
+ be
+ able
+
+
+to
+ pick
+ and
+ choose
+ which
+ payment
+
+
+processor
+ you
+ use.
+ But
+ also
+ if
+ you
+ if
+
+
+you
+ have
+ a
+ kind
+ of
+ a
+ a
+ shared
+
+
+infrastructure
+ that
+ is
+ storing
+
+
+credentials,
+ what
+ if
+ one
+ credential
+ goes
+
+
+bad?
+ Like
+ what
+ what
+ if
+ my
+ I
+ just
+ had
+ a
+
+
+Capital
+ One
+ card.
+ Great
+ example.
+ Capital
+
+
+One
+ bought
+ Discover
+ card.
+ Yeah.
+ Or
+
+
+Discover
+ Network
+ and
+ then
+ my
+ my
+ fancy
+
+
+Capital
+ One
+ cashback
+ rewards
+ 1.5%
+ Visa
+
+
+card.
+ It
+ became
+ a
+ Discover
+ card
+
+
+>> and
+ every
+ week
+ I
+ get
+ like
+ notifications
+
+
+from
+ very
+ sad
+ merchants.
+ we
+ are
+ unable
+
+
+to
+ process
+ your
+ card.
+ Why
+ are
+ they
+
+
+unable
+ to
+ process
+ my
+ card?
+ Because
+ that
+
+
+old
+ card
+ number
+ doesn't
+ exist
+ anymore
+
+
+even
+ though
+ I
+ have
+ the
+ same
+ I
+ still
+ have
+
+
+a
+ relationship
+ with
+ Capital
+ One.
+ I
+ just
+
+
+got
+ a
+ new
+ card
+ number
+ from
+ them.
+ Yeah,
+
+
+>> granted
+ it's
+ a
+ little
+ bit
+ complicated.
+
+
+It's
+ on
+ a
+ on
+ a
+ new
+ network.
+ Like
+ there's
+
+
+also
+ the
+ possibility
+ like
+ merchants
+
+
+can't
+ just
+ say,
+ "Oh,
+ we've
+ seen
+ we
+ know
+
+
+that
+ this
+ card
+ became
+ that
+ card.
+ One
+
+
+merchant
+ cannot
+ do
+ that."
+
+
+>> Yeah.
+
+
+>> But
+ a
+ large
+ vault
+ can
+ do
+ that.
+ And
+ then
+
+
+as
+ as
+ you
+ know
+ the
+ um
+ the
+ actual
+
+
+networks
+ themselves
+ like
+ Visa
+ and
+
+
+Mastercard
+ and
+ actually
+ Discover
+ too,
+
+
+they
+ have
+ these
+ account
+ updating
+ tools.
+
+
+Yeah.
+
+
+>> So
+ you
+ could
+ say,
+ "Hey,
+ I'm
+ a
+ merchant.
+
+
+I
+ have
+ all
+ of
+ these
+ card
+ numbers."
+ And
+ I
+
+
+think
+ what
+ is
+ it
+ every
+ year
+ like
+ 10%
+ of
+
+
+cards
+ expire?
+
+
+>> Yeah.
+ So
+ about
+ a
+ third
+ of
+ all
+ cards
+ get
+
+
+turned
+ over
+ every
+ single
+ year.
+ No,
+ even
+
+
+more
+
+
+>> like
+ like
+ 25%
+ mathematically
+ because
+
+
+it's
+ a
+ it's
+ a
+ four-year
+ expiration
+
+
+>> and
+ another
+ 5%
+ due
+ to
+ you
+ know
+ in
+ this
+
+
+case
+ Capital
+ One
+ buying
+ discover
+ or
+
+
+fraud
+ or
+ or
+ something
+ else.
+ So
+ so
+ you
+
+
+know
+ back
+ to
+ that
+ question
+ by
+ the
+ way
+
+
+for
+ a
+ merchant
+ of
+ about
+ of
+ a
+ billion
+
+
+dollars
+ it's
+ about
+ three
+ to
+ five
+
+
+processors
+ that
+ that
+ merchant
+ will
+ have.
+
+
+So
+ now
+
+
+>> they
+ don't
+ have
+ to
+
+
+>> uh
+ they
+ don't
+ have
+ to
+ but
+ they
+ should
+
+
+point.
+ That
+ that
+ is
+ the
+ average
+ that
+ we
+
+
+see
+ you
+ know
+ you
+ know
+ across
+ the
+
+
+>> but
+ there's
+ a
+ reason
+ for
+ them
+ to
+ do
+ that
+
+
+because
+ you
+ know
+ different
+ costs
+
+
+different
+ approval
+ rates
+ different
+
+
+regions
+ like
+ you
+ want
+ to
+ shard
+
+
+>> correct
+
+
+>> in
+ in
+ kind
+ of
+ computer
+ science
+ terms
+ you
+
+
+want
+ to
+ you
+ have
+ all
+ of
+ your
+ cards
+ and
+
+
+if
+ you
+ just
+ say
+ I
+ use
+ the
+ same
+ processor
+
+
+every
+ single
+ time
+ that's
+ just
+ not
+ a
+ good
+
+
+idea
+ or
+ it's
+ not
+ as
+ good
+ of
+ an
+ idea
+ as
+ I
+
+
+can
+ have
+ multiple
+ processors
+ but
+ in
+
+
+order
+ to
+ do
+ that
+ I
+ have
+ to
+ be
+ able
+ to
+
+
+securely
+ send
+ the
+ card
+ number
+ to
+ the
+
+
+processor
+ that
+ I've
+ chosen.
+ Yeah,
+ that's
+
+
+that's
+ right.
+ And
+ in
+ fact,
+ once
+ you
+ have
+
+
+multiple
+ processors,
+ then
+ the
+ job
+ of
+
+
+vaulting
+ and
+ getting
+ updates
+ is
+
+
+multiplied
+ by
+ the
+ number
+ of
+ processors.
+
+
+So
+ maybe
+ I
+ have
+ a
+ 100
+ million
+ cards
+ in
+
+
+as
+ as
+ a
+ merchant,
+ but
+ I
+ have
+ to
+ store
+
+
+100
+ million
+ with
+ Chase
+ and
+ 100
+ million
+
+
+with
+ Stripe
+ and
+ 100
+ million
+ with
+
+
+Brainree.
+ And
+ each
+ of
+ those
+ vaults
+ have
+
+
+to
+ be
+ updated
+ at
+ at
+ their
+ networks.
+ And
+
+
+so
+ what
+ what
+ VGS
+ does
+ is
+ serve
+ as
+ an
+
+
+independent
+ vault
+ neutral
+ infrastructure
+
+
+on
+ behalf
+ of
+ the
+ merchants
+ for
+ the
+
+
+vaulting
+ and
+ the
+ updates
+ such
+ that
+ the
+
+
+merchant
+ can
+ then
+ send
+ a
+ Visa
+ token
+ to
+
+
+the
+ merchant
+ via
+ Stripe,
+
+
+>> right?
+
+
+>> Um
+ back
+ to
+ your
+ kind
+ of
+ Capital
+ One,
+ you
+
+
+know,
+ annoying
+ Capital
+ One
+ uh
+ issue.
+ If
+
+
+you're
+ a
+ VGS
+ merchant,
+ that
+ should
+ not
+
+
+happen.
+ So
+ there
+ are
+ mechanisms
+ when
+
+
+Capital
+ One
+ is
+ switching
+ from
+ Visa
+ to
+
+
+Mastercard
+ to
+ get
+ sorry
+ Visa
+ to
+ discover
+
+
+to
+ get
+ those
+ updates.
+ Um
+ and
+ certainly
+
+
+that's
+ the
+ case
+ if
+ there's
+ fraud
+ or
+
+
+something
+ else
+ and
+ that's
+ the
+ role
+ that
+
+
+that
+ that
+ VGS
+ is
+ playing.
+
+
+>> Yep.
+ Yep.
+ Exactly.
+ So
+ so
+ hopefully
+
+
+everybody
+ has
+ a
+ good
+ understanding
+ now
+
+
+of
+ what
+ very
+ good
+ security
+ does
+ um
+ VGS
+
+
+does.
+ So
+ uh
+ out
+ of
+ nowhere
+ and
+ this
+ this
+
+
+was
+ a
+ good
+ business
+ years
+ ago.
+ I
+ mean,
+
+
+I've
+ I've
+ been
+ a
+ believer
+ for
+ a
+ long
+
+
+time
+ and
+ then
+ this
+ whole
+ thing
+ called
+
+
+Agentic
+ Commerce
+ showed
+ up.
+ Um,
+ I
+ guess
+
+
+how
+ does
+ the
+ world
+ change
+ and
+ you
+ guys
+
+
+are
+ at
+ the
+ center
+ of
+ this
+ because
+ again,
+
+
+I
+ don't
+ know
+ I
+ don't
+ know
+ what
+ what
+
+
+companies
+ that
+ that
+ work
+ with
+ you
+ I'm
+
+
+allowed
+ to
+ say
+ or
+ not,
+ but
+ let's
+ just
+
+
+say
+ like
+ a
+ lot
+ of
+ AI
+ companies
+ have
+
+
+decided
+ to
+ to
+ work
+ with
+ uh
+ with
+ VGS.
+ And
+
+
+for
+ what
+ reason?
+ Well,
+ the
+ reason
+ is
+ you
+
+
+don't
+ if
+ I
+ say,
+ "Hey,
+ buy
+ me
+ flowers."
+
+
+If
+ I
+ go
+ into
+ my
+ my
+ little
+ chat
+ tool
+ and
+
+
+say,
+ "Hey,
+ I'd
+ like
+ to
+ buy
+ flowers
+ for
+
+
+my
+ wife.
+ It's
+ Mother's
+ Day."
+ She'll
+ get
+
+
+mad
+ at
+ me
+ if
+ I
+ don't
+ buy
+ them,
+ and
+
+
+she'll
+ be
+ happy
+ if
+ I
+ do
+ buy
+ them.
+ Please
+
+
+buy
+ them.
+ I
+ don't
+ want
+ to
+ give
+ my
+
+
+credit.
+ Maybe
+ I
+ do
+ want
+ to
+ give
+ my
+
+
+credit
+ card
+ number
+ to
+ we'll
+ call
+ it
+ um
+
+
+chat
+ app.
+ Um
+ but
+ they
+ don't
+ want
+ to
+
+
+store
+ it.
+ And
+ then
+ even
+ if
+ they
+ do
+ store
+
+
+it,
+ they
+ have
+ to
+ communicate
+ it
+ to
+ the
+
+
+merchant.
+ And
+ how
+ do
+ they
+ do
+ that?
+ And
+
+
+like
+ the
+ better
+ option
+ is
+ you
+ have
+ a
+
+
+third
+ party
+ that
+ already
+ knows
+ how
+ to
+ do
+
+
+this.
+ Yeah.
+
+
+>> So
+ you
+ you
+ take
+ out
+ of
+ scope.
+ I
+ mean
+
+
+it's
+ interesting
+ like
+ um
+ I
+ don't
+ know
+ if
+
+
+most
+ of
+ our
+ audience
+ knows
+ what
+ the
+ PCI
+
+
+DSS
+ rules
+ are
+ but
+ that's
+ the
+ payment
+
+
+card
+ initiative
+ digital
+ security
+ system
+
+
+if
+ I
+ remember
+ correct.
+ Did
+ I
+ get
+ that
+
+
+right?
+ Um,
+ so
+ if
+ you've
+ heard
+ of
+ PCI
+
+
+compliance
+ that
+ says,
+ well,
+ if
+ you're
+
+
+going
+ to
+ be
+ a
+ merchant
+ and
+ you
+ accept
+
+
+credit
+ cards,
+ there
+ is
+ a
+ document,
+ I
+
+
+think
+ last
+ time
+ I
+ read
+ it,
+ it
+ was
+ over
+ a
+
+
+100
+ pages
+ of
+ all
+ of
+ the
+ rules
+ that
+ you
+
+
+have
+ to
+ do
+ and
+ maintain
+ in
+ order
+ to
+ be
+
+
+PCI
+ compliant.
+ And
+ why
+ is
+ being
+ PCI
+
+
+compliant
+ very
+ important?
+ Because
+ every
+
+
+bank
+ demands
+ it.
+ You
+ cannot
+ process
+
+
+credit
+ cards
+ unless
+ you
+ are
+ PCI
+
+
+compliant.
+ You
+ cannot
+ issue
+ credit
+ cards
+
+
+unless
+ you
+ are
+ PCI
+ compliant.
+ That's
+ why
+
+
+it's
+ this
+ payment
+ card
+ initiative.
+ It's
+
+
+all
+ the
+ um
+ you
+ know,
+ Visa
+ and
+ Mastercard
+
+
+might
+ be
+ enemies,
+ but
+ on
+ this
+ they
+ agree
+
+
+you
+ have
+ to
+ be
+ PCI
+ compliant.
+ Uh
+ one
+ of
+
+
+the
+ nice
+ things
+ that
+ VGS
+ takes
+ PCI
+
+
+compliance
+ out
+ of
+ scope.
+ So
+ you
+ don't
+
+
+you
+ basically
+ say
+ I
+ can
+ just
+ run
+ my
+
+
+business
+ like
+ a
+ normal
+ business.
+ I
+ don't
+
+
+have
+ to
+ follow
+ these
+ 100
+ pages
+ of
+ rules.
+
+
+VGS
+ just
+ focuses
+ on
+ that,
+ right?
+ Which
+
+
+kind
+ of
+ goes
+ back
+ to
+ like
+ I
+ want
+ to
+ buy
+
+
+flowers
+ for
+ my
+ my
+ beloved
+ wife
+ and
+ I
+
+
+want
+ to
+ have
+ my
+ chat
+ application
+ do
+ that
+
+
+for
+ me.
+ Turns
+ out
+ VGS
+ is
+ pretty
+ well
+
+
+positioned
+ here
+ just
+ by
+ being
+ the
+
+
+backend
+ infrastructure,
+ but
+ now
+ can
+ take
+
+
+a
+ a
+ pretty
+ vital
+ role
+ in
+ this
+ this
+ whole
+
+
+process.
+
+
+>> Yeah,
+ I
+ mean
+ I
+ I
+ I
+ think
+ you
+ know
+ in
+ the
+
+
+last
+ 3
+ months
+ we've
+ had
+ this
+ huge
+ leap
+
+
+from
+
+
+agents
+ being
+ what
+ I
+ would
+ call
+
+
+spectators
+ to
+ agents
+ being
+ actors.
+ And
+
+
+how
+ do
+ they
+ act
+ on
+ my
+ behalf?
+ Well,
+ if
+
+
+you
+ give
+ them
+ a
+ payment
+ credential
+ in
+ a
+
+
+safe
+ way,
+
+
+>> right,
+
+
+>> I
+ can
+ go
+ from
+ recommending
+ the
+ flowers
+
+
+for
+ your
+ wife
+ to
+ buying
+ the
+ flowers
+ for
+
+
+your
+ wife.
+ So,
+ like
+ I'll
+ give
+ you an
+
+
+example.
+ Like
+ just
+ last
+ night,
+ my
+ wife
+
+
+and
+ I
+ have
+ been
+ talking
+ about
+ getting
+ a
+
+
+piano
+ teacher
+ for
+ our
+ seven-year-old
+
+
+son.
+ And
+ it's
+ complicated
+ because
+ we
+ you
+
+
+have
+ to
+ know
+ our
+ schedule
+ and
+ he
+ has
+
+
+soccer
+ three
+ days
+ a
+ week
+ and
+ we
+ want
+
+
+someone
+ who
+ can
+ come
+ to
+ the
+ house.
+ We
+
+
+have
+ to
+ know
+ the
+ schedule
+ of
+ the
+ piano
+
+
+teacher.
+ And
+ you
+ know,
+ I
+ asked
+ chat
+ GPT
+
+
+about
+ this
+ a
+ while
+ ago
+ and
+ I
+ got
+ some
+
+
+recommendations,
+ but
+ just
+ last
+ night
+ I
+
+
+asked
+ an
+ agent
+ and
+ it
+ did
+ the
+ entire
+
+
+transaction
+ task
+ for
+ me.
+ It
+ found
+ a
+
+
+bunch
+ of
+ people,
+ asked
+ me
+ a
+ few
+
+
+questions,
+ checked
+ the
+ schedule
+ and
+
+
+booked
+ someone
+ for,
+ you
+ know,
+ for
+ the
+
+
+very
+ first
+ lesson.
+ So
+ that
+ is
+ infinitely
+
+
+more
+ useful
+ than
+ dumping
+ yet
+ another
+
+
+task
+ on
+ my
+ doorstep.
+ So,
+ so
+ agents
+ have
+
+
+all
+ of
+ a
+ sudden
+ become
+ significantly
+
+
+more
+ helpful
+ and
+ useful
+ because
+ they
+
+
+effectively
+ have
+ arms
+ and
+ legs
+ which
+ are
+
+
+payment
+ credentials.
+ And
+ so
+ what
+ what's
+
+
+happened
+ with
+ the
+ rise
+ of
+ you
+ know
+ Muse
+
+
+and
+ Instinct
+ uh
+ and
+ Town
+ and
+ other
+ AI
+
+
+agents
+ is
+ once
+ they
+ have
+ access
+ to
+
+
+payment
+ credentials
+ their
+ utility
+
+
+increases.
+ And
+ so
+ we
+ sort
+ of
+ have
+ kicked
+
+
+off
+ what
+ I
+ kind
+ of
+ call
+ the
+ wallet
+ wars
+
+
+where
+ every
+ wallet
+ is
+ now
+ rushing
+ to
+
+
+connect
+ to
+ the
+ agents.
+ And
+ of
+ course
+ as
+
+
+an
+ agent
+ I
+ want
+ a
+ wallet
+ that
+ has
+ sort
+
+
+of
+ two
+ things.
+ One
+ the
+ the
+ most
+ number
+
+
+of
+ consumers
+ that
+ already
+ have
+ a
+
+
+credential
+ at
+ that
+ wallet
+ and
+ a
+ wallet
+
+
+that
+ has
+ a
+ very
+ broad
+ merchant
+ reach.
+
+
+And
+ so
+ you
+ know
+ right
+ now
+ this
+ is
+ sort
+
+
+of
+ companies
+ like
+ Stripe
+ Link.
+ They
+ have
+
+
+about
+ 300
+ million
+ consumers
+ have
+ an
+
+
+account
+ at
+ link.
+ About
+ a
+ million
+
+
+merchants
+ use
+ link.
+ You
+ have
+ Shopify
+
+
+with
+ Shopay
+ similarish
+ um
+ you
+ know
+
+
+consumer
+ size
+ probably
+ more
+ like
+ 1.7
+
+
+million
+ merchants
+
+
+>> right
+
+
+>> then
+ you
+ have
+ PayPal
+ which
+ has
+ got
+ you
+
+
+know
+ over
+ 400
+ million
+ accounts
+ depends
+
+
+on
+ how
+ you
+ kind
+ of
+ you
+ know
+ sort
+ of
+ you
+
+
+know
+ h
+ how
+ that's
+ actually
+ measured
+ but
+
+
+they
+ have
+ on
+ the
+ order
+ of
+ 30
+ million
+
+
+merchants.
+ So
+ these
+ wallets
+ are
+
+
+connecting
+ to
+ the
+ agents
+ and
+ I
+ think
+ are
+
+
+providing
+ a
+ lot
+ more
+ utility.
+
+
+>> So
+ it's
+ interesting
+ though
+ because
+
+
+wallet
+ wars
+ have
+ been
+ around
+ for
+ a
+
+
+while.
+ So
+ remember
+ uh
+ not
+ not
+ to
+ speak
+
+
+ill
+ of
+ our
+ of
+ our
+ old
+ employer,
+ remember
+
+
+Vime?
+
+
+>> Yes.
+
+
+>> Right.
+ VME.
+
+
+>> VM
+ me.
+ But
+ it
+ was
+ something
+ before
+ that.
+
+
+I
+ forgot.
+ They
+ changed
+ the
+ name
+ to
+ Vime.
+
+
+But
+ there
+ have
+ been
+ many
+ attempts
+ like
+
+
+why
+ why
+ were
+ there
+ wallet
+ wars
+ 10
+ or
+ 15
+
+
+years
+ ago?
+ Because
+ it
+ turns
+ out
+ that
+
+
+being
+ the
+ default
+ stored
+ credential
+ for
+
+
+a
+ consumer,
+ right?
+ Like
+ if
+ I
+ can
+ if
+ I
+
+
+can
+ get
+ trained
+ in
+ a
+ Pavlovian
+ way
+ where
+
+
+it's
+ like
+ oh
+ I
+ see
+ flowers
+ I
+ use
+ PayPal.
+
+
+Well
+ PayPal
+ is
+ better
+ off
+ for
+ that.
+
+
+>> That's
+ correct.
+
+
+>> Um
+ or
+ one
+ of
+ the
+ things
+ that
+ we
+ worked
+
+
+on
+ at
+ Trial
+ Pay
+ was
+ how
+ does
+ a
+ Visa
+ It's
+
+
+very
+ good
+ for
+ Visa.
+ It's
+ very
+ good
+ for
+
+
+Visa's
+ issuing
+ banks
+ if
+ the
+ default
+ card
+
+
+in
+ your
+ Uber
+ wallet
+ because
+ Uber
+ is
+ a
+
+
+wallet
+ too.
+ Yeah.
+
+
+>> You
+ can
+ store
+ eight
+ different
+ cards
+ or
+
+
+credentials
+ within
+ Uber.
+ being
+ the
+ top
+
+
+of
+ wallet
+ is
+ very
+ very
+ important
+ because
+
+
+when
+ digital
+ wallets
+ came
+ out
+ like
+ I
+ I
+
+
+kind
+ of
+ like
+ to
+ think
+ before
+ digital
+
+
+wallets
+ you
+ had
+ what
+ I
+ like
+ to
+ call
+ dead
+
+
+cow
+ wallets
+ you
+ know
+ an
+ actual
+ I
+ think
+ I
+
+
+have
+ one
+ here
+ give
+ a
+ demo
+ to
+ our
+
+
+audience
+ this
+ is
+ called
+ a
+ dead
+ cow
+
+
+wallet
+ um
+ has
+ lots
+ of
+ lots
+ of
+
+
+credentials
+ in
+ there
+ um
+ but
+ before
+
+
+Capital
+ One
+ would
+ pay
+ Samuel
+ LJ
+ Jackson
+
+
+to
+ say
+ what's
+ in
+ your
+ wallet
+ why
+ would
+
+
+they
+ do
+ that
+ because
+ when
+ you
+ go
+ to
+
+
+Chipotle
+ they
+ want
+ you
+ to
+ pull
+ out
+ your
+
+
+dead
+ cow
+ wallet
+ and
+ say
+ like
+ I'm
+ going
+
+
+to
+ pay
+ with
+ my
+ Capital
+ one
+ card.
+
+
+>> Yeah.
+
+
+>> Right.
+ And
+ that
+ was
+ the
+ whereas
+ for
+ when
+
+
+digital
+ wallets
+ emerged,
+ it's
+ like
+ I'm
+
+
+shop
+ pay,
+ I'm
+ PayPal,
+ I
+ want
+ to
+ be
+ your
+
+
+default.
+ And
+ then
+ actually
+ what
+ the
+
+
+interesting
+ thing
+ is
+ like
+ within
+ that
+
+
+wallet,
+ there
+ were
+ other
+ credentials
+ and
+
+
+those
+ guys
+ were
+ competing
+ to
+ be
+ the
+
+
+number
+ one.
+ Like
+ if
+ if
+ you
+ recall
+ at
+ at
+
+
+at
+ Visa
+ when
+ we
+ were
+ dealing
+ with
+ Uber
+
+
+and
+ Airbnb,
+ there
+ was
+ tens
+ of
+ millions
+
+
+of
+ dollars
+ paid
+ by
+ the
+ issuers.
+ So
+ like
+
+
+Chase
+ and
+ Ammex
+ to
+ prefer
+ their
+ cards
+ on
+
+
+those
+ platforms.
+ So
+ that's
+ one
+ war
+ which
+
+
+is
+ like
+
+
+>> this
+ is
+ my
+ card.
+ I
+ want
+ you
+ know
+ I
+ want
+
+
+to
+ sort
+ of
+ you
+ know
+ promote
+ this
+ to
+ the
+
+
+to
+ the
+ to
+ the
+ top
+ of
+ wallet.
+ You're
+
+
+talking
+ about
+ the
+ actual
+ network
+ war
+
+
+where
+ Visa
+ and
+ and
+ we
+ helped
+ Visa
+ become
+
+
+a
+ default
+ card
+ at
+ at
+ at
+ Uber
+ and
+ now
+ you
+
+
+have
+ this
+ other
+ layer,
+ this
+ abstraction
+
+
+layer
+ of
+ IMA
+ wallet
+ that
+ actually
+
+
+processes
+ the
+ transaction,
+ the
+ shop
+
+
+pays,
+ the
+ links
+ and
+ the
+ and
+ the
+ PayPals.
+
+
+And
+ so
+ we
+ talked
+ about
+ how
+ a
+ checkout
+
+
+looks
+ like
+ a
+ bit
+ like
+ NASCAR
+ because
+ you
+
+
+have
+ multiple
+ different
+ buttons.
+
+
+>> Pay
+ with
+ PayPal,
+ pay
+ with
+ Google
+ check.
+
+
+remember
+ Google
+ checkout
+ came
+ out
+ along
+
+
+>> they
+ were
+ yet
+ another
+ but
+ there
+ were
+
+
+like
+ there
+ are
+ consumer
+ wallets
+ and
+ then
+
+
+there
+ are
+ merchant
+ because like
+ the
+
+
+interesting
+ thing
+ is
+ that
+ I
+ I
+ kind
+ of
+
+
+think
+ of
+ VGS
+ as
+ a
+ merchant
+ wallet
+ to
+ an
+
+
+extent
+ I
+ mean
+ like
+ it's
+ it's
+ a
+ strange
+
+
+metaphor
+ to
+ use
+ because
+ a
+ merchant
+ isn't
+
+
+paying
+ for
+ things
+ a
+ merchant
+ is
+
+
+receiving
+ payments
+ but
+ like
+ once
+ I
+
+
+receive
+ the
+ payment
+ like
+ where
+ where
+ do
+
+
+I
+ put
+ it
+ especially
+ if
+ I'm
+ billing
+ this
+
+
+customer
+ again
+ and
+ again
+ and
+ again
+ and
+
+
+again
+ for
+ PCI
+ reasons
+ and
+ whatnot
+ I
+
+
+don't
+ want
+ to
+ store
+ scraps
+ of
+ paper
+ with
+
+
+like
+ your
+ se
+ that
+ that
+ secret
+
+
+three-digit
+ code
+ that
+ of
+ course
+ is
+ not
+
+
+secret
+ because
+ it's
+ on
+ the
+ back
+ of
+ your
+
+
+card,
+ but
+ I
+ need
+ it
+ to
+ process
+ it.
+ I
+
+
+don't
+ want
+ to
+ store
+ your
+ 16digit,
+ you
+
+
+know,
+ credential
+ and
+ just
+ keep
+ it
+ in
+
+
+scraps
+ of
+ paper
+ and
+ like
+ my
+ my
+ my
+ uh
+
+
+original
+ um
+ cash
+ register.
+ Like
+ I
+ need
+
+
+something
+ to
+ go
+ receive
+ that
+ for
+ me.
+ On
+
+
+the
+ consumer
+ side,
+ it's
+ like
+ I
+ don't
+
+
+want
+ to
+ remember
+ like
+ what
+ was
+ the
+
+
+original
+ purpose
+ of
+ a
+ consumer
+ wallet?
+
+
+It's
+ that
+ it's
+ 2:00
+ in
+ the
+ morning.
+ I
+
+
+want
+ to
+ buy
+ flowers
+ for
+ my
+ wife.
+ My
+
+
+wallet's
+ downstairs.
+ like
+ I
+ don't
+ know
+
+
+where
+ my
+ wallet
+ is.
+ I
+ want
+ to
+ go
+ pay
+ on
+
+
+1800
+ Flowers
+ right
+ now.
+ And
+ if
+ I
+ just
+
+
+enter
+ my
+ PayPal
+ credentials,
+ they
+ were
+ a
+
+
+rapper
+ and
+ link
+ to
+ all
+ of
+ my
+ my
+ kind
+ of
+
+
+all
+ the
+ credentials
+ in
+ my
+ dead
+ cow
+
+
+wallet.
+ Like
+ that
+ that
+ was
+ the
+ purpose
+
+
+back
+ then.
+ But
+ what
+ I
+ find
+ interesting
+
+
+with
+ all
+ of
+ aentic
+ commerce
+ is
+ it's
+ kind
+
+
+of
+ the
+ same
+ thing.
+
+
+>> It's
+ like,
+ you
+ know,
+ you're
+ you're
+ it's
+
+
+still
+ 2
+ o'clock
+ in
+ the
+ morning.
+ You
+
+
+know,
+ you
+ you
+ still
+ want
+ to
+ buy
+ flowers
+
+
+for
+ for
+ your
+ wife
+ or
+ something
+ bad
+ that
+
+
+you
+ did
+ or,
+ you
+ know,
+ Mother's
+ Day
+ or
+
+
+whatever.
+
+
+>> Something
+ good,
+ Alex.
+
+
+>> Something
+ good,
+ right?
+ you
+ know,
+ always
+
+
+always
+ time
+ to
+ buy
+ flowers.
+ I
+ mean,
+ make
+
+
+sure
+ we're
+ sponsored
+ by
+ 1800
+ Flowers,
+ so
+
+
+make
+ sure
+ to
+ buy
+ there.
+ Um,
+ so
+ you
+ want
+
+
+to
+ go
+ buy
+ and
+ your
+ agent
+ doesn't
+ have
+
+
+access.
+ Like
+ it
+ it's
+ the
+ same
+ problem,
+
+
+right?
+ It's
+ like
+ the
+ agent
+ could
+ say,
+
+
+"Hey,
+ Terry,
+ where's
+ your
+ credit
+ card
+
+
+number?"
+ And
+ that's
+ more
+ work
+ and
+ more
+
+
+friction
+ versus
+ it
+ has
+ access
+ to
+ it
+ in
+
+
+the
+ same
+ way
+ that
+ you
+ just
+ gave
+ access
+
+
+to
+ all
+ of
+ your
+ cards,
+ all
+ of
+ your
+ bank
+
+
+accounts
+ to
+ PayPal
+ to
+ reduce
+ the
+
+
+friction
+ when
+ you
+ were
+ doing
+ things
+
+
+manually
+ 15
+ years
+ ago.
+
+
+>> Yeah.
+ And
+ look,
+ I
+ think
+ the
+ word
+ wallet
+
+
+is
+ is
+ a
+ bit
+ overused.
+ There's
+ sort
+ of
+
+
+different
+ versions
+ of
+ it.
+ One
+ is
+ the
+ the
+
+
+digital
+ version
+ of
+ your
+ of
+ your
+ dead
+ cow
+
+
+wallet,
+ which
+ is
+ that
+ it
+ just
+ stores
+ the
+
+
+payment
+ credential.
+ And
+ when
+ it
+ go
+ to
+
+
+when
+ you
+ go
+ to
+ a
+ merchant,
+ you
+ hand
+ that
+
+
+credential
+ to
+ the
+ merchant.
+ All right?
+
+
+That's
+ kind
+ of
+ what
+ Apple
+ Pay
+ does,
+
+
+right?
+ when
+ when
+ I
+ shop
+ at
+ Apple
+ Pay
+ or
+
+
+so
+ when
+ I
+ shop
+ at
+ a
+ store
+ with
+ Apple
+
+
+Pay,
+ Apple
+ is
+ effectively
+ giving
+ my
+
+
+Capital
+ One
+ Visa
+ card
+ effectively
+
+
+tokenized
+ in
+ the
+ wallet
+ to
+ the
+ merchant.
+
+
+The
+ merchant
+ receives
+ this
+ credential
+
+
+and
+ it
+ decides
+ whether
+ it
+ processes
+ it
+
+
+through
+ Chase
+ or
+ Adin
+ or
+ Stripe
+ or
+
+
+Brainree.
+
+
+Then
+ you
+ have
+ wallets
+ that
+ actually
+ take
+
+
+care
+ of
+ the
+ transaction
+ for
+ you.
+ So
+
+
+think
+ about
+ shop
+ pay
+ or
+ link
+ or
+ PayPal
+
+
+where
+ the
+ wallet
+ is
+ in
+ fact
+ transacting
+
+
+with
+ me
+ collecting
+ the
+ money
+ from
+ me
+ and
+
+
+remitting
+ that
+ back
+ to
+ the
+ merchant.
+ And
+
+
+what's
+ happening
+ with
+ Agent
+ Gente
+
+
+commerce
+ is
+ we're
+ sort
+ of
+ getting
+ this
+
+
+this
+ the
+ sort
+ of
+ you
+ know
+ blend
+ of
+ the
+
+
+two
+ and
+ it's
+ such
+ a
+ new
+ ecosystem
+ that
+
+
+it
+ actually
+ has
+ parallels
+ for
+ me
+ back
+ to
+
+
+the
+ early
+ days
+ of
+ the
+ internet.
+ And
+ uh
+
+
+for
+ those
+ people
+ who
+ were
+ around
+ in
+ the
+
+
+sort
+ of
+ AOL
+ era,
+ Stripe
+ in
+ many
+ ways
+ is
+
+
+like
+ the
+ AOL
+ of
+ Agentic
+ Commerce.
+ Um,
+
+
+and
+ I
+ I
+ mean
+ that
+ as
+ a
+ as
+ a
+ compliment
+
+
+in
+ the
+ sense
+ that
+ they've
+ figured
+ out
+
+
+how
+ to
+ make
+ agentic
+ commerce
+ just
+ work
+
+
+in
+ a
+ way
+ that's
+ a
+ very
+ kind
+ of,
+ you
+
+
+know,
+ uh,
+ sort
+ of,
+ you
+ know,
+ world
+
+
+garden
+ approach.
+ So,
+ you
+ know,
+ a
+ few
+
+
+examples
+ here
+ would
+ be
+ um,
+ if
+ I
+ use
+
+
+stripe
+ link,
+ links
+ only
+ available
+ at
+ a
+
+
+million
+ merchants.
+ So,
+ it's
+ great
+ if
+ in
+
+
+fact
+ the
+ item
+ that
+ I
+ want
+ is
+ available
+
+
+at
+ one
+ of
+ those
+ million
+ merchants,
+ but
+
+
+very
+ often
+ it's
+ available
+ at
+ some
+ place
+
+
+where
+ there
+ isn't
+ a
+ Stripe
+ link
+
+
+connection.
+ So,
+ a
+ good
+ example
+ was
+ I
+
+
+think
+ two
+ weeks
+ ago
+ I
+ had
+ this
+ event
+ at
+
+
+my
+ house.
+ I
+ wanted
+ to
+ buy
+ some
+ outdoor
+
+
+lights
+ and
+ I
+ asked
+ Instinct
+ to
+ go
+ and
+
+
+help
+ me
+ find
+ these
+ lights
+ and
+ I
+ found
+
+
+the
+ lights
+ at
+ Walmart
+ which
+ makes
+ a
+ ton
+
+
+of
+ sense.
+ Walmart
+ has
+ lots
+ of
+ inventory.
+
+
+And
+ the
+ agent
+ went
+ loaded
+ the
+ cart
+ and
+
+
+when
+ it
+ came
+ time
+ to
+ pay,
+ link
+ didn't
+
+
+have
+ a
+ connection
+ to
+ Walmart.
+
+
+It
+ link
+ has
+ my
+ card,
+ but
+ it
+ can't
+ just
+
+
+give
+ my
+ card
+ over
+ to
+ the
+ agent
+ and
+ over
+
+
+to
+ Walmart.
+ So,
+ Stripe
+ did
+ something
+
+
+pretty
+ interesting.
+ They
+ purchased
+ the
+
+
+chandeliers
+ on
+ my
+ behalf.
+ They
+ issued
+
+
+their
+ own
+ uh
+ actually
+ this
+ is
+ like
+ a
+ a
+
+
+Visa
+ virtual
+ card,
+ one
+ time
+ use
+ card.
+
+
+made
+ the
+ purchase
+ and
+ then
+ they
+ charged
+
+
+me
+ Terry
+ as
+ at
+ at
+ a
+ second
+ transaction.
+
+
+This
+ is
+ a
+ little
+ bit
+ how
+ like
+ Door
+ Dash
+
+
+works
+ today.
+ You
+ know,
+ you
+ like
+ spend
+ a
+
+
+hundred
+ bucks
+ at
+ Door
+ Dash
+ and
+ then
+ the
+
+
+Dasher
+ goes
+ and
+ and
+ and
+ pays
+ the
+
+
+restaurant.
+ Um,
+ but
+ in
+ the
+ case
+ of
+ this
+
+
+Walmart
+ transaction,
+ this
+ is
+ the
+ point
+
+
+about
+ it
+ sort
+ of
+ being
+ the
+ AOL,
+ it
+
+
+worked
+ just
+ great.
+ Like
+ I
+ actually
+ like
+
+
+the
+ the
+ the
+ item
+ showed
+ up,
+ the
+
+
+transaction
+ went
+ through,
+ I
+ was
+ charged
+
+
+the
+ right
+ amount.
+ But
+ if
+ there's
+ a
+
+
+problem
+ with
+ the
+ chandelier,
+ typically
+ I
+
+
+call
+ up
+ my
+ bank,
+ Capital
+ One,
+ and
+ I
+ say,
+
+
+"Hey,
+ I
+ had
+ this
+ transaction
+ with
+
+
+Walmart,
+ right?
+
+
+>> Something,
+ you
+ know,
+ went
+ wrong."
+ And
+
+
+they
+ say, "Well,
+ we
+ don't
+ see
+ a
+ Walmart
+
+
+transaction
+ here.
+
+
+>> We
+ see
+ a
+ stripe.
+
+
+>> We
+ just
+ see
+ a
+ stripe
+ transaction."
+ And
+
+
+in
+ fact,
+ you
+ will
+ find
+ this
+ pretty
+
+
+pretty
+ funny.
+ I
+ know
+ someone
+ who
+ uh
+ in
+
+
+the
+ sort
+ of
+ testing
+ phase
+ uh
+ did
+ this
+
+
+exact
+ flow
+ on
+ their
+ on
+ their
+ AMX
+ card
+
+
+called
+ up
+ AMX
+ and
+ said,
+ "Hey,
+ I
+ I
+ you
+
+
+know,
+ this
+ transaction
+ with
+ the
+ merchant
+
+
+didn't
+ go
+ through,
+ but
+ Amx
+ only
+ saw
+
+
+Stripe."
+ So,
+ they
+ gave
+ them
+ a
+ phone
+
+
+number
+ to
+ call
+ whoever
+ this
+ link
+
+
+merchant
+ is.
+ the
+ person
+ called
+ them,
+ it
+
+
+went
+ straight
+ to
+ the
+ cell
+ phone
+ of
+ a
+
+
+Stripe
+ engineer
+ because
+ Stripe's
+ not
+ set
+
+
+up
+ to
+ run
+ a
+ chargeback,
+ you
+ know,
+ sort
+
+
+of
+
+
+>> Well,
+ this
+ is
+ the
+ main
+ like
+ one
+ of
+ the
+
+
+reasons
+ why
+ Visa
+ and
+ Mastercard
+ have
+
+
+such
+ impregnable
+ positions
+ is
+ because
+
+
+they
+ intermediate
+ everything
+ and
+ they
+
+
+set
+ the
+ rules
+ and
+ chargebacks
+ are
+ very
+
+
+important.
+ Yeah.
+
+
+>> Right.
+ Like
+ what
+ if
+ I
+ I
+ paid
+ for
+
+
+something?
+ It's
+ a
+ trust
+ mechanism.
+ I
+ pay
+
+
+you
+ for
+ something.
+ I
+ pay
+ you
+ for
+ lights.
+
+
+You
+ don't
+ deliver
+ the
+ lights.
+ Like,
+ oh
+
+
+shoot,
+ I
+ don't
+ have
+ money
+ anymore.
+ What
+
+
+do
+ I
+ do?
+ No,
+ no,
+ no.
+ You
+ actually
+ have
+
+
+rules
+ by
+ which
+ I
+ can
+ kind
+ of
+ lodge
+ a
+
+
+complaint
+
+
+>> and
+ then
+ there's
+ a
+ central
+ intermediary
+
+
+that
+ helps
+ um
+ you
+ know
+ adjudicate
+ those
+
+
+complaints
+ in
+ a
+ way
+ that
+ is
+ you
+ know
+
+
+more
+ more
+ or
+ less
+ fair
+ that
+ both
+ parties
+
+
+agree
+ on.
+ I
+ mean
+ it's
+ part
+ of
+ the
+
+
+problem
+ like
+ this
+ is
+ why
+ crypto
+ cool
+ but
+
+
+like
+ it's
+ kind
+ it's
+ a
+ bearer
+ instrument.
+
+
+I
+ pay
+ you
+ with
+ crypto.
+ I'm
+ never
+ getting
+
+
+that
+ back.
+ Which
+ again
+ can
+ be
+ a
+ bug
+ or
+ a
+
+
+feature
+ but
+ for
+ your
+ lights
+ example
+ like
+
+
+what
+ if
+ the
+ lights
+ don't
+ work?
+ you
+ want
+
+
+to
+ have
+ Visa
+ and
+ Mastercard
+ in
+ the
+
+
+middle.
+ That's
+ that's
+ high
+ high
+ utility
+
+
+actually
+ even
+ for
+ the
+ merchant
+ because
+
+
+now
+ I
+ am
+ I'm
+ much
+ more
+ willing
+ to
+ buy
+
+
+with
+ the
+ merchant
+ knowing
+ that
+ if
+ they
+
+
+don't
+ actually
+ deliver
+ a
+ product
+ that
+
+
+works
+ I
+ can
+ get
+ my
+ money
+ back.
+
+
+>> Yeah.
+
+
+>> So
+ that
+ trust
+ mechanism
+ is
+ very
+
+
+important
+ but
+ again
+ if
+ you
+ if
+ you
+ add
+
+
+all
+ these
+ kind
+ of
+ um
+ interesting
+ and
+
+
+very
+ clever
+ engineering
+ steps
+ it
+ just
+
+
+the
+ the
+ the
+ purpose
+ it
+ doesn't
+ work
+ as
+
+
+well.
+
+
+>> Yeah.
+ So
+ in
+ fact
+ this
+ is
+ like
+ I
+ think
+
+
+the
+ right
+ sort
+ of
+ direction
+ of
+ travel
+
+
+from
+ the
+ AOL
+ ecosystem
+ to
+ the
+ open
+
+
+standards
+ ecosystem.
+
+
+The
+ card
+ networks
+ have
+ actually
+ come
+ out
+
+
+with
+ a
+ new
+ type
+ of
+ standard.
+ They're
+
+
+called
+ Agentic
+ tokens
+ that
+ will
+ allow
+ a
+
+
+wallet
+ like
+ a
+ Stripe
+ link
+ or
+ a
+ Shopee
+ or
+
+
+a
+ PayPal
+ to
+ hand
+ over
+ a
+ credential
+ to
+
+
+the
+ agent
+ in
+ a
+ safe
+ way
+ and
+ then
+ have
+
+
+the
+ agent
+ hand
+ it
+ to
+ the
+ merchant
+ in
+
+
+such
+ a
+ way
+ that
+ when
+ that
+ Walmart
+
+
+transaction
+ occurred,
+ it's
+ my
+ card.
+ In
+
+
+fact,
+ like
+ one
+ sort
+ of,
+ you
+ know,
+ um
+
+
+addendum
+ to
+ the
+ Walmart
+ transaction
+
+
+after
+ I
+ bought
+ the
+ chandelier,
+
+
+everything
+ was
+ fine.
+ I
+ got
+ an
+ email
+ from
+
+
+Walmart
+ to
+ say,
+ "Hey,
+ Terry,
+ you
+ paid
+
+
+for
+ delivery."
+ It
+ was
+ like
+ $6.99.
+ Why
+
+
+don't
+ you
+ sign
+ up
+ to
+ Walmart
+ Plus
+ and
+
+
+here's
+ an
+ offer.
+ If
+ you
+ sign
+ up
+ today,
+
+
+we
+ will
+ credit
+ the
+ delivery
+ toward
+ your
+
+
+Walmart
+ Plus
+ subscription.
+ So,
+ I
+ said,
+
+
+"Great."
+ I
+ hit
+ the
+ button
+ and
+ of
+ course
+
+
+the
+ transaction
+ failed
+ because
+ the
+ card
+
+
+that
+ they
+ had
+ was
+ the
+ Stripe
+ one
+ time
+
+
+use
+ card.
+ And
+ part
+ of
+ the,
+ you
+ know,
+ you
+
+
+mentioned
+ like
+ rules
+ and
+ norms.
+ Part
+ of
+
+
+the
+ norms
+ of
+ e-commerce
+ is
+ that
+ Walmart
+
+
+spends
+ a
+ lot
+ of
+ money
+ to
+ get
+ me
+ as
+ a
+
+
+customer
+ and
+ then
+ they
+ have
+ the
+ right
+ to
+
+
+try
+ to
+ have
+ a
+ relationship
+ with
+ me,
+
+
+upsell
+ me,
+ cross-ell
+ me.
+ And
+ in
+ this
+
+
+case,
+ because
+ we
+ were
+ using
+ the
+ sort
+ of
+
+
+AOL
+ version,
+ they
+ weren't
+ able
+ to
+ easily
+
+
+uh
+ allow
+ me
+ to
+ subscribe
+ to
+ all,
+ you
+
+
+know,
+ to
+ to
+ this
+ to
+ this
+ new
+ service.
+
+
+With
+ the
+ new
+ Agentic
+ standards,
+ what
+
+
+should
+ happen
+ is
+ if
+ any
+ of
+ the
+ wallets
+
+
+don't
+ have
+ a
+ relationship
+ with
+ the
+
+
+merchant,
+ but
+ they
+ have
+ my
+ card
+ on
+ file,
+
+
+my
+ Capital
+ One
+ uh
+ Visa
+ card,
+ that
+ should
+
+
+be
+ uh
+ um
+ tokenized
+ with
+ the
+ agent.
+
+
+There's
+ a
+ whole
+ process
+ by
+ which
+ the
+
+
+agent
+ says,
+ "I'm
+ about
+ to
+ make
+ a
+
+
+transaction.
+ I'm
+ a
+ verified
+ agent.
+ I'm
+
+
+going
+ to
+ spend
+ no
+ more
+ than
+ $100."
+
+
+That
+ um
+ the
+ token
+ is
+ nothing
+ more
+ than
+ a
+
+
+new
+ 16-digit
+ number.
+ Right?
+
+
+>> We
+ give
+ that
+ safely
+ to
+ the
+ agent.
+ Agent
+
+
+gives
+ it
+ to
+ Walmart
+ and
+ then
+ Walmart
+
+
+runs
+ the
+ transaction,
+ but
+ it's
+ my
+ card
+
+
+that
+ is
+ being
+ charged
+ and
+ that
+ preserves
+
+
+this
+ ability
+ to
+ have
+ a
+ follow-
+ on
+
+
+transaction.
+ It
+ preserves
+ all
+ of
+ the
+
+
+rules
+ around
+ chargebacks.
+ And
+ so,
+ you
+
+
+know,
+ 3
+ months
+ ago,
+ this
+ was
+ at
+ zero.
+ It
+
+
+did
+ not
+ exist.
+ VGS
+ is
+ by
+ far
+ the
+ largest
+
+
+uh
+ provisioner
+ of
+ these
+ agentic
+ tokens.
+
+
+We
+ do
+ it
+ for
+ the
+ for
+ the
+ agents.
+ We
+ do
+
+
+it
+ for
+ the
+ wallets.
+ We
+ do
+ it
+ for
+ some
+ of
+
+
+the
+ merchants
+ and
+ this
+ was,
+ you
+ know,
+
+
+zero
+ three
+ months
+ ago.
+ Now
+ we're
+ doing
+ a
+
+
+few
+ million
+ of
+ these
+ tokens
+ per
+ week.
+ So
+
+
+I
+ expect
+ that
+ as
+ we
+ make
+ this
+ transition
+
+
+from
+ the
+ from
+ the
+ walled
+ garden
+ to
+ the
+
+
+sort
+ of
+ open
+ standards,
+ this
+ will
+ be
+ the
+
+
+way
+ that
+ that
+ Agent
+ Commerce
+ evolves.
+
+
+>> Yeah,
+ I
+ mean
+ it's
+ it's
+ one
+ of
+ the
+
+
+reasons
+ why
+ this
+ like
+ kind
+ of
+ long
+ I
+ I
+
+
+mean
+ this
+ as
+ a
+ positive,
+ but
+ like
+ VGS
+
+
+has
+ a
+ very
+ boring
+ business
+ of
+ why
+ is
+ it
+
+
+boring?
+ Because
+ we
+ have
+ a
+ vault.
+ I
+ mean,
+
+
+anybody
+ who's
+ in
+ a
+ vaulting
+ business
+ is
+
+
+kind
+ it's
+ not
+ a
+ it's
+ not
+ an
+ exciting
+
+
+business.
+ Like
+ your
+ job
+ is
+ to
+ be
+ not
+
+
+exciting
+ and
+ be
+ safe
+ and
+ be
+ secure
+ and
+
+
+it's
+ like
+ things
+ go
+ in
+ the
+ vault
+ and
+
+
+then
+ every
+ now
+ and
+ then
+ things
+ go
+ out
+ of
+
+
+the
+ vault,
+ right?
+ It's
+ not
+ like
+ a
+
+
+one-way
+ door
+ because
+ this
+ the
+ way
+ that
+ I
+
+
+always
+ thought
+ about
+ VGS
+ is
+ um
+ there
+ are
+
+
+these
+ credentials
+ that
+ you
+ store.
+ So
+
+
+it's
+ like
+ you
+ get
+ these
+ 15digit
+ AMX
+
+
+numbers
+ or
+ 16digit,
+ you
+ know,
+ Visa,
+
+
+Mastercard
+ Discover
+ numbers,
+ you
+ store
+
+
+them,
+ you
+ give
+ back
+ like
+ a,
+ you
+ know,
+ a
+
+
+token.
+ This
+ is
+ not
+ a
+ crypto
+ token.
+ This
+
+
+is
+ just
+ like
+ here
+ here's
+ something
+ that
+
+
+you
+ can
+ use
+ and
+ then
+ there
+ are
+ verbs
+
+
+that
+ can
+ be
+ performed
+ on
+ those
+
+
+credentials,
+
+
+>> right?
+
+
+>> So
+ if
+ I
+ am,
+ you
+ know,
+ a
+ big
+ burger
+ chain
+
+
+or
+ something
+ hypothetically,
+ uh
+ we
+ don't
+
+
+know
+ which
+ one,
+ but
+ like
+ you
+ work
+ with
+ a
+
+
+big
+ burger
+ chain,
+ right?
+ Like
+ uh
+ I
+ I
+ I
+ I
+
+
+have
+ a
+ consumer
+ app
+ that
+ has,
+ you
+ know,
+
+
+tens
+ of
+ millions
+ of
+ users.
+ I
+ know
+ that
+
+
+whenever
+ that
+ user
+ says,
+ I
+ want
+ to
+ buy
+ a
+
+
+hamburger,
+ like
+ VGS
+ plays
+ a
+ key
+ role.
+
+
+It's
+ a
+ very
+ boring
+ role,
+ but
+ I
+ retrieve
+
+
+and
+ charge,
+ right?
+ So,
+ I
+ retrieve
+ it
+
+
+with
+ the
+ purpose
+ of
+ sending
+ that
+ to
+ a
+
+
+payment
+ processor
+ and
+ saying,
+ "Charge
+
+
+Terry
+ $9
+ right
+ now,
+ but
+ I
+ never
+ have
+ to
+
+
+touch
+ that
+ credential
+ again."
+ You
+ know,
+
+
+ve
+ very,
+ very
+ boring
+ business.
+ But
+
+
+you've
+ gotten
+ to
+ I
+ mean,
+ what
+ what
+
+
+percentage
+ of
+ cards
+ do
+ you
+ think
+ you've
+
+
+seen
+ or
+ touch
+ or
+ store?
+ It's
+ probably
+
+
+what
+ is
+ it
+ 80%
+ of
+ cards
+ in
+ America?
+
+
+>> I
+ mean,
+ we
+ have
+ like
+ 10
+ billion
+
+
+credentials.
+ Um,
+ it's
+ a
+ lot
+ of
+
+
+credentials.
+ Um,
+ I
+ I
+ think
+ you
+ you're
+
+
+touching
+ on
+ something
+ really
+
+
+interesting,
+ which
+ is
+ vaults
+ are
+ going
+
+
+from
+ single
+ player
+ to
+ multiplayer,
+ and
+
+
+that
+ makes
+ them
+ a
+ lot
+ more
+ valuable.
+ So,
+
+
+for
+ example,
+ put
+ aside
+ agents,
+ the
+ fact
+
+
+that
+ merchants
+ have
+ multiple
+ processors
+
+
+means
+ that
+ the
+ vault
+ at
+ VGS
+ is
+
+
+effectively
+ the
+ the
+ vault
+ for
+ each
+ of
+
+
+those
+ processors,
+ right?
+ because
+ the
+ the
+
+
+the
+ network
+ tokens
+ stored
+ in
+ that
+ vault
+
+
+now
+ have
+ to
+ be
+ sent
+ to
+ Chase,
+ Stripe,
+
+
+Adion,
+ Brainree,
+ Razer
+ Pay,
+
+
+>> right?
+
+
+>> Uh
+ that's
+ multiplayer
+ with
+ agents.
+
+
+Uh
+ if
+ you
+ have
+ a
+ vault,
+ let's
+ assume
+
+
+you're
+ like
+ a
+ large,
+ you
+ know,
+ frontier
+
+
+model.
+
+
+Here's
+ a
+ good
+ example.
+ Your
+ large
+
+
+frontier
+ model,
+ you're
+ revolting
+ cards
+
+
+in
+ order
+ to
+ charge
+ for
+ your
+
+
+subscription.
+
+
+But
+ now
+ the
+ agent
+ wants
+ to
+ use
+ that
+ same
+
+
+transa
+ that
+ same
+ credential
+ to
+ make
+ a
+
+
+payment.
+ And
+ so
+ the
+ vault
+ used
+ to
+ be
+
+
+single
+ player.
+ It
+ used
+ to
+ be
+ just
+ to
+
+
+make
+ sure
+ that
+ you
+ could
+ pay
+ for
+ the
+
+
+subscription.
+ But
+ now
+ you
+ can
+
+
+effectively
+ give
+ that
+ credential
+
+
+according
+ to
+ these
+ open
+ standards
+ to
+ the
+
+
+agent.
+ It's
+ now
+ multiplayer,
+
+
+>> right?
+
+
+>> And
+ so
+ I
+ think
+ you
+ know
+ any
+ business
+
+
+that
+ is
+ going
+ from
+ single
+ player
+ to
+
+
+multiplayer
+ inherently
+ becomes
+ more
+
+
+interesting.
+ I
+ mean
+ even
+ one
+ password,
+
+
+right?
+ like
+ it's
+ a
+ used
+ to
+ be
+ a
+ single
+
+
+player
+ vault
+
+
+>> and
+ maybe
+ I
+ share
+ my
+ credentials
+ with
+ my
+
+
+wife
+ on
+ a
+ few
+ things,
+ but
+ now
+ it's
+
+
+multiplayer
+ cuz
+ I'm
+ trying
+ to
+ give
+ it
+
+
+access
+ to
+ multiple
+ different
+ parties.
+
+
+>> Well,
+ this
+ is
+ a
+ really
+ complicated
+ thing
+
+
+going
+ back
+ to
+ like
+ the
+ rules
+ and
+
+
+procedures
+ of
+ what
+ Visa
+ and
+ Mastercard
+
+
+have
+ done,
+ which
+ is
+ normally
+ I
+ just
+ have
+
+
+to
+ there
+ there
+ are
+ almost
+ like
+ three
+
+
+steps
+ to
+ a
+ transaction.
+ I
+ kind
+ of
+ think
+
+
+of
+ number
+ one
+ is
+ is
+ this
+ identity
+ real,
+
+
+right?
+ Like
+ in
+ general,
+ like
+ is
+ this
+ a
+
+
+real
+ card
+ number?
+
+
+>> Right?
+ That's
+ important.
+ But
+ wait
+ a
+
+
+minute,
+ I
+ can
+ have
+ a
+ real
+ card
+ number
+
+
+and
+ you're
+ a
+ thief.
+ It's
+ still
+ a
+ real
+
+
+card
+ number.
+ So,
+ kind
+ of
+ step
+ two
+ is
+
+
+once
+ I
+ validate
+ because
+ there
+ actually
+
+
+there
+ are
+ two
+ ways
+ of
+ validating
+ a
+ card
+
+
+number.
+ There's
+ one
+ there
+ is
+ a
+ um
+
+
+there's
+ like
+ a
+ uh
+ cyclicality
+ check,
+
+
+right?
+ You
+ kind
+ of
+ add
+ up
+ the
+ Yeah,
+ it's
+
+
+check
+ some,
+ right?
+ Um
+ but
+ it's
+ this
+ mod
+
+
+10
+ check
+ of
+ the
+ credit
+ card
+ number.
+ Is
+
+
+it
+ valid?
+ But
+ that
+ doesn't
+ mean
+ it's
+ a
+
+
+real
+ card,
+ but
+ it
+ means
+ that
+ it's
+ like
+ a
+
+
+valid
+ it's
+ in
+ the
+ valid
+ universe
+ of
+
+
+cards.
+ But
+ I
+ can
+ go
+ check
+ with
+ the
+ bank.
+
+
+Is
+ this
+ an
+ actual
+ card?
+ That's
+ step
+ one.
+
+
+Step
+ two
+ is,
+ is
+ the
+ person
+ that
+ I'm
+
+
+interacting
+ with
+ the
+ valid
+ owner
+ of
+ this
+
+
+card?
+ So,
+ like
+ if
+ you
+ if
+ you
+ went
+ to
+ a
+
+
+jewelry
+ store
+ 25
+ years
+ ago
+ and
+ you
+
+
+wanted
+ to
+ buy
+ something
+ for
+ $15,000,
+
+
+they'll
+ take
+ the
+ credit
+ card
+ number,
+
+
+they'll
+ take
+ your
+ credit
+ card,
+ your
+
+
+piece
+ of
+ plastic,
+ but
+ they'll
+ do
+ two
+
+
+things
+ as
+ well.
+ Remember,
+ it
+ used
+ to
+ be
+
+
+a
+ you
+ used
+ to
+ have
+ to
+ sign
+ the
+ signature
+
+
+of
+ the
+ back
+ of
+ the
+ card.
+ Like
+ I
+ thought
+
+
+the
+ first
+ card
+ that
+ I
+ ever
+ saw
+ that
+ just
+
+
+got
+ rid
+ of
+ that
+ alto
+ together
+ was
+ Apple.
+
+
+So
+ the
+ Apple
+ card,
+ I
+ mean,
+ even
+ though
+
+
+they
+ want
+ you
+ to
+ use
+ Apple
+ Pay,
+ if
+ you
+
+
+get
+ the
+ physical
+ Apple
+ metal
+ card,
+
+
+there's
+ no
+ place
+ to
+ sign
+ on
+ the
+ back.
+
+
+None.
+ But
+ they
+ would
+ also
+ say,
+ "Can
+ I
+
+
+see
+ your
+ ID?"
+ Like,
+ I
+ remember
+ I
+ bought
+
+
+uh
+ I
+ bought
+ something
+ very
+ expensive
+ one
+
+
+time.
+ Uh
+ might
+ have
+ been
+ jewelry
+ for
+ my
+
+
+wife
+ that
+ I
+ sometimes
+ buy
+ flowers
+ for
+ as
+
+
+well.
+ This
+ was
+ probably
+ 25
+ years
+ ago.
+
+
+And
+ they
+ wanted
+ to
+ see
+ my
+ ID.
+ They
+
+
+checked
+ the
+ signature.
+ Why?
+ Because
+ they
+
+
+knew
+ that
+ the
+ card
+ was
+ valid,
+ but
+ they
+
+
+want
+ to
+ make
+ sure
+ that
+ I
+ am
+ the
+ actual
+
+
+owner
+ of
+ the
+ card.
+ And
+ then
+ number
+
+
+three,
+ and
+ you
+ probably
+ only
+ see
+ this
+ in
+
+
+Vegas,
+ um,
+ but
+ it's
+ like,
+ are
+ you
+ of
+
+
+sound
+ mind
+ to
+ make
+ this
+ transaction?
+ So
+
+
+like
+ if
+ if
+ you
+ went
+ to
+ a
+ to
+ a
+ casino
+ in
+
+
+Vegas
+ and
+ you
+ pass,
+ you
+ know,
+ number
+
+
+one,
+ card's
+ valid.
+ Number
+ two,
+ it's
+
+
+like,
+ yep,
+ here's
+ your
+ ID,
+ here's
+ your
+
+
+signature,
+ it
+ matches
+ entirely.
+ But
+
+
+there's
+ step
+ three,
+ it's
+ like
+ if
+ you've
+
+
+had
+ 15
+ drinks
+ and
+ you
+ can't
+ even
+ speak
+
+
+properly,
+ they're
+ probably
+ going
+ to
+ not
+
+
+let
+ you
+ pay,
+ right?
+ So
+ this
+ was
+ kind
+ of
+
+
+like
+ the
+ old
+ world.
+ And
+ if
+ you
+ bring
+
+
+that
+ metaphor
+ to
+ the
+ new
+ world,
+ well,
+
+
+it's
+ like,
+ well,
+ is
+ the
+ card
+ valid?
+
+
+Yeah.
+ Does
+ the
+ person
+
+
+>> agent?
+
+
+>> Well,
+ but
+ this
+ is
+ tricky,
+ right?
+ It's
+
+
+like
+ the
+ card
+ is
+ going
+ to
+ be
+ valid.
+ Like
+
+
+that
+ that
+ part
+ solved
+ problem.
+
+
+>> But
+ the
+ second
+ part,
+ it's
+ like
+ what
+ does
+
+
+that
+ mean,
+ right?
+ Like
+ is
+ the
+ person
+
+
+that
+ I
+ am
+ interacting
+ with,
+ is
+ my
+
+
+interlocutor?
+ Um,
+ I
+ love
+ that
+ word.
+ Is
+
+
+is
+ is
+ the
+ person
+ that
+ I'm
+ interacting
+
+
+with,
+ are
+ they
+ the
+ valid
+ owner
+ of
+ this
+
+
+card?
+ It
+ was
+ always
+ a
+ hard
+ problem
+ to
+
+
+figure
+ out
+ on
+ the
+ internet
+ because
+ I
+
+
+can't
+ like
+ signature
+ picture
+ like
+ what
+
+
+does
+ that
+ mean?
+ You're
+ an
+ IP
+ address
+ and
+
+
+maybe
+ I've
+ seen
+ you
+ before
+ and
+ I've
+
+
+checked
+ your
+ login,
+ but
+ now
+ I
+ have
+ an
+
+
+agent.
+ And
+ then
+ that
+ part
+ three
+ is
+
+
+pretty
+ important
+ as
+ well
+ from
+ a
+
+
+liability
+ perspective
+ because
+ you
+ do
+ see
+
+
+these
+ anecdotes
+ on
+ on
+ X
+ and
+ whatnot
+ of
+
+
+people
+ that
+ are
+ on
+ instinct.
+ They're
+
+
+like,
+ "What
+ do
+ you
+ mean
+ you
+ spent
+ $900,
+
+
+you
+ idiot?"
+ And
+ like
+ who
+ where
+ does
+ the
+
+
+chargeback
+ come
+ from?
+ So,
+ so
+ I
+ mean
+ this
+
+
+is
+ exactly
+ what
+ these
+ open
+ standards
+ are
+
+
+are
+ are
+ solving
+ for.
+ So,
+ let's
+ let's
+
+
+take
+ an
+ example
+ where
+ I
+ instruct
+ my
+
+
+agent.
+ In
+ fact,
+ this
+ is
+ a
+ re
+ real
+
+
+example.
+ I
+ was
+ looking
+ for
+ a
+ hotel
+
+
+uh
+ for
+ a
+ trip
+ we're
+ making
+ for
+ my
+
+
+daughter's
+ gymnastics
+ tournament
+ and
+ I
+
+
+said
+ go
+ and
+ find
+ um
+ a
+ hotel
+ uh
+ in
+ San
+
+
+Diego
+ and
+ and
+ don't
+ spend
+ more
+ than
+ you
+
+
+know
+ $500.
+ So
+ the
+ first
+ question
+ when
+
+
+that
+ when
+ that
+ agent
+ is
+ provisioned
+ is
+
+
+to
+ your
+ question
+ is
+ like
+ is
+ this
+ a
+ real
+
+
+card?
+ That's
+ a
+ solve
+ problem.
+ The
+ second
+
+
+one
+ is
+ is
+ the
+ request
+ for
+ the
+ agent
+ a
+
+
+valid
+ request
+ and
+ the
+ way
+ that
+ this
+
+
+works
+ with
+ the
+ networks
+ is
+ that
+ agent
+
+
+actually
+ has
+ to
+ be
+ registered
+ with
+ Visa
+
+
+or
+ Mastercard
+ or
+ AMX.
+ And
+ so
+ there's
+ a
+
+
+whole
+ sort
+ of
+ mechanism
+ there.
+
+
+>> The
+ third
+ question
+ is
+ like
+ is
+ the
+ agent
+
+
+of
+ sound
+ mind
+ like
+ did
+ it
+ get
+ it
+ right?
+
+
+>> Right.
+
+
+>> And
+ was
+ it
+ drunk?
+ you
+ know,
+ exactly.
+ Did
+
+
+it
+ hallucinate?
+ Um,
+ and
+ so,
+ um,
+ that
+
+
+part
+ I
+ don't
+ think
+ we
+ fully
+ understand
+
+
+yet
+ because
+ if
+ there's
+ a
+ mistake
+ that
+
+
+the
+ agent
+ makes
+ and
+ the
+ the
+ cart
+ network
+
+
+did
+ everything
+ right.
+ They
+ validated
+
+
+that
+ this
+ is
+ your
+ agent
+ and
+ your
+
+
+instruction.
+ In
+ fact,
+ part
+ of
+ the
+ way
+
+
+these
+ agent
+ these
+ these
+ new
+ standards
+
+
+work
+ is
+ you
+ give
+ it
+ context.
+ You
+ say,
+
+
+"I'm
+ buying
+ a
+ this
+ is
+ a
+ hotel
+
+
+reservation
+ at
+ this
+ amount.
+ It's
+ hard
+
+
+for
+ me
+ to
+ know
+ the
+ if
+ you
+ got
+ the
+ if
+ you
+
+
+got
+ the
+ actual
+ dates
+ right.
+ If
+ there's
+
+
+an
+ error
+ there
+ then
+ that
+ dispute
+
+
+mechanism
+ is
+ sort
+ of
+ unresolved.
+ But
+ I
+
+
+think
+ we
+ will
+ we
+ will
+ get
+ to
+ that
+ point
+
+
+and
+ probably
+ the
+ agents
+ will
+ have
+ to
+
+
+take
+ on
+ some
+ responsibility.
+
+
+>> Well,
+ it's
+ this
+ idea
+ of
+ delegated
+
+
+authority.
+
+
+>> Yeah.
+
+
+>> Um
+ but
+ it's
+ how
+ do
+ you
+ how
+ do
+ you
+ like
+
+
+who
+ is
+ liable?
+ How
+ does
+ this
+ change?
+ I
+
+
+mean
+ it
+ might
+ be
+ something
+ where
+ if
+ two
+
+
+agents
+ are
+ competing
+ for
+ your
+ business
+
+
+like
+ hey
+ Terry
+ please
+ use
+ me.
+ I'm
+ Muse
+
+
+or
+ please
+ use
+ me.
+ I'm
+ Instinct.
+ What
+ is
+
+
+one
+ of
+ the
+ value
+ ads
+ that
+ I'm
+ going
+ to
+
+
+give
+ you?
+ I
+ will
+ take
+ on
+ because
+ if
+ if
+
+
+the
+ merchants
+ are
+ smart,
+ they're
+ not
+
+
+going
+ to
+ be
+ like
+ I
+ don't
+ give
+ a
+ crap
+
+
+that
+ like
+ you
+ got
+ the
+ wrong
+ hotel
+ room
+
+
+or
+ you
+ did
+ this.
+ It's
+ like
+ you
+ told
+ you
+
+
+gave
+ your
+ card,
+ you
+ delegated
+ authority
+
+
+to
+ either
+ an
+ AI
+ agent
+ or
+ your
+ human
+
+
+assistant
+ or
+ your
+ wife
+ or
+ whatever.
+ Like
+
+
+I
+ don't
+ care.
+ I
+ need
+ to
+ know
+ if
+ I'm
+
+
+accepting
+ payments
+ for
+ something
+ that
+
+
+there's
+ no
+ excuse
+ at
+ the
+ end.
+ I
+ mean,
+
+
+this
+ was
+ called
+ for
+ uh
+ for
+ for
+ those
+
+
+that
+ know
+ this
+ term
+ friendly
+ fraud.
+ Once
+
+
+upon
+ a
+ time,
+ there's
+ this
+ concept
+ of
+ I
+
+
+can
+ buy
+ something.
+ We
+ used
+ to
+ see
+ this
+
+
+at
+ trial
+ pay.
+
+
+>> All
+ right.
+
+
+>> I
+ spent
+ $10,000
+ on
+ virtual
+ gems.
+ My
+ wife
+
+
+and
+ I
+ share
+ the
+ I
+ didn't
+ actually
+ do
+
+
+this.
+ Just
+ for
+ disclosure,
+ but
+ let's
+
+
+just
+ say
+ I
+ did.
+ I
+ spent
+ $10,000
+ on
+
+
+virtual
+ gems
+ for
+ some
+ stupid
+ game.
+ The
+
+
+credit
+ card
+ bill
+ comes
+ due
+ at
+ the
+ end
+ of
+
+
+the
+ month.
+ I'm
+ like,
+ "Honey,
+ I
+ never
+
+
+spent
+ $10,000
+ on
+ that
+ wasn't
+ me.
+ I
+ don't
+
+
+know."
+ like
+ and
+ you
+ you
+ refuse
+ the
+
+
+transaction
+ not
+ because
+ you
+ didn't
+ get
+
+
+the
+ service
+ that
+ was
+ offered
+ but
+ because
+
+
+it's
+ so
+ embarrassingly
+ terrible.
+
+
+>> And
+ merchants
+ had
+ to
+ deal
+ with
+ this
+ all
+
+
+the
+ time.
+
+
+>> Yeah.
+
+
+>> And
+ in
+ many
+ cases
+ like
+ the
+ the
+ the
+ banks
+
+
+would
+ say,
+ "Well,
+ if
+ it's
+ a
+ $10
+
+
+transaction,
+ it's
+ not
+ even
+ worth
+
+
+fighting
+ it.
+ We'll
+ just
+ give
+ it
+ to
+ the
+
+
+consumer
+ every
+ time."
+ Which
+ created
+
+
+moral
+ hazard.
+ But
+ delegated
+ authority
+
+
+gets
+ really
+ tricky
+ here.
+ I
+ mean,
+ maybe
+
+
+if
+ I
+ can
+ ask
+ a
+ different
+ question
+
+
+because
+ this
+ is
+ probably
+ the
+ more
+
+
+important
+ one.
+ Um,
+ you
+ saw
+ that
+ Amazon
+
+
+recently
+ blocked
+ Muse
+ and
+ there
+ are
+ many
+
+
+reasons
+ for
+ this.
+ It's
+ mainly
+ that
+
+
+Amazon
+ is
+ an
+ advertising
+ company
+ and
+
+
+they
+ want
+ you
+ and
+ your
+ eyeballs
+ going
+ to
+
+
+their
+ website.
+ They
+ don't
+ want
+ your
+
+
+agent
+ because
+ the
+ agent,
+ you
+ can't
+
+
+monetize
+ an
+ agent's
+ eyeballs
+ because
+ the
+
+
+agent
+ doesn't
+ have
+ eyeballs.
+ But
+ I
+ kind
+
+
+of
+ think
+ of
+ it
+ as
+ you
+ can
+ either
+ be
+
+
+antagonistic
+ to
+ agentic
+ commerce
+ or
+ you
+
+
+can
+ be
+ highly
+ receptive
+ to
+ agentic
+
+
+commerce.
+ And
+ I
+ don't
+ actually
+ think
+ I
+
+
+think
+ it's
+ an
+ oversimplification
+ to
+ say
+
+
+anybody
+ who's
+ antagonistic
+ is
+ is
+ a
+
+
+lighteyed
+ and
+ they're
+ gone.
+ It's
+ like
+
+
+well
+ Amazon
+ has
+ a
+ reason
+ like
+ a
+ real
+
+
+financial
+ reason
+ to
+ be
+ antagonistic
+
+
+because
+ advertising
+ is
+ is
+ so
+ much
+ more
+
+
+lucrative
+ for
+ them
+ than
+ just
+ selling
+
+
+things.
+ Like
+ the
+ highest
+ value
+ skew
+ is
+
+
+when
+ they
+ they
+ get
+ your
+ eyeballs
+ and
+
+
+they
+ sell
+ the
+ eyeballs.
+ But
+ I
+ guess
+ how
+
+
+do
+ you
+ think
+ about
+ this
+ this
+ kind
+ of
+
+
+playing
+ out?
+ Um
+ because
+ it
+ feels
+ like
+
+
+being
+ enabling
+ technology
+ for
+ merchants
+
+
+to
+ be
+ receptive
+ to
+ AI
+ commerce
+ is
+ highly
+
+
+highly
+ highly
+ valuable.
+ And
+ but
+ by
+ the
+
+
+way
+ at
+ the
+ same
+ time
+ helping
+ the
+
+
+antagonistics
+ ones
+ filter
+ out
+ the
+ agent
+
+
+commerce
+ is
+ also
+ highly
+ valuable
+ because
+
+
+again
+ sometimes
+ they
+ have
+ a
+ reason
+ to
+ do
+
+
+that.
+ But
+ if
+ I
+ can
+ make
+ it
+ so
+ that
+ you
+
+
+know
+ chat
+ GPT
+ services
+ like
+ yeah
+ you
+
+
+should
+ buy
+ here
+ and
+ I
+ make
+ that
+ as
+
+
+simple
+ as
+ possible.
+ It
+ just
+ it
+ goes
+
+
+without
+ saying
+ like
+ I'm
+ probably
+ going
+
+
+to
+ get
+ a
+ lot
+ more
+ transactions
+ than
+
+
+somebody
+ that
+ inserts
+ 15
+ captures
+ and
+
+
+says
+ in
+ order
+ to
+ proceed
+ with
+ this
+ and
+
+
+then
+ Muse
+ is
+ going
+ to
+ say
+ hey
+ interrupt
+
+
+your
+ your
+ nap
+ you
+ got
+ to
+ go
+ do
+ these
+ 15
+
+
+things.
+ No
+ no no
+ you're
+ going
+ to
+ go
+ with
+
+
+the
+ one
+ that
+ is
+ receptive
+ to
+ AI
+
+
+commerce.
+ Yeah,
+ I
+ mean
+ I
+ think
+ this
+ is
+
+
+one
+ of
+ the
+ most
+ fun
+ um
+ uh
+ sort
+ of
+ fronts
+
+
+to
+ to
+ watch
+ in
+ in
+ Agent
+ and
+ Commerce
+ and
+
+
+I
+ think
+ we're
+ going
+ to
+ get
+ multiple
+
+
+different
+ versions
+ of
+ this.
+ We
+ have
+
+
+Amazon
+ which
+ I
+ think
+ has
+ many
+ reasons
+ to
+
+
+to
+ to
+ block
+ agents
+ as
+ you
+ said
+ they're
+
+
+effectively
+ you
+ know
+ in
+ the
+ advertising
+
+
+business.
+ You
+ have
+ Walmart
+ which
+ is
+ very
+
+
+sort
+ of
+ similar
+ right
+ now
+ hasn't
+ you
+
+
+know
+ hasn't
+ taken
+ that
+ step
+ and
+ in
+ fact
+
+
+you
+ might
+ argue
+ that
+ if
+ you
+ are
+ one
+ of
+
+
+the
+ largest
+ retailers
+ on
+ earth
+ with
+ the
+
+
+best
+ last
+ mile
+ delivery
+ that
+ this
+ is
+ all
+
+
+good
+ for
+ you
+ and
+ then
+ you
+ have
+ the
+
+
+series
+ of
+ merchants
+ that
+ are
+ sort
+ of
+
+
+under
+ the
+ Shopify
+ umbrella
+ which
+ are
+ a
+
+
+lot
+ of
+ small
+ businesses
+ that
+ really
+ this
+
+
+is
+ probably
+ a
+ new
+ like
+ vital
+ channel
+ so
+
+
+maybe
+ there's
+ like
+ fear
+ on
+ the
+ Amazon
+
+
+side
+ maybe
+ there's
+ greed
+ on
+ the
+ Walmart
+
+
+side
+ and
+ maybe
+ there's
+ like
+ you
+ know
+ no
+
+
+choice
+ on
+ uh
+ on
+ the
+ SMB
+ side
+ and
+ each
+ of
+
+
+these
+ actors
+ or
+ each
+ of
+ these
+ merchants
+
+
+are
+ going
+ to
+ experiment
+ with
+ with
+ how
+
+
+they
+ deal
+ with
+ agents.
+ I
+ think
+ this
+
+
+reminds
+ me
+ a
+ little
+ bit
+ I
+ know
+ we
+ sort
+
+
+of
+ have
+ a
+ different
+ view
+ on
+ this
+ of
+ how
+
+
+open
+ banking
+ you
+ know
+ was
+ rolled
+ out
+
+
+which
+ is
+ do
+ I
+ have
+ the
+ right
+ as
+ an
+
+
+Amazon
+ customer
+ to
+ delegate
+ my
+ login
+ to
+
+
+an
+ agent
+ and
+ does
+ Amazon
+ have
+ the
+ right
+
+
+to
+ say
+ no?
+ This
+ is
+ what
+ happened
+ with
+
+
+Plaid
+ and
+ you
+ know
+ Chase
+ and
+ and
+ the
+
+
+banks
+ and
+ in
+ the
+ end
+ what
+ tended
+ to
+
+
+happen
+ was
+ there
+ was
+ this
+ like
+ long
+
+
+negotiated
+ settlement
+ where
+ the
+ likes
+ of
+
+
+Chase
+ said
+ hey
+ you
+ can
+ access
+ you
+ you
+
+
+you
+ do
+ have
+ the
+ right
+ to
+ this
+
+
+information
+ but
+ only
+ on
+ my
+ APIs
+ and
+ my
+
+
+APIs
+ limit
+ what
+ information
+ I
+ give
+ you.
+
+
+They
+ tokenize
+ the
+ bank
+ accounts
+
+
+>> and
+ I
+ might
+ charge
+ a
+ lot
+
+
+>> and
+ I
+ might
+ charge
+ you
+ some
+ money
+ for
+
+
+it.
+ So
+ actually
+ I
+ think
+ the
+ interesting
+
+
+question
+ is
+ I
+ think
+ we
+ may
+ have
+ plenty
+
+
+of
+ opportunities
+ or
+ or
+ plenty
+ of
+
+
+merchants
+ who
+ just
+ welcome
+ agents.
+ We
+
+
+may
+ also
+ have
+ merchants
+ who
+ have
+ their
+
+
+own
+ agents.
+ Uh
+ in
+ fact
+ this
+ is
+ what
+
+
+happens
+ if
+ I
+ go
+ to
+ a
+ Best
+ Buy
+ and
+ I
+ want
+
+
+to
+ buy
+ a
+ flat
+ screen
+ TV.
+ I
+ assume
+
+
+there'll
+ be
+ a
+ salesperson
+ there
+ with
+ an
+
+
+agenda
+ and
+ he
+ or
+ she
+ will
+ say
+ let
+ me
+
+
+show
+ you
+ some
+ flat
+ screen
+ TVs.
+ Now
+ their
+
+
+job
+ is
+ to
+ help
+ me
+ but
+ their
+ job
+ is
+ also
+
+
+to
+ get
+ a
+ commission.
+ Right?
+ So
+ we
+ might
+
+
+have
+ in in
+ the
+ case
+ of
+ Chase
+ and
+ open
+
+
+banking
+ it
+ was
+ much
+ more
+ a
+ case
+ of
+ like
+
+
+security
+ and
+ control.
+ In
+ the
+ case
+ of
+
+
+Amazon
+ it
+ might
+ be
+ I
+ am
+ an
+ opinionated
+
+
+API.
+ I
+ have
+ an
+ opinion
+ on
+ what
+ you
+
+
+should
+ buy
+ Alex
+ based
+ on
+ many
+ many
+
+
+different
+ sort
+ of
+ you
+ know
+ data
+ points
+
+
+about
+ you.
+ And
+ then
+ my
+ agent
+ may
+ have
+ an
+
+
+opinion
+ about
+ what
+ I
+ want.
+ And
+ so
+ that's
+
+
+going
+ to
+ be
+ a
+ fascinating
+ battle
+ or
+ or
+
+
+communication.
+ And
+ in
+ the
+ end,
+ I
+ think
+
+
+consumers
+ probably
+ win,
+ but
+ we
+ don't
+
+
+know
+ what
+ that's
+ going
+ to
+ look
+ like
+
+
+going
+ forward,
+
+
+>> right?
+ Well,
+ maybe
+ on
+ that,
+ like
+ what
+ do
+
+
+you
+ think
+ is
+ overhyped
+ versus
+ underhyped
+
+
+in
+ terms
+ of
+ everything
+ that's
+ happening?
+
+
+I
+ mean,
+ in
+ general,
+ my
+ rule
+ of
+ thumb
+ is
+
+
+that
+ Silicon
+ Valley
+ overhypes
+ things,
+
+
+but
+ then
+ the
+ rest
+ of
+ the
+ world
+
+
+underhypes
+ things.
+ So,
+ you
+ know,
+
+
+everything
+ here,
+ every
+ conversation
+ is
+
+
+AI.
+ Um,
+ and
+ it
+ feels
+ like
+ you
+ go
+ to
+
+
+Iowa,
+ nobody's
+ talking
+ about
+ AI,
+ but
+
+
+then
+ you
+ show
+ it
+ to
+ them
+ like,
+ "Holy
+
+
+ how
+ is
+ this
+ real?"
+ because
+ they
+
+
+tried
+ it
+ three
+ years
+ ago
+ and
+ uh
+ like
+ you
+
+
+I
+ just
+ bought
+ a
+ new
+ Tesla
+ and
+ I
+ remember
+
+
+I
+ had
+ I
+ had
+ an
+ old
+ Model
+ 3.
+ I
+ think
+ this
+
+
+is
+ a
+ good
+ metaphor
+ for
+ what
+ we're
+
+
+talking
+ about.
+ Like
+ I
+ had
+ an
+ old
+ Model
+ 3
+
+
+in
+ 2017
+ with
+ self-driving
+ didn't
+ work
+ at
+
+
+all.
+ It
+ was
+ a
+ joke.
+ Eventually
+ got,
+ you
+
+
+know,
+ got
+ a
+ different
+ car
+ and
+ now
+ it's
+
+
+like
+ it
+ actually
+ works,
+ but
+ I
+ was
+
+
+skeptical
+ because
+ I
+ was
+ used
+ to
+ the
+ 2017
+
+
+thing.
+ Yeah.
+ Right.
+ And
+ I
+ feel
+ like
+ a
+
+
+lot
+ of
+ that
+ is
+ playing
+ out
+ with
+ AI
+ right
+
+
+now
+ where
+ if
+ if
+ you
+ had
+ tried
+ chat
+ GPT
+
+
+with
+ all
+ the
+ hallucinations
+ and
+
+
+everything
+ in
+ 2022.
+ You're
+ like,
+ "Oh,
+
+
+it's
+ a
+ cute
+ toy
+ for
+ like
+ writing
+ poems.
+
+
+Um,
+ but
+ or
+ doing
+ my
+ homework
+ in
+ English
+
+
+class
+ or
+ something.
+ This
+ is
+ not
+ going
+ to
+
+
+actually
+ buy
+ things
+ for
+ me.
+ This
+ is
+ not
+
+
+going
+ to
+ write
+ code.
+ It
+ does
+ all
+ these
+
+
+things
+ right
+ now."
+ So,
+ I
+ guess
+ what
+ what
+
+
+do
+ you
+ think
+ is
+ underhyped
+ versus
+
+
+overhyped
+ in
+ terms
+ of
+ everything
+ that's
+
+
+going
+ on?
+
+
+>> Yeah.
+ So,
+ maybe
+ maybe
+ I'll
+ start
+ with
+
+
+with
+ with
+ overhyped.
+ Like
+ I
+ don't
+ think
+
+
+we're
+ going
+ to
+ get
+ a
+ bank
+ run
+ on
+ savings
+
+
+deposits
+ where
+ agents
+ are
+ going
+ to
+ sort
+
+
+of
+ maximize
+ yield
+ and
+ move
+ my
+ money
+
+
+around
+ between
+ different
+ accounts.
+ I
+
+
+mean
+ a
+ perfect
+ example
+ I
+ am
+ a
+ very
+ happy
+
+
+you
+ know
+ Mercury
+ personal
+ account
+ uh
+
+
+customer.
+ I'm
+ also
+ a
+ Chase
+ customer
+ and
+
+
+you
+ know
+ ideally
+ I
+ should
+ put
+ all
+ my
+
+
+savings
+ in
+ mercury
+ where
+ I
+ get
+ a
+ very
+
+
+good
+ savings
+ rate
+ and
+ then
+ at
+ the
+ last
+
+
+moment
+ when
+ I
+ have
+ to
+ make
+ bill
+ sort
+ of
+
+
+pay
+ bills
+ I'll
+ move
+ I'll
+ I'll
+ move
+ over
+
+
+the
+ the
+ the
+ cash
+ to
+ you
+ know
+ over
+ to
+ um
+
+
+over
+ to
+ my
+ existing
+ bank
+ Chase
+ but
+ their
+
+
+bill
+ pay
+ just
+ works
+ better
+ and
+ it's
+ it
+
+
+it
+ has
+ more
+ integrations
+ and
+ I
+ have
+ more
+
+
+kind
+ of
+ setup.
+ So
+ I
+ I
+ think
+ there's
+
+
+enough
+ friction
+ in
+ in
+ the
+ world
+ where
+ we
+
+
+we
+ won't
+ see
+ some
+ of
+ the
+ crazy
+
+
+volatility
+ in
+ in
+ financial
+ services.
+ Um
+
+
+I
+ think
+ maybe
+ what's
+ underhyped
+
+
+there
+ is
+ a
+ lot
+ of
+ demand
+ that
+ is
+
+
+unmonetized.
+ Um
+ and
+ this
+ is
+ both
+ at
+ the
+
+
+sort
+ of
+ part
+ of
+ the
+ world
+ where
+ you
+
+
+could
+ expect
+ more
+ GDP.
+ An
+ example
+ of
+
+
+this
+ is
+ we
+ actually
+ have
+ a
+ group
+ cycling
+
+
+WhatsApp
+ group
+ and
+ we
+ have
+ a
+ person
+ on
+
+
+that
+ group
+ who
+ every
+ I
+ don't
+ seems
+ like
+
+
+every
+ six
+ months
+ when
+ you
+ know
+ our
+
+
+friend
+ Seth
+ comes
+ up
+ with
+ a
+ new
+
+
+recommendation
+ for
+ what
+ tires
+ to
+ get
+
+
+because
+ he
+ looks
+ at
+ rolling
+ resistance
+
+
+and
+ every
+ time
+ he
+ does
+ this
+ I'm
+ like
+ oh
+
+
+I
+ should
+ remember
+ to
+ buy
+ those
+ tires
+ cuz
+
+
+they're
+ safer
+ but
+ I
+ only
+ buy
+ it
+ you
+ know
+
+
+every
+ sort
+ of
+ you
+ know
+ two
+ years.
+ If
+ my
+
+
+agent
+ was
+ in
+ that
+ group
+ chat,
+ I
+ would
+ be
+
+
+buying
+ tires
+ every
+ time
+ Seth
+ makes
+ a
+ new
+
+
+recommendation.
+ You're
+ dramatically
+
+
+undermonetized
+ on
+ your
+ on
+ your
+ bike
+
+
+equipment,
+ Alex.
+ If
+ the
+ agent
+ could
+ find
+
+
+things
+ that
+ could
+ help
+ you
+ with
+ cycling
+
+
+and
+ just
+ bought
+ them
+ for
+ you,
+ there's
+
+
+more
+ GDP
+ coming
+ out
+ of
+ Alex
+ on
+ cycling,
+
+
+>> right?
+
+
+>> That
+ is
+ underhyped.
+ Um,
+ at
+ the
+ same
+
+
+time,
+ agents
+ are
+ going
+ to
+ save
+ us
+ money.
+
+
+So
+ like
+ you
+ know
+ there's
+ probably
+ many
+
+
+places
+ where
+ I'm
+ either
+ I
+ I
+ have
+ some
+
+
+subscription
+ and
+ it's
+ just
+ been
+ a
+ hassle
+
+
+to
+ cancel
+ or
+ I
+ did
+ some
+ trial
+ and
+ I
+
+
+forgot
+ about
+ it.
+ So
+ I
+ think
+ agents
+ will
+
+
+simultaneously
+ save
+ us
+ money
+ maybe
+ use
+
+
+that
+ that
+ savings
+ to
+ to
+ help
+ us
+ buy
+ you
+
+
+know
+ buy
+ sort
+ of
+ you
+ know
+ new
+ new
+ items.
+
+
+So
+ I
+ I
+ think
+ we
+ are
+ have
+ yet
+ to
+
+
+experience
+ the
+ always
+ on
+ nature
+ of
+ these
+
+
+agents
+ and
+ as
+ far
+ as
+ I
+ can
+ tell
+ human
+
+
+desires
+ and
+ needs
+ are
+ infinite.
+ So
+
+
+there's
+ always
+ something
+ else
+ that
+ I
+
+
+will
+ want
+ and
+ so
+ I
+ I
+ I
+ think
+ that
+ is
+
+
+that's
+
+
+>> maybe
+ on
+ this
+ kind
+ of
+ antagonistic
+
+
+versus
+ um
+ consiliatory
+ or
+ whatever
+ the
+
+
+opposite
+ of
+ antagonistic
+ would
+ be
+ here.
+
+
+I
+ mean,
+ a
+ lot
+ of
+ what
+ people
+ are
+ very
+
+
+excited
+ about
+ with
+ the
+ agents
+ is
+ it
+ gets
+
+
+something
+ for
+ you
+ that
+ is
+ intentionally
+
+
+hard
+ and
+ is
+ not
+ really
+ subject
+ to
+ the
+
+
+laws
+ of
+ economics.
+ The
+ laws
+ of
+ economics
+
+
+are
+ like,
+ you
+ know,
+ the
+ cure
+ for
+ high
+
+
+prices
+ is
+ high
+ prices.
+
+
+>> If
+ it's
+ really
+ hard
+ to
+ get
+ a
+ restaurant
+
+
+reservation
+ because
+ you
+ have
+ to
+ call
+ at
+
+
+7
+ a.m.,
+ well,
+ now
+ everybody
+ has
+ a
+ tool
+
+
+that
+ calls
+ at
+ 7
+ a.m.
+ And
+ therefore,
+ uh,
+
+
+the
+ first
+ five
+ people
+ that
+ have
+ the
+
+
+tool,
+ now
+ they
+ have
+ an
+ amazing
+ tool.
+ the
+
+
+last
+ five
+ people
+ like
+ no
+ no no
+ no
+ like
+
+
+it's
+ it's
+ you
+ know
+ it's
+ so
+ crowded
+
+
+nobody
+ goes
+ here
+ anymore
+ kind
+ of
+ thing.
+
+
+So
+ um
+ how
+ do
+ you
+ think
+ the
+ world
+ changes
+
+
+because
+ it
+ feels
+ like
+ right
+ now
+ this
+ is
+
+
+the
+ weird
+ this
+ is
+ the
+ weird
+ position
+
+
+that
+ we're
+ in
+ is
+ that
+ a
+ lot
+ a
+ lot
+ of
+ the
+
+
+early
+ wins
+ if
+ you
+ will
+ the
+ consumer
+
+
+successes
+ are
+ around
+ like
+ oh
+ it
+ saved
+ me
+
+
+money
+ it
+ did
+ this
+ because
+ of
+ the
+
+
+asymmetry.
+ Yeah,
+
+
+>> right.
+ Like
+ a
+ very
+ small
+ number
+ of
+
+
+people
+ have
+ the
+ tool.
+ The
+ merchant
+ or
+
+
+the
+ counterparty
+ has
+ no
+ idea
+ what's
+
+
+going
+ on.
+ I
+ can't
+ wait.
+ You
+ know
+ how
+
+
+like
+ as
+ a
+ consumer
+ I've
+ been
+ trained
+ to
+
+
+say,
+ "No,
+ no,
+ I
+ want
+ to
+ talk
+ to
+ an
+ agent
+
+
+or
+ press
+ zero."
+ Or
+ it's
+ like
+ you
+ can
+
+
+look
+ up
+ how
+ do
+ you
+ get
+ out
+ of
+ the
+ stupid
+
+
+phone
+ tree.
+ I
+ can't
+ wait
+ for
+ the
+ other
+
+
+side
+ to
+ say,
+ "No,
+ I
+ have
+ to
+ talk
+ to
+
+
+Terry.
+ I
+ ain't
+ talking
+ to
+ Muse."
+ Yeah.
+
+
+Right.
+ Like
+ wouldn't
+ that
+ be
+ funny?
+ You
+
+
+call
+ Comcast,
+ you're
+ like,
+ "I
+ hate
+ you.
+
+
+You
+ suck.
+ Your
+ service
+ is
+ terrible.
+ You
+
+
+went
+ down
+ 10
+ times.
+ This
+ is
+ I
+ do
+ this
+
+
+all
+ the
+ time."
+ And
+ then
+ but
+ I
+ of
+ course
+
+
+have
+ uh
+ I
+ actually
+ do
+ this
+ with
+ codeex
+
+
+because
+ it
+ turned
+ out
+ Comcast
+ is
+
+
+blocking
+
+
+>> musees.
+
+
+>> They
+ know
+ the
+ IP
+ addresses
+ or
+ something
+
+
+so
+ it
+ won't
+ let
+ you
+ log
+ in.
+ So
+ I
+ just
+
+
+have
+ chat
+ GPT
+ you
+ know
+ Codex
+ Astra
+ like
+
+
+login
+ on
+ my
+ computer
+ does
+ everything
+ but
+
+
+I'm
+ waiting
+ for
+ the
+ day
+ when
+ Comcast
+
+
+says
+ we
+ know
+ this
+ ain't
+ you
+ right?
+ Like
+
+
+put
+ Alex
+ on
+ the
+ line
+ because
+ I'm
+ not
+
+
+giving
+ something
+ to
+ his
+ agent.
+ And
+
+
+that's
+ going
+ to
+ because
+ right
+ now
+ again
+
+
+that's
+ what
+ I
+ mean
+ by
+ the
+ asymmetry.
+
+
+It's
+ like
+ the
+ small
+ number
+ of
+ insiders
+
+
+have
+ this
+ tool.
+ But
+ you
+ know
+ what?
+ It's
+
+
+not
+ going
+ to
+ you
+ can't
+ scale
+ that
+
+
+infinitely
+ because
+ the
+ world
+ is
+ going
+ to
+
+
+adapt.
+
+
+>> Although
+ I
+ do
+ have
+ news
+ for
+ Comcast.
+ The
+
+
+GPT
+ Astra
+ and
+ Alex
+ are
+ about
+ the
+ same
+ uh
+
+
+sort
+ of
+ foe.
+ So
+ So
+ be
+ careful
+ if
+ you
+ if
+
+
+you
+ get
+ them
+ on
+ the
+ phone.
+
+
+>> Um
+ yeah,
+ I
+ mean
+ I
+ think
+ you're
+ pointing
+
+
+out
+ something
+ that
+ that
+ we
+ have
+ yet
+ to
+
+
+appreciate,
+ which
+ is
+
+
+>> what
+ happens
+ when
+ you
+ actually
+ read
+ the
+
+
+terms
+ and
+ conditions
+ and
+ go
+ to
+ the
+ edge
+
+
+of
+ what
+ is
+ allowed
+ and
+ disallowed.
+ So,
+
+
+you
+ know,
+ an
+ example,
+ the
+ other
+ day
+ I
+
+
+was
+ looking
+ at
+ flights.
+ I
+ wanted
+ to
+ buy
+
+
+a
+ flight
+ that
+ was
+ on
+ the
+ edge
+ of
+ the
+
+
+price
+ that
+ I
+ could
+ pay
+ that
+ would
+ get
+ me
+
+
+an
+ upgrade.
+ And
+ that's
+ a
+ kind
+ of
+ a
+ hard
+
+
+thing
+ to
+ do.
+ Sometimes
+ I
+ overshoot
+ it.
+
+
+My
+ agent
+ did
+ that
+ perfectly.
+ Um
+ or
+ um
+
+
+you
+ know,
+ sort
+ of
+ any
+ any
+ case
+ where
+
+
+it's
+ very
+ difficult
+ to
+ uncover
+ the
+ terms
+
+
+and
+ conditions.
+ Like
+ a
+ good
+ example
+
+
+might
+ be
+ what
+ happens
+ to
+ rewards?
+ Like
+
+
+rewards
+ on
+ cards
+ are
+ only
+ there
+ because
+
+
+I
+ get
+ you
+ this
+ very
+ sort
+ of
+ big
+ headline
+
+
+reward
+ on
+ dining,
+ but
+ then
+ you
+ also
+
+
+spend
+ it
+ on
+ fuel.
+ And
+ if
+ agents
+ are
+
+
+intermediating
+ all
+ of
+ our
+ transactions
+
+
+and
+ I'm
+ only
+ getting
+ points
+ on
+ the
+ card
+
+
+that
+ gets
+ me
+ I'm
+ only
+ using
+ the
+ card
+
+
+where
+ I
+ get
+ points,
+ the
+ whole
+ points
+
+
+reward
+ ecosystem
+ falls
+ apart.
+ many
+ many
+
+
+of
+ these
+ things
+ could
+ start
+ any
+ anything
+
+
+with
+ a
+ with
+ a
+ sort
+ of
+ breakage
+ model
+ in
+
+
+it
+ is
+ going
+ to
+ start
+ to
+ fall
+ apart
+ and
+
+
+then
+ we
+ will
+ have
+ to
+ have
+ new
+ terms
+ and
+
+
+conditions.
+ So
+ maybe
+ that's
+ better,
+
+
+maybe
+ that's
+ worse.
+ I
+ don't
+ know,
+ but
+
+
+it'll
+ certainly
+ be
+ be
+ different.
+
+
+>> And
+ maybe
+ what
+ what
+ are
+ you
+ kind
+ of
+ with
+
+
+all
+ of
+ these
+ themes
+ like
+ what
+ where
+ do
+
+
+you
+ think
+ VGS
+ is
+ is
+ going
+ to
+ go?
+ Because
+
+
+I
+ again
+ I
+ find
+ it
+ so
+ interesting
+ because
+
+
+it's
+ the
+ world's
+ most
+ boring
+ business
+
+
+around
+ it's
+ this
+ giant
+ vault
+ that
+ stores
+
+
+all
+ of
+ the
+ payment
+ credentials
+ for
+ like
+
+
+most
+ like
+ everybody
+ who's
+ listening
+ to
+
+
+this
+ podcast
+ I
+ almost
+ guarantee
+ you
+ have
+
+
+a
+ credential
+ that's
+ stored
+ at
+ VGS
+
+
+because
+ you
+ interact
+ with
+ the
+ merchant
+
+
+that
+ uses
+ VGS
+ for
+ storage
+ of
+
+
+credentials.
+ So
+ that's
+ a
+ it's
+ a
+ really
+
+
+formidable
+ position
+ to
+ be
+ in
+ and
+ it's
+
+
+been
+ growing
+ remarkably
+ just
+ because
+
+
+like
+ yeah
+ you
+ need
+ to
+ every
+ merchant
+
+
+needs
+ to
+ store
+ the
+ credentials
+ of
+ the
+
+
+consumers
+ that
+ they
+ work
+ with
+ but
+ like
+
+
+where
+ do
+ you
+ think
+ is
+ the
+ most
+ exciting
+
+
+of
+ everything
+ that
+ we've
+ talked
+ about
+
+
+for
+ VGS's
+ future?
+
+
+>> Yeah.
+ So
+ uh
+ I
+ think
+ there's
+ sort
+ of
+
+
+three
+ eras
+ of
+ VGS
+ that
+ are
+ kind
+ of
+
+
+overlapping
+ and
+ compounding
+ and
+ you
+
+
+talked
+ about
+ the
+ first
+ era
+ which
+ is
+ the
+
+
+vault.
+ This
+ is
+ 10
+ years
+ as
+ sort
+ of
+
+
+becoming
+ the
+ most
+ trusted
+ store
+ for
+
+
+credentials
+ across
+ the
+ internet.
+ Very
+
+
+hard
+ business
+ to
+ to
+ to
+ execute
+ on,
+ but
+
+
+that's
+ you
+ know
+ that's
+ the
+ sort
+ of
+
+
+privileged
+ position
+ that
+ the
+ company's
+
+
+in.
+ The
+ second
+ era
+ has
+ been
+ what
+ you
+
+
+talked
+ about
+ sort
+ of
+ you
+ know
+
+
+information
+ going
+ into
+ and
+ out
+ of
+ that
+
+
+vault.
+ So
+ that's
+ a
+ third
+ of
+ those
+
+
+credentials
+ have
+ to
+ be
+ updated.
+ That's
+
+
+become
+ very
+ interesting
+ and
+ complicated
+
+
+because
+
+
+each
+ network
+ has
+ their
+ own
+ standard
+ for
+
+
+how
+ you
+ update
+ their
+ credentials
+ and
+
+
+each
+ network
+ has
+ created
+ multiple
+
+
+network
+ tokens
+ that
+ represent
+ the
+ vault.
+
+
+If
+ you
+ were
+ just
+ storing
+ the
+ information
+
+
+be
+ one
+ thing,
+ but
+ you
+ have
+ to
+ store
+ it
+
+
+and
+ uh
+ get
+ a
+ uh
+ a
+ series
+ of
+ tokens
+ from
+
+
+the
+ networks
+ um
+ so
+ that
+ so
+ that
+ the
+ data
+
+
+is
+ effectively
+ you
+ know
+ refreshed
+
+
+>> right.
+ The
+ third
+ era
+ is
+ what
+ we
+ call
+ the
+
+
+network
+ era
+ which
+ is
+ this
+ this
+ role
+ of
+
+
+uh
+ brokering
+ the
+ credentials
+ among
+
+
+multiple
+ parties
+ in
+ a
+ way
+ that
+ makes
+
+
+sense
+ according
+ to
+ the
+ rules
+ and
+ that
+
+
+adds
+ value
+ to
+ to
+ all
+ to
+ all
+ of
+ the
+
+
+ecosystem
+ players
+ and
+ we're
+ sort
+ of
+
+
+starting
+ to
+ do
+ that
+ now
+ with
+ Aentic
+
+
+commerce.
+ Um
+ there
+ are
+ other
+ cases
+ where
+
+
+VGS
+ is
+ actually
+ working
+ with
+ the
+ banks
+
+
+on
+ the
+ tokenization
+ front.
+ So
+ if
+ you're
+
+
+if
+ you're
+ tokenizing
+ the
+ cards
+ and
+
+
+you're
+ storing
+ the
+ cards,
+ you're
+ on
+ both
+
+
+sides
+ of
+ this
+ of
+ this
+ ecosystem,
+ which
+
+
+allows
+ you
+ to
+ do
+ some
+ of
+ the
+ information
+
+
+swaps
+ that
+ that
+ you
+ you
+ know
+ that
+ you
+
+
+that
+ you
+ sort
+ of
+ talked
+ about
+ earlier.
+
+
+So
+ and
+ and
+ and
+ all
+ all
+ of
+ these
+ combine
+
+
+all
+ of
+ these
+ combine
+ will
+ continue
+ to
+ be
+
+
+a
+ vault.
+ We'll
+ continue
+ to
+ add
+ services
+
+
+and
+ as
+ we
+ add
+ more
+ services
+ on
+ more
+
+
+merchants
+ and
+ and
+ more
+ issuers
+ we
+
+
+continue
+ to
+ get
+ this
+ network
+ effect
+
+
+where
+ you
+ can
+ broker
+ credentials
+ you
+
+
+know
+ among
+ the
+ parties
+ and
+ I
+ think
+
+
+agentic
+ commerce
+ is
+ just
+ fuel
+ into
+ that
+
+
+ecosystem.
+
+
+>> Well
+ Terry
+ this
+ is
+ uh
+ this
+ has
+ been
+ fun
+
+
+down
+ memory
+ lane.
+ Um
+ one
+ of
+ these
+ days
+
+
+we
+ should
+ do
+ did
+ we
+ ever
+ I
+ think
+ we
+
+
+actually
+ did
+ a
+ history
+ of
+ trial
+ pay
+ one
+
+
+a
+ long
+ time
+ ago.
+
+
+>> Yeah
+ I
+ think
+ we
+ should
+ we
+ should
+ redo
+
+
+it.
+ It
+ was
+ it
+ was
+ one
+ of
+ the
+ first
+
+
+podcasts
+ that
+ we
+ did,
+ the
+ the
+ studio
+
+
+wasn't,
+ you
+ know,
+ wasn't
+ as
+ nice.
+ But
+ I
+
+
+think
+ what's
+ consistent
+ between
+ that
+
+
+first
+ podcast
+ and
+ this
+ one
+ is
+ you
+ should
+
+
+be
+ buying
+ more
+ flowers
+ for
+ for
+ your
+
+
+wife.
+
+
+>> Yes.
+ I
+ think
+ that
+ I
+ think
+ that's
+ a
+ great
+
+
+idea.
+ All right.
+ Well,
+ thank
+ you
+ very
+
+
+much.
+
+
+>> Thank
+ you
+ for
+ having
+ me.
