@@ -1,0 +1,10955 @@
+models
+ by
+ themselves
+ don't
+ do
+ anything.
+
+
+They're
+ literally
+ 5,000
+ sensors
+ on
+ these
+
+
+cars.
+ They
+ spent
+ like
+ six
+ months
+ going
+
+
+all
+ around
+ BMW
+ and
+ gathering
+ a
+ data
+
+
+dictionary.
+ And
+ if
+ this
+ agent
+ is
+
+
+impersonating
+ me,
+ it
+ too
+ can
+ delete
+ all
+
+
+of
+ the
+ files
+ off
+ of
+ my
+ computer
+ if
+ it
+
+
+really
+ goes
+ sideways.
+ And
+ Task
+
+
+Completion
+ will
+ be
+ like,
+ "You're
+ good."
+
+
+But
+ then
+ I
+ open
+ the
+ spreadsheet.
+ I
+ look
+
+
+at
+ the
+ spreadsheet.
+ I'm
+ like,
+ "Uh,
+ well,
+
+
+you
+ know,
+ the
+ one
+ and
+ two
+ bedrooms,
+
+
+those
+ are
+ pretty
+ good,
+ but
+ those
+ three
+
+
+bedrooms,
+ man,
+ they're
+ way
+ off."
+ And
+ you
+
+
+can't
+ just
+ say,
+ "This
+ price
+ is
+ wrong."
+
+
+You
+ have
+ to
+ say
+ this
+ price
+ is
+ wrong
+ and
+
+
+here's
+ why.
+ Because
+ that
+ why
+ that's
+ what
+
+
+goes
+ into
+ the
+ rubric
+ down
+ the
+ line.
+
+
+Trust
+ but
+ verify.
+
+
+So
+ my
+ job
+ really
+ is
+ me
+ and
+ my
+ team,
+
+
+we're
+ the
+ first
+ people
+ to
+ try
+ anything
+
+
+new
+ at
+ Microsoft
+ generally,
+ although
+
+
+also
+ in
+ the
+ rest
+ of
+ the
+ world
+ as
+ well.
+
+
+And
+ so
+ we
+ really
+ try
+ these
+ things
+ and
+
+
+and
+ determine
+ how
+ they're
+ going
+ to
+ apply
+
+
+to
+ our
+ customers,
+ how
+ we
+ can
+ explain
+
+
+them
+ to
+ our
+ customers
+ because
+ sometimes
+
+
+it's
+ not
+ super
+ obvious
+ what
+ these
+ new
+ AI
+
+
+capabilities
+ are
+ going
+ to
+ be
+ good
+ for.
+
+
+Sometimes
+ they
+ are
+ a
+ solution
+ looking
+
+
+for
+ a
+ problem,
+ but
+ sometimes
+ they
+ are
+ a
+
+
+real
+ solution
+ to
+ a
+ problem
+ and
+
+
+>> we
+ really
+ just
+ need
+ to
+ kind
+ of
+ break
+
+
+them
+ in
+ and
+ understand
+ like
+ how
+ they
+
+
+work,
+ the
+ nuances
+ of
+ them
+ and
+ and
+ that
+
+
+sort
+ of
+ thing.
+ That's
+ actually
+ my
+ like
+
+
+one
+ of
+ my
+ most
+ important
+ questions
+ and
+ I
+
+
+think
+ a
+ question
+ that
+ audience
+ care
+ a
+
+
+lot
+ about
+ that
+ is
+ would
+ just
+ with
+ the
+
+
+big
+ models
+ just
+ eat
+ everything
+ because
+
+
+you
+ try
+ so
+ many
+ different
+ new
+ things
+
+
+right
+ but
+ the
+ argument
+ is
+ you
+ just
+ need
+
+
+GPT
+ you
+ just
+ need
+ a
+ codeex
+ you
+ just
+ need
+
+
+anthropic
+ model
+ uh
+ there's
+ no
+
+
+applications
+ on
+ top
+ of
+ that
+ what's
+ your
+
+
+opinion
+ on
+ that
+
+
+>> well
+ first
+ of
+ all
+ let's
+ bear
+ in
+ mind
+
+
+that
+ models
+ by
+ themselves
+ don't
+ do
+
+
+anything
+ I
+ mean
+ models
+ by
+ themselves
+
+
+they
+ predict
+ token
+ by
+ token
+ but
+ they
+
+
+themselves
+ actually
+ do
+ nothing.
+ So
+ they
+
+
+have
+ to
+ be
+ embedded
+ within
+ a
+ harness
+ of
+
+
+some
+ sort
+
+
+>> for
+ them
+ to
+ do
+ anything.
+ And
+ so
+
+
+certainly
+ our
+ own
+ M365
+ copilot
+ is
+ one
+
+
+harness.
+ GitHub
+ copilot
+ is
+ another.
+
+
+There
+ are
+ plenty
+ of
+ consumer
+ harnesses
+
+
+that
+ many
+ people
+ are
+ familiar
+ with.
+
+
+>> And
+ so
+ really
+ it's
+ the
+ interaction
+ of
+
+
+the
+ harness
+ and
+ the
+ model
+ that
+ produces
+
+
+the
+ results
+ that
+ we
+ see
+ today.
+ And
+ these
+
+
+models
+ are
+ indeed
+ as
+ you
+ say
+ getting
+
+
+better
+ and
+ better.
+ every
+ day
+ there's
+ a
+
+
+new
+ model
+ from
+ us
+ or
+ from
+ one
+ of
+ the
+
+
+other
+ model
+ building
+ houses
+ that
+ are
+ out
+
+
+there
+ and
+ so
+ they
+ continue
+ to
+ improve
+ uh
+
+
+for
+ sure
+ at
+ the
+ same
+ time
+ there
+ is
+
+
+definitely
+ a
+ place
+ for
+ model
+
+
+customization
+ one
+ of
+ the
+ things
+ that
+
+
+you're
+ going
+ to
+ start
+ to
+ see
+ now
+ I
+ think
+
+
+more
+ often
+ is
+ models
+ on
+ the
+ edge
+ and
+ in
+
+
+fact
+ there
+ is
+ a
+ model
+ that
+ I
+ use
+ on
+ this
+
+
+laptop
+ on
+ which
+ I'm
+ talking
+ to
+ you
+ quite
+
+
+frequently
+ I
+ use
+ handy
+ actually
+ handy
+ is
+
+
+an
+ open
+ source
+ project
+ for
+ transcription
+
+
+it
+ does
+ transcription
+
+
+really
+ really
+ well.
+ And
+ so,
+ you
+ know,
+ I
+
+
+wrote
+ an
+ email
+ to
+ you
+ in
+ advance
+ of
+ this
+
+
+podcast.
+ I
+ didn't
+ type
+ it.
+ I
+ probably
+
+
+dictated
+ it.
+ And
+ I've
+ gotten
+ this
+
+
+dictation
+ really
+ dialed
+ in,
+ but
+ it
+ runs
+
+
+locally.
+ This
+ is
+ a
+ model
+ that's
+ running
+
+
+entirely
+ locally
+ on
+ my
+ laptop.
+ Does
+ not
+
+
+go
+ to
+ the
+ cloud,
+ nothing
+ like
+ that.
+ Now,
+
+
+we're
+ going
+ to
+ find
+ more
+ and
+ more
+ of
+
+
+these
+ things
+ as
+ the
+ hardware
+ becomes
+
+
+more
+ and
+ more
+ capable.
+ I
+ have
+ a
+
+
+relatively
+ new
+ uh
+ computer
+ here,
+ so
+ it's
+
+
+pretty
+ capable
+ at at
+ handling
+ these
+
+
+models.
+ But
+ as
+ the
+ hardware
+ becomes
+ more
+
+
+capable
+ of
+ handling
+ these
+ models,
+ I
+
+
+think
+ you're
+ going
+ to
+ start
+ to
+ see
+ an
+
+
+explosion
+ of
+ models
+ that
+ have
+ custom
+
+
+purposes
+ that
+ like
+ like
+ the
+
+
+transcription
+ model.
+ It's
+ not
+ a
+ general
+
+
+purpose
+ model.
+ It
+ doesn't
+ do
+ whatever
+ it
+
+
+does
+ transcription.
+
+
+>> I
+ think
+ the
+ model
+ can
+ do
+ it,
+ but
+ the
+
+
+other
+ question
+ is
+ why
+ do
+ I
+ need
+ this
+
+
+one?
+ uh
+ when
+ I
+ can
+ just
+ have
+ whisper
+ for
+
+
+example
+ or
+ GPT
+ uh
+ real
+ time
+ to
+ do
+ this
+
+
+for
+ me
+ especially
+ like
+ you
+ know
+ clients
+
+
+are
+ enterprise
+ and
+ I
+ know
+ it's
+ actually
+
+
+a
+ debate
+ debate
+ going
+ on
+ right
+ now
+ like
+
+
+so
+ AI
+ and
+ you
+ know
+ enterprise
+ shall
+ we
+
+
+have
+ our
+ own
+ model
+ or
+ shall
+ we
+ just
+ give
+
+
+every
+ data
+ all
+ the
+ data
+ to
+ anthropic
+ and
+
+
+open
+ AI
+ so
+ like
+ yeah
+ what
+ is
+ the
+ demand
+
+
+for
+ this
+
+
+>> well
+ I
+ mean
+ to
+ be
+ perfectly
+ honest
+ what
+
+
+the
+ model
+ that
+ I'm
+ using
+ locally
+ here
+ is
+
+
+whisper.
+ However,
+ I
+ have
+ made
+ a
+ number
+
+
+of
+ customizations
+ to
+ it.
+ I
+ mean,
+ for
+
+
+example,
+ let's
+ say
+ that
+ I
+ was
+ commonly
+
+
+emailing
+ you.
+ I
+ would
+ probably
+ need
+ to
+
+
+teach
+ it
+ how
+ to
+ say
+ Een,
+ right?
+ Like,
+ it
+
+
+wouldn't
+ just
+ know
+ how
+ to
+ say
+ your
+ name,
+
+
+>> which
+ I
+ may
+ or
+ may
+ not
+ be
+ pronouncing
+
+
+correctly,
+ but
+ in
+ any
+ case,
+ regardless
+
+
+of
+ how
+ I
+ pronounce
+ it,
+ you
+ know,
+ will
+
+
+the
+ model
+ spell
+ it
+ correctly?
+
+
+>> I
+ mean,
+ maybe,
+ maybe
+ not,
+ right?
+ But
+ if
+
+
+I
+ adjust
+ it
+ a
+ little
+ bit,
+ as
+ I
+ have
+ been
+
+
+doing,
+ then
+ it's
+ much
+ more
+ likely
+ to
+ to
+
+
+spell
+ it
+ correctly.
+
+
+>> So
+ one
+ argument
+ is
+ this
+ customized
+ model
+
+
+just
+ works
+ better
+ for
+ your
+ scenario
+ than
+
+
+out
+ of
+ the
+ box.
+
+
+>> That's
+ right.
+ And
+ you'll
+ see
+ that
+ I
+ mean
+
+
+we
+ have
+ seen
+ that
+ for
+ many
+ years
+ with
+
+
+things
+ like
+ custom
+ vision
+ models.
+ I
+ mean
+
+
+for
+ example
+ in
+ our
+ own
+ document
+
+
+intelligence.
+ So
+ in
+ addition
+ to
+ the
+
+
+general
+ purpose
+ you
+ know
+ of
+ course
+ we
+
+
+have
+ on
+ Foundry
+ we
+ have
+ with
+ Microsoft
+
+
+we
+ have
+ many
+ different
+ models
+ literally
+
+
+11,000
+ like
+ 500
+ models
+ on
+ the
+ model
+
+
+catalog
+ probably
+ more
+ than
+ that
+ now.
+ uh
+
+
+and
+ most
+ of
+ them
+ are
+ general
+ purpose
+
+
+models
+ like
+ GPT
+ and
+ Claude
+ and
+ Mistral
+
+
+and
+ stuff
+ like
+ that.
+ But
+ we
+ also
+ have
+
+
+this
+ document
+ intelligence
+ suite
+ which
+
+
+processes
+ billions
+ of
+ documents
+ a
+ day
+
+
+and
+ it
+ is
+ made
+ specifically
+ to
+ read
+
+
+documents
+ but
+ moreover
+ to
+ find
+ their
+
+
+layouts
+ and
+ stuff
+ like
+ that
+ and
+ that's
+
+
+something
+ that
+ general
+ purpose
+ models
+
+
+have
+ a
+ tendency
+ not
+ to
+ do
+ wonderfully.
+
+
+Like
+ if
+ you
+ have
+ a
+ document
+ and
+ it
+ has
+ a
+
+
+table
+ in
+ it,
+ that
+ table
+ cuts
+ across
+
+
+pages.
+ Then
+ general
+ purpose
+ models
+ have
+
+
+a
+ tendency
+ not
+ to
+ be
+ able
+ to
+ stitch
+ that
+
+
+together.
+
+
+>> But
+ our
+ document
+ intelligence
+ model
+ can
+
+
+do
+ that.
+ In
+ fact,
+ it
+ can
+ do
+ that
+ so
+ well
+
+
+that
+ we
+ also
+ have
+ a
+ document
+ translator.
+
+
+And
+ the
+ document
+ translator
+ will
+ take
+
+
+the
+ layout
+ and
+ reproduce
+ it
+ but
+ in
+ some
+
+
+other
+ language.
+ And
+ if
+ I
+ translate
+ from
+
+
+like
+ English
+ to
+ Hebrew
+ or
+ Arabic,
+ like
+ a
+
+
+right
+ to
+ left
+ language,
+ it'll
+ also
+ flip
+
+
+the
+ layout.
+
+
+>> Uh,
+ it's
+ pretty
+ crazy
+ actually.
+ I
+ mean,
+
+
+when
+ you
+ do
+ it,
+ it's
+ it's
+ kind
+ of
+ melts
+
+
+your
+ mind
+ a
+ little
+ bit
+ when
+ you
+ you
+
+
+actually
+ do
+ these
+ translations
+ because
+
+
+it's
+ like
+ how
+ did
+ you
+ do
+ that?
+ That's
+
+
+nuts.
+
+
+>> Yeah.
+ And
+ I
+ think
+ by
+ describing
+ the
+
+
+usage
+ like
+ the
+ application
+ of
+ this
+ model
+
+
+I
+ realized
+ something
+ that
+ is
+ most
+ of
+ us
+
+
+like
+ interact
+ with
+ new
+ technologies
+
+
+because
+ we
+ are
+ a
+ consumer
+ but
+ Microsoft
+
+
+your
+ job
+ is
+ mostly
+ like
+ talking
+ with
+
+
+enterprise
+ or
+ large
+ organizations
+ and
+
+
+their
+ use
+ case
+ can
+ be
+ very
+ different.
+
+
+Yeah.
+ So
+ help
+ us
+ understand
+ a
+ little
+ bit
+
+
+about
+ their
+ world
+ like
+ what
+ are
+ they
+
+
+doing
+ how
+ they
+ are
+ using
+ AI.
+ Well,
+
+
+actually
+ this
+ I
+ can
+ I
+ can
+ make
+ a
+ a
+ very
+
+
+specific
+ contrast
+ between
+ consumer
+
+
+technology
+ and
+ business
+ technology.
+ And
+
+
+let's
+ not
+ forget
+ I
+ mean
+ Microsoft
+ does
+
+
+have
+ a
+ pretty
+ large
+ consumer
+ offering
+
+
+also,
+ right?
+ In
+ terms
+ of
+
+
+>> Xbox,
+ Bing,
+ Windows
+ and
+ stuff
+ like
+ that.
+
+
+So
+ yes,
+ we
+ do
+ have
+ a
+ consumer
+ footprint
+
+
+as
+ well.
+ But
+
+
+>> but
+ yes,
+ it's
+ true
+ at least
+ in
+ my
+
+
+division
+ that
+ I
+ am
+ mostly
+ talking
+ to
+
+
+enterprises
+ and
+ governments.
+ Although
+
+
+you
+ know
+ there
+ are
+ a
+ lot
+ of
+ startups
+ as
+
+
+well
+ that
+ use
+ our
+ technologies.
+
+
+Now,
+ one
+ of
+ the
+ things
+ that
+ I'm
+ going
+ to
+
+
+be
+ talking
+ about
+ at
+ the
+ AI
+ engineers
+
+
+conference
+ in
+ Shanghai
+ is
+ agents
+ with
+
+
+their
+ own
+ identity.
+ And
+ this
+ is
+ an
+
+
+emerging
+ trend.
+ You're
+ starting
+ to
+ see
+
+
+this
+ everywhere.
+ And
+ you
+ see
+ this
+ lately
+
+
+in
+ some
+ of
+ the
+ new
+ consumer
+ agents
+ that
+
+
+have
+ recently
+ showed
+ up
+ on
+ the
+ scene.
+
+
+So,
+ there's
+ these
+ consumer
+ agents
+ and
+
+
+when
+ you
+ log
+ into
+ them,
+ the
+ first
+ thing
+
+
+they
+ ask
+ you
+ is
+ to
+ give
+ them
+ a
+ name.
+ So,
+
+
+I
+ I
+ have
+ one
+ of
+ these
+ things.
+ I
+ named
+ it
+
+
+Lily
+ kind
+ of
+ randomly,
+ actually.
+ I
+ don't
+
+
+know.
+ I
+ pulled
+ that
+ name
+ right
+ out
+ of
+
+
+the
+ air.
+ So
+ that
+ kind
+ of
+ agent
+ it
+ has
+ a
+
+
+limited
+ form
+ of
+ identity.
+ We
+ at
+
+
+Microsoft
+ we
+ also
+ have
+ what
+ we
+ call
+
+
+autopilots
+ and
+ we
+ announced
+ that
+ just
+
+
+back
+ in
+ May
+ at
+ or
+ June
+ I
+ should
+ say
+ at
+
+
+our
+ build
+ conference.
+ So
+ we
+ have
+ this
+
+
+notion
+ of
+ autopilots.
+ This
+ is
+ also
+ an
+
+
+agent
+ with
+ his
+ own
+ identity
+ but
+ it
+ means
+
+
+something
+ very
+ different
+ for
+ a
+ business
+
+
+than
+ it
+ means
+ for
+ a
+ consumer.
+ So
+ if
+ I
+
+
+use
+ my
+ little
+ lily
+ agent
+ over
+ here,
+ I
+
+
+mean
+ ultimately
+ when
+ it
+ takes
+ an
+ action,
+
+
+you
+ know,
+ if
+ it
+ goes
+ and
+ books
+ travel
+ or
+
+
+writes
+ an
+ email
+ or
+ any
+ of
+ that
+ stuff,
+
+
+it's
+ doing
+ it
+ as
+ me.
+
+
+>> So
+ it
+ is
+ impersonating
+ me.
+ So
+ it
+ may
+
+
+have
+ a
+ name,
+ but
+ beyond
+ that,
+ it's
+ a
+
+
+pretty
+ light
+ identity.
+ Like
+ it
+ doesn't
+
+
+really
+ have
+ its
+ own
+ identity
+ for
+ the
+
+
+purpose
+ of
+ taking
+ actions.
+
+
+But
+ one
+ of
+ the
+ fundamental
+ capabilities
+
+
+of
+ our
+ autopilots
+ which
+ also
+ have
+ their
+
+
+own
+ identity.
+ I
+ mean
+ yes
+ you
+ can
+ give
+
+
+them
+ a
+ name
+ and
+ that's
+ all
+ well
+ and
+ good
+
+
+but
+ they
+ also
+ get
+ their
+ own
+ teams
+ box
+
+
+their
+ own
+ email
+ address
+ their
+ own
+ file
+
+
+space
+ and
+ all
+ of
+ these
+ kinds
+ of
+ things.
+
+
+They
+ can
+ take
+ actions
+ on
+ their
+ own
+
+
+behalf
+ and
+ crucially
+ for
+ businesses
+ in
+
+
+particular
+ and
+ governments
+ they
+ run
+ in
+
+
+their
+ own
+ security
+ context.
+ So
+ when
+ you
+
+
+have
+ an
+ agent
+ that's
+ impersonating
+ you
+
+
+>> it
+ is
+ running
+ in
+ your
+ security
+ context.
+
+
+It
+ inherits
+ whatever
+ permissions
+ you
+
+
+have.
+ So,
+ for
+ example,
+ like
+ if
+ I
+ have
+ an
+
+
+agent
+ impersonating
+ me,
+ I
+ have
+ the
+
+
+ability
+ to
+ delete
+ all
+ of
+ the
+ files
+ off
+
+
+of
+ my
+ computer.
+ And
+ if
+ this
+ agent
+ is
+
+
+impersonating
+ me,
+ it
+ too
+ can
+ delete
+ all
+
+
+of
+ the
+ files
+ off
+ of
+ my
+ computer
+ if
+ it
+
+
+really
+ goes
+ sideways.
+
+
+>> Mhm.
+
+
+>> But
+ if
+ I
+ make
+ an
+ autopilot
+ and
+ it
+ has
+
+
+its
+ own
+ identity,
+ then
+ first
+ of
+ all,
+ it
+
+
+can't
+ just
+ delete
+ my
+ files.
+ it
+ can't
+
+
+even
+ see
+ my
+ files
+ because
+ it's
+ a
+ totally
+
+
+different
+ user
+ just
+ like
+ you're
+ a
+
+
+different
+ user
+ from
+ me
+ unless
+ I
+
+
+specifically
+ give
+ it
+ that
+ access
+ unless
+
+
+I
+ affirmatively
+ grant
+ it
+ that
+ access.
+
+
+And
+ so
+ the
+ way
+ that
+ we're
+ using
+ this
+
+
+notion
+ of
+ agent
+ identities
+ is
+ really
+
+
+towards
+ the
+ principle
+ of
+ least
+ privilege
+
+
+which
+ you
+ probably
+ heard
+ of
+ that
+ you
+
+
+know
+ this
+ idea
+ that
+ you
+ want
+ to
+ give
+
+
+people
+ and
+ now
+ agents
+ the
+ least
+ number
+
+
+of
+ privileges
+ as
+ possible
+ for
+ them
+ to
+ be
+
+
+able
+ to
+ do
+ their
+ job
+ and
+ no
+ more
+ than
+
+
+that
+ so
+ that
+ they
+ can't
+ go
+ sideways.
+
+
+that
+ becomes
+ especially
+ important
+ in
+
+
+this
+ age
+ of
+ agents
+ for
+ the
+ kind
+ of
+
+
+government
+ the
+ governance
+ that
+
+
+businesses
+ and
+ governments
+ are
+ looking
+
+
+for.
+
+
+That's
+ interesting
+ because
+ I
+ remember
+
+
+hearing
+ acquire
+ episode
+ and
+ actually
+
+
+talks
+ about
+ how
+ Microsoft
+ builds
+ it
+
+
+advantage
+ on
+ top
+ of
+ the
+ directory
+ like
+
+
+is
+ the
+ directory
+ that
+ once
+ like
+ once
+ you
+
+
+have
+ the
+ directory
+ all
+ the
+ office
+
+
+uh
+ software
+ uh
+ just
+ inherits
+ that
+ very
+
+
+complex
+ and
+ behind
+ the
+ scene
+ you
+ know
+
+
+rights
+ and
+ permissions
+ and
+ files.
+ Yeah.
+
+
+So
+ that
+ is
+ actually
+ playing
+ in
+ the
+
+
+advantage
+ of
+ Microsoft.
+ But
+
+
+then
+ the
+ employees
+ would
+ be
+ worried.
+ Now
+
+
+I'm
+ seeing
+ an
+ agent
+ with
+ identity
+ doing
+
+
+what
+ I
+ can
+ do.
+ So
+ like
+ what
+ does
+ it
+ mean
+
+
+for
+ the
+ workforce?
+
+
+>> Well,
+ when
+ you
+ declare
+ an
+ autopilot,
+ for
+
+
+example,
+ when
+ you
+ create
+ an
+ instance
+ of
+
+
+one
+ of
+ these
+ things,
+ it
+ will
+ report
+ to
+
+
+you.
+ So
+ it
+ actually
+ reports
+ to
+ you.
+ And
+
+
+the
+ idea
+ is
+ that
+ you
+ can
+ delegate
+ some
+
+
+of
+ your
+ work
+ to
+ these
+ autopilots.
+ And
+
+
+there
+ will
+ be
+ autopilots
+ that
+ our
+
+
+customers
+ will
+ build
+ for
+ specific
+
+
+purposes,
+ certain
+ types
+ of
+ customer
+
+
+support
+ or
+ partner
+ support,
+ those
+ kinds
+
+
+of
+ things.
+ And
+ then
+ there
+ will
+ be
+ more
+
+
+general
+ purpose
+ autopilots
+ that
+ we
+ will
+
+
+use
+ in
+ the
+ way
+ like
+ personal
+ assistance
+
+
+and
+ stuff
+ like
+ that
+ that
+ you
+ use
+ to
+
+
+manage
+ your
+ calendar
+ and
+ those
+ kinds
+ of
+
+
+things.
+ Indeed,
+ I
+ think
+ the
+ at
+ the
+ time
+
+
+that
+ we
+ are
+ recording
+ this,
+ I
+ am
+ pretty
+
+
+sure
+ that
+ I
+ used
+ mine
+ to
+ make
+ this
+
+
+calendar
+ anyway
+ to
+ accept
+ the
+ one
+ that
+
+
+you
+ sent
+ to
+ me.
+ But
+ I
+ think
+ it's
+
+
+important
+ to
+ at
+ least
+ I
+ guess
+ still
+ man
+
+
+the
+ case
+ of
+ AI
+ seriously
+ replacing
+ a
+ lot
+
+
+of
+ the
+ workforce
+ just
+ because
+ like
+
+
+like
+ I
+ I
+ guess
+ I
+ can
+ still
+ man
+ with
+ two
+
+
+two
+ cases.
+ The
+ first
+ case
+ is
+ there
+ are
+
+
+just
+ a
+ lot
+ of
+ fake
+ work
+ in
+ our
+ like
+
+
+built
+ into
+ knowledge
+ worker
+ like
+ we
+ copy
+
+
+paste
+ information
+
+
+between
+ different
+ software
+
+
+>> and
+ now
+ we
+ have
+ this
+ single
+ agent
+ that
+
+
+can
+ do
+ anything
+ there.
+ I
+ don't
+ have
+ to
+
+
+go
+ to
+ notion
+ and
+ then
+ go
+ to
+ google
+
+
+sheets
+ and
+ then
+ go
+ to
+ outlook
+ and
+ then
+
+
+go
+ to
+ another
+ SAS
+ product
+ in
+ order
+ to
+
+
+get
+ something
+ done.
+ So
+ that
+ work
+ is
+ just
+
+
+going
+ to
+ be
+ much
+ more
+ efficient
+ and
+
+
+requires
+ much
+ less
+ time.
+ So
+ that
+ is
+
+
+scenario
+ number
+ one.
+ Uh
+ scenario
+ number
+
+
+two
+ is
+ if
+ I
+ can
+ go
+ from
+ my
+ intent
+ to
+ the
+
+
+outcome.
+ I
+ don't
+ need
+ to
+ have
+ so
+ many
+
+
+meetings
+ and
+ just
+ people
+ debating.
+ A
+ lot
+
+
+of
+ process
+ are
+ in
+ place
+ because
+ doing
+
+
+things
+ are
+ expensive.
+ We
+ have
+ to
+ like
+
+
+spend
+ engineering
+ hours
+ to
+ make
+ it
+
+
+happen
+ or
+ you
+ know
+ sell
+ it.
+ But
+ now
+ if
+ I
+
+
+can
+ produce
+ products
+ cheaply
+ then
+ maybe
+
+
+I
+ don't
+ have
+ need
+ all
+ the
+ alignments
+ and
+
+
+other
+ middle
+ management.
+ So
+ I
+ feel
+ like
+
+
+it
+ is
+ like
+ reducing
+ a
+ lot
+ of
+ at
+ least
+
+
+redundant
+ unnecessary
+
+
+work
+ that
+ used
+ to
+ actually
+ I
+ feel
+ like
+
+
+be
+ responsible
+ for
+ a
+ lot
+ of
+ the
+
+
+employment.
+ Yeah.
+ And
+ other
+ other
+ hand,
+
+
+yeah,
+ getting
+ smarter,
+ right?
+ And
+ I
+ feel
+
+
+like
+ last
+ year
+ they
+ cannot
+ do
+ most
+ of
+
+
+things
+ that
+ most
+ people
+ can
+ do
+ in
+ like
+
+
+enterprise
+ setting,
+ but
+ this
+ year
+ they
+
+
+can
+ seriously
+ like
+ do
+ get
+ a
+ lot
+ of
+
+
+things
+ done.
+ So
+ with
+ that,
+ yeah,
+ that's
+
+
+my
+ challenge
+ or
+
+
+>> jobs
+ are
+ definitely
+ going
+ to
+ change.
+
+
+They
+ are
+ already
+ changing.
+ As
+ I
+ said,
+ my
+
+
+own
+ job
+ has
+ changed
+ quite
+ dramatically
+
+
+even
+ from
+ four
+ years
+ ago
+ when
+ I
+ first
+
+
+joined
+ Microsoft.
+ So
+ I
+ mean
+ we
+ do
+ need
+
+
+to
+ be
+ cognizant
+ of
+ the
+ various
+ risks
+ and
+
+
+the
+ externalities
+ of
+ these
+ things
+ and
+ I
+
+
+think
+ we
+ are
+ increasingly
+ cognizant
+ of
+
+
+these
+ things
+ and
+ so
+ those
+ risks
+ include
+
+
+how
+ jobs
+ are
+ going
+ to
+ be
+ changed.
+ Uh
+
+
+they
+ also
+ include
+ the
+ externalities
+ of
+
+
+things
+ like
+ data
+ centers.
+ You
+ know,
+ a
+
+
+lot
+ of
+ people
+ are
+ are
+ right
+ now
+ averse
+
+
+to
+ having
+ data
+ centers
+ in
+ in
+ their
+ local
+
+
+and
+ and
+ I
+ think
+ it's
+ key
+ for
+ us
+ to
+ gain
+
+
+permission
+ from
+ a
+ community
+ or
+ from
+ an
+
+
+employee
+ to
+ to
+ build
+ these
+ things
+ or
+ to
+
+
+use
+ these
+ things
+ or
+ present
+ these
+ things
+
+
+on
+ their
+ behalf.
+ That
+ that
+ I
+ think
+ is
+
+
+really
+ key
+ to
+ the
+ success
+ of
+ any
+ AI
+ is
+
+
+is
+ frankly
+ permission.
+
+
+>> You
+ mentioned
+ permission
+ from
+ employees.
+
+
+Can
+ you
+ elaborate?
+ Well,
+ permission
+ from
+
+
+people,
+ you
+ know.
+ I
+ mean,
+ I
+ think
+ one
+ of
+
+
+the
+ mistakes
+ that
+ some
+ folks
+ make,
+ and
+
+
+we
+ don't
+ do
+ this
+ as
+ much
+ now,
+ but
+ I
+
+
+mean,
+ it
+ kind
+ of
+ gets
+ pushed
+ in
+ your
+
+
+face,
+ you
+ know?
+ It's
+ like,
+ hey,
+ try
+ this
+
+
+AI
+ thing,
+ you
+ know?
+ It's
+ like
+ you're
+
+
+just
+ trying
+ to
+ do
+ something,
+ trying
+ to
+
+
+edit
+ a
+ video
+ or
+ try
+ to
+ do
+ whatever
+
+
+you're
+ doing,
+ and
+ it's
+ like
+ like
+ AI,
+ use
+
+
+this
+ AI.
+ And
+ sometimes
+ it
+ is
+ useful,
+ and
+
+
+sometimes
+ it's
+ not
+ so
+ useful.
+ I
+ mean,
+
+
+the
+ funny
+ thing
+ is
+ the
+ video
+ editing
+
+
+tool
+ that
+ I
+ use,
+ I
+ make
+ a
+ lot
+ of
+ videos,
+
+
+and
+ now
+ I
+ got
+ a
+ YouTube
+ channel
+ and
+
+
+stuff
+ like
+ that.
+ And
+ uh
+ I
+ for
+ a
+ long
+
+
+time
+ I
+ resisted
+ the
+ AI
+ video
+ editing
+
+
+tool
+ that
+ was
+ built
+ into
+ my
+ the
+ video
+
+
+editor
+ that
+ I
+ use
+ uh
+ until
+ one
+ day
+ I
+ was
+
+
+like,
+ you
+ know
+ what,
+ let
+ me
+ try
+ it
+
+
+today.
+ I'm
+ going
+ to
+ try
+ this
+ thing,
+ see
+
+
+if
+ it's
+ any
+ good.
+ And
+ oh
+ my
+ god,
+ it
+ was
+
+
+so
+ much
+ better.
+ Like
+ in
+ a
+ way,
+ like
+ I
+
+
+resisted
+ having
+ it
+ pushed
+ into
+ my
+ face,
+
+
+but
+ then
+ eventually
+ I
+ gave
+ it
+ that
+
+
+permission.
+ And
+ I
+ did,
+ I
+ found
+ that
+ it
+
+
+it
+ cut
+ my
+ edit
+ time
+ down
+ to,
+ you
+ know,
+
+
+what
+ would
+ have
+ taken
+ me
+ an
+ hour
+ to
+ edit
+
+
+a
+ video
+ before.
+ Now
+ I
+ can
+ do
+ in
+ like
+ 15
+
+
+minutes
+ because
+ basically
+ I
+ can
+ edit
+ the
+
+
+text
+ of
+ my
+ transcript
+ and
+ if
+ I
+ misspeak
+
+
+a
+ word
+ or
+ something,
+ I
+ just
+ delete
+ the
+
+
+word
+ out,
+ it
+ deletes
+ that
+ part
+ of
+ the
+
+
+video
+ and
+ then
+ we're
+ done.
+ Like
+ it
+ moves
+
+
+on.
+
+
+>> Anyway,
+ so
+ yeah,
+ I'm
+ not
+ using
+ the
+ I'm
+
+
+not
+ using
+ like
+ generative
+ video
+ like
+ I
+
+
+make
+ all
+ of
+ my
+ videos.
+ I
+ voice
+ over
+ all
+
+
+my
+ videos.
+ I'm
+ not
+ really
+ using
+ AI
+
+
+voices
+ very
+ much.
+ although
+ they
+ there's
+
+
+they're
+ getting
+ very
+ good
+ now
+ but
+ for
+
+
+editing
+ I
+ mean
+ it
+ has
+ my
+ permission
+ now
+
+
+so
+ I
+ mean
+ I
+ think
+ permission
+ and
+ not
+
+
+just
+ employees
+ but
+ everybody
+ right
+ I
+
+
+mean
+ when
+ you
+ think
+ about
+ using
+ consumer
+
+
+AI
+ also
+ I
+ mean
+ there's
+ a
+ there's
+ a
+
+
+number
+ of
+ layers
+ of
+ permission
+ to
+ that
+
+
+does
+ the
+ agent
+ you
+ know
+ does
+ it
+ have
+ my
+
+
+permission
+ to
+ access
+ my
+ email
+ to
+ access
+
+
+my
+ messages
+ or
+ my
+ calendar
+ or
+ those
+
+
+kinds
+ of
+ things
+ I
+ have
+ to
+ explicitly
+
+
+give
+ it
+ uh
+ that
+ permission
+ otherwise
+ it
+
+
+feels
+ like
+ a
+ violation
+
+
+Um
+
+
+I
+ guess
+ now
+ I
+ can
+ think
+ about
+ think
+ of
+
+
+one
+ question
+ for
+ this
+ part.
+ We're
+ going
+
+
+to
+ talk
+ about
+ the
+ opportunity
+ part
+ but
+
+
+for
+ this
+ part
+ I
+ guess
+ my
+ summary
+ will
+ be
+
+
+summarized
+ question
+ will
+ be
+ can
+ there
+ be
+
+
+a
+ happy
+ AI
+ transformation
+
+
+path
+ AI
+ happy
+ AI
+ transit
+ path
+ like
+ like
+
+
+we
+ talk
+ about
+ you
+ know
+ enterprise
+
+
+adopting
+ to
+ AI
+ employees
+ adopting
+ to
+ AI
+
+
+and
+ like
+ you
+ said
+ like
+ a
+ lot
+ of
+ the
+
+
+things
+ are
+ just
+ in
+ our
+ face
+ we
+ have
+ to
+
+
+accept
+ it
+ when
+ we
+ do
+ training
+ like
+ I
+
+
+feel
+ like
+ some
+ people
+ are
+ excited
+ about
+
+
+oh
+ I
+ can
+ have
+ this
+ new
+ technology
+ but
+
+
+most
+ people
+ are
+ worried
+ And
+
+
+from
+ the
+ good
+ intention
+ I
+ feel
+ like
+ yeah
+
+
+a
+ lot
+ of
+ enterprise
+ try
+ to
+ do
+ this
+ happy
+
+
+AI
+ transformation
+ like
+ everybody
+ keeps
+
+
+their
+ job
+ we
+ all
+ level
+ up
+ level
+ our
+
+
+skills
+ we
+ use
+ AI
+ we
+ do
+ the
+ creative
+ work
+
+
+we
+ don't
+ have
+ to
+ do
+ the
+ tedious
+ work
+
+
+that's
+ the
+ promise
+ but
+ do
+ you
+ think
+ it's
+
+
+uh
+ possible
+
+
+>> well
+ certainly
+ the
+ happiest
+ AI
+ path
+ is
+
+
+when
+ the
+ AI
+ is
+ available
+ to
+ everybody
+
+
+everybody
+ in
+ an
+ organization
+ everybody
+
+
+in
+ a
+ country
+ or
+ in
+ a
+ region
+ and
+ those
+
+
+kinds
+ of
+ things
+ and
+ one
+ The
+ advantages
+
+
+of
+ AI
+ as
+ we
+ know
+ it
+ today
+ is
+ that
+ it's
+
+
+becoming
+ more
+ and
+ more
+ accessible.
+ Uh
+
+
+that
+ is
+ to
+ say
+ whereas
+ where
+ we
+ started
+
+
+and
+ not
+ even
+ that
+ long
+ ago.
+ I
+ mean
+ you
+
+
+think
+ about
+ coding
+ agents
+ and
+ the
+ CLIs.
+
+
+I
+ mean
+ we
+ have
+ our
+ own
+ GitHub
+ copilot
+
+
+CLI
+ but
+ there's
+ only
+ so
+ many
+ people
+ that
+
+
+know
+ how
+ to
+ use
+ a
+ command
+ line
+
+
+interface.
+ You
+ know
+ it's
+ probably
+ 1%
+ of
+
+
+the
+ population
+ or
+ less
+ could
+ really
+ use
+
+
+that
+ thing
+ even
+ knows
+ how
+ to
+ open
+ a
+
+
+terminal
+ to
+ start
+ it
+ up.
+ uh
+ you
+ know
+ it
+
+
+looks
+ like
+ a
+ it
+ when
+ you
+ use
+ it
+ it
+ looks
+
+
+like
+ one
+ of
+ those
+ hacker
+ scenes
+ in
+ some
+
+
+movie
+ or
+ whatever
+ you're
+ using
+ the
+ CLI
+
+
+but
+ AI
+ is
+ moving
+ away
+ from
+ that
+ and
+ into
+
+
+something
+ that's
+ much
+ more
+ natural
+ now
+
+
+you
+ start
+ to
+ see
+ more
+ and
+ more
+ voice
+
+
+interfaces
+ so
+ but
+ that's
+ a
+ much
+ more
+
+
+natural
+ interface
+ right
+ I'm
+ not
+ using
+ a
+
+
+command
+ line
+ interface
+ I'm
+ not
+ using
+
+
+something
+ very
+ technical
+ something
+ that
+
+
+I
+ can
+ talk
+ to
+ that
+ it
+ talks
+ to
+ me
+ and
+
+
+that
+ becomes
+ more
+ and
+ more
+ common
+ now
+ uh
+
+
+that
+ kind
+ of
+ really
+ natural
+ interaction
+
+
+in
+ a
+ natural
+ way
+ of
+ being
+ but
+ these
+
+
+things
+ are
+ still
+ evolving.
+ I
+ mean,
+ even
+
+
+the
+ devices
+ that
+ we
+ use
+ to
+ interact
+ with
+
+
+AI
+ are
+ still
+ evolving.
+ Do
+ we
+ need
+ this
+
+
+many
+ screens
+ in
+ the
+ new
+ world?
+ I
+ don't
+
+
+know.
+ You
+ know,
+ we
+ got
+ screens
+ all
+ over
+
+
+the
+ place.
+ Do
+ we
+ need
+ it?
+ I
+ mean,
+ we'll
+
+
+see.
+
+
+>> Yeah.
+ Sorry
+ for,
+ you
+ know,
+ all
+ these
+
+
+speculative
+ questions
+ because,
+ you
+ know,
+
+
+when
+ we
+ talk
+ about
+ AI,
+ we
+ couldn't
+ help
+
+
+but
+ speculate.
+ But
+ now,
+ I
+ think
+ we
+ can
+
+
+shift
+ gears
+ towards
+ like
+ what
+ you
+
+
+actually
+ observe
+ on
+ the
+ field,
+
+
+especially
+ like
+ this
+ enterprise
+ already
+
+
+adopting
+ AI.
+ What
+ is
+ a
+ good
+ strategy?
+
+
+What
+ is
+ a
+ bad
+ strategy?
+ And
+ what
+ are
+ the
+
+
+opportunities
+ and
+ new
+ kind
+ of
+ business
+
+
+opportunities
+ created?
+
+
+>> Yeah.
+ I
+ mean,
+ I
+ think
+ the
+ best
+ strategy
+
+
+is
+ creating
+ AI
+ that
+ that
+ enables
+ people.
+
+
+I
+ think
+ one
+ one
+ of
+ my
+ favorite
+ customer
+
+
+stories
+ is
+ that
+ of
+ BMW.
+ BMW
+ uses
+ our
+
+
+technology
+ heavily.
+ And
+ in
+ particular,
+ I
+
+
+went
+ and
+ visited
+ them
+ in
+ in
+ Munich
+
+
+earlier
+ this
+ year,
+ actually,
+ and
+ it
+ was
+
+
+cool.
+ They
+ gave
+ me
+ a
+ tour
+ of
+ the
+
+
+factory,
+ all
+ this
+ stuff.
+ But
+ there
+ is
+ a
+
+
+group
+ at
+ BMW
+ called
+ BMW
+ MDR
+ mobile
+ data
+
+
+recorder
+ and
+ they
+ have
+ these
+ specially
+
+
+instrumented
+ BMWs
+ all
+ over
+ the
+ world.
+ So
+
+
+basically
+ you
+ get
+ if
+ you're
+ part
+ of
+ the
+
+
+MDR
+ program,
+ you
+ get
+ a
+ free
+ BMW,
+ but
+
+
+your
+ trunk
+ is
+ full
+ of
+ instrumentation
+
+
+because
+ it's
+ logging
+ everything
+ you
+ can
+
+
+think
+ of.
+ They
+ got
+ sensors
+ on
+ the
+ brakes
+
+
+and
+ the
+ engine
+ and
+ the
+ like
+ for
+ the
+
+
+ambient
+ humidity
+ and
+ everything
+ you
+ can
+
+
+possibly
+ think
+ of.
+ There
+ are
+ literally
+
+
+5,000
+ sensors
+ on
+ these
+ cars.
+ And
+ the
+
+
+challenge
+ was
+ that
+ until
+ recently,
+ and
+ I
+
+
+mean
+ like
+ a
+ year
+ ago,
+ these
+ things
+ they
+
+
+they
+ had
+ these
+ like
+ wizards,
+ basically
+
+
+these
+ people
+ that
+ could
+ query
+ all
+ of
+
+
+this
+ data
+ because
+ they
+ get
+ so
+ much
+ data,
+
+
+by
+ the
+ way,
+ that
+ the
+ way
+ they
+ retrieve
+
+
+it
+ is
+ you
+ can't
+ just
+ send
+ it
+ over
+ the
+
+
+wire
+ because
+ there's
+ too
+ much.
+ You
+
+
+literally
+ send
+ a
+ drive
+ to
+ them
+ and
+ they
+
+
+put
+ it
+ into
+ this
+ big
+ machine.
+ It
+ looks
+
+
+like,
+ if
+ you
+ know
+ Ghostbusters,
+ it's
+
+
+like
+ when
+ they
+ put
+ the
+ trap
+ in
+ the
+ thing
+
+
+and
+ the
+ containment
+ unit
+ and
+ they
+ get
+
+
+the
+ ghost
+ out.
+ It
+ looks
+ like
+ that.
+ I'm
+
+
+not
+ even
+ kidding.
+ That's
+ what
+ I
+ told
+
+
+them
+ when
+ I
+ saw
+ it.
+ I
+ was
+ like,
+ it's
+
+
+like
+ a
+ Damon
+ unit.
+ It's
+ like
+ a
+ terabyte
+
+
+or
+ more
+ of
+ data
+ that
+ that
+ it
+ gathers
+
+
+from
+ from
+ driving
+ around.
+ So,
+ it's
+ quite
+
+
+a
+ bit
+ of
+ telemetry.
+ And
+ for
+ for
+ many
+
+
+years,
+ because
+ they've
+ had
+ this
+ program
+
+
+for
+ many
+ years,
+ but
+ for
+ many
+ years,
+
+
+they've
+ just
+ had
+ a
+ few
+ of
+ these
+ kind
+ of
+
+
+wizards
+ that
+ could
+ query
+ this
+
+
+information.
+ So,
+ if
+ I
+ was
+ working
+ in
+ the
+
+
+braking
+ division,
+ I
+ wanted
+ to
+ know
+ how
+
+
+the
+ brakes
+ on
+ my
+ new
+ car
+ design
+ were
+
+
+performing.
+ I
+ would
+ have
+ to
+ go
+ talk
+ to
+
+
+one
+ of
+ these
+ kind
+ of
+ wizards
+ and
+
+
+eventually
+ I'd
+ get
+ in
+ the
+ queue
+ and
+
+
+eventually
+ I'd
+ get
+ my
+ query
+ back
+ and
+ I'd
+
+
+get
+ some
+ information
+ about
+ how
+ my
+ brakes
+
+
+are
+ performing.
+ And
+ they
+ decided
+ one
+ day
+
+
+they're
+ like,
+ "We're
+ going
+ to
+ modernize
+
+
+this."
+ Like,
+ we
+ have
+ agents
+ today.
+ We
+
+
+have
+ these
+ models
+ that
+ are
+ pretty
+
+
+capable.
+ But
+ again,
+ I
+ mean,
+ this
+ is
+ one
+
+
+of
+ those
+ places
+ where
+ the
+ model
+ by
+
+
+itself
+ is
+ insufficient
+ because
+ again,
+
+
+you
+ got
+ 5,000
+ sensors
+ and
+ each
+ one
+ of
+
+
+these
+ sensors
+ has
+ a
+ different
+ value,
+
+
+different
+ thresholds,
+ a
+ different
+
+
+meaning.
+ I
+ mean,
+ you
+ know,
+ the
+ brake
+
+
+sensors
+ are
+ totally
+ different
+ than
+ the,
+
+
+you
+ know,
+ engine
+ sensors,
+ right?
+ And
+
+
+brake
+ temperatures
+ will
+ vary
+ very
+
+
+differently
+ than
+
+
+>> uh
+ engine
+ temperatures,
+ one
+ would
+ hope.
+
+
+Uh,
+ so
+
+
+they
+ spent
+ like
+ 6
+ months
+ going
+ all
+
+
+around
+ BMW
+ and
+ gathering
+ a
+ data
+
+
+dictionary.
+ And
+ this
+ is
+ the
+ work
+ that's
+
+
+still
+ required.
+ I
+ mean,
+ if
+ you
+ want
+ your
+
+
+AI
+ to
+ work
+ with
+ your
+ structured
+ data
+ or
+
+
+your
+ unstructured
+ data
+ or
+ whatever,
+ it's
+
+
+it
+ seems
+ magical,
+ but
+ it's
+ not.
+ You
+
+
+still
+ have
+ to
+ tell
+ it
+ what
+ this
+ stuff
+
+
+is.
+ So,
+ they
+ spent
+ all
+ this
+ time
+ with
+
+
+other
+ groups
+ at
+ BMW
+ compiling
+ this
+
+
+information
+ about
+ what
+ these
+ sensors
+
+
+were
+ gathering
+ and
+ also
+ how
+ to
+ interact
+
+
+with
+ them.
+ So
+ like
+ like
+ how
+ people
+ are
+
+
+going
+ to
+ interact
+ with
+ them
+ like
+ what
+
+
+words
+ what
+ terminology
+ what
+ acronyms
+
+
+might
+ you
+ be
+ using
+ when
+ you're
+
+
+interacting
+ with
+ the
+ brake
+ sensors
+
+
+versus
+ the
+ trunk
+ sensor
+ versus
+ the
+
+
+whatever
+ sensor
+ you
+ know
+ so
+ they
+ spent
+
+
+this
+ time
+ doing
+ this
+ stuff
+ but
+ the
+
+
+result
+ is
+ they
+ have
+ an
+ extremely
+
+
+functional
+ agent
+ that
+ I
+ was
+ able
+ to
+ try
+
+
+myself
+ like
+ now
+ this
+ is
+ me
+ walking
+ in
+
+
+the
+ door
+ I
+ have
+ no
+ knowledge
+ of
+ any
+ of
+
+
+these
+ sensors
+ but
+ I
+ was
+ able
+ to
+ actually
+
+
+the
+ query
+ I
+ made
+ I
+ remember
+ it
+ I
+ said
+
+
+show
+ me
+ all
+ the
+ hardbreaking
+ events
+ in
+
+
+wet
+ weather
+ in
+ the
+ last
+ week.
+ And
+ it
+ did
+
+
+it.
+ It
+ like
+ made
+ a
+ series
+ of
+ queries
+ and
+
+
+it
+ was
+ like,
+ okay,
+ here
+ are
+ all
+ the
+ hard
+
+
+breaking
+ events
+ in
+ the
+ last
+ week
+ in
+ wet
+
+
+weather.
+ And
+ so
+ if
+ I
+ wanted
+ to
+ dig
+
+
+deeper
+ on
+ that
+ and
+ be
+ like,
+ okay,
+ what
+
+
+was
+ the
+ temperature
+ of
+ the
+ brakes
+ when
+
+
+that
+ happened
+ or
+ what
+ was
+ the,
+ you
+ know,
+
+
+stopping
+ distance
+ or
+ these
+ kinds
+ of
+
+
+things,
+ I
+ could
+ have
+ gone
+ deeper
+ with
+
+
+that.
+ And
+ even
+ as
+ a
+ lay
+ person,
+ I
+ was
+
+
+able
+ to
+ get
+ that
+ done.
+ So,
+ you
+ know,
+
+
+they
+ they
+ spent
+ a
+ lot
+ of
+ time
+ to
+ make
+
+
+this
+ system,
+ which
+ now
+ all
+ of
+ the
+ BMW
+
+
+engineers
+ can
+ use.
+ So,
+ rather
+ than
+
+
+waiting
+ in
+ line
+ for
+ somebody
+ to
+ make
+
+
+them
+ a
+ query,
+ anybody
+ can
+ go
+ into
+ the
+
+
+system
+ that
+ I'm
+ referring
+ to
+ and
+ they
+
+
+can
+ use
+ it
+ just
+ like
+ I
+ did
+ and
+ in
+ a
+
+
+natural
+ way.
+ So,
+ again,
+ it
+ wasn't
+
+
+magical.
+ They
+ had
+ to
+ put
+ the
+ work
+ in.
+
+
+These
+ guys,
+ they
+ put
+ the
+ work.
+ Six
+
+
+months
+ they
+ spent
+ developing
+ this,
+
+
+putting
+ together
+ the
+ data,
+ the
+ context
+
+
+that
+ it
+ needed
+ and
+ that
+ kind
+ of
+ stuff.
+
+
+But
+ in
+ the
+ end
+ they
+ have
+ built
+ an
+ agent
+
+
+that
+ materially
+ improves
+ the
+ working
+
+
+lives
+ of
+ uh
+ these
+ engineers
+ at
+ BMW
+ and
+
+
+frankly
+ improves
+ the
+ quality
+ of
+ the
+
+
+product
+ itself.
+
+
+>> Yeah.
+ Yeah.
+ Like
+ reducing
+ incidents
+ and
+
+
+building
+ better
+ cars.
+ I
+ have
+ such
+ high
+
+
+respects
+ for
+ uh
+ these
+ people.
+ I
+ think
+
+
+it's
+ right
+ to
+ cotton
+ wizard.
+ I
+ did
+ like
+
+
+when
+ I
+ was
+ at
+ Tensent
+ I
+ did
+ kind
+ of
+
+
+cleaning
+ the
+ data
+ for
+ as
+ system.
+ It
+ was
+
+
+so
+ hard
+ three
+ months
+ and
+ just
+ like
+ like
+
+
+back
+ end
+ front
+ end
+ machine
+ learning
+
+
+systems
+ and
+ people
+ hard
+ coding
+ things
+ so
+
+
+much
+ so
+ hard
+ to
+ to
+ to
+ clean
+ but
+ I
+ can
+
+
+imagine
+ their
+ work
+ is
+ like
+ 100
+ times
+
+
+harder.
+ Yeah.
+ And
+ I
+ think
+ that's
+ really
+
+
+the
+ hidden
+ part
+ of
+ you
+ know
+ really
+
+
+functional
+ AI
+ behind
+ this
+ really
+
+
+functional
+ AI
+ is
+ actually
+ quite
+ a
+ bit
+ of
+
+
+work.
+ And
+ for
+ as
+ much
+ as
+ we
+ have
+ these
+
+
+coding
+ agents
+ now
+ that
+ have
+ these
+ really
+
+
+really
+ good
+ coding
+ models
+ and
+ those
+
+
+kinds
+ of
+ things
+ and
+ yes
+ of
+ course
+ they
+
+
+can
+ write
+ SQL
+ queries
+ and
+ KQL
+ queries
+
+
+and
+ GQL
+ queries
+ and
+ all
+ kinds
+ of
+
+
+queries.
+ Yes,
+ they
+ can
+ do
+ that
+ stuff
+ and
+
+
+that
+ still
+ doesn't
+ mean
+ that
+ you
+ don't
+
+
+have
+ to
+ put
+ in
+ the
+ work
+ to
+ because
+ it
+
+
+really
+ comes
+ down
+ to
+ the
+ context.
+ I
+
+
+mean,
+ again,
+ like
+ when
+ I
+ think
+ about
+ BMW
+
+
+MDR,
+ it
+ really
+ is
+ about
+ the
+ context
+ that
+
+
+they
+ gave
+ to
+ this
+ agent
+ that
+ tells
+ it
+
+
+what
+ all
+ this
+ data
+ is,
+ what
+ it
+ means,
+
+
+what
+ it's
+ about,
+ and
+ all
+ that
+ stuff.
+ And
+
+
+there
+ is
+ no
+ like
+ super
+ ultra
+ magical
+
+
+automated
+ way
+ to
+ do
+ that.
+ I
+ mean,
+ they
+
+
+had
+ to
+ gather
+ this
+ information
+ from
+
+
+their
+ colleagues,
+ their
+ colleagues
+ who
+
+
+were
+ making
+ these
+ sensors,
+ who
+ were
+
+
+using
+ these
+ systems.
+ You
+ know,
+ it
+ just
+
+
+wasn't
+ going
+ to
+ be
+ magical.
+ And
+ no
+
+
+coding
+ agent
+ in
+ the
+ world
+ was
+ going
+ to
+
+
+be
+ able
+ to
+ look
+ at
+ the
+ raw
+ data
+ and
+ be
+
+
+like
+ yeah
+ that's
+ definitely
+ breaks.
+
+
+That's
+ a
+ heartbreaking
+ event
+ for
+ sure.
+
+
+Like
+ no
+ way
+ no
+ way.
+ I
+ think
+ yeah
+ it
+ is
+ a
+
+
+barrier
+ or
+ a
+ chasm
+ like
+ when
+ there
+ is
+
+
+tacid
+ information
+ involved
+ agents
+ just
+
+
+cannot
+ know
+ that
+ you
+ have
+ to
+ extract
+
+
+that
+ from
+ human
+ for
+ agents
+ to
+ be
+ any
+
+
+useful
+ but
+ that's
+ part
+ of
+ the
+ kind
+ of
+
+
+the
+ raw
+ material.
+ And
+ then
+ the
+ other
+ end
+
+
+is
+ evaluations,
+ right?
+ How
+ can
+ you
+ know
+
+
+if
+ the
+ agent
+ is
+ doing
+ the
+ job
+ properly?
+
+
+You
+ queried
+ the
+ agent
+ and
+ I'm
+ I'm
+ sure
+
+
+they
+ must
+ have
+ some
+ way
+ to
+ know
+ this
+
+
+information
+ is
+ actually
+ accurate
+ and
+
+
+gives
+ you
+ what
+ you
+ ask
+ for.
+
+
+>> Yeah.
+ Well,
+ I
+ mean,
+ we
+ could
+ talk
+ about
+
+
+how
+ that
+ has
+ recently
+ changed.
+ The
+ way
+
+
+that
+ we
+ evaluate
+ agents
+ has
+ changed
+
+
+actually
+ quite
+ dramatically
+ over
+ the
+
+
+last
+ 3
+ months
+ or
+ so.
+ Actually,
+ it's
+ it's
+
+
+only
+ been
+ relatively
+ recently
+ that
+ this
+
+
+has
+ started
+ to
+ penetrate
+ the
+ market.
+ We
+
+
+certainly
+ have
+ support
+ for
+ it
+ in
+
+
+foundry.
+ It's
+ called
+ rubric
+ based
+
+
+evaluations.
+ And
+ this
+ is
+ an
+ ind
+ industry
+
+
+trend.
+ We're
+ not
+ the
+ only
+ ones
+ that
+ are
+
+
+doing
+ this.
+ You
+ know,
+ all
+ of
+ us
+ are
+ kind
+
+
+of
+ moving
+ towards
+ this
+ notion
+ of
+ rubric
+
+
+based
+ or
+ outcomebased.
+
+
+>> What
+ is
+ that?
+
+
+>> Yeah.
+ What
+ it
+ means
+ is
+ so,
+ you
+ know,
+
+
+let's
+ think
+ about
+ how
+ it
+ used
+ to
+ be
+
+
+before
+ we
+ even
+ think
+ about
+ how
+ it
+ is
+
+
+today.
+ So,
+ how
+ we
+ have
+ been
+ evaluating
+
+
+agents
+ for
+ the
+ last
+ three
+ and
+ a
+ half
+
+
+years
+ or
+ so.
+
+
+We've
+ had
+ these
+ metrics.
+ Now
+ bear
+ in
+
+
+mind
+ that
+ when
+ when
+ you
+ evaluate
+ an
+
+
+agent,
+ it's
+ not
+ like
+ a
+ unit
+ test.
+ It's
+
+
+not
+ a
+ pass
+ fail.
+ It's
+ going
+ to
+ be
+ a
+
+
+probabilistic
+ measure,
+ a
+ kind
+ of
+ a
+
+
+statistical
+ measure
+ because
+ they
+ are
+
+
+non-deterministic
+ and
+ they
+ you
+ know
+ they
+
+
+every
+ time
+ it'll
+ be
+ a
+ little
+ bit
+
+
+different.
+
+
+>> So
+ we
+ have
+ these
+ metrics
+ and
+ the
+
+
+original
+ metric
+ was
+ groundedness.
+ You
+
+
+know,
+ you
+ think
+ about
+ back
+ in
+ the
+ day,
+
+
+the
+ day
+ being
+ like
+ 2023,
+ which
+ is
+ only
+
+
+three
+ years
+ ago
+ as
+ of
+ this
+ recording.
+
+
+Mhm.
+
+
+>> But
+ we
+ were
+ building
+ these
+ question
+
+
+answering
+ agents
+ and
+ one
+ of
+ the
+ primary
+
+
+concerns
+ at
+ that
+ time
+ was
+ hallucination.
+
+
+This
+ idea
+ that
+ these
+ models
+ would
+ just
+
+
+make
+ up
+ whatever.
+ So
+ all
+ of
+ these
+
+
+evaluations
+ and
+ this
+ is
+ true.
+ This
+ was
+
+
+true
+ then.
+ This
+ is
+ still
+ true
+ now.
+ In
+
+
+most
+ cases
+ we
+ use
+ a
+ judge
+ large
+ language
+
+
+model.
+ So
+ an
+ adversarial
+ large
+ language
+
+
+model.
+ It's
+ basically
+ another
+ model.
+ In
+
+
+our
+ case
+ at
+ least
+ in
+ Foundry
+ we
+ have
+ a
+
+
+model
+ that's
+ specially
+ adapted
+ to
+ be
+ a
+
+
+judge.
+ So
+ it's
+ a
+ special
+ kind
+ of
+ model
+
+
+that
+ is
+ specifically
+ a
+ judge.
+ uh
+ and
+ and
+
+
+so
+ we
+ run
+ it
+ on
+ these
+ metrics.
+ But
+ if
+
+
+you
+ think
+ about
+ the
+ old
+ style
+ of
+
+
+metrics,
+ so
+ groundedness
+ is
+ a
+ metric
+ and
+
+
+what
+ you
+ give
+ to
+ the
+ judge
+ in
+ this
+ case
+
+
+is
+ well
+ here's
+ my
+ agent
+ that's
+ making
+
+
+some
+ responses
+ and
+ stuff.
+ So
+ the
+ judge
+
+
+in
+ this
+ case
+ can
+ see
+ what
+ the
+ agent
+ is
+
+
+responding.
+ It
+ can
+ also
+ see
+ whatever
+
+
+data
+ it
+ retrieves,
+ structured
+ data,
+
+
+unstructured
+ data,
+ documents,
+ whatever.
+
+
+So
+ it
+ can
+ see
+ all
+ that
+ stuff.
+ And
+ the
+
+
+question
+ that
+ the
+ judge
+ is
+ trying
+ to
+
+
+answer
+ is,
+ is
+ everything
+ that
+ the
+ agent
+
+
+said
+ grounded
+ in
+ the
+ data
+ that
+ it
+
+
+retrieved?
+ If
+ it
+ is,
+ it's
+ grounded.
+ If
+
+
+it's
+ not,
+ it's
+ a
+ hallucination.
+ So,
+ we
+
+
+have
+ those
+ types
+ of
+ metrics,
+
+
+groundedness,
+ relevance,
+ coherence,
+
+
+fluency,
+ these
+ kinds
+ of
+ things
+ that
+ are
+
+
+about
+ how
+ the
+ agent
+ responds.
+ And
+ that
+
+
+was
+ great
+ for
+ the
+ question
+ answering
+
+
+error.
+ But
+ now,
+ we
+ have
+ these
+ agents
+
+
+that
+ are
+ actually
+ doing
+ things.
+ They're
+
+
+not
+ just
+ answering
+ questions
+ anymore.
+
+
+So,
+
+
+>> then
+ we
+ have
+ these
+ tool
+ call
+ metrics
+
+
+where
+ a
+ tool
+ is
+ an
+ agent
+ integration.
+
+
+It's
+ integrating
+ to
+ something,
+ right?
+ A
+
+
+Microsoft
+ system
+ or
+ an
+ SAP
+ system
+ or
+
+
+whatever
+ system.
+ And
+ so
+ now
+ we
+ have
+
+
+these
+ metrics
+ about
+ tool
+ selection.
+ Is
+
+
+it
+ selecting
+ the
+ right
+ tools?
+ Input
+
+
+accuracy.
+ Is
+ it
+ using
+ them
+ right?
+ Is
+ it
+
+
+output
+ utilization?
+ It's
+ calling
+ these
+
+
+tools.
+ Is
+ it
+ actually
+ using
+ what
+ it
+
+
+gets?
+ And
+ so
+ that's
+ what
+ the
+ judge
+ is
+
+
+judging
+ in
+ those
+ cases.
+ And
+ then
+ we
+ have
+
+
+some
+ metrics
+ that
+ are
+ around
+ the
+ task.
+
+
+So
+ there's
+ intent
+ resolution.
+ Did
+ it
+
+
+correctly
+ understand
+ the
+ task
+ you
+ were
+
+
+giving
+ it
+ to
+ do?
+
+
+>> Task
+ completion.
+
+
+>> Did
+ it
+ complete
+ the
+ task
+ you
+ were
+ giving
+
+
+it
+ to
+ do?
+ Task
+ adherence.
+ Did
+ it
+ do
+ only
+
+
+that
+ thing
+ and
+ not
+ some
+ other
+ random
+
+
+stuff?
+
+
+>> Mhm.
+
+
+>> In
+ its
+ quest.
+ So
+ those
+ are
+ the
+ kinds
+ of
+
+
+metrics
+ that
+ we
+ have
+ been
+ using
+ for
+ some
+
+
+years
+ now.
+ But
+ there
+ is
+ a
+ fundamental
+
+
+flaw
+ with
+ that
+ whole
+ method
+ which
+ is
+
+
+that
+ all
+ of
+ those
+ metrics
+ that
+ I
+ just
+
+
+described
+ to
+ you
+ are
+ generic.
+ Like
+ none
+
+
+of
+ those
+ metrics
+ know
+ what
+ it
+ is
+ that
+
+
+your
+ agent
+ is
+ supposed
+ to
+ be
+ doing.
+
+
+>> So
+ you
+ know
+ let's
+ say
+ for
+ example
+ like
+
+
+let's
+ say
+ I
+ was
+ talking
+ to
+ one
+ of
+ our
+
+
+customers
+ recently
+ and
+ they
+ were
+ looking
+
+
+to
+ build
+ an
+ apartment
+ pricing
+ agent.
+ So,
+
+
+let's
+ say
+ you
+ have
+ a
+ new
+ apartment
+
+
+complex
+ and
+ they
+ have
+ a
+ bunch
+ of
+
+
+information
+ about,
+ you
+ know,
+ area
+
+
+apartments
+ and
+ things
+ like
+ that.
+ So,
+
+
+they
+ want
+ to
+ make
+ an
+ agent
+ where
+ you
+
+
+have
+ this
+ new
+ complex.
+ You
+ give
+ it
+ a
+
+
+spreadsheet
+ of
+ all
+ of
+ the
+ apartments
+ in
+
+
+your
+ new
+ complex.
+ You
+ know,
+ here's
+ the
+
+
+onebedroom,
+ two
+ bedrooms,
+ three
+
+
+bedrooms,
+ and
+ what
+ their
+ sizes
+ are
+ and
+
+
+how
+ many
+ bathrooms
+ they
+ have
+ and
+ all
+
+
+those
+ amenities
+ and
+ things
+ like
+ that.
+
+
+So,
+ you
+ give
+ it
+ a
+ spreadsheet
+ of
+ that
+
+
+and
+ it
+ gives
+ you
+ a
+ spreadsheet
+ back
+ that
+
+
+has
+ all
+ the
+ prices
+ in
+ it.
+ So,
+ now
+ here's
+
+
+the
+ problem.
+ Let's
+ let's
+ take
+ task
+
+
+completion
+ as
+ a
+ metric.
+ So,
+ let's
+ say
+
+
+I'm
+ using
+ task
+ completion
+ in
+ my
+ email,
+
+
+right?
+ So,
+ I
+ give
+ the
+ agent
+ a
+
+
+spreadsheet
+ of
+ my
+ new
+ apartment
+ complex
+
+
+that
+ gives
+ me
+ a
+ spreadsheet
+ back
+ and
+
+
+task
+ completion
+ will
+ be
+ like,
+ "You're
+
+
+good
+ because
+ you
+ asked
+ for
+ completed
+ a
+
+
+task.
+
+
+>> You
+ got
+ a
+ spreadsheet,
+ right?"
+ But
+ then
+
+
+I
+ open
+ the
+ spreadsheet.
+ I
+ look
+ at
+ the
+
+
+spreadsheet
+ and
+ I'm
+ like,
+ "Uh,
+ well,
+ you
+
+
+know,
+ the
+ one
+ and
+ two
+ bedrooms,
+ those
+
+
+are
+ pretty
+ good,
+ but
+ those
+ three
+
+
+bedrooms,
+ man,
+ they're
+ way
+ off.
+ Like,
+
+
+something
+ here
+ is
+ not
+ right."
+
+
+>> But
+ task
+ completion
+ as
+ a
+ metric
+ would
+
+
+not
+ know
+ this
+ because
+ it's
+ generic.
+ It
+
+
+it
+ doesn't
+ know
+ how
+ to
+ price
+ apartments.
+
+
+Like
+ it
+ doesn't
+ know
+ anything
+ about
+
+
+that.
+ Right
+ now,
+ fast
+ forward
+ to
+ today.
+
+
+Now,
+ we
+ have
+ these
+ rubricbased
+
+
+evaluations.
+ And
+ so,
+ in
+ a
+ rubric,
+ you
+
+
+define
+ the
+ metric
+ yourself.
+ And
+ you
+
+
+define
+ these
+ metrics
+ in
+ natural
+
+
+language.
+ And
+ those
+ metrics
+ might
+ be
+
+
+things
+ like
+ it
+ it
+ would
+ be
+ much
+ more
+
+
+granular
+ and
+ specific
+ to
+ what
+ this
+ agent
+
+
+is
+ doing.
+ So
+ the
+ rubric
+ for
+ my
+ apartment
+
+
+pricing
+ agent
+ might
+ specifically
+ state
+
+
+you
+ will
+ take
+ into
+ account
+ the
+ number
+ of
+
+
+bathrooms,
+ the
+ number
+ of
+ bedrooms
+ and
+
+
+the
+ square
+ footage
+ of
+ the
+ apartment
+ for
+
+
+every
+ price
+ that
+ you
+ make.
+ And
+ you
+ will
+
+
+consider
+ the
+ comparisons
+ of
+ similar
+
+
+apartments
+ for
+ every
+ price
+ that
+ you
+ make
+
+
+and
+ so
+ on.
+ And
+ you
+ would
+ have
+ a
+ whole
+
+
+bunch
+ of
+ these
+ dimensions
+ and
+ each
+ one
+
+
+of
+ these
+ dimensions
+ is
+ effectively
+ like
+
+
+a
+ rule
+ that
+ your
+ agent
+ is
+ supposed
+ to
+ be
+
+
+following.
+ And
+ so
+ when
+ you
+ do
+ an
+
+
+evaluation
+ with
+ a
+ rubric,
+ you
+ get
+
+
+something
+ that's
+ much
+ much
+ more
+ granular
+
+
+and
+ much
+ more
+ specific
+ to
+ what
+ your
+
+
+agent
+ is
+ supposed
+ to
+ be
+ doing.
+ And
+ so
+
+
+you
+ can
+ make
+ a
+ rubric
+ for
+ every
+ agent
+
+
+that
+ you
+ build.
+ In
+ fact,
+ now
+ I
+ have
+ been
+
+
+recommending
+ to
+ customers
+ that
+ this
+
+
+become
+ part
+ of
+ their
+ design
+ time
+
+
+concerns.
+ That
+ is
+ when
+ you
+ are
+ on
+ the
+
+
+drawing
+ board,
+ you're
+ looking
+ to
+ make
+ a
+
+
+new
+ agent
+ to
+ do
+ whatever
+ it
+ might
+ be
+
+
+that
+ right
+ up
+ front
+ you
+ produce
+ also
+ the
+
+
+rubric.
+ What
+ is
+ the
+ rubric?
+ So
+ we
+ have
+
+
+this
+ rubric
+ and
+ in
+ that
+ the
+ rubric
+ there
+
+
+are
+ these
+ dimensions
+ which
+ are
+ the
+
+
+specific
+ individual
+ rules
+ and
+ each
+ one
+
+
+of
+ these
+ dimensions
+ at least
+ in
+ the
+
+
+foundry
+ system
+ each
+ one
+ of
+ these
+
+
+dimensions
+ has
+ a
+ weight
+ that
+ is
+ to
+ say
+
+
+an
+ importance.
+ So
+ some
+ rules
+ will
+ be
+
+
+more
+ important
+ than
+ others.
+ You
+ know,
+ if
+
+
+you're
+ a
+ bank,
+ for example,
+ compliance
+
+
+rules
+ may
+ be
+ more
+ important
+ sometimes
+
+
+than
+ correctness
+ rules.
+ Like,
+ you
+ know,
+
+
+like
+ it
+ can't
+ like
+ for
+ example,
+ if
+ if
+
+
+it's
+ a
+ banking
+ agent,
+ I
+ should
+ not
+ be
+
+
+able
+ to
+ ask
+ the
+ banking
+ agent,
+ hey,
+ how
+
+
+much
+ money
+ is
+ in
+ Euang's
+ account?
+ Like
+
+
+that's
+ a
+ that's
+ an
+ absolute
+ no
+ no.
+ And
+
+
+that
+ rubric
+ that
+ says
+ you
+ will
+ not
+
+
+reveal
+ other
+ customers
+ information
+ is
+ a
+
+
+you
+ know,
+ that's
+ a
+ mustave.
+ Whereas,
+
+
+like,
+ let's
+ say
+ that
+ I'm
+ like,
+ "Hey,
+ you
+
+
+know,
+ this
+ ATM
+ charged
+ me
+ a
+ $4
+ fee
+ and
+
+
+it
+ mistakenly
+ grants
+ me
+ the
+ $4
+ fee
+ when
+
+
+it's
+ not
+ supposed
+ to.
+ Like,
+ it
+ refunds
+
+
+it."
+ I
+ mean,
+ you
+ know,
+ it's
+ not
+ a
+
+
+compliance
+ fail.
+ It's
+ not
+ they're
+ not
+
+
+going
+ to
+ get
+ in
+ trouble
+ with
+ the
+
+
+government
+ for
+ that.
+
+
+>> So,
+ that
+ relatively
+ speaking
+ has
+ less
+
+
+importance.
+ You
+ still
+ don't
+ want
+ your
+
+
+agent,
+ you
+ know,
+ refunding
+ fees
+ that
+
+
+don't
+ exist
+ or
+ whatever,
+
+
+>> but
+ on
+ the
+ scale
+ of
+ things,
+ like,
+ you
+
+
+know,
+ it's
+ it's
+ not
+ as
+ bad.
+ So
+ when
+ you
+
+
+make
+ your
+ rubrics,
+ you
+ you
+ want
+ to
+ you
+
+
+want
+ to
+ do
+ this
+ right
+ up
+ front
+ because
+
+
+these
+ effectively
+ become
+ your
+ success
+
+
+criteria.
+ Like
+ it's
+ like
+ if
+ this
+ rubric
+
+
+is
+ passing
+ then
+ we're
+ good.
+ And
+
+
+furthermore,
+ you
+ also
+ have
+ to
+ define
+
+
+upfront
+ what
+ is
+ your
+ threshold
+ because
+
+
+bear
+ in
+ mind
+ these
+ things
+ are
+
+
+nondeterministic.
+ They
+ will
+ make
+
+
+mistakes.
+ Now
+ there
+ are
+ things
+ that
+ you
+
+
+can
+ you
+ know
+ steps
+ that
+ you
+ can
+ take
+ to
+
+
+mitigate
+ their
+ mistakes
+ but
+ you're
+ not
+
+
+going
+ to
+ get
+ 100
+ on
+ the
+ test.
+ You
+ know
+
+
+there's
+ still
+ going
+ to
+ make
+ mistakes
+
+
+every
+ now
+ and
+ again.
+ it
+ will
+ make
+ a
+
+
+mistake.
+ And
+ so
+ you
+ have
+ to
+ decide
+ what
+
+
+is
+ your
+ threshold
+ like
+ what
+ level
+ of
+
+
+error
+ and
+ what
+ types
+ of
+ errors
+ are
+ you
+
+
+willing
+ to
+ accept
+ to
+ put
+ this
+ type
+ of
+
+
+thing
+ into
+ production.
+
+
+>> Mhm.
+ It's
+ a
+ trade-off
+ between
+ like
+ yeah
+
+
+like
+ if
+ you
+ want
+ to
+ use
+ something
+ smart
+
+
+uh
+ you
+ need
+ to
+ tolerate
+ some
+ error
+ but
+
+
+in
+ certain
+ more
+ than
+ other
+ areas.
+ My
+
+
+follow-up
+ question
+ is
+ if
+ a
+ rule
+ is
+
+
+binary
+ you
+ pass
+ or
+ you
+ fail.
+ I
+ think
+
+
+it's
+ very
+ easy
+ to
+ follow.
+ But
+ in
+ the
+
+
+example
+ of
+ did
+ I
+ price
+ this
+ correctly?
+
+
+How
+ far
+ off
+ I
+ am?
+ Like
+ even
+ if
+ I
+
+
+considered
+ the
+ square
+ footage,
+ I
+
+
+considered
+ okay
+ this
+ unit
+ has
+ my
+ extra
+
+
+bathroom.
+ So
+ I
+ should
+ price
+ a
+ little
+ bit
+
+
+higher,
+ but
+ maybe
+ it
+ can
+ still
+ be
+ way
+
+
+off
+ in
+ my
+ pricing.
+ So
+ how
+ can
+ I
+ how
+ come
+
+
+up
+ with
+ the
+ rubric
+ for
+ that?
+ Yeah,
+
+
+ultimately
+ that
+ gets
+ you
+ to
+ the
+ notion
+
+
+of
+ rubric
+ refinement.
+ And
+ so,
+ you
+ know,
+
+
+what
+ you
+ produce
+ this
+ initial
+ rubric,
+
+
+you
+ do
+ your
+ evaluations
+ and
+ inevitably
+
+
+it
+ still
+ will
+ make
+ some
+ types
+ of
+
+
+mistakes.
+ And
+ what
+ you
+ want
+ to
+ do
+ is
+
+
+have
+ users
+ interact
+ with
+ the
+ outputs
+ of
+
+
+your
+ AI.
+ And
+ so,
+ let's
+ say
+ that
+ I
+ might
+
+
+have
+ the
+ apartment
+ manager
+ in
+ my
+
+
+apartment
+ case
+ reviewing
+ this
+
+
+spreadsheet.
+ And
+ you
+ can't
+ just
+ say
+ this
+
+
+price
+ is
+ wrong.
+ you
+ have
+ to
+ say
+ this
+
+
+price
+ is
+ wrong
+ and
+ here's
+ why
+ because
+
+
+that
+ why
+ that's
+ what
+ goes
+ into
+ the
+
+
+rubric
+ down
+ the
+ line.
+ And
+ so
+ maybe
+ it's
+
+
+an
+ amendment
+ of
+ one
+ of
+ your
+ existing
+
+
+rubric
+ dimensions
+ or
+ maybe
+ it's
+ an
+
+
+entirely
+ new
+ dimension
+ that
+ says
+ oh
+
+
+here's
+ something
+ that
+ you
+ hadn't
+ taken
+
+
+into
+ account
+ that
+ this
+ particular
+
+
+apartment
+ has
+ induction
+ stoves
+ or
+
+
+something
+ that's
+ super
+ fancy
+ and
+
+
+therefore
+ it
+ should
+ be
+ priced
+ higher.
+
+
+And
+ so
+ in
+ my
+ rubric,
+ my
+ rubric
+ dimension
+
+
+would
+ be
+ like
+ and
+ if
+ it
+ has
+ induction
+
+
+stoves,
+ you
+ know,
+ make
+ the
+ price
+ higher
+
+
+or
+ something.
+ But
+ you
+ see
+ what
+ I
+ mean?
+
+
+So
+ there
+ is
+ this
+ ongoing
+ process
+ of
+
+
+improvement
+ to
+ your
+ rubrics
+ and
+ to
+ your
+
+
+agent
+ itself.
+ And
+ they
+ are
+ analogous,
+
+
+right?
+ I
+ mean,
+ as
+ you
+ improve
+ the
+ agent,
+
+
+you
+ improve
+ the
+ rubric.
+ A
+ lot
+ of
+ times,
+
+
+again,
+ the
+ rubric
+ is
+ the
+ rules
+ that
+ the
+
+
+agent
+ is
+ supposed
+ to
+ follow.
+ And
+
+
+sometimes
+ you
+ will
+ reveal
+ the
+ rubric
+
+
+itself
+ to
+ the
+ agent
+ as
+ a
+ form
+ of
+ context
+
+
+so
+ it
+ knows
+ what
+ rules
+ it's
+ supposed
+ to
+
+
+be.
+
+
+>> Great.
+ And
+ I
+ want
+ to
+ summarize
+ for
+ my
+
+
+audience
+ that
+ this
+ is
+ an
+ important
+
+
+message
+ shift.
+ Like
+ correct
+ me
+ if
+ I
+
+
+summarize
+ it
+ wrong,
+ but
+ the
+ message
+
+
+shift
+ is
+ before
+ a
+ lot
+ of
+ people
+ are
+
+
+trying
+ to
+ tell
+ the
+ agents
+ how
+ to
+ do
+
+
+certain
+ things
+ like
+ you
+ follow
+ these
+
+
+steps,
+ you
+ follow
+ this
+ process.
+ Now
+ you
+
+
+just
+ tell
+ the
+ agents
+ the
+ rules
+ of
+ the
+
+
+rubrics
+ and
+ what's
+ what's
+ like
+ what
+ what
+
+
+is
+ the
+ more
+ desired
+ outcome
+ versus
+
+
+what's
+ not
+ and
+ you
+ trust
+ the
+ agent
+ to
+ be
+
+
+intelligent
+ enough
+ to
+ figure
+ out
+ how
+ to
+
+
+get
+ there
+ and
+ you
+ actually
+ I
+ guess
+
+
+implicitly
+ trust
+ the
+ agent
+ to
+ be
+ more
+
+
+creative
+ like
+ they
+ they
+ can
+ do
+ things
+
+
+like
+ better
+ more
+ efficient
+ and
+ more
+
+
+correct
+ than
+ you
+ are.
+ So
+ you
+ just
+ tell
+
+
+the
+ outcome
+ you
+ don't
+ specify
+ the
+ best
+
+
+process
+ because
+ you
+ trust
+ the
+ agent
+ to
+
+
+find
+ the
+ best
+ process
+ or
+ even
+ the
+ better
+
+
+process
+ that
+ was
+ uh
+ what
+ we
+ have
+ today.
+
+
+>> Sure.
+ But
+ uh
+ trust
+ but
+ verify
+ that
+ is
+ to
+
+
+say
+ that
+ you
+ you
+ know
+ in
+ as
+ much
+ as
+ you
+
+
+trust
+ an
+ agent
+ when
+ you
+ when
+ you
+ come
+ to
+
+
+trust
+ an
+ agent
+ you
+ come
+ to
+ trust
+ it
+ in
+
+
+part
+ because
+ like
+ if
+ I
+ think
+ about
+ M365
+
+
+copilot
+ you
+ know
+ we
+ have
+ been
+ doing
+
+
+rubric
+ based
+ evals
+ on
+ our
+ own
+ M365
+
+
+co-pilot
+ for
+ over
+ a
+ year
+ now.
+ We
+ we've
+
+
+been,
+ you
+ know,
+ doing
+ that
+ style
+ of
+
+
+evaluation.
+ And
+ I
+ trust
+ M365
+ C-Pilot
+
+
+pretty
+ implicitly
+ for
+ a
+ lot
+ of
+ stuff.
+ I
+
+
+use
+ it
+ every
+ day
+ for
+ something.
+ And
+ the
+
+
+reason
+ why
+ I
+ trust
+ it
+ is
+ because
+ we
+ have
+
+
+this
+ whole
+ eval
+ team
+ back
+ here
+ that's
+
+
+evaluating
+ all
+ of
+ these
+ different
+
+
+scenarios.
+ And
+ meanwhile,
+ all
+ of
+ us,
+ the
+
+
+many
+ millions
+ of
+ us
+ that
+ are
+ using
+ this
+
+
+thing
+ every
+ day
+ are
+ stretching
+ it
+ in
+ 15
+
+
+different
+ ways
+ all
+ the
+ time.
+ You
+ know,
+
+
+like
+ all
+ kinds
+ of
+ things
+ that
+ we're
+
+
+trying
+ to
+ make
+ it
+ do.
+ And
+ in
+ Copilot,
+ by
+
+
+the
+ way,
+ there
+ is
+ a
+ thumbs
+ up,
+ thumbs
+
+
+down
+ button,
+ too.
+ So
+ if
+ something
+
+
+doesn't
+ work
+ or
+ doesn't
+ work
+ to
+ my
+
+
+satisfaction,
+ I'll
+ give
+ it
+ the
+ thumbs
+
+
+down
+ and
+ I'll
+ give
+ a
+ reason
+ too
+ because
+
+
+I
+ know
+ you
+ know
+ and
+ I
+ would
+ hope
+ that
+
+
+you
+ would
+ do
+ it
+ too
+ even
+ though
+ you
+
+
+don't
+ work
+ here
+
+
+>> because
+ I
+ know
+ that
+ down
+ the
+ line
+ there
+
+
+is
+ this
+ eval
+ team
+ and
+ eventually
+ what's
+
+
+going
+ to
+ happen
+ is
+ my
+ thumbs
+ down
+ and
+
+
+the
+ reason
+ that
+ I
+ give
+ in
+ there
+ is
+ going
+
+
+to
+ go
+ into
+ their
+ eval
+ set
+ so
+ that
+ in
+ the
+
+
+future
+ this
+ thing
+ that
+ I
+ am
+ trying
+ to
+ do
+
+
+will
+ work
+ much
+ better.
+
+
+Yeah,
+ I
+ think
+ this
+ is
+ intuition
+ for
+
+
+managers
+ but
+ not
+ like
+ for
+ for
+ for
+
+
+developers,
+ individual
+ contributors
+ may
+
+
+not
+ be
+ immediately
+ obvious.
+ That
+ is
+ when
+
+
+you
+ say
+ trust
+ but
+ verify
+ you
+ verify
+ by
+
+
+cross
+ check
+ not
+ double
+ check
+ like
+ there
+
+
+are
+ still
+ a
+ lot
+ of
+ developers
+ that
+ I
+
+
+need
+ to
+ review
+ all
+ the
+ agents
+ code
+ and
+
+
+probably
+ not.
+
+
+>> I
+ will
+ tell
+ you
+ what
+ I'm
+ looking
+ forward
+
+
+to
+ by
+ the
+ way
+ a
+ lot
+ of
+ these
+ things
+ that
+
+
+we're
+ talking
+ about
+ here
+ today.
+ I
+ mean,
+
+
+I'm
+ kind
+ of
+ just
+ a
+ talking
+ head
+ here,
+
+
+but
+ when
+ I
+ am
+ at
+ AI
+ engineers
+ in
+
+
+Shanghai,
+ I'll
+ be
+ showing
+ this
+ stuff.
+
+
+I'll
+ be
+ showing
+ this
+ stuff
+ a
+ lot,
+ you
+
+
+know,
+ and
+ I'll
+ be
+ at
+ least
+ our
+ version
+
+
+of
+ it.
+ Like
+ I
+ said,
+ these
+ things
+ that
+
+
+I'm
+ talking
+ about,
+ these
+ are
+ industry
+
+
+trends.
+ It's
+ not
+ just
+ us,
+ Microsoft,
+
+
+that
+ are
+ doing
+ these
+ things.
+
+
+>> Obviously,
+ I'll
+ be
+ showing
+ our
+ versions
+
+
+of
+ these
+ things,
+ which
+ I
+ think
+ have
+ come
+
+
+out
+ quite
+ well
+ in
+ our
+ products.
+ But
+
+
+yeah,
+ I'm
+ definitely
+ looking
+ forward
+ to
+
+
+that.
+ I
+ mean,
+ I
+ can
+ talk
+ about
+ this
+ till
+
+
+I'm
+ blue
+ in
+ the
+ face,
+ but
+ you
+ know,
+ this
+
+
+is
+ one
+ of
+ those
+ things
+ where
+ a
+ picture
+
+
+says
+ a
+ thousand
+ words.
+ Yeah,
+ look
+
+
+forward
+ to
+ uh
+ the
+ not
+ only
+ pictures,
+
+
+live lab
+ demos.
+
+
+>> That's
+ right.
+
+
+>> That's
+ super
+ cool
+ to
+ see.
+ Great.
+ Yeah,
+
+
+like
+ like
+ you
+ mentioned
+ like
+ uh
+ the
+
+
+building
+ evolves
+ like
+ you
+ get
+ so
+ much
+
+
+leverage
+
+
+before
+ but
+ that
+ is
+ almost
+ like
+ a
+ habit
+
+
+to
+ you
+ and
+ a
+ lot
+ of
+ people
+ should
+ start
+
+
+adopting
+ that
+ habit
+ because
+ it
+ can
+
+
+unlock
+ so
+ much
+ leverage
+ of
+ using
+ AI.
+
+
+>> That's
+ a
+ it's
+ a
+ crucial
+ habit
+ and
+
+
+increasingly
+ you
+ do
+ find
+ folks
+ that
+ are
+
+
+focused
+ on
+ that
+ as
+ a
+ job.
+ As
+ I
+ said,
+ we
+
+
+have
+ in
+ M365
+ copilot
+ an
+ entire
+ eval
+ team
+
+
+and
+ that's
+ what
+ they
+ do.
+ They
+ build
+
+
+these
+ eval
+ evals
+ based
+ on
+ our
+ customer
+
+
+feedback
+ and
+ that
+ kind
+ of
+ thing.
+ So
+ that
+
+
+is
+ becoming
+ kind
+ of
+ a
+ new
+ job
+ frankly.
+ I
+
+
+mean
+ we
+ talk
+ about
+ how
+ jobs
+ are
+ going
+ to
+
+
+change
+ and
+ things
+ like
+ that.
+ Meanwhile,
+
+
+there's
+ an
+ entirely
+ new
+ job
+ category
+
+
+that
+ has
+ been
+ created
+ over
+ the
+ past
+
+
+couple
+ of
+ years
+ which
+ is
+
+
+>> eval
+ maintainer
+ or
+ something
+ evaluator
+ I
+
+
+guess
+ you
+ might
+ say.
+
+
+>> Evaluator.
+
+
+Calculator
+ used
+ to
+ be
+ a
+ job.
+ What
+
+
+happened?
+
+
+>> Calculator
+ used
+ to
+ be
+ That's
+ right.
+ You
+
+
+know,
+ stuff
+ like
+ that.
+ Yeah.
+ And
+ and
+ so
+
+
+we
+ have
+ these,
+ you
+ know,
+ these
+ these
+ new
+
+
+technologies
+ that
+ come
+ on
+ the
+ scene
+ and
+
+
+sometimes
+ new
+ jobs
+ emerge
+ from
+ that.
+ I
+
+
+mean,
+ social
+ media
+ coordinator
+ also
+ like
+
+
+before
+ social
+ media
+ there
+ was
+ no
+ such
+
+
+thing
+ and
+ now
+ that
+ is
+ a
+ job.
+ But
+ yeah,
+
+
+now
+ you
+ see
+ already
+ you
+ start
+ to
+ see
+
+
+entirely
+ new
+ job
+ categories
+ being
+
+
+created.
+
+
+one
+ I
+ guess
+ last
+ question
+ or
+ categorical
+
+
+question
+ I
+ want
+ to
+ ask
+ you
+ is
+ the
+ bad
+
+
+strategies
+ or
+ maybe
+ not
+ bad
+ strategies
+
+
+but
+ like
+ there
+ is
+ a
+ better
+ way
+ of
+ doing
+
+
+this
+ that
+ you
+ observed
+ don't
+ have
+ to
+
+
+name
+ any
+ anybody
+ but
+ I'm
+ sure
+ there
+ are
+
+
+a
+ lot
+ of
+ enterprise
+ that
+ are
+ thinking
+
+
+about
+ this
+ they're
+ doing
+ things
+ but
+
+
+maybe
+ there
+ is
+ a
+ better
+ way
+ can
+ you
+ name
+
+
+a
+ few
+
+
+>> well
+ okay
+ in
+ terms
+ of
+ I
+ guess
+ just
+
+
+general
+ best
+ practices
+ I
+ mean
+ as
+ I
+ did
+
+
+say
+ what
+ is
+ certainly
+ Definitely
+ a
+ best
+
+
+practice
+ now
+ is
+ to
+ start
+ with
+ a
+ rubric.
+
+
+As
+ you're
+ thinking
+ about
+ what
+ it
+ is
+
+
+you're
+ going to
+ build,
+ especially
+ if
+
+
+that
+ that
+ thing
+ is
+ AIcentric,
+
+
+then
+ consider
+ that
+ the
+ rubric
+ is
+ your
+
+
+success
+ criteria.
+ Write
+ that
+ up
+ front.
+
+
+And
+ many
+ businesses,
+ I
+ mean,
+ you'll
+ find
+
+
+that
+ many
+ businesses
+ actually
+ already
+
+
+have
+ some
+ analog
+ of
+ a
+ rubric.
+ You
+ know,
+
+
+for
+ banks,
+ it'll
+ be
+ their
+ compliance
+
+
+documentation.
+ That's
+ part
+ of
+ what
+ will
+
+
+become
+ their
+ rubric.
+ It
+ may
+ not
+ be
+
+
+written
+ exactly
+ in
+ the
+ way
+ that
+ you
+
+
+would
+ write
+ a
+ rubric
+ for
+ AI,
+ but
+ it's
+
+
+not
+ that
+ far
+ off.
+ it
+ is
+ adaptable
+ in
+
+
+that
+ way.
+ Uh
+ so
+ that's
+ one
+ of
+ them.
+
+
+>> Two,
+ and
+ I
+ always
+ say
+ this
+ for
+ AI,
+ you
+
+
+kind
+ of
+ need
+ to
+ have
+ an
+ abnormally
+ long
+
+
+pilot
+ period.
+
+
+>> I
+ mean,
+ we
+ have
+ this
+ pressure.
+ We
+ all
+
+
+want
+ to
+ release
+ these
+ things
+ tomorrow
+
+
+because
+ it's
+ easy
+ to
+ put
+ them
+ together.
+
+
+And
+ as
+ we
+ were
+ discussing
+ earlier,
+ it's
+
+
+super
+ easy
+ to
+ put
+ an
+ idea
+ even
+ into
+
+
+production,
+ but
+ not
+ all
+ ideas
+ are
+ good
+
+
+ideas.
+ And
+ so,
+ in
+ a
+ way,
+ the
+ fact
+ is
+
+
+that
+ the
+ the
+ ease
+ of
+ putting
+ these
+
+
+things
+ into
+ production
+ has
+ resulted
+ in
+
+
+people
+ putting
+ a
+ lot
+ of
+ bad
+ ideas
+ into
+
+
+production
+ also.
+ So
+ you
+ want
+ to
+ have
+ a
+
+
+pilot
+ period.
+ You
+ want
+ to
+ have
+ your
+
+
+users
+ interact
+ with
+ this
+ stuff
+ and
+
+
+really
+ get
+ their
+ feedback
+ and
+ then
+ go
+
+
+back
+ and
+ incorporate
+ that
+ feedback
+ into
+
+
+the
+ rubrics
+ again
+ so
+ that
+ when
+ you
+ do
+
+
+these
+ evals
+ that
+ it's
+ acting
+ the
+ way
+
+
+your
+ users
+ want
+ it
+ to.
+ With
+ the
+ long
+
+
+pilot
+ period
+ with
+ AI
+ being
+ probabilistic
+
+
+than
+ deterministic,
+
+
+do
+ you
+ think
+ we
+ need
+ more
+ service
+ than
+
+
+product
+ like
+ such
+ as
+ FTEEs
+ for example
+
+
+the
+ for
+ deployment
+ engineers
+ like
+ do
+ we
+
+
+need
+ people
+ to
+ help
+ this
+ enterprise
+
+
+adopt
+ AI
+ use
+ it
+ well
+ like
+ uh
+ test
+ build
+
+
+evaluations
+ build
+ rubrics
+ eventually
+
+
+like
+ get
+ it?
+
+
+>> Sure.
+ Well,
+ there
+ it
+ is.
+ Another
+ job
+
+
+that
+ didn't
+ exist
+ before
+ the
+ AI
+
+
+revolution
+ is
+ forward
+ deployed
+ engineers
+
+
+and
+ we
+ have
+ that
+ at
+ Microsoft
+ also
+
+
+that's
+ called
+ the
+ Microsoft
+ Frontier
+
+
+Company
+ and
+ it
+ is
+ a
+ bunch
+ of
+ FDES
+
+
+forward
+ deployed
+ engineers
+ that
+ go
+ into
+
+
+our
+ customer
+ sites
+ and
+ kind
+ of
+ help
+ them
+
+
+work
+ on
+ the
+ best
+ practices
+ for
+ using
+ AI
+
+
+and
+ putting
+ AI
+ into
+ production
+ and
+ so
+
+
+that
+ can
+ help.
+ Yeah,
+ I
+ mean
+ that
+ helps
+
+
+but
+ at
+ the
+ same
+ time
+ I
+ think
+ everybody
+
+
+wants
+ to
+ have
+ everybody
+ should
+ have
+
+
+every
+ engineer
+ should
+ have
+ a
+ baseline
+
+
+understanding
+ now
+ what
+ AI
+ is,
+ how
+ to
+ use
+
+
+it,
+ how
+ to
+ now
+ provide
+ context
+ for
+ your
+
+
+agents,
+ how
+ to
+ you
+ know
+ write
+ these
+
+
+rubrics
+ and
+ stuff
+ like
+ that.
+ You
+ know
+
+
+the
+ challenge
+ is
+ it
+ is
+ changing
+ very
+
+
+quickly.
+ I
+ understand
+ right
+ now
+ for
+ me
+
+
+personally
+ it's
+ my
+ job.
+ I'm
+ literally
+ in
+
+
+this
+ all
+ day
+ long
+ and
+ most
+ nights
+ also,
+
+
+right?
+ I
+ mean,
+ I'm
+ here
+ hacking
+ on
+ this
+
+
+stuff
+ all
+ the
+ time.
+ And
+ I
+ think
+ that's
+
+
+challenging
+ for
+ people
+ because
+ it
+ is
+
+
+changing
+ so
+ quickly
+ like,
+ oh
+ my
+ word,
+
+
+like
+ it's
+ it's
+ insane,
+ right?
+ Every
+ day
+
+
+it's
+ something
+ new.
+ And
+ that's
+ true.
+ But
+
+
+nonetheless,
+ I
+ think
+ I
+ think
+ you
+ owe
+ it
+
+
+to
+ yourself
+ to
+ stay
+ a
+ breast
+ of
+ these
+
+
+things.
+ And
+ what
+ I
+ always
+ tell
+ people,
+
+
+mess
+ with
+ everything.
+ And
+ I
+ mean
+
+
+everything.
+ I
+ mean
+ everything
+ you
+ can
+
+
+get
+ your
+ hands
+ on,
+ right?
+ So
+ if
+ you,
+ you
+
+
+know,
+ try
+ Microsoft
+ Copilot
+ and
+ our
+
+
+things,
+ try
+ other
+ coding
+ agents,
+ try
+
+
+consumer
+ stuff,
+ try
+ Sununo
+ and
+ make
+
+
+yourself
+ a
+ song.
+ I
+ think
+ that's
+ cool.
+ I
+
+
+think
+ Sunno
+ is
+ cool.
+ I
+ mean,
+ I
+ love
+
+
+SUNO.
+ I
+ still
+ am
+ learning
+ to
+ play
+ this
+
+
+guitar
+ back
+ here.
+ You
+
+
+>> I
+ play
+ piano,
+ okay,
+ but
+ the
+ guitar
+ I'm
+
+
+still
+ learning.
+ Uh
+
+
+anyway,
+ you
+ know,
+ try
+ all
+ these
+ things
+
+
+because
+ it
+ it
+ really
+ gives
+ you
+ a
+ feel
+
+
+for
+ what
+ they
+ are
+ and
+ how
+ they
+ work
+ in
+ a
+
+
+way
+ that
+ you
+ know,
+ no
+ amount
+ of
+ podcasts
+
+
+or
+ YouTube
+ videos
+ or
+ whatever
+ can
+ really
+
+
+give
+ you
+ this
+ sense
+ that
+ firsthand
+
+
+experience
+ will.
+
+
+>> Yeah.
+ Like
+ just
+ this
+ morning
+ I
+ was
+ at
+
+
+Colombia
+ like
+ giving
+ a
+ lecture
+ at
+
+
+Colombia
+ and
+ I
+ tell
+ the
+ students,
+ you
+
+
+know,
+ treat
+ learning
+ AI
+ as
+ a
+ craft
+ like
+
+
+how
+ you
+ learn
+ swimming,
+ how
+ you
+ learn
+
+
+snowboarding.
+ You
+ never
+ can
+ learn
+ that
+
+
+just
+ through
+ watching
+ video.
+ you
+ have
+ to
+
+
+do
+ it.
+
+
+Yeah.
+ Uh
+ so
+ if
+ I
+ summarize
+ our
+ talk
+
+
+today,
+ we
+ start
+ with
+ the
+ question
+ of
+ on
+
+
+top
+ of
+ frontier
+ model
+ and
+ harness
+ to
+ the
+
+
+actual
+ product,
+ what
+ are
+ the
+ jobs
+ to
+ do
+
+
+to
+ be
+ done?
+ Like
+ we
+ talk
+ about
+
+
+evaluations,
+ we
+ talk
+ about
+ kind
+ of
+ the
+
+
+identity
+ and
+ permission.
+ We
+ talk
+ about
+
+
+you
+ know
+ building
+ the
+ infrastructure
+ or
+
+
+the
+ extracting
+ the
+ tested
+ information
+
+
+building
+ all
+ the
+ information
+ giving
+ all
+
+
+the
+ information
+ to
+ AI
+ and
+ I
+ feel
+ like
+ at
+
+
+the
+ center
+ it's
+ really
+ people
+ is
+ really
+
+
+people
+ who
+ do
+ all
+ this
+ and
+ give
+
+
+permissions.
+ Did
+ I
+ miss
+ anything?
+
+
+>> I
+ don't
+ think
+ so.
+ I
+ think
+ you
+ got
+
+
+everything.
+
+
+>> Nice.
+ Nice.
+ Thank
+ you
+ so
+ much
+ and
+ yeah
+
+
+look
+ forward
+ to
+ having
+ you
+ in
+ at
+ AI
+
+
+Shanghai
+ and
+ look
+ forward
+ watching
+ your
+
+
+live
+ demos
+ of
+ all
+ the
+ amazing
+ things
+ you
+
+
+do.
+ I
+ look
+ forward
+ to
+ being
+ there.
+
+
+>> Thank
+ you.
+
+
+>> Thank
+ you.
