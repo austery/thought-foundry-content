@@ -1,0 +1,15826 @@
+95%
+ Einstein,
+ 5%
+ Mr.
+ Bean.
+ And
+ if
+ it
+
+
+doesn't
+ tell
+ you
+ when
+ it's
+ the
+ Mr.
+ Bean,
+
+
+then
+ how
+ are
+ you
+ going
+ to
+ automate
+
+
+anything?
+ I
+ wrote
+ a
+ document
+ at
+ OpenAI.
+
+
+We
+ could
+ have
+ had
+ AGI
+ last
+ year,
+ and
+ I
+
+
+still
+ believe
+ that
+ to
+ be
+ true.
+
+
+Pre-training
+ is
+ a
+ giant
+ dumpster
+ fire
+ of
+
+
+wasting
+ resources.
+ When
+ I
+ first
+ started
+
+
+this
+ project,
+ I
+ literally
+ thought
+ it
+
+
+would
+ take
+ a
+ week.
+ You
+ can
+ now
+ express
+
+
+things
+ that
+ you
+ couldn't
+ express
+ in
+
+
+software
+ before.
+ I
+ think
+ that
+ the
+ future
+
+
+will
+ be
+ unbelievably
+ sci-fi.
+
+
+>> We're
+ building
+ prod
+ not
+ god.
+ Absolutely.
+
+
+>> That
+ is
+ Diogo
+ Almeida,
+ CEO
+ of
+ Type
+ safe,
+
+
+the
+ company
+ behind
+ Jev.
+ A
+ month
+ ago,
+
+
+nobody
+ had
+ heard
+ of
+ Jev.
+ Then
+ it
+
+
+launched,
+ hit
+ a
+ nerve
+ in
+ the
+ AI
+ world,
+
+
+and
+ quickly
+ [music]
+ became
+ the
+ most
+
+
+copied
+ model
+ in
+ AI.
+ Jev
+ is
+ both
+
+
+fascinating
+ and
+ perplexing.
+ It's
+ a
+ new
+
+
+kind
+ of
+ model,
+ and
+ it's
+ clearly
+ a
+ big
+
+
+deal.
+ Yet,
+ even
+ some
+ AI
+ insiders
+
+
+struggle
+ to
+ explain
+ what
+ it
+ is,
+ while
+
+
+others
+ dismiss
+ it
+ as
+ just
+ a
+ classifier.
+
+
+So,
+ we
+ went
+ to
+ the
+ source
+ and
+ asked
+
+
+Diogo
+ to
+ walk
+ us
+ through
+ Jev
+ in
+ plain
+
+
+English.
+ What
+ it
+ is,
+ where
+ it's
+ going,
+
+
+and
+ why
+ copycats
+ are
+ missing
+ the
+ point.
+
+
+I'm
+ Matt
+ Turk,
+ and
+ this
+ is
+ the
+ Bad
+
+
+Podcast.
+
+
+Diogo,
+ welcome.
+
+
+>> Thank
+ you.
+ Thank
+ you.
+ Hey,
+ yeah.
+
+
+>> All
+ right,
+ this
+ is
+ a
+ super
+ fun
+ time
+ to
+
+
+be
+ doing
+ this
+ conversation,
+ in
+ part
+
+
+because
+ just
+ yesterday,
+ I
+ believe,
+ as
+ we
+
+
+were
+ recording
+ this,
+ you
+ guys
+ announced
+
+
+your
+ gigantic
+ series
+ A,
+ 870
+ million
+
+
+series
+ A
+ at
+ a
+ 7.5
+ billion
+ valuation.
+ So,
+
+
+it's
+ been
+ a
+ wild
+ 3
+ weeks
+ just
+ looking
+ at
+
+
+some
+ stats.
+
+
+You
+ launched
+ video
+ at
+ 40
+ million
+ views.
+
+
+You
+ talked
+ to
+ somebody
+ talked
+ about
+ a
+
+
+million
+ users
+ a
+ day,
+ a
+ trillion
+ tokens
+ a
+
+
+day,
+ a
+ third
+ of
+ the
+ Fortune
+ 500,
+ all
+ of
+
+
+this
+ in
+ in
+ in
+ just
+ a
+ few
+ weeks.
+ So,
+
+
+it
+ it
+ sounds
+ like
+ you're
+ indeed
+ building
+
+
+what
+ you
+ call
+ the
+ Jevolution.
+
+
+I
+ love
+ the
+ term.
+ I'm
+ just
+ curious
+ what
+
+
+it
+ feels
+ like
+ from
+ the
+ inside.
+
+
+>> Where
+ do
+ I
+ start?
+ I
+ will
+ say
+ that
+
+
+a
+ lot
+ of
+ those
+ stats
+ don't
+ really
+ matter
+
+
+for
+ what
+ I
+ feel
+ like
+ is
+ the
+ J
+ evolution.
+
+
+Um
+ to
+ me
+ I
+ knew
+ it
+ would
+ be
+ happening
+
+
+when
+ builders
+ started
+ playing
+ with
+ it
+
+
+and
+ doing
+ the
+ weird
+ stuff.
+ And
+
+
+especially
+ when
+ people
+ were
+ starting
+ to
+
+
+make
+ apps
+ that
+ they
+ maybe
+ could
+ have
+
+
+done
+ before,
+ but
+ didn't
+ bother
+ with
+
+
+because
+ AI
+ was
+ so
+ expensive.
+ You
+ know,
+ I
+
+
+I
+ we
+ pushed
+ the
+ boundaries
+ of
+
+
+intelligence
+ per
+ second,
+ but
+ I
+ think
+ the
+
+
+future
+ is
+ going
+ to
+ be
+ intelligence
+ per
+
+
+dollar
+ primarily.
+ And
+ I
+ think
+ really
+
+
+getting
+ people
+ to
+ play
+ with
+ like
+ like
+
+
+the
+ idea
+ that
+ intelligence
+ per
+ dollar
+
+
+has
+ dropped
+ two
+ orders
+ of
+ magnitude
+ is
+
+
+what
+ will
+ make
+ the
+ J
+ evolution
+
+
+unstoppable
+ independent
+ of
+ enterprise
+
+
+adoption,
+ users,
+ stats,
+ whatever.
+
+
+It
+ to
+ me
+ it's
+ about
+ people
+ playing
+
+
+around
+ with
+ things
+ and
+ starting
+ to
+
+
+I
+ can't
+ think
+ of
+ a
+ non-corny
+ way
+ to
+ say
+
+
+it,
+ but
+ like
+ build
+ the
+ future,
+ you
+ know?
+
+
+Like
+ like
+ that
+ could
+ be
+ used
+ the
+
+
+unstoppable
+ energy
+ and
+ no
+ matter
+ how
+ big
+
+
+that
+ initial
+ snowball
+ is,
+ it
+ will
+ become
+
+
+gigantic.
+ So,
+ I've
+ been
+ celebrating
+ this
+
+
+for
+ something
+ like
+ two
+ and
+ a
+ half
+ weeks
+
+
+now.
+
+
+Um
+ I've
+ actually
+ had
+ to
+ do
+
+
+soul-searching
+ because
+ I
+ think
+ one
+ of
+ my
+
+
+big
+ life
+ goals
+ has
+ been
+ achieved.
+ Um
+
+
+and
+ yeah,
+ the
+ stats
+ are
+ obviously
+ great.
+
+
+Growing
+ fast
+ is
+ obviously
+ great.
+ I
+ love
+
+
+that
+ we
+ are
+ also
+ getting
+ a
+ lot
+ of
+ the
+
+
+distribution
+ that
+ we
+ knew
+ we
+ would
+ get
+
+
+in
+ two
+ years,
+ but
+ much
+ faster
+ than
+ we
+
+
+thought.
+ These
+ are
+ all
+ obviously
+
+
+phenomenal
+ things.
+
+
+Um
+ but
+ the
+ leading
+ indicator
+ of
+ it
+ all
+
+
+is
+ builders
+ being
+ inspired
+ to
+ do
+ new
+
+
+things.
+
+
+>> And
+ just
+ to
+ uh
+ ask
+ a
+ couple
+ like
+ uh
+
+
+startup-related
+ questions.
+ So,
+ you
+ guys
+
+
+were
+ in
+ stealth
+ for
+ two
+ years.
+ I'm
+ I'm
+
+
+curious
+ how
+ you
+ thought
+ about
+ it
+ in
+ a
+
+
+world
+ where
+ like
+ everybody's
+ on
+ X
+ every
+
+
+two
+ minutes
+ to
+ talk
+ about
+ something.
+ Why
+
+
+did
+ you
+ decide
+ to
+ be
+ in
+ stealth?
+
+
+>> No
+ one's
+ asked
+ me
+ that,
+ so
+ that's
+ fun.
+
+
+Um
+
+
+I
+ would
+ say
+ I
+ think
+ quite
+ contrarianly.
+
+
+And
+ I
+ think
+ that
+ this
+ whole
+
+
+AI
+ has
+ a
+ gigantic
+ over-promise
+
+
+under-deliver
+ issue
+ and
+ you
+ know,
+ I
+
+
+think
+ people
+ really
+ saw
+ that
+ with
+ our
+
+
+launch.
+ Like
+ when
+ we
+ first
+ launched
+ the
+
+
+video,
+ people
+ were
+ like,
+ "Oh,
+ that's
+
+
+fake.
+ It's
+ kind
+ of
+ interesting,
+ but
+ like
+
+
+there's
+ no
+ way
+ it's
+ true."
+ The
+ launch
+
+
+really
+ picked
+ off
+ up
+ when
+ people
+ started
+
+
+playing
+ with
+ it
+ and
+ showing
+ their
+
+
+results.
+ And
+ I
+ think
+ that
+ under-promise
+
+
+over-deliver
+ of
+ our
+ launch
+ is
+ what
+
+
+really
+ made
+ it
+ take
+ off.
+ And
+ it's
+ been
+
+
+I
+ can't
+ think
+ of
+ a
+ launch
+
+
+in
+ AI
+ that
+ has
+ been
+ under-promise
+
+
+over-deliver
+ since
+ ChatGPT.
+ So,
+ that
+
+
+might
+ be
+ why
+ it
+ took
+ off.
+ I'm
+ not
+ an
+
+
+expert
+ in
+ like
+ social
+ dynamics.
+
+
+So,
+ I
+ really
+ really
+
+
+uh
+ you
+ know,
+ for
+ better
+ or
+ for
+ worse,
+ I
+
+
+ignore
+ the
+ noise
+ in
+ the
+ field
+ and
+ really
+
+
+focus
+ on
+ what
+ I
+ think
+ is
+ most
+ important.
+
+
+And
+ I
+ just
+ did
+ not
+ buy
+ the
+ story
+ at
+ all
+
+
+that
+ AI
+ was
+ solving
+ all
+ sorts
+ of
+
+
+problems.
+ Because
+ if
+ you
+ actually
+ look
+
+
+at
+ all
+ the
+ evidence,
+ it's
+
+
+AI
+ is
+ incredible
+ and
+ also
+ incredibly
+
+
+underwhelming.
+ And
+ that
+ allowed
+ me
+ to
+
+
+really
+ ignore
+ all
+ of
+ the
+ noise
+ in
+ the
+
+
+market.
+
+
+>> But
+ uh
+ you
+ know,
+ doing
+ this
+ in
+ obscurity
+
+
+while
+ everybody's
+ uh
+ you
+ know,
+ getting
+
+
+celebrated,
+ how
+ do
+ you
+
+
+keep
+ a
+ team
+ energized
+ and
+ keep
+ yourself
+
+
+energized
+ building
+ something
+ sort
+ of
+ uh
+
+
+you
+ know,
+ without
+ anyone
+ really
+ knowing?
+
+
+>> I
+ don't
+ think
+ that
+ uh
+ I
+ I
+ maybe
+ maybe
+
+
+the
+ last
+ couple
+ of
+ weeks
+ have
+ changed
+
+
+me.
+ I
+ hope
+ not.
+ I
+ don't
+ think
+ I
+ get
+
+
+really
+ motivated
+ by
+ being
+ celebrated
+ and
+
+
+all
+ that.
+ I
+ actually
+ had
+ to
+ do
+ a
+ lot
+ of
+
+
+therapy
+ just
+ to
+ be
+ okay
+ with
+ being
+ in
+
+
+our
+ launch
+ video.
+ Because
+ I
+ actually
+
+
+before
+ all
+ of
+ this
+ enjoyed
+ being
+ in
+
+
+obscurity.
+ Like
+ I'm
+ a
+ technologist
+
+
+through
+ and
+ through,
+ I
+ think.
+ And
+
+
+what
+ really
+ motivated
+ me
+ for
+ this
+ is
+
+
+that
+ there
+ was
+ clearly
+ a
+ gigantic
+
+
+technological
+ gap.
+ And
+ it
+ was
+ clearly
+
+
+obvious
+ no
+ one
+ was
+ addressing
+ it.
+ So,
+
+
+that
+ was
+ my
+ I
+ I
+ I
+ never
+ had
+ any
+ doubt.
+
+
+Um
+ I
+
+
+it
+ was
+
+
+Uh
+ Uh,
+ even
+ when
+ I
+ first
+ had
+ this
+ idea
+
+
+long
+ before
+ I
+ started
+ the
+ company,
+ I
+
+
+wrote
+ a
+ document
+ at
+ OpenAI.
+ We
+ could
+
+
+have
+ had
+ AGI
+ last
+ year,
+ and
+ I
+ still
+
+
+believe
+ that
+ to
+ be
+ true
+ because
+ AGI
+ how
+
+
+OpenAI
+ defines
+ AGI
+ is
+ a
+ very
+ low
+ bar,
+
+
+and
+ the
+ models
+ are
+ super
+ smart.
+
+
+Like
+ like
+ we're
+ we're
+ not
+ really
+ putting
+
+
+those
+ facts
+ together,
+ and
+ I
+ think
+ a
+ lot
+
+
+of
+ the
+ people
+ who
+
+
+um
+ like
+ to
+ commentate
+ on
+ the
+ field
+ just
+
+
+say
+ like,
+ "Oh,
+ it's
+ a
+ distribution
+
+
+problem."
+ Well,
+ like
+ that's
+ obviously
+
+
+not
+ the
+ case
+ if
+ you
+ pay
+ attention
+ to
+ any
+
+
+like
+ real-world
+ stuff.
+
+
+So,
+ um
+ I
+ have
+ very
+ little
+ doubts.
+ I
+
+
+think
+ that
+ we
+ managed
+ to
+ get
+ a
+ team
+
+
+like,
+ you
+ know,
+ our
+ team
+ obviously
+
+
+doesn't
+ care
+ about
+ uh
+ you
+ know,
+ maybe
+
+
+there
+ there's
+ a
+ spectrum,
+ but
+ like
+ our
+
+
+team
+ is
+ not
+ driven
+ by
+ the
+ hype
+ cycles
+ as
+
+
+well
+ because
+ if
+ they
+ were,
+ they
+ wouldn't
+
+
+have
+ joined
+ us.
+ I
+ think
+ they
+ really
+
+
+believed
+ in
+ our
+ mission,
+ or
+ if
+ they
+
+
+didn't,
+ you
+ know,
+ we
+ had
+ non-technical
+
+
+people
+ on
+ the
+ team,
+ they
+ really
+ believed
+
+
+we
+ had
+ a
+ bunch
+ of
+ like
+ super
+ smart
+
+
+people.
+ Maybe
+ they
+ don't
+ understand
+ what
+
+
+the
+ model
+ is
+ for,
+ but
+ they're
+ like,
+
+
+"Holy
+ crap,
+ these
+ guys
+ are
+ cooking.
+ This
+
+
+is
+ worth
+ a
+ bet."
+ So,
+ um
+
+
+I
+ I
+ don't
+ think
+ the
+ team
+ is
+ that
+
+
+affected
+ by
+ it.
+ What
+ what's
+ funny
+ is
+
+
+that
+ I
+ hear
+ all
+ of
+ this,
+ and
+ um
+
+
+what's
+ fascinating
+ at
+ the
+ same
+ time
+ is
+
+
+that
+ you
+ guys
+ need
+ to
+ seem
+ to
+ be
+ kind
+ of
+
+
+like
+ natural-born
+ marketers,
+ and
+ I'm
+
+
+sure
+ you
+ you'll
+ cringe
+ at
+ the
+ term,
+ but
+
+
+uh
+ you
+ know,
+ you
+ you
+ you're
+ writing,
+
+
+you're
+ tweeting
+ very
+ effectively.
+ It
+
+
+sounds
+ like
+ you're
+ doing
+ this
+ out
+ of
+
+
+authenticity
+ because
+ you're
+ so
+ inspired
+
+
+by
+ the
+ mission,
+ and
+ the
+ rest
+ follows.
+
+
+I'm
+ trying
+ to
+ tease
+ out
+ uh
+ you
+ know,
+
+
+lessons
+ for
+ for
+ others
+ uh
+ that
+ would
+
+
+love
+ to
+ have,
+ you
+ know,
+ a
+ a
+ fraction
+ of
+
+
+the
+ success
+ that
+ uh
+ Jev
+ had
+ at
+ at
+
+
+launch.
+ It's
+ a
+ number
+ one,
+ um
+ I
+ don't
+
+
+think
+ we
+ know
+ about
+ marketing.
+ Um
+
+
+we
+ still
+ do
+ not
+ have
+ like
+ a
+ marketing
+
+
+team.
+ And
+ I
+ would
+ actually
+ argue
+ that
+
+
+it's
+ not
+ like
+ we're
+ geniuses
+ of
+ at
+
+
+marketing.
+ My
+ argument
+ is
+ that
+ um
+
+
+it
+ works
+ because
+ our
+ product
+ is
+ awesome.
+
+
+So,
+ actually
+ I
+ think
+ our
+ product
+ is
+
+
+carrying
+ the
+ marketing
+ despite
+ what
+
+
+people
+ say.
+ And
+
+
+like
+ you
+ could
+ call
+ what
+ we
+ are
+ doing
+
+
+off
+ into
+ CP
+ perhaps
+ like
+ we
+ are
+ just
+
+
+trying
+ to
+ have
+ a
+ good
+ time.
+ Like
+ our
+ the
+
+
+blog
+ post
+ yesterday
+ was
+ a
+ fundraising
+
+
+announcement.
+ Someone
+ in
+ our
+ team
+ gave
+
+
+me
+ a
+ draft
+ and
+ I
+ was
+ like
+ this
+ is
+ the
+
+
+most
+ boring
+ thing
+ I've
+ ever
+ read
+ but
+ if
+
+
+you
+ want
+ you
+ can
+ ship
+ it
+ because
+ I
+ would
+
+
+never
+ read
+ a
+ fundraising
+ announcement
+
+
+anyway.
+ So
+ you
+ could
+ actually
+ put
+
+
+whatever
+ you
+ want.
+ I
+ don't
+ care
+ and
+ they
+
+
+were
+ just
+ like
+ it'd
+ be
+ nicer
+ if
+ it
+ was
+
+
+in
+ your
+ voice
+ and
+ I
+ was
+ just
+ like
+ I
+
+
+would
+ never
+ I
+ would
+ like
+ why
+ does
+ anyone
+
+
+care
+ about
+ this?
+ The
+ product
+ is
+ the
+
+
+thing.
+ The
+ fundraising
+ is
+ tends
+ to
+ be
+
+
+like
+ an
+ ego
+ game
+ and
+ they're
+ like
+ oh
+ you
+
+
+know
+ enterprises
+ will
+ see
+ you
+ as
+ more
+
+
+trustworthy.
+ Recruits
+ will
+ see
+ you
+ as
+ a
+
+
+more
+ like
+ legit
+ thing
+ and
+ we're
+ like
+ I
+
+
+was
+ like
+
+
+why
+ don't
+ we
+ just
+ say
+ that
+ to
+ directly?
+
+
+Hey
+ recruits,
+ we're
+ a
+ real
+ company.
+
+
+We're
+ here
+ to
+ stay.
+ Hey
+ big
+ companies,
+
+
+we
+ are
+ going
+ to
+ be
+ building
+ out
+ this
+
+
+enterprise
+ platform.
+ We
+ are
+ also
+ here
+ to
+
+
+stay.
+ Look
+ at
+ who
+ is
+ investing
+ us.
+ You
+
+
+should
+ trust
+ us.
+
+
+And
+ I
+ think
+ that
+
+
+maybe
+ my
+ intolerance
+ for
+ is
+
+
+helpful
+ there.
+
+
+Um
+ but
+ I
+ truly
+ believe
+ that
+ it
+ is
+ not
+ a
+
+
+replicable
+ strategy.
+
+
+I'll
+ I'll
+ give
+ a
+ fun
+ side
+ story
+ about
+
+
+the
+ fund
+ raise.
+ Some
+ investors
+ said
+
+
+something
+ like
+ holy
+ that
+ was
+ the
+
+
+greatest
+ pitch
+ we've
+ ever
+ heard
+ and
+ I
+
+
+just
+ told
+ them
+ I
+ don't
+ believe
+ you
+
+
+because
+ I've
+ been
+ giving
+ the
+ exact
+ same
+
+
+pitch
+ for
+ years
+ and
+ no
+ one
+ cared
+ until
+
+
+we
+ had
+ you
+ know
+ absolutely
+ world
+ topping
+
+
+product
+ market
+ fit
+ and
+ then
+ they
+ forced
+
+
+themselves
+ to
+ understand
+ it
+ because
+ I
+
+
+don't
+ think
+ they
+ would
+ have
+ gotten
+ the
+
+
+pitch
+ otherwise.
+ So
+
+
+um
+
+
+I
+ believe
+ the
+ product
+ is
+ carrying
+
+
+everything
+ right
+ now
+ and
+ that's
+ perfect
+
+
+for
+ me
+ because
+ that's
+ my
+ style.
+ Um
+ we
+
+
+knew
+ this
+ would
+ be
+ technological
+ shock
+
+
+and
+ awe
+ compared
+ to
+ what
+ big
+ AI
+ does
+ and
+
+
+that
+ is
+ probably
+ what
+ we
+ intend
+ to
+ keep
+
+
+doing
+ strategically.
+ What
+ I
+ love
+ to
+ do
+
+
+now
+ for
+ for
+ bit
+ um
+ is
+ a
+ very
+ basic
+ plain
+
+
+English
+ version
+ of
+ Jeb.
+ There's
+ a
+ lot
+ of
+
+
+people
+ that
+ have
+ heard
+ of
+ it,
+ but
+ like
+
+
+very
+ few
+ people
+ are
+ able
+ to
+ actually
+
+
+articulate
+ what
+ it
+ is.
+ So,
+ I'd
+ love
+ to
+
+
+start
+ from
+ the
+ top
+ and,
+ um,
+ maybe
+ start
+
+
+with
+ this
+ whole
+ concept
+ of
+ system
+ one.
+
+
+Uh,
+ it's
+ it's
+ a
+ reference
+ to
+ something.
+
+
+Explain
+ what
+ it
+ is.
+
+
+>> I
+ would
+ actually
+ like
+ to
+ talk
+ about
+ is
+
+
+um,
+ machine
+ native
+ AI
+ rather
+ than
+ system
+
+
+one.
+ I
+ actually
+ think
+ that
+ system
+ one
+ is
+
+
+more
+ of
+ an
+ implementation
+ detail
+ to
+
+
+machine
+ native
+ AI.
+ And
+ I
+ actually
+ think
+
+
+most
+ people
+ today
+ think
+ of
+ AI
+ in
+ a
+ very
+
+
+particular
+ way.
+ Like
+ AI
+ is
+ always
+ like
+
+
+the
+ chat
+ box
+ to
+ the
+ side
+ that
+ happens
+ to
+
+
+be
+ the
+ main
+ character
+ in
+ its
+ own
+ little
+
+
+show
+ because
+ it
+ doesn't
+ play
+ nicely
+ with
+
+
+software.
+ And
+ I
+ think
+ step
+ one
+ for
+
+
+people
+ is
+ like
+ this
+ is
+ not,
+
+
+you
+ know,
+ chat
+ to
+ GPT
+ plus
+ plus.
+ This
+ is
+
+
+like
+ AI
+ for
+ a
+ completely
+ different
+ use
+
+
+case.
+ And
+ it's
+ how
+ I
+ would
+ do
+ it.
+ And
+ I
+
+
+would
+ talk
+ about,
+ um,
+
+
+you
+ know,
+ even
+ the
+ analogy
+ to
+
+
+classifiers.
+ I
+ think
+ being
+ called
+ a
+
+
+classifier
+ is
+ a
+ compliment.
+ Um,
+ we
+ are
+
+
+not
+ limited
+ to
+ classifiers,
+ but
+
+
+understanding
+ the
+ beauty
+ of
+ classifiers,
+
+
+I
+ think
+ is
+ a
+ necessity
+ to
+ understanding
+
+
+why
+ what
+ we're
+ doing
+ is
+ very
+ valuable.
+
+
+>> All
+ right.
+ So,
+ mission
+ intelligence
+ is
+
+
+the
+ goal.
+ System
+ one
+ is
+ an
+
+
+implementation
+ detail.
+ But
+ like
+ system
+
+
+one
+ versus
+ system
+ two,
+ uh,
+ that's
+ from
+
+
+the
+ book
+ Thinking
+ Fast
+ and
+ Slow.
+ And
+ the
+
+
+whole
+ idea
+ is
+ that,
+ uh,
+ there
+ are
+
+
+certain
+ type
+ of
+ decisions,
+ uh,
+ that
+ you
+
+
+can
+ make
+ intuitively
+ and
+ quickly,
+ uh,
+
+
+which
+ is
+ system
+ one.
+ And,
+ uh,
+ there
+ are
+
+
+certain
+ decisions
+ that
+ require
+ elaborate
+
+
+thinking,
+ and
+ that's
+ system
+ two.
+ Is
+ an
+
+
+accurate
+ categorization
+ of
+ where
+ Jeb
+
+
+falls
+ in
+ the
+ world
+ that
+ Jeb
+ would
+ be
+ in
+
+
+the
+ system
+ one
+ kind
+ of
+ world,
+ whereas
+
+
+your
+ classic
+ LLM,
+ let's
+ call
+ it
+ chat
+ GPT
+
+
+for
+ just
+ as
+ a
+ as
+ a
+ shorthand,
+ would
+ fall
+
+
+in
+
+
+uh
+ system
+ two.
+ Is
+ that
+ directionally
+
+
+correct?
+
+
+>> It
+ is
+ directionally
+ correct.
+ I
+ would
+
+
+actually
+ add
+ the
+ nuance
+ that
+ I
+ think
+
+
+that
+
+
+uh
+
+
+models
+ not
+ trained
+ with
+ like
+ the
+ the
+
+
+latent
+ reasoning,
+ you
+ know,
+ like
+ the
+
+
+reasoning
+ where
+ they
+ where
+ they
+ keep
+
+
+hidden,
+ um
+ tend
+ to
+ be
+ system
+ one
+ models,
+
+
+and
+ AI
+ is
+ very
+ strong
+ at
+ system
+ one
+ in
+
+
+general,
+ a
+ system
+ one
+ in
+ the
+ Kahneman
+
+
+sense,
+ and
+ it
+ is
+ the
+ reasoning
+ training
+
+
+that
+ makes
+ them
+ capable
+ of
+ doing
+ system
+
+
+two
+ tasks,
+ but
+ they
+ are
+ always
+ fragile
+
+
+at
+ system
+ two
+ tasks.
+ And
+ my
+ claim
+ is
+
+
+that
+ AI
+ is
+ just
+ good
+ at
+ system
+ one,
+ and
+
+
+that
+ is
+ extremely
+ valuable
+ on
+ its
+ own.
+
+
+And
+ as
+ far
+ as
+ I
+ can
+ tell,
+ we
+ have
+ not
+
+
+come
+ even
+ close
+ to
+ solving
+ the
+
+
+jaggedness
+ of
+ system
+ two.
+ And
+
+
+I
+ I
+ In
+ In
+ In
+ it
+ would
+ be
+ throwing
+ out
+
+
+the
+ baby
+ with
+ the
+ bathwater
+ to
+ say
+ it's
+
+
+system
+ two
+ or
+ bust.
+
+
+>> Okay,
+ great.
+ If
+
+
+uh
+ there
+ is
+ a
+ need
+ for
+ an
+ AI
+ that
+ can
+ do
+
+
+system
+ one
+ particularly
+ well,
+ which
+ is
+
+
+which
+ is
+ a
+ job
+ world,
+ uh
+ it
+ means
+ that
+
+
+uh
+ there's
+ a
+ number
+ of
+ um
+
+
+decisions
+ in
+ the
+ world
+ of
+ enterprise
+ or
+
+
+otherwise
+ that
+ are
+ actually
+ pretty
+
+
+simple
+ decisions.
+ Is
+ that
+ is
+ that
+ the
+
+
+right
+ starting
+ point?
+
+
+>> Th-
+ That
+ yes.
+ Though,
+ I
+ would
+ go
+ into
+
+
+like
+ a
+ big
+ aside
+ about
+ software
+ as
+ well
+
+
+and
+ machine
+ nativeness
+ and
+ a
+ little
+ bit
+
+
+on
+ classifiers,
+ if
+ I
+ could,
+ right
+ now.
+
+
+Does
+ that
+ sound
+ like
+ an
+ okay
+ aside
+ to
+
+
+jump
+ into?
+
+
+>> Sure.
+
+
+>> I
+ would
+ talk
+ about
+ not
+ that
+ in
+ business
+
+
+that
+ there's
+ specifically
+ system
+ one
+
+
+decisions
+ that
+ they
+ need
+ to
+ be
+ made.
+
+
+Like,
+ yes,
+ I
+ think
+ that
+ that's
+ how
+ it'll
+
+
+start,
+ but
+ like
+ I
+ would
+ talk
+ about
+ like
+
+
+how
+ much
+ software
+ can
+ do
+ with
+ its
+ basic
+
+
+logic
+ gates.
+ Like,
+ software
+ can
+ do
+ so
+
+
+many
+ things
+ in
+ the
+ world,
+ so
+ many
+
+
+things,
+ like
+ basically
+ all
+ of
+ technology
+
+
+from
+ like
+ what,
+ 1980
+ to
+ 2020
+ was
+ driven
+
+
+by
+ software.
+ Maybe
+ that's
+ an
+
+
+exaggeration,
+ but
+ it
+ feels
+ like
+ that
+ to
+
+
+me
+ as
+ a
+ software
+ engineer,
+ so
+ maybe
+ I'm
+
+
+biased.
+ Um
+ and
+ you
+ can
+ do
+ so
+ many
+ things
+
+
+with
+ like
+ these
+ simple
+ logic
+ gates
+ that
+
+
+just
+ do
+ like
+ ands
+ and
+ ors
+ on
+ bits.
+
+
+That's
+ kind
+ of
+ crazy.
+
+
+And
+
+
+software
+ becomes
+ big
+ and
+ powerful
+ not
+ by
+
+
+saying
+ like
+ there's
+ an
+ end
+ here
+
+
+or
+ an
+ or
+ here
+ in
+ a
+ business.
+ It's
+ by
+
+
+doing
+ like
+ a
+ unit
+ of
+ work
+ um
+ so
+ reliably
+
+
+that
+ it
+ can
+ become
+ like
+ a
+ bigger
+ thing
+
+
+and
+ then
+ composing
+ it
+ together.
+ And
+ my
+
+
+claim
+ is
+ where
+ AI
+ will
+ get
+ incredibly
+
+
+valuable
+ is
+ not
+ people
+ mapping
+ out
+
+
+explicitly
+ like
+ here
+ is
+ work,
+ you
+ know,
+
+
+here's
+ a
+ job.
+ Here's
+ the
+ system
+ one
+
+
+decisions.
+ Let's
+ like
+ do
+ a
+ workflow
+
+
+automation
+ on
+ that.
+ I
+ think
+ that's
+ how
+
+
+it'll
+ start,
+ but
+ I
+ think
+ that
+ AI
+ will
+
+
+explode
+ in
+ usage
+ once
+ people
+ start
+
+
+taking
+ these,
+ you
+ know,
+ these
+ workflows,
+
+
+putting
+ them
+ into
+ like
+ a
+ box,
+ and
+ then
+
+
+now
+ people
+ call
+ the
+ higher
+ level
+ boxes.
+
+
+And
+ [snorts]
+ that
+ is
+ what
+ software
+ is
+
+
+all
+ about.
+
+
+>> Because
+ that
+ box
+ will
+ be
+ solved
+ and
+ safe
+
+
+and
+ reliable.
+
+
+>> Exactly.
+ And
+ you
+ need
+ so
+ many
+ that
+ is
+
+
+what
+ I
+ describe
+ as
+ composability.
+ And
+
+
+and
+ the
+ beauty
+ of
+ software
+ is
+ like
+ once
+
+
+you
+ spend
+ the
+ effort
+ up
+ front
+ to
+ making
+
+
+these
+ boxes,
+ you
+ can
+ instantly
+ replicate
+
+
+them,
+ right?
+ Like
+ software
+ is
+ so
+
+
+unbelievably
+ cool.
+ Like
+ imagine
+ you
+ have
+
+
+LEGO
+ sets
+ where
+ you
+ can
+ build
+ up
+ higher
+
+
+level
+ things,
+ but
+ you
+ can
+ copy
+ paste
+
+
+them
+ as
+ many
+ times
+ as
+ you
+ want.
+ That
+ is
+
+
+what
+ software
+ kind
+ of
+ is
+ for
+ automation.
+
+
+And
+ that
+ I
+ think
+ is
+ how
+ you
+ get
+ more
+ and
+
+
+more
+ powerful
+ properties.
+ So,
+ system
+ two
+
+
+tasks
+ are
+ not
+ off
+ the
+ table
+ for
+ our
+
+
+models.
+ We
+ just
+ believe
+ that
+ system
+ two
+
+
+tasks
+ should
+ be
+ composed
+ from
+ simpler
+
+
+building
+ blocks
+ that
+ are
+ so
+ reliable
+
+
+that
+ they
+ can
+ be
+ trusted
+ to
+ be
+ built
+ on
+
+
+top
+ of,
+ which
+ AI
+ so
+ far
+ has
+ been
+
+
+incredibly
+ non-composable.
+ Like
+ it's
+
+
+plays
+ nicely
+ with
+ nothing
+ except
+ other
+
+
+AI.
+
+
+And
+ that's
+ that's
+ kind
+ of
+ tragic.
+ Yeah.
+
+
+>> Amazing.
+ All
+ right.
+ So,
+ this
+ is
+ where
+
+
+this
+ is
+ going
+ in
+ terms
+ of
+
+
+where
+ we're
+ starting
+ at
+ a
+ super
+
+
+practical
+ basic
+ level.
+
+
+Uh
+ one
+ of
+ the
+ use
+ cases
+ that
+
+
+you
+ mentioned
+ or
+ the
+ team
+ mentioned
+ is
+
+
+customer
+ support.
+ Which
+ And
+ the
+ claim
+ is
+
+
+that
+ the
+ current
+ ways
+ it's
+ handled
+ with
+
+
+LLMs
+ has
+ not
+ been
+ as
+ efficient
+ as
+ it
+
+
+could.
+ Let's
+ take
+ the
+ example
+ of
+ I'm
+
+
+sending
+ an
+ email.
+ I'm
+ saying
+ I
+ got
+
+
+charged
+ twice
+ and
+ I'm
+ very
+ angry
+ and
+ I
+
+
+send
+ that
+ email
+ to
+ an
+ LLM-based
+ system.
+
+
+Uh
+ scenario
+ one
+ and
+ then
+ scenario
+ two,
+
+
+I'm
+ sending
+ this
+ to
+ a
+ Jev
+ powered
+
+
+system.
+ What
+ happens?
+ Compare
+ and
+
+
+contrast.
+
+
+>> Can
+ I
+ do
+ an
+ easier
+ example
+ than
+ customer
+
+
+service
+ is
+ actually
+ quite
+ complicated.
+
+
+Um
+ let
+ me
+ do
+ something
+ that
+ is
+ very
+
+
+similar
+ to
+ customer
+ service
+ but
+ is
+ a
+ lot
+
+
+easier
+ to
+ think
+ about.
+ Like
+ imagine
+ an
+
+
+executive
+ assistant
+ for
+ your
+ email.
+ It's
+
+
+kind
+ of
+ like
+ customer
+ service
+ but
+ the
+
+
+amount
+ of
+ things
+ you
+ can
+ do
+ is
+ way
+
+
+simpler.
+ And
+ as
+ far
+ as
+ I
+ can
+ tell,
+ I
+
+
+could
+ be
+ wrong,
+ that
+
+
+like
+ a
+ scheduling
+ assistant
+ is
+ still
+ not
+
+
+solved.
+ I,
+ you
+ know,
+ I
+ have
+ emailed
+ a
+
+
+lot
+ of
+ people.
+ I
+ don't
+ see
+ automated
+
+
+scheduling
+ assistants.
+ And
+ like
+ that's
+
+
+kind
+ of
+ weird
+ because
+ it
+ really
+ looks
+
+
+like
+ LLMs
+ should
+ solve
+ this.
+
+
+Right?
+ So,
+ people
+ have
+ been
+ trying
+ for
+
+
+years
+ for
+ this.
+ And
+ how
+ you
+ do
+ it
+ in
+ an
+
+
+LLM
+ is
+ you
+ would,
+ you
+ know,
+ make
+ a
+ big
+
+
+system
+ message
+ write-up
+ of
+ all
+ of
+ your
+
+
+preferences,
+ blah
+ blah
+ blah,
+ and
+ they
+
+
+would
+ be
+ incredibly
+ good
+ at
+
+
+stylistically
+ being
+ accurate.
+ Like
+ it'll
+
+
+never
+ not
+ look
+ like
+ a
+ well-written
+
+
+thing.
+ But
+ it
+ will
+
+
+often
+ make
+ subtle
+ mistakes,
+ not
+ in
+ the
+
+
+style,
+ not
+ in
+ the
+ psychofancy
+ or
+
+
+psychofancy,
+ I
+ don't
+ know
+ how
+ to
+
+
+pronounce
+ that
+ word.
+
+
+Um
+ you
+ know,
+ like
+ it'll
+ always
+ be
+
+
+people-pleasing
+ because
+ LLMs
+ are
+ so
+ good
+
+
+at
+ people
+ being
+ people-pleasing,
+ but
+ it
+
+
+may
+ not
+ make
+ the
+ right
+ decisions.
+ And
+
+
+what
+ people
+ will
+ do
+ is
+ they
+ will
+ like
+
+
+keep
+ programming
+ their
+ system
+ prompt.
+
+
+Like
+ please
+ do
+ this.
+ If
+ it's
+ an
+ investor
+
+
+do
+ that.
+ If
+ it's
+ inbound
+ email
+ do
+ this.
+
+
+Um,
+ you
+ know,
+ blah,
+ blah,
+ blah.
+
+
+So
+ what
+ ends
+ up
+ happening
+ is
+ you're
+
+
+basically
+ programming
+ in
+ natural
+
+
+language
+ this
+ giant
+ system
+ prompt.
+ And
+
+
+as
+ the
+ complexity
+ rises,
+ the
+ error
+ rates
+
+
+get
+ higher
+ and
+ higher
+ and
+ higher
+ because
+
+
+you're
+ just
+ praying,
+ "Model,
+ please
+
+
+don't
+ make
+ those
+ mistakes."
+ And
+ what
+
+
+tends
+ to
+ [clears throat]
+ happen
+ is
+ it's
+
+
+embarrassing
+ when
+ those
+ mistakes
+ are
+
+
+made
+ or
+ it's
+ costly.
+ You
+ know,
+ you
+ may
+
+
+not
+ have
+ like
+ scheduled
+ something
+ with
+
+
+an
+ important
+ investor
+ or
+ something
+ like
+
+
+that.
+ And
+ um,
+ then
+ you
+ need
+ to
+ like
+ rip
+
+
+the
+ system
+ out
+ and
+ toss
+ it
+ away
+ and
+ just
+
+
+use,
+ you
+ know,
+ a
+ human
+ because
+ you
+ know,
+
+
+it
+ it
+ it
+ it's
+ like
+ it's
+ just
+ obvious
+
+
+what
+ to
+ do
+ there
+ and
+ they
+ can
+ like
+ ask
+
+
+you
+ when
+ they're
+ uncertain
+ or
+ whatever
+
+
+else.
+ So,
+ LLMs
+ to
+ my
+ understanding
+ still
+
+
+have
+ not
+ solved
+ this
+ problem.
+
+
+The
+
+
+I
+ don't
+ know
+ if
+ anyone
+ has
+ solved
+ this
+
+
+with
+ a
+ Jev
+ like
+ system
+ yet,
+ but
+ I
+ can
+
+
+compare
+ and
+ contrast
+ the
+ differences
+ of
+
+
+it.
+ So,
+ what
+ you
+ can
+ imagine
+ instead
+ of
+
+
+programming
+ in
+ natural
+ language,
+ like
+
+
+describing
+ like
+ if
+ it's
+ important,
+ blah,
+
+
+blah,
+ blah.
+ If
+ it's
+ from
+ this,
+ blah,
+
+
+blah,
+ blah.
+ If
+ it's
+ inbound,
+ blah,
+ blah,
+
+
+blah.
+
+
+Um,
+
+
+you
+ can
+ actually
+ make
+ individual
+
+
+classifiers
+ for
+ each
+ of
+ these
+ things.
+
+
+Like
+ smart
+ if
+ statements.
+ Like
+ you
+ can
+
+
+now
+ express
+ things
+ that
+ you
+ couldn't
+
+
+express
+ in
+ software
+ before
+ because
+ how
+
+
+can
+ like
+ these
+ bit
+ comparisons
+ figure
+
+
+out
+ if
+ it's
+ inbound
+ or
+ not,
+ right?
+ Like
+
+
+that's
+ an
+ intention
+ and
+ it
+ requires
+ like
+
+
+natural
+ language
+ common
+ understandings.
+
+
+And
+ the
+ idea
+ is
+ you
+ can
+
+
+classifiers
+ for
+ all
+ of
+ these
+ things
+ and
+
+
+you
+ have
+ this
+ legible
+ system
+ where
+ not
+
+
+only
+ can
+ you
+ measure
+ if
+ every
+ if
+
+
+statement
+ is
+ accurate,
+ you
+ know
+ that
+
+
+none
+ of
+ those
+ if
+ statements
+ will
+ be
+
+
+forgotten.
+ And
+ if
+ ever
+ a
+ mistake
+ is
+
+
+made,
+ you
+ can
+ add
+ it
+ to
+ an
+ eval
+ because
+
+
+the
+ system
+ is
+ very
+ legible.
+ So,
+ it'll
+
+
+probably
+ start
+ out
+ less
+ good
+ than
+ the
+
+
+text-based
+ system
+ because
+ the
+ text-based
+
+
+system
+ has
+ a
+ lot
+ of
+ sane
+ defaults.
+ You
+
+
+know,
+ it
+ looks
+ very
+ reasonable
+ because
+
+
+that's
+ what
+ it's
+ trained
+ to
+ do.
+ It's
+
+
+just
+ trained
+ to
+ like
+ like
+ look
+ human
+
+
+pleasing,
+ but
+ it
+ actually
+ doesn't
+ have
+
+
+any
+ of
+ the
+ actual
+ behavior
+ you
+ truly
+
+
+care
+ about,
+ and
+ you
+ don't
+ have
+ the
+
+
+control
+ over
+ that,
+ you
+ know?
+ And
+ that
+ is
+
+
+a
+ major
+ problem
+ for
+ anyone
+ who
+ wants
+ to
+
+
+truly
+ have
+ something
+ run
+ in
+ the
+
+
+background.
+ They
+ want
+ it
+ to
+ to
+ not
+ worry
+
+
+about
+ it,
+ and
+ they
+ want
+ to
+ have
+ control,
+
+
+and
+ they
+ want
+ to
+ have
+ like
+ some
+
+
+idea
+ that
+ it's
+ not
+ going
+ to
+ just
+ go
+
+
+completely
+ off
+ the
+ rails.
+
+
+And
+ that
+ is
+ what
+ combining
+ like
+ a,
+ you
+
+
+know,
+ system
+ one
+ models
+ with
+ code
+ will
+
+
+enable
+ you
+ to
+ do.
+ Cuz
+ code
+ is
+ kind
+ of
+
+
+like,
+ you
+ know,
+ the
+ uh
+ the
+ roller
+
+
+coaster
+ tracks.
+ You
+ don't
+ go
+ off
+ the
+
+
+rails.
+ Code
+ prevents
+ that
+ from
+
+
+happening.
+ And
+ similar
+ to
+ that,
+ type
+
+
+safety,
+ uh
+ you
+ know,
+ that
+ is
+ what
+ the
+
+
+property
+ that
+ the
+ system
+ one
+ models
+
+
+have,
+ and
+
+
+uh
+
+
+these
+ things
+ also
+ prevent
+ going
+ off
+ the
+
+
+rails.
+ And
+ because
+ they're
+ very
+ legible,
+
+
+it
+ becomes
+ way
+ easier
+ to
+ build
+ these
+
+
+systems.
+ You
+ can
+ just
+ trust
+ that
+ they
+
+
+can
+ run
+ in
+ the
+ background.
+
+
+>> So,
+ in
+ that
+ example
+ of
+ the
+ personal
+
+
+assistant,
+ um
+
+
+the
+ the
+ fundamental
+ basic
+ concept
+ is
+
+
+that
+ uh
+ Jave
+ is
+ going
+ to
+ take
+ the
+ input,
+
+
+which
+ could
+ be
+ uh
+ data
+ and
+ or
+
+
+instructions,
+ uh
+ and
+ will
+ translate
+ this
+
+
+not
+ into
+ text,
+ which
+ is
+ what
+ your
+
+
+language
+ model
+ does,
+
+
+uh
+ but
+ into
+ a
+ set
+ of
+ probabilities.
+ So,
+
+
+they
+ will
+ say,
+ "This
+ is
+ urgent,
+ yes
+ or
+
+
+no.
+ Escalate,
+ yes
+ or
+ no.
+ And
+ if
+ you
+
+
+escalate,
+ send
+ this
+ to
+ this
+ department
+
+
+or
+ that
+ department."
+ Right?
+ Is
+ that
+
+
+>> Yes,
+ and
+ also
+
+
+Ooh,
+ there
+ there's
+ like
+ like
+ interesting
+
+
+nuance
+ here,
+ where
+
+
+um
+
+
+not
+ to
+ just
+ You
+ don't
+ just
+ ask
+ Jave,
+
+
+"Should
+ I
+ escalate?"
+ Because
+ that's
+ a
+
+
+very
+ high-level
+ decision.
+ Like
+ uh
+ you
+
+
+know,
+ it
+ requires
+ experience
+ and
+ trust
+
+
+with
+ working
+ with
+ someone
+ to
+ know
+ if
+ you
+
+
+should
+ escalate
+ or
+ not.
+ Um
+
+
+the
+ idea
+ is
+ that
+ you
+ can
+ keep
+ on
+
+
+decomposing
+ your
+ questions
+ into
+ like
+ the
+
+
+lowest
+ level
+ You
+ you
+ we
+ have
+ the
+ ability
+
+
+to
+ break
+ it
+ to
+ down.
+ Like,
+ "Oh,
+ I
+ want
+
+
+to
+ filter
+ out
+ all
+ inbound
+ sales
+ from
+ my
+
+
+inbox
+ and
+ I
+ want
+ to
+ maybe
+ filter
+ out
+
+
+like
+ recruits
+ emailing
+ me,
+ right?
+
+
+Because
+ like
+ we
+ have
+ like
+ a
+ like
+ a
+ a
+
+
+specific
+ email
+ list
+ for
+ that.
+ Like
+ that
+
+
+might
+ make
+ sense,
+ but
+ there
+ might
+ be
+ a
+
+
+world
+ like
+ oh,
+ I've
+ been
+ I
+ filtered
+ out
+
+
+the
+ wrong
+ email.
+ Let
+ me
+ add
+ new
+
+
+behavior.
+ An
+ example
+ is
+ if
+ someone
+ else
+
+
+is
+ on
+ an
+ email,
+ I
+ probably
+ shouldn't
+ be
+
+
+on
+ that
+ email.
+ But
+ if
+ they
+ say,
+ "Diego,
+
+
+can
+ you
+ look
+ at
+ this?"
+ Maybe
+ I
+ should
+
+
+all
+ of
+ a
+ sudden
+ see
+ that.
+ And
+ this
+ is
+
+
+like
+ nuanced
+ smart
+ behavior
+ that
+
+
+requires
+ like
+ a
+ smart
+ person
+ to
+ think
+
+
+about
+ that
+ behavior.
+ So
+ either
+ way
+ a
+
+
+system
+ is
+ getting
+ programmed
+ either
+ by
+
+
+natural
+ language
+ or
+ code,
+ but
+ if
+ you
+ do
+
+
+it
+ by
+ code,
+ it's
+ cheaper,
+ faster,
+ and
+
+
+guaranteed
+ to
+ run.
+
+
+And
+ the
+ idea
+ is
+ you
+ can
+ keep
+ on
+
+
+like
+ drilling
+ down
+ into
+ the
+ behavior
+ you
+
+
+want
+ as
+ you
+ make
+ it
+ more
+ and
+ more
+ and
+
+
+more
+ great
+ for
+ your
+ use
+ case
+ rather
+ than
+
+
+with
+ LMC,
+ there's
+ only
+ so
+ much
+ control
+
+
+you
+ have.
+
+
+>> And
+ the
+ developer
+ gets
+ a
+ score
+ back
+ for
+
+
+whatever
+ little
+
+
+sort
+ of
+ unit
+ they're
+ focusing
+ on.
+ Is
+
+
+that
+ email
+
+
+angry
+ or
+ not
+ angry?
+ 0.85.
+
+
+And
+ if
+ it's
+ above
+ 0.9,
+ then
+ trigger
+ this
+
+
+action.
+ If
+ it's
+ below,
+ don't
+ trigger
+
+
+that
+ action.
+
+
+>> Yeah.
+ Yes,
+ and
+ also
+ actually
+ your
+ your
+
+
+note
+ on
+ the
+ probabilities
+ is
+ also
+ really
+
+
+really
+ great.
+ There's
+ a
+ reason
+ why
+ we
+ do
+
+
+that
+ and
+ we
+ learned
+ this
+ the
+ hard
+ way.
+
+
+Like
+ when
+ we
+ like
+ shipped
+ the
+ open
+ AI
+
+
+models,
+ they
+ don't
+ have
+ like
+
+
+fine-grained
+ controls
+ and
+ what
+ ends
+ up
+
+
+happening
+ is
+ I'll
+ use
+ the
+ simplest
+
+
+analogy
+ which
+ is
+ refusals,
+ right?
+ Like
+
+
+how
+ does
+ it
+ make
+ sense
+ that
+ you
+ have
+ a
+
+
+response
+
+
+>> is
+ when
+ the
+ model
+ refuses
+ to
+ answer.
+
+
+>> Yes,
+ I'm
+ sorry,
+ I
+ can't
+ do
+ that.
+ And
+
+
+it's
+ kind
+ of
+ crazy
+ that
+ for
+ some
+
+
+responses,
+ you
+ just
+ refresh
+ it
+ and
+
+
+sometimes
+ it
+ refuses,
+ sometimes
+ it
+
+
+doesn't.
+ Like
+ that's
+ insane
+ behavior.
+
+
+And
+ also,
+ if
+ you're
+ building
+ on
+ top
+ of
+
+
+this,
+ the
+ your
+ threshold
+ for
+ refusals
+
+
+might
+ be
+ very
+ different,
+ right?
+ Like
+ if
+
+
+you
+ are
+ Disney,
+ you
+ probably
+ have
+ an
+
+
+extremely
+ different
+ threshold
+ for
+
+
+refusals
+ than
+ if
+ you
+ are
+ Character
+ AI,
+
+
+right?
+ Like
+ Character
+ AI
+ likes
+ to
+ do
+
+
+like
+ role
+ play
+ and
+ stuff.
+ Disney
+ is
+ very
+
+
+protective
+ of
+ their
+ characters
+ and
+ IP.
+
+
+It
+ doesn't
+ make
+ sense
+ to
+ just
+ have
+ a
+
+
+discrete
+ decision.
+ The
+ most
+ powerful
+ way
+
+
+to
+ empower
+ developers
+ is
+ to
+ give
+ them
+
+
+back
+ as
+ much
+ information
+ as
+ you
+ can,
+ so
+
+
+they
+ can
+ then
+ choose
+ for
+ their
+
+
+application
+ what
+ is
+ the
+ threshold.
+ Like,
+
+
+oh,
+ I
+ accidentally
+ misclassified
+ an
+
+
+email
+ from
+ an
+ extremely
+ important
+
+
+investor.
+ Let
+ me
+ tune
+ that
+ threshold
+
+
+lower
+ because
+ I'm
+ okay
+ with
+ false
+
+
+positives.
+ I
+ really
+ can't
+ stand
+ false
+
+
+negatives.
+
+
+>> And
+ the
+ reason
+ why
+ Jev
+ is
+ much
+ faster
+
+
+and
+ much
+ cheaper
+ and
+ I
+ know
+ that's
+ only
+
+
+part
+ of
+ the
+ claim
+ and
+ that
+ the
+ the
+
+
+bigger
+ claim
+ is
+ intelligence
+ everywhere.
+
+
+>> Thank
+ you.
+ You
+ listened
+ to
+ me.
+ Hell
+
+
+yeah.
+ Hell
+ yeah.
+
+
+>> The
+ devolution
+ is
+ in
+ motion.
+ So,
+ why
+ is
+
+
+it
+ able
+ to
+ be
+ faster
+ and
+ cheaper?
+ Is
+
+
+that
+ because
+ it's
+ taking
+ a
+ subset
+ of
+ the
+
+
+problem
+ or
+ is
+ that
+ because
+ it
+ doesn't
+
+
+have
+ to
+ go
+ through
+ the
+ whole
+ next
+ token
+
+
+generation
+ than
+ an
+ NLM
+ would
+ otherwise
+
+
+do?
+
+
+>> I
+ actually
+ can't
+ talk
+ about
+ that
+ without
+
+
+the
+ intelligence.
+ If
+ I
+ wanted
+ a
+ faster
+
+
+model,
+ I
+ could
+ just
+ chop
+ half
+ the
+
+
+network
+ out,
+ right?
+ And
+ then
+ you
+ have
+
+
+something
+ twice
+ as
+ fast,
+ right?
+ Or
+ twice
+
+
+as
+ cheap
+ or
+ whatever
+ else.
+ So,
+ it's
+ very
+
+
+hard
+ to
+ talk
+ about
+ that
+ without
+
+
+intelligence
+ on
+ its
+ own.
+ Like
+ obviously
+
+
+we're
+ in
+ a
+ new
+ quantum
+ of
+ speed
+ and
+ uh
+
+
+because
+ we
+ toss
+ out
+ the
+ very
+ slow,
+
+
+expensive
+ part
+ of
+ text
+ generation.
+ So,
+
+
+you
+ know,
+ we
+ we've
+ talked
+ about
+ that.
+ We
+
+
+are
+ obviously
+ not
+ auto
+ regressive.
+ We
+
+
+much
+ prefer
+ I
+ like
+ this
+ parallel,
+ you
+
+
+know,
+ gradual
+ discovery
+ of
+ what
+ the
+
+
+right
+ thing
+ is,
+ but
+ what
+
+
+I
+ think
+ people
+ don't
+ really
+ realize
+ is
+
+
+not
+ to
+ just
+ like
+ the
+ obvious
+ engineering
+
+
+part,
+ you
+ know,
+ like
+ chopping
+ off
+ parts
+
+
+that
+ are
+ slow.
+
+
+But,
+ the
+ you
+ get
+ what
+ you
+ optimize
+ for
+
+
+part.
+ And
+ the
+ we
+ want
+ to
+ extract
+
+
+intelligence
+ in
+ the
+ best,
+ richest,
+ most
+
+
+dense
+ way
+ out
+ of
+ these
+ beautiful
+
+
+cognitive
+ cores
+ that
+ AI
+ already
+ is.
+ So,
+
+
+I
+ I
+ I
+ think
+
+
+you
+ know,
+ the
+ the
+ tragedy
+ before
+ our
+
+
+launch
+ was
+ that
+ AI
+ is
+ so
+ clearly
+
+
+unbelievable,
+ but
+ so
+ useless
+ for
+ most
+
+
+things.
+ And
+ it's
+ not
+ to
+ just
+ that
+ we
+ put
+
+
+a
+ plug
+ on
+ it's
+ not
+ just
+ like
+ tossing
+ out
+
+
+the
+ bad
+ part,
+ but
+ also
+ like
+ smoothing
+
+
+out
+ the
+ intelligence
+ and
+ making
+ it
+ as
+
+
+robust
+ as
+ it
+ can
+ be
+ to
+ surface
+ that
+
+
+intelligence.
+ And
+
+
+it
+ it
+ can't
+ be
+ talked
+ about
+ without
+ the
+
+
+other
+ stuff.
+
+
+>> So,
+ it's
+ faster
+ and
+ cheaper
+ to
+ play
+ back
+
+
+what
+ you've
+ said
+ so
+ far
+
+
+because
+ you've
+ removed
+ certain
+ parts
+
+
+and
+ you
+ polished
+ the
+ the
+ rest.
+ So,
+ the
+
+
+the
+ part
+ that
+ you
+ removed
+ enabled
+ you
+ to
+
+
+do
+ this
+ ultimately
+ very
+ specific
+ job,
+
+
+very
+ important
+ and
+ very
+ ubiquitous
+ kind
+
+
+of
+ job,
+ but
+ but
+ specific
+ job
+ faster
+
+
+because
+ in
+ some
+ ways
+ it's
+ specialized
+
+
+for
+ that
+ job.
+
+
+>> There's
+ a
+ bit
+ of
+ an
+ implicat-
+
+
+Oh,
+ man,
+ I
+ get
+ into
+ my
+ nuance
+ and
+ I
+ love
+
+
+it.
+
+
+I
+ would
+ actually
+ argue
+ that
+ it
+ is
+ not
+
+
+narrow
+ and
+ specific.
+ Like,
+ you
+ could
+
+
+fine-tune
+ small
+ language
+ models
+ to
+ be
+
+
+narrow
+ and
+ specific,
+ but
+ I
+ would
+ argue
+
+
+that
+ classification
+ is
+ AI
+ complete.
+ And
+
+
+like,
+ you
+ know,
+ the
+ field
+ has
+ talked
+
+
+about
+ this
+ for
+ a
+ long
+ time.
+ Like,
+ a
+
+
+general-purpose
+ universal
+ verifier
+ or
+
+
+classifier
+ is
+ absolutely
+ AI
+ complete
+
+
+because
+ it's
+ easy
+ to
+ turn
+ this
+ thing
+
+
+into
+
+
+like,
+ even
+ if
+ you
+ wanted
+ text
+ out,
+ which
+
+
+I
+ think
+ is
+ somewhat
+ rare
+ for
+ a
+ system,
+
+
+you
+ could
+ turn
+ it
+ into
+ that
+ if
+ it
+ was
+
+
+perfect.
+ So,
+ I
+ would
+ argue
+ that
+ it's
+ not
+
+
+like
+ narrow
+ and
+ specific,
+ it's
+ just
+ a
+
+
+different
+ shape
+ of
+ intelligence.
+ And
+
+
+that
+ is,
+ you
+ know,
+ it's
+ a
+ it's
+ its
+ own
+
+
+big
+ general
+ branch,
+ and
+ there's
+ going
+ to
+
+
+be
+ so
+ many
+ beautiful
+ sub
+ branches
+ of
+
+
+this.
+ You
+ know,
+ we
+ have
+ three
+ types
+
+
+right
+ now,
+ but
+ we
+ are
+ going
+ to
+ have
+ so
+
+
+many
+ more
+ and
+ we're
+ going
+ to
+ show
+ the
+
+
+world
+ why
+ we
+ didn't
+ call
+ them
+ decision
+
+
+models.
+
+
+Um,
+
+
+so
+ oh,
+
+
+it's
+ a
+
+
+it
+ to
+ me
+ it's
+ about
+ like
+ how
+ do
+ we
+ use
+
+
+these
+ incredible
+ compressions
+ of
+ human
+
+
+intelligence
+ as
+ effectively
+ as
+ possible
+
+
+and
+
+
+uh
+
+
+yeah,
+ it
+ it's
+ it's
+ beyond
+ the
+ just
+
+
+removing
+ the
+ obvious
+ slow
+ parts.
+
+
+>> Okay,
+ great.
+ Let's
+ talk
+ about
+
+
+why
+
+
+language
+ models
+ are
+ not
+ able
+ to
+ do
+ this
+
+
+uh
+ and
+ why
+ a
+ whole
+ new
+ family
+ uh
+ needs
+
+
+to
+ be
+ invented
+ to
+ to
+ do
+ this.
+ And
+ so
+ my
+
+
+understanding
+ uh
+ is
+ that
+ uh
+ part
+ of
+ the
+
+
+root
+ of
+ the
+ problem
+ is
+ RLHF
+ which
+ you're
+
+
+one
+ of
+ the
+ co-inventors
+ of
+ uh
+ which
+
+
+served
+ uh
+ its
+ purpose
+ incredibly
+ well
+
+
+for
+ what
+ it
+ was
+ supposed
+ to
+ do,
+ however,
+
+
+comes
+ with
+ uh
+ a
+ set
+ of
+ side
+ problems
+ uh
+
+
+which
+ in
+ particular
+ are
+ are
+ bad
+ for
+ the
+
+
+mission
+ at
+ hand.
+ So,
+ maybe
+ let's
+ let's
+
+
+uh
+ start
+ again
+ in
+ an
+ effort
+ to
+ make
+ this
+
+
+approachable
+ by
+ by
+ a
+ bunch
+ of
+ people.
+
+
+What
+ is
+ RLHF
+ at
+ the
+ simplest
+ level?
+
+
+>> Ooh.
+
+
+I
+ would
+ describe
+ as
+
+
+RLHF
+ as
+
+
+making
+ models
+ chat
+ and
+ making
+ models
+
+
+pleasing
+ for
+ chat.
+
+
+>> Because
+ so
+ models
+ are
+ pre-trained
+ so
+
+
+they
+ have
+ the
+ whole
+ all
+ the
+ knowledge
+ in
+
+
+the
+ world.
+ Uh
+ however,
+ turning
+ them
+ into
+
+
+something
+ that
+ can
+ converse
+ in
+ a
+
+
+requires
+ them
+ expressing
+ certain
+ type
+ of
+
+
+preference
+ in
+ certain
+ ways
+ of
+
+
+interacting
+ with
+ human,
+ right?
+
+
+>> And
+ lots
+ of
+ stylistic
+ stuff.
+ Actually,
+ I
+
+
+think
+ a
+ lot
+ of
+ the
+ optimization
+ for
+ RLHF
+
+
+in
+ hindsight
+ looks
+ extremely
+ stylistic
+
+
+rather
+ than
+ is
+ it
+ about,
+ you
+ know,
+ like
+
+
+being
+ better
+ at
+ like
+ tapping
+ into
+ its
+
+
+facts
+ deep
+ into
+ its
+ network.
+
+
+>> RLHF
+ stands
+ for
+ reinforcement
+ learning
+
+
+from
+ uh
+ human
+ feedback.
+ So,
+ how
+ are
+
+
+humans
+ involved
+ initially
+ when
+ you
+ guys
+
+
+did
+ that?
+
+
+>> So,
+ actually
+ there's
+ many
+ different
+
+
+parts
+ of
+ RLHF.
+ I
+ think
+ I
+ started
+ working
+
+
+on
+ it
+ perhaps
+ end
+ of
+ 2020,
+
+
+but
+ there
+ was
+ like
+ predecessor
+ work
+ to
+
+
+be
+ clear
+ that
+ I
+ would
+ want
+ to
+ call
+ out.
+
+
+So,
+ I
+ think
+ that
+ we
+ built
+ on
+ top
+ of
+ the
+
+
+shoulders
+ of
+ giants
+ and
+ many
+ of
+ those
+
+
+predecessor
+ works
+ could
+ be
+ called
+ RLHF
+
+
+as
+ well.
+ I'm
+ happy
+ to
+ cite
+ them
+ now,
+ but
+
+
+I
+ if
+ it's
+ a
+
+
+I'm
+ not
+ going
+ to
+ do
+ it
+ right
+ now.
+ I've
+
+
+I've
+ cited
+ them
+ in
+ other
+ spots.
+ Um
+ the
+
+
+the
+ thing
+ that
+ made
+ RLHF
+ RLHF
+ in
+ my
+
+
+opinion
+ is
+ about
+ the
+ task.
+ The
+ task
+
+
+about
+ optimizing
+ for
+ human
+ preference
+
+
+and
+ the
+ shape
+ of
+ it
+ as
+ being
+ text
+ in
+
+
+text
+ out.
+ That
+ I
+ think
+ is
+ kind
+ of
+
+
+on
+ on
+ arbitrary
+ instructions.
+ Uh
+ that
+
+
+that's
+ to
+ me
+ is
+ the
+ root
+ of
+ what
+
+
+originally
+ RLHF
+ was.
+ At
+ the
+ time
+ we
+ were
+
+
+still
+ trying
+ to
+ figure
+ out
+ this
+ shape.
+ I
+
+
+think
+ it's
+ very
+ obvious
+ in
+ hindsight,
+
+
+but
+ there
+ was
+ a
+ lot
+ of
+ uncertainty.
+ We
+
+
+were
+ kind
+ of
+ like
+ the
+ black
+ sheep
+ of
+
+
+Open
+ AI.
+ Um
+ and
+ it
+
+
+like
+ no
+ one
+ likes
+ putting
+ expensive
+
+
+humans
+ in
+ loop
+ because
+ it's
+ very
+ hard
+ to
+
+
+iterate
+ on
+ it.
+ And
+ we
+ were
+ really
+ trying
+
+
+to
+ figure
+ out
+ like,
+ hey,
+ will
+ this
+ work?
+
+
+Because
+ when
+ we
+ were
+ playing
+
+
+whack-a-mole
+ with
+ the
+ issues,
+ like
+
+
+things
+ kept
+ coming
+ up
+ and
+ we
+ kept
+ having
+
+
+to
+ solve
+ them
+ until
+ we
+ made
+ it
+ like
+
+
+really
+ general
+ and
+ pleasing
+ and
+ good.
+ I
+
+
+believe
+ that
+ the
+ hardest
+ part
+ of
+
+
+creating
+ a
+ new
+ direction
+ in
+ AI
+ is
+ even
+
+
+knowing
+ the
+ task.
+ So,
+ if
+ we
+ knew
+ in
+
+
+hindsight
+ the
+ task
+ should
+ be
+ shaped
+ this
+
+
+way,
+ it's
+ possible
+ it
+ would
+ have
+ taken
+
+
+us
+
+
+like
+ it
+ would
+ have
+ been
+ way
+ way
+ way
+
+
+faster
+ at
+ this.
+ But
+ because
+ of
+ that
+
+
+uncertainty,
+ it
+ was
+ a
+ little
+
+
+a
+ little
+ bit
+ harder
+ to
+ figure
+ out
+ like,
+
+
+yes,
+ the
+ way
+ to
+ do
+ this
+ is
+ data,
+ make
+
+
+this
+ diverse
+ data,
+ and
+ also
+ like
+ even
+
+
+the
+ specification
+ for
+ labelers,
+ like
+
+
+here
+ is
+ how
+ to
+ label
+ these
+ things
+
+
+because
+ this
+ is
+ the
+ thing
+ we
+ want
+ out.
+
+
+These
+ are
+ things
+ that
+ we
+ didn't
+ know
+ at
+
+
+the
+ time,
+ which
+ everyone
+ who
+ copied
+ us
+
+
+didn't
+ have
+ to
+ figure
+ out
+ because
+ we
+ had
+
+
+done
+ all
+ of
+ the
+ hard
+ work
+ of
+ that
+
+
+iteration
+ and
+ then
+ published
+ it
+ in
+ a
+
+
+paper.
+
+
+Not
+ to
+ have
+ a
+ stab
+ at
+ them,
+ but
+ I
+ do
+
+
+want
+ to
+ call
+ out
+ that
+ a
+ lot
+ of
+ the
+ hard
+
+
+part
+ is
+ the
+ discovery
+ here
+ and
+ I
+ think
+
+
+that
+ that's
+ a
+ lot
+ of
+ our
+ hard
+ part
+ with
+
+
+Type-Safe.
+ So,
+ we
+ are
+ to
+ our
+ best
+ proxy
+
+
+optimizing
+ for
+ human
+ preferences
+ and
+
+
+that
+ is
+ why
+ you
+ never
+ get
+ outputs
+ that
+
+
+obviously
+ look
+ bad,
+ even
+ though
+ they
+
+
+might
+ be
+ equivalently
+ bad
+ to
+ one
+ that
+ is
+
+
+just
+ wrong,
+ but
+ you
+ never
+ have
+ models
+
+
+where
+ you
+ never
+ have
+ outputs
+ these
+ days,
+
+
+even
+ though
+ the
+ models
+ are
+ wrong
+ all
+ the
+
+
+time,
+
+
+where
+ you
+ can
+ just
+ look
+ at
+ it
+ and
+ be
+
+
+like,
+ this
+ is
+ clearly
+ crap.
+ Um
+ because
+
+
+it's
+ that's
+ punished
+ so
+ hard
+ and
+ this
+
+
+like
+ really
+ warps
+ the
+ probability
+ space
+
+
+for
+ these
+ models.
+
+
+>> Yep.
+ So,
+ uh
+ and
+ we
+ we're
+ talking
+ about
+
+
+all
+ of
+ this
+ because
+ again,
+ that's
+ sort
+
+
+of
+ the
+ heart
+ of
+ the
+ of
+ the
+ problem.
+ Um
+
+
+so,
+ because
+ the
+ models
+ were
+ trained
+ to
+
+
+please
+ humans
+ and
+ sound
+ confident
+ as
+
+
+part
+ of
+ that
+ process
+ of
+ RLHF,
+
+
+uh
+ then
+ that's
+ why
+ you
+ end
+ up
+ with
+
+
+issues
+ like
+ sycophancy,
+ over-refusal
+
+
+that
+ that
+ you
+ alluded
+ to.
+
+
+>> And
+ also
+ like
+ mode
+ dropping.
+ Like,
+ the
+
+
+models
+ the
+ RLHF
+ models
+ are
+ very
+ um
+
+
+stylistically
+ repetitive.
+ You
+ know,
+ they
+
+
+they're
+ all
+ like
+ repetitive
+ in
+ different
+
+
+ways,
+ but
+ you
+ can
+ like
+ kind
+ of
+ get
+ a
+
+
+sense
+ if
+ you
+ use
+ a
+ model
+ a
+ lot,
+ like,
+
+
+wow,
+ it
+ keeps
+ saying
+ this
+ thing,
+ you
+
+
+know,
+ and
+ that
+ is
+ a
+ side
+ effect
+ of
+ RLHF
+
+
+because
+ RLHF
+ heavily
+ encourages
+ the
+
+
+models
+ to
+ stay
+ on
+ their
+ on
+ their
+
+
+stylistic
+ lane
+ because
+ that's
+ the
+ safe
+
+
+path
+ to
+ not
+ get
+ punished.
+ And
+ this
+ this
+
+
+results
+ in
+ like
+ a
+ lack
+ of
+ creativity
+
+
+that
+
+
+pre-trained
+ models
+ didn't
+ have.
+
+
+Pre-trained
+ models
+ were
+ like
+ wild
+ and
+
+
+creative
+ and
+ weird
+ and
+ they
+ have
+ like
+
+
+all
+ of
+ the
+ styles
+ in
+ the
+ internet
+ inside
+
+
+of
+ them
+ and
+ they
+ sometimes
+ just
+ go
+
+
+completely
+ off
+ the
+ rails,
+ which
+ is
+
+
+beautiful
+ and
+ they
+ didn't
+ have
+ this
+
+
+particular
+ problem
+ that
+ I
+ think
+ people
+
+
+are
+
+
+from
+ what
+ I've
+ seen
+ kind
+ of
+ dislike
+ in
+
+
+LLMs.
+
+
+>> Great.
+ So,
+ again,
+ all
+ RLHF
+ great
+ for
+ all
+
+
+of
+ us
+ to
+ discover
+ the
+ power
+ of
+
+
+generative
+ AI
+ through
+ a
+ chat
+ experience,
+
+
+but
+ bad
+ for
+ the
+ problem
+ of
+
+
+classification
+ because
+ you
+ have
+ over
+
+
+refusal,
+ you
+ have
+ sequency,
+ then
+ you
+
+
+also
+ have
+ the
+ latency
+ and
+ overhead
+
+
+problem
+ that
+ we
+ alluded
+ to
+ that
+ because
+
+
+the
+ model
+ was
+ trying
+ to
+ do
+ text-to-text,
+
+
+then
+ it
+ needs
+ to
+ auto
+ regressively
+
+
+generate
+ prose
+ line
+ by
+ line
+ and
+ sound
+
+
+very
+ confident
+ doing
+ it,
+ which
+ is
+ which
+
+
+is
+ not
+ helpful
+ if
+ you're
+ trying
+ to
+ say
+
+
+customer
+ angry
+ not
+ angry
+ or
+ problem
+ yes
+
+
+yes
+ or
+ no.
+
+
+>> I
+ agree
+ with
+ all
+ of
+ that.
+ Though,
+ I
+ will
+
+
+emphasize
+ that
+
+
+I
+ do
+ believe
+ RLHF
+ makes
+ the
+ models
+
+
+slightly
+ [snorts]
+ dumber
+ at
+ decisions
+
+
+than
+ you
+ know
+ than
+ the
+ pre-trained
+
+
+models.
+ The
+
+
+the
+ root
+ of
+ the
+ problem
+ to
+ me
+ is
+ that
+
+
+RLHF
+ actually
+ greatly
+ increased
+
+
+expectations.
+ So,
+ if
+ you
+ imagine
+ like
+
+
+how
+ good
+ the
+ models
+ are
+ from
+ human
+
+
+perception
+ versus
+ like
+ reality,
+
+
+RLHF
+ really
+ warped
+ that
+ because
+ all
+ of
+ a
+
+
+sudden
+ people
+ were
+ like,
+ "Holy
+ smokes,
+
+
+these
+ models
+ are
+ really
+ really
+ smart.
+ We
+
+
+can
+ do
+ all
+ sorts
+ of
+ stuff
+ with
+ them."
+
+
+And
+ that
+ decoupling
+ is
+ I
+ think
+ quite
+
+
+harmful
+ to
+ the
+ world.
+ And
+ that
+ to
+ me
+ is
+
+
+was
+ my
+ biggest
+ worry
+ here.
+ So,
+
+
+like
+ you
+ you
+ know,
+ no
+ one
+
+
+you
+ know,
+ like
+ the
+ expectations
+ for
+
+
+pre-trained
+ models
+ were
+ very
+ different,
+
+
+but
+ because
+ RLHF
+ models
+ are
+ so
+ pleasing
+
+
+to
+ humans
+ and
+ they
+ seem
+ so
+ smart,
+ they
+
+
+it
+
+
+makes
+ people
+ think
+ like,
+ "Holy
+ smokes,
+ a
+
+
+lot
+ of
+ stuff
+ can
+ be
+ automated."
+ And
+ that
+
+
+empirically
+ did
+ not
+ happen.
+
+
+>> So,
+ that's
+ RLHF,
+ which
+ is
+ a
+ key
+ part
+ of
+
+
+post-training.
+ People
+ may
+ have
+ heard
+ of
+
+
+other
+ parts
+ of
+ post-training,
+ RLVR
+ in
+ in
+
+
+particular,
+ which
+ is
+ how
+ models
+ have
+
+
+gotten
+ very
+ good
+ at
+ at
+ math
+ or
+ or
+
+
+coding.
+ Maybe
+ define
+ very
+ quickly
+ what
+
+
+it
+ is
+ and
+ then
+ explain
+ why
+ it's
+
+
+not
+ solving
+ the
+ problem
+ you're
+ trying
+ to
+
+
+solve
+ using
+
+
+>> Ooh.
+ So,
+ RLVR
+ is
+ short
+ for
+ reinforcement
+
+
+learning
+ from
+ verifiable
+ rewards
+ or
+ for
+
+
+I
+ I
+ don't
+ actually
+ know
+ that
+ one,
+ but
+
+
+the
+ idea
+ is
+ for
+ simply
+ evaluatable
+
+
+test
+ cases,
+ kind
+ of
+ like
+ a
+ math
+ problem
+
+
+or
+ like
+ a
+ proof
+ or
+ something
+ like
+ that
+
+
+where
+ you
+ you
+ know
+ an
+ answer.
+
+
+Or
+ like
+ you
+ want
+ to
+ pass
+ the
+ unit
+ tests.
+
+
+Can
+ you
+ do
+ a
+ lot
+ of
+ stuff
+ in
+ between
+ to
+
+
+write
+ code
+ to
+ pass
+ those
+ unit
+ tests
+ or
+
+
+to
+ write
+ math
+ to
+ to
+ get
+ that
+ final
+
+
+answer.
+ And
+ a
+ really
+ key
+ part
+ of
+ RLVR
+ is
+
+
+not
+ just
+ the
+ verifiable
+ rewards
+ because
+
+
+people
+ have
+ been
+ trying
+ to
+ do
+ RL
+ on
+
+
+verifiable
+ rewards
+
+
+for
+ many
+ years
+ before
+ RLVR
+ was
+ created.
+
+
+It
+ just
+ so
+ happened
+ that
+ it
+ didn't
+ work.
+
+
+So,
+ the
+ code
+ gen
+ team
+ at
+ OpenAI
+ was
+
+
+trying
+ for
+ quite
+ a
+ while
+ and
+ it
+ just
+
+
+never
+ really
+ worked
+ because
+ you
+ actually
+
+
+needed
+ like
+ this
+ reasoning
+ chain
+ in
+ the
+
+
+middle
+ to
+ do
+ all
+ sorts
+ of
+ creative
+ stuff
+
+
+in
+ between
+ so
+ that
+ you
+ could
+ get
+ answers
+
+
+that
+ like
+ pass
+ the
+ unit
+ tests
+
+
+and
+ the
+ math
+ and
+ all
+ of
+ that
+ stuff.
+ So,
+
+
+RLVR
+ also
+ means
+ like
+ the
+ training
+ for
+
+
+reasoning.
+ You
+ know,
+ with
+ this
+ like
+
+
+stuff
+ in
+ between
+ in
+ the
+ middle
+ where
+ you
+
+
+can
+ do
+ arbitrarily
+ complicated
+ stuff
+
+
+sometimes.
+ So,
+
+
+RLVR
+ is
+ a
+ lot
+ about
+ passing
+ simply
+
+
+evaluatable
+ checks
+ and
+ RLVR
+
+
+you
+ know,
+ RLHF
+ caused
+ a
+ massive
+ over
+
+
+promise
+ under
+ deliver
+ based
+ on
+ like
+
+
+human
+ feel
+ of
+ AI,
+ but
+ RLHF
+ actually
+
+
+started
+ plateauing
+ on
+ benchmarks.
+
+
+But
+ RLVR
+ does
+ not
+ plateau
+ on
+ benchmarks
+
+
+at
+ all.
+ Like
+ RLVR
+ crushes
+ every
+
+
+benchmark
+ because
+ by
+ construction
+ RLVR
+
+
+is
+ kind
+ of
+ the
+ shape
+ of
+ the
+ task
+ if
+ you
+
+
+wanted
+ to
+ crush
+ benchmarks.
+ You
+ know,
+
+
+like
+ benchmarks
+ are
+ by
+ construction
+ the
+
+
+simply
+ evaluate
+ all
+ things
+
+
+that
+ is
+ just
+ perfectly
+ matches
+ the
+ shape
+
+
+of
+ it
+ and
+ it
+ causes
+ a
+ different
+ type
+ of
+
+
+over
+ promise
+ under
+ deliver.
+ They're
+ all
+
+
+the
+ others
+ obviously
+ very
+ very
+ cool
+
+
+though.
+ I
+ think
+ actually
+ I
+ think
+ RLHF
+ is
+
+
+very
+ cool
+ too.
+
+
+But
+ I
+ just
+ worry
+ about
+ the
+ lack
+ of
+
+
+automation
+ and
+ empirically
+ RLVR
+ hasn't
+
+
+really
+ changed
+ automation.
+
+
+>> Yeah,
+ so
+ RLVR
+ doesn't
+ help
+ us
+ in
+ the
+
+
+problem
+ we're
+ discussing
+ uh
+ because
+ it
+
+
+focuses
+ on
+ rewarding
+ the
+ final
+ solution
+
+
+whereas
+ what
+ we're
+ trying
+ to
+ do
+ here
+ is
+
+
+probability
+
+
+uh
+ and
+ understanding
+
+
+uh
+
+
+and
+ this
+ thing
+
+
+>> It
+ takes
+ the
+ stochastic.
+ It's
+ also
+ like
+
+
+unreliable
+ and
+ like
+
+
+um
+ it
+ it
+ I
+ think
+ people
+ like
+ the
+ word
+
+
+jagged.
+
+
+Um
+ you
+ know,
+ like
+ it
+ is
+ sometimes
+
+
+incredibly
+ smart.
+ Like
+ the
+ way
+ I
+ like
+ to
+
+
+describe
+ it
+ is
+ 95%
+ Einstein,
+ 5%
+ Mr.
+
+
+Bean.
+ And
+ if
+ it
+ doesn't
+ tell
+ you
+ when
+
+
+it's
+ the
+ Mr.
+ Bean,
+ then
+ how
+ are
+ you
+
+
+going
+ to
+ automate
+ anything?
+ You
+ know?
+ So
+
+
+it's
+ jaggedness
+ and
+ you
+ know,
+
+
+non-robustness
+ I
+ think
+ is
+ the
+ real
+ issue
+
+
+with
+ it
+ because
+ it's
+ very
+ good
+ at
+
+
+answering
+ like
+ simple
+ classifications
+
+
+too.
+ But
+ if
+ it
+ doesn't
+ do
+ it
+ reliably,
+
+
+how
+ do
+ you
+ automate
+ anything
+ in
+ the
+
+
+first
+ place?
+ And
+ that's
+ kind
+ of
+ where
+
+
+calibration
+ comes
+ in
+ and
+ the
+ models
+ are
+
+
+still
+ not
+ very
+ good
+ at
+ that.
+
+
+>> Okay,
+ great.
+ All
+ right.
+ So
+ RLHF
+ kind
+ of
+
+
+creates
+ the
+ problem.
+ RLVR
+
+
+doesn't
+ help
+ us.
+ So
+ therefore
+ you
+ guys
+
+
+had
+ to
+ invent
+ a
+ new
+ post
+ training
+ method
+
+
+that
+ you
+ call
+ RL
+ STDY.
+ Is
+ that
+ uh
+
+
+correct?
+ And
+ if
+ so,
+ just
+ explain
+ as
+ much
+
+
+as
+ you
+ can
+ share
+ what
+ it
+ is.
+
+
+>> I
+ don't
+ know
+ if
+ I
+ would
+ call
+ it
+ a
+ post
+
+
+training
+ method
+
+
+because
+ like
+ you
+ know,
+ when
+ we
+ made
+
+
+RLHF,
+ the
+ concept
+ of
+ post
+ training
+ did
+
+
+not
+ exist.
+ And
+ you
+ could
+ call
+ RLHF
+ a
+
+
+fine-tuning
+ method,
+ but
+ that
+ undersells
+
+
+how
+ much
+ change
+ you
+ did
+ to
+ the
+ whole
+
+
+process.
+ So,
+ like
+ no
+ one
+ would
+ just
+ call
+
+
+it
+ fine-tuning
+ even
+ though
+ it
+ maybe
+
+
+there's
+ some
+ technically
+ correct
+ way
+
+
+where
+ like
+ that's
+ 80%
+ accurate.
+ So,
+ I
+
+
+wouldn't
+ necessarily
+ call
+ what
+ we're
+
+
+doing
+ post-training.
+ Um
+ I
+ think
+ we
+ do
+ a
+
+
+lot
+ of
+
+
+weird
+ stuff.
+ Um
+ I
+ think
+ that
+ RL
+ tends
+ to
+
+
+be
+ again
+ a
+ implementation
+ detail
+ of
+ the
+
+
+whole
+ task.
+ You
+ know,
+ for
+ RLHF,
+ the
+ task
+
+
+was
+ not
+ just
+ doing
+ RL
+ on
+ PPO
+ and
+
+
+whatever.
+ It's
+ about
+ figuring
+ out
+ here's
+
+
+what
+ the
+ inputs
+ and
+ outputs
+ should
+ look
+
+
+like
+ and
+ here's
+ how
+ you
+ instruct
+ people
+
+
+to
+ do
+ that
+ and
+ here's
+ what
+ our
+ North
+
+
+Star
+ is
+ and
+ here's
+ how
+ we
+ balance
+ the
+
+
+data
+ sets
+ to
+ get
+ a
+ really
+ good
+ model
+ for
+
+
+this
+ thing.
+
+
+And
+ for
+ RLVR,
+ you
+ have
+ similar
+ stuff.
+
+
+RLVR
+ is
+ nothing
+ without
+ its
+ like
+ latent
+
+
+reasoning,
+ you
+ know,
+ it's
+ reasoning
+
+
+chains.
+ And
+ then
+ this
+ enables
+ you
+ to
+
+
+have
+ like
+ a
+ new
+ mixture
+ of
+ data
+ sets,
+
+
+how
+ you
+ construct
+ the
+ data
+ sets
+ or
+ even
+
+
+what
+ difficulty
+ of
+ data
+ set
+ you
+ want
+
+
+completely
+ changes
+ with
+ your
+ base
+ models
+
+
+in
+ shape
+ and
+ all
+ of
+ that.
+ So,
+ uh
+ the
+ RL
+
+
+tends
+ to
+ be
+ like
+ a
+ like
+ a
+ like
+ a
+ small
+
+
+slice
+ of
+ the
+ whole
+ task
+ pie.
+ Um
+ and,
+ you
+
+
+know,
+ we
+ did
+ have
+ to
+ make
+ a
+ new
+ type
+ of
+
+
+training,
+ you
+ know,
+ that
+ we
+ do
+ call
+ RLCD
+
+
+because
+ no
+ one
+ has
+ done
+ anything
+ to
+
+
+optimize
+ for
+ machine
+ native
+
+
+intelligence.
+ But
+ I
+ just
+ I
+ don't
+ want
+ it
+
+
+to
+ sound
+ like
+ if
+ you
+ found
+ the
+ right
+ RL
+
+
+algorithm,
+ it
+ just
+ magically
+ gets
+ solved
+
+
+because
+ so
+ many
+ things
+ go
+ into
+ it
+ beyond
+
+
+just
+ the
+ RL.
+
+
+>> So,
+ to
+ be
+ able
+ to
+ do
+ training,
+ you
+ need
+
+
+to
+ a
+ bunch
+ of
+ data.
+ This
+ is
+ data
+ for
+ a
+
+
+very
+ specific
+ kind
+ of
+ task
+ in
+ the
+ new
+
+
+paradigm
+ that
+ you're
+ inventing.
+ Where
+
+
+does
+ that
+ data
+ come
+ from?
+
+
+>> So,
+ I'm
+ going
+ to
+ use
+ the
+ analogies
+ in
+
+
+the
+ past
+ cuz
+ I
+ think
+ that
+ that's
+ an
+
+
+effective
+ way
+ to
+ answer
+ this.
+ Before
+ we
+
+
+made
+ instruction
+ following
+ a
+ thing,
+
+
+the
+ data
+ for
+ instruction
+ following
+
+
+literally
+ did
+ not
+ exist
+ in
+ the
+ world.
+
+
+Like
+ no
+ one
+ had
+ like
+ here's
+ a
+ human
+
+
+answering
+ simple
+ strings.
+ No
+ one
+ had
+
+
+preference
+ data
+ from
+ like
+ outputs
+ of
+
+
+LLMs
+ to
+ see
+ like
+ which
+ one
+ is
+ better.
+
+
+So,
+ this
+ straight
+ up
+ did
+ not
+ exist
+ in
+
+
+the
+ world
+ and
+ in
+ creating
+ the
+ task,
+
+
+we
+ had
+ to
+
+
+create
+ the
+ shape
+ of
+ the
+ data,
+ iterate
+ on
+
+
+it,
+ and
+ also
+ collect
+ that
+ data.
+
+
+Similarly
+ for
+ RLVR,
+ um
+ the
+ data
+ in
+ RLVR
+
+
+tends
+ to
+ be
+ environments,
+ right?
+ Like
+
+
+these
+ RL
+ environments
+ to
+ like
+
+
+like
+ try
+ stuff
+ with
+ like
+ sandboxes
+ and
+
+
+tools
+ and
+ whatever
+ else.
+ And
+ those
+
+
+environments
+ kind
+ of
+ existed
+ before
+ RLVR
+
+
+was
+ created,
+ but
+ they
+ were
+ not
+ useful
+
+
+and
+ there
+ was
+ no
+ market
+ for
+ all
+ of
+ those
+
+
+data
+ sets
+ because
+ no
+ one
+ could
+ train
+ on
+
+
+them.
+
+
+Um
+ so,
+ similarly
+ for
+ us,
+ we
+ needed
+ to
+
+
+like
+ create
+ a
+ new
+ type
+ of
+ data,
+ a
+ new
+
+
+shape
+ of
+ data,
+ iterate
+ on
+ that,
+ and
+ then
+
+
+actually
+ create
+ the
+ data
+ itself.
+
+
+So,
+ by
+ construction
+ for
+ all
+ of
+ these
+
+
+things,
+ these
+ always
+ need
+ to
+ be
+ made
+
+
+in-house
+ and
+ they
+ always
+ start
+ in-house
+
+
+because
+ that
+ is
+ how
+ you
+ even
+
+
+iterate
+ and
+ think
+ about
+ the
+ shape
+ of
+ it.
+
+
+So,
+ we
+ have
+ done
+ all
+ of
+ it
+ in-house
+ and
+
+
+that
+ as
+ far
+ as
+ I
+ can
+ tell
+ is
+ going
+ to
+
+
+stay
+ the
+ case
+ for
+ quite
+ a
+ long
+ while
+
+
+um
+ because
+
+
+uh
+ you
+ know,
+ the
+ world
+ has
+ no
+ idea
+ what
+
+
+it's
+ doing
+ right
+ now
+ and
+ all
+ the
+ world
+
+
+experts
+ are
+ our
+ team.
+ So,
+ um
+ you
+ we
+ just
+
+
+make
+ it
+ ourselves.
+ We
+ obviously
+ don't
+
+
+need
+ user
+ data.
+ None
+ of
+ those
+
+
+things
+ do.
+ It's
+ It
+ always
+ requires
+
+
+a
+ lot
+ of
+ care
+ for
+ the
+ task
+ and
+ really
+
+
+understanding
+ what
+ the
+ North
+ Star
+ is.
+
+
+>> You
+ had
+ a
+ a
+ great
+ post
+ uh
+ recently
+
+
+called
+ the
+ bitterest
+ lesson
+ in
+
+
+um
+ in
+ relation
+ to
+ uh
+ Rich
+ Sutton's
+ uh
+
+
+you
+ know,
+ uh
+
+
+extremely
+ famous
+ um
+ essay
+ uh
+ walk
+ us
+
+
+through
+ through
+ what
+ that
+ is
+ and
+ uh
+
+
+where
+ RLCD
+ fits.
+ Uh
+ are
+ you
+ you
+ know,
+
+
+you
+ data,
+ compute,
+ algorithm?
+ Where
+
+
+where
+ where
+ what
+ do
+ you
+ actually
+ argue
+
+
+that
+ all
+ of
+ the
+ great
+ methods
+ of
+
+
+training
+ fit
+ in
+ the
+ exact
+ same
+ way,
+
+
+which
+ is
+ they
+ are
+ novel
+ tasks.
+ I'll
+ walk
+
+
+you
+ through
+ it
+ first
+ though.
+ So,
+
+
+Sutton's
+ bitter
+ lesson
+
+
+roughly
+ paraphrased
+ is
+ that
+ compute
+ and
+
+
+scaling
+ matters
+ more
+ than
+ algorithms.
+
+
+So,
+ when
+ people
+ are
+ like
+ bitter
+ lesson
+
+
+build,
+ scaling
+ law
+ build,
+ etc.
+ This
+
+
+often
+ means
+ like
+ why
+ does
+ it
+ matter
+ what
+
+
+algorithms
+ we
+ do?
+
+
+Let's
+ just
+ scale
+ it
+ up
+ and
+ throw
+ more
+
+
+compute
+ at
+ the
+ problem.
+
+
+I
+ would
+ argue
+ that
+ this
+ is
+ an
+
+
+oversimplification
+ specifically
+ for
+ the
+
+
+kinds
+ of
+ RL
+ environments
+ that
+ Sutton
+
+
+used
+ to
+ work
+ on
+ at
+ the
+ time.
+ He's
+ RL
+ is
+
+
+often
+ done
+ in
+ games
+ and
+ in
+ games
+ there's
+
+
+no
+ question
+ about
+ task
+ and
+ data
+ cuz
+
+
+these
+ are
+ all
+ functions
+ of
+ compute.
+ But
+
+
+in
+ the
+ real
+ world,
+ you
+ can't
+ really
+ do
+
+
+anything
+ with
+ compute
+ without
+ the
+ data.
+
+
+You
+ know,
+ like
+ you
+ can't
+ continue
+ to
+
+
+scale
+ pre-training
+ on
+ the
+ internet
+ cuz
+
+
+we've
+ run
+ out
+ of
+ internet
+ data.
+
+
+And
+ data
+ is
+ like
+ obviously
+ the
+ most
+
+
+important
+ thing
+ there.
+ But
+ in
+ order
+ to
+
+
+even
+ know
+ what
+ the
+ data
+ should
+ look
+ like
+
+
+is
+ you
+ need
+ the
+ task.
+ You
+ know,
+ you
+ need
+
+
+to
+ know
+ the
+ shape
+ of
+ the
+ task,
+ you
+ need
+
+
+to
+ understand
+ it.
+ This
+ task
+ needs
+ to
+ be
+
+
+linked
+ to
+ valuable
+ things
+ in
+ the
+ real
+
+
+world
+ and
+ the
+ simple
+ way
+ of
+ explaining
+
+
+it
+ is
+ you
+ get
+ what
+ you
+ optimize
+ for.
+
+
+Everyone
+ seems
+ to
+ intuitively
+ understand
+
+
+this
+ except
+ for
+ machine
+ learning
+
+
+researchers
+ because
+ they
+ don't
+ like
+ to
+
+
+think
+ about
+ that.
+
+
+Um
+ but
+ you
+ get
+ what
+ you
+ optimize
+ for
+ and
+
+
+you
+ need
+ to
+ know
+ what
+ you
+ optimize
+ for.
+
+
+And
+ once
+ you
+ do
+ know
+ that,
+ you
+ can
+ then
+
+
+make
+ data,
+ scale
+ compute,
+ and
+ have
+
+
+fancier
+ algorithms.
+ So,
+ for
+ RLHF
+ is
+ to
+
+
+me
+
+
+a
+ task.
+ You
+ know,
+ like
+ making
+ models
+
+
+good
+ at
+ instruction
+ following
+ in
+ chat
+ is
+
+
+a
+ task
+ itself.
+ It
+ has
+ its
+ own
+ shape
+ of
+
+
+data,
+ its
+ own
+ algorithms,
+ its
+ own
+
+
+compute,
+ etc.
+ But
+ the
+ biggest
+ bang
+ you
+
+
+get
+ is
+ always
+ from
+ even
+ figuring
+ out
+ the
+
+
+task
+ in
+ the
+ first
+ place.
+ You
+ know,
+ chat
+
+
+to
+ GPT
+ to
+ pre-chat
+ GPT
+ was
+ the
+ largest
+
+
+jump
+ in
+ chatbot
+ intelligence
+ ever
+
+
+because
+ it
+ was
+ kind
+ of
+ like
+ an
+ adult,
+
+
+you
+ know,
+ battling
+ toddlers,
+ right?
+ I
+
+
+don't
+ know
+ if
+ you
+ are
+ too.
+ You
+ know,
+
+
+Q-star
+ and
+ O1
+ were
+ like
+ on
+ a
+ league
+ of
+
+
+their
+ own,
+ right?
+ Like
+ it
+
+
+wasn't
+ They
+ weren't
+ really
+ used
+ for
+
+
+anything
+ useful
+ in
+ the
+ world,
+ but
+ they
+
+
+were
+ truly
+ in
+ a
+ league
+ of
+ their
+ own
+ in
+
+
+terms
+ of
+ benchmarks,
+ right?
+ That's
+
+
+incredible.
+ It
+ was
+ like
+ the
+ equivalent
+
+
+of
+ like
+ the
+ adults
+ to
+ the
+ toddlers.
+ And
+
+
+similarly,
+ because
+ we're
+ the
+ only
+ ones
+
+
+optimizing
+ for
+ a
+ machine
+ native
+
+
+intelligence,
+ it
+ is
+ all
+ of
+ them
+ are
+ the
+
+
+right
+ path.
+ It
+ is
+ kind
+ of
+ like
+ the
+ adult
+
+
+versus
+ toddler
+ situation
+ where
+ we're
+ in
+
+
+a
+ league
+ of
+ our
+ own,
+ at
+ least
+ from
+ like
+
+
+a
+ reliable
+ machine
+ native
+ intelligence
+
+
+perspective,
+ because
+ we're
+ the
+ only
+ ones
+
+
+doing
+ the
+ whole
+ thing.
+
+
+>> And
+ you
+ you
+ don't
+ do
+ pre-training,
+
+
+though,
+ right?
+ Like
+ do
+ you
+ Where
+ where
+
+
+What
+ is
+ the
+ basis
+ for
+ Jeff?
+ Like
+ do
+ you
+
+
+use
+ like
+ open
+ weights
+ models?
+
+
+>> We
+ do
+ use
+ a
+ combination
+ of
+ models.
+ It's
+
+
+like
+ pre-trained
+ models
+ have
+ a
+ lot
+ of
+
+
+like
+ compressed
+ intelligence
+ in
+ them.
+
+
+They're
+ very
+ text-shaped,
+ so
+ we
+ need
+ to
+
+
+do
+ like
+ some
+ disgusting
+ things
+ for
+ it.
+
+
+That's
+ why
+ I
+ don't
+ say
+ what
+ we
+ do
+ is
+
+
+post-training
+ per
+ se,
+ because
+ again,
+
+
+these
+ disgusting
+ things
+
+
+um
+
+
+I
+ wouldn't
+ call
+ it
+ post-training
+ as
+ a
+
+
+person
+ who
+ likes
+ post-training.
+ It's
+
+
+kind
+ of
+ a
+ bastardization
+ of
+
+
+post-training.
+ I
+ don't
+ think
+
+
+post-training
+ people
+ would
+ want
+ to
+ be
+
+
+associated
+ with
+ the
+ terrible
+ terrible
+
+
+things
+ we
+ do.
+ But
+ um
+ there's
+ just
+ a
+ lot
+
+
+of
+ intelligence
+ like
+ in
+ the
+ variety
+ of
+
+
+open
+ weight
+ models
+ that
+ we
+ can,
+ you
+
+
+know,
+ link
+ up
+ and
+ MacGyver
+ into
+ this
+
+
+great
+ intelligence.
+
+
+Um
+
+
+So,
+ we
+ do
+ use
+ that.
+ Um
+ you
+ know,
+
+
+everyone
+ knows
+ that
+ we
+ raised
+ less
+ than
+
+
+$40
+ million
+ until
+ recently.
+ So,
+ it's
+
+
+either
+ we've
+ had
+ like
+ an
+ absolutely
+
+
+tremendous
+ breakthrough
+ in
+ in
+
+
+pre-training
+ or
+ we
+ just
+ are
+ more
+
+
+resourceful
+ than
+ other
+ people.
+ I
+ think
+
+
+it's
+ the
+ latter.
+ Uh
+ but
+ uh
+ we
+ did
+ not
+ do
+
+
+pre-training,
+ and
+ honestly,
+ I
+ think
+
+
+pre-training
+ is
+ a
+ giant
+ dumpster
+ fire
+ of
+
+
+wasting
+ resources.
+ So,
+ I
+ hope
+ to
+ never
+
+
+do
+ so,
+ but
+ who
+ knows
+ what
+ the
+ future
+
+
+will
+ bring.
+
+
+>> So,
+ the
+ existence
+ of
+ that
+ pre-trained
+
+
+model
+ um
+ is
+ it
+ segue
+ into
+ the
+ whole
+ uh
+
+
+classifier
+ conversation
+ that
+ you
+ alluded
+
+
+to
+ earlier?
+ There's
+ is
+ of
+ people
+ when
+
+
+Jeff
+ came
+ out
+ that
+ said,
+ well,
+ it's
+ just
+
+
+a
+ classifier.
+
+
+And
+ for
+ context,
+ a
+ classifier
+ being
+
+
+effectively
+ an
+ older
+ form
+ of
+ machine
+
+
+learning,
+ you
+ know,
+ pre-generative
+ AI,
+
+
+things
+ like
+ XGBoost
+
+
+that
+ have
+ been
+ used
+ for
+ many,
+ many
+ years
+
+
+for
+ things
+ like
+ email
+ spam
+
+
+classification.
+ In
+ what
+ way,
+ and
+ I
+ know
+
+
+you
+ embrace
+ the
+ fact
+ that
+ you're
+ in
+ some
+
+
+ways
+ a
+ classifier.
+ So,
+ in
+ what
+ way
+ are
+
+
+you
+ a
+ classifier?
+ And
+ in
+ what
+ way
+ do
+
+
+people
+ that
+ say
+ that
+ you're
+ a
+ classifier
+
+
+miss
+ the
+ entire
+ point?
+
+
+>> ML
+ people,
+
+
+uh
+ especially
+ researchers,
+ really
+ miss
+
+
+the
+ value
+ of
+ Jeff
+ still.
+ Um
+ and
+ that's
+ a
+
+
+really
+ good
+ for
+ us
+ because
+ it's
+ not
+
+
+fancy
+ ML.
+ And
+ "It's
+ just
+ a
+ classifier"
+
+
+is
+ among
+ the
+ dumbest
+ um
+ criticisms,
+ in
+
+
+my
+ opinion,
+ because
+ classifiers
+ again
+ uh
+
+
+classifiers
+ are
+ not
+ a
+ form
+ of
+ old-school
+
+
+machine
+ learning.
+ You
+ know,
+ sorry
+ to
+
+
+dive
+ the
+ path
+ for
+ you,
+ but
+ classifiers
+
+
+are
+ an
+ interface.
+ They
+ are
+ the
+ shape
+ of
+
+
+putting
+ intelligence
+ into
+ software
+
+
+systems
+ that's
+ useful.
+ Right?
+ Like,
+ how
+
+
+does
+ Facebook
+ work?
+ Classifiers.
+ How
+
+
+does
+ TikTok
+ work?
+ Classifiers.
+ How
+ does
+
+
+Google
+ work?
+ Classifiers.
+
+
+It's
+ not
+ like
+ a
+ bad
+ thing
+ at
+ all,
+
+
+because
+ in
+ order
+ to
+ make
+ software
+ more
+
+
+powerful,
+ software
+ can
+ do
+ so
+ much
+ with
+
+
+its
+ like
+ it's
+ like
+ dumb
+ little
+ bit
+
+
+comparisons,
+ is
+ you
+ want
+ to
+ put
+ your
+
+
+intelligence
+ into
+ branching
+ in
+ your
+ code
+
+
+in
+ order
+ to
+ do
+ complex
+ behaviors.
+ And
+
+
+the
+ way
+ to
+ do
+ that
+ is
+ to
+ influence
+ the
+
+
+branching
+ via
+
+
+you
+ know,
+ intelligence,
+ which
+ is
+ what
+
+
+classifiers
+ literally
+ are.
+ So,
+
+
+classifiers
+ what
+ we
+ do
+ think
+ you
+ is
+ not
+
+
+only
+ classifiers,
+ but
+ we've
+ started
+ with
+
+
+classifiers
+ because
+ they
+ are
+ super
+ duper
+
+
+useful.
+ You
+ know,
+ it's
+ a
+ it's
+ an
+
+
+incredible
+ compliment
+ to
+ say
+ it's
+ a
+
+
+classifier.
+ And
+ actually,
+ this
+ would
+ be
+
+
+a
+ not
+ a
+ fair
+ way
+ to
+ describe
+ Jeff
+
+
+because
+ it's
+ too
+ much
+ of
+ a
+ compliment
+ if
+
+
+we
+ said
+ that
+
+
+Jeff
+ was
+ equivalent
+ to
+ anyone
+ having
+
+
+like
+ a
+ 20-person
+ machine
+ learning
+
+
+engineering
+ team
+ from
+ 2019
+ to
+ build
+
+
+every
+ single
+ thing
+ you
+ think
+ about
+ on
+
+
+the
+ fly
+ and
+ it's
+ instantly
+ done.
+ But
+
+
+actually
+ it's
+ smarter
+ than
+ that
+ because
+
+
+we
+ have
+ better
+ models
+ today
+ than
+ we
+ did
+
+
+then.
+ And
+ like
+ like
+ I
+
+
+I
+ don't
+ know
+ if
+ we're
+ there
+ yet,
+ but
+
+
+that's
+ a
+ hugely
+ awesome
+ compliment
+ and
+
+
+machine
+ learning
+ people
+ don't
+ get
+ that
+
+
+because
+ they're
+ too
+ busy
+ like
+ trying
+ to
+
+
+do
+ like
+ the
+ the
+ the
+ least
+ valuable
+ part
+
+
+Bitwise
+ lesson,
+ which
+ is
+ algorithms
+ and
+
+
+they
+ keep
+ trying
+ to
+ like
+ build
+ their
+ god
+
+
+in
+ a
+ data
+ center
+ rather
+ than
+ solving
+
+
+real
+ problems
+ and
+ see
+ the
+ real
+ world
+ and
+
+
+see
+ how
+ little
+ automation
+ truly
+ is
+
+
+getting
+ done.
+
+
+>> And
+ uh
+ to
+ the
+ god
+ point
+ you
+ have
+ like
+
+
+this
+ awesome
+ saying
+ which
+ was
+ actually
+
+
+also
+ on
+ the
+ t-shirt
+ of
+ your
+ launch
+ video
+
+
+saying
+
+
+prod
+ not
+ not
+ god,
+ which
+ uh
+
+
+>> We're
+ we're
+ building
+ prod
+ not
+ god,
+
+
+absolutely.
+
+
+>> Yeah,
+ a
+ a
+ a
+ fabulous
+ way
+ of
+ of
+
+
+of
+ putting
+ it.
+ Um
+ and
+ to
+
+
+unpack
+ some
+ of
+ this,
+ so
+ your
+ typical
+
+
+classifier
+ from
+ 2019
+ was
+ also
+ focused
+ on
+
+
+a
+ very
+ narrow
+ task
+ and
+
+
+what
+ you're
+ saying
+ is
+ that
+
+
+effectively
+ because
+ this
+ sits
+ on
+ top
+ of
+
+
+a
+ pre-trained
+ model
+ that
+ has
+ all
+ the
+
+
+knowledge
+ in
+ the
+ world,
+ you're
+ basically
+
+
+able
+ to
+ apply
+ classification
+ to
+ any
+
+
+task.
+
+
+Is
+ that
+ is
+ that
+
+
+>> Any
+ task
+ any
+ task
+ that
+ the
+ LLMs
+ can
+ do,
+
+
+right?
+ And
+ that's
+ why
+ we
+ call
+ them
+
+
+system
+ one
+ models
+ because
+ they
+ are
+ good
+
+
+at
+ system
+ one
+ tasks,
+ you
+ know,
+ or
+
+
+they're
+ adjacent
+ to
+ that.
+
+
+>> But
+ you
+ don't
+ need
+ to
+ train
+ a
+ an
+ email
+
+
+spam
+ classifier
+ because
+ the
+ the
+
+
+pre-trained
+ model
+ has
+ all
+ the
+ knowledge
+
+
+in
+ the
+ world
+ about
+
+
+about
+ emails.
+
+
+>> Yes,
+ and
+ you
+ know,
+ with
+ a
+ decomposition,
+
+
+like
+ you
+ you
+ might
+ not
+ even
+ want
+ a
+ spam
+
+
+classifier
+ because
+ that'll
+ be
+ the
+ same
+
+
+for
+ everyone.
+ You
+ might
+ want
+ like
+ your
+
+
+own
+ thing
+ where
+ I
+ want
+ to
+ say
+
+
+emails
+ from
+ my
+ chief
+ of
+ staff,
+ even
+ if
+
+
+she
+ writes
+ like
+ AI,
+ should
+ be
+ marked
+ as
+
+
+not
+ spam.
+ So,
+ it's
+ like
+ the
+
+
+programmability
+ I
+ think
+ this
+ unlocks
+ so
+
+
+many
+ more
+ use
+ cases,
+ even
+ if
+ you
+ had
+ the
+
+
+equivalent
+ of
+ every
+ engineer
+ having
+ a
+
+
+team
+ of
+ MLEs,
+ machine
+ learning
+
+
+engineers,
+ like
+ making
+ classifiers
+ for
+
+
+them.
+ So,
+ I
+ think
+ that
+ there's
+ like
+ a
+
+
+real
+ real
+ beauty
+ to
+ the
+ generality
+ and
+
+
+programmability
+ of
+ it.
+
+
+>> Yes.
+ And
+ to
+ make
+ sure
+ we
+ cover
+ this
+ very
+
+
+very
+ important
+ part
+ of
+ the
+ the
+ whole
+
+
+discussion,
+ you
+ mentioned
+
+
+programmability,
+
+
+uh
+ you
+ mentioned
+ composability
+ earlier.
+
+
+We
+ talked
+ about
+ price
+ and
+ speed.
+ Uh
+ and
+
+
+basically
+ the
+ the
+ the
+ the
+ fundamental
+
+
+claim
+ is
+ that
+ if
+ all
+ of
+ this
+ is
+ is
+ is
+
+
+true
+ and
+ happens
+ and
+ you
+ guys
+ are
+ very
+
+
+much
+ building
+ it,
+ then
+ it
+ can
+ be
+
+
+ubiquitous
+ across
+ software.
+
+
+>> That
+ is
+ the
+ dream.
+ I
+ hope
+ for
+
+
+Oh,
+ man.
+ I
+ have
+ grand
+ hopes
+ that
+ I
+ think
+
+
+are
+ not
+ even
+ that
+ unrealistic.
+
+
+I
+ think
+ that
+
+
+so
+ much
+ could
+ change
+ in
+ software.
+ Like,
+
+
+you
+ know,
+ look
+ at
+ how
+ much
+ was
+ done
+ with
+
+
+bit
+ comparisons.
+ You
+ know,
+ we
+ have
+ been
+
+
+building
+
+
+like
+ so
+ much
+ valuable
+ sick
+ stuff.
+ Like,
+
+
+you
+ know,
+ just
+ look
+ at
+ 2019
+ software
+ has
+
+
+like
+ I
+ think
+ made
+ the
+ world
+ a
+ lot
+
+
+better.
+ Like,
+ sure
+ there
+ were
+ some
+
+
+misses,
+ but
+ like
+ we've
+ automated
+ so
+ many
+
+
+things
+ via
+ these
+ simple
+ like
+ sticks
+ and
+
+
+stones
+ comparisons.
+ And
+ imagine
+ if
+ we
+
+
+can
+ just
+ expand
+ that
+ more
+ more
+ more
+ more
+
+
+more.
+ I
+ think
+ that
+
+
+I
+ think
+ that
+ like
+
+
+we'll
+ be
+ able
+ to
+ automate
+ so
+ many
+
+
+freaking
+ awesome
+ things.
+ I
+ think
+ that
+
+
+the
+ future
+ will
+ be
+ unbelievably
+ sci-fi,
+
+
+and
+ we're
+ going
+ to
+ do
+ whatever
+ we
+ can
+ to
+
+
+like
+ unearth
+ the
+ intelligence
+ that
+ is
+
+
+like
+ robust
+ enough
+ to
+ make
+ it
+ even
+ more
+
+
+sci-fi.
+
+
+>> And
+ that's
+ means
+
+
+again
+ like
+ to
+ play
+ it
+ back,
+ it
+ could
+ be
+
+
+it
+ could
+ be
+ intelligence
+ like
+ in
+ every
+
+
+row
+ or
+ column
+ of
+ a
+ database,
+ right?
+ So,
+
+
+it's
+ it's
+ just
+ embedded
+ intelligence
+
+
+across
+ all
+ things
+ software.
+
+
+>> Absolutely.
+ Across
+ all
+ levels
+ of
+
+
+software,
+ too.
+ And
+ I
+ think
+ that
+ with
+
+
+this
+ stacking,
+ as
+ you
+ make,
+ you
+ know,
+
+
+like
+ this
+ valuable
+ box
+ and
+ then
+
+
+replicate
+ it,
+ and
+ if
+ you
+ make
+ it
+ fast
+
+
+and
+ cheap
+ enough,
+ now
+ some
+ other
+ box
+ can
+
+
+call
+ this
+ thing
+ 100
+ times,
+ and
+ now
+ you
+
+
+can
+ do
+ higher
+ and
+ higher
+ units
+ of
+
+
+cognitive
+ automation
+ work,
+ and
+ who
+ knows
+
+
+what
+ those
+ things
+ are
+ going
+ to
+ be,
+ but
+ I
+
+
+think
+ that
+ there
+ can
+ be
+ like
+ a
+ lot
+ of
+
+
+insanely
+ cool
+ things.
+
+
+>> Yeah.
+ And
+ that's
+ flipping
+ on
+ its
+ head
+ or
+
+
+in
+ some
+ ways
+ a
+ complement
+ to
+ everything
+
+
+that
+ I've
+ been
+ doing
+ in
+ software
+ and
+ AI
+
+
+to
+ date,
+ right?
+ So,
+ the
+ the
+ cursors
+ of
+
+
+the
+ or
+ the
+ cognition
+ have
+ been
+ very
+ good
+
+
+at
+ accelerating
+ the
+ pace
+ and
+ the
+ the
+ how
+
+
+easy
+ it
+ is
+ to
+ create
+ software,
+ but
+ what
+
+
+you're
+ saying
+ is
+ is
+ is
+ different.
+ It's
+
+
+it's
+ that
+ you
+ can
+ embed
+ intelligence
+ in
+
+
+software.
+
+
+>> Exactly.
+ So,
+ the
+ great
+ question.
+ The
+
+
+cursors
+ and
+ cognitions
+ focus
+ more
+ on
+
+
+writing
+ the
+ software
+ itself
+ faster
+ and
+
+
+cheaper,
+ presumably.
+
+
+While
+ what
+ we
+ want
+ to
+ be,
+ instead
+ of
+
+
+like
+ like
+ kind
+ of
+ being
+ like
+ a
+ So,
+ what
+
+
+they're
+ doing
+ is
+ being
+ kind
+ of
+ like
+ a
+
+
+software
+ engineer,
+ but
+ what
+ we
+ are
+
+
+trying
+ to
+ be
+ is
+ more
+ like
+ a
+ logic
+ gate.
+
+
+You
+ know,
+ like
+ we
+ want
+ to
+ be
+ inside
+ of
+
+
+the
+ software
+ that
+ expands
+ the
+
+
+possibilities
+ that
+ software
+ engineers
+
+
+can
+ make,
+ rather
+ than,
+ you
+ know,
+
+
+replacing
+ the
+ software
+ engineers
+ or
+
+
+anything
+ like
+ that.
+
+
+>> Great.
+ Let's
+ talk
+ about
+ all
+ the
+
+
+copycats,
+ quote
+ and
+ unquote,
+ because
+
+
+that's
+ you
+ know,
+ a
+ topic
+ that's
+ top
+ of
+
+
+mind
+ on
+ X
+ and
+ everything.
+ So,
+ for
+
+
+anybody
+ that
+ hasn't
+ followed,
+ so
+ you
+
+
+guys
+ have
+ been
+ out
+ of
+ stealth
+ for
+ 3
+
+
+weeks,
+ and
+ then
+ in
+ the
+ 3
+ weeks
+ you've
+
+
+had
+
+
+basically
+ every
+ everybody
+ and
+ their
+
+
+brother
+ come
+ up
+ with
+ with
+ something
+ from
+
+
+Cloudflare
+ to
+ Databricks
+ to
+ I
+ think
+
+
+Microsoft
+ just
+ last
+ night
+
+
+Satya
+ announced
+ a
+ decision-one
+ category.
+
+
+What
+ do
+ you
+ make
+ of
+ that,
+ and
+ what
+ do
+
+
+you
+ say
+ to
+ the
+ naysayers?
+
+
+>> The
+ naysayers
+ of
+ us?
+
+
+>> Yeah,
+ the
+ the
+ people
+ that
+ think
+ that
+ you
+
+
+were
+
+
+just
+ completely
+ copied
+ by
+ everyone
+ in
+ 3
+
+
+weeks
+ and
+ therefore
+ there's
+ nothing
+ left
+
+
+which
+ obviously
+ is
+ not
+ the
+ narrative
+ but
+
+
+I'm
+ curious
+ like
+ how
+ you
+ position
+ it.
+
+
+>> I
+ think
+ we'll
+ really
+ see.
+
+
+Like
+ I
+ don't
+ want
+ to
+
+
+punch
+ down
+ too
+ much
+ but
+ I
+ would
+ like
+ to
+
+
+describe
+ my
+ take
+ of
+ things.
+
+
+When
+ I
+ first
+ started
+ this
+ project
+ I
+
+
+literally
+ thought
+ it
+ would
+ take
+ a
+ week.
+
+
+Like
+ I
+ and
+ I
+ ended
+ up
+ with
+ something
+
+
+very
+ similar
+ to
+ what
+ people
+ are
+ doing
+
+
+but
+ the
+ problem
+ is
+ it
+ was
+ really
+ really
+
+
+clearly
+ not
+ robust.
+
+
+And
+ that
+ was
+ something
+ that
+ is
+ like
+
+
+plagued
+ me
+ for
+ years.
+
+
+Um
+
+
+and
+ I
+ get
+ the
+ sense
+ that
+ this
+ is
+ a
+ thing
+
+
+that
+ to
+ be
+ clear
+ I'm
+ a
+ machine
+ learning
+
+
+researcher
+ so
+ all
+ my
+ self-deprecating
+
+
+comments
+ all
+ those
+ deprecating
+ comments
+
+
+apply
+ to
+ me.
+ I
+ was
+ an
+ arrogant
+ person
+
+
+who
+ thought
+ algorithms
+ are
+ the
+ way
+ to
+ go
+
+
+and
+ like
+ oh
+ yeah
+ I
+ can
+ just
+ you
+ know
+ do
+
+
+these
+ shape
+ rotations
+ myself
+ and
+ make
+
+
+this
+ happen.
+
+
+Um
+
+
+so
+ I
+ was
+ able
+ to
+ make
+ things
+ like
+ this
+
+
+in
+ the
+ first
+ week
+ of
+ this
+ project
+ as
+
+
+well
+ and
+ the
+ problem
+ was
+ at
+ least
+ in
+ my
+
+
+experience
+ that
+ at
+ the
+ time
+ is
+ it
+ was
+ so
+
+
+unbelievably
+ dumb
+ that
+ it
+ was
+
+
+embarrassing.
+ Like
+ getting
+ the
+ shape
+ of
+
+
+something
+ and
+ and
+ like
+ copying
+ existing
+
+
+interface
+ is
+ very
+ very
+ easy.
+
+
+Similar
+ to
+ what
+ Google
+ did
+ with
+ Flan
+
+
+back
+ in
+ the
+ days
+ of
+ like
+ RLHF.
+ Like
+ we
+
+
+actually
+ had
+ an
+ early
+ alpha
+ they
+
+
+actually
+ published
+ before
+ us.
+ They
+ made
+
+
+like
+ a
+ version
+ of
+ it
+ and
+ it
+ is
+ not
+ just
+
+
+bad
+ it
+ was
+ worse
+ than
+ nothing.
+
+
+Um
+ so
+ things
+ like
+ this
+ can
+ happen
+ all
+
+
+the
+ time.
+
+
+And
+ I
+ I'm
+ curious
+ about
+ measuring
+ how
+
+
+good
+ they
+ actually
+ are
+ from
+ like
+ an
+
+
+intellectual
+ perspective.
+ As
+ far
+ as
+ I
+
+
+can
+ tell
+ from
+ the
+ field
+ they
+ probably
+
+
+are
+ the
+ equivalent
+ of
+ years
+ behind
+ us
+ in
+
+
+terms
+ of
+ like
+ actual
+ reliability
+ but
+ I
+
+
+want
+ to
+ measure
+ this
+ before
+ I
+ like
+ say
+
+
+that
+ to
+ anyone
+ else.
+
+
+>> And
+ you're
+ not
+ a
+ you're
+ not
+ a
+ fan
+ of
+ a
+
+
+benchmark
+ either
+ in
+ terms
+ of
+ like
+
+
+measuring
+ the
+
+
+but
+
+
+>> What
+ was
+ your
+ post
+ again?
+ Benchmarks,
+
+
+lies,
+ and
+ benchmarks?
+
+
+>> and
+ benchmarks
+ or
+ something
+ like
+ that.
+
+
+>> Yeah.
+
+
+>> So,
+ benchmarks
+ are
+ like
+ like
+ they
+ really
+
+
+really
+ hurt
+ users.
+ And
+ they
+ actually
+
+
+hurt
+ most
+ the
+ users
+ who
+ they
+ think
+
+
+they're
+ meant
+ to
+ help,
+ which
+ is
+ the
+
+
+users
+ who
+ do
+ not
+ have
+ the
+ time
+ to
+ play
+
+
+with
+ things
+ themselves.
+ Like
+ because
+
+
+they
+ are
+ the
+ ones
+ who
+ are
+ most
+ misled
+ by
+
+
+these.
+ So,
+ I
+ get
+ the
+ sense
+ that
+ everyone
+
+
+else
+ is
+ really
+ optimizing
+ for
+
+
+benchmarks.
+ And
+ that
+ is
+
+
+I
+ believe
+ probably
+ a
+ bad
+ strategy,
+ but
+
+
+again,
+ we
+ have
+ better
+ ways
+ of
+ measuring
+
+
+intelligence,
+ so
+ we
+ plan
+ to
+ do
+ this.
+ Um
+
+
+my
+ guess
+ is
+ that
+ they
+ are
+ dumb
+ and
+ non
+
+
+robust,
+ but
+ maybe
+ that
+ will
+ be
+
+
+sufficient
+ for
+ some
+ people's
+ works.
+
+
+And
+ if
+ they
+ solve
+ people's
+ problems,
+
+
+I
+ am
+ super
+ jazzed
+ for
+ that.
+ Like
+
+
+actually,
+ I'm
+ inspired
+ by
+ solving
+
+
+people's
+ problems.
+ My
+ only
+ fear
+ from
+
+
+this
+ and
+ benchmark
+ maxing
+ is
+ that
+ it
+
+
+might
+ convince
+ people
+ that
+ this
+ entire
+
+
+category
+ of
+ models
+ doesn't
+ work
+ because
+
+
+they
+ use
+ one
+ of
+ the
+ dumb
+ models
+ instead
+
+
+of
+ our
+ model.
+ And
+ my
+ request
+ for
+ people
+
+
+is
+ that
+ you
+ don't
+ have
+ to
+ believe
+ in
+ us.
+
+
+Just
+ try
+ our
+ model
+ too
+ at
+ least
+ and
+
+
+stick
+ with
+ what
+ works
+
+
+because
+ what
+ actual
+ There's
+ like
+ a
+ lot
+
+
+of
+ nuance
+ to
+ making
+ intelligence
+
+
+reliable
+ that
+ machine
+ learning
+
+
+researcher
+ types
+ who
+ really
+ want
+ credit
+
+
+and
+ all
+ of
+ that
+ truly
+ do
+ not
+ understand.
+
+
+Um
+
+
+and
+ that's
+ why
+ we
+ don't
+ hire
+ those
+
+
+types.
+
+
+>> Yeah,
+ it's
+ you
+ know,
+ playing
+ playing
+
+
+back
+ this
+ conversation
+ in
+ in
+ in
+ my
+ mind
+
+
+and
+ like
+ there's
+ a
+ lot
+ of
+ um
+
+
+smart
+ people
+ in
+ the
+ community
+ for
+ sure.
+
+
+You
+ know,
+ I
+ mentioned
+ certain
+ companies.
+
+
+Obviously,
+ OpenAI
+ released
+ their
+ own
+
+
+product
+ called
+ Decisions
+ just
+ just
+ a
+ few
+
+
+days
+ ago,
+ but
+ playing
+ back
+ this
+
+
+conversation
+
+
+in
+ my
+ mind,
+ it
+ seems
+ that
+ what
+ you
+ guys
+
+
+are
+ doing
+ is
+ is
+ very
+ fundamental.
+ You
+
+
+know,
+ this
+ whole
+ discussion
+ we
+ had
+
+
+around
+ RLHF
+ and
+ why
+ that
+ created
+ problem
+
+
+and
+ how
+ you
+ removed
+ it
+ and
+ replaced
+ it
+
+
+with
+ something
+ and
+ your
+ LCD
+ and
+ you
+ need
+
+
+specific
+ data
+ for
+ that.
+ That
+ seems
+ like
+
+
+a
+ lot
+ of
+ work.
+ So,
+ what
+ did
+ people
+ do
+
+
+then
+ in
+ in
+ these
+ two
+ weeks?
+ When
+ you
+ say
+
+
+interface,
+ they
+ just
+ took
+ the
+ results
+ of
+
+
+a
+ regular
+ NL
+ and
+ removed
+ the
+ text
+ and
+
+
+forced
+ it
+ into
+ some
+ kind
+ of
+ probability.
+
+
+>> Exactly.
+
+
+>> But they
+ didn't
+ do
+ the
+ work
+ to
+ get
+
+
+there.
+ They
+ just
+ removed
+ the
+
+
+>> or
+ to
+ get
+ it
+ to
+ be
+ reliable.
+ And
+ if
+ this
+
+
+solves
+ people's
+ problems,
+ I
+ am
+ super
+
+
+duper
+ just
+ for
+ that.
+ And
+ actually
+ I
+ do
+
+
+want
+ to
+ shout
+ out
+ Open
+ AI's
+ decision
+
+
+API.
+ For
+ better
+ or
+ for
+ worse,
+ they
+ did
+
+
+not
+ include
+ benchmarks,
+ so
+ they
+ are
+ a
+
+
+lot
+ better
+ than
+ everyone
+ else
+ in
+ my
+
+
+books.
+ So,
+ in
+ ideal
+ world,
+ they
+ don't
+
+
+try
+ to
+ No
+ one
+ tries
+ to
+ mis-
+ mislead
+
+
+users,
+ but
+ some
+ companies
+ need
+ the
+
+
+attention
+ and
+ hopefully
+ they
+ don't
+
+
+create
+ too
+ much
+ ill
+ will.
+ And
+ at
+ the
+
+
+very
+ least
+ people
+ try
+ our
+ models
+ as
+ well
+
+
+so
+ that
+
+
+they
+ can
+ figure
+ out
+ what
+ actually
+ works
+
+
+for
+ them.
+ But
+ if
+ the
+ intelligence
+ and
+
+
+reliability
+ that
+ we
+ have
+ is
+ not
+
+
+necessary,
+ I
+ think
+ use
+ the
+ other
+ models.
+
+
+That's
+ great.
+ You
+ know,
+ that
+ like
+ I
+ want
+
+
+problems
+ solved
+ and
+ I
+ want
+ automation
+ to
+
+
+occur.
+
+
+>> Cloudflare's
+ version
+ is
+ open
+ source.
+ Is
+
+
+that
+ something
+ that
+ you
+ guys
+ are
+
+
+thinking
+ about?
+
+
+>> We
+ are
+ thinking
+ about
+ it.
+ We've
+ had
+ this
+
+
+debate
+ a
+ lot.
+ The
+ issue
+ is
+ that
+ it's
+
+
+As
+ so,
+ as
+ far
+ as
+ we
+ can
+ tell,
+ our
+ model
+
+
+is
+ by
+ far
+ the
+ best.
+ We
+ think
+ it's
+ very
+
+
+far
+ from
+ where
+ we
+ think
+ is
+ like
+ totally
+
+
+ready
+ for
+ everything.
+ And
+ we
+ think
+ that
+
+
+having
+ an
+ API
+ to
+ iterate
+ much
+ much
+ much
+
+
+faster
+ and
+ serve
+ people's
+ needs
+ way
+
+
+better.
+ So,
+ we
+ have
+ talked
+ about
+ it.
+ We
+
+
+have
+ thought
+ about
+ it.
+ I
+ would
+
+
+I
+ I
+ we've
+ not
+ really
+ committed
+ to
+
+
+anything,
+ but
+ I
+ think
+ something
+ like
+
+
+that
+ could
+ definitely
+ be
+ in
+ the
+ cards
+ in
+
+
+the
+ future,
+ especially
+ as
+ we
+ go
+ into
+
+
+smaller
+ and
+ all
+ on
+ device
+ and
+ all
+ of
+
+
+those
+ things.
+ Like
+ I
+ just
+ want
+ reliable
+
+
+intelligence
+ everywhere.
+ And
+ I
+ just
+
+
+think
+ that
+ open
+ source
+
+
+people
+ love
+ open
+ weights.
+ I
+ love
+ open
+
+
+weights,
+ too,
+ but
+ it's
+ not
+ that
+
+
+it's
+ not
+ the
+ easiest
+ to
+ get
+ everywhere
+
+
+versus
+ an
+ API
+ is.
+ And
+ then
+ APIs
+ way
+
+
+easier
+ to
+ give
+ people
+ the
+ vitamins
+ that
+
+
+they
+ don't
+ think
+ they
+ need.
+ And
+ as
+ far
+
+
+as
+ I
+ can
+ tell,
+ open
+ source,
+ at
+ least
+ in
+
+
+the
+ short
+ term,
+ will
+ be
+ a
+ foot
+ gun
+ for
+
+
+people.
+ And
+ I'm
+ down
+ to
+ give
+ some
+ people
+
+
+foot
+ guns.
+ Some,
+ you
+ know,
+ software
+
+
+engineers
+ love
+ foot
+ guns.
+
+
+We
+ we
+ think
+ a
+ lot
+ about
+
+
+how
+ we
+ would
+ want
+ a
+ company
+ to
+ serve
+ us
+
+
+as
+ engineers
+ and
+ given
+ all
+ that
+ we
+ know.
+
+
+And
+ that
+ is
+ just
+ not
+ in
+ cards
+ right
+ now.
+
+
+Yeah.
+
+
+>> Okay,
+ great.
+ Fascinating.
+ Let's
+ talk
+
+
+about
+
+
+Type
+ Safe,
+ the
+ the
+ the
+ the
+ company.
+
+
+So,
+ in
+ terms
+ of
+ um
+
+
+what
+ you're
+ building
+ and
+ what
+ the
+ road
+
+
+map
+ is
+ and
+ and
+ and
+ and
+ all
+ the
+ things.
+
+
+So,
+ first
+ of
+ all,
+ and
+ and
+ realizing
+
+
+that,
+ you
+ know,
+ you're
+ very
+ much
+ in
+ the
+
+
+in
+ the
+ building
+ phase,
+ at
+ the
+ same
+ time
+
+
+you
+ you
+ you're
+ generating
+ tremendous
+
+
+revenue.
+ I
+ I
+ I
+ read
+ somewhere
+ that
+ the
+
+
+the
+ the
+ claim
+ is
+ that
+ you're
+ not
+ going
+
+
+to
+ capture
+ all
+ of
+ the
+ LLM
+ market,
+ but
+
+
+you're
+ going
+ to
+
+
+capture
+ a
+ fraction
+ of
+ it
+ and
+ that
+ this
+
+
+is
+ very
+ much
+ based
+ on
+
+
+the
+ the
+ Jevons
+ paradox,
+ which
+ by
+ the
+ way
+
+
+is
+ the
+ origin
+ of
+ the
+ Jev
+ the
+ name.
+ Do
+
+
+you
+ do
+ you
+ want
+ to
+ unpack
+ that
+ for
+ us?
+
+
+Like,
+ how
+ do
+ you
+ view
+ the
+ sort
+ of
+
+
+economic
+ reality
+ of
+ the
+ of
+ the
+ company?
+
+
+How
+ do
+ you
+ How
+ do
+ you
+ go
+ from
+ here?
+
+
+>> I
+ see
+ them
+ as
+ completely
+ different
+
+
+markets,
+ kind
+ of.
+ I
+ think
+ in
+ the
+ short
+
+
+term,
+ maybe
+ there's
+ like
+ some
+
+
+some
+ overlap
+ in
+ market
+ because
+ there
+
+
+wasn't
+ really
+ a
+ shape
+ of
+ general
+
+
+classifier
+ for
+ workflow
+ automation.
+ So,
+
+
+everyone
+ was
+ using
+ LLMs
+ for
+ that.
+ Um
+ so,
+
+
+I
+ a
+ lot
+ of
+ our
+ usage
+ right
+ now
+ is
+ people
+
+
+just
+ switching
+ over,
+ but
+ that
+ really
+
+
+shouldn't
+ have
+ been
+ LLMs
+ markets
+ in
+ the
+
+
+first
+ place.
+ You
+ know,
+ it
+ is
+ just
+ tragic
+
+
+because
+ that
+ was
+ the
+ only
+ tool
+
+
+available.
+ So,
+ there's
+ going
+ to
+ be
+ like
+
+
+an
+ intrinsically
+ system
+ one
+ model
+ market
+
+
+that
+ I
+ think
+ will
+ like
+ continue
+ to
+ grow
+
+
+doing
+ awesome
+ stuff
+ which
+ will
+ be
+
+
+completely
+ separate
+ from
+ the
+ LLM
+ market.
+
+
+So,
+ I
+ think
+ that
+ LLMs
+ will
+ continue
+ to
+
+
+be
+ used
+ for
+ generating
+ text,
+ generating
+
+
+code,
+ all
+ of
+ the
+ above.
+ Like
+ will
+ it
+ go
+
+
+up
+ and
+ down
+ over
+ time
+ as
+ new
+
+
+breakthroughs
+ emerge?
+ Absolutely.
+ I
+ hope
+
+
+there's
+ lots
+ of
+ new
+ breakthroughs,
+
+
+especially
+ on
+ the
+ realm
+ of
+ token
+
+
+efficiency,
+ but
+ that
+ is
+ me
+ from
+ like
+ the
+
+
+outside
+ and
+ the
+ sidelines
+ and
+ just
+
+
+cheering
+ on
+ science's
+ progress.
+ So,
+ I
+
+
+hope
+ that
+ this
+ that
+ stuff
+ occurs.
+ But
+ I
+
+
+just
+ think
+ that
+ this
+ whole
+ make
+ software
+
+
+really
+ powerful
+ is
+ a
+ completely
+
+
+different
+ market
+ than
+ LLMs
+ because
+ LLMs
+
+
+are
+ just
+ so
+ bad
+ at
+ being
+ inside
+
+
+software.
+
+
+And
+ I
+ obviously
+ think
+ that
+ that
+ market
+
+
+will
+ be
+ huge
+ because
+ I
+ think
+ that
+ you
+
+
+know,
+ the
+ analogy
+ to
+ logic
+ gates
+ makes
+
+
+me
+ feel
+ like
+
+
+like
+ intelligence
+ will
+ our
+ our
+ our
+
+
+particular
+ flavor
+ of
+ intelligence
+ will
+
+
+Jevons
+ paradox.
+
+
+And
+ I
+ think
+ it
+ will
+ Jevons
+ paradox
+ a
+ lot
+
+
+more
+ like
+ semiconductors
+ and
+ silicon
+ did
+
+
+and
+ continues
+ to
+ do
+ more
+ than
+ for
+
+
+example
+ like
+ gas
+ does.
+ You
+ know,
+ I
+ think
+
+
+as
+ we
+ find
+ more
+ and
+ more
+ stately
+ use
+
+
+cases
+ to
+ automate
+ stuff
+ and
+ like
+ get
+
+
+successes
+ and
+ deploy
+ it,
+ people
+ are
+
+
+like,
+ "Holy
+ crap,
+ there's
+ a
+ gold
+ mine
+
+
+here.
+ Let's
+ do
+ more
+ and
+ more
+ and
+ more."
+
+
+And
+ as
+ we
+ make
+ it
+ cheaper
+ and
+ cheaper,
+
+
+people
+ are
+ like,
+ "Holy
+ smokes,
+ now
+ this
+
+
+old
+ thing
+ that
+ was
+ producing
+ value,
+ we
+
+
+can,
+ you
+ know,
+ wrap
+ it
+ in
+ another
+ for
+
+
+loop,
+ run
+ it
+ 10
+ to
+ 100
+ times
+ more,
+ and
+
+
+create
+ all
+ sorts
+ of
+ value
+ for
+ the
+ world
+
+
+in
+ that
+ way."
+ So,
+ I'm
+ so
+ excited
+ about
+
+
+that.
+
+
+>> I'd
+ love
+ to
+ finish
+ on
+ a
+ sort
+ of
+ like
+
+
+high-level
+ note.
+ So,
+ you
+ hold
+ two
+
+
+unusual
+ positions
+ that
+ not
+ everybody
+
+
+holds.
+ One
+ one
+ is
+ that
+ we
+ are
+ not
+ on
+ the
+
+
+path
+ to
+ RSI,
+ so
+ AI
+
+
+improving
+ itself,
+ so
+ we're
+ not
+ on
+ that
+
+
+path.
+
+
+But
+ on
+ the
+ other
+ hand,
+ you
+ said
+ that
+ AI
+
+
+has
+ now
+
+
+averted
+ the
+ winter
+ that
+
+
+you
+ thought
+ might
+ happen.
+ So,
+ walk
+ us
+
+
+through
+ each
+ and
+ so
+ your
+ original
+ take
+
+
+for
+ where
+ the
+ world
+ is
+ going
+ in
+ the
+ you
+
+
+know,
+ next
+ whatever
+ year
+ or
+ two.
+
+
+>> Following
+ the
+ RSI
+ comment,
+ I
+ think
+ I've
+
+
+just
+ been
+ in
+ the
+ field
+ long
+ enough
+ to
+
+
+see
+ this
+ dance
+ happen
+ many,
+ many
+ times.
+
+
+People
+ see
+ small
+ percentage
+ gains
+ and
+
+
+then
+ they
+ extrapolate
+ it
+ to
+ like
+ the
+
+
+absolute
+ moon
+ when
+ the
+ reality
+ is
+
+
+Amdahl's
+ law
+ occurs.
+ People
+ used
+ to
+ give
+
+
+the
+ exact
+ same
+ story
+ of
+ RSI
+ during
+ the
+
+
+neural
+ architecture
+ search
+ days.
+ This
+ is
+
+
+when
+ you
+ use
+ neural
+ networks
+ to
+ make
+
+
+better
+ architectures
+ and
+ they're
+ like,
+
+
+"Holy
+ crap,
+ it's
+ 10%
+ more
+ efficient.
+
+
+What
+ if
+ that
+ more
+ efficient
+ thing
+ then
+
+
+like
+ discovers
+ the
+ next
+ thing
+ and
+ then
+
+
+we
+ repeat
+ it
+ until
+ we
+ get
+ unbelievably
+
+
+more
+ efficient
+ architectures."
+ And
+ that
+
+
+entire
+ field
+ ended
+ up
+ getting
+ thrown
+ in
+
+
+the
+ trash
+ cuz
+ it
+ was
+ never
+ useful.
+
+
+Um
+
+
+people
+ don't
+ understand
+ diminishing
+
+
+returns
+ in
+ the
+ real
+ world
+ and
+ I
+ think
+
+
+that
+ it's
+ going
+ to
+ be
+ a
+ similar
+ thing
+
+
+for
+ the
+ bottles
+ of
+ today
+ as
+ far
+ as
+ I
+ can
+
+
+tell.
+ Obviously,
+ I
+ have
+ error
+ bars
+ in
+ my
+
+
+predictions,
+ but
+ this
+ keeps
+ on
+ happening
+
+
+despite
+ you
+ know,
+ people
+ relatively
+
+
+young
+ to
+ the
+ field
+ getting
+ jazzed
+ about
+
+
+their
+ first
+ taste
+ of
+ self-improvement.
+
+
+Um
+
+
+so,
+ I
+ don't
+ I
+ don't
+ think
+ that
+ that's
+
+
+really
+ happening
+ based
+ on
+ the
+ evidence
+
+
+I've
+ seen
+ and
+ based
+ on
+ my
+ sense
+ of
+ where
+
+
+the
+ field
+ is
+ going.
+ I
+ do
+ think
+ that
+ AI
+
+
+is
+ an
+ incredible
+ technology
+ and
+ we
+ are
+
+
+like
+ under-leveraging
+ it
+ to
+ absolutely
+
+
+insane
+ degrees
+ and
+ I
+ just
+ think
+ that
+
+
+this
+ is
+ like
+ a
+ just
+ completely
+ different
+
+
+branch
+ and
+ I
+ think
+ that
+
+
+AI
+ winter
+ may
+ still
+ happen
+ in
+ the
+ sense
+
+
+that
+
+
+you
+ know,
+ the
+ the
+ stock
+ prices
+ of
+ the
+
+
+giant
+ companies
+ and
+ the
+ hyperscalers
+
+
+whatever
+ might
+ crash
+ down.
+ The
+ I
+ don't
+
+
+think
+ the
+ hyperscalers
+ will
+ just
+ to
+ be
+
+
+clear,
+ but
+ I
+ think
+ that
+ there
+ could
+ be
+
+
+some
+ market
+ correction
+ because
+ everyone
+
+
+is
+ pricing
+ in
+ some
+ sort
+ of
+ God
+ moment.
+
+
+Um
+ so,
+ that
+ could
+ be
+ happening.
+ I'm
+ not
+
+
+an
+ at
+ this,
+ but
+ the
+ way
+ AI
+ winter
+ I'm
+
+
+worried
+ about
+ is
+ AI
+ continuing
+ to
+ be
+ so
+
+
+unbelievably
+ useless
+ at
+ automation,
+ and
+
+
+I
+ just
+ think
+ that
+ that's
+ not
+ going
+ to
+
+
+happen
+ anymore.
+
+
+Um,
+
+
+this
+ whole
+ like
+ and
+ to
+ be
+ clear,
+ I
+ think
+
+
+that
+ AI
+ was
+ still
+ valuable,
+ but
+ just
+ not
+
+
+at
+ automation.
+ Love
+ ChatGPT,
+ love
+ Claude
+
+
+Code
+ and
+ Codex.
+
+
+Um,
+
+
+and
+ still
+ I
+ don't
+ think
+ that
+ that
+ is
+
+
+enough
+ given
+ how
+ incredible
+ AI
+ is,
+ and
+
+
+I
+ think
+ almost
+ everyone
+ deep
+ down
+ feels
+
+
+this
+ way.
+ Like
+ chatbots
+ are
+ kind
+ of
+ feel
+
+
+magical,
+ and
+ it's
+ kind
+ of
+ weird
+ how
+
+
+little
+ they've
+ changed
+ the
+ world.
+ So,
+
+
+um,
+ you'd
+ expect,
+ you
+ know,
+ if
+ you
+
+
+bottled
+ up
+ this
+ intelligence
+ and
+ made
+ it
+
+
+super
+ cheap,
+ you
+ could
+ put
+ it
+
+
+everywhere.
+ Yet,
+ somehow
+ every
+ single
+
+
+year
+ you
+ get
+ like
+ a
+ famous
+ failure
+ of
+ a
+
+
+company
+ failing
+ to
+ automate
+ a
+ drive-thru
+
+
+because
+ the
+ chatbots
+ are
+ not
+ reliable
+
+
+enough.
+ Like
+ that
+ that
+ that's
+ kind
+ of
+
+
+like
+ a
+ wild
+ state
+ of
+ affairs,
+ and
+ like
+
+
+that
+ that
+ is
+ going
+ to
+ be
+ addressed
+ quite
+
+
+quickly
+ in
+ my
+ opinion.
+
+
+>> Okay,
+ wonderful.
+ Uh,
+ you're
+ going
+ to
+
+
+It's
+ been
+ amazing.
+
+
+I
+ know
+ you're
+ working
+ insane
+ hours.
+ By
+
+
+the
+ way,
+ we're
+ recording
+ this
+ on
+ a
+
+
+Saturday,
+ which
+ I
+ guess
+
+
+is
+ just
+ another
+ day
+ in
+ the
+ 996
+ world.
+
+
+>> I
+ will
+ say
+ that
+ I
+ don't
+ I
+ don't
+ consider
+
+
+us
+ a
+ 996
+ company.
+ It's
+ just
+ a
+ kind
+ of
+ a
+
+
+crazy
+ time.
+ I
+ think
+ that
+ we
+ are
+ as
+ a
+
+
+company
+ quite
+ adult
+ and
+ reasonable.
+
+
+Um,
+ and
+ we
+ have
+ a
+ very
+ different
+ North
+
+
+Star
+ than
+ that.
+ Um,
+ and
+ I
+ just
+ wouldn't
+
+
+It's
+ just
+ a
+ crazy
+ time
+ these
+ days.
+
+
+>> Fantastic
+ to
+ hear
+ a
+ voice
+ a
+ voice
+ of
+
+
+measure
+ in
+ this
+ world.
+ So,
+ thank
+ you
+ so
+
+
+much.
+ Really
+ appreciate
+ it.
+
+
+Congratulations
+ on
+ starting
+ the
+ J
+
+
+evolution,
+ and
+ uh,
+ excited
+ to
+ see
+ what
+
+
+you
+ guys
+ build
+ next.
+ Thank
+ you
+ so
+ much.
+
+
+>> Yes, and
+ thank
+ you
+ for
+ being
+ part
+ of
+ it.
+
+
+And
+ if
+ I
+ Thank
+ you
+ to
+ all
+ the
+ people
+ who
+
+
+are
+ early
+ believers.
+ I
+ will
+ say
+ this
+ at
+
+
+the
+ end
+ of
+ everything
+ because
+
+
+we
+ just
+ didn't
+ realize
+ there
+ were
+ so
+
+
+many
+ people
+ who
+ had
+ the
+ same
+ kinds
+ of
+
+
+problems
+ as
+ us,
+ and
+ I
+ think
+ that
+
+
+still
+ most
+ of
+ the
+ people
+ who've
+ heard
+ of
+
+
+GIF
+ don't
+ get
+ it.
+ And
+ that's
+ okay
+
+
+because
+ the
+ people
+ who
+ really
+ need
+ to
+
+
+know
+ about
+ it
+ know
+ about
+ it
+ because
+ the
+
+
+people
+ who
+ do
+ get
+ it
+ were
+ like
+ screaming
+
+
+in
+ joy
+ on,
+ you
+ know,
+ social
+ media
+ and
+ to
+
+
+their
+ friend
+ groups
+ and
+ private
+ chats
+
+
+and
+ everything
+ that
+ like
+ AI
+ is
+ finally
+ a
+
+
+little
+ bit
+ more
+ sensible.
+ So,
+
+
+Shout
+ outs
+ to
+ those
+ people
+ and
+ we
+ at
+
+
+Type
+ Safe
+ are
+ eternally
+ grateful
+ to
+
+
+y'all.
+
+
+>> Amazing.
+ Thank
+ you.
+
+
+Hi,
+ it's
+ Matt
+ Turk
+ again.
+ Thanks
+ for
+
+
+listening
+ to
+ this
+ episode
+ of
+ the
+ Mad
+
+
+Podcast.
+ If
+ you
+ enjoyed
+ it,
+ we'd
+ be
+ very
+
+
+grateful
+ if
+ you
+ would
+ consider
+
+
+subscribing
+ if
+ you
+ haven't
+ already
+ or
+
+
+leaving
+ a
+ positive
+ review
+ or
+ comment
+ on
+
+
+whichever
+ platform
+ you're
+ watching
+ this
+
+
+or
+ listening
+ to
+ this
+ episode
+ from.
+ This
+
+
+really
+ helps
+ us
+ build
+ a
+ podcast
+ and
+ get
+
+
+great
+ guests.
+ Thanks
+ and
+ see
+ you
+ at
+ the
+
+
+next
+ episode.
