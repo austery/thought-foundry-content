@@ -1,0 +1,11861 @@
+[music]
+
+
+>> My
+ name
+ is
+ Dan.
+ I
+ am
+ the
+ creator
+ of
+ Open
+
+
+Pros.
+ This
+ year
+ is
+ Raymond
+ I'm
+ joined
+ by
+
+
+Raymond
+ and
+
+
+Jose
+ two
+ fabulous
+ teammates,
+ co-workers,
+
+
+just
+ phenomenal
+ creators
+ and
+ engineers
+
+
+all
+ around.
+ I'll
+ introduce
+ them
+ a
+ little
+
+
+bit
+ in
+ a
+ bit.
+ Uh
+
+
+just
+ a
+ little
+ bit
+ of
+ background
+ about
+
+
+what
+ we're
+ what
+ we're
+ about
+ to
+ show
+ you
+
+
+here.
+
+
+Uh
+
+
+5
+ years
+ ago
+
+
+in
+ April
+ of
+ 2021,
+ I
+ was
+ named
+ the
+
+
+best
+ prompter
+ in
+ the
+ Eleuther
+ AI
+
+
+back
+ rooms
+ Discord,
+ which
+ was
+ a
+ skill
+ at
+
+
+the
+ time
+ that
+ I
+ thought
+ would
+ be
+
+
+tremendously
+ valuable
+ for
+ many
+ years
+
+
+afterward
+ and
+ actually
+ it
+ lasted
+ I
+ think
+
+
+around
+ like
+ two
+ or
+ three
+ years
+ maybe
+ was
+
+
+the
+ lifetime
+ of
+ of
+ that
+ skill.
+
+
+And
+ I
+ say
+ that
+ because
+ a
+ lot
+ obviously,
+
+
+as
+ you
+ all
+ know,
+ has
+ changed
+ in
+ the
+ last
+
+
+5
+ years.
+
+
+But
+ one
+ thing
+ has
+ not
+ changed
+ and
+
+
+I've
+ been
+ to
+ a
+ lot
+ of
+ workshops
+ today.
+
+
+We've
+ got
+ a
+ lot
+ of
+
+
+amazing
+ talks
+ coming
+ up.
+
+
+But
+ the
+ one
+ thing
+ that
+ seems
+ to
+ be
+
+
+ever
+ present
+ in
+ in
+ all
+ of
+ the
+ work
+ that
+
+
+we
+ do
+ and
+ and
+ that
+ actually
+ doesn't
+
+
+change
+
+
+with
+ the
+ latest
+ harness
+ or
+ the
+ latest
+
+
+model
+ is
+ we
+ all
+ still
+ need
+ to
+
+
+communicate
+ our
+ intent
+
+
+to
+ the
+ thing
+ and
+ no
+ matter
+ how
+ smart
+ the
+
+
+thing
+ gets,
+
+
+there
+ is
+ still
+ this
+ challenge
+ of
+ how
+ do
+
+
+I
+ get
+ out
+ of
+ my
+ brain
+ the
+ thing
+ that
+ I
+
+
+want
+ and
+ and
+ get
+ it
+ into
+ the
+ super
+
+
+intelligence
+ that
+ is
+ just
+ going
+ to
+ carry
+
+
+it
+ away
+ and
+ and
+ do
+ everything
+ for
+ me.
+ Uh
+
+
+Open
+ Pros
+ is
+ is
+ a
+ is
+ a
+ language,
+ it's
+ a
+
+
+framework,
+ it's
+ a
+
+
+started
+ as
+ a
+ project
+ based
+ on
+ my
+ own
+
+
+love
+ of
+ language
+ and
+ my
+ own
+
+
+strong
+ belief
+ that
+ language
+ is
+ this
+
+
+really
+ powerful
+
+
+force
+ of
+ creation
+ and
+ I
+ mean
+ that
+ like
+ I
+
+
+know
+ that's
+ a
+ little
+ bit
+ cliche,
+ but
+
+
+that's
+ like
+ in
+ the
+ very
+ literal
+ sense
+
+
+now
+ with
+ with
+ the
+ capabilities
+ that
+ we
+
+
+have.
+ You
+ can
+ write
+ a
+ sentence
+ and
+ the
+
+
+things
+ just
+ make
+ that
+ sentence
+ true.
+ And
+
+
+so
+ the
+ question
+ then
+ becomes
+ like
+ what
+
+
+is
+ the
+ sentence
+ that
+ you
+ write
+ now
+ that
+
+
+you
+ have
+ this
+ tremendously
+ powerful
+
+
+machine
+
+
+to
+ make
+ it
+ true.
+ And
+ the
+ skill
+ of
+
+
+prompting
+ from
+ 5
+ years
+ ago
+ looks
+ very
+
+
+different
+ from
+ the
+ skill
+ of
+ what
+ we
+ like
+
+
+to
+ think
+ of
+ as
+ contract
+ creation
+ or
+
+
+contract
+ composition
+
+
+today.
+ And
+ when
+ you
+ were
+ dealing
+ with
+ a
+
+
+model
+ that
+ was
+ just
+ completing
+ the
+ the
+
+
+next
+ token,
+ there
+ was
+ there
+ was
+ good
+
+
+patterns
+ and
+ bad
+ patterns
+ for
+ for
+
+
+prompting.
+
+
+A
+ few
+ years
+ later,
+ you
+ were
+ filling
+ out
+
+
+context
+ by
+ hand
+ and
+ you
+ were
+ taking
+ rag
+
+
+results
+ and
+ and
+ tool
+ calls
+ and
+ stuff
+ and
+
+
+search
+ results
+ and
+ stuffing
+ them
+ into
+
+
+into
+ the
+ context
+ window
+ and
+ you
+ call
+
+
+that
+ context
+ engineering.
+
+
+And
+ then
+ the
+ harness
+ started
+ doing
+ that
+
+
+for
+ you
+ and
+ you
+ were
+ building
+ a
+ harness
+
+
+and
+ and
+ and
+ you
+ were
+ you
+ were
+ you
+
+
+thought
+ of
+ the
+ harness
+ as
+ this
+ this
+
+
+machine
+ that
+ was
+ stuffing
+ context
+ for
+
+
+you.
+
+
+And
+ and
+ in
+ the
+ last
+ 8
+ 10
+ months,
+ we've
+
+
+seen
+ a
+ number
+ of
+ papers
+ come
+ out
+ that
+ is
+
+
+just
+ pushing
+ everything
+ up
+ another
+ layer
+
+
+of
+ abstraction
+ and
+ and
+ the
+ harnesses
+
+
+themselves
+ are
+ are
+ changing
+ out
+ from
+
+
+under
+ you.
+ We
+
+
+saw
+ a
+ great
+ presentation
+ by
+ Anthropic
+
+
+this
+ morning
+ on
+ on
+ flows
+ and
+ that's
+ this
+
+
+idea
+ of
+ this
+ like
+ self-modifying
+
+
+harness
+ topology
+ that
+ is
+ managing
+ sub
+
+
+agents
+ in
+ a
+ way
+ that
+ just
+ was
+ not
+
+
+thinkable
+ even
+ just
+ a
+ year
+ ago.
+ So,
+ if
+
+
+if
+
+
+is
+ solved
+ and
+ the
+ context
+ is
+ now
+ solved
+
+
+and
+ now
+ the
+ harnesses
+ are
+ now
+ solved,
+
+
+like
+ what's
+ kind
+ of
+ the
+ next
+ step
+ here?
+
+
+And
+ that's
+ what
+ we'd
+ like
+ to
+ talk
+ a
+
+
+little
+ bit
+ about
+ today
+ and
+ show
+ you
+ some
+
+
+of
+ the
+ stuff
+ we've
+ been
+ we've
+ been
+
+
+building
+ in
+ in
+ support
+ of
+ that.
+
+
+I
+ like
+ to
+ think
+ of
+ it
+ as
+ as
+
+
+once
+ you
+ can
+ name
+ the
+ thing
+ that
+ you
+
+
+want,
+
+
+any
+ harness
+ can
+ self-shape,
+ can
+ fan
+ out,
+
+
+do
+ any
+ sort
+ of
+ loop
+ to
+ get
+ you
+ there.
+
+
+And
+ the
+ question
+ is
+ what
+ are
+ the
+ good
+
+
+best
+ practices
+ for
+ naming
+ the
+ thing
+ that
+
+
+you
+ want.
+
+
+And
+ and
+ we
+ think
+ of
+ that
+ as
+ as
+
+
+declarative.
+ We're
+ we're
+ going
+ to
+ borrow
+
+
+concepts
+ from
+ classical
+ software
+
+
+engineering.
+ I'm
+ a
+ software
+ engineer
+ of
+
+
+12
+ years.
+ Jose
+ and
+ Raymond
+ have
+ been
+
+
+around
+ the
+ block
+ with
+ this
+ as
+ well.
+
+
+Jose
+ was
+ early
+ Google
+ Cloud
+ and
+ he's
+
+
+informed
+ a
+ number
+ of
+ the
+ ways
+ we
+ think
+
+
+about
+ this.
+ Raymond
+ is
+ just
+ a
+ phenomenal
+
+
+uh
+ uh
+
+
+He
+ told
+ me
+ to
+ He
+ told
+ me
+ to
+ introduce
+
+
+himself
+ as
+ a
+ as
+ a
+ vibe
+ code
+
+
+extraordinaire,
+ but
+ that's
+ way
+
+
+underselling
+ his
+ his
+ talents.
+ He's
+ a
+ PhD
+
+
+and
+ two-time
+ founder
+ and
+ has
+ been
+ doing
+
+
+harness
+ engineering
+ for
+ basically
+ as
+
+
+long
+ as
+ anybody
+ I
+ know.
+ Um
+ and
+ and
+ so
+ so
+
+
+it's
+ this
+ idea
+ of
+ borrowing
+ old
+
+
+engineering
+ patterns
+ and
+ applying
+ them
+
+
+into
+ this
+ new
+ world.
+ We
+ want
+ to
+ write
+
+
+our
+ prompts
+ compositionally.
+ We
+ want
+ to
+
+
+compose
+
+
+composition
+ over
+ inheritance.
+
+
+We
+ want
+ to
+ write
+ our
+ prompts
+
+
+declaratively
+ rather
+ than
+ procedurally
+
+
+or
+ imperatively.
+ We
+ want
+ to
+ tell
+ it
+ what
+
+
+what
+ to
+ do,
+ not
+ how
+ to
+ do
+ it
+ because
+ the
+
+
+harness
+ in
+ its
+ infinite
+ wisdom
+ and
+ its
+
+
+infinite
+ intelligence
+ is
+ going
+ to
+ figure
+
+
+that
+ out.
+ And
+ if
+ we
+ tell
+ it
+ how
+ to
+ do
+
+
+the
+ thing,
+ now
+ we're
+ actually
+ leaving
+
+
+cost
+ and
+ and
+ intelligence
+ on
+ the
+ table
+
+
+because
+ we
+ could
+ run
+ it
+ for
+ a
+ cheaper
+
+
+model.
+ A
+ more
+ intelligent
+ model
+ can
+
+
+figure
+ out
+ how
+ to
+ do
+ the
+ thing.
+ So
+ it's
+
+
+this
+ idea
+ of
+ write
+ what
+ you
+ want,
+
+
+declare
+ what
+ you
+ want,
+ the
+ outcome,
+ the
+
+
+goal,
+ the
+ end
+ state.
+ We
+ think
+ of
+ that
+ as
+
+
+a
+ contract.
+
+
+And
+ and
+
+
+write
+ it
+ in
+ a
+ way
+ such
+ that
+ you
+ can
+
+
+compose
+ these
+ because
+ when
+ you
+ build
+ a
+
+
+system,
+ when
+ when
+ you
+ build
+ an
+ open
+
+
+framework
+ like
+ this,
+ when
+ you
+ build
+ a
+
+
+system
+ that
+ has
+ many
+ parts,
+ maybe
+ across
+
+
+your
+ company
+ or
+ across
+ your
+ team,
+ you
+
+
+want
+ to
+ do
+ things
+ in
+ a
+ way
+ that
+ allows
+
+
+things
+ to
+ elegantly
+ compose
+ and
+ that
+
+
+lets
+ you
+ manage
+
+
+complexity
+ in
+ in
+ a
+ in
+ a
+ more
+ local
+ way.
+
+
+Um
+
+
+with
+ that,
+ I'm
+ going
+ to
+ hand
+ it
+ over
+ to
+
+
+Raymond
+ who's
+ going
+ to
+ tell
+ you
+ a
+ little
+
+
+bit
+ about
+ how
+ it
+ works
+ and
+ then
+ we're
+
+
+going
+ to
+ show
+ you
+ some
+ some
+ demos
+ after
+
+
+that.
+ We'll
+ we'll
+ we'll
+ open
+ it
+ up
+ to
+
+
+questions
+ throughout.
+ So,
+ and
+ please
+ do
+
+
+raise
+ uh
+ your
+ hand
+ if
+ you
+ have
+
+
+questions,
+ interject,
+ please.
+
+
+>> Awesome.
+ Thank
+ you,
+ Dan.
+ Okay,
+ so
+ there
+
+
+um
+
+
+I
+ wanted
+ to
+ just
+ help
+ you
+ understand
+
+
+Open
+ Pros
+ and
+ put
+ it
+ in
+ a
+ quadrant.
+ Um
+
+
+so,
+
+
+if
+ there's
+ only
+ two
+ things
+ that
+ you
+
+
+remember,
+ the
+ two
+ things
+ that
+ I
+ want
+ you
+
+
+to
+ remember
+ are
+ it's
+ just
+ markdown.
+
+
+So,
+ we
+ like
+ to
+ sometimes
+ call
+ it
+ it's
+ a
+
+
+programming
+ language
+ for
+ agents.
+ We
+
+
+sometimes
+ call
+ it
+ a
+ framework,
+ but
+ all
+
+
+of
+ it
+ is
+ just
+ text.
+ It's
+ just
+ one
+ giant
+
+
+prompt.
+ Um
+ and
+ then
+ the
+ second
+ thing
+ to
+
+
+just
+ help
+ you
+ figure
+ out
+ in
+ your
+ mental
+
+
+bucket
+ where
+ this
+ fits
+ is
+ it's
+ event
+
+
+driven.
+ It's
+ not
+ chat.
+ We're
+ not
+
+
+chatting
+ with
+ these
+ things.
+ Um
+
+
+I'll
+ chat
+ with
+ an
+ agent
+ that
+ will
+ make
+
+
+Open
+ Pros
+ programs
+ later,
+ but
+ if
+ you
+
+
+only
+ remember
+ two
+ things
+ about
+ us,
+
+
+that's
+ it.
+ It's
+ it's
+ all
+ text
+ and
+ we're
+
+
+doing
+ these
+ event-driven
+ multi-agent
+
+
+workflows,
+ not
+ chatting.
+ Um
+ you
+ can
+ it's
+
+
+open
+ source,
+ you
+ can
+ run
+ it
+ locally
+ with
+
+
+NPX
+ skills.
+
+
+Uh
+ I'll
+ walk
+ through
+ the
+ hosted
+ version
+
+
+that
+ I've
+ built
+ uh
+ run.pros.md,
+ and
+ uh
+
+
+we
+ also
+ will
+ do
+ it
+ for
+ you.
+ If
+ you
+ want
+
+
+to
+ reach
+ out,
+ uh
+ we'll
+ help
+ you
+ out.
+
+
+So,
+ uh
+ I
+ guess
+ quick
+ question,
+ like
+ how
+
+
+many
+ people
+ in
+ here
+ are
+ from
+ the
+ the
+
+
+finance
+ side
+ of
+ things?
+
+
+Okay,
+ that's
+ good.
+ How
+ many
+ are
+ like
+ AI
+
+
+engineers
+ or
+ developers?
+ Okay.
+ Then
+ how
+
+
+many
+ people
+ um
+
+
+are
+ maybe
+ more
+ like
+ PMs
+ or
+ like
+
+
+professionals
+ but
+ and
+ you're
+ using
+ AI
+
+
+but
+ you
+ don't
+ know
+ how
+ to
+ code?
+
+
+Okay,
+ fewer
+ but
+ Okay,
+ good.
+ So,
+ I've
+ got
+
+
+why
+ should
+ I
+ care
+ for
+ those
+ three
+
+
+audiences?
+ So,
+
+
+for
+ the
+ small
+ regulated
+ industries,
+ one
+
+
+of
+ the
+ things
+ that
+ we've
+ seen
+ um
+ some
+
+
+banks
+ and
+ uh
+ other
+ financial
+ services
+
+
+companies
+ be
+ excited
+ about
+ is
+ like
+ what
+
+
+I
+ said
+ before,
+ it's
+ all
+ text.
+ So,
+ we
+
+
+don't
+ need
+ the
+ procurement
+ department,
+
+
+we
+ don't
+ need
+ the
+ IT
+ department.
+ You
+ can
+
+
+use
+ whatever
+ coding
+ agent
+ you
+ want,
+
+
+whatever
+ inference
+ you
+ want,
+ whatever
+
+
+guardrails
+ you
+ already
+ have,
+ whatever
+
+
+stack
+ you
+ have,
+ we
+ can
+ actually
+ like
+
+
+help
+ you
+ um
+ you
+ know,
+ create
+ these
+
+
+multi-agent
+ workflows
+ without
+ deploying
+
+
+anything
+ to
+ you
+ other
+ than
+ some
+ markdown
+
+
+files.
+ Um
+ so,
+ that's
+ one
+ of
+ the
+ the
+
+
+angles
+ or
+ or
+ benefits
+ of
+ it
+ being
+ all
+
+
+text.
+
+
+Um
+ for
+ the
+ folks
+ that
+ are
+ uh
+ not
+ writing
+
+
+code
+ themselves,
+ uh
+ basically,
+ if
+ you
+
+
+can
+ read
+ logical
+ English,
+ you
+ can
+ read
+
+
+Open
+ Prose.
+ So,
+ we're
+ going
+ to
+ very
+
+
+specifically
+ not
+ get
+ into
+ the
+ syntax
+ of
+
+
+the
+ language.
+ Technically,
+ it
+ is
+ a
+
+
+programming
+ language
+ and
+ it
+ has
+ a
+
+
+syntax,
+ um
+
+
+but
+ it's
+ really
+ meant
+ to
+ be
+ more
+ um
+ read
+
+
+by
+ people
+ and
+ edited
+ by
+ people
+ rather
+
+
+than
+ like
+ handwritten
+ from
+ scratch
+ by
+
+
+people.
+ Like
+ you
+ we
+ don't
+ want
+ users
+
+
+concerned
+ with
+ like
+ learning
+ the
+ schema.
+
+
+And
+ so,
+ you
+ can
+ kind
+ of
+ describe
+ the
+
+
+work,
+ have
+ your
+ agent
+ write
+ the
+ Prose
+
+
+program,
+
+
+you
+ know,
+
+
+that
+ might
+ give
+ you
+ some
+ more
+ ideas
+ for
+
+
+how
+ you
+ might
+ want
+ to
+ edit
+ it,
+ or
+ you
+
+
+might
+ see
+ something
+ you
+ want
+ to
+ change,
+
+
+uh
+ and
+ then
+ that
+ Prose
+ program
+ becomes
+
+
+the
+ reusable
+ workflow.
+
+
+Um
+
+
+and
+ then
+ for
+ the
+ AI
+ engineers
+ and
+ the
+
+
+developers,
+
+
+uh
+ I
+ think
+ the
+ angle
+ where
+ you
+ might
+
+
+want
+ to
+ use
+ this
+ is
+
+
+it's
+ you
+ know,
+ it's
+
+
+not
+ it's
+ a
+ framework
+ that's
+ not
+ a
+
+
+framework,
+ and
+ we'll
+ talk
+ a
+ little
+ bit
+
+
+about
+ that
+ in
+ a
+ second,
+ but
+ even
+ the
+
+
+compiler
+ for
+ the
+ framework,
+ even
+ the
+
+
+virtual
+ machine
+ for
+ the
+ framework,
+ is
+
+
+itself
+ just
+ a
+ giant
+ prompt,
+ and
+ you're
+
+
+literally
+ like
+ incepting
+ cod
+ code
+ into
+
+
+compiling
+ the
+ program
+ for
+ you,
+ incepting
+
+
+Codex
+ into
+ doing
+ that.
+ Uh
+ so,
+ there's
+ uh
+
+
+you
+ can
+ express
+ very,
+ very
+ complex
+
+
+multi-agent
+ workflows
+ that
+ uh
+ things
+
+
+like
+ the
+ Anthropic
+ um
+
+
+uh
+ dynamic
+ What
+ do
+ they
+ call
+ them?
+
+
+Dynamic
+ agent
+ workflows
+
+
+um
+ would
+ probably
+ be
+ like
+ an
+ analogy.
+
+
+You
+ can
+ do
+ that
+ in
+ any
+ coding
+ agent
+ in
+
+
+just
+ our
+ markdown
+ contract.
+
+
+Uh
+ okay.
+ So,
+ first
+ on
+ this
+ idea
+ that
+
+
+it's
+ just
+ markdown,
+ um
+
+
+this
+ can
+ be
+ a
+ complete
+ program,
+ just
+ as
+
+
+an
+ example.
+ And
+ again,
+ I
+ don't
+ want
+ to
+
+
+get
+ uh
+
+
+so
+ hung
+ up
+ in
+ the
+ syntax,
+ um
+ but
+ you
+ can
+
+
+basically
+ say,
+ "Hey,
+ here's
+ the
+ goal
+ and
+
+
+like
+ here
+ is
+ the
+ the
+ contract
+ that
+ that
+
+
+the
+ that
+ this
+ maintains.
+ Like
+ here's
+ the
+
+
+definition
+ of
+ what
+ this
+ contract
+
+
+maintains."
+ Um
+ and
+ again,
+ that's
+ just
+
+
+like
+ a
+ very
+ silly
+ simple
+ one.
+ Um
+
+
+the
+ uh
+
+
+this
+ idea
+ here
+ of
+ like,
+ well,
+ what
+ is
+ it
+
+
+that
+ you
+ can
+ declare?
+ So,
+ again,
+ I
+ don't
+
+
+want
+ to
+ get
+ into
+ the
+ schema
+ and
+ the
+
+
+types
+ and
+ the
+ syntax,
+ but
+ what
+ you
+ or
+
+
+your
+ agent
+ can
+ declare
+ on
+ behalf
+ of
+ you
+
+
+with
+ uh
+ in
+ the
+ CLI
+ is
+ called
+ the
+ pros
+
+
+write
+ function.
+ In
+ our
+ app,
+ it's
+
+
+basically
+ just
+ the
+ agent
+ that
+ drives
+ the
+
+
+whole
+ app
+ for
+ you.
+ You
+ can
+ make
+ sub
+
+
+agents.
+
+
+Uh
+ you
+ can
+ assign
+ specific
+ skills
+ uh
+ to
+
+
+those
+ specific
+ sub
+ agents.
+ You
+ can
+ have
+
+
+specific
+ tools
+ that
+ are
+ available.
+ So,
+
+
+for
+ example,
+ for
+ search,
+ I
+ love
+ Exa.
+ I
+
+
+think
+ they're
+ amazing
+ and
+ I
+ don't
+ want
+
+
+it
+ doing
+ regular
+ web
+ search.
+ I
+ always
+
+
+want
+ it
+ using
+ Exa
+ cuz
+ it's
+ faster
+ and
+
+
+cheaper
+ for
+ me.
+ You
+ can
+ say,
+ "Here's
+ the
+
+
+skill
+ for
+ that.
+ Here's
+ the
+ CLI
+ for
+
+
+that."
+ If
+ you
+ can't
+ find
+ those
+ things,
+
+
+just
+ don't
+ run
+ the
+ program.
+ Like
+ we're
+
+
+not
+ doing
+ it
+ the
+ other
+ way.
+ So,
+ you
+
+
+might
+ have
+ skills
+ that
+ are
+ specific
+ to
+
+
+your
+ company
+ or
+ to
+ your
+ org.
+ And
+ then
+
+
+essentially,
+ you
+ can
+ think
+ of
+ it
+ as
+ like
+
+
+wiring
+ that
+ program
+ together
+ and
+ like
+ if
+
+
+it
+ doesn't
+ have
+ all
+ the
+ dependencies,
+
+
+like
+ do
+ not
+ compile,
+ right?
+ Um
+ and
+ then
+
+
+obviously
+ that
+ what
+ are
+ the
+ inputs
+ of
+
+
+this
+ program,
+ what
+ are
+ the
+ outputs
+ that
+
+
+this
+ uh
+ program
+ has
+ to
+ deliver,
+ this
+
+
+contract
+ has
+ to
+ deliver.
+
+
+Um
+ and
+ again,
+ like
+ again,
+ this
+ could
+ be
+
+
+something
+ if
+ people
+ want
+ to
+ nerd
+ out
+ and
+
+
+ask
+ Dan
+ about
+ how
+ he
+ built
+ it.
+ Like
+ the
+
+
+runtime
+ itself
+ is
+ just
+ a
+ giant
+ prompt,
+
+
+too.
+ So,
+ um
+ you
+ know,
+ some
+ of
+ my
+
+
+favorite
+ sentences
+ in
+ the
+ uh
+ in
+ the
+
+
+skill
+ or
+ the
+ prompt
+ is
+ like
+ "You
+ are
+ the
+
+
+compiler."
+
+
+This
+ is
+ not
+ an
+ analogy.
+ You
+ are
+ the
+
+
+compiler.
+ And
+ uh
+ it
+ seems
+ to
+ work.
+ Um
+
+
+So,
+ uh
+ yeah,
+ and
+ then
+ this
+ idea
+ of
+ a
+
+
+event-driven.
+ So,
+ we
+ want
+ to
+ get
+ out
+ of
+
+
+this
+ idea
+ that
+ everything
+ is
+ a
+
+
+conversation,
+ that
+ everything
+ is
+ a
+ chat,
+
+
+um
+ and
+ build
+ event-driven
+ systems.
+
+
+So,
+ um
+
+
+again,
+ like
+
+
+uh
+
+
+just
+ to
+ compare
+ these
+ different
+ workflow
+
+
+trees,
+ it's
+ like
+ something
+ something
+
+
+happens
+ that
+ might
+ be
+ just
+ like
+ a
+ cron
+
+
+job
+ on
+ a
+ schedule,
+ that
+ might
+ be
+ a
+ new
+
+
+issue
+ is
+ opened
+ in
+ GitHub,
+ or
+ a
+ new
+ PR
+
+
+uh
+ is
+ filed,
+ or
+ you
+ have
+ some
+ webhook
+
+
+system,
+ right?
+ Um
+ that
+ you're
+ I
+ don't
+
+
+know,
+ Stripe
+
+
+isn't
+ working,
+ whatever,
+ then
+ you
+ can
+
+
+now
+ um
+ you
+ know,
+ trigger
+ that
+ workflow
+
+
+that
+ you've
+ expressed
+
+
+uh
+ to
+ go
+ handle
+ that
+ entire
+ thing
+ end
+ to
+
+
+end
+ and
+ deliver
+ on
+ the
+ contract.
+
+
+Um
+ and
+ so,
+ this
+ idea
+ of
+ like
+ starting
+ to
+
+
+build
+ towards
+ jobs,
+ so
+ you
+ can
+ set
+ this
+
+
+up
+ yourself
+ with
+ your
+ own
+ agents
+ in
+ your
+
+
+own
+ system,
+ and
+ what
+ I
+ built
+ um
+ in
+
+
+run.prose.md
+
+
+is
+ um
+ this
+ idea
+ of
+ like
+ a
+ job
+ is
+ a
+
+
+contract
+ plus
+ a
+ trigger.
+ So,
+ again,
+ the
+
+
+the
+ trigger
+ can
+ be
+ something
+ super
+
+
+trivial
+ like
+ a
+ schedule,
+ and
+ so
+ here
+ I'm
+
+
+basically
+ saying
+ like,
+ "Okay,
+ every
+ day
+
+
+uh
+ run
+ this."
+
+
+Um
+ but
+ uh
+ right
+ now,
+ the
+ two
+ the
+ two
+
+
+main
+ triggers
+ that
+ we
+ have
+ implemented
+
+
+in
+ the
+ app
+ as
+ is
+ are
+ um
+ our
+ webhooks,
+
+
+which
+ really
+
+
+uh
+ inevitably
+ cover
+ a
+ lot
+ of
+ different
+
+
+things,
+ like
+ a
+ whole
+ Slack
+ app
+ is
+ just
+
+
+webhooks,
+ GitHub
+ just
+ webhooks.
+ Um
+ and
+
+
+cron
+ jobs.
+ We're
+ happy
+ to
+ add
+ more
+ if
+
+
+you
+ want
+ to
+ give
+ us
+ feedback
+ on
+ ones
+
+
+that
+ we
+ can
+ make
+ easier
+ for
+ you.
+ Um
+ and
+
+
+again,
+ from
+ from
+ that
+ trigger,
+ then
+ you
+
+
+triage
+ uh
+ these
+ workflows.
+ So,
+
+
+uh
+ you
+ can
+ start
+ to
+ build
+ out
+ these,
+ you
+
+
+know,
+ code
+ factories
+ from
+ um
+
+
+creating
+ these
+ standing
+ jobs
+
+
+um
+
+
+of
+ the
+ Prose
+ programs.
+
+
+Uh
+ what
+ I
+ want
+ to
+ show
+ and
+ I'll
+ get
+
+
+towards
+ in
+ a
+ second
+ is
+
+
+um
+
+
+one
+ of
+ the
+ things
+ that
+ I've
+ been
+
+
+building
+ to
+ make
+ sure
+ that's
+ ready
+ in
+
+
+time
+ for
+ this
+ event
+ is
+
+
+um
+ is
+ webhooks
+ and
+ using
+ uh
+ GitHub
+ uh
+
+
+events
+ specifically,
+ and
+ I've
+ been
+
+
+forcing
+ myself
+ to
+ use
+ the
+ program
+ to
+
+
+develop
+ the
+ program.
+
+
+And
+ so,
+ one
+ of
+ the
+ examples
+ that
+ we
+ now
+
+
+have
+ in
+ the
+ issue
+ in
+ the
+ system
+ is,
+
+
+well,
+ there's
+ two
+ different
+ main
+ ones.
+
+
+One
+ is
+ like
+ any
+ GitHub
+ issue
+ that
+ comes
+
+
+in,
+ you
+ write
+ a
+ prose
+ program
+ for
+ how
+
+
+it's
+ going
+ to
+ try
+ to
+ address
+ the
+ issue.
+
+
+So,
+ you
+ can
+ make
+ that
+ as
+ complex
+ or
+ as
+
+
+simple
+ as
+ you
+ want.
+ You
+ can
+ run
+
+
+it
+ could
+ be
+ a
+ multi-agent
+ workflow.
+ It
+
+
+could
+ have
+ specific,
+ um,
+ skills
+ that
+ it
+
+
+has
+ to
+ follow
+ or
+ use
+ models.
+
+
+Um,
+ and
+ so,
+ basically
+ the
+ input
+ is
+
+
+whatever
+ that
+ issue
+ was,
+ the
+ output
+ is
+ a
+
+
+commit.
+ And
+ it
+ has
+ to
+ go
+ all
+ the
+ way
+ to
+
+
+getting
+ that
+ thing
+ done
+ for
+ you.
+ Uh,
+ and
+
+
+then
+ similarly,
+ uh,
+ and
+ I'll
+ show
+ this
+
+
+one
+ more
+ specifically
+ is
+ like
+ doing
+ it
+
+
+with,
+ uh,
+ PR
+ reviews.
+ So,
+ you
+ can
+ do
+
+
+this
+ event-driven
+ kind
+ of
+ adversarial
+
+
+review.
+ And
+ I
+ don't
+ know
+ if
+ you
+ guys
+
+
+heard,
+ um,
+ in
+ one
+ of
+ the
+ things
+ I
+
+
+thought
+ was
+ interesting
+ this
+ morning
+ in
+
+
+the
+ Anthropic
+ workshop
+ where
+ they're
+
+
+talking
+ about
+ um,
+ the
+ challenges
+ with
+
+
+self-review.
+ So,
+ like,
+ you're
+ you're
+ in
+
+
+Claude
+ Code
+ and
+ you're
+ like,
+
+
+"All
+ right.
+ Here,
+
+
+I'm
+ going
+ to
+ let
+ you
+ push
+ to
+ production,
+
+
+but
+ just
+ could
+ you
+ just
+ check
+ like
+ one
+
+
+more
+ time
+ for
+ me?"
+ And
+ like,
+ it's
+ it's
+
+
+biased
+ to,
+ you
+ know,
+ think
+ that
+ it
+ did
+ a
+
+
+good
+ job.
+ And
+ so,
+ so
+ are
+ humans,
+ right?
+
+
+And
+ so,
+ um,
+ I'll
+ show
+ a
+ workflow
+ where
+
+
+essentially
+ the
+ agents
+ that
+ are
+ building
+
+
+this
+ get
+ this
+ backpressure
+ from
+ the
+ app
+
+
+itself
+
+
+um,
+ through
+ through
+ pull
+ requests.
+
+
+Um,
+ okay.
+ So,
+ while
+ we
+ transition
+ to
+
+
+this,
+ are
+ there
+ any
+ questions
+ now
+ while
+
+
+we
+ switch
+ over
+ to
+ the
+
+
+to
+ the
+ web
+ app?
+
+
+>> Please,
+ no
+ question
+ is
+ too
+ silly.
+
+
+Is
+ that
+ a
+ hand
+ or
+ a
+ phone?
+ I
+ can't
+ see
+
+
+the
+ lights
+ here.
+
+
+>> Maybe
+ none.
+
+
+>> Yeah,
+ go
+ ahead.
+
+
+>> One
+ over
+ there.
+
+
+>> [clears throat]
+
+
+>> It's
+ a
+ great
+ question.
+ Uh,
+ I'll
+ field
+
+
+this.
+
+
+>> Yeah,
+ you
+ should
+ take
+ that.
+
+
+>> Yeah.
+
+
+Uh,
+ so,
+ we
+ actually
+ have
+ this
+ idea
+ of
+
+
+earlier
+ I
+ alluded
+ to
+ the
+ what
+ and
+ the
+
+
+how
+ being
+ two
+ two
+ different
+ two
+
+
+different
+ ideas.
+ Declare
+ the
+ outcome
+ and
+
+
+then
+ the
+ how
+ is
+ a
+ little
+ bit
+ you
+ you
+
+
+leave
+ it
+ open,
+ let
+ the
+ agent
+ figure
+ it
+
+
+out.
+
+
+On
+ that
+ spectrum,
+ you
+ actually
+ do,
+ to
+
+
+your
+ point,
+ at
+ at
+ certain
+ places
+ want
+ to
+
+
+weigh
+ in
+ on
+ the
+ how.
+ And
+ in
+ fact,
+ we
+
+
+have
+ a
+
+
+a
+ feature
+ a
+
+
+syntax
+ that
+ lets
+ you
+ pin
+ the
+ how.
+ And
+ so
+
+
+you
+ can
+ initially
+ declare
+ it
+ very
+ loose.
+
+
+You
+ can
+ let
+ a
+ very
+ intelligent
+ agent
+ run
+
+
+and
+ figure
+ out
+ how
+ to
+ get
+ to
+ the
+ thing
+
+
+that
+ you've
+ declared.
+ And
+ then
+ once
+ it
+
+
+does
+ that,
+ you
+ can
+ say
+ here's
+ the
+ agent
+
+
+trace.
+
+
+Let's
+ take
+ this
+ trace
+ and
+ we
+ will
+ sort
+
+
+of
+ codify
+ it
+ or
+ or
+ I
+ don't
+ know,
+ shrink
+
+
+wrap
+ it
+
+
+into
+ a
+ how.
+ And
+ what
+ that
+ allows
+ us
+ to
+
+
+do
+ is
+ actually
+ drive
+ down
+ the
+ the
+ the
+
+
+cost
+ of
+ completing
+ the
+ workflow.
+ So
+ you
+
+
+you
+ start
+ with
+ a
+ very
+ expensive
+ model,
+
+
+figures
+ it
+ out,
+ and
+ then
+ you
+ sort
+ of,
+ as
+
+
+you
+ say,
+ make
+ it
+ more
+ specific,
+ more
+
+
+deterministic.
+ So
+ you're
+ kind
+ of
+ like
+
+
+shifting
+ the
+ the
+ the
+ the
+ the
+ spectrum
+
+
+from
+
+
+totally
+ at
+ just
+ a
+ what
+ to
+ to
+ how
+ how
+ to
+
+
+do
+ it.
+ And
+ and
+ the
+ cost
+ comes
+ down
+ as
+
+
+you
+ do
+ that.
+
+
+So
+ when
+ we
+ say
+ it's
+ all
+ markdown,
+ that's
+
+
+where
+ you
+ can
+ start
+ it,
+ but
+ then
+ you
+ can
+
+
+move
+ your
+ way
+ to
+ to
+ uh
+ more
+ specific
+
+
+procedural
+ imperative
+ style
+ instructions
+
+
+as
+ well.
+
+
+>> Yeah,
+ I
+ guess
+ a
+ couple
+ comments
+ on
+ that.
+
+
+So
+ one,
+ we
+ do
+ have
+ a
+ system
+ where
+ you
+
+
+can
+ take
+ like
+ a
+ golden
+ session
+ and
+ like
+
+
+the
+ like
+ say
+ make
+ this
+ into
+ a
+ reusable
+
+
+workflow.
+ Like
+ that
+ was
+ the
+ best
+ cloud
+
+
+code
+ session
+ I've
+ ever
+ had.
+ Like
+ I
+
+
+wanted
+ to
+ do
+ cuz
+ that's
+ this
+ is
+ we
+ get
+
+
+this
+ all
+ the
+ time,
+ right?
+ And
+ I
+ think
+
+
+there's
+ there's
+ a
+ part
+ of
+ it
+ where
+ like
+
+
+these
+ things
+ are
+ non-deterministic.
+
+
+I
+ think
+ a
+ lot
+ of
+ the
+
+
+quote-unquote
+ pinned
+ and
+ stable
+
+
+endpoints
+ people
+ have
+ shown
+ actually
+ are
+
+
+changing
+ as
+ all
+ these
+ companies
+ are
+
+
+compute
+ constrained,
+ but
+ I
+ also
+ just
+
+
+think
+ there's
+ this
+ like
+ changing
+
+
+expectations
+ thing,
+ right?
+ Which
+ is
+ like
+
+
+the
+ first
+ time
+ you
+ tried
+ like
+ whatever
+
+
+it
+ was,
+ like
+ Fable
+ or
+ whatever,
+ like
+
+
+blew
+ your
+ blew
+ your
+ mind
+ and
+ you're
+
+
+like,
+ I
+ want
+ whatever.
+ This
+ workflow
+ is
+
+
+so
+ amazing.
+ I
+ want
+ this
+ every
+ time.
+ And
+
+
+then
+ you
+ kind
+ of
+ like
+ boil
+ the
+ frog
+ and
+
+
+like
+ have
+ just
+ different
+ expectations
+
+
+and
+ all
+ of
+ a
+ sudden
+ doesn't
+ happen
+ again
+
+
+and
+ like
+ some
+ of
+ that
+ is
+ just
+
+
+reliability.
+ And
+ so
+ so
+ one
+ thing
+ you
+ can
+
+
+do
+ is
+ like
+ take
+ a
+ really
+ good
+ session
+
+
+and
+ like
+ codify
+ it.
+ But
+ then
+ the
+ other
+
+
+thing,
+ just
+ to
+ give
+ Dan
+ a
+ little
+ bit
+
+
+more
+ credit
+ of
+ like
+ building
+ the
+
+
+framework
+ is
+ like
+ it's
+ not
+ just
+
+
+literally
+ like
+ the
+ markdowns
+ you
+ see
+ are
+
+
+like
+ the
+ tip
+ of
+ the
+ iceberg
+ of
+ what
+ it's
+
+
+seeing.
+ So
+ like
+ the
+ last
+ time
+ I
+ checked
+
+
+the
+ full
+ like
+ system
+ prompt
+ or
+ skill
+ or
+
+
+however
+ you
+
+
+there's
+ I
+ mean
+ it
+ is
+ a
+ skill
+ it
+ is
+ a
+
+
+system
+ prompt
+ is
+ like
+ close
+ to
+ 70,000
+
+
+tokens,
+ 80,000
+ tokens
+ of
+ like
+
+
+>> longer.
+ We're
+ trying
+ to
+ clean
+ it
+ up.
+
+
+We're
+ trying
+ to
+
+
+>> Yeah,
+ well
+ now
+ that
+ the
+ agents
+ are
+
+
+smarter
+ we
+ can
+ make
+ it
+ a
+ little
+ bit
+
+
+shorter.
+ But
+ we
+ basically
+ have
+ this
+ full
+
+
+type
+ system
+ that's
+ like
+ we're
+ overriding
+
+
+markdown
+ with
+ a
+ very
+ very
+ clear
+ type
+
+
+system
+ and
+ a
+ very
+ specific
+ prompt
+ for
+
+
+how
+ the
+ agent
+ is
+ going
+ to
+ deliver
+ this
+
+
+incredibly
+ complex
+ multi-agent
+ um
+
+
+product
+ on
+ the
+ out
+ um
+ but
+ maybe
+ to
+ be
+
+
+explicit
+ about
+ where
+ we
+ don't
+ mess
+ with
+
+
+it
+ is
+ like
+
+
+um
+
+
+So
+ like
+ Claude
+ code
+ when
+ it
+ runs
+ it
+ it
+
+
+has
+ its
+ own
+ system
+ for
+ sub-agents.
+ We
+
+
+don't
+ want
+ to
+ mess
+ with
+ that.
+ We
+ don't
+
+
+want
+ where
+ we
+ don't
+ want
+ our
+ prompt
+ to
+
+
+be
+ um
+
+
+in
+ any
+ way
+ like
+ specific
+ to
+ Claude
+ code
+
+
+cuz
+ Codex
+ has
+ a
+ totally
+ different
+ like
+
+
+set
+ of
+ sub-agents.
+ So
+ the
+ the
+ we're
+ like
+
+
+I
+ don't
+ know,
+ a
+ meta
+ harness,
+ like
+
+
+>> [laughter]
+
+
+>> whatever.
+ We're
+ one
+ layer
+ we
+ want
+ you
+ to
+
+
+bring
+ your
+ own
+ harness.
+ We
+ don't
+ want
+ to
+
+
+be
+ the
+ harness.
+ We
+ want
+ to
+ be
+ this
+ uh
+
+
+thing
+ that
+ is
+ compiled
+ by
+ the
+ harness.
+
+
+So
+ I
+ guess
+ that's
+ a
+ couple
+ pieces
+ of
+
+
+>> Does
+ that
+ answer
+ your
+ question?
+
+
+>> um
+
+
+All
+ right.
+ So
+ if
+ you
+ want
+ to
+ try
+ it,
+
+
+it's
+ um
+ it's
+ here
+ the
+ QR
+ code
+
+
+run.prose.md
+ uh
+ the
+ QR
+ code
+ goes
+ to
+
+
+that.
+ If
+ you
+ want
+ to
+ start
+ playing
+
+
+around
+ with
+ it.
+ Um
+ what
+ I
+ want
+ to
+ do
+
+
+in
+
+
+um
+ showcasing
+ this
+ is
+ to
+
+
+uh
+ show
+ off
+ a
+ couple
+ of
+ things.
+ So,
+
+
+the
+ um
+ the
+ first
+ thing
+ is
+ that
+ um
+
+
+the
+ So,
+ this
+ is
+
+
+the
+ This
+ is
+ a
+ Prose
+ program
+ in
+ the
+ edit
+
+
+mode,
+ right?
+ It
+ is
+ technically
+ Markdown
+
+
+and
+ Dan's
+ overridden
+ like
+ the
+ H3
+ headers
+
+
+with
+ all
+ the
+ types
+ of
+ this
+ thing.
+
+
+But,
+ getting
+ someone
+ to
+ like
+ learn
+ that
+
+
+syntax
+ and
+ write
+ it
+
+
+from
+ scratch,
+ it's
+ kind
+ of
+ a
+
+
+not
+ really
+ the
+ point.
+ Um
+ and
+ so,
+ what
+ we
+
+
+um
+ what
+ we
+ want
+ to
+ do
+ is
+ So,
+ even
+ though
+
+
+everything
+ that
+ executes
+ this
+ program
+ is
+
+
+here,
+ and
+ in
+ fact,
+ I've
+ for
+ the
+ real
+
+
+nerds
+ in
+ the
+ audience,
+ you
+ can
+ see
+ that
+
+
+I've
+ over
+ I've
+ taken
+ the
+ front
+ matter
+ of
+
+
+the
+ Markdown
+ file,
+ and
+ that
+ is
+ actually
+
+
+all
+ of
+ the
+ stuff
+ that's
+ happening
+ in
+ the
+
+
+cloud.
+ So,
+ I
+ could
+ take
+ this
+ program
+
+
+and
+ export
+ it
+ as
+ a
+ pure
+ Markdown
+ file
+
+
+and
+ go
+ send
+ it
+ to
+ my
+ friend,
+ and
+ they'll
+
+
+it'll
+ upload
+ in
+ their
+ cloud
+ this
+ the
+
+
+exact
+ same
+ way
+
+
+um
+ to
+ keep
+ it
+ like
+ composable
+ and
+ keep
+
+
+it
+ true
+ to
+ that
+ idea
+ of
+ that
+ we're
+ pure
+
+
+Markdown.
+
+
+Um
+
+
+anyways,
+ the
+ whole
+ idea
+ is
+ like
+ even
+
+
+though
+ that
+ is
+ the
+ thing
+ and
+ we'd
+ want
+
+
+you
+ to
+ be
+ reading
+ this
+ thing,
+ it's
+ not
+
+
+like
+ the
+ entry
+ point.
+ So,
+ what
+ I've
+
+
+built
+ instead
+ is
+ um
+ an
+ agent
+ which
+
+
+hopefully
+ will
+
+
+talk
+ to
+ me
+ here.
+
+
+>> Hi,
+ it's
+ Prose.
+ What
+ are
+ you
+ hoping
+ to
+
+
+get
+ done
+ today?
+
+
+>> Okay,
+ so
+ uh
+ every
+ time
+ I
+ have
+ a
+ new
+ pull
+
+
+request,
+ I
+ want
+ you
+ to
+ um
+ write
+ me
+ a
+
+
+Prose
+ program
+ in
+ my
+ run-prose
+ repo
+ that
+
+
+will
+ review
+ it
+ as
+ if
+ you
+ are
+ a
+ a
+ grumpy
+
+
+senior
+ developer
+ who
+ doesn't
+ like
+
+
+AI-generated
+ code.
+
+
+>> Sure,
+ I
+ can
+ do
+ that.
+ Hang
+ on.
+
+
+>> Okay.
+
+
+So,
+ I'm
+ going
+ to
+ mute
+ myself.
+
+
+So,
+ it's
+ it's
+ talking.
+ It's
+ going
+ to
+ try
+
+
+to
+ figure
+ this
+ out.
+ And
+ the
+ the
+ whole
+
+
+idea
+ is
+ like
+ anything
+
+
+So,
+ anything
+ that
+ can
+ charge
+ money
+ or
+
+
+spend
+ money,
+ you
+ have
+ to
+ confirm.
+ I
+
+
+think
+ that's
+ like
+ a
+ best
+ practice.
+ Um
+
+
+Oh,
+ yeah.
+
+
+Great.
+ So,
+ I
+ had
+ to
+ confirm
+ cuz
+ that
+
+
+that
+ action
+ costs
+ money
+ for
+ it
+ to
+ So,
+
+
+that's
+ the
+ pros
+ rate
+ function.
+ So,
+ it
+
+
+basically
+ takes
+ my
+ query
+ and
+ is
+ going
+ to
+
+
+generate
+ a
+ new
+ program
+ um
+ from
+ that
+
+
+including
+ all
+ the
+ wiring.
+ This
+ step
+ is
+
+
+going
+ to
+ take
+ a
+ little
+ bit
+ longer.
+ So,
+
+
+while
+ that's
+ running,
+ I'll
+ show
+ like
+ the
+
+
+manual
+ way
+ of
+ doing
+ that.
+ Which
+ is
+ in
+
+
+the
+ jobs
+ tab.
+ I
+ don't
+ know
+ why
+ this
+ is
+
+
+cutting
+ out.
+ Um
+ in
+ the
+ jobs
+ tab,
+ we
+ can
+
+
+go
+ here,
+ make
+ a
+ new
+ job.
+ The
+ the
+ uh
+ on
+ a
+
+
+schedule
+ is
+ just
+ a
+ cron
+ job.
+ We
+ have
+ a
+ a
+
+
+web
+ hook
+ that's
+ open-ended.
+ So,
+ like
+ you
+
+
+can
+ have
+ yourself
+ or
+ your
+ agent
+ um
+
+
+either
+ use
+ our
+ specific
+ web
+ hook
+ or
+ like
+
+
+wire
+ our
+ thing
+ to
+ listen
+ to
+ your
+ web
+
+
+hook.
+ But
+ for
+ Git
+ GitHub,
+ um
+
+
+so,
+ I'll
+ do
+ the
+ same
+ one.
+ So,
+ for
+ GitHub
+
+
+pull
+ requests,
+ we
+ make
+ that
+ easy.
+
+
+Um
+ we're
+ going
+ to
+ do
+ it
+ in
+ the
+ run.pros.
+
+
+We're
+ going
+ to
+
+
+uh
+ I've
+ just
+ pre-wired
+ this
+ contract.
+
+
+It's
+ like,
+ "Okay,
+ you're
+ going
+ to
+ review
+
+
+my
+ thing."
+ And
+ then
+ I
+ can
+ pick,
+ you
+
+
+know,
+ what
+
+
+uh
+ model
+ that
+ they
+ have.
+ We'll
+ we'll
+ add
+
+
+more
+ uh
+ later.
+ Right
+ now,
+ we
+ have
+ the
+
+
+the
+ like
+ top
+ three
+ from
+
+
+uh
+ OpenAI.
+
+
+Uh
+ and
+ then
+ I
+ would
+ just
+ uh
+
+
+create
+ that
+ and
+ deploy
+ that.
+ So,
+
+
+then
+ the
+ other
+ thing
+ while
+ this
+ um
+
+
+this
+ one's
+ working
+ that
+ I
+ want
+ to
+ show
+
+
+is
+ how
+ I've
+ actually
+ been
+ using
+ that
+ as
+
+
+back
+ pressure.
+ So,
+ the
+ main
+ thing
+
+
+Don't
+ get
+ too
+ hung
+ up
+ on
+ the
+ um
+
+
+whatever,
+ the
+ content
+ up
+ here.
+ But
+ the
+
+
+thing
+ that
+ I
+ want
+ to
+ show
+ you
+ here
+ is
+
+
+like
+ the
+
+
+the
+ the
+ volume.
+ So,
+ like
+ in
+
+
+whatever
+ that
+ is,
+ like
+ this
+ entire
+ thing
+
+
+is
+ goes
+ back
+ to
+ 3
+ days
+ ago,
+ but
+ then
+ if
+
+
+I
+ go
+ here,
+ like
+ these
+ are
+ all
+ still
+ from
+
+
+3
+ days
+ ago
+ or
+ 4
+ days
+ ago.
+
+
+Or
+ so,
+ like
+ in
+ the
+ span
+ of
+ a
+ few
+ days,
+
+
+this
+ is
+ doing
+ like
+ dozens
+ and
+ dozens
+ and
+
+
+dozens
+ of
+ PRs,
+ and
+ every
+ time
+ I'm
+ asking
+
+
+for
+ a
+ new
+ feature
+ about
+ this
+ GitHub
+ was
+
+
+webhooks
+ feature
+ that
+ I
+ wanted
+ to
+ have
+
+
+ready
+ for
+ this
+ event,
+ uh
+ every
+ single
+
+
+one
+ of
+ those
+ is
+ firing
+ off
+ like
+ a
+ series
+
+
+of
+ review
+ agents
+ where
+ it's
+ like
+ so
+ some
+
+
+of
+ them
+ are
+ simple
+ like
+ okay,
+ this
+ one
+
+
+clearly
+ seems
+ to
+ have
+ worked
+ right
+ away.
+
+
+So,
+ there's
+ only
+ one
+ round.
+ Uh
+ some
+ of
+
+
+these
+ had,
+
+
+you
+ know,
+ 14
+
+
+rounds
+ of
+ review
+ before
+
+
+uh
+ it
+ felt
+ like
+ the
+ reviewer
+ agents
+ were
+
+
+like
+ aligned
+ and
+ it
+ let
+ this
+ thing
+ pass.
+
+
+Um
+ and
+ even
+ just
+ today,
+ like
+ I
+ noticed
+
+
+something
+ that
+ I
+ didn't
+ love
+ about
+ um
+
+
+how
+ it
+ was
+ doing
+ it,
+ and
+ I
+ was
+ able
+ to
+
+
+um
+ you
+ know,
+ basically
+ say
+ okay,
+
+
+um
+ on
+ our
+ staging
+ server,
+ you
+ know,
+
+
+don't
+ mess
+ with
+ production.
+ I'm
+ about
+ to
+
+
+give
+ a
+ talk.
+ On
+ the
+ staging
+ server,
+ I
+
+
+want
+ you
+ to
+ like
+ change
+ the
+ things
+ the
+
+
+exact
+ ways
+ in
+ which
+ this
+ will
+ get
+
+
+triggered,
+ but
+ you
+ have
+ to
+ use
+ the
+
+
+system
+ yourself.
+ So,
+ um
+ like
+ both
+ our
+
+
+dev
+ version
+ of
+ this
+ and
+ our
+ prod
+ version
+
+
+of
+ this
+ are
+ giving
+ different
+ reviews.
+ Um
+
+
+and
+ now
+ the
+ agent
+ that's
+ running
+
+
+uh
+ here,
+
+
+uh
+ which
+ we
+ can
+ see
+ all
+ the
+ different
+
+
+jobs
+ in
+ the
+ the
+ runs
+ tab
+ here,
+
+
+essentially
+ like
+ cannot
+ consider
+ its
+ job
+
+
+to
+ be
+ complete
+ until
+ it's
+ like
+ um
+
+
+a
+ a
+ like
+ um
+ like
+ my
+ developer
+ agents
+
+
+have
+ like
+ have
+ to
+ take
+ that
+ feedback
+
+
+into
+ account.
+
+
+>> And just
+ to
+ emphasize
+ like
+ what's
+
+
+different
+ about
+ something
+ like
+ this
+ from
+
+
+any
+ other
+ chat-based
+ or
+ or
+ agent-based
+
+
+flow
+ that
+ you've
+ seen
+ is
+ all
+ of
+ these
+
+
+are
+ getting
+ compared
+ against
+ a
+ contract.
+
+
+So,
+ you
+ could
+ think
+ of
+ it
+ as
+ a
+ fresh
+
+
+session
+ every
+ time
+ is
+ getting
+
+
+benchmarked
+ against
+ this
+ contract
+ that
+
+
+you've
+ written
+ declaratively,
+ which
+ as
+
+
+as
+ Raymond
+ alluded
+ to
+ earlier,
+ gets
+ the
+
+
+models
+ out
+ of
+ this
+ like
+ self-confidence
+
+
+loop
+ where
+ you
+ don't
+ want
+ the
+ same
+ model
+
+
+checking
+ the
+ thing
+ that
+ was
+ done.
+ So,
+
+
+you're
+ spawning
+ new
+ sessions
+ and
+ and
+
+
+bouncing
+ them
+ off
+ of
+ a
+ contract,
+ which
+
+
+is
+ I
+ just
+ a
+ better
+ uh
+ pattern
+ for
+ for
+
+
+how
+ to
+ do
+ it.
+ Yeah,
+ go
+ ahead.
+
+
+>> Yeah.
+
+
+>> But,
+ doesn't
+ [clears throat]
+ it
+ seem
+
+
+like
+ a
+ great
+ opportunity
+ for
+ one-shot
+
+
+classifiers
+ like
+ Jeff?
+
+
+>> Yeah.
+ So,
+ they
+ um
+
+
+>> We
+ have
+ a
+ lot
+ of
+ good
+ stuff
+ in
+ the
+ pipe.
+
+
+So,
+ so
+ the
+ idea
+ of
+ checking
+ against
+ a
+
+
+contract
+ and
+ and
+ verifying
+ it.
+ Sorry,
+
+
+Raymond.
+
+
+>> Yeah.
+
+
+>> Uh
+ it
+ it
+ is
+ super
+ exciting
+ on
+ these
+
+
+decision
+ models
+ where
+ uh
+ you
+ you
+ have
+ a
+
+
+contract,
+ which
+ is
+ some
+ ideal
+ state,
+ and
+
+
+then
+ you
+ have
+ your
+ messy
+ real-world
+
+
+state,
+ and
+ you
+ can
+ apply
+ a
+ general
+ class
+
+
+decision
+ model
+ like
+ like
+ Jeff
+ to
+ say,
+ is
+
+
+this
+ is
+ this
+ passing
+ or
+ not?
+
+
+>> So,
+ I
+ think
+
+
+>> in
+ this,
+ but
+ it's
+ coming.
+
+
+>> Yeah,
+ and
+ I
+ think
+ I
+ think
+ without
+ um
+
+
+like
+
+
+Dan,
+ again,
+ we're
+ going
+ a
+ lot
+ off
+
+
+script,
+ but
+ it's
+ a
+ great
+ question,
+ and
+
+
+uh
+ the
+ great
+ Jeff-ification
+ is
+ upon
+ us.
+
+
+So,
+ we
+ need
+ to
+ speak
+ to
+ this.
+ Um
+
+
+is
+ uh
+ I
+ think
+ Dan
+ and
+ I
+ both
+
+
+been
+ thinking
+ about
+ this
+ a
+ lot
+ and
+
+
+realized
+ that
+ like
+
+
+um
+
+
+OpenPros
+ itself,
+ the
+ language
+ that's
+ all
+
+
+markdown,
+ I
+ think
+ does
+ not
+ have
+ any
+
+
+place
+ in
+
+
+the
+ Jeff
+ land
+ because
+ they're
+ not
+
+
+generative.
+ Like,
+ so
+ the
+ whole
+ idea
+ of
+
+
+the
+ lang-
+ like
+ it
+ generating
+ a
+ language
+
+
+and
+ understanding
+ a
+ language,
+ like
+ it
+
+
+uh
+ it's
+ not
+ that.
+ But,
+ I
+ think
+ the
+ the
+
+
+two
+ places
+ where
+ we
+ think
+ it
+ would
+ fit
+
+
+really
+ well,
+ and
+ in
+ particular
+ with
+ the
+
+
+hosted
+ run.pros,
+ is
+ one
+ on
+ the
+ back
+ end.
+
+
+So,
+ the
+ the
+ downside
+ or
+ the
+ weakness
+ of
+
+
+OpenPros
+ is
+ it
+ is
+ you
+ are
+ letting
+ the
+
+
+agent
+ say,
+ "I
+ have
+ met
+ the
+ contract.
+
+
+Here
+ it
+ is."
+ Right?
+ And
+ so,
+ I'll
+ often
+
+
+say
+ to
+ people
+
+
+uh
+ like
+ the
+ intent
+ behind
+ OpenPros
+ is
+
+
+similar
+ to
+ something
+ like
+ DSPy
+ where
+ you
+
+
+want
+ to
+ have
+ like
+ this
+ abstraction
+ layer
+
+
+over
+ which
+ you
+ can
+ express
+ very
+ complex
+
+
+workflows.
+
+
+The
+ implementation
+ is
+ the
+ exact
+ opposite
+
+
+of
+ DSPy.
+ DSPy
+ is
+ like
+ every
+ LLM
+ call
+ is
+
+
+a
+ black
+ box
+ and
+ you
+
+
+you
+ isolate
+ the
+ crap
+ out
+ of
+ that
+ thing.
+
+
+It's
+ all
+ deterministic
+ code.
+ It's
+ all
+
+
+typed
+ interfaces
+ to
+ like
+ only
+ let
+ the
+
+
+black
+ box
+ do
+ that
+ thing.
+ Dan's
+ approach
+
+
+with
+ open
+ prose
+ is
+ the
+ exact
+ opposite
+
+
+which
+ is
+ like
+ AI
+ is
+ getting
+ smart
+ enough
+
+
+to
+ be
+ the
+ compiler.
+ Like
+ let
+ everything
+
+
+be
+ in
+ fuzzy
+ land.
+
+
+So
+ the
+ the
+ the
+ weakness
+ of
+ it
+ though
+ is
+
+
+like
+ if
+ you
+ run
+ it
+ on
+ Haku
+ or
+ you
+ run
+ it
+
+
+on
+ Fable
+ you're
+ going
+ to
+ get
+ a
+ very
+
+
+different
+ result
+ and
+ and
+ you're
+ also
+
+
+letting
+ it
+ say
+ I'm
+ done.
+ So
+ I
+ think
+ a
+
+
+very
+ natural
+ place
+ for
+ like
+ uh
+ Jev
+ or
+
+
+these
+ new
+ like
+ decision
+ models
+ or
+
+
+whatever
+ we
+ want
+ to
+ call
+ them
+ system
+ one
+
+
+models
+ is
+ like
+ you
+ were
+ saying
+ like
+ as
+ a
+
+
+verifier
+ on
+ the
+ end
+ of
+ the
+ job
+ like
+ very
+
+
+very
+ fast
+ and
+ cheap.
+ Um
+ and
+ then
+ the
+
+
+other
+ thing
+ that
+ I
+ want
+ to
+ build
+ that's
+
+
+relevant
+ to
+ this
+ this
+ is
+ like
+ a
+ router.
+
+
+So
+ like
+ why
+ would
+ I
+ have
+ to
+ go
+ click
+ the
+
+
+button
+ that
+ like
+ oh
+ issues
+ go
+ to
+ the
+
+
+issue
+ job
+ but
+ PRs
+ go
+ to
+ the
+ PR
+ review
+
+
+job.
+ Why
+ don't
+ I
+ just
+ say
+ like
+
+
+okay
+ all
+ the
+ GitHub
+ events
+ that
+ come
+ in
+
+
+like
+ you
+ know
+ solve
+ the
+ issues
+ review
+
+
+the
+ PRs
+ right?
+
+
+Another
+ question.
+
+
+>> Don't
+ give
+ them
+ any
+ more
+ ideas
+ about
+ the
+
+
+game.
+
+
+>> Okay.
+
+
+>> I
+ know
+ I
+ was
+ going
+ to
+ say
+ I
+ was
+ going
+ to
+
+
+>> [laughter]
+
+
+>> Thank
+ you.
+
+
+It's
+ just
+ topical
+ on
+ the
+ Twitter
+ sphere
+
+
+at
+ the
+ exact
+ moment
+ that
+ like
+ why
+
+
+wouldn't
+ you
+ just
+ RL
+ this?
+ Like
+ if
+ I
+ got
+
+
+all
+ these
+ beautiful
+ runs
+ here
+ against
+
+
+the
+ contract
+ why
+ am
+ I
+ not
+ just
+ RLing
+
+
+this?
+
+
+>> So
+
+
+So
+ one
+ of
+ the
+ ideas
+ back
+ to
+ the
+ language
+
+
+question
+ is
+ one
+ of
+ the
+ ideas
+ of
+ like
+ why
+
+
+why
+ are
+ we
+ doing
+ this
+ at
+ all
+ in
+
+
+language?
+ Like
+ the
+ original
+ human
+ side
+
+
+of
+ this
+ is
+ like
+
+
+you
+ can
+ commit
+ it
+ to
+ get
+ and
+ you
+ can
+
+
+version
+ control
+ it
+ or
+ you
+ can
+
+
+you
+ know
+ use
+ it
+ in
+ notion
+ or
+ or
+ Jira
+ and
+
+
+and
+ have
+ anybody
+ on
+ your
+ team
+ using
+ it.
+
+
+But
+ from
+ from
+ a
+ engineering
+ side
+ it's
+
+
+the
+ fact
+ that
+ it's
+ all
+ text
+ is
+ like
+
+
+perfect
+ and
+ beautiful
+ for
+ for
+ RL.
+ So,
+
+
+we're
+ not
+ doing
+ that
+ right
+ now,
+ but
+ like
+
+
+that's
+ absolutely
+ something
+ we're
+
+
+talking
+ with
+ various
+ prospects
+ about
+ is
+
+
+like
+ once
+ you
+ have
+ all
+ of
+ your
+ stuff
+
+
+written
+ as
+ text,
+ this
+ is
+ like
+
+
+>> Yeah.
+
+
+>> a
+ whole
+ lot
+ better
+ for
+ for
+ RL.
+
+
+>> Yeah,
+ we
+ haven't
+ hit
+ volumes
+ where
+ this
+
+
+is
+ important,
+ but
+ like
+ if
+ you
+ are
+
+
+hosting
+ the
+ model
+ and
+ you
+ have
+ this
+
+
+100,000-ish
+ token
+ prefix,
+ then
+ you
+ can
+
+
+like
+ just
+ it
+ or
+ you
+ like,
+ you
+ know,
+
+
+build
+ these
+ um
+
+
+more
+ token
+ efficient
+ representations.
+
+
+So,
+
+
+um
+
+
+Yeah,
+ if
+ someone
+ wants
+ to
+ do
+ a
+ trillion
+
+
+tokens
+ in
+ Open
+ Pros,
+ we'll
+ happily
+ just
+
+
+it
+ for
+ you.
+ Um
+ So,
+ anyways,
+ to
+ go
+ back,
+
+
+thank
+ you.
+ Those
+ are
+ Those
+ are
+ really
+
+
+good
+ ones.
+ We
+ now
+ have
+ our
+ grumpy
+ senior
+
+
+pull
+ request
+ review.
+
+
+Um
+ and
+ again,
+ like
+ the
+ key
+ idea
+ is
+ so
+
+
+the
+ agent
+ did
+ all
+ that
+ for
+ us.
+ The
+ key
+
+
+idea
+ here
+ is
+ um
+
+
+uh
+ like
+ the
+ by
+ deploying
+ this
+ job,
+ like
+
+
+this
+ will
+ now
+ start
+ spending
+ money
+ when
+
+
+whenever
+ we
+ get
+ a
+ new
+ PR,
+ so
+ I
+ have
+ to
+
+
+click
+ that.
+ So,
+ then
+ I'm
+ going
+ to
+
+
+confirm
+ that.
+ And
+ then
+ once
+ this
+ is
+
+
+deployed,
+ it'll
+ go
+ when
+ I
+ go
+ back
+ over
+
+
+to
+ my
+ jobs,
+ it
+ will
+ um
+
+
+it
+ will
+ look
+ exactly
+ like
+ uh
+ let's
+ see.
+
+
+So,
+ if
+ we
+ just
+ Oops,
+ I
+ did
+
+
+switch
+ that.
+
+
+Once
+ this
+ loads,
+ we
+ should
+ see
+
+
+and
+ the
+ grumpy
+ one
+ is
+ at
+ the
+ top
+ or
+ the
+
+
+bottom.
+
+
+Yeah,
+ here
+ we
+ go.
+ Grumpy
+ AI
+ skeptic
+ PR
+
+
+review.
+ So,
+
+
+um
+ you
+ can
+ see
+ I
+ was
+ practicing
+ earlier.
+
+
+Um
+
+
+Okay.
+ So,
+
+
+let's
+ see
+ what
+ in
+ terms
+ of
+ this.
+ I
+ think
+
+
+those
+ are
+ the
+ main
+ things.
+ Um
+
+
+Yeah,
+ I'm
+ in
+ charge
+ of
+ run.pros.md,
+ so
+
+
+if
+ you
+ run
+ into
+ any
+ issues,
+ don't
+ tell
+
+
+my
+ boss,
+ you
+ just
+ send
+ it
+ straight
+ to
+
+
+me.
+
+
+Uh
+ and
+ my
+ agents
+ will
+ uh
+ take
+ care
+ of
+ it
+
+
+for
+ you.
+
+
+Um
+
+
+but
+ yeah,
+ I'm
+ really
+ excited
+ about
+ this
+
+
+as
+ just
+ like
+ a
+ a
+ simple,
+ easy-to-use
+ um
+
+
+um
+ way
+ for
+ having
+ these
+ like
+ event-based
+
+
+systems.
+ If
+ you
+ want
+ to
+ see
+ other
+
+
+triggers
+ or
+ other
+ features
+ then
+ that's
+
+
+really
+ fun
+ for
+ me.
+ But
+ again,
+ you
+ don't
+
+
+need
+ to
+ use
+ the
+ hosted
+ thing
+ at
+ all
+ and
+
+
+like
+ you
+ can
+ uh
+
+
+you
+ can
+ use
+ the
+ um
+ the
+ skill
+ instead
+ NPX
+
+
+skills
+ add
+ open
+ prose
+ prose.
+ Um
+ but
+ now
+
+
+uh
+ with
+ that
+ Dan
+ is
+ going
+ to
+ um
+
+
+go
+ through
+ a
+ specific
+ example
+ that
+ is
+
+
+for
+ [clears throat]
+ our
+ finance
+ friends
+
+
+um
+ and
+ we're
+ going
+ to
+ show
+ that
+ one
+
+
+uh
+ in
+
+
+Codex
+ and
+ then
+ he'll
+ use
+ that
+ as
+ an
+
+
+opportunity
+ to
+ talk
+ a
+ little
+ bit
+ more
+
+
+about
+ how
+ all
+ this
+ works
+ under
+ the
+ hood.
+
+
+>> Yep.
+ Thank
+ you.
+
+
+>> Sure.
+
+
+>> Um
+ so
+
+
+getting
+ that
+ working
+ in
+ the
+ cloud
+ is
+ is
+
+
+interesting.
+ One
+ of
+ the
+ more
+ interesting
+
+
+use
+ cases
+ that
+ we've
+ been
+ talking
+ about
+
+
+with
+ various
+ customers
+ and
+ prospects
+ is
+
+
+um
+
+
+you
+ can
+ this
+ is
+
+
+this
+ is
+ a
+ framework
+ or
+ a
+ language
+ or
+
+
+pattern
+ that
+ you
+ can
+ build
+ in
+ house
+ and
+
+
+you
+ can
+ use
+ you
+ can
+ run
+ it
+ on
+ prem.
+ The
+
+
+whole
+ idea
+ here
+ is
+ that
+ you
+ can
+ run
+ it
+
+
+on
+ prem.
+ You
+ don't
+ need
+ to
+ use
+ our
+ cloud
+
+
+version
+ of
+ it.
+ We'd
+ love
+ you
+ to
+ try
+ it
+
+
+out
+ in
+ the
+ cloud
+ and
+ and
+ and
+ and
+ play
+
+
+with
+ it
+ get
+ a
+ get
+ a
+ feel
+ for
+ that.
+ Um
+
+
+but
+ if
+ this
+ is
+ something
+ that
+ you
+ want
+
+
+to
+ implement
+ uh
+ inside
+ your
+ organization
+
+
+the
+ most
+ interesting
+ use
+ case
+ that
+ we're
+
+
+seeing
+ is
+ on
+ top
+ of
+ open
+ models
+ on
+ top
+
+
+of
+ your
+ own
+ harness
+ bring
+ your
+ own
+
+
+harness
+ and
+ then
+ use
+ this
+ as
+ kind
+ of
+ the
+
+
+application
+ layer
+ on
+ on
+ top
+ of
+ that
+ and
+
+
+that
+ lets
+ you
+ build
+ this
+ full
+ stack
+ in
+
+
+house.
+ You
+ don't
+ have
+ to
+ ship
+ any
+ of
+
+
+your
+ data
+ out
+ to
+ the
+ labs.
+ More
+
+
+important
+ than
+ your
+ data,
+ you
+ don't
+ have
+
+
+to
+ ship
+ out
+ your
+ institutional
+
+
+We
+ like
+ to
+ think
+ of
+ open
+ prose
+ actually
+
+
+as
+ like
+ institutional
+ operational
+
+
+knowledge
+ as
+ documentation,
+ right?
+ Think
+
+
+of
+ it
+ as
+ like
+ standard
+ operating
+
+
+procedures.
+ So
+ even
+ more
+ important
+ than
+
+
+your
+ data
+ is
+ you
+ don't
+ want
+ to
+ be
+
+
+shipping
+ your
+ standard
+ operating
+
+
+procedure
+ out
+ to
+ the
+ big
+ labs.
+
+
+Um
+ and
+ so
+ so
+ this
+ fits
+ really
+ nicely
+ in
+
+
+this
+ stack
+ of
+ of
+ open
+ open
+ source
+
+
+application
+ layer
+
+
+sits
+ on
+ top.
+ We
+ we
+ publish
+ this
+ open
+
+
+open
+ core.
+ Uh
+ it
+ has
+ a
+ permissive
+
+
+license.
+ You
+ can
+ bring
+ it
+ in
+ house
+ and
+
+
+and
+ use
+ it.
+ We
+ have
+ a
+ number
+ of
+ big
+
+
+companies
+ who
+ are
+ are
+ already
+ doing
+
+
+that.
+ Um
+ and
+ and
+ you
+ can
+ bring
+ your
+ own
+
+
+harness.
+ You
+ can
+ use
+ it
+ with
+ the
+
+
+approved
+ models
+ that
+ your
+ company
+
+
+already
+ has.
+ Uh
+ so
+ you
+ don't
+ have
+ to
+
+
+feel
+ like
+ you're
+ throwing
+ data
+ or
+ your
+
+
+organization's
+ knowledge
+ over
+ the
+ wall.
+
+
+Um
+ this
+ is
+ just
+ I
+ mean
+ a
+ a
+
+
+we
+ can
+ get
+ into
+ this
+ a
+ little
+ bit
+ and
+ I
+
+
+want
+ to
+ field
+ more
+ questions.
+ Um
+ this
+ is
+
+
+a
+ a
+ workflow
+ that
+ we're
+ building
+ out
+ for
+
+
+a
+ customer
+ um
+ that
+ is
+ interested
+ in
+
+
+using
+ OpenProse
+ to
+ document
+ their
+ quant
+
+
+models.
+ So
+ uh
+ for
+ those
+ of
+ you
+ who
+ are
+
+
+familiar,
+
+
+um
+ quant
+ models
+ have
+ all
+ sorts
+ of
+
+
+regulatory
+ um
+
+
+um
+ commitments
+ whereby
+ every
+ every
+ 3
+
+
+years
+ or
+ every
+ 1
+ year
+ or
+ on
+ certain
+
+
+event
+ changes,
+ you
+ need
+ to
+ update
+ the
+
+
+the
+ model
+ documentation
+ for
+ these
+ quant
+
+
+models.
+ So
+ this
+ is
+ normally
+ a
+ process
+
+
+that
+ we
+ found
+ in
+ our
+ experience
+ that
+ is
+
+
+uh
+ human
+ white
+ collar,
+ very
+ smart
+ person
+
+
+intensive,
+ right?
+ These
+ people
+ uh
+ maybe
+
+
+some
+ of
+ you
+ probably
+ spend
+ a
+ a
+ share
+ of
+
+
+your
+ your
+ year
+ going
+ through
+ and
+ and
+
+
+writing
+ documentation.
+ That
+ documents
+
+
+what
+ your
+ model's
+ being
+ used
+ for,
+ under
+
+
+what
+ conditions
+ was
+ it
+ tested,
+ under
+ um
+
+
+uh
+ who
+ who
+ what
+ other
+ models
+ reference
+
+
+it
+ upstream,
+ and
+ a
+ whole
+ slew
+ of
+ other
+
+
+required
+ These
+ are
+ obviously
+ required
+ by
+
+
+the
+ regulators
+ and
+ your
+ internal
+
+
+auditors
+ and
+ your
+ internal
+ compliance.
+
+
+Um
+ so
+ this
+ is
+ this
+ is
+ a
+ a
+ flow
+ that
+ that
+
+
+we've
+ found
+ success
+ running.
+
+
+Uh
+ it's
+ it's
+ perfect
+ because
+ in
+ some
+
+
+ways
+ the
+ regulatory
+ docs
+ are
+ like
+ an
+
+
+OpenProse
+ program,
+ right?
+ And
+ so
+ this
+
+
+these
+ are
+ requirements
+ written
+ as
+ prose.
+
+
+Um
+ and
+ and
+ so
+ I'm
+ going
+ to
+ kick
+ off
+
+
+You
+ can
+ see
+ here
+ uh
+
+
+we're
+ in
+ Codex.
+ You
+ You
+ run
+ this
+ in
+
+
+Cloud
+ Code.
+ You
+ could
+ run
+ this
+ on
+ your
+
+
+own
+ harness.
+ The
+ whole
+ point
+ is
+ that
+
+
+this
+ is
+ harness
+ agnostic.
+
+
+Uh
+ so
+ we
+ we
+ just
+ say
+ boot
+ the
+ kernel.
+
+
+Uh
+ and
+ then
+ pros
+ run
+ and
+ then
+ a
+ specific
+
+
+program.
+ And
+ so
+ I'm
+ going
+ to
+ kick
+ this
+
+
+off
+ and
+ while
+ it
+ runs
+ I
+ can
+ show
+ you
+
+
+like
+ what
+ the
+ kernel
+ looks
+ like
+
+
+uh
+ and
+ then
+ what
+ the
+ program
+ itself
+
+
+looks
+ like.
+
+
+Um
+ just
+ go
+ back
+ to
+ Chrome.
+
+
+And
+ then
+
+
+>> Right
+ there.
+
+
+>> It's
+ uh
+
+
+that
+ one.
+
+
+So
+ this
+ is
+ the
+ kernel.
+ Um
+
+
+it's
+ markdown.
+ It's
+ not
+ intended
+ to
+ be
+
+
+read
+ by
+ you
+ which
+ is
+ why
+ it's
+ formatted
+
+
+like
+ this.
+ We
+ originally
+ had
+ it
+ in
+ a
+
+
+nice
+ looking
+ format
+ and
+ people
+
+
+complained.
+ They're
+ like,
+ "What
+ is
+
+
+this?"
+
+
+Uh
+ it's
+ meant
+ to
+ be
+ read
+ by
+ the
+ agents.
+
+
+Uh
+ and
+ it's
+ just
+ markdown.
+ It's
+
+
+operating
+ instructions
+ for
+ what
+ to
+
+
+expect.
+ You
+ could
+ think
+ of
+ it
+ a
+ lot
+ like
+
+
+a
+ a
+ bootloader
+ or
+ a
+ resolution
+ path,
+ a
+
+
+an
+ index
+
+
+uh
+ system,
+ a
+ way
+ of
+ finding
+ other
+
+
+documents
+ that
+ you
+ that
+ that
+ the
+ that
+
+
+the
+ agent
+ needs.
+ Um
+
+
+and
+ then
+ the
+ program
+ itself
+
+
+looks
+ and
+ again
+ this
+ is
+ what
+ I
+
+
+referenced
+ in
+ Codex
+ looks
+ very
+ similar.
+
+
+So
+ this
+ is
+ again
+ markdown.
+ It
+ contains
+ a
+
+
+whole
+ slew
+ of
+ the
+ requirements
+ that
+ the
+
+
+regulators
+ and
+ the
+ compliance
+ and
+ the
+
+
+auditors
+ are
+ looking
+ for.
+
+
+Uh
+ and
+ this
+ specifies,
+ you
+ know,
+
+
+uh
+ the
+ ideal
+ state
+ of
+ of
+ the
+ end
+ result
+
+
+is
+ going
+ to
+ comply
+ with
+ this
+ contract.
+
+
+Uh
+ and
+ so
+ those
+ are
+ the
+ only
+ two
+ things
+
+
+you
+ pass
+ in.
+ You
+ just
+ pass
+ in
+ the
+ kernel
+
+
+which
+ is
+ published
+ publicly.
+ You
+ can
+ all
+
+
+download
+ that
+ right
+ now
+ uh
+ and
+ and
+ and
+
+
+try
+ it
+ out
+ and
+ then
+ write
+ any
+ program
+
+
+that
+ you
+ want,
+ any
+ contract
+ that
+
+
+requires
+ some
+ complex
+ um
+
+
+set
+ of
+ conditions
+ to
+ satisfy
+ and
+ then
+
+
+the
+ agents
+ are
+ just
+ going
+ to
+ chug
+ and
+
+
+and
+ the
+ you
+ know,
+ the
+ better
+ the
+
+
+harness,
+ the
+ better
+ the
+ model,
+ the
+ the
+
+
+faster
+ and
+ the
+ cheaper
+ that
+ they
+ will
+
+
+produce
+ the
+ output.
+ Uh
+ but
+ the
+ idea
+ is
+
+
+that
+ that
+ you're
+ you're
+ declaring
+ the
+
+
+the
+ result
+ rather
+ than
+ declaring
+ how
+ to
+
+
+how
+ to
+ go
+ about
+ about
+ doing
+ it.
+
+
+Um
+
+
+Let's
+ see
+ we
+ can
+ poke
+ back
+ and
+ see.
+ We
+
+
+ran
+ this
+ with
+ a
+ a
+ relatively
+ cheap
+ model
+
+
+here
+ so
+ that
+ it
+ would
+ run
+ faster.
+
+
+Uh
+ but
+ it's
+ still
+ working.
+
+
+Um
+
+
+Oh,
+ it
+ looks
+ like
+ it's
+ finishing
+ up.
+ So,
+
+
+this
+ is
+ I
+ mean
+ this
+ is
+ the
+ document
+ that
+
+
+it
+ produced.
+ So,
+ in
+ this
+ case
+ we're
+
+
+we're
+ we're
+ um
+ creating
+ documentation
+
+
+for
+ the
+ sofa
+ curve.
+ It's
+ a
+ public
+ uh
+
+
+model.
+ So,
+ we're
+ not
+ showing
+ any
+ any
+ uh
+
+
+internal
+ uh
+ bank
+ data
+ here.
+ Um
+ and
+ this
+
+
+I
+ don't
+ know.
+ Raise
+ a
+ hand.
+ Anybody
+ Are
+
+
+there
+ any
+ like
+ quants
+ in
+ the
+ room?
+
+
+To
+ review
+ it?
+
+
+How
+ does
+ this
+ How
+ does
+ this
+ look?
+
+
+Yeah,
+ [laughter]
+ all
+ right.
+ Well,
+
+
+we'll
+ come
+ we'll
+ come
+ we'll
+ come
+ find
+
+
+you
+ afterwards.
+ Um
+ but
+ but
+ so
+ that
+ you
+
+
+know
+ this
+ is
+ this
+ is
+ this
+ is
+
+
+documentation
+ that
+ has
+ to
+ be
+ produced
+ um
+
+
+regularly
+ for
+ every
+ model.
+ A
+ big
+ bank
+
+
+has
+
+
+4,000
+ or
+ so
+ models.
+ They
+ have
+ to
+ be
+ re
+
+
+re
+ re-documented
+ yearly
+ and
+ uh
+ this
+ is
+ a
+
+
+this
+ is
+ a
+ a
+ a
+ problem
+ that
+ is
+ worth
+
+
+anywhere
+ between
+ 10
+ to
+ 50
+ million
+
+
+dollars
+ a
+ year
+ uh
+ for
+ some
+ of
+ these
+
+
+bigger
+ banks
+ and
+ and
+ we're
+ having
+ great
+
+
+success
+ in
+ in
+ um
+
+
+in
+ doing
+ it
+ for
+ them
+ for
+ for
+ much
+
+
+cheaper.
+
+
+Uh
+ granted
+ there
+ are
+ some
+ some
+ um
+
+
+Getting
+ this
+
+
+through
+ compliance
+ and
+ the
+ auditors
+ and
+
+
+the
+ regulators
+ is
+ is
+ another
+ part
+ of
+ the
+
+
+battle
+ obviously
+ as
+ I'm
+ sure
+ you're
+ all
+
+
+familiar
+ with
+ but
+ um
+
+
+we
+ we
+ can
+ benchmark
+ this
+ against
+
+
+historical
+ results.
+ We
+ can
+ benchmark
+
+
+this
+ against
+ how
+ long
+ it
+ takes
+ the
+ teams
+
+
+to
+ do
+ it
+ uh
+ and
+ we
+ have
+ quant
+ you
+ know
+
+
+quants
+ who
+ are
+ on
+ the
+ floor
+ who
+ are
+ able
+
+
+to
+ to
+ rate
+ these
+ and
+ and
+ give
+ us
+ a
+ sense
+
+
+of
+ how
+ how
+ well
+ the
+ models
+ are
+ doing
+ on
+
+
+this
+ and
+ we're
+ finding
+ that
+ it's
+ I
+ mean
+
+
+quite
+ shocking
+ shockingly
+ good.
+ Um
+ for
+
+
+for
+ much
+ cheaper
+ than
+ than
+ traditional
+
+
+uh
+
+
+manual
+ way
+ of
+ doing
+ this.
+
+
+Any
+ questions?
+ Any
+ like
+
+
+>> the
+ quants
+ do
+ the
+ stuff
+ that
+ the
+ quants
+
+
+are
+ good
+ at.
+
+
+>> Making
+ the
+ models.
+
+
+>> Not
+ the
+ regulatory
+ paperwork
+ which
+
+
+probably
+ isn't
+ very
+ fun.
+ I'm
+ not
+ a
+
+
+quant,
+ but
+
+
+>> [snorts]
+
+
+>> Any
+ questions?
+
+
+Great
+ question.
+ Uh
+
+
+yes.
+ And
+ so,
+ actually,
+ um
+ Raymond
+
+
+showing
+ off
+ the
+ chat
+ agent
+ a
+ little
+ bit
+
+
+as
+ part
+ of
+ the
+ kernel,
+ as
+
+
+buried
+ in
+ the
+ markdown
+
+
+at
+ a
+ at
+ a
+ path,
+ we
+ have
+ uh
+ best
+
+
+practices.
+ The
+ These
+ are
+ the
+ types
+ of
+
+
+things
+ you
+ want
+ to
+ be
+ doing
+ when
+ you're
+
+
+declaring
+ out
+ out
+ outcomes.
+ Uh
+ these
+ are
+
+
+um
+ and
+ anti-patterns,
+ things
+ that
+ you
+
+
+shouldn't
+ be
+ doing.
+ And
+ so,
+ yes,
+ there
+
+
+is
+ there
+ is
+ a
+ a
+ world
+ in
+ which
+ you're
+
+
+not
+ typing
+ the
+ whole
+ contract
+ itself,
+
+
+but
+ you're
+ iterating,
+ and
+ and
+ that's
+
+
+what
+ Raymond
+ was
+ showing
+ uh
+ with
+ another
+
+
+agent
+ following
+ our
+ best
+ practice
+ guide
+
+
+on
+ how
+ to
+ on
+ on
+ how
+ to
+ create
+ the
+
+
+contract.
+ But,
+ yeah,
+ I
+ mean,
+
+
+getting
+ getting
+ intent
+ out
+ of
+ people's
+
+
+heads
+ is
+ like
+ the
+ hard
+ part,
+ and
+ and
+ I
+
+
+think
+ this
+ is
+ a
+ piece
+ of
+ it.
+ It's
+
+
+certainly
+ not
+ like
+ the
+ whole
+
+
+>> Yeah.
+ I
+ have
+ a
+ slightly
+ like
+ longer
+ uh
+ I
+
+
+don't
+ want
+ to
+ make
+ this
+ too
+ long.
+ We
+
+
+only
+ have
+ 5
+ minutes.
+ But,
+ like,
+ a
+
+
+slightly
+ longer
+ rant
+ on
+ this,
+ which
+ is
+
+
+that
+ I
+ do
+ think
+ that
+ this
+ is
+ a
+ big
+ part
+
+
+of
+ why
+
+
+chat
+ like
+ blew
+ up
+ so
+ fast
+ is
+ like
+ you
+ do
+
+
+not
+ need
+ to
+ know
+ anything
+ about
+ what
+
+
+you're
+ looking
+ for,
+ just
+ start
+ engaging
+
+
+with
+ ChatGPT,
+ and
+ just
+ like
+
+
+the
+ magic
+ of
+
+
+generative
+ AI
+ and
+ like
+ having
+ it
+
+
+like
+ come
+ back
+ to
+ you,
+ right?
+ And
+ so,
+
+
+like,
+ if
+ that's
+
+
+I
+ don't
+ I
+ don't
+ know
+ that
+ OpenProse
+ is
+
+
+the
+ best
+ place
+ if
+ you're
+ at
+ that
+ stage
+
+
+of
+ something
+ where
+ you
+ re
+ you
+ really
+
+
+don't
+ even
+ know
+ the
+ shape
+ of
+ what
+ you're
+
+
+talking
+ about,
+ or
+ you're
+ not
+ even
+ sure
+
+
+like
+ what
+ it
+ is
+ that
+ you're
+ looking
+ for.
+
+
+Um
+ and
+ like
+ this
+ go
+
+
+I'm
+ like
+ a
+ very
+ old-school
+ DSPy
+ user,
+
+
+and
+ like
+ my
+ my
+ joke
+ about
+ DSPy
+ was
+ like,
+
+
+"Oh,
+ no,
+ I
+ have
+ to
+ know
+ what
+ I
+ want
+ now,
+
+
+right?"
+ Because
+ like
+ the
+ whole
+ idea
+ of
+
+
+DSPy
+ is
+ like
+ you
+ have
+ to
+ you
+ create
+ the
+
+
+signature
+ of
+ the
+ thing
+ that
+ you
+ want.
+
+
+And
+ if
+ you
+ and
+ you
+ you
+ you
+ like
+ see
+
+
+something
+ like
+ that,
+ you're
+ like,
+ "This
+
+
+is
+ so
+ awesome."
+ And
+ then
+ you
+ sit
+ down,
+
+
+and
+ you're
+ like,
+ oh
+ I
+ I
+ actually
+
+
+don't
+ know
+ what
+ I
+ want
+ to
+ do
+ I,
+ right?
+
+
+So,
+ I
+ think
+ I
+ think
+ with
+ the
+
+
+you
+ know,
+ Open
+ Prose
+ is
+ a
+ lot
+ less
+
+
+strict
+ than
+ something
+ like
+ DS
+ fire
+ where
+
+
+you
+ like
+ you
+ literally
+ really
+ needed
+ to
+
+
+say
+ the
+ signature
+ of
+ the
+ return
+ object
+
+
+or
+ nothing
+ happens.
+ Um
+
+
+but
+ yeah,
+ I
+ would
+ say
+ like
+ the
+ built-in
+
+
+agent
+ hopefully
+ can
+ like
+ help
+ with
+ some
+
+
+of
+ like
+ you
+ can
+ just
+ turn
+ on
+ the
+ voice
+
+
+and
+ be
+ like,
+ what
+ can
+ you
+ do?
+ Like
+ and
+
+
+it
+ can
+ do
+ almost
+ anything
+ you
+ can
+ do
+ in
+
+
+the
+ app
+ like
+ we
+
+
+you
+ know,
+ we
+ have
+ those
+ hard-coded
+ like
+
+
+confirm
+ things
+ for
+ um
+
+
+for
+ like
+ anything
+ that
+ would
+ cost
+ money.
+
+
+Obviously,
+ we
+ want
+ people
+ like
+ click
+ a
+
+
+button
+ for
+ that.
+ Um
+ but
+ yeah,
+ I
+ think
+ I
+
+
+think
+ it's
+ um
+
+
+I
+ don't
+ know,
+ I
+ think
+ it's
+ also
+ related
+
+
+to
+ like
+ the
+ great
+ jobification
+ is
+ like
+
+
+there
+ are
+
+
+like
+ chat
+ isn't
+ a
+ great
+
+
+um
+
+
+interface
+ and
+ agents
+ that
+ are
+ like
+ RLF
+
+
+to
+ be
+ convincing
+ chat
+ partners
+ are
+ not
+
+
+necessarily
+ like
+ the
+ best
+ type
+ of
+ AI
+ for
+
+
+workflows
+ that
+ don't
+ have
+ human
+
+
+conversation
+ as
+ part
+ of
+ them
+ at
+ all.
+
+
+Um
+
+
+>> And
+ let
+ me
+ let
+ me
+ interject,
+ which
+ is
+
+
+just
+ use
+ cases
+ like
+ we
+ tell
+ people
+ you
+
+
+don't
+ want
+ to
+ use
+ this
+ if
+ if
+ you're
+
+
+doing
+ a
+ one-off,
+ if
+ you
+ are
+ like
+ chat
+ is
+
+
+perfect
+ for
+ that.
+ You're
+ if
+ you're
+ in
+
+
+exploratory
+ mode.
+
+
+What
+ this
+ is
+ good
+ for
+ is
+ something
+ you
+
+
+need
+ to
+ do
+ a
+ lot.
+ It
+ it
+ needs
+ to
+ be
+
+
+reliable,
+ it
+ has
+ to
+ be
+ repeatable,
+ it
+
+
+needs
+ to
+ be
+ auditable.
+
+
+Those
+ types
+ of
+ workflows
+ are
+ what
+ what
+
+
+we're
+ what
+ Open
+ Prose
+ is
+ built
+ for
+ and
+
+
+meant
+ for
+ and
+ so
+ there
+ is
+ an
+ implicit
+
+
+like
+ you
+ do
+ know
+ what
+ you
+ need
+
+
+in
+ in
+ here.
+
+
+>> Oh,
+ we
+ got
+ a
+ question
+ from
+ a
+ real
+ quant.
+
+
+>> And
+ earlier
+ I
+ alluded
+ to
+ and
+ I
+ I
+
+
+wouldn't
+ just
+ call
+ it
+ inheritance,
+ I
+
+
+would
+ call
+ it
+ composition.
+ So,
+ we
+ we
+ in
+
+
+fact
+ a
+ core
+ feature
+ of
+ of
+ the
+ framework
+
+
+and
+ and
+ the
+ the
+ pattern
+ itself
+ is
+ it's
+
+
+built
+ to
+ be
+ composed
+ and
+ so
+ yes,
+
+
+injecting
+ multiple
+ contracts
+ into
+ the
+
+
+same
+
+
+uh
+ run
+ in
+ in
+ which
+ the
+ agent
+ now
+ has
+ to
+
+
+satisfy
+ many
+ of
+ them
+ is
+ is
+ is
+ a
+
+
+a
+ core
+ piece
+ here.
+ The
+ other
+ half
+
+
+the
+ event-driven
+ half
+
+
+uh
+ which
+ maybe
+ looks
+ a
+ little
+ bit
+ you
+
+
+might
+ call
+ it
+ inheritance.
+ I
+ I
+ think
+ of
+
+
+it
+ more
+ like
+ um
+
+
+uh
+ I
+ don't
+ know
+ if
+ you're
+ familiar
+ with
+
+
+like
+ React
+ React-style
+ memoization
+ where
+
+
+you
+ have
+ certain
+ components.
+ It's
+ still
+
+
+composition.
+ You
+ have
+ certain
+ components
+
+
+that
+ have
+ upstream
+ dependencies
+ and
+ when
+
+
+the
+ data
+ on
+ on
+ one
+ of
+ them
+ changes,
+ it's
+
+
+of
+ course
+ going
+ to
+ trickle
+ down
+ to
+
+
+everything
+ below
+ it.
+
+
+Um
+
+
+that
+ is
+ another
+ place
+ where
+ Jev
+ is
+ super
+
+
+exciting
+ and
+ and
+ the
+ decision
+ model
+
+
+super
+ exciting
+ because
+ we
+ had
+ built
+ that
+
+
+system
+ and
+ we
+ had
+ agents
+ trying
+ to
+
+
+determine
+ has
+ the
+ state
+ changed
+ and
+ if
+
+
+the
+ state
+ on
+ upstream
+ dependency
+
+
+changes,
+ do
+ we
+ kick
+ off
+ downstream
+
+
+dependency?
+
+
+Uh
+ but
+ that's
+ very
+ expensive
+ to
+ run
+ and
+
+
+Jev
+ becomes
+ suddenly
+ this
+ very
+ cheap
+
+
+like
+ semantic
+ classifier
+ or
+ semantic
+
+
+memoizer,
+ which
+ you
+ could
+ think
+ of
+ it
+ as
+
+
+like
+ a
+ cache
+ and
+ Jev
+ is
+ deciding
+ when
+
+
+something
+ is
+ out
+ of
+ date
+ and
+ now
+ it
+
+
+kicks
+ off
+ everything
+ downstream
+ from
+
+
+that.
+ So,
+ that's
+ another
+ kind
+ of
+ core
+
+
+component
+ of
+ of
+ the
+ framework.
+
+
+Minus
+ the
+ Jev
+ part,
+ we're
+ still
+ working
+
+
+we're
+ still
+ building
+ that
+ part
+ in.
+ Yes,
+
+
+and
+ there
+ is
+ no
+ magic
+ here.
+ It's
+ all
+
+
+just
+ English.
+ It's
+ all
+ just
+ language.
+
+
+Uh
+ yeah,
+ it's
+ but
+ yes,
+ and
+ that's
+ where
+
+
+the
+ composition
+ composability
+ comes
+ in.
+
+
+>> The
+ other
+ piece
+ to
+ your
+ point
+ is
+ like
+
+
+it's
+ not
+ just
+ a
+ template.
+ So,
+ like
+ you
+
+
+could
+ obviously
+ even
+ pre-LLMs,
+ you
+ could
+
+
+have
+
+
+um
+ or
+ very
+ let's
+ say
+ not
+ very
+ early
+ LLMs
+
+
+or
+ even
+ like
+ encoders
+ could
+ like
+ fill
+ a
+
+
+template
+ for
+ you.
+ Like
+ you
+ like
+ prefix
+
+
+the
+ template
+ and
+ like
+ fill
+ the
+ thing.
+
+
+But
+ here
+ it's
+ like,
+ "Well,
+ what
+ can
+ you
+
+
+template?"
+ And
+ so,
+ you
+ could
+ template
+
+
+the
+ entire
+ multi-agent
+ workflow.
+ So,
+
+
+like
+ this
+ the
+ simple
+ example
+ that
+ I
+ give
+
+
+is
+ you
+ could
+ say
+ like
+ the
+ output
+ that
+ I
+
+
+need
+ is
+ an
+ article.
+
+
+You
+ know,
+ and
+ maybe
+ there's
+ it's
+ got
+
+
+like
+ this
+ type
+ of
+ article,
+ it's
+ going
+ to
+
+
+be
+ this
+ length,
+ whatever,
+ right?
+ Some
+
+
+constraints
+ around
+ that.
+
+
+And
+ the
+ input
+ is
+ like
+ the
+ topic.
+ Like
+
+
+until
+ you've
+ got
+ a
+ good
+ article
+ for
+ me,
+
+
+and
+ the
+ parent
+ agent
+ decides
+ good,
+ it
+
+
+decides
+ when
+ to
+ exit,
+ so
+ that's
+ where
+
+
+you're
+ going
+ to
+ get
+ a
+ better
+ result
+ with
+
+
+a
+ stronger
+ model
+ than
+ a
+ weaker
+ one.
+
+
+I've
+ got
+ a
+ researcher
+
+
+sub-agent.
+ That
+ agent
+ has
+ my
+ access
+ CLI
+
+
+and
+ my
+ access
+ skill
+ on
+ how
+ to
+ use
+ a
+ CLI
+
+
+cuz
+ I
+ don't
+ want
+ it,
+ you
+ know,
+ using
+ any
+
+
+random
+ web
+ search.
+ I've
+ got
+ a
+ writer
+
+
+sub-agent
+ that
+ has
+ my
+ special
+ like
+
+
+here's
+ the
+ last
+ 10
+ articles
+ I
+ wrote
+ that
+
+
+are
+ really
+ good,
+ and
+ you
+ I
+ want
+ you
+ to
+
+
+write
+ like
+ this.
+ I've
+ got
+ a
+ copy
+ editor
+
+
+uh
+ sub-agent,
+ and
+ that
+ whole
+ thing
+ is
+
+
+just
+ maybe
+
+
+>> But
+ the
+ really
+ important
+ 100
+ lines
+ of
+
+
+markdown,
+ and
+ it
+ might
+ take
+ them
+ 10
+
+
+hours
+ to
+ do
+ it.
+
+
+>> important
+ parts
+ to
+ emphasize
+ there
+ is
+ is
+
+
+the
+ contract
+ composition
+ where
+ so
+ you
+
+
+you
+ you
+ go
+ to
+ like,
+ I
+ mean,
+ these
+ things
+
+
+have
+ been
+ around
+ forever.
+ Any
+ Any
+
+
+Any
+ workflow
+ builder,
+ drag-and-drop
+
+
+workflow
+ builder.
+
+
+That's
+ a
+ different
+ way
+ of
+ thinking
+ about
+
+
+this
+ because
+ when
+ you
+ think
+ about
+ this
+
+
+in
+ terms
+ of
+ that
+ like
+ DAG
+
+
+directed
+ acyclic
+ graph
+ of
+ contracts,
+ you
+
+
+can
+ have
+ intermediary
+ steps
+ that
+ you
+
+
+almost
+ think
+ of
+ them
+ as
+ like
+ checkpoints
+
+
+or
+ like
+
+
+this
+ intermediary
+ step
+ meets
+ the
+
+
+contract,
+ and
+ the
+ thing
+ is
+ going,
+ and
+ it
+
+
+hits
+ this
+ contract
+ and
+ fulfills
+ this
+
+
+one,
+ and
+ then
+ that
+ causes
+ the
+ next
+ one
+
+
+to
+ keep
+ going
+ until
+ it's
+ fulfilled
+ that
+
+
+contract.
+ So,
+ you
+ can
+ you
+ can
+ still
+ in
+
+
+some
+ ways
+ declare
+ the
+ how
+ to
+ get
+ there
+
+
+just
+ by
+ composing
+ these
+ intermediary
+
+
+contracts
+ along
+ the
+ way
+ and
+ still
+
+
+letting
+ the
+ agents
+ be
+ a
+ little
+ bit
+
+
+flexible
+ on
+ on
+ how
+ to
+ do
+ achieve
+ that
+
+
+intermediary
+ step.
+
+
+>> Yeah,
+ and
+ and
+ the
+ shape
+ of
+ it.
+ So,
+ like
+
+
+one
+ one
+ example
+ like
+ when
+ Claude
+ um
+
+
+the
+ dynamic
+ workflows
+ came
+ out,
+ they
+ had
+
+
+this
+ blog
+ post
+ that's
+ like,
+ here's
+ the
+
+
+six
+ types,
+ right?
+ And
+ it's
+ like
+ one
+ of
+
+
+them's
+ like
+ fan
+ out,
+ fan
+ in,
+ and
+ like
+ a
+
+
+map
+ reduce
+ with
+ sub
+ agents.
+ One
+ of
+
+
+them's
+ like
+ a
+
+
+adversarial
+ review,
+ one's
+ like
+ a
+ loop
+
+
+until
+ X
+ condition
+ is
+ met,
+ right?
+ And
+ all
+
+
+of
+ those
+ things
+ you
+ can
+ express
+ in
+ a
+
+
+prose
+ program
+ and
+ then
+ run
+ them
+ on
+ on
+
+
+any
+ agent.
+ So,
+ you
+ can
+
+
+like
+ you
+ can
+ template
+ the
+ shape
+ of
+ the
+
+
+the
+ multi-agent
+ workflow
+ um
+
+
+with
+ no
+ code.
+ Um
+ and
+ again,
+
+
+the
+ whole
+ it's
+ only
+ possible
+ because
+ the
+
+
+the
+ agents
+ are
+ like
+ good
+ at
+ managing
+
+
+themselves
+ and
+ because
+ most
+ harnesses
+
+
+have
+ sub
+ agents.
+ So,
+ like
+ if
+ you're
+
+
+running
+ plain
+ vanilla
+ pie,
+ which
+ has
+ no
+
+
+sub
+ agents
+ at
+ least
+ last
+ time
+ I
+ checked,
+
+
+you're
+ going
+ to
+
+
+want
+ sub
+ agents
+ for
+ it
+ to
+ do
+ that
+ more
+
+
+complex
+ kind
+ of
+ workflow.
+ But,
+ like
+
+
+essentially
+ any
+ harness
+ that
+ has
+ one
+ of
+
+
+the
+ requirements,
+
+
+>> Sub
+ agents.
+
+
+>> sub
+ agents
+ is
+ pretty
+ much
+ the
+ only
+ one
+
+
+for
+ most
+
+
+>> context.
+
+
+>> Yeah,
+ like
+ um
+
+
+like
+ bash
+ and
+ sub
+ agents
+ are
+ actually
+
+
+you
+ don't
+ even
+ need
+ bash.
+ We
+ can
+ run
+
+
+these
+ in
+
+
+VM
+ isolates
+ in
+ code
+ mode,
+ too.
+ So,
+
+
+>> Any
+ other
+ questions?
+ We
+ can
+ give
+ 10
+
+
+minutes
+ back
+ to
+ everyone.
+ Uh
+
+
+it
+ is
+ based
+ on
+
+
+my
+ many
+ years
+ of
+ engineering
+ experience
+
+
+and
+ dealing
+ with
+ people
+ who
+ sometimes
+
+
+are
+ not
+ very
+ good
+ at
+ expressing
+
+
+requirements
+ and
+ other
+ people
+ who
+ are
+
+
+very
+ good
+ at
+ expressing
+ requirements.
+
+
+And
+ it's
+ also,
+ I
+ mean,
+ we
+ we
+ benchmark
+
+
+these
+ internally
+ and
+ and
+ run
+ them
+
+
+against
+ we
+
+
+we
+ have
+ sort
+ of
+ an
+ evolutionary
+
+
+algorithm
+ where
+ we
+ can
+ shrink
+ the
+ kernel
+
+
+by
+ seeing
+ if
+ if
+ they
+ can
+ conform
+ to
+
+
+that.
+ So,
+ it's
+ based
+ on
+ practice
+ and
+
+
+empirical
+ results.
+ Uh
+
+
+>> Yeah,
+ you
+ can
+ just
+ have
+ that
+ as
+ a
+ spec
+
+
+and
+ you
+ could
+ have
+ like
+ let's
+ say
+ you
+
+
+like
+ um
+
+
+uh
+ Matt
+ Pocock's
+ like
+ uh
+
+
+spec,
+ you
+ know,
+ you
+ like
+ Matt
+ I
+ built
+ a
+
+
+funny
+ one
+ just
+ to
+ like
+ troll
+ him
+ that
+
+
+was
+ like
+ auto
+ Pocock
+ and
+ it
+ basically
+
+
+it
+ was
+ my
+ way
+ of
+ proving
+ that
+ my
+ way
+ of
+
+
+wiring
+ skills
+ in
+ works.
+
+
+So,
+ you
+ basically
+ just
+ he
+ has
+ a
+ workflow
+
+
+that's
+ like
+ grill
+ me,
+ you
+ know,
+ and
+ then
+
+
+you
+ ask
+ all
+ these
+ questions
+ and
+ then
+
+
+it's
+ like
+ TDD
+ and
+ then
+ all
+ these
+ other
+
+
+ones
+ and
+ you
+ can
+ put
+ the
+ whole
+ thing
+ in
+
+
+one
+ prose
+ program
+ and
+ just
+ be
+ like
+ do
+
+
+Matt
+ Pocock's
+ workflow
+ and
+ every
+
+
+sub-agent
+ has
+ to
+ load
+ at
+ every
+ stage
+ of
+
+
+the
+ program
+ you
+ have
+ to
+ load
+ this
+ the
+
+
+next
+ skill
+ in
+ the
+ sequence.
+ Um
+ so
+ yeah,
+
+
+you
+ can
+ absolutely
+ like
+
+
+>> do
+ have
+ people
+ I
+ I
+ wasn't
+ calling
+ it
+
+
+spectrum
+ driven
+ development,
+ but
+ like
+
+
+almost
+ by
+ its
+ very
+ nature
+ it
+ is
+ spectrum
+
+
+driven
+ development.
+ I'd
+ love
+ you
+ to
+ try
+
+
+this
+ out.
+ Try
+ it
+ or
+ come
+ find
+ me
+ after
+
+
+and
+ like
+ whatever
+ spectrum
+ driven
+
+
+development
+ specification
+ you
+ have,
+ we
+
+
+could
+ compose
+ with
+ the
+
+
+boot
+ kernel
+ prose
+ run
+ and
+ then
+ we'll
+ see
+
+
+how
+ it
+ does.
+ I
+ I
+ think
+ it
+ would
+ do
+ quite
+
+
+well
+ actually.
+
+
+That's
+ a
+ good
+ good
+ inspiration.
+
+
+I
+ haven't
+ tried
+ it
+ with
+ the
+ spectrum
+
+
+driven
+ development
+ contracts.
+ Like
+ I'd
+
+
+love
+ to
+ sit
+ down
+ and
+ and
+ and
+ try
+ it
+ and
+
+
+see
+ if
+ it
+ overrides
+ it
+ or
+ if
+ it
+ starts
+
+
+colliding.
+
+
+>> That'd
+ be
+ interesting
+ like
+ um
+
+
+>> Here's
+ Here's
+ one
+
+
+>> See
+ how
+ much
+ different
+ skills
+ like
+ throw
+
+
+it
+ off.
+
+
+>> Here's
+ one
+ thing
+ we
+ do
+ have
+ and
+ software
+
+
+engineers
+ using
+ Open
+ Prose
+ to
+ develop
+
+
+software.
+
+
+Uh
+
+
+more
+ of
+ our
+ users
+ are
+ using
+ Open
+ Prose
+
+
+to
+ do
+ ops
+ and
+ product
+ management
+ and
+
+
+um
+
+
+quant
+ model
+ documentation
+ and
+ non
+ I
+
+
+don't
+ know
+ software
+ engineering
+ stuff.
+
+
+Uh
+ I
+ think
+ it's
+ just
+ the
+ blend
+ of
+ like
+
+
+markdown
+ documentation
+ actually
+ is
+ more
+
+
+interesting
+ to
+ non-engineers
+ um
+ as
+ a
+
+
+result.
+ Yeah.
+
+
+Any
+ other
+ questions?
+
+
+Thank
+ you
+ all.
+
+
+Appreciate
+ your
+ time.
+
+
+>> [applause]
