@@ -1,0 +1,283 @@
+[Speaker 1]: 不的美同样是做 space x 的猎鹰九号拼车上天按价目表一，
+[Speaker 1]: 颗小立方星每公斤要付七万美元一，
+[Speaker 1]: 颗中型卫星每公斤只要七千美元还，
+[Speaker 1]: 有一颗卫星实，
+[Speaker 1]: 际付了每公斤两万四千美元这。
+[Speaker 1]: 三个数字背后藏，
+[Speaker 1]: 着 space x 拼车业务的一整套定价逻辑大。
+[Speaker 1]: 家好欢，
+[Speaker 1]: 迎来到 money or life 美。
+[Speaker 1]: 股频道我，
+[Speaker 1]: 是 s 今天这期视频呢我们来拆解一个很少有人能讲清楚的问题 space x。
+[Speaker 1]: 的拼车发射到底是怎么收费的我把？
+[Speaker 1]: 二零二五年以来的十一次专属拼车任务一次一次拆开每次，
+[Speaker 1]: 带了哪些客户哪些，
+[Speaker 1]: 卫星有多重再加。
+[Speaker 1]: 上我从 space x 拼车官网的价格接口里直接读出来的官方价目表最后。
+[Speaker 1]: 我们来推导一次拼车 space x 到底能收多少钱他的？
+[Speaker 1]: 定价策略又是什么如果？
+[Speaker 1]: 你喜欢我的视频欢迎，
+[Speaker 1]: 点赞订订阅 monio life 美股频道也欢迎，
+[Speaker 1]: 考虑加入我的会员社群好我们。
+[Speaker 1]: 马，
+[Speaker 1]: 上开始先说第一个发现 space x 拼车的目录价其实是一个公开的公式 space x 的拼。
+[Speaker 1]: 车官网上有一个价格计算器我打开它，
+[Speaker 1]: 的网页代码找到了它，
+[Speaker 1]: 读取的价格接口里面的数字，
+[Speaker 1]: 写的清清楚楚公式非常简。
+[Speaker 1]: 单价格等于每，
+[Speaker 1]: 公斤单价乘以计费质量二零二六年发。
+[Speaker 1]: 射的航班每公斤七千美元但是这里有一，
+[Speaker 1]: 个关键词叫计费质量 space x 把火箭上。
+[Speaker 1]: 的位置分成几种板位四分之一板半板整板还有，
+[Speaker 1]:  XL 版每种板位都有一，
+[Speaker 1]: 个最低计费质量四分之一板，
+[Speaker 1]: 五十公斤半板一百公斤整，
+[Speaker 1]: 版两百公斤 XL，
+[Speaker 1]: 板三百公斤你，
+[Speaker 1]: 的卫星再轻也。
+[Speaker 1]: 要按这个最低，
+[Speaker 1]: 质量交钱所以四分之一版的。
+[Speaker 1]: 起步价就是五十乘以七千三十五万美元那问题就来了一颗三。
+[Speaker 1]:  u 立方芯大概，
+[Speaker 1]: 只有五公斤重他单独定一个位置同，
+[Speaker 1]: 样要付三十五万美，
+[Speaker 1]: 元折算下来每公斤七万，
+[Speaker 1]: 美元是目录价的十倍这就是开头那个每公。
+[Speaker 1]: 斤七万美元的来历还有几个细节也很有意，
+[Speaker 1]: 思第一每种版位都有质量上。
+[Speaker 1]: 限四，
+[Speaker 1]: 分之一板三百公斤半板，
+[Speaker 1]: 四百五十二公斤整版，
+[Speaker 1]: 和 XL 版八百三十一公，
+[Speaker 1]: 斤再重在线计算器就不报价，
+[Speaker 1]: 了只能找 space x 单独询价第二，
+[Speaker 1]: 很多服务要另外收钱。
+[Speaker 1]: 第如，
+[Speaker 1]:  space x 提供的分离系统。
+[Speaker 1]: 八寸的一套三十三万六千，
+[Speaker 1]: 八百美元二十四寸的要六十二万九，
+[Speaker 1]: 千六百美元比一个四分之一板的发射，
+[Speaker 1]: 费还贵第三在线计算器的公式里没。
+[Speaker 1]: 有轨，
+[Speaker 1]: 道这个变量不过官网公开的标价写的是。
+[Speaker 1]: 到太阳同步轨道其他轨道要单独询价第二个发，
+[Speaker 1]: 现这个单价是按发射。
+[Speaker 1]: 年份定的而，
+[Speaker 1]: 且每年都涨二零二三年发射，
+[Speaker 1]: 的航班每公斤。
+[Speaker 1]: 五千五百美元二零二四年六千二零二五年六。
+[Speaker 1]: 千五百二零二六。
+[Speaker 1]: 年七千二零二七年七千五百从二零二三。
+[Speaker 1]: 年到二零二七年每年雷打不动加五百美元四年涨，
+[Speaker 1]: 了百分之三十六我们对比一，
+[Speaker 1]: 下整件的价格一枚专属。
+[Speaker 1]: 的猎鹰九号二零二三年标，
+[Speaker 1]: 价六千七百万美元现，
+[Speaker 1]: 在是七千四百万三年只涨了大约，
+[Speaker 1]: 百分之十同一时间，
+[Speaker 1]: 拼车的美工精单价涨了百。
+[Speaker 1]: 分之二十，
+[Speaker 1]: 七分离系统长得更快嗯那有没有办法躲开，
+[Speaker 1]: 涨价呢有计价代码。
+[Speaker 1]: 里，
+[Speaker 1]: 有一个开关如果你签约的？
+[Speaker 1]: 时候一次性付清全款就按，
+[Speaker 1]: 签约当年的价格算 space x 的拼车销售，
+[Speaker 1]: 负责人二零二三年也公。
+[Speaker 1]: 开这样说过说白了这是一张鼓励你早买早付全款付，
+[Speaker 1]: 的价目，
+[Speaker 1]: 表他也意味着同意枚火箭上、
+[Speaker 1]: 的客户实际付的。
+[Speaker 1]: 单价并不一样每提前一年付清每公斤就能省五百美元有了，
+[Speaker 1]: 价目表我们再来看真正飞过的任务从二。
+[Speaker 1]: 零二五年一，
+[Speaker 1]: 月到十月二十号 spacics 一共飞了。
+[Speaker 1]: 十一次专属拼车七次 transporter 从加州范，
+[Speaker 1]: 登堡出发去太阳同，
+[Speaker 1]: 步轨道三次 band wagon。
+[Speaker 1]: 从佛罗里达出发去，
+[Speaker 1]: 中心角轨道还有一，
+[Speaker 1]: 次全新的。
+[Speaker 1]:  twilight 去晨昏轨道每次带多少个载，
+[Speaker 1]: 荷呢少的只有三个多的有一百，
+[Speaker 1]: 四十个 space x 不公布每？
+[Speaker 1]: 次任务的总质量我，
+[Speaker 1]: 根据各家公布的卫星质量估算大概在一吨到。
+[Speaker 1]: 八吨之间但是我一次一次拆下来发，
+[Speaker 1]: 现一个规律不少任务的质。
+[Speaker 1]: 量是被一两个大客户撑，
+[Speaker 1]: 起来的比如二，
+[Speaker 1]: 零二五年六月的 transporter 十四最上面坐着一个一点。
+[Speaker 1]: 六吨的返回仓是欧洲公司 the expiortion，
+[Speaker 1]:  company 的验证仓叫 mission possible 今年一月的 twilight 加，
+[Speaker 1]: 拿大的 kepler 一家就送了十颗光学中继。
+[Speaker 1]: 卫星按我的估，
+[Speaker 1]: 算占了全任务质量的一半以上今年三月的，
+[Speaker 1]:  transport 十六最终，
+[Speaker 1]: 的是 k two space 一个两吨左右的。
+[Speaker 1]: 大型卫星平台按我，
+[Speaker 1]: 的估算一家就占，
+[Speaker 1]: 了三分之一以上 band wagon 三更夸张，
+[Speaker 1]: 整枚火箭只，
+[Speaker 1]: 带了三个载荷最大的是韩。
+[Speaker 1]: 国军方的四二，
+[Speaker 1]: 五侦察卫星官方没有公布，
+[Speaker 1]: 质量我估算大约八百公斤官方八分之，
+[Speaker 1]: 三左右还有十月一。
+[Speaker 1]: 号刚飞的 transporter 十八我估算在五到八吨之间，
+[Speaker 1]: 可能是这两年最重的几次之。
+[Speaker 1]: 一 google 和 planet 合作的 sun cater 太，
+[Speaker 1]: 空通算力试验卫星也在上面那剩下。
+[Speaker 1]: 的位置呢就是几十上百颗小卫星芬兰 SI 的雷达卫。
+[Speaker 1]: 星几乎每次都在 planet 的歌群卫星有时一次。
+[Speaker 1]: 就带三十几颗还有，
+[Speaker 1]: 各国大学和创业公司的立方，
+[Speaker 1]: 星他们有相当一部分是。
+[Speaker 1]: 通过 exo launch 这样的集成商打包上车的，
+[Speaker 1]: 光是在 transporter 任务上 ixo launch 一家每次就要代理二十七到五十八。
+[Speaker 1]: 颗卫星好把价目表，
+[Speaker 1]: 和任务清单放在一起我们就可以推算一次拼车。
+[Speaker 1]:  space，
+[Speaker 1]:  x 按目录价能收多少钱方法很简，
+[Speaker 1]: 单每次任务的估算总质量乘以当年的每公斤单价算出？
+[Speaker 1]: 来的结果是，
+[Speaker 1]:  transporter 系列一次大约，
+[Speaker 1]: 两千万到五千五百万美元 band wagon，
+[Speaker 1]: 三和 band wagon 四只有七百万到一千三百万美元而一枚专属猎鹰九。
+[Speaker 1]: 号的标价是七千四百万美元换句话说按目录价，
+[Speaker 1]: 算没有任何一次拼车能收回一整枚火箭的标价。
+[Speaker 1]: 要凑够七，
+[Speaker 1]: 千四百万大，
+[Speaker 1]: 约需要十点六吨的计费质量而按我的估算这十一次任务没有一次，
+[Speaker 1]: 超过八吨那 space x 的财报能不能。
+[Speaker 1]: 印证这一点呢，
+[Speaker 1]: 今年第一季度 space x 有七次客户发。
+[Speaker 1]: 射 twilight 和 transporter 十六这两次拼车应该就在？
+[Speaker 1]: 其中发射服务，
+[Speaker 1]: 收入三点三亿美元平均每次四千，
+[Speaker 1]: 七百万第二季度没有专属。
+[Speaker 1]: 拼车十次客户发射平均每次，
+[Speaker 1]: 六千五百万我粗算了一，
+[Speaker 1]: 下如果那两次拼车每次都收七千四百万第一季度其他五次。
+[Speaker 1]: 的平均就只有，
+[Speaker 1]: 三千六百万不太合理如果按目录价算，
+[Speaker 1]: 其他五次的平均是五千一百万到五千三百万，
+[Speaker 1]: 更接近第。
+[Speaker 1]: 二季度的水平当然，
+[Speaker 1]:  space x 没有披露这两个指标的口径两个季度的，
+[Speaker 1]: 客户结构也不一样这只。
+[Speaker 1]: 能算，
+[Speaker 1]: 旁证不能算证明但是目录价只是故，
+[Speaker 1]: 事的一半真实的成交价长什么，
+[Speaker 1]: 样呢我翻了 SEC 文，
+[Speaker 1]: 件和公开的，
+[Speaker 1]: 采购记录 space x 拼车合同的具。
+[Speaker 1]: 体价格绝大多数都没有公？
+[Speaker 1]: 开 nasa 的小型发射和拼车订单也有，
+[Speaker 1]: 不少不公布金额目前我能查到明确金额的拼车，
+[Speaker 1]: 价格只有台湾的福卫八号福卫八号 a 星四百公斤。
+[Speaker 1]: 去年十一月做 transporter 十五上天而且做的，
+[Speaker 1]: 是火箭最顶上的置顶位火箭直接把它送到五百。
+[Speaker 1]: 六十一公里的轨道根据国，
+[Speaker 1]: 家太空中心的国际招标内容发射，
+[Speaker 1]: 费是新台币三亿元约合九百五十万美元折。
+[Speaker 1]: 算每公斤大约两万四千美元而按发，
+[Speaker 1]: 射当年的目录价每公斤，
+[Speaker 1]: 六千五百美元四百公，
+[Speaker 1]: 斤只要两百六十万美元实付大。
+[Speaker 1]: 约是目录价的三点七倍这，
+[Speaker 1]: 就是开头那个每公斤两万四千，
+[Speaker 1]: 美元福卫八号 b 星同，
+[Speaker 1]: 样是 space x 得标价格同样是新台。
+[Speaker 1]: 币三亿元再往后福卫八号 CD 和福卫九。
+[Speaker 1]: 号 AB 一共四颗卫星台湾改找了，
+[Speaker 1]: 欧洲的 AYA 预算上限大约六。
+[Speaker 1]: 千九百，
+[Speaker 1]: 万欧元 space x 没有参与投标媒体猜测可能，
+[Speaker 1]: 和价格有关所以我的，
+[Speaker 1]: 推论只基于福卫八号这个价格。
+[Speaker 1]: 所以客户置顶位指定，
+[Speaker 1]: 轨道 space x 很可能是单独定。
+[Speaker 1]: 价的而且明显高于目录价把这些事实拼起。
+[Speaker 1]: 来我认为 space x 的拼车定价，
+[Speaker 1]: 可以总结成一个三段式锚，
+[Speaker 1]: 定客户的定制价加上，
+[Speaker 1]: 其余客户的目录价。
+[Speaker 1]: 再加上附加服务具体来说有四个策略第一最低计费让小卫星单独定，
+[Speaker 1]: 位很不划算多数只能通，
+[Speaker 1]: 过 exo launch 这样的公，
+[Speaker 1]: 司拼单第二按年涨价。
+[Speaker 1]: 全款，
+[Speaker 1]: 锁价提前收钱锁住订单客户越怕涨价就，
+[Speaker 1]: 越早付款第三用大客户撑起航班 band。
+[Speaker 1]:  wagon 三，
+[Speaker 1]: 四有韩国，
+[Speaker 1]: 军方的四，
+[Speaker 1]: 百二十五，
+[Speaker 1]: 卫星 twilight 有。
+[Speaker 1]:  kepler 和 nasa 而十月二十号刚飞。
+[Speaker 1]: 的 band，
+[Speaker 1]:  wagon 五最大的载荷是 space x 自己。
+[Speaker 1]: 的 star four 返回仓大约二点一吨早在二零二一。
+[Speaker 1]: 年第一次 transport 任务客户临时撤，
+[Speaker 1]: 掉了一些载荷 space x 就补进了，
+[Speaker 1]: 十颗星链，
+[Speaker 1]: 卫星第四配给。
+[Speaker 1]: 而不是降价嗯我查了，
+[Speaker 1]: 一下 space x 拼车官网上现在还能在线预定的，
+[Speaker 1]: 航班只剩二零二七年六月和十月两。
+[Speaker 1]: 班都是太阳。
+[Speaker 1]: 同，
+[Speaker 1]: 步轨道中青角轨道已经没有能在线预定的航班了另外今，
+[Speaker 1]: 年七月有媒体引，
+[Speaker 1]: 述匿名消息说 space x 已经不再接受二，
+[Speaker 1]: 零二八年底以后的新拼车预定不过 space x 没。
+[Speaker 1]: 有正，
+[Speaker 1]: 式确认排期，
+[Speaker 1]: 这么紧短期内确实看不，
+[Speaker 1]: 到降价的理由最后说说 s 的看法以下只代表我个人。
+[Speaker 1]: 观点不构成投资建议第一拼车对 space x，
+[Speaker 1]: 来说是一门把火箭填满的生意。
+[Speaker 1]: 不是收入的主力按。
+[Speaker 1]: 我的粗算二零二五年上，
+[Speaker 1]: 半年四次拼车的。
+[Speaker 1]: 目录，
+[Speaker 1]: 价收入加起来大概，
+[Speaker 1]: 八千万到一亿美元不到同，
+[Speaker 1]: 期发射服务收入。
+[Speaker 1]: 的一成但是，
+[Speaker 1]: 它的定价权非常强价格每年涨排期还是被定满第二对 rocket lab 这样的小火箭公，
+[Speaker 1]: 司这是一个值得关注的信号按，
+[Speaker 1]: 目录价拼车算是便宜的，
+[Speaker 1]: 但是要排队轨道和时间也不。
+[Speaker 1]: 能自，
+[Speaker 1]: 己选比如 hot guy 三六零今年已，
+[Speaker 1]: 经三次做 space x 的拼车最近。
+[Speaker 1]: 一次就是，
+[Speaker 1]:  band wagon 五代的四颗，
+[Speaker 1]: 卫星同时他早在二零二二年就和 rocket lab。
+[Speaker 1]: 签了多次，
+[Speaker 1]:  electron 发射的合同两条路他都在用拼车，
+[Speaker 1]: 越贵越难定专属小火箭的价值就越。
+[Speaker 1]: 容易，
+[Speaker 1]: 体现出来第三以后大家看到 transporter band wagon 的新闻可以先看看最上面。
+[Speaker 1]: 坐的是谁那个，
+[Speaker 1]: 置顶的客户也许才是这一班火。
+[Speaker 1]: 箭真正的金主好以上。
+[Speaker 1]: 就是本期，
+[Speaker 1]: 视频的全部内容数据来，
+[Speaker 1]: 自 space x 官网 SC 文件各家公司。
+[Speaker 1]: 的公告和公开报道截至二零二六年十月二十号详。
+[Speaker 1]: 细，
+[Speaker 1]: 来源我会放在说明栏里如果觉得。
+[Speaker 1]: 有收获欢迎点赞订阅也欢迎在评论区告诉我你觉得 space。
+[Speaker 1]:  x 的拼车还能这样每年涨价，
+[Speaker 1]: 多久如果你有兴趣也欢迎加。
+[Speaker 1]: 入我的会员社群，
+[Speaker 1]: 我们下期视频，
+[Speaker 1]: 再见。
+[Speaker 1]: ？
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
