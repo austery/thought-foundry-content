@@ -1,0 +1,254 @@
+[Speaker 1]: 每一级瓦的 AI 算力，
+[Speaker 1]: 一年能换多少收入？
+[Speaker 1]:  open AI、
+[Speaker 1]:  anthropic、
+[Speaker 1]:  space、
+[Speaker 1]:  oracle、
+[Speaker 1]:  core wave。
+[Speaker 1]: 这些公司算出来的数字差了好几倍。
+[Speaker 1]: 大家好，
+[Speaker 1]: 欢迎来到 money or life 美股频道，
+[Speaker 1]: 我是 ace。
+[Speaker 1]: 今天这期视频呢我们来算一个问题，
+[Speaker 1]: 每一级瓦已经上线的 AI 算力能给公司带来多少收入，
+[Speaker 1]: 我把它叫做算力变现指数覆盖十家公司两家模型公司。
+[Speaker 1]:  open AI and ropic 四家出租算力的运营方，
+[Speaker 1]:  space x oracle、
+[Speaker 1]:  core、
+[Speaker 1]:  wave nibyas，
+[Speaker 1]: 还有四大云厂商颜色代表角色，
+[Speaker 1]: 蓝色是把模型卖给最终用户的变现方。
+[Speaker 1]: 绿色是出租算力的运营方，
+[Speaker 1]: 紫色是两种业务都有的。
+[Speaker 1]:  hyper scale 所有数据，
+[Speaker 1]: 截至二零二六年十月二十二日，
+[Speaker 1]: 好，
+[Speaker 1]: 我们马上开始嗯。
+[Speaker 0]: 嗯嗯先，
+[Speaker 1]: 看这个问题本身合不合理答案，
+[Speaker 1]: 是方向对现。
+[Speaker 1]: 在芯片订单算力租约、
+[Speaker 1]: 数据、
+[Speaker 1]: 中心园区、
+[Speaker 1]: 都是按级瓦签的 open AI。
+[Speaker 1]: 和 AMD 签了六级瓦和 broadcom 签了十几瓦 and topic 在 AWS 最多五级瓦 meet 的 hyperion 园区可以扩到五级瓦所以，
+[Speaker 1]: 每级瓦能换多少收入就像。
+[Speaker 1]: 航空业看每多公里收入酒店店看看每可，
+[Speaker 1]: 售房收入入 en en AICCOO 露过一一组数字二零，
+[Speaker 1]: 二三到二二五年算算，
+[Speaker 1]: 零零点二零点、
+[Speaker 1]: 六一点九瓦 ARR 二，
+[Speaker 1]: 十亿六十亿两百亿美元以上相处下来每级，
+[Speaker 1]: 瓦大约一百亿美元但如。
+[Speaker 1]: 果直接拿 ARR 除以级瓦会掉，
+[Speaker 1]: 进三个坑第一分。
+[Speaker 1]: 子口径不一 open AI 九，
+[Speaker 1]: 月的年化收入按自己口径约五百亿美元此前流。
+[Speaker 1]: 传的约六百九十亿口径里包含了，
+[Speaker 1]: 合作伙伴渠道卖出去的收入第二分。
+[Speaker 1]: 母没，
+[Speaker 1]: 有定义微软被。
+[Speaker 1]: 报道有约十二 g 瓦容量但按二，
+[Speaker 1]: 零二五财年用电折算的平均负载只有约四点二 g 瓦同一个。
+[Speaker 1]: 分子算出来每级瓦，
+[Speaker 1]: 可以是一百八十亿也可以，
+[Speaker 1]: 是五百一十亿第三价。
+[Speaker 1]: 值链，
+[Speaker 1]: 重复计算 cloasses 的同。
+[Speaker 1]: 一批 GPU 既产生 space x 的租金又产生，
+[Speaker 1]:  enthropic 的收入所以要拆。
+[Speaker 1]: 成三个指标并且分视，
+[Speaker 1]: 角比较三个指标 AI 收益率。
+[Speaker 1]: 看存量是 AI，
+[Speaker 1]: 收入的年化 run rate 除以已上限的 AI 算力边际收益率。
+[Speaker 1]: 看增量是两个，
+[Speaker 1]: 时点之间 run rate 的增量除以同期新增的几瓦因为新产能。
+[Speaker 1]: 从上店到计费要好几个季，
+[Speaker 1]: 度我们同时给。
+[Speaker 1]: 出布置后和分母滞后两个季度两，
+[Speaker 1]: 个版本推理收益率剔除训练只用推理那部，
+[Speaker 1]: 分吉瓦做分母图里的实心点表示分子分母都来自公司披露空心点表示至少有一项是估算算出来的数字要和什么比我们画了两条参照线第一条是持有。
+[Speaker 1]: 成本一级瓦的 GB 三百计算力 IT 投资每级瓦两，
+[Speaker 1]: 百九十到三百五十亿美元按百分之八到百，
+[Speaker 1]: 分之十二的资本成本四到六年寿命每，
+[Speaker 1]: 年要摊约八十四亿在家机房电力运，
+[Speaker 1]: 维约二十八亿合计约一百一十，
+[Speaker 1]: 二亿这是出租算力的。
+[Speaker 1]: 运营方的盈亏线如果 GPU 只能用三年。
+[Speaker 1]: 汇升到，
+[Speaker 1]: 约一百五十六亿第二条是终端门槛。
+[Speaker 1]: 约两百亿模型公司在算力成本之，
+[Speaker 1]: 上再留约百分之四十，
+[Speaker 1]: 五的毛利所需的收入这条线只适用于模。
+[Speaker 1]: 型公司 broadcome hookten 举例时说运营。
+[Speaker 1]: 一级瓦一年约，
+[Speaker 1]: 一百亿美元和一百一十二是同一量级第一个指标 AI 收益。
+[Speaker 1]: 率模型公司每级瓦大约一百七十到两百三十亿美元 anthrobic 约两百二十四 open AI。
+[Speaker 1]: 按自己口径一百六十七暗含合作伙伴待售额的口径约两百三十签长约的运营方约五十，
+[Speaker 1]: 到一百亿 co with 六十九 oracle 约一百零，
+[Speaker 1]: 二 nibbis 五十 space x 剔除 cursor 和广告后约一百五十一靠的是短期出租微软，
+[Speaker 1]: 约一百零六 AWS 约。
+[Speaker 1]: 八十三里面混着批发和自由，
+[Speaker 1]: 产品注意两家模型公司的。
+[Speaker 1]: 上线，
+[Speaker 1]: 级瓦都是估算所以是空心点区间也宽为，
+[Speaker 1]: 什么运营方的，
+[Speaker 1]: 当期收益。
+[Speaker 1]: 率这么低拿他们自己签的长约价格？
+[Speaker 1]: 比一下 IN 租给微软每集瓦约九十。
+[Speaker 1]: 七亿 nibbis 租给，
+[Speaker 1]: 微软约一百一十六。
+[Speaker 1]: 到一百七十，
+[Speaker 1]: 四亿 oracle 给 open AI 约一百三十三到。
+[Speaker 1]: 两百亿 nibis 新签的核心合同到了两百，
+[Speaker 1]: 到两百五十亿当期收入低于合同价主要，
+[Speaker 1]: 是新产能已经上店但，
+[Speaker 1]: 还没全额计费所以模型公，
+[Speaker 1]: 司和运营方的差。
+[Speaker 1]: 距按合同价算只有零点七到二，
+[Speaker 1]: 点四倍和 nibyis 最新的核心合同已经差不多两家模型公司谁的每级瓦收。
+[Speaker 1]: 入更高要先统一口径 open AI 自己的口？
+[Speaker 1]: 径只记自己的，
+[Speaker 1]: 份额九月约五百，
+[Speaker 1]: 亿美元此前流传。
+[Speaker 1]: 的约六百九十亿记，
+[Speaker 1]: 入了合作伙伴代售的全额 anthropic 则把经过 AWS google 云市场卖出去的。
+[Speaker 1]: 收入按总额入账二零二五年约有百分之四十，
+[Speaker 1]: 七的收入走这个渠道所以和 enthropic 可比的是含待售额。
+[Speaker 1]: 的口径每级瓦约两，
+[Speaker 1]: 百三十对两百二，
+[Speaker 1]: 十四差别在误差之，
+[Speaker 1]: 内，
+[Speaker 1]: 分不出谁更，
+[Speaker 1]: 高而且待售部分，
+[Speaker 1]: 可能跑在合作。
+[Speaker 1]: 伙伴自己的算力上两百三十可能还偏高 space x 是，
+[Speaker 1]: 运营方里的例外二零，
+[Speaker 1]: 二六年一季度它的算力。
+[Speaker 1]: 主要自用每级瓦只有三十三亿把 closses 租，
+[Speaker 1]: 给 anthropic 和 google 之后三季度，
+[Speaker 1]: 升到一百七十八剔除，
+[Speaker 1]: 八月并入的 cursor 以及 a 的，
+[Speaker 1]: 广告收入后约一百五十一 anthropic 每月付十二点五亿美元 google 每，
+[Speaker 1]: 月九点二亿美元要注意的，
+[Speaker 1]: 是这些合同大多九十。
+[Speaker 1]: 天可以解约，
+[Speaker 1]: 算力一旦不再稀缺这部分收入，
+[Speaker 1]: 会最，
+[Speaker 1]: 先受影响第二，
+[Speaker 1]: 个指标边际收益率新增一。
+[Speaker 1]: 几瓦带来多，
+[Speaker 1]: 少新增 run rate 模型公司最，
+[Speaker 1]: 高 anthropic 中枢约四百四十八。
+[Speaker 1]:  open AI 约两百七十三但区间非常，
+[Speaker 1]: 宽 anthropic 从两百七十五，
+[Speaker 1]: 到一千一百六，
+[Speaker 1]: 十四因为分母是两个估算值之差 open，
+[Speaker 1]:  AI 用公司自己披露的二零二。
+[Speaker 1]: 四到二零二五年数据只有一百零八运营方式后，
+[Speaker 1]: 两个季度看 oracle 约一百六十 core。
+[Speaker 1]:  wave 不超过一百，
+[Speaker 1]: 一十一 nibbis 按指引推算约九十二三家云厂商。
+[Speaker 1]: 没有可比的，
+[Speaker 1]:  AI 收入序列只能用云业务总收入做代理运营方，
+[Speaker 1]: 的编际收益率对时间非常敏感不柔算 core wave 只有五。
+[Speaker 1]: 十三 oracle 八十 AWS 六，
+[Speaker 1]: 十九都在一百一十二的，
+[Speaker 1]: 持有成本线下面带薪产能从上店到全额计费要六到二十四个月把分母往前挪两个，
+[Speaker 1]: 季度 oracle 升到约一百，
+[Speaker 1]: 六十站上了这。
+[Speaker 1]: 条线 core wave，
+[Speaker 1]: 不超过一百一十一还在线下如果，
+[Speaker 1]:  GPU 只能用三年按一百五，
+[Speaker 1]: 十六这条。
+[Speaker 1]: 线只有 oracle 大致持平，
+[Speaker 1]:  AWS 的分子是整，
+[Speaker 1]: 个 AWS 的收入只能做参考。
+[Speaker 1]: 结论是用公开数据算运营，
+[Speaker 1]: 方的编际收。
+[Speaker 1]: 益率结果主要取决于滞后假设嗯嗯嗯第三个指，
+[Speaker 1]: 标推理收益率把训练。
+[Speaker 0]: 用的算力剔掉只看服务客户的那部，
+[Speaker 1]: 分推理大约只占模型公司算力支出的百分之，
+[Speaker 1]: 二十五到百分之三十一所以每级瓦推理收入约为全舰队的三到四。
+[Speaker 1]: 倍 open，
+[Speaker 1]:  AI 从一百六十七变成五百四十五 anthropick 从两。
+[Speaker 1]: 百二十四变成八百七十八但要提醒一。
+[Speaker 1]: 句这是换算不是新发现它就是 AI。
+[Speaker 1]: 收益率除以推，
+[Speaker 1]: 理占比推，
+[Speaker 1]: 理占比来自，
+[Speaker 1]: 内部预测和毛利率倒推所以只，
+[Speaker 1]: 适合看量级把时间拉开看二零二六年每，
+[Speaker 1]: 基瓦收入再涨的是，
+[Speaker 1]: 谁 anthroropic 九个月，
+[Speaker 1]: 里从约五十三升到两百二十四涨了约。
+[Speaker 1]: 百分之三百，
+[Speaker 1]: 二十 open AI 从一百零五升到一，
+[Speaker 1]: 百六十七约百分之六十但如果它实际上限的几瓦接近四点零只升到约。
+[Speaker 1]: 一百二十五 space x 从一季度的三十三升，
+[Speaker 1]: 到三季度的一百七十八靠的是把算力租出去 core wave 按平均活跃几瓦算从，
+[Speaker 1]: 一百零九降到不超过。
+[Speaker 1]: 八十二主要是新产能爬坡，
+[Speaker 1]: 所以二零二六年的增量收益主，
+[Speaker 1]: 要落在 enthropic 和 open AI 怎。
+[Speaker 1]: 么判断算力还缺不缺可以看短约价格长约合。
+[Speaker 1]: 同每级瓦大约一百到一百？
+[Speaker 1]: 七十亿 nibbis 新签的，
+[Speaker 1]: 核心合同，
+[Speaker 1]: 到了两百到两百五十亿而 cal wave nibbis，
+[Speaker 1]: 新签的三到六个月短约折算每级瓦约四。
+[Speaker 1]: 百亿以上 space x 的出租也在三百到五百亿单价差不全是稀缺短。
+[Speaker 1]: 约有期限溢价用的是最新的 GB。
+[Speaker 1]: 三百客户信用也不同而且公司只披露了新签的一小部分更该定的是旧合，
+[Speaker 1]: 同到期换新的价格比如 oracle 续签平均，
+[Speaker 1]: 比原合同高百分之二十总结三句话第，
+[Speaker 1]: 一模型公司，
+[Speaker 1]: 每计瓦收入约一百七十到两。
+[Speaker 1]: 百三十亿高，
+[Speaker 1]: 于签长约的运营方当期的五十到一百亿但按运营方，
+[Speaker 1]: 自己的长约价格比差，
+[Speaker 1]: 距只有零点七到二点，
+[Speaker 1]: 四倍第二二零二六年每 g 瓦收入上升最快的是 anthropic 和 open AI 第三。
+[Speaker 1]: 运营，
+[Speaker 1]: 方的边际收益率结论主要取决于滞后假设真正。
+[Speaker 1]: 要看，
+[Speaker 1]: 的是新合同和续签的价格接下来几个数据点。
+[Speaker 1]: 会直接更新这些数字十月二十八日微软。
+[Speaker 1]: 和谷歌发财报谷歌的日期目前是第三方。
+[Speaker 1]: 预计同一天 oracle，
+[Speaker 1]: 有投资者日看他会不会第一次披露累计上线，
+[Speaker 1]: 几瓦十月二十九日亚马逊十，
+[Speaker 1]: 一月中 core wave 和 nibyis 发三季，
+[Speaker 1]: 报之后最关键。
+[Speaker 1]: 的是 enthropic 的公开，
+[Speaker 1]:  s 一大部分媒体数字会变成监管文件数，
+[Speaker 1]: 字十二月中旬 oracle 发二零二七财年二季报具体日期还没公布最后说。
+[Speaker 1]: 说这些数字，
+[Speaker 1]: 有多可靠分级看 space x core wave，
+[Speaker 1]:  oracle 的核心数字来自。
+[Speaker 1]: 财报或监管文件 open AI 的历史。
+[Speaker 1]: 吉瓦和 ARR 来自公司表述 enthroropic 和 open AI 的最新收入多是媒。
+[Speaker 1]: 体援引知情人士各家上限几瓦多是第三方或本文估算整份研究做过三轮交叉核对，
+[Speaker 1]: 一手数据盲查逻辑审查复算头条数字，
+[Speaker 1]: 都能复现最大的不确定性是模、
+[Speaker 1]: 型公司二零二六年的上线吉、
+[Speaker 1]: 瓦 anthroppic 公开 s 一之后。
+[Speaker 1]: 这些数字可能整体平移主要来源都在这里完整链接我会放在说明栏好，
+[Speaker 1]: 以上就是本期视频的全部内容如果觉得有收获欢迎，
+[Speaker 1]: 点赞订阅也欢迎。
+[Speaker 1]: 在，
+[Speaker 1]: 评论区告诉我你觉得每级瓦一。
+[Speaker 1]: 百亿两百亿这两，
+[Speaker 1]: 条线哪一条更，
+[Speaker 1]: 重要如果你有兴趣也欢。
+[Speaker 1]: 迎加入我的会员社群以上内容，
+[Speaker 1]: 不构成任何投资建议本？
+[Speaker 1]: 视频制作由 AI，
+[Speaker 1]: 协助完成所有内容都经过。
+[Speaker 1]:  s 本人亲自审阅版权完全归属，
+[Speaker 1]: 于 money or life 美股频道我们下，
+[Speaker 1]: 期视频再见，
+[Speaker 1]: ，
+[Speaker 1]: ，
+[Speaker 1]: 。
