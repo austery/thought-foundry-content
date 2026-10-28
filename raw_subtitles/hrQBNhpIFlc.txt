@@ -1,0 +1,5365 @@
+Hello
+ everyone.
+ My
+ name
+ is
+
+
+and
+ I'm
+ a
+ assistant
+ professor
+ at
+ the
+ new
+
+
+Westlake
+ University
+ in
+ Hangzhou,
+ China,
+
+
+which
+ is
+ also
+ very
+ famous
+ city
+ for
+ for
+
+
+AI
+ right
+ now.
+ And
+ before
+ that
+ I
+ was
+ a
+
+
+postdoc
+ at
+ the
+ Harvard
+ University
+ and
+ I
+
+
+was
+ a
+ a
+ member
+ of
+ the
+ JWST
+ near
+ cam
+
+
+science
+ team.
+ So
+ JWST
+ is
+ a
+ short
+ name
+
+
+for
+ the
+ James
+ Webb
+ Space
+ Telescope.
+
+
+That's
+ the
+ biggest
+ telescope
+ that
+ we
+
+
+launched
+ to
+ into
+ space
+ in
+ the
+ human
+
+
+history.
+ Near
+ cam
+ is
+ the
+ primary
+
+
+instrument
+ on
+ on
+ JWST
+ that's
+ taking
+ all
+
+
+of
+ the
+ beautiful
+ image
+ that
+ you
+ just
+
+
+saw.
+ And
+ today
+ I'm
+ going
+ to
+ show
+ you
+
+
+some
+ progress
+ in
+ our
+ field
+ including
+ how
+
+
+beautiful
+ our
+ other
+ image
+ are
+ and
+
+
+and
+ also
+ how
+ AI
+ is
+ changing
+ our
+ field
+ in
+
+
+teaching
+ us
+ how
+ to
+ make
+ movies
+ of
+ the
+
+
+the
+ universe
+ and
+ teaching
+ us
+ how
+ to
+ how
+
+
+to
+ look
+ at
+ our
+ data.
+
+
+Okay.
+
+
+So
+ I
+ think
+ I
+ believe
+ also
+ people
+ have
+
+
+been
+ looking
+ at
+ this
+ image.
+ This
+ was
+ one
+
+
+of
+ the
+ first
+ image
+ that
+ JWST
+ released.
+
+
+It's
+ actually
+ released
+ by
+ Joe
+ Biden
+ at
+
+
+the
+ at
+ the
+ White
+ House.
+ And
+ at
+ that
+ time
+
+
+during
+ the
+ COVID
+ this
+ is
+ one
+ of
+ the
+ few
+
+
+good
+ news
+ over
+ the
+ the
+ whole
+ year.
+ And
+
+
+as
+ you
+ can
+ see
+ nearly
+ everything
+ that
+ in
+
+
+in
+ the
+ in
+ the
+ picture
+ is
+ a
+ galaxy.
+ That
+
+
+they
+ are
+ something
+ like
+ a
+ 100
+ million
+
+
+100
+ billion
+ years
+ away
+ from
+ us
+ and
+ each
+
+
+of
+ the
+ galaxy
+ will
+ have
+ another
+ billion
+
+
+of
+ stars.
+ And
+ uh
+
+
+the
+ telescope
+ was
+ uh
+ designed
+ back
+ in
+
+
+1996
+ and
+ uh
+ uh
+ it
+ take
+ almost
+ 30
+ years
+
+
+to
+ 25
+ years
+ to
+ build
+ the
+ telescope,
+ test
+
+
+everything,
+ and
+ launch
+ it
+ to
+ the
+ space
+
+
+with
+ uh
+ Ariane
+ 5
+
+
+in
+ Kourou.
+
+
+And
+ these
+ are
+ our
+ last
+ view
+ of
+ the
+ of
+
+
+the
+ of
+ the
+ telescope
+ when
+ before
+ it
+ sent
+
+
+out
+ to
+ the
+ the
+ second
+ Lagrangian
+ point
+
+
+on
+ December
+ 25th.
+
+
+And
+ you
+ may
+ wonder
+ why
+ NASA
+ spend
+ the
+ 10
+
+
+billion
+ dollars
+ to
+ build
+ this
+ this
+
+
+telescope,
+ 6.5
+ meter
+ telescope,
+ even
+
+
+bigger
+ than
+ a
+ school
+ bus
+
+
+uh
+ to
+ to
+ the
+ space.
+
+
+Uh
+ I'm
+ going
+ to
+ introduce
+ a
+ little
+ bit
+
+
+on
+ how
+ us
+ extragalactic
+ astronomers
+ are
+
+
+doing
+ research
+ every
+ days.
+ Basically,
+ we
+
+
+are
+ like
+ this
+ this
+ worker
+ in
+ the
+ iron
+
+
+factory.
+ Uh
+ you
+ can
+ see
+ that
+ this
+ man
+
+
+may
+ hold
+ a
+ very
+ small
+ um
+
+
+melting
+
+
+metal
+ in
+ his
+ hand,
+ but
+ the
+ background
+ is
+
+
+so
+ high.
+ Consider
+ the
+ Earth.
+ The
+ Earth
+
+
+itself
+ is
+ 300
+ Kelvin
+ blackbody.
+ And
+ if
+
+
+you
+ want
+ to
+ observe
+ something
+ really
+ in
+
+
+the
+ infrared,
+ the
+ background
+ is
+ so
+ so
+ so
+
+
+high.
+ And
+ only
+ when
+ you
+ cool
+ down
+ the
+
+
+the
+ background,
+
+
+launching
+ the
+ telescope
+ far
+ away
+ from
+
+
+the
+ from
+ the
+ Sun,
+ from
+ the
+ from
+ the
+
+
+Earth,
+ in
+ a
+ place
+ that
+ you
+ will
+ never
+
+
+receive
+ any
+ sunlight
+ or
+ Earth
+ light,
+ you
+
+
+will
+ identify
+ your
+ scientific
+ target
+
+
+from
+ a
+ lower
+ background.
+ And
+ that's
+ the
+
+
+power
+ of
+ being
+ cold.
+ And
+ the
+ whole
+
+
+design
+ of
+ the
+ James
+ Webb
+ Space
+ Telescope
+
+
+is
+ you
+ have
+ a
+ large
+ mirror
+ to
+ collect
+
+
+more
+ light
+ and
+ make
+ it
+ cold
+ to
+ suppress
+
+
+the
+ background
+ noise.
+ And
+ that's
+ makes
+
+
+the
+ James
+ Webb
+ Space
+ Telescope.
+
+
+And
+ for
+ arguably,
+ this
+ is
+ one
+ of
+ the
+
+
+most
+ beautiful
+ image
+ that
+ the
+ people
+
+
+have
+ been
+ seeing
+ from
+ the
+ James
+ Webb
+
+
+Space
+ Telescope.
+ It
+ shows
+
+
+we
+ call
+ it
+ cosmic
+ cliff
+ because
+ you
+ can
+
+
+clearly
+ see
+ the
+ uh
+ the
+ the
+ the
+ the
+ the
+
+
+the
+ front
+ of
+ the
+ of
+ the
+ star
+ wind.
+ So,
+
+
+galaxies
+ are
+ made
+ of
+ Sorry,
+ stars
+ are
+
+
+made
+ of
+ hydrogen
+ gas.
+ And
+ to
+ form
+ a
+
+
+hydrogen
+ gas,
+ you
+ have
+ to
+ use
+ the
+ dust
+
+
+grains
+ in
+ in
+ the
+ in
+ the
+ space
+ to
+ to
+
+
+accumulate
+ the
+ hydrogen
+ atoms
+ to
+ let
+
+
+them
+ react.
+ And
+ on
+ one
+ side
+ of
+ the
+ the
+
+
+nebulae
+ that
+ you
+ you
+ you
+ you
+ you
+ are
+
+
+still
+ having
+ a
+ lot
+ of
+ dust
+
+
+undergoing
+ star
+ formation.
+ And
+ the
+ on
+ on
+
+
+the
+ other
+ side,
+ the
+ young
+ stars
+ have
+
+
+already
+ formed
+ and
+ they
+ the
+ blow
+ away
+
+
+gas
+ there's
+ from
+
+
+such
+ kind
+ of
+ front
+ line.
+
+
+And
+ the
+ similarly
+
+
+if
+ you
+ can
+ compare
+ the
+ the
+ image
+ taken
+
+
+by
+ Hubble
+ and
+ the
+ James
+ Webb's
+ for
+ the
+
+
+star-forming
+ regions
+ in
+ in
+ the
+ Milky
+
+
+Way,
+ you
+ can
+ see
+ a
+
+
+clear
+ difference.
+ But
+ on
+ the
+ left
+ hand
+
+
+side
+ that
+ is
+ a
+ very
+ iconic
+ view
+ or
+ the
+
+
+we
+ call
+ it
+ the
+ pillar
+ of
+ creations.
+ The
+
+
+dust
+ here
+
+
+the
+ main
+ purpose
+ is
+ to
+ to
+ to
+
+
+the
+ dust
+ here
+ obscure
+ the
+ light
+ coming
+
+
+from
+ the
+ the
+ the
+ the
+ star-forming
+
+
+region.
+ But
+ on
+ the
+ right
+ hand
+ side
+ if
+
+
+you
+ go
+ to
+ the
+ web
+ view
+ lens,
+ you
+ will
+
+
+definitely
+ see
+ more
+ star
+ that
+ because
+
+
+you
+ go
+ to
+ infrared
+ the
+ light
+ can
+
+
+penetrate
+ the
+ the
+ dust
+ more
+ easily.
+ And
+
+
+you
+ actually
+ see
+ the
+ dust
+ in
+ emission
+
+
+but
+ not
+ in
+ absorption
+ anymore.
+ So
+ that's
+
+
+the
+ power
+ of
+ going
+ to
+ the
+ infrared.
+
+
+Talking
+ about
+ a
+ little
+ bit
+ about
+ my
+ own
+
+
+research,
+ my
+ own
+ research
+ focus
+ on
+ deep
+
+
+field.
+ The
+ main
+ science
+ goal
+ of
+ of
+ our
+
+
+group
+ our
+ collaboration
+ is
+ trying
+ to
+
+
+find
+ the
+ first
+ light
+ in
+ the
+ universe.
+
+
+What
+ is
+ the
+ first
+ astronomical
+ object
+
+
+that
+ form
+ in
+ the
+ universe
+ and
+ how
+ where
+
+
+you
+ can
+ find
+ them
+ and
+ what
+ are
+
+
+how
+ do
+ they
+ look
+ like?
+ And
+ the
+ usually
+
+
+we
+ do
+ two
+ ways.
+ One,
+
+
+we
+ we
+ just
+ point
+ telescope
+ to
+ to
+ some
+
+
+place
+ that
+ do
+ not
+ have
+ a
+ very
+ bright
+
+
+star
+ and
+ just
+ integrate
+ as
+ long
+ as
+
+
+possible.
+ Just
+ take
+ a
+ data
+ stare
+ at
+ it
+
+
+and
+ that
+ will
+ be
+ some
+ image
+ on
+ the
+ on
+
+
+the
+ right.
+ And
+ there
+ are
+ some
+ little
+ bit
+
+
+smarter
+ way
+ that
+ you
+ actually
+ point
+ into
+
+
+a
+ structure
+ we
+ call
+ it
+ the
+ galaxy
+
+
+cluster
+ and
+ because
+ of
+ the
+ Albert
+
+
+Einstein's
+
+
+general
+ relativity,
+ the
+ gravitational
+
+
+of
+ this
+ galaxy
+ cluster
+ will
+ form
+
+
+something
+ like
+ a
+ magnifying
+ glass.
+ So
+
+
+you
+ are
+ actually
+ pointing
+ a
+ magnifying
+
+
+glass
+ which
+ is
+ JWST
+ to
+ another
+
+
+magnifying
+ glass
+ which
+ is
+ galaxy
+ cluster
+
+
+to
+ find
+ very
+ faint
+ very
+ far
+ away
+
+
+astronomical
+ object
+
+
+at
+ the
+ beginning
+ of
+ the
+ universe.
+
+
+And
+ actually
+ we
+ are
+ quite
+ successful
+
+
+with
+ JWST.
+ That's
+ the
+ whole
+ purpose
+ of
+
+
+why
+ JWST
+ was
+ was
+ built.
+ So
+ this
+ is
+
+
+the
+ one
+ of
+ the
+ deepest
+ image
+ that
+ that
+
+
+we
+ our
+ team
+
+
+received.
+ And
+ just
+ in
+ the
+ middle
+ of
+
+
+nowhere
+ we
+ identify
+ a
+ small
+ red
+
+
+dot
+ there
+ and
+ uh,
+ we
+ split
+ the
+ light
+ at
+
+
+different
+ wavelengths
+ and
+ confirmed
+ this
+
+
+galaxy
+ was
+ uh,
+ existed
+ 300
+ million
+ years
+
+
+after
+ the
+ Big
+ Bang.
+ Right
+ now,
+ the
+
+
+universe
+ has
+ a
+ history
+ of
+ roughly
+ 13.8
+
+
+uh,
+ billion
+ years,
+ and
+ this
+ is
+ roughly
+ 2
+
+
+or
+ 3%
+ of
+ the
+
+
+uh,
+ at
+ the
+ 2
+ or
+ 3%
+ of
+ age
+ when
+ the
+ when
+
+
+the
+ universe
+ just
+ formed.
+
+
+And
+ most
+ amazingly,
+ if
+ you
+ observe
+ at
+
+
+the
+ other
+ different
+ different
+
+
+wavelengths,
+ you
+ actually
+ get
+ the
+ oxygen
+
+
+uh,
+ detection
+ in
+ in
+ the
+ spectrum.
+ And
+
+
+uh,
+ think
+ about
+ this.
+ The
+ galaxy
+ is
+
+
+already
+ producing
+ oxygen
+ by
+ exploring
+
+
+stars
+ at
+ that
+ time
+ and
+ they
+ produce
+ all
+
+
+of
+ the
+ oxygen
+ that
+ we
+ are
+ breathing
+
+
+today
+ in
+ this
+ room.
+ Okay?
+ Starting
+ from
+
+
+the
+ 300
+ million
+ years
+ after
+ the
+ Big
+
+
+Bang.
+
+
+And
+ that
+ was
+ not
+ that
+ I
+ thought
+
+
+when
+ we
+ discussed
+ when
+ discovered
+ this
+
+
+this
+ object,
+ this
+ was
+ the
+ most
+ distant
+
+
+galaxy
+ we
+ know.
+ And
+ right
+ now,
+ this
+ is
+
+
+the
+ most
+ distant
+ object
+ that
+ we
+ have
+
+
+confirmed
+ so
+ far.
+ A
+ little
+ bit
+ of
+ more
+
+
+further,
+ and
+ still
+ in
+ the
+ vast
+ universe
+
+
+with
+ you
+ know,
+ back
+ black
+ background
+ and
+
+
+you
+ you
+ you
+ you
+ look
+ through
+ each
+ of
+ the
+
+
+object,
+ measure
+ each
+ of
+ their
+ distance,
+
+
+and
+ you
+ finally
+ find
+ one
+ target
+
+
+uh,
+ through
+ such
+ kind
+ of
+ uh,
+
+
+large
+ data
+ set.
+
+
+Uh,
+ another
+ interesting
+ that
+ the
+
+
+astronomers
+ are
+ paying
+ attention
+ these
+
+
+days
+ is
+ if
+ you
+ go
+ to
+ look
+ back
+ at
+ the
+
+
+first
+ image
+ that
+ the
+ White
+ House
+
+
+released,
+
+
+actually
+ in
+ this
+ region,
+ there's
+ a
+ small
+
+
+red
+ compact
+ object
+ in
+ in
+ this
+
+
+in
+ this
+ region.
+ We
+ were
+ very
+ curious
+
+
+about
+ what
+ that
+ is
+ when
+ the
+ data
+ was
+
+
+released.
+ And
+ later,
+ people
+ astronomer
+
+
+come
+ up
+ with
+ a
+ name
+ for
+ that.
+ And
+
+
+uh,
+ you
+ probably
+ know
+ that
+ astronomer
+
+
+are
+ very
+ bad
+ in
+ giving
+ names,
+ and
+ we
+
+
+just
+ call
+ them
+ little
+ red
+ dot.
+ Uh,
+ and
+
+
+uh,
+
+
+because
+ it's
+ a
+ little
+ and
+ also
+ red
+ and
+
+
+also
+ look
+ at
+ dot.
+ This
+ is
+ a
+ type
+ of
+ new
+
+
+type
+ of
+ star
+ that
+ JWST
+ identified.
+ They
+
+
+look
+ like
+ a
+ star,
+ exactly
+ look
+ like
+ a
+
+
+star
+ in
+ nearly
+ all
+ of
+ the
+ features,
+ but
+
+
+actually
+ we
+ believe
+ because
+ they
+ are
+ so
+
+
+far
+ away
+ and
+ so
+ bright,
+ they're
+ actually
+
+
+powered
+ by
+ black
+ hole.
+ Uh,
+ so
+ it's
+
+
+considered
+ that
+ a
+ black
+ hole
+ is
+
+
+accreting
+ gas
+
+
+It's
+ eating
+ gas
+ and
+ then
+ when
+ the
+ gas
+
+
+fall
+ into
+ the
+ black
+ hole
+ is
+ emitting
+
+
+light
+ from
+ the
+ gravitational
+ potential
+
+
+into
+ into
+
+
+the
+ the
+ light.
+
+
+Uh
+
+
+if
+ we
+ go
+ back
+ to
+ the
+ the
+ place
+ that
+ is
+
+
+near
+ to
+ us,
+ you
+ will
+ see
+ beautiful
+
+
+galaxy
+ like
+ this.
+ And
+ then
+ you
+ see
+ so
+
+
+many
+ bubbles.
+ Each
+ of
+ the
+ bubbles
+ was
+
+
+blown
+ away
+ by
+ a
+ supernova
+ that
+ the
+ star
+
+
+died
+ and
+ explode
+
+
+maybe
+ a
+ few
+ hundred
+ million
+ years
+ ago.
+
+
+And
+ they
+ also
+ produce
+ oxygen
+ carbon
+ that
+
+
+make
+ all
+ of
+ the
+ life
+ on
+ the
+ on
+ the
+ on
+
+
+the
+
+
+on
+ this
+ planet.
+
+
+And
+ speaking
+ about
+ my
+
+
+my
+ favorite
+ image,
+ this
+ is
+ actually
+
+
+Jupiter.
+ So
+ since
+ 1609,
+
+
+when
+ the
+ first
+ astronomer
+ Galileo
+
+
+pointed
+ his
+ telescope
+ into
+ the
+ sky,
+ this
+
+
+is
+ one
+ of
+ the
+ first
+ object
+ that
+ he
+
+
+observed.
+ And
+ since
+ then
+ every
+ telescope
+
+
+actually
+ observed
+ the
+ Jupiter.
+ And
+ this
+
+
+is
+ the
+ best
+ image
+ of
+ Jupiter
+ I
+ have
+ ever
+
+
+seen.
+ This
+ is
+ the
+ the
+ Great
+ Red
+ Spot.
+
+
+And
+ on
+ the
+ top
+ and
+ bottom,
+ that's
+
+
+actually
+ the
+ aurora
+ light.
+ So
+ the
+
+
+northern
+ light.
+ If
+ you
+ go
+ if
+ you
+ stand
+
+
+on
+ the
+ on
+ the
+ Jupiter
+ at
+ the
+ time,
+ you
+
+
+will
+ see
+ aurora
+
+
+above
+ your
+ head.
+ And
+ uh
+
+
+uh
+ this
+ is
+ the
+ the
+ Saturn
+ that
+ you
+ can
+
+
+see
+ the
+ the
+ the
+ ring
+ and
+ the
+ gap.
+
+
+Okay.
+ So
+ I'm
+ showing
+ you
+ a
+ lot
+ of
+ image.
+
+
+They
+ are
+ they
+ are
+ they
+ are
+ 2D
+ image,
+
+
+right?
+ But
+ we
+ we
+ know
+ that
+ the
+ universe
+
+
+is
+ four-dimensional,
+ right?
+ You
+ have
+ a
+
+
+space
+ three
+ axis
+ and
+ also
+ it's
+ evolve
+ as
+
+
+a
+ function
+ of
+ time.
+ So
+ it's
+ it's
+ 4D.
+ And
+
+
+astronomers
+ are
+ making
+
+
+working
+ very
+ hard
+ to
+ try
+ to
+ make
+ a
+ movie
+
+
+of
+ the
+ the
+ whole
+ universe.
+
+
+Uh
+
+
+and
+ perhaps
+ that's
+ a
+ more
+ informative
+
+
+for
+ the
+ world
+ model
+ that
+ we
+ just
+
+
+discuss,
+ right?
+ And
+
+
+and
+ think
+ about
+ this.
+ We
+ are
+ actually
+ we
+
+
+are
+ actually
+ working
+ on
+ this
+ universe
+
+
+the
+ James
+ Webb
+ Space
+ Telescope.
+ So
+ you
+
+
+can
+ look
+ at
+ the
+ same
+
+
+region
+ of
+ same
+ region
+ of
+ the
+ sky
+ over
+
+
+the
+ 2
+ years,
+ and
+ you
+ can
+ identify
+ some
+
+
+adults
+ that
+ goes
+ off
+ in
+ one
+ year
+ and
+
+
+and
+ they
+ fade
+ away
+ in
+ the
+ other
+ year.
+
+
+And
+ we
+ call
+ that
+ supernova.
+ Uh
+ basically
+
+
+a
+ star
+ end
+ of
+ their
+ life.
+ And
+ one
+ of
+ the
+
+
+new
+ telescope
+ space
+ telescope
+ that
+ NASA
+
+
+is
+ launching
+
+
+NASA
+ launched
+ in
+
+
+August
+ 30s
+ is
+ a
+ so-called
+ Nancy
+ Grace
+
+
+Roman
+ Space
+ Telescope.
+ And
+ one
+ of
+ the
+
+
+main
+ purpose
+ of
+
+
+Roman
+ Space
+ Telescope
+ is
+ try
+ to
+ make
+ a
+
+
+movie
+ of
+ the
+ universe
+ by
+ finding
+
+
+supernovae,
+ which
+ by
+ finding
+ them
+ we
+
+
+sort
+ of
+ know
+ they
+ are
+ they
+ are
+ like
+
+
+candles.
+ You
+ can
+ put
+ candles
+ at
+
+
+different
+ place
+ and
+ measure
+ the
+ the
+
+
+distance
+ to
+ it.
+ So
+ it's
+ actually
+ how
+
+
+fast
+ to
+ map
+ the
+ universe.
+
+
+So
+ this
+ is
+ the
+ artist's
+ impression
+ of
+
+
+the
+ Roman
+ Space
+ Telescope.
+ It's
+ not
+ as
+
+
+large
+ as
+ JWST.
+ It's
+ only
+ 2.4
+ m
+ across.
+
+
+But
+
+
+the
+ the
+ the
+ but
+ the
+ power
+ of
+ Space
+
+
+Telescope
+ is
+ it
+ has
+ a
+ very
+ beautiful
+
+
+detectors.
+ So
+ each
+ of
+ them
+ this
+ is
+ the
+
+
+we
+ call
+ it
+ focal
+ plane.
+ You
+ they
+ have
+ 18
+
+
+detectors.
+ Basically
+ the
+ same
+ detector
+
+
+similar
+ detector
+ as
+ you
+ use
+ it
+ on
+ a
+
+
+phone.
+ Each
+ of
+ them
+ is
+ a
+ 4K
+ *
+ 4K
+ pixel.
+
+
+So
+ combine
+ all
+ of
+ these
+ 18
+ chips
+
+
+together,
+ you
+ are
+ actually
+ got
+ a
+ 300
+
+
+million
+ pixel
+ at
+ once.
+
+
+And
+ the
+ consider
+ if
+ it's
+ keep
+ observing
+
+
+the
+ sky,
+
+
+the
+ digital
+ data
+ it
+ will
+ produce
+ is
+
+
+roughly
+ 1.4
+ terabytes
+ per
+ day.
+ And
+
+
+that's
+ roughly
+ 20
+ times
+ of
+ JWST
+ JWST
+ is
+
+
+producing
+ data.
+ And
+ remember
+ these
+ data
+
+
+do
+ not
+ happen
+ on
+ the
+ ground,
+ they
+ happen
+
+
+at
+ L2
+ which
+ is
+ 1.5
+ million
+
+
+kilometer
+ away.
+ And
+ you
+ have
+ to
+ transfer
+
+
+the
+ data
+ from
+ the
+ deep
+ space
+ to
+ the
+
+
+ground.
+ It's
+ actually
+ already
+ taking
+
+
+data
+ right
+ now.
+ So
+ these
+ are
+ data
+ that
+
+
+before
+ the
+ telescope
+ is
+ focused.
+ So
+ the
+
+
+star
+ I
+ really
+
+
+image
+ that
+ you
+ see
+ here
+ is
+ a
+ is
+ a
+ star
+
+
+but
+ before
+ the
+ focus.
+ So
+ the
+ the
+ team
+ is
+
+
+working
+ very
+ hard
+ in
+ focusing
+ the
+
+
+telescope
+ and
+ then
+ taking
+ the
+ real
+ data.
+
+
+Make
+ sure
+ telescope
+ works.
+
+
+As
+ so
+ for
+ us
+ who
+ are
+ searching
+ for
+ the
+
+
+first
+ light
+ of
+ the
+ universe,
+ we
+ care
+
+
+about
+
+
+how
+ Roman
+ is
+ observing
+ the
+ the
+ the
+
+
+universe
+ at
+ the
+ very
+ beginning.
+ So
+ here
+
+
+I'm
+ so
+ showing
+ you
+ a
+ numerical
+
+
+simulation
+ obtained
+ by
+ our
+ astronomers.
+
+
+And
+ all
+ of
+ the
+ background
+ image
+ are
+ the
+
+
+gas
+ the
+ hydrogen
+ at
+ at
+ that
+ time.
+ And
+
+
+you
+ know
+ that
+ the
+ galaxy
+ they
+ are
+ like
+
+
+cities
+ on
+ the
+
+
+on
+ the
+ map.
+ They
+ are
+ not
+
+
+randomly
+ they
+ are
+ randomly
+ distributed
+
+
+but
+ they
+ form
+ structures,
+ right?
+ And
+ all
+
+
+of
+ these
+ these
+
+
+the
+ the
+ sign
+ circles
+ represent
+ one
+
+
+galaxy
+ that
+ it
+ should
+ be
+ detected
+ by
+
+
+Roman.
+
+
+And
+ think
+ about
+ it.
+ This
+ is
+ the
+ first
+
+
+image
+ of
+ the
+ GTC
+ that
+ you
+ just
+ saw.
+ And
+
+
+the
+ GTC
+ can
+ only
+ observe
+ such
+ a
+ very
+
+
+small
+ patch
+ of
+ sky.
+ But
+ Roman
+ will
+ get
+
+
+to
+ get
+ a
+ very
+ large
+ view
+ of
+ it.
+ And
+
+
+basically,
+ that's
+
+
+that
+ shows
+ how
+ the
+ how
+ the
+ data
+ rate
+
+
+expansion
+ in
+ the
+ in
+ the
+ astronomy
+ is
+
+
+going
+ on
+ over
+
+
+the
+ upcoming
+ years.
+
+
+Another
+ very
+ important
+ infrastructure
+ in
+
+
+astronomy
+ is
+ so-called
+ the
+ Vera
+ Rubin
+
+
+Observatory,
+ which
+ is
+ conducting
+ a
+
+
+survey
+ called
+ Legacy
+ Survey
+ of
+ a
+ Space
+
+
+of
+ Time.
+ So,
+ this
+ is
+ a
+ telescope
+ that
+ is
+
+
+in
+ in
+ the
+ mountain
+ of
+ Chile,
+ and
+ it's
+
+
+ground-based
+ telescope
+ not
+ launching
+ in
+
+
+space.
+
+
+Uh
+ it's
+ uh
+ doing
+ survey
+ every
+
+
+every
+ night
+ right
+ now.
+
+
+The
+ special
+ thing
+ with
+ this
+ this
+
+
+telescope
+ is
+ the
+ camera
+ is
+ the
+ biggest
+
+
+camera
+ that
+ a
+ human
+ being
+ ever
+ built.
+
+
+So,
+ this
+ is
+ a
+ 3.2
+ gigapixels,
+ which
+ is
+
+
+10
+ times
+ more
+ than
+ than
+ what
+ they
+ have
+
+
+Roman.
+ So,
+ it's
+ a
+ worth
+ producing
+ it
+ is
+
+
+actually
+ producing
+ data
+ right
+ now
+ at
+ the
+
+
+rate
+ of
+ 10
+ or
+ 20
+ terabytes
+ per
+ day.
+
+
+And
+ the
+ telescope
+ is
+ 8.4
+ m,
+ so
+ it's
+ one
+
+
+of
+ the
+ largest
+ telescope
+ that
+ they
+ built
+
+
+on
+ the
+ on
+ the
+ ground.
+ And
+ you
+ can
+ see
+
+
+how
+ the
+ mirror
+ of
+ the
+ telescope
+ how
+ how
+
+
+large
+ is
+ this
+ camera.
+ This
+ is
+ a
+ camera
+
+
+compared
+ with
+ the
+ engineering
+ team
+
+
+on
+ the
+ on
+ the
+ ground.
+
+
+And
+
+
+the
+ observatory
+ has
+ been
+ observing.
+ This
+
+
+was
+ a
+ data
+ taken
+ in
+ last
+ year.
+ And
+ this
+
+
+is
+ the
+ first
+ image
+ of
+ the
+ of
+ the
+
+
+telescope
+ release.
+ You
+ can
+ see
+ there
+ is
+
+
+beautiful
+ galaxies,
+ clusters,
+ and
+ each
+
+
+of
+ the
+ each
+ of
+ the
+ light
+ you
+ see
+ is
+ a
+
+
+galaxy.
+ Each
+ of
+ galaxy
+ have
+ 1
+ billion
+
+
+stars
+ there
+ at
+ different
+ distance.
+
+
+Uh
+ one
+ way
+ that
+
+
+Rubin
+ is
+ observing
+ is
+ observing
+ we
+ call
+
+
+it
+ in
+ time
+ domain
+ to
+ compare
+
+
+the
+ difference
+ of
+ image.
+ As
+ you
+ can
+ see
+
+
+here,
+ there
+ are
+ moving
+ star
+ go
+ across
+
+
+it.
+ We
+ call
+ it
+ asteroid.
+ So,
+ one
+ key
+
+
+thing
+ in
+ astronomy
+ is
+ to
+ identify
+ things
+
+
+move
+ in
+ the
+ sky
+ because
+ most
+ of
+ the
+
+
+thing
+ they
+ do
+ not
+ move
+ in
+ the
+ sky.
+ And
+
+
+that's
+ how
+ Roman
+ is
+ identifying
+
+
+asteroids
+ within
+ the
+ the
+ first
+ data
+ set.
+
+
+>> [music]
+
+
+>> And
+ the
+ Rubin
+ is
+ actually
+ producing
+
+
+uh
+ roughly
+ 1
+ million
+
+
+alerts,
+ this
+ kind
+ of
+ events,
+ every
+
+
+night.
+ And
+ when
+ Rubin
+ is
+ run
+ at
+ a
+ full
+
+
+speed,
+ it
+ will
+ go
+ to
+ produce
+ 7
+ million
+
+
+alerts
+ every
+ night.
+ But
+ consider
+ on
+ the
+
+
+planet,
+ there's
+ only
+ 30,000
+ astronomers.
+
+
+So
+ if
+ all
+ of
+ us
+ should
+ work
+ on
+ the
+ data
+
+
+every
+ night,
+ we
+ have
+ to
+ reply
+ 200
+
+
+emails.
+
+
+Uh
+ about
+ the
+ the
+ the
+ the
+ the
+ alerts.
+ So
+
+
+it's
+ it's
+ a
+ definitely
+ not
+ scalable.
+ Um
+
+
+and
+ I'm
+ showing
+ here
+ how
+ the
+ data
+ rate
+
+
+of
+ different
+ telescope
+ uh
+ from
+ major
+ and
+
+
+ground
+ and
+ space
+ telescope
+ as
+ a
+ function
+
+
+of
+ time.
+ Over
+ 2025,
+ there's
+ a
+ major
+ data
+
+
+rate
+ uh
+ of
+ flood
+ uh
+ because
+ of
+ a
+ Roman
+
+
+because
+ of
+ Rubin.
+ And
+ if
+ the
+ square
+
+
+kilometer
+ array,
+ which
+ is
+ a
+ radio
+
+
+telescope
+ launched
+
+
+uh
+ on
+ the
+ ground
+ around
+ the
+ 2030,
+ this
+
+
+data
+ this
+ telescope
+ will
+ produce
+ roughly
+
+
+two
+
+
+gigabytes
+ of
+ data
+ GB
+ of
+ data
+ every
+ day
+
+
+and
+ basically
+ no
+ astronomer
+ will
+ will
+
+
+going
+ to
+
+
+uh
+ analyze
+ all
+ of
+ data.
+ So
+ what
+ I
+ want
+
+
+to
+ say
+ is
+ our
+ field
+ is
+ undergoing
+ a
+
+
+major
+ data
+ flood
+ and
+ we
+ we
+ have
+ to
+ rely
+
+
+on
+ AI
+ because
+ we
+ we
+ are
+ running
+ out
+ of
+
+
+our
+ attention.
+
+
+Um
+ and
+ I
+ want
+ to
+ give
+ you
+ a
+ few
+ cases
+
+
+why
+ we
+ are
+ what
+ what
+ we
+ are
+ doing
+ these
+
+
+days
+ by
+ using
+ AI
+ in
+ our
+ field.
+ Uh
+ so
+
+
+first
+ thing
+ is
+ the
+ gravitational
+ lensing
+
+
+that
+ you
+ see
+ the
+ first
+ image
+ of
+ the
+
+
+galaxy
+ and
+ this
+ galaxy
+ cluster
+ is
+
+
+bending
+ the
+ light
+ from
+ the
+ background
+
+
+galaxy
+ into
+ this
+ beautiful
+ arc
+ like
+ like
+
+
+a
+ strong
+ here.
+
+
+Um
+ maybe
+ 10
+ years
+ ago
+
+
+one
+ PhD
+ student
+ can
+ identify
+ one
+ or
+ two
+
+
+system
+ like
+ this
+ in
+ the
+ data
+ and
+ then
+
+
+publish
+ a
+ paper
+ or
+ you
+ publish
+ two
+ paper
+
+
+you
+ get
+ the
+ PhD
+ degree.
+
+
+But
+ but
+ the
+ but
+ these
+ days
+ you
+ because
+
+
+of
+ such
+ kind
+ of
+ big
+ data
+ rate,
+ you
+ you
+
+
+you
+ have
+ to
+ rely
+ on
+ machine
+ learning
+
+
+method
+ to
+ go
+ through
+ all
+ of
+ data
+ that
+
+
+people
+ have
+ been
+ taking
+ and
+ publish
+ a
+
+
+400
+ issue
+
+
+looks
+ sorry
+
+
+gravitational
+ lens
+ together.
+ To
+ identify
+
+
+these
+ kind
+ of
+ things,
+
+
+uh
+ you
+ can
+ measure
+ the
+ the
+ the
+ distance
+
+
+of
+ galaxy
+ and
+ that
+ was
+ very
+ powerful
+ for
+
+
+understanding
+ how
+ the
+ universe
+ is
+
+
+expanding
+ as
+ a
+ function
+ of
+ time.
+
+
+Uh
+ on
+ my
+ side,
+ I'm
+ also
+ heavy
+ user
+ of
+
+
+Codex
+ cloud
+ cloud
+ these
+ days.
+ So
+
+
+actually
+ I'm
+
+
+this
+ is
+ one
+ of
+ my
+ research.
+ Actually,
+ I
+
+
+can
+ use
+ the
+ data
+ from
+ JWST
+ in
+ a
+
+
+underused
+ observing
+ mode
+ and
+ then
+ feed
+
+
+all
+ my
+ data
+ into
+ all
+ the
+ data
+ to
+ to
+ AI
+
+
+and
+ AI
+ tell
+ me
+ where
+ are
+ the
+ spectrum
+
+
+that
+ the
+ dispersed
+ light
+ land
+ on
+ the
+
+
+detector
+ and
+ help
+ me
+ to
+ get
+ a
+ new
+
+
+observing
+ mode,
+ new
+ way
+ to
+ use
+ the
+ the
+
+
+James
+ Webb
+ Space
+ Telescope
+ to
+ observe
+
+
+the
+ universe.
+
+
+And
+
+
+people
+ have
+ been
+ using
+ the
+ AI
+ to
+ run
+ run
+
+
+the
+ telescope.
+ Basically,
+ these
+ these
+
+
+jobs
+ were
+ done
+ by
+ by
+ human
+ beings
+
+
+over
+ the
+ past
+ 400
+ years.
+
+
+You
+ you
+ have
+ to
+ pick
+ the
+ target
+ and
+ then
+
+
+point
+ your
+ telescope
+ to
+ to
+ to
+ the
+ third
+
+
+target.
+ And
+ then
+ if
+ there's
+ a
+ cloud
+
+
+going
+ on,
+ okay,
+ you
+ have
+ to
+ point
+ your
+
+
+telescope
+ other
+ places
+ or
+
+
+or
+ close
+ your
+ your
+ dome.
+ Or
+ if
+ you
+ find
+
+
+something
+ that
+ is
+ going
+ off
+ like
+ a
+
+
+supernova,
+ you
+ point
+ the
+ telescope
+ to
+ to
+
+
+the
+ exact
+ place.
+ All
+ of
+ these
+ decision
+
+
+chain
+ was
+ was
+ by
+ human
+ being,
+ but
+ these
+
+
+And
+ this
+ is
+ from
+ my
+ friends
+ at
+ Tsinghua.
+
+
+They
+ developed
+ a
+
+
+self-supervised
+
+
+model
+ that
+ actually
+ when
+ we
+ look
+ at
+ the
+
+
+star
+ when
+ we
+ point
+ our
+ telescope
+ in
+ a
+
+
+certain
+ piece
+ of
+ sky,
+ we
+ are
+
+
+we
+ we
+ stack
+ the
+ data
+ together.
+ So,
+ you
+
+
+have
+ the
+ very
+ deep
+ 2D
+ image
+ of
+ it.
+ But
+
+
+if
+ you
+ look
+ at
+ the
+ temporal
+ the
+ the
+
+
+the
+ time
+ domain
+ of
+ of
+ the
+
+
+noise,
+ actually,
+ you
+ can
+ understand
+ the
+
+
+whole
+ noise
+ is
+ fluctuating.
+ So,
+ you
+ are
+
+
+getting
+ deeper
+ data
+ than
+ what
+ you
+ are
+
+
+getting
+ from
+ the
+ traditional
+ method.
+ And
+
+
+these
+ people
+ using
+ this
+ method,
+ they
+ can
+
+
+get
+ the
+ the
+ data
+ deeper
+ by
+ roughly
+ a
+
+
+factor
+ of
+ 2.5.
+ So,
+ that
+ means
+ you
+ are
+
+
+using
+ JWST
+ not
+ only
+ like
+ a
+ 6.5
+ m
+
+
+telescope,
+ but
+ something
+ like
+ 20
+ m
+
+
+telescope
+ that
+ there's
+ no
+ way
+ to
+ launch
+
+
+that
+ into
+ space
+ right
+ now.
+
+
+And
+
+
+our
+ field
+ is
+ being
+ heavily
+ impacted
+ by
+
+
+large
+ language
+ model
+ over
+ the
+ last
+ 2
+
+
+years
+ or
+ so.
+ And
+ there's
+ a
+ recent
+ paper
+
+
+saying
+ that
+ more
+ than
+ half
+ of
+ the
+ recent
+
+
+astronomy
+ paper
+ are
+ written
+ by
+ large
+
+
+language
+ models.
+ And
+ the
+ one
+ interesting
+
+
+quote
+ from
+ the
+ from
+ the
+ from
+ the
+
+
+abstract
+ is
+ more
+ than
+ half
+ of
+ the
+ recent
+
+
+paper
+ are
+ therefore
+ show
+ a
+ large
+
+
+language
+ model
+ trace,
+ but
+ only
+ 0.8%
+ of
+
+
+them
+ declare
+ that
+ in
+ the
+ paper.
+
+
+So,
+ I'm
+ not
+ saying
+ that
+ astronomers
+ are
+
+
+cheating
+ with
+ to
+ each
+ other
+ at
+ these
+
+
+days,
+ but
+ actually
+ the
+ field
+ is
+ changing
+
+
+so
+ fast
+ that
+ we
+ don't
+ know
+ what
+ is
+ the
+
+
+best
+ way
+ to
+ proceed.
+
+
+And
+ another
+ interesting
+ thing
+ is
+ I'm
+
+
+talking
+ about
+ the
+ data,
+ but
+ talking
+
+
+about
+ the
+ place
+ that
+ the
+ generate
+ data,
+
+
+which
+ is
+ telescope.
+
+
+These
+ days
+ astronomer
+ are
+ building
+ start
+
+
+to
+ build
+ telescope
+ like
+ a
+ AI
+ startup,
+
+
+which
+ is
+ very
+ interesting.
+ I
+ want
+ to
+
+
+share
+ to
+ you.
+
+
+So,
+ when
+ astronomers
+ are
+ computing,
+ you
+
+
+know
+ that
+ the
+ computer
+ evolved
+ very
+ fast
+
+
+over
+ the
+ last
+ 60
+ years.
+ But
+ when
+ you
+
+
+talk
+ about
+ the
+ observing,
+ let's
+ say
+
+
+Hubble
+ Space
+ Telescope.
+ This
+ is
+
+
+telescope
+ designed
+ in
+ 1970s
+ and
+ launched
+
+
+in
+ the
+ space
+ in
+ 1990s.
+ We
+ are
+ still
+
+
+writing
+ the
+ telescope
+ proposal
+ to
+ apply
+
+
+for
+ the
+ time
+ and
+ use
+ it
+ right
+ now.
+ And
+
+
+they
+ just
+ want
+ to
+ retire
+ until
+ 2030
+ at
+
+
+least.
+ And
+ the
+ NASA
+ is
+ still
+ thinking
+
+
+about
+ a
+ mission
+ to
+ save
+ Hubble
+ to
+ make
+
+
+it
+
+
+run
+ longer.
+
+
+And
+
+
+right
+ now
+ the
+ private
+ funder
+ is
+ kicking
+
+
+in
+ for
+ for
+ building
+ telescope.
+ So,
+ this
+
+
+is
+ the
+ this
+ is
+ a
+ project
+ funded
+ by
+ Eric
+
+
+Schmidt,
+ the
+
+
+former
+ Google
+ CEO.
+ It's
+ called
+ the
+
+
+Lazuli.
+ This
+ is
+ the
+ first
+ private
+
+
+space
+ observatory
+ that
+ will
+ be
+ launched
+
+
+to
+ the
+ space.
+ They
+ collaborate
+ with
+
+
+people
+ like
+ so
+
+
+promoter
+ who
+ is
+ a
+
+
+Nobel
+ Prize
+ laureate
+ back
+ in
+ 2011
+ and
+
+
+also
+ people
+ at
+ the
+ University
+ of
+ Arizona
+
+
+to
+ build
+ all
+ of
+ the
+
+
+the
+ telescope
+ and
+ they're
+ going
+ to
+
+
+launch
+ it
+ in
+ two
+ or
+ three
+ years.
+ Nearly
+
+
+all
+ of
+ the
+ things
+ on
+ the
+ telescope
+ they
+
+
+can
+ buy
+ as
+ a
+ commercial
+ product
+ and
+ they
+
+
+all
+ of
+ the
+ product
+ team
+ signed
+ the
+ NDA
+
+
+before
+ releasing
+ the
+ telescope
+ idea
+ to
+
+
+the
+ people.
+ We
+ know
+ very
+ little
+ bit
+
+
+about
+ this
+ telescope.
+ It's
+ a
+ probably
+
+
+some
+ close
+ close
+ telescope
+ like
+ open
+ AI
+
+
+or
+ cloudy.
+
+
+But
+ we
+ believe
+ this
+ telescope
+ will
+ will
+
+
+bring
+ huge
+ impact
+ to
+ to
+ the
+ to
+ the
+ our
+
+
+research
+ in
+ natural
+ physics.
+
+
+And
+ another
+ way
+ to
+ look
+ at
+ this
+ is
+
+
+this
+ mission
+ concept
+ called
+ the
+ Nautilus
+
+
+space
+ observatory,
+ which
+ is
+ by
+ professor
+
+
+at
+ the
+ University
+ of
+ Arizona.
+ Think
+
+
+about
+ the
+ star
+ shape.
+ If
+ you
+ fold
+
+
+10
+ mirror
+ each
+ of
+ the
+ size
+ is
+ a
+ 6.5
+ m
+ to
+
+
+the
+ star
+ shape.
+ And
+ when
+ it
+ get
+
+
+launched,
+ each
+ of
+ the
+ mirror
+ they
+ get
+
+
+they
+ get
+ expanded
+ when
+ they
+ when
+ they
+ go
+
+
+to
+ the
+ space.
+ And
+ basically
+ you
+ will
+
+
+launch
+ 10
+ telescope
+ like
+ like
+ James
+ Webb
+
+
+Space
+ Telescope
+ at
+ the
+ same
+ time.
+ And
+
+
+they
+ And
+ when
+ you
+ build
+ with
+ 10
+
+
+telescope,
+ you
+ you
+ can
+ do
+ faster
+
+
+iteration.
+ Okay,
+ these
+ years
+ we
+ can
+
+
+people
+ people
+ start
+ to
+ build
+ telescope
+
+
+like
+ 50
+ cm.
+ And
+ they
+ can
+ do
+ this
+ kind
+ of
+
+
+experiment.
+ And
+ when
+ we
+ build
+ 10
+
+
+telescope
+ like
+ in
+ this
+ way
+ and
+ launch
+ in
+
+
+one
+ shot,
+ the
+ the
+ the
+ price
+ will
+ be
+ much
+
+
+cheaper
+ than
+ building
+ the
+ average
+ price
+
+
+will
+ be
+ much
+ cheaper
+ than
+ building
+ just
+
+
+one
+ as
+ you
+ can
+ can
+ imagine.
+
+
+So,
+
+
+this
+ is
+ my
+ final
+ slides.
+ I'm
+ I'm
+ very
+
+
+happy
+ to
+ report
+ some
+ of
+ the
+ recent
+
+
+progress
+ that
+ we
+ made
+ in
+ the
+ in
+ the
+
+
+field
+ of
+ astronomy.
+ And
+ I
+ would
+ like
+ to
+
+
+align
+ with
+ with
+ with
+ the
+ AI
+ researchers
+
+
+and
+ leaders
+ in
+ this
+ room.
+
+
+First
+ of
+ all,
+ as
+ a
+ astronomer,
+ I
+ believe
+
+
+that
+ we
+ definitely
+ need
+ the
+ AI
+ to
+
+
+prepare
+ for
+ the
+ ongoing
+ data
+ flood.
+ And
+
+
+this
+ is
+ already
+ at
+ a
+ scale
+ that
+ no
+ no
+ of
+
+
+the
+ astronomical
+ team
+ can
+ handle.
+ And
+ we
+
+
+definitely
+ need
+ that
+ for
+ the
+ for
+ the
+
+
+this
+
+
+discovery
+ and
+ also
+ the
+ breakthrough
+ make
+
+
+power
+ to
+ make
+ decision.
+ And
+ the
+ other
+
+
+interesting
+ thing
+ with
+ our
+ data
+ is
+ our
+
+
+data
+ come
+ with
+ no
+ label
+ at
+ all.
+ And
+ so
+
+
+it's
+ a
+ very
+ good
+ test
+ ground
+ for
+ all
+ of
+
+
+the
+ self-supervising
+ algorithm.
+ And
+
+
+astronomer
+ release
+ every
+ photon
+ that
+ we
+
+
+collect
+ to
+ the
+ public
+ without
+ any
+
+
+without
+ any
+ barriers.
+ And
+ the
+ universe
+
+
+is
+ giving
+ us
+
+
+giving
+ us
+ this
+ gift.
+ And
+ another
+ thing
+
+
+very
+ importantly
+ is
+ if
+ there's
+ only
+ one
+
+
+open
+ science
+ in
+ in
+
+
+among
+ the
+ whole
+ discipline,
+ then
+ then
+
+
+that
+ will
+ be
+ astronomy.
+ Because
+
+
+astronomy
+ is
+ looking
+ outward
+ not
+ not
+ on
+
+
+anything
+ in
+ in
+
+
+on
+ on
+ the
+ ground
+ on
+ this
+ planet.
+ And
+ if
+
+
+you
+ believe
+ that
+ model
+ collapse
+ when
+
+
+trained
+ on
+ recursively
+ generated
+ data,
+
+
+then
+ I
+ will
+ tell
+ you
+ that
+ the
+
+
+astronomers
+ are
+ collecting
+ fresh
+ data
+
+
+every
+ every
+ day
+ and
+ from
+ nowhere
+ from
+
+
+the
+ planet.
+ And
+
+
+astronomy
+ is
+ a
+ more
+ than
+ astronomy
+ me
+
+
+few
+ that
+ I
+ have
+ already
+ get
+ 400
+ years
+ of
+
+
+history.
+ We
+ collect
+ a
+ lot
+ of
+ data
+ and
+
+
+start
+ to
+ identify
+ things.
+ Right
+ now
+ AI
+
+
+is
+ helping
+ of
+ helping
+ us
+ to
+ see
+ more
+
+
+than
+ what
+ we
+ can
+ imagine.
+ And
+ that's
+ all
+
+
+I
+ want
+ to
+ share.
+ Thank
+ you
+ very
+ much.
