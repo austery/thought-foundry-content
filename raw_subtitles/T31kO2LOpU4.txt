@@ -1,0 +1,6886 @@
+In
+ the
+ last
+ year,
+ China
+ has
+ installed
+
+
+nine
+ times
+ more
+ robots
+ than
+ the
+ United
+
+
+States.
+ They
+ install
+ more
+ robots
+ than
+
+
+the
+ rest
+ of
+ the
+ world
+ combined.
+ And
+ that
+
+
+we
+ need
+ to
+ catch
+ up
+ because
+ robots
+ are
+
+
+not
+ a
+ category
+ of
+ hardware.
+ Robots
+ are
+
+
+the
+ category
+ that
+ makes
+ everything
+ else.
+
+
+>> Semiconductors,
+ medicines,
+ defense
+
+
+systems,
+ energy
+ infrastructure,
+ and
+ so
+
+
+much
+ more.
+
+
+>> And
+ I've
+ testified
+ to
+ Congress
+ twice
+
+
+now,
+ the
+ Joint
+ Economic
+ Committee
+ and
+
+
+the
+ House
+ Science
+ Committee.
+
+
+>> The
+ United
+ States
+ is
+ no
+ longer
+
+
+competitive
+ in
+ manufacturing,
+ and
+ we're
+
+
+falling
+ further
+ behind
+ every
+ day.
+
+
+>> And
+ we
+ are
+ a
+ robotics
+ company
+ based
+ here
+
+
+in
+ the
+ United
+ States
+ making
+ the
+
+
+hardware,
+ the
+ software,
+ and
+ the
+ AI
+
+
+stack.
+
+
+>> Our
+ robotic
+ arms
+ operate
+ in
+ factories
+
+
+from
+ small
+ businesses
+ to
+ Fortune
+ 500s
+
+
+like
+ Lockheed
+ Martin,
+ Verizon,
+ and
+ even
+
+
+NASA.
+ When
+ our
+ customers
+ succeed,
+
+
+America
+ succeeds.
+
+
+>> Robots
+ can
+ do
+ back
+ flips,
+ but
+ nobody
+
+
+needs
+ a
+ robot
+ that
+ does
+ back
+ flips.
+ It's
+
+
+cool
+ to
+ build
+ a
+ robot
+ that
+ can
+ run
+ a
+
+
+race,
+ nobody
+ needs
+ a
+ robot
+ that
+ can
+ run
+
+
+a
+ race.
+ We
+ are
+ focused
+ on
+ solving
+ real
+
+
+problems
+ for
+ real
+ people,
+ and
+ we're
+
+
+solving
+ them
+ fast.
+
+
+>> We
+ are
+ growing
+ so
+ fast
+ that
+ about
+ every
+
+
+6
+ months
+ we're
+ adding
+ additional
+ space
+
+
+to
+ the
+ factory.
+ We
+ officially
+ started
+ 10
+
+
+years
+ ago,
+
+
+>> but the
+ first
+ couple
+ years
+ were
+ really
+
+
+experimenting
+ with
+ how
+ are
+ we
+ going
+ to
+
+
+build.
+
+
+>> There
+ was
+ a
+ time
+ where
+ my
+ friends
+ had
+ a
+
+
+little
+ intervention
+ for
+ me,
+ and
+ they're
+
+
+like,
+ "You
+ said
+ you
+ wanted
+ to
+ build
+
+
+robots,
+ and
+ you've
+ been
+ doing
+ it
+ for
+
+
+years,
+ and
+ you
+ don't
+ seem
+ to
+ have
+ any
+
+
+products
+ that
+ you're
+ shipping.
+ And
+ like,
+
+
+are
+ you
+ sure
+ that
+ this
+ you
+ can
+ do
+ this?
+
+
+Like
+ I
+ think
+ it's
+ time
+ to
+ go
+ do
+
+
+something
+ else."
+ When
+ you're
+ trying
+ to
+
+
+do
+ something
+ hard,
+ it
+ takes
+ time,
+ and
+ it
+
+
+took
+ a
+ really
+ long
+ time
+ cuz
+ we
+ we
+
+
+weren't
+ just
+ writing
+ software
+ for
+
+
+others,
+ we
+ were
+ trying
+ to
+ build
+ the
+
+
+thing
+ from
+ scratch
+ and
+ design
+ our
+ own
+
+
+motors
+ and
+ our
+ own
+ motor
+ controllers.
+
+
+>> And
+ that
+ is
+ something
+ that
+ most
+
+
+companies
+ can't
+ say
+ because
+ they
+ know
+
+
+there's
+ over
+ 2,000
+ components,
+ there's
+
+
+probably
+ over
+ 200
+ subassemblies
+ inside
+
+
+of
+ each
+ robot.
+
+
+>> It
+ took
+ us
+ 7
+ years
+ to
+ sell
+ our
+ first
+
+
+[music]
+ 100
+ robots,
+ but
+ we've
+ been
+
+
+growing
+ five
+ to
+ 10
+ times
+ every
+ year,
+ and
+
+
+by
+ the
+ end
+ of
+ next
+ year
+ we're
+ on
+ track
+
+
+to
+ be
+ 10%
+ of
+ new
+ deployments
+ installed
+
+
+in
+ the
+ United
+ States.
+
+
+>> And
+ I
+ think
+ when
+ the
+ platform
+ shifts,
+
+
+you
+ have
+ a
+ chance
+ to
+ create
+ a
+
+
+generation-defining
+ company.
+ The
+ company
+
+
+that
+ could
+ be
+ the
+ size
+ of
+ an
+ Apple
+ or
+ an
+
+
+Nvidia,
+ and
+ just
+ as
+ important
+ as
+ one
+ of
+
+
+those.
+
+
+>> This
+ room
+ is
+ so
+ badass.
+
+
+>> Yeah.
+ Do
+ you
+ want
+ to
+ go
+ it?
+ May
+ we?
+
+
+Yeah,
+ of
+ course.
+
+
+>> Oh my
+ god.
+
+
+>> More
+ than
+ a
+ million
+ dollar
+ order
+ that's
+
+
+due
+ in
+ reasonable
+ parts
+ of
+ the
+ AI
+ work
+
+
+that
+ everybody's
+ been
+ working
+ on
+ there.
+
+
+So,
+ this
+ is
+ huge.
+ It's
+ a
+ product
+ that's
+
+
+actually
+ working
+ and
+ doing
+ real
+ work.
+
+
+So,
+ uh
+ thank
+ you
+ to
+ everybody
+ involved
+
+
+across
+ that
+ whole
+ account
+ and
+ across
+
+
+that
+ whole
+ product
+ stack.
+
+
+>> Literally
+ every
+ single
+ person
+ in
+ the
+
+
+manufacturing
+ world
+ did
+ some
+ form
+ of
+
+
+weekend,
+ stayed
+ really
+ late.
+
+
+>> I'm
+ Eben
+ Beard,
+ CEO
+ of
+ Standard
+ Bots.
+ We
+
+
+are
+ America's
+ largest
+ maker
+ of
+ AI
+ native
+
+
+industrial
+ robots.
+ We're
+ deployed
+ today
+
+
+across
+ Fortune
+ 500s,
+ automotive,
+
+
+aerospace,
+ oil
+ and
+ gas,
+ and
+ defense.
+ So
+
+
+many
+ different
+ use
+ cases.
+ We
+ also
+ have
+
+
+small,
+ medium-sized
+ businesses
+ across
+
+
+almost
+ every
+ state
+ in
+ the
+ country.
+
+
+>> Why
+ did
+ you
+ start
+ a
+ robotics
+ company
+ in
+
+
+New
+ York
+ instead
+ of
+ Silicon
+ Valley?
+
+
+>> When
+ you
+ look
+ at
+ the
+ culture
+ of
+ this
+
+
+area,
+ in
+ Silicon
+ Valley
+ the
+ average
+
+
+retention
+ is
+ like
+ something
+ like
+ a
+ year
+
+
+where
+ people
+ are
+ jumping
+ company
+ to
+
+
+company.
+ And
+ when
+ you're
+ trying
+ to
+ do
+
+
+something
+ really
+ hard,
+ you
+ want
+ people
+
+
+to
+ stick
+ around.
+
+
+I
+ was
+ working
+ in
+ this
+ entirely
+ different
+
+
+business.
+ I
+ discovered
+ web
+ design
+ at
+
+
+some
+ point
+ in
+ sixth
+ grade
+ and
+ then
+ I
+
+
+started
+ to
+ make
+ money
+ building
+ websites.
+
+
+Back
+ then
+ not
+ everyone
+ had
+ a
+ website
+ and
+
+
+you
+ could
+ go
+ and
+ say,
+ "Hey,
+ build
+ you
+ a
+
+
+website."
+ After
+ college
+ and
+ I
+ did
+
+
+computer
+ science
+ at
+ Duke
+ and
+ after
+
+
+college
+ I
+ did
+ Y
+ Combinator.
+ I
+ was
+
+
+building
+ a
+ CRM.
+ We're
+ trying
+ to
+ make
+ a
+
+
+personal
+ CRM
+ to
+ track
+ your
+ relationships
+
+
+and
+ at
+ Y
+ Combinator
+ there
+ was
+ a
+ partner
+
+
+who
+ was
+ building
+ these
+ humanoid
+ robots
+
+
+that
+ were
+ like
+ 8
+ ft
+ tall.
+ They
+ actually
+
+
+had
+ a
+ whole
+ machine
+ shop
+ in
+ the
+ Y
+
+
+Combinator
+ office
+ and
+ they
+ were
+ building
+
+
+all
+ kinds
+ of
+ stuff
+ and
+ having
+ so
+ much
+
+
+fun
+ every
+ day.
+ After
+ Y
+ Combinator,
+ this
+
+
+robotics
+ guy
+ gave
+ me
+ a
+ bunch
+ of
+ books.
+
+
+He's
+ like,
+ "I
+ self-taught.
+ I
+ studied
+
+
+software
+ in
+ college
+ and
+ I
+ self-taught
+
+
+electrical
+ and
+ mechanical.
+ Read
+ those
+
+
+books
+ and
+ I
+ started
+ tinkering
+ kind
+ of
+ at
+
+
+nights
+ and
+ weekends
+ and
+ then
+ and
+ that's
+
+
+where
+ I
+ realized
+ that
+ really
+ the
+
+
+robotics
+ was
+ on
+ the
+ menu.
+ It
+ was
+
+
+something
+ I
+ could
+ spend
+ my
+ life
+ on
+ and
+
+
+that
+ that's
+ how
+ what
+ I
+ wanted
+ to
+ do.
+ So,
+
+
+the
+ early
+ years
+ were
+ a
+ little
+ bit
+ of
+ a
+
+
+self-taught
+ PhD
+ trying
+ to
+ figure
+ out
+ how
+
+
+to
+ make
+ these
+ products,
+ you
+ know,
+ from
+
+
+scratch.
+ If
+ you
+ have
+ a
+ lot
+ of
+ passion
+
+
+for
+ anything
+ that
+ it
+ becomes
+ simple
+ that
+
+
+you
+ can
+ learn.
+ It's
+ just
+ you
+ log
+ the
+
+
+hours.
+ When
+ you
+ like
+ what
+ you're
+ doing,
+
+
+you
+ can
+ log
+ the
+ hours
+ to
+ learn.
+
+
+>> Do
+ you
+ remember
+ who
+ was
+ the
+ first
+
+
+customer?
+
+
+>> So,
+ really
+ the
+ the
+ first
+ customers
+ came
+
+
+from
+ the
+ discovery.
+ My
+ company
+ or
+ really
+
+
+drilled
+ into
+ your
+ head
+ was
+ to
+ make
+
+
+something
+ people
+ want.
+ And
+ that's
+ all
+
+
+about
+ talking
+ to
+ customers,
+ really
+
+
+understanding
+ the
+ problem
+ that
+ you're
+
+
+trying
+ to
+ solve.
+ We
+ spoke
+ to
+ 100
+
+
+customers.
+ We
+ asked,
+ "What
+ do
+ you
+ like
+
+
+about
+ your
+ robots?
+ What
+ do
+ you
+ not
+
+
+like?"
+ And
+ a
+ lot
+ of
+ the
+ robots
+ today
+ are
+
+
+just
+ too
+ hard
+ to
+ use.
+ They
+ have
+ these
+
+
+interfaces
+ where
+ you
+ have
+ to
+ memorize
+
+
+what's
+ in
+ there.
+ They'll
+ have
+ menus
+ and
+
+
+it's
+ like
+ single
+ letter
+ in
+ the
+ menu.
+ So,
+
+
+you
+ have
+ to
+ study
+ the
+ manual
+ to
+ know
+
+
+what
+ to
+ do.
+ And
+ it's
+ so
+ far
+ from
+ the
+
+
+software
+ we're
+ used
+ to
+ today.
+ And
+ so,
+
+
+realize
+ that
+ and
+ the
+ customers
+ would
+ say
+
+
+they
+ can't
+ set
+ up
+ themselves.
+ Their
+ team
+
+
+can
+ only
+ hit
+ start,
+ stop,
+ and
+ reset.
+ And
+
+
+so,
+ they
+ paid
+ $50,000
+ for
+ a
+ robot
+ to
+ be
+
+
+installed
+ and
+ they
+ can't
+ do
+ anything
+ but
+
+
+start
+ and
+ stop
+ it.
+
+
+>> In
+ most
+ of
+ the
+ robot
+ industry,
+ the
+ user
+
+
+interfaces
+ are
+ designed
+ to
+ be
+ very,
+ very
+
+
+rigorous,
+ very,
+ very
+ step-by-step.
+ But
+
+
+they're
+ super
+ hard
+ to
+ use.
+ And
+ so,
+ once
+
+
+some
+ integrator
+ learns
+ how
+ to
+ program
+ a
+
+
+FANUC
+ robot,
+ it's
+ really
+ painful
+ to
+ try
+
+
+and
+ go
+ and
+ program
+ another
+ robot.
+ You
+
+
+actually
+ have
+ to
+ spend
+ a
+ full
+ day
+
+
+workshop
+ It's
+ a
+ 3-day
+ workshop
+ uh
+ trying
+
+
+to
+ learn
+ how
+ to
+ program.
+ Three
+ people
+
+
+from
+ the
+ company
+ have
+ to
+ be
+ there.
+ And
+
+
+one
+ of
+ those
+ people
+ has
+ to
+ score
+ over
+
+
+90%
+ on
+ their
+ exam.
+
+
+>> So,
+ with
+ that
+ in
+ mind,
+ one
+ of
+ the
+ skills
+
+
+that
+ we've
+ created
+ and
+ what
+ we
+ were
+
+
+talking
+ about
+ before
+ is
+ a
+ idea
+ of
+ a
+
+
+locate
+ skill,
+ for
+ example.
+ Make
+ it
+
+
+really
+ easy
+ for
+ your
+ robot
+ to
+ find
+ a
+
+
+part
+ and
+ go
+ get
+ it.
+ Historically,
+
+
+[music]
+
+
+if
+ I
+ wanted
+ to
+ move
+ 60
+ pieces
+ one
+ at
+ a
+
+
+time
+ to
+ some
+ place,
+ I
+ would
+ have
+ to
+
+
+program
+ all
+ 60
+ of
+ those
+ points
+
+
+individually.
+ And
+ then
+ it
+ would
+ they'd
+
+
+go
+ there
+ one
+ at
+ a
+ time.
+ And
+ if
+ anything
+
+
+moved,
+ it
+ would
+ break.
+ Cuz
+ it
+ robots
+ are
+
+
+historically
+ pretty
+ dumb.
+ They
+ could
+
+
+only
+ do
+ one
+ simple
+ thing
+ and
+ they
+ go
+ to
+
+
+that
+ spot.
+ And
+ if
+ it's
+ not
+ in
+ that
+ spot,
+
+
+everything's
+ ruined.
+ We
+ wanted
+ to
+ make
+
+
+it
+ really
+ easy
+ that
+ anybody
+ can
+ use
+ an
+
+
+iPad
+ [music]
+ can
+ now
+ use
+ a
+ robot.
+ I
+ can
+
+
+speak
+ for
+ my
+ own
+ experience.
+ When
+ I
+
+
+first
+ started
+ here,
+ I'd
+ never
+ used
+ a
+
+
+robot
+ before,
+ never
+ operated
+ one,
+ never
+
+
+worked
+ at
+ a
+ robotics
+ company.
+ And
+
+
+[music]
+ I
+ grabbed
+ an
+ iPad
+ and
+ just
+
+
+started
+ messing
+ around
+ with
+ it
+ and
+ I
+ was
+
+
+playing
+ and
+ I
+ made
+ my
+ first
+ routine
+ in
+
+
+about
+ 15
+ minutes.
+
+
+>> I
+ ask
+ myself
+ this
+ question
+ probably
+
+
+every
+ day.
+ Why
+ do
+ you
+ customers
+ want
+ to
+
+
+work
+ with
+ Standard
+ Bots?
+ I
+ think
+ it's
+
+
+we've
+ changed
+ the
+ way
+ in
+ which
+ robotics
+
+
+is
+ done
+ in
+ America.
+ They
+ are
+ very
+
+
+inflexible
+ for
+ their
+ customers
+ and
+ you
+
+
+know,
+ their
+ service
+ programs,
+ they
+
+
+really
+ tout
+ our
+ a
+ for-profit
+ off
+ of
+ your
+
+
+customers
+ pain.
+ So
+ I
+ always
+ tell
+ our
+
+
+team
+ we
+ will
+ not
+ profit
+ off
+ of
+ our
+
+
+customers
+ pain.
+ When
+ customers
+ are
+
+
+happy,
+ you
+ know,
+ they
+ want
+ to
+ buy
+ more.
+
+
+But
+ if
+ you're
+ profiting
+ off
+ of
+ their
+
+
+pain,
+ they
+ don't
+ want
+ to
+ work
+ with
+ you
+
+
+anymore.
+ So
+ our
+ goal
+ is
+ to
+ make
+ sure
+
+
+that
+ we
+ profit
+ off
+ their
+ production.
+
+
+>> But
+ we
+ find
+ ourselves
+ in
+ a
+ dire
+ position
+
+
+today.
+ The
+ United
+ States
+ is
+ no
+ longer
+
+
+competitive
+ in
+ manufacturing.
+ Any
+
+
+company
+ that
+ builds
+ hardware
+ here
+ can
+
+
+tell
+ you
+ that
+ if
+ you
+ source
+ from
+ China
+
+
+instead
+ of
+ making
+ things
+ here,
+ it
+ can
+ be
+
+
+5
+ to
+ 10
+ times
+ cheaper.
+
+
+>> But
+ wouldn't
+ it
+ be
+ cheaper
+ to
+ make
+ them
+
+
+in
+ China?
+ Why
+ are
+ you
+ building
+ them
+
+
+here?
+
+
+>> Throughout
+ my
+ career,
+ I've
+ worked
+ in
+
+
+high
+ volume
+ manufacturing
+ and
+ in
+
+
+factories.
+ The
+ trade-off
+ earlier
+ in
+ my
+
+
+career
+ when
+ I
+ was
+ working
+ at
+ Google
+ with
+
+
+a
+ lot
+ of
+ contract
+ manufacturers,
+
+
+especially
+ in
+ China,
+ was
+ that
+ people
+
+
+were
+ cheaper
+ than
+ automation
+ in
+ most
+
+
+cases
+ in
+ those
+ in
+ those
+ factories.
+ I
+
+
+think
+ it's
+ one
+ of
+ the
+ most
+ important
+
+
+things
+ about
+ our
+ company
+ is
+ that
+ we're
+
+
+building
+ the
+ robots
+ in
+ America
+ to
+ use
+ in
+
+
+America.
+ And
+ if
+ we
+ were
+ building
+ the
+
+
+robots
+ somewhere
+ else
+ outside
+ of
+ the
+
+
+country
+ and
+ we
+ didn't
+ own
+ that
+
+
+production,
+ there's
+ a
+ whole
+ host
+ of
+
+
+problems
+ that
+ come
+ with
+ designing
+
+
+something
+ and
+ then
+ having
+ someone
+ else
+
+
+build
+ it
+ for
+ you.
+ And
+ especially
+ if
+ it's
+
+
+overseas
+ where
+ there's
+ language
+ barriers
+
+
+and
+ and
+ cultural
+ barriers
+ in
+ the
+ way
+
+
+that
+ make
+ it
+ difficult
+ to
+ communicate
+
+
+about
+ projects.
+ Since
+ our
+ company
+ runs
+
+
+our
+ own
+ factory,
+ we
+ remove
+ all
+ of
+ that.
+
+
+>> So
+ welcome.
+ This
+ is
+ our
+ factory
+ floor.
+
+
+We
+ are
+ in
+ currently
+ in
+ about
+ a
+ 30,000
+
+
+square
+ foot
+ space
+ that
+ we
+ are
+ expanding
+
+
+into
+ 70,000
+ square
+ foot.
+ Everything
+ is
+
+
+designed
+ by
+ Standard
+ Bots.
+
+
+>> This
+ room
+ is
+ so
+ badass.
+
+
+>> Yeah,
+ should
+ we
+ go
+ inside
+ it?
+
+
+>> Yeah,
+ may
+ we?
+
+
+>> Yeah,
+ of
+ course.
+
+
+>> Oh my
+ god.
+
+
+>> So
+ this
+ is
+ our
+ SMT
+ room.
+ This
+ is
+ the
+
+
+first
+ modality
+ that
+ Standard
+ Bots
+ has
+
+
+brought
+ in
+ house.
+ So
+ basically
+ what
+
+
+happens
+ is
+ we
+ purchase
+ these
+ bare
+
+
+boards,
+
+
+uh
+ which
+ is
+ a
+ a
+ green
+ circuit
+ board
+ that
+
+
+doesn't
+ have
+ any
+ components
+ placed
+ in
+
+
+it.
+ We
+ purchase
+ these
+ components
+ reels
+
+
+to
+ the
+ left.
+ All
+ of
+ these
+ boards
+ are
+
+
+designed
+ in-house
+ and
+ we
+ manufacture
+
+
+them
+ all
+ here.
+ So,
+ every
+ single
+
+
+electronic
+ board
+ that's
+ gone
+ into
+ a
+
+
+standard
+ product
+ was
+ made
+ in
+ this
+ room.
+
+
+These
+ boards
+ are
+ brought
+ in
+ through
+ a
+
+
+conveyor
+ belt.
+ And
+ as
+ you
+ come
+ in,
+ you
+
+
+can
+ see
+ the
+ pick
+ and
+ place
+ machine.
+ All
+
+
+of
+ these
+ individual
+ rolls
+ are
+ different
+
+
+electronic
+ components
+ and
+ then
+ you
+ can
+
+
+see
+ the
+ machine
+ picking
+ them
+ up
+ and
+
+
+placing
+ them
+ onto
+ the
+ board.
+ These
+ are
+
+
+hundreds
+ and
+ thousands
+ of
+ components
+
+
+that's
+ getting
+ placed
+ every
+ minute.
+ So,
+
+
+only
+ automation
+ would
+ let
+ it
+ happen.
+
+
+After
+ that's
+ done,
+ you
+ can
+ see
+ our
+
+
+operator
+ doing
+ a
+ manual
+ inspection
+ to
+
+
+make
+ sure
+ all
+ the
+ components
+ are
+ placed
+
+
+correctly.
+ As
+ it
+ was
+ putting
+ some
+ of
+ the
+
+
+larger
+ components
+ that
+ is
+ not
+ handled
+ by
+
+
+this
+ robot.
+ So,
+ once
+ that
+ is
+ done,
+ you
+
+
+can
+ see
+ the
+ components
+ rolling
+ off
+ the
+
+
+the
+ conveyor
+ belts
+ here.
+
+
+And
+ then
+ it
+ goes
+ through
+ our
+ aerial
+
+
+optical
+ inspector
+ or
+ AOI.
+
+
+Uh,
+ where
+ camera
+ goes
+ over
+ each
+ of
+ the
+
+
+components
+ onto
+ the
+ board
+ to
+ make
+ sure
+
+
+that
+ it
+ is
+ placed
+ correctly
+ and
+ bonded
+
+
+properly.
+ And
+ then
+ after
+ that,
+ out
+ comes
+
+
+completed
+ boards
+ and
+ these
+ are
+ ready
+ to
+
+
+be
+ used
+ for
+ our
+ manufacturing.
+ The
+ full
+
+
+stack
+ vertical
+ integration
+ of
+ our
+ design
+
+
+for
+ our
+ robots
+ and
+ products
+ is
+
+
+definitely
+ a
+ huge
+ benefit
+ for
+ us
+ because
+
+
+AI
+ is
+ so
+ fast
+ developing.
+ The
+
+
+requirements
+ of
+ what
+ a
+ robot
+ should
+ have
+
+
+or
+ shouldn't
+ have
+ is
+ constantly
+
+
+changing.
+ So,
+ then
+ to
+ have
+ this
+
+
+capability
+ in-house
+ means
+ we're
+ able
+ to
+
+
+pop
+ out
+ a
+ board
+ in
+ a
+ day
+ or
+ two
+ as
+ soon
+
+
+as
+ we
+ have
+ a
+ design
+ change
+ or
+ new
+ new
+
+
+concept
+ in
+ mind
+ instead
+ of
+ waiting
+ six,
+
+
+seven,
+ eight
+ weeks
+ to
+ bring
+ in
+ a
+ board
+
+
+and
+ then
+ test
+ it.
+ There's
+ also
+ a
+ lot
+ of
+
+
+restriction
+ going
+ around
+ around
+ the
+
+
+world
+ also.
+ So,
+ the
+ fact
+ that
+ we
+ have
+
+
+full
+ control
+ over
+ manufacturing
+ and
+
+
+design
+ of
+ our
+ boards
+ and
+ electronics
+
+
+in-house
+ let
+ us
+ be
+ completely
+ free
+ of
+
+
+any
+ restrictions
+ that
+ happen
+ in
+ the
+
+
+future
+ also.
+
+
+>> Ben,
+ when
+ did
+ you
+ just
+ start
+ your
+
+
+mission
+ to
+ bring
+ robots
+ back
+ to
+ America?
+
+
+>> We
+ really
+ thought
+ about
+ what's
+ going
+ to
+
+
+be
+ the
+ defining
+ platform
+ of
+ our
+
+
+generation.
+
+
+>> What
+ does
+ a
+ great
+ platform
+ actually
+ do?
+
+
+It
+ makes
+ building
+ really
+ easy.
+ And
+ right
+
+
+now
+ programming
+ a
+ robot
+ is
+ painful.
+ It's
+
+
+slow,
+ it's
+ expensive,
+ and
+ everyone
+ is
+
+
+solving
+ the
+ same
+ problems
+ again
+ and
+
+
+again.
+ Every
+ once
+ in
+ a
+ while,
+ the
+
+
+platform
+ changes.
+ Mainframe
+ computers
+
+
+give
+ way
+ to
+ the
+ personal
+ computer.
+ The
+
+
+PC
+ gives
+ way
+ to
+ the
+ internet.
+ The
+
+
+internet
+ gives
+ way
+ to
+ mobile.
+ And
+ every
+
+
+time
+ a
+ few
+ companies
+ come
+ along
+ and
+
+
+define
+ the
+ next
+ generation.
+ And
+ it's
+
+
+happening
+ right
+ now.
+ Software's
+ leaving
+
+
+the
+ screen.
+ It's
+ moving
+ into
+ the
+
+
+physical
+ world
+ and
+ it
+ needs
+ a
+ new
+ kind
+
+
+of
+ machine
+ to
+ run
+ on.
+ That
+ machine
+ is
+
+
+the
+ robot.
+
+
+>> And
+ when
+ you're
+ going
+ to
+ have
+ something
+
+
+of
+ that
+ importance,
+ the
+ next
+ major
+
+
+platform,
+ it's
+ becomes
+ clear
+ it's
+ a
+
+
+foundational
+ technology.
+ We
+ have
+ to
+
+
+build
+ it
+ here
+ in
+ the
+ United
+ States.
+
+
+>> My
+ parents
+ came
+ here
+ from
+ Cuba
+ early
+
+
+1960s
+ [music]
+
+
+and
+ my
+ dad
+ was
+ driving
+ a
+ cab,
+ my
+ mom
+ was
+
+
+a
+ secretary,
+ worked
+ so
+ hard
+ and
+ get
+
+
+enough
+ jobs
+ that
+ they
+ saved
+ money,
+
+
+bought
+ their
+ first
+ house
+ and
+ kind
+ of
+
+
+like,
+ you
+ know,
+ made
+ their
+ way
+ up
+ that
+
+
+way.
+ The
+ American
+ dream,
+ right?
+ There
+
+
+was
+ that
+ sort
+ of
+ mobility,
+ like
+ economic
+
+
+mobility
+ in
+ the
+ country
+ because
+ there
+
+
+were
+ a
+ lot
+ of
+ jobs
+ out
+ there
+ to
+ be
+ had
+
+
+that
+ you
+ could
+ work
+ to
+ try
+ to
+ earn
+ that
+
+
+a
+ capital
+ to
+ try
+ to
+ move
+ up
+ the
+ social
+
+
+ladder
+ or
+ whatever
+ or
+ like
+ the
+ economic
+
+
+ladder,
+ whatever
+ you're
+ trying
+ to
+ do.
+
+
+And
+ slowly
+ but
+ surely
+ as
+ we've
+ moved
+
+
+from
+ like
+ more
+ of
+ a
+ software
+ world
+
+
+instead
+ of
+ a
+ hardware
+ world,
+ we've
+
+
+offloaded
+ a
+ lot
+ of
+ those
+ jobs
+ to
+ like
+
+
+other
+ countries.
+
+
+>> We
+ see
+ jobs
+ go
+ every
+ year
+ to
+ other
+
+
+countries
+ in
+ manufacturing.
+ And
+
+
+manufacturing
+ is
+ really
+ the
+ heart
+ of
+ our
+
+
+middle
+ class
+ here
+ in
+ the
+ United
+ States.
+
+
+In
+ the
+ face
+ of
+ this,
+ the
+ only
+ thing
+ that
+
+
+can
+ turn
+ the
+ numbers
+ around
+ are
+ making
+
+
+our
+ workers
+ more
+ productive
+ and
+ robots
+
+
+are
+ the
+ tool
+ to
+ do
+ that.
+ And
+ robots
+ are
+
+
+the
+ way
+ that
+ we
+ earn
+ the
+ right
+ to
+ create
+
+
+high-paying
+ jobs
+ and
+ to
+ do
+ it
+ to
+ build
+
+
+things
+ here
+ in
+ the
+ United
+ States.
+
+
+>> But
+ at
+ the
+ same
+ time,
+ the
+ US
+
+
+manufacturing
+ base,
+ especially
+ for
+
+
+something
+ like
+ robotics,
+ is
+ very
+ much
+
+
+lacking.
+ It's
+ very
+ hard
+ to
+ source
+
+
+high-quality
+ parts
+ at
+ low
+ price
+ at
+ high
+
+
+volume
+ with
+ the
+ short
+ lead
+ time.
+ So,
+
+
+inevitably,
+ we
+ do
+ have
+ find
+ ourselves
+
+
+going
+ to
+ uh
+ offshore
+ sites
+ for
+ our
+
+
+certain
+ needs.
+ One
+ of
+ the
+ ways
+ we
+ want
+
+
+to
+ fix
+ this
+ is
+ is
+ vertical
+ integration,
+
+
+meaning
+ almost
+ every
+ single
+ modality
+ of
+
+
+manufacturing
+ that
+ is
+ involved
+ with
+ our
+
+
+robot
+ making,
+ we
+ want
+ to
+ be
+ able
+ to
+ do
+
+
+it
+ in-house.
+
+
+>> But
+ it
+ is
+ true,
+ hardware
+ is
+ hard.
+ If
+
+
+you've
+ never
+ designed
+ something
+ for
+ mass
+
+
+manufacturing
+ before,
+ then
+ you'll
+ start
+
+
+get
+ too
+ deep
+ into
+ your
+ project
+ before
+
+
+you
+ realize
+ all
+ the
+ mistakes
+ you
+ made.
+
+
+>> For
+ the
+ engineers,
+ what
+ was
+ the
+ most
+
+
+difficult
+ part
+ for
+ you?
+
+
+>> First
+ prototype
+ was
+ a
+ couple
+ weeks,
+ but
+
+
+100
+ customers
+ took
+ six
+ or
+ seven
+ years,
+ I
+
+
+think.
+ There
+ was
+ a
+ time
+ where
+ my
+ friends
+
+
+had
+ a
+ little
+ intervention
+ for
+ me
+ and
+
+
+they're
+ like,
+
+
+"You
+ said
+ you
+ wanted
+ to
+ build
+ robots
+ and
+
+
+you've
+ been
+ doing
+ it
+ for
+ years
+ and
+ you
+
+
+don't
+ seem
+ to
+ have
+ any
+ products
+ that
+
+
+you're
+ shipping.
+ And
+ like,
+ are
+ you
+ sure
+
+
+that
+ this
+ you
+ can
+ do
+ this?
+ Like,
+ it's
+
+
+think
+ we'd
+ think
+ it's
+ time
+ to
+ go
+ do
+
+
+something
+ else."
+ It
+ took
+ a
+ really
+ long
+
+
+time
+ cuz
+ we
+ we
+ weren't
+ just
+ writing
+
+
+software
+ for
+ other
+ It
+ was
+ trying
+ to
+
+
+build
+ the
+ thing
+ from
+ scratch
+ and
+ design
+
+
+our
+ own
+ motors
+ and
+ our
+ own
+ motor
+
+
+controllers.
+ We
+ were
+ writing
+ the
+
+
+firmware
+ to
+ commutate
+ the
+ motor
+ to
+
+
+switch
+ it,
+ you
+ know,
+ so
+ the
+ magnet
+ the
+
+
+electromagnet
+ had
+ the
+ right
+ interaction
+
+
+to
+ spin
+ at
+ very
+ high
+ efficiency
+ and
+ we
+
+
+had
+ a
+ very
+ small
+ team
+ at
+ first
+ cuz
+ we
+
+
+really
+ bootstrapped
+ the
+ company.
+ So,
+
+
+first
+ robot,
+ I
+ was
+ doing
+ the
+ software
+
+
+and
+ the
+ electrical
+ design
+ and
+ co-founder
+
+
+was
+ doing
+ the
+ mechanical
+ design.
+ It
+ was
+
+
+originally
+ a
+ home
+ robot
+ entirely
+ made
+
+
+out
+ of
+ plastic
+ and
+ we
+ learned
+ that
+
+
+plastic
+ is
+ not
+ the
+ best
+ for,
+ you
+ know,
+
+
+it's
+ kind
+ of
+ before
+ we'd
+ run
+ FEAs
+ and
+
+
+and
+ really
+ knew
+ how
+ to
+ to
+ run
+ FEAs.
+ We
+
+
+didn't
+ yet
+ have
+ a
+ lot
+ of
+ mechanical
+
+
+people
+ on
+ the
+ team,
+ so
+ gears
+ stripped
+
+
+and
+ that
+ was
+ the
+ start
+ of
+ the
+ learning
+
+
+process.
+ I
+ think
+ you
+ just
+ got
+ to
+ get
+ on
+
+
+that
+ loop
+ where
+ you're
+ learning.
+
+
+>> I
+ was
+ doing
+ all
+ the
+ prototyping
+ at
+ home
+
+
+in
+ my
+ office
+ in
+ in
+ Westchester,
+ New
+
+
+York.
+ I
+ had
+ a
+ 3D
+ printer
+ that
+ would
+ run
+
+
+all
+ night.
+ I
+ would
+ work
+ all
+ day
+ on
+ the
+
+
+design,
+ get
+ prints
+ onto
+ the
+ printer
+ at
+
+
+night.
+ The
+ printer
+ was
+ super
+ loud
+ and
+ my
+
+
+wife
+ would
+ complain
+ that,
+ you
+ know,
+ it
+
+
+was
+ waking
+ her
+ up
+ cuz
+ it
+ was
+ the
+ room
+
+
+next
+ to
+ my
+ bedroom.
+ And
+ uh
+ everyday
+ was
+
+
+a
+ new
+ challenge.
+ We
+ didn't
+ know
+ what
+ was
+
+
+going
+ to
+ go
+ wrong,
+ what
+ was
+ going
+ to
+
+
+break,
+ or
+ what
+ we
+ needed
+ to
+ fix.
+ And
+ and
+
+
+there
+ were
+ a
+ lot
+ of
+ moments
+ like
+ that
+
+
+where
+ it
+ was
+ kind
+ of
+ like,
+ "Well,
+ is
+
+
+this
+ going
+ to
+ sink
+ the
+ project
+ or
+ not?"
+
+
+>> Hard
+ at
+ times
+ to
+ think
+ like,
+ "Okay,
+
+
+let's
+ review.
+ Like,
+ why
+ do
+ we
+ think
+ this
+
+
+is
+ a
+ good
+ idea?
+ And
+ like,
+ am
+ I
+ wrong?
+
+
+We're
+ going
+ like
+ we've
+ lost
+ touch
+ with
+
+
+reality
+ in
+ some
+ way
+ here
+ and
+ should
+ we
+
+
+just
+ call
+ it
+ quits?"
+ At
+ one
+ point,
+ my
+
+
+wife
+ said
+ she
+ thought
+ of
+ me
+ as
+ a
+ as
+ a
+
+
+naked
+ artist
+ just
+ sort
+ of
+ painting
+ in
+
+
+the
+ garage.
+
+
+When
+ the
+ world
+ looks
+ at
+ you
+ that
+ way,
+
+
+as
+ a
+ naked
+ artist
+ painting
+ in
+ the
+
+
+garage,
+ you
+ can't
+ really
+ care
+ what
+ it
+
+
+thinks
+ too
+ much.
+ Or
+ you
+ don't
+ want
+ to
+ be
+
+
+doing
+ that
+ very
+ much
+ longer.
+ So,
+ I
+ think
+
+
+that's
+ the
+ hard
+ part
+ is
+ you
+ really
+ have
+
+
+to
+ look
+ at
+ yourself
+ in
+ the
+ mirror
+ at
+
+
+some
+ point
+ and
+ just
+ decide,
+ "Okay,
+
+
+doesn't
+ matter
+ what
+ they
+ think.
+ I
+ think
+
+
+this
+ is
+ the
+ right
+ move.
+ We're
+ going
+ to
+
+
+stay
+ on
+
+
+on
+ this.
+
+
+>> We
+ made
+ it
+ through
+ all
+ of
+ them
+ and
+ now
+
+
+we
+ have
+ hundreds
+ of
+ those
+ robots
+ in
+ the
+
+
+field
+ that
+ are
+ working
+ beautifully
+ and
+
+
+it's
+ incredible
+ to
+ see
+ how
+ that's
+ gone
+
+
+from
+ there
+ to
+ uh
+ grow
+ the
+ company
+ to
+
+
+where
+ it
+ is
+ now.
+
+
+>> And
+ because
+ we
+ listened
+ to
+ them
+ and
+ we
+
+
+knew
+ we
+ were
+ going
+ to
+ build,
+ we've
+
+
+always
+ had
+ customers
+ lined
+ up
+ and
+ we
+
+
+still
+ do.
+ We've
+ always
+ shipped
+ every
+
+
+robot
+ we
+ made
+ immediately.
+ This
+ is
+ where
+
+
+the
+ start
+ of
+
+
+what
+ the
+ new
+ [music]
+ front
+ space
+ uh
+ is
+
+
+going
+ to
+ be
+ because
+ we're
+ growing
+ so
+
+
+rapidly.
+
+
+We
+ are
+ outpacing
+ the
+ ability
+ of
+
+
+construction
+ team
+ to
+ fix
+ up
+ the
+ spaces.
+
+
+So,
+ we
+ had
+ to
+ move
+ our
+ hardware
+
+
+engineering
+ test
+ cages
+ into
+ here
+ before
+
+
+we
+ even
+ finished
+ out
+ the
+ space
+ right
+
+
+now.
+ And
+ this
+ is
+ the
+ rest
+ of
+ the
+ area.
+
+
+It's
+ currently
+ under
+ construction.
+ Uh
+
+
+the
+ much
+ bigger
+ space
+ at
+ the
+ front
+
+
+that
+ will
+ become
+ our
+ customer-facing
+
+
+area,
+ our
+ AI
+ testing
+ area,
+ as
+ well
+ as
+
+
+applications
+ team.
+
+
+>> And
+ then
+ you
+ see
+ over
+ there
+ this
+ guy
+ is
+
+
+going
+ to
+ lay
+ flat.
+
+
+>> Does
+ RealSense
+ have
+ a
+ PoE
+ version?
+
+
+>> Uh
+ there's
+ a
+ shorter
+
+
+>> there's
+ no
+ way
+ five.
+
+
+>> Yeah,
+ that'll
+ be
+ fine.
+
+
+>> Shorter.
+ Make
+ it
+ shorter
+ one.
+ Okay.
+
+
+>> How
+ did
+ you
+ guys
+ scale
+ up
+ on
+ American
+
+
+Robot
+ Company
+ that
+ fast?
+
+
+>> Evan
+ has
+ a
+ unique
+ ability.
+ One
+ thing
+ I
+
+
+like
+ to
+ say
+ about
+ Evan
+ is
+ that
+ uh
+ he
+
+
+often
+ will
+ say,
+ "Oh,
+ we
+ need
+ to
+ get
+ this
+
+
+done
+ in
+ a
+ week."
+ and
+ a
+ whole
+ team
+ will
+
+
+say
+ it's
+ impossible.
+ And
+ he'll
+ come
+
+
+through
+ and
+ say,
+ "No,
+ no,
+ we
+ need
+ to
+ get
+
+
+it
+ done
+ in
+ a
+ week.
+ We
+ need
+ to
+ get
+ it
+
+
+done
+ in
+ a
+ week."
+ and
+ we'll
+ say,
+ "Nope,
+
+
+we
+ can't
+ do
+ it.
+ Can't
+ do
+ it."
+ and
+ then
+ a
+
+
+week
+ later
+ we'll
+ get
+ it
+ done.
+ He's
+ right
+
+
+about
+ 80%
+ of
+ the
+ time.
+ And
+ so
+ uh
+ 20%
+ of
+
+
+the
+ time
+ he's
+ wrong
+ and
+ it
+ takes
+ us
+ a
+
+
+year.
+ But
+ 80%
+ of
+ the
+ time
+ he's
+ right
+ and
+
+
+so
+ he's
+ right
+ often
+ enough
+ that
+ we
+ can't
+
+
+say
+ no
+ because
+ he'll
+ say,
+ "Yeah,
+ you
+ can
+
+
+do
+ it.
+ I
+ know
+ I
+ know
+ how
+ to
+ do
+ it."
+ and
+
+
+he'll
+ he'll
+ give
+ us
+ the
+ direction
+ to
+ get
+
+
+that
+ done
+ in
+ a
+ way
+ that
+ I've
+ never
+ seen
+
+
+a
+ leader
+ do
+ before.
+
+
+>> We
+ had
+ a
+ big
+ trade
+ show
+ earlier
+ this
+
+
+year,
+ Automate.
+ That
+ was
+ uh
+
+
+nine
+ weeks
+ after
+ I
+ joined
+ the
+ company.
+
+
+And
+ uh
+ he
+ wanted
+ to
+ do
+ a
+ live
+ demo
+ on
+
+
+stage.
+ The
+ whole
+ team,
+ including
+ myself,
+
+
+told
+ him
+ that
+ this
+ was
+ a
+ terrible
+ idea.
+
+
+And
+ uh
+ he
+ was
+ right.
+ We
+ stayed
+ up
+ late.
+
+
+We
+ worked
+ our
+ heads
+ off
+ trying
+ to
+ get
+
+
+everything
+ ready,
+ but
+ it
+ landed.
+
+
+>> Evan,
+ he
+ got
+ into
+ the
+ factory
+ every
+
+
+single
+ day
+ until
+ [music]
+ we
+ fixed
+ those
+
+
+challenges.
+ And
+ he
+ was
+ there
+ for
+ months
+
+
+on
+ end.
+ He
+ put
+ his
+ full
+ focus
+ into
+ that
+
+
+and
+ showed
+ that
+ if
+ you
+ put
+ full
+ energy
+
+
+into
+ something
+ and
+ you
+ know
+ you
+ have
+ a
+
+
+belief
+ that
+ you
+ can
+ do
+ it
+ mentality
+ that
+
+
+you
+ can
+ truly
+ do
+ anything.
+
+
+>> So
+ I
+ wonder,
+ why
+ do
+ you
+ think
+ they
+ can
+
+
+finish
+ the
+ task
+ in
+ such
+ a
+ short
+ time?
+
+
+>> That's
+ nice
+ of
+ them
+ to
+ say.
+ I
+ think
+ that
+
+
+you
+ set
+ out
+ whatever
+ you
+ think
+ you
+ can
+
+
+achieve
+ in
+ life,
+ you
+ do.
+
+
+And
+ if
+ you
+ think
+ that
+ something's
+ going
+
+
+to
+ take
+ some
+ period
+ of
+ time,
+ it
+ will
+
+
+take
+ at
+ least
+ that
+ amount
+ of
+ time,
+ no
+
+
+matter
+ how
+ long.
+ So
+ we
+ do
+ try
+ to
+ set
+
+
+tight
+ timelines
+ and
+ really
+ think
+ through
+
+
+whatever
+ we're
+ trying
+ to
+ do,
+ what's
+ the
+
+
+fastest
+ way
+ to
+ accomplish
+ that
+ thing.
+ I
+
+
+mean,
+ it's
+ key
+ to
+ really
+ doing
+ anything
+
+
+ambitious
+ is
+ you
+ believe
+ you
+ can
+ do
+ it
+
+
+and
+ you
+ believe
+ you
+ can
+ do
+ it
+ in
+ a
+
+
+reasonable
+ timeline.
+ And
+ if
+ not,
+ you've
+
+
+kind
+ of
+ broken
+ down
+ the
+ problem
+ and
+ or
+
+
+simplified
+ the
+ problem
+ so
+ that
+ you
+ you
+
+
+can
+ do
+ it
+
+
+in
+ a
+ reasonable
+ amount
+ of
+ time.
+
+
+>> Then,
+ what's
+ the
+ real
+ technical
+
+
+challenge
+ right
+ now?
+ If
+ a
+ demo
+ works,
+
+
+does
+ that
+ mean
+ it's
+ a
+ good
+ product?
+
+
+>> I've
+ been
+ working
+ in
+ the
+ robot
+ industry
+
+
+for
+ over
+ 15
+ years
+ now.
+ You
+ see
+ customers
+
+
+that
+ fall
+ into
+ two
+ camps.
+ There's
+ the
+
+
+people
+ that
+ believe
+ that
+ robots
+ can
+ do
+
+
+everything
+ and
+ there's
+ the
+ people
+ that
+
+
+believe
+ that
+ robots
+ are
+ totally
+ under
+
+
+overrated.
+ And
+ reality
+ is
+ somewhere
+ in
+
+
+between.
+ The
+ capability
+ is
+ advancing
+
+
+extremely
+ quickly
+ now.
+ We
+ got
+ stuff
+ that
+
+
+was
+ totally
+ impossible
+ [music]
+ just
+ a
+
+
+couple
+ years
+ ago.
+ At
+ the
+ same
+ time,
+
+
+there's
+ a
+ lot
+ of
+ stuff
+ robots
+ can't
+ yet
+
+
+do
+ reliably
+ and
+ can't
+ yet
+ do
+ quickly
+
+
+enough.
+ And
+ so
+ you
+ see
+ YouTube
+ videos
+
+
+and
+ see
+ that
+ they're
+ sped
+ up.
+ You
+ look
+
+
+for
+ the
+ how
+ quickly
+ a
+ robot
+ drops
+ an
+
+
+item.
+ If
+ the
+ item
+ falls
+ with
+ super
+
+
+gravitational
+ acceleration,
+ you
+ know
+ the
+
+
+people
+ making
+ the
+ video
+ are
+ cheating.
+
+
+>> So
+ how
+ do
+ you
+ think
+ about
+ the
+ humanoid
+
+
+robots
+ right
+ now?
+ Why
+ do
+ you
+ want
+ to
+
+
+focus
+ more
+ on
+ the
+ robot
+ arm?
+
+
+>> When
+ people
+ see
+ a
+ robot
+ that
+ looks
+ like
+
+
+a
+ person,
+ their
+ imagination
+ is
+ that
+ it
+
+
+does
+ what
+ a
+ person
+ does.
+
+
+And
+ there's
+ still
+ some
+ problems
+ that
+
+
+haven't
+ been
+ widely
+ solved
+ in
+ the
+
+
+industry.
+
+
+>> We
+ have
+ a
+ theory
+ here,
+ which
+ is
+ uh
+ this
+
+
+is
+ our
+ Home
+ Alone
+ eval,
+
+
+which
+ is
+ that
+ if
+ you're
+ going
+ to
+ have
+ a
+
+
+humanoid,
+ it
+ needs
+ to
+ survive
+ the
+ Home
+
+
+Alone
+ test,
+ which
+ is
+ a
+ couple
+ of
+ five
+ or
+
+
+eight-year-olds
+ trying
+ to
+ trip
+ it
+ and
+
+
+flip
+ it
+ as
+ it
+ goes
+ up
+ and
+ down
+ the
+
+
+stairs.
+ And
+ if
+ it
+ can't
+ survive
+ that,
+
+
+then
+ it
+ can't
+ go
+ in
+ the
+ home.
+ Cuz
+ if
+ you
+
+
+have
+ a
+ couple
+ hundred
+ pounds
+ of
+ metal
+
+
+falling
+ on
+ you,
+ um
+ obviously
+ could
+ break
+
+
+your
+ leg
+ or
+ worse.
+
+
+And
+ so
+ so
+ we
+ don't
+ think
+ legged
+
+
+humanoids
+ are
+ the
+ answer.
+
+
+That's
+ why
+ we're
+
+
+uh
+
+
+you
+ know,
+ we
+ focus
+ on
+ our
+ arms
+ and
+ wheel
+
+
+bases.
+
+
+>> Reliability
+ is
+ one
+ of
+ the
+ critical
+
+
+things
+ for
+ our
+ industry.
+ I
+ think
+ it's
+
+
+one
+ of
+ the
+ biggest
+ gaps
+ between
+ the
+
+
+foundation
+ model
+ companies
+ at
+ the
+
+
+current
+ frontier
+ of
+ where
+ robot
+
+
+capabilities
+ live
+ and
+ the
+ real
+
+
+industrial
+ users
+ that
+ are
+ trying
+ to
+
+
+count
+ on
+ the
+ robots
+ as
+ a
+ teammate.
+
+
+Researchers
+ like
+ to
+ focus
+ on
+ the
+
+
+progress
+ you
+ can
+ make
+ from
+ 30%
+ to
+ 80%
+
+
+success
+ rates
+ because
+ it's
+ easy
+ to
+ get
+
+
+enough
+ trials
+ to
+ be
+ statistically
+
+
+significant.
+
+
+For
+ industrial
+ use
+ though,
+ if
+ I
+ have
+
+
+something
+ that
+ only
+ works
+ 70%
+ of
+ the
+
+
+time,
+ that's
+ a
+ terrible
+ teammate.
+
+
+Industrial
+ applications
+ are
+ typically
+
+
+targeting
+ 99,
+ 99.9%
+ success
+ rates
+ and
+ I
+
+
+think
+ this
+ is
+ an
+ active
+ area
+ where
+ the
+
+
+research
+ field
+ is
+ behind
+ where
+ the
+
+
+current
+ real
+ needs
+ are.
+ We've
+ done
+ a
+
+
+bunch
+ of
+ amazing
+ work
+ to
+ generalize,
+ but
+
+
+we
+ need
+ to
+ increase
+ the
+ reliability
+ of
+
+
+systems.
+ The
+ best
+ data
+ comes
+ from
+ the
+
+
+field
+ right
+ now
+ and
+ I
+ think
+ everybody
+
+
+agrees
+ on
+ that.
+ If
+ you
+ want
+ to
+ have
+ good
+
+
+field
+ data,
+ you
+ need
+ to
+ have
+
+
+distribution
+ to
+ be
+ in
+ the
+ field.
+ Our
+
+
+robots
+ are
+ in
+ the
+ field,
+ they
+ give
+ us
+
+
+this
+ unique
+ edge
+ on
+ the
+ right
+ data
+ to
+
+
+train
+ robots
+ to
+ full
+ reliability.
+
+
+>> So,
+ this
+ is
+ the
+ the
+ Echo
+ device,
+ which
+
+
+is
+ the
+ data
+ collection
+ device
+ that
+ I
+
+
+worked
+ on.
+ We've
+ iterated
+ on
+ this
+ for
+
+
+months
+ at
+ this
+ point
+ with
+ our
+ with
+ our
+
+
+data
+ collectors.
+
+
+It's,
+ you
+ know,
+ just
+ a
+ little
+ handheld
+
+
+gripper.
+ It'll
+ have
+ a
+ camera
+ mounted
+ so
+
+
+that
+ you
+ can
+ collect
+ data
+ with
+ it.
+ You
+
+
+can
+ go,
+ you
+ know,
+ grab
+ things,
+ move
+ them
+
+
+around
+ and
+ it
+ looks
+ exactly
+ [music]
+ like
+
+
+a
+ robotic
+ gripper
+ from
+ the
+ perspective
+
+
+of
+ the
+ camera.
+ So,
+ when
+ you
+ go
+ to
+ put
+
+
+the
+ camera
+ on
+ the
+ robot,
+ there
+ is
+ no
+
+
+domain
+ gap
+ between
+ what
+ the
+ camera
+ on
+
+
+the
+ data
+ collection
+ device
+ sees
+ and
+ what
+
+
+the
+ camera
+ on
+ the
+ robot
+ sees.
+ So,
+ you
+
+
+can
+ use
+ the
+ videos
+ to
+ to
+ train.
+
+
+>> As
+ humans,
+ we
+ kind
+ of
+ naturally
+ know
+
+
+like
+ to
+ pick
+ from
+ here,
+ but
+ of
+ course
+
+
+our
+ AI
+ models
+ don't
+ have
+ that
+ kind
+ of
+
+
+knowledge.
+
+
+>> So,
+ we
+ have
+ to
+ teach
+ it
+ with
+ our
+
+
+training
+ data
+ and
+ that's
+ what
+ she's
+
+
+doing
+ right
+ now,
+ picking
+ it
+ from
+
+
+different
+ orientation.
+
+
+>> We've
+ iterated
+ on
+ this
+ device,
+ like
+ I
+
+
+said,
+ for
+ months
+ to
+ make
+ it
+ functional
+
+
+and
+ more
+ ergonomic.
+ Originally,
+ when
+ we
+
+
+first
+ gave
+ a
+ prototype
+ to
+ the
+ data
+
+
+collectors,
+ they
+ can
+ only
+ use
+ it
+ for
+ 20
+
+
+minutes
+ before
+ their
+ hands
+ started
+ to
+
+
+hurt.
+ Now,
+ we're
+ up
+ to
+ a
+ few
+ hours.
+ So,
+
+
+you
+ know,
+ you
+ can
+ use
+ it
+ for
+ basically
+ a
+
+
+full
+ day
+ with
+ some
+ breaks
+ built
+ in
+
+
+without
+ stopping
+ to
+ collect
+ data,
+ which
+
+
+will
+ help
+ us
+ ramp
+ up
+ that
+ data
+
+
+collection
+ flywheel.
+
+
+>> We
+ have
+ a
+ bunch
+ of
+ different
+ ways
+ to
+
+
+demonstrate
+ a
+ task.
+ This
+ is
+ one
+ of
+ them.
+
+
+This
+ is
+ called
+ show
+ path.
+ You
+ can
+
+
+demonstrate
+ a
+ task
+ to
+ the
+ robot
+ and
+ it
+
+
+learns
+ how
+ to
+ do
+ The
+ whole
+ idea
+ is
+ that
+
+
+you
+ can
+ move
+ it
+ and
+ it'll
+ be
+ able
+ to
+
+
+translate
+ what
+ it's
+ doing
+ and
+ [music]
+
+
+grab.
+ So,
+ it's
+ that
+ quick
+ to
+ train
+
+
+something
+ like
+ this.
+ To
+ train
+ a
+ vision
+
+
+routine,
+ we
+ showed
+ you
+ how
+ to
+ train,
+ you
+
+
+know,
+ vision,
+ but
+ to
+ train
+ an
+ end-to-end
+
+
+AI
+ routine
+ that
+ can
+ grab
+ hooks
+ that
+ are
+
+
+moving
+ around.
+ In
+ the
+ United
+ States
+
+
+right
+ now,
+ they
+ struggle
+ with
+ labor.
+
+
+It's
+ hard
+ to
+ find
+ good
+ people.
+ There's
+
+
+uh
+ the
+ shortage
+ of
+ millions
+ of
+ workers
+
+
+over
+ the
+ coming
+ years.
+ It's
+ very
+
+
+difficult
+ to
+ find
+ the
+ manufacturing
+
+
+talent
+ you
+ need
+ to
+ to
+ scale
+ with
+ you.
+
+
+>> I
+ came
+ from
+ a
+ background
+ of
+ machine
+
+
+shops.
+ And
+ what
+ we
+ have
+ is
+ we
+ have
+ a
+ lot
+
+
+of
+ skilled
+ tradesmen
+ [music]
+ that
+ are
+
+
+aging
+ out
+ and
+ retiring.
+ So,
+ one
+ of
+ the
+
+
+things
+ that
+ we're
+ trying
+ to
+ do
+ is
+
+
+utilize
+ the
+ last
+ resources
+ of
+ skilled
+
+
+labor
+ and
+ push
+ them
+ to
+ more
+
+
+skill-intensive
+ tasks.
+
+
+>> I
+ think
+ it's
+ really
+ important
+ to
+ design
+
+
+for
+ ordinary
+ people.
+ And
+ if
+ we
+ look
+ at
+
+
+the
+ Industrial
+ Revolution,
+ of
+ course,
+
+
+that
+ was
+ all
+ about
+ automated
+ textile
+
+
+making
+ equipment.
+ And
+ Great
+ Britain
+ or
+
+
+England
+ kind
+ of
+ dominated
+ the
+ whole
+
+
+world
+ cuz
+ they
+ can
+ make
+ textiles
+ for
+ so
+
+
+much
+ for
+ much
+ less
+ and
+ more
+ efficiently
+
+
+than
+ everyone
+ else.
+ And
+ But,
+ what
+ we
+ saw
+
+
+at
+ that
+ time
+ was
+ there
+ a
+ lot
+ of
+ people
+
+
+The
+ people
+ that
+ were
+ making
+ the
+ textiles
+
+
+by
+ hand
+ could
+ not
+ operate
+ the
+ automated
+
+
+textile
+ making
+ equipment.
+ And
+ there
+ was
+
+
+a
+ whole
+ group
+ of
+ folks
+ that
+ were
+ left
+
+
+behind.
+
+
+And
+ so,
+ we
+ view
+ it
+ as
+ not
+ only
+ is
+ it
+
+
+what
+ customers
+ want
+ cuz
+ it
+ is
+ what
+ they
+
+
+want.
+ They
+ want
+ their
+ team
+ to
+ be
+ able
+ to
+
+
+unbox
+ a
+ robot.
+ And
+ not
+ only
+ is
+ it
+
+
+investors
+ want
+ cuz
+ it
+ is
+ what
+ they
+ want.
+
+
+It
+ has
+ to
+ be
+ scalable.
+ But,
+ it's
+ also
+
+
+the
+ right
+ thing
+ to
+ do
+ if
+ we
+ look
+ through
+
+
+the
+ lens
+ of
+ history
+ cuz
+ we
+ don't
+ want
+ to
+
+
+leave
+ anyone
+ behind.
+ We
+ want
+ the
+
+
+existing
+ workers
+ to
+ be
+ able
+ to
+ shift
+
+
+into
+ these
+ higher-paying,
+ safer
+ jobs,
+
+
+manage
+ these
+ robots.
+ They're
+ the
+ power
+
+
+tools
+ of
+ the
+ 21st
+ century
+ designed
+ to
+ to
+
+
+help
+ them
+ do
+ their
+ job.
+
+
+>> If
+ you
+ pronounce
+ it
+ like
+ that,
+ there
+
+
+will
+ be
+ no
+ human
+ at
+ all
+ at
+ the
+ factory.
+
+
+Do
+ you
+ think
+ it's
+ a
+ good
+ thing?
+
+
+>> At
+ Standard
+ Bots,
+ our
+ mission
+ is
+ to
+
+
+expand
+ human
+ capacity
+ with
+ the
+ world's
+
+
+most
+ accessible
+ robots.
+ And
+ that
+ means
+
+
+making
+ robots
+ that
+ anyone
+ can
+ buy
+ and
+
+
+deploy
+ and
+ making
+ them
+ more
+ capable
+ with
+
+
+AI.
+ So,
+ you
+ can
+ automate
+ tasks
+ you
+ just
+
+
+couldn't
+ automate
+ before.
+
+
+>> We
+ hear
+ from
+ customers
+ that
+ it's
+ very
+
+
+hard
+ to
+ hire,
+ and
+ that's
+ where
+ the
+ robot
+
+
+comes
+ in.
+ But,
+ instead
+ of
+ welding
+
+
+yourself,
+ you
+ can
+ manage
+ six
+ welding
+
+
+robots.
+ That
+ is
+ actually
+ a
+ better
+ job.
+
+
+It
+ can
+ be
+ a
+ higher
+ paying
+ job.
+ Can
+ be
+
+
+one
+ where
+ you're
+ not
+ in
+ the
+ weld
+ smoke,
+
+
+a
+ safer
+ job.
+ The
+ robots
+ are
+ in
+ the
+ weld
+
+
+smoke.
+ It's
+ like
+ the
+ R2-D2.
+ They
+ are
+ not
+
+
+replacing
+ the
+ humans,
+ they're
+ making
+ the
+
+
+humans
+ more
+ productive.
+
+
+>> Our
+ platform
+ on
+ the
+ hardware
+ side
+ works
+
+
+the
+ same
+ way
+ on
+ the
+ software
+ side.
+ It's
+
+
+like
+ industrial
+ Legos.
+ You
+ can
+ have
+ the
+
+
+ideal
+ form
+ factor
+ for
+ your
+ application.
+
+
+It
+ might
+ be
+ six
+ arms
+ on
+ a
+ mobile
+ base.
+
+
+And
+ that's
+ going
+ to
+ give
+ you
+ as
+ a
+
+
+customer
+ the
+ best
+ ROI.
+
+
+>> 10
+ years
+ in,
+ what
+ are
+ the
+ odds
+ of
+
+
+success
+ here?
+
+
+>> I
+ think
+ the
+ odds
+ that
+ we're
+ successful,
+
+
+they've
+ It's
+ always
+ been
+ long.
+ It's
+ It's
+
+
+like
+ becoming
+ an
+ NBA
+ player,
+ something
+
+
+like
+ that,
+ to
+ try
+ to
+ start
+ the
+ biggest
+
+
+robotics
+ company
+ in
+ the
+ world.
+ And
+ it's
+
+
+really
+ hard.
+ But
+ we're
+ so
+ proud
+ of
+ where
+
+
+we've
+ come.
+ I
+ think
+ where
+ we
+ are
+ today,
+
+
+we've
+ de-risked
+ many
+ things.
+ Deployed
+
+
+400
+ and
+ all
+ these
+ different
+ areas.
+ We're
+
+
+deployed
+ in
+ almost
+ every
+ state.
+ We've
+
+
+got
+ hundreds
+ of
+ use
+ cases
+ deployed.
+ So,
+
+
+I
+ think
+ the
+ odds
+ are
+ looking
+ better
+
+
+every
+ day.
+ But
+ I
+ think
+ the
+ size
+ of
+ our
+
+
+ambition
+ to
+ build
+ an
+ Nvidia
+ or
+
+
+Apple-size
+ company,
+ to
+ fulfill
+ that,
+
+
+it's
+ always
+ long
+ odds.
+
+
+And
+ the
+ best
+ we
+ can
+ do
+ is
+ our
+ best.
+ You
+
+
+know,
+ I
+ mean,
+ at
+ the
+ end
+ of
+ the
+ day,
+
+
+we're
+ here
+ on
+ Earth
+ for
+ really
+ a
+ short
+
+
+time.
+ And
+ if
+ we
+ can
+ give
+ back
+ in
+ some
+
+
+way,
+
+
+then
+ I
+ think
+ that's
+ the
+ the
+ highest
+ and
+
+
+best
+ use.
+ It's
+ like
+ you're
+ giving
+ some
+
+
+kind
+ of
+ gift
+ to
+ the
+ world.
+ And
+ my
+ unique
+
+
+talent
+ is
+ making
+ robots.
