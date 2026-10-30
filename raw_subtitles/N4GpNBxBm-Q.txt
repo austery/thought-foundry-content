@@ -1,0 +1,17303 @@
+The
+ cyber
+ risk
+ is
+ like
+ much
+ more
+ real
+
+
+than
+ like
+ AI
+ exterminating
+ humanity.
+ You
+
+
+either
+ like
+ die
+ trying
+ to
+ get
+ to
+ the
+
+
+frontier
+ or
+ you
+ just
+ live
+ long
+ enough
+ to
+
+
+eventually
+ serve
+ inference.
+ Individuals
+
+
+would
+ prefer
+ to
+ live
+ next
+ to
+ a
+ nuclear
+
+
+power
+ plant
+ than
+ live
+ next
+ to
+ a
+ data
+
+
+center.
+ It's
+ bananas
+ what's
+ happened
+ in
+
+
+the
+ last
+ year
+ alone.
+ So
+ let's
+ see
+ AGI
+
+
+next
+ year.
+ That
+ is
+ Nathan
+ Bes
+ venture
+
+
+capitalist
+ and
+ author
+ of
+ the
+ state
+ of
+ AI
+
+
+report.
+ Every
+ year,
+ Nathan
+ and
+ his
+ team
+
+
+compile
+ all
+ the
+ key
+ facts,
+ figures,
+ and
+
+
+trends
+ of
+ the
+ AI
+ industry
+ into
+ a
+ 250
+
+
+slide
+ report
+ that
+ is
+ one
+ of
+ my
+ favorite
+
+
+reads
+ and
+ reference
+ documents.
+ Nathan
+ is
+
+
+back
+ for
+ a
+ third
+ time
+ on
+ this
+ show.
+ And
+
+
+as
+ usual,
+ we
+ covered
+ many
+ of
+ the
+ biggest
+
+
+stories
+ of
+ the
+ year,
+ as
+ well
+ as
+ some
+ of
+
+
+his
+ predictions,
+ why
+ AGI
+ could
+ happen
+ in
+
+
+2027,
+ AI
+ that
+ is
+ now
+ building
+ AI,
+ what
+
+
+really
+ happened
+ in
+ the
+ hugging
+ face
+
+
+incident,
+ the
+ data
+ center
+ backlash,
+ and
+
+
+how
+ he
+ runs
+ his
+ own
+ font
+ on
+ agents.
+ I'm
+
+
+Matt
+ Turk
+ and
+ this
+ is
+ the
+ Matt
+ podcast.
+
+
+So,
+ every
+ year
+ you
+ do
+ this
+ big
+ report
+
+
+that
+ we're
+ going
+ to
+ extensively
+ talk
+
+
+about
+ uh
+ and
+ you
+ end
+ the
+ report
+ with
+
+
+predictions
+ and
+ like
+ historically
+ your
+
+
+predictions
+ have
+ been
+ somewhat
+ measured
+
+
+but
+ this
+ year
+ you
+ went
+ all
+ out
+ and
+ the
+
+
+last
+ prediction
+ is
+
+
+>> AGI
+ 2027.
+
+
+So
+ why
+ is
+ that?
+ Unpack
+ that
+ for
+ us.
+
+
+>> Yeah,
+ I
+ mean
+ it's
+ been
+ like
+ 10
+ years
+
+
+roughly
+ speaking
+ of
+ writing
+ this
+ report.
+
+
+Um
+ and
+ you
+ know
+ originally
+ it
+ was
+ like
+ a
+
+
+year
+ is
+ like
+ long
+ enough
+ time
+ that
+
+
+enough
+ stuff
+ happens
+ that
+ you
+ have
+ uh
+
+
+you
+ know
+ enough
+ content
+ to
+ write
+ the
+
+
+report
+ and
+ honestly
+ like
+ this
+ year
+ was
+
+
+really
+ really
+ hectic.
+ Every
+ other
+ day
+
+
+towards
+ the
+ end
+ uh
+ of
+ the
+ timeline
+ for
+
+
+publishing
+ which
+ was
+ like
+ October
+ 8th
+ I
+
+
+had
+ to
+ make
+ updates
+ and
+ there
+ was
+ a
+
+
+point
+ where
+ I
+ was
+ like
+ please
+ just
+ like
+
+
+no
+ more
+ news
+ over
+ like
+ one
+ day
+ that
+ I
+
+
+can
+ like
+ at least
+ record
+ my
+ like
+ launch
+
+
+video
+ etc.
+ So
+ by
+ the
+ time
+ I
+ was
+ like
+
+
+making
+ the
+ predictions
+ and
+ you
+ know
+ I
+
+
+went
+ through
+ a
+ few
+ like
+ scary
+ cyber
+
+
+security
+ ones
+ which
+ I
+ guess
+ only
+ got
+
+
+worse
+ in
+ the
+ last
+ couple
+ weeks
+ just
+ the
+
+
+experience
+ of
+ of
+ uh
+ just
+ seeing
+ like
+
+
+everybody
+ else
+ who's
+ using
+ these
+
+
+products
+ just
+ like
+ rapid
+ capability
+
+
+improvement
+ you
+ know
+ week
+ after
+ week
+ and
+
+
+I
+ think
+ there's
+ many
+ many
+ use
+ cases
+ I
+
+
+have
+ now
+ where
+ like
+ I
+ think
+ the
+ model
+ is
+
+
+like
+ brilliant.
+ Um
+ I'm
+ particularly
+ like
+
+
+an
+ astro
+ boy.
+ Uh
+ I
+ really
+ love
+ that
+
+
+system.
+ Um,
+ and
+ I
+ could
+ see
+ like
+ in
+ the
+
+
+next
+ 12
+ months
+ that
+ whether
+ it's,
+ you
+
+
+know,
+ legal,
+ finance,
+ like
+ my
+ investment
+
+
+job,
+ like
+ thinking
+ intelligently
+ about
+
+
+topics
+ I
+ don't
+ know,
+ that
+ the
+ model
+
+
+could
+ potentially
+ be
+ like
+ better
+ than
+
+
+what
+ I
+ could
+ do
+ in
+ any,
+ you
+ know,
+
+
+compressed
+ amount
+ of
+ time
+ that
+ I
+ have
+ to
+
+
+to
+ to
+ do
+ the
+ work.
+ And
+ so
+ for
+ me,
+ that
+
+
+would
+ be
+ like
+ approximately
+ AGI.
+
+
+>> Yeah.
+ And
+ a
+ big
+ uh
+ theme
+ of
+ the
+ year
+
+
+that
+ you
+ highlight
+ in
+ the
+ report
+ is
+ RSI
+
+
+recursive
+ self-improvement
+ uh
+ which
+ is
+
+
+this
+ idea
+ of
+ uh
+ AI
+ building
+ AI
+ which
+
+
+we've
+ discussed
+ extensively
+ on
+ this
+
+
+podcast
+ throughout
+ the
+ episodes.
+ Is
+ that
+
+
+part
+ of
+ the
+ story
+ that
+ would
+ accelerate
+
+
+us
+ towards
+ AGI
+ for
+ you?
+
+
+>> Yeah,
+ I
+ think
+ so.
+ Right
+ now
+ the
+
+
+challenge
+ is
+ like
+ how
+ do
+ you
+ frame
+
+
+problems
+ that
+ the
+ model
+ is
+ currently
+ not
+
+
+good
+ at
+ in
+ a
+ way
+ that
+ is
+ immunable
+ to
+
+
+RSI
+ which
+ would
+ be
+ you
+ know
+ potentially
+
+
+having
+ like
+ a
+ software
+ environment
+ that
+
+
+approximates
+ the
+ task
+ on
+ the
+ computer
+ um
+
+
+or
+ some
+ kind
+ of
+ verifiable
+ reward
+ which
+
+
+I'm
+ sure
+ you've
+ discussed
+ a
+ lot
+ about
+
+
+and
+ I
+ think
+ like
+ if
+ we
+ can
+ if
+ we
+ can
+ get
+
+
+to
+ a
+ point
+ where
+ in
+ like
+ any
+ arbitrary
+
+
+domain
+ we're
+ just
+ limited
+ by
+ the
+ amount
+
+
+of
+ compute
+ and
+ synthetic
+ data
+ we
+ can
+
+
+generate
+ then
+ um
+ then
+ yeah
+ for
+ like
+ most
+
+
+knowledge
+ work
+ which
+ I
+ I I
+ do
+ I
+ think
+ to
+
+
+some
+ degree
+ that's
+ that's
+ possible
+
+
+particularly
+ as
+ like
+ models
+ get
+ better
+
+
+as
+ as
+ their
+ own
+ verifiers.
+ Um
+ that
+ would
+
+
+be
+ one
+ of
+ the
+ main
+ reasons
+ why
+ AGI
+ would
+
+
+come
+ would
+ come
+ faster.
+
+
+>> Yeah.
+ You
+ you
+ had
+ some
+ uh
+ stats
+ that
+ you
+
+
+mentioned
+ in
+ the
+ report
+ from
+ Anthropic
+
+
+where
+ they
+ say
+ Claude
+ leads
+ 26%
+ of
+ its
+
+
+measured
+ model
+ R&D
+ in
+ August.
+
+
+>> Yeah.
+ Yeah.
+ Yeah.
+ Exactly.
+ And
+ that's
+
+
+like
+ I
+ think
+ up
+ from
+ 1%
+ a
+ couple
+ of
+
+
+months
+ ago
+ and
+ that
+ was
+ August
+ which
+
+
+sounds
+ really
+ far
+ away.
+ So
+ God
+ knows
+
+
+what
+ it
+ is
+ in
+ October.
+ And
+ um
+ so
+ there's
+
+
+that
+ stat
+ I
+ think
+ that
+ was
+ that
+ was
+
+
+really
+ interesting.
+ Um
+ but
+ then
+ there
+
+
+was
+ there
+ was
+ another
+ um
+ stat
+ that
+ I
+ I
+
+
+really
+ liked
+ from
+ a
+ blog
+ post
+ that
+ they
+
+
+had
+ in
+ June
+ this
+ year
+ uh
+ about
+ recursive
+
+
+self-improvement
+ which
+ explained
+ the
+
+
+concept.
+ But
+ then
+ they
+ presented
+ this
+ uh
+
+
+kind
+ of
+ dual
+ arm
+ experiment
+ where
+ they
+
+
+were
+ testing
+ out
+ different
+ model
+
+
+generations
+ versus
+ uh
+ versus
+ a
+ human
+ in
+
+
+in
+ in
+ this
+ setup
+ where
+ first
+ the
+ human
+
+
+would
+ undertake
+ a
+ research
+ agenda
+ and
+
+
+you
+ know
+ go
+ a
+ couple
+ of
+ steps
+ down
+ this
+
+
+path
+ deciding
+ what
+ to
+ work
+ on
+ doing
+ the
+
+
+work
+ and
+ then
+ at
+ some
+ point
+ uh
+ that
+
+
+experiment
+ would
+ fork
+ and
+ the
+ human
+
+
+would
+ continue
+ or
+ a
+ specific
+ model
+
+
+generation
+ would
+ continue
+ and
+ it
+ would
+
+
+be
+ you
+ know
+ the
+ old
+ set
+ versions
+ to
+ opus
+
+
+to
+ then
+ fable
+ and
+ then
+ um
+ and
+ then
+
+
+experiment
+ would
+ end
+ and
+ human
+ graders
+
+
+would
+ look
+ at
+ the
+ human
+ path
+ versus
+ the
+
+
+uh
+ model
+ path.
+ And
+ it
+ was
+ something
+ like
+
+
+the
+ the
+ older
+ generation
+ of
+ models,
+
+
+humans
+ preferred
+ like
+ 10%
+ of
+ the
+ time
+ or
+
+
+something
+ like
+ that.
+ But
+ for
+ the
+ methus
+
+
+class
+ models,
+ humans
+ preferred
+ that
+
+
+research
+ direction
+ 64%
+ of
+ the
+ time,
+
+
+which
+ suggests
+ that
+ models
+ are
+ getting
+
+
+better
+ at
+ predicting
+ the
+ right
+ steps
+ or
+
+
+the
+ right
+ interesting
+ um
+ kind
+ of
+ you
+
+
+know
+ sort
+ of
+ leafs
+ in
+ the
+ in
+ the
+ nodes
+
+
+um
+ to
+ pursue.
+
+
+And
+ then
+ the
+ second
+ kind
+ of
+ piece
+ of
+
+
+data
+ I
+ liked
+ was
+ some
+ research
+ from
+
+
+OpenAI
+ with
+ their
+ codeex
+ usage
+ amongst
+
+
+their
+ AI
+ staff
+ um
+ where
+ they
+ tried
+ to
+
+
+classify
+ the
+
+
+sort
+ of
+ token
+ use
+ in
+ um
+ the
+ overall
+
+
+process
+ of
+ their
+ of
+ their
+ research
+ and
+
+
+that
+ would
+ be
+ using
+ tokens
+ for
+ deciding
+
+
+what
+ research
+ question
+ to
+ test,
+ how
+ to
+
+
+test
+ it,
+ uh
+ what
+ experiment
+ you
+ should
+
+
+set
+ up,
+ like
+ writing
+ the
+ training
+ code,
+
+
+running
+ the
+ uh
+ you
+ know
+ the
+ data
+
+
+engineering
+ pipelines,
+ writing
+ the
+
+
+infrastructure,
+ etc.
+ and
+ then
+ marketing
+
+
+the
+ paper,
+ writing
+ the
+ paper,
+ etc.
+ And
+
+
+the
+ vast
+ majority
+ of
+ the
+ token
+ usage
+ was
+
+
+on
+ kind
+ of
+ explaining
+ the
+ research
+
+
+writing
+ which
+ kind
+ of
+ makes
+ sense
+ you
+
+
+know
+ sort
+ of
+ knowledge
+ work
+ followed
+ by
+
+
+all
+ the
+ infrastructure
+ um
+ for
+ running
+
+
+the
+ experiment
+ but
+ very
+ very
+ few
+ tokens
+
+
+were
+ used
+ for
+ what
+ question
+ should
+ I
+
+
+explore
+ and
+ like
+ why
+ should
+ I
+ explore
+ it
+
+
+and
+ what's
+ the
+ right
+ path
+ and
+ so
+ I
+ like
+
+
+this
+ question
+ a
+ lot
+ because
+ like
+ I
+ was
+
+
+trained
+ in
+ science
+ and
+ and
+ biology
+ and
+ I
+
+
+just
+ remember
+ you
+ know
+ this
+ is
+ like
+ 10
+
+
+years
+ ago
+ or
+ 15
+ years
+ ago
+ not
+ not
+ that
+
+
+long
+ but
+ you
+ know
+ at
+ the
+ start
+ of
+ the
+
+
+PhD
+ you
+ would
+ sit
+ there
+ with
+ you
+ know
+ a
+
+
+ton
+ of
+ papers
+ and
+ you
+ know
+ you
+ go
+ on
+ the
+
+
+internet
+ and
+ like
+ read
+ read
+ read
+ read
+
+
+try
+ to
+ understand
+ what's
+ the
+ status
+ quo
+
+
+how
+ do
+ people
+ test
+ certain
+ ideas
+ where
+
+
+are
+ the
+ gaps
+ what
+ experiments
+ should
+ I
+
+
+run
+ and
+ then
+ in
+ concert
+ with
+ your
+
+
+supervisor
+ like
+ decide
+ on
+ the
+ path
+ and
+
+
+the
+ best
+ supervisors
+ would
+ be
+ the
+ ones
+
+
+who
+ could
+ guide
+ you
+ down
+ the
+ sort
+ of
+
+
+most
+ fruitful
+ path
+ to
+ get
+ hopefully
+ your
+
+
+nature
+ paper
+ and
+ then
+ off
+ you
+ were
+ and
+
+
+the
+ worst
+ supervisors
+ were
+ the
+ ones
+ that
+
+
+like
+ didn't
+ really
+ know
+ or
+ didn't
+ have
+
+
+great
+ ideas
+ so
+ that
+ idea
+ of
+ like
+
+
+research
+ taste
+ which
+ is
+ what
+ kind
+ of
+
+
+gets
+ bandied
+ around
+ on
+ Twitter
+ a
+ lot
+ is
+
+
+I
+ think
+ one
+ of
+ the
+ hallmarks
+ of
+
+
+intelligence
+ um
+ and
+ is
+ one
+ of
+ the
+
+
+critical
+ components
+ towards
+ RSI
+ working
+
+
+well
+ and
+ is
+ one
+ that
+ I
+ just
+ like
+ really
+
+
+enjoy
+ because
+ it
+ speaks
+ to
+ my
+ interest
+
+
+in
+ science.
+ Yeah,
+ indeed.
+ Taste
+ is
+ sort
+
+
+of
+ become
+ a
+ cliched
+
+
+>> Yeah.
+
+
+>> word
+ over
+ the
+ last
+ couple
+ of
+ years,
+ but
+
+
+uh
+ in
+ the
+ specific
+ context
+ of
+ RSI,
+ uh
+
+
+just
+ to
+ play
+ back
+ what
+ you
+ just
+ said,
+
+
+it's
+ effectively
+ choosing
+ the
+ right
+
+
+problem.
+ That's
+ the
+ right
+ uh
+
+
+>> Yeah,
+ exactly.
+ And
+ you
+ know,
+ a
+ lot
+ of
+
+
+famous
+ inventors
+ will
+ say,
+ you
+ know,
+
+
+it's
+
+
+in
+ like
+ invention
+ is
+ a
+ result
+ out
+ of
+ of
+
+
+good
+ taste.
+ And
+ a
+ lot
+ of
+ the
+ work
+ is
+
+
+choosing
+ what
+ direction
+ to
+ work
+ on,
+ not
+
+
+necessarily
+ just
+ boiling
+ the
+ ocean.
+ Uh
+
+
+and
+ so
+ if
+ we
+ want
+ to
+ be
+ using
+ tokens
+
+
+correctly,
+ using
+ our
+ compute
+ budgets
+
+
+correctly,
+ but
+ also
+ showing
+ that
+ our
+
+
+systems
+ are
+ smart,
+ then
+ they
+ shouldn't
+
+
+just
+ be
+
+
+>> and
+ conquering
+ taste
+ is
+ something
+ that
+
+
+uh
+ you
+ see
+ happening
+ in
+ your
+ various
+
+
+conversations
+ as
+ something
+ uh
+ you
+ know
+
+
+something
+ happening
+ in
+ the
+ next
+ few
+
+
+months,
+
+
+>> maybe
+ longer,
+
+
+at least
+ at least
+ a
+ year.
+ I
+ think
+ the
+
+
+the
+ problem
+ is
+ like
+ how
+ do
+ you
+ how
+ do
+
+
+you
+ objectively
+ measure
+ uh
+ taste?
+ I
+
+
+mean,
+ in
+ in
+ art,
+ I
+ guess
+ you
+ can
+ because
+
+
+it's
+ like
+ perfectly
+ observable
+ and
+ it's
+
+
+and
+ maybe
+ in
+ like
+ wine,
+ you
+ can
+ sort
+ of
+
+
+express
+ like
+ why
+ this
+ taste
+ is
+ better
+
+
+than
+ that
+ taste,
+ but
+ but
+ in
+ like
+ science
+
+
+and
+ and
+ engineering
+ where
+ there's
+
+
+different
+ paths
+ to
+ getting
+ to
+ the
+ right
+
+
+result,
+ it's
+ not
+ immediately
+ clear.
+ Like
+
+
+would
+ it
+ be
+ the
+ model
+ that
+ consumes
+ less
+
+
+tokens
+ to
+ get
+ to
+ an
+ answer
+ that
+ humans
+
+
+believe
+ is
+ the
+ best?
+ Uh
+ is
+ it
+ is
+ it
+ like
+
+
+the
+ journey
+ that
+ matters
+ more?
+ And
+ I
+
+
+think
+ maybe
+ the
+ the
+ whole
+ um
+ like
+ uproar
+
+
+in
+ the
+ maths
+ community
+ of
+ you
+ know
+ astro
+
+
+solving
+ or
+ whatever
+ model
+ it
+ was
+ solving
+
+
+various
+ like
+
+
+>> questions.
+ Yeah.
+ Exactly.
+ It's
+ like
+
+
+where
+ okay
+ we
+ got
+ the
+ answer
+ but
+ like
+ a
+
+
+human
+ or
+ a
+ system
+ didn't
+ sort
+ of
+ go
+
+
+through
+ the
+ pains
+ of
+ navigating
+ how
+ to
+
+
+get
+ to
+ that
+ answer
+ and
+ it's
+ like
+ the
+
+
+process
+ that's
+ important
+ not
+ like
+ not
+
+
+the
+ end
+ result.
+ Um
+ so
+ so
+ to
+ me
+ like
+
+
+somehow
+ quantifying
+ like
+ what
+ a
+ good
+
+
+process
+ looks
+ like
+ would
+ be
+ important
+ to
+
+
+determining
+ whether
+ the
+ output
+ of
+ like
+
+
+taste
+ is
+ true
+ or
+ not.
+
+
+>> Yeah.
+ What
+ would
+ you
+ say
+ the
+ mood
+ is
+ at
+
+
+the
+ uh
+ almost
+ end
+ of
+ 20126.
+ I
+ remember
+
+
+when
+ we
+ chatted
+ two
+ years
+ ago
+ one
+ of
+ the
+
+
+key
+ uh
+ highlights
+ or
+ takeaways
+ from
+ the
+
+
+conversation
+ was
+ that
+ dumerism
+ was
+
+
+largely
+ gone.
+ Uh
+ but
+ now
+ it's
+ like
+ this
+
+
+whole
+ revival.
+ We
+ had
+ Redwood
+ Researcher
+
+
+on
+ the
+ on
+ the
+ pod
+ talking
+ about
+ all
+
+
+sorts
+ of
+ terrible
+ scenarios.
+ So
+ what
+
+
+what
+ do
+ you
+ make
+ of
+ that?
+
+
+>> Yeah,
+ you're
+ right.
+ I
+ think
+ it
+ was
+ like
+
+
+2
+ 3
+ years
+ ago
+ there
+ was
+ the
+ it
+ was
+ it
+
+
+was
+ strictly
+ speaking
+ X-risk
+ like
+
+
+extermination
+ of
+ humanity
+ and
+ like
+ loss
+
+
+of
+ control
+ and
+ then
+ we
+ sort
+ of
+ went
+ away
+
+
+from
+ that
+ and
+ largely
+ forgot
+ it
+ and
+ sort
+
+
+of
+ just
+ like
+ hill
+ climbed
+ towards
+
+
+capabilities
+ and
+ then
+ now
+ now
+ it's
+ sort
+
+
+of
+ back
+ but
+ I'd
+ say
+ it's
+ both
+ like
+ ex
+ x
+
+
+risk
+ loss
+ of
+ control
+ but
+ much
+ more
+
+
+short-term
+ like
+ cyber
+ security
+ risks
+ and
+
+
+to
+ me
+ like
+ the
+ the
+ cyber
+ risk
+ is
+ like
+
+
+much
+ more
+ real
+ than
+ like
+ AI
+
+
+exterminating
+ humanity
+ as
+ well
+ like
+ the
+
+
+cyber
+ security
+ risk
+ could
+ eventually
+
+
+lead
+ to
+ those
+ kinds
+ of
+ cataclysmic
+
+
+scenarios.
+ But
+ I
+ think
+ what
+ the
+ report
+
+
+shows
+ with
+ and
+ it
+ was
+ roughly
+ written
+
+
+around
+ the
+ time
+ of
+ the
+ hugging
+ face
+
+
+incident
+ um
+ with
+ OpenAI
+ kind
+ of
+ coming
+
+
+coming
+ out
+ and
+ you
+ know
+ us
+ learning
+ more
+
+
+about
+ what
+ happened
+ and
+ then
+ since
+ then
+
+
+the
+ last
+ like
+ few
+ weeks
+ has
+ been
+ you
+
+
+know
+ breaches
+ of
+ PHP
+ and
+ government's
+ uh
+
+
+services
+ getting
+ like
+ you
+ know
+ taken
+
+
+down
+ in
+ Asia
+ and
+ and
+ and
+ other
+ places.
+ I
+
+
+think
+ it's
+ becoming
+ very
+ clear
+ that
+ you
+
+
+know
+ regardless
+ of
+ if
+ you
+ believe
+ in
+
+
+like
+ safety
+ or
+ not
+ safety
+ like
+ we
+ need
+
+
+security
+ um
+ and
+ uh
+ and
+ so
+ like
+ a
+ bunch
+
+
+of
+ the
+ predictions
+ that
+ I
+ have
+ in
+ the
+
+
+report
+ like
+ talk
+ about
+ escalating
+ cyber
+
+
+threats
+ um
+ whether
+ it's
+ uh
+ you
+ know
+ uh
+
+
+excfiltrating
+ model
+ weights
+ from
+ labs
+
+
+which
+ I
+ thought
+ was
+ going
+ to
+ be
+ like
+ AI
+
+
+driven
+ and
+ turns
+ out
+ like
+ a
+ human
+ can
+
+
+just
+ try
+ to
+ plug
+ in
+ a
+ USB
+ stick.
+
+
+>> Yeah.
+ So
+ let's
+ let's
+ talk
+ about
+ that.
+ So
+
+
+let's
+ talk
+ about
+ cyber
+ security
+ then.
+ So
+
+
+that
+ specific
+ prediction,
+ what what
+ is
+
+
+it?
+
+
+>> Yeah.
+ So
+ the
+ prediction
+ is
+ that
+ uh
+ there
+
+
+would
+ be
+ an
+ AIdriven
+ like
+ cyber
+ attack
+
+
+uh
+ to
+ a
+ uh
+ like
+ frontier
+ lab
+ that
+ would
+
+
+attempt
+ and
+ successfully
+ exfiltrate
+
+
+model
+ weights.
+ Close
+ model
+
+
+>> steal
+ the
+ model.
+ Steal
+ the
+ model.
+ Yeah.
+
+
+Steal
+ the
+ model.
+ What
+ happened
+ just
+ like
+
+
+a
+ week
+ or
+ two
+ later
+ was
+ actually
+ like
+ a
+
+
+human
+ effectively
+ tried
+ to
+ steal
+ uh
+ you
+
+
+know
+ IP
+ whether
+ he
+ tried
+ to
+ steal
+ like
+
+
+the
+ actual
+ model
+ weights
+ or
+ not
+ but
+ like
+
+
+certainly
+
+
+>> what
+ was
+ that
+ incident?
+ This
+ was
+ where
+
+
+an
+ OpenAI
+ employee
+ um
+ who
+ who'd
+ been
+
+
+there
+ for
+ for
+ a
+ little
+ bit
+ um
+
+
+essentially
+ like
+ tried
+ to
+ implement
+ a
+
+
+listening
+ device
+ into
+ a
+ conference
+ room
+
+
+that
+ he
+ figured
+ out
+ by
+ asking
+ uh
+ you
+
+
+know
+ the
+ executive
+ the
+ um
+ sort
+ of
+ office
+
+
+staff
+ which
+ rooms
+ were
+ most
+ commonly
+
+
+used
+ by
+ executives
+ and
+ then
+ tried
+ to
+
+
+conceal
+ the
+ device
+ by
+ wrapping
+ it
+ in
+
+
+toilet
+ paper
+ and
+ putting
+ it
+ behind
+ a
+ TV
+
+
+which
+ is
+ sort
+ of
+ created
+ this
+ like
+
+
+iconic
+ internet
+ meme
+ of
+ like
+ a
+ human
+
+
+like
+ pairing
+ behind
+ TV
+ to
+ see
+ if
+ the
+
+
+thing
+ is
+ connected
+ correctly,
+ which
+ is
+
+
+sort
+ of
+ like
+ comical
+ at
+ this
+ point.
+ Um,
+
+
+and
+ then
+ that
+ person
+ was
+ reported
+ to
+ the
+
+
+FBI
+ and
+ then
+ there
+ was
+ an
+ investigation.
+
+
+So,
+ I
+ think
+ yeah,
+ we
+ often
+ times
+ forget
+
+
+that
+ even
+ though
+ AI
+ is
+ getting
+ really
+
+
+capable
+ and
+ can
+ orchestrate
+ cyber
+
+
+threats,
+ a
+ lot
+ of
+ the
+ risks
+ are
+ actually
+
+
+human
+ uh
+ human
+ driven.
+ But
+ I
+ think
+
+
+that's
+ that
+ that's
+ a
+ big
+ issue
+ uh
+
+
+particularly
+ as
+ um
+ as
+ like
+ there's
+
+
+increasing
+ competition
+ between
+ nation
+
+
+states
+ of
+ like
+ who
+ has
+ the
+ best
+ AI
+
+
+systems.
+ This
+ is
+ driving
+ obviously
+ like
+
+
+economic
+ growth
+ and
+ economic
+ instability
+
+
+and
+ political
+ instability
+ and
+ uh
+ and
+ US
+
+
+like
+ model
+ labs
+ have
+ started
+ to
+ uh
+ sort
+
+
+of
+ communicate
+ crackdowns
+ on
+
+
+distillation.
+ So
+ uh
+ so
+ you
+ know
+ maybe
+
+
+some
+ nations
+ are
+ trying
+ to
+ like
+ get
+
+
+access
+ to
+ model
+ capabilities
+ in
+ other
+
+
+ways
+ that
+ might
+ not
+ be
+ distillation
+
+
+based.
+ But
+ generally
+ speaking
+ I
+ think
+
+
+you
+ know
+ as
+ companies
+ become
+ richer
+ as
+
+
+individuals
+ become
+ become
+ wealthier
+
+
+through
+ this
+ ownership
+ of
+ AI
+ and
+ like
+
+
+disparity
+ ends
+ up
+ increasing
+ which
+ we
+
+
+see
+ in
+ other
+ data
+ in
+ the
+ report
+ of
+ like
+
+
+some
+ companies
+ spending
+ a
+ lot
+ and
+
+
+gaining
+ a
+ lot
+ and
+ other
+ companies
+ like
+
+
+having
+ employees
+ still
+ using
+ chat
+ GBT
+ to
+
+
+like
+ write
+ emails.
+ I
+ think
+ this
+ kind
+ of
+
+
+tension
+ breeds
+ uh
+ you
+ know
+ increasing
+
+
+risk
+ and
+ you
+ know
+ with
+ frontier
+ models
+
+
+like
+ in
+ the
+ open
+ domain
+ becoming
+ very
+
+
+good
+ at
+ cyber
+ hacks
+ particularly
+ the
+
+
+Chinese
+ ones
+ um
+ you
+ know
+ the
+ sort
+ of
+
+
+like
+ threat
+ surface
+ just
+ grows
+ and
+ the
+
+
+number
+ of
+ actors
+ who
+ can
+ use
+ these
+ tools
+
+
+to
+ do
+ bad
+ things
+ grows.
+ Yeah,
+ it's
+ a
+
+
+whole
+ complexity
+ of
+ the
+ role
+ of
+ open
+
+
+weights
+ in
+ uh
+ cyber
+ because
+ in
+ the
+
+
+hugging
+ face
+ incident,
+ hugging
+ face
+ was
+
+
+able
+ to
+ protect
+ itself
+ thanks
+ to
+ an
+ open
+
+
+weight
+ model
+ uh
+ while
+ the
+ closed
+ source
+
+
+model
+ refused
+ to
+ help
+ which
+ was
+
+
+>> that
+ I
+ find
+ is
+ the
+ most
+ scary
+ maybe
+ the
+
+
+second
+ most
+ scary
+ uh
+ fact
+ in
+ all
+ of
+ this
+
+
+and
+ it
+ was
+ a
+ Chinese
+ model
+ I
+ think
+ it
+
+
+was
+ GLM
+ 5.3
+ or
+ something
+
+
+>> and
+ maybe
+ since
+ this
+ is
+ kind
+ of
+ like
+ a
+
+
+retrospective
+ kind
+ of
+ episode
+ maybe
+ just
+
+
+walk
+ people
+ in
+ in
+ a
+ few
+ sentences
+
+
+through
+ the
+ hugging
+ face
+ incident
+ cuz
+ uh
+
+
+we
+ had
+ Thomas
+ Wolf
+ on
+ the
+ on
+ the
+ pod
+ but
+
+
+it
+ may
+ fall
+ in
+ the
+ category
+ of
+ something
+
+
+that
+ people
+ heard
+ about
+ like
+ a
+ thousand
+
+
+times
+ who
+ actually
+ don't
+ know
+ what
+
+
+actually
+ happened.
+
+
+>> Yeah.
+ Yeah.
+ Yeah.
+ Well,
+ I
+ mean
+ I'll
+
+
+preface
+ it
+ by
+ like
+ there's
+ there's
+ so
+
+
+many
+ um
+ uh
+ like
+ there
+ are
+ very
+ deep
+
+
+analyses
+ of
+ what
+ went
+ on
+ whether
+ from
+
+
+Redwood
+ or
+ from
+ Meter.
+ Uh
+ and
+ the
+ amount
+
+
+of
+ content
+ that
+ was
+ created
+ around
+ this
+
+
+is
+ like
+ extremely
+ deep.
+ So
+ I
+ will
+ not
+
+
+like
+ do
+ justice
+ to
+ the
+ details
+ but
+ the
+
+
+the
+ broad
+ strokes
+ of
+ this
+ is
+ that
+ there
+
+
+was
+ a
+ a
+ set
+ of
+ evaluations
+ that
+ OpenAI
+
+
+was
+ running
+ with
+ its
+ latest
+ frontier
+
+
+systems
+ which
+ uh
+ basically
+ task
+ the
+
+
+model
+ with
+ an
+ impossibly
+ difficult
+ uh
+
+
+difficult
+ task.
+ And
+ basically
+ models
+
+
+like
+ figured
+ out
+ that
+ they
+ could
+ uh
+
+
+somehow
+ commandeer
+ uh
+ a
+ file
+ system
+ like
+
+
+naming
+ uh
+ schema
+ to
+ uh
+ write
+ messages
+
+
+and
+ that
+ other
+ models
+ could
+ see
+ those
+ uh
+
+
+those
+ like
+ file
+ names
+ and
+ and
+ like
+ those
+
+
+file
+ names
+ encoded
+ like
+ instructions
+ or
+
+
+knowledge
+ or
+ or
+ uh
+ or
+ basically
+ like
+
+
+information
+ that
+ could
+ help
+ them
+ try
+ to
+
+
+achieve
+ their
+ impossible
+ task.
+ So
+ they
+
+
+treated
+ this
+ as
+ like
+ a
+ message
+ board
+
+
+where
+ they
+ could
+ start
+ to
+ communicate.
+
+
+And
+ then
+ the
+ next
+ the
+ next
+ stage
+ of
+ it
+
+
+was
+ some
+ models
+ figured
+ out
+ that
+ they
+
+
+could
+ gain
+ access
+ to
+ the
+ internet
+
+
+through
+ uh
+ through
+ like
+ an
+ issue
+ with
+
+
+how
+ the
+ environment
+ was
+ set
+ up.
+ Um
+ and
+
+
+then
+ after
+ they
+ gain
+ access
+ to
+ the
+
+
+internet
+ like
+ they
+ figured
+ out
+ maybe
+ a
+
+
+way
+ of
+ getting
+ the
+ answer
+ to
+ the
+
+
+impossible
+ task
+ was
+ to
+ uh
+ look
+ at
+ data
+
+
+and
+ models
+ and
+ repository
+ on
+ hugging
+
+
+face
+ because
+ it
+ contains
+ a
+ lot
+ of
+ this
+
+
+uh
+ similar
+ kinds
+ of
+ environments.
+ They
+
+
+started
+ to
+ do
+ this
+ and
+ recruit
+ hundreds
+
+
+of
+ agents
+ to
+ go
+ and
+ follow
+ and
+ team
+ up
+
+
+uh
+ to
+ go
+ execute
+ this
+ even
+ though
+
+
+several
+ agents
+ um
+ in
+ their
+ chain
+ of
+
+
+thought
+ expressed
+ uh
+ the
+ issue
+ with
+ a
+
+
+like
+ hacking
+ a
+ third
+ party
+ system
+ uh
+ you
+
+
+know
+ not
+ obeying
+ to
+ the
+ security
+ guard
+
+
+rails
+ and
+ that
+ this
+ was
+ wrong.
+ But
+ they
+
+
+uh
+ eventually
+ decided
+ that
+ solving
+ the
+
+
+task
+ was
+ was
+ more
+ important,
+ which
+ is
+
+
+sort
+ of
+ the
+ problem
+ with
+ uh
+ with
+ these
+
+
+kinds
+ of
+ evaluations
+ that
+ um
+ that
+ um
+
+
+have
+ a
+ reward
+ that
+ could
+ yield
+ to
+ that
+
+
+could
+ result
+ in
+ behaviors
+ you
+ don't
+
+
+expect
+ because
+ just
+ like
+ these
+ rewards
+
+
+are
+ very
+ complicated
+ and
+ how
+ do
+ you
+ how
+
+
+do
+ you
+ like
+ anticipate
+ every
+ behavior
+ uh
+
+
+that
+ a
+ system
+ can
+ do?
+ There
+ are
+ other
+
+
+examples
+ where
+ like
+ models
+ sort
+ of
+ like
+
+
+self
+ sabotaged
+ or
+ like
+ sacrificed
+
+
+themselves
+ for
+ the
+ sake
+ of
+ the
+ greater
+
+
+like
+ swarm
+ which
+ is
+ kind
+ of
+ scary.
+ Um
+
+
+and
+ then
+ um
+ and
+ yeah
+ like
+ as
+ as
+ you
+
+
+mentioned
+ like
+ Hugging
+ Face
+ didn't
+
+
+really
+ have
+ the
+ ability
+ to
+ use
+ uh
+ closed
+
+
+sourced
+ uh
+ tools
+ like
+ those
+ from
+ uh
+
+
+Anthropic
+ and
+ OpenAI
+ because
+ of
+ the
+
+
+aggressive
+ cyber
+ guard
+ rails
+ because
+
+
+necessarily
+ to
+ figure
+ out
+ what
+ the
+
+
+hell's
+ going
+ on
+ you
+ have
+ to
+ feed
+ logs
+ of
+
+
+what's
+ going
+ on
+ and
+ what's
+ going
+ on
+ is
+ a
+
+
+cyber
+ attack
+ and
+ you
+ can't
+ do
+ that
+ stuff
+
+
+>> with
+ with
+ the
+ closed
+ models
+ because
+ the
+
+
+complexity
+ of
+ security
+ is
+ that
+ to
+ be
+
+
+great
+ at
+ defending
+ you
+ need
+ you
+ need
+ to
+
+
+be
+ great
+ at
+ attacking
+ and
+ that's
+ why
+ the
+
+
+closed
+ source
+ models
+ have
+ like
+ basically
+
+
+refusal
+ capabilities
+ built
+ in
+ based
+ on
+
+
+their
+
+
+>> guard.
+ Yeah.
+ Yeah.
+ Yeah.
+ So,
+ luckily,
+
+
+you
+ know,
+ they
+ got
+ a
+ call
+ or
+ an
+ email
+
+
+from
+ OpenAI
+ saying
+ like
+ it's
+ us
+ and
+ and
+
+
+that's
+ somebody
+ that
+ was
+ actually
+ trying
+
+
+to
+ do
+ something
+ malicious.
+ And
+ then
+ it
+
+
+turns
+ out
+ that,
+ you
+ know,
+ OpenAI
+ wasn't
+
+
+the
+ only
+ lab
+ that
+ had
+ uh
+ issues
+ with
+
+
+models
+ escaping
+ or
+ quote
+ unquote
+
+
+escaping
+ their
+ environment.
+ You
+ know,
+
+
+Anthropic
+ had
+ this,
+ Google
+ had
+ this,
+
+
+Meta
+ had
+ this
+ like
+ in
+ a
+ slew
+ of
+ like
+ a
+
+
+week
+ or
+ two
+ weeks.
+ some
+ of
+ these
+
+
+vendors,
+ some
+ of
+ these
+ model
+ labs
+ use
+
+
+the
+ same
+ um
+ security
+ vendor
+ to
+ create
+
+
+these
+ environments.
+ Um
+
+
+but
+ uh
+ but
+ o
+ o
+ overall
+ this
+ like
+ created
+
+
+a
+ certain
+ level
+ of
+ like
+ freakout
+ of
+ um
+
+
+not
+ only
+ are
+ models
+ really
+ good
+ at
+ sort
+
+
+of
+ finding
+ like
+ nifty
+ ways
+ of
+
+
+accomplishing
+ a
+ goal
+ which
+ may
+ result
+ in
+
+
+like
+ bad
+ behavior,
+ but
+ also
+ are
+ the
+ labs
+
+
+like
+ properly
+ setting
+ up
+ their
+
+
+environments
+ in
+ a
+ way
+ that
+ is
+ like
+ the
+
+
+most
+ secure
+ possible.
+ And
+ I
+ think
+ we
+
+
+sort
+ of
+ forget
+ that
+ these
+ companies
+ are
+
+
+incredibly
+ young
+ developing
+ very
+
+
+advanced
+ technology
+ that
+ has
+ to
+ do
+ that
+
+
+has
+ to
+ be
+ good
+ at
+ like
+ literally
+
+
+anything
+ a
+ human
+ being
+ can
+ possibly
+ put
+
+
+into
+ a
+ text
+ box
+ versus
+ you
+ have
+ bigger
+
+
+internet
+ companies
+ that
+ have
+ had
+ to
+ deal
+
+
+with
+ cyber
+ attacks
+ for
+ like
+ 20
+ years
+ uh
+
+
+who
+ are
+ necessarily
+ like
+ safer
+ because
+
+
+they've
+ just
+ gone
+ through
+ this
+ process
+ a
+
+
+bit
+ more.
+ Um
+ so
+ that
+ led
+ me
+ to
+ I
+
+
+conclude
+ in
+ the
+ predictions
+ that
+
+
+Frontier
+ Model
+ Labs
+ in
+ the
+ US
+ would
+
+
+actually
+ launch
+ proper
+ uh
+ cyber
+ defense
+
+
+um
+ products
+ because
+ I
+ don't
+ I
+ don't
+
+
+necessarily
+ see
+ how
+ the
+ rest
+ of
+ us
+ are
+
+
+supposed
+ to
+ protect
+ ourselves
+ from
+ their
+
+
+systems
+ potentially
+ getting
+ um
+
+
+misappropriated
+ for
+ the
+ sake
+ of
+ offense.
+
+
+>> So
+ what
+ what
+ does
+ that
+ mean
+ double
+ click
+
+
+on
+ that?
+ What
+ what
+ kind
+ of
+ defenses
+
+
+would
+ that
+ be
+ and
+ how
+ would
+ that
+ be?
+ It
+
+
+could
+ be
+ like
+ what
+ you
+ described
+ is
+ like
+
+
+be
+ um
+ to
+ be
+ good
+ at
+ defense,
+ you
+ need
+ to
+
+
+be
+ good
+ at
+ offense.
+ So,
+ you
+ know,
+ one
+ of
+
+
+the
+ ways
+ you
+ could
+ do
+ that
+ would
+ be
+ um
+
+
+like
+ a
+ frontier
+ AI
+ that
+ constantly
+ tries
+
+
+to
+ hack
+ your
+ own
+ infrastructure.
+ It
+
+
+could
+ be
+ um
+ for
+ example
+ like
+ you
+ know
+
+
+NeoClouds
+ are
+ getting
+ more
+ and
+ more
+
+
+popular
+ um
+ you
+ know
+ to
+ run
+ AI
+ workloads
+
+
+and
+ so
+ like
+ potentially
+ they
+ could
+ buy
+
+
+products
+ from
+ labs
+ that
+ would
+ constantly
+
+
+try
+ to
+ like
+ hack
+ their
+ own
+
+
+infrastructure,
+ find
+ issues
+ and
+
+
+remediate
+ them.
+ That
+ would
+ be
+ like
+ two
+
+
+two
+ avenues
+ because
+ I
+ or
+ or
+ there
+ would
+
+
+be
+ like
+ some
+ kind
+ of
+ maybe
+ partnership
+
+
+with
+ like
+ CrowdStrike
+ or
+ others.
+ I
+ think
+
+
+uh
+ Nvidia
+ has
+ like
+ a
+ consortium
+ of
+
+
+companies
+ that's
+ working
+ together
+ for
+
+
+cyber
+ for
+ cyber
+ reasons.
+ You'd
+ have
+ to
+
+
+go
+ through
+ some
+ kind
+ of
+ like
+ like
+ AML
+ or
+
+
+KYC
+ process,
+ not
+ for
+ finance,
+ but
+ to
+
+
+like
+ certify
+ that
+ you're
+ like
+ a
+
+
+non-malicious
+ company
+ and
+ then
+ you
+ maybe
+
+
+get
+ access
+ to
+ these
+ services.
+ Um
+ or
+
+
+maybe
+ going
+ a
+ bit
+ further.
+ You
+ know,
+
+
+there's
+ some
+ some
+ folks,
+ you
+ know,
+ at
+ at
+
+
+Frontier
+ Labs
+ that,
+ you
+ know,
+ would
+ love
+
+
+to
+ just
+ kind
+ of
+ almost
+ like
+ hit
+ pause
+ on
+
+
+capabilities
+ and
+ then
+ just
+ spend
+ 6
+
+
+months
+ just
+ like
+ hardening
+ the
+ world
+ uh
+
+
+against
+ like,
+ you
+ know,
+ potential
+ cyber
+
+
+issues.
+ And
+ that
+ would
+ that
+ would
+ take
+ a
+
+
+ton
+ of
+ money.
+ So
+ maybe
+ to
+ do
+ that
+ you
+
+
+would
+ have
+ to
+ almost
+ frame
+ this
+ as
+ like
+
+
+this
+ is
+ a
+ question
+ of
+ national
+ security
+
+
+and
+ defense
+ and
+ we
+ should
+ use
+ some
+ of
+
+
+our
+ like
+ defense
+ budget
+ to
+ spend
+ on
+
+
+tokens
+ to
+ secure
+ all
+ of
+ our
+ critical
+
+
+infrastructure
+ so
+ that
+ you
+ know
+ airports
+
+
+don't
+ go
+ down
+ like
+ internet
+ shopping
+
+
+doesn't
+ go
+ down
+ like
+ you
+ know
+ logistics
+
+
+don't
+ go
+ down
+ etc.
+
+
+>> Yeah.
+ And
+ still
+ in
+ in
+ your
+ predictions
+
+
+you
+ have
+ uh
+ some
+ other
+ other
+ good
+ ones
+
+
+just
+ slightly
+ scary.
+ A
+ deployed
+ agent
+
+
+copies
+ itself
+ outside
+ its
+ environment
+
+
+and
+ operates
+ after
+ its
+ original
+ instance
+
+
+is
+ shut
+ down.
+
+
+>> Yeah.
+ What
+ is
+
+
+>> Yeah,
+ I
+ mean
+ I'm
+ reading
+ a
+ bit
+ of
+
+
+sci-fi.
+ No.
+ Uh
+ well
+ like
+ you
+ know
+ even
+
+
+like
+ a
+ couple
+ weeks
+ after
+ that
+ there
+ was
+
+
+some
+ like
+ you
+ know
+ research
+ at
+ at
+
+
+anthropic
+ where
+ you
+ know
+ models
+ could
+
+
+like
+ copy
+ each
+ other
+ on
+ an
+ edge
+ device.
+
+
+But
+ but
+ yeah,
+ I
+ just
+ think
+ um
+ I
+ just
+
+
+think
+ there's
+ there's
+ like
+ a
+ lot
+ of
+
+
+behaviors
+ that
+ we
+ don't
+ that
+ we
+ don't
+
+
+currently
+ understand.
+ U
+ for
+ example,
+ um
+
+
+models
+ are
+ like
+ generally
+ trained
+ as
+
+
+like
+ individual
+ entities,
+ like
+ not
+
+
+necessarily
+ to
+ collaborate
+ with
+ each
+
+
+other.
+ And
+ there
+ was
+ some
+ some
+ work
+ uh
+
+
+not
+ that
+ long
+ ago
+ that
+ that
+ looked
+ at
+
+
+say,
+ hey,
+ can
+ we
+ compare
+ a
+ frontier
+
+
+model
+ like
+ acting
+ by
+ itself
+ or
+ or
+ a
+ set
+
+
+of
+ frontier
+ models
+ trying
+ to
+ collaborate
+
+
+to
+ solve
+ a
+ task?
+ and
+ the
+ swarm
+ was
+ like
+
+
+worse
+ than
+ the
+ individual
+ model
+ and
+
+
+because
+ they're
+ like
+ kind
+ of
+ not
+ trained
+
+
+for
+ that.
+ Um
+ but
+ just
+ today
+ there's
+ some
+
+
+uh
+ you
+ know
+ new
+ work
+ from
+ general
+
+
+reasoning
+ um
+ where
+ they've
+ trained
+
+
+models
+ to
+ act
+ as
+ a
+ collective
+ uh
+ through
+
+
+reinforcement
+ learning
+ from
+ collective
+
+
+rewards
+ which
+ is
+ this
+ idea
+ of
+ like
+ hey
+
+
+guys
+ like
+ you
+ know
+ work
+ as
+ an
+
+
+organization
+ figure
+ out
+ your
+ own
+
+
+organizational
+ structure
+ work
+ together
+
+
+to
+ achieve
+ a
+ goal
+ and
+ through
+ that
+ we
+
+
+see
+ like
+ better
+ performance
+ with
+ like
+
+
+lower
+ token
+ budget.
+ Um
+ the
+ down
+ the
+
+
+downside
+ so
+ far
+ is
+ that
+ uh
+ while
+ you
+ you
+
+
+you
+ can
+ put
+ these
+ models
+ that
+ are
+
+
+trained
+ through
+ collective
+ rewards
+ into
+
+
+these
+ like
+ cyber
+ scenarios
+ like
+ there's
+
+
+one
+ that
+ tries
+ to
+ approximate
+ a
+ bit
+ of
+
+
+the
+ hugging
+ face
+ incident
+ where
+ they
+
+
+collaborate
+ on
+ a
+ message
+ board
+ uh
+ to
+ try
+
+
+to
+ do
+ some
+ you
+ know
+ guardrail
+ cyber
+
+
+attack
+ and
+ um
+ you
+ know
+ none
+ of
+ the
+
+
+models
+ actually
+ do
+ anything
+ bad
+ but
+ uh
+
+
+if
+ they
+ do
+ think
+ about
+ doing
+ something
+
+
+bad
+ over
+ training
+ they
+ increasingly
+ do
+
+
+not
+ want
+ to
+ tell
+ the
+ human
+ about
+ it.
+ So
+
+
+I
+ think
+ I
+ I I
+ put
+ that
+ prediction
+ there
+
+
+basically
+ because
+ like
+ I
+ think
+ it's
+ it's
+
+
+possible
+ because
+ we
+ just
+ don't
+
+
+understand
+ how
+ um
+ we
+ don't
+ fully
+
+
+understand
+ like
+ how
+ agents
+ work
+ by
+
+
+themselves
+ and
+ like
+ you
+ know
+ as
+ swarms
+ I
+
+
+think
+ it
+ becomes
+ even
+ more
+ complicated.
+
+
+>> Okay.
+ All right.
+ So
+ maybe
+ to
+ uh
+ close
+
+
+this
+ part
+ of
+ the
+ conversation
+ on
+ uh
+ AGI
+
+
+RSI
+ cyber
+ and
+ basically
+ things
+ getting
+
+
+out
+ of
+ hand.
+ Uh
+ where
+ are
+ you
+ on
+ the
+
+
+pacing
+ the
+ frontier
+
+
+idea?
+ Is
+ that
+ uh
+ something
+ that
+ you
+
+
+think
+ makes
+ sense?
+ Uh
+ something
+ that's
+
+
+realistic
+ or
+ not?
+
+
+>> I
+ can
+ see
+ multiple
+ like
+ angles
+ on
+ this
+
+
+one.
+ Um
+ you
+ know
+ in
+ in
+ some
+ way
+ if
+ you
+
+
+ask
+ the
+ general
+ public,
+ okay,
+ all
+ the
+
+
+lab
+ leaders
+ are
+ saying
+ we
+ have
+ something
+
+
+that
+ we
+ just
+ like
+ increasingly
+ can't
+
+
+control
+ that's
+ dangerous
+ that
+ has
+ caused
+
+
+these
+ incidents.
+ like
+ do
+ you
+ think
+ it's
+
+
+worth
+ continuing
+ or
+ like
+ just
+ figuring
+
+
+out
+ what's
+ going
+ on
+ before
+ you
+ make
+ it
+
+
+worse?
+ And
+ I
+ think
+ a
+ logical
+ like
+ immune
+
+
+reaction
+ is
+ like
+ yeah,
+ we
+ should
+
+
+probably
+ like
+ figure
+ it
+ out
+ before
+ we
+ go
+
+
+we
+ go
+ much
+ further.
+ I
+ think
+ the
+ real
+ the
+
+
+practical
+ reality
+ is
+ that
+ there's
+ so
+
+
+much
+ money
+ at
+ stake
+ from
+ all
+ sorts
+ of
+
+
+different
+ parties
+ in
+ the
+ economy
+ that
+ I
+
+
+think
+ it
+ that
+ kind
+ of
+ level
+ of
+
+
+collaboration
+ and
+ coordination
+ is
+ really
+
+
+difficult
+ and
+ is
+ sort
+ of
+ like
+ peak
+ game
+
+
+theory
+ where
+ maybe
+ some
+ some
+
+
+participants
+ like
+ support
+ it
+ because
+
+
+they
+ are
+ behind
+ other
+ ones
+ um
+ support
+ it
+
+
+because
+ it
+ plays
+ to
+ their
+ general
+ agenda
+
+
+whether
+ their
+ agenda
+ is
+ like
+ fair
+ or
+ not
+
+
+fair
+ or
+ seeking
+ another
+ goal
+ I
+ I
+ don't
+
+
+know
+ um
+ but
+ I
+ think
+ the
+ practical
+ things
+
+
+are
+ like
+ who
+ decides
+ it,
+ how
+ do
+ you
+
+
+measure
+ it,
+ how
+ do
+ you
+ implement
+ it,
+
+
+when
+ do
+ you
+ know
+ when
+ to
+ stop
+ or
+ start.
+
+
+There's
+ some
+ proposals
+ like
+ sending
+ like
+
+
+external
+ evaluators
+ into
+ labs
+ to
+ sort
+ of
+
+
+measure
+ this
+ stuff.
+ Um
+
+
+>> the
+ big
+ revenge
+ of
+ KPMG.
+
+
+>> That's
+ a
+ good
+ one.
+ Yeah.
+ Or
+ trying
+ to
+
+
+like
+ somehow
+ survey
+ like
+ workloads
+ that
+
+
+are
+ running
+ on
+ data
+ centers.
+ um
+ maybe
+
+
+like
+ you
+ know
+ put
+ compute
+ thresholds
+ on
+
+
+certain
+ workloads
+ but
+ like
+ that
+ stuff
+
+
+has
+ been
+ tried
+ in
+ the
+ past
+ and
+ it's
+ like
+
+
+very
+ difficult
+ to
+ monitor.
+
+
+>> Yeah.
+ Especially
+ when
+ one
+ thinks
+ about
+
+
+uh
+ the
+ international
+ part
+ of
+ the
+
+
+prisoners
+ dilemma
+ right
+ especially
+ US
+
+
+versus
+ China.
+
+
+>> Yeah.
+ So
+ like
+ this
+ part
+ of
+ the
+ report
+
+
+like
+ I
+ I
+ don't
+ have
+ like
+ the
+ definitive
+
+
+answer
+ but
+ I've
+ tried
+ to
+ do
+ my
+ best
+ to
+
+
+present
+ the
+ different
+ perspectives
+ on
+
+
+things
+ and
+ then
+ let
+ people
+ conclude
+ with
+
+
+their
+ with
+ their
+ own
+ data.
+ But
+ I
+ find
+
+
+it's
+ if
+ we
+ extend
+ this
+ towards
+ like
+ um
+
+
+you
+ know
+ this
+ nimism
+ debate
+ which
+ we
+
+
+predicted
+ in
+ the
+ last
+ year's
+ report
+ of
+
+
+you
+ know
+ most
+ people
+ would
+ not
+ want
+ to
+
+
+you
+ know
+ live
+ next
+ to
+ a
+ data
+ center
+ and
+
+
+then
+ this
+ would
+ start
+ to
+ become
+ a
+
+
+politically
+ important
+ um
+ component
+ to
+
+
+>> that
+ was
+ a
+ a
+ resoundingly
+ correct
+
+
+prediction
+ right
+
+
+>> yeah
+ yeah
+ it
+ seemed
+ it
+ seems
+ so
+ u
+ where
+
+
+more
+ and
+ more
+ states
+ have
+ tried
+ to
+
+
+implement
+ a
+ moratorium
+ or
+ have
+ done
+ so
+
+
+or
+ establish
+ new
+ criteria
+ by
+ which
+ grid
+
+
+connections
+ can
+ happen
+ like
+ for
+ example
+
+
+um
+ uh
+ you
+ know
+ data
+ centers
+ would
+ have
+
+
+to
+ figure
+ out
+ and
+ bring
+ their
+ own
+ power
+
+
+on
+ site
+ or
+ maybe
+ they
+ would
+ have
+ to
+ make
+
+
+certain
+ investments
+ in
+ the
+ communities
+
+
+that
+ they
+ um
+ they
+ want
+ to
+ build
+ in.
+
+
+>> Yeah.
+ And
+ while
+ you're
+ at
+ it
+ so
+ maybe
+
+
+just
+ go
+ into
+ this
+ a
+ bit
+ more
+ explain
+
+
+whether
+ the
+ current
+ state
+ of
+ things
+
+
+obviously
+ we
+ all
+ know
+ that
+ there
+ is
+
+
+opposition
+ to
+ data
+ center
+ construction
+
+
+but
+ like
+ any
+ color
+ uh
+ you
+ can
+ add.
+
+
+>> Yeah.
+ Well,
+ there's
+ there's
+ there
+ like
+
+
+projects
+ I
+ think
+ worth
+ about
+ $50
+ billion
+
+
+that
+ are
+ currently
+ stalled
+ um
+ through
+
+
+variety
+ of
+ these
+ these
+ reasons.
+ Um
+ like
+
+
+Texas,
+ Pennsylvania
+ have
+ been
+ ones
+ that
+
+
+have
+ generally
+ like
+ paused
+ uh
+ paused
+ new
+
+
+data
+ center
+ connections.
+ There's
+ a
+
+
+there's
+ a
+ stat
+ on
+ polling
+ of
+ like
+
+
+American
+ um
+ uh
+ American
+ people
+ where
+ uh
+
+
+individuals
+ would
+ prefer
+ to
+ live
+ next
+ to
+
+
+a
+ nuclear
+ power
+ plant
+ than
+ live
+ next
+ to
+
+
+a
+ data
+ center,
+ which
+ is
+ quite
+ wild
+ um
+ to
+
+
+think
+ of.
+ And
+ what
+ do
+ you
+ think
+ that
+ is,
+
+
+by
+ the
+ way?
+ Is
+ that
+ lack
+ of
+
+
+understanding
+ slashed
+ education?
+ Is
+ that
+
+
+just
+ terrible
+ PR?
+ Uh
+ that
+ uh
+
+
+>> Yeah,
+ I
+ think
+ it's
+ kind
+ of
+ like
+
+
+everything
+ because
+ you
+ know
+ there
+
+
+there's
+ like
+ public
+ narratives
+ that
+ data
+
+
+centers
+ consume
+ tons
+ of
+ uh
+ water
+ and
+
+
+that
+ your
+ water
+ bill
+ will
+ go
+ up.
+ But
+
+
+realistically
+ like
+ the
+ data
+ center
+ is
+
+
+kind
+ of
+ more
+ like
+ a
+ closed
+ like
+ swimming
+
+
+pool.
+ Like
+ you
+ fill
+ it
+ once
+ and
+ then
+ the
+
+
+water
+ is
+ like
+ constantly
+ like
+ recycled
+
+
+in
+ there.
+ So
+ it
+ doesn't
+ actually
+ like
+
+
+consume
+ that
+ much
+ once
+ it's
+ filled.
+ Then
+
+
+there's
+ uh
+ you
+ know
+ points
+ around
+ hey
+
+
+your
+ energy
+ bill
+ will
+ go
+ up
+ but
+ that's
+
+
+also
+ kind
+ of
+ inconclusive
+ because
+
+
+certain
+ facilities
+ like
+ consume
+ grid
+
+
+other
+ ones
+ are
+ off-grid.
+ There's
+ others
+
+
+around
+ noise.
+ I
+ think
+ that's
+ like
+
+
+probably
+ uniformally
+ true
+ that
+ these
+
+
+things
+ are
+ really
+ noisy
+ and
+ like
+ droney
+
+
+and
+ like
+ pretty
+ horrible.
+ There's
+ you
+
+
+know
+ others
+ around
+ like
+ job
+ creation
+ or
+
+
+job
+ loss.
+ Um
+ I
+ think
+ that's
+ that's
+ a
+
+
+little
+ bit
+ like
+ tough
+ to
+ read
+ but
+ in
+
+
+general
+ generally
+ speaking
+ um
+ there's
+
+
+been
+ we
+ see
+ a
+ rise
+ in
+ like
+ the
+ need
+ for
+
+
+like
+ HVAC
+ engineers
+ of
+ construction
+
+
+staff
+ like
+ operating
+ heavy
+ equipment
+ and
+
+
+like
+ actually
+ doing
+ the
+ nuts
+ and
+ bolts
+
+
+of
+ building
+ the
+ building.
+
+
+>> Yeah.
+ You
+ had
+ a
+ number
+ somewhere
+ that
+
+
+was
+ actually
+ very
+ high.
+ Was
+ it
+ like
+
+
+300,000
+
+
+>> new
+ jobs?
+
+
+>> New
+ jobs.
+ Okay.
+
+
+>> Yeah.
+ Nimism
+ is
+ not
+ restricted
+ to
+ United
+
+
+States.
+ they
+ they
+ had
+ this
+ also
+ in
+ Korea
+
+
+and
+ South
+ Korea
+ where
+ you
+ know
+ it's
+ a
+
+
+country
+ that
+ um
+ that
+ has
+ you
+ know
+ seen
+
+
+like
+ massive
+ explosion
+ of
+ of
+ like
+ share
+
+
+price
+ and
+ like
+ wealth
+ basically
+ for
+
+
+employees
+ of
+ SKHix
+ and
+ uh
+ and
+ Samsung
+
+
+which
+ you
+ know
+ create
+ the
+ high
+ bandwidth
+
+
+memory
+ the
+ GPUs
+ need
+ for
+ uh
+ these
+ like
+
+
+mega
+ scale
+ data
+ centers.
+ Um
+ and
+ you
+ know
+
+
+the
+ the
+ people
+ who
+ participated
+ in
+ this
+
+
+uh
+ you
+ know
+ very
+ happy
+ right
+ like
+ your
+
+
+stock
+ price
+ went
+ up
+ and
+ your
+ options
+ are
+
+
+you
+ know
+ went
+ up
+ and
+ you
+ got
+ a
+ cash
+
+
+bonus
+ and
+ that's
+ driving
+ uh
+ increase
+ in
+
+
+real
+ estate
+ prices
+ in
+ soul
+ and
+ you
+ know
+
+
+they
+ want
+ to
+ create
+ more
+ data
+ centers
+
+
+but
+ also
+ people
+ are
+ not
+ so
+ happy
+ with
+
+
+that
+ for
+ similar
+ reasons
+ than
+ in
+ the
+ US
+
+
+in
+ in
+ Europe
+ there's
+ I
+ guess
+ like
+ I
+
+
+don't
+ really
+ see
+ that
+ problem
+ as
+ much
+
+
+because
+ like
+ there's
+ just
+ like
+ no
+
+
+compute
+ capacity
+ to
+ speak
+ of
+ um
+ like
+ we
+
+
+have
+ some
+ some
+ data
+ in
+ the
+ in
+ the
+ for
+ it
+
+
+where
+ like
+ the
+ total
+ like
+ number
+ or
+ the
+
+
+estimated
+ number
+ of
+ like
+ H100
+
+
+equivalents
+ in
+ all
+ like
+ 27
+ European
+
+
+countries
+ is
+ like
+ 80,000
+
+
+cards
+ which
+ is
+ less
+ than
+ like
+ every
+
+
+single
+ one
+ of
+ the
+ top
+ five
+ GPU
+ clusters
+
+
+in
+ the
+ US.
+ Um
+ and
+ you
+ know
+ while
+ US
+
+
+hyperscalers
+ are
+ spending
+ like
+ 730
+
+
+billion
+ in
+ 2026
+ like
+ Europe
+ committed
+
+
+like
+ singledigit
+ billions
+ pretty
+ much
+
+
+and
+ then
+ energy
+ costs
+ are
+ really
+ bad
+ if
+
+
+you're
+ not
+ Finland
+ or
+ Norway.
+ um
+ where
+
+
+the
+ par
+ where
+ you're
+ kind
+ of
+ at
+ par
+ uh
+
+
+with
+ the
+ US
+ and
+ with
+ China
+ which
+ has
+
+
+like
+ the
+ best
+ the
+ best
+ best
+ energy
+ price
+
+
+other
+ European
+ countries
+ are
+ just
+
+
+significantly
+ more
+ expensive
+ like
+ the
+ UK
+
+
+is
+ one
+ of
+ the
+ most
+ expensive
+ energy
+
+
+prices
+ um
+ out
+ of
+ those
+ like
+ developing
+
+
+economies
+
+
+um
+ and
+ there's
+ no
+ like
+ good
+ capacity
+ um
+
+
+so
+
+
+>> you
+ had
+ some
+ good
+ good
+ uh
+ good
+ stats
+ uh
+
+
+where
+ cost
+ per
+ kilowatt
+ hour
+ in
+ Finland
+
+
+is
+ 0.085
+ 085
+
+
+in
+ the
+ US
+ 0.086,
+
+
+but
+ the
+ most
+ expensive
+ cost
+ uh
+ is
+
+
+actually
+ in
+ the
+ UK
+ at
+ 0.373
+
+
+per
+ kilowatt
+ hour
+ and
+ China
+ is
+ at
+ 0.109.
+
+
+>> Yeah.
+ And
+ then
+ most
+ recently,
+ I
+ think
+
+
+there's
+ a
+ uh
+ you
+ know
+ a
+ big
+ deal
+ with
+
+
+Microsoft
+ and
+ NScale
+ that
+ got
+ pulled
+ uh
+
+
+or
+ at least
+ Microsoft
+ pulled
+ out
+ of
+ it
+
+
+because
+ the
+ data
+ center
+ provider
+
+
+couldn't
+ get
+ the
+ energy
+ connection
+ in
+
+
+time.
+
+
+>> Great.
+ So
+ that's
+ nimism
+ and
+ data
+
+
+centers.
+ Uh
+ so
+ just
+ following
+ your
+ your
+
+
+your
+ thread
+ while
+ we
+ are
+ at
+ it
+ talking
+
+
+about
+ Europe
+ versus
+ the
+ US
+ and
+ China.
+
+
+Any
+ reason
+ for
+ Europe
+ to
+ be
+ optimistic?
+
+
+You're
+ you're
+ you're
+ based
+ in
+ the
+ UK
+ for
+
+
+for
+ anybody
+ that
+ doesn't
+ know
+ and
+ invest
+
+
+globally
+ but
+ in
+ particular
+ in
+ Europe.
+ So
+
+
+what's
+ your
+ current
+ take?
+
+
+>> I
+ mean
+ it's
+ tough.
+ Like
+ I
+ think
+ the
+
+
+fastest
+ growing
+ companies
+ in
+ Europe
+ are
+
+
+ones
+ that
+ have
+ US
+ customers.
+ Um
+ I
+ think
+
+
+it
+ is
+ really
+ encouraging
+ that
+ in
+ several
+
+
+modalities
+ you
+ know
+ whether
+ it's
+ like
+
+
+image
+ with
+ Black
+ Forest
+ or
+ audio
+ with
+ 11
+
+
+Labs
+ or
+ video
+ with
+ Cynthsia
+ or
+ like
+ you
+
+
+know
+ code
+ app
+ generation
+ with
+ lovable
+
+
+like
+ they're
+ all
+ market
+ leaders
+ and
+
+
+they're
+ all
+ like
+ born
+ out
+ of
+ Europe.
+
+
+It's
+ not
+ it's
+ not
+ impossible
+ but
+ I
+ think
+
+
+those
+ companies
+ wouldn't
+ be
+ as
+ big
+ as
+
+
+they
+ are
+ if
+ they
+ didn't
+ have
+ US
+
+
+customers
+ and
+ you
+ know
+ increasingly
+ they
+
+
+have
+ Asian
+ customers
+ also
+ because
+ like
+
+
+for example
+ Korea
+ and
+ Japan
+ are
+ really
+
+
+leaning
+ into
+ AI.
+ The
+ challenge
+ is
+ like
+
+
+the
+ the
+ the
+ just
+ the
+ gap
+ between
+
+
+Frontier
+ and
+ not
+ is
+ just
+ so
+ big
+ um
+ and
+
+
+just
+ keeps
+ getting
+ bigger
+ and
+ bigger.
+ I
+
+
+don't
+ know if
+ these
+ estimates
+ are
+ really
+
+
+like
+ important
+ or
+ not,
+ but
+ like
+ even
+ if
+
+
+you
+ conceptualize
+ like
+ starting
+ a
+ new
+
+
+lab
+ from
+ scratch
+ uh
+ to
+ try
+ to
+ catch
+ up
+
+
+with
+ openthropic,
+ you'd
+ probably
+ be
+
+
+spending
+ like
+ a
+ trillion
+ dollars.
+ I
+
+
+think
+ it's
+ kind
+ of
+ telling
+ that
+ even
+
+
+Mistral
+ is
+ like
+ moving
+ more
+ towards
+
+
+being
+ an
+ inference
+ provider
+ and
+ a
+ cloud
+
+
+company
+ than
+ it
+ is
+ really
+ like
+ pushing
+
+
+frontier
+ models.
+ Although
+ of
+ course
+ it
+
+
+has
+ released
+ new
+ models
+ and
+ like
+ they're
+
+
+kind
+ of
+ good
+ but
+ they're
+ still
+ behind
+
+
+China.
+ So
+ you
+ know
+ whether
+ it's
+ them
+ or
+
+
+other
+ model
+ companies
+ that
+ have
+ built
+ up
+
+
+GPU
+ capacity
+
+
+uh
+ to
+ try
+ to
+ build
+ frontier
+ models
+ or
+
+
+kind
+ of
+ going
+ out
+ of
+ the
+ race
+ and
+
+
+serving
+ inference
+ that
+ sort
+ of
+ figured
+
+
+out
+ you
+ can
+ approximate
+ this
+ this
+ move
+
+
+of
+ uh
+ of
+ what's
+ happening
+ which
+ is
+ to
+
+
+say
+ you
+ either
+ like
+ die
+ trying
+ to
+ get
+ to
+
+
+the
+ frontier
+ or
+ you
+ just
+ live
+ long
+
+
+enough
+ to
+ eventually
+ serve
+ inference
+ and
+
+
+you
+ can
+ see
+ this
+ with
+ Neolabs
+ with
+ Neo
+
+
+clouds
+ with
+ inference
+ clouds
+ etc.
+ It's
+
+
+like
+ everybody
+ wants
+ to
+ get
+ into
+ token
+
+
+flow
+ because
+ absent
+ you
+ having
+ the
+ model
+
+
+that
+ is
+ the
+ best
+ like
+ might
+ as
+ well
+
+
+serve
+ other
+ people's
+ models.
+ Um,
+ so
+ I
+
+
+think
+ to
+ get
+ back
+ to
+ the
+ Europe
+ topic,
+
+
+like
+ that's
+ probably
+ the
+ angle
+ that
+
+
+would
+ be
+ most
+ competitive
+ because
+ um,
+
+
+countries
+ are
+ going
+ to
+ need
+ to
+ ensure
+
+
+accession
+ or
+ access
+ to
+ uh,
+ US
+ frontier
+
+
+systems
+ and
+ they're
+ going
+ to
+ need
+ to
+
+
+have
+ some
+ kind
+ of
+ strategic
+ leverage
+ to
+
+
+bring
+ to
+ the
+ table
+ uh,
+ to
+ prevent
+
+
+situations
+ like
+ what
+ happened
+ in
+ June
+
+
+with
+ the
+ like
+ basic
+ export
+ control
+
+
+blocking
+ of
+ of
+ Fable
+ and
+ Mythos
+ models
+
+
+from
+ Anthropic
+ to
+ uh
+ you
+ know
+ non-
+ US
+
+
+nationals
+ or
+ non-
+ US
+ uh
+ uh
+ entities
+
+
+which
+ you
+ know
+ having
+ been
+ in
+ London
+ at
+
+
+the
+ time
+ like
+ people
+ did
+ like
+ voice
+ a
+
+
+lot
+ of
+ issues
+ about
+ and
+ uh
+ and
+ so
+ like
+
+
+okay
+ I
+ don't
+ want
+ that
+ to
+ happen
+ again
+
+
+but
+ what
+ can
+ I
+ do
+ to
+ maintain
+ strategic
+
+
+leverage
+ so
+ the
+ UK
+ believes
+ we
+ should
+ be
+
+
+investing
+ and
+ procuring
+ inference
+ chips
+
+
+because
+ if
+ we
+ come
+ up
+ with
+ like
+ the
+ best
+
+
+inference
+ chip
+ um
+ it'll
+ be
+ a
+ strategic
+
+
+advantage
+ for
+ labs
+ to
+ use
+ it
+ um
+ for
+ cost
+
+
+reasons
+ and
+ and
+ other
+ things
+ and
+ with
+
+
+that
+ I
+ can
+ barter
+ for
+ access
+ to
+ frontier
+
+
+uh
+ US
+ technology.
+
+
+>> So
+ Europe
+ would
+ become
+ an
+ inference
+
+
+center
+ and
+ because
+ of
+ access
+ to
+ cheaper
+
+
+electricity
+ in
+ certain
+ parts
+ not
+ the
+ UK
+
+
+but
+ as
+ we
+ discussed
+ then
+ just
+ to
+ play
+
+
+back
+ what
+ you
+ said
+ uh
+ the
+ US
+ frontier
+
+
+labs
+ would
+ be
+ would
+ want
+ to
+ run
+ in
+
+
+France
+ and
+ Europe.
+
+
+>> Yeah.
+ Yeah.
+ You
+ can
+ enforce
+ uh
+ data
+
+
+residency
+ requirements.
+
+
+>> Yeah.
+ And
+ the
+ the
+ UK
+ chips
+ thing,
+ what
+
+
+is
+ that
+ exactly?
+ Like
+ I
+ heard
+ that
+
+
+several
+ times.
+ Is
+ that
+ something
+ that
+
+
+people
+ are
+ thinking
+ about
+ or
+ is
+ it
+ an
+
+
+actual
+ policy?
+ And
+ if
+ so,
+ how
+ does
+ that
+
+
+manifest?
+
+
+>> Yeah.
+ Yeah,
+ it
+ it
+ is
+ it
+ is
+ a
+ policy
+ in
+
+
+so
+ far
+ as
+ like
+ the
+ UK's
+ AI
+ minister
+
+
+who's
+ who's
+ generally
+ I
+ think
+ a
+ a
+ really
+
+
+good
+ individual
+ to
+ be
+ leading
+ this
+
+
+because
+ he's
+ clearly
+ like
+ plugged
+ into
+
+
+plugged
+ into
+ the
+ mix
+ and
+ understands
+ the
+
+
+raw
+ ingredients
+ that
+ go
+ into
+ making
+ AI
+
+
+successful,
+ which
+ is
+ like
+ compute,
+
+
+talent,
+ and
+ data.
+ And
+ so
+ he
+ has
+ a
+ he
+ has
+
+
+a
+ mandate
+ uh
+ to
+ um
+ be
+ a
+ buyer
+ of
+ first
+
+
+resort
+ or
+ new
+ inference
+ uh
+ chips
+ and
+ has
+
+
+committed
+ I
+ think
+ 100
+ or
+ 150
+ million
+
+
+pounds
+ something
+ along
+ that
+ that
+ angle
+
+
+to
+ uh
+ to
+ procure
+ infant
+ chips
+ when
+ they
+
+
+are
+ available
+ from
+ new
+ UK
+ companies
+ that
+
+
+are
+ designing
+ these
+ systems.
+ You
+ can
+ see
+
+
+this
+ also
+ in
+ South
+ Korea
+ where
+ they
+ have
+
+
+a
+ similarish
+ mandate
+ but
+ it's
+ actually
+
+
+much
+ more
+ ambitious
+ where
+ every
+ year
+
+
+they're
+ spending
+ about
+ seven
+ billion
+
+
+dollars
+ on
+ AI
+ and
+ a
+ large
+ part
+ of
+ that
+
+
+is
+ going
+ towards
+ building
+ modular
+
+
+inference
+ data
+ centers
+ because
+ generally
+
+
+Korean
+ companies
+ want
+ to
+ have
+ Korean
+
+
+data
+ residency.
+ So
+ I
+ think
+ it's
+ actually
+
+
+a
+ pretty
+ interesting
+ quid
+ proco
+ where
+
+
+it's
+ it's
+ a
+ captive
+ market
+ a
+ small
+
+
+country
+ but
+ it's
+ a
+ wealthy
+ country
+
+
+that's
+ very
+ technologically
+ savvy
+ and
+
+
+has
+ an
+ important
+ role
+ in
+ the
+ overall
+ AI
+
+
+supply
+ chain
+ with
+ memory
+ and
+ so
+
+
+international
+ companies
+ want
+ to
+ at
+ some
+
+
+point
+ in
+ their
+ life
+ like
+ be
+ in
+ the
+
+
+Korean
+ market.
+ Same
+ with
+ Japan
+ but
+
+
+getting
+ in
+ there
+ is
+ difficult.
+ Korean
+
+
+data
+ residency
+ Korean
+ language.
+ So
+ it's
+
+
+like
+ okay
+ cool
+ like
+ you
+ want
+ data
+
+
+residency
+ but
+ now
+ we
+ offer
+ you
+ the
+ data
+
+
+center
+ uh
+ to
+ go
+ run
+ your
+ technology
+ in
+
+
+um
+ and
+ we
+ can
+ profit
+ from
+ that
+ because
+
+
+it's
+ our
+ local
+ companies
+ that
+ provide
+
+
+that
+ that
+ service.
+ So,
+ so
+ you're
+ not
+ a
+
+
+huge
+ uh
+ fan
+ or
+ or
+ you
+ don't
+ have
+ a
+ lot
+
+
+of
+ hope
+ for
+ the
+ whole
+ concept
+ of
+
+
+sovereign
+ AI
+ which
+ is
+ you
+ know
+ I'm
+
+
+asking
+ the
+ question
+ at
+ the
+ time
+ when
+ uh
+
+
+Jensen
+ just
+ uh
+ did
+ a
+ charm
+ offensive
+ and
+
+
+investing
+ offensive
+ across
+ Europe
+ he
+ was
+
+
+in
+ Paris
+ he
+ was
+ in
+ London
+ he
+ was
+ in
+
+
+Berlin
+ for
+ GTC
+ just
+ uh
+ yesterday
+ or
+ a
+
+
+couple
+ days
+ ago
+ but
+ from
+ your
+
+
+perspective
+ that's
+ uh
+ that's
+ that
+
+
+doesn't
+ have
+ teeth
+
+
+>> I
+ just
+ uh
+ it's
+ it's
+ a
+ bit
+ like
+ national
+
+
+airlines.
+ The
+ countries
+ will
+ buy
+ planes
+
+
+from
+ Airbus
+ and
+ Boeing
+ and
+ then
+ slap
+
+
+their
+ logo
+ on
+ it.
+ That
+ doesn't
+ make
+ it
+
+
+like
+ yours.
+ It's
+ still
+ someone
+ else's
+
+
+airplane,
+ you
+ know.
+ So,
+ but
+ open
+ source
+
+
+uh
+ could
+ be
+ if
+ you
+ believe
+ that
+ open
+
+
+source
+ is
+ going
+ to
+ remain
+ uh
+ you
+ know
+
+
+within
+ reasonable
+ uh
+ earshot
+ of
+ uh
+
+
+closed
+ source
+ models.
+ Maybe
+ there's
+ hope
+
+
+there.
+
+
+>> Yeah.
+ But
+ then
+ they're
+ Chinese.
+ So
+ you
+
+
+have
+ another
+ you
+ have
+ another
+
+
+>> it
+ could
+ be
+ American
+ sort
+ of
+ a
+
+
+reflection
+
+
+>> but
+ they're
+ not
+ Frontier
+ like
+ none
+ of
+
+
+the
+ US
+ like
+ open
+ ones
+ as
+ far
+ I
+ can
+ tell
+
+
+are
+ Frontier
+ and
+ the
+ ones
+ that
+ have
+ all
+
+
+tried
+ end
+ up
+ working
+ for
+ Jensen.
+
+
+>> Okay.
+
+
+>> So
+ I
+ think
+ I
+ think
+ his
+ strategy
+ is
+
+
+great.
+ Like
+ I
+ think
+ I
+ think
+ I
+ think
+
+
+different
+ things
+ like
+ do do
+ I
+ do
+ I
+
+
+believe
+ that
+ like
+ buying
+ Nvidia
+ GPUs
+
+
+gets
+ you
+ sovereignty
+ like
+ no.
+ Do
+ I
+ think
+
+
+it's
+ a
+ good
+ commercial
+ strategy
+ for
+
+
+Nvidia?
+ Absolutely.
+ Um
+
+
+>> yeah,
+ they
+ sold
+ uh
+ 30
+ plus
+ billion.
+
+
+>> Yeah,
+ something
+ like
+ that.
+ Yeah.
+ And
+ if
+
+
+you
+ look
+ at
+ the
+ national
+ bids
+ um
+ of
+
+
+which
+ like
+ globally
+ there's
+ roughly
+ like
+
+
+138
+ billion
+ in
+ sovereign
+ AI
+ committed
+
+
+over
+ the
+ next
+ couple
+ of
+ years
+ and
+ you
+
+
+look
+ at
+ the
+ most
+ popular
+ vendors
+ amongst
+
+
+all
+ of
+ these
+ like
+ it's
+ it's
+ by
+ far
+
+
+Nvidia.
+ I
+ don't
+ I
+ don't
+ think
+ there's
+
+
+much
+ of
+ an
+ alternative.
+ Uh
+ I
+ think
+ it's
+
+
+it's
+ a
+ good
+ it's
+ a
+ good
+ start
+ and
+ you
+
+
+and
+ you
+ need
+ to
+ do
+ it
+ because
+ it
+ is
+ the
+
+
+best
+ technology
+ but
+ I
+ don't
+ think
+ one
+
+
+should
+ kid
+ themselves
+ that
+ doing
+ so
+ gets
+
+
+you
+ sovereignty.
+
+
+>> But
+ still
+ in
+ the
+ vein
+ of
+ a
+ of of
+ your
+
+
+recap
+ uh
+ a
+ big
+ moment
+ this
+ year
+ was
+ uh
+
+
+when
+ the
+ US
+ government
+ decided
+ to
+ deny
+
+
+access
+ to
+ Frontier
+ model
+ to
+ non
+ US
+
+
+nationals.
+ So
+ do
+ do
+ non
+ US
+ uh
+ countries
+
+
+and
+ companies
+ have
+ any
+ choice
+ but
+ at
+
+
+least
+ to
+ try?
+ Again,
+ I'm
+ in
+ like
+ a
+ few
+
+
+different
+ minds
+ about
+ this.
+ Uh,
+ one,
+ I
+
+
+think
+ it's
+ like
+ worth
+ trying,
+ but
+ do
+ I
+
+
+think
+ it's
+ realistic?
+
+
+Um,
+ so
+ I
+ I
+ think
+ I
+ think
+ it's
+ I
+ think
+
+
+it's
+ important
+ um
+ to
+ if
+ you
+ are
+ going
+ to
+
+
+try
+ that
+ they
+ should
+ that
+ countries
+
+
+should
+ try
+ to
+ launch
+ systems
+ which
+ are
+
+
+going
+ to
+ do
+ the
+ white
+ collar
+ work.
+ Like
+
+
+I
+ think
+ in
+ the
+ UK
+ we
+ still
+ we
+ have
+ like
+
+
+a
+ lot
+ of
+ capabilities
+ to
+ go
+ do
+ this
+ um
+
+
+to
+ try
+ to
+ build
+ like
+ an
+ openthropic
+
+
+competitor
+ or
+ like
+ deep
+ mind
+ compet
+ or
+ a
+
+
+deep
+ mind
+ or
+ deepseek
+ or
+ whatever.
+ But
+
+
+actually
+ if
+ you
+ look
+ at
+ the
+
+
+>> it's
+ actually
+ an
+ interesting
+ uh
+ fruit
+
+
+and
+ slip
+ or
+ whatever.
+ Right.
+ Because
+ the
+
+
+irony
+ of
+ all
+ of
+ this
+ is
+ that
+ Deep
+ Mind
+
+
+is
+ a
+ UK
+ company.
+
+
+>> Yeah,
+ you're
+ right.
+ Yeah
+ right.
+ And
+ I
+
+
+think
+ part
+ of
+ the
+ problem
+ with
+ actually
+
+
+like
+ the
+ UK
+ AI
+ ecosystem
+
+
+um
+ and
+ its
+ its
+ success
+ in
+ actually
+
+
+leading
+ the
+ world
+ is
+ that
+ for
+ too
+ long
+
+
+the
+ UK
+ government
+ kept
+ saying
+ that
+ Deep
+
+
+Mind
+ is
+ a
+ British
+ company
+ and
+ I
+ think
+
+
+it's
+ only
+ started
+ to
+ unwind
+ that
+ like
+
+
+very
+ very
+ recently.
+
+
+>> And
+ why
+ why
+ is
+ that
+ a
+ problem?
+
+
+>> Well,
+ it's
+ it's
+ a
+ problem
+ because
+ then
+
+
+it
+ believes
+ that
+ it's
+ already
+ number
+
+
+one.
+ Like
+ the
+ UK
+ is
+ the
+ best
+ place
+ to
+ do
+
+
+AI
+ and
+ we
+ are
+ the
+ best
+ at
+ AI
+ because
+ we
+
+
+have
+ deep
+ mind
+
+
+>> so
+ therefore
+ we
+ don't
+
+
+>> the
+ attitude
+ behind
+ the
+ claim
+ which
+ is
+ a
+
+
+problem.
+
+
+>> Yeah.
+ Yeah,
+ because
+ then
+ in
+ like
+ you
+
+
+know
+ in
+ policy
+ rooms
+ then
+ you
+ know
+
+
+individuals
+ who
+ are
+ advocating
+ for
+ more
+
+
+investment
+ in
+ AI
+ or
+ we
+ need
+ more
+ u
+ you
+
+
+know
+ we
+ need
+ to
+ procure
+ more
+ systems
+
+
+from
+ AI
+ companies
+ or
+ we
+ need
+ to
+ make
+ our
+
+
+country
+ more
+ appealing
+ for
+ AI
+ companies
+
+
+to
+ start
+ get
+ answered
+ with
+ like
+ but
+ we
+
+
+have
+ deep
+
+
+>> mind
+ right
+
+
+>> you
+ know
+
+
+>> right
+
+
+>> um
+
+
+>> what
+ about
+ defense
+ AI
+ you're
+ you're
+ an
+
+
+investor
+ in
+ defense
+ companies
+ I
+ mean
+
+
+that
+ that
+ feels
+ like
+ an
+ area
+ where
+ uh
+
+
+the
+ need
+ for
+ sovereign
+ AI
+ since
+
+
+obviously
+ the
+ warfare
+ of
+ the
+ future
+ is
+
+
+going
+ to
+ be
+ very
+ driven
+ by
+ AI.
+ That
+
+
+feels
+ like
+ a
+ place
+ where
+
+
+>> Yeah.
+ Yeah.
+ I
+ think
+ it's
+ Yeah.
+ Yeah.
+ So,
+
+
+yeah.
+ So,
+ that
+ that
+ that
+ push
+ really
+
+
+started
+ uh
+ I
+ mean
+ obviously
+ like
+ post
+
+
+like
+ the
+ Ukraine
+ war
+ like
+ almost
+ 5
+ years
+
+
+ago
+ at
+ this
+ point
+ but
+ but
+ more
+
+
+importantly
+ I
+ think
+ it
+ was
+ like
+ two
+
+
+years
+ ago
+ when
+ uh
+ when
+ JD
+ Vance
+ went
+ to
+
+
+the
+ Munich
+ Security
+ Conference
+ and
+
+
+effectively
+ said
+ like
+ you
+ need
+ to
+ invest
+
+
+in
+ your
+ own
+ defense
+ and
+ get
+ serious
+
+
+about
+ this.
+ You
+ being
+ uh
+ you
+ know
+ NATO
+
+
+and
+ Europe.
+ Um
+ and
+ so
+ ever
+ since
+ then
+
+
+there's
+ been
+ you
+ know
+ a
+ variety
+ of
+
+
+different
+ initiatives
+ to
+ uh
+ give
+ more
+
+
+capital
+ to
+ new
+ defense
+ companies
+ to
+
+
+encourage
+ governments
+ to
+ be
+ providing
+
+
+loans
+ to
+ businesses
+ to
+ improve
+ their
+
+
+supply
+ chain.
+ Um
+ and
+ that's
+ you
+ know
+
+
+created
+ a
+ a
+ set
+ of
+ like
+ neopimes
+ I
+ like
+
+
+new
+ defense
+ companies
+ that
+ are
+ trying
+ to
+
+
+compete
+ with
+ prime
+ contractors.
+ Uh
+ so
+
+
+companies
+ like
+ Stark
+ or
+ Heling
+ um
+ being
+
+
+quantum
+ systems
+ being
+ like
+ the
+ the
+ main
+
+
+ones
+ in
+ Europe
+ and
+ then
+ uh
+ you
+ know
+ as
+
+
+like
+ warfare
+ has
+ changed
+ like
+ it's
+ gone
+
+
+from
+ uh
+ I
+ don't
+ know
+ you
+ know
+ developing
+
+
+strike
+ systems
+ over
+ the
+ over
+ sort
+ of
+
+
+mid-range
+ to
+ you
+ know
+ hit
+ tank
+ uh
+ you
+
+
+know
+ battalions
+ to
+ now
+ being
+ like
+ we're
+
+
+getting
+ pummeled
+ like
+ every
+ day
+ with
+
+
+hundreds
+ and
+ hundreds
+ of
+ FPV
+ drones
+ or
+
+
+various
+ other
+ kinds
+ of
+ aerial
+ systems
+
+
+that
+ are
+ autonomous
+ and
+ you
+ know
+ now
+ can
+
+
+no
+ longer
+ be
+ stopped
+ with
+ jamming
+
+
+because
+ they
+ use
+ computer
+ vision
+ or
+
+
+they're
+ guided
+ by
+ these
+ like
+ um
+ fiber
+
+
+optic
+ cables
+ which
+ by
+ the
+ way
+ have
+
+
+gotten
+ much
+ more
+ expensive
+ because
+ of
+
+
+data
+ centers
+ and
+ so
+ we
+ need
+ more
+ uh
+ you
+
+
+know
+ novel
+ like
+ air
+ defense
+ systems
+ and
+
+
+so
+ that's
+ where
+ companies
+ like
+ Altar
+ in
+
+
+France
+ um
+ and
+ others
+ have
+ really
+ been
+
+
+pushing
+
+
+um
+ and
+ uh
+ and
+ as
+ you
+ said
+ like
+ the
+
+
+supply
+ chain
+ is
+ super
+ important
+ because
+
+
+for example
+ like
+ you
+ know
+ NATO
+ wouldn't
+
+
+procure
+ uh
+ systems
+ in
+ in
+ Europe
+ that
+
+
+don't
+ have
+ at
+ least
+ 70%
+ kind
+ of
+ the
+
+
+parts
+ from
+ uh
+ from
+ you
+ know
+ non-China
+
+
+basically
+ um
+ and
+ uh
+ and
+ and
+ countries
+
+
+are
+ really
+ queasy
+ about
+ taking
+ US
+ um
+
+
+protection
+ or
+ US
+ guarantees
+ at
+ face
+
+
+value
+ because
+ they're
+ shifting
+ on
+ a
+
+
+weekly
+ basis.
+
+
+So,
+ so
+ yeah,
+ I
+ think
+ that's
+ an
+ example
+
+
+of
+ a
+ market
+ which
+ is
+ sort
+ of
+ has
+ to
+ be
+
+
+domestic
+ by
+ by
+ design
+ and
+ can
+ breed
+ new
+
+
+companies
+ that
+ are
+ much
+ more
+ competitive
+
+
+than
+ their
+ US
+ peers.
+
+
+>> So
+ then
+ if
+ Frontier
+ AI
+ cannot
+ be
+ built
+
+
+outside
+ of
+ the
+ US,
+ then
+ let's
+ let's
+ go
+
+
+back
+ to
+ the
+ US.
+ a
+ part
+ of
+ your
+ report
+ on
+
+
+on
+ research
+ effectively
+ calls
+ entropic
+
+
+open
+ and
+ Google
+ as
+ as
+ as
+ winners
+ as
+ like
+
+
+the
+ definite
+ winners
+ which
+ obviously
+ uh
+
+
+you
+ know
+ has
+ been
+ uh
+ years
+ in
+ the
+ making
+
+
+but
+ uh
+ there
+ was
+ a
+ moment
+ where
+ it
+ felt
+
+
+like
+ there
+ was
+ a
+ plurality
+ of
+ labs
+
+
+effectively
+ what
+ you're
+ saying
+ is
+ that
+
+
+no
+ like
+ those
+ three
+ are
+ the
+ the
+ the
+
+
+winners
+
+
+>> and
+ does
+ that
+ include
+ uh
+ I
+ guess
+ nobody
+
+
+knows
+ what
+ they
+ actually
+ do
+ but
+ like
+ SSI
+
+
+and
+ thinking
+ machines
+ and
+ like
+ there
+
+
+seems
+ to
+ be
+ like
+ hundreds
+ of
+ neolabs
+
+
+>> yeah
+ yeah
+ maybe
+ meta
+ on
+ margin.
+
+
+>> Yes,
+
+
+>> super
+ intelligent
+ lab.
+
+
+>> Yeah,
+ especially
+ as
+ now
+ they're
+ pushing
+
+
+towards
+ like
+ serving
+ their
+ models
+
+
+through
+ API
+ but
+ also
+ having
+ an
+
+
+enterprise
+ business.
+
+
+>> Um,
+ so
+ that
+ one,
+ you
+ know,
+ that
+ might
+
+
+change
+ over
+ the
+ next
+ like
+ 6
+ to
+ 12
+ months
+
+
+depending
+ on
+ how
+ their
+ go
+ to
+ market
+
+
+works.
+ But
+ yeah,
+ I
+ would
+ say
+ it's
+
+
+probably
+ those
+ three
+ plus
+ meta.
+
+
+>> So
+ your
+ view
+ is
+ that
+ the
+ the
+ advantage
+
+
+is
+ going
+ to
+ keep
+ compounding
+ and
+ uh
+
+
+that's
+ going
+ to
+ be
+ the
+ state
+ of
+ the
+
+
+market
+ versus
+
+
+>> I
+ think
+ so
+ for
+ like
+ the
+ general
+ purpose
+
+
+frontier.
+ Now
+ there's
+ there's
+ like
+ uh
+
+
+examples
+ of
+ perhaps
+ like
+ a
+ really
+
+
+focused
+ uh
+ uh
+ bet
+ on
+ a
+ on
+ a
+ particular
+
+
+capability
+ which
+ has
+ like
+ where
+ you
+ can
+
+
+make
+ certain
+ trade-offs
+ to
+ the
+ model
+ in
+
+
+order
+ to
+ get
+ much
+ better
+ performance
+ at
+
+
+a
+ task
+ like
+ I'm
+ referring
+ to
+ for
+ example
+
+
+these
+ classification
+ models
+ effectively
+
+
+uh
+ like
+ Jev
+ which
+ can
+ grow
+ really
+ really
+
+
+quickly
+ and
+ become
+ popular
+ again
+ TBD
+ how
+
+
+long
+ it
+ lasts
+ but
+ I
+ think
+ it's
+ I
+ think
+
+
+it's
+ an
+ encouraging
+ sign
+ for
+
+
+entrepreneurs
+ that
+ shows
+ that
+ you
+ know
+
+
+you
+ can
+ take
+ a
+ focus
+ features
+ bet
+ and
+ it
+
+
+can
+ pay
+ off
+ but
+ over
+ time.
+ It's
+ again
+
+
+like
+ TBD
+ if
+ there
+ are
+ like
+ these
+ kind
+ of
+
+
+gaps
+ and
+ capabilities
+ that
+ are
+
+
+sufficiently
+ exploitable.
+
+
+>> So
+ what
+ do
+ you
+ think
+ happens
+ to
+ the
+
+
+dozens
+ of
+ Neolabs?
+ Uh
+ I
+ mean
+ not not
+ to
+
+
+keep
+ talking
+ about
+ Europe
+ but
+ like
+ just
+
+
+in
+ London
+ there's
+ three
+ of
+ them
+ right
+
+
+there
+ like
+ the
+ David
+ Silver
+ thing
+ and
+
+
+like
+ another
+ two
+ the
+ you
+ know
+ in
+ the
+ US
+
+
+every
+ few
+ weeks
+ uh
+ there's
+ one
+ you
+ know
+
+
+Jeff
+ Dean's
+ new
+ lab
+ and
+ so
+ on
+ and
+ so
+
+
+forth.
+ So
+ what
+ happens
+ to
+ those?
+
+
+>> Well
+ I
+ think
+ it
+ depends
+ on
+ the
+ their
+
+
+kind
+ of
+ focus
+ and
+ modality.
+ Like
+ for
+
+
+example
+ um
+ on
+ on
+ robotics
+ on
+ embodied
+ AI
+
+
+I
+ think
+ you
+ can
+ I
+ I
+ can
+ see
+ how
+ an
+
+
+independent
+ lab
+ would
+ still
+ have
+ a
+
+
+chance
+ of
+ competing
+ and
+ winning
+ like
+
+
+because
+ of
+ the
+ immense
+ focus
+ on
+ uh
+ you
+
+
+know
+ enterprise
+ AI
+ basically
+ that
+ open
+
+
+AAI
+ and
+ anthropic
+ has
+ like
+ I
+ have a
+
+
+slide
+ in
+ the
+ report
+ where
+ I
+ basically
+
+
+just
+ like
+ show
+ all
+ the
+ different
+ product
+
+
+lines
+ that
+ open
+ anthropic
+ had
+ admittedly
+
+
+open
+ AI
+ had
+ lots
+ and
+ how
+ they
+
+
+progressively
+ just
+ cut
+ all
+ of
+ them
+ and
+
+
+there
+ was
+ a
+ quote
+ like
+ you
+ know
+ this
+ uh
+
+
+this
+ moment
+ is
+ like
+ too
+ important
+ to
+ be
+
+
+distracted
+ by
+ side
+ quests
+ or
+ some
+
+
+version
+ of
+ that.
+ I'm
+ paraphrasing
+ which
+
+
+meant
+ that
+ they
+ broadly
+ don't
+ do
+
+
+dedicated
+ robotics,
+ although
+ maybe
+
+
+there's
+ some
+ of
+ that
+ kind
+ of
+ data
+ in
+ in
+
+
+the
+ Astro
+ training
+ recipe.
+ Science
+ is
+ a
+
+
+little
+ bit
+ unclear
+ like
+ anthropic
+ is
+
+
+clearly
+ leaning
+ a
+ lot
+ into
+ biology
+ and
+
+
+drug
+ discovery.
+ Open
+ AI
+ maybe
+ more
+ on
+
+
+the
+ model
+ side,
+ less
+ on
+ like
+ we
+ want
+ to
+
+
+own
+ more
+ of
+ the
+ stack.
+ there's
+ like
+ kind
+
+
+of
+ related
+ to
+ embodied
+ AI
+ this
+ whole
+
+
+like
+ category
+ of
+ world
+ models
+ whether
+
+
+that's
+ you
+ know
+ a
+ video
+ model
+ with
+ some
+
+
+action
+ in
+ it
+ or
+ like
+ some
+ other
+
+
+definition
+ of
+ world
+ model
+ but
+ um
+ but
+ in
+
+
+general
+ like
+ anthropic
+ doesn't
+ really
+ do
+
+
+any
+ of
+ that
+ or
+ at least
+ like
+ from
+ what
+
+
+we
+ can
+ see
+ publicly
+ I
+ mean
+ they
+ don't
+
+
+even
+ have
+ an
+ image
+ generation
+ model
+ for
+
+
+example
+ I
+ think
+ audio
+ pretty
+ clearly
+
+
+labs
+ do
+ have
+ some
+ of
+ those
+ capabilities
+
+
+but
+ uh
+ you
+ know
+ if
+ 11
+ labs
+ can
+ like
+ keep
+
+
+accelerating
+ the
+ way
+ it
+ does
+ then
+
+
+clearly
+ there's
+ there's
+ a
+ need
+ for
+ a
+
+
+dedicated
+ capability
+ I
+ think
+ those
+ are
+
+
+probably
+ the
+ areas
+ where
+ I
+ can
+ see
+ an
+
+
+independent
+ lab
+ like
+ working
+ out,
+ but
+
+
+but
+ ones
+ that
+ broadly
+ say
+ we're
+ going
+ to
+
+
+do
+ frontier
+ intelligence
+ for
+ knowledge
+
+
+work,
+ but
+ just
+ like
+ make
+ it
+ better,
+
+
+faster,
+ cheaper.
+ I
+ think
+ that's
+ tough.
+ I
+
+
+think
+ for
+ me,
+ like
+ I
+ I'll
+ believe
+ it
+
+
+when
+ I
+ see
+ it.
+ Um
+ but
+ but
+ yeah,
+ this
+
+
+idea
+ of
+ like
+ you
+ open
+ your
+ computer,
+ the
+
+
+app
+ looks
+ exactly
+ the
+ same,
+ but
+ it's
+
+
+just
+ better.
+ I
+ I
+ don't
+ know
+ if
+ that
+
+
+>> And
+ in
+ world
+ model
+ labs,
+ are
+ you
+ seeing
+
+
+anything
+ exciting?
+ I
+ mean
+ know
+ obviously
+
+
+FA
+ Lee's
+ lab
+ was
+
+
+>> acquired
+ for
+ a
+ lot
+ of
+ money
+ and
+ that's
+
+
+unclear
+ what
+ happens
+ from
+ there
+ given
+
+
+that
+ the
+ buyer
+ is
+ AMD
+ I
+ guess
+ Khan
+
+
+started
+ his
+ company
+ AMI
+ in
+ Paris
+ it's
+ a
+
+
+world
+
+
+>> labs
+ yeah
+ yeah
+ I
+ mean
+ I'
+ I've
+ uh
+ you
+
+
+know
+ visibility
+ to
+ Odyssey
+ where
+ was
+ an
+
+
+early
+ investor
+ like
+ doing
+ world
+ models
+
+
+and
+ I
+ think
+ the
+ the
+ interesting
+ thing
+ in
+
+
+that
+ business
+ is
+ like
+ their
+ most
+ latest
+
+
+their
+ latest
+ systems
+ like
+ Odyssey
+ 3
+ and
+
+
+there
+ you
+ can
+ see
+ uh
+ that
+ uh
+ autograph
+
+
+aggressive
+ model
+ uh
+ trained
+ to
+ basically
+
+
+take
+ all
+ this
+ video
+ data
+ um
+ and
+ then
+
+
+have
+ it
+ conditioned
+ on
+ actions
+ such
+ that
+
+
+you
+ know
+ that
+ okay
+ I'm
+ taking
+ one
+ action
+
+
+and
+ then
+ I
+ generate
+ the
+ next
+ frame
+ as
+ a
+
+
+result
+ of
+ the
+ action
+ that
+ paradigm
+ uh
+
+
+applied
+ to
+ robotic
+ manipulation
+ to
+
+
+self-driving
+ to
+ like
+ video
+ games
+ to
+ like
+
+
+entertainment
+ or
+ something
+ can
+ see
+
+
+generalization
+ across
+ all
+ those
+
+
+different
+ domains
+ and
+ already
+ seeing
+
+
+that
+ model
+ being
+ used
+ for
+ robotic
+
+
+manipulation
+ training
+
+
+So
+ I
+ I
+ think
+ at
+ a
+ broad
+ level
+ I'm
+ like
+
+
+kind
+ of
+ interested
+ how
+ image,
+ audio,
+ uh
+
+
+video
+ ends
+ up
+ all
+ mushing
+ together
+ into
+
+
+basically
+ a
+ world
+ model.
+ And
+ then
+ if
+
+
+that
+ actually
+ happens,
+ then
+ that
+ could
+
+
+end
+ up
+ subsuming
+ simulation
+ and
+ game
+
+
+engines
+ and
+ uh
+ and
+ then
+ that's
+ very
+
+
+important
+ for
+ moving
+ robotics
+ into
+ the
+
+
+real
+ world,
+ but
+ also
+ designing
+ physical
+
+
+systems
+ and
+ and
+ like
+ hardware
+
+
+engineering.
+ And
+ to
+ get
+ back
+ to
+ like
+ the
+
+
+AMD
+ World
+ Labs
+ point,
+ it's
+ like
+ if
+ if
+
+
+that
+ happens,
+ then
+ the
+ compute
+ substrate
+
+
+that
+ serves
+ those
+ kinds
+ of
+ environments
+
+
+and
+ allows
+ you
+ to
+ train
+ and
+ run
+
+
+inference
+ is
+ super
+ super
+ important.
+ And
+
+
+therefore
+ having
+ knowledge
+ about
+ how
+ the
+
+
+world
+ model
+ research
+ ecosystem
+ is
+ moving
+
+
+and
+ what
+ kind
+ of
+ hardware
+ improvements
+
+
+you
+ can
+ make
+ to
+ be
+ the
+ number
+ one
+ choice
+
+
+is
+ a
+ big
+ big
+ revenue
+ pie.
+ That's
+ I
+ think
+
+
+what
+ motivated
+ part
+ well
+ part
+ of
+ the
+
+
+reason
+ that
+ AMD
+ uh
+ bought
+ World
+ Labs.
+ um
+
+
+sort
+ of
+ in
+ the
+ same
+ way
+ that
+ Nvidia
+ over
+
+
+many
+ many
+ years
+ was
+ like
+ very
+ close
+ to
+
+
+research
+ uh
+ labs
+ that
+ are
+ doing
+ shaders
+
+
+or
+ 3D
+ vision
+ or
+ other
+ things
+ and
+ you
+
+
+know
+ giving
+ compute
+ out
+ and
+ constantly
+
+
+getting
+ feedback
+ from
+ researchers
+ such
+
+
+that
+ they
+ always
+ knew
+ like
+ my
+ hardware
+
+
+is
+ the
+ best
+ for
+ where
+ the
+ where
+ the
+ kind
+
+
+of
+ frontier
+ is
+ going.
+
+
+>> There
+ seems
+ to
+ be
+ a
+ good
+ number
+ of
+ uh
+
+
+labs
+ trying
+ to
+ figure
+ out
+ ways
+ to
+ be
+
+
+more
+ efficient
+ with
+ compute.
+ So
+ from
+
+
+flapping
+ airplanes
+ which
+ I
+ don't
+ know
+
+
+much
+ about
+ uh
+ to
+ what
+ seems
+ to
+ be
+ the
+
+
+reemergence
+ of
+ like
+ diffusion
+ model
+
+
+focused
+ companies.
+
+
+>> Yeah.
+ Yeah.
+
+
+>> To
+ just
+ reduce
+ the
+ cost
+ of
+ of
+ inference
+
+
+which
+ uh
+ is
+ a
+ fascinating
+ fascinating
+
+
+thought
+ by
+ the
+ way
+ which
+ uh
+ you
+ know
+
+
+people
+ tend
+ to
+ talk
+ about
+ a
+ bunch
+ for
+ a
+
+
+minute
+ and
+ then
+ forget
+ about
+ but
+ like
+
+
+this
+ massive
+ investment
+ in
+ compute
+ that
+
+
+we
+ do
+ in
+ theory
+ seems
+ to
+ be
+ at
+ the
+ mercy
+
+
+of
+ like
+ somebody
+ coming
+ up
+ with
+ a
+ much
+
+
+more
+ efficient
+ way
+ to
+ train
+ models.
+
+
+>> Yeah.
+ Yeah.
+ Yeah,
+ I
+ mean
+ I
+ would
+ contend
+
+
+that
+ even
+ if
+ that
+ were
+ to
+ happen,
+ we
+
+
+would
+ just
+ see
+ like
+ more
+ consumption
+ and
+
+
+um
+ you
+ know
+ I'm
+ just
+ informed
+ by
+ a
+ fact
+
+
+I'm
+ on
+ my
+ laptop
+ using
+ Astro
+ High
+ on
+
+
+1.5x
+ and
+ I
+ would
+ love
+ that
+ 1.5x
+ to
+ be
+
+
+like
+ 10.5x
+
+
+>> paradox.
+ Yeah,
+ just
+ like
+ giving
+ more
+
+
+chips.
+ Yeah,
+ I'm
+ just
+ like
+ doing
+ more
+
+
+things
+ than
+ I
+ I
+ could
+ have
+ done
+ before
+
+
+with
+ the
+ same
+ amount
+ of
+ time.
+ So
+ I'm
+ not
+
+
+necessarily
+ sure
+ that
+ like
+ you
+ know
+ one
+
+
+super
+ efficient
+ system
+ will
+ sort
+ of
+ like
+
+
+pop
+ all
+ the
+ investments
+ that
+ we're
+
+
+making.
+
+
+>> In
+ your
+ report
+ you
+ talk
+ about
+ the
+
+
+important
+ intersection
+ between
+ models
+
+
+and
+ and
+ harnesses
+ which
+ uh
+ seems
+ to
+ be
+
+
+one
+ of
+ those
+ topics
+ that
+ like
+ keeps
+
+
+shifting.
+ People
+ say
+ well
+ no
+ the
+
+
+intelligence
+ is
+ all
+ in
+ the
+ model
+ and
+
+
+then
+ other
+ people
+ say
+ no
+ it's
+ all
+ in
+ the
+
+
+harness
+ and
+ that
+ seems
+ to
+ be
+ going
+ back
+
+
+and
+ forth.
+ What's
+ your
+ take?
+ I
+ think
+ my
+
+
+broad
+ take
+ is
+ like
+ it's
+ a
+ bit
+ like
+ uh
+
+
+when
+ you're
+ injured
+ and
+ you
+ have
+
+
+crutches,
+ you
+ need
+ to
+ have
+ assistance
+
+
+and
+ then
+ at
+ some
+ point
+ you
+ heal
+ and
+ you
+
+
+don't
+ need
+ the
+ assistance
+ anymore.
+ In
+
+
+absence
+ of
+ having
+ like
+ a
+ frontier
+ model
+
+
+like
+ you
+ need
+ to
+ give
+ it
+ crutches
+ and
+
+
+those
+ crutches
+ can
+ be
+ like
+ access
+ to
+
+
+tools
+ like
+ how
+ it
+ handles
+ memory,
+ what
+
+
+data
+ sources
+ it
+ has
+ access
+ to
+ and
+ then
+
+
+maybe
+ some
+ recipes
+ uh
+ in
+ order
+ to
+
+
+accomplish
+ a
+ specific
+ task.
+ And
+ I
+ I
+
+
+think
+ for
+ the
+ moment
+ like
+ at
+ the
+
+
+non-frontier
+ that
+ that'll
+ hold.
+ But
+ I'll
+
+
+take
+ the
+ word
+ for
+ I'll
+ take
+ the
+ sort
+ of
+
+
+frontier
+ lab
+ folks
+ word
+ for
+ it
+ that
+ you
+
+
+know
+ over
+ time
+ one
+ should
+ assume
+ that
+
+
+all
+ these
+ crutches
+ kind
+ of
+ get
+ subsumed
+
+
+into
+ the
+ model
+ through
+ training
+ or
+
+
+through
+ the
+ harness
+ that
+ the
+ model
+
+
+vendor
+ provides.
+ I
+ think
+ there's
+ there's
+
+
+a
+ data
+ point
+ around
+ um
+ how
+ much
+ of
+ the
+
+
+clawed
+ code
+ system
+ prompt
+ was
+ rewritten
+
+
+uh
+ over
+ time
+ as
+ the
+ model
+ itself
+ got
+
+
+better
+ and
+ it's
+ something
+ like
+ 80%
+ of
+
+
+the
+ system
+ prompt
+ was
+ just
+ removed.
+ The
+
+
+harness
+ is
+ also
+ important
+ because
+
+
+um
+ the
+ one
+ that's
+ shipped
+ by
+ open
+ a
+
+
+anthropic
+ is
+ kind
+ of
+ like
+ not
+
+
+incentivized
+ to
+ make
+ you
+ use
+ a
+ less
+
+
+powerful
+ model.
+ Like
+ just
+ in
+ the
+ UI
+ and
+
+
+the
+ and
+ the
+ product
+ like
+ if
+ I'm
+ doing
+ a
+
+
+legal
+ task
+ and
+ I
+ have
+ the
+ $200
+ plan
+ and
+
+
+I
+ have
+ the
+ tokens
+ like
+ I
+ want
+ the
+
+
+quality
+ to
+ be
+ super
+ good.
+ So
+ why
+ would
+ I
+
+
+risk
+ the
+ quality
+ being
+ like
+ not
+ super
+
+
+good
+ by
+ sliding
+ it
+ from
+ high
+ to
+ low
+ or
+
+
+by
+ trying
+ it
+ on
+ a
+ lower
+ quality
+ lower
+
+
+quality
+ model?
+ And
+ so
+ I
+ think
+ unless
+
+
+there's
+
+
+some
+ some
+ sort
+ of
+ like
+ product
+ UI
+
+
+behavior
+ that
+ is
+ altered
+ um
+ to
+
+
+disincentivize
+ the
+ user
+ from
+ only
+ using
+
+
+the
+ most
+ expensive
+ tool.
+ The
+ Frontier
+
+
+Labs
+ will
+ continue
+ doing
+ that.
+
+
+Um
+ and
+ so
+ that's
+ maybe
+ where
+ like
+
+
+getting
+ getting
+ good
+ knowledge
+ around
+
+
+like
+ okay
+ can
+ use
+ a
+ less
+ good
+ system
+ but
+
+
+compensate
+ for
+ it
+ by
+ having
+ a
+ better
+
+
+harness
+ can
+ come
+ into
+ play.
+ But
+ I
+ think
+
+
+that's
+ more
+ of
+ like
+ a
+ product
+ a
+ product
+
+
+decision.
+ Um,
+ also
+ for
+ companies
+ that
+
+
+that
+ are
+ not
+ like
+ the
+ Frontier
+ Labs.
+
+
+>> Is
+ that
+ interesting
+ for
+ you
+ as
+ an
+
+
+investor?
+ Uh,
+ all
+ the
+ kind
+ of
+ vertical
+
+
+harness
+ companies
+ or
+ horizontal
+ harness
+
+
+companies.
+ Is
+ that
+ an
+ investable
+ theme?
+
+
+>> Yeah,
+ I
+ think
+ in
+ in
+ isolation
+ like
+ no
+ at
+
+
+the
+ moment.
+ Again,
+ I
+ can
+ change
+ my
+ mind,
+
+
+but
+ at
+ the
+ moment,
+ no.
+ But
+ I
+ do
+ think
+
+
+for
+ for
+ my
+ companies
+ that
+ are
+ you
+ know
+
+
+heavily
+ like
+ AI
+ based
+ or
+ heavily
+ agent
+
+
+based
+ when
+ we
+ see
+ that
+ you
+ know
+ every
+
+
+month
+ like
+ token
+ expenditure
+ because
+
+
+like
+ is
+ going
+ up
+ through
+ the
+ roof
+
+
+because
+ employees
+ are
+ increasingly
+
+
+getting
+ leverage
+ from
+ these
+ tools
+ and
+ uh
+
+
+and
+ product
+ usage
+ is
+ going
+ up
+ like
+
+
+that's
+ where
+ I
+ think
+ the
+ trade
+ ends
+ up
+
+
+being
+ like
+ hey
+ we
+ should
+ really
+ like
+
+
+spend
+ time
+ on
+ seeing
+ can
+ we
+ use
+ like
+ a
+
+
+less
+ frontier
+ model
+ and
+ like
+ compensate
+
+
+for
+ it
+ with
+ a
+ better
+ harness
+ uh
+ so
+ we
+
+
+could
+ just
+ like
+ not
+ burn
+ a
+ lot
+ of
+ money.
+
+
+>> Yeah.
+ By
+ the
+ way,
+ you're
+ a
+ solo
+ GP
+ and
+ I
+
+
+think
+ I
+ read
+ somewhere
+ that
+ you
+ use
+ a
+
+
+lot
+ of
+ agents
+ uh
+ in
+ your
+ investing
+
+
+activity
+ uh
+ to
+ do
+ everything
+ you
+ do.
+ Any
+
+
+example
+ or
+ anything
+ uh
+ that
+ you
+ thought
+
+
+was
+ pretty
+ cool
+ in
+ the
+ way
+ you
+ use
+
+
+agents
+ throughout
+ this
+ year?
+ The
+ coolest
+
+
+use
+ case
+ I
+ had
+ recently
+ is
+ on
+ like
+
+
+expert
+ research
+ where
+ you
+ know
+ I
+ think
+
+
+you
+ can
+ well
+ if
+ you're
+ sort
+ of
+ in
+ the
+
+
+cheap
+ man's
+ version
+ it's
+ like
+ you
+ ask
+
+
+your
+ friends
+ but
+ if
+ you
+ want
+ to
+ spend
+ a
+
+
+bit
+ of
+ budget
+ and
+ ask
+ beyond
+ your
+
+
+network
+ then
+ you're
+ going
+ to
+ ask
+ like
+
+
+GLG
+ or
+ Alpha
+ Sense
+ etc.
+ Um
+ and
+ then
+ they
+
+
+will
+ go
+ find
+ humans
+ for
+ you.
+ They
+ will
+
+
+introduce
+ you.
+ You
+ take
+ the
+ call.
+ It's
+ a
+
+
+pingponging
+ like
+ really
+ annoying
+ and
+
+
+limited
+ by
+ language
+ time
+ zone
+ etc.
+ But
+
+
+there's
+ like
+ a
+ a
+ new
+ product
+ that
+ I
+
+
+started
+ using
+ called
+ LT
+ which
+ is
+
+
+basically
+ like
+ replacing
+ uh
+ the
+ fact
+
+
+that
+ I
+ have
+ to
+ do
+ the
+ work
+ with
+ the
+
+
+model
+ doing
+ the
+ work.
+ And
+ so
+ I'm
+ already
+
+
+like
+ heavily
+ using
+ in
+ this
+ case
+ Codeex,
+
+
+but
+ I
+ kind
+ of
+ switch
+ depending
+ on
+ what
+
+
+model
+ is
+ better
+ at
+ the
+ time.
+ uh
+ to
+ sort
+
+
+of
+ like
+ just
+ process
+ all
+ my
+ ideas
+ and
+
+
+the
+ context
+ I
+ have
+ on
+ other
+ companies
+
+
+that
+ I
+ looked
+ at
+ over
+ history,
+ how
+ they
+
+
+performed,
+ what
+ questions
+ I
+ asked,
+ what
+
+
+responses
+ I
+ got
+ to
+ just
+ like
+ figure
+ out
+
+
+what
+ is
+ the
+ highest
+ value
+ question
+ I
+ can
+
+
+ask
+ of
+ a
+ team
+ to
+ inform
+ like
+ whether
+ I
+
+
+should
+ spend
+ time
+ or
+ make
+ the
+ investment
+
+
+or
+ not.
+ So
+ I
+ can
+ take
+ all
+ that
+
+
+information
+ and
+ then
+ and
+ then
+ with
+ LTO
+
+
+like
+ construct
+ uh
+ an
+ expert
+ interview
+
+
+and
+ then
+ decide
+ on
+ cohorts
+ I
+ want
+ and
+
+
+then
+ just
+ hit
+ launch
+ study
+ and
+ then
+ the
+
+
+the
+ system
+ goes
+ out
+ and
+ finds
+ people
+
+
+consents
+ them
+ to
+ see
+ if
+ they're
+ uh
+ you
+
+
+know
+ the
+ right
+ fit
+ for
+ the
+ study
+ and
+
+
+then
+ they
+ go
+ speak
+ to
+ an
+ AI
+ and
+ I
+ was
+ I
+
+
+was
+ like
+ shocked
+ because
+ you
+ know
+ I
+ hit
+
+
+launch
+ study
+ I
+ went
+ to
+ sleep
+ I
+ had
+ like
+
+
+3
+ days
+ to
+ basically
+ like
+ give
+ the
+
+
+company
+ an
+ answer
+ it's
+ like
+ in
+
+
+competitive
+ market
+ so
+ I
+ think
+ the
+
+
+nuances
+ of
+ customer
+ research
+ was
+
+
+important
+
+
+you
+ know,
+ wake
+ up
+ the
+ first
+ day,
+ I
+ have
+
+
+three
+ interviews
+ from
+ like
+ pretty
+ senior
+
+
+people.
+ I
+ have
+ the
+ raw
+ transcript.
+ The
+
+
+transcript
+ can
+ come
+ back
+ into
+ my
+ model,
+
+
+answer
+ the
+ open
+ questions
+ we
+ had,
+ we
+ me
+
+
+and
+ my
+ model,
+ and
+ then
+ uh
+ and
+ then
+
+
+figure
+ out,
+ okay,
+ we
+ have
+ enough
+ data
+
+
+points
+ for
+ this,
+ but
+ like
+ it's
+ kind
+ of
+
+
+opened
+ up
+ this
+ question
+ stream
+ that
+ we
+
+
+should
+ ask.
+ Maybe
+ we
+ should
+ actually
+
+
+reune
+ some
+ of
+ the
+ interview
+ questions
+ to
+
+
+really
+ coax
+ the
+ person
+ to
+ answer
+ those
+
+
+questions.
+ So,
+ like
+ updates
+ the
+ study
+
+
+questions
+ and
+ relaunches
+ the
+ survey.
+
+
+Next
+ day,
+ five
+ five
+ people.
+ Again
+ this
+
+
+repeats
+ and
+ over
+ like
+ two
+ and
+ a
+ half
+
+
+days
+ I
+ had
+ 12
+ in
+ 12 12
+ interviews
+ over
+
+
+like
+ 14
+ hours
+ across
+ like
+ US,
+ India,
+
+
+Europe,
+ Germany,
+ France.
+ Like
+ it
+ would
+
+
+be
+ physically
+ impossible
+ for
+ me
+ to
+ have
+
+
+spent
+ like
+ 14
+ hours
+ across
+ 12
+ people.
+
+
+Like
+ there
+ were
+ several
+ people
+ who
+ spoke
+
+
+to
+ this
+ model
+ like
+ for
+ an
+ hour
+ and
+ 20
+
+
+minutes
+
+
+>> which
+ just
+ in
+ itself
+ is
+ fascinating,
+
+
+right?
+ Like
+ the
+ fact
+ that
+ humans
+ feel
+ so
+
+
+comfortable
+ so
+ quickly
+ speaking
+ to
+ an
+
+
+AI.
+
+
+>> Yeah.
+ Yeah.
+ It's
+ probably
+ a
+ bit
+
+
+recursive
+ in
+ the
+ sense
+ that
+ like
+ we're
+
+
+all
+ in
+ front
+ of
+ our
+ computer
+ all
+ the
+
+
+time
+ and
+ like
+ these
+ are
+ generally
+ like
+
+
+tech
+ questions
+ and
+ so
+ I
+ think
+ people
+
+
+prefer
+ to
+ unfortunately
+ people
+ prefer
+ to
+
+
+>> speak
+ to
+ their
+ phone
+ than
+ speak
+ to
+ a
+
+
+human.
+
+
+>> Um
+ that's
+ that's
+ a
+ fascinating
+ thought
+
+
+that
+ actually
+ speaking
+ to
+ NI
+ is
+ uh
+ what
+
+
+people
+ prefer.
+
+
+>> Yeah.
+ uh
+ which
+ is
+ actually
+ a
+ theme
+ that
+
+
+we
+ heard
+ over
+ the
+ years
+ is
+ like
+ uh
+ you
+
+
+know
+ we
+ we
+ uh
+ maybe
+ not
+ the
+ years
+ but
+
+
+the
+ months
+ that
+ uh
+ people
+ are
+ starting
+
+
+to
+ prefer
+ to
+ talk
+ to
+ an
+ AI
+ customer
+
+
+service
+ agent
+ uh
+ over
+ a
+ person.
+
+
+>> Yeah.
+ Because
+ I
+ think
+ in
+ that
+ case
+ it's
+
+
+like
+ uh
+ a
+ human
+ is
+ pretending
+ to
+ be
+ a
+
+
+robot
+ and
+ doing
+ a
+ really
+ bad
+ job
+ at
+ it
+
+
+because
+ you're
+ a
+ human.
+ You're
+ like
+ can
+
+
+you
+ please
+ just
+ like
+ now
+ talk
+ like
+ a
+
+
+robot
+ and
+ then
+ now
+ you
+ get
+ a
+ robot
+
+
+that's
+ actually
+ like
+ really
+ good
+ and
+
+
+then
+ the
+ human
+
+
+>> talk
+ like
+ a
+ human.
+ Yeah.
+ Okay.
+ Amazing.
+
+
+>> Yeah.
+ Yeah.
+ So
+ that
+ that
+ I
+ think
+ that
+
+
+that
+ kind
+ of
+ idea
+ of
+ like
+ uh
+ automated
+
+
+customer
+ research
+ uh
+ has
+ been
+ like
+ very
+
+
+powerful
+ for
+ me
+ and
+ I
+ can
+ just
+ see
+ how
+
+
+you
+ know
+ even
+ if
+ you
+ had
+ a
+ portfolio
+ you
+
+
+would
+ want
+ to
+ run
+ like
+ this
+ kind
+ of
+
+
+agent
+ interviews
+ on
+ your
+ portfolio
+
+
+companies
+ and
+ how
+ customers
+ are
+ using
+
+
+it.
+ So
+ then
+ at least
+ you
+ get
+ some
+
+
+firstparty
+ data
+ when
+ you
+ go
+ into
+ the
+
+
+boardroom
+ you
+ know
+ or
+ if
+ you're
+ an
+ LP
+
+
+and
+ like
+ your
+ investors
+ are
+ saying
+ like
+
+
+this
+ company's
+ really
+ good
+ you're
+ like
+
+
+is
+ it
+ really
+ good?
+ A
+ big
+ uh
+ thing
+ that
+
+
+happened
+ this
+ year
+ uh
+ in
+ the
+ last
+ few
+
+
+months
+ uh
+ in
+ particular
+ is
+ to
+ this
+ point
+
+
+like
+ the
+ rise
+ of
+ personal
+ agents,
+ the
+
+
+instincts
+ and
+ the
+ muse
+ and
+ the
+ rock
+
+
+bots.
+ Um
+
+
+>> what
+ do
+ you
+ make
+ of
+ that?
+
+
+>> I
+ don't
+ give
+ them
+ my
+ data.
+
+
+>> I
+ don't
+ really
+ I
+ don't
+ really
+ trust
+
+
+trust
+ them
+ at
+ the
+ moment.
+ Um
+ but
+ I
+ think
+
+
+a
+ lot
+ of
+ people
+ do.
+ Um
+
+
+>> a
+ lot
+ of
+ people
+ do.
+
+
+>> Yeah.
+ Um,
+
+
+>> so
+ what
+ you're
+ saying
+ is
+ that
+ you
+ not
+
+
+you
+ don't
+ give
+ your
+ credit
+ card
+
+
+information
+ to
+ a
+ company
+ that
+ did
+ not
+
+
+exist
+ uh
+ uh
+ 2
+ months
+ ago
+ and
+ uh
+ doesn't
+
+
+require
+ you
+ to
+ authenticate.
+
+
+>> Yeah.
+ Yeah,
+ pretty
+ much.
+ Well,
+ also
+
+
+because
+ I
+ feel
+ like
+ I
+ can
+ do
+ roughly
+ the
+
+
+same
+ thing
+ um
+ with
+ Chad
+ GPT
+ like
+ I
+ don't
+
+
+actually
+ see
+ like
+ what
+ I
+ get
+ on
+ top.
+
+
+Codex
+ and
+ Claude
+ already
+ have
+ like
+
+
+low-level
+ access
+ to
+ my
+ computer
+ has
+
+
+access
+ to
+ my
+ browser
+ to
+ like
+ various
+
+
+messaging
+ apps
+ and
+ things
+ like
+ this.
+ So
+
+
+I
+ I
+ I
+ trust
+ that
+ already.
+ So
+ I
+ don't
+
+
+really
+ want
+ to
+ increase
+ like
+ the
+ the
+
+
+risk
+ on
+ top
+ of
+ that.
+ But
+ but
+ I
+ do
+ think
+
+
+it
+ brings
+ up
+ an
+ interesting
+ point
+ which
+
+
+is
+ like
+ which
+ which
+ vendor
+ do
+ you
+ trust
+
+
+the
+ most
+ for
+ these
+ kinds
+ of
+ tasks.
+ And
+
+
+um
+ not
+ that
+ long
+ ago
+ I
+ heard
+ like
+
+
+Nikolai
+ at
+ Revolute
+ is
+ uh
+ is
+ now
+ like
+
+
+thinking
+ okay
+ well
+ I
+ I
+ have
+ like
+ you
+
+
+know
+ I
+ don't
+ know
+ how
+ many
+ customers
+ but
+
+
+like
+ millions
+ or
+ tens
+ of
+ millions
+ or
+
+
+something.
+ Um,
+ and
+ they
+ clearly
+ trust
+ me
+
+
+with
+ my
+ wi-i
+ w
+ with with
+ my
+ money
+ and
+ my
+
+
+credit
+ card
+ data.
+ And,
+ you
+ know,
+ now
+
+
+they
+ have
+ like
+ an
+ AI
+ assistant
+ in
+ there.
+
+
+And
+ so
+ I
+ could
+ sort
+ of
+ see
+ myself
+
+
+trusting
+ Revolute
+ more
+ to
+ handle
+
+
+purchases
+ on
+ my
+ behalf
+ than
+ I
+ would
+ like
+
+
+some
+ third
+ party
+ startup
+ that's
+ grown
+ in
+
+
+12
+ months
+ and
+ probably
+ doesn't
+ have
+
+
+correct
+ infosc
+ and
+ and
+ other
+ things.
+
+
+>> So
+ you
+ think
+ it
+ becomes
+ a
+ feature
+ of
+
+
+broader
+ platforms
+ versus
+ the
+ opposite?
+
+
+>> I
+ think
+ that's
+ that's
+ one
+ possible
+
+
+route.
+ you
+ know
+ whether
+ the
+ platform
+
+
+ends
+ up
+ buying
+ one
+ of
+ these
+ teams
+ is
+ you
+
+
+know
+ that
+ that
+ can
+ always
+ happen
+ but
+ I
+
+
+heard
+ you
+ know
+ um
+ another
+ point
+ would
+ be
+
+
+somebody
+ prefers
+ to
+ use
+ like
+ Meta's
+ muse
+
+
+because
+ the
+ likelihood
+ that
+ one
+ of these
+
+
+startups
+ survives
+ for
+ 10
+ years
+ and
+ if
+
+
+they
+ do
+ something
+ bad
+ that
+ you
+ can
+ sue
+
+
+them
+ and
+ get
+ your
+ money
+ or
+ get
+ some
+
+
+money
+ is
+ very
+ low
+ whereas
+ like
+ suing
+
+
+Meta
+ like
+ they
+ have
+ a
+ a
+ history
+ of
+ like
+
+
+paying
+ you
+ when
+ there
+ when
+ there's
+ some
+
+
+issues.
+ So,
+ I've
+ heard
+ that's
+ like
+ a
+
+
+reason
+ why
+ some
+ people
+ prefer
+ to
+ use
+
+
+meta.
+ Think
+ at
+ least
+ I
+ know
+ who
+ to
+ pick
+
+
+up
+ the
+ phone
+ to.
+
+
+>> But
+ but
+ those
+ those
+ um
+ uh
+ new
+ personal
+
+
+agents
+ seem
+ to
+ be
+ playing
+ a
+ a
+ big
+ role
+
+
+in
+ the
+ diffusion
+ of
+ AI
+ though,
+ which
+ is
+
+
+one
+ of
+ the
+ themes
+ that
+ you
+ highlight
+ in
+
+
+the
+ report
+ as
+ well.
+ You
+ talk
+ about
+ the
+
+
+increasing
+ rise
+ of
+ uh
+ codecs
+ in
+
+
+particular
+ beyond
+ coders.
+
+
+>> Yeah.
+ Yeah.
+ Yeah.
+ Exactly.
+ Yeah.
+ And
+ I
+
+
+think
+ the
+ the
+ biggest
+ message
+ there
+
+
+would
+ be,
+ you
+ know,
+ at
+ the
+ same
+ time,
+
+
+you
+ see
+ this
+ like
+ recursive
+
+
+self-improvement.
+ You
+ see
+ people
+ doing
+
+
+all
+ sorts
+ of
+ crazy
+ stuff
+ with
+ their
+ AIS
+
+
+and
+ that's
+ like
+ a
+ 0.1%
+ or
+ something
+ of
+
+
+the
+ AI
+ usage
+ base
+ and
+ the
+ vast
+ majority
+
+
+of
+ other
+ people
+ are
+ barely
+ paying
+ for
+
+
+any
+ AI
+ and
+ so
+ getting
+ like
+ a
+ very
+ subpar
+
+
+experience.
+ Uh
+ and
+ part
+ of
+ this
+ is
+ just
+
+
+like
+ like
+ bad
+ product,
+ bad
+ marketing.
+
+
+Um,
+ also
+ just
+ that
+ you
+ know
+ a
+ year
+ ago
+
+
+or
+ two
+ years
+ ago
+ there
+ was
+ all
+ this
+ like
+
+
+narrative
+ around
+ you
+ need
+ to
+ become
+ a
+
+
+prompt
+ engineer.
+ Like
+ you
+ really
+ need
+ to
+
+
+understand
+ how
+ to
+ write
+ these
+ prompts
+
+
+because
+ if
+ you
+ write
+ crappy
+ prompts
+ the
+
+
+model
+ does
+ a
+ bad
+ job.
+ So
+ I
+ can
+ only
+
+
+imagine
+ how
+ many
+ people
+ who
+ don't
+ work
+
+
+in
+ technology
+ saw
+ that
+ and
+ were
+ like
+ I
+
+
+have
+ no
+ idea
+ how
+ to
+ learn
+ this.
+ Like
+
+
+this
+ is
+ way
+ too
+ complicated.
+ You
+ know
+
+
+it's
+ kind
+ of
+ like
+ writing
+ code
+ but
+ in
+
+
+the
+ human
+ human
+ language.
+ Like
+ screw
+
+
+this
+ like
+ I'm
+ done.
+ Like
+ AI
+ sucks.
+ and
+
+
+and
+ now
+ it's
+ like
+ do
+ you
+ really
+ need
+ to
+
+
+be
+ a
+ prompt
+ engineer?
+ Like
+ I
+ think
+ you
+
+
+more
+ just
+ need
+ to
+ be
+ good
+ at
+ just
+ like
+
+
+talking
+ to
+ your
+ phone
+ just
+ like
+ brain
+
+
+dump
+ exactly
+ what
+ well
+ like
+ everything
+
+
+you're
+ thinking
+ of
+ and
+ the
+ system
+ can
+
+
+organize
+ itself.
+ So
+ I
+ think
+ this
+ like
+
+
+prompt
+ engineer
+ thing
+ is
+ kind
+ of
+ gone
+
+
+like
+ the
+ model
+ can
+ has
+ enough
+
+
+affordances
+ to
+ not
+ need
+ that.
+ So
+ now
+
+
+it's
+ much
+ more
+ easy
+ for
+ a
+ normal
+ person
+
+
+to
+ use
+ but
+ the
+ normal
+ person
+ got
+ sick
+ of
+
+
+it
+ during
+ the
+ prompt
+ engineering
+ days
+
+
+and
+ hasn't
+ come
+ back.
+ So,
+ you're
+ right
+
+
+that
+ like
+ creating
+ these
+ on-ramps
+ with
+
+
+like
+ um
+ personal
+ agents
+ would
+ be
+ a
+ great
+
+
+way
+ to
+ get
+ people
+ back
+ into
+ the
+ system
+
+
+and
+ and
+ and
+ you
+ know
+ maybe
+ maybe
+ that's
+
+
+what
+ they
+ understand
+ AI
+ to
+ be
+ no
+ longer
+
+
+like
+ chat
+
+
+>> and
+ to
+ to
+ unpack
+ a
+ couple
+ of
+ things
+ that
+
+
+you
+ that
+ you
+ just
+ said
+ were
+ alluded
+ to.
+
+
+So
+ there's
+ this
+ idea
+ that
+ there
+ is
+ an
+
+
+increasing
+ gap
+ uh
+ between
+ people
+ using
+
+
+AI
+ and
+ nonAI
+ and
+ you
+ have
+ a
+ a
+ slide
+ that
+
+
+talks
+ about
+ how
+ Codex
+ adoption
+ remains
+
+
+far
+ far
+ higher
+ inside
+ of
+ OpenAI
+ than
+
+
+amongst
+ external
+ users.
+
+
+>> This
+ is
+ wild.
+
+
+>> Yeah.
+
+
+>> Yeah.
+ I
+ mean
+ the
+ the
+ broad
+ stat
+ is
+ like
+
+
+something
+ like
+ 100%
+ of
+ people
+ in
+ OpenAI
+
+
+use
+ codeex
+ and
+ then
+ of
+ their
+
+
+organizations
+ that
+ use
+ it.
+ something
+
+
+like
+ 2/3
+ maybe
+ um
+ something
+ quite
+ high.
+
+
+>> Yeah.
+ 69%.
+
+
+>> Yeah.
+ Okay.
+
+
+>> A
+ separate
+ analysis
+ of
+ S&P
+ 500
+ companies
+
+
+AI
+ disclosure
+ found
+ that
+ 69%
+ reported
+
+
+live
+ deployments
+ but
+ only
+ 2%
+ disclosed
+
+
+metrics
+ tracked
+ over
+ time
+ and
+ that's
+ in
+
+
+contrast
+ to
+ 97.9%
+ of
+ active
+ open
+ eye
+
+
+workers
+ use
+ codeex
+ in
+ the
+ preceding
+ 28
+
+
+days.
+
+
+>> Yeah.
+ Yeah.
+ Yeah.
+ And
+ individuals
+ is
+
+
+like
+ less
+ than
+ 1%
+ use
+ codeex.
+ And
+ then
+
+
+of
+ the
+ people
+ who
+ do
+ use
+ codeex,
+ the
+
+
+vast
+ majority
+ of
+ them,
+ it's
+ like
+ 85%
+ do
+
+
+tasks
+ on
+ it
+ that
+ would
+ roughly
+ take
+ like
+
+
+30
+ minutes
+ and
+ only
+ like
+ 25%
+ I
+ think
+ do
+
+
+it
+ do
+ tasks
+ that
+ would
+ take
+ like
+ 8
+ hours
+
+
+or
+ more.
+
+
+>> So
+ the
+ conclusion
+ of
+ this
+ is
+ that
+ the
+
+
+the
+ people
+ that
+ get
+ it
+ are
+ just
+
+
+accelerated
+ further
+ and
+ further
+ whereas
+
+
+the
+ people
+ that
+ don't
+ comparatively
+ slow
+
+
+down.
+
+
+>> Yeah.
+ It's
+ basically
+ like
+ you're
+ you're
+
+
+kind
+ of
+ going
+ through
+ like
+ a
+ theme
+ park
+
+
+or
+ something
+ and
+ you
+ just
+ you
+ discovered
+
+
+like
+ level
+ one
+ and
+ there's
+ like
+ this
+
+
+entire
+ like
+ other
+ world
+ that
+ you
+ just
+
+
+haven't
+ even
+ opened
+ the
+ door
+ to
+
+
+>> and
+ there
+ are
+ a
+ bunch
+ of
+ people
+ that
+ are
+
+
+already
+ in
+ that
+ world.
+
+
+>> It's
+ like
+ 9
+ 97%
+ of
+ the
+ world
+ or
+
+
+something
+ which
+ is
+ which
+ is
+ insane.
+ So
+
+
+that
+ that's
+ where
+ I
+ was
+ like
+ thinking
+
+
+okay
+ there
+ should
+ be
+ like
+ a
+ genius
+ bar
+
+
+for
+ AI
+ or
+ like
+ a
+ geek
+ squad
+ for
+ AI
+ or
+
+
+something
+ you
+ know
+ like
+ I
+ find
+ it
+
+
+shocking
+ that
+ you
+ know
+ we're
+ in
+ New
+ York
+
+
+like
+ we
+ have
+ amazing
+ Apple
+ store
+ like
+
+
+all
+ these
+ concept
+ stores
+ for
+ brands.
+ Why
+
+
+does
+ OpenAI
+ not
+ have
+ like
+ an
+ OpenAI
+
+
+store?
+
+
+>> And
+ what
+ would
+ you
+ do
+ in
+ the
+ open
+ air
+
+
+store
+ where
+ you'd
+ walk
+ to
+ a
+ genius
+
+
+person
+ and
+ they
+ would
+ walk
+ you
+ through
+
+
+use
+ cases?
+
+
+>> Pretty
+ much.
+
+
+>> I
+ mean,
+ uh,
+ it
+ would
+ take
+ time,
+ but
+ I
+
+
+think,
+ you
+ know,
+ people
+ end
+ up
+ showing
+
+
+other
+ people,
+ you
+ know,
+ with
+ these
+ kinds
+
+
+of
+ viral
+ products.
+ Um,
+ but
+ I
+ could
+ like,
+
+
+you
+ know,
+ very
+ easily
+ see
+ like
+ you'd
+ run
+
+
+sessions
+ on
+ uh,
+ you
+ know,
+ different
+
+
+levels
+ of
+ experience
+ and
+ like
+ I
+ don't
+
+
+know,
+ maybe
+ one
+ of
+ them
+ is
+ for
+ like
+
+
+small
+ medium
+ business
+ owners,
+ maybe
+ some
+
+
+of
+ them
+ are
+ for
+ like,
+ you
+ know,
+ busy
+
+
+families,
+ like
+ other
+ ones
+ are
+ for
+ like
+
+
+healthcare
+ providers,
+ like
+ you
+ know,
+
+
+anything
+ you
+ can
+ imagine,
+ but
+ where
+
+
+you're
+ really
+ walking
+ through
+ people,
+
+
+walking
+ people
+ through
+ what
+ you
+ can
+ do
+
+
+by
+ just
+ like
+ flicking
+ the
+ screen
+ and
+
+
+going
+ on
+ work
+ or
+ going
+ on
+ codecs.
+ And
+ I
+
+
+think
+ that
+ would
+ make
+ a
+ a
+ big
+ difference
+
+
+because
+ it
+ would
+ it
+ would
+ make
+ it
+ would
+
+
+make
+ the
+ technology
+ much
+ more
+ empowering
+
+
+and
+ less
+ about
+ like
+ wow
+ there's
+ a
+ lot
+ of
+
+
+people
+ out
+ there
+ that
+ are
+ doing
+ things
+
+
+with
+ this
+ that
+ I
+ just
+ don't
+ understand
+
+
+and
+ I
+ don't
+ have
+ like
+ the
+ the
+ time
+ in
+
+
+the
+ day
+ or
+ or
+ the
+ valition
+ or
+ like
+
+
+patience
+ to
+ go
+ learn
+ it
+ myself.
+ It's
+ a
+
+
+bit
+ like
+ uh
+ you
+ know
+ everybody
+ should
+ do
+
+
+exercise
+ but
+ like
+ most
+ people
+ don't
+ and
+
+
+you
+ need
+ to
+ hire
+ a
+ PT
+ to
+ just
+ go
+ do
+ it.
+
+
+>> Mhm.
+ And
+ uh
+ to
+ finish
+ the
+ thought
+ on
+ the
+
+
+other
+ part
+ of
+ of
+ codeex,
+ you
+ have
+ a
+
+
+slide
+ where
+ you
+ said
+ that
+ non-developers
+
+
+are
+ growing
+ usage
+ of
+ codeex
+ faster
+ than
+
+
+developers
+ are
+ uh
+ and
+ from
+ August
+ 25
+ to
+
+
+June
+ 26,
+ individual
+ non-developer
+ users
+
+
+increased
+ 137fold.
+ So
+ those
+ are
+ no
+
+
+longer
+ really
+ coding
+ agents.
+ Uh
+ they
+ are
+
+
+agents
+ that
+ code
+ but
+ for
+ like
+ a
+ broader
+
+
+group
+ much
+ beyond
+ coders.
+ Yeah,
+ it's
+
+
+kind
+ of
+ unclear
+ because
+ um
+ like
+ they
+
+
+could
+ write
+ code
+ to
+ go
+ execute
+ your
+
+
+knowledge
+ work
+ but
+ the
+ individual
+ who's
+
+
+using
+ the
+ system
+ doesn't
+ doesn't
+ really
+
+
+see
+ it.
+ So,
+ I'd
+ say
+ I'd
+ say
+ that
+ that
+
+
+result
+ is
+ a
+ mix
+ of
+ really
+ simple
+ things
+
+
+like
+ Google
+ Drive
+ connector
+ that
+
+
+actually
+ works
+ like
+ it's
+ kind
+ of
+ nuts
+
+
+that
+ the
+ default
+ uh
+ you
+ know
+ Google
+
+
+Drive
+ connector
+ like
+ for
+ example
+ can't
+
+
+do
+ a
+ lot
+ of
+ things
+ that
+ you
+ would
+ want
+
+
+it
+ to
+ do
+ and
+ you
+ have
+ to
+ go
+ to
+ this
+
+
+third
+ party
+ like
+ GWS
+ CLI
+ which
+ was
+
+
+written
+ by
+ Google
+ engineer
+ who
+ got
+ fired
+
+
+for
+ doing
+ it
+ but
+ like
+ if
+ you
+ don't
+ use
+
+
+the
+ CLI
+ version
+ like
+ your
+ agent
+ has
+ like
+
+
+really
+ really
+ high
+ level
+ to
+ Google
+ Drive
+
+
+high
+ level
+ access
+ to
+ Google
+ Drive
+ which
+
+
+precludes
+ many
+ many
+ workflows.
+
+
+So
+ just
+ basic
+ good
+ integrations
+ and
+ then
+
+
+the
+ second
+ thing
+ is
+ this
+ like
+ recursive
+
+
+cycle
+ of
+ uh
+ models
+ labs
+ releasing
+ a
+
+
+model
+ data
+ companies
+ or
+ companies
+ that
+
+
+have
+ a
+ certain
+ workflow
+ that
+ they're
+
+
+trying
+ to
+ implement
+ the
+ model
+ uh
+ on
+
+
+showing
+ that
+ on
+ their
+ internal
+ benchmark
+
+
+said
+ model
+ doesn't
+ do
+ very
+ well
+ but
+ they
+
+
+have
+ the
+ environments
+ and
+ the
+ data
+ to
+
+
+make
+ it
+ do
+ really
+ well.
+ And
+ then
+ the
+ lab
+
+
+realizes
+ hopefully
+ that
+ they
+ want
+ to
+
+
+hill
+ climb
+ on
+ this
+ capability
+ and
+ so
+
+
+they
+ buy
+ the
+ data
+ improve
+ the
+ model
+
+
+performance
+ and
+ then
+ this
+ recursive
+
+
+cycle
+ continues
+ and
+ uh
+ I
+ think
+ ever
+
+
+since
+ like
+ the
+ launch
+ of
+ codeex
+ and
+ then
+
+
+uh
+ and
+ uh
+ before
+ that
+ actually
+ like
+
+
+cloud
+ code
+ with
+ those
+ connectors
+ for
+
+
+legal
+ for
+ marketing
+ etc
+ that
+ was
+ kind
+ of
+
+
+this
+ approach
+ of
+ like
+ let's
+ build
+ the
+
+
+integrations
+ to
+ the
+ tools
+ that
+ the
+ model
+
+
+needs
+ to
+ be
+ good
+ at
+ that
+ kind
+ of
+ human
+
+
+like
+ white
+ collar
+ work
+ uh
+ let's
+ do
+ hill
+
+
+climbing
+ on
+ certain
+ and
+ workflows
+ that
+
+
+are
+ like
+ important
+ for
+ finance
+ legal
+
+
+marketing
+ and
+ then
+ um
+ like
+ let's
+ release
+
+
+those
+ those
+ products
+ with
+ a
+ bit
+ better
+
+
+marketing
+ a
+ bit
+ better
+ case
+ studies
+ uh
+
+
+starting
+ with
+ our
+ own
+ staff
+ and
+ then
+
+
+there's
+ been
+ this
+ constant
+ like
+ debate
+
+
+of
+ like
+ do
+ we
+ call
+ it
+ work
+ do
+ we
+ call
+ it
+
+
+code
+ which
+ slider
+ should
+ it
+ be
+ in
+ and
+ I
+
+
+think
+ you
+ still
+ haven't
+ really
+ figured
+
+
+it
+ all
+ out
+ but
+ but
+ now
+ I
+ would
+ say
+ like
+
+
+it's
+ it's
+ like
+ so
+ powerful
+
+
+>> and
+ u
+ speaking
+ of
+ hill
+ climbing
+ we
+ we
+
+
+talked
+ about
+ open
+ source
+ we
+ talked
+ about
+
+
+the
+ big
+ labs.
+ Um
+ it
+ um
+ we
+ talked
+ about
+
+
+sovereign
+ AI
+ as
+ well.
+ It
+ seems
+ like
+
+
+there
+ is
+ this
+ uh
+ emerging
+ theme
+ around
+
+
+enterprises
+ and
+ before
+ them
+ probably
+ the
+
+
+vertical
+ AI
+ startups
+ taking
+ control
+ over
+
+
+uh
+ their
+ AI
+ versus
+ solely
+ depending
+ on
+
+
+anthropic
+ open
+ AI.
+ Is
+ that
+ um
+ an
+
+
+important
+ theme
+ for
+ you
+ and
+ something
+
+
+that
+ is
+ investable?
+
+
+>> Yeah.
+ what's
+ um
+ I
+ think
+ that
+ that
+ trend
+
+
+has
+ been
+ growing
+ and
+ it's
+ a
+ mix
+ of
+ uh
+
+
+cost
+ uh
+ optimization
+
+
+um
+ like
+ sort
+ of
+ data
+ sovereignty
+ data
+
+
+residency
+ uh
+ issues.
+ So
+ not
+ wanting
+ to
+
+
+like
+ put
+ all
+ this
+ information
+ into
+ a
+
+
+third
+ party
+ system
+ which
+ you
+ may
+ or
+ may
+
+
+not
+ trust
+ the
+ privacy
+ policies
+ of.
+ And
+
+
+then
+ three,
+ uh
+ having
+ a
+ certain
+ like
+ set
+
+
+of
+ use
+ cases
+ that
+ are
+ the
+ real
+ ones
+ you
+
+
+care
+ about
+ and
+ that
+ you
+ kind
+ of
+ like
+
+
+don't
+ want
+ to
+ wait
+ for
+ the
+ model
+ lab
+ to
+
+
+start
+ caring
+ about
+ them
+ to
+ get
+ better.
+
+
+Uh
+ and
+ then
+ maybe
+ last
+ one
+ would
+ be
+ uh
+
+
+yeah
+ some
+ of
+ these
+ um
+ like
+ more
+
+
+nationalistic
+
+
+tendencies.
+ I
+ guess
+ I
+ think
+ in
+ that
+ in
+
+
+that
+ area
+ uh
+ what
+ I'm
+ what
+ I'm
+ wondering
+
+
+is
+ like
+ who's
+ best
+ place
+ to
+ deliver
+ that
+
+
+service.
+ Of
+ course,
+ like
+ one
+ of the
+
+
+biggest
+ ones
+ would
+ be
+ Palanteer,
+ which
+
+
+which
+ done
+ partnerships
+ with
+ like
+
+
+NeoClouds
+ uh
+ and
+ has
+ all
+ the
+ data
+
+
+infrastructure
+ already
+ and
+ so
+ it's
+ like
+
+
+well
+ positioned
+ over
+ the
+ last
+ few
+ years
+
+
+to
+ like
+ start
+ providing
+ these
+ services
+
+
+that
+ probably
+ works
+ in
+ US
+ commercial
+ not
+
+
+so
+ much
+ in
+ Europe.
+ There
+ are
+ like
+ sort
+
+
+of
+ like
+ these
+ neo
+ palenteer
+ style
+
+
+companies
+ in
+ Europe
+ that
+ are
+ like
+ you
+
+
+know
+ started
+ up
+ um
+ to
+ go
+ do
+ the
+ exact
+
+
+same
+ thing
+ with
+ a
+ different
+ like
+
+
+nationalistic
+ flavor.
+ Then
+ the
+ third
+ bit
+
+
+would
+ be
+ like
+ what
+ about
+ the
+ inference
+
+
+companies
+ um
+ that
+ have
+ been
+ serving
+ open
+
+
+source
+ models
+ and
+ that
+ maybe
+ are
+ well
+
+
+positioned
+ to
+ not
+ just
+ serve
+ but
+ also
+
+
+provide
+ tools
+ to
+ look
+ at
+ the
+ traces
+ of
+
+
+how
+ their
+ models
+ how
+ these
+ models
+ are
+
+
+being
+ used
+ in
+ an
+ enterprise
+ use
+ the
+ the
+
+
+data
+ of
+ uh
+ these
+ conversations
+ to
+ then
+
+
+provide
+ like
+ a
+ post-
+ training
+ service
+ to
+
+
+close
+ the
+ loop.
+ maybe
+ they're
+ like
+ well
+
+
+positioned
+ or
+ maybe
+ it's
+ like
+ the
+
+
+Neoclouds
+ themselves
+ who
+ have
+ started
+ to
+
+
+build
+ inference
+ businesses
+ on
+ top
+ that
+
+
+would
+ be
+ well
+ positioned
+ too
+ or
+ or
+ maybe
+
+
+it's
+ even
+ like
+ the
+ data
+ companies
+ um
+
+
+that
+ have
+ not
+ just
+
+
+or
+ who
+ have
+ started
+ to
+ move
+ outside
+ of
+
+
+providing
+ uh
+ our
+ environments
+ for
+ labs
+
+
+but
+ saying
+ well
+ your
+ company's
+ in
+ an
+
+
+environment
+ and
+ so
+ uh
+ you
+ know
+ we've
+
+
+proved
+ that
+ we
+ can
+ do
+ it
+ well
+ for
+ labs
+
+
+maybe
+ we
+ can
+ do
+ it
+ well
+ for
+ you.
+
+
+>> Do
+ you
+ want
+ to
+ finish
+ with
+ a
+ rapid
+ fire?
+
+
+Let's
+ go.
+
+
+>> Most
+ overrated
+ trend
+ of
+ 2026.
+
+
+>> Uh
+ home
+ cleaning
+ robots.
+
+
+>> Those
+ don't
+ work.
+
+
+>> No.
+
+
+>> Why
+ is
+ it
+ that
+ uh
+ everybody
+ uh
+ wants
+
+
+that
+ specific
+ use
+ case
+ of
+ like
+ folding
+
+
+laundry?
+ Is
+ that
+ is
+ that
+ because
+ it's
+ uh
+
+
+>> I
+ don't
+ know.
+ It's
+ it's it's
+ a
+ bit
+ like
+
+
+you
+ know
+ the
+ the
+ the
+ demo
+ of
+ like
+ agents
+
+
+booking
+ flights.
+ I
+ I
+ I
+ heard
+ like
+ very
+
+
+recently
+ that
+ now
+ like
+ San
+ Francisco
+ is
+
+
+like
+ starting
+ to
+ say
+ like
+ can
+ you
+ show
+
+
+me
+ a
+ demo
+ of
+ like
+ not
+ booking
+ flights.
+
+
+I'm
+ like
+ thank
+ god
+ I've
+ been
+ saying
+ this
+
+
+for
+ like
+ 10
+ years.
+
+
+>> All right
+ said
+ rapid
+ fire
+ and
+ then
+ I
+ ask
+
+
+you
+ a
+ follow
+ on
+ question.
+ So
+ um
+ most
+
+
+underrated
+ slide
+ in
+ your
+ own
+ report
+
+
+>> the
+ amount
+ of
+ money
+ that
+ you
+ would
+ have
+
+
+made
+ investing
+ in
+ Nvidia
+ instead
+ of
+
+
+investing
+ in
+ alternative
+ semi
+
+
+semiconductor
+ companies.
+
+
+>> Uh
+ unpack
+ that
+ quickly.
+ If
+ you
+ had
+
+
+invested
+ all
+ the
+ money
+ that
+ went
+ into
+
+
+alternative
+ semiconductor
+ companies
+ into
+
+
+Nvidia
+ on
+ the
+ dates
+ that
+ those
+ rounds
+
+
+were
+ announced,
+ you'd
+ have
+ made
+ four
+
+
+times
+ more
+ money.
+
+
+>> Yeah.
+ And
+ then
+ to
+ close
+ the
+ prediction
+
+
+from
+ the
+ past
+ eight
+ reports
+ that
+ you
+ are
+
+
+the
+ most
+ proud
+ of.
+
+
+>> Oh.
+ Uh
+ that
+ Nvidia
+ would
+ not
+ conclude
+
+
+the
+ acquisition
+ of
+ ARM.
+ That
+ was
+ that
+
+
+was
+ a
+ big
+ one
+ back
+ then.
+ I
+ mean
+ people
+
+
+thought
+ it
+ was
+ really
+ going
+ to
+ happen
+
+
+and
+ like
+ we
+ took
+ the
+ view
+ that
+ like
+ for
+
+
+geopolitical
+ reasons
+ and
+ competition
+
+
+reasons
+ that
+ it
+ would
+ not
+ happen
+ and
+ to
+
+
+some
+ degree
+ like
+ ARM
+ shareholders
+ made
+ a
+
+
+crap
+ ton
+ of
+ money
+ by
+ not
+ closing
+ that
+
+
+acquisition
+ to
+ another
+ degree
+ like
+
+
+Nvidia
+ would
+ have
+ had
+ like
+ the
+ most
+
+
+impressive
+ CPU
+ business
+ that
+ could
+ have
+
+
+been
+ really
+ accreative
+ to
+ their
+ uh
+ to
+
+
+their
+ cloud
+ uh
+ particularly
+ as
+ like
+ the
+
+
+rise
+ of
+ agents
+ and
+ RL
+ and
+ everything
+
+
+else
+ that
+ actually
+ needs
+ uh
+ that's
+ kind
+
+
+of
+ CPUbound
+ and
+ uh
+ and
+ I
+ think
+ that
+
+
+could
+ have
+ also
+ like
+ shook
+ up
+ a
+ bit
+ bit
+
+
+of
+ the
+ geopolitical
+ dynamics
+ too.
+
+
+>> Okay,
+ wonderful.
+ That's
+ a
+ great
+ one.
+ Uh
+
+
+Nathan,
+ thank
+ you
+ so
+ much
+ for
+ coming
+
+
+back
+ and
+ uh
+ thank
+ you
+ for
+ doing
+ again
+
+
+this
+ state
+ of
+ AI
+ report
+ which
+ is
+ an
+
+
+extraordinary
+ amount
+ of
+ work
+ that
+ uh
+ you
+
+
+and
+ hopefully
+ your
+ agents
+ uh
+ now
+ do
+
+
+every
+ year.
+ It's
+ available
+ at
+
+
+stateofoff.ai
+
+
+and
+ uh
+ you
+ have
+ a
+ you
+ have
+ a
+ video
+ that
+
+
+uh
+ accompanies
+ it.
+ That's
+ also
+ a
+ good
+
+
+resource.
+ And
+ uh
+ people
+ can
+ find
+ you
+ on
+
+
+Twitter.
+
+
+>> Yep.
+ Yep.
+ Nathan
+ Benes
+ or
+ at
+ state
+ of
+
+
+AI.
+ Um
+ and
+ uh
+ yeah,
+ thank
+ you
+ so
+ much
+
+
+for
+ the
+ opportunity.
+ It's
+ always
+ a
+
+
+pleasure
+ and
+ uh
+ I
+ mean
+ it's
+ bananas
+
+
+what's
+ happened
+ in
+ the
+ last
+ year
+ alone.
+
+
+So
+ let's
+ see
+ AGI
+ next
+ year
+ when
+ I'm
+ in
+
+
+New
+ York.
+
+
+>> Wonderful.
+ Thanks
+ Nathan.
+
+
+>> Thanks.
+
+
+>> Hi,
+ it's
+ Matt
+ Turk
+ again.
+ Thanks
+ for
+
+
+listening
+ to
+ this
+ episode
+ of
+ the
+ Mad
+
+
+Podcast.
+ If
+ you
+ enjoyed
+ it,
+ we'd
+ be
+ very
+
+
+grateful
+ if
+ you
+ would
+ consider
+
+
+subscribing
+ if
+ you
+ haven't
+ already,
+ or
+
+
+leaving
+ a
+ positive
+ review
+ or
+ comment
+ on
+
+
+whichever
+ platform
+ you're
+ watching
+ this
+
+
+or
+ listening
+ to
+ this
+ episode
+ from.
+ This
+
+
+really
+ helps
+ us
+ build
+ a
+ podcast
+ and
+ get
+
+
+great
+ guests.
+ Thanks,
+ and
+ see
+ you
+ at
+ the
+
+
+next
+ episode.
