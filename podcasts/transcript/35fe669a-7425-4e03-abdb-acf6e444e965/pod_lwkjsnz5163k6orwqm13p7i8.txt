@@ -1,0 +1,1507 @@
+[Speaker 0]: 主要是 AI 效率又非常非常的高，
+[Speaker 0]: 会上瘾，
+[Speaker 0]: 想把它一口气做完，
+[Speaker 0]: 那种感觉，
+[Speaker 0]: 就跟那个黑客帝国里面那个你有拔插几个硬盘，
+[Speaker 0]: 就能学会各种各样的武功一样。
+[Speaker 0]: 很多工作其实都已经被打磨的非常好了。
+[Speaker 1]:  hello，
+[Speaker 1]: 大家好，
+[Speaker 1]: 欢迎回到贵编桌，
+[Speaker 1]: 我是子瑜，
+[Speaker 2]: 我是卢米。
+[Speaker 2]: 今天请到的嘉宾是我们的老朋友。
+[Speaker 2]: 石同学首先邀请石同学跟听众朋友们打个招呼，
+[Speaker 2]: 也简单介绍一下自己。
+[Speaker 2]:  hello，
+[Speaker 2]: 大家好啊我，
+[Speaker 0]: 是石同学我。
+[Speaker 0]: 现在从事的工作呢主要是做机器人在建筑方面的应用然。
+[Speaker 0]: 后也尝试着在工作的过程当中和课余的过程当中在，
+[Speaker 0]: 做一些 AI 相关的一些项目然。
+[Speaker 0]: 后从中来探索最新的 AI 的一些技术和这一些可能的挑战在。
+[Speaker 0]: 参加这个工作之前我，
+[Speaker 0]: 主要是在做无人机相关的研究做，
+[Speaker 0]: 无人机的巡检和自主导航方面的研究工作在。
+[Speaker 0]: 研究生毕业之后读博之前我跟，
+[Speaker 0]: 几个合作伙伴呢一起在做了一家创业公司主要。
+[Speaker 0]: 的做的工作呢也是做自主导航和运动感知方面的工作你听。
+[Speaker 2]: 起来这些方向都相当的现在，
+[Speaker 2]: 都是风投啊都相，
+[Speaker 2]: 当的赚钱现在就。
+[Speaker 2]: 是研究无人机现在就，
+[Speaker 2]: 是大疆的无人机是最好用的嘛还是有，
+[Speaker 2]: 别的什么品牌也比较好我完全。
+[Speaker 2]: 是不知道嗯大疆。
+[Speaker 0]: 的，
+[Speaker 0]: 话在无人机市场占有率方面肯定是非常高嘛然后但它。
+[Speaker 0]: 是主要是用于的是一些比较主流的应用就是一些，
+[Speaker 0]: 摄影啊拍照啊当、
+[Speaker 0]: 然它也，
+[Speaker 0]: 有很多巡检方面的一些呃方案但还有很多。
+[Speaker 0]: 其他的无人机公司呢可能会给一，
+[Speaker 0]: 比客户和和项目呢做一些专业的定制比如说有些。
+[Speaker 0]: 在隧隧道里面啊或者是在没，
+[Speaker 0]: 有很好的有那个呃 gps 信号的环境下呀或者是一些，
+[Speaker 0]: 需要负载一些特殊的传感器做一些特殊，
+[Speaker 0]: 的信息采集啊这方面的。
+[Speaker 0]: 话，
+[Speaker 0]: 可能就是一些其他的公司来完成嗯无人机这。
+[Speaker 2]: 个，
+[Speaker 2]: 技术里面什么是比较难的点就是现在这。
+[Speaker 2]: 个技术上什么点比较难攻克为什么好像，
+[Speaker 2]: 以前大家？
+[Speaker 2]: 用的不多现在突然一下，
+[Speaker 2]: 子好像就开始可以摄影啊做各种东西了，
+[Speaker 2]: 突然一下子变得，
+[Speaker 2]:  popular 起来他现在的技术的。
+[Speaker 0]: 话其实还是分布的很广的他也算是一个可，
+[Speaker 0]: 以自主行动的一个机器人它会飞然后他在，
+[Speaker 0]: 三维环。
+[Speaker 0]: 境当中呢做一些动作那它其实涉及到的。
+[Speaker 0]: 就是也是比如说路径规划啊对物体和比如说人，
+[Speaker 0]: 物啊一些识别啊然后在特殊的一些，
+[Speaker 0]: 工作内容方面可能要触发一些特，
+[Speaker 0]: 殊传感器啊和一些其他的一些采集工作啊嗯这方面其实跟自动。
+[Speaker 0]: 驾，
+[Speaker 0]: 驶和现在的那些呃视觉模型啊和一些这方面的技术的成熟都是呃相互有关联的因为这些技术的成熟导。
+[Speaker 0]: 致了这个应用变得更，
+[Speaker 0]: 加可靠更加实用然后所以做这，
+[Speaker 0]: 方面的用。
+[Speaker 0]: 户体验可能也就变得更好了然后大家可能就会比较。
+[Speaker 0]: 喜欢然后用的也会比较多看，
+[Speaker 0]: 到的视频啊图片啊嗯然后质量可能也、
+[Speaker 0]: 会越来越高因为它同时还涉及到一些。
+[Speaker 0]: 比如说是图传啊然后一些摄影摄像啊这些，
+[Speaker 0]: 各种各方面的、
+[Speaker 0]: 部件和，
+[Speaker 0]: 技术传感器方案都在提升所以整个整体使用感受的。
+[Speaker 0]: 话就确实好了嗯现在是因为就是 AI 技术变。
+[Speaker 2]: 好，
+[Speaker 2]: 了导致它图片这个识别功能比，
+[Speaker 2]: 以前强很多了现在有 AI 的话在识别方面确。
+[Speaker 0]: 实变得可靠性，
+[Speaker 0]: 啊和使用体验都会好了很但是我感觉其实无人机最主要。
+[Speaker 0]: 的技术已经成熟有一段时间它只是在一些各种。
+[Speaker 0]:  edge case 啊或者一些更加精益求精这方面，
+[Speaker 0]: 这样的一些提升他最主要，
+[Speaker 0]: 的呃非控啊然后自助导。
+[Speaker 0]: 航啊避障啊这些技术，
+[Speaker 0]: 已经成熟有一段、
+[Speaker 0]: 时间了，
+[Speaker 0]: 好多年了有几年了也不是说现在，
+[Speaker 0]:  AI 出来才，
+[Speaker 0]: 成熟 AI 之前他就已经很成熟了哦我完全，
+[Speaker 0]: 不知道呃对各位听众看不。
+[Speaker 2]: 见，
+[Speaker 2]: 那个我们嘉宾的，
+[Speaker 2]: 表情看见的是完全一个门外还在问问题，
+[Speaker 2]: 嘉宾有点很愣不知道在问什么说到起。
+[Speaker 2]:  AI 我们的这个嘉宾石同学是个。
+[Speaker 2]: 非常 AI 的，
+[Speaker 2]: 忠实的用户吧应，
+[Speaker 2]: 该是嗯就是请问石同学最近是用 AI。
+[Speaker 2]: 来做了一些什么事情呢有没有具体的应用对啊最近把一些工作？
+[Speaker 2]: 或一些想做的事情？
+[Speaker 0]: 的 AI，
+[Speaker 0]: 化了比如呢我有做帮助公司内部做一些专利。
+[Speaker 0]: 研究方面的一些 AI 的自动化让这个专利相关的问题的研究变得更加，
+[Speaker 0]: 高效然后再做机器人方面的一些数据采集和分。
+[Speaker 0]: 析报告生成这方面也做了一些自动化就是把一些可能我日常可能会涉及到的一。
+[Speaker 0]: 些工作尝试让 AI 把它自动化了然后同时也帮助一些其他，
+[Speaker 0]: 的部门然后一起探。
+[Speaker 0]: 索一些 AI 的其他的应用另外的话，
+[Speaker 0]: 也在帮助一些比如说你知道机器人。
+[Speaker 0]: 卖出去之后也要做一些，
+[Speaker 0]: 售后啊维护啊然后检修啊这方面，
+[Speaker 0]: 的工作也尝试着让 AI、
+[Speaker 0]: 把整个，
+[Speaker 0]: 流程变得更，
+[Speaker 0]: 加自动化更加有有效率因为这都是一些日常呃人类比较，
+[Speaker 0]: 不太愿意做的。
+[Speaker 0]: 事情也比较繁琐呃但是重复度也比较高然后它的接口也相对来说。
+[Speaker 0]: 比，
+[Speaker 0]: 较清晰然后 AI 处理起，
+[Speaker 0]: 来还都挺好的就是在各个方面都在，
+[Speaker 0]: 做一些 AI 的尝试嘛所以就是，
+[Speaker 0]: 想问一个简单而有冲有冲击的问题就是你。
+[Speaker 2]: 觉得有 AI 之后你是更闲了还是更繁忙了啊对，
+[Speaker 2]: 我感觉有 AI 之后更累，
+[Speaker 2]: 了因为 AI 速效率很高但我人类，
+[Speaker 0]: 大脑的处理速度有限但我。
+[Speaker 0]: 如果是充分使用 AI，
+[Speaker 0]: 的话呃我就得同屏脑子可能会。
+[Speaker 0]: 经常会需要切换同步会做好，
+[Speaker 0]: 多，
+[Speaker 0]: 事情然后如果我真的是全力使用 AI 的情况下，
+[Speaker 0]: 还是挺挺疲劳我。
+[Speaker 0]: 有一点感触就是比如说我是做在在做一，
+[Speaker 0]: 个项目但比如。
+[Speaker 1]: 说三个不同的，
+[Speaker 1]: 任务然后我开了三个 agent 的窗口然后，
+[Speaker 1]: 比如说我我分别给他们三，
+[Speaker 1]: 个派任务派完之后呢我还得，
+[Speaker 1]: 回来去挨个的去检查然后每个任务它还，
+[Speaker 1]: 不是完全相，
+[Speaker 1]: 关的所以就得不断的切换自。
+[Speaker 1]: 己的脑子然后就觉得很累我觉得三，
+[Speaker 1]: 个基本上是我的上限就不能再多了，
+[Speaker 1]: 要不然就感觉这。
+[Speaker 1]: 个大脑已经转不过来了对现在其实啊局限就是，
+[Speaker 1]: 人类信息读取的速度有硬件的壁垒所以。
+[Speaker 0]: 说，
+[Speaker 0]: 他一呃一旦处理的速度呃东西多的情况下，
+[Speaker 0]: 确实是更疲劳。
+[Speaker 0]: 但主要是 AI 效率又是非常非常的高然后会上瘾真，
+[Speaker 0]: 的会上瘾嗯想，
+[Speaker 0]: 把它一口气一口气做完了那种感觉。
+[Speaker 0]: 是但一口气，
+[Speaker 0]: 可能要把它，
+[Speaker 0]: 憋，
+[Speaker 0]: 憋的不行对一周之内 token 如果，
+[Speaker 0]: 没用光的话，
+[Speaker 0]: 一定要在截止期前把它用光对啊。
+[Speaker 1]: 就，
+[Speaker 1]: 跟 android capacity 说的一样确实是是 AA，
+[Speaker 1]: 焦焦虑刚才你提到的那个你。
+[Speaker 1]: 在公，
+[Speaker 0]: 司大家的这个自动化，
+[Speaker 0]: 流程里边这个框架。
+[Speaker 1]: 能稍微展开一下这个框架你指的具体是什么框架的话基，
+[Speaker 1]: 本上也是一个流程嘛先是跟公司相。
+[Speaker 0]: 关的业务了解到他们这个业，
+[Speaker 0]: 务具体在做些什么他们。
+[Speaker 0]: 有些什么东西想要把它，
+[Speaker 0]: 自动化然后根据这个方面需要自动化。
+[Speaker 0]: 的内容呢可能采用不同的架构嗯说，
+[Speaker 0]: 的比较 injury 一点的话考虑怎么样呃把这个，
+[Speaker 0]: 呃数据和相关的数据。
+[Speaker 0]:  knowledge，
+[Speaker 0]: 以怎样的方式把它保，
+[Speaker 0]: 存下来然后尝试把这个寻找整个流程过程当中是否有那种 standard operation 然后把它可。
+[Speaker 0]: 能转化成类似于 skill 或者一系列的 skill 的这，
+[Speaker 0]: 种方式然后最后的。
+[Speaker 0]: 话可能要建立相关的一些呃 evaluation 的一些标准然后来把这些东。
+[Speaker 0]: 西最后有个闭环然后让它可以至少迭代几次再输出给，
+[Speaker 0]: 用户而不是说一个 fit forward 的一个系，
+[Speaker 0]: 统然后另外的话可能就是一些数据接口啊，
+[Speaker 0]: 信息安全也是要考虑的就你说的。
+[Speaker 0]: 那个 evaluation 那个环节因为我看你发的那个视，
+[Speaker 0]: 频里边你有三个框架就。
+[Speaker 1]: 是怎么样去充分的去自动，
+[Speaker 1]: 化 AI 的这个流程然后给他设置，
+[Speaker 1]: 一些成功的标，
+[Speaker 1]: 准然后最终有一些验证还有 evaluation 的这个步骤需要，
+[Speaker 1]: 有这个过程中有多少是你自己，
+[Speaker 1]: 去设定这个标准然后，
+[Speaker 1]: 有多少是 AI 自动帮，
+[Speaker 1]: 你去设定的这个标准就大概他他这个比例是什么样的，
+[Speaker 1]: 或者有没有一个具体的例子可以举一下这个。
+[Speaker 1]: 标准基本上都是跟行业专家一起，
+[Speaker 1]: 设计的跟行业专家一起讨论然后交流清楚。
+[Speaker 0]: 这你要做，
+[Speaker 0]: 的这件事情首先我们自己得非常熟，
+[Speaker 0]: 悉要做的这件事情一，
+[Speaker 0]: 般这件事情做。
+[Speaker 0]: 出来呢就是比如说我，
+[Speaker 0]: 非常熟悉 AI 的架构我知道，
+[Speaker 0]: 怎么把这个事情。
+[Speaker 0]: 用 AI 来搭出来但做这件，
+[Speaker 0]: 事情呢一般肯定是配上专门做这，
+[Speaker 0]: 个事情的专业人士他知道这个事情现在。
+[Speaker 0]: 就是怎么评估的，
+[Speaker 0]: 或者他的 deliver 有哪些要求然后是跟他一起讨论。
+[Speaker 0]: 然后定下来这个事情什么东西比较重，
+[Speaker 0]: 要应该看哪些内容然后，
+[Speaker 0]: 什么东西可能并没有，
+[Speaker 0]: 那么重要在我了解清楚之后呢我用语言把，
+[Speaker 0]: 这个表达出来然，
+[Speaker 0]: 后再通过 AI 呢把这个东西以比较好。
+[Speaker 0]: 的方式融进到这个 evaluation，
+[Speaker 0]: 的这一个环节当中当然融，
+[Speaker 0]: 进去的这个过程当中呢可能就是我跟 AI 相互之间一几轮的一些确认嗯你提到这。
+[Speaker 0]: 个里面有一点很有意思就是那，
+[Speaker 0]: 些专家就是他们自己不会去找 AI 去搭这个架。
+[Speaker 2]: 构，
+[Speaker 2]: 吗还是说就是一定要就感觉你已，
+[Speaker 2]: 经是公司里的 AI 小能的时候大家都会来找你来做这么一？
+[Speaker 2]: 件事情那对对啊现在是这样子因为他们知道 ai 很好用但他们，
+[Speaker 2]: 只能用一些市面上已有的一些 ai 工。
+[Speaker 0]: 具但是对于，
+[Speaker 0]: 很多公司业务，
+[Speaker 0]: 来说的话既然能够很深，
+[Speaker 0]: 入的定制呃为什么一定要用听用的方式呢因。
+[Speaker 0]: 为可以很深入的定制的话它的优，
+[Speaker 0]: 化的空间就会大很多嗯，
+[Speaker 0]: 石，
+[Speaker 0]: 同学能跟听众介绍一下就是你？
+[Speaker 0]: 有说的定制大概是用 AI 就是，
+[Speaker 0]: 怎么使用 AI 你是怎么使用 AI。
+[Speaker 2]: 的定，
+[Speaker 2]: 制的话我的意思可能就指，
+[Speaker 2]: 的话是根据我们现在已有的业，
+[Speaker 2]: 务线然后根据我。
+[Speaker 2]: 们的实际情况实际？
+[Speaker 0]: 输入实际的，
+[Speaker 0]: 知识内容实际的一些呃感兴趣的内容然后来建立 ai 的，
+[Speaker 0]: 这么一个工作流程或者是这么 AI 的相关的系统来配合，
+[Speaker 0]: 我们工作或者来帮助我们代，
+[Speaker 0]: 替我们做一部分我们觉得现在可能，
+[Speaker 0]: 不太愿意做或者是比较繁琐的一些工作或者，
+[Speaker 0]: 是我们觉得 AI 特别适合做的一些工。
+[Speaker 0]: 作这样的话我们可以把时间可，
+[Speaker 0]: 以放到其他的内容上因为它，
+[Speaker 0]: 每个公司都是有它的历史积累出来的各种。
+[Speaker 0]: 各样的一些价值观也好评估方式也好呃然后他们自。
+[Speaker 0]: 己的局限也好然后呃人呃内容的输入输出的，
+[Speaker 0]: 这些接口啊和人员啊都是不，
+[Speaker 0]: 一样的很难去，
+[Speaker 0]: 找，
+[Speaker 0]: 一个通用平台以前的话就，
+[Speaker 0]: 得学学习这个通用平台然后来调用这个通用平台的一定的能力然，
+[Speaker 0]: 后来帮助我们做一些工。
+[Speaker 0]: 作但现在可以手搓一个比较适合我们，
+[Speaker 0]: 的嗯就是可能我想就是站在很多人的角，
+[Speaker 0]: 度来说吧就是比如说很多人。
+[Speaker 0]: 使用 AI 就是有一些 MI 这么一个网页对。
+[Speaker 2]: 吧，
+[Speaker 2]: 就是大概就是每天就是通过对话的方式认识同，
+[Speaker 2]: 学是比较高级的玩家你是，
+[Speaker 2]: 通过怎样的一个手段去用你，
+[Speaker 2]: 的 AI？
+[Speaker 2]: 让他定制化呢你能举一个具体一点的例子比如说，
+[Speaker 2]: 就拿可能你视频中。
+[Speaker 2]: 来说我比如想做一个比如说三 d 的动画你会怎么去呃？
+[Speaker 2]: 处理这个这么一件事怎么拆。
+[Speaker 2]: 解怎么动动手一般来说的话做，
+[Speaker 2]: 三 d 动画吧呃这个这个我还没做过，
+[Speaker 2]: 但如果我打算做的话我可能会这么，
+[Speaker 2]: 来切入吧首，
+[Speaker 2]: 先我想要了。
+[Speaker 0]: 解这个三 d 动，
+[Speaker 0]: 画它的输入输，
+[Speaker 0]: 出到到底是些什么我们，
+[Speaker 0]: 已经有哪些素材一般，
+[Speaker 0]: 是什么样类型的素材然。
+[Speaker 0]: 后最后的输出期望一个什么样，
+[Speaker 0]: 的情什么样的一个输出的方式然？
+[Speaker 0]: 后搞清楚这个之后呢，
+[Speaker 0]: 下一步呢就是说我可能会，
+[Speaker 0]: 去看一下现在开源的市面上已经有哪，
+[Speaker 0]: 些比较好用的一些流程或。
+[Speaker 0]: 者 skill 或者一些相关的一，
+[Speaker 0]: 些开源项目大概了解到市面上已经做成一个什么样子的情况了然后当然也可以看看有没，
+[Speaker 0]: 有可以，
+[Speaker 0]: 借鉴的东西可以借鉴的方式然。
+[Speaker 0]: 后的话可能就是如果对一些比较简单的内容如果市。
+[Speaker 0]: 面上已经很成熟的方式的话可能直接就可以，
+[Speaker 0]: 用了然后可能只。
+[Speaker 0]: 要稍稍调整一下输入输出这样的话就能达到我，
+[Speaker 0]: 们想要的这个最后的一个呃视频的，
+[Speaker 0]: 内容了然后如果社区里。
+[Speaker 0]: 面的方案并不太满意的话就可以呃找，
+[Speaker 0]: 到哪些部分不太满意然后这些部分不太满意的地方是否可以用。
+[Speaker 0]: 一些流程把这个东西把它拆解到一系列的，
+[Speaker 0]: 小的工作然后让这些小的工作让。
+[Speaker 0]:  AI 可以比较好的高质量的完成，
+[Speaker 0]: 然后再通过一些类似于，
+[Speaker 0]:  skills 或者是其他的方式把这些被分解后的一，
+[Speaker 0]: 块一块小工作给整合起来然后最后一般来说我都是愿。
+[Speaker 0]: 意给他做一个闭环的就肯定要加一个 evaluator 或者，
+[Speaker 0]: 是一个方式来评估这个东西做的怎么样可能这。
+[Speaker 0]: 个一百六 a ter 在各种各个阶段可能都会有一些小，
+[Speaker 0]: 的一些闭环这样保，
+[Speaker 0]: 证它的输入输出会比较可靠一点呃不是我每次。
+[Speaker 0]: 都是让人工来把这个 loop 给 close 特特别烦现在不是市面上很火的一个概，
+[Speaker 0]: 念叫那个 loop engineering 嘛它这个东西呢也是类似。
+[Speaker 0]: 的，
+[Speaker 0]: 概念但它已经提供给用户一个比较好的，
+[Speaker 0]: 一个上差。
+[Speaker 0]: 不多是算算参考参考设计吧它是，
+[Speaker 0]: 一个类似于呃。
+[Speaker 0]: 一些 AI agent 一些架构可以通过那，
+[Speaker 0]: 些架构来完成一些比较重要的一些呃功能，
+[Speaker 0]: 比如说是 memory management 吧然后做一些 subagent。
+[Speaker 0]: 啊 subagent 的话就是 context management 吧比较好然后然后来，
+[Speaker 0]: 还有是 sculs 当然是已经说了很多遍了就是它是一个比较。
+[Speaker 0]: 好的嗯承接一个，
+[Speaker 0]:  stand operation process 的一个载，
+[Speaker 0]: 体然后它提供了一个标准。
+[Speaker 0]: 设计差不多就是一个，
+[Speaker 0]: 参考的一个架构然后我们，
+[Speaker 0]: 只要把我们想要的内容选择适合的架构然后让这个架。
+[Speaker 0]: 构里面的那些 element 做一些专门，
+[Speaker 0]: 的工作然后就可以把这个东西给。
+[Speaker 0]: 拼出来大概是这么一个想法吧一个比较粗略的也，
+[Speaker 0]: 是边说边想嗯嗯比如说去找那个市面上那个那些，
+[Speaker 0]: 开源的工具应该不是你去搜而是你。
+[Speaker 0]: 告诉 AI 你你是给他放权，
+[Speaker 0]: 让他去随意去找对吧一般来说。
+[Speaker 1]: 的话，
+[Speaker 1]: 呃我都是在开源社区搜嘛然后一般就是 get up，
+[Speaker 1]: 的 community 里面搜嘛然后，
+[Speaker 1]: 大概就能看到，
+[Speaker 1]: 了那些几百 k 型，
+[Speaker 1]: 的一些项目啊他，
+[Speaker 1]: 的现？
+[Speaker 0]: 在现在有很多项目他都是都是做成一个 hub，
+[Speaker 0]: 一样的东西它可以把一系列相关，
+[Speaker 0]: 的功能的一些 gill 啊他们可能全部把它集结起来了。
+[Speaker 0]: 比较有名的可能就是有他，
+[Speaker 0]: 们专门做那个 go to marketing marketing 的一个 skill 的。
+[Speaker 0]: 一个 hub 那里面有一大堆各种各样 marketing 各方，
+[Speaker 0]: 面的那个 skill 可能最有名的是 everything。
+[Speaker 0]:  cloud code 吧它里面的 skill 的库就更全面了呃各式各样它的网页里面可以看。
+[Speaker 0]: 到各种工作各种类型它都有专，
+[Speaker 0]: 门的 skill 就跟那个，
+[Speaker 0]: 黑客帝国里面那个 neo 拔插，
+[Speaker 0]: 几个硬盘就能学会各种各样。
+[Speaker 0]: 的，
+[Speaker 0]: 武功一样现在这个 skill 的市场已经非常丰富，
+[Speaker 0]: 很多工作，
+[Speaker 0]: 其实都已经被打。
+[Speaker 0]: 磨的非常好了那回到就是刚才咱们说的第一个，
+[Speaker 0]: 问题就比如说像卢敏提到的想。
+[Speaker 0]: 做一个三 d 的动画这种那比如说，
+[Speaker 0]: 最开始的时候你是拿的有这样一个想法。
+[Speaker 1]: 或者拿到一个这样的任务你一般是怎么，
+[Speaker 1]: 开始用 AI 去来开始这个，
+[Speaker 1]: 工作啊如果我完全不知道。
+[Speaker 1]: 的情况下我肯定是一开，
+[Speaker 1]: 始先跟 AI 讨论一下找一个，
+[Speaker 1]: 比较厉害的模型开一个比。
+[Speaker 1]: 较呃长时间思考的这种方式让他跟他好好讨？
+[Speaker 0]: 论一下呃这个现在什么样的方，
+[Speaker 0]: 式做啊然后怎么做啊然后这个问，
+[Speaker 0]: 题可能拆解成什么样的，
+[Speaker 0]: 情况呃各个细分的问题来做啊呃这可，
+[Speaker 0]: 能是一个不足不可避免。
+[Speaker 0]: 的但，
+[Speaker 0]: 如果一碰到一些现在很多其，
+[Speaker 0]: 他的一些小的，
+[Speaker 0]: 一些工作流程或一些任务要做的时候因，
+[Speaker 0]: 为，
+[Speaker 0]: 我自己已经做了很多类，
+[Speaker 0]: 似，
+[Speaker 0]: 的项目所以说很多结构架架构。
+[Speaker 0]: 我自己已经比较清楚了那我可能就直接就是问一些更细致的一些问题就不需要跟他，
+[Speaker 0]: 呃在很 high level 的框架和 high level 的整体的一。
+[Speaker 0]: 些软件架构上做一些过多的讨论那比如说就是。
+[Speaker 0]: 要是说的详细一点的你是比如说开了那个 plan mode，
+[Speaker 0]: 我不开 plan mode 我不用 plan mode plan mode 这个东西是在 ki top p pilot 里面有的对不啦呃好像在就是正。
+[Speaker 1]: 常的那个 cloud code 和 code x 里面都有 plan mode，
+[Speaker 1]: 啊我一般不用不怎不不怎，
+[Speaker 0]: 么用 plan mode 那，
+[Speaker 0]: 他不会就直，
+[Speaker 0]: 接就开始手搓代就搓代码了就不会啊，
+[Speaker 1]: 你跟他？
+[Speaker 1]: 说，
+[Speaker 1]: 一声不要让他不是讨论嘛他他知道你在跟他讨论啊，
+[Speaker 0]: 他不怎么会开始搓呢你肯定要明，
+[Speaker 1]: 确的跟他说我们现在在讨论然后我有我没有，
+[Speaker 0]: 什么问题。
+[Speaker 0]: 然后我们讨论，
+[Speaker 0]: 几次把一些什么框架，
+[Speaker 0]: 呀什么什么问题啊解理解，
+[Speaker 0]: 清楚然后你做一下调研。
+[Speaker 0]: 啊我们先讨论你先不要，
+[Speaker 0]: 执行如果你实在，
+[Speaker 0]: 不放心再加一句你不要执。
+[Speaker 0]: 行他一看一般不会执行的现在的已经，
+[Speaker 0]: 很聪明了没有那么那么冲动，
+[Speaker 0]: 嗯 OK 我一般就用那个，
+[Speaker 0]:  plan mode 就也不，
+[Speaker 0]: 用跟他多说他。
+[Speaker 0]: 就直接他就不会干，
+[Speaker 0]: 了对我一般用 agent mode 因为，
+[Speaker 0]: 我感觉 plan mode 的话它很多。
+[Speaker 0]: 东西它不能调用他干脆，
+[Speaker 0]: 看看你现在你做调。
+[Speaker 0]: 研，
+[Speaker 1]: 方，
+[Speaker 1]: 式嗯这也是分不同的，
+[Speaker 1]: 内容吧因为有些内，
+[Speaker 1]: 容比如说你做 coding 方面的。
+[Speaker 0]: 一些内容可能就，
+[Speaker 0]: 可以调用一些呃比较，
+[Speaker 0]: 成熟的一些 coding 的框架像，
+[Speaker 0]: 我之前视频里。
+[Speaker 0]: 提到的那个 super powers 啊或，
+[Speaker 0]: 者，
+[Speaker 0]:  GSD 啊它里面都有专门跟。
+[Speaker 0]: 用户讨论的这，
+[Speaker 0]: 么一个环节的它是跟用户讨论，
+[Speaker 0]: 然后来理解问题帮用户把一个很抽象的问题拆解。
+[Speaker 0]: 成一个可执行的一系列小问题然后来搞清楚，
+[Speaker 0]: 用户具体想要做成做成什么样子如果用户不清楚。
+[Speaker 0]: 的话如果是用这，
+[Speaker 0]: 种方式的话可能，
+[Speaker 0]:  plan plan mode 不太能做吧因为我一般都是用 agent mode 的我比较少用 plan mode 只。
+[Speaker 0]: 是用语言上来跟他说现在我们是在讨论而且这样。
+[Speaker 0]: 比较好的是嗯一般来，
+[Speaker 0]: 说现在讨论的过程当中，
+[Speaker 0]: 最好也是把讨论的内容。
+[Speaker 0]: 也可以比较好的可以把它，
+[Speaker 0]: 那个固化下来而，
+[Speaker 0]: 不是讨论完只这个内容，
+[Speaker 0]: 只在这个 session 里面下，
+[Speaker 0]: 次开个 new session 这个内容又没了说一般我比较偏向于还是直，
+[Speaker 0]: 接使用 agent mode 那然后你会把你们的聊天记，
+[Speaker 0]: 录存成本地的文件嘛就。
+[Speaker 0]: 这样沉淀下来对呀那像你刚，
+[Speaker 0]: 才提到的那些框架一般你是在，
+[Speaker 0]: 什么节点开始用，
+[Speaker 0]: 这些框架应该不是在一开始的时候就用。
+[Speaker 1]: 对啊但我发现当同事可能我做某一个内容的时候，
+[Speaker 1]: 做了第一次或者。
+[Speaker 1]: 第二，
+[Speaker 1]: 次再做的时候我发现哎这个，
+[Speaker 1]: 事情可能有些类似可以把它固化下来然，
+[Speaker 1]: 后这时候我可能就是想找框架。
+[Speaker 0]: 把它，
+[Speaker 0]: 比较好的固化下来因为我不想每次都可能 AI，
+[Speaker 0]:  prompt 这么多都这么多遍而且每次的水，
+[Speaker 0]: 平可能会参差不齐会有波动而且每，
+[Speaker 0]: 次它也不能递归式。
+[Speaker 0]: 的进化所以说就会觉得不太满意这时候我就会开始要找。
+[Speaker 0]: 框架想要把这个东西嗯呃一个比较，
+[Speaker 0]: 好的一个框。
+[Speaker 0]: 架把它固化下来然后可以它可以，
+[Speaker 0]: 自我净化。
+[Speaker 0]: 然后因为这个事情也会再重复的，
+[Speaker 0]: 出现所以说以后下一次可能。
+[Speaker 0]: 可以用明白那那这里边你提，
+[Speaker 0]: 到这个框架能不能给就是不熟悉的朋友们介绍一下这个框，
+[Speaker 0]: 架是是一个什么样概念我。
+[Speaker 0]: 说的框架的话可能是指呃比如说像 skill，
+[Speaker 0]: 这样的一种方式或者是像 block in 就是一。
+[Speaker 1]: 系列的 scale 和一系列的这些流程的一些方式或者是像 loop loop engineering 里面提到的这个 loop 这种方式这可能是三。
+[Speaker 0]: 个例子吧那有没有什么具体的框架可以推荐的就比如说你，
+[Speaker 0]: 经常用的一些啊已有的编程的框架的话就是像 super powers 啊还有 GSD 啊，
+[Speaker 0]: 然后 stack 然后一些日常工作方面的一些框架的。
+[Speaker 0]: 话 everything cloud code 提供了非常。
+[Speaker 1]: 好的一个框架暂时脑子里是这些吧还？
+[Speaker 0]: 当然还有很多其他的嗯对这个具体的细节问题可以关，
+[Speaker 0]: 注石同学的 youtube，
+[Speaker 0]: 账号叫系，
+[Speaker 0]: 统再建。
+[Speaker 0]: 再见不是那个白白的那个再见是正在建，
+[Speaker 0]: 设的再见是的我你是在那个只在 youtube。
+[Speaker 0]: 上面吗还是在 b 站上，
+[Speaker 0]: 面也有那现在就在 youtube 上。
+[Speaker 1]: 吗，
+[Speaker 1]:  OK 明白我想问就是你在工作上或者是在生活上你，
+[Speaker 1]: 做过什么就，
+[Speaker 1]: 是让。
+[Speaker 1]:  AI 让你的生活就，
+[Speaker 1]: 是有效率，
+[Speaker 1]: 极大化的一件，
+[Speaker 1]: 事是。
+[Speaker 1]: 什么就，
+[Speaker 1]: 是你自动化了什么让你觉得？
+[Speaker 1]: 就以前我很烦的一件，
+[Speaker 0]: 事就再也没有再出？
+[Speaker 1]: 现过了，
+[Speaker 2]: 还是说，
+[Speaker 2]: 你自从自动化之后因为这件事自动化你有多？
+[Speaker 2]: 的时间别的人就来烦你的发现你这个烦你的事情永远不？
+[Speaker 2]: 停的增多并没有减少对啊做自动化之后就发现各种各样，
+[Speaker 2]: 的东西都可以自动化啊。
+[Speaker 2]: 好像变得更忙了所以你大大，
+[Speaker 2]: 概就是以前有没有，
+[Speaker 2]: 什么比较自己，
+[Speaker 2]: 印象深刻并并且很，
+[Speaker 2]: 自豪的项目基本上就是因为现在整个开，
+[Speaker 2]: 发流程都是。
+[Speaker 0]: 被高，
+[Speaker 0]: 度自动化的基本上在售后的话如果用户有一些问题一，
+[Speaker 0]: 般是一种某种 ticket。
+[Speaker 2]: 的方式发到我们的这个系统里面然后我们就可以用过 agent，
+[Speaker 2]: 来分析这个系统呃 ticket。
+[Speaker 0]: 然后寻找这个机器人上相关的一些 lock file 然后做专门的一。
+[Speaker 0]: 些分析因为我们自，
+[Speaker 0]: 己是知道有不少的以，
+[Speaker 0]: 前处理过的一些问题和该，
+[Speaker 0]: 看哪些内容然后基本上让 AAI。
+[Speaker 0]: 呢来帮我们把这个流程再跑一遍在用在人类，
+[Speaker 0]: 接手之前可以帮我们比较好的 future out 这种，
+[Speaker 0]: 一些噪音也好或者是没。
+[Speaker 0]: 必要的一些信息也好因为我们输入的话它会有大量的一些 lock while 的一些内。
+[Speaker 0]: 容也好和一些客户讲的一些描述也好可能都是只。
+[Speaker 0]: 有其中的一小部分是，
+[Speaker 0]: 真正跟问题相关的很多其他的噪音可能都是呃，
+[Speaker 0]: 我们希望能通过一些模式的对。
+[Speaker 0]: 比啊和一些关键词，
+[Speaker 0]: 啊或者是通过 agent 的一，
+[Speaker 0]: 些流程把这些噪音，
+[Speaker 0]: 给去掉然后让他来在人类接手之，
+[Speaker 0]: 前可以帮助我们可以更好的锁，
+[Speaker 0]: 定这个问题的到底在。
+[Speaker 0]: 哪里然后锁定之后呢 AI agent 也是可以帮我们把一些做一些测试啊或一些其他的一些，
+[Speaker 0]: 工作嗯而不用每次人工的，
+[Speaker 0]: 这个看着一个 document 一，
+[Speaker 0]: 步步的跟着做这个还是很繁，
+[Speaker 0]: 琐的就是石同学是一个在我的身边天天使用 AI 并且把。
+[Speaker 0]:  AI 用的很好的一，
+[Speaker 0]: 个人以至于他想要做 youtube 教别人怎么用 AI 对吧就是你身边是只有你这。
+[Speaker 0]: 么，
+[Speaker 0]: 一一样的一个人就是很会用 AI 还说，
+[Speaker 0]: 你有是发现了身，
+[Speaker 0]: 边很多同事也会这。
+[Speaker 2]: 样就是你当时做这个 youtube 的动机，
+[Speaker 2]: 是什么我做 youtube，
+[Speaker 2]: 的动机的话可能就是因为我发，
+[Speaker 2]: 现 ai 的进步非常快，
+[Speaker 2]: 然后我想在我学，
+[Speaker 2]: 习的？
+[Speaker 2]: 过程当中也能留下一些东西然后所以说我，
+[Speaker 2]: 觉得做 youtube 是一。
+[Speaker 2]: 个比较好的一个方，
+[Speaker 2]: 式可以把我边学边记录。
+[Speaker 2]: 边分享我做 youtube 的过程当中也相当于把？
+[Speaker 0]: 我看到的我学到的，
+[Speaker 0]: 或者是我想了解的一些内容嗯整理好。
+[Speaker 0]: 然后分享出来帮助我自己可以更好的把一些概念。
+[Speaker 0]: 啊解释给其他的人或者是在我工作当中啊或者日，
+[Speaker 0]: 常生活当中啊可能在聊到这些。
+[Speaker 0]: 内容的时候相对来，
+[Speaker 0]: 说会比较清晰一点我还以为就是太多人问石同学石同学已经，
+[Speaker 0]: 有点烦，
+[Speaker 0]: 恼了然后他就，
+[Speaker 0]: 说啊我来做个 youtube 别来问我了我就把这个发给你看你不，
+[Speaker 0]: 要来问我这个东西怎么答案哎有时候是这样子，
+[Speaker 0]: 我现在有时候呃有些内容确，
+[Speaker 0]: 实是因为我做 youtube 的经验让。
+[Speaker 2]: 我可以比较快速的把一些呃分，
+[Speaker 2]: 享做成视频有时候在过。
+[Speaker 2]: 程的工作当中，
+[Speaker 2]: 确实就是可，
+[Speaker 2]: 以这么可以，
+[Speaker 2]: 重复的分享嗯比较方，
+[Speaker 2]: 便嗯所以现在就是一个如，
+[Speaker 2]: 果是 junior 的。
+[Speaker 0]:  person，
+[Speaker 0]: 来了你们 team 你是，
+[Speaker 0]:  prefer AI 呢还是 prefer 有一个 junior 的 person 你来 teach 他怎么做这这个，
+[Speaker 0]: 活看这个是什么什么类型的工作比如什么类型。
+[Speaker 0]: 你就 prefer 呀什么类型的工作，
+[Speaker 0]: 你就说好那个 junior 我还是愿意花时间，
+[Speaker 0]: 尽，
+[Speaker 0]: 管你不懂。
+[Speaker 0]: 我，
+[Speaker 2]: 还是愿意去教你的因，
+[Speaker 2]: 为我们是很多是硬，
+[Speaker 2]: 件方面的工作可能，
+[Speaker 2]: 是因为现在 ai 还没有，
+[Speaker 2]: 进入到日常的工？
+[Speaker 0]: 作的环境当中所以说还是很多工作是需要，
+[Speaker 2]: 人的可能一些数字化的一些数字化的工，
+[Speaker 2]: 作然后业务方面，
+[Speaker 2]: 的日常重复性的流，
+[Speaker 2]: 程方面的呃文档类的工作的话可。
+[Speaker 0]: 能更偏向于嗯打磨一个比较好的 agent，
+[Speaker 0]: 然后来把这个事情做了而不是找一个 intern 然后来帮忙处理。
+[Speaker 0]: 一些这些琐碎的事情我就想问一下，
+[Speaker 0]: 你这个职位最开始你拿到这个职位的。
+[Speaker 0]: 时候是因为你之前就已经做了很多 AI 相关的，
+[Speaker 0]: 工作然后才去做的，
+[Speaker 0]: 这个职位还是说在你做了这个职位之，
+[Speaker 0]: 后然后你对 AI 比较感兴，
+[Speaker 0]: 趣然后才慢慢的，
+[Speaker 0]: 往这个方向偏呃因为我之前就在做类似。
+[Speaker 1]: 的工作因为我主要的工作，
+[Speaker 1]: 是做了 construction robot partnership 和 new application 这方面的，
+[Speaker 1]: 做一些技术方面的评估合作伙伴的评估技术，
+[Speaker 1]: 整合嘛这是我主要做的工。
+[Speaker 1]: 作这我之前就一直在做的然后，
+[Speaker 1]:  AI 来了之后呢是只是我，
+[Speaker 1]: 日常的我会在工作当中做一。
+[Speaker 0]: 些，
+[Speaker 0]:  initiative 然后慢慢的可能就会嗯公司，
+[Speaker 0]: 的同事啊各个部门啊可能大家对我就比较熟悉然后有类似的事情可能都会来找我然后慢慢的就可能做，
+[Speaker 0]: 做一些更多方面这方。
+[Speaker 0]: 面的工作嗯明白那就是。
+[Speaker 0]: 更像我说的那个后，
+[Speaker 0]: 者就是你对这个，
+[Speaker 0]: 比较感兴趣做的比较好然。
+[Speaker 0]: 后所以就是相当于在公司有这个 AI 方面、
+[Speaker 0]: 的 visibility 然后别，
+[Speaker 0]: 的人会来找你这样这个挺，
+[Speaker 0]: 好的我想问就是我比较好奇啊就是，
+[Speaker 0]: 像你们公司里边其他那些做技术的同事他们对 AI 的。
+[Speaker 0]: 接，
+[Speaker 1]: 受程，
+[Speaker 1]: 度怎么样然后他们使用 AI 的这个能力现在是什么样的水，
+[Speaker 1]: 平因为我问。
+[Speaker 1]: 这个问题是因为去年我也在公司做类似的事情，
+[Speaker 1]: 就推 AI 这个东西首先，
+[Speaker 1]: 可能我自己做的。
+[Speaker 1]: 也没有特别好了解的不是，
+[Speaker 1]: 特别多然后就做了一个 demo 然后再加上那个时候，
+[Speaker 1]:  AI 也不是特别的聪明就大概？
+[Speaker 1]: 在一二月份的时候尤其是我们当时那个代码是 my？
+[Speaker 1]:  sine 所以就是效果不，
+[Speaker 1]: 是特别好然后那个时候同事对于 AI agent，
+[Speaker 1]: 这个接受程度普遍。
+[Speaker 1]: 是比较低的现在今年尤其是今年之，
+[Speaker 1]: 后就大家的接受程，
+[Speaker 1]: 度普遍都上来了但，
+[Speaker 1]: 我就不知道比如说现在你们公司这个是一。
+[Speaker 1]: 个什么样的情况嗯也是一个，
+[Speaker 1]: 参差不齐的接受的态度也好能力，
+[Speaker 1]: 也好都是挺参差不齐的有。
+[Speaker 1]: 些人呢就特别的感兴趣愿意尝试有些人呢可能就比较保守。
+[Speaker 1]: 比较谨慎但也没有说哪边对，
+[Speaker 1]: 哪边不对但基本上就是这就是一。
+[Speaker 1]: 个现在的一个，
+[Speaker 1]: 状况这可能也是为什么我当时想做 youtube 另外一个，
+[Speaker 0]: 原，
+[Speaker 0]: 因吧因为我发现确实很。
+[Speaker 0]: 多人在使用 AI 方，
+[Speaker 0]: 面的认知，
+[Speaker 0]: 或者是理解或者是。
+[Speaker 0]: 智能的一些存储或者是相，
+[Speaker 0]: 关的一些。
+[Speaker 0]: 技能的一些熟悉程度上可能，
+[Speaker 0]: 都不太一，
+[Speaker 0]: 样然后我发现啊还是挺值得。
+[Speaker 0]: 分享一下因为我觉得我的内容还是能帮助。
+[Speaker 0]: 到他们所以说这可能也是一个原因嗯我刚刚你说到。
+[Speaker 0]: 有一点我特别的有感知就是有很多人使用 AI，
+[Speaker 0]: 的能力是完，
+[Speaker 0]: 全不一样就跟我们的身，
+[Speaker 0]: 边的同事就有的同事可能跟 AI 聊一下就一天就一个东西就。
+[Speaker 0]: 写个 code 或者一个 software 就弄弄完了有的人。
+[Speaker 0]: 就可能就来回了很多次来回了很多次但，
+[Speaker 0]: 是还是会卡在某个地方哈就。
+[Speaker 2]: 出，
+[Speaker 2]: 不去了就是你在使用 AI 的这么一一两，
+[Speaker 2]: 年的经验里面你觉得自己使用 AI 能力的增。
+[Speaker 2]: 长是来自于哪一方面你有没有觉得自己变得更厉害了，
+[Speaker 2]: 更有 experience 这 experience 主要是，
+[Speaker 2]: 来自于哪一个方面还是说你一开。
+[Speaker 2]: 始用 AI 的时候你就已经很知道，
+[Speaker 2]: 怎么让 AI 告诉，
+[Speaker 2]: 你你想听的答案嗯肯定不是，
+[Speaker 2]: 一开始就会知。
+[Speaker 2]: 道吗也也是我觉得也是在使用过程当中慢慢，
+[Speaker 2]: 的可以了解到 AI 它技术的边界在哪里但比较麻烦？
+[Speaker 2]: 的一点呢就是 AI 的技术边界它基？
+[Speaker 2]: 本上在？
+[Speaker 2]: 快速的变化所以说是一方面呢，
+[Speaker 2]: 可能通过一些项目呢可能可，
+[Speaker 2]: 以了解到呃怎么样把一些人类在做的一些工作把。
+[Speaker 0]: 它，
+[Speaker 0]: 通过 AI 可能能够转化成 AI 来？
+[Speaker 0]: 帮我们做一些工作这些可能是通过，
+[Speaker 0]: 一些项目可以比较清楚的知道一些这方面。
+[Speaker 0]: 的内容另一方面呢可能，
+[Speaker 0]: 就是也是在做不断，
+[Speaker 0]: 的学习了解最新的一些。
+[Speaker 0]: 比较好的架构啊比，
+[Speaker 0]: 较好的一些概念啊比，
+[Speaker 0]: 较好的一些那个分，
+[Speaker 0]: 析还有各种各样模型的一些局限啊然，
+[Speaker 0]: 后需要考虑的一些东西啊这也是在同步在学习的有。
+[Speaker 0]: 没有什么渠道论坛啊或者网站之类的你经，
+[Speaker 0]: 常去关注去看的也没有。
+[Speaker 0]: 特别多的渠道吧就是都是普通的那个渠道，
+[Speaker 0]: 吧应该大家都知道比如说像 youtube 呀像，
+[Speaker 0]:  x twitter 然后 github a inink 电影，
+[Speaker 0]: 都是一些呃公共媒体慢，
+[Speaker 0]: 慢的有一些关注然后后这些推荐，
+[Speaker 0]: 算法来帮我推荐现在的一些，
+[Speaker 0]: 发展你会考虑用 AI 比如，
+[Speaker 1]: 说做一个什么让他就是定期的给你推荐。
+[Speaker 1]: 新的东西嘛我有时候会，
+[Speaker 0]: 用但我现在还倒是有打，
+[Speaker 0]: 算搭一个但是我发现其实有。
+[Speaker 0]: 时候因为我我的，
+[Speaker 0]: 平台也并不是，
+[Speaker 0]: 那么多，
+[Speaker 0]: 我自己翻一翻的话也就当日常阅读了但是有些工作当中的。
+[Speaker 0]: 一些内容可能会把它让 AI 定期帮我做一些专利啊。
+[Speaker 2]: 分析啊工作因，
+[Speaker 2]: 为它是可能定期都，
+[Speaker 2]: 会有的但是日常的话可能到还没有到。
+[Speaker 0]: 那因为我还是，
+[Speaker 0]: 挺喜欢读一些比较好的文章我。
+[Speaker 0]: 觉得他们发出来我看到我关注的人发出来一些内容我读，
+[Speaker 0]: 的过程也是挺享受，
+[Speaker 0]: 的但不需要让 AI 帮我。
+[Speaker 0]: 把它变成 bullet point 然后来读比较无，
+[Speaker 0]: 聊说到这个你有什么自己特别喜欢关注的 AI 界的人。
+[Speaker 0]: 就是那些 leader 你会喜欢哪些人，
+[Speaker 0]: 吗有哪些人的风格你是特别或者他们的呃理想是你特别赞同呃什么 andrew pacy 啊。
+[Speaker 0]: 那个 cloud 他们他相关，
+[Speaker 0]: 的一些里面的一些呃人员啊然后 open i，
+[Speaker 0]: 里面的一些技术人员然后，
+[Speaker 0]: 还有一些做技术科普的一些博主，
+[Speaker 0]: 啊你最喜欢哪个技。
+[Speaker 2]: 术科普的，
+[Speaker 2]: 博主我们来扩展一下我的资源啊这样，
+[Speaker 2]: ，
+[Speaker 2]: ？
+[Speaker 2]: ？
+[Speaker 2]: ，
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 2]: ，
+[Speaker 2]: 。
+[Speaker 0]: 哎，
+[Speaker 0]: 我觉得那个最近那个硅谷幺零幺写的挺好的，
+[Speaker 2]: 硅谷幺零幺我看到一个人叫刘小排，
+[Speaker 2]: 他是原来好像 cloud code 用的那个 token 量最多的一个人。
+[Speaker 2]: 然后他好像每天都发一个公众号文章啊。
+[Speaker 0]: 对对对，
+[Speaker 0]: 他在公众号上是这个，
+[Speaker 0]: 我有我有看的，
+[Speaker 0]: 他写的也挺好的。
+[Speaker 0]: 他是来测试了一个非常专业的用户是是是。
+[Speaker 2]: 然后他也通过这个创业，
+[Speaker 2]: 我有个问题，
+[Speaker 2]: 就是我一直其实是我自己特别困惑的一个点。
+[Speaker 2]: 呃，
+[Speaker 2]: 也看到那个鸭哥，
+[Speaker 2]: 就是咱们那个论坛里面，
+[Speaker 2]: 鸭哥就是他也经常说，
+[Speaker 2]: 有的时候，
+[Speaker 2]: 比如说咱们说哎 AI 不好使我，
+[Speaker 2]: 用一个什么东西我，
+[Speaker 2]: 说想做一个什么东西他，
+[Speaker 2]: 没给我做出来其。
+[Speaker 2]: 实到最后不知道是那个是到了 AI 的边界还，
+[Speaker 2]: 是说我没用明白它我，
+[Speaker 2]: 不知道这个边界在哪就，
+[Speaker 2]: 是到底是我比如说我用更好的 prompt 我，
+[Speaker 2]: 用更好的架构一堆 scale 去调用这个 AI 然，
+[Speaker 2]: 后就能把它变得更聪明然，
+[Speaker 2]: 后能得到我想得到的还，
+[Speaker 2]: 是说这已经是 AI 的边界就，
+[Speaker 2]: 是这个你是怎么去判断我。
+[Speaker 2]: 可以举个我自己的例子因，
+[Speaker 2]: 为我发现 AI 有的时候真的是让我很惊喜就。
+[Speaker 2]: 是他突然之间给我推荐了一个算法或者，
+[Speaker 2]: 是比如说我算法哪里出现问题然后，
+[Speaker 2]: 导致这个结果跟预想的不一样然后。
+[Speaker 2]: 他就说啊你去，
+[Speaker 2]: 看一下这块然后，
+[Speaker 2]: 还真的就是那个问题就是，
+[Speaker 2]: 有过几次这样就是特别灵光乍现的时刻让我觉，
+[Speaker 2]: 得我靠这个 AI 好牛但有的。
+[Speaker 2]: 时候就是他会车轱辘话一直在说就比如，
+[Speaker 2]: 说我分析一为什么，
+[Speaker 2]: 我们这个 simulation 和 measurement 他不 match 然后他，
+[Speaker 2]: 的那个理由就是只是那几个理由但是我又。
+[Speaker 2]: 似乎觉得好像 AI 应该能给出更好的理由但是我就。
+[Speaker 2]: 没有有更好的方式去逼他说出这个正确答案我不知道。
+[Speaker 2]: 在你的这个工作和平时用 AI 的过程当中有没有这样，
+[Speaker 2]: 的情况就是怎么探，
+[Speaker 2]: 索 AI 的边界还是你自己，
+[Speaker 2]: 的交互的能力没有到你自，
+[Speaker 2]: 己的边界首先我感觉？
+[Speaker 0]:  AI 的边界其实现在还是一个也是一个比较模糊的一个边界吧而且根据每个。
+[Speaker 0]: 人的理解他可能都不太，
+[Speaker 0]: 一样可可能一些是，
+[Speaker 0]:  AI 的边界一些是用户我，
+[Speaker 0]: 们自己的边，
+[Speaker 0]: 界也都是有可能的这都很难判断但我感觉的话整。
+[Speaker 0]: 个 AI 使用过程，
+[Speaker 0]: 当中我来看 AI 的话更，
+[Speaker 0]: 像是把这个东，
+[Speaker 0]: 西当成一个工程问题来看它是一个工程问，
+[Speaker 0]: 题就相当于说我使。
+[Speaker 0]: 用 AI 来帮我解决这个问题是我是在做一个。
+[Speaker 0]: 工程项目我只是在不断的推，
+[Speaker 0]: 进这个工程项目然后用我已用的方，
+[Speaker 0]: 式或我了解的 AI 的这些架构也好或者 AI 的一些需要，
+[Speaker 0]: 注意的内容也好然后来用工程的思。
+[Speaker 0]: 维来把这个东西做开关一样的把这个东西搭起来然，
+[Speaker 0]: 后至于开发到哪个。
+[Speaker 0]: 程度他是他的边界的话可，
+[Speaker 0]: 能就会有各种各方，
+[Speaker 0]: 的因素吧我觉得像像你刚刚提。
+[Speaker 0]: 到那个呃情况说是他做一些分析的，
+[Speaker 0]: 话呃他并不能很好的来，
+[Speaker 0]: 便，
+[Speaker 0]: 利各种可能的情况我觉得这就更需要用。
+[Speaker 0]: 工程的视角来看这个问题因为可能可以用一些工。
+[Speaker 0]: 程的方式让他可以更广泛的做一，
+[Speaker 0]: 些搜索和一些策略的呃分析然后通过一些设计让他。
+[Speaker 0]: 呃来更做更广泛的，
+[Speaker 0]: 策略探索或者是做对比和分析这，
+[Speaker 0]: 是可以实现的这是一，
+[Speaker 0]: 些这是工程问题这并不是 AI 的呃能力边。
+[Speaker 0]: 界因为你现在在问不停的问。
+[Speaker 0]: 他他只是重复的，
+[Speaker 0]: 说一句话是因为他在用一个默认的他，
+[Speaker 0]: 自己因为现在 AI 也是一个 agent 嘛他。
+[Speaker 0]: 有个默认的策略的如果你，
+[Speaker 0]: 需要用更多的策略或。
+[Speaker 0]: 者是更广泛的搜索的话你需要额外的给他加一些 honest，
+[Speaker 0]: 可以举个例子吗比如说之前。
+[Speaker 2]: 露比提到的那个？
+[Speaker 0]: 项目的话就是 AI hedge fund 那个项目他就是，
+[Speaker 0]: 说用特定的工程方式来。
+[Speaker 0]: 让不同的 agent 采用不同的方式来分析同一个公司的一个情况可以通过工程的方式让他让你。
+[Speaker 0]: 的策略变得更加丰富然后 andrew capacity 之前也提过过的那个。
+[Speaker 0]:  auto research 的整个框架那就是说如果你对于这个最后。
+[Speaker 0]: 最终评价的 criteria 是比较清晰的这时候你可能就会可以涉及整个。
+[Speaker 0]: 那个 auto research 的迭代的一个流程也好或者方式策略也好让他不断的探，
+[Speaker 0]: 索不同的呃策略或，
+[Speaker 0]: 者不同的方式然后直到某一个 criteria 是满足的为止这。
+[Speaker 0]: 都是可以在工程的方面把它强化，
+[Speaker 0]: 的明白那是不是其实就是可以用你之比如。
+[Speaker 2]: 说之前你提的那几个框架来试一下或者是像你说的去看那些比较厉害的，
+[Speaker 2]: 人他用什么样的框架然后我再从工程的，
+[Speaker 2]: 角度去做这个问题。
+[Speaker 2]: 的分析跟他 AIAI 去讨论这样对我觉得是的但是，
+[Speaker 2]: 这是这些其实。
+[Speaker 0]: 就是一些 high level 的一，
+[Speaker 0]: 些框架你还是需要把它落地到你自己本身的项，
+[Speaker 0]: 目上对吧嗯这个可能到了另另外一个极端就，
+[Speaker 0]: 是现？
+[Speaker 2]: 在，
+[Speaker 2]: 大家经常说 garbage jing garbage jout 如果你对，
+[Speaker 2]:  AI 说的东西给的 context 非常少的话也。
+[Speaker 2]: 别指望他能给出什么特别好的一个解决，
+[Speaker 2]: 方案对的这一直都是个 principle 非常重要的一个 concept 所。
+[Speaker 0]: 以就，
+[Speaker 0]: 是石头学会比如，
+[Speaker 0]: 说想做一个任务的。
+[Speaker 1]: 时候你给 prt 你会尽，
+[Speaker 1]: 量就是把你所知道的信息就，
+[Speaker 1]: 都给他，
+[Speaker 1]: 们就是我你会告诉他我希望你一会儿按照什。
+[Speaker 1]: 么方向去想你应该炒，
+[Speaker 1]: 先做什么然后做什么最后做什么完全不会还是就让他，
+[Speaker 1]: 自由发挥一，
+[Speaker 1]: 般面对复杂，
+[Speaker 1]: 的问题我，
+[Speaker 1]: 偏向于做工程就不是。
+[Speaker 0]: 说是把 prompt 说的非常详，
+[Speaker 0]: 细偏向于把它工。
+[Speaker 0]: 程化然后面对于简单的问题的话，
+[Speaker 0]: 我可能会这么描述然。
+[Speaker 0]: 后但也不会说的很复杂如果，
+[Speaker 0]: 一旦需要我说的很。
+[Speaker 0]: 复杂的情况下我更偏向于。
+[Speaker 0]: 把它更成共程，
+[Speaker 0]: 化因为我肯定也不会我，
+[Speaker 0]: 不是非常清楚但我一般是会。
+[Speaker 0]: 说的一般我用一般，
+[Speaker 0]: 是用语音的方式，
+[Speaker 0]: 来输入啊不然的话，
+[Speaker 0]: 我也嫌打字麻烦但一般这些问题都是还，
+[Speaker 0]: 是比较方便的情况下是呃但。
+[Speaker 0]: 毕竟你讲一段话讲的再多也就那些 contact 它还是比较局限的我觉得对于我来说是，
+[Speaker 0]: 因为我做数据分析的时候我不。
+[Speaker 1]: 告诉他你先做什么，
+[Speaker 1]: 然后做什么最后做什么可能，
+[Speaker 1]: 东西我们的东西比较新，
+[Speaker 1]: 嘛他就可能，
+[Speaker 1]: 就会乱七八。
+[Speaker 1]: 糟的乱做然后就做出来的东西也，
+[Speaker 1]: 不是我想要的所以我每次就会，
+[Speaker 1]: 尽量的就是能给他就我如果知道这个，
+[Speaker 1]: 方大方向应该怎么做我会给他呃更。
+[Speaker 1]: 多的信息啊对的对的对的那就是有一个，
+[Speaker 1]: 问题很好奇就是你们用 AI 的，
+[Speaker 0]: 时候会用什么，
+[Speaker 1]: 语言你们是用英语偏多呢，
+[Speaker 1]: 还是用中文偏多还是用别的语言对？
+[Speaker 1]: 啊我一般可能就中文，
+[Speaker 1]: 偏多因为我中文，
+[Speaker 1]: 可能会描述的更？
+[Speaker 0]: 精准，
+[Speaker 0]: 确然后我提供的信息可，
+[Speaker 0]: 能会更多然后输出的方式输出的时候。
+[Speaker 0]: 让他再转换成英文吧方便我跟。
+[Speaker 0]: 其他人沟通但我自己用的时，
+[Speaker 0]: 候肯定是偏向于中文，
+[Speaker 0]: 效率更高我也是我也。
+[Speaker 0]: 是除非是在比如在办公室我必须我也要，
+[Speaker 0]: 用那个语。
+[Speaker 2]: 音跟 AI 交互可，
+[Speaker 2]: 能就用英语了自己的话，
+[Speaker 2]: 有时候也会中英结合然后 AI 回的时，
+[Speaker 2]: 候如果不告诉他。
+[Speaker 2]: 怎么回的话他也会中文夹杂着。
+[Speaker 2]: 回我特别搞笑呃对，
+[Speaker 2]: 对对对如果我下次想不出，
+[Speaker 2]: 来中英翻译的内容的，
+[Speaker 2]: 话可能都是。
+[Speaker 0]: 中，
+[Speaker 0]: 英结合的，
+[Speaker 0]: 因为主要是我中文读起来的输出速度跟我的，
+[Speaker 0]: 呃阅读速度都是中文。
+[Speaker 0]: 肯定会快很多的所以就是那个石同学下面有什么特别想做的一个项目吗用 AI 就是。
+[Speaker 1]: 比如说你下一个 youtube 的视频你会想发什么呢内容还是说这？
+[Speaker 1]: 个是，
+[Speaker 1]: 精密信息天机不可泄露啊没有下，
+[Speaker 1]: 下个我就想把那？
+[Speaker 1]: 个 look engineering 这件事情讲一下可能，
+[Speaker 1]: 拿一个实例呃分，
+[Speaker 0]: 析一下然后。
+[Speaker 0]: 把这个嗯框架和一些框架配合实力然，
+[Speaker 0]: 后把这个事情讲太好了这个，
+[Speaker 0]: 词我我只是听但我还没有去了解是什么，
+[Speaker 0]: 意思我现在还在消化那个。
+[Speaker 2]:  harnest engineering 然后又又出来，
+[Speaker 2]: 一个 look engineering 对我感觉 honeys engineering 的话更。
+[Speaker 2]: 像是一个 skill 这个概念的一，
+[Speaker 2]: 个扩充跟呃扩展然后我。
+[Speaker 0]: 觉得 look engineering 可能又再往上面一层因为它加入了一些递归优化的一些。
+[Speaker 0]: 探索所以我觉得他还是往前跨了一步，
+[Speaker 0]: 因为也是也是分阶段的我感觉今年年初，
+[Speaker 0]: 有几个月他突飞猛进一下子然后。
+[Speaker 0]: 中间有段时间又感觉就，
+[Speaker 0]: 是 incremental 的 innovation 然后最近感觉又有一些不一样了他，
+[Speaker 0]: 确实也也变厉害了很多自主性也好然。
+[Speaker 0]: 后他的架构的方式确实也做了一，
+[Speaker 0]: 些提升你有考虑那种 building，
+[Speaker 0]:  public public 就是现在好，
+[Speaker 0]: 多人比如说自己做一个小工具然后把整个。
+[Speaker 2]: 过程发到网上呃有，
+[Speaker 2]: 想再看做什么项目，
+[Speaker 2]: 我有做了好多好几个项目，
+[Speaker 2]: 但也都没有 build in public 但都是。
+[Speaker 2]: 自，
+[Speaker 0]: 己在那边的是有有在，
+[Speaker 0]: 考虑但是没有特别讲好或，
+[Speaker 0]: 者是特别好的题材，
+[Speaker 0]: 我这有好多题材我都，
+[Speaker 0]: 做了一半就放，
+[Speaker 0]: 弃了因为到后来它整个的这个复杂程度。
+[Speaker 2]: 会指数级增长就，
+[Speaker 2]: 比如说我做那个我们也想。
+[Speaker 2]: 做我想做一个播客剪辑工具然后就发现这个东西。
+[Speaker 2]: 从你这个想法 PUC 做出来哦他现，
+[Speaker 2]: 在是可以剪但是到真正的，
+[Speaker 2]: 比如说大范围的被人用还不是说 deploy 到网上就比，
+[Speaker 2]: 如我自己用到他真，
+[Speaker 2]: 正能非常稳定的去处理我这个音频就，
+[Speaker 2]: 我百分之百能相信。
+[Speaker 2]: 它是稳定的我觉得这，
+[Speaker 2]: 个中间的距离还是挺大的我还想做一，
+[Speaker 2]: 个就是跟脱口秀相关的一个工具就。
+[Speaker 2]: 比如说可以跟他实时的交互然后他。
+[Speaker 2]: 去模仿观众去打断你比如你正在说你自己的，
+[Speaker 2]: 词儿然后他打断你你怎么去跟，
+[Speaker 2]: 他接话这样然后这个其实也是。
+[Speaker 2]: 有好多就是具体的挺不好实，
+[Speaker 2]: 现的这个东西，
+[Speaker 2]: 在里面你做了一个玩具。
+[Speaker 2]: 取悦你自己然后做到中途半途而废然后跟最终你做。
+[Speaker 2]: 成一个产品真正，
+[Speaker 2]: 上线被别人使用，
+[Speaker 2]: 你觉得这个中，
+[Speaker 2]: 间的 gap 是什么呢嗯我觉，
+[Speaker 2]: 得一开始可能就有一个大的，
+[Speaker 2]:  gap 就是用户的需求到。
+[Speaker 2]: 底是什么用户到底为愿意为什么？
+[Speaker 0]: 东，
+[Speaker 0]: 西付费这个可能都没有开始做呢而，
+[Speaker 0]: 且可能做了很多这个 gap 还依？
+[Speaker 0]: 然存在最好能够，
+[Speaker 0]: 验证这个 gap 如果已经有人愿意为这个东西？
+[Speaker 0]: 付费或者是你的目标群体愿，
+[Speaker 0]: 意在你还没，
+[Speaker 0]: 完全做出来之前或者。
+[Speaker 0]: 是没做之前有这个意向付费可能是，
+[Speaker 0]: 一个比较好的方式吧因为能做的事情很多但是真正，
+[Speaker 0]: 满足用户需求的，
+[Speaker 0]: 东西也不是那么，
+[Speaker 0]: 容易找得到嗯你是从这个用户。
+[Speaker 0]: 需求这个角度那假如，
+[Speaker 0]: 说要是从技术这个角度就比如咱们做一个 POC 我并不觉。
+[Speaker 0]: 得，
+[Speaker 2]: 技术有太多的瓶颈完了子瑜卡，
+[Speaker 2]: 在了技术上我这边子瑜想给我们，
+[Speaker 2]: 做剪播课的那个呃工，
+[Speaker 0]: 具我就是第一个想付费的因为。
+[Speaker 1]: 我实在是不想花时间在，
+[Speaker 1]: 剪辑上对它的这个工具是有市场的我也想付，
+[Speaker 1]: 付费但是可能是不是子。
+[Speaker 1]: 瑜就卡在了就是某个技术环节上哦我知道卡在哪儿了就是我最。
+[Speaker 1]: 开始我是想把，
+[Speaker 1]: 前端后端同时做出来然后比如，
+[Speaker 1]: 说做前端做到一半我。
+[Speaker 2]: 觉，
+[Speaker 2]: 得这个前端不好看，
+[Speaker 2]: 我想重新做然后呢我就做了一个 more cup UI 然后让，
+[Speaker 2]:  AI 去把这个 more cup UI 全 adapt 我的，
+[Speaker 2]: 这个系统的 UI 里面把那，
+[Speaker 2]: 个旧的 UI 取。
+[Speaker 2]: 代掉然，
+[Speaker 2]: 后呢它在这个过程当，
+[Speaker 2]: 中就跟后端的衔接就出现了问。
+[Speaker 2]: 题然后我又想把所有东，
+[Speaker 2]: 西都推推翻重做后来。
+[Speaker 2]: 我也是，
+[Speaker 2]: 这样做的也都推翻重做那个最开始的这个架构我觉。
+[Speaker 2]: 得再那样走下去可能不行这个是三个。
+[Speaker 2]: 月之前有可能现在的，
+[Speaker 2]:  AI 有这个能力。
+[Speaker 2]: 做好但当时那个 AI 是没，
+[Speaker 2]: 有办法不推倒重做他没有办法。
+[Speaker 2]: 能达到我想象的一，
+[Speaker 2]: 个效果然后呢现在就是我的前端和，
+[Speaker 2]: 后端都已经做的差不多了但是现在又，
+[Speaker 2]: 有一个问题但这个就更多的是产品方。
+[Speaker 2]: 向了就，
+[Speaker 2]: 是我跟另外一个人聊他也是做博客剪辑工具但。
+[Speaker 2]: 他是不拼 UI 这一块的他就，
+[Speaker 2]: 是用 scale 他就默认这个用户电脑。
+[Speaker 2]: 必须装 cloud code 或者是 cursor whawhatever，
+[Speaker 2]: 然后我的这个呢其实我。
+[Speaker 2]: 最开始的设想是就是一个，
+[Speaker 2]: 打包比如说，
+[Speaker 2]: 在那个 sars 在网页上面你可以编辑的我是想从这。
+[Speaker 2]: 开始然而不是说一个 executable 因为那个可能更费劲但是我发现。
+[Speaker 2]: 就是在智能层面，
+[Speaker 2]: 它那个 skalill base 那个产品可能。
+[Speaker 2]: 是更好所以我就，
+[Speaker 2]: 在这我又有点犹豫，
+[Speaker 2]: 不决我是要走那个方。
+[Speaker 2]: 向还是走这个方向然后后来就，
+[Speaker 2]: 没有再继续做了好像是更多的卡。
+[Speaker 2]: 在了产品这一，
+[Speaker 2]: 块儿对啊就是说你，
+[Speaker 2]: 做的这个东西然后，
+[Speaker 2]: 随着 AI 的发展你，
+[Speaker 2]: 现在的这个方案是否是会变，
+[Speaker 2]: 得更强还是因为你现在的方案的过。
+[Speaker 2]: 多的，
+[Speaker 0]: 一些依赖让新的 AI 的模，
+[Speaker 0]: 型并不能发挥它的，
+[Speaker 0]: 作用其实我个人可能会更偏向于你说？
+[Speaker 0]: 的那个做 skill 的那种方式这也是为什么我会，
+[Speaker 0]: 我我自己也是常常用 skill 的方式来打包。
+[Speaker 0]: 一个方案因为它是最精简的一个打包方式然后它是会随着模。
+[Speaker 0]: 型的提升然后很多的工作并不会那个浪费 ok 然后他的对于周边的。
+[Speaker 0]: 一些依赖也比较少可能我现在我。
+[Speaker 0]: 现在其实也是特诺用的比较，
+[Speaker 0]: 多而且还有一个问题的话就是如。
+[Speaker 0]: 果你前端后端都做的话其实嗯它里面涉及到。
+[Speaker 0]: 的专业的内容还是非常多的 AI 并不能完全帮。
+[Speaker 0]: 你解决所有的问题你还，
+[Speaker 0]: 要部署到网上你还要做网络安，
+[Speaker 0]: 全方面的所有的配置嗯做一些数据的这些处理啊。
+[Speaker 0]: 然后这个带来的问题其实很复杂它，
+[Speaker 0]: 是一个很复杂的一，
+[Speaker 0]: 个工程项目是后端就是部署安全问题，
+[Speaker 0]: 这，
+[Speaker 0]: 个我还都没有到那个考虑这，
+[Speaker 0]: 个的步骤然后部署的话是鸭哥他不，
+[Speaker 0]: 是那个 siper linear kendemy 上面有一个他的那，
+[Speaker 2]: 个平台可以部署所以这块。
+[Speaker 2]: 儿其实是省了你可以先问问其他的或者。
+[Speaker 2]: 因为你们两个是比较，
+[Speaker 2]: 熟了嘛你们两个有这个需求看看有没有其他人愿意为这，
+[Speaker 2]: 个付费然后可以尽量把。
+[Speaker 0]: 这个需求变得小一点，
+[Speaker 0]: 如果自动剪辑这个是个是个非常，
+[Speaker 0]: 非常大的一个需求就跟，
+[Speaker 0]: 那个自动剪辑视频一样剪映到现在，
+[Speaker 0]: 还也只是做到那样的一个程度也不是。
+[Speaker 0]: 说什么样的各，
+[Speaker 0]: 种各样的内容扔进去之后它自动可以，
+[Speaker 0]: 把这个影片剪出来也达不到，
+[Speaker 0]: 这个水平嗯说到这儿的话其实那更能体现。
+[Speaker 0]: 这个 skill 的必要性因为有好多非常 personalize 的东西比如说，
+[Speaker 0]: 我可能更希望就是留很多气口，
+[Speaker 0]: 就是这更自然的说。
+[Speaker 2]: 话，
+[Speaker 2]: 方式但有的人，
+[Speaker 2]: 剪辑的时候他就喜欢把所有的水。
+[Speaker 2]: 渍都剪掉就是每个人有不，
+[Speaker 2]: 同的需求如果这样的话那就是确实 skill base，
+[Speaker 2]: 这种工具是要比这种比如。
+[Speaker 2]: 我现在做这种传统工，
+[Speaker 2]: 具要更有优势的因为它迭代起，
+[Speaker 2]: 来或者呃个人化会更方便。
+[Speaker 2]: 一点对啊确实，
+[Speaker 2]: 有版权风险这是需要专门专门注意的嗯，
+[Speaker 2]: 我我有个问题想问就是我刚刚还在跟子瑜。
+[Speaker 2]: 说就是我不是现在我们在呃考虑创业嘛然后。
+[Speaker 2]: 设计，
+[Speaker 0]: 康品的 logo 然后会，
+[Speaker 0]: 跟他大概讲一下对吧就是。
+[Speaker 1]: 他，
+[Speaker 1]: 设计他就立马也设计，
+[Speaker 1]: 了一个图案也挺好看的然，
+[Speaker 1]: 后就把它就是 copy taste 到 google 上一看就发现，
+[Speaker 1]: 它是其实是另外一，
+[Speaker 1]: 个 company 的 logo 他就是 change 了一，
+[Speaker 1]: 点点？
+[Speaker 1]: 然后就发给我了然后我就想知道你们用，
+[Speaker 1]: 就是如果用，
+[Speaker 1]:  AI 的这东东去去做比如说各种设计各种图案啊或者干嘛你会不会考虑，
+[Speaker 1]: 就是其实他就是把，
+[Speaker 1]: 别人东西小改了。
+[Speaker 1]: 一下给你这个创意性其实没那么高就确实是这样所以现，
+[Speaker 1]: 在的垃圾内容会变得更多了噪音内容，
+[Speaker 1]: 会变得更多对？
+[Speaker 1]: 啊我一方面想偷懒让 AI 帮我做一方面发，
+[Speaker 1]: 现如果 AI 全让 AI 做的话它做出来内容可能千。
+[Speaker 0]: 篇一律然后可能就并不能达到我想分，
+[Speaker 0]: 享的目标然后可能最。
+[Speaker 0]: 后还，
+[Speaker 0]: 是需要做一些个，
+[Speaker 0]: 性化的一些。
+[Speaker 0]: 定制或者个性化的一些内容把它，
+[Speaker 0]: 融进去个人的观点把它融进，
+[Speaker 0]: 去嗯对我感觉这点还挺难的就是特别剪视。
+[Speaker 0]: 频嘛我觉得很多人他视频好看就是因为他带有个人的这种那种想法就是，
+[Speaker 0]: 他去去怎么，
+[Speaker 0]: 剪辑一旦你把用 AI 把它。
+[Speaker 1]: 自，
+[Speaker 1]: 动化之后就所有人的可，
+[Speaker 1]: 能视频都都那个样。
+[Speaker 1]: 了就看一段时时间之后就可，
+[Speaker 1]: 能观众就觉得啊好像没什么好看的了，
+[Speaker 1]: 会呀会呀现在其实呃。
+[Speaker 1]: 会有不少人抵触呃一些 AI 生成，
+[Speaker 1]: 出来的内容呢我觉得这也正常因为。
+[Speaker 1]: 发现 AI 嗯大该拍什么，
+[Speaker 1]: 大篇幅的生成大量的内容然后有时候它的质。
+[Speaker 0]: 量又不高，
+[Speaker 0]: 噪音很多自然而然会有反感我我用的多所以我比较习惯，
+[Speaker 0]: 可能我知道他就本。
+[Speaker 0]: 身是噪音比较多我可能比较习惯在这种高噪音的情。
+[Speaker 0]: 况下找一些有用的内容但是，
+[Speaker 0]: 很多人可，
+[Speaker 0]: 能都不一样观观感。
+[Speaker 0]: 确实是有的，
+[Speaker 0]: 我也我也有接触。
+[Speaker 0]: 我觉得这确实是因为 AI 发展到了一，
+[Speaker 0]: 个一个程度就是现在大家都在用了噪音确实很多性价比很。
+[Speaker 0]: 很低我发现有时候确实挺难，
+[Speaker 0]: 用比如说让大家想，
+[Speaker 0]: 我的 company name 叫什么。
+[Speaker 0]: 他就给我了一堆一看过去就像是 suggesa i 生成的就，
+[Speaker 0]: 是不知道为什么现在就，
+[Speaker 0]: 是 AI 味怎么那，
+[Speaker 0]: 么的浓就是现在。
+[Speaker 1]: 你们就用 AI 很久之后你就。
+[Speaker 1]: 看到文字会发现就一看那个文字？
+[Speaker 1]: 就是 AI 写的嘛让，
+[Speaker 1]:  AI 减少自己的 AIV 让 AI 又学人，
+[Speaker 1]: 讲话我们就用了一个做了一个 scale 就是我把我之。
+[Speaker 1]: 前自己手搓的扑克的双 losway 给他，
+[Speaker 1]: 然后让他模仿我的风格然后尽着让他减，
+[Speaker 0]: 少这种 AI 的所，
+[Speaker 0]: 谓的 AI 味儿那个出，
+[Speaker 0]: 来的效果就稍微。
+[Speaker 2]: 好一点就比直接扔给他要好，
+[Speaker 2]: 多了我还有一个问题比如像现在那个大家分，
+[Speaker 2]: 享的就是 AI 做的这些工作，
+[Speaker 2]: 可能大部分都是跟比如说软件开发呀然后。
+[Speaker 2]: 编就是纯编程或者是数据这些，
+[Speaker 2]: 相关的然后对于这种所谓。
+[Speaker 2]: 的这种 ddomain knowledge 比如，
+[Speaker 2]: 说就假如说我是做音频的然后 luomi 是做医药这块相关，
+[Speaker 2]: 的就这些具体的这些 dmain 里边的这个算，
+[Speaker 2]: 法开发可能 AI 除了就是对于比如说我这个。
+[Speaker 2]: 算法的 coding 和对于他比较 general 这这，
+[Speaker 2]: 些呃这个领域的这个知识比较，
+[Speaker 2]: 了解之外我还没有找到就是，
+[Speaker 2]: 那种他能够真的深入到我们的这个领域的。
+[Speaker 2]: 这个算法层面去做一些事情但我说到这儿的时候我就想到你刚才说的那个就比如可以尝试不同的框架从不，
+[Speaker 2]: 同的角度去激发 AI 去多想一步我觉得这可能是解决我刚才提的这个问题的一个方法我不。
+[Speaker 2]: 知道石同学就是你在工，
+[Speaker 2]: 作中是怎么解决这样的一。
+[Speaker 2]: 个问题呢就是也是用你刚才，
+[Speaker 2]: 提到的那种不同的框架，
+[Speaker 2]: 去试把它归。
+[Speaker 2]: 纳成一个工程问题去解决也是这样的呃整体来说也是。
+[Speaker 2]: 把它看成一个工程问题吧我觉得有两个东西比较重要第一个就是？
+[Speaker 2]:  domain knowledge 那需要这个 domain knowledge 这个必须以某种形式的方，
+[Speaker 2]: 式在数字化了然后这个信息必须。
+[Speaker 2]: 要有这个 context，
+[Speaker 0]: 非，
+[Speaker 0]: 常重要然后另一方面的话就是他的 workflow 很重。
+[Speaker 0]: 要是否有一个 best practice 在做这这。
+[Speaker 0]: 件事情有比较好，
+[Speaker 0]: 的一些方式方法，
+[Speaker 0]: 这些方式可能比通常是以 skill 的方式或者。
+[Speaker 0]:  plug in 的方式呈现然后 dominknowledge 的话有可能是以数。
+[Speaker 0]: 据库或者是 knowledge base 的方式来呈现这两个。
+[Speaker 0]: 是必不可少的它也是 agent 的输出质量到底多高就是在于它的。
+[Speaker 0]: 输入的 contest 质量到底有多好然后他的流程到底可不可靠是否。
+[Speaker 0]: 比较支持他，
+[Speaker 0]: 输出比较高质量内容就跟人类公司的各种流。
+[Speaker 0]: 程一样人类本身有一，
+[Speaker 0]: 些 default 的一些工作方式在公司设计，
+[Speaker 0]: 了这么多流程就是为了提高它的质量和。
+[Speaker 0]: 输出或者一些品控啊那一样，
+[Speaker 0]: 的嗯对我记得之前忘了是谁说的说要。
+[Speaker 0]: 把 AI 当成一个人或者当成一个，
+[Speaker 0]: 实习生而不是说就是他是一个许愿。
+[Speaker 0]: 池或者怎么样就你怎么去 run，
+[Speaker 0]:  up 一个同事你就怎么去 run up 他对他还是 AI 也需要 on boarding 嘛。
+[Speaker 0]: 对，
+[Speaker 2]: 一，
+[Speaker 2]: 样现在还是至少现在还是，
+[Speaker 2]: 这样子就是 on boarding 的速，
+[Speaker 2]: 度非常快要比人类快，
+[Speaker 2]: 很多甚至还要问一下他我应该怎么做还没有，
+[Speaker 2]:  on bobody 你愿意问他我应该怎，
+[Speaker 2]: 么解决这个问题。
+[Speaker 0]: 他现在就是一个智商非常高。
+[Speaker 0]: 的，
+[Speaker 0]:  interl 你，
+[Speaker 0]: 们公司会来那种智商很高的 interter，
+[Speaker 2]: 吗人啊人类啊嗯嗯应该有的吧是这应该听，
+[Speaker 1]: 起来就像是没有的样子至商也不，
+[Speaker 1]: 写在头上没，
+[Speaker 1]: 有那个也没有什么传感器让我扫一下看？
+[Speaker 0]: 到他智商是多少那你们会对啊 AI，
+[Speaker 1]: 就问就是非常呃情感方面的问题呢？
+[Speaker 0]: 就是个人方面的问题世界杯，
+[Speaker 1]: 世界杯今天晚上的比赛几比几我有，
+[Speaker 0]: 问过我昨天就问了日，
+[Speaker 0]: 后的准吗还差了一个球还行，
+[Speaker 0]: 哦那还可以，
+[Speaker 0]: 大差不差我会让 AI。
+[Speaker 1]: 帮我改段子但他他在幽默方面是完全不行但是比如说，
+[Speaker 1]: 你让他帮你看逻辑啊。
+[Speaker 0]: 情绪啊观点这种他还是还是可以但是，
+[Speaker 0]: 幽默层面，
+[Speaker 0]: 不是不是太行，
+[Speaker 1]: 嗯能理解吧？
+[Speaker 0]: 就是他他的幽，
+[Speaker 0]: 默就很，
+[Speaker 1]: 奇怪非常冷幽默我，
+[Speaker 2]: 觉得这可能是人类为数。
+[Speaker 2]: 不多的目前还没有完全能够被。
+[Speaker 2]:  AI 取代的一个东西因为好多细微、
+[Speaker 2]: 的情感，
+[Speaker 2]: 之类的或者是表达就是说。
+[Speaker 2]: 出来那个话 AI 还是有感知不，
+[Speaker 1]: 到，
+[Speaker 1]: 的就是哪句？
+[Speaker 1]: 话好像或者不好笑这种东，
+[Speaker 2]: 西他还是不。
+[Speaker 2]: 太信我有个问题想问就是以前看，
+[Speaker 2]: 到有一个研究好像是牛津还是哪里的他们。
+[Speaker 2]: 做了一个研究说也不是 AI 的，
+[Speaker 2]: 非常的 positive 你说什么他就说啊你说的很对应该像这样。
+[Speaker 2]: 做然后就发现如果他很 positive 的时候他给，
+[Speaker 2]: 你的 result 有时候是。
+[Speaker 1]: 错误的就是他就，
+[Speaker 1]: 发现如果你把这个 positivity 给他，
+[Speaker 1]: 关掉之后呢然后这个可，
+[Speaker 1]: 能 result 就更准确你们，
+[Speaker 1]: 会让你们的 AI，
+[Speaker 1]: 那他跟你。
+[Speaker 1]: 写答案的？
+[Speaker 1]: 时候不要带有任何情，
+[Speaker 1]: 绪不要给你任。
+[Speaker 1]: 何 support 吗还是说你无所谓就是让，
+[Speaker 1]: 他给你这个 support 会有啊嗯比较有。
+[Speaker 1]: 名的就是 gis stack 里面的 CEO review 他就是特意的有专门，
+[Speaker 1]: 的一些工程的方式让他对一。
+[Speaker 1]: 些项目做一些比较，
+[Speaker 1]: 犀利的客观的辩证的一，
+[Speaker 1]: 些评论然后我觉得，
+[Speaker 1]: 模型他自己也在往？
+[Speaker 1]: 这方面有些改进，
+[Speaker 0]: 的并没有像以前那样这么迎合那个使用者我可以举个例子就前。
+[Speaker 0]: 段时间那个 feeble five feeble 还是 febble 我不知道怎么，
+[Speaker 0]: 读 cloucloud 那个新模型 it's topic 肯定然后我是因为那个又重新买了 cloud。
+[Speaker 0]:  coat 但只买了一天用了一次第二天就已经不能用了，
+[Speaker 0]: 然后我我我之前是写了一个 skill 我让他我说。
+[Speaker 2]: 你别给我写梗就，
+[Speaker 2]: 是别写那个笑话然后你只是判断，
+[Speaker 1]: 我的情绪啊观点啊逻辑啊这些，
+[Speaker 2]: 东西就非。
+[Speaker 2]: 常 general 的东西我是给了一个段子我说，
+[Speaker 2]: 就帮我分析一下这些东，
+[Speaker 2]: 西然后后来我就说我说这。
+[Speaker 2]: 样吧你帮我写几个梗进去吧我，
+[Speaker 2]: 记得之前就是即使有这个，
+[Speaker 2]:  skill 我不让他写梗他。
+[Speaker 2]: 可能还是会写的但是我跟他、
+[Speaker 2]: 说完之、
+[Speaker 2]: 后他就，
+[Speaker 2]: 没有写就是说我这个东西。
+[Speaker 2]: 我不能写这个不是我，
+[Speaker 2]: 的强项你可能比如说在幽默啊。
+[Speaker 2]: 或者是怎么样这，
+[Speaker 2]: 你在行但比，
+[Speaker 2]: 如说逻辑啊或者是对于。
+[Speaker 2]: 什么什么背景资料的把控这个，
+[Speaker 2]: 我比你强就是，
+[Speaker 2]: 他已经不完全不迎。
+[Speaker 2]: 合人了好像这个我之前，
+[Speaker 2]: 也看有人报。
+[Speaker 2]: 道说他这个新的模型对人比，
+[Speaker 2]: 较在行的他现在不。
+[Speaker 2]: 是有个概念他们想往那个 AGI 往 ASI 发展，
+[Speaker 2]: 超越人类。
+[Speaker 2]: 的智能水平那肯，
+[Speaker 2]: 定不能迎合人了超越这就是有有一个人，
+[Speaker 2]: 天天骂你就是，
+[Speaker 2]: 超越人类你说什么就怼你嗯不。
+[Speaker 2]: 过我发现用这些 load code 或者 code x 这，
+[Speaker 2]: 个一般回复就稍微更客观一点就，
+[Speaker 0]: 不像比如 jim i 或者是，
+[Speaker 0]: 跟 cheg BT 直接聊那专明的那个，
+[Speaker 0]: 你可以把它关掉的就，
+[Speaker 0]: 是我那个呃美国同事。
+[Speaker 1]: 他就，
+[Speaker 1]: 特别讨厌我跟他说我特别喜欢就是有一个，
+[Speaker 1]: 做什么感觉很有。
+[Speaker 2]: 成，
+[Speaker 2]: 就感对啊对啊比如说是健身的过程当中就需要一个特一个人每天，
+[Speaker 2]: 在旁边鼓励一下不是挺好的吗还是挺挺。
+[Speaker 1]: 舒服的然后我就想着写课的时候。
+[Speaker 1]: 我就会说啊这个东西好，
+[Speaker 1]: 像有问题然后我，
+[Speaker 1]: 觉得是这个方面他，
+[Speaker 1]: 就会跟跟我回答说 you are surprisely good at the 四。
+[Speaker 0]: 容什么什，
+[Speaker 0]: 么我就感觉哇有进步对呀情绪价值满满就是哎不，
+[Speaker 0]: 像老板只会催你干活，
+[Speaker 0]: 捐明来才会表？
+[Speaker 0]: 扬你我之前把那。
+[Speaker 1]: 个 system prompts 加了一下就是我说，
+[Speaker 1]: 你要质疑我的每一个观点或者是。
+[Speaker 1]: 我的每一个提问然后他，
+[Speaker 1]: 就开始各种毒蛇怼的我，
+[Speaker 1]: 都怀疑人生了然后这哪怕最，
+[Speaker 1]: 简单的问题比如说。
+[Speaker 0]: 我说，
+[Speaker 2]: 就假如说我我，
+[Speaker 1]: 电脑的什么快捷键是什么然后，
+[Speaker 2]: 他就开始质疑我的这个这个问题后来就是到了一。
+[Speaker 2]: 定程度我觉得 OK 哎 enough 不能这样啊这，
+[Speaker 2]: 这个他也也比较相互 token，
+[Speaker 2]: 就是这种最简单的问题然后，
+[Speaker 2]: 他还搞了一堆其。
+[Speaker 2]: 实有个挺有意思的问题就，
+[Speaker 2]: 是 AI 怎么通过跟用户一次一次又一次的这种交互的，
+[Speaker 2]: 过程当中来呃把控或者衡量用户的这个。
+[Speaker 2]: 标准到底在哪里应该现，
+[Speaker 2]: 在有一些专门的一些工作，
+[Speaker 2]: 在做这些这还是挺有意思，
+[Speaker 2]: 的他因为他现在有这些。
+[Speaker 2]:  memory 系统啊它的可持，
+[Speaker 0]: 续的 memory 它是应该是可以分，
+[Speaker 0]: 析出来用户的 profile 他他一般的语言啊或接受啊或者他的偏好啊喜好啊应该都，
+[Speaker 0]: 是可以至少有一个比较好的一个量化。
+[Speaker 0]: 在里面我看那个鸭哥他分享了一个他是因，
+[Speaker 0]: 为他是一个记录狂就。
+[Speaker 0]: 是他会把自己每十五分钟做一，
+[Speaker 0]: 次语音输入然后，
+[Speaker 0]: 记录他过去这十五分钟干嘛然后他。
+[Speaker 0]: 是把所有的这个聊天记录过，
+[Speaker 0]: 去四年还是一年，
+[Speaker 0]: 的聊天，
+[Speaker 0]: 记录邮件往来然后包括他的这个语音日记都沉淀成那。
+[Speaker 2]: 个 memory 然后他跟另外一个人做，
+[Speaker 2]: 了一个实验就是同样的一，
+[Speaker 2]: 个 request 或者一个 prompt 一个是有他的这个人的 memory 然，
+[Speaker 2]: 后另外一个是没有他这个人的 memory。
+[Speaker 2]: 然后得到的这个结果是完全不一，
+[Speaker 2]: 样的就有的这个 memory 的他觉得这，
+[Speaker 2]: 个得出的，
+[Speaker 2]: 结果是更好的我忘了具体说他说更符合他的。
+[Speaker 2]: 价值观还是更有洞见的但我记得是，
+[Speaker 2]: 更有洞见的是因为他对这个人，
+[Speaker 2]: 已经非常了解所以他能给。
+[Speaker 2]: 出一些特别有建设性的意见那说明，
+[Speaker 2]: 这个人自恋呗就是他喜欢自己这个类。
+[Speaker 2]: 型的答案你这个，
+[Speaker 2]: 角度说到点子上上我就不知道你，
+[Speaker 2]: 有没有就是用 AI 用久了之后我什么有有的人有那个 prompt。
+[Speaker 2]: 嘛就是基于我过去给你，
+[Speaker 2]: 的来回答你来跟我分析一下我的性，
+[Speaker 2]: 格以及未来我适合干什么工作我有试过。
+[Speaker 1]: 因为我把我所有的脱，
+[Speaker 1]: 口秀段子都传到 githup 上面然后作为。
+[Speaker 0]: 一个 version an control 就每一改一版，
+[Speaker 1]: 都写一下我让他看我所有的段，
+[Speaker 1]: 子我说你看，
+[Speaker 1]: 我是一个什么样的人然后我，
+[Speaker 1]: 就说你在段子里面提到你什么，
+[Speaker 1]: 年龄焦虑然后提到你自己土，
+[Speaker 1]: 提到什么什么东西然后就说。
+[Speaker 2]: 了一大堆，
+[Speaker 2]: 觉得还还挺有意思然后还有一个是我说你觉，
+[Speaker 2]: 得我像更像哪一个脱，
+[Speaker 2]: 口秀演员然后他说说那。
+[Speaker 2]: 几个我觉得还算挺对的还，
+[Speaker 2]: 有一个比较好的一点是我说你，
+[Speaker 2]: 根据我的这个创作的风格你觉得我更应该看就，
+[Speaker 2]: 跟哪个脱口渲源更像然后推荐他的一，
+[Speaker 2]: 些视频给我看而这，
+[Speaker 2]: 个推送还挺精准的。
+[Speaker 2]: 就是他会找到我比如说写的某一个故事或某一个观点然，
+[Speaker 2]: 后去推那些人这个还挺有意思那是同。
+[Speaker 2]: 学呢有没有做过类似的就，
+[Speaker 2]: 是实验让 AI 帮你总结一下你自己，
+[Speaker 2]: 自身呃我有啊我一直都是在用的话比如做，
+[Speaker 2]:  cloud 的话的他一直就是有我的记。
+[Speaker 2]: 忆的然后我可能经常会让，
+[Speaker 2]: 他以我以前的一，
+[Speaker 2]: 些方式然后来帮我做一些事情反正就，
+[Speaker 2]: 是我还是挺愿意，
+[Speaker 2]: 让他积累我自己。
+[Speaker 1]: 的一些日常操作和各种各方面，
+[Speaker 1]: 的一些这些记忆的而且我自己对这个他。
+[Speaker 0]: 的，
+[Speaker 0]: 记忆的，
+[Speaker 0]: 方式也挺感兴趣的他，
+[Speaker 0]: 到底以怎样的方，
+[Speaker 0]: 式来存储这个记忆索引这。
+[Speaker 0]: 个记忆然后把这个记忆的内容在回答的过程，
+[Speaker 0]: 当中融入进去这还是挺。
+[Speaker 0]: 有意思的而且他现在这种方式一直都一直还在变化那你现在用的是大概什么样的方式因。
+[Speaker 0]: 因为你肯定不能让他每次都看他所有的记忆对吧可，
+[Speaker 0]: 能是比如说分几个 skill 然后根据关键词去调用某一个，
+[Speaker 0]:  skill 这大概这样的方式嘛他现在的话就是嗯短期记忆，
+[Speaker 0]: 经常在变的这些记。
+[Speaker 0]: 忆的话可能就是让他他现在有些格式啊有，
+[Speaker 2]: 些框架的比如说 agent 到 TMD 然后短期经？
+[Speaker 2]: 常在变的这些东西可以用它来呃作为存储嗯然，
+[Speaker 2]: 后长？
+[Speaker 2]: 期的跟项目有关的可能，
+[Speaker 2]: 用 skill 的方式来存储这样的话他可。
+[Speaker 2]: 以做呃做分层的索引，
+[Speaker 0]: 然后又可以也比较好的把一些比较长期跟这项目相关的，
+[Speaker 0]: 东西可以比较好的持久的保保存，
+[Speaker 0]: 下来然后更，
+[Speaker 0]: 长的更繁琐的，
+[Speaker 0]:  knowledge 可能转换成数据库也做过转，
+[Speaker 0]: 换成呃 vector database 也试过嗯还。
+[Speaker 0]: 都，
+[Speaker 0]: 在尝试不同的不同的方式，
+[Speaker 0]: 也也没有说是哪种特别。
+[Speaker 0]: 好或者是完全适用于所有的可能也，
+[Speaker 0]: 现在还在探索当中这个挺有意思就是你当时用数据库去记录，
+[Speaker 0]: 这个 memory 是出于什么样的考虑是因。
+[Speaker 0]: 为它调用的比较快嘛就是弄弄西东西比较多当然不，
+[Speaker 0]: 是我个人的 memory 那就是。
+[Speaker 0]: 其，
+[Speaker 0]: 他的蛮多个人 memory 自己事儿特别，
+[Speaker 0]: 多然我记得特别多个人的，
+[Speaker 0]:  memory 的话就没有那么复杂那咱们今天就先这样嗯好的。
+[Speaker 2]: 拜拜感谢拜拜。
+[Speaker 2]: 拜拜，
+[Speaker 2]: ，
+[Speaker 0]: 。
+[Speaker 0]: ，
+[Speaker 0]: ，
+[Speaker 1]: 。
+[Speaker 1]: ，
+[Speaker 0]: 。
+[Speaker 2]: 。
+[Speaker 2]: ，
+[Speaker 2]: ，
+[Speaker 2]: ，
+[Speaker 2]: ，
+[Speaker 0]: 。
