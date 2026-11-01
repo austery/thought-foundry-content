@@ -1,0 +1,673 @@
+[Speaker 0]: 美股播华尔街专利。
+[Speaker 0]: 大家好，
+[Speaker 0]: 我是李德军，
+[Speaker 0]: 你们的美股探路者个人 agent 终于来了。
+[Speaker 0]: 前不久，
+[Speaker 0]:  meta 推出的个人 agent 产品 muse 一上线就成为了爆款。
+[Speaker 0]: 仅仅三十六天时间，
+[Speaker 0]: 他在美国的下载量就达到了九百万次。
+[Speaker 0]: 同样的数字，
+[Speaker 0]:  chat GPT 当年用了一百一十天，
+[Speaker 0]: 现在看他已经除了了 TGPT 以外最成功的消费者端 AI 产品了。
+[Speaker 0]:  muse 这一伙其他科技巨头也都坐不住了。
+[Speaker 0]:  open AI 在九月底发布了 dots and tpic 上周也推出了 cloud dwit 谷歌面消费者的版本，
+[Speaker 0]: 预计在四季度推出。
+[Speaker 0]: 可以说，
+[Speaker 0]: 几乎所有的大公司都开始布局自己的个人 agent 了。
+[Speaker 0]: 这么多巨头同时下场足以说明个人 agent 会是接下来 AI 一个不容忽视的逻辑。
+[Speaker 0]: 但另一边，
+[Speaker 0]: 它也面临着不少质疑。
+[Speaker 0]: 那么，
+[Speaker 0]: 个人 agent 这条路到底能不能走得通？
+[Speaker 0]: 这么多巨头里，
+[Speaker 0]: 最最谁又能笑到最后呢？
+[Speaker 0]: 这对于我们未来的投资又意味着什么？
+[Speaker 0]: 今天这期视频我们就来好好聊聊个人 agent 这个大趋势最。
+[Speaker 0]: 近这段时间回国探亲不方便录视频所，
+[Speaker 0]: 以本期视频采用了 AI 声音稿子都，
+[Speaker 0]: 是我在火车上熬夜改的内。
+[Speaker 0]: 容制作不易还，
+[Speaker 0]: 望大家给美投君点个赞让，
+[Speaker 0]: 更多人看到美投的股票研究可能。
+[Speaker 0]: 还有很多人不清楚什么是个人 agent 为了。
+[Speaker 0]: 照顾到所有朋友我就，
+[Speaker 0]: 来给大家快速介绍一下简单。
+[Speaker 0]: 来说他就，
+[Speaker 0]: 是一个能替你在生活里办事的 AI 助理你跟。
+[Speaker 0]: 他说一句他就，
+[Speaker 0]: 能自己去帮你订机票退订、
+[Speaker 0]: 服务甚至，
+[Speaker 0]: 主动提醒你各种事情那问题。
+[Speaker 0]: 来了咱们已，
+[Speaker 0]: 经有 chat GPT 了一般人，
+[Speaker 0]: 为什么还需要一个 muse 呢这就要？
+[Speaker 0]: 说到把 chat GPT 当做个人 agents 来用的时候有几个，
+[Speaker 0]: 绕不开的痛点第一 chat。
+[Speaker 0]:  GPT 主，
+[Speaker 0]: 要说的是免费版的 chat GPT 本质上，
+[Speaker 0]: 还是一个聊天机器人没有执行的能力它可以，
+[Speaker 0]: 给你答案但最后，
+[Speaker 0]: 去执行的还是你自己虽然已经。
+[Speaker 0]: 帮了很大的忙但一旦什，
+[Speaker 0]: 么都还要自己亲自动手就没有那，
+[Speaker 0]: 么省事了第二就算。
+[Speaker 0]: 你真，
+[Speaker 0]: 的想让他替你办事往往也会，
+[Speaker 0]: 卡在密码这一步就进行不下去了这也能理。
+[Speaker 0]: 解一般人本。
+[Speaker 0]: 来就不太愿意把密码信用卡这、
+[Speaker 0]: 些交给一个聊天机器人所以真要。
+[Speaker 0]: 办事的时候他其实做，
+[Speaker 0]: 不了什么第三你不。
+[Speaker 0]: 去找，
+[Speaker 0]: 他他就不会主动来找你但你想想。
+[Speaker 0]: 如果是一，
+[Speaker 0]: 个真正的个人助理是不是应，
+[Speaker 0]: 该主动帮你发现问题解决问题，
+[Speaker 0]: 才对呢第像是你？
+[Speaker 0]: 请一个秘书如果你干活，
+[Speaker 0]: 一上班就耍手机你不主动找，
+[Speaker 0]: 他他就说没活干那这样的秘。
+[Speaker 0]: 书其实就帮不了什么了这些就是当。
+[Speaker 0]: 前的 chat GPT 作为个人 agent 上还实现不了的问题而 muse 就是专。
+[Speaker 0]: 门冲着这些痛点来做的先说接下来。
+[Speaker 0]: 一个一个来看咱说第一点，
+[Speaker 0]: 执行力不够这个问题大，
+[Speaker 0]: 家应该都有感觉过去这一年。
+[Speaker 0]:  AI 之所以能，
+[Speaker 0]: 带来这么大的变化很大程度上是因，
+[Speaker 0]: 为有了 agent 以前的 AI 只能回答你，
+[Speaker 0]: 的问题而现在的 agent。
+[Speaker 0]: 能真正去帮你干活像 codex cloud code 可以，
+[Speaker 0]: 替你写代码跑任务在工作上实现，
+[Speaker 0]: 很多非常厉害的效果但奇怪的是面。
+[Speaker 0]: 向普通人生，
+[Speaker 0]: 活的个人 agent 却一直都没有，
+[Speaker 0]: 成气候这是为什么呢，
+[Speaker 0]: 其实弊端的 agent？
+[Speaker 0]: 也就是企业端，
+[Speaker 0]: 的 agent 之所以能干活。
+[Speaker 0]: 是因为它能控，
+[Speaker 0]: 制你的电脑你的浏览器在，
+[Speaker 0]: 上面帮你操作可普通人的生。
+[Speaker 0]: 活主要是在手机上手机上就是一，
+[Speaker 0]: 个个 app agent 没法像在电脑，
+[Speaker 0]: 上那样到处操作而如果专门去买。
+[Speaker 0]: 一台电脑像年初很火的小，
+[Speaker 0]: 龙虾那样对普通人来说这，
+[Speaker 0]: 个门槛实在太，
+[Speaker 0]: 高了这一直是挡住个，
+[Speaker 0]: 人 agent 发展的重要原因之一那 muse 是怎么解决。
+[Speaker 0]: 的呢他想了一个很聪明？
+[Speaker 0]: 的办法给每一个用户都单，
+[Speaker 0]: 独配了一台云端的虚拟机你可以把它理解成。
+[Speaker 0]:  matter 在云上给你分了一，
+[Speaker 0]: 台只属于你的电脑你在手机 app 里跟他。
+[Speaker 0]: 说话背后真正干活的是，
+[Speaker 0]: 这台云端的电脑这台电脑上有浏览器，
+[Speaker 0]: 所以它可以像人一样，
+[Speaker 0]: 去打开网页登录账号填表下单而，
+[Speaker 0]: 且它是二，
+[Speaker 0]: 十四小时，
+[Speaker 0]: 在线的就算你把 app 关掉了它。
+[Speaker 0]: 还在后台继续帮你，
+[Speaker 0]: 干活这就解决了个人 agent 没。
+[Speaker 0]: 法在手机上替你操作的问题当然让 AI 替你登录账号。
+[Speaker 0]: 替你，
+[Speaker 0]: 付钱安全就成了一，
+[Speaker 0]: 个大问题，
+[Speaker 0]:  muse 在这上面下了很大的。
+[Speaker 0]: 功夫账号密码单独保管连干活的 AI 自，
+[Speaker 0]: 己都看不，
+[Speaker 0]: 到付款用的是一次性卡号，
+[Speaker 0]: 等等这样一来很多人才敢真的。
+[Speaker 0]: 把事情交，
+[Speaker 0]: 给他去办所以说 muse 在执行力上不见。
+[Speaker 0]: 得比 codex 更强但他把使用场景给变了把。
+[Speaker 0]: 原来只能在工作电脑上，
+[Speaker 0]: 用的 agent 搬到了每个人手里的手机上有了这些基础设施个人 agent 终。
+[Speaker 0]: 于可以直接帮你把，
+[Speaker 0]: 事情给办了再来说第二个问题就是想把。
+[Speaker 0]:  chat GPT 真正做到用来，
+[Speaker 0]: 办事的门槛其实并不低不知道大家有没有意识到现。
+[Speaker 0]: 在不管是 chat GPT 还是弊端的，
+[Speaker 0]:  agent 都有这么一个问题那就是你得先主动去找他他。
+[Speaker 0]: 才会给你干活本来这也没什么可拆 GPT 什么。
+[Speaker 0]: 都能做正因为他什么，
+[Speaker 0]: 都能做你反而，
+[Speaker 0]: 不知道该让他做什么这，
+[Speaker 0]: 就有点像谷歌搜索你没什么。
+[Speaker 0]: 事的时候总不会说今。
+[Speaker 0]: 天没事干我刷两下，
+[Speaker 0]: 谷歌搜索吧至于 b 端，
+[Speaker 0]: 的 agent 它就是一个工作。
+[Speaker 0]: 室的生产力工，
+[Speaker 0]: 具你本就应该工作的时候才主动，
+[Speaker 0]: 用它然而如果一个产品的目标是要。
+[Speaker 0]: 做个，
+[Speaker 0]: 人 agent 那么整件事就变得完全不一样，
+[Speaker 0]: 了你想想如果你真的请了一个个。
+[Speaker 0]: 人秘书，
+[Speaker 0]: 你会希望他每天上班就躺在沙，
+[Speaker 0]: 发上等你想起什么事了才吩咐他一句。
+[Speaker 0]: 吗肯定不会你希望的是他一上班？
+[Speaker 0]: 就主动帮。
+[Speaker 0]: 你把事情给，
+[Speaker 0]: 办了个人 agent 就是反过来的是他主动来。
+[Speaker 0]: 找你他会去看你的邮箱日历然后主动，
+[Speaker 0]: 给你提醒给你建议用过，
+[Speaker 0]:  muse 就知道这个小羊，
+[Speaker 0]: 驼会隔三，
+[Speaker 0]: 差五的提醒你一些事情你根本没有要求过只要他觉得对，
+[Speaker 0]: 你的生活很重要就。
+[Speaker 0]: 会来提醒你他其实是在不断尝，
+[Speaker 0]: 试了解你的意。
+[Speaker 0]: 图以此保证你会经常回来用它我就，
+[Speaker 0]: 举一个我自己的例子之前 uber。
+[Speaker 0]: 给了我一个月的会员免费，
+[Speaker 0]: 试用到期的那天 muse 就主动来提醒我说你的会员马上，
+[Speaker 0]: 要到期了如果不喜欢，
+[Speaker 0]: 的话记得去取消这便是，
+[Speaker 0]: 一个以前我完全，
+[Speaker 0]: 不会想到的。
+[Speaker 0]: 需求但他找到了帮我解决了问题这种主。
+[Speaker 0]: 动带来的一个最明显的效果。
+[Speaker 0]: 就是降低了使用门槛很多人第一次接触 agent 最大的难处在于。
+[Speaker 0]: 不知道该怎么用现在他主动把能做的事摆到你面前大。
+[Speaker 0]: 家自然就知道怎么用了也慢慢发现，
+[Speaker 0]:  agent 真的能帮自己做很多事那些原本对 AI 没那么了解的普通用户。
+[Speaker 0]: 也能很轻松的用起来把这两点放在一起，
+[Speaker 0]: 你就能看懂个人 agent 和，
+[Speaker 0]: 之前的 AI 最大的区，
+[Speaker 0]: 别了拆 GPT 更像是一个大号的搜索弊端的 agent 是。
+[Speaker 0]: 一个帮你完成工作的工具而个人 agent 更，
+[Speaker 0]: 像是一个真正的私人助理那个。
+[Speaker 0]: 人 agent 到底是一门多大的生意呢非常大。
+[Speaker 0]: 你想想看如果像旅游订酒店这些事？
+[Speaker 0]: 情以后。
+[Speaker 0]: 都可以直，
+[Speaker 0]: 接交给 agent 那 OTA 网站的生意就可能，
+[Speaker 0]: 被它替代掉再往大了，
+[Speaker 0]: 说当大家想买什么想做什么都直接。
+[Speaker 0]: 跟 agent 说的时，
+[Speaker 0]: 候整个数字广告，
+[Speaker 0]: 都有机会转移到 agent 上来按大摩，
+[Speaker 0]: 的估算未来能够通过 agents 实现数字化的。
+[Speaker 0]: 消费支出大约，
+[Speaker 0]: 有三十二万亿美元其中一半多是电商和旅，
+[Speaker 0]: 游当然这些钱不可能都，
+[Speaker 0]: 是 agent 的收入但哪怕只按百。
+[Speaker 0]: 分之，
+[Speaker 0]: 三的抽成来算也是一个接近，
+[Speaker 0]: 一万亿美元收入体量的潜在市场这，
+[Speaker 0]: 么看 c 端 agent 的空间其实和 b 端大致相当这也就。
+[Speaker 0]: 不难理，
+[Speaker 0]: 解为什么这些科技巨头都开始布局。
+[Speaker 0]: 这个赛道了不过个人 agent 真的能成功吗老实说现在就说它会成为。
+[Speaker 0]: 下一个杀手级应用确实有？
+[Speaker 0]: 点太早了很多人就会质疑说你看现在大家用，
+[Speaker 0]:  muse 做的无非就是。
+[Speaker 0]: 退订个服务换个保，
+[Speaker 0]: 险公司这些看上去都是一次性的事情会不会大，
+[Speaker 0]: 家下载了 muse 把，
+[Speaker 0]: 几个订阅退掉然后就把它删了，
+[Speaker 0]: 再也不用了呢说到底这个需求真的能，
+[Speaker 0]: 持续存在吗我承，
+[Speaker 0]: 认这些质疑短？
+[Speaker 0]: 期之内，
+[Speaker 0]: 可能都会存在但长远来看我？
+[Speaker 0]: 认为这些其实都不是问题个人 agent 这条路是，
+[Speaker 0]: 一定能成功，
+[Speaker 0]: 的为什么我有信心呢咱们得，
+[Speaker 0]: 先回到一个最本质的问题什么。
+[Speaker 0]: 问题呢就是人天生？
+[Speaker 0]: 就想偷懒人类社会一直以来都在。
+[Speaker 0]: 想办法把自？
+[Speaker 0]: 己不想干的事情外包，
+[Speaker 0]: 出去不想洗衣服于是有了洗衣机不想洗碗于是有了洗碗机再到，
+[Speaker 0]: 现在的外卖，
+[Speaker 0]: 网购很多时候也，
+[Speaker 0]: 不是你真，
+[Speaker 0]: 的没时间就是懒，
+[Speaker 0]: 得下楼懒得出门而已可，
+[Speaker 0]: 是到了今天社会越发达服务分，
+[Speaker 0]: 的越细我们的，
+[Speaker 0]: 生活似乎被照。
+[Speaker 0]: 顾的越来越好，
+[Speaker 0]: 了但不知道，
+[Speaker 0]: 你有没有发现，
+[Speaker 0]: 我们每天要操心的事情可一点都没少。
+[Speaker 0]: 付账单管理密码比价购，
+[Speaker 0]: 物去各种预约等等等等虽，
+[Speaker 0]: 然都不是什么大事但、
+[Speaker 0]: 每件、
+[Speaker 0]: 事都、
+[Speaker 0]: 要操心又、
+[Speaker 0]: 烦又碎而个人 agents 要做。
+[Speaker 0]: 的就是帮你把这些琐，
+[Speaker 0]: 事接过去这其实和，
+[Speaker 0]: 洗衣机外。
+[Speaker 0]: 卖是一个道理只不过以前外包出去的多是体力。
+[Speaker 0]: 活现在连这些要花心思的琐事也，
+[Speaker 0]: 能交出去了说到底这背后都是人的，
+[Speaker 0]: 好吃懒做好吃懒做是人性也是很多生意背。
+[Speaker 0]: 后的第，
+[Speaker 0]: 一生产力只要是能让人生活，
+[Speaker 0]: 更方便更省事更，
+[Speaker 0]: 轻松的服务就一定是有需求的其。
+[Speaker 0]: 实私人助理这种服务一直、
+[Speaker 0]: 都有只、
+[Speaker 0]: 不过以前只有，
+[Speaker 0]: 有钱人才请得起你。
+[Speaker 0]: 不妨问问自己假如不要钱你想不，
+[Speaker 0]: 想有一个私人助理我相信绝大多数。
+[Speaker 0]: 人都是想要的这，
+[Speaker 0]: 本身就说明，
+[Speaker 0]: 这个需求一直都在而现在，
+[Speaker 0]: 的 agent 是免费的这就相当于每个，
+[Speaker 0]: 人都有了一个不要钱的私人助理。
+[Speaker 0]: 所以长远来看这门生意一定能做成那回到前面的质疑今天大家用 muse 做的。
+[Speaker 0]: 确实很多是退，
+[Speaker 0]: 订比价这种一次性的。
+[Speaker 0]: 事情但这并不说明，
+[Speaker 0]: 需求不会持续 muse 肯定不是个人 agent 最终的形态它只是目前最，
+[Speaker 0]: 接近的一个接下来一定会快速。
+[Speaker 0]: 不断的迭代能帮你做的事情也，
+[Speaker 0]: 会越来越多今天咱们看到，
+[Speaker 0]: 的只是一个很初级的形态一年，
+[Speaker 0]: 后五年后它肯定会变得很不一。
+[Speaker 0]: 样这就好像智能手机刚出来的时候很多人，
+[Speaker 0]: 还在讨、
+[Speaker 0]: 论我要这么多功能干嘛能打电。
+[Speaker 0]: 话发短信不就行了吗可后来呢谁，
+[Speaker 0]: 都离不开它了个，
+[Speaker 0]: 人 agent 也一样形态，
+[Speaker 0]: 一定会变但只要每一次迭代都能让？
+[Speaker 0]: 人变得更，
+[Speaker 0]: 懒它最终就一定，
+[Speaker 0]: 会成为人人都，
+[Speaker 0]: 离不开的产品。
+[Speaker 0]: 不过长远来看能做成不代表这个过程，
+[Speaker 0]: 会很顺利个人 agent 和一般的互联网产品很不一。
+[Speaker 0]: 样它有很多自，
+[Speaker 0]: 己特有的困难也正是因为这些困。
+[Speaker 0]: 难很可能使得个人 agent 这套商业模式现，
+[Speaker 0]: 在很难跑通也正因为这些。
+[Speaker 0]: 困难可能使得一些玩，
+[Speaker 0]: 家最终能够胜出一些最终会被淘汰那具体有哪些。
+[Speaker 0]: 困难呢第一个困难，
+[Speaker 0]: 也是这门生意最大的挑战就是它，
+[Speaker 0]: 太烧钱了以前的互。
+[Speaker 0]: 联网产品多一个用户？
+[Speaker 0]: 几乎不多花什么钱所以可以放心的免费送但 AI 不一样。
+[Speaker 0]: 因为算力是要看成本，
+[Speaker 0]: 的你每多一个用户甚至每多问，
+[Speaker 0]: 一句话都要消耗算力都。
+[Speaker 0]: 是成本而个，
+[Speaker 0]: 人 agents 的成本又比拆 GPT 高，
+[Speaker 0]: 出一大截可能很多，
+[Speaker 0]: 人不知道一个免费的个人 agent 它的运行成本。
+[Speaker 0]: 大约是免费拆 GPT 的十倍为什么这么贵。
+[Speaker 0]: 呢一方面执行任务，
+[Speaker 0]: 消耗的 token 远远高于，
+[Speaker 0]: 简单问答另一方面全天候在线每人一。
+[Speaker 0]: 台独立的虚拟电？
+[Speaker 0]: 脑各种，
+[Speaker 0]: 安全设置这些都要花钱按大模的估算。
+[Speaker 0]: 每一位 muse，
+[Speaker 0]: 用户每个月，
+[Speaker 0]: 的成本在三美元到一百三，
+[Speaker 0]: 十美元之间如，
+[Speaker 0]: 果一个用户把。
+[Speaker 0]: 免费额度全部，
+[Speaker 0]: 用满每个月的成本就要一百二十八美元一年下来就是一千。
+[Speaker 0]: 多美元也正因为成本太高 open AI 直接把，
+[Speaker 0]: 个人 agent 产品 dots 捆捆绑在了他每月一，
+[Speaker 0]: 百美元的 pro 套餐里的不光。
+[Speaker 0]: 免费用户用不了就，
+[Speaker 0]: 连每月付二十美元用用户也用不了以 open AI 的技术实力做出来肯定不是问题之所以这么定，
+[Speaker 0]: 价说到底还是因为成本实在太高了可。
+[Speaker 0]: 大家想想又有多少人愿意为了这些生活。
+[Speaker 0]: 琐事每个月掏上，
+[Speaker 0]: 百美元呢本来 c 端用户对付费就。
+[Speaker 0]: 非常抵触本，
+[Speaker 0]: 以超高的成本就成了个人 agent 发展过程中一个巨大的阻碍就？
+[Speaker 0]: 连扎克伯格自己也在财报会上提。
+[Speaker 0]: 到成本是限制 muse 扩张的一个重要因素第二个困难是信任个。
+[Speaker 0]: 人 agent 想要真正把事情办成很多时候必，
+[Speaker 0]: 须拿到你的权限比如你想让他帮你跟。
+[Speaker 0]: 电信公司争取一个更便宜。
+[Speaker 0]: 的套餐就得把电信公，
+[Speaker 0]: 司的账号交给他想让他帮你。
+[Speaker 0]: 买东西就得把信用卡交给他可现实是大多数人还不放，
+[Speaker 0]: 心这么做美国有一项调查显示只。
+[Speaker 0]: 有百分之三的人愿，
+[Speaker 0]: 意让 AI 不经确认就去。
+[Speaker 0]: 做交易只，
+[Speaker 0]: 有百分之四的人愿意让他。
+[Speaker 0]: 独立完成购买如果大，
+[Speaker 0]: 家一直不愿意把这些交出去个人 agent 能帮你办的事，
+[Speaker 0]: 就会很有限也就很难做大第三个困难是平台。
+[Speaker 0]: 不一定让你进就算用户愿意把账号，
+[Speaker 0]: 交给 agent 平台也不一定让他进去比，
+[Speaker 0]: 如亚马逊就直。
+[Speaker 0]: 接把 muse 给封了摩根大通也不让这，
+[Speaker 0]: 类 agent 访问客户的账户虽然亚马，
+[Speaker 0]: 逊对外说是出于安全考。
+[Speaker 0]: 虑但在我看来他更担心的其实，
+[Speaker 0]: 是广告因为如果消费者直接告诉正想买。
+[Speaker 0]: 什么就不会再去看亚马逊上的广告，
+[Speaker 0]: 了而且现在几乎所有的个人 agent 都还要。
+[Speaker 0]: 用到谷歌的 gmail 和日历这些连，
+[Speaker 0]: 接理论上，
+[Speaker 0]: 也随时可能被切断当然长期来看。
+[Speaker 0]: 这些平台大概率会一点点放开只是过程中少不了拉扯从。
+[Speaker 0]: 而导致产品的 scale 不够快聊到这里咱们。
+[Speaker 0]: 先把，
+[Speaker 0]: 逻辑捋一，
+[Speaker 0]: 下个人 agent 这条路长远来看一定，
+[Speaker 0]: 能走得通市场空间也非，
+[Speaker 0]: 常大但过程中有三个困。
+[Speaker 1]: 难太烧钱需，
+[Speaker 0]: 要信任平台不一定让。
+[Speaker 0]: 你进那这么大的一门生，
+[Speaker 0]: 意最后到底谁，
+[Speaker 0]: 能做成呢其实只要。
+[Speaker 0]: 把这三个困难反过来，
+[Speaker 0]: 看就能知道一家，
+[Speaker 0]: 公司需要具备什么。
+[Speaker 0]: 能力了首先是烧钱这，
+[Speaker 0]: 个困难个人 agent 的成本？
+[Speaker 0]: 这么高用户又不愿意付钱那你就，
+[Speaker 0]: 得有别的业务赚钱来补贴才能长期免费。
+[Speaker 0]: 下去我的但光能烧还不够。
+[Speaker 0]: 烧钱总有个头你还得，
+[Speaker 0]: 尽快找到变现的办，
+[Speaker 0]: 法比如广告或者交易抽成这样才，
+[Speaker 0]: 能一直撑下去其次。
+[Speaker 0]: 是信任用户愿不愿意把密，
+[Speaker 0]: 码信用卡，
+[Speaker 0]: 交给你很大程度上取决于他，
+[Speaker 0]: 们本来就信不信任你这，
+[Speaker 0]: 家公司这种信任往往需。
+[Speaker 0]: 要很多年才能积累下来再就是平台不让进的问，
+[Speaker 0]: 题没有哪个 app 拥有一个人所有的数据你的。
+[Speaker 0]: 邮件在这家购物记录在那家银行账户又在另一家所。
+[Speaker 0]: 以一家公司要么有足够的，
+[Speaker 0]: 话语权能让商家银行这些平台放他，
+[Speaker 0]: 进去要么自己本身就掌握着大量的用户数据不用太依。
+[Speaker 0]: 赖别人除了这三点还有两样是所有，
+[Speaker 0]: 面对消费、
+[Speaker 0]: 者的产品都需要的一个是。
+[Speaker 0]: 分发渠道和用户基础比如 muse 之所以能够，
+[Speaker 0]: 扩展的比当年的。
+[Speaker 0]:  chat GPT 还快 meta，
+[Speaker 0]: 背后庞大的分发渠道和用户量功不可没这是，
+[Speaker 0]: 当年的 chat GPT 根本不具备的另一。
+[Speaker 0]: 个是，
+[Speaker 0]: 捕捉用户意图的能力，
+[Speaker 0]: 尤其是个人 agent 这部，
+[Speaker 0]: 分我们说它和之前的 AI 产品一个巨大的不。
+[Speaker 0]: 同就是它能主动去找用户的需。
+[Speaker 0]: 求所以你得有好的产品力而不，
+[Speaker 0]: 仅仅是模型的能力而当。
+[Speaker 0]: 我们把这些条件放在一起之后就会发现其，
+[Speaker 0]: 实啊答案还是比较明确的那就。
+[Speaker 0]: 是基本只有巨头才能做，
+[Speaker 0]: 出来他们能烧钱有数据。
+[Speaker 0]: 有渠道还有一定的信任基础虽然市，
+[Speaker 0]: 场上也有，
+[Speaker 0]: 一些很有特色的小公司在做个人 agent 比如 instinct 但他们很难长期撑，
+[Speaker 0]: 下去最后大，
+[Speaker 0]: 概率会、
+[Speaker 0]: 被收购，
+[Speaker 0]: 因此真正能参与这场。
+[Speaker 0]: 竞争的其实也就这么几家 meta 谷歌苹果 open AI anthropic 再多的，
+[Speaker 0]: 话可以，
+[Speaker 0]: 加一个 grook 那谁最有可能，
+[Speaker 0]: 成功呢我们不妨捋着他。
+[Speaker 0]: 们几个挨个看一下先说 open AI 和 anthropic 很多人可能觉。
+[Speaker 0]: 得这两家最有可能赢毕竟他们是 AI 的领头，
+[Speaker 0]: 羊模型最强尤其是 open？
+[Speaker 0]:  AIC 端的用户也最多但在个人 agent 上情况，
+[Speaker 0]: 真是如此吗前。
+[Speaker 0]: 面说了个人 agent 是一门非常烧钱的生，
+[Speaker 0]: 意而这两家恰恰是最缺钱的别看，
+[Speaker 0]: 他们俩现在的市值很大但从。
+[Speaker 0]: 现金流上看他，
+[Speaker 0]: 们远远比不上其？
+[Speaker 0]: 他对手两家，
+[Speaker 0]: 公司现在主要靠外部融资收入，
+[Speaker 0]: 主要来源也是弊端在广告。
+[Speaker 0]: 电商这种消费者变现的渠道，
+[Speaker 0]: 还非常初期所以，
+[Speaker 0]: 这俩公司不仅差钱而且在。
+[Speaker 0]:  c 端还不好变现而当下光是 b 端，
+[Speaker 0]: 的竞，
+[Speaker 0]: 争就已经够他们烧。
+[Speaker 0]: 的了如果再做一个免费的 c 端产品可能不一定。
+[Speaker 0]: 扛得住至于模型墙这个，
+[Speaker 0]: 优势你看 muse 做的这么好。
+[Speaker 0]: 可 matter 的模型其实也不算最强所以很明显个人 agent。
+[Speaker 0]: 这件事模型并没有那么重要也，
+[Speaker 0]: 因此这两家反而不。
+[Speaker 0]: 一定有那么大的优势，
+[Speaker 0]:  grook 的情况也差不多，
+[Speaker 0]: 而且他的位置还更尴尬一些。
+[Speaker 0]: 那 matter 怎么样，
+[Speaker 0]: 呢他的优势目前来看非常明显这也是，
+[Speaker 0]: 他现在领先的原因首先是烧钱和变现的能，
+[Speaker 0]: 力 meta 每年的广告收，
+[Speaker 0]: 入非常可观自己的算力也是。
+[Speaker 0]: 行业里最多的？
+[Speaker 0]: 还有一个要多少资源就给多，
+[Speaker 0]: 少资源的创始人也正因为烧。
+[Speaker 0]: 得起 news 的基础功能可以完。
+[Speaker 0]: 全免费 token 也给的非常大方而，
+[Speaker 0]: 且 meta 本来就是最会对消费者变，
+[Speaker 0]: 现的公司之一手里又有三十多亿 c 端用户如。
+[Speaker 0]: 果真跑通了变现赚起钱来也应该是最快的再来，
+[Speaker 0]: 是捕捉用户意图的。
+[Speaker 0]: 能力的社交媒体业务本身就是靠抓住用户的意，
+[Speaker 0]: 图来赚钱的主动给你推送内容一点点培养你的，
+[Speaker 0]: 使用习惯这些事 metmeta 已经做。
+[Speaker 0]: 了很多年经验非常丰富第三是做 c 端产品，
+[Speaker 0]: 的能力 muse 用起来是很顺手的就是一个对话，
+[Speaker 0]: 框像在 what's app 微信里，
+[Speaker 0]: 聊天一样操作很顺畅这说。
+[Speaker 0]: 明 meta 确实很懂 c 端产品不，
+[Speaker 0]: 过这些东西以。
+[Speaker 0]: 后别人也会慢慢学走最后是。
+[Speaker 0]:  matter 的数据优势现在 meta，
+[Speaker 0]: 并没有将社交媒，
+[Speaker 0]: 体上的数据接入 muse 所以这，
+[Speaker 0]: 部分数据优。
+[Speaker 0]: 势还没有体现但未来这将会。
+[Speaker 0]: 是 muse 和其他个人 agents，
+[Speaker 0]: 产生差异化的核心，
+[Speaker 0]: 这么看 metal 的优势确实。
+[Speaker 0]: 很大但，
+[Speaker 0]: 他有一个很大的问题就是前面说的信，
+[Speaker 0]: 任根据 open hammer 的一项调查问大家愿，
+[Speaker 0]: 意信任谁来保管自己的密码结果谷歌是百分之三十。
+[Speaker 0]: 苹果是，
+[Speaker 0]: 百分之二十三 chat GPT，
+[Speaker 0]: 是百分之十六而 matt 只有，
+[Speaker 0]: 百分之八排在最后现。
+[Speaker 0]: 在个人 agent 还在初期大，
+[Speaker 0]: 家用它做的事情还比较简单信任的问？
+[Speaker 0]: 题可能还没那么明显但，
+[Speaker 0]: 越往后他要帮你办的，
+[Speaker 0]: 事越多碰到的钱越，
+[Speaker 0]: 多这个问题就可能，
+[Speaker 0]: 越突出所。
+[Speaker 0]: 以 meta 现在虽然领先但，
+[Speaker 0]: 未来还需要继续观察那有没有，
+[Speaker 0]: 谁可能后来居上呢我觉得谷歌，
+[Speaker 0]: 很有观察为什么这么说呢咱们，
+[Speaker 0]: 还是按前面那，
+[Speaker 0]: 几个能力来看先说信任。
+[Speaker 0]: 这恰恰是 meta 最大的短，
+[Speaker 0]: 板而谷歌是大家最愿意。
+[Speaker 0]: 把密码交给的公司再说烧钱和？
+[Speaker 0]: 变现谷歌的广告生意，
+[Speaker 0]: 一点也不比 met 小？
+[Speaker 0]: 完全烧得起至于分发和数据大家，
+[Speaker 0]: 每天在用，
+[Speaker 0]: 的 gmail 地图 youtube 安卓都是谷。
+[Speaker 0]: 歌的所以单看这几点谷歌的条件都非常。
+[Speaker 0]: 好不过现在市场。
+[Speaker 0]: 对于谷歌还是有些顾虑一个重要，
+[Speaker 0]: 的原因是担。
+[Speaker 0]: 心和自己的搜索，
+[Speaker 0]: 业务左右互搏不过个人，
+[Speaker 0]:  agent、
+[Speaker 0]: 能够帮你买机票。
+[Speaker 0]: 了那谁还会去搜，
+[Speaker 0]: 索引擎上看机票广告。
+[Speaker 0]: 呢这个风险确实存在也会是短期谷歌面，
+[Speaker 0]: 临的最大问题但换一个角度看谷歌其实已经无路可。
+[Speaker 0]: 退了因为个人 agent 注定会来来了，
+[Speaker 0]: 又注定会冲击到谷歌的搜索广告基本？
+[Speaker 0]: 盘那么谷歌反而是，
+[Speaker 0]: 最有紧迫感去做好这件事的人别人。
+[Speaker 0]: 都是锦上添花而，
+[Speaker 0]: 谷歌则是生死存亡在现在，
+[Speaker 0]: 谷歌已经 all in AI 的背景下，
+[Speaker 0]: 长期来看这反而不是一个问题那谷歌真正。
+[Speaker 0]: 的问题在哪儿呢在我看来是，
+[Speaker 0]: 内部产品太多大家，
+[Speaker 0]: 互相抢资源很难统，
+[Speaker 0]: 一产品战略他也没有。
+[Speaker 0]: 像扎克伯格这样敢孤注一掷的创，
+[Speaker 0]: 始人可做好，
+[Speaker 0]: 个人 agent 恰恰需要很大。
+[Speaker 0]: 的决心既要投入大量的资源？
+[Speaker 0]: 还要扛住，
+[Speaker 0]: 短期的亏损那谷，
+[Speaker 0]: 歌到底有没，
+[Speaker 0]: 有这个决心持续做下去。
+[Speaker 0]: 呢这点还是需要验证的整体来看谷歌的条件不比，
+[Speaker 0]:  mate 差只要管理层下定决心把资源集，
+[Speaker 0]: 中起来把 gmail 日历安卓，
+[Speaker 0]: 这些都打通追上来并。
+[Speaker 0]: 不难这一点我个人还是保持积极的态度多说？
+[Speaker 0]: 一句刚刚过去这周谷。
+[Speaker 0]: 歌发布了，
+[Speaker 0]: 最新一季度的财报财，
+[Speaker 0]: 报后股价大跌了百分，
+[Speaker 0]: 之十二关于本次，
+[Speaker 0]: 财报、
+[Speaker 0]: 的深、
+[Speaker 0]: 度分析已经在美，
+[Speaker 0]: 投 pro 上发布了。
+[Speaker 0]: 这次财，
+[Speaker 0]: 报可以说是谷歌近些年来最。
+[Speaker 0]: 重要的一，
+[Speaker 0]: 次财报了搜，
+[Speaker 0]: 索业，
+[Speaker 0]: 务史无前例下跌但另一边的谷，
+[Speaker 0]: 歌云业务史无前例大涨那这是。
+[Speaker 0]: 否意味着 AI 的冲击终于显，
+[Speaker 0]: 现了谷歌最担心的情况还是发生，
+[Speaker 0]: 了如果你是谷歌的股东那么本次财报分析你。
+[Speaker 0]: 一定不能错过感兴趣的看，
+[Speaker 0]: 官欢迎一步美瞳 pro 查看最后再来说说，
+[Speaker 0]: 苹果苹果的好处是握着 iphone 这个最底层？
+[Speaker 0]: 的入口在分发上没有人能跟它？
+[Speaker 0]: 竞争软硬结合的能力，
+[Speaker 0]: 也很适合做个人 agent，
+[Speaker 0]: 最关键的是他有。
+[Speaker 0]: 着别人都无法掌握的私人数据以及。
+[Speaker 0]: 所有科技公司中最，
+[Speaker 0]: 强的隐私保护口碑所以很多人觉得苹果最后能赢但苹果自己也有一，
+[Speaker 0]: 个致命的问题那，
+[Speaker 0]: 就是他自己没有模。
+[Speaker 0]: 型现在苹果用，
+[Speaker 0]: 的是谷歌的 geri 看起来也不太想自己，
+[Speaker 0]: 去做模型在软件层也明显慢了一拍而且入。
+[Speaker 0]: 口这件事可能也没有想象中那，
+[Speaker 0]: 么重要你想想按一下锁屏键叫 siri，
+[Speaker 0]: 和打开一个 muse 真的差很。
+[Speaker 0]: 远吗所以对于苹果来说未来，
+[Speaker 0]: 还是比较 mixed 的好说了这么多那，
+[Speaker 0]: 最后谁最有可能胜出呢这个，
+[Speaker 0]: 问题其实很难有标准答案不过既然都说到这。
+[Speaker 0]: 儿了我也跟大家说说，
+[Speaker 0]: 我的预测我个人认为目前优势最？
+[Speaker 0]: 大的还是 matter 他也最，
+[Speaker 0]: 有可能最快跑出来谷。
+[Speaker 0]: 歌虽然慢了一，
+[Speaker 0]: 步但条件都在还是很有可？
+[Speaker 0]: 能后来居上的至于其他几家我。
+[Speaker 0]: 目前并不太看好 open AI 和，
+[Speaker 0]:  anthropic 两条战线都要打免费这。
+[Speaker 0]: 条线不一定烧得起苹果因为没有自己，
+[Speaker 0]: 的模型有这个硬伤在我觉。
+[Speaker 0]: 得它最后更可能成，
+[Speaker 0]: 为一个收入，
+[Speaker 0]: 口费的角色就像今天浏览。
+[Speaker 0]: 器和搜索的关，
+[Speaker 0]: 系一样当然这个判，
+[Speaker 0]: 断很主观，
+[Speaker 0]: 变量也很多这件事才，
+[Speaker 0]: 刚刚开，
+[Speaker 0]: 始咱们还是要走一，
+[Speaker 0]: 步看一步那这对投资者，
+[Speaker 0]: 来说意味着。
+[Speaker 0]: 什么呢首先大家一定要注意对应用层的公司来说，
+[Speaker 0]: 个人 agent 这个趋势短期之内其实没有。
+[Speaker 0]: 太多可以期待的因为，
+[Speaker 0]: 这个市场现，
+[Speaker 0]: 在还处于烧钱阶段，
+[Speaker 0]: 变现还没开始接下来很长一。
+[Speaker 0]: 段时间这些公司的现金流都会很？
+[Speaker 0]: 难看只要投入还在继，
+[Speaker 0]: 续变现还不确定市场，
+[Speaker 0]: 的质疑就很难打消所以大家也别指望个人 agent 在短期。
+[Speaker 0]: 内能给前面说的这几家公司带来爆，
+[Speaker 0]: 发性的增长那接。
+[Speaker 0]: 下来该看什么呢其实，
+[Speaker 0]: 啊就是变现一旦个人 agent 开始变，
+[Speaker 0]: 现真正赚到钱了大家就，
+[Speaker 0]: 会把这些质疑一点点的抛到脑后。
+[Speaker 0]: 也会觉得前期的投入是值得的这才是真正爆发的信号这就像今年早些时候 b 端 agent。
+[Speaker 0]: 成功变现之后才带动？
+[Speaker 0]: 了 open AI 和 anthropic 两家，
+[Speaker 0]: 公司的估值一样而目，
+[Speaker 0]: 前投行基本预，
+[Speaker 0]: 估个人 agent 要到二七年年底才会开始变现，
+[Speaker 0]: 我个人也同意这个判断这么倒推过来最快可能也要到二。
+[Speaker 0]: 七年年中个人 agent 才有可能给这些公司的股，
+[Speaker 0]: 价带来爆发那在这之前呢还有别的机会。
+[Speaker 0]: 吗有在我看来二七年将，
+[Speaker 0]: 会是个人 agent 竞争的一年也会是新一轮。
+[Speaker 0]: 的军备竞赛现在 meta 已经，
+[Speaker 0]: 在融资了谷歌，
+[Speaker 0]: 也肯定会参与进来其他公司，
+[Speaker 0]: 也都在跟上在这种情况下最先受益的就是基。
+[Speaker 0]: 础层的公司因为，
+[Speaker 0]: 不管最后谁赢大？
+[Speaker 0]: 家，
+[Speaker 0]: 都得先砸，
+[Speaker 0]: 钱买算力这场军备竞赛的好处基，
+[Speaker 0]: 础层马上就能看到就像过。
+[Speaker 0]: 去这两年大家为了抢，
+[Speaker 0]: 弊端的用户展开竞赛结，
+[Speaker 0]: 果最先受益的反而是。
+[Speaker 0]: 半导体这些基，
+[Speaker 0]: 础层的公司而这一次我认为很可。
+[Speaker 0]: 能又会是同样的剧，
+[Speaker 0]: 本最后提醒一下咱各位。
+[Speaker 0]: 看官谷歌最新的财报，
+[Speaker 0]: 分析已经在美头 pro 上。
+[Speaker 0]: 线感兴趣的看官，
+[Speaker 0]: 欢迎订阅美头 pro 新用户前七天免，
+[Speaker 0]: 费试用快来体验一下吧投美股上美投中文美股第一。
+[Speaker 0]: 投研品牌，
+[Speaker 0]: 。
+[Speaker 0]: ，
+[Speaker 0]: 。
+[Speaker 0]: ，
+[Speaker 0]: 。
+[Speaker 0]: 。
