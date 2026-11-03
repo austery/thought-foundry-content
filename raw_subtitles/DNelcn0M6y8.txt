@@ -1,0 +1,978 @@
+[Speaker 0]: 嗯，
+[Speaker 2]:  anthrobic 上市到底是 AI 新一轮红火发展的开端，
+[Speaker 2]: 还是 AI 泡沫破裂前最后的狂欢呢？
+[Speaker 2]: 大家好，
+[Speaker 2]: 欢迎来到 monlio lifmic 频道，
+[Speaker 2]: 我是 s 思。
+[Speaker 2]: 本期视频 s 为大家带来 anthropic s 一招股书全解析。
+[Speaker 2]: 听完这期视频，
+[Speaker 2]: 大家可以对 anthropic 的始始人 reo anthrobic 最新的财务数据以及 anthrobic 未来的投资展望有一个全方位的了解。
+[Speaker 2]:  anthbic 这家公司在过去一两两年的成长速度是人类从未见过的。
+[Speaker 2]: 微软从成立到一万亿美元，
+[Speaker 2]: 市值用了四十四年，
+[Speaker 2]: 苹果用了四十二年，
+[Speaker 2]: 英伟达用了三十年。
+[Speaker 2]: 亚马逊二十四年，
+[Speaker 2]: 谷歌二十一年，
+[Speaker 2]: 特斯拉十八年最快的 matter 也用了十七年多，
+[Speaker 2]: 而 anthropic 二零二一年才成立。
+[Speaker 2]: 现在二零二六年底上市极大概率是万亿以上规模了，
+[Speaker 2]: 所以它只用了不到六年。
+[Speaker 2]: 或许我们不是每一个人都要投资 anthropic，
+[Speaker 2]: 但只要你在投资 AI 相关领域的公司了解 anthroropic 就是一门必修课，
+[Speaker 2]: 投资没有捷径。
+[Speaker 2]: 接下来 is 带大家一起来学习这家人类有史以来市值增速最快的公司 anthropic。
+[Speaker 2]: 首先，
+[Speaker 2]: 我觉得很有必要深入了解 anthropic 的创始人兼 CO darara on a day，
+[Speaker 2]: 他到底是什么样的人我在这里会用较长的篇幅告诉大家，
+[Speaker 2]: 如果你平时只是看各种新闻，
+[Speaker 2]: 头条，
+[Speaker 2]: 可能会对 darl 产生极度负面的评价，
+[Speaker 2]: 而实际上是这样吗？
+[Speaker 2]: 我们一探究竟。
+[Speaker 2]:  daarel 一九八三年出生于旧金山，
+[Speaker 2]: 他在那里长大。
+[Speaker 2]: 他回忆说，
+[Speaker 2]: 小时候的旧金山还没有被科技热潮改变，
+[Speaker 2]: 等他上高中，
+[Speaker 2]: 互联网泡沫就在身边炸开，
+[Speaker 2]: 他就觉得无聊透顶，
+[Speaker 2]: 说写个网站，
+[Speaker 2]: 开个公司，
+[Speaker 2]: 对我没有太大的吸引力。
+[Speaker 2]: 我想，
+[Speaker 2]: 当科学家却发现最基本的科学真理。
+[Speaker 2]: 达瑞尔的母亲是犹太人，
+[Speaker 2]: 负责伯克利和旧金山图书馆的翻新工程。
+[Speaker 2]: 父亲是意大利人，
+[Speaker 2]: 是一名皮革匠。
+[Speaker 2]: 达瑞尔说，
+[Speaker 2]: 父母从来不把话挑明，
+[Speaker 2]: 但总让他感到一种对世界的责任感。
+[Speaker 2]: 父母告诉达 reel，
+[Speaker 2]: 你得出去做点真正重要的事情。
+[Speaker 2]: 达 reel 在挪威主权基金 CEO 的访谈节目里面说，
+[Speaker 2]: 父母最看重的是社会责任，
+[Speaker 2]: 他们常想的是身在幸运位置上的人，
+[Speaker 2]: 要怎么对那些不那么幸运的人尽到责任呢？
+[Speaker 2]: 我们最近从 anthorpic 作为公益公司的定位里能够看到这一点理念。
+[Speaker 2]: 我觉得很好，
+[Speaker 2]:  arreel 从小就喜欢数学，
+[Speaker 2]: 因为数学有客观的答案。
+[Speaker 2]: 对，
+[Speaker 2]: 就是对错就是错。
+[Speaker 2]: 他还有一个小他四岁的妹妹 danella danella 后来说从小时候起，
+[Speaker 2]: 他们就一直觉得彼此非常的合拍。
+[Speaker 2]: 二零零一年大热进了加州理工学院，
+[Speaker 2]: 读物理，
+[Speaker 2]: 读到二零二三年，
+[Speaker 2]: 转学到了斯坦福二零二六年，
+[Speaker 2]: 拿到斯坦福的物理学学士学位，
+[Speaker 2]: 然后达瑞选择去普林斯顿读博士，
+[Speaker 2]: 转折也发生在这里。
+[Speaker 2]: 达然又说，
+[Speaker 2]: 他刚到普林斯顿时，
+[Speaker 2]: 想当理论物理学家，
+[Speaker 2]: 头几个月做的是宇宙研究。
+[Speaker 2]: 就在那段时间，
+[Speaker 2]: 他的父亲在生病了很长一段时间后于二零零六年去世。
+[Speaker 2]: 达 arel 从来没有公开说过父亲得的是什么病，
+[Speaker 2]: 他只是说一种长期的疾病。
+[Speaker 2]: 父亲去世后只过了三四年，
+[Speaker 2]: 这种病的治愈率就从大约百分之五十提高到了大约百分之九十五。
+[Speaker 2]: 他说，
+[Speaker 2]: 如果这个方法早几年出现，
+[Speaker 2]: 本可以救下他的父亲这件事，
+[Speaker 2]: 后来深深影响了 darel 的研究方向。
+[Speaker 2]: 大学快毕业时，
+[Speaker 2]:  darel 读了 ray cuzwl 的书，
+[Speaker 2]: 相信算力会指数级增长，
+[Speaker 2]: 迟早会带来非常强大的 AI。
+[Speaker 2]: 可当时的 AI 根本很不管用，
+[Speaker 2]: 所以他想先去研究和人工智能最接近的东西，
+[Speaker 2]: 也就是人脑这个天然的智能。
+[Speaker 2]: 于是，
+[Speaker 2]:  dara 去找系里做生物物理和计算神经科学的老师，
+[Speaker 2]: 研究真实神经元组成的网络有什么集体性质，
+[Speaker 2]: 也想借此去解决人类的疾病。
+[Speaker 2]: 二零一一年，
+[Speaker 2]:  dara 拿到了普林斯顿的生物物理学博士学位。
+[Speaker 2]: 二零一一年底，
+[Speaker 2]: 达热到斯坦福医学院做博士后，
+[Speaker 2]: 一做就是三年，
+[Speaker 2]: 研究方向是蛋白质组学。
+[Speaker 2]: 他还参与开发过开源的蛋白质组学软件。
+[Speaker 2]: 可是越做他越发现生物实在是太复杂了，
+[Speaker 2]: 复杂到超出了人类的尺度。
+[Speaker 2]: 他说，
+[Speaker 2]: 要真正搞懂他需要成百上千个研究者，
+[Speaker 2]: 而这些人又很难把各自的知识拼在一起。
+[Speaker 2]: 就在他对生物学感到无力的时候，
+[Speaker 2]:  AI 圈里发生了一件大事。
+[Speaker 2]: 二零一二年的 image net 图像识别比赛中，
+[Speaker 2]: 来自多伦多大学的亚里克斯克里泽夫斯基伊利亚苏斯克维和导师杰弗里辛顿用两块游戏显卡训练出了 alex net。
+[Speaker 2]: 他的错误率只有大约百分之十五，
+[Speaker 2]: 而第二名是百分之二十六左右，
+[Speaker 2]: 一下子拉开了十个百分点的差距。
+[Speaker 2]: 很多人把这一刻当做深度学习时代的起点。
+[Speaker 2]: 达 reo 说，
+[Speaker 2]: 看到 alex net，
+[Speaker 2]: 他突然意识到这东西真的开始管用了。
+[Speaker 2]: 在他看来，
+[Speaker 2]:  AI 可能是唯一能突破人类尺度，
+[Speaker 2]: 真正解决生物难题的技术。
+[Speaker 2]: 这个想法十二年后会变成他那篇长文 machines of loving greece 的核心。
+[Speaker 2]: 于是二零一四年十一月，
+[Speaker 2]:  dara 加入了百度在加州的硅谷人工智能研究室，
+[Speaker 2]: 跟着吴恩达做研究。
+[Speaker 2]: 吴恩达是谁？
+[Speaker 2]: 他是斯坦福大学的计算机教授。
+[Speaker 2]: 二零一一年，
+[Speaker 2]: 在谷歌内部创办了 google brain，
+[Speaker 2]: 也就是著名的谷歌大脑项目。
+[Speaker 2]: 二零一四年，
+[Speaker 2]: 吴文达加入百度当首席科学家，
+[Speaker 2]: 主管百度的 AI 研究。
+[Speaker 2]: 可以说，
+[Speaker 2]: 吴文达是当时深度学习圈里最有名的人物之一。
+[Speaker 2]: 在百度达 ario 被分配的任务很简单，
+[Speaker 2]: 做出最好的语音识别系统。
+[Speaker 2]: 他说那里的数据很多，
+[Speaker 2]:  GPU 也很多，
+[Speaker 2]: 他作为新人就做了最朴素的实验，
+[Speaker 2]: 把神经网络的层数加多，
+[Speaker 2]: 把模型做大训练的更久，
+[Speaker 2]: 加更多的数据，
+[Speaker 2]: 看看会怎么样。
+[Speaker 2]: 结果发现模型就是会稳定的，
+[Speaker 2]: 越变越好。
+[Speaker 2]: 他自己说，
+[Speaker 2]: 这可能是新手的运气。
+[Speaker 2]: 当时他还以为这只是语音识别领域的一个单一现象。
+[Speaker 2]: 二零一五年十月，
+[Speaker 2]:  darel 离开百度，
+[Speaker 2]: 加入谷歌的 google brain 项目。
+[Speaker 2]: 当时他任职高级研究科学家在那里待了九个月。
+[Speaker 2]: 这段时间他写了一篇非常有名的论文，
+[Speaker 2]: 叫 AI 安全中的具体问题。
+[Speaker 2]:  concrete problems in AI safety，
+[Speaker 2]: 他把奖励、
+[Speaker 2]: 钻空子和安全探索这些抽象的担忧变成了可以做实验的技术问题。
+[Speaker 2]: 二零一六年七月，
+[Speaker 2]:  dara 加入我们现在熟知的 open AI，
+[Speaker 2]: 他的第一个职位是 AI 安全团队负责人。
+[Speaker 2]: 所以瑞说自己算是最早加入 dopen AI 的那批人之一。
+[Speaker 2]: 他后来回忆说，
+[Speaker 2]: 就在 open AI 成立前不久。
+[Speaker 2]: 他认识了伊利亚苏兹克维，
+[Speaker 2]: 也就是 alex net 的作者之一。
+[Speaker 2]: 后来他成为了 open i 的首席科学家。
+[Speaker 2]: 伊利亚对他说的印象最深刻的话之一，
+[Speaker 2]: 就是你要明白模型，
+[Speaker 2]: 就是想学习达 reel。
+[Speaker 2]: 当时说这句话就像一句禅宗，
+[Speaker 2]: 让他一下子就开悟了。
+[Speaker 2]: 他在百度看到的规律不是偶然，
+[Speaker 2]: 而可能是普遍的。
+[Speaker 2]: 后来正是达 reel，
+[Speaker 2]: 把这些直觉一点点变成了系统的理论。
+[Speaker 2]: 二零一八年，
+[Speaker 2]: 第一代 GPT 问世，
+[Speaker 2]:  dara 看到了 scaling law 的潜力，
+[Speaker 2]: 所以他一直在 open i 内部主张激进，
+[Speaker 2]: 获得更多的数据，
+[Speaker 2]: 更多的算力，
+[Speaker 2]: 跑一个规模比现在大得多的模型训练实验。
+[Speaker 2]: 但是要特别说明 GPT one 跟当时自己工作的团队其实没有关系，
+[Speaker 2]: 但他一眼就看出正确的做法是把它放大。
+[Speaker 2]: 二零一八年九月，
+[Speaker 2]:  darr 升职成为研究总监。
+[Speaker 2]: 二零一九年二月，
+[Speaker 2]:  open，
+[Speaker 2]:  i 发布了 GPT two daarl 是当时的相关论文作者之一。
+[Speaker 2]:  GPT two 出来以后，
+[Speaker 2]:  darr 说自己真的被吓坏了。
+[Speaker 2]: 因为他意识到只要把眼前的东西再放大一百万倍，
+[Speaker 2]: 他就会所有的事情都做的比人类强。
+[Speaker 2]: 所以对于达尔来说，
+[Speaker 2]:  GPT two 是第一次证明了规模化路径确实可行。
+[Speaker 2]: 但当时他说身边大概只有百分之十的人有同样的反应。
+[Speaker 2]: 另外百分之九十的人都觉得，
+[Speaker 2]:  GPD two 单看哪一项能力都不算很厉害，
+[Speaker 2]: 只会翻译总结文档，
+[Speaker 2]: 写几行代码而已。
+[Speaker 2]: 没看到它真正惊人的地方，
+[Speaker 2]: 在于未来通用性的潜力。
+[Speaker 2]: 紧接着，
+[Speaker 2]: 二零二零年五月 GPT three 论文发布名字叫语言模型是少样本学习者 GBT three 有一千七百五十亿个参数，
+[Speaker 2]: 比 GBT two 大了一百多倍。
+[Speaker 2]: 他最让人惊讶的是，
+[Speaker 2]: 不用专门训练，
+[Speaker 2]: 只要在提示里给几个例子，
+[Speaker 2]: 他就能学会翻译，
+[Speaker 2]: 做算术、
+[Speaker 2]: 写文章。
+[Speaker 2]:  darrel 深度参与了构建 GPT two 和 GPT three 的工作。
+[Speaker 2]: 那 darl 为什么要走呢？
+[Speaker 2]: 他在访谈节目里说，
+[Speaker 2]:  GPT three 就是被商业化的那个模型，
+[Speaker 2]: 他自己也参与了商业化。
+[Speaker 2]: 而他和公司的管理层真正的分歧在于怎么做，
+[Speaker 2]: 整个文明都在走向非常强大的 AI。
+[Speaker 2]: 怎样才能走得谨慎，
+[Speaker 2]: 坦诚，
+[Speaker 2]: 让人信得过。
+[Speaker 2]: 他说，
+[Speaker 2]: 与其去别人的理念争论，
+[Speaker 2]: 不如带上一群你信任的人，
+[Speaker 2]: 一起出去，
+[Speaker 2]: 把你的理念变成现实。
+[Speaker 2]: 我们可以推断，
+[Speaker 2]: 当时 darrel 和 sam 奥特曼的关系出现了严重的裂痕。
+[Speaker 2]: 很快在二零二一年初，
+[Speaker 2]:  daarel 和妹妹 danilla a model 一共七个人。
+[Speaker 2]: 从 open a 一起出来，
+[Speaker 2]: 创立了 anthorpic 妹妹 danilla 之前在支付公司 stripe 工作了好几年，
+[Speaker 2]: 而在新公司 anthorpic darrel 当 CEO danilla 当总裁。
+[Speaker 2]: 经营公司的事大多是妹妹在管，
+[Speaker 2]: 包括管人设计、
+[Speaker 2]: 公司架构等等。
+[Speaker 2]:  dara 自己更多想的是理念和战略。
+[Speaker 2]: 有趣的是，
+[Speaker 2]:  anthorbic 七位联合创始人那一样的薪酬持股也基本相当，
+[Speaker 2]: 每个人都同等的承载着公司的愿景，
+[Speaker 2]: 彼此之间有强大的信任。
+[Speaker 2]: 而更可贵的客观事实是，
+[Speaker 2]: 七位联合创始人至今全部都还在公司。
+[Speaker 2]: 仅仅从外表看，
+[Speaker 2]:  dara 不像一个科技公司 CEO，
+[Speaker 2]: 他喜欢戴圆框眼镜，
+[Speaker 2]: 偏爱 v 领毛衣，
+[Speaker 2]: 爱好是游泳，
+[Speaker 2]: 他的 AI 世界观是一枚硬币的两面。
+[Speaker 2]: 在 machines of loving greece 里，
+[Speaker 2]: 他描绘了几百万个比诺贝尔奖得主还聪明的 AI。
+[Speaker 2]: 同时工作把生物医学一百年的进展压缩到五到十年的场景。
+[Speaker 2]: 他也警告说，
+[Speaker 2]:  AI 可能要在几年内抹掉一半初级白领的岗位，
+[Speaker 2]: 并说，
+[Speaker 2]: 作为这项技术的生产者，
+[Speaker 2]: 我们有责任也有义务诚实的告诉大家将要发生什么。
+[Speaker 2]: 他对自己说，
+[Speaker 2]: 这些决定由少数几家公司少数几个人来做，
+[Speaker 2]: 感到深深的不安。
+[Speaker 2]: 很多人把 dareel 当成末日论者，
+[Speaker 2]: 他自己却说，
+[Speaker 2]: 没有人比他更明白 AI 的好处有多么的强大，
+[Speaker 2]: 因为他的父亲就没有能够等到几年后出现的治疗方法。
+[Speaker 2]: 而过世。
+[Speaker 2]: 在他眼里，
+[Speaker 2]: 强大的能力和巨大的风险本来就是同一枚硬币的两面。
+[Speaker 2]: 在 a 斯看来，
+[Speaker 2]: 达 reel 身上的优点远比很多人认为的形象要丰富得多。
+[Speaker 2]: 外界常觉得他是一个典型的不合群的书呆子，
+[Speaker 2]: 甚至是为了让自己公司独自发展而故意散布恐慌。
+[Speaker 2]: 但真实的达 ril 的人格特质似乎与这种印象完全不同。
+[Speaker 2]: 希望以上对于达 rel 从小到大的经历的介绍，
+[Speaker 2]: 能够帮助到大家更全面的了解。
+[Speaker 2]: 这位在短短几年就将 anthorbic 缔造成万亿市值伟大公司的创造者。
+[Speaker 2]: 接下来我们进入正题。
+[Speaker 2]: 首先我想放在最前面强调的就是此次 anthropc SE 招股书为大家呈现的非常炸裂的营收数据以及它背后的含义。
+[Speaker 2]: 我们先来了解一下 anthrobic 是如何在财务报表里呈现自己的营收、
+[Speaker 2]: 成本费用与净利润结构的这会为大家之后解读他最新的季度营收与财务报表打下基础。
+[Speaker 2]: 最上面的是营收二零二六年，
+[Speaker 2]: 上半年 NSOBC 营收一百六十十二点八六亿美元。
+[Speaker 2]: 对比一下，
+[Speaker 2]: 二零二五年全年是四十五点八五亿，
+[Speaker 2]: 二零二五年上半年只有十一点六三亿，
+[Speaker 2]: 同比增长约十三倍向下看。
+[Speaker 2]: 除了一次性核减费用，
+[Speaker 2]:  anthrobic 把所有经营开支分成四大类，
+[Speaker 2]: 分别是算力与基础设施人员费用、
+[Speaker 2]: 销售营销与合作伙伴、
+[Speaker 2]: 其他运营与管理费用、
+[Speaker 2]: 一次性和解费用和以上所有四项加起来，
+[Speaker 2]: 二零二六年上半年营业费用合计一百六十九点七九亿，
+[Speaker 2]: 比营收多出了六点九三亿。
+[Speaker 2]: 所以 s thropic 二零二六年上半年的营业亏损是六点九三亿美元，
+[Speaker 2]: 营业利润率是负的百分之四，
+[Speaker 2]: 这已经非常接近盈亏平衡了。
+[Speaker 2]: 而仅仅在一年前的二零二五年，
+[Speaker 2]: 全年亏损就高达八十点六亿，
+[Speaker 2]: 营业利润率是负的百分之一百七十六。
+[Speaker 2]: 然后营业亏损往下还有三项和日常经营无关的收支项目，
+[Speaker 2]: 分别是利息收入、
+[Speaker 2]: 可转债的公允价值变动和其他净收支额。
+[Speaker 2]: 营业亏损，
+[Speaker 2]: 加上这三项得到税前亏损八百零七点二七亿，
+[Speaker 2]: 最后净亏损是八百零七点四八亿。
+[Speaker 2]: 所以大家第一次看到 enthropic 的报表可能会被上半年亏了八百多亿美元，
+[Speaker 2]: 吓一跳。
+[Speaker 2]: 而现在大家知道超过八百亿的亏损里，
+[Speaker 2]: 绝大部分是因为以前借的债公司估值上涨以后带来的公允价值变动是会计上的纸面亏损，
+[Speaker 2]: 公司自己也给了剔除这些项目之后的 non gap 口径。
+[Speaker 2]: 二零二六年上半年调整后，
+[Speaker 2]: 营业利润是十六点一八亿美元，
+[Speaker 2]: 调整后营业利润率百分之十，
+[Speaker 2]: 调整后净利润是二十六点七亿亿元。
+[Speaker 2]: 也就是说，
+[Speaker 2]:  anthrobic 在二零二六年上半年已经开始赚钱了。
+[Speaker 2]: 可能大家有疑问，
+[Speaker 2]: 为什么从这张报表上看不到成本和毛利率？
+[Speaker 2]: 大多数科技公司的利润表是先列营业成本，
+[Speaker 2]: 算出毛利再做费用。
+[Speaker 2]:  anthrobic 原来也是这么做的，
+[Speaker 2]: 但在二零二五年改成了按性质分类，
+[Speaker 2]: 公司给出的理由是算力在 anththrobic 是一个共享的资源池，
+[Speaker 2]: 同一批算力，
+[Speaker 2]: 今天服务客户做推理，
+[Speaker 2]: 明天就可能拿去训练新的模型，
+[Speaker 2]: 训练出更好的模型，
+[Speaker 2]: 又能带来更多的收入，
+[Speaker 2]: 两者相辅相成。
+[Speaker 2]: 所以，
+[Speaker 2]: 如果硬把算力开支分成成本和费用两块，
+[Speaker 2]: 反而不能反映公司的真实运营方式。
+[Speaker 2]: 尽管如此，
+[Speaker 2]: 成本的信息公司还是提供了一些历史数据，
+[Speaker 2]: 而且明确说明营业成本基本全部都是服务客户的算力成本，
+[Speaker 2]: 也就是我们很关心的推理成本。
+[Speaker 2]: 具体细节我们来看下面的信息。
+[Speaker 2]: 这张表格第二行是营业成本。
+[Speaker 2]: 刚才说过，
+[Speaker 2]: 可以近似理解成推理成本，
+[Speaker 2]: 也就是 anthropic 为了服务客户，
+[Speaker 2]: 让模型回答问题，
+[Speaker 2]: 所花的算力用营收除以它就得到第三行每花一美元推理算力能带来多少营收。
+[Speaker 2]: 这个数字的变化非常惊人，
+[Speaker 2]: 二零二四年只有零点五美元，
+[Speaker 2]: 也就是说，
+[Speaker 2]: 花一美元的推理算力只收回五毛钱，
+[Speaker 2]: 是亏损的。
+[Speaker 2]: 二零二五年上半年是一点一美元，
+[Speaker 2]: 下半年升到了二美元。
+[Speaker 2]: 到了二零二六年，
+[Speaker 2]: 上半年一下子跳到六点八美元，
+[Speaker 2]: 营收，
+[Speaker 2]: 在一年半里涨了十几倍。
+[Speaker 2]: 而每美元推理算力换来的营收涨得比营收本身快得多。
+[Speaker 2]: 比这更夸张的是，
+[Speaker 2]: 下面三行的增量数据。
+[Speaker 2]: 二零二四年，
+[Speaker 2]: 每多花一美元推理算力，
+[Speaker 2]: 只多换来五毛钱的营收。
+[Speaker 2]: 但这个数字二零二五年下半年变成了三点一美元。
+[Speaker 2]: 到了二零二六年，
+[Speaker 2]: 上半年，
+[Speaker 2]: 营收比二零二五年下半年多了一百二十八点六亿美元。
+[Speaker 2]: 推理算力成本只多了六点三亿。
+[Speaker 2]: 也就是说，
+[Speaker 2]: 每亿美元增量推理算力成本对应二十点五美元的增量营收。
+[Speaker 2]: 不过这里我必须提醒大家，
+[Speaker 2]: 这个二十点五倍要正确的理解。
+[Speaker 2]: 增量营收并不全是新算力带来的以前就在用的算力，
+[Speaker 2]: 随着模型变得更高效，
+[Speaker 2]: 产品卖的更贵，
+[Speaker 2]: 客户用的更多，
+[Speaker 2]: 本身也能产生更多的营收。
+[Speaker 2]: 所以一百二十八点六亿的新增营收有一部分来自新算力，
+[Speaker 2]: 但是有很大一部分也来自老算力。
+[Speaker 2]: 越用越值钱，
+[Speaker 2]: 增量比值不是严格的因果关系。
+[Speaker 2]: 它只是告诉大家一个观察角度，
+[Speaker 2]:  anthrobic 新增的营收增长远远跑赢了它新增的推理成本。
+[Speaker 2]: 我们再总结一下不同数字之间的对比啊，
+[Speaker 2]: 二零二六年上半年 anthrobic 在算力和基础设施上的总支出是八十九点四五亿美元，
+[Speaker 2]: 而其中只有二十三点八亿算进了营收成本，
+[Speaker 2]: 也就是近似于推理成本。
+[Speaker 2]: 按照百分比，
+[Speaker 2]: 二零二六年上半年算力与基础设施总支出占营收的百分之五十五，
+[Speaker 2]: 而推理算力只占营收的百分之十五。
+[Speaker 2]: 所以我们间接可以得出结论，
+[Speaker 2]: 目前的 anthropic 花在间接为公司赚钱的训练，
+[Speaker 2]: 算力上的钱，
+[Speaker 2]: 大约是花在直接为公司赚钱的推理算力上的钱的二点七倍以上提供了这么多数据。
+[Speaker 2]: 其实简单来说，
+[Speaker 2]: 可以用两个炸裂来形容营收增速炸裂算力的边际效应炸裂。
+[Speaker 2]: 其实还有一个炸裂，
+[Speaker 2]: 就是未来的营收空间也很炸裂。
+[Speaker 2]: 接下来再次为大家剖析这个炸裂背后的数据。
+[Speaker 2]: 我们可以从三个角度来看，
+[Speaker 2]:  SE 招股书里面 anthropic 对于客户画像的分析和数据，
+[Speaker 2]: 第一大客户的数量在爆发一年。
+[Speaker 2]: 在 anthrobic 身上，
+[Speaker 2]: 花十万美元以上的客户，
+[Speaker 2]: 二零二三年底只有大约二十家，
+[Speaker 2]: 二零二四年底约两百家，
+[Speaker 2]: 二零二五年底涨到了一千五百家。
+[Speaker 2]: 而到二零二六年九月已经超过一点一九万家。
+[Speaker 2]: 对，
+[Speaker 2]: 以万为单位了。
+[Speaker 2]: 一年前这个数字才九百五十多家，
+[Speaker 2]: 一年之后翻了十几倍。
+[Speaker 2]: 再往上看，
+[Speaker 2]: 一年花一百万美元以上的客户超过一千九百家花，
+[Speaker 2]: 一千万美元以上的约两百五十家。
+[Speaker 2]: 在这些大客户下面，
+[Speaker 2]: 还有大约四千万家一年花不到十万美元的长尾客户，
+[Speaker 2]: 他们都是未来升级，
+[Speaker 2]: 成为大客户的后备军。
+[Speaker 2]: 第二点，
+[Speaker 2]: 老客户越花越多招股书里有一个指标叫净收入留存率，
+[Speaker 2]: 截止二零二六年九月大约是百分之九百。
+[Speaker 2]: 你没听错，
+[Speaker 2]: 百分之九百，
+[Speaker 2]: 意思是一年前就在付费的那批客户，
+[Speaker 2]: 今年三季度花的钱是去年同期的大约九倍。
+[Speaker 2]: 为什么会这样？
+[Speaker 2]: 因为客户一旦把 cloud 用尽核心的工作流程花费，
+[Speaker 2]: 就会成倍的往上走。
+[Speaker 2]: 除此之外，
+[Speaker 2]: 第三点，
+[Speaker 2]: 我认为最重要渗透才刚刚开始，
+[Speaker 2]: 财富五百强力超过一半，
+[Speaker 2]: 全球两千强力超过百分之三十，
+[Speaker 2]: 都是 MFOB 一年花十万美元以上的客户听起来很多，
+[Speaker 2]: 对不对？
+[Speaker 2]: 但是我们反过来看，
+[Speaker 2]: 还有将近一半的财富五百强，
+[Speaker 2]: 接近百分之七十的全球两千强企业，
+[Speaker 2]: 还没有达到这个花费门槛。
+[Speaker 2]: 更关键的是，
+[Speaker 2]: 这些财富五百强客户付给 anthropic 的钱，
+[Speaker 2]: 平均不到他们总支出的百分之零点一。
+[Speaker 2]: 哪怕是花的最多的前十家公司，
+[Speaker 2]: 也不到他们总支出的百分之一。
+[Speaker 2]: 换句话说，
+[Speaker 2]: 如果更多大企业的使用深度进一步提高，
+[Speaker 2]: 这些客户的支出就还有好几倍甚至几十倍的增长空间。
+[Speaker 2]: 不仅如此，
+[Speaker 2]:  antho pc c 营收增长并不靠少数几家大客户。
+[Speaker 2]: 二零二六年前九个月没有任何一家客户贡献超过百分之十的营收。
+[Speaker 2]: 第三季度前，
+[Speaker 2]: 五大客户以外的营收占比约百分之七十九，
+[Speaker 2]: 比第一季度约百分之六十四还高。
+[Speaker 2]: 与此同时，
+[Speaker 2]: 其实海外营收只占到 anthorbic 不到三成。
+[Speaker 2]: 更可怕的是，
+[Speaker 2]: 模型每升级一次单任务的成本还在下降。
+[Speaker 2]: 比如 OPPOS 五点五，
+[Speaker 2]: 让客户的单任务本降了约百分之四十，
+[Speaker 2]: 东西越便宜越好用，
+[Speaker 2]: 用的人和用的数量就越多。
+[Speaker 2]: 所以至少从数据上看，
+[Speaker 2]: 愿意花更多钱购买 anthrobic tokens 的客户还远远没有到头。
+[Speaker 2]: 而之后我们会再次回到终端用户这个论点，
+[Speaker 2]: 这些潜在的终端客户最终会不会大规模付费？
+[Speaker 2]: 还是要取决于一美元的 token，
+[Speaker 2]: 能不能给他们创造足够多的价值。
+[Speaker 2]: 这一点我会在视频后半段详细的阐述，
+[Speaker 2]: 了解了营收的具体情况还不够。
+[Speaker 2]: 接下来我们要回答一个很多 AI 领域投资者都有的问题。
+[Speaker 2]:  anthrobic 和亚马逊、
+[Speaker 2]: 谷歌、
+[Speaker 2]: 微软三家公司的深度绑定是如何进行的？
+[Speaker 2]: 接下来我用数据说话，
+[Speaker 2]: 大家首先需要知道 anthropic my 模型有两条路，
+[Speaker 2]: 一条是客户直接找他买，
+[Speaker 2]: 另一条是放在亚马逊、
+[Speaker 2]: 谷歌、
+[Speaker 2]: 微软、
+[Speaker 2]: 这三家的云平台上卖。
+[Speaker 2]: 我这里叫他们三朵云，
+[Speaker 2]: 很多大公司本来就在用这三朵云，
+[Speaker 2]: 他们直接在上面点一下，
+[Speaker 2]: 就能用 unthuropic 的产品。
+[Speaker 2]:  cloud 不用重新签合同钱，
+[Speaker 2]: 跟原来的云账单一起付，
+[Speaker 2]: 还能用掉。
+[Speaker 2]: 早就答应给云厂商的消费额度，
+[Speaker 2]: 省心又方便。
+[Speaker 2]: 钱呢是三朵云先收扣掉自己那部分再转给 anthropic。
+[Speaker 2]: 但记账的时候，
+[Speaker 2]:  anthropic 把客户负的全部金额都算成自己的营收。
+[Speaker 2]: 三朵云抽准那部分继承开支，
+[Speaker 2]: 因为产品是他的服务，
+[Speaker 2]: 是他负责，
+[Speaker 2]: 价格也是他定的。
+[Speaker 2]: 三朵云作为 anthrobic 的模型分发渠道，
+[Speaker 2]: 现在有多重要呢？
+[Speaker 2]: 我们来看，
+[Speaker 2]: 通过三朵云分发产生的营收占比二零二四年百分之三十二，
+[Speaker 2]: 二零二五年百分之四十七到二零二六年上半年是百分之四十八。
+[Speaker 2]: 所以 anthrobic 差不多一半的营收都经由这三个公司产生，
+[Speaker 2]: 招股书只给了三家加起来的数，
+[Speaker 2]: 并没有说每家各占多少。
+[Speaker 2]: 刚才说的是通过三朵云获得的营收 revenue，
+[Speaker 2]: 那云平台到底要抽走多少呢？
+[Speaker 2]: 这笔钱在账上记载了销售营销与合作伙伴费用。
+[Speaker 2]: 这个大象力招股书没有直接写 anthorbic 付给三朵云多少钱，
+[Speaker 2]: 但披露了这一项里，
+[Speaker 2]: 付给渠道合作伙伴的费用每年增加了多少。
+[Speaker 2]: 我们可以自己算一下，
+[Speaker 2]: 先看一个粗略的上限。
+[Speaker 2]: 二零二六年上半年，
+[Speaker 2]:  anthrobic 通过三朵云大约收了七十八亿美元，
+[Speaker 2]: 而整个销售营销与合作伙伴费用是三十一点六八亿美元。
+[Speaker 2]: 极端假设这笔费用全部当成给三朵云的分成，
+[Speaker 2]: 我们得到每从三朵云收一美元，
+[Speaker 2]: 最多要分出去，
+[Speaker 2]: 大约四毛钱，
+[Speaker 2]: 也就是百分之四十作为上限。
+[Speaker 2]: 如果用二零二五年全年的数字算，
+[Speaker 2]: 这个上限比例为百分之二十六。
+[Speaker 2]: 之所以说是上限，
+[Speaker 2]: 是因为这一项里还包括市场营销、
+[Speaker 2]: 广告和公关费用，
+[Speaker 2]: 不全是付给合作伙伴的费用，
+[Speaker 2]: 再算的精确一点。
+[Speaker 2]: 招股书里说，
+[Speaker 2]: 二零一六年上半年付给渠道合作伙伴的费用比去年同期多了约二十七亿美元，
+[Speaker 2]: 而二零二五年上半年这一整项费用也在一点二亿。
+[Speaker 2]: 所以，
+[Speaker 2]: 二零二六年上半年的渠道费大约在二十七亿到二十八亿之间，
+[Speaker 2]: 约占从三朵云获得的总营收的百分之三十五。
+[Speaker 2]: 二零二五年全年的渠道费大约三点四亿美元，
+[Speaker 2]: 从三朵云获得营收二十一点六亿美元。
+[Speaker 2]: 所以这个比例是百分之十六。
+[Speaker 2]: 根据以上的数字，
+[Speaker 2]: 我们可以大致推测，
+[Speaker 2]: 二零二五年 anthhobic 从三朵云这个超级分发平台，
+[Speaker 2]: 每获得一美元的营收大约要分出一毛六出去，
+[Speaker 2]: 给三朵云作为分发渠道报酬。
+[Speaker 2]: 而到了二零二六年，
+[Speaker 2]: 上半年，
+[Speaker 2]: 这个数字升到了三毛五，
+[Speaker 2]: 百分之三十五。
+[Speaker 2]: 有了以上的了解，
+[Speaker 2]: 我们就可以将三朵云和 anthhobic 之间的关系概括如下，
+[Speaker 2]: 首先，
+[Speaker 2]: 三朵云把算力卖给 anthhopbic anthhobic 用这些算力做两件事。
+[Speaker 2]: 第一，
+[Speaker 2]: 训练主要是训练模型或进行内部研究。
+[Speaker 2]: 第二，
+[Speaker 2]: 推理主要是服务于 anthrobic 自身客户的推理任务。
+[Speaker 2]: 比如普通客户日常用 cloud 的服务或者是企业客户电容 API 使用 cloud 进行编程等等。
+[Speaker 2]: 这是三朵云通过向 anthorivic 出售算力获得的第一笔收入。
+[Speaker 2]: 除此之外，
+[Speaker 2]: 正如刚刚为大家详细解释的，
+[Speaker 2]: 但凡是由三朵云平台分发服务于第三方客户所获得的营收，
+[Speaker 2]: 三朵云还要收取渠道费，
+[Speaker 2]: 这是第二笔收入。
+[Speaker 2]: 所以，
+[Speaker 2]: 首先，
+[Speaker 2]: 三朵云向 anthorbic 出售算力在 anthorbic 的 SE 文件中被记载了算力与基础设施成本项。
+[Speaker 2]: 对 anthropic 而言，
+[Speaker 2]: 这项成本主要用于研究模型、
+[Speaker 2]: 开发、
+[Speaker 2]: 服务客户以及公司内部使用 anthropic 的工具。
+[Speaker 2]: 那么主要是支付给云厂商的算力费用。
+[Speaker 2]: 当然还包括对存储网络连接，
+[Speaker 2]: 通过合作伙伴服务渠道，
+[Speaker 2]: 客户的基础设施成本。
+[Speaker 2]: 补充一点啊，
+[Speaker 2]: 二零二六年以前安弗瑞的算力基本全部来自三家云厂商。
+[Speaker 2]: 但是二零二六年开始也有一部分来自其他供应商的长期托管和租赁，
+[Speaker 2]: 然后三朵云还要收取过路费。
+[Speaker 2]: 在 anthrobic 的 SE 文件中，
+[Speaker 2]: 记入了销售营销与合作伙伴费用项。
+[Speaker 2]: 总理看来的算算与基础设施费用占营收的比例一路下降，
+[Speaker 2]: 二零二四年约百分之六百五十三，
+[Speaker 2]: 二零二五年约百分之一百六，
+[Speaker 2]: 到二零二六年上半年降到约百分之五十五。
+[Speaker 2]: 这是营收第一次超过算力费用，
+[Speaker 2]: 主要是因为二零二六年营收的爆发，
+[Speaker 2]: 而算力大多是提前十二个月到十八个月签好的固定成本，
+[Speaker 2]: 每单位算力带来的营收大幅度提高。
+[Speaker 2]: 以上我们知道了 anthrobic 和亚马逊、
+[Speaker 2]: 谷歌、
+[Speaker 2]: 微软三家公司的合作关系，
+[Speaker 2]: 以及对于 anthrobic 财务层面的影响。
+[Speaker 2]: 接下来 s 想要为大家分享 anthropic 公司的重要持股股东到底有哪些。
+[Speaker 2]: 其中当然少不了刚刚已经提到的三朵云。
+[Speaker 2]: 但是在那之前，
+[Speaker 2]: 我们先学习一下 anthropic 的股份有哪几种，
+[Speaker 2]: 以及哪些重要的公司和个人持有公司的股份。
+[Speaker 2]:  antherbic 上市后会有五类普通股，
+[Speaker 2]: 第一类是 class a 是最普通的股票，
+[Speaker 2]: 一股一票有分红权。
+[Speaker 2]: 上市时，
+[Speaker 2]: 公众买的就是 class a 七位联合创始人，
+[Speaker 2]: 手里拿的也是 class a 第二类是 class n 和 class a 一样分钱，
+[Speaker 2]: 但没有投票权。
+[Speaker 2]: 它主要发给战略合作伙伴，
+[Speaker 2]: 比如亚马逊和谷歌。
+[Speaker 2]:  class n 一旦卖给无关联的第三方，
+[Speaker 2]: 就会自动变成刚刚的第一类。
+[Speaker 2]:  class a 也就是说大股东可以拿走经济利益，
+[Speaker 2]: 却没办法用股份左右公司的决策。
+[Speaker 2]: 而剩下的三类很特别，
+[Speaker 2]: 不分红清算时也只拿回面值，
+[Speaker 2]: 只管投票和治理 class t 只有一股，
+[Speaker 2]: 它是由长期利益信托 LTBT 持有，
+[Speaker 2]: 这一股的权利很大。
+[Speaker 2]: 他选出的 class t 董事合起来占董事会的多数，
+[Speaker 2]: 而 class f 也只有一股上市时发给一家叫做 founder LLC 的公司，
+[Speaker 2]: 七位联合创始人里，
+[Speaker 2]: 每人一票。
+[Speaker 2]: 不管公司以后发多少股，
+[Speaker 2]: 这一股 class f 在表决中永远占百分之五十点一的投票权，
+[Speaker 2]: 其他 class a 股东加起来最多才只有百分之四十九点九。
+[Speaker 2]: 而最后的 class e 是上市后发给员工的股份，
+[Speaker 2]: 他也没有经济利益，
+[Speaker 2]: 只在少数事项上具有投票权。
+[Speaker 2]: 公司股东里面，
+[Speaker 2]: 亚马逊和谷歌是最显眼的。
+[Speaker 2]: 按照股书推算，
+[Speaker 2]: 截止二零二六年六月三十日，
+[Speaker 2]: 假设亚马逊的票据全部转股，
+[Speaker 2]:  anthropic 的全息式总股本大约是一百六十九点四亿股。
+[Speaker 2]: 所以目前亚马逊是最大的外部股东，
+[Speaker 2]: 他已经持有约十六点四四亿股，
+[Speaker 2]: 大约占百分之九点七的股份，
+[Speaker 2]: 手里还有约六十二亿美元的票据还没转。
+[Speaker 2]: 按固定转股价能够换取十八点四亿股，
+[Speaker 2]: 大约百分之十点九的股份，
+[Speaker 2]: 所以两部分加起来是百分之二十点六的股份。
+[Speaker 2]: 谷歌持有约十一点一二亿股，
+[Speaker 2]: 大约是百分之六点六的股份。
+[Speaker 2]: 上市时，
+[Speaker 2]: 谷歌还有权按照 IPO 价格再买入最多一百亿美元的股份。
+[Speaker 2]: 那么两家公司拿的都是刚刚提到的没有投票权的 class n 股份。
+[Speaker 2]: 具体亚马逊和谷歌如何拿到如此多的股份？
+[Speaker 2]: 我稍后会详细说明。
+[Speaker 2]: 除了以上持股，
+[Speaker 2]:  anthropic，
+[Speaker 2]: 公益基金是公司的全资子公司，
+[Speaker 2]: 持有约八点四七亿股，
+[Speaker 2]:  class n 大约占百分之五。
+[Speaker 2]: 所以我们刚刚提到的这个全稀释总股本一百六十九点四亿股，
+[Speaker 2]: 其实就是通过百分之五的公益基金股份数量倒推回去得来的。
+[Speaker 2]: 再来看联合创始人，
+[Speaker 2]: 七位联合创始人每人持有约二点三到二点四亿股，
+[Speaker 2]:  class a 相当的接近七个人加起来约十六点九亿股，
+[Speaker 2]: 只占全稀式股本的百分之十左右。
+[Speaker 2]: 而且七个人承诺把个人百分之八十的 ansthorbe 股权都捐给慈善。
+[Speaker 2]: 所以我们可以说，
+[Speaker 2]:  enthropic 从上市第一天起的慈善成分就相当的重，
+[Speaker 2]: 了解了公司的股份结构。
+[Speaker 2]: 接下来 s 为大家详细的回顾亚马逊和谷歌这两家公司是在历史上如何得到以上所说的这些目前让人流口水的巨额股份的，
+[Speaker 2]: 特别特别是亚马逊。
+[Speaker 2]: 二零二三年到二零二五年期间，
+[Speaker 2]: 亚马逊分五次，
+[Speaker 2]: 一共借给 anthrobic 约八十亿美元。
+[Speaker 2]: 那么票面本金是八十六亿。
+[Speaker 2]: 在二零二五年的 e 轮、
+[Speaker 2]:  f 轮以及二零二六年的 g 轮融资中，
+[Speaker 2]: 亚马逊先后把其中的二零二三年那批票据的一部分换成了约十三点六六亿股。
+[Speaker 2]: 二零二四年那批约四十亿美元的票据则还没有换成每次之所以只换一小部分，
+[Speaker 2]: 是因为票据附带百分之十二的持股上限条款，
+[Speaker 2]: 除了票据换成股份，
+[Speaker 2]: 亚马逊在今年两次现金参与了 FTO pick 的融资。
+[Speaker 2]: 在 anthropic 的 g 轮融资中，
+[Speaker 2]: 按每股优先股二百五十九美元，
+[Speaker 2]: 花了五十亿，
+[Speaker 2]: 获得了折合约一点九三亿股普通股。
+[Speaker 2]: 而在随后的 h 轮融资中，
+[Speaker 2]: 再次投资五十亿，
+[Speaker 2]: 获得折合约零点八五亿股普通股。
+[Speaker 2]: 这样加起来，
+[Speaker 2]: 亚马逊总共已经拥有了十六点四四亿股 anthrobic 无投票权的股份。
+[Speaker 2]: 在上市时会全部转成 n 类普通股，
+[Speaker 2]: 按假设票据全部转股的全稀释股本算，
+[Speaker 2]: 这部分股份大约占 anthroropic 的百分之九点七。
+[Speaker 2]: 如果不算还没转的票据大约占百分之十点九。
+[Speaker 2]: 除此之外，
+[Speaker 2]: 亚马逊有六十二亿美元左右的票据，
+[Speaker 2]: 本金尚未转成股份。
+[Speaker 2]: 那么按照 SE 招股书给的固定转股价，
+[Speaker 2]: 这部分可以换得十八点四亿股。
+[Speaker 2]: 但是总体上亚马逊的持股仍然受到百分之十二的持股上限。
+[Speaker 2]: 我们必须知道，
+[Speaker 2]: 这个百分之十二的上限是亚马逊可以自己放弃的。
+[Speaker 2]: 也就是说，
+[Speaker 2]: 其实亚马逊它有选择权，
+[Speaker 2]: 而且转股价是固定价和 IPU 价趋较低者。
+[Speaker 2]: 那么显然之前的转股价远低于现在的 IPU 价了，
+[Speaker 2]: 所以等于已经锁定了转股的价格，
+[Speaker 2]: 这部分买卖是暴赚了。
+[Speaker 2]: 我们假设亚马逊会全部换完手上的这些票据，
+[Speaker 2]: 那么它会持有约三十四点八亿股，
+[Speaker 2]: 大约占 anthropic 全稀式股本的百分之二十点六。
+[Speaker 2]: 综上，
+[Speaker 2]: 亚马逊前后投入约一百八十亿美元招股数，
+[Speaker 2]: 还没给出具体的 IPU 价格。
+[Speaker 2]: 如果我们按照一点五万亿美元进行估值，
+[Speaker 2]: 并假设亚马逊所有票据全部转股，
+[Speaker 2]: 这些股份价值将达到惊人的三千一百亿美元，
+[Speaker 2]: 回报约百分之一千七百，
+[Speaker 2]: 也就是十七倍。
+[Speaker 2]: 正是因为亚马逊很早就押住了 anthorpic，
+[Speaker 2]: 而 anthrobic 估值的爆发是惊人的。
+[Speaker 2]: 我们来看看 anthrobic 历史上每轮融资的股价就知道了。
+[Speaker 2]: 以下是每股优先股的股价，
+[Speaker 2]: 一股优先股可以转成十股普通股。
+[Speaker 2]: 最早的时候 a 轮每股两点五七美元，
+[Speaker 2]:  b 轮十一点二三美元。
+[Speaker 2]: 然后到了二零二三年上半年的 c 轮还保持在十一点二三之后就开始加速。
+[Speaker 2]: 二零二四年 d 轮股价涨到了三十，
+[Speaker 2]: 二零二五年 e 轮是五十六，
+[Speaker 2]: 二零二五年下半年的 f 轮跳涨到了接近一百四十一美元。
+[Speaker 2]: 然后今年二零二六年初的 g 轮飙到二百五十九美元，
+[Speaker 2]: 随后六月初的 h 轮股价再次翻倍，
+[Speaker 2]: 来到了五百八十九美元。
+[Speaker 2]: 所以最近三年二零二三年到二零二六年，
+[Speaker 2]: 从 c 轮的十一点二三美元到 h 轮的五百八十九美元，
+[Speaker 2]: 每股涨了五十多倍。
+[Speaker 2]: 接着说，
+[Speaker 2]: 谷歌二零二三年到二零二五年期间，
+[Speaker 2]: 谷歌先后四次借给了 anthropic 约三十三亿美元。
+[Speaker 2]: 和亚马逊不同，
+[Speaker 2]: 谷歌的这些票据都已经全部换成了股份，
+[Speaker 2]: 折合约五点五六亿股普通股。
+[Speaker 2]: 除了票据换成股份。
+[Speaker 2]: 刚才我说亚马逊在 anthorbic 今年 g 轮 h 轮分别投资了五十亿，
+[Speaker 2]: 那么谷歌其实也投资了，
+[Speaker 2]: 而且更多每轮分别投资了一百亿美元加起来，
+[Speaker 2]: 谷歌总共持有约十一点一二亿股的 anthropic 股份，
+[Speaker 2]: 大约占全稀式股本的百分之六点六。
+[Speaker 2]: 而且我已经提到上市的时候，
+[Speaker 2]: 谷歌还有权按照 IPO 价格再购买最多一百亿美元的股份和亚马逊类似。
+[Speaker 2]: 谷歌也有持股上限约为百分之十四点九九。
+[Speaker 2]: 那么谷歌前后投入约两百三十三亿美元，
+[Speaker 2]: 同样假设 anthrobic 一点五万亿的市值，
+[Speaker 2]: 那么这百分之六点六的股份价值约九百九十亿回报是四倍。
+[Speaker 2]: 多比亚马逊的十七倍差了不少，
+[Speaker 1]: 但是也是不错的投资选择。
+[Speaker 2]: 前面我们已经知道了，
+[Speaker 2]: 亚马逊和谷歌是 anthrobic 成长背后重要的投资者以及算力提供者。
+[Speaker 2]: 接下来我们统一再看一下，
+[Speaker 2]: 除了这两家公司，
+[Speaker 2]: 还有谁在为 anthrobic 提供算力？
+[Speaker 2]: 因为算力算力真的太重要了。
+[Speaker 2]: 这张图中，
+[Speaker 2]: 粗细代表算力合同的总规模，
+[Speaker 2]: 而颜色代表芯片，
+[Speaker 2]: 蓝色是谷歌的 TPU，
+[Speaker 2]: 橙色是亚马逊自研的 traillion，
+[Speaker 2]: 绿色是英伟达的 GPU，
+[Speaker 2]: 黄色是 AMD 的 GPU。
+[Speaker 2]: 这里面最上面最粗的一根是 broadct，
+[Speaker 2]: 大约一千六百一十二亿美元 anthorbic。
+[Speaker 2]: 像 bird com 租用基于谷歌 TPU 的算力设备放在由别人代为运营的专用数据中心里。
+[Speaker 2]: 租期五年，
+[Speaker 2]: 二零二六年已经有一部分上线，
+[Speaker 2]: 二零二七年会上线，
+[Speaker 2]: 更多租期内双方都不能取消。
+[Speaker 2]: 第二根是 space x 合同上限高达一千两百零五亿美元，
+[Speaker 2]: 用的是英伟达 GPU，
+[Speaker 2]: 预计今年十二月全部交付到位，
+[Speaker 2]: 合同一直会持续到二零二九年，
+[Speaker 2]: 但请注意，
+[Speaker 2]: 这个合同大家都可以取消，
+[Speaker 2]: 提前通知就行了。
+[Speaker 2]: 第三第四根是谷歌和亚马逊。
+[Speaker 2]: 前面我们已经介绍了不少相关信息了。
+[Speaker 2]: 所以这里大家只用知道，
+[Speaker 2]: 一开始作为投资钱从谷歌和亚马逊流向 anthorby 之后，
+[Speaker 2]: 又以算力费的形式流回去了。
+[Speaker 2]: 下面三根细些的绿色条形都是英英伟达的 GUU。
+[Speaker 2]: 微软软合同最低低四百四十九亿美元。
+[Speaker 2]: 从二零二六年十一月到二零三三年五月不可取消，
+[Speaker 2]:  n scale 最多大约四百四十六亿。
+[Speaker 2]: 延续到二零三三年，
+[Speaker 2]:  lambda 大约四百一十三亿，
+[Speaker 2]: 延续到二零三四年，
+[Speaker 2]: 虚线下面还没算进合计的有两项。
+[Speaker 2]: 第一项，
+[Speaker 2]:  antherbic 承诺，
+[Speaker 2]: 二零二八年到二零三一年间，
+[Speaker 2]: 向谷歌等 TPU 供应商追加采购，
+[Speaker 2]: 估计要花一千两百五十亿到一千五百亿。
+[Speaker 2]: 第二项是和 AMD 的硬件供应协议，
+[Speaker 2]: 首批二零二七年交付公司预计会超过两百亿美元的交付。
+[Speaker 2]:  AMD 的这边也带有股权条款，
+[Speaker 2]:  AMD 承诺按交付里程碑认购最多五十亿美元的 anthropic 股票以上。
+[Speaker 2]: 仅仅是把有明确金额的七份合同加起来已经达到了惊人的六千三百七十亿美元。
+[Speaker 2]: 这相当于是 m thb 二零二六年全年营收预估的大约十五倍左右以上。
+[Speaker 2]: 我们了解了 enthropy 的算力从哪里来？
+[Speaker 2]: 有哪些重要的企业投资者。
+[Speaker 2]: 下面我们回过头来回答一个源头的问题，
+[Speaker 2]: 到底谁在为算力买单？
+[Speaker 2]: 答案可以很简单，
+[Speaker 2]: 是 b 端加 c 端的客户。
+[Speaker 2]: 答案也可以很复杂，
+[Speaker 2]: 因为我们并不知道这些客户每在 anthropic 身上花一美元变成 anthropic 的一美元，
+[Speaker 2]: 营收能给自己创成多少价值？
+[Speaker 2]: 接下来我带大家从英伟达的芯片片到 three six 的数数中心，
+[Speaker 2]: 再到 anthroropic clcld d 最后终终端户户层一层看，
+[Speaker 2]: 每一美元元成本投入到底能够变成多少营收，
+[Speaker 2]: 到底谁在买单？
+[Speaker 2]: 这条链条到底能不能持续？
+[Speaker 2]: 第一层是卖芯片的英伟达，
+[Speaker 2]: 按最新一季百分之七十五的毛利率，
+[Speaker 2]: 英伟达每花一美元造芯片的成本能够卖出四美元的营收。
+[Speaker 2]: 所以在这里一变成了四第二层是卖算力的 space sex。
+[Speaker 2]: 在 AI 数据中心的造价里，
+[Speaker 2]: 英伟达和芯片系统大约占百分之六十五，
+[Speaker 2]: 其余是电力、
+[Speaker 2]: 厂房、
+[Speaker 2]: 散热等成本。
+[Speaker 2]: 所以 space sex 买下第一层这四美元的英伟达设备，
+[Speaker 2]: 整个数据中心的投入大约是六点一五美元。
+[Speaker 2]:  space x 一年能收回多少呢？
+[Speaker 2]:  spicix 从和 anthropic 的合同里知道，
+[Speaker 2]: 他每月算利租赁营收约为十二点五亿美元，
+[Speaker 2]: 一年就是一百五十亿的营收。
+[Speaker 2]:  speciices 租的是 clothes one，
+[Speaker 2]: 全部约零点三几瓦的算力，
+[Speaker 2]: 外加 clothes two 的一部分。
+[Speaker 2]: 我们估计每几瓦约五百五十亿美元的造价。
+[Speaker 2]: 那么光是 closees one 的 cappicc 投入就需要约一百六十五亿美元。
+[Speaker 2]: 所以我们可以粗略的说，
+[Speaker 2]:  space 每每投入美元，
+[Speaker 2]: 一一年最收收回一元元左右的租金，
+[Speaker 2]: 这六点一五元元投入入一给 space es 带来的就是六点一五美元的营收。
+[Speaker 2]: 但请注意，
+[Speaker 2]: 虽然以上说的是一比一，
+[Speaker 2]: 但这里我用的是一年。
+[Speaker 2]: 数据中心目前的使用寿命肯定不是一年，
+[Speaker 2]: 对吧？
+[Speaker 2]: 目前看来至少六到八年，
+[Speaker 2]: 所以只要合同不断，
+[Speaker 2]:  speciices 就可以稳稳的一次性投入六点一五美元，
+[Speaker 2]: 而每年都获得六点一五美元营收。
+[Speaker 2]: 第三层就是我们今天视频的主角使用算力服务终端客户的 anthorpic。
+[Speaker 2]: 刚才说的这一年约六点一五美元，
+[Speaker 2]: 也就是 anthrobic 一年付给 sppsic 的算力租金，
+[Speaker 2]: 它能换成多少 anthrobic 的营收呢？
+[Speaker 2]: 如果只看推理，
+[Speaker 2]: 我们已经了解了二零二六年上半年 anthropic 每一美元推理算力的成本产生约六点八四美元的营收。
+[Speaker 2]: 所以六点一五美元的算力，
+[Speaker 2]: 一年对应约四十二美元的营收，
+[Speaker 2]: 这是上限。
+[Speaker 2]: 如果看全部算力，
+[Speaker 2]:  anthrobic 要赚的这些钱，
+[Speaker 2]: 还得花钱训练新模型。
+[Speaker 2]: 二零二六年上半年，
+[Speaker 2]:  anthrobic 每一美元算力与基础设施的总支出只对应约一点八二美元营收，
+[Speaker 2]: 这六点一五美元一年对应就是十一美元的营收。
+[Speaker 2]: 而最乐观的是看边际比例，
+[Speaker 2]: 二零二六年上半年比二零二五年下半年 anthrobic 每多花一美元推理算力营收多出二十点五美元。
+[Speaker 2]: 按这个比例，
+[Speaker 2]: 这六点一五美元对应约一百二十六美元的营收。
+[Speaker 2]: 但我前面说过，
+[Speaker 2]: 这个边际比例不是严格的因果关系，
+[Speaker 2]: 只能当做一个极端情况来看待。
+[Speaker 2]: 也就是说，
+[Speaker 2]: 从源头英伟达一美元的芯片成本经过 swix x anthrobic 两层，
+[Speaker 2]: 一年能变成 anthrobic 约十一到四十二美元的营收。
+[Speaker 2]: 按最乐观的边际递增比例计算，
+[Speaker 2]: 甚至超过一百美元营收规模的放大非常惊人。
+[Speaker 2]: 但我要特别说明，
+[Speaker 2]: 以上我说的是营收的放大，
+[Speaker 2]: 不是利润的放大。
+[Speaker 2]: 刚才提到的一二三三层里，
+[Speaker 2]: 第一层卖芯片的英伟达，
+[Speaker 2]: 是目前暂时唯一已经妥妥赚钱且利润率极高的一层。
+[Speaker 2]: 第二层卖算力的 space x 虽然还没开始赚钱，
+[Speaker 2]: 但目前看起来财务数据相当乐观。
+[Speaker 2]: 第三层，
+[Speaker 2]: 使用算力服务终端客户的 NNOO pic。
+[Speaker 2]: 刚刚视频也向大家介绍了，
+[Speaker 2]: 调整后的财务数据，
+[Speaker 2]: 其实已经在赚钱了。
+[Speaker 2]: 但对整个公司来讲，
+[Speaker 2]: 亏损还是非常严重的。
+[Speaker 2]: 说完了以上三层，
+[Speaker 2]: 最后也是最重要的。
+[Speaker 2]: 我们必须确保不管是谁在付费使用 anthropic 的 tokens 创造出来的经济价值，
+[Speaker 2]: 都必须要高于这些付费企业或个人在 tokens 上的投入。
+[Speaker 2]: 这是这条供应链的最后一环。
+[Speaker 2]: 对企业来说，
+[Speaker 2]: 这个价值可以是赚更多的钱，
+[Speaker 2]: 也可以是省下的人力成本。
+[Speaker 2]: 对个人来说，
+[Speaker 2]: 可以是省下的时间。
+[Speaker 2]: 假设一美元的 tokens 只能给客户或者个人创造一美元的价值，
+[Speaker 2]: 等于白忙一场，
+[Speaker 2]: 迟早会减少支出，
+[Speaker 2]: 整条链条就会失速。
+[Speaker 2]: 但如果一美元的 token 能够创造出十美元的价值，
+[Speaker 2]: 客户就有动力继续买，
+[Speaker 2]: 甚至买更多，
+[Speaker 2]: 这才是可持续的积极的循环。
+[Speaker 2]: 问题是这个倍数现在还没有答案，
+[Speaker 2]: 而这个答案将决定 AI 是一轮终会破灭的泡沫，
+[Speaker 2]: 还是一个真实可持续的需求周期，
+[Speaker 1]: 是局部过热还是整体高估花了很长的时间来讲，
+[Speaker 2]: 算力讲谁提供算力讲算力怎么用，
+[Speaker 2]: 怎么变现，
+[Speaker 2]: 接下来我们必须谈谈风险。
+[Speaker 2]: 而风险也和算力相关。
+[Speaker 2]:  anthropic 的 SE 招股梳里风险因素。
+[Speaker 2]: 这一章从第二十六页一直写到一百一十九页，
+[Speaker 2]: 足足有九十多页。
+[Speaker 2]: 这里面出现最多的关键词是监管大约二百二十八次，
+[Speaker 2]: 然后是算力二百零八次，
+[Speaker 2]: 竞争二百零五次。
+[Speaker 2]: 紧接着是电力与数据中心、
+[Speaker 2]: 政府与政治滥用与伤害安全等等。
+[Speaker 2]: 投资 enthrobic 最大的风险，
+[Speaker 2]: 也是我认为投资者最需要注意的。
+[Speaker 2]: 结合。
+[Speaker 2]: 这些关键词有以下三点，
+[Speaker 2]: 从前到后从最重要开始。
+[Speaker 2]: 第一，
+[Speaker 2]: 算力算力是一把双刃剑，
+[Speaker 2]: 买不够就训练不出领先的模型，
+[Speaker 2]: 也服务不好，
+[Speaker 2]: 客户买太多又是一笔甩不掉的账单。
+[Speaker 2]: 前面我们看到 anthbing 签下的算力合同大多不可取消，
+[Speaker 2]: 也就意味着你的成本已经固定了。
+[Speaker 2]: 而相反很多大客户可以随时减少开支，
+[Speaker 2]: 所以这就为 anthorbe 带来了最大的风险。
+[Speaker 2]: 想要锁定很多的算力没问题，
+[Speaker 2]: 为以后的扩张打好基础。
+[Speaker 2]: 但是就意味着你的成本没有办法降下去。
+[Speaker 2]: 而你只有通过不断的提高营收来把这些成本最终转换成利润。
+[Speaker 2]: 第二点，
+[Speaker 2]: 竞争公司能不能持续做出最先进的模型？
+[Speaker 2]: 今年第三季度，
+[Speaker 2]:  s thbic 百分之八十以上的营收来自最近六个月才发布的模型。
+[Speaker 2]: 也就是说，
+[Speaker 2]: 它的收入高度依赖不停推出的新一代模型之后，
+[Speaker 2]: 一旦被 open AI 谷歌或者其他开源模型追上营收会很快受到冲击。
+[Speaker 2]: 第三点，
+[Speaker 2]: 政治与监管这是今年最特殊的一条。
+[Speaker 2]: 根据招股书，
+[Speaker 2]:  anthropic 公开表示，
+[Speaker 2]: 不希望自己的技术被用于大规模国内监控和完全自主的武器监管政策。
+[Speaker 2]: 一个变化就可能直接影响公司的产品可以卖给谁，
+[Speaker 2]: 什么不能卖。
+[Speaker 2]: 以上风险很多，
+[Speaker 2]: 我们作为投资者，
+[Speaker 2]: 当然都应该全面关注。
+[Speaker 2]: 但是至少从 anthrobic 的招股书来看，
+[Speaker 2]: 不管是刚才视频提到的对营收的影响，
+[Speaker 2]: 还是现在对公司风险的影响，
+[Speaker 2]: 都是这个关键词。
+[Speaker 2]: 最最最重要算力算力还是算力。
+[Speaker 2]: 以上就是 s 今天为大家呈现的全部内容，
+[Speaker 2]: 整个视频背后是接近一万一千字的文稿。
+[Speaker 2]: 我为大家介绍了创始人 daario，
+[Speaker 2]: 让大家对这个富有争议的人物有了更加具象的了解。
+[Speaker 2]: 我也为大家详细解读了 anthoribic 营收数据背后的细节，
+[Speaker 2]: 以及它和亚马逊、
+[Speaker 2]: 谷歌、
+[Speaker 2]: 微软是如何深度合作绑定的，
+[Speaker 2]: 也花大量的篇幅为大家阐述了算力。
+[Speaker 2]: 在 n tho BI 供应端和需求端的重要性，
+[Speaker 2]: 没有算力供应，
+[Speaker 2]: 就无法为下游的需求打好基础。
+[Speaker 2]: 而下游终端客户如果没有办法长期可持续的用 anthroropy 的算力创造出企业或者个人价值，
+[Speaker 2]: 那就无法持续为 anthropy 的算力买单。
+[Speaker 2]: 总体分析下来，
+[Speaker 2]:  antho pc 在未来会继续为我们带来更加精彩的故事，
+[Speaker 2]: 感谢大家，
+[Speaker 2]: 我们下期视频再见。
