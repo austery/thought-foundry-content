@@ -1,0 +1,5241 @@
+[music]
+
+
+>> I'm
+ personally
+ really
+ excited
+ about
+ this
+
+
+talk.
+ Uh,
+ just
+ by
+ way
+ of
+ quick
+ intro,
+
+
+I'm
+ Adee,
+ I'm
+ co-founder
+ and
+ CEO
+ at
+
+
+Reducto,
+ uh,
+ but
+ most
+ importantly,
+ we
+
+
+have
+ Raj
+ here
+ who
+ is
+ the
+ global
+ chief
+
+
+technology
+ officer
+ at
+ Datasite.
+ Um,
+ the
+
+
+reason
+ why
+ I'm
+ excited,
+ uh,
+ is
+ I
+ think
+
+
+Raj
+ has
+ probably
+ one
+ of
+ the
+ most
+
+
+interesting
+ viewpoints
+ for
+ AI
+ in
+ that
+ he
+
+
+founded
+ company
+ very
+ early
+ on
+ in
+ the
+
+
+vertical
+ AI
+ space.
+ Um,
+ got
+ acquired
+ into
+
+
+Datasite
+ and
+ then
+ got
+ to
+ see
+ both
+ like
+
+
+subsidiary
+ within
+ Datasite
+ to
+ think
+
+
+about
+ Datasite
+ as
+ a
+ whole.
+ Um,
+ I
+ got
+
+
+some
+ of
+ Raj's
+ stats
+ before
+ this
+ talk,
+
+
+um,
+
+
+where
+ something
+ like
+ 60%
+ of
+ all
+
+
+transactions
+ over
+ $100
+ million
+ happen
+
+
+through
+ Datasite.
+
+
+>> That's
+ correct,
+ yeah.
+
+
+>> Okay.
+ Um,
+ if
+ we're
+ making
+ a
+ leaderboard,
+
+
+trillion
+ plus
+ tokens
+ per
+ year,
+ I'm
+ sure
+
+
+you
+ have
+ plenty
+ of
+ other
+ cool
+ numbers,
+
+
+um,
+ but
+ the
+ goal
+ for
+ today
+ is
+ to
+ make
+
+
+this
+ conversation.
+ We'll
+ talk
+ a
+ bit
+
+
+about
+ Raj's
+ journey,
+ um,
+ some
+ of
+ the
+
+
+problems
+ he's
+ gone
+ through,
+ and
+ then
+
+
+we'll
+ try
+ to
+ open
+ it
+ up
+ for
+ Q&A
+ as
+ well
+
+
+for
+ whatever
+ you
+ all
+ are
+ curious
+ about.
+
+
+Sound
+ good?
+
+
+Cool.
+
+
+Um,
+ maybe
+ to
+ start,
+ do
+ you
+ want
+ to
+ just
+
+
+walk
+ through
+ that
+ arc
+ and
+ what
+ it
+ looked
+
+
+like
+ behind
+ the
+ scenes?
+
+
+>> Yeah,
+ for
+ sure,
+ appreciate
+ that.
+ Um,
+
+
+good
+ to
+ meet
+ everyone,
+ Raj
+ Bakhru.
+ Uh,
+
+
+my
+ background's
+ as
+ a
+ technologist,
+ so
+ I
+
+
+spent
+ my
+ entire
+ career
+ in
+ development,
+
+
+started
+ my
+ career
+ at
+ Goldman,
+
+
+Highbridge,
+ Kepos
+ Capital,
+ was
+ building
+
+
+research
+ and
+ trading
+ systems
+ for
+ quant
+
+
+funds
+ and
+ all
+ sorts
+ of
+ fun
+ things.
+
+
+Started
+ a
+ security
+ firm
+ that
+ I
+ sold
+ to
+ a
+
+
+private
+ equity
+ back
+ firm,
+ ended
+ up
+
+
+running
+ M&A
+ and
+ corporate
+ strategy
+ for
+
+
+them.
+ And
+ then
+ started
+ this
+ vertical
+ AI
+
+
+solution
+ called
+ Blue
+ Flame
+ in
+ the
+ M&A
+
+
+space,
+ um,
+ because
+ we
+ sort
+ of
+ knew
+ that
+
+
+the
+ impact
+ to
+ unstructured
+ data
+ was
+
+
+going
+ to
+ be
+ pretty
+ pretty
+ big.
+ Um,
+ so
+ we
+
+
+were
+ building
+ out
+ for
+ about
+ a
+ year,
+ year
+
+
+and
+ a
+ half,
+ and
+ then
+ Datasite
+ approached
+
+
+us
+ to
+ acquire
+ us.
+ Um,
+ and
+ we
+ started
+
+
+working
+ with
+ Reducto
+ actually
+ while
+ we
+
+
+were
+ separate,
+ um,
+ so
+ before
+ Datasite
+
+
+had
+ acquired
+ us,
+
+
+um,
+
+
+we
+ were
+ small
+ startup,
+ we
+ were
+ scrappy,
+
+
+uh,
+ we
+ built
+ a
+ lot
+ of
+ our
+ own
+ parsing
+
+
+and
+ Doc
+ Pipeline
+ and
+ ingestion
+ pipeline.
+
+
+Um,
+ had
+ a
+ great
+ team,
+ a
+ great
+ CTO,
+
+
+co-founders.
+ We
+ were
+ trying
+ to
+ save
+
+
+every
+ dollar
+ we
+ could.
+ Um,
+ so
+ we
+ when
+ we
+
+
+built
+ all
+ of
+ that,
+ we're
+ like,
+ "This
+ is
+
+
+great.
+ It's
+ working."
+ Until
+ it
+ did.
+ I
+
+
+mean,
+ I'll
+ talk
+ a
+ little
+ bit
+ about
+ that
+
+
+journey.
+
+
+Um,
+ and
+ then
+ as
+ we
+ got
+ brought
+ into
+
+
+Datasite,
+ we
+ were
+ acquired
+ obviously
+
+
+very
+ early
+ on.
+ Our
+ team
+ was
+ about
+ 50
+
+
+people
+ at
+ the
+ time
+ we
+ got
+ acquired.
+ Um,
+
+
+the
+ first
+ thing
+ that
+ Datasite
+ wanted
+ to
+
+
+do
+ with
+ us
+ was
+ bring
+ us
+ into
+ all
+ of
+ the
+
+
+data
+ rooms.
+ And
+ if
+ you
+ guys
+ aren't
+
+
+familiar
+ with
+ the
+ data
+ room
+ concept,
+ um,
+
+
+data
+ rooms
+ are
+ basically
+ where
+ all
+ of
+
+
+the
+ transaction
+ documents
+ get
+ stored
+
+
+when
+ you're
+ selling
+ a
+ company.
+ So,
+ as
+ I
+
+
+deep
+ mention,
+ something
+ like
+ 60%
+ of
+ all
+
+
+transactions
+ above
+ a
+ reasonable
+ size
+
+
+threshold,
+ 100
+ million,
+ happen
+ on
+
+
+Datasite.
+ It's
+ a
+ place
+ where
+ people,
+
+
+bankers
+ primarily,
+ are
+ sharing
+ all
+ of
+
+
+that
+ data
+ with
+ private
+ equity
+ firms.
+ Um,
+
+
+so
+ it
+ means
+ that
+ there's
+ a
+ massive
+
+
+unstructured
+ data
+ on
+ Datasite,
+ right?
+
+
+Billions
+ of
+ pages
+ of
+ content.
+ Every
+
+
+major
+ bank
+ is
+ using
+ it.
+ Every
+ private
+
+
+equity
+ firm
+ is
+ using
+ it.
+ Every
+ diligence
+
+
+provider
+ is
+ using
+ it.
+ Over
+ 500,000
+
+
+monthly
+ active
+ users
+ on
+ Datasite
+
+
+accessing
+ that
+ content.
+ Um,
+ and
+ that
+
+
+meant
+ that
+ adding
+ AI
+ solutions
+ was
+
+
+obviously
+ top
+ of
+ mind
+ for
+ the
+ board
+ and
+
+
+everyone
+ else
+ who
+ was
+ accessing
+ the
+
+
+platform.
+ Users
+ were
+ asking
+ for
+ it
+ all
+
+
+uh
+ day
+ and
+ day
+ out.
+
+
+We
+ had
+ a
+ great
+ data
+ science
+ team
+ um
+ from
+
+
+the
+ days
+ where
+ my
+ CTO
+ co-founder
+ and
+ I
+
+
+sort
+ of
+ scrapily
+ built
+ the
+ ingestion
+
+
+pipeline.
+ We
+ had
+ obviously
+ moved
+ on
+ to
+
+
+Reducto,
+ recognizing
+ that
+ we
+ weren't
+
+
+going
+ to
+ have
+ the
+ level
+ of
+ quality,
+
+
+speed,
+ um,
+ recall,
+ cost
+ that
+ we
+ could
+
+
+get
+ with
+ Reducto.
+ And
+ I
+ can
+ talk
+ about
+
+
+some
+ of
+ the
+ numbers
+ that
+ led
+ us
+ to
+ that
+
+
+that
+ decision.
+ Um,
+ and
+ why
+ that
+ panned
+
+
+out
+ today
+ with
+ Datasite
+ scale.
+
+
+But
+ we
+ needed
+ to
+ build
+ fast.
+ We
+ needed
+
+
+to
+ get
+ all
+ of
+ the
+ data
+ rooms
+ that
+
+
+Datasite
+ had,
+ 55,000
+ data
+ rooms
+ a
+ year,
+
+
+um,
+ parsed,
+ ingested
+ into
+ our
+ vector
+
+
+database
+ so
+ that
+ we
+ could
+ build
+ out
+ our
+
+
+graph
+ rank
+ platform
+ and
+ answer
+ questions
+
+
+within
+ the
+ data
+ room
+ uh
+ that
+ users
+ were
+
+
+submitting
+ at
+ scale.
+
+
+Um,
+ so
+ that
+ was
+ a
+ problem
+ at
+ hand.
+ How
+
+
+How
+ How
+ do
+ we
+ build
+ this
+ into
+ the
+ VDR?
+
+
+They'd
+ never
+ done
+ anything
+ like
+ this.
+
+
+They'd
+ never
+ taken
+ their
+ data
+ their
+
+
+content
+ out
+ of
+ their
+ Azure
+ platform.
+
+
+Historically,
+ it's
+ you
+ know
+
+
+the
+ walls
+ were
+ high
+ around
+ the
+ data
+
+
+rooms
+ as
+ you
+ can
+ imagine.
+ It's
+ the
+
+
+world's
+ most
+ sensitive
+ data.
+ All
+ of
+ the
+
+
+most
+ material
+ material
+ non-public
+ info
+
+
+out
+ there
+ sitting
+ in
+ data
+ sites
+ virtual
+
+
+data
+ rooms.
+ Uh
+ so
+ we
+ had
+ to
+ figure
+ out
+ a
+
+
+way
+ to
+ do
+ this
+ securely.
+ We
+ had
+ to
+
+
+figure
+ out
+ a
+ way
+ to
+ do
+ it
+ um
+ in
+ a
+
+
+place
+ that
+ it
+ uh
+
+
+complied
+ with
+ all
+ the
+ regulatory
+
+
+compliance
+ regimes
+ that
+ our
+ clients
+ have
+
+
+and
+ pass
+ on
+ to
+ us.
+ All
+ of
+ the
+
+
+certifications,
+ the
+ ISO
+ certifications
+
+
+and
+ so
+ on
+ that
+ that
+ we
+ had.
+ Um
+ so
+ we
+
+
+spent
+ a
+ lot
+ of
+ time
+ with
+ the
+ Deeds
+ team
+
+
+in
+ figuring
+ out
+ how
+ to
+ get
+ there,
+ how
+ to
+
+
+make
+ sure
+ that
+ it
+ all
+ of
+ the
+ content
+
+
+remained
+
+
+protected
+ um
+ and
+ secured
+ and
+ get
+ us
+ all
+
+
+comfortable
+ with
+ leveraging
+ uh
+ Reducto's
+
+
+tooling.
+
+
+The
+ reason
+ that
+ we
+ went
+ with
+ Reducto's
+
+
+tooling
+ as
+ I
+ sort
+ of
+ alluded
+ to
+ is
+ we
+
+
+basically
+ had
+ to
+ one
+ move
+ fast,
+ but
+ two
+
+
+we
+ did
+ a
+ whole
+ bunch
+ of
+ benchmarking
+
+
+actually
+ with
+ our
+ data
+ science
+ team
+
+
+around
+ sort
+ of
+ our
+ scrappily
+ built
+
+
+tooling
+ for
+ extraction
+ and
+ parsing
+ and
+
+
+ingestion.
+ And
+ what
+ I'll
+ say
+ about
+ sort
+
+
+of
+ that
+ landscape
+ is
+ that
+ um
+ it's
+ all
+
+
+edge
+ cases.
+ Like
+ literally
+ is
+ everything
+
+
+is
+ an
+ edge
+ case.
+ I
+ remember
+ getting,
+ you
+
+
+know,
+ after
+ we
+ had
+ built
+ this
+ we
+ were
+
+
+working
+ with
+ some
+ of
+ the
+ world's
+ largest
+
+
+private
+ equity
+ firms
+ and
+ they
+ would
+ send
+
+
+to
+ us
+ um
+ examples
+ where
+ our
+ reg
+ platform
+
+
+got
+ a question
+ wrong.
+ And
+ actually
+
+
+Carlos
+ here
+ will
+ will
+ remember
+ some
+ of
+
+
+these.
+
+
+>> [laughter]
+
+
+>> Um
+ you'll
+ dive
+ into
+ it
+ and
+ be
+ like,
+ well
+
+
+I
+ got
+ it
+ wrong
+ because
+ the
+ shade
+ of
+ blue
+
+
+on
+ the
+ legend
+ of
+ this
+ pie
+ chart
+ didn't
+
+
+correlate
+ perfect
+ perfectly
+ and
+ the
+ LLM
+
+
+just
+ read
+ it
+ wrong
+ even
+ though
+ we
+ used
+
+
+the
+ best
+ vision
+ model
+ in
+ the
+ world.
+ And
+
+
+actually
+ if
+ you
+ were
+ to
+ pass
+ that
+ same
+
+
+thing
+ as
+ a
+ pie
+ chart
+ or
+ that
+ pie
+ chart
+
+
+um
+ as
+ a
+ bar
+ chart
+ to
+ that
+ same
+ model
+ it
+
+
+would
+ have
+ gotten
+ it
+ right.
+ It
+ just
+
+
+the
+ devil's
+ in
+ the
+ details
+ on
+ all
+ of
+
+
+this
+ stuff.
+ Um
+ on
+ Excel
+ sheets,
+ we
+ had
+
+
+to
+ deal
+ with
+ merged
+ cells.
+ And
+ as
+ you
+
+
+guys
+ know,
+ finance
+ spreadsheets
+ are
+ the
+
+
+most
+ complicated
+ documents
+ in
+ the
+ world.
+
+
+Like
+ it
+ is
+ hard
+ for
+ a
+ human
+ to
+
+
+understand
+ these
+ things.
+ Um
+ so
+ getting
+
+
+the
+ models
+ to
+ actually
+ understand
+ the
+
+
+way
+ to
+ parse
+ this
+ this
+ content
+ out
+ and
+
+
+understand
+ the
+ content
+ was
+ very
+ very
+
+
+difficult.
+ Um
+ so
+ we
+ found
+ that
+ we
+ were
+
+
+just
+ spending
+ an
+ enormous
+ amount
+ of
+
+
+support
+ time
+ dealing
+ with
+ all
+ these
+ edge
+
+
+cases.
+ And
+ if
+ I
+ sort
+ of
+ think
+ about
+ the
+
+
+buy
+ versus
+ build
+ trade-off,
+ what
+ do
+ I
+
+
+want
+ my
+ limited
+ set
+ of
+ high-quality
+
+
+engineers
+ working
+ on?
+ It
+ is
+ not
+ the
+
+
+support
+ cases
+ of
+ making
+ sure
+ that
+ we're
+
+
+extracting
+ extracting
+ content
+ properly
+
+
+um
+ when
+ that's
+ already
+ been
+ solved.
+ Like
+
+
+you
+ know,
+ rebuilding
+ the
+ wheel
+ doesn't
+
+
+make
+ sense.
+ Um
+ so
+ we
+ we
+ got
+ a
+ tremendous
+
+
+amount
+ of
+ benefit
+ and
+ leverage
+ out
+ of
+
+
+saying
+ let's
+ let's
+ pass
+ that
+ on
+ to
+
+
+Reducto.
+ Let's
+ let
+ our
+ engineers
+ work
+ on
+
+
+value-add
+ revenue-generating
+ business
+
+
+problems.
+ Focus
+ on
+ building
+ agents
+ that
+
+
+our
+ clients
+ care
+ about
+ executing
+ on
+ the
+
+
+interface
+ and
+ the
+ rag
+ platform.
+ Um
+
+
+building
+ out
+ graph
+ rag
+ was
+ actually
+ a
+
+
+big
+ thing
+ for
+ us
+ and
+ we
+ leveraged
+ the
+
+
+outputs
+ of
+ Reducto
+ in
+ that
+ process.
+ So
+
+
+we
+ wanted
+ our
+ data
+ science
+ team
+ focused
+
+
+on
+ that,
+ not
+ on
+ how
+ do
+ I
+ get
+ the
+ right
+
+
+data
+ out
+ of
+ a
+ spreadsheet
+ um
+ and
+ dealing
+
+
+with
+ all
+ of
+ the
+ pains
+ that
+ we
+
+
+experienced
+ on
+ that.
+ Then
+ you
+ you
+ run
+
+
+into
+ the
+ pains
+ of
+ like
+ if
+ it's
+ an
+ XLSB
+
+
+file
+ um
+ macro-enabled,
+ if
+ it's
+ a
+
+
+template
+ file,
+ it
+ just
+ it's
+ endless.
+
+
+Literally
+ the
+ end
+ edge
+ cases
+ are
+
+
+endless.
+ So
+ we're
+ very
+ thankful
+ to
+
+
+Reducto
+ for
+ solving
+ a
+ lot
+ of
+ those
+
+
+problems
+ for
+ us.
+
+
+>> I
+ appreciate
+ that.
+ Um
+ at
+ this
+ point
+
+
+we've
+ had
+ like
+ a
+ year
+ of
+ context,
+ but
+ I
+
+
+think
+ one
+ of
+ the
+ most
+ interesting
+ things
+
+
+about
+ your
+ journey
+ is
+ that
+ you
+ were
+ very
+
+
+early
+ to
+ the
+ vertical
+ AI
+ app
+ space.
+ Um
+
+
+and
+ the
+ problems
+ that
+ you
+ work
+ on
+ are
+
+
+hard
+ um
+ for
+ many
+ of
+ the
+ reasons
+ that
+ you
+
+
+mentioned,
+ but
+ also
+ like
+ things
+ beyond
+
+
+that.
+ Um
+ and
+ especially
+ earlier
+ with
+ the
+
+
+model
+ landscape
+ as
+ it
+ existed,
+ I'm
+ sure
+
+
+it
+ felt
+ even
+ more
+ insurmountable.
+ Um
+
+
+so
+ I'd
+ love
+ to
+ start
+ maybe
+ just
+ by
+
+
+hearing
+ a
+ bit
+ more
+ of
+ the
+ pre-data
+ site
+
+
+journey
+ of
+ like
+ how
+ you
+ got
+ started
+ with
+
+
+Blue
+ Flame,
+ what
+ you
+ were
+ hoping
+ to
+
+
+achieve,
+ um
+ and
+ how
+ joining
+ Data
+ Site
+
+
+has
+ kind
+ of
+ changed
+ that.
+
+
+>> Yeah.
+ Um
+ so
+ when
+ when
+ we
+ launched
+ our
+
+
+our
+ startup
+ startup,
+ we
+ had
+ started
+ we
+
+
+had
+ sold
+ the
+ startup
+ very
+ early
+ on
+
+
+before.
+ The
+ last
+ startup,
+ cybersecurity
+
+
+startup,
+ we
+ sold
+ a
+ year
+ in.
+ And
+ we
+
+
+started
+ this
+ one
+ saying
+ we
+ are
+ not
+ going
+
+
+to
+ sell
+ quickly.
+ We
+ are
+ going
+ to
+ see
+
+
+this
+ out.
+ [laughter]
+
+
+And
+ it's
+ going
+ to
+ be
+ a
+ long
+ time
+ and
+
+
+we're
+ going
+ to
+ be
+ a
+ unicorn
+ and
+ do
+ all
+
+
+those
+ fun
+ things
+ that
+ we
+ wanted
+ to
+ do.
+
+
+Um
+
+
+So,
+ that
+ was
+ that
+ was
+ the
+ the
+ initial
+
+
+state.
+ I
+ brought
+ in
+ a
+ lot
+ of
+ folks
+ that
+
+
+we'd
+ worked
+ in
+ worked
+ with
+ before
+ and
+
+
+that's
+ one
+ of
+ the
+ nice
+ things
+ of
+ being
+ a
+
+
+second
+ time
+
+
+founder
+ is
+ you
+ kind
+ of
+ know
+ the
+ network,
+
+
+you
+ know
+ the
+ people
+ you
+ want
+ to
+ bring
+
+
+in.
+
+
+So,
+ we
+ were
+ very
+ fortunate
+ to
+ bring
+ in
+ a
+
+
+lot
+ of
+ those
+ people
+ and
+ start
+ with
+ a
+ lot
+
+
+of
+ the
+ people
+ that
+ we
+ knew
+ and
+ trusted
+
+
+and
+ we
+ could
+ yell
+ at
+ each
+ other
+ and
+
+
+still
+ be
+ really
+ good
+ friends
+ at
+ the
+ end
+
+
+of
+ the
+ day.
+ Um
+ and
+ we
+ knew
+ each
+ other's
+
+
+families
+ and
+ all
+ that.
+ So,
+ that
+ really
+
+
+nice
+ experience
+ to
+ start
+ as
+ a
+ second
+
+
+time.
+
+
+>> [snorts]
+
+
+>> We
+ also
+ had
+ the
+ ability
+ thankfully
+ to
+
+
+fund
+ ourselves
+ to
+ a
+ large
+ extent
+ this
+
+
+this
+ second
+ time.
+ So,
+ we
+ bootstrapped
+
+
+for
+ a
+ while
+ and
+ started
+ building.
+ Now,
+
+
+that
+ again
+ made
+ us
+ do
+ some
+ things
+ that
+
+
+might
+ have
+ been
+ a
+ little
+ excessively
+
+
+cost-sensitive
+
+
+and
+ not
+ the
+ most
+ optimal
+ decisions,
+ but
+
+
+that's
+ what
+ you
+ do
+ as
+ a
+ startup
+
+
+and
+ when
+ it's
+ your
+ own
+ money
+ especially.
+
+
+So,
+ we
+ had
+ a
+ really
+ great
+ experience
+
+
+building
+ that
+ out.
+ Uh
+ we
+ were
+ actually
+
+
+going
+ to
+ do
+ our
+ first
+ VC
+ round.
+ We
+ had
+
+
+our
+ LOI
+ signed,
+ term
+ sheet
+ signed.
+
+
+We
+ had
+ done
+ sort
+ of
+ the
+ dating
+ process
+
+
+with
+ all
+ the
+ VCs
+ out
+ there,
+ the
+ Sand
+
+
+Hill
+ Road
+ walk
+ and
+ all
+ the
+ New
+ York
+ ones
+
+
+and
+ we
+ were
+ you
+ know,
+ a
+ week
+ away
+ from
+
+
+sort
+ of
+ final
+ final
+ signatures
+ and
+ there
+
+
+was
+ additional
+ capacity
+ on
+ our
+ round
+
+
+and
+ they
+ said
+ you
+ should
+ go
+ you
+ know,
+
+
+see
+ if
+ these
+ folks
+ are
+ interested
+ and
+ so
+
+
+we
+ we
+ approached
+ Data
+ Science
+ and
+ we're
+
+
+like,
+ do
+ you
+ guys
+ want
+ to
+ put
+ in
+ 5
+
+
+million
+ in
+ this
+ round?
+ And
+ we
+ demoed
+ and
+
+
+showed
+ them
+ a
+ bit
+ of
+ what
+ we
+ were
+ doing
+
+
+and
+ they
+ said
+ to
+ us
+ actually,
+ we
+ just
+
+
+want
+ to
+ buy
+ the
+ whole
+ company.
+
+
+We're
+ like,
+ okay
+ and
+ literally
+ happened
+
+
+over
+ a
+ dinner.
+
+
+Um
+
+
+Like
+ whatever
+ meeting
+ in
+ the
+ office,
+
+
+subsequent
+ dinner
+ that
+ night
+ and
+ then
+
+
+they
+ told
+ us
+ that.
+
+
+So,
+ we
+ we
+ very
+ quickly
+ sort
+ of
+ figured
+
+
+it
+ out.
+ And
+ the
+ reason
+ that
+ we
+ thought
+
+
+it
+ was
+ really
+ compelling
+
+
+was
+ if
+ you
+ know,
+ this
+ was
+ about
+ a
+ year
+
+
+and
+ a
+ half
+ ago
+ now.
+ At
+ that
+ point
+ sort
+
+
+Cloud
+ and
+ Office
+ Suite
+ hadn't
+ taken
+ off.
+
+
+You
+ sort
+ of
+ have
+ to
+ go
+ back
+ to
+ remember
+
+
+where
+ we
+ were
+ a
+ year
+ and
+ a
+ half
+ ago.
+ It
+
+
+feels
+ like
+ forever
+ ago
+ and
+ the
+ world
+ was
+
+
+entirely
+ different.
+ Agentic
+ coding
+
+
+hadn't
+ taken
+ off
+ to
+ the
+ level
+ it
+ has
+
+
+now.
+ Um
+
+
+So,
+ we
+ knew
+ that
+ we
+ had
+ to
+ raise
+ a
+
+
+massive
+ amount
+ of
+ money.
+ Our
+ competitors
+
+
+in
+ the
+ vertical
+ AI
+ space,
+
+
+Um,
+ of
+ whom
+ worked
+ with
+ Reducto,
+ had
+
+
+raised
+ hundreds
+ of
+ millions
+ of
+ dollars,
+
+
+literally.
+
+
+Um,
+ so
+ we
+ kind
+ of
+ knew
+ that
+ if
+ we're
+
+
+going
+ to
+ remain
+ competitive,
+ we
+ were
+
+
+going
+ to
+ be
+ raising
+ hundreds
+ of
+ millions
+
+
+of
+ dollars,
+ we
+ would
+ be
+ taking
+ masses
+
+
+mass
+ dilution
+ in
+ doing
+ that.
+ Um,
+ we
+ also
+
+
+knew
+ that
+ staying
+ competitive
+ against
+
+
+the
+ frontier
+ models
+ was
+ going
+ to
+ be
+
+
+increasingly
+ difficult,
+ particularly
+ as
+
+
+they
+ were
+ starting
+ to
+ launch
+ vertical
+
+
+strategies.
+ And
+ at
+ that
+ point,
+ sort
+ of
+
+
+OpenAI
+ for
+ FS
+ and
+ Cloud
+ for
+ FS
+ hadn't
+
+
+been
+ fully
+ announced,
+ but
+ there
+ were
+
+
+some
+ rumors
+ around
+ it.
+ They'd
+ made
+ some
+
+
+some
+ ins-
+ insinuations
+ about
+ it.
+ Um,
+ and
+
+
+we
+ knew
+ that
+ just
+ to
+ remain
+ competitive
+
+
+and
+ differentiated,
+ that
+ we
+ would
+ have
+
+
+to
+ bring
+ in
+ new
+ types
+ of
+ data.
+ And
+ to
+
+
+us,
+ the
+ VDRs
+ were
+ this
+ incredible
+
+
+valuable
+ resource
+ of
+ prop
+ data
+ that
+ had
+
+
+never
+ been
+ opened
+ up
+ to
+ anyone
+ in
+ the
+
+
+world,
+ and
+ we
+ would
+ be
+ the
+ only
+ ones
+
+
+with
+ access
+ to
+ it
+ at
+ that
+ time.
+ So,
+ that
+
+
+was
+ super
+ compelling.
+
+
+Um,
+ Datasite
+ also
+ owns
+ a
+ private
+ company
+
+
+database
+ firm
+ called
+ Grata.
+ Has
+ about
+ 20
+
+
+million
+ private
+ companies
+ in
+ its
+
+
+database,
+ has
+ transaction
+ data,
+
+
+contacts,
+ etc.
+ Used
+ very
+ heavily
+ in
+
+
+private
+ equity
+ and
+ banking
+ worlds
+ for,
+
+
+um,
+ sourcing
+ and
+ business
+ development
+
+
+and
+ origination.
+ So,
+ how
+ do
+ I
+ find
+
+
+add-ons
+ for
+ my
+ platform
+ portfolio
+
+
+company?
+ Uh,
+ very
+ classic
+ Grata
+ type
+
+
+query.
+
+
+That
+ data
+ would
+ be
+ brought
+ into
+ a
+
+
+BlueFlame
+ as
+ well.
+ So,
+ now
+ we
+ had
+ these
+
+
+two
+ really
+ nice
+ proprietary
+ data
+ sets
+
+
+feeding
+ us
+ in
+ a
+ vertical
+ AI
+ space
+ where
+
+
+no
+ one
+ else
+ would
+ have
+ that.
+ Really
+ nice
+
+
+and
+ differentiated.
+ And
+ that's
+ played
+
+
+out
+ really
+ nicely.
+ So,
+ over
+ the
+ over
+ the
+
+
+course
+ of
+ the
+ last
+ year
+ and
+ a
+ half,
+
+
+we've
+ been
+ bringing
+ those
+ really
+ tightly
+
+
+together
+ and
+ um,
+
+
+that's
+ [snorts]
+ that's
+ been
+ a
+ really
+
+
+nice
+ story
+ for
+ us
+ to
+ combine
+ engineering
+
+
+teams,
+ combine
+ data,
+ combine
+ solutions.
+
+
+Um,
+ and
+ then
+ we
+ actually
+ benchmark
+ that.
+
+
+Like,
+ the
+ the
+ ability
+ or
+ the
+ the
+ fact
+
+
+that
+ we
+ brought
+ the
+ data
+ closer
+ to
+ the
+
+
+models
+ saves
+ on
+ token
+ costs,
+ it
+ saves
+ on
+
+
+run
+ run
+ times,
+ um,
+ and
+ increases
+ quality
+
+
+of
+ what
+ we're
+ doing.
+ So,
+ that's
+ been
+ a
+
+
+that's
+ been,
+ um,
+ quite
+ a
+ nice
+ thesis
+ to
+
+
+see
+ pan
+ out.
+
+
+Um,
+
+
+all
+ of
+ that
+ data,
+ obviously,
+ requires
+
+
+scale.
+ So,
+ that's
+ that's
+ again
+ where
+
+
+Reducto
+ comes
+ in
+ and
+ helps
+ us
+ with
+ a
+ lot
+
+
+of
+ that.
+ Ingestion
+ processing
+ and
+ and
+ so
+
+
+on.
+ Datasite
+ over
+ the
+ course
+ of
+ the
+ last
+
+
+year
+ and
+ a
+ half
+ since
+ we've
+ joined
+ them
+
+
+has
+ grown,
+ I
+ want
+ to
+ say
+ about
+ 40%
+ top
+
+
+line.
+
+
+Um
+ so
+ just
+ the
+ amount
+ of
+ content
+ that's
+
+
+coming
+ into
+ the
+ platform
+ is
+ is
+ growing
+
+
+pretty
+ quickly
+ and
+ pretty
+ massively.
+ Um
+
+
+the
+ demand
+ on
+ our
+ AI
+ solutions
+ have
+ gone
+
+
+up.
+ So
+ now
+ people
+ aren't
+ just
+ saying
+ I
+
+
+want
+ to
+ ask
+ questions
+ against
+ documents,
+
+
+the
+ agents
+ are
+ obviously
+ iterating
+
+
+against
+ those
+ documents,
+ doing
+ much
+ more
+
+
+fanciful
+ diligence
+ analysis,
+ or
+
+
+generating
+ PowerPoint
+ decks,
+ IC
+ memos,
+
+
+and
+ so
+ on.
+ Um
+ so
+ it's
+ pretty
+ fullsome
+
+
+suite
+ of
+ what
+ they
+ can
+ what
+ they
+ can
+
+
+accomplish
+ with
+ the
+ solution
+ together.
+
+
+>> Yeah.
+ Um
+
+
+it's
+ an
+ interesting
+ position
+ to
+ be
+ in
+ in
+
+
+that
+ I
+ I
+ I
+ think
+ you
+ have
+ one
+ of
+ the
+
+
+most
+ compelling
+ data
+ sets
+ in
+ the
+
+
+industry.
+ Um
+
+
+you're
+ in
+ a
+ position
+ now
+ where
+ obviously
+
+
+it's
+ a
+ global
+ workforce.
+ We
+ were
+ talking
+
+
+about
+ all
+ the
+ different
+ offices
+ and
+ all
+
+
+of
+ that.
+ Um
+ and
+ model
+ capabilities
+ have
+
+
+gotten
+ a
+ lot
+ better.
+ Um
+ so
+ more
+ broadly
+
+
+like
+ how
+ do
+ you
+ think
+ about
+ what
+ you
+
+
+invest
+ in
+ internally
+ versus
+ what
+ you
+
+
+build
+ uh
+
+
+and
+ buy
+ externally
+ as
+ well?
+ Um
+
+
+and
+ also
+ just
+ like
+ what
+ sorts
+ of
+ things
+
+
+are
+ top
+ of
+ mind
+ as
+ you
+ think
+ about
+ the
+
+
+coming
+ year?
+ Yeah.
+ Um
+ great
+ question.
+ So
+
+
+we
+ think
+ a
+ lot
+ about
+ the
+ build
+ versus
+
+
+buy,
+ right?
+ We
+ we
+ work
+ with
+ a
+ lot
+ of
+
+
+vendors.
+ We
+ spend
+ a
+ lot
+ with
+ a
+ lot
+ of
+
+
+vendors.
+
+
+Um
+ and
+ that's
+ an
+ intentional
+ decision.
+
+
+Um
+
+
+if
+ [snorts]
+ I
+ think
+ about
+ what
+ I
+ want
+ my
+
+
+my
+ most
+ talented
+ people
+ working
+ on,
+ it's
+
+
+not
+ things
+ that
+ vendors
+ can
+ easily
+
+
+handle
+ and
+ are
+ dedicated
+ to
+ handling
+ and
+
+
+solving
+ every
+ day.
+ Um
+
+
+it's
+ really
+ hard
+ to
+ find
+ really
+ high
+
+
+quality
+ good
+ engineers,
+ right?
+ The
+ fact
+
+
+of
+ the
+ matter
+ is
+ where
+ everyone
+ in
+
+
+market
+ is
+ trying
+ to
+ hire
+ the
+ top
+ tier
+
+
+talent
+ of
+ engineering
+ talent
+ right
+ now
+
+
+because
+
+
+what
+ we're
+ seeing,
+ what
+ you
+ guys
+ are
+ all
+
+
+probably
+ seeing
+ it
+ is
+ with
+ AI
+ coding,
+
+
+the
+ folks
+ who
+ get
+ the
+ most
+ leverage
+ and
+
+
+value
+ out
+ of
+ AI
+ coding
+ are
+ the
+ folks
+ who
+
+
+have
+ really
+ strong
+ mental
+ models
+ of
+ code
+
+
+bases,
+ really
+ understand
+ engineering
+
+
+principles,
+ have
+ done
+ it
+ for
+ a
+ long
+
+
+time.
+ Um
+
+
+so
+ they've
+ all
+ been
+ 10xed,
+ you
+ know,
+
+
+over
+ their
+ normal
+ 10x
+ uh
+ with
+ AI
+ with
+
+
+agentic
+ coding.
+ The
+ middle
+ layer,
+ so-so.
+
+
+Um
+ the
+ bottom
+ layer
+ is
+ actually
+ getting
+
+
+a
+ getting
+ a
+ lot
+ of
+ leverage
+ and
+ now
+ they
+
+
+don't
+ they
+ don't
+ sort
+ of
+ uh
+ have
+ the
+
+
+burden
+ of
+ trying
+ to
+ figure
+ out
+
+
+documentation
+ that
+ doesn't
+ exist
+ in
+ all
+
+
+of
+ that.
+ The
+ LLMs
+ can
+ build
+ that
+
+
+dynamically
+ for
+ them.
+ Um
+ so
+ we're
+ seeing
+
+
+sort
+ of
+ a
+ barbell
+ effect
+ where
+ we
+ want
+
+
+to
+ hire
+ really
+ really
+ strong
+ talent
+ and
+
+
+really
+ junior
+ talent
+ and
+ build
+ that
+ up.
+
+
+Um
+ where
+ I
+ want
+ those
+ people
+ working
+ is
+
+
+obviously
+ not
+ on
+ support
+ cases.
+ It's
+ not
+
+
+on
+ things
+ that
+ are
+ already
+ solved.
+ Um
+
+
+it's
+ on
+ the
+ hardest
+ and
+ most
+ pressing
+
+
+problems
+ for
+ the
+ business.
+
+
+At
+ our
+ scale,
+ so
+ Data
+ sites
+
+
+not
+ a
+ billion-dollar
+ top
+ line,
+ but
+
+
+general
+ range
+ of
+ a
+ billion-dollar
+ top
+
+
+line.
+ Um
+ at
+ our
+ scale
+ to
+ grow
+ 20%
+ a
+
+
+year,
+ which
+ is
+ our
+ ambition
+ or
+ board's
+
+
+ambition,
+ uh
+ we
+ need
+ to
+ be
+ generating
+
+
+$200
+ million
+ of
+ revenue
+ incremental
+
+
+revenue
+ every
+ year.
+ And
+ if
+ you
+ ask
+
+
+yourself
+ how
+ you're
+ going
+ to
+ go
+ do
+ that,
+
+
+um
+ it's
+ going
+ to
+ be
+ by
+ putting
+ new
+ AI
+
+
+products
+ out
+ in
+ market,
+ leveraging,
+
+
+getting
+ on
+ top
+ of
+ token
+ flow,
+ expanding
+
+
+solution
+ set
+ that
+ you're
+ delivering
+ to
+
+
+your
+ clients.
+ Um
+
+
+reinventing
+ the
+ wheel
+ is
+ certainly
+ going
+
+
+to
+ get
+ in
+ the
+ way
+ of
+ that.
+ Um
+
+
+having
+ internal
+ teams
+ trying
+ to
+ uh
+
+
+iterate
+ on
+ some
+ of
+ the
+ existing
+
+
+solutions
+ that
+ are
+ that
+ are
+ already
+ out
+
+
+there
+ and
+ deal
+ with
+ the
+ support
+ burden
+
+
+of
+ those
+ is
+ not
+ the
+ best
+ use
+ of
+ my
+
+
+talent.
+ I
+ have
+ about
+ 250
+ engineers
+ in
+
+
+the
+ org.
+ So
+ if
+ I
+ allocate
+ out
+ where
+ I
+
+
+want
+ those
+ 250
+ focus,
+ we
+ have
+ five
+ major
+
+
+initiatives
+ across
+ the
+ firm.
+ Um
+ those
+
+
+are
+ five
+ revenue-generating
+
+
+projects
+ that
+ we're
+ putting
+ out,
+ new
+ new
+
+
+builds
+ or
+ consolidations
+ of
+ tools,
+ new
+
+
+commercial
+ or
+ monetization
+ models.
+
+
+Um
+
+
+I
+ want
+ those
+ 250
+ people
+ split
+ across
+
+
+those
+ five
+ and
+ I
+ want
+ as
+ few
+ working
+ on
+
+
+the
+ layers
+ underneath
+ that
+ as
+ possible.
+
+
+And
+ if
+ I
+ can
+ outsource
+ everything
+ on
+ the
+
+
+under
+ the
+ layers
+ underneath
+ that,
+ that's
+
+
+an
+ ideal
+ um
+ ideal
+ split
+ of
+ time
+ for
+ my
+
+
+my
+ team.
+
+
+>> Yeah.
+
+
+Uh
+ before
+ I
+ turn
+ over
+ for
+ questions,
+ I
+
+
+realize
+ we
+ have
+ 2
+ minutes.
+ I
+ guess
+ maybe
+
+
+one
+ last
+ thing
+ is
+ like
+ where
+ do
+ you
+ find
+
+
+friction
+ today?
+ Um
+ what
+ are
+ problems
+
+
+that
+ you
+ would
+ hope
+ people
+ in
+ the
+
+
+audience
+ would
+ solve
+ for
+ you?
+ Um
+
+
+we
+ still
+ struggle
+ with
+ getting
+ the
+
+
+models
+ to
+ do
+ exactly
+ what
+ we
+ want
+ all
+
+
+the
+ time.
+ Um
+
+
+we
+ do
+ a
+ lot
+ of
+ working
+ of
+ all
+ of
+ the
+
+
+models
+ and
+ actually,
+ you
+ know,
+ if
+ you
+
+
+you
+ back
+ to
+ pre-Reducto
+ world,
+ we
+ wasted
+
+
+a
+ lot
+ of
+ time
+ on
+ trying
+ to
+ figure
+ out
+
+
+the
+ right
+ model
+ for
+ the
+ right
+ type
+ of
+
+
+chart
+ for
+ the
+ right
+ type
+ of
+
+
+uh
+ document
+ that
+ we're
+ passing
+ in.
+ So,
+
+
+we've
+ we've
+ gotten
+ rid
+ of
+ a
+ lot
+ of
+ that,
+
+
+but
+ we
+ still
+ deal
+ with
+ it
+ on
+ the
+ agent
+
+
+front,
+ trying
+ to
+ benchmark
+ out,
+ you
+
+
+know,
+ why
+ is
+ 61
+ Soul
+ tool
+ spam
+ doing
+
+
+tool
+ call
+ spamming
+ when
+ Opus
+ 55
+ is
+ not,
+
+
+but
+ then
+ 61
+ Soul
+ is
+ so
+ much
+ cheaper
+ that
+
+
+we
+ want
+ to
+ move
+ in
+ that
+ direction,
+ and
+
+
+we're
+ trying
+ to
+ get
+ it
+ to
+ go
+ to
+ go
+
+
+there.
+ Um
+
+
+so,
+ we
+ do
+ a
+ lot
+ of
+ sort
+ of
+ the
+
+
+optimization
+ of
+ the
+ three
+ factors
+ we
+
+
+care
+ about,
+ which
+ is
+ cost,
+ speed,
+ and
+
+
+quality.
+ Quality
+ is
+ top
+ top
+ of
+ mind
+ for
+
+
+everyone
+ in
+ our
+ space,
+ right?
+ Like,
+ any
+
+
+finance
+ user
+ will
+ pay
+ any
+ amount
+ of
+
+
+money
+ to
+ have
+ the
+ best
+ answer.
+
+
+Um
+ so,
+ we
+ need
+ to
+ make
+ sure
+ we're
+ always
+
+
+optimizing
+ on
+ quality
+ while
+ trying
+ to
+
+
+solve
+ the
+ other
+ two.
+
+
+>> Yeah.
+
+
+Makes
+ sense.
+
+
+Any
+ questions
+ from
+ the
+ room?
+ Yeah.
+
+
+>> Can
+ you
+ zoom
+ a
+ little
+ bit
+ about
+ the
+
+
+integration
+ between
+ Data
+ Science
+ and
+
+
+Reducto?
+
+
+>> Yeah,
+ so
+ we
+ have
+ an
+ environment
+ where
+
+
+Reducto's
+ um
+
+
+operating
+ in
+ our
+ environment
+ against
+ all
+
+
+of
+ our
+ content.
+ We
+ have
+ bill-
+ billions
+
+
+of
+ pages
+ of
+ content.
+ We
+ have
+ very
+ big
+
+
+spurts
+ of
+ content
+ when
+ bakers
+ are
+
+
+dropping
+ in
+ large
+ data
+ sets,
+ potentially
+
+
+up
+ to
+ a
+ terabyte
+ of
+ data
+ can
+ get
+ dropped
+
+
+in
+ on
+ a
+ moment's
+ notice.
+ Uh
+ so,
+ we
+ have
+
+
+an
+ ingestion
+ pipeline
+ that
+ takes
+ all
+ of
+
+
+that,
+ passes
+ it
+ through
+ Reducto.
+ We
+ get
+
+
+that
+ back.
+ We
+ We
+ leverage
+ Turbo
+ Buffer
+
+
+as
+ our
+ vector
+ database,
+ so
+ we're
+ passing
+
+
+it
+ off
+ to
+ Turbo
+ Buffer.
+
+
+Um
+ and
+ then
+ we
+ build
+ our
+ graph
+ rag
+ on
+
+
+top
+ of
+ that.
+ We're
+ executing
+ all
+ of
+ our
+
+
+graph
+ rag
+ queries
+
+
+using
+ Prop
+ Python
+ code
+ against
+ all
+ of
+
+
+that.
+
+
+Yeah.
+
+
+>> Um
+ I'm
+ on
+ the
+ sell
+ side
+ of
+ things.
+ Um
+
+
+we're
+ we
+ are
+ actually
+ customers
+ of
+ Data
+
+
+Science.
+
+
+>> sell
+ side
+ is.
+
+
+>> [laughter]
+
+
+>> Um
+
+
+curious
+ about
+ Reducto.
+ So,
+ we're
+ sitting
+
+
+on
+ a
+ transaction
+
+
+like,
+ we
+ have
+ a
+ file
+ system
+ with
+ a
+ ton
+
+
+of
+ transactions,
+ and
+ we
+ want
+ to
+ make
+
+
+that
+ available
+ to
+ agents,
+ but
+ there's
+ a
+
+
+way
+ of
+ obviously
+ it's
+ MNPI.
+ We
+ want
+ to
+
+
+anonymize
+ that
+ before
+ it
+ makes
+ its
+ way
+
+
+into
+ something
+ like
+ Reducto.
+
+
+>> Hm.
+
+
+>> We're
+ going
+ to
+ either
+ build
+ this
+ or
+ buy
+
+
+this,
+ so
+
+
+very
+ helpful
+ conversation.
+
+
+That
+ being
+ said,
+
+
+giving
+ it
+ to
+ the
+ agents
+
+
+You
+ You
+ mentioned
+ before
+ that
+ you
+ built
+
+
+a
+ custom
+ eval.
+
+
+And
+ so
+ I
+ I'm
+ curious
+ about
+ how
+
+
+Y'all
+ went
+ about
+ this
+ eval.
+
+
+>> Yep.
+
+
+>> Potentially
+ open
+ sourced.
+
+
+Um
+ but
+ like
+
+
+curious
+ about
+ how
+ you
+ guys
+
+
+>> Yeah.
+
+
+So
+ our
+ custom
+ eval
+ that's
+ related
+ to
+ We
+
+
+have
+ a
+ few
+ custom
+ evals,
+ but
+ the
+ one
+
+
+that's
+ most
+ relevant
+ to
+ Reducto
+ is
+ what
+
+
+we
+ call
+ VDR
+ bench.
+ We
+ haven't
+ open
+
+
+sourced
+ it.
+ We're
+ actually
+ thinking
+
+
+about
+ doing
+ that,
+ thinking
+ about
+
+
+partnering
+ with
+ OpenAI
+ on
+ a
+ paper
+ around
+
+
+it.
+ Um
+ what
+ we're
+ doing
+ with
+ VDR
+ bench
+
+
+is
+ we
+ basically
+ take
+ a
+ common
+ virtual
+
+
+data
+ room
+ of
+ hundreds
+ of
+ documents,
+ um
+
+
+and
+ we
+ ask
+ a
+ few
+ hundred
+ questions
+
+
+against
+ that
+ data
+ room
+ with
+ the
+ known
+
+
+set
+ of
+ answers
+ against
+ those.
+
+
+Um
+ we
+ run
+ that
+ every
+ time
+ we
+ make
+
+
+changes
+ to
+ to
+ pretty
+ much
+ anything.
+ Um
+
+
+the
+ scores
+ on
+ that
+ we
+ expect
+ to
+ be
+
+
+higher
+ than
+ any
+ of
+ the
+ uh
+ frontier
+ labs
+
+
+directly.
+ So
+ if
+ you
+ were
+ to,
+ for
+
+
+example,
+ drop
+ that
+ same
+ set
+ of
+ files
+
+
+into
+ cloud
+ projects
+ or
+ OpenAI
+ projects,
+
+
+we
+ need
+ to
+ make
+ sure
+ that
+ we're
+ beating
+
+
+that.
+ Um
+ and
+ a
+ lot
+ of
+ the
+ reason
+ that
+ we
+
+
+beat
+ that
+ our
+ data
+ science
+ team
+
+
+benchmarks
+ of
+ our
+ recall
+ rate
+ at,
+ you
+
+
+know,
+ improving
+ 22%
+ because
+ of
+ our
+
+
+Reducto
+ parsing.
+ Um
+
+
+you
+ know,
+ a
+ lot
+ of
+ that's
+ because
+ of
+ the
+
+
+the
+ way
+ we
+ pull
+ out
+ the
+ content.
+ It's
+
+
+actually
+ not
+ the
+ other
+ side
+ of
+ it.
+ A
+ lot
+
+
+of
+ people
+ think
+ that
+ sort
+ of
+ all
+ the
+
+
+work
+ needs
+ to
+ be
+ done
+ on
+ the
+ other
+ side,
+
+
+the
+ answering
+ side,
+ and
+ most
+ of
+ the
+ work
+
+
+actually
+ is
+ on
+ the
+ extraction
+ side.
+ You
+
+
+get
+ that
+ right,
+ and
+ everything
+ else
+ can
+
+
+follow.
