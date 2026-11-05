@@ -1,0 +1,9235 @@
+Foreign.
+
+
+Wow.
+ We
+ almost
+ got
+ a
+ full
+ house.
+ Uh
+ so
+
+
+if
+ you
+ are
+ here
+ um
+ at
+ like
+ like
+ 9:40
+ on
+
+
+a
+ Sunday
+ morning
+ I
+ guess
+ you
+ are
+ either
+
+
+really
+ love
+ data
+ center
+ or
+ you
+ just
+
+
+smell
+ money
+
+
+and
+ either
+ way
+ you're
+ in
+ the
+ right
+ room
+
+
+and
+ we
+ had
+ great
+ track
+ record
+ for
+ that
+
+
+Ethan
+ and
+ I
+ we
+ were
+ on
+ the
+ same
+ panel
+
+
+last
+ year
+ talking
+ about
+ data
+ center
+ and
+
+
+our
+ conclusion
+ uh
+ came
+ down
+ to
+ one
+ line
+
+
+is
+ um
+ I
+ don't
+ know
+ if
+ you
+ still
+ remember
+
+
+was
+ that
+ data
+ centers
+ are
+ the
+ new
+ oil,
+
+
+right?
+ And
+ if
+ you
+ guys
+ were
+ um
+ believed
+
+
+in
+ that
+ and
+ bullish
+ about
+ data
+ center
+
+
+and
+ new
+ cloud
+ for
+ the
+ past
+ year,
+ you
+
+
+probably
+ have
+ already
+ doubled
+ your
+ money
+
+
+on
+ stock
+ markets.
+ Um
+ you're
+ welcome.
+ So
+
+
+this
+ year
+ uh
+ we'll
+ make
+ sure
+ the
+ panel
+
+
+is
+ as
+ insightful
+ as
+ last
+ year
+ and
+ even
+
+
+spicier
+ as
+ Chen
+ required.
+ So
+
+
+okay,
+ so
+ let's
+ start
+ with
+ some
+
+
+introductions.
+
+
+>> Uh
+ sure.
+ Uh
+ hi
+ everyone
+ my
+ name
+ is
+ uh
+
+
+Ishing
+ and
+ uh
+ I'm
+ currently
+ working
+ at
+
+
+Google
+ and
+ in
+ charge
+ of
+ Google's
+ data
+
+
+center
+ planning
+ and
+ energy
+ strategy
+ and
+
+
+previously
+ I
+ work
+ at
+ Microsoft
+ by
+ dance
+
+
+also
+ in
+ charge
+ of
+ a
+ similar
+ energy
+
+
+strategy
+ to
+ support
+ the
+ uh
+ very
+ fast
+
+
+growth
+ of
+ data
+ centers
+ uh
+ globally
+ and
+
+
+uh
+ before
+ that
+ I
+ worked
+ at
+ breakthrough
+
+
+energy
+ focusing
+ on
+ the
+ clean
+ energy
+
+
+transition
+ etc.
+ had
+ uh
+ some
+ experience
+
+
+in
+ data
+ center
+ and
+ energy
+ and
+ have
+ been
+
+
+supporting
+ these
+ tech
+ companies
+ to
+ grow
+
+
+fa
+ very
+ fast.
+ They
+ are
+ uh
+ gigger
+ uh
+ what
+
+
+scale
+ of
+ uh
+ data
+ centers
+ worldwide.
+ Uh
+
+
+nice
+ to
+ meet
+ everyone.
+
+
+>> Uh
+ thank
+ you.
+ Thank
+ you
+ for
+ having
+ us
+
+
+here
+ and
+ thank
+ you
+ for
+ getting
+ up
+ so
+
+
+early.
+ Hopefully
+ it
+ pays
+ off
+ at
+ the
+ end
+
+
+of
+ this
+ panel.
+ Uh
+ we're
+ going
+ to
+ discuss
+
+
+a
+ lot
+ of
+ like
+ interesting
+ stuff
+ and
+ uh
+
+
+just
+ enjoy.
+ and
+ Alex.
+ Uh,
+ let's
+ start
+
+
+with
+ some
+ introductions
+ and
+ I
+ have
+ lots
+
+
+of
+ questions
+ for
+ you.
+
+
+>> Sure.
+
+
+>> Yeah.
+
+
+>> Yeah.
+ So,
+ my
+ name
+ is
+ Alex.
+ Uh,
+ founder
+
+
+and
+ CEO
+ of
+ GMI
+ cloud.
+ GMI
+ stands
+ for
+
+
+general
+ machine
+ intelligence
+ cloud.
+ I
+
+
+believe
+ that
+ we're
+ moving
+ into
+ the
+
+
+general
+ machine
+ intelligence
+ age.
+ I
+
+
+think
+ this
+ is
+ in
+ inevitable.
+ And
+ so
+ my
+
+
+my
+ mission
+ also
+ the
+ company's
+ mission
+ is
+
+
+to
+ accelerate
+ adoption
+ for
+ everyone
+ not
+
+
+just
+ frontier
+ labs
+ or
+ hyperscalers
+ but
+
+
+for
+ everyone
+ that
+ wants
+ to
+ utilize
+ AI.
+
+
+So
+ we
+ built
+ foundational
+ GPU
+
+
+infrastructure
+ across
+ the
+ world
+ from
+
+
+Asia
+ to
+ US
+ uh
+ as
+ well
+ as
+ our
+ Kubernetes
+
+
+management
+ layer
+ uh
+ for
+ people
+ who
+
+
+doesn't
+ want
+ to
+ manage
+ bare
+ metals
+ as
+
+
+well
+ as
+ a
+ uh
+ token
+ factory
+ which
+ right
+
+
+now
+ uh
+ we're
+ processing
+ about
+ a
+ trillion
+
+
+plus
+ token
+ per
+ day.
+
+
+>> Okay.
+ Uh
+ yes
+ and
+ I'll
+ start
+ with
+ you.
+ Um
+
+
+because
+ remember
+ last
+ year
+ you
+ mentioned
+
+
+the
+ bottleneck
+ uh
+ of
+ data
+ centers
+ energy
+
+
+right
+ and
+ especially
+ the
+ transmission
+
+
+and
+ then
+ generation
+ uh
+ what
+ do
+ you
+ think
+
+
+about
+ like
+ for
+ the
+ past
+ the
+ past
+ year
+
+
+right
+ um
+ is
+ it
+ still
+ the
+ same
+ what
+
+
+changed
+
+
+>> yeah
+ that's
+ a
+ great
+ question
+ I
+ think
+ uh
+
+
+last
+ year
+ we
+ talk
+ about
+ for
+ United
+
+
+States
+ we
+ don't
+ have
+ sufficient
+ uh
+
+
+electric
+ power
+ to
+ support
+ the
+ very
+ fast
+
+
+and
+ large
+ scale
+ data
+ center
+ growth
+ uh
+
+
+the
+ The
+ main
+ bottleneck
+ is
+ transmission
+
+
+system
+ uh
+ which
+ is
+ the
+ you
+ can
+ think
+ of
+
+
+it
+ as
+ the
+ high
+ voltage
+ transmission
+
+
+lines
+ you
+ see
+ along
+ the
+ highways
+ to
+
+
+deliver
+ electricity
+ from
+ the
+ generation
+
+
+all
+ the
+ way
+ to
+ the
+ data
+ center.
+ I
+ think
+
+
+in
+ the
+ past
+ year
+ a
+ lot
+ of
+ people
+
+
+realized
+ a
+ very
+ cruel
+ kind
+ of
+ fact
+ which
+
+
+is
+ United
+ States
+ is
+ almost
+ impossible
+ to
+
+
+build
+ a
+ large
+ scale
+ transmission
+ system.
+
+
+So
+ almost
+ everyone
+ gave
+ up
+ on
+ that
+ on
+
+
+solving
+ that
+ problem.
+ So
+ they
+ pivoted
+ to
+
+
+solve
+ another
+ problem
+ which
+ is
+ if
+ we
+
+
+cannot
+ build
+ transmission
+ which
+ is
+ kind
+
+
+of a
+ similar
+ like
+ the
+ highway
+ right
+ uh
+
+
+if
+ we
+ cannot
+ build
+ highway
+ how
+ about
+
+
+just
+ build
+ the
+ the
+ generations
+ directly
+
+
+at
+ your
+ data
+ center
+ campus
+ so
+ I
+ think
+
+
+this
+ is
+ why
+ the
+ past
+ 12
+ months
+ a
+ lot
+ of
+
+
+uh
+ the
+ so-called
+ on-site
+ generation
+ or
+
+
+so-called
+ behind
+ the
+ meter
+ uh
+
+
+generations
+ uh
+ is
+ picked
+ as
+ the
+ solution
+
+
+to
+ solve
+ the
+ data
+ center
+ uh
+ electricity
+
+
+problem.
+ I
+ think
+ some
+ of
+ the
+ data
+ I
+ saw
+
+
+is
+ that
+ uh
+ roughly
+ maybe
+ 30
+ to
+ 50%
+ of
+
+
+the
+ uh
+ this
+ year's
+ planned
+ data
+ set
+ data
+
+
+centers
+ meaning
+ that
+ maybe
+ in
+ in
+ one
+ or
+
+
+two
+ years
+ they
+ will
+ become
+ alive
+ but
+
+
+plan
+ data
+ centers
+ roughly
+ 30
+ to
+ 50%
+ of
+
+
+them
+ are
+ behind
+ the
+ meter
+ uh
+ generation
+
+
+uh
+ solution
+ uh
+ meaning
+ that
+ uh
+ a
+ lot
+ of
+
+
+natural
+ gas
+ turbines
+ large
+ medium
+ and
+
+
+small
+ turbines
+ especially
+ small
+ turbines
+
+
+because
+ we
+ want
+ to
+ like
+ General
+
+
+Electrics
+ large
+ gener
+ gas
+ turbines
+ has
+
+
+already
+ been
+ sold
+ out
+ for
+ many
+ years
+ and
+
+
+so
+ the
+ small
+ ones
+ becomes
+ the
+ the
+ the
+
+
+kind
+ of
+ a
+ hot
+ products
+ in
+ the
+ market
+ and
+
+
+also
+ uh
+ if
+ you
+ uh
+ uh
+ kind
+ of
+ uh
+ follow
+
+
+the
+ stock
+ markets
+ there's
+ one
+ company
+
+
+called
+ the
+ bloom
+ energy
+ uh
+ becomes
+ very
+
+
+hot
+ this
+ year
+ uh
+ mainly
+
+
+>> make
+ sure
+ you
+ take
+ notes
+
+
+>> yeah
+ mainly
+ because
+ they
+ are
+ providing
+
+
+uh
+ speed
+ to
+ power
+ meaning
+ that
+ they
+ can
+
+
+really
+ help
+ you
+ get
+ the
+ on-site
+
+
+generation
+ online
+ within
+ several
+ months
+
+
+like
+ within
+ 3
+ to
+ 6
+ months
+ and
+ sometimes
+
+
+they
+ claim
+ they
+ can
+ do
+ it
+ within
+ 60
+
+
+days.
+ uh
+ and
+ that
+ becomes
+ a
+ very
+ hot
+
+
+solution
+ which
+ is
+ behind
+ the
+ meter.
+ But
+
+
+of
+ course
+ they
+ do
+ have
+ other
+ challenges
+
+
+right
+ like
+ supply
+ chain
+ challenging
+ and
+
+
+also
+ whether
+ their
+ technology
+ is
+ mature
+
+
+enough
+ for
+ all
+ the
+ data
+ centers
+ right
+
+
+now
+ they
+ are
+ still
+ small
+ scale
+ so
+ there
+
+
+are
+ still
+ risk
+ associated
+ with
+ that.
+
+
+However
+ they
+ are
+ companies
+ who
+ is
+
+
+seriously
+ thinking
+ about
+ this
+ solution
+
+
+and
+ some
+ of
+ them
+ think
+ this
+ could
+ be
+ one
+
+
+of
+ the
+ big
+ solution
+ for
+ data
+ centers.
+ uh
+
+
+but
+ again
+ remain
+ cautious
+ this
+ is
+ still
+
+
+new
+ new
+ technology
+ but
+ this
+ is
+ one
+ of
+
+
+the
+ uh
+ things
+ people
+ are
+ thinking
+ about
+
+
+like
+ how
+ to
+ solve
+ the
+ energy
+ problem
+ for
+
+
+uh
+ data
+ centers
+ so
+ I
+ would
+ say
+ this
+ year
+
+
+a
+ big
+ shift
+ is
+ that
+ the
+ people
+ gave
+ up
+
+
+on
+ solving
+ the
+ transmission
+ problem
+ but
+
+
+focusing
+ on
+ solving
+ the
+ onsign
+ or
+ behind
+
+
+the
+ meter
+ generation
+ problem
+ now
+
+
+>> okay
+ on
+ the
+ bloom
+ energy
+ I
+ know
+ lots
+ of
+
+
+new
+ cloud
+ use
+ this
+ technology
+ is
+ it
+ also
+
+
+same
+ with
+ the
+ hyperscalers
+ that
+ okay
+
+
+>> yeah
+ that's
+ true
+
+
+>> okay
+ so
+ Bruce
+ I'm
+ sure
+ you
+ invest
+ uh
+ in
+
+
+different
+ parts
+ of
+ the
+ AI
+ data
+ center
+
+
+and
+ energy.
+ So
+ where
+ do
+ you
+ think
+ is
+ the
+
+
+bottleneck
+ and
+ which
+ part
+ worries
+ the
+
+
+most?
+ Um
+ yeah
+
+
+>> well
+ uh
+ as
+ a
+ matter
+ of
+ fact
+ actually
+ the
+
+
+whole
+ AI
+ supply
+ chain
+ energy
+ included
+ is
+
+
+all
+ we
+ we
+ are
+ in
+ shortage
+ uh
+
+
+significantly
+ and
+ uh
+ uh
+ data
+ center
+ uh
+
+
+you
+ know
+ power
+ to
+ data
+ center
+ is
+ a
+ big
+
+
+one
+ and
+ it's
+ not
+ only
+ about
+ the
+
+
+equipments
+ because
+ in
+ the
+ US
+ I
+ agree
+
+
+with
+ Ethan
+ and
+ uh
+ uh
+ uh
+ just
+ US
+
+
+infrastructure
+ was
+ not
+ that
+ good
+ before
+
+
+this
+ boom
+ of
+ AI
+ built
+ out
+ uh
+ but
+ it
+ also
+
+
+has
+ its
+ own
+ like
+ uh
+ you
+ know
+ advantage
+
+
+natural
+ gas
+ is
+ the
+ one.
+ So
+ actually
+ I
+
+
+fully
+ agree
+ you
+ know
+ behind
+ the
+ meter
+ is
+
+
+the
+ solution
+ and
+ it
+ just
+ takes
+ time
+ to
+
+
+build
+ it
+ out
+ and
+ you
+ need
+ equipments
+
+
+like
+ from
+ like
+ the
+ names
+ like
+ GE
+ Simmons
+
+
+energy
+ stuff
+ like
+ that
+ you
+ also
+ need
+
+
+physical
+ stuff
+ you
+ know
+ constructions
+
+
+labor
+ permits
+ all
+ those
+ things
+ those
+ are
+
+
+all
+ the
+ bottlenecks
+ we
+ have
+ to
+ deal
+ with
+
+
+and
+ and
+ solve
+ this
+ coming
+ midterms
+ right
+
+
+and
+ uh
+ uh
+ uh
+ uh
+ states
+ like
+ Texas,
+
+
+Virginia,
+ Ohio
+ they
+ all
+ facing
+ all
+ the
+
+
+challenges
+ right
+ and
+ do
+ we
+ have
+ do
+ we
+
+
+have
+ the
+ permits
+ do
+ we
+ have
+ the
+ local
+
+
+community
+ support
+ to
+ build
+ out
+ all
+ those
+
+
+ambitious
+ like
+ data
+ centers
+ those
+ are
+
+
+the
+ things
+ we
+ have
+ to
+ pay
+ attention
+
+
+going
+ forward
+ and
+ uh
+ I
+ remain
+ like
+ very
+
+
+optimistic
+ because
+ in
+ the
+ end
+ it's
+ all
+
+
+about
+ like
+ it's
+ a
+ trade-off
+ of
+ course
+
+
+you
+ know
+ the
+ uh
+ when
+ you
+ build
+ something
+
+
+new
+ it's
+ going
+ to
+ have
+ like
+ a
+ pos
+ both
+
+
+positive
+ and
+ negative
+ you
+ know
+ uh
+ impact
+
+
+on
+ the
+ local
+ communities
+ so
+ the
+ all
+ the
+
+
+hyperscalers
+ neural
+ cloud
+ they
+ have
+ to
+
+
+prove
+ they
+ can
+ make
+ it
+ as
+ win-win
+ rather
+
+
+than
+ just
+ you
+ know
+ oh
+ I
+ take
+ everything
+
+
+up
+ I
+ I
+ I
+ say
+ the
+ you
+ know
+ the
+ the
+
+
+direction
+ of
+ travel
+ uh
+ it's
+ it's
+ it's
+ to
+
+
+the
+ right
+ directions
+ so
+ uh
+ all
+ those
+
+
+things
+ again
+ to
+ summary
+ it
+ up
+ all
+ those
+
+
+are
+ the
+ challenges
+ real
+ challenges
+ we
+
+
+have
+ to
+ face
+ but
+ and
+ the
+ people
+ have
+
+
+solutions
+ yeah
+ so
+ that's
+ where
+ we
+ are
+ so
+
+
+we
+ stay
+ invested
+ yeah
+
+
+>> okay
+ um
+ I
+ can
+ tell
+ that
+ we
+ are
+ all
+ very
+
+
+AI
+ peeled
+ kind
+ of
+ positive
+ and
+ bullish.
+
+
+Um,
+ just
+ one
+ quick
+ gut
+ check.
+ If
+ you
+
+
+have
+ to
+ pick
+ like
+ uh
+ one
+ thing
+ that
+
+
+really
+ most
+ short
+ of
+ right
+ now,
+ it's
+ a
+
+
+GPU,
+ it's
+ like
+ a
+ networking,
+ a
+ memory,
+
+
+power,
+ um,
+ what
+ would
+ you
+ pick?
+
+
+>> Okay.
+ Well,
+ uh,
+ like
+ what
+ I
+ said,
+ you
+
+
+know,
+ everything
+ is
+ in
+ huge
+ shortage.
+
+
+It's
+ just
+ to
+ different
+ extent
+ uh
+ GPUs
+ uh
+
+
+memories
+ and
+ even
+ like
+ a
+ below
+ uh
+
+
+equipments
+ and
+ uh
+ uh
+ substrates
+ and
+ all
+
+
+those
+ things
+ even
+ MLCC
+ you
+ know
+ uh
+
+
+Taiwanese
+ companies
+ are
+ benefit
+ a
+ lot
+
+
+from
+ those
+ you
+ know
+ the
+ shortages
+ uh
+ it
+
+
+just
+ take
+ all
+ those
+ physical
+ stuff
+ it
+
+
+just
+ takes
+ time
+ uh
+ to
+ build
+ them
+ out
+ and
+
+
+if
+ we
+ have
+ to
+ pick
+ something
+ uh
+ one
+
+
+direction
+ you
+ know
+ it's
+ giving
+ the
+
+
+agencies
+ pick
+ up
+ you
+ like
+ people
+ are
+ not
+
+
+right
+ now
+ very
+ like
+ you
+ know
+ CPU
+ compute
+
+
+right
+ the
+ GPU
+ to
+ CPU
+ that's
+ ratio
+ uh
+
+
+used
+ to
+ be
+ just
+ one
+ to
+ one
+ now
+ it's
+
+
+below
+ 4:1
+ some
+ people
+ even
+ are
+ like
+ a
+
+
+bullish
+ like
+ 8
+ to1
+ something
+ like
+ that
+
+
+so
+ that's
+ where
+ you
+ see
+ the
+ you
+ know
+ a
+
+
+huge
+ potentials
+ but
+ I
+ the
+ point
+ I
+ want
+
+
+to
+ make
+ you
+ know
+ uh
+ here
+ we
+ need
+ to
+ be
+ a
+
+
+little
+ bit
+
+
+creative
+ and
+ uh
+ open-minded
+ this
+ is
+ very
+
+
+early
+ stage
+ this
+ is
+ very
+ early
+ stage
+ and
+
+
+this
+ is
+ pi
+ growing
+
+
+story.
+ It's
+ not
+ like
+ who
+ is
+ going
+ to
+
+
+win,
+ who
+ is
+ going
+ to
+ lose.
+ It's
+ a
+ whole
+
+
+pie
+ is
+ growing.
+ So
+ that's
+ one
+ aspect
+ I
+
+
+want
+ people
+ pay
+ attention
+ to.
+ Second,
+
+
+it's
+ also
+ about
+ like
+ a
+ technology
+
+
+advantage.
+ So
+ you
+ know
+ you
+ guys
+ are
+ the
+
+
+experts
+ in
+ this
+ aspect,
+ right?
+ So
+ all
+
+
+the
+ like
+ semi
+ projects
+ you
+ have
+ been
+
+
+doing
+ for
+ the
+ hyperscalers,
+ there
+ are
+ so
+
+
+fundamentally
+ different
+ from
+ the
+ stuff
+
+
+you
+ are
+ you
+ used
+ to
+ be
+ working
+ on.
+ So
+
+
+that's
+ going
+ to
+ also
+ create
+ a
+ winners
+
+
+and
+ losers.
+ Like
+ for
+ example
+ like
+ power
+
+
+semis
+ used
+ to
+ be
+ very
+ very
+ boring
+
+
+cyclical
+ stuff
+ but
+ now
+ given
+ the
+ GPU
+ and
+
+
+CPU
+ are
+ using
+ like
+ more
+ power
+ high
+
+
+voltages
+ and
+ that
+ becomes
+ a
+ very
+
+
+something
+ very
+ exciting
+ we
+ are
+ looking
+
+
+into
+ it.
+ So,
+ so
+ this
+ this
+ is
+ the
+
+
+exciting
+ time.
+ That's
+ what
+ I
+ want
+ to
+
+
+say.
+ Uh
+ sometimes
+ you
+ don't
+ need
+ to
+ pick
+
+
+okay,
+ I
+ have
+ to
+ like
+ GPU
+ versus
+ CPU,
+
+
+memory
+ versus
+ optics.
+ I
+ I
+ truly
+ believe,
+
+
+you
+ know,
+ in
+ the
+ grand
+ scheme
+ of
+ things,
+
+
+this
+ is
+ a
+ growing
+ pie.
+
+
+>> Yeah,
+ that's
+ great.
+ Yeah.
+ Okay,
+ great.
+ U
+
+
+so
+ I
+ don't
+ know
+ if
+ you
+ guys
+ heard
+ the
+
+
+news
+ that
+ the
+ GMI
+ cloud
+ just
+ raised
+ $668
+
+
+million,
+ right?
+ And
+ well,
+
+
+congratulations
+ first.
+ Um,
+ yeah,
+
+
+>> thank
+ you
+ guys.
+
+
+>> And
+ I
+ saw
+ that
+ your
+ uh
+ contracted
+ R
+ also
+
+
+almost
+ grow
+ like
+ 10
+ times
+ in
+ a
+ year.
+ So
+
+
+what
+ makes
+ like
+ GMI
+ like
+ so
+ different?
+
+
+>> I
+ would
+ say
+ uh
+ three
+ things,
+ right?
+ Uh
+
+
+number
+ one,
+ I
+ think
+ uh
+ reliable
+ and
+ on
+
+
+time
+ compute
+ is
+ the
+ most
+ important
+
+
+thing,
+ right?
+ uh
+ we
+ can
+ we
+ have
+ a
+ lot
+ of
+
+
+uh
+ software
+ layer
+ that's
+ built
+ on
+ top
+
+
+but
+ number
+ one
+ is
+ providing
+ uh
+ on
+ time
+
+
+delivery
+ and
+ reliable
+ compute
+ uh
+ I
+ think
+
+
+this
+ is
+ uh
+ uh
+ a
+ very
+ important
+ thing
+ so
+
+
+that
+ means
+ a
+ commending
+ a
+ very
+ strong
+
+
+supply
+ chain
+ relationship
+ from
+ Asia
+ and
+
+
+expand
+ globally
+ so
+ that's
+ number
+ one
+
+
+supply
+ chain
+ uh
+ number
+ two
+ is
+ the
+ east
+
+
+and
+ west
+ so
+ as
+ we
+ face
+ a
+ lot
+ of
+
+
+political
+ headwind
+ in
+ the
+ US
+ right
+ um
+ on
+
+
+mega
+ megabs
+ uh
+ even
+ smaller
+ smaller
+
+
+capacities
+ uh
+ we
+ have
+ data
+ center
+ uh
+
+
+footprints
+ across
+ US
+ from
+ East
+ Asia
+ to
+
+
+South
+ Asia
+ Southeast
+ Asia
+ right
+ so
+ it
+
+
+provides
+ different
+ uh
+ locations
+ um
+ for
+
+
+companies
+ that
+ want
+ to
+ expand
+ rapidly
+ so
+
+
+that's
+ number
+ two
+ and
+ number
+ three
+ of
+
+
+course
+ uh
+ this
+ is
+ I
+ guess
+ a
+ topic
+ today
+
+
+right
+ is
+ a
+ lot
+ about
+ the
+ financing
+ um
+
+
+we're
+ able
+ to
+ tap
+ into
+ kind
+ of
+ the
+ Asia
+
+
+capital
+ um
+ it
+ used
+ to
+ be
+ yen
+ trade
+ We
+
+
+have a
+ NTD
+ trade
+ which
+ is
+ Taiwanese
+
+
+dollar
+ trade
+ and
+ we're
+ able
+ to
+ uh
+ uh
+
+
+leverage
+ at
+ a
+ much
+ lower
+ borrowing
+ cost
+
+
+comparing
+ to
+ our
+ peers
+ in
+ the
+ US
+ which
+
+
+have
+ to
+ borrow
+ about
+ close
+ to
+ 10%
+ or
+
+
+more.
+
+
+>> Well,
+ that's
+ great.
+ And
+ with
+ all
+ the
+
+
+capital
+ raised,
+ what
+ is
+ still
+ the
+
+
+hardest
+ thing
+ to
+ buy
+ early
+ this
+ year?
+
+
+You
+ mentioned
+ like
+ link,
+ right?
+ And
+ what
+
+
+about
+ right
+ now?
+
+
+>> Yeah.
+ Uh
+ right
+ now
+ it's
+ still
+ power.
+
+
+Ping
+ power
+ is
+ the
+ most
+ uh
+ most
+ most
+
+
+critical
+ issue.
+ Um
+ if
+ you
+ follow
+
+
+Jensen's
+ kind
+ of
+ talk
+ you
+ know
+ Q2
+
+
+earnings
+ and
+ all
+ the
+ uh
+ Wall
+ Street
+ uh
+
+
+you
+ know
+ chat
+ it's
+ all
+ about
+ PowerShell.
+
+
+Uh
+ so
+ this
+ is
+ a
+ global
+ phenomenon
+ not
+
+
+just
+ in
+ the
+ US
+ but
+ also
+ happening
+
+
+globally.
+ Uh
+ compute
+ that
+ is
+ uh
+
+
+PowerShell
+ that
+ is
+ ready
+ today
+ or
+ even
+
+
+27
+ is
+ extremely
+ rare.
+
+
+>> Okay
+ great.
+ So
+ to
+ this
+ question,
+ let's
+
+
+dive
+ a
+ little
+ bit
+ deeper
+ like
+ um
+ so
+ if
+ a
+
+
+company
+ signs
+ up
+ for
+ a
+ megawatt
+ today,
+
+
+this
+ is
+ might
+ be
+ for
+ you
+ Ethan
+ and
+ Alex.
+
+
+Um
+ and
+ how
+ long
+ until
+ that
+ turn
+ into
+ um
+
+
+usable
+ compute?
+ Just
+ give
+ us
+ a
+ sense.
+
+
+>> Yeah,
+ I
+ think
+ uh
+ United
+ States
+ normally
+
+
+the
+ timeline
+ is
+ about
+ two
+ years
+ maybe
+
+
+two
+ and
+ a
+ half
+ years
+ for
+ the
+ very
+ large
+
+
+scale
+ data
+ centers.
+ we're
+ talking
+ about
+
+
+like
+ a
+ 500
+ megawatt
+ above
+ like
+ sometimes
+
+
+a
+ gigawatt
+ level
+ uh
+ large
+ data
+ center
+ I
+
+
+think
+ for
+ for
+ the
+ smaller
+ ones
+ it
+ could
+
+
+be
+ faster
+ maybe
+ one
+ half
+ year
+ but
+ for
+
+
+large
+ ones
+ that's
+ roughly
+ two
+ years
+ and
+
+
+I
+ do
+ think
+ uh
+ maybe
+ one
+ thing
+ I
+ want
+ to
+
+
+kind
+ of
+ share
+ with
+ the
+ the
+ audience
+ is
+
+
+that
+ what
+ I
+ observe
+ in
+ the
+ past
+ half
+
+
+year
+ I
+ think
+ there
+ is
+ a
+ potential
+ huge
+
+
+risk
+ to
+ the
+ whole
+ data
+ center
+ and
+ AI
+
+
+industry
+ right
+ now
+ and
+ I
+ think
+
+
+>> you
+ mean
+ a
+ delay
+
+
+>> yes
+ I
+ think
+ that
+ is
+ a
+ delay
+ of
+ the
+ data
+
+
+center
+ so
+ right
+ now
+ a
+ lot
+ of
+ data
+ center
+
+
+they
+ are
+ planned
+ maybe
+ last
+ year
+ meaning
+
+
+that
+ they
+ are
+ not
+ delivered
+ this
+ year
+
+
+but
+ they
+ will
+ they
+ are
+ expected
+ to
+ be
+
+
+delivered
+ in
+ 2027
+ or
+ 28.
+ So
+ a
+ lot
+ of
+
+
+problems
+ are
+ not
+ surfaced
+ yet
+ and
+ we
+ do
+
+
+not notice
+ that
+ like like
+ Wall
+ Street
+
+
+Journal
+ or
+ other
+ kind
+ of
+ investment
+ bank
+
+
+reports
+ they
+ also
+ mentioned
+ they
+
+
+observed
+ like
+ signs
+ that
+ there
+ are
+
+
+delays
+ across
+ the
+ broad
+ United
+ States.
+
+
+So
+ I
+ do
+ think
+ this
+ could
+ be
+ a
+ huge
+ risk
+
+
+and
+ there
+ are a
+ lot
+ of
+ reasons
+ uh
+
+
+leading
+ to
+ this
+ delay
+ risk.
+ One
+ of
+ them
+
+
+is
+ what
+ we
+ discussed
+ like
+ electric
+ power
+
+
+could
+ be
+ one
+ issue
+ and
+ all
+ types
+ of
+
+
+electric
+ equipments
+ could
+ be
+ another
+ and
+
+
+also
+ there
+ are
+ all
+ types
+ of
+ regulations
+
+
+like
+ new
+ regulations
+ like
+ limiting
+ the
+
+
+progress
+ of
+ data
+ center
+ constructions.
+
+
+Uh
+ one
+ one
+ example
+ is
+ uh
+ FAA
+ like
+ uh
+
+
+that's
+ a
+ kind
+ of
+ aviation
+ regulation
+
+
+entity
+ United
+ States.
+ It
+ has
+ nothing
+ to
+
+
+do
+ with
+ data
+ center
+ but
+ somehow
+ it
+ is
+
+
+also
+ having
+ new
+ regulations
+ limiting
+
+
+data
+ centers
+ uh
+ which
+ are
+ built
+ near
+
+
+airports
+ and
+ they
+ think
+ there
+ could
+ be
+
+
+some
+ uh
+ safety
+ issues
+ and
+ uh
+ other
+
+
+another
+ thing
+ is
+ what
+ uh
+ Bruce
+ mentioned
+
+
+like
+ local
+ community
+ oppositions
+ is
+
+
+becoming
+ a
+ huge
+ trend
+ United
+ States
+ uh
+
+
+if
+ you
+ are
+ reading
+ the
+ mainstream
+ medias
+
+
+United
+ States
+ like
+ Wall
+ Street
+ Journal
+
+
+etc
+ you
+ will
+ notice
+ that
+ there
+ are
+ a
+ lot
+
+
+of
+ stories
+ about
+ data
+ centers
+ and
+ all
+
+
+those
+ stories
+ are
+ around
+ the
+ same
+
+
+narrative
+ which
+ is
+ uh
+ they
+ kind
+ of
+ make
+
+
+this
+ whole
+ thing
+ kind
+ of
+ like
+ the
+ the
+
+
+the
+ local
+ community
+ of
+ United
+ States
+ is
+
+
+against
+ uh
+ the
+ AI
+ industry
+ or
+ AI
+ data
+
+
+center.
+ Uh
+ I
+ I
+ it's
+ unfortunate
+ like
+ all
+
+
+these
+ stories
+ are
+ narrative
+ like
+ this
+
+
+because
+ I
+ I
+ personally
+ do
+ not
+ believe
+
+
+that
+ is
+ a
+ objective
+ view.
+ However,
+
+
+that's
+ a
+ that's
+ a
+ story
+ like
+ people
+
+
+click
+ and
+ view,
+ right?
+ uh
+ and
+ it's
+ not
+
+
+necessarily
+ the
+ the
+ truth
+ but
+ however
+
+
+what's
+ happening
+ now
+ is
+ that
+ before
+ uh
+
+
+November's
+ midterm
+ election
+ uh
+ almost
+
+
+all
+ the
+ politicians
+ United
+ States
+ they
+
+
+are
+
+
+kind
+ of
+ a
+ uh
+ kind
+ of
+ they're
+ expressing
+
+
+their
+ views
+ against
+ data
+ centers
+ so
+ they
+
+
+can
+ get
+ more
+ votes
+ uh
+ to
+ be
+ elected
+ uh
+
+
+before
+ the
+ during
+ this
+ m midterm
+
+
+election
+ and
+ that
+ becomes
+ a
+ trend
+ now
+
+
+even
+ in
+ Texas
+ right
+ in
+ early
+ this
+ year
+
+
+the
+ Texas
+ governor
+ is
+ was
+ fully
+
+
+supporting
+ data
+ center
+ but
+ a
+ few
+ months
+
+
+ago
+ uh
+ his
+ view
+ changed
+ 180%
+ 180
+ degrees
+
+
+right
+ completely
+ against
+ uh
+ data
+ centers
+
+
+and
+ that's
+ because
+ of
+ the
+ local
+
+
+company's
+ pressure
+ on
+ those
+ politicians
+
+
+and
+ that's
+ could
+ be
+ another
+ huge
+ force
+
+
+like
+ uh
+ causing
+ the
+ delay
+ of
+ the
+ data
+
+
+centers
+ and
+ I
+ do
+ think
+ this
+ could
+ be
+ a
+
+
+huge
+ risk
+ because
+ maybe
+ using
+ one
+ kind
+
+
+of
+ a
+ public
+ data
+ as
+ example
+ like
+ uh
+ uh
+
+
+SpaceX,
+ right?
+ The
+ the
+ SpaceX
+ uh
+ rented
+
+
+out
+ some
+ of
+ the
+ data
+ centers
+ to
+
+
+Anthropic
+ and
+ I
+ think
+ the
+ number
+ is
+
+
+around
+ like
+ 300
+ megawatt
+ of
+ data
+ centers
+
+
+uh
+ and
+ for
+ uh
+ almost
+ $1
+ billion
+ a
+ month,
+
+
+right?
+
+
+>> Right.
+ Triple
+ the
+ price
+ compared
+ to
+ last
+
+
+year.
+
+
+>> Yeah,
+ that's
+ a
+ huge
+ price.
+ But
+ uh
+ but
+
+
+you
+ can
+ use
+ this
+ number
+ as
+ a
+ reference
+
+
+meaning
+ that
+ okay,
+ so
+ if
+ for
+ 300
+
+
+megawatt
+ of
+ data
+ center
+ it's
+ worth
+ uh
+ $1
+
+
+billion
+ per
+ month.
+ What
+ if
+ there
+ is
+ a
+
+
+several
+ gigawatt
+ of
+ data
+ center
+ which
+
+
+are
+ delayed
+ for
+ one
+ year
+ like
+ how
+ how
+
+
+much
+ revenue
+ is
+ going
+ to
+ be
+ lost
+ or
+
+
+delayed
+ because
+ of
+ the
+ the
+ the
+ delay
+ of
+
+
+the
+ data
+ center
+ construction
+ and
+ if
+ that
+
+
+number
+ could
+ be
+ in
+ terms
+ of
+ $100
+ billion
+
+
+for
+ the
+ whole
+ industry
+ and
+ we
+ were
+ also
+
+
+talking
+ about
+ financing
+ this
+ panel.
+ So
+
+
+that
+ means
+ all
+ the
+ money
+ is
+ put
+ into
+
+
+data
+ center
+ constructions,
+ you
+ won't
+ get
+
+
+it
+ the
+ revenue
+ until
+ maybe
+ one
+ year
+
+
+later
+ and
+ causing
+ you
+ a
+ delayed
+ 100
+
+
+billion
+ dollars
+ of
+ revenue.
+
+
+That's
+ a
+ huge
+ blow
+ to
+ the
+ industry.
+ I
+
+
+think
+ so
+ I
+ think
+ this
+ could
+ be
+ a
+ huge
+
+
+risk
+ if
+ it's
+ not
+ managed
+ well.
+
+
+>> Okay.
+ So
+ Alex
+ um
+ um
+ you
+ mentioned
+ about
+
+
+like
+ two
+ years
+ from
+ your
+ sign
+ uh
+ the
+
+
+power
+ to
+ get
+ the
+ computer.
+ Is
+ it
+ the
+
+
+same
+ to
+ new
+ clouds
+ or
+ that's
+ actually
+
+
+your
+ opportunity?
+
+
+>> Uh
+ I
+ think
+ it
+ depends
+ on
+ the
+ scale
+ that
+
+
+you're
+ talking
+ about.
+ A
+ gigawatt
+ compute
+
+
+obviously
+ very
+ very
+ uh
+ is
+ a
+ huge
+ issue
+
+
+and
+ almost
+ there's
+ no
+ way
+ that
+ grid
+ can
+
+
+support
+ a
+ gigawatt
+ scale
+ right
+ so
+ it's
+
+
+typically
+ a
+ mixed
+ grid
+ or
+ behind
+ a
+ meter
+
+
+and
+ uh
+ like
+ what
+ you
+ kind
+ of
+ mentioning
+
+
+uh
+ behind
+ a
+ meter
+ uh
+ basically
+ you're
+
+
+using
+ bloom
+ or
+ some
+ sort
+ of
+ reip
+ or
+ some
+
+
+sort
+ of
+ uh
+ turbines
+ right
+ and
+ that
+ means
+
+
+you're
+ burning
+ natural
+ gas
+ and
+ therefore
+
+
+the
+ most
+ critical
+ issue
+ is
+ actually
+ air
+
+
+permit
+ with
+ ESA
+ on
+ like
+ carbon
+ and
+
+
+carbon
+ dioxide
+ uh
+ emission.
+ Uh
+ and
+ so
+
+
+basically
+ anything
+ that
+ is
+ not
+ permitted
+
+
+right
+ now
+ that
+ you
+ haven't
+ started
+
+
+construction
+ it's
+ t
+ plus
+ 14
+ months
+ I
+
+
+would
+ say
+ even
+ for
+ smaller
+ scale
+ uh
+
+
+modular
+ build
+ right
+ uh
+ skits
+ is
+ probably
+
+
+at
+ another
+ two
+ months
+ uh
+ more
+ or
+ less
+ uh
+
+
+and
+ then
+ you
+ add
+ another
+ I
+ would
+ say
+ two
+
+
+to
+ three
+ months
+ on
+ token
+ so
+ whitespace
+
+
+ready
+ to
+ token
+ ready
+ so
+ you're
+ talking
+
+
+about
+ six
+ 16
+ 17
+ months
+ if
+ you
+ haven't
+
+
+started
+ any
+ any
+ construction
+ right
+ and
+
+
+so
+ uh
+ I
+ think
+ it's
+ the
+ very
+ dire
+
+
+situations
+ uh
+ in
+ the
+ past
+ our
+ customers
+
+
+including
+ hyperscalers
+
+
+um
+ didn't
+ want
+ to
+ talk
+ about
+ anything
+
+
+below
+ say
+ 100
+ megawws
+ and
+ now
+ I've
+ seen
+
+
+people
+ asking
+ for
+ even
+ 20
+ megawws
+ 30
+
+
+megawws
+ anything
+ if
+ you
+ can
+ deliver
+
+
+before
+ 27
+
+
+that's
+ awesome
+ like
+ they'll
+ take
+
+
+everything
+ um
+ and
+ uh
+ yeah
+ that's
+ kind
+ of
+
+
+the
+ situation
+ right
+ now
+ um
+ but
+ this
+ is
+
+
+in
+ the
+ US
+ side
+ uh
+ I
+ think
+ Asia
+ side
+ you
+
+
+can
+ have
+ have
+ it
+ sooner,
+ right?
+ I
+ think
+
+
+there's
+ just
+ more
+ abundance
+ uh
+ uh
+ energy
+
+
+uh
+ and
+ also
+ uh
+ I
+ think
+ the
+ government
+
+
+depends
+ on
+ which
+ locations
+ are
+ more
+
+
+supportive
+ uh
+ and
+ it's
+ kind
+ of
+ top
+ down
+
+
+approach
+ uh
+ and
+ so
+ uh
+ you
+ can
+ have
+ these
+
+
+kind
+ of
+ uh
+ hundreds
+ of
+ megawatts
+ of
+
+
+campuses
+ that
+ are
+ being
+ built
+ in
+ a
+
+
+relatively
+ sweet
+ fashion
+ but
+ you
+ still
+
+
+have
+ to
+ find
+ uh
+ different
+ pockets.
+ Yeah.
+
+
+>> Yeah,
+ that
+ could
+ be
+ a
+ great
+ strategy.
+
+
+think
+ about
+ like
+ um
+ Nubius
+ and
+ those
+
+
+companies
+ also
+ go
+ global
+ right
+ um
+ and
+ I
+
+
+want
+ to
+ can
+ follow
+ up
+ on
+ this
+ point
+ you
+
+
+mentioned
+ uh
+ about
+ the
+ delayed
+ how
+ much
+
+
+delay
+ are
+ we
+ expecting
+
+
+>> uh
+ that's
+ a
+ good
+ question
+
+
+>> for
+ the
+ general
+ like
+ hyperscal
+ yes
+ I
+
+
+think
+ uh
+ there
+ are
+ some
+ reports
+ and
+
+
+numbers
+ already
+ out
+ there
+ right
+ from
+
+
+from
+ maybe
+ semi
+ analysis
+ maybe
+ from
+
+
+different
+ mainstream
+ mediums
+ I
+ think
+
+
+right
+ now
+ the
+ trends
+ is
+ that
+ no
+ one
+
+
+really
+ knows
+ what's
+ the
+ scale
+ uh
+ of
+ the
+
+
+delay
+ uh
+ but
+ the
+ based
+ on
+ all
+ those
+ data
+
+
+we
+ can
+ roughly
+ guess
+ like
+ I
+ think
+ maybe
+
+
+10
+ to
+ 20%
+ of
+ the
+ data
+ center
+ could
+ be
+
+
+delayed
+ more
+ than
+ a
+ year
+
+
+can
+ I
+ add
+ one
+ question
+ so
+ it's
+ a
+ matter
+
+
+of
+ delay
+ or
+ it's
+ a
+ matter
+ of
+
+
+cancellation
+ that's
+ where
+ I
+ have
+
+
+troubles
+ to
+ really
+ understand
+ you
+ know
+
+
+if
+ it's
+ delayed
+ maybe
+ it's
+ fine
+ because
+
+
+the
+ whole
+ supply
+ chain
+ is
+ so
+ like
+ you
+
+
+know
+ toughen
+ up
+ and
+ but
+ it's
+ canled
+ so
+
+
+like
+ that
+ may
+ be
+ a
+ bigger
+ problem
+ so
+ I
+
+
+just
+ want
+ to
+ get
+ some
+ sense
+ from
+ you
+
+
+guys
+
+
+>> yeah
+ uh
+ So
+ I
+ think
+ it's
+ you
+ got
+ to
+
+
+understand
+ uh
+ clouds
+ and
+ data
+ centers
+
+
+it's
+ a
+ regionalized
+ business
+ right
+ so
+
+
+governor
+ Abbot
+ uh
+ right
+ kind
+ of
+ have
+ a
+
+
+pause
+ on
+ the
+ on
+ the
+ Texas
+ site
+ and
+
+
+suddenly
+ our
+ sites
+ in
+ Denver
+ and
+ Atlanta
+
+
+become
+ really
+ hot
+ hot
+ hot
+ seat
+ assets
+
+
+right
+ so
+ it's
+ kind
+ of
+ like
+ oh
+ it's
+ a
+
+
+regional
+ event
+ all
+ right
+ this
+ hit
+ pause
+
+
+on
+ the
+ on
+ the
+ on
+ the
+ you
+ know
+ southwest
+
+
+side
+ and
+ the
+ northeast
+ becomes
+ popular
+
+
+right
+ and
+ then
+ everyone
+ kind
+ of
+ start
+
+
+scram
+ scrambling
+ Right.
+ Uh
+ and
+ so
+ it's
+
+
+like
+ it
+ literally
+ moves
+ quarter
+ by
+
+
+quarter,
+
+
+>> right?
+ And
+ so
+ so
+ our
+ house
+ view
+ is
+
+
+basically
+ uh
+ basically
+ start
+ speculative
+
+
+builds
+ around
+ the
+ world
+ in
+ East
+ Asia
+ and
+
+
+Southeast
+ Asia
+ as
+ well
+ as
+ US
+ elsewhere
+
+
+that
+ has
+ less
+ of
+ a
+ data
+ center
+
+
+concentration,
+
+
+right?
+ Then
+ you
+ can
+ find
+ pockets
+ of
+
+
+opportunities
+ and
+ when
+ time
+ hits
+ when
+
+
+something
+ happens
+ then
+ you
+ can
+ pick
+ up
+
+
+because
+ we
+ all
+ have
+ the
+ contacts
+ with
+
+
+kind
+ of
+ like
+ hyperscalers
+ and
+ uh
+ and
+
+
+frontier
+ labs
+ right
+ and
+ so
+ when
+ the
+
+
+projects
+ get
+ paused
+ or
+ canceled
+ then
+ you
+
+
+know
+ opportunities
+ comes
+ but
+ you
+ got
+ to
+
+
+be
+ ready.
+
+
+>> Yeah
+ maybe
+ just
+ a
+ follow
+ up
+ of
+ Bruce's
+
+
+question
+ I
+ I
+ think
+ mostly
+ it's
+ delayed
+
+
+not
+ canceled.
+ Yeah,
+ I
+ think
+ a
+ small
+
+
+percentage
+ of
+ them
+ could
+ be
+ cancelled,
+
+
+but
+ most
+ of
+ it's
+ just
+ delayed.
+
+
+>> Okay,
+ thank
+ you
+ guys.
+
+
+>> Yeah.
+ Um,
+ nobody
+ wants
+ to
+ cancel
+ right
+
+
+now.
+
+
+>> Well,
+ I
+ actually
+ have
+ another
+ question.
+
+
+So,
+ like
+ just
+ you
+ know
+ uh
+ following
+ uh
+
+
+Alex's
+ like
+ answers
+
+
+>> uh
+ from
+ your
+ perspective
+ and
+ uh
+
+
+financing
+
+
+>> is
+ the
+ major
+ problem
+ or
+ not?
+
+
+>> It's
+ obviously
+ actually
+ the
+ supply
+ chain
+
+
+the
+ shortage
+ and
+ you
+ know
+ those
+ stuff.
+
+
+>> I
+ think
+ it's
+ definitely
+ a
+ huge
+ issue.
+
+
+That's
+ why
+ you
+ see
+ uh
+ you
+ know
+ Broadcom
+
+
+or
+ uh
+ Nvidia,
+ Google
+ all
+ stepping
+ up
+ on
+
+
+on
+ the
+ financing.
+ Um
+ and
+ so
+ there's
+ a
+
+
+huge
+ mismatch
+ in
+ in
+ the
+ financing
+ and
+ so
+
+
+whoever
+ can
+ solve
+ this
+ I
+ think
+ will
+ uh
+
+
+you
+ know
+ can
+ can
+ make
+ a
+ lot
+ uh
+ I
+ guess
+
+
+there's
+ a
+ lot
+ of
+ opportunities
+ call
+ that
+
+
+way.
+ So
+ data
+ center
+ is
+ typically
+ uh
+ they
+
+
+require
+ 12
+ to
+ 15
+ years
+ uh
+ of
+ lease
+
+
+right.
+ Um
+ but
+ compute
+ is
+ typically
+ you
+
+
+know
+ four
+ to
+ six
+ years
+ right
+ and
+ so
+
+
+there's
+ clearly
+ a
+ mismatch
+ in
+ terms
+ of
+
+
+the
+ uh
+ contract
+ durations
+ uh
+ and
+ so
+ data
+
+
+center
+ folks
+ they
+ really
+ want
+ certainty
+
+
+right
+ of
+ the
+ lease
+ and
+ therefore
+ there's
+
+
+different
+ ways
+ that
+ Nvidia
+ and
+ Brocom
+ or
+
+
+or
+ Google
+ the
+ largest
+ IG's
+ to
+ come
+ in
+
+
+and
+ so
+ like
+ the
+ the
+ I
+ guess
+ most
+ common
+
+
+question
+ when
+ we
+ go
+ to
+ data
+ center
+
+
+operator
+ or
+ uh
+ or
+ uh
+ PowerShell
+ they're
+
+
+like
+ Okay,
+ who's
+ your
+ IG?
+ Uh,
+ as
+ it's
+
+
+being
+ IG
+ wrapped,
+ right?
+ And
+ so
+ that's
+
+
+becomes
+ there's
+ a
+ basically
+ a
+ mismatch.
+
+
+Um,
+ and
+ here's
+ a
+ solution,
+ right?
+
+
+There's
+ some
+ solutions
+ basically
+ a
+ lock
+
+
+box,
+ right?
+ You're
+ you're
+ you're
+ putting
+
+
+kind
+ of
+ the
+ cash
+ flow
+ of
+ five
+ six
+ years
+
+
+into
+ a
+ SPV
+ and
+ then
+ that
+ will
+ get
+ paid
+
+
+to
+ the
+ data
+ center
+ operator
+ first.
+ And
+
+
+there's
+ some
+ presidents
+ that
+ started
+
+
+that,
+ right?
+ or
+ some
+ sort
+ of
+ residual
+
+
+value
+ guarantee
+ on
+ the
+ data
+ center
+ side,
+
+
+but
+ everyone's
+ trying
+ to
+ be
+ creative
+
+
+right
+ now.
+ Um
+ and
+ uh
+ yeah
+
+
+>> and
+ we
+ had
+ that
+ video
+ talking
+ about
+ the
+
+
+AI
+ did
+ a
+ center
+ build
+ out
+ and
+ uh
+ uh
+ that
+
+
+and
+ I'm
+ sure
+ lots
+ of
+ data
+ since
+ now
+
+
+started
+ tapping
+ into
+ uh
+ public
+ credit
+
+
+that's
+ also
+ like
+ trillion
+ dollar
+ market
+
+
+and
+ uh
+ AI
+ data
+ center
+ is
+ only
+ 5%
+ of
+ that
+
+
+and
+ there
+ will
+ be
+ lots
+ of
+ room
+ switching
+
+
+from
+ the
+ traditional
+ software
+ uh
+ credit
+
+
+to
+ now
+ data
+ center
+ and
+ as
+ you're
+ an
+
+
+investor
+ what
+ worries
+ you
+ on
+ this
+ side
+
+
+of
+ you
+ know
+ the
+ trillion
+ credit
+
+
+card
+ in
+ that.
+
+
+>> All
+ right.
+ Uh
+
+
+I'll
+ give
+ audience
+ some
+ perspective
+ on
+
+
+that.
+ We
+ step
+ back
+ a
+ little
+ bit
+ because
+
+
+we
+ need
+ to
+ know
+ where
+ we
+ are
+ in
+ the
+ you
+
+
+know
+ the
+ whole
+ big
+ picture
+ and
+ uh
+ uh
+
+
+everybody
+ like
+ Redo
+ Redalio
+ always
+ talk
+
+
+about
+ we're
+ at
+ the
+ end
+ of
+ you
+ know
+ the
+
+
+peak
+ of
+ the
+ leverage
+ uh
+ for
+ the
+ public
+
+
+sectors
+ globally
+ right
+ which
+ is
+ true
+ uh
+
+
+which
+ is
+ very
+ very
+ true.
+ we
+ have
+ to
+ deal
+
+
+with
+ with
+ the
+ this
+ problem
+ and
+ the
+ whole
+
+
+entire
+ developer
+ world
+ is
+ so
+ leveraged
+
+
+up.
+ So
+ they
+ have
+ to
+ deverage
+ you
+ know
+
+
+there
+ are
+ only
+ like
+ a
+ proven
+ ways
+ to
+
+
+deal
+ with
+ this.
+ Today
+ we
+ are
+ going
+ to
+
+
+just
+ focus
+ on
+ one
+ uh
+ that
+ one
+ is
+ uh
+
+
+growth.
+ So
+ this
+ is
+ the
+ Scott
+ Basson
+ like
+
+
+mentioned
+ this
+ many
+ times
+ that's
+ one
+ of
+
+
+his
+ pitches
+ right
+ so
+ we
+ need
+ to
+ grow
+ out
+
+
+of
+ our
+ that
+ problems
+ and
+ uh
+ which
+ is
+
+
+actually
+ very
+ true
+ looking
+ at
+ history
+
+
+you
+ know
+ that's
+ the
+ only
+ way
+ the
+ other
+
+
+way
+ not
+ not
+ only
+ way
+ but
+ the
+ major
+ way
+
+
+we
+ have
+ to
+ grow
+ out
+ of
+ this.
+ So
+ this
+ is
+
+
+in
+ the
+ grand
+ scheme
+ of
+ things.
+ This
+ is
+ a
+
+
+historical
+ mission
+ for
+ AI.
+ Of
+ course,
+ if
+
+
+it's
+ not
+ AI,
+ it's
+ going
+ to
+ be
+ something
+
+
+else.
+ But
+ you
+ know,
+ AI
+ is
+ so
+ fortunate
+
+
+like
+ it's
+ fall
+ onto
+ AI's
+ shoulder.
+ So
+
+
+this
+ is
+ a
+ huge
+ the
+ whole
+ world
+ needs
+ AI
+
+
+to
+ really
+ grow.
+ So
+ from
+ that
+
+
+perspective,
+ all
+ the
+ monies
+ are
+ going
+ to
+
+
+coming
+ in
+ are
+ going
+ to
+ coming
+ in.
+ So
+
+
+that's
+ you
+ know
+ something
+ you
+ need
+ to
+
+
+keep
+ in
+ mind.
+ Second
+ uh
+ this
+ cycle
+ is
+ so
+
+
+different.
+ This
+ cycle
+ is
+ so
+ different.
+
+
+Why?
+ Because
+ after
+ 08
+ think
+ about
+ what
+
+
+happened.
+ So
+ public
+ sector
+ has
+ been
+
+
+leveraging
+ up
+ right
+ all
+ the
+ governments
+
+
+issue
+ like
+ a
+ debts
+ and
+ you
+ know
+ printing
+
+
+money.
+ So
+ they
+ leverage
+ up
+ until
+ today
+
+
+they
+ couldn't
+ do
+ it
+ anymore.
+ But
+ private
+
+
+sector
+ private
+ sector
+ has
+ been
+
+
+deleveraging
+ after
+ 08.
+ So
+ their
+ balance
+
+
+sheet
+ both
+ corporate
+ especially
+ in
+ the
+
+
+US
+ go
+ both
+ corporations
+ and
+ households
+
+
+their
+ balance
+ sheet
+ are
+ relatively
+ very
+
+
+very
+ clean
+ and
+ healthy.
+ So
+ in
+ the
+ new
+
+
+cycle
+ it's
+ going
+ to
+ re
+ it's
+ going
+ to
+
+
+reverse
+ it's
+ going
+ to
+ reverse
+ private
+
+
+sector
+ is
+ going
+ to
+ leverage
+ up.
+ The
+
+
+anchor
+ is
+ AI
+ AI
+ give
+ them
+ an
+ opportunity
+
+
+an
+ excuse
+ to
+ leverage
+ up.
+ The
+ public
+
+
+sector
+ has
+ to
+ be
+ leveraged.
+ So
+ that's
+
+
+the
+ thing
+ that's
+ the
+ whole
+ scenario
+ the
+
+
+big
+ picture
+ we
+ have
+ to
+ put
+ ourselves
+ in
+
+
+right
+ so
+ because
+ just
+ like
+ for
+ so
+ many
+
+
+years
+ you
+ know
+ we
+ are
+ so
+ used
+ to
+ asset
+
+
+light
+ business
+ models
+ we
+ are
+ so
+ used
+ to
+
+
+free
+ cash
+ flows
+ we
+ do
+ not
+ like
+ companies
+
+
+to
+ you
+ know
+ leverage
+ up
+ but
+ you
+ know
+
+
+that
+ time
+ has
+ gone
+ we
+ have
+ to
+ get
+ used
+
+
+to
+ this
+ because
+ sometimes
+ when
+ you
+ hear
+
+
+people
+ like
+ ah
+ uh
+ uh
+ uh
+ uh
+ like
+ Oracle
+
+
+Oracle's
+ credit
+ spread
+ at
+ uh
+ widen
+ up
+
+
+and
+ right
+ now
+ it's
+ that
+ a
+ little
+ bit
+
+
+crazy
+ to
+ be honest
+ with
+ you
+ but
+ that's
+
+
+not
+ a
+ collapse
+ that's
+ call
+ it
+ a
+
+
+repricing
+ Oracle
+ used
+ to
+ be
+ a
+ cash
+ cow
+
+
+right
+ from
+ the
+ credit
+ perspective
+ it's
+
+
+so
+ safe
+ of
+ course
+ the
+ credit
+ spread
+ is
+
+
+really
+ really
+ tight
+ but
+ now
+ they
+ have
+ to
+
+
+change
+ their
+ business
+ business
+ models
+ to
+
+
+become
+ relevant
+ so
+ that's
+ the
+ cost
+ that
+
+
+you
+ have
+ to
+ pay
+ so
+ that's
+ why
+ the
+ credit
+
+
+spreads
+ just
+ widen
+ up
+ it's
+ normal
+ that's
+
+
+what
+ all
+ I'm
+ trying
+ to
+ say
+ so
+ we
+ are
+ in
+
+
+this
+ process
+ this
+ is
+ the
+ first
+ year
+
+
+actually
+ private
+ sector
+ seriously
+ lever
+
+
+up
+ it's
+ going
+ to
+ it's
+ going
+ to
+ be
+ like
+
+
+this
+ for
+ the
+ foreseeable
+ future
+ so
+ we
+
+
+have
+ to
+ get
+ used
+ to
+ this
+ right
+ so
+ next
+
+
+year
+ like
+ Amazon
+ and
+ even
+ Meta
+ is
+ going
+
+
+to
+ use
+ all
+ their
+ free
+ cash
+ flow
+ so
+ they
+
+
+have
+ to
+ borrow
+ but
+ their
+ balance
+ sheet
+
+
+is
+ so
+ healthy
+ their
+ balance
+ sheet
+ is
+ so
+
+
+healthy
+ and
+ uh
+ no
+ they're
+ all
+ in
+ the
+
+
+investment
+ grid
+ you
+ know
+ categories
+ and
+
+
+it's
+ still
+ like
+ it's
+ been
+ a
+ fantastic
+
+
+year.
+ The
+ new
+ issuance
+ if
+ I
+ remember
+ it
+
+
+correctly
+ year
+ to
+ date
+ is
+ around
+ almost
+
+
+half
+ trillion
+ but
+ still
+ we
+ have
+ a
+ lot
+ of
+
+
+room.
+ It's
+ only
+ like
+ 7%
+ something
+ like
+
+
+that
+ of
+ the
+ whole
+ IG
+ market.
+ We
+ haven't
+
+
+really
+ used
+ the
+ you
+ know
+ high
+ yield
+
+
+market
+ yet
+ and
+ not
+ to
+ mention
+ all
+ the
+
+
+like
+ private
+ equities
+ and
+ private
+
+
+credits.
+ You
+ know
+ financials
+ used
+ to
+ be
+
+
+such
+ like
+ a
+ dirty
+ word
+ but
+ for
+ this
+
+
+cycle
+ you
+ have
+ to
+ do
+ research
+ on
+ on
+ the
+
+
+banking
+ sectors.
+ You
+ really
+ need
+ to
+ see
+
+
+how
+ those
+ you
+ know
+ flows
+ are
+ is
+ the
+
+
+banking
+ system
+ is
+ healthy
+ enough
+ has
+ the
+
+
+capacity
+ to
+ support
+ this
+ kind
+ of
+ like
+
+
+leverage
+ you
+ know
+ because
+ we
+ have
+
+
+limited
+ time
+ today
+ because
+ it's
+ really
+
+
+really
+ exciting
+ you
+ know
+ topic
+ to
+ talk
+
+
+about
+ uh
+ the
+ short
+ answer
+ is
+ yes
+ it's
+
+
+really
+ yes
+ the
+ US
+ banking
+ system
+ is
+ so
+
+
+healthy
+ and
+ has
+ the
+ capacity
+ to
+ leverage
+
+
+up
+ what
+ is
+ well
+ it
+ really
+ depends
+ on
+ you
+
+
+guys
+ are
+ able
+ or
+ are
+ willing
+ to
+ borrow.
+
+
+If
+ you
+ dare
+ to
+ borrow,
+ they
+ dare
+ to
+
+
+lend.
+ So
+ as
+ simple
+ as
+ that.
+ Exactly.
+
+
+Yeah.
+
+
+>> Alex,
+ I'm
+ sure
+ that's
+ great
+ for
+ you
+ to
+
+
+hear.
+
+
+>> I'm
+ not
+ trying
+ to
+ say
+ like
+ there
+ is
+ no
+
+
+problems
+ there
+ there
+ will
+ be
+ even
+ today
+
+
+like
+ you
+ know
+ hyperscalers
+ are
+ healthy,
+
+
+semis
+ are
+ healthy
+ but
+ like
+ you
+ know
+
+
+newer
+ cloud
+ and
+ some
+ like
+ power
+ build
+ up
+
+
+they're
+ not
+ their
+ credit
+ spreads
+ are
+
+
+crazy.
+ So
+ they
+ might
+ be
+ the
+ problem
+ but
+
+
+this
+ is
+ still
+ so
+ early.
+ It's
+ it
+ really
+
+
+depends
+ on
+ how
+ AI
+ is
+ growing.
+ You
+ know
+
+
+if
+ if
+ if
+ if
+ the
+ revenue
+ is
+ coming
+ up
+
+
+like
+ a
+ better
+ than
+ people
+ expected
+ you
+
+
+do
+ not
+ need
+ this
+ you
+ know
+ leverage
+
+
+leverage
+ works
+ as
+ a
+ a
+ buffer
+ right
+
+
+because
+ in
+ a
+ perfect
+ world
+ if
+ you
+ know
+
+
+you
+ generate
+ revenue
+ right
+ away
+ it
+
+
+covers
+ your
+ capex
+ but
+ which
+ is
+ not
+ the
+
+
+case
+ and
+ that's
+ how
+ capitalism
+
+
+works.
+ during
+ the
+ early
+ stage
+ of
+ the
+
+
+whole
+ thing,
+ you
+ need
+ this
+ buffer.
+
+
+Buffer
+ is
+ leverage.
+ That's
+ all.
+ Yeah,
+
+
+that's
+ all
+ I'm
+ trying
+ to
+ say.
+
+
+>> That's
+ so
+ great
+ to
+ hear.
+ We're
+ still
+
+
+very
+ early
+ in
+ this
+ AI
+ time,
+ so
+ there's
+
+
+no
+ bubble.
+
+
+>> Well,
+ I
+ I
+ promise
+ to
+ make
+ it
+ spicy.
+ So,
+
+
+sorry.
+
+
+>> It's
+ actually
+ good
+ question
+ because
+ a
+
+
+lot
+ like
+ challenges.
+ Uh
+ well
+ uh
+ at least
+
+
+in
+ the
+ equity
+ space
+ overall
+ do
+ you
+ know
+
+
+like
+ how
+ much
+ like
+ what's
+ the
+ multiple
+
+
+for
+ QQQ
+ these
+ days?
+ Do
+ you
+ like
+ I
+ don't
+
+
+know
+ you
+ pay
+ attention
+ now
+ it's
+ uh
+ uh
+ 21
+
+
+20
+ time
+ 21
+ times
+ like
+ forward
+ earnings
+
+
+next
+ next
+ year
+ it's
+ cheap
+ relative
+ to
+
+
+the
+ financial
+ conditions
+ even
+ after
+ this
+
+
+running
+ up
+ of
+ real
+ yield
+ it's
+ just
+ cheap
+
+
+why
+ it's
+ cheap
+ because
+ QQQ
+ right
+ now
+
+
+it's
+ really
+ a
+ proxy
+ we
+ did
+ that
+ research
+
+
+actually
+ you
+ know
+ you
+ can
+ literally
+
+
+calculate
+ secular
+ growth
+ premium
+ which
+
+
+is
+ you
+ all
+ the
+ premium
+ risk
+ premium
+
+
+excluding
+ the
+ excluding
+ the
+ cyclical
+ you
+
+
+know
+ uh
+ premium
+ what's
+ left
+ is
+ your
+
+
+secular
+ growth
+ premium
+ QQ
+ carries
+ like
+
+
+what
+ 26%.
+ SMPP
+ car
+ car carries
+ what
+ 14%.
+
+
+Small
+ cap
+ that's
+ the
+ trouble
+ they
+ do
+ not
+
+
+benefit
+ this
+ a
+ lot
+ it's
+ only
+ 5%.
+ So
+ you
+
+
+know
+ actually
+ people
+ you
+ got
+ to
+ trust
+
+
+market
+ is
+ very
+ efficient
+ you
+ know
+ market
+
+
+is
+ not
+ dumb
+ at
+ all.
+ So
+ they
+ price
+
+
+everything
+ you
+ know
+ very
+ rationally.
+
+
+That's
+ what
+ I
+ want
+ to
+ say.
+ Yeah.
+
+
+>> Okay.
+ Great.
+ Okay.
+ Let's
+ switch
+ gear
+ a
+
+
+little
+ bit
+ and
+ back
+ to
+ Alex.
+ I'm
+ sure
+
+
+you're
+ happy
+ to
+ hear
+ about
+ like
+ um
+ there
+
+
+are
+ still
+ lots
+ of
+ debt
+ to
+ borrow
+ and
+ uh
+
+
+in
+ that
+ case
+ uh
+ would
+ do
+ you
+ just
+ try
+ to
+
+
+uh
+ like
+ get
+ as
+ much
+ as
+ possible
+ and
+
+
+expand
+ as
+ soon
+ as
+ possible?
+
+
+>> Well,
+ yeah.
+ Um
+
+
+so
+ you
+ see
+ in
+ the
+ market
+ there's
+ two
+ two
+
+
+companies,
+ right?
+ It's
+ Nebas
+ and
+ Core
+
+
+Weef.
+ And
+ Coravee
+ has
+ historically
+ been
+
+
+emphasizing
+ long-term
+ contracts,
+ five
+
+
+years,
+ six
+ years,
+ right?
+ And
+ they've
+
+
+done
+ well.
+ Um,
+ and
+ you
+ see
+ Nebius,
+
+
+right?
+ It's
+ which
+ is
+ like
+ 50%
+ is
+ or
+ I
+
+
+don't
+ know
+ that
+ exact
+ ratio
+ is
+ long-term
+
+
+compute
+ and
+ then
+ 50%
+ is
+ uh
+ is
+ spots,
+
+
+right?
+ Kind
+ of
+ speculative
+ builds.
+ And
+
+
+you
+ see
+ that
+ um
+ when
+ the
+ the
+ supply
+ is
+
+
+very
+ constrained
+ and
+ coreweave
+ is
+ unable
+
+
+to
+ basically
+ uh
+ take
+ advantage
+ of
+ the
+
+
+price
+ increase
+ of
+ all
+ the
+ compute
+ and
+
+
+Nebius
+ is
+ able
+ to
+ kind
+ of
+ take
+ advantage
+
+
+of
+ that
+ situation
+ and
+ charge
+ a
+ much
+
+
+higher
+ premium
+ to
+ you
+ know
+ uh
+ I
+ think
+
+
+$25
+ to
+ $30
+ or
+ even
+ $50
+ per
+ watt
+ right
+
+
+where
+ core
+ we
+ is
+ roughly
+ 15
+ Um
+ and
+ so
+
+
+we're
+ taking
+ the
+ same
+ approach
+ as
+ well.
+
+
+So
+ we're
+ we're
+ building
+ speculative
+
+
+builds
+ uh
+ as
+ well
+ as
+ uh
+ uh
+ long-term
+
+
+long-term
+ builds
+ so
+ that
+ we
+ uh
+ remain
+
+
+healthy,
+ right?
+ And
+ so
+ on
+ the
+ long-term
+
+
+builds,
+ we're
+ able
+ to
+ borrow
+ at
+ a
+ much
+
+
+lower
+ cost
+ of
+ capital
+ from
+ US
+ uh
+ and
+
+
+Asia,
+ right?
+ Obviously,
+ it's
+ not
+
+
+leveraged
+ uh
+ all
+ the
+ way
+ up,
+ but
+ it
+ has
+
+
+to
+ be
+ uh
+ healthy.
+ Um
+ and
+ so
+ we
+ kind
+ of
+
+
+ring
+ fence
+ uh
+ all
+ the
+ borrowing
+ within
+
+
+each
+ uh
+ each
+ and
+ uh
+ every
+ uh
+ SPVS
+ uh
+ and
+
+
+so
+ so
+ the
+ company
+ can
+ grow
+ uh
+ on
+ a
+
+
+healthy
+ healthy
+ pace.
+
+
+>> Uh
+ I
+ noticed
+ you
+ also
+ start
+ to
+ uh
+ do
+ the
+
+
+sell
+ token,
+ right?
+ So
+ the
+ GPU
+ hour
+ is
+
+
+not
+ enough.
+ Is
+ it
+ just
+ more
+ for
+ the
+
+
+economics
+ or
+ there's
+ a
+ strategic?
+
+
+>> Yeah,
+ look.
+ Okay.
+ So
+ you
+ got
+ to
+ look
+ at
+
+
+cloud
+ business
+ in
+ general
+ like
+ what
+ is
+
+
+the
+ fun
+ fun
+ like
+ what
+ is
+ the
+ business
+ of
+
+
+a
+ cloud
+ cloud
+ business
+ it's
+ all
+ about
+
+
+utilization
+ rate
+ okay
+ it's
+ like
+ think
+ of
+
+
+a
+ cloud
+ is
+ just
+ like
+ a
+ massive
+ laptop
+ if
+
+
+I
+ lend
+ it
+ to
+ you
+ right
+ and
+ you
+ use
+ it
+ 12
+
+
+hours
+ of
+ time
+ right
+ you're
+ not
+ use
+ more
+
+
+and
+ you
+ have
+ 12
+ hours
+ left
+ so
+ I'm
+ going
+
+
+to
+ rinse
+ that
+ and
+ then
+ and
+ then
+ lend
+ to
+
+
+another
+ person
+ when
+ you're
+ asleep
+ right
+
+
+that's
+ for
+ utilization
+ so
+ if
+ I
+ lend
+ to
+
+
+only
+ one
+ %
+ that
+ utilization
+ is
+ maybe
+
+
+50%.
+ Right?
+ Uh
+ and
+ so
+ the
+ cloud
+ business
+
+
+is
+ all
+ about
+ increasing
+ that
+
+
+utilization.
+ So
+ take
+ an
+ empty
+ cup,
+ the
+
+
+long-term
+ compute,
+ five
+ years,
+ six
+ years
+
+
+contract,
+ that's
+ the
+ pebbles
+ and
+ you
+ put
+
+
+it
+ in
+ a
+ glass,
+ right?
+ You
+ fill
+ that
+ to
+
+
+50%.
+ Great.
+ You're
+ casual
+ positive,
+
+
+right?
+ But
+ you're
+ not
+ making
+ too
+ much
+
+
+margin.
+ And
+ then
+ you
+ just
+ start
+ throwing
+
+
+in
+ sand.
+ And
+ what
+ is
+ sand?
+ That's
+
+
+short-term
+ contract.
+ 6
+ months,
+ one
+ year,
+
+
+two
+ year,
+ three
+ years
+ to
+ fill
+ that
+ gap.
+
+
+And
+ what
+ do
+ you
+ do?
+ you
+ pour
+ water
+ in
+ to
+
+
+fill
+ that
+ utilization
+ up
+ because
+ you're
+
+
+going
+ to
+ have
+ hot
+ swap,
+ right?
+ Because
+
+
+we
+ had
+ to
+ fulfill
+ our
+ SLAs's.
+ So
+ you
+
+
+have
+ like
+ say
+ five
+ spare
+ nodes
+ or
+ 10
+
+
+spare
+ nodes.
+ What
+ are
+ we
+ going
+ to
+ do?
+ No
+
+
+one's
+ going
+ to
+ rent
+ that.
+ So
+ we
+ throw
+
+
+that
+ onto
+ a
+ marketplace
+ and
+ marketplace
+
+
+not
+ many
+ people
+ will
+ absorb
+ all
+ these
+
+
+one
+ node,
+ two
+ node
+ or
+ three
+ nodes.
+ We
+
+
+have
+ that
+ platform
+ by
+ the
+ way,
+ but
+ you
+
+
+also
+ turn
+ that
+ into
+ tokens
+ because
+
+
+that's
+ in
+ in
+ a
+ smaller
+ increments
+ and
+
+
+chunks.
+ So
+ I
+ do
+ think
+ that
+ it's
+
+
+inevitable
+ for
+ NeoClouds
+ and
+ also
+
+
+inference
+ platform
+ to
+ consolidate
+ into
+ a
+
+
+vertical
+ stack
+ because
+ that
+ is
+ the
+ only
+
+
+way
+ uh
+ for
+ cloud
+ to
+ increase
+ the
+ the
+
+
+margin
+ is
+ by
+ cutting
+ the
+ GPU
+ time
+ into
+
+
+smaller
+ and
+ smaller
+ chunks
+ and
+ that's
+
+
+what
+ token
+ business
+ is
+ about.
+ Uh
+ and
+ so
+
+
+token
+ business
+ for
+ us
+ is
+ very
+ essential,
+
+
+right?
+ Because
+ all
+ our
+ compute
+ is
+
+
+already
+ sold
+ out
+ all
+ the
+ way
+ to
+ 27
+ and
+
+
+end.
+ But
+ we
+ have
+ these
+ spare
+ hot
+ swaps
+
+
+and
+ and
+ uh
+ compute
+ that
+ we
+ buy
+
+
+externally
+ and
+ we
+ turn
+ that
+ into
+ token
+
+
+and
+ to
+ us
+ that
+ just
+ pure
+ margin.
+
+
+>> Okay,
+ great.
+ Yeah.
+ Um
+ so
+ we
+ don't
+ have
+
+
+much
+ time
+ left
+ but
+ I
+ want
+ uh
+ let
+ each
+
+
+panelist
+ make
+ some
+ predictions
+ for
+ next
+
+
+year.
+ You
+ have
+ to
+ give
+ a
+ prediction
+ and
+
+
+give
+ a
+ time.
+
+
+Who
+ wants
+ to
+ start
+ first?
+
+
+>> I
+ can
+ start
+ because
+ I'm
+ market
+ guy.
+
+
+>> Okay.
+
+
+>> Well,
+ uh,
+ so
+ here
+ is
+ the
+ US
+ equity
+
+
+market
+ like
+ a
+ situation.
+ Uh,
+ we
+ are
+ kind
+
+
+of
+ like
+ at
+ the
+ bottom
+ of
+ the
+ valuation.
+
+
+Uh,
+ for
+ a
+ reason
+ because
+ of
+ the
+
+
+financial
+ condition
+ has
+ been
+ tightening,
+
+
+you
+ know,
+ like
+ it
+ has
+ nothing
+ to
+ do
+ with
+
+
+cloud
+ AI.
+ It's
+ just,
+ you
+ know,
+ the
+ the
+
+
+US
+ treasury
+ market
+ is,
+ you
+ know,
+ uh,
+
+
+having
+ some
+ like
+ a
+ dramatic
+ moves.
+ uh
+
+
+which
+ is
+ a
+ good
+ thing
+ because
+ you
+ need
+
+
+that
+ to
+ deal
+ with
+ all
+ the
+ inflation
+
+
+stuff
+ but
+ hopefully
+ going
+ forward
+ and
+ we
+
+
+can
+ really
+ deal
+ with
+ the
+ inflation
+
+
+things
+ and
+ that
+ gives
+ room.
+ So
+ all
+ I'm
+
+
+saying
+ like
+ you
+ know
+ uh
+ financial
+
+
+conditions
+ has
+ kind
+ of
+ like
+ peaked
+ here.
+
+
+If
+ that
+ works
+ out
+ if
+ that
+ works
+ out
+ it's
+
+
+not
+ enough
+ to
+ really
+ damage
+ the
+ growth
+
+
+we
+ have
+ right
+ now.
+ Just
+ imagine
+ QQ
+ year
+
+
+over
+ year
+ right
+ now
+ it's
+ a
+ 50%
+ growth
+
+
+and
+ uh
+ even
+ this
+ is
+ slowing
+ down
+ a
+
+
+little
+ bit.
+ let's
+ do
+ 40%
+ something
+ you
+
+
+know
+ from
+ the
+ growth
+ perspective
+ growth
+
+
+cycles
+ so
+ we
+ are
+ really
+ in
+ the
+ middle
+ of
+
+
+something
+ and
+ also
+ I
+ encourage
+ everybody
+
+
+to
+ be
+ open-minded
+ they
+ think
+ can
+ last
+
+
+longer
+ than
+ you
+ imagine
+ so
+ I'm
+ actually
+
+
+very
+ very
+ positive
+ but
+ I
+ do
+ not
+ bet
+ on
+
+
+the
+ you
+ know
+ valuation
+ stuff
+ it's
+ really
+
+
+you
+ find
+ places
+ which
+ has
+ a
+ solid
+ res
+
+
+resilient
+ growth
+ unfortunately
+ it's
+ AI
+
+
+so
+ far
+ because
+ all
+ other
+ cyclical
+ stuff
+
+
+house
+ you
+ know
+ home
+ builders
+ retailers
+
+
+even
+ like
+ you
+ know
+ traditional
+
+
+industrials
+ you
+ know
+ they
+ have
+ troubles
+
+
+because
+ of
+ higher
+ you
+ know
+ their
+
+
+interest
+ rate
+ very
+ sensitive
+ so
+ given
+
+
+this
+ you
+ know
+ background
+ uh
+ uh
+ towards
+
+
+the
+ end
+ of
+ this
+ year
+ even
+ the
+ second
+
+
+half
+ like
+ last
+ year
+ first
+ half
+ last
+ year
+
+
+uh
+ that's
+ where
+ I'm
+ going
+ to
+ place
+ my
+
+
+bet
+ yeah
+
+
+>> uh
+ to
+ make
+ it
+ more
+ concrete
+
+
+>> well
+ very
+ short
+ one
+ sentence
+
+
+>> well
+ the
+ long
+ AI
+ infrastructure
+ by
+ the
+
+
+way
+ yeah
+
+
+>> oh
+ AI
+ I
+ don't
+ want
+ to
+ pick
+ winners
+ or
+
+
+losers
+ that
+ given
+ this
+ is
+ already
+ but
+
+
+you
+ just
+ have
+ the
+ broader
+ exposure
+ I
+
+
+think
+ that's
+ the
+ right
+ play
+
+
+>> okay
+ very
+ minimum
+ just
+ long
+ queue
+
+
+>> I
+ might
+ come
+ back
+ to
+ you
+
+
+>> okay
+ Ethan
+
+
+>> great
+ yeah
+ I
+ think
+ uh
+ yeah
+ during
+
+
+>> it
+ doesn't
+ have
+ to
+ be
+ like
+ a
+ stock
+ like
+
+
+anything
+ yeah
+ a
+ prediction
+
+
+>> yeah
+ during
+ breakfast
+ I
+ talked
+ with
+
+
+Bruce
+ and
+ I
+ think
+ we're
+ pretty
+ much
+ in
+
+
+line
+ I
+ think
+ I
+ do
+ think
+ some
+ risks
+ as
+ I
+
+
+mentioned
+ like
+ delays
+ etc
+ so
+ I
+ do
+ think
+
+
+there
+ there
+ is
+ going
+ to
+ be
+ kind
+ of a
+
+
+kind
+ of
+ a
+ pains
+ in
+ the
+ process
+ for
+ sure.
+
+
+Uh
+ meaning
+ that
+ there
+ will
+ be
+ some
+ up
+
+
+and
+ downs.
+ Uh
+ but
+ I
+ in
+ in
+ mid
+ to
+ long
+
+
+term
+ I'm
+ very
+ uh
+ uh
+ positive
+ and
+
+
+optimistic
+ about
+ AI
+ infra.
+ And
+ looking
+
+
+at
+ the
+ demand
+ for
+ compute
+ and
+ the
+
+
+>> supply
+ specific
+
+
+>> yes
+ looking
+ at
+ the
+ demand
+ and
+ the
+ supply
+
+
+mismatch
+ or
+ the
+ gap
+ I
+ do
+ think
+ the
+ power
+
+
+sector
+ for
+ uh
+ AI
+ infra
+ uh
+ by
+ the
+ end
+ of
+
+
+next
+ year
+ even
+ there
+ will
+ be
+ some
+ up
+ and
+
+
+down
+ I
+ think
+ it's
+ going
+ to
+ do
+ really
+
+
+well
+
+
+>> and
+ even
+ more
+ specific
+ as
+ you
+ mentioned
+
+
+that
+ might
+ be
+ behind
+ the
+ meter
+ related
+
+
+power
+
+
+>> I
+ would
+ say
+ yeah
+ behind
+ the
+ meter
+
+
+generation
+ technologies
+ and
+ actually
+
+
+similar
+ to
+ what
+ Bruce
+ said,
+ "I
+ think
+ a
+
+
+lot
+ of
+ electrical
+ equipments
+ are
+ going
+
+
+to
+ benefit
+ from
+ it."
+
+
+>> Okay,
+ Alex.
+
+
+>> Yeah.
+ Uh
+ so
+ one
+ sentence,
+ right?
+
+
+>> I
+ think
+ we
+ will
+ have
+ a
+ permanent
+ uh
+
+
+compute
+ shortage
+ at
+ least.
+ So
+ I
+ can
+ see
+
+
+that
+ until
+ 2030.
+ Now
+ explain
+ why.
+ Okay.
+
+
+Right
+ now
+ the
+ market
+ if
+ you
+ look
+ at
+
+
+there's
+ like
+ pre-training
+ and
+ post-
+
+
+trainining,
+ right?
+ But
+ what
+ is
+ actually
+
+
+using
+ compute?
+ That's
+ inference,
+ right?
+
+
+Um
+ it's
+ mostly
+ on
+ the
+ coding
+ coding
+ uh
+
+
+coding
+ coding
+ uh
+ stuff
+ from
+ uh
+ codecs
+ to
+
+
+to
+ clock
+ code
+ right
+ I
+ think
+ that's
+
+
+priced
+ in
+ you
+ also
+ have
+ multimodal
+ which
+
+
+is
+ the
+ image
+ gen
+ and
+ video
+ gen
+ you
+
+
+probably
+ see
+ that
+ on
+ reals
+ on
+ Tik
+ Tok
+
+
+whatnot
+ so
+ that's
+ those
+ people
+ already
+
+
+see
+ but
+ you
+ got
+ to
+ understand
+ uh
+ talking
+
+
+to
+ researcher
+ RSI
+ is
+ coming
+ very
+ very
+
+
+soon
+ and
+ that
+ means
+ that
+ compute
+ or
+ or
+
+
+AI
+ is
+ going
+ to
+ self-train
+ and
+ improve
+
+
+move
+ on
+ itself
+ without
+ human
+ in
+ the
+
+
+loop.
+ So
+ compute
+ is
+ demand
+ is
+ going
+ to
+
+
+skyrock
+ skyrocket
+ and
+ talking
+ to
+ a
+ lot
+
+
+of
+ prominent
+ researchers
+ their
+
+
+prediction
+ is
+ about
+ from
+ 6
+ months
+ as
+
+
+short
+ as
+ 6
+ months
+ uh
+ to
+ two
+ years
+ to
+
+
+have
+ that
+ completed.
+ Second
+ thing
+ is
+ the
+
+
+robotics
+ right
+ it's
+ the
+ first
+ time
+ we
+
+
+see
+ that
+ Astra
+ is
+ able
+ to
+ utilize
+ robots
+
+
+in
+ a
+ phenomenal
+ way.
+ Traditionally
+ we
+
+
+actually
+ didn't
+ even
+ know
+ whether
+ uh
+ ro
+
+
+generalization
+ of
+ robots
+ works.
+ You
+ have
+
+
+to
+ train
+ on
+ a
+ specific
+ task
+ like
+ picking
+
+
+up
+ my
+ mic
+ for
+ example.
+ But
+ Astra
+ has
+
+
+shown
+ is
+ it
+ stretches
+ first.
+ It
+ wiggles
+
+
+before
+ moving
+ things.
+ So
+ now
+ you
+ see
+ the
+
+
+light
+ at
+ the
+ end
+ of
+ the
+ tunnel
+ which
+ is
+
+
+okay
+ brute
+ force
+ right
+ continue
+ to
+ layer
+
+
+on
+ compute
+ uh
+ egocentric
+ data
+ and
+ we
+ can
+
+
+get
+ to
+ true
+ AGI
+ with
+ robotics
+ right
+ and
+
+
+what
+ is
+ the
+ market
+ now
+ market
+ is
+ only
+ on
+
+
+coding
+ basically
+
+
+>> right
+ and
+ and
+ not
+ to
+ mention
+ like
+ muse
+
+
+and
+ instinct
+ which
+ is
+ consumer
+ uh
+ demand
+
+
+that
+ hasn't
+ picked
+ up
+ right
+ so
+ we
+ only
+
+
+priced
+ in
+ on
+ the
+ business
+ side
+ we
+ didn't
+
+
+talk
+ about
+ robotics
+ we
+ didn't
+ talk
+ a
+
+
+consumer,
+ right?
+ Uh
+ and
+ then
+ also
+ RSI.
+
+
+Incredible.
+ We
+ are
+ just
+ the
+ beginning.
+
+
+>> Okay.
+ All
+ right,
+ everyone.
+ So,
+ memorize
+
+
+all
+ those
+ predictions
+ and
+ come
+ back
+ next
+
+
+year
+ and
+ see
+ who
+ was
+ right.
+
+
+>> Thank
+ you.
+ Thank
+ you.
