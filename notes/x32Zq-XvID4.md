@@ -21,7 +21,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=x32Zq-XvID4
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了数学界最古老且未解的难题之一——哥德巴赫猜想。文章追溯了该猜想的起源，介绍了其“强”与“弱”两种形式，并详细阐述了陈景润、哈代、李特尔伍德、维诺格拉多夫和赫尔夫戈特等数学家在解决这一问题上的努力和突破。特别强调了陈景润在文化大革命期间的坚持与贡献，以及弱哥德巴赫猜想最终被证明的历程。文章还探讨了数学研究的内在动力及其对未知领域的探索意义。
 tags:

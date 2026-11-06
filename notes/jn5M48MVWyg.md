@@ -13,7 +13,7 @@ media_books:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=jn5M48MVWyg
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了关于家庭灰尘成分的常见误解，特别是“灰尘主要由死皮组成”的说法。通过科学研究和数据分析，揭示了灰尘的真实构成，包括死皮细胞、纤维、花粉等，并探讨了人体皮肤脱落的机制和数量。同时，文章还分享了如何利用Google等工具进行有效研究，以辨别信息真伪的方法。
 tags:

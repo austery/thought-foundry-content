@@ -13,7 +13,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=094y1Z2wpJg
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 考拉兹猜想是一个看似简单却困扰了顶尖数学家数十年的难题。它提出任何正整数通过特定规则（奇数乘三加一，偶数除以二）最终都会回到“4-2-1”循环。尽管经过了海量数字的暴力测试和特里·陶等数学家的部分证明，该猜想仍未被完全证明或证伪。文章探讨了其难度、统计学分析、可视化方法以及它可能存在的反例或不可判定性，揭示了数学世界的奇特与深奥。
 tags:

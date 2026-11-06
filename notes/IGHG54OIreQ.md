@@ -1,10 +1,10 @@
 ---
-author: Cofit x 宋晏仁醫師 - 初日醫學
+author: 初日醫學 - 宋晏仁醫師 x Cofit
 date: '2026-07-14'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=IGHG54OIreQ
-speaker: Cofit x 宋晏仁醫師 - 初日醫學
+speaker: 初日醫學 - 宋晏仁醫師 x Cofit
 tags:
   - insulin-resistance
   - childhood-obesity

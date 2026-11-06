@@ -21,7 +21,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=vjDYfvPW4mA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了关于飞机飞行的多个常见误解。它解释了为何飞机舱门在高空飞行时无需上锁，揭示了飞机在高空飞行的主要原因并非避开恶劣天气，而是为了燃油效率。视频还探讨了客舱增压的工程学原理，以及“飞行模式”规定的真实原因（与手机干扰飞机系统无关）。此外，它还分析了高空飞行如何影响我们的味觉，并解释了为何番茄汁在飞机上特别受欢迎。最后，视频强调了航空安全的重要性以及媒体在报道航空事件时可能存在的偏颇。
 tags:

@@ -1,10 +1,10 @@
 ---
-author: 'House of El: AI'
+author: 'House of El - AI'
 date: '2026-08-14'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=RmX5FEp2cEY
-speaker: 'House of El: AI'
+speaker: 'House of El - AI'
 tags:
   - meta-ai
   - capital-expenditure

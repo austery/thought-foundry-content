@@ -19,7 +19,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=H6q6pYZ9Fho
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 麻省理工学院（MIT）的科学家们正在研发各种微型机器人，其尺寸小至昆虫，能够飞行、游泳或跳跃。这些机器人面临着表面张力、能量供应和微型化等独特挑战。文章探讨了压电晶体和软聚合物等不同的驱动机制，以及微型内燃机在提供动力方面的潜力。同时，也讨论了这些机器人未来在涡轮机检查、灾难搜救等领域的应用前景，并审视了其可能引发的伦理担忧，强调了科学研究背后的好奇心驱动。
 tags:

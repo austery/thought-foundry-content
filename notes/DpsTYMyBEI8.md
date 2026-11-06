@@ -1,10 +1,10 @@
 ---
-author: 孫佬
+author: 政經孫老師
 date: '2026-11-01'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=DpsTYMyBEI8
-speaker: 孫佬
+speaker: 政經孫老師
 tags:
   - currency-appreciation
   - economic-depression

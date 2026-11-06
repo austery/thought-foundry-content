@@ -12,7 +12,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=g0amdIcZt5I
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了位于佛罗里达州国家高磁场实验室的世界最强连续磁场——45特斯拉混合磁铁。文章详细介绍了其独特的超导与电阻磁铁组合结构，以及它如何影响各种材料，从铁磁性到抗磁性物质，甚至能使生物悬浮。同时，也探讨了其在材料科学发现中的关键作用，以及运行如此强大磁铁所需的巨大能量和成本。
 tags:

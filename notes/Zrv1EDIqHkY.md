@@ -17,7 +17,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Zrv1EDIqHkY
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频探讨了数学中最古老的未解之谜——奇完全数是否存在，这一问题可追溯至两千年前。内容涵盖了从欧几里得和尼科马库斯等古希腊数学家，到文艺复兴时期及现代计算努力的漫长历史。视频重点介绍了欧拉在偶完全数形式上的突破、梅森素数的发现以及大互联网梅森素数搜索（GIMPS）项目。同时，也讨论了启发式论证对奇完全数存在性的预测，并强调了纯数学研究的内在价值，即便其没有即时实际应用。
 tags:

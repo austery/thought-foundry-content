@@ -1,10 +1,10 @@
 ---
-author: 'House of El: AI'
+author: 'House of El - AI'
 date: '2026-08-07'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=pleG0Nz7xcs
-speaker: 'House of El: AI'
+speaker: 'House of El - AI'
 tags:
   - sovereign-ai
   - insider-selling

@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-09-24'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=0gmEj9OlpbY
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - computer-use
   - gui-automation

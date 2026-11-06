@@ -12,7 +12,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=q-_7y0WUnW4
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频探讨了美国物理队资格考试中的一道难题：直升机水平匀速飞行时，下方悬挂的缆绳会呈现何种形状？通过真实的直升机实验，视频验证了在不同条件下（无负载缆绳、末端加重物、末端加伞）缆绳所呈现的各种形态，并深入解析了空气阻力、重力与张力如何共同决定缆绳的最终形状，最终解决了物理学界的一个长期争议。
 tags:

@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-06-17'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=AELnuvHYOZE
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - career-choice
   - life-philosophy

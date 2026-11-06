@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=-UrdExQW0cs
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了量子计算机的强大之处及其对当前加密技术的潜在威胁，特别是“先存储后解密”（SNDL）策略。文章详细解释了量子计算如何通过量子傅里里叶变换加速大数因子分解，从而破解RSA等公钥加密算法。同时，介绍了后量子密码学的最新进展，特别是基于格（Lattice-based）的加密算法，以及全球为应对量子威胁所做的努力，强调了持续创新在保护数字安全中的关键作用。
 tags:

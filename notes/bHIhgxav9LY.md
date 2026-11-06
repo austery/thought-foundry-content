@@ -13,7 +13,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=bHIhgxav9LY
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频揭示了关于电力传输的普遍误解。它解释了电能并非通过导线中的电子流动，而是通过导线周围空间中的电磁场以接近光速传输。视频深入探讨了麦克斯韦方程和坡印亭矢量，并通过历史案例（如跨大西洋电报电缆）来证明这一科学事实。最终，它解答了一个关于超长电路中灯泡点亮速度的经典问题。
 tags:

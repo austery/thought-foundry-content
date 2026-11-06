@@ -11,7 +11,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=XRr1kaXKBsU
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了爱因斯坦的广义相对论，揭示了引力并非一种力，而是一种由弯曲时空产生的“错觉”。通过等效原理，视频解释了自由落体与深空中的惯性运动是等价的。文章还探讨了弯曲时空如何解释物体运动，并介绍了爱丁顿的日食实验等广义相对论的验证，以及一个尚未实现的辐射电荷实验，挑战了我们对引力本质的传统认知。
 tags:

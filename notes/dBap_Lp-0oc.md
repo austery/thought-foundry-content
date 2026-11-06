@@ -18,7 +18,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=dBap_Lp-0oc
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了著名的艾姆斯窗错觉，解释了我们大脑如何基于经验对形状和深度进行推断，从而导致对连续旋转的物体产生往复摆动的错觉。文章还介绍了“木工环境假说”及其在不同文化背景下的验证，并延伸讨论了透视变形艺术（Anamorphosis）和艾姆斯房间。最终，文章将这些错觉提升到哲学层面，探讨了人类感知外部现实的局限性，并呼吁我们对世界的认知保持谦逊。
 tags:

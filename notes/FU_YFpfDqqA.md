@@ -23,7 +23,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=FU_YFpfDqqA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文追溯了电子技术从爱迪生灯泡到早期数字计算机的发展历程。从热电子发射、弗莱明二极管到李·德·福雷斯特三极管，这些技术不仅推动了无线电和长途电话的进步，更通过布尔代数与继电器、真空管的结合，奠定了现代计算的基础，揭示了从机械开关到电子开关的演变，以及早期计算机的巨大挑战和突破。
 tags:

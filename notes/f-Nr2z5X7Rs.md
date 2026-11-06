@@ -12,7 +12,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=f-Nr2z5X7Rs
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了蝎子在紫外光下发出荧光这一奇特现象。通过加州州立大学贝克斯菲尔德分校生物学教授卡尔·克洛克的研究，文章驳斥了荧光用于吸引昆虫的假设，并揭示了蝎子可能利用全身作为“光子探测器”来感知紫外光，从而判断夜间外出觅食的风险。这一机制是蝎子在恶劣环境中生存的关键适应策略，帮助它们在月光下避免捕食者。
 tags:

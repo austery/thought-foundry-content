@@ -13,7 +13,7 @@ media_books:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=tRaq4aYPzCc
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了p进数这一奇特的数系，它拥有无限向左延伸的数字，并颠覆了我们对“大小”的传统认知。文章通过具体例子解释了p进数的加减乘除、分数和负数表示，以及它们在解决费马大定理等数论难题中的关键作用，揭示了数学中一个不为人知的强大工具。
 tags:

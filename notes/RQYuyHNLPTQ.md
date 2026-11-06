@@ -13,7 +13,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=RQYuyHNLPTQ
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了缝纫机背后巧妙的机械原理和丰富的历史。它揭示了从手工缝纫的局限性到现代缝纫机诞生的三大关键突破，包括双尖针、链式缝合和锁式缝合，以及用于布料移动的送布牙。文章还介绍了艾萨克·胜家（Isaac
   Singer）的商业智慧及其对缝纫机普及的贡献，并反思了这项革命性发明对社会和服装产业的深远影响，包括效率提升和快时尚的兴起。

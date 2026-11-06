@@ -14,7 +14,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=rhgwIhB58PA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了教育领域中广为流传的“学习风格”理论，特别是VARK模型。通过引用多项研究和实验，揭示了该理论缺乏确凿证据支持的事实。文章还解释了人们为何会误信学习风格，并提出了更有效的多模态学习方法，强调批判性思维在信息获取中的重要性。
 tags:

@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=czjisEGe5Cw
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 这段视频探讨了科学发现过度炒作的普遍问题，其背后是科学家、大学和媒体之间不协调的激励机制。视频指出，诸如量子计算机中的“全息虫洞”、BICEP2实验和LK99超导体等耸人听闻的标题和过早的声明如何误导公众，并侵蚀对科学的信任。视频认为，尽管科学最终会自我修正，但夸大其词的短期损害是巨大的，因此呼吁对科学进展进行更细致、更诚实的描述。
 tags:

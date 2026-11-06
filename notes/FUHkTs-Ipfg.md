@@ -14,7 +14,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=FUHkTs-Ipfg
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了1982年SAT考试中一道无人答对的数学题，揭示了看似简单的圆周滚动问题背后隐藏的“硬币旋转悖论”。文章深入分析了该悖论的数学原理及其在天文学中对恒星年与太阳日的解释，同时回顾了这道错误题目对考生和考试机构的影响，强调了实践探索在理解科学现象中的重要性。
 tags:

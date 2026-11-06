@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-07-10'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=sTB_09itOZE
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - gpt-5-6
   - full-duplex

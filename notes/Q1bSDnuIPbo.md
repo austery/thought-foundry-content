@@ -12,7 +12,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Q1bSDnuIPbo
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了超大质量黑洞人马座A*的首张图像是如何通过事件视界望远镜协作组织拍摄的。文章详细解释了观测黑洞所面临的挑战，包括星系中心的尘埃、黑洞的尺寸与活跃度，并重点介绍了甚长基线干涉测量（VLBI）技术如何利用全球望远镜网络实现地球大小的角分辨率。此外，视频还阐释了黑洞图像中“阴影”的物理意义，以及广义相对论如何影响光线路径和吸积盘的观测效果。
 tags:

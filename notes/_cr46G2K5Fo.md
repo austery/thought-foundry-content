@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=_cr46G2K5Fo
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了数学中极具争议的**选择公理**（Axiom of Choice）。从伽利略对无限的早期思考，到康托尔对不同类型无限的开创性工作，再到策梅洛正式提出选择公理，文章追溯了这一概念的演变。尽管选择公理看似直观，却能导致如**巴拿赫-塔斯基悖论**（Banach-Tarski
   Paradox）等反直觉结果。文章还介绍了哥德尔和科恩如何证明选择公理与集合论其他公理的独立性，最终强调了其在现代数学中的普遍接受和实用价值。

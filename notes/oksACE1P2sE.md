@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-06-29'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=oksACE1P2sE
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - agentic-workflow
   - command-line-interface

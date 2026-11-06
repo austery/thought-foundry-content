@@ -1,10 +1,10 @@
 ---
-author: Banned Film
+author: 禁書筆記
 date: '2025-12-28'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=FVn69qkHM6g
-speaker: Banned Film
+speaker: 禁書筆記
 tags:
   - low-human-rights-advantage
   - chinas-economic-model

@@ -1,10 +1,10 @@
 ---
-author: 孫佬
+author: 政經孫老師
 date: '2026-10-18'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=tGF-dzmc9yA
-speaker: 孫佬
+speaker: 政經孫老師
 tags:
   - macro-economy
   - debt-crisis

@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-03-12'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=M9x5VM3_H4Q
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - ai-agent
   - emotional-value

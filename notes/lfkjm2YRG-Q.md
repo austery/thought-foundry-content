@@ -13,7 +13,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=lfkjm2YRG-Q
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了烟花的科学原理，从两千多年前中国火药的起源，到现代烟花如何通过精密的化学配方和工程设计，创造出水下燃烧、多彩形状和复杂发射效果。文章详细介绍了火药的成分、燃烧机制、引信类型、颜色生成背后的量子力学原理，以及烟花发射和安全措施，揭示了这一古老艺术与现代科学的完美结合。
 tags:

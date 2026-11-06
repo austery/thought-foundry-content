@@ -23,7 +23,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=GVsUOuSjvcg
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了模拟计算机从辉煌到衰落，再到在人工智能时代可能复兴的历程。随着数字计算机面临冯·诺依曼瓶颈和摩尔定律的限制，以及神经网络对计算精度要求不高的特性，模拟计算的优势（如高速、低功耗）重新受到关注。文章详细介绍了感知机、ALVINN和AlexNet等人工神经网络的发展，以及Mythic
   AI等公司如何利用模拟技术解决AI计算挑战，展望了模拟与数字混合计算的未来。

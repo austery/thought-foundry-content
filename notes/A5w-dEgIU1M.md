@@ -21,7 +21,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=A5w-dEgIU1M
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了期权定价的万亿美元方程式——布莱克-斯科尔斯-默顿模型，如何将物理学中的随机游走和布朗运动概念引入金融市场。文章追溯了期权从古希腊到现代的演变，介绍了爱德华·索普通过算牌策略击败赌场并将其应用于股市的经历，以及詹姆斯·西蒙斯如何利用数学模型和大数据在金融市场取得惊人成功。该方程式不仅催生了庞大的衍生品市场，也深刻改变了风险管理和投资策略，揭示了市场效率与可预测性之间的复杂关系。
 tags:

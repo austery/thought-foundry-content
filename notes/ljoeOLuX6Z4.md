@@ -9,7 +9,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ljoeOLuX6Z4
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了科学家如何利用引力透镜效应，成功预测并观测到一颗名为Refsdal的超新星。这次独特的观测不仅证实了我们对宇宙光线与引力相互作用的理解，更提供了一种独立测量哈勃常数的方法。文章深入分析了哈勃常数测量中存在的两大主要方法（距离阶梯法和宇宙微波背景辐射法）之间的显著差异，并指出Refsdal超新星的测量结果更倾向于后者，这可能预示着宇宙学领域的一场潜在危机。
 tags:

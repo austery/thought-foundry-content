@@ -1,10 +1,10 @@
 ---
-author: Cofit x 宋晏仁醫師 - 初日醫學
+author: 初日醫學 - 宋晏仁醫師 x Cofit
 date: '2026-05-20'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=awuififw5xU
-speaker: Cofit x 宋晏仁醫師 - 初日醫學
+speaker: 初日醫學 - 宋晏仁醫師 x Cofit
 tags:
   - menopause
   - women-health

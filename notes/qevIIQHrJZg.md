@@ -11,7 +11,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=qevIIQHrJZg
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文介绍了一种受植物生长启发的新型柔性机器人——藤蔓机器人。它通过压缩空气从尖端生长，能够克服粘性表面和尖刺障碍，甚至在被刺穿后仍能继续工作。文章详细探讨了其在考古勘探、医疗插管（使过程更安全快捷）、以及行星表面探测（如火星任务）等多个领域的潜在应用，展示了其独特的机械智能和巨大的实用价值。
 tags:

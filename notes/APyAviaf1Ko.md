@@ -1,10 +1,10 @@
 ---
-author: 'House of El: AI'
+author: 'House of El - AI'
 date: '2026-07-22'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=APyAviaf1Ko
-speaker: 'House of El: AI'
+speaker: 'House of El - AI'
 tags:
   - credit-rating
   - capital-expenditure

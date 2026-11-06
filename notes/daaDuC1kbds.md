@@ -14,7 +14,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=daaDuC1kbds
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了一款重量不足网球、跳跃高度可达31米的世界最高跳跃机器人。文章详细介绍了其独特的工程设计，包括能量储存、混合弹簧机制和“功倍增”原理，并将其与生物跳跃机制进行对比。此外，还探讨了这类机器人在月球等低重力环境下进行空间探索的巨大潜力。
 tags:

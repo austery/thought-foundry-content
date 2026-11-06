@@ -11,7 +11,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=QRt7LjqJ45k
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了减缓和逆转人类衰老的最新科学研究。主持人Veritasium与David Sinclair教授讨论了延长健康寿命而非仅仅延长生命长度的重要性，并详细阐述了表观遗传信息理论。视频揭示了长寿基因如何通过饮食限制、运动和温度变化等方式被激活，以及利用山中因子在小鼠眼中成功逆转衰老的突破性实验。同时，也探讨了月亮水母在再生方面的启示，为人类抗衰老研究提供了路线图。
 tags:

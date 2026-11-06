@@ -1,10 +1,10 @@
 ---
-author: Cofit x 宋晏仁醫師 - 初日醫學
+author: 初日醫學 - 宋晏仁醫師 x Cofit
 date: '2025-03-25'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=7ZLrf8AxsYw
-speaker: Cofit x 宋晏仁醫師 - 初日醫學
+speaker: 初日醫學 - 宋晏仁醫師 x Cofit
 tags:
   - hormonal-imbalance
   - insulin-resistance

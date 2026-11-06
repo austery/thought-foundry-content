@@ -13,7 +13,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=TILjzuBGkRc
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了美国政府实验室如何利用先进的气流可视化技术，结合犬类卓越的嗅觉原理，来解决犯罪和提升公共安全。文章详细介绍了纹影成像、影图法和激光光片等技术，以及它们在检测枪击残留物、追踪人类热羽流中的皮肤细胞、识别违禁品制造痕迹和评估口罩有效性等方面的应用。同时，还探讨了利用无人机进行痕迹采样的新兴方法，并强调了洛卡德交换原理在法医科学中的核心作用。
 tags:

@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=yjztvddhZmI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了自动驾驶汽车的现状、安全优势及未来潜力。通过亲身体验、历史类比（如自动电梯和飞机自动着陆）以及详细的数据分析，揭示了人类驾驶的局限性及其导致的交通事故，并强调了Waymo等公司在L4级自动驾驶技术上的进展。文章指出，自动驾驶不仅能显著提升道路安全、减少死亡人数，还能带来交通效率提升、城市空间优化等多重社会效益，呼吁公众更早地接受这项变革性技术。
 tags:

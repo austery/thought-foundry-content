@@ -17,7 +17,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=cUzklzVXJwo
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 数学最初是为了量化现实世界而生，但当遇到看似不可能解决的三次方程时，数学家们被迫脱离几何直观，发明了虚数。本文追溯了虚数从文艺复兴时期三次方程的秘密解法，到其在现代物理学（如薛定谔方程）中扮演核心角色的历史。通过放弃与现实的直接联系，虚数揭示了宇宙更深层的真实性质，展现了抽象数学的强大力量。
 tags:

@@ -17,7 +17,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=UAeJHAFjwPM
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了夜视镜的工作原理，详细介绍了三种主要类型：主动照明、图像增强和热成像。通过在极暗环境下的实地测试，揭示了不同类型夜视镜的性能差异、优缺点及其在军事和民用领域的应用。文章还回顾了夜视技术从二战时期的Gen
   0到现代Gen 3的发展历程，并展望了未来的研究方向，强调了亲身体验对理解创新的重要性。

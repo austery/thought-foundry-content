@@ -1,10 +1,10 @@
 ---
-author: Cofit x 宋晏仁醫師 - 初日醫學
+author: 初日醫學 - 宋晏仁醫師 x Cofit
 date: '2025-01-21'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=PW7MK-4jouw
-speaker: Cofit x 宋晏仁醫師 - 初日醫學
+speaker: 初日醫學 - 宋晏仁醫師 x Cofit
 tags:
   - health-routine
   - weight-management

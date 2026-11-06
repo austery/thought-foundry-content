@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-05-28'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=7y0YnIM8qIM
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - ai-agent
   - business-model

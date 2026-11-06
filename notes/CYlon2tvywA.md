@@ -27,7 +27,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=CYlon2tvywA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了“六度分隔”理论的起源、其背后的科学原理以及社会网络结构对疾病传播、信息流动乃至人类行为与信念的深远影响。从瓦茨和斯特罗加茨的“小世界模型”到巴拉巴西的“无尺度网络”和“中心节点”理论，文章揭示了少数关键连接如何塑造整个复杂系统的行为，并探讨了在数字时代，个人选择如何影响我们在网络中的体验和集体合作的潜力。
 tags:

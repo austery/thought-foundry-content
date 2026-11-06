@@ -17,7 +17,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=AF8d72mA41M
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了蓝色LED的艰辛发明历程，详细介绍了日本科学家中村修二如何在一个小型公司面临巨大压力和行业质疑的情况下，通过三次关键技术突破，成功研制出高效的蓝色发光二极管。文章解释了LED的工作原理、蓝色LED难以制造的原因，以及中村修二如何克服晶体生长、P型掺杂和效率提升等挑战。最终，蓝色LED的问世引发了全球照明产业的革命，并带来了巨大的能源节约和环境效益。
 tags:

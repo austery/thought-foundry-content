@@ -16,7 +16,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=dCXkaQa53QQ
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频记录了一项引人入胜的科学挑战：从普通空气中提取并液化氮气。主持人Derek Muller与Allen Pan合作，利用低温冷却器和氮气分离膜，逐步实现了液态空气和高纯度液氮的制备。文章深入探讨了液氮的制作原理、氧气分离技术，并解释了星巴克氮气冷萃咖啡独特口感背后的科学奥秘，展示了氮气在日常生活中的创新应用。
 tags:

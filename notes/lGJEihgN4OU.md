@@ -14,7 +14,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=lGJEihgN4OU
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 位于日本筑波的全球最大降雨模拟器，是日本应对台风、洪水和山体滑坡等自然灾害的关键设施。该模拟器能重现史上最强降雨，用于研究土壤侵蚀、洪水预防和山体滑坡机制，并测试无人机和自动驾驶汽车在恶劣天气下的性能。随着气候变化导致极端降雨事件日益频繁，这项研究对于保护数千万人生命财产安全变得愈发重要。
 tags:

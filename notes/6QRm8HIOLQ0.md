@@ -1,6 +1,6 @@
 ---
 area: society-thinking
-author: Lei
+author: 禁書筆記
 category: politics-society
 channel: null
 companies_orgs: []

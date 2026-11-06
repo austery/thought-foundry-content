@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2025-12-02'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=06w6QGGPnhs
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - ai-startup-challenges
   - model-competition

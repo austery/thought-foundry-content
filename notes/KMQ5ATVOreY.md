@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-09-18'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=KMQ5ATVOreY
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - recursive-self-improvement
   - autonomous-agent

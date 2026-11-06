@@ -15,7 +15,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=5zI9sG3pjVU
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了流体力学中的两种基本现象：层流和湍流。尽管层流以其有序和可预测性而著称，但视频主Veritasium与Destin（Smarter
   Every Day）共同揭示了湍流的真正魅力。文章详细阐述了湍流的不可预测性、耗散性及其在从宇宙尺度到日常工程（如飞机和高尔夫球）中的广泛应用，挑战了传统观念，并强调了湍流在自然界和技术创新中的关键作用。最后，视频还包含了一个关于可冲洗湿巾的实验。

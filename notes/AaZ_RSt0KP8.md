@@ -19,7 +19,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=AaZ_RSt0KP8
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频探讨了宇宙射线这一无形现象及其对计算机系统的惊人影响。从比利时选举中离奇的计票错误，到《超级马里奥64》速通玩家遇到的游戏故障，甚至空中客车A330客机的突然俯冲，这些高能粒子都可能导致计算机内存中的“比特翻转”。文章深入剖析了宇宙射线的发现历程、起源，以及工程师们如何设计出具有韧性的系统，以抵御这些普遍存在却常被忽视的太空威胁。
 tags:

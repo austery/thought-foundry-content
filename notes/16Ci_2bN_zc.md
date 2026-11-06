@@ -15,7 +15,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=16Ci_2bN_zc
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文通过实验和物理学原理，探讨了从高空坠落的物体（如硬币、钢笔、子弹、冰雹）的危险性。文章揭示了空气阻力对物体下落速度的决定性影响，并详细解释了终极速度、阻力系数等概念。通过与《流言终结者》主持人亚当·萨维奇的合作，证实了高空坠落的硬币和塑料笔并不会致命，同时探讨了子弹、冰雹和军事飞镖等真正危险的坠落物，并分析了其背后的物理机制和历史应用。
 tags:

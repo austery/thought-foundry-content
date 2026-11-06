@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Q51-gLL_MRM
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 视频介绍了日本的E-Defense，全球最大的地震模拟器，它通过模拟真实地震来测试并改进建筑的抗震性能。文章详细阐述了1995年神户地震的惨痛教训，日本政府如何投资数十亿美元进行抗震研究，以及E-Defense在测试房屋结构、改进建筑规范和确保室内安全方面所做的贡献，旨在将日本打造成一个更安全的国家。
 tags:

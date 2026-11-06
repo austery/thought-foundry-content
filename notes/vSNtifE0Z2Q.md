@@ -14,7 +14,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=vSNtifE0Z2Q
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了镍钛诺（Nitinol）这种神奇的形状记忆合金，它凭借超弹性、形状记忆效应和热致相变等独特性能，被广泛应用于医疗设备、航空航天等领域。重点介绍了NASA如何利用Nitinol为火星探测器和月球车开发出无需充气、耐用且能适应极端环境的新型车轮，以及其在自行车轮胎、飞机襟翼等地球应用中的潜力，揭示了材料科学如何推动工程创新。
 tags:

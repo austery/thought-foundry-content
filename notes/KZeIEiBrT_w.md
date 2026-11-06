@@ -28,7 +28,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=KZeIEiBrT_w
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了马尔可夫链这一核心数学概念的起源、发展及其在现代世界的深远影响。从19世纪俄罗斯两位数学家关于“自由意志”的激烈争论，到二战期间核弹研发中的蒙特卡洛方法，再到谷歌PageRank算法的诞生，以及当前大型语言模型（LLMs）的工作原理，马尔可夫链以其独特的“无记忆性”特性，在看似复杂多变的系统中实现了简化和预测。文章揭示了这一数学工具如何从纯理论走向实际应用，并塑造了我们所知的数字世界。
 tags:

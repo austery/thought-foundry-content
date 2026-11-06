@@ -11,7 +11,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=w4sLAQvEH-M
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了理查德·伦斯基（Richard Lenski）教授主导的、长达33年的大肠杆菌进化实验。该实验通过在实验室环境中独立培养12个菌株，观察它们如何适应并演化。文章详细介绍了实验设计、细菌适应性测量方法（如与祖先菌株竞争），以及实验中发现的惊人结果，包括对柠檬酸盐的利用、超变异性的演化，以及进化速率遵循幂律模型而非渐近线模型，揭示了即使在恒定环境下，生命进化也永无止境的深刻洞察。
 tags:

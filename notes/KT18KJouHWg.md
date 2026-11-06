@@ -14,7 +14,7 @@ media_books:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=KT18KJouHWg
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了“金州杀手”约瑟夫·迪安吉洛的抓捕过程，揭示了基因家谱技术在解决悬案中的革命性作用。通过分析短串联重复序列（STR）和单核苷酸多态性（SNP）等DNA技术，文章阐述了CODIS数据库与消费者基因数据库（如GEDmatch）的区别及其在执法中的应用。同时，文章也探讨了这项技术带来的隐私与公共安全之间的伦理困境，以及未来法律可能面临的挑战，呼吁社会对基因信息的使用做出知情决策。
 tags:

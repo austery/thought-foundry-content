@@ -17,7 +17,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ao2Jfm35XeE
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了雪花形成的科学奥秘。肯·利布雷希特博士展示了如何在实验室中精确控制条件来“设计”雪花，并揭示了“没有两片雪花相同”这一说法的复杂性。视频详细解释了雪花从分子层面形成六边形晶体的过程，并介绍了中谷宇吉郎的“中谷图”如何描述雪花形态与温度、湿度的关系。最后，利布雷希特博士提出了一个关于“成核势垒”的新假说，有望解释雪花为何在不同温度下呈现出柱状和晶片状等多样形态，解开了长达85年的科学谜团。
 tags:

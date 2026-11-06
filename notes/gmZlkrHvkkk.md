@@ -1,10 +1,10 @@
 ---
-author: 'House of El: AI'
+author: 'House of El - AI'
 date: '2026-10-02'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=gmZlkrHvkkk
-speaker: 'House of El: AI'
+speaker: 'House of El - AI'
 tags:
   - ai-safety
   - autonomous-agents

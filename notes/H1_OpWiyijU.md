@@ -13,7 +13,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=H1_OpWiyijU
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频介绍了LEONARDO机器人，它巧妙地融合了行走与飞行能力，并展现了滑板和走绳索等独特技能。由Chung博士团队开发，LEONARDO利用螺旋桨增强稳定性，并在一个巨大的风扇阵列设施中进行测试。视频探讨了其坚固的设计、滑板时的能源效率以及实现平衡的先进控制系统。此外，还展望了LEONARDO在未来太空探索（如火星直升机）和飞行汽车中的潜在应用，强调了多模态移动在复杂环境中的重要性。
 tags:

@@ -21,7 +21,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=S2xHZPH5Sng
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频探讨了YouTube平台上的“标题党”现象及其惊人效果。随着YouTube算法从订阅量转向观看时长和点击率，优化视频标题和缩略图成为内容创作者成功的关键。视频区分了“合法诱饵”和“点击陷阱”两种标题党类型，并分享了Veritasium频道如何通过科学测试和团队协作，利用数据驱动的方法提升视频触达率，从而更有效地传播高质量的科学教育内容。
 tags:

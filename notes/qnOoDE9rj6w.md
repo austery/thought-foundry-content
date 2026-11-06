@@ -12,7 +12,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=qnOoDE9rj6w
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了气凝胶卓越的绝缘性能。通过喷火器与气凝胶毯的极限测试，展示了其在极端高温下的惊人隔热能力。文章还详细介绍了气凝胶在低温、安全触控以及深海油气管道等多个领域的实际应用，揭示了这种曾被视为奇特材料的广阔前景及其对工业的深远影响。
 tags:

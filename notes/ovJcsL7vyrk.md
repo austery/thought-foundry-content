@@ -13,7 +13,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ovJcsL7vyrk
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了逻辑斯蒂映射（logistic map）这一简单方程如何揭示自然界中从滴水水龙头到兔子种群、神经元放电等多种复杂现象的内在联系。通过周期倍增分岔（period
   doubling bifurcation）现象，该方程从稳定走向混沌，并展现出费根鲍姆常数（Feigenbaum constant）的普适性。文章将其与曼德尔布罗特集（Mandelbrot

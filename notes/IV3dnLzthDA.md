@@ -21,7 +21,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=IV3dnLzthDA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了科学家托马斯·米奇利（Thomas Midgley Jr.）的两项关键发明——四乙基铅汽油和氟利昂，如何意外地在全球范围内造成了数百万人的死亡、智力下降、犯罪率上升以及两场严重的环境灾难（铅污染和臭氧层空洞）。文章还详细介绍了克莱尔·帕特森（Clair
   Patterson）如何通过其开创性的科学研究揭露了铅污染的真实规模，并最终推动了全球禁用含铅汽油的进程，以及这些事件对人类社会和环境的深远影响。

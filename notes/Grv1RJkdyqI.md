@@ -18,7 +18,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Grv1RJkdyqI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 在这段访谈中，比尔·盖茨回顾了其对全球疫情的预警，并探讨了为何世界未能充分准备。他指出，除了气候变化和生物恐怖主义，下一个重大危机可能来自信息失真。盖茨详细阐述了未来疫情应对系统所需的研发和实地部署，并深入探讨了社交媒体上阴谋论和错误信息的挑战，以及言论自由与真相传播之间的复杂平衡。他还澄清了围绕牛津疫苗与阿斯利康合作的争议，强调了疫苗生产的复杂性和基金会在全球疫苗推广中的作用。
 tags:

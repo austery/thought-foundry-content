@@ -9,7 +9,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=GhsZUZmJvaM
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了火星直升机——首个在地球以外星球上进行动力飞行的无人机——的工程挑战与创新。文章详细介绍了火星稀薄大气、低重力环境对直升机设计的影响，包括高速旋转的旋翼、轻量化结构、以及独特的测试方法如重力卸载和模拟火星大气的真空室。此外，还阐述了其自主飞行系统、能源管理策略及未来在深空探索中的潜在应用。
 tags:

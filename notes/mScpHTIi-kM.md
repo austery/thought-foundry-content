@@ -12,7 +12,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=mScpHTIi-kM
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了博弈论中最著名的“囚徒困境”问题，并通过冷战时期美苏核军备竞赛、自然界中动物的合作行为以及Robert Axelrod的计算机锦标赛等案例，阐释了这一理论如何揭示合作的起源与演变。文章分析了成功策略的四大品质：友善、宽容、报复性和清晰，并探讨了在不确定性和噪音环境下策略的调整。最终强调了非零和博弈中合作共赢的重要性，以及博弈论对理解国际冲突和生物进化的深远影响。
 tags:

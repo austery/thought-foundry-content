@@ -16,7 +16,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Sn07AMCfaAI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了一系列引人入胜的听觉错觉，从缺失基频和谢泼德音调到幻影词和双耳节拍。它揭示了听觉并非简单地检测声音频率，而是一个受大脑解释、过往经验甚至视觉线索深刻影响的复杂过程。文章探讨了我们的大脑如何积极构建听觉现实，并强调了声音感知和定位背后的精妙机制。
 tags:

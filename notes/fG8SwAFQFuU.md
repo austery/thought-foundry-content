@@ -18,7 +18,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=fG8SwAFQFuU
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频探讨了人们对宇宙浩瀚尺度的理解程度。通过挑战参与者对天体大小进行排序，视频深入剖析了行星、卫星、恒星和星系的定义，揭示了它们令人难以置信的庞大数量。讨论环节揭示了常见的认知误区，包括冥王星的重新分类，并以卡尔·萨根对人类在宇宙中位置的深刻反思作结，强调了我们在地球上的共同责任。
 tags:

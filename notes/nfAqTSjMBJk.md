@@ -13,7 +13,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=nfAqTSjMBJk
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了跳蛛独特的色彩视觉系统，揭示了它们如何感知世界，以及这种能力在进化过程中如何反复出现。通过与人类视觉和科技的对比，文章探讨了色彩的本质，并介绍了科学家们如何通过行为实验和基因分析来理解跳蛛的视觉优势。一个令人惊讶的发现是，某些跳蛛可能利用红色产生深度错觉，而非直接感知红色，这为我们理解色彩的进化优势和视觉的复杂性提供了全新视角。
 tags:

@@ -16,7 +16,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ZjBgEkbnX2I
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了飞艇作为未来货运和特殊用途运输工具的潜力。尽管历史上有安全疑虑，但现代飞艇在效率、环保和独特运输能力方面展现出巨大优势。文章深入分析了飞艇的经济模型、物理原理、技术挑战（如载荷交换、建造规模和气体选择）以及目前正在探索的利基市场，如豪华旅行和灾害救援。最终，飞艇能否成为“空中卡车”仍面临诸多挑战，但其潜在回报巨大。
 tags:

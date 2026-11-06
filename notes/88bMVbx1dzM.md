@@ -13,7 +13,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=88bMVbx1dzM
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了电子显微镜从早期发展到最终实现原子级分辨率的百年历程。从德布罗意波粒二象性理论，到鲁斯卡建造首台电子显微镜，再到谢尔策发现的球差限制，以及最终由厄本、海德和罗斯团队通过非对称透镜成功校正球差，文章详细阐述了科学家们如何克服重重技术挑战，将原子从理论变为可直接观测的实体，彻底改变了材料科学和工程领域。
 tags:

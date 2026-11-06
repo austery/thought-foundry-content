@@ -16,7 +16,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=vS0TuIPoeBs
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了一种受壁虎皮肤启发的仿生粘合材料。这种材料看似不粘，却能通过范德华力在施加剪切力时产生强大附着力。文章详细介绍了壁虎足部的微观结构（层状结构、刚毛、铲状结构）如何利用这种微弱的分子间作用力，以及斯坦福大学如何通过精密的制造工艺复制出这种独特的粘合剂。文中还展示了其在微型牵引机器人、国际空间站机器人和甚至辅助人类攀爬玻璃墙等领域的惊人应用潜力。
 tags:
