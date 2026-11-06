@@ -17,7 +17,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=20vUNgRdB4o
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了美国宇航局（NASA）的“机智号”火星直升机如何从最初的30天技术验证任务，克服火星极端环境、导航系统故障和尘暴等挑战，最终在火星表面坚持了1004天。文章详细分析了其坠毁原因，并介绍了下一代火星直升机“Chopper”的设计理念，强调了“机智号”对未来行星探索的深远影响，以及其作为“天气站”的持续贡献。
 tags:

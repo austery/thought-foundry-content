@@ -21,7 +21,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=HeQX2HjkcNo
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了数学领域中存在的根本性缺陷，即“不确定性”和“不可判定性”。从孪生质数猜想、康威生命游戏等例子出发，深入介绍了康托尔的集合论、罗素悖论，以及哥德尔不完备定理如何揭示了数学系统固有的局限性。最终，文章阐述了图灵如何通过“停机问题”证明了数学的不可判定性，并在此基础上发明了现代计算机，从而改变了世界。
 tags:

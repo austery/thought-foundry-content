@@ -14,7 +14,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Is2Lip1cJUc
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 这篇文章深入探讨了人类屏息的生理机制与极限挑战。通过专业潜水员布兰登·伯查克（Brandon Birchak）的案例，揭示了呼吸的自主控制、二氧化碳在呼吸调节中的关键作用，以及如何通过优化身体氧气水平和降低氧气消耗率来延长屏息时间。文章还介绍了哺乳动物潜水反射、肺部填充等生理技巧，以及冥想、专注等心理策略。最后，探讨了高海拔训练和纯氧呼吸等高级方法，以及屏息世界纪录和水下表演的惊人成就，强调了理解身体极限和心理韧性的重要性。
 tags:

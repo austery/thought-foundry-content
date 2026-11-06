@@ -21,7 +21,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=8DBhTXM_Br4
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了绳结理论这一迷人的数学分支，揭示了其如何从日常的鞋带问题延伸至蛋白质结构、DNA复制和新型材料开发等前沿科学领域。文章详细介绍了绳结的数学定义、等价性问题、关键不变式（如三色可染性、多项式）以及其在生物学和化学中的实际应用，包括抗生素和化疗药物的作用机制，以及如何避免耳机线缠结。绳结理论从纯粹的智力好奇心出发，最终成为理解和解决现实世界复杂问题的强大工具。
 tags:

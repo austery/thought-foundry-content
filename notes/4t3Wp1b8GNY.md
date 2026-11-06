@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2025-12-23'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=4t3Wp1b8GNY
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - ai-agent
   - generative-ai

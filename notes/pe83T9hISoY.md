@@ -11,7 +11,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=pe83T9hISoY
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了第九行星（Planet 9）存在的可能性及其背后的科学依据。从天王星和海王星的发现历史，到柯伊伯带天体的异常轨道集群，再到第九行星可能解释的太阳系谜团，文章详细介绍了科学家们如何通过数学预测和观测数据来寻找这个遥远而神秘的行星，并展望了未来的探测前景。
 tags:

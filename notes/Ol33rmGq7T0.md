@@ -1,10 +1,10 @@
 ---
-author: Cofit x 宋晏仁醫師 - 初日醫學
+author: 初日醫學 - 宋晏仁醫師 x Cofit
 date: '2025-02-06'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=Ol33rmGq7T0
-speaker: Cofit x 宋晏仁醫師 - 初日醫學
+speaker: 初日醫學 - 宋晏仁醫師 x Cofit
 tags:
   - metabolically-healthy-obesity
   - visceral-fat

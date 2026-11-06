@@ -1,10 +1,10 @@
 ---
-author: 'House of El: AI'
+author: 'House of El - AI'
 date: '2026-09-18'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=kHW3Y0gObU8
-speaker: 'House of El: AI'
+speaker: 'House of El - AI'
 tags:
   - recursive-self-improvement
   - ai-safety

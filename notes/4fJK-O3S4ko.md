@@ -1,10 +1,10 @@
 ---
-author: 'House of El: AI'
+author: 'House of El - AI'
 date: '2026-10-09'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=4fJK-O3S4ko
-speaker: 'House of El: AI'
+speaker: 'House of El - AI'
 tags:
   - autonomous-agent
   - financial-debt

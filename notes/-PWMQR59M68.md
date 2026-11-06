@@ -15,7 +15,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=-PWMQR59M68
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了树木如何通过创造巨大的负压将水分输送到百米高空，以及它们如何利用纳米级孔隙和“超吸”状态克服沸点限制。更令人惊讶的是，树木95%的质量并非来自土壤或水，而是来自空气中的二氧化碳。文章揭示了树木生长和水分运输的物理学奥秘，并介绍了#TeamTrees植树倡议。
 tags:

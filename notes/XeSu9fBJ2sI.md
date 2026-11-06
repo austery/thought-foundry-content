@@ -12,7 +12,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=XeSu9fBJ2sI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了哲学和数学领域最具争议的“睡美人悖论”。通过详细阐述“二分之一派”和“三分之一派”的观点，并引入蒙提霍尔问题、模拟假说及多重宇宙等相关思想实验，揭示了该悖论在概率论和认知偏见上的深刻挑战。文章旨在引导读者思考在不确定信息下如何判断概率，以及这些哲学问题如何影响我们对现实的理解。
 tags:

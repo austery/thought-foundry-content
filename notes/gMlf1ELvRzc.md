@@ -17,7 +17,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=gMlf1ELvRzc
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了圆周率（Pi）计算方法在历史上的演变。从古希腊阿基米德通过多边形逼近的漫长且耗时的方法，到艾萨克·牛顿引入二项式定理和微积分（流数术）后，计算效率得到了指数级提升。牛顿的方法将原本需要数年完成的计算缩短至数日，彻底颠覆了数学界对Pi的认知和计算实践，展示了数学洞察力如何能带来巨大的进步。
 tags:

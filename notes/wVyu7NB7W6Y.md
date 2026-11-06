@@ -21,7 +21,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=wVyu7NB7W6Y
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了全球电话系统核心——信令系统7号（SS7）的严重安全漏洞。从史蒂夫·乔布斯和沃兹尼亚克利用“蓝盒子”免费通话的早期电话破解历史，到现代黑客如何通过SS7拦截电话、短信、绕过双因素认证，甚至追踪目标位置，视频详细揭示了这些攻击的原理和现实影响，包括迪拜公主拉蒂法被绑架的案例。尽管存在严重风险，SS7因其作为2G/3G通信骨干的地位，以及“先行者劣势”效应，其淘汰进程异常缓慢，对个人隐私和国家安全构成持续威胁。
 tags:

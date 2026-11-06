@@ -11,7 +11,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=6etTERFUlUI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了暗物质这一宇宙中最神秘的物质。从意大利DAMA/LIBRA实验的周期性异常信号，到弗里茨·兹威基、维拉·鲁宾等科学家通过星系运动发现的引力异常，再到子弹星系团和宇宙微波背景辐射提供的强有力证据，文章全面梳理了暗物质存在的各项线索。同时，也介绍了修正牛顿动力学等替代理论，并详细阐述了地下实验室探测弱相互作用重粒子（WIMPs）的实验原理与挑战。
 tags:

@@ -20,7 +20,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=nmgFG7PUHfo
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了快速傅里叶变换（FFT）这一史上最重要的算法。从其在核武器试验检测中的关键作用，到其如何加速核裁军谈判，再到其在现代信号处理、图像压缩、雷达、5G和WiFi等领域的广泛应用，揭示了FFT的深远影响。文章还追溯了FFT的早期发现者高斯，并强调了其在计算效率上的巨大飞跃。
 tags:

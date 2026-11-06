@@ -18,7 +18,7 @@ media_books:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=CxVXvFOPIyQ
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文揭露了农业巨头孟山都如何通过化学除草剂和转基因种子建立垄断，并长期隐瞒产品毒性、操纵科学研究、恐吓农民。从剧毒二噁英到广谱草甘膦，孟山都的产品带来了严重的健康和环境问题，最终导致其被拜耳收购后，面临巨额赔偿。这不仅是一段企业丑闻史，更是对科学诚信、监管失灵和社会系统脆弱性的深刻反思。
 tags:

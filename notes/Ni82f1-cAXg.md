@@ -12,7 +12,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Ni82f1-cAXg
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了瞬干胶（氰基丙烯酸酯）的起源、化学原理及其广泛应用。从其在二战期间的意外发现，到在医疗领域拯救生命，再到未来作为可回收塑料的潜力，文章揭示了这种强大粘合剂的独特之处、工作机制、优缺点，以及它如何启发我们以开放心态面对意外发现。
 tags:

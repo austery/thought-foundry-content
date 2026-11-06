@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-07-26'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=y6txabiHp1w
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - autonomous-driving
   - world-model

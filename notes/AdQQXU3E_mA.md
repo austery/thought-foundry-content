@@ -1,10 +1,10 @@
 ---
-author: 'House of El: AI'
+author: 'House of El - AI'
 date: '2026-10-16'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=AdQQXU3E_mA
-speaker: 'House of El: AI'
+speaker: 'House of El - AI'
 tags:
   - capital-expenditure
   - credit-risk

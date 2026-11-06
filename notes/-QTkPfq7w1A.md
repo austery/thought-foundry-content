@@ -9,7 +9,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=-QTkPfq7w1A
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了一种反直觉的物理机制，它在拉伸时反而会收缩。这一现象的背后是**布雷斯悖论**（Braess's Paradox），一个揭示了在某些网络中增加容量反而会降低整体效率的系统级原理。文章通过弹簧实验、纽约交通案例以及电力网络等实例，深入浅出地解释了这一悖论。此外，文章还介绍了与传统“卡滞现象”相反的“反向卡滞现象”，并探讨了其在改变材料刚度、控制固有频率和抑制共振方面的潜在应用，展示了复杂系统行为的非线性与反直觉特性。
 tags:

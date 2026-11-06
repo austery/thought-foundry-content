@@ -16,7 +16,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=fDek6cYijxI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了“蝴蝶效应”背后的科学原理，从牛顿的决定论视角出发，逐步引入相空间的概念，并详细阐述了庞加莱对三体问题的洞察以及洛伦兹在气象模拟中发现的混沌现象。文章揭示了混沌系统对初始条件的敏感依赖性，以及这如何从根本上限制了我们预测未来和回溯过去的能力，即使对于看似有序的系统如太阳系亦是如此。然而，混沌也展现出深层而美丽的结构，如洛伦兹吸引子，为理解复杂系统提供了新的视角。
 tags:

@@ -22,7 +22,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ILgSesWMUEI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频详细讲述了人类在冷战及之后因核武器事故、核弹丢失和虚假警报而多次险些遭遇核灾难的惊险时刻。它强调了帕洛马雷斯B-52轰炸机坠毁、泰坦二号导弹爆炸等事件，以及瓦西里·阿尔希波夫和斯坦尼斯拉夫·彼得罗夫等关键人物的理性决策，指出核武器的最大威胁并非蓄意使用，而是意外事故，并呼吁核裁军以确保人类未来安全。
 tags:

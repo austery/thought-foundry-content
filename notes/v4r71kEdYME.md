@@ -15,7 +15,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=v4r71kEdYME
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了峰终定律（peak-end rule）和时长忽略（duration neglect）等引人入胜的心理现象，解释了我们对一段经历的记忆如何主要由其最强烈时刻和结束方式塑造，而非其完整时长。通过冷水实验和“琳达问题”等案例，文章揭示了认知偏差如何影响我们的选择和感知，甚至让我们宁愿选择更长但痛苦稍减的经历，而非更短但痛苦更剧烈的经历。文章还讨论了这些心理学原理在医疗程序、客户体验设计和个人幸福感方面的实际应用。
 tags:

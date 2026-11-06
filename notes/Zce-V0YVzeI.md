@@ -15,7 +15,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Zce-V0YVzeI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了雪崩的科学原理、成因、预防措施以及在遭遇雪崩时如何自救。文章揭示了雪崩的破坏力，从历史上的重大事件到滑雪者在野外遭遇的风险，详细介绍了雪层结构、弱层形成机制（如表面霜和晶体面），以及如何通过人工爆破和安全设备（如雪崩信标、探杆和雪崩气囊）来应对这一自然灾害。
 tags:

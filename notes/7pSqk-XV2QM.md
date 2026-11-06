@@ -14,7 +14,7 @@ media_books:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=7pSqk-XV2QM
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文揭示了美国政府在早期核试验中的保密工作如何被柯达公司意外揭露。通过分析受污染的X光胶片，柯达科学家朱利安·韦伯推断出核裂变的存在。文章探讨了核尘埃的传播、对公众健康的长期影响（特别是碘-131和锶-90），以及政府与柯达之间达成的秘密协议。最后，文章还介绍了核试验遗留的放射性物质在现代法医学和文物鉴定中的应用。
 tags:

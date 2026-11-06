@@ -15,7 +15,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=esQyYGezS7c
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了美国政府仓库中储存并销售的各种奇特物品，包括花生酱、污泥和钢铁。这些物品并非用于消费，而是作为“标准参考物质”（SRM），供工业界和研究人员校准设备、验证测试，以确保产品质量、安全和科学准确性。其高昂的价格反映了严谨的特性化过程，为从食品安全到结构完整性等关键测量提供了“瓶中真理”。
 tags:

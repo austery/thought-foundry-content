@@ -20,7 +20,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=qf7ws2DF-zk
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了民主投票系统在数学上的固有缺陷，从“简单多数制”到“即时决选制”及“孔多塞方法”，揭示了如“搅局者效应”和“孔多塞悖论”等问题。核心内容是获得诺贝尔奖的阿罗不可能定理，该定理证明了在三个或更多候选人时，任何排序投票系统都无法同时满足一系列合理条件。文章还介绍了邓肯·布莱克的中间选民定理和肯尼斯·阿罗晚年认可的评分投票系统（如赞同投票），为民主实践提供了更具操作性的方向，并强调了公民参与的重要性。
 tags:

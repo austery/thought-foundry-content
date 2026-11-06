@@ -24,7 +24,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=P_fHJIYENdI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了DeepMind的AlphaFold如何通过解决长达半个世纪的蛋白质折叠难题，彻底改变了生物学研究。从早期的X射线晶体学到Fold It游戏，再到AlphaFold
   1和2的迭代，文章详细介绍了AI技术如何以前所未有的速度揭示了几乎所有已知蛋白质的三维结构。此外，还介绍了David Baker利用生成式AI设计全新蛋白质的突破，以及这些进展在疫苗开发、疾病治疗和新材料发现等领域的巨大潜力，预示着AI将加速人类知识的边界。

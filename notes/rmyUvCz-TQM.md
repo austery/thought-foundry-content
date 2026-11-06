@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-04-23'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=rmyUvCz-TQM
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - ai-competition
   - large-language-models

@@ -11,7 +11,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=t-_VPRCtiUg
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 宇宙万物倾向于无序，然而自然界中却存在着各种自发秩序的现象，例如节拍器同步、月球完美轨道、萤火虫同时闪烁，乃至心脏的规律跳动。本文深入探讨了这些同步现象背后的科学原理，从17世纪惠更斯对摆钟的观察，到千禧桥的晃动事件，再到藏本模型、潮汐锁定、化学振荡和心律失常，揭示了复杂系统中自发秩序的普遍性和重要性。
 tags:

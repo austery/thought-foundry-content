@@ -16,7 +16,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=vSQjk9jKarg
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 一项长达85年的哈佛成人发展研究揭示了幸福生活的真正秘诀。该研究追踪了数千人的一生，发现金钱和成就并非幸福的终极保障。相反，高质量的人际关系，而非社交数量，才是预测健康、长寿和认知能力的关键因素。文章探讨了孤独的危害、关系的压力调节作用，并鼓励人们像锻炼身体一样，积极投入和培养人际连接，以实现更充实、更幸福的人生。
 tags:

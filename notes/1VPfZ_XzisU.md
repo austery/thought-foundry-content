@@ -18,7 +18,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=1VPfZ_XzisU
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了贾尼别科夫效应（Dzhanibekov effect），又称网球拍定理或中间轴定理。通过苏联宇航员的偶然发现、科学论文的阐述以及著名数学家陶哲轩的直观解释，视频揭示了物体在旋转过程中可能出现的180度周期性翻转现象。文章还探讨了该效应在地球自转稳定性上的应用，驳斥了地球可能翻转的阴谋论，并解释了为何包括地球在内的大多数天体最终会稳定地围绕其最大转动惯量轴旋转。
 tags:

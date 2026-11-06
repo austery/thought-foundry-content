@@ -20,7 +20,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=IgF3OX8nT0w
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了模拟计算机的悠久历史、工作原理及其在关键历史时刻（如第二次世界大战）中的重要作用。从古老的安提基特拉机械到20世纪中叶的潮汐预测机和火炮指挥仪，模拟计算机曾是地球上最强大的计算工具。随着摩尔定律的极限和机器学习对数字计算能力的挑战，文章展望了模拟计算在未来可能迎来的复兴，并揭示了其与数字计算的根本差异和各自的优劣势。
 tags:

@@ -15,7 +15,7 @@ media_books:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=J_n1FZaKzF8
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了美国军事史上一个极具争议的太空武器构想——“上帝之杖”（Rods from God）。该概念设想将巨型钨棒从轨道投向地球目标，以其巨大的动能造成毁灭性打击。文章详细阐述了其物理原理、历史沿革、潜在优势（如精准打击、无核辐射）以及在实际操作中面临的巨大挑战，包括瞄准精度、通信、轨道部署成本和导弹防御的局限性，最终揭示了其在现实中难以实现的困境。
 tags:

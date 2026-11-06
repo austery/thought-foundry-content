@@ -15,7 +15,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=ZMQbHMgK2rw
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了微型鼠（Micromouse）这项历史悠久的机器人竞赛。从克劳德·香农的早期迷宫鼠“忒修斯”如何启发人工智能领域，到IEEE微型鼠迷宫大赛的诞生与演变，文章详细介绍了比赛规则、多种迷宫求解算法（如深度优先、广度优先和洪水填充），以及推动微型鼠速度与控制力提升的重大创新，包括对角线路径和真空吸附风扇技术。它揭示了这场看似简单的竞赛如何不断挑战机器人软硬件的极限，并鼓励更多人参与其中。
 tags:

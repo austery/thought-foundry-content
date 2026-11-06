@@ -20,7 +20,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Q56PMJbCFXQ
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 1978年，纽约花旗中心（Citicorp Center）的结构工程师比尔·勒梅苏里耶发现这座摩天大楼存在致命缺陷：在特定风向下有倒塌风险。面对职业声誉和数千人性命的抉择，勒梅苏里耶启动了秘密修复计划，最终成功加固大楼。这个故事不仅展现了工程学的挑战与创新，更成为工程伦理的经典案例，强调了专业责任的重要性。
 tags:

@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-08-20'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=RzF1DZ1KmlU
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - agentic-workflow
   - supply-chain

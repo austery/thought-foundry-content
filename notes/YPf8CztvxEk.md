@@ -1,10 +1,10 @@
 ---
-author: 'House of El: AI'
+author: 'House of El - AI'
 date: '2026-09-11'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=YPf8CztvxEk
-speaker: 'House of El: AI'
+speaker: 'House of El - AI'
 tags:
   - ai-safety
   - existential-risk

@@ -16,7 +16,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=4Wrc4fHSCpw
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 2013年俄罗斯车里雅宾斯克陨石事件揭示了地球在小行星探测方面的不足。本文深入探讨了小行星的起源、难以被发现的原因，以及预测其轨道的复杂性。通过分析巴林杰陨石坑和恐龙灭绝事件，文章强调了小行星撞击的巨大破坏力，并评估了现有防御策略（如核弹、火箭推动、激光烧蚀）的局限性。最终，文章呼吁优先加强小行星探测和监测，以期在未来能更有效地应对潜在威胁。
 tags:

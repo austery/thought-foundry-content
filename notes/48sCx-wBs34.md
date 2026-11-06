@@ -19,7 +19,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=48sCx-wBs34
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了数学中“永不重复的无限图案”这一引人入胜的概念，追溯了从开普勒对行星轨道和雪花形状的几何猜想，到彭罗斯发现的非周期性密铺（彭罗斯密铺）的历程。文章详细介绍了黄金比例和斐波那契数列在这些图案中的体现，以及准晶体这一曾被认为不可能存在的物质如何最终被发现并获得诺贝尔奖。它挑战了我们对自然界重复模式的固有认知，并揭示了隐藏在复杂几何结构中的深层秩序。
 tags:

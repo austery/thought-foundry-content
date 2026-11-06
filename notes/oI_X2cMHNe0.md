@@ -17,7 +17,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=oI_X2cMHNe0
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 视频主持人Veritasium针对其此前关于超长电路中灯泡点亮速度的视频所引发的争议进行澄清。他通过实验和物理学原理，纠正了关于电流和能量传输的三大常见误解：电子并非从电池携带能量到灯泡，电子之间也并非相互推动，且电场并非完全来自电池。文章深入探讨了电场、表面电荷、坡印亭矢量以及传输线模型在电路中的真实作用，揭示了能量实际上通过电磁场在导线外部传输，并以接近光速的速度传播。此外，视频还展示了实验结果，证明即使在信号尚未完整环绕电路时，灯泡也能接收到足以发光的能量，强调了理解电磁场作为电路主要作用者的重要性。
 tags:

@@ -13,7 +13,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Tt6WQYtefXA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了日本武士刀的制作过程，从收集铁砂、采用传承千年的踏鞴炼钢法，到精密的锻造、淬火、打磨，每一步都凝聚了匠人的极致专注与技艺。文章详细解释了钢材的冶金原理、折叠锻打的奥秘以及淬火如何赋予刀刃独特的硬度和标志性的弧度。通过对日本刀制作工艺的全面展示，揭示了其作为武器和艺术品的双重价值，以及匠人对细节和工艺的热爱。
 tags:

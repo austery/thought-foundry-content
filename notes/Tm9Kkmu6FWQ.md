@@ -1,10 +1,10 @@
 ---
-author: Cofit x 宋晏仁醫師 - 初日醫學
+author: 初日醫學 - 宋晏仁醫師 x Cofit
 date: '2026-01-28'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=Tm9Kkmu6FWQ
-speaker: Cofit x 宋晏仁醫師 - 初日醫學
+speaker: 初日醫學 - 宋晏仁醫師 x Cofit
 tags:
   - migraine
   - headache-treatment

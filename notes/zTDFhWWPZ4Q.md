@@ -12,7 +12,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=zTDFhWWPZ4Q
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了著名女飞行员阿梅利亚·埃尔哈特在1937年环球飞行中失踪的悲剧。通过分析一系列不幸事件、糟糕决策以及对物理和无线电系统知识的缺乏，揭示了导致其飞机坠毁太平洋的复杂原因。文章强调了知识、责任和有效沟通在挑战性任务中的关键作用，并详细解释了当时导航和无线电通信的技术原理及局限性。
 tags:

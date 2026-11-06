@@ -12,7 +12,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=GATuMWAFBUA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了电动汽车的演变历程，从其早期辉煌到被内燃机车取代，再到如今凭借电池技术的飞跃而强势回归。文章详细阐述了电动汽车在性能、成本、维护和环保方面的十大优势，并展望了其作为自动驾驶和共享出行核心载体的未来愿景。
 tags:

@@ -17,7 +17,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=zB_OApdxcno
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了一项引人入胜的研究，揭示了在特定类型的问题上，智力越高的人反而越容易出错。研究通过皮肤霜和枪支管制案例，展示了政治信仰如何压倒数字素养，使人们选择性地解读数据以符合既有意识形态。文章强调了部落主义对人类决策的深远影响，并提出了避免党派言论、关注具体政策及培养科学好奇心等应对策略，以促进更理性的社会对话。
 tags:

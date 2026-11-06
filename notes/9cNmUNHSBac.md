@@ -16,7 +16,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=9cNmUNHSBac
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了自行车平衡与转向的非直观机制。通过对改装自行车的实验，文章揭示了骑行者如何利用反向转向来保持平衡，以及自行车如何通过巧妙设计实现自我校正，从而驳斥了诸如陀螺效应是主要稳定因素等常见误解。内容强调转向对于维持平衡至关重要，而不仅仅是改变方向，并阐明了即使没有骑手，自行车也能保持直立的物理原理。
 tags:

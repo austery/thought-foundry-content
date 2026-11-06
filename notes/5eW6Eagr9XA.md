@@ -20,7 +20,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=5eW6Eagr9XA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了专家技能的本质，揭示了其并非源于超凡智力，而是基于模式识别和长期记忆。通过对国际象棋大师、政治经济预测者和投资专业人士的案例分析，文章阐明了成为真正专家所需的四个关键要素：有效的环境、重复尝试与反馈、及时反馈以及刻意练习。同时，文章也警示了在低效环境中盲目追求模式的陷阱。
 tags:

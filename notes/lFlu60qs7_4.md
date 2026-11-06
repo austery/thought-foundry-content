@@ -17,7 +17,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=lFlu60qs7_4
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了欧几里得《几何原本》中第五公设的深远影响。两千年来，数学家们试图证明这一看似多余的公设，却意外催生了非欧几何。博利亚伊和高斯独立发现了双曲几何，而黎曼则拓展了球面几何的概念。这些新几何学起初被视为抽象，但爱因斯坦的广义相对论证明，它们是理解我们弯曲时空和宇宙结构（包括其平坦性）的核心。一个古老的数学文本中的一句话，最终成为了现代宇宙学的基石。
 tags:

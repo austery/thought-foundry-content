@@ -15,7 +15,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=w5ebcowAJD8
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了QR码的起源、技术原理及其在全球范围内的普及。从摩尔斯电码到条形码，再到QR码的二维数据矩阵，文章详细介绍了信息编码、错误纠正（如Reed-Solomon码）和掩码模式等核心技术。它揭示了QR码如何从工业用途发展成为日常生活中不可或缺的工具，并讨论了其成功背后的开放专利策略以及未来的安全挑战。
 tags:

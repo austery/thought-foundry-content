@@ -16,7 +16,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=evUfG3lrk5U
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了恒星在地球附近爆炸的潜在影响，重点介绍了超新星和伽马射线暴这两种宇宙中最强大的爆炸。文章解释了恒星如何从稳定的核聚变走向剧烈死亡，特别是铁核的形成和中微子的关键作用。此外，它还讨论了这些宇宙事件可能对地球生命造成的辐射威胁，以及它们在地球历史（如大灭绝）和太阳系形成中的意外作用。通过历史观测和现代科学发现，揭示了这些罕见但极具影响力的天文现象。
 tags:

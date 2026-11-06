@@ -9,7 +9,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=jyQwgBAaBag
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频探讨了一场关于风力驱动车辆能否顺风行驶速度超过风速的物理辩论。主持人Derek驾驶名为“黑鸟”的独特螺旋桨车辆，亲身体验并验证这一看似违反能量守恒定律的现象。视频深入解释了“黑鸟”通过将螺旋桨作为风扇而非风车运作，从风中提取能量，从而实现超越风速的原理。最终，“黑鸟”成功打破纪录，证明了这一物理现象的可能性，并引发了对直觉与科学之间关系的思考。
 tags:

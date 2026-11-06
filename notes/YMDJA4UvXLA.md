@@ -14,7 +14,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=YMDJA4UvXLA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了钾肥（Potash）这一对人类文明至关重要的元素的迷人历史。从其在肥皂和玻璃制造中的古老用途，到在火药和现代肥料中的关键作用，钾肥深刻影响了社会发展。文章阐述了钾元素（Potassium）的发现过程、钾肥开采技术的演变，以及它如何支撑全球半数人口的生存，从而解放了人类时间，使其能够追求更多元化的生活方式。
 tags:

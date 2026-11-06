@@ -15,7 +15,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=SC2eSujzrUY
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文揭示了特氟龙（Teflon）的诞生及其背后的环境与健康危机。从最初作为冰箱制冷剂的安全替代品，到广泛应用于不粘锅、防水衣物等日常用品，特氟龙的生产依赖于全氟辛酸（PFOA，即C8）等“永远的化学品”。杜邦等公司在知晓这些化学品毒性、持久性和生物累积性后，仍长期隐瞒信息并排放污染物，导致全球范围的广泛污染和严重的健康问题。文章探讨了PFAS的危害、监管挑战以及个人和社会的应对策略。
 tags:

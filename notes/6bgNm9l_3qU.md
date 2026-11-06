@@ -15,7 +15,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=6bgNm9l_3qU
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了澳大利亚漏斗网蜘蛛的致命毒液及其对人类的独特影响。文章详细介绍了这种蜘蛛的习性、毒液作用机制，以及澳大利亚爬行动物公园如何通过人工提取毒液并利用兔子生产救命的抗蛇毒血清。自1981年以来，这项重要的工作已成功避免了漏斗网蜘蛛咬伤致死事件，强调了科学研究在公共健康安全中的关键作用。
 tags:

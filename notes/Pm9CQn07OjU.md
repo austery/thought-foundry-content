@@ -21,7 +21,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Pm9CQn07OjU
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 大多数新年决心最终都会失败，但科学研究揭示了其背后的原因，并提供了有效的应对策略。本文将探讨为何人们常因目标过于宏大、模糊不清或过度依赖意志力而功败垂成，并介绍如何通过设定微小目标、具体化计划、可视化追踪以及优化环境来大幅提升成功的可能性。作者还分享了他为2020年设定的三个新年决心作为实践案例。
 tags:

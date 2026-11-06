@@ -15,7 +15,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=FkKPsLxgpuY
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 智商（IQ）测试在流行文化中无处不在，被视为衡量智力的客观标准。本文深入探讨了IQ测试的起源、其衡量内容、对生活预测能力以及其黑暗历史。从查尔斯·斯皮尔曼的“g因子”到阿尔弗雷德·比奈的首个智力测试，文章追溯了IQ测试的发展。同时，它揭示了IQ与脑容量、学业成就、职业成功、寿命甚至收入之间的关联。然而，文章也批判性地审视了IQ测试的局限性，包括其与优生学运动的联系、文化偏见、以及弗林效应等现象，强调智力并非完全固定或由基因决定，并指出智商测试不应被视为衡量个人价值的唯一标准。
 tags:

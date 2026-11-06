@@ -18,7 +18,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=J3i3F2e4IYs
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了美式橄榄球传球的物理学原理，以传奇四分卫汤姆·布雷迪的投掷为例，揭示了即使是顶尖选手也无法投出“完美”螺旋球的奥秘。文章解释了旋转如何减少空气阻力、稳定球体飞行，以及陀螺进动如何导致球体在飞行中发生“翻转”和细微的偏转。通过风洞实验和计算流体动力学分析，揭示了这些看似的“缺陷”实则是精准传球不可或缺的物理机制，并探讨了外部环境对传球准确性的影响。
 tags:

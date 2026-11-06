@@ -15,7 +15,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=pir_muTzYM8
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了美国海军位于卡德罗克（Carderock）的全球最大室内造浪池，该设施能够模拟各种海洋波浪条件，用于测试和优化舰船模型。文章详细介绍了波浪的生成、物理特性（如波长、频率、叠加原理）、不同海洋区域的波浪谱，以及如何利用弗劳德数（Froude
   number）进行精确的缩尺模型测试。通过这一设施，海军工程师得以在舰船实际下水前，对其设计进行严格评估和创新，确保其在真实海洋环境中的性能和安全性。

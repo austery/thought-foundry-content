@@ -18,7 +18,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=kTXTPe3wahc
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了量子力学中的一个核心问题——测量问题，即波函数平滑演化与粒子定域测量的矛盾。通过回顾经典力学、量子力学的基础，以及薛定谔猫思想实验，视频引出了多世界诠释（Many-Worlds
   Interpretation）。该诠释摒弃了波函数坍缩的假设，认为每次测量都导致宇宙波函数分支，创造出无数个平行世界。视频还邀请了加州理工学院的肖恩·卡罗尔教授，讨论了多世界诠释如何解决能量守恒、分支频率等常见疑问，并强调其在数学上的简洁与优雅。

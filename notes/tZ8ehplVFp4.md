@@ -11,7 +11,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=tZ8ehplVFp4
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了罗马一起自动扶梯事故的悲剧性细节，追溯了自动扶梯从游乐设施到现代交通工具的演变历程。文章详细介绍了其精巧的工程设计和多重安全机制，并揭示了罗马事故并非技术故障，而是由人为疏忽、记录造假及安全系统蓄意破坏所致。强调了正确维护对于保障自动扶梯安全运行的至关重要性。
 tags:

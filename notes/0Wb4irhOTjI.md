@@ -1,10 +1,10 @@
 ---
-author: Cofit x 宋晏仁醫師 - 初日醫學
+author: 初日醫學 - 宋晏仁醫師 x Cofit
 date: '2026-10-21'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=0Wb4irhOTjI
-speaker: Cofit x 宋晏仁醫師 - 初日醫學
+speaker: 初日醫學 - 宋晏仁醫師 x Cofit
 tags:
   - chronic-inflammation
   - lifestyle-medicine

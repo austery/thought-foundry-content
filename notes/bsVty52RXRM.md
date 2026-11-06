@@ -1,10 +1,10 @@
 ---
-author: Banned Film
+author: 禁書筆記
 date: '2026-01-04'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=bsVty52RXRM
-speaker: Banned Film
+speaker: 禁書筆記
 tags:
   - donroe-doctrine
   - international-law-collapse

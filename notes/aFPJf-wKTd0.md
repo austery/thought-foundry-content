@@ -15,7 +15,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=aFPJf-wKTd0
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了保龄球运动中隐藏的科学与技术，从保龄球的制造工艺、内部非对称配重块的设计，到球道上复杂的油膜模式，以及职业选手如何利用这些技术实现精准击球。文章还追溯了保龄球的悠久历史，并分析了科技进步如何显著提升了平均得分和完美比赛的频率，揭示了这项运动不断演进的奥秘。
 tags:

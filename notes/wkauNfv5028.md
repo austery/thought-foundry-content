@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-03-06'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=wkauNfv5028
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - agent-framework
   - token-economics

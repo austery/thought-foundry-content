@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-10-15'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=Nbd-BlqsbSU
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - reverse-engineering
   - software-engineering

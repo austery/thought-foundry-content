@@ -15,7 +15,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=7ziWrneMYss
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了澳大利亚致命毒蛇的危险性，以及抗蛇毒血清的生产过程。从蛇毒的提取、毒液的进化机制，到不同毒素类型及其对人体的作用，文章详细介绍了蛇毒的科学原理。此外，还追溯了抗蛇毒血清的发明历史，从早期蛇捕手的观察到阿尔伯特·卡尔梅特利用兔子进行实验，最终发展出现代使用马匹生产抗体的技术。文章还提及了蛇毒专家被咬伤的亲身经历，以及未来抗蛇毒血清研究的方向，强调了这项工作在全球范围内拯救生命的重要性。
 tags:

@@ -1,10 +1,10 @@
 ---
-author: 人民公园说AI
+author: 人民公園說AI
 date: '2026-09-07'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=HnB9jW4IHm4
-speaker: 人民公园说AI
+speaker: 人民公園說AI
 tags:
   - artificial-general-intelligence
   - autonomous-agents

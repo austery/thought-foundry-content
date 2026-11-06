@@ -15,7 +15,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=0dqX3NjwaQs
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 知名科学教育YouTuber Veritasium（Derek Muller）回顾了他全职制作YouTube视频十年的历程。他分享了开启YouTube生涯的初衷、对高中生和大学生的职业建议、制作视频过程中遇到的挑战，以及攻读博士学位的经历。视频中还穿插了对观众问题的回答，并赠送了多件与他视频内容相关的物品，以感谢观众的支持。
 tags:

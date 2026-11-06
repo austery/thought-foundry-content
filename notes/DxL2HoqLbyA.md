@@ -15,7 +15,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=DxL2HoqLbyA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了物理学中一个核心但常被误解的概念——熵。从地球从太阳获取能量的日常现象出发，追溯了卡诺热机、热力学定律的发现历程，解释了熵作为能量分散程度的衡量，以及它如何决定时间的方向、宇宙的演化，乃至生命存在的根本原因。文章还讨论了宇宙的低熵起源、黑洞与熵的关系，以及复杂性如何在熵增加的过程中涌现。
 tags:

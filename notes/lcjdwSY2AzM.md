@@ -14,7 +14,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=lcjdwSY2AzM
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了物理学中一个长期存在的误解：能量守恒定律并非在所有情况下都成立。我们将追溯爱因斯坦在广义相对论中遇到的能量守恒难题，以及数学家埃米·诺特如何通过其开创性的定理解决了这一困境。诺特定理揭示了守恒定律与宇宙对称性之间的深刻联系，并解释了为何在膨胀的宇宙中，能量（以我们传统理解的方式）实际上并不守恒。文章还探讨了诺特对现代物理学的深远影响及其个人经历。
 tags:

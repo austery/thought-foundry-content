@@ -37,7 +37,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Xzv84ZdtlE0
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: J. Robert Oppenheimer，一位未获诺贝尔奖却改变世界的物理学家，领导了曼哈顿计划，研制出原子弹，永远改变了历史进程。本文将探讨原子弹的科学原理、奥本海默的生平、他早期在剑桥和哥廷根的经历，以及科学家们对原子弹可能点燃大气层、毁灭地球的担忧。文章也深入分析了原子弹的研发过程、其对二战后世界格局的影响，以及奥本海默在核武器伦理和军备竞赛问题上的立场，揭示了科学发现的巨大力量及其带来的深刻伦理困境。
 tags:

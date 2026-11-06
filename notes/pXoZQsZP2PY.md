@@ -12,7 +12,7 @@ layout: post.njk
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=pXoZQsZP2PY
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了测量宇宙中最微小力的演变与技术。从历史上以铂铱圆柱体定义的千克标准，到基于普朗克常数的新定义，文章详细介绍了如何通过细分、基布尔秤和静电力平衡仪等精密仪器，将测量精度提升至毫克乃至飞牛顿级别。同时，文章还阐述了这些超精密测量在工业、制药和科学前沿探索中的重要应用。
 tags:

@@ -16,7 +16,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=iSNsgj1OCLA
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了著名的“100囚犯问题”，这是一个反直觉的数学谜题。在随机选择的情况下，所有囚犯获释的概率微乎其微，但通过巧妙的循环策略，成功率可提升至惊人的30%以上。文章详细解释了该策略的数学原理，包括循环结构、概率计算以及当囚犯数量趋于无限时，成功率如何逼近1减自然对数2的极限。
 tags:

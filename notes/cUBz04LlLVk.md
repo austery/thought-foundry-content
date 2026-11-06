@@ -13,7 +13,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=cUBz04LlLVk
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了125多年前发现的铝热反应，一种能释放巨大热量的化学过程。从其在19世纪末由汉斯·戈德施密特（Hans Goldschmidt）为提纯金属而发明，到其在现代工业中的广泛应用，如远程焊接、结构拆除和信息销毁等。文章还揭示了铝热反应的独特之处：尽管威力巨大，但其反应过程可被精确控制，且具有极高的安全性，难以意外引燃。
 tags:

@@ -23,7 +23,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=j5v8D-alAKE
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了“计划性报废”这一商业策略的百年历史。从1924年灯泡制造商组成的“菲比斯卡特尔”刻意缩短产品寿命，到苹果公司通过软件更新限制旧设备性能，再到通用汽车通过“动态报废”推动汽车年年换新，揭示了企业如何通过缩短产品寿命和制造审美过时来驱动消费。文章还讨论了“维修权”运动的兴起，以及技术进步（如LED灯）如何挑战了这一模式，最终反思了消费主义的深层逻辑。
 tags:

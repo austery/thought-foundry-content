@@ -17,7 +17,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=qJZ1Ez28C-A
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了量子力学中一个颠覆性的概念：所有粒子并非遵循单一轨迹，而是同时探索所有可能的路径。从经典物理的最小时间原理，到普朗克、爱因斯坦、玻尔和德布罗意的量子化突破，再到费曼的路径积分理论，文章详细阐述了这一原理如何解释光和物质的波粒二象性，以及经典力学如何从量子力学中涌现。通过实验演示，揭示了看似随机的路径如何通过建设性干涉形成我们所见的确定轨迹，强调了“作用量”在物理学中的核心地位。
 tags:

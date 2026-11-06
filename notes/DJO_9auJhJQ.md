@@ -18,7 +18,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=DJO_9auJhJQ
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了美国国家航空航天局（NASA）的“欧罗巴快船”（Europa Clipper）任务，该任务旨在探测木星的卫星木卫二（Europa）上可能存在的液态海洋和地外生命。文章详细介绍了木星强大的磁场和辐射带对探测器的挑战，以及木卫二地表缺乏撞击坑、磁场异常和潮汐加热等证据如何指向其冰层下可能存在的巨大咸水海洋。此外，还讨论了水热喷口作为生命绿洲的可能性，以及未来任务如何克服技术难题，寻找生命的迹象。最后，文章提及了80,000
   Hours的赞助信息，鼓励个人通过职业选择对世界产生积极影响。

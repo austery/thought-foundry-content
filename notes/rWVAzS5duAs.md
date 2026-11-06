@@ -13,7 +13,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=rWVAzS5duAs
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了混凝土的迷人世界，阐明了水泥与混凝土之间的区别，并强调了其作为人造物质的无与伦比的重要性。它追溯了从原始水泥到古罗马创新再到现代波特兰水泥的历史演变，详细介绍了其强度和硬化过程背后的科学原理。主持人还进行了一项不同寻常的实验，以探究是否能浮在混凝土中，揭示了令人惊讶的浮力。视频最后讨论了混凝土对环境的重大影响以及碳抵消的潜在解决方案。
 tags:

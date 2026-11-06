@@ -14,7 +14,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=9DrBQg_n2Uo
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了宇宙膨胀的现象，特别是红移的本质，澄清了关于原子、恒星、星系乃至人体是否随宇宙膨胀的常见误解。通过分析多普勒红移、引力红移和宇宙学红移，文章指出它们实则源于同一物理原理，并强调在局部尺度上，引力或电磁力主导的结构并不会随宇宙膨胀。
 tags:

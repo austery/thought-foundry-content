@@ -17,7 +17,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=pTn6Ewhb27k
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本视频深入探讨了光速测量的一个鲜为人知的悖论：我们从未直接测量过单向光速，而其恒定性更多是基于爱因斯坦的同步约定，而非实验事实。文章解释了为何所有测量方法都只能得到光速的往返值，并探讨了这一概念对时钟同步和同时性理解的深远影响，揭示了宇宙中一个令人着迷的未解之谜。
 tags:

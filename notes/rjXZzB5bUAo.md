@@ -21,7 +21,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=rjXZzB5bUAo
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文深入探讨了位于美国弗吉尼亚州卢雷洞穴内独特的石钟乳管风琴。这种被称为‘石琴’的乐器，利用电机械槌、钢螺栓和电吉他拾音器，将洞穴中的天然石钟乳打磨调音后转化为可演奏的音符。文章追溯了洞穴的发现历史，详细介绍了五角大楼数学家利兰·斯普林克于1954年如何将其构想并耗时三年建成，以及其运作原理、遇到的无线电干扰问题，并探讨了石钟乳的生长特性可能对其音准造成的影响。这是一个将自然奇观与人类工程巧妙结合的非凡项目。
 tags:

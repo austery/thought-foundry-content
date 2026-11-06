@@ -19,7 +19,7 @@ products_models:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=QQkmJI63ykI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 1918年诺贝尔化学奖得主弗里茨·哈伯，因其发明的哈伯-博世固氮法而闻名，这项技术通过从空气中合成氨，为全球数十亿人提供了粮食，被誉为人类历史上最重要的科学突破之一。然而，哈伯在第一次世界大战期间将这项技术转用于制造炸药，并积极研发氯气等化学武器，导致无数生命逝去。本文深入探讨了哈伯的复杂遗产，以及科学发现的双刃剑效应，引发我们对知识进步与道德责任之间关系的深刻思考。
 tags:

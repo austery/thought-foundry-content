@@ -15,7 +15,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=yCsgoLc_fzI
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: Veritasium的Derek Muller与加州大学洛杉矶分校的物理教授Alex Kusenko打赌一万美元，赌他的顺风车Blackbird能否持续以快于风速的速度行驶。Kusenko教授提出了阵风、风速梯度和理论方程中的除零问题等质疑。Derek通过实验证据、模型演示和详细的物理学解释，最终证明了Blackbird的工作原理，赢得了赌局，并强调了科学辩论在探求真相中的价值。
 tags:

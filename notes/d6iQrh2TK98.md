@@ -17,7 +17,7 @@ people:
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=d6iQrh2TK98
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了数字37在人类认知中的普遍性。从人们选择随机数时对37的偏好，到其作为素数的独特数学性质，再到它在“秘书问题”等决策场景中的实际应用，揭示了37为何成为一个看似随机却又意义深远的数字。文章还展示了一位终生收集37相关现象的爱好者，强调了37在日常和数学世界中的无处不在。
 tags:

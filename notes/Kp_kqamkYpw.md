@@ -14,7 +14,7 @@ products_models: []
 project: []
 series: ''
 source: https://www.youtube.com/watch?v=Kp_kqamkYpw
-speaker: veritasium
+speaker: Veritasium
 status: evergreen
 summary: 本文探讨了宇宙中长期存在的“缺失重子问题”，即理论预测的重子物质（构成普通物质的粒子）远多于实际观测到的数量。文章解释了重子物质丰度的理论基础，回顾了早期寻找缺失重子的尝试，并详细介绍了科学家如何利用快速射电暴（FRB）及其色散效应，最终在温热星系际介质（WHIM）中找到了宇宙中缺失的另一半重子，从而验证了数十年前的宇宙学模拟结果。
 tags:
