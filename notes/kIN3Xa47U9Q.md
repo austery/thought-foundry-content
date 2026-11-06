@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-10-27'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=kIN3Xa47U9Q
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - institutional-economics
   - authoritarianism

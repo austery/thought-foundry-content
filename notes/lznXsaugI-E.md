@@ -1,10 +1,10 @@
 ---
-author: 徒步的騎手
+author: 徒步的騎手•劉宗坤
 date: '2026-11-03'
 guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=lznXsaugI-E
-speaker: 徒步的騎手
+speaker: 徒步的騎手•劉宗坤
 tags:
   - economic-disparity
   - cross-strait-relations
