@@ -1,0 +1,558 @@
+Most people's experience of AI is still chatbots. 
+The future is that you just talk to your device  
+and it does things for you. Imagine something 
+like Jarvis from Iron Man. Wherever I am,  
+I have an AI that I own. It's my personal AI. 
+And that's possible right now with like things  
+you're building. I want a chipotle 
+steak, brown rice, wok, sour cream,  
+and some cheese. Food is here. We can have an army 
+of agents that can basically go and do everything  
+for you. The whole humanity gets equalized on 
+the same basis. And we want to make that happen.  
+You will have a whole suite of new devices, 
+like smart variables. This is going to go mega  
+viral. Yeah. We have a line of like pendants that 
+you speak into. Brew me a coffee, please. We also  
+partner with like uh chip companies like Qualcomm. 
+How do you make that demo into a real product?  
+Product. Make the product, yeah. Make it real and 
+good. Everything follows from there. And that's  
+what like people are coming to us for because 
+we're the only ones who are actually really  
+solving that challenge. This is like a 996 type of 
+company. I end up doing like 9:30 to 9:30 pretty  
+much every day. If you love what you're doing, 
+it doesn't matter. I dropped out of my Stanford  
+PhD and turned down a billion-dollar offer from 
+OpenAI to build AGI. We built our own on-device  
+models that can go and take actions on your phone. 
+So, you can control your whole phone and use any  
+app for you. I think this is the most impactful 
+thing we can do for the whole humanity right now.
+Signing my contract. Yes. Yeah. Uh feel 
+the energy. Uh it's my day one at AGI.  
+Uh my name is Shariq. Today is going to be my 
+onboarding and I'm super excited. Before this,  
+uh I was working a lot with uh voice 
+AI and voice LLMs. Our interns don't  
+pick up coffee. We have agents that 
+make us coffee. Open coffee link.
+And click brew under coffee.
+Is he successfully on board yet? You passed my 
+test. Next is Num One and Div, that's a whole  
+different test. So, I I talked to Div at the 
+AGI Inc. party or the co-working session that  
+they hosted a couple of days back. I kind of asked 
+him about other competition that exists for AGI.  
+I asked all three of them the exact same question 
+and I love their answer to it. They don't consider  
+them to be a competition in the sense that they 
+are doing something to kind of push this field  
+ahead as well. And the more competition there 
+is, the better you're able to build. And I feel  
+like that's a very wholesome thing to kind of have 
+as in in your founders thinking about as a whole  
+kind of local and voice machinery is moving rather 
+than, you know, how their product itself is just  
+moving. I'm Div Garg, the founder and CEO of AGI 
+Inc. We're building the world's truly personal AI  
+that will be running on your phones and any 
+other devices, including smart glasses and  
+smart watches. We built our own on-device models 
+that can go and take actions on your phone. So,  
+you can control your whole phone and use any app 
+for you. Right now, we're actually number one in  
+the industry on benchmarks like Android world. 
+Welcome to the first and introductory lecture  
+for CS 25. I heard that you make the first 
+Transformer class in Stanford, right? Yeah,  
+I was at Cornell for my undergrad. At Cornell, 
+I was doing a double major. This was in physics  
+and CS. I was just very good at physics. 
+I actually did some international physics  
+Olympiad where I won like gold medals in India. 
+So, like physics has always been easy for me.  
+And then I joined Stanford for my graduate 
+studies. This was actually when I was my my  
+first year at Stanford in the graduate program. 
+I kind of noticed like okay, like Stanford didn't  
+have an actual course on Transformers. It seems 
+like the whole everyone in the industry cares  
+about Transformers cuz that's a big thing. And 
+it's kind of weird that like the Stanford does  
+not even have a course on it. That's it for 
+me and along with like two other friends,  
+this is I just had the idea like what if 
+we just go and create this course? Uh so,  
+we actually wrote like a three-page proposal 
+that we want to create this course. And so, and  
+it's not normal for Stanford to create courses. 
+And so, we actually wrote a three-page proposal,  
+we sent it to the Stanford dean, and they're like, 
+"Yeah, we were very confident and like this would  
+be like a amazing." I just decided like this is 
+a such a cool concept, I should just reach out to  
+the best person I I can invite. At that time, that 
+was Geoffrey Hinton, who was like the godfather of  
+AI and has won won a Turing Award. So, I just went 
+to his website, and his email is public, actually.  
+So, so you can actually like anyone can email him. 
+So, I just emailed him like I'm starting this like  
+very cool course series at Stanford, uh which 
+is the first of its kind, and you want to come  
+and give a talk. And he actually replied within 
+the within 10 minutes, saying like he's down.
+And that's probably the best person you can 
+invite in AI. We got like pretty much every famous  
+person in AI to come and give a lecture at some 
+point. Ambi Carbaty, some of the co-founders of  
+Anthropic, some of the research team from OpenAI. 
+So, we were able to get some of the best of the  
+best people to come to Stanford and like talk talk 
+to students. And I dropped out of my Stanford PhD  
+and then turned down a million-dollar offer from 
+OpenAI to build AGI. Why was this problem worth  
+putting everything on? I think this is the most 
+impactful thing we can do for the whole humanity  
+right now. How you spend your day and how you 
+interact with technology, I think that's what  
+matters most. One way I like to just describe this 
+is like again like going back to J.A.R.V.I.S. from  
+Iron Man analogy. Like imagine like you had this 
+you know like a personal AI butler that just knows  
+everything about you. And you can ask it to like 
+do things for you. The difference between you and  
+a billionaire here has an army of people who 
+can go and like do things for him. And that  
+allows that person to be like more him or her. 
+That allows that person to be more productive.  
+But now if we can have an army of agents that 
+can basically go and do everything for you,  
+like that gap gets removed. So, you can imagine 
+like the whole humanity gets equalized on the same  
+basis. And we want to make that happen. How do 
+you describe Steve? I think his priority is right.  
+He's very like organized on like what matters, 
+especially as the company is growing, what are the  
+things we need to do. He's also like from Stanford 
+and like very good doing some research. I'm Steve,  
+co-founder at AGI. Why is this technology so hard 
+to build? I think initially I was more focused on  
+action. If you ask it to do this, then get the 
+agent to do that. We've done that and now more  
+of the rate limiters are memory and context. 
+And having the understanding of you, even if  
+you give it something that's kind of ambiguous, to 
+still understand and be able to do what you meant,  
+to recognize your underlying intention. And then 
+ultimately to to proactively know that you would  
+want that and then to do it for you. Then what 
+do you need to get there? There's a relationship  
+between trust and capability. If you trust the 
+AI more, if you trust the tool more, then you'll  
+give it more context. More understanding about 
+you. You'll allow it to have more understanding  
+about you. And if it has that, then it can be 
+more capable and ultimately proactive. It goes  
+into trust. Ultimately we're working towards 
+running an all-on-device. And that means that  
+the data never leaves the device. There's 
+no cloud to trust. That's the ultimate goal.
+I'm Naman. I'm one of the co-founders at AGI 
+Inc. I'm leading most of the engineering and  
+research. There is my brother. So, I've known him 
+since I was born. For non-technical people, could  
+you explain how AGI technology work? Our stack is 
+like divided into like three places. So, you have  
+your screen and then you have like multiple apps. 
+When a user sends a task, we get a task and we  
+also get a screenshot. Our agent is able to take a 
+look at this screenshot and then understand within  
+the screenshot what action needs to be performed 
+and it does it in a loop. So, we have a action  
+model that looks at the screen and predicts next 
+action. That action is divided into click, type,  
+scroll and this action gets transferred back to 
+the screen to perform task. And then this keeps  
+running in the loop until we have reached our 
+end state. This is where like our harnesses and  
+we have our inferencing engine. So, our stack is 
+divided into application layer, the agent harness,  
+and then the inference. Where is the bottom 
+neck? What is the hardest part? Getting the  
+agent to be fully on device. This part is fully 
+on the cloud side right now. And we are looking  
+into making this running entirely on the device 
+itself. So, all the inference, everything happens  
+in the device itself. And it's a challenging 
+because as soon as you decrease the model size,  
+the capability is also decrease. And there it's 
+our like research challenge where we are looking  
+into how do we ensure that model is still like 
+as accurate as like running on a bigger machines,  
+and also it's fast enough. And this is what 
+truly unlocks privacy and security for the users.  
+What if OpenAI or Anthropic someday launches 
+their new feature they can control their  
+phone Yep. with their voice? What happens to 
+AGI again and how's it different from that? So,  
+a lot of stuff we are doing is like actually 
+will be running on the device itself. And it's  
+also very different from their business models 
+Frontier Labs have. A big part of our vision is  
+like you're not renting model running on someone 
+else's cloud. So, it's like something that will  
+be like running running fully on your device. 
+So, like you own the model, you own the data.  
+And this is something that Frontier Labs don't 
+don't want. So, for example, they can topic is  
+not like ship your model that will run on the on 
+the device, right? So, how will they make money  
+in that scenario? Our team uses WhisperFlow Note 
+Taker when we work across time zones. Right now,  
+two of our designers are making odds merge 
+between Seoul and San Francisco. Their time barely  
+overlaps, so they get one call and nothing can 
+get lost. That's where Note Taker comes in. Before  
+it starts, Note Taker already knows who's joining 
+from the calendar invite and their own terms from  
+the dictionary. No bot joins on Google Meet or any 
+other platform. When the call starts, it just runs  
+quietly in the background. Hey Deion, how are you? 
+Hi Soyoung, I'm good. So, here's the calf warmer  
+example for our new series on When the meeting is 
+over, it double checks its own work. The summary's  
+done with real names, not speaker one and two. 
+The next morning in Seoul, a teammate who wasn't  
+on the call asks Claude what was decided and 
+picks it up from there. And the merch made it  
+all the way to the AGI Inc team to San Francisco. 
+WhisperFlow note taker is free to use and you can  
+get 1 month of Whisper Pro with unlimited 
+meetings with the link in the description.
+My name is Will and I cover the scope 
+of growth as well as the wearables  
+and hardware departments. Can you share 
+what can we do with AGI? Absolutely. So,  
+everyone's seen the traditional demos of 
+ordering Ubers and responding to emails,  
+but there's a lot of other things you can do. We 
+spend a lot of focus on the consumer side as well  
+as the accessibility side. Imagine if like the the 
+grandmother could just say, "Hey, can you help me  
+order DoorDash for some fresh soondubu?" Or "Hey, 
+I don't know how to use my phone. Can you pull up  
+a FaceTime and call my grandson?" So, then can I 
+like order a lunch for us right now? Absolutely.  
+I'll show you how it works. Right here you see a 
+bunch of presets from all the different channels,  
+but we'll just do a custom prompt today. So, I 
+guess there's like four of us, so do you like  
+a custom like Chipotle set? I'll let you pick like 
+the the ingredients. Hey, I want a Chipotle steak,  
+brown rice, lettuce, corn, guac, salsa, sour 
+cream, and some cheese. And order it on DoorDash.
+So, it just pulled up the app hands-free.
+As you can see, it's hitting each individual  
+parcel. Right now, it's clicking the 
+steak. Got the brown rice, black beans.
+So, it just placed the order. It's about to place 
+order. And then right here it says a prompt,  
+"Would you want to place this order for 
+$91?" We always have it as like a guard rail.
+Nice. So you guys can see that where this placed. 
+And uh Task complete. That's dope. Hell yeah.
+How do you make that demo into a real business? 
+Yeah. You need to find uh customers and you want  
+to have people like users who love your product. 
+Like it's like okay, like you can build this new  
+cool technology, but like why would someone buy 
+it? Why would someone want to use this? And what  
+value can you create? And I just so we've been 
+spending a lot of time like understanding like  
+the friction pain points people might 
+have in their daily lives. So that time  
+we still had a lot of ideas where the trying 
+different ideas. One time even we went to the  
+Golden Gate Park and there was this a music 
+festival going on. We went in front of the the  
+festival. I was like giving away the like 
+Powerade and stuff to kind of get engaged with  
+the potential customer and then see if they get 
+any feedback. And then we had the meeting already  
+set up. So it's not something that I can take a 
+month. So I had to really understand what I can  
+deliver out of the million iteration. Finally 
+that I was able to invent the one that works.  
+I was a little bit crunching like 2 weeks to 
+literally sleeping in the office like 3-4 hours to  
+really get things done. Miraculously that we 
+I was able to invent the the first time ever  
+the Android agent that no one had been ever 
+built. You guys are partner with big companies  
+like Qualcomm and other big companies. So how 
+did you get those companies? Like it felt it  
+felt very pure in a way. It was like it was tech 
+demos. They'd say, "Wow, I've never seen I've  
+never seen a phone do that before." And that's our 
+phone, that's our chip that's running that. Cool.  
+Uh what more can we do? I guess that we saw that 
+there was a need for this by these big companies  
+and no one was filling it and we could. I think 
+it's like pick your battles. If you can automate  
+spreadsheets, that's a great business. You will do 
+well if you can fully automate everything people  
+do in spreadsheets, but there's 10 other companies 
+going after that. Large proven market. There's  
+this more unusual path where we can build it for 
+edge devices and there were definitely companies  
+that wanted it, especially the ones that make 
+the devices. No one was really going after that.  
+I think we're still the best. Companies we work 
+with still say we're the best in in that category.
+I'll say there's a big difference between 
+building a called like a demo prototype versus  
+a production level technology. Because like it's 
+possible like the demo only works 10%of the time,  
+it's fine. Because like you're like testing 
+out what's possible. But then if you're like  
+shipping something to a billion plus users at 
+some point, then you just need to like robustly  
+test it. So a good analogy is like self-driving 
+cars. Like if you think at like Waymo and Tesla,  
+they have they actually started like working 
+on self-driving cars like more than a decade  
+ago. And it took them like 10 years to go from 
+like something that was a concept to an actual  
+thing that you can drive on the roads. Because 
+like there's so many like edge cases in the real  
+world where like things can fail, like something 
+might go wrong. I think with the complex ones,  
+it's like 20 20% In the kitchen, I saw you were 
+explaining and showing something to founders.  
+Could you briefly explain what was it? Oh, that 
+was our baselines of our agent. So basically, we  
+were we were trying to categorize how we perform 
+across different apps. Some apps, if it was good,  
+some apps, it's not the best because like users 
+are very unique. And what I mean by that is like  
+some people ask some really interesting things 
+to do with an AI agent. For example? One person  
+asked like file their taxes like so you know 
+Uh can't do that. phone? Yeah, so that's what  
+I mean. There's like pretty interesting use 
+cases. A single agent can be like perfect in a  
+demo. As soon as you take it to the real world 
+like as soon as you take agent from a sandbox  
+environment where everything is fully perfect, the 
+real world has there's so much chaos. And for us,  
+like, that's where, like, the real challenge and 
+real value at shows is. Can the agent actually do  
+work really well on production? If the agent 
+is, let's say, 96%accurate on a single turn,  
+that is fine. But, let's say you're 
+running across 10 or 20 different tasks,  
+those errors actually compound. So, if an agent 
+was 90% accurate, after 20 tasks, it actually  
+decreases around 40%accuracy. And that's what 
+we are trying to solve. And that's what, like,  
+people are coming to us for because we are the 
+only ones who are actually really solving that  
+challenge. So, with memory, you can design Yeah, 
+because I I Yeah, I feel like that would give us  
+more context. Okay, so, I am like allowed to kind 
+of do a whole kind of redesign of what is being  
+stored There is So, maybe create a plan, and if 
+you want to experiment it, and then like show me,  
+and be like, "These are the improvements. 
+You saw this which is becoming better." Yeah,  
+I'm I'm working on making a plan. I'm not 
+editing anything in the board right now. So,  
+I'll show it to you by the by like in like 2 3 
+hours, and then I can I'll probably also invite  
+you to the board cloud fair and workshop. So, that 
+way you have access to Once you make the changes,  
+Okay. you can actually see in the environment 
+key test on this code here. Okay. Yeah.
+What did you ask to him? Uh so, I was asking 
+him about the data that is being stored on the  
+database is not seen very quickly at companies 
+to be working on production grade code at the  
+very start at the very first day. When you hire 
+a new employee, how do you decide what are they  
+going to be in charge of? So, it does depend 
+on the role, like, what's the role and like in  
+what capacity are they joining us. So, typically 
+what we do is, like, we actually do, like, trials,  
+and then do a full-time hire. So, in this case, 
+he is on a first-week trial. So, we give him,  
+like, a year's of feature implementation that he 
+want, and here are the outcomes. We are seeing,  
+like, how good a is the person in terms 
+of, like, taking this, like, a bit more  
+ambiguous request in and actually coming up 
+with, like, a really good suggestion. So,  
+what we try to do is also see how good are they 
+at like coming up with product ideas. And we want  
+to do like more like brainstorming and iteration 
+cycle. So, here's a feature you can think of or  
+just what I see is like really useful for the user 
+and then we want to iterate and like keep refining  
+it. We see this as like a constant iteration. 
+You just keep refining, optimizing it until it  
+keeps attracting the users and make them actually 
+truly sticky users. And for full-time employees,  
+we actually like them to be like independent 
+thinkers. Typically, I want to basically be  
+the person who's validating the ideas correct 
+or just like be the final layer of judging.
+Hi. Hi. Did you finish your meeting? Do you 
+guys usually have meeting at this time? Yes. So,  
+that one started at 10:00 and that's 
+with our remote team in India. So,  
+it's morning for them. But, it's good cuz we 
+have space. We have space in the evening. No  
+one else will bother us. We can just focus on 
+product. Yeah, I think this feature I think  
+this thing is going to get a lot of what do you 
+call it? That's a good point. Yeah. I think we  
+can do Yeah, it's a good time for that. Let's 
+talk. AJ thinks like there are many people who  
+are in our world. Where Where is this night 
+Yeah. culture club? I sleep pretty late like  
+sometimes like 2:00 a.m.s or later. I just 
+find it easy to focus at night because you  
+don't have any distractions. No one is pinging 
+you or sending an email. There's no distraction.  
+There's nobody pinging you. It's just you and 
+like the things that you're trying to solve.  
+And that's where we see the our culture where 
+like people like to stay longer because that's  
+where they see they want to keep contributing. 
+They want to get it. My personal question is,  
+is that like really sustainable working 24/7? 
+I think like if you love what you're doing,  
+it doesn't matter. It's like if you really are 
+looking into building something that you truly  
+see is like a really value add, people would 
+want to use it. It's like a meaningful sacrifice  
+that you are going to do. I'll say we try to be 
+very autonomous. There's a certain independence  
+on things you're working on as long as you're 
+like performing at a certain bar. So, you are  
+like in charge of your decisions, so you make 
+them happen. People really like it because like  
+they can like unleash all their creativity and 
+the talent. And I think that's very fulfilling.  
+Um to like see that like something I've created by 
+yourself is now getting used by millions of people  
+over time. And I think that's like one of the most 
+fulfilling things that you can do in your life.
+In person events are expensive. You have 
+to pay for food, stuff, and everything. So,  
+why does AGI keep hosting events? Events are 
+like big for us. We're building for on-device,  
+so we need a lot of very smart researchers to 
+join our team, and we just like love bringing them  
+together and discuss the topic. Digital becomes 
+discounted a lot. You know, it's like you didn't  
+know if it's someone's agent reaching out to you, 
+and you don't know if the information is accurate.  
+And like I noticed a lot like a lot of times if 
+people are recognizing the AS labs, you just like  
+stop reading. So, meeting someone in person in 
+person is one of the best ways to actually build  
+connection. And sometimes you don't know what's 
+going to happen if you just have one discussion  
+with a person, right? They can make an intro, 
+they can introduce you to a client, they can refer  
+someone to work for you. So, overall events, they 
+just like compound a lot, and they drive a lot of  
+serendipity. What's your favorite thing in this 
+company? My favorite thing in this company is the  
+the trust behind the creative freedom we're given. 
+Early on, you identify like what you're good at,  
+and then they just give you the freedom to really 
+build out like the project. For example, we'll do  
+a a company trip, and we'll go release like a a 
+hundred mini phones. Yeah, so like this is like an  
+example of like a mini phone, right? A little bit 
+chunky, a little bit like an iPod. Uh the thought  
+process behind this is like when you see something 
+like this, it sparks a sense of curiosity, and you  
+ask a question like, "Huh, like are you texting 
+on it?" And like how are you interfacing with  
+this? It's like a modern-day pager. You You speak 
+into it, and it makes all the actions for you. So,  
+this is just like one of the many different 
+interesting experiments we're cooking in the  
+company. So, you love AGI. I love AGI. This is 
+my actual first contribution to the company. Oh,  
+I didn't know that. This is my first contribution. 
+Uh ever since this project I've been uh I've been  
+uh part of the family. The biggest part, like I 
+don't know. Look at this Look at this man right  
+here. CK? This is the big brother of the company. 
+Without CK, we really wouldn't be anywhere. CK is  
+a big part of the team culture. Team culture? 
+Culture is also very dynamic. I feel like a  
+culture cannot be enforced. A culture is formed 
+by every single person that joins the team.  
+Most companies have this tendency of hiring fast 
+and firing fast. We take a different route. We  
+hire really slow, but we fire very fast because 
+it's difficult to find culture fit in a person.  
+Someone can be a great former. They can be the 
+most skilled person in the industry of their job,  
+but you don't really know the culture fit until 
+they actually come and work with you. And so,  
+we're very cautious about the people that we 
+bring into this environment because every last  
+person that joins this company adds on to the 
+culture. In the future, we believe there could  
+be like billions of personalized models. And like 
+every person gets their own model. That model can  
+be just like self-learning. It's learning things 
+about you, your preferences. It's getting better  
+and better. And you can fully trust it because you 
+actually have the model like it's like like it's  
+yours. It's like how you have a car and you can 
+modify your car and put things in and whatever.  
+It's not like you have one generic car that serves 
+every single person on Earth, right? And that's  
+what's happening with models right now. So, we 
+want to have this way where you can buy the model,  
+you can customize it, learn things about you. And 
+then over time, like everyone gets their own very,  
+very personalized model over time. And so, 
+choosing that AI, which AI is doing that,  
+what went into the design of the AI that does 
+that for you, is very important. That might be  
+a more influential relationship than any human 
+relationship or at least as influential of a  
+relationship as any human relationship. And 
+what we see is it's going to keep changing. I  
+really want to be there in the world where like I 
+actually contributed in making the world better.  
+I want to see how far can we take it and like 
+can I actually really contribute in the world  
+actually making everyone's lives better. I think 
+it's like you don't you don't go to an everyday  
+person and say "agent, I made a great agent for 
+you." One thing it can mean for people is that  
+you look at your screen less and you spend less 
+time on the screen and more time in real life.  
+You can just talk to your AI from your phones or 
+your watch or whatever and then it can be doing  
+things for you in the background while your phone 
+is in your pocket or at home. Now, the way that  
+we think about what we're building is not just 
+oh, we're making this agent to control apps,  
+but it is this whole system. It's this new 
+operating system for devices that help you  
+look at the screen less and be more in real life. 
+Actually, we brought the small gifts for you guys.  
+These are the small gifts for our guests. Thank 
+you. Oh, that's good. Yeah. Cheese. Cheese.
+So, thank you guys.
