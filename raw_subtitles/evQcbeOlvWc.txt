@@ -1,0 +1,877 @@
+INTERVIEWER: Jensen Huang
+is the founder and CEO
+of NVIDIA, a world leader
+in AI-driven computing.
+It makes both
+software and hardware
+for a host of industries.
+Its technology is
+quite literally
+propelling us into the future.
+As an electrical
+engineer by training,
+Jensen launched the company
+with two cofounders in 2005
+at a Denny's restaurant.
+It now earns $26 billion
+in annual revenue
+and employs 26,000
+people around the world.
+Jensen, thank you for
+joining us in what
+I know is an early
+morning for you,
+probably a busy day for you.
+We really appreciate
+you making the time.
+JENSEN HUANG: I'm
+happy to be here.
+INTERVIEWER: Good.
+OK, now, before we
+start, let me just
+tell everyone in
+the audience we want
+to answer your questions too.
+Put them in the ask
+the speaker chat.
+We'll get to as many as we can.
+So let's take it away.
+So, Jensen, as I
+just said, NVIDIA's
+producing technology that
+is quite literally driving
+the future.
+I'm talking about the
+CHIPS and processors
+that are driving innovation
+in AI and generative AI.
+I'd love your view.
+As a hardware guy, what's
+your thought on AI, on gen AI?
+Do you think it
+will revolutionize
+how we work and play?
+Or is it simply
+too soon to tell?
+JENSEN HUANG: Well, at
+the core of generative
+AI is the ability for
+software to understand
+the meaning of data.
+It can understand the meaning
+of words, of course, letters,
+and words, and sentences,
+and paragraphs,
+and find the relationships
+and patterns.
+And from a lot of examples,
+it figures out the--
+learns the representation
+of the data
+and even understand its meaning.
+And so it understands
+the structure.
+It understands how
+it's constructed
+and the meaning of
+the information.
+This applies to English.
+It applies to pixels, 3D
+objects, proteins, chemicals.
+We've now used this
+deep learning method
+to learn the representation
+of a whole lot
+of different types of data,
+almost any data with structure.
+And so there are a lot of
+things in the physical world,
+in the world that we live
+in, that has structure.
+Once we can understand
+the meaning of the data,
+and we can associate one
+modality to another modality,
+for example, we can associate
+the pixels of a cat in an image
+with the word cat, once you
+could do this for one modality
+to another modality, then
+you can translate things.
+And so you could translate from
+English to Chinese, Chinese
+to French.
+You can also, of course,
+translate from English
+to pixels, which
+is generative AI,
+or from pixels to language,
+which is captioning.
+Or you could go from text
+to text, summarization,
+so on and so forth.
+And so this basic
+model, the model
+that has learned
+representation of data,
+is incredibly powerful.
+And so now what the AI industry,
+what the computer industry is
+doing is mixing all of
+these types of notations,
+and generative methods,
+and translation methods
+into all kinds of
+interesting applications.
+And so I think at the
+core of this excitement
+is the fundamental ability to
+learn representation, learn
+meaning, and to go from
+one modality to another.
+And that's just
+incredibly powerful.
+INTERVIEWER: I'm guessing that
+our viewers, by and large,
+are familiar with gen AI, maybe
+are playing around with it.
+Probably relatively
+few are using it,
+are applying it, other than
+through experimentation.
+Do you have examples, maybe
+using NVIDIA technology,
+of applications that
+you're amazed by,
+that you're seeing
+out there already?
+JENSEN HUANG: We're using
+AI to design our chips,
+to find optimal placements,
+to help us connect transistors
+into circuits, and help
+us optimize designs
+at a scale that isn't
+really possible before.
+We're starting to use AI to
+help us determine from a failure
+where the bug likely started
+from, which line of code
+was responsible for the bug.
+And so we're using generative
+AI to help us from everything
+from designing the chip,
+optimizing the chip,
+to understanding where
+the failures are.
+One of the most powerful
+things that's happening,
+of course, is that generative
+AI predicts the next--
+as you know, it
+predicts the next word
+or the next letter, next word,
+next sentence, next paragraph.
+It predicts the next pixel.
+It predicts the next
+frame of a video.
+So it makes a prediction
+of the next thing.
+These predictions
+could hallucinate.
+And one of the really
+effective ways is to--
+one of them, of course, is
+providing a lot of context,
+a lot of prompts that people
+do to set the background, set
+the context, precondition the
+model before you prompt it,
+before you ask it a
+question or before you
+ask it to do something.
+One of the things
+that's really useful
+is retrieval augmentation.
+And what that means
+is a database that,
+whether it's structured
+or unstructured, tabular
+or otherwise, that
+has been vectorized.
+Vectorizing or
+embedding a database
+requires you to learn the
+relationship between all
+the data among each
+other, just like you're
+learning the
+representation of the data
+that I was talking about before.
+And by learning
+the representation
+and learning the--
+vectorizing the database, you
+could understand its meaning.
+And so what's
+really exciting now
+is that you could
+vectorize a database.
+You can connect it to
+a large language model.
+And that large language
+model essentially
+allows you to talk to your data.
+And every company has a ton
+of data in their company.
+Most of that data
+is now dormant.
+It is hard to use.
+Sometimes, you have to do
+a lot of queries on it.
+Maybe it's a relational database
+that you're doing a query on.
+But now you could
+have a database that
+actually understands meaning.
+And so you could do a semantic
+search into the database.
+It brings back out
+the information
+that you meant to query.
+And you take that
+embedding, and you
+augment that with the
+prompt that you're
+prompting the model with.
+And so now the context,
+the background information,
+the augmented information with
+this prompt, is much richer.
+And so the thing that is
+really quite generalized
+now is the ease of being able
+to interact with applications
+because of large language models
+that understand your meaning.
+And then, secondarily,
+all of these
+databases that you
+can now vectorize,
+which could then
+be used to augment
+the prompts and the queries.
+And so the applications
+across your company
+is really quite amazing.
+One of the fun
+things, of course,
+if you're a company with a large
+customer service department,
+and customer service agents are
+inputting their interactions
+with customers, whether
+it's problems or complaints
+or whatever it is, help that
+you're routing the customer
+through, all of that
+is somehow captured
+in a very large database.
+But wouldn't it be amazing
+if now that database
+was vectorized, and you can
+just talk to the database.
+What are the things that
+people are most upset about?
+What are some trends that
+we're starting to see?
+If we want to
+improve the customer
+service of our company,
+what are some of the top--
+what are the top two or
+three things that you can do?
+You could talk to your
+database like you're
+talking to a person.
+And that's really powerful.
+INTERVIEWER: So I want to
+shift here a little bit
+and talk about some of the
+challenges of running a tech
+company in 2023.
+And for starters,
+how do you keep up
+with constantly shifting
+demand for new products,
+for new services?
+And how do you build
+a management team
+that can imagine the future and
+keep pace with so much change?
+JENSEN HUANG: Well.
+You got to learn.
+First of all, we're
+surrounded by people
+who are expert in the
+art, in the fundamental
+and the foundational
+parts of computer science
+and electrical--
+they could be compiler experts,
+or they could be chip design
+experts, or they could be
+processor design experts
+or interconnect experts
+or so on and so forth.
+And so you've got experts
+all over your company.
+And they're the best in
+the field of what they do.
+Meanwhile, you want your company
+to be as alert as possible.
+And so the ability
+for information
+to be moving freely
+in your organization,
+without being
+trapped in silos, is
+something that's really
+important as the company gets
+larger and larger.
+Especially when the
+industry is moving so fast,
+you want to be alert of
+very weak signals that
+could be coming from somewhere.
+And so it could be a
+research paper that's
+coming out of left field.
+It could be related
+to a digital biology.
+It could be related to
+something in robotics.
+And somehow, that
+robotics information,
+it could be generalized
+in such a way
+that it could be useful for
+how we train a chat bot maybe.
+Reinforcement
+learning was something
+that was really invented for
+articulating, and animating
+stick figures, and articulating
+fingers, and things like that,
+and playing a game.
+But it turns out that
+reinforcement learning,
+human feedback, could
+be quite useful in fine
+tuning a large language model.
+And so you want to be
+able to see developments
+in adjacent fields or
+even unrelated fields
+and be able to
+somehow distill it
+back down to first
+principles and then
+extrapolate it to useful
+applications in other domains.
+And so that fundamental
+ability of starting
+from really good
+foundation, expertise
+in the company, the ability
+to stay alert of weak signals,
+and then being able to go
+back to first principles.
+When you make some observation,
+go back to first principles on,
+why is that important?
+And what is the reason?
+What are the governing
+dynamics associated
+with that phenomenon?
+And then, be able
+to generalize them.
+INTERVIEWER: And then, you
+have the political issues
+that affect your business.
+I'd love to hear you talk
+about how NVIDIA is coping
+with the loss of I think it's
+billions of dollars in sales
+to China, partly as a
+result of US restrictions
+on sales of sophisticated
+chips to China.
+JENSEN HUANG: Well,
+the restriction
+is a capability restriction,
+is not an absolute restriction.
+The limitations are
+related to the performance
+levels of our GPUs.
+And this is like restrictions
+of CPUs and computers
+that has gone back
+a very long time.
+The restrictions limit
+the level of capability
+or the amount of computation
+that a processor can do.
+And so the first thing
+that we have to do
+is comply with the
+regulation, and understand
+what the limits are and,
+to the best of our ability,
+offer products in
+the marketplace
+to serve customers
+that can still
+be competitive while complying
+with the restrictions.
+And so the challenge there
+is that the local markets,
+especially in China, has
+a lot of competitors.
+And so we have to compete in the
+marketplace while, of course,
+complying with the
+regulations that are
+inspired by national security.
+And so it's not easy.
+And it's a great challenge.
+And the competitors
+are moving quickly.
+And so it's like anything else.
+You've got to stay alert
+and do the best you can.
+INTERVIEWER: So it
+sounds like you're
+saying you're not giving
+up on that market.
+You're finding ways within
+what's allowable, finding
+ways to, if I have
+you right, create
+new products or new
+approaches to that market.
+Is that fair?
+JENSEN HUANG: Well, only if
+the new products continues
+to be attractive to customers.
+The first thing
+that we have to do
+is understand what
+the regulation limits.
+And the second thing we
+do is go propose products
+to the marketplace that
+customers might still
+find attractive.
+But there's no guarantees.
+I mean, competitors are coming
+up with all kinds of ways
+to attract the customer.
+And so we'll float the
+best possible products
+that we can that are fully
+compliant with regulations,
+and take it from there, and
+see if customers are still
+attracted to the
+products that we offer.
+INTERVIEWER: Got it.
+OK, I want to go to an
+audience question now.
+And this is from Steven.
+I don't know where Steven is.
+But the question is, do you
+think that AI will always
+need human supervision?
+JENSEN HUANG: A human in the
+loop is pretty important.
+As you know, in
+robotics, you could have
+different levels of autonomy.
+And most of the
+levels of autonomy,
+until you have a great
+deal of nines, of safety,
+and safety in all kinds
+of different ways.
+So for example, in the
+case of a self-driving car,
+if you want the
+self-driving car to be
+able to take your family
+while they're sleeping
+in the backseat
+fully autonomously,
+you want to be fairly
+assured that the sensor
+system, the computing system,
+the vehicle control, all of it
+has diversity and redundancy.
+And so for example,
+you might insist
+on making sure that
+you have cameras,
+as well as radars,
+as well as lidars.
+You might even have
+a redundant steering
+control, and redundant
+braking dynamics,
+and so on and so forth.
+And these things give
+you assurance that,
+irrespective of the conditions,
+that the critical components
+that affects the functionality
+has diversity and redundancy.
+Diversity and redundancy
+is an important part
+of intelligence, autonomous
+intelligence, in a lot of ways.
+Even in companies, we have
+diversity and redundancy.
+Notice we talk a lot about
+diversity in companies
+because it allows the
+company to be more resilient.
+We have redundant ways
+of doing the same thing,
+where we're trying to
+analyze the same problem
+from different perspectives.
+Maybe the sales
+organization is augmented
+by the marketing organization,
+which is augmented by
+so on and so forth.
+And different types
+of ways to ensure
+the vibrancy and the
+resilience of the company.
+And most autonomous systems,
+whether it's a robotic car,
+or it's a large
+organization, wants
+to be designed in
+such a way that you
+have diversity and redundancy.
+And then, above that, you want
+you want human in the loop.
+Sometimes, you get
+to a level where
+you don't believe you need human
+in the loop inside the car.
+But maybe you have human in
+the loop outside the car.
+And you're monitoring
+the effectiveness.
+This is no different than air
+traffic control, for example.
+You have two pilots.
+You also have redundant
+autopilot systems.
+But you also have
+air traffic control.
+And pilots keep an eye
+out for each other.
+And so there's a lot
+of different ways
+that autonomous systems are
+designed for maximum safety
+and reliability.
+This is going to happen--
+the same line of
+thinking will have
+to be done for generative AI.
+We have to invent the
+technologies for safety.
+We have to apply
+engineering methods that
+allows us to design
+systems that are safe,
+validation systems
+that ensure safety.
+And then, lastly, for quite
+a long time, we will likely--
+we will not likely.
+We will surely have
+human in the loop.
+For example, while
+you're learning
+from the next batch of data,
+before you release it out
+into the world, you have humans
+validate it, and test it,
+and red team it
+instead of just have
+it be continuously
+learning and continuously
+updating all by itself.
+And so there are a lot
+of different methods
+that we ensure safety in.
+Human in the loop is
+one of the best ways.
+INTERVIEWER: Yep.
+I'm interested in hearing
+more about NVIDIA's culture.
+One of your vice
+presidents was quoted
+as saying, "Working at NVIDIA
+feels existential every day.
+We feel like the company is
+going to go bankrupt tomorrow."
+So I wonder, is that deliberate?
+Do you try to instill
+a sense of paranoia
+to try to spur innovation?
+JENSEN HUANG: You don't
+have to instill it.
+If you don't think
+you're in peril,
+it's probably because you
+have your head in the sand.
+There are no companies
+that are assured survival.
+And we have the benefit of
+having built the company
+from the ground up and having
+not exaggerated circumstances
+of nearly going out of business,
+actual experiences of nearly
+going out of business,
+a handful of times.
+We don't have to pretend that
+the company is always in peril.
+The company is always in peril.
+And we feel it.
+And I don't need,
+and the company
+doesn't need, assurance
+that we will do well
+in order to do our best work.
+And so I think the
+company living somewhere
+between aspiration
+and desperation,
+living somewhere
+within that spectrum,
+is a lot better than either
+always optimistic or always
+pessimistic.
+And so I think a guarded
+level of optimism
+and realistic understanding that
+the company could be in peril
+at any given time, and we have
+to stay focused and alert,
+and do our best work,
+and constantly earn
+the right to be in business.
+Those feelings and that
+sensibility, I think,
+is really good and healthy
+for companies to have.
+INTERVIEWER: From
+what I've read,
+your management style
+is somewhat unusual,
+that you maintain a very flat
+organizational structure,
+that you have very few
+one-on-one meetings.
+Talk about your
+theory of management.
+JENSEN HUANG: Well,
+an architecture,
+an architecture is
+designed for the company
+to do its work, to operate
+as efficiently as possible.
+And one of the
+things that is really
+important for a company
+in technology that's
+moving as quickly as it is--
+we invented this technology
+called accelerated computing,
+whereas Moore's
+law, in the past--
+it's no longer nearly this fast.
+But Moore's law,
+in the older days,
+would increase performance by
+a factor of 10 every 5 years
+and a factor of
+100 every 10 years.
+But in the case of
+accelerated computing,
+we're moving somewhere
+between 1,000 to 100,000 times
+every 10 years.
+And so when you're
+moving that fast,
+you want to make
+sure that information
+is flowing through the company
+as quickly as possible.
+You want the company to
+be as aligned as possible.
+And also, our company builds
+really complicated things.
+People think our GPUs
+are like the add-in cards
+that we designed for gamers.
+And they are.
+We build those with great
+pride and great joy.
+But the GPUs that we build
+for AI weigh 70 pounds.
+They have 35,000 parts.
+Out of those 35,000 parts,
+8 of them come from TSMC.
+They consume 10,000 amps.
+Obviously, they're so heavy, you
+use robots to manufacture them.
+And the computers are
+so advanced that it
+takes a supercomputer to
+test another supercomputer.
+And so these GPUs that we're
+building are insanely complex.
+And it requires a lot
+of software to run it.
+And for a company like us that
+designs the fundamental chips,
+creates the systems,
+create the software,
+and creates all the networking
+and all the silicon photonics,
+and connect it into
+a large data center,
+and help companies stand
+it up and operate it,
+our company information
+has to really move quickly
+through the company
+and really, really
+have no barriers
+and no boundaries.
+And so we architected
+a company that
+allows us to be able to
+work across this really
+complicated stack of computing
+technology on the one hand,
+build incredibly complicated
+things on the other hand,
+and be very comfortable
+moving at light speed.
+And if you want a
+company like that,
+then the last thing you
+want is for information
+to pass along hierarchically.
+And if you look at
+most organizations,
+there are only 2 or
+3 people at the top.
+And if that starts that
+way, then the number
+of layers of
+management and layers
+of managers before you get
+to somebody who is actually
+dealing with ground truth
+could be 7, 8, 9, 10 layers.
+And I didn't want
+that to happen.
+And so the best way to do
+that is to put the most--
+at the highest level to be
+as flat as possible up there.
+And so we probably
+reduced 3 or 4 layers
+of management out of our
+company just by doing so.
+INTERVIEWER: Yeah.
+So we have time for one
+more quick question.
+I wanted to bring in one
+more audience question.
+This is from Leon.
+And the question
+is, what can you
+say about quantum computing?
+To what extent are
+you investing in it?
+And what can you say about that?
+JENSEN HUANG: Well, in
+order to build the world's
+next fast computer, you need
+the world's fastest computer
+to help you design
+it, simulate it,
+create new algorithms for it.
+And the world's fastest
+computer is NVIDIA's
+accelerated computing systems.
+And so we don't build
+quantum computers.
+But we work with just about
+everybody in the quantum
+computing ecosystem, from people
+who are doing the basic quantum
+computing design, to
+algorithm developers,
+to architects who are
+working on classical quantum
+computers, architectures.
+And so we work with just
+about everybody out there.
+The quantum computer
+won't come along
+in a real industrial way
+for probably another decade,
+and maybe 2.
+And when it gets
+here, it'll likely
+be an accelerator that's
+connected to the NVIDIA
+accelerated computing systems.
+And some of the computation will
+be done on quantum computers.
+And a lot of the
+computation will
+be done on classical
+computers doing
+preprocessing, postprocessing,
+and so on and so forth.
+And so I'm looking
+forward to when
+quantum computers are going
+to be useful and effective.
+And when it comes, classical
+computers, and particularly,
+the accelerated
+computing and AI,
+will be a very big part of it.
+INTERVIEWER: All right,
+so we're out of time.
+But Jensen Huang, thank
+you very much for being
+here with us today on HBR Live.
+JENSEN HUANG: I'm
+delighted to be here.
+Thanks a lot.
+INTERVIEWER: OK.
