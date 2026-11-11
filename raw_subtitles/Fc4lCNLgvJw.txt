@@ -1,0 +1,3755 @@
+We
+ call
+ it
+ Siri
+ AI.
+
+
+>> Siri
+ AI.
+
+
+>> Siri
+ AI.
+
+
+>> Siri
+ AI.
+
+
+>> Siri
+ AI.
+ Siri
+ AI.
+
+
+>> Siri
+ AI.
+ Our
+ new
+ version
+ of
+ Siri
+ powered
+
+
+by
+ Apple
+ intelligence.
+
+
+>> Alexa,
+ Siri,
+ Google
+ Home.
+ It's
+ been
+
+
+years
+ since
+ they
+ came
+ out.
+ But
+ why
+ are
+
+
+they
+ still
+ so
+ dumb?
+ How
+ come
+ years
+ of
+
+
+progress
+ haven't
+ made
+ them
+ more
+ usable
+
+
+than
+ a
+ basic
+ set
+ up
+ a
+ timer
+ for
+ a
+
+
+minute?
+ Last
+ fall,
+ Google
+ put
+ Gemini
+
+
+into
+ Google
+ Home.
+ This
+ year,
+ Amazon
+
+
+released
+ Alexa
+ Plus
+ with
+ Genai
+ builtin.
+
+
+Apple
+ rebuilt
+ Siri
+ in
+ iOS
+ 27.
+ And
+ as
+ you
+
+
+can
+ tell,
+ it
+ didn't
+ help.
+ Wire
+ even
+
+
+published
+ a
+ headline.
+ Why
+ Alexa
+ Plus
+ is
+
+
+so
+ dumb.
+ What
+ is
+ this
+ mystery?
+ By
+ the
+
+
+end
+ of
+ the
+ video,
+ you
+ will
+ understand
+
+
+why
+ adding
+ AI
+ didn't
+ turn
+ them
+ into
+
+
+magic
+ and
+ why
+ Apple,
+ whose
+ Siri
+ a
+ lot
+ of
+
+
+us
+ hate
+ with
+ passion,
+ might
+ be
+ the
+ one
+
+
+that
+ got
+ it
+ right.
+ Today
+ is
+ about
+ Siri,
+
+
+Alexa,
+ and
+ Google
+ Home.
+ Let's
+ dive
+ in.
+
+
+Let's
+ recall
+ a
+ very
+ important
+
+
+distinction.
+ [music]
+ What
+ is
+ this?
+ Is
+
+
+this
+ Alexa?
+ Not
+ really.
+ It's
+ an
+ Echo
+
+
+Dot.
+ Alexa
+ is
+ a
+ voice
+ assistant
+ inside
+
+
+Echo
+ Dot,
+ but
+ the
+ device
+ itself
+ isn't
+
+
+Alexa.
+ We
+ use
+ these
+ words
+
+
+interchangeably
+ because
+ Alexa
+ became
+
+
+synonymous
+ with
+ the
+ speaker.
+ This
+ is
+ the
+
+
+primary
+ place
+ where
+ it
+ lives.
+ Yes,
+ it
+
+
+also
+ lives
+ in
+ Fire
+ TV,
+ but
+ most
+ users
+
+
+who
+ use
+ Alexa
+ use
+ it
+ with
+ the
+ speaker.
+
+
+This
+ is
+ Google
+ Home.
+ Same
+ situation.
+ In
+
+
+the
+ pre-Gemini
+ era,
+ Google
+ Home
+ had
+
+
+Google
+ Assistant
+ as
+ the
+ voice
+ model.
+ But
+
+
+when
+ we
+ say
+ Google
+ Assistant,
+ most
+ of
+
+
+the
+ time
+ we're
+ talking
+ about
+ Google
+
+
+Home.
+ Siri
+ is
+ actually
+ different
+ because
+
+
+Siri
+ has
+ always
+ been
+ perceived
+ as
+ an
+
+
+assistant
+ living
+ inside
+ an
+ iPhone.
+ And
+
+
+if
+ I
+ were
+ to
+ show
+ you
+ what
+ Siri
+ is,
+ it
+
+
+would
+ be
+ something
+ like
+ this.
+
+
+Do
+ you
+ see
+ how
+ much
+ perception
+ matters?
+
+
+We
+ say
+ Alexa,
+ but
+ really
+ mean
+ Echo
+ Dot.
+
+
+We
+ say
+ Google
+ Home,
+ but
+ in
+ reality,
+
+
+we're
+ talking
+ about
+ Google
+ Assistant.
+
+
+And
+ this
+ perception
+ sets
+ the
+ tone
+ for
+
+
+everything
+ that
+ came
+ next.
+
+
+For
+ the
+ past
+ 4
+ years,
+ the
+ question
+ has
+
+
+been,
+ can't
+ they
+ just
+ add
+ GPT
+ or
+ Claude
+
+
+inside
+ them?
+ They
+ can,
+ and
+ they
+ do,
+ but
+
+
+it
+ doesn't
+ help.
+ Why?
+ In
+ 2024,
+ Amazon
+
+
+turned
+ to
+ Claude
+ to
+ build
+ a
+ new
+ version
+
+
+of
+ Alexa
+ with
+ Genai
+ builtin.
+ And
+ a
+ year
+
+
+later,
+ they
+ announced
+ Alexa
+ Plus
+ with
+
+
+Genai.
+ It
+ connects
+ several
+ LLMs,
+ Amazon
+
+
+Nova,
+ several
+ anthropic
+ models,
+ a
+ Gentic
+
+
+tool,
+ services,
+ a
+ bunch
+ of
+ things.
+ It's
+
+
+been
+
+
+>> Hey
+ there,
+
+
+>> what
+ can
+ I
+ help
+ you
+ with
+ today?
+
+
+>> And
+ it
+ didn't
+ help.
+
+
+>> Hi
+ there.
+
+
+>> What
+ can
+ I
+ help
+ you
+ with
+ today?
+
+
+>> And
+ it
+ didn't
+ really
+ help.
+
+
+>> Plus
+ is
+ our
+ nextG
+ AI
+ assistant
+ that's
+
+
+more
+ conversational
+ and
+ capable.
+ This
+ is
+
+
+Google
+ Home.
+
+
+>> You're
+ absolutely
+ right.
+
+
+>> The
+ result,
+ well,
+ you
+ saw
+ it.
+ And
+ also,
+
+
+sometimes
+ 10
+ seconds
+ to
+ answer
+ a
+
+
+question
+ about
+ the
+ weather.
+ One
+ reviewer
+
+
+asked
+ it
+ to
+ turn
+ on
+ his
+ bathroom
+ fan
+ for
+
+
+15
+ minutes
+ and
+ it
+ failed
+ at
+ that
+
+
+multiple
+ times.
+ Another
+ reviewer
+ asked
+
+
+for
+ the
+ weather
+ and
+ got
+ a
+ song.
+ A
+ former
+
+
+senior
+ employee
+ at
+ Amazon
+ told
+ the
+ Wall
+
+
+Street
+ Journal,
+ "We're
+ worried
+ that
+ we
+
+
+hired
+ 10,000
+ people
+ and
+ we've
+ built
+ a
+
+
+smart
+ timer.
+ I
+ got
+ an
+ Alexa
+ Plus
+
+
+specifically
+ for
+ this
+ video
+ and
+ I
+ can
+
+
+confirm
+ that
+ it
+ really
+ got
+ smarter
+ in
+
+
+conversation.
+ But
+ then
+ there
+ is
+ this
+
+
+Alexa.
+ What
+ is
+ the
+ last
+ thing
+ I
+ ordered
+
+
+on
+ Amazon?
+
+
+>> Looking
+ that
+ up.
+ Your
+ most
+ recent
+ order
+
+
+is
+ a
+ TPLink
+ Wi-Fi
+ 6
+ and
+ Bluetooth
+ USB
+
+
+adapter.
+ Place
+ today
+ for
+ $2259.
+
+
+Arriving
+ tomorrow
+ by
+ 9:00
+ p.m.
+
+
+>> I
+ don't
+ know
+ whose
+ Amazon
+ she
+ connected
+
+
+to,
+ but
+ I
+ did
+ not
+ order
+ anything.
+ Hey
+
+
+Alexa,
+ can
+ you
+ send
+ a
+ message
+ to
+ my
+
+
+internet
+ provider
+ and
+ call
+ their
+ support
+
+
+and
+ complain
+ that
+ my
+ internet
+ is
+ slow?
+
+
+>> I
+ can't
+ send
+ messages
+ or
+ make
+ calls
+ to
+
+
+your
+ internet
+ provider
+ directly.
+ You'll
+
+
+need
+ to
+ contact
+ them
+ yourself
+ through
+
+
+their
+ official
+ channels
+ to
+ report
+ the
+
+
+slow
+ internet
+ issue.
+
+
+>> The
+ LLMs
+ they
+ connected
+ really
+ made
+ the
+
+
+understanding
+ better.
+ It
+ can
+ answer
+ a
+
+
+lot
+ more
+ questions
+ than
+ before,
+ but
+ at
+
+
+the
+ same
+ time,
+ it
+ became
+ unreliable.
+ Old
+
+
+Alexa
+ was
+ built
+ on
+ a
+ set
+ of
+ standard
+
+
+commands.
+ And
+ yes,
+ it
+ was
+ dumb,
+ but
+ it
+
+
+was
+ very
+ predictable.
+ And
+ LLM
+ did
+ the
+
+
+opposite.
+ It
+ now
+ sounds
+ a
+ lot
+ smarter,
+
+
+but
+ it
+ doesn't
+ match
+ the
+ quality
+ of
+ what
+
+
+a
+ true
+ agentic
+ assistant
+ should
+ be.
+ So,
+
+
+why
+ didn't
+ they
+ build
+ something
+ that
+
+
+just
+ works?
+ Why
+ didn't
+ they
+ build
+ their
+
+
+own
+ version
+ of
+ Muse?
+ I
+ keep
+ raving
+ about
+
+
+Muse
+ because
+ it's
+ it's
+ it's
+ a
+ great
+
+
+tool.
+ And
+ mind
+ you,
+ Meta
+ doesn't
+ have
+
+
+the
+ best
+ models
+ on
+ the
+ market.
+ So
+ why
+
+
+aren't
+ they
+ fixing
+ it?
+ I
+ personally
+ see
+
+
+two
+ reasons
+ why.
+ Leadership
+ and
+
+
+economics
+ of
+ these
+ assistants.
+ And
+ my
+
+
+theory
+ is
+ that
+ they
+ were
+ never
+ meant
+ to
+
+
+be
+ good
+ assistants.
+ Let
+ me
+ explain.
+
+
+It's
+ been
+ almost
+ 4
+ years
+ since
+ AI
+ made
+
+
+its
+ way
+ into
+ every
+ enterprise
+ and
+ yet
+
+
+businesses
+ are
+ still
+ struggling
+ to
+ show
+
+
+measurable
+ value
+ from
+ it.
+ Not
+ because
+
+
+the
+ models
+ are
+ bad,
+ but
+ because
+ there
+ is
+
+
+a
+ massive
+ difference
+ between
+ a
+ shiny
+ new
+
+
+platform
+ demo
+ running
+ on
+ curated
+ data
+
+
+and
+ real
+ production
+ data
+ that
+ the
+
+
+company
+ actually
+ has.
+
+
+>> [music]
+
+
+>> This
+ segment
+ is
+ sponsored
+ by
+ Cloudera's
+
+
+podcast,
+ the
+ AI
+ forecast,
+ and
+ the
+ entire
+
+
+premise
+ of
+ the
+ show
+ is
+ to
+ shed
+ light
+ on
+
+
+the
+ expectation
+ versus
+ reality.
+ The
+ host
+
+
+invites
+ guests
+ from
+ various
+ industries
+
+
+who
+ describe
+ exactly
+ how
+ they
+ went
+ from
+
+
+we're
+ deploying
+ this
+ AI
+ application
+ to
+
+
+this
+ is
+ what
+ it
+ took
+ to
+ make
+ it
+ work.
+ My
+
+
+favorite
+ episode
+ on
+ this
+ podcast
+ is
+
+
+about
+ pharma
+ R&D.
+ Cloudera,
+ CTO
+ of
+
+
+Applied
+ AI,
+ describes
+ working
+ with
+ data
+
+
+as
+ though
+ you're
+ looking
+ at
+ a
+ skyscraper
+
+
+through
+ a
+ keyhole.
+ You
+ see
+ one
+ piece
+
+
+clearly,
+ but
+ you
+ don't
+ see
+ anything
+
+
+around
+ it.
+ He
+ talks
+ about
+ the
+
+
+complexities
+ of
+ R&D
+ and
+ pharma
+ and
+ why
+
+
+patient
+ consent
+ means
+ that
+ you
+ often
+
+
+cannot
+ reuse
+ the
+ data
+ that
+ you
+ already
+
+
+paid
+ for.
+ It
+ is
+ not
+ a
+ generic
+ how
+ AI
+
+
+works
+ podcast.
+ [music]
+ It's
+ actually
+
+
+quite
+ the
+ opposite
+ of
+ that.
+ It
+ is
+ a
+ how
+
+
+it
+ worked
+ and
+ why
+ it
+ failed
+ kind
+ of
+ show
+
+
+full
+ of
+ invaluable
+ lessons
+ for
+ people
+
+
+building
+ AI
+ businesses
+ and
+ dealing
+ with
+
+
+very
+ concrete
+ problems
+ [music]
+ in
+ a
+ very
+
+
+specific
+ domain.
+ If
+ you
+ work
+ anywhere
+
+
+near
+ enterprise
+ data
+ or
+ if
+ you're
+ a
+ B2B
+
+
+founder
+ building
+ enterprise
+ level
+
+
+solutions,
+ this
+ podcast
+ gives
+ you
+ real
+
+
+insight
+ into
+ what
+ enterprise
+ data
+
+
+implementation
+ looks
+ like.
+ The
+ podcast
+
+
+is
+ free
+ on
+ YouTube,
+ Spotify,
+ and
+ Apple.
+
+
+And
+ the
+ Pharma
+ episode
+ is
+ linked
+ in
+ the
+
+
+description.
+ And
+ now
+ back
+ to
+ the
+ video.
+
+
+Originally,
+ Alexa
+ was
+ Jeff
+ Bezos's
+ baby.
+
+
+This
+ was
+ his
+ idea.
+ He
+ was
+ inspired
+ by
+
+
+Star
+ Trek's
+ computer,
+ this
+ omnisient,
+
+
+omniresent
+ AI
+ controlled
+ by
+ voice,
+ and
+
+
+wanted
+ to
+ build
+ an
+ accessible
+ version
+ of
+
+
+it.
+ Great
+ vision
+ if
+ you
+ ask
+ me.
+ But
+ when
+
+
+they
+ launched
+ in
+ 2014,
+ something
+ went
+
+
+wrong.
+ The
+ vision
+ was
+ a
+ Star
+ Trek
+
+
+computer.
+ The
+ reality
+ was
+ a
+ sales
+
+
+platform.
+ The
+ business
+ model
+ behind
+
+
+Alexa
+ was
+ to
+ put
+ it
+ in
+ a
+ very
+ cheap
+
+
+product,
+ a
+ speaker.
+ Remember
+ the
+ time
+
+
+when
+ they
+ first
+ rolled
+ out
+ assistance?
+
+
+There
+ was
+ a
+ lot
+ of
+ stuff
+ that
+ you
+ could
+
+
+get
+ for
+ free.
+ Spotify
+ was
+ giving
+ away
+
+
+Google
+ Home
+ Mini.
+ Echo
+ Dots
+ were
+ sold
+
+
+for
+ pennies.
+ I
+ actually
+ got
+ my
+ first
+
+
+Alexa
+ from
+ my
+ realtor
+ as
+ a
+ Christmas
+
+
+gift.
+ And
+ this
+ guy
+ I
+ got
+ from
+ Spotify
+
+
+for
+ free.
+ They
+ were
+ sold
+ in
+ Costco
+ for
+
+
+pennies
+ if
+ not
+ in
+ bulk.
+ And
+ they
+ were
+
+
+meant
+ to
+ be
+ cheap.
+ The
+ plan
+ was
+ that
+ you
+
+
+could
+ actually
+ get
+ a
+ device
+ and
+ use
+ it
+
+
+to
+ buy
+ more
+ things
+ off
+ of
+ Amazon.
+ Order
+
+
+groceries
+ through
+ Amazon.
+ Order
+ products
+
+
+on
+ Amazon
+ marketplace.
+ Play
+ music
+ and
+
+
+movies
+ if
+ you
+ subscribe
+ to
+ Prime.
+ But
+
+
+even
+ for
+ those
+ things,
+ it
+ was
+ not
+ an
+
+
+exceptionally
+ reliable
+ product.
+ Example,
+
+
+I
+ live
+ in
+ Toronto.
+ Is
+ Amazon
+ Fresh
+
+
+available
+ in
+ Toronto?
+
+
+>> Amazon
+ Fresh
+ isn't
+ currently
+ available
+
+
+in
+ Toronto.
+ You
+ can
+ still
+ order
+
+
+groceries
+ through
+ Amazon.ca
+ A
+ with
+
+
+standard
+ delivery,
+ but
+ the
+ same
+ day
+ or
+
+
+ultra
+ fast
+ service
+ hasn't
+ launched
+ in
+
+
+Canada
+ yet.
+
+
+>> The
+ business
+ model
+ behind
+ Alexa
+ and
+ Echo
+
+
+Dot
+ was
+ similar
+ to
+ that
+ of
+ Las
+ Vegas.
+ If
+
+
+you
+ ever
+ searched,
+
+
+>> it's
+ an
+ interesting
+ comparison.
+
+
+>> Alexa,
+ please
+ don't
+ talk
+ to
+ me
+ for
+ the
+
+
+next
+ hour.
+
+
+>> Got
+ it.
+ I'll
+ be
+ quiet
+ for
+ the
+ next
+ hour.
+
+
+>> Great.
+
+
+>> Talk
+ to
+ you
+ later.
+ [laughter]
+
+
+If
+ you
+ ever
+ search
+ hotels
+ or
+ flights
+ to
+
+
+Vegas,
+ they're
+ surprisingly
+ affordable
+
+
+for
+ a
+ major
+ US
+ city.
+ They're
+ not
+
+
+expensive
+ at
+ all
+ because
+ the
+ expectation
+
+
+is
+ that
+ you'll
+ spend
+ money
+ on
+ gambling.
+
+
+So,
+ you
+ get
+ a
+ cheap
+ way
+ to
+ get
+ in,
+ but
+
+
+you're
+ expected
+ to
+ spend
+ more
+ once
+
+
+you're
+ in.
+ Except
+ in
+ Vegas,
+ lots
+ of
+
+
+people
+ actually
+ gamble.
+ People
+ who
+
+
+bought
+ Echo
+ mostly
+ asked
+ for
+ the
+
+
+weather.
+ people
+ would
+ find
+ half
+ the
+
+
+features
+ they
+ would
+ ever
+ use
+ in
+ the
+
+
+first
+ few
+ hours.
+ Between
+ 2017
+ and
+ 2021,
+
+
+the
+ sales
+ of
+ Amazon
+ Echo
+ plummeted.
+ And
+
+
+they
+ plummeted
+ because
+ Alexa
+ and
+ Echo
+
+
+were
+ built
+ around
+ Amazon
+ ecosystem,
+
+
+Amazon
+ Marketplace,
+ Amazon
+ shopping,
+
+
+Amazon
+ everything.
+ They
+ could
+ have
+
+
+opened
+ it
+ to
+ many
+ more
+ vendors,
+ but
+ they
+
+
+chose
+ to
+ lock
+ it
+ to
+ Amazon.
+ In
+ fact,
+ in
+
+
+September,
+ Amazon
+ blocked
+ Meta's
+
+
+assistant,
+ Muse,
+ from
+ shopping
+ on
+
+
+Amazon.com.
+
+
+Why?
+ Because
+ Amazon
+ made
+ more
+ than
+ $68
+
+
+billion
+ last
+ year
+ on
+ ads
+ from
+ people
+
+
+browsing
+ the
+ pages.
+ And
+ when
+ an
+ agent
+
+
+like
+ Muse
+ shops
+ on
+ your
+ behalf,
+ you
+
+
+don't
+ see
+ the
+ ads.
+ So,
+ it's
+ not
+ that
+
+
+they
+ can't
+ make
+ it
+ a
+ [music]
+
+
+choice.
+ It
+ is
+ 100%
+ technically
+ possible.
+
+
+they
+ choose
+ not
+ to
+ make
+ it
+ fully
+
+
+agentic.
+ What
+ I'm
+ trying
+ to
+ say
+ is
+ that
+
+
+if
+ you
+ go
+ back
+ to
+ the
+ original
+ idea
+
+
+behind
+ Alexa,
+ not
+ the
+ vision,
+ but
+ the
+
+
+execution
+ of
+ that
+ vision,
+ it
+ was
+ never
+
+
+meant
+ to
+ be
+ a
+ super
+ strong
+ assistant.
+ It
+
+
+was
+ marketed
+ as
+ an
+ assistant,
+ but
+ it
+ was
+
+
+never
+ built
+ as
+ one.
+ It
+ was
+ built
+ as
+ a
+
+
+sales
+ platform.
+ It
+ had
+ other
+ features
+
+
+like
+ being
+ a
+ decent
+ speaker,
+ but
+ the
+
+
+cash
+ cow
+ was
+ always
+ supposed
+ to
+ be
+
+
+selling
+ more
+ Amazon,
+ which
+ never
+
+
+happened.
+ This
+ explains
+ why
+ despite
+
+
+Genai
+ being
+ around
+ for
+ the
+ past
+ 4
+ years,
+
+
+they
+ did
+ not
+ build
+ a
+ masterpiece
+ of
+ an
+
+
+assistant.
+ Even
+ though
+ it's
+ 100%
+
+
+possible,
+ if
+ they
+ built
+ Alexa
+ Plus
+
+
+properly
+ with
+ a
+ Gentuite
+ and
+ do
+
+
+everything
+ kind
+ of
+ assistant,
+ they
+ would
+
+
+have
+ to
+ raise
+ prices
+ on
+ both
+ Echo
+ Dot
+
+
+and
+ Prime
+ subscription.
+ [music]
+ Even
+
+
+now,
+ Alexa
+ Plus
+ with
+ all
+ its
+ flaws
+ is
+
+
+only
+ available
+ for
+ Prime
+ members.
+ But
+
+
+building
+ it
+ properly
+ would
+ mean
+ they'd
+
+
+have
+ to
+ charge
+ you
+ even
+ more.
+ The
+ second
+
+
+explanation,
+ in
+ my
+ opinion,
+ is
+
+
+leadership.
+
+
+If
+ you're
+ thinking,
+ well,
+ they
+ must
+ have
+
+
+the
+ brightest
+ brains
+ of
+ tech
+ sitting
+ in
+
+
+those
+ labs.
+ What's
+ so
+ difficult
+ about
+
+
+it?
+ Actually,
+ you
+ will
+ be
+ surprised.
+ It
+
+
+is
+ hard.
+ A
+ strong
+ tech
+ leadership
+ can
+
+
+make
+ it
+ or
+ break
+ it.
+ Meta
+ is
+ actually
+ a
+
+
+fantastic
+ example.
+ Meta
+ isn't
+ doing
+
+
+great
+ with
+ models.
+ Lama
+ isn't
+ bad,
+ but
+
+
+it's
+ not
+ entropic
+ or
+ open
+ AAI.
+ Even
+
+
+their
+ newest
+ model,
+ New
+ Spark,
+ is
+ behind
+
+
+Gemini,
+ GBT,
+ and
+ Claude
+ on
+ reasoning
+ on
+
+
+Meta's
+ own
+ benchmarks.
+ So
+ instead
+ of
+
+
+joining
+ a
+ model
+ race
+ that
+ they
+ cannot
+
+
+win,
+ at least
+ not
+ right
+ now,
+ they
+
+
+poached
+ Alexander
+ Wang
+ and
+ built
+ a
+ solid
+
+
+product.
+ [music]
+
+
+Under
+ Wang's
+ leadership,
+ they
+ launched
+
+
+Muse.
+ And
+ Muse
+ is
+ a
+ masterpiece
+ of
+ an
+
+
+assistant.
+ So
+ yes,
+ leadership
+ does
+ play
+
+
+a
+ massive
+ role.
+ And
+ it's
+ not
+ just
+
+
+corporate
+ talk.
+ Even
+ when
+ you
+ have
+ the
+
+
+smartest
+ minds
+ in
+ the
+ room,
+ you
+ have
+ to
+
+
+know
+ where
+ this
+ ship
+ is
+ going
+ to
+ go.
+
+
+Google
+ launched
+ a
+ Genai
+ version
+ of
+
+
+Google
+ Home
+ in
+ 20125.
+ And
+ yes,
+ it
+ has
+
+
+similar
+ problems
+ as
+ Alexa
+ Plus.
+ It
+ did
+
+
+improve
+ drastically
+ in
+ conversation
+ and
+
+
+understanding,
+ but
+ it's
+ buggy.
+ People
+
+
+asked
+ it
+ to
+ turn
+ a
+ light
+ on
+ and
+ then
+ off
+
+
+after
+ 5
+ minutes.
+ It
+ switches
+ it
+ on
+ but
+
+
+sets
+ a
+ standard
+ timer
+ for
+ 5
+ minutes
+
+
+instead
+ of
+ turning
+ it
+ off.
+ Somebody
+
+
+asked
+ it
+ to
+ recommend
+ vegetarian
+ meals
+
+
+but
+ not
+ all
+ of
+ the
+ meals
+ that
+ are
+
+
+recommended
+ were
+ vegetarian.
+ Google
+ like
+
+
+Amazon
+ also
+ placed
+ Google
+ Assistant
+
+
+inside
+ a
+ physical
+ device.
+ Google
+ Home
+
+
+became
+ the
+ primary
+ place
+ for
+ the
+
+
+assistant
+ same
+ as
+ Alexa
+ and
+ Echo.
+ But
+
+
+then
+ the
+ speaker
+ itself
+ became
+ part
+ of
+
+
+the
+ Nest
+ family
+ and
+ they
+ changed
+ the
+
+
+whole
+ narrative
+ to
+ smart
+ homes.
+
+
+Thermostats,
+ cameras,
+ doorbells,
+ it's
+
+
+all
+ about
+ your
+ home.
+ So
+ the
+ question
+ is,
+
+
+okay,
+ if
+ it's
+ not
+ meant
+ to
+ be
+ super
+
+
+agentic
+ and
+ do
+ everything
+ kind
+ of
+
+
+assistant,
+ your
+ company
+ that
+ is
+ also
+ a
+
+
+lab,
+ how
+ can
+ it
+ be
+ so
+ unreliable
+ at
+ the
+
+
+main
+ use
+ case
+ that
+ it's
+ supposed
+ to
+
+
+serve,
+ the
+ home
+ use
+ case?
+ Google's
+ own
+
+
+media
+ says
+ that
+ a
+ lot
+ of
+ smart
+ features
+
+
+were
+ not
+ fully
+ upgraded
+ and
+ that
+ it
+ is
+
+
+safest
+ to
+ check
+ factual
+ responses
+ before
+
+
+relying
+ on
+ them.
+ So,
+ you're
+ basically
+
+
+saying
+ that
+ you
+ knew
+ that
+ it
+ wasn't
+
+
+great
+ even
+ with
+ Gemini
+ and
+ you
+ shipped
+
+
+it
+ anyway.
+ Why
+ management
+ accepted
+ that
+
+
+level
+ of
+ quality
+ is
+ not
+ clear.
+ Again,
+
+
+from
+ technical
+ standpoint,
+ there
+ is
+
+
+nothing
+ impossible
+ about
+ making
+ it
+ a
+
+
+fully
+ integrated
+ smart
+ home
+ product
+ with
+
+
+very
+ strong
+ assistant
+ functions.
+ You
+
+
+don't
+ need
+ another
+ scientific
+
+
+breakthrough
+ for
+ it.
+ [music]
+ So,
+ why
+ did
+
+
+they
+ ship
+ it
+ halfbaked?
+ I
+ can
+ explain
+ it
+
+
+through
+ leadership.
+ Again,
+ they
+ had
+ a
+
+
+lot
+ of
+ turbulence
+ on
+ the
+ Google
+
+
+Assistant
+ team
+ and
+ many
+ people
+ were
+ laid
+
+
+off,
+ which
+ goes
+ back
+ to
+ the
+ problem
+ of
+
+
+leadership.
+ And
+ last
+ but
+ not
+ least,
+
+
+Siri.
+
+
+Apple
+ promised
+ a
+ smart
+ Siri
+ in
+ 2024.
+
+
+Then
+ it
+ got
+ delayed,
+ then
+ again,
+ and
+
+
+again.
+ When
+ it
+ finally
+ shipped
+ in
+ iOS
+ 27
+
+
+this
+ September,
+ it
+ was
+ built
+ on
+ Gemini
+
+
+and
+ people
+ say
+ it's
+ still
+ not
+ great.
+ If
+
+
+we
+ go
+ back
+ to
+ when
+ Siri
+ launched
+ in
+
+
+2010,
+ it
+ was
+ a
+ startup
+ that
+ Apple
+
+
+bought.
+ Steve
+ Jobs
+ called
+ the
+ founders
+
+
+offering
+ to
+ buy.
+ The
+ founders
+ declined,
+
+
+but
+ then
+ eventually
+ sold
+ it
+ to
+ Apple
+ for
+
+
+$200
+ million.
+ [music]
+
+
+Jobs
+ convinced
+ them
+ that
+ he
+ understood
+
+
+the
+ vision
+ and
+ he
+ promised
+ that
+ it
+ would
+
+
+make
+ Siri
+ to
+ Apple
+ products.
+ Even
+ back
+
+
+then,
+ the
+ CEO
+ of
+ the
+ startup
+ predicted
+
+
+that
+ in
+ 5
+ years,
+ everybody's
+ going
+ to
+
+
+have
+ a
+ virtual
+ assistant
+ to
+ which
+ they
+
+
+would
+ delegate
+ a
+ lot
+ of
+ the
+ menial
+
+
+tasks.
+ That
+ was
+ a
+ little
+ bit
+ ahead
+ of
+
+
+its
+ time,
+ but
+ the
+ vision
+ has
+ always
+ been
+
+
+to
+ make
+ it
+ a
+ doer
+ and
+ make
+ it
+ perform
+
+
+all
+ sorts
+ of
+ functions
+ from
+ a
+ restaurant
+
+
+reservation
+ to
+ a
+ weekend
+ planning.
+ That
+
+
+vision
+ never
+ really
+ came
+ to
+ life,
+ but
+ we
+
+
+all
+ got
+ hope
+ 2
+ and
+ 1/2
+ years
+ ago
+ when
+
+
+they
+ announced
+ that
+ Siri
+ would
+ become
+
+
+very
+ smart.
+ They
+ promised
+ context
+
+
+understanding,
+ on-screen
+ awareness,
+
+
+hundreds
+ of
+ actions
+ across
+ the
+ apps,
+
+
+lots
+ of
+ different
+ things,
+ all
+ before
+
+
+they
+ had
+ proved
+ that
+ they
+ could
+ make
+ it
+
+
+reliable
+ enough
+ to
+ ship.
+ Bloomberg
+
+
+reported
+ that
+ Siri
+ was
+ built
+ on
+ two
+
+
+systems.
+ The
+ old
+ one
+ working
+ on
+ simple
+
+
+commands
+ and
+ the
+ new
+ one
+ being
+ LLM
+
+
+based,
+ but
+ making
+ them
+ operate
+ together
+
+
+created
+ a
+ lot
+ of
+ problems
+ with
+ quality.
+
+
+Then
+ they
+ started
+ shipping
+ small
+
+
+improvements,
+ but
+ that
+ didn't
+ really
+
+
+change
+ anything.
+ And
+ lastly,
+ it
+ all
+ came
+
+
+down
+ to
+ a
+ leadership.
+ New
+ York
+ Times
+
+
+reported
+ that
+ head
+ of
+ Siri,
+ Robbie
+
+
+Walker,
+ and
+ tech
+ executive
+ Sebastian
+
+
+Marin
+ competed
+ over
+ responsibility,
+ but
+
+
+then
+ Tim
+ Cook
+ lost
+ confidence
+ in
+ AI
+
+
+chief
+ and
+ Siri
+ moved
+ under
+ Mike
+
+
+Rockwell.
+ What
+ is
+ a
+ saving
+ grace
+ for
+
+
+Apple,
+ however,
+ is
+ that
+ Apple
+ is
+ the
+
+
+only
+ one
+ who
+ broke
+ out
+ of
+ the
+ cycle
+ of
+
+
+jackof
+ alltrades,
+ master
+ of
+ none.
+ When
+ I
+
+
+say
+ that,
+ I'm
+ talking
+ about
+ these
+
+
+devices
+ in
+ general.
+ Instead
+ of
+ building
+
+
+something
+ that
+ is
+ a
+ halfbaked
+ assistant
+
+
+and
+ a
+ halfbaked
+ smart
+ home
+ controller
+
+
+and
+ a
+ halfbaked
+ speaker,
+ they
+ kept
+
+
+Siri's
+ reputation
+ tied
+ [music]
+ to
+ the
+
+
+iPhone.
+ And
+ then
+ they
+ built
+ a
+ fantastic
+
+
+speaker
+ and
+ marketed
+ it
+ as
+ an
+ audio
+
+
+device.
+ They
+ didn't
+ kill
+ HomePod
+ by
+
+
+putting
+ bad
+ Siri
+ in
+ it.
+ [music]
+ They
+
+
+sold
+ it
+ and
+ positioned
+ it
+ as
+ a
+ speaker.
+
+
+To
+ that
+ you
+ may
+ say,
+ "Okay,
+ but
+ Google
+
+
+also
+ has
+ Home
+ Max
+ as
+ an
+ audio
+ device."
+
+
+Yes,
+ but
+ by
+ that
+ time
+ the
+ original
+
+
+Google
+ Home
+ had
+ already
+ been
+ coupled
+ and
+
+
+perceived
+ [music]
+ as
+ the
+ assistant
+
+
+speaker
+ the
+ same
+ way
+ Echo
+ was.
+ To
+ be
+
+
+fair,
+ HomePod
+ wasn't
+ a
+ smooth
+ ride.
+
+
+Apple
+ cut
+ prices
+ on
+ it,
+ then
+ it
+ got
+
+
+discontinued,
+ then
+ it
+ got
+ brought
+ back
+
+
+two
+ years
+ later.
+ But
+ nobody
+ makes
+ videos
+
+
+asking
+ why
+ HomePod
+ is
+ dumb.
+ Siri's
+
+
+reputation
+ did
+ not
+ affect
+ a
+ perfectly
+
+
+normal
+ speaker.
+
+
+What
+ I'm
+ getting
+ at
+ is
+ basically
+ this.
+
+
+Amazon
+ and
+ Google
+ conflated
+ three
+
+
+completely
+ separate
+ things
+ in
+ one.
+ It's
+
+
+not
+ a
+ great
+ assistant.
+ It
+ is
+ an
+ okay
+
+
+smart
+ home
+ controller,
+ but
+ you
+ don't
+
+
+need
+ a
+ device
+ for
+ a
+ smart
+ home.
+ You
+ can
+
+
+do
+ everything
+ through
+ your
+ phone.
+ And
+
+
+it's
+ a
+ decent
+ speaker.
+ It's
+ everything
+
+
+at
+ once
+ and
+ nothing
+ on
+ its
+ own.
+ When
+ the
+
+
+assistant
+ fails,
+ the
+ whole
+ device
+ gets
+
+
+hated.
+ They
+ bolted
+ AI
+ to
+ the
+ assistant,
+
+
+but
+ that
+ didn't
+ fix
+ the
+ problem
+ because
+
+
+the
+ problem
+ is
+ the
+ business
+ model.
+ The
+
+
+good
+ news
+ is
+ that
+ the
+ engine
+ that
+ series
+
+
+founders
+ pitched
+ in
+ 2010
+ is
+ finally
+
+
+buildable
+ and
+ Apple
+ sold
+ half
+ the
+
+
+equation.
+ Keep
+ the
+ assistant
+ in
+ your
+
+
+phone
+ and
+ sell
+ the
+ speaker
+ as
+ a
+ speaker
+
+
+till
+ you
+ can
+ build
+ a
+ truly
+ reliable
+
+
+product.
+ Now,
+ let's
+ hope
+ somebody
+ builds
+
+
+the
+ other
+ half.
+ But
+ until
+ then,
+ I'm
+
+
+going
+ to
+ stick
+ to
+ the
+ only
+ thing
+ I
+ use
+
+
+my
+ Google
+ Home
+ for.
+ Hey
+ Google,
+ play
+
+
+music
+ for
+ my
+ cat.
+ playing
+ calming
+ music
+
+
+for
+ cats.
+ Relaxation,
+ deep
+ sleep,
+ stress
+
+
+relief,
+ peaceful
+ piano
+ music
+ on
+ YouTube
+
+
+music.
+ Amazing.
+ Bye.
