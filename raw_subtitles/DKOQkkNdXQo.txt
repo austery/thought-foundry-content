@@ -1,0 +1,3984 @@
+static
+ uh
+ put
+ up
+ a
+ position
+ for
+ junior
+
+
+uh
+ data
+ scientist
+ which
+ was
+ actually
+
+
+quite
+ rare.
+ People
+ do
+ do
+ not
+ hire
+ junior
+
+
+data
+ scientist
+ anymore.
+ We
+ got
+ I
+ think
+
+
+3,000
+ applications
+ within
+ a
+ day.
+ Uh
+
+
+there
+ was
+ no
+ data
+ scientist
+ 20
+ years
+
+
+ago.
+ Data
+ scientist
+ is
+ a
+ invented
+ job
+
+
+title.
+ It's
+ not
+ like
+ a
+ farmer,
+ right?
+
+
+It's
+ not
+ like
+ a
+ toilet
+ cleaner
+ even.
+
+
+It's
+ a
+ invented
+ role.
+
+
+>> So
+ the
+ question
+ I
+ was
+ wrestling
+ with
+ was
+
+
+what
+ if
+ they
+ fire
+ everyone
+ uh
+ in
+ in
+
+
+analytics,
+ right?
+ Will
+ the
+ company
+
+
+actually
+ lose
+ anything
+ or
+ will
+ they
+
+
+continue
+ to
+ continue
+ to
+ sustain?
+
+
+>> I
+ always
+ tell
+ data
+ scientists
+ to
+ stop
+
+
+being
+ a
+ data
+ scientist
+ [laughter]
+
+
+>> and
+ to
+ [clears throat]
+ be
+ a
+ builder
+
+
+actually
+
+
+>> and
+ everyone
+ can
+ do
+ everyone's
+ job
+ like
+
+
+all
+ hands
+ on
+ the
+ deck
+ all
+ the
+ time.
+ How
+
+
+do
+ you
+ guys
+ think
+ about
+ the
+ the
+ unique
+
+
+or
+ the
+ best
+ skill
+ that
+ you
+ think
+ stand
+
+
+out
+ among
+ this
+ like
+ product
+ or
+
+
+competitive
+ space?
+
+
+>> I
+ just
+ want
+ to
+ say
+ that
+ I'm
+ actually
+
+
+very
+ honored
+ to
+ be
+ invited
+ to
+ an
+ event.
+
+
+Um
+ often
+ you
+ know
+ people
+ are
+ like
+ oh
+ you
+
+
+know
+ talk
+ about
+ management
+ and
+ talk
+
+
+about
+ this
+ but
+ [clears throat]
+ it's
+
+
+actually
+ my
+ goal
+ since
+ starting
+ Sundial
+
+
+to
+ be
+ accepted
+ as
+ part
+ of
+ the
+ data
+ and
+
+
+analytics
+ community
+ Dr.
+ reasons
+ and
+ um
+
+
+he
+ is
+ a
+ super
+ prominent
+ voice
+ in
+ the
+
+
+data
+ and
+ growth
+ community.
+ Um
+ we
+ all
+
+
+know
+ that
+ he's
+ got
+ an
+ incredible
+ uh
+
+
+advocate
+ community
+ member
+ with
+ um
+ the
+
+
+the
+ way
+ that
+ he
+ has
+ um
+ uh
+ been
+ at
+ 10
+
+
+cent
+ Meta
+ and
+ Amazon
+ and
+ he
+ has
+ 300,000
+
+
+followers
+ for
+ his
+ content
+ channel
+ for
+
+
+his
+ Chinese
+ podcast.
+ Um
+ he
+ is
+ super
+
+
+passionate
+ now
+ about
+ AI
+ education
+ as
+
+
+well
+ as
+ uh
+ been
+ one
+ of
+ the
+ great
+ leading
+
+
+voices
+ for
+ experimentation.
+
+
+>> All right,
+ let's
+ get
+ down
+ to
+ brass
+ tax.
+
+
+>> So
+ what
+ made
+ you
+ decide
+ that
+ we
+ all
+
+
+needed
+ this
+ book
+ that
+ you
+ decided
+ to
+
+
+write?
+
+
+>> Right.
+ So
+ the
+ question
+ I
+ was
+ wrestling
+
+
+with
+ was
+ what
+ if
+ they
+ fire
+ everyone
+ uh
+
+
+in
+ in
+ analytics,
+ right?
+ Will
+ the
+ company
+
+
+actually
+ lose
+ anything
+ or
+ will
+ they
+
+
+continue
+ to
+ continue
+ to
+ sustain?
+ So
+
+
+wrestling
+ with
+ this
+ question
+ for
+ a
+ few
+
+
+months
+ I
+ realized
+ that
+ oh
+ we
+ are
+
+
+actually
+ like
+ helping
+ launch
+ successful
+
+
+products.
+ That's
+ what
+ analytics
+ like
+
+
+core
+ value
+ prop
+ is
+ right.
+ So
+ if
+ we
+ are
+
+
+to
+ launch
+ successful
+ products
+ through
+
+
+analytics
+ then
+ it
+ means
+ we
+ need
+ to
+
+
+understand
+ product
+ development
+ better
+ so
+
+
+we
+ can
+ apply
+ analytics
+ better.
+ Right?
+
+
+the
+ the
+ gap
+ I
+ saw
+ was
+ most
+ of
+ the
+ other
+
+
+domains
+ like
+ accounting,
+ finance,
+
+
+whatever
+ domain
+ you
+ think
+ about
+ had
+ very
+
+
+standardized
+ like
+ theory
+ behind
+ them
+
+
+right
+ over
+ a
+ period
+ of
+ time
+ over
+ decades
+
+
+they've
+ all
+ been
+ like
+ kind
+ of
+ fine-tuned
+
+
+a
+ lot
+ but
+ for
+ product
+ analytics
+
+
+that
+ did
+ not
+ exist
+ it
+ was
+ just
+ in
+ the
+
+
+kind
+ of
+ minds
+ of
+ people
+ at
+ few
+ places
+
+
+right
+ so
+ um
+ my
+ motivation
+ was
+ okay
+ how
+
+
+do
+ we
+ like
+ now
+ like
+ kind
+ of
+ uh
+ have
+ a
+
+
+playbook
+ that
+ that
+ kind
+ captures
+ all
+ his
+
+
+knowledge
+
+
+>> and
+ the
+ reason
+ this
+ book
+ exists
+ is
+
+
+because
+ of
+ our
+ ignorance.
+ We
+ didn't
+ know
+
+
+how
+ hard
+ it
+ is
+ knowing
+ how
+ hard
+ it
+ is.
+ I
+
+
+think
+ the
+ book
+ would
+ never
+ get
+ started.
+
+
+If
+ you
+ have
+ the
+ right
+ expectation
+ can
+ be
+
+
+done,
+ but
+ it's
+ very
+ hard.
+ I
+ feel
+ like
+
+
+it's
+ almost
+ like
+ a
+ startup,
+ right?
+ You
+
+
+go
+ in
+ there
+ with
+ ignorance,
+ but
+ along
+
+
+the
+ way
+ you
+ try
+ to
+ do
+ something
+ amazing.
+
+
+Uh
+ yeah,
+ so
+ I
+ gravitated
+
+
+towards
+ growth
+ in
+ my
+ career
+ at
+ Amazon.
+ I
+
+
+was
+ economist
+ building
+ models
+ but
+ I
+ was
+
+
+thinking
+ like
+ my
+ value
+ as
+ a
+ data
+ person
+
+
+is
+ because
+ I
+ can
+ do
+ hard
+ things.
+ I
+ can
+
+
+do
+ modeling.
+ Then
+ Facebook
+ uh
+ that
+ got
+
+
+thrown
+ away.
+ I
+ remember
+ like
+ my
+ first
+
+
+job
+ was
+ I
+ build
+ a
+ logistic
+ regression
+
+
+model
+ or
+ rental
+ force
+ model
+ and
+ uh
+ my
+
+
+manager
+ now
+ wasn't
+ happy
+ about
+ how
+ slow
+
+
+I
+ was
+ even
+ though
+ I
+ was
+ like
+ much
+ faster
+
+
+than
+ I
+ was
+ Amazon.
+ He
+ put
+ a
+ couple
+ data
+
+
+points
+ and
+ wrote
+ a
+ note,
+ published
+ it,
+
+
+tagged
+ all
+ the
+ VPs
+ and
+ uh
+ that
+ was
+ it.
+
+
+And
+ I
+ realized,
+ okay,
+ the
+ value
+ of
+ data
+
+
+is
+ to
+ make
+ better
+ decisions.
+ It's
+ not
+
+
+about
+ doing
+ hard
+ things.
+ But
+ uh
+ like
+
+
+halfway
+ writing
+ the
+ book,
+ I
+ realized,
+
+
+okay,
+ I
+ knew
+ this
+ by
+ like
+ talking
+ with
+
+
+people,
+ by
+ looking
+ at
+ different
+ notes,
+
+
+by
+ for
+ example
+ taking
+ the
+ Facebook
+
+
+analytics
+ boot
+ camp
+ or
+ by
+ making
+
+
+mistakes.
+ there
+ was
+ no
+ book
+ out
+ there
+
+
+that
+ I
+ can
+ learn
+ all
+ this
+ information
+
+
+from.
+
+
+>> So
+ what
+ do
+ most
+ people
+ or
+ companies
+ get
+
+
+wrong
+ about
+ product
+ growth?
+
+
+>> Um
+ that's
+ a
+ great
+ question.
+ Um
+ I
+ think
+ a
+
+
+lot
+ of
+ people
+ get
+ it
+ wrong
+ when
+ they
+ saw
+
+
+PLG
+ just
+ organic
+ growth.
+ They
+ just
+ rely
+
+
+too
+ much
+ on
+ word
+ of
+ mouth
+ without
+
+
+investing
+ in
+ marketing
+ or
+ even
+ picking
+
+
+up
+ the
+ good
+ leads
+ uh
+ for
+ for
+ sales.
+ I've
+
+
+seen
+ people
+ who
+ you
+ know
+ like
+ okay
+ our
+
+
+product
+ is
+ growing
+ like
+ we're
+ just
+ going
+
+
+to
+ not
+ going
+ to
+ grow
+ but
+ actually
+ I
+
+
+think
+ the
+ real
+ PLG
+ is
+ like
+ a
+ flywheel
+ so
+
+
+basically
+ you
+ kind
+ of
+ create
+ this
+ kind
+
+
+of
+ word
+ math
+ from
+ the
+ early
+ believers
+
+
+early
+ adopters
+ and
+ then
+ you
+ actually
+
+
+need
+ the
+ marketing
+ to
+ actually
+ to
+ help
+
+
+to
+ amplify
+ that
+ impact
+ to
+ get
+ to
+ the
+
+
+people
+ who
+ wouldn't
+ have
+ discovered
+ uh
+
+
+you
+ like
+ organically
+ and
+ then
+ all
+ and
+
+
+all
+ these
+ kind
+ of
+ leads
+ like
+ good
+ leads
+
+
+who
+ become
+ your
+ champion
+ and
+ then
+ you
+
+
+should
+ send
+ them
+ to
+ sales
+ and
+ then
+ they
+
+
+become
+ enterprise
+ deal
+ And
+ on
+ the
+ other
+
+
+side
+ they
+ actually
+ one
+ is
+ it
+ proves
+ you
+
+
+know
+ your
+ your
+ product
+ is
+ inter
+ is
+
+
+enterprise
+ ready
+ and
+ on
+ the
+ other
+ side
+
+
+also
+ a
+ great
+ story
+ to
+ actually
+ boost
+
+
+your
+ PLG
+ u
+ funnel
+ as
+ well
+ because
+ people
+
+
+have
+ more
+ multiple
+ trust
+ in
+ your
+
+
+product.
+ Uh
+ so
+ I
+ think
+ that's
+ probably
+
+
+one
+ of
+ the
+ biggest
+ mistake
+ I've
+ been
+
+
+seeing
+ people.
+
+
+>> How
+ do
+ you
+ know
+ if
+ we
+ have
+ product
+
+
+market
+ fit
+ you
+ know
+ even
+ before
+ the
+
+
+growth
+ stage
+ and
+ can
+ you
+ help
+ us
+ define
+
+
+it
+ more
+ quantitatively
+ as
+ well?
+
+
+>> Um
+ how
+ do
+ you
+ measure
+ quantitatively?
+ I
+
+
+think
+ um
+ like
+ again
+ retention
+ is
+ the
+
+
+king
+ is
+ how
+ we
+ say
+ we
+ think
+ uh
+ that's
+
+
+the
+ strongest
+ indicator
+ for
+ product
+
+
+marketing
+ right
+ I
+ was
+ telling
+ actually
+
+
+Julie
+ earlier
+ like
+ you
+ know
+ I
+ I
+ used
+ to
+
+
+do
+ this
+ uh
+ boot
+ camp
+ or
+ analytics
+ camp
+
+
+at
+ meta
+ for
+ anyone
+ new
+ in
+ analytics
+ and
+
+
+I
+ used
+ to
+ do
+ the
+ retention
+ class
+ and
+ one
+
+
+of
+ the
+ slide
+ I
+ used
+ to
+ have
+ was
+ around
+
+
+emphasizing
+ the
+ importance
+ of
+ retention
+
+
+and
+ one
+ of
+ and
+ I
+ had
+ three
+ quotes
+ one
+
+
+was
+ from
+ Julie
+ The
+ other
+ one
+
+
+[clears throat]
+ is
+ from
+ Alex
+ Schles
+ and
+
+
+then
+ like
+ from
+ Shrek.
+ So
+ you
+ know
+ all
+
+
+the
+ leaders
+ at
+ Meta,
+ they
+ they
+ deeply
+
+
+care
+ about
+ retention,
+ right?
+ Like
+ no
+ one
+
+
+is
+ going
+ to
+ like
+ sign
+ off
+ on
+ any
+ product
+
+
+without
+ looking
+ at
+ retention.
+ So
+ that's
+
+
+really
+ the
+ strongest
+ indicator
+ for
+
+
+retention.
+
+
+>> Okay,
+ Wisy,
+ you
+ are
+ the
+ king
+ of
+
+
+experimentation.
+ you
+ gave
+ us
+ some
+ advice
+
+
+on
+ when
+ should
+ companies
+ start
+
+
+experimenting
+ and
+ um
+ how
+ like
+ what
+
+
+what's
+ like
+ a
+ healthy
+ amount
+ that
+ is
+
+
+>> I
+ actually
+ consider
+ coverage
+ to
+ be
+ a
+
+
+more
+ important
+ metric
+ than
+ number
+ of
+
+
+experiments
+ and
+ the
+ reason
+ is
+ if
+ you
+ can
+
+
+cover
+ 100%
+ of
+ your
+ new
+ features
+ you
+
+
+cannot
+ cherrapic
+ the
+ danger
+ in
+ doing
+
+
+experimentation
+ is
+ uh
+ people
+ cherrapic
+
+
+people
+ only
+ want
+ to
+ confirm
+ theirel
+
+
+itself
+ and
+ this
+ becomes
+ a
+ culture
+ issue.
+
+
+So
+ they
+ only
+ put
+ up
+ their
+ best
+ candidate
+
+
+to
+ experiment
+ and
+ experimentation
+
+
+creates
+ no
+ value
+ in
+ that
+ case
+ because
+
+
+like
+ if
+ uh
+ you
+ expect
+ this
+ to
+ be
+
+
+positive,
+ experimentation
+ confirm
+ this
+
+
+is
+ positive.
+ Experimentation
+ doesn't
+
+
+create
+ any
+ value.
+ The
+ value
+ is
+ you
+
+
+expect
+ this
+ to
+ be
+ positive
+ and
+ realize
+
+
+it's
+ actually
+ negative.
+ Then
+ you
+
+
+actually
+ need
+ to
+ think
+ update
+ your
+
+
+mental
+ model
+ or
+ update
+ your
+ product
+ road
+
+
+map.
+ uh
+ so
+ I
+ do
+ consider
+ coverage
+ to
+ be
+
+
+important
+ and
+ at
+ Facebook
+ we
+ can
+ almost
+
+
+do
+ 100%
+ coverage
+ especially
+ on
+ the
+
+
+important
+ big
+ features
+ that
+ is
+ not
+ hard
+
+
+to
+ do
+ but
+ I
+ realize
+ most
+ company
+ do
+ not
+
+
+have
+ the
+ right
+ uh
+ infrastructure
+
+
+I
+ I'm
+ going
+ to
+ turn
+ this
+ into
+ a
+ static
+
+
+pitch
+ [laughter]
+ even
+ though
+ I
+ left
+ the
+
+
+company
+ so
+ the
+ the
+ the
+ technical
+ insight
+
+
+is
+ you
+ need
+ to
+ have
+ feature
+ flags
+ and
+
+
+experimentation
+ as
+ one
+ system
+ so
+ feature
+
+
+flags
+ and
+ experimentation
+ is
+ the
+ same
+
+
+object.
+ The
+ every
+ feature
+ you
+ use
+ a
+
+
+feature
+ flag,
+ you
+ get
+ an
+ experimentation
+
+
+for
+ free.
+ If
+ you
+ have
+ this
+ setup,
+ you
+
+
+can
+ do
+ 100%
+ coverage.
+ But
+ the
+ system
+ is
+
+
+actually
+ uh
+ easy
+ to
+ start,
+ hard
+ to
+
+
+scale.
+
+
+>> Wise,
+ why
+ don't
+ you
+ tell
+ us
+ a
+ little
+ bit
+
+
+more
+ about
+ data
+ storytelling?
+ You
+ know,
+
+
+I
+ think
+ you
+ are
+ out
+ there,
+ you
+ make
+ a
+
+
+lot
+ of
+ content,
+ you
+ you
+ evangelize,
+
+
+you're
+ very
+ effective
+ at
+ that.
+ How
+ do
+
+
+you
+ think
+ about
+ storytelling
+ as
+ a
+ skill
+
+
+for
+ people
+ who
+ work
+ in
+ data?
+ So
+ I
+ think
+
+
+there
+ are
+ two
+ things
+ like
+ storytelling
+
+
+as
+ a
+ data
+ person
+ and
+ data
+ storytelling
+
+
+they're
+ not
+ always
+ the
+ same
+ but
+ uh
+ my
+
+
+opinion
+ actually
+ I
+ heard
+ this
+ opinion
+
+
+from
+ my
+ uh
+ previous
+ manager
+ and
+ I
+
+
+strongly
+ agree
+ that's
+ the
+ two
+ most
+
+
+underappreciated
+ or
+ underdeveloped
+
+
+skills
+ of
+ a
+ data
+ person
+ is
+ storytelling
+
+
+and
+ making
+ charts.
+ uh
+ the
+ like
+ a
+ strong
+
+
+charts
+ just
+ tells
+ you
+ all
+ the
+ things
+ you
+
+
+need
+ to
+ know
+ and
+ it's
+ very
+ compelling
+
+
+and
+ storytelling
+ is
+ this
+ like
+ I
+ I
+ don't
+
+
+remember
+ how
+ many
+ meetings
+ I
+ went
+ into
+
+
+and
+ uh
+ if
+ I
+ put
+ a
+ table
+ or
+ if
+ I
+ put
+
+
+charts
+ even
+ though
+ I
+ can
+ make
+ very
+
+
+informative
+ charts
+ uh
+ after
+ like
+ five
+
+
+five
+ minutes
+ probably
+ after
+ people
+ walk
+
+
+off
+ out
+ of
+ the
+ meeting
+ and
+ ask
+ them
+ you
+
+
+know
+ do
+ you
+ remember
+ my
+ points
+ they
+
+
+don't
+ uh
+ but
+ I
+ think
+ sometimes
+ into
+ the
+
+
+human
+ brain
+ we
+ just
+ don't
+ remember
+ the
+
+
+facts
+ that
+ that
+ well.
+ But
+ once
+ you
+ can
+
+
+do
+ it
+ behind
+ a
+ story,
+ you
+ can
+ actually
+
+
+tell
+ a
+ story.
+ Uh
+ I
+ found
+ this
+ to
+ be
+
+
+super
+ effective
+ on
+ designers
+ actually.
+
+
+Whenever
+ I
+ talk
+ to
+ a
+ designer,
+ I
+ always
+
+
+kind
+ of
+ try
+ to
+ screenshot
+ the
+ user
+
+
+journey
+ and
+ then
+ it
+ becames
+ a
+ pain
+ uh
+
+
+for
+ the
+ for
+ the
+ designer.
+ If
+ I
+ just
+ say
+
+
+you
+ know
+ uh
+ this
+ conversion
+ rate
+ is
+ 12%
+
+
+is
+ too
+ low.
+ They
+ don't
+ feel
+ anything.
+
+
+But
+ if
+ I
+ say
+ oh
+ this
+ stat
+ is
+ broken
+
+
+that's
+ why
+ the
+ conversion
+ I
+ believe
+ the
+
+
+conversion
+ rate
+ is
+ so
+ is
+ so
+ low
+ he
+ will
+
+
+fix
+ it
+ immediately.
+ So
+ I
+ think
+ story
+
+
+drives
+ resonance
+ drives
+ empathy
+ and
+
+
+drives
+ action.
+
+
+>> You
+ you
+ said
+ more
+ can
+ you
+ say
+ more
+ about
+
+
+charts
+ and
+ what
+ is
+ a
+ really
+ good
+ chart?
+
+
+>> I
+ think
+ a
+ really
+ good
+ chart
+ uh
+ says
+ one
+
+
+point
+ and
+ one
+ point
+ only.
+ Like
+ I
+ see
+ a
+
+
+mistake
+ a
+ lot
+ of
+ data
+ folks
+ might
+ make
+
+
+is
+ we
+ try
+ to
+ overload
+ information
+ on
+
+
+charts.
+ We
+ try
+ to
+ make
+ a
+ chart
+ that
+ is
+
+
+so
+ sophisticated.
+ It
+ tells
+ 10
+ story
+ at
+
+
+the
+ same
+ time.
+ But
+ just
+ uh
+ this
+ ties
+ to
+
+
+the
+ action
+ part,
+ right?
+ Think
+ about
+ what
+
+
+kind
+ of
+ action
+ you
+ want
+ to
+ inform
+ or
+ you
+
+
+want
+ to
+ recommend
+ and
+ just
+ have
+ one
+
+
+chart.
+ If
+ you
+ have
+ start
+ three
+ stories
+
+
+or
+ three
+ data
+ points
+ or
+ conclusions,
+
+
+make
+ three
+ charts
+ and
+ make
+ it
+ very
+ clear
+
+
+and
+ annotate.
+ Yeah.
+ So
+ I
+ think
+ the
+
+
+strongly
+ opinion
+ chart
+ is
+ a
+ good
+ chart.
+
+
+It's
+ almost
+ like
+ you
+ know
+ your
+ story
+ and
+
+
+then
+ find
+ a
+ chart
+ that's
+ like
+ the
+ best
+
+
+representation
+ of
+ the
+ point
+ you're
+
+
+trying
+ to
+ make.
+
+
+>> Yeah.
+ When
+ the
+ minute
+ you
+ said
+ that
+ I
+
+
+remember
+ like
+ uh
+ it
+ it
+ actually
+ took
+ it
+
+
+was
+ not
+ comfortable
+ for
+ me
+ as
+ a
+ data
+
+
+scientist
+ to
+ have
+ opinions
+
+
+>> but
+ I
+ think
+ a
+ good
+ data
+ person
+ should
+
+
+have
+ opinions.
+
+
+>> Okay.
+ This
+ is
+ a
+ question
+ for
+ all
+ of
+ you
+
+
+because
+ of
+ course
+ we're
+ in
+ the
+ AI
+ era
+
+
+and
+ that's
+ changing
+ everything.
+ Uh
+ maybe
+
+
+for
+ good
+ or
+ for
+ bad.
+ I'm
+ very
+ curious
+ to
+
+
+hear
+ about
+ what
+ do
+ you
+ think
+ will
+ change
+
+
+like
+ what
+ are
+ your
+ biggest
+ predictions
+
+
+for
+ how
+ teams
+ will
+ use
+ AI
+ and
+ how
+
+
+that'll
+ change
+ the
+ way
+ that
+ people
+ make
+
+
+decisions
+ or
+ use
+ data
+
+
+>> but
+ for
+ this
+ audience
+ I
+ think
+ the
+ most
+
+
+relevant
+ thing
+ is
+ the
+ definition
+ of
+ data
+
+
+is
+ very
+ strange
+ like
+ text
+ is
+ data
+ right
+
+
+but
+ when
+ we
+ think
+ about
+ data
+ we
+ think
+
+
+about
+ a
+ number
+ but
+ data
+ is
+ not
+ a
+ number
+
+
+data
+ is
+ everything
+ right
+ so
+ AI
+ just
+
+
+enabled
+ us
+ to
+ analyze
+ or
+ use
+ that
+ non
+
+
+quantitative
+ data.
+ Uh
+ and
+ it's
+ more
+
+
+important.
+ Why
+ is
+ that?
+ Because
+ people
+
+
+are
+ building
+ things
+ much
+ faster
+ now.
+ We
+
+
+can
+ not
+ not
+ only
+ experiments,
+
+
+experiments
+ takes
+ a
+ lot
+ of
+ sample
+ size.
+
+
+But
+ what
+ about
+ retention?
+ Retention
+ if
+
+
+you
+ want
+ to
+ get
+ monthly
+ retention,
+ you
+
+
+need
+ a
+ month
+ to
+ get
+ the
+ monthly
+
+
+retention
+ and
+ then
+ you
+ just
+ get
+ one
+ data
+
+
+point.
+ So
+ you
+ need
+ we
+ need
+ to
+ have
+ ways
+
+
+to
+ analyze
+ non-quantitative
+ data
+ and
+
+
+drive
+ useful
+ insights.
+ And
+ I
+ think
+ we
+
+
+can
+ do
+ that
+ actually.
+ So
+ the
+ role
+ of
+
+
+data
+ scientists
+ do
+ not
+ treat
+ us
+ as
+ a
+
+
+number
+ or
+ math
+ scientist.
+ We
+ are
+ like
+
+
+actual
+ data
+ scientist.
+
+
+>> The
+ first
+ one
+ is
+ I
+ think
+ all
+ the
+ data
+
+
+people
+ right
+ now
+ have
+ the
+ potential
+ to
+
+
+become
+ a
+ real
+ builder.
+ [laughter]
+
+
+Oh
+ thank
+ you.
+ Uh
+ because
+ to
+ be
+ honest
+ in
+
+
+my
+ opinion
+ um
+ uh
+ like
+ data
+ data
+ people
+
+
+are
+ always
+ the
+ you
+ know
+ the
+ probably
+ the
+
+
+most
+ technical
+ folks
+ outside
+ of
+
+
+engineering
+ team.
+ So
+ because
+ we
+ we
+
+
+understand
+ even
+ SQL
+ right
+ there
+ are
+ some
+
+
+logic
+ you
+ understand
+ for
+ loop
+ while
+ loop
+
+
+understand
+ conditions
+ that's
+ all
+ the
+
+
+codes
+ about
+ basically
+ right
+ uh
+ and
+ of
+
+
+course
+ engineer
+ knows
+ some
+ HTML
+ CSS
+ they
+
+
+know
+ how
+ to
+ build
+ something
+ fancier
+ uh
+
+
+but
+ now
+ we
+ have
+ AI
+ right
+ so
+ I
+ think
+ to
+
+
+me
+ uh
+ because
+ data
+ team
+ like
+ they
+ have
+
+
+this
+ kind
+ of
+ very
+ solid
+ foundation
+
+
+understand
+ the
+ data
+ understand
+ the
+
+
+business
+ very
+ well
+ also
+ we
+ are
+ also
+ kind
+
+
+of
+ the
+ center
+ of
+ kind
+ of
+ the
+
+
+communication
+ center
+ of
+ talking
+ with
+ all
+
+
+the
+ stakeholders
+ we're
+ actually
+ in
+ a
+
+
+perfect
+ place
+ to
+ become
+ a
+ builder.
+ Uh
+
+
+that's
+ something
+ I'm
+ trying
+ actually
+
+
+experimenting
+ at
+ my
+ current
+ company.
+ Uh
+
+
+I
+ recently
+ just
+ launched
+ a
+ feature
+ into
+
+
+the
+ pro
+ into
+ production
+ and
+ I
+ realized
+
+
+oh
+ my
+ god
+ that's
+ how
+ it
+ feels
+ like
+ when
+
+
+you
+ actually
+ keep people
+ on
+ using
+ your
+
+
+feature.
+ That's
+ how
+ it
+ looks
+ like
+ to
+
+
+become
+ engineer.
+ It's
+ it's
+ of
+ course
+
+
+it's
+ not
+ that
+ easy
+ but
+ it's
+ not
+
+
+impossible.
+ So
+ I
+ think
+ I
+ really
+
+
+encourage
+ everybody
+ here
+ to
+ really
+ try
+
+
+to
+ get
+ your
+ hands
+ dirty.
+ Try
+ try
+
+
+something
+ you
+ never
+ done
+ before.
+ Not
+
+
+only
+ on
+ an analytics
+ but
+ also
+ on
+
+
+something
+ else.
+ Build
+ a
+ data
+ feature
+ for
+
+
+your
+ team.
+ Right
+ now
+ I'm
+ trying
+ to
+
+
+implement
+ all
+ the
+ statistics
+ into
+ our
+
+
+product
+ as
+ well.
+ I
+ just
+ building
+ a
+
+
+feature
+ just
+ by
+ myself.
+ I'm
+ not
+ just
+ you
+
+
+know
+ doing
+ a
+ mock
+ and
+ tell
+ okay
+ this
+ is
+
+
+p
+ value
+ or
+ this
+ is
+ how
+ the
+ company
+ was
+
+
+supposed
+ to
+ look.
+ I
+ just
+ build
+ it.
+ So
+ I
+
+
+really
+ think
+ AI
+ makes
+ it
+ very
+ possible.
+
+
+So
+ the
+ question
+ is
+ uh
+ how
+ do
+ we
+ actually
+
+
+make
+ people
+ understand
+ data
+ science
+ is
+
+
+actually
+ very
+ important.
+
+
+>> Yeah.
+ How
+ do
+ we
+ tell
+ that
+ story?
+
+
+>> That's
+ a
+ great
+ question.
+ Do
+ you
+ want
+ to
+
+
+start
+ with
+ the
+ story
+ telling?
+
+
+>> [laughter]
+
+
+>> I'm
+ actually
+ not
+ a
+ good
+ person
+ for
+ this
+
+
+because
+ I
+ always
+ tell
+ data
+ scientists
+ to
+
+
+stop
+ being
+ a
+ data
+ scientist
+ [laughter]
+
+
+and
+ to
+ be
+ a
+ builder
+ actually.
+ Yeah.
+
+
+Because
+ like
+ what
+ we
+ do
+ is
+ quite
+
+
+indirect,
+ right?
+ And
+ uh
+ I
+ think
+ we
+
+
+strive
+ in
+ large
+ organizations
+ with
+
+
+complex
+ information.
+ So
+ we
+ like
+ people
+
+
+just
+ cannot
+ understand
+ data.
+ we
+ have
+ a
+
+
+specialty
+ of
+ understanding
+ it
+ well
+ and
+
+
+we
+ can
+ make
+ better
+ recommendations
+ and
+
+
+indirectly
+ drive
+ actions.
+ I
+ don't
+ like
+
+
+that.
+ I
+ want
+ to
+ just
+ make
+ the
+ action
+
+
+happen.
+ So
+ I
+ always
+ tell
+ data
+ scientists
+
+
+to
+ be
+ builders
+ but
+ not
+ the
+ other
+ way
+
+
+around.
+ I
+ don't
+ tell
+ people
+ that
+ data
+
+
+scientists
+ are
+ important
+ in
+ this
+ data
+
+
+fridge.
+ Uh
+ I
+ I
+ hope
+ all
+ data
+ scientists
+
+
+can
+ directly
+ implement
+ the
+ change.
+ They
+
+
+don't
+ have
+ to
+ rely
+ on
+ engineer
+ to
+ make
+
+
+the
+ change
+ happen.
+
+
+How
+ do
+ you
+ guys
+ think
+ about
+ the
+ the
+
+
+unique
+ or
+ the
+ best
+ skill
+ that
+ you
+ think
+
+
+stand
+ out
+ among
+ this
+ like
+ product
+ or
+
+
+competitive
+ space?
+
+
+>> I
+ think
+ the
+ the
+ the
+ my
+ answer
+ for
+ the
+
+
+general
+ population
+ is
+ the
+ same
+ for
+ all
+
+
+data
+ scientists
+ is
+ agency
+ and
+ taste.
+
+
+When
+ you
+ have
+ agency,
+ you
+ can
+ do
+ a
+ lot
+
+
+of
+ new
+ things
+ that
+ other
+ people
+ are
+ not
+
+
+think
+ about
+ doing
+ or
+ just
+ uh
+ hasn't
+ been
+
+
+able
+ to
+ execute.
+ and
+ taste
+ is
+ ultimately
+
+
+what
+ uh
+ makes
+ you
+ unique
+ and
+ makes
+ you
+
+
+you
+ know
+ having
+ better
+ decisions.
+ So
+
+
+>> I
+ probably
+ would
+ add
+ one
+ thing
+ is
+
+
+probably
+ curiosity.
+ I
+ think
+ that's
+
+
+actually
+ the
+ joy
+ behind
+ everything.
+
+
+>> I
+ think
+ evidentally
+ it
+ it
+ does
+
+
+disproportionately
+ impact
+ junior
+ roles.
+
+
+As
+ an
+ example,
+ Stac
+ put
+ up
+ a
+ position
+
+
+for
+ junior
+ uh
+ data
+ scientist
+ which
+ was
+
+
+actually
+ quite
+ rare.
+ people
+ do
+ do
+ not
+
+
+hire
+ junior
+ data
+ scientist
+ anymore.
+ We
+
+
+got
+ I
+ think
+ 3,000
+ applications
+ within
+ a
+
+
+day.
+ So
+ I
+ think
+ there
+ was
+ an
+ impact
+ and
+
+
+uh
+ it
+ disproportionately
+ impact
+ uh
+
+
+junior
+ roles
+ but
+ actually
+ I
+ invited
+
+
+Hobby
+ to
+ another
+ panel
+ and
+ H's
+ answer
+ to
+
+
+a
+ similar
+ question
+ was
+ uh
+ there
+ was
+ no
+
+
+data
+ scientist
+ 20
+ years
+ ago.
+ Data
+
+
+scientist
+ is
+ a
+ invented
+ job
+ title.
+ It's
+
+
+not
+ like
+ a
+ farmer,
+ right?
+ It's
+ not
+ like
+
+
+a
+ toilet
+ cleaner
+ even
+ it's
+ a
+ inventive
+
+
+role.
+ So
+ I
+ I
+ do
+ think
+ the
+ meaning
+ of
+ our
+
+
+role
+ is
+ gonna
+ change.
+ Uh
+ so
+ whether
+ you
+
+
+are
+ a
+ senior
+ or
+ junior
+ person
+ uh
+ go
+ for
+
+
+what
+ problem
+ you
+ are
+ solving
+ for.
+ Maybe
+
+
+the
+ senior
+ person
+ we
+ are
+ hiring
+ for
+ you
+
+
+have
+ a
+ better
+ mental
+ model
+ about
+ how
+ the
+
+
+business
+ should
+ work.
+ So
+ you
+ have
+ better
+
+
+judgment.
+ Junior
+ person
+ maybe
+ you
+ are
+
+
+more
+ versatile.
+ You
+ can
+ code
+ and
+ you
+ can
+
+
+do
+ analysis
+ and
+ you
+ have
+ a
+ statistical
+
+
+training.
+ So
+ analysis
+ actually
+ is
+
+
+rigorous.
+ So
+ I
+ think
+ if
+ you
+ break
+ down
+
+
+like
+ what
+ is
+ valuable,
+ what
+ trait
+ is
+
+
+valuable
+ especially
+ because
+ skills
+ are
+
+
+getting
+ cheaper
+ as
+ well.
+ So
+ then
+ maybe
+
+
+you
+ have
+ a
+ better
+ chance
+ of
+ landing
+ a
+
+
+job.
+ But
+ the
+ second
+ half
+ your
+ question
+ I
+
+
+was
+ wondering
+ like
+ why
+ do
+ you
+ need
+ that
+
+
+agent
+ at
+ all?
+ If
+ you
+ don't
+ see
+ the
+
+
+business
+ outcome,
+ positively
+ increase.
+ I
+
+
+think
+ the
+ reason
+ you
+ want
+ a
+ agent
+ is
+
+
+either
+ you
+ can
+ save
+ cost,
+ do
+ it
+ faster,
+
+
+or
+ you
+ can
+ do
+ new
+ things
+ that
+ you
+
+
+couldn't
+ do
+ before.
+ If
+ you
+ didn't
+ unlock
+
+
+any
+ new
+ things
+ and
+ there's
+ no
+ KPI,
+ like
+
+
+even
+ your
+ cost
+ doesn't
+ show
+ like
+ there's
+
+
+no
+ improvement,
+ don't
+ use
+ agents.
+
+
+>> All
+ right.
+ Thank
+ you.
+ Um,
+ let's
+ give
+ a
+
+
+big
+ round
+ of
+ applause
+ to
+ our
+
+
+Thank
+ you
+ everyone
+ for
+ joining
+ us
+
+
+tonight.
