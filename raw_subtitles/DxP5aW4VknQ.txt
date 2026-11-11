@@ -1,0 +1,4094 @@
+Hey
+ folks,
+ this
+ is
+ Girish,
+
+
+a principal
+ software
+ engineer
+ at
+
+
+Microsoft.
+
+
+Outside
+ my
+ job,
+ I build
+ open
+ source
+
+
+tools
+ for
+ AI
+ agents.
+
+
+One
+ of
+ them
+ is
+ MCP
+ Peacemaker,
+
+
+a
+ supervised
+ bridge
+ that
+ keeps
+ MCP
+
+
+servers
+ running.
+
+
+Before
+ we
+ start,
+ a
+ small
+ disclosure.
+
+
+The views
+ in
+ this
+ talk
+ are
+ my
+ own
+ and
+
+
+doesn't
+ represent
+ my
+ employer.
+
+
+So,
+ sub
+ agents
+ or
+ distributed
+ system.
+
+
+Over
+ the
+ past
+ year,
+ I
+ have
+ been
+ using
+
+
+agents
+ and
+ sub
+ agents
+ on
+ real
+
+
+engineering
+ work.
+
+
+Dev
+ sessions,
+ code
+ reviews,
+ instant
+
+
+crashing,
+
+
+what
+ not.
+
+
+This
+ talk
+ is
+ about
+ what
+ happens
+ when
+ one
+
+
+agent
+ hands
+ work
+ to
+ another.
+
+
+So,
+ here's
+ an
+ architecture.
+
+
+The orchestrator
+ splits
+ the task
+ and
+
+
+hands
+ the
+ pieces
+ to
+ three
+ different
+ sub
+
+
+agents.
+
+
+They all
+ run
+ at
+ the
+ same
+ time.
+
+
+They
+ all
+ read
+ from
+ the
+ same
+ shared
+
+
+state,
+
+
+conversation,
+
+
+memory
+ files,
+
+
+repo,
+ working
+ trees,
+
+
+issues,
+ vector
+ stores.
+
+
+And
+
+
+they don't
+ just
+ think,
+ they make
+ tool
+
+
+calls
+
+
+to real
+ systems
+
+
+which
+ touch
+ databases,
+ APIs,
+ CI
+ tools,
+
+
+deployment
+ pipelines.
+
+
+And
+
+
+their
+ results
+ come
+ back
+ and
+ orchestrator
+
+
+merges
+ them
+ into
+ a single
+ answer.
+
+
+An
+ orchestrator
+
+
+workers
+
+
+shared
+ mutable
+ state
+
+
+and
+ results
+ merge
+ from
+ concurrent
+
+
+executions.
+
+
+This
+ represents
+ a
+ classic
+ distributed
+
+
+system.
+
+
+I
+ have
+ known
+ how
+ to
+ reason
+ with
+
+
+distributed
+ systems
+ for
+ decades,
+
+
+but
+ none
+ of
+ the
+ setup
+
+
+came
+ with
+ it.
+
+
+What
+ you
+ get
+ is
+ a function
+ that
+ takes
+ a
+
+
+string
+ and
+ returns
+ a string.
+
+
+Failures
+ we
+ hit
+ are
+ not
+ new,
+ are
+ not
+
+
+specific
+ to
+ AI
+ agents.
+
+
+They are
+ classic
+ distributed
+ system
+
+
+failures.
+
+
+Partial
+ failure,
+
+
+A normal
+ call
+ that
+ fails
+ halfway
+
+
+through.
+
+
+And
+ returns
+ an
+ exception
+ error
+ code.
+
+
+In a
+ sub
+ agent
+ case
+
+
+it
+ returns
+ text
+ that
+ looks
+ like
+ a
+
+
+success.
+
+
+Dirty
+ reads.
+
+
+Normally
+ we have
+ isolations
+ versions.
+
+
+Here
+
+
+every
+ worker
+ reads
+ one
+ shared
+ context
+
+
+including
+ things
+ other
+ worker
+ only
+
+
+guessed.
+
+
+Unbounded
+ fanout.
+
+
+A busy
+ service
+
+
+pushes
+ back
+ [clears throat]
+
+
+with
+ the
+ queues
+
+
+429s
+ 503s.
+
+
+In
+ agents
+
+
+orchestrator
+ does
+ not
+ see
+ any
+ of
+ this.
+
+
+It
+ just
+ starts
+ in
+ the worker.
+
+
+Retries.
+
+
+Normal
+ distributed
+ systems
+ we
+ build
+ an
+
+
+idempotency
+ to
+ make
+ retries
+ reliable.
+
+
+In agents
+
+
+a retry
+ sub
+ agent
+ runs
+ the
+ whole
+ task
+
+
+again
+
+
+with
+ side
+ effects
+ included.
+
+
+For
+ each
+ of
+ these
+ case
+
+
+I'll
+ name
+ the
+ concept
+ it
+ all
+ it
+ is.
+
+
+Then
+ I'll
+ put
+ them
+ together
+ as
+ a
+
+
+consistency
+ [clears throat]
+
+
+model
+ I'm
+ proposing.
+
+
+And
+ walk
+ through
+ why
+ each
+ part
+ is
+ there.
+
+
+Start
+ with
+ the
+ failure
+ model
+ because
+
+
+everything
+ else
+ depends
+ on
+ it.
+
+
+A friendly
+ case
+ is
+ a crash
+ down.
+
+
+A
+ process
+ that
+ was
+ running
+ correctly
+
+
+stops
+
+
+and
+ stays
+ stopped.
+
+
+A
+ sub
+ agent
+ that
+ throws
+ an
+ error
+ in
+ this
+
+
+box
+
+
+it's
+ easy
+ to
+ handle.
+
+
+Next,
+ no
+ reply.
+
+
+The
+ call
+ is
+ lost
+ or
+ it's
+ very
+ late.
+
+
+We'll come
+ back
+ to
+ this
+ soon.
+
+
+The hot
+ case
+ is
+ the
+ one
+ from
+
+
+Byzantine
+ generals
+ problem.
+
+
+A
+ component
+ that
+ gives
+ conflicting
+
+
+information.
+
+
+The
+ process
+ answers
+ and
+ the answer
+ is
+
+
+wrong.
+
+
+A
+ half
+ finished
+ sub
+ agent
+ sits
+ close
+ to
+
+
+the
+ box.
+
+
+It
+ is
+ not
+ malicious
+ but
+ from
+ the
+ outside
+
+
+it
+ looks
+ the
+ same.
+
+
+It
+ does
+ not
+ crash.
+ It
+ answers
+ fluently.
+
+
+Let's
+ jump
+ into
+ this.
+
+
+The sub
+ agent
+
+
+that
+ half
+ finished
+ does
+ not
+ raise.
+
+
+It
+ returns
+ normal
+ looking
+ text
+
+
+with
+ the
+ same
+ type
+ as
+ success.
+
+
+I
+ talked
+ about
+ one
+ version
+ of
+ this
+
+
+in
+ one
+ of
+ my
+ talks.
+
+
+We
+ pointed
+ an
+ agent
+ at
+ an
+
+
+Here's
+ an
+ illustration
+ I
+ used
+ there
+
+
+with
+ three
+ different
+ paths
+ which
+ gave
+
+
+the
+ same
+ answer.
+
+
+The first
+ one,
+
+
+it
+ pulled
+ a
+ telemetry
+ and
+ compared
+ with
+
+
+a
+ non-benign
+ set.
+
+
+It
+ actually
+ did
+ the
+ work.
+
+
+The second
+ one,
+
+
+it
+ matched
+ against
+ a
+ title
+
+
+it
+ has
+ seen
+ before
+
+
+and
+ gave
+ the
+ response.
+
+
+The third
+ alert,
+
+
+it
+ didn't
+ do
+ anything.
+
+
+It
+ just
+
+
+had
+ a resonator.
+
+
+All
+ three
+ are
+ categorized
+ as
+ benign
+
+
+with
+ the same
+ level
+ of
+ confidence
+
+
+and
+ nothing
+ down
+ stream
+ can
+ tell
+ these
+
+
+apart.
+
+
+The orchestrator
+ can
+ read
+ the
+
+
+conclusion,
+ it
+ cannot
+ read
+ how
+ much
+ work
+
+
+was
+ behind
+ it.
+
+
+Now,
+
+
+the call
+ gets
+ no
+ reply.
+
+
+The
+ orchestrator
+ sent
+ work
+ and
+ the
+
+
+timeout
+ fired.
+
+
+From
+ here,
+
+
+three
+ worlds
+ look
+ the
+ same.
+
+
+The sub
+ agent
+ is
+ still
+ working.
+ It
+
+
+crashed
+
+
+and
+ the
+ reply
+ was
+ lost.
+
+
+It's
+ a hard
+ limit,
+ not
+ a tooling
+ gap.
+
+
+The
+ FLP
+ paper
+ from
+ 1985
+ showed
+ that
+ in
+
+
+an
+ asynchronous
+ system
+
+
+with
+ even
+ one
+ faulty
+ process,
+
+
+agreement
+ can
+ fail
+ to
+ finish.
+
+
+Chandra
+ and
+ Toueg
+ answered
+ in
+ 1996
+ was
+
+
+failure
+ detectors
+ that
+ can
+ make
+
+
+mistakes.
+
+
+They
+ suspect,
+ they do
+ not
+ know.
+
+
+I
+ hit
+ both
+ directions
+
+
+in
+ my
+ own
+ open
+ source
+ project
+
+
+MCP
+ pacemaker
+ supervised
+ bridge.
+
+
+A server
+ whose
+ first
+ run
+ downloads
+
+
+itself
+
+
+hit
+ the
+ 30
+ second
+ call
+ timeout
+
+
+and
+ looked
+ broken.
+
+
+It
+ was
+ slow,
+ not
+ dead.
+
+
+We
+ fixed
+ it
+
+
+by
+ giving
+ initialize
+ its
+ own
+ timeout.
+
+
+Now
+ the
+ other
+ way,
+
+
+the
+ server
+ crashed
+
+
+during
+ a
+ call.
+
+
+The
+ call
+ then
+ timed
+ out
+
+
+and
+ the
+ timeout
+ overrode
+ the
+ exit
+ code
+
+
+that
+ explained
+ the
+ crash.
+
+
+We
+ We
+ it
+
+
+by recording
+ the
+ time
+ out
+ only
+ when
+ it
+
+
+was
+ alive.
+
+
+So,
+
+
+timeout
+ is
+ a suspicion.
+
+
+Record
+ it
+ as
+ unknown
+
+
+and
+ keep
+ the
+ real
+ cause.
+
+
+And
+
+
+now
+
+
+make
+ failure
+ a
+ value.
+
+
+Let's
+ take
+ this
+ illustration.
+
+
+A sub
+ agent
+ written
+ the
+ status,
+
+
+what
+ it
+ did,
+
+
+what
+ it
+ did
+ not
+ do,
+
+
+the
+ evidence
+
+
+and
+ any
+ side
+ effects.
+
+
+Marshall
+ is
+ a normal
+ answer
+ here.
+
+
+The
+ protocols
+ already
+ have
+ a slot
+ for
+
+
+this.
+
+
+In
+
+
+A
+ task
+ can
+ end
+ as
+ completed,
+ failed,
+
+
+canceled
+ or
+ rejected
+
+
+or
+ stop
+ and
+ ask
+ for
+ input.
+
+
+In
+ MCP
+
+
+a
+ tool
+ result
+ can
+ say
+
+
+is
+ error
+ true.
+
+
+But
+ a
+ sub
+ agent
+
+
+can
+ still
+ say
+ completed
+
+
+while
+ its
+ text
+ says
+ something
+ else.
+
+
+And
+ a loop
+ that
+ only
+ reads
+ the
+ text
+ now
+
+
+sees
+ the
+ difference.
+
+
+Another
+ split.
+
+
+Checking
+ a
+ condition
+ and
+ getting
+ no
+
+
+is
+ a different
+ fact
+ from
+ not
+ being
+ able
+
+
+to
+ check
+ at
+ all.
+
+
+My
+ own
+ individual
+ draft
+ on
+ evaluation
+
+
+states
+
+
+talks
+ about
+ this.
+
+
+Collapse
+ the
+ two
+ and
+ you
+ change
+ what
+
+
+gets
+
+
+and
+ who
+ gets
+ paid
+ and
+ what
+ the
+ audit
+
+
+says
+ later.
+
+
+Next,
+
+
+dirty
+ reads.
+
+
+Let's
+ take
+ this
+ made
+ up
+ example
+ from
+ one
+
+
+of
+ my
+ talk.
+
+
+A
+ sub
+ agent
+ destroys
+
+
+it
+ writes
+ into
+ a
+ shared
+ context
+
+
+saying
+ that
+ error
+ rate
+ fell
+ by
+ 80
+ %.
+
+
+It
+ did
+ not
+ measure
+ that,
+ it
+ inferred
+ it.
+
+
+Now
+
+
+two
+ other
+ sub
+ agents
+ read
+ from
+ the
+ same
+
+
+shared
+ context.
+
+
+The
+ second
+ sub
+ agent
+ writes
+ the
+
+
+then
+ picks
+ the
+ same
+ sentence
+ up.
+
+
+The
+ third
+ agent
+ writes
+ the
+
+
+and
+ uses
+ it
+ as
+ a
+ reason
+ to
+ proceed.
+
+
+The
+ orchestrator
+
+
+merges
+ all
+ the
+ all
+ these
+ three.
+
+
+Three
+ artifacts
+ agree.
+
+
+It
+ is
+ once
+ unsupported
+ sentence
+
+
+read
+ three
+ different
+ times.
+
+
+The
+ 1995
+ critique
+ of
+ SQL
+ isolation
+
+
+levels
+ define
+ a dirty
+ read
+ as
+
+
+you read
+ a
+ value
+ before
+ the
+ writer
+
+
+commits
+ or
+ rolls
+ back.
+
+
+The
+ shared
+ context
+ a
+ guess
+ is
+ readable
+
+
+the
+ moment
+ it
+ is
+ written
+
+
+nothing
+ marks
+ it
+ as
+ unchecked.
+
+
+The
+ regular
+ fix
+
+
+to
+ is
+ to
+ ask
+ three
+ sub
+ agents
+ and
+ get
+ a
+
+
+quorum.
+
+
+Quorums
+ do
+ work
+ for
+ a
+ specific
+ reason.
+
+
+In
+ waited
+ voting
+ from
+ 1979
+
+
+the
+ read
+ quorum
+ plus
+ write
+ quorum
+ is
+
+
+greater
+ than
+ total.
+
+
+So
+ every
+ read
+ overlaps
+ the
+ latest
+ write.
+
+
+The
+ overlap
+ is
+ a
+ guarantee.
+
+
+In
+ sub
+ agent's
+ case
+
+
+the three
+ sub
+ agents
+ that
+ read
+ the
+ same
+
+
+shared
+ context
+ does
+ not
+ give
+ you
+ that.
+
+
+They are
+ not
+ independent
+ copies.
+
+
+They
+ read
+ the
+ same
+ guess.
+
+
+Their
+ agreement
+ is
+ one
+ source
+ counted
+
+
+three
+ different
+ times.
+
+
+Let's
+ pick
+ a
+ consistency
+ model.
+
+
+In
+ databases
+ we
+ have
+ a
+ for
+ this.
+
+
+Linearizable
+
+
+every
+ operation
+ appears
+ to
+ happen
+ at
+ one
+
+
+point
+ in
+ real
+ time
+ order.
+
+
+Sequential
+
+
+one
+ total
+ order
+ that
+ respects
+ each
+
+
+process
+ own
+ order.
+
+
+Causal
+
+
+operations
+ that
+ are
+ causally
+ related
+
+
+appear
+ in
+ the
+ same
+ order
+ everywhere.
+
+
+Session
+ guarantees
+
+
+they
+ are
+ promises
+ to
+ one
+ client
+
+
+like
+ read
+ your
+ writes
+ and
+ monotonic
+
+
+reads.
+
+
+Eventual
+
+
+if
+ no
+ new
+ updates
+ are
+ made
+
+
+reads
+ eventually
+ return
+ the
+ last
+ value.
+
+
+A shared
+ context
+ gives
+ you
+ none
+ of
+
+
+these.
+
+
+There's
+ no
+ stated
+ guarantee
+ at
+ all.
+
+
+And
+ you
+ don't
+ need
+ the
+ top
+ consistency
+
+
+models.
+
+
+The strongest
+ models
+ cannot
+ stay
+
+
+available
+ when
+ the network
+ splits.
+
+
+Causal
+ and
+ session
+ guarantees
+ can
+ as
+
+
+long
+ as
+ each
+ clients
+ stick
+ to
+ one
+ place.
+
+
+For
+ sub
+ agents
+
+
+that
+ place
+ is
+ orchestrated.
+
+
+So,
+
+
+here's
+ the
+ consistency
+ model
+ I
+ use
+ for
+
+
+sub-agents.
+
+
+I
+ call
+ it
+
+
+safe
+ handoff.
+
+
+Yes
+ stands
+ for
+
+
+source
+ feeds.
+
+
+Every
+ fact
+ a
+ worker
+ hands
+ on
+ carries
+ its
+
+
+source
+
+
+version
+ as
+ of
+ time
+ and
+ revision.
+
+
+And
+ decisions
+ read
+ only
+ fresh
+ source
+
+
+facts.
+
+
+A
+
+
+at
+ most
+ once
+ effects.
+
+
+Every
+ write
+ has
+ identity
+ and
+ a
+ single
+
+
+user
+ approval
+ for
+ that
+ exact
+ action.
+
+
+An
+ outcome
+
+
+[clears throat]
+ is
+ read
+ back
+ never
+
+
+replayed.
+
+
+F
+
+
+fanout
+ budgets.
+
+
+Each
+ downstream
+ gets
+ a
+ gate
+ and
+ a
+
+
+bounded
+ weight.
+
+
+And
+ refusal
+ counts
+ as
+ a failure.
+
+
+E
+ stands
+ for
+ explicit
+ outcomes.
+
+
+Every
+ handoff
+ ends
+ in
+ a named
+ state.
+
+
+And
+ the timeout
+ is
+ unknown
+
+
+with
+ its
+ cost
+ kept.
+
+
+This
+ consistency
+ model
+
+
+is
+ the
+ one
+ I
+ use
+ for
+ my
+ own
+ sub-agents.
+
+
+It's
+ not
+ a
+ universal
+ model.
+
+
+It's
+ based
+ off
+ my
+ own
+ public
+ work.
+
+
+Some
+ of
+ it
+ is
+ in
+ my
+ FCP
+ pacemaker
+ bridge
+
+
+and
+ some
+ are based
+ on
+ my
+ other
+ talks
+ and
+
+
+my
+ own
+ internet
+ draft.
+
+
+Now
+ let's
+ see
+
+
+what's
+ behind
+ each
+ letter.
+
+
+S
+ source
+ feeds.
+
+
+It's
+ the answer
+ to
+ let
+ he
+ reads
+
+
+where
+ one
+ worker's
+ guess
+ becomes
+ another
+
+
+worker's
+ fact.
+
+
+What
+ helps
+ is
+ to
+ treat
+ every
+ fact
+ as
+ a
+
+
+record,
+ not
+ a sentence.
+
+
+Lamport's
+ 1978
+ paper
+ defined
+ when
+ one
+
+
+event
+ happened
+ before
+ another.
+
+
+The
+ facts
+ provenance
+ is
+ that
+ record.
+
+
+What
+ it
+ was
+ read
+ from
+ and
+ when.
+
+
+Let's
+ take
+ this
+
+
+made-up
+ example.
+
+
+The
+ record
+ names
+
+
+the
+ claim
+ and
+ its
+ revision.
+
+
+The
+ source
+ and
+ its
+ version.
+
+
+The
+ scope
+
+
+and
+ three
+ different
+ times,
+
+
+when
+ the
+ data
+ was
+ current,
+
+
+when
+ we
+ read
+ it,
+ and
+ when
+ we
+ used
+ it.
+
+
+Freshness
+ is
+ checked
+ with
+ the
+ fact
+ is
+
+
+used.
+
+
+In
+ this
+ illustration,
+ the
+ data
+ ends
+ at
+
+
+9
+ 05.
+
+
+We
+ read
+ it
+ at
+ 9
+ 06
+
+
+and
+ we
+ decided
+ at
+ 9
+ 07.
+
+
+In
+ this
+ case,
+
+
+we picked
+ a
+ 5
+ minute
+ limit.
+
+
+So
+ the
+ data
+
+
+decision
+ at
+ 9
+ 07
+ it's
+ fine.
+
+
+Now
+ at
+ 9
+ 15
+ the
+ second
+ decision
+ came
+ in.
+
+
+Because
+ our
+ freshness
+ limit
+ is
+ 5
+
+
+this
+ is
+ still
+ record.
+
+
+We
+ reject
+ it.
+
+
+And
+ we
+ say
+ that
+ the
+ next
+ decision
+ needs
+
+
+another
+ read.
+
+
+This
+ is
+ how
+ you
+ separate
+ an
+ observation
+
+
+from
+ an inference.
+
+
+An observation
+ has
+ a source
+ and
+ a
+ read
+
+
+time.
+
+
+An
+ inference
+ has
+ none.
+
+
+A
+ at
+ most
+ effects
+ is
+ about
+ retries.
+
+
+This
+ is
+ an
+ illustration
+
+
+from
+ my
+ article
+ about
+ NCP
+ pacemaker
+
+
+bridge.
+
+
+The
+ orchestrator
+ delegates
+ a task.
+
+
+The sub
+ agent
+ calls
+ a
+ tool
+
+
+which
+ does
+ a
+ real
+ write
+
+
+like
+
+
+creating
+ a PR.
+
+
+The reply
+ is
+ lost.
+
+
+The orchestrator
+ knows
+ one
+ thing
+ the
+
+
+outcomes
+ are
+ unknown.
+
+
+So
+
+
+it
+ retries
+ the
+ whole
+ task.
+
+
+The
+ write
+ happens
+ again.
+
+
+This
+ is
+ a
+ classic
+ problem.
+
+
+In 1984
+ our
+ PC
+ paper
+
+
+it
+ says
+ that
+ if
+ the
+ call
+ returns
+
+
+[snorts]
+ the
+ procedure
+ ran
+ precisely
+
+
+once.
+
+
+If
+ you
+ get
+ an
+ exception
+
+
+it
+ ran
+ once
+ or
+ not
+ at
+ all.
+
+
+And
+ you
+ are not
+ told
+ which.
+
+
+So
+
+
+you
+ pick
+ a delivery
+ semantic
+
+
+at
+ most
+ once.
+
+
+Don't
+ retry
+ and
+ accept
+ the
+ fact
+ that
+ it
+
+
+may
+ be
+ lost.
+
+
+At
+ least
+ once
+ retry
+
+
+and
+
+
+the
+ duplicates
+ of
+ possibly.
+
+
+Exactly
+ once.
+
+
+It
+ happened
+ at
+ least
+ once
+ and
+ this
+ is
+ a
+
+
+way
+ we
+ can
+ deduplicate.
+
+
+Maybe
+ by
+ using
+ an
+
+
+In
+ MCP,
+ idempotent
+ hint
+ is
+ only
+ a
+ hint
+
+
+and
+ it
+ defaults
+ to
+ false.
+ If
+ you need
+
+
+it,
+ you
+ build
+ it.
+
+
+Here's
+ a
+ small
+ design
+ from
+ my
+ bridge
+ on
+
+
+how
+ I
+ handle
+ it.
+
+
+When
+ a
+ client
+ comes
+ back
+ after
+ a
+
+
+restart,
+
+
+the
+ bridge
+ replace
+ the
+ client's
+ record
+
+
+initialized
+ against
+ a fresh
+ server.
+
+
+That's
+ safe.
+ It's
+ just
+ a handshake
+
+
+and
+ it
+ does
+ not
+ restore
+ tool
+ state.
+
+
+What
+ it
+ never
+ replace
+ is
+ an
+ uncertain
+
+
+tool
+ call.
+
+
+When
+ a shared
+ server
+ is
+ recycled,
+ the
+
+
+bridge
+ drains
+ it
+
+
+and
+ calls
+ still
+ unanswered
+ at
+ the
+
+
+deadline
+ fail
+ as
+ potentially
+ excluded.
+
+
+That
+ status
+ is
+ honest.
+
+
+It
+ tells
+ the
+ caller
+ to
+ go
+ and
+ check.
+
+
+What
+ helped
+ us
+ giving
+ every
+ side
+ effect
+
+
+an
+ identity.
+
+
+Approval
+
+
+binds
+ the
+ exact
+ action.
+
+
+It's
+ only
+ used
+ once.
+
+
+After
+ the
+ call,
+ read
+ back
+ by
+ that
+
+
+identity.
+
+
+Submitted
+ is
+ not
+ confirmed.
+ Confirmed
+
+
+means
+ you observe
+ the
+ effect.
+
+
+The
+ last
+ part
+ of
+ A,
+
+
+it
+ shows
+ up
+ when
+ work
+ passes
+ and
+
+
+resumes.
+
+
+A
+ lease
+ is
+ a
+ lock
+ with
+ a timeout.
+
+
+Martin
+ Kleppmann's
+ post
+ about
+
+
+distributed
+ locking
+ shows
+ this
+ problem.
+
+
+A
+ client
+ passes
+ while
+ holding
+ it.
+
+
+The
+ lease
+ expires.
+
+
+Someone
+ else
+ takes
+ over.
+
+
+In
+ the first
+ client
+ wakes
+ up
+ and
+ writes
+
+
+an
+ email.
+
+
+The
+ fix
+ he
+ proposes
+
+
+a fencing
+ token.
+
+
+A number
+ that
+ goes
+ up
+ every
+ time
+ the
+
+
+lock
+ is
+ granted.
+
+
+The
+ storage
+ remembers
+ the
+ his
+ token
+
+
+it
+ has
+ seen
+
+
+and
+ rejects
+ any
+ write
+ with a
+ older
+ one.
+
+
+Sub
+ agents
+
+
+pause
+ and
+ resume
+ all
+ the
+ time.
+
+
+My
+ other
+ talk,
+ as
+ I put
+ it,
+
+
+restore
+ context,
+ not
+ side
+ effects.
+
+
+So,
+ treat
+ an
+ approval
+ like
+ a fencing
+
+
+token.
+
+
+One
+ action,
+ one
+ use.
+
+
+Checked
+ at
+ the
+ gate,
+
+
+not
+ remembered
+ in
+ the
+ prompt
+ or
+
+
+conversation.
+
+
+My
+ bridge
+
+
+fixed
+ the
+ same
+ class
+ of
+ bug.
+
+
+A stale
+ exit
+ or
+ a
+ deleted
+ resume
+ can
+ no
+
+
+longer
+ remove
+ or
+ bring
+ back
+ a
+
+
+replacement
+ session.
+
+
+F
+ fanout
+ budgets
+
+
+is
+ about
+ unbounded
+ fanout.
+
+
+This
+ flow
+ control
+ or
+ the
+ lack
+ of
+ it.
+
+
+I
+ hit
+ this
+ issue
+ in
+ my
+ own
+ MCP
+ bridge
+
+
+before
+ it
+ had
+ a limit
+ on
+ cold
+ starts.
+
+
+Many
+ sessions
+ start
+ their
+ service
+
+
+at
+ the same
+ time
+
+
+through
+ NPX.
+
+
+They
+ share
+ one
+ package
+ cache.
+
+
+Every
+ one
+ of
+ them
+ failed
+ with
+ NPM's
+ lock
+
+
+compromise
+ error.
+
+
+Nothing
+ in
+ any
+ single
+ request
+ was
+ wrong.
+
+
+The
+ failure
+ was
+ the concurrency
+ itself.
+
+
+And
+ when
+ a
+ downstream
+ does
+ push
+ back,
+
+
+it
+ can
+ arrive
+ as
+ plain
+ text.
+
+
+This
+ is
+ MCP
+ specs
+ own
+ example
+ of
+ a tool
+
+
+execution
+ error.
+
+
+A rate
+ limit
+
+
+as
+ one
+ sentence.
+
+
+The
+ model
+ reads
+ a sentence.
+
+
+The
+ orchestrator
+ code
+ may
+ never
+ look.
+
+
+The
+ next
+ worker
+ starts
+ an
+ EP.
+
+
+So,
+
+
+I introduced
+ a quota
+ budget
+ in
+ my
+
+
+bridge.
+
+
+Cold
+ starts
+ that
+ use
+ a
+ package
+ manager
+
+
+go
+ through
+ a
+ gate
+
+
+two at
+ a time
+ by
+ default.
+
+
+Everyone
+ else
+ waits.
+
+
+And the
+ wait
+ is
+ bounded
+ at
+ 15
+ seconds.
+
+
+Past
+ that,
+
+
+the start
+ goes
+ ahead
+ without
+ a gate.
+
+
+And
+
+
+I
+ documented
+ why
+
+
+a corrupted
+ cache
+ is
+ a risk
+
+
+while
+ a hung
+ client
+ request
+ is
+
+
+certainty.
+
+
+That
+ is
+ a choice
+ for
+ availability
+ made
+
+
+on
+ purpose
+ and
+ written
+ down.
+
+
+And
+ I
+ also
+ built
+ a cap
+ on
+ sessions.
+
+
+At
+ the
+ cap,
+
+
+a
+ new
+ a
+ new
+ session
+ waits
+ up
+ to 10
+
+
+seconds
+
+
+and
+ then
+ it's
+ refused.
+
+
+That
+ refusal
+ now
+ counts
+ as a
+ failure
+
+
+depth.
+
+
+Another
+ bug.
+
+
+Capacity
+ has
+ to
+ be
+ reserved
+ before
+ the
+
+
+synchronous
+ start,
+ not
+ after.
+
+
+Otherwise,
+
+
+queued
+ starts
+ overbook
+ the
+ cap.
+ That
+ is
+
+
+a
+ check,
+ then
+ act
+ race.
+
+
+For
+ sub
+ agents,
+
+
+give
+ the
+ orchestrator
+ a number
+ per
+
+
+downstream,
+
+
+a
+ bounded
+ weight,
+ and
+ a refusal
+ it
+ can
+
+
+see.
+
+
+Now,
+
+
+E,
+ the
+ explicit
+ outcomes.
+
+
+Every
+ handoff
+
+
+ends
+ in
+ a named
+ state,
+ like
+ stale
+ or
+
+
+unknown,
+ not
+ just
+ text.
+
+
+The last
+ piece
+ is
+ who
+ decided
+ that
+
+
+state.
+
+
+Treats
+ an
+ agent
+ output
+ as
+ untrusted
+
+
+input,
+
+
+the
+ same
+ way
+ you
+ treat
+ a
+ request
+ body
+
+
+from
+ the
+ internet.
+
+
+The orchestrator
+ owns
+ the
+ checks
+ in
+
+
+code.
+
+
+Does
+ the result
+ match
+ the schema?
+
+
+Is
+ the
+ evidence
+ there?
+ Is
+ it
+ fresh
+
+
+enough?
+
+
+Do
+ the
+ numbers
+ hold
+ when
+ you
+ recompute
+
+
+them?
+
+
+If
+ your
+ check
+ fails,
+ the
+ step
+ returns
+ a
+
+
+refusal
+ with
+ a reason.
+
+
+It
+ does
+ not
+ pass
+ the text
+ along
+ with
+ a
+
+
+warning
+ paragraph
+ underneath.
+
+
+If
+ the
+ same
+ model
+ can
+ skip
+ a
+ check
+ and
+
+
+declare
+ it
+ passed,
+
+
+you
+ have
+ a request,
+ not
+ a
+ boundary.
+
+
+Here's
+ a
+ made-up
+ example
+ from
+ another
+
+
+talk.
+
+
+A
+ sub
+ agent
+ says
+ the
+ error
+ rate
+ fell.
+
+
+Before,
+ it
+ was
+ 10
+ errors
+ in
+ 1,000
+
+
+requests.
+ After,
+
+
+it
+ was
+ 6
+ errors
+ in
+ 600
+ requests.
+
+
+It
+ went
+ from
+ 10
+ to
+ 6,
+ and
+ it
+ claimed
+
+
+that
+ our rate
+ fell.
+
+
+But
+
+
+when
+ we
+ computed
+ the
+ rate,
+
+
+it's
+ both
+ 1
+ percent.
+
+
+We
+ recomputed
+ it,
+ and
+ then
+ the
+ claim
+ is
+
+
+refused.
+
+
+A
+ supported
+ answer
+ is
+ fine.
+ A
+ deliberate
+
+
+handoff
+ to
+ a
+ person
+ is
+ fine.
+
+
+A
+ confident
+ guess,
+ it's
+ not.
+
+
+So,
+ limitations.
+
+
+Because
+ the
+ consistency
+ model
+ is
+ only
+
+
+useful
+ when
+ you
+ know
+ where
+ we
+ should
+
+
+stop.
+
+
+So,
+ here's
+ what
+
+
+safe
+ model
+ does
+ not
+ do.
+
+
+It
+ does
+ not
+ make
+ facts
+ true.
+
+
+A
+ source
+ fact
+ is
+ checkable,
+ not
+ correct.
+
+
+It
+ does
+ not
+ give
+ you
+ exactly
+ one
+
+
+delivery.
+
+
+A
+ lost
+ reply
+
+
+stays
+ unknown
+ until
+ you
+ read
+ it back.
+
+
+It
+ does
+ not
+ roll
+ anything
+ back.
+
+
+Undoing
+ a
+ partial
+ task
+ is
+ a compensation
+
+
+step
+ you
+ design.
+
+
+Like
+ this
+ August
+ paper
+ from
+ 1987.
+
+
+And
+ finally,
+ there's
+ no
+ global
+ order
+
+
+across
+ workers.
+
+
+Only
+ causal
+ order
+ per
+ fact.
+
+
+And
+
+
+it has
+ a price.
+
+
+CAP
+ theorem
+ says
+ that
+ when the
+ network
+
+
+splits,
+
+
+you
+ trade
+ off
+ availability
+ against
+
+
+consistency.
+
+
+My
+ bridge
+ chose
+ availability
+ for
+ cold
+
+
+starts
+ on
+ purpose.
+
+
+For
+ writes,
+
+
+safe
+ picks
+
+
+consistency
+ over
+ availability.
+
+
+It
+ refuses
+ rather
+ than
+ guesses.
+
+
+PAC
+ LACK
+
+
+adds
+ that
+ even
+ without
+ failures,
+
+
+you
+ trade
+ latency
+ for
+ consistency.
+
+
+Every
+ freshness
+ check
+ is
+ another
+ read.
+
+
+And
+ and
+ every
+ refusal
+ needs
+ an
+ order.
+
+
+So,
+
+
+where
+ it does
+ not
+ fit?
+
+
+If
+ a sub
+ agent
+
+
+only
+ drafts
+ text
+ that
+ a person
+ reads
+
+
+before
+ anything
+ happens,
+
+
+most
+ of
+ this
+ is
+ is
+ overhead.
+
+
+It
+ also
+ assumes
+ that
+ there's
+ one
+ single
+
+
+orchestrator.
+
+
+If
+ you
+ have
+ more,
+ this
+ does
+ not
+ fit.
+
+
+Peer
+ agents
+ with
+ no
+ single
+ place
+ to
+
+
+stick
+ to
+ need
+ something
+ else.
+
+
+This
+ is
+ the
+ consistency
+ model
+ I use
+ for
+
+
+my
+ own
+ agents
+ that
+ touch
+ actual
+ real
+
+
+production
+ systems.
+
+
+It's
+ not
+ universal.
+
+
+So,
+ wrapping
+ up,
+
+
+here's
+ three
+ key
+ takeaways.
+
+
+Treat
+ every
+ handoff
+ to
+ a
+ sub
+ agent
+ as
+ a
+
+
+network
+ call.
+
+
+It
+ can
+ fail
+ halfway.
+
+
+It
+ can
+ be
+ slow
+ and
+ it
+ can
+ come
+ back
+
+
+twice.
+
+
+Return
+ a status,
+ not
+ just
+ text.
+
+
+If
+ the
+ result
+ cannot
+ say
+ partial,
+ stale,
+
+
+or
+ unknown,
+
+
+the
+ orchestrator
+ will
+ read
+ it
+ as
+ done.
+
+
+And
+
+
+start
+ with
+ our
+ safe
+ consistency
+ model.
+
+
+And
+ enforce
+ it
+ in
+ code.
+
+
+Keep
+ what
+ fits
+ and
+ change
+ what
+ does
+ not.
+
+
+We
+ already
+ know
+ how
+ to
+ build
+ distributed
+
+
+systems.
+
+
+We just
+ have
+ to
+ notice
+ that
+ we
+ are
+
+
+building
+ one.
+
+
+So
+ these
+ are
+ some
+ of
+ the
+ sources
+
+
+behind
+ this
+ talk.
+
+
+On
+ the left
+ side
+ it's
+ my
+ own
+ work,
+ my
+
+
+open
+ source
+ projects,
+ my
+
+
+articles
+ and
+ drafts
+ and
+ my
+ talks.
+
+
+On right
+ side
+
+
+specs
+ and
+ standards
+
+
+and
+
+
+bunch
+ of
+ papers
+ behind
+ each
+ concept.
+
+
+Thank
+ you.
