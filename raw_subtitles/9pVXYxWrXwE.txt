@@ -1,0 +1,602 @@
+[Speaker 1]: 各位出大事儿了啊，
+[Speaker 1]: 又一个大佬塌房了。
+[Speaker 1]: 十一月九号，
+[Speaker 1]: 全球市值最高的公司英伟达的 CEO 黄仁勋给全体员工发了一封信，
+[Speaker 1]: 信的第一句话是我欠我的家人和你们所有人一个道歉。
+[Speaker 1]: 我对我的妻子不忠。
+[Speaker 1]: 本来呢有权有势的男人被爆出婚外情，
+[Speaker 1]: 虽然一定会引来大批网友吃瓜，
+[Speaker 1]: 但顶多也就是一则八卦新闻。
+[Speaker 1]: 男人说，
+[Speaker 1]: 这是全天下，
+[Speaker 1]: 男人都会犯的错。
+[Speaker 1]: 女人说，
+[Speaker 1]: 男人果然没一个好东西，
+[Speaker 1]: 大家茶余饭后嘲讽几句也就过去了。
+[Speaker 1]: 但这件事真正的报点，
+[Speaker 1]: 真正让黄仁勋惹上大麻烦的是，
+[Speaker 1]: 这个女人的身份。
+[Speaker 1]: 就在黄仁勋承认出轨的前几天，
+[Speaker 1]: 金融时报、
+[Speaker 1]: 彭博社等多家权威媒体接连报道，
+[Speaker 1]: 引诉匿名的美国官员和内部机密文件说，
+[Speaker 1]: 美国情报机构判断这个跟黄仁勋有亲密关系的女人，
+[Speaker 1]: 是中国国安招募的间谍。
+[Speaker 1]: 她叫 alice 黄，
+[Speaker 1]: 中文名叫黄乐，
+[Speaker 1]: 是一家叫 mega speed 公司的董事，
+[Speaker 1]: 根据多家专业机构的独立调查，
+[Speaker 1]:  mega speed 很可能是中国设立的一家幌子公司，
+[Speaker 1]: 其作用是帮助中国企业绕过美国的出口管制，
+[Speaker 1]: 获取先进的 AI 芯片。
+[Speaker 1]: 今天我会给大家深挖一家之前完全没有人听说过的新加坡公司。
+[Speaker 1]: 所以，
+[Speaker 1]: 如何在不到三年内就花了几百亿元，
+[Speaker 1]: 成为英伟达在东南亚最大买家的这些芯片，
+[Speaker 1]: 后来又去了哪里？
+[Speaker 1]: 美国情报机构认为，
+[Speaker 1]: 黄乐亲近黄人群的目的有两层，
+[Speaker 1]: 第一层是刺探情报，
+[Speaker 1]: 通过黄人群来摸清英伟达的底细，
+[Speaker 1]: 以及川普在芯片问题上到底怎么想。
+[Speaker 1]: 第二层是要利用他们之间的亲密关系，
+[Speaker 1]: 让黄仁群游说川普和美国政府放宽对先进 AI 芯片的出口限制。
+[Speaker 1]: 根据时间线来看，
+[Speaker 1]: 黄仁勋跟黄乐至少在二零二四年六月之前就已经认识，
+[Speaker 1]: 并且关系很好。
+[Speaker 1]: 当时台北的 copy tex 电脑展刚结束。
+[Speaker 1]: 半夜过后，
+[Speaker 1]: 一群 AI 业内高管在一家酒吧里聚会。
+[Speaker 1]: 黄乐说了一句话，
+[Speaker 1]: 我跟你们打赌，
+[Speaker 1]: 我能把杰森叫来，
+[Speaker 1]: 可能是有点炫耀的意思啊。
+[Speaker 1]: 不久后，
+[Speaker 1]: 黄仁勋果然出现了坐下来跟大家一起喝 whisky。
+[Speaker 1]: 那是他们第一次在公开场合同框出现，
+[Speaker 1]: 目前无法确定当时他们的恋情是否已经开始。
+[Speaker 1]: 但是，
+[Speaker 1]: 在过去一年，
+[Speaker 1]: 多里，
+[Speaker 1]: 王仁群确实多次向美国政府游说，
+[Speaker 1]: 要求放宽对中国的芯片出口管事。
+[Speaker 1]: 而美国商务部也确实松了口，
+[Speaker 1]: 不仅允许 h 两百芯片出口中国，
+[Speaker 1]: 而且也没有严格执行原本的一些规定。
+[Speaker 1]: 而就在这段时间内，
+[Speaker 1]: 东南亚突然进口了数以百亿美元计的 AI 芯片，
+[Speaker 1]: 建起了一座又一座跟他们自身体量完全不相称的数据中心。
+[Speaker 1]: 目前，
+[Speaker 1]: 英伟达董事会已经宣布正式启动独立调查。
+[Speaker 1]: 美国众议院三个委员会的主席也联名致函，
+[Speaker 1]: 要黄仁勋十一月十八号到国会闭门说明情况。
+[Speaker 1]: 好了，
+[Speaker 1]: 事情大概就是这么个情况。
+[Speaker 1]: 这两天啊你有很多自媒体说的绘声绘色，
+[Speaker 1]: 好像黄文军和黄乐约会的时候，
+[Speaker 1]: 他们就躲在床底下一样。
+[Speaker 1]: 我们搞这些听床没有意义。
+[Speaker 1]: 今天我反而想要来给大家详细讲一讲。
+[Speaker 1]: 过去几年来，
+[Speaker 1]: 中国具体是通过什么样的手段来绕开美国芯片管制的？
+[Speaker 1]: 就算黄了，
+[Speaker 1]: 真的是间谍中共政府，
+[Speaker 1]: 当然也不可能把这么重要的一个任务全都押注在一段婚外情杀引导。
+[Speaker 1]: 黄仁群的思想，
+[Speaker 1]: 这只能是其中一条路。
+[Speaker 1]: 其实，
+[Speaker 1]: 真正的大规模行动早在好几年前就已经悄悄开始了。
+[Speaker 1]: 那是一条横跨东南亚和中东的庞大地下产业链，
+[Speaker 1]: 牵扯到空壳公司，
+[Speaker 1]: 走私集团，
+[Speaker 1]: 甚至是一些国家级的大型机构。
+[Speaker 1]: 而黄乐创办的这家 mega speed 公司，
+[Speaker 1]: 就是这个产业链当中非常重要的一环。
+[Speaker 1]: 所以今天我也会把这家公司的底细给大家扒的一干二净，
+[Speaker 1]: 看看他们跟中国政府以及英伟达之间究竟有着怎么样的关系。
+[Speaker 1]: 这些才是今天真正值得我们去深挖的。
+[Speaker 1]: 好了，
+[Speaker 1]: 要讲清楚中国是怎么绕开芯片管制的。
+[Speaker 1]: 我们得先搞明白一件事，
+[Speaker 1]: 美国的芯片管制到底管的是什么？
+[Speaker 1]: 很多人以为管制就是海关拦着不让芯片进中国其实没那么简单。
+[Speaker 1]: 美国商务部的出口管制其实有三个层面。
+[Speaker 1]: 第一层，
+[Speaker 1]: 这批芯片的目的地是哪个国家？
+[Speaker 1]: 第二层买家是哪家公司？
+[Speaker 1]: 第三层，
+[Speaker 1]: 这家公司背后真正的主人是谁？
+[Speaker 1]: 只有当这三个层面都是干净的货才能放行。
+[Speaker 1]: 而中国买家需要绕过管制的话，
+[Speaker 1]: 就需要在这三个层面上都看起来是干净的这也就是他们过去几年来努力在做的事，
+[Speaker 1]: 而且也相当成功。
+[Speaker 1]: 为了成功绕开这三层管制，
+[Speaker 1]: 中共或中国企业又有两种方式，
+[Speaker 1]: 下面我们逐个来拆解。
+[Speaker 1]: 第二种比第一种复杂的多，
+[Speaker 1]: 美国也难破解的多。
+[Speaker 1]: 我先从最简单粗暴的第一种方式讲起，
+[Speaker 1]: 那就是将芯片走私到国内。
+[Speaker 1]: 既然是走私，
+[Speaker 1]: 当然不是直接就运过去。
+[Speaker 1]: 这当中使用了障眼法，
+[Speaker 1]: 我们用一起最近被美国司法部破获的案子来看一看他们具体是怎么做的。
+[Speaker 1]: 今年三月份，
+[Speaker 1]: 美国司法部起诉了全球服务器巨头超威电脑 super micro 的联合创始人 woley lel 和另外两个同伙，
+[Speaker 1]: 指控他们把价值大约二十五亿美元装上英伟达芯片的 AI 服务器走私到了中国。
+[Speaker 1]: 看这张司法部公布的监控录像画面上都是服务器箱子密密麻麻。
+[Speaker 1]: 那么他们具体是怎么走私成功的呢？
+[Speaker 1]: 首先，
+[Speaker 1]: 中国的芯片买家找到了一家泰国的公司来当幌子公司。
+[Speaker 1]: 美国司法部的起诉梳理指称，
+[Speaker 1]: 这家公司为一号公司，
+[Speaker 1]: 一号公司以自己的名义向超威下订单。
+[Speaker 1]: 好像这些服务器是他们自己要用的。
+[Speaker 1]: 服务器在美国组装，
+[Speaker 1]: 先是运到了超威在台湾的工厂，
+[Speaker 1]: 然后再送到泰国一号公司手里。
+[Speaker 1]: 到这一步，
+[Speaker 1]: 国家公司公司背后的主人，
+[Speaker 1]: 这三个层面都是干净的。
+[Speaker 1]: 然后呢，
+[Speaker 1]: 在几个中间人的安排下，
+[Speaker 1]: 他们把这些服务器从原包装箱里取出来，
+[Speaker 1]: 装进没有任何标识的纸箱当中，
+[Speaker 1]: 从泰国转运出去，
+[Speaker 1]: 送到了中国真正的买家手里。
+[Speaker 1]: 美国的出口管制当然是不允许从第三国转运到中国的。
+[Speaker 1]: 但只要出了美国，
+[Speaker 1]: 这些货又装在无标识的箱子里，
+[Speaker 1]: 其实他们是很难管得了的。
+[Speaker 1]: 那你说美国人也管得太怂了吧。
+[Speaker 1]: 其实，
+[Speaker 1]: 美国商务部的做法是出货后核查，
+[Speaker 1]: 他们会派人到申报的最终用户那里检查看货是不是真的在那里，
+[Speaker 1]: 是不是按照申报的用途在使用。
+[Speaker 1]: 美国人确实也去一号公司查了，
+[Speaker 1]: 但却被造假蒙混过去了。
+[Speaker 1]: 一号公司在自己的公司里囤了几千台假的服务器，
+[Speaker 1]: 也就是空壳子。
+[Speaker 1]: 实际上里面什么都没有。
+[Speaker 1]: 然后他们通过吹风机把真服务器上的标签和序列号贴纸取下来，
+[Speaker 1]: 贴到了假服务器上，
+[Speaker 1]: 然后把假服务器装回到超威原厂的箱子里。
+[Speaker 1]: 检查人员一般只会核对箱子和机器上的序列号，
+[Speaker 1]: 不会真的一台台服务器插电开机，
+[Speaker 1]: 所以就被糊弄过去了。
+[Speaker 1]: 这张照片是美国司法部公布的监控画面，
+[Speaker 1]: 可以看到他们正在用吹风筒把标签拆下来，
+[Speaker 1]: 二十五亿美元的生意，
+[Speaker 1]: 最后靠的是一把吹风筒。
+[Speaker 1]: 这件事我再做一些补充啊。
+[Speaker 1]: 根据彭博士后来的调查发现，
+[Speaker 1]: 这家一号公司是曼谷的 AI 基础设施公司 obon，
+[Speaker 1]: 他一直是泰国国家 AI 战略的公开合作伙伴，
+[Speaker 1]: 也是英伟达在泰国的第一个官方合作伙伴。
+[Speaker 1]: 这事报馆后，
+[Speaker 1]: 美国商务部已经下令全面暂停对 obo 出货这件事。
+[Speaker 1]: 最终被美国司法部起诉的是三个个人，
+[Speaker 1]: 超威电脑公司联合创始人兼董事瓦里廖廖义贤，
+[Speaker 1]: 超威台湾分公司的总经理 stephen chain 张瑞聪和一个外包的中间商威力，
+[Speaker 1]: 顺孙廷伟是他们三人合谋协助中国买家完成了这次走私。
+[Speaker 1]: 事实上，
+[Speaker 1]: 超威自己的合规部门早就觉得这个一号公司不对劲了。
+[Speaker 1]: 一家泰国公司采购量一年比一年大，
+[Speaker 1]: 就非常可疑。
+[Speaker 1]: 合贵团队不止一次给发往一号公司的货下了暂停令，
+[Speaker 1]: 还启动了审计，
+[Speaker 1]: 但这些暂停令却不断被廖一贤和张卫聪想办法给解除了。
+[Speaker 1]: 二零二五年八月，
+[Speaker 1]: 超威派了一个人去一号公司检查。
+[Speaker 1]: 按起诉书的说法，
+[Speaker 1]: 其中一位本该到现场核查的审计员根本没有去仓库，
+[Speaker 1]: 而是在外面享受由一号公司买单的娱乐项目。
+[Speaker 1]: 孙庭伟则在仓库里把假服务器摆好，
+[Speaker 1]: 拍了照片和视频发给这位正在外面玩儿的审计员，
+[Speaker 1]: 合规部门拉了警报，
+[Speaker 1]: 暂停令，
+[Speaker 1]: 却被高层解除了。
+[Speaker 1]: 派去检查的审计员被请去完了。
+[Speaker 1]: 所以我们可以看到，
+[Speaker 1]: 要完成这样的走时是需要里应外合的。
+[Speaker 1]: 除了在外面造假以外，
+[Speaker 1]: 也需要卖方这里的一些内鬼来打配合。
+[Speaker 1]: 但其实走私这条路终究是下策，
+[Speaker 1]: 风险太高，
+[Speaker 1]: 量也有限，
+[Speaker 1]: 抓到一个就是二十年牢，
+[Speaker 1]: 最真正聪名的玩法是第二种方式，
+[Speaker 1]: 芯片根本不用进中国。
+[Speaker 1]: 这里简单科普一下啊，
+[Speaker 1]:  AI 的发展之所以需要芯片，
+[Speaker 1]: 主要就是用来训练和运行 AI 的模型。
+[Speaker 1]: 但 AI 模型训练好之后，
+[Speaker 1]: 本质上就是一个文件。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 中国企业完全可以在东南亚数据中心里先把模型训练好了，
+[Speaker 1]: 再通过互联网传回中国。
+[Speaker 1]: 这就好比你不把你的顶级烤箱卖给我，
+[Speaker 1]: 我就把面团拿到猪烤箱的地方，
+[Speaker 1]: 把面包烤好之后再带回家。
+[Speaker 1]: 你平时用云服务，
+[Speaker 1]: 其实就是在做类似的事。
+[Speaker 1]: 比如你把一个视频上传到网站，
+[Speaker 1]: 让他帮你转格式，
+[Speaker 1]: 你只管发过去，
+[Speaker 1]: 等他算完再拿回转好格式的文件。
+[Speaker 1]: 你大概从来没有想过替你干活的那台机器到底在哪个国家 AI 大模型的训练当然要复杂的多，
+[Speaker 1]: 需要的算力极大，
+[Speaker 1]: 但机房和使用机房的人可以隔着国界，
+[Speaker 1]: 这一点是完全一样的。
+[Speaker 1]: 那么这里就要回到黄乐乐，
+[Speaker 1]: 他所创办的 mega speed 公司，
+[Speaker 1]: 就是干这个事的。
+[Speaker 1]: 纽约时报早在去年十月就报道过，
+[Speaker 1]:  mags b 把他买来的英伟达芯片放进马来西亚和印尼的数据中心，
+[Speaker 1]: 远程给中国的客户提供服务。
+[Speaker 1]: 这时你可能要熟了，
+[Speaker 1]: 租算力又不犯法，
+[Speaker 1]: 人家马来西亚的数据中心开门做生意，
+[Speaker 1]: 谁来租就租给谁，
+[Speaker 1]: 凭什么不让呢？
+[Speaker 1]: 没错啦，
+[Speaker 1]: 其实问题就在这里，
+[Speaker 1]: 从纸面上你很难真正去区分这些东南亚的数据中心，
+[Speaker 1]: 真的是本土数据中心，
+[Speaker 1]: 正好接了中国客户的生意，
+[Speaker 1]: 还是中国人在背后主导设立的幌子公司。
+[Speaker 1]: 前者是合法的，
+[Speaker 1]: 后者是违法的。
+[Speaker 1]: 我们再讲细一点，
+[Speaker 1]: 第一种情况是芯片是马来西亚公司自己出钱买的，
+[Speaker 1]: 所有权和控制权都在他手上。
+[Speaker 1]: 中国客户只是通过网络把计算任务传过去算完，
+[Speaker 1]: 再把结果拿回来。
+[Speaker 1]: 就像网吧老板合法买了电脑，
+[Speaker 1]: 谁来上网就收谁的钱。
+[Speaker 1]: 第二种情况是，
+[Speaker 1]: 表面上买芯片的是马来西亚公司，
+[Speaker 1]: 实际上他的钱是中国那边出的，
+[Speaker 1]: 或者老板是中国那边的人，
+[Speaker 1]: 或者他买什么芯片，
+[Speaker 1]: 建多大的机房，
+[Speaker 1]: 给谁用，
+[Speaker 1]: 全都由中国方说了算。
+[Speaker 1]: 这种情况下，
+[Speaker 1]: 马来西亚公司只是挂个名的壳，
+[Speaker 1]: 相当于网吧名义上登记在马来西亚人名下。
+[Speaker 1]: 实际上出钱管社收钱的都是中国老板。
+[Speaker 1]: 还记得我开头讲的第三层吗？
+[Speaker 1]: 这家公司背后真正的主人是谁？
+[Speaker 1]: 这件马甲骗的就是这一层。
+[Speaker 1]: 美国商务部认为，
+[Speaker 1]: 这就相当于把芯片卖给了中国公司。
+[Speaker 1]: 按规定，
+[Speaker 1]: 这种交易必须先申请许可证，
+[Speaker 1]: 没申请就是违规出口。
+[Speaker 1]: 但问题是从外面看，
+[Speaker 1]: 这两种情况几乎是一模一样的，
+[Speaker 1]: 都是马来西亚的机房，
+[Speaker 1]: 用户，
+[Speaker 1]: 都是中国客户，
+[Speaker 1]: 差别全在看不见的地方。
+[Speaker 1]: 股权资金来源，
+[Speaker 1]: 谁是幕后的实际控制人？
+[Speaker 1]: 所以执法就非常困难。
+[Speaker 1]: 过去几年来，
+[Speaker 1]: 东南亚冒出了一大批之前从来没有人听说过的小公司，
+[Speaker 1]: 一出手就是几十亿美元的芯片订单，
+[Speaker 1]: 大家就不得不怀疑你这些钱究竟是从哪里来的。
+[Speaker 1]: 讲到这里，
+[Speaker 1]: 我们就有必要深入来扒一扒。
+[Speaker 1]: 由黄乐所创办的这家 megas b 公司是二零二三年在新加坡成立的。
+[Speaker 1]: 它的前身是中国一家叫第七大盗的游戏公司拆出来的海外业务。
+[Speaker 1]: 那第七大盗背后的股东是谁呢？
+[Speaker 1]: 根据纽约时报的调查，
+[Speaker 1]: 是中国中央政府外加好几个地方政府。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 这家突然在新加坡冒出来的 mghasspea i 公司娘家是一家有国资背景的中国企业。
+[Speaker 1]: 在黄仁勋出轨女间谍这件事曝光以前，
+[Speaker 1]: 应该说世上没有几个人听说过 maga spee 这家企业，
+[Speaker 1]: 但就是这么一家名不见经传的公司。
+[Speaker 1]: 根据贸易数据平台 import genius 的记录，
+[Speaker 1]: 它在马来西亚的子公司从二零二四年六月到今年二月买进了至少四十八亿美元。
+[Speaker 1]: 装设英伟达芯片的服务器折合三百三十六亿人民币。
+[Speaker 1]: 二十个月三百三十六亿是什么概念？
+[Speaker 1]: 平均下来每个月花十七亿，
+[Speaker 1]: 每天花五千六百万元来购买芯片 metas b 是怎么到黄乐手里的呢？
+[Speaker 1]: 二零二三年，
+[Speaker 1]: 第七大道把他在新加坡的子公司卖给了一家注册在英属维京群岛的公司，
+[Speaker 1]: 名字就叫做黄乐 limited 黄乐接手。
+[Speaker 1]: 同年十一月，
+[Speaker 1]: 黄乐又把 megs b 转手卖给了一家新加坡的空壳公司。
+[Speaker 1]: 买家。
+[Speaker 1]: 就是现在登记的 CEO，
+[Speaker 1]: 一个叫 james stan 的人，
+[Speaker 1]: 四天之后，
+[Speaker 1]:  megs b 就成为了英伟达官方认证的云合作伙伴。
+[Speaker 1]: 这家公司当时账上有多少钱呢？
+[Speaker 1]: 二零二三年底，
+[Speaker 1]:  mags b 账上的现金是五百七十万美元，
+[Speaker 1]: 大约四千万人民币。
+[Speaker 1]: 我刚才说了，
+[Speaker 1]: 他们后来连续二十个月平均，
+[Speaker 1]: 每天都要花五千六百万元来购买芯片，
+[Speaker 1]: 也就是说他们原本账上的钱连一天都不够用。
+[Speaker 1]: 彭博社算了一笔账，
+[Speaker 1]:  magus b 进口的货物总值是他在二零二三年底现金的一千多倍。
+[Speaker 1]: 那么这些钱究竟是从哪里来的呢？
+[Speaker 1]: 彭博社的记者问了这个问题，
+[Speaker 1]: 但 mega spebe 拒绝回答。
+[Speaker 1]: 麦克斯斯德新加坡总部位于中央商务区的海洋金融中心。
+[Speaker 1]: 纽约时报的记者挑了一个普通工作日上门，
+[Speaker 1]: 整个办公室里只有两个员工。
+[Speaker 1]: 一位人事经理告诉记者，
+[Speaker 1]: 公司的高管他没见过几个，
+[Speaker 1]: 大部分都在中国公司的客户，
+[Speaker 1]: 大部分也是中国客户。
+[Speaker 1]: 至于那位公司控制人，
+[Speaker 1]: 姆斯坦从来没有来过办公室，
+[Speaker 1]: 新加坡海峡时报的记者直接跑到他登记的新加坡住址去敲门，
+[Speaker 1]: 家人说他不住在这里常住中国。
+[Speaker 1]: 马来西亚那边呢 maga spb 在马来西亚的子公司叫 speed matrix 办公室，
+[Speaker 1]: 在柔佛州一个购物中心的楼上反光玻璃指纹门禁。
+[Speaker 1]: 记者敲了好几次门，
+[Speaker 1]: 里面的三个员工没人应答。
+[Speaker 1]: 后来有一位行政人员中午出来吃午饭时，
+[Speaker 1]: 记者赶紧追上去采访，
+[Speaker 1]: 他说他跟老板们没有任何联系，
+[Speaker 1]: 记者问他，
+[Speaker 1]: 那你们公司到底是做什么的？
+[Speaker 1]: 他说不太清楚。
+[Speaker 1]: 一家花了三百亿买芯片的企业，
+[Speaker 1]: 自己的员工说不清楚，
+[Speaker 1]: 公司是干什么的。
+[Speaker 1]:  speak matrix 在吉隆坡还有一个注册地址，
+[Speaker 1]: 记者也找过去了，
+[Speaker 1]: 是一间破旧的店面，
+[Speaker 1]: 招牌上写的是一家建筑公司，
+[Speaker 1]: 里面一个人都没有好了。
+[Speaker 1]: 那 megs b 这些芯片又是从哪里买来的呢？
+[Speaker 1]: 马来西亚的进口记录显示，
+[Speaker 1]:  megs b 大部分的高端芯片来自一家叫 errest 的加州公司。
+[Speaker 1]: 那 efforrence 又是谁呢？
+[Speaker 1]: 根据企业数据平台 wie streing 的资料，
+[Speaker 1]: 它是中国浪潮集团在美国的子公司，
+[Speaker 1]: 那浪潮又是谁呢？
+[Speaker 1]: 这是一家在二零二三年就被美国制裁的中国科技公司制裁，
+[Speaker 1]: 理由是帮中国军方获许美国技术制造超级计算机。
+[Speaker 1]: 这时你一定要跳起来了，
+[Speaker 1]: 一家被制裁的公司怎么还能买英伟达的芯片呢？
+[Speaker 1]: 没错，
+[Speaker 1]: 这就是一个非常荒谬的地方，
+[Speaker 1]: 确实能买。
+[Speaker 1]: 因为 efforrence 注册在甲轴，
+[Speaker 1]: 在法律上就是一家美国公司，
+[Speaker 1]: 美国公司在美国境内买英伟达的产品合法。
+[Speaker 1]: 所以你看啊整个链条是这样的那一家被美国制裁的中国企业去加州注册了一家子公司，
+[Speaker 1]: 用这家中国人控制的美国公司向英伟达购买高端芯片。
+[Speaker 1]: 然后他们将这些高端芯片组装成服务器卖给了一家注册在新加坡，
+[Speaker 1]: 但其实是有中国国资背景的企业。
+[Speaker 1]: 然后再把货运到马来西亚一家，
+[Speaker 1]: 只有三个员工不清楚公司做什么的子公司。
+[Speaker 1]: 那么你要不要猜一猜这些价值三百三十六亿元的芯片，
+[Speaker 1]: 究竟是为谁服务的？
+[Speaker 1]: 猜中没有奖。
+[Speaker 1]: 彭博社去年十二月也做了一次独立统计，
+[Speaker 1]: 用的是马来西亚和印尼的海关记录。
+[Speaker 1]: 到二零二五年十一月为止，
+[Speaker 1]:  maga speed 一共进口了大约十三万六千块，
+[Speaker 1]: 英伟达 GPU，
+[Speaker 1]: 其中一半以上是 black whill 系列。
+[Speaker 1]:  black whill 当时是英伟达最新一代的旗舰芯片，
+[Speaker 1]: 川普明确说过，
+[Speaker 1]: 这一代绝对不会批准卖给中国。
+[Speaker 1]: 但在不到三年时间内，
+[Speaker 1]: 一家没人听过的公司成为了英伟达在整个东南亚最大的 black whill 买家。
+[Speaker 1]: 而且他购买芯片的时间点非常值得关注。
+[Speaker 1]: 彭博社翻了贸易记录，
+[Speaker 1]: 发现，
+[Speaker 1]:  mac SB 大部分的英伟达芯片是在二零二五年五月十五号之前的六个星期里集中买进的。
+[Speaker 1]: 五月十五号是什么日子？
+[Speaker 1]: 拜登政府原本签署了一项出口管制规定，
+[Speaker 1]: 从五月十五号开始卖 AI 芯片，
+[Speaker 1]: 到东南亚也要申请许可证。
+[Speaker 1]: 但结果，
+[Speaker 1]: 川普在法案生效之前，
+[Speaker 1]: 就把这条规定给废掉了。
+[Speaker 1]: 于是，
+[Speaker 1]:  megas b 在二零二五年十一月又进口了一万七千五百四十四块 GB 三百，
+[Speaker 1]: 也就是当时市场上最先进的 GPU，
+[Speaker 1]: 价值七点八七亿美元，
+[Speaker 1]: 大约五十五亿人民币。
+[Speaker 1]: 我们继续审娃还有一件更有意思的事。
+[Speaker 1]:  mgas b 在二零二四年给潜在投资人看过一份 PPT，
+[Speaker 1]: 里面列出了他在马来西亚和印尼的几个算力集群，
+[Speaker 1]: 其中有一个位置只写了四个字。
+[Speaker 1]: 特定区域原话是目前最大的英伟达云合作伙伴算力集群已经在特定区域建成。
+[Speaker 1]: 那这个特定区域在哪里呢？
+[Speaker 1]:  PPT 里配了一张效果图，
+[Speaker 1]: 我们一比对就有意思啦。
+[Speaker 1]: 这张图跟上海一个大型数据中心的效果图一模一样，
+[Speaker 1]: 这个项目叫长三角项目。
+[Speaker 1]: 当时中国官媒就说它将会是全国最大的数据中心。
+[Speaker 1]: 这还没完，
+[Speaker 1]: 上海有一家叫索耀的科技公司，
+[Speaker 1]: 跟 mag SB 就像一对双胞胎，
+[Speaker 1]: 它的官网几乎是照着 max b 旗下一个子品牌的网站，
+[Speaker 1]: 炒的网页源代码里都还留着 mega speb 的名字。
+[Speaker 1]: 他公布的机房地图跟 megs b 给投资人看的那张几乎一模一样，
+[Speaker 1]: 唯一的区别就是多了几个点。
+[Speaker 1]: 北京、
+[Speaker 1]: 芜湖、
+[Speaker 1]: 深圳、
+[Speaker 1]: 上海最妙的是这里 mags b 的网站上摆的是 b 两百，
+[Speaker 1]:  h 一百 h 两百，
+[Speaker 1]: 这些禁止卖给中国的芯片。
+[Speaker 1]: 这家上海双胞胎的网站上只摆了允许卖给中国的型号。
+[Speaker 1]: 可是这家公司在猎聘网上发了一条工程师招聘广告，
+[Speaker 1]: 工作内容写的是 h 一百、
+[Speaker 1]:  h 两百等 GPU 型号，
+[Speaker 1]: 上班地点在哪里呢？
+[Speaker 1]: 就在距离那个长三角数据中心大约五百米的一个产业园林。
+[Speaker 1]: 最终，
+[Speaker 1]: 彭博社和美国半导体研究机构 semi analysis 都认为，
+[Speaker 1]:  magsb 算力的主要使用者其实就是阿里巴巴。
+[Speaker 1]: 其实早在二零二四年底，
+[Speaker 1]: 美国商务部的官员就已经起了疑心。
+[Speaker 1]: 当他们去 mag SB 在马来西亚的数据中心实地考察时，
+[Speaker 1]: 发现英伟达的设备还原封不动的装在箱子里。
+[Speaker 1]: 要知道，
+[Speaker 1]:  AI 芯片是这个世上最贵、
+[Speaker 1]: 折旧最快的东西之一。
+[Speaker 1]: 正常的数据中心恨不得设备一到就插电，
+[Speaker 1]: 跑起来放在箱子里，
+[Speaker 1]: 每多一天都是在烧钱。
+[Speaker 1]: 那他们为什么不拆箱呢？
+[Speaker 1]: 最合理的解释只有一个，
+[Speaker 1]: 这些箱子本来就不打算在马来西亚拆开。
+[Speaker 1]: 后来贝恩资本旗下的数据中心运营商 rich data centres，
+[Speaker 1]: 直接把 megs b 从他在马来西亚的园区里清了出去。
+[Speaker 1]: 新加坡警方也确认，
+[Speaker 1]: 正在调查 megs b 是否违反了新加坡本地的法律。
+[Speaker 1]: 当然，
+[Speaker 1]:  megs b 否认所有指控说自己一直在遵守出口管制规定，
+[Speaker 1]: 已经请了外部律师做内部调查，
+[Speaker 1]: 也愿意配合美国当局。
+[Speaker 1]: 他的整个过程。
+[Speaker 1]: 中英伟达也不断在为 megas b 辩护。
+[Speaker 1]: 他的说法主要是两条，
+[Speaker 1]: 我们逐个来看。
+[Speaker 1]: 第一条。
+[Speaker 1]: 英伟达说，
+[Speaker 1]: 他们的合规团队查过了 magsb 是由一家总部在中国境外的公司全资拥有和经营，
+[Speaker 1]: 没有任何中国股东这一条，
+[Speaker 1]: 在我看来基本就是废话。
+[Speaker 1]: 一家幌子公司设计出来的唯一目的当然就是让他在纸面上没有中国股东嘛。
+[Speaker 1]: 但从我上面已经透露的种种迹象都表示，
+[Speaker 1]: 这家公司显然并不是一家正常经营算立租赁的企业。
+[Speaker 1]: 第二条黄仁勋本人说，
+[Speaker 1]: 英伟达研究过 megs b 部署的所有 GPU，
+[Speaker 1]: 每一科都清点过了，
+[Speaker 1]: 但这当中还是有很多疑点的。
+[Speaker 1]: 根据彭博社拿到的一份资料显示，
+[Speaker 1]: 英伟达的团队一开始去 megs b 的数据中心检查时，
+[Speaker 1]: 只看到了几千块 black well 芯片。
+[Speaker 1]: 注意啊，
+[Speaker 1]: 进口的是十几万块，
+[Speaker 1]:  GPU，
+[Speaker 1]: 一半以上是 black well。
+[Speaker 1]: 但现场看到的 black well 只有几千块。
+[Speaker 1]: 在被追问以后，
+[Speaker 1]: 英伟达的人又说，
+[Speaker 1]: 他们还另外检查了仓库，
+[Speaker 1]: 这些硬件没有去中国。
+[Speaker 1]: 记者接着追问，
+[Speaker 1]: 那仓库里的数量跟进口的数量对不对？
+[Speaker 1]: 得上呢，
+[Speaker 1]: 结果英伟达拒绝回答。
+[Speaker 1]: 而且英伟达在面对克 maus b 的疑点时，
+[Speaker 1]: 答案也是翻来覆去的结果。
+[Speaker 1]: 十一月中英伟达说，
+[Speaker 1]: 我们的走访确认 GPU 全都在他们应该还在的地方。
+[Speaker 1]: 到了十二月中，
+[Speaker 1]: 说法变成了我们已经找到了基本上全部的产品之后还会再去检查，
+[Speaker 1]: 从全部都在变成了，
+[Speaker 1]: 基本上都在这，
+[Speaker 1]: 基本上 basically 就用的很巧妙了，
+[Speaker 1]: 基本到底是多少呢？
+[Speaker 1]: 就算是只有百分之十，
+[Speaker 1]: 也价值三十多亿呀。
+[Speaker 1]: 更尴尬的是在英伟达交给美国政府的报告当中，
+[Speaker 1]: 列出了他们清点的八个东南亚机房，
+[Speaker 1]: 但有两家站出来否认。
+[Speaker 1]:  echonicx 说，
+[Speaker 1]: 英伟达报告里说，
+[Speaker 1]: 放在他们马来西亚机房的那批 b 两百服务器，
+[Speaker 1]: 在他们的两个机房里都没有。
+[Speaker 1]: 吉隆坡的 AIMS 数据中心更是直接告诉彭博士，
+[Speaker 1]: 这个信息不对，
+[Speaker 1]:  mags b 根本就不是我们的客户，
+[Speaker 1]: 这相当于是直接在说英伟达说谎了。
+[Speaker 1]: 还有一批价值二十四四亿美元，
+[Speaker 1]: 装上英伟达最顶级 GB 两百和 GB 三百芯片的主板。
+[Speaker 1]: 在英伟达给美国政府的清单里，
+[Speaker 1]: 绝大部分都找不到彭博社。
+[Speaker 1]: 问起来以后，
+[Speaker 1]: 英伟达才又跑去 mag SB，
+[Speaker 1]: 另外的仓库检查，
+[Speaker 1]: 说看到了，
+[Speaker 1]: 都在记者追问，
+[Speaker 1]: 那仓库里到底有多少块？
+[Speaker 1]: 这些半年多以前就已经进口的芯片，
+[Speaker 1]: 究竟打算什么时候开始使用，
+[Speaker 1]: 在哪里装起来用英伟达全都拒绝回答。
+[Speaker 0]: 嗯，
+[Speaker 1]: 我们就说你花了几十亿，
+[Speaker 1]: 买了一批比黄金还贵，
+[Speaker 1]: 而且更新迭代速度还特别快，
+[Speaker 1]: 一会儿就过时了的东西，
+[Speaker 1]: 结果买来了锁在仓库里半年都不拆箱，
+[Speaker 1]: 原因是什么呢？
+[Speaker 1]: 我想大家都心知肚明，
+[Speaker 0]: 哎，
+[Speaker 1]: 其实说到底这些漏洞总是赌不上，
+[Speaker 1]: 是因为卖芯片的人根本就没有赌漏洞的动力。
+[Speaker 1]: 目前这套机制最大的问题就是让卖芯片的人自己来当裁判。
+[Speaker 1]:  mags b 是英伟达在东南亚最大的客户，
+[Speaker 1]: 让英伟达自己去查自己最大的客户。
+[Speaker 1]: 他们给出的结论要打多少折扣是可想而知的。
+[Speaker 1]: 那么说到这里，
+[Speaker 1]: 现在我们回头看看黄乐这个人，
+[Speaker 1]: 你就会明白他的角色为什么那么重要了。
+[Speaker 1]: 走私需要有人对异常的订单视而不见。
+[Speaker 1]: 换马甲要有人愿意相信这件马甲，
+[Speaker 1]: 这两条路，
+[Speaker 1]: 每一条都需要美国这一边，
+[Speaker 1]: 有人愿意睁一眼闭一眼，
+[Speaker 1]: 或者有人帮忙说几句话。
+[Speaker 1]: 黄文勋恰恰就是那个能够说得上话的人，
+[Speaker 1]: 他过去一年多，
+[Speaker 1]: 确实一直在华盛顿游说，
+[Speaker 1]: 放宽对中国芯片的出口管制。
+[Speaker 1]: 今年四月份，
+[Speaker 1]: 黄仁勋在接受硅谷知名科技博主 doorcash patel 的专访时，
+[Speaker 1]: 在跟主播辩论。
+[Speaker 1]: 关于英伟达是否应该继续出售芯片给中国的时候，
+[Speaker 1]: 就非常罕见的失去冷静，
+[Speaker 1]: 多次使用了带有攻击性的语言来反驳主持人的观点。
+[Speaker 1]: 关于这场辩论，
+[Speaker 1]: 当时我也做过一期节目跟大家探讨过。
+[Speaker 1]: 我印象最深的是当主持人问他说，
+[Speaker 1]: 如果说 AI 模型如今已经强大到可以发动零日攻击，
+[Speaker 1]: 足以成为一种网络的进攻武器。
+[Speaker 1]: 那你为什么会愿意把这种能力继续往潜在对手那里送呢？
+[Speaker 1]: 当时黄文勋用一段极其理想主义的话来反驳他说。
+[Speaker 1]: 所以我们要不断跟中国和中国的研究人员保持对话，
+[Speaker 1]: 啊，
+[Speaker 1]: 确保他们不使用 AI 来做这些不好的用途。
+[Speaker 1]: 当时我看到这里的时候，
+[Speaker 1]: 真的觉得不可思议，
+[Speaker 1]: 想说黄仁勋怎么能说出如此天真和幼稚的话？
+[Speaker 1]: 当时我也为黄瑞军讲了几句话，
+[Speaker 1]: 说站在他的位置，
+[Speaker 1]: 他作为创始人和 CEO 想要最大化公司利益也是可以理解的。
+[Speaker 1]: 但如今回看黄仁勋的坚持，
+[Speaker 1]: 除了商业考量以外，
+[Speaker 1]: 是不是还有狂热的影响？
+[Speaker 1]: 这在美国还没有拿出确凿证据，
+[Speaker 1]: 以前都还只是揣测，
+[Speaker 1]: 我们也不用急着下结论，
+[Speaker 1]: 但有一件事我们不需要等待。
+[Speaker 1]: 调查结果一道出口管制，
+[Speaker 1]: 如果最终需要靠卖家自己来执行和当裁判，
+[Speaker 1]: 那他从一开始就注定不可能成功。
+[Speaker 1]: 好，
+[Speaker 1]: 那我今天就讲到这里，
+[Speaker 1]: 我是老周横眉冷对指挥，
+[Speaker 0]: 我们下期再见。
+[Speaker 1]: 感谢观看订阅的时候，
+[Speaker 1]: 请务必同时打开这个小铃铛。
+[Speaker 1]: 那么我更新的时候，
+[Speaker 1]: 你才能够及时看到。
