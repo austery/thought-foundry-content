@@ -5,19 +5,31 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/647ee18c5ed4bd1a4631803e?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - wealth
+  - investment-philosophy
+  - mindset
+  - psychology
+title: Steve 与孟岩探讨金钱本质、投资与个人心智修炼
+summary: 播客《Steve说》主播与《无人知晓》主播兼“有知有行”创始人孟岩展开对话。两人探讨了金钱与财富的区别、金钱的道德化与代际沟通，并从有限责任与复杂系统视角解析投资本质及投机作用。孟岩提出“如其所是”和“此时此刻”的心态，探讨了打破思维束缚与心理咨询在个人成长和面对不确定性中的共通价值。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 孟岩
+  - Steve
+companies_orgs:
+  - 有知有行
+products_models:
+  - 有知有行
+media_books:
+  - Steve说
+  - 无人知晓
+  - 投资第一课
+  - 最优解人生
 status: evergreen
 ---
 <!-- chunk 1/7 -->

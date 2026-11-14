@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=a1mI-ozLyYM
 speaker: The Diary Of A CEO
-tags: []
-title: ''
-summary: ''
+tags:
+  - escalation-trap
+  - geopolitics
+  - political-violence
+  - foreign-policy
+title: 学者罗伯特·佩恩探讨美国中期选举后的地缘冲突升级陷阱与应对设想
+summary: 罗伯特·佩恩在访谈中认为，美国中期选举后的权力过渡期可能与对伊军事打击、俄乌战局升级以及国内暴力民粹主义交织，导致局势陷入升级陷阱；他同时提出了限制对伊升级、暂停联邦武装执法及调解国呼吁保护平民等三道防火墙设想。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: geopolitics
+area: geopolitics
 project: []
-people: []
-companies_orgs: []
+people:
+  - Robert Payne
+  - Donald Trump
+  - Vladimir Putin
+companies_orgs:
+  - Pentagon
 products_models: []
-media_books: []
+media_books:
+  - 'Bombing to Win: Air Power and Coercion in War'
+  - 'Our Own Worst Enemies: America in the Age of Violent Populism'
 status: evergreen
 ---
 <!-- chunk 1/10 -->

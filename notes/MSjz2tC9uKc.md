@@ -5,19 +5,41 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=MSjz2tC9uKc
 speaker: 大问题Dialectic
-tags: []
-title: ''
-summary: ''
+tags:
+  - moral-psychology
+  - evolutionary-psychology
+  - contempt
+  - anxiety
+  - metacognition
+title: 夏老师直播解析情绪哲学与道德心理学：羞耻、信任、焦虑、蔑视与爱的演化机制与认知结构
+summary: 夏老师在直播中结合道德心理学与演化科学解析多种情绪：羞耻感源自信息威胁与权力不对等；信任包含规范性期待与认知极限；焦虑是控制系统接入新触发器的警报重构；蔑视表现为地位比较与排斥，尼采哲学则提供了自我超越的审视视角；爱在现代陷入属性迷恋与自我完整性冲突的困境。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
+people:
+  - Paul Gilbert
+  - Daniel Sznycer
+  - David Velleman
+  - Ineke von Mohr
+  - 理查德·霍尔顿
+  - Helen Fisher
+  - Charlie Kurth
+  - John Gottman
+  - Friedrich Nietzsche
+  - Blaise Pascal
+  - Kieran Setiya
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 焦虑的心智
+  - 女宾
+  - 查拉图斯特拉如是说
+  - 快乐的科学
+  - 善恶的彼岸
+  - 思想录
 status: evergreen
 ---
 <!-- chunk 1/14 -->

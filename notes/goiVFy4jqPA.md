@@ -5,19 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=goiVFy4jqPA
 speaker: 硅谷101
-tags: []
-title: ''
-summary: ''
+tags:
+  - data-center
+  - artificial-intelligence
+  - computing-power
+  - regulatory-policy
+title: 美国中期选举后数据中心建设受阻与AI产业博弈分析
+summary: 文章探讨美国中期选举后，德州等地方对数据中心建设审批收紧、社区选民反对以及相关法案提出的影响。业内嘉宾分析了数据中心延期风险、成本增加预期、产业链上下游盈利下修风险，以及算力供给受阻与真实需求之间的博弈。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: tech-trends
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
+people:
+  - Gina Hinojosa
+  - Bernie Sanders
+  - Andy Jassy
+companies_orgs:
+  - Amazon
+  - OpenAI
+  - Anthropic
 products_models: []
-media_books: []
+media_books:
+  - 硅谷101
 status: evergreen
 ---
 <!-- chunk 1/4 -->

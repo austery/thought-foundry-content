@@ -5,19 +5,33 @@ guest: ''
 layout: post.njk
 source: https://podcasters.spotify.com/pod/show/florence-fernandez/episodes/EP1KPMG-e349a0d
 speaker: 破壁圆桌
-tags: []
-title: ''
-summary: ''
+tags:
+  - hidden-innovation
+  - influence-without-authority
+  - cross-functional-collaboration
+  - career-development
+  - family-relations
+title: 海外华人职场创新、无授权影响力与家庭成长
+summary: 翁湘敏、Jeff等嘉宾探讨海外职场隐形创新、大企业创新阻力及无授权影响力，分享跨部门协作与个人成长经验，并讨论生育、家庭关系与德国生活体验。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: work-related
+area: work-career
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 翁湘敏
+  - Jeff
+companies_orgs:
+  - 毕马威
+  - DigitalOcean
+  - 3M
+products_models:
+  - Cursor
+  - Copilot
+media_books:
+  - 《纳瓦尔宝典》
+  - 《隐形冠军》
 status: evergreen
 ---
 <!-- chunk 1/6 -->

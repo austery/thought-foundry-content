@@ -5,19 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/630af2e50d43f7f6306c6ae0?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - interview
+  - journalism
+  - writing
+  - human-nature
+title: 对话《人物》主编张涵：人物报道的较量、写作的困境与人性的多面
+summary: 《人物》主编张涵与对谈者探讨了人物采访与非虚构写作的核心经验。内容涉及如何通过真诚与判断力在访谈较量中“打开一个人”、平衡主观视角与公共视角，以及应对写作中的拖延与痛苦，并强调避免标签化以看见复杂立体的人性。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: culture-history
+area: society-thinking
 project: []
-people: []
+people:
+  - 张涵
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 《人物》
+  - 《四个人物》
 status: evergreen
 ---
 <!-- chunk 1/5 -->

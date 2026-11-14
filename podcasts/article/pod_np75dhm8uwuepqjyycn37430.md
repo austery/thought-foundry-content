@@ -5,16 +5,21 @@ guest: ''
 layout: post.njk
 source: https://podcasters.spotify.com/pod/show/florence-fernandez/episodes/EP22-e3hoqk7
 speaker: 破壁圆桌
-tags: []
-title: ''
-summary: ''
+tags:
+  - reading-community
+  - life-purpose
+  - epiphany
+  - social-connection
+title: 凌云谈海外读书会社群发起历程与人生追求思考
+summary: 凌云在播客中分享了在德国发起并运营八年多跨国读书会的演变历程，阐述了通过共读与深度交流链接海外华人、构建终身学习社群的初衷，并结合自身销售本职与经历探讨了对人生意义及顿悟时刻的思考。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
+people:
+  - 凌云
 companies_orgs: []
 products_models: []
 media_books: []

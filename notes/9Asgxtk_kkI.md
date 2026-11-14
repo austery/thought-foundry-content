@@ -5,19 +5,31 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=9Asgxtk_kkI
 speaker: All-In Podcast
-tags: []
-title: ''
-summary: ''
+tags:
+  - wealth-tax
+  - election-analysis
+  - political-economy
+  - betting-markets
+title: 财富税争议与加州前景
+summary: 文章讨论了财富税对加州及硅谷的潜在负面影响，认为其可能导致经济衰退。同时分析了2024年中期选举的博彩市场数据，指出民主党在提前投票中占据优势，并探讨了经济因素对选民情绪的影响。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Steve Hilton
+  - Chamath
+  - Ted Cruz
+  - Ben Shapiro
+companies_orgs:
+  - Polymarket
+  - Apple Podcasts
+  - Spotify
 products_models: []
-media_books: []
+media_books:
+  - Verdict with Ted Cruz
 status: evergreen
 ---
 <!-- chunk 1/15 -->

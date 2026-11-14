@@ -5,19 +5,36 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=rHyR4TrHl9I
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - news-digest
+  - legal-procedure
+  - civil-rights
+  - geopolitics
+title: 时政与社会新闻盘点：尊界刹车调查、维权案判决及国际动态
+summary: 直播节目梳理了近期多项时政与社会热点。内容涵盖三部门联合调查尊界汽车刹车支架、维权人士判决与处境、涉外事件及俄乌冲突等国际动态，并对行政程序正义与多国政治社会现状展开评论。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 周远志
+  - 周路宝
+  - 白兆东
+  - 高市早苗
+  - 丁石孙
+  - 黄奇帆
+companies_orgs:
+  - 华为
+  - 香港证监会
+  - 腾讯
+  - 盈科律师事务所
+products_models:
+  - 尊界
+media_books:
+  - 外交事务
+  - 纽约时报
 status: evergreen
 ---
 <!-- chunk 1/5 -->

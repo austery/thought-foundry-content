@@ -5,18 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=q4WC4TowkBo
 speaker: AI Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - agentic-workflow
+  - software-verification
+  - evals
+  - test-driven-development
+title: WorkOS Beyond Done 工作坊：基于确定性验证与执行凭证构建自主智能体闭环信任
+summary: WorkOS 团队在工作坊中探讨如何超越表面完成，提出通过确定性 CLI 工具、端到端自动化测试与系统一裁判构建闭环验证，并强调保留运行凭据驱动自我演进与代码自愈。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Nick Nisi
+  - Zach Prosser
+companies_orgs:
+  - WorkOS
+products_models:
+  - Snack
+  - CTX
+  - Ryker
 media_books: []
 status: evergreen
 ---

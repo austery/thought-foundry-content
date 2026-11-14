@@ -5,19 +5,47 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/64d21694e490c5dee5e2546d?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - variance
+  - exploration
+  - novelty-search
+  - hidden-similarities
+  - stepping-stones
+title: 人生的方差与旷野：从《为什么伟大不能被计划》看探索与发现
+summary: 孟岩在《无人知晓》第三季最后一期中，结合《为什么伟大不能被计划》一书，探讨了人生探索的“方差”与“旷野”概念。他提出，伟大的发现往往源于对隐藏相似性的偶然连接，而非线性规划。通过“图片孵化器”实验、登山算法及乔布斯“连接点滴”等案例，文章主张人们应增加生活的随机性，保持开放与耐心，允许自己成为他人或未来的“垫脚石”，在未知中探索无限可能。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 孟岩
+  - Ken Stanley
+  - Joel Lehman
+  - 乔布斯
+  - 彼得·巴菲特
+  - 莱纳德·兰黛
+  - 贺炜
+  - 比利·比恩
+companies_orgs:
+  - OpenAI
+  - 有知有行
+  - 雅诗兰黛
+  - 特斯拉
+products_models:
+  - 图片孵化器
+  - 长盈指数投资计划
+  - 长钱账户
+media_books:
+  - 《为什么伟大不能被计划》
+  - 《金钱心理学》
+  - 《身心合一的奇迹力量》
+  - 《Climbing the Wrong Hill》
+  - 《Life Is What You Make It》
+  - 《成为雅诗兰黛》
+  - 《点球成金》
+  - 《无人知晓》
 status: evergreen
 ---
 <!-- chunk 1/4 -->

@@ -5,19 +5,36 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=KfODG5REyss
 speaker: Veritasium
-tags: []
-title: ''
-summary: ''
+tags:
+  - superfluidity
+  - liquid-helium
+  - bose-einstein-condensate
+  - zero-point-energy
+title: 超流氦的发现历程与物理机制
+summary: 文章回顾了从气体液化到卡末林·昂内斯液化氦气的探索历程，展现了液氦在2.17开尔文下转变为超流体的奇异特性，并探讨了艾伦、迈斯纳、卡皮查与朗道等科学家通过双流体模型与量子激发对其零粘度、爬壁、热反流及常压下无法冻结等物理现象的理论解释。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: science
+area: knowledge-meta
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 海克·卡末林·昂内斯
+  - 迈克尔·法拉第
+  - 詹姆斯·杜瓦
+  - 彼得·卡皮查
+  - 列夫·朗道
+  - 杰克·艾伦
+  - 唐·迈斯纳
+  - 阿尔伯特·爱因斯坦
+companies_orgs:
+  - 诺丁汉大学
+  - 欧洲核子研究中心
+products_models:
+  - 大型强子对撞机
+media_books:
+  - 《科学革命的结构》
+  - 《自然》
 status: evergreen
 ---
 <!-- chunk 1/6 -->

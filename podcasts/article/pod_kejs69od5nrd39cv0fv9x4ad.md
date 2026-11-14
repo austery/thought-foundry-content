@@ -5,19 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6462ef9e306513184c12abac?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - mindfulness
+  - uncertainty
+  - entrepreneurship
+  - psychological-resilience
+title: 孟岩与厚望对谈播客心流、面对恐惧与创业建构
+summary: 厚望与有知有行创始人孟岩围绕无提纲录播客展开对谈。孟岩分享了接纳情绪与不确定性、放下自我攻击、向前走打破僵局的体验，并探讨了有知有行在创业建构与服务用户价值上的理解。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: personal-growth
+area: life-family
 project: []
-people: []
-companies_orgs: []
+people:
+  - 孟岩
+  - 厚望
+companies_orgs:
+  - 有知有行
 products_models: []
-media_books: []
+media_books:
+  - 《面基》
+  - 《无人知晓》
 status: evergreen
 ---
 <!-- chunk 1/6 -->

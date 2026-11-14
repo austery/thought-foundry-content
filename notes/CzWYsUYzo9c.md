@@ -5,17 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=CzWYsUYzo9c
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - nationalism
+  - censorship
+  - sports-diplomacy
+  - public-opinion
+title: 从姆巴佩事件看西方运动员涉华言论与“辱华”现象争议
+summary: 对话围绕姆巴佩等西方运动员及品牌的涉华言论展开，盘点了眯眯眼手势、涉港疆藏议题及国名地图等引发争议的事件。参与者讨论了民间民族主义、审查制度及网络审查下的隐喻互动，并分析了商业利益对涉事者道歉行为的影响。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 姆巴佩
+  - 唐国强
+  - 毛泽东
+  - 莫雷
+companies_orgs:
+  - WTA
+  - NBA
 products_models: []
 media_books: []
 status: evergreen

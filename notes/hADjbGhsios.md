@@ -5,18 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=hADjbGhsios
 speaker: 罗永浩的十字路口
-tags: []
-title: ''
-summary: ''
+tags:
+  - entrepreneurship
+  - brand-strategy
+  - product-design
+  - self-research
+  - consumer-electronics
+title: 徕芬创始人叶洪新访谈：从寒门少年到全球第一吹风机品牌
+summary: 本文记录了徕芬创始人叶洪新的成长与创业历程。叶洪新初中毕业后自学计算机，经历多次创业失败后创立徕芬，通过自研高速无刷马达技术，以戴森五分之一的价格推出高性能吹风机。访谈探讨了其品牌战略、护城河构建及工业设计理念，强调通过持续创新与用户信任建立品牌优势。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: business-entrepreneurship
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - 叶洪新
+companies_orgs:
+  - 徕芬
+  - 戴森
+products_models:
+  - 高速吹风机
+  - 剃须刀
 media_books: []
 status: evergreen
 ---

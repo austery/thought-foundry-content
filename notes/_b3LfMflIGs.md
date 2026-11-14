@@ -5,17 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=_b3LfMflIGs
 speaker: All-In Podcast
-tags: []
-title: ''
-summary: ''
+tags:
+  - ai-bubble
+  - venture-capital
+  - founder-mindset
+  - podcast-culture
+title: 《All-In》播客登顶全球榜首及嘉宾讨论AI泡沫与创始人使命
+summary: 《All-In》团队庆祝其节目登顶全球播客榜首，并调侃彼此贡献。嘉宾本·霍洛维茨（Ben Horowitz）加入，讨论AI泡沫迹象、CoreWeave债券抛售及Anthropic估值。对话还涉及一级市场吞噬二级市场现象，以及创始人不应退休、持续建设公司的观点。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: tech-trends
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
+people:
+  - Jason Calacanis
+  - David Sacks
+  - Chamath Palihapitiya
+  - Ben Horowitz
+companies_orgs:
+  - All-In
+  - CoreWeave
+  - Anthropic
+  - OpenAI
+  - Andreessen Horowitz
 products_models: []
 media_books: []
 status: evergreen

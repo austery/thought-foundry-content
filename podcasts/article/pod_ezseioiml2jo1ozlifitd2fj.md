@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6943dd8252d4707aaa43990c?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - black-swan
+  - antifragility
+  - convexity
+  - uncertainty
+  - risk-management
+title: 张潇雨、孟岩与徐哲探讨黑天鹅、反脆弱与人生不确定性
+summary: 三位嘉宾讨论黑天鹅与反脆弱概念，澄清黑天鹅指未知而非坏事。徐哲解释利用期权构建正凸性策略以应对极端市场风险，张潇雨分享个人经历与心态转变，并探讨AI时代人类角色及生活中预防负面黑天鹅的实践。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
+people:
+  - 张潇雨
+  - 孟岩
+  - 徐哲
+companies_orgs:
+  - Universa
 products_models: []
-media_books: []
+media_books:
+  - 《投资第一课》
 status: evergreen
 ---
 <!-- chunk 1/11 -->

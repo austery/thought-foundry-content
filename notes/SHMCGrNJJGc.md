@@ -5,18 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=SHMCGrNJJGc
 speaker: AI Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - llm-evaluation
+  - agent-tracing
+  - ci-integration
+  - llm-as-judge
+title: 使用 Phoenix 和 LLM 裁判构建 AI 代理评估体系
+summary: 演讲者 Lauri Voss 介绍了如何利用 Phoenix 工具对 AI 代理进行端到端追踪与评估。通过结合代码检查与大模型裁判（LLM as a Judge），开发者可以验证代理性能并集成至 CI/CD 流程，从而在持续集成中实现自动化质量门禁。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
 people: []
-companies_orgs: []
-products_models: []
+companies_orgs:
+  - Arize AI
+products_models:
+  - Phoenix
+  - Claude
+  - Vercel AI SDK
 media_books: []
 status: evergreen
 ---

@@ -5,19 +5,34 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6459f2e97d934b850502ee96?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - entrepreneurship
+  - business-model
+  - organizational-design
+  - product-design
+title: 孟岩与吴鲁佳对谈：知识星球创业历程、组织设计与简单规则
+summary: 孟岩对话知识星球创始人吴鲁佳，回顾了知识星球从早期试错到引入付费功能并在微信生态中成长的历程。讨论涉及不鼓励加班与加班审批制度、以简单规则支撑组织与产品运行的理念、商业模式与克制，以及追求让小团队保持活力存活二十年的目标。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: business-entrepreneurship
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 孟岩
+  - 吴鲁佳
+  - 张志东
+companies_orgs:
+  - 知识星球
+  - 腾讯
+products_models:
+  - 知识星球
+  - 小蜜圈
+  - 小看板
+  - ChatGPT
+media_books:
+  - 无人知晓
+  - Getting Real
 status: evergreen
 ---
 <!-- chunk 1/6 -->

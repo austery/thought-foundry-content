@@ -5,19 +5,35 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=2EPd2ppAQ1g
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - public-affairs
+  - political-discourse
+  - geopolitics
+  - social-governance
+title: 时事杂谈：罗大佑言论争议、黄仁勋闭门聆讯看点与地缘多国动态
+summary: 节目讨论了罗大佑近期言论引发的争议、美国众议院委员会对黄仁勋发起闭门聆讯及涉及的商政关系看点，并述及解放军西太演训、加州税制公投、多地宗教场所财务检查与国际多项时事热点。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 罗大佑
+  - 黄仁勋
+  - 唐湘龙
+  - 马世芳
+  - Donald Trump
+companies_orgs:
+  - 英伟达
+  - 美国众议院
+  - Anthropic
+  - 蜜雪冰城
+products_models:
+  - Claude 3.2
+  - Opus 3.5
+media_books:
+  - 三枪内参
 status: evergreen
 ---
 <!-- chunk 1/6 -->

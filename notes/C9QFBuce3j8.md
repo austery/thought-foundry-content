@@ -5,18 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=C9QFBuce3j8
 speaker: 课代表立正
-tags: []
-title: ''
-summary: ''
+tags:
+  - ai-agent
+  - forward-deployed-engineer
+  - embedded-database
+  - foundation-model
+title: 超线性学院AIE直播研讨Agent垂直落地、基础设施与基础模型探索
+summary: 智慧芽、TensorChord与阶跃星辰在直播中分享了Agent落地实践：涵盖知识产权场景评测与FDE模式、面向Agent与个人会话存储的嵌入式云端基础设施需求，以及Step-2模型在端侧手机与专用领域的优化。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - 刘紫薇
+  - 郭子欣
+  - 郑书新
+companies_orgs:
+  - 智慧芽
+  - TensorChord
+  - 阶跃星辰
+products_models:
+  - Step-2 Preview
+  - VectorChord
 media_books: []
 status: evergreen
 ---

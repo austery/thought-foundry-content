@@ -5,19 +5,25 @@ guest: ''
 layout: post.njk
 source: https://podcasters.spotify.com/pod/show/florence-fernandez/episodes/EP20-x-e3gfbei
 speaker: 破壁圆桌
-tags: []
-title: ''
-summary: ''
+tags:
+  - digital-nomad
+  - personal-growth
+  - self-awareness
+  - career-choice
+title: 数字游民Betty的多元职业探索、十二周执行力与轻量化生活
+summary: 播客《破壁圆桌》对话数字游民Betty，分享其自2013年底离开正职后的多元职业探索历程，包括自然建筑、日本丰盛社区养猪、居家整理与登山向导等经历。Betty介绍了基于《12 Week Year》的十二周执行力系统，探讨了自我觉察、MVP服务变现、AI工具辅助以及轻量化生活方式背后的安全感来源。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: personal-growth
+area: life-family
 project: []
-people: []
+people:
+  - Betty
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 12 Week Year
 status: evergreen
 ---
 <!-- chunk 1/5 -->

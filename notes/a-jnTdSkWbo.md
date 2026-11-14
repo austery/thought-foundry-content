@@ -5,14 +5,18 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=a-jnTdSkWbo
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - democratic-transition
+  - cultural-hegemony
+  - authoritarianism
+  - political-reform
+title: 多方辩论中国转型路径：文化霸权瓦解、二次改开与制度论的分歧
+summary: 多位对谈者围绕中国社会转型路径展开辩论。方脸主张通过自下而上瓦解文化霸权与虚假合意推动民主化；李厚辰提出治理危机驱动下的累积式改革（二次改开）以谋求经济软着陆；其他参与者则强调极权体制的刚性控制与镇压现实，质疑渐进改良的可行性，双方在治理危机走向、未来经济前景及决定性机制上存在根本分歧。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

@@ -5,19 +5,31 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=FRoQOzZRcpw
 speaker: The Diary Of A CEO
-tags: []
-title: ''
-summary: ''
+tags:
+  - alzheimer's-prevention
+  - brain-health
+  - lifestyle-medicine
+  - neurology
+  - cognitive-decline
+title: 神经内科医生David Pelato谈阿尔茨海默病预防：生活方式决定大脑命运
+summary: 神经内科医生David Pelato指出，阿尔茨海默病在很大程度上可预防，生活方式选择是大脑命运的决定因素。他强调运动、饮食和社交连接的重要性，并分享其父亲患病经历，呼吁人们夺回健康主动权。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: health-wellness
+area: life-family
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - David Pelato
+  - Austin Pelato
+companies_orgs:
+  - Pipedrive
+products_models:
+  - Brain Defenders
+  - Brain Wash
+media_books:
+  - Brain Defenders
+  - Brain Wash
 status: evergreen
 ---
 <!-- chunk 1/13 -->

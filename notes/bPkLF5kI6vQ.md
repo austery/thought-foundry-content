@@ -5,14 +5,18 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=bPkLF5kI6vQ
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - social-conflict
+  - authoritarianism
+  - social-psychology
+  - interpersonal-trust
+title: 《三个水手》探讨中国互害社会现状、机制与体制互动
+summary: 节目对谈探讨了中国社会互害现象是否加剧，涉及熟人互害、职场与代际矛盾、校园霸凌、负面考核机制及报复社会事件，并分析了极权体制与民间性情之间的相互塑造与互动。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

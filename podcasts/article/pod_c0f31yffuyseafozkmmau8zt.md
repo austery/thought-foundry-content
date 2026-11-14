@@ -5,19 +5,36 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/62f850ca226f5c1fa0d587a1?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - product-service
+  - long-termism
+  - user-connection
+  - odyssey-journey
+  - value-investing
+title: 少楠与孟岩对话：从产品到服务，嵌入生命之河的长期主义
+summary: 少楠与孟岩在播客《无人知晓》中探讨产品与服务的本质。孟岩认为有知有行通过公众号、播客等多元触点提供心理按摩，帮助用户克服投资焦虑；少楠则视flomo为知识管理工具。双方强调企业应像河流一样嵌入用户生命，通过长期主义和真诚连接创造价值，而非追求短期规模。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: business-entrepreneurship
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 少楠
+  - 孟岩
+companies_orgs:
+  - flomo
+  - 有知有行
+products_models:
+  - flomo
+  - 小报童
+  - 有知有行
+media_books:
+  - 无人知晓
+  - 建筑的永恒之道
+  - 从0到1
+  - 千面英雄
+  - 三双鞋
 status: evergreen
 ---
 <!-- chunk 1/8 -->

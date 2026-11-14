@@ -5,19 +5,34 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=tirPBt_SUvM
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - cross-border-repression
+  - geopolitics
+  - censorship
+  - current-affairs
+title: 《三枪内参》盘点时事热点与社会议题
+summary: 节目讨论了三丽鸥与日剧联名引发的争议、美日联合生产导弹、涉嫌跨境镇压李老师被起诉、性少数影展停办、中共五中全会人事变动及多起境内外社会民生事件。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 李老师
+  - 刘延东
+  - 何永贤
+  - 张又侠
+  - 周子迅
+companies_orgs:
+  - 三丽鸥
+  - TBS
+  - 乐文书店
+  - 萨莉亚
 products_models: []
-media_books: []
+media_books:
+  - VIVANT
+  - 三枪内参
 status: evergreen
 ---
 <!-- chunk 1/5 -->

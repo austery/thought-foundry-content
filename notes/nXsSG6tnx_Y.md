@@ -5,19 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=nXsSG6tnx_Y
 speaker: Big Think
-tags: []
-title: ''
-summary: ''
+tags:
+  - autopoiesis
+  - quantum-mechanics
+  - astrobiology
+  - technosignature
+  - philosophy-of-science
+title: 亚当·弗兰克探讨生命的自组织、量子力学视角的转向与地外生命搜寻
+summary: 天体物理学家亚当·弗兰克指出生命是自创生与自选目标的自主行动体，不同于机器与计算系统。他主张结合量子贝叶斯模型与克服科学“盲区”以重估能动性与主观经验，并探讨了系外行星生物特征、技术特征与行星智慧。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: science
+area: knowledge-meta
 project: []
-people: []
-companies_orgs: []
+people:
+  - Adam Frank
+companies_orgs:
+  - Big Think
 products_models: []
-media_books: []
+media_books:
+  - The Blind Spot
 status: evergreen
 ---
 <!-- chunk 1/7 -->

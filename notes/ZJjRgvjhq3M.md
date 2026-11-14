@@ -5,18 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ZJjRgvjhq3M
 speaker: AI Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - financial-services
+  - wealth-management
+  - plugin-architecture
+  - mcp-connections
+  - audit-logging
+title: OpenAI 金融服务研讨会：ChatGPT for Work 与 Codex 在财富管理中的应用及插件架构解析
+summary: OpenAI 应用 AI 工程团队在面向金融服务的研讨会中，展示了如何利用 ChatGPT for Work 和 Codex 处理金融数据与财富管理案例。 演讲者介绍了内置数据、模型微调及成果物生成能力，并重点讲解了插件架构如何通过 MCP 连接实现系统回写与审计日志存储，以满足合规需求。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
 people: []
-companies_orgs: []
-products_models: []
+companies_orgs:
+  - OpenAI
+products_models:
+  - ChatGPT for Work
+  - Codex
 media_books: []
 status: evergreen
 ---

@@ -5,16 +5,21 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=dsNElPKH8lA
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - social-movement
+  - public-sphere
+  - civil-society
+  - state-surveillance
+title: 李颖访谈：海内外舆情反差、专题维权项目与公民社会建设
+summary: 对话探讨了“李老师不是你老师”账号四年间的舆情演变。内容涵盖受众疲态与国内情绪反差、针对高校与职场的专项征集项目、官方应对措施，以及通过媒体监督拓展公共空间、培育公民社会和应对海外创伤等议题。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
+people:
+  - 李颖
 companies_orgs: []
 products_models: []
 media_books: []

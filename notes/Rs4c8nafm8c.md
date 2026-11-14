@@ -5,19 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=Rs4c8nafm8c
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - geopolitics
+  - taxation
+  - corporate-governance
+  - political-crisis
+title: 三腔内参讨论国际时事、印尼政局变动与英伟达高层辞职风波
+summary: 播客节目盘点多项热点：涉及中美互动与核不扩散议题、西班牙全国总罢工、中国离岸信托征税及遗产税讨论。此外还分析了印尼副总统吉布兰辞职、Anthropic筹备上市、黄仁勋辞职对英伟达的影响，以及深圳APEC安保与孙中山诞辰讲话等议题。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: geopolitics
+area: geopolitics
 project: []
-people: []
-companies_orgs: []
+people:
+  - 黄仁勋
+  - 吉布兰
+  - 普拉伯沃
+  - 习近平
+companies_orgs:
+  - 英伟达
+  - Anthropic
 products_models: []
-media_books: []
+media_books:
+  - 三腔内参
 status: evergreen
 ---
 <!-- chunk 1/4 -->

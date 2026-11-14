@@ -5,19 +5,33 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=1BjhYUxM_94
 speaker: The Ezra Klein Show
-tags: []
-title: ''
-summary: ''
+tags:
+  - left-wing-politics
+  - electoral-politics
+  - democratic-socialism
+  - foreign-policy
+title: 左翼主播哈桑谈民主党中期选举、通俗伯尼主义与巴以政策分歧
+summary: 播客专访左翼网络主播哈桑，探讨民主党中期选举表现与党内综合。哈桑主张聚焦反腐与全民医保等经济民生议程，阐述其反犹太复国主义立场及对以施压诉求，并结合地方实践讨论社会主义市政治理与务实路线。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Hasan Piker
+  - Donald Trump
+  - Bernie Sanders
+  - Zohran Mamdani
+  - Brad Lander
+companies_orgs:
+  - Democratic Party
+  - Democratic Socialists of America
 products_models: []
-media_books: []
+media_books:
+  - Mao, The Man Who Built China
+  - Black Shirts and Reds
+  - American Socialist, the Life and Legacy of Eugene V. Debs
 status: evergreen
 ---
 <!-- chunk 1/10 -->

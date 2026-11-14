@@ -5,19 +5,25 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=S8l1jGHt_PI
 speaker: Big Think
-tags: []
-title: ''
-summary: ''
+tags:
+  - pantheism
+  - problem-of-evil
+  - philosophy-of-religion
+  - multiverse
+title: 杰克·桑兹论击败邪恶上帝挑战与多元宇宙泛神论
+summary: 杰克·桑兹探讨击败邪恶上帝挑战，指出支持善神的理由存在累积不对称性，并提出多元宇宙泛神论，主张上帝与包含所有可能实现的多元宇宙同一，以此回应微调、意识与恶的问题。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
+people:
+  - Jack Sands
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - Defeating the Evil God Challenge
 status: evergreen
 ---
 <!-- chunk 1/9 -->

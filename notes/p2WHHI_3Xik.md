@@ -5,19 +5,35 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=p2WHHI_3Xik
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - election
+  - stock-market
+  - geopolitics
+  - cyber-attack
+title: 三枪内参第十一期：美国大选开票初况、全球市场震荡与国际地缘热点汇总
+summary: 节目梳理了多项时事动态：美国大选及国会选举初期开票显示民主党在参众两院部分关键选区具有优势；受科技股业绩冲击全球多国股市出现重挫，中国股市持续疲软；此外还讨论了伊朗和谈倾向引发的原油价格变动、两岸关系动态、多国网络黑客攻击事件及近期国内外社会新闻。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: geopolitics
+area: geopolitics
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 刘成
+  - 李厚辰
+  - 黄之锋
+  - 陈万军
+  - 张剑虹
+companies_orgs:
+  - 国家队
+  - Anthropic
+  - 英伟达
+  - 自由之家
+products_models:
+  - 通义千问
+  - Claude
+media_books:
+  - 三枪内参
 status: evergreen
 ---
 <!-- chunk 1/4 -->

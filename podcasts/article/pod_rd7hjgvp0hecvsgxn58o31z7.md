@@ -5,19 +5,36 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/682ecd8b457b22ce0df770c2?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - wealth
+  - desire
+  - consumerism
+  - mindset
+  - attention
+title: 孟岩谈财富、欲望与对“足够”的定义
+summary: 孟岩通过查克·费尼与阿道夫·默克尔等事例，探讨消费社会中被制造的欲望以及如何定义“足够”，指出应警惕无休止的外部攀比与贪婪驱动，重视注意力资源并回归内在动机与平静生活。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 孟岩
+  - Chuck Feeney
+  - Adolf Merckle
+  - Lawrence Yeo
+  - Morgan Housel
+  - Warren Buffett
+companies_orgs:
+  - DFS
+  - The Atlantic Philanthropies
+  - 有知有行
 products_models: []
-media_books: []
+media_books:
+  - The Many Worlds of Enough
+  - 制造消费者：消费主义全球史
+  - 白日梦想家
 status: evergreen
 ---
 <!-- chunk 1/4 -->

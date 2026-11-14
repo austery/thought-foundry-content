@@ -5,18 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=e9-br9hveRI
 speaker: AI Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - financial-analysis
+  - agent-harness
+  - trust-building
+  - determinism
+  - spec-driven-development
+title: 构建可信财务分析智能体测试框架
+summary: 演讲者提出在金融领域构建财务分析智能体测试框架（harness）以建立信任。鉴于金融数据的模糊性与变化性，框架需通过确定性代码与有主张的工作流来约束AI，确保结果可靠，而非依赖纯提示词。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
 people: []
-companies_orgs: []
-products_models: []
+companies_orgs:
+  - Monzo
+  - Nubank
+products_models:
+  - Agent Chip
 media_books: []
 status: evergreen
 ---

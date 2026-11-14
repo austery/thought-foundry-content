@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ZdhvVyIbA18
 speaker: FearNation 世界苦茶
-tags: []
-title: ''
-summary: ''
+tags:
+  - election
+  - civil-society
+  - artificial-intelligence
+  - agent
+title: 周五直播漫谈：国际与台湾政治观察、黄之锋求情信及个人 AI 实践经验
+summary: 讲述者梳理了当年的国际大事与多国选举走势，评析台湾大罢免与近期学者言论，并选读黄之锋狱中求情信。此外，针对读者关于独立开发推广、扶贫、瘦瘦针及个人智能体框架搭建等问题进行了回应与经验分享。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
+people:
+  - 沈伯洋
+  - 杨渡
+  - 罗世宏
+  - 黄之锋
+  - 戴立安
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 求是
 status: evergreen
 ---
 <!-- chunk 1/7 -->

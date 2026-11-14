@@ -5,19 +5,53 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=9GLdGc9OX-A
 speaker: The Ezra Klein Show
-tags: []
-title: ''
-summary: ''
+tags:
+  - artificial-intelligence
+  - economic-bubble
+  - capital-expenditure
+  - general-purpose-technology
+title: AI 驱动的繁荣与泡沫之争
+summary: 节目探讨了人工智能是处于生产力繁荣还是金融泡沫之中。保罗·凯德罗斯基指出基建过度建设、信贷与股市杠杆及潜在监管必将引发危机；阿齐姆·阿扎尔则认为算力需求真实且债务尚未失控，关键取决于企业实际支出增速。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: tech-trends
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - Paul Kedrosky
+  - Azeem Azhar
+  - Ezra Klein
+companies_orgs:
+  - SK Ventures
+  - MIT
+  - Exponential View
+  - BlackRock
+  - Goldman Sachs
+  - Google
+  - Meta
+  - Alphabet
+  - OpenAI
+  - Anthropic
+  - Microsoft
+  - Apple
+  - Oracle
+  - Cloudflare
+  - SpaceX
+  - Nvidia
+products_models:
+  - ChatGPT
+  - Claude
+  - DeepSeek
+  - Grok
+  - Siri
+media_books:
+  - Middlemarch
+  - Liberty's Dawn
+  - 'Insull: The Rise and Fall of a Billionaire Utility Tycoon'
+  - The Day the Universe Changed
+  - Fathers and Sons
+  - Candide
 status: evergreen
 ---
 <!-- chunk 1/9 -->

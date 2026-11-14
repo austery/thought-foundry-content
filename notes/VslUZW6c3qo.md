@@ -5,17 +5,25 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=VslUZW6c3qo
 speaker: 一口新飯社群
-tags: []
-title: ''
-summary: ''
+tags:
+  - personal-growth
+  - career-transition
+  - content-creation
+  - mindset
+title: 访谈 Martina：从联想战略分析到澳洲打工度假与 AI 自媒体的跨界经历
+summary: 嘉宾 Martina 分享了其从地质学考研转入联想战略分析部实习，随后赴澳洲打工度假从事后厨与西厨，回国入职五星级酒店，再到赴马来西亚从事 IT 营销并运营 AI 教程自媒体的心态转变、复盘方法与行动经验。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: personal-growth
+area: life-family
 project: []
-people: []
-companies_orgs: []
+people:
+  - Martina
+  - 潘潘
+companies_orgs:
+  - 联想
+  - 希尔顿
 products_models: []
 media_books: []
 status: evergreen

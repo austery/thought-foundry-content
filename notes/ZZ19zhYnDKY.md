@@ -5,18 +5,34 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ZZ19zhYnDKY
 speaker: AI Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - ai-engineering
+  - coding-agents
+  - vibe-coding
+  - conference
+title: AI Engineer Code Summit 2026 开幕致辞与闭幕总结
+summary: 文章记录了 2026 年 AI 工程师代码峰会的开幕与闭幕环节。主持人 Corey Quinn 介绍了 AIE 团队扩张及 2027 年规划，演讲者探讨了 AI 代理的恢复机制（Evo undo）、Vibe coding 在 3D 游戏开发中的突破，以及软件工程师在 AI 时代面临的挑战与预测复盘。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Corey Quinn
+  - Leah
+companies_orgs:
+  - DuckBill Group
+  - AIE
+  - Swix
+  - Major League Hacking
+  - Neo4j
+  - Google
+products_models:
+  - Claude
+  - Opus 5.5
+  - Gemini 4 carbon
+  - Evo undo
 media_books: []
 status: evergreen
 ---

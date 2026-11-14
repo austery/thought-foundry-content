@@ -5,18 +5,37 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=S9jNH9i7c4Y
 speaker: 北美王路飞
-tags: []
-title: ''
-summary: ''
+tags:
+  - stock-market-crash
+  - financial-crisis
+  - liquidity-crisis
+  - leverage
+title: 美国百年五次股市大崩盘历史复盘与机制分析
+summary: 文章回顾了美国百年来的五次股市大崩盘（1907年、1929年、1987年、2008年与2010年），分析了各次危机中外来导火索、流动性危机、新型金融工具与杠杆传导机制的共性演变。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - 摩根
+  - 西奥多·罗斯福
+  - 斯特朗
+  - 麦汉
+  - 利兰
+  - 格林斯潘
+  - 保尔森
+companies_orgs:
+  - 尼克伯克信托
+  - 美联储
+  - 纽约证券交易所
+  - AIG
+  - 雷曼兄弟
+  - 贝尔斯登
+  - LOR
+products_models:
+  - 标普500股指期货
 media_books: []
 status: evergreen
 ---

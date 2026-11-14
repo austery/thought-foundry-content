@@ -5,18 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ATMcd9tkhhc
 speaker: AI Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - financial-analysis
+  - ai-harness
+  - deterministic-ai
+  - trust-building
+  - workflow-design
+title: 构建可信赖的财务分析 Harness：从电子表格到确定性 AI 工作流
+summary: 演讲者 Francesco 和 Filipe 在 AIE 工作坊中提出，财务分析的核心瓶颈已从速度转向信任。他们主张摒弃仅依赖电子表格或纯提示词驱动的非确定性 AI 方法，转而构建具有确定性后端代码的“Harness”。通过引入测试、证据链和明确的工作流，确保 AI 在金融领域的应用具备可追溯性与可靠性，从而在模糊性与精确性之间建立用户信任。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Francesco
+  - Filipe
+companies_orgs:
+  - Monzo
+  - Nubank
+products_models:
+  - Claude
+  - ChatGPT
+  - Looker Studio
 media_books: []
 status: evergreen
 ---

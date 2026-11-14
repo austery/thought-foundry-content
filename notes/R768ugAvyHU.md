@@ -5,19 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=R768ugAvyHU
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - ethnic-politics
+  - political-transition
+  - identity-politics
+  - authoritarianism
+title: 台湾本省与外省族群议题的历史脉络与现代变迁
+summary: 文章探讨了台湾本省人与外省人议题的演变。从松山机场迁建话题切入，系统梳理了户籍注记取消、族群边界重构、威权时期的政治垄断与经济分工、语言文化政策、二二八与白色恐怖记忆，以及当代族群意识淡化等历史与社会脉络。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 李登辉
+  - 蒋经国
+  - 蒋万安
+  - 马英九
+companies_orgs:
+  - 中国国民党
+  - 民主进步党
 products_models: []
-media_books: []
+media_books:
+  - 意外的国度
 status: evergreen
 ---
 <!-- chunk 1/3 -->

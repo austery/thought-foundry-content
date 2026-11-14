@@ -5,14 +5,18 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=fPlTH1zkr4E
 speaker: 知行小酒馆
-tags: []
-title: ''
-summary: ''
+tags:
+  - windfall
+  - family-relationship
+  - interpersonal-trust
+  - personal-finance
+title: 知行小酒馆：五位听友关于意外之财的生活故事与心路历程
+summary: 播客《知行小酒馆》围绕“我的意外之财”主题，呈现了五位听友各自经历彩票中奖、离职补偿、留学奖学金、遗产诉讼及保单受益人变更的故事，展现了金钱背后交织的家庭关系、信任与人生态度。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: family-relations
+area: life-family
 project: []
 people: []
 companies_orgs: []

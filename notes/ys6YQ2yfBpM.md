@@ -5,18 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ys6YQ2yfBpM
 speaker: AI Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - prompt-engineering
+  - model-evaluation
+  - hill-climbing
+  - prompt-caching
+  - autonomous-agent
+title: Anthropic 技术人员分享充分利用前沿模型的实用方法与评测优化策略
+summary: Anthropic 的 Lance 分享了优化前沿模型利用率的实践，涵盖提示词审查与债务清理、提示词缓存利用、评测集设计与爬山算法优化，以及长时间运行智能体的架构与解耦考量。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
 people: []
-companies_orgs: []
-products_models: []
+companies_orgs:
+  - Anthropic
+products_models:
+  - Claude
+  - Claude Code
+  - Claude API
 media_books: []
 status: evergreen
 ---

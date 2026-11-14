@@ -5,19 +5,31 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/642282cf8aca9099d78289ed?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - publishing
+  - reading
+  - life-philosophy
+  - business-model
+title: 孟岩对话张立宪：出版理念、逃离渠道绑架与人生的得救之道
+summary: 孟岩与读库创始人张立宪探讨了《投资第一课》的出版渊源。张立宪阐述了读库做书抗时间的非易碎品标准，分享了当年摆脱渠道盘剥与系统性缺陷、直接面向读者的历程，并讨论了阅读的本质与消除信息差的人生思考。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 孟岩
+  - 张立宪
+  - 肖雨
+companies_orgs:
+  - 读库
+  - 有知有行
+products_models:
+  - 有知有行
+media_books:
+  - 《投资第一课》
+  - 《无人知晓》
 status: evergreen
 ---
 <!-- chunk 1/7 -->

@@ -5,19 +5,39 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/638429dd7105b234344c11df?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - fund-portfolio
+  - asset-allocation
+  - investor-education
+  - investment-strategy
+title: 孟岩与团队复盘基金组合投资探索与有知有行长钱账户演进
+summary: 孟岩、咏庆和雨白回顾了从且慢到有知有行的探索历程。团队反思了二八轮动策略回测失灵、开放基金组合质量难控的经验，总结出四笔钱资产配置框架及投教陪伴体系，并探讨了长钱账户的上线与理念。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 孟岩
+  - 咏庆
+  - 雨白
+companies_orgs:
+  - 盈米
+  - 天相
+  - 雪球
+  - 嘉实财富
+  - 雪球基金
+products_models:
+  - 且慢
+  - 有知有行
+  - 长钱账户
+  - 稳稳的幸福
+  - 二八轮动
+media_books:
+  - 无人知晓
+  - Start with Why
+  - 投资第一课
 status: evergreen
 ---
 <!-- chunk 1/6 -->

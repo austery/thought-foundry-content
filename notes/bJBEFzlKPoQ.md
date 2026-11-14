@@ -5,18 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=bJBEFzlKPoQ
 speaker: Latent Space
-tags: []
-title: ''
-summary: ''
+tags:
+  - legal-tech
+  - artificial-intelligence
+  - autonomous-agent
+  - prompt-engineering
+  - workflow-automation
+title: Legora CTO访谈：从法律检索到智能体编排与法律科技工程实践
+summary: Legora CTO Jacob Loritzen探讨了法律AI产品的演进路径与工程实践。公司从法律检索扩展到文档起草、分析及基于列表的原语编排，并推出表格审查等核心功能。他指出当前法律场景不仅依赖前沿大模型，更需结合法律工程师进行定制配置与评估，在保障数据隐私的同时探索合伙人模式与计费方式的变革。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Jacob Loritzen
+companies_orgs:
+  - Legora
+products_models:
+  - ChatGPT
 media_books: []
 status: evergreen
 ---

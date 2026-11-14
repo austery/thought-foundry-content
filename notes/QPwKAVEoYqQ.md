@@ -5,19 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=QPwKAVEoYqQ
 speaker: TVO Today
-tags: []
-title: ''
-summary: ''
+tags:
+  - midterm-election
+  - fiscal-policy
+  - political-debate
+  - waste-management
+title: OnPaly 播客：2026年美国中期选举影响与安大略省政经动态
+summary: 节目探讨了2026年美国中期选举中民主党夺得两院对美加关系的影响，并回顾了安大略省自由党党魁终场辩论、秋季经济报告中债务与开支规划，以及省内垃圾填埋场政策调整与前省议员从政历程。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Donald Trump
+  - Doug Ford
+  - Brian Lewis
+  - Ted McMeekin
+companies_orgs:
+  - TVO
+  - Ontario Liberal Party
 products_models: []
-media_books: []
+media_books:
+  - OnPaly
 status: evergreen
 ---
 <!-- chunk 1/9 -->

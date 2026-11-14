@@ -5,19 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/642b7fd666e4c00c6a2326fa?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - mindfulness
+  - self-reflection
+  - investing-philosophy
+  - resilience
+  - cognitive-bias
+title: 孟岩在《无人知晓》播客中边签《投资第一课》边分享“咒语”与人生感悟
+summary: 孟岩在录制《无人知晓》播客时，一边为《投资第一课》签名，一边分享其背后的创作故事及“咒语”（如“让万物穿过自己”、“欢迎来到荷兰”等）。他探讨了投资与自我成长的关系，强调通过“此时此刻”的专注与接纳，将签名转化为传递力量的留言，并反思了痛苦、无常与个人认知的局限性。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 孟岩
+  - 张潇雨
+companies_orgs:
+  - 有知有行
+  - 读库
 products_models: []
-media_books: []
+media_books:
+  - 《投资第一课》
+  - 《无人知晓》
 status: evergreen
 ---
 <!-- chunk 1/5 -->

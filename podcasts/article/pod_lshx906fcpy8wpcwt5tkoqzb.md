@@ -5,19 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6667f31dc26e396a36eefe25?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - stand-up-comedy
+  - value-investing
+  - psychology
+  - market-sentiment
+title: 孟岩与周奇墨对谈单口喜剧创作、心理状态与投资体悟
+summary: 在《无人知晓》播客中，孟岩与单口喜剧演员周奇墨围绕现场演出状态、创作自主性、对名气与社交媒体的克制进行交流，并探讨了投资学习对拓宽认知视野、理解行业出清以及调节个人心理状态的启发。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
+people:
+  - 周奇墨
+  - 孟岩
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 无人知晓
+  - 单口喜剧十大专场
+  - 文明、现代化与中国
 status: evergreen
 ---
 <!-- chunk 1/5 -->

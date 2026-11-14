@@ -5,19 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=m2khxka_HLY
 speaker: 课代表立正
-tags: []
-title: ''
-summary: ''
+tags:
+  - knowledge-payment
+  - business-model
+  - online-community
+  - artificial-intelligence
+title: 柯大彪·真與亞哥的 AI 付費課程、社群構建及商業模式訪談
+summary: 訪談嘉賓柯大彪·真分享了其與技術合夥人亞哥在美國平台開設 AI 原理付費課程及建立「超線性學院」社群的經歷。內容涵蓋瞄準頂尖科技從業者、培育技術直覺、以免費社群帶動高價產品轉換的商業模式，以及在組織內部使用代理工具與 Markdown 協作的具體實踐。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: business-entrepreneurship
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 柯大彪·真
+  - 亞哥
+companies_orgs:
+  - Maven
+  - 超線性學院
+products_models:
+  - BuilderSpace
+  - Codex
+media_books:
+  - 中國最佳商業
 status: evergreen
 ---
 <!-- chunk 1/7 -->

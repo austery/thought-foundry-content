@@ -5,19 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6123983acc5f215c6e0b7e6d?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - value-investing
+  - economies-of-scale
+  - index-fund
+  - evolutionary-theory
+title: 孟岩与南天对话：从把手弄脏、规模效应到共生演化的投资与商业认知
+summary: 在播客《无人知晓》首期中，孟岩与私募基金创办人南天深入探讨了商业与投资理念。南天分享了对“把手弄脏”非功利性的理解、长期授课对认知的梳理，以及将“求真、有爱、规模效应”作为企业文化的核心逻辑。南天还回顾了其价值投资视角向更早阶段商业本质的演化，并与孟岩共同探讨了共生演化与指数基金的内在规律。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
+people:
+  - 孟岩
+  - 南天
+companies_orgs:
+  - 望岳
+  - 有知有行
 products_models: []
-media_books: []
+media_books:
+  - 无人知晓
 status: evergreen
 ---
 <!-- chunk 1/8 -->

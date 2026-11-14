@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=x6WqD4qHxSc
 speaker: The Pragmatic Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - load-testing
+  - database-sharding
+  - platform-engineering
+  - scalability
+title: Maud Lemaire 访谈：Slack、GitHub 与 Cursor 的系统扩容与平台工程实践
+summary: Maud Lemaire 探讨了大型生产系统扩容经验，包括 Slack 的高并发 WebSocket 负载测试与惊群效应治理、GitHub 单体架构下基于 Vitess 的数据库分片与散射查询瓶颈，以及在大模型时代为何仍需深入代码进行人工验证与平台防护。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: architecture
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - Maud Lemaire
+companies_orgs:
+  - Slack
+  - GitHub
+  - Cursor
+products_models:
+  - Vitess
+media_books:
+  - Refactoring at Scale
 status: evergreen
 ---
 <!-- chunk 1/10 -->

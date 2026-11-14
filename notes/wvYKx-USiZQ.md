@@ -5,19 +5,36 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=wvYKx-USiZQ
 speaker: The Ezra Klein Show
-tags: []
-title: ''
-summary: ''
+tags:
+  - electoral-strategy
+  - populism
+  - political-realignment
+  - voter-mobilization
+title: 从得州到南方：民主党在选举中的竞选策略、民粹主义与联盟重组
+summary: 节目讨论了民主党在得克萨斯、佐治亚等地的选战突破。候选人结合反科技寡头与腐败的民粹主义议题、道德价值观叙事及全线参选协同效应，在南方及铁锈带拓展了跨党派吸引力。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Michelle Goldberg
+  - James Talarico
+  - Donald Trump
+  - Gina Hinojosa
+  - Jon Ossoff
+  - Abdul El-Sayed
+  - Adam Hamilton
+companies_orgs:
+  - The New York Times
+  - Democratic Party
+  - Republican Party
 products_models: []
-media_books: []
+media_books:
+  - Good People
+  - The Feast of the Goat
+  - The Man Who Loved Dogs
 status: evergreen
 ---
 <!-- chunk 1/8 -->

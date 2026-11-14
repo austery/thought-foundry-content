@@ -5,18 +5,22 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=f0OOIK_tNaQ
 speaker: 北美王路飞
-tags: []
-title: ''
-summary: ''
+tags:
+  - video-game
+  - live-streaming
+  - casual-talk
+title: Dota 游戏对局、直播画质设置与日常杂谈
+summary: 记录了参与者在进行 Dota 游戏对局过程中的交流，涵盖开箱抽中死亡先知套装、多场天梯对局阵容与战况讨论、直播输出分辨率设置排查，以及简要提及的纳斯达克行情与政治光谱测试等日常杂谈。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: personal-growth
+area: life-family
 project: []
 people: []
 companies_orgs: []
-products_models: []
+products_models:
+  - Dota
 media_books: []
 status: evergreen
 ---

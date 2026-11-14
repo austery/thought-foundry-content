@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ScFf69X7gYU
 speaker: Adam's Axiom
-tags: []
-title: ''
-summary: ''
+tags:
+  - game-theory
+  - nash-equilibrium
+  - mechanism-design
+  - incentive-compatibility
+  - subgame-perfect-equilibrium
+title: 博弈论基础与双咖啡馆定价
+summary: 本文作为博弈论指南，通过双咖啡馆定价案例阐述纳什均衡与子博弈完美均衡，分析机制设计中的激励相容问题，并探讨模型假设与预测偏差。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

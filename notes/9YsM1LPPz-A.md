@@ -5,19 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=9YsM1LPPz-A
 speaker: The MAD Podcast with Matt Turck
-tags: []
-title: ''
-summary: ''
+tags:
+  - machine-native-ai
+  - system-one-model
+  - classifier
+  - composability
+  - reinforcement-learning
+title: MAD专访TypeSafe创始人：以机器原生AI与系统一模型重塑软件可组合性
+summary: TypeSafe首席执行官Diogo Almeida在MAD播客中阐述了其模型Jev的定位与理念。他指出RLHF与自回归生成导致模型不可靠且成本高昂，主张通过RLCD训练与代码结合构建机器原生、确定性的系统一分类与决策接口，以大幅降低推理成本并实现软件深层自动化。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-ml
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - Diogo Almeida
+  - Matt Turk
+companies_orgs:
+  - Typesafe
+  - OpenAI
+products_models:
+  - Jev
+media_books:
+  - MAD Podcast
 status: evergreen
 ---
 <!-- chunk 1/8 -->

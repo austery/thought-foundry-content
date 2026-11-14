@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=0nJl3baFrTM
 speaker: 天下文化
-tags: []
-title: ''
-summary: ''
+tags:
+  - semiconductor
+  - finfet
+  - patent-strategy
+  - integrated-circuit
+title: 胡正明自传《拿出办法来》新书发表会与半导体创新经验分享
+summary: 胡正明在新书《拿出办法来》发表会上与多位半导体界人士回顾生平历程，分享其在鳍式电晶体（FinFET）研发、可靠性基础科学突破、台积电专利攻防体系革新及跨领域人才培育等方面的核心经验。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: tech-trends
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 胡正明
+companies_orgs:
+  - 台积电
+  - 天下文化
+products_models:
+  - FinFET
+  - BSIM
+media_books:
+  - 《拿出办法来》
 status: evergreen
 ---
 <!-- chunk 1/5 -->

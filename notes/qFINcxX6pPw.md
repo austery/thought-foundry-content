@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=qFINcxX6pPw
 speaker: 北美王路飞
-tags: []
-title: ''
-summary: ''
+tags:
+  - press-secretary
+  - political-appointment
+  - media-scrutiny
+  - election-politics
+title: 白宮新任新聞秘書爭議與美國政局及大選討論
+summary: 文章討論了白宮新任新聞秘書在任命背景、記者會表現及律師資格方面引發的爭議與輿論質疑，並延伸探討了川普政府內部人事運作、美國大選民調與選情、以及部分國際政治與財經話題。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 川普
+  - 凱蒂
+companies_orgs:
+  - 白宮
+  - 福克斯新聞
 products_models: []
-media_books: []
+media_books:
+  - 漢尼提
+  - 福斯與朋友
 status: evergreen
 ---
 <!-- chunk 1/4 -->

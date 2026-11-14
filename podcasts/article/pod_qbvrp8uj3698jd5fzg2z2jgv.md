@@ -5,19 +5,31 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/635531f22a992d56e91e6572?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - neocortex
+  - reference-frame
+  - consciousness
+  - cognition
+  - neuroscience
+title: 从脑神经科学理解人类智能、意识与认知探索
+summary: 讲述者结合脑神经科学理论探讨智能与认知。新皮质作为智能器官，通过运动与参考系为世界建模，并依据预测误差更新模型；思考是运动的一种形式，记忆需在意识中停留；意识具有总结、表达与创造功能，其本质由神经活动雪崩形成。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: psychology
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 杰夫·霍金斯
+  - 罗伯特·赖特
+  - 迪昂
+companies_orgs:
+  - Numenta
 products_models: []
-media_books: []
+media_books:
+  - 《千脑智能》
+  - 《脑与意识》
+  - 《洞见》
 status: evergreen
 ---
 <!-- chunk 1/5 -->
