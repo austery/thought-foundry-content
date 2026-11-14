@@ -5,18 +5,32 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=QCslB3OGPmI
 speaker: FearNation 世界苦茶
-tags: []
-title: ''
-summary: ''
+tags:
+  - semiconductor-industry
+  - artificial-intelligence
+  - geopolitics
+  - corporate-governance
+title: 直播连线讨论黄仁勋涉间谍风波、川普政府动机及半导体与AI产业地缘政治影响
+summary: 本篇直播对话探讨了黄仁勋卷入间谍风波传闻后的潜在法律风险与英伟达治理结构，分析了川普政府在中美对抗与芯片销售上的利益动机，并延伸讨论了半导体全球产业链依赖、AI去监管趋势以及大国竞争格局。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: geopolitics
+area: geopolitics
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - 黄仁勋
+  - Donald Trump
+  - 黄乐
+  - Marco Rubio
+  - Joe Biden
+  - Elon Musk
+companies_orgs:
+  - NVIDIA
+  - TSMC
+  - ASML
+products_models:
+  - CUDA
 media_books: []
 status: evergreen
 ---

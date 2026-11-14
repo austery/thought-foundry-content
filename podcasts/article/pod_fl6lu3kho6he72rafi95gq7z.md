@@ -5,19 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/674993fcc3b2a2f334681d1c?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - education
+  - philanthropy
+  - personal-growth
+  - mindset
+title: 陈行甲谈知行合一、教育心态与公益选择
+summary: 陈行甲在访谈中分享其教育观，主张以“园丁心态”培养会思考、有关怀、爱自由的孩子，而非“木匠心态”。他解释选择公益而非商业或政界的原因，认为社会慈善领域更需其经验与影响力。访谈还涉及他对生命力的理解、母亲的影响及恒晖基金会的理念。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 陈行甲
+companies_orgs:
+  - 恒晖基金会
 products_models: []
-media_books: []
+media_books:
+  - 别离歌
 status: evergreen
 ---
 <!-- chunk 1/7 -->

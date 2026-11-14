@@ -5,19 +5,34 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=v7Ov2p_QB8s
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - election
+  - geopolitics
+  - trade-policy
+  - diplomacy
+title: 《三枪内参》第43期：台海政情走势、巴西大选决选与国际多边博弈动态梳理
+summary: 节目讨论了蒋万安帖文争议及台北选情变化，分析了巴西大选首轮结果与对华关系走势，并梳理了G20贸易部长会议产能争议、联合国取消单边强制措施联署及多起国内外社会要闻。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: geopolitics
+area: geopolitics
 project: []
-people: []
-companies_orgs: []
+people:
+  - 蒋万安
+  - 沈伯洋
+  - 卢拉
+  - 博索纳罗
+  - 小博索纳罗
+companies_orgs:
+  - 二十国集团
+  - 联合国
+  - 比亚迪
+  - 星巴克
+  - 博裕资本
 products_models: []
-media_books: []
+media_books:
+  - 《三枪内参》
 status: evergreen
 ---
 <!-- chunk 1/6 -->

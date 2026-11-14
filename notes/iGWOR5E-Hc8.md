@@ -5,19 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=iGWOR5E-Hc8
 speaker: INDIGO 数字镜像
-tags: []
-title: ''
-summary: ''
+tags:
+  - artificial-intelligence
+  - natural-selection
+  - ai-alignment
+  - space-economy
+title: 《上帝的测试》、AI进化与机器递归文明及太空经济展望
+summary: 对谈围绕《上帝的测试》探讨AI作为自然选择与人类镜像的机制，分析意识、Taste及对齐挑战，并结合加速派视角讨论智能体演进、机器递归文明、生物医药及太空经济投资前景。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - Robert Wright
+  - Peter Thiel
+companies_orgs:
+  - Anthropic
+  - OpenAI
+  - SpaceX
+products_models:
+  - Grok
+media_books:
+  - The God Test
 status: evergreen
 ---
 <!-- chunk 1/3 -->

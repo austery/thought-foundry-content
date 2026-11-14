@@ -5,19 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/61518af10b69f7e22aa7525e?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - self-awareness
+  - investment-mindset
+  - parenting
+  - self-acceptance
+  - life-philosophy
+title: 肖宇与孟岩对话：投资心态、自我觉察与教育观
+summary: 肖宇与孟岩在播客中探讨自我觉察、投资心态与教育观。肖宇强调接纳自我、不与社会评价体系对抗，主张投资应不影响生活，教育应保护孩子纯真生命力，反对鸡娃。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: psychology
+area: society-thinking
 project: []
-people: []
+people:
+  - 肖宇
+  - 孟岩
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 《园丁与木匠》
 status: evergreen
 ---
 <!-- chunk 1/9 -->

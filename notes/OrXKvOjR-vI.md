@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=OrXKvOjR-vI
 speaker: The Pragmatic Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - technical-debt
+  - software-testing
+  - system-observability
+  - agile-development
+  - communication-alignment
+title: 测试、技术债与“以慢为快”的软件工程实践
+summary: 文章探讨了测试作为手段的观点、技术债的偿还时机，以及通过前期规划、明确共识和确保可观测性来“以慢为快”的工程实践，强调避免沟通误解和盲目追求速度。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: testing
+area: tech-engineering
 project: []
 people: []
 companies_orgs: []

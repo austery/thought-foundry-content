@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=mzucmcnIMHk
 speaker: 课代表立正
-tags: []
-title: ''
-summary: ''
+tags:
+  - super-team
+  - organizational-friction
+  - ai-agent
+  - human-ai-collaboration
+title: 于一分享 Manus 内部 AI 超级团队实践与组织协作机制
+summary: 于一在超线性学院直播中探讨了 AI 时代的组织竞争力公式，并分享了 Manus 内部通过插件化可插拔架构、大仓协作、淡化岗位边界以及将 Agent 深度嵌入任务派发与日常协作来降低组织摩擦的实践观察。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 于一
+companies_orgs:
+  - Manus
+  - 超线性学院
+products_models:
+  - Manus
+  - model
+media_books:
+  - 《从超级个体到超级团队》
 status: evergreen
 ---
 <!-- chunk 1/5 -->

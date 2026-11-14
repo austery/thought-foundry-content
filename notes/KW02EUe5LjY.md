@@ -5,19 +5,33 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=KW02EUe5LjY
 speaker: INDIGO 数字镜像
-tags: []
-title: ''
-summary: ''
+tags:
+  - autonomous-agent
+  - artificial-intelligence
+  - robotics
+  - computing-infrastructure
+title: Indigo 2024 年 10 月末直播：Agentic Internet、自回归进化与智能转型观察
+summary: 分享者探讨了从人类主导向 Agent 主导的互联网架构转型，认为未来访问与商业模式将重构。内容涵盖前沿实验室通过自回归进化（RSI）加速模型自我提升、个人 Agent 协议与系统形态、具身智能及 AI for Science 的发展路径，并结合市场波动推演了算力集中与开发者范式转变。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - Elon Musk
+companies_orgs:
+  - Cloudflare
+  - OpenAI
+  - Anthropic
+  - Google
+  - Meta
+products_models:
+  - Claude
+  - Gemini
+  - Grok
+media_books:
+  - 《上帝的测试》
 status: evergreen
 ---
 <!-- chunk 1/10 -->

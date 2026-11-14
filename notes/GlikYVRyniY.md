@@ -5,19 +5,32 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=GlikYVRyniY
 speaker: New York Times Podcasts
-tags: []
-title: ''
-summary: ''
+tags:
+  - immigration-enforcement
+  - construction-industry
+  - labor-shortage
+  - voter-behavior
+title: 得州格兰德河谷移民执法升级与建筑业危机
+summary: 《纽约时报》播客报道，特朗普政府在得克萨斯州格兰德河谷加强移民搜捕突袭，重创高度依赖无证劳工的当地建筑业。曾普遍支持特朗普的建筑商与移民工人面临工期停滞和生计危机，促使部分选民考虑在中期选举中改变投票意向。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Mario Guerrero
+  - Julio Coransza
+  - Monica de la Cruz
+  - Henry Cuellar
+companies_orgs:
+  - The New York Times
+  - Immigration and Customs Enforcement
+  - South Texas Builders Association
+  - United States Border Patrol
 products_models: []
-media_books: []
+media_books:
+  - The Daily
 status: evergreen
 ---
 <!-- chunk 1/9 -->

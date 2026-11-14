@@ -5,17 +5,24 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=anwkin27sXU
 speaker: Best Partners TV
-tags: []
-title: ''
-summary: ''
+tags:
+  - venture-capital
+  - embodied-ai
+  - early-stage-investment
+  - investment-strategy
+title: 清流资本刘博谈早期投资：从消费转向具身智能的心态与逻辑
+summary: 清流资本刘博在访谈中回顾了自己做早期投资的经历，探讨了从消费赛道向具身智能等硬科技领域转型的挑战、投资逻辑变化以及对投资人角色与行业周期的看法。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
+people:
+  - 刘博
+companies_orgs:
+  - 清流资本
+  - 星动纪元
 products_models: []
 media_books: []
 status: evergreen

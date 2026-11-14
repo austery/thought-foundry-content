@@ -5,18 +5,43 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ZOH8Q401vt0
 speaker: Latent Space
-tags: []
-title: ''
-summary: ''
+tags:
+  - ai-workflow
+  - code-review
+  - agent-architecture
+  - devday
+  - podcast
+title: High Taste Testers 首期：AI 开发工作流、DevDay 产品评估与嘉宾推介
+summary: 首期 High Taste Testers 节目在 DevDay 后录制，嘉宾讨论 AI 模型通宵运行与代码审查边界、Dot 协作画布及独立硬件形态猜想，并推介各自项目与联系方式。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Ben Davis
+  - Jony Ive
+  - Sam
+  - Allison
+  - Dex
+  - Matt Pocock
+companies_orgs:
+  - OpenAI
+  - RC
+  - Raindrop
+  - Human Layer
+products_models:
+  - Dot
+  - 6.1 Seoul
+  - Ultra Fast
+  - Codex
+  - Astra
+  - Opus
+  - Grok
+  - Claude
+  - Thursday AI
+  - Nerd Snipe
 media_books: []
 status: evergreen
 ---

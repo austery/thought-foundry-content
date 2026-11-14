@@ -5,19 +5,41 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=kiClTcJUnhc
 speaker: AI Engineer
-tags: []
-title: ''
-summary: ''
+tags:
+  - conceptual-integrity
+  - multi-agent-systems
+  - software-collaboration
+  - context-isolation
+  - mcp-tunnels
+title: 从 Unix 概念完整性到多智能体编排：软件协作演进与 Claude Managed Agents 实践
+summary: 演讲回顾软件协作演进，从 Unix 的概念完整性、《人月神话》中的 Brooks 定律，到 Git 的层级化协作拓扑。随后介绍 Anthropic 的 Claude Managed Agents 与 Flows 引擎，探讨多智能体系统的上下文隔离、文件系统权限控制、自托管沙箱兼容性、代码依赖图处理及 MCP 隧道等机制，并分享 Anthropic 内部使用 Claude tag 进行自动化工作的实践。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - Ken Thompson
+  - Fred Brooks
+  - Linus Torvalds
+  - CJ Avilla
+  - Harrison
+companies_orgs:
+  - Bell Labs
+  - IBM
+  - Anthropic
+  - Cloudflare
+products_models:
+  - Unix
+  - OS/360
+  - Git
+  - Linux
+  - Claude Managed Agents
+  - Flows
+  - Claude tag
+media_books:
+  - The Mythical Man-Month
 status: evergreen
 ---
 <!-- chunk 1/14 -->

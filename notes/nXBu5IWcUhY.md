@@ -5,17 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=nXBu5IWcUhY
 speaker: TVO Today
-tags: []
-title: ''
-summary: ''
+tags:
+  - mayoral-election
+  - political-debate
+  - urban-governance
+  - housing-affordability
+  - public-transit
+title: 多伦多市长候选人电视辩论：邹至蕙与布拉德福德聚焦住房、财政与交通议题
+summary: 多伦多市长辩论中，市长邹至蕙与市议员布拉德福德就多项核心市政议题展开交锋。双方围绕住房建设审批效率与租客权益、无家可归与支持性住房建设、应对外部经济关税、物业税与预算融资结构，以及公共交通客流与拥堵治理等政策主张进行了深入辩论。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Olivia Chow
+  - Brad Bradford
+companies_orgs:
+  - TVO Today
+  - Rotman School of Management
+  - Toronto Transit Commission
 products_models: []
 media_books: []
 status: evergreen

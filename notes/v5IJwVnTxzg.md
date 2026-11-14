@@ -5,17 +5,22 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=v5IJwVnTxzg
 speaker: Latent Space
-tags: []
-title: ''
-summary: ''
+tags:
+  - ai-data-labeling
+  - reinforcement-learning
+  - agent-evaluation
+  - market-growth
+title: Handshake AI 探讨 AI 数据标注向专家创作演进及市场增长前景
+summary: Handshake AI 团队指出，AI 训练数据已从基础标注转向由专家构建复杂模拟环境，以支持长时域任务。他们预测该市场将从目前的百亿美元规模在三年内增长至千亿美元，并强调评估体系在 AI 落地中的核心作用。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
 people: []
-companies_orgs: []
+companies_orgs:
+  - Handshake AI
 products_models: []
 media_books: []
 status: evergreen

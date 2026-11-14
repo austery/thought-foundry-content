@@ -5,19 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6a8bfde1ef65145dfcc47d26?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - evolutionary-psychology
+  - mental-model
+  - perception
+  - attention
+title: 从智能进化史看人际意象与全然注意力
+summary: 讲述者结合电影《好朋友们》与马克斯·贝内特《智能简史》，梳理了生物智能经历的五次关键突破及各阶段演化出的分别心、多巴胺预期误差、世界模拟器、心智化与语言标签等代价，指出大脑机制并非为了如实看清彼此；结合克里希那穆提关于意象与注册的论述，探讨了放下脑内模型并以全然注意力观察他人的可能路径。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: psychology
+area: society-thinking
 project: []
-people: []
+people:
+  - Max Bennett
+  - Jiddu Krishnamurti
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 好朋友们
+  - A Brief History of Intelligence
 status: evergreen
 ---
 <!-- chunk 1/5 -->

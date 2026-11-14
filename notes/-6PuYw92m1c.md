@@ -5,19 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=-6PuYw92m1c
 speaker: The Diary Of A CEO
-tags: []
-title: ''
-summary: ''
+tags:
+  - childhood-trauma
+  - comedy-career
+  - personal-growth
+  - family-relations
+  - life-advice
+title: 卡特·威廉姆斯访谈：从童年创伤到喜剧生涯的救赎之路
+summary: 卡特·威廉姆斯在访谈中回顾其童年遭受的宗教家庭暴力及13岁离家出走的经历，描述其通过阅读、从事推销及皮条客等职业过渡，最终发现单口喜剧作为职业路径的过程。他探讨了与父母的复杂关系，强调尽管经历痛苦但已达成和解，并建议年轻人珍惜时间，勇于尝试以寻找人生目标。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: psychology
+area: society-thinking
 project: []
-people: []
+people:
+  - 卡特·威廉姆斯
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - According to Cat
 status: evergreen
 ---
 <!-- chunk 1/11 -->

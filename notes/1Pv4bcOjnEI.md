@@ -5,17 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=1Pv4bcOjnEI
 speaker: TVO Today
-tags: []
-title: ''
-summary: ''
+tags:
+  - trade-war
+  - municipal-politics
+  - public-transit
+  - urban-planning
+title: 安大略省长警告贸易战长期化，多伦多市长候选人交通愿景受质疑
+summary: 安大略省长道格·福特警告加拿大需为长期贸易战做准备。多伦多市长候选人邹至庄和布拉德·布拉德福德因缺乏系统性交通愿景被批评。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: geopolitics
+area: geopolitics
 project: []
-people: []
-companies_orgs: []
+people:
+  - Doug Ford
+  - Olivia Chow
+  - Brad Bradford
+companies_orgs:
+  - Empire Club of Canada
+  - Metrolinx
+  - TTC
 products_models: []
 media_books: []
 status: evergreen

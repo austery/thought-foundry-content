@@ -5,14 +5,19 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=YBr-dz44Bwo
 speaker: Big Think
-tags: []
-title: 玫瑰的红色是客观存在的吗？
-summary: ''
+tags:
+  - perception
+  - color-vision
+  - emotion
+  - self-control
+  - karma
+title: 视觉感知的关系性本质与现实构建的责任
+summary: 文章提出颜色等感知并非物体的固有属性，而是外部信号、感受器与大脑处理三者关系的产物。这种关系现实主义表明人类参与了现实的构建，并将控制与责任延伸至情绪理解、行为选择以及人际应对中。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: psychology
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

@@ -5,18 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=QmDLDy3ZSNE
 speaker: Latent Space
-tags: []
-title: ''
-summary: ''
+tags:
+  - ai-engineering
+  - coding-agent
+  - software-as-a-service
+  - open-source
+title: Latent Space 与 AIE 对话：AI 工程师角色、SaaS 克隆与中美生态
+summary: Shawn 讨论了 AIE 落地上海与 Latent Space 的发展历程，阐述了 AI 工程师角色的定位，分享了利用 coding agent 克隆 SaaS 的实践与思考，并对比了中美两地在技术生态与工作节奏上的差异。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Shawn
+companies_orgs:
+  - Latent Space
+  - Standard Partners
+  - Cognition
+products_models:
+  - ComfyUI
+  - Stable Diffusion
 media_books: []
 status: evergreen
 ---

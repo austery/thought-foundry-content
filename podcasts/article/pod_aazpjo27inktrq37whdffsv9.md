@@ -5,19 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/64474c8594d78eb3f75a92bd?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - fund-investment
+  - financial-literacy
+  - risk-management
+  - index-funds
+title: 季凯帆与孟岩对话：从基金科普到合格持有人
+summary: 季凯帆与孟岩回顾十六年交情，探讨季凯帆从基金大V转型为合格基金持有人的历程。季凯帆强调投资与智商无关，核心在于学习基础知识、理解自身风险承受能力，并反对盲目抄作业，主张个人需对投资决策负责。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
+people:
+  - 季凯帆
+  - 孟岩
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 解读基金
 status: evergreen
 ---
 <!-- chunk 1/6 -->

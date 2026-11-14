@@ -5,19 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=luLrK_rHikE
 speaker: 硅谷101
-tags: []
-title: ''
-summary: ''
+tags:
+  - personal-assistant
+  - ai-agent
+  - human-computer-interaction
+  - commercialization
+title: 个人AI助手产品进化与商业化探讨：从工具创造到目标交付
+summary: 蚂蚁灵光CTO林怿在访谈中回顾灵光从1.0向2.0的演进，探讨个人智能体从工具创造转向目标交付的逻辑。对话涉及长程任务与记忆机制、高频生活场景、商业化博弈及超级应用生态下的落地挑战。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 莫林剑
+  - 陈茜
+companies_orgs:
+  - 蚂蚁集团
+products_models:
+  - 灵光
+media_books:
+  - 硅谷101
 status: evergreen
 ---
 <!-- chunk 1/3 -->

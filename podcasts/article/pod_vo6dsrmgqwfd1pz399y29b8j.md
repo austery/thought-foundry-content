@@ -5,14 +5,18 @@ guest: ''
 layout: post.njk
 source: https://podcasters.spotify.com/pod/show/florence-fernandez/episodes/EP5-e372cp8
 speaker: 破壁圆桌
-tags: []
-title: ''
-summary: ''
+tags:
+  - music-therapy
+  - psychotherapy
+  - mindfulness
+  - mental-health
+title: 德国音乐治疗师分享临床实践与精神科治疗体系
+summary: 在德从业八年的音乐治疗师瑶介绍了音乐治疗在精神科及神经康复中的辅助作用。访谈探讨了多专业团队协作机制、正念练习、职场经历以及在德国寻求心理与精神专科帮助的流程与注意事项。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: psychology
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

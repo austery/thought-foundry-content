@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6953b7892db086f897d4447b?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - business-model
+  - wealth-management
+  - entrepreneurship
+  - rumination
+title: 孟岩与对谈者探讨商业模式、本分与投资中的平静
+summary: 孟岩与对谈者围绕有知有行的商业实践展开对话，探讨了不收渠道费、准入测试、商业组织架构与有限责任公司局限等话题。孟岩提出有知有行如同与用户签订“软性 term sheet”的 VC，强调以平常心回归本分，认为投资应服务于更好的生活并减少反刍思维，以求内心坦然与平静。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: business-entrepreneurship
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
+people:
+  - 孟岩
+companies_orgs:
+  - 有知有行
+  - Wealthfront
+  - Robinhood
 products_models: []
-media_books: []
+media_books:
+  - 《Enough》
+  - 《无人知晓》
 status: evergreen
 ---
 <!-- chunk 1/8 -->

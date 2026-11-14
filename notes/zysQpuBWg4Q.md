@@ -5,17 +5,31 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=zysQpuBWg4Q
 speaker: 东京人文论坛
-tags: []
-title: ''
-summary: ''
+tags:
+  - midterm-election
+  - senate
+  - house-of-representatives
+  - voter-turnout
+  - filibuster
+title: 美国中期选举民主党大胜与两院博弈及政策影响解析
+summary: 讨论分析了美国中期选举中民主党在参众两院大胜的选情结果及各选民群体摆动。分析指出，伊朗战争引发油价飙升、特朗普成为选情负资产是主因。选后两党面临内部角力，参院面临人事与调查博弈，同时探讨了AI政策与数据中心对市场和地缘局势的影响。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Donald Trump
+  - J.D. Vance
+  - Bernie Sanders
+  - Chuck Schumer
+  - Pete Hegseth
+  - Marco Rubio
+  - Ted Cruz
+companies_orgs:
+  - Democratic Party
+  - Republican Party
 products_models: []
 media_books: []
 status: evergreen

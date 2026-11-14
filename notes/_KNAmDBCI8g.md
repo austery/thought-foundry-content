@@ -5,19 +5,34 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=_KNAmDBCI8g
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - midterm-election
+  - human-rights
+  - cross-strait-relations
+  - national-security
+title: 《三江内参》时事盘点：美国中期选举、两岸动态与多国人权司法焦点
+summary: 节目讨论了美国中期选举结果及其对外交、国会委员会与股市的影响，评述了黄之锋加判监禁、欧锦新案、董郁玉与赛利尔等维吾尔与人权个案，并提及两岸互动、日本安全战略调整与东亚地缘局势。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: geopolitics
+area: geopolitics
 project: []
-people: []
-companies_orgs: []
+people:
+  - 川普
+  - 黄之锋
+  - 马兴瑞
+  - 陈万军
+  - 董郁玉
+  - 欧锦新
+companies_orgs:
+  - 香港高等法院
+  - 武汉市中级人民法院
+  - 最高人民检察院
+  - 联合国教科文组织
 products_models: []
-media_books: []
+media_books:
+  - 三江内参
 status: evergreen
 ---
 <!-- chunk 1/6 -->

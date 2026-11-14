@@ -5,18 +5,34 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ZrlHMYlf_ow
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - cybersecurity
+  - constitutional-crisis
+  - fiscal-austerity
+  - public-policy
+  - electoral-politics
+title: 时政与科技热点对谈：币安被盗与开源模型黑客风险、波兰宪政冲突及多国时局
+summary: 对话分析了黑客利用开源大模型入侵系统、币安被盗及交易所中心化风险，并探讨了波兰宪法法庭危机、欧洲青年抗议与财政紧缩、中加欧外交与经贸动态、国内养老金与利率政策以及台湾选情民调等议题。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - 沈伯洋
+  - 蒋万安
+  - 高市早苗
+companies_orgs:
+  - Binance
+  - Polymarket
+  - 中国人民银行
+  - 波兰宪法法庭
+  - 欧盟
+products_models:
+  - Kimi
+  - Qwen
+  - Apple Intelligence
 media_books: []
 status: evergreen
 ---

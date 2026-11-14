@@ -5,19 +5,24 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ur-HjD422ig
 speaker: 课代表立正
-tags: []
-title: ''
-summary: ''
+tags:
+  - fake-work
+  - productivity
+  - career-path
+  - artificial-intelligence
+title: 表演型工作的成因、危害与基于求真及AI的应对策略
+summary: 对话探讨了职场中表演型工作的本质与成因，指出其源于知识工作难以衡量及委托代理问题。嘉宾分享了在大厂和创业中的体会，提出通过聚焦真实价值、利用AI工具自动化低价值流程以及转向求真与副业来摆脱虚假游戏。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: career-development
+area: work-career
 project: []
 people: []
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 《真本事》
 status: evergreen
 ---
 <!-- chunk 1/3 -->

@@ -5,17 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=edHcNGmzH94
 speaker: FearNation 世界苦茶
-tags: []
-title: ''
-summary: ''
+tags:
+  - midterm-election
+  - legislative-power
+  - voter-behavior
+  - partisanship
+title: 美国中期选举选情与国会控制权前瞻分析
+summary: 文章分析了美国中期选举选情，指出受生活成本、医保及能源价格等议题影响，特朗普民调低迷且选民基本盘出现动摇。民主党在众议院优势明显并有望翻转参议院，但若拿下两院，施政仍将受阻挠议事与总统否决权限制，并可能引发两党更激烈的权力博弈与政策对抗。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Donald Trump
+  - J. D. Vance
+  - James Talarico
+  - Ken Paxton
+  - Susan Collins
+  - Troy Jackson
+  - Abdul El-Sayed
+companies_orgs:
+  - Democratic Party
+  - Republican Party
 products_models: []
 media_books: []
 status: evergreen

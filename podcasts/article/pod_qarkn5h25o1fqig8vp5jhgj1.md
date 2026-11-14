@@ -5,19 +5,40 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6321f3d1e480d3bc1867308e?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - efficient-market-hypothesis
+  - factor-investing
+  - value-investing
+  - risk-management
+  - arbitrage
+title: 陈鹏与孟岩探讨有效市场假说、巴菲特业绩归因与投资哲学分野
+summary: 陈鹏与孟岩对话讨论有效市场假说与巴菲特的业绩归因，对比法玛实证派与莫顿理论派对未解市场现象的不同处理路径，进而分析德明信与长期资本的不同命运，并探讨在不确定市场中依靠低价、分散、长期投资与控制风险的投资原则。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 陈鹏
+  - 孟岩
+  - 尤金·法玛
+  - 沃伦·巴菲特
+  - 罗伯特·莫顿
+  - 大卫·布斯
+companies_orgs:
+  - 有知有行
+  - 德明信
+  - 长期资本管理公司
+  - 晨星
+  - 芝加哥大学
+  - 麻省理工学院
+  - 所罗门兄弟
+products_models:
+  - 法玛三因子模型
+media_books:
+  - 无人知晓
+  - 投资第一课
 status: evergreen
 ---
 <!-- chunk 1/5 -->

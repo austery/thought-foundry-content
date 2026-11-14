@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6145aa646ebba4a267316fe9?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - investment-philosophy
+  - asset-allocation
+  - self-awareness
+  - emotion-regulation
+title: 孟岩对话张奔斗：网球、写作与投资的镜像与自我认知
+summary: 孟岩与网球记者张奔斗围绕投资、网球与写作展开对话。张奔斗回顾了自己在五十岁间隔年从小白起步自学投资并建立资产配置的经历，探讨了业余网球与投资中控制失误、情绪管理与构建体系的相通逻辑，认为三者皆如镜子般映照出真实的自我。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
+people:
+  - 孟岩
+  - 张奔斗
+companies_orgs:
+  - 有知有行
 products_models: []
-media_books: []
+media_books:
+  - 《无人知晓》
+  - 《赢得输家的游戏》
+  - 《小乌龟2》
 status: evergreen
 ---
 <!-- chunk 1/6 -->

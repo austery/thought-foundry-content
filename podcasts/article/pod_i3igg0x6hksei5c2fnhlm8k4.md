@@ -5,19 +5,26 @@ guest: ''
 layout: post.njk
 source: https://podcasters.spotify.com/pod/show/florence-fernandez/episodes/EP21Katie-e3h4fff
 speaker: 破壁圆桌
-tags: []
-title: ''
-summary: ''
+tags:
+  - career-transition
+  - entrepreneurship
+  - networking
+  - job-market
+title: 打工九年后的创业探索：Catty 创立 Firefly 连接传统行业与职场人
+summary: 曾在大厂打工九年的 Catty 分享其辞职后创立 Firefly 的经历。该项目旨在填补市场空白，帮助想离开打工模式的职场人与传统行业老板直接对接，通过实地探索与低成本实验探索职业转型及多元合作可能。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: career-development
+area: work-career
 project: []
-people: []
+people:
+  - Catty
 companies_orgs: []
-products_models: []
-media_books: []
+products_models:
+  - Firefly
+media_books:
+  - 破壁原语说
 status: evergreen
 ---
 <!-- chunk 1/5 -->

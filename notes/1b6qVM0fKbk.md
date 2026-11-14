@@ -5,19 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=1b6qVM0fKbk
 speaker: 硅谷101
-tags: []
-title: ''
-summary: ''
+tags:
+  - robotics
+  - data-collection
+  - business-model
+  - scaling-law
+title: Maxinsights谈机器人第一视角数据商业模式与全球采集运营
+summary: 访谈介绍了机器人数据公司Maxinsights的业务与运营模式。该公司主要采集人类第一视角日常活动视频并转化为训练数据，声称ARR达2.5亿美元，并通过自研硬件与AI智能体平台管理全球近4000人采集团队。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: business-entrepreneurship
+area: finance-wealth
 project: []
-people: []
-companies_orgs: []
+people:
+  - 袁宇光
+  - 陈茜
+companies_orgs:
+  - Maxinsights
+  - Dyna Robotics
 products_models: []
-media_books: []
+media_books:
+  - 硅谷101
 status: evergreen
 ---
 <!-- chunk 1/3 -->

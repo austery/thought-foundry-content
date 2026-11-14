@@ -5,18 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=i3Sm05WXlrE
 speaker: 课代表立正
-tags: []
-title: ''
-summary: ''
+tags:
+  - ai-agent
+  - observability
+  - code-security
+  - inference
+title: AI Engineer 线上直播：从 Demo 到生产级 AI 应用的规模化管理实践
+summary: 嘉宾围绕从原型到生产级 AI 应用的落地挑战展开探讨。锐动 AI 提出开发者需构建注意力与推理机制并结合云端与本地算力；Sonar 介绍了用于代码质量与安全闭环的代理服务；ClickHouse 与 Langfuse 团队则分享了基于链路追踪和指标评估的智能体可观测性实践。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
 people: []
-companies_orgs: []
-products_models: []
+companies_orgs:
+  - 锐动 AI
+  - Sonar
+  - ClickHouse
+  - Langfuse
+products_models:
+  - SonarQube
+  - ClickHouse
+  - Langfuse
 media_books: []
 status: evergreen
 ---

@@ -5,19 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=d12l1Sn1tD4
 speaker: 知行小酒馆
-tags: []
-title: ''
-summary: ''
+tags:
+  - personal-knowledge-management
+  - information-overload
+  - attention-economy
+  - artificial-intelligence
+title: 少楠与雨白对谈：AI时代的信息焦虑、个人上下文与注意力投入
+summary: 少楠与雨白探讨了AI时代信息焦虑的本质，指出当通用答案易得时焦虑转向决策困境。对话提出通用知识记录价值衰减，主动积累个人思考与人生上下文更具意义，并强调抵御算法与信息过载需要深度的注意力承诺与明确的实践锚点。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: note-taking-systems
+area: knowledge-meta
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 少楠
+  - 雨白
+companies_orgs:
+  - 有知有行
+products_models:
+  - flomo
+media_books:
+  - 《知行小酒馆》
 status: evergreen
 ---
 <!-- chunk 1/6 -->

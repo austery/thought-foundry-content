@@ -5,17 +5,34 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=Z61AvwKxCuA
 speaker: 投资TALK君
-tags: []
-title: ''
-summary: ''
+tags:
+  - market-crash
+  - capital-expenditure
+  - data-center
+  - semiconductor-cycle
+  - portfolio-rebalancing
+title: 美股大跌与半导体周期分析：德州政策、数据中心交付及持仓应对
+summary: 讲述者分析了美股单日大幅下跌背后的市场逻辑，指出市场主要担忧数据中心审批放缓抑制大科技资本开支，从而拖累半导体产业链。讲述者认为大科技需求未减且德州政策重在税收博弈，并分享了仓位控制与调仓策略。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
 people: []
-companies_orgs: []
+companies_orgs:
+  - AMD
+  - Amazon
+  - Anthropic
+  - Apple
+  - Google
+  - Intel
+  - Meta
+  - Microsoft
+  - Nvidia
+  - OpenAI
+  - Oracle
+  - Tesla
 products_models: []
 media_books: []
 status: evergreen

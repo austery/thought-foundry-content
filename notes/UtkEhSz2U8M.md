@@ -5,19 +5,33 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=UtkEhSz2U8M
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - geopolitics
+  - foreign-policy
+  - national-security
+  - sanction
+title: 三枪内参播报黄仁勋外遇调查与多项海内外时政要闻
+summary: 节目播报黄仁勋承认外遇并面临美国会调查、涉英伟达芯片组装的中国空壳公司调查，以及台巴外交风波、花滑赛争议、澳门首宗国安案判决、加州免除死刑和中国反跨境腐败法等海内外时政动态。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: geopolitics
+area: geopolitics
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 黄仁勋
+  - 加文·纽森
+  - 区锦新
+  - 库恩斯
+companies_orgs:
+  - 英伟达
+  - 纽约时报
+  - 智路资本
+  - 新矩阵
+products_models:
+  - H200
+media_books:
+  - 三枪内参
 status: evergreen
 ---
 <!-- chunk 1/4 -->

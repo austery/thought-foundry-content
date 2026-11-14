@@ -5,14 +5,18 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=74qVRgP0EF4
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - authoritarianism
+  - state-society-relations
+  - bureaucracy
+  - political-participation
+title: 国家利益与人民利益的分歧及体制归因探讨
+summary: 对话围绕国家与民众利益的一致性展开辩论。嘉宾就政府削弱民众是主观动机还是制度零和博弈产生分歧，并讨论了官僚选拔机制、公众对国家与自身利益关系的认知盲区，以及社会转型依靠启蒙还是线下行动等观点。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

@@ -5,17 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=3ghVQtuc4bs
 speaker: 北美王路飞
-tags: []
-title: ''
-summary: ''
+tags:
+  - sexual-misconduct
+  - congressional-investigation
+  - criminal-justice
+  - election-campaign
+title: 美国众议院民主党报告披露爱泼斯坦档案及对特朗普相关指控
+summary: 节目讨论了众议院司法委员会民主党办公室发布的爱泼斯坦档案审查报告，内容涉及针对特朗普的性侵与强奸指控、司法部处理档案及对麦克斯韦调查的过程，并呼吁设立独立检察官调查同谋；多方还探讨了该事件对中期选举及选情的影响。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 爱泼斯坦
+  - 唐纳德·特朗普
+  - 麦克斯韦
+  - Todd Blanche
+  - 保罗·赞波利
+  - 梅拉尼娅
+companies_orgs:
+  - DOJ
+  - FBI
+  - 众议院司法委员会
 products_models: []
 media_books: []
 status: evergreen

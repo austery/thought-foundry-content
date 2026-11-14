@@ -5,17 +5,44 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=ZbwImtTFBxQ
 speaker: 北美王路飞
-tags: []
-title: ''
-summary: ''
+tags:
+  - midterm-elections
+  - political-analysis
+  - us-politics
+  - election-results
+title: 美国中期选举结果分析：民主党蓝潮、特朗普影响及后续政治博弈
+summary: 直播讨论美国中期选举结果，民主党在参众两院取得显著优势，多个红州翻蓝。分析指出特朗普政策导致选民不满，共和党面临内部危机。讨论涉及民主党后续施政、司法任命博弈、马斯克商业风险及经济通胀问题。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Colin Allred
+  - Kathy Castor
+  - Sherrod Brown
+  - Susan Collins
+  - Adam Hamilton
+  - Mike Rogers
+  - Haley Stevens
+  - JD Vance
+  - Thom Tillis
+  - John Cornyn
+  - Mitch McConnell
+  - Pete Buttigieg
+  - Jon Ossoff
+  - Thomas Massie
+companies_orgs:
+  - New York Times
+  - FiveThirtyEight
+  - ICE
+  - Tesla
+  - SpaceX
+  - Meta
+  - Microsoft
+  - Google
+  - Nvidia
 products_models: []
 media_books: []
 status: evergreen

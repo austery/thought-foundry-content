@@ -5,18 +5,26 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=FpIN6tYC5XM
 speaker: The Diary Of A CEO
-tags: []
-title: ''
-summary: ''
+tags:
+  - political-reform
+  - ai-policy
+  - wealth-inequality
+  - election-campaign
+title: 詹姆斯·塔拉里科访谈：得州民主党参议员竞选、系统性改革与AI政策
+summary: 得州民主党参议员候选人詹姆斯·塔拉里科在访谈中分享其成长背景，批评当前政治体制腐败及权贵资本主义，主张通过系统性改革而非更换个人来解决问题。他担忧AI技术被少数亿万富翁垄断，提出应确保劳动者分享AI红利，并呼吁建立大众运动以推动变革。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - James Tarallo
+companies_orgs:
+  - Uber
+  - DoorDash
+products_models:
+  - Cybercab
 media_books: []
 status: evergreen
 ---

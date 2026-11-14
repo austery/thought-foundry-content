@@ -5,19 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/65655195f10bbce6353705cc?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - buddhism
+  - inner-freedom
+  - impermanence
+  - identity-label
+title: 孟岩对话成庆：在不确定与规训中以佛学智慧寻求内心的自由
+summary: 孟岩与成庆在上海宝山区永福庵对谈，探讨了大学通识佛学课、现代应试体制与数字化管理对人性的规训与压抑。成庆指出面对生活中的失控与无常，应放下掌控执念并随缘努力，通过剥离身份认同与标签来减轻内耗，向内观照以追求真正的自由。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 成庆
+  - 孟岩
+companies_orgs:
+  - 上海大学
 products_models: []
-media_books: []
+media_books:
+  - 无人知晓
 status: evergreen
 ---
 <!-- chunk 1/6 -->

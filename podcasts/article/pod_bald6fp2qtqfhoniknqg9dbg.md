@@ -5,19 +5,33 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/6434f4e59361a4e7c33accad?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - impermanence
+  - causality
+  - ego
+  - mindfulness
+  - buddhism
+title: 孟岩与孙芳对话：佛法中的无常、因果与自我
+summary: 孟岩与孙芳探讨佛法中的无常、因果与自我。孙芳以煮鸡蛋比喻因缘和合，强调理性看待因果；孟岩分享“一把宽的尺子”心态，接受不确定性。二人讨论ego与放下，认为修行在于放松与真实，而非执着于形式或结果。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: philosophy-wisdom
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 孟岩
+  - 孙芳
+companies_orgs:
+  - 有知有行
+  - XMind
+products_models:
+  - XMind
+media_books:
+  - 正见
+  - The Mindful Athlete
+  - 高效能人士的七个习惯
+  - 重来3
 status: evergreen
 ---
 <!-- chunk 1/8 -->

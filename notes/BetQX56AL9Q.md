@@ -5,19 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=BetQX56AL9Q
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - day-laborer
+  - social-marginalization
+  - informal-economy
+  - social-security
+title: 从峰哥马驹桥视频与纪实作品看日结零工的生存现状
+summary: 对话围绕博主“峰哥亡命天涯”拍摄北京马驹桥日结工视频被删一事展开，讨论了马驹桥零工群体的生存环境、低物价循环、中介克扣及缺乏社会救助保障的现状，并结合相关纪实书籍与国内外救助机制进行了对比。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 峰哥
+companies_orgs:
+  - 浙江人民出版社
 products_models: []
-media_books: []
+media_books:
+  - 马驹桥的时间：我打零工的那些日子
+  - 三和大神
 status: evergreen
 ---
 <!-- chunk 1/3 -->

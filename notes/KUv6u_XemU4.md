@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=KUv6u_XemU4
 speaker: New York Times Podcasts
-tags: []
-title: ''
-summary: ''
+tags:
+  - immigration
+  - law-enforcement
+  - construction-industry
+  - labor-shortage
+  - election
+title: 德州里奥格兰德河谷移民执法升级冲击建筑业与社区选情动向
+summary: 《The Daily》报道，德克萨斯州里奥格兰德河谷移民执法搜捕行动升级，导致建筑工地劳动力严重短缺并冲击当地经济。曾普遍支持特朗普的当地建筑商因生计受挫前往华盛顿陈情并自办培训学校，多位从业者考虑在选举中改变投票取向。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Mario Guerrero
+  - Julio Carranza
+companies_orgs:
+  - South Texas Builders Association
+  - ICE
 products_models: []
-media_books: []
+media_books:
+  - The Daily
 status: evergreen
 ---
 <!-- chunk 1/9 -->

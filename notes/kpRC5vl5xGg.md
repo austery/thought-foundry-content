@@ -5,14 +5,18 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=kpRC5vl5xGg
 speaker: 知行小酒馆
-tags: []
-title: ''
-summary: ''
+tags:
+  - consumer-psychology
+  - delayed-gratification
+  - decision-making
+  - personal-finance
+title: 《知行小酒馆》听友故事会：预算审批与“那件东西我真的很想买”
+summary: 节目围绕“那件东西我真的很想买”主题，分享了多位听友的消费心路历程，探讨了不将就生活、全家出游记忆、消费主义与优绩主义反思、犒赏自己以及延迟满足等背后的心理与观念转变。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: psychology
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

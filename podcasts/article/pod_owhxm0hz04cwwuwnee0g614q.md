@@ -5,19 +5,27 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/65effcb5421188fe6adc9f41?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - longevity
+  - preventive-health
+  - exercise
+  - nutrition
+  - sleep-hygiene
+title: 孟岩与顾中一探讨《超越百岁》：健康寿命、生活方式干预与情绪管理
+summary: 对话围绕彼得·阿提亚的《超越百岁》展开，探讨了从疾病治疗转向早期预防的医学理念。营养师顾中一与投资人孟岩结合个人经历，交流了运动储备、合理饮食、睡眠监测及情绪记录在延长健康寿命与提升生活质量中的作用与实践边界。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: health-wellness
+area: life-family
 project: []
-people: []
+people:
+  - 顾中一
+  - 彼得·阿提亚
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 《超越百岁》
 status: evergreen
 ---
 <!-- chunk 1/7 -->

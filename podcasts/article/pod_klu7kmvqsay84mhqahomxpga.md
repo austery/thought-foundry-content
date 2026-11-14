@@ -5,19 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/613600f3a0cc1e51faca7870?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - value-investing
+  - valuation
+  - risk-management
+  - investor-psychology
+title: 陈嘉禾与孟岩探讨低估值投资体系与极端分化行情应对
+summary: 孟岩与陈嘉禾探讨了低估值投资的缘起与历史周期演变。陈嘉禾分享了其研报《皇冠上的钻石》背后的历史数据验证逻辑、十七岁高考失利的风控教训，以及在极端分化行情下通过看报表、清算模型与分散配置来平复心理波动的投资哲学。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: investment-assets
+area: finance-wealth
 project: []
-people: []
+people:
+  - 陈嘉禾
+  - 孟岩
 companies_orgs: []
 products_models: []
-media_books: []
+media_books:
+  - 《皇冠上的钻石》
+  - 《投资精要》
+  - 《好投资与坏投资》
 status: evergreen
 ---
 <!-- chunk 1/7 -->

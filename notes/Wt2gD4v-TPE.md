@@ -5,17 +5,31 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=Wt2gD4v-TPE
 speaker: 北美王路飞
-tags: []
-title: ''
-summary: ''
+tags:
+  - midterm-election
+  - voting-behavior
+  - political-polarization
+  - wealth-tax
+title: 美国中期选举复盘与两党政治格局讨论
+summary: 讨论者复盘了美国中期选举中民主党在参众两院及多州翻盘的战况，分析了通胀、生活成本与伊朗战争对共和党选情的影响，并探讨了内阁人事变动、财富税以及两党未来走向。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Donald Trump
+  - J.D. Vance
+  - Chuck Schumer
+  - Susan Collins
+  - Pete Hegseth
+  - Ron DeSantis
+  - Marco Rubio
+companies_orgs:
+  - Democratic Party
+  - Republican Party
+  - U.S. Congress
 products_models: []
 media_books: []
 status: evergreen

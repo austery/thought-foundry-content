@@ -5,17 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=6v4unO7WqK8
 speaker: 北美王路飞
-tags: []
-title: ''
-summary: ''
+tags:
+  - gubernatorial-election
+  - political-campaign
+  - attack-ad
+  - voter-sentiment
+title: 俄亥俄州长选举争议广告及两党选情观察
+summary: 对话讨论了俄亥俄州长选举中共和党候选人Vivek发布的争议攻击广告及其引发的两党反弹与民调变动，并延伸探讨了两党近期选情走向、政策议题与潜在政治人物。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - Vivek Ramaswamy
+  - Amy Acton
+  - Donald Trump
+  - J.D. Vance
+  - Nikki Haley
+  - Lindsey Graham
+companies_orgs:
+  - Republican Party
+  - Democratic Party
 products_models: []
 media_books: []
 status: evergreen

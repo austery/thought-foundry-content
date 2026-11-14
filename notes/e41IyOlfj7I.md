@@ -5,19 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=e41IyOlfj7I
 speaker: Big Think
-tags: []
-title: ''
-summary: ''
+tags:
+  - origin-of-life
+  - information-theory
+  - fine-tuning
+  - quantum-mechanics
+title: 保罗·戴维斯谈生命本质：信息管理、物理定律与宇宙微调之谜
+summary: 理论物理学家保罗·戴维斯探讨了生命本质与起源问题。他提出生命可视为“化学加信息”，强调软件层面的信息管理是区分生命与非生命的关键。戴维斯指出理解生命可能需要结合自上而下因果关系的新型物理定律，并讨论了地外生命搜寻以及量子反馈视角下的宇宙微调假说。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: science
+area: knowledge-meta
 project: []
-people: []
-companies_orgs: []
+people:
+  - Paul Davies
+companies_orgs:
+  - Arizona State University
+  - Beyond Center for Fundamental Concepts in Science
 products_models: []
-media_books: []
+media_books:
+  - What's Eating the Universe? and Other Cosmic Questions
+  - The Demon in the Machine
+  - What Is Life?
+  - Climbing Mount Improbable
 status: evergreen
 ---
 <!-- chunk 1/5 -->

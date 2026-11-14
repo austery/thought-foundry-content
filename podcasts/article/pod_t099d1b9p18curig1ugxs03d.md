@@ -5,19 +5,28 @@ guest: ''
 layout: post.njk
 source: https://www.xiaoyuzhoufm.com/episode/664300e4251bd96e6c2e57a6?utm_source=rss
 speaker: 无人知晓
-tags: []
-title: ''
-summary: ''
+tags:
+  - learning-method
+  - unique-ability
+  - circle-of-competence
+  - ikigai
+title: 孟岩谈知识缝隙、独特能力与人生意义
+summary: 孟岩分享其近一年的思考，指出认知弧线背后存在大量知识缝隙，需通过亲身实践与深入探索去发现并填补。对缝隙的深入理解可形成精细区别与独特能力，并在自由市场中获得超额回报。他建议聚焦自身独特能力并做减法，以兴趣驱动探索并构建可自由选择的环境来寻找人生意义。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: personal-growth
+area: life-family
 project: []
-people: []
-companies_orgs: []
+people:
+  - 孟岩
+companies_orgs:
+  - 有知有行
 products_models: []
-media_books: []
+media_books:
+  - 无人知晓
+  - 10x Is Easier than 2x
+  - How to Do Great Work
 status: evergreen
 ---
 <!-- chunk 1/5 -->

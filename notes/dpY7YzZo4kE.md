@@ -5,18 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=dpY7YzZo4kE
 speaker: Latent Space
-tags: []
-title: ''
-summary: ''
+tags:
+  - ai-native-development
+  - coding-agents
+  - context-engineering
+  - software-development
+  - ai-practice
+title: 斯坦福CS146S课程与Monaco AI实践：AI原生开发趋势
+summary: 斯坦福大学Mihail Eric在AI Engineer频道访谈中，介绍了其CS146S《现代软件开发者》课程的更新背景，以及作为Monaco AI负责人的实践经验。文章探讨了AI编程代理的发展、上下文工程的重要性，以及AI原生开发对初级开发者的影响。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: ai-application
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Mihail Eric
+companies_orgs:
+  - Stanford University
+  - Monaco
+products_models:
+  - CS146S
+  - Monocoder
+  - HAL
 media_books: []
 status: evergreen
 ---

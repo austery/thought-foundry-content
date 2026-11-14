@@ -5,18 +5,34 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=bdIoODXsu8k
 speaker: Latent Space
-tags: []
-title: ''
-summary: ''
+tags:
+  - email-infrastructure
+  - developer-experience
+  - category-creation
+  - work-life-balance
+  - api-design
+title: Resend创始人Zeno Rocha访谈：从开源到击败SendGrid，平衡创业雄心与家庭生活
+summary: 本文记录了Resend创始人Zeno Rocha的访谈。他讲述了从前端开发者转型构建邮件基础设施平台的过程，强调以开发者为中心的设计理念。Resend已服务430万用户，ARR达千万美元，并超越SendGrid。访谈还探讨了API架构、MCP工具使用、品类开创策略，以及如何在追求商业成功的同时保持家庭关系的平衡。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: tech-trends
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
+people:
+  - Zeno Rocha
+companies_orgs:
+  - Resend
+  - SendGrid
+  - Warner Brothers
+  - HBO
+  - HubSpot
+  - Svix
+products_models:
+  - Dracula
+  - React Email
+  - MCP
+  - Next.js
 media_books: []
 status: evergreen
 ---

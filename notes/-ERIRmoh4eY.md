@@ -5,14 +5,18 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=-ERIRmoh4eY
 speaker: FearNation 世界苦茶
-tags: []
-title: ''
-summary: ''
+tags:
+  - population-aging
+  - pension-system
+  - fiscal-pressure
+  - elderly-care
+title: 直播连线讨论中国人口老龄化、养老金刚性支出与财政及社会挑战
+summary: 主播与连线听众围绕中国老龄化与养老体系展开讨论。内容涉及养老金支出的刚性与财政压力对未来政策及台海局势的影响、未婚率与少子化趋势、体制内外养老差距、农村老人境遇、独生子女照护负担及民间互助等观点。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
 people: []
 companies_orgs: []

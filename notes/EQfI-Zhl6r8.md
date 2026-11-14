@@ -5,19 +5,40 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=EQfI-Zhl6r8
 speaker: 小翠時政財經
-tags: []
-title: ''
-summary: ''
+tags:
+  - semiconductor-industry
+  - export-control
+  - corporate-governance
+  - supply-chain
+title: 黄仁勋被曝丑闻辞去英伟达职务与芯片管制和供应链连锁反应
+summary: 文章讲述2026年11月媒体连续爆出黄仁勋涉嫌婚外情等丑闻，白宫与国会酝酿更严对华芯片管制，随后媒体证实黄仁勋已辞去英伟达CEO及董事职务，引发英伟达股价重挫以及对亚洲半导体供应链与白手套生态冲击的广泛担忧。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: tech-trends
+area: tech-engineering
 project: []
-people: []
-companies_orgs: []
-products_models: []
-media_books: []
+people:
+  - 黄仁勋
+  - 卢特尼克
+  - 贝森特
+  - 川普
+  - 鲍威尔
+companies_orgs:
+  - 英伟达
+  - 美国商务部
+  - 美国财政部
+  - 台积电
+  - CoreWeave
+  - Nebius
+  - AMD
+  - 西北工业大学
+products_models:
+  - H200
+  - CUDA
+media_books:
+  - 纽约时报
+  - CNBC
 status: evergreen
 ---
 <!-- chunk 1/2 -->

@@ -5,19 +5,29 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=WbMFzFUFj40
 speaker: 徒步的騎手•劉宗坤
-tags: []
-title: ''
-summary: ''
+tags:
+  - liberty
+  - ordered-liberty
+  - civil-rights
+  - rule-of-law
+title: 自由科普系列：自由的含义、思想源流与法律设限
+summary: 讲座探讨中国人对自由的态度，梳理从严复译介到英美宪政传统的自由演进，区分哲学校验、政治宣誓与法律权利三层含义，剖析积极自由与消极自由及“有秩序的自由”等司法实践，指出政府兼具侵犯与保护自由的双重角色。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 严复
+  - Isaiah Berlin
+  - John Stuart Mill
+companies_orgs:
+  - 美国最高法院
 products_models: []
-media_books: []
+media_books:
+  - 群己权界论
+  - 英格兰大宪章
 status: evergreen
 ---
 <!-- chunk 1/2 -->

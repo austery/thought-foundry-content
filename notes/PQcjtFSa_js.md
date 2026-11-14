@@ -5,17 +5,30 @@ guest: ''
 layout: post.njk
 source: https://www.youtube.com/watch?v=PQcjtFSa_js
 speaker: 三個水槍手
-tags: []
-title: ''
-summary: ''
+tags:
+  - human-rights
+  - rule-of-law
+  - political-dissidence
+  - civil-society
+title: 潘嘉伟与对谈者回顾支联会案、邹幸彤自辩与香港人权法律抗争历程
+summary: 访谈嘉宾潘嘉伟与主持回顾了支联会案及邹幸彤、何俊仁、李卓人等人的抗争与处境，讨论了六四记忆在香港的变迁、邹幸彤在狱中的自辩词与抗辩立场，以及两地维权律师群体的历史协作与法治环境变化。
 insight: ''
 draft: true
 series: ''
-category: ''
-area: ''
+category: politics-society
+area: society-thinking
 project: []
-people: []
-companies_orgs: []
+people:
+  - 潘嘉伟
+  - 邹幸彤
+  - 何俊仁
+  - 李卓人
+companies_orgs:
+  - 香港市民支援爱国民主运动联合会
+  - 中国维权律师关注组
+  - 中国劳工通讯
+  - 独立中文笔会
+  - 国际特赦组织
 products_models: []
 media_books: []
 status: evergreen
