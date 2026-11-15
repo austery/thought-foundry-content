@@ -1,0 +1,478 @@
+[Speaker 0]: 大家好，
+[Speaker 0]: 我是 darn，
+[Speaker 0]: 欢迎回到我的频道。
+[Speaker 0]: 本周，
+[Speaker 0]: 美股 AI 板块出现了一个爆炸性黑天鹅事件。
+[Speaker 0]: 黄仁军离开了英伟达周四公司宣布，
+[Speaker 0]: 他辞去 CEO 和董事职务，
+[Speaker 0]: 由 CFO collect chriis 暂时接任。
+[Speaker 0]: 消息出来之后，
+[Speaker 0]: 英伟达盘中一度跌破一百五十美元，
+[Speaker 0]: 收盘回到一百六十六美元，
+[Speaker 0]: 从十月初两百四十美元的高点算起，
+[Speaker 0]: 股价已经回撤了百分之三十。
+[Speaker 0]: 同一天，
+[Speaker 0]: 我持有的另一家 AI 公司 nibyas 也公布了财报，
+[Speaker 0]: 收入同比增长百分之五百七十一，
+[Speaker 0]: 结果股价却跌了将近百分之十七。
+[Speaker 0]: 一家是创始人突然离任，
+[Speaker 0]: 一家是业绩强劲，
+[Speaker 0]: 却遭到市场抛售，
+[Speaker 0]: 背后的问题完全不同。
+[Speaker 0]: 今天我就和大家聊聊，
+[Speaker 0]: 失去黄仁勋的英伟达到底值多少钱？
+[Speaker 0]: 我接下来准备怎么操作，
+[Speaker 0]: 以及 nabis 的财报究竟有哪些值得高兴，
+[Speaker 0]: 又有哪些需要担心的地方？
+[Speaker 0]: 先说英伟达过去一周，
+[Speaker 0]: 英伟达的前 CEO 黄仁勋经历了他人生中的至暗时刻。
+[Speaker 0]: 先是媒体报道，
+[Speaker 0]: 他与一位名叫爱 ice 晃的女性有过婚外关系，
+[Speaker 0]: 而这位女性又卷入美国情报机构的怀疑与调查，
+[Speaker 0]: 被指控有可能是中国间谍。
+[Speaker 0]: 黄仁勋随后承认了自己的婚外行为。
+[Speaker 0]: 周三又有媒体报道，
+[Speaker 0]: 他与一位向自己汇报的英伟达高管存在过不当，
+[Speaker 0]: 关系到了周四早晨，
+[Speaker 0]: 英伟达就宣布了他的离职。
+[Speaker 0]: 这里我想强调，
+[Speaker 0]: 婚外情的承认是一回事儿，
+[Speaker 0]: 涉及外国情报，
+[Speaker 0]: 商业机密的指控又是另一回事，
+[Speaker 0]: 后者仍然需要调查，
+[Speaker 0]: 不能把媒体报道直接当成已经证实的结论。
+[Speaker 0]: 不过，
+[Speaker 0]: 从公司治理角度来看，
+[Speaker 0]: 尤其涉及 CEO 与下属的关系，
+[Speaker 0]: 董事会承受的压力是实实在在的。
+[Speaker 0]: 类似情况。
+[Speaker 0]: 以前英特尔、
+[Speaker 0]: 麦当劳都发生过，
+[Speaker 0]: 所以当周三的这条报道出来的时候，
+[Speaker 0]: 我就几乎确定黄仁勋恐怕很难继续留任了。
+[Speaker 0]: 英伟达的股价在过去一个月从两百四十美元跌到一百六十六美元，
+[Speaker 0]: 这不能全部算在黄仁勋头上。
+[Speaker 0]: 丑闻曝光，
+[Speaker 0]: 以前从十月六日到十一月六日，
+[Speaker 0]: 英伟达已经跌了大约百分之二十二，
+[Speaker 0]: 同期半导体指数 SMH 跌了百分之二十七，
+[Speaker 0]:  SOXX 跌了百分之三十。
+[Speaker 0]: 一同时期的英伟达反而是跑赢了板块指数。
+[Speaker 0]: 当时下跌的原因主要还是民主党上台后，
+[Speaker 0]: 市场对 AI 前景的不确定性产生担忧，
+[Speaker 0]: 也担心 AI 资本开支能不能持续，
+[Speaker 0]: 数据中心的增长会不会放缓之后，
+[Speaker 0]: 从十一月六日到本周五收盘，
+[Speaker 0]: 英伟达又跌了约百分之十，
+[Speaker 0]: 但同期 SMH 和 SOXX 都涨了约百分之八。
+[Speaker 0]: 换句话说，
+[Speaker 0]: 英伟达相对板块落后了，
+[Speaker 0]: 大约百分之十七到百分之十八，
+[Speaker 0]: 这不是一个可以精确归因的数字，
+[Speaker 0]: 但确实反映了市场开始重新评估。
+[Speaker 0]: 没有黄仁勋的英伟达到底值多少钱？
+[Speaker 0]: 更有意思的是，
+[Speaker 0]: 盈利预期也就是 EPS 在这段几乎没有变化。
+[Speaker 0]: 我手里的分析师数据，
+[Speaker 0]: 英伟达二零二八财年，
+[Speaker 0]: 也就是大致对应二零二七自然年的 EPS 共识，
+[Speaker 0]: 之前是十五点九亿美元，
+[Speaker 0]: 现在是十五点八四美元，
+[Speaker 0]: 几乎没动。
+[Speaker 0]: 但以这组盈利来计算，
+[Speaker 0]: 当前股价一百六十美元对应的前瞻市盈率只有约十倍，
+[Speaker 0]: 盘中跌破一百五十美元时，
+[Speaker 0]: 甚至不到九点五倍。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 至少到目前为止，
+[Speaker 0]: 股价下跌主要体现为估值压缩，
+[Speaker 0]: 而不是大家突然认为英伟达未来两年赚不到钱，
+[Speaker 0]: 这是我今天整个估值分析的出发点。
+[Speaker 0]: 英伟达接下来最大的风险有两个，
+[Speaker 0]: 首先是现有人才。
+[Speaker 0]: 黄仁勋从一九九三年创立公司整整三十多年，
+[Speaker 0]: 很多核心技术人员跟着他一路走过来，
+[Speaker 0]: 不少人已经实现财富自由，
+[Speaker 0]: 他们留下来，
+[Speaker 0]: 未必只是为了薪水，
+[Speaker 0]: 也可能是因为信任。
+[Speaker 0]: 黄仁勋本人英伟达过去又以扁平管理出名，
+[Speaker 0]: 六十几位高管直接向他汇报。
+[Speaker 0]: 如今，
+[Speaker 0]: 他突然离开，
+[Speaker 0]: 哪怕只有少数关键人物选择出走，
+[Speaker 0]: 都可能影响几代产品之后的研发进度。
+[Speaker 0]: 市场现在也有各种传言猜测，
+[Speaker 0]: 他会不会去马斯克的公司甚至另起炉灶，
+[Speaker 0]: 重新打造一家公司，
+[Speaker 0]: 成为英伟达的竞争对手。
+[Speaker 0]: 但我觉得现阶段把这些猜测当成一定会发生的事情，
+[Speaker 0]: 没有必要。
+[Speaker 0]: 黄仁勋还是英伟达的重要股东，
+[Speaker 0]: 也是创始人亲手打压自己建立的公司，
+[Speaker 0]: 对他并没有明显好处。
+[Speaker 0]: 而且，
+[Speaker 0]: 未来两年的主要产品路线图已经比较清楚，
+[Speaker 0]: 即使发生人才流失，
+[Speaker 0]: 也不一定马上反映在收入上。
+[Speaker 0]: 另一个风险是，
+[Speaker 0]: 新 CEO 能不能守住英伟达的护城河？
+[Speaker 0]: 这里我倒没有那么悲观。
+[Speaker 0]: 大客户购买英伟达 GPU 毕竟不是只看黄仁勋的个人魅力，
+[Speaker 0]: 而是看性能、
+[Speaker 0]: 供货能力和使用成本。
+[Speaker 0]: 酷的软件生态 NV link 互联以及完整的训练系统，
+[Speaker 0]: 不是竞争对手一两年就能复制出来的。
+[Speaker 0]: 但在 AI 推理市场，
+[Speaker 0]: 谷歌、
+[Speaker 0]:  TPU、
+[Speaker 0]: 亚马逊、
+[Speaker 0]:  traunium 和 AMD 都在争夺份额。
+[Speaker 0]: 黄仁勋过去不只是卖芯片，
+[Speaker 0]: 还负责把客户、
+[Speaker 0]: 软件、
+[Speaker 0]: 硬件和整个产业生态连接起来，
+[Speaker 0]: 这种影响力新 CEO 很难短期内完全接住。
+[Speaker 0]: 如果继任者非常优秀，
+[Speaker 0]: 比如就是传闻中的 team cook，
+[Speaker 0]: 那么英伟达也有机会慢慢走上苹果那种路线，
+[Speaker 0]: 增长速度下降，
+[Speaker 0]: 但现金流强劲，
+[Speaker 0]: 通过回购和分红持续回报股东。
+[Speaker 0]: 如果继任者能力一般，
+[Speaker 0]: 技术优势也可能一点一点被侵蚀。
+[Speaker 0]: 所以对英伟达来说，
+[Speaker 0]: 下一任 CEO 是谁？
+[Speaker 0]: 可能比下一季度 EPS 超预期多少还重要。
+[Speaker 0]: 下面说最关键的目标价，
+[Speaker 0]: 我还是用二零二八财年的 EPS 乘以合理市盈率，
+[Speaker 0]: 分别计算悲观、
+[Speaker 0]: 中性和乐观三种情况。
+[Speaker 0]:  EPS 方面，
+[Speaker 0]: 市场共识是十五点八四美元，
+[Speaker 0]: 考虑英伟达过去八个季度平均会比预期高出百分之五点八。
+[Speaker 0]: 我把悲观 EPS 定在十五点八四美元，
+[Speaker 0]: 中性是十六点三零美元，
+[Speaker 0]: 乐观是十六点七六美元。
+[Speaker 0]: 这些都是我的模型，
+[Speaker 0]: 假设不是公司承诺。
+[Speaker 0]: 至于市盈率，
+[Speaker 0]: 过去六个月，
+[Speaker 0]: 英伟达平均大约是十五点五倍，
+[Speaker 0]: 悲观情况下，
+[Speaker 0]: 我只给八倍。
+[Speaker 0]: 假设新 CEO 不能服众，
+[Speaker 0]: 人才流失，
+[Speaker 0]: 市场又开始担心盈利见顶，
+[Speaker 0]: 中性情况下，
+[Speaker 0]: 在十五点五倍基础上直接打掉百分之十八，
+[Speaker 0]: 也就是刚才提到的没有黄仁勋后的英伟达估值折扣得到十三倍，
+[Speaker 0]: 乐观情况下，
+[Speaker 0]: 给十八倍。
+[Speaker 0]: 假设团队稳定，
+[Speaker 0]: 新管理层得到认可，
+[Speaker 0]: 回购和盈利增长都能持续。
+[Speaker 0]: 这样算出来，
+[Speaker 0]: 英伟达的三档目标价就是悲观一百二十七美元，
+[Speaker 0]: 中性两百一十二美元，
+[Speaker 0]: 乐观三百零二美元。
+[Speaker 0]: 注意，
+[Speaker 0]: 这三档数字是给大家的投资决策作为参考，
+[Speaker 0]: 并不是告诉你明天或者下个月就会跑到这个位置，
+[Speaker 0]: 而且悲观一百二十七美元也并不意味着肯定不会跌破这个数字。
+[Speaker 0]: 不过，
+[Speaker 0]: 一旦跌破在确认投资逻辑没有改变的前提下，
+[Speaker 0]: 可以明确这个位置买入是性价比非常高的选择。
+[Speaker 0]: 以目前一百六十美元左右计算，
+[Speaker 0]: 中性价还有大约百分之三十二的上涨空间。
+[Speaker 0]: 我觉得英伟达虽然失去了黄仁勋，
+[Speaker 0]: 但并没有因此失去全部投资价值。
+[Speaker 0]: 真正的问题是，
+[Speaker 0]: 接下来有没有新的坏消息，
+[Speaker 0]: 市场愿不愿意继续给他当前的估值，
+[Speaker 0]: 以及未来两年的盈利能不能兑现？
+[Speaker 0]: 接下来两个时间点，
+[Speaker 0]: 我会特别关注，
+[Speaker 0]: 一个是十一月十七日的财报，
+[Speaker 0]: 重点不是只看收入和 EPS 超了多少，
+[Speaker 0]: 而是看新管理层能否稳定市场信心，
+[Speaker 0]: 是否维持原来的产品和业绩指引。
+[Speaker 0]: 另一个是继任者的选择和核心团队的稳定情况。
+[Speaker 0]: 至于媒体提到的调查和国会问询，
+[Speaker 0]: 我也会持续关注，
+[Speaker 0]: 但不会把未经确认的消息直接写进估值模型。
+[Speaker 0]: 只要公司的订单技术路线和核心团队没有实质性恶化，
+[Speaker 0]: 我就不会因为市场情绪变化而彻底否定这家公司。
+[Speaker 0]: 我从二零二三年开始投资英伟达，
+[Speaker 0]: 当时股价只有两位数。
+[Speaker 0]: 这几年我通过投资英伟达已经获得了不错的收益。
+[Speaker 0]: 我目前长期仓位的平均成本大约一百三十美元，
+[Speaker 0]: 之前，
+[Speaker 0]: 也多次在估值较高时分批止盈。
+[Speaker 0]: 最近一次就在一个月前的两百四十美元附近。
+[Speaker 0]: 上周末第一条新闻爆出来后，
+[Speaker 0]: 我在周日晚上就在会员群里通知大家，
+[Speaker 0]: 我会夜盘一开就清掉部分英伟达仓位进行避险。
+[Speaker 0]: 随后我就在一百八十美元左右大幅减仓，
+[Speaker 0]: 把仓位从百分之九降到了百分之六，
+[Speaker 0]: 股价进一步下跌。
+[Speaker 0]: 之后，
+[Speaker 0]: 现在英伟达在我的组合中只占百分之五多一点。
+[Speaker 0]: 这次减仓不是我不看好英伟达了，
+[Speaker 0]: 我也不认为英伟达的业务马上就会崩溃，
+[Speaker 0]: 而是风险发生变化。
+[Speaker 0]: 投资英伟达的重要原因之一不在了，
+[Speaker 0]: 不确定性大幅度增加了，
+[Speaker 0]: 我就必须对仓位进行调整来应对这个不确定性。
+[Speaker 0]: 如果英伟达股价之后跌到一百二十到一百四十美元，
+[Speaker 0]: 我会考虑重新分批加仓，
+[Speaker 0]: 把仓位最多加回到百分之八。
+[Speaker 0]: 如果没有跌到那里就反弹，
+[Speaker 0]: 我也不会追着买。
+[Speaker 0]: 手里百分之五的仓位已经能让我参与它未来的上涨。
+[Speaker 0]: 我一共持有大约二十只股票，
+[Speaker 0]: 平均下来基本就是每只股票百分之五的仓位，
+[Speaker 0]: 确定性高的我会多分配一些，
+[Speaker 0]: 仓位，
+[Speaker 0]: 确定性低的就会少一些。
+[Speaker 0]: 英伟达本来是我认为确定性最高的个股之一，
+[Speaker 0]: 所以我才会给它将近百分之十的仓位。
+[Speaker 0]: 但现在，
+[Speaker 0]: 我会暂时把英伟达调整为一只中等仓位股票。
+[Speaker 0]: 对于仓位已经很重的朋友，
+[Speaker 0]: 可以认真考虑是否需要降低集中度股数多。
+[Speaker 0]: 同时，
+[Speaker 0]: 有经验的投资者也可以考虑通过出售看涨期权来降低持股成本。
+[Speaker 0]: 仓位不大的朋友，
+[Speaker 0]: 或者还没有持仓的朋友，
+[Speaker 0]: 我也不建议看到股价下跌就急着去抄底。
+[Speaker 0]: 我建议至少等到下周财报后，
+[Speaker 0]: 获得更多的确定性后，
+[Speaker 0]: 再进行下一步操作。
+[Speaker 0]: 最后我想说说，
+[Speaker 0]: 黄仁勋本人投资了这么多年，
+[Speaker 0]: 英伟达，
+[Speaker 0]: 我从来没有想过有一天会以这样的方式来讨论他的离开。
+[Speaker 0]: 每次市场怀疑 AI 投资是不是过热，
+[Speaker 0]: 质疑未来还有多少增长空间的时候，
+[Speaker 0]: 黄仁勋总能带着新的产品、
+[Speaker 0]: 新的技术路线图，
+[Speaker 0]: 以及一份又一份出色的财报业绩站出来打消市场的疑虑。
+[Speaker 0]: 对我来说，
+[Speaker 0]: 他不仅是英伟达的 CEO，
+[Speaker 0]: 也是这轮 AI 浪潮最有代表性的推动者，
+[Speaker 0]: 绝对的领军人物。
+[Speaker 0]: 我从二零二三年一路投资英伟达，
+[Speaker 0]: 越来越信任这家公司，
+[Speaker 0]: 其实有很大一部分原因，
+[Speaker 0]: 就是我相信黄仁勋的判断力和执行力。
+[Speaker 0]: 当然，
+[Speaker 0]: 欣赏一个企业家，
+[Speaker 0]: 不代表要替他所有的个人行为辩护，
+[Speaker 0]: 我对他的这些选择也感到非常遗憾。
+[Speaker 0]: 但无论如何，
+[Speaker 0]: 他用三十多年把英伟达从一家偏门的图形芯片公司带成了 AI 时代最重要的企业，
+[Speaker 0]: 这份成就不会因为一次危机就被抹掉。
+[Speaker 0]: 这两天我一直在回看，
+[Speaker 0]: 他穿着黑色皮衣站在发布会舞台上充满激情的介绍新产品的视频，
+[Speaker 0]: 我真心希望他能面对应该承担的责任。
+[Speaker 0]: 除利好眼前的危机，
+[Speaker 0]: 不要就此消沉下去，
+[Speaker 0]: 也希望未来有一天，
+[Speaker 0]: 我们还能看到他重新振作。
+[Speaker 0]: 凭借自己的远见和能力东山再起，
+[Speaker 0]: 也许有一天，
+[Speaker 0]: 我们还能看到他回到英伟达。
+[Speaker 0]: 或许他会去和马斯克强强联手，
+[Speaker 0]: 我不知道他的选择，
+[Speaker 0]: 但我会衷心祝福他未来安好，
+[Speaker 0]: 或何在这个时候恶意中伤落井下石的人我也希望大家记住这些人的嘴脸。
+[Speaker 0]: 至于英伟达，
+[Speaker 0]: 我希望这家陪伴我投资多年的公司，
+[Speaker 0]: 能够稳住团队，
+[Speaker 0]: 找到合适的接班人，
+[Speaker 0]: 继续走下去，
+[Speaker 0]: 继续给我们股东带来稳健的收益。
+[Speaker 0]: 好了，
+[Speaker 0]: 英伟达先聊到这里，
+[Speaker 0]: 我们再看 nabis。
+[Speaker 0]: 这次财报公布后，
+[Speaker 0]:  nebis 两天累计下跌约百分之二十六，
+[Speaker 0]: 盘中一度接近百分之三十，
+[Speaker 0]: 最低跌到一百零九美元。
+[Speaker 0]: 其实，
+[Speaker 0]: 这次财报的结果相当漂亮。
+[Speaker 0]: 第三季度收入九点八一亿美元，
+[Speaker 0]: 同比增长百分之五百七十一，
+[Speaker 0]: 超过市场预期的九点零七亿美元，
+[Speaker 0]: 调整了后一笔达利润率提高到百分之四十七点五。
+[Speaker 0]: 公司还第一次实现了 GAAP 经营利润，
+[Speaker 0]: 不过收入里包括了大约三点二五亿美元的轻资产模式收入。
+[Speaker 0]: 所谓轻资产模式，
+[Speaker 0]: 就是由合作方出钱建设基础设施、
+[Speaker 0]: 购买硬件，
+[Speaker 0]: 提提供技术架构和 neabbla i 平台。
+[Speaker 0]: 在锁合产产的时候，
+[Speaker 0]:  nabbls 会一次性确认一部分收入。
+[Speaker 0]: 这一季的三点二五亿美元就属于这种情况，
+[Speaker 0]: 扣除这一部分，
+[Speaker 0]: 核核收收入约是六六点六六美元，
+[Speaker 0]: 只比第二季度多了百分之十三左右。
+[Speaker 0]: 不过，
+[Speaker 0]: 管理层也表示，
+[Speaker 0]: 这只是第一批轻资产交易以后，
+[Speaker 0]: 这类收入会成为业务中越来越常规的一部分。
+[Speaker 0]: 而二零二七年的收入指引完全没有计入这部分收入。
+[Speaker 0]: 另外，
+[Speaker 0]: 财报里也提到了很多积极的因素。
+[Speaker 0]: 首先是价格。
+[Speaker 0]: 新签合同每兆瓦的年化合同价值已经超过两千五百万美元，
+[Speaker 0]: 比上季度更高。
+[Speaker 0]: 其次是预付款。
+[Speaker 0]: 新签合同的客户预付款已经能覆盖百分之一百以上的对应资本开支，
+[Speaker 0]: 上季度只有百分之五十到百分之六十。
+[Speaker 0]: 投资回收期也从一年十个月缩短到了一年七个月。
+[Speaker 0]: 对于这种需要不断购买 GPU 建设数据中心的公司，
+[Speaker 0]: 这一点比收入超预期更重要。
+[Speaker 0]: 第三是订单。
+[Speaker 0]: 第三季度以来新签合同总额超过一百二十亿美元。
+[Speaker 0]:  data breaks，
+[Speaker 0]:  data、
+[Speaker 0]:  dog、
+[Speaker 0]:  snowflake。
+[Speaker 0]: 这些企业级平台也第一次和 nibyas 签了多年期协议。
+[Speaker 0]: 管理层还预计二零二七年收入将达到一百二十亿到一百三十亿美元，
+[Speaker 0]: 大约是今年的四倍，
+[Speaker 0]: 并计划在二零二七年第四季度实现税前盈亏平衡。
+[Speaker 0]: 至少从需求端看，
+[Speaker 0]: 我没有看到任何转弱的迹象。
+[Speaker 0]: 那为什么股价还会跌这么多？
+[Speaker 0]: 我认为有几个原因叠加在一起。
+[Speaker 0]: 第一，
+[Speaker 0]: 财报前预期太高，
+[Speaker 0]: 前一天 curo v 财报后大涨了百分之二十五，
+[Speaker 0]:  nabbis 也跟着大涨了百分之十五，
+[Speaker 0]: 很多资金是压住 nabbis，
+[Speaker 0]: 也会出现同样的走势，
+[Speaker 0]: 结果正好相反。
+[Speaker 0]: 第二，
+[Speaker 0]: 资本开支大幅上调，
+[Speaker 0]: 二零二六年上调到大约两百七十亿美元，
+[Speaker 0]: 明年计划投入四百亿到四百五十亿美元。
+[Speaker 0]: 公司表示，
+[Speaker 0]: 其中百分之七十五到百分之八十五可以靠客户预付款和以合同为抵押的融资来覆盖。
+[Speaker 0]: 但剩下的六十亿到一百一十亿美元还要另外解决。
+[Speaker 0]: 市场最担心的就是公司会不会在低位大量增发股票。
+[Speaker 0]: 第三，
+[Speaker 0]: 交付推迟新泽西 wine land 数据中心原本用临时发电机过渡等 bloom 的燃料电池逐步接上。
+[Speaker 0]: 但场地运营方在第三季度末提前撤掉了临时发电，
+[Speaker 0]: 燃料电池还没有完全爬坡，
+[Speaker 0]: 中间就出现了供电缺口。
+[Speaker 0]: 二季度时，
+[Speaker 0]: 管理层还说，
+[Speaker 0]: 这次电力切换不会影响进度，
+[Speaker 0]: 所以这个延误确实出乎市场意料。
+[Speaker 0]: 公司预计年底前可以交付微软合同，
+[Speaker 0]: 对应产能的一半以上，
+[Speaker 0]: 剩下的要到明年第二季度。
+[Speaker 0]: 另外几个第三方托管站点也有延误，
+[Speaker 0]: 部分容量推迟到了明年，
+[Speaker 0]: 客户都已经知情，
+[Speaker 0]: 没有任何订单被取消，
+[Speaker 0]: 但收入因此往后推二零二六年收入指引降到原来三十亿到三十四亿美元区间的低端。
+[Speaker 0]: 原本年底要实现的年化收入目标也推迟到了明年二月。
+[Speaker 0]: 第四，
+[Speaker 0]: 就是前面说的一次性收入。
+[Speaker 0]: 最后还有一个巧合，
+[Speaker 0]: 黄仁勋辞职的消息刚好在 neabbas 电话会进行期间公布，
+[Speaker 0]: 进一步打击了整个 AI 板块的情绪。
+[Speaker 0]: 不过 nabias 在盘前其实就已经在下跌了。
+[Speaker 0]: 黄仁勋的消息只是雪上加霜，
+[Speaker 0]: 并不是下跌的起因。
+[Speaker 0]: 我听到还有人担心，
+[Speaker 0]: 黄仁勋离开以后，
+[Speaker 0]: 英伟达会不会不再支持 nabiis。
+[Speaker 0]: 这里我要说的准确一点，
+[Speaker 0]: 英伟达确实是 nbbis 的股东之一，
+[Speaker 0]: 今年一季度还向 nabbas 做了二十亿美元的战略股权投资，
+[Speaker 0]: 但这笔钱已经到账，
+[Speaker 0]: 是一次性的股权投资不需要偿还，
+[Speaker 0]: 新 CEO 上任也收不回去。
+[Speaker 0]: 而且 navyis 和英伟达之间没有像 core wave 那样的算力兜底协议。
+[Speaker 0]:  naviis 建设数据中心的钱主要来自客户预付款，
+[Speaker 0]: 以微软和 meta 长期合同为抵押的融资、
+[Speaker 0]: 可转债和增发。
+[Speaker 0]: 所以，
+[Speaker 0]: 我认为黄仁勋离开对 navis 基本面的影响不大，
+[Speaker 0]: 更多是情绪影响。
+[Speaker 0]: 唯一的间接风险是，
+[Speaker 0]: 如果 AI 基础设施板块的估值持续被压低，
+[Speaker 0]:  naabyis 再去融资，
+[Speaker 0]: 股权稀释的代价就会更高。
+[Speaker 0]: 这也是为什么我会持续关注它的资产负债表，
+[Speaker 0]: 而不只是收入增长。
+[Speaker 0]: 估值上，
+[Speaker 0]: 我用企业价值除以二零二七年底的年化收入，
+[Speaker 0]: 按目前一百一十多美元的股价 neabbas 大约是二点五倍，
+[Speaker 0]: 接近今年交易过的区间最低端，
+[Speaker 0]: 而今年的中位数大约是三点八倍。
+[Speaker 0]: 如果用更简单的算法企业，
+[Speaker 0]: 价值大约只有二零二七年收入指引的三倍多，
+[Speaker 0]: 而这还是一家收入一年要翻四倍的公司。
+[Speaker 0]: 如果估值回到四倍左右，
+[Speaker 0]: 我的模型对应的股价大约是一百九十到两百美元。
+[Speaker 0]: 所以我认为现在的位置是明显被低估的。
+[Speaker 0]:  neabbus 目前也是我的持仓之一。
+[Speaker 0]: 我持有大约百分之五的 nabbs 仓位，
+[Speaker 0]: 接下来我会主要关注三件事。
+[Speaker 0]: 新泽西的产能能不能按新的时间表交付？
+[Speaker 0]: 明年二月的年化收入能不能超过七十亿美元，
+[Speaker 0]: 以及未来的资金缺口，
+[Speaker 0]: 最终用什么方式补上？
+[Speaker 0]: 如果订单兑现，
+[Speaker 0]: 融资成本可控，
+[Speaker 0]: 我会继续持有，
+[Speaker 0]: 并且逢低补仓。
+[Speaker 0]: 如果交付一再延误，
+[Speaker 0]: 或者公司需要在低位大量增发，
+[Speaker 0]: 我也不会因为跌的多，
+[Speaker 0]: 就机械加仓。
+[Speaker 0]: 最后总结一下，
+[Speaker 0]: 英伟达这次主要跌的是估值市场，
+[Speaker 0]: 正在重新评估一家没有黄仁勋的英伟达，
+[Speaker 0]: 而 nabis 主要跌的是融资和交付，
+[Speaker 0]: 需求端依然很强。
+[Speaker 0]: 但投资者担心，
+[Speaker 0]: 钱从哪里来，
+[Speaker 0]: 收入什么时候兑现，
+[Speaker 0]: 两家公司都有长期机会，
+[Speaker 0]: 也都有不能忽视的风险。
+[Speaker 0]: 这次事件也再次提醒我们，
+[Speaker 0]: 哪怕对一家企业研究的再深入，
+[Speaker 0]: 也不可能准备预测所有黑天鹅，
+[Speaker 0]: 真正能控制的是自己的仓位、
+[Speaker 0]: 买入价格以及事情变化时，
+[Speaker 0]: 愿不愿意重新检查投资逻辑？
+[Speaker 0]: 我依然非常看好 AI 的长期发展。
+[Speaker 0]: 但在看好一个行业，
+[Speaker 0]: 也不会把所有资金压在一家企业身上，
+[Speaker 0]: 留有余地市场回调时，
+[Speaker 0]: 才有机会保持冷静。
+[Speaker 0]: 也有资金继续加仓。
+[Speaker 0]: 以上就是本期的全部内容，
+[Speaker 0]: 我目前持续跟踪四十多只基本面优秀的个股，
+[Speaker 0]: 定期更新他们的盈利预期估值模型，
+[Speaker 0]: 以及具体的目标价和加减仓点位，
+[Speaker 0]: 也会在会员频道分享自己的美股实施操作。
+[Speaker 0]: 如果大家对今天这两家公司或者其他 AI 优质个股的估值和操作计划感兴趣，
+[Speaker 0]: 欢迎通过 youtube、
+[Speaker 0]:  x substack 或爱发电加入我的会员频道，
+[Speaker 0]: 各个平台的内容都会同步更新。
+[Speaker 0]: 今天主要的数据来自 seeking alpha、
+[Speaker 0]:  alpha、
+[Speaker 0]:  picx 以及相关公司的财报资料链接。
+[Speaker 0]: 我会放在视频下方，
+[Speaker 0]: 喜欢这类内容的朋友，
+[Speaker 0]: 欢迎点赞订阅，
+[Speaker 0]: 感谢大家一直以来的支持，
+[Speaker 0]: 我们下期再见。
