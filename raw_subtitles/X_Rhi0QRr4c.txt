@@ -1,0 +1,1877 @@
+From
+ the
+ New
+ York
+ Times,
+ [music]
+ it's
+
+
+the
+ headlines.
+ I'm
+ Tracy
+ Mumford.
+
+
+Today's
+ Wednesday,
+ November
+ 18th.
+
+
+[music]
+ Here's
+ what
+ we're
+ covering.
+
+
+>> I
+ know
+ the
+ last
+ week
+ has
+ been
+ a
+
+
+troubling
+ time
+ for
+ many
+ Americans.
+
+
+Obviously,
+ we've
+ seen
+ a series
+ of
+
+
+technical
+ failures
+ over
+ the last
+ week
+
+
+impact
+ people's
+ lives.
+ So
+ I want
+ to
+
+
+begin
+ by
+
+
+>> Secretary
+ of
+ State
+ Marco
+ Rubio
+ is
+ trying
+
+
+to
+ address
+ Americans'
+ concerns
+ about
+ the
+
+
+cascade
+ of
+ tech
+ glitches
+ and
+ outages
+
+
+that
+ have
+ been
+ hitting
+ everyday
+ systems.
+
+
+Rubio,
+ who
+ is
+ also
+ President
+ Trump's
+
+
+national
+ security
+ advisor,
+ spoke
+ after
+
+
+troubles
+ at
+ the
+ FAA
+ and
+ Microsoft
+ were
+
+
+followed
+ quickly
+ by
+ issues
+ at
+ major
+
+
+banks,
+ Apple,
+ and
+ even
+ the
+ NSA.
+
+
+>> The
+ first
+ thing
+ I
+ want
+ to
+ make
+ very
+
+
+clear
+ is
+ that
+ we
+ have
+ zero
+ evidence
+
+
+whatsoever.
+ We
+ have
+ no
+ indication,
+ no
+
+
+evidence,
+ and
+ no
+ reason
+ to
+ believe
+ at
+
+
+all
+ that
+ any
+ of these
+ incidents
+ are
+
+
+related
+ to
+ each
+ other.
+
+
+>> Rubio
+ said
+ so
+ far
+ nothing
+ about
+ the
+
+
+disruptions
+ pointed
+ to
+ cyber
+ attacks.
+
+
+Instead,
+ he
+ suggested
+ that
+ the
+ rush
+ to
+
+
+patch
+ systems
+ before
+ they're
+ hacked
+ by
+
+
+new
+ AI
+ capabilities
+ may
+ be
+ what's
+
+
+causing
+ the
+ failures.
+
+
+>> So
+ sometimes
+ when
+ you
+ are
+ going
+ in
+ to
+
+
+fix
+ your
+ system
+ because
+ you've
+
+
+identified
+ a vulnerability,
+ it
+ creates
+ a
+
+
+short-term
+ disruption
+ in
+ the
+ way
+ your
+
+
+system
+ works.
+
+
+>> Many
+ cyber
+ experts
+ have
+ been
+ circling
+
+
+around
+ similar
+ explanations
+ for
+ the
+
+
+outages,
+ and
+ the
+ rush
+ to
+ patch
+ things
+ up
+
+
+is
+ not
+ going
+ to
+ stop
+ anytime
+ soon.
+
+
+Yesterday,
+ a
+ cybersecurity
+ startup
+
+
+revealed
+ that
+ it
+ had
+ uncovered
+ a
+
+
+critical
+ software
+ bug
+ in
+ Java,
+ the
+
+
+programming
+ language
+ that's
+ used
+ by
+
+
+government
+ agencies,
+ hospitals,
+ the
+
+
+aviation
+ industry,
+ and
+ 90%
+ of
+ Fortune
+
+
+500
+ companies.
+ The
+ bug,
+ which
+ the
+
+
+startup
+ used
+ AI
+ to
+ identify,
+ could
+
+
+enable
+ a hacker
+ to
+ gain
+ remote
+ access
+ to
+
+
+sensitive
+ internal
+ systems.
+
+
+A
+ patch
+ for
+ the
+ Java
+ issue
+ has
+ since
+
+
+been
+ released,
+ and
+ the
+ US
+ government
+ is
+
+
+urging
+ organizations
+ to
+ immediately
+
+
+address
+ the
+ vulnerability.
+
+
+[music]
+ Now
+ another
+ critical
+ tech
+
+
+development.
+ This
+ morning,
+ a
+ government
+
+
+investigation
+ released
+ [music]
+ showing
+
+
+how
+ AI
+ chatbots
+ could
+ be
+ used
+ to
+ plan
+
+
+mass
+ casualty
+ attacks.
+
+
+Over
+ the
+ course
+ of
+ testing,
+ researchers
+
+
+were
+ able
+ to
+ bypass
+ safety
+ restrictions
+
+
+in
+ four
+ chatbots,
+ prodding
+ them
+ to
+
+
+generate
+ information
+ that
+ could
+ be
+ used
+
+
+in
+ planning
+ either
+ violent
+ attacks
+ or
+
+
+attacks
+ on
+ the
+ country's
+ economic
+
+
+institutions.
+
+
+The
+ report
+ from
+ the
+ Government
+
+
+Accountability
+ Office
+ involved
+ ChatGPT,
+
+
+Claude,
+ Gemini,
+ and
+ Grok.
+
+
+Two
+ of
+ the
+ models
+ generated
+ results
+ that
+
+
+could
+ be
+ used
+ to
+ build
+ or
+ detonate
+ an
+
+
+IED.
+ And
+ in
+ another
+ test,
+ two
+ models
+
+
+generated
+ information
+ that
+ would
+ help
+
+
+target
+ the
+ electrical
+ grid.
+ At
+ some
+
+
+points,
+ they
+ supplied
+ dates
+ and
+ times
+ of
+
+
+when
+ to
+ carry
+ out
+ an attack
+ and
+ guides
+
+
+to
+ maximize
+ damage.
+
+
+The
+ report
+ didn't
+ specify
+ which
+ models
+
+
+passed
+ or
+ failed
+ the
+ specific
+ tests
+
+
+because
+ they
+ didn't
+ want
+ their
+
+
+experiments
+ to
+ be
+ recreated.
+
+
+The
+ companies
+ behind
+ the
+ chatbots,
+
+
+Anthropic,
+ Google,
+ OpenAI,
+ and
+ SpaceX
+
+
+AI,
+ all
+ responded
+ to
+ the
+ report
+ saying
+
+
+they
+ had
+ made
+ improvements
+ to
+ prevent
+
+
+misuse
+ in
+ their
+ more
+ recent
+ models.
+
+
+The
+ senator
+ who
+ commissioned
+ the
+
+
+government
+ report,
+ Maggie
+ Hassan,
+ a
+
+
+Democrat
+ from
+ New
+ Hampshire,
+ said
+ she
+
+
+plans
+ to
+ hold
+ hearings
+ early
+ next
+ year
+
+
+examining
+ the
+ security
+ risks
+ posed
+ by
+ AI
+
+
+with
+ the
+ goal
+ of
+ developing
+ legal
+
+
+guardrails.
+
+
+[music]
+
+
+Last
+ night,
+ the
+ final
+ outstanding
+ Senate
+
+
+race
+ of
+ the
+ midterms
+ was
+ called
+ with
+
+
+Democrats
+ notching
+ a
+ victory
+ in
+ Alaska.
+
+
+According
+ to
+ the
+ Associated
+ Press,
+ Mary
+
+
+Peltola
+ flipped
+ the
+ seat
+ in
+ the
+
+
+conservative
+ state
+ blue.
+
+
+The
+ race
+ had
+ been
+ closely
+ watched
+ in
+
+
+part
+ because
+ of
+ a controversy
+
+
+surrounding
+ who
+ ended
+ up
+ on
+ the
+ ballot.
+
+
+The
+ Times
+ reported
+ that
+ Democrats
+
+
+recruited
+ a
+ candidate
+ with
+ almost
+ the
+
+
+exact
+ same
+ name
+ as
+ Peltola's
+ Republican
+
+
+opponent
+ in
+ an
+ effort
+ to try
+ and
+ peel
+
+
+off
+ votes.
+ There's
+ a
+ long
+ history
+ of
+
+
+ballot
+ stacking
+ in
+ the
+ US,
+ which
+ is
+ not
+
+
+illegal,
+ but
+ it
+ drew
+ outrage
+ from
+
+
+Republicans.
+ In
+ the
+ end,
+ Peltola
+ appears
+
+
+to
+ have
+ won
+ by
+ roughly
+ 13,000
+ votes.
+ The
+
+
+spoiler
+ candidate
+ the
+ Democrats
+
+
+recruited
+ got
+ just
+ under
+ 5,000.
+
+
+Her
+ win
+ brings
+ Democrats'
+ majority
+ in
+
+
+the
+ Senate
+ to
+ 56,
+ and
+ the party's
+ margin
+
+
+in
+ the
+ House
+ also
+ ticked
+ up
+ this
+ week
+ to
+
+
+257
+ with
+ a
+ few
+ races
+ still
+ to
+ be
+ called.
+
+
+In
+ a
+ stunning
+ setback
+ for
+ public
+ health,
+
+
+the
+ US
+ has
+ officially
+ lost
+ its
+ measles
+
+
+elimination
+ status.
+ That
+ status
+ is
+
+
+decided
+ by
+ the
+ Pan
+ American
+ Health
+
+
+Organization,
+ which
+ announced
+ the
+
+
+ominous
+ milestone
+ yesterday.
+
+
+Its
+ official
+ metric
+ is
+ when
+ the
+ highly
+
+
+contagious
+ virus
+ has
+ been
+ spreading
+ in
+ a
+
+
+country
+ for
+ more
+ than
+ a year
+
+
+uninterrupted.
+
+
+Over
+ the
+ course
+ of
+ the
+ recent
+ US
+
+
+outbreaks,
+ which
+ started
+ in
+ January
+
+
+2025,
+
+
+10
+ people
+ have
+ died
+ and
+ hundreds
+ of
+
+
+people
+ have
+ been
+ hospitalized,
+ many
+ of
+
+
+them
+ children.
+
+
+>> Some
+ critics
+ say
+ that
+ the
+ loss
+ of
+ the
+
+
+measles
+ elimination
+ status
+ is
+ a
+
+
+referendum
+ on
+ Robert
+ F.
+ Kennedy
+ Jr.
+ and
+
+
+his
+ health
+ policies
+ because
+ the
+ two
+
+
+worst
+ years
+ of
+ measles
+ outbreaks
+ have
+
+
+coincided
+ precisely
+ with
+ his
+ tenure
+ as
+
+
+health
+ secretary.
+
+
+>> My
+ colleague
+ Apoorva
+ Mandavilli
+ reports
+
+
+on
+ public
+ health.
+
+
+She
+ says
+ Kennedy
+ has
+ at
+ times
+ mocked
+ the
+
+
+threat
+ of
+ measles,
+ promoted
+ unproven
+
+
+treatments,
+ and
+ undermined
+ confidence
+ in
+
+
+childhood
+ vaccines.
+
+
+>> Mr.
+ Kennedy
+ has
+ pointed
+ out
+ that
+ other
+
+
+countries
+ have
+ also
+ lost
+ their
+ measles
+
+
+elimination
+ status,
+ and
+ he
+ is
+ right
+
+
+about
+ that.
+ But
+ the
+ experts
+ I
+ talk
+ to
+
+
+point
+ out
+ that
+ the
+ CDC
+ is
+ not
+ taking
+
+
+anywhere
+ near
+ the
+ kind
+ of
+ measures
+ you
+
+
+would
+ normally
+ expect
+ it
+ to
+ when
+ there
+
+
+are outbreaks
+ like
+ this.
+ In
+ a
+ situation
+
+
+like
+ this,
+ you
+ would
+ expect
+ to
+ see
+ the
+
+
+CDC
+ director
+ talking
+ often
+ and
+ loudly
+
+
+about
+ the
+ importance
+ of
+ vaccination,
+ and
+
+
+you
+ would
+ expect
+ to
+ see
+ outreaches
+ to
+
+
+communities
+ to
+ increase
+ vaccinations,
+
+
+but
+ we've
+ seen
+ very
+ little
+ of
+ that.
+ If
+
+
+anything,
+ the CDC
+ has
+ been
+ engaging
+ in
+
+
+fights
+ with
+ some
+ states
+ over
+ how
+ to
+
+
+define
+ a
+ measles
+ death
+ and
+ has
+ not
+ yet
+
+
+fully
+ acknowledged
+ all
+ of
+ the
+ deaths
+
+
+that
+ states
+ have
+ reported.
+
+
+>> Apoorva
+ says
+ that
+ according
+ to
+ public
+
+
+health
+ experts,
+ the
+ US
+ has
+ to
+ go
+ back
+ to
+
+
+basics
+ if
+ it
+ wants
+ to
+ get
+ measles
+ under
+
+
+control.
+ That
+ means
+ getting
+ vaccination
+
+
+rates
+ back
+ up,
+ making
+ it
+ quicker
+ and
+
+
+easier
+ to
+ test
+ for
+ measles,
+ and
+ figuring
+
+
+out
+ how
+ to
+ improve
+ treatment
+ of
+ the
+
+
+disease.
+ Measles
+ has
+ been
+ so
+ rare
+ for
+ so
+
+
+long
+ that
+ many
+ doctors
+ have
+ no
+
+
+experience
+ with
+ it,
+ so
+ hospitals
+ and
+
+
+medical
+ organizations
+ are
+ now
+ scrambling
+
+
+to
+ train
+ their
+ staff.
+
+
+[music]
+
+
+And
+ finally,
+
+
+at
+ midnight
+ tonight,
+ millions
+ of
+ people
+
+
+will
+ boot
+ up
+ their
+ PlayStations
+ and
+
+
+Xboxes
+ for
+ what
+ is
+ expected
+ to
+ be
+ the
+
+
+biggest
+ entertainment
+ release
+ of
+ the
+
+
+year.
+
+
+>> Going
+ to
+ do
+ this
+ [music]
+ we're
+ doing
+ it
+
+
+right.
+
+
+>> Grand
+ Theft
+ Auto
+ VI.
+
+
+It's
+ the
+ latest
+ installment
+ of
+ the
+ video
+
+
+game
+ franchise
+ that
+ is
+ both
+ loved
+ and
+
+
+hated
+ for
+ its
+ steal
+ a
+ car,
+ rob
+ a
+ bank,
+
+
+do
+ whatever
+ you
+ want
+ to
+ do
+ style
+ play.
+
+
+>> Friday
+ morning
+ [music]
+ bank
+ robbery,
+
+
+come
+ on.
+
+
+>> In
+ GTA,
+ as
+ it's
+ known,
+ the
+ world
+ is
+ your
+
+
+crime-ridden
+ oyster.
+
+
+Already,
+ more
+ than
+ 15
+ million
+ people
+
+
+have
+ pre-ordered
+ the
+ game,
+ according
+ to
+
+
+one
+ estimate,
+ and
+ some
+ think
+ it
+ could
+
+
+bring
+ in
+ as
+ much
+ as
+ $2
+ billion
+ by
+ the
+
+
+end
+ of
+ the
+ week,
+ topping
+ what
+ the
+
+
+Odyssey
+ has
+ earned
+ at
+ the box
+ office.
+
+
+Part
+ of
+ the
+ obsession
+ with
+ GTA
+ is
+ how
+
+
+unbelievably
+ realistic
+ it
+ is.
+ For
+ the
+
+
+new
+ release,
+ developers
+ spent
+ over
+ a
+
+
+decade
+ perfecting
+ a
+ fictionalized
+
+
+version
+ of
+ Miami
+ called
+ Vice
+ City.
+
+
+To get
+ it
+ right,
+ the
+ programmers
+ spent
+ a
+
+
+lot
+ of
+ time
+ in
+ South
+ Florida,
+ visiting
+
+
+race
+ tracks,
+ nightclubs,
+ gun
+ ranges,
+
+
+even
+ riding
+ along
+ with
+ real
+ police
+
+
+officers.
+
+
+No
+ detail
+ is
+ too
+ small.
+ In
+ the
+ game,
+ you
+
+
+can
+ overhear
+ strangers'
+ conversations
+ on
+
+
+the
+ street.
+ If
+ you
+ want
+ to
+ take
+ a
+ break
+
+
+from
+ your
+ life
+ of
+ crime,
+ you
+ can
+ walk
+ up
+
+
+to
+ a
+ random
+ newsstand,
+ pick
+ up
+ a
+
+
+magazine
+ and
+ actually
+ read
+ the
+ articles.
+
+
+Or
+ if
+ you're
+ the
+ type
+ of
+ bank
+ robber
+
+
+that
+ finds
+ birding
+ relaxing,
+ you
+ can
+
+
+apparently
+ log
+ 62
+ different
+ types
+ of
+
+
+bird
+ species
+ that
+ are
+ flying
+ around
+ the
+
+
+game.
+
+
+Put
+ it
+ all
+ together
+ and
+ you've
+ got
+ what
+
+
+is
+ probably
+ the
+ most
+ anticipated
+ video
+
+
+game
+ ever.
+
+
+The
+ last
+ installment
+ of
+ the
+ series
+ sold
+
+
+over
+ 200
+ million
+ copies.
+
+
+[music]
+
+
+Those
+ are the
+ headlines
+ on
+ the
+ Daily.
+
+
+What
+ to
+ know
+ ahead
+ of
+ tomorrow's
+
+
+blockbuster
+ Anthropic
+ IPO.
+ [music]
+
+
+>> It's
+ kind
+ of
+ a
+ bizarre
+ moment.
+ This
+
+
+company
+ is
+ out
+ there
+ warning
+ us
+ all
+
+
+about
+ the
+ dangers
+ of
+ [music]
+ the
+
+
+products
+ that
+ it's
+ making
+ while
+ also
+
+
+telling
+ Wall
+ Street,
+ hey,
+ we're
+ worth
+
+
+$1.4
+ trillion
+ or
+ more
+ and
+ you
+ should
+ buy
+
+
+our
+ stock.
+
+
+>> You
+ can
+ find
+ that
+ in
+ the
+ New
+ York
+ Times
+
+
+[music]
+ app
+ or
+ wherever
+ you get
+ your
+
+
+podcasts.
+ I'm
+ Tracy
+ Mumford.
+ We'll
+ be
+
+
+back
+ tomorrow.
+
+
+>> [music]
