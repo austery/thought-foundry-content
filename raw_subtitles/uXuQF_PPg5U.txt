@@ -1,0 +1,1309 @@
+- At the Lumière Place
+Casino in St. Louis,
+a man holds his phone
+up to a slot machine,
+and he records the spins on the screen.
+He played a few rounds.
+He won some, lost some,
+and then he got up and walked away.
+Five minutes later,
+he was back playing the same machine,
+but now he was winning on spin after spin.
+(machine chiming)
+(coins clattering)
+After less than an hour of gambling,
+he walked out of the casino
+roughly $10,000 richer.
+(dramatic music)
+At least 10 casinos across
+Missouri, Illinois, and California
+saw the same thing.
+Gamblers would play on a
+slot machine for a while
+and then leave, and minutes later,
+they would return and start winning.
+Investigators were brought in,
+but when they examined the slot machines,
+they all seemed to be working fine.
+So they turned their attention
+to the security footage,
+and they noticed something strange.
+When these players came back,
+they didn't play like normal gamblers.
+They'd hover their hand
+over the spin button, wait,
+and then press at oddly specific moments
+as if they knew when to press to win.
+And maybe that makes sense.
+Perhaps there's some way to
+predict what was coming next
+because the outcomes of
+those spinning wheels
+are actually decided by a
+computer inside the machine.
+Now gambling is a terrible idea,
+but the casino provides an ideal venue
+for investigating randomness,
+because theoretically, that computer
+uses a random number for every spin.
+So are those numbers actually random?
+Well, that seemingly simple question
+turns out to connect finding
+diamonds in Minecraft,
+to the development of the
+first nuclear weapons,
+to the security of the
+entire digital world.
+This is a video about
+the near impossibility
+of creating true randomness.
+Back in the 1940s,
+physicists discovered that chance
+plays a surprisingly important role
+in what happens inside a nuclear bomb.
+It works something like this.
+Take a core of uranium-235.
+When a neutron hits a U-235 nucleus,
+it can cause the nucleus to split,
+which releases energy
+and around two or three more neutrons.
+Now, if on average each split triggers
+more than one more split,
+you get a runaway chain reaction.
+(explosion roars)
+(ground rumbling)
+But whether that happens
+depends on the path those neutrons take.
+How far does each one travel
+before it hits a nucleus,
+or does it bounce off, or get absorbed,
+or does it cause another to split?
+By 1945, scientists working at Los Alamos
+had measured the odds of each
+of these events happening,
+but those odds changed
+depending on things like
+the neutron's speed and
+what it was passing through.
+And across trillions and
+trillions of neutrons,
+there were far too many possibilities
+to calculate one by one.
+(dramatic music)
+One of the mathematicians
+working on this problem
+was Stanislaw Ulam.
+But then one morning in January 1946,
+Ulam woke up and couldn't speak.
+It was encephalitis,
+an inflammation of the brain
+that nearly killed him.
+Luckily, he survived,
+but his recovery was slow.
+So he spent weeks in a hospital playing
+a lot of solitaire,
+and he started to wonder,
+"What are the chances of winning a game?"
+(light curious music)
+Now, at first, that might
+sound like a simple question,
+but a deck of 52 cards can be
+shuffled in 52 factorial ways,
+and that's about 8 times
+10 to the power of 67
+different arrangements.
+And every one of those shuffles
+is going to play out differently.
+Now, Ulam spent a lot of
+time trying to work out
+the answer to his question analytically,
+and he got nowhere.
+But then he had a much simpler idea.
+"I wondered whether a
+more practical method
+"might not be to lay
+it out, say, 100 times
+"and simply observe and count the number
+"of successful plays."
+That would give him some sort of
+statistical approximation of the answer.
+So say you win 8 games out of a 100.
+Well, then your overall chances of winning
+are probably around 8%.
+And that's when Ulam realized
+he could use exactly the same idea,
+but for neutrons.
+So instead of trying to calculate
+every possible path,
+he could just start
+with a hundred neutrons
+and use random numbers to simulate
+what would happen to each of them.
+So say a neutron hits an atom.
+If I roll a one, a two, or a three,
+it bounces off the nucleus.
+If I roll a four or a five,
+it causes the nucleus to split.
+And if I roll a six, it gets absorbed.
+And then I just follow what
+happens to that neutron
+and any other neutrons that it produces
+using more random numbers,
+and that will decide their fate.
+Now those are just example odds.
+In the real simulations,
+the scientists used probabilities
+they had already measured to decide
+which random numbers corresponded
+to which outcomes.
+And after each interaction,
+the neutron's speed
+or direction could also change.
+So for the next step,
+they'd used the probabilities
+for its new situation.
+So use another random number,
+and then they kept
+following what happened.
+And by repeating this process,
+they could see how all
+those interactions added up.
+If the number of neutrons keeps growing,
+the chain reaction takes off.
+But if more are lost than are produced,
+it fizzles out.
+So by simulating just a tiny
+fraction of the possible paths,
+Ulam could estimate how an
+entire nuclear chain reaction
+would behave.
+But doing all of these
+calculations by hand
+seemed impossible.
+Luckily, fellow mathematician
+and Los Alamos advisor John von Neumann
+had been working with one of the world's
+first electronic computers, the ENIAC.
+In March 1947,
+he worked out how it
+could follow 100 neutrons
+and their descendants through thousands
+of collisions in just five hours.
+But the ENIAC couldn't roll a die
+to decide what would happen to a neutron.
+At the time,
+when researchers needed random numbers,
+they used books of random
+digits like this one.
+And the ENIAC didn't
+have nearly enough memory
+to store all the random
+numbers it would need either.
+So von Neumann came up with
+a surprisingly simple way
+for the ENIAC to generate
+its own random numbers.
+Let's say I want to generate
+a bunch of random four digit numbers.
+So the way we're going to do this
+is I'm actually going to
+start by choosing one,
+which is called the seed.
+So let's try with 2,137.
+So what I'm going to do next is square it,
+and 2,137 squared is 4,566,769.
+Now I'm going to take the four
+middle digits of this number,
+but to do that first,
+I have to add a zero to the front
+because we initially had
+a seven digit number.
+I won't use the digits at the edges
+because they're actually more predictable.
+So the last two digits
+only depend on the end of the seed
+because 37 squared ends in 1,369.
+So anything ending in 37,
+squares to something ending in 69.
+So that's why we get
+rid of these guys here.
+Also, every seed in the
+2,100s is going to square
+to somewhere between 4.4 and 4.9 million.
+So they all start with a zero and a four,
+so we can get rid of that too.
+But the middle digits get a contribution
+from every digit in the seed.
+So 5,667 is going to be the
+next number in the sequence.
+So if we square that, we get 32,114,889.
+Now I disregard the two
+digits at either end,
+and you can just keep going.
+(upbeat music)
+Looking at these numbers,
+there's no obvious pattern,
+but watch what happens if I keep going.
+Starting from 2,137,
+after 43 steps, I get 4,100,
+then 8,100,
+and then 6,100,
+and then 2,100,
+and then 4,100 again.
+The sequence gets stuck in this loop.
+From here on, the generator will produce
+these same four numbers
+over and over forever,
+and nearly two-thirds
+of all four digit seeds
+end up in this exact loop.
+(dramatic music)
+Others end up at zero,
+and once they do every number
+that follows is also zero.
+Almost one in five starting
+values end up here.
+In fact, if you try every possible
+four digit starting value,
+every single sequence
+eventually gets stuck
+in one of just eight traps.
+Now, von Neumann knew that these traps
+were a serious problem.
+So for the first ENIAC simulation,
+the team actually used eight
+digit numbers, not four,
+so they produced much longer
+sequences before they looped.
+They also statistically
+tested the first 2,000 numbers
+for randomness by hand.
+Then rather than risk running
+into an unexpected loop,
+they programmed the ENIAC to
+restart from the original seed
+after it had got through
+these 2,000 numbers.
+And in the spring of 1948,
+the ENIAC finally ran the first
+computerized simulations
+of neutron behavior.
+Von Neumann wrote to Ulam,
+"The results are very promising,
+"and the method is
+clearly a 100% success."
+The approach became known
+as the Monte Carlo method,
+named after Monte Carlo, Monaco,
+where Ulam's uncle liked to gamble.
+Today, it's one of the
+most important tools
+in statistics and scientific computing.
+Now, this sequence of
+numbers isn't truly random.
+If you start with the same seed,
+you get exactly the same
+sequence every time.
+So they're called pseudorandom numbers,
+but that didn't actually
+stop them from being useful.
+As Monte Carlo spread beyond Los Alamos,
+so did this demand for
+pseudorandom numbers.
+Still, as von Neumann joked,
+"Anyone who considers arithmetical methods
+"of producing random digits is, of course,
+"in a state of sin."
+Because pseudorandom numbers
+came with three major challenges.
+One, sequences could get
+stuck in these short loops.
+Two, even sequences that looked
+random could hide patterns.
+And three, if someone knew the seed,
+they could work out every
+number that followed.
+They were predictable.
+- So, you got to show me how
+we get these diamonds then.
+- Yeah. All right.
+- This is Matthew Bolan,
+Minecraft expert and
+third-year PhD student
+in Mathematics at the
+University of Toronto.
+Well, I shall follow you, sir.
+If you haven't played Minecraft before,
+diamonds are a big deal.
+I don't know if I've ever
+made a full diamond set.
+- We're going to change that today.
+- Every Minecraft world
+is made up of chunks.
+They're segments 16 blocks
+wide in the X direction
+and 16 blocks in the Z direction.
+And in our version, each chunk originates
+at most a single vein of diamond ore
+that is hidden somewhere
+below the surface.
+(bright music)
+Okay, so what are we looking for?
+- So we are looking for either
+a clay patch or a gravel patch.
+What you do is you pull up your F3 screen.
+You locate which direction is positive Z.
+So in this case, that's this way.
+And what you do for clay, you add three.
+So here, this was the center,
+and we go one, two,
+three in the positive Z.
+And now, if we dig down here,
+unless it got blocked
+by bedrock or something,
+or there's like a cave down there
+where it couldn't spawn in,
+there will be diamond
+ore under this block.
+- Let's give it a shot.
+- All right.
+- Oh, no way.
+- Did you get anything?
+- I did. I got eight.
+- You got eight! Let's go!
+- I got eight. Oh, I'm a rich man.
+Thank you, Matthew.
+- Okay, okay.
+- In this version of
+Minecraft we're playing,
+the game uses an algorithm to generate
+the pseudorandom numbers that determine
+where resources like
+clay and diamonds appear.
+It works something like this.
+So I'm going to take a
+wheel with seven positions.
+It has numbers going
+from zero through to six.
+And what we're going to
+do is we'll start at one
+and then multiply by some number.
+In this case, say three.
+So one times three gives us three,
+so we move the arrow to three.
+Now, we multiply three by
+three again and we get nine,
+but there are only seven
+positions on this wheel,
+so we're going to have to wrap around.
+Essentially, what we're doing
+is dividing nine by seven,
+and that gives us a remainder of two.
+So we're going to wrap
+around and go to two.
+This kind of wrapping-around pattern
+is called modular arithmetic, or just mod.
+And now we keep going.
+So two times three is six.
+So we move to six.
+And then 6 times 3 is 18.
+If you divide 18 by 7,
+you get two with the remainder of four.
+So we get to four.
+Four times 3 is 12.
+The remainder after
+dividing by seven is five.
+Five times 3 is 15.
+And the remainder after
+dividing by seven is one.
+So what we've done is we've
+gone through every number
+except for zero before
+we started to repeat.
+The formula for this kind of
+algorithm looks like this.
+There's a simple linear relationship
+between the current number and the next,
+but the mod step keeps only the remainder
+after dividing by M.
+So instead of continuing
+up one straight line,
+the values wrap around,
+falling along these parallel diagonals.
+So it is a linear rule
+using modular arithmetic,
+also called congruences.
+So, these kinds of
+pseudorandom number generators
+got the name linear
+congruential generators,
+better known as LCGs.
+With much larger numbers,
+LCGs can produce enormously long
+sequences of numbers before they repeat.
+In the 1960s,
+IBM developed one called RANDU.
+It was included in IBM's
+scientific software
+and used in simulations of
+everything from radioactive decay
+to instruments aboard
+NASA's Skylab space station.
+And RANDU could generate over
+half a billion numbers before repeating,
+so at least that was
+one problem dealt with.
+But a long sequence doesn't
+necessarily mean a good one.
+Take a look at what happens if we take
+every three consecutive numbers
+and we plot them as coordinates
+in three-dimensional space, right?
+If the numbers behaved independently,
+we'd expect the points to fill the cube
+kind of in a fuzzy cloud.
+And from this angle,
+they certainly seem to,
+and from most angles they do.
+But if you rotate the cube
+in just the right way,
+you can see that they actually line up
+in these 15 rows throughout the cube.
+There are enormous gaps where
+RANDU will never place a point,
+and it turns out that that is just
+an unavoidable feature of all LCGs
+because of that linear relationship.
+The second number is
+calculated from the first
+and the third from the second
+using exactly the same rule.
+So all three numbers are
+linked by a linear equation.
+And in three dimensions,
+a linear equation describes a plane,
+and the mod step creates a
+series of parallel planes.
+RANDU's particular choice of numbers
+made that pattern especially obvious,
+but other LCGs are much better at this.
+In the 1990s, Java adopted
+one that adds a constant
+using a better multiplier
+and a much larger modulus.
+Its sequence takes over 281
+trillion steps before repeating.
+We can also plot its outputs the same way,
+and what we get is this.
+Now the planes are actually still there,
+but we can't see them
+because they're so closely packed together
+that the points more or less
+look like a random cloud.
+So that is problem two dealt with.
+(Gregor gasps)
+- Dude.
+- Occupational hazard.
+- This edition of
+Minecraft is coded in Java.
+So for most of the game's history,
+it used Java's LCG to
+determine the placement
+of resources in a given chunk.
+But when Minecraft generated
+different resources,
+it didn't use completely
+independent starting numbers.
+Instead, it took the same underlying seed
+and added a different fixed
+number for each resource.
+So for diamonds and river clay,
+those starting numbers
+differed by just three.
+Java then modified those
+seeds before using them,
+so the difference wasn't
+always three anymore,
+but in most worlds,
+it fell into one of a
+few predictable values.
+And because they went
+through the same LCG,
+the numbers used to choose
+their position were related.
+If you compare the results,
+the shared unknown part cancels out.
+So I didn't need to know the original seed
+of the Minecraft world.
+The location of the clay patch
+was enough to tell me where to look.
+Matthew has a great video on his channel
+that works through how
+this works in more detail.
+We've linked it in the description
+if you want to go check it out.
+(explosion rumbles)
+But there is a more fundamental problem.
+The outputs themselves can reveal
+enough information to
+predict what comes next.
+See, Java's LCG keeps
+track of an internal number
+that is made up of 48 binary digits,
+and this is what Java's LCG uses
+to generate the next
+number in the sequence.
+But when it generates an integer output,
+it actually reveals 32 of those digits,
+leaving just 16 hidden.
+And since it's binary,
+each can only be a zero or a one.
+So that's just 65,536 possible values.
+Now, maybe that sounds like a lot,
+but a computer can test them against
+the very next output of the generator,
+and only one matches.
+And then you know the full
+48-bit internal number,
+and once you know that,
+you can calculate every
+number that follows.
+And this is actually
+the same for all LCGs.
+They can produce incredibly long sequences
+with no obvious patterns,
+but their simple mathematical structure
+still makes them predictable.
+- Like LCGs, they're not good.
+They cause all sorts of problems.
+They're very exploitable.
+They're for when you
+have like a video game,
+and you just need
+something quick and dirty,
+and you're not too worried
+about people like me.
+- But I should point out
+that this trick doesn't
+actually work on the most
+recent versions of Minecraft.
+- Once I published this trick,
+it got patched out of
+the game very quickly.
+- Oh, no way.
+- I think a bug report was
+made in the version 1.18.
+What they did is they actually switched
+the random number generator
+that Minecraft uses to generate ores
+to a different random number generator
+that would not have the particular flaw
+we're exploiting here.
+- They changed the whole number generator.
+- Yeah, exactly.
+You can do the honors.
+- Okay, okay, okay.
+Let's see if I can remember.
+Uh...
+- (laughs) Oh, boy.
+- Okay, check this out.
+Here you go.
+Pants, boots,
+chest piece, helmet.
+(light upbeat music)
+The trick in Minecraft works
+because the developers chose to put
+this particular random number
+generator into the game,
+but it's a good reminder of
+how much the tools you use
+matter when you're building software.
+And that brings me to
+today's sponsor, Hostinger.
+Hostinger is an all-in-one platform
+for building, running, and
+growing businesses online.
+So whether you need a website
+or a web app or an online store,
+you can manage it all from one place,
+and you don't even have
+to know how to code.
+So for example, let's say
+I want to start a business
+selling all those hard-earned
+diamonds that I just mined.
+So I can just describe the
+website I want in plain English,
+and Hostinger's AI is going
+to build an initial version.
+And if I want to change something,
+I can just describe it,
+but that is just a starting point
+because I can also add my own custom code.
+Instead of having to build
+everything from scratch,
+I can just spend more
+time mining diamonds.
+Right now, Hostinger is
+doing Black Friday offers,
+and if you go to hostinger.com/veritasium,
+you can use code Veritasium
+for an additional 10% off.
+I want to thank Hostinger for sponsoring
+this part of the video,
+and now back to the casino,
+where gamblers were exploiting
+random number generators
+to win thousands of dollars.
+(faint background chatter)
+(light instrumental music)
+(machine chiming)
+On July 14, 2014,
+investigators detained one of the gamblers
+who had been repeatedly
+winning on slot machines
+across the U.S.
+- So when they picked these
+guys up in California,
+they were able to get one of the phones,
+and they were able to see that the video
+was actually being transmitted
+back to a server in Russia.
+- More specifically, a
+team in St. Petersburg,
+led by a hacker only known as Alex.
+Five years earlier,
+Russia actually banned
+most of its gambling,
+and thousands of slot
+machines were being sold off.
+So Alex got hold of some of these machines
+and started taking them apart.
+- There's a processing board,
+and then there's what
+they refer to as a SMIB,
+which was the slot
+machine interface board.
+Basically, the processing
+board is locked into the game.
+That comes with the machine.
+Once you have access to the device,
+it's just a matter of time
+before it's reverse engineered.
+- The thing is though,
+these machines weren't
+using an LCG like Java.
+They used a far more complicated
+random number generator.
+- A lot of them were using the same
+Mersenne Twister algorithm.
+- This algorithm still starts with a seed,
+but instead of using this
+to generate one number,
+it fills a table of 624 numbers.
+It then performs a
+calculation called a twist,
+combining the binary digits from different
+parts of the table to
+produce 624 new numbers.
+Then it takes the first
+number in this new table,
+runs it through another
+series of calculations,
+and it produces its first
+pseudorandom output.
+It does the same with the
+next number and the next
+until it has produced 624 outputs.
+Then it twists the whole table again
+and the process continues,
+and its sequence is huge.
+The number of steps before it repeats
+has more than 6,000 digits.
+But despite all that,
+every step still follow
+these fixed mathematical rules,
+and those were rules that Alex
+was actually able to work out
+by studying the software
+inside of his own machines.
+So when his team received videos
+of spins from casinos in the U.S.,
+they could work backwards,
+and they could compare them
+with their own machines,
+and predict when a winning
+spin was most likely.
+But inside the slot machines,
+the random number generator kept running
+even when nobody was playing,
+and the outcome depended
+on the number selected
+at the instant the player pressed spin.
+So the gamblers had to press
+at exactly the right time,
+but it takes a human roughly a
+quarter of a second to react.
+So Alex built that delay into the system.
+He created an app that made
+the gambler's phone vibrate
+a quarter of a second before
+they actually needed to press, and...
+(machine chiming)
+(coins clattering)
+Now, this trick didn't
+guarantee a win on every spin,
+but a four person team could reportedly
+take more than $250,000 in a week,
+so it was pretty effective.
+In the end, the four men who were caught
+as part of the scheme were charged
+with conspiracy to commit fraud.
+Three of them were sentenced
+to two years in prison,
+while one chose to cooperate with the FBI.
+Oh, but is it possible
+that people are still
+running this exploit in casinos still?
+- Yeah, I would be completely
+surprised if they weren't.
+- Oh, really?
+- Yeah.
+Yeah, there's a lot of those
+boxes that are still out there.
+- So ultimately, all of these
+generators fail at being
+unpredictable if you know
+enough about how they work
+and if you can study
+enough of their outputs.
+But we need random numbers
+for digital security.
+They're used to protect everything
+from our messages to our bank accounts,
+and if those numbers can be predicted,
+then that security can be compromised.
+So we went to the National Institute
+of Standards and Technology
+in Boulder, Colorado.
+NIST sets the standards for
+secure random number generation,
+but one team there is trying
+something even more ambitious.
+- So what we're trying to do is say,
+what's the best random number generator
+that nature allows you to build?
+- Yeah.
+- And that's a lot of
+what our work is here.
+- [Gregor] And that's what this is about.
+- Yep, this is what all
+of this experiment is
+to try to make the world's
+best random number generator.
+We really try to use physics and science
+to try to develop the best
+measurements possible,
+and then we use those measurements
+to develop standards.
+- And that includes the standards
+for generating random numbers
+for digital security,
+because for encryption,
+you need generators that are much harder
+to predict than the
+ones we've seen so far.
+So cryptographers have developed
+a different kind of generator.
+The idea behind them is pretty simple.
+Start with a string of numbers,
+say just one, two, three, four, and so on,
+and now you feed each of those numbers
+into an encryption algorithm.
+The algorithm scrambles
+them using a secret key,
+which is based on a large random number.
+Encryption transforms the inputs
+so thoroughly that without the key,
+the outputs look completely unrelated.
+In a way, that key plays
+the role of a seed.
+It's the one random
+number you need to start,
+and it decides every
+number that comes out.
+Where with Java, its outputs revealed
+most of its hidden state,
+and with the Mersenne Twister,
+even the extra steps hiding
+its outputs could be reversed.
+Here, even if you know exactly
+how the encryption works,
+and you've seen all
+its inputs and outputs,
+there's no practical way
+to recover the secret key.
+And guessing it isn't realistic either.
+A common key length is 128 bits,
+so that's 128 ones and zeros and over
+300 trillion, trillion,
+trillion possible keys.
+And without the key,
+predicting the next output,
+it's practically impossible.
+This is one of the ways that you can build
+a cryptographically secure
+pseudorandom number generator,
+and it solves our third
+problem, predictability.
+But where did that secret
+key actually come from?
+Because the algorithm can't
+create unpredictability
+from nothing on its own.
+It actually needs something
+random to start with.
+And for that, computers
+turn to the physical world.
+Many modern processors
+have built-in hardware
+random number generators that
+measure tiny fluctuations
+in electrical signals to provide
+those unpredictable seeds.
+One company in California, Cloudflare,
+even uses a whole wall of lava lamps
+to generate random seeds
+for its algorithms.
+So does that mean the problem is solved?
+Not exactly.
+If you take a coin toss,
+we normally think of this
+as a random event, heads or tails.
+Only under carefully
+controlled conditions,
+you can actually make the coin
+land heads every single time,
+and that's because a coin
+follows the laws of classical mechanics.
+So if you control exactly how it starts
+and how it's flipped,
+you can predict how it will
+land every single time.
+The French mathematician
+Pierre-Simon Laplace
+actually took this idea even further.
+He imagined an intelligence
+that knew the position
+and motion of every
+particle in the universe.
+So according to classical mechanics,
+it could calculate everything
+that would ever happen.
+- You know, I looked long
+and hard to try to figure out
+what is a good definition of randomness.
+And my definition of randomness
+is just something that nobody
+could have predicted in advance.
+And not just nobody,
+I don't mean just humans,
+but like anything in the universe.
+- [Gregor] So that's what Krister's team
+is trying to achieve,
+not just to generate
+numbers that seem random,
+but to prove that they are
+genuinely unpredictable.
+- We don't want to do seeds at all,
+and we don't want to do algorithms at all.
+- So they've turned to quantum mechanics
+because some quantum measurement outcomes
+are fundamentally unpredictable.
+- So on this setup right here,
+we start with a very bright
+laser, a very intense laser.
+You're generating about a hundred million
+of these pulses per second,
+and this pulse of light comes in
+and interacts with this crystal here.
+What can happen is the interaction
+of this light with this crystal,
+sometimes one of our photons
+will interact with it
+and fission into what we call
+a pair of daughter photons.
+(light dramatic music)
+- [Gregor] Now, each photon
+has a property called polarization,
+which corresponds to the direction
+in which light's electric
+field oscillates.
+And the researchers have
+arranged the experiment
+so that the pair can be
+produced with both photons
+polarized either horizontally
+or both vertically,
+but there's no way to distinguish which.
+So the photons end up in
+a quantum superposition
+of both possibilities.
+- This is very much like a
+Schrödinger's cat-type state,
+but it extended to two particles,
+and now it's like they're kind of
+both of those at the same time.
+- [Gregor] The photons
+share a quantum state
+no matter where in the universe they are.
+In other words, they are entangled.
+And this means that when we measure both,
+the results are correlated.
+But first, they need to send the photons
+to two separate measurement stations,
+and that means they
+have to get each photon
+into an optical fiber.
+- The really hard part is
+these fiber cables right here.
+The actual fiber optic cable
+inside, you can't see it.
+It's only about 10 microns in diameter.
+And to put that in context,
+that's about one-tenth the diameter
+or width of a human hair.
+So it's a very, very tiny target.
+And what we have to do is
+what I like to call quantum archery.
+So, you know, I think about Robin Hood
+and the fact that, you know,
+he could kind of pull back
+and shoot an arrow and hit a
+target dead in the bullseye.
+And then he can keep shooting arrows
+and keep splitting the
+center of the arrow.
+We're doing a version of that
+where now Robin Hood has two targets,
+and he has a single bow.
+And he has to shoot two arrows at a time,
+and yet he's able to continually
+keep splitting these two targets.
+- [Gregor] Into these 10-micron holes.
+- [Krister] Into these 10-micron holes.
+- The photons then arrive
+at two measurement stations
+110 meters apart.
+This means that even a signal
+traveling at the speed of light
+can't get from one to the other
+in time to impact the measurement.
+Now, at each station,
+the researchers measure
+the photon's polarization,
+but they can choose between two
+different angles to measure it at.
+And each station chooses
+its angle at random
+just before the photon arrives.
+What sort of result are
+you getting here and there
+that gives you that ultimate
+final random number?
+- I either detect a photon or I don't.
+- Okay.
+A detection gives us a one.
+No detection gives us a zero.
+But wait, they're using random numbers
+to choose the measurements
+in an experiment
+that is designed to
+generate random numbers.
+It doesn't make sense.
+- How are these guys random
+if they don't use the whole setup?
+- So you know, it takes
+randomness to make randomness.
+You just need pretty good randomness.
+And this whole setup is a way to kind of
+purify or take, you know,
+what is pretty good randomness
+and turn it into something that is like
+certifiably like really good randomness.
+- The first numbers choose
+which measurements to perform,
+but the numbers NIST wants to
+certify are the zeros and ones
+coming out of the detectors.
+Because each station has two
+possible measurement angles,
+there are four possible
+combinations of measurements.
+Now, if the photons were
+simply carrying predetermined
+answers for every possible measurement,
+there's a mathematical
+limit to how strongly
+the results from the two
+stations could be correlated.
+But when the researchers
+compare the results,
+the correlations exceed that limit.
+This is called a violation
+of Bell's inequality.
+We actually made an entire
+video about Bell tests,
+and it goes much deeper into the topic.
+So we've linked it in the description
+if you want to find out
+more about how this works.
+Because the measurement
+choices are independent
+and that the stations can't communicate
+during the measurements,
+that means the photons'
+results can't be explained
+by any kind of locally
+predetermined outcome.
+So the experiment is actually testing
+whether those numbers contain
+genuine unpredictability.
+But there are other potential loopholes.
+- The one that my own
+group got involved with
+was called the Freedom of Choice loophole.
+Said no one should be surprised
+if a student gets the quiz ahead of time,
+knows what questions she'll be asked,
+and then aces the quiz the next day.
+These particles, again to speak
+kind of anthropomorphically,
+shouldn't be allowed to know
+what questions they'll be posed
+before they reach their detectors.
+And that goes back to
+randomness really at its core.
+Can you really be confident that
+the selection of measurements to perform
+had no kind of correlations ahead of time?
+- [Gregor] There are
+a few ways to do this,
+but David Kaiser and his
+collaborators came up with this.
+- What we wanted to do was
+turn the universe itself
+into a pair of random number generators.
+- [Gregor] They pointed two telescopes
+at distant quasars on
+opposite sides of the sky
+and used the wavelengths
+from individual photons
+arriving from each of the quasars
+to choose which measurements to perform.
+Now, that light had been
+traveling for billions of years,
+from regions of the universe that hadn't
+been able to communicate with each other
+since nearly the Big Bang.
+And assuming no one had
+interfered with the light,
+any hidden coordination
+between the measurement choices
+and the results would have had to happen
+billions of years ago.
+Now, this didn't completely
+eliminate the loophole,
+but it pushed that possibility
+much further back in time.
+David's team were investigating
+whether some hidden explanation
+could account for the results,
+but NIST has to consider something else.
+- If I was a hacker, how
+would I attack the system?
+What would I do?
+- [Gregor] In principle,
+two people working together
+could shine their own light
+into those telescopes,
+and control which
+measurements are selected
+and potentially rig the results.
+So NIST has to keep the
+random number generators
+used to choose its measurements
+physically protected from
+outside interference.
+They can't rely on quasar light for that.
+That makes it much harder for
+someone to hack the system,
+but that doesn't prove their choices
+are independent of the
+devices being tested.
+NIST still has to assume that,
+along with the impossibility
+of faster-than-light signaling,
+accurate timing and distance measurements,
+and faithful, secure
+recording of the results.
+If those assumptions hold,
+then the Bell test can certify
+how much genuine unpredictability
+the detector outputs contain.
+- If we use entanglement,
+you can do these types of measurements,
+and you can show that there's nothing
+that could have predicted
+what's happening in advance.
+- [Gregor] But the raw
+measurements aren't necessarily
+an even mixture of ones and zeros.
+There might be far more zeros than ones.
+The Bell test tells the researchers
+how much unpredictability is present
+across millions of measurements,
+but it doesn't give them a neat sequence
+of evenly balanced,
+independent, random bits.
+So they need a way to get
+that unpredictability out.
+The basic idea is similar to
+the one von Neumann proposed
+in the same 1951 paper as
+his "state of sin" joke.
+You flip a coin twice.
+If you get heads, then
+tails, you call that a zero.
+And if you get tails, and then
+heads, you call that a one.
+And if both flips match, then
+you just throw them away.
+Even if the coin is biased,
+as long as the flips are independent
+and the bias doesn't change,
+heads-tails and tails-heads
+are equally likely.
+So what's left is perfectly fair.
+You just end up with a shorter sequence.
+Now, NIST's technique
+is far more powerful,
+but the basic idea is similar.
+The Bell test certifies
+at least 820 bits worth
+of unpredictability in
+the raw measurements.
+And then using a mathematical technique
+called randomness extraction,
+the researchers concentrate
+that down to just 512 bits.
+- Every one of the
+measurements that we make
+contributes to every bit.
+- And unlike the random numbers
+that we've seen throughout the video,
+these aren't just difficult to predict.
+Their unpredictability
+can actually be certified.
+So this is the closest
+you can get to random.
+- Albert Einstein, his argument was,
+"God does not play dice
+with the universe."
+That's this famous Einstein quote.
+And Einstein was wrong about that.
+In fact, these experiments
+that we do here show that really,
+you know, this predictable nature,
+this kind of deterministic worldview
+that we have in classical
+physics that Einstein espoused,
+really is incompatible
+with quantum mechanics.
+So if God does play
+dice with the universe,
+then what do those dice look like?
+And it's this experiment.
+You know, this is like God's
+dice that we're throwing.
+This is the most random source
+of entropy you can generate.
+- So God's dice are not loaded.
+- "God's dice are not loaded," exactly.
+Yeah, so this is something that, you know,
+nothing in the universe could
+have predicted in advance.
+- Together with the University
+of Colorado Boulder,
+NIST actually publishes
+this on random.colorado.edu,
+along with the information
+that you need to trace
+and verify how the numbers were generated.
+So you can go and use them if you want.
+These numbers have been shared,
+and I can really use the
+bits that are generated here
+to choose whether I'm wearing,
+I don't know, a green or a red sweater,
+and I'll be using these
+entangled photons to do so.
+- And I'm colorblind, so
+it'll look the same to me
+if you wear a red and green sweater,
+but producing the
+randomness was really hard.
+It takes a lot of equipment.
+You've seen that today.
+We've figured out this process
+of how we actually interconnect and weave
+these different systems together,
+and these different beacons together.
+And sources of randomness
+can kind of actually form a
+layer of additional security.
+So yeah, I guess the thing
+that we hope to randomize
+is the internet.
+- That's awesome.
+- That's my ultimate dream is, you know,
+can we just make everything more secure?
+(computer chirping)
+- Okay, one last thing.
+Last year we launched the
+official Veritasium trivia game.
+It's called Elements of Truth.
+It's a game with 200 questions
+about science and technology,
+but it's not just about
+getting the answer right.
+See there's a confidence
+mechanic in the game
+where you have to put down a point
+between 1 and 10 on your answer.
+So even if you do get the question right,
+you may lose out on points
+if you're doubting yourself.
+The team has been play testing
+this when we get together,
+and it has been super fun.
+If you missed the Kickstarter,
+I'm so excited to announce
+that it's now available.
+If you're interested, we put
+a link in the description
+to the Elements of Truth website.
+So thank you for supporting this project,
+and as always, thanks for watching.
+- [Matthew] And the way
+that it works is that...
+(man groans)
+(Matthew and Gregor laughing)
+- No.
+- No.
+- [Gregor] Come out, come up here.
+(laughs) No.
+- [Matthew] I don't think I should die.
+I don't think I should die.
+I don't think I should die.
+I'll be fine.
