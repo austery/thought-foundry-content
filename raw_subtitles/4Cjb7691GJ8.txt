@@ -1,0 +1,25168 @@
+Our
+ AI
+ cost
+ mine
+ alone
+ would
+ be
+ 250
+ K
+ a
+
+
+month,
+ 275
+ K
+ something
+ like
+ that.
+
+
+>> Wow,
+ you're
+ really
+ stunning
+ us.
+
+
+>> Yes,
+ I mean
+ that's
+ just
+ me
+ alone.
+ Humans
+
+
+can
+ make
+ lot
+ more
+ decisions
+ in
+ a
+ day
+ to
+
+
+drive
+ millions
+ of
+ dollars
+ spent.
+ This
+
+
+might
+ be
+ a
+ hot
+ take,
+ but
+ humans
+ were
+
+
+writing
+ slop,
+ not
+ AI.
+ That's
+ what
+ I'm
+
+
+realizing.
+ AI
+ is
+ actually
+ writing
+ less
+
+
+slop
+ at
+ this
+ point
+ if
+ it can
+ validate
+
+
+against
+ something.
+
+
+>> So
+ you're
+ saying
+ that
+ in
+ the
+ past
+ most
+
+
+teams
+ would
+ [music]
+ ship
+ kind
+ of
+ slop
+ or
+
+
+low
+ quality
+ stuff
+ when
+ we
+ didn't
+
+
+validate
+ it.
+
+
+>> Yes,
+ we
+ are
+ seeing
+ less
+ defects,
+ not
+
+
+more
+ actually
+ as
+ the
+ velocity
+ is
+ going
+
+
+up.
+
+
+>> So
+ you
+ are
+ hiring
+ and
+ you
+ said
+ there's
+ a
+
+
+cave
+ beat.
+ The person
+ who
+ applies
+ must
+
+
+meet
+ one
+ of
+ the
+ following
+ two
+ criteria
+
+
+to
+ join.
+ Either
+ it
+ has
+ tastefully
+
+
+shipped
+ at
+ least
+ 1,000
+ PRs
+ in
+ the
+ last
+
+
+30
+ days
+ or
+ has
+ played
+ at
+ least
+ 500
+ hours
+
+
+of
+ simulation
+ games
+ such
+ as
+
+
+Civilization,
+ Factorio,
+ etc.
+
+
+>> If
+ people
+ have
+ grown
+ playing
+ strategy
+
+
+games,
+ I
+ think
+ they
+ will
+ be
+ very
+
+
+successful
+ with
+ these
+ agents
+ right
+ now.
+
+
+>> What
+ does
+ it
+ look
+ like
+ when a
+ startup
+
+
+CEO
+ [music]
+ merges
+ 5,000
+ pull
+ requests
+
+
+in
+ a
+ single
+ month
+ thanks
+ to
+ going
+ all
+ in
+
+
+on
+ AI
+ agents
+ and
+ software
+ factories?
+
+
+This
+ CEO
+ is
+ Harjit
+ Gill,
+ heading
+ up
+ Cold
+
+
+Rabbit,
+ the
+ AI
+ code
+ review
+ startup.
+
+
+Harjit
+ had
+ been
+ writing
+ code
+ for
+ 30
+
+
+years,
+ is
+ on
+ his
+ third
+ startup
+ and
+ never
+
+
+shipped
+ as
+ much
+ as
+ he does
+ now.
+ Today
+ we
+
+
+have
+ her
+ why
+ Harjit
+ says
+ human
+ code
+
+
+review
+ is
+ dead,
+ but
+ AI
+ code
+ reviews
+ are
+
+
+more
+ important
+ than
+ ever.
+
+
+The
+ concept
+ of
+ driving
+ license
+ for
+
+
+engineers,
+ how
+ devs
+ at
+ his
+ company
+ lose
+
+
+their
+ right
+ to
+ ship
+ to
+ prod
+ if
+ they
+ ship
+
+
+too
+ many
+ bugs.
+ His
+ spicy
+ take
+ that
+ $8
+
+
+million
+ seed
+ rounds
+ are
+ no
+ longer
+ enough
+
+
+to
+ build
+ a software
+ startup
+ and
+ me
+
+
+pushing
+ back
+ on
+ it
+ and
+ many
+ more.
+ If
+ you
+
+
+want
+ an
+ unfiltered
+ look
+ on
+ how
+ a truly
+
+
+AI
+ pill
+ founder
+ slash
+ software
+ engineer
+
+
+operates
+ who
+ [music]
+ is
+ extremely
+ hands
+
+
+on
+ with
+ AI,
+ this
+ episode
+ is
+ for
+ you.
+
+
+And
+ while
+ I
+ am
+ nowhere
+ near
+ this
+ AI
+ pill
+
+
+as
+ Harjit,
+ I
+ found
+ it
+ educational
+ to
+
+
+understand
+ his
+ thinking
+ and
+ his
+ views
+ on
+
+
+the
+ dev
+ tools
+ industry
+ where
+ competition
+
+
+feels
+ more
+ intense
+ than
+ ever
+ before.
+
+
+This
+ episode
+ is
+ presented
+ by
+ Turbo
+
+
+Buffer
+ and
+ I
+ want
+ to
+ show
+ you
+ the
+ new
+
+
+and
+ improved
+ the
+ pragmatic
+ engineer
+
+
+search
+ at
+ pragmaticengineer.com/search
+
+
+that
+ I
+ built
+ on
+ top
+ of
+ it.
+ I
+ was
+
+
+frustrated
+ with
+ Substack
+ search,
+ how
+
+
+their
+ search
+ was
+ keyword
+
+
+and
+ I
+ couldn't
+ do
+ a
+ search
+ like
+ the
+
+
+article
+ where
+ me
+ and
+ Ken
+ Beck
+ made
+ a
+ fun
+
+
+of
+ a big
+ consultancy.
+ I'm
+ obviously
+
+
+looking
+ for
+ the
+ piece
+ about
+ McKenzie,
+
+
+but
+ Substack
+ cannot
+ find
+ it
+ for
+ the
+ life
+
+
+of
+ it.
+ So
+ I
+ decided
+ to
+ build
+ a
+ search
+
+
+that
+ I
+ needed.
+
+
+I
+ did
+ the
+ whole
+ thing
+ from
+ idea
+ to
+
+
+deployment
+ in
+ 3
+ hours
+ with
+ Codex
+ and
+
+
+Turbo
+ Buffer
+ with
+ T
+ Puff
+ doing
+ the
+ heavy
+
+
+lifting.
+
+
+I
+ dumped
+ all
+ my
+ articles
+ into
+ Turbo
+
+
+Buffer.
+ It
+ handles
+ creating
+ embeddings
+
+
+and
+ getting
+ full
+ text
+ search
+ working.
+
+
+The
+ result
+ is
+ a
+ much
+ better
+ search
+ than
+
+
+what
+ Substack
+ has.
+ Check
+ it
+ out
+ for
+
+
+yourself
+ at
+
+
+pragmaticengineer.com/search.
+
+
+But
+ let's
+ think
+ bigger.
+ What
+ would
+ it
+
+
+take
+ for
+ Substack
+ to
+ give
+ every
+ single
+
+
+publication
+ this
+ kind
+ of
+ advanced
+
+
+search?
+ With
+ most
+ other
+ search
+ systems,
+
+
+you
+ would
+ need
+ to
+ create
+ a
+ bunch
+ of
+
+
+shards
+ and
+ it
+ would
+ be
+ expensive
+ to
+
+
+operate
+ the
+ search
+ indexes.
+ But
+ with
+
+
+Turbo
+ Buffer,
+ each
+ publication
+ is
+ simply
+
+
+a
+ namespace.
+ I
+ don't
+ namespaces
+ live
+ in
+
+
+object
+ storage
+ which
+ has
+ no
+ compute
+
+
+cost.
+ Active
+ ones
+ are
+ pulled
+ into
+ NVMe
+
+
+and
+ memory
+ caching
+ tiers,
+ so
+ they
+ are
+
+
+served
+ very
+ fast.
+ And
+ this
+ is
+ how
+ Turbo
+
+
+Buffer
+ can
+ scale
+ to
+ hundreds
+ of
+ millions
+
+
+of
+ namespaces
+ and
+ why
+ multi-tenant
+ AI
+
+
+products
+ at
+ companies
+ like
+ Ramp,
+ Harvey,
+
+
+and
+ Notion
+ are
+ built
+ on
+ top
+ of
+ it.
+ With
+
+
+Turbo
+ Buffer,
+ you
+ really
+ do
+ get
+ the
+ best
+
+
+of
+ all
+ worlds,
+ ridiculous
+ scale,
+ low
+
+
+latency,
+ and
+ cheap
+ operating
+ costs.
+
+
+Whether
+ you're
+ building
+ a
+ side
+ project
+
+
+like
+ I
+ did
+ or
+ a
+ platform
+ with
+ millions
+
+
+of accounts,
+ check
+ it
+ out
+ at
+
+
+turbobuffer.com/pragmatic.
+
+
+Harjpt,
+ welcome
+ to the
+ podcast.
+
+
+>> Hey,
+ thanks
+ for
+ having
+ me
+ here.
+
+
+>> It's
+ great
+ to
+ have
+ you
+ here.
+ This
+ is
+
+
+your
+ pull
+ requests
+ per
+ month
+ like
+ the
+
+
+last
+ month,
+ it
+ was
+ more
+ than
+ 5,000
+ pull
+
+
+requests.
+
+
+>> That's
+ right.
+ That's
+ right.
+
+
+>> How?
+
+
+How?
+
+
+>> [laughter]
+
+
+>> At
+ this
+ point,
+ like
+ it's
+ like
+ really
+
+
+machines
+ are
+ building
+ machines
+ like
+ I
+
+
+mean
+ just
+ good
+ at
+ keeping
+ the
+ agents
+
+
+busy
+ at
+ this
+ time
+ I
+ would
+ say.
+
+
+>> What
+ are
+ these
+ pull
+ requests
+ doing?
+ When
+
+
+are
+ you
+ building
+ it
+ because
+ you
+ know
+
+
+like
+ you
+ will
+ you
+ will
+ have
+ a
+ lot
+ of
+
+
+responsibility
+ and
+ time
+ spent
+ just
+
+
+running
+ the
+ company,
+ I guess
+
+
+coordinating
+ with
+ people,
+ pulled
+ into
+
+
+fires,
+ the
+ usual
+ stuff,
+ right?
+
+
+>> Yeah,
+ I mean
+ it's
+ all
+ started
+ like
+ I
+
+
+think
+ when
+ the
+ models
+
+
+I
+ would
+ say
+ Pi
+ 3
+ Codex
+ was
+ kind
+ of the
+
+
+first
+ inflection
+ we
+ started
+ seeing
+ these
+
+
+agents
+ getting
+ good
+ enough
+ to
+ do
+ like
+
+
+real
+ world
+ work
+ where
+ we
+ can
+ even
+ ship
+
+
+to
+ production.
+
+
+And
+ around
+ that
+ time
+ like
+ it
+ was
+ very
+
+
+clear
+ to
+ me
+ that
+ okay
+ we
+ have
+ been
+
+
+around
+ for
+ like
+ two
+ years
+ like
+ I
+ mean
+ so
+
+
+generative
+ AI
+ has
+ been
+ going
+ on
+ for
+ a
+
+
+while
+ but
+ last
+ three
+ or
+ four
+ months
+ were
+
+
+like
+ a
+ big
+ inflection
+ point.
+
+
+>> I
+ also
+ see
+ it
+ here
+ it
+ was
+ up
+ to
+ July
+ you
+
+
+had
+ like
+ I
+ don't
+ know
+ maybe
+ 100
+ or
+ 200
+
+
+max
+ and
+ then
+ it
+ went
+ to
+ more
+ than
+ 1,000
+
+
+in
+ July.
+
+
+>> was
+ just
+ something
+ else
+ and
+ you
+ wouldn't
+
+
+believe
+ like
+ everything
+ just
+ breaks
+ when
+
+
+you start
+ shipping
+ at
+ that
+ scale.
+
+
+So
+ as
+ a
+ leader
+ like
+ one
+ of
+ the
+ key
+
+
+things
+ that
+ I
+ keep
+ doing
+ is
+ like
+ how
+ do
+
+
+I
+ make
+ my
+ team
+ productive
+
+
+and
+ a lot
+ of
+ my
+ pull
+ requests
+ go
+ in
+ just
+
+
+fixing
+ some
+ bottleneck
+ in
+ our
+ SDLC
+ at
+
+
+this
+ time.
+
+
+I mean
+ of
+ course
+ I'm
+ doing
+ like
+ maybe
+
+
+one
+ or
+ two
+ tactical
+ features
+ where
+ I'm
+
+
+driving
+ the
+ agents
+ with
+ each
+ message
+ to
+
+
+craft
+ the
+ UI
+ or
+ something
+
+
+but
+ most
+ of
+ my
+ volume
+ of
+ the
+ code
+ will
+
+
+be
+ like
+ believe
+ it
+ or
+ not
+ fixing
+ things
+
+
+like
+ janitorial
+ work
+ like
+ fixing
+ CI
+
+
+or
+ flaky
+ tests
+ or
+
+
+building
+ some
+ like
+ distributed
+ system
+
+
+like
+ fixing
+ something
+ in
+ caching
+ or
+
+
+something
+ right.
+
+
+So
+ all
+ of
+ that
+ hill
+ climbing
+ is
+ what
+ I'm
+
+
+doing
+ with
+ these
+ pull
+ requests.
+
+
+Right
+ now
+ it's
+ very
+ not
+ very
+ optimal
+ I
+
+
+would
+ say
+ that
+ number
+ should
+ probably
+
+
+like
+ be
+ 10x
+ of
+ where
+ it
+ is
+ we
+ have
+ we're
+
+
+not
+ even
+ hitting
+ the
+ peak
+ here
+ with
+ what
+
+
+these
+ agents
+ can
+ do.
+
+
+>> And
+ what
+ agents
+ or
+ what
+ tool
+ really
+
+
+kicked
+ this
+ off
+ around
+ I
+ see
+ I was
+ July
+
+
+August
+ was
+ was
+ was
+ this
+ Opus
+ was
+ this
+
+
+codex
+ was
+ it
+ something
+ else?
+
+
+>> yeah
+ both
+ the
+ model
+ providers
+ have
+ been
+
+
+like
+ in
+ lock
+ step
+ in
+ terms
+ of
+
+
+capabilities
+ so
+ a lot
+ of our
+ team
+
+
+members
+ use
+ Opus
+ 55
+ with
+ cloud
+ code
+ but
+
+
+I
+ personally
+ use
+ codex
+ I mean
+ have
+ been
+
+
+a big
+ fan
+ of
+ the
+ codex
+ desktop
+ app.
+
+
+Like
+ I've
+ been
+ like
+ coding
+ like
+ 30
+ years
+
+
+I've
+ done
+ three
+ startups
+ and
+ most
+ of
+ the
+
+
+time
+ I've
+ also
+ been
+ like
+ kind
+ of the
+ CTO
+
+
+hat
+ in
+ every
+ company
+ I've
+ been.
+
+
+And
+ I
+ have
+ been
+ in
+ Neo
+ Vim
+ person
+ I've
+
+
+been
+ been
+ a
+ code
+ editor
+ person
+ all of
+ my
+
+
+life
+ even
+ like
+ had
+ put
+ out
+ my
+ dot
+ files
+
+
+which
+ a
+ lot
+ of people
+ use
+
+
+but
+ now
+ we
+ are
+ in
+ a
+ different
+ zone
+
+
+altogether
+ I
+ have
+ not
+ been
+ in
+ a
+ code
+
+
+editor
+ since
+ I
+ shifted
+ to
+ codex
+ desktop
+
+
+app
+ it's
+ pretty
+ awesome.
+
+
+And
+ ever
+ since
+ then,
+ like
+ it's
+ been
+
+
+always
+ about
+ like
+ how
+ many
+ agents
+ can
+ I
+
+
+keep
+ busy
+ at
+ a time.
+ So
+ I'm actually
+ not
+
+
+sleeping
+ much.
+ That's
+ the other
+ side
+ of
+
+
+>> Mm.
+
+
+>> Like
+ you
+ get
+ all
+ these
+ anxiety
+ that
+ you
+
+
+have
+ to
+ really
+ um
+
+
+because
+ the
+ kind
+ of
+ value
+ you are
+
+
+creating,
+ I mean,
+ if
+ you
+ know
+ really
+
+
+what
+ to
+ build,
+ then
+ the kind
+ of
+ value
+
+
+you
+ are
+ creating
+ is
+ is
+ phenomenal.
+ Like
+
+
+I mean,
+ I've
+ never
+ seen
+ things
+ move
+ in
+
+
+such
+ a
+ compressed
+ time
+ frame
+ quickly
+
+
+within
+ the
+ companies.
+
+
+So it's
+ not
+ just
+ the volume
+ like
+ these
+
+
+are
+ not
+ like
+ just
+ some
+ silly
+ PRs.
+
+
+They're
+ like
+ actually
+ moving
+ the
+ needle
+
+
+forward
+ for
+ our
+ company.
+
+
+>> Okay,
+ you're
+ not
+ sleeping
+ much,
+ so
+ it's
+
+
+eating
+ into
+ your
+ your
+ nights
+ clearly.
+
+
+And
+ and
+ you're
+ running
+ the
+ agents
+ there
+
+
+with
+ mostly
+ with
+ Codex
+ and
+ and
+ some
+
+
+other
+ tools.
+
+
+But
+ when
+ you're
+ commuting,
+ you
+ know,
+ a
+
+
+lot
+ of
+ people
+ listen
+ to
+ podcasts
+ or
+ or
+
+
+music
+ or
+ just
+ drive
+ and
+ you have
+ a
+ cheat
+
+
+code
+ there,
+ right?
+
+
+>> Yeah,
+ so
+ I have
+ so
+ I
+ kind
+ of
+ live
+ in
+ the
+
+
+East
+ Bay
+ and
+ I
+ take
+ the
+ Bay
+ Bridge
+ on
+ my
+
+
+way
+ to
+ work
+ here.
+ And
+ I have
+ a
+ Tesla
+ FSD
+
+
+and
+ I
+ love
+ FSD.
+ I'm
+ like
+ roughly
+ 97%
+
+
+self-driving
+ on
+ FSD.
+ Like
+ pretty
+ much
+
+
+it's
+ like
+ driving
+ on
+ its
+ own.
+
+
+And
+ what
+ I do
+ is
+ like
+ and
+ and
+ FSD
+ has
+
+
+gotten
+ really
+ good.
+ Like
+ earlier
+ it used
+
+
+to
+ like
+ nudge
+ you
+ that
+ you have
+ to
+ hold
+
+
+the
+ steering
+ wheel
+ or
+ something,
+ but
+ now
+
+
+you
+ can
+ like
+ as
+ long
+ as
+ you're
+ like
+
+
+looking
+ at
+ the
+ road
+ every
+ few
+ minutes,
+
+
+it's
+ okay.
+ So
+ as
+ a
+ cheat
+ code,
+ what
+ I'm
+
+
+doing
+ here
+ on
+ this
+ side
+ is
+ like
+ I have
+
+
+got
+ my
+ laptop
+ with
+ the
+ Codex
+ session
+ and
+
+
+I'm
+ just
+ like
+ sending
+ the
+ instructions
+
+
+while
+ I'm
+ driving.
+ So
+ it's
+ kind
+ of
+ funny
+
+
+like
+ the
+ AI
+ is
+ driving
+ the
+ car
+ while
+
+
+like
+ another
+ AI
+ is
+ driving
+ the
+ company.
+
+
+>> Wow.
+
+
+>> Which
+ I'm
+ steering.
+
+
+>> It's
+ wild
+ that
+ we're
+ there,
+ right?
+ And
+
+
+also
+ I
+ assume,
+ you
+ know,
+ you
+ can
+ now
+
+
+talk
+ as
+ well
+ or
+
+
+like,
+ you
+ know,
+ there
+ there's
+ it's
+ it's
+
+
+Simon
+ Wilson
+ was
+ telling
+ me
+ how
+ I
+ think
+
+
+a
+ year
+ or
+ two
+ ago
+ he
+ was
+ already
+
+
+talking.
+ It's
+ it's
+ just
+ crazy
+ how
+
+
+different
+ hands
+ off
+ or
+ in
+ different
+
+
+areas
+ you
+ can
+ you can
+ just
+ use
+ AI
+ to
+
+
+like
+ build
+ stuff.
+
+
+>> Yeah,
+ that's
+ right.
+ Like
+ one
+ of
+ the
+
+
+things
+ with
+ companies
+ like
+ Code
+ Rabbit
+
+
+is
+ like
+ as
+ you
+ start
+ shipping
+ faster,
+
+
+every
+ part
+ of
+ your
+ business
+ also
+ have
+ to
+
+
+move
+ at
+ agentic
+ speeds.
+ Like
+ what
+ we
+ are
+
+
+finding
+ is
+ we're
+ shipping
+
+
+so
+ much
+ that
+ the
+ attention,
+ the
+
+
+marketing
+ has
+ become
+ a bottleneck.
+
+
+So
+ I
+ had
+ to
+ go
+ back
+ and
+ also
+ like
+
+
+refactor
+ the
+ marketing
+
+
+foundation
+ to
+ be
+ very
+ agentic,
+ which
+
+
+means
+ that
+ we
+ built
+ like
+ a separate
+
+
+repository.
+ We
+ call
+ it
+ the content
+
+
+studio.
+ All
+ our
+ slide
+ decks
+ are
+ now
+ in
+
+
+code,
+ HTML,
+ CSS.
+ We
+ built
+ a whole
+ portal
+
+
+to
+ like
+ share
+ those,
+ download
+ PDFs,
+ and
+
+
+so
+ on.
+ We
+ actually
+ are
+ running
+ even
+ ads
+
+
+through
+ code
+
+
+like
+ to
+ like
+ we
+ have
+ millions
+ of
+ dollars
+
+
+of
+ Google
+ Ad
+ Spend.
+
+
+And
+ the way
+ we
+ are
+ going
+ after
+ all
+ these
+
+
+keywords
+ and
+ the
+ different
+ copies
+ on
+
+
+that
+ is
+
+
+uh
+ we
+ have
+ a
+ loop
+ where
+ we
+ look
+ at
+ the
+
+
+ads
+ performance
+ and
+ then
+ some
+ agent
+
+
+comes
+ up
+ with
+ the
+ code
+ changes
+ and
+ we
+
+
+actually
+ create
+ pull
+ requests
+ to
+ deploy
+
+
+ads.
+
+
+So
+ when
+ you
+ merge
+ that
+ pull
+ request,
+ it
+
+
+deploys
+ it
+ on
+ Google
+ Ads.
+ So
+ it's
+ like
+
+
+like
+ everything
+ is
+ coded
+ inside
+ code
+ at
+
+
+this
+ point.
+
+
+>> Okay,
+ so
+ you've
+ been
+ in
+ the
+ industry
+ for
+
+
+closer
+ to
+ 30
+ years.
+ I
+ just
+ want
+ to go
+
+
+back
+ before
+ we
+ get
+ more
+ into
+ like
+ how
+
+
+we're
+ building
+ now,
+ but
+ how
+ did
+ you
+ get
+
+
+started?
+ How
+ did
+ you get
+ into
+ the
+
+
+industry?
+ Where
+ did
+ you first
+ work?
+
+
+>> Yeah,
+ I mean
+ I
+ started
+ my
+ career
+ in
+ very
+
+
+early
+ stage
+ in
+ a
+ telecom
+ company,
+ which
+
+
+was
+ actually
+ a startup
+ acquired
+ by
+
+
+Alcatel-Lucent
+ back
+ in that
+ day.
+ That's
+
+
+where
+ I
+ first
+ got
+ a
+ wave
+ of
+ okay,
+ people
+
+
+could
+ start
+ companies
+ and
+ build
+ deep
+
+
+tech.
+ I
+ mean
+ that
+ was
+ like
+ carrier-grade
+
+
+systems,
+ high
+ availability
+ systems.
+ So
+
+
+learned
+ a
+ lot
+ about
+ distributed
+ systems
+
+
+in
+ my
+ first
+ job.
+
+
+At
+ that
+ point,
+ I
+ kind
+ of
+ like
+ felt
+ that
+
+
+okay,
+ I
+ want
+ to
+ do
+ my
+ own
+ startup
+ and
+
+
+that
+ was
+ the
+ reason
+ I
+ came
+ to
+ the
+ US.
+
+
+Um
+ and
+ the
+ route
+ I
+ took
+ was
+ I
+ always
+
+
+wanted
+ to
+ do a
+ startup
+ and
+ that
+ that's
+
+
+very
+ clear.
+ It's
+ not
+ like
+ something
+
+
+>> clear.
+ And
+ and
+ now
+ you're
+ on
+ your
+ third
+
+
+one
+ anyway.
+
+
+>> So
+ the
+ route
+ I
+ took
+ is
+ I
+ came
+ into
+ my
+
+
+PhD
+ at
+ University
+ of
+ Pennsylvania
+ in the
+
+
+East
+ Coast
+ at
+ Philadelphia.
+
+
+And
+ the
+ goal
+ over
+ there
+ was
+ very
+ clear
+
+
+that
+ I mean
+ I'll
+ incubate
+ some
+ good
+ idea
+
+
+that
+ I'll
+ take
+ out
+ and
+ then
+
+
+commercialize.
+ And
+ that's
+ exactly
+ what
+ I
+
+
+did.
+ So
+ we
+ did
+ a
+ technology
+ transfer
+
+
+from
+ the
+ university.
+ My
+ first
+ startup
+
+
+was
+ kind
+ of
+ also
+ like
+ an
+ inflection
+
+
+point
+ right
+ when
+ like
+ microservices
+ and
+
+
+Kubernetes
+ were
+ taking
+ off.
+ We
+ saw
+ that
+
+
+the
+ observability
+ is
+ going
+ to become
+ a
+
+
+bottleneck.
+
+
+>> Yeah.
+
+
+>> So
+ that
+ was
+ my
+ first
+ startup
+ was
+ called
+
+
+Netsil,
+ listen
+ spelled
+ backwards.
+
+
+>> Oh
+ yeah.
+ And
+ and
+ this
+ was
+ observability
+
+
+for
+ Kubernetes,
+ right?
+ And
+ monitoring.
+
+
+>> Microservice.
+ So
+ the
+ idea
+ there
+ was
+ like
+
+
+these
+ prior
+ to
+ microservices,
+ you
+ had
+
+
+monoliths
+ and
+ you
+ had
+ like
+ a Java
+
+
+monolith
+ where
+ people
+ will
+
+
+install
+ an
+ APM
+ agent
+ like
+ New
+ Relic,
+
+
+AppDynamics,
+ to
+ instrument
+ that.
+ So
+ your
+
+
+function
+ calls
+ were
+ in
+ the
+ code
+ itself.
+
+
+And
+ when
+ functional
+ calls
+ became
+ API
+
+
+calls
+ when
+ you
+ had
+ microservices,
+ so
+ you
+
+
+started
+ decoupling.
+ Then
+ you
+ had
+ to
+ like
+
+
+really
+ observe
+ the
+ network.
+ Your network
+
+
+became
+ the
+ app
+ in
+ a
+ way.
+
+
+>> Yeah.
+
+
+>> So that
+ was
+ the
+ idea
+ behind
+ Netcel
+ was
+
+
+can
+ we
+ listen
+ in
+ to
+ these
+ network
+ events
+
+
+to
+ understand
+ application
+ performance.
+
+
+And
+ that
+ was
+ kind
+ of
+ precursor
+ to
+ eBPF
+
+
+and
+ some
+ of those
+ technologies
+ that
+ came
+
+
+out
+ later.
+
+
+>> Mm.
+ After
+
+
+the
+ startup
+ you
+ you
+ moved
+ to
+ a
+ larger
+
+
+startup,
+ right?
+ Or
+ or
+ did
+ you
+ move
+ or
+
+
+was
+ it
+ an
+ acquisition?
+
+
+>> We
+ got
+ acquired.
+ It
+ was
+ a
+ pretty
+
+
+>> New
+ Relic,
+ right?
+
+
+>> New
+ yeah
+ yeah
+ that
+ was
+ a
+ public
+ company
+
+
+at
+ that
+ time
+ and
+ we
+ um
+ um
+ got
+ a
+ pretty
+
+
+decent
+ offer
+ like
+ we
+ just
+ did
+ one
+ round
+
+
+of
+ funding
+ but
+ then
+ the
+ offer
+ was
+ pretty
+
+
+good
+ that
+ we
+ we
+ took
+ an
+ off
+ ramp.
+ Then
+ I
+
+
+stayed
+ there
+ for
+ like
+ a few
+ years
+ trying
+
+
+to
+ like
+ spend
+ time
+ integrating
+ our
+
+
+technology
+ into
+ their
+ stack
+ and
+ the
+
+
+product
+ offerings.
+
+
+Then
+ I
+ quit
+ to
+ start
+ another
+ company
+
+
+called
+ Flux
+ Ninja
+
+
+uh
+ which
+ was
+ in
+ like
+ web
+ scale.
+ Like
+ how
+
+
+do
+ you
+ do
+ load
+ shedding,
+ graceful
+
+
+degradation,
+ controllability.
+
+
+Right?
+ So
+ we
+ built
+ like
+ whole
+ PID
+
+
+controllers
+ to
+ make
+ sure
+ that
+ the
+
+
+applications
+ don't
+ crash
+ with
+ cascading
+
+
+failures
+ during
+ like
+ Black
+ Friday
+ spikes
+
+
+and
+ so
+ on.
+ Now
+ very
+ interestingly
+ like
+
+
+at
+ that
+ time
+ the
+ market
+ had
+ appetite
+ for
+
+
+all
+ these
+ Kubernetes
+ service
+ meshes
+ but
+
+
+then
+ generative
+ AI
+ happened
+ all
+ of
+ a
+
+
+sudden.
+ We
+ saw
+ that
+ first
+ yeah
+
+
+when
+ I
+ touched
+ GitHub
+ Copilot.
+ I
+ mean
+ we
+
+
+had
+ Tabnine
+
+
+>> This
+ was
+ 2021,
+ right?
+
+
+>> So
+ at
+ Flux
+ Ninja
+ we
+ were
+ using
+ some
+ AI
+
+
+like
+ Tabnine
+ is
+ one
+ of
+ the
+ products
+ we
+
+
+were
+ using.
+
+
+>> Tabnine
+ was
+ the
+ OG
+ of
+ of
+ of
+ of
+ AI
+
+
+autocomplete.
+
+
+>> Yeah
+ and
+ it
+ would
+ like
+ create
+ its
+ own
+
+
+local
+ model
+ or
+ something.
+ I don't
+ know
+
+
+what
+ it
+ used
+ to
+ do
+ but
+ it
+ used
+ to
+ work
+
+
+like
+ but
+ it
+ wasn't
+ like
+ as
+ great
+ as
+ like
+
+
+when
+ the
+ GitHub
+ Copilot
+ that
+ was
+ like
+
+
+the
+ aha
+ moment,
+ right?
+
+
+>> Yeah.
+
+
+>> And
+ this
+ was
+ I
+ believe
+ even
+ before
+
+
+ChatGPT
+ had
+ come
+ out.
+ At
+ that
+ point
+ it
+
+
+was
+ very
+ clear
+ like
+ we
+ were
+ a fast
+
+
+moving
+ team
+ and
+ at
+ that
+ time
+ the code
+
+
+review
+ was
+ already
+ a bottleneck.
+
+
+So
+ people
+ were
+ doing
+ stack
+ pull
+
+
+requests.
+ We
+ built
+ our
+ own
+ tool
+ called
+
+
+SPR.
+ We
+ open
+ sourced
+ it.
+ But
+ the
+ but
+ but
+
+
+the
+ thing
+ is
+ that
+ like
+ it
+ was
+ still
+ not
+
+
+ideal
+ like
+ given
+ the volume
+ of
+ the
+ code
+
+
+just
+ started
+ growing
+ after
+ GitHub
+
+
+Copilot.
+ It
+ was
+ very
+ clear
+ that
+ AI
+ is
+
+
+going
+ to
+ write
+ most
+ of
+ the
+ code
+ and
+
+
+>> So
+ just
+ pause
+ there.
+ When
+ you
+ saw
+ GitHub
+
+
+Copilot
+ in
+ 2021,
+ this
+ was
+ before
+
+
+ChatGPT,
+ you
+ already
+
+
+predicted
+ or
+ kind
+ of
+ like
+ fast
+ forwarded
+
+
+saying
+ oh
+ AI
+ will
+ write
+ most
+ of
+ the
+
+
+code?
+
+
+>> That's
+ right.
+
+
+>> This
+ was
+ not
+
+
+commonly
+ held
+ view.
+ Like
+ a
+ select
+ few
+
+
+might
+ have
+ held
+ it,
+ but
+ what
+ what
+ made
+
+
+you
+ assume
+ this?
+ Can
+ you
+ talk
+ us
+ through
+
+
+our
+ your
+ thinking
+ process
+ that
+ time?
+
+
+>> I
+ was
+ in
+ the
+ arena
+ like
+ as
+ a leader
+ like
+
+
+I
+ was
+ actually
+ coding
+ on
+ the
+ ground.
+
+
+Even
+ at
+ that
+ company,
+ I
+ mean
+ a lot
+ of
+
+
+the work
+ I
+ was
+ doing
+ janitorial
+ like
+
+
+just
+ making
+ sure
+ the
+ developers
+ were
+
+
+productive,
+ adding
+ all
+ the
+ linters,
+ the
+
+
+tooling,
+ everything
+ to
+ go
+ faster.
+
+
+Right?
+ As
+ a
+ leader
+ like
+ my
+ goal
+ has
+
+
+always
+ been
+ like
+ how
+ quickly
+ we
+ can
+ get
+
+
+to
+ the
+ next
+ milestone,
+ right?
+
+
+And
+ when
+ I
+ touched
+ that
+ system,
+ I don't
+
+
+know
+ like
+ it
+ just
+ came
+ to
+ me
+ that
+ okay,
+
+
+this
+ is
+ going
+ to change
+ everything.
+ The
+
+
+tool
+ was
+ really
+ good
+ in
+ like
+ sensing
+
+
+what
+ I needed
+ to
+ do
+ next.
+ And
+ I
+ was
+
+
+accepting
+ the
+ suggestions
+ like
+ it
+ was
+
+
+like
+ writing
+ really
+ complex
+ algorithms.
+
+
+You
+ just
+ provide
+ a
+ few
+ comments
+ on
+ what
+
+
+you
+ want
+ to
+ do
+ and
+ the
+ code
+ came
+ out
+ tab
+
+
+complete,
+ right?
+
+
+It
+ was
+ pretty
+ magical
+ and
+ at
+ that
+ time
+
+
+it
+ was
+ just
+ clear
+ to
+ me.
+ I don't
+ know
+
+
+how,
+ but
+ I
+ mean
+ once
+ you
+ are in
+ the
+
+
+arena,
+ I think
+ you
+ see
+ these
+ patterns
+
+
+long
+ enough
+
+
+the
+ second
+ order
+ effects.
+ And
+ the
+ same
+
+
+thing
+ was
+ clear
+ to me
+ three
+ months
+ back
+
+
+on
+ how
+ software
+ is going
+ to be
+ built.
+
+
+Like
+ I would
+ say
+ I'm
+ still
+ learning.
+
+
+It's
+ not
+ like
+ we're
+ not
+ on
+ a stable
+
+
+ground
+ yet.
+
+
+Things
+ are
+ moving
+ too
+ fast
+ and
+ some
+ of
+
+
+the
+ things
+ I'm
+ seeing
+ now
+ we
+ could
+ not
+
+
+have
+ predicted
+ even
+ six
+ months
+ back
+ on
+
+
+on
+ how
+ the
+ software
+ development
+ is going
+
+
+to evolve
+ from
+ here.
+
+
+>> You
+ found
+ a code
+ rabbit
+ on
+ this
+ kind
+ of
+
+
+notion
+ or
+ prediction.
+ Was
+ that
+ how
+ it
+
+
+happened?
+
+
+>> Actually,
+ we
+ didn't
+ realize
+ this
+ will
+ be
+
+
+such
+ a
+ big
+ opportunity.
+ One
+ thing
+ was
+
+
+clear,
+ it
+ will
+ become
+ a bottleneck,
+ but
+
+
+we
+ thought
+ I
+ mean
+ the
+ market
+ cap
+ we
+ were
+
+
+looking
+ at
+ Sneak
+ and
+ a
+ few
+ other
+
+
+companies
+ in
+ the
+ GitHub
+ ecosystems,
+
+
+right?
+ Because
+ we
+ have
+ a
+
+
+installation
+ which
+ is
+ like
+ inside
+ the
+
+
+version
+ control
+ systems
+ like
+ GitHub.
+
+
+Like
+ there
+ was
+ some
+ precedence
+ around
+
+
+previous
+ generation
+ companies
+ like
+ Sonar
+
+
+Source
+ based
+ out
+ of
+ Europe,
+ we
+ saw
+ like
+
+
+code
+ quality
+ agents.
+ So
+ we were
+ kind
+ of
+
+
+like
+ thinking,
+ okay,
+ the
+ market
+ cap
+
+
+would
+ be
+ like
+ in
+ that
+ territory.
+ What
+ we
+
+
+didn't
+ realize
+ that
+ this
+ is
+ like
+ much
+
+
+much
+ bigger
+ market
+ cap
+ opportunity
+
+
+because
+ people
+ who
+ were
+ not
+ even
+
+
+traditionally
+ buying
+ those
+ tools
+ would
+
+
+line
+ up
+ to
+ buy
+ AI
+ code
+ reviews.
+
+
+Even
+ though
+ we
+ don't
+ sell
+ to
+ individual
+
+
+users,
+ a
+ large
+ number
+ of
+ our
+ users
+ and
+
+
+look
+ are
+ are
+ individuals
+ paying
+ for
+ the
+
+
+product.
+
+
+>> So
+ you've
+ been
+ a
+ Neovim
+ user.
+ You
+ you
+
+
+you
+ wrote
+ a
+ lot
+ of
+ code
+ for
+ like
+ a
+
+
+decades
+ pretty
+ much,
+ right?
+ Your
+
+
+handwritten.
+
+
+How
+ easy
+ did
+ you
+ find
+ it
+ to
+ just
+ move
+
+
+over
+ to
+ AI?
+ Because
+ a
+ lot
+ of
+ people,
+
+
+especially
+ some
+ folks
+ who
+ use
+ Neovim,
+
+
+you
+ know,
+ like
+ they're
+ kind
+ of
+ into
+ the
+
+
+craft
+ as
+ well,
+ they
+ might
+ have
+ been a
+
+
+bit
+ more
+ hesitant
+ to
+ just
+ go
+ there
+
+
+because
+ you kind
+ of
+ have
+ to,
+ you know,
+
+
+get
+ rid
+ of
+ that
+ really
+ familiar
+ UI.
+ You
+
+
+no
+ longer
+ even
+ have
+ a
+ UI
+ when
+ you're
+
+
+using
+ agents.
+
+
+>> So
+ the
+ for
+ me
+ like
+ the
+ writing
+ the
+ code
+
+
+is just
+ means
+ to
+ an
+ end.
+ As
+ an
+
+
+entrepreneur,
+ like
+ you want
+ to
+ get
+ to
+
+
+the
+ final
+ value
+ and
+ validation
+ quickly.
+
+
+>> Mhm.
+
+
+>> Um
+ I
+ mean,
+ I did
+ enjoy
+ writing
+ code,
+ but
+
+
+I wouldn't
+ say
+ that
+ was
+ the
+ most
+
+
+enjoyable
+ thing
+ in
+ building
+ a
+ company.
+
+
+It's
+ about
+ like
+ how
+ quickly
+ you
+ can
+ get
+
+
+an
+ idea
+ out,
+ get
+ validation,
+ grow
+ that
+
+
+business,
+ and
+ so
+ on.
+ Coding
+ was
+ kind
+ of
+
+
+a
+ necessary
+ thing
+ you
+ had
+ to
+ do
+ and
+ a
+
+
+lot
+ of
+ the
+
+
+work
+ around
+ maintaining
+ maintaining
+
+
+those
+ code
+ bases,
+ DevOps,
+ all
+ comes
+
+
+alongside
+ that,
+ right?
+
+
+So
+ for
+ going
+ from
+ I
+ don't
+ miss
+ it.
+ If
+
+
+you
+ ask
+ me
+ like
+ do
+ I miss
+ writing
+ code
+
+
+by
+ hand,
+ I
+ actually
+ don't.
+ What
+ I
+ love
+
+
+is
+ now
+ I'm
+ able
+ to
+ go
+ from
+ ideas
+
+
+to
+ very
+ quick
+ implementation
+ and
+ just
+
+
+validate.
+ So
+ I'm
+ doing
+ actually
+ the
+ fun
+
+
+part
+ of
+ software
+ development.
+ I'm
+ still
+
+
+doing
+ software
+ development.
+ It's
+ not
+
+
+like
+ I'm
+ not
+ doing
+ software
+ engineering,
+
+
+but
+ now
+ what
+ I'm
+ focusing
+ on
+ is
+ a lot
+
+
+more
+ fun
+
+
+than
+ figuring
+ out
+ the
+ syntax
+ and
+
+
+autocomplete.
+ I
+ mean,
+ I mean,
+ my
+ agents
+
+
+are writing
+ Rust
+ code.
+ I
+ have
+ zero
+ idea
+
+
+how
+ Rust
+ works.
+ We
+ recently
+ like
+ had
+ an
+
+
+agent
+ goal
+ running
+ for
+ six
+ weeks
+ to
+ uh
+
+
+>> Six
+ weeks.
+
+
+>> Yeah,
+ so
+ for
+ running
+ so
+ building
+ like
+
+
+um
+ Git
+ write
+ head
+ log
+ on
+ object
+ stores.
+
+
+Like
+ I
+ just
+ when
+ Cursors
+ Origin
+ blog
+
+
+post
+ came
+ out,
+
+
+>> Yeah.
+
+
+>> I
+ pointed
+ the
+ agent.
+
+
+It
+ ran
+ for
+ six
+ weeks
+ and
+ now
+ we
+ have
+
+
+that
+ in
+ production
+ powering
+ a
+ lot
+ of
+ the
+
+
+knowledge
+ bases
+ at
+ CodeRabbit.
+
+
+So
+ I
+ didn't
+ even
+ have
+ to
+ have
+ the
+ real
+
+
+implementation.
+ It
+ just
+ hill
+ climbed
+
+
+over
+ time
+ on
+ its
+ own,
+ all
+ written
+ in
+
+
+Rust,
+ and
+ not
+ read
+ a
+ single
+ line
+ of
+ it.
+
+
+>> And
+ and
+ for
+ for
+ those
+ of
+ us
+ who
+ are
+ not
+
+
+as
+ familiar
+ with
+ this
+ specific
+ term,
+
+
+what
+ does
+ hill
+ climbing
+ mean
+ for
+ agents?
+
+
+>> Yeah,
+ so
+ it's
+ some
+ sort
+ of
+ a
+ loop.
+ Like
+
+
+it
+ all
+ starts
+ at
+ a
+ very
+ basic
+ that
+ agent
+
+
+can
+ verify
+ its
+ work
+ against
+ something.
+
+
+>> Yep.
+
+
+>> And
+ and
+ these
+ loops
+ are like
+ inner
+
+
+loops,
+ outer
+ loops,
+ multiple
+ types
+ like.
+
+
+So
+ when
+ you're
+ looking
+ at
+ software
+
+
+development,
+
+
+you
+ want
+ to like
+ provide
+ agents
+ means
+ to
+
+
+verify
+ its
+ work
+ close
+ to
+ where
+ it's
+
+
+doing
+ the software
+ development.
+ So
+ we
+ do
+
+
+a
+ lot
+ of,
+ believe
+ it
+ or
+ not,
+
+
+a lot
+ of formal
+ methods.
+ So
+ when
+ we
+
+
+first
+ did
+ the
+ Slack
+ bot
+ product
+ like
+
+
+eight
+ months
+ back,
+
+
+we
+ invested
+ a
+ lot
+ in
+ like
+ first
+ modeling
+
+
+what
+ this
+ distributed
+ system
+ is
+ going
+ to
+
+
+do
+ in
+ TLA
+ plus,
+ then
+ implementing
+ it.
+
+
+And
+ also
+ investing
+ a
+ lot
+ in
+ simulations.
+
+
+So
+ the
+ way
+ we
+ are
+ scaling
+ code
+
+
+development,
+ code
+ review
+ is
+ just
+ one
+
+
+piece
+ which
+ we
+ of
+ course
+ market,
+ but
+
+
+there
+ were
+ like
+ 100
+ other
+ things
+ you
+
+
+have
+ to
+ do,
+ right?
+
+
+>> Yeah.
+
+
+>> So
+ we
+ invested
+ a
+ lot
+ in
+ local
+
+
+deterministic
+ simulations,
+ right?
+
+
+>> Mhm.
+
+
+>> Very
+ recently
+ we started
+ investing
+ in
+
+
+lean
+ theorems
+ as
+ well.
+
+
+So
+ a
+ lot
+ of
+ that
+ is
+ like
+
+
+>> lean
+ is
+ another
+ form
+ of
+ formal
+ methods,
+
+
+right?
+
+
+>> like
+ you
+ have
+ theorems
+ and
+ it
+ even
+ like
+
+
+used
+ for
+ mathematical
+ proofs,
+ but
+ you
+
+
+can
+ also
+ try
+ to
+ build
+ probably
+ correct
+
+
+software
+ things
+ like
+ billing
+ service
+ and
+
+
+all.
+ We
+ have
+ got
+ like
+ bunch
+ of lean
+
+
+theorems.
+ I
+ can
+ actually
+ show
+ you
+ after
+
+
+the
+ podcast.
+ It's
+ pretty
+ cool
+ what
+ we're
+
+
+doing
+ there.
+ So
+ what
+ we
+ have
+ been
+ doing
+
+
+is
+ like
+
+
+these
+ are
+ all
+ like
+ hill
+ climbing.
+ Like
+
+
+you're
+ first
+ making
+ them
+ hill
+ climb
+
+
+locally,
+ then
+ you're
+ going
+ to
+ the next
+
+
+environment
+ where
+ let's
+ say
+ emulators
+ is
+
+
+another
+ thing
+ we
+ have
+ invested
+ a
+ lot
+ in
+
+
+our
+ own
+ 12.
+
+
+>> Mhm.
+
+
+>> So
+ you
+ you
+ can
+ now
+ very
+ quickly
+ mock
+ a
+
+
+real
+ emulate
+ like
+ the
+ real
+ APIs,
+ like
+
+
+Google
+ Cloud
+ APIs
+ or whatever,
+ right?
+
+
+Then
+ you
+ are
+ actually
+ testing
+ against
+ a
+
+
+real
+ Google
+ Cloud
+ or
+ Vercel
+ environment.
+
+
+Those
+ are
+ the
+ cloud
+ providers
+ we
+ have
+ in
+
+
+in
+ dev.
+ You
+ can
+ have
+ the
+ agent
+ actually
+
+
+spin
+ up
+ services,
+ actually
+ test
+ them,
+
+
+right?
+ I
+ mean,
+ this
+ is
+ all
+ hill
+
+
+climbing.
+ And
+ then
+ in
+ production
+ as
+
+
+well,
+ like
+ the
+ thing
+ is
+ that
+ I
+ kind
+ of
+
+
+see
+ each
+ release.
+ So
+ we
+ release
+ multiple
+
+
+times
+ a
+ day,
+ right?
+
+
+Every
+ 30
+ to
+ 45
+ minutes
+
+
+we
+ ship
+ code.
+ And
+ each
+ release
+ is
+ like
+ a
+
+
+turn
+ in
+ a
+ strategy
+ game.
+ If
+ you've
+
+
+played
+ civilization,
+ you
+ end
+ your
+ turn,
+
+
+you
+ learn.
+ That's
+ how
+ we
+ see
+ releases.
+
+
+Like
+ each
+ release
+ is
+ an
+ opportunity
+ for
+
+
+an
+ agent
+ to
+ learn
+ something
+ from
+ that
+
+
+environment.
+ So
+ a
+ lot
+ of the
+ times
+ we
+
+
+will
+ release
+ features
+ under
+ a feature
+
+
+flag,
+
+
+do
+ like
+ progressive
+ rollouts,
+ like
+ maybe
+
+
+10%
+ for
+ our
+ open
+ source
+ users
+ and
+ so
+ on.
+
+
+And
+ the
+ agent
+ will
+ observe
+ the
+
+
+performance,
+ the
+ logs
+ until
+ it's
+ stable,
+
+
+then
+ do
+ wider
+ and
+ wider
+ rollout.
+ And
+
+
+each
+ release
+ is
+ the
+ opportunity
+ to
+ learn
+
+
+for
+ the
+ agent.
+
+
+>> Interesting
+ because
+ what
+ what
+ you're
+
+
+describing
+ this
+ kind
+ of
+ stage
+ and
+ wider
+
+
+and
+ wider
+ rollout,
+ this
+ is
+ something
+
+
+that
+
+
+Facebook
+ had
+ been
+ doing
+ for
+ a
+ long
+ time
+
+
+and
+ they
+ had
+ just
+ have
+ a
+ massive
+ user
+
+
+base.
+ We're
+ talking
+ billions
+ of
+ people,
+
+
+right?
+
+
+And
+ they
+ built
+ this
+ automated
+ system
+ and
+
+
+outside
+ of
+ Facebook,
+ I
+ don't
+ really
+ know
+
+
+I didn't
+ know
+ of
+ many
+ other
+ companies
+
+
+that
+ had
+ a
+ kind
+ of
+
+
+automated
+ rollout
+ for
+ few
+ reasons.
+ One
+
+
+is
+ this
+ only
+ works
+ when
+ you
+ have
+ you
+
+
+literally
+ have
+ hundreds
+ of
+ millions
+ of
+
+
+users.
+ It's
+ really
+ hard
+ to
+ do
+ it
+
+
+otherwise.
+ It's
+ a large
+ investment
+ to
+
+
+build.
+
+
+Automation
+ is
+ hard
+ to
+ build.
+ You
+ need
+
+
+even
+ pre
+ AI,
+ you
+ needed
+ some
+ sort
+ of
+ ML,
+
+
+which
+ is
+ again
+ just
+ goes
+ up
+ and
+ up.
+ And
+
+
+now
+ you're
+ describing
+ that
+ you
+ at
+ a
+
+
+pretty
+ small
+ company
+ in
+ terms
+ of
+ head
+
+
+count
+ compared
+ to
+ Facebook
+ you
+ know
+
+
+Facebook
+ 75,000
+ people,
+ Code
+ Rabbit
+ is
+
+
+like
+
+
+>> 40
+ engineers
+ maybe?
+
+
+>> Yeah,
+ and
+ and
+ you
+ built
+ been
+ able
+ to
+
+
+build
+ this
+ for
+ yourself.
+
+
+>> That's
+ right.
+ So
+ the
+ way
+ we
+ are
+ seeing
+
+
+it
+ is
+ like
+ the
+ way
+ Netflix,
+ Facebook
+
+
+used
+ to
+ ship
+ with
+ thousands
+ of
+ engineers
+
+
+and
+ the
+ kind
+ of
+ tooling
+ they
+ needed
+ like
+
+
+all
+ the
+ way
+ from
+
+
+the
+ process
+ around
+ merge
+ queues
+ and
+
+
+everything
+ like
+ they
+ needed
+ to
+ ship
+ at
+
+
+scale
+ is
+ something
+ that
+ small
+ teams
+ are
+
+
+going
+ to
+ need
+ now
+ with
+ AI.
+
+
+Now
+ teams
+ of
+ 30
+ 40
+ people,
+
+
+if
+ they
+ use
+ the
+ agents
+ in
+ the
+ right
+ way,
+
+
+have
+ the
+ right
+ abstraction
+ and
+ this
+
+
+whole
+ concept
+ of
+ software
+ factory,
+
+
+they're
+ going
+ to ship
+ as
+ much
+ as
+
+
+Facebook.
+ Which
+ means
+ that
+ all
+ the
+
+
+sophistication
+ they
+ had
+
+
+in
+ terms
+ of
+ testing
+ in
+ production,
+
+
+managing
+ the
+ risk,
+
+
+managing
+ your
+ CICD,
+ everything,
+ caching,
+
+
+there's
+ a lot
+ of
+ stuff
+ around
+ it.
+ I mean
+
+
+they
+ will
+ need
+ it
+ in
+ a small
+ team
+
+
+setting
+ as
+ well.
+ So
+ it's
+ a
+ golden
+
+
+opportunity.
+ If
+ you
+ were
+ if
+ someone
+ was
+
+
+at
+ Facebook
+ at
+ that
+ time
+ like
+ when
+ they
+
+
+were
+ shipping
+ and
+ figuring
+ out
+ all
+ these
+
+
+to
+ go
+ out
+ and
+ now
+ actually
+ build
+
+
+products,
+ the
+ market's
+ grown.
+
+
+There's
+ a lot
+ more
+ people
+ who
+ need
+ those
+
+
+products
+ than
+ ever
+ before.
+
+
+>> And
+ you
+ mentioned
+ software
+ factory.
+
+
+It's
+ a term
+ that
+ is
+ going
+ around
+ a lot.
+
+
+What
+ does
+ it
+ mean
+ for
+ you?
+
+
+>> Yeah,
+ it's
+ many
+ things.
+ I
+ think,
+ I
+ mean,
+
+
+my
+ we
+ have
+ a
+ slightly
+ maybe
+ it's
+ the
+
+
+same
+ take
+ as
+ others,
+ but
+ I
+ mean,
+ I'll
+
+
+give
+ you
+ my
+ take
+ on
+ it.
+
+
+Even
+ when
+ you're
+ building
+ with
+ AI,
+ there
+
+
+are
+ I
+ think
+ two
+ ways
+ of
+ using
+ AI.
+
+
+One
+ is
+ like
+ more
+ like
+ on
+ a
+ potter's
+
+
+wheel.
+ You
+ are
+ like
+ shaping
+ the
+ software
+
+
+with
+ each
+ interactive
+
+
+chat
+ with
+ Claude
+ coder
+ Codex.
+ Like
+ like
+
+
+for
+ example,
+ like
+ with
+ UI
+ development,
+ I
+
+
+have
+ the browser
+ open
+ and
+ doing
+
+
+annotation
+ and
+ each
+ time
+ I send
+ a
+
+
+message,
+ I'm
+ crafting
+ the
+ software,
+ but
+
+
+with
+ AI.
+ And
+ I
+ can
+ like
+ manage
+ as
+ a
+
+
+human,
+ like
+ my
+ decision
+ capacity
+ is
+ to
+
+
+do
+ only
+ like
+ one
+ or
+ two
+ of
+ those
+
+
+tactical
+ chats
+ in
+ a day.
+
+
+I
+ mean,
+ I
+ usually
+ have
+ like
+ 20
+ chats
+ in
+
+
+Codex
+ right
+ now.
+ Two
+ would
+ be
+ of
+ that
+
+
+manner.
+
+
+>> Mhm.
+
+
+>> Around
+ 18
+
+
+are
+ more
+ like
+ the
+ factory
+ concept,
+ like
+
+
+where
+ I
+ know
+ that
+ I
+ can
+ have
+ the
+ agent
+
+
+hill
+ climb
+ on
+ something.
+
+
+Whether
+ it's
+ like
+ building
+ a
+ distributed
+
+
+system,
+ I
+ can
+ be
+ hands
+ off
+ with
+ a goal,
+
+
+just
+ like
+ the
+ example
+ I gave
+ you
+ with
+
+
+the
+ Git
+ on
+ object
+ stores
+ and
+ also
+ SQLite
+
+
+LTX.
+ That's
+ the
+ other
+ thing
+ we
+ did
+ with
+
+
+knowledge
+ bases.
+ We
+ removed
+ our
+ vector
+
+
+database
+ provider
+ to
+ build
+ our own
+
+
+in-house
+ version
+ on
+ SQLite
+ LTX,
+ right,
+
+
+on
+ an
+ object
+ store.
+
+
+On those
+ kind
+ of things
+ you
+ can
+ hill
+
+
+climb.
+ The
+ other
+ stuff
+ is
+ like
+ each
+ time
+
+
+you
+ have
+ a
+ deploy,
+ CI/CD
+ is happening.
+
+
+It's
+ an
+ opportunity
+ for
+ the
+ AI
+ to
+ learn
+
+
+and
+ continuously
+ improve
+ it.
+ So
+ I
+ have
+
+
+agents
+ running
+ continuously
+ to
+ remove
+
+
+flaky
+ tests,
+
+
+right?
+ Each
+ flaky
+ test
+ resets
+ the
+ merge
+
+
+queue.
+ It's
+ really
+ bad.
+ So
+ you
+ have
+ to
+
+
+have
+ that
+ continuously
+ happen.
+
+
+Each
+ time
+ you
+ have
+ a
+ deploy
+ or
+ a
+ CI,
+
+
+each
+ run
+ is
+ an
+ opportunity
+ for
+ the
+ agent
+
+
+to
+ optimize
+ something,
+ do the
+ next
+
+
+thing,
+
+
+right?
+ And
+ then
+ you're
+ running
+ the
+
+
+agents
+ against
+ production
+ as
+ well.
+ So
+
+
+you
+ have
+ agents
+ which
+ own
+ health
+ of
+ some
+
+
+components
+ I
+ care
+ about.
+ For example,
+ I
+
+
+care
+ about
+ billing,
+ I
+ care
+ about
+ the
+
+
+knowledge
+ base
+ performance,
+ like
+ I
+ care
+
+
+about
+ the
+ code
+ graphs
+ we
+ have.
+ So
+ each
+
+
+deploy,
+ I have
+ the
+ agent
+ running
+ in
+ a
+
+
+loop
+
+
+to
+ observe
+ the
+ next
+ experiment
+ now
+ and
+
+
+do
+ either
+ two
+ things
+ like
+ add
+ more
+
+
+telemetry
+ if
+ it's
+ like
+ flying
+ blind
+ or
+
+
+fix
+ something.
+
+
+So those
+ are
+ the
+ kind
+ of loops
+ I'm
+
+
+running
+
+
+and
+ those
+ are
+ factories.
+ So
+ the
+ thing
+ is
+
+
+that
+ right
+ now
+ the
+ chat
+
+
+is
+ not
+ kind
+ of
+ the
+ right
+ interface
+
+
+to
+ run
+ those
+ agent
+ fleets
+ at
+ scale.
+
+
+The
+ chat
+ is
+ great
+ when
+ you
+ are doing
+
+
+crafting
+ the
+ software
+ one
+ message
+ at
+ a
+
+
+time.
+ So
+ some
+ of
+ these
+ things
+ we
+ are
+
+
+still
+ figuring
+ out.
+ First
+ of
+ all
+
+
+that
+ whole
+ maintenance,
+ the
+ janitorial
+
+
+work
+
+
+around
+ shipping
+ software
+ and
+ maintaining
+
+
+the
+ factory
+ should
+ probably
+ be
+ in
+ the
+
+
+cloud
+
+
+on
+ sandboxes
+ and
+ all.
+
+
+And
+ I
+ shouldn't
+ be
+ the
+ one
+ waking
+ up
+ at
+
+
+like
+ 3:00
+ a.m.
+ I
+ I mean
+ it's
+ more
+ like
+
+
+morning
+ shift,
+ night
+ shift
+ now
+ in
+ a
+
+
+factory.
+ We
+ luckily
+ have
+ a team
+ in
+
+
+Bangalore
+ so
+ we have
+ a
+ follow
+ the
+ sun
+
+
+model.
+ So
+ I
+ want
+ like
+ if
+ I'm
+ babysitting
+
+
+the
+ agents
+ I'm
+ not
+ owning
+ the
+ code
+
+
+anymore.
+ We
+ are owning
+ agents.
+ Let's
+ say
+
+
+I have
+ an
+ agent
+ looking
+ at
+ the
+ health
+ of
+
+
+a
+ billing
+ service
+ and
+ it
+ stalls
+ on
+
+
+something,
+ it
+ has
+ a question
+
+
+then
+ if
+ I'm
+ around
+ during
+ the
+ US
+ time
+
+
+zone
+ I'm
+ able
+ to
+ answer
+ that
+ question
+
+
+but
+ I
+ want
+ someone
+ to
+ be
+ able
+ to
+ unblock
+
+
+the
+ agent
+ while
+ I'm
+ sleeping.
+
+
+So I
+ would
+ say
+ we
+ haven't
+ figured
+ it
+ out
+
+
+yet.
+ So
+ we
+ are going
+ on the
+ upward
+
+
+trajectory
+ but
+ most
+ of
+ our
+ development
+
+
+right
+ now
+
+
+is
+ constrained
+ by
+ how
+ many
+ sessions
+
+
+people
+ can
+ run
+ locally,
+
+
+how
+ many
+ releases
+ they
+ can
+ like
+
+
+make
+ their
+ PRs
+ land
+ in.
+ Like
+ we
+ look
+ at
+
+
+the
+ release
+ coverage
+ and
+ the
+ PRs
+ they
+
+
+landed
+ and
+ we are
+ also
+ constrained
+ on
+
+
+local
+ resources.
+ One
+ of
+ the
+ things
+ we
+
+
+found
+ and
+ that's
+ where
+ I
+ have
+ a
+ cheat
+
+
+code
+ as
+ a CEO,
+ I
+ have
+ a very
+ powerful
+
+
+machine.
+
+
+The developers
+ don't
+ have
+ those
+ like
+
+
+they
+ have
+ like
+ 48
+ GB
+ RAM,
+ 24
+ GB
+ RAMs
+ and
+
+
+they
+ max
+ out
+ at
+ like
+ three,
+ four
+
+
+sessions.
+ Beyond
+ that
+ the
+ machine
+ just
+
+
+dies
+ with
+ the
+ unit
+ test
+ it
+ has
+ to
+ run
+
+
+locally,
+ right?
+ So
+ we
+ are
+ feeling
+ like
+
+
+the
+ real
+ compute
+ constraints
+ right
+ now
+
+
+in
+ terms
+ of
+ the
+ local
+ development
+
+
+and
+ we
+ are
+ investing
+ very
+ heavily
+ to
+ go
+
+
+and
+ make
+ some
+ of
+ our
+ cloud-based
+
+
+environments
+ work.
+
+
+>> But
+ I
+ guess
+ it's
+ pretty
+ obvious
+
+
+at
+ this
+ point
+ that
+ a lot
+ of
+ development
+
+
+will
+ move
+ to
+ the
+ cloud
+ because
+ of
+ a
+ lot
+
+
+of
+ the
+ constraints
+ that
+ you
+ mentioned
+
+
+and
+ I guess
+ the
+ only
+ downside
+ I can
+
+
+think
+ of
+ moving
+ to
+ the
+ cloud
+ of
+ running
+
+
+coding
+ agents
+ in
+ the
+ cloud
+ is
+ a
+ there
+ is
+
+
+a
+ bunch
+ of
+ work
+ that
+ needs
+ to
+ be
+ done
+
+
+that
+ you
+ have
+ an environment
+ that's
+
+
+similar
+ to
+ your local
+ one,
+ security,
+ all
+
+
+all
+ that
+ stuff
+ but
+ you need
+ to
+ build
+
+
+that
+
+
+and
+ there's
+ potentially
+ a
+ cost
+ uh
+
+
+question
+ as
+ well
+ because
+ now
+ you
+ know,
+
+
+like
+ you
+ have
+ your
+ hardware
+ and
+ when
+
+
+you're
+ utilizing
+ it
+ pretty
+ well,
+ that's
+
+
+pretty
+ that's
+ pretty
+ good,
+ right?
+ You
+
+
+buy
+ it
+ once
+ and
+ and
+ you do
+ it
+ and
+ there
+
+
+will
+ be
+ an
+ additional
+ cost
+ part,
+ but
+ the
+
+
+the
+ the
+ cost
+ I
+ I wonder
+ if
+ that's
+ a
+
+
+smaller
+ question
+ because
+ you
+ know,
+ like
+
+
+we
+ already
+ know
+ AI
+ has
+ a very
+ real
+ cost
+
+
+and
+ I
+ know
+ you're
+ paying
+ a
+ lot
+ for
+ AI
+
+
+already.
+
+
+>> It's
+ actually
+ better
+ because
+ in
+ the
+ way
+
+
+like
+ if
+ it's
+ in
+ the
+ cloud
+ and
+ more
+ like
+
+
+a
+ collaborative
+ setting,
+ you
+ clearly
+ see
+
+
+the
+ value
+ created
+ because
+ right
+ now
+ we
+
+
+have
+
+
+some
+ people
+ who
+ are
+ spending
+ tens
+ of
+
+
+thousands
+ of
+ dollars
+ on
+ local
+ tokens.
+
+
+>> Mm.
+
+
+>> We
+ don't
+ know
+ if
+ they're
+ doing
+ like
+ side
+
+
+projects
+ like
+ everyone's
+ building
+ their
+
+
+like
+ home
+ automation
+ systems
+ and
+
+
+>> See
+ what
+ you
+ mean,
+ yeah.
+
+
+>> Right?
+ So
+ there's
+ no
+ auditability
+ as
+
+
+well
+ on
+ on
+ local
+ development.
+
+
+>> Oh,
+ yeah.
+
+
+>> So
+ sometimes
+ we
+ look
+ at
+ the
+ price
+ per
+ PR
+
+
+like
+ mines
+ I don't
+ know
+ like
+ 150
+ bucks
+ a
+
+
+PR
+ like
+ for
+ some
+ people
+ might
+ be
+
+
+thousands.
+
+
+>> Mm.
+
+
+>> Then
+ you have
+ to
+ question
+ like
+ are
+ they
+
+
+really
+ doing
+ your
+ work
+ or
+ someone
+ else's
+
+
+work?
+ So
+ the
+ thing
+ is
+ that
+ like
+ the
+ cost
+
+
+perspective
+ I think
+ we
+ I
+ will
+ be
+ also
+ as
+
+
+a
+ leader
+ like
+ comfortable
+ spending
+ the
+
+
+money
+ if
+ I can
+ see
+ where
+ it's
+ adding
+ the
+
+
+value.
+
+
+Like
+ if
+ it's
+ in the
+ Slack,
+ so
+ we have
+ a
+
+
+Slack
+ bot
+ over
+ there
+ when
+ CodeRabbit
+
+
+responds
+ to
+ all
+ the
+ DataDog
+ alerts,
+ I
+
+
+clearly
+ see
+ it's
+ adding
+ value.
+
+
+>> CodeRabbit,
+ one
+ of
+ the
+ main
+ things
+ that
+
+
+you
+ do
+ is
+ AI
+ code
+ review.
+ Now
+ I
+ have
+ to
+
+
+ask
+ you
+ this
+ question,
+ is
+ code
+ review
+
+
+dead?
+
+
+Be
+ because
+ specifically
+ human
+ code
+
+
+review,
+ there's
+ so
+ many
+ signs
+ that
+ it
+ is
+
+
+on
+ its
+ last
+ legs.
+ It's
+ the
+ the
+ teams
+ who
+
+
+are still
+ doing
+ it
+ who
+ I
+ talk
+ to,
+ it's
+
+
+kind
+ of
+ theater.
+ It's
+ like
+ you know,
+
+
+LGTM
+ looks
+ good
+ to
+ me,
+ but
+ people
+ no
+
+
+longer
+ add
+ comments,
+ they
+ no
+ longer
+ read
+
+
+it
+ and
+ companies
+ like
+ Uber
+ are
+ are
+ now
+
+
+making
+ changes
+ to
+ just
+ make
+ it
+ so
+ much
+
+
+easier
+ for
+ people
+ to
+ you
+ know, like
+ see
+
+
+what
+ a
+ code
+ review
+ does
+ cuz
+ they
+ also
+
+
+know
+ people
+ no
+ longer
+ they
+ they
+ spend
+
+
+less
+ and less
+ time
+ reading
+ it
+ because
+
+
+there's
+ just
+ more
+ of
+ them,
+ right?
+
+
+>> Yeah,
+ you're
+ right.
+ I
+ mean
+ the
+ human
+
+
+code
+ review
+ is
+ dead,
+ but
+ the
+ human
+
+
+review
+ is
+ not
+ dead.
+ Some
+ review
+ still
+
+
+has
+ to
+ happen.
+ If
+ you
+ look
+ at
+ the
+
+
+software
+ development
+
+
+space,
+ there
+ used
+ to
+ be
+ like
+ a
+ upstream
+
+
+kind
+ of
+ a guard
+ like
+ when
+ you
+ were
+ like
+
+
+planning
+ the
+ work
+ because
+ your
+
+
+engineering
+ was
+ the
+ expensive
+ resource.
+
+
+So
+ when
+ you
+ were
+ using
+ the
+ tools
+ like
+
+
+linear
+ Jira,
+ one
+ of the
+ reasons
+ to do
+
+
+this
+ Agile
+ and
+ sprints
+ was
+ to
+ make
+ sure
+
+
+your
+ developers
+ are
+ working
+ on
+ most
+
+
+important
+ tasks.
+
+
+>> We don't
+ like
+ spend
+ a
+ bunch
+ of
+ time
+ and
+
+
+effort
+ building
+ something
+ that
+ will
+
+
+throw
+ away,
+ right?
+
+
+>> So,
+ there
+ was
+ a
+ lot
+ of
+ regulation
+
+
+upstream
+ earlier.
+ Now
+ that
+ floodgate
+ has
+
+
+suddenly
+ opened
+ with
+ AI.
+ Now
+ you
+ can
+ go
+
+
+from
+ idea
+ to
+ code
+
+
+without
+ going
+ through
+ planning.
+ Like
+ you
+
+
+have
+ a support
+ ticket
+ coming
+ in.
+ People
+
+
+will
+ just
+ ask
+ Devin
+ to
+ look
+ at
+ it
+ or
+
+
+CodeRabbit
+ Slack
+ bot
+ or
+ something,
+
+
+right?
+ At
+ the
+ same
+ time,
+ your
+ designers
+
+
+and
+ people
+ who
+ were
+ not
+ software
+
+
+engineers
+ are
+ now
+ doing
+ coding
+ as
+ they
+
+
+should
+ be
+ because
+ they
+ know
+ what
+ to
+
+
+build.
+ A
+ lot
+ of
+ designers
+ are
+ shipping
+
+
+code.
+ You
+ have
+
+
+background
+ agents
+ like
+ Datadog
+ is
+ now
+
+
+going
+ to
+ be
+ opening
+ PRs.
+ Each
+ time
+ it
+
+
+sees
+ an
+ alert,
+ it's
+ going
+ to
+ say,
+ I'm
+
+
+going
+ to
+ do
+ it
+ for
+ you,
+ right?
+
+
+>> Yeah.
+
+
+>> So
+ what
+ that
+ means
+ is
+ that
+ your
+ planning
+
+
+layer
+ and
+ the
+ review
+ gate
+ still
+ has
+ to
+
+
+exist
+ somewhere
+ and
+ that
+ becomes
+ the
+
+
+pull
+ request
+ because
+ everything
+ upstream
+
+
+there's
+ a
+ influx
+ now
+ happening,
+ right?
+
+
+And
+ when
+ you
+ have
+ a pull
+ request
+ open
+
+
+doesn't
+ mean
+ that
+ you
+ have
+ to
+ ship
+ it.
+
+
+At
+ that
+ point,
+ you
+ decide
+ whether
+ this
+
+
+is
+ worth
+ spending
+ my
+ time,
+ whether
+ I
+
+
+take
+ it
+ to
+ production
+ or
+ not
+ because
+ the
+
+
+human
+ taste
+ is
+ the
+ bottleneck
+ now,
+ human
+
+
+judgment.
+ [clears throat]
+
+
+So when
+ a
+ human
+ is
+ coming
+ in,
+ they're
+
+
+first
+ making
+ a
+ decision,
+ is
+ this
+
+
+something
+ I
+ need
+ to
+ ship?
+ Is
+ it
+ slop
+ I
+
+
+need
+ to
+ close?
+ I
+ mean
+
+
+and
+ you
+ look
+ at
+ decision
+ after
+ the
+ code
+
+
+is
+ there,
+ right?
+ Second
+ thing
+ you're
+
+
+doing
+ is
+ like
+ what's
+ the
+ risk?
+ Can
+ it
+
+
+just
+ go
+ through
+ production
+ without
+ me
+
+
+looking
+ at
+ the
+ code
+ or
+ do
+ I
+ need
+ to
+
+
+understand
+ the
+ broader
+ implication?
+ Is
+
+
+it
+ like
+ a
+ database
+ migration
+ it
+ is
+
+
+doing?
+ Why
+ is
+ it
+ doing
+ the migration?
+ Or
+
+
+you
+ want
+ to
+ sometimes
+ look
+ at
+ the
+
+
+schemas
+ because
+ that's
+ more
+ structural
+
+
+change,
+ right?
+ So
+ we
+ do
+ all
+ that
+ like
+
+
+risk
+ management
+ within
+ CodeRabbit.
+ So
+
+
+some
+ PRs
+ are
+ on
+ fast
+ track
+ to
+
+
+production.
+ We
+ are
+ even
+ letting
+ our
+
+
+interns
+ ship
+ directly
+ to
+ production.
+ So
+
+
+human
+ code
+ review
+ is
+ dead,
+ but
+ I
+ would
+
+
+say
+ human
+ still
+ review
+
+
+some
+ of the
+ higher
+ order
+ abstraction.
+
+
+And
+ how
+ we
+ are
+ like
+ doing
+ this
+ with
+ SOC
+
+
+2
+ compliance
+ is
+ also
+ interesting.
+ So
+ we
+
+
+don't
+ really
+ so
+ the
+ definition
+ of
+ change
+
+
+at
+ CodeRabbit
+ is
+ now
+ a
+ release.
+
+
+So
+ we
+ have
+ a
+ Slack
+ message.
+ We
+ kind
+ of
+
+
+get
+ all
+ the
+ the
+ indicators
+ around
+ the
+
+
+risk
+ we
+ are
+ taking
+ each
+ PR.
+ You
+ have
+ a
+
+
+minimal
+ risk,
+ high
+ risk.
+ And
+ over
+ there,
+
+
+you
+ kind
+ of
+ make
+ a
+ decision
+ on
+ whether
+
+
+this
+ can
+ go
+ or
+ something
+ has
+ to
+ be
+
+
+rolled
+ back.
+
+
+>> Mhm.
+
+
+>> So each
+ release
+ is
+ what
+ we are
+ reviewing
+
+
+now,
+ not
+ PRs
+ as
+ a
+ human.
+
+
+>> And
+ then
+ when
+ you
+ say
+ human
+ review,
+ just
+
+
+to
+ be
+ clear,
+ human
+ means
+ software
+
+
+engineer
+ or
+ can
+ it
+ also
+ mean
+
+
+non-software
+ engineer?
+ I'm
+ just
+ curious
+
+
+if
+ you
+ still
+ think
+ the accountability
+
+
+needs
+ to
+ sit
+ with
+ people
+ who
+ kind
+ of
+
+
+know
+ the
+ internals
+ or
+ can
+ it
+ be
+ someone
+
+
+else?
+ Can
+ it
+ be
+ product
+ manager,
+
+
+designer?
+
+
+>> I
+ think
+ it's
+ still
+ software
+ engineers
+
+
+that
+ code
+ rabbit.
+ Like
+ they're
+ not
+
+
+necessarily
+ looking
+ at
+ the
+ code
+ anymore,
+
+
+but
+ they
+ are
+ actually
+ understanding
+ the
+
+
+risk
+ that
+ we
+ are
+ taking
+ with
+ each
+
+
+release.
+
+
+>> Mhm.
+ So
+ it's
+ about
+ who
+ can
+ understand
+
+
+the
+ risk.
+
+
+>> if
+ something
+ goes
+ bad,
+ then
+ they
+ are
+
+
+going
+ to
+ be
+ the
+ one
+ dealing
+ with
+ it,
+
+
+like
+ rolling
+ back.
+ Like
+ it
+ takes
+ like
+ 10
+
+
+15
+ minutes
+ to roll
+ back.
+ I mean,
+ that's
+
+
+the
+ worst
+ that
+ can
+ happen
+ if something
+
+
+goes
+ bad.
+ But
+ they
+ are
+ still
+ taking
+ the
+
+
+responsibility.
+ So
+ we
+ ideally
+ want
+ like
+
+
+developers
+ to
+ be
+ around
+ when
+ something
+
+
+goes
+ out
+ so
+ they
+ can
+ babysit
+ what
+ they
+
+
+just
+ shipped.
+
+
+>> Yeah.
+
+
+>> Um that's
+ why
+ we
+ try
+ to
+ release
+ so
+
+
+frequently.
+
+
+Uh but
+ at the
+ same
+ time,
+ like
+ with
+ the
+
+
+person
+ who's
+ approving
+ the
+ release,
+ we
+
+
+have
+ SREs
+ and
+ also
+ they
+ also
+ like
+ are
+
+
+taking
+ some
+ responsibility
+ at
+ that
+
+
+point.
+
+
+>> I
+ think
+ it
+ it
+ makes
+ perfect
+ sense,
+
+
+especially
+ for
+ a business
+ because
+ we're
+
+
+talking
+ about
+ a business
+ where
+ you
+
+
+actually
+ have
+ revenue,
+ you
+ have
+ users,
+
+
+you
+ know,
+ like
+ if
+ Slop
+ goes
+ out
+ and
+ it
+
+
+takes
+ down
+ production,
+
+
+you're
+ going
+ to
+ just
+ lose
+ customers
+ or
+
+
+goodwill
+ or
+ cost
+ frustration
+ and
+ so
+ on.
+
+
+So
+ I
+ think
+ it's
+ great
+ that
+ you're
+
+
+saying,
+ okay,
+ let's
+ have
+ someone
+
+
+accountable.
+ But
+ the problem
+ that
+ us
+
+
+devs
+ have
+ is
+ there's
+ just
+ a
+ lot
+ more
+
+
+changes
+ and
+
+
+I'm
+ not
+ going
+ to
+ have
+ time
+ to
+ read
+
+
+through
+ all
+ of
+ them.
+
+
+What
+ ways
+ are
+ you
+ thinking
+ either
+ now
+ or
+
+
+in
+ the
+ future?
+ What
+ do
+ you
+ think
+ needs
+
+
+to
+ change
+ so
+ that
+ as
+ engineers,
+ as
+ as
+
+
+the
+ person
+ who's
+ making
+ that
+ decision,
+ I
+
+
+can
+ just
+ have
+ better
+ information
+ so,
+ you
+
+
+know,
+ like
+ focus
+ my
+ attention
+ where
+ I
+
+
+need
+ to
+ focus?
+ Like
+ for
+ example,
+ I
+ don't
+
+
+really
+ want
+ to
+ review
+ a
+ a
+ manual
+
+
+refactoring
+ that
+ just
+ move
+ things
+ around
+
+
+and
+ it
+ compiles.
+ I
+ mean,
+ I'm
+ I
+ could,
+
+
+but
+ you
+ know,
+ that
+ there's
+ there's
+ good
+
+
+use
+ of
+ my
+ time
+ and
+ there's
+ poor
+ use
+ of
+
+
+my
+ time
+ and
+ I
+ feel
+ as
+ you
+ will
+ know
+ from
+
+
+yourself
+ as
+ well.
+ I
+ mean,
+ you've
+ shipped
+
+
+like
+ so
+ so
+ many
+ pull
+ requests,
+ you
+ will
+
+
+probably
+ focus
+ your
+ time
+ on
+ the
+ critical
+
+
+stuff.
+
+
+>> That's
+ right.
+ I
+ think
+ the
+ human
+ judgment
+
+
+is
+ scarce
+ now,
+ right?
+ And
+ you
+ want
+ to
+
+
+like
+ first
+ of
+ all
+ not
+ look
+ at
+ the
+ code.
+
+
+There's
+ higher
+ order
+ abstraction.
+ You
+
+
+want
+ to understand
+ the
+ risk,
+ understand
+
+
+the
+ blast
+ area,
+ especially
+ if
+ you are
+
+
+familiar
+ with
+ some
+ area
+ of
+ the
+ code,
+ you
+
+
+might
+ also
+ want
+ to
+ have
+ inputs
+ on
+ the
+
+
+architectural
+ change.
+ Like
+ for example,
+
+
+like
+ if
+ you're
+ writing
+ a
+ migration
+ on
+ a
+
+
+large
+ table,
+ like
+ it's
+ going
+ to crash
+ in
+
+
+production.
+ You
+ have
+ some
+ of
+ these
+ like
+
+
+tribal
+ knowledge
+ you
+ want
+ to
+ bring
+ in,
+
+
+right?
+
+
+>> Yeah.
+
+
+>> Other
+ thing
+ is
+ like
+ also
+ like
+ I
+ kind
+ of
+
+
+see
+ like
+ now
+ driving
+ these
+ agents
+ almost
+
+
+like
+ getting
+ a driver's
+ license,
+ right?
+
+
+So
+ we
+ basically
+ even
+ on
+ the
+ developers
+
+
+put
+ some
+ responsibility
+ on
+ them
+ who
+ are
+
+
+shipping.
+
+
+So
+ we
+ let
+ people
+ ship
+ if
+ they
+ are
+ in
+ the
+
+
+like
+ review
+ exempt
+ list.
+ So
+ we
+ also
+ have
+
+
+like
+ different
+ lists
+ and
+ groups
+ and
+
+
+teams
+ where
+
+
+based
+ on
+ their
+ experience
+ and
+ their
+ past
+
+
+performance,
+ they
+ can
+ either
+ go
+ to
+
+
+production
+ without
+ a
+ human
+ review
+ or
+ we
+
+
+put
+ them
+ in
+ a
+ group
+ where
+ they
+ need
+ a
+
+
+human
+ review.
+
+
+>> That
+ sounds
+ like
+ based
+ on
+ a
+ trust
+ that
+
+
+you
+ built
+ up
+ with
+ them.
+
+
+>> The
+ way
+ we have
+ done
+ that
+ is
+ like
+ we
+ do
+
+
+look
+ at
+ how
+ long
+ there
+ was
+ a
+ regression
+
+
+in
+ production.
+ So
+ because
+ we
+ look
+ at
+ the
+
+
+code
+ when
+ you
+ fix
+ something,
+ we
+ are
+ able
+
+
+to
+ tie
+ that
+ back
+ into
+ the
+ PR
+ that
+
+
+introduced
+ it.
+
+
+>> Mhm.
+
+
+>> And
+ now
+ if
+ someone
+ has
+ been
+
+
+irresponsible,
+ like
+ they
+ did
+ hard
+
+
+prompting
+ there
+ or
+ they
+ did
+ not
+ follow
+
+
+through
+ their
+ change
+ into
+ production,
+
+
+you
+ will
+ have
+ sometimes
+ a
+ 100
+ hours
+ of
+
+
+exposure.
+ Means
+ someone
+ had
+ to
+ point
+
+
+out,
+ some
+ customer
+ had
+ to
+ point
+ out
+ that
+
+
+something
+ regressed,
+ you
+ didn't
+ QA
+ it
+ or
+
+
+something.
+
+
+And
+ once
+ you
+ have
+ like
+ enough
+ strikes,
+
+
+we
+ take
+ your
+ driving
+ license
+ away.
+ We
+
+
+make
+ you
+ go
+ through
+ the
+ code
+ review.
+
+
+Then
+ then
+ you
+ go
+ through
+ like
+ a
+ like
+ a
+
+
+proving
+ period
+ with
+ some
+ human
+ reviews
+
+
+and
+ then
+ we
+ let
+ you
+ ship
+ on
+ your
+ own.
+
+
+So
+ we're trying
+ to like
+ set
+ up
+ a culture
+
+
+where
+ like
+ I
+ think
+ responsibility
+ is
+
+
+also
+ with
+ the
+ developers
+ to
+ not
+ drive
+
+
+these
+ agents
+ off
+ the
+ cliff.
+
+
+>> I
+ like
+ this
+ driving
+ license
+ analogy
+
+
+honestly
+ because
+ we
+ talk
+ a
+ lot
+ about
+
+
+well
+ I
+ talk
+ a
+ lot
+ about
+ or
+ worry
+ about
+
+
+quality
+ because
+ I
+ I
+ can
+ see
+ that
+ quality
+
+
+seems
+ to
+ have
+ dipped
+ across
+ the
+ industry
+
+
+and
+ clearly
+ it's
+ because
+ there's
+ a
+ lot
+
+
+more
+ things
+ going
+ on
+ and
+ a lot
+ less
+
+
+review
+ and
+ it's
+ nice
+ to
+ tie
+ back,
+ you
+
+
+know,
+ that
+ feedback
+ loop
+ that
+ look
+ like
+
+
+I
+ think
+ it's
+ human,
+ right?
+ Like
+ if
+ the
+
+
+more
+ you
+ ship,
+ the
+ more
+ likely
+ you'll
+
+
+mess
+ up
+ and
+ as
+ long
+ as
+ there
+ you
+ own
+ it
+
+
+or
+ there's
+ consequences
+ or
+ or
+ you
+ say
+
+
+like
+ okay
+ from
+ now
+ on
+ for
+ for
+ this
+ time
+
+
+period,
+ either
+ you
+ know
+ come
+ up
+ with
+
+
+better
+ practices
+ or
+ have
+ a second
+
+
+person,
+ have
+ a second
+ pair
+ of
+ eyes,
+
+
+which
+ is expensive,
+ but
+ this
+ is
+ what
+ we
+
+
+used
+ to do
+ even
+ before
+ AI,
+ right?
+ The
+
+
+intern
+ for
+ you
+ you
+ give
+ the
+ trust
+ intern
+
+
+to
+ ship,
+ but
+ we
+ didn't
+ have
+ it.
+ The
+
+
+intern
+ needed
+ to have
+ like
+ two
+ sign
+ offs
+
+
+for
+ example.
+
+
+>> Right.
+ I
+ mean
+ it's
+ almost
+ like
+ that.
+
+
+Like
+ I think
+ people
+ have
+ to
+ have
+
+
+responsibility.
+ Like
+ we
+ have
+ seen
+ some
+
+
+developers
+ are really
+ good
+ in
+ asking
+ the
+
+
+AI
+ the
+ right
+ questions
+ around
+ the
+
+
+implementation
+ they
+ just
+ generated
+
+
+they're
+ more
+ diligent.
+ And
+ some
+
+
+developers
+ will
+ come
+ in
+ give
+ like
+
+
+ambiguous
+ high-level
+ goal
+ they
+ will
+ say
+
+
+just
+ solve
+ this
+ problem
+ for
+ me
+ and
+ AI
+
+
+will
+ like
+ completely
+ re-architect
+ it.
+
+
+Sometimes
+ you
+ have
+ to
+ pull
+ the
+ plug
+ when
+
+
+we
+ start
+ shipping
+ seeing
+ those
+ PR
+ show
+
+
+obvious
+ saying
+ okay
+ we
+ need
+ to
+ stop
+ that
+
+
+right
+ away.
+ We
+ have
+ seen
+ those
+ kind
+ of
+
+
+things
+ so some
+ people
+ are like
+ good
+ with
+
+
+even
+ prompting
+ and
+ steering
+ these
+ agents
+
+
+and
+ others
+ are
+ just
+ reckless
+
+
+and
+ um
+ that's
+ that's
+ a behavior
+ we
+ then
+
+
+try
+ to
+ penalize.
+
+
+>> Yeah
+ I
+ I
+ do
+ like
+ the idea
+ of
+
+
+responsibility
+ as
+ well
+ but
+ there
+ there's
+
+
+a
+ question
+ of like
+ why
+ if
+ the
+ AI
+ will
+
+
+get
+ even
+ better
+ right
+ like
+ we
+ just
+ we're
+
+
+just
+ speculating
+ here
+ but
+ at
+ that
+ point
+
+
+why
+ would
+ you
+ pay
+ software
+ engineers
+ and
+
+
+I
+ kind
+ of
+ keep
+ coming
+ back
+ to
+ the idea
+
+
+that
+ well
+ you know
+ why
+ do
+ I
+ pay
+ a
+
+
+plumber
+ to
+ come
+ when
+ I
+ could
+ just
+ watch
+
+
+a YouTube
+ video
+ and
+ I
+ could
+ fix
+ my
+
+
+toilet
+ the
+ problem
+ is
+ that
+
+
+you
+ know
+ like
+ nine
+ out
+ of
+ 10
+ times
+ it
+
+
+probably
+ works
+ but
+ the 10
+ times
+ I
+ made
+
+
+it might
+ either
+ clog
+ it
+ or
+ break
+ it
+ or
+
+
+something
+ and
+ I'm
+ paying
+ the
+
+
+professional
+
+
+>> Yeah.
+
+
+>> because
+ if
+ they
+ come
+ in
+ and
+ they
+ mess
+ it
+
+
+up
+
+
+they
+ are responsible
+ and
+ they
+ will
+ fix
+
+
+it
+ and
+ I
+ I'm
+ kind
+ of
+ thinking
+ that
+ as
+
+
+software
+ professionals
+ you know
+ like
+ we
+
+
+will
+ be
+ responsible
+ and
+ and
+ uh
+ you
+ know
+
+
+one
+ of the
+ reasons
+ we
+ will
+ hopefully
+ be
+
+
+you
+ know
+ be
+ be
+ paid
+ the
+ big
+ bucks
+ is
+ is
+
+
+we
+ can
+ take
+ responsibility
+ for
+ a complex
+
+
+system
+ where
+ an
+ outage
+ is
+ just
+ very
+ uh
+
+
+costly
+ right?
+
+
+>> No
+ I
+ think
+ the
+ responsibility
+ to
+ some
+
+
+extent
+ matters
+ like
+ the
+ things
+ you
+ can't
+
+
+force
+ here
+ we
+ all
+ we
+ have
+ to
+ be
+
+
+reasonable
+ with
+ responsibility
+ software
+
+
+are
+ still
+ like
+ complex
+ systems
+ they
+
+
+break
+ in
+ very
+ complex
+ ways
+ right?
+
+
+>> Um
+ fair.
+
+
+>> Um
+ and
+ you
+ saw
+ that
+ today
+ the
+ tweet
+
+
+around
+ like
+ railway
+ employee
+ hacking
+ and
+
+
+then
+ they
+ blaming
+ agents
+ going
+ off
+ track
+
+
+but
+ in
+ the
+ end
+ like
+ it's
+ really
+ humans
+
+
+who have
+ to
+ be
+ responsible
+ with
+ how
+
+
+they're
+ driving
+ these
+ agents
+ right
+ and
+
+
+they
+ can
+ do
+ your
+ bidding
+ but
+ they
+ can
+
+
+also
+ go
+
+
+in
+ crazy
+ directions
+ right?
+
+
+I
+ think
+ I
+ think
+ that's
+ important
+ and
+ the
+
+
+other
+ thing
+ is
+ like
+ with
+ this
+ kind
+ of
+
+
+when
+ you're
+ shipping
+ at
+ agent
+ X
+ speed
+
+
+your
+ operations
+ also
+ have
+ to
+ be
+ agentic
+
+
+so
+ one
+ of
+ the things
+ we
+ are
+ like
+
+
+agreeing
+ is
+ that
+ okay
+ we
+ our
+ goal
+ is
+ not
+
+
+to
+ prevent
+ every
+ outage
+ it's
+ like
+ to
+
+
+make
+ sure
+ that
+ the
+ exposure
+ time
+ of
+
+
+something
+ bad
+ happening
+ in
+ production
+ is
+
+
+as
+ little
+ as
+ possible.
+
+
+>> Mhm.
+
+
+>> Which
+ also
+ means
+ that
+ agents
+ need
+ to
+ be
+
+
+looking
+ at
+ production.
+
+
+>> Yes.
+
+
+>> If that's
+ out
+ of
+ lockstep,
+ you can't
+
+
+ship
+ fast.
+ You're
+ going
+ to
+ be
+ more
+ like
+
+
+AWS.
+ You
+ burn
+ your
+ hands
+ with
+ AI
+ and
+
+
+you're
+ going
+ to say
+ ban
+ AI
+ from
+ my
+
+
+codebase.
+
+
+>> What
+ you're
+ saying
+ as
+ I
+ understand
+ is
+
+
+okay,
+ you
+ know,
+ we'll
+ have
+ agentic
+
+
+you
+ know, feedback
+ to
+ verify
+ the
+ code
+ or
+
+
+or
+ give
+ AI
+ code
+ review,
+ whatever
+
+
+whatever
+ that
+ is
+ or
+ run
+ maybe
+ fast
+ tests
+
+
+etc.
+
+
+But
+ the
+ observability
+ layer
+ should
+ also
+
+
+likely
+ be
+ tied
+ it
+ like
+ it's
+ all
+ part
+ of
+
+
+the
+ the
+ QA.
+
+
+>> It has
+ to
+ be
+ because
+ your
+ defect
+ rates
+
+
+maybe
+ are not
+ going
+ down,
+ but
+ now
+ you're
+
+
+shipping
+ more
+ defects
+
+
+>> Mhm.
+
+
+>> because
+ the
+ volume
+ has
+ gone
+ up,
+ right?
+
+
+Which
+ means
+ that
+ you
+ have
+ to
+ stay
+ on
+ top
+
+
+of
+ them.
+ Like
+ you
+ have
+ to
+ have
+ agents
+
+
+always
+ looking
+ at
+ not
+ just
+ alerts.
+ In
+
+
+fact,
+ alerts
+ are
+ limited
+ by
+ your
+
+
+imagination
+ on
+ the
+ failure
+ scenarios
+ you
+
+
+imagine.
+ Like
+ actually
+ these
+ agents
+ are
+
+
+really
+ good
+ at
+ looking
+ at
+ logs.
+ They're
+
+
+great
+ looking
+ at
+ traces,
+
+
+right?
+ So
+ the
+ way
+ in
+ fact
+ those
+ are
+ the
+
+
+areas
+ we
+ are still
+ not
+ like
+ fully
+ scaled
+
+
+yet.
+ Like
+ there's
+ so
+ many
+ areas
+ of
+ our
+
+
+code
+ where
+ we
+ have
+ had
+ longer
+
+
+exposure
+ in
+ production
+ with
+ bad
+ code
+
+
+because
+ no
+ agent
+ was
+ looking
+ at
+ it.
+
+
+Wherever
+ we
+ have
+ agents
+ looking,
+ we
+ are
+
+
+able
+ to
+ quickly
+ resolve
+ stuff
+ at
+ agent
+
+
+speeds
+ as
+ well.
+ So
+ entire
+ software
+
+
+development
+ from
+ left
+ to
+ right
+
+
+is
+ now
+ going
+ to
+ be
+ driven
+ by
+ agents
+
+
+including
+ production
+
+
+and
+ including
+ marketing
+ even
+ stuff
+ going
+
+
+out
+ you
+ have to
+ now
+ be
+ agentic
+ now.
+
+
+>> Hard
+ just
+ said
+ how
+ software
+ development
+
+
+is
+ going
+ to
+ be
+ fully
+ driven
+ by
+ agents.
+
+
+And
+ what
+ agents
+ write
+ ship
+ and
+ fix
+ most
+
+
+of the
+ code,
+ you
+ want
+ to
+ know
+ why
+ each
+
+
+change
+ happened,
+ which
+ brings
+ us
+ to
+ our
+
+
+season
+ sponsor
+ Entire.
+ A few
+ weeks
+ ago
+ I
+
+
+told
+ you
+ that
+ Entire
+ was
+ building
+ a Git
+
+
+Forge.
+ Well,
+ it's
+ finally
+ here.
+ You
+ can
+
+
+now
+ host
+ private
+ repos
+ directly
+ in
+
+
+Entire
+ in the
+ US,
+ Europe,
+ UK,
+ India,
+
+
+Australia,
+ Brazil,
+ and
+ Singapore.
+ And
+
+
+Entire
+ has
+ just
+ [clears throat]
+
+
+reinvented
+ the pull
+ request
+ for
+ the
+
+
+agentic
+ era.
+ The
+ problem
+ with
+ PRs
+ is
+ how
+
+
+agents
+ write
+ faster
+ than
+ how
+ any
+ of
+ us
+
+
+can
+ review
+ it.
+ So
+ Entire
+ replace
+ it
+ with
+
+
+something
+ called
+ Trails.
+ A
+ trail
+
+
+connects
+ everything
+ about
+ the
+ work
+ in
+
+
+one
+ place,
+ the
+ intent,
+ the
+ code
+ changes,
+
+
+the
+ agent
+ sessions.
+
+
+A
+ trail
+ can
+ be
+ spread
+ across
+ multiple
+
+
+repos
+ so
+ the
+ change
+ to
+ your
+ backend
+ and
+
+
+your
+ web
+ app
+ gets
+ reviewed
+ once.
+
+
+With
+ the
+ trail,
+ you
+ can
+ configure
+
+
+customize
+ evals.
+ They
+ look
+ like
+ heads
+ up
+
+
+display
+ on
+ airplane
+ and
+ score
+ your
+ work
+
+
+on
+ every
+ push.
+
+
+And
+ you
+ can
+ see
+ how
+ each
+ agent
+ from
+
+
+passes
+ or
+ fails
+ your
+ user
+ defined
+ gates
+
+
+and
+ decide
+ when
+ you
+ merge
+ based
+ on
+
+
+these.
+ The
+ point
+ is
+ that
+ you
+ control
+
+
+when
+ you
+ allow
+ agents
+ to
+ be
+ allowed
+ to
+
+
+merge
+ the
+ code,
+ like
+ only
+ merging
+ after
+
+
+a human
+ review
+ or
+ after
+ all
+ gates
+ pass.
+
+
+Oh,
+ and
+ one
+ more
+ thing.
+ Entire
+ ship
+
+
+continuous
+ memory.
+
+
+Entire
+ turns
+ your
+ repo
+ into
+ a brain
+ so
+
+
+your
+ agent
+ can
+ search
+ past
+ coding
+
+
+sessions
+ to
+ find
+ the
+ context
+ behind
+
+
+earlier
+ changes.
+ Basically
+ answer
+ the
+
+
+why
+ behind
+ code
+ changes.
+
+
+Memories
+ get
+ shared
+ across
+ the
+ team
+ and
+
+
+across
+ the
+ repo.
+
+
+If
+ you
+ want
+ to
+ see
+ what
+ an
+ AI
+ native
+ Git
+
+
+Forge
+ looks
+ like,
+ head
+ to
+
+
+entire.io/pragmatic
+
+
+and
+ check
+ out
+ trails.
+ And
+ once
+ agents
+
+
+are
+ observing
+ production
+ and pushing
+
+
+fixes,
+ someone
+ has
+ to
+ decide
+ what
+
+
+they're
+ allowed
+ to
+ touch,
+ which
+ is
+ why
+
+
+I'd
+ also
+ like
+ to
+ mention
+ our
+ season
+
+
+sponsor,
+ WorkOS.
+
+
+WorkOS
+ provides
+ the
+ auth
+ infrastructure
+
+
+B2B
+ and
+ AI
+ native
+ companies
+ need
+ to
+ sell
+
+
+to
+ enterprise
+ customers
+ with
+ SSO,
+ SCIM,
+
+
+RBAC,
+ and
+ now
+ authorization
+ for
+ AI
+
+
+agents.
+ WorkOS
+ Airlock
+ is
+ intent
+ based
+
+
+access
+ control.
+
+
+Most
+ access
+ control
+ only
+ asks
+ who
+ you
+
+
+are.
+ Airlock
+ also
+ looks
+ at
+ what
+ the
+
+
+agent
+ is
+ trying
+ to
+ do
+ at
+ the
+ moment
+ it
+
+
+tries
+ to
+ do
+ it.
+ Clear
+ cut
+ rules
+ like
+ no
+
+
+agent
+ deletes
+ cloud
+ resources
+ or
+ run
+ as
+
+
+playing
+ code.
+ For
+ the
+ fuzzier
+ calls,
+ an
+
+
+AI
+ judge
+ evaluates
+ the
+ policy
+ at
+
+
+runtime.
+
+
+You
+ write
+ these
+ policies
+ in
+ plain
+
+
+English
+ and
+ Cloud
+ can
+ pull
+ the
+ ones
+ you
+
+
+already
+ had
+ out
+ of
+ Notion
+ or
+ Jira
+ and
+
+
+import
+ them
+ for
+ you.
+ Your
+ agents,
+
+
+whether
+ that's
+ Cloud
+ or
+ Devon,
+ connect
+
+
+to
+ a
+ single
+ access
+ point
+ and
+ your
+ MCP
+
+
+servers
+ are
+ behind
+ this
+ access
+ point.
+
+
+Airlock
+ is
+ a
+ new
+ layer
+ on
+ top
+ of your
+
+
+existing
+ permissions,
+ which
+ means
+ that
+
+
+an
+ agent
+ can
+ never
+ get
+ more
+ access
+ than
+
+
+the
+ person
+ who
+ invoked
+ the
+ agent
+ has.
+
+
+When
+ something
+ risky
+ comes
+ up,
+ Airlock
+
+
+can
+ escalate
+ to
+ human
+ for
+ approval,
+ say
+
+
+over
+ Slack.
+ The
+ idea
+ is
+ to
+ write
+ the
+
+
+rules
+ once
+ and
+ spend
+ human
+ attention
+
+
+only
+ on
+ the calls
+ that
+ needed.
+ You
+ can
+
+
+request
+ early
+ access
+ at
+
+
+workos.com/airlock.
+
+
+And
+ with
+ this,
+ let's
+ get
+ back
+ to
+ Hardjod
+
+
+and
+ what
+ happens
+ to
+ code
+ quality
+ when
+
+
+agents
+ write
+ most
+ of the
+ code.
+
+
+Let's
+ talk
+ a
+ little
+ bit
+ about
+ quality
+
+
+because
+ in
+ your
+ previous
+ startups,
+ you
+
+
+know,
+ pre
+ AI,
+ you've
+ you
+ built
+ some
+
+
+infrastructure
+ tooling
+ which,
+
+
+you know,
+ reliability
+ is
+ very
+ important
+
+
+at
+ those
+ place,
+ accuracy
+ when
+ when
+ you
+
+
+have
+ the
+ monitoring.
+ I
+ I
+ assume
+ these
+
+
+are
+ all
+ non-negotiable.
+
+
+But
+ what's
+ happening
+ now
+ with
+ AI,
+ what
+
+
+we're
+ seeing
+ is
+ when
+ you're
+ using
+ AI
+ to
+
+
+generate
+ code,
+
+
+it's
+ great.
+ It
+ it
+ does
+ it
+ faster
+ than
+ I
+
+
+could
+ do
+ usually,
+
+
+similar
+ or
+ better
+ quality
+ than
+ what
+ I
+
+
+could
+ have
+ done.
+ But
+ it
+ does
+ get
+
+
+verbose.
+ It
+ can
+ just
+ repeat
+ itself.
+ It
+
+
+can
+ just
+ add
+ a lot
+ of
+ tech
+ debt,
+ you
+
+
+know,
+ like
+ once
+ once
+ you
+ start
+
+
+generating
+ enough,
+ you
+ you
+ see
+ that
+ it's
+
+
+it's
+ just
+ gone
+ a bit
+ more
+ bloated
+ or
+ or
+
+
+a lot
+ more
+ bloated.
+
+
+What
+ is
+ your
+ observations
+ here
+ on
+ how
+
+
+did
+ you see
+ this
+ used
+ to
+ be
+ for
+ the
+
+
+earlier
+ models?
+ Have
+ newer
+ models
+
+
+changed
+ it?
+ And
+ and
+ what
+ is
+ it
+ still
+ a
+
+
+problem?
+ What
+ are
+ you
+ doing
+ about
+ it?
+
+
+>> Yeah, I
+ mean,
+ once
+ you
+ unleash
+ the
+
+
+agents
+ on
+ your
+ code
+ base,
+ there
+ is
+ some
+
+
+chaos.
+ I
+ mean, there's
+ a
+ saying
+ like
+ let
+
+
+the
+ chaos
+ reign
+ and
+ then
+ you
+ reign
+ in
+
+
+the
+ chaos.
+ That's
+ a
+ philosophy.
+ So
+
+
+rather
+ than
+ you
+ prevent
+
+
+the
+ entropy,
+ the
+ entropy
+ is
+ going
+ to
+
+
+increase
+ of
+ the
+ code
+ base.
+ Maybe
+ maybe
+
+
+your
+ security
+ posture
+ also
+ weakens.
+ Let
+
+
+me
+ because
+ you're
+ not
+ reusing
+ the
+ same
+
+
+auth
+ layers
+ or
+ something
+ like
+ reusing
+
+
+stuff.
+
+
+Then
+ you
+ need
+ to
+ have
+ agents
+ which
+ are
+
+
+self-maintaining
+ that
+ code,
+ the
+
+
+janitorial
+ like
+ the
+ Roombas,
+
+
+right?
+ So
+ that's
+ the
+ approach
+ we
+ are
+
+
+taking.
+ Let
+ let
+ let
+ people
+ ship
+ quickly,
+
+
+let
+ some
+ of the
+ chaos
+ reign.
+ Maybe
+
+
+things
+ are
+ not
+ scalable
+ right
+ now,
+ but
+
+
+then
+ you
+ have
+ the
+ agents
+ also
+ cleaning
+
+
+up
+ the
+ mess
+
+
+like
+ all
+ the
+ way
+ from
+ flaky
+ tests
+ to
+ bad
+
+
+abstractions
+ to
+ refactoring
+ the
+ code.
+
+
+For
+ example,
+ recently
+ we
+ ran
+ agents
+ to
+
+
+introduce
+ effect
+
+
+and
+ X
+ state
+ into
+ our
+ code
+ base.
+ So
+
+
+refactors
+ on
+ constantly
+ keep
+ happening,
+
+
+right?
+ So
+ you
+ only
+ make
+ sense
+ of
+ that
+
+
+mess
+ once
+ you
+ actually
+ have
+ the
+ mess
+
+
+there.
+ Like
+ then
+ you
+ figure
+ out
+ what's
+
+
+the
+ best
+ way.
+
+
+So
+ I
+ think
+ both
+ have
+ to
+ be
+ like
+ it's
+
+
+like
+ raining
+ in
+ the
+ chaos
+ as
+ they
+ say
+
+
+and
+ then
+ reign
+ in
+ the
+ chaos,
+ right?
+
+
+>> Yeah,
+ and
+ I
+ know
+ you
+ you
+ previously
+
+
+talked
+ about
+ things
+ like
+ de-slopping
+
+
+tests.
+
+
+>> Yeah.
+
+
+>> Can
+ you
+ tell
+ me
+ what
+ what
+ is
+ that?
+ Is
+ is
+
+
+that
+ a
+ skill?
+ Is
+ that
+ a
+
+
+>> Oh,
+ it's
+ massive.
+ Like
+ I'll
+ tell
+ you
+ our
+
+
+CI
+ has
+ gone
+ through
+ the
+ roof.
+ Like
+ I
+
+
+think
+ we're
+ probably
+ spending
+ as
+ much
+ on
+
+
+on
+ CI
+ as
+ tokens.
+
+
+>> And
+ you're
+ spending
+ a lot
+ on
+ tokens.
+
+
+>> Yes,
+ and
+ also
+ on
+ CI.
+ Like
+ CI
+ I
+ heard
+
+
+last
+ time,
+ like
+ vendor
+ quoted
+ us
+ like
+ 13
+
+
+million
+ or something
+ a year.
+
+
+We
+ built
+ our
+ own,
+ by
+ the
+ way,
+ now.
+
+
+>> Yeah,
+ but
+ but
+ that
+ that
+ would
+ have
+ been
+
+
+your
+ run
+ rate
+ if
+ you
+ would
+ have
+ stayed
+
+
+on
+ the
+ vendor.
+
+
+>> That's
+ right.
+ So
+ the
+ thing
+ is
+ like
+ these
+
+
+agents
+ are
+ now
+ because
+ they're
+ like
+
+
+writing
+ code
+ and
+ CLI
+ commands,
+ they're
+
+
+driving
+ a
+ lot
+ of compute.
+
+
+And
+ all
+ these
+ code
+ changes,
+ you're
+ still
+
+
+make
+ going
+ to
+ make
+ them
+ go
+ through
+ CI
+
+
+gates,
+ your
+ merge
+ queues
+ and
+ everything,
+
+
+right?
+ And
+ you're
+ in
+ fact
+ writing
+ more
+
+
+linters,
+ more
+ simulations
+ because
+ you
+
+
+want
+ to
+ be
+ sure.
+ There
+ are two
+ problems
+
+
+here.
+ One
+ is
+ like
+ a lot
+ of these
+ tests
+
+
+are
+ actually
+ useless.
+ So
+ we
+ already
+ have
+
+
+agents
+ which
+ are
+ deslopping
+ the
+ tests,
+
+
+removing
+ unit
+ tests,
+ doing
+ more
+
+
+integration
+ end-to-end
+ tests,
+
+
+um
+ redundant
+ tests.
+ Like
+ we
+ have
+ those
+
+
+running
+ all
+ the
+ time.
+
+
+Now
+ at
+ the
+ same
+ time,
+ it's
+ a constant
+
+
+battle.
+ Like
+ your
+ CI
+ time
+ goes
+ up,
+ but
+
+
+you
+ want
+ to
+ keep
+ them
+ within
+ three
+
+
+minutes
+ ideally.
+
+
+Like
+ that's
+ how
+ much
+ I
+ think
+ we
+ are like
+
+
+roughly
+ four
+ minutes
+ right
+ now.
+ And
+ at
+
+
+the
+ same
+ time,
+ um
+ you
+ then
+ you're
+
+
+sharding
+ and
+ all
+ like
+ the
+ costs
+ go
+ up.
+
+
+And
+ this
+ is
+ the
+ reason
+ like
+ one
+ of the
+
+
+things
+ is
+ like
+ at
+ our
+ scale,
+ like
+ it
+
+
+makes
+ sense
+ to
+ just
+ build
+ our
+ own.
+ So
+ we
+
+
+built
+ our
+ own
+ CI,
+ right?
+
+
+Running
+ right
+ now,
+ what
+ we
+ are
+ hitting
+
+
+is
+ like
+ compute
+ capacity.
+
+
+>> Um
+ are
+ we
+ talking
+ about
+ CPU
+ capacity?
+
+
+>> yes.
+ Even
+ GCP
+ unfortunately
+ has
+ very
+
+
+little
+ compute
+ available.
+ Anthropic
+ took
+
+
+it
+ all.
+
+
+So
+ we
+ were
+ in
+ the
+ central
+ region
+ and
+ we
+
+
+couldn't
+ even
+ upgrade
+ our
+ database
+
+
+instance.
+ We
+ run
+ out
+ of
+ compute.
+
+
+>> Damn.
+
+
+>> And
+ we
+ had
+ to
+ like
+ migrate.
+
+
+>> and
+ you're
+ like
+ just
+ to
+ be
+ clear,
+ you're
+
+
+not
+ the
+ smallest
+ of
+ companies.
+ I
+ mean,
+
+
+you
+ you
+ will
+ not
+ be
+ a
+ Google,
+ but
+ but
+
+
+you
+ have
+ plenty
+ of
+ of
+ budget.
+ Uh
+ you
+
+
+have
+ good
+ funding.
+ Like
+ you're
+ you
+ know,
+
+
+you're
+ ready
+ to
+ give
+ the
+ money
+ to
+
+
+>> Oh yeah,
+ we
+ have
+ signed
+ good
+ contracts
+
+
+with
+ them,
+ but
+ unfortunately
+ they
+ they
+
+
+they're
+ all
+ locked
+ in
+ by
+ the
+ large
+
+
+because
+ they're
+ all
+ running
+ sandboxes,
+
+
+RL
+ environments.
+ I don't
+ know
+ what
+
+
+they're
+ scaling,
+ but
+ they're
+ also
+ not
+
+
+just
+ scaling
+ GPUs
+ anymore,
+ but
+ they're
+
+
+even
+ the
+ RAM
+ CPU.
+
+
+>> because
+ I
+ I
+ wrote
+ about
+ the
+ the
+ CPU
+
+
+crunch
+ in
+
+
+in
+ the
+ Prismatic
+ engineer
+ a few
+ months
+
+
+ago,
+ but
+ you're
+ you're
+ a
+ good
+ example
+
+
+where
+ it's
+ it's
+ happening,
+ right?
+
+
+>> It
+ is
+ happening
+ in
+ a big
+ way
+ right
+ now.
+
+
+We
+ have
+ a
+ big
+ CPU
+ crunch
+ as
+ well
+ and
+
+
+it's
+ just
+ like
+ a
+ few
+ companies
+ shipping
+
+
+at
+ that
+ scale.
+ Like
+ I
+ mean,
+ for
+ the
+ rest
+
+
+of
+ the
+ world
+ to
+ get
+ there,
+ I
+ think
+ the
+
+
+biggest
+ bottleneck
+ is
+ going
+ to
+ be
+ the
+
+
+data
+ centers,
+ the
+ energy,
+ and
+ those
+ kind
+
+
+of
+ things.
+ The
+ models
+ are commoditized.
+
+
+Like
+ the
+ models
+ are
+ there,
+ but
+ they
+
+
+drive
+ a lot
+ of that
+ compute
+ as
+ they
+
+
+work.
+
+
+>> But
+ now
+ a
+ little
+ bit
+ talking
+ about
+ this
+
+
+CPU
+ crunch.
+ So,
+ cuz
+ I
+ think
+ this
+ is
+ I'm
+
+
+I'm
+ super
+ curious
+ to
+ to
+ learn
+ more
+ on
+
+
+both
+ what
+ you can
+ do
+ to
+ get
+ more
+ CPUs
+
+
+and
+ what
+ you
+ can
+ do
+ to
+ maybe
+ use
+ your
+
+
+CPUs
+ more
+ efficiently,
+ right?
+ You
+
+
+mentioned
+ Rust
+ and
+ I
+ I
+ wonder
+ if
+ this
+ is
+
+
+about
+ it
+ cuz
+ Rust
+ is
+ as
+ efficient
+ as
+ you
+
+
+can
+ get
+ your
+ code
+ down
+ to,
+ right?
+
+
+>> That's
+ what
+ we
+ did.
+ Like,
+ I
+ mean,
+ we
+
+
+were
+ on
+ TypeScript
+ earlier.
+ Like,
+ we
+
+
+just
+ moved
+ to
+ Bun.
+ I mean,
+ that
+ was
+ just
+
+
+another
+ I was
+ in
+ Tahoe
+ on
+ a
+ beach.
+ I
+ ran
+
+
+a
+ goal
+ and
+ over
+ the
+ weekend
+ all
+ the
+
+
+services
+ were
+ migrated
+ to
+ Bun.
+
+
+>> Dude,
+ your
+ your
+ your
+ idea
+ of
+ holiday.
+
+
+>> Yeah,
+ I mean,
+ I have
+ the
+ pictures
+ of
+ the
+
+
+team
+ was
+ so
+ surprised.
+ I
+ just
+ ran
+ a goal
+
+
+command
+ and
+ all
+ the
+ services
+ moved
+ to
+
+
+Bun
+ over
+ the
+ weekend.
+
+
+>> So
+ so
+ [laughter]
+ so
+
+
+just
+ so
+ I understand,
+ so
+ you
+ you
+ have
+
+
+this
+ thing
+ where
+ you
+ set
+ up
+ a goal
+ and
+
+
+then
+ you
+ do
+ a
+ long-running
+ session
+ in
+
+
+the
+ cloud
+ or
+ on
+ your
+ local
+ computer?
+
+
+>> Unfortunately,
+ it's
+ local.
+ Like,
+ I
+ mean,
+
+
+we
+ do
+ have
+ a cloud
+ agent,
+ but
+ I'm
+ the
+
+
+like
+ I
+ should
+ be the
+ one
+ using
+ it,
+ but I
+
+
+have
+ like
+ a powerful
+ machine,
+ so
+ I
+
+
+always
+ go
+ and
+
+
+>> And
+ and
+ then
+ it
+ goes
+ off
+ and
+ it
+ it
+ runs
+
+
+on
+ your
+ machine
+ and
+ it
+ runs
+ long-running
+
+
+task
+ and
+ it
+ usually
+ completes
+ it.
+
+
+>> It
+ does.
+ Like,
+ I
+ mean,
+ it
+ would
+
+
+sometimes
+ like
+ stall
+ to
+ ask
+ a
+ few
+
+
+questions,
+ but
+ some
+ of
+ these
+ like
+
+
+interestingly,
+ the
+ distributed
+ systems
+
+
+are now
+ far
+ easier
+ to
+ build.
+ They
+ don't
+
+
+need
+ much
+ hand
+ holding
+ because
+ there
+
+
+only
+ few
+ ways
+ to
+ get
+ something
+ right
+
+
+when
+ it
+ comes
+ to
+ the
+ architecture.
+
+
+The
+ product
+ it's
+ like
+ open-ended.
+ Like,
+
+
+the UI
+ you
+ can
+ build
+ in
+ 10
+ different
+
+
+ways
+ and
+ that's
+ where
+ the
+ taste,
+ the
+
+
+judgment
+ comes
+ in
+ a lot
+ more.
+
+
+But
+ we
+ used
+ to
+ pay
+ a lot
+ for
+ people
+
+
+doing
+ complex
+ scale
+ distributed
+ systems,
+
+
+things
+ like
+ Kubernetes
+ and
+ and
+ advanced
+
+
+caching,
+ observability,
+ scale,
+ right?
+ To
+
+
+be
+ honest,
+ those
+ things
+ are super
+ cheap
+
+
+now.
+
+
+>> So
+ you're
+ saying
+ that
+ that
+ part
+ that
+
+
+kind
+ of this
+ back
+ end,
+ even
+ though
+
+
+they're
+ complex,
+ has
+ been
+ commoditized
+
+
+thanks
+ to
+ the
+ models?
+
+
+>> Yeah,
+ because
+ they're
+ like
+ as
+ this
+ as
+
+
+the
+ saying
+ goes,
+ like
+ there's
+ only
+ maybe
+
+
+one
+ way
+ of
+ building
+ Unix.
+ If
+ you
+ were
+ to
+
+
+build
+ it
+ today,
+ you're
+ going
+ to
+ come
+ up
+
+
+with
+ the
+ same
+ abstractions.
+
+
+>> Yeah,
+ and
+ like
+ it's
+ going
+ back
+ to
+ for
+
+
+example
+ Kubernetes.
+ I had
+ Kat
+ Cosgrove
+
+
+on
+ from
+ the
+ Kubernetes
+ team,
+ but
+ she
+ was
+
+
+saying
+ how
+ Kubernetes
+ is
+ on
+ one
+ end
+ it's
+
+
+complex
+ to
+ onboard
+ too
+ cuz
+ it's
+
+
+complicated,
+ but
+ they also
+ have
+ really
+
+
+good
+ documentation.
+
+
+And
+ I
+ guess
+ when
+ you
+ have
+ something
+ like
+
+
+this
+ and
+ there's
+ only
+ I
+ guess
+ I assume
+
+
+there's
+ only
+ one
+ or
+ maybe
+ two
+ ways
+ to
+ do
+
+
+things,
+ but
+ when
+ you
+ have
+ this
+ agents
+
+
+are
+ pretty
+ good
+ one.
+ There's
+ good
+
+
+documentation.
+ No
+ matter
+ how
+ complex
+ it
+
+
+is,
+ they
+ can
+ they
+ can
+ navigate
+ the
+
+
+complexity.
+
+
+>> Those
+ kind
+ of
+ things
+ they
+ are like
+ great
+
+
+at.
+ Like
+ things
+ like
+ okay,
+ I optimize
+ my
+
+
+Docker
+ files.
+
+
+>> Yeah.
+
+
+>> They
+ can
+ just
+ keep
+ running
+ it
+ against
+
+
+locally
+ and
+ optimize
+ it.
+
+
+Optimize
+ my
+ CI
+ cache
+ or
+ do
+ this
+ burn
+
+
+migration.
+
+
+Those
+ kind
+ of
+ things
+ are
+ super
+ easy
+
+
+right
+ now.
+ I mean,
+ if
+ you
+ have good
+ unit
+
+
+tests
+ and
+ testing
+ like
+ you
+ can
+ validate
+
+
+that
+ hey,
+ things
+ are
+ coming
+ up
+ correctly
+
+
+and
+ the
+ smoke
+ tests
+ are passing.
+ You
+ can
+
+
+even
+ try
+ it on
+ production.
+ And
+ usually
+
+
+things
+ are
+ working.
+ It's
+ not
+ like
+ we
+ are
+
+
+shipping
+ a
+ lot
+ more
+ defects.
+ Our
+ defect
+
+
+rate
+ I
+ would
+ say
+ is
+ going
+ down.
+ I mean,
+
+
+this
+ might
+ be
+ a hot
+ take,
+ but
+ like
+
+
+humans
+ were
+ writing
+ slop,
+ not
+ AI.
+ I
+
+
+mean,
+ that's
+ what
+ I'm
+ realizing.
+ Like
+ AI
+
+
+is
+ actually
+ writing
+ less
+ slop
+ at
+ this
+
+
+point
+ if
+ it
+ can
+ validate
+ against
+
+
+something.
+
+
+>> So
+ you're
+ saying
+ that
+ in
+ the
+ past
+ we
+
+
+shipped
+ like
+ most
+ teams
+ would
+ would
+ ship
+
+
+kind
+ of
+ slop
+ or
+ low
+ quality
+ stuff
+
+
+when
+ we
+ didn't
+ validate
+ it. And
+ to
+ be
+
+
+honest,
+ if
+ if
+ we're
+ just
+ being
+ honest,
+
+
+we didn't
+ always
+ validate
+ it,
+ right?
+ And
+
+
+we
+ shipped
+ it.
+
+
+>> in
+ the
+ past.
+ I
+ mean,
+ that's
+ my
+
+
+observation.
+ I
+ still
+ have
+ to
+ measure
+ it,
+
+
+but
+ I
+ would
+ say
+ when
+ we
+ were
+ shipping
+
+
+with
+ hand
+
+
+>> And
+ you're
+ talking
+ about
+ just
+ code
+
+
+rabbit,
+ right?
+
+
+>> Now
+ I'm
+ seeing
+ actually
+ fewer
+ outages.
+
+
+The
+ more
+ our
+ code
+ base
+ becomes
+ agent
+
+
+ready,
+ the
+ better
+ our
+ validation
+ layers
+
+
+become.
+ We
+ are
+ seeing
+ less
+ defects,
+ not
+
+
+more
+ actually
+ as
+ the velocity
+ is
+ going
+
+
+up.
+
+
+>> So
+ one
+ more
+ thing
+ about
+ quality
+ is
+ evals
+
+
+because
+ of
+ your
+ business
+ of
+ of
+ offering
+
+
+a
+ tool
+ that
+ gives
+ you
+ AI
+ code
+ review,
+
+
+model
+ quality
+ will
+ be
+ really
+ important
+
+
+and
+ costs
+ and
+ all
+ of
+ those
+ things.
+ How
+
+
+do
+ you
+ evaluate
+ new
+ model
+ releases?
+ And
+
+
+I'm
+ obviously
+ talking
+ about
+ the
+ big
+
+
+ones,
+ the
+ OpenAI
+ traffic,
+ but
+ also
+ open
+
+
+models
+ and
+ so
+ on.
+ Because
+ I
+ assume
+ it's
+
+
+kind
+ of a
+ big
+ deal
+ for
+ you
+ to
+ know
+ how
+
+
+good
+ of
+ this
+ model
+ is
+ in
+ terms
+ of
+ the
+
+
+quality,
+ the
+ cost,
+
+
+latency
+ and
+ so
+ on.
+
+
+>> And
+ that's
+ right.
+ I
+ mean,
+ right
+ now
+ we
+
+
+are
+ also
+ bottlenecked
+ on
+ our
+ evals
+
+
+capacity.
+ Like
+ we're
+ still
+
+
+I
+ mean,
+ the
+ models,
+ the
+ cadence
+ at
+ the
+
+
+they
+ are
+ coming
+ out
+ every
+ few
+ weeks
+ now
+
+
+with
+ because
+ the
+ RL
+ thing
+ has
+ taken
+ off,
+
+
+right?
+ So
+ people
+ are
+ coming
+ up
+ with
+
+
+back-to-back
+ releases.
+ The training
+ runs
+
+
+are
+ shorter
+ and
+ shorter,
+ right?
+
+
+>> Mhm.
+
+
+>> Which
+ means
+ that
+ I mean,
+ every
+ day
+ we
+
+
+are
+ like
+ evaluating
+ something.
+
+
+And
+ they're
+ like
+ of
+ course
+ three
+ or
+ four
+
+
+classes
+ of
+ OpenAI
+ models,
+ Anthropic
+
+
+models,
+ and
+ we
+ have
+ like
+
+
+an
+ ensemble
+ of
+ models
+ in
+ our
+ product.
+ So
+
+
+it's
+ like
+ unlike
+ other
+ products,
+ we
+
+
+don't
+ let
+ the
+ user
+ drop
+ down
+ and
+ choose
+
+
+the
+ model.
+
+
+Like
+ we
+ do
+ it
+ for
+ them.
+ We
+ know
+ which
+
+
+sub
+ agents,
+ which
+ workloads
+ the
+ model
+ is
+
+
+going
+ to
+ be a
+ good
+ fit.
+
+
+So a
+ lot
+ of
+ the
+ time
+ that
+ our
+ applied
+ AI
+
+
+team
+ spends
+ is
+ figuring
+ out
+ the
+ price
+ to
+
+
+performance
+ of
+ each
+ model
+ and
+ the
+
+
+workload
+
+
+to
+ the
+ point
+ that
+ we
+ have
+ zero
+ bandwidth
+
+
+to
+ even
+ onboard
+ another
+ vendor.
+ Like
+ we
+
+
+are
+ like
+ big
+ token
+ spender.
+
+
+Uh we
+ have
+ been
+ working
+ with
+ like
+ even
+
+
+you
+ can
+ see
+ the
+ Geminis
+ and
+ all,
+ but
+ we
+
+
+don't
+ have
+ bandwidth.
+
+
+That's
+ been
+ a big
+ constraint
+ even
+ with
+
+
+the
+ open
+ models.
+ I
+ know
+ they're
+ getting
+
+
+good
+ enough.
+
+
+Each
+ time
+ we
+ think
+ that,
+ okay,
+ we
+ could
+
+
+go
+ use
+ these
+ open
+ models,
+ OpenAI
+ brings
+
+
+down
+ their
+ models
+ in
+ price.
+ Like
+ Llama
+
+
+is
+ a great
+ model.
+
+
+>> Mhm.
+ [clears throat]
+
+
+>> Like
+ given
+ the
+ price
+ point
+ at
+ that's
+
+
+being
+ offered
+
+
+>> it
+ a lot.
+
+
+>> Yeah,
+ we
+ use
+ a
+ lot
+ of
+ Llama
+ like
+ in
+ our
+
+
+product.
+ We
+ use
+ other
+ models.
+ We
+ use
+
+
+expensive
+ ones
+ for
+ deep
+ inference
+ and
+
+
+reasoning,
+ but
+ a
+ lot
+ of
+ code
+
+
+exploration,
+ a
+ lot
+ of the
+ context
+
+
+preparation
+ is
+ done
+ by
+ cheaper
+ models
+
+
+these
+ days,
+ right?
+ Uh but
+ the
+ the
+ trick
+
+
+is
+ like
+ the
+ open
+ source
+ is
+ lucrative.
+
+
+The
+ only
+ thing
+ it's
+ helping
+ is
+ like
+
+
+putting
+ downward
+ pressure
+ overall
+ on
+ the
+
+
+industry.
+ We
+ ourselves
+ didn't
+ get
+ like
+
+
+much
+ time
+ to
+ go
+ and
+ evaluate
+ those.
+
+
+>> Do
+ you
+
+
+build
+ your
+ own
+ models?
+ Do
+ you
+ either
+
+
+fine
+ tune
+ or
+ or
+ or
+ do
+ some
+ like
+ post
+
+
+tuning
+ or
+ have
+ you experimented
+ with
+
+
+this?
+
+
+>> Early
+ days
+ we
+ did
+ and
+ that
+ was
+ a
+
+
+interesting
+ realization
+ that
+ the
+
+
+frontier
+ was
+ moving
+ faster
+ than
+ we
+ could
+
+
+maintain
+ those
+ fine
+ tune
+ like
+ I mean
+
+
+the
+ shelf
+ life
+ of
+ those
+ investments
+ were
+
+
+very
+ short.
+
+
+>> Mhm.
+ So
+ it
+ it
+ was
+ it
+ was
+
+
+a little
+ bit
+ better
+ for
+ a
+ short
+ time
+ and
+
+
+then
+ a
+ new
+ model
+ came
+ and
+ boom,
+ your
+
+
+advantage
+ was
+ gone.
+
+
+>> you're
+ in
+ a different
+ zone
+ altogether,
+
+
+right?
+ So
+ and
+ the other
+ thing
+ is
+ like
+ we
+
+
+are
+ in
+ the
+ coding
+ space
+ where
+ I
+ think
+
+
+other
+ people
+ have
+ plenty
+ of
+ data.
+ That's
+
+
+what
+ they're
+ relying
+ on.
+
+
+>> Yeah.
+
+
+>> I
+ mean,
+ if
+ we
+ let's
+ say
+ had
+ really
+ very
+
+
+different
+ data
+ stream,
+ then
+ maybe
+ it
+
+
+makes
+ sense
+ because
+ the
+ models
+ are not
+
+
+good
+ at
+ trained
+ on
+ that.
+ But
+ if
+ you
+ look
+
+
+in
+ coding
+ code
+ review,
+ they're
+ trained
+
+
+to
+ some
+ extent.
+ Where
+ the
+ real
+ trick
+
+
+comes
+ in
+ is
+ in
+ fine
+ tuning
+ the
+ harness.
+
+
+There
+ two
+ parts
+ of
+ fine
+ tuning.
+ One
+ is
+
+
+the
+ model.
+ I
+ think
+ the
+ bigger
+ problem
+ is
+
+
+like
+ what's
+ the right
+ context
+
+
+because
+ these
+ reasoning
+ models
+ can
+ go
+
+
+off
+ track
+ if
+ they
+ overthink.
+ I
+ mean,
+ you
+
+
+might
+ have
+ noticed
+ extra,
+ he's
+ actually
+
+
+sometimes
+ worse.
+ It
+ overthinks,
+ right?
+
+
+Same
+ thing,
+ like
+ I mean,
+ depending
+ on
+
+
+the
+ context,
+ uh
+ we
+ use
+ a
+ lot of
+ like
+
+
+semantic
+ analysis
+ of
+ the
+ code,
+ code
+
+
+graphs
+
+
+to
+ make
+ sure
+ the
+ token
+ costs
+ are
+ like
+
+
+lower
+ while
+ we
+ also
+ get
+ very
+ high
+
+
+quality
+ leads
+ to
+ go
+ and
+ track.
+
+
+Um
+ so
+ so
+ that's
+ where
+ like
+ the
+ effort
+
+
+goes
+ in
+ is
+ in
+ fine
+ tuning
+ the
+ harness.
+
+
+And
+ we
+ have
+ very
+ large
+ open
+ source
+ user
+
+
+base,
+ so
+ we
+ are
+ like
+ very
+ popular
+ in
+
+
+public
+ repositories.
+
+
+>> Yeah,
+ yeah,
+ you
+ you
+ you
+ have
+ this
+ thing
+
+
+where
+ you
+ make
+ it really
+ easy
+ for
+ open
+
+
+source
+ projects
+ to
+ use
+ CodeRabbit,
+
+
+right?
+
+
+>> Yeah,
+ and
+ big
+ reason
+ for
+ that
+ was
+ the
+
+
+feedback
+ loop
+ because
+ with
+ open
+ source,
+
+
+each
+ review
+ that
+ happens
+ every
+ few
+
+
+seconds
+ goes
+ back
+ into
+ our
+ pipeline
+ to
+
+
+fine
+ tune
+ the
+ harness.
+
+
+>> Uh
+ so
+ so
+ so
+ basically
+ just
+ from
+ a
+
+
+business
+ perspective,
+ I
+ mean,
+ you're
+
+
+losing
+ money
+ on
+ every
+ one
+ of
+ these
+
+
+because
+ you're
+ paying
+ for
+ it,
+
+
+but
+ you're
+ getting
+ it
+ because
+ now
+ you're
+
+
+able
+ to make
+ your
+ product
+ better,
+ which
+
+
+hopefully
+ it
+ will
+ be
+ more
+ valuable
+ on
+
+
+the long
+ term,
+ right?
+
+
+>> That's
+ right.
+ The
+ reason
+ we
+ have
+
+
+>> then
+ this
+ this
+ could
+ be
+ a win-win.
+
+
+>> Yeah,
+ so
+ the
+ reason
+ we
+ have
+ the
+ price
+ to
+
+
+and
+ this
+ is
+ like
+ one
+ of the
+ very
+ few
+ use
+
+
+cases
+ by
+ the
+ way in
+ the
+ industry
+ where
+ a
+
+
+specialized
+ harness
+
+
+is
+ still
+ applicable.
+ Like
+ everything
+
+
+else
+ is
+ getting
+ eaten
+ by
+ general
+ purpose
+
+
+cloud
+ code.
+ Even
+ legal,
+ finance,
+ like
+
+
+it's
+ doing
+ general
+ purpose
+ work,
+ but
+
+
+code
+ review
+ is
+ one
+ area
+ where
+ it's
+ a
+
+
+breadth
+ and
+ a depth
+ problem.
+ You
+ need
+ a
+
+
+good
+ recall
+ precision.
+
+
+And
+ over
+ there
+ like
+ a custom
+ harness
+ is
+
+
+very
+ effective.
+
+
+And
+ this
+ is
+ where
+ like
+ all
+ this
+ open
+
+
+source
+ data
+ is
+ helping
+ us
+ tune
+ that.
+ I
+
+
+mean,
+ I
+ have
+ a couple
+ of
+ agents
+ just
+
+
+running
+ looking
+ at
+ open
+ source
+ all
+ the
+
+
+time.
+
+
+>> One
+ more
+ thing
+ about
+ quality
+ as
+ you
+ you
+
+
+mentioned
+ briefly
+ formal
+ methods.
+
+
+I'm
+ interested,
+ when
+ did
+ you
+ start
+ to
+
+
+experiment
+ with
+ it?
+ You
+ mentioned
+ TLA
+
+
+plus
+ and
+ and
+ lean.
+ How's
+ it
+ going
+ where
+
+
+you're using
+ it
+ because
+
+
+the
+ when
+ I
+ talk
+ with
+ Hillel
+ Wayne,
+ he
+
+
+was
+ on
+ the
+ podcast
+ TLA
+ uh
+ expert,
+ you
+
+
+you
+ all
+ know
+ him.
+ He
+ said
+ that
+ he
+ thinks
+
+
+formal
+ methods,
+ especially
+ TLA
+ plus,
+ is
+
+
+probably
+ an
+ overkill
+ for
+ almost
+ all
+
+
+software
+ even
+ with
+ AI,
+ although
+ he
+ did
+
+
+say
+ this
+ about
+ six
+ months
+ ago,
+ so
+ the
+
+
+the
+ progress
+ was
+ not
+ there.
+ I'm
+ just
+
+
+really
+ curious
+ on
+ on
+ where
+ you're
+ seeing
+
+
+success.
+
+
+>> So
+ we
+ started
+ using
+ it
+ back
+ in
+ February
+
+
+or
+ March
+ when
+ we
+ built
+ the
+ Slack
+ bot
+
+
+product.
+
+
+So
+ that
+ product
+ had
+ like
+ some
+
+
+distributed
+ states
+ like
+ it
+ it
+ had
+ a
+
+
+queue
+ like
+ queue
+ up
+ the
+ messages,
+ you
+
+
+could
+ steer
+ the
+ messages,
+ it
+ had
+
+
+like
+ complex
+ states
+ around
+ like
+ shutting
+
+
+down
+ the
+ sandboxes.
+ Like
+ there's
+ a
+ lot
+
+
+of
+ state
+ machine
+ there
+ on
+ on
+ the
+ warm
+
+
+warm
+ idle
+ state
+ and
+ so
+ on.
+ So
+ that's
+
+
+where
+ I
+ that
+ TLA
+ Plus
+ models
+ they're
+ not
+
+
+great
+ for
+ like
+ things
+ which
+ are like
+
+
+algorithms.
+ They're
+ great
+ when
+ it
+ comes
+
+
+to
+ like
+ messages
+ and
+ actors
+ and
+
+
+interaction.
+ And
+ that's
+ what
+ like
+ we
+
+
+used
+ because
+ at
+ 53
+ Codex
+ wasn't
+ as
+ great
+
+
+as
+ now
+ Astra.
+ Now
+ I
+ think
+ it
+ might
+ make
+
+
+fewer
+ mistakes,
+ but
+ the
+ way
+ we
+ made
+ 53
+
+
+Codex
+ successful
+ was
+ first
+ model
+ it
+ make
+
+
+sure
+ the
+ state
+ machines
+ were correctly
+
+
+done
+ before
+ writing
+ the
+ code.
+ And
+ we
+ did
+
+
+find
+ issues
+ in
+ the
+ initial
+
+
+implementation
+ after
+ we
+ deployed
+ TLA
+
+
+Plus.
+ It
+ could
+ find
+ all
+ these
+ like
+ race
+
+
+conditions
+ which
+ we had
+ overlooked.
+
+
+>> Mm.
+
+
+>> Yeah,
+ simulations
+ also
+ helped
+ by
+ the
+
+
+way.
+ So
+ there
+ were two
+ techniques
+ we
+
+
+invested
+ back
+ in
+ February
+ or
+ March.
+ We
+
+
+built
+ like
+ an
+ entire
+ like
+ simulation
+
+
+harness
+ where
+ we
+ could
+ like
+ fuzz
+ and
+ try
+
+
+like
+ different
+ interleavings.
+
+
+At
+ the same
+ time
+ we
+ used
+ TLA
+ Plus
+ to
+
+
+model
+ different
+ states
+
+
+and
+ explore
+ those
+ states
+
+
+um
+ and
+ then
+ find
+ bugs.
+
+
+>> Nice.
+ And
+ I want
+ to
+ go
+ back
+ to
+ the
+ the
+
+
+not
+ your
+ commits,
+ but
+ the
+ Code
+ Rabbit
+
+
+commits.
+ And
+ this
+ is
+ the
+ weekly
+ commits
+
+
+which
+ are
+ kind
+ of similar
+ to
+ to
+ yours
+
+
+except
+ it's
+ more
+ more
+ granular
+ you
+ can
+
+
+see.
+
+
+But
+ there's
+ a huge
+ inflection
+ point
+ in
+
+
+August
+ very
+ similar
+ to
+ to
+ how
+ you
+ went.
+
+
+It
+ it
+ it
+ went
+ from
+ about
+ less
+ than
+ 1,000
+
+
+commits
+ per
+ maybe
+ like
+ 500
+ or
+ 300
+ in
+
+
+July
+ to
+ more
+ than
+ 5,000
+ we're
+ talking
+
+
+weekly
+ commits
+ at
+ the
+ last
+ data
+ point.
+ I
+
+
+wanted
+ to
+ ask
+
+
+what
+ about
+ the
+ cost
+ of
+ of
+ AI
+ tools?
+ You
+
+
+you
+ obviously
+ have
+ AI
+ code
+ review
+ tools,
+
+
+you
+ have
+ the
+ AI
+ generation
+ tools.
+ Where
+
+
+is
+ it
+ at
+ right
+ now
+ roughly?
+
+
+>> So
+ our
+ AI
+ cost
+ when
+ I
+ mean
+ mine
+ alone
+
+
+would
+ be
+ 250k
+
+
+a
+ month
+ 275k
+ something
+ like
+ that.
+
+
+>> Wow,
+ you're
+ you're
+ you're
+ really
+
+
+spending
+ it.
+
+
+>> Yes,
+ I
+ mean
+ that's
+ just
+ me
+ alone.
+
+
+And
+ some
+ of the
+ people
+ on the
+ team
+ are
+
+
+shipping
+ close
+ to
+ me
+ right
+ now,
+ right?
+
+
+And
+ a
+ lot
+ of
+ they
+ also
+ like
+ the
+ number
+
+
+two
+ code
+ committee
+ is
+ actually
+ the Code
+
+
+Rabbit's
+ background
+ agent.
+
+
+>> Mm.
+
+
+>> So we
+ also
+ have
+ like
+ the
+ agents
+ looking
+
+
+at
+ health
+ and
+ just
+ creating
+ PRs
+ and
+ we
+
+
+just
+ take
+ them
+ to
+ completion.
+
+
+So
+ we
+ are
+ spending
+ like
+ several
+ million
+
+
+dollars
+ a
+ month
+
+
+on
+ tokens.
+
+
+And then
+ we
+ are
+ also
+ spending
+ a
+ lot
+ on
+
+
+the
+ CICD,
+ right?
+
+
+And the
+ sandbox
+ environments.
+ Um
+
+
+>> And
+ and
+ sounds
+ like
+ that
+ was
+ a CICD
+ was
+
+
+on
+ track
+ to
+ be a
+ million
+ a month,
+ but
+
+
+you
+ now
+ brought
+ it
+ in
+ house.
+ So
+ you
+
+
+probably
+ decreased
+ it
+ up
+ a
+ little
+ bit.
+
+
+>> 50%
+ roughly
+ is
+ what
+ I'm
+ hearing.
+ I
+ have
+
+
+to
+ see
+ like
+ but
+ we
+ just
+ shifted
+ like
+
+
+over
+ the
+ weekend
+ this
+ weekend
+ all
+ all
+
+
+all
+ to
+ the
+ local
+ CI
+ now.
+
+
+>> Okay,
+ so
+ for
+ almost
+ everyone
+ else
+ this
+
+
+would
+ absolutely
+ freak
+ them
+ out
+ like
+
+
+having
+ this
+ thing
+ and
+ they
+ were
+ thinking
+
+
+how
+ can
+ I
+ rain
+ it
+ in?
+
+
+Uh
+ I
+ also
+ heard
+ a
+ lot
+ of
+ I
+ did
+ research
+
+
+on
+ on
+ startups
+ and
+ how
+ their
+ costs
+ went
+
+
+and
+ for
+ most
+ of
+ them
+ the
+ costs
+ spiked
+ in
+
+
+August
+ with
+ Opus
+ 5.5
+ and
+ then
+ it went
+
+
+down.
+ Most
+ companies
+ are
+ are
+ kind
+ of
+
+
+just
+ using
+ it
+ for
+ coding.
+ They're
+ not
+
+
+running
+ as
+ many
+ loops
+ as
+ as
+ you're
+
+
+doing.
+ How
+ are
+ you
+ thinking
+ about
+ the
+
+
+the
+ cost
+ of
+ AI
+ and
+ why
+ are
+ you not
+
+
+nervous
+ as
+ as
+ a CEO
+ and
+ a
+ founder?
+
+
+>> So I
+ think
+ you're
+ going
+ to
+ use
+ both
+ kind
+
+
+of
+ models
+ like
+ just
+ so
+ if
+ you
+ have
+ a
+
+
+good
+ model
+ routing
+ layer
+ then
+ of
+ course
+
+
+for
+ some
+ of
+ the
+ most
+ of
+ the
+ tasks
+ you
+
+
+can
+ even
+ use
+ cheaper
+ models.
+
+
+But
+ some
+ of
+ the
+ things
+ you still
+ have
+ to
+
+
+bring
+ in
+ the
+ expensive
+ model.
+ The
+ other
+
+
+aspect
+ is
+ the
+ fast
+ mode
+ like
+ you
+ pay
+
+
+double
+ with
+ ultra
+ fast.
+ Those
+ are really
+
+
+great.
+
+
+Right?
+ I mean
+ as
+ a startup
+ you
+ want
+ to
+
+
+get
+ there
+ faster
+ than
+ the
+ next
+
+
+competitor,
+ right?
+
+
+Then
+ the
+ thing
+ is
+ like
+ even
+ though
+ AI
+ is
+
+
+getting
+ commoditized,
+ but
+ it's
+ now
+
+
+driving
+ the
+ second
+ order
+ effect
+ of
+ the
+
+
+the
+ CI
+ cost
+ and
+ the CPU
+ crunch
+ we
+ are
+
+
+seeing,
+ right?
+ I
+ think
+ that's
+ real.
+
+
+That's
+ probably
+ not
+ going
+ to
+ go
+ away
+
+
+unless
+ like
+ you
+ are
+ getting
+ rid
+ of
+ unit
+
+
+tests
+ or
+ finding
+ some
+ other
+ way
+ of
+
+
+validation
+ like
+ some
+ people
+ are
+ doing
+
+
+local
+ validation
+ and
+ using
+ that
+
+
+um
+ kind
+ of
+ attestation
+ to
+ like
+ pass
+ the
+
+
+central
+ CI.
+ There
+ could
+ be some
+ tricks,
+
+
+but
+ the
+ fact
+ is
+ like
+ the
+ software
+
+
+factories
+ are
+ going
+ to
+ be
+ expensive.
+
+
+Right?
+ Earlier
+ when
+ I
+ did
+ wrote
+ that
+
+
+tweet
+ I
+ know
+ that
+ it got
+ a
+ push
+ back
+ on
+
+
+that
+ tweet.
+
+
+>> we
+ we
+ we
+ we
+ can
+ talk
+ about
+ it. Let's
+
+
+let's
+ let's
+ maybe
+ talk
+ about
+ this
+ tweet.
+
+
+So
+ this
+ tweet
+ I'll
+ also
+ put
+ it
+ on
+ the
+
+
+screen,
+ but
+ I'll
+ read
+ it
+ to
+ you.
+ You
+
+
+quote
+ tweeted
+ this
+ founder
+ engineer
+ who
+
+
+shared
+ how
+ they're
+ spending
+ 32
+ million
+
+
+per
+ year
+ in
+ cloud
+ spend
+ building
+ this
+
+
+massive
+ multiplayer
+ game
+ and
+ you said
+
+
+that
+ what
+ we're
+ seeing
+ at
+ Code
+ Rabbit
+
+
+and
+ elsewhere
+ is
+ this
+ parable
+ trajectory
+
+
+that
+ even
+ large
+ C
+ drowns
+ like
+ 8
+ million
+
+
+plus
+ are
+ no
+ longer
+ enough
+ to
+ build
+ the
+
+
+software
+ business,
+ software
+ factories,
+
+
+inequality
+ tokens,
+ and
+ large-scale
+
+
+compute
+ to
+ run
+ CI,
+ sandboxes,
+ and
+ other
+
+
+infrastructure
+ to
+ ship
+ software
+ at
+
+
+scale.
+ At
+ this
+ point,
+ some
+ smaller
+
+
+startups
+ exist
+ only
+ to
+ funnel
+ ideas
+ to
+
+
+larger
+ startups
+ with
+ more
+ tokens.
+
+
+There's
+ a
+ lot
+ of
+ spicy
+ stuff
+ in
+ here,
+ so
+
+
+but
+ let's
+ talk
+ about
+ I
+ know
+ X
+ is
+ not
+
+
+necessarily
+ great
+ for
+
+
+capturing
+ the
+ nuance,
+ but
+ like
+ what
+ is
+
+
+you
+ had
+ an
+ observation
+ there.
+ You
+ said
+
+
+that
+ you
+ are
+ seeing
+ this
+ trend.
+ Is
+ it
+
+
+startups
+ spending
+ a
+ lot
+ on
+ software
+
+
+factories?
+
+
+>> I
+ think
+ that's
+ going
+ to be
+ inevitable.
+
+
+There
+ are
+ multiple
+ like
+ software
+
+
+businesses
+ you
+ can
+ run,
+ but
+ if
+ you
+ are
+
+
+looking
+ at
+ hypergrowth
+ VC-funded
+ startup
+
+
+in
+ these
+ competitive
+ spaces,
+
+
+you
+ will
+ probably
+ need
+ more
+ capital
+
+
+right
+ now
+ because
+ now
+ your
+ bottlenecks
+
+
+have
+ shifted.
+ Earlier,
+ you
+ needed
+ to
+
+
+like
+ pay
+ mainly
+ for
+ the
+ talent.
+ So
+
+
+you'll
+ get
+ like
+ X
+ Netflix,
+ X
+ Google,
+ X
+
+
+Facebook
+ engineers.
+ They
+ themselves
+ will
+
+
+be
+ founders.
+ They
+ will
+ hire
+ from
+ the
+
+
+same
+ pool.
+ Give
+ them
+ nice
+ talk,
+ some
+
+
+battle
+ really
+ good
+ laptops,
+ and that's
+
+
+it.
+ Like
+ it
+ was
+ all
+ like
+ the
+ brain
+ game.
+
+
+Like
+ the
+ IQ
+ was
+ the people,
+ right?
+ Their
+
+
+their
+ talent.
+
+
+>> but
+ you
+ need
+ to
+ pay
+ for
+ them,
+ right?
+ In
+
+
+in
+ Silicon
+ Valley,
+ like
+ your
+ your
+ the
+
+
+base
+ salary
+ would
+ I mean
+ 300k
+ plus
+ and
+
+
+stock
+ and
+ and
+ all
+ that.
+ We're
+ talking
+ a
+
+
+million
+ plus.
+
+
+>> bigger
+ piece
+ like
+ in
+ terms
+ of
+ running
+ a
+
+
+business
+ like
+ in
+ early
+ stages.
+ I'm
+
+
+talking
+ about
+ seed,
+ series
+ A.
+ Even
+
+
+before
+ you
+ hire
+ sales,
+ like
+ a
+ lot
+ of
+ it
+
+
+is
+ like
+ the
+ team,
+ like
+ the dev
+ team,
+
+
+right?
+ Now
+ what
+ we
+ are
+ seeing
+ is
+ like
+
+
+the IQ
+ is
+ on
+ the
+ tap,
+ like
+ the
+ tokens.
+
+
+Like
+ in
+ fact,
+ even
+ the
+ smartest
+ people
+
+
+need
+ to
+ be
+ driving
+ tokens.
+
+
+And
+ a single
+ person
+ like
+ me,
+ I
+ can
+ drive
+
+
+two
+ or
+ three
+ million
+ dollars
+ of
+ tokens
+
+
+in
+ a year,
+ like
+ blended
+ models,
+ not
+ just
+
+
+always
+ using
+ the
+ best
+ model.
+ And
+ perhaps
+
+
+it
+ should
+ even
+ be
+ more
+ once
+ we
+ have
+ the
+
+
+factory
+ concept
+ taking
+ off.
+
+
+So
+ my
+ point
+ here
+ was
+ like
+ the
+
+
+bottlenecks
+ are
+ now
+ shifting
+ in
+ how
+ much
+
+
+you
+ can
+ like
+ drive
+ these
+ tokens,
+ number
+
+
+of
+ agents,
+ the
+ CI
+ and
+ the
+ other
+
+
+infrastructure.
+
+
+Humans
+ can
+ make
+ a lot
+ more
+ decisions
+ in
+
+
+a day
+ to
+ drive
+
+
+millions
+ of
+ dollars
+ of
+ spend.
+ Now
+ you
+
+
+need
+ like
+ it's
+ almost
+ like
+ marketing
+
+
+team
+ if
+ you remember,
+ like
+ I mean
+ 10
+
+
+people
+ can
+ drive
+ 100
+ million
+ dollars
+ of
+
+
+spend.
+ Same
+ thing
+ we're
+ going
+ to
+ see
+
+
+with
+ engineers.
+
+
+Now
+ a
+ small
+ team
+ can
+ drive
+
+
+150
+ million
+ dollars
+ of
+ spend
+ of
+ 30
+
+
+million
+ in
+ that
+ company,
+ right?
+ And
+
+
+that's
+ how
+ you
+ stay
+ competitive
+ because
+
+
+now
+ you're
+ going to
+ compete
+ with
+
+
+everyone
+ who's
+
+
+writing
+ software
+ in
+ an
+ inefficient
+ way,
+
+
+not
+ in
+ an
+ economically
+ viable
+ way.
+ If
+
+
+you're going
+ to
+ mass
+ produce,
+ you're
+
+
+going
+ to
+ see
+ like
+ companies,
+ composite
+
+
+startups
+ now
+
+
+spin
+ up
+ with
+ which
+ will
+ be
+ a
+ brand
+ but
+
+
+with
+ like
+ many
+ products
+ they're
+ going
+ to
+
+
+mass
+ produce
+ like
+ just
+ like
+ how
+ you
+ do
+
+
+in
+ a factory.
+
+
+>> I
+ feel
+ you're
+ still
+ a
+ huge
+ exception
+ and
+
+
+everyone
+ I
+ I
+ talk
+ to
+ including
+ at
+ Nvidia
+
+
+inside
+ of
+ Nvidia,
+ there's
+ a
+
+
+monthly
+ budget
+ of
+ $10,000
+ and
+ you
+ can
+ go
+
+
+above
+ that
+ but
+ most
+ devs
+ I
+ talk
+ to
+ don't
+
+
+go
+ above
+ that.
+ So
+ I'll
+ just
+ play
+ a
+
+
+little
+ bit
+ of
+ devil's
+ advocate
+ with
+ you.
+
+
+So
+ you're
+ spending
+ a
+ lot
+ on
+ on
+ AI
+ like
+
+
+way
+ way
+ more
+ than
+ most.
+
+
+You're
+ also
+ founder,
+ so
+ you
+ you
+ have
+ a
+
+
+really
+ good
+ idea
+ of
+ where
+ the
+ business
+
+
+is
+ and
+ what
+ value
+ is
+ adding.
+ What
+ value
+
+
+do
+ you
+ think
+ you
+ and
+ people
+ spending
+
+
+this
+ much
+ is
+ adding
+ in
+ terms
+ of
+ like
+
+
+does
+ this
+ mean
+ that
+ you're
+ clear
+ you're
+
+
+moving
+ faster
+ but
+ but
+ does
+
+
+what
+ what
+ is this
+ resulting
+ in?
+ Are
+ you
+
+
+getting
+ more
+ customers?
+ Are
+ customers
+
+
+spending
+ more?
+ Are
+ you
+ just
+ I
+ don't
+
+
+getting
+ more
+ free
+ user?
+ You
+ see
+ what
+ I
+
+
+mean?
+ Like
+ because
+ you're
+ in
+ a great
+
+
+position
+ usually
+ for
+ an
+ engineer
+ it
+ it
+
+
+will
+ be
+ maybe
+ harder
+ to
+ connect
+ but
+ you
+
+
+can
+ clearly
+ connect
+ like
+ what
+ either
+
+
+you're
+ seeing
+ right
+ now
+ or
+ what
+ you're
+
+
+expecting
+ to
+ see
+ as
+ a result
+ of
+ this
+
+
+investment
+ and
+ spend.
+
+
+>> Yeah,
+ all
+ of
+ the
+ above
+ like
+ one
+ of
+ the
+
+
+things
+ you're
+ going
+ to see
+ is
+ like
+ this
+
+
+point
+ SaaS
+ solutions.
+ The days
+ are
+ over.
+
+
+Like
+ now
+ you're
+ going
+ to see
+ really
+ like
+
+
+companies
+ doing
+ a
+ lot
+ more
+ software,
+
+
+right?
+
+
+>> Mhm.
+
+
+>> And
+ this
+ is
+ adding
+ value
+ in
+ all
+ parts
+ of
+
+
+our
+ stack.
+ First
+ of
+ all
+ like
+ I mean
+ as
+ I
+
+
+mentioned
+ like
+ earlier
+ I would
+ like
+ rely
+
+
+on
+ vendors
+ for
+ some
+ of the
+ things
+ now
+
+
+you
+ can
+ just
+ build
+ in
+ house
+ much
+
+
+cheaper.
+ There
+ are many
+ tools
+ like
+ CI
+ we
+
+
+moved
+ in
+ house,
+ we
+ moved
+ vector
+
+
+databases
+ in
+ house,
+ bunch
+ of
+ this
+ stuff.
+
+
+Those
+ are
+ one
+ very
+ clear
+ areas
+ you
+ can
+
+
+like
+ go
+ and
+ build
+ those
+
+
+differentiators
+ quickly,
+ right?
+ And
+ the
+
+
+other
+ thing
+ is
+ even
+ for
+ the
+ market
+ like
+
+
+the
+ people
+ have
+ infinite
+ cap
+ appetite
+
+
+for
+ software
+ and
+ these
+ solutions,
+ right?
+
+
+So
+ there
+ companies
+ which
+ are
+ going
+ to
+
+
+like
+ for
+ example
+ we
+ are in
+ the
+ SDLC
+
+
+space.
+ So
+ all
+ of
+ our
+ customers
+ want
+ to
+
+
+go
+ and
+ ship
+ faster.
+ Code
+ review
+ is
+ not
+
+
+the
+ only
+ bottleneck
+ they're
+ running.
+
+
+Like
+ now
+ they're
+ on
+ the
+ market
+ looking
+
+
+for
+ the
+ next
+ thing
+ which
+ is
+ how
+ do
+ I
+
+
+solve
+ my
+ CI
+ bottleneck?
+ How
+ do
+ I do
+
+
+this?
+
+
+Like
+ so
+ we're
+ in
+ that
+ business.
+ So
+ we
+
+
+have
+ to
+ first
+ of
+ all
+ go
+ and
+ learn
+
+
+quickly
+ where
+ the
+ bottlenecks
+ are
+ going
+
+
+to
+ be.
+ I
+ mean
+ we're
+ getting
+ arrows
+ in
+
+
+the
+ back,
+ front,
+ whatever,
+ right?
+
+
+But
+ what
+ that
+ also
+ puts
+ us
+ uniquely
+ in
+ a
+
+
+position
+ is
+ that
+ we
+ can
+ offer
+ these
+
+
+products
+ faster
+ to
+ the
+ customers.
+
+
+But
+ even
+ everyone
+ wants
+ to
+ ship
+ faster.
+
+
+Like,
+ that's
+ the
+ thing
+ with
+ the
+ with
+ the
+
+
+VC
+ funded
+ companies,
+ right?
+
+
+So
+ that
+ the
+ the
+ kind
+ of
+ like
+ the
+ range
+
+
+of
+ tech
+ you
+ want
+ to
+ go
+ quickly
+ build
+
+
+that's
+ your
+ usually
+ your
+ moat.
+ Like,
+ I
+
+
+mean,
+ you
+ have
+ like
+ a few
+ months.
+ Now
+
+
+the
+ problem
+ with
+ the
+
+
+with
+ the
+ software
+ right
+ now
+ is
+ like
+ even
+
+
+like
+ so
+ a lot
+ of these
+ startups,
+ they
+
+
+used
+ to
+ have
+ a
+ moat
+ of
+ a
+ few
+ months
+
+
+before
+ they
+ got
+ copied,
+ but
+ now
+ they're
+
+
+getting
+ copied
+ within
+ days
+ and
+ weeks.
+ So
+
+
+you
+ can't
+ just
+ go
+ to
+ the
+ market
+ in
+ this
+
+
+competitive
+ market
+ with
+ idea
+ which
+ is
+
+
+shallow.
+ Like
+ you
+ you
+ you
+ get
+
+
+like
+ even
+
+
+and
+ and
+ topic
+ is going
+ to copy
+ you
+ in
+ in
+
+
+like
+ two
+ weeks
+ right
+ now.
+
+
+>> Oh,
+ so
+ I
+ see
+ where
+ you're
+ coming
+ from,
+
+
+but
+ I
+ still
+ want
+ to
+ push
+ back
+ on the
+
+
+fact
+ that
+ my
+ sense
+ is,
+ okay,
+ you're
+
+
+spending
+ this
+ crazy
+ amount
+ of money,
+ you
+
+
+know,
+ you
+ personally
+ are
+ are
+ are
+
+
+spending
+ you're
+ on
+ track
+ to
+ spend
+ like
+ 2
+
+
+million
+ per
+ year
+ or
+ let's
+ just
+ talk
+
+
+about
+ per
+ month.
+ Like
+ you're
+ you're
+ you
+
+
+and
+ the
+ team
+ maybe
+ are
+ spending
+ 500k
+ in
+
+
+this
+ month,
+ maybe
+ next
+ month
+ it'll
+ be
+
+
+600,
+ maybe
+ then
+ 700.
+
+
+But
+ in
+ return,
+ what
+ you're
+ getting
+ is,
+
+
+you
+ know,
+ you
+ you
+ are
+ in
+ the
+ dev
+ tool
+
+
+space
+ with
+ AI
+ code
+ review.
+ You're
+ now
+
+
+realizing,
+ oh
+ dang,
+ we
+ also
+ have
+ this
+
+
+bottleneck
+ with
+ CI.
+ Maybe
+ we'll
+ do
+
+
+something
+ with
+ CI
+ or
+ help
+ our
+ customers
+
+
+do
+ something
+ with
+ CI
+ and
+ we
+ do
+ this
+
+
+because
+ we're
+ now
+ so
+ fast.
+ We're
+ seeing
+
+
+where
+ they're
+ going
+ to
+ be
+ in
+ like
+ six
+
+
+months
+ or
+ 12
+ months.
+ So now
+ we're
+ now
+
+
+going
+ to
+ start
+ start
+ this
+ product,
+ we'll
+
+
+spend
+ more.
+ Then
+ we
+ realize
+ maybe
+ it'll
+
+
+be
+ a
+ feature
+ flag,
+ we'll
+ be
+ able
+ to
+ roll
+
+
+out
+ and
+ so
+ on.
+ And
+ by
+ doing
+ this,
+ you're
+
+
+almost
+ like
+ doing
+ R&D
+ for
+ your
+ business
+
+
+and
+ you're
+ also
+ building
+ your
+ products.
+
+
+And
+ the
+ bet
+ is
+ that
+ you're
+ you'll
+ be
+
+
+expanding
+ your
+ market,
+ you'll
+ sell
+ more
+
+
+to
+ customers.
+ But
+ what
+ I'm
+ wondering
+ is,
+
+
+are
+ you
+ not
+ a little
+ bit
+ unique
+ that
+
+
+this
+ might
+ be
+ true
+ for
+ anyone
+ who's
+ in
+
+
+the
+ dev
+ tools
+ market,
+ but
+ for
+ some
+ some
+
+
+company
+ who's
+ not
+
+
+>> market
+ as
+ well.
+ Like
+ so
+ basically
+ now
+
+
+you're
+ moving
+ in a
+ compressed
+ time
+
+
+frame.
+ Let's
+ say
+ it
+ took
+ you
+ like
+ a
+
+
+while
+ to
+ go
+ to
+ market
+ and
+ do
+ a PMF
+ six,
+
+
+nine
+ months
+ if
+ you're
+ a
+ YC
+ company,
+
+
+right?
+ Now
+ you
+ can
+ like
+ go
+ there
+ and
+ try
+
+
+that
+ idea
+ quickly.
+ And
+ if
+ it's
+ a
+ shallow
+
+
+idea,
+ now
+ the
+ risk
+ is
+ you can
+ get
+
+
+copied.
+
+
+So
+ basically
+ we
+ probably
+ have
+ to
+ like
+ do
+
+
+more,
+ but
+ you
+ are
+ now
+ moving
+ at
+ a
+
+
+compressed
+ time
+ frame.
+ The
+ earlier
+ the
+
+
+bottlenecks
+ were
+ in
+ scaling
+ the
+ team.
+
+
+>> Mhm.
+
+
+>> Like
+ so
+ I
+ needed
+ to
+ have
+ the
+ talent.
+ You
+
+
+will
+ like
+ get
+ all
+ these
+ VC
+ money,
+ scale
+
+
+the
+ team.
+ I
+ don't
+ need
+ to
+ scale
+ the
+ team
+
+
+at
+ the
+ same
+ level,
+ right?
+ I
+ mean,
+ maybe
+
+
+the
+ sales
+ still
+ need
+ to
+ scale
+ because
+
+
+they
+ have
+ to
+ do
+ the
+ meetings,
+ but
+
+
+product,
+ marketing,
+ engineering,
+ you
+ can
+
+
+now
+ do
+ few
+ people
+ burning
+ a
+ lot
+ more
+
+
+tokens.
+
+
+Right?
+ And
+ this
+ token
+ span
+ right
+ now,
+ if
+
+
+you
+ and
+ it's
+ quality
+ tokens,
+ like
+ you
+
+
+can
+ get
+ cheap
+ tokens.
+ It
+ will
+ take
+ you
+
+
+longer
+ to
+ get
+ there.
+ If
+ you have
+ the
+
+
+quality
+ tokens,
+ you
+ your
+ price
+ per
+ task
+
+
+will
+ be
+ high,
+ but
+ you
+ get
+ there
+ faster
+
+
+at
+ a high
+ quality,
+ right?
+
+
+>> Okay,
+ so
+ what
+ I'm
+
+
+hearing
+ is
+ is
+ what
+ you're
+ actually
+
+
+saying
+ with
+ with
+ this
+ tweet,
+ which
+
+
+wasn't
+ as
+ nuanced
+ as
+ if
+ you
+ are
+ in
+ the
+
+
+VC
+ game,
+ what
+ you meaning
+ you're
+ raising
+
+
+venture
+ capital
+ because
+ you
+ want
+ to
+
+
+build
+ a
+ billion
+ dollar
+ company,
+ which
+
+
+means
+ you actually
+ want
+ to
+ win
+ your
+ your
+
+
+market.
+ Like
+ inside
+ a dev
+ tools,
+ you
+
+
+might
+ have
+ a
+ niche,
+ may
+ that
+ be
+ like
+ AI
+
+
+code
+ reviewer,
+ AI
+ SRE
+ or
+ or
+ CICD,
+
+
+something
+ like
+ that.
+
+
+If
+ you're
+ starting
+ today,
+ you
+ will
+
+
+probably
+ need
+ to
+ raise
+ a
+ larger
+ amount
+
+
+because
+
+
+you
+ need
+ to
+ win
+ this
+ quickly.
+ The
+ the
+
+
+game
+ will
+ be
+ all
+ over
+ pretty
+ quickly
+ and
+
+
+you
+ want
+ to
+ get
+ meaningful
+ traction
+
+
+before
+ the
+ big
+ guys
+ in
+ Tropic
+ Open
+ AI
+
+
+can
+ maybe
+ copy
+ you.
+ Oh,
+ and
+ and
+ as
+ as
+ an
+
+
+added
+ benefit,
+ you can
+ have
+ a small
+ team
+
+
+to
+ start
+ with
+ and
+ you
+ don't
+ need
+ to
+
+
+worry
+ too
+ much
+ about
+ hiring.
+ But
+ by
+ the
+
+
+time
+ you
+ would
+ hire
+ anyway,
+ you
+ will
+
+
+want
+ to
+ build
+ some
+ solutions
+ and
+ point
+
+
+of
+ and
+ get
+ customers
+ and
+ so
+ on.
+ So
+ like
+
+
+everything
+ is
+ just
+ compressed
+ and
+ you
+
+
+can
+ pay
+ more.
+
+
+>> Right.
+ And
+ when
+ the
+ attention
+ is
+
+
+compressed,
+ like
+ if
+ you don't
+ get
+ the
+
+
+mind
+ share
+ after
+ building
+ your
+ MVP
+ in
+
+
+like
+ maybe
+ one
+ or
+ two
+ months,
+ that's
+ the
+
+
+window
+ you
+ have
+ now
+
+
+>> Mhm.
+
+
+>> before
+ someone
+ just
+ gobbles
+ up
+ that
+ idea
+
+
+and
+ runs
+ with
+ it.
+
+
+>> Okay,
+ so
+ this
+ is
+ this
+ is
+ pretty
+ brutal.
+
+
+>> Yeah,
+ I
+ mean, that's
+ the
+ situation
+ right
+
+
+now
+ we're
+ dealing
+ with.
+ Like
+ the
+ the
+ the
+
+
+window
+ of
+ opportunity
+ to get
+ the
+ mind
+
+
+share
+ is
+ become
+ shorter.
+ It
+ used
+ to
+ be
+
+
+that
+ you
+ had
+ smart
+ people.
+ They
+ had
+
+
+built
+ something,
+
+
+right?
+ And
+ maybe
+ it
+ was
+ a
+ lot
+ of
+ product
+
+
+iterations.
+ It
+ was
+ a
+ I
+ don't
+ know,
+ SaaS
+
+
+product
+ with
+ a lot
+ of
+ like
+ craft
+ and
+ and
+
+
+care
+ or
+ it
+ was
+ a
+ complex
+ backend
+ system
+
+
+which
+ just
+ had
+ a
+ moat.
+ Like
+ people
+
+
+couldn't
+ replicate
+ easily.
+ So
+ they
+ would
+
+
+have
+ like
+ a
+ shelf
+ life
+ of
+ I
+ don't
+ know,
+
+
+six
+ to
+ nine
+ months
+ before
+
+
+something
+ and
+ they
+ had
+ that
+ that
+
+
+breathing
+ room
+ to
+ get
+ the
+ mind
+ share.
+
+
+But
+ now
+ it's
+ like
+ few
+ weeks,
+
+
+unfortunately.
+
+
+>> Mhm.
+
+
+>> And
+
+
+and
+ the
+ company
+ like
+ spending
+ a lot
+ on
+
+
+tokens
+ and
+ all
+ can
+ get
+ there
+ faster.
+ So
+
+
+you're
+ going
+ to see
+ more
+ companies
+ like
+
+
+Rippling,
+ which
+ was
+ a composite
+ startup.
+
+
+You're
+ going
+ to see
+ lot
+ more
+ composite
+
+
+companies
+ with
+ these
+ very
+ efficient
+
+
+factories
+ and
+ the
+ processes
+
+
+gobbling
+ up
+ a
+ lot
+ of
+ that
+ software
+
+
+market.
+ You
+ will
+ still
+ have
+ like
+
+
+people
+ tailoring
+ at
+ the
+ last
+ mile,
+ but
+
+
+if
+ you're
+ buying
+ these
+ SaaS
+ solutions
+
+
+and
+ all,
+ that's
+ where
+ we're
+ going
+ to see
+
+
+a
+ big
+ disruption.
+
+
+>> Okay.
+ No,
+ I
+ I
+ I
+ think
+ this
+ is
+
+
+fascinating
+ insight.
+ And
+ I
+ mean
+ just
+ KV
+
+
+like
+ you're
+ seeing
+ this
+ in
+ Silicon
+
+
+Valley
+ where
+ everything
+ is
+ accelerated,
+
+
+always
+ has
+ been
+ compared
+ to
+ the
+ rest
+ of
+
+
+the
+ world.
+ Let's
+ say
+ you know,
+ Germany
+
+
+will
+ be
+ always
+ a
+ lot
+ slower,
+ right?
+
+
+>> We've
+ seen
+ that
+ with
+ the Industrial
+
+
+Revolution,
+ same
+ thing
+ happened
+ like
+ I
+
+
+mean
+ one
+ example
+ is
+ like
+ for example
+
+
+toys
+ like
+ an
+ example
+ like
+ earlier
+ people
+
+
+used
+ to
+ make
+ metal
+ toys
+
+
+>> Mhm.
+
+
+>> and
+ very
+ good
+ craft.
+ Even
+ I
+ grew
+ up
+
+
+getting
+ those
+ Matchbox
+ car
+ like
+ all
+
+
+metal
+ pretty
+ good.
+
+
+>> Oh
+ oh
+ yeah,
+ the
+ old
+ match
+ they
+ were
+ a
+
+
+lot
+ heavier,
+ right?
+
+
+>> when
+ I was
+ a
+ kid
+ like
+ they
+ were
+ really
+
+
+heavy,
+ really
+ good
+ quality,
+ but
+ now
+
+
+you're
+ seeing
+ like
+ a lot
+ of
+
+
+>> all
+ plastic.
+
+
+>> but
+ mass
+ produced.
+ The
+ market
+ has
+
+
+appetite
+ for
+ that.
+ So
+ yes,
+ the
+ quality
+
+
+is
+ going
+ to go
+ down,
+
+
+right?
+ But
+ the
+ companies
+ that
+ are
+ going
+
+
+to
+ invest
+ in
+ these
+ factories
+ which
+ need
+
+
+now
+ actually
+ as
+ much
+ investment
+ as
+
+
+running
+ a factory.
+ It's
+ almost
+ like
+
+
+building
+ a
+ steel
+ plant
+ now.
+ 50
+ million
+
+
+out
+ of the
+ gate
+
+
+are
+ going
+ to
+ mass
+ produce
+ software.
+
+
+>> But
+ just
+ to
+ push
+ you
+ a
+ little
+ bit
+ more
+
+
+on
+ that
+ cuz
+ I
+ I
+ really
+ want
+ to
+ push
+ push
+
+
+you
+ on this
+ year.
+ These
+ software
+
+
+factories
+ probably
+ cost
+ so
+ much
+
+
+because
+ there's
+ not
+ a
+ turn
+ key
+ solution
+
+
+and
+ let's
+ say
+
+
+given
+ it's
+ everything
+ is
+ so
+ fast,
+ in
+ a
+
+
+year
+ there
+ might
+ already
+ be
+ software
+
+
+factories
+ you
+ can
+ buy,
+ but
+ you're
+ saying
+
+
+that
+ by
+ that
+ time
+ I
+ mean
+ first
+ of
+ all
+
+
+everyone
+ can
+ have
+ access
+ to
+ it
+ and
+ your
+
+
+window
+ of
+ opportunity
+ might
+ have
+ closed
+
+
+for
+ a
+ lot
+ of
+ businesses.
+
+
+>> Software
+ factories
+ are expensive
+ right
+
+
+now
+ tokens,
+ but
+ then
+ CPU,
+ all
+ the
+ like
+
+
+we
+ talked
+ about
+ the
+ CI
+ like
+ you
+ can
+
+
+drive
+ a
+ lot
+ of spend
+ just
+ with
+ the
+
+
+velocity
+ alone.
+ A
+ single
+ person
+ cannot
+
+
+drive
+ it,
+ right?
+ So
+ so
+ the economics
+ are
+
+
+going
+ to force
+ you
+ into
+ that
+ factory
+
+
+model.
+ It's
+ almost
+ like
+ how
+
+
+like we've
+ seen
+ in
+ the
+ industry
+ even
+
+
+like
+ like
+ let's
+ take
+ another
+ example
+
+
+like
+ watches
+ like
+ when
+ the
+ quartz
+
+
+watches
+ came
+ out,
+ you could
+ mass
+ produce
+
+
+and
+ then
+ you
+ pay
+ for
+ Rolex
+ which
+ is
+
+
+crafted.
+ Now
+ the
+ question
+ is
+ like
+ would
+
+
+artisanal
+ software
+ which
+ is
+ very
+ well
+
+
+crafted
+ people
+ took
+ a lot
+ of
+ time
+ will
+
+
+command
+ a
+ premium
+ or is
+ the market
+ just
+
+
+going
+ to
+ be
+ okay
+ with
+ generic
+ looking
+
+
+maybe
+ slightly
+ lower
+ quality
+ software
+
+
+which
+ I
+ think
+ is
+ what
+ the
+ case
+ is,
+ and
+
+
+that
+ software
+ is
+ going
+ to
+ be
+ designed
+ in
+
+
+a factory.
+
+
+>> Yeah.
+ No,
+ I
+ see
+ where
+ you're
+ coming
+ from
+
+
+and
+
+
+I really
+ want
+ to
+ disagree
+ with
+ you
+ in
+ a
+
+
+lot
+ of
+ ways
+ especially,
+ but
+ I
+ I
+ see
+ your
+
+
+point
+ and
+ I think
+ I
+ have
+ a hard
+ time
+
+
+disagreeing
+ with
+ the
+ fact
+ that
+ look,
+ if
+
+
+you
+ do
+ want
+ to
+ win
+ a
+ market
+ right
+ now,
+
+
+you
+ want
+ to give
+ yourself
+ the
+ best
+ time,
+
+
+the
+ best
+ opportunity
+ and
+ and
+ if
+ if
+ the
+
+
+if
+ the
+ theory
+ is
+ that
+ to
+ win
+ you
+ you
+
+
+want
+ to be
+
+
+either
+ either
+ first
+ or
+ fast
+ and
+ iterate
+
+
+and
+ get
+ it
+ right,
+ you
+ have
+ less
+ time
+
+
+because
+
+
+an
+ interesting
+ thing
+ that
+ I'm
+ also
+
+
+seeing
+ which
+ which
+ is
+ a
+ one
+ more
+ thing
+
+
+we
+ could
+ reflect
+ on
+ is
+
+
+so
+ far
+ we've
+ only
+ talked
+ about
+ we
+ assume
+
+
+that
+ your
+ composition
+ is
+ either
+ the
+ big
+
+
+labs
+ who
+ you
+ know
+ see
+ whatever
+ else
+ is
+
+
+doing
+ and
+ they
+ launch
+ something
+ or
+ the
+
+
+other
+ startups
+ who
+ some
+ of
+ them
+ raised
+
+
+more
+ money
+ and
+ might
+ be
+ faster
+ than
+ you
+
+
+in
+ their
+ software
+ factory.
+ But
+ the
+
+
+reality
+ is
+ everyone
+ else
+ is a
+ competitor
+
+
+like
+ Ramp
+ launched
+ their
+ coding
+ agent.
+
+
+Spotify
+ is
+ launching
+ a
+ platform
+ for
+
+
+feature
+ flags.
+ So
+ you
+ have
+ the
+ existing
+
+
+tech
+ companies
+ who
+ are also
+ realizing
+
+
+hang
+ on,
+ we
+ built
+ this
+ tool
+ inside
+
+
+because
+ we're
+ now
+ big
+ and
+ we
+ see
+ and
+ we
+
+
+think
+ there
+ might
+ be an
+ appetite
+ and
+
+
+what
+ you
+ said
+ is
+ every
+ small
+ company
+
+
+like
+ 50-person
+ company
+ like
+ yourself
+
+
+will
+ need
+ the
+ tools
+ that
+ Netflix
+ has.
+
+
+Netflix
+ at
+ some
+ point
+ might
+ say
+ like
+
+
+hang
+ on
+ let's
+ let's
+ open
+ source
+ it.
+ So
+
+
+now
+ I
+ feel
+ there's
+ there's
+ just
+ a lot
+
+
+more
+ competition
+ for
+ the
+ same
+ thing
+ that
+
+
+just
+ just
+ coding
+ harness.
+ Again,
+ what
+
+
+would
+ what
+ if
+ you
+ thought
+ that
+ a credit
+
+
+card
+ company
+ would
+ have
+ a
+ coding
+ agent
+
+
+and
+ people
+ take
+ it
+ seriously?
+
+
+>> Right.
+ And
+ the
+ thing
+ is
+ that
+ whoever
+ is
+
+
+not
+ on
+ this
+ parabolic
+ trajectory
+ you
+
+
+just
+ saw,
+ they're
+ going
+ to
+ get
+
+
+disrupted.
+ A lot
+ of people
+ are
+ not
+ even
+
+
+ready
+ for
+ what
+ we're
+ seeing
+ already.
+
+
+>> Mhm.
+
+
+>> Like
+ the
+ their
+ their
+ culture
+ is
+ not
+
+
+going
+ to
+ let
+ them.
+ So
+ the
+ way
+ they're
+
+
+doing
+ software
+ development
+ like
+ they
+
+
+have
+ to
+ rethink
+ everything.
+
+
+>> Mhm.
+
+
+>> Like
+ first
+ of
+ all,
+ how
+ many
+ people
+ they
+
+
+need?
+ Like
+ people
+ who
+ are
+ just
+ good
+ at
+
+
+writing
+ code,
+ they
+ should
+ probably
+ look
+
+
+for
+ other
+ jobs
+ if
+ they
+ don't
+ know
+ what
+
+
+to
+ build.
+ Like
+ people
+ who
+ are
+ not
+
+
+software
+ engineers
+ like
+ artists,
+ people
+
+
+who have
+ taste
+ maybe
+ should
+ start
+
+
+coding.
+ And
+ then
+ how
+ do
+ you
+ allocate
+
+
+budgets?
+ Like
+ you
+ have
+ to
+ now
+ really
+
+
+think
+ about
+
+
+if
+ you're
+ hiring
+ someone
+ at
+ like
+ I don't
+
+
+know
+ half
+ a million
+ a
+ year,
+ expect
+
+
+they're
+ going
+ to
+ spend
+ more
+ than
+ a
+
+
+million
+ on
+ tokens
+ now.
+ So
+ So
+ like
+ your
+
+
+like
+ when
+ you
+ do
+ you
+ used
+ to
+ do this
+
+
+plan
+ with
+ to
+ show
+ the
+ VCs,
+ you
+ will
+ have
+
+
+the
+ salary
+ as
+ a
+ main
+ component.
+ But now
+
+
+we're starting
+ to
+ show
+ tokens,
+ right?
+
+
+>> Yeah.
+ Well,
+ again,
+ I
+ just
+ want
+ to be
+
+
+clear
+ like
+ this
+ is
+ for
+ like
+ a new
+
+
+service
+ VC
+ building
+ from
+ zero
+ because
+
+
+for
+ existing
+ companies
+ that
+ have
+ a
+
+
+business
+ often
+ like
+ physical
+ or
+ in the
+
+
+world,
+ okay,
+ they
+ they
+ could
+ be
+
+
+disrupted,
+ but
+ you know,
+ they
+ have
+
+
+something
+ stable
+ to
+ be
+ there
+ and
+ they're
+
+
+the
+ companies
+ who
+ are spending
+ the
+ $200
+
+
+max
+ plan
+ for
+ everyone,
+ right?
+
+
+>> if
+ you have
+ a
+ hardware
+ business
+ and
+ all
+
+
+you
+ have
+ probably
+ have
+ a better
+ moat
+ at
+
+
+this
+ time,
+ but
+ if
+ you're
+ like
+ just
+
+
+software
+ with
+ very
+ high
+ margins,
+ those
+
+
+margins
+ are going
+ to compress
+ and
+ you
+
+
+probably
+ also
+ have
+ to
+ like
+ rethink.
+ I
+
+
+mean
+ if
+ you're
+ not
+ on
+ the
+ parabolic,
+
+
+then
+ companies
+ coming
+ from
+ behind,
+ now
+
+
+this
+ exponential
+ is
+ scary.
+ I mean
+ these
+
+
+kind
+ of
+ things
+ start
+ world
+ wars,
+ right?
+
+
+It's
+ that
+ scary.
+ So
+ that
+ kind
+ of
+
+
+companies
+ are going
+ to start
+ coming
+ from
+
+
+behind
+ and
+ start
+ decimating
+ some
+ of
+
+
+these
+ lower
+ dinosaurs
+ unless
+ they
+ go
+ and
+
+
+transform
+ themselves
+ on
+ this
+ parabolic.
+
+
+And
+ those
+ companies
+ they
+ are they
+ were
+
+
+actually
+ investing
+ in
+ factories
+ more
+
+
+than
+ talent.
+ They're
+ investing
+ in
+ just
+ I
+
+
+mean
+ paying
+ for
+ the best
+ model
+ possible.
+
+
+They're
+ not
+ cutting
+ corners.
+ They're
+
+
+just
+ going
+ fast.
+
+
+>> Let's
+ talk
+ a bit
+ about
+ hiring
+ because
+
+
+this is
+ also
+ very
+ very
+ interesting
+
+
+topic.
+ First,
+ can
+ you
+ tell
+ me
+ how
+ did
+
+
+Code
+ Rabbit
+ grow
+ over
+ the
+ years
+ and
+ how
+
+
+has
+ your
+ hiring
+ changed?
+ Because
+ you
+ did
+
+
+mention
+ that
+ you're
+ hiring
+ a lot
+ slower,
+
+
+right?
+
+
+>> In
+ some
+ areas,
+ yes.
+ In
+ many
+ areas
+ we are
+
+
+hiring
+ rapidly.
+ Like
+ sales
+ is
+ one
+ area
+
+
+where
+ we
+ are
+ really
+ double
+ down
+ on
+ the
+
+
+field
+ sales.
+
+
+>> Mhm.
+
+
+>> Because
+ one
+ of the
+ things
+ we
+ found
+ with
+
+
+um
+ generative
+ AI
+ and
+ is
+ that
+ the
+ last
+
+
+mile
+ is
+ still
+ a problem.
+ Like
+ people
+
+
+still
+ need
+ a lot
+ of
+ hand
+ holding
+
+
+>> Mhm.
+ [clears throat]
+
+
+>> in
+ how
+ to
+ set
+ up
+ these
+ systems
+ in
+ the
+
+
+right
+ way.
+
+
+>> Yes.
+
+
+>> So
+ those
+ kind
+ of things
+ you
+ can
+
+
+accelerate
+ with
+ AI.
+ You
+ have
+ to
+ have
+
+
+those
+ meetings.
+ You
+ have
+ to
+ have
+
+
+conversations.
+
+
+So those
+ areas
+ we are
+ hiring
+ rapidly,
+
+
+but
+ other
+ areas
+ now
+ we
+ are like
+
+
+rethinking
+ what
+ we
+ need
+ to
+ hire
+ for
+ and
+
+
+>> Well,
+ let's
+ talk
+ about
+ software
+
+
+engineering
+ specifically.
+
+
+>> Software
+ engineering
+ is
+ the
+ most
+
+
+trickiest
+ area
+ right
+ now.
+ Every
+ month
+ we
+
+
+are learning
+ something.
+
+
+Like
+ one
+ of
+ the
+ things
+ we
+ have
+ found
+ is
+
+
+like
+ the
+ problem
+ solving
+ skills,
+
+
+system
+ skills.
+ Like
+ people
+ like
+ who
+ came
+
+
+from
+ like
+ even
+ I
+ wrote
+ a tweet
+ about
+
+
+like
+ I'm
+ looking
+ for
+ people
+ who
+ have
+
+
+played
+ strategy
+ games.
+
+
+>> Let
+ me
+ read
+ this
+ tweet
+ because
+ that
+ was
+
+
+really
+ interesting
+ one.
+ So
+
+
+so
+ you
+ you
+ you
+ are
+ hiring
+ and
+ you
+ said
+ I
+
+
+mean
+ there's
+ a caveat.
+
+
+We're
+ hiring
+ the
+ person
+ who
+ applies
+ must
+
+
+meet
+ one
+ of
+ the
+ following
+ two
+ criteria
+
+
+to
+ join.
+ Either
+ has
+ tastefully
+ shipped
+
+
+at
+ least
+ 1,000
+ PRs
+ in
+ the last
+ 30
+ days,
+
+
+or
+ has
+ played
+ at
+ least
+ 500
+ hours
+ of
+
+
+simulation
+ games
+ such
+ as
+ Civilization,
+
+
+Age
+ of
+ Empires,
+ Transport
+ Tycoon,
+
+
+Factorio,
+ etc.
+
+
+>> Almost
+ like
+ now
+ if
+ you
+ ask
+ me
+ about
+ the
+
+
+software
+ building
+ looks
+ feels
+ like
+ it's
+
+
+like
+ playing
+ one
+ of those
+ games,
+ right?
+
+
+Now,
+ I mean
+ I
+ talk
+ about
+ civilization
+
+
+like
+ each
+ like
+ you
+ basically
+ make
+ the
+
+
+moves
+ and
+ each
+ turn
+ is
+ like
+ a release
+
+
+for
+ me,
+ right?
+ And
+ you
+ learn
+ something
+
+
+in the
+ next
+ turn.
+ And
+ while
+ you
+ are
+
+
+stating
+ the civilization,
+ you
+ still
+ have
+
+
+like
+ I don't
+ know
+ workers
+ improving
+ your
+
+
+roads
+ and
+ building
+ fields
+ and
+ so
+ on.
+
+
+That's
+ how
+ the
+ agents
+ are.
+
+
+And
+ each
+ turn
+ you're
+ like
+ just
+ making
+
+
+these
+ agents
+ work
+ on
+ something
+
+
+meaningful,
+ right?
+ Which
+ we
+ think
+ is
+ is
+
+
+a
+ great
+ ROI
+ for
+ your
+ civilization,
+
+
+right?
+
+
+Uh
+ almost
+ like
+ now
+ running
+ these
+ agents
+
+
+feels
+ to
+ me
+ feels
+ like
+ building
+ this
+ if
+
+
+people
+ have
+ grown
+ playing
+ strategy
+
+
+games,
+ I
+ think
+ they
+ will
+ be
+ very
+
+
+successful
+ in
+
+
+with
+ with
+ these
+ agents
+ right
+ now.
+
+
+>> Mm.
+
+
+>> They
+ can
+ multitask.
+ They
+ have
+ like
+ range
+
+
+of
+ things
+ they
+ can
+ I
+ mean
+ at
+ least
+ they
+
+
+have
+ a good
+ problem
+ list
+ these
+ agents
+
+
+can
+ then
+ work
+ on.
+
+
+>> And
+ how
+ is
+ hiring
+ going
+ for
+ you
+ so
+ far?
+
+
+How
+
+
+easier
+ more
+ like
+ hard
+ are
+ you
+ finding
+ to
+
+
+to
+ hire
+ these
+ folks
+ who
+ have
+ this
+ kind
+
+
+of
+ experience?
+
+
+>> So
+ the
+ way
+ we
+ are looking
+ at
+ is
+ like
+
+
+either
+ someone
+ who's
+ already
+ a
+ tenured
+
+
+senior
+ engineer
+ at
+ a
+ good
+ place,
+ they
+
+
+have
+ to
+ come
+ and
+ first
+ unlearn,
+
+
+right?
+ Or
+ you
+ hire
+ someone
+ even
+ who's
+
+
+like
+ fresh
+ out
+ of
+ college,
+ but
+ they have
+
+
+high
+ agency
+ but
+ can
+ run
+ learn
+ faster.
+
+
+What
+ we
+ found
+ that
+ the
+ people
+ who
+ are
+
+
+like
+ coming
+ with
+ like
+ who
+ not
+ set
+ in
+ the
+
+
+ways
+
+
+and
+ have
+ come
+ especially
+ from
+ the
+
+
+background
+ of
+ like
+ like
+ playing
+ this
+
+
+like
+ strategy
+ games
+ and
+ all
+ have
+ been
+
+
+very
+ successful.
+ That's
+ just
+ my
+ take
+ on
+
+
+it.
+ And
+ that's
+ what
+ we're
+ looking
+ for.
+ I
+
+
+think
+ the
+ human
+ agency
+ now
+ matters
+ lot
+
+
+more
+ than
+ it
+ ever
+ did.
+
+
+>> Mm.
+
+
+>> Person
+ who
+ was
+ 10x
+ knew
+ what
+ to
+ build
+ is
+
+
+now
+ certainly
+ becoming
+ 100x
+ with
+ these
+
+
+agents,
+ right?
+ Because
+ now
+ you
+ at
+ least
+
+
+have
+ a
+ problem
+ list
+ or
+ the
+ the
+ most
+
+
+impactful
+ areas
+ these
+ agents
+ can
+ work
+ on
+
+
+and
+ you
+ could
+ just
+ unleash
+ these
+ agents
+
+
+as
+ much
+ as
+ possible
+ in
+ parallel.
+
+
+>> So
+ we
+ talk
+ about
+ individuals,
+ but
+ I
+ know
+
+
+you
+ have
+ a concept
+ called
+ pods
+ that
+ you
+
+
+also
+ call
+ it
+ as
+ war
+ rooms.
+
+
+>> That's
+ right.
+
+
+>> Uh what
+ are
+ war
+ rooms?
+
+
+>> So
+ what
+ we
+ found
+ is
+ like
+ that's
+ another
+
+
+area
+ like
+ I
+ think
+ we
+ have
+ to
+ like
+ the
+
+
+collaboration
+ has
+ become
+ even
+ more
+
+
+important.
+ So
+ I've
+ like
+ in
+ previous
+
+
+startups
+ remote
+ teams
+ you're
+ like
+
+
+building
+ distributed
+ systems.
+ So
+ it
+
+
+doesn't
+ matter
+ like
+ teams
+ like
+ in
+ India
+
+
+or
+ Eastern
+ Europe
+ I've
+ done
+ all.
+
+
+Um
+ but
+ now
+ like
+ what
+ we're
+ seeing
+ is
+
+
+that
+ now
+ we're
+ moving
+ so
+ fast
+ like
+
+
+someone
+ one
+ one
+ person
+ is
+ on
+ the
+
+
+steering
+ wheel
+ but
+ other
+ people
+ are
+
+
+shaping
+ the
+ software
+ as
+ it's
+ getting
+
+
+built.
+
+
+And
+ everyone
+ is
+ able
+ to
+ touch
+ the
+
+
+software
+ by
+ the
+ way
+ even
+ product
+
+
+managers
+ get
+ to
+ touch
+ it
+ like
+ with
+ and
+
+
+the
+ kind
+ of
+ PRs
+ they're
+ making
+ is
+
+
+relevant
+ to
+ like
+ change
+ a copy
+ on
+
+
+something
+ or
+ some
+ information
+
+
+architecture
+ flows
+ right.
+ But
+ everyone
+
+
+is
+ like
+ touching
+ the
+ software
+ at
+ the
+
+
+same
+ time
+ and
+ it's
+ great
+ if
+ they
+ can
+ be
+
+
+like
+ in
+ a war
+ room
+ setting.
+ So
+ we
+ kind
+
+
+of
+ create
+ these
+ war
+ rooms
+ where
+ we
+
+
+share
+ like
+ plans
+ on
+ a
+ Slack
+ canvas
+ we
+
+
+all
+ agree
+ on
+ it
+ and
+ we
+ all
+ collaborate
+
+
+in
+ a
+ room
+ in
+ in
+ more
+ face-to-face
+
+
+setting
+ and
+ pretty
+ much
+ in
+ real
+ time.
+
+
+>> you
+ get
+ everyone
+ in
+ a
+ room
+ into
+ a table
+
+
+you
+ can
+ close
+ the
+ door
+ and
+ like
+ all
+
+
+right
+ let's
+ solve
+ the problem
+ right?
+
+
+>> we're
+ crafting
+ the
+ software
+ in
+ real
+
+
+time.
+ Like
+ sometimes
+ you
+ will
+ like
+ lay
+
+
+the
+ foundation
+ by
+ running
+ a
+ goal
+ but
+
+
+when
+ you're
+ like
+ at
+ the
+ stage
+ where
+ you
+
+
+want
+ to
+ like
+ really
+ craft
+ the
+ UI
+ and
+
+
+experience
+ you
+ want
+ to
+ get
+ people
+ in
+ the
+
+
+room
+ and
+ really
+ crafted
+ life.
+
+
+>> Yeah it's
+ funny
+ at
+ Uber
+ we
+ used
+ to
+ have
+
+
+up
+ to
+ 2017
+ something
+ called
+ the
+ war
+ room
+
+
+which
+ which
+ is
+ like
+ this
+ there's
+ an
+
+
+important
+ project
+ get
+ everyone
+ and
+
+
+sometimes
+ fly
+ people
+ in
+ because
+ they're
+
+
+distributed
+ and
+ then
+ spend
+ maybe
+ a
+ week
+
+
+there
+ build
+ up
+ this
+ was
+ pre
+ AI
+ so
+ the
+ AI
+
+
+it's
+ a
+ lot
+ faster
+ but
+ just
+ build
+ a
+
+
+proof
+ of
+ concept
+ whiteboard
+ code
+ and
+
+
+then
+ have
+ a prototype
+ and
+ then
+ everyone
+
+
+goes
+ back
+ to
+ their
+ teams
+ and
+ just
+ kind
+
+
+of builds
+ it
+ from
+ there
+ but it's
+ now
+
+
+working
+ like
+ the
+ core
+ thing.
+
+
+>> Yeah
+ now
+ we're
+ doing
+ that
+ more
+ often
+
+
+like
+ that's
+ exactly
+ the
+ idea
+ and
+ you
+
+
+need
+ like
+ people
+ with
+ different
+ tastes
+
+
+like
+ you
+ have
+ product
+ managers
+ in the
+
+
+same
+ room
+ you have
+ designers
+ you
+ have
+
+
+people
+ who
+ understand
+ back
+ end
+ the
+ front
+
+
+end
+ and
+ they
+ are
+ like
+ crafting
+ the
+
+
+software
+ together.
+
+
+>> It
+ it
+ is
+ hard
+ work
+ and
+ it's
+ sometimes
+ it
+
+
+is
+ late
+ work
+ as
+ one
+ of
+ our first
+
+
+interactions
+ on
+ on
+ X
+ was
+ I
+ I
+ I
+ think
+ I
+
+
+was
+ I
+ was
+ writing
+ something
+ about
+ how
+
+
+like
+ teams
+ are
+ working
+ really
+ late
+ up
+ up
+
+
+to
+ the
+ evening
+ or
+ into
+ the
+ night
+ and
+ you
+
+
+replied
+ this
+ it's
+ it's
+ almost
+ 2:30
+ a.m.
+
+
+and
+ we're
+ still
+ shipping
+ and
+ you're
+ like
+
+
+yeah
+ yeah
+
+
+kind
+ of
+ you
+ know
+ like
+ crying
+ smiley
+ face
+
+
+I'm
+ not
+ sure
+ this
+ is
+ is
+ good
+ or
+ bad
+ but
+
+
+can
+ you tell
+ me
+ a
+ bit
+ on
+ on the
+ pace
+ you
+
+
+talked
+ about
+ you're
+ not
+ sleeping
+ as
+ much
+
+
+before
+ the
+ recording
+ we
+ talked
+ about
+ how
+
+
+like
+ okay
+ at
+ some
+ point
+ you
+ need
+ to
+ get
+
+
+that
+ under
+ control.
+ Cuz
+ clearly
+ there
+ a
+
+
+time
+ for
+ excitement,
+ but
+ also
+ when
+
+
+you're
+ thinking
+ of
+ building
+ something
+
+
+longer
+ term,
+ like
+ you'll
+ you'll
+ want
+ to
+
+
+find
+ the balance,
+ right?
+ How
+ are
+ you
+
+
+thinking
+ about
+ it?
+
+
+>> crazy
+ right
+ now
+ like
+ I mean,
+ it
+ it
+ does
+
+
+like
+ impact
+ your
+ health
+ to
+ some
+ extent
+
+
+because
+ ever
+ since
+ these
+ agents
+ gotten
+
+
+better
+ as
+ I said
+ like
+
+
+there's
+ like
+ a
+ huge
+ opportunity
+ cost
+ if
+
+
+they
+ are not
+ working
+ all
+ the
+ time
+ and
+
+
+they
+ do
+ stall.
+ They
+ have
+ questions.
+ You
+
+
+have
+ to
+ like
+ steer
+ them.
+ I
+ I
+ read
+ the
+
+
+reasoning
+ traces.
+ I
+ guide
+ them
+ whenever
+
+
+I have
+ to.
+ And
+ for
+ that
+ like
+ I mean,
+
+
+I've
+ almost
+ like
+ changed
+ my
+ sleep
+ cycle.
+
+
+I
+ mean,
+ I
+ take
+ a nap.
+ I
+ wake
+ up
+ at like
+
+
+3:00
+ a.m.
+ to
+ send
+ like
+ a few
+
+
+instructions
+ because
+ every
+ hour
+ like
+ one
+
+
+or
+ two
+ agents
+ are going
+ to get
+ stuck.
+
+
+And
+ you
+ have
+ to go
+ and
+ like
+ it's
+ almost
+
+
+like
+ Roomba's
+ getting
+ stuck.
+ You
+ have
+ to
+
+
+like
+ unstuck
+ them.
+ That's
+ what
+ it
+ feels
+
+
+like,
+ but
+ then
+ then
+ that's
+ kind
+ of
+
+
+become
+ a habit,
+ but
+ it's
+ not
+ sustainable
+
+
+and
+ we
+ haven't
+ like
+ figured
+ out
+ the
+
+
+right
+ interface
+ to
+ work
+ with
+ these
+ agent
+
+
+fleet
+ of
+ agents
+ at
+ scale.
+
+
+Maybe
+ it's
+ really
+ like
+ a factory
+ like
+
+
+companies
+ have
+ to
+ have
+ a morning
+ shift,
+
+
+night
+ shift
+ because
+ instead
+ of
+ owning
+
+
+the
+ code,
+ maybe
+ you're
+ now
+ owning
+
+
+agents.
+ During
+ the
+ day,
+ I
+ make
+ the
+
+
+decisions,
+ but
+ I can
+ be
+ rest
+ assured
+ we
+
+
+are seeing
+ the
+ same
+ session,
+ the
+ same
+
+
+agent
+ that
+ other
+ people
+ can
+ make
+
+
+decisions
+ while
+ I'm
+ sleeping.
+
+
+Right?
+ So
+ we
+ are
+ we
+ are
+ right
+ now
+
+
+because
+ we
+ developing
+ on
+ our
+ own
+
+
+machines,
+ we
+ are like
+ bottlenecked
+ on
+ on
+
+
+on
+ that
+ collaboration
+ right
+ now.
+
+
+>> Yeah,
+ the
+ the
+ the
+ one
+ thing
+ I'll
+ add
+ is
+
+
+I
+ wrote
+ this
+ book
+ called
+ Why
+ We
+ Sleep.
+ I
+
+
+read
+ it
+ a
+ while
+ back.
+
+
+And
+ it
+ actually
+ forces
+ me
+ to
+ prioritize
+
+
+sleep
+ because
+ there's
+ this
+ thing
+ with
+
+
+sleep
+ which
+
+
+there's
+ some
+ scientific
+ evidence.
+ I'm
+
+
+I'm
+ not
+ an
+ expert
+ in
+ this,
+ but
+ there's
+ a
+
+
+suggestion
+ that
+ not
+ getting
+ enough
+ sleep
+
+
+now,
+ it's
+ fine
+ for
+ tomorrow
+ and
+ it's
+
+
+fine
+ for
+ next
+ week
+ and
+ it's
+ fine
+ for
+
+
+next
+ month,
+ but
+ decades
+ later
+ it
+ can
+
+
+come
+ back
+ and
+ bite
+ you.
+
+
+And
+ I
+ ever
+ since
+ I
+ don't
+ know
+ how
+
+
+scientifically
+ sound
+ it
+ is,
+ but
+ just
+ as
+
+
+when
+ I
+ was
+ like,
+ oh,
+ it
+ it
+ could
+ happen,
+
+
+I'm
+ like,
+ okay,
+ so
+ like
+ me
+ getting
+ a
+
+
+good
+ nice
+ sleep
+ is
+ not
+ only
+ important
+
+
+for
+ me
+ for
+ tomorrow
+ cuz
+ I'll
+ be,
+ you
+
+
+know,
+ like
+ you'll
+ know
+ like
+ you
+ you
+ you
+
+
+won't
+ do as
+ well.
+ But
+ for
+ my
+ long-term
+
+
+health,
+ like
+ I
+ I
+
+
+you
+ know, I
+ I'm
+ trying
+ to
+ hopefully
+ try
+
+
+to
+ do
+ stuff
+ that
+ will
+ make
+ me
+ more
+
+
+healthy
+ when
+ I'm
+ 60
+ or
+ 70
+ etc.
+ So
+ that's
+
+
+my
+ only
+ kind
+ of
+ like
+ addition
+ to
+ like
+
+
+not
+ sleeping
+ and
+
+
+I
+ would
+ push
+ a little
+ bit
+ like
+ is
+ is
+ it
+
+
+as
+ important
+ to
+ wake
+ up
+ and
+ and
+ steer
+
+
+the
+ agent?
+ Can
+ it
+ not
+ wait
+ until
+ the
+
+
+morning?
+
+
+>> So
+ I think
+ it's
+ more
+ like
+ a
+ polyphasic
+
+
+sleep.
+ I
+ maybe
+ I'm
+ like
+ exaggerating
+ the
+
+
+health,
+ but
+ I think
+ even
+ if
+ you
+ look
+ at
+
+
+how
+ people
+ used
+ to
+ work
+ pre-industrial
+
+
+age,
+ this
+ 9-to-5
+ thing
+ is
+ is
+ a
+ recent
+
+
+thing.
+ And
+ I
+ mean
+ I
+ come
+ from
+ like
+
+
+agriculture
+ community.
+ So
+ people
+ will
+
+
+wake
+ up
+ tend
+ to
+ livestock
+ because
+ you
+
+
+are
+ like
+ working
+ based
+ on
+ other
+ aspects
+
+
+and
+ you
+ have to
+ wake
+ up
+ and
+ do
+ that
+
+
+thing.
+ Now
+ it's
+ the
+ agents.
+
+
+You
+ have
+ to
+ wake
+ up
+ to
+ tend
+ to
+ that
+
+
+livestock,
+ which
+ is
+ now
+ agents.
+ Almost
+
+
+like
+ farm
+ will.
+ I
+ don't
+ know
+ whether
+
+
+that's
+ the right
+ analogy.
+ [laughter]
+
+
+So
+ people
+ used
+ to
+ have
+ polyphasic
+
+
+>> Or
+ or
+ like
+ Tamagotchi
+ for
+ a
+ little
+ bit,
+
+
+right?
+
+
+>> So
+ people
+ used
+ to have
+ polyphasic
+ sleep
+
+
+and
+ I'm
+ doing
+ that
+ right
+ now.
+
+
+>> Oh,
+ you're
+ right.
+ Like
+ this
+ was
+ a
+ thing
+
+
+in
+ the
+ Middle
+ Ages.
+ People
+ would
+ wake
+ up
+
+
+in
+ the
+ middle
+ of
+ the
+ night
+ and
+ they
+
+
+would
+ often
+ like
+ dine
+ and
+ stuff
+ like
+
+
+that
+ and
+ then
+ go
+ back
+ to
+ sleep.
+
+
+>> That's
+ what
+ I'm
+ doing
+ right
+ now.
+ But
+ I
+
+
+will
+ say
+ the
+ only
+ reason
+ I'm
+ doing
+ that
+
+
+right
+ now
+ is
+ because
+ I
+ have
+ to
+ tend
+ to
+
+
+the
+ agents
+ which
+ are
+ on
+ my
+ local
+
+
+machine.
+
+
+Now
+ once
+ you
+ really
+ figure
+ out
+ the
+ right
+
+
+abstraction
+ of the
+ factory,
+ once
+ you
+
+
+move
+ to the
+ cloud,
+ then
+ maybe
+ it's
+ going
+
+
+to
+ be
+ like
+ a
+ factory
+ like
+ 9-to-5
+ morning
+
+
+shift,
+ evening
+ shift,
+ or
+ like
+ round
+ the
+
+
+clock
+ because
+ these
+ are not
+ physical
+
+
+factories.
+ You can
+ have
+ follow
+ the
+ sun
+
+
+model.
+ Like
+ we're
+ still
+ figuring
+ out,
+
+
+but
+ right
+ now
+ it
+ looks
+ looks
+ more
+ like
+
+
+polyphasic
+ with
+ this
+ generation
+ of
+
+
+agents,
+ at
+ least
+ for
+ me.
+
+
+>> Yeah.
+
+
+Let's
+ talk
+ a little
+ bit
+ about
+ burnout.
+
+
+You
+ wrote
+ about
+ burnout
+ and I'll
+ quote
+
+
+you
+ here.
+
+
+Code
+ Rabbit
+ is
+ my
+ third
+ startup
+ now
+ and
+
+
+I
+ have
+ worked
+ just
+ as
+ hard
+ for
+ my
+
+
+previous
+ two
+ Netcell
+ and
+ Unflux
+ Ninja.
+
+
+Burnout
+ never
+ happens
+ due
+ to
+ hard
+ work.
+
+
+It kicks
+ in
+ when
+ your
+ work
+ does
+ not
+ lead
+
+
+to
+ the desired
+ outcome
+ for
+ a
+ long
+ time.
+
+
+On
+ the family
+ front,
+ my
+ two
+ daughters
+
+
+were
+ born
+ during
+ startups.
+ They
+ actually
+
+
+helped
+ prevent
+ burnouts.
+
+
+In
+ just
+ your
+ personal
+ experience,
+ like
+
+
+how
+ have
+ you
+ thought
+ about
+ burnout
+ and
+
+
+also
+ just
+ working
+ so
+ damn
+ hard
+ cuz
+ it
+
+
+sounds
+ like,
+ you
+ know,
+ you're
+ you're
+ on
+
+
+third
+ startup,
+ like
+ you
+ don't
+ seem
+ to
+ be
+
+
+the
+ you're
+ the
+ intense
+ type.
+
+
+>> Yeah,
+ I
+ mean
+ I mean
+ I
+ really
+ when
+ the
+
+
+second
+ startup
+ wasn't
+ doing
+ well,
+ I mean
+
+
+that's
+ where
+ I
+ did
+ feel
+ dragged
+ down,
+
+
+burnt
+ out
+ because
+ there
+ was
+ no
+ outcome.
+
+
+That's
+ the
+ first
+ time
+ I
+ felt
+ the
+ signs
+
+
+of
+ a burnout
+
+
+because
+ yes,
+ you
+ were
+ like
+ working
+ very
+
+
+hard
+ but
+ without
+ a
+ very
+ clear
+ result
+ or
+
+
+an
+ outcome.
+ Just
+ waiting
+ the
+ anxiety
+
+
+kills
+ you.
+ You
+ know,
+ nothing's
+
+
+happening.
+ You're
+ doing
+ all
+ this
+ work,
+
+
+but
+ nothing's
+ happening.
+ Nothing's
+
+
+moving.
+ So
+ that's
+ a
+ bad
+ scenario
+ to
+ be
+
+
+in.
+ And
+ I think
+ that's
+ the status
+ quo,
+
+
+which
+ which
+ I
+ would
+ would
+ want
+ to
+ go
+
+
+back
+ to.
+
+
+But
+ for
+ CodeRabbit,
+ like
+ I'm
+ working
+
+
+hard,
+ but
+ things
+ are
+ on
+ the
+ upside.
+ Like
+
+
+we
+ are
+ like
+ seeing
+ the
+ revenue
+ grow
+ like
+
+
+crazy.
+ Our
+ team
+ is
+ growing.
+ The
+
+
+funding's
+ coming
+ in.
+ It's
+ always
+
+
+something
+ happening.
+ We're
+ actually
+
+
+moving
+ the
+ needle
+ as
+ well.
+ Customers
+ are
+
+
+loving
+ the
+ product,
+ the
+ new
+
+
+capabilities.
+
+
+So
+ even
+ though
+ I'm
+ working
+ hard,
+ but
+ I
+
+
+don't
+ feel
+ that
+ I'm
+ burning
+ out.
+ I
+ can
+
+
+or
+ I have
+ to
+ stop
+ at
+ this
+ point.
+ And
+ I
+
+
+think
+ I
+ can
+ keep
+ going
+ on.
+
+
+>> And
+ I
+ I
+ wonder
+ like
+ I
+ think
+ in
+ your
+ case
+
+
+it
+ makes
+ a lot
+ of
+ sense
+ because
+ you
+ were
+
+
+a founder
+ in
+ all
+ the
+ companies,
+ so
+ you
+
+
+immediately
+ you
+ you
+ were
+ connected
+ to
+
+
+the
+ outcome
+ or
+ you
+ know,
+ for
+ example,
+ if
+
+
+the
+ revenue
+ goes
+ up,
+ you
+ know
+ this
+ is
+
+
+this
+ is
+ just
+ good
+ because
+ it
+ it
+ will
+
+
+help
+ your
+ company
+ grow
+ or
+ raise
+ the
+ next
+
+
+round
+ or
+ get
+ a
+ sale
+ or
+ whatever,
+ you
+
+
+know,
+ like
+ you
+ know
+ what
+ will
+ what
+ what
+
+
+can
+ come.
+ I'm
+ wondering
+ just
+ being
+
+
+empathetic
+ for
+ employees
+ who
+ are
+ not
+
+
+founders
+ themselves.
+ They
+ might
+ have
+
+
+equity,
+ but
+ it
+ will
+ not
+ be
+ as
+ as
+ big
+ of
+
+
+a stake.
+ Could
+ it
+ be
+ that
+ having
+
+
+autonomy,
+ having
+ visibility
+ for
+ the
+
+
+business,
+ just
+ knowing
+ how
+ their
+ work
+ is
+
+
+connected,
+ that
+ it
+ might
+ actually
+ help
+
+
+because
+ insiders
+ people
+ typically
+ work
+
+
+hard
+ and
+ and
+ long,
+ especially
+ at
+ early
+
+
+stage.
+
+
+But
+ I
+ I
+ wonder
+ if
+ the
+ the
+ autonomy
+ here
+
+
+and
+ and
+ seeing
+ how
+ your
+ work
+ is
+
+
+connected
+ to
+ the
+ things
+ that
+ that
+
+
+actually
+ just
+ helps,
+ you
+ know,
+ get
+ this
+
+
+kind
+ of
+ kick
+ that
+ you're
+ you're
+ getting
+
+
+basically.
+
+
+>> Yeah,
+ it
+ motivates
+ people.
+ Like
+ first
+ of
+
+
+all,
+ we
+ don't
+ force
+ people
+ to
+ work
+ like
+
+
+I
+ do.
+ I
+ mean,
+ I
+ lead
+ by
+ example.
+ That's
+
+
+what
+ I
+ believe.
+ And
+ even
+ if
+ people
+ can
+
+
+follow
+ to
+ some
+ extent,
+ it's
+ great.
+
+
+But
+ I
+ I
+ do
+ what
+ I
+ do.
+ Like
+ I
+ and
+ I
+ mean,
+
+
+rather
+ than
+ managing
+ the people,
+ I'm
+ on
+
+
+the
+ ground
+ in
+ their
+ trenches
+ with
+ the
+
+
+developers.
+ If
+ there's
+ incidents,
+ I'm
+
+
+always
+ like
+ first
+ there
+ to
+ help
+ them
+
+
+out,
+ no
+ matter
+ what
+ the
+ time.
+
+
+>> Yeah.
+
+
+>> And
+ I think
+ that
+ does
+ motivate
+ people.
+
+
+They're
+ all
+ like
+ happy
+ that
+ okay,
+ the
+
+
+leaders
+ right.
+ They
+ feel
+ like
+ much
+ more
+
+
+empathy
+ to
+ their
+ life,
+ right?
+ Secondly,
+
+
+like
+ I
+ found
+ like
+ the
+ people
+ who
+ join
+
+
+startups
+ are
+ looking
+ for
+ this
+ adventure.
+
+
+Like
+ it's
+ a
+ non-linear
+ career
+
+
+trajectory.
+ So
+ they
+ are
+ living
+
+
+living
+ like
+
+
+very
+ predictable
+ salary
+ RSUs
+ in
+ some
+ big
+
+
+company,
+ right?
+ To
+ get
+ like
+ cheaper
+
+
+stock
+ at
+ startups,
+ but
+ then
+ they're
+
+
+looking
+ at
+ the upside.
+ And
+ when
+ that
+
+
+happens,
+ it's
+ like
+ even
+ more
+ inspiring,
+
+
+right?
+ When
+ the
+ companies
+ are
+ on
+ the
+
+
+upper
+ trajectory.
+ So
+ I
+ would
+ say
+ like
+
+
+even
+ the
+ people
+ who
+ go
+ and
+ join
+ the
+
+
+startups
+ are
+ looking
+ for
+ breaking
+ that
+
+
+status
+ queue
+ which
+
+
+things
+ can
+ be
+ very
+ mundane
+ and
+ boring
+ in
+
+
+a
+ larger
+ setting.
+
+
+>> Yeah,
+ and
+ you're
+ right.
+ Like
+ on
+ on
+ a
+
+
+fast
+ growth
+ startup,
+ there
+ are
+ a lot
+ of
+
+
+advantages
+ like
+
+
+either,
+ you
+ know,
+ if
+ the
+ fast
+ growth
+
+
+startup
+ goes
+ great
+ and
+ you
+ have
+ equity
+
+
+and
+ there's
+ an
+ exit,
+ you
+ could
+ have
+ life
+
+
+changing
+ amount
+ of
+ money
+ meaning
+ that
+
+
+you
+ can
+ buy
+ a house,
+ you
+ you
+ could
+ have
+
+
+education
+ set
+ up
+ for your
+ kids
+ and
+ you
+
+
+now
+ have
+ the freedom
+ to
+ like
+ either
+ take
+
+
+a
+ risky
+ startup
+ or
+ do
+ a
+ boring
+ job,
+
+
+whatever
+ you
+ want.
+ And
+ if
+ it
+ goes
+ like
+
+
+this
+ and
+ it
+ drops,
+ for
+ example,
+ fast
+ was
+
+
+a
+ typical
+ example
+ in
+ the
+ and
+ I think
+ in
+
+
+2022
+ which
+ went
+ bankrupt,
+ you
+ often
+ if
+
+
+the
+ startup
+ attracted
+ really
+ good
+
+
+people,
+ you know,
+ those
+ people
+ all
+ go
+ to
+
+
+different
+ companies
+ because
+ now
+ their
+
+
+company
+ shut
+ down.
+ But
+ there's
+ also
+
+
+often
+ this
+ network,
+ this
+ camaraderie
+
+
+that
+ was
+ there
+ and
+ they
+ often
+ call
+ each
+
+
+other
+ years
+ later.
+ They
+ will
+ some
+ of
+
+
+them
+ will
+ end
+ up
+ at
+ the next,
+ you
+ know,
+
+
+like
+ really
+ successful
+ company.
+ So
+ I've
+
+
+actually
+ changed
+ my
+ mind
+ and
+ okay,
+ the
+
+
+only
+ downside
+ I guess
+ joining
+ a startup
+
+
+is
+ often
+ you
+ will
+ need
+ to
+ work
+ hard.
+ It
+
+
+will
+ be
+ often
+ be
+ in
+ person,
+ but
+
+
+typically
+ when
+ you're
+ young
+ and
+ when,
+
+
+you know,
+ this
+ is
+ not
+ you
+ don't
+ have
+
+
+other
+ huge
+ priorities
+ in
+ your
+ life,
+ it
+
+
+can
+ be
+ a huge
+ career
+ boost.
+
+
+>> It
+ is
+ like
+ even
+ financially
+ I
+ wouldn't
+
+
+say
+ it's
+ crazy
+ like
+ that
+ that's
+ how
+ the
+
+
+Silicon
+ Valley
+ is.
+ Like
+ I think
+ it
+ does
+
+
+reward
+ people
+ who
+ took
+ that
+ kind
+ of
+ a
+
+
+risk.
+ I
+ mean,
+ there's
+ no
+ fatal
+ failure
+
+
+somehow.
+
+
+>> Yeah.
+
+
+>> Like
+
+
+and
+ I've
+ seen
+ like
+ people
+ like
+ who
+ have
+
+
+just
+ been
+ through
+ that
+ experience
+ have
+
+
+gained
+ a lot
+ in
+ like
+
+
+even
+ like
+ if
+ it's
+ like
+ a bad
+ lesson,
+ at
+
+
+least
+ they know
+ what
+ is
+ not
+ going
+ to
+
+
+work.
+ And
+ that's
+ valued
+ in
+ whatever
+ the
+
+
+next
+ job
+
+
+they're
+ going
+ to
+ go
+ look
+ out
+ for.
+ So
+ so
+
+
+they're
+ always
+
+
+>> saying
+ it.
+ It
+ might
+ be
+ more
+ valuable
+
+
+sitting
+ in
+ one
+ place,
+ not
+ doing
+ much,
+
+
+not
+ learning
+ much,
+ right?
+
+
+>> that's
+ where
+ you
+ don't
+ grow.
+ But
+ if
+ you
+
+
+go
+ out
+ and
+ do
+ this
+ thing
+ risky,
+ I mean,
+
+
+there's
+ no
+ fatal
+ failure
+ there.
+ Like
+
+
+they
+ [clears throat]
+ people
+ love
+ in
+ in
+
+
+the
+ valley
+ at
+ least,
+ people
+ who have
+
+
+taken
+ risk,
+ whether
+ you're
+ founders
+ or
+
+
+early
+ employees
+
+
+foolish
+ enough
+ to
+ join.
+ But
+ but
+ at
+ the
+
+
+same
+ time,
+ people
+ reward
+ that
+
+
+experience,
+ right?
+ And
+ if
+ it's
+
+
+successful,
+ then
+ it's
+ like
+ you
+ you're
+ on
+
+
+an
+ accelerated
+ trajectory
+ like
+ and
+ I
+
+
+think
+ that's
+ what
+ I
+ would
+ encourage.
+
+
+Like
+ even
+ though
+ yes,
+ I mean,
+ it's
+
+
+becoming
+ a little
+ bit
+ cost
+ prohibitive
+
+
+on
+ the
+ factory
+ front,
+ but
+ still
+ it's
+
+
+still
+ the
+ best
+ time
+
+
+for people
+ to
+ go
+ out
+ and
+ try
+ this
+ out.
+
+
+Like
+ before
+ all
+ these
+ like
+ factories
+
+
+become
+ more
+ established
+ and
+ start
+
+
+blocking
+ some
+ of
+ these
+ individuals,
+ but
+
+
+right
+ now
+ it's
+ a very
+ magical
+ time
+ right
+
+
+now
+ like
+ in
+ a single
+ person
+
+
+just
+ driving
+ these
+ agents
+ in
+ the
+ right
+
+
+way
+ can
+ create
+ immense
+ value.
+
+
+>> I
+ wanted
+ to
+ ask
+ that
+ looking
+ back
+ pre-AI
+
+
+to
+ like
+ your
+ 25-ish
+ years
+ as
+ a software
+
+
+engineer,
+ as
+ a
+ founder,
+ what
+ are
+ the
+
+
+things
+ that
+ you
+ learned
+ there
+ or
+ or
+
+
+skills
+ that
+ you
+ built
+ that
+ you
+ think
+
+
+have
+ are
+ really
+ useful
+ and
+ helpful
+ right
+
+
+now
+ working
+ with
+ with
+ AI
+ and
+ in
+ this
+
+
+like
+ I
+ guess
+ AI
+ era?
+
+
+>> I
+ mean
+ in
+ terms
+ of
+ like
+ entrepreneurship
+
+
+it's
+ always
+ been
+ like
+
+
+I
+ mean
+ again
+ it's
+ almost
+ like
+ a video
+
+
+game
+ like
+ I mean
+ you're
+ playing
+ all
+
+
+these
+ like
+ games
+ where
+ yes
+ you
+ have
+ to
+
+
+think
+ about
+ like
+ the
+ product
+ market
+ fit.
+
+
+I mean
+ all
+ that
+ is
+ exciting.
+ I
+ think
+
+
+what
+ I
+ love
+ is
+ like
+ creating
+ value
+ like
+
+
+that's
+ the
+ end
+ of the
+ day.
+ Like
+ software
+
+
+is
+ just
+ means
+ to
+ an
+ end
+ yes
+ you
+ have
+ to
+
+
+write
+ code
+
+
+and
+ I
+ enjoyed
+ it
+ but
+ it
+ was
+ like
+ just
+
+
+means
+ to
+ an
+ end
+ for
+ me.
+ Like
+ the
+ real
+
+
+thing
+ was
+ like
+ our
+ people
+ like
+ it's
+
+
+really
+ like
+ really
+ like
+ making
+ someone
+
+
+happy
+ with
+ the
+ value
+ you
+ provide
+ is
+
+
+always
+ like
+ the
+ biggest
+ reward,
+ right?
+
+
+Everything
+ is
+ like
+ then
+ follows
+ like
+ you
+
+
+get
+ you
+ will
+ get
+ the
+ VC
+ money,
+ you
+ will
+
+
+get
+ the
+ team
+ and
+ people
+ will
+ join
+ the
+
+
+mission.
+ So
+
+
+so it's
+ almost
+ like
+ being
+ a missionary
+
+
+in
+ this
+ kind
+ of
+ a world
+ like
+ you're
+
+
+spreading
+ a
+ religion
+ and
+ that's
+ the
+ fun
+
+
+part
+ of
+ doing
+ a startup
+ like
+ I mean
+ I
+
+
+I
+ mean
+ I've
+ always
+ been
+ on
+ the
+ frontier
+
+
+like
+ I've
+ seen
+ like
+ early
+ telecom,
+ I've
+
+
+seen
+ SaaS,
+ cloud
+ takeoff
+ and
+ each
+ time
+
+
+it's
+ always
+ what
+ excites
+ me
+ is
+ like
+ okay
+
+
+there's
+ a
+ lot
+ of
+ non-linear
+ value
+ going
+
+
+to
+ be
+ created
+ at
+ the
+ frontier
+ than
+
+
+at
+ at
+ other
+ places
+ and
+ I'll
+ always
+ try
+
+
+to
+ be
+ at
+ the
+ frontier.
+
+
+>> What
+ would
+ you
+ advise
+ a
+ software
+
+
+engineer
+
+
+who
+ one
+ day
+ would
+ like
+ to
+ work
+ at
+ Code
+
+
+Rabbit
+ or
+ at
+ a place
+ like
+ Code
+ Rabbit
+
+
+and
+ just
+ as
+ a
+ fast-moving
+ place?
+ What
+
+
+kind
+ of
+ skills
+
+
+should
+ they
+ invest
+ in?
+ What
+ kind
+ of
+
+
+practices,
+ what
+ kind
+ of activities
+
+
+should
+ they
+ do
+ outside
+ of
+ playing
+ 500
+
+
+hours
+ of
+ Factorio?
+ [laughter]
+
+
+>> Yeah,
+ I
+ think
+ I
+ think
+ the
+ agency
+ is
+ the
+
+
+number
+ one
+ thing
+ I'm
+ looking
+ for
+ right
+
+
+now
+ when
+ we
+ interview
+ someone
+ because
+
+
+right
+ now
+ like
+ even
+ if
+ they're
+ in
+ a
+
+
+bigger
+ company
+ because
+ now
+ lot
+ is
+
+
+happening
+ on
+ the
+ side
+ if
+ they're
+ not
+
+
+doing
+ side
+ projects
+ today
+
+
+it's
+ a
+ red
+ flag
+ because
+ right
+ now
+ it's
+
+
+so
+ easy
+ to
+ build
+ that
+ people
+ who
+ have
+
+
+agency
+ are
+ actually
+ building
+ something
+
+
+right
+ now.
+ They
+ can
+ hold
+ themselves
+ back
+
+
+and
+ that's
+ all
+ always
+ like
+ a great
+ sign.
+
+
+If
+ you
+ have
+ side
+ projects,
+ I
+ I
+ love
+ it,
+
+
+right?
+ And
+ the
+ second
+ thing
+ we're
+
+
+looking
+ for
+ is
+ like
+ people
+ who
+ are
+ have
+
+
+a
+ range
+ of
+ experience
+ now
+ for
+ the
+ depth
+
+
+you
+ have
+ AI,
+ it
+ can
+ go
+ deep
+ drill
+
+
+infinite
+ to
+ performance
+ optimize
+
+
+something
+ and
+ but
+ if
+ you
+ have
+ like
+ a
+
+
+range
+ of
+ experience
+
+
+you
+ can
+ like
+ build
+ let's
+ say
+ distributed
+
+
+systems
+ let's
+ say
+ you
+ came
+ in
+ from
+ one
+
+
+space
+ doing
+ let's
+ say
+ observability
+
+
+databases.
+
+
+Now
+ if
+ you
+ were
+ to
+ give
+ agents
+ now
+ you
+
+
+can
+ do
+ 10x
+ of
+ that.
+ You're
+ not
+ just
+
+
+building
+ that
+ you're
+ building
+ 10
+ other
+
+
+types
+ of distributed
+ systems.
+ So the
+
+
+range
+ also
+ matters
+ now.
+ So
+ those
+ kind
+ of
+
+
+things
+ I'm
+ looking
+ for,
+ right?
+ I
+ mean
+
+
+it's
+ like
+ systems
+ thinking
+
+
+whether
+ they
+ have
+ range
+ in
+ skills
+ and
+
+
+high
+ agency
+ to
+ keep
+ these
+ agents
+ busy.
+
+
+>> As
+ closing
+ what's
+ a book
+ or
+ a paper
+ you
+
+
+would
+ recommend
+ that
+ that
+ you
+ read
+ and
+
+
+you
+ found
+ it
+ interesting
+ or
+
+
+>> I
+ think
+ we're
+ living
+ in
+ a
+ black
+ swan
+
+
+moment
+ I
+ read
+ this
+ book
+ I
+ mean
+ I'm not
+
+
+like
+ a
+ spend
+ a
+ lot
+ of
+ time
+ reading
+ books
+
+
+these
+ days
+ I'm
+ just
+ been
+ like
+ very
+
+
+building
+
+
+but
+ I
+ think
+ we
+ are
+ in
+ that
+ like
+ the
+
+
+black
+ swan
+ zone
+ like
+ what
+ we
+ are
+ seeing
+
+
+right
+ now
+
+
+>> And
+ what's
+ the
+ book?
+
+
+>> I mean
+ this
+ was
+ like
+ the
+ black
+ swan
+ book
+
+
+I
+ think
+ I
+ read
+ forgot
+ who
+ the
+ author
+ was
+
+
+but
+ it
+ was
+ really
+
+
+>> Yeah
+ we'll
+ we'll
+ put
+ it
+ in the
+ show
+
+
+notes
+ below.
+
+
+>> Yeah
+ yeah
+ yeah
+ but
+ when
+ there
+ was
+ like
+
+
+pretty
+ insightful
+ about
+ we
+ are right
+ now
+
+
+going
+ through
+ is
+ our
+ kind
+ of
+ a black
+
+
+swan
+ moment
+ like
+ if
+ you
+ look
+ at
+ five
+
+
+years
+ back
+
+
+I would
+ not
+ have
+ predicted
+ that
+ AI
+ would
+
+
+get
+ so
+ good
+
+
+that
+ it's
+ first
+ of
+ all
+ like
+ driving
+ my
+
+
+cars
+ is
+ driving
+ the
+ software
+ and
+ it's
+
+
+like
+ even
+ some
+ of
+ the
+ capabilities
+ we're
+
+
+still
+ like
+ discovering
+
+
+with
+ what
+ these
+ models
+ are
+ capable
+ of
+
+
+doing
+ and
+ we have
+ not
+ even
+ hit
+ the
+ peak
+
+
+yet.
+ So
+ yeah
+ so
+ everything
+ is going
+ to
+
+
+change
+ and
+
+
+and
+ some
+ of
+ the
+ things
+ we
+ can't
+ even
+
+
+predict
+ today
+ the
+ way
+ we're
+ going
+ to
+ see
+
+
+the
+
+
+the after
+ effects.
+
+
+>> Well
+ Harjett
+ thank
+ you.
+
+
+>> Yeah
+ thanks.
+
+
+>> Well
+ I
+ cannot
+ recall
+ talking
+ with
+ anyone
+
+
+nearly
+ as
+ AI
+ pill
+ as
+ Harjett
+ is.
+
+
+To
+ be
+ clear
+ I
+ was
+ skeptical
+ to start
+
+
+[music]
+ with
+ when
+ hearing
+ about
+ his
+
+
+$200,000
+ AI
+ build
+ for
+ a
+ single
+ month
+ for
+
+
+a single
+ person
+
+
+and
+ I
+ remained
+ pretty
+ skeptical
+ about
+
+
+several
+ things
+
+
+but
+ Harjett
+ explaining
+ his
+ thinking
+ put
+
+
+a few
+ things
+ into
+ perspective.
+
+
+Let's
+ start
+ with
+ the part
+ that
+ I
+ cannot
+
+
+agree
+ with
+ or
+ recommend
+ Harjett's
+
+
+approach
+ to
+ waking
+ up
+ in
+ the
+ middle
+ of
+
+
+the night
+ to
+ prompt
+ his
+ agents.
+ [music]
+
+
+He
+ He
+ this
+ polymorphic
+ sleep
+ but
+ to
+ it
+
+
+sounds
+ like
+ de-prioritizing
+ sleep
+ all
+ to
+
+
+unblock
+ agents.
+ This
+ feels
+ very
+
+
+inefficient
+ to
+ me,
+ and
+ I
+ would
+ rather
+
+
+look
+ at
+ longer
+ learning
+ tasks
+ in
+ the
+
+
+cloud
+ [music]
+ if
+ you
+ really
+ want
+ to
+ be
+
+
+there
+ to
+ have
+ your
+ agents
+ running
+ it
+ all
+
+
+the
+ time
+ even
+ when
+ you
+ sleep.
+ But
+
+
+really,
+ I
+ don't
+ see
+ the
+ obsession
+ with
+
+
+agents
+ always
+ running.
+ This
+ is
+ not
+ a
+
+
+competition
+ about
+ utilizing
+ your
+ local
+
+
+laptop
+ to
+ always
+ run
+ at
+ 100%.
+ The
+ part
+
+
+on
+ how
+ Harj
+ doesn't
+ think
+ a
+ startup
+ with
+
+
+$8
+ million
+ of
+ funding
+ has
+ enough
+ money
+
+
+to
+ build
+ a software
+ startup,
+ I'm
+ also
+
+
+skeptical.
+ I
+ get
+ it
+ that
+ when
+ Harj
+
+
+assumes
+ that
+ all
+ startups
+ will
+ send
+
+
+millions
+ of
+ AI
+ like
+ his
+ startup
+ does
+
+
+with
+ 40
+ people,
+ you
+ burn
+ through
+ funding
+
+
+fast.
+ I
+ also
+ get
+ it that
+ in
+ dev
+ tools,
+
+
+it
+ can
+ make
+ business
+ sense
+ to build
+ new
+
+
+products
+ like
+ a custom
+ CI
+ really
+ fast
+
+
+like
+ CodeRabbit
+ did.
+ But
+ outside
+ of
+
+
+startups
+ that
+ sell
+ AI
+ dev
+ tools,
+ I
+ just
+
+
+[music]
+ don't
+ see
+ it
+ making
+ sense
+ to
+
+
+spend
+ massively
+ on
+ AI
+ just
+ to
+ be
+ a
+
+
+little
+ bit
+ faster
+ to
+ market
+ than
+ your
+
+
+competition.
+ The
+ part
+ I do
+ [music]
+ get
+
+
+though
+ is
+ how
+ much
+ competition
+ across
+ AI
+
+
+dev
+ tool
+ startups
+ is
+ there
+ today.
+
+
+It's
+ not
+ just
+ CodeRabbit
+ launching
+ new
+
+
+products
+ with
+ their
+ 40-person
+ [music]
+
+
+engineering
+ team.
+ It's
+ also
+ larger
+
+
+companies
+ like
+ Ramp
+ or
+ Shopify
+ launching
+
+
+dev
+ tools
+ products,
+ AI
+ Labs,
+ and
+ other
+
+
+large
+ companies
+ all
+ trying
+ to
+ get
+ the
+
+
+piece
+ [music]
+ of
+ the same
+ market.
+ So
+
+
+with
+ this
+ context,
+ I
+ do
+ get
+ why
+ speed
+
+
+matters
+ especially
+ for
+ small
+ startups
+
+
+and
+ why
+ spending
+ on
+ AI
+ to
+ build
+ [music]
+
+
+so
+ faster
+ can
+ make
+ some
+ sense.
+ Finally,
+
+
+one
+ practice
+ I
+ really
+ liked
+ is
+ the
+
+
+concept
+ of
+ devs
+ losing
+ [music]
+ their
+
+
+driving
+ license
+
+
+if
+ they
+ cause
+ too
+ many
+ regressions.
+
+
+AI
+ failed
+ or not,
+ I
+ like
+ this
+ idea
+ to
+
+
+force
+ engineers
+ to
+ care
+ more
+ about
+
+
+reliability
+ and
+ shipping
+ [music]
+ quality
+
+
+code.
+ For
+ more
+ deep
+ dives
+ on
+ software
+
+
+factories
+ and
+ engineering
+ practices
+ with
+
+
+AI,
+ check
+ out
+ the
+ link
+ to
+ pragmatic
+
+
+engineer
+ deep
+ dives
+ below.
+ If
+ you've
+
+
+enjoyed
+ this
+ podcast,
+ please
+ do
+
+
+subscribe
+ on
+ your
+ favorite
+ podcast
+
+
+platform
+ and
+ on
+ YouTube.
+ [music]
+
+
+A special
+ thank
+ you
+ if
+ you
+ also
+ leave
+ a
+
+
+rating
+ on
+ the
+ show.
+ Thanks
+ and
+ see
+ you
+
+
+in the
+ next
+ one.
