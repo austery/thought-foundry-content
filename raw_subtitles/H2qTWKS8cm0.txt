@@ -1,0 +1,1267 @@
+JACK DORSEY: Now we can
+organize all the information,
+all the working artifacts
+that we have into one
+surface where anyone can
+query it at any time,
+anyone can act on that
+information at any time,
+and it really diminishes the
+need for the communication
+hierarchy.
+[THEME MUSIC]
+ALISON BEARD: Jack, thank
+you so much for being here.
+JACK DORSEY: Thanks
+for having me.
+ALISON BEARD: Yeah.
+So let's start by
+going back a few years.
+In 2024, you reorganized
+Block around functions
+rather than business units.
+Why was that an
+important first move
+to set the stage for the
+intelligence-driven innovation
+that you're pursuing now?
+JACK DORSEY: It was more
+getting back to how we started.
+We were organized by discipline,
+by engineering, design,
+and so on and so forth when we
+started the company in 2009,
+and we didn't expect to have
+an entirely new business
+line in Cash App.
+We started with Square.
+Cash App grew quite rapidly
+after about five years
+of Square.
+There were two mentions of it
+in our S-1 when we went public.
+But then it just took
+off and we decided
+that we would experiment with
+having a separate business
+within this larger business.
+So we had these two
+separate ecosystems.
+We kind of ran them
+as separate companies,
+but we realized we
+weren't getting--
+we didn't want to end up at just
+being a conglomerate of loosely
+coupled businesses.
+We wanted to be
+two ecosystems that
+actually benefited one another.
+So it made sense to remove the
+business structure from them
+and move back to
+a discipline base
+where we can really focus on
+getting all of our engineers
+to mastery, getting our
+designers to mastery,
+getting our finance and counsel
+folks to mastery instead of just
+serving a pure business
+function and having differences
+along the way.
+So now we have standards
+across the company
+and it made it much easier
+to deploy similar tool sets
+and policies and culture.
+Each one of these
+businesses back in the day
+had different cultures and they
+were using different tools.
+And there was just
+a lot of duplication
+that was unnecessary,
+especially as we entered more
+into using AI tools, which
+really normalized a bunch for us
+and made it much easier
+to just move faster
+because we weren't choosing
+all these different vendors
+and tools.
+ALISON BEARD: Yeah.
+So you acknowledged back
+then that that initial move
+was disruptive and uncomfortable
+as is the more recent shift
+to organizing around
+intelligence, which
+involved layoffs this year.
+So how do you
+mobilize your people
+to embrace a change that's going
+to radically shift their roles
+and might eliminate
+some of their work?
+JACK DORSEY: I think there's
+many times in my career where
+I had to be comfortable with
+not seeming credible to folks
+and that they--
+like, I'm making
+decisions that I
+believe in that may
+not feel credible
+or decisions that are wanted
+throughout the business.
+Any change is going
+to be disruptive.
+And it's not often the case
+that change is embraced.
+But when I feel very
+strongly about something,
+I get feedback from
+a bunch of people
+that would have
+differing opinions,
+and it builds a lot more
+confidence in the action.
+And I'm OK with losing a
+little bit of credibility
+if that outcome over the longer
+term is going to be successful.
+And it's going to take time
+for folks to get there,
+and it's generally
+worked out quite well.
+But it is hard along
+the way, but it gives me
+a sense of empathy
+like what I have
+to do as a lead of
+the organization
+and how we should
+see the organization
+from everyone's point of view.
+And then just make sure that I'm
+communicating that all the time.
+It's really like, why
+are we doing this?
+Why is it important?
+Why does it set us
+up for the future?
+And not everyone's
+going to agree.
+Not everyone's going to
+believe it immediately.
+But it's my job to prove
+it as quickly as I can.
+ALISON BEARD: Yeah.
+OK, so now the big
+question, what exactly
+does it mean to turn a
+company into an intelligence?
+How does it practically
+change the way
+that the company is
+structured, how it operates,
+and most particularly,
+how it innovates?
+JACK DORSEY: I mean, I don't
+think we often think about it
+because it sounds
+a little strange,
+but a company itself
+is a technology.
+The way we organize, the way
+we build into departments,
+how we meet, how we
+structure our communication,
+our collaboration.
+We don't necessarily
+see it as a technology
+because we think of
+technology as electronics,
+but it's a technology
+that serves
+distributing information
+and distributing
+tasks and accountability.
+And it's something that
+when we started our company,
+we borrowed the playbook
+from Google, which brought it
+from Silicon Graphics, which
+brought it from Hewlett-Packard,
+which brought it from GE,
+and so on and so forth,
+all the way back
+to the railroads
+and all the way to Roman times.
+And it really, if you
+look at what it is,
+it's just technology
+around information flow.
+And the hierarchy
+around a company
+is really to make that
+information flow as efficient
+as it possibly can.
+But all the intelligence of the
+company is within humans heads,
+and it's all dependent upon
+these information flows
+working and the
+speed at which people
+can organize the information,
+provide context, disagree
+with it, answer questions, ask
+the right questions and whatnot.
+Now, every single interaction
+we have in the company usually
+leaves some sort of
+written artifact behind.
+We're a remote-first
+company, so everything we do
+has an artifact
+associated with it
+that can be queried and
+ingested by an intelligence.
+And now we can organize
+all the information,
+all the working artifacts that
+we have into one surface where
+anyone can query it
+at any time, anyone
+can act on that
+information at any time.
+And it really diminishes the
+need for the communication
+hierarchy.
+And then you get down to
+OK, so what are our roles?
+How do we think about our work?
+And to us it came down to
+three significant roles, which
+is Individual Contributor, which
+is someone who builds or makes
+something or operates something,
+a Directly Responsible
+Individual, which is someone
+who's strategic and can take
+accountability and
+build out a roadmap,
+and then a coach, which
+used to be called a manager,
+and that's someone who's
+tasked and assigned to an IC
+or a DRI that can help
+them master their craft.
+So we have those
+folks for engineering,
+we have them for design,
+we have them for finance.
+But it's no longer a command
+and control structure.
+It's more of a
+coaching assignment
+because ideally we want everyone
+in the organization, especially
+the ICs and the DRIs, Individual
+Contributors and the Directly
+Responsible Individuals,
+to have a lot of agency.
+Now they have all the
+information around the company,
+they can pretty much
+build anything they want,
+and they can be very, very
+close to the customer, which
+means they can make
+context-rich decisions
+and act on them
+almost immediately.
+And it turns out that
+the chain of command
+and the communication
+hierarchy, which
+is slowing a bunch
+of that information
+down or making it so
+lossy because someone
+didn't want to bring this up, or
+they forgot about this context
+or forgot about this
+idea or question,
+now we get to see
+everything and we
+can make much faster decisions
+with much richer context
+with a lot more data.
+And it just seems to
+me that is the company
+structure in the future.
+It's a lot more flat.
+It's a lot more organized
+around assignment rather than
+command and control.
+And everyone has access
+on a level playing field
+to the very data, the very
+intelligence of the company.
+And we can also
+build systems based
+on our knowledge
+of the company that
+can help us predict the next
+actions the company should take.
+And then we get to
+decide if we actually
+want to do that or not based on
+everything that we're seeing.
+ALISON BEARD: I think that
+gets at my next question.
+So with all of this
+bottom-up innovation,
+how do you ensure that
+the work everyone's
+doing is adhering to the
+company's long-term strategy?
+JACK DORSEY: I think
+humans are the edge
+and they're the ones
+that are aligning.
+You have this core
+central intelligence
+within the company that
+represents everything
+that we're doing and around
+the edge you have the humans,
+and they're constantly aligning
+based on what we want to be,
+based on our values,
+based on our purpose,
+based on what we think
+is strategic or not.
+We have customers
+every day telling us
+what they want in our products.
+And it's up to us to make
+those decisions as to
+whether that fits with
+our direction, our values,
+and so on and so forth.
+And because it's so
+easy to build something,
+what becomes hard is
+having the right judgment
+to determine if something
+is correct to go out
+to all of our
+customers or to live on
+or to take the resources that
+we'd have to exert in order
+to build it or to maintain it.
+And that's us
+understanding who we are
+and who our competitors are
+and who our customers are
+and what our goals as
+a business are as well.
+So in terms of someone
+building an AI system
+or a general intelligence, you
+have humans constantly working
+to align that to particular
+directions or sometimes
+goals or sometimes outcomes.
+And I don't think it's all that
+different from what you would
+do with a company as well.
+Again, a company, if you really
+look at it, it is a technology.
+It is an intelligence
+already, but it's not
+as legible as what
+we can make it today.
+Now we can make it like
+almost perfectly legible.
+And that gives us a lot of
+great insight on where we are
+and where we need--
+where we want to go.
+ALISON BEARD: Yeah.
+Speaking of where you
+want to go, how are you
+and your top team staying on top
+of the latest developments in AI
+that might be useful
+for your business?
+It's developing so rapidly.
+JACK DORSEY: I dedicate
+three hours in my morning.
+I open this site called
+archive, which is just
+research papers, physics,
+biology, engineering,
+mathematics, and I read
+either two to three papers
+and sometimes I only get
+to one because I want
+to go deeper on the subject.
+And that just makes me
+think in a different way.
+But I also get to use the tools
+to help me better understand
+whatever the subject matter is.
+I get to see what the tool
+boundaries are currently.
+I spend a lot of time building
+with the tools as well to again,
+understand their boundaries and
+understand their capabilities
+and what I can ask of our
+team and what's changing.
+I'm a big proponent
+of open source,
+so I really appreciate and am
+grateful for the open source
+models and the iterations on
+how to build intelligence.
+We have a significant
+focus right now
+as an industry on LLMs,
+but there are other paths
+towards intelligence.
+World models is one I'm
+particularly fascinated with
+and corresponds a lot
+more to our business
+because we're not predicting
+the next word in a language,
+but we're predicting
+the next possible action
+a customer might take.
+And we have this
+really unique signal
+in money and transactions,
+and it's a very honest signal,
+so we can build this world
+model for our customers
+about how they spend their
+day and literally spend
+the money in their day.
+And the same thing
+for our sellers.
+And we can get to fairly
+accurate predictions
+on what sorts of actions
+they would take next
+and how we can help
+them most importantly.
+And that can lend
+itself to what actions
+should the company take next?
+We can build a world model
+for the company itself based
+on our understanding
+of where the company is
+and what it's doing.
+So by exploring the boundaries
+of the frontier every single day
+and pushing myself
+to use the tools
+and see something
+new every single day,
+I feel fairly forward of
+where the field is right now.
+ALISON BEARD: Predicting
+the next, not the next word,
+but the next behavior
+is pretty cool.
+So you've developed several
+open-source agentic AI tools,
+Goose and Buzz are
+two of the names.
+Your teams use them,
+you're now bringing them
+to other companies.
+How do you know when an
+internal open source tool
+is ready to be commercialized?
+JACK DORSEY: Well, with
+Goose, within a month
+we had a number of
+companies such as Stripe
+fork it immediately
+for their own usage.
+And if there's a will to
+fork it to make it your own,
+there's also a potential for us
+to build a business around it.
+And it would be the
+case that the more
+that people want to
+pay us to host the tool
+or to constantly update the
+tool versus fork the tool
+and do the development
+work themselves
+is an indicator of our
+success in building
+something valuable enough that
+people would want to pay for.
+So I think it's
+really around that.
+Open source is a distribution
+mechanism for us.
+It allows a lot of people
+to see what we're doing.
+It allows a lot of developers
+to extend it and then
+give back to things
+like Goose and Buzz
+and all of our Bitcoin
+efforts as well.
+But also it's a signal
+on is it valued or not.
+And we can take
+that and we can say,
+well here's the things that
+become a little bit harder.
+Open source, I can host
+it, but hosting might not
+be something I
+want to deal with.
+Hooking up all the
+models might not
+be something I want to deal
+with, so I'll pay for inference.
+Hooking this into
+my company to deal
+with all the compliance and
+security and risk issues
+and all the systems I
+use on a daily basis,
+I don't want to deal
+with that so I'll
+pay Block to make those
+connectors and supply them.
+So there's places in the
+chain which are valuable,
+which ultimately
+save customers time.
+And I think the easiest
+exchange of value
+is paying to give me time back.
+And that's where I
+think we can play
+with our open source offerings,
+especially these machine
+intelligence tools.
+ALISON BEARD: With all
+of these initiatives,
+how do you measure success?
+JACK DORSEY: If customers
+use them and value them.
+And they value them
+if they use them more
+and they find new interesting
+use cases for them.
+I'm a big fan of Clay
+Christensen and Jobs
+to Be Done and the idea that
+true innovation comes from you
+putting something out there
+and you see a customer using it
+in a way that you didn't expect,
+and then you support that
+and you get a
+little ahead of it.
+It's exactly how
+we started Twitter.
+We started with
+updates to the world.
+We saw that people were
+at mentioning each other.
+They were literally trying
+to have a conversation.
+We made that a feature
+and suddenly it became
+a conversational platform.
+That's not what we planned.
+It's not what we expected.
+We had very similar
+aspects within Square
+and also Cash App that we've
+seen in Goose and Buzz.
+And it's just kind of
+seeing those threads
+and observing what your
+customers are trying to do
+but failing and
+building for that.
+I think that's ultimately where
+true innovation comes from,
+because it pairs a really strong
+skill of customer observation,
+looking at patterns, not just
+asking customers what they want,
+but looking at
+patterns across a mass
+and inferring what
+they're actually
+trying to do with this thing
+that you didn't plan for
+and you didn't expect,
+but you could support.
+And it may open an entirely
+new line of business
+or an entirely new use case
+that grows the business itself.
+So obviously I look
+at our core metrics,
+but also the potential of
+here's something customers
+are trying to tell us
+that we should be doing.
+And again, if you see the
+company as an intelligence,
+they're telling you that
+every single day but it's
+very hard to see.
+So now we just have
+much better insights
+in terms of what
+they're trying to do
+with our tools and
+our systems that we
+can act upon much faster.
+ALISON BEARD: So
+we've been talking
+about all the
+opportunities presented
+by recent advances in AI.
+There are obviously
+a lot of risks too.
+There's been much recent news
+about rogue agents, cyber
+attacks, so what is
+your nightmare scenario?
+What keeps you up
+at night for AI
+going wrong at Block or
+in the broader industry
+and how do you
+protect against it?
+JACK DORSEY: I don't know if
+I have a nightmare scenario
+because I'm an optimist.
+And I think even in
+the security cases,
+all these things are races.
+You can never build a
+perfectly secure system.
+You can only be 10 steps
+ahead of your adversaries
+and of adversarial activity.
+So if you want to
+build a secure system,
+use the same tools to
+constantly upgrade the security.
+And it's never going to
+stop, that work never stops.
+And you just move
+like life is motion.
+And the more we can move
+and the more we can build,
+we can keep the adversaries
+and any issues at bay.
+And I think the more eyes
+on a system, the stronger
+that potential
+becomes, which is why
+I'm such a huge
+believer in open source
+and open models
+and open weights.
+I think it's really
+important that we all
+have this intelligence
+at our fingertips
+so that we can even
+get at the level
+where we can build secure
+enough systems that
+can be resilient to very
+capable models attacking them.
+And I think that's
+absolutely possible.
+But if it's locked
+up in a few labs
+or we're pacing that
+frontier, I think
+it's quite dangerous because
+you don't who's able to use that
+and why and what they're
+trying to do with it.
+So I guess that would
+be the only thing
+I worry about is a significant
+concentration of power
+controlling this intelligence.
+But at the same time, I don't
+believe that can happen.
+It can't be contained.
+And I think it's folly to think
+that it will be contained.
+It's just how do
+we deal with this?
+How do we, knowing that this
+exists and it will always
+exist and always grow, what
+are our policies going forward?
+How do we act with it?
+How do we be good
+stewards of it?
+What are we learning from it?
+And how do we stay ahead
+of the adversarial energies
+and activities that will
+definitely come our way?
+But we've always proven
+to be able to do that.
+It's just a decision to be
+more decentralized and giving
+more and more of that power to
+more people, especially when it
+comes to intelligence.
+ALISON BEARD: And as you
+build more of Block around AI,
+how much does that strategy
+depend on cheap, readily
+available computing power?
+JACK DORSEY: I think the LLMs
+are extremely inefficient right
+now, and they require a lot
+of power and a lot of compute.
+I don't think that's
+the only path.
+There's a longstanding history
+in machine learning and deep
+learning around world models
+that are much more efficient
+and take much less resource.
+We released a voice
+model called Dessa,
+which is a very human-like
+sounding and it's trained
+entirely on speech sound,
+has no knowledge of language.
+It just understands
+sounds and it
+tries to predict the next
+best action and sound.
+And we trained that
+on very few resources.
+And we can run the whole
+thing on someone's laptop
+and we'll eventually get
+it to someone's phone.
+So I think it's more
+interesting to me
+to be able to decentralize all
+this compute and utilize it.
+And we are not at the
+efficient frontier
+of where these models
+can be even trained on
+and how they can operate.
+So I don't believe in you need
+massive amounts of compute
+and power to do something
+interesting in the space
+and Dessa proved
+it without a doubt.
+ALISON BEARD: Great.
+Well, I want to turn to
+some audience questions
+because we have a lot coming in.
+So Simon, who's a VP
+Technology Advisory at CGI,
+asks he's interested
+in how you think
+with the forward-deployed
+everything
+model at the moment, which is
+very much grounded in command
+and control, how do
+you see that evolving
+to be more intelligence-led
+team pod as Block's doing?
+JACK DORSEY: I think a
+lot of, like everything
+we have in a harness,
+like Claude Code or Codex
+or even forward-deployed
+engineers,
+I believe is a gap in capability
+from the model itself.
+And I think the models
+will become more and more
+capable with where those things
+become less necessary, even
+the harness itself.
+So I think it works for now.
+We need bridges to get
+to these technologies.
+I think the alignment aspect,
+I think, is more important.
+Like what do I want
+this thing to do?
+What do I want it to be?
+Is it aligned with our values
+and our purpose and whatnot?
+And being able to make quick,
+informed, context-rich decisions
+based on that, I think,
+becomes a real skill
+and is very, very hard to do.
+And it hasn't necessarily
+been the most valuable
+in the past or it's
+been watered down,
+so I think someone paired with
+a really, really capable model
+that has really exceptional
+opinions and a point of view
+that's differentiated and taste.
+I think all this
+comes down to, I
+have a really
+strong point of view
+and I have the courage
+to get it out there.
+And the model makes it happen.
+But I don't think that requires
+forward-deployed engineer
+or a lot of command and
+control because it's just so
+much agency for the individual.
+And as an organization,
+it's like, how do we
+align all that energy?
+Like, again, it all comes
+back to alignment for me.
+ALISON BEARD: Yeah, so this
+is along the same lines
+in terms of individual agency.
+Reema, who's the Global Head of
+Design and Strategy at Hitachi,
+says that it's great to hear
+about your discipline-specific
+organizational structure.
+How do you view that
+structure when given the AI
+tools available today?
+There are discussions that
+products can do design,
+design can do
+engineering, et cetera.
+JACK DORSEY: All
+these disciplines
+have different ways of thinking,
+like an engineering mindset
+is very different
+from a design mindset.
+While they can do
+tasks that are not
+in their discipline, the
+problem-solving abilities
+and the way they approach
+problems is quite different
+and I think complementary.
+And I think going deeper within
+that, how you face problems
+and how you approach them
+with these tools is great
+because I could be a great
+engineer using a model
+to build something and asking
+it to design an interface for me
+and it may look great to me, but
+I don't have a lot of experience
+really tuning the feel of it
+to provide the right experience
+or to provide an intuitive
+interface that people don't even
+have to question.
+They look at it, and they
+know exactly what it does.
+That takes a lot of
+thinking, a lot of experience
+with tools that you don't like
+using and the ones that you love
+and being able to
+articulate why.
+And to be able to do that for
+technologies and also interfaces
+at the same time is quite rare.
+There are people that can
+do all those things at once,
+but it's quite rare.
+So I appreciate the
+depth of each discipline,
+because it's really like how
+they face problems and solve
+problems.
+And now that they
+have tools to see
+different facets
+of the same work,
+but mastery of those
+different facets
+is a very different thing.
+And I don't think
+that goes away.
+I want to be very
+deep in one discipline
+and know enough to be
+dangerous in everything else.
+ALISON BEARD: And do you think
+that younger employees have
+the ability to
+develop mastery now
+that they do have
+access to these tools
+and make those jobs easier?
+JACK DORSEY: Oh, yeah.
+Because the ability
+to see more--
+like, in the past, in
+my career, I had to--
+if I'm facing a problem, I
+imagine a tree, the roots
+of a tree, and I pick one path.
+And it takes me a very long
+time to first pick that path,
+and I have to be more or
+less correct about what
+that path is, because I'm
+going to go deep on it.
+And then I realize, oh,
+wait wrong direction.
+I have to back up, start
+all back over again.
+Now with these
+tools at the root,
+I can see a superficial level
+of all the potential paths,
+at least 10 of them, or 20 of
+them, or an infinite amount,
+and then I can really
+think about and pick one.
+And I can go a little bit
+deep and if I like it,
+I can go deeper or
+I can pull back up
+and go deeper on another one.
+So the cost of experiencing
+more diminishes completely.
+And I think true
+taste and judgment
+comes from you experiencing a
+lot and forming an opinion on it
+and developing that point
+of view above all else.
+That's the superpower to me.
+ALISON BEARD: I like
+that visual analogy.
+That helps me understand it.
+So based on your-- this
+is switching tacks--
+based on your startup
+experiences, what advice
+do you have for a COO
+who runs two portfolio
+companies for a
+family office, who's
+used to conservative
+traditional tactics
+to drive the business instead
+of blue ocean strategies
+that can catapult to
+achieve 10 times growth?
+How do you get traditional
+business people
+to adopt the kind of
+mindset that you have?
+JACK DORSEY: I mean, I don't
+think you can ask them to do it.
+I think you show
+them what's possible.
+And the only way I
+found to change mindset
+is to put tools
+in front of people
+and ask them to do the simplest
+thing they can imagine with it.
+Just get them a
+taste of the power.
+And then if they decide
+to go deeper with it,
+they're going to own it.
+And not everyone's going to
+want to do that and that's fine.
+You're not going to be
+able to force it then.
+Because if you
+force it, it's just
+going to create a lot of
+friction for everyone.
+So they have to want
+it, and they have
+to be curious enough to own it.
+But being able to take that
+first step is really important.
+And just making it as
+small as possible so
+they're not overwhelmed.
+I think people just start with,
+they try to start with too much.
+Analogy, I'm very
+familiar with meditation
+and people start, with the
+practice of meditation,
+they start like, I'm going to
+do 30 minutes of meditation
+every single day for the year
+and that's my resolution.
+And they do it once and they
+forget to do it the next day.
+And it's too much trouble
+the next day and something's
+going on.
+If instead you start
+with, I'm going
+to meditate for one minute
+every day for two weeks,
+it's no investment, but
+it gets the behavior in
+and you can replicate
+and build on the behavior
+so that after that
+two weeks, you never
+go beyond the one minute for
+two weeks, and after two weeks
+you can expand that to five.
+And again, it's getting the
+behavior and the habit built in.
+And then you can
+expand to 10 and 15
+and an hour, whatever you want.
+So all skills to
+me are like that.
+Spend one minute exploring
+this tool for two weeks.
+Force yourself no
+more than a minute.
+And then after two weeks you
+spend 15 minutes and whatever
+that ends up being.
+But getting that habit, getting
+that behavior ingrained,
+I think is the most
+critical part first.
+ALISON BEARD: That reminds me
+of James Clear's Atomic Habits.
+Good advice.
+JACK DORSEY: That's where
+I got that practice from.
+He laid that out so well.
+I was forgetting the name
+of the book, but thank you.
+ALISON BEARD: Yeah, yeah, yeah.
+So Andrew, who's the Director of
+Transformation at PRS for Music,
+wants to dig a little deeper
+on the human in the loop idea,
+or the human
+decision maker idea.
+So he's asking, with
+flatter organizations,
+how do you make sure that
+every decision doesn't have
+to go to the most
+senior management
+to encourage the pace of
+innovation and embracing risk?
+Where are you slotting
+in those decision makers?
+JACK DORSEY: I think that kind
+of started with maybe three
+years into running Twitter.
+I wasn't a CEO
+before and it really
+forced me to think
+about what is my job?
+Like, what am I
+supposed to do here?
+I was an engineer and I was
+used to building things,
+so I answered it with, I
+believe I have three jobs.
+One is to set up the environment
+for people to work in.
+And setting up that environment
+means we have clear purpose,
+we have clear mission, we have
+a culture we can articulate.
+We have how we behave
+with each other
+and why these things
+are important.
+Number two, which gets at
+the question, which is ensure
+that decisions are being made.
+And not that I have to
+make every decision, that's
+a failure, because I'm a single
+point of failure in that case,
+but that decisions
+are being made
+and they're being made
+in the right context.
+They're being made
+in consideration
+of our customers, industry
+trends, competitive trends,
+whatnot.
+That I can see someone
+who's making a decision
+has set that
+decision up correctly
+and is using all that available
+information and it's contextual.
+And then third is
+to raise the bar
+on what we believe is possible.
+So an organization will always
+bend towards some steady state.
+And it's my job to
+step change that a bit
+and question some things
+and question what we believe
+made us successful in the past.
+Not hold it sacred, not
+take it for granted,
+change it completely.
+Remove it.
+Delete it.
+And I don't think that
+changes with these tools.
+And I don't think it changes as
+the organization gets flatter,
+it gets even easier and better.
+You can tell how people
+are making decisions
+and whether those
+decisions are successful
+and how quickly they realized
+that it was the wrong decision
+and what they used to correct
+that action after the decision.
+And you just have so much more
+legible information around it.
+And it's really a decision to
+pay attention to that or not.
+Oftentimes in the
+organizations of the past,
+we don't pay attention to it.
+Great organizations
+do like retrospectives
+and they're really like,
+OK, we made this decision
+and here's why.
+And here's what
+happened and here's what
+we could have done better.
+And here's what went well.
+And that's a very, very
+healthy organization,
+but it's extremely rare.
+If you see that in
+an organization,
+that practice is usually only
+after something bad happens,
+not when something good happens.
+Not when you're doing
+everyday decisions.
+So these practices become
+stronger with these tools
+because you can
+provide even more
+context that's company-wide.
+ALISON BEARD: OK, so one
+last question before we
+give our audience a break, what
+advice do you have for leaders,
+maybe especially those outside
+the technology industry,
+about how to most
+effectively put
+AI to work in their
+organizations right now?
+JACK DORSEY: Got to
+start with yourself.
+Put it to work for you.
+Build something.
+Build a system that
+gives you time back.
+Build a system that helps
+you learn something.
+But build a system.
+Not just ask the questions,
+but actually build with it,
+create with it.
+Have something that you can
+take away and show other people
+and be proud of.
+If you have kids,
+build with your kids
+because you can see how they
+learn through their eyes.
+And I think that one of
+the most important things
+is to see that because it
+changes how we think and gets
+us shaken out of our
+ways as we become
+older and more precious
+about what we have
+and not questioning things and
+taking everything for granted.
+But you're not going
+to be able to--
+you're not going to be able to
+see this within your business,
+no matter what role you
+are, unless you can see it
+within yourself and how it
+changes you, if it changes you
+and whether you allow it to.
+And again, these are all
+decisions you can make
+and you can be diminished by it.
+You can ignore it.
+You can be amplified by it.
+It's all decision.
+It's all your agency.
+[THEME MUSIC]
+ALISON BEARD: Terrific.
+Well, Jack, thank you
+so much for joining us.
+I really appreciate it.
+JACK DORSEY: Thank you all.
+Appreciate it.
