@@ -1,0 +1,460 @@
+So, why did you all start Anthropic?
+It still feels like then,
+in that we knew a secret
+the rest of the world didn’t know.
+I think if you truly see what this is,
+you can’t ever walk away.
+I showed up at Princeton as a PhD student
+who wanted to do theoretical physics.
+I was a professor at Johns Hopkins
+before Anthropic.
+We’re all envious
+of the great discoveries of the past.
+My PhD thesis is in theoretical physics.
+Out of college, I went
+and worked in global development.
+I was a journalist
+before I did any of this,
+and I studied
+data centers obsessively.
+It’s going to get weird.
+I guess I thought of myself
+as a mathematician and programmer.
+I got into AI back in 2016,
+and at the time, an AI couldn’t talk.
+After I graduated, I went to Stanford
+and did my postdoc in cancer biomarkers.
+From a very early age,
+Dario and I were really curious
+about how to make the world better.
+I was very interested in questions
+of how we could use computer science
+as a tool that is good for the world.
+I was a little bit frustrated
+with the physics research I was doing,
+and AI seemed exciting
+and like a breath of fresh air.
+2013 or 2014, I first started
+seeing the big results in AI,
+then wondered if advancing this technology
+would be the best way to advance biology.
+We saw this connection between
+the level of impact we were trying to have
+in the world and AI’s potential
+to really achieve a lot of those goals.
+Back in 2018,
+the future co-founders of Anthropic
+were doing a lot
+of different and disparate things.
+A group of us, all at OpenAI,
+we were working on training models,
+we were working on policy,
+we were working on interpretability,
+we were working on safety.
+I started working on these language models
+where you try to predict the next word.
+A lot of folks thought at the time,
+you’re going to need to teach the network
+explicitly how to plan
+and how to reason and how to use tools.
+Dario noticed the trend,
+which he called the big blob of compute.
+Just basically making
+a bigger machine,
+making a bigger computer,
+and jamming more data into it.
+When you put in
+more compute and more data,
+you get increasing intelligence,
+and it’s on this predictable line.
+We were just seeing
+each time you scale it up,
+these new behaviors emerge,
+these new abilities emerge.
+At which point you realize,
+wow, if this continues,
+we might be on the precipice
+of a totally new reality,
+a totally new form of technology.
+Human-level intelligence, human-level AI
+is not 100 years in the future,
+but it’s actually within our lifetimes.
+These kinds of very powerful models
+could cause enormous strides
+in healthcare, in robotics.
+Computer programs,
+novel scientific ideas,
+mathematical theorems.
+Maybe we could reduce cancer
+rates by 90%.
+Maybe heart disease, obesity,
+all of the major infections
+will just be a thing of the past.
+Any of the problems of the world
+that are bottlenecked by human ingenuity,
+suddenly you have
+much more ability to solve them.
+Seeing the potential
+progress in AI was exciting.
+At the same time, I think it was scary.
+If you’re building something
+that’s more powerful than yourself
+or could grow to be
+more powerful than yourself,
+the potential risks of that are enormous,
+no matter how you think about it.
+I don’t think I understood
+the full picture yet.
+I don’t think anyone did.
+But I definitely believed that there
+could be big safety and societal effects.
+This was a technology that,
+if it had any analogy at all,
+which I think it mostly didn’t,
+it would be more analogous
+to pharmaceuticals
+or unlocking the secrets of the atom—
+things that have immense value,
+but also can go wrong.
+We really needed to build
+it in the right way.
+It’s just this huge
+responsibility that you feel.
+I’m one of the very few people
+in the world that understands
+what the consequences
+of this technology are going to be.
+The thing we most wanted to do
+was work together in an environment
+with this deep commitment to safety.
+We decided we had to build Anthropic
+because we had to build an organization
+fit for the demands this technology
+was going to place on all of us.
+One of the first
+big decisions we had to make
+was just what kind of company
+we wanted to be.
+It was a more involved and complicated
+discussion than you might expect.
+We knew that we had to be able
+to build some of the largest computers
+on the planet, train frontier technology,
+find ways to deploy that technology
+into the world, and be honest about
+the difficult aspects of the technology
+as well as its benefits.
+We eventually landed
+on public benefit corporation.
+That would set us up as a company
+that was not just fully governed
+by economic incentives,
+but also by the incentive
+to do right by the world.
+There are going to be times
+when we’re going to want to prioritize
+the mission at the cost of profits,
+or at the cost of providing
+the maximum value to a shareholder.
+So we incorporated as a public benefit
+company on January 26, 2021,
+and then it was off to the races,
+time to build this thing.
+This is a list of names people
+proposed for what we could call Anthropic.
+Here are some names I listed, apparently.
+Squirrel. 
+Owl. 
+Whale.
+Differentiated. 
+Humane.
+Anthropic was contributed by Jared.
+I realized that since Anthropic means
+human-oriented or human-centered,
+that it seemed like a good name for an AI
+company that wants AI to be developed
+in the best interests of humanity.
+Then we looked at
+domain names that we could get.
+Anthropic.com was,
+I think, by far the cheapest.
+I thought that was a pretty good
+argument to go with Anthropic.
+There was a comment in the spreadsheet
+that says, “We like the name, it is good.”
+And, “Is domain available?” 
+ “Yes.”
+It was so chaotic at the beginning.
+Everyone was doing
+extremely unglamorous schlep.
+Tom was the one who had to go
+get us the AWS clusters.
+Me and Chris Olah built the first website.
+Dario focused on fundraising,
+and I was working on recruiting.
+There was briefly a few months where Jared
+Kaplan, our Chief Scientist, ran payroll.
+That tells you the level
+of professionalism of the early operation.
+I think there was a lot of work
+of us just getting oriented
+to what kinds of things
+exist in a language model.
+You find all these beautiful things inside
+that we didn’t know about going in.
+It was really nothing
+other than a research lab.
+We’re just producing technology that we
+think might be really, really powerful
+and economically valuable,
+but might also just be
+a curiosity or a science experiment.
+One thing I remember was every day
+just waking up feeling really excited
+to get to work on the most fun project
+that I could imagine with my best friends.
+It just felt great to be with people
+who shared our values so deeply.
+Also, just getting to build
+all the infrastructure from scratch
+was a lot of fun.
+We were trying to build an organization
+focused on training large language models,
+aligning those models with our values.
+That was why we founded Anthropic.
+There was a lot of debate at the time
+of, do we want to focus more
+on building something
+that’s more of a pure chatbot,
+or is software engineering
+the thing that we need to focus on?
+In the end, we landed on, actually, you
+just need to do both of those really well.
+This was a document I wrote
+in 2021. As a proof of concept,
+we were working to develop
+a general AI assistant that can interact
+conversationally with the user
+to create, edit, and explain software.
+Our motto at that time was
+we wanted assistants
+to be helpful, harmless, and honest.
+We started out making it helpful.
+Then we started doing work
+on making it harmless as well,
+and then we had that version.
+It was not honest at all.
+It would make stuff up all the time.
+It really tried to convince us
+that you could be on an all-potato diet,
+and that was really,
+really healthy and really good for you.
+You could ask the model
+to go into dragon mode,
+and it would start
+screaming at you in all caps.
+There was a charm to the early models.
+They were very well-meaning,
+but a little bit incompetent.
+And then we made a model in mid-2022,
+I think it was code-named Junior at first,
+eventually called it Claude,
+that was actually good.
+You could talk to it.
+It would actually answer questions.
+I remember starting to talk to it
+and just being really surprised.
+Oh, wow, this basically works.
+You can basically talk to this model.
+I used to have something called the
+helicopter test where I’d ask AI systems,
+“How many helicopters
+can you eat in a single meal?”
+And the early chatbots would say,
+“Well, you know, one or two,
+that all depends.”
+And then one day
+I asked an early Claude model,
+“How many helicopters
+can a person eat in one sitting?”
+And the model said,
+“This seems to be a trick question.
+I don’t think people can eat helicopters.”
+At which point I said,
+“The systems have got smarter,
+it passes the helicopter test.”
+March 2023, that’s when we finally
+released Claude publicly to the world.
+We were incredibly proud
+of having built this product,
+but it was clear that we were
+pretty far behind the frontier.
+I remember having calls with
+potential customers, and they were like,
+“Why should we use your model
+as opposed to somebody else’s?”
+And I was like, you know,
+that’s a great question, that’s awesome.
+I think the years of suck
+were extremely good for Anthropic,
+but that was a really hard period.
+We were just completely behind.
+It was not close.
+If you’re just studying dumber models,
+you’re not going to know
+all of the ways
+that things could necessarily go wrong,
+and you’re not going to be able
+to make the entire ecosystem safer.
+It just really gave us a kick.
+We need to train more intelligent models.
+We need to get better at pretraining.
+We need to get better at RL.
+We were maniacally focused on, one,
+getting compute, and then, two,
+accumulating the compute multipliers
+that we needed to make
+better effective use
+of all of the compute that we had.
+Just finding all of these algorithmic ways
+to make the neural network
+a little bit better and
+a little bit better, and you just pile up
+enough of these, and you get
+a network that is more intelligent,
+that is better at following instructions,
+that’s just a better assistant.
+And then it arrives, Claude 3 Opus,
+and for the first time,
+we had a model that was really good.
+And then a few months later
+comes along Sonnet 3.5.
+Suddenly, models were
+useful for programming.
+So we built this tool that would
+eventually become Claude Code.
+You could actually ask it
+to do things on your computer, and
+it would go and solve problems for you.
+Then we released it externally, and that
+just sets off a whole new wave of demand.
+It felt like, oh, we could not only be
+successful, but we could be competitive,
+we could be launching some
+of the best AI models in the world.
+Our actual ability to do safety research
+is better when we are on the frontier,
+when we have the most capable models.
+It gives you the greatest amount of time
+to deal with problems
+or challenges that you’re running into.
+If you see an issue,
+you might be seeing it first.
+We’ve always published
+our safety research because
+we wanted the entire ecosystem to use it,
+even though it was competitively bad
+for us, because it was so good for safety.
+This is a technology which only goes well
+if you are able to be honest about it.
+Prior to 2025 or 2026,
+there were these conceptual arguments
+about why AI might be risky.
+I think, really, in the past year,
+things have just come into focus more.
+2026 is when the risks start to get real.
+Anthropic announced this week it has begun
+limited testing of its newest
+AI model called Mythos.
+This version is apparently so advanced
+it can find vulnerabilities in
+a huge variety of software applications.
+And if you’re a hacker,
+I think you’re thinking,
+“I want to get access to this model.”
+We trained this class of model,
+and we looked at it,
+and we were like, holy shit.
+People who are experts in cybersecurity
+noticed that it was really very, very,
+very good at an expert level at finding
+vulnerabilities and exploits in software.
+If you have a malicious actor
+that got ahold of Mythos and said,
+“I’d like to exploit
+a lot of those vulnerabilities,”
+you would be in a really bad position.
+The whole world would be.
+And we really saw this concrete,
+specific way that if we didn’t change
+how we operated as an industry, something
+bad was absolutely going to happen.
+Dario pulls the company together,
+pulls the leadership together, and says,
+“We are going to have to release
+this model differently
+to any model we’ve released before.”
+We decided to do this Glasswing project.
+It gave access to Mythos to this smaller
+set of companies while we were working
+on the safeguards to make
+it more broadly available.
+What that would mean is cyberdefenders
+could get ahold of Claude and say,
+“Here are where
+all the vulnerabilities are,”
+and then they could actually use Claude
+to help them patch those vulnerabilities.
+This might not be
+the absolute best way to maximize
+revenue, profit, value, money,
+but that’s kind of the point.
+This is exactly what our public
+benefit mission was created for.
+What we found is that
+when you do things in the right way,
+you tend to pay in the short run.
+It can be quite painful in the short run.
+But a lot of this is about
+discipline and farsightedness
+and understanding what the industry
+and the world needs in the long run.
+The whole reason
+we started this organization
+is because we believe
+so deeply in the benefits.
+You can’t just say,
+“These are all the things
+that are going to go wrong.”
+You have to give people
+something to fight for,
+not just something to fight against.
+AI is being used to help people get
+the proper diagnosis from their doctors.
+People are using Claude to help them
+start their own business or pursue a hobby
+that they’ve always wanted to pick up.
+We’re using Claude to help biologists
+and scientists develop
+cures and treatments
+for common and uncommon diseases.
+I’ve been talking to our biology
+team several times a week.
+We discovered what looks like
+a new gene-editing mechanism,
+and I think within a few months, we may
+be discovering dozens of them every month.
+We’ve seen with the speed
+at which this technology moves,
+these little sparks
+will soon turn into a firestorm.
+I think that we can find a way to build
+this technology safely in a way
+that benefits people,
+that addresses all the risks,
+and that delivers a world that is so much
+better than the world that we have today.
+We haven’t done that yet.
+We haven’t earned the right
+to talk about how great those things are.
+But we’re starting down the path.
