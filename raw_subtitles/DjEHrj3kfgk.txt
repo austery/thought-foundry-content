@@ -1,0 +1,628 @@
+[Speaker 0]: 嗯嗯，
+[Speaker 1]: 自从向英伟达提出辞职离开之后，
+[Speaker 1]: 黄仁兴终于在社交媒体上再次发言，
+[Speaker 1]: 打破了沉默。
+[Speaker 1]: 那今天这期内容我可能会比较的主观，
+[Speaker 1]: 但是我尽量保持客观，
+[Speaker 1]: 我会聊一下这一次英伟达的财报。
+[Speaker 1]: 对于这一次黄仁兴的事件，
+[Speaker 1]: 包括未来 CEO 的这个人选，
+[Speaker 1]: 我们一起去做一个分享和分析，
+[Speaker 1]: 好吗？
+[Speaker 1]: 那开开始前，
+[Speaker 1]: 大家记得留言、
+[Speaker 1]: 点赞、
+[Speaker 1]: 加转发，
+[Speaker 1]: 让更多人可以看到我们这期内容。
+[Speaker 1]: 那今天我主要就是全部围绕着黄荣兴去展开，
+[Speaker 1]: 黄仁兴和英伟达去展开。
+[Speaker 1]: 我就不去聊今天市场的一个走势。
+[Speaker 1]: 我现在周二的早上，
+[Speaker 1]: 美东时间十一点多，
+[Speaker 1]: 黄荣新发来一条 x 那这条 x 我认为有两个重点。
+[Speaker 1]: 第一个重点，
+[Speaker 1]: 他说到我给董事会带来了诸多问题，
+[Speaker 1]: 对此我深表遗憾。
+[Speaker 1]: 这句话本身把黄荣新放到了比董事会低一级的这个级别。
+[Speaker 1]: 那其实本身我们知道董事会的责任是什么，
+[Speaker 1]: 董事会的责任是很多时候要做决定。
+[Speaker 1]: 另外的话，
+[Speaker 1]: 要提供一个 overside，
+[Speaker 1]: 要 provide 一个 oversight。
+[Speaker 1]: 其实公司内部如果有一些事情发生，
+[Speaker 1]: 且如果最终可以去证明董事会没有去履行这个 oversight 这一个监管的话，
+[Speaker 1]: 董事会的成员是可以被开除的。
+[Speaker 1]: 就好比英伟达本身，
+[Speaker 1]: 如果真的做了一些违反美国国防条例的一些事情，
+[Speaker 1]: 如果被证实，
+[Speaker 1]: 且董事会在知情的情况下没有去提供足够的这个 overside，
+[Speaker 1]: 那董事会一定有理由把董事会的成员给开除。
+[Speaker 1]: 因为这个事件的一个结果可以去证明，
+[Speaker 1]: 董事会并没有去履行他对于投资者负责任的这个义务。
+[Speaker 1]: 但是在老黄早上的这条推里面，
+[Speaker 1]: 他其实把自己的姿态建设性放的比较低了。
+[Speaker 1]: 然后第二个就是重点。
+[Speaker 1]: 第二点，
+[Speaker 1]: 他聊到，
+[Speaker 1]: 如果董事会认为我的回归符合股东、
+[Speaker 1]: 员工、
+[Speaker 1]: 公司和美国的国家利益，
+[Speaker 1]: 四个主体，
+[Speaker 1]: 一个股东，
+[Speaker 1]: 一个是员工，
+[Speaker 1]: 一个是公司，
+[Speaker 1]: 最后是美国。
+[Speaker 1]: 如果符合这四个主体的最佳利益的话，
+[Speaker 1]: 我将荣幸的回应这些呼声重返公司，
+[Speaker 1]: 担任首席执行官。
+[Speaker 1]: 所以这条消息出来，
+[Speaker 1]: 这条 x 出来之后，
+[Speaker 1]: 整个在摄场面前，
+[Speaker 1]: 包括我自己，
+[Speaker 1]: 其实非常期待黄荣静能够回归，
+[Speaker 1]: 对吧？
+[Speaker 1]: 那这是比较感性的，
+[Speaker 1]: 或者这是比较主观的一面。
+[Speaker 1]: 但是我在我前段时间在一五八一五九不到一点的时候，
+[Speaker 1]: 我买入英伟达啊，
+[Speaker 1]: 我当时买入英伟达的理由，
+[Speaker 1]: 我说的非常的明确。
+[Speaker 1]: 当时我这个 basbascase 是我并不期待黄荣星会回归。
+[Speaker 1]: 我买英伟达主要是因为英伟达非常的便宜，
+[Speaker 1]: 且从情绪面这个角度去说啊，
+[Speaker 1]: 包括定价。
+[Speaker 1]: 当时市场就已经认为黄荣新将会离开英伟达之后，
+[Speaker 1]: 有了黄荣新的这个辞职而辞职。
+[Speaker 1]: 那一天，
+[Speaker 1]: 英伟达最多是下跌了百分之十三、
+[Speaker 1]: 百分之十四。
+[Speaker 1]: 那所以市场早就已经把黄荣兴的这个离职给定价在身后了。
+[Speaker 1]: 无论是谁出任新的一个 CEO，
+[Speaker 1]: 那这是我当时想法的。
+[Speaker 1]: 无论谁谁出任当时无论谁出任未来的这个 CEO，
+[Speaker 1]: 包括在这一次财报汇里非常有可能会加大这一个回购的一个体量。
+[Speaker 1]: 短期来说，
+[Speaker 1]: 对于英伟达的一个股价都是一个抬升，
+[Speaker 1]: 而且英伟达本身它现在是赚钱，
+[Speaker 1]: 而且是非常赚钱，
+[Speaker 1]: 而且是有一个足够的现金流在那边。
+[Speaker 1]: 呃，
+[Speaker 1]: 所以在 x 上我在和大家交流的时候，
+[Speaker 1]: 有很多人还是在认为因为我持有英伟达，
+[Speaker 1]: 所以我希望黄荣星回归，
+[Speaker 1]: 我从来就不期待黄荣信的回归是一个 base case。
+[Speaker 1]: 我也从来不会把英伟达价格的一个上涨和黄荣星的一个回归去联系在一起。
+[Speaker 1]: 或者我从来不会做出这样的一个假设和希望在那边，
+[Speaker 1]: 好吧？
+[Speaker 1]: 然后我们来看一下他们的一个财报会，
+[Speaker 1]: 那财报会里边有些客观的东西。
+[Speaker 1]: 然后有些我主观的一些看法，
+[Speaker 1]: 我们先来聊一些客观的关系。
+[Speaker 1]: 首先，
+[Speaker 1]: 财报会里面两个人讲话，
+[Speaker 1]: 第一个人讲话，
+[Speaker 1]:  harveby 是他们现在董事会的一个主席，
+[Speaker 1]: 他聊了几点，
+[Speaker 1]: 我这边做了一下总结。
+[Speaker 1]: 首先这个人比较强硬的，
+[Speaker 1]: 他说一一月十日，
+[Speaker 1]: 因为黄荣兴违反了公司的规章制度，
+[Speaker 1]:  code account。
+[Speaker 1]: 然后当时第二个事件出来的时候，
+[Speaker 1]: 第二个出轨对象出来的时候，
+[Speaker 1]: 我就说我说第二个出轨对象。
+[Speaker 1]: 第二个事件本身比第一个更加的严重。
+[Speaker 1]: 因为根据公司的一个 code，
+[Speaker 1]:  conduct 董事会完全有任何的理由，
+[Speaker 1]: 有无数个理由可以让 CEO 去被迫辞职。
+[Speaker 1]: 那接下去我们也看到了黄若静的这个辞职。
+[Speaker 1]: 今天维也聊到他说，
+[Speaker 1]: 因为黄若静违反了公司的规章制度。
+[Speaker 1]:  harcode of counder 他自己选择离职，
+[Speaker 1]: 我们所有董事会成员都接受了他请辞的这个这个决定，
+[Speaker 1]: 后面一点非常重要。
+[Speaker 1]: 他说并且现在没有准备恢复他 CEO 的这个身份。
+[Speaker 1]: 这句话本身非常的 harsh，
+[Speaker 1]: 非感觉令人感觉是非常的无情。
+[Speaker 1]: 然后第二点，
+[Speaker 1]: 他说了，
+[Speaker 1]: 我们开始找寻下一个 CEO。
+[Speaker 1]: 虽然是一个意外的过渡，
+[Speaker 1]: 这句话是我觉得把整个市场点燃，
+[Speaker 1]: 包括把我自己也点燃这句话。
+[Speaker 1]: 他说，
+[Speaker 1]: 到董事会，
+[Speaker 1]: 从公司员工顾客和投资者的最大利益去出发。
+[Speaker 1]: 这句话我引用了，
+[Speaker 1]: 我在 x 上的话，
+[Speaker 1]: 我也引用了，
+[Speaker 1]: 我说真的是从这个角度去出发吗？
+[Speaker 1]: 我们从社交媒体上做的这些观察，
+[Speaker 1]: 包括这一次财报会议之后，
+[Speaker 1]: 社交媒体再次被点燃之后，
+[Speaker 1]: 难道董事会现在的这个决定去找另外的一个 CEO，
+[Speaker 1]: 真的是符合员工、
+[Speaker 1]: 顾客和投资者这个最大利益吗？
+[Speaker 1]: 当然我知道很多的一些投资者背后是这些基金，
+[Speaker 1]: 那是这些 index fun。
+[Speaker 1]: 那这些 index 分他们代表谁？
+[Speaker 1]: 他们现在也许是代表背后的一些利益集团，
+[Speaker 1]: 代表他们背后的一些金主。
+[Speaker 1]: 但实际上他们的金主谁？
+[Speaker 1]: 他们的金主是每一个投资者，
+[Speaker 1]: 每一个购买这些 index phone。
+[Speaker 1]: 比如说你买一个 QQ，
+[Speaker 1]: 那你就是像这个 index，
+[Speaker 1]: 你去交投资管理费，
+[Speaker 1]: 包括你买贝莱德的一些 fe TF，
+[Speaker 1]: 你是向他们交管理费的当在二四年还是二五二四年的时候，
+[Speaker 1]: 二四年还是二五年的时候。
+[Speaker 1]: 当时，
+[Speaker 1]: 特尔赛纳的投资者逼着 vangor 改变了他们的一个投票，
+[Speaker 1]: 支持老马的一个 package，
+[Speaker 1]: 支持老马的 compensation package。
+[Speaker 1]: 当时就是靠散户投资者逼着最后这些 index phone 改变他们的看法。
+[Speaker 1]: 难。
+[Speaker 1]: 然后难道你说这些 index find 他们背后没有他们所谓的利益阶段和金主爸爸嘛，
+[Speaker 1]: 那么一定是有的。
+[Speaker 1]: 但是最后这些投资者还是通过自己的这个力量，
+[Speaker 1]: 自己聚在一起的这股力量改变了这些 index fan 他们的投票结果。
+[Speaker 1]: 啊，
+[Speaker 1]: 所以我认为黄荣鑫这件事情远远没有结束。
+[Speaker 1]: 因为我现在看到的是，
+[Speaker 1]: 比起在过去几天，
+[Speaker 1]: 投资者的愤怒在增加，
+[Speaker 1]: 并没有任何的一个减少或者放缓。
+[Speaker 1]: 只需要一个人牵头，
+[Speaker 1]: 我认为可以把这件事情带到比较远的一个这个地步。
+[Speaker 1]: 最终的这个目标就是把黄荣幸再次让黄荣信回归到英伟达。
+[Speaker 1]: 无论这中间需要 take 什么一些 effort，
+[Speaker 1]: 我认为现在事件事件的一个发展是往是往这个方向去走的。
+[Speaker 1]: 和今天英伟达的财报到底如何，
+[Speaker 1]: 和英伟达盘后的一个走势到底如何，
+[Speaker 1]: 根本没有任何的一个关系。
+[Speaker 1]: 第三点，
+[Speaker 1]: 哈尔滨说到，
+[Speaker 1]: 这是董事会主席说到他。
+[Speaker 1]: 第三点，
+[Speaker 1]: 他说，
+[Speaker 1]: 我们成立了一个国家安全出口监管委员会，
+[Speaker 1]: 这个委员会组成的人数部分是内部的人员，
+[Speaker 1]: 部分是外部的人员。
+[Speaker 1]: 首先现在明显加入的外部人员就是和美国政府是有关的，
+[Speaker 1]: 所以美国政府变相的现在已经安排人到了英伟达内部了，
+[Speaker 1]: 这其实也符合了贝森特在前两天所接受的。
+[Speaker 1]: 在周末的时候，
+[Speaker 1]: 他接受采访的时候说到，
+[Speaker 1]: 他说如果英伟达是家银行的话，
+[Speaker 1]: 美国政府早就已经介入了。
+[Speaker 1]: 好吧，
+[Speaker 1]: 这是他们的一个董事会主席 harvey 的发言，
+[Speaker 1]: 然后是 CF 的发言。
+[Speaker 1]: 那 CF 的发言我总结一下是第一点，
+[Speaker 1]: 非常的紧张，
+[Speaker 1]: 而且明显对于业务客客客户都了解很多客户的这些名字发音都发错，
+[Speaker 1]: 他都不知道怎么去读张到什么程度，
+[Speaker 1]: 他紧张到有些名字都讲不清楚。
+[Speaker 1]: 比如说 JP morgan，
+[Speaker 1]: 他说 GP morgan 就是这个明显非常的紧张。
+[Speaker 1]: 但是你可以理解，
+[Speaker 1]: 本身 CFO 就不是一个像 CEO 那么 outgoing。
+[Speaker 1]: 那么能够讲的人，
+[Speaker 1]: 那么 CFO 主要聊的就是数据，
+[Speaker 1]: 主要聊的就是公司内部的一些金融方面的一些问题，
+[Speaker 1]: 财务方面的一些问题。
+[Speaker 1]: 你让他去聊公司业务方面，
+[Speaker 1]: 那些问题可能不是非常清楚。
+[Speaker 1]: 但是你可以非常明显的感觉到这个 CFO 这一次的一个这一次投资者会啊，
+[Speaker 1]: 这这一次一个财报会也非常非常的紧张。
+[Speaker 1]: 好吧？
+[Speaker 1]: 然后我们来看一下财报会的一些内容。
+[Speaker 1]: 我根据 order，
+[Speaker 1]: 我把前部分的一些 order 是和公司业务本身有关的。
+[Speaker 1]: 然后后面那一部分的一些问题，
+[Speaker 1]: 主要是和整个市场里面的一些需求啊，
+[Speaker 1]: 包括一些星云是有关系的。
+[Speaker 1]: 这次财报会里面如果要挑几点的话，
+[Speaker 1]: 其中一点我觉得非常的重要。
+[Speaker 1]: 就是接下去英伟达对于这些星云的一个支持明显出现了非常大的一个改变，
+[Speaker 1]: 就这个对于星云的支持在降低。
+[Speaker 1]: 首先第一点是我们先来聊一下和英伟达公司本身相关的第一点，
+[Speaker 1]: 提高了二期产业年的营收增速从百分之七十上升到百分之七十五，
+[Speaker 1]: 这是一个非常好的一个数据，
+[Speaker 1]: 而且二六财年还没有结束。
+[Speaker 1]: 那第四季度财报发布完之后，
+[Speaker 1]: 二六财年的一个基数可能会更高。
+[Speaker 1]: 在一个更高的一个基数的情况下，
+[Speaker 1]: 你二七财年营收继续往上提。
+[Speaker 1]: 也就是说，
+[Speaker 1]: 黄仁新其实在上一个季度提出来，
+[Speaker 1]: 二八财年就二七财年的营收增速百分之七十其实已经是相当保守了。
+[Speaker 1]: 他当时聊出来这个百分之七十，
+[Speaker 1]: 实际上最高能够增增加多少，
+[Speaker 1]: 最后非常有可能会增加一倍，
+[Speaker 1]: 百分之一百百分之九十。
+[Speaker 1]: 对为因为现在的基数还在上升，
+[Speaker 1]: 因为二六年还没有结束啊，
+[Speaker 1]: 二六财年还没有结束，
+[Speaker 1]: 对吧？
+[Speaker 1]: 所以提高了营收这个指引非常的强。
+[Speaker 1]: 然后第二点，
+[Speaker 1]: 云商就云厂商他们所积压的这个订单来到了二点五万 two point point find 缺点。
+[Speaker 1]: 你试想一下，
+[Speaker 1]: 差不多一个季娃五十个变点，
+[Speaker 1]: 就是接下去的一个积压订单，
+[Speaker 1]: 有五十个 g 娃在背后和上个季度的两万亿做去做对比的话。
+[Speaker 1]: 环比增速上涨，
+[Speaker 1]: 就季度季度环比增速上涨了零点五万亿 five 分就 dollar 发月份之倍点 dollar 非常大，
+[Speaker 1]: 积压订单的增速非常的快，
+[Speaker 1]: 环比增速百分之二十五五嘛，
+[Speaker 1]: 你己己看，
+[Speaker 1]: 而且且是云厂上的那个积压订单。
+[Speaker 1]: 第三点，
+[Speaker 1]: 回购这一点就是提升市场信心的。
+[Speaker 1]: 也是我在前段时间有聊到，
+[Speaker 1]: 就我当时买入英文单的时候，
+[Speaker 1]: 我有聊到，
+[Speaker 1]: 就我我对管理层的一个期待，
+[Speaker 1]: 就是会提高他的一个回购。
+[Speaker 1]: 刚刚过去这个季度和未来，
+[Speaker 1]: 我们会把每一个季度剩余的现金除去战略投资以外，
+[Speaker 1]: 啊，
+[Speaker 1]: 剩余的现金全部返还给投资者，
+[Speaker 1]: 返还给投资者的一个方式，
+[Speaker 1]: 就是回购加上股息。
+[Speaker 1]: 那么所啊并且在上一个季度决定了回购的这个力度，
+[Speaker 1]: 或者这个体量加大一百五十个别点的一个回购上限。
+[Speaker 1]: 那这一点的话，
+[Speaker 1]: 对于首先黄鑫就首先英伟达现在和其他的一些公司其实还是不一样的。
+[Speaker 1]: 因为英伟达本身还是有非常充足的这个现金了。
+[Speaker 1]: 他现在是现金流机器，
+[Speaker 1]: 虽然虽然很大一部分的营收进入 a on receiable，
+[Speaker 1]: 就是我们叫做一个公司的一个应收账款，
+[Speaker 1]: 并不是一个现金，
+[Speaker 1]: 并不是完全变成现金。
+[Speaker 1]: 但是去看他们那个 free cash flow 的话，
+[Speaker 1]: 还是非的好好和这些影响商不一样。
+[Speaker 1]: 影厂商是花钱，
+[Speaker 1]: 英伟达是完全是一个收钱的一个状态质量，
+[Speaker 1]: 所以英伟大家有足够这个这个体量去做一个回购。
+[Speaker 1]: 然后第四点，
+[Speaker 1]: 今年百分之十五的这个数据中心营收来自于前沿模型。
+[Speaker 1]: 第五点，
+[Speaker 1]: 为了保证供应链对外的一个订单增加到了三百九十个别点，
+[Speaker 1]: 长期租赁增长到一百个别列对外的这个订单增增长了三百九十个变量非常的重要。
+[Speaker 1]: 因为这是英伟达对外所下的这个订单，
+[Speaker 1]: 这些订单用来干嘛？
+[Speaker 1]: 这些订单用来去锁定未来这个产能，
+[Speaker 1]: 无论是像台积电这边所产能，
+[Speaker 1]: 像美光这边去锁产能，
+[Speaker 1]: 锁定台积的产能，
+[Speaker 1]: 锁定美光这边的 HBM 这一块的产能，
+[Speaker 1]: 保证自己未来的出货能够有高增长，
+[Speaker 1]: 这一点非常的重要。
+[Speaker 1]: 因为不是说你未来有没有客户，
+[Speaker 1]: 你还得有产能，
+[Speaker 1]: 你有产能才能够提供你二八整个二七财年百分之七十五以上的这个营收增速，
+[Speaker 1]: 对吧？
+[Speaker 1]: 所以英伟达投资英伟达这些对外订单的这个投资客体量，
+[Speaker 1]: 代表了英伟达自己本身对于未来需求这一块的一个信心。
+[Speaker 1]: 啊，
+[Speaker 1]: 所以前五点是和英伟达公司本身有关的。
+[Speaker 1]: 然后我们从第六点开始，
+[Speaker 1]: 就是聊整个市场了。
+[Speaker 1]: 对于新云的这个支持，
+[Speaker 1]: 公司管理层说到 CEF 说到我们将会继续有纪律的这一点非常的重要。
+[Speaker 1]:  discipline 聊到过两次。
+[Speaker 1]:  discipline 有纪律、
+[Speaker 1]: 有态择性的支持，
+[Speaker 1]: 这一点是一个非常大的态度上的一个转变。
+[Speaker 1]: 你看起来他稍后有一个回答问题的，
+[Speaker 1]: 他说我们对于新的知识完全没有改变，
+[Speaker 1]: 现在和以前完全还是一样。
+[Speaker 1]: 但你从他的一个言语里面可以明显的感觉到，
+[Speaker 1]: 包括他们在 CF 这个 commenter 里面也加入了一些新的句子进去，
+[Speaker 1]: 明显的可以感觉到他对于新人的这个态度将会出现改变。
+[Speaker 1]: 接下去对于所以我这边打了一个括号，
+[Speaker 1]: 说接下去对于新人的这个态度明显出现了。
+[Speaker 1]: 这个转变。
+[Speaker 1]: 其实有很多方面，
+[Speaker 1]: 有指术，
+[Speaker 1]: 主要有两个层面。
+[Speaker 1]: 第一个层面是新人的执行力，
+[Speaker 1]: 现在可能不如 space x 对吧？
+[Speaker 1]:  space sex 未来也可以成为因为他非常大的这个客户，
+[Speaker 1]: 而 space 的这个执行能力非常的强。
+[Speaker 1]: 第二点，
+[Speaker 1]:  space 在融资这一块又非常的强，
+[Speaker 1]: 起码比这些幸运要强。
+[Speaker 1]: 那么所以与其你把这个订单你去卖给这些幸运，
+[Speaker 1]: 你去扶植这些幸运，
+[Speaker 1]: 你为什么不把这些订单去卖给 sespace sex 这的客户，
+[Speaker 1]: 对吧？
+[Speaker 1]: 因为一它速度又非常的快，
+[Speaker 1]: 对吧？
+[Speaker 1]: 速度非常的速度上线非常的快。
+[Speaker 1]: 你整个我 turn n 会增加的非常的快，
+[Speaker 1]: 整个流流动会非常的快。
+[Speaker 1]: 第二点，
+[Speaker 1]: 它融资也非常的好，
+[Speaker 1]: 融资也比这些幸运要好。
+[Speaker 1]: 因为它本身也不需要去扶植这些幸运的一些融资。
+[Speaker 1]: 那为什么不把这个产品卖给这些去卖给 space x 呢？
+[Speaker 1]: 所以现在客户端这一块也开始竞争起来之后，
+[Speaker 1]: 那从英伟达的这个角度，
+[Speaker 1]: 他可以去调客户了，
+[Speaker 1]: 他有更多的这个选择在那边了，
+[Speaker 1]: 对吧？
+[Speaker 1]: 所以我觉得这是背后比较大一部分的原因。
+[Speaker 1]: 然后另外一部分的原因就是让担心这个 vvender financing，
+[Speaker 1]: 对吧？
+[Speaker 1]: 你英伟达去支持一些星云，
+[Speaker 1]: 你把钱去给你给他们，
+[Speaker 1]: 或者你去为他们做一些担保，
+[Speaker 1]: 然后他们再来买你这个产品，
+[Speaker 1]: 这不就是非常标准的一个 vender financing。
+[Speaker 1]: 对吧？
+[Speaker 1]: 这是第六点，
+[Speaker 1]: 然后第七点、
+[Speaker 1]: 第七点非常重要，
+[Speaker 1]: 也是和这一次因为华荣性的这个离开，
+[Speaker 1]: 那对于公司内部有哪些影响？
+[Speaker 1]: 这个问题其实问的非常的好。
+[Speaker 1]: 他说，
+[Speaker 1]: 怎么让投资者安心，
+[Speaker 1]: 怎么让员工安心这个问题本身 CFO 回答的，
+[Speaker 1]: 我认为回答的是相当不错的，
+[Speaker 1]: 也是非常正常的一个回答。
+[Speaker 1]: 但是 harvey 董事会主席说到，
+[Speaker 1]: 他说，
+[Speaker 1]: 董事会认为我们现在的环境是芯片和国家安全，
+[Speaker 1]: 正在改变很多东西，
+[Speaker 1]: 我们新的 CEO 必须要小心行事。
+[Speaker 1]: 这句话我觉得就是完全针对黄荣兴去讲的这句话。
+[Speaker 1]: 他的意思就是说，
+[Speaker 1]: 黄荣兴以前在芯片和国家安全这一刊没有做到非常好的这个平衡。
+[Speaker 1]: 所以下任任 CC 有在这两点上面必须要做到一个非常好的平衡。
+[Speaker 1]: 那所以从这一位董事会主席的一个态度，
+[Speaker 1]: 我可以明显的听出来，
+[Speaker 1]: 他非常不喜欢黄荣幸，
+[Speaker 1]: 也非常不喜欢黄荣幸的处事行为。
+[Speaker 1]: 下面一点第八点，
+[Speaker 1]: 怎么样保证未来的这个长期的一个利润。
+[Speaker 1]: 然后连模型公司提提问问到连模型公司现在也做自研竞争，
+[Speaker 1]: 这个问题其实也非常的好。
+[Speaker 1]: 但是 CF 没有这个能力去回答他聊了很多四季度的 margin，
+[Speaker 1]: 然后二七年的一个利润率没有太大的意义。
+[Speaker 1]: 因为这个问题本身问的是长期的一个竞争力。
+[Speaker 1]: 关于未来这个 CFO 并没有聊很多，
+[Speaker 1]: 说实话他也没办法聊很多。
+[Speaker 1]:  CFO 本身其实也并不是一个做 CEO 的料子。
+[Speaker 1]: 通常来说，
+[Speaker 1]: 如果一家公司的一个 CEO 离开，
+[Speaker 1]: 然后 CFO 去继任这个 CEO 的位置的话，
+[Speaker 1]: 公司都不会走的太远。
+[Speaker 1]: 因为 CFO 本身它的一个 vision 和 CEO 的一个 vision 是不一样的。
+[Speaker 1]: 如果真的让现在的 CFO 来担任未来的一个 CEO 的话，
+[Speaker 1]: 因因他绝对对不不远样，
+[Speaker 1]: 而且个竞竞争绝对会下降，
+[Speaker 1]: 它的市占率一定会被 AMD 和其他公司给抢走。
+[Speaker 1]: 然后第九点叫 ACINE，
+[Speaker 1]: 就是他们新的这一块的业务。
+[Speaker 1]: 他们把 ACINE，
+[Speaker 1]: 然后和大云和这些 hyperskkile 分开了。
+[Speaker 1]: 大云是大云，
+[Speaker 1]: 然后 ACINE 分开来，
+[Speaker 1]:  ACINE 聊聊未来的这个 valifinanity。
+[Speaker 1]: 那这里面包括了星云，
+[Speaker 1]: 然后包括了 soverein，
+[Speaker 1]:  NII，
+[Speaker 1]: 括了 AGAI，
+[Speaker 1]: 全部放在一起了。
+[Speaker 1]: 未来要确保星云有地有地有、
+[Speaker 1]: 厂有电，
+[Speaker 1]: 三个有。
+[Speaker 1]: 我们可能需他们可能需要一些帮助，
+[Speaker 1]: 然后我们会优先考虑帮助他们去解决这些问题。
+[Speaker 1]: 如果他们有在这方面有问题的话，
+[Speaker 1]: 因为你只有解决了地解决了厂，
+[Speaker 1]: 解决了电，
+[Speaker 1]: 我们才有可能把这个芯片卖给你。
+[Speaker 1]: 不然的话，
+[Speaker 1]: 我把这个芯片卖给你，
+[Speaker 1]: 你芯片没有办法上线。
+[Speaker 1]: 说实话对于双方都不是一件好事。
+[Speaker 1]: 第十点，
+[Speaker 1]: 心灵的这个承诺还在吗？
+[Speaker 1]: 我们的意思是我们对于剩余价值这个担保，
+[Speaker 1]: 这是 COO 的回答。
+[Speaker 1]: 我们对于剩余价值，
+[Speaker 1]: 这个担保起点是星云都万事俱备了。
+[Speaker 1]: 万事俱备，
+[Speaker 1]: 就是我前面聊到的几点，
+[Speaker 1]:  d 厂店还有融资。
+[Speaker 1]: 如果延后星云，
+[Speaker 1]: 如果说项目延后或者建不了的话，
+[Speaker 1]: 我们剩余价值这个担保将不复存在。
+[Speaker 1]: 那这就是接下去。
+[Speaker 1]: 因为他的这个态度，
+[Speaker 1]: 所以某种程度在这方面你可以理解为公司的内部 CFO 也好，
+[Speaker 1]: 或者其他的一些董事会成员其实不是非常的赞同。
+[Speaker 1]: 原来黄荣幸的这种处事方式，
+[Speaker 1]: 包括对于幸运的这个自助，
+[Speaker 1]: 或者对于新人的这个态度，
+[Speaker 1]: 非常友善的这个态度，
+[Speaker 1]: 还是说在平衡新品和国家安全之间这个非常微妙的关系 CFO 也好，
+[Speaker 1]: 或者公司的董事会一部分的董事会成员也好，
+[Speaker 1]: 都不认为黄荣鑫做的是好的啊，
+[Speaker 1]: 所以其实说实话，
+[Speaker 1]: 这不见得是一件坏事。
+[Speaker 1]: 就是董事会本身呢他提中的一个挑战的一个放生，
+[Speaker 1]: 它是一个强韧性放生，
+[Speaker 1]: 同时他也会需要做很多的一些决定。
+[Speaker 1]: 啊，
+[Speaker 1]: 所以董事会提一些不相反的一些意见，
+[Speaker 1]: 其实是 OK 的，
+[Speaker 1]: 或者说应该是他们的一个责任。
+[Speaker 1]: 最后十二点未来是否模型公司这个个收占比会增增就就是两大模模型公司，
+[Speaker 1]: 前模型公司嘛。
+[Speaker 1]: 我觉得他们英伟达的回答就非常的巧妙。
+[Speaker 1]: 这我他他没有直说，
+[Speaker 1]: 但是我认为这就是他们想表达的。
+[Speaker 1]: 我们看谁有钱，
+[Speaker 1]: 谁有厂，
+[Speaker 1]: 谁有电，
+[Speaker 1]: 我们就卖给谁。
+[Speaker 1]: 那这句话的意思，
+[Speaker 1]: 我认为他们我感觉他们要控制这个应收账款叫做 accounversiable。
+[Speaker 1]: 那其实就是再次强调了一点，
+[Speaker 1]: 就是未来我们哪一个客户什么东西都有了，
+[Speaker 1]: 我们就把这个订单买给他。
+[Speaker 1]: 如果说他有一个 PU 的话，
+[Speaker 1]: 他有 purchase order 的话，
+[Speaker 1]: 那就更好。
+[Speaker 1]: 我卖给他，
+[Speaker 1]: 如果他没有 purchase order，
+[Speaker 1]: 他一切东西都准备好的话，
+[Speaker 1]: 我们也可以买给他。
+[Speaker 1]: 所以这一次财报会议告诉我们什么？
+[Speaker 1]: 从短期这个角度，
+[Speaker 1]: 这个短期一年一年半左右的一个短期去看的话，
+[Speaker 1]: 起码二零二七财年吧。
+[Speaker 1]: 那二零二七财年结束的话，
+[Speaker 1]: 英伟达也是也是差不多，
+[Speaker 1]: 离现在五个季度以外啊。
+[Speaker 1]: 但是但凡如果未来的 CEO 人选不好，
+[Speaker 1]: 或者黄荣庆没有办法回归的话，
+[Speaker 1]: 对于英伟达的这些基本面，
+[Speaker 1]: 将会反映在因为到二七年年终的时候，
+[Speaker 1]: 二七年财年年终的时候，
+[Speaker 1]: 二七年财年、
+[Speaker 1]: 第三季度第四季度时候，
+[Speaker 1]: 市场一定会看到二八财年了。
+[Speaker 1]: 那一旦黄仁信如果没有办法回到英伟尔达，
+[Speaker 1]: 英伟达或者说下一任 CEO 人选挑的不好的话，
+[Speaker 1]: 我相信英伟达这个竞争力将会被吞噬。
+[Speaker 1]: 当因为它竞争力被吞噬的时候，
+[Speaker 1]: 二七年肯定影响不到二八年，
+[Speaker 1]: 就会表现的非常的明显。
+[Speaker 1]: 那么所以准确来说，
+[Speaker 1]: 我认为通常市场交易的都是最远六个季度，
+[Speaker 1]: 最远六个月到九个月，
+[Speaker 1]: 最远两个季度到三个季度。
+[Speaker 1]: 所以留给英伟达的时间其实不长的。
+[Speaker 1]: 马上你再过六个月，
+[Speaker 1]: 再过半年到九个月之后，
+[Speaker 1]: 市场在往二零二八财年看的时候，
+[Speaker 1]: 就会发现，
+[Speaker 1]: 如果你的人选不好或者宽荣性，
+[Speaker 1]: 没办法会为你的竞争力下降。
+[Speaker 1]: 这时候我相信董事会如果说他们最终没有让换荣性回去的话，
+[Speaker 1]: 我相信那时候董事，
+[Speaker 1]: 而且董事会这些成员又没有被开除的话，
+[Speaker 1]: 这些董事会的成员将会面临更加严峻的问题。
+[Speaker 1]: 最后一条新闻我想讲的是，
+[Speaker 1]: 这是在财报会议之后。
+[Speaker 1]: 有一家媒体报道说，
+[Speaker 1]: 尽管英伟达宣称不不打算让被罢免的首席执行官黄荣鑫重返这家芯芯片制造商重返英伟达。
+[Speaker 1]: 但据知情人士透露，
+[Speaker 1]: 部分董事会成员正在推动他的一个回归。
+[Speaker 1]: 如果这条新闻是正确的话，
+[Speaker 1]: 那董事会的主席今天 harvey 的那句话就表现了我就是说就表现的非常的冷酷。
+[Speaker 1]: 而且而且还是在黄润星已经抛出了这个橄榄枝的情况下，
+[Speaker 1]: 已经把自己的姿态放低的这个情况下，
+[Speaker 1]: 他还讲了一句话，
+[Speaker 1]: 他说董事会现在没有任何的一个意愿，
+[Speaker 1]: 确保去恢复黄荣信 CEO 的这个职位。
+[Speaker 1]: 并且他说，
+[Speaker 1]: 当时黄荣信提出离职的时候，
+[Speaker 1]: 所有人所有的董事会成员成员都同意了他的一个离职。
+[Speaker 1]: 但是现在明显有部分的董事会的成员试图让黄荣信回归。
+[Speaker 1]: 那吧。
+[Speaker 1]: 所以他的态度本身是非常的坚定，
+[Speaker 1]: 非常的负面。
+[Speaker 1]: 但部分的董事会成员其实已经有其他的想法。
+[Speaker 1]: 即使在几天之前是同意黄荣信的这个离职，
+[Speaker 1]: 好吧。
+[Speaker 1]: 所以我认为这件事情就黄关于黄荣信能否回归到英伟达，
+[Speaker 1]: 这件事情本身是不会结束的，
+[Speaker 1]: 短期之内我是我认为是不会结束的。
+[Speaker 1]: 然后投资者起码在社交媒体上对于黄荣信是否能够回归，
+[Speaker 1]: 或者对于现在 CFO 的这个业务，
+[Speaker 1]: 我说实话 CFO 倒不应该承担太多的一些责任。
+[Speaker 1]: 那他只是现在暂时担任这个 CEO，
+[Speaker 1]: 未来也不会失去这 CEO。
+[Speaker 1]: 然后这一次的一个财报会议，
+[Speaker 1]: 说实话，
+[Speaker 1]: 你说他好吧，
+[Speaker 1]: 绝对不好，
+[Speaker 1]: 非常的紧张。
+[Speaker 1]: 你说他太糟糕嘛，
+[Speaker 1]: 也没有太过于糟糕。
+[Speaker 1]: 作为 CFO 的这个身份，
+[Speaker 1]: 他也履行到了他的一个职责了，
+[Speaker 1]: 增加了一个回购的一个体量。
+[Speaker 1]: 然后也把未来的直营往上抬，
+[Speaker 1]: 虽然未来的直营往上抬，
+[Speaker 1]: 和它本身没有任何的关系，
+[Speaker 1]: 对吧？
+[Speaker 1]: 黄荣兴才离开了几天之后，
+[Speaker 1]: 你说他能够改变公司一个基本面，
+[Speaker 1]: 不可能。
+[Speaker 1]: 只是当时在一个季度之前，
+[Speaker 1]: 黄荣新给二零二七财年做指引的时候，
+[Speaker 1]: 他楼宝领他明明知道他们能够做到百分之一百的这个增速，
+[Speaker 1]: 我就给你百分之七十。
+[Speaker 1]: 虽然百分之七十这个增速已经很高了，
+[Speaker 1]: 所以 CFO 整体的这个表现我认为是 OK 的。
+[Speaker 1]: 但是现在也明显的看到董事会的内部出现了比较大的这个分歧。
+[Speaker 1]: 而现在这个分歧可能还是集中在一小部分的人群里边。
+[Speaker 1]: 但是我相信个人投资者，
+[Speaker 1]: 包括一些机构投资者力量集中在一起是可以改变董事会的。
+[Speaker 1]: 那么至于董事会背后有没有一股更大的力量，
+[Speaker 1]: 我相信有。
+[Speaker 1]: 但是我相信通过钱，
+[Speaker 1]: 通过关系，
+[Speaker 1]: 通过资金也能够改变这些背后的一些力量。
+[Speaker 1]: 因为权力最终背后需要的什么权利，
+[Speaker 1]: 最终背后需要的是金钱权利。
+[Speaker 1]: 未来很少有一个利益集团，
+[Speaker 1]: 它只需要权利，
+[Speaker 1]: 不需要金钱的。
+[Speaker 1]: 因为你背后或者我们不说的，
+[Speaker 1]: 那么通俗不说它金钱吧，
+[Speaker 1]: 只能说权利背后和利益一定是挂钩的。
+[Speaker 1]: 好吧，
+[Speaker 1]: 那这就是我对于今天英伟达财报看完之后的一个全部感受了。
+[Speaker 1]: 大家有问题的话，
+[Speaker 1]: 我们可以在留言区里面继续交流。
+[Speaker 1]: 最后是今天的活动，
+[Speaker 1]: 也是这一次 c king 阿尔法黑五的这个活动打折的一个幅度非常的大，
+[Speaker 1]: 打着几乎他们所有的产品都打折了。
+[Speaker 1]: 然后首先这边是阿尔法 pix，
+[Speaker 1]: 他们那个量化选股策略，
+[Speaker 1]: 我这边把他们 sensing ception 的一个回报和他们 YT 的一个回报全部拿出来了。
+[Speaker 1]:  YTT 的回报有些不尽如人意，
+[Speaker 1]: 那么没有跑赢标普，
+[Speaker 1]: 但是他们 sensing section 的这个回报还是大幅度了跑赢的标普。
+[Speaker 1]: 第二个量化产品是他们几个月之前刚刚推出的，
+[Speaker 1]: 也是一个量化产品。
+[Speaker 1]: 这个量化产品针对的是一件价值股，
+[Speaker 1]: 那这个产品本身还跑的还是不错的，
+[Speaker 1]: 在几个月的时间里边标尺跑了百分之三点七。
+[Speaker 1]: 他们这个策略本身跑了百分之十二，
+[Speaker 1]: 好吧，
+[Speaker 1]: 最后是他们这一次所有产品，
+[Speaker 1]: 然后所有产品所对应的这个折扣。
+[Speaker 1]: 我们看到 premium 或者阿尔法 pix 或者 QGNI，
+[Speaker 1]: 这是一个 premium 的订阅。
+[Speaker 1]: 然后后面两个是量化选股策略，
+[Speaker 1]: 打折的幅度都达到了百分之二十八。
+[Speaker 1]: 如果大家喜欢康茂的话，
+[Speaker 1]: 最下面这边还有康莫的这个价格，
+[Speaker 1]: 康莫的价格最高的一个幅度，
+[Speaker 1]: 折扣幅度达到了百分之四十四点六。
+[Speaker 1]: 好么？
+[Speaker 1]: 大家对于 CK 阿尔法产品感兴趣的话，
+[Speaker 1]: 可以在置顶的留言里面找到订阅的链接。
+[Speaker 0]: 那今天就先到就到这边下期见啦啦啦啦啦啦啦。
