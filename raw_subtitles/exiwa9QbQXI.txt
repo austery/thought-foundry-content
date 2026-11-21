@@ -1,0 +1,270 @@
+[Speaker 1]:  hey，
+[Speaker 1]:  folks，
+[Speaker 1]:  i'm davis。
+[Speaker 1]:  pall me a member of technical staff here in factory before this，
+[Speaker 1]:  i cofounounlonew metric，
+[Speaker 1]:  which was an agent platform for investment teams that we took three white combator and was acquired by factory。
+[Speaker 1]:  and prior of that，
+[Speaker 1]:  i was a engineering lead for slolums innovation lathem。
+[Speaker 1]:  so i've en en ai deloloyments，
+[Speaker 1]:  both across large terpriprand，
+[Speaker 1]:  more ai native ororms。
+[Speaker 1]:  with that mind today，
+[Speaker 1]:  i'm going to be talking to you about the software factory and how you can move towards an autonomous system that translates input signals interproduction code。
+[Speaker 0]:  so first，
+[Speaker 1]:  we moved through three distinct erras of AI engineering。
+[Speaker 1]:  first，
+[Speaker 1]:  we had tab auto complete next tokan prediction，
+[Speaker 1]:  and the engineer was still firmly in the driver seat，
+[Speaker 1]:  then AI could generate entire files，
+[Speaker 1]:  and the software engineer became a bit of a discerning copy pastter，
+[Speaker 1]:  but they still heheavhad control over the output of the ai。
+[Speaker 1]:  and then you had agents that were more tightly，
+[Speaker 1]:  coupled with the code they could gather their own context，
+[Speaker 1]:  calall tools and debug their own output。
+[Speaker 1]:  now autto complete，
+[Speaker 1]:  use the field magical。
+[Speaker 1]:  and now adbest sit's。
+[Speaker 1]:  it's a quint thing。
+[Speaker 1]:  we remember you want to look the speed at which ai engineering is climbing the abstraction letter from tokens to file the context。
+[Speaker 1]:  now to entire systems，
+[Speaker 1]:  every shift you have here is in adjustment，
+[Speaker 1]:  but each move up the abstraction letter。
+[Speaker 1]:  he's made engineers more valuable，
+[Speaker 1]:  not less。
+[Speaker 1]:  and so now we're a transformational point。
+[Speaker 1]:  engineers are going from typing code to governing agents evenventually 'll organize those enents a system that's yourself for a factory。
+[Speaker 1]:  so with this，
+[Speaker 1]:  the engineers role shifts to keeping gardreel's tight catching coo drift and setting the high level priorities interaction。
+[Speaker 1]:  but meanwhile，
+[Speaker 1]:  the system is interesting input signals like but reports are user feedback and outputting production code。
+[Speaker 1]:  so if you have AI systems that are producing more code than humans，
+[Speaker 1]:  there are some big questions that everyone is rightly asking first。
+[Speaker 1]:  how can i prevent massive cost overruns？
+[Speaker 1]:  we've all seen the headlines about uber cto blowing through the years aii budget by april or microofoft liwing back cloud code licenses to try and cut down on spent and factory。
+[Speaker 1]:  you're not locked into a single model provider，
+[Speaker 1]:  and this means you unlocked the entire spectrum of cost of performance with l lims，
+[Speaker 1]:  you want the maximum cost efficiency and the minimum effectiveness necessary for each task。
+[Speaker 1]:  as our CEO likes to say，
+[Speaker 1]:  if your kid needs a algbra tutor，
+[Speaker 1]:  you can definitely find someone cheaper than albert einstein。
+[Speaker 1]:  second point，
+[Speaker 1]:  how can i ensure the best access to whatever model is top right now？
+[Speaker 1]:  well，
+[Speaker 1]:  we think that having the back the right horses，
+[Speaker 1]:  a false choice，
+[Speaker 1]:  um especially with the increasing effectiveness of open source models，
+[Speaker 1]:  were strong opponents of being able to choose the right tool for the right job，
+[Speaker 1]:  or even now have it dynamically rounded。
+[Speaker 1]:  number three，
+[Speaker 1]:  what happens the software engineers？
+[Speaker 1]:  what is the future of software engineering look like？
+[Speaker 1]:  well，
+[Speaker 1]:  the role is obviously evolving，
+[Speaker 1]:  and the line between product and engineering is bluring。
+[Speaker 1]:  engineers will now build and maintain the system that's responsible for building your production code，
+[Speaker 1]:  and we'll set the high level direction for the software factory。
+[Speaker 1]:  and lastly，
+[Speaker 1]:  how does this going to change the organization？
+[Speaker 1]:  well，
+[Speaker 1]:  team boundaries are also starting to blair and context needs to flow seamlessly across these boundaries。
+[Speaker 1]:  information can't be silored that was true for humans，
+[Speaker 1]:  but it's especially true for ai agents。
+[Speaker 1]:  everyone across all，
+[Speaker 1]:  your teams will have a shared responsibility for the pilars of the software factory。
+[Speaker 1]:  now coding was the easy part。
+[Speaker 1]:  this actually was never the bottom neck。
+[Speaker 1]:  your context is laid out a natural language。
+[Speaker 1]:  i bet if you look at your real engineering metrics，
+[Speaker 1]:  what's the medium time to review APR，
+[Speaker 1]:  how long that take you to reproduce user bug reports，
+[Speaker 1]:  or go through your debug code，
+[Speaker 1]:  who keeps your dogs current with every pr？
+[Speaker 1]:  and who keeps the current with every strategy meeting who maintain your test sweets often times the testing teams and engineering teams and the product teams are each on their own continent。
+[Speaker 1]:  if you pull your door metric，
+[Speaker 1]:  the time from code written to time and production，
+[Speaker 1]:  i would bediworse the time actually making those engineering changes。
+[Speaker 1]:  the real need you have today is cohesision across all of these services。
+[Speaker 1]:  right now。
+[Speaker 1]:  dogs will go stale dead code lingers，
+[Speaker 1]:  and there are so many layers of communications between your different teams。
+[Speaker 1]:  again，
+[Speaker 1]:  this is hard for human engineers，
+[Speaker 1]:  but it is especially more pronounced for agents。
+[Speaker 1]:  the necessary undertaking to build your factory is to make sure the agents can bridge all of these services and understand the new ones within your organization。
+[Speaker 1]:  so this brings us to the software factory，
+[Speaker 1]:  which is the system of agents that will take you from input signal to production deployment。
+[Speaker 1]:  your agents，
+[Speaker 1]:  not just coding anymore。
+[Speaker 1]:  it's taking on customer support product engineering，
+[Speaker 1]:  deployment opts and many other rules across these pillars。
+[Speaker 1]:  your agent should be triogan incidents，
+[Speaker 1]:  making plans，
+[Speaker 1]:  creating and updating dogs actually executing the code reviewing it，
+[Speaker 1]:  testing it，
+[Speaker 1]:  rolling it out and then monitoring that release。
+[Speaker 1]:  now that's obviously a ton of work。
+[Speaker 1]:  and you don't want to jump into that all it once。
+[Speaker 1]:  for one，
+[Speaker 1]:  it's too heavy and undertaking，
+[Speaker 1]:  but for two，
+[Speaker 1]:  your teams will not have time to build trust in the system。
+[Speaker 1]:  you want to start with something narrow and verifiable，
+[Speaker 1]:  like incident triosh。
+[Speaker 1]:  let your agent read a century alert，
+[Speaker 1]:  pull the traces and other context and then post in slack，
+[Speaker 1]:  but keep it。
+[Speaker 1]:  so your engineers can review this。
+[Speaker 1]:  and decide what to do and is more correct diagnosis，
+[Speaker 1]:  role land。
+[Speaker 1]:  and in from the agent，
+[Speaker 1]:  your team can start to build trust and in understanding of this pillar。
+[Speaker 1]:  so each step in the software factory needs careful ownership and monitoring before you even think about letting the pipeline loop。
+[Speaker 1]:  but once you can tie the output of this system back to the input signal，
+[Speaker 1]:  that's when you unlock organiztional self improven。
+[Speaker 1]:  now we feel pretty strongly that ysoftware factory，
+[Speaker 1]:  you should have a few key principles。
+[Speaker 1]:  first，
+[Speaker 1]:  it should be model ignostic，
+[Speaker 1]:  obviously，
+[Speaker 1]:  different models，
+[Speaker 1]:  excel，
+[Speaker 1]:  different tasks and with very different cost efficiencies we found。
+[Speaker 1]:  for instance，
+[Speaker 1]:  you can achieve the same performance on code review with GPT five point，
+[Speaker 1]:  and we with the latest opens models，
+[Speaker 1]:  but at half the price。
+[Speaker 1]:  and now if you look at the open source alternatives that can sash your cost down to ten to thirty x cheaper。
+[Speaker 1]:  so in factory，
+[Speaker 1]:  again，
+[Speaker 1]:  you have the entire interplay of speed to task effeicacy cocost。
+[Speaker 1]:  you unlocked the ensingle lab means you unlocked the entire priador frontier of alymps。
+[Speaker 1]:  no number two，
+[Speaker 1]:  your deployment model should be solving。
+[Speaker 1]:  you shouldn't have to compromise on your security architecture or your policies to try and fit your ai deployment model in now at factory。
+[Speaker 1]:  you can choose your workspace and your deployment model。
+[Speaker 1]:  we support everything from fully manage to bring your own machine to entirely airgapt。
+[Speaker 1]:  and number three，
+[Speaker 1]:  your software facfactory needs to be integrated across the slc。
+[Speaker 1]:  these are no longer separate uncouple concerns，
+[Speaker 1]:  dogs changing shouldn't form your code and vice versa。
+[Speaker 1]:  planning goals should inform what you test for。
+[Speaker 1]:  not。
+[Speaker 1]:  however，
+[Speaker 1]:  many communication layers there are between strategy，
+[Speaker 1]:  product engineering and your testing teams。
+[Speaker 1]:  each one of these pilars supports the software factory and week this in one means a week this in the entire system，
+[Speaker 1]:  so tactically in an ai native org。
+[Speaker 1]:  what does this look like？
+[Speaker 1]:  well，
+[Speaker 1]:  we typically see it as the fusion and the incremental automation of many subteens under the umbrella of one software factory，
+[Speaker 1]:  some really common patterns。
+[Speaker 1]:  we see our tree ogan incoming signals like century alerts，
+[Speaker 1]:  having the agents make diagnosis before the human can even answer the page。
+[Speaker 1]:  proactively testing security scanning for secrets or vulnererabilities，
+[Speaker 1]:  creating maintaining your tests monitoring the ones that are becoming brittle or unneeded，
+[Speaker 1]:  again，
+[Speaker 1]:  keeping dogs and sink with code kekeepdodogs and sink with your different meeting channels and in the classic reviewing code，
+[Speaker 1]:  commenting on prs rollouts monitoring releases。
+[Speaker 1]:  and with the agent doing all of this，
+[Speaker 1]:  the human engineers role shifts to responding to exercising judgment and correcting the ai and such a way that it can learn from these mistakes。
+[Speaker 1]:  now everything is transitive across some teams and improven to one group means an improvement to the entire system。
+[Speaker 1]:  so why should your enterprise care about a software factory？
+[Speaker 1]:  well，
+[Speaker 1]:  the larger and the more fragantage you are，
+[Speaker 1]:  the more you feel the linear pain of managing teams in tech terms，
+[Speaker 1]:  your software factory should should take this in in oovto。
+[Speaker 1]:  all of one conservatively，
+[Speaker 1]:  you can define your guy，
+[Speaker 1]:  illes your agents，
+[Speaker 1]:  your dogs testing policies really governance，
+[Speaker 1]:  just one time。
+[Speaker 1]:  and then standardize it across the organization，
+[Speaker 1]:  and the standard should make sure that everyone is pulled to the highest bar，
+[Speaker 1]:  not the lowest common dominator。
+[Speaker 1]:  now also，
+[Speaker 1]:  if agents can move across these services，
+[Speaker 1]:  then they can hold that quality bar across teams without you having to veninearly scale your time to manage each one。
+[Speaker 1]:  and if agents are moving across all these services，
+[Speaker 1]:  then you have one place where context can be unified，
+[Speaker 1]:  and you can have executive visibility into how the entire slc is performing now，
+[Speaker 1]:  just like model，
+[Speaker 1]:  like agnostiticism removes locking，
+[Speaker 1]:  your agents should also be surface iagnostic。
+[Speaker 1]:  they need to be highly available to your teams，
+[Speaker 1]:  regardless of what tools they use。
+[Speaker 1]:  your teams should not have to compromise on their processes，
+[Speaker 1]:  or they're tooling to try and fit your ai provider in in factory，
+[Speaker 1]:  have have agenavable able where where romo machines to the cii to slack，
+[Speaker 1]:  any tool，
+[Speaker 1]:  your teams use。
+[Speaker 1]:  and even though humans and agents may use different services，
+[Speaker 1]:  everything should share the same underlying hardness and context。
+[Speaker 1]:  so the undertaking of building the factory will expose tribal knowledge，
+[Speaker 1]:  manual processes and outdated info unblocking。
+[Speaker 1]:  these is not only going to help your agents，
+[Speaker 1]:  but it's also going to help your engineering teams in factory。
+[Speaker 1]:  we have the concept of agent raininess，
+[Speaker 1]:  and we evaluate this based on eight pilars。
+[Speaker 1]:  the first is validation。
+[Speaker 1]:  do you have guarriils like mentters？
+[Speaker 1]:  and form matters in place，
+[Speaker 1]:  then your build system are your build commands in cii。
+[Speaker 1]:  well，
+[Speaker 1]:  documented feedback loops，
+[Speaker 1]:  you have unit and integration tests tight，
+[Speaker 1]:  and you have dogs like read mees agent。
+[Speaker 1]:  stoart md files are your def environments cleanly reproduceble。
+[Speaker 1]:  such an agent can use them is your code moduler with clear boundaries and rules against sprawn？
+[Speaker 1]:  do you have observability？
+[Speaker 1]:  how long does it take you to find out why something went wrong？
+[Speaker 1]:  and are you proactively security scanning so that you don't have to worry about leked secrets or vulnerabilities？
+[Speaker 1]:  basically，
+[Speaker 1]:  the key take away here is that if your agents in your human engineers are going to walk the same roads，
+[Speaker 1]:  paving them well is double useful。
+[Speaker 1]:  now you can't gon what you can't see，
+[Speaker 1]:  and that's true for agents and human engineers。
+[Speaker 1]:  you can start with this agent ready as assessment，
+[Speaker 1]:  but no matter what your engineers must monitor agent performance in control behavior in factory。
+[Speaker 1]:  every action is ottawable。
+[Speaker 1]:  it operates under standards with role based access control and least privilege。
+[Speaker 1]:  for example，
+[Speaker 1]:  your teams that are building the software factory need to first building this trust and understtding。
+[Speaker 1]:  that's why you should roll this out incremently。
+[Speaker 1]:  you want to automate the individual pillars first。
+[Speaker 1]:  before you turn this system into a loop 有没有异议？
+[Speaker 1]:  and again，
+[Speaker 1]:  precise execution does not prevent poor design。
+[Speaker 1]:  it never has，
+[Speaker 1]:  you still heavily need humans in the loop for architecture for strategy and for setting direction，
+[Speaker 1]:  engineers will not be replaced，
+[Speaker 1]:  but judgment and priortization。
+[Speaker 1]:  now beat mechanical implementation scale agents will be able to handle everything。
+[Speaker 1]:  there will be ggarriil's tititan code that drifts humans need to stand as validation gates in this factory，
+[Speaker 1]:  but just like we don't have to feed punch guards in of the machine anymore。
+[Speaker 1]:  code does not have to be written by hand。
+[Speaker 1]:  your team should be able to set the strategy and the risk creameters，
+[Speaker 1]:  and then let agents execute。
+[Speaker 1]:  and knowing if your agents are executing well，
+[Speaker 1]:  comes down to measuring the right things。
+[Speaker 1]:  basically，
+[Speaker 1]:  you want to measure outcomes，
+[Speaker 1]:  not tokens lines of code and tokens generated are gaamable metrics。
+[Speaker 1]:  these are not actually associated with outcomes。
+[Speaker 1]:  token leader boards and big companies just encourage profleate spending。
+[Speaker 1]:  it's good heart's law in real time。
+[Speaker 1]:  if you decide to measure token usage，
+[Speaker 1]:  engineers are going to optimize for token usage，
+[Speaker 1]:  and then it's no longer a good metric。
+[Speaker 1]:  it's not about who spent the most on tokens。
+[Speaker 1]:  it's about who can get the highest leverage outcomes from that spent so metrics that we like in factory or signal to production time，
+[Speaker 1]:  human intervention account medium time to repair shelf life of code and cost her pr。
+[Speaker 1]:  these are real tangible outcomes。
+[Speaker 1]:  so agent readiness is really a precursor to afffective engineering，
+[Speaker 1]:  whether it's an agent or human that ends up in that system。
+[Speaker 1]:  your agents need the exact same careful governance as your engineers tooling access levels systems will review。
+[Speaker 1]:  don't just turn on loose in your code base and don't talken max measure。
+[Speaker 1]:  what actually matters。
+[Speaker 1]:  your end users don't care about how much you're spending on ar。
+[Speaker 1]:  they care about feeling the dramatic improvements that will come from yourself a factory。
+[Speaker 1]:  thank you。
