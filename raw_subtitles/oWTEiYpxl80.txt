@@ -1,0 +1,440 @@
+[Speaker 1]:  so everyone welcome to why agcishould should their own sandandbox。
+[Speaker 1]:  i'm philip。
+[Speaker 1]:  i'm part of google deep piinty，
+[Speaker 1]:  mostly working on AI studio and generina api。
+[Speaker 1]:  i have have a small roup，
+[Speaker 1]:  so i tried to keep the boring stuff short and like the exciting demo stuff long，
+[Speaker 1]:  and we can also ask some questions。
+[Speaker 1]:  i guess，
+[Speaker 1]:  at the end，
+[Speaker 1]:  maybe you need to see a little bit at the front，
+[Speaker 1]:  so i can understand you。
+[Speaker 1]:  and so i want to start with a little bit of a background。
+[Speaker 1]:  i'm not sure if you have seen that life，
+[Speaker 1]:  but that's a very popular slide when you do like google presentations and to show a little bit um what we have achieved in the last two year with like the german models，
+[Speaker 1]:  but also our open models with jamma and slide is already outdated since yesterday。
+[Speaker 1]:  so yesterday，
+[Speaker 1]:  we ship nano banana light，
+[Speaker 1]:  uh，
+[Speaker 1]:  which is our new image generation model。
+[Speaker 1]:  super fast。
+[Speaker 1]:  sorry，
+[Speaker 1]:  super fast，
+[Speaker 1]:  uh super jeep。
+[Speaker 1]:  um it's like four cent per image。
+[Speaker 1]:  and then also，
+[Speaker 1]:  we shipped only flash on the interactions api，
+[Speaker 1]:  so you can now programmdically use only to create videos to edit videos to yet built ent media applications。
+[Speaker 1]:  and to give it a bit of a brief history。
+[Speaker 1]:  II assume everyone has heard about agent has heard about large language models，
+[Speaker 1]:  but to really quickly reflect so where we are coming from。
+[Speaker 1]:  so i think around two thousand eighty nineteen with the first first spurd models and GVT models，
+[Speaker 1]:  we were super excited because we could continue sentces，
+[Speaker 1]:  right？
+[Speaker 1]:  we were able to generate poems without uh with providing like a first few words。
+[Speaker 1]:  and then the model of hear rently continued a text which was nice，
+[Speaker 1]:  but not very useful or helpful for anyone of us to build something。
+[Speaker 1]:  then we removed into the the instruction away before we had three drain models，
+[Speaker 1]:  which could continue text。
+[Speaker 1]:  and then with instruction following，
+[Speaker 1]:  we basically drain models to answer questions more or less。
+[Speaker 1]:  so we told the ask a question and the model correctly responded。
+[Speaker 1]:  and then with with judg PT，
+[Speaker 1]:  everything changed a little bit。
+[Speaker 1]:  i think most of the people probably got started with that。
+[Speaker 1]:  and we went into this user model turn base conversation where we had a user input，
+[Speaker 1]:  a model，
+[Speaker 1]:  input，
+[Speaker 1]:  a user input，
+[Speaker 1]:  a model output。
+[Speaker 1]:  then afterwards，
+[Speaker 1]:  we combine that we're function calling because we want of the model to take actions for us an hour。
+[Speaker 1]:  we are in like dispblack box with gold thinking and functions where we no longer trust from the model。
+[Speaker 1]:  we basically give a goal to the model，
+[Speaker 1]:  tell them how to verify its goal，
+[Speaker 1]:  how to like deploy it。
+[Speaker 1]:  and like hopefully，
+[Speaker 1]:  have it running for multiple hours or even days days come back with the results。
+[Speaker 1]:  ts want to achieve um so if you haven't use german API or yeah studio before，
+[Speaker 1]:  you can go to a idol studio or to a idol depth。
+[Speaker 1]:  so very quick，
+[Speaker 1]:  very short，
+[Speaker 1]:  you're else get your own APIT。
+[Speaker 1]:  so if you have your computer with you，
+[Speaker 1]:  and if you want to follow along a little bit later，
+[Speaker 1]:  ter，
+[Speaker 1]:  like trying out out few things，
+[Speaker 1]:  things have shipped recently，
+[Speaker 1]:  you can do that。
+[Speaker 1]:  um no set up required can use your gmail account。
+[Speaker 1]:  um can start start experimenting if you want to use bigger models，
+[Speaker 1]:  more usage，
+[Speaker 1]:  enter your credit card。
+[Speaker 1]:  and we improve that a lot。
+[Speaker 1]:  so you don't need to leave a studio anymore to go into the good cloud。
+[Speaker 1]:  you can do everything inside of AS dio o。
+[Speaker 1]:  you can set up your bubudgets that nothing gets out of control。
+[Speaker 1]:  and i want to start about or talk about the interrections api，
+[Speaker 1]:  which is our new uh API for geri models and germini agents。
+[Speaker 1]:  and on the right side for your left side，
+[Speaker 1]:  we have some codes，
+[Speaker 1]:  a bits。
+[Speaker 1]:  so if you never have heard about the interactions api，
+[Speaker 1]:  you can think a little bit about。
+[Speaker 1]:  that's our answers to like to response api from open eye。
+[Speaker 1]:  it is much more developful focused，
+[Speaker 1]:  much more simpler，
+[Speaker 1]:  much more developer friendly。
+[Speaker 1]:  and you can already tell and like the two snippers here to call a model like gmini or to call an agent helike like the antigravity ation。
+[Speaker 1]:  it's like literally the same interface。
+[Speaker 1]:  and this works for all of the modalities german i offer。
+[Speaker 1]:  so you have a model or natand。
+[Speaker 1]:  you have an input。
+[Speaker 1]:  the input can be a basic string or can be multimodile data。
+[Speaker 1]:  and then you have ttools or environment，
+[Speaker 1]:  which um i'm very excited and why which we are going to talk about later why every model or agent should have its own box。
+[Speaker 1]:  um new new the interrection apapi，
+[Speaker 1]:  you have seversisite state management。
+[Speaker 1]:  so if you don't want to manage the state on the client，
+[Speaker 1]:  you can hand it over to you deserver。
+[Speaker 1]:  we we have long operation，
+[Speaker 1]:  so asing requests。
+[Speaker 1]:  basically，
+[Speaker 1]:  you start something if we talk about only video generation ation kes quite ite long long time，
+[Speaker 1]:  and you might not want to keep your HTTP connection open。
+[Speaker 1]:  so you send a request，
+[Speaker 1]:  get back and ID can set up streaming is completely wait ununtil。
+[Speaker 1]:  the generation is completed。
+[Speaker 1]:  and then um it comes with a lot of simplifications for building actions and to ll use。
+[Speaker 1]:  so you can comine builbuiltools like function calling with custom function calling and to look at some coding example。
+[Speaker 1]:  so for servsides state，
+[Speaker 1]:  it looks very similar。
+[Speaker 1]:  if you have used to responses api，
+[Speaker 1]:  we call it interactions because we just not get a response anymore。
+[Speaker 1]:  we interact with models and agents。
+[Speaker 1]:  you send an input。
+[Speaker 1]:  and if you want to do a photo up turn，
+[Speaker 1]:  you provide a new input and basically trust the ID from the previous turn。
+[Speaker 1]:  and then on to server，
+[Speaker 1]:  we um concatdinate all of light to different inputs。
+[Speaker 1]:  and make sure that the model really reseize what has been done so far and this goes for all modality。
+[Speaker 1]:  so for all of your generation，
+[Speaker 1]:  we have a model，
+[Speaker 1]:  we have our german ITTS model。
+[Speaker 1]:  we have our input。
+[Speaker 1]:  and since we want audio back，
+[Speaker 1]:  not text，
+[Speaker 1]:  you define a response modality with audio and some generation configuration，
+[Speaker 1]:  which wise you，
+[Speaker 1]:  for example，
+[Speaker 1]:  want to use the same pattern works for image generation。
+[Speaker 1]:  so our iimage generation model um not a banana here，
+[Speaker 1]:  our input song generation generation conflict，
+[Speaker 1]:  and then you get back your image and for tool use。
+[Speaker 1]:  um also much better。
+[Speaker 1]:  i would say，
+[Speaker 1]:  and previously，
+[Speaker 1]:  you justify your tools with like google search，
+[Speaker 1]:  you are al context，
+[Speaker 1]:  or your own custom function，
+[Speaker 1]:  and then you send your request and a model besides on it on its own。
+[Speaker 1]:  do i first first need to like run google search or cled a function？
+[Speaker 1]:  and all of the code you see here is basically enough to create a very simple，
+[Speaker 1]:  small CVE agent to detect if they're like any CVE um for react in this case。
+[Speaker 1]:  and unlike it uses google search，
+[Speaker 1]:  it uses your are le context to visit those debsites and and function calling to a basically give structure to it。
+[Speaker 1]:  so you can like save it in your database。
+[Speaker 1]:  all look it up，
+[Speaker 1]:  for example，
+[Speaker 1]:  and something new and maybe different to other model providers is that we moved away from this user model term principal。
+[Speaker 1]:  so if you build an application with another eleen provider or with open models，
+[Speaker 1]:  you have always this uh user model user model turn concept。
+[Speaker 1]:  so us a user provide input and expect a model to return an output。
+[Speaker 1]:  this worked until like one or two years ago，
+[Speaker 1]:  i would say where we just got back responses from those models，
+[Speaker 1]:  but with agents and with reasoning，
+[Speaker 1]:  all of that change right models。
+[Speaker 1]:  now think for a very long time，
+[Speaker 1]:  with it might expose some thoughts directly or might trust expose the signature function calling is not very a user role，
+[Speaker 1]:  right with normal or like with previous aps，
+[Speaker 1]:  you would need to use the user turn to return some function output，
+[Speaker 1]:  which，
+[Speaker 1]:  for me，
+[Speaker 1]:  always felt little it weird，
+[Speaker 1]:  because the output or the new input is coming from the environment and not from the user。
+[Speaker 1]:  so that's why we moved away from that。
+[Speaker 1]:  those turns into steps or like to like synchronous timeline of steps where every action or generation is its own type，
+[Speaker 1]:  which makes it very easy to extend to new features and capabilities，
+[Speaker 1]:  which might come in the future，
+[Speaker 1]:  but also makes it so like very simple to use because you really define what it has done。
+[Speaker 1]:  so if you build a function calling agent，
+[Speaker 1]:  you return a function result and not like a user，
+[Speaker 1]:  a role user with some content，
+[Speaker 1]:  which might be a function result or not。
+[Speaker 1]:  and at google eywe shipped the antigravity agent，
+[Speaker 1]:  which comes with its own sandbox。
+[Speaker 1]:  so the antii gravity remote agent in the side，
+[Speaker 1]:  the cherman IPI is powered by the same agent honest，
+[Speaker 1]:  which is used with the anti gravity product。
+[Speaker 1]:  so if you have used the IDE or the new anti gravity to that，
+[Speaker 1]:  oh，
+[Speaker 1]:  or ACI，
+[Speaker 1]:  you might have used that honus already very important here。
+[Speaker 1]:  when we talk about honus，
+[Speaker 1]:  we don't mean the same agent。
+[Speaker 1]:  the honus is basically the baggain of our agent，
+[Speaker 1]:  but it might be different between different products。
+[Speaker 1]:  so the antigravity IDE is a coding agent，
+[Speaker 1]:  so it might have a little bit of different tools or a little bit of a different system instruction。
+[Speaker 1]:  then the anani gravity agent we have in the geri API，
+[Speaker 1]:  but it's still the same haronless。
+[Speaker 1]:  meaning if we improve chmini to become better with that honewe benefit ininanani gravity，
+[Speaker 1]:  but we also benefit inside of the gerina api in with that new agent。
+[Speaker 1]:  we also introduced this an environment field，
+[Speaker 1]:  an environment here。
+[Speaker 1]:  remote is basically for that api call，
+[Speaker 1]:  your agent gets uh sandbox manage by us。
+[Speaker 1]:  meaning，
+[Speaker 1]:  if you send a request，
+[Speaker 1]:  our began starts as cloud sandbox，
+[Speaker 1]:  radiation can run code can create files，
+[Speaker 1]:  riite files um install dependencies，
+[Speaker 1]:  install your own tools or maybe call your own aps。
+[Speaker 1]:  and it's all managed and stateless on our site，
+[Speaker 1]:  meaning that you just send the api request，
+[Speaker 1]:  you don't need to manage the infrastructure and those environments stay persistent。
+[Speaker 1]:  so if you have multitturon conversation where the ancient um you set news er input，
+[Speaker 1]:  i don't know like researarch the latest taken news and create a file。
+[Speaker 1]:  and then you want to do like a photoshop interaction，
+[Speaker 1]:  you can like use the same environment from your previous term。
+[Speaker 1]:  with that new interaction，
+[Speaker 1]:  but also this means that you can share environments between different agents。
+[Speaker 1]:  so if you have like free agents working inside the same environment，
+[Speaker 1]:  they can share context through the file system，
+[Speaker 1]:  or you can like even use subagents to basically pick up a work。
+[Speaker 1]:  uh not agent has been done。
+[Speaker 1]:  and then，
+[Speaker 1]:  of course，
+[Speaker 1]:  environments are very good，
+[Speaker 1]:  but the model needs the right context and the right information or the right tools to work inside those environment。
+[Speaker 1]:  so you can provide sources。
+[Speaker 1]:  sources can be um CCS buckets，
+[Speaker 1]:  skittaberic，
+[Speaker 1]:  postories or inline files。
+[Speaker 1]:  it's very useful if you want to integrate skills。
+[Speaker 1]:  so the antii gravity agent is skills or filosystem native。
+[Speaker 1]:  i would say so if you store skills inside the skills directer，
+[Speaker 1]:  it will all to be immedally picpicked up and um be included into the system instruction。
+[Speaker 1]:  but also，
+[Speaker 1]:  if you have an agents empy five from your coding agents or from your existing agents，
+[Speaker 1]:  it will also be automatically appended to the system instruction。
+[Speaker 1]:  and then um you can create an agent because like sending a request is nice and having all of the configuration sttelacis also very good。
+[Speaker 1]:  but what if you want to share it？
+[Speaker 1]:  or what if team one builds in asian team two wants to use？
+[Speaker 1]:  um therefore，
+[Speaker 1]:  we created the agents api where you can define the base agents。
+[Speaker 1]:  so what's the underlying prain so to speak？
+[Speaker 1]:  you can define instruction，
+[Speaker 1]:  and then also the uh environment um and environment can be raw environment，
+[Speaker 1]:  like with sourources，
+[Speaker 1]:  or you can use an existing environment。
+[Speaker 1]:  so you can think about，
+[Speaker 1]:  i have some kind of a skeffolding to do where i need to install，
+[Speaker 1]:  like the kitpsc alive uh at some skills and maybe do some like senanity checks。
+[Speaker 1]:  i can use the age to create its own environment。
+[Speaker 1]:  and after the agent is done，
+[Speaker 1]:  i get back an environment。
+[Speaker 1]:  IDI can use that environment id to create the new agent。
+[Speaker 1]:  and every time i called this new agent，
+[Speaker 1]:  it will start from that already preloaded preconfigured environment。
+[Speaker 1]:  and so it's like very easy for you to use agents to build their own environments and then like to create agents out of them，
+[Speaker 1]:  which you can share with your users or with your customers without writing any terlephone without thinking about cubonates microservices，
+[Speaker 1]:  fie cricker or anything else and to make it easier for you。
+[Speaker 1]:  and for your coding actions，
+[Speaker 1]:  we created AC al，
+[Speaker 1]:  i for the chimmini AIS。
+[Speaker 1]:  so it's it's not a coding agcient。
+[Speaker 1]:  it's not gmini CI。
+[Speaker 1]:  it's really in ACI that your agent can use to call the germini api，
+[Speaker 1]:  meaning it can call none of banana，
+[Speaker 1]:  or only if you want to generate some assets，
+[Speaker 1]:  but you can also use it to create those agents iterate on those agents and improve those agent。
+[Speaker 1]:  the QR code should bring you to like the getaabrepository。
+[Speaker 1]:  and then also，
+[Speaker 1]:  we have dedicated skills for working with the interactions api and the agents api，
+[Speaker 1]:  if you want to to play around with it later。
+[Speaker 1]:  and now let's let's do some someday。
+[Speaker 1]:  most。
+[Speaker 1]:  so i'm in AI studio inside。
+[Speaker 1]:  i talk radio if you have seen or attended the google IO developer canote，
+[Speaker 1]:  you might have seen uh this already。
+[Speaker 1]:  um that's just a simple UI on top of manage agents。
+[Speaker 1]:  we managagents。
+[Speaker 1]:  we are going to look at the agent in a little bit，
+[Speaker 1]:  but it's basically a talks show radio，
+[Speaker 1]:  and that talks show um agent has access to all of the different chaerman i model，
+[Speaker 1]:  so it can generate thup nail。
+[Speaker 1]:  it can generate um speech。
+[Speaker 1]:  it can generate music。
+[Speaker 1]:  it can do research。
+[Speaker 1]:  and it's basically a one short radio generator，
+[Speaker 1]:  and we give it a try。
+[Speaker 1]:  and i want a talk show radio on whether pineapples belong on a pizza or not，
+[Speaker 1]:  and it's free to use。
+[Speaker 1]:  so if you go to the airpllet later，
+[Speaker 1]:  you can like have free day ily，
+[Speaker 1]:  use it to create your own ei talks，
+[Speaker 1]:  show radio and what happens。
+[Speaker 1]:  it's like first step，
+[Speaker 1]:  we start our environment and then the model start thinking on what it needs to do。
+[Speaker 1]:  and then the first step is like it installs our python dependencies，
+[Speaker 1]:  and it reads our skills and and it continues to work since this will take a little bit。
+[Speaker 1]:  i already ran a talxial radio on whether we should put in cereal first or look first。
+[Speaker 1]:  and the very interesting part about a talxial radio。
+[Speaker 1]:  it's not like a podcast。
+[Speaker 1]:  you ll listen to。
+[Speaker 1]:  it's really you have multiple um people like reasoning and like sharing their opinions on it，
+[Speaker 1]:  and we give it a quick listen。
+[Speaker 2]:  is there a correct physical order to preparing your breakfast bowl？
+[Speaker 2]:  or are we frting with colonary chaos？
+[Speaker 2]:  welcome to AI talk radio？
+[Speaker 2]:  i'm paul broadcasting from our london studio today。
+[Speaker 2]:  we are exploring the great breakfast debate cereal first versus milk。
+[Speaker 2]:  first，
+[Speaker 2]:  we will objectively break down the proson comes of both methods。
+[Speaker 2]:  let's go to our lines。
+[Speaker 2]:  we have david calling from boston。
+[Speaker 2]:  david，
+[Speaker 2]:  you're on the air。
+[Speaker 2]:  yeah，
+[Speaker 2]:  thanks，
+[Speaker 2]:  paul。
+[Speaker 2]:  look it。
+[Speaker 2]:  it's gotto be serial first。
+[Speaker 2]:  it's basic logic c right？
+[Speaker 2]:  cereal is the indedent dent vable。
+[Speaker 2]:  able you pour it，
+[Speaker 2]:  you see the volume，
+[Speaker 2]:  then you add note the compliment plus like if you pour drive syrial into a ball or milk，
+[Speaker 2]:  it's rashes everywhere。
+[Speaker 2]:  it's a total mess。
+[Speaker 2]:  and the msh potato analogy，
+[Speaker 2]:  you wouldn't grave in AA band and drop a lump potatoes on top。
+[Speaker 2]:  ate a striking analogy。
+[Speaker 2]:  david cleaniness and porcean control are certainly strong arguments。
+[Speaker 2]:  let's hear the counterpoint。
+[Speaker 2]:  we have sarah on the line from sydney。
+[Speaker 2]:  sarah，
+[Speaker 2]:  welcome，
+[Speaker 2]:  hi，
+[Speaker 2]:  paul。
+[Speaker 2]:  i get look，
+[Speaker 2]:  david。
+[Speaker 2]:  has it all wrong milk first。
+[Speaker 2]:  is it a total guin chchof a texture go？
+[Speaker 1]:  so if you want to play around with with yourself，
+[Speaker 1]:  self can go go a iidot studio。
+[Speaker 1]:  and on the idol studio，
+[Speaker 1]:  you have that built section on the left side，
+[Speaker 1]:  and there is a gallery，
+[Speaker 1]:  and gallery is basically prebuild applets use cases for gmini。
+[Speaker 1]:  and if you scrolled down to it，
+[Speaker 1]:  you have new build experience with，
+[Speaker 1]:  and they re's the talxture radio。
+[Speaker 1]:  if you click on it，
+[Speaker 1]:  you will find the applet。
+[Speaker 1]:  you can can remimix it，
+[Speaker 1]:  meaning。
+[Speaker 1]:  you can like adjusted。
+[Speaker 1]:  so if you don't like talxture radios，
+[Speaker 1]:  and you would rather have，
+[Speaker 1]:  i don't know some real podcaast application。
+[Speaker 1]:  you can like very easily together with chermini attrusted to your own needs。
+[Speaker 1]:  and since applets are all open in terms of code，
+[Speaker 1]:  we can also take a quick look on like how our agent ruliis and our agent this just files。
+[Speaker 1]:  so we have an agents md file inside our n environment。
+[Speaker 1]:  that file will be loaded on environment start up，
+[Speaker 1]:  which is then included into the system instruction，
+[Speaker 1]:  very basic agand，
+[Speaker 1]:  m and defile。
+[Speaker 1]:  it has all of like the instructions for our age ing to do so。
+[Speaker 1]:  it should do some research，
+[Speaker 1]:  right？
+[Speaker 1]:  some scripts for the different people generate music，
+[Speaker 1]:  generate a speech mikes，
+[Speaker 1]:  everything together。
+[Speaker 1]:  and to do all of those works，
+[Speaker 1]:  we have skills for it。
+[Speaker 1]:  so if we look into like the TDS generation，
+[Speaker 1]:  we have a school and how to run it，
+[Speaker 1]:  we have a python file that python file itself allows the germiniation to call out a gmini model。
+[Speaker 1]:  so it uses the interrections api to generate some speech，
+[Speaker 1]:  which we can then use。
+[Speaker 1]:  and that that's all takes far agent。
+[Speaker 1]:  and if you want to take that agent from the ui to like a beagand，
+[Speaker 1]:  it's really you just need to copy that file and create the agent and then use it。
+[Speaker 1]:  and if you want to play around with the agent itself inside the playground，
+[Speaker 1]:  we have uh inside the model pickers，
+[Speaker 1]:  a new agent section。
+[Speaker 1]:  so if you want to test deep research，
+[Speaker 1]:  go test deep research，
+[Speaker 1]:  but as also the antigravity agent，
+[Speaker 1]:  and on the anti gravity agent，
+[Speaker 1]:  we have six different agent templates，
+[Speaker 1]:  uh，
+[Speaker 1]:  which you can like very easily test，
+[Speaker 1]:  select and and see how it works。
+[Speaker 1]:  we go into like the the sun of one。
+[Speaker 1]:  and what i really like to do is like exploiting environment，
+[Speaker 1]:  like let's see what the agent finds out about the where it is running。
+[Speaker 1]:  we sent our prompt。
+[Speaker 1]:  and now it's not the environment should take for the first request like seven to ten seconds。
+[Speaker 1]:  and then we see the agent like doing its work。
+[Speaker 1]:  so we have some reasoning，
+[Speaker 1]:  we have so on best commandds it runs。
+[Speaker 1]:  so kid checks，
+[Speaker 1]:  uh，
+[Speaker 1]:  russian west watasi'm。
+[Speaker 1]:  i'm running on what cpu memory i have。
+[Speaker 1]:  and and we get back a response from our agent that is gruns on a buntu。
+[Speaker 1]:  um has eight BCPU sixteen gagive about mememory python installed pip instaland。
+[Speaker 1]:  then you can like really continue。
+[Speaker 1]:  well，
+[Speaker 1]:  well，
+[Speaker 1]:  let's see um，
+[Speaker 1]:  do you do we have node installed？
+[Speaker 1]:  um so you can like very easily photo up，
+[Speaker 1]:  and it just continues based on like my prompt。
+[Speaker 1]:  and and also，
+[Speaker 1]:  you have the option on the right side to download the environment。
+[Speaker 1]:  so if your agent has created some files，
+[Speaker 1]:  you want to extract out of the environment and share it can very easily download it，
+[Speaker 1]:  or there's an api for it as well。
+[Speaker 1]:  and then um what else to quickly show you again，
+[Speaker 1]:  how it works，
+[Speaker 1]:  i can make that a little bit bigger。
+[Speaker 1]:  so when you when we send the request，
+[Speaker 1]:  um we like stoart the sandbox and it loads all of our files。
+[Speaker 1]:  and then we have like this agent loop completely on our server。
+[Speaker 1]:  so when you build agents，
+[Speaker 1]:  normally a lot of times you need to manage the function calling on your client，
+[Speaker 1]:  right？
+[Speaker 1]:  you need to pass the function call，
+[Speaker 1]:  run it on somewhere and then send back the function result。
+[Speaker 1]:  and with the managed agents，
+[Speaker 1]:  it's really trust a single API call and everything runs inside that remote and box。
+[Speaker 1]:  you can also connect remote MCP service hole，
+[Speaker 1]:  run uh local MCP service inside of the environment。
+[Speaker 1]:  and um yeah，
+[Speaker 1]:  really get started ted。
+[Speaker 1]:  if you 're interesrested about um we have cregreat documentation onside of jerina API under agents with a quick start，
+[Speaker 1]:  which walks you through how to set your first request，
+[Speaker 1]:  build your first age and and get started。
+[Speaker 1]:  and then，
+[Speaker 1]:  of course，
+[Speaker 1]:  uh，
+[Speaker 1]:  installed the coding skills to have cloud cotex or whatever model you use to to help you get started。
+[Speaker 1]:  and thank you for for coming。
+[Speaker 1]:  if you have some questions。
+[Speaker 1]:  i'm like here。
+[Speaker 0]:  the。
