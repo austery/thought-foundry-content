@@ -6,13 +6,13 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=uXuQF_PPg5U
 speaker: Veritasium
 tags:
-  - random-number-generator
-  - pseudorandomness
+  - randomness
+  - pseudorandom
   - quantum-entanglement
-  - bell-test
+  - cryptography
   - monte-carlo-method
-title: 真随机为何近乎不可能：从赌博机破解到量子纠缠随机数
-summary: 视频探讨了真随机数生成的极高难度。从早期核武器研发中的蒙特卡洛模拟，到线性同余生成器与梅森旋转算法的可预测性缺陷及其在游戏与赌场中的漏洞利用，再到加密级伪随机；最终介绍了美国国家标准与技术研究院如何利用量子纠缠与贝尔测试，提纯出经数学认证的真正不可预测性。
+title: 从老虎机漏洞、蒙特卡洛到量子纠缠：探寻真正的随机性
+summary: 视频探讨了制造真正随机性的极高难度。内容从赌场老虎机伪随机漏洞与《我的世界》矿物生成机制出发，回顾了冯·诺伊曼与蒙特卡洛方法的起源，最后介绍了 NIST 如何利用纠缠光子与贝尔不等式测试生成经物理认证的真正随机数。
 insight: ''
 draft: true
 series: ''
@@ -23,26 +23,22 @@ people:
   - Stanislaw Ulam
   - John von Neumann
   - Matthew Bolan
-  - David Kaiser
-  - Pierre-Simon Laplace
   - Albert Einstein
+  - David Kaiser
 companies_orgs:
-  - Los Alamos
+  - NIST
   - IBM
   - Cloudflare
-  - National Institute of Standards and Technology
-  - University of Colorado Boulder
 products_models:
   - ENIAC
   - Minecraft
 media_books: []
 status: evergreen
 ---
-### 赌场里的异常赢家
+### 赌场老虎机异常与随机性的疑问
 
-在圣路易斯的 Lumière Place 赌场，一名男子举着手机对着一台老虎机，记录下屏幕上的每一次旋转。他玩了几轮，有赢有输，然后起身上前走开了。五分钟后，他又回到同一台机器前继续玩，但这一次，他几乎次次旋转都在赢钱。
+在圣路易斯的卢米埃尔广场赌场（Lumière Place Casino），一名男子把手机举在老虎机前，录制屏幕上的转动画面。他玩了几局，有赢有输，随后起身走开。五分钟后，他返回同一台机器前继续下注，但这一次他几乎每转必赢。赌博不到一个小时，他走出赌场时便赚了大约一万美元。
 
-赌博不到一个小时，他带着大约 10,000 美元的收益走出了赌场。
 <details>
 <summary>Original English</summary>
 - At the Lumière Place
@@ -64,9 +60,8 @@ roughly $10,000 richer.
 (dramatic music)
 </details>
 
-在密苏里州、伊利诺伊州和加利福尼亚州的至少 10 家赌场中，同样的事情接连发生。赌客们会在一台老虎机前玩上一会儿，然后离开，几分钟后返回并开始赢钱。调查人员介入调查，但当他们检查这些老虎机时，机器看起来全部运转正常。
+在密苏里州、伊利诺伊州和加利福尼亚州的至少十家赌场里，同样的事情接连发生。赌徒们会先在老虎机上玩一会儿然后离开，几分钟后返回便开始连续赢钱。调查人员介入调查，但检查老虎机后发现设备似乎都运转正常。
 
-于是他们把注意力转向监控录像，并发现了一些诡异之处。这些玩家回来后，下注方式与普通赌徒截然不同。他们会把手悬停在旋转按钮上方等待，然后在一个极其特定的瞬间按下去，仿佛他们知道什么时候按下去就能赢。
 <details>
 <summary>Original English</summary>
 At least 10 casinos across
@@ -79,6 +74,12 @@ they would return and start winning.
 Investigators were brought in,
 but when they examined the slot machines,
 they all seemed to be working fine.
+</details>
+
+于是他们把注意力转向监控录像，发现了一些奇怪的现象。当这些玩家返回时，他们的操作方式不同于普通赌徒。他们会把手悬停在旋转按钮上方，等待片刻，然后在极具特异性的时刻按下，仿佛事先知道何时按下才能获胜。
+
+<details>
+<summary>Original English</summary>
 So they turned their attention
 to the security footage,
 and they noticed something strange.
@@ -90,11 +91,8 @@ and then press at oddly specific moments
 as if they knew when to press to win.
 </details>
 
-也许这说得通。或许真有某种方法可以预测接下来会出现什么，因为那些转轮的结果实际上是由机器内部的一台计算机决定的。赌博固然是个糟糕的主意，但赌场为研究随机性提供了一个理想的场所，因为从理论上讲，那台计算机在每次旋转时都会使用一个随机数。
+这或许合乎逻辑：也许存在某种预测后续结果的方法，因为那些滚轮转动的结果实际上是由机身内部的计算机决定的。赌博固然不可取，但赌场为研究随机性提供了一个理想场所，因为从理论上讲，计算机的每次旋转都应该使用一个随机数。然而，这些数字真的是随机的吗？这个看似简单的问题，竟然将《我的世界》（Minecraft）中寻找钻石、早期核武器的研发以及整个数字世界的安全紧密联系在一起。这是一个关于制造真正的随机性几乎不可能实现的故事。
 
-那么，那些数字真的是随机的吗？
-
-这个看似简单的问题，事实证明与在《我的世界》（Minecraft）中寻找钻石、第一批核武器的研制，乃至整个数字世界的安全性都紧密相连。这是一个关于创造真正随机性近乎不可能的视频。
 <details>
 <summary>Original English</summary>
 And maybe that makes sense.
@@ -122,11 +120,10 @@ the near impossibility
 of creating true randomness.
 </details>
 
-### 核武器研发与蒙特卡洛方法
+### 核反应模拟与蒙特卡洛方法的诞生
 
-早在 20 世纪 40 年代，物理学家就发现概率在核弹内部发生的过程中扮演着极其重要的角色。其原理大致如下：以一个铀-235 核心为例，当中子击中 U-235 原子核时，会引发原子核裂变，从而释放出能量以及大约两到三个额外的中子。如果平均每次裂变能引发一次以上的后续裂变，就会产生失控的链式反应。
+早在20世纪40年代，物理学家就发现几率在核弹内部发生的过程中扮演着极其重要的角色。其机制大致如下：以一块铀-235核材料为例，当中子撞击U-235原子核时，可能导致原子核裂变，从而释放能量以及两到三个新的中子。如果平均每次裂变能引发超过一次的后续裂变，就会产生失控的链式反应。
 
-但这是否会发生，取决于那些中子所走的路径。每个中子在击中原子核前能移动多远？它是弹开、被吸收，还是会引发另一次裂变？到 1945 年，在洛斯阿拉莫斯工作的科学家们已经测算出了这些事件各自发生的几率，但这些几率会根据中子的速度及其穿过的物质等条件而发生变化。面对数以万亿计的中子，可能性实在太多，根本无法逐一进行计算。
 <details>
 <summary>Original English</summary>
 Back in the 1940s,
@@ -144,6 +141,12 @@ more than one more split,
 you get a runaway chain reaction.
 (explosion roars)
 (ground rumbling)
+</details>
+
+但这能否发生取决于这些中子穿行的路径。每个中子在撞击原子核前飞行了多远？它是被弹开、被吸收，还是引发了另一次裂变？到1945年，洛斯阿拉莫斯（Los Alamos）的科学家已经测量出了这些事件各自发生的几率，但这些几率会随着中子的速度以及穿行介质的变化而改变。面对数以万亿计的中子，可能性实在太多，根本无法逐一精确计算。
+
+<details>
+<summary>Original English</summary>
 But whether that happens
 depends on the path those neutrons take.
 How far does each one travel
@@ -164,9 +167,8 @@ to calculate one by one.
 (dramatic music)
 </details>
 
-当时致力于解决这个问题的数学家之一是斯塔尼斯瓦夫·乌拉姆（Stanislaw Ulam）。但在 1946 年 1 月的一个早晨，乌拉姆醒来后无法说话。那是脑炎，一种几乎要了他命的脑部炎症。幸运的是他活了下来，但康复过程十分缓慢。于是他在医院里度过了数周，玩了大量的单人纸牌游戏，并且开始琢磨：“赢下一局游戏的几率有多大？”
+研究该问题的数学家之一是斯塔尼斯瓦夫·乌拉姆（Stanislaw Ulam）。但在1946年1月的一个早晨，乌拉姆醒来后无法说话。他患上了脑炎，这种脑部炎症差点要了他的命。幸运的是他挺了过来，但康复过程漫长。他在医院度过了数周，期间经常玩纸牌接龙，并开始思考：“赢得一局游戏的几率究竟有多大？”
 
-起初，这听起来可能像个简单的问题，但一副 52 张的扑克牌有 52 的阶乘种洗牌方式，也就是大约 8 乘以 10 的 67 次方种不同的排列。而这里的每一种洗法所展开的游戏过程都截然不同。乌拉姆花了很多时间试图用解析法算出答案，却一无所获。
 <details>
 <summary>Original English</summary>
 One of the mathematicians
@@ -184,6 +186,12 @@ a lot of solitaire,
 and he started to wonder,
 "What are the chances of winning a game?"
 (light curious music)
+</details>
+
+起初这听起来可能是一个简单的问题，但一副52张的扑克牌有52的阶乘种洗牌方式，也就是大约8乘以10的67次方种不同的排列方式，而且每一种洗牌牌局的发展都会截然不同。乌拉姆花了很多时间试图通过解析方法求出答案，却一无所获。随后他产生了一个简单得多的想法：“我想知道，一种更实用的方法是否是直接摆牌，比如说摆100次，纯粹观察并统计成功通关的次数。”
+
+<details>
+<summary>Original English</summary>
 Now, at first, that might
 sound like a simple question,
 but a deck of 52 cards can be
@@ -197,13 +205,6 @@ Now, Ulam spent a lot of
 time trying to work out
 the answer to his question analytically,
 and he got nowhere.
-</details>
-
-随后他想到了一个简单得多的点子：“我琢磨着，更实用的方法会不会是把它排开，比方说 100 次，然后直接观察并统计获胜局数的数量。”这能为他提供答案的某种统计近似。假设你在 100 局中赢了 8 局，那么你整体的获胜几率可能就在 8% 左右。
-
-就在那一刻，乌拉姆意识到他可以将完全相同的想法应用于中子。因此，他无需尝试计算每条可能的路径，只需从 100 个中子开始，利用随机数去模拟每一个中子会发生什么。
-<details>
-<summary>Original English</summary>
 But then he had a much simpler idea.
 "I wondered whether a
 more practical method
@@ -211,6 +212,12 @@ more practical method
 it out, say, 100 times
 "and simply observe and count the number
 "of successful plays."
+</details>
+
+这能为他提供某种统计上的近似答案。比方说，如果100局中赢了8局，那么整体获胜的概率大概就在8%左右。正是在那一刻，乌拉姆意识到他可以将完全相同的想法应用于中子研究。他不必尝试计算每一种可能的路径，而是可以只从100个中子开始，利用随机数来模拟每个中子将会发生的情况。
+
+<details>
+<summary>Original English</summary>
 That would give him some sort of
 statistical approximation of the answer.
 So say you win 8 games out of a 100.
@@ -219,21 +226,18 @@ are probably around 8%.
 And that's when Ulam realized
 he could use exactly the same idea,
 but for neutrons.
-</details>
-
-假设一个中子击中了一个原子。如果我掷出 1、2 或 3，它会从原子核上弹开；如果掷出 4 或 5，它会引发原子核裂变；如果掷出 6，它就会被吸收。接着，我只需用更多的随机数跟踪该中子及其产生的任何其他中子的后续情况，以此决定它们的命运。
-
-这只是一些作为例子的几率。在真实的模拟中，科学家们使用的是他们已测出的概率，来决定哪些随机数对应哪些结果。在每次相互作用之后，中子的速度或方向也可能发生变化，因此在下一步中，他们会采用对应新情况的概率，再使用一个随机数，继续追踪后续发展。通过重复这一过程，他们可以观察所有这些相互作用累加起来的结果。如果中子数量持续增长，链式反应就会爆发；但如果损失的中子多于产生的中子，反应就会逐渐平息。
-
-因此，仅通过模拟所有可能路径中极小的一部分，乌拉姆就能估算整个核链式反应的表现模式。
-<details>
-<summary>Original English</summary>
 So instead of trying to calculate
 every possible path,
 he could just start
 with a hundred neutrons
 and use random numbers to simulate
 what would happen to each of them.
+</details>
+
+假设一个中子撞击了一个原子：如果掷出1、2或3，它从原子核弹开；如果掷出4或5，它导致原子核裂变；如果掷出6，它被吸收。接着只需追踪该中子及其产生的任何其他中子的后续状态，并使用更多随机数来决定它们的命运。
+
+<details>
+<summary>Original English</summary>
 So say a neutron hits an atom.
 If I roll a one, a two, or a three,
 it bounces off the nucleus.
@@ -245,6 +249,12 @@ happens to that neutron
 and any other neutrons that it produces
 using more random numbers,
 and that will decide their fate.
+</details>
+
+这些只是举例说明的概率数值。在实际模拟中，科学家们使用已经测得的概率来决定哪些随机数对应哪些结果。每次相互作用之后，中子的速度或方向也可能发生改变。因此在下一步中，他们会采用对应其新状态的概率，使用另一个随机数，并继续追踪后续发展。通过重复这一过程，他们可以看到所有相互作用累加起来的效果：如果中子数量持续增加，链式反应就会爆发；但如果损失的中子多于产生的中子，反应就会自行熄灭。
+
+<details>
+<summary>Original English</summary>
 Now those are just example odds.
 In the real simulations,
 the scientists used probabilities
@@ -267,20 +277,17 @@ If the number of neutrons keeps growing,
 the chain reaction takes off.
 But if more are lost than are produced,
 it fizzles out.
+</details>
+
+因此，仅通过模拟所有可能路径中极小的一部分，乌拉姆就能估算出整个核链式反应的演化行为。然而，纯靠人工完成所有这些计算似乎是不可能的。幸运的是，同为数学家兼洛斯阿拉莫斯顾问的约翰·冯·诺伊曼（John von Neumann）当时一直在使用世界上最早的电子计算机之一——埃尼阿克（ENIAC）。在1947年3月，冯·诺伊曼推导出了如何让计算机在短短五个小时内追踪100个中子及其后代经历的数千次碰撞。
+
+<details>
+<summary>Original English</summary>
 So by simulating just a tiny
 fraction of the possible paths,
 Ulam could estimate how an
 entire nuclear chain reaction
 would behave.
-</details>
-
-### ENIAC 与平方取中法
-
-但是靠人工完成所有这些计算似乎是不可能的。幸运的是，同为数学家兼洛斯阿拉莫斯顾问的约翰·冯·诺依曼（John von Neumann）一直在使用世界上最早的电子计算机之一——ENIAC。在 1947 年 3 月，他推导出了如何让计算机在短短 5 个小时内跟踪 100 个中子及其后代经历成千上万次碰撞的过程。
-
-但 ENIAC 无法通过掷骰子来决定中子会遭遇什么。当时，研究人员需要随机数时，会使用像这样的随机数字表书籍。而且 ENIAC 也没有足够的内存来存储它所需要的全部随机数。因此，冯·诺依曼想出了一种惊人简单的方法，让 ENIAC 自己生成随机数。
-<details>
-<summary>Original English</summary>
 But doing all of these
 calculations by hand
 seemed impossible.
@@ -293,6 +300,14 @@ he worked out how it
 could follow 100 neutrons
 and their descendants through thousands
 of collisions in just five hours.
+</details>
+
+### 平方取中法与伪随机数的陷阱
+
+但是 ENIAC 无法通过掷骰子来决定中子的命运。在那个时代，研究人员需要随机数时，使用的是像这种印满随机数字的书籍。而 ENIAC 根本没有足够的内存来存储它所需要的全部随机数。因此，冯·诺伊曼想出了一种出人意料的简单方法，让 ENIAC 能够自行生成随机数。
+
+<details>
+<summary>Original English</summary>
 But the ENIAC couldn't roll a die
 to decide what would happen to a neutron.
 At the time,
@@ -309,11 +324,8 @@ for the ENIAC to generate
 its own random numbers.
 </details>
 
-假设我想生成一组四位随机数。我们的做法是，先选择一个数字作为起点，这被称为“种子”（seed）。比如我们试试 2,137。接下来要做的是对它进行平方，2,137 的平方是 4,566,769。现在我要取这个数字中间的四位数，但在此之前，我必须在最前面加一个 0，因为起初我们得到的是一个七位数。
+假设我想生成一组随机的四位数。我们的做法是先选定一个数字作为“种子”（seed）。比如我们试试 2137。接下来要做的是将其平方：2137 的平方是 4,566,769。现在我要取这个数字中间的四位数，但在此之前必须在前面补一个零，因为初始结果是一个七位数。我不会使用边缘的数字，因为它们实际上更容易预测。末尾的两位数仅取决于种子的末尾，因为 37 的平方以 1369 结尾；因此任何以 37 结尾的数，其平方都会以 69 结尾，这就是为什么我们要去掉边缘的数字。此外，2100多范围内的每个种子平方后都在440万到490万之间，所以它们都以 0 和 4 开头，因此也可以去掉开头的数字。
 
-我不会使用边缘的数字，因为它们的可预测性更高。最后两位数仅取决于种子的末尾，因为 37 的平方以 1,369 结尾。因此，任何以 37 结尾的数，其平方都会以 69 结尾。这就是为什么我们要舍弃这里的这几个数字。同样，2,100 多范围内的每个种子平方后都在 440 万到 490 万之间，因此它们都以 0 和 4 开头，所以这部分也可以舍弃。
-
-但是中间的数字会受到种子中每个数字的影响。因此，5,667 将成为序列中的下一个数。如果我们对其进行平方，得到 32,114,889。现在我忽略两端的各两位数，这样你就可以一直继续下去。
 <details>
 <summary>Original English</summary>
 Let's say I want to generate
@@ -345,6 +357,12 @@ Also, every seed in the
 to somewhere between 4.4 and 4.9 million.
 So they all start with a zero and a four,
 so we can get rid of that too.
+</details>
+
+但是中间的数字会受到种子中每个数位的影响。因此，序列中的下一个数字将是 5667。如果我们把 5667 平方，会得到 32,114,889。现在去掉两端的两位数，就可以一直这样计算下去。观察这些数字，表面上看不出明显的规律，但看看如果继续算下去会发生什么：从 2137 开始，经过 43 步后得到 4100，接着是 8100、6100、2100，然后再次出现 4100。序列陷入了这个死循环。从这里开始，生成器将无限循环生成这四个相同的数字，并且所有四位数种子中有接近三分之二最终都会落入完全相同的循环中。
+
+<details>
+<summary>Original English</summary>
 But the middle digits get a contribution
 from every digit in the seed.
 So 5,667 is going to be the
@@ -354,13 +372,6 @@ Now I disregard the two
 digits at either end,
 and you can just keep going.
 (upbeat music)
-</details>
-
-看着这些数字，并没有明显的规律，但注意看如果我继续算下去会发生什么。从 2,137 开始，经过 43 步后，我得到了 4,100，然后是 8,100，再然后是 6,100，接着是 2,100，然后又是 4,100。序列陷入了这个循环之中。
-
-从这里开始，生成器将一遍又一遍、永久地生成这四个相同的数字，而几乎三分之二的四位种子最终都会落入完全相同的循环中。其他种子则会以 0 告终，而一旦落到 0，之后跟随的每个数字也都是 0。近五分之一的起始值最终都会走向这里。事实上，如果你尝试所有可能的四位起始值，每一个序列最终都会卡在仅有的八个陷阱之一中。
-<details>
-<summary>Original English</summary>
 Looking at these numbers,
 there's no obvious pattern,
 but watch what happens if I keep going.
@@ -378,6 +389,12 @@ and nearly two-thirds
 of all four digit seeds
 end up in this exact loop.
 (dramatic music)
+</details>
+
+另一些种子最终会归零，而一旦变成零，之后生成的所有数字也全都是零。近五分之一的起始值都会落入这种结局。事实上，如果尝试所有可能的四位起始值，每一个序列最终都会卡在仅有的八个陷阱之一中。冯·诺伊曼深知这些陷阱是一个严重的问题。因此在第一次 ENIAC 模拟中，团队实际上使用的是八位数而不是四位数，这样在发生循环前能够生成长得多的序列。他们还人工对前2000个数字进行了随机性统计检验。随后，为了避免遭遇意外循环的风险，他们让 ENIAC 在计算完这2000个数字后重新从初始种子开始。
+
+<details>
+<summary>Original English</summary>
 Others end up at zero,
 and once they do every number
 that follows is also zero.
@@ -388,15 +405,6 @@ four digit starting value,
 every single sequence
 eventually gets stuck
 in one of just eight traps.
-</details>
-
-冯·诺依曼深知这些陷阱是一个严重的问题。因此在 ENIAC 的第一次模拟中，团队实际上使用了八位数而不是四位数，以便在陷入循环前生成更长的序列。他们还手动对前 2,000 个数字进行了随机性的统计检验。接着，为了避免遭遇意外循环的风险，他们将 ENIAC 编程为在运行完这 2,000 个数字后，直接从原始种子重新开始。
-
-1948 年春天，ENIAC 终于运行了人类历史上第一批由计算机执行的中子行为模拟。冯·诺依曼在给乌拉姆的信中写道：“结果非常喜人，该方法显然取得了 100% 的成功。”
-
-这种方法后来被称为蒙特卡洛方法，得名于摩纳哥的蒙特卡洛，因为乌拉姆的一位叔叔喜欢在那里赌博。如今，它已成为统计学和科学计算中最重要的工具之一。
-<details>
-<summary>Original English</summary>
 Now, von Neumann knew that these traps
 were a serious problem.
 So for the first ENIAC simulation,
@@ -413,6 +421,12 @@ they programmed the ENIAC to
 restart from the original seed
 after it had got through
 these 2,000 numbers.
+</details>
+
+1948年春，ENIAC 终于完成了首次利用计算机对中子行为的模拟。冯·诺伊曼在给乌拉姆的信中写道：“结果非常可喜，该方法显然获得了百分之百的成功。”这种方法后来被称为蒙特卡洛方法（Monte Carlo method），得名于摩纳哥的蒙特卡洛，乌拉姆的叔叔曾喜欢在那里赌博。如今，它已成为统计学与科学计算中最重要的工具之一。
+
+<details>
+<summary>Original English</summary>
 And in the spring of 1948,
 the ENIAC finally ran the first
 computerized simulations
@@ -430,14 +444,8 @@ most important tools
 in statistics and scientific computing.
 </details>
 
-### 伪随机数的三大缺陷
+然而，这一系列数字并非真正的随机。如果你以相同的种子开始，每次都会得到完全相同的序列。因此它们被称为“伪随机数”（pseudorandom numbers），但这并未妨碍它们发挥巨大作用。随着蒙特卡洛方法传播到洛斯阿拉莫斯之外，对伪随机数的需求也水涨船高。尽管如此，正如冯·诺伊曼戏谑所言：“任何考虑用算术方法生成随机数的人，当然都处于堕落状态。”因为伪随机数带来了三大挑战：第一，序列可能陷入短周期循环；第二，即使看起来随机的序列也可能潜藏模式；第三，如果有人知道了种子，就能推算出其后的每一个数字——它们是可预测的。
 
-不过，这串数字并不是真正的随机。如果你以相同的种子开始，每次都会得到完全相同的序列。因此它们被称为“伪随机数”（pseudorandom numbers），但这并没有妨碍它们的实用价值。随着蒙特卡洛方法传播到洛斯阿拉莫斯之外，对伪随机数的需求也随之扩散。
-
-尽管如此，正如冯·诺依曼所开的玩笑：“任何考虑用算术方法生成随机数字的人，当然都处于一种有罪的状态。”因为伪随机数伴随着三大主要挑战：
-第一，序列可能会陷入这种简短的循环；
-第二，即便看起来随机的序列也可能潜藏模式；
-第三，如果有人知道了种子，他们就能推导出随后的每一个数字——它们是可预测的。
 <details>
 <summary>Original English</summary>
 Now, this sequence of
@@ -467,14 +475,14 @@ number that followed.
 They were predictable.
 </details>
 
-### 《我的世界》与线性同余生成器
+### 《我的世界》与线性同余生成器（LCG）的破绽
 
->> 所以，你得教我怎么找到这些钻石了。
->> 行。走吧。
->> 这位是马修·博兰（Matthew Bolan），《我的世界》专家兼多伦多大学数学系三年级博士生。
-好，那我就跟着你走了，先生。如果你以前没玩过《我的世界》，钻石可是件大事。我不知道我有没有做过一整套钻石装备。
->> 我们今天就来改变这一点。
->> 每一个《我的世界》世界都是由区块（chunks）构成的。它们是在 X 方向上宽 16 个方块、Z 方向上宽 16 个方块的区域。在我们玩的这个版本中，每个区块在地下某处最多只会生成单单一矿脉的钻石矿石。
+- 那么，你得给我展示一下怎么挖到这些钻石了。
+- 好，没问题。
+- 这位是马修·博兰（Matthew Bolan），《我的世界》专家兼多伦多大学数学系三年级博士生。好的，先生，我跟着你走。如果你之前没玩过《我的世界》，钻石可是非常重要的物资。我不知道我自己有没有凑齐过一整套钻石装备。
+- 我们今天就要改变这一点。
+- 每一个《我的世界》世界都是由区块（chunk）构成的。它们是在 X 轴方向宽16个方块、在 Z 轴方向宽16个方块的区域。在我们的版本中，每个区块在地下某处最多只生成一条钻石矿脉。
+
 <details>
 <summary>Original English</summary>
 - So, you got to show me how
@@ -503,16 +511,17 @@ below the surface.
 (bright music)
 </details>
 
->> 好的，那我们要找什么？
->> 我们要找粘土块或者沙砾堆。你要做的是打开 F3 调试屏幕，确定哪个方向是 Z 轴正方向。在这个例子中是这边。对于粘土，你要加 3。这是中心，我们朝 Z 轴正方向数一、二、三。现在如果我们在下面挖掘，除非被基岩之类的东西挡住，或者下面正好有个空洞导致无法生成，否则在这个方块的正下方一定会有钻石矿石。
->> 我们来试试看。
->> 好的。
->> 哇，不可能吧！
->> 你挖到了吗？
->> 挖到了。我拿到了 8 块。
->> 拿到 8 块了！漂亮！
->> 我拿到 8 块了。哇，我发财了。谢谢你，马修。
->> 好的，好的。
+好，那我们要找什么？
+- 我们要找黏土斑块或者沙砾斑块。你要做的是调出 F3 调试屏幕，确定正 Z 轴的方向。在当前情况下就是这边。针对黏土，你往前加三格。这里是中心点，我们在正 Z 轴方向走一、二、三格。现在如果我们往这里向下挖掘，除非被基岩之类的方块挡住，或者底下有个无法生成的洞穴，否则在这个方块正下方就会有钻石矿石。
+- 咱们来试一试。
+- 好的。
+- 哇，太神了。
+- 挖到了吗？
+- 挖到了，我拿到了八个。
+- 挖到八个！太棒了！
+- 八个钻石，我发财了。谢谢你，马修。
+- 好嘞，好嘞。
+
 <details>
 <summary>Original English</summary>
 Okay, so what are we looking for?
@@ -543,11 +552,8 @@ Thank you, Matthew.
 - Okay, okay.
 </details>
 
-在我们玩的这个版本的《我的世界》中，游戏使用一种算法生成伪随机数，以此决定粘土和钻石等资源的出现位置。其原理大致如下：
+在我们玩的这个《我的世界》版本中，游戏使用一种算法生成伪随机数，用以决定黏土和钻石等资源出现在何处。其运作原理大致如下：假设我拿一个有七个刻度的转盘，上面的数字从 0 到 6。我们要做的操作是从 1 开始，然后乘以某个数字，比如 3。1 乘以 3 得 3，所以把指针拨到 3。接着我们再把 3 乘以 3 得到 9，但转盘上只有七个位置，所以必须绕圈循环。实际上我们所做的是用 9 除以 7，余数是 2，所以指针绕回到了 2。这种绕圈回旋的模式被称为模运算（modular arithmetic），或者简称为 mod。
 
-假设拿一个有 7 个位置的轮盘，标有从 0 到 6 的数字。我们要做的，是从 1 开始，然后乘以某个数字。在这个例子中设为 3。1 乘以 3 得 3，所以我们将指针移到 3。现在我们再把 3 乘以 3，得到 9；但这个轮盘上只有 7 个位置，所以我们必须绕圈回绕。本质上，我们做的是将 9 除以 7，得出余数为 2。因此我们绕回圈内，移到 2。这种绕圈回绕的模式被称为模运算（modular arithmetic），或者简称为 mod。
-
-现在我们继续：2 乘以 3 是 6，移动到 6；6 乘以 3 是 18，18 除以 7 得 2 余 4，所以走到 4；4 乘以 3 是 12，除以 7 的余数是 5；5 乘以 3 是 15，除以 7 的余数是 1。这样一来，我们在开始重复之前，遍历了除 0 以外的每一个数字。
 <details>
 <summary>Original English</summary>
 - In this version of
@@ -579,6 +585,12 @@ So we're going to wrap
 around and go to two.
 This kind of wrapping-around pattern
 is called modular arithmetic, or just mod.
+</details>
+
+现在继续算：2 乘以 3 得 6，指针移到 6。接着 6 乘以 3 得 18；18 除以 7 商 2 余 4，指针移到 4。4 乘以 3 得 12；12 除以 7 余数是 5。5 乘以 3 得 15；15 除以 7 余数是 1。这样在开始重复之前，我们遍历了除 0 以外的每一个数字。这种算法的公式形式如下：当前数字与下一个数字之间存在简单的线性关系，但取模步骤只保留除以 M 后的余数。因此数值并没有沿着一条直线持续上升，而是绕回循环，落在这些平行的对角线上。这是一种结合了模运算（也称为同余）的线性规则。
+
+<details>
+<summary>Original English</summary>
 And now we keep going.
 So two times three is six.
 So we move to six.
@@ -596,15 +608,6 @@ So what we've done is we've
 gone through every number
 except for zero before
 we started to repeat.
-</details>
-
-这种算法的公式看起来像这样。在当前数字与下一个数字之间存在简单的线性关系，但模运算步骤仅保留除以 M 后的余数。因此，数值并非沿一条直线向上延伸，而是回绕落下，分布在这些平行的对角线上。这是一种结合了模运算（也称为同余）的线性规则。
-
-因此，这类伪随机数生成器得名为“线性同余生成器”，通常缩写为 LCG（Linear Congruential Generators）。
-
-使用更大的数值时，LCG 可以在重复前生成极其漫长的数字序列。20 世纪 60 年代，IBM 开发了一个名为 RANDU 的生成器，它被内置在 IBM 的科学软件中，用于从放射性衰变到 NASA 天空实验室（Skylab）空间站机载仪器的各种模拟。RANDU 在重复前可以生成超过 5 亿个数字，因此至少解决了一个问题。
-<details>
-<summary>Original English</summary>
 The formula for this kind of
 algorithm looks like this.
 There's a simple linear relationship
@@ -618,6 +621,12 @@ falling along these parallel diagonals.
 So it is a linear rule
 using modular arithmetic,
 also called congruences.
+</details>
+
+因此，这类伪随机数生成器得名为线性同余生成器（Linear Congruential Generators），更常被称为 LCG。通过使用大得多的数值，LCG 在重复之前可以生成极长的数字序列。在20世纪60年代，IBM 开发了一种名为 RANDU 的生成器。它被收录在 IBM 的科学计算软件中，用于各种模拟运算，从放射性衰变到 NASA 天空实验室空间站上的仪器都有应用。RANDU 在重复前可以生成超过5亿个数字，因此至少解决了一个问题。
+
+<details>
+<summary>Original English</summary>
 So, these kinds of
 pseudorandom number generators
 got the name linear
@@ -640,11 +649,8 @@ so at least that was
 one problem dealt with.
 </details>
 
-但序列长并不一定代表质量好。看看如果我们将每三个连续数字作为三维空间中的坐标绘制出来会发生什么。如果这些数字表现得相互独立，我们会预期这些点像模糊的云团一样充满整个立方体。从这个角度看，它们确实似乎是这样分布的，从大多数角度看也是如此。
+但序列长并不一定意味着质量好。看看如果我们把每三个连续的数字作为三维空间中的坐标绘制出来会发生什么：如果这些数字彼此独立，我们期望这些点会像毛茸茸的云团一样填满整个立方体。从这个角度看，它们确实很像，而且从大多数角度看也是如此。但如果你以特定方式旋转立方体，就会发现它们实际上排列在贯穿立方体的15个平面层上。立方体中存在巨大的空隙，RANDU 永远不会在其中落点。事实证明，由于那种线性关系的存在，这是所有 LCG 都无法避免的特征。第二个数字由第一个计算得出，第三个由第二个依据完全相同的规则计算得出，因此这三个数字由一个线性方程联系在一起。在三维空间中，线性方程描述的是一个平面，而取模运算则产生了一系列相互平行的平面。
 
-但如果你恰到好处地旋转这个立方体，就会发现它们实际上整齐地排列在穿过立方体的 15 个平面上。其中存在巨大的空隙，RANDU 永远不会在其中放置任何点。事实证明，由于那种线性关系的存在，这是所有 LCG 都无法避免的特征。第二个数字由第一个数字计算得出，第三个数字又按照完全相同的规则由第二个数字计算得出，因此这三个数字都被同一个线性方程联系在一起。在三维空间中，线性方程描述的是一个平面，而取模步骤则创建了一系列平行平面。
-
-RANDU 对参数的具体选择让这种模式显得格外刺眼，但其他 LCG 在这方面的表现要好得多。在 20 世纪 90 年代，Java 采用了一种加入常数项的生成器，使用了更好的乘数和更大的模数。它的序列在重复前需要经历超过 281 万亿步。如果我们用同样的方式绘制其输出结果，就会得到这样一幅图。虽然这些平面实际上依然存在，但我们看不出来了，因为它们紧密地贴在一起，使得这些点大致呈现为一团随机的云。至此，第二个问题得到了解决。
 <details>
 <summary>Original English</summary>
 But a long sequence doesn't
@@ -678,6 +684,12 @@ And in three dimensions,
 a linear equation describes a plane,
 and the mod step creates a
 series of parallel planes.
+</details>
+
+RANDU 选取的特定数值使得这种规律格外明显，但其他 LCG 在这方面表现要好得多。在20世纪90年代，Java 采用了一种加入常数项的生成器，它使用了更好的乘数和更大的模数。其序列需要超过281万亿步才会出现重复。我们也可以用同样的方法绘制其输出，得到的结果是这样的：虽然那些平面仍然存在，但我们肉眼无法分辨，因为它们排列得非常密集，使得这些点大致看起来就像一团随机的云。至此，第二个问题得到了处理。
+
+<details>
+<summary>Original English</summary>
 RANDU's particular choice of numbers
 made that pattern especially obvious,
 but other LCGs are much better at this.
@@ -695,19 +707,15 @@ because they're so closely packed together
 that the points more or less
 look like a random cloud.
 So that is problem two dealt with.
-</details>
-
->> （吸气）
->> 兄弟。
->> 职业风险。
->> 这个版本的《我的世界》是用 Java 编写的。因此在游戏历史的大部分时间里，它都使用 Java 的 LCG 来确定给定区块中资源的分布位置。但在生成不同资源时，《我的世界》并没有使用完全独立的起始数字。相反，它采用了相同的底层种子，并为每种资源加上不同的固定数值。对于钻石和河流粘土，这两个起始数字仅仅相差 3。
-
-Java 随后在使用这些种子前对其进行了修改，因此差值不再总是 3，但在大多数世界中，它都会落入少数几个可预测的数值之一。由于它们经过了相同的 LCG 处理，用来选择它们位置的数字也是相互关联的。如果对比这些结果，其中共有的未知部分就会被抵消掉。因此，我根本不需要知道这个《我的世界》世界的原始种子，粘土块的位置就足以告诉我该去哪里找钻石。马修在他的频道上有一期非常精彩的视频，更详细地讲解了这一原理。我们已将其链接放在简介中，想看的话可以去看看。
-<details>
-<summary>Original English</summary>
 (Gregor gasps)
 - Dude.
 - Occupational hazard.
+</details>
+
+这个版本的《我的世界》是用 Java 编写的。因此在游戏历史的大部分时间里，它都使用 Java 的 LCG 来决定特定区块中资源的分布。然而，当《我的世界》生成不同的资源时，使用的并不是完全独立的起始数值。相反，它采用相同的底层种子，并为每种资源加上不同的固定数值。对于钻石和河床黏土而言，两者的起始数值仅仅相差 3。Java 在使用这些种子前又对其进行了变换，因此差值不再总是固定为 3，但在大多数世界中，它都会落入少数几个可预测的数值之一。并且由于它们经过的是同一个 LCG 处理，用于决定其位置的数字之间存在关联。如果对比结果，未知的共享部分就会被抵消。因此我根本不需要知道这个《我的世界》世界的原始种子，仅凭黏土斑块的位置就足以告诉我该去哪里找钻石。马修的频道里有一个专门的精彩视频，更详细地讲解了这一机制的工作原理，如果大家想看，我们已经把链接放在了简介中。
+
+<details>
+<summary>Original English</summary>
 - This edition of
 Minecraft is coded in Java.
 So for most of the game's history,
@@ -749,13 +757,8 @@ if you want to go check it out.
 (explosion rumbles)
 </details>
 
-但还有一个更根本的问题：输出本身就能泄露足够的信息，从而预测出接下来的内容。
+但还有一个更根本的问题：输出结果本身会泄露足够的信息，从而让人预测接下来会发生什么。Java 的 LCG 维护着一个由48位二进制数字构成的内部状态数，Java 的 LCG 正是用它来生成序列中的下一个数。但当它输出一个整数时，实际上暴露了其中的32位，仅保留了16位隐藏信息。由于是二进制，每一位只能是 0 或 1，因此总共只有 65,536 种可能的取值。这听起来可能很多，但计算机可以拿它们跟生成器的紧随其后的下一次输出进行比对测试，最终只有一种取值能够匹配。这样一来，你就能获知完整的48位内部数值；而一旦获知该数值，你就能推算出后续的所有数字。所有 LCG 实际上都是如此：它们能够产生没有明显模式的极长序列，但其简单的数学结构依然使其具备可预测性。
 
-Java 的 LCG 会维护一个由 48 位二进制数字构成的内部状态值，Java 的 LCG 正是用它来生成序列中的下一个数字。但当它生成一个整数输出时，实际上会暴露其中的 32 位，只留下 16 位处于隐藏状态。由于是二进制，每一位只能是 0 或 1，因此总共只有 65,536 种可能的取值。
-
-这听起来或许不少，但计算机可以对照生成器的紧接着的下一个输出对这些值进行验证，并且只有一个能够匹配。这样一来，你就能获知完整的 48 位内部数值；一旦知晓了它，你就能计算出随后的每一个数字。
-
-对于所有的 LCG 而言其实都是如此。它们能生成极其漫长且没有明显规律的序列，但简单的数学结构仍然使其具有可预测性。
 <details>
 <summary>Original English</summary>
 But there is a more fundamental problem.
@@ -791,16 +794,17 @@ but their simple mathematical structure
 still makes them predictable.
 </details>
 
->> 就像 LCG，它们并不好用，会引发各种各样的问题，非常容易被利用。它们只适合用在类似电子游戏这种场景下，你只需要一个快速而粗糙的方案，并且不怎么担心会遇到像我这样的人。
->> 但我需要指出，这个技巧在最新版的《我的世界》中已经不管用了。
->> 我一把这个技巧公开发布，它很快就在游戏中被修复了。
->> 哇，不可能吧。
->> 我记得在 1.18 版本中有人提交了漏洞报告。他们的做法是，直接把《我的世界》用来生成矿石的随机数生成器替换成了一个不同的生成器，新的生成器就不存在我们在此利用的特定缺陷。
->> 他们换掉了整个随机数生成器。
->> 没错，确实如此。你可以来完成最后这道工序了。
->> 好的，好的，好的。看看我能不能记起来。呃……
->> （笑）哎呀。
->> 好，看看这个。做好了。护腿、靴子、胸甲、头盔。
+- LCG 并不好用，它们会引发各种各样的问题，非常容易被利用。它们只适用于电子游戏这类场景——你只需要某种简单粗糙的方案，并且不太担心有人像我这样去钻空子。
+- 不过我应该说明一下，这个技巧在《我的世界》的最新版本中已经失效了。
+- 我发布这个技巧之后，它很快就在游戏中被修复了。
+- 真的吗？
+- 我记得在 1.18 版本中有人提交了漏洞报告。他们的做法是直接把《我的世界》用于生成矿石的随机数生成器换掉，改用另一种不存在我们所利用的这一特定缺陷的随机数生成器。
+- 他们直接更换了整个生成器。
+- 没错，确实如此。请你来做最后的装备合成吧。
+- 好的好的，我来看看我还记不记得。呃……
+- （笑）哎呀。
+- 好，看这个：裤子、靴子、胸甲、头盔，大功告成。
+
 <details>
 <summary>Original English</summary>
 - Like LCGs, they're not good.
@@ -842,13 +846,8 @@ chest piece, helmet.
 (light upbeat music)
 </details>
 
-《我的世界》中的破绽之所以奏效，是因为开发者选择在游戏中使用了这种特定的随机数生成器；这也很好地提醒了我们：在构建软件时，所使用的工具是多么重要。
+《我的世界》里的这个漏洞之所以奏效，是因为开发者选择将这种特定的随机数生成器放入了游戏中。但这很好地提醒了我们：在构建软件时，所选择的工具至关重要。这也引出了今天的赞助商——Hostinger。Hostinger 是一个用于在线构建、运行和拓展业务的一站式平台。无论是需要网站、Web 应用还是在线商店，你都可以在一个地方进行统一管理，甚至无需懂得编程。举例来说，假设我想开办一项业务，出售我刚才辛苦挖来的所有钻石，我只需用日常英语描述我想要的网站，Hostinger 的 AI 就会构建出一个初始版本。如果我想修改内容，只要进行描述即可。但这只是一个起点，因为我还可以添加自己的自定义代码。这样我就不必从零开始构建所有东西，而是可以把更多时间花在挖钻石上。目前 Hostinger 正在进行“黑色星期五”促销活动，访问 hostinger.com/veritasium 并使用优惠码 Veritasium 即可享受额外10%的折扣。感谢 Hostinger 赞助本期视频的这部分内容。现在回到赌场的话题——那里的赌徒曾利用随机数生成器的漏洞赢取了成千上万美元。
 
-这便引出了今天的赞助商——Hostinger。Hostinger 是一个用于在线构建、运营和发展业务的一体化平台。无论你需要的是网站、网络应用还是网店，都可以在一个地方进行集中管理，甚至完全不需要懂得写代码。
-
-举个例子，假设我想开创一项业务，出售刚才辛苦挖来的所有钻石。我只需用纯英文描述我想要的网站，Hostinger 的人工智能就会构建出一个初始版本。如果我想修改某些内容，只需用语言描述即可；但这仅仅是个起点，因为我还可以添加自己的自定义代码。与其从零开始构建一切，我不如把更多的时间花在挖钻石上。
-
-目前 Hostinger 正在进行“黑色星期五”促销，如果你访问 hostinger.com/veritasium，还可以使用优惠码 Veritasium 享受额外 10% 的折扣。感谢 Hostinger 赞助本段视频内容。
 <details>
 <summary>Original English</summary>
 The trick in Minecraft works
@@ -891,22 +890,6 @@ you can use code Veritasium
 for an additional 10% off.
 I want to thank Hostinger for sponsoring
 this part of the video,
-</details>
-
-### 老虎机攻防与梅森旋转算法
-
-现在回到赌场，赌客们当时正利用随机数生成器的漏洞赢取成千上万的美元。
-
-2014 年 7 月 14 日，调查人员拘留了在全美各地老虎机上屡屡获胜的一名赌客。
-
->> 当他们在加州抓获这些家伙时，缴获了其中一部手机，并且发现视频其实正被传回俄罗斯的一台服务器。
->> 更具体地说，是传给圣彼得堡的一个由代号为“亚历克斯”（Alex）的黑客领导的团队。
-
-五年前，俄罗斯实际上取缔了境内的大部分赌博活动，成千上万台老虎机被低价变卖。于是，亚历克斯搞到了其中的一些机器，并开始对其进行拆解。
-
->> 机器里有一块处理板，还有一块被称为 SMIB 的板子，也就是老虎机接口板。基本上，处理板是固化在游戏里的，随机器自带。一旦你拿到了物理设备，逆向工程就只是时间问题了。
-<details>
-<summary>Original English</summary>
 and now back to the casino,
 where gamblers were exploiting
 random number generators
@@ -914,6 +897,19 @@ to win thousands of dollars.
 (faint background chatter)
 (light instrumental music)
 (machine chiming)
+</details>
+
+### 梅森旋转算法与俄罗斯黑客破解案
+
+2014年7月14日，调查人员控制了一名在美国各地老虎机上屡屡赢钱的赌徒。
+- 当他们在加利福尼亚抓获这伙人时，缴获了其中一部手机，并发现视频实际上正在被传回位于俄罗斯的一台服务器。
+- 更具体地说，是传给圣彼得堡一个由化名为亚历克斯（Alex）的黑客领导的团队。五年前，俄罗斯实际上取缔了大部分赌博业，成千上万台老虎机被廉价抛售。亚历克斯弄到了其中一些机器并开始拆解研究。
+- 机器里有一块处理主板，还有一块被称为 SMIB 的设备，也就是老虎机接口板。基本上，处理板被固化在游戏逻辑中，随机器附带。一旦你拿到了物理设备，逆向工程就只是时间问题了。
+- 问题在于，这些机器使用的并不是像 Java 那样的 LCG，而是复杂得多的随机数生成器。
+- 其中很多机器使用的是同一种梅森旋转（Mersenne Twister）算法。
+
+<details>
+<summary>Original English</summary>
 On July 14, 2014,
 investigators detained one of the gamblers
 who had been repeatedly
@@ -946,17 +942,6 @@ That comes with the machine.
 Once you have access to the device,
 it's just a matter of time
 before it's reverse engineered.
-</details>
-
-不过问题在于，这些机器使用的并不是像 Java 那样的 LCG，而是复杂得多的随机数生成器。
-
->> 其中很多机器使用的是同一种梅森旋转算法（Mersenne Twister）。
-
-该算法依然从一个种子开始，但它并不是用种子来生成单一数字，而是填满一个包含 624 个数字的表格。随后它执行一种称为“旋转”（twist）的计算，将表格不同部分的二进制位组合起来，生成 624 个全新的数字。接着它取出新表格中的第一个数字，经过另一系列运算处理，产生第一个伪随机输出。它对下一个及随后的每个数字重复同样的操作，直到产生 624 个输出。之后它对整个表格重新进行旋转运算，流程如此循环往复。它的序列周期十分巨大，重复所需的步数长度超过 6,000 位数。
-
-尽管如此，每一步依然遵循着这些固定的数学规则，而亚历克斯通过研究自己拥有的机器内部的软件，成功破解了这些规则。因此，当他的团队收到来自美国赌场的旋转视频时，他们可以进行反向推导，与自己的机器进行比对，并预测何时最有可能出现赢局。
-<details>
-<summary>Original English</summary>
 - The thing is though,
 these machines weren't
 using an LCG like Java.
@@ -964,6 +949,12 @@ They used a far more complicated
 random number generator.
 - A lot of them were using the same
 Mersenne Twister algorithm.
+</details>
+
+该算法同样以一个种子开始，但它并不是直接用它来生成一个单独的数字，而是填满一张包含 624 个数字的表格。随后它执行一种称为“旋转”（twist）的运算，将表格不同部分的二进制数位组合起来，生成 624 个全新的数字。接着它取出这张新表中的第一个数字，经过另一系列运算处理后，输出它的第一个伪随机数。它对下一个数字、再下一个数字依次做同样的操作，直到产生 624 个输出。之后它再次对整张表进行旋转运算，流程继续循环。它的周期极其庞大：重复之前的步数拥有一长串多达 6000 多个数位的数字。
+
+<details>
+<summary>Original English</summary>
 - This algorithm still starts with a seed,
 but instead of using this
 to generate one number,
@@ -987,6 +978,12 @@ and the process continues,
 and its sequence is huge.
 The number of steps before it repeats
 has more than 6,000 digits.
+</details>
+
+然而尽管如此，每一个步骤仍然遵循着固定的数学规则，而亚历克斯通过研究自己拥有的机器内部软件，成功推导出了这些规则。因此，当他的团队收到来自美国赌场的旋转画面视频时，他们可以进行反向推算，并与自己的机器进行对比，预测何时出现获胜转动的概率最高。
+
+<details>
+<summary>Original English</summary>
 But despite all that,
 every step still follow
 these fixed mathematical rules,
@@ -1003,14 +1000,8 @@ and predict when a winning
 spin was most likely.
 </details>
 
-但在老虎机内部，即使无人玩耍，随机数生成器也一直在不间断运行，最终结果取决于玩家按下旋转按钮的那一瞬间所选中的数字。因此，赌客必须在绝对精确的时刻按下按钮。然而人类大约需要四分之一秒的时间做出反应，于是亚历克斯将这种延迟写入了系统中。他开发了一款应用程序，在赌徒真正需要按键的前四分之一秒让其手机震动，然后……
+但在老虎机内部，即使无人玩耍，随机数生成器也一直在不间断运行，而结果取决于玩家按下旋转按钮那一瞬间所选取的数字。因此，赌徒们必须在绝对精准的时机按下按钮。然而人类的反应时间大约需要四分之一秒。于是亚历克斯把这种延迟直接编入了系统：他开发了一款应用程序，让赌徒的手机在实际需要按键的四分之一秒前发生振动，然后……这种技巧并不能保证每一次旋转都获胜，但据报道一个四人团伙一周就能带走超过25万美元，因此相当见效。
 
-这种手段并不能保证每一次旋转都中奖，但据报道，一个由四人组成的团队每周可以掠走超过 250,000 美元，因此手段相当奏效。最终，因参与该骗局而被捕的四人被指控犯有共谋欺诈罪。其中三人被判处两年监禁，而一人选择与联邦调查局（FBI）合作。
-
->> 那么，现在赌场里是否仍有可能有人在利用这种漏洞？
->> 确实，如果现在没人这么干，我反而会觉得非常奇怪。
->> 哦，真的吗？
->> 是的，外头仍有大量的那些老机器在运行。
 <details>
 <summary>Original English</summary>
 But inside the slot machines,
@@ -1035,6 +1026,16 @@ guarantee a win on every spin,
 but a four person team could reportedly
 take more than $250,000 in a week,
 so it was pretty effective.
+</details>
+
+最终，落网的四名涉案男子被指控犯有共谋欺诈罪。其中三人被判处两年监禁，另一人选择与联邦调查局（FBI）合作。
+- 现在是否还有可能有人依然在赌场里利用这种漏洞？
+- 会的，如果他们没在继续做，我反而会大吃一惊。
+- 真的吗？
+- 真的，外面依然存在很多那一类的老机器。
+
+<details>
+<summary>Original English</summary>
 In the end, the four men who were caught
 as part of the scheme were charged
 with conspiracy to commit fraud.
@@ -1052,19 +1053,10 @@ Yeah, there's a lot of those
 boxes that are still out there.
 </details>
 
-### 加密安全与物理世界的熵源
+### 密码学伪随机数与物理随机源
 
-所以归根结底，如果你对这类生成器的工作原理了解得足够充分，并且能够获取并分析足够多的输出，它们全都无法做到真正的不可预测。
+因此归根结底，如果你对这些生成器的工作原理了解足够多，并且能够研究足够多的输出结果，它们都会丧失不可预测性。但数字安全领域离不开随机数。随机数被用来保护从聊天信息到银行账户的一切安全，如果这些数字能够被预测，安全性就会受到破坏。因此我们来到了位于科罗拉多州博尔德的美国国家标准与技术研究院（NIST）。NIST 负责制定安全随机数生成的标准，但那里的一个团队正在尝试一项更为雄心勃勃的研究。
 
-但我们在数字安全领域却离不开随机数。它们被用于保护从个人信息到银行账户的各种数据；如果这些数字可以被预测，那么安全性就会荡然无存。
-
-为此，我们前往位于科罗拉多州博尔德的美国国家标准与技术研究院（NIST）。NIST 负责制定安全随机数生成的标准，但那里的一个团队正在尝试一项更为宏大的目标。
-
->> 我们正在尝试探索的是：自然界所允许你制造的极限最佳随机数生成器究竟是什么样的？
->> 是的。
->> 这正是我们在这里开展的大量工作。
->> 这就是这个实验的意义所在。
->> 没错，所有这个实验都是为了制造出世界上最好的随机数生成器。我们真切地尝试利用物理和科学来发展出尽可能最佳的测量手段，然后再利用这些测量结果来制定标准。
 <details>
 <summary>Original English</summary>
 - So ultimately, all of these
@@ -1086,6 +1078,16 @@ NIST sets the standards for
 secure random number generation,
 but one team there is trying
 something even more ambitious.
+</details>
+
+- 我们试图探索的是：大自然允许你制造出的最佳随机数生成器究竟是什么样的？
+- 是的。
+- 这也是我们这里大部分工作的核心。
+- 这就是这项实验的目的所在。
+- 没错，整个实验就是为了尝试制造出世界上最好的随机数生成器。我们切实尝试利用物理学和科学手段来开展尽可能高精度的测量，然后再利用这些测量成果来制定标准。
+
+<details>
+<summary>Original English</summary>
 - So what we're trying to do is say,
 what's the best random number generator
 that nature allows you to build?
@@ -1104,13 +1106,8 @@ and then we use those measurements
 to develop standards.
 </details>
 
-这包括用于数字安全的随机数生成标准。因为在加密领域，你需要比我们目前见过的任何生成器都更难预测的机制。
+这其中包括为数字安全生成随机数的标准，因为对于加密而言，所需要的生成器必须远比我们此前见到的那些更难以预测。因此密码学家开发出了另一种生成器，其背后的基本思路相当简单：首先以一串数字开始，比如就是 1、2、3、4 等等；接着把这些数字输入加密算法中。算法使用基于一个巨大随机数的密钥对它们进行扰乱混淆。加密过程对输入数据的转换极其彻底，以至于在没有密钥的情况下，输出看起来毫无关联。在某种程度上，密钥起到了种子的作用：它是启动所需要的那个随机数，并决定了之后输出的每一个数字。
 
-密码学家因此研发出了另一种生成器。其背后的思路相当直观：首先准备一串数字，比如简单的 1、2、3、4 等等；接着，把这些数字逐一输入到加密算法中。算法会利用一个基于大型随机数的秘密密钥（secret key）将它们打乱。加密过程对输入进行了极其彻底的变换，以至于在没有密钥的情况下，输出看起来毫无关联。
-
-从某种意义上说，那个密钥扮演了种子的角色。它是你启动时所需要的唯一随机数，并且决定了随后输出的每一个数字。在 Java 的情况下，其输出直接暴露了大部分内部隐藏状态；而对于梅森旋转算法，即便隐藏其输出的额外计算步骤也能被逆向破解。但在这里，即使你完全清楚加密的工作原理，并且掌握了所有的输入和输出，在实际操作中也没有可行的方法来复原秘密密钥。
-
-想去猜测密钥同样是不切实际的。常见的密钥长度为 128 位，也就是 128 个 0 和 1，对应着超过 300 万亿亿亿（3×10^38）种可能的密钥。如果没有密钥，要想预测下一个输出几乎是不可能的。这是构建“密码学安全伪随机数生成器”（CSPRNG）的途径之一，它解决了我们的第三个难题——可预测性。
 <details>
 <summary>Original English</summary>
 - And that includes the standards
@@ -1139,6 +1136,12 @@ It's the one random
 number you need to start,
 and it decides every
 number that comes out.
+</details>
+
+在 Java 中，其输出暴露了大部分隐藏状态；在梅森旋转算法中，即使用于隐藏输出的额外步骤也能够被逆向还原。而在这里，即便你完全清楚加密的工作原理，并且看过了所有的输入和输出，在实际层面上也没有任何可行的方法能够还原出密钥；直接猜测密钥同样是不切实际的。常见的密钥长度是 128 位，也就是 128 个 0 和 1，对应着超过 300 涧（trillion trillion trillion，即 $10^{36}$ 数量级）种可能的密钥。如果没有密钥，想要预测下一个输出在实际操作中是根本不可能的。这是构建密码学安全伪随机数生成器的方法之一，它解决了我们的第三个难题——可预测性。
+
+<details>
+<summary>Original English</summary>
 Where with Java, its outputs revealed
 most of its hidden state,
 and with the Mersenne Twister,
@@ -1165,15 +1168,8 @@ and it solves our third
 problem, predictability.
 </details>
 
-但那个秘密密钥最初又是从何而来的呢？因为算法本身无法凭空创造不可预测性，它在启动时切实需要某种随机的源头。
+但那个密钥究竟从何而来？因为算法本身无法凭空制造出不可预测性，它实际上需要某种随机的东西作为起点。为此，计算机转向了物理世界。许多现代处理器都内置了硬件随机数生成器，通过测量电信号中的微小起伏来提供那些不可预测的种子。加利福尼亚州的一家名为 Cloudflare 的公司甚至使用整整一面墙的熔岩灯（lava lamps）来为算法生成随机种子。
 
-为此，计算机转向了物理世界。许多现代处理器都内置了硬件随机数生成器，通过测量电信号中的微小涨落来提供那些不可预测的种子。加利福尼亚州的一家名为 Cloudflare 的公司，甚至使用了一整面熔岩灯（lava lamps）墙来为其算法生成随机种子。
-
-那么，这是否意味着问题已经解决了？并不完全是。
-
-以抛硬币为例，我们通常认为正面或反面是一个随机事件。然而在严格控制的条件下，你其实可以让硬币每一次落下都是正面朝上，这是因为硬币遵循经典力学定律。因此，如果你能精确控制硬币的初始状态和翻转方式，就可以次次预测它的落地结果。
-
-法国数学家皮埃尔-西蒙·拉普拉斯（Pierre-Simon Laplace）甚至将这一想法推向了极致。他设想存在某种智能实体，知晓宇宙中每一个粒子的位置与运动状态。根据经典力学，它便可以计算出未来发生的一切。
 <details>
 <summary>Original English</summary>
 But where did that secret
@@ -1195,6 +1191,12 @@ One company in California, Cloudflare,
 even uses a whole wall of lava lamps
 to generate random seeds
 for its algorithms.
+</details>
+
+但这是否意味着问题彻底解决了？并非完全如此。以掷硬币为例，我们通常认为这是一个正面或反面的随机事件。但在严格受控的条件下，你其实可以让硬币每一次都正面朝上落下，这是因为硬币遵循经典力学定律。因此如果你能精确控制它的初始状态以及被弹出的方式，每一次都能预测它将如何落地。法国数学家皮埃尔-西蒙·拉普拉斯（Pierre-Simon Laplace）甚至把这个想法推演得更远：他设想了一种能够知道宇宙中每一个粒子位置和运动状态的智者。按照经典力学，它能够推算出未来发生的一切。
+
+<details>
+<summary>Original English</summary>
 So does that mean the problem is solved?
 Not exactly.
 If you take a coin toss,
@@ -1222,12 +1224,10 @@ it could calculate everything
 that would ever happen.
 </details>
 
-### 量子纠缠与贝尔测试
+- 我花了很长时间努力探寻究竟什么才是随机性的良好定义。而我对随机性的定义就是：任何人在事先都无法预测的事物。不仅指没有人，我的意思是不止人类，而是宇宙中的任何存在都无法预测。
+- 这正是克里斯滕（Krister）团队想要实现的：不仅仅是生成看似随机的数字，而是要证明它们是真正无法预测的。
+- 我们根本不希望依赖种子，也根本不希望依赖算法。
 
->> 我曾耗费很长时间努力去探寻一个优秀的随机性定义到底是什么。我对随机性的定义，就是宇宙中没有任何事物能够提前预测的东西。不仅仅是没有人——我的意思不仅指人类，而是宇宙中的任何存在。
->> 这正是克里斯泰尔（Krister）的团队试图实现的：不仅要生成看起来随机的数字，还要证明它们在本质上是真正无法预测的。
->> 我们完全不想使用种子，也完全不想使用算法。
->> 于是，他们转向了量子力学，因为某些量子测量结果在根本上就是不可预测的。
 <details>
 <summary>Original English</summary>
 - You know, I looked long
@@ -1247,18 +1247,18 @@ but to prove that they are
 genuinely unpredictable.
 - We don't want to do seeds at all,
 and we don't want to do algorithms at all.
+</details>
+
+### 量子纠缠与贝尔不等式测试
+
+于是他们转向了量子力学，因为某些量子测量结果从根本上就是不可预测的。
+- 在当前这套装置中，我们从一束非常明亮、强烈的激光开始。激光每秒产生大约一亿个脉冲，光脉冲射入并与这里的晶体发生相互作用。这种光与晶体的相互作用可能会导致我们的一颗光子与之作用，并裂变成我们所称的一对“子光子”（daughter photons）。
+
+<details>
+<summary>Original English</summary>
 - So they've turned to quantum mechanics
 because some quantum measurement outcomes
 are fundamentally unpredictable.
-</details>
-
->> 在眼前的这套装置中，我们首先使用一束非常明亮、强烈的激光。每秒能产生大约一亿个这样的脉冲，这束光脉冲射入并与这里的这块晶体发生相互作用。在光与晶体的相互作用下，有时我们的一个光子会发生反应，并裂变成我们所称的一对“子光子”（daughter photons）。
-
-每个光子都具有一种被称为偏振的属性，对应于光电场振荡的方向。研究人员对实验进行了安排，使得这对子光子要么全部水平偏振，要么全部垂直偏振，但两者的状态无法区分。因此，光子最终处于这两种可能性的量子叠加态之中。
-
->> 这非常类似于薛定谔的猫的状态，但被扩展到了两个粒子上，现在就好像它们同时兼具这两种状态。
-<details>
-<summary>Original English</summary>
 - So on this setup right here,
 we start with a very bright
 laser, a very intense laser.
@@ -1273,6 +1273,14 @@ will interact with it
 and fission into what we call
 a pair of daughter photons.
 (light dramatic music)
+</details>
+
+每个光子都具有称为偏振的性质，它对应着光波电场的振动方向。研究人员对实验进行了安排，使得产生的光子对要么两个光子都是水平偏振，要么两个光子都是垂直偏振，但无法分辨究竟是哪一种。因此光子最终处于两种可能性的量子叠加态。
+- 这非常类似于薛定谔的猫态，但延伸到了两个粒子上；现在就像是它们同时处于这两种状态之中。
+- 不管这两个光子身处宇宙何方，它们都共享着一个量子态。换句话说，它们处于纠缠状态。这意味着当我们对两者都进行测量时，测量结果是存在关联的。但首先，他们需要将光子分别发送到两个独立的测量站，这意味着必须把每个光子导入光纤中。
+
+<details>
+<summary>Original English</summary>
 - [Gregor] Now, each photon
 has a property called polarization,
 which corresponds to the direction
@@ -1293,18 +1301,6 @@ Schrödinger's cat-type state,
 but it extended to two particles,
 and now it's like they're kind of
 both of those at the same time.
-</details>
-
-无论这两个光子身处宇宙何方，它们都共享同一个量子态。换句话说，它们纠缠在了一起。这意味着当我们对两者都进行测量时，其结果是相互关联的。
-
-但首先，他们需要将光子分别送往两个独立的测量站，这意味着他们必须将每个光子导入一根光纤之中。
-
->> 最艰难的部分就在于眼前的这些光纤线缆。里面实际的光纤线缆是肉眼看不清的，它的直径只有大约 10 微米。打个比方，这大约只有人类头发直径或宽度的十分之一。所以这是一个极其微小的目标。我们必须做的事情，我称之为“量子射箭”。
-这让我想起罗宾汉，他可以拉弓射箭并正中靶心；接着他能继续射箭，把上一支箭从中心劈开。我们所做的是这一场景的变体：罗宾汉现在面对两个靶子，手里只有一张弓，他必须同时射出两支箭，并且能够不断地持续命中并劈开这两个目标。
->> 射进这 10 微米的孔洞里。
->> 射进这 10 微米的孔洞里。
-<details>
-<summary>Original English</summary>
 - [Gregor] The photons
 share a quantum state
 no matter where in the universe they are.
@@ -1316,6 +1312,14 @@ to two separate measurement stations,
 and that means they
 have to get each photon
 into an optical fiber.
+</details>
+
+- 真正困难的部分是这些光纤线缆。里面的实际光纤线芯用肉眼是看不到的，它的直径只有大约 10 微米。对比一下的话，这大约是人类头发直径或宽度的十分之一。所以这是一个非常非常微小的目标。我们所做的工作被我称作“量子射箭”。这就好比罗宾汉引弓搭箭，一箭射中靶心，接着继续射箭，不断将前一支箭的中心劈开。我们所做的是这个过程的变体：此时罗宾汉面对两个靶子，手里只有一张弓，他必须同时射出两支箭，并且能够持续不断地精准穿入这两个靶心。
+- 射入这些 10 微米的小孔中。
+- 射入这些 10 微米的小孔中。
+
+<details>
+<summary>Original English</summary>
 - The really hard part is
 these fiber cables right here.
 The actual fiber optic cable
@@ -1345,15 +1349,11 @@ keep splitting these two targets.
 - [Krister] Into these 10-micron holes.
 </details>
 
-光子随后到达相距 110 米的两个测量站。这意味着，即便是以光速传播的信号，也无法在测量完成前从一端赶到另一端从而对测量造成影响。
+随后，光子到达相距 110 米的两个测量站。这意味着即便是以光速传播的信号，也无法及时从一端传到另一端来对测量产生影响。在每个测量站，研究人员对光子的偏振进行测量，但他们可以在两个不同的角度之间选择测量角度。并且每个测量站在光子即将到达前，都会随机选择其测量角度。
+- 你们在这里和那里获得什么样的结果，从而得出最终的终极随机数呢？
+- 我要么探测到一个光子，要么探测不到。
+- 好。探测到记为 1，未探测到记为 0。但是且慢：他们正在使用随机数来为一项旨在生成随机数的实验选择测量方式，这似乎讲不通。
 
-在每个测量站，研究人员都会测量光子的偏振，但他们可以在两个不同的角度之间选择其一来进行测量。每个测量站都会在光子抵达前的一瞬间随机选择其测量角度。
-
->> 你们在这两端获取的是什么样的结果，从而能得出最终的随机数呢？
->> 我要么探测到一个光子，要么探测不到。
->> 好的。探测到就计为 1，没探测到就计为 0。
-
-但等等，他们在一项旨在生成随机数的实验中，居然使用随机数来选择测量方式。这似乎说不通。
 <details>
 <summary>Original English</summary>
 - The photons then arrive
@@ -1387,14 +1387,10 @@ generate random numbers.
 It doesn't make sense.
 </details>
 
->> 如果这部分本身不依靠整个装置来生成，那它们怎么能算随机的呢？
->> 制造随机性本身需要随机性作为起点。你只需要‘相当不错’的随机性。而整套装置的作用，是将这种‘相当不错’的随机性进行提纯，把它转化为经认证的、真正顶级的随机性。
+- 如果他们没有使用整套装置，这些随机数本身怎么算是随机的呢？
+- 制造随机性需要以随机性为投入。你只需要相当不错的随机性即可，而这整套装置就是一种净化方式，把原本“相当不错”的随机性转化为经得起检验认证的“真正优异”的随机性。
+- 最初的数字用来选择执行哪种测量，但 NIST 想要认证的是探测器输出的 0 和 1。因为每个站点有两个可选的测量角度，所以总共存在四种可能的测量组合。
 
-前置的数字负责挑选执行哪一种测量，但 NIST 想要认证的，是探测器输出的那些 0 和 1。由于每个站都有两个可能的测量角度，因此总共有四种可能的测量组合。
-
-如果光子只是携带针对每种可能测量的预先确定的答案，那么两个站的结果之间的关联强度就会存在一个数学上限。但当研究人员对比测量结果时，其关联度超越了这一极限。这被称为“违反贝尔不等式”（violation of Bell's inequality）。我们其实制作过一整期关于贝尔测试的视频，对这个话题进行了更深入的探讨；如果你想了解更多原理，我们已将链接放入了简介中。
-
-由于测量的选择是独立的，且两站在测量期间无法相互通信，这就意味着光子的测量结果无法用任何局域的预先决定机制来解释。因此，该实验实际上是在检验这些数字是否蕴含真正的不可预测性。
 <details>
 <summary>Original English</summary>
 - How are these guys random
@@ -1416,6 +1412,12 @@ Because each station has two
 possible measurement angles,
 there are four possible
 combinations of measurements.
+</details>
+
+如果光子只是携带了针对每一种可能测量预先确定好的答案，那么两个站点的测量结果之间的关联强度存在一个数学上限。但当研究人员对比测量结果时，其关联程度超过了这一上限，这被称为违背贝尔不等式（Bell's inequality）。我们其实制作过一期关于贝尔测试的完整视频，对该话题有更深入的探讨，如果想了解更多原理，我们在简介中附上了链接。由于测量选择是独立的，且在测量期间站点之间无法互相通信，这意味着光子的结果无法用任何形式的局域预先设定结果来解释。因此，该实验实际上是在检验这些数字是否蕴含真正的不可预测性。
+
+<details>
+<summary>Original English</summary>
 Now, if the photons were
 simply carrying predetermined
 answers for every possible measurement,
@@ -1447,15 +1449,13 @@ whether those numbers contain
 genuine unpredictability.
 </details>
 
-### 漏洞规避与随机性提纯
+### 自由选择漏洞与随机性提取
 
-但还存在其他潜在的漏洞。
+但还存在其他潜在漏洞。
+- 我所在的团队参与研究的漏洞被称为“自由选择漏洞”（Freedom of Choice loophole）。打个比方，如果一个学生提前拿到了测验卷子，知道会被问到什么问题，然后在第二天的测验中拿了满分，谁都不应该感到惊讶。拟人化地来说，不应该允许这些粒子在到达探测器之前就知道自己会被提出什么样的问题。这又触及了随机性最核心的问题：你真的能确信选择测量方案的过程在事先完全没有任何关联吗？
+- 解决这个问题有几种方法，戴维·凯泽（David Kaiser）及其合作者想出了这样一个方案：
+- 我们想做的是把宇宙本身变成一对随机数生成器。
 
->> 我们团队参与研究的一个漏洞被称为‘选择自由漏洞’（Freedom of Choice loophole）。也就是说，如果一个学生提前拿到了测验卷子，知道第二天会被问到什么题目，然后在考试中拿了满分，没有人会觉得意外。同样拟人化地来说，这些粒子在到达探测器之前，不应该被允许知道它们将面临什么问题。这又回到了随机性的核心本质：你是否真的能够确信，测量的选择在事前不存在任何关联？
-
-有几种方法可以解决这个问题，而戴维·凯泽（David Kaiser）及其合作者想出了这个办法：
-
->> 我们要做的是把宇宙本身变成一对随机数生成器。
 <details>
 <summary>Original English</summary>
 But there are other potential loopholes.
@@ -1485,16 +1485,8 @@ turn the universe itself
 into a pair of random number generators.
 </details>
 
-他们将两台望远镜对准天空两端遥远的类星体，并利用来自各个类星体的单个光子的波长来决定执行哪一种测量。那些光线已经在太空中穿梭了数十亿年，发自自大爆炸以来几乎从未能够彼此通信的宇宙区域。假定中途没有人干扰过这些光线，那么测量选择与最终结果之间的任何隐秘协同，都必须早在数十亿年前就已经发生。虽然这并没有彻底消除漏洞，但它将那种可能性推回到了极其遥远的过去。
+他们把两架望远镜对准天空两端遥远的类星体，并利用来自各个类星体的单光子波长来决定执行哪种测量。这些光在宇宙中传播了数十亿年，来自自大爆炸后不久就无法相互通信的宇宙区域。在假设没有人干扰这些光的前提下，测量选择与结果之间存在的任何隐秘协调都必须发生在数十亿年之前。这并没有彻底消除漏洞，但它将那种可能性推向了极其久远的过去。戴维的团队是在探寻是否存在某种隐藏的解释能解释这些结果，但 NIST 还必须考虑其他方面。
 
-戴维的团队当时在研究是否存在某种隐藏的机制来解释这些结果，但 NIST 还必须考虑别的事情。
-
->> 如果我是个黑客，我会如何攻击这套系统？我会怎么做？
->> 原则上，两个人联手就可以把他们自己的光线射入那些望远镜，从而控制所选择的测量，进而操纵实验结果。
-
-因此，NIST 必须对用来选择测量的随机数生成器提供物理保护，使其免受外部干扰。在这方面他们不能依赖类星体光。这使得外部人员攻击该系统的难度大为增加，但这依然无法证明他们的测量选择完全独立于受测设备。NIST 仍须做出这一假设，同时还必须假设超光速通信是不可能的、时间和距离的测量是精准的，以及对结果的记录是忠实且安全的。
-
-如果这些假设成立，那么贝尔测试就可以对探测器输出中所包含的真正不可预测性的量给出认证。
 <details>
 <summary>Original English</summary>
 - [Gregor] They pointed two telescopes
@@ -1523,6 +1515,13 @@ David's team were investigating
 whether some hidden explanation
 could account for the results,
 but NIST has to consider something else.
+</details>
+
+- 如果我是个黑客，我会怎么攻击这套系统？我会怎么做？
+- 原则上，两个人协同合作可以把他们自己的光射入那些望远镜，从而控制选择哪些测量，并可能操纵结果。因此 NIST 必须对用于选择测量的随机数生成器采取物理保护，使其免受外界干扰，他们无法依赖类星体光线来实现这一点。这极大地增加了黑客入侵系统的难度，但这并不能证明他们的选择与被测试的设备彼此完全独立。NIST 仍然必须做出这一假设，同时还必须假设超光速通信是不可能的、时间和距离测量是精准的，以及对结果的记录是忠实且安全的。如果这些假设成立，那么贝尔测试就能证明探测器输出中所包含的真正不可预测性有多高。
+
+<details>
+<summary>Original English</summary>
 - If I was a hacker, how
 would I attack the system?
 What would I do?
@@ -1556,13 +1555,9 @@ how much genuine unpredictability
 the detector outputs contain.
 </details>
 
->> 如果我们利用纠缠态，你就可以执行这类测量，并证明没有任何事物能够预先知晓接下来的结果。
+- 如果我们利用纠缠，就可以进行这类测量，并证明没有任何事物可以在事先预测所发生的事情。
+- 但原始测量数据不一定是由 0 和 1 均匀混合组成的，0 的数量可能远多于 1。贝尔测试告诉研究人员在数百万次测量中存在多少不可预测性，但它并不能直接提供一串均匀平衡、相互独立的纯随机比特序列。因此他们需要一种方法将这种不可预测性提炼出来。
 
-然而，原始测量结果并不必然是 0 和 1 的均匀混合，0 的数量可能会远远多于 1。贝尔测试告诉研究人员在数百万次测量中存在多少不可预测性，但它给出的并不是一串整齐平衡、相互独立的随机比特。因此，他们需要一种方法将那些不可预测性提取出来。
-
-其基本思路与冯·诺依曼在他发表“有罪状态”笑话的那篇 1951 年论文中提出的方法类似：抛硬币两次，如果出现“正、反”，就记为 0；如果出现“反、正”，就记为 1；如果两次抛出的面相同，就直接舍弃。即使这枚硬币是有偏向的，只要每次抛掷相互独立且偏差保持恒定，“正-反”和“反-正”的概率也是完全相等的。因此剩下的序列就极为公正，只是序列长度会缩短。
-
-NIST 所使用的技术要强大得多，但核心逻辑是相通的。贝尔测试认证了原始测量中至少含有 820 个比特的不可预测性；然后研究人员利用一种名为“随机性提取”（randomness extraction）的数学技术，将其浓缩为刚好 512 个比特。
 <details>
 <summary>Original English</summary>
 - If we use entanglement,
@@ -1582,6 +1577,12 @@ of evenly balanced,
 independent, random bits.
 So they need a way to get
 that unpredictability out.
+</details>
+
+其基本思路类似于冯·诺伊曼在1951年那篇提出“堕落状态”玩笑的同一篇论文中所提出的方法：你把一枚硬币抛掷两次，如果是“正反”，记为 0；如果是“反正”，记为 1；如果两次结果相同，就直接舍弃。即便硬币本身存在偏差，只要每次抛掷相互独立且偏差保持恒定，“正反”与“反正”出现的几率就是完全相等的。这样留下来的序列就是完全公正无偏的，只不过最终得到的序列长度会变短。NIST 采用的技术要强大得多，但核心思想类似：贝尔测试在原始测量中认证出至少相当于 820 比特的不可预测性，然后研究人员利用一种称为“随机性提取”（randomness extraction）的数学技术，将其浓缩为 512 个比特。
+
+<details>
+<summary>Original English</summary>
 The basic idea is similar to
 the one von Neumann proposed
 in the same 1951 paper as
@@ -1613,14 +1614,14 @@ the researchers concentrate
 that down to just 512 bits.
 </details>
 
-### 上帝的骰子
+### 上帝掷骰子与认证随机性
 
->> 我们进行的每一次测量，都对这每一个比特有所贡献。
->> 与我们在整个视频中所见到的那些随机数不同，这些数字不仅仅是难以预测，它们的不可预测性是可以被严格认证的。因此，这是你所能达到的最接近纯粹随机的状态。
+- 我们进行的每一次测量都对每一个比特有所贡献。
+- 与我们在整期视频中见到的那些随机数不同，这些数字不仅仅是难以预测，它们的不可预测性实际上是经过严格认证的。因此，这是人类所能达到的最接近纯粹随机的状态。
+- 阿尔伯特·爱因斯坦曾提出过著名的论断：“上帝不掷骰子。”这是爱因斯坦的名言。然而爱因斯坦在这点上错了。事实上，我们这里所做的实验表明，经典物理学中那种爱因斯坦所支持的预先可预测的确定性世界观，与量子力学确实是不兼容的。所以如果上帝真的对宇宙掷骰子，那些骰子会是什么样的？那就是这个实验。这就是我们所投掷的上帝之骰，这是你能产生的最随机的熵源。
+- 这么说，上帝的骰子并没有灌铅。
+- “上帝的骰子没有灌铅”，一点没错。这确实是宇宙中任何存在都无法事先预测的东西。
 
->> 阿尔伯特·爱因斯坦曾有名言断言：‘上帝不与宇宙掷骰子。’爱因斯坦在这点上错了。事实上，我们在此所做的这些实验表明，经典物理学中爱因斯坦所支持的那种可预测本质、那种决定论的世界观，与量子力学是真正不兼容的。因此，如果上帝确实在与宇宙掷骰子，那么那些骰子长什么样？就是这个实验。这就是我们掷出的‘上帝的骰子’。这是你所能产生的最随机的熵源。
->> 所以上帝的骰子没有灌铅。
->> ‘上帝的骰子没有灌铅’，正是如此。这是宇宙中任何事物都无法提前预测的产物。
 <details>
 <summary>Original English</summary>
 - Every one of the
@@ -1661,13 +1662,11 @@ nothing in the universe could
 have predicted in advance.
 </details>
 
-NIST 与科罗拉多大学博尔德分校合作，实际上在 random.colorado.edu 上公开发布了这些数据，并附带了追踪和验证这些数字生成过程所需的信息。因此如果你愿意，完全可以使用它们。
+NIST 实际上与科罗拉多大学博尔德分校合作，在 random.colorado.edu 上公开发布了这些数据，同时还提供了追踪和验证这些数字生成方式所需的信息。如果大家想用，可以前往该网站使用。这些数字已经被共享，我真的可以用这里生成的比特来决定我是穿绿色毛衣还是红色毛衣，而且我是通过这些纠缠光子来做决定的。
+- 我是个色盲，所以不管你穿红毛衣还是绿毛衣，在我看来都一样。但制造这种随机性确实非常困难，需要大量的精密设备，你今天也都见识到了。我们摸索出了如何将这些不同系统以及不同信标相互交织连接的机制。这种随机性来源实际上可以构成一层额外的安全防线。所以，我想我们希望能够赋予真正随机性的对象，就是整个互联网。
+- 太棒了。
+- 这也是我的终极梦想：我们能否让所有事物都变得更加安全？
 
-这些数字已经被公开分享，我完全可以使用这里生成的比特，来决定我今天是穿一件绿色还是红色的毛衣，而且我是通过这些纠缠光子来做决定的。
-
->> 我是个色盲，所以不管你穿红毛衣还是绿毛衣对我来说看起来都一样。但制造这种随机性真的非常困难，需要大量的设备。你今天也看到了，我们摸索出了如何将这些不同的系统交织并联在一起、如何把这些不同的信标串联在一起的过程。这些随机性来源实际上可以构成一层额外的安全防线。所以，我想我们希望赋予随机性的，是整个互联网。
->> 太棒了。
->> 我的终极梦想就是：我们能不能让所有的事物都变得更加安全？
 <details>
 <summary>Original English</summary>
 - Together with the University
@@ -1708,17 +1707,13 @@ can we just make everything more secure?
 (computer chirping)
 </details>
 
-好了，最后还有一件事。去年我们推出了官方 Veritasium 问答桌游，名字叫《Elements of Truth》。这是一款包含 200 道科技问题的游戏，但它不仅仅在于回答是否正确。游戏中有一套信心机制，你必须为自己的答案下注 1 到 10 分。因此，即使你答对了问题，如果你对自己产生怀疑，也可能会丢分。团队聚在一起时一直在测试这款游戏，过程超级有趣。如果你错过了 Kickstarter 众筹，我非常激动地宣布它现在已经正式发售了。如果你感兴趣，我们在简介中放了《Elements of Truth》网站的链接。
+好了，最后还有一件事。去年我们推出了官方的 Veritasium 问答桌游，名字叫《Elements of Truth》。这是一款包含200道科学技术题目的游戏，但它不仅仅是答对题目那么简单：游戏中有一种信心下注机制，你必须为自己的答案下注1到10分。所以即使你答对了题目，如果你对自己产生怀疑，也可能会丢分。团队聚会时一直在试玩这款游戏，过程超级有趣。如果你错过了之前的众筹，我非常激动地宣布它现在已经正式发售了。如果感兴趣，我们在简介里附上了《Elements of Truth》网站的链接。非常感谢大家支持这个项目，一如既往，感谢大家的观看。
+- 它的工作原理是……
+- 不行。
+- 不行。
+- 出来，到上面来。不行。
+- 我觉得我不该死。我觉得我不该死。我觉得我不该死。我没事的。
 
-感谢大家对这个项目的支持，一如既往，感谢收看。
-
->> 它的原理是……
->> （男子呻吟）
->> （笑）
->> 不要啊。
->> 不要啊。
->> 出来，到这边来。（笑）不。
->> 我觉得我不该死掉。我觉得我不该死掉。我觉得我不该死掉。我会没事的。
 <details>
 <summary>Original English</summary>
 - Okay, one last thing.
