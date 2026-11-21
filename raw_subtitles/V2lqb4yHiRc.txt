@@ -1,0 +1,679 @@
+[Speaker 1]:  hello，
+[Speaker 1]: 大家好，
+[Speaker 1]: 欢迎来到蒙牛 life，
+[Speaker 0]: 频频道，
+[Speaker 0]: 我是 s 昨天 anthrobic 这家万众期待的纯 AI 银行公司终于上市了。
+[Speaker 0]: 本期视频我们来聊几个最近很热的话题，
+[Speaker 0]: 我就想用一个视频把它说透。
+[Speaker 1]: 第一，
+[Speaker 1]: 英伟达黄仁勋。
+[Speaker 0]: 第二，
+[Speaker 0]:  anthrobic 上市的表现。
+[Speaker 0]: 第三，
+[Speaker 0]: 今年让人非常头疼的 a 股投资，
+[Speaker 0]: 以及让人非常头疼的美股投资。
+[Speaker 0]: 接下来二零二六年还有最后一个多月可能会怎么走？
+[Speaker 0]: 我可能的操作以及现制的持仓情况到底怎么样？
+[Speaker 0]: 我用一期视频和大家用聊天的形式来分享，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那么我自己非常深刻的记得在过去几个月，
+[Speaker 0]: 我对 AI 个人的使用，
+[Speaker 1]: 我觉得是呃真正实现了从零到一吧之前呢我有用一些皮毛。
+[Speaker 1]: 但是直到最近几个月，
+[Speaker 0]: 比如说像 cloud ops 五点五这样的模型的涌现。
+[Speaker 1]: 那么让我真正觉得哦，
+[Speaker 0]: 二零二六年真的就是 a AI 应用的元年啊，
+[Speaker 1]: 这个这个概念 AI 应用元年，
+[Speaker 0]: 其实我相信可能不止我在提吧。
+[Speaker 1]: 但是我和我的会员社群有过好几次的 AI 应用元年，
+[Speaker 0]: 这个概念的讨论，
+[Speaker 0]: 不管是我现在用 AI 来做视频，
+[Speaker 0]: 还是辅助我的个人生活还是不同的。
+[Speaker 0]:  AI 消费端的产品的推出，
+[Speaker 1]: 我觉得都是爆发式的。
+[Speaker 0]: 在今年也正是因为基于 AI 应用，
+[Speaker 1]: 未来会很光明。
+[Speaker 0]: 那么在过去的很长一段时间，
+[Speaker 0]: 我个人的投资主题都是 AI 基础设施。
+[Speaker 1]: 那 AI 基础设施按照老黄的 AI，
+[Speaker 0]: 黄仁勋啊，
+[Speaker 0]: 待会儿我们会说到他按照黄仁勋的 AI 的五层呃，
+[Speaker 1]:  AI 的这个 stack 最下方是电力，
+[Speaker 1]: 然后是数据中心，
+[Speaker 0]: 然后是模型对吧？
+[Speaker 0]: 生态，
+[Speaker 1]: 然后是最上层的 AI 应用。
+[Speaker 0]: 在 attopic 昨天上市之前呢，
+[Speaker 0]: 我们没有一家纯粹的 AI 应用公司供我们投资。
+[Speaker 0]: 有的都是什么？
+[Speaker 0]: 我之前说过的，
+[Speaker 0]: 像这种嘛都是从其他公司来转型的。
+[Speaker 0]: 不是说真正的呃那种非常纯的原生的 AI 应用公司，
+[Speaker 0]: 或者是像美股七姐妹里面的谷歌呀、
+[Speaker 0]: 亚马逊呀、
+[Speaker 1]: 微软啊这种这种就是属于已经在市场上很久了，
+[Speaker 0]: 摸爬滚打很久的超大型公司。
+[Speaker 1]: 所以之前呢包括 s 本人以及市场上很多的投资者，
+[Speaker 0]: 我们的重点都是什么？
+[Speaker 0]: 在看好未来 AI 应用的基础上，
+[Speaker 1]: 现在的投资重点，
+[Speaker 1]: 今年的投资重点就是 AI 基础设施。
+[Speaker 0]: 那今年显然是坐过山车了，
+[Speaker 1]: 很难受。
+[Speaker 1]: 刚刚看了一下，
+[Speaker 0]: 不管是标普百指数，
+[Speaker 1]: 呃，
+[Speaker 1]: 不管是标普百指数，
+[Speaker 1]: 还是纳斯达克一百指数，
+[Speaker 1]: 今年的 e two day 的收益只有百分之五，
+[Speaker 0]: 现在夜盘还在跌，
+[Speaker 0]: 那百分之五都不到了。
+[Speaker 0]: 然后经过前四个月、
+[Speaker 0]: 一月到四月，
+[Speaker 0]: 整个 AI 疯狂上涨之后，
+[Speaker 1]: 就进入了泡沫破裂的阶段。
+[Speaker 0]: 那有人说泡沫要破裂了，
+[Speaker 1]: 其实泡沫已经从某种程度上已经破裂了。
+[Speaker 1]: 你去看一下那些热门的股票回撤的幅度，
+[Speaker 0]: 对吧？
+[Speaker 0]: 太夸张了，
+[Speaker 0]: 那当然不只是 AI，
+[Speaker 1]: 还包括什么商业太空啊、
+[Speaker 0]: 核能啊这些去年非常强势的动能板块这种在呃罗素两千中小市值里面，
+[Speaker 0]: 这些小的板块小市值公司也是下跌幅度非常非常大。
+[Speaker 0]: 所以今年投资者痛苦的时间，
+[Speaker 1]: 头疼的时间，
+[Speaker 1]: 大娱欢乐的世界啊很可惜。
+[Speaker 0]: 嗯，
+[Speaker 0]: 那现在这种情况我悲观吗？
+[Speaker 1]: 其实我觉得如果现在回看二零二六年到现在，
+[Speaker 1]: 特别是回看过去一两周，
+[Speaker 1]: 可能我个人最悲观的一个节点就是上周四嘛，
+[Speaker 0]: 好像是对吧？
+[Speaker 0]: 黄仁勋在当天晚上北京时间新加坡时间当天晚上说嗯正式辞职了。
+[Speaker 1]: 那那我我昨天好像还写了一个推吧，
+[Speaker 0]: 我就说当时我其实刚好在车里送完一个东西给朋友，
+[Speaker 1]: 然后正准备回家看到这个消息就天塌了，
+[Speaker 0]: 震惊了，
+[Speaker 0]: 然后有点头脑发晕了。
+[Speaker 1]: 然后当时也是有一些 emotional，
+[Speaker 0]: 有一些情绪。
+[Speaker 1]: 不得不说，
+[Speaker 1]: 那一刻，
+[Speaker 0]: 我觉得是我整个今年心里面最失落的一刻，
+[Speaker 1]: 不是最慌的一刻。
+[Speaker 1]: 最慌的一刻是可能一两周以前吧，
+[Speaker 1]: 我自己的收益从百分之九十跌到百分之二十，
+[Speaker 0]: 可能可能百分之二十。
+[Speaker 0]: 那一刻比较慌。
+[Speaker 0]: 如果说最失落的一刻就是黄仁勋宣布哦，
+[Speaker 0]: 我要离开英伟达了这一家，
+[Speaker 1]: 我一手创办待了几十年的公司。
+[Speaker 1]: 那个时候我真的是非常的失落。
+[Speaker 0]: 那天呢我卖了所有的 AI 技础设施相关的股票，
+[Speaker 0]: 包括 space x 那我今天其实又把 space x 卖出去的部分的三分之一买回来不是全部啊，
+[Speaker 0]: 就三分之一也是我想向大家在本期视频传达的一个信息，
+[Speaker 0]: 就是今年发生了这么多事情。
+[Speaker 0]: 一开始大家说今年肯定要加息，
+[Speaker 1]: 加息之后肯定就是黑天鹅。
+[Speaker 0]: 然后第二大家说中期选举民主党肯定要获胜，
+[Speaker 1]: 获胜之后就是黑天鹅。
+[Speaker 0]: 那这两件事情其实都发生了，
+[Speaker 0]: 加息发生了中期选举民主党大获全胜也发生了。
+[Speaker 0]: 呃，
+[Speaker 1]:  by the way，
+[Speaker 1]: 可能预计是一半一半，
+[Speaker 0]: 而不是说民主党完全很少啊，
+[Speaker 1]: 这个是有一些出乎市场意料的。
+[Speaker 1]: 所以这两件事情呢都按照年初大家的想法，
+[Speaker 1]: 其实发生了中期选举比大家想的还要坏一点，
+[Speaker 0]: 对吧？
+[Speaker 0]: 然后我自己早前也非常担心的第三件事情，
+[Speaker 1]: 就是 anthrobic 或者 open AI 上市。
+[Speaker 1]: 那现在 open AI 应该今年上不了，
+[Speaker 0]: 但是 anthrobic 上了，
+[Speaker 1]: 所以这三件大事二零二六年都已经发生了，
+[Speaker 1]: 靴子都落地了。
+[Speaker 1]: 所以我觉得真爱时刻过去了吗？
+[Speaker 0]: 我不觉得真爱时刻过去了。
+[Speaker 1]: 但是我觉得从市场的确定性来讲，
+[Speaker 0]: 现在的未来的不确定性相较于今年很多其他时候，
+[Speaker 0]: 其实现在的确定性还还比较高。
+[Speaker 0]: 你就拿上周四黄荣勋宣布离职那一刻比吧，
+[Speaker 0]: 现在我们已经基本确定黄荣勋回不来了。
+[Speaker 1]: 第二点，
+[Speaker 0]: 我们已经看到了 SRB 上市的表现了这两个事情。
+[Speaker 0]: 自上周到现在就是确定性，
+[Speaker 0]: 对我来说高了很多。
+[Speaker 0]: 与此同时呢，
+[Speaker 0]: 在我自己有大量现金的情况下，
+[Speaker 1]: 我没有按计划买到 anthrobic 的股票的情况下，
+[Speaker 1]: 我把 space x 在一三五价格左右。
+[Speaker 1]: 这个 IPU 价格接回来，
+[Speaker 0]: 我很 OK。
+[Speaker 0]: 那我也告诉会员朋友们，
+[Speaker 1]: 接下来可能还会下跌，
+[Speaker 0]: 我完全做好了准备。
+[Speaker 1]: 这就是为什么我没有一次性把之前的百分之百卖出去的买回来，
+[Speaker 1]: 对吧？
+[Speaker 0]: 所以我觉得我还是认为二零二六年是 AI 应用的元年。
+[Speaker 0]:  anthoribig 上市在元年上市，
+[Speaker 1]: 接下来 AI 的应用会比我自己以及会比市场上的很多人。
+[Speaker 0]: 那特别是在此时此刻，
+[Speaker 0]: 市场非常悲观的时候，
+[Speaker 0]: 要发展的好的多快的多。
+[Speaker 0]: 这一点这个 foundation 我是觉得没有变的。
+[Speaker 0]: 在此基础上，
+[Speaker 1]: 很多东西虽然不好，
+[Speaker 1]: 但是它已经发生了。
+[Speaker 0]: 所以从这一点看我觉得，
+[Speaker 0]: 今年所有的这些所谓的黑天鹅事件或者消极的事件，
+[Speaker 0]: 对市场可能有负面影负面影响的事件基本上就发生完了，
+[Speaker 0]: 对吧？
+[Speaker 1]: 所以对明年我还是比较乐观的，
+[Speaker 0]: 因为我觉得已经到了至暗时刻的最低点。
+[Speaker 0]: 那我觉得对于我个人来说，
+[Speaker 1]: 市场到了至暗时刻的最低点，
+[Speaker 1]: 那是不是股价就最低了呢？
+[Speaker 0]: 那显然不一定嘛，
+[Speaker 0]: 所以我没有办法去预测明天的股价，
+[Speaker 1]: 是什么，
+[Speaker 0]: 让市场去回答这个问题，
+[Speaker 0]: 对吧？
+[Speaker 1]: 接下来呢我聊一下刚刚提到的这几个话题啊，
+[Speaker 1]: 先来聊黄仁勋。
+[Speaker 0]: 黄仁勋在本周发了推特 x 他说，
+[Speaker 1]: 如果董事会认为我重新回去当 CEO，
+[Speaker 1]: 是对股东对这些合作伙伴综合上最好的最符合利益的选择。
+[Speaker 0]: 那我很乐意回去 read install，
+[Speaker 1]: 重新回去当 CEO，
+[Speaker 0]: 那你们觉得有可能吗？
+[Speaker 0]: 我觉得从财报上来看，
+[Speaker 1]: 公司不只是 CFO，
+[Speaker 1]: 也就是现在的 injance CEO 暂时的 CEO 发言了。
+[Speaker 0]: 当天，
+[Speaker 1]: 财报上还有好几位董事会的成员也进行了问答，
+[Speaker 0]: 而且随后就开了 o hans 全员大会帮大家涨工资了，
+[Speaker 0]: 稳定军心。
+[Speaker 0]: 在电话会议上，
+[Speaker 1]: 董事会的成员就说，
+[Speaker 0]: 我们现在没有打算聘请黄仁勋回来。
+[Speaker 0]: 你说这是是不是跑跑他脸，
+[Speaker 0]: 打谁的脸打那些目前在幻想黄仁勋有很大概率回来的人的脸。
+[Speaker 1]: 我没有幻想黄仁勋有很大概率回来。
+[Speaker 0]: 我觉得目前情况来看啊，
+[Speaker 1]: 有很大概率他回不来，
+[Speaker 0]: 有小概率回得来，
+[Speaker 1]: 对吧？
+[Speaker 0]: 所以现在对我来说是一个小概率事件，
+[Speaker 1]: 所以我没有期待说黄仁勋能够回来，
+[Speaker 1]: 然后把市场一下子就冲高这种想法。
+[Speaker 0]: 我目前觉得我是小颗率事件，
+[Speaker 0]: 我不愿意把它 pressing 到现在。
+[Speaker 1]: 考虑到我现在的任何操作中，
+[Speaker 0]: 对吧？
+[Speaker 1]: 所以 by day four，
+[Speaker 0]: 我就假设黄尔逊不会回来，
+[Speaker 1]: 那我还想聊一些比较八卦吧。
+[Speaker 1]: 就是对于黄仁勋我的看法，
+[Speaker 0]: 你们知道黄仁勋他是英伟达的创始人，
+[Speaker 1]: 他是绝对的元老。
+[Speaker 0]: 那对于这样的人物，
+[Speaker 1]: 在今年是不是他也多多少少被 AI 这种泡沫所侵蚀了自己的理性呢？
+[Speaker 0]: 有可能对吧每个人都被 AI 泡沫所把情绪带的可能异常高涨。
+[Speaker 0]: 我为什么这么讲？
+[Speaker 0]: 因为当黄荣勋上次公开发言说他觉得 marvel 未来会是一家什么万亿市值的公司啊，
+[Speaker 1]: 哇塞，
+[Speaker 0]: 我的天哪。
+[Speaker 0]: 当时我就我和很多朋友都觉得他不应该说这句话，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那黄荣勋在今年辞职以前，
+[Speaker 1]: 特别是前面四五个月，
+[Speaker 0]: 今年应该是他人生的，
+[Speaker 0]: 顶顶顶，
+[Speaker 0]: 顶顶顶，
+[Speaker 0]: 顶顶顶。
+[Speaker 0]: 顶峰了，
+[Speaker 0]: 珠穆朗玛峰还高了他他所创立的公司成为全世界最耀眼的那颗星。
+[Speaker 1]: 他作为公司的绝对核心人物，
+[Speaker 1]: 说什么就是什么？
+[Speaker 0]: 你们觉得这种情况下会有人讨厌厌吗？
+[Speaker 0]: 我觉觉肯定定会好像马斯克马斯克我们喜欢他的人，
+[Speaker 0]: 觉得他很优秀，
+[Speaker 0]: 因为讨厌他的人可能恨之入骨。
+[Speaker 0]: 因为凡是有两面性，
+[Speaker 1]: 你想黄仁勋他自己基本上在公司，
+[Speaker 0]: 肯定在他当 CEO 的时候，
+[Speaker 1]: 他说什么就是什么。
+[Speaker 0]: 他说我想投资哪一家公司，
+[Speaker 0]: 我基本上就定下来了，
+[Speaker 1]: 其他人只是辅佐去执行他的意志的一个工具。
+[Speaker 0]: 说白了那这种情况下难免会有一些集权嘛，
+[Speaker 0]: 对不对？
+[Speaker 0]: 所以我现在去回想董事会，
+[Speaker 1]: 现在不管出于政治原因也好，
+[Speaker 1]: 还是其他原因也好。
+[Speaker 0]: 他们现在从一开始就没有力挺华人勋，
+[Speaker 0]: 可能他们和黄仁勋早就有了矛盾，
+[Speaker 0]: 只是没有暴露出来。
+[Speaker 0]: 因为当初他们知道黄仁勋没有把柄的情况下，
+[Speaker 0]: 我怎么去推倒这家公司的创始人，
+[Speaker 0]: 和目前世界上大家可能公认最好的 CEO 呢？
+[Speaker 0]: 没有办法嘛，
+[Speaker 0]: 那现在出事了，
+[Speaker 1]: 我就帮你推倒，
+[Speaker 1]: 毫无情面，
+[Speaker 0]: 更不要说回来了。
+[Speaker 0]: 所以有的会员也说，
+[Speaker 1]: 黄仁勋不要说回去了，
+[Speaker 0]: 可能不要坐牢就好了。
+[Speaker 1]: 我觉得这样的说法可能有些欠妥当，
+[Speaker 0]: 但是我也部分认同黄仁勋。
+[Speaker 0]: 现在首先第一点，
+[Speaker 0]: 要做的就是确保自己是清白的，
+[Speaker 0]: 没有做任何跨越跨越法律界限，
+[Speaker 0]: 甚至没有做任何灰色地带的事情，
+[Speaker 0]: 这是第一步。
+[Speaker 0]: 第二步才是要不要回来，
+[Speaker 1]: 要不要回来，
+[Speaker 1]: 要看怎么回来，
+[Speaker 0]: 什么时候回来，
+[Speaker 1]: 你可以折服再回来，
+[Speaker 0]: 对吧？
+[Speaker 0]: 你不一定非要非常高调的去正面的硬刚。
+[Speaker 0]: 我觉得沉寂一段时间，
+[Speaker 0]: 通过一个更聪明的方式回来，
+[Speaker 0]: 而不是和董事会硬刚，
+[Speaker 0]: 这应该是更好的方法啊。
+[Speaker 0]: 我们知道华人旭没有绝对的控股权，
+[Speaker 1]: 所以他没有绝对的话语权。
+[Speaker 0]: 而外界不管是他的盟友啊，
+[Speaker 0]: 马斯克还是呃川普总统，
+[Speaker 1]: 他们都非常支持黄尔勋，
+[Speaker 1]: 整个科技界都非常支持黄尔勋。
+[Speaker 1]: 但是他们并不能代表董事会，
+[Speaker 0]: 你必须要尊重公司法。
+[Speaker 1]: 公司法就是规定董事会有这些权利。
+[Speaker 0]: 而你马斯克也好，
+[Speaker 0]: 我也好，
+[Speaker 0]: 谁也好，
+[Speaker 0]: 你没有这个权利，
+[Speaker 1]: 对吧？
+[Speaker 1]: 所以我想对待黄仁勋要客观的去看待这个事实。
+[Speaker 1]: 好吧。
+[Speaker 1]: 然后聊到黄仁勋，
+[Speaker 1]: 聊到英伟达，
+[Speaker 0]: 我也想说一下台积电。
+[Speaker 0]: 因为昨天很多微信的会员群、
+[Speaker 0]: 会员社群朋友都向我分享了一些中国的一些关于芯片的消息。
+[Speaker 0]: 比如说很多中国的大厂，
+[Speaker 0]: 他们的流片就是大家能想到的那几个大厂啊，
+[Speaker 0]: 我就不说了，
+[Speaker 1]: 他们芯片的流片已经被台积电叫停了。
+[Speaker 0]: 那有的朋友包括我也很纳闷啊，
+[Speaker 1]: 哎为什么会被台积电叫停叫停呢？
+[Speaker 0]: 美国不是不只是禁止，
+[Speaker 0]: 不能让中国公司远程访问 GPU 吗？
+[Speaker 0]: 对吧？
+[Speaker 0]:  OK 分三个阶段，
+[Speaker 0]: 第一个阶段我不卖你，
+[Speaker 0]: 卡最先进的卡，
+[Speaker 0]: 我不卖你，
+[Speaker 0]: 哪怕是没那么先进的，
+[Speaker 0]: 我也不卖你。
+[Speaker 0]: 第二个阶段就是前几天的我的云，
+[Speaker 0]: 如果是基于最好的卡 GB，
+[Speaker 0]: 比如说 GB 两百 GBGB 三百，
+[Speaker 1]: 你远程访问也不行。
+[Speaker 0]: 你在印尼，
+[Speaker 1]: 我有数据中心，
+[Speaker 0]: 你不能访问，
+[Speaker 0]: 我在美国，
+[Speaker 1]: 你根不能访问，
+[Speaker 1]: 我在哪儿，
+[Speaker 1]: 你都不能访问。
+[Speaker 0]: 所以 s 所在的东南亚，
+[Speaker 1]: 印尼也好，
+[Speaker 0]: 印尼就是巴旦岛嘛。
+[Speaker 0]: 我分析 day one 的时候说过，
+[Speaker 0]: 巴旦岛附近，
+[Speaker 1]: 然后新加坡、
+[Speaker 0]: 马来西亚对吧？
+[Speaker 0]: 这三个地方形成的集群，
+[Speaker 0]: 在我对 one 里面有说叫做 SI 呃，
+[Speaker 0]:  JORIC jury 这个集群，
+[Speaker 1]: 那现在这些你也不能用啊。
+[Speaker 0]: 以前可能这部分的算力，
+[Speaker 0]: 大量的是远程供中国的公司使用。
+[Speaker 0]: 那第三个阶段就是你自己那些比较低端的或者供零售用的卡，
+[Speaker 0]: 我台积电也不帮你做了，
+[Speaker 1]: 为什么台积电不帮他做？
+[Speaker 0]: 因为台积电受制于美国吗？
+[Speaker 0]: 你说台积电是不是受制于美国？
+[Speaker 1]: 台积电肯定美国有很大的权利去管他。
+[Speaker 1]: 你包括荷兰的阿斯曼也是啊，
+[Speaker 0]: 阿斯曼也是受美国管嘛。
+[Speaker 0]: 阿斯曼说，
+[Speaker 0]: 美国说，
+[Speaker 0]: 阿斯曼你不能卖 EUV 光刻机给中国，
+[Speaker 0]: 阿斯曼就没办法卖嘛，
+[Speaker 0]: 对吧？
+[Speaker 0]: 但至于为什么这些背后都是资本的控制啊，
+[Speaker 0]: 对不对？
+[Speaker 0]: 因为有这些公司，
+[Speaker 1]: 不管哪一家都有很强大的利益，
+[Speaker 0]: 涉及到在美国，
+[Speaker 0]: 对吧？
+[Speaker 0]: 如果你和美国对着干，
+[Speaker 0]: 那你整个公司的股东整体上就会受损，
+[Speaker 0]: 对吧？
+[Speaker 1]: 除非有一天强大到你的需求，
+[Speaker 1]: 呃，
+[Speaker 1]: 或者是你未来长期的发展能够 outperform 美国，
+[Speaker 0]: 对吧？
+[Speaker 1]: 那你说哦我不要美国了，
+[Speaker 0]: 你美国说什么我不管我只供中国货，
+[Speaker 0]: 你保证我活一辈子活得很好，
+[Speaker 0]: 对吧？
+[Speaker 0]: 所以所以我觉得接下来呃，
+[Speaker 0]: 台积电它的产能应该是还是 OK 的。
+[Speaker 0]: 因为台积电在过去很长一段时间，
+[Speaker 0]: 它是整个 AI 基础设施把泡沫把控的最好的那一环，
+[Speaker 0]: 对吧？
+[Speaker 0]: 英伟达可能说哦，
+[Speaker 0]: 我想要生产多少多少，
+[Speaker 0]: 很多很多。
+[Speaker 0]: 台积电说不行，
+[Speaker 0]: 我不想过于冒进。
+[Speaker 0]: 我的 capacity 我希望慢慢来，
+[Speaker 0]: 除非你给我非常大的保证，
+[Speaker 1]: 未来几年你真的能够达到你想要的这种 capacity，
+[Speaker 0]: 我帮你做，
+[Speaker 0]: 否则我就不做。
+[Speaker 1]: 所以之前从很多 x 博主我都看到说，
+[Speaker 0]: 台积电要是没有台积电这个泡沫会更大。
+[Speaker 1]: 所以在这里我要特别感谢一下台积电作为最最最最上游的那个代工厂。
+[Speaker 0]: 他从某种程度上把我们在过去几个月，
+[Speaker 0]: 四川的泡沫其实还控制了一点。
+[Speaker 0]: 那黄仁勋呢，
+[Speaker 0]: 我并不是说批评他，
+[Speaker 0]: 而是说从某种程度上是他带动了这些泡沫。
+[Speaker 0]: 当然他也有控制，
+[Speaker 1]: 你比如说他台积电之间肯定也稍微控制一下我出货的量，
+[Speaker 0]: 我不要把这个量拉的过高，
+[Speaker 0]: 把预期打的太满，
+[Speaker 0]: 然后把自己的价格还打下去了，
+[Speaker 0]: 对吧？
+[Speaker 0]: 那不划算呢，
+[Speaker 0]: 但是从黄仁勋的循环融资，
+[Speaker 1]: 从他投资不同公司，
+[Speaker 0]: 从他好像说 marvel 你也可以一万亿这些比较激进的发言和行动，
+[Speaker 0]: 现在泡沫的产生以及刺破和他肯定有很大关系的对吧？
+[Speaker 0]: 呃，
+[Speaker 0]: 请注意啊，
+[Speaker 1]: 我不是说讨厌黄仁勋，
+[Speaker 0]: 我非常非常敬佩黄仁勋。
+[Speaker 1]: 我只是客观的告诉大家，
+[Speaker 1]: 黄仁勋、
+[Speaker 1]: 英伟达、
+[Speaker 0]: 台积电这几个公司这几个人物，
+[Speaker 0]: 他在过去一年左右 AI 达到顶峰，
+[Speaker 0]: 到现在部分破裂，
+[Speaker 0]: 他们起到的作用是什么？
+[Speaker 0]: 好吧，
+[Speaker 0]: 然后聊完了这个呢，
+[Speaker 0]: 我们再来聊下一个话题 anthropic anthropic 昨天我挂的单是九十一点三九十一点三是怎么到的呢？
+[Speaker 1]: 就是八十八十三的 IPU，
+[Speaker 0]: 最新价格乘以百分之一百一，
+[Speaker 0]: 之前我挂的单更低，
+[Speaker 0]: 八十五点三，
+[Speaker 0]: 为什么？
+[Speaker 1]: 因为八十五点三是我按照七十八吧，
+[Speaker 1]: 应该是它本身七十到七十八，
+[Speaker 0]:  IPU 定价的上限再乘以百分之一百一。
+[Speaker 1]: 我自己不愿意挂挂太高。
+[Speaker 1]: 这个我在会员社群已经多次分享，
+[Speaker 1]: 买不到就算了。
+[Speaker 1]: 现在是特殊时期，
+[Speaker 1]: 我干嘛要头破血流去抢？
+[Speaker 0]: 所以今天早上一起来一看，
+[Speaker 1]: 果真没有买到，
+[Speaker 1]: 所以我应该五点多醒了一次吧。
+[Speaker 0]: 那个时候已经到盘后了，
+[Speaker 0]: 我就取消了我的大账户，
+[Speaker 0]: 还有模拟账户的呃这个单子。
+[Speaker 0]: 然后我在昨天以及之前就告诉会员社群了。
+[Speaker 1]: 如果第一天没有买到，
+[Speaker 1]: 我想要去看 k 线，
+[Speaker 0]: 看一下第一天上市日内怎么走的，
+[Speaker 1]: 看一下接下来几天 k 线怎么走。
+[Speaker 0]: 那第一天上市的日内图真的是太丑，
+[Speaker 0]: 了高开低走高开特别特别多。
+[Speaker 0]: 你想啊本身 IPU 定价已经比较无耻的，
+[Speaker 0]: 从七十到七十八提到八十三了，
+[Speaker 1]: 然后还被市场炒到高开一百一十上方。
+[Speaker 0]: 然后现在夜盘多少？
+[Speaker 0]: 我看一下目前我电脑这里页盘的价格九十一，
+[Speaker 0]: 如果我没有取消单子，
+[Speaker 1]: 我现在已经买入了这些股票，
+[Speaker 1]: 但我已经不愿意买入了。
+[Speaker 0]: 这个走势让我想到了另外一家公司今年上市的 syrebrbus syrebris。
+[Speaker 0]: 我也做过个股分析，
+[Speaker 1]: 我也曾经像 authrobic 想要买入，
+[Speaker 0]: 我也是像 athrobic 一样，
+[Speaker 1]: 因为没有到我的价格，
+[Speaker 0]: 我没有买入。
+[Speaker 0]: 然后呢，
+[Speaker 0]: 他就开始哒哒哒哒哒哒下跌。
+[Speaker 0]: 那现在对于 anthropic，
+[Speaker 0]: 我对它上市的表现，
+[Speaker 1]: 股价的走势很失望。
+[Speaker 1]: 请注意，
+[Speaker 1]: 我不是说对他公司很失望。
+[Speaker 1]: 对，
+[Speaker 0]:  anthropic 这家公司，
+[Speaker 0]: 其实我在过去几个月已经抛弃了很多我个人的情绪上的偏见，
+[Speaker 1]: 我想要对它有个更加中立的认识，
+[Speaker 1]: 我觉得他是值得投资的公司，
+[Speaker 1]: 但是 at which price 对吧？
+[Speaker 0]: 那昨天我愿意提供的价格就是九十一点三，
+[Speaker 0]: 大约已经到了一点五到一点六一点六万亿市值了。
+[Speaker 0]: 我已经觉得很不错了，
+[Speaker 1]: 如果他到不了，
+[Speaker 0]: 我就不买。
+[Speaker 0]: 那现在他虽然到了，
+[Speaker 1]: 但是第一天走势太差，
+[Speaker 0]: 接下来怎么怎么走，
+[Speaker 1]: 我不知道对吧？
+[Speaker 0]: 这和 spic 当初完全不一样哦，
+[Speaker 0]:  speciic 当初我第一时间买入，
+[Speaker 1]: 而且买入还加仓了。
+[Speaker 1]: 就是因为一百五的当天上市价格相较于 IPU 价格一三五我觉得是非常 reasonable。
+[Speaker 1]: 那你看看 topic 一开盘的价格，
+[Speaker 1]: 一百一十上方 IPO 价格八十三，
+[Speaker 0]: 这这这涨了多少啊，
+[Speaker 0]: 对吧？
+[Speaker 0]: 也就意味着如果你在开盘去买入的话，
+[Speaker 0]: 你现在亏惨，
+[Speaker 1]: 而且你现在会非常非常慌，
+[Speaker 1]: 而且你大概率会想要止损，
+[Speaker 0]: 因为你忍不住嘛，
+[Speaker 0]: 我第一天我都亏了这么多。
+[Speaker 0]: 这和 syribris 真识真的是非常像。
+[Speaker 1]: 我希望 thriby 不要像 syribris 之后的走势，
+[Speaker 1]: 我也觉得不会像那样的走势。
+[Speaker 1]: 但是目前从我的心理预期来看，
+[Speaker 1]: 不管它估值啊，
+[Speaker 0]: 因为 ethopc c 样的公司怎么估估值，
+[Speaker 1]:  space 这样的公司你怎么估值嘛，
+[Speaker 0]: 你只能去找锚点。
+[Speaker 1]: 说实话，
+[Speaker 0]: 你不要妄想着能够找到一个固定的估值的点，
+[Speaker 0]: 他每天都有新的数据，
+[Speaker 1]: 给你新的事情发生。
+[Speaker 1]: 你找不到这种很具体的很合理的估值的点，
+[Speaker 0]: 所以锚点就是八十三，
+[Speaker 1]: 我看能不能跌破八十三，
+[Speaker 1]: 对吧？
+[Speaker 0]: 那 space SIPU 上市的时候呃，
+[Speaker 0]: 是冲高到两百多，
+[Speaker 0]: 然后回落到一百五这个开盘价，
+[Speaker 1]: 然后回落到一百三，
+[Speaker 0]: 然后再到一百一十附近，
+[Speaker 0]: 现在呢价格又到了一百三十五岁。
+[Speaker 0]: 我之前说了嘛，
+[Speaker 0]: 我在今天一百三十五附近又买了之前上周卖出的呃股数的三分之一左右买回来了。
+[Speaker 0]: 所以对整个 anthroping 股价的走势，
+[Speaker 1]: 我是非常不喜欢。
+[Speaker 0]: 所以现在到了价格我也不想去接了，
+[Speaker 0]: 对吧？
+[Speaker 1]: 那回到刚刚 space 图再次说明现在在 thhobic 上市落定了，
+[Speaker 0]: 它的表现落定了，
+[Speaker 1]: 它的它的它的 IPU 价格落定了，
+[Speaker 0]: 黄润旭回不来，
+[Speaker 1]: 基本上也落定了。
+[Speaker 0]: 那这些不确定性全部全部发生了，
+[Speaker 0]: 包括市场已经 price in 了，
+[Speaker 0]: 十二月加息嘛，
+[Speaker 0]: 对吧？
+[Speaker 1]: 十二月肯定会加息了，
+[Speaker 0]: 按照现在的概率，
+[Speaker 0]: 那今年基本上从外部来讲，
+[Speaker 0]: 不会不会应该不会再有什么过于夸张的事情发生了。
+[Speaker 0]: 所以呢把三分之一的 species 买回来，
+[Speaker 1]: 然后呢还有百分之三十多的现金，
+[Speaker 1]: 同时呢我还有三只空头仓位。
+[Speaker 0]: 我卖空的具体是什么仓位呢？
+[Speaker 0]: 我已经和会员做了详细的分享。
+[Speaker 1]: 那么我今天在 x 上也公布了有两只，
+[Speaker 0]: 其中一只是 polo auto network，
+[Speaker 1]: 另外一只是特斯拉。
+[Speaker 0]: 然后今天还做了一次空一只空投仓位。
+[Speaker 0]: 所以呢我现在更更勇敢的去空这些我觉得估值比较高的的的的股票，
+[Speaker 0]: 但是要去抄离 a 础设施，
+[Speaker 0]: 我现在觉得不放心，
+[Speaker 0]: 对吧？
+[Speaker 0]: 我只敢去买 AI 基础设施里面龙头中的龙头 space、
+[Speaker 0]:  sex 帮它买过来一点。
+[Speaker 0]: 那如果放眼整个 AI 呢？
+[Speaker 0]: 我目前关注的公司只有两家，
+[Speaker 0]: 第一家就是 space，
+[Speaker 0]:  cess、
+[Speaker 0]: 第二家就是 authorpy。
+[Speaker 0]: 这两家公司我会持续关注钱，
+[Speaker 0]: 我肯定会投资，
+[Speaker 0]: 但是就是看什么价格，
+[Speaker 0]:  asorping 和 specix 刚刚都具体说明了，
+[Speaker 0]: 我已经有了什么操作，
+[Speaker 0]: 接下来什么价格去等什么价格，
+[Speaker 0]: 对吧？
+[Speaker 0]: 有什么操作，
+[Speaker 0]: 大家应该基本上了解啊。
+[Speaker 0]: 所以呢聊完了这么多，
+[Speaker 0]: 我想回过头来，
+[Speaker 0]: 如果屏幕前的你们在过去很长一段时间没有很好的去止盈，
+[Speaker 0]: 没有很好的去减仓。
+[Speaker 0]: 甚至个别朋友个别同学还在满仓，
+[Speaker 1]: 现在是要把它全盘清掉的时候吗？
+[Speaker 0]: 我觉得不是请注意我的我的陈述啊。
+[Speaker 0]: 你如果前面这么长的时间还没减，
+[Speaker 0]: 都熬过来了，
+[Speaker 0]: 可能盈利全部没了，
+[Speaker 0]: 甚至产生了亏损。
+[Speaker 1]: 那你现在这样的低点再去减仓，
+[Speaker 0]: 可能我觉得从投资心理的角度来说是是不对的。
+[Speaker 0]: 可能在你本身就在前面，
+[Speaker 0]: 没有减仓，
+[Speaker 1]: 没有止盈这个错的基础上再犯一个错，
+[Speaker 1]: 就是你可能减在一个相对低点了啊，
+[Speaker 0]: 那接下来一个多月我没有觉得很悲观，
+[Speaker 0]: 就是基于上面我提到的这些原因，
+[Speaker 1]: 而且我觉得对于二零二七年，
+[Speaker 1]: 我还是乐观的。
+[Speaker 0]:  AI 的这个泡沫被部分刺破，
+[Speaker 0]: 甚至全部刺破之后，
+[Speaker 1]: 让我对二零二七年的 AI 有了更多的期待。
+[Speaker 0]:  s 本人在二零二六年前面四五个月，
+[Speaker 0]: 其实没有在 AI 上赚钱，
+[Speaker 1]: 我没有买到存储，
+[Speaker 0]: 对吧？
+[Speaker 0]: 我是在什么时候才进入 AI 基础设施的呢？
+[Speaker 1]: 是在四月五月之后，
+[Speaker 1]: 慢慢的做了一些波段，
+[Speaker 0]: 这里面有赚有亏。
+[Speaker 0]: 可以说整个一年下来，
+[Speaker 1]: 我不是最大的受害者。
+[Speaker 1]: 很多最大的受害者其实是那些在前面四个月享受了 AI 的大幅上涨之后，
+[Speaker 0]: 加杠杆满仓承受了五月之后，
+[Speaker 1]: 到现在震荡下跌，
+[Speaker 0]: 震荡下跌，
+[Speaker 0]: 震荡下跌煎熬的过程。
+[Speaker 1]: 你比如说我分享过吗？
+[Speaker 0]: 呃，
+[Speaker 0]:  leopod 刘波，
+[Speaker 1]: 这个大名鼎鼎的网红基金管理人，
+[Speaker 0]: 自己的持仓净值从二十亿跌到一点几亿 serenity。
+[Speaker 0]: 这个知名博主关注了，
+[Speaker 1]: 我很荣幸，
+[Speaker 0]: 他的收益从百分之四千，
+[Speaker 1]: 也就是四十倍到了百分之四百多五百，
+[Speaker 1]: 可能现在还在跌以上，
+[Speaker 0]: 两个肯定都还在跌。
+[Speaker 0]: 就是说它们的净值不是说确定性啊，
+[Speaker 0]: 你比如说 serenity，
+[Speaker 1]: 我不知道它的本金嘛，
+[Speaker 1]: 大概净值都跌了百分之九十以上。
+[Speaker 0]: 其实这部分人才是最难受的，
+[Speaker 1]: 当然比他们更难受的，
+[Speaker 0]: 就是背后的散户已经亏本了，
+[Speaker 0]: 都没有赚了，
+[Speaker 0]: 对吧？
+[Speaker 1]: 刘波拿的是别人的钱，
+[Speaker 1]: 可能也有自己的钱，
+[Speaker 1]: 体自己的钱，
+[Speaker 0]: 但是他还是赚的。
+[Speaker 0]: 散户朋友们就比较难过了。
+[Speaker 0]: 哎，
+[Speaker 1]: 很感叹吧，
+[Speaker 1]: 很头疼。
+[Speaker 1]: 挚爱时刻过了，
+[Speaker 1]: 如果你没有减仓，
+[Speaker 1]: 你现在要去清仓很难。
+[Speaker 0]: 现在真的就像是手握半导体股票，
+[Speaker 0]: 就好像是手握炸药呀，
+[Speaker 1]: 卖也不是，
+[Speaker 0]: 不卖也不是，
+[Speaker 0]: 对吧？
+[Speaker 0]: 嗯，
+[Speaker 0]: 关于 RQB 我的重仓，
+[Speaker 1]: 我在昨天的视频已经做了详细的说明，
+[Speaker 0]: 拿着 RQB 它跌到五十，
+[Speaker 0]: 它跌吧。
+[Speaker 1]: 就是我对它有一个很好的认知，
+[Speaker 0]: 我从心理上能够去承受它的波动。
+[Speaker 0]: 所以有的时候你说哎 AI 跌了，
+[Speaker 0]: 你的 RQB 也跌，
+[Speaker 0]:  RKLB 也跌了，
+[Speaker 0]: 但对于我而言是不同的。
+[Speaker 0]: 就好像你问我，
+[Speaker 1]: 我持有 natos 跌到现在和我持有 RQBB 跌到现在哪一家我更舒服。
+[Speaker 1]: 那显然是 RQB 啊，
+[Speaker 1]: 因为我对它更有 conviction，
+[Speaker 0]: 所以同样的跌，
+[Speaker 1]: 哪怕是可能跌的幅度一样。
+[Speaker 0]: 那我自己也有自己的 preference。
+[Speaker 0]: 对吧？
+[Speaker 0]: 这个是不同的概念。
+[Speaker 0]: 嗯，
+[Speaker 1]: 行，
+[Speaker 0]: 今天聊的比较啰嗦。
+[Speaker 1]: 然后就把我对接下来的看法，
+[Speaker 0]: 对我自己投资的计划，
+[Speaker 0]: 把我昨天对 anthrobic 操作的想法，
+[Speaker 1]: 对 space 操作的想法，
+[Speaker 1]: 以及昨天发布的视频，
+[Speaker 1]: 对 RKLB 操作的想法，
+[Speaker 1]: 以及持有的一些空仓的大概的信息披露给大家。
+[Speaker 0]:  OK 要周末了，
+[Speaker 0]: 我们先享受一个愉快的周末，
+[Speaker 1]: 我们下期视频再见。
