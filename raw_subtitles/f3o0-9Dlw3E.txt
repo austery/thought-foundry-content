@@ -1,0 +1,394 @@
+[Speaker 1]:  right？
+[Speaker 1]:  hi everyone。
+[Speaker 1]:  we gonna talk today about continuous offensive security。
+[Speaker 1]:  ok，
+[Speaker 1]:  i'm gonna speak quite soon。
+[Speaker 1]:  what does it mean？
+[Speaker 1]:  uh before before ath a little bit about me，
+[Speaker 1]:  very excited being here today，
+[Speaker 1]:  i am ali。
+[Speaker 1]:  uh used to be coffound in COO，
+[Speaker 1]:  helio surrountime security company gathdetic quied by snake。
+[Speaker 1]:  and in the last two enough years，
+[Speaker 1]:  i had the privilege and walking in snake，
+[Speaker 1]:  primarily on product management for AII product，
+[Speaker 1]:  but more recently founding filld CPO meaningm working with develop ed，
+[Speaker 1]:  because and with security folks to better understand than to help them shape their strategy around AI security。
+[Speaker 1]:  so how do you take your AI agents and making sure they are um secured？
+[Speaker 1]:  how do you walk with your agents in production begdar？
+[Speaker 1]:  can you set up the time for me，
+[Speaker 1]:  please？
+[Speaker 1]:  the timer。
+[Speaker 1]:  so i'm not the time great。
+[Speaker 1]:  okay。
+[Speaker 1]:  now we have the time also also um so just i'll get to new o will be better。
+[Speaker 1]:  please face your hand who is heal more from the development side of the table developers。
+[Speaker 1]:  okay，
+[Speaker 1]:  great from the security side of the table。
+[Speaker 1]:  yeah，
+[Speaker 1]:  i already know you great。
+[Speaker 1]:  and other people like sales marketing are do people running agences in production that are not from development on security grade。
+[Speaker 1]:  okay。
+[Speaker 1]:  so we have everyone here，
+[Speaker 1]:  so i'm going to taylow low usession，
+[Speaker 1]:  ent words，
+[Speaker 1]:  everyone。
+[Speaker 1]:  so obviously，
+[Speaker 1]:  this is an ai engineerine conference，
+[Speaker 1]:  right？
+[Speaker 1]:  right？
+[Speaker 1]:  so already know that the amount of code generated today is incredibly bigget than it used to be before。
+[Speaker 1]:  okay，
+[Speaker 1]:  according to our data，
+[Speaker 1]:  it's two hundred and eighteen percent more lines of code pailed。
+[Speaker 1]:  the developer than it ues to be before，
+[Speaker 1]:  okay。
+[Speaker 1]:  and more than eighty five percent over the developers are actually using code engages。
+[Speaker 1]:  and i probably running here today。
+[Speaker 1]:  it's more than one hundred percent，
+[Speaker 1]:  right？
+[Speaker 1]:  because i yes，
+[Speaker 1]:  that each one of you probably offs five different session of cloud cord running simultaneously hotherwise you would in beer today。
+[Speaker 1]:  and the funny thing about those agents running in production and generating quote for us is that it's far less secured than we are useally。
+[Speaker 1]:  okay。
+[Speaker 1]:  so sixty two percent of the output generated，
+[Speaker 1]:  but alyams is not secure or it's broken。
+[Speaker 1]:  okay。
+[Speaker 1]:  so just imagine this data combined together，
+[Speaker 1]:  it's meaning that we are generating more code than we ever did，
+[Speaker 1]:  and this insecure code is getting into production。
+[Speaker 1]:  so that's your challenge for us as a community。
+[Speaker 1]:  and what it's actually means is that our backlog of security issues is becoming longer and bigger and much more challenging to remediathis。
+[Speaker 1]:  okay。
+[Speaker 1]:  so we are actually creating many more issues at the pace that we simply couldn't remediate or mitigate。
+[Speaker 1]:  and not only that AI is helping our attackers also。
+[Speaker 1]:  so they are 're able to chain low vulnerababilities together。
+[Speaker 1]:  and form m cricriticvulnererabilities from those um low low security vulnererabilities。
+[Speaker 1]:  and what's actually is going on is that attackers are leveraging those allams，
+[Speaker 1]:  and they are tacking us，
+[Speaker 1]:  especially where it's very difficult using um application context。
+[Speaker 1]:  this is actually where our elelims are struggled，
+[Speaker 1]:  the most cause they're creating many vvulnerabilities around those areas。
+[Speaker 1]:  so obviously，
+[Speaker 1]:  we are leveraging GI，
+[Speaker 1]:  but our attackers are overall，
+[Speaker 1]:  also leveraging frontier models。
+[Speaker 1]:  okay，
+[Speaker 1]:  and the numbers are simply incredible。
+[Speaker 1]:  okay，
+[Speaker 1]:  we are familiar with an operating model that actually was able to identify more than six hundred vulnerable abilities to bredge six hundred firewalls in more than five，
+[Speaker 1]:  fifty five countries。
+[Speaker 1]:  okay，
+[Speaker 1]:  this is simply undeliverable。
+[Speaker 1]:  and the time for an ai attack to be effective is constantly getting faster and faster。
+[Speaker 1]:  okay。
+[Speaker 1]:  so the average time for an ai attack to be successful is twenty four，
+[Speaker 1]:  twenty four minutes。
+[Speaker 1]:  okay？
+[Speaker 1]:  well，
+[Speaker 1]:  the fastest time is four minutes。
+[Speaker 1]:  okay，
+[Speaker 1]:  it means that sense the moment i began talking there is probably an air ethic out there that was able to successfully bridge a production system and forty three percent of all the mcpiece evers actually as vulnerabilities。
+[Speaker 1]:  okay。
+[Speaker 1]:  so combining all of this data together，
+[Speaker 1]:  what we realize is that we are producing much more code than ever。
+[Speaker 1]:  each one of us as a few session simultaneously of cloucororder of cordetics。
+[Speaker 1]:  those this code is insecuure。
+[Speaker 1]:  it's getting into production。
+[Speaker 1]:  and the people we are facing their attackers are actually leveraging the sang tools，
+[Speaker 1]:  and they are acting faster than ever in trying to actually leverage those vulnererabilities。
+[Speaker 1]:  and our backlog is simply getting piled up，
+[Speaker 1]:  and we are not able to get it。
+[Speaker 1]:  this is exactly what i want to talk about today what we should be doing to to to help improve our security posure。
+[Speaker 1]:  and this is that is heavily to how we can leverage offensive security，
+[Speaker 1]:  not just for the attackers，
+[Speaker 1]:  but for us as defenders。
+[Speaker 1]:  so white traditional security can really keep up。
+[Speaker 1]:  so there is a mix audience today，
+[Speaker 1]:  both people from the development side also people from the security side。
+[Speaker 1]:  so i want to cover for us a few basic concepts，
+[Speaker 1]:  okay，
+[Speaker 1]:  to make sure everyone is familiar with。
+[Speaker 1]:  so what used to be really easy about operating was staartic code scanning。
+[Speaker 1]:  okay，
+[Speaker 1]:  sus。
+[Speaker 1]:  so imagine that you are pushing new culture production。
+[Speaker 1]:  there is a static scanal that is scanning that and is looking for rescual injection coall sidescript in。
+[Speaker 1]:  so it used to be relatively cheap and relatively easy to run this across every cold change。
+[Speaker 1]:  and this is great know what it doesn't catch。
+[Speaker 1]:  it doesn't take catch things that are going into runtime。
+[Speaker 1]:  okay。
+[Speaker 1]:  so if you have any authorization issues，
+[Speaker 1]:  if you have any configlaation issues for that，
+[Speaker 1]:  you will need dynamic application security testing。
+[Speaker 1]:  okay，
+[Speaker 1]:  you need something the test application dynamically。
+[Speaker 1]:  one example is eboluh working object level authorization，
+[Speaker 1]:  which basically，
+[Speaker 1]:  it means that user a can access the data of user。
+[Speaker 1]:  be okay，
+[Speaker 1]:  those kind of vulnerabilities you can never find with static analysis for that。
+[Speaker 1]:  you need to prob application in runtime。
+[Speaker 1]:  so what actually a darsccannis is doing？
+[Speaker 1]:  it takes kes a define set of tons of payloads，
+[Speaker 1]:  and it just sending to the application to the different api and points。
+[Speaker 1]:  and by that，
+[Speaker 1]:  it managed to find vulnerabilities。
+[Speaker 1]:  so this was also something that could find new things。
+[Speaker 1]:  but it wasn't good with the biggest challenge we have with the code，
+[Speaker 1]:  the teroleyama are producing。
+[Speaker 1]:  and this is the business logic。
+[Speaker 1]:  so for that，
+[Speaker 1]:  what we''ve been using as industry，
+[Speaker 1]:  it's the pantesting。
+[Speaker 1]:  okay。
+[Speaker 1]:  so what's the idea about pantesting？
+[Speaker 1]:  it's a human pentester that really understands the concept and the business logic of the application。
+[Speaker 1]:  and he's trying to break it。
+[Speaker 1]:  and to find all devonabilities。
+[Speaker 1]:  now it is the goldon starard in application security testing，
+[Speaker 1]:  but it has some challenges，
+[Speaker 1]:  right。
+[Speaker 1]:  first of all，
+[Speaker 1]:  it's costs a lot of right，
+[Speaker 1]:  right，
+[Speaker 1]:  because you actually needed to have a security research，
+[Speaker 1]:  a human，
+[Speaker 1]:  not a human in the loop，
+[Speaker 1]:  a human that is actually doing the testing and trying to break the application。
+[Speaker 1]:  and that's cost a lot of money。
+[Speaker 1]:  now the second problem is because it costs a lot of money。
+[Speaker 1]:  and because the process was so slow，
+[Speaker 1]:  companies can only do it once a year，
+[Speaker 1]:  two times a year，
+[Speaker 1]:  maybe three times a year。
+[Speaker 1]:  okay。
+[Speaker 1]:  so combining the fact that nowadays，
+[Speaker 1]:  our ai attackers are trying to continuous the attack us like doing their spantesting two times a year is simply not good enough。
+[Speaker 1]:  okay。
+[Speaker 1]:  so what are you going to do with the rest of the three hundred fifty days？
+[Speaker 1]:  you have a yell that no one tested your application。
+[Speaker 1]:  not now，
+[Speaker 1]:  not only that the results you got the result，
+[Speaker 1]:  you got this crazy and glogified poouked in pdf that you had to send you your developers。
+[Speaker 1]:  you had to take it back to understand what's really。
+[Speaker 1]:  and what's not and then to start fixing that。
+[Speaker 1]:  and then you had to retest okit sounds like a movie from the nineties，
+[Speaker 1]:  right？
+[Speaker 1]:  it doesn't make sense to do it this anymore。
+[Speaker 1]:  but this was the gonderstandthis。
+[Speaker 1]:  this is what we were doing now。
+[Speaker 1]:  i think，
+[Speaker 1]:  is this is the best method out there to actually test your application for its business logic。
+[Speaker 1]:  okay。
+[Speaker 1]:  so what changes today today？
+[Speaker 1]:  we have a new technology。
+[Speaker 1]:  and this is exactly when i want to talk how we can leverage this new area of AI tools and LLM and volunteer models to actually do pana strink on a continuous manu in a scheduabled manner。
+[Speaker 1]:  and this is why we're introducing evil，
+[Speaker 1]:  continuous offensive security。
+[Speaker 1]:  okay。
+[Speaker 1]:  so this is obviously very tied up to what we're doing within snake。
+[Speaker 1]:  but what i'm going to tell you you today is general，
+[Speaker 1]:  okay，
+[Speaker 1]:  you can take the principles of what i'm telling you，
+[Speaker 1]:  and you can actually verify that with any window out there in the export。
+[Speaker 1]:  okay。
+[Speaker 1]:  so i want i want you to think about the following things。
+[Speaker 1]:  okay。
+[Speaker 1]:  so what you need to do today，
+[Speaker 1]:  you need to prepare your production system from the unknown unknowns。
+[Speaker 1]:  okay。
+[Speaker 1]:  and for that，
+[Speaker 1]:  you need a new parwer diam。
+[Speaker 1]:  okay。
+[Speaker 1]:  so first of all，
+[Speaker 1]:  obviously，
+[Speaker 1]:  you need the AI pantesting capabilities，
+[Speaker 1]:  which i will doubicly on soon again，
+[Speaker 1]:  but you also need to start taking the concept of red timing。
+[Speaker 1]:  okay，
+[Speaker 1]:  so agent to red timing。
+[Speaker 1]:  the idea is to take multhe steps attacks。
+[Speaker 1]:  okay。
+[Speaker 1]:  so to try to simulate prompty jjection or data exploration and goal eye inkin，
+[Speaker 1]:  and obviously，
+[Speaker 1]:  to combine it with dynamic testing that is good at identifying authorization issues。
+[Speaker 1]:  so we are taking all of those capabilities together。
+[Speaker 1]:  we are building one sweet out of that for offensive security as part of our evil offering。
+[Speaker 1]:  and their idea is to help you actually mitigate or help you a handle the fact that there are tackkles are leveraging the same tools that we are using。
+[Speaker 1]:  and they are doing that in a continuous manual，
+[Speaker 1]:  twenty four seven finding vulnerababilities faster than than before，
+[Speaker 1]:  and your backlog simply can can can stand up with that。
+[Speaker 1]:  so what we are doing differently within AI pantesting。
+[Speaker 1]:  okay。
+[Speaker 1]:  so i told you before the great promise of fantesting was always the fact that the human and the end really understand the business context。
+[Speaker 1]:  okay。
+[Speaker 1]:  so now we are taking this to the l lamb。
+[Speaker 1]:  and if there's something that alellama are very good at is really trying to understand the business context。
+[Speaker 1]:  so behind the ying，
+[Speaker 1]:  we are leveraging the all lams，
+[Speaker 1]:  and we are doing that in a continuous manner。
+[Speaker 1]:  rights are no longer yougonna do things like do pantesting twice a year or three times a year。
+[Speaker 1]:  we gonna do it on every coal change。
+[Speaker 1]:  okay，
+[Speaker 1]:  every PR that you send every delttown。
+[Speaker 1]:  we're gone around this spentist for you，
+[Speaker 1]:  and we're gonna tell your developers。
+[Speaker 1]:  what do you they need to fix and how do they need to do it differently？
+[Speaker 1]:  obviously，
+[Speaker 1]:  we leveelage our understanding of the application context，
+[Speaker 1]:  but we also helplly use the false positive for us as a industry。
+[Speaker 1]:  we have a severe problem of false positive。
+[Speaker 1]:  so we are actually proving you that the vulignabiliunities that we are finding are actually exploitable，
+[Speaker 1]:  and we jump just flag them as bugs。
+[Speaker 1]:  we actually prehat you prove that they are exploitabthem，
+[Speaker 1]:  and we take context for many different machines and for many different environments，
+[Speaker 1]:  and we combine them together to help to guide our l limbs。
+[Speaker 1]:  okay。
+[Speaker 1]:  so this is what we're doing differently。
+[Speaker 1]:  and i think this is really what makes this solution so unique and so well positioned to the fact that each one of us have a few code engagets running in production and pushing more code than ever。
+[Speaker 1]:  now how do we do it？
+[Speaker 1]:  how does it work behind the things？
+[Speaker 1]:  okay。
+[Speaker 1]:  so what i want you to understand is we are not taking the static scanners or the dust scners and just combine him with LLM。
+[Speaker 1]:  okay，
+[Speaker 1]:  we build it from the ground up up ugalalyym。
+[Speaker 1]:  so we have a series of a few agents working together。
+[Speaker 1]:  the first one is the LM orchestrate。
+[Speaker 1]:  okay，
+[Speaker 1]:  imagine it as the brain。
+[Speaker 1]:  this agent is walking according to a dynamic plan that it follows，
+[Speaker 1]:  and he knows how to operate all the different sub agents。
+[Speaker 1]:  the first agent，
+[Speaker 1]:  or actually，
+[Speaker 1]:  the second agent is the recon。
+[Speaker 1]:  okay，
+[Speaker 1]:  you can imagine it as your elite intelligence unit。
+[Speaker 1]:  the idea is to collect all the data it can about the different network can points the different api。
+[Speaker 1]:  the different phinkle prints collect all of this data together，
+[Speaker 1]:  formalize an architecture out of that and hand it to the next agent。
+[Speaker 1]:  and the next agent is the vulnererability testing。
+[Speaker 1]:  it's actually again a series of a few specialized agents。
+[Speaker 1]:  some of them are targeting the well known classes of vulnererabilities。
+[Speaker 1]:  some of them are actually hunting for vulnererabilities in the wild，
+[Speaker 1]:  and they are trying to break your application to understand the business context and to understand where can attackle can get from。
+[Speaker 1]:  and then they handed into the judge，
+[Speaker 1]:  as i like to call it the exploit validation。
+[Speaker 1]:  so actually，
+[Speaker 1]:  every vulnererability that the previous agents find are now being ended over to this judge。
+[Speaker 1]:  and the goal of the judge is to tell us whether this is a real vulnerability or or not to tell us whether this can be exploititabil or not exactly because we want to reuse the cognitive load exactly because we want to reduce the amount of false positive we have in the system coming up。
+[Speaker 1]:  next is the remediation agent because everything we do，
+[Speaker 1]:  we want to make actionable。
+[Speaker 1]:  okay，
+[Speaker 1]:  we don't want to report about a vulnerability that eventually the developers，
+[Speaker 1]:  they don't know what they can do with that。
+[Speaker 1]:  and coming after that is the report in agent，
+[Speaker 1]:  because everything in is to be reported。
+[Speaker 1]:  so what makes us different？
+[Speaker 1]:  and those of the point，
+[Speaker 1]:  i alge you to check with every vendow out there，
+[Speaker 1]:  trying to provide you with the solution or whether you want to implement a solution in house for air pantesting。
+[Speaker 1]:  this is the huhuge industry right now。
+[Speaker 1]:  so i think the most important thing you need to remember is，
+[Speaker 1]:  and you already know that especially the developers in the room context is everything your LLM are as good as the context that you feed them weak。
+[Speaker 1]:  so what we're trying to do。
+[Speaker 1]:  we are not just taking our AAI pantesting solution as it stand alone。
+[Speaker 1]:  we actually feed it，
+[Speaker 1]:  we data from all the previous scanner。
+[Speaker 1]:  okay。
+[Speaker 1]:  so the the statics code scanner，
+[Speaker 1]:  the dynamical scanner，
+[Speaker 1]:  all lot of different engine engines are being combined together，
+[Speaker 1]:  and they are being fed into a our AI pantesting solution。
+[Speaker 1]:  because that way，
+[Speaker 1]:  we know how to tailor，
+[Speaker 1]:  and we know how to get there lamb well to look for。
+[Speaker 1]:  and as you know，
+[Speaker 1]:  also for methods of frabel，
+[Speaker 1]:  when those models ls know where look look results ts significantly better。
+[Speaker 1]:  so that's one thing we are doing that is very uniquque and very differentiated。
+[Speaker 1]:  um and also what i want you to remember is that one solution is not enough。
+[Speaker 1]:  okay，
+[Speaker 1]:  the great thing about it is when you combine those things together and based on the data that we see both from the labs and from real data from customers，
+[Speaker 1]:  combining the data together is really what's important。
+[Speaker 1]:  and you can really，
+[Speaker 1]:  you can really use just one of them。
+[Speaker 1]:  okay，
+[Speaker 1]:  there are certain classes of vulnnababilities。
+[Speaker 1]:  this dust is the best canal for that。
+[Speaker 1]:  okay，
+[Speaker 1]:  because you have a set of really exhaustive pread，
+[Speaker 1]:  a set of really exhausted um payloads that you can send your application。
+[Speaker 1]:  so it's very good。
+[Speaker 1]:  for example，
+[Speaker 1]:  with coursts，
+[Speaker 1]:  i scaping。
+[Speaker 1]:  okay。
+[Speaker 1]:  so does，
+[Speaker 1]:  for course，
+[Speaker 1]:  i think costs that scaping is the best solution。
+[Speaker 1]:  but if you want again，
+[Speaker 1]:  like business logic，
+[Speaker 1]:  then you should combine it with pantesting because it will be the best solution。
+[Speaker 1]:  so i think what i really want him to take from this。
+[Speaker 1]:  if there is one thing i wanted to take for me is to realize that the world is changing。
+[Speaker 1]:  you already know that，
+[Speaker 1]:  that's what made you come in。
+[Speaker 1]:  but you know，
+[Speaker 1]:  we used to test our application once every few months，
+[Speaker 1]:  because the change and the velocity of the change was so slow，
+[Speaker 1]:  and we we had people at end that were reasoning about the application and about the change，
+[Speaker 1]:  but that world d does not longer exist。
+[Speaker 1]:  right？
+[Speaker 1]:  right now，
+[Speaker 1]:  we are pushing call to production twenty four，
+[Speaker 1]:  seven，
+[Speaker 1]:  and we have l limbs that are time to listen about the application context，
+[Speaker 1]:  and that are trying to break continuuously。
+[Speaker 1]:  some of them can do it in like as fast as four minutes。
+[Speaker 1]:  okay，
+[Speaker 1]:  that's almost five time of the lecture of the session that they just did。
+[Speaker 1]:  so when you're coming to look for new solutions for this problem，
+[Speaker 1]:  you have to ask yourself full questions。
+[Speaker 1]:  okay。
+[Speaker 1]:  first of all，
+[Speaker 1]:  do we run this solution in a continuous way？
+[Speaker 1]:  okay。
+[Speaker 1]:  it just a point solution that we learn every once in a while。
+[Speaker 1]:  okay，
+[Speaker 1]:  that's a major difference。
+[Speaker 1]:  second，
+[Speaker 1]:  do they really reason about the application context？
+[Speaker 1]:  okay。
+[Speaker 1]:  because given the nature of dogzell，
+[Speaker 1]:  l mm，
+[Speaker 1]:  application context is really where the new foreign abilities are coming from。
+[Speaker 1]:  and third，
+[Speaker 1]:  what more context can they digest？
+[Speaker 1]:  okay，
+[Speaker 1]:  how can they enrich the data？
+[Speaker 1]:  because the rich，
+[Speaker 1]:  the data is the better，
+[Speaker 1]:  and by the way，
+[Speaker 1]:  cheaper，
+[Speaker 1]:  the airelem operation is gonna be。
+[Speaker 1]:  and the fourth path is，
+[Speaker 1]:  do they really help me wolve that there is a bug and to make sure that this is exploitable able data a just fgg it as a bug。
+[Speaker 1]:  okay。
+[Speaker 1]:  so our goal is not only to help you find a bug's faster，
+[Speaker 1]:  but to actually do it better and cheaper and to help you as a developer or as the security people here focus on what matters most。
+[Speaker 1]:  so thank you very much。
+[Speaker 1]:  and i used to do it in every election。
+[Speaker 1]:  you know，
+[Speaker 1]:  my my doing was to be a oxstyle，
+[Speaker 1]:  but i to be a cyblling cpanoon。
+[Speaker 1]:  so instead of that，
+[Speaker 1]:  i'm going to take take picture so ends up everyone。
+[Speaker 0]:  okay。
+[Speaker 1]:  are 're great。
+[Speaker 1]:  thank you so much。
+[Speaker 1]:  and i'm here for questions。
+[Speaker 1]:  if you want go for the boot，
+[Speaker 1]:  it's very closeer snicked that i'll meet evil。
+[Speaker 1]:  i will new AI security offering。
+[Speaker 1]:  thank you so much。
