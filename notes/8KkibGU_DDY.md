@@ -6,13 +6,13 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=8KkibGU_DDY
 speaker: AI Engineer
 tags:
-  - agent-evaluation
-  - token-economics
-  - acceptance-criteria
+  - agent-measurement
+  - token-cost
+  - roi
   - mental-model
-  - information-entropy
-title: 鼠力隐喻与心智模型：破解 AI Agent 的价值度量困局
-summary: Yutori 创始设计师 Maximillian Piras 探讨了当前 AI Agent 面临的核心瓶颈：能力增长与价值度量之间的脱节。类比瓦特发明'马力'来破除用户对蒸汽机的认知阻碍，文章提出了'鼠力'（Mouse Power）概念，并基于香农信息熵构建了涵盖'执行步骤不确定性'与'验收标准不确定性'的二维评估矩阵，指出理想的 Agent 场景应具备类似 NP 问题的特征——验证难度远低于执行难度，从而实现以算力速度度量价值。
+  - verification
+title: Mouse power：通过心智模型衡量智能体
+summary: 演讲者认为智能体存在衡量问题，借詹姆斯·瓦特提出马力的故事，提出需要能把 token 花费与结果和投资回报联系起来的衡量方式，并给出以任务步骤不确定性和验收标准不确定性为两轴的思考矩阵，称其仍在探索中。
 insight: ''
 draft: true
 series: ''
@@ -20,148 +20,123 @@ category: ai-application
 area: tech-engineering
 project: []
 people: []
-companies_orgs:
-  - Yutori
+companies_orgs: []
 products_models: []
 media_books: []
 status: evergreen
 ---
-### 后台并行探索与 Token 账单焦虑
+### 开场与日常使用智能体的方式
+<details>
+<summary>Original English</summary>
+[music]
 
-在日常工作中，许多开发者与设计者已经习惯将 **AI 智能体**（AI Agent: 能够自主感知环境、规划路径并调用工具完成多步骤任务的系统）作为后台协处理器使用。当人类的主动注意力集中在单一核心任务（例如进行公开演讲）时，往往希望外围琐碎任务仍能同步推进。例如在演讲准备中，虽然设计规范与系统提示词已经完备，但单靠一个 Agent 往往难以穷尽所有可能；为了在截止时间前探索更多幻灯片的版式设计与排版风格，用户通常会一口气在后台并行拉起多个 Agent，让它们在不同视觉方向上同时展开探索。
+Um, well, thanks a lot for your time.
 
-这种工作流虽然极大扩展了单位时间内的探索广度，但也迅速催生出新的认知困惑与成本焦虑。随着 Agent 数量的激增，当月底收到账单时，用户不可避免地会陷入反思：我们是否陷入了过度 **氛围编程**（Vibe Coding: 依赖直觉与大模型快速生成代码而缺乏严格工程推导的开发方式）？这种无节制的 **Token 极大化**（Token Maxing: 不计成本地消耗模型上下文与调用量以换取覆盖率的行为）究竟创造了多少真实价值？在任务编排上是否存在更高效的路径？这一系列问题的核心，在于我们尚未建立起一套能够清晰评估 Token 成本与实际产出价值之间关系的度量标准。
+Really appreciate you dropping by and
+
+it's always a great honor to speak at
+
+the World's Fair. So, I'll do my best to
+
+uh give you guys some valuable insights
+
+and um yeah, hopefully make it worth
+
+your time. So my name is Maximillian
+
+Piros and today I'll be talking about
+
+mouse power and this is a talk about
+
+measuring agents through mental models.
+</details>
+
+[音乐]
+
+嗯，非常感谢大家抽出时间。真的很感谢你们过来，能在 World's Fair 上发言总是莫大的荣幸。所以我会尽力给大家一些有价值的见解，希望不辜负你们的时间。我叫 Maximillian Piros，今天我要讲的是 mouse power，这是一场关于通过心智模型来衡量智能体的演讲。
 
 <details>
 <summary>Original English</summary>
-
-Thanks a lot for your time. Really appreciate you dropping by, and it's always a great honor to speak at the World's Fair. So, I'll do my best to give you guys some valuable insights and hopefully make it worth your time.
-
-My name is Maximillian Piras, and today I'll be talking about mouse power—this is a talk about measuring agents through mental models. But before I get into talking about measuring agents, I'm going to talk through a bit about how I use them every day. It might seem familiar to you, but just to level set, we'll go through it.
-
-I tend to background them, like I'm sure a lot of you people are doing as well. While my active attention is focusing on one thing—like perhaps giving this talk to you—I still want to make some progress on peripheral tasks. So I'll keep my attention focused on giving this talk while my agents help me explore some designs in the background, because I think my slides need a bit of work. I've got my design system already set up, and I've given some guidance to my agents. I'll kick off an agent to explore different directions on typography and layout, trying to get as many explorations as possible.
-
-Of course, one agent is never enough, so I like to kick off a bunch in parallel. I've got a lot of slides to get through, so I need all my agents running and exploring in different directions. Hopefully, I can get some interesting ideas to make my slides better before our deadline.
-
-This is generally how I work, and it's probably familiar to many of you: kicking off agents in parallel as much as possible because it feels like there is always more research to do and more design directions to explore. Why not maximize your time by running agents concurrently while focusing on your main task? It is a lot of fun, until you get the bill. Then you start to wonder: was it all worth it? Did you vibe code too hard? Were you token maxing too much? Could you have been more efficient in how you sequenced your agents? That brings us to our core question: how do we value token costs, and specifically, how do we help our customers value them?
-
+But before I get into talking about measuring agents, I'm going to talk through a bit about how I use them every day. And it might seem familiar to you, but just to level set, we'll go through it. So I tend to background them like I'm sure a lot of you people are as well. Um, so while my active attention is focusing on one thing, like perhaps giving this talk to you, I still want to make some progress on peripheral tasks. So I'll keep my attention focused on giving this talk while my agents can help me explore some designs in the background because I think that uh my slides need a bit of work. So you know, I've got my design system already set up. I've got some guidance uh given to my agents. So I'll kick off an agent to just try to explore some different directions on the type treatment and the layout and um you know just try to get as many explorations as possible. But of course uh one agent's never enough. So I like to kick off a bunch in parallel. You know I've got a lot of slides to get through. So I need all my agents on and exploring it in different directions. And uh hopefully I can get some interesting things to make my slides a bit better. and uh hopefully they can finish the job pretty soon because we're obviously kind of up against uh timeline the the uh deadline here. So um this is generally how I work. I'm sure it's probably familiar to a lot of you where we're just trying to kick off agents for as much as possible in parallel because it always feels like there's just way more research to do. We want to be as thorough as possible. There's way more design explorations to do. So whenever our main focus is on one thing, why not kick a bunch of agents off in parallel and just try to maximize your time and it's a lot of fun of course until you get the bill and then you start to wonder was it all worth it, right? Did did you vibe code too hard? Were you token maxing too much? Like could you have been more efficient in how you approached uh your sequencing your agents? And so this is what I'm going to get into today. It's it's how do we value uh the token cost and specifically how do we help our customers value it.
 </details>
 
-### 计算机操作模型与心智模型摩擦
+在讲衡量智能体之前，我先简单说说我每天是怎么使用它们的。你可能会觉得很熟悉，但为了先统一认识，我们还是过一遍。我习惯把它们放到后台运行，我相信你们中很多人也是这样。当我的主动注意力集中在一件事上，比如现在给你们做这场演讲，我仍然想在一些外围任务上取得进展。所以我会把注意力放在演讲上，同时让我的智能体在后台帮我探索一些设计，因为我觉得我的幻灯片还需要改一改。我已经搭好了设计系统，也给了智能体一些指引。于是我会启动一个智能体，去探索字体处理和版式上的不同方向，尽可能多地做探索。但当然，一个智能体永远不够，所以我喜欢并行启动一批。我有很多幻灯片要处理，所以需要所有智能体都动起来，朝不同方向探索。我希望能得到一些有趣的东西，让幻灯片变得更好，也希望它们能很快完成工作，因为我们显然面临着时间上的截止期限。这大致就是我的工作方式，我相信你们很多人也很熟悉：尽可能多地并行启动智能体，因为总觉得要做的研究多得多，我们想尽可能全面，要做的设计探索也多得多。所以每当我们的主要精力放在一件事上时，为什么不并行启动一批智能体，尽量最大化利用时间呢？这当然很有趣，直到你收到账单，然后你开始怀疑这一切是否值得，对吧？你是不是 vibe code 得太用力了？是不是 token maxing 太多了？在安排智能体的先后顺序上，你是不是本可以更高效？这就是我今天要讲的：我们如何评估 token 成本的价值，具体来说，如何帮助我们的客户评估它的价值。
 
-在过去一年半的时间里，作为 **Yutori** 的创始设计师，主要聚焦于 **计算机操作模型**（Computer Use Models: 训练 AI 像人类一样通过屏幕视觉、鼠标点击与键盘输入直接操控操作系统的模型）的研发与落地。这类模型的关键应用场景在于：当目标系统缺乏现成的 API 或 **模型上下文协议**（Model Context Protocol / MCP: 规范 AI 与外部工具及数据源交互的标准协议）时，直接派遣 Agent 像人类一样操作图形界面，从中提取难以程序化获取的数据并进行自动化处理。尽管这种通过 GUI 交互的方式在能效上明显低于原生 API，但在缺乏接口集成的场景下，它构成了不可替代的兜底能力。
+### 工作背景与客户困惑
+<details>
+<summary>Original English</summary>
+So for the past year and a half I've had the pleasure of working as the founding designer at a company called UTRI and we focus on computer use models. These are models that learn to use a computer like a human would. And the use case for them is when you can't get information from an API or an MCP, why not just send an agent out to use a computer like a human would? And then we can extract all types of data and manipulate it in ways that uh let us access all the stuff that wasn't uh accessible previously. So obviously less efficient than APIs and MCPs, but as a last resort, just have an agent go use the computer and try to get the information. Uh here's the uttory agent using the utori website. Um it's checking out its own benchmark. So kind of it's admiring itself in a way. So um yeah, it gets it gets a bit weird. Uh like and a lot of what I do as a founding designer there is talk to customers, try to understand how can we make agents as intuitive as possible. How do we figure out the mental models they're using to value uh the use cases they want to send out agents for? And um a lot of them do seem pretty confused so far. A lot of people are excited about agents, but the a phrase that comes up quite often is that they feel like they're just scratching the surface. Um, it seems like it's not quite intuitive how we can best use them yet. And so in a lot of my uh customer discussions, it's it always comes down to a question of like what is the best way to use you uh to use agents? What are the best use cases for them? And how do I think about the trade-offs with regards to token costs relative to value? So, I think we're still kind of building this muscle today. And this leads me to the thesis of the talk, which is that I think agents have a measurement problem.
+</details>
 
-然而，在与大量客户的实际交流中可以发现，尽管市场对 Agent 充满兴奋，但绝大多数客户普遍感到“仅仅触及了皮毛”，对如何系统化利用 Agent 缺乏直觉认知。客户最常提出的疑问集中于三个层面：最佳应用场景究竟在哪里？如何正确构建使用 Agent 的心智模型？以及如何衡量 Token 支出与业务价值之间的投入产出比。早期的技术极客很容易陷入幸存者偏差——正如作家厄普顿·辛克莱（Upton Sinclair）的名言所揭示的，身处行业内部的技术布道者往往带着强烈的先入为主偏见，误以为自己构建多 Agent 舰队的高阶体验代表了大众市场；但现实中，绝大多数潜在用户甚至仍停留在手动向 ChatGPT 复制粘贴文本的阶段。因此，推广 Agent 的核心障碍不在于技术本身的能力上限，而在于缺乏能够匹配用户心智模型的价值衡量机制。
+过去一年半，我很荣幸在一家叫 UTRI 的公司担任创始设计师，我们专注于 computer use 模型。这类模型学习像人一样使用电脑。它们的使用场景是：当你无法从 API 或 MCP 获取信息时，为什么不直接派一个智能体出去，像人一样使用电脑呢？这样我们就能提取各种数据并加以处理，从而访问以前无法访问的内容。显然，这比 API 和 MCP 效率低，但作为最后的手段，就让智能体去用电脑，尝试获取信息。这里是 uttory 智能体在使用 utori 网站，它在查看自己的基准测试，在某种意义上算是在欣赏自己。所以，是的，有点奇怪。我作为创始设计师做的很多工作，就是和客户交谈，试图理解如何让智能体尽可能直观。我们如何弄清楚他们用什么心智模型来评估他们想派出智能体去做的那些使用场景的价值？到目前为止，他们中的很多人似乎相当困惑。很多人对智能体感到兴奋，但经常听到的一句话是，他们觉得自己只是浅尝辄止。似乎我们还不太直观地知道怎样才能最好地使用它们。所以在我的很多客户讨论中，问题总是归结为：使用智能体的最佳方式是什么？最佳使用场景是什么？我该如何考虑 token 成本相对于价值的取舍？我认为我们今天还在培养这种能力。这引出了这场演讲的论点：我认为智能体存在一个衡量问题。
+
+### 早期采用者的偏见
+<details>
+<summary>Original English</summary>
+And uh, as an example, here's me at work trying to measure some agents, and one of my co-workers took this photo and told me I looked like I was trying to solve the mystery of Pepe Silva. So, uh, as you can see, it's it's it's not a it's not an easy task to to measure agents. But I'm sure some of you are saying, "Hold on a sec. like what is this guy talking about? I've got a fleet of agents working for me right now. We're building our next million-dollar app as we speak and I'm having a totally fine time uh measuring my agents. Uh to which I will agree with you. Uh, but then I will point you to the mandatory Upton Sinclair quote to remind us all that everybody in this room is very biased and we're early adopters and we're very excited to explore this new technology, but it doesn't mean that we represent the people that ultimately we're going to be trying to help adopt this technology. And so, you know, I think it's important to remind ourselves that in some way or another, we probably are selling tokens, whether it's indirectly or directly. And so when we think about our own token usage, uh is it really representative of all the people out there who have never touched an agent yet? Uh some people are still copy and pasting into chatbt. I may be married to one of these people and despite how much I tried to get her to try out agents, she's not let me set her up with it yet. And so, um, as a reminder, uh, when we think about helping people adopt agents, you know, all the people across the world that we think could get as much excitement and value as as we do when we run off parallel agents, let's just remember this quote. [snorts]
+</details>
+
+举个例子，这是我在工作中试图衡量一些智能体的样子，我的一位同事拍下了这张照片，说我看起来像是在试图解开 Pepe Silva 之谜。所以，如你所见，衡量智能体并不是一件容易的事。但我相信你们有些人会说：“等一下，这人在说什么？我现在就有一整队智能体在为我工作。我们此刻正在构建下一个价值百万美元的应用，而我衡量我的智能体完全没有问题。”对此我同意你们。但接下来我要给你们看那句必不可少的 Upton Sinclair 名言，提醒我们所有人：这个房间里的每个人都很有偏见，我们是早期采用者，我们非常兴奋地探索这项新技术，但这并不意味着我们能代表最终我们要帮助去采用这项技术的那些人。所以我认为有必要提醒自己，无论直接还是间接，我们多半都在卖 token。因此当我们思考自己的 token 使用量时，它真的能代表外面那些从未接触过智能体的所有人吗？有些人还在复制粘贴到 chatbt。我可能就和其中一位结了婚，不管我多么努力想让她试试智能体，她还没让我给她设置好。所以，作为提醒，当我们考虑帮助人们采用智能体，也就是我们认为全世界那些能像我们并行运行智能体时一样获得兴奋和价值的人时，让我们记住这句话。[哼了一声]
+
+### 瓦特与马力：为新技术找到沟通价值的度量
+<details>
+<summary>Original English</summary>
+And um, so it really boils down to the age-old problem of a new technology. And of course, there's tons of history we can go to to study how people solve this in the past. We have this really exciting new thing, but we haven't quite figured out the right ways to communicate it. And so for this talk, I'll go back to the 1700s and we can take some notes from when James Watt was trying to sell steam engines. And at the time he decided that a great use case for his steam engines was trying to replace a horse gin. And these are the was the power source of a mill at the time. So when you're for uh let's say a brewery and you need some power source to to grind your barley or whatever, I don't know. I'm not like a big brewery guy, so I don't know exactly how it's made, but you need a power source. And the power source at the time that was common was you hooked a horse up to a rotary arm and the horse walked in a circle and that's how you generated your power. Uh, and seems crazy today maybe, but um at the time was common place. And Watt thought, you know, it would be much better than a horse is like a very efficient machine. Although he u rightfully acknowledged that one of the big barriers to adopting it would be this cognitive dissonance of trying to tell people who kind of think in horses how do you adapt to this to this uh cold machine that's kind of intimidating and scary and perhaps uh somebody's going to say it's going to solve all your problems but you you can't quite see the vision yet. So perhaps that sounds familiar to any of us working in agents today. And Watt's solution was that he needed to understand um the mental model of these people and specifically to create a metric that would help him uh give some baseline of the relative improvement in efficiency. And so he literally studied uh horse jins and tried to get some kind of armchair measurements of of how is like what are the mechanics and the average um performance of it and eventually came to a metric called horsepower which may sound familiar. And uh he used this measure to you know this was to quantify the the general power that the horses were were um creating at the time and then he could use as a basis to show the multiplier of efficiency that a steam engine could provide. And uh this metric was uh not very scientific at the time. It was not necessarily even accurate you could say. Uh but the main thing it did was it communicated an increase in value. And so this let people who who love horses uh let them kind of calibrate their um the the efficiency gains that they could get by by uh attempting to adopt a steam engine. So not even necessarily um what you would get when you use it, but what would get you over the limit of trying it out in the first place.
+</details>
+
+归根结底，这是新技术这个古老的问题。当然，我们可以回顾大量历史，研究人们过去是如何解决这个问题的。我们有了这个令人兴奋的新东西，但还没有真正找到合适的沟通方式。所以在这场演讲中，我要回到 1700 年代，从詹姆斯·瓦特试图销售蒸汽机的故事里取些经验。当时他认为蒸汽机的一个很好的使用场景，是替代 horse gin。它是当时磨坊的动力来源。比方说你是一家啤酒厂，需要某种动力来磨大麦之类的，我不确定，我不是啤酒行业的人，所以不太清楚具体怎么酿，但你需要一个动力来源。当时常见的动力来源是把一匹马拴在一根旋转臂上，马绕圈行走，这就是你产生动力的方式。今天听起来也许疯狂，但在当时很普遍。瓦特认为，蒸汽机会比马好得多，是一台非常高效的机器。不过他正确地认识到，采用它的一大障碍，是一种认知失调：要告诉那些习惯用马来思考的人，怎样去适应这台冷冰冰、有点吓人的机器，也许有人会说它能解决你所有的问题，但你还看不到那个愿景。这对我们今天做智能体的人来说也许听起来很熟悉。瓦特的解决办法是，他需要理解这些人的心智模型，具体来说，是创造一个指标，帮助他给出效率相对提升的某种基准。于是他真的研究了 horse gin，试图通过纸上推算得到一些测量：它的机械原理是什么、平均性能如何，最终得出了一个叫马力的指标，你们可能觉得耳熟。他用这个度量来量化当时马所产生的大致动力，然后以此为基础，展示蒸汽机能提供的效率倍数。这个指标在当时并不太科学，甚至可以说不一定准确。但它做的最主要的事，是传达了价值的提升。这让热爱马的人能够校准他们尝试采用蒸汽机可能获得的效率提升。所以它甚至不一定是你使用后会得到什么，而是什么能让你跨过最初尝试的门槛。
+
+### 回报率与科技行业自身的问题
+<details>
+<summary>Original English</summary>
+And uh you know it's it's it's a pretty big feat because like although um he had efficiency on his side with regards to this metric um you know let's be honest regardless of how efficient this was um horses just have great vibes. So, like it's kind of hard to beat the vibes of horses. And so, he knew he had to kind of overcome the emotion uh and actually speak to to something that gave him an ability to calculate the ROI.
+
+And oh, sorry, skipped something. And so, yeah, the le the lesson being um if we're not able to give something that is a tangible ROI um for our customers, then it's very hard for us to comm communicate value. And um I think we only need to look to our own industry to see all the examples where other people in the technology sector are failing to calculate good ROIs as well. And so we might in this room think this is somewhat of a solved problem. Uh but if you look to the other engineers in the world who are perhaps not as AI pilled, uh they're theoretically very smart and should be able to figure out how to calculate this pretty well. But then you get these scenarios where people are blowing through their entire um token budget for a year and they're blowing through it in in a quarter or they're like dealing with token leaderboards and such. And so obviously the incentives haven't quite aligned and we haven't perhaps got the right measure of value in terms of the technology sector itself. And so how then do we end up scaling past past that and talk to people who have no idea what we're talking about but still try to provide them um a measure of like increased efficiency with agents.
+</details>
+
+这是相当了不起的成就，因为尽管就这个指标而言他有效率优势，但说实话，不管这有多高效，马就是有很棒的氛围感。所以要战胜马的氛围感是很难的。于是他知道，他必须克服情感因素，真正说出一些能让他计算投资回报率（ROI）的东西。
+
+哦，抱歉，我漏了一点。所以，是的，教训是：如果我们无法为客户提供切实的 ROI，那我们就很难传达价值。我认为只要看看我们自己的行业，就能看到许多例子，说明科技领域的其他人同样没能算出好的 ROI。所以我们这个房间里的人也许觉得这在某种程度上是个已解决的问题。但如果你看看世界上其他不那么沉迷 AI 的工程师，他们理论上非常聪明，应该能把这个算得相当好。但你会看到这样的情形：人们把整整一年的 token 预算在一个季度里就花光了，或者在搞 token 排行榜之类的东西。显然，激励机制还没有真正对齐，我们在科技行业自身的价值衡量上，可能也还没有找到正确的度量。那么，我们要怎样突破这一点，去和完全不知道我们在说什么的人交谈，却仍然给他们提供一种关于使用智能体后效率提升的度量呢？
+
+### 恶性循环与把 token 追溯到结果
+<details>
+<summary>Original English</summary>
+And so right now I think we're kind of in this doom loop where we're we're overspending and we're underusing. Uh this is a term I borrowed from ramp um and they have a great blog post on this. And so it's kind of this vicious cycle where we're just token maxing and ourselves into austerity and then kind of dropping out of the loop until we get more FOMO to to get activated enough to try it again. And so I think we have to break this loop and I think the way we do that is by getting better measures of that will communicate value.
+
+Some people are obviously on the right track. There was this chart floating around on X recently that the Coinbase Coinbase CEO posted where they had internally started changing the defaults of what models they will start with and trying to only save the frontier models for the hardest tasks and as a result saw some good um saw AI spend start to diverge from token usage and uh this is a good start. Uh RAM also as I mentioned has a great blog post about this. uh but I think the problem is still that it's too focused on tokens and tokens are of course uh useful as a measurement of an internal system but at at the end of the day they're just an output and so the tokens need to then be traced very cleanly to an outcome. So, how many uh bug uh how many bugs did the tokens uh how sorry, how many um bugs squashed did the tokens that we bought? Um sorry, totally butchered that. Um how many uh bugs got squashed with the to with our token spend? How many uh support requests got closed, etc. So, clean outcomes and then cleanly tying those to to progress on our objectives. And so, without a very tight measure of ROI, this becomes very hard to do.
+</details>
+
+所以我认为我们现在有点陷入一种恶性循环：我们在超支，同时又用得不够。这个说法是我从 ramp 那里借来的，他们有一篇很好的博客文章讲这个。这是一种恶性循环：我们不断 token maxing，把自己逼入紧缩，然后退出这个循环，直到更多的 FOMO 让我们被激活到足以再次尝试。所以我认为我们必须打破这个循环，而打破的方式是获得能够传达价值的更好度量。
+
+有些人显然走在正确的道路上。最近 X 上流传着一张图表，是 Coinbase 的 CEO 发的，他们在内部开始改变默认从哪些模型开始，并试图只把前沿模型留给最难的任务，结果看到 AI 支出开始与 token 使用量出现背离，这是个好的开端。正如我提到的，ramp 也有一篇很好的博客文章讲这个。但我认为问题仍然在于，它过于关注 token，而 token 当然作为内部系统的度量是有用的，但归根结底它们只是一种产出，所以 token 需要被非常清晰地追溯到结果。比如，我们买的 token 解决了多少个 bug？抱歉，我说得一塌糊涂。我们的 token 花费解决了多少个 bug？关闭了多少个支持请求，等等。也就是清晰的结果，然后把这些结果清晰地与我们目标上的进展联系起来。所以，没有一个非常严密的 ROI 度量，这就很难做到。
+
+### 代码审查与验证瓶颈
+<details>
+<summary>Original English</summary>
+And I think I'll take this further and um say that it need not even be the broader um technology industry we're that's encountering this problem, but also many of us in this room perhaps are. And uh although we're all probably enjoying uh coding with uh with various agents and feeling like it it's it does feel like there's something there in terms of the increase in ability and efficiency. Um the problem of course is that we're all kind of dying by thousand poll requests. And so uh even Enthropic who has uh some people on the team have claimed to have solved coding uh they have also admitted that they've not solved code review. And so as a result um the the bottleneck is now shifted to human review where the efficiency gains from coding agents aren't quite or aren't seen yet because we spend most of the time reviewing the code and we've not figured out how to scale that in tandem with uh the generation of the code itself. And so the bottleneck ends up shifting to the verification side and thus we don't have a way to measure value at scale and uh to judge quality at at the same speed. And so again going back to the ROI calculations, we generate all this code but how do we know uh we don't know that enough of it is good to justify the spend.
+</details>
+
+我想再进一步说，遇到这个问题的不一定只是更广泛的科技行业，我们这个房间里的许多人也许同样如此。尽管我们可能都很享受用各种智能体写代码，也觉得在能力和效率的提升上确实有点东西。但问题当然是，我们都有点像是死于一千个 pull request。所以即使是 Enthropic，团队里有些人声称已经解决了编码问题，他们也承认还没有解决代码审查。因此，瓶颈现在转移到了人工审查上，编码智能体带来的效率提升还没有真正显现，或者说还看不到，因为我们大部分时间都花在审查代码上，而我们还没弄清楚如何让审查与代码生成同步扩展。于是瓶颈最终转移到了验证这一侧，因此我们没有办法大规模地衡量价值，也没法以同样的速度判断质量。所以回到 ROI 计算，我们生成了所有这些代码，但我们怎么知道……我们不知道其中是否有足够多的代码是好的，足以证明这些花费是合理的。
 
 <details>
 <summary>Original English</summary>
-
-For the past year and a half, I've had the pleasure of working as the founding designer at a company called Yutori, where we focus on computer use models. These are models that learn to use a computer just like a human would. The primary use case arises when you cannot get information through an API or an MCP—why not send an agent out to use the computer like a human, extracting and manipulating data that wasn't previously accessible? Obviously, this is less efficient than native APIs and MCPs, but as a last resort, having an agent operate a computer gets the job done.
-
-Here is an image of the Yutori agent using the Yutori website, checking out its own benchmark—admiring itself, in a way. A significant part of my role as founding designer is talking to customers to understand how we can make agents as intuitive as possible, and figuring out the mental models they use to evaluate the use cases they assign to agents.
-
-So far, many customers seem quite confused. People are excited about agents, but a phrase that comes up repeatedly is that they feel they are "just scratching the surface." It is not yet intuitive how best to utilize them. In my customer discussions, it consistently comes down to questions like: What is the best way to use agents? What are the ideal use cases? How should we evaluate the trade-offs between token costs and actual value? We are still building this organizational muscle.
-
-This brings me to the core thesis of this talk: agents have a fundamental measurement problem. Here is a photo of me at work attempting to measure agents; a coworker took it and remarked that I looked like I was trying to solve the Pepe Silvia conspiracy. It is not an easy task.
-
-Some of you might think: "Hold on, what is this guy talking about? I have a fleet of agents working for me right now, building our next million-dollar app, and I have no problem measuring them." While that may be true for early adopters in this room, remember the mandatory Upton Sinclair quote: we are extremely biased early adopters. Our excitement does not represent the broader audience we ultimately need to help adopt this technology.
-
-Whether directly or indirectly, we are all selling tokens. Is our personal token usage representative of people who have never touched an agent? Many people are still manually copying and pasting into ChatGPT. I might even be married to one of them—despite my efforts, she hasn't let me set her up with agents yet. When thinking about scaling adoption across the globe, we must remember this emotional and cognitive gap.
-
+And of course maybe uh code review was always flawed. Uh but it's just that agents are now exposing it for uh the or exposing the actual problem. Um, but I like this quote by Noah Hine who from a a post about how to solve code review where he's mentioning specifically that the assumptions underneath code review are what's now being what needs to be revisited. So we have to check our priors to try to figure out a new basis for um how we can code review in the age of agents. And I'm not going to go into how to solve code review. I think that's definitely better uh a talk that's better given by somebody else and um is totally different subject. But what I think is important for this talk is why does code review feel like it is solvable. And I think that Noah is hitting on something important here which is that as a as a culture uh code review has a very good uh convergence on shared assumptions and that lets you um that lets you uh measure things at scale when we can all kind of converge on the measurement and it becomes somewhat of of a clear rubric. And so the task at hand now is we have to adopt uh we have to sorry adapt those assumptions for the agentic age.
 </details>
 
-### 瓦特的马力策略：用旧基准量化新效率
+当然，也许代码审查一直都有缺陷，只是现在智能体把这个真正的问题暴露出来了。但我喜欢 Noah Hine 的一句话，出自一篇讲如何解决代码审查的文章，他特别提到，代码审查背后的假设正是现在需要重新审视的东西。所以我们得检验自己的先验，设法找到一个新的基础，来思考在智能体时代如何做代码审查。我不会讲如何解决代码审查，我觉得那肯定更适合由别人来讲，而且是完全不同的主题。但我认为对这场演讲重要的是：为什么代码审查让人觉得是可以解决的？我觉得 Noah 说到了一个重要的点，就是作为一种文化，代码审查在共同假设上有很好的趋同，这让你能够大规模地衡量事物：当我们都能在度量上趋同时，它就成了某种清晰的评分标准。所以现在的任务是，我们必须把这些假设调整（抱歉，是适配）到智能体时代。
 
-新技术在诞生初期遭遇认知阻隔是一个经典的商业与工程命题。回顾 18 世纪工业革命早期，**詹姆斯·瓦特**（James Watt: 现代蒸汽机改良者与工业革命先驱）在推销其改良型蒸汽机时，面临着与今天极其相似的困境。当时磨坊与啤酒厂的主流动力源是 **马动磨盘**（Horse Gin: 由马匹牵引旋转臂绕圈行走以提供机械动力的装置）。瓦特清晰地意识到，技术扩散的最大阻力在于认知失调：当时的产业界完全以“马”的逻辑进行生产决策，面对冰冷、复杂且令人生畏的蒸汽机，人们无法直观感知其能效优势，甚至因为“马匹具有天然的良好情感体验（Great Vibes）”而本能地抗拒机械化替代。
-
-为了击穿这种情感惯性与认知壁垒，瓦特深入测算马动磨盘的机械结构与马匹的平均做功输出，由此提出了 **马力**（Horsepower: 衡量功率的工程单位）这一度量概念。从现代严格的物理学视角来看，当时的“马力”定义并不绝对严密，甚至存在粗略估算的成分，但其划时代的价值在于：它创造了一个能够与客户既有心智模型完全对齐的能效基准。借助“马力”，客户可以直观算出用蒸汽机替代马匹后能够获得的效率倍率与清晰的 **投资回报率**（Return on Investment / ROI: 衡量投入成本与产生效益比例的核心财务指标），从而跨越尝试新技术的心理阈值。这一历史经验表明，如果我们无法为客户提供一套可感知、可计算的 ROI 衡量标尺，就根本无法有效传递 Agent 的技术价值。
-
+### Mouse power 的想法
 <details>
 <summary>Original English</summary>
-
-It really boils down to the age-old problem of introducing a new technology. There is plenty of history we can study to see how people solved this in the past. We have this exciting new capability, but we haven't yet figured out the right framework to communicate it.
-
-For this talk, let's go back to the 1700s and take notes from when James Watt was trying to sell steam engines. At the time, he decided that a prime use case for his engines was replacing the horse gin—the standard power source for mills and breweries used to grind barley and run machinery. The standard setup was simple: you hitched a horse to a rotary arm, the horse walked in circles, and that generated your power. It might seem primitive today, but it was ubiquitous back then.
-
-Watt recognized that an efficient machine was vastly superior to a horse. However, he correctly understood that a major adoption barrier was cognitive dissonance. How do you convince people who think entirely in terms of horses to adopt an intimidating, unfamiliar machine that claims to solve all their problems when they can't visualize the benefits? Furthermore, regardless of efficiency, horses had great "vibes"—it is hard to compete with emotional attachment.
-
-Watt knew he had to overcome emotion with tangible ROI calculations. His solution was to meet people within their existing mental model by creating a metric that established a baseline of relative efficiency. He studied horse gins, estimated the average mechanics and performance of draft horses, and coined the term "horsepower."
-
-He used horsepower to quantify the general output horses were generating, providing a comparative baseline to demonstrate the exact efficiency multiplier a steam engine delivered. The metric was not strictly scientific or perfectly accurate at the time, but its primary function was communicating value. It allowed horse-reliant business owners to calibrate potential efficiency gains and gave them the confidence to try a steam engine. The crucial lesson is: if we cannot provide a tangible ROI for our customers, communicating real value becomes nearly impossible.
-
+And so uh we can we need to go um if if we're able to do that then we can go from execution at the speed of compute to measurement at the speed of compute. And of course the measurements need to fit the mental models of the customers using it. And um I think the lesson here being that if you're going to um think of how to build an agent for something, you also have to think about how do you help the customers build or build or at least create a method for verifying that the output is good. And so it's not enough to build it. We also have to help them we al we also have to help them get to clear ROI calculations to justify their spend. And so um this brings me to the idea of mouse power which could be the equivalent of horsepower for the agentic age. Just as James Walt was able to show a measure of efficiency relative to the horses in in the gins uh in the horse gins uh that were the source of power at the time. We perhaps can also figure out how do we create a baseline of efficiency for the way we use computers today and can then demonstrate how much uh better or perhaps more performant on certain vectors an agent could be at that task. Um, and of course it's not uh as easy perhaps as easy a task as he had back then where he could just study the horsegen because it's not as if we can create some method to measure our cursor movements and like figure out the delta of how much more efficient an agent could move them and thus we can say yeah agents are this much more performant than humans at these tasks. Uh, trust me, I've I've tried I had Claude vibe code me this measurement device and I thought maybe if I can figure out the movement uh like the potential movement across the screen and measured how fast it went, I could get some clean measure of mouse power. Uh, but of course this is only joking. Um this is of course um like a fool's errand because information space is just way too high dimensional and so I think mouse power is of is never going to be a metric of course but it's more so an idea which the idea being if you're going to sell somebody an agent you also have to help them with the with the rubric of how do we actually verify that this agent is doing good work and thus we can uh have a good measure of saying that these tokens are worth it. Um, so how to do that of course is is really up to you and I won't be able to tell you how do you I don't have any good frameworks for how do you figure out the right measurements to to help provide anybody you're building an agent for.
 </details>
 
-### 终结 Token 消耗的末日循环与结果导向归因
+如果我们能做到这一点，就可以从以计算速度执行，走向以计算速度衡量。当然，这些度量需要契合使用它们的客户的心智模型。我认为这里的教训是：如果你要考虑如何为某件事构建一个智能体，你还必须考虑如何帮助客户建立，或者至少创建一种方法，来验证输出是好的。所以仅仅构建它是不够的，我们还必须帮助他们得到清晰的 ROI 计算，以证明他们的花费是合理的。这把我带到了 mouse power 的想法，它可以成为智能体时代的马力等价物。就像詹姆斯·瓦特能够展示相对于当时作为动力来源的 horse gin 里的马的效率度量一样，我们也许同样可以弄清楚，如何为我们今天使用电脑的方式建立一条效率基线，然后展示智能体在那项任务上能好多少，或者在某些维度上性能高多少。当然，这也许不像他当时那么容易，他可以直接研究 horse gin，因为我们并不能想出某种方法来测量我们的光标移动，算出智能体移动光标能高效多少的差值，然后说：是的，智能体在这些任务上比人类性能高这么多。相信我，我试过，我让 Claude vibe code 了这样一个测量装置，我想也许如果我能弄清楚光标在屏幕上的潜在移动，并测量它有多快，我就能得到一个干净的 mouse power 度量。但当然，这只是开玩笑。这当然是徒劳之举，因为信息空间的维度实在太高了，所以我认为 mouse power 当然永远不会成为一个指标，它更像是一个想法：如果你要卖给别人一个智能体，你还必须帮助他们建立评分标准，说明我们如何真正验证这个智能体在做好的工作，这样我们才能有一个好的度量，来说明这些 token 是值得的。至于具体怎么做，当然完全取决于你，我没法告诉你。我没有任何好的框架，来告诉你如何找出合适的度量，去帮助你为之构建智能体的任何人。
 
-缺乏精准度量导致当前科技行业在 Agent 应用上陷入了典型的“末日循环”。很多企业在没有明确产出度量的情况下盲目消耗算力，导致一年的 Token 预算在一个季度内被迅速耗尽，随后在成本重压下被迫转向严苛的紧缩政策；直到下一次技术焦虑（FOMO）被重新点燃，又再度重启盲目尝试。这种在 **过度支出与利用不足**（Overspending & Underusing: 企业采购大量 AI 算力却未能转化为实际业务效能的脱节现象）之间的反复摆动，严重制约了技术的规模化渗透。
-
-部分领先企业已经开始探索破解这一恶性循环的路径。例如 Coinbase 首席执行官曾公开分享，他们通过重构内部模型调用策略——默认采用轻量模型处理常规任务，仅将最复杂的长尾难题路由至前沿大模型，成功使业务价值曲线与纯粹的 Token 消耗量脱钩。然而，仅仅优化 Token 成本依然停留在系统内部的 **产出**（Output: 系统的直接工作量或中间计费指标）层面，而非终端的 **业务成果**（Outcome: 对实际业务目标产生的实质性推动）。企业真正需要的度量闭环，是将每一笔 Token 支出严格归因到具体的结果指标：
-* 消耗的 Token 具体修复了多少个线上缺陷？
-* 自动化解决了多少张客户支持工单？
-* 对核心业务里程碑的推进幅度是多少？
-
-只有将 Token 消耗从抽象的内部开销转化为与业务目标紧密绑定的量化成果，才能建立起可持续的 Agent 商业模型。
-
+### 两个不确定性轴的矩阵
 <details>
 <summary>Original English</summary>
-
-We only need to look at our own industry to see countless examples where technology teams struggle to calculate sound ROIs. In this room, we might assume this is a solved problem. But look at brilliant engineers who aren't deeply immersed in AI: they end up blowing through their entire annual token budget in a single quarter or obsessing over token leaderboards without clear business alignment.
-
-We find ourselves in a doom loop of "overspending and underusing"—a term borrowed from a great blog post by Ramp. It is a vicious cycle where teams token-max themselves into austerity, pull back, and then re-enter the loop once FOMO strikes again. We must break this loop through better metrics that clearly communicate value.
-
-Some organizations are heading in the right direction. The CEO of Coinbase recently shared a chart on X illustrating how changing internal routing defaults—reserving frontier models exclusively for the hardest tasks—allowed their AI value creation to diverge from raw token spend. Ramp highlighted similar findings.
-
-However, the prevailing problem is an excessive focus on tokens. Tokens are a useful metric for internal system observability, but at the end of the day, tokens are merely an output. Tokens must be cleanly mapped to business outcomes: How many bugs were squashed with that token spend? How many customer support tickets were closed? How much measurable progress was made against core objectives? Without a tight coupling between spend and business outcomes, sustainable ROI remains elusive.
-
+Uh but what I can do is give a princip uh give an idea that I've been kicking around which is based um in information theory. So going back to Claude Shannon's ideas about measuring entropy in information uh entropy being the uncertainty of a probability distribution and of course very much the basis of how we train agents today things like cross entropy and such uh being a big factor in determining how capable an agent is. Um I think that entropy is an interesting idea to think through with regards to not just the performance of an agent but also the task that we're setting them out to to perform on. And so uh I put together this matrix which it maps on the x-ax axis the uncertainty in the steps it takes to perform a task. And so when we're thinking of building an agent I think it's not enough to just think what would be a valuable task for the agent to do but also thinking about how um how much uncertainty are in the steps to perform that task itself. So an example would be uh booking a flight has much less uncertainty than let's say painting a masterpiece, right? Because you know there's certain information that has to be that has to happen in the flight purchase. There has to be a departing destination, arriving destination. There's going to be a seat chosen. It might be by the person. It might just be random. Uh but these things have to happen for that task to be completed. And on the other hand, there is the task of like painting a masterpiece, right? And who knows what the steps are to that. uh and maybe you can get an agent to do it but it would be very hard to figure out how we can actually create a a reg relatively um predictable pathway to that. Uh but then on the other access uh is the the uncertainty in the acceptance criteria itself. So not just can the agent perform the task but can we help somebody actually or is is there actually a clean rubric for how it's graded. And so thinking about ideas on on these two axes and where they intersect perhaps gives us a better guide for how to build agents and we can run through a few examples. Um so if we look at the at the left side your right side um yes um no your left as well. Um then I know the last speaker was also uh confused by um so uh you know on the left side uh when uncertainty in the task steps are low then it's a very it's a very predictable outcome or it's a very predictable pathway to achieve that goal and so then you know why would you waste tokens just write a script on the other side when uh the t the steps to do perform the task are very high in in uncertainty then you you have very unpredictable information And so it's probably at risk of being out of distribution in pre-training and probably has very sparse rewards for reinforcement learning. And so perhaps it's not a good task for an agent because it's just much harder to figure out how to actually model that data. And uh so obviously in the middle is is um is so I think I'm out of time, but I'm not getting kicked off yet. U so I'll just finish this up quickly. Um so yeah in the middle is is probably the sweet spot but then on the other axis uh what's the uncertainty in verifying that this actually valuable. So when you have high uncertainty in the acceptance criteria you pretty much at a spot where verification is indistinguishable from execution. So why would you build an agent for something that to verify it was useful a person pretty much has to do the work again. So like waste of tokens obviously and then it leaves that that middle area where you have this interesting intersection of tasks that are um they're not too uncertain in that they or they they have um a degree of uncertainty where they're not great. They're not just a a script or they're not out of distribution for training, but they have enough uncertainty to be interesting, but at at the same time, they also have a property of being relatively easy to uh validate the uh to check the value of them. And so they become in this place where they kind of become the shape of an MP style problem, which means they're easier to verify than to execute. And the reason I say that is because if you can figure out a pretty repeatable p pattern for verifying their their work, you can actually just throw agents at that problem as well. And so of course you don't just build the agent, you perhaps build the agent that verifies the work of the agent. Um and so yeah, this is uh perhaps uh this is a thought starter mostly kind of h kind of um still in the works. So happy to hear any thoughts on it. But if uh with this guidance, I hope uh when you're building your next agent, you can also figure out how to also build its mouth power. And thanks very much.
 </details>
 
-### 代码审查困局与以算力速度度量
-
-在软件工程领域，由 Agent 带来的效率提升正遭遇严峻的 **验证瓶颈**（Verification Bottleneck: 生产端速度指数级提升后，人工审核与质量验收成为整体交付链条中最狭窄短板的现象）。目前行业普遍面临“死于千次代码合并请求”（Dying by thousand pull requests）的现状：即便是声称已经攻克代码自动生成的前沿实验室（如 Anthropic），也不得不承认 **代码审查**（Code Review: 由同行对代码变更进行正确性、安全性与可维护性检查的质量门禁）远未解决。当 Agent 以算力速度疯狂生成海量代码时，由于缺乏同等速度的自动化质检机制，所有审查压力全部堆积在人类工程师身上，导致端到端的实际效能提升被严重稀释。
-
-代码审查之所以具备被彻底解决的可能性，是因为人类工程文化在长期的协作中已经对审查标准形成了高度收敛的先验假设与打分准则（Rubric）。正如技术学者 Noah Hein 在探讨代码审查重构时所指出的，当前的核心任务不是修补旧流程，而是重新审视代码审查底层的先验假设，使其适配 Agent 时代的生产特征。如果能够将这些工程共识转化为程序可判定的自动化验收机制，整个软件工程体系就能完成从 **以算力速度执行**（Execution at the speed of compute）向 **以算力速度度量**（Measurement at the speed of compute）的关键跃迁。
-
-<details>
-<summary>Original English</summary>
-
-This dynamic is not just an abstract industry problem; many of us experience it firsthand. While we all enjoy coding alongside agents and feel a noticeable boost in personal velocity, teams are increasingly suffering from "death by a thousand pull requests." Even Anthropic, where some team members have claimed to solve code generation, openly admits that code review remains unsolved.
-
-The bottleneck has shifted decisively to human verification. Efficiency gains from coding agents stall because engineers spend the majority of their time reviewing generated code, having not yet figured out how to scale verification in tandem with generation. When verification cannot match the speed of creation, measuring quality and calculating true ROI at scale becomes impossible. We generate vast amounts of code, but cannot efficiently verify whether enough of it is production-grade to justify the token expense.
-
-Code review may have always had systemic flaws, but agents are exposing the cracks. As Noah Hein noted in a post about solving code review, the underlying assumptions of code review must be fundamentally revisited. We need to examine our priors to establish a new operational baseline for reviewing code in the agentic era.
-
-Why does code review feel solvable? Because engineering culture has achieved strong convergence around shared assumptions and structured rubrics. Our immediate challenge is adapting those assumptions for the agentic age. If we succeed, we can transition from execution at the speed of compute to measurement at the speed of compute. Those measurements must align directly with the mental models of users, reinforcing the rule: if you build an agent for a task, you must equally build the methodology to verify its output.
-
-</details>
-
-### “鼠力”概念与基于信息熵的任务评估二维矩阵
-
-基于上述思考，演讲者提出了对应于 Agent 时代的“马力”隐喻——**鼠力**（Mouse Power: 用于直观衡量 Agent 替代人类操作与计算任务时综合能效增益的心智模型）。“鼠力”并非指去测量屏幕光标移动像素等高维度的机械指标（这种尝试已被证实为毫无意义的过度工程），而是一种帮助用户判断特定任务是否适合由 Agent 承担的评估框架。借鉴 **香农信息熵**（Shannon Information Entropy: 衡量信息不确定性与概率分布离散程度的数学度量）理论，可以构建一个基于两个核心维度的任务评估矩阵：
-
-1. **X 轴：任务执行步骤的不确定性（Uncertainty in Task Steps）**
-   * **低不确定性**（如订购机票）：任务包含固定的起降地选择、座位确认等确定性步骤。此类任务路径完全可预测，直接编写确定性代码脚本即可解决，无需浪费昂贵的 LLM Token。
-   * **高不确定性**（如绘制传世艺术杰作）：执行路径极度发散且缺乏规律，在预训练阶段极易落入 **分布外**（Out of Distribution / OOD: 样本特征偏离模型训练数据集分布的异常状态），在强化学习中也会遭遇极其稀疏的奖励信号，极难通过常规模型进行有效建模。
-   * **中度不确定性**：步骤具有一定的分支与灵活性，但整体处于可控探索区间，构成了 Agent 施展能力的理想平衡点。
-
-2. **Y 轴：验收标准的不确定性（Uncertainty in Acceptance Criteria）**
-   * **高不确定性验收**：如果验证结果好坏的难度与重新执行一次任务完全相同（即人类必须从头重做一遍才能判断输出是否合格），那么构建 Agent 就毫无杠杆价值。
-   * **低不确定性验收（NP 型任务特征）**：最佳的 Agent 任务场景应当具备类似于 **NP 问题**（NP Problems: 指解的验证可以在多项式时间内完成，但寻找解可能需要指数级复杂度的计算问题集合）的特性——**验证难度远低于执行难度**（Easier to verify than to execute）。
-
-当一个任务具备中度步骤探索空间、且结果极易被结构化验证时，开发者不仅能够构建执行 Agent，更能轻松构建专门负责质量审查的 **验证 Agent**（Verifier Agent: 专职依据确定性规则或结构化标准对其他 Agent 的产出进行校验与过滤的子系统），从而真正实现兼具高容错性与可量化 ROI 的自动化系统闭环。
-
-<details>
-<summary>Original English</summary>
-
-This brings me to the core concept of "mouse power"—the potential equivalent of horsepower for the agentic age. Just as James Watt demonstrated efficiency gains relative to the horse gins of his era, we must establish a baseline for how people use computers today and demonstrate the performance multiplier an agent delivers across specific vectors.
-
-Of course, this is not as simple as tracking cursor coordinates across a screen. I actually joked with this idea and had Claude vibe-code a cursor movement measurement tool, thinking I could quantify mouse velocity to derive a clean metric. That is obviously a fool's errand because the information space of computer use is far too high-dimensional. Mouse power is not a literal physical metric; it is a mental model. The core principle is: if you sell someone an agent, you must also provide the rubric to verify that the agent is performing valuable work, proving that the consumed tokens are justified.
-
-To operationalize this, I turn to information theory—specifically Claude Shannon's concept of entropy, representing uncertainty within a probability distribution, which underpins modern training techniques like cross-entropy loss. Entropy provides a compelling lens for evaluating not just agent capability, but the nature of the tasks we assign to them.
-
-I mapped this into a two-axis matrix:
-- **The X-axis represents the uncertainty in task steps.** Booking a flight has very low step uncertainty: you need a departure, destination, date, and seat selection; these structural requirements are invariant. In contrast, painting a masterpiece has near-infinite step uncertainty with no predictable operational pathway. When step uncertainty is extremely low, do not waste tokens—write a deterministic script. When step uncertainty is excessively high, the task is likely out-of-distribution for pre-training and suffers from sparse rewards in reinforcement learning, making it unsuitable for reliable agent modeling. The sweet spot lies in the middle.
-- **The Y-axis represents the uncertainty in acceptance criteria.** When acceptance criteria uncertainty is high, verification becomes indistinguishable from execution—a person must essentially redo the entire task to confirm its validity, destroying any token leverage. 
-
-The ideal deployment zone consists of tasks with moderate operational uncertainty paired with low acceptance uncertainty. These mirror **NP-style problems: tasks that are significantly easier to verify than to execute**. When verification follows a reliable, repeatable pattern, you can deploy agents to execute the work and deploy secondary verifier agents to validate the results. As you build your next generation of agents, ensure you simultaneously design their verification mechanics and quantify their mouse power.
-
-</details>
+不过我能做的，是给出一个我一直在琢磨的想法，它基于信息论。回到 Claude Shannon 关于度量信息熵的想法：熵是概率分布的不确定性，当然也很大程度上是我们今天训练智能体的基础，比如交叉熵之类的，是决定智能体能力高低的一个重要因素。我认为，熵这个概念值得思考，不仅可以用来看智能体的表现，也可以用来看我们让它们去执行的任务。所以我做了这个矩阵，在 x 轴上映射的是执行一项任务所需步骤中的不确定性。因此在考虑构建智能体时，我认为光想什么是对智能体有价值的任务还不够，还要想执行这项任务本身的步骤中有多少不确定性。举个例子，订机票的不确定性比画一幅杰作要小得多，对吧？因为你知道，买机票时有某些信息必须出现：必须有出发地、目的地，会选一个座位，可能由人来选，也可能随机。但这些事情必须发生，任务才算完成。另一方面，则是像画一幅杰作这样的任务，对吧？谁知道其中的步骤是什么。也许你可以让智能体去做，但很难弄清楚我们如何真正为它创造一条相对可预测的路径。而另一个轴，则是验收标准本身的不确定性。也就是不仅仅是智能体能不能执行任务，而是我们能不能帮助别人，或者说，到底有没有一个清晰的评分标准来对它打分。所以，思考这两个轴上的情况以及它们的交汇处，也许能为我们如何构建智能体提供更好的指引，我们可以过几个例子。如果我们看左侧，你们的右侧……对，不，你们的左侧也是……我知道上一位讲者也被这个搞糊涂了。总之，在左侧，当任务步骤的不确定性低时，结果就非常可预测，或者说达成目标的路径非常可预测，那么你为什么要浪费 token，直接写个脚本就行了。在另一侧，当执行任务的步骤不确定性很高时，你就会得到非常不可预测的信息，所以它很可能在预训练中是分布外的，而且在强化学习中的奖励可能非常稀疏。因此它也许不是一个适合智能体的任务，因为要弄清楚如何真正对这些数据建模要难得多。显然中间是……我想我超时了，但还没被赶下台。那我就快点收尾。是的，中间可能是最佳点，而在另一个轴上，问题是验证这件事确实有价值的不确定性有多大。当验收标准的不确定性很高时，你基本上处在验证与执行难以区分的位置。那你为什么要为这样一件事构建智能体：要验证它有用，人基本上得把活再干一遍。显然是浪费 token。这样就留下了中间那个区域，那里有一个有趣的交汇：任务的不确定性不会太高，也就是它们有一定程度的不确定性，但不至于很糟。它们不只是一个脚本，也不是训练中的分布外，但它们的不确定性足以让人感兴趣，同时它们也有一个特性，就是相对容易验证、检查它们的价值。所以它们处于这样一个位置，成了有点像 MP 风格问题的形状，意思是验证比执行更容易。我这么说的原因是，如果你能找出一个相当可重复的模式来验证它们的工作，你实际上也可以把智能体用在这个问题上。所以当然，你不只是构建那个智能体，你也许还要构建一个验证该智能体工作的智能体。所以，是的，这主要是一个抛砖引玉的想法，仍在完善中。很乐意听到大家的任何想法。但有了这个指引，我希望你们在构建下一个智能体时，也能想办法同时构建它的 mouth power。非常感谢。

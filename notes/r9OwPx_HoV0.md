@@ -6,109 +6,141 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=r9OwPx_HoV0
 speaker: AI Engineer
 tags:
-  - retrieval-augmented-generation
+  - chunking
+  - retrieval
+  - rag
   - multiscale-indexing
-  - reciprocal-rank-fusion
-  - chunking-strategy
-title: 告别2022年的落后分块：基于多尺度索引与倒数排名融合的高效RAG检索策略
-summary: AI21 Labs研究员Yuval Belfer指出固定分块大小是导致RAG检索性能受限的信息损失瓶颈，且不存在全局最优的分块尺寸。演讲提出了多尺度索引（Multiscale Indexing）结合倒数排名融合（RRF）的解决方案，通过多副本与多窗口并行检索，在仅增加可控常数级存储开销的前提下，将基准检索召回率大幅提升20%至40%。
+  - rank-fusion
+title: 分块并未死去：多尺度索引与检索融合
+summary: 演讲者Yuval称分块并未过时，并称固定块大小没有普适最优值，取决于查询。其团队用多种块大小建索引并以RRF合并，称在多个数据集上匹配或超过最佳固定块大小，代价是额外内存。
 insight: ''
 draft: true
 series: ''
-category: ai-ml
+category: ai-application
 area: tech-engineering
 project: []
 people: []
-companies_orgs:
-  - AI21 Labs
+companies_orgs: []
 products_models: []
 media_books: []
 status: evergreen
 ---
-### RAG未死但基础设施亟需进化：突破固定分块的传统思维
-
-当前行业中频繁出现“RAG已死”、“智能体检索（Agentic Search）终结传统检索”的声音，甚至连许多框架维护者也将分块技术视作无需过多投入的过时环节。然而在处理海量非结构化数据与多样化查询时，单纯依赖智能体在目录与文件层级的逐层遍历（如 `grep`、`find`）会引发严重的检索延迟和巨大的 Token 消耗。例如在遍历历届世界杯数据的场景下，统计夺冠次数最多的球队需要逐个目录展开汇总，计算效率极其低下。检索架构并没有消亡，而是降级为了底层的管道基础设施；但令人遗憾的是，目前大多数系统依然沿用着 2022 年初期的粗糙模式——选定一个固定的分块大小（如 512 词元）并搭配 10% 到 20% 的重叠率，随后便将其固化在向量数据库中。
-
-这种固定分块策略本质上是一种**有损压缩**（Lossy Compression: 在切分过程中不可逆地丢失上下文或细节信息）。如果切分窗口过大，虽然能够保留全局语义，却会抹杀关键细节，导致向量嵌入表征模糊；反之，若切分窗口过小，则会丢失跨句的宏观语境。业界长期尝试针对特定语料库寻找“最佳分块尺寸”，但实际测试表明，检索最优解本质上是**查询依赖型**（Query Dependent: 最优检索窗口取决于用户提问的具体粒度与意图），根本不存在一个能够通用于整个数据集的静态分块大小。
-
+### 开场：分块没有死
+大家好，感谢今天来到这里。欢迎来听一场关于“nothing”的演讲——抱歉，是关于检索的演讲。我叫Yuval，在AI21工作，它本质上是一家AI研究实验室。今天我想谈一个大多数人不想谈的话题，也就是分块（chunking）。我希望最后能说服你们：分块没有死，它还有事可做。
 <details>
-<summary>Original English Source</summary>
+<summary>Original English</summary>
+[music]
 
-Hi everybody. Thank you for coming today. Welcome to a talk about retrieval. My name is Yuval. I work at AI21, which is essentially an AI research lab. And today I want to talk to you about something that most people don't want to talk about, which is chunking. And I hope to convince you by the end that chunking isn't dead and there is something to do with that.
-
-And really, if you are at X, LinkedIn, wherever, you've probably seen that RAG is dead, right? I think people also killed MCP lately, and RAG is dead again. Long live agentic retrieval, agentic search. And there comes a time where you have to ask yourself: how many times can RAG die? And even when someone says, "Well, RAG isn't dead," like Jerry, the CEO of LlamaIndex, they still have to kill something, and apparently this something is chunking—like "don't invest in it, don't do it."
-
-And the reason that people said that chunking is dead is because everybody's using agentic search now, right? You have gs, you have ls, you have finds. All of these are great, but these are still not enough if you have a lot of data and you have various amounts of queries.
-
-And I think that the main reason that a lot of people don't like to talk about chunking is because it's not the fun part, right? In every RAG system, we have two stages. The first stage is the boring one that you do in the beginning: you have a lot of data, you have to preprocess it, you have to decide on the chunk size, and then you have to store everything in a vector DB. The other part is the retrieval part—essentially the one that happens per query. This is much easier to do and much easier to optimize; you can use all your queries and then play with top-k, hybrid search, and those kinds of things. It's much more fun to do retrieval tuning.
-
-So I will claim that if something has to be dead, then it's probably retrieval tuning. Agentic search probably killed that. But still, agentic search—even if we accept the fact that it killed retrieval tuning—is still not good enough when you have scale and a lot of data. It costs a lot of money and token-maxing. And underneath, if the data itself is not ordered in the right way in your folders and directories, you still get something inefficient.
-
-Let's think of a timely example: the FIFA World Cup. Imagine we have a dataset containing all FIFA World Cups, where every directory is, say, the '98 one, the 2002 one, and so on. If your query asks which team won the most World Cups, you can't just go to a folder and ask that. You have to go to every folder, see who won, and aggregate this together, which is very inefficient. (The answer, by the way, is Brazil.)
-
-So retrieval didn't actually die; it got demoted into plumbing. Everybody who worked on any RAG system knows the feeling: day one, week one, or month one, you pick some sort of chunk size (let's say 512), put some overlap (10–20%), index everything, and forget all about it. We talk a lot about fixed chunking strategies where if your chunk is too big, you get the whole picture (which is nice) but lose a lot of nuance and meaningful embeddings; whereas if your chunks are too small, the big picture is lost. Chunking is essentially a lossy compression. No matter what we do, we're losing something.
-
-There is no single right chunk size. Many who work on data say, "No, we optimized our system on our corpus and it works well." We thought so too. But unlike model benchmarks where you can easily overfit, in RAG you cannot optimize a single chunk size per dataset—it is query-dependent.
-
+Hi everybody. Uh thank you for coming today. Uh welcome to a talk about nothing. Sorry, a talk about retrieval. Uh my name is Yuval. I work at AI21 which is essentially an AI research lab. And today I want to talk to you about something that most people don't want to talk about which is chunking. And I hope to convince you by the end that chunking isn't dead and there is something to do with that.
 </details>
 
-### 上帝视角实验：揭示查询依赖与固定分块的巨大性能鸿沟
-
-为了验证分块大小与查询类型之间的强耦合关系，研究团队设计了一组对比实验。在构建的 **Seinfeld 剧集问答数据集**（Trivia QA: 基于情景喜剧文本构建的事实与上下文检索测试集）中，不同属性的查询展现出了完全相反的偏好：
-* **强聚焦事实型查询**（如“Jerry最喜欢的麦片品牌是什么”）：答案高度集中且简短，微小尺寸的分块（如 50-100 词元）表现极其出色，检索命中排名可达 Rank 1，而在大尺寸分块下排名则掉落至 50 名之后。
-* **广度上下文推理型查询**（如“Jerry 将谁视作其一生宿敌与纯粹的邪恶化身”）：线索分散在较长对话与情境中，过小的分块因切断了语义依赖而彻底失效，必须依赖大窗口分块才能准确定位。
-
-在观察到这一现象后，团队构建了 **Oracle 实验**（Oracle Experiment: 假设存在一个全知先知，能够为每一个输入查询动态匹配最佳分块尺寸的理想上限测试）。实验在 QM-sum（会议纪要）、NarrativeQA（小说叙事问答）及 Seinfeld 数据集上，将同一语料库分别以 6 种不同的窗口尺寸进行切分索引。结果显示，各类固定分块尺寸的性能曲线在召回率评估中频繁交叉，没有任何单一尺寸能够在全局占据优势；而 Oracle 曲线相比于任何固定尺寸的基准线，展现出了高达 **20% 至 40% 的召回率提升**。这一巨大的差距揭示了工程架构中的核心信息错配：在索引构建阶段能够决定分块大小，但无法预知未来的查询意图；而在推理检索阶段已知查询语义，却受限于已经固化的索引粒度。
-
+### “RAG已死”与被要“杀死”的东西
+如果你在X、LinkedIn或别的地方，大概见过“RAG已死”的说法。我想最近大家还“杀死”了MCP，然后RAG又死了一次。代理式检索、代理式搜索万岁。你不得不问自己，RAG到底能死多少次？即使有人说RAG没死，比如LlamaIndex的CEO Jerry，他们仍然得“杀”点什么，而这个东西显然就是分块：别投入，别做。人们说分块已死，是因为现在大家都在用代理式搜索，对吧？你有grep，有ls，有find。这些都很好，但如果你有大量数据、各种各样的查询，它们仍然不够。
 <details>
-<summary>Original English Source</summary>
-
-How can I be so sure and claim such a thing? Because we ran experiments. Instead of asking what the best chunk size per dataset is, we took datasets and duplicated them several times—in this case, six times—where each instance had a different chunk size (e.g., 200, 1000, etc.).
-
-We did this across several datasets: QMSum (meeting transcripts), NarrativeQA (question answering on novels), and the Seinfeld dataset (trivia questions on Seinfeld transcripts, an in-house trolling dataset we published).
-
-First, we looked at how queries different in nature perform across chunk sizes. For example, in Seinfeld:
-1. "What is the name of Jerry's favorite cereal?" — A very focused, specific question where the answer is contained. A smaller chunk size (100 tokens) achieves Rank 1 versus Rank >50 on larger chunks.
-2. "Who does Jerry describe as his nemesis and pure evil?" — (The answer is Newman.) If you look at the transcript, it's not found easily; if you use a small chunk size, you will not get the answer.
-
-We then asked: what if we had an Oracle (or a genie) that could tell us the best chunk size for every query? This is the Oracle experiment—to see the potential. In the graph (Recall@K vs K), the blue lines represent individual fixed chunk sizes, while the orange line represents the Oracle picking the best chunk size per query. 
-
-Across several datasets, the blue lines intersect, meaning no single chunk size dominates. More importantly, the gap between the Oracle line and all fixed blue lines is huge—around 20% to 40% improvement just from chunking strategy. That gap is the cost of picking an arbitrary number like 512 or 1000.
-
-The core challenge is an information asymmetry problem: at indexing time, when you control the chunk size, you don't know what the queries will be; at retrieval time, when you have the query, you cannot adjust the chunk size because it is already fixed.
-
+<summary>Original English</summary>
+And really if you are at Axe LinkedIn wherever you probably seen that rug is dead right I think people also killed MCP lately and Rag is dead again. Long live identic retrieval, identic search and there is come a time where you have to ask yourself how many times can Rag die right and even when someone says well ra isn't dead like Jerry the CEO of Llama index they still have to kill something and apparently this something is chunking like don't invest in it don't do it and this is the reason that People said that chunking is dead because everybody's using agentic search now, right? You have gs, you have ls, you have finds. All of these are great, but these are still not enough if you have a lot of data and you have various amount of queries.
 </details>
 
-### 多尺度索引与倒数排名融合：构建高性能文档级聚合检索
-
-面对这种阶段间的信息错配，以往的研究方向（如语境化检索 Contextual Retrieval）主要聚焦于向文本块中注入元数据以增强潜在语义空间，但其底层仍受限于单一固定分块。AI21 Labs 则提出了全新的 **多尺度索引**（Multiscale Indexing: 在索引期创建多种窗口大小的并行分块副本，并在检索期联合查询与融合的架构方案）。在检索阶段，系统针对 $N$ 个不同分块粒度的数据库并行发起查询，将返回的片段回溯映射至其源文档，随后通过 **倒数排名融合**（Reciprocal Rank Fusion, RRF: 一种无需评分归一化、仅依赖多路排名位置进行加权聚合的稳健排序算法）将多路文档排名融合成最终输出。
-
-```
-                    ┌─► 向量库 (Chunk Size: 50)  ──► Top-K 文档排名 1 ┐
-                    ├─► 向量库 (Chunk Size: 100) ──► Top-K 文档排名 2 ┤
-Query ──────────────┼─► 向量库 (Chunk Size: 200) ──► Top-K 文档排名 3 ┼─► RRF 融合 ──► 最终相关文档
-                    ├─► ...                                         ┤
-                    └─► 向量库 (Chunk Size: 2000) ─► Top-K 文档排名 N ┘
-```
-
-该架构的完整实操流程与工程特性如下：
-* **跨粒度可比性解决**: 由于不同尺寸分块直接基于相似度得分排序不具备可比性，系统将分块检索转化为针对完整**父文档**（Parent Document）的命中投票，使得多路召回可以在统一实体粒度上完成度量。
-* **极佳的综合收益**: 在 QMSum、NarrativeQA、Seinfeld 及 FinanceBench 等多个公开与工业基准测试中，该方法不仅全面超越了任意单一固定尺寸的分块方案，还在 Recall@1 到 Recall@10 各指标上实现了稳定增长，普遍带来了 10% 至 40% 的检索质量提升。
-* **系统开销与未来演进**: 在资源成本方面，多尺度索引将存储与索引体积扩大了 $2$ 至 $5$ 倍（保持在 $O(1)$ 常数倍开销）；但由于多路向量检索可高度并发执行，且 RRF 算法计算开销极低，系统端到端延迟几乎不受影响。未来的优化方向包括基于语料特征自适应确定最佳分块尺寸集合与副本数量，以及探索超越 RRF 的高阶融合重排算法。
-
+### 两个阶段：索引与检索
+稍等一下。好的。我认为很多人不爱谈分块的主要原因是，它不是有趣的部分。在每个RAG或文件系统中都有两个阶段。第一个阶段比较枯燥，在一开始做：你有大量数据，要预处理，要决定块大小，然后把所有东西存进向量数据库。另一个阶段是检索，也就是每次查询时发生的部分，这要容易得多，也容易优化得多。你可以用你所有的查询，去调max k——抱歉，是top k，也可以调混合搜索之类的。做检索调优有趣得多。所以我要说，如果非要杀死什么、如果有什么必须死，那大概是检索调优，而代理式搜索大概已经把它杀死了。
 <details>
-<summary>Original English Source</summary>
+<summary>Original English</summary>
+Just the second. Okay. And I think that the main reason that a lot of people don't like to talk about chunking, it's because it's not the fun part, right? In every rag or files system we have two stages. The first stage is the like the boring one as you may the one you do in the beginning you have a lot of data you have to pre-process it you have to decide on the chunk size and then you have to store everything in a vector DB the other part is the retrieval part essentially the the one that happens per query this is something which is much easier to do right it's much easier to optimize you can use all your queries and then you can play with the max k uh top k sorry you can uh play with a hybrid search maybe those kind of things much more fun to do retrieval tuning right h so I will claim that if we have to kill something if something has to be dead then it's probably retrieval tuning and yes agentic search probably killed that
+</details>
 
-Prior works like Anthropic's Contextual Retrieval enrich chunks to improve the latent space, but they still stay within the fixed chunk size paradigm. We took a different approach: why commit to one chunk size when you can commit to several?
+### 代理式搜索仍然不够：数据组织问题
+但即使我们接受代理式搜索杀死了检索调优这一点，在规模大、数据多的时候，它仍然不够好。它花费很多钱，这一点我想不用再多说了，token最大化是大家都在谈的事。而其底层的问题是：如果数据本身在你的文件夹、目录里没有以正确的方式组织，你得到的仍然是低效的结果。我们来想一个应景的例子：现在正值FIFA世界杯。假设我们有一个包含所有FIFA世界杯的数据集，每个目录是某一届，比如98年的、2002年的，等等。但如果你的查询问的是哪支球队赢得世界杯最多，你不能只去某一个文件夹问。你得去每个文件夹，看谁赢了，再把结果汇总起来，这非常低效。顺便说一句，答案是巴西。至少按这场对话发生的时间来看是这样。
+<details>
+<summary>Original English</summary>
+and but still agentic search even if we can accept the fact that it killed retrieval tuning it's still not good enough when you have a lot of right scale a lot of data it costs a lot of money I don't think I have to mention that anymore token maxing is like something that everybody's talking about and the thing underneath which is if the data itself is not ordered in a right way in your folders in your directories you still get something which is inefficient so let's try to think of a like a timely example right the FIFA World Cup is now. And let's imagine that we have a data set that contains of all the FIFA World Cup. So every directory is the let's say the 98 one, the 2002 one and so on and so on. But if your query asks
 
-We call this **Multiscale Indexing**. At indexing time, we duplicate the database and chunk it with $N$ different window sizes. At retrieval time, we run $N$ parallel retrieval calls per query.
+how which team won the most World Cups, you can't just go to a folder and ask that. You have to go to every folder, see who won, and then aggregate this together, which is very inefficient. The answer by the way is Brazil. I hope at least according to
 
-How do we combine them? We cannot use the Oracle in production. Since chunks of different sizes are not directly comparable by similarity scores, we adopt a document-level retrieval approach: when a chunk matches, we retrieve the entire parent document. Now we have $N$ different document rankings, and retrieval becomes a voting process. We aggregate these rankings using **Reciprocal Rank Fusion (RRF)**—a simple, lightweight formula that requires no dedicated model training.
+yeah according to the time that this uh conversation is happening.
+</details>
 
-The results across QMSum, NarrativeQA, Seinfeld, and FinanceBench demonstrate that this method consistently matches or beats the best fixed chunk size, improving recall across Recall@1 to Recall@10 by 20% to 40% (and 10% to 40% on MTEB benchmarks).
+### 固定块大小：有损压缩，没有正确的块大小
+所以检索并没有真的死。好吧，这场演讲里我们不杀任何东西。它只是变成了管道工程（plumbing）。我想做过RAG系统的人都懂这种感觉：第一天、第一周，如果你很细致的话也许第一个月，你挑一个块大小，比如512，可能还加一些重叠，比如10%到20%，把一切建好索引，然后就忘了它。我们常谈固定分块策略：如果块太大，你能得到全貌，这很好，但会丢失很多细节，所有块都得不到有意义的嵌入；如果块太小，大局就丢了，效率也不高。这告诉我们，分块本质上是一种有损压缩，无论怎么做，我们都会丢掉一些东西。我要说，不存在正确的块大小。很多做过数据的人会说：“不，我们有这个语料，有这个数据集，我们优化了系统，让它在这份数据上表现得非常好。”我们之前也这么想。我们在各种不同类型的代理、系统和工作流上有大量经验。你想想基准测试，模型多容易过拟合到某个基准，但RAG不会发生这种事，你无法按数据集去优化它。我要说，它取决于查询。我怎么能如此确定、怎么能这样断言？因为我们做了实验并测试过，现在我要给你们展示。
+<details>
+<summary>Original English</summary>
+So retrieval didn't actually die. Okay, we're not killing anything in this lecture. It is got devoted into plumbing. And I think that everybody who worked on any rug system know the feeling. day one or week one or maybe even month one if you're very thorough. You're picking some sort of a chunk size. Let's say 512
 
-There are trade-offs: it is not a free lunch. It incurs an additional storage cost of 2x to 5x ($O(1)$ constant overhead). However, latency is virtually unaffected because retrieval calls run in parallel and RRF computation is instantaneous.
+and maybe you're probably putting some overlap right 10 20% so on indexing everything and forget all about it. And you can right we talk a lot about the fixed chunking strategies where if your chunk something which is too big right so you get the whole picture which is nice but you're losing a lot of the nuance and all the chunks will not get meaningful embeddings where if you will choose your chunks to be too small you're getting the big picture lost and really it won't be as efficient. So what this tells us is that chunking is essentially a lossy compression. No matter what we're doing, we're losing something. And I will I will claim that there is no right chunk size. And a lot of you who worked on data will say, "No, but we have this corpus. We have this data set and we really used and we optimized our system to work very very well on this data." And we thought so too. We had a lot of experience with it with a lot of different types of agents and systems and workflows that you can really and right you think about benchmarks how easy it is to overfit your model to a benchmark but not with rug it doesn't happen there and you cannot really optimize it per data set and I will claim that it is query dependent and how can I be so sure how can I claim such a thing because we ran experiments and we tested And now I'm going to present it to you.
+</details>
 
-Future work includes determining the optimal number and specific values of chunk sizes dynamically rather than arbitrarily choosing (50, 100, 200...), as well as exploring ranking fusion methods beyond RRF. Agents didn't kill retrieval; the issue is that systems are still stuck with 2022 infrastructure. Simple multiscale strategies can instantly yield substantial gains.
+### 实验：多种块大小与数据集
+我们没有去问每份数据的最佳块大小是多少，而是做了这样的事：取一个数据集，把它复制多份，这里是六份，每一份的块大小不同。所以我们有块大小为200的数据库、块大小为1,000的数据库，等等。我们在多个数据集上做了这件事：QMSum，是会议记录数据集；NarrativeQA，是针对小说的问答；还有Seinfeld数据集，是关于“nothing”的问答——其实不是，是关于Seinfeld剧本的问答题。这是一个有点恶搞性质的数据集，我们在内部构建的，也已经发布了，如果有人想要，最后有链接。我们在所有这些数据集上测试，看会发生什么。首先，我们想看每个数据集上哪个块大小最好。这里展示的是Seinfeld数据集的一个例子：两个性质不同的查询，会因块大小而得到不同的结果。第一个问题是：Jerry最喜欢的教堂叫什么名字？你可以看到这是一个非常聚焦、非常具体的问题，答案很可能是很集中的，这种情况下较小的块大小表现最好。你可以看到在块大小固定为100个token时排名第一，而排名则低于50。而另一个问题是：Jerry把谁形容为他的宿敌和纯粹的邪恶？我甚至不算Seinfeld的大粉丝，但我知道是Newman，不过如果你看剧本，这并不是容易找到的内容。你可以看到情况确实变了，如果用小的块大小，你就得不到答案。
+<details>
+<summary>Original English</summary>
+So what we did instead of saying what is the best chunk size per data let's find out let's let's actually take a data set and duplicate this data set several times. In this case six times in every duplication in every instance the chunk size is different. So we have a database with a chunk size of 2,00 a database with a chunk size of 1,000 and so on and so on.
 
+And we did it with several data sets. So QM sum which is a meeting transcript data set, narrative QA which is question answering on novels and Seinfeld data set which is a trivia about nothing. Not really. It's a trivia trivia questions about the transcripts of Seinfeld. It's a kind of a trolling data set that we built uh in-house. We also published it if anybody wants the link at the end. And we tested on all of them to see what happens. And first of all, we just wanted to see for every data set which chunk size is the best. And what we're seeing here is an example from the Seinfold data set where essentially two queries which are different by nature get different results uh based on the chunk size. So the first question what is the name for Jerry's favorite church? You can see this is a very focused question very specific question. The answer to it is probably very contained and this is something that a smaller chunk size will do best in. And you can see uh rank one versus rank below 50. uh between 100 tokens fixed at chunk size to 100 whereas a question like who does Jerry describe as his nemesis and pure evil which I'm not even that big of a Seinfeld fan and I know it's Newman but if you look at the transcript it's not something you can find that easily and you can see that it really changes right if you use small chunk size you will not get the answer
+</details>
+
+### Oracle实验：潜力有多大
+在跑完这些并注意到这一点之后，我们设想：如果有一个神谕（oracle），或者说精灵，能告诉我们每个查询用什么块大小做检索最好，会怎样？这本质上就是Oracle实验，我们想借此看到潜力。这不是在构建系统，因为我们已经有答案了，我们只是想看看这里有多大潜力。在这张图里，纵轴是召回率，越高越好；横轴是检索到的块的数量，所以是recall at K对K。所有蓝线可能难以区分，但每一条都是某个固定块大小的表现，而橙色线是oracle线：对每个查询，我们从这些中取最好的一个。你可以看到这在多个数据集上都出现了。在很多数据集中，你可以看到蓝线彼此相交，这意味着对很多数据集来说，确实没有哪个块大小占优。更有意思的是潜力很大：橙线与所有蓝线之间的差距很大，我说的大，大约是20%到40%，而这只是来自对分块做策略，而且我要补充，是非常简单的策略。这个差距就是选择512或1000或随便什么数字（这个数字只是任意的）所要付出的代价。
+<details>
+<summary>Original English</summary>
+and what we did to really after we ran all of these things and we've noticed that we said what if we had an oracle or a genie if you want that can tell us for every query what is the best chunk size to do retrieval for this essentially is the Oracle experiment this is what we wanted to know to see the potential this is not right we already have the answers so we're not actually building a system here we just want to see what is the potential that we have here and what you can see here. Okay, in this uh graph all the blue, first of all, the yaxis is the recall. Higher is better. The x-axis is the number of retrieved chunks. So, it's recall at K versus K. You can see all the blue lines probably indistinguishable, but each of them is the performance for a fixed chunk size, whereas the orange one is the oracle line. This is for every query, we took the best one out of these. And you can see it happens across several data sets. In a lot of them, you can actually see that the blue lines inter intersect with each other. Meaning that indeed for a lot of the data sets, no chunk size actually dominates. And what's more interesting is that there's a lot of potential. The gap which you can see between the orange line and all the blue lines is big. And when I say big, it's something like 20 to 40%
+
+just from doing strategy on chunking and very simple strategy may I add. And this is like that this gap this is what the choice of 512 or a thousand or whatever right this number is just arbitrary. this is what it costs you.
+</details>
+
+### 信息问题与多尺度索引
+我认为问题有点棘手，因为这有点像一个信息问题：我们在每个阶段都没有所需的信息。这是什么意思？在索引阶段，我能控制块大小，但不知道查询会是什么。我可以猜，也许可以估计，可以尝试，但我不知道查询会是什么，所以无法据此调整块大小。而在检索阶段，我有查询，却无法控制块大小，它已经固定了，而且我显然不会对每个查询从头重做整个流程。我们看了先前的工作，尤其是Anthropic的contextual retrieval，它们丰富每个块，还有其他试图改进每个块的潜在空间的工作。但这不是我们走的方向，它们都停留在“使用固定块大小”的模式里。而我们采取了不同的方法：既然可以承诺多个，为什么只承诺一个？我们称之为多尺度索引（multiscale indexing）。本质上就是我们之前看到的做法：把数据库复制，用多个块大小或窗口大小来分块，这就是索引阶段发生的事。然后在检索时，我们查询所有这些数据库。所以如果有n份数据库副本、n种窗口大小，我们现在每个查询要运行六次不同的检索调用——抱歉，六就是n。
+<details>
+<summary>Original English</summary>
+And I think that the problem here is like it's a bit tricky because it's kind of like an information problem that we don't have the information that we need at every stage. And what do I mean by that? If I'm looking at the indexing part where I do have control over the chunk size, I don't know what the queries will be. I can guess, I can maybe estimate, I I can try but I don't know what the queries will be. So I cannot adjust my chunk size accordingly. And the retrieval part where I do have my queries, I cannot control the chunk size, right? It's already fixed and I obviously will not do the entire process per query from the beginning.
+
+So we looked at prior works such as notably entropic contextual retrieval where they en enrich every chunk and others that essentially try to improve the latent space of every chunk. But this is not the direction that we went. All of them just stayed in the model of let's work with a fixed chunk size. Whereas we took a different approach and we said why commit to one where we can commit to several and we call it the multiscale indexing essentially we're just doing what we've seen before. So we're checking the database. We duplicate it and chunk it uh with several
+
+chunk chunk sizes or window sizes and then sorry um and then this is what happens at the indexing and then at retrieval time we are querying all of them. So if we had n
+
+duplicates of database n window sizes we now have to run six different retrieval calls per query. Sorry, six is n.
+</details>
+
+### 用倒数排名融合合并结果
+那我们如何合并它们？我们显然不能用oracle，oracle只是用来展示潜力的。现实中我们不知道答案。但我们可以找某种合并算法。你会问，这样看有什么问题？问题在于我们有n个排名，但这些排名针对的是块，而不同大小的块并不真正可比。所以我们选择了如今相当流行的做法，很多RAG系统其实就是这样：拿到一个块时，不只是检索这个块，而是检索整篇文档。随着上下文窗口增大，我们想给出越来越多的上下文。现在在这种情况下，我们有n个针对相同文档的排名，因为不再是块了，这样就可以比较。这时你可以把检索看作本质上就是投票。所以这不是纯粹的排序，我们不是先做一轮排序再重排，而是有n个相关文档的不同排名，想把它们聚合成一个。因此我们使用所谓的RRF，即倒数排名融合（reciprocal rank fusion），公式相当简单。我们试了几种方法，这个效果最好。如你所见，它不是一个模型，不是你必须专门去做的事，只是一个简单的脚本，几乎不花时间。这就是完整系统的样子：我们对索引建n次，然后从每个数据库查询每个查询，用RRF把它们全部合并。
+<details>
+<summary>Original English</summary>
+And how do we combine them? We obviously cannot use the oracle, right? The oracle is something that we have just for potential. In real life, we don't know the answer. Uh but what we can do is to find some sort of merging algorithm. Now you would say when we look at it like this, what can be the issue? the fact that we have n ranking but the rankings are for chunks and chunks with different sizes are not really comparable right so instead we opted to do something which is pretty popular these days and a lot of the rug systems actually work like this that instead of just retrieving the chunk when we're getting a chunk we're retrieving the entire document right when context window grows we want to give more and more context and now in this case we have n right n uh rankings of the same documents because there are not chunks anymore and this we can compare and in this case you can think of retrieval as essentially just voting right so it's not pure ranking we don't have round ranking and then we're doing it rerank we're having n different ranks of the relevant documents and we want to aggregate them all into one
+
+that's why we are using something called rf receive reciprocal rank fusion, okay, which is pretty much a simple formula. We tried several things. This worked the best. And as you can see, it's not a model. It's not something that you have to do specifically like especially this is just a simple script that takes really no time. And this is how the full uh how the full system looks like. So we have the indexing end times. Then uh we query each query from every database and we're using RRF to combine them all
+</details>
+
+### 结果
+结果你可以猜到是好的，否则我不会站在这里表现得过于自信。我们在多个数据集上测试了：QMSum、NarrativeQA、Seinfeld，还有FinanceBench，它匹配或超过了最佳的固定块大小。我们在图上看看，这里有点难看清，我慢慢讲。这里每一行是一个块大小，你可以看到50、100等等，最底下一行是我们的方法，也就是从所有块大小中检索再合并。每一列是某个召回率，即recall at 1、2、3，直到10。这里你能看到两点：首先，无论recall at几，我们的方法都胜出，你可能觉得这很容易，但必须把所有的合并起来并不是一件很平凡的事；其次，质量确实提高了，热力图变得绿得多。我只是想在这里放大展示，你可以看到全部四个数据集，我们取得了更好的结果，在很多情况下大约有20%、30%、40%。还有一些我没在这里展示的结果，是在MTB上的，你可以在我们的博客里看到，我稍后会放链接，同样有很多改进，大约在10%到40%之间，取决于数据集。
+<details>
+<summary>Original English</summary>
+and the results you can guess that they're good otherwise I would not uh standing here and uh being way too much uh
+
+confident right but you can see we tested across several data sets QM sam narrative QA Seinfeld and also Finance Bench we took all of them and it matches the best or bits the best fixed size. Let's see it in a graph. It's a bit hard to see here, so I'll walk it slowly. Every row here is a chunk size. So you can see 50, 100, and so on. The bottom row is our method. This one, the one that you do from all of them and then combine. And the every column is recall at something. So recall at one two three up until 10. What you can see here is that two things right. First of all that across like recall at whatever h our method still wins which you can think is very easy but the fact that you have to combine all of them is not very it's not something which is very trivial and also you can see that the quality actually increases the heat map where you can see it become much greener and again this was just something that I wanted to show in large here you can see all four of the data sets where we do achieve better results results u really quite like 20 30 40% even in a lot of the things h also there are results that I did not show you here uh which are on MTB um you can see in our blog I will put the link later we're getting there also a lot of improvements somewhere between 10 to 40% depending on the data set
+</details>
+
+### 代价与未来工作
+我并不天真，不会在这里声称这没有代价。显然有代价，天下没有免费的午餐，一切都要付出点什么。是的，这需要额外内存，大约是两倍到五倍，对吧，是O(1)，一个常数的额外内存，因为你得保留数据库的所有这些副本。不过从延迟角度看，它其实影响不大，因为你可以并行做所有检索，而且RRF部分也不花多少时间。我要说，这是我们做的一个很不错的研究项目，我们得到了非常酷的结果。还有事情可做，有可改进的地方，也有未来的工作。更确切地说，我们想弄清楚需要多少种块大小，以及是哪些。老实说，我们使用50、100、200等等是相当任意的，所以我们确实需要弄清楚如何计算这一点，以及如何知道到底需要多少份副本。另外还要超越RRF：我们使用RRF是因为在我们用过的方法里它效果最好，但这并不意味着没有更好的方法。
+<details>
+<summary>Original English</summary>
+now I'm I'm not naive I'm not going to claim here that this costs nothing obviously There is a cost, right? No free lunches. Everything has to come with something. And yes, this costs with extra memory. It costs something between two to five to all of one, right? A constant of additional memory where you have to keep all of those uh all those copies of the database. However, if you think about it latency wise, it doesn't really affect that because you can do all the retrieval partly
+
+and also the RRF part doesn't really take a lot of time.
+
+I will say that this was a very nice research project that we did and we got really really cool results. There are things to do right there are places to improve. There are future work to do. More precisely, we want to understand how many chunk sizes do we want and and which right the fact that we worked with 50, 100, 200 and so on was pretty arbitrary to be honest. So, we do need to figure out how to compute this and how to know how many copies exactly do you need. Also go beyond RF, right? the fact that we're using RF is because it worked the best from the methods that we used, but it doesn't mean that there is no better method.
+</details>
+
+### 结语
+如果要留给你们一句话，我会说：代理没有杀死检索。没有任何东西死去，拜托。它只是基础设施。而不好的部分是，它是2022年的基础设施。用非常简单的方法，你可以拿你的RAG系统，或任何与存储数据有关的东西，然后在检索上提升20%到40%，同样不需要什么太复杂的东西。如果你想了解更多、多读一些，可以读我们的博客，那里也有示例代码和Seinfeld数据集。就这样，我是Yuval，非常感谢。
+<details>
+<summary>Original English</summary>
+And if I need to leave you with something, I would say that agents didn't kill retrieval.
+
+Nothing died. Come on. It's just infrastructure. And the part the bad bad part is that it's infrastructure from 2022. And with really simple simple methods, you can take your rag system or anything that has to do with storing data and then retrieve it with 20 to 40% again without any
+
+something too sophisticated.
+
+So if you uh want to hear more about read more about it, you can read the blog. There is also an example code there and the Seinfeld data set. And that's it. I'm Yuval. Thank you so much. May here.
+
+[applause]
+
+>> [music]
 </details>
