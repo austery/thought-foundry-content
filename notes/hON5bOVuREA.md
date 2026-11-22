@@ -6,13 +6,13 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=hON5bOVuREA
 speaker: New York Times Podcasts
 tags:
-  - pest-control
-  - real-estate
-  - sexual-assault
-  - industry-culture
-  - power-dynamics
-title: 纽约之声：老鼠、害虫防治的隐秘需求与豪华地产界的掠夺黑幕
-summary: 本期节目首先探讨纽约无处不在的老鼠问题及百老汇害虫防治公司为高端客户提供的“保密服务”；随后深入报道《纽约时报》记者德博拉·凯曼对亚历山大兄弟性侵案的调查，揭露纽约奢华房地产行业中独立承包商机制、巨大权力失衡以及纵容掠夺行为的行业结构与文化。
+  - urban-pest-control
+  - client-discretion
+  - sexual-violence
+  - independent-contracting
+  - workplace-accountability
+title: 纽约的老鼠、低调灭鼠与 Alexander 兄弟案
+summary: 《Metro》从华盛顿广场公园的鼠患讲到灭鼠公司如何为客户保密，再回顾 Alexander 三兄弟案。记者 Deborah Cayman 认为，房地产行业的结构和人脉关系让女性更容易受到侵害，也谈到行业文化是否会随经营方式改变。
 insight: ''
 draft: true
 series: ''
@@ -20,890 +20,1636 @@ category: politics-society
 area: society-thinking
 project: []
 people:
-  - Sarah Kanig
-  - Gene Miller
-  - Deborah Cayman
+  - Orin Alexander
+  - Alone Alexander
   - Tal Alexander
-  - Oren Alexander
-  - Alon Alexander
-  - Howard Lorber
 companies_orgs:
-  - The New York Times
   - Broadway Pest Services
-  - Douglas Elliman
-  - eXp Realty
+  - Douglas Elellman
 products_models: []
-media_books:
-  - Metro
-  - The Real Deal
+media_books: []
 status: evergreen
 ---
-### 纽约公园里的老鼠与都市现实
+### 公园里的老鼠
 
-**Sarah Kanig**: [音乐] 来自 Serial 制作公司与《纽约时报》，这里是讲述纽约与纽约人故事的《Metro》。我是萨拉·凯尼格（Sarah Kanig）。今天的节目主题是：死亡与税收，老鼠与房地产。[笑声] 首先来说说老鼠。前几天晚上，我跑到纽约市的一座公园里去找老鼠。“哇，那只可真大。那只真的好大。”或者我应该说，这就像瓮中捉鳖一样容易。“噢，那边有——噢，有好几只。噢。哇，有好多啊。”我和制作人麦克·米勒（Mac Miller）一起在华盛顿广场公园。
+[音乐]
+
+这里是 Serial Productions 和《纽约时报》制作的《Metro》，讲述纽约和纽约人的故事。我是 Sarah Kanig。
+
+今天的节目，死亡和税收，老鼠和房地产。
+
+[哼鼻声] 先说老鼠。前几天晚上，我去纽约市的一座公园找老鼠。哇，好大一只。真的好大一只。或者我该说，我是去桶里找鱼。哦，有，哦，有好几只。哦。哇，太多了。Mac，我当时和制作人 Mac. Miller 一起在华盛顿广场公园。
+
 <details><summary>Original English</summary>
-**Sarah Kanig**: [music] From serial productions in the New York Times, this is Metro stories about New York and New Yorkers. I'm Sarah Kanig. Today's show, death and taxes, rats and real estate. [snorts] First, the rats. The other night, I went looking for rats in a New York City park. Oh, wow. That's a big one. That's really a big one. Or should I say, I went looking for fish in a barrel. Oh, there's Oh, there's a few. Oh. Oh, wow. There are so many. Mac, I was with producer Mac. Miller in Washington Square Park.
+
+[music]
+
+From serial productions in the New York Times, this is Metro stories about New York and New Yorkers. I'm Sarah Kanig.
+
+Today's show, death and taxes, rats and real estate.
+
+[snorts] First, the rats. The other night, I went looking for rats in a New York City park. Oh, wow. That's a big one. That's really a big one. Or should I say, I went looking for fish in a barrel. Oh, there's Oh, there's a few. Oh. Oh, wow. There are so many. Mac, I was with producer Mac. Miller in Washington Square Park.
+
 </details>
 
 >> 1、2、3、4、5、6、7、8、9、10。
+
 <details><summary>Original English</summary>
+
 >> 1 2 3 4 5 6 7 8 9 10.
+
 </details>
 
->> 老鼠喜欢公园，它们也喜欢地铁。西四街地铁站就在附近。它们喜欢食物。很多纽约大学（NYU）的学生在周围闲逛、吃喝，垃圾桶都溢出来了。我对老鼠其实挺习惯的，并没有那么害怕它们，但我以前从没一口气见过这么多。在某些草坪区域，我们刚注意到一只，然后猛然发现：“噢，昏暗的光线里有几十只正在忙活着它们的老鼠营生呢。”[音乐] 天哪。天哪。有一只过来了。
+>> 老鼠喜欢公园，也喜欢地铁。西四街站就在附近。它们喜欢食物。好多纽约大学的学生在这儿待着，吃东西、喝饮料，垃圾桶都满得溢出来了。我挺习惯老鼠的，也没那么怕它们，但我从没一次见过这么多。在有些草地上，我们会先看到一只，然后突然发现：“哦，有几十只呢，[音乐] 在昏暗的光线里忙着它们老鼠自己的事。”天哪。天哪。有一只过来了。
+
 <details><summary>Original English</summary>
+
 >> Rats like parks. They also like subways. The West Fourth Street stop is right nearby. They like food. Lots of NYU students hanging around, eating, drinking, trash cans overflowing. I'm pretty used to rats. I'm not that freaked out by them, but I had never seen this many all at once. In certain grassy areas, we'd notice one, and then suddenly we'd realize, "Oh, there are dozens busy with their rat business [music] in the dim light." Oh god. Oh god. Here's one coming.
+
 </details>
 
->> 它们现在没那么害怕了。我觉得它们不像以前那么害怕人了。看那只，在那边拖着一个甜甜圈呢。
+>> 它们现在没那么怕了。我觉得它们没以前那么怕了。你看那只，正把一个甜甜圈拖过去呢。
+
 <details><summary>Original English</summary>
+
 >> They're not that scared anymore. I don't think they're as scared as they used to be. Look at that one's dragging a donut over there.
+
 </details>
 
->> 它其实叼着一整个贝果。一整个全麦贝果。[音乐]
+>> 它拿的其实是一整个贝果。[音乐] 一整个全麦贝果。
+
 <details><summary>Original English</summary>
+
 >> It's actually got a whole bagel. A [music] whole whole wheat bagel.
+
 </details>
 
->> 太疯狂了。
+>> 太离谱了。
+
 <details><summary>Original English</summary>
+
 >> This is nuts.
+
 </details>
 
->> 也许很离谱，但这绝对是纽约市生活的一部分现实。哪怕只是在华盛顿广场公园随便问问年轻人，你就会明白每个人——绝对是每个人——都有一段关于老鼠的故事。
+>> 也许是离谱，但这绝对是纽约市生活的一部分。你随便问问华盛顿广场公园里的年轻人就会明白，人人，真的是人人，都有自己的老鼠故事。
+
 <details><summary>Original English</summary>
+
 >> Nuts perhaps, but absolutely a fact of life in New York City. Even a casual survey of young people in Washington Square Park and you understand everyone but everyone has a rat story.
+
 </details>
 
->> 它们会直接从你脚上跑过去。它们会沿着你的腿往上爬。它们会钻进你的包里，甚至会把你钱包掏出来。[笑声] 它们可不是闹着玩的。
+>> 它们会直接从你脚上跑过去。它们、它们会顺着你的腿往上爬。它们会，它们会钻进你包里。它们会把你钱包掏出来。[笑声] 它们可不是闹着玩的。
+
 <details><summary>Original English</summary>
+
 >> They'll run right over your feet. They they'll run up your leg. They'll they go in your bag. They'll take out your wallet. [laughter] They don't play.
+
 </details>
 
->> 有个小伙子记得，他坐在3号线地铁上时，一只老鼠直接穿过了他的左脚。
+>> 有个男生记得，他坐在 3 号线上时，一只老鼠从他左脚上跑了过去。
+
 <details><summary>Original English</summary>
+
 >> One guy remembered a rat running across his left foot while he was sitting on the three train.
+
 </details>
 
->> 我那时大概十一二岁吧。
+>> 我那时大概十一二岁。
+
 <details><summary>Original English</summary>
+
 >> I was about like 11 12.
+
 </details>
 
->> 另一个姑娘在马路中间遇到过一只被压扁的老鼠。内脏飞溅了一地，而我一脚踩了上去。这已经是第二次发生这种事了。第一次是在人行道上。[音乐]
+>> 另一个女孩在马路中间碰到一只被压扁的老鼠。内脏溅得到处都是，然后我就踩上去了。这是第二次了。第一次是在人行道上。[音乐]
+
 <details><summary>Original English</summary>
+
 >> Another girl encountered a squashed rat in the middle of the street. Splattered guts like and I stepped on it. That's the second time this happened. The first time was on a sidewalk. [music]
+
 </details>
 
->> 我到处问大家：“那么，你们应对老鼠的策略是什么？”[音乐] 有少数几个属于“坦然接纳老鼠”的类型，但大多数都是常识性的应对策略：在公园里，你要走在道路正中间；避开边缘；[音乐] 如果你坐在长椅上，就稍微踢踢脚；时不时挪动一下双脚，它们就会离开你；而且千万不要坐在垃圾桶旁边。
+>> 我四处问：“那你们有什么办法对付[音乐]老鼠？”有几个人主张接受老鼠，不过大多数人的办法都很简单。在公园里，走小路的正中间。[音乐] 别走边上。坐在长椅上时，就踢踢脚。隔一会儿挪挪脚，它们就、就会离你远一点。还有，别坐在垃圾桶旁边。
+
 <details><summary>Original English</summary>
+
 >> I asked around, "So, what are your strategies for dealing with the [music] rats?" There were a few embrace the rat types, but mostly it was common sense tactics. In the park, you walk down the middle of the path. Avoid [music] the edges. If you're sitting on a bench, just like kick your feet a little bit. Shuffle your feet every once in a while and they'll they'll get away from you. And don't sit by a trash can.
+
 </details>
 
->> 还有老办法——
+>> 还有那个老办法。
+
 <details><summary>Original English</summary>
+
 >> There was the old
+
 </details>
 
->> 尖叫，然后拔腿就跑。
+>> 尖叫，然后我们就跑。
+
 <details><summary>Original English</summary>
+
 >> scream and we run.
+
 </details>
 
->> 尖叫然后跑开。
+>> 一尖叫，你就跑起来了。
+
 <details><summary>Original English</summary>
+
 >> Scream and you're running.
+
 </details>
 
->> 尖叫然后拔腿就跑。是的。好几次我和路人交谈时，一只老鼠就会出现在他们身后、肩膀旁或左侧，听起来就像这样。好的，谢谢你们。噢，太笨了。
+>> 尖叫，然后我们就跑。对。我跟人聊天的时候，有好几次，老鼠就出现在他们身后，或者就在他们肩膀那边，偏左一点。听起来是这样的。好，谢谢你们。哦，真蠢。
+
 <details><summary>Original English</summary>
+
 >> Scream and we run. Yeah. Several times while I was talking to people, a rat would appear behind them or just over their shoulder, just to their left, which sounded like this. All right, thank you guys. Oh, very stupid.
+
 </details>
 
->> 天哪，不。我得走了，真得走了。
+>> 天哪，不行。我要走了。真的，该走了。
+
+[音乐] 我们尖叫，然后就跑。
+
 <details><summary>Original English</summary>
+
 >> Oh my god, no. I got to go. Like, it's time to go.
+
+[music] We scream and we run.
+
 </details>
 
-### 高端害虫防治的“保密”原则
+### 灭鼠生意里的低调
 
->> [音乐] 我们尖叫着跑开了。好吧，纽约市的老鼠现实基本上是完全公开的，与秘密截然相反。但我后来在一家名为《西城杂报》（Westside Rag）的上西区本地报纸上看到了一则广告。那是一家名为百老汇害虫防治（Broadway Pest Services）的公司刊登的。广告里用的第一个形容词就是“谨慎保密”（discreet）。我就在想，保密在害虫防治行业里是件大事吗？于是我直接找到负责人询问这则广告。顺便问一下，这广告是您写的吗？
+好，纽约市有老鼠这件事，就明摆在大家眼前，完全不是秘密。可后来我在上西区一份叫《Westside Rag》的当地报纸上看到一则广告。广告是一家叫 Broadway Pest Services 的公司登的。他们用的第一个形容词是“低调”。我就想，在虫害防治这行，低调很重要吗？于是我直接去找负责人，问他这则广告的事。
+
+顺便问一下，这广告是你写的吗？
+
 <details><summary>Original English</summary>
->> [music] We scream and we run. All right, so the rat reality of New York City, it is literally out in the open, the opposite of a secret. But then I saw this ad in a local Upper Westside paper called the Westside Rag. It was for a company called Broadway Pest Services. And the first adjective they used in the ad was discreet. And I was like, is that a big thing in the pest control business? Discretion. So I went straight to the top to ask about the ad. Did you write this ad, by the way?
+
+All right, so the rat reality of New York City, it is literally out in the open, the opposite of a secret. But then I saw this ad in a local Upper Westside paper called the Westside Rag. It was for a company called Broadway Pest Services. And the first adjective they used in the ad was discreet. And I was like, is that a big thing in the pest control business? Discretion. So I went straight to the top to ask about the ad.
+
+Did you write this ad, by the way?
+
 </details>
 
->> 当然。我……是的。呃……
+>> 是。我，是。嗯。
+
 <details><summary>Original English</summary>
+
 >> Sure. I Yeah. Um
+
 </details>
 
->> 吉恩·米勒（Gene Miller），百老汇害虫防治公司总裁。这家公司是他父亲大约55年前在华盛顿高地创办的。
+>> Gene Miller 是 Broadway Pest Services 的总裁。这家公司是他父亲大约 55 年前在华盛顿高地创办的。
+
 <details><summary>Original English</summary>
+
 >> Gene Miller, president of Broadway Pest Services, a company his dad started in Washington Heights around 55 years ago.
+
 </details>
 
->> 为什么强调保密？因为《西城杂报》面向的是上西区，对吧？世界上一些最昂贵的住宅就在那里。那些老鼠可不会想“那些人有钱，咱们离他们远点”，你知道的，那些人家里可能有非常好的吃食。所以它们就去他们家了。
+>> 为什么要低调？因为，你看，《Westside Rag》是给上西区看的，对吧？所以全世界最贵的一些住宅就在那里。那、那些老鼠可不会想：“这些人有钱，咱们离他们远点。”你知道，它们、他们家里可能有特别好吃的东西。于是老鼠就去他们家了。
+
 <details><summary>Original English</summary>
+
 >> Why discreet? because that you the the westside rag is for the upper west side, right? So some of the most expensive residences uh in the world are right there. Th those rats are not like let's those people have money, let's stay away from them, you know, they're they probably have really good stuff to eat. So they go to their house.
+
 </details>
 
->> 但这就是吉恩业务中的悖论：尽管每个人都需要害虫防治，有些客户却想假装这种事根本没发生。如果你想要做这些客户的生意——通常你都想做，因为他们付得起钱——你就得假装自己根本不在那儿。
+>> 可这就是 Jean 这门生意里矛盾的地方。人人都需要虫害防治，但有些客户想假装没这回事。如果你想接这些客户的生意，而你一般是想接的，因为人家会付钱，那你就得假装自己没来过。
+
 <details><summary>Original English</summary>
+
 >> But this is the paradox of Jean's business. Even though everyone needs pest control, some customers, they want to pretend like it is not happening. And if you want those customers, and generally you do because they pay, you got to pretend you're not there.
+
 </details>
 
->> 有某些性格的人，他们甚至不想和害虫防治扯上任何关系。你明白吗？就像……
+>> 有一类人就是，就是连跟虫害防治沾一点边都不愿意。你明白吗？而且就好像，这又不是……
+
 <details><summary>Original English</summary>
+
 >> There's a certain personality that does that doesn't want to even be associated with pest control. You understand? And it's like it's not
+
 </details>
 
->> 吉恩不想指名道姓，但是——
+>> Jean 不愿点名，不过……
+
 <details><summary>Original English</summary>
+
 >> Jean doesn't want to name names but
+
 </details>
 
->> 不，我的意思是，我们服务过一些有史以来最知名的……你知道的，电视明星，他们非常在意我们甚至不能靠近……
+>> 不，我是说，我们给一些最出名的，你知道，com……有史以来最出名的电视明星做过服务。他们很在意，你知道，我们甚至不能靠近，呃……
+
 <details><summary>Original English</summary>
+
 >> no I mean we've done service for some of the biggest you know com television stars that ever lived and they were very concerned about you know us not even being near like uh
+
 </details>
 
->> 这类情况通常需要精准的日程安排，通常还要和助理对接。比如给你们10分钟的窗口期，放你们进去，然后你们出来，去给车做保养之类的……
+>> 这种情况往往要把时间安排得很精确，通常是跟助理对接。是不是像只给十分钟，我们会放你进来，然后你要出来，你可以给那些车做服务，然后……
+
 <details><summary>Original English</summary>
+
 >> cases like this often entail precision scheduling usually with an assistant. Is it like a 10-minute window and we're going to let you in and you're going to come out and you can service the cars and
+
 </details>
 
->> 给车做保养？
+>> 给那些车做服务？
+
 <details><summary>Original English</summary>
+
 >> service the cars?
+
 </details>
 
->> 我只是打个比方给点提示。
-<details><summary>Original English</summary>
->> I was just giving hints.
-</details>
+>> 我就是给点提示。
 
->> 提示。纽约市的某位电视大明星，有很多车。并不是说这有什么不好。无论如何，那个客户后来黄了。我是说，我们和他合作了很久，后来丢了那个单子，是因为……我想是我们的员工提早了一个小时还是迟到了一个小时之类的，结果碰巧被他看到了。噢。
 <details><summary>Original English</summary>
+
+>> 提示。纽约市的大电视明星。车很多。这也没什么不好。总之，那单生意后来黄了。我是说，我们跟他合作了很久，嗯，后来丢了这单，因为我们……他们……我想我们的人早到了一小时，或者晚到了一小时之类的，结果让他看见了。哦。
+
+<details><summary>Original English</summary>
+
 >> Hints. Big TV celebrity in New York City. A lot of cars. Not that there's anything wrong with that. In any case, that account went south. I mean, and we worked with him for a long time and um we lost that because we were they I think our guy came an hour early or an hour late or something where he got to see him. Oh.
+
 </details>
 
->> 噢，字面意义上的“被看到了”。
+>> 哦，他是真的、真的被看见了。
+
 <details><summary>Original English</summary>
+
 >> Oh, literally he he was seen.
+
 </details>
 
->> 是的。是的。绝对不能被看到。你知道的，有这种事。
+>> 对。对。不能被看见。你知道，那儿……
+
 <details><summary>Original English</summary>
+
 >> Yeah. Yeah. Can't be seen. You know, there
+
 </details>
 
->> 很明显，吉恩对那件事依然有点耿耿于怀。不过没关系，百老汇害虫防治为许多许多名人服务，也为高档酒店、高档餐厅服务。吉恩说，他们最近接手过一家米其林星级餐厅，那家餐厅后来倒闭了。在所有这些高端业务中，吉恩和他的员工告诉我，他们必须保持谨慎低调。我问能不能跟着去跑一次现场，亲眼看看这种保密操作，这需要一番协商。显然，带一名背着双肩包、拿着大麦克风的记者同行，可算不上保密。我说我可以用微型录音机，几乎看不出来。吉恩同意了。在接管父亲的生意之前，他曾在洛杉矶从事电影制作。只要一有机会，他就会展现出导演的做派。[音乐]
+>> 显然，Jean 对那件事还有点耿耿于怀。不过，[音乐] 没关系，Broadway Pest 给很多很多名人做服务，也给高级酒店、高级餐厅做。Gene 说，他们最近有一家米其林星级餐厅，店倒闭了。Gene 和员工告诉我，做这些高端客户的活儿，都得低调。我问能不能跟他们出一次工，看看他们实际怎么做到低调。这事得商量一下。显然，带个背着包、拿着大麦克风的记者一起去，算不上低调。我说我可以用一台小录音机，几乎看不见。Gene 同意了。接手父亲的生意前，他在洛杉矶拍电影。[音乐] 他一有机会，就会施展一下当导演的本事。
+
 <details><summary>Original English</summary>
+
 >> clearly Jean's still a little sour about that one. But [music] no matter, Broadway Pest does service for lots and lots of celebrities, also fancy hotels, fancy restaurants. Gene said they recently had a Michelin star restaurant place went under. At all these high-end jobs, Gene and his employees told me they got to be discreet. I asked if I could go along on a job so I could see the discretion in action, which required a bit of negotiation. Apparently, it is not discreet to bring a reporter with a backpack and a big microphone along. I said I could use a mini recorder, barely visible. Gene was down before he took over his father's business. He used to work in LA making movies. He'll [music] deploy his directorial muscles any chance he gets.
+
 </details>
 
->> 好，很好。我们把这个收起来，她只拿那个。这样她看起来就不像是和你一伙的。或者你可以说她是……那叫什么来着？审计员。她是审计员。[音乐]
+>> 好，行。那我们把这个收起来，她身上只带那个。这样她看起来就不会像是单纯跟着你来的。或者你可以说她是，[音乐] 那个叫什么？审计员。她是审计员。
+
 <details><summary>Original English</summary>
+
 >> Okay, good. So, we'll put this away and she'll only have that. So, she won't look like she's just kind of with you. Or you could say she's [music] a what's that called? An auditor. She's an auditor.
+
 </details>
 
->> 这个，我不想撒谎。就说……你能直接说她是跟我一起来的吗？
+>> 可我不想撒谎。就说，能不能就说她是跟我来的？
+
 <details><summary>Original English</summary>
+
 >> Well, I don't want to lie. Just say, can you just say she's with me?
+
 </details>
 
->> “她是跟我一起的”没问题。你甚至可能什么都不用说。就说你们俩都是百老汇公司的。你知道的，那栋楼里的人有点挑剔。所以……
+>> “她是跟我来的”就对了。你可能连这都不用说。你们俩都是 Broadway 的。你知道，那栋楼里的人有点挑剔。所以……
+
 <details><summary>Original English</summary>
+
 >> She's with me is right. And you may not even have to say anything. You were just both with Broadway. You know, they kind of finicky in that kind of in that building. So,
+
 </details>
 
->> 是啊，我的意思是，这正是核心所在。[音乐]
+>> 是啊。我是说，这就是重点。
+
+[音乐]
+
 <details><summary>Original English</summary>
->> yeah. I mean, this is the whole point. [music]
+
+>> yeah. I mean, this is the whole point.
+
+[music]
+
 </details>
 
->> 搞定。几天后，我与一组工作人员会合，前往西村的一栋住宅楼进行每周例行维护。
+>> 说定了。几天后，我跟一组工作人员会合。他们要去西村一栋住宅楼做每周一次的例行服务。
+
 <details><summary>Original English</summary>
+
 >> It's on. A couple days later, I meet up with a crew for a weekly servicing at a residential building in the West Village.
+
 </details>
 
->> 噢，好的。米格尔（Miguel），今天怎么样？这是我的徒弟安东尼（Anthony）。
+>> 哦，好。你今天怎么样，Miguel？我的徒弟，Anthony。
+
 <details><summary>Original English</summary>
+
 >> Oh, okay. How you doing today, Miguel? My protege, Anthony.
+
 </details>
 
->> 嗨，安东尼。嗨。
+>> 嗨，Anthony。嗨。
+
 <details><summary>Original English</summary>
+
 >> Hi, Anthony. Hi.
+
 </details>
 
->> 很高兴见到你们。
+>> 很高兴认识你们。
+
 <details><summary>Original English</summary>
+
 >> Nice to meet you guys.
+
 </details>
 
->> 等我到达时，他们已经检查了大楼前方大花园里的捕鼠夹。
+>> 我到的时候，他们已经检查过大楼前面那个大花园里的捕鼠器了。
+
 <details><summary>Original English</summary>
+
 >> By the time I arrive, they've already checked their traps in the building's large front garden.
+
 </details>
 
->> 徒弟安东尼手里拎着一个沉甸甸下垂的小垃圾袋。现在那个袋子里装的是什么？
+>> 徒弟 Anthony 提着一个小垃圾袋，袋子坠了下来。那个袋子里现在装着什么？
+
 <details><summary>Original English</summary>
+
 >> Anthony, the protege, is carrying a small sagging garbage bag. What is in that bag right now?
+
 </details>
 
->> 褐家鼠（Norway rat）。
+>> 褐家鼠。
+
 <details><summary>Original English</summary>
+
 >> Norway rat.
+
 </details>
 
->> 里面装着一只恶心的老鼠。
+>> 里头有一只挺吓人的老鼠。
+
 <details><summary>Original English</summary>
+
 >> A gnarly rat is in there.
+
 </details>
 
->> 褐家鼠。褐家鼠。
+>> Norway。Norway。
+
 <details><summary>Original English</summary>
+
 >> Norway. Norway.
+
 </details>
 
 >> 一只褐家鼠。
+
 <details><summary>Original English</summary>
+
 >> A Norway rat.
+
 </details>
 
->> 褐家鼠。没错。
+>> Norway。对。
+
 <details><summary>Original English</summary>
+
 >> Norway. That's right.
+
 </details>
 
->> 我立刻既想看又不想看。我们所在的这栋楼，是那种拥有自己专属网站并称自身为“建筑壮举”的楼宇。它坐落在一条绿树成荫的美丽鹅卵石街道上。一套两居室目前的挂牌价是350万美元，四居室则更接近800万或900万美元。
+>> 我一下子又想看，又不想看。我们来的是那种有自己的网站、在上面称自己为建筑杰作的楼。它坐落在一条漂亮的鹅卵石街上，两旁都是树。现在挂牌的一套两居室要 350 万美元。四居室就更接近八九百万了。
+
 <details><summary>Original English</summary>
+
 >> I instantly wanted to see it and also not to see it. This building we're at is the kind of building that has its own website describing itself as an architectural triumph. It's on a lovely treelined cobblestone street. A two-bedroom is listed right now for $3.5 million. A fourbedroom is more like 8 or 9 million.
+
 </details>
 
->> 我们在这里真的很尽力保持谨慎低调。那你们是怎么做到低调保密的？
+>> 我们在这里真的尽可能低调。那你们怎么、怎么做到低调呢？
+
 <details><summary>Original English</summary>
+
 >> We really try to be here as discreet as we can. And how do you how do you do that discretion?
+
 </details>
 
->> 目前来说，我们尽量不穿公司配发的衬衫，尽管上面有徽标。
+>> 现在我们尽量不穿公司配给我们的衬衫，虽然上面有标志。
+
 <details><summary>Original English</summary>
+
 >> Right now, we try not to wear the shirts that we have with the company, even though it has a logo.
+
 </details>
 
->> 他们穿的制服本身就是一个微型悖论：我想让你看到，同时又不想让你看到。真正让他们与众不同的是衬衫：笔挺洁白，右上角绣着百老汇害虫防治公司的徽章。样式和警长穿的制服一模一样，这是特意设计的。吉恩希望技术人员看起来像一支前来保护你的军队。他们是行走的广告，有助于招揽业务。他们希望能引人注目，除非遇到不希望引人注目的时刻，比如现在——
+>> 他们穿的制服本身也有点矛盾。我想让你看见，又不想让你看见。真正让他们显眼的是衬衫。衬衫挺括、雪白，右上方有一块 Broadway Pest Services 的布章。款式和警佐穿的衬衫一样，这是有意选的。Gene 想让这些技术人员看起来像一支来保护你的队伍。他们就是行走的广告，有利于招揽生意。他们想显眼，除非他们不想显眼，比如现在。
+
 <details><summary>Original English</summary>
+
 >> The uniforms they wear are their own mini paradox. I want you to see it and also not to see it. It's the shirts that really set them apart. Crisp and very white with a Broadway pest services patch on the upper right. The same style shirts that police sergeants wear, which is on purpose. Gene wants the text to look like an army coming to protect you. They're walking advertisements, which is good for attracting business. They want to stick out except for when they don't want to stick out like right now
+
 </details>
 
->> 因为当你穿一身白的时候，每个人都会觉得那代表权威，他们会想——
+>> 因为你穿白色的时候，嗯，大家看着就觉得像是有权威的人，然后他们就想……
+
 <details><summary>Original English</summary>
+
 >> because when you wear white um everybody looks at as like authority and they figure
+
 </details>
 
->> “那是哪来的检查员”之类的，但是——
+>> 那是谁，来检查什么的，可是……
+
 <details><summary>Original English</summary>
+
 >> who's that inspected and thing but
+
 </details>
 
->> 所以他们在亮白色的衬衫外面套了深灰色的夹克。米格尔的夹克拉链敞着，但他把领子翻了过来，挡住了公司的徽章。如果是极度挑剔苛刻的客户，他们可能不得不彻底脱掉公司装备，只穿普通便服，比如普通的POLO衫。带轮子的工具箱也得舍弃，换成毫不起眼的帆布包。在前台登记时，可能得只写“百老汇”而不是“百老汇害虫防治”，甚至要假装成亲戚，比如“我表弟要过来”。而且看在上帝的份上，千万别把那辆印满百老汇害虫防治刺眼涂装的面包车停在我的私家车道或房子正前方。
+>> 所以，他们在雪白的衬衫外面套了深灰色夹克。Miguel 的夹克没拉拉链，但他把领子折过去，挡住了公司的布章。如果遇到特别讲究的客户，他们可能得把公司的行头全换掉。就穿便服，比如一件普通的马球衫。他们那些带轮子的工具箱，可能也要换成不起眼的手提包。在礼宾台登记时，可能只写 Broadway，省掉 Pest Services，甚至说是家里人，比如“我表亲要过来”。还有，拜托，千万别把那辆花哨的、贴满 Broadway Pest Services 标识的厢式车停在我家车道上，或者我家门口。
+
 <details><summary>Original English</summary>
+
 >> so they're wearing dark gray jackets over their bright white shirts. Miguel's jacket is unzipped but he's got the collar folded over to hide the company patch. If this were a super uptight client, they might have to shed the company gear entirely. Just wear street clothes like a regular polo shirt and their wheelie tool cases. They ditch him for maybe a non-escript duffel. They might need to sign in with the concierge as just Broadway rather than Broadway pest services or even as family like my cousin's coming over. And for God's sakes, don't park that garish van wrapped in the Broadway Pest Services branding in my driveway or in front of my house.
+
 </details>
 
->> 能预料到这种要求吧？人们不想说：“嘿，你来我家时，一定要把车停在街角拐弯处。”
+>> 你看得见那辆车开过来吧？人们不想开口说：“嘿，你来我家的时候，一定要把车停在拐角那边。”
+
 <details><summary>Original English</summary>
+
 >> You see that coming? People don't want to say, "Hey, when you come to my house, make sure you park around the corner."
+
 </details>
 
->> 针对那些坚持要求的客户，公司配备了几辆没有任何标识的普通SUV。谢天谢地，这种特别挑剔的客户不算太多，但确实存在。米格尔说，基本的经验法则是——
+>> 对坚持这么要求的客户，公司备了两辆普通的 SUV。车上没有标识。好在这么挑剔的客户不多，但确实有。Miguel 说，一般的做法就是……
+
 <details><summary>Original English</summary>
+
 >> For those who insist, the company has a couple of plain SUVs. No markings. Thankfully, there aren't too many of these extra fussy clients, but they do exist. And the rule of thumb, Miguel said, is
+
 </details>
 
->> 保持安静。
+>> 别声张。
+
 <details><summary>Original English</summary>
+
 >> be quiet.
+
 </details>
 
->> 保持安静，意思是不要讨论你在这里工作过？
+>> 别声张，就是别跟人说你在这儿做过活。
+
 <details><summary>Original English</summary>
+
 >> Be quiet, meaning like do not discuss that you've worked here.
+
 </details>
 
->> 是的。不要讨论客户的问题。就像医生一样，一切都要保密。
+>> 对。别谈客户的问题。就像医生一样，什么都得保密。
+
 <details><summary>Original English</summary>
+
 >> Yes. You don't discuss with the client's problem. It's like a doctor. Everything is discreet.
+
 </details>
 
->> 在挑剔程度上，米格尔说我们现在所在的这栋楼大概在满分10分里能打4到5分。完全合情合理，但也不能做得太过分。我们又绕到了后花园。他们检查了陷阱，更换了诱饵，检查了灌木丛中是否有新的鼠洞。一切进展顺利。后面的陷阱全都是空的，这意味着几乎没有老鼠活动。发生的最高潮的事情——
+>> Miguel 说，要给挑剔程度打分，我们现在这栋楼大概是十分里的四五分。完全合理，不过也别得寸进尺。我们又绕到后花园。他们检查捕鼠器，更换诱饵，再看看灌木丛里有没有新的老鼠洞。一切顺利。后面的捕鼠器都是空的，说明老鼠很少活动，或者根本没有活动。最刺激的一件事是……
+
 <details><summary>Original English</summary>
+
 >> On the finicky scale, Miguel says the building we're at right now is maybe a four or five out of 10. Totally reasonable, but don't push it. We head around to the back garden again. They check the traps, replace the bait, inspect the bushes for any new rat burrows. It's going great. The traps back here are all empty, which means little or no rat activity. The most exciting thing that happens.
+
 </details>
 
->> 那只死掉的未成年恶心褐家鼠从安东尼的小垃圾袋里掉了出来。我们大家都本能地往后跳了一下，就像你看到老鼠时那样——
+>> 那只挺吓人的、还没长成的死褐家鼠，从 Anony 的小垃圾袋里掉了出来。我们都不由自主往后跳了一下，就像看到老鼠时那样。
+
 <details><summary>Original English</summary>
+
 >> The dead adolescent gnarly Norway rat falls out of Anony's little trash bag. We all do that involuntary jumpback thing like you do when you see a rat
+
 </details>
 
->> 试图躲避它。
+>> 想躲开它。
+
 <details><summary>Original English</summary>
+
 >> trying to escape him.
+
 </details>
 
->> 你去哪里处理掉那只老鼠？你总不能直接扔在人家的花园里吧。
+>> 你们把那只老鼠扔哪儿？总不会直接扔在他们的花园里吧。
+
 <details><summary>Original English</summary>
+
 >> Where do you get rid of that rat? Like you're not just going to put it in their garden.
+
 </details>
 
->> 我说它们来自城市，我们就把它们还给城市。
+>> 我说，它们从市里来，我们就把它们还给市里。
+
 <details><summary>Original English</summary>
+
 >> I said they come from the city. We give them back to the city.
+
 </details>
 
->> 没错。
+>> 对。
+
 <details><summary>Original English</summary>
+
 >> That's right.
+
 </details>
 
->> 你认真的吗？
+>> 你说真的？
+
 <details><summary>Original English</summary>
+
 >> Are you serious?
+
 </details>
 
->> 是啊。我直接把它放回环卫系统里。
+>> 对，我直接把它放回环卫那儿。
+
 <details><summary>Original English</summary>
+
 >> Yeah. I put it right back into the sanitation.
+
 </details>
 
->> 他说的环卫系统，指的就是垃圾堆。只是不放在这里。尽管我们距离一个垃圾桶只有几英寸远，他也会去别的地方扔掉。[音乐] 这就是保密。
+>> 他说的环卫，就是垃圾。只是不扔在这儿。虽然离我们几英寸就有个垃圾桶，他也会去别处扔。[音乐] 低调。
+
 <details><summary>Original English</summary>
+
 >> By sanitation, he means the trash. Just not here. Even though we are inches from a trash recepticle, he'll do it elsewhere. [music] Discretion.
+
 </details>
 
-### 纽约的另一大现实：房地产与阶层鸿沟
+### 从老鼠说到房地产
 
->> 纽约市的贫富差距、阶层差距不仅令人震惊，[音乐] 而且无处不在，因为我们所有人都挤在一起生活。你不可能看不到大家在资源获取上的差异。在某些方面，老鼠是一个伟大的平等调节器：我们所有人无论如何都必须面对它们。[音乐] 在策划这期节目时，我们开始聊起是否还有另一件事也是如此——一件所有纽约人都必须纠结面对、跨越阶层界限的事，那就是房地产。我不知道还有哪个城市像纽约这样对房地产如此执迷。它渗透进纽约人的生活：房东与租金管制、租客协会、公共住房计划，或是合作公寓委员会（co-op boards）、大型市政开发项目或大型私人开发项目。这是一个永恒且消耗精力的话题。在我们今天节目的主要报道中，[音乐] 我们将深入观察纽约这个必然现实的特定角落——房地产。[音乐] 广告之后马上回来。
+纽约市的贫富差距、阶层差距，[音乐] 不仅大得惊人，还天天摆在你眼前，因为大家都挤在一起生活。谁能得到什么，[音乐] 谁得不到，你想不看见都难。某种程度上，老鼠倒是能拉平差距。不管怎样，我们每个人都得[音乐]面对它们。做这期节目时，我们聊到，还有另一件这样的事。所有纽约人都得应付它，它也跨越了[音乐]阶层界线。那就是房地产。
+
+我不知道还有哪个城市像纽约这么在意房地产。房东和租金管制、租户协会、公共住房项目，也可能是合作公寓的董事会，或是大型城市开发项目，或是大型私人开发项目。纽约人的生活处处绕不开这些事。这个话题一直在，占去很多心思。今天节目[音乐]的主故事，要带大家看看纽约另一件躲不开的事当中的一角。[音乐] 房地产。休息一下，回来接着讲。
+
 <details><summary>Original English</summary>
->> The wealth gap in New York City, the class gap, it is not [music] only breathtaking here, it's in your face because we all live on top of each other. You can't not see the differences in who has [music] access to what. In some ways, the rats are a great equalizer. All of us have to confront them [music] one way or another. And putting together this show, we started talking about how there is one other thing like that, a thing all New Yorkers have to wrestle with that cuts across [music] class lines, and that is real estate. I don't know any other city as preoccupied with real estate as New York. It pervades New Yorkers lives, landlords and rent control, tenant associations, public housing programs, or maybe it's co-op boards or huge city developments or huge private developments. It is a constant consuming topic. Our main story on [music] today's show, we're going to take a look inside a particular corner of this other New York inevitability, [music] real estate. That's after the break.
+
+The wealth gap in New York City, the class gap, it is not [music] only breathtaking here, it's in your face because we all live on top of each other. You can't not see the differences in who has [music] access to what. In some ways, the rats are a great equalizer. All of us have to confront them [music] one way or another. And putting together this show, we started talking about how there is one other thing like that, a thing all New Yorkers have to wrestle with that cuts across [music] class lines, and that is real estate. I don't know any other city as preoccupied with real estate as New York. It pervades New Yorkers lives, landlords and rent control, tenant associations, public housing programs, or maybe it's co-op boards or huge city developments or huge private developments. It is a constant consuming topic. Our main story on [music] today's show, we're going to take a look inside a particular corner of this other New York inevitability, [music] real estate. That's after the break.
+
 </details>
 
-### 亚历山大兄弟案与房地产行业内部的脆弱生态
+上个月底，一桩引起轰动的丑闻落下帷幕。三兄弟因 2010 年代发生的一系列强奸案和其他罪行被定罪，三人分别被判在联邦监狱服刑。我看过关于这几个人的新闻标题，也扫过一两篇报道，但没仔细跟进。唉，我把它归到又一桩男人对女人做出可怕事情的新闻里。后来，我跟记者 Deborah Cayman 聊了聊。
 
->> 上个月底，一起巨大的丑闻事件落下了帷幕。三兄弟因在整个2010年代发生的一系列强奸和其他罪行被定罪，各自被判处联邦监禁。我曾见过关于这几个人的头条新闻，也浏览过一两篇报道，但并未密切关注。唉，我当时只是把它当作又一起男人对女人做出可怕行径的案件。但随后我和记者德博拉·凯曼（Deborah Cayman）聊了聊。德博拉为《纽约时报》报道了这个案子。她率先披露了关于这几名男子的许多报道——他们就是亚历山大兄弟。德博拉谈到，亚历山大兄弟案实际上是一种极具纽约特色的故事，因为案件发生在纽约最大的支柱产业之一——房地产行业内部，极大地揭示了那个世界的运作方式。因此，[笑声] 我邀请德博拉来到演播室，跟我讲讲她的调查报道，以及她所观察到的在纽约市房地产市场最高层级工作的行规、文化和陷阱。德博拉目前在《纽约时报》的大都会新闻部工作，但她以前曾负责房地产板块。所以我请她从头讲起：当她最初开始跑这条条线时注意到了什么？她是如何了解这个行业的？
+Deborah 为《纽约时报》报道了这个案子。她率先报道了不少关于 Alexander 兄弟的消息。她说，Alexander 兄弟案其实是一种很特别的纽约故事，因为它发生在纽约最大的行业之一，也就是房地产业，而且很能说明这个行业是怎么运作的。所以，[哼鼻声] 我请 Deborah 来演播室，讲讲她的报道，也讲讲她了解到的纽约市最高端房地产市场的行规、文化和从业风险。
+
+Deborah 现在在《纽约时报》的都市新闻部，以前在房地产新闻部。所以我请她从头说起。她刚开始跑这条线时，注意到了什么？她是怎么了解这个行业的？
+
+我做的一件事，就是加了好几个女性房产经纪人的 Facebook 群。我当时想，哦，就是看看这些女性怎么聊自己的工作嘛。然后我就开始看她们在聊什么。这些经纪人在网上聊的很多都是，带人看房时怎么保护自己，怎么应付那些 skew 的客户，还有，嗯，比如这个客户要来，可他不想带妻子，而且一直在撩她。但她真的需要做成这笔买卖，又拿不准见面安不安全。如果你去参加房地产行业的会议，我做房地产记者时会去……
+
 <details><summary>Original English</summary>
->> At the end of last month, a big scandalous story came to a close. Three brothers who'd been convicted of a series of rapes and other crimes that occurred throughout the 2010s were each sentenced to federal prison. I'd seen the headlines about these guys and scanned a story or two, but I did not follow it closely. I chocked it up, alas, to one more story about men doing horrifying things to women. But then I talked to reporter Deborah Cayman. Deborah covered this story for the New York Times. She broke a bunch of stories about these men, the Alexander brothers. And she was saying that the Alexander Brothers case is actually a particular kind of New York story because it unfolded inside of one of New York's biggest industries, real estate. and speaks volumes about how that world operates. So, [snorts] I asked Deborah to come into the studio to tell me about her reporting and what she'd gathered about the norms and the culture and the pitfalls of working at the highest level of New York City's real estate market. Deborah works on the Times Metro desk, but she used to be on the real estate desk. So, I asked her to start at the beginning. What did she notice when she first started covering that beat? How'd she learn about it?
+
+At the end of last month, a big scandalous story came to a close. Three brothers who'd been convicted of a series of rapes and other crimes that occurred throughout the 2010s were each sentenced to federal prison. I'd seen the headlines about these guys and scanned a story or two, but I did not follow it closely. I chocked it up, alas, to one more story about men doing horrifying things to women. But then I talked to reporter Deborah Cayman.
+
+Deborah covered this story for the New York Times. She broke a bunch of stories about these men, the Alexander brothers. And she was saying that the Alexander Brothers case is actually a particular kind of New York story because it unfolded inside of one of New York's biggest industries, real estate. and speaks volumes about how that world operates. So, [snorts] I asked Deborah to come into the studio to tell me about her reporting and what she'd gathered about the norms and the culture and the pitfalls of working at the highest level of New York City's real estate market.
+
+Deborah works on the Times Metro desk, but she used to be on the real estate desk. So, I asked her to start at the beginning. What did she notice when she first started covering that beat? How'd she learn about it? One thing that I did was I joined a bunch of Facebook groups for women real estate agents thinking like, oh, just like, you know, right, women talking about the work that they do and I started just watching what they were chatting about. And so much of the online discourse of these agents was about how to stay safe when they were showing homes, how to deal with clients who were skew, what to do um with the fact that this client was coming, but he didn't want to bring his wife and he'd been hitting on her, but she really needed to make the sale and she wasn't sure if it was safe to meet. And if you go to real estate industry conferences, which I would do as a real estate journalist,
+
 </details>
 
-**Deborah Cayman**: 我做的一件事是加入了一堆女性房地产经纪人的Facebook群组，当时心想，噢，这不过就是女性在讨论她们的工作嘛。然后我开始观察她们在聊些什么。这些经纪人的线上讨论有很大一部分集中在：带客户看房时如何保持自身安全，如何应对行为不正经的客户；当遇到客户想来看房却不肯带妻子同行、并且一直在撩她，而她又极其需要拿下这笔交易、拿不准见面是否安全时，该怎么办。如果你参加房地产行业的大会——作为房地产记者我经常去——
-<details><summary>Original English</summary>
-**Deborah Cayman**: One thing that I did was I joined a bunch of Facebook groups for women real estate agents thinking like, oh, just like, you know, right, women talking about the work that they do and I started just watching what they were chatting about. And so much of the online discourse of these agents was about how to stay safe when they were showing homes, how to deal with clients who were skew, what to do um with the fact that this client was coming, but he didn't want to bring his wife and he'd been hitting on her, but she really needed to make the sale and she wasn't sure if it was safe to meet. And if you go to real estate industry conferences, which I would do as a real estate journalist,
-</details>
+>> 你就会看到，很多商家在酒店的会议厅里摆摊。一个摊位接一个摊位，卖的都是这类东西。比如看着像项链的可爱小哨子，但你戴着它的话，他们就能……或者，你知道，有一种专门下载到手机上的应用，会立刻拨打 911，客户还不知道。就这样，光是琢磨怎么保护自己，背后就有了一整个小行业。
 
->> 你知道的，酒店会议厅里摆满了参展商展位，一个接一个展位摆着的都是诸如外表看起来像项链的可爱小口哨，只要戴着它就能报警；或者是一款下载在手机上的特殊应用程序，能悄悄直接拨打911而不让客户察觉。在这背后存在着一整个新兴衍生行业，所有人都在摸索如何保护自己。
 <details><summary>Original English</summary>
+
 >> you're, you know, you have all these vendors who set up in conf, you know, the conference halls of hotels, and stall after stall is like this cute little whistle that looks like a necklace, but if you wear it, they can or, you know, it's it's a special app on your phone that you download that immediately calls 911 that your client doesn't know. So, there's an entire cottage industry behind this of people just figuring out how to protect themselves.
+
 </details>
 
->> 我意识到这里可能大有文章，于是开始深入调查。德博拉发现，房地产行业对女性而言相当危险，而女性在美国房地产经纪人中占了绝大多数。她们不仅要面对来自客户的侵犯甚至更糟的情况，还要面对行业内部的虐待与骚扰。例如，德博拉曾做过一篇重磅报道，揭露美国最大行业贸易组织——全国房地产经纪人协会（National Association of Realtors）主席受到的性骚扰指控。当事人否认了指控，但最终辞职了。但这些事情的发生并不仅仅是因为某些害群之马。德博拉说，女性在房地产界容易受到侵害，在很大程度上是因为这个行业的结构模式。当你成为一名房地产经纪人时，你属于独立承包商，你是在为自己打工。
+>> 我意识到，这里可能有个值得报道的故事。于是我开始查。
+
+Deborah 发现，房地产行业对女性来说有些危险。在美国，房产经纪人大多是女性。她们要面对来自客户的侵害，甚至更严重的事，也要面对行业内部的侵害。比如，Deborah 做过一篇重要报道，讲的是美国全国房地产经纪人协会的主席受到性骚扰指控。这个协会是全美最大的行业组织。那人否认了指控，但最后还是辞职了。
+
+不过，这些事并不只是因为个别害群之马。Deborah 说，女性在房地产行业容易受到侵害，很大程度上和这个行业的结构有关。你当上房产经纪人，就是独立承包人。你为自己工作。
+
 <details><summary>Original English</summary>
->> And I realized there might be a story here. and I started looking into it. What Deborah found was that the real estate industry was kind of dangerous for women who make up the majority of real estate agents in the US. They were dealing with assaults and worse from clients, but they were also facing abuse from inside the industry. Deborah did a big story, for example, about sexual harassment allegations against the president of the National Association of Realtors, which is the country's largest trade organization. The guy denied the allegations, but he ended up resigning. But this stuff was not happening just because of bad apples. Deborah says the reason women were finding themselves vulnerable to abuse in the real estate world was in large part because of the way the industry is structured. When you become a real estate agent, you're an independent contractor. You work for yourself.
+
+>> And I realized there might be a story here. and I started looking into it.
+
+What Deborah found was that the real estate industry was kind of dangerous for women who make up the majority of real estate agents in the US. They were dealing with assaults and worse from clients, but they were also facing abuse from inside the industry. Deborah did a big story, for example, about sexual harassment allegations against the president of the National Association of Realtors, which is the country's largest trade organization. The guy denied the allegations, but he ended up resigning.
+
+But this stuff was not happening just because of bad apples. Deborah says the reason women were finding themselves vulnerable to abuse in the real estate world was in large part because of the way the industry is structured. When you become a real estate agent, you're an independent contractor. You work for yourself.
+
 </details>
 
->> 即使你挂靠在一家经纪公司旗下，你也必须通过经纪公司展业。当你卖出一栋房子时，他们会抽走你一半的佣金，但你本人并不是雇员。因此，一旦出了问题，你没有人力资源部门可找。你没有一个真心为你着想、极力保你在团队里的上司可以求助。你自己就是自己的老板，这听起来很有吸引力，但也伴随着各种各样的风险。再看看这个行业的运作方式——
+>> 就算你挂靠在一家经纪公司，你得在一家经纪公司做事。你卖出一套房子，公司就会拿走你一半的佣金，但你自己并不是雇员。所以万一出了问题，你没有人力资源部门可以找。你也没有一个可以去找的老板，真心愿意照顾你、把你留在团队里。你自己就是老板，这确实很吸引人，但也带来各种风险。再看看这个行业的情况……
+
 <details><summary>Original English</summary>
+
 >> What even when you're affiliated with a brokerage, you have to work for a brokerage. So they're going to take half of your commission when you sell a home, but you yourself are not an employee. So should something go wrong, you don't have an HR department. You don't have a boss that you can go to who is really invested in looking out for you and keeping you on their team. You are your own boss, which is really appealing, but also comes with all sorts of risks. And then when you look at the way the industry is,
+
 </details>
 
->> 房地产经纪人的工作要求你表现得友好、有吸引力、善于交际、讨人喜欢，因为你是一个销售人员，而且还要在私密场所与陌生人见面。别忘了，德博拉说，女性是房地产行业的底层一线步兵。她们是负责出售均价14万美元普通房屋的人，而经纪公司的高管职位大多由男性占据。她说，房地产行业拥有所有行业中最大的性别薪酬差距。所有这些因素交织成了一场完美风暴：如果有人想占一个弱势女性的便宜，机会就在眼前，而背后没有任何真正的保护机制。这套机制在纽约市的房地产市场中是如何体现的？纽约也是这种情况吗？在纽约会更严重吗？还是说在纽约表现得更为分散？这种文化在纽约是如何呈现的？我认为就像纽约的所有事物一样——规模更大、更被放大、更加激烈。情况更糟。[笑声]
+>> 房产经纪人的工作，就是待人友好、让人觉得好看、善于交际、讨人喜欢，因为你是做销售的。然后，你还要在私密的地方跟陌生人见面。还有一点，Deborah 说，女性是房地产行业的一线人员。卖那些寻常的、14 万美元一套的房子的，是她们。经纪公司的高管职位，大多由男性担任。她说，房地产是所有行业里性别薪酬差距最大的。
+
+就像各种因素全赶到一块儿了。要是有人想占一个处境脆弱的女人的便宜，机会就在眼前。背后又没有真正能保护她的制度。
+
+那、那放到纽约市的房地产行业里，又是什么样？这些、这些情况在纽约也都存在吗？在纽约更严重吗？还是更分散？这种文化到了纽约，又是什么样？
+
+我觉得，就像纽约什么事都更大、更放大、更强烈一样。这里更糟。[笑声]
+
 <details><summary>Original English</summary>
->> the the the work of a real estate agent is being friendly, being attractive, being sociable, being appealing cuz you're a saleserson, and then meeting strangers in private places. And keep in mind, Deborah says women are the foot soldiers of real estate. They're the people selling your average $140,000 house, while the top executive spots at the brokerages are mostly occupied by men. Real estate, she said, has the largest gender pay gap of any field. It's like a perfect storm of all the factors that if somebody wants to take advantage of a woman who's vulnerable, it's right there in front of them. And then there's no real protective structure behind it. H how does that overlay onto New York City's real estate? Like is that all all that stuff also true in New York? Is it worse in New York? Is it more diffuse in New York? Like how how does that culture overlay onto New York? I think the same way that everything in New York is bigger and more magnified and more intense. It's worse. [laughter]
+
+>> the the the work of a real estate agent is being friendly, being attractive, being sociable, being appealing cuz you're a saleserson, and then meeting strangers in private places. And keep in mind, Deborah says women are the foot soldiers of real estate. They're the people selling your average $140,000 house, while the top executive spots at the brokerages are mostly occupied by men. Real estate, she said, has the largest gender pay gap of any field.
+
+It's like a perfect storm of all the factors that if somebody wants to take advantage of a woman who's vulnerable, it's right there in front of them. And then there's no real protective structure behind it. H how does that overlay onto New York City's real estate? Like is that all all that stuff also true in New York? Is it worse in New York? Is it more diffuse in New York? Like how how does that culture overlay onto New York? I think the same way that everything in New York is bigger and more magnified and more intense. It's worse. [laughter]
+
 </details>
 
->> 只是更加极端，竞争更加激烈。这里有这么多人，房源又如此紧张，价格昂贵得离谱。在这里找公寓，哪怕你只是个普通人，也简直像……[笑声] 就像地狱一样，对吧？在全美我想不出还有哪个城市，找租房甚至还得找中介，找到的可能还是违规且没有窗户的房间，[笑声] 而且你的年收入必须达到月租金的40倍——
+>> 嗯，就是更，就是更极端。竞争更激烈。人太多了。公寓……市场太紧张了。贵得离谱。就算你是个普通人，在这儿找公寓也真的是最……[笑声] 简直是地狱，对吧？你得，你……我……我想不出美国还有哪座城市，你租个可能不合法、连窗户都没有的公寓，还得找经纪人，[笑声] 还得有相当于租金 40 倍的钱。
+
 <details><summary>Original English</summary>
->> Well, it's just more it's just more extreme. It's more competitive. There are so many people. The apartments the the market is so tight. It is so outrageously expensive. It is it looking for an apartment here even if you're a normal person is is like literally the most [laughter] it's hell right like you have you I've there are I can't think of any other city in America where you you need to get a broker to find a rental apartment that is possibly illegal and doesn't have a window and [laughter] you have to have 40 times the the rent
+
+>> Well, it's just more it's just more extreme. It's more competitive. There are so many people. The apartments the the market is so tight. It is so outrageously expensive. It is it looking for an apartment here even if you're a normal person is is like literally the most [laughter]
+
+it's hell right like you have you I've there are I can't think of any other city in America where you you need to get a broker to find a rental apartment that is possibly illegal and doesn't have a window and [laughter] you have to have 40 times the the rent
+
 </details>
 
-### 亿万富豪大道的专属小圈子与亚历山大兄弟的崛起
+>> 这还只是普通人的情况。再加上纽约那套奇怪的合作公寓制度，又多了几层社交和财力上的竞争。现在想象一下，你是个不普通的人，或者说，是个非常非常有钱、想买房的人。比如，你想在亿万富豪大道买一套顶层公寓。围绕这套房源的竞争尤其激烈。涉及的金额可能是几千万美元，甚至几亿美元。买得起这种房子的人相对较少。Deborah 说：“能接触到这些人的纽约房产经纪人就更少了，也许有五六十个。”
 
->> 这还只是针对普通人；再加上纽约怪异的合作公寓结构，又增添了层层社交和财务竞争。现在设想一下你是一个“非普通人”，或者更确切地说，一个极度富有的人，有兴趣在“亿万富豪大道”（Billionaire's Row）买一套顶层豪宅。针对这种房源的竞争异常惨烈。涉及的金额可能有数千万甚至数亿美元。买得起那种房子的人是一个相对较小的群体。德博拉说，能接触到这群人的纽约房地产经纪人圈子甚至更小，大概只有五六十人。在这个小圈子里，获得这些能够成就职业生涯、带来巨额财富的客户转介，完全依靠人际关系。如果我是挤破头爬到这个顶层梯队的经纪人，同处这一层级的其他经纪人之间会互相帮助。我们彼此交换客户，互相引荐房源。如果我是一名经纪人，我认识的另一位经纪人正和一位沙特王子一起聚会玩乐，得知那位沙特王子的妹妹正好在曼哈顿寻找顶层公寓，而我恰好代理着曼哈顿某套顶层公寓的卖家，那我与那位经纪人的关系就能决定我是赚进数百万美元还是颗粒无收。如果我得罪了他们，我可能就会断送一条通往极其丰厚利润的房产交易渠道。这些绝不是挂在 Trulia.com 或 StreetEasy 上能搜到的房源——
+在这个小圈子里，你能拿到那些足以改变职业生涯、带来财富的转介，靠的就是人脉。假设我是个在这个顶层圈子里工作的经纪人，一路拼到这个位置。其他跟我在同一层的经纪人，我们会互相帮忙，互相介绍客户，互相介绍房源。比方说，我认识的另一个经纪人在外面跟一位沙特王子一起聚会，得知王子的姐妹正好在曼哈顿找顶层公寓，而我又刚好代理曼哈顿一套顶层公寓的卖家。我跟那位经纪人的关系，可能决定我能赚几百万美元，还是一分赚不到。要是我得罪了对方，就可能断掉一条通向利润极高的房地产交易的路。这些公寓房源又不会登在 trullia.com 上，让我去搜 Street Easy……
+
 <details><summary>Original English</summary>
+
 >> and that's if you're a normal person plus New York's weird co-op structure adds layers of social and financial competition so now imagine you're an abnormal person or rather a very very rich person who's interested in buying, say, a penthouse on Billionaire's Row. The competition for that listing is especially fierce. Tens of millions of dollars might be at stake, even hundreds of millions. The people who can afford a place like that are a relatively small group. And Deborah says, "The New York real estate agents who have access to those people are an even smaller group, maybe 50 or 60 agents." In this little club, the way you land these career making, wealth referrals is through relationships. If I'm an agent working in this upper echelon that I like clawed my way to the top to get here, other agents who are also at that level, we help each other. We bring each other clients. We bring each other properties. If I'm an agent and another agent I know is out partying with a Saudi prince, for instance, and he finds out that the Saudi prince's sister happens to be looking for a penthouse in Manhattan, and I happen to be representing the seller of a penthouse in Manhattan, my relationship with that other agent can be the difference between making millions of dollars or nothing, and if I cross them, I'm going to close an avenue potentially to extremely lucrative real estate deals. These are not apartment listings that are going to go, you know, on trullia.com that I'm going to, you know, search street easy,
+
 </details>
 
->> 对吧？StreetEasy 主要是给你我这种普通人用的。[笑声] 它不是为亿万富豪准备的。所以归根结底完全取决于你认识谁、谁喜欢你。这能决定你在房地产界赚多少钱。而且竞争激烈到一旦这些关系恶化，你的整个职业生涯都可能毁于一旦。换句话说，如果我知道那个正和沙特王子聚会的经纪人干了什么不好的劣迹，我极有可能会选择闭嘴。这就引出了亚历山大兄弟：一对双胞胎奥伦（Oren）与阿隆（Alon），长着一张社交名流版的花花公子帅脸；还有比他们大一岁的哥哥塔尔（Tal）。他们都住在纽约市。阿隆在家族经营的私人安保公司工作；奥伦和塔尔则从事高端房地产业务。奥伦·亚历山大和塔尔·亚历山大是三兄弟中的两个，也是最早脱颖而出的超级明星经纪人，因为他们将自身塑造成了一个独立的品牌。纽约市一些最富有、最有权势的人都希望在房产交易中有这个品牌背书。
+>> 对吧？Street Easy 真的是给你我这样的人用的。[笑声] 它不是、不是给亿万富豪用的。所以到头来，真要看你认识谁，谁喜欢你。这可能决定你在房地产行业里能赚多少钱。竞争又那么激烈，一旦这些关系闹僵，整个职业生涯都可能毁掉。也就是说，如果我知道那个跟沙特王子一起聚会的经纪人有什么不好的、见不得光的事，我很可能会闭嘴。
+
+说到这里，就要讲 Alexander 兄弟了。一对双胞胎，Alone 和 Orin。是社交版上那种帅哥的样子。还有他们大一岁的哥哥 Tal。三个人都住在纽约市。Alone 在自家的私人安保公司上班。Orin 和 Tal 两人做房地产，做的是高端房地产。三兄弟中的 Orin 和 Tal Alexander，是最早冒出来的那批真正的明星经纪人中的两个，因为他们自己就成了一个品牌。纽约市一些最有钱、最有权势的人，希望自己的房地产交易有这个品牌参与。
+
 <details><summary>Original English</summary>
+
 >> right? Street easy is really it's for you and me. [laughter] It's it's not it's it's not for the billionaires. So, it it really comes down to who you know and who likes you. That can be the difference between how much money you make in the real estate world. And it's so competitive that if those relationships go sour, it can tank your entire career. In other words, if I know something bad or unsaavory about that other agent out partying with the Saudi prince, I am likely to keep my mouth shut. Which brings us to the Alexander brothers, a set of twins, Alone and Orin. Bro handsome in a society pages way. And then their older brother by a year, Tall. They all lived in New York City. Alone worked at his family's private security business. Orin and Tall, they're the ones who worked in real estate, high-end real estate. Orin and Tall Alexander, who are two of the three brothers, were two of the first real superstar agents to emerge because they became a brand unto themselves. And some of the wealthiest, most powerful people in New York City wanted that brand to be part of their real estate transaction.
+
 </details>
 
->> 是吗？
+>> 好？
+
 <details><summary>Original English</summary>
+
 >> Okay?
+
 </details>
 
->> 他们有一个名号，被称为“A团队”（The A Team）。他们供职于顶级豪宅经纪公司道格拉斯·艾利曼（Douglas Elliman）。如果他们代理你的房产，就意味着你是有头有脸的大人物。你提到他们成为了“A团队”，或者说他们自身成了一种地位象征，但究竟是怎么做到的？他们的父亲是迈阿密非常有名的房地产开发商，教了他们许多行业门道，而且他们结识了许多有权有势的朋友。当他们来到纽约加入艾利曼公司后，当时的首席执行官霍华德·洛伯（Howard Lorber）对他们关照备至，将他们收归麾下。此外在经纪公司内部，对优质房源代理权的争夺也是一场明争暗斗。他们拿到了优质房源，而优质房源又会带来更多优质房源。2019年，他们将中央公园南的一套顶层公寓以近2.4亿美元的价格卖给了对冲基金经理肯·格里芬（Ken Griffin）。这成为了轰动一时的新闻头条。当时年仅30岁出头的塔尔和奥伦·亚历山大完成了全美最昂贵的住宅交易。他们自此成为亿万富豪们的首选经纪人。德博拉说，他们的生活方式也完全契合这种高调张扬的品牌形象：招摇显眼、广为人知，在米科诺斯岛的游艇上狂欢，在阿斯彭滑雪，在汉普顿斯聚会。他们频繁出现在迈阿密或纽约的报纸上，不仅作为房地产报道的消息源，而且以社交名流的形象示人，甚至登上了《纽约时报》。他们都报道了什么？我读过他们的……那叫什么来着？周日生活日程。
+### Alexander 兄弟的名气与诉讼
+
+>> 他们有、他们有个名号，叫 A Team。他们当时在 Douglas Elellman，一家顶尖的豪宅经纪公司。如果他们愿意代理你，就说明你是个有分量的人。
+
+你说他们成了、成了 A Team，或者说，他们自己成了一种身份象征。可他们是怎么做到的？
+
+他们父亲是迈阿密一位很有名的房地产开发商，教了他们很多行内的事。他们也有很有势力的朋友。搬到纽约、加入 Elellman 后，Elellman 的首席执行官 Howard Lorber 特别关照他们。呃，还有，你在经纪公司做事，公司里争房源也会争得很凶。他们拿到了好房源。
+
+好房源，拿到的就是好房源。2019 年，他们把中央公园南街的一套顶层公寓卖给对冲基金经理 Ken Griffin，成交价接近 2.4 亿美元。那笔交易上了头条。Tal 和 Orin Alexander 都才三十岁出头，做成了全美价格最高的一笔住宅交易。他们成了亿万富豪找经纪人时的首选。Deborra 说，他们的生活方式也配得上他们风头正劲的品牌。张扬，又公开，在 Mkos 的游艇上玩，在阿斯彭滑雪，在汉普顿参加派对。他们在迈阿密或纽约的报纸上开玩笑，既以房地产报道消息源的身份出现，也以社交场上的活跃人物出现，包括在《纽约时报》上。
+
+那是什么来着？我读过他们的，嗯，叫什么来着？星期天……
+
 <details><summary>Original English</summary>
+
 >> They had they had a label. They were called the A Team. They were at Douglas Elellman, which is a premier luxury brokerage. And if they were going to represent you, it meant that you mattered. When you say they they become the A team or they they become this status symbol unto themselves. How though? Their dad is a very well-known real estate developer in Miami who taught them a lot about the industry and they had powerful friends. And when they moved to New York and they joined Elellman, Howard Lorber, who was the CEO of Elellman, really took them under his wing. Uh, and also when you work for a brokerage, there's also there's like a cat fight for listing at the brokerage as well. And they got good listings. And good listings, but get good listings. In 2019, they sold a penthouse on Central Park South to the hedge fund manager Ken Griffin for nearly $240 million. It made headlines. Tal and Orin Alexander, both in their early 30s, had made the country's most expensive home sale. They were now the go-to agents for billionaires. And Deborra said they had the lifestyle to match their high-flying brand. Flashy and public, hanging out on a yacht in Mkos, skiing in Aspen, partying in the Hamptons. They joke in the newspapers in Miami or New York as sources on real estate stories, but also as men about town, including in the New York Times. So, what was there? I read their um what's it called? The Sunday
+
 </details>
 
->> 噢，那个“周日日常”（Sunday routine）栏目。
+>> 哦，呃，星期天的日常。
+
 <details><summary>Original English</summary>
+
 >> Oh, the uh the Sunday routine.
+
 </details>
 
->> 周日日常。
+>> 星期天的日常。
+
 <details><summary>Original English</summary>
+
 >> The Sunday routine.
+
 </details>
 
->> 是的。我们《纽约时报》大都会版报道过他们。好的，记录了他们的周日作息，因为你知道，他们当时是社会上的风云人物。
+>> 对。我们当时在《纽约时报》都市版报道过他们。好。我们记录了他们星期天怎么过，因为他们，你知道，是社交圈的红人嘛。
+
 <details><summary>Original English</summary>
+
 >> Yeah. So, we covered them in the New York Times in the Metro session. Okay. chronicled their Sunday routine because they were, you know, these hot shots in society,
+
 </details>
 
->> 对吧？这确实让人……我的意思是，我能说这是一种令人作呕的视角吗？[笑声] 你想怎么说都行。
+>> 对吧？这确实让你看到了那么一点……我是说，我能不能说，像是个让人厌恶的窗口？你想说什么都行。[笑声]
+
 <details><summary>Original English</summary>
+
 >> right? And it did, it gives you this kind of I mean, am I allowed to say kind of like a loathome window? You can say whatever you [laughter] want.
+
 </details>
 
->> 对我来说，他们描述在周日日常里做的每一件事，我都觉得“恶，恶心，别这样，太恶心了”。不管怎样，就像——
+>> 嗯，他们讲的星期天做的每一件事，我听了都是，咦，咦，不行，咦。反正，就是那些……
+
 <details><summary>Original English</summary>
+
 >> Well, to me, every single thing they described doing in their Sunday routine, I was like, ew, ew, no, ew. Anyway, it was like
+
 </details>
 
->> 冰水浴、Barry's 训练营。
+>> 冰浴，berries boot camp。
+
 <details><summary>Original English</summary>
+
 >> the ice baths, the berries boot camp.
+
 </details>
 
->> 没错，冰浴、私教。还有一张照片拍的是他们在桑拿房里玩手机。然后去某些高档私人俱乐部吃早午餐，吃什么精致的纯蛋白之类的。但大家喜欢他们吗？不喜欢。噢，好吧。[笑声] 不，他们不仅不受欢迎，而且被很多人憎恨，甚至让人害怕，因为据人们告诉德博拉，他们在办公室里横行霸道，仗势欺人，而且……然后就是关于他们如何对待女性的暗中传闻。2024年6月，指控终于全面公开爆发，两名女性提起诉讼，称自己曾被奥伦和阿隆·亚历山大强奸。一家总部位于纽约的房地产行业媒体《The Real Deal》率先报道了这一消息。《The Real Deal》在社交媒体上发布了相关内容。我记得那天我正好坐在家里远程办公，看着《The Real Deal》发布的 Instagram 帖子下面的评论不断刷新，声浪不断累积。一个接一个的女性在评论：“多年来这早就是公开的秘密了。他们从高中起每个周末就一直这么干。我的朋友被他们强奸过。我被他们强奸过。是啊，我也是。每个人都认识有过这种经历的人……”整个场面简直……
+>> 对。冰浴，还有、还有教练。然后好像还有张照片，他们在桑拿房里玩手机。我不……然后还去那种不是什么人都能进的俱乐部吃早午餐，来个不错的，你知道，蛋清什么什么的。
+
+但大家喜欢他们吗？
+
+不喜欢。
+
+哦，好。[笑声]
+
+不，他们、他们岂止是不讨人喜欢。很多人讨厌他们，也怕他们。有人告诉 Deborah，他们在办公室里欺负人，而且[ __ ]。还有人私下议论他们怎么对待女性。
+
+2024 年 6 月，两名女性提起诉讼，称自己遭到 Orin 和 Alone Alexander 强奸。明确的指控终于公开了。最先报道这件事的是一家总部在纽约的房地产行业刊物《The Real Deal》。《The Real Deal》也把消息发到了社交媒体上。
+
+我记得那天我坐在家里。我在家办公，一直看着《The Real Deal》那条 Instagram 帖子下面的评论不断刷新。评论越来越多。一个又一个女人留言：“多年来，这一直是个公开的秘密。他们从高中起，每个周末都干这种事。我朋友被他们强奸过。我被他们强奸过。对，我也是。每个人都认识一个有过……的人。”就像，真的是……
+
 <details><summary>Original English</summary>
->> Yeah. The ice and the and the trainer. And then there's like a photo of them like on their phones in the sauna. I don't. And then going to sort of exclusive clubs for the brunch and they do a good, you know, egg white blah blah. But did people like them? No. Oh, okay. [laughter] No, they were they weren't just not liked, they were hated by many people and they were feared because they were bullies around the office, people told Deborah, and [ __ ] And then there were the whispers about how they treated women. In June of 2024, full-blown accusations finally came to light in the form of two lawsuits filed by women who said they had been raped by Orin and Alone Alexander. A real estate trade publication based in New York called The Real Deal broke that story. The Real Deal posted about it on social media. And I remember I was sitting at home that day. I was working from home and I was watching the comments reload on an Instagram post that The Real Deal had made. And like it just kept building. Woman after woman was commenting, "This has been a known secret for years. They've been doing this every weekend since high school. My friend was raped by them. I was raped by them. Yeah, me too. Everyone knows someone who had a like it was it was
+
+>> Yeah. The ice and the and the trainer. And then there's like a photo of them like on their phones in the sauna. I don't. And then going to sort of exclusive clubs for the brunch and they do a good, you know, egg white blah blah. But did people like them? No. Oh, okay. [laughter] No, they were they weren't just not liked, they were hated by many people and they were feared because they were bullies around the office, people told Deborah, and [ __ ] And then there were the whispers about how they treated women.
+
+In June of 2024, full-blown accusations finally came to light in the form of two lawsuits filed by women who said they had been raped by Orin and Alone Alexander. A real estate trade publication based in New York called The Real Deal broke that story. The Real Deal posted about it on social media.
+
+And I remember I was sitting at home that day. I was working from home and I was watching the comments reload on an Instagram post that The Real Deal had made. And like it just kept building. Woman after woman was commenting, "This has been a known secret for years. They've been doing this every weekend since high school. My friend was raped by them. I was raped by them. Yeah, me too. Everyone knows someone who had a like it was it was
+
 </details>
 
->> 天哪。所以留言的人说的不仅是“我听说过这件事”或“有这种传闻”，而是“这两个人对我做过这种事”。
+>> 天哪。所以这些人说的不只是“我听说过”，或者“有这种传闻”，而是“这几个人对我做过这种事”。
+
 <details><summary>Original English</summary>
+
 >> Oh my god. So people who are saying this, not only have I heard about this or this is rumored, like this happened to me with these guys."
+
 </details>
 
->> 没错。我的电话开始响个不停。人们都跟德博拉说了些什么，广告之后继续收听。
+>> 对。我的电话开始响个不停。人们都跟 Deborah 说了什么？休息一下，回来接着讲。
+
 <details><summary>Original English</summary>
+
 >> Yes. My phone started ringing off the hook. What people were telling Deborah, that's after the break.
+
 </details>
 
-### 追查受害者与汉普顿斯的聚会阴影
+### 记者寻找愿意开口的人
 
->> 德博拉说，当《The Real Deal》的报道出来时，房地产界的人都炸锅了。很大程度上是因为他们知情或听说这些事已经太久了，但此前所有人都因为害怕而不敢站出来。现在她的消息源纷纷打电话对她说：“你必须深入调查这件事。提起的这两起诉讼只是冰山一角。”于是德博拉决定，如果确实有很多女性曾遭到这些男人的侵害，她一定要把她们找出来。我的好几个消息源告诉我，他们认识的朋友认识被侵害的人。我一直问：“好的，那你认识谁能给我一个具体名字吗，对吧？”
+Deborah 说，《The Real Deal》的报道出来以后，房地产行业炸开了锅。很大程度上，是因为人们知道或听说这些事已经很久了，但一直都太害怕，不敢站出来。现在，她的消息源打电话给她说：“你一定要查查这事。起诉的那两个女人只是冰山一角。”所以 Deborah 决定，如果真的有很多女性受到这几个人的侵害，她就去试着找到她们。
+
+我的几个消息源告诉我，他们认识的人里，有人认识受过侵害的人。我就一直问：“好，那你认识谁？谁能给我个名字，对吧？”
+
 <details><summary>Original English</summary>
->> Deborah said when the real deal story came out, people in the real estate industry went nuts. In large part because they'd known or heard about this stuff for so long, but everyone had been too afraid to come forward. And now her sources were calling her saying, "You have got to look into this. These two women who filed lawsuits, they are the tip of the iceberg." So Deborah decided if it was true that lots of women had been assaulted by these men, she was going to try to find them. So, several of my sources told me that they knew people who knew people who had been assaulted. And I kept saying, "Okay, well, who do you know who can give me a name, right?"
+
+Deborah said when the real deal story came out, people in the real estate industry went nuts. In large part because they'd known or heard about this stuff for so long, but everyone had been too afraid to come forward. And now her sources were calling her saying, "You have got to look into this. These two women who filed lawsuits, they are the tip of the iceberg." So Deborah decided if it was true that lots of women had been assaulted by these men, she was going to try to find them. So, several of my sources told me that they knew people who knew people who had been assaulted. And I kept saying, "Okay, well, who do you know who can give me a name, right?"
+
 </details>
 
->> 我拿到的第一个名字，我不会在这里说出来，因为她从未正式公开身份。噢。
+>> 我拿到的第一个名字，我、我不会说，因为她、她从来没有同意公开作证。哦。
+
 <details><summary>Original English</summary>
+
 >> And the first name that I got, I I'm not going to say it because she she never went on record. Oh,
+
 </details>
 
->> 但这样谈没问题吧？
+>> 但这样可以吗？
+
 <details><summary>Original English</summary>
+
 >> but is that okay?
+
 </details>
 
->> 没问题。只要你觉得可以大致描述她对你说了什么以及当时的经过——
+>> 可以，可以。我的意思是，只要你觉得可以说说她告诉了你什么，事情是怎么经过的……
+
 <details><summary>Original English</summary>
+
 >> Yeah. Yeah. So, if I mean, as long as you feel comfortable sort of characterizing what she told you and how that went,
+
 </details>
 
->> 我只是没有获得披露她真实姓名的许可，但我拿到了那个名字。于是我找到《纽约时报》的研究团队说：“你们能帮我找到这个人吗？这是她的年龄，这是她的居住地。”他们帮我找到了一个手机号。我给她打了电话、发了短信，几天后她回了短信。她在短信里说：“我很乐意和你谈谈，但为什么《纽约时报》的人会联系我？”这位女士在哈莱姆区做洗牙师。她并不富有，完全想不通我为什么会找她。所以我就对她说——
+>> 我只是、我没有得到她的许可，不能公开她的名字。但我拿到了这个名字，于是去找《纽约时报》的资料团队。我说：“能帮我找到这个人吗？这是她……这是她的年龄，这是她住的地方。”他们给了我一个手机号码。我就给她打电话，也发了短信。过了几天，她回了短信，说：“我愿意跟你聊，可《纽约时报》的人为什么要找我？”当时这名女性在哈莱姆做牙科洁治师。她不富裕，也不明白我为什么联系她。于是我跟她说……
+
 <details><summary>Original English</summary>
+
 >> I just I don't have her permission to actually publish her name, but I got this name. So, I went to our research team at the times and I said, "Can you help me find this person? This is what this is her age. This is where she lives." and they got me a cell phone number. So, I called her. I texted her and a couple days later she texted me back and she said in her text, "I'm happy to talk to you, but why is someone from the New York Times reaching out to me?" This woman was working as a dental hygienist in Harlem. She's not wealthy. She couldn't understand why I was reaching out. So, I say to her,
+
 </details>
 
->> 当她问“你为什么要跟我聊”时，我对她说：“是这样，我正在做一篇报道，我必须坦白地告诉你，这是一篇关于性侵的报道，我认为你可能与此相关。”接着我看到输入法那三个小点闪烁了很久，显然她正在打字。随后她回复说：“你知道吗，我一直在努力坦诚面对这件事，因为我认为对于其他女性来说，勇敢发声很重要。所以我很愿意和你谈谈。”
+>> 她问：“你为什么想跟我聊？”我说：“嗯，我在做一篇报道，我得跟你说实话。是关于性侵的，我想你可能跟这件事有关。”我看到那三个小点亮了一会儿。她显然正在打字。然后她回我说，你知道，我一直尽量坦然地谈这件事，因为我觉得我们开口说出来，对其他女性很重要。所以我愿意跟你聊。
+
 <details><summary>Original English</summary>
+
 >> when she says, "Why do you want to talk to me?" I say to her, "Well, I'm working on a story and I have to be honest with you. it's about sexual assault and I think that you might be relevant towards it. And I see these three little dots for a while. She's clearly typing. And then she writes back and she says to me, you know, I have tried to be really open about it because I think it's important for other women that we speak up. So, I'll be happy to talk to you.
+
 </details>
 
->> 噢，哇。
+>> 哦，哇。
+
 <details><summary>Original English</summary>
+
 >> Oh, wow.
+
 </details>
 
->> 对吧。我当时觉得太不可思议了，她太勇敢了。但接下来的事情完全没有按预期发展。她们约好在《纽约时报》大楼附近的一家餐馆共进早餐。德博拉到了现场，但那位女士不在那里。人没来。最终德博拉收到了她的短信：“真的很抱歉，我恐慌发作了。”她把车停在了路边，说自己在城市的另一端。于是德博拉赶过去找她。她们约定改在另一家咖啡馆见面，但到了那里还是不见人影。在街上，德博拉看到一名年轻女子正坐在车里抽烟。我敲了敲车窗问：“请问你是……吗？”我叫了她的名字，她说是的。当时她整个人都在发抖。
+>> 对。我当时、我当时就想，真了不起。她真勇敢。可接下来，没有一件事会照预想的发展。
+
+她们约好在《纽约时报》大楼旁边的一家餐馆吃早餐。Deborah 到了，可那个女人不在。人没来。最后 Deborah 收到她的短信。真的很抱歉。我惊恐发作了。她已经把车靠边停下。她说自己在城的另一边。于是 Deborah 赶过去找她。她们改约了另一家咖啡馆，但还是没见到她。Deborah 在街上看见一个年轻女人，坐在她自己的车里抽烟。
+
+我敲了敲车窗，说：“你是……？”我说了她的名字。她说是，然后我们、我们就去了。她那会儿整个人都在发抖。
+
 <details><summary>Original English</summary>
->> Right. I was I was like, that's amazing. And how brave of her. But nothing about this was going to go as expected. They make a plan to meet for breakfast at a restaurant right near the New York Times building. Deborah shows up, but the woman is not there. Not there. Eventually, Deborah gets a text from her. I'm really sorry. I'm having a panic attack. She'd pulled her car over. She said she was across town. So, Deborah rushes over to find her. They'd agreed to meet at a different coffee shop now, but again, no sign of her. Out on the street, Deborah sees a young woman and she's sitting in her car smoking. And I knock on the window and I was like, "Are you?" and I said her name and she said yes and we we went she was like shaking here.
+
+>> Right. I was I was like, that's amazing. And how brave of her. But nothing about this was going to go as expected.
+
+They make a plan to meet for breakfast at a restaurant right near the New York Times building. Deborah shows up, but the woman is not there. Not there.
+
+Eventually, Deborah gets a text from her. I'm really sorry. I'm having a panic attack. She'd pulled her car over. She said she was across town. So, Deborah rushes over to find her. They'd agreed to meet at a different coffee shop now, but again, no sign of her. Out on the street, Deborah sees a young woman and she's sitting in her car smoking. And I knock on the window and I was like, "Are you?" and I said her name and she said yes and we we went she was like shaking here.
+
 </details>
 
->> 可怜的人。
+>> 她太不容易了。
+
 <details><summary>Original English</summary>
+
 >> Poor person.
+
 </details>
 
->> 你知道，那时我已经做过大量关于性侵的报道，但对她来说，这显然极其艰难。
+>> 你知道，我、我那时已经做过不少性侵报道，但这件事对她来说显然难到了极点。
+
 <details><summary>Original English</summary>
+
 >> You know I I had done a lot of reporting on sexual assault at this point but this was clearly extraordinarily difficult for her.
+
 </details>
 
->> 是的。
+>> 是啊。
+
 <details><summary>Original English</summary>
+
 >> Yeah.
+
 </details>
 
->> 于是她在咖啡馆和我坐下来，开始倾诉，而且就像一旦打开话匣子就停不下来了一样。但我坐在那里，听她讲自己成长于这样一个家庭，接着她开始告诉我她在年纪非常小的时候，是如何被一名家庭成员侵害的。
+>> 她在咖啡馆跟我坐下来，就开始说了。她好像一开口就停不下来。我坐在那里，她跟我讲在她那个家庭里长大的事，然后、然后开始讲她很小的时候，怎么受到一名家人的侵害。
+
 <details><summary>Original English</summary>
+
 >> So she sits down with me at the coffee shop and she just starts talking and it was also like once she started talking she couldn't stop. But I'm sitting there and she's telling me about, you know, growing up in this family and and she starts telling me how she was assaulted by a a family member when she was a very small child.
+
 </details>
 
 >> 天哪。
+
 <details><summary>Original English</summary>
+
 >> Oh god.
+
 </details>
 
->> 没错。令人发指，但这并不是我正在调查报道的内容。
+>> 是啊。很可怕，但也不是我在报道的那件事。
+
 <details><summary>Original English</summary>
+
 >> Right. Horrible, but also not what I'm reporting on.
+
 </details>
 
->> 噢，原来她在跟你讲那个故事。并不是作为遇到亚历山大兄弟的前情铺垫……
+>> 哦，她在跟你讲的就是这件事。不是、不是为了铺垫，接着说“后来我遇到了那……”
+
 <details><summary>Original English</summary>
+
 >> Oh, that's the story she's telling you. Not not like a precursor to So then when I encounter the
+
 </details>
 
->> 她直接对我说：“好吧，你想听听关于我遭遇性侵的事吗？”然后她就开始讲述。我坐在那里心想：“天哪，我让研究团队帮我找这位女士的电话，难道我找错人了吗？”不是吧。我坐在那里，内心被恐慌笼罩。她刚刚向我敞开了心扉，而对她来说我只是个陌生人，这是她第一次见到我。我甚至不知道她到底认不认识亚历山大兄弟，因为她讲的是童年时期遭遇的强奸。
+>> 她是直接问我的：“好，你想听我被性侵的事？”然后她就开始讲。我坐在那里想：“天哪，我请资料团队帮我找到这个女人的电话号码。是不是找错人了？”不。我坐在那里，慌得不行。她刚把一直压在心里的事说了出来。我对她来说是个陌生人，这是她第一次见我。我其实根本不知道她有没有见过 Alexander 兄弟，因为她讲的是小时候遭遇的一次强奸。
+
 <details><summary>Original English</summary>
+
 >> So she literally said to me, "Okay, so you want to hear about my sexual assault?" and she starts sharing it and I'm sitting there thinking, "Oh my god, I asked our research team to find me this woman's phone number. Is this the wrong woman?" No. And I'm sitting there like overtaken with panic. She's just unburdened herself. And I'm a stranger to her. This is her first time meeting me. And I actually don't know if she's ever met the Alexander brothers at all cuz she's talking about a rape that happened when she was a child.
+
 </details>
 
->> 天。过了几分钟，我好不容易找到了转折切入点，尽我所能小心翼翼地对她说：[倒吸气]“你认识亚历山大兄弟吗？”然后她看着我，说道：“噢，你想聊的是那起强奸？”正如德博拉向我指出的，性侵犯在现实中太常见了。根据美国疾病控制与预防中心（CDC）的数据，近二分之一的女性表示她们经历过性暴力。因此很有可能，即便你问错了人关于她遭遇性侵的事，她也有一段亲身经历可以说。这位女士告诉德博拉，在2010年代初，她经常光顾汉普顿斯一处臭名昭著的聚会豪宅，那是一座巨大的仿中世纪庄园，被称为“伊万爵士的城堡”（Sir Ivan's Castle）。顺便提一句，那是1990年代由一对富豪兄弟建造的。并不是亚历山大兄弟建的，但亚历山大兄弟经常在那里聚会。这位女士认识他们。她说她曾见过双胞胎奥伦和阿隆带其他女性到那栋房子里，而她自己此前也曾自愿与他们发生过关系。但她说，有一次是非自愿的。她告诉我一段经历：某天晚上，她确信自己遭到了侵犯，但她分不清究竟是奥伦还是阿隆，因为他们长得一模一样。她只知道自己醒来时，他们中的一个人正在强奸她，后来那栋房子里的工作人员当天晚上把他们赶出了房子。她告诉我，奥伦和……他们实际上是被剥光了衣服扔出门外的。
+>> 天哪。过了几分钟，我总算找到了个能把话题接过去的地方，尽量小心地问了她一句。[倒吸气]
+
+“你认识 Alexander 兄弟吗？”然后她看着我说：“哦，你想聊的是那次强奸？”
+
+正如 Deborah 跟我说的，性侵太常见了。根据美国疾病控制与预防中心的数据，近半数女性表示自己经历过性暴力。所以，就算你找错了人，问起她遭受性侵的事，她很可能也有一段经历可以讲。
+
+这位女性告诉 Deborah，2010 年代初，她常去汉普顿一座出了名的派对豪宅。那是一座巨大的仿中世纪庄园，叫 Sir Ivan's Castle。顺带一提，那是 1990 年代一对有钱兄弟建的。建庄园的不是 Alexander 兄弟，不过 Alexander 兄弟会去那里参加派对。这位女性认识他们。她说，她见过双胞胎 Orin 和 Alone 带别的女人去那栋房子。她自己也曾在双方自愿的情况下跟他们上过床，不过她说，有一次她并没有同意。
+
+她跟我讲，有天晚上，她、她认为自己受到了性侵，但她不确定是 Orin 还是 Alone，因为两个人长得一模一样。她只知道自己醒来的时候，其中一个正在强奸她。那天晚上，在那栋房子里工作的人当中，有人最后把他们赶了出去。她跟我说，他们被赶出去的时候其实连衣服都没穿，Orin 和……
+
 <details><summary>Original English</summary>
->> God. So after a few minutes, I somehow like found a segue and I managed to say to her as delicately as I possibly could. [gasps] Do you know the Alexander brothers? And then she looks at me, she goes, "Oh, you want to talk about that rape?" As Deborah pointed out to me, sexual assault is so common. According to the CDC, nearly one out of two women say they've experienced sexual violence. So, chances are pretty good that even if you ask the wrong person about her sexual assault, she'll have a story to tell. What this woman told Deborah was that back in the early 2010s, she'd frequented this notorious party house in the Hamptons, a huge faux medieval estate known as Sir Ivan's Castle built, incidentally by a couple of rich brothers in the 1990s. Not the Alexander brothers, but the Alexander brothers would party there. And this woman knew them. She said she'd seen the twins, Orin and Alone, bring other women to the house, and she herself had slept with them before consensually, but there was one time, she said, when it was not consensual. And she told me a story how one night she she believes that she was assaulted, but she's not sure if it was Orin or Alone because they look exactly the same. She just knows that she woke up and one of them was raping her and then one of the people who works in the house ended up throwing them out of the house that night. She told me a story how they actually got thrown out without their clothes on orin and
+
+>> God. So after a few minutes, I somehow like found a segue and I managed to say to her as delicately as I possibly could. [gasps]
+
+Do you know the Alexander brothers? And then she looks at me, she goes, "Oh, you want to talk about that rape?"
+
+As Deborah pointed out to me, sexual assault is so common. According to the CDC, nearly one out of two women say they've experienced sexual violence. So, chances are pretty good that even if you ask the wrong person about her sexual assault, she'll have a story to tell.
+
+What this woman told Deborah was that back in the early 2010s, she'd frequented this notorious party house in the Hamptons, a huge faux medieval estate known as Sir Ivan's Castle built, incidentally by a couple of rich brothers in the 1990s. Not the Alexander brothers, but the Alexander brothers would party there. And this woman knew them. She said she'd seen the twins, Orin and Alone, bring other women to the house, and she herself had slept with them before consensually, but there was one time, she said, when it was not consensual. And she told me a story how one night she she believes that she was assaulted, but she's not sure if it was Orin or Alone because they look exactly the same. She just knows that she woke up and one of them was raping her and then one of the people who works in the house ended up throwing them out of the house that night. She told me a story how they actually got thrown out without their clothes on orin and
+
 </details>
 
->> 奥伦和阿隆。
+>> Orin 和 Alone。
+
 <details><summary>Original English</summary>
+
 >> orin and alone.
+
 </details>
 
->> 你提到她“醒来时”……从读你的报道中我知道，似乎这些女性很多都被下了药。并不是每一项指控都涉及下药，但是……
+>> 你说她醒过来，就是，就是我读你的报道，感觉这些女性里，好多都好像被下了药。不是每一项指控都涉及药物，不过是的……
+
 <details><summary>Original English</summary>
+
 >> When you say she woke up like so so from reading your story I know it it seems like these women would get drugged many of them. Not every single allegation involves drugs but yes
+
 </details>
 
->> 她也是说自己遇到了这种情况吗？
+>> 那她是说，这就是发生在她身上的事吗？
+
 <details><summary>Original English</summary>
+
 >> and was she saying this that's what happened to her?
-</details>
 
->> 她不能确定。
-<details><summary>Original English</summary>
->> She's not sure.
 </details>
 
 >> 她不确定。
+
 <details><summary>Original English</summary>
+
+>> She's not sure.
+
+</details>
+
+>> 她不是真的。
+
+<details><summary>Original English</summary>
+
 >> She's not true.
+
 </details>
 
->> 她不敢肯定。好吧。
+>> 她不确定。好。
+
 <details><summary>Original English</summary>
+
 >> She's not sure. Okay.
+
 </details>
 
->> 而且通过她，我也……
+>> 而且通过她，我还……
+
 <details><summary>Original English</summary>
+
 >> And through her I also
+
 </details>
 
->> 那年夏天当你开始到处打电话调查时，你已经知道这一点了吗？你知道下药这种事……
+>> 你那年夏天开始四处打电话的时候，已经知道了吗？就是，你知道下药这事是……
+
 <details><summary>Original English</summary>
+
 >> did you already know that when you were started calling around that summer? You know that the drugging was like
+
 </details>
 
 >> 不知道。
+
 <details><summary>Original English</summary>
+
 >> No.
+
 </details>
 
->> 好的，你当时并不知道。
+>> 在……好，你不知道。
+
 <details><summary>Original English</summary>
+
 >> In the Okay. You did not.
+
 </details>
 
->> 我一无所知。[清嗓子]
+>> 我完全[清嗓子]不知道。
+
 <details><summary>Original English</summary>
+
 >> I had no [clears throat] idea.
+
 </details>
 
->> 所以，这是你第一次听说这种情形吗？比如等等，她醒过来了。我的意思是，对我来说这太诡异了……
+>> 所以你是第一次听说？就是，等等，她醒了。我是说，我觉得这实在太奇怪了……
+
 <details><summary>Original English</summary>
+
 >> So, was this the first you were hearing that? Like, wait, she woke up. I mean, to me, that's just such a weird
+
 </details>
 
->> 是的。
+>> 对。
+
 <details><summary>Original English</summary>
+
 >> Yes.
+
 </details>
 
->> 所以这确实是第一次关键的采访，许多事情由此变得非常清晰明了。
+>> 所以这真的是第一次关键采访，很多事一下子就明白了。
+
 <details><summary>Original English</summary>
+
 >> So, this was really like the first pivotal interview where a lot of things just became very clear to me
+
 </details>
 
 >> 比如什么？
+
 <details><summary>Original English</summary>
+
 >> like what
+
 </details>
 
->> 比如受害者涵盖各种类型的女性。因为在此之前，我一直在浏览所有在 Instagram 上留言的女性的主页资料。她们看起来都具有某种特定外貌特征，而这位女士完全不是那种类型。
+>> 各种各样的女性都有。因为我马上就想到，我一直在看那些留言的女性在 Instagram 上的个人主页。她们看起来都是某种类型。她不是那样的。
+
 <details><summary>Original English</summary>
+
 >> that it's all types of women because immediately like like I had, you know, I'd been looking at the the profiles on Instagram of all the women who had been commenting. They all looked a certain way. She was not that.
+
 </details>
 
->> 好的。
+>> 好。
+
 <details><summary>Original English</summary>
+
 >> Okay.
+
 </details>
 
->> 而且恕我找不到更好的表达方式，她并非来自那个特定的社会圈层。德博拉此前听说亚历山大兄弟有特定的偏好类型：金发模特。她在 Instagram 评论区看到的也都是来自与他们同一职业圈和社交圈的女性。但这位女士不属于那个圈子。她向德博拉提供了她在“伊万爵士城堡”认识的其他女性的名字。德博拉开始与她们以及时尚界和房地产界的女性交谈。她们看起来全都是孤立、偶然的，还是说你看到了某种规律模式？
+>> 而且她也不属于那个社会圈子，我一时想不到更好的说法。
+
+有人告诉 Deborah，Alexander 兄弟喜欢某一类型，金发模特。她在 Instagram 上看到的留言，来自职业和社交媒体方面跟他们相同的女性。可这个女人不属于那个圈子。她给了 Deborah 几个名字，都是她在 Sir Ivan's Castle 认识的其他女性。Deborah 开始跟她们聊，也找了时尚界和房地产行业的女性聊。
+
+这些事听起来是各不相同，或者是随机发生的吗？还是说你看、你看出了某种规律？
+
 <details><summary>Original English</summary>
+
 >> And she was not from that corner of society for lack of a better way to explain it. Deborah had been told that the Alexander brothers had a type blonde model. And the Instagram comments she'd seen were from women in their same professional and social media. But this woman, she was not from that world. She gave Deborah names of other women she knew from Sir Ivan's Castle. And Deborah started talking to them as well as to women in fashion and in real estate. Did they all seem distinct or random or are you see are you seeing a pattern?
+
 </details>
 
->> 我看到的规律模式就是“没有模式”。我看到的模式是，只要这几个人与女性发生交集的地方，都会有自认遭到强奸的女性站出来，而我现在正在和她们交谈。
+>> 我看到的规律是，没有规律。我看到的规律是，这几个人在哪儿接触到女性，哪儿就有一个女性认为自己被强奸了，而我现在正在跟她聊。
+
 <details><summary>Original English</summary>
+
 >> The pattern that I'm seeing is that there was no pattern. The pattern that I'm seeing is that everywhere that these guys cross paths with women, there's a story of a woman who believes she was raped, who now I'm talking.
+
 </details>
 
->> 遍布他们生活的各个角落。在汉普顿斯的周末聚会上，我现在已经和好几位曾在这些派对上工作过的女性谈过，她们目睹了她们认为是强奸的行为，而且她们自己也感到被强奸过，或者有朋友遭遇过；在房地产界，我采访的经纪人有的表示自己被强奸过，有的听说过此类传闻；在迈阿密的社交圈里，有人曾和他们约会，说那些约会演变成了约会强奸。所以无论他们以何种形式产生互动——
+>> 所以，我查到了他们生活的各个角落。比如他们在汉普顿的周末派对，我现在已经跟几个在派对上工作过的女人聊了。她们目睹了自己认为是强奸的事情，有的也觉得自己被强奸了，或者有朋友被强奸过。在房地产圈里，我在跟一些经纪人聊，她们说自己被强奸过，或者听说过一些事。还有他们在迈阿密的社交生活，有人跟他约会，说那场约会变成了约会强奸。所以，不论他们是以哪种方式跟人打交道……
+
 <details><summary>Original English</summary>
+
 >> So I'm all corners of their lives. So their weekend parties and the Hamptons, I've now talked to several women who worked at these parties, saw what they believed to be rape, and also themselves felt that they had been raped or had friends who had in the real estate world. I'm talking to agents who have said that they were raped or they've heard of stories in their social lives in Miami. people who got on dates with him who said those dates turned into date rape. So in in every way that they're having interactions,
+
 </details>
 
->> 好的。
+>> 好？
+
 <details><summary>Original English</summary>
+
 >> okay?
+
 </details>
 
->> 你知道的，不论是通过商业交易、周末与朋友聚会，还是在派对圈子里，女性在经历这些场合后都感觉自己遭到了侵犯。这开始呈现出指数级蔓延的感觉。德博拉交谈过的女性有一个共同点：她们谁也没有对亚历山大兄弟提出过指控，包括德博拉在咖啡馆见到的第一位女士。她当时没有实名记录在案，但后来对亚历山大兄弟提起了诉讼。当我们就她陈述的细节联系兄弟俩的律师时，对方否认了这些指控。那么谁是你第一个愿意实名记录、让你觉得“好的，我可以报道了”的对象？我当时同时开始与两位女性接触：杰西卡·科恩（Jessica Cohen）和特蕾西·图托（Tracy Tutor）。德博拉听说过特蕾西·图托。她是一位房地产经纪人，也是出演过真人秀《百万美元房产》（Million Dollar Listing）的明星。她曾供职于道格拉斯·艾利曼公司——也就是亚历山大兄弟所在的“A团队”所在的顶级豪宅经纪公司。德博拉通过电话联系到了特蕾西·图托，后者对她说：“是的，我认为我被三兄弟中至少一人强奸了。”但她当时还没准备好实名公开。杰西卡·科恩也是如此。杰西卡·科恩曾是一名、现在也是一名非常成功的房地产经纪人，一直在道格拉斯·艾利曼工作。当我开始向消息源试探打听时，几乎立刻就有人提到了她的名字。所有我联系过的与艾利曼公司——也就是兄弟俩工作过的经纪公司——有关的人都说：“你得去和杰西卡·科恩谈谈。我们听到风声说她和兄弟俩之间有过某种经历。”我很快通过电话联系到了她，她向我证实，她确信自己被他们中至少一人强奸过。她记不清了，因为她认为自己被下了药。
+>> 你知道，不管是做生意，还是周末跟朋友聚会，又或者是在派对圈里玩，都有女性在事后觉得自己受到了性侵。感觉这类讲述开始成倍地增加。
+
+Deborah 聊过的女性有一点相同。她们都没有对 Alexander 兄弟提出刑事控告，包括 Deborah 在咖啡馆见到的第一位女性。她当时没有同意公开受访，但后来已经起诉了 Alexander 兄弟。我们联系他们的律师，询问她讲述的细节，律师否认了指控。
+
+那你找到的第一个同意公开受访的人是谁？就是让你觉得“好，这件事我可以报道了”的那个人。
+
+我当时已经同时在跟两位女性聊，Jessica Cohen 和 Tracy Tudtor。
+
+Deborah 听说过 Tracy Tudtor。她是房产经纪人，也是真人秀明星，上过《Million-Dollar Listing》。她在豪宅经纪公司 Douglas Elellman 工作过。Alexander 兄弟也在那里工作，就是那个 A Team。Deborah 打通了 Tracy Tutor 的电话。她说：“对，我相信他们兄弟中至少有一个人强奸过我。”但她还没准备好公开受访。Jessica Cohen 也一样。
+
+Jessica Cohen 曾是一个很……是一个很成功的房产经纪人，在 Douglas Elellman 工作过。我刚开始向消息源打听，她的名字几乎马上就出现了。我聊过的、跟那兄弟俩工作过的经纪公司 Elellman 有关系的人都说：“你得找 Jessica Cohen 谈。我们听到过一些传闻，说她跟那兄弟几个之间发生过什么。”我很快就打通了她的电话。她向我确认，她相信自己被他们当中至少一人强奸过。她不记得了，因为她相信自己被下了药。
+
 <details><summary>Original English</summary>
+
 >> You know, whether it's through business transactions or it's with friends on the weekends or it's, you know, out on the party circuit, women are coming out of these situations feeling that they were assaulted. It it started to feel exponential. One thing the women Deborah talked to had in common, none of them had pressed charges against the Alexander brothers, including that first woman Deborah met at the coffee shop. She did not go on the record back then, but she has since filed a lawsuit against the Alexander brothers. When we contacted their lawyers about the details of her story, they denied the allegations. Who do you get who's your first on the record where you're like, "Okay, I can report this." I had started talking in tandem to two women, Jessica Cohen and Tracy Tudtor. Deborah had heard of Tracy Tudtor. She's a real estate agent and a reality TV star who was on Million-Dollar Listing. She worked for Douglas Elellman, the luxury brokerage where the Alexander brothers worked, the A team. Deborah got Tracy Tutor on the phone who told her, "Yes, I believe I was raped by at least one of the brothers." But she wasn't ready to go on the record. Same with Jessica Cohen. Jessica Cohen was a very is a very successful real estate agent who'd been working at Douglas Elellman, her name came up almost immediately when I started putting out feelers with my sources. Everyone I talked to who was connected to Elellman, the brokers the brothers had worked at, said, "You need to talk to Jessica Cohen. We've heard whispers that she had some sort of experience with the brothers." And I got her on the phone pretty quickly and she confirmed to me that she believes she had been raped by at least one of them. He does not remember because she believes she was drugged.
+
 </details>
 
-### 实名受害者的指控与高层的不作为
+### Jessica Cohen 的讲述
 
->> 那么她的……是的，讲讲她的故事吧，她都对你说了些什么？
+>> 那她……对，就讲她的经历吧。她说了什……对，她跟你说了什么？
+
 <details><summary>Original English</summary>
+
 >> So her Yeah. Just tell her story and like what did what Yeah. What did she tell you?
+
 </details>
 
->> 她在2010年参加了一个生日派对。那是在2010年10月16日，很久以前了。[清嗓子]
+>> 她在 2010 年去参加了一个生日派对。那是 2010 年 10 月 16 日。很久以前了。[清嗓子]
+
 <details><summary>Original English</summary>
+
 >> So she went to a birthday party in 2010. It was October 16th, 2010. Long time ago. [clears throat]
+
 </details>
 
 >> 谁的派对？
+
 <details><summary>Original English</summary>
+
 >> Whose party?
+
 </details>
 
->> 实际上是霍华德·洛伯儿子的生日派对。
+>> 其实是 Howard Lorber 儿子的生日派对。
+
 <details><summary>Original English</summary>
+
 >> It was actually the birthday party for the son of Howard Lorber.
+
 </details>
 
->> 明白了。他就是将亚历山大兄弟收归麾下的那个人，是他们的大导师。
+>> 明白了。他就是那个提携 Alexander 兄弟的人，他是那个大……他们的导师。
+
 <details><summary>Original English</summary>
+
 >> Got it. And he's the guy who's taken the Alexander brothers under he's the big their mentor.
+
 </details>
 
->> 是的。是的。是他儿子的生日派对，地点在曼哈顿的 Core Club，塔尔、奥伦和阿隆全都在场。她告诉我，她对那场生日派对完全没有记忆。她只记得自己到了现场，记得喝了一杯酒，然后就什么都不知道了。醒来时人已经在医院里。她当时在西奈山天主教西区医院（Mount Sinai West）。
+>> 对。对。是他儿子的生日派对，在曼哈顿的 Core Club 办的。Tal、Orin 和 Alone 都在场。她告诉我，那场生日派对她一点也不记得了。她记得自己到了，记得喝了一杯，就这些。她醒来时人在医院，在 Mount Sai West。
+
 <details><summary>Original English</summary>
+
 >> Yes. Yes. So it was his son's birthday party. It was at the core club in Manhattan and Tall, Orin, and Alone were all there. She told me she has no memory of this birthday party at all. She remembers arriving. She remembers taking a drink and that's it. She wakes up in the hospital. She was at Mount Sai West.
+
 </details>
 
->> 她大概几点去的派对？
+>> 她几点去的派对？
+
 <details><summary>Original English</summary>
+
 >> Like she goes to the party at what?
+
 </details>
 
->> 她晚上8点去参加派对，凌晨3点在医院醒来。
+>> 她晚上八点去的派对，凌晨三点在医院醒过来。
+
 <details><summary>Original English</summary>
+
 >> She goes to the party 8:00 at night. She wakes up 3:00 in the morning in the hospital.
+
 </details>
 
->> 我的天啊。[清嗓子] 好的。
+>> 我的[清嗓子]天。好。
+
 <details><summary>Original English</summary>
+
 >> Oh my [clears throat] god. Okay.
+
 </details>
 
->> 她身上没有穿自己的衣服，而是穿着病号服。她的衣服被装在一个塑料袋里，沾满了呕吐物。她向我描述那种感觉，就像刚从全身麻醉中醒过来一样。我是说，她醒来后完全是蒙的：“这里到底发生了什么？怎么回事？”
+>> 她没穿自己的衣服，穿的是病号服。她的衣服装在一个塑料袋里，满是呕吐物。
+
+她跟我形容说，感觉就像刚从全身麻醉里醒过来。她一醒就想：“这到底是怎么回事？发生了什么？”
+
 <details><summary>Original English</summary>
->> She's not wearing her clothes. She's in a hospital gown. Her clothes are in a plastic bag covered in vomit. And she described it to me. It felt like she had come out of general anesthesia. I mean, she woke up and was like, "What is going on here? What happened?"
+
+>> She's not wearing her clothes. She's in a hospital gown. Her clothes are in a plastic bag covered in vomit.
+
+And she described it to me. It felt like she had come out of general anesthesia. I mean, she woke up and was like, "What is going on here? What happened?"
+
 </details>
 
 >> 天哪。
+
 <details><summary>Original English</summary>
+
 >> Oh my god.
+
 </details>
 
->> 而且[清嗓子]她得知自己当时独自一人倒在街角，神志不清、呕吐不止。一名路人拨打了911，救护车赶来将她送去了医院。
+>> 然后，[清嗓子] 她得知自己当时一个人在街角，神志不清，在呕吐。有个路人拨了 911。救护车来了，把她送到医院。
+
 <details><summary>Original English</summary>
+
 >> And [clears throat] she finds out that she had been alone on the street corner, out of it, vomiting. A passer by called 911. An ambulance came and took her to the hospital.
+
 </details>
 
->> 谁告诉她这些的？她是怎样知道的？
+>> 谁告诉她的？她是怎么知道的？
+
 <details><summary>Original English</summary>
+
 >> Who tells her that? Like, how does she learn?
+
 </details>
 
->> 是在别人拨打911之后的警方报告里写的。
+>> 在、在有人拨打 911 后的警方报告里。
+
 <details><summary>Original English</summary>
+
 >> It's in the It's in the police report after someone called 911.
+
 </details>
 
->> 所以她是根据警方报告才知道自己当时流落街头——
+>> 所以她是从警方报告里知道自己当时在街上……
+
 <details><summary>Original English</summary>
+
 >> So, she learns it from the police report that she had been out on the street
+
 </details>
 
->> 独自一人。后来她看到了那些照片，才意识到自己当时和兄弟几人在一起。朋友们给她看了一些她的照片：在某个时刻，她上了观光大巴，整个人昏睡着靠在塔尔·亚历山大的肩膀上。照片里她和兄弟几人待在一起，依偎在他身边，而她对中间发生的事情毫无印象。医院有没有为她做强奸取证检查（rape kit）？
+>> 一个人。后来她看到了一些照片，才知道自己曾跟那几兄弟在一起。是朋友给她看的照片。不知什么时候，她上了一辆观光巴士，不省人事地靠在 Tal Alexander 肩上。照片里她和那几兄弟在一起。她当时紧挨着他，可她完全不知道中间发生了什么。
+
+那他们，医院有没有给她做强奸取证检查？
+
 <details><summary>Original English</summary>
->> alone. And then she sees these photographs and she realizes she had been with the brothers. There are photos of her that her friends have shown her. At some point, she ended up on a tour bus and she's passed out on Tall Alexander's shoulder. She's with the brothers in these photos. She had been cuddled up with him and she has no idea what happened in between. And did they does the hospital do a rape kit on her?
+
+>> alone. And then she sees these photographs and she realizes she had been with the brothers. There are photos of her that her friends have shown her.
+
+At some point, she ended up on a tour bus and she's passed out on Tall Alexander's shoulder. She's with the brothers in these photos. She had been cuddled up with him and she has no idea what happened in between.
+
+And did they does the hospital do a rape kit on her?
+
 </details>
 
->> 没有。为什么没有？当这类女性被送进来时，医院没有相应的设备或培训去设想这名女性可能遭到了侵犯和下药。在纽约市的城市公立医院里，她看起来就像个喝多了的人，而且医院缺乏资源。所以他们只是让她醒酒，然后把她打发回家。
+>> 没有。为什么没有？
+
+有女性被送进来时，医院没有条件，也没受过训练去考虑，这个女人可能受了性侵，还被下了药。
+
+在纽约市的市区医院里，她看起来就像是喝多了，医院也没有资源。所以他们让她醒醒酒，然后让她回家。
+
 <details><summary>Original English</summary>
->> No. Why not? When women come in, the hospitals are not equipped or trained to think perhaps this woman has been violated and drugged. In a New York City urban hospital, she looks like someone who had too much to drink and they don't have the resources. So, they let her sober up and then send her home.
+
+>> No. Why not?
+
+When women come in, the hospitals are not equipped or trained to think perhaps this woman has been violated and drugged.
+
+In a New York City urban hospital, she looks like someone who had too much to drink and they don't have the resources.
+
+So, they let her sober up and then send her home.
+
 </details>
 
->> 明白了。她当时也没有要求“请给我做强奸取证”，因为她甚至根本不知道究竟发生了什么见鬼的事。而且在医院的那个时候，她还没看到自己的那些照片。
+>> 明白了。她也没说：“请给我做强奸取证检查。”因为她连到底出了什么事都不知道。她那会儿还在医院，也没见过自己的那些照片。
+
 <details><summary>Original English</summary>
+
 >> Got it. And she's not saying, "Please do a rape kit on me." Because she doesn't even know what the hell happened. And by this at this point in the hospital, she'd not seen these photographs of herself.
+
 </details>
 
->> 是的，当时还没看到。但她此前——
+>> 没有。可是，关于那几兄弟……
+
 <details><summary>Original English</summary>
+
 >> No. But yet with the brothers
+
 </details>
 
->> 已经听说过关于这兄弟几人的传闻以及他们强奸别人的指控——
+>> 听说过那几兄弟的传闻，也听说有人指控他们强奸……
+
 <details><summary>Original English</summary>
+
 >> had heard rumors about the brothers and allegations that they raped people
+
 </details>
 
->> 在此之前就听过。
+>> 在这之前……
+
 <details><summary>Original English</summary>
+
 >> prior to
+
 </details>
 
->> 是的。于是她向艾利曼公司的一位相对高层的人士提及了此事。艾利曼公司表示这位高层完全不记得曾与杰西卡·科恩谈过话，但杰西卡告诉德博拉，她确实告诉了那个人。她说：“我认为我和那几兄弟之间发生了什么事。我只知道我和他们在一起过，然后我就断片了。”几周后她去参加了一个派对，因为她也在努力让自己的生活继续向前看。她告诉我，在那个派对上她手里端着一杯红酒，那只是一场鸡尾酒派对。塔尔·亚历山大径直朝她走来，一把夺下她手中的酒杯说道：“你对待别人的名声可得小心点。”然后把酒杯递还给了她。对她来说，那感觉就像是一次极具针对性的恐吓威胁。她面对这种情况是怎么做的？她有何反应？
+>> 对。她向 Elellman 一位职位比较高的人提了这件事。Elellman 说，这位高层不记得跟 Jessica Cohen 谈过，但 Jessica 告诉 Deborah，她确实跟这个人说过。她说：“我觉得我跟那几兄弟之间发生了什么。我只知道我当时跟他们在一起。之后我就断片了。”
+
+几周后，她去参加一个派对，因为她也想继续过自己的生活。她告诉我，她在派对上拿着一杯葡萄酒。那好像就是一个鸡尾酒会。Tal Alexander 走到她跟前，从她手里拿走酒杯，说：“别不小心毁了别人的名声。”然后把杯子递还给她。她觉得这是一个很明确的威胁。
+
+那她怎么处理？她有没有……她怎么做的？
+
 <details><summary>Original English</summary>
->> Yes. And she mentions it to someone at Elellman who's relatively high up. Elellman says this high up person has no recollection of talking to Jessica Cohen, but Jessica told Deborah she did tell this person. She says, "I think something happened with the brothers. All I know is I was with them. I'm blacked out." She goes to a party a few weeks later cuz she's also trying to move forward with her life. And she told me that at the party she was holding a glass of wine. It was just some sort of like cocktail party. And Tall Alexander walked up to her, plucked the glass from her hand and said, "You need to be careful with people's reputations and handed the glass back to her." And to her, that felt like a very specific threat. And what does she do with that? Does she What does she do?
+
+>> Yes. And she mentions it to someone at Elellman who's relatively high up.
+
+Elellman says this high up person has no recollection of talking to Jessica Cohen, but Jessica told Deborah she did tell this person. She says, "I think something happened with the brothers. All I know is I was with them. I'm blacked out." She goes to a party a few weeks later cuz she's also trying to move forward with her life. And she told me that at the party she was holding a glass of wine. It was just some sort of like cocktail party. And Tall Alexander walked up to her, plucked the glass from her hand and said, "You need to be careful with people's reputations and handed the glass back to her." And to her, that felt like a very specific threat. And what does she do with that? Does she What does she do?
+
 </details>
 
->> 正因如此，她在很长一段时间里都保持了沉默。
+>> 因为这事，她很长一段时间都没再开口。
+
 <details><summary>Original English</summary>
+
 >> She stays quiet for a long time because of it.
+
 </details>
 
->> 噢，好吧。她对此感到害怕。害怕得要死。
+>> 哦，明白了。她被吓到了。
+
+吓坏了。
+
 <details><summary>Original English</summary>
->> Oh, okay. She was scared of that. terrified.
+
+>> Oh, okay. She was scared of that.
+
+terrified.
+
 </details>
 
->> 不过，杰西卡·科恩最终还是告诉了一个人——一个有权力介入干预的人。2012年，也就是霍华德·洛伯儿子那场生日派对的两年后，她告诉了道格拉斯·艾利曼公司的首席执行官霍华德·洛伯。他们当时正在一起下国际象棋。他们以前经常一起下棋，她告诉了他自己的遭遇，以及她听到的关于兄弟俩侵犯其他女性的传闻。而霍华德·洛伯没有向任何人汇报，也没有对他的“A团队”展开任何调查。同样，严格从法律角度讲，杰西卡·科恩并不是他的雇员。像几乎所有经纪人一样，她只是独立承包商。因此在当时，洛伯没有任何法律义务通知人力资源部门，或者采取任何实质行动。后来他告诉德博拉：“杰西卡请求我不要张扬，我尊重了她的意愿。”在那次下棋交谈之后，奥伦和塔尔·亚历山大在艾利曼公司又待了将近十年。当他们在2022年最终脱离艾利曼自立门户创办自己的豪宅经纪公司并寻求资金支持时，德博拉发现，准备支持他们的投资机构曾收到多方警告：“千万别投。到处都有流传他们性侵女性的事迹。”但那家机构依然资助了他们。该机构后来否认对有关兄弟俩的这些指控知情。德博拉说，事隔多年之后，杰西卡·科恩对于实名公开自己的遭遇仍然非常害怕。德博拉说，她最担心的核心问题是：钱。她害怕一旦自己站出来，就会失去在房地产行业的立足之地，客户会流失，佣金会断绝，她将无法抚养自己的家庭。这实际上是她首要且最紧迫的担忧。噢，天哪。
+>> 不过，Jessica Cohen 最终还是告诉了一个人，一个有权干预的人。2012 年，在 Howard Lorber 儿子的生日派对两年后，她告诉了 Douglas Elellman 的首席执行官 Howard Lorber。两人当时在下棋。他们以前经常一起下棋。她告诉他自己遇到的事，也说了她听到的传闻，说那几兄弟侵害过其他女性。Howard Lorber 没有向任何人报告，也没有调查他的 A Team。再说一次，严格来说，Jessica Cohen 并不是他的雇员。跟几乎所有经纪人一样，她是独立承包人。所以在当时，Lorber 没有法律义务向人力资源部门报告，也没有法律义务采取什么行动。后来他对 Deborah 说：“Jessica 请我不要说出去，我尊重了她的意愿。”
+
+那次边下棋边谈话之后，Orin 和 Tal Alexander 又在 Element 待了将近十年。2022 年，他们终于离开 Elemen，创办自己的豪宅经纪公司，并开始寻找资金。Deborah 查到，好几个人曾提醒那家准备出资支持他们的公司：“别投。外面有传言说，他们性侵过女性。”那家公司还是给了他们支持。后来，公司否认知道任何关于这几兄弟的这类说法。
+
+Deborah 说，这么多年以后，Jessica Cohen 还是很害怕公开讲自己的经历。Deborah 说，她主要担心的是钱。
+
+她怕得要命，怕自己一站出来，就会失去在房地产行业里的立足之地。客户会没了，佣金也会没了，她就没法养家了。这其实是她最先想到、也最迫切的顾虑。哦，天哪。
+
 <details><summary>Original English</summary>
->> Jessica Cohen did eventually tell someone though, someone with the power to intervene. In 2012, 2 years after that birthday party for Howard Lorber's son, she told Howard Lorber, the CEO of Douglas Elellman. They were playing chess together. They used to play regularly, and she told him what had happened to her and the rumors she'd heard about the brothers abusing other women. And Howard Lorber did not report it to anyone or launch an investigation into his a team. Again, Jessica Cohen wasn't technically his employee. Like almost all agents, she was an independent contractor. So, at the time, Lorber had no legal obligation to tell HR or really to do anything. Later, he'd tell Deborah, "Jessica asked me not to tell, and I respected her wishes." Orin and Tal Alexander stayed at Element for almost 10 years after that conversation over chess. And when they finally split off from Elemen to form their own luxury brokerage firm in 2022 and were looking for funding, Deborah found out that the firm poised to back them was warned by multiple people. Don't do it. There are stories going around about them sexually assaulting women and that firm back them anyway. It later denied knowing anything about these claims regarding the brothers. Deborah said all these years later, Jessica Cohen was still very scared to go on the record with her story. Deborah said her main concern, money. She was terrified that if she came forward, she would lose any standing she had in the real estate industry. Her clients would dry up, her commission would dry up, and she wouldn't be able to support her family. That was actually her first and most pressing concern. Oh wow.
+
+>> Jessica Cohen did eventually tell someone though, someone with the power to intervene. In 2012, 2 years after that birthday party for Howard Lorber's son, she told Howard Lorber, the CEO of Douglas Elellman. They were playing chess together. They used to play regularly, and she told him what had happened to her and the rumors she'd heard about the brothers abusing other women. And Howard Lorber did not report it to anyone or launch an investigation into his a team. Again, Jessica Cohen wasn't technically his employee. Like almost all agents, she was an independent contractor. So, at the time, Lorber had no legal obligation to tell HR or really to do anything. Later, he'd tell Deborah, "Jessica asked me not to tell, and I respected her wishes."
+
+Orin and Tal Alexander stayed at Element for almost 10 years after that conversation over chess. And when they finally split off from Elemen to form their own luxury brokerage firm in 2022 and were looking for funding, Deborah found out that the firm poised to back them was warned by multiple people. Don't do it. There are stories going around about them sexually assaulting women and that firm back them anyway. It later denied knowing anything about these claims regarding the brothers.
+
+Deborah said all these years later, Jessica Cohen was still very scared to go on the record with her story. Deborah said her main concern, money.
+
+She was terrified that if she came forward, she would lose any standing she had in the real estate industry. Her clients would dry up, her commission would dry up, and she wouldn't be able to support her family. That was actually her first and most pressing concern. Oh wow.
+
 </details>
 
-### 指控滚雪球、FBI介入与联邦审判
+### 从公开受访到刑事判决
 
->> 因为请记住，那是2024年的6月、7月。当时这几个人甚至还没有受到刑事调查。我们所知道的仅有几起民事诉讼和一堆风言风语。杰西卡·科恩最终同意了，她决定站出来。德博拉还让特蕾西·图托实名公开了陈述。特蕾西告诉她，2014年她曾在一家餐厅参加房地产活动，不知怎么和奥伦·亚历山大一起进了洗手间。另一个男人在里面发现了他们。她对那段经过完全没有记忆。在房地产行业之外，德博拉找到了萨曼莎·墨菲（Samantha Murphy），一位在2017年单身并居住在迈阿密的成功模特。她当时对奥伦·亚历山大有好感，两人处于同一社交圈。某天晚上她和他约会，随后回到了他的公寓。在她告诉他自己还没准备好与他发生性关系后，他撕扯下她的裙子，把她按倒在地进行了强奸。最后我再提一位，林赛·阿里（Lindsay Ari）在社交或工作上与亚历山大兄弟没有任何交集。她只是恰好在2011年受邀参加了汉普顿斯的一场派对，在那里与他们相遇。她唯一记得的就是喝了一杯酒，随后在某个时刻在桑拿房里被塔尔·亚历山大和另一个男人按在地上。对于那天晚上和整个次日，她只有零星的记忆片段，但她确实记得一盏闪烁的红灯，她认为那是一台摄像机。德博拉说，其他几名女性也记得有一盏闪烁的红灯。可以说，她在一天之后才恢复知觉。她立刻就从身体感觉上明白自己遭到了侵害。
+>> 因为别忘了，当时是 2024 年六七月。这几个人还没有受到刑事调查。我们只知道有人提起了两起诉讼，还有一大堆传闻。
+
+Jessica Cohen 最终答应站出来。Deborah 也说服了 Tracy Tutor 公开受访。她告诉 Deborah，2014 年，她在一家餐厅参加过一个房地产活动，不知怎么就和 Orin Alexander 一起进了一间洗手间。另一个男人发现他们在里面。她一点也不记得了。
+
+在房地产圈外，Deborah 找到了事业有成的模特 Samantha Murphy。2017 年，她单身，住在迈阿密。她对 Orin Alexander 有好感。两个人在同一个圈子里活动。一天晚上，她跟他约会，两人回到他的公寓。她告诉他自己还没准备好跟他发生性关系，随后他扯掉她的裙子，把她按住，强奸了她。
+
+最后再说一位，Lindsay Ari。她跟 Alexander 兄弟在社交上和工作上都毫无关系。她只是碰巧受邀参加 2011 年在汉普顿举行的一场派对，在那里碰到了他们。她只记得喝了一杯，后来不知什么时候，在桑拿房里被 Tal Alexander 和另一个男人按住了。那天晚上和第二天整天，她只记得一些片段。但她记得有个红灯在闪，她相信那是一台摄像机。Deborah 说，还有几个女人也记得有灯在闪。
+
+可以说，她过了一天才清醒过来。她立刻就知道，从身体上的感觉就知道，自己受到了侵犯。
+
 <details><summary>Original English</summary>
->> Because remember, this was June, July 2024. These guys weren't being criminally investigated yet. All that we knew was a couple lawsuits had been filed and there were a bunch of rumors. Jessica Cohen finally says yes, she'll come forward. Deborah also got Tracy Tutor to go on the record, who told her she'd been at a real estate event at a restaurant in 2014, and she'd somehow ended up in a bathroom with Orin Alexander. Another man found them in there. She remembers none of it. Outside the real estate world, Deborah found Samantha Murphy, a successful model who in 2017 was single and living in Miami. She was romantically interested in Orin Alexander. They ran in the same circles. One night, she's on a date with him. They go back to his apartment. After she tells him she is not ready to have sex with him, he rips off her dress, pins her down, and rapes her. Last one I'll mention, Lindsay Ari had nothing to do socially or professionally with the Alexander brothers. She just happened to be invited to a party in the Hamptons in 2011 where she crossed paths with them. All she remembers is taking a drink and then at some point being pinned down in a sauna by Tal Alexander and another man. She only had snippets of memories of that night and the whole next day, but she did remember a blinking red light, which she believes was a video camera. Deborah said several other women remember a blinking light, too. She came to, so to speak, a day later. She knew immediately that she could feel in her body that she had been violated.
-</details>
 
->> 我的天哪。
-<details><summary>Original English</summary>
->> Oh my god.
-</details>
+>> Because remember, this was June, July 2024. These guys weren't being criminally investigated yet. All that we knew was a couple lawsuits had been filed and there were a bunch of rumors.
 
->> 她也明白自己当时身处险境。她最终徒步走进了汉普顿斯镇上，从那里搭车回家，但多年来她从未向任何人提起过。后来当指控公开曝光时，她也是看到诉讼后站出来的女性之一，心想“我也经历过”。到2024年7月，德博拉已经找到了10名女性，其中7人接受了实名记录，她们都确信自己被亚历山大兄弟强奸过，或者怀疑自己遭到了强奸。她掌握了充分——甚至远超所需——的事实，足以发表一篇重磅报道，证明奥伦、阿隆和塔尔·亚历山大很可能侵犯了许许多多的女性；而且他们在房地产行业内一直具有掠夺性声名，他们对女性极度危险在业内基本是一个公开的秘密。其他媒体纷纷跟进她的报道，挖掘出更多内幕。与此同时，联邦调查局（FBI）正在对兄弟几人展开秘密调查，尽管德博拉当时并不知情。数月后的2024年12月，这三名男子在迈阿密被捕，因在纽约和佛罗里达州犯下的罪行遭到联邦起诉。特工表示，他们已与大约70名对亚历山大兄弟提出可信指控的女性进行了交谈。当德博拉阅读起诉书时，发现里面包含了各种她此前并不知道的证据：兄弟几人与朋友之间的短信往来，策划周末聚会，讨论所谓向他们租住的度假屋“输入”女性，以及搞到毒品，包括“G”——调查人员认为这是指 GHB，即所谓的约会强奸药。此外，FBI 获得了搜查兄弟几人在迈阿密和曼哈顿住所的搜查令。他们进入塔尔·亚历山大位于公园大道（Park Avenue）的公寓，在他的壁橱里发现了一个硬盘，里面存有奥伦·亚历山大强奸一名毫无知觉的17岁少女的视频。因为她并不是……她虽然活着但醉得不省人事，双腿甚至连动都动不了。
-<details><summary>Original English</summary>
->> She also understood that she wasn't safe. She ended up walking into town in the Hamptons and getting a ride home from there, but she didn't tell anybody for years. And then when the allegations came out, she was another one of those women who saw these lawsuits and was like, "Me, too." By July of 2024, Deborah had found 10 women, seven of whom went on the record, who all believed they'd either been raped or suspected they might have been raped by the Alexander brothers. She had enough, more than enough, to publish a story showing that Orin Alone and Tal Alexander had likely assaulted many, many women, and moreover that they had a predatory reputation in the real estate industry, that it was more or less an open secret that they were dangerous to women. Other publications followed up on her reporting, found out even more. Meanwhile, the FBI was investigating the brothers, though Deborah didn't know it at the time. Months later, December of 2024, the three men were arrested in Miami, federally indicted for crimes in New York and Florida. Agents said they had spoken to about 70 women who had credible allegations against the Alexander brothers. When Deborah read the indictment, there was all sorts of evidence in there she hadn't known about. text exchanges between the brothers and their friends, planning a weekend party, talking about quote importing women to their vacation rental and getting drugs, including G, which the investigators believed was a reference to GHB, the so-called date rape drug. Also, the FBI got warrants to search the brother's homes in Miami and Manhattan. And they went into Tal Alexander's apartment on Park Avenue and they found a hard drive in his closet and it had video of Orin Alexander raping a lifeless 17-year-old because she wasn't she was alive but she was drunk. She was unable even to move her legs.
-</details>
+Jessica Cohen finally says yes, she'll come forward. Deborah also got Tracy Tutor to go on the record, who told her she'd been at a real estate event at a restaurant in 2014, and she'd somehow ended up in a bathroom with Orin Alexander. Another man found them in there. She remembers none of it. Outside the real estate world, Deborah found Samantha Murphy, a successful model who in 2017 was single and living in Miami. She was romantically interested in Orin Alexander. They ran in the same circles.
 
->> 证据就这样不断累积起来。为了给自己辩护，亚历山大兄弟调动了庞大的资源。他们声称这些性接触并非强奸、侵犯或贩运人口，而是双方自愿的。他们发起了一场恶劣的公关攻势，指责那些女性撒谎并合谋企图搞垮他们。他们向艾伦·德肖维茨（Alan Dershowitz）支付了数十万美元，试图寻求特朗普总统的特赦。德博拉交谈过的许多女性最终也向 FBI 提供了证词。林赛的指控最终成为了针对兄弟几人的刑事指控罪名之一，林赛还在法庭上出庭作证指控他们。经过为期5周的审判，塔尔、阿隆和奥伦·亚历山大被判犯有一系列罪行，包括性侵犯、加重性侵犯、性贩运、性贩运未成年人以及共谋性贩运。他们每人被判处30年联邦监禁。在跟你交谈时我想严谨一点：我们——或者说你并不是在表达，房地产行业直接导致了亚历山大[笑声]兄弟成为性侵掠食者。我并不是说房地产行业制造了——
-<details><summary>Original English</summary>
->> And the evidence just kind of kept mounting. In an effort to defend themselves, the Alexander brothers deployed prodigious resources. They claimed these sexual encounters were not rape or assault or trafficking. They were consensual. They launched a foul PR campaign accusing the women of lying and conspiring to take them down. They paid Alan Dersowitz hundreds of thousands of dollars to pursue a pardon from President Trump. Many of the women Deborah spoke to ended up also speaking to the FBI. Lindseay's claims eventually became one of the counts in the criminal case against the brothers. Lindseay also testified against them. After a 5-week trial, Tal Alone and Orin Alexander were found guilty of a slew of crimes, including sexual abuse, aggravated sexual abuse, sex trafficking, sex trafficking of a minor, sex trafficking conspiracy. They were each sentenced to 30 years in federal prison. I want to be careful talking to you. Let's say, we're you're not saying I'm not saying that somehow like the real estate industry caused the Alexander [laughter] brothers to be sexual predators. I am not saying that the real estate industry caused the
-</details>
+One night, she's on a date with him. They go back to his apartment. After she tells him she is not ready to have sex with him, he rips off her dress, pins her down, and rapes her. Last one I'll mention, Lindsay Ari had nothing to do socially or professionally with the Alexander brothers. She just happened to be invited to a party in the Hamptons in 2011 where she crossed paths with them.
 
-### 行业文化的纵容与未来结构性变革的质疑
+All she remembers is taking a drink and then at some point being pinned down in a sauna by Tal Alexander and another man. She only had snippets of memories of that night and the whole next day, but she did remember a blinking red light, which she believes was a video camera. Deborah said several other women remember a blinking light, too.
 
->> 但我认为你所表达的似乎是：这几个人原本就是捕食者，而他们恰好降落在一个完美的温床里，在某种程度上助长甚至推崇了这种“我想要什么就拿什么”的心态。他们被房地产吸引是有原因的，他们能取得如此巨大的成功是有原因的，而且这么长时间没有人发声揭发也是有原因的。所以，不，纽约市的房地产圈或整个房地产行业并没有创造他们，但绝对为他们提供了一片极其肥沃的土壤，让他们在很长一段时间里得以肆无忌惮地持续作恶。房地产界对此作何反应？行业内部是否有任何形式的反思清算？可以说有，也可以说没有。
-<details><summary>Original English</summary>
->> but I think it seems like what you are saying is like these men were predators and they sort of land in the perfect cauldron to facilitate in some ways or and even valorize this like I take what I want mentality. There is a reason they were attracted to real estate. There is a reason that they were so successful and there is a reason that no one spoke up for so long. So no, the New York City real estate scene or real estate as a whole did not create them, but it definitely gave them a really fertile patch of soil to continue doing this for a long time. How is the real estate world responding to it? Like has was there any kind of reckoning inside the industry? So yes and no.
-</details>
+She came to, so to speak, a day later. She knew immediately that she could feel in her body that she had been violated.
 
->> 道格拉斯·艾利曼公司的首席执行官霍华德·洛伯虽然没有被解雇，但在该事件的压力下引咎辞职了。
-<details><summary>Original English</summary>
->> Howard Lorber, the CEO of Douglas Elellman, wasn't fired, but he stepped down under pressure because of this.
-</details>
-
->> 不完全是因为这件事，但这件事是促成因素之一。除此之外，德博拉告诉我，并没有发生太多的改变。我是说，我很想告诉你纽约市的房地产行业已经吸取了教训、进行了深刻反省并下定决心要改过自新，但那是谎言。
-<details><summary>Original English</summary>
->> Not only because of this, but it contributed to it. But other than that, Deborah told me not much else has changed. I mean, I would love to tell you that the the real estate industry in New York City has learned a lesson from this and has really thought hard and decided to be better. That would be a lie.
-</details>
-
->> 所以不会发生那种我所设想的行业内更为传统的结构性变革——也就是企业管理者被追究问责、对其员工承担责任，因为如果不承担责任就会被起诉的那种机制？对，我并不指望人力资源部门突然在房地产行业普及起来。真的吗？是的，我不指望。而且我也不指望外部监管能真正触及该行业，不像餐饮业或电影行业那样。在其他行业，“Metoo”运动带来的清算确实引发了结构性转变。房地产行业一直在抵制这种转变，而且可能因为其自身结构而继续抵制下去。另外还因为很多人并不真正理解房地产是如何运转的。但我可以告诉你，如果房地产行业真的会发生改变——我认为确实会——那也不会是因为这些性贩运指控。她说，改变不会源自行业内部的灵魂反省和压力，而是会被从外部强加给这个行业：经纪人赚取佣金方式的变动、科技技术的变革，这些才会彻底改造该行业的商业模式。但行业的文化是否也会随之转变，德博拉并不确定。比如全美增长最快的经纪公司之一，是一家名为 eXp 的全云端运营公司。它的组织架构类似于多层次传销模式。[嗤笑] 你每月缴纳一笔费用，然后每名经纪人招募其他经纪人，这些经纪人又招募下线经纪人，层层向下延伸。链路中处于你上层的人可以从你的销售额中抽取提成；处于你下层的人，你可以从他们的销售额中提成。德博拉也报道过这家公司。他们拥有典型的“拼命工作、拼命狂欢”的文化。他们每年都会举办盛大的年度派对，提供无限量畅饮酒吧。有一年在拉斯维加斯举办，还悬挂着一个漂浮吊灯。接着你就会听到关于这些招募活动的传闻：他们把潜在经纪人吸引过来，其中很多是女性，现场充斥着大量酒精。
-<details><summary>Original English</summary>
->> So there's no there's not going to be the kind of structural change that I'm imagining a sort of more traditional structural change within an industry whereby people who run companies are held accountable and take responsibility for their employees in a because they have to otherwise they're going to get sued kind of way. Yeah. No, I don't expect HR to suddenly become a thing in the real estate industry. Really? No, I don't. And I don't expect oversight to really touch the industry in the way it has, for example, in the culinary industry or the movie industry. The way that other reckonings from me too really did cause structural change. Real estate has resisted that and probably will continue to resist it because of its structure. And also because a lot of people don't really understand how real estate works. But I will tell you, if there is going to be change in the real estate industry, and I think there is, it's not going to be because of these sex trafficking allegations. Change will happen, she says, not from soulsearching and pressure from inside the industry. It'll be foisted upon the industry, from the outside. Changes in the way agents earn commissions, changes in technology, that's what'll transform the industry's business. But whether the culture of the industry will transform as well, Deborah's not sure. One of the fastest growing brokerages in the country, for instance, is an entirely cloud-based company called EXP. It's structured as a multi-level marketing organization. You [snorts] pay a monthly fee and then each agent recruits other agents who recruit other agents on and on down the line. Whoever's above you in the chain gets a cut of your sales. Whoever's below you, you get a cut of their sales. Deborah has covered this company, too. And they are like a real work hard, party hard type of culture. They have this massive annual party every year with like an open bar. And it was it's like one year it was in Las Vegas with this floating chandelier. And then you hear these stories of these recruiting events where they bring in potential agents. Many of them are women. There's a lot of alcohol.
-</details>
-
->> 能出什么岔子呢？
-<details><summary>Original English</summary>
->> What could go wrong?
-</details>
-
->> 德博拉说，已有多名女性提起诉讼，称自己在这些活动中被下了药并遭到性侵。
-<details><summary>Original English</summary>
->> Deborah says multiple women have filed lawsuits saying they were drugged and sexually assaulted at these events.
-</details>
-
->> 我也对此做过报道。
-<details><summary>Original English</summary>
->> I've reported on this as well.
 </details>
 
 >> 天哪。
+
 <details><summary>Original English</summary>
+
 >> Oh my god.
+
 </details>
 
->> 其中许多女性成功赢得了诉讼，这件事也被公开曝光，然而目前的结构依然没有得到改革。所以，这似乎进一步偏离了任何形式的监管。
+>> 她也知道自己在那里不安全。她最后走到了汉普顿的镇上，从那儿搭车回家。可她好多年都没告诉任何人。后来指控公开，她也是那些看到诉讼就说“我也是”的女性之一。
+
+到 2024 年 7 月，Deborah 已经找到 10 名女性，其中 7 人同意公开受访。这 10 人都相信自己遭到过 Alexander 兄弟强奸，或怀疑自己可能遭到过他们强奸。她掌握的材料足够了，远远超过发表一篇报道所需。报道显示，Orin、Alone 和 Tal Alexander 很可能侵害过很多、很多女性。而且，他们在房地产行业里就有侵害女性的名声。他们对女性有危险，这或多或少是个公开的秘密。其他媒体跟进她的报道，又查出了更多事情。
+
+与此同时，联邦调查局在调查这几兄弟，虽然 Deborah 当时并不知道。几个月后，2024 年 12 月，三人在迈阿密被捕，因在纽约州和佛罗里达州犯下的罪行受到联邦起诉。探员说，他们已经跟大约 70 名女性谈过。这些女性对 Alexander 兄弟提出了可信的指控。Deborah 读起诉书时，发现里面有各种她以前不知道的证据。比如几兄弟与朋友之间的短信。他们在策划周末派对，谈到要往度假短租房里“进口”女人，还谈到弄些药，其中包括 G。调查人员认为，这指的是所谓的约会强奸药 GHB。
+
+联邦调查局还拿到了搜查令，可以搜查兄弟在迈阿密和曼哈顿的住所。他们进了 Tal Alexander 位于公园大道的公寓，在他的壁橱里找到了一块硬盘。里面有一段视频，拍到 Orin Alexander 强奸一名毫无反应的 17 岁女孩。她不是……她还活着，但她喝醉了，甚至连腿都动不了。
+
 <details><summary>Original English</summary>
+
+>> She also understood that she wasn't safe. She ended up walking into town in the Hamptons and getting a ride home from there, but she didn't tell anybody for years. And then when the allegations came out, she was another one of those women who saw these lawsuits and was like, "Me, too." By July of 2024, Deborah had found 10 women, seven of whom went on the record, who all believed they'd either been raped or suspected they might have been raped by the Alexander brothers. She had enough, more than enough, to publish a story showing that Orin Alone and Tal Alexander had likely assaulted many, many women, and moreover that they had a predatory reputation in the real estate industry, that it was more or less an open secret that they were dangerous to women. Other publications followed up on her reporting, found out even more.
+
+Meanwhile, the FBI was investigating the brothers, though Deborah didn't know it at the time. Months later, December of 2024, the three men were arrested in Miami, federally indicted for crimes in New York and Florida. Agents said they had spoken to about 70 women who had credible allegations against the Alexander brothers. When Deborah read the indictment, there was all sorts of evidence in there she hadn't known about. text exchanges between the brothers and their friends, planning a weekend party, talking about quote importing women to their vacation rental and getting drugs, including G, which the investigators believed was a reference to GHB, the so-called date rape drug. Also, the FBI got warrants to search the brother's homes in Miami and Manhattan. And they went into Tal Alexander's apartment on Park Avenue and they found a hard drive in his closet and it had video of Orin Alexander raping a lifeless 17-year-old because she wasn't she was alive but she was drunk. She was unable even to move her legs.
+
+</details>
+
+>> 证据就这么越积越多。
+
+为了给自己辩护，Alexander 兄弟动用了大量资源。他们声称，这些性接触不是强奸、不是性侵，也不是人口贩运，而是双方自愿的。他们搞了一场恶劣的公关攻势，指责这些女性撒谎，合谋把他们拉下马。他们付给 Alan Dersowitz 数十万美元，请他争取特朗普总统的赦免。
+
+很多跟 Deborah 谈过的女性，后来也跟联邦调查局谈了。Lindseay 提出的指控最后成为针对三兄弟的刑事案件中的一项罪名。Lindseay 也出庭指证了他们。经过五周审判，Tal、Alone 和 Orin Alexander 被认定犯下多项罪行，包括性虐待、加重性虐待、性贩运、对未成年人实施性贩运，以及共谋实施性贩运。三人各被判在联邦监狱服刑 30 年。
+
+我想把话说仔细一点。就是说，我们、你不是在说、我也不是在说，房地产行业不知怎么就把 Alexander 兄弟[笑声]变成了性侵者。我没有说是房地产行业导致了……
+
+<details><summary>Original English</summary>
+
+>> And the evidence just kind of kept mounting.
+
+In an effort to defend themselves, the Alexander brothers deployed prodigious resources. They claimed these sexual encounters were not rape or assault or trafficking. They were consensual. They launched a foul PR campaign accusing the women of lying and conspiring to take them down. They paid Alan Dersowitz hundreds of thousands of dollars to pursue a pardon from President Trump.
+
+Many of the women Deborah spoke to ended up also speaking to the FBI. Lindseay's claims eventually became one of the counts in the criminal case against the brothers. Lindseay also testified against them. After a 5-week trial, Tal Alone and Orin Alexander were found guilty of a slew of crimes, including sexual abuse, aggravated sexual abuse, sex trafficking, sex trafficking of a minor, sex trafficking conspiracy. They were each sentenced to 30 years in federal prison. I want to be careful talking to you. Let's say, we're you're not saying I'm not saying that somehow like the real estate industry caused the Alexander [laughter] brothers to be sexual predators. I am not saying that the real estate industry caused the
+
+</details>
+
+### 行业会怎么变
+
+>> 但我听起来，你像是在说，这几个人本来就是性侵者，恰好进了一个特别合适的环境，某种程度上助长了，或者甚至推崇那种“我想要什么就拿什么”的心态。
+
+这个行业吸引他们是有原因的。他们那么成功是有原因的。长久以来没人开口，也是有原因的。所以，纽约市的房地产圈，或者整个房地产行业，并没有造就他们，但确实给了他们一片很肥沃的土壤，让他们可以长期这么做。
+
+房地产圈对此有什么反应？行业内部有过、有过什么反省和追责吗？
+
+有，也没有。
+
+<details><summary>Original English</summary>
+
+>> but I think it seems like what you are saying is like these men were predators and they sort of land in the perfect cauldron to
+
+facilitate in some ways or and even valorize
+
+this like
+
+I take what I want mentality. There is a reason they were attracted to real estate. There is a reason that they were so successful and there is a reason that no one spoke up for so long. So no, the New York City real estate scene or real estate as a whole did not create them, but it definitely gave them a really fertile patch of soil to continue doing this for a long time. How is the real estate world responding to it? Like has was there any kind of reckoning inside the industry? So yes and no.
+
+</details>
+
+>> Douglas Elellman 的首席执行官 Howard Lorber 没有被解雇，但因为这件事，他在压力下辞职了。
+
+<details><summary>Original English</summary>
+
+>> Howard Lorber, the CEO of Douglas Elellman, wasn't fired, but he stepped down under pressure because of this.
+
+</details>
+
+>> 不全是因为这件事，但这件事是原因之一。除此以外，Deborah 告诉我，其他方面变化不大。
+
+我是很想告诉你，纽约市的房地产行业从中吸取了教训，认真反思过，决定做得更好。那样说就是撒谎。
+
+所以，不会有我想象的那种结构性变化？一种比较传统的行业内部结构性变化，由经营公司的人承担责任，对自己的雇员负责，因为他们必须这么做，否则就会被起诉？
+
+对，不会。我不指望房地产行业突然开始设立人力资源部门。
+
+真的？
+
+真的，我不这么认为。我也不指望监督能真正触及这个行业，像在餐饮业或电影业那样。那些由“我也是”运动引发的反省和追责，确实带来了结构性变化。房地产行业一直抵制这种变化，而且可能还会继续抵制，因为它的结构就是这样。另一个原因是，很多人其实并不了解房地产行业是怎么运作的。但我可以告诉你，如果房地产行业要变，我也认为会变，那也不会是因为这些性贩运指控。
+
+她说，变化会发生，但不会来自行业内部的反思和压力。它会从外部强加给这个行业。经纪人赚取佣金的方式在变，技术也在变，这些变化会改变这个行业做生意的方式。但行业文化会不会跟着变，Deborah 也不确定。
+
+比如，美国增长最快的经纪公司之一是 EXP，一家完全在云端运营的公司。它采用多层次营销的组织结构。你[哼鼻声]每月交一笔费用，然后每位经纪人招募其他经纪人，新招进来的经纪人又招募更多经纪人，就这么一层层下去。在这条链上排在你上面的人，会从你的销售里分一份。排在你下面的人，你会从他们的销售里分一份。Deborah 也报道过这家公司。
+
+他们的文化很像那种拼命工作、也拼命玩乐的文化。他们每年办一场特别大的派对，酒水畅饮。有一年好像是在拉斯维加斯，还有一盏悬在空中的吊灯。接着你又听到一些招募活动上的事。他们会请有可能加入的经纪人来，其中很多是女性。现场有很多酒。
+
+<details><summary>Original English</summary>
+
+>> Not only because of this, but it contributed to it. But other than that, Deborah told me not much else has changed. I mean, I would love to tell you that the the real estate industry in New York City has learned a lesson from this and has really thought hard and decided to be better. That would be a lie.
+
+So there's no there's not going to be the kind of structural change that I'm imagining a sort of more traditional structural change within an industry whereby
+
+people who run companies
+
+are held accountable and take responsibility for their employees in a because they have to otherwise they're going to get sued kind of way. Yeah. No, I don't expect HR to suddenly become a thing in the real estate industry.
+
+Really? No, I don't. And I don't expect oversight to really touch the industry in the way it has, for example, in the culinary industry or the movie industry.
+
+The way that other reckonings from me too really did cause structural change.
+
+Real estate has resisted that and probably will continue to resist it because of its structure. And also because a lot of people don't really understand how real estate works. But I will tell you, if there is going to be change in the real estate industry, and I think there is, it's not going to be because of these sex trafficking allegations. Change will happen, she says, not from soulsearching and pressure from inside the industry. It'll be foisted upon the industry, from the outside. Changes in the way agents earn commissions, changes in technology, that's what'll transform the industry's business. But whether the culture of the industry will transform as well, Deborah's not sure. One of the fastest growing brokerages in the country, for instance, is an entirely cloud-based company called EXP. It's structured as a multi-level marketing organization. You [snorts] pay a monthly fee and then each agent recruits other agents who recruit other agents on and on down the line. Whoever's above you in the chain gets a cut of your sales. Whoever's below you, you get a cut of their sales. Deborah has covered this company, too. And they are like a real work hard, party hard type of culture. They have this massive annual party every year with like an open bar. And it was it's like one year it was in Las Vegas with this floating chandelier. And then you hear these stories of these recruiting events where they bring in potential agents. Many of them are women. There's a lot of alcohol.
+
+</details>
+
+>> 这能出什么事呢？
+
+<details><summary>Original English</summary>
+
+>> What could go wrong?
+
+</details>
+
+>> Deborah 说，有多名女性提起诉讼，称自己在这些活动上被下药和性侵。
+
+<details><summary>Original English</summary>
+
+>> Deborah says multiple women have filed lawsuits saying they were drugged and sexually assaulted at these events.
+
+</details>
+
+>> 我也报道过这件事。
+
+<details><summary>Original English</summary>
+
+>> I've reported on this as well.
+
+</details>
+
+>> 天哪。
+
+<details><summary>Original English</summary>
+
+>> Oh my god.
+
+</details>
+
+>> 这些女性中有很多人打赢了官司，事情也公开报道了，可目前这种结构还是没有改革。所以，而且这看来会离任何形式的监管更远。
+
+<details><summary>Original English</summary>
+
 >> And many of these women have sued successfully and this has been publicized and yet that structure is not being reformed at the moment. So, and that would appear to move even farther away from any sort of regulation.
+
 </details>
 
->> 好吧。
+>> 好。
+
 <details><summary>Original English</summary>
+
 >> Okay.
+
 </details>
 
->> 是的，所以我无法向你保证这种情况会消失。这几乎就像打地鼠一样，对吧？如果说道格拉斯·艾利曼的模式不得不适应和调整——事实也确实如此——那么最终的结果是情况真正好转，还是说恶劣的行为以及将极度财富、极度权力与极度堕落捆绑在一起的勾当，只是转移到了另一种商业模式之下？[音乐] 很有可能如此。德博拉·凯曼，她是《纽约时报》大都会新闻部的记者。
+>> 对，所以我不能、我没法跟你说，这种事会消失。这有点像打地鼠，对吧？如果 Douglas Elellman 的模式必须适应变化、作出调整，而它确实必须调整，结果会是情况真的变好了，还是说，那些恶劣行为，还有巨额财富、巨大权力和极端堕落之间的联系，会转移到另一种模式里？
+
+[音乐] 有这个可能。Deborah Cayman 是都市新闻部的记者。
+
 <details><summary>Original English</summary>
->> And yes, so I don't I can't tell you that this is going to disappear. It's almost like whack-a-ole, right? So like if the Douglas Elellman model is is going to have to adapt and change, which it is, is the result going to be that things are just better, or is the result going to be that the bad behavior and this link between immense wealth, immense power, and then immense depravity shifts to another model? [music] It might. Deborah Cayman, she's a reporter on the Metro Desk.
+
+>> And yes, so I don't I can't tell you that this is going to disappear. It's almost like whack-a-ole, right? So like if the Douglas Elellman model is is going to have to adapt and change, which it is, is the result going to be that things are just better, or is the result going to be that the bad behavior and this link between immense wealth, immense power, and then immense depravity shifts to another model?
+
+[music] It might. Deborah Cayman, she's a reporter on the Metro Desk.
+
 </details>
 
 >> [音乐]
+
+[音乐]
+
 <details><summary>Original English</summary>
+
 >> [music]
+
+[music]
+
 </details>
 
-### 制作人员名单与结语
+### 节目制作名单
 
->> [音乐] 本期《Metro》由丹尼尔·吉尔梅特（Daniel Gilmet）制作，朱莉·斯奈德（Julie Snyder）编辑。[音乐] 阿尔文·梅利斯（Alvin Melith）提供额外制作协助。纽约的听众朋友们，我们期待听到你们的故事投稿；[音乐] 也期待所有人的反馈。欢迎发送邮件至 serialshows@nytimes.com，[音乐] 或在收听节目的平台上留言评论。《Metro》制作团队成员包括：贾内尔·派珀（Janelle Piper）、布伦丹·克林肯伯格（Brendan Klinkenberg）、科里·基尔加农（Corey Kilgannon）、本·菲兰（Ben Phelan）、菲比·王（Phoebe Wang）、甄国（Jen Guua）、[音乐] 杰西卡·韦斯伯格（Jessica Weissberg）、凯瑟琳·安德森（Katherine Anderson）、艾比·珀皮奇（Abby Perpich）、M·米勒（M Miller）、安德烈娅·洛佩斯-克鲁萨多（Andrea Lopez Cruzado）、马特·纳德尔（Matt Nadell）以及沃尔特·斯奈德（Walter Snyder）。[音乐] 尼基塔·斯图尔特（Nikita Stewart）是德博拉·凯曼对亚历山大兄弟案调查报道的编辑，她同时也是《纽约时报》大都会版的主编。[音乐] 今天特别感谢马蒂·马西耶洛（Mattie Masiello）、凯尔·格兰迪洛（Kyle Grandillo）和萨曼莎·温特（Samantha Winter）。《Metro》由 Serial 制作公司与[音乐]《纽约时报》联合制作。
+>> 本期《Metro》由 Daniel Gilmet 制作，Julie [音乐] Snyder 编辑。Alvin Melith 协助制作。还有，纽约的朋友们，我们想听听你们有什么故事想推荐给我们。[音乐] 也欢迎所有人给我们提意见。请发邮件到 serialshows@nytimes.com，[音乐] 或者在你收听节目的平台留言。
+
+《Metro》的制作团队包括 Janelle Piper、Brendan Clinkenberg、Corey Kilganan、Ben Failen、Phoebe Wang、Jen Guua、[音乐] Jessica Weissberg、Katherine Anderson、Abby Perpich、M Miller、Andrea Lopez Crusado、Matt Nadell 和 Walter Snyder。[音乐]
+
+Deborah Cayman 对 Alexander 兄弟的调查由 Nikita Stewart 担任编辑。她也是《纽约时报》都市新闻部的编辑。[音乐]
+
+今天特别感谢 Mattie Masiello、Kyle Grandillo 和 Samantha Winter。
+
+《Metro》由 Serial Productions 和[音乐]《纽约时报》制作。
+
 <details><summary>Original English</summary>
->> [music] This episode of Metro was produced by Daniel Gilmet and edited by Julie [music] Snyder. Additional production help from Alvin Melith. And hey New Yorkers, we want your story pitches. [music] And everyone, we want your feedback. So, email us at serialshows@nytimes.com [music] or comment on the show wherever you're finding it. Metro's producing team includes Janelle Piper, Brendan Clinkenberg, Corey Kilganan, Ben Failen, Phoebe Wang, Jen Guua, [music] Jessica Weissberg, Katherine Anderson, Abby Perpich, M Miller, Andrea Lopez Crusado, Matt Nadell, and Walter Snyder. [music] Nikita Stewart was the editor on Deborah Cayman's investigation of the Alexander brothers and she is also editor of the New York Times Metro. [music] Special thanks today to Mattie Masiello, Kyle Grandillo, and Samantha Winter. Metro is made by Serial Productions and [music] the New York Times.
+
+>> This episode of Metro was produced by Daniel Gilmet and edited by Julie [music] Snyder. Additional production help from Alvin Melith. And hey New Yorkers, we want your story pitches.
+
+[music] And everyone, we want your feedback. So, email us at
+
+serialshows@nytimes.com
+
+[music] or comment on the show wherever you're finding it.
+
+Metro's producing team includes Janelle Piper, Brendan Clinkenberg, Corey Kilganan, Ben Failen, Phoebe Wang, Jen Guua, [music] Jessica Weissberg, Katherine Anderson, Abby Perpich, M Miller, Andrea Lopez Crusado, Matt Nadell, and Walter Snyder. [music]
+
+Nikita Stewart was the editor on Deborah Cayman's investigation of the Alexander brothers and she is also editor of the New York Times Metro. [music]
+
+Special thanks today to Mattie Masiello, Kyle Grandillo, and Samantha Winter.
+
+Metro is made by Serial Productions and [music] the New York Times.
+
 </details>
