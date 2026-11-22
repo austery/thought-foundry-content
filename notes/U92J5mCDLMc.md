@@ -6,279 +6,387 @@ layout: post.njk
 source: https://www.youtube.com/watch?v=U92J5mCDLMc
 speaker: AI Engineer
 tags:
+  - software-factory
   - autonomous-agent
-  - software-engineering
-  - ai-tooling
   - developer-productivity
-title: Cognition：通过软件工厂与目标导向 Agent 实现 40 倍工程吞吐量提升
-summary: Cognition 联合创始人兼首席产品官 Walden 阐述了其团队如何在工程团队人数增长 2.7 倍的情况下将合并 PR 吞吐量提升 40 倍。核心举措包括将团队重构为拥有端到端职责的小组、让 Devin 自主运行从 Bug 报告到合并监控的“软件工厂”、基于 Docker Compose 与本地 Mock 构建无需依赖云端实时服务的沙箱与每小时重建镜像，以及将给 Agent 下发具体任务转变为赋予长期目标（如系统延迟调优、GPU 吞吐优化和 Android 应用对齐）。
+  - continuous-integration
+title: Cognition 研发提效实践：以 2.7 倍工程师实现 40 倍合并 PR 吞吐量
+summary: Cognition 联合创始人兼 CPO Walden Yan 介绍了内部利用 Devin 构建软件工厂的实践。团队通过将工程师拆分为负责全流程的垂直小团队、实现本地虚拟化与自动化测试闭环，以及将 Agent 的职责从执行单一任务转向负责长期目标（如 GPU 推理优化、Android 应用开发），在工程师人数仅增长 2.7 倍的情况下实现了合并 PR 吞吐量 40 倍的提升。
 insight: ''
 draft: true
 series: ''
 category: ai-application
 area: tech-engineering
 project: []
-people: []
+people:
+  - Walden Yan
 companies_orgs:
   - Cognition
+  - Nvidia
 products_models:
   - Devin
+  - Docker Compose
+  - Slack
+  - Linear
 media_books: []
 status: evergreen
 ---
-### 40 倍 PR 吞吐量背后的工程变革
-大家下午好。很荣幸今天能来到这里。做个简短的自我介绍：我是 Walden，Cognition 的联合创始人兼首席产品官。我们打造了一款名为 Devin 的 AI 产品。不过，今天我想把大部分时间稍微从产品本身抽离出来，重点讲讲我们在工程团队内部到底做了什么来大幅加快迭代速度。我为大家展示的背景是：这就是 Cognition 目前合并 PR 的吞吐量情况。
+### 40 倍 PR 吞吐量与工程师团队的转变
+
+大家好。很高兴今天能来到这里。
+
+简单做个自我介绍。我是 Walden，Cognition 的联合创始人兼首席产品官。
+
+我们打造了一款名为 Devin 的 AI 产品。
+
+不过今天，我想把大部分时间稍微抽离出产品本身，重点聊聊我们作为一个工程团队在内部做了什么来大幅提升交付速度。我想以此为背景说明：这就是 Cognition 目前合并 PR（Pull Request）吞吐量的表现。
+
+这段统计的起点大约在 12 个月前。所以大家看到的大致是一年以内的概况。在过去这一年里，图表中的蓝色部分显示了 40 倍的增长，这意味着我们工程团队产出的合并 PR 数量增长了 40 倍。
 
 <details>
 <summary>Original English</summary>
-Hello everyone. Um it's a pleasure to be here today. Quick introduction. I'm Walden. I'm one of the co-founders and chief product officer at Cognition. We build a AI product called Devin. I want to spend most of my time here today though kind of abstracting a bit away from that and and focusing on what are we doing internally as an engineering team to move way faster. And so the backdrop I would put for all this is this is what our merged PR throughput looks like at Cognition.
-</details>
+Hello everyone. Um it's a pleasure to be here today.
 
-这个图表的起点大约是在 12 个月前。所以大家看到的是大约一年的切片。在过去这一年里，这里蓝色的图表，这个 40 倍，代表我们工程团队产出的合并 PR 数量增长了 40 倍。
+Quick introduction. I'm Walden. I'm one of the co-founders and chief product officer at Cognition.
 
-<details>
-<summary>Original English</summary>
+We build a AI product called Devin.
+
+I want to spend most of my time here today though kind of abstracting a bit away from that and and focusing on what are we doing internally as an engineering team to move way faster. And so the backdrop I would put for all this is this is what our merged PR throughput looks like at Cognition.
+
 The start of this is around 12 months ago. So you're looking at about a snapshot of a year. And over this last year, this blue chart here, this 40x is a 40x in the number of merged PRs we are producing on our engineering team.
 </details>
 
-现在大家可能还会注意到，底部有一条细细的黑线。它很容易被忽略，但那个 2.7 倍代表的是我们在同一时期工程团队员工人数的增长。因此，我们确实一直在招募工程师，但我们每位工程师现在的生产力是以前的 10 倍以上。而且我敢说，这些 PR 的质量即使没有比一年前更高，也绝对同样高质量。
+现在大家可能还会注意到底部有一条细小的黑线。它很容易被忽略，但那条 2.7 倍的曲线代表了我们在同一时期工程团队员工人数的增长。所以我们确实在招募工程师，但我们每位工程师现在的生产力是以前的 10 倍以上。而且我敢说，这些 PR 的质量即便没有比一年前更高，也至少与之前相当。
+
+因此，我今天真正想探讨的核心问题是：
+
+我们到底做了什么，才释放出了这 40 倍的工程吞吐量？
+
+从代码库的构建，到工程团队的组织方式，我们做了很多事情；我认为如果各位想要复现同样的效果，这些都是非常切实的实践步骤。
 
 <details>
 <summary>Original English</summary>
 Now you might also notice there's a small black line along the bottom there. It's easy to miss, but that 2.7x that is our engineering head count growth in the same period. So we have been hiring engineers, but each of our engineers is now more than 10x more productive than they were before. And I would dare to say that these PRs are just as high quality, if not higher quality than they were a year ago.
-</details>
 
-所以今天我想讲的核心本质在于：我们究竟做了什么，才释放出了这 40 倍的工程吞吐量？
-
-<details>
-<summary>Original English</summary>
 And so really the crux of what I want to talk about today is what did we do to unlock this 40x engineering throughput?
-</details>
 
-从代码库层面到我们组织工程团队的方式，我们做了很多事情，我认为如果你们也想复现同样的结果，这些都是非常实用的落地步骤。
-
-<details>
-<summary>Original English</summary>
 And there's a lot of things we did from both the code base to the way we structure engineering teams that I think are very practical steps you can take if you want to reproduce the same results.
 </details>
 
-### 构建端到端自动化的软件工厂
-在座很多人可能都熟悉“软件工厂”（Software Factory）。你们当中有多少人听说过软件工厂？大家举下手看看。太棒了。那么我先从基础概念讲起，然后再逐步深入到更高阶的内容。
+### 软件工厂的核心逻辑与团队垂直化
+
+在座的许多人可能都熟悉“软件工厂”这个概念。有多少人听说过软件工厂？大家可以举手示意一下。
+
+太好了。那我先从基础讲起，然后再逐步深入到更高阶的内容。
+
+软件工厂的基本理念就是：默认情况下，一切都应该是自动运行的。
+
+我们的很多 PR 从最初的缺陷报告到最终的合并、监控和维护，全程没有任何人类参与。当然，通常情况下依然需要人类的判断，这种时候就会触发上报升级。但默认情况下，我们的整个开发流程就是由 Devin 端到端运行的。
 
 <details>
 <summary>Original English</summary>
-Many of you are probably familiar with the software factory. How many of you guys have heard of software factory? Let's see a raise of hands. Cool. So I'll start with the basics and then I'll work my way up to the more advanced stuff.
+Many of you are probably familiar with the software factory. How many of you guys have heard of software factory? Let's see a raise of hands.
+
+Cool. So I'll start with the basics and then I'll work my way up to the more advanced stuff.
+
+The basic idea of a software factory is yeah, by default everything should be self-driving.
+
+We have PRs that go from initial bug report to final merge and monitoring and maintenance without a single human involved. Often time, human judgment is needed, though, and that's where we have escalations. But by default, our entire development process is just run by Devon from end to end.
 </details>
 
-软件工厂的基本理念是：是的，默认情况下一切都应该是自动驾驶的。我们有许多 PR，从最初的 Bug 报告到最终的合并、监控和维护，全程没有任何人类参与。当然，通常需要人类判断介入时，我们就会有升级机制。但在默认情况下，我们的整个开发流程就是由 Devin 从头到尾端到端运行的。
+这意味着一件事：软件工程师的角色必须发生相当大的转变。
+
+大约在今年三月，我们与工程团队进行了一次沟通。我们指出：如果大家现在只是从 Linear 任务看板上认领工单，把它交给 Agent 去实现，那么在 AI 时代你很难取得成功；因为任何能被描述清楚并落实实现的工单，都能够直接交给 Devin 来完成。
+
+因此，每位工程师实际上都必须改变自己的研发工作方式。
+
+而我们推进这种转变的方式，就是将原先较大的团队拆分成更小的垂直小组（pods）。
+
+这些更小的小组不仅拥有成群的 Agent 来为其执行工作，同时还被赋予了更广泛的端到端垂直职责。
 
 <details>
 <summary>Original English</summary>
-The basic idea of a software factory is yeah, by default everything should be self-driving. We have PRs that go from initial bug report to final merge and monitoring and maintenance without a single human involved. Often time, human judgment is needed, though, and that's where we have escalations. But by default, our entire development process is just run by Devon from end to end.
+One of the things this means is that the role of the software engineer has to change quite a bit.
+
+Around March of this year, we had this conversation with the engineering team and we said, look, if you are right now just picking off tickets off a linear board and then sending that to an agent and implementing it, you're not going to really be set up for success in the age of AI cuz anything that is described and can be implemented will be able to send to Devon.
+
+So really, everyone has to change the way that they're developing.
+
+And the way we've enforced this is we've taken our larger teams and we've broken them up into smaller pods.
+
+And these smaller pods not only are given swarms of agents to do work for them, they are given more vertical responsibility.
 </details>
 
-这意味着一件事情：软件工程师的角色必须发生相当大的改变。大约在今年 3 月，我们与工程团队进行了这样一次对话，我们说：听着，如果你现在只是从 Linear 看板上挑选工单，然后发给 Agent 去实现，那么在 AI 时代你真的不会走向成功；因为任何只要被描述出来且能够实现的东西，都将能够交给 Devin。
+现在，一个团队里可能同时只有两到三名工程师，但他们需要对工程之外的所有环节负起全责。他们负责倾听客户的缺陷报告，负责做质量保证（QA）测试，负责扮演产品经理并进行产品管理；基本上每位工程师都在管理自己的一整块 Linear 任务看板，列出待办事项，然后分派给 Agent 去具体实现。所以这确实是我们工程师工作模式的一次根本性改变。这是我们过去一年里推行的举措之一，并且我们也一直在协助很多大型组织在他们内部落地这一套机制。
+
+我特别想强调的另一件事是：我们全部都在 Slack 中开展工作。这里有一个客户缺陷报告的实际例子：他们在 Slack 上给我发了一段视频，我们直接把缺陷报告转发到内部频道，在里面 @ 标注 Devin 并说：“嘿，请把这个问题修好。”
+
+Devin 会立刻介入，不仅提交一个 PR，还会同时附带一段展示修复效果和验证证据的视频。
+
+这让我们的工作轻松了太多，因为在大多数情况下，我甚至完全不需要离开 Slack。
+
+我们将所有的开发工作都抽象为基于证据和视频的形式，直接将修复完成的证明反馈给客户，大部分时间里甚至连 IDE 或 GitHub 都不用打开。
 
 <details>
 <summary>Original English</summary>
-One of the things this means is that the role of the software engineer has to change quite a bit. Around March of this year, we had this conversation with the engineering team and we said, look, if you are right now just picking off tickets off a linear board and then sending that to an agent and implementing it, you're not going to really be set up for success in the age of AI cuz anything that is described and can be implemented will be able to send to Devon.
+So instead, you might have only two or three engineers on a team at a time, but they're responsible for everything beyond the engineering as well. They're responsible for listening to customer bug reports.
+
+They're responsible for doing QA testing. They're responsible for doing the PMing and product management and basically every engineer manages their entire own linear board of things to do and they send that to an agent to implement for them. So it's really a fundamental change in the way that our engineers do work. This has been one of the things that we've implemented over the last year and we've been helping a lot of large organizations implement for themselves as well.
+
+Another thing I'd really like to highlight is we work from Slack everywhere. So this is an example of what a customer bug report might look like. They send me a video on Slack and we just forward bug reports straight into our internal channel and we tag Devon and say, hey, please fix this.
+
+Devon immediately comes up, shows up a PR, but then also sends back a video with the fix and proof.
+
+And this makes our lives so much easier because I literally don't have to leave Slack for most of my
+
+We've abstracted away all the development to be based on evidence, videos, and just send the proof that the fix is ready right back to the customer without having to open an IDE or even GitHub most of the time.
 </details>
 
-所以实际上，每个人都必须改变自己的开发方式。我们推行这一点的方式是：把原有的大团队拆分成更小的 Pod（小组）。
+### 底层基础设施改造与本地虚拟化
 
-<details>
-<summary>Original English</summary>
-So really, everyone has to change the way that they're developing. And the way we've enforced this is we've taken our larger teams and we've broken them up into smaller pods.
-</details>
+因此，这就是你希望达到的终极目标：一个无需打开 IDE、无需单独调出某个编码 Agent 就能完成整个开发生命周期的状态。
 
-这些更小的 Pod 不仅配备了成群的 Agent 来为他们工作，而且被赋予了更多的纵向职责。所以相反，你一个团队一次可能只有两到三名工程师，但除了工程本身之外，他们还要对所有事情负责：他们负责倾听客户的 Bug 报告，负责做 QA 测试，负责做 PM 和产品管理；基本上每位工程师都管理着自己一整套待办事项的 Linear 看板，并把这些发给 Agent 去替他们实现。因此，这确实是我们工程师工作方式的根本性转变。这是我们在过去一年中落地的举措之一，而且我们也一直在帮助很多大型组织为他们自己落地这套模式。
+但要达到这种状态，我们必须在底层彻底改造大量的工程基础设施。如果任何工程团队想要走到这一步，这就是必须攻克的硬骨头。绝不是单纯购买一个编码 Agent 就完事了，你必须去改变自己的研发构建方式。
 
-<details>
-<summary>Original English</summary>
-And these smaller pods not only are given swarms of agents to do work for them, they are given more vertical responsibility. So instead, you might have only two or three engineers on a team at a time, but they're responsible for everything beyond the engineering as well. They're responsible for listening to customer bug reports. They're responsible for doing QA testing. They're responsible for doing the PMing and product management and basically every engineer manages their entire own linear board of things to do and they send that to an agent to implement for them. So it's really a fundamental change in the way that our engineers do work. This has been one of the things that we've implemented over the last year and we've been helping a lot of large organizations implement for themselves as well.
-</details>
+以前我们在测试应用程序时，通常是对着云端部署的环境进行测试。我们有预发布环境（staging），连接到预发布数据库和线上服务器，然后让工程师手动点击界面，验证整个链路是否能够端到端走通。
 
-### 基于 Slack 与本地沙箱的免 IDE 开发
-我还非常想强调的另一件事是：我们无处不在使用 Slack 工作。这是一个客户 Bug 报告可能是什么样子的示例：他们在 Slack 上给我发来一段视频，我们直接把 Bug 报告转发到内部频道，然后 @Devin 说：“嘿，请修一下这个。”Devin 会立刻响应，提交一个 PR，但同时还会回传一段附带修复和证据证明的视频。
+后来我们进行了一次大规模迁移，把每一项服务都改造成能够通过 Docker Compose 在本地运行。我们针对所有第三方服务都构建了模拟（mock）版本，使其全部可以在本地启动。
 
-<details>
-<summary>Original English</summary>
-Another thing I'd really like to highlight is we work from Slack everywhere. So this is an example of what a customer bug report might look like. They send me a video on Slack and we just forward bug reports straight into our internal channel and we tag Devon and say, hey, please fix this. Devon immediately comes up, shows up a PR, but then also sends back a video with the fix and proof.
-</details>
-
-这让我们的生活轻松了太多，因为在大多数时间里，我真的不需要离开 Slack……我们把所有的开发流程都抽象为基于证据和视频，直接把修复完成的证据发回给客户，大部分时间甚至都不需要打开 IDE 或者 GitHub。
-
-<details>
-<summary>Original English</summary>
-And this makes our lives so much easier because I literally don't have to leave Slack for most of my We've abstracted away all the development to be based on evidence, videos, and just send the proof that the fix is ready right back to the customer without having to open an IDE or even GitHub most of the time.
-</details>
-
-所以这就是你希望达到的终极目标：在这样一个节点上，你无需打开 IDE，甚至无需打开任何一个编程 Agent，就能完成整个开发生命周期。
+并且所有这些服务都能够运行在单个虚拟机（VM）之内，每个 Devin 都有权访问这个虚拟机。如今，我们公司的每个编码 Agent 都不需要接触任何实时在线的生产环境，就可以测试他们提交的代码变更。
 
 <details>
 <summary>Original English</summary>
 So this is kind of the end goal you want to reach, which is a point where you can do your entire development lifecycle without opening up an IDE or without opening up a single coding agent.
-</details>
 
-但要达到这个阶段，我们在底层必须对大量基础设施进行改造。如果每个工程团队想要达到那种状态，这正是真正必须攻克的困难部分。这绝不是买一个编程 Agent 就完事了，你必须去改变你的构建方式。以前我们测试应用时，都是针对云端部署环境进行测试：我们会有一个预发布环境（staging），连接到 staging 数据库，连接到线上服务器，然后让我们的工程师手动去逐项点击，端到端验证流程是否正常。
-
-<details>
-<summary>Original English</summary>
 But to get to this point, there was a lot of infrastructure we had to change underneath. And so this is the hard part that really every engineering team has to do if they want to get to that point. It's not just you purchase a coding agent, you got to go change the way you build. So before when we tested our applications, we'd be testing them against cloud deployments. We'd have a staging environment, connect to a staging database, connect to live servers, and then we'd have our engineers manually go click through and verify that the flows work end to end.
+
+We did a big migration to move every service to be able to run locally with Docker Compose. We've made it so every third-party service we have mocked versions to be able to run locally.
+
+And these could all run inside a single virtual machine that every dev in has access to. And every coding agent in our company now does not need to touch any live services at all to test their changes.
 </details>
 
-我们做了一次大规模迁移：将每个服务都改造成能够通过 Docker Compose 在本地运行。我们做到了让我们拥有的每一个第三方服务都有 Mock 版本，能够在本地跑起来。这些服务全都可以跑在单台虚拟机内部，每个 Devin 都可以访问这台虚拟机。而我们公司现在的每一个编程 Agent 在测试其修改时，完全不需要接触任何线上实时服务。
+事实上，在公司内部，我们每小时都会重新构建一次这些虚拟机。每隔一小时，系统就会拉取最新版本的代码，从头完整重构整个代码库，以确保能够从零开始快速、顺畅地运行起来。
+
+如果由于代码库迭代过快导致构建失败，我们也安排了 Devin 作为第一响应人。它们总是能够立即把这些虚拟机快照给修复好。
+
+因此，每当我们从 Slack 中启动一个 Agent 时，它拿到的都是运行着最新代码版本、应用了最新改动的全新机器环境。
+
+另外，你还需要教这些 Agent 如何去测试你的代码库。
+
+使用云端编码 Agent 的好处在于，它们能够自我维护其训练闭环。回到刚才关于测试的那个部分，Devin 会针对如何测试我们的代码库自行编写专门的技能（skills）。
+
+随着时间推移，代码库会发生改变，测试的方式也随之演化；但 Devin 能够不断更新这些技能，从而一次又一次地对其进行验证。
+
+这一切带来的最终结果是：大家真的不再需要打开笔记本电脑去测试代码改动了。事实上，Cognition 的好几位工程师在日常开发流程中已经转为直接使用 iPad。
+
+顺便提一句，iPad 也更安全。大家最近看到很多入侵事件，其中很大一部分原因出在运维安全以及人员密钥泄露上。谁知道开发者的机器上都装着什么？上面可能到处都是未妥善保管的凭据。而当一切都置于云端受控的虚拟机中运行时，整体的安全性反而高得多。
 
 <details>
 <summary>Original English</summary>
-We did a big migration to move every service to be able to run locally with Docker Compose. We've made it so every third-party service we have mocked versions to be able to run locally. And these could all run inside a single virtual machine that every dev in has access to. And every coding agent in our company now does not need to touch any live services at all to test their changes.
-</details>
+They In fact, these VMs, we rebuild them every hour at the company. Every hour we pull the latest version of the code, we rebuild the entire codebase from scratch to be able to run very quickly and easily from scratch.
 
-事实上，在公司里，我们每小时都会重建这些虚拟机。每隔一小时，我们拉取最新版本的代码，从零开始重新构建整个代码库，以便能够非常快速、轻松地从零运行。如果因为代码库变化太快导致这些构建失败，我们也会让 Devin 作为第一响应者；它们总是立即去修复这些虚拟机快照。因此，每次我们从 Slack 启动一个 Agent 时，它都会进入一台全新的机器，基于带有最新更新的代码库的全新版本运行。
+Um and if these builds ever fail because your codebase is rapidly changing, uh we also have dev in be the first response there. And they're always immediately fixing these VM snapshots. So every time we spin up an agent from Slack, it goes to a fresh machine on a fresh version of the codebase with the latest updates.
 
-<details>
-<summary>Original English</summary>
-They In fact, these VMs, we rebuild them every hour at the company. Every hour we pull the latest version of the code, we rebuild the entire codebase from scratch to be able to run very quickly and easily from scratch. Um and if these builds ever fail because your codebase is rapidly changing, uh we also have dev in be the first response there. And they're always immediately fixing these VM snapshots. So every time we spin up an agent from Slack, it goes to a fresh machine on a fresh version of the codebase with the latest updates.
-</details>
+Um and by the way, these agents you need to teach them how to test your codebase as well.
 
-顺便提一句，这些 Agent 你也需要教会它们如何测试你的代码库。但使用云端编程 Agent 的好处在于，它们可以自我维护其训练闭环。所以最后关于测试的那一部分：Devin 会自己编写关于如何测试我们代码库的技能（skills）。代码库会随着时间变化，测试它的方式也会改变，但 Devin 可以持续更新这些 skills，从而反复对它进行测试。
+But the benefit of using cloud coding agents is that they can self-maintain their training loops. So that last section there on testing, dev in will write its own skills for how to test our codebase.
 
-<details>
-<summary>Original English</summary>
-Um and by the way, these agents you need to teach them how to test your codebase as well. But the benefit of using cloud coding agents is that they can self-maintain their training loops. So that last section there on testing, dev in will write its own skills for how to test our codebase. The codebase will change over time, so the way you test it will change, but Devon can keep on updating these skills so that test it over and over again.
-</details>
+The codebase will change over time, so the way you test it will change, but Devon can keep on updating these skills so that test it over and over again.
 
-这带来的最终结果就是：大家在测试任何代码变更时，真的再也不需要打开笔记本电脑了。事实上，Cognition 的好几位工程师在他们的开发流程中已经转为使用 iPad 了。
-
-<details>
-<summary>Original English</summary>
 So the end result of this is literally people do not need to open their laptops anymore to test any code changes. In fact, several engineers at Cognition have already moved to using iPads for their development process.
-</details>
 
-顺便说一下，iPad 也更安全。大家知道，最近看到了很多黑客攻击事件，其中很大一部分是因为 DevOps 以及人员泄露密钥。谁知道你开发者的机器上有些什么？你可能到处都留有各种密钥。当一切都在云端这些受控的虚拟机中运行时，你实际上处于一个安全得多的境地。
-
-<details>
-<summary>Original English</summary>
 By the way, iPads are also more secure. You know, a lot of you see a lot of these hacks recently, a lot of it is because of DevOps and and people leaking keys. Who knows what's on your developer machine? You might have secrets all over the place. Uh when everything is in the cloud with in these controlled VMs, you're actually in a much more secure spot.
 </details>
 
-### 递归自我优化与从任务到目标的范式转变
-我刚才展示了一些能够测试的基础场景。我们其实还测试过高级的多人协作环境，这非常酷。以前在开发 Devin 加入语音和 Zoom 通话的能力时，我们实际上让 Devin 在测试期间创建多个账号，让它们从同一台虚拟机内部加入同一个 Zoom 通话，并来回发送语音备忘录，以确保功能正常工作。所以如果你真的去拓展代码库的边界，你可以做到相当高阶的配置。
+### 多人协作测试与递归自我优化
+
+我刚才展示了一些基础的测试场景。除此之外，我们还测试过更复杂的“多人并发交互”配置，效果非常酷。比如之前在开发让 Devin 加入语音通话和 Zoom 会议的功能时，我们在测试环节中实际上让 Devin 创建了多个账号，全部从其单台虚拟机内部加入同一个 Zoom 会议，并在彼此之间互发语音备忘录，以此验证功能是否正常。
+
+所以只要你切实挖掘代码库的潜力，完全可以实现非常高阶的自动化测试配置。
+
+而且除了上面提到的这些之外，大家显然都希望实现递归的自我优化。我认为很多人往往习惯从纯模型层面来思考这个问题。但实际上深入一想：在云端 Agent 架构下，每一行编写的代码、生成的每一个 PR、做出的每一项决策，在整个代码库中都是完全被记录和追踪的。
+
+因此，完全没有理由不在其之上运行专门的 Agent，由它们去进行数据分析，找出我们在哪里浪费了时间、在哪里白白消耗了 token、哪些流程可以沉淀为自动化脚本，以及我们可以补充哪些测试来改进这一流程。
+
+我们在内部专门设有一个频道，Devin 每天都会在里面发布各种优化建议，比如：“嘿，如果我们调整一下 Node 的安装配置，CI 构建流程就能缩短大约一分钟”；或者“如果我们改动这个代码规范检查脚本，就能在进入 AI 代码评审之前多拦截 20% 的同类缺陷”。
+
+这确实是一个巨大的突破口：你只需搭建好这些系统，Agent 就会自动去优化你的软件工厂。
+
+这一套机制运转下来非常令人振奋。
 
 <details>
 <summary>Original English</summary>
 Um I've shown some basic versions of things you can test. We've also tested advanced multiplayer setups, which is really cool. We've often times when we were developing Devon's ability to join voice and Zoom calls, we actually had Devon when it tests create multiple accounts, have them join the same Zoom call all from within their one VM and send voice memos back and forth to make sure that the functionality is working. So you can do quite advanced setups if you really push the limits of your code base.
+
+Um and it actually on top of all of this, you know, you obviously want recursive self-improvement. I think people think about this from the model sense quite a lot. But actually, if you think about it, every single line of code that's being written, every single PR that's being generated, every decision, if you have a cloud agent setup, that's all tracked across your entire code base. So there's no reason why you shouldn't also be able to run agents on top of that, do the data analysis and figure out where are we wasting time, where are we wasting tokens, what you know, things can be turned into scripts, what tests can we be adding to improve this process. And so we have a channel where Devon every day posts ideas about, hey, if we change our node setup, we can shave like a minute off of our CI. If we change this lint script, we can like catch 20% more of these bugs before they ever hit AI code review. Um and this is actually been a huge unlock and where you can just set up these systems and the agents will go and optimize your software factory for you.
 </details>
 
-不仅如此，在此基础之上，显然你还会希望实现递归的自我优化。我认为人们往往过多地从模型层面来思考这个问题。但实际上仔细想想，在云端 Agent 的配置下，被写下的每一行代码、生成的每一个 PR、做出的每一个决定，都会在整个代码库中被全程追踪。所以完全没有理由不在其之上运行 Agent，去做数据分析，找出我们在哪里浪费了时间、在哪里浪费了 Token、哪些东西可以被做成脚本，以及我们可以添加哪些测试来改进这个流程。
+### 从派发任务转向托付目标
+
+我平时很少听到别人讨论接下来要讲的这一点，但我认为这恰恰代表了未来的发展方向：那就是**从给 Agent 分配具体“任务”，转向给 Agent 托付整项“工作”**。
+
+这是一种范式转变。大家必须真正开始将这些 Agent 视为协同工作的同事。那么，给 Agent 托付一项具体工作到底是什么样的？
+
+假设我关注的是后端性能。
+
+未来的开发流程应该呈现为这样：你应该直接对 Agent 说：“嘿，我希望能改善应用程序的 P99 延迟。”
+
+此时不应该是由你去一步步指导它该做什么来达成目标，而是它自己应该分析：“好的，针对 P99 延迟，让我先接入遥测监控，搞清楚我们目前的 P99 延迟处于什么水平。”
+
+“让我设置好告警规则，明确我们未来的目标指标。让我把降低延迟所需要做的每一项具体任务进行拆解。让我创建好 Datadog 监控告警，在 Slack 中生成每周汇报，并且每天向你的手机推送进展更新，说明目前的 P99 延迟是多少、具体改善了多少。”
+
+这种系统，从根本上说，正是我们在 Cognition 鼓励所有工程师去构建的模式。
+
+我们甚至不希望你在大多数时候还要对 Agent 逐句进行提示词调试。我们希望你直接赋予 Agent 明确的目标，让它们能够在较长的时间跨度内持续向目标推进。
+
+在你们公司内部，任何你认为不可量化的事情，都要想办法将其量化出来。
+
+比如你关心应用性能吗？那就去测量应用程序内的点击延迟。如果你的应用存在很多异常的布局偏移，那就去测量界面元素的包围盒，探索如何在整个应用中最大程度减少布局抖动。除了 P99 延迟之外，显然还有像新用户引导留存率之类的指标。
+
+作为工程师，你们所做的各项工作中，有多少是可以归纳抽象为一个单一数字或指标的？
+
+我强烈建议大家：只要能做到这一点，就应该部署一个 Agent 去全天候 24 小时不断优化那个指标。
 
 <details>
 <summary>Original English</summary>
-Um and it actually on top of all of this, you know, you obviously want recursive self-improvement. I think people think about this from the model sense quite a lot. But actually, if you think about it, every single line of code that's being written, every single PR that's being generated, every decision, if you have a cloud agent setup, that's all tracked across your entire code base. So there's no reason why you shouldn't also be able to run agents on top of that, do the data analysis and figure out where are we wasting time, where are we wasting tokens, what you know, things can be turned into scripts, what tests can we be adding to improve this process.
+Um this has been really exciting.
+
+One of the things that I don't hear people talking about a lot, but I think it's really where things are going next is moving from the world where you're giving tasks to your agents to giving jobs to your agents.
+
+And this is a bit of a paradigm shift. You you really have to start treating these things like co-workers. So what is giving a job to an agent look like?
+
+Imagine I care about back-end performance.
+
+Really this is what the development flow of the future should look like. You should send to your agent, hey, I want to improve P99 latency of my application.
+
+Instead of you telling it what to do to do that, it should say, okay, P99 latency, let me add the telemetry to figure out where our P99 latency is today.
+
+Let me set up alerts so I can figure out where we need to be in the future. Let me go break down every single task we need to do to be able to move this latency. Let me create DataDog alerts. Let me create weekly reports in Slack and let me send you updates on your phone every day on here's where a P99 latency is and here's how much it's improved.
+
+This is fundamentally the type of systems that we encourage all of our engineers to be building at Cognition.
+
+We don't even we don't even want you to be prompting your agents most of the time. We want you to just be giving your agent goals that they can work toward over long durations of time.
+
+And anything in your company that you think isn't measurable, find a way to measure it.
+
+You know, do you care about your application performance? Go measure, you know, the latency of clicks on your application. If your application has a lot of weird layout shifts, go measure the bounding boxes and try to figure out how you can minimize layout shifts across your application. There's obviously P9 9 latency, but there's also things like, you know, onboarding retention.
+
+How much of what you guys do as engineers is things you can boil down to a single number or metric?
+
+And I encourage you that if you can do that, you should just set up an agent to go optimize that number 24/7.
 </details>
 
-因此我们有一个频道，Devin 每天都会在里面发布想法，比如：“嘿，如果我们更改 Node 的配置，CI 就可以节省大约一分钟时间；如果我们修改这个 lint 脚本，就能在这些 Bug 进入 AI 代码审查之前多捕获 20%。”这实际上带来了巨大的突破，你可以直接搭建好这些系统，Agent 就会去替你优化你的软件工厂。
+### 实战案例：GPU 推理优化与自主维护 Android 应用
+
+这里有一个极佳的例子：推理延迟优化。
+
+在 Cognition，我们很幸运能成为英伟达全新 Vera Rubin 架构 GPU 的首批接收者。
+
+但在我们收到这些 GPU 时，针对该硬件的算子内核（kernels）根本还没有构建好。因此，我们必须从零开始摸索，在这款即将面世的全新硬件之上构建出属于我们自己的推理技术栈。
+
+而 Agent 让我们能够以远高于以往的效率完成这件事。
+
+我们直接对它说：“嘿，我们很看重这些 GPU 的吞吐量，也就是每分钟处理的 token 数量（TPM）。去想办法把它的性能推向极限吧。”
+
+在大约一周的时间跨度里，Agent 独立展开了探索——我们为它分配了一组固定的 GPU 专供其运行。它自主探索了不同的优化策略并进行了实测；对于验证效果最好的那些策略，它会提交给人类工程师做最终审核。
+
+整体而言，仅仅通过向 Agent 提供这些高层目标，就大约摸索出了八到九项不同的优化措施。
+
+我们成功将这些新 Rubin GPU 的吞吐量，从最初逊于全新 GB300 的水平，一路提升到了显著优于上一代 GB300 GPU 的水准。
+
+同样，这一切的达成，仅仅源于为 Agent 设定了一个最终目标。
 
 <details>
 <summary>Original English</summary>
-And so we have a channel where Devon every day posts ideas about, hey, if we change our node setup, we can shave like a minute off of our CI. If we change this lint script, we can like catch 20% more of these bugs before they ever hit AI code review. Um and this is actually been a huge unlock and where you can just set up these systems and the agents will go and optimize your software factory for you.
+So a great example of this is inference latency.
+
+At Cognition, we're lucky to be the first receivers of Nvidia's new class of Vera Rubin GPUs.
+
+Kernels were not built for these GPUs when we received them. So we had to from scratch figure out how do we build our own inference stack on top of this this new hardware that's coming out.
+
+And agents have allowed us to do this in a way that is much more efficient than before.
+
+So, we just tell it, hey, we care about the throughput, our TPM of these GPUs. Go figure out how to push that to its limits.
+
+And over the course of what is about, I guess here like a week, um the agent was able to go We We allocated it a permanent set of GPUs to work on. It was able to go find different strategies, test them. Uh the strategies that it found worked best it was sent to a human engineer for final approval.
+
+But basically, there's eight or nine different things that were roughly discovered via just giving these agents these high-level goals.
+
+And we were able to push uh the throughput on these new Ruben GPUs from what was worse than the new GB 300s to what is now significantly better than the previous class of GB 300 GPUs.
+
+Um and again, this is all done by just giving a end goal to your agents.
 </details>
 
-这真的让人非常兴奋。我平时没怎么听大家谈论、但我认为确实是未来发展方向的事情之一，就是**从给 Agent 分配任务（tasks）的世界，走向给 Agent 分配工作（jobs）的世界**。这是一次范式转变。你真的必须开始把它们当作同事来看待。那么，给 Agent 分配一份工作具体是什么样子的？
+我还想和大家分享另一个例子。
+
+我们是一支规模相当精简的工程团队。
+
+这意味着我们通常没有足够的带宽去为所有想做的事情全额配备人力，比如开发一款 Android 应用程序。
+
+但前阵子，我们团队的一位工程师 Samuel 提出了一个绝妙的想法。他说：“我们已经有一组人员在打造一款优秀的 iOS 应用。难道我们不能直接把它作为 Android 应用的原型蓝图，然后告诉 Devin：‘嘿，去端到端保证 Android 应用与我们的 iOS 应用保持功能对齐’吗？”
+
+这正是他最终实施的方案。
+
+但这绝不是说开单次 Devin 会话去跑完所有流程就结束了。他交代的要求是：针对我们的代码库建立持久的监控机制来追踪 iOS 应用的变动；监听 Slack 频道中用户对我们产品的反馈；不断递归式地优化应用；对每个细节进行实时的 QA 测试，确保所有功能都能正常运转。这种实时同步的体验确实非常惊艳。
+
+我认为最终展现出来的成果相当震撼。
+
+我们实际上只给了 Agent 一段高层提示指令：“嘿，去负责管理整款 Android 应用。”
+
+在 44 天的时间里，我们就做出了一款功能完备的应用，很快就会正式对外发布。
+
+从延时记录来看，在大多数日子里，根本没有任何一条人类指令发送给负责该项目的 Agent。
+
+但在那些日子里，它每天合并的 PR 数量多达 40 到 50 个。
+
+所有改动都会对照 iOS 应用进行像素级的实时 QA 验证；而在一天结束时，它只会将最关键的决策上报给人类来裁决。
+
+大多数时候，我们的工程师甚至不需要打开 Devin，直接在 Slack 中查看它发回的操作录屏即可。
+
+因此最终人类几乎完全不需要在这个闭环里做太多事。在整个开发过程中，人类实际需要向 Agent 发送的指令只有寥寥几条。
+
+是的，而且这绝不是什么粗制滥造的残次品应用。这是我们很快就会正式上线的成熟产品。
 
 <details>
 <summary>Original English</summary>
-Um this has been really exciting. One of the things that I don't hear people talking about a lot, but I think it's really where things are going next is moving from the world where you're giving tasks to your agents to giving jobs to your agents. And this is a bit of a paradigm shift. You you really have to start treating these things like co-workers. So what is giving a job to an agent look like?
-</details>
+Another example that I like to uh share with folks.
 
-设想一下我很在乎后端性能。未来的开发流程实际上应该是这样的：你应该发消息给你的 Agent：“嘿，我想提升我们应用的 P99 延迟。”不用你去告诉它具体做些什么来达成这一点，它应该回复：“好的，P99 延迟，让我先添加遥测监控，搞清楚我们目前的 P99 延迟处于什么水平；让我设置告警，明确我们未来需要达到什么目标；让我去把能够优化该延迟所需的所有单项任务拆解出来；让我创建 Datadog 告警；让我在 Slack 中生成周报，并且每天在手机上向你同步最新进展——比如目前的 P99 延迟是多少、已经提升了多少。”
+We We are a fairly small engineering team.
 
-<details>
-<summary>Original English</summary>
-Imagine I care about back-end performance. Really this is what the development flow of the future should look like. You should send to your agent, hey, I want to improve P99 latency of my application. Instead of you telling it what to do to do that, it should say, okay, P99 latency, let me add the telemetry to figure out where our P99 latency is today. Let me set up alerts so I can figure out where we need to be in the future. Let me go break down every single task we need to do to be able to move this latency. Let me create DataDog alerts. Let me create weekly reports in Slack and let me send you updates on your phone every day on here's where a P99 latency is and here's how much it's improved.
-</details>
+It means we do not have often times the bandwidth to fully staff things that we might want to do like an Android application.
 
-这从根本上就是我们在 Cognition 鼓励所有工程师去构建的系统类型。在大部分时间里，我们甚至都不希望你去给 Agent 写 Prompt。我们希望你只是给 Agent 设定目标，让它们在很长的时间跨度内奔着目标去工作。
-
-<details>
-<summary>Original English</summary>
-This is fundamentally the type of systems that we encourage all of our engineers to be building at Cognition. We don't even we don't even want you to be prompting your agents most of the time. We want you to just be giving your agent goals that they can work toward over long durations of time.
-</details>
-
-而在你们公司里，任何你认为无法衡量的东西，都要想办法去衡量它。你关心你的应用性能吗？去测量你应用上的点击延迟；如果你的应用有很多奇怪的布局位移（layout shifts），去测量 bounding box，尝试找出如何尽量减少整个应用的布局位移。显然除了 P99 延迟，还有像新手引导留存率这样的指标。你们作为工程师所做的事情中，有多少是可以归纳为一个单一数字或指标的？我鼓励你们，如果能够做到这一点，你们就应该直接配置一个 Agent，去 7x24 小时不断优化那个数字。
-
-<details>
-<summary>Original English</summary>
-And anything in your company that you think isn't measurable, find a way to measure it. You know, do you care about your application performance? Go measure, you know, the latency of clicks on your application. If your application has a lot of weird layout shifts, go measure the bounding boxes and try to figure out how you can minimize layout shifts across your application. There's obviously P9 9 latency, but there's also things like, you know, onboarding retention. How much of what you guys do as engineers is things you can boil down to a single number or metric? And I encourage you that if you can do that, you should just set up an agent to go optimize that number 24/7.
-</details>
-
-### 实践案例：GPU 吞吐优化与全自主 Android 开发
-关于这一点，一个极佳的例子就是推理延迟。在 Cognition，我们很幸运地成为了英伟达新一代 Vera Rubin GPU 的首批接收者。我们拿到这批 GPU 时，内核还没为它们构建好，所以我们必须从零开始摸索如何在这些新推出的硬件之上构建我们自己的推理技术栈。而 Agent 让我们能够以比以往高效得多的方式完成这项工作。
-
-<details>
-<summary>Original English</summary>
-So a great example of this is inference latency. At Cognition, we're lucky to be the first receivers of Nvidia's new class of Vera Rubin GPUs. Kernels were not built for these GPUs when we received them. So we had to from scratch figure out how do we build our own inference stack on top of this this new hardware that's coming out. And agents have allowed us to do this in a way that is much more efficient than before.
-</details>
-
-所以，我们只是告诉它：“嘿，我们关心这些 GPU 的吞吐量，也就是我们的 TPM。去搞清楚如何把它推向极限。”在大概（我猜在这里）大约一周的时间里，Agent 能够——我们给它分配了一组固定的 GPU 供其使用——它能够去探索不同的策略并进行测试；对于它发现效果最好的策略，它会提交给人类工程师做最终审批。通过仅给这些 Agent 设定高层级目标，基本上大致发现了八到九种不同的方案。
-
-<details>
-<summary>Original English</summary>
-So, we just tell it, hey, we care about the throughput, our TPM of these GPUs. Go figure out how to push that to its limits. And over the course of what is about, I guess here like a week, um the agent was able to go We We allocated it a permanent set of GPUs to work on. It was able to go find different strategies, test them. Uh the strategies that it found worked best it was sent to a human engineer for final approval. But basically, there's eight or nine different things that were roughly discovered via just giving these agents these high-level goals.
-</details>
-
-我们成功地把这些新 Rubin GPU 上的吞吐量，从原先比新款 GB300 还要差的表现，推进到了如今显著优于前代 GB300 GPU 的水平。同样，这一切都仅仅是通过给你的 Agent 设定一个最终目标而达成的。
-
-<details>
-<summary>Original English</summary>
-And we were able to push uh the throughput on these new Ruben GPUs from what was worse than the new GB 300s to what is now significantly better than the previous class of GB 300 GPUs. Um and again, this is all done by just giving a end goal to your agents.
-</details>
-
-我想和大家分享的另一个例子是：我们是一支相当小规模的工程团队，这意味着我们往往没有足够的带宽为想要做的事情全面配备人员，比如开发一款 Android 应用程序。
-
-<details>
-<summary>Original English</summary>
-Another example that I like to uh share with folks. We We are a fairly small engineering team. It means we do not have often times the bandwidth to fully staff things that we might want to do like an Android application.
-</details>
-
-但前几天，我们团队中的一位工程师 Samuel 想出了一个绝妙的主意。他说：好吧，既然我们有一组人在负责开发出色的 iOS 应用，难道我们就不能直接拿它作为我们 Android 应用的蓝图，然后告诉 Devin：“嘿，去端到端保持 Android 应用与 iOS 应用的功能对齐”？
-
-<details>
-<summary>Original English</summary>
 But the other day, one of our engineers on our team, Samuel, he had this brilliant idea. Is He said, okay, look, we have a team of people working on building a great iOS application. Can't we just use that as a blueprint for our Android application and tell Devin, hey, go maintain parity with from our iOS application to our Android application end-to-end.
+
+And that is exactly what he did.
+
+But it wasn't just, hey, one Devin session to go do all this. He said, set up permanent hooks against our codebase to monitor the iOS application. Uh you know, go listen to the Slack channels for user feedback about our applications. And then go recursively improve our application. Go do live QA testing of every detail and making sure it all works. Um sinking these things live has been really cool.
+
+Uh and I think the the final results here are actually quite sick.
+
+So we really just gave our agent this one high-level prompt, which is, hey, go manage the entire Android application.
+
+Um and over the course of 44 days, uh we have a working application which we'll be putting out soon.
+
+But as a time lapse, most days there's not a single human message going to this agent working on it.
+
+And on those days, you know, it's merging upward of like 40 50 PRs a day.
+
+All of this is being live QA tested against the iOS application, pixel for pixel, uh testing whether, you know, escalating only the most important decisions to a human at the end of the day.
+
+And most of the time, our engineers don't even need to look open dev and they're just from Slack looking at the recordings that it sends back to them.
+
+So in the end, the human is barely doing anything in this loop. This is how many messages the human actually had to send to our agent in this entire process.
+
+Um yeah, and it's not a it's not a slop application. Uh this is actually something that we will be going live with very soon.
 </details>
 
-而这正是他所做的。但这并不只是说“让 Devin 跑一次会话去搞定这一切”。他说的是：针对我们的代码库设置永久性的钩子来监控 iOS 应用；去监听 Slack 频道里用户对我们应用的反馈；然后递归地改进我们的应用；去对每一个细节做实时的 QA 测试，确保一切正常运行。实时同步这些进展真的非常酷。
+太棒了。以上就是我想分享的全部内容。
+
+我认为这整套实践传递出的最终信息是：只要你为 Agent 搭建好正确的运行闭环，你就能够达成非常不可思议的成就。所以真正限制大多数团队的，往往只是他们的抱负心不够大。是时候拿出更大的野心了。谢谢大家。
 
 <details>
 <summary>Original English</summary>
-And that is exactly what he did. But it wasn't just, hey, one Devin session to go do all this. He said, set up permanent hooks against our codebase to monitor the iOS application. Uh you know, go listen to the Slack channels for user feedback about our applications. And then go recursively improve our application. Go do live QA testing of every detail and making sure it all works. Um sinking these things live has been really cool.
-</details>
+So cool. Uh that's actually all I had.
 
-我认为这里的最终成果实际上相当震撼。我们真的就只是给了 Agent 这样一条高层级的 Prompt：“嘿，去负责管理整套 Android 应用程序。”在 44 天的时间里，我们拥有了一个可运行的应用程序，很快就会发布。
-
-<details>
-<summary>Original English</summary>
-Uh and I think the the final results here are actually quite sick. So we really just gave our agent this one high-level prompt, which is, hey, go manage the entire Android application. Um and over the course of 44 days, uh we have a working application which we'll be putting out soon.
-</details>
-
-但从时间线上看，大多数时候甚至没有任何人类向负责这项工作的 Agent 发送任何消息。在那些日子里，它每天合并的 PR 高达 40 到 50 个。所有这些都对着 iOS 应用做逐像素的实时 QA 测试；在一天结束时，它只会把最重要的决定升级给人类。
-
-<details>
-<summary>Original English</summary>
-But as a time lapse, most days there's not a single human message going to this agent working on it. And on those days, you know, it's merging upward of like 40 50 PRs a day. All of this is being live QA tested against the iOS application, pixel for pixel, uh testing whether, you know, escalating only the most important decisions to a human at the end of the day.
-</details>
-
-而且大多数时候，我们的工程师甚至不需要打开 Devin，他们直接在 Slack 上查看它回传的录屏。所以在最后，人类在这个闭环中几乎没做什么事。这就是在整个过程中，人类实际需要发送给我们 Agent 的消息数量。是的，这并不是一个劣质的敷衍应用，这是我们很快就会真正上线发布的产品。
-
-<details>
-<summary>Original English</summary>
-And most of the time, our engineers don't even need to look open dev and they're just from Slack looking at the recordings that it sends back to them. So in the end, the human is barely doing anything in this loop. This is how many messages the human actually had to send to our agent in this entire process. Um yeah, and it's not a it's not a slop application. Uh this is actually something that we will be going live with very soon.
-</details>
-
-太棒了，这基本上就是我要分享的全部内容。我认为这一切所传达的最终信息是：如果你为你的 Agent 正确搭建了闭环，你就能做出一些相当不可思议的事情。所以，我认为大部分团队实际上是被自己的雄心壮志所限制了。现在正是大展宏图的时候了。谢谢大家。
-
-<details>
-<summary>Original English</summary>
-So cool. Uh that's actually all I had. Um I think the end message from all of this is if you set up the loops for your agents correctly, you can do some pretty incredible stuff. So I think really most teams are limited by the amount of ambition they have. So it's time to be ambitious. Thank you.
+Um I think the end message from all of this is if you set up the loops for your agents correctly, you can do some pretty incredible stuff. So I think really most teams are limited by the amount of ambition they have. So it's time to be ambitious. Thank you.
 </details>
