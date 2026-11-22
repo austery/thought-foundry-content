@@ -1,0 +1,620 @@
+[Speaker 0]: 美股波说，
+[Speaker 0]: 华尔街专利。
+[Speaker 0]: 大家好，
+[Speaker 0]: 我是美小军，
+[Speaker 0]: 你们的美股探路者。
+[Speaker 0]: 哎，
+[Speaker 0]: 最担心的还是来了。
+[Speaker 0]: 本周美股开启了自由落体模式，
+[Speaker 0]: 标普纳指均进入回调区间，
+[Speaker 0]: 标普下跌百分之十一点六，
+[Speaker 0]: 钠指更是跌了近百分之二十，
+[Speaker 0]: 马上将进入熊市，
+[Speaker 0]: 基本抹掉了今年以来全部的涨幅。
+[Speaker 0]: 要说最惨的还得是半导体，
+[Speaker 0]: 简直是血流成河。
+[Speaker 0]: 老大英伟达在黄仁勋离开后是一泻千里，
+[Speaker 0]: 本周再度大跌百分之二十三，
+[Speaker 0]: 创下零八年以来最差的单周表现。
+[Speaker 0]: 你从高点算已经近乎腰斩，
+[Speaker 0]: 而美光、
+[Speaker 0]:  AMD、
+[Speaker 0]:  marvel、
+[Speaker 0]: 台积电等热门股票更是全部跌超百分之二十。
+[Speaker 1]: 嗯，
+[Speaker 0]: 另一边，
+[Speaker 0]:  AI 相关的大科技们也没能幸免。
+[Speaker 0]: 谷歌、
+[Speaker 0]: 微软、
+[Speaker 0]: 亚马逊据高点也都跌超了百分之十，
+[Speaker 0]: 就连万众期待的 s ropic 也没能撑住上市，
+[Speaker 0]: 第二天差点就跌破了发行价。
+[Speaker 0]: 那么美股到底是怎么了呢？
+[Speaker 0]: 难道说 AI 泡沫真的是破了？
+[Speaker 0]: 我们投资者接下来又该如何应对呢？
+[Speaker 0]: 今天这期视频，
+[Speaker 0]: 美特君就来跟各位看官好好聊聊当前的美股市场。
+[Speaker 0]: 相信看完本期视频，
+[Speaker 0]: 一定能够让你的投资更加安心。
+[Speaker 0]: 你知道还有什么能让你的投资更加安心吗？
+[Speaker 0]: 掌握一项务实的投资技术，
+[Speaker 0]: 学习期权就是这么个不错的开始，
+[Speaker 0]: 不管是对冲保护还是安全的抄底期权，
+[Speaker 0]: 都能为你多提供一份安心。
+[Speaker 0]: 这不黑五马上就要到了吗？
+[Speaker 0]: 除了美股股票现在在打折以外，
+[Speaker 0]: 我们每投期权课也迎来了一年一度的最大力度的折扣。
+[Speaker 0]: 美投期权课推出五年以来好评如潮，
+[Speaker 0]: 课程一直不断更新，
+[Speaker 0]: 不断完善，
+[Speaker 0]: 现在已经帮助数千名学员安心积累起了超额收益。
+[Speaker 0]: 每头期权课不是那种买了就吃灰的网课。
+[Speaker 0]: 而是将学习与实践相结合的一套体系，
+[Speaker 0]: 内容上，
+[Speaker 0]: 针对不同基础的投资者设计了不同等级的课程。
+[Speaker 0]: 而服务上我们每投强大的分析师团队，
+[Speaker 0]: 会全程陪伴你的学习，
+[Speaker 0]: 为你答疑解惑，
+[Speaker 0]: 还会实时分享真实的期权交易，
+[Speaker 0]: 让期权不再是纸上谈兵。
+[Speaker 0]: 现在购买还附赠九十天的美淘 pro plus 服务，
+[Speaker 0]: 每头期权课，
+[Speaker 0]: 我平时基本都不宣传，
+[Speaker 0]: 单纯靠口碑推荐，
+[Speaker 0]: 现在已经是市面上销量最好、
+[Speaker 0]: 口碑最佳的期权课程了。
+[Speaker 0]: 如果你也想通过期权让自己的投资更加安心，
+[Speaker 0]: 那么千万别错过这个一年一次的好机会。
+[Speaker 0]: 感兴趣的看官，
+[Speaker 0]: 欢迎点击下方置顶评论中的链接查看详情，
+[Speaker 0]: 谢谢各位。
+[Speaker 0]: 下图是今年以来标普和纳指的走势，
+[Speaker 0]: 可以看到，
+[Speaker 0]: 十月六日两大指数还双双创下了历史新高，
+[Speaker 0]: 可仅仅一个月的时间，
+[Speaker 0]: 纳指就跌掉了将近两成。
+[Speaker 0]: 那这一个月到底都发生了什么呢？
+[Speaker 0]: 我们按时间线好好捋一下，
+[Speaker 0]: 最先出问题的是 open AI。
+[Speaker 0]: 十月八日，
+[Speaker 0]: 有报道称，
+[Speaker 0]:  open AI 的 ARR 年化收入大约是五百亿美元，
+[Speaker 0]: 比此前市场上流传的七百亿足足少了两百亿。
+[Speaker 0]: 消息一出，
+[Speaker 0]: 英伟达甲骨文 core wab 应声下跌。
+[Speaker 0]: 几天之后，
+[Speaker 0]: 十月十四日，
+[Speaker 0]:  ASTRRIC 又泄露了一份数据，
+[Speaker 0]: 三季度他们的收入一百六十八亿美元，
+[Speaker 0]: 环比增速从二季度的百分之一百四十七直接掉到了百分之四十五。
+[Speaker 0]: 要知道，
+[Speaker 0]:  open AI 和 anthorpic 是当今 AI 产业最顶级的两家模型，
+[Speaker 0]: 公司，
+[Speaker 0]: 一家收入低于预期，
+[Speaker 0]: 另一家增速大幅放缓，
+[Speaker 0]: 市场自然就开始担心 AI 的需求是不是要见顶了呢？
+[Speaker 0]:  AI 需求被质疑，
+[Speaker 0]: 随之而来的就是大厂资本性开支预期的下调。
+[Speaker 0]: 美银在十一月十二日公布了这么一份调查，
+[Speaker 0]: 百分之五十二的基金经理预计未来六个月内至少会有一家大云厂商削减他们的资本开支。
+[Speaker 0]: 而彭博则预期大厂资本开支的增速会从二六年的百分之一百放缓到二七年的不到百分之六十，
+[Speaker 0]: 到了二八年，
+[Speaker 0]: 将没有一家的增速超过百分之二十，
+[Speaker 0]: 而甲骨文甚至将是负增长。
+[Speaker 0]: 要知道，
+[Speaker 0]: 资本性开支是半导体行业的生命线，
+[Speaker 0]: 他一放缓，
+[Speaker 0]: 整个半导体的支撑就垮了。
+[Speaker 0]: 屋漏偏逢连夜雨，
+[Speaker 0]: 十一月中旬，
+[Speaker 0]: 黄仁勋离开了英伟达黄仁勋的事，
+[Speaker 0]: 我上周专门做了一期视频，
+[Speaker 0]: 这里就不再展开了。
+[Speaker 0]: 咱这只说一点，
+[Speaker 0]: 黄仁勋的离开损失的可不仅仅是英伟达，
+[Speaker 0]: 还有整个 AI 产业。
+[Speaker 0]: 英伟达过去可不光是卖芯片，
+[Speaker 0]: 他还拉着五大投行给 AI 产业搞融资，
+[Speaker 0]: 甚至还自己兜底 AI 实验室和小云。
+[Speaker 0]: 所以之前就有人戏称英伟的阿伟 AI 央行，
+[Speaker 0]: 现在黄仁军一走，
+[Speaker 0]: 相当于整个行业的信用担保人退出了 AI，
+[Speaker 0]: 产业的流动性也就跟着缩水。
+[Speaker 0]: 而到了本周，
+[Speaker 0]: 问题又来了，
+[Speaker 0]: 美联储突然放鹰直接烧开了市场。
+[Speaker 0]: 十月十八日公布的十月会议纪要显示，
+[Speaker 0]: 几乎所有与会者都认为进一步加息是合适的。
+[Speaker 0]: 同一天，
+[Speaker 0]: 美联储理事沃勒在采访中呼吁十二月直接加息五十个绩点。
+[Speaker 0]: 沃勒的原话是，
+[Speaker 0]: 现在呀就得 shock 一下市场了。
+[Speaker 0]: 到了周五，
+[Speaker 0]: 又有两位官员接连放映，
+[Speaker 0]: 市场则变得岌岌可危。
+[Speaker 0]: 其实美联储的鹰派啊早有苗头。
+[Speaker 0]: 八月底的 jackson 后会议是关键节点，
+[Speaker 0]: 新任美联储主席沃什的讲话前所未有的强硬，
+[Speaker 0]: 当时就给市场下了个猎情。
+[Speaker 0]: 九月十六日，
+[Speaker 0]: 美联年储就真的加息了二十五个基点，
+[Speaker 0]: 这是三年以来的第一次加息。
+[Speaker 0]: 但当时除了债市反应较大以外，
+[Speaker 0]: 股市似乎没把它当回事。
+[Speaker 0]: 加息之后，
+[Speaker 0]: 一直到十月份，
+[Speaker 0]: 标普和纳什反而还涨了百分之五左右，
+[Speaker 0]: 这是为什么呢？
+[Speaker 0]: 因为啊那个时候 AI 的需求还很强，
+[Speaker 0]: 而现在 AI 接连出问题，
+[Speaker 0]: 美联储却一点松口的意思都没有，
+[Speaker 0]: 加息的压力，
+[Speaker 0]: 才真正砸到了股市头上。
+[Speaker 0]: 而这可并非是巧合，
+[Speaker 0]: 我们后面还会再分析到了这周五最后一击重拳来了。
+[Speaker 0]: 本周五，
+[Speaker 0]: 商务部出了新规，
+[Speaker 0]: 堵住了中国企业远程使用美国先进芯片的所有路子。
+[Speaker 0]: 中国这个市场基本上会被锁的更死。
+[Speaker 0]: 而更要命的是，
+[Speaker 0]: 过去这两天华盛顿开始翻旧账了，
+[Speaker 0]: 矛头直指英伟达和 AMD 查。
+[Speaker 0]: 他们的文件也查他们的财务整个半导体产业人人自危。
+[Speaker 0]: 这也是为什么最近半导体是所有板块中跌的最惨的原因。
+[Speaker 0]: 所以你看，
+[Speaker 0]:  OA 的收入不及预期，
+[Speaker 0]: 大厂的资本性开支又被下调。
+[Speaker 0]: 华盛群的离开，
+[Speaker 0]: 美联储又突然放鹰以及最终的中国芯片的制裁几件事凑到了一起，
+[Speaker 0]: 就有了今天的局面。
+[Speaker 0]: 当然如果你平时很关注市场，
+[Speaker 0]: 就会发现问题啊，
+[Speaker 0]: 远不止这五个。
+[Speaker 0]: 还有很多鬼故事，
+[Speaker 0]: 有 AI 应用的。
+[Speaker 0]: 有监管的，
+[Speaker 0]: 有中美的，
+[Speaker 0]: 还有很多经济衰退的。
+[Speaker 0]: 但我们作为投资者，
+[Speaker 0]: 可不能活着，
+[Speaker 0]: 眉毛一把抓。
+[Speaker 0]: 在现在这个时间节点，
+[Speaker 0]: 最忌讳的就是挨个去分析这些市场风险，
+[Speaker 0]: 更不能盲目的去笃信什么反转指标。
+[Speaker 0]: 市场越是恐慌，
+[Speaker 0]: 我们越需要看懂这混乱市场背后最核心的逻辑。
+[Speaker 0]: 而在我看来，
+[Speaker 0]: 当前市场你就只需要搞明白两个最为关键的变量就足够了。
+[Speaker 0]: 一个是美联储的利率政策，
+[Speaker 0]: 另一个则是 AI 需求端的变化。
+[Speaker 0]: 只要你清楚他们接下来的发展，
+[Speaker 0]: 那所有的问题就都迎刃而解了。
+[Speaker 0]: 那接下来咱们就挨个来说，
+[Speaker 0]: 在分析美联储之前啊，
+[Speaker 0]: 我想先给各位讲个小故事。
+[Speaker 0]: 前段时间我不是休假回国了吗？
+[Speaker 0]: 这次回中国跑了得，
+[Speaker 0]: 有六七个城市聊了不少朋友，
+[Speaker 0]: 有做 VC 的，
+[Speaker 0]: 有做投行的，
+[Speaker 0]: 还有很多 AI 产业。
+[Speaker 0]: 如果说你完全不了解中国，
+[Speaker 0]: 光听他们讲的这些故事，
+[Speaker 0]: 你肯定会觉得妈呀。
+[Speaker 0]: 现在中国简直是欣欣向荣，
+[Speaker 0]: 资本异常活跃，
+[Speaker 0]: 科技创新是日新月异，
+[Speaker 0]: 政府也很敢花钱。
+[Speaker 0]: 但往深聊一层，
+[Speaker 0]: 你就会发现，
+[Speaker 0]: 情况完全不是这样。
+[Speaker 0]:  AI 相关的产业和创投确实很活跃，
+[Speaker 0]: 政府也确实很支持，
+[Speaker 0]: 但是真正受益的人却非常的少，
+[Speaker 0]: 而且根本外溢不出去。
+[Speaker 0]: 在此之外的整个经济仍然承受着非常大的压力，
+[Speaker 0]: 大部分普通人的生活也都能切实的感受到这份压力。
+[Speaker 0]: 中国的情况比较极端，
+[Speaker 0]: 所以看的比较明显。
+[Speaker 0]: 但你反过来想想，
+[Speaker 0]: 其实啊美国也是一样的，
+[Speaker 0]: 物价在涨几率还高，
+[Speaker 0]: 普通人的生活压力其实也不小。
+[Speaker 0]: 真正受益的就只有 AI 相关的那些企业和从业人员。
+[Speaker 0]: 你以为美国这样的人很多吗？
+[Speaker 0]: 其实啊也没多少 AI 的繁荣，
+[Speaker 0]: 给实体经济带来的反哺其实也是非常有限的。
+[Speaker 0]: 根据穆迪的统计，
+[Speaker 0]: 疫情以来，
+[Speaker 0]: 美国收入前十的家庭贡献了全美超过一半的消费，
+[Speaker 0]: 而收入后百分之八十的家庭呢消费年均啊就只增长了百分之四点五，
+[Speaker 0]: 仅仅比同期百分之三点九的通胀要高出一点。
+[Speaker 0]: 所以你看大部分普通人的生活同样承受着不小的压力。
+[Speaker 0]: 那问题来了，
+[Speaker 0]: 同样是只有少数人受益，
+[Speaker 0]: 为什么美国经济尤其是美国的消费，
+[Speaker 0]: 却没有像中国那样展现出明显的疲软呢？
+[Speaker 0]: 我认为核心就在于股市，
+[Speaker 0]: 美国的 k 型经济上面这条腿是被资本撑着的。
+[Speaker 0]: 和中国最大的不同是，
+[Speaker 0]: 美国的资产价格是上涨的。
+[Speaker 0]: 过去几年，
+[Speaker 0]: 股市的上涨带来了不俗的财富效应，
+[Speaker 0]: 所以富人们还在消费，
+[Speaker 0]: 还在购置资产，
+[Speaker 0]: 而这很大程度上支撑起了美国的经济。
+[Speaker 0]: 就像咱前面说的，
+[Speaker 0]: 美国收入前百分之十的家庭贡献了全美超过一半的消费。
+[Speaker 0]: 而且啊从实际情况中，
+[Speaker 0]: 你也能够证实股市的涨跌对实体经济的影响。
+[Speaker 0]: 就像去年四月解放日，
+[Speaker 0]: 关税那波标普三四月份总共跌了将近百分之二十。
+[Speaker 0]: 紧接着，
+[Speaker 0]: 零售销售四月环比就只增长了百分之零点一，
+[Speaker 0]: 而五月环比更是直接下降了百分之一点四。
+[Speaker 0]: 随后随着股市的回暖，
+[Speaker 0]: 零售销售也就很快恢复了。
+[Speaker 0]: 所以你看，
+[Speaker 0]: 就当前的美国经济而言，
+[Speaker 0]: 美股的表现依然成为了一条非常关键的生命线，
+[Speaker 0]: 甚至可以说是最为重要的支撑之一。
+[Speaker 0]: 现在我们再回到美联储的决策上，
+[Speaker 0]: 当前所有人的关注点毫无疑问都在通胀上。
+[Speaker 0]: 但我想告诉各位的是，
+[Speaker 0]: 现在的重点已经不在通胀这儿了，
+[Speaker 0]: 而是在美国经济，
+[Speaker 0]: 美联储的利率决策就考虑两个点，
+[Speaker 0]: 一个是通胀，
+[Speaker 0]: 一个就是经济。
+[Speaker 0]: 之前美联储加息压通胀没啥问题，
+[Speaker 0]: 那是因为经济坚挺。
+[Speaker 0]: 而我们刚刚分析了美国经济之所以坚挺，
+[Speaker 0]: 核心就在于财富效应这根柱子撑着，
+[Speaker 0]: 也就是股市在撑着。
+[Speaker 0]: 可现在股市已经展现出了风险，
+[Speaker 0]: 也遭遇了很大幅度的下跌。
+[Speaker 0]: 如果股市接下来真的崩了，
+[Speaker 0]: 几乎可以肯定美国 k 星经济上面这条腿，
+[Speaker 0]: 那肯定是撑不住了。
+[Speaker 0]: 而且啊很显然，
+[Speaker 0]: 美联储自己就是明确知道这个风险的。
+[Speaker 0]: 就在十月十六日，
+[Speaker 0]: 沃什在旧金山联储的一场会议上介绍了美联储内部的三种情境推演。
+[Speaker 0]: 其中有两种都是往好的方向推演的。
+[Speaker 0]: 唯一一个会变糟的情况就是 AI 不及预期，
+[Speaker 0]: 股市下跌导致经济放缓，
+[Speaker 0]: 失业率明显上升。
+[Speaker 0]: 你琢磨呀，
+[Speaker 0]: 他为什么不说通胀太高导致经济放缓？
+[Speaker 0]: 为什么不说消费变弱导致经济放缓，
+[Speaker 0]: 而是说股市下跌导致经济放缓呢？
+[Speaker 0]: 说明啊他很清楚，
+[Speaker 0]: 现在股市就是支撑美国经济最为关键的那个变量。
+[Speaker 0]: 当然了，
+[Speaker 0]: 支撑股市最关键的变量是 AI，
+[Speaker 0]: 这个咱们一会儿再分析。
+[Speaker 0]: 所以你看，
+[Speaker 0]: 在当前这个股市风险已经暴露，
+[Speaker 0]: 股价已经开始下跌的背景下，
+[Speaker 0]: 美联储就必须要开始琢磨出手解决问题了。
+[Speaker 0]: 而这就会带来一个非常重要的全新的美股交易逻辑。
+[Speaker 0]: 什么呢？
+[Speaker 0]: 就是 fat put 美股现在绝对不能崩，
+[Speaker 0]: 一旦崩了，
+[Speaker 0]: 就会直接导致美国经济的衰退。
+[Speaker 0]: 我要是美联储，
+[Speaker 0]: 这点我肯定看的比谁都清楚。
+[Speaker 0]: 所以美股表现不佳，
+[Speaker 0]: 我认为美联储不会坐视不管，
+[Speaker 0]: 他们非常可能会通过利率政策的转割来，
+[Speaker 0]: 提升股市的表现，
+[Speaker 0]: 而且不会等太久。
+[Speaker 0]: 那可能有人会说了，
+[Speaker 0]: 那通胀咱就不管了吗？
+[Speaker 0]: 确实，
+[Speaker 0]: 通胀现在还很高，
+[Speaker 0]: 但你得知道现在这种情况。
+[Speaker 0]: 一旦股市下跌，
+[Speaker 0]: 消费自然会萎缩，
+[Speaker 0]: 通胀也自然会承压。
+[Speaker 0]: 不用美联储加息，
+[Speaker 0]: 整个金融体系自己就开始紧缩了。
+[Speaker 0]: 更何况，
+[Speaker 0]: 现在油价已经开始帮忙了。
+[Speaker 0]: 布伦特原油从十月底的一百一十七美元左右，
+[Speaker 0]: 一路跌到了现在的九十美元左右，
+[Speaker 0]: 跌了有两成多。
+[Speaker 0]: 那么加息控制通胀的紧迫性现在已经大幅下降了。
+[Speaker 0]: 还是那句话，
+[Speaker 0]: 现在最关键的变量没别的，
+[Speaker 0]: 就是股市。
+[Speaker 0]: 那这对于咱投资者而言，
+[Speaker 0]: 就是一件可以预期的积极事件了。
+[Speaker 0]: 有 fat put 在下跌，
+[Speaker 0]: 就是相对短期的，
+[Speaker 0]: 而且是有支撑的，
+[Speaker 0]: 跌的越深，
+[Speaker 0]: 美联储出手的概率就越高美股就越有反转的可能。
+[Speaker 0]: 其实啊这就和一八年末的情况非常类似，
+[Speaker 0]: 当时是贸易战，
+[Speaker 0]: 加上美联储加息导致美股的下跌，
+[Speaker 0]: 当时鲍威尔上任第一年就加了四次息，
+[Speaker 0]: 甚至到了十二月份，
+[Speaker 0]: 美股已经因为贸易战开始下跌了，
+[Speaker 0]: 美联储仍然在选择加息，
+[Speaker 0]: 结果。
+[Speaker 0]: 标普和纳指从九月份的高点到十二月底，
+[Speaker 0]: 三个月的时间就急跌了百分之二十还多，
+[Speaker 0]: 然后熟悉的配方就来了，
+[Speaker 0]: 股市一跌，
+[Speaker 0]: 经济果然就撑不住了。
+[Speaker 0]: 一八年十二月的零售销售环比直接下降了百分之一点九。
+[Speaker 0]: 这时鲍威尔就坐不住了。
+[Speaker 0]: 转过年来，
+[Speaker 0]: 美联储直接转割，
+[Speaker 0]: 股市也应声上涨四个月的时间。
+[Speaker 0]: 股市就恢复到了高点，
+[Speaker 0]: 整个一九年全年标普甚至上涨了百分之二十八点九，
+[Speaker 0]: 那指更是大涨了百分之三十五点二，
+[Speaker 0]: 走出了一个经典的 v 字反转。
+[Speaker 0]: 而现在很显然，
+[Speaker 0]: 美国经济对于美股的依赖要远比当年还要更强。
+[Speaker 0]: 根据摩根大通研究院做过的一个统计，
+[Speaker 0]: 在收入前百分之十的人群里，
+[Speaker 0]: 从投资账户里净提款的比例一五年只有百分之六点六。
+[Speaker 0]: 到了二六年，
+[Speaker 0]: 已经提升到了百分之二十点三。
+[Speaker 0]: 而对于高收人群来说，
+[Speaker 0]: 现在每个月有超过百分之十的消费，
+[Speaker 0]: 靠的就是投资账户里面取出的钱。
+[Speaker 0]: 而一五年的时候，
+[Speaker 0]: 这个比例还不到百分之四。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 现在美国经济对于美股的依赖比任何时间都要强，
+[Speaker 0]: 那这就意味着现在的 factpoint 也只会比一八年时强度更高。
+[Speaker 0]: 那接下来十二月八日到九日，
+[Speaker 0]: 就是下一次美联储的议席会议了。
+[Speaker 0]: 我认为这将会是一个关键转折点。
+[Speaker 0]: 我个人的判断是，
+[Speaker 0]: 美联储最多，
+[Speaker 0]: 也就是在十二月份再来一次 shock。
+[Speaker 0]: 不管是二十五个基点还是五十个基点之后，
+[Speaker 0]: 大概率就会转向。
+[Speaker 0]: 而这个 fat put，
+[Speaker 0]: 就会是咱们短期内最值得期待的催化剂来支撑股市的上涨。
+[Speaker 0]: 我相信它会发生，
+[Speaker 0]: 不是因为我相信沃是这个人，
+[Speaker 0]: 而是因为对美联储决策逻辑的推演。
+[Speaker 0]: 所以在现在这个节点上，
+[Speaker 0]: 看我认为这次下跌就是相对短期的，
+[Speaker 0]: 也是很快会有支撑的。
+[Speaker 0]: 其实说到底，
+[Speaker 0]: 美联储能够解决的就只是短期情绪和估值的问题。
+[Speaker 0]: 真正核心的问题，
+[Speaker 0]: 美联储解决不了什么呢？
+[Speaker 0]: 就是 AI 最核心的需求到底够不够？
+[Speaker 0]: 如果 AI 不行，
+[Speaker 0]: 美联储就是降息，
+[Speaker 0]: 股市啊也会失去它最核心的动能，
+[Speaker 0]: 即便就是反弹了也无法持续上涨。
+[Speaker 0]: 所以说，
+[Speaker 0]:  DI 需求才是长期投资者最需要关注的问题。
+[Speaker 0]: 在我看来，
+[Speaker 0]: 现在的 AI 投资逻辑就和二五年十月份非常类似，
+[Speaker 0]: 都是对于资本性开支的担忧，
+[Speaker 0]: 也都是对于 AI 需求能否持续增加的一个担忧。
+[Speaker 0]: 当时主要受影响的是三大云，
+[Speaker 0]: 那么说那次的问题最终是怎么解决的呢？
+[Speaker 0]: 靠的是 agentic AI 的爆发，
+[Speaker 0]: 转年三月份 agent 一落地，
+[Speaker 0]:  AI 的需求大幅提升，
+[Speaker 0]: 半导体便随之大涨了。
+[Speaker 0]: 费城半导体指数在今年二季度单季就上涨了百分之八十七点八，
+[Speaker 0]: 创下了一九九四年有记录以来最大的单机涨幅。
+[Speaker 0]: 整个市场后来也都跟着上涨了起来。
+[Speaker 0]: 那么说这次呢，
+[Speaker 0]: 我认为解法也是一样的，
+[Speaker 0]: 必须要有下一个应用端的质变，
+[Speaker 0]: 才能够化解当前资本市场对于 AI 的担忧。
+[Speaker 0]: 但实话讲，
+[Speaker 0]: 下一个应用会是什么？
+[Speaker 0]: 什么时候落地这个呀，
+[Speaker 0]: 我也判断不了，
+[Speaker 0]: 就像去年十月没人知道，
+[Speaker 0]: 转年三月份 agent 会落地一样。
+[Speaker 0]: 现在 open i 和 anthroppic 都在从 coding、
+[Speaker 0]:  health、
+[Speaker 0]:  science 以及更更多知识工作者的场景里去探索。
+[Speaker 0]: 方向是有了，
+[Speaker 0]: 但效果很明显还不够，
+[Speaker 0]: 不然这两家的收入也不至于不及预期。
+[Speaker 0]: 但我知道的是，
+[Speaker 0]: 下一个应用一定会很快落地。
+[Speaker 0]: 现在的 b 端 agent 绝对不会是终极形态，
+[Speaker 0]: 变量，
+[Speaker 0]: 无非就是落地的时间是三个月、
+[Speaker 0]: 半年还是一年而已。
+[Speaker 0]: 不过这次和去年十月有一点不同的是，
+[Speaker 0]: 现在企业的现金流要差很多。
+[Speaker 0]: 谷歌、
+[Speaker 0]: 亚马逊、
+[Speaker 0]:  matt、
+[Speaker 0]: 微软、
+[Speaker 0]: 甲骨文这五大厂，
+[Speaker 0]: 过去这四个季度合计的自由现金流就只有三百二十七亿美元，
+[Speaker 0]: 而一年前是多少呢？
+[Speaker 0]: 两千零一十一亿足足少了百分之八十四。
+[Speaker 0]: 到了三季度，
+[Speaker 0]: 亚马逊、
+[Speaker 0]: 谷歌、
+[Speaker 0]:  meta 的自由现金流更是直接转负了，
+[Speaker 0]: 只有微软还勉强维持现在这五家的资本性开支，
+[Speaker 0]: 已经占到了经营现金流的百分分九十五点五，
+[Speaker 0]: 也就是说赚来的钱基本全都投进去了。
+[Speaker 0]: 那钱不够怎么办呢？
+[Speaker 0]: 就只能借今年前十个月，
+[Speaker 0]: 五大厂商的发债规模已经达到了史无前例的一千八百二十亿美元，
+[Speaker 0]: 几乎是去年全年的两倍了。
+[Speaker 0]: 再加上黄仁勋的离开，
+[Speaker 0]: 又让整个 AI 产业的流动性进一步的下降。
+[Speaker 0]: 所以说如果我是企业的管理层，
+[Speaker 0]: 去年我或许还愿意冒险，
+[Speaker 0]: 无所谓这个等待的时间。
+[Speaker 0]: 但今年恐怕我就要更加谨慎的去做我企业的投资决定了。
+[Speaker 0]: 这也是为什么我们会看到资本性开支的预期被普遍下调的原因。
+[Speaker 0]: 不过我也必须得说，
+[Speaker 0]: 市场就只看到谨慎的理由了，
+[Speaker 0]: 但却没有看到他们冒险的底气。
+[Speaker 0]: 我认为这后者才是更为重要的。
+[Speaker 0]: 谨慎归谨慎，
+[Speaker 0]: 投资啊，
+[Speaker 0]: 肯定还是要投资的。
+[Speaker 0]: 管理层的谨慎也并不意味着 AI 就有泡沫，
+[Speaker 0]:  AI 的需求是实打实的，
+[Speaker 0]: 但可能会有波折，
+[Speaker 0]: 但绝对不会真的不增长。
+[Speaker 0]: 我个人对于这点是深信不疑的。
+[Speaker 0]: 你从最新的财报中，
+[Speaker 0]: 各大云厂商的表态中也能够看出来，
+[Speaker 0]: 尽管现金流吃紧，
+[Speaker 0]: 企业们还是在继续投资。
+[Speaker 0]: 他们有因为 OA 两家的收入放缓，
+[Speaker 0]: 就哪怕有一丁点的收手吗？
+[Speaker 0]: 并没有。
+[Speaker 0]: 这便是 AI 产业参与者对于 AI 需求的底气，
+[Speaker 0]: 往后看我认为也是如此。
+[Speaker 0]: 投资谨慎也好，
+[Speaker 0]:  OA 的收入放缓也罢，
+[Speaker 0]: 这些啊可能都会发生，
+[Speaker 0]: 不过也都不过是短期的困扰。
+[Speaker 0]: 下一个应用落地，
+[Speaker 0]: 我认为，
+[Speaker 0]: 虽然我无法预测，
+[Speaker 0]: 但它注定会发生，
+[Speaker 0]: 而且并不需要我们等太久，
+[Speaker 0]:  AI 需求的增长一定会是大势所趋。
+[Speaker 0]: 那么我认为 AI 充其量就只会是被短期高估，
+[Speaker 0]: 并不会出现泡沫。
+[Speaker 0]: 那这对咱投资有什么影响呢？
+[Speaker 0]: 我认为半导体公司在这个等待的时刻会非常难受，
+[Speaker 0]: 而应用端的企业相对来说是进可攻退可守的选择。
+[Speaker 0]: 具体原因咱先按下不表，
+[Speaker 0]: 后面我们聊操作的时候再详细解释。
+[Speaker 1]: 嗯，
+[Speaker 0]: 鉴于在上面的所有分析，
+[Speaker 0]: 我认为当前这轮下跌大概率是相对短期的，
+[Speaker 0]: 幅度也是相对可控的，
+[Speaker 0]: 会随着美联储的转向而反转，
+[Speaker 0]: 但问题能否彻底解决，
+[Speaker 0]: 还需要等待下一个 AI 应用的落地来提振。
+[Speaker 0]: 也就是说，
+[Speaker 0]: 美联储只要一转向美股就能够反弹，
+[Speaker 0]: 而 AI 需求的重新加速，
+[Speaker 0]: 美股才能持续的上涨。
+[Speaker 0]: 当然了，
+[Speaker 0]: 我也很可能会犯错。
+[Speaker 0]: 如果犯错最大的可能就是错在对美联储的误判上。
+[Speaker 0]: 十二月八日到九日的议息会议就是第一个验证节点。
+[Speaker 0]: 而至于 AI 产业，
+[Speaker 0]: 我并不担心 AI 最多只是发展暂时不及预期，
+[Speaker 0]: 不会真的出现超过一年以上的长期疲软。
+[Speaker 0]: 所以整体来看，
+[Speaker 0]: 我对于当前美股这轮风险并不会过于担心，
+[Speaker 0]: 目前美股的风险其实是相对可控的。
+[Speaker 0]: 只要仓位合理，
+[Speaker 0]: 不暴露过多的杠杆，
+[Speaker 0]: 那短期的波动我个人是愿意扛过去的。
+[Speaker 0]: 那么说这时是否应该抄底去把握机会呢？
+[Speaker 0]: 这个问题我想因人而异，
+[Speaker 0]: 我们必须要把风险和机会都讲清楚。
+[Speaker 0]: 首先说风险，
+[Speaker 0]: 现在这一刻，
+[Speaker 0]: 期待 AI 应用能够带来质变是不切实际的，
+[Speaker 0]: 更可能先到来的。
+[Speaker 0]: 我认为是美联储的转向，
+[Speaker 0]: 而 fat put 它有一个特点，
+[Speaker 0]: 它管的是市场，
+[Speaker 0]: 最终跌多深。
+[Speaker 0]: 而不是过程中有多动荡。
+[Speaker 0]: 所以你千万别以为纳只已经从高点回撤了百分之十八了，
+[Speaker 0]: 就觉得已经见底了。
+[Speaker 0]: 或者说半导体和存储都已经腰斩了，
+[Speaker 0]: 就觉得非常便宜了。
+[Speaker 0]: 你不要猜美联储心里的这个底，
+[Speaker 0]: 你猜也猜不到历史上比当前跌的更猛的回调。
+[Speaker 0]: 美联储在出手的情况也比比皆是。
+[Speaker 0]: 我认为，
+[Speaker 0]: 现在这一刻，
+[Speaker 0]: 把握机会的前提是你自己的仓位风险是可控的。
+[Speaker 0]: 即便就是说超载了半山腰，
+[Speaker 0]: 你也不会承受不可控的亏损。
+[Speaker 0]: 我个人的情况就是如此，
+[Speaker 0]: 主要是因为啊前段时间黄仁军的离开，
+[Speaker 0]: 让我卖掉了太多英伟达的股票，
+[Speaker 0]: 现在整体仓位并不算太重，
+[Speaker 0]: 所以我个人是愿意在此刻加仓的。
+[Speaker 0]: 在机会的选择上，
+[Speaker 0]: 我暂时不会加仓半导体，
+[Speaker 0]: 即便很多公司已经开始变得很便宜了。
+[Speaker 0]: 我倒不是说担心中国的芯片禁令，
+[Speaker 0]: 这种 policy shock，
+[Speaker 0]: 每隔一段时间就会有一次，
+[Speaker 0]: 对于股价而言，
+[Speaker 0]: 往往也就是一次性的冲击。
+[Speaker 0]: 因为从逻辑上讲，
+[Speaker 0]: 企业很快都会做出应对，
+[Speaker 0]: 而政策也不会真的往死里整。
+[Speaker 0]: 这帮企业最后啊都会有一个合理的解决方案，
+[Speaker 0]: 股价也就很快会恢复。
+[Speaker 0]: 我真正担心的是资本性开支的问题。
+[Speaker 0]: 在下一个 AI 应用落地之前，
+[Speaker 0]: 资本性开支的担忧只会变得越来越高，
+[Speaker 0]: 行业的风险会不断的发酵。
+[Speaker 0]: 即便他们的长期需求没有问题，
+[Speaker 0]: 也就是说他们的长期投资价值没有问题，
+[Speaker 0]: 那这个过程中的持有体验恐怕也会很差。
+[Speaker 0]: 当然了，
+[Speaker 0]: 这半导体里面也有特例以后，
+[Speaker 0]: 我再找机会跟各位看官详说。
+[Speaker 0]: 而我呢其实更加看好接下来 AI 应用端的表现。
+[Speaker 0]:  agentic AI 的出现让大家都看到了技术层半导体的爆发力。
+[Speaker 0]: 但是啊大可千万别陷入路径依赖，
+[Speaker 0]: 下一次应用落地。
+[Speaker 0]: 基础层当然还是会受益，
+[Speaker 0]: 但一定是再而衰。
+[Speaker 0]: 再而竭，
+[Speaker 0]: 你很难再重现今年年初时的暴涨了，
+[Speaker 0]: 真正未来会有更大增长空间的，
+[Speaker 0]: 我认为将会出现在应用层。
+[Speaker 0]: 而且现阶段投资应用层企业还有一个优势，
+[Speaker 0]: 就是在上面提到的进可攻退可守可攻不用多说了。
+[Speaker 0]: 一旦下一个 AI 应用落地，
+[Speaker 0]: 包括大模型、
+[Speaker 0]: 云计算端测的应用等公司都注定能够受益。
+[Speaker 0]: 可守则是因为这些应用层公司很多又都是最大的投入者。
+[Speaker 0]: 在等待的这段时间内，
+[Speaker 0]: 如果说资本型开支真的放缓了，
+[Speaker 0]: 对于他们而言，
+[Speaker 0]: 反而可能会是一件好事。
+[Speaker 0]: 具体都有哪些公司最能够受益？
+[Speaker 0]: 这个牵扯个股分析来不及展开了。
+[Speaker 0]: 今天以后有机会我再单出视频，
+[Speaker 0]: 详细跟大家分析。
+[Speaker 0]: 如果你真的特别感兴趣，
+[Speaker 0]: 也可以来我的美头 pro。
+[Speaker 0]: 最近市场动荡，
+[Speaker 0]: 我个人做了不少操作，
+[Speaker 0]: 我也分享了一些我打算加仓的股票，
+[Speaker 0]: 并且啊这些股票在美投 pro 上都有深度的分析。
+[Speaker 0]: 我现在就希望黑五能再给我打点折扣价，
+[Speaker 0]: 我就能一并都给买了。
+[Speaker 0]: 好了，
+[Speaker 0]: 关于最新的市场分析，
+[Speaker 0]: 就跟各位聊到这儿。
+[Speaker 0]: 最后再提醒一下咱各位看官，
+[Speaker 0]: 一年一度的每投期权课，
+[Speaker 0]: 黑五折扣活动已经开始了，
+[Speaker 0]: 有需要的看官一定别错过本次机会，
+[Speaker 0]: 不需要的看官也欢迎你来试试课，
+[Speaker 0]: 谢谢各位。
+[Speaker 0]: 投美股上美投中文美股第一投研品牌。
