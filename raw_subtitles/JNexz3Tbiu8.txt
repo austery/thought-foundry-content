@@ -1,0 +1,4922 @@
+[music]
+
+
+>> Uh
+ my
+ name
+ is
+ Armin
+ Ronacher
+
+
+and
+ I
+ want
+ to
+ share
+ with
+ you
+ a
+ little
+
+
+bit
+ the
+ lessons
+ that
+ we
+ have
+ learned
+
+
+from
+ building
+ software
+
+
+with
+ agents
+ and
+ in particular
+ I
+ want
+ to
+
+
+make
+ a
+ strong
+ case
+ for
+
+
+um
+ not
+ so
+ much
+ building
+ the
+ factory
+ as
+
+
+building
+ the
+ atelier
+ or
+ workshop.
+
+
+And
+
+
+um
+ I want
+ to show
+ some
+ data
+ with
+ this
+
+
+from
+ our
+ own
+ usage,
+ but
+ in
+ particular
+ I
+
+
+want
+ to
+ explain
+ what
+ I
+ mean
+ by
+ building
+
+
+the
+ atelier
+ or
+ the
+ workshop
+ prior
+ to
+
+
+building
+ the
+ software
+ factory.
+
+
+And
+
+
+um
+ I
+ think
+ everybody
+ here
+ is
+ being
+ used
+
+
+has
+ been
+ using
+ agents
+ for
+ quite
+ a while
+
+
+and
+ you
+ have
+ probably
+ noticed
+ that
+ uh
+ it
+
+
+is
+
+
+we're
+ sort
+ of on
+ an exponential
+ curve
+ in
+
+
+in
+ what
+ we can
+ do
+ with
+ them.
+
+
+Um
+
+
+but
+ the
+ comparison
+ that
+ I want
+ to give
+
+
+here
+ is
+ that
+ you
+ can
+ be
+ an
+ amazing
+
+
+artist
+ and
+ use
+ the
+ greatest
+ and
+ latest
+
+
+technology
+ from
+ CNC
+ machines
+ to
+ 3D
+
+
+printers
+ to just
+ very
+ good
+ power
+ tools
+
+
+and
+ it
+ can
+ increase
+ the ambition
+ of
+ what
+
+
+you can
+ do
+ with
+ your
+ art.
+
+
+And
+ I think
+ we
+ can
+ also
+ look
+ at
+ software
+
+
+a little
+ bit
+ in
+ that
+ sense.
+
+
+Uh
+ so
+ less
+ about
+ building
+ much
+ more
+
+
+software
+ and
+ just
+ building
+ way
+ more
+
+
+ambitious
+ and
+ high
+ quality
+ software.
+
+
+Um
+ so
+ I'm
+ going
+ to
+ show
+ you
+ a
+ little
+ bit
+
+
+of
+ what
+ I mean
+ by
+ that.
+
+
+Um
+
+
+and
+
+
+um
+ you
+ might
+ know
+ that
+ Arendelle
+ is
+
+
+working
+ on
+ the
+ PyCoding
+ agent.
+ So
+ we
+
+
+have
+ obviously
+ a
+ little
+ bit
+ of
+ a horse
+
+
+in
+ the race
+ here
+ of
+ how
+ we're looking
+ at
+
+
+this.
+
+
+Um
+ but
+ I
+ think
+ what
+ is
+ probably
+ quite
+
+
+interesting
+ is
+ that
+ the
+ PyCoding
+ agent
+
+
+has
+ not
+ really
+ changed
+ in
+ a
+ year
+ on the
+
+
+core
+ harness.
+ It
+ still
+ has
+ the same
+
+
+tools
+ today
+ as
+ it
+ did
+ uh
+ in
+ December
+
+
+last
+ year.
+
+
+And
+ I
+ think
+ this
+ is
+ interesting
+ because
+
+
+it
+ has
+ become
+ much
+ more
+ powerful
+ purely
+
+
+as
+ a effect
+ of
+ the
+ models
+ getting
+
+
+better.
+
+
+And
+ so
+ I'm
+ much
+ more
+ capable
+ today
+ of
+
+
+what
+ I
+ can
+ do
+ with
+ Py
+ without
+ any
+
+
+changes
+ landing
+ in
+ the
+ core
+
+
+functionality
+ of
+ what
+ the
+ harness
+ is
+
+
+doing.
+
+
+And
+ I think
+ this
+ is
+ an
+ interesting
+ thing
+
+
+to
+ reflect
+ on
+ it
+ means
+ that
+ we're
+ all
+
+
+simultaneously
+ getting
+ better
+ even
+
+
+without
+ landing
+ any
+ significant
+ changes
+
+
+in
+ how
+ we're
+ doing
+ this.
+
+
+And
+
+
+um
+ you
+ might
+ have
+ remembered
+ throughout
+
+
+the
+ last
+ year
+ and
+ a
+ half
+ maybe
+ that
+
+
+there
+ were
+ a
+ lot
+ of
+ ideas
+ of
+ how
+ you
+ can
+
+
+prompt
+ the
+ machines
+ better
+ or
+ how
+ you
+
+
+can
+ do
+ some
+ interesting
+ tricks
+ with
+ the
+
+
+harness.
+ Very
+ few
+ of
+ them
+ are
+ still
+
+
+necessary.
+
+
+For
+ me
+ a
+ good
+ example
+ here
+ is
+ that
+ I
+ was
+
+
+in
+ love
+ with
+ PyAutoResearch
+ which
+ was
+ a
+
+
+plugin
+ that
+ basically
+ allowed
+ an
+ agent
+
+
+to
+ drive
+ towards
+ a
+ goal
+ like
+ improving
+
+
+performance.
+ But
+ if
+ you
+ use
+ a
+ present
+
+
+day
+ state
+ of
+ the
+ art
+ model
+ you'll
+
+
+actually
+ discover
+ that
+ the
+ entire
+ plugin
+
+
+is
+ no
+ longer
+ necessary.
+ So
+ there's
+ a
+ lot
+
+
+that
+ is
+ just
+ happening
+ in
+ the
+ models
+
+
+that
+ is
+ dramatically
+ improving
+ how
+ we're
+
+
+doing.
+ So these
+ machines
+ are
+ getting
+
+
+better.
+
+
+Um
+ and
+ I just
+ want
+ to
+ show
+ this
+ from
+ a
+
+
+couple
+ of
+ graphs
+ from
+ basically
+ my
+ Py
+
+
+sessions
+ where
+ I
+ filtered
+ them
+ out
+ to
+ be
+
+
+have
+ nothing
+ but
+ the
+ default
+ set.
+
+
+And
+ the
+ total
+ amount
+ of
+ corrections
+ and
+
+
+I
+ used
+ chef
+ to
+ analyze
+ this
+ the
+ total
+
+
+amount
+ of
+ corrections
+ that
+ I had
+ to
+ do
+
+
+uh
+ got
+ down
+ and
+ down
+ and
+ down
+ with
+ every
+
+
+single
+ model
+ that
+ got
+ better
+ and
+ better.
+
+
+So
+ I'm
+ I'm
+ pushing
+ back
+ a
+ lot
+ less
+
+
+against
+ the
+ the
+ the
+ the
+ the
+ agent
+
+
+um
+ with
+ the
+ latest
+ model
+ than
+ I did
+ uh
+
+
+in
+ December
+ last
+ year.
+
+
+And
+ the
+ same
+ thing
+ with
+ like
+ how
+ often
+
+
+I'm
+ onboarding
+ it.
+
+
+Um
+ and
+ I
+ think
+ this
+ to
+ me
+ was
+ the
+ most
+
+
+interesting
+ way
+ in
+ which
+ I sort
+ of
+
+
+analyzed
+ my
+ sessions
+ which
+ is
+ the
+
+
+average
+ so
+ this
+ is
+ the
+ P90th
+ percentile
+
+
+but
+ the
+ 90th
+ percentile
+ of
+ how
+ long
+ an
+
+
+agent
+ was
+ running
+ in
+ response
+ to
+ a task
+
+
+that
+ I
+ gave
+ it
+ uh
+ with
+ Opus
+ 4.6
+ in
+
+
+December
+ last
+ year
+ was
+ about
+ two
+ and
+ a
+
+
+half
+ minutes.
+
+
+And
+ now
+ with
+ the latest
+ models
+ they
+ are
+
+
+on
+ the
+ 90th
+ percentile
+ running
+ for
+ 14
+
+
+minutes
+ and
+ more.
+ And
+ that
+ does
+ actually
+
+
+change
+ something
+ about
+ how
+ you
+ want
+ to
+
+
+work
+ with
+ a harness.
+ But
+ really
+ again
+
+
+nothing
+ in
+ Py
+ has
+ changed
+ and
+ still
+ I'm
+
+
+I'm
+ seeing
+ this
+ sort
+ of
+ different
+
+
+behavior
+ of
+ of
+ how
+ I'm
+ using
+ this.
+
+
+Um
+
+
+and
+ this
+ probably
+ you
+ have
+ noticed
+ in
+
+
+one
+ form
+ another
+ if
+ you're
+ still
+ using
+
+
+an
+ agent
+ we
+ kind
+ of
+ see
+ what
+ it's
+ doing
+
+
+you've
+ probably
+ noticed
+ that
+ the
+ present
+
+
+day
+ agents
+ are
+ much
+ more
+ likely
+ to
+ use
+
+
+Bash
+ than
+ any
+ of the
+ other
+ tools
+ that
+
+
+are
+ being
+ provided.
+ But
+ again
+ nothing
+
+
+has
+ changed
+ in
+ how
+ we
+ configure
+ the
+ It's
+
+
+just
+ that
+ there's
+ a lot
+ more
+ emergent
+
+
+behavior
+ coming
+ from
+ the
+ models.
+ What's
+
+
+missing
+ here
+ is
+ Astra
+ and
+ Soul.
+ They
+
+
+actually
+ look
+ very
+ similar
+ to
+ Opus
+ for
+
+
+my
+ testing.
+ I
+ just
+ didn't
+ have
+ enough
+
+
+data
+ in
+ my
+ test
+ set
+ to
+ show
+ this
+ nicely.
+
+
+You
+ will
+ notice
+ that
+ there's
+ a little
+
+
+purple
+ thing
+ here.
+ I
+ want
+ to
+ talk
+ about
+
+
+this
+ in the
+ end,
+ which
+ is
+ sort
+ of
+ code
+
+
+mode
+ is sort
+ of
+ slowly
+ creeping
+ up.
+
+
+But
+
+
+the
+ core
+ of
+ this
+ is
+
+
+even
+ if
+ you
+ have
+ a
+ piece
+ of
+
+
+infrastructure
+ nowadays
+ that
+ is
+ sort
+ of
+
+
+there
+ and
+ is
+ doing
+ a good
+ job,
+ it's
+
+
+still
+ changing
+ as
+ a result
+ of
+ the
+
+
+models.
+
+
+What
+ has
+ not
+ changed
+ in the
+ last
+ year,
+
+
+at
+ least
+ this
+ is
+ the
+ case
+ for
+ me,
+ and
+ I
+
+
+think
+ this
+ is
+ the
+ case
+ for
+ a
+ lot
+ of
+
+
+people,
+ is
+ that
+ we
+ are
+ still
+ humans.
+
+
+We're
+ still
+ limited
+ by
+ our
+ fundamental
+
+
+capabilities.
+
+
+And
+ as
+ we
+ are
+ being
+ more
+ ambitious
+ and
+
+
+we're
+ doing
+ more
+ of these
+ machines,
+
+
+we're
+ I'm
+ not
+ I don't
+ want
+ to
+ say
+ like
+
+
+we're
+ the
+ bottleneck,
+ but
+ we
+ are
+ the
+
+
+thing
+ that
+ paces
+ what
+ they
+ can
+ do.
+
+
+And
+ in
+ particular,
+ human
+ attention
+ is
+
+
+for
+ me
+ at
+ least
+ the
+ limiting
+ factor
+ and
+
+
+I'm
+ noticing
+ this
+
+
+with
+
+
+largely
+ in
+ how
+ coding
+ agents
+ are
+
+
+deployed
+ in
+ teams,
+
+
+that
+ this
+ is
+
+
+so
+ a
+ stable
+ amount
+ of
+ like
+ attention
+
+
+that
+ we
+ have
+ that
+ we
+ have
+ to
+ work
+ with.
+
+
+And
+
+
+starting
+ a new
+ project
+ is
+ getting
+
+
+incredibly
+ easy
+ with
+ these
+ agents.
+ And
+ I
+
+
+think
+ like
+ particularly
+ when
+ a
+ new
+ model
+
+
+comes
+ out,
+ we're
+ all
+ super
+ excited
+ of
+
+
+trying
+ the
+ latest
+ and
+ greatest
+ thing
+ we
+
+
+can
+ do
+ from
+ 3D
+ games
+ to
+
+
+new
+ ways
+ in
+ which
+ we
+ automate
+ things.
+
+
+But
+ maintaining
+ them
+ has
+ not
+ really
+
+
+gotten
+ easier.
+
+
+But
+ we
+ are
+ also
+ increasingly
+ taxing
+ a
+
+
+lot
+ of
+ external
+ systems
+ that
+ actually
+ in
+
+
+many
+ ways
+ are not
+ supposed
+ to
+ be
+ part
+ of
+
+
+this
+ revolution.
+
+
+I
+ think
+ we
+ all
+ know
+ that
+ GitHub
+ has
+ a
+
+
+lot
+ more
+ commits
+ being
+ pushed
+ up
+ there,
+
+
+a
+ lot
+ more
+ repositories.
+
+
+But
+ I
+ know
+ quite
+ a few
+ people
+ who
+ have
+
+
+well
+ established
+ all
+ the
+ websites
+ on
+ the
+
+
+internet
+ that
+ found
+ a new
+ life
+ for
+
+
+agents
+ and
+ they
+ are
+ totally
+ not
+ ready
+
+
+for
+ the
+ new
+ volume
+ that's
+ coming
+ from
+
+
+from
+ us
+ kind
+ of
+ directly
+ hitting
+ them.
+
+
+So
+ I
+ just
+ want
+ to
+ caution
+ a
+ little
+ bit
+
+
+here
+ in
+ saying
+ that
+ when
+ we
+ are
+ pushing
+
+
+things,
+ we
+ are also
+ accidentally
+
+
+simultaneously
+ all
+ of
+ us
+ pushing
+ things
+
+
+um,
+ which
+ we're
+ not
+ really
+ ready
+ for
+ for
+
+
+what
+ agents
+ are doing.
+
+
+Um,
+
+
+and
+ this
+ to
+ me,
+ I
+ think,
+ is
+ an
+
+
+interesting
+ graph
+ because
+
+
+uh
+ the
+ number
+ of
+
+
+prompts
+ that
+ I'm
+ actively
+ pushing
+ over
+
+
+the
+ year
+ is
+ is
+ sort
+ of
+ flat.
+ I
+ know
+ that
+
+
+like
+ in
+ some
+ months
+ it's
+ a little
+ bit
+
+
+higher,
+ in
+ some
+ months
+ it's
+ a little
+ bit
+
+
+lower,
+ but
+ they're
+ they're
+ alternating
+
+
+between
+ 120
+ 190
+ something
+ like
+ this
+
+
+prompts
+ uh
+ that
+ I'm
+ pushing
+ per
+ day.
+
+
+Um,
+ but
+ you
+ can
+ see
+ that
+ the
+ time
+ that
+
+
+the
+ agent
+ was
+ active
+ for
+ my
+ use
+ went
+
+
+from
+ like
+ less
+ than
+ my
+ working
+ day
+ to
+
+
+many
+ times
+ my
+ working
+ day.
+
+
+Um,
+ and
+ this
+ November
+ is
+ not
+ even
+ over,
+
+
+right?
+ So
+ you
+ can
+ see
+ that
+ this
+ is
+
+
+taking
+ an
+ exponential
+ curve
+ up.
+
+
+Um,
+
+
+and
+ this
+ here
+ is
+ the
+ number
+ of
+ projects,
+
+
+this
+ is
+ Git
+ repositories
+ that
+ I've
+
+
+created
+ over
+ the last
+ year,
+ and
+ this
+ is
+
+
+like
+ obviously
+ cumulatively
+ going
+ up.
+ So
+
+
+I have
+ 141
+ different
+ projects
+ that
+ I
+
+
+started,
+
+
+but
+ the
+ number
+ of
+ projects
+ I'm
+
+
+committing
+ on
+ a
+ regular
+ cadence
+ too,
+ um,
+
+
+which
+ means
+ like
+ I'm
+ committing
+ for
+ more
+
+
+than
+ five
+ days
+ too
+ and
+ I'm
+ I'm
+ returning
+
+
+to
+ them
+ also,
+ um,
+ is
+ is
+ pretty
+ much
+ flat
+
+
+with
+ with
+ between
+ 10
+ 15
+ something
+ like
+
+
+this.
+
+
+Um,
+ and
+ I have
+ I have
+ done
+ this
+ sort
+ of
+
+
+an
+ informal
+ survey
+ with
+ a
+ bunch
+ of my
+
+
+friends
+ as
+ well,
+ and
+ this
+ seems
+ to
+ be
+ a
+
+
+common
+ trend
+ that
+ actually
+ maintaining
+
+
+something
+ regularly
+ is
+ tricky.
+
+
+And,
+ um,
+ I
+ had
+ this
+ discussion
+ with
+ a
+
+
+friend
+ of
+ mine,
+ uh,
+ in
+ sort
+ of
+ in
+
+
+relation
+ to
+ this
+ graph
+ and
+ he said
+ like,
+
+
+well
+ actually
+ I
+ have
+ an
+ open
+ source
+
+
+project
+ that
+ is
+ now
+ fully
+ automated.
+ So
+
+
+uh
+ there's
+ a
+ issue
+ tracker
+ coming
+ in,
+
+
+there's
+ a
+ there's
+ an
+ agent
+ that's
+ set
+ up
+
+
+to
+ auto
+ review,
+ commit
+ and
+ send
+ it
+ back.
+
+
+And
+ that
+ is
+ maybe
+ a way
+ to
+ scale
+ up
+ so
+
+
+you
+ take
+ the
+ human
+ out
+ of the
+ whole
+
+
+thing,
+ but
+ actually
+ he
+ also
+ turned
+ it
+
+
+off
+ because
+ eventually
+ he
+ didn't
+ care
+
+
+about
+ the
+ project
+ as
+ much
+ anymore
+ and
+ he
+
+
+wanted
+ his
+ token
+ specs
+ to
+ use
+ them
+ for
+
+
+other
+ things.
+
+
+Um,
+ so
+ our
+ attention
+ to
+ an
+ open
+ source
+
+
+project
+ matters
+ even
+ if
+ maybe
+ we
+ have
+
+
+automated
+ entirely.
+ So
+ if
+ we
+ stop
+ using
+
+
+something
+ where
+ we
+ have
+ a
+ tendency
+ to
+ no
+
+
+longer
+ actually
+ actively
+
+
+take
+ care
+ of
+ it.
+
+
+Um,
+ so
+ if
+ we're
+ pushing
+ towards,
+ and
+ I
+
+
+would
+ make
+ this
+ argument,
+ first
+ figuring
+
+
+out
+ how
+ to
+ make
+ a
+ really
+ good
+ workshop
+
+
+to
+ build
+ really
+ high
+ quality
+ software,
+
+
+there's
+ a
+ question
+ of
+ what
+ matters.
+ And
+
+
+I
+ think
+ for
+ me,
+ the
+ three
+ most
+ important
+
+
+things
+ to
+ matter
+ is
+ on
+ the
+ one
+ hand,
+ to
+
+
+to
+ really
+ know
+ when
+ to
+ push
+ back
+ against
+
+
+what
+ an
+ agent
+ is
+ doing,
+ telling
+ it
+ that
+
+
+this
+ is
+ the
+ wrong
+ way
+ of
+ doing
+ it.
+
+
+And
+ I
+ think
+ that
+ this
+ is
+ a
+ crucial
+ skill
+
+
+because
+
+
+an
+ agent
+ is
+ really
+ rewarded
+ in
+ just
+
+
+completing
+ a
+ goal.
+
+
+And
+ it
+ is
+ very
+ easy
+ to
+ look
+ at
+ if
+ it
+ has
+
+
+succeeded
+ in
+ this
+ goal
+ or
+ not.
+
+
+Um
+ and
+ this
+ we
+ can
+ sort
+ of
+ see
+ it
+ in
+ the
+
+
+same
+ way
+ as
+ the
+ the
+ RL
+ environment
+ maybe
+
+
+is
+ rewarding
+ the
+ the model
+ doing
+
+
+training.
+
+
+Um
+ but
+ it
+ doesn't
+ mean
+ that
+ what
+ is
+
+
+being
+ actually
+ delivered
+ is
+ something
+
+
+that
+ we
+ are
+ intrinsically
+ happy
+ with
+
+
+over
+ a longer
+ period
+ of
+ time.
+
+
+And
+
+
+this
+ becomes
+ tricky
+ the
+ more
+ and
+ more
+
+
+commits
+ we're
+ doing,
+ the
+ larger
+ and
+
+
+larger
+ the
+ software
+ is
+ going.
+ It
+ is
+ very
+
+
+easy
+ to
+ basically
+ create
+ the
+ Simpson
+ car
+
+
+of
+ all
+ the
+ features
+ in
+ a
+ software.
+ Um
+
+
+but
+ actually
+ having
+ something
+ that
+
+
+intrinsically
+ fits
+ together
+ where
+ the
+
+
+internal
+ complexity
+ of a
+ system
+ does
+ not
+
+
+is
+ like
+ um
+
+
+explode
+
+
+uh
+ still
+ requires
+ us
+ to
+ um
+ to
+
+
+to
+ work
+ with
+ it
+ as
+ it's
+ working.
+
+
+And
+ I
+ I
+ like
+ to
+ call
+ this
+ like
+ true
+
+
+skill
+ versus
+ agent
+ skill.
+ Um
+
+
+there
+ is
+ clearly
+ a difference
+ between
+
+
+someone
+ who
+ is
+ an experienced
+ software
+
+
+engineer
+ working
+ with
+ an
+ agent
+ and
+
+
+someone
+ who
+ is
+ not
+ an
+ experienced
+
+
+software
+ engineer.
+ And
+ um
+ I
+ think
+ for
+ me
+
+
+the
+ the
+ truest
+ form
+ of
+ this
+ is
+ that
+ uh
+
+
+my
+ son
+ is
+ now
+ sending
+ me
+ pull
+ requests
+
+
+on
+ a project
+ that
+ we're
+ doing
+ together.
+
+
+And
+ there's
+ a very
+ clear
+ quality
+
+
+difference
+ in
+ what
+ his
+ contributions
+ are
+
+
+because
+ he
+ is
+ not
+ a
+ software
+ engineer.
+
+
+Um
+
+
+but
+ we're
+ using
+ the
+ same
+ system
+ to
+
+
+prompt
+ it,
+ right?
+
+
+Um
+
+
+and
+ I
+ have
+ I've
+ noticed
+ this
+ myself
+ in
+
+
+situations,
+ but
+ I've
+ I've
+ heard
+ this
+
+
+also
+ particularly
+ from
+ a lot
+ of
+ others.
+
+
+It
+ is
+ actually
+ a
+ very
+ frustrating
+
+
+experience
+ if
+ you're
+ in
+ a situation
+ that
+
+
+really
+ matters
+ and
+ other
+ people
+ in
+ the
+
+
+room
+ are
+ basically
+ just
+ going
+ to
+ their
+
+
+agent
+ to
+ answer
+ a question
+
+
+and
+ no
+ longer
+ have
+ a
+ really
+ under
+ good
+
+
+understanding
+ of
+ either
+ what
+ their
+
+
+system
+ is
+ doing
+ or
+ that
+ the
+ fundamental
+
+
+problem
+ that
+ they're
+ working
+ on
+ they
+
+
+actually
+ comprehend.
+
+
+Um
+ so
+ there
+ is
+ a
+ lot
+ of
+ in
+ still
+
+
+understanding
+ what
+ you're
+ doing.
+
+
+Um,
+
+
+that
+ also
+ means
+ that
+ you
+ kind
+ of
+ have
+ to
+
+
+moderate
+ the
+ speed
+ in
+ which
+ you're
+ doing
+
+
+things
+ to
+ still
+ work
+ within
+ your
+
+
+understanding.
+ And
+ one
+ of
+ the
+ ways
+ in
+
+
+which
+ I started
+ doing
+ this
+ as
+ my
+ commits
+
+
+started
+ going
+ through
+ the
+ roof
+ basically
+
+
+was
+ I
+ I
+ looked
+ into
+ how
+ are
+ my
+
+
+trajectories
+ of
+ sessions
+ going
+ and
+ can
+ I
+
+
+hook
+ myself
+ into
+ a
+ part
+ before
+ the
+ end
+
+
+of
+ it
+ to
+ find
+ a
+ consistent
+ way
+ for
+ me
+ to
+
+
+evaluate
+ what's
+ going
+ on.
+ And
+ so
+ for
+
+
+instance,
+ I
+ started
+ um
+ basically
+
+
+prompting
+ the
+ agent
+ that
+ before
+ it's
+
+
+going
+ towards
+ the
+ verification,
+ which
+ is
+
+
+typically
+ around
+ 70%
+ of
+ it,
+ to
+ start
+
+
+producing
+ me
+ a really
+ nice
+ short
+
+
+executive
+ summaries
+ and
+ a
+ nice
+ typeset
+
+
+HTML
+ page
+ that
+ can
+ really
+ understand
+
+
+what
+ it's
+ doing
+ as
+ it's
+ finishing.
+ Um,
+
+
+particularly
+ with
+ newer
+ models,
+ it's
+ no
+
+
+longer
+ quite
+ as
+ horrible
+ to
+ read
+ the
+
+
+text
+ that
+ comes
+ out
+ of
+ it.
+ Um,
+ but
+ this
+
+
+is
+ one
+ way
+ in
+ which
+ I
+ found
+ to
+ balance
+
+
+out
+ that
+ I'm
+ basically
+ no
+ longer
+ reading
+
+
+the
+ code
+ in
+ a lot
+ of
+ cases.
+
+
+Um,
+
+
+and
+ this
+ I
+ think
+ is
+ something
+ that
+
+
+increasingly
+ is
+ more
+ important
+ to
+ me
+ is
+
+
+to
+ to
+ to
+ also
+ show
+ up
+ with
+ a
+ little
+ bit
+
+
+of
+ a
+ a
+ guidance
+ towards
+ um
+
+
+not
+ writing
+ all
+ the
+ software
+ over
+ and
+
+
+over.
+
+
+Um,
+ I'm
+ a huge
+ believer
+ in
+ using
+ few
+
+
+dependencies
+ and
+ writing
+ more
+ code
+
+
+yourself.
+ So
+ I
+ really
+ like
+ the
+ agent
+
+
+revolution
+ for
+
+
+for
+ that
+
+
+element
+ of
+ it.
+
+
+Um,
+ but
+ in
+ German
+ we
+ have
+ this
+ word
+
+
+called
+
+
+which
+ basically
+ means
+ uncontrolled
+
+
+growth.
+
+
+And
+ uncontrolled
+ growth
+ in
+ software
+ that
+
+
+is
+ supposed
+ to
+ work
+ together
+ can
+ have
+ a
+
+
+lot
+ of really
+ negative
+ consequences.
+
+
+Um,
+ you
+ might
+ have
+ seen
+ a
+ blog
+ post
+ that
+
+
+was
+ going
+ around
+ recently
+ about
+ a
+ tar
+
+
+archive
+ that
+ is
+ has
+ been
+ crafted
+ in
+ a
+
+
+way
+ that
+ different
+ tar
+ implementations
+
+
+read
+ it
+ in
+ different
+ ways.
+
+
+And
+
+
+um
+ I
+ think
+ this
+ is
+ a
+ bit
+ of a
+ problem
+
+
+now.
+ Um,
+ we
+ for
+ us
+ to
+ work
+ together
+ we
+
+
+we
+ really
+ want
+ to have
+ standards.
+ We
+
+
+want
+ to
+ have
+
+
+uh
+ common
+ specifications.
+ We
+ want
+ to
+
+
+have
+ common
+ file
+ formats.
+
+
+And
+ we
+ now
+ can
+ basically
+ make
+ an
+ agent
+
+
+implement
+ any
+ format
+ we
+ want.
+ But
+
+
+they're
+ going
+ to be
+ these
+ differences.
+
+
+And
+ what
+ really
+ makes
+ it
+ hard
+ for
+ us
+ to
+
+
+agree
+ on
+ standards
+ and
+ what
+
+
+what
+ makes
+ us
+ work
+ together
+ on
+ something
+
+
+often
+ is
+ not
+ a
+ technical
+ challenge
+ as
+
+
+much
+ as
+ it
+ is
+ a
+ problem
+ of
+ how
+ do
+ people
+
+
+agree
+ on
+ what
+ is
+ supposed
+ to
+ be
+ in this
+
+
+file
+ format
+ and
+ how
+ is
+ it
+ supposed
+ to be
+
+
+implemented
+ and
+ how
+ is
+ it supposed
+ to
+ be
+
+
+interpreted
+ because
+ there
+ can
+ be
+
+
+multiple
+ interpretations
+ of
+ it.
+
+
+Um
+ and
+ I really
+ think
+ that
+ these
+ open
+
+
+protocols
+ and
+ file
+ formats
+ are
+ really
+
+
+important
+ aspect.
+
+
+Um
+ you
+ can
+ imagine
+ there
+ is
+ a
+ future
+
+
+where
+ we
+ all
+ have
+ our
+ own
+ little
+
+
+Photoshop
+ clones,
+ but
+ we'll
+ no
+ longer
+ be
+
+
+able
+ to
+ send
+ file
+ formats
+ to
+ each
+ other
+
+
+because
+ we
+ have
+ diverged
+ too
+ much.
+
+
+Um
+ and
+ this
+ really
+ comes
+ down
+ to
+ this
+
+
+part
+ that
+ collaboration
+ between
+ humans
+
+
+is
+ as
+ hard
+ as
+ it
+ has
+ ever
+ been.
+
+
+And
+ this
+ is
+ slowing
+ us
+ in
+ a
+ way
+ down,
+
+
+right?
+ Um
+
+
+and
+ I think
+ it's
+ it's
+ important
+ to
+
+
+sometimes
+ resist
+ this
+ temptation
+ of
+ just
+
+
+having
+ the
+ agent
+ solve
+ the
+ problem
+ and
+
+
+just
+ taking
+ a
+ step
+ back
+ and
+ figuring
+ out
+
+
+if
+ this
+ is
+ maybe
+ one
+ of
+ those
+ problems
+
+
+where
+ we
+ should
+ be
+ working
+ together
+ with
+
+
+other
+ people.
+
+
+Um
+ it
+ is
+ for
+ me
+ coming
+ from
+ an
+ open
+
+
+source
+ background
+ fascinating
+ to
+ see
+ how
+
+
+little
+ actually
+ human
+ collaboration
+ is
+
+
+happening
+ in
+ open
+ source
+ projects
+ now
+
+
+and
+ how
+ many
+ more
+ projects
+ end
+ up
+ with
+
+
+gazillions
+ of
+ forks
+ because
+ it's
+ just
+
+
+easier
+ to
+
+
+have
+ a
+ fork
+ happen
+ than
+ to
+ try
+ to
+
+
+upstream
+ changes.
+
+
+Um
+ so
+ I
+ I
+ want
+ to make
+ a very
+ strong
+
+
+argument
+ for
+ uh
+ building
+ software
+ that
+
+
+strives
+ towards
+ excellence.
+
+
+And
+ I understand
+ that
+ this
+ is
+ hard.
+ Um
+
+
+we
+ have
+ I
+ think
+ seen
+ a
+ pretty
+ big
+
+
+explosion
+ recently
+ of
+ verified
+ software.
+
+
+Um
+ it's
+ also
+ very
+ clear
+ that
+ this
+ is
+ in
+
+
+itself
+ hard.
+ The
+ the
+ the
+ technology
+
+
+stack
+ is
+ not
+ right
+ there
+ yet
+ where
+ this
+
+
+works,
+ but
+ I think
+ it
+ is
+ one
+ of
+ those
+
+
+areas
+ where
+ it's
+ really
+ worth
+ pushing
+
+
+towards
+ and
+ seeing
+ if
+ this
+ is
+ maybe
+
+
+something
+ that
+ can
+ help
+ us
+ over
+ time
+
+
+creating
+ more
+
+
+more
+ stable
+ software.
+
+
+Um
+
+
+I
+ really
+ I'm
+ very
+ happy
+ with
+ seeing
+ so
+
+
+many
+ people
+ wanting
+ to
+ build
+
+
+fundamentally
+ faster
+ and
+ more
+ memory
+
+
+efficient
+ software.
+ I
+ think
+ it's
+ a
+ great
+
+
+development.
+ Um
+ for
+ years
+ I
+ was
+ very
+
+
+frustrated
+ with
+ um
+ how
+ little
+ my
+ RAM
+
+
+usage
+ actually
+ goes
+ to
+ things
+ that
+ I
+
+
+think
+ are
+ worthwhile.
+ And
+ now
+ there's
+ a
+
+
+significant
+ trend
+ of
+ people
+ trying
+ to
+
+
+rebuild
+ things
+ in
+ a
+ native
+ language
+
+
+rather
+ than
+ for
+ instance
+ just
+ building
+
+
+another
+ electron
+ wrapper.
+
+
+So
+ all
+ of
+ those
+ things
+ are
+ really
+ cool
+
+
+developments,
+
+
+um
+ but
+ they're
+ in
+ many
+ ways
+ still
+
+
+building
+ up
+ on
+ technology
+ that
+ we
+ have
+
+
+created
+ before
+ times.
+
+
+I
+ really
+ like
+ Rust.
+ I like
+ that
+ there
+ is
+
+
+now
+ a
+ trend
+ towards
+ building
+ memory
+ safe
+
+
+software.
+ I
+ think
+ you've
+ probably
+ all
+
+
+been
+ exposed
+ to
+ what
+ happens
+ with
+
+
+yeah,
+ good
+ models
+ finding
+ security
+
+
+issues.
+ So
+ there's
+ a
+ strong
+ argument
+
+
+towards
+ that.
+
+
+Um
+ and
+ it
+ it
+ now
+ has
+ also
+ led
+ to
+ people
+
+
+that
+ would
+ never
+ have
+ picked
+ that
+
+
+language
+ before
+ to
+ actually
+ give
+ it
+ a
+
+
+try
+ because
+ it
+ delivers
+ some
+ value
+ that
+
+
+now
+ can
+ in
+ quote
+ come
+ for
+ free.
+
+
+Um
+
+
+on the
+ last
+ part
+ I
+ want
+ to
+ talk
+ a
+ little
+
+
+bit
+ about
+ maybe
+ there
+ is
+ something
+ by
+
+
+harness
+ can
+ do
+ something
+ and
+ this
+ is
+
+
+less
+ so
+ much
+ for
+ me
+ to
+ say
+ hey
+ here's
+
+
+the
+ thing
+ that
+ a
+ path
+ that
+ we
+ are
+ on
+ as
+
+
+to
+ give
+ you
+ some
+ idea
+ of
+ maybe
+ where
+
+
+some
+ of
+ the
+ challenges
+ are
+ as
+ we're
+
+
+pushing
+ this
+ task
+ to
+ be
+ much
+ more
+ long
+
+
+running.
+
+
+Um
+ the
+ first
+ one
+ is
+ if
+ if
+ if
+ you
+ have
+ a
+
+
+task
+ that
+ only
+ takes
+ two
+ minutes
+ to
+ run
+
+
+you're
+ kind
+ of willing
+ to
+ babysit
+ it
+ and
+
+
+if
+ it
+ breaks
+ and
+ it
+ it
+ ends
+ early
+ or
+ it
+
+
+doesn't
+ run
+ to
+ completion
+ or
+ you
+ have
+ to
+
+
+restart
+ the
+ agent
+ to
+ just
+ restart
+ it
+
+
+manually
+ and
+ tell
+ it
+ to continue.
+
+
+Right?
+ So
+ it's like
+ we
+ have
+ we
+ have
+
+
+largely
+ been
+ working
+ in
+ environment
+ for
+
+
+quite
+ a
+ while
+ where
+ that
+ was
+ acceptable.
+
+
+If
+ you
+ now
+ have
+ automated
+ agents
+ running
+
+
+on
+ thousands
+ of
+ issues
+ overnight
+ you
+
+
+want
+ to
+ have
+ an
+ agent
+ actually
+ be
+ able
+
+
+to
+ restart
+ itself.
+
+
+Because
+ we're
+ pretty
+ big
+ believers
+ on
+
+
+this
+ concept
+ of
+ durable
+ agents,
+ also
+
+
+durable
+ agents
+ that
+ create
+ durable
+
+
+workflows
+ when
+ they
+ orchestrate
+
+
+themselves
+ in
+ a
+ way
+ where
+ you
+ can
+ start
+
+
+it,
+ stop
+ it,
+ you
+ can
+ suspend
+ it, you
+ can
+
+
+bring
+ it
+ back.
+
+
+And
+ this
+ not
+ just
+ because
+ we
+ have
+ this
+
+
+longer
+ running
+ tasks,
+ but
+ also
+ because
+
+
+there's
+ a
+ lot
+ of
+ inefficiency
+ in
+ what
+
+
+we're
+ doing
+ and
+
+
+um
+ we
+ are
+ all
+ compute
+ constrained,
+ we
+
+
+are
+ all
+
+
+constrained
+ in
+ terms
+ of
+ the
+ cost
+ of
+
+
+inference
+ and
+ being
+ able
+ to
+ be
+ a
+ little
+
+
+bit
+ more
+ intelligent
+ about
+ how
+ we're
+
+
+doing
+ this.
+ I
+ think
+ it's
+ really
+
+
+interesting,
+ and
+ I wish
+ more
+ people
+
+
+would
+ be
+ pushing
+ towards
+ that.
+ For
+
+
+instance,
+ if
+ you
+ pay
+ raw
+ token
+ costs,
+
+
+you get
+ a
+ pretty
+ significant
+ discount
+ on
+
+
+flex
+ scheduling.
+
+
+But
+ that
+ means
+ that
+ maybe
+ for
+ minutes
+ no
+
+
+token
+ is
+ coming,
+ right?
+ And
+ so
+ then
+ you
+
+
+want
+ to
+ suspend
+ your
+ agent,
+ you
+ want
+ to
+
+
+suspend
+ also
+ your
+ sandbox,
+ and
+ actually
+
+
+not
+ waste
+ the
+ other
+ resources
+ that
+ are
+
+
+also
+ expensive.
+
+
+So
+ this
+ is
+ one
+ part
+ where
+ I
+ do
+ think
+
+
+beyond
+ the
+ quality
+ of the
+ models,
+
+
+because
+ the
+ models
+ are getting
+ so
+ good
+
+
+now,
+ we
+ might
+ want
+ to
+ rethink
+ a
+ little
+
+
+bit
+ of
+ how
+ we
+ are
+ using
+ these
+ resources
+
+
+intelligently.
+
+
+And
+ the
+ second
+ thing
+ is
+
+
+um
+
+
+you
+ probably
+ know
+ that
+ when
+ when
+ when
+ Pi
+
+
+came
+ out,
+ there
+ was
+ a
+ pretty
+ big
+
+
+motivation
+ to
+ say
+ like
+ bash
+ is
+
+
+everything
+ that
+ you have
+ to
+ run.
+ And
+
+
+this
+ is
+ still
+ largely
+ what
+ we
+ believe.
+
+
+But
+ now
+ we
+ also
+ see
+ that
+ there
+ is
+
+
+an
+ emergence
+ of
+ desire
+ to
+ orchestrate
+
+
+sub
+ agents,
+ a
+ desire
+ to
+ use
+ models
+ which
+
+
+are
+ not
+ LLMs,
+ like
+ decision
+ models
+ or
+ or
+
+
+classifier
+ models
+ like
+ Jeff.
+
+
+And
+ in
+ those
+ cases
+ you
+ need
+ to
+ start
+
+
+composing
+ workflows.
+
+
+And
+ this
+ I
+ think
+ originally
+ came
+ from
+
+
+the
+ folks
+ from
+ Cloudflare
+ to say
+ like
+ in
+
+
+in
+ instead
+ of
+ having
+ thousands
+ of
+ tools
+
+
+being
+ put
+ into
+
+
+the
+ code
+
+
+into
+ the
+ context,
+ what
+ if
+ we
+ just
+ give
+
+
+the
+ agent
+ in
+ addition
+ to
+ JavaScript
+ in
+
+
+addition
+ to
+ bash
+ JavaScript
+ to
+ run
+
+
+and
+ have
+ all
+ the
+ tool
+ calls
+ that
+ the
+
+
+agent
+ would
+ natively
+ do
+ happen
+ via
+
+
+JavaScript,
+ and
+ then
+ you
+ can
+ orchestrate
+
+
+them
+ better.
+ And
+ this
+ has
+ gone
+ from
+ a
+
+
+curiosity,
+ I
+ think
+ in
+ many
+ ways,
+ to
+
+
+something
+ that
+ is
+ fundamentally
+
+
+shockingly
+ useful.
+
+
+And
+ this
+ means
+ that
+ now
+ the
+ harness
+ in
+
+
+many
+ cases,
+ and
+ this
+ is
+ definitely
+ the
+
+
+case
+ already
+ in
+ Codex,
+ you
+ can
+ do
+ it
+ in
+
+
+Pi
+ and
+ many
+ other
+ harnesses
+ at this
+
+
+point,
+ you
+ can
+ have
+ the
+ harness
+
+
+orchestrate
+ very
+ large
+ invocations
+ of
+
+
+tool
+ calls
+
+
+without
+ having
+ to
+ go
+ through
+ the
+
+
+inefficient
+ context.
+
+
+And
+ this
+ does
+ require
+ a
+ little
+ bit
+ of
+ a
+
+
+rethinking
+ of
+ how
+ you're
+ doing
+ things.
+
+
+And
+ it
+ also
+ allows
+ you
+ to
+ to
+ use
+
+
+classifier
+ models.
+ And
+ I think
+ this
+ is
+
+
+the
+ other
+ big
+
+
+part
+ that
+ really
+ changed
+ how
+ I
+ was
+
+
+looking
+ at
+ how
+ far
+ I
+ can
+ push
+ certain
+
+
+technology,
+
+
+because
+ you're
+ not
+ being
+
+
+penalized
+ for
+ not
+ having
+ an
+ active
+ KV
+
+
+cache,
+
+
+um
+ but
+ they're
+ also
+ very
+ cheap
+ and
+ very
+
+
+fast.
+ And
+ they
+ allow
+ you
+ now
+ to
+ take
+
+
+certain
+ problems
+ that
+ previously
+ were
+
+
+just
+ too
+ expensive
+ or
+ too
+ slow
+ to
+ do,
+ to
+
+
+have
+ a
+ decision
+ model
+ do
+ this.
+
+
+And
+ the
+ way
+ I
+ think
+ you should
+ be
+
+
+thinking
+ on
+ this
+ is
+ that
+ when
+ you
+ have
+
+
+code
+ mode,
+ what
+ the
+ harness
+ can
+ do
+ is
+ it
+
+
+can
+ create
+ a little
+ workflow
+ that
+ can
+
+
+have
+ decision
+ points
+ along
+ the
+ way
+ where
+
+
+if
+ you
+ for
+ instance
+ have
+ to
+
+
+crunch
+ through
+ 3,000
+ incoming
+ customer
+
+
+support
+ requests
+ and
+ you
+ have
+ to
+ make
+
+
+decisions
+ along
+ the
+ way
+ if
+ this
+ is
+ being
+
+
+sent
+ towards
+ having
+ an
+ agent
+ work
+ on
+ it,
+
+
+towards
+ requiring
+ more
+ feedback
+ from
+ a
+
+
+customer,
+ you can
+ have
+ the
+ agent
+ create
+
+
+basically
+ an
+ on
+ demand
+ workflow
+ and
+ then
+
+
+for
+ every
+ single
+ if
+ condition
+ that
+ it's
+
+
+doing,
+ it's
+ just
+ going
+ through
+ Jeff.
+ And
+
+
+then
+ you
+ can
+ crunch
+ through
+ thousands
+ of
+
+
+issues
+ for
+ very
+ little
+ time
+ in
+ no
+ time
+
+
+in
+ your
+ coding
+ agent
+ that
+ previously
+
+
+that
+ would
+ have
+ taken
+ you
+ hours.
+
+
+Um
+ so
+ with
+ this
+ um
+ I
+ just
+ want
+ you
+ to
+
+
+leave
+ this
+ idea.
+
+
+Now
+ that
+ we
+ can
+ build
+ everything,
+ maybe
+
+
+we
+ should
+ not,
+
+
+um
+ but
+ we
+ should
+ really
+ I
+ think
+ push
+
+
+towards
+ much
+ more
+ enjoyable
+ and
+ um
+ in
+
+
+many
+ ways
+ much
+ more
+ ambitious
+ software
+
+
+than
+ we have
+ been
+ doing
+ before.
+
+
+Thank
+ you.
