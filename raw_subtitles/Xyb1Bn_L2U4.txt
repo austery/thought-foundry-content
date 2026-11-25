@@ -1,0 +1,4678 @@
+All
+ right.
+
+
+Uh
+ there
+ was
+ a moment
+ in
+ January
+ of
+ 2025
+
+
+when
+ I
+ was
+ just
+ coding
+ and
+ I
+ wanted
+ to
+
+
+see
+ what
+ if
+ you
+ just
+ make
+ an
+ agent.
+ This
+
+
+was
+ before
+ Claude
+ code
+ and
+ it
+ was
+ like
+
+
+the
+ dumbest
+ stuff
+ ever.
+ It
+ was
+ like
+
+
+change
+ this
+ background
+ color,
+ but
+ it
+
+
+just
+ blew
+ my
+ mind
+ when
+ I
+ saw
+ an
+ agent
+
+
+actually
+ work
+ for
+ the
+ first
+ time.
+ It
+
+
+ran
+ commands,
+ it
+ looked
+ at
+ itself,
+ it
+
+
+gave
+ itself
+ its
+ own
+ feedback
+ loops.
+ That
+
+
+blew
+ my
+ mind
+ and
+
+
+I
+ had
+ this
+ sense
+ I think
+ that
+ everyone
+
+
+has
+ when
+ they
+ first
+ see
+ an
+ agent
+ that
+
+
+everything
+ is
+ going
+ to
+ change
+ after
+
+
+that.
+ Everything
+ is going
+ to change
+
+
+about
+ how
+ you
+ build
+ software.
+ I
+ think
+
+
+we've
+ all
+ felt
+ that.
+
+
+Everything
+ is
+ going
+ to change
+ about
+ how
+
+
+you
+
+
+form
+ companies
+ to
+ work
+ on
+ software
+ and
+
+
+how
+ you
+ sell
+ software,
+ how
+ you
+
+
+distribute
+ software.
+ All
+ other
+ work
+ is
+
+
+going
+ to
+ change
+ and
+ it
+ was
+ just
+ a
+ an
+
+
+absolutely
+ crazy
+ crazy
+ moment.
+ Um
+ I
+ was
+
+
+actually
+ at
+ the
+ Frankfurt
+ airport
+ with
+
+
+Thorsten
+ Ball
+ on
+ our
+ team.
+ Um
+ he
+ wrote
+
+
+that
+ compiler
+ book.
+ Anyone
+ who
+ knows
+
+
+Thorsten
+ on
+ our
+ team?
+ Yeah,
+ he's
+ a
+ cool
+
+
+guy.
+
+
+Um
+
+
+we
+ were
+ just
+ like
+ minds
+ blowing
+ at
+ the
+
+
+Frankfurt
+ airport
+ and
+ we
+ knew
+ that
+
+
+everything
+ was
+ going
+ to
+ change.
+ We
+
+
+didn't
+ know
+ where
+ this
+ was
+ all
+ going
+ to
+
+
+go,
+ but
+ we
+ just
+ wanted
+ to
+ go.
+ We
+ just
+
+
+wanted
+ to
+ go
+ run
+ at
+ it.
+ So
+ inside
+ of
+
+
+Sourcegraph,
+ which
+ was
+ a
+ 200-person
+
+
+enterprise
+ software
+ company,
+ I
+ was
+ the
+
+
+CEO
+ and
+ we
+ made
+ code
+ search.
+ We
+ decided
+
+
+to
+ just
+ start
+ building
+ this
+ to
+ tune
+ out
+
+
+everything
+ else
+ and
+ just
+ start
+ building
+
+
+this
+ thing,
+
+
+not
+ go
+ to
+ sales
+ calls,
+ not
+ go
+ to
+ like
+
+
+exec
+ meeting,
+ none
+ of
+ that
+ stuff,
+ just
+
+
+tune
+ out
+ all
+ the
+ distractions.
+
+
+And
+ I was
+ in
+ this
+ position
+ that
+ I
+ think
+
+
+a
+ lot
+ of
+ people
+ say,
+ you
+ know,
+ wow,
+ you
+
+
+know,
+ I'm
+ a software
+ developer
+ at
+ a
+
+
+company
+ and
+ I
+ want
+ to
+ change.
+ I want
+ my
+
+
+company
+ to be
+ more
+ AI
+ forward
+ and
+ I
+
+
+can't.
+ Um
+ you
+ know,
+ I
+ was
+ the CEO
+ and
+ in
+
+
+theory
+ I
+ could
+ change
+ anything.
+ I
+ could
+
+
+change
+ teams.
+ I
+ could
+ say
+ you don't
+ need
+
+
+to
+ get
+ pull
+ request
+ code
+ review.
+ Uh
+ you
+
+
+don't
+ need
+ to
+ you know
+ do
+ any
+ of the
+
+
+other
+ processes
+ we
+ used
+ to
+ do.
+ And
+ yet
+
+
+it
+ was
+ very
+ hard.
+ What
+ we
+ did
+ is
+ we
+
+
+ended
+ up
+ taking
+ 20
+ people
+ uh
+ from
+ the
+
+
+company
+ and
+ inside
+ of
+ Sourcegraph
+ still
+
+
+we
+ made
+ a
+ little
+ team,
+ the
+ amp
+ team.
+ And
+
+
+uh
+ that's
+ what
+ we
+ tried.
+ So
+ for
+ those
+ of
+
+
+you
+ who
+ are
+ trying
+ to
+ push
+ back
+ against
+
+
+your
+ company
+ to
+ try
+ to
+ make
+ it
+ more
+
+
+agent
+ friendly,
+ I
+ have
+ a lot
+ of
+ sympathy
+
+
+for
+ you
+ and
+ I hope
+ that you
+ can
+ take
+
+
+away
+ some
+ things
+ from
+ here.
+ Um
+ I
+ know
+
+
+how
+ hard
+ it
+ is
+ and
+ also
+ have
+ some
+
+
+empathy
+ for
+ your
+ CEO
+ too.
+ It's
+ hard
+ for
+
+
+them
+ too.
+ This
+ is
+ a
+ really
+ hard
+ kind
+ of
+
+
+change
+ and
+ transformation.
+
+
+But
+ we
+ knew
+ that
+ there
+ are
+ some
+ things
+
+
+that
+ we're
+ going
+ to
+ change
+ and
+ this
+ all
+
+
+seems
+ kind
+ of
+ obvious
+ now
+ but
+ back
+ in
+
+
+2025
+ early
+ 2025
+
+
+with
+ this
+ idea
+ of
+ enterprise
+ ready,
+ you
+
+
+do
+ this
+ thing
+ and
+ then
+ you
+ can
+ build
+ a
+
+
+sales
+ team
+ and
+ go
+ sell
+ it.
+ We
+ knew
+ that
+
+
+that
+ was
+ just
+ going
+ to
+ totally
+ die
+ off.
+
+
+You
+ had
+ to
+ be
+ on
+ the
+ frontier.
+ If
+
+
+you
+ had
+ you
+ know
+ a
+ taste
+ of
+ success
+ and
+
+
+then
+ you
+ started
+ doing
+ all
+ the
+
+
+enterprise
+ checklist
+ to
+ make
+
+
+the
+ median
+ enterprise
+ buyer
+ happy,
+ your
+
+
+product
+ was
+ going
+ to
+ go
+ obsolete
+ in
+ like
+
+
+3
+ months.
+
+
+And
+
+
+the
+ whole
+ game
+ had
+ to
+ change.
+ Nothing
+
+
+mattered
+ other
+ than
+ making
+ it
+ so
+ that
+
+
+the
+ people
+ at
+ these
+ other
+ companies
+
+
+loved
+ your
+ product
+ and
+ the
+ CEO,
+ the
+
+
+budget
+ was
+ infinite
+ and
+ all
+ bets
+ were
+
+
+off.
+ So
+ we
+ knew
+ that
+
+
+we
+ didn't
+ quite
+ know
+ uh
+ all
+ the
+
+
+challenges
+ we'd
+ run
+ into.
+
+
+Um
+ also
+ you
+ know
+ in
+ this
+ world
+ where
+
+
+agents
+ can
+ build
+ a product
+ or
+ build
+ a
+
+
+feature,
+ how
+ do
+ you
+ even
+ think
+ about
+
+
+differentiation?
+ I mean
+ to
+ this
+ day
+
+
+there's
+ people
+ who
+ say
+ well
+ why
+ is
+ amp
+
+
+better?
+ Why
+ is
+ you
+ know
+ Claude
+ code
+
+
+better
+ than
+ Codex
+ or
+ whatever?
+ And
+ so
+
+
+many
+ people
+ are
+ begging
+ to
+ have
+ the
+
+
+answer
+ in
+ the
+ form
+ of
+ well
+ it's
+ these
+
+
+three
+ features.
+ You
+ know
+ uh
+ amp
+ has
+ orbs
+
+
+which
+ are
+ really
+ good
+ cloud
+ agents
+ and
+
+
+we
+ have
+ multiplayer.
+ But
+ the crazy
+ thing
+
+
+is
+ you
+ all
+ know
+ that
+ if
+ we
+ can
+ do
+ that
+
+
+and
+ if we
+ prove
+ it
+ then
+ any
+ of
+ our
+
+
+competitors
+ could
+ as
+ well.
+
+
+So
+ you
+ know
+ why
+ even
+ play
+ that
+ game?
+
+
+Like
+ what
+ does
+ it even
+ mean
+ to
+ build
+ and
+
+
+sell
+ software?
+ Why
+ would
+ you
+ go
+ and
+ hire
+
+
+a sales
+ team?
+ Why
+ would
+ you
+ go
+ and
+ do
+
+
+anything
+ in
+ the
+ traditional
+ way
+ if
+ you
+
+
+didn't
+ even
+ know
+ what
+ it's going
+ to
+ look
+
+
+like
+ in
+ a
+ month?
+ And
+ if
+ you don't
+ even
+
+
+know
+ how
+ to
+ differentiation,
+ there's
+ no
+
+
+sustainable
+ differentiation.
+
+
+Um,
+ you for
+ Amp,
+ you know,
+ people
+ end
+ up
+
+
+loving
+ it,
+ um,
+ but
+ you can
+ even
+ see
+
+
+like,
+ um,
+ you
+ know,
+ Adam
+ Wathan,
+ who's
+
+
+the
+ uh,
+ Tailwind
+ guy,
+ he
+ loves
+ Amp,
+ but
+
+
+he's
+ like,
+ you
+ know,
+ it's
+ one
+ of
+ those
+
+
+things
+ where
+ you
+ can't
+ understand
+ it.
+
+
+Uh,
+ you
+ know,
+ it's
+ can't
+ understand
+ why
+
+
+it's
+ good
+ until
+ you
+ use
+ it.
+ Can
+ you
+
+
+imagine
+
+
+having
+ a whole
+ product
+ management
+ team,
+
+
+a
+ design
+ team,
+ an
+ engineering
+ team
+
+
+that's
+ so
+ disconnected
+ from
+ the
+ actual
+
+
+customers,
+ a
+ whole
+ company
+ apparatus,
+ if
+
+
+that's
+ the
+ best
+ way
+ that
+ you
+ can
+ market
+
+
+a
+ product?
+ It's
+ really
+ tough.
+
+
+So
+ we
+ knew
+ that
+ we
+ just
+ had
+ to
+ change
+
+
+everything
+ and
+ we
+ we
+ rethought
+ so
+ many
+
+
+things
+ because
+ kind
+ of
+ unintentionally
+
+
+we
+ were
+ in
+ under
+ some
+ weird
+ constraints.
+
+
+We
+ decided
+ to
+ spin
+ out
+ Amp.
+ So
+ for
+ those
+
+
+of
+ you
+ who've
+ been
+ at
+ a company
+ like
+ a
+
+
+small,
+ uh,
+ you
+ know,
+ you're
+ on
+ a small
+
+
+team
+ in
+ a company,
+ you're
+ trying
+ to do
+
+
+things
+ different,
+ you're
+ trying
+ to
+ be
+
+
+the
+ startup
+ within
+ a
+ startup.
+ You
+
+
+probably
+ have
+ these
+ fantasies
+ of
+ let
+
+
+just
+ go
+ off
+ and
+ start
+ a
+ new
+ company.
+
+
+Well,
+ we
+ actually
+ did
+ that.
+ We,
+ you
+
+
+know,
+ did
+ the
+ right
+ thing
+ by
+ investors
+
+
+and employees
+ and
+ everyone
+ has
+ ownership
+
+
+in
+ both,
+ but
+ we
+ actually
+ spun
+ out
+ and
+
+
+for
+ a
+ year
+ until
+ last
+ Friday,
+ we
+
+
+couldn't
+ hire
+ anyone.
+ We
+ couldn't
+ grant
+
+
+options.
+ The
+ legal
+ spin-off
+ process
+ was
+
+
+a huge
+ pain
+ and
+ we
+ were
+ forced
+ to
+ make
+
+
+do
+ with
+ the
+ 21
+ people
+ that
+ we
+ brought
+
+
+over.
+
+
+We
+ didn't
+ have
+ time
+ in
+ this
+ crazy
+
+
+competitive
+ environment
+ to
+ do
+
+
+uh,
+ you
+ know,
+ we
+ couldn't
+ move
+ as
+ as
+
+
+slowly
+ in
+ order
+ to
+ do,
+ um,
+ you
+ know,
+
+
+mandatory
+ poll
+ requests.
+ We
+ couldn't
+
+
+have
+ meetings.
+ We
+ couldn't
+ have
+ our
+ time
+
+
+be
+ sucked
+ up
+ by
+ enterprises
+ that
+ would
+
+
+need
+ to
+ take,
+ you know,
+ many
+ months
+ to
+
+
+decide
+ on
+ something.
+ And
+ so
+ we
+ were
+
+
+forced
+ into
+ this
+ radically
+ different
+ way
+
+
+of
+ working.
+ And
+ we
+ also
+ had
+ this
+
+
+environment
+ where
+ every
+ single
+ person
+ on
+
+
+the
+ team
+ has
+ a huge
+ stake
+ in
+ the
+
+
+company.
+ And
+ that
+ skin
+ in the
+ game
+ that
+
+
+you
+ get
+ when
+ AI
+ makes
+ it so
+ you
+ can
+
+
+operate
+ with
+ way
+ less
+ people.
+ Skin
+ in
+
+
+the
+ game,
+ it's
+ like
+ this
+ spiritual
+ thing
+
+
+for
+ the
+ soul
+ of
+ of
+ great
+ people.
+ It
+
+
+makes
+ them
+ better
+ at
+ everything
+ they
+ do.
+
+
+It
+ makes
+ them
+ grow
+ faster.
+ And
+ so
+ this
+
+
+is
+ what
+ we
+ have
+ seen.
+ Uh,
+ this,
+ I
+ think,
+
+
+when
+ you've
+ seen
+ a company
+ that
+ operates
+
+
+like
+ this
+ without
+ any
+ of
+ that
+
+
+it's
+ obvious
+ how
+ companies
+ like
+ this
+ are
+
+
+going
+ to crush
+ everyone
+ else
+ and
+ how
+
+
+every
+ company
+ in
+ the future
+ is
+ going
+ to
+
+
+look
+ a
+ lot
+ more
+ like
+ that.
+
+
+So,
+ yeah,
+ we
+ spun
+ Amp
+ out
+
+
+and
+ we
+ had
+ to
+ figure
+ out
+ a lot
+ of
+ new
+
+
+ways
+ of
+ working
+ with
+ these
+ constraints
+
+
+that
+ we
+ had
+ no
+ idea
+ that
+ we
+ were going
+
+
+to
+ be
+ under.
+
+
+And
+ we
+ couldn't
+ hire
+ as
+ I
+ said.
+ So,
+ as
+ a
+
+
+result,
+ while
+ our
+ This
+ is a
+ log
+ chart,
+
+
+by
+ the way.
+ While,
+ you
+ know,
+ all
+ the
+
+
+other
+ big
+ competitors
+ in the
+ space
+ were
+
+
+growing
+ and
+ building
+ old-fashioned
+
+
+companies
+ in
+ order
+ to
+ go
+ and
+ exploit
+
+
+this
+ amazing
+ technology
+ of
+ AI,
+ we
+ had
+ to
+
+
+stay
+ at
+ 21
+ people.
+ But
+ that
+ was
+ awesome
+
+
+because
+ it
+ was
+ a forcing
+ function
+ for
+ us
+
+
+to
+ work
+ differently
+ and
+ to figure
+ out
+
+
+how
+ can
+ you
+ do
+ so
+ much
+ more
+ with
+ an
+
+
+agent
+ where
+ we
+ we
+ couldn't
+ hire
+ people.
+
+
+There's
+ actually
+ one
+ guy
+ who
+ is
+ like,
+ I
+
+
+don't
+ care
+ that
+ I can't
+ get
+ options
+ for
+
+
+like
+ 8
+ months
+ and
+ I'm
+ going
+ to come
+ join
+
+
+and
+ Hamish
+ is
+ pretty
+ awesome.
+
+
+So,
+ I
+ want
+ to
+ talk
+ about
+ the
+ ways
+ in
+
+
+which
+ we
+ built
+ Amp,
+ which
+ is
+ our
+ agent
+
+
+product
+
+
+around
+ the
+ way
+ that
+ these
+ constraints
+
+
+forced
+ us
+ to
+ work
+ and
+ how
+ we
+ grew
+ up
+
+
+around
+ the
+ agent
+ here.
+
+
+We
+ got
+ rid
+ of
+ all
+ of the
+ other
+ tools.
+ We
+
+
+got
+ rid
+ of
+ all
+ of
+ the
+ other
+ things
+ you
+
+
+got
+ to
+ check.
+ Obviously
+ not
+ Jira,
+ no
+
+
+task
+ tracking.
+ We
+ don't have
+ a
+ support
+
+
+system.
+ Everything
+ we
+ do
+ in
+ the
+ agent.
+
+
+In
+ Amp,
+ they're
+ called
+ threads.
+ We
+ even
+
+
+communicate
+ in the
+ agent.
+ You can
+ say,
+
+
+you
+ know,
+ I
+ made
+ a
+ Something's
+ bad
+ in
+
+
+the product.
+ Let's
+ do
+ it.
+ The
+ agent
+ can
+
+
+listen
+ to
+ everything
+ and
+ then
+ go
+ fix
+ it.
+
+
+If
+ you're
+ in
+ like
+ a
+ a
+ local
+ agent
+ that
+
+
+runs
+ on
+ your
+ laptop,
+ you
+ can't
+ bring
+
+
+someone
+ else
+ in
+ if
+ you
+ realize
+ you're
+ in
+
+
+over
+ your
+ head.
+
+
+Really
+ valuable.
+ We
+ push
+ way
+ too
+ often.
+
+
+And
+ I want
+ to
+ show,
+ you
+ know,
+ how
+ we
+
+
+actually
+ reduce
+ the
+ risk
+ here
+ because
+
+
+you
+ might
+ say
+
+
+Let
+ me
+ Let
+ me start
+ that
+ again.
+ You
+
+
+might
+ say,
+ well,
+ if you're
+ pushing
+
+
+constantly,
+ then
+ how
+ do
+ you
+ not
+ take
+
+
+down
+ the site
+ all
+ the time?
+
+
+And
+ the
+ difference
+ is
+ when
+ you
+ can
+ push
+
+
+and
+ you
+ can
+ do
+ it
+ anytime
+ a day
+ just
+ by
+
+
+yourself,
+ you
+ can
+ chunk
+ up
+ your
+ work
+
+
+into
+ way
+ smaller
+ pieces.
+ Before
+ you're
+
+
+going
+ and
+ doing
+ a
+ big
+ change,
+ you
+ can
+ go
+
+
+and
+ say,
+ let
+ me
+ add
+ the
+ logging
+ to
+ make
+
+
+sure
+ that
+ my
+ understanding
+ of
+ the
+
+
+agent's
+ understanding
+ of the
+ system
+ is
+
+
+correct.
+ Let
+ me
+ push
+ a little
+ change,
+ a
+
+
+little
+ change,
+ you
+ know,
+ and
+ then
+ the
+
+
+agent
+ can
+ monitor
+ it
+ for
+ an
+ hour
+ and
+
+
+then
+ push
+ the
+ next
+ change.
+ You
+ can
+ run
+ a
+
+
+whole
+ shadow
+ system
+ side
+ by
+ side
+ with
+
+
+the
+ old
+ system
+ to
+ see
+ does
+ it
+ compute
+
+
+the
+ exact
+ same
+ results
+ in
+ every
+ single
+
+
+case.
+
+
+And
+ that
+ way
+ of working
+ actually
+ reduces
+
+
+the
+ risk
+ because
+ by
+ the
+ time,
+ you
+ know,
+
+
+you
+ finish
+ the
+ old
+ way
+ of
+ doing
+ it
+ and
+
+
+the
+ pace
+ that
+ things
+ have
+ to
+ move
+ these
+
+
+days
+ and
+ what
+ your customers
+ expect,
+ you
+
+
+probably
+ forgotten
+ what
+ you're
+ building
+
+
+and
+ it
+ just
+ totally
+ sucks.
+
+
+Um,
+ let
+ me
+ give
+ out
+ some
+ more
+ hats.
+ Who
+
+
+wants
+ some more
+ hats?
+
+
+All
+ right.
+
+
+There
+ we
+ go.
+
+
+Oh,
+ sorry.
+ The
+ one
+ guy
+ who's
+ on
+ his
+
+
+laptop,
+ that's
+ a
+ lesson,
+ right?
+
+
+There
+ we
+ go.
+ All
+ right.
+
+
+Um,
+ another
+ thing
+ is
+ making
+ it so
+ the
+
+
+agent's
+ able
+ to
+ irrefutably
+ prove
+ what
+
+
+uh
+ the
+ you
+ know
+ the thing
+ it's
+ building
+
+
+is
+ correct.
+ Um,
+ there's
+ a lot
+ of
+ ways
+
+
+you can
+ do
+ this.
+ Turns
+ out
+ they're
+
+
+really
+ good
+ at
+ proving
+ these
+ things.
+ So
+
+
+if
+ you're
+ trying
+ to
+ remove
+ like
+ jitter
+
+
+in
+ the
+ UI,
+ make
+ sure
+ that
+ when
+ you
+ load
+
+
+it's
+ like
+ nice
+ and
+ crisp,
+ you
+ can
+ ask
+
+
+the
+ agent
+ to
+ do
+ something
+ that
+ no
+ human
+
+
+would
+ ever
+ have
+ the
+ patience
+ to
+ do,
+
+
+which
+ is
+ take
+ every
+ single
+ frame
+ and
+
+
+compare
+ them
+ visually.
+ And
+ that's
+ what
+ I
+
+
+did
+ here.
+
+
+You
+ can
+ ask
+ the
+ agent
+ to
+ go
+ make
+ a
+ ton
+
+
+of
+ different
+ versions
+ of
+ something.
+ You
+
+
+can never
+ ask
+ a
+ human
+ to
+ like,
+ you
+ know,
+
+
+if
+ you
+ ask
+ a
+ designer
+ go
+ make
+ nine
+
+
+iterations
+ or
+ nine
+ styles
+ of
+ this,
+
+
+they're
+ going
+ to
+ get
+ really
+ annoyed.
+ I
+
+
+know
+ cuz
+ I've
+ worked
+ with
+ designers
+ and
+
+
+I
+ know
+ they
+ don't
+ like
+ that.
+ But
+ for
+ the
+
+
+agent,
+ yeah,
+ you
+ know,
+ you
+ can
+ have
+ it
+
+
+make
+ a
+ ton
+ of
+ different
+ things.
+ This
+ is
+
+
+the
+ uh
+ waveform
+ for
+ dictation
+ in
+ amp.
+
+
+And
+ this
+ is
+ one
+ of the
+ solutions
+ to
+
+
+people
+ who
+ say
+ I
+ don't
+ like
+ waiting
+ on
+
+
+my
+ agent.
+ You
+ know, they're
+ asking
+ for
+
+
+one
+ thing
+ at a
+ time
+ and
+ then
+ they
+ say
+
+
+make
+ this
+ little
+ change.
+ You
+ shouldn't
+
+
+do
+ that.
+ Go
+ have
+ it
+ make
+ a
+ ton
+ of
+ things
+
+
+at
+ once
+ and
+ you're
+ going
+ to get
+ a
+ lot
+
+
+more
+ done.
+
+
+We
+ have
+ this
+ magical
+ system
+ where
+ uh
+ if
+
+
+you
+ report
+ a
+ bug
+ in
+ amp.
+ Has
+ anyone
+ here
+
+
+reported
+ a bug
+ in
+ amp?
+
+
+All
+ right.
+
+
+Cool.
+ Uh
+ I
+ apologize
+ for
+ the
+ bug,
+ but
+
+
+we
+ have
+ a system
+ that
+ is
+ a
+ full
+ loop
+
+
+where
+ when
+ you
+ report
+ a
+ bug,
+ we
+ will
+ fix
+
+
+it,
+ of
+ course,
+ you
+ know,
+
+
+Android
+ app.
+
+
+We'll
+ fix
+ it
+ obviously
+ with
+ the
+ agent.
+ I
+
+
+think
+ everyone
+ does
+ that
+ now.
+ I mostly
+
+
+everyone.
+ A lot
+ of
+ times
+ still
+ the
+
+
+engineers
+ are different
+ from
+ the
+ support
+
+
+team,
+ which
+ is
+ kind
+ of
+ crazy.
+
+
+Um,
+ we'll
+ send
+ an
+ email
+ to
+ the
+ person
+
+
+them.
+ We
+ give
+ them
+ free
+ credits,
+ which
+
+
+is
+ always
+ kind
+ of nice.
+ I
+ think
+ it
+
+
+sucks.
+ I
+ think
+ it
+ sucks
+ when
+ there's
+ a
+
+
+bug
+ and
+ a
+ product
+ and
+ the
+ company
+
+
+doesn't
+ apologize.
+ I just
+ think
+ that's
+
+
+like
+ morally
+ wrong.
+
+
+And
+ then
+ what
+ we'll
+ do
+ is
+ we'll
+ go
+
+
+through
+ the
+ logs
+ and
+ there's
+ something
+
+
+that
+ no
+ human
+ would
+ ever
+ do
+ by
+
+
+themselves.
+ We'll
+ see
+ everyone
+ else
+ who
+
+
+is
+ affected
+ by
+ that
+ issue
+ because
+ where
+
+
+there's
+ smoke,
+ there's
+ fire.
+ So
+ you
+ find
+
+
+the
+ 17
+ other
+ people
+ that
+ hit
+ that
+ same
+
+
+obscure
+ error.
+ They
+ remember
+ it
+ probably
+
+
+and
+ you
+ proactively
+ tell
+ them.
+ How
+ many
+
+
+times
+ have
+ you
+ got
+ an
+ email
+ from
+ some
+
+
+product
+ that
+ says,
+ hey,
+ I
+ know
+ that
+ you
+
+
+saw
+ an
+ error
+ yesterday
+ and
+ that
+ was
+
+
+really
+ annoying.
+ I'm
+ really
+ sorry
+ about
+
+
+that.
+ Here's
+ $10.
+ We
+ fixed
+ it.
+ And
+ by
+
+
+the
+ way,
+ that
+ it's
+ a
+ self-perpetuating
+
+
+cycle
+ where
+ then
+ people
+ who
+ get
+ that
+
+
+know
+ that
+ you
+ care
+ and
+ they're
+ going
+ to
+
+
+send
+ more
+ feedback
+ in
+ the
+ future.
+
+
+And
+ then
+ you
+ ship
+ those
+ all
+ out
+ and
+
+
+then,
+ you
+ know,
+ boom.
+ And
+ that's
+ the
+
+
+cycle.
+ That
+
+
+people
+ talk
+ about
+ vibe
+ coded
+ products
+
+
+being
+ junk.
+ Amp
+ is
+ basically
+ 100%
+ built
+
+
+with
+ AI
+ and
+ people
+ say
+ it's
+ very
+ high
+
+
+quality.
+ And
+ this
+ is
+ one
+ of
+ the
+ things
+
+
+that
+ you can
+ do
+ differently
+ with
+ an
+
+
+agent.
+ But
+ there's
+ no
+ way
+ in
+ hell
+ you
+
+
+could
+ do
+ this
+ if
+ you had
+ to
+ go
+ through
+ a
+
+
+PM
+ or
+ go
+ to the
+ team
+ that
+ owns
+ this
+ bug
+
+
+and
+ the
+ designers
+ each
+ time.
+
+
+Um
+ dictation.
+ Who
+ dictates
+ to
+ their
+
+
+agents?
+ Yeah.
+ Wow,
+ that's
+ that's
+ pretty
+
+
+good.
+ That's
+ a
+ lot
+ more
+ than
+ I
+ thought.
+
+
+It
+ is
+ the
+ fastest
+ way
+ to
+ get
+ bits
+ of
+
+
+information
+ from
+ your
+ brain
+ to
+ the
+
+
+agent.
+
+
+And
+ uh
+ I think
+ that
+ there's
+ probably
+
+
+something
+ around
+ it
+ uh
+
+
+ushering
+ in
+ the
+ return
+ of
+ remote
+ work
+
+
+because
+ I
+ was
+ just
+ in
+ an
+ office
+ today
+
+
+with
+ Beyond,
+ another
+ amp
+ co-founder
+
+
+dictating
+ and
+ it
+ was
+ very
+ annoying.
+ Um
+
+
+dictation,
+ if
+ you're
+ not
+ doing
+ it
+ yet,
+
+
+you
+ got
+ to do
+ it.
+ Just
+ overcome
+ the
+
+
+embarrassment
+ of,
+ you
+ know,
+ uh
+
+
+channel
+ Nathan
+ Fielder
+ and
+ tell
+ yourself
+
+
+that
+ you
+ can
+ withstand
+ any
+ amount
+ of
+
+
+awkwardness
+ as
+ you
+ talk.
+
+
+We've
+ hooked
+ up
+ our
+ agent
+ to
+ a lot
+ of
+
+
+different
+ tools.
+
+
+I
+ think
+ a
+ lot
+ of
+ companies
+ have
+ gotten
+
+
+here,
+ you
+ know,
+ to
+ this
+ point.
+ We've
+
+
+been
+ doing
+ this
+ in
+ production
+ for
+ a
+ long
+
+
+time
+ and
+ what
+ we've
+ found
+ is
+ the
+ more
+
+
+that
+ we
+ start
+ using
+ these
+ tools
+ where
+
+
+just
+ the
+ agent
+ is
+ using
+ it
+ directly,
+ we
+
+
+don't
+ even
+ need
+ the
+ software
+ product
+ on
+
+
+the
+ other
+ end.
+ And
+ it's
+ a
+ very
+ small
+
+
+number
+ of products
+ that
+ we
+ think
+
+
+actually
+ have
+ sticking
+ power
+ for
+ us.
+
+
+So
+ um you
+ know
+ we
+ built
+ some
+ um
+ new
+
+
+things
+ in
+ Amp,
+ for
+ example
+ a
+ CRM.
+ And
+ a
+
+
+year
+ ago
+ you
+ heard
+ people
+ talking
+ about,
+
+
+oh
+ no
+ one's
+ going
+ to
+ vibe
+ code
+
+
+Salesforce
+ from
+ scratch.
+ And
+ yeah
+ that's
+
+
+totally
+ true.
+ Why
+ would
+ you want
+ to?
+
+
+It's
+ Have
+ you
+ ever
+ used
+ it?
+
+
+You
+ know
+ would
+ you
+ be
+ proud
+ if
+ you
+ vibe
+
+
+coded
+ that
+ and
+ that
+ came
+ out
+ the
+ other
+
+
+end?
+
+
+And
+ also
+ you
+ use
+ like
+ 2%
+ of
+ the
+ features
+
+
+of
+ Salesforce.
+ So
+ actually,
+ you
+ know
+
+
+this
+ people
+ ridiculed
+ this
+ idea,
+ but
+
+
+actually
+ would
+ you
+ code
+ the
+ 2%
+ subset
+ of
+
+
+Salesforce
+ features
+ and
+ then
+ another
+ 2%
+
+
+that
+ integrate
+ with
+ the
+ rest
+ of
+ your
+
+
+stack
+ in
+ the
+ most
+ perfect
+ way
+ because
+
+
+the
+ agent
+ is
+ so
+ good
+ at
+ that?
+ And
+ that,
+
+
+you know
+ 4%
+ of
+ Salesforce
+ total,
+ that's
+
+
+like
+ the
+ easy
+ And
+ you
+ know
+ what
+
+
+you want
+ out
+ of that
+ better
+ than
+
+
+Salesforce
+ and
+ you certainly
+ don't
+ want
+
+
+to spend
+ your
+ time
+ talking
+ to
+ some
+
+
+Salesforce
+ product
+ manager
+ and
+
+
+hearing
+ from
+ them,
+ I'm
+ going
+ to advocate
+
+
+with
+ my
+ PM
+ and
+ my
+ executive
+ team
+ to
+ get
+
+
+that
+ on
+ our
+ Q4
+ roadmap,
+ all
+ that
+
+
+
+
+So
+ compared
+ to that,
+
+
+it's
+ actually
+ getting
+ easier
+ and
+ easier
+
+
+to
+ just
+ build
+ the
+ tools
+ that
+ you
+ want
+
+
+from
+ scratch.
+ And
+ this
+ goes
+ back
+ to
+ some
+
+
+of
+ the
+ existential
+
+
+kind
+ of
+ dread
+ but
+ also
+ mind-blowing
+
+
+feeling
+ that we
+ felt
+ when
+ we
+ first
+ tried
+
+
+an
+ agent.
+ This
+ is
+ what
+ we
+ kind
+ of
+
+
+thought
+ would
+ happen.
+
+
+That
+ it
+ would
+ change
+ everything
+ about
+
+
+the
+ software
+ industry.
+ If
+ Salesforce,
+
+
+which
+ is
+ like
+ the
+ king
+ cobra
+ of
+ SaaS,
+
+
+they
+ have
+ the
+ most
+ reliable
+ customers,
+
+
+most
+ reliable
+ renewals,
+ all
+ that,
+ they
+
+
+like
+ invented
+ the
+ category.
+
+
+If
+ we're
+ starting
+ to
+ see,
+ you know
+ why
+
+
+would
+ we
+ use
+ them?
+
+
+Well
+ everything
+ is starting
+ to
+ fall
+ and
+
+
+all
+ of
+ SaaS
+ starts
+ to break
+ down
+ if
+ you
+
+
+can no
+ longer
+ assume
+ that
+ you can
+ pay
+ a
+
+
+salesperson
+ 100k
+ for
+ closing
+ a
+ deal
+ and
+
+
+that
+ deal
+ is
+ going
+ to
+ last
+ for
+ 10
+ years
+
+
+and
+ it's
+ going
+ to
+ uh
+ you know
+ get
+ bigger
+
+
+by
+ a
+ little
+ bit.
+ Not
+ all
+ of
+ that
+ is
+
+
+called
+ into
+ question
+ now.
+ So
+ if
+ you're
+
+
+at
+ a software
+ company
+ and
+ that
+
+
+is
+ how
+ you
+ ultimately
+ make
+ money
+
+
+and
+ you're
+ trying
+ to
+ ring
+ the
+ bell,
+
+
+you're
+ trying
+ to
+ raise
+ the
+ alarm
+ here.
+
+
+Uh,
+ absolutely
+ raise
+ it,
+
+
+and
+ get
+ out
+ of
+ the cage
+
+
+that
+ you
+ are
+ in,
+ because
+
+
+uh,
+ in
+ my
+ opinion,
+
+
+once
+ you
+ have
+ seen
+ how
+ the
+ new
+ kind
+ of
+
+
+companies
+ that
+ are
+ two
+ orders
+ of
+
+
+magnitude
+ smaller,
+ where
+ everyone
+ can
+ do
+
+
+everything
+ and
+ where
+ everyone
+ has
+ skin
+
+
+in
+ the game,
+ then,
+ you
+ know,
+ you
+ don't
+
+
+want
+ anything
+ else.
+ And
+ so
+ this
+ is
+ what
+
+
+we
+ call
+ this
+ new
+ kind
+ of
+ company,
+
+
+where,
+ you
+ know,
+ we
+ take
+ that
+ old
+ org
+
+
+chart,
+ and
+ now
+ we
+ just
+ got
+ 21
+ people
+ on
+
+
+Amp.
+
+
+We
+ have
+ no
+ PMs.
+ Everyone
+ talks
+ to
+
+
+customers.
+ Brady
+ is
+ this
+ guy
+ who
+ is
+ uh
+
+
+an
+ SDR
+ at
+ Sourcegraph,
+ really
+ smart
+ guy.
+
+
+I love
+ the
+ guy.
+ And
+ one
+ day
+ he's
+ like,
+
+
+I'm going
+ to
+ make
+ a
+ wire
+ uh ACH
+ wire
+
+
+transfer
+ thing
+ so
+ customers
+ can
+ pay
+ us,
+
+
+you
+ know,
+ if
+ it's
+ too
+ big
+ for
+ a
+ credit
+
+
+card.
+ And
+ I'm
+ And
+ he's
+ like
+ two
+ years
+
+
+out
+ of college,
+ and
+ he's
+ just
+ doing
+
+
+that.
+ And
+ nobody
+ knows
+ on
+ the
+ other
+ end.
+
+
+It's
+ like
+ that
+ old
+ New
+ Yorker
+ cartoon
+ on
+
+
+the
+ internet,
+ nobody
+ knows
+ you're
+ a
+ dog.
+
+
+You
+ know,
+ nobody
+ knows
+ that
+ he's
+ an
+ SDR,
+
+
+that
+ we're
+ all
+ kind
+ of,
+ you
+ know,
+ devs
+
+
+and
+ doing
+ everything.
+ But
+ you
+ can.
+ And
+
+
+you
+ also
+ get
+ people
+ that
+ are
+ really
+ real
+
+
+with
+ customers.
+ And
+ I think
+ sometimes
+
+
+customers
+ need
+ real
+ talk.
+ So
+ Alex
+ Kemper
+
+
+on
+ our
+ team,
+
+
+you
+ know,
+ just
+ today
+ uh
+ he
+ was
+ like,
+
+
+hey,
+ you
+ know,
+ to
+ a customer
+ who
+ wanted
+
+
+our
+ stuff,
+ that
+ sounds
+ like
+ we're
+ just
+
+
+going
+ to
+ get
+ bogged
+ down
+ in
+ a bunch
+ of
+
+
+BS,
+ and
+ I don't
+ think
+ that's
+ a good
+ use
+
+
+of
+ anyone's
+ time.
+ If
+ you
+ can
+ get
+ to
+ a
+
+
+place
+ where
+ you
+ have
+ people
+ that
+ feel
+
+
+empowered
+ to
+ say
+ that
+ and
+ to
+ truly
+ say
+
+
+the
+ best
+ thing
+ for
+ the
+ customer,
+ that's
+
+
+great.
+ You're
+ not
+ going
+ to get
+ that
+ out
+
+
+of a
+ salesperson
+ who
+ is
+ commissioned.
+
+
+We
+ have,
+ this
+ some
+ people's
+ favorite
+
+
+part,
+ uh
+ we
+ have
+ one
+ meeting
+ per
+ week,
+
+
+and
+ then
+ everything
+ else,
+ the
+ guidance
+
+
+is
+ follow
+ your
+ energy.
+
+
+Um,
+ you
+ couldn't
+ run
+ most
+ companies
+ like
+
+
+that,
+ but
+ if
+ everyone
+ at
+ the
+ company
+ has
+
+
+a
+ massive
+ stake
+ in
+ the
+ company,
+ you
+
+
+know,
+ take
+ 100%
+ divide
+ it
+ by
+ 21,
+ you
+
+
+know,
+ and
+ all
+ that,
+
+
+you
+ can
+ actually
+ trust
+ people
+ because
+
+
+again,
+ when
+ people
+ have
+ skin
+ in
+ the
+
+
+game,
+ it
+ makes
+ them
+ better
+ at
+ everything
+
+
+they
+ do.
+ It's
+ like
+ an
+ incentive
+ to
+ make
+
+
+them
+ think
+ whole
+ company,
+ to
+ make
+ them
+
+
+do
+ more,
+ to
+ make
+ them
+ work
+ harder.
+ And
+
+
+that's
+ why
+ I included
+ Saturday
+ and
+
+
+Sunday
+ as
+ well
+ on
+ this.
+
+
+And
+ we
+ are
+ shipping
+ uh just,
+ you
+ know,
+
+
+so
+ much
+ more.
+ Um,
+ I think
+ that,
+ you
+
+
+know,
+ Amp
+ for
+ many
+ people
+ is
+ a
+ product
+
+
+that
+ they
+ love.
+ We
+ also
+ have
+ a
+ great
+
+
+business
+ and
+ we're
+ serving
+ as
+ proof
+ that
+
+
+this
+ new
+ kind
+ of
+ company
+
+
+that
+ is
+ profitable,
+ that's
+ more
+ than
+ 100
+
+
+million
+ ARR,
+ that
+ is
+ doing
+ so
+ on
+ a
+
+
+dollar
+ in,
+ dollar
+ out,
+ you
+ know,
+ basis
+
+
+that's
+ 40
+ to
+ 50
+ times
+ more
+ efficient
+
+
+than
+ old-fashioned
+ companies
+
+
+here,
+ that
+ that
+ that
+ can
+ work.
+ And
+ so
+ if
+
+
+this
+ is
+ appealing
+ to
+ you,
+ if
+ you
+ want
+ to
+
+
+push
+ your
+ company
+ in
+ this
+ direction,
+ if
+
+
+you
+ want
+ to go
+ start
+ a
+ company
+ like
+
+
+this,
+ then
+ um
+ reach
+ out.
+ I'm
+ happy
+ to
+
+
+help.
+ And
+ my
+ guidance
+ is
+ just
+ get
+ out
+ of
+
+
+the
+ cage.
+ I've
+ heard
+ from
+ so
+ many
+ people
+
+
+who
+ say
+ I
+ hate
+ that
+ there's
+ a
+ gossip
+
+
+channel
+ with
+ the people
+ at my
+ company.
+
+
+We're
+ all
+ talking
+ about
+ the
+ change.
+ You
+
+
+know
+ what?
+ The
+ the
+ longer
+ that
+ you
+ are
+
+
+in
+ the
+ gossip
+ channel,
+ the
+ longer
+ that
+
+
+you
+ are
+ at
+ a company
+ getting
+ paid
+ a
+ lot
+
+
+of
+ money
+ and
+ you're
+ really
+ smart
+ and
+
+
+you're
+ not
+ doing
+ about
+ it,
+ you're
+
+
+starting
+ to
+ become
+ part
+ of the
+ problem.
+
+
+And
+ the
+ longer
+ that
+ you
+ let
+ yourself
+ be
+
+
+just
+ a developer
+ when
+ agents
+ have
+
+
+completely
+ changed
+ the
+ game,
+ you're
+
+
+really
+ hurting
+ yourself.
+ So
+
+
+if
+ this
+ is,
+ you
+ know,
+ the
+ one
+ thing
+ that
+
+
+you
+ take
+ away,
+ just
+ get
+ out
+ of that
+
+
+cage,
+ let
+ agents
+ really
+ shape
+ how
+ you
+
+
+work
+ and
+ get
+ to
+ a
+ company
+ that's
+ willing
+
+
+to be
+ shaped
+ by
+ the
+ agents.
+
+
+Thank
+ you.
+ And
+ um
+ if
+ you
+ want
+ to try
+
+
+Amp,
+ you
+ can
+ get
+ up
+ there,
+ you
+ can
+ copy
+
+
+that.
+ I've
+ got
+ more
+ hats,
+ so
+ find
+ me
+
+
+afterwards
+ and
+ I'll
+ probably
+ be
+ getting
+
+
+dinner
+ at
+ Chipotle
+ or
+ something,
+ so
+ come
+
+
+find
+ me
+ if
+ you
+ want
+ to
+ chat
+ about
+ all
+
+
+this
+ stuff.
+
+
+All right,
+ thank
+ you
+ all.
