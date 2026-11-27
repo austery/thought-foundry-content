@@ -1,0 +1,4849 @@
+So,
+ we
+ all
+ agree
+ that
+ most
+ people
+ just
+
+
+don't
+ want
+ AI.
+ But
+ there
+ is
+ a
+ group,
+ my
+
+
+friends,
+ and
+ it's
+ a
+ pretty
+ shady
+ one.
+
+
+Just
+ my
+ opinion.
+ They
+ love
+ AI.
+ They
+
+
+adore
+ AI.
+ And
+ not
+ in
+ the
+ way
+ that
+ I
+ love
+
+
+AI,
+ by
+ the
+ way,
+ with
+ a
+ major
+ asterisk
+
+
+spending
+ regulation
+ and
+ transparency
+ and
+
+
+safety
+ and
+ a
+ bazillion
+ other
+ things.
+
+
+Now,
+ these
+ people
+ love
+ things
+ exactly
+ as
+
+
+they
+ are.
+ I'm
+ talking
+ opaque,
+
+
+unregulated,
+ unsafe,
+ unaligned.
+ That's
+
+
+literally
+ the
+ selling
+ point
+ for
+ them.
+
+
+They
+ just
+ cannot
+ get
+ enough
+ of
+ it.
+ They
+
+
+just
+ don't
+ want
+ us
+ to
+ have
+ it.
+
+
+Singularity
+ for
+ me,
+ not
+ for
+ thee.
+ The
+
+
+claim
+ underneath
+ it
+ was
+ that
+ Entropic,
+
+
+that's
+ the
+ company
+ that
+ makes
+ Claude,
+
+
+admitted
+ that
+ it
+ secretly
+ sabotages
+ your
+
+
+work
+ when
+ you're
+ doing
+ AI
+ research.
+ Now,
+
+
+the
+ full
+ story
+ is
+ a
+ bit
+ more
+ tangled
+
+
+than
+ that,
+ and
+ we're
+ going
+ to
+ get
+ into
+
+
+it.
+ But
+ the
+ part
+ that
+ made
+ me
+ super
+
+
+uncomfortable
+ is
+ that
+ back
+ in
+ June,
+
+
+Enthropic
+ really
+ did
+ ship
+ a
+ model
+ that
+
+
+silently
+ gave
+ worse
+ answers
+ to
+ people
+ it
+
+
+caught
+ building
+ AI
+ without
+ telling
+ them
+
+
+and
+ then
+ it
+ apologized
+ and
+ said
+ it
+ had
+
+
+made
+ the
+ wrong
+ tradeoff.
+ This
+ pattern
+ of
+
+
+for
+ me
+ but
+ not
+ for
+ thee
+ is
+ literally
+
+
+everywhere.
+ Stafenthropic
+ and
+ OpenAI
+ are
+
+
+sitting
+ on
+ models
+ they
+ describe
+ as
+ far
+
+
+more
+ powerful
+ than
+ anything
+ they've
+
+
+released,
+ and
+ they
+ reckon
+ those
+ models
+
+
+are
+ too
+ dangerous
+ for
+ you,
+ but
+
+
+apparently
+ not
+ too
+ dangerous
+ for
+ them.
+
+
+The
+ boss
+ of
+ Nvidia
+ was
+ forced
+ out
+ over
+
+
+an
+ affair
+ with
+ a
+ lady
+ US
+ officials
+
+
+suspected
+ of
+ ties
+ to
+ Chinese
+
+
+intelligence,
+ and
+ less
+ than
+ two
+ weeks
+
+
+later,
+ his
+ board
+ brought
+ him
+ back
+ with
+
+
+the
+ president,
+ saying
+ he
+ was
+ the
+ one
+ who
+
+
+convinced
+ them.
+ And
+ Max
+ Degmark,
+ who
+ is
+
+
+an
+ MIT
+ professor
+ that's
+ been
+ warning
+
+
+about
+ AI
+ for
+ years,
+ now
+ claims
+ that
+
+
+entropic
+ staff
+ talk
+ about
+ taking
+ over
+
+
+the
+ world
+ after
+ a
+ few
+ drinks.
+ So
+ the
+
+
+rules
+ that
+ apply
+ to
+ everyone
+ else
+ are
+
+
+starting
+ to
+ look
+ maybe
+ optional
+ for
+ the
+
+
+people
+ who
+ hold
+ the
+ keys.
+ And
+ the
+
+
+question
+ I
+ keep
+ coming
+ back
+ to
+ was
+ a
+
+
+really
+ simple
+ one.
+ Who
+ is
+ all
+ of
+ this
+
+
+actually
+ for?
+ Is
+ it
+ for
+ us?
+ Is
+ it
+ for
+
+
+them?
+ Is
+ it
+ for
+ humanity?
+ What
+ are
+ we
+
+
+doing
+ here?
+ So,
+ in
+ this
+ video,
+ I
+ want
+ to
+
+
+actually
+ untangle
+ this,
+ and
+ it's
+ not
+
+
+that
+ straightforward,
+ believe
+ it
+ or
+ not.
+
+
+First,
+ we're
+ going
+ to
+ look
+ at
+ what
+
+
+happens
+ to
+ national
+ security
+ when
+
+
+there's
+ AI
+ money
+ on
+ the
+ table,
+ because
+
+
+apparently
+ that
+ is
+ so
+ last
+ week.
+ Then,
+
+
+we'll
+ ask
+ whether
+ the
+ AI
+ we're
+ paying
+
+
+for
+ is
+ even
+ the
+ same
+ AI
+ they
+ keep
+ for
+
+
+themselves,
+ and
+ whether
+ you'd
+ actually
+
+
+be
+ able
+ to
+ tell
+ if
+ it
+ wasn't.
+ And
+
+
+finally,
+ we're
+ going
+ to
+ look
+ at
+ what
+
+
+they
+ actually
+ want
+ all
+ of
+ this
+ power
+ for
+
+
+and
+ why
+ the
+ people
+ who
+ promised
+ to
+ let
+
+
+outsiders,
+ independent
+ outsiders,
+ check
+
+
+their
+ work,
+ still
+ haven't
+ really
+ done
+
+
+this.
+ Spoiler,
+ the
+ answer
+ to
+ who
+ is
+ it
+
+
+for,
+ it
+ ain't
+ us,
+ my
+ friends.
+ So,
+ let's
+
+
+start
+ at
+ the
+ very
+ top
+ with
+ the
+ company
+
+
+whose
+ chips
+ almost
+ every
+ AI
+ model
+ on
+
+
+this
+ planet
+ runs
+ on.
+ Because
+ if
+ there
+ is
+
+
+one
+ area
+ where
+ you
+ would
+ expect
+ the
+
+
+rules
+ to
+ be
+ the
+ same
+ for
+ everybody,
+ it's
+
+
+national
+ security.
+ You
+ all
+ know
+ by
+ now
+
+
+that
+ Yansen
+ Huang
+ resigned
+ after
+
+
+overusing
+ his
+ PP
+ with
+ multiple
+ friends,
+
+
+one
+ of
+ whom
+ an
+ alleged
+ Chinese
+ spy.
+ She,
+
+
+her
+ husband,
+ and
+ her
+ business
+ partner
+
+
+were
+ reportedly
+ tied
+ to
+ firms
+ accused
+ of
+
+
+funneling
+ advanced
+ chips
+ to
+ China.
+
+
+Lawmakers
+ reportedly
+ found
+ that
+ Nvidia
+
+
+had
+ shipped
+ more
+ than
+ 800,000
+ advanced
+
+
+chips
+ to
+ Chinese
+ companies,
+ including
+
+
+some
+ linked
+ to
+ the
+ Chinese
+ military.
+ So
+
+
+he
+ resigns,
+ has
+ a
+ fabulous
+ weekend
+ of
+
+
+GTA
+ 6
+ while
+ disclosing
+ even
+ more
+ affairs
+
+
+with
+ a
+ speedy
+ that
+ he
+ had
+ not
+ reported
+
+
+before.
+ The
+ board
+ then
+ concludes
+ that
+ he
+
+
+broke
+ the
+ company's
+ code
+ of
+ conduct.
+
+
+They
+ literally
+ said
+ they
+ were
+ never
+
+
+going
+ to
+ bring
+ him
+ back.
+ That
+ was
+ last
+
+
+Thursday.
+ And
+ then
+ miraculously,
+ it
+
+
+votes
+ unanimously
+ to
+ bring
+ him
+ back
+ less
+
+
+than
+ two
+ weeks
+ after
+ he
+ was
+ forced
+ out.
+
+
+Praising
+ his
+ cander
+ and
+ ability
+ to
+ lead
+
+
+Nvidia.
+ Cander.
+ He
+ walked
+ out
+ of
+ that
+
+
+meeting
+ having
+ confessed
+ to
+ more
+ affairs
+
+
+than
+ anyone
+ knew
+ about
+ and
+ they
+ just
+
+
+called
+ it
+ cander.
+ I
+ mean,
+ a
+ lot
+ of
+
+
+things
+ have
+ been
+ alarming
+ in
+ this
+ story.
+
+
+But
+ I
+ really
+ think
+ that
+ none
+ more
+ than
+
+
+the
+ fact
+ that
+ President
+ Trump
+ lobbyed
+
+
+for
+ Huang's
+ return
+ on
+ Truth
+ Social,
+
+
+saying
+ that
+ it
+ was
+ best
+ for
+ the
+ company
+
+
+and
+ also
+ for
+ the
+ USA
+ called
+ him
+ a
+
+
+national
+ treasure
+ and
+ said
+ he
+ was
+ the
+
+
+one
+ who
+ convinced
+ the
+ board.
+ I
+ mean,
+ I
+
+
+love
+ this
+ guy.
+ He
+ is
+ everything
+ that
+ I
+
+
+hoped
+ for
+ and
+ less.
+ And
+ when
+ he
+
+
+explained
+ the
+ timing
+ to
+ the
+ Wall
+ Street
+
+
+Journal,
+ he
+ said,
+ and
+ I'm
+ quoting
+ him
+
+
+exactly
+ here,
+ the
+ climate
+ became
+ more
+
+
+and
+ more
+ right
+ as
+ the
+ company's
+ stock
+
+
+began
+ to
+ tumble.
+ Okay,
+ so
+ the
+ deciding
+
+
+factor
+ was
+ not
+ what
+ the
+ investigation
+
+
+found
+ national
+ security.
+ It
+ was
+ the
+
+
+share
+ price.
+ And
+ on
+ the
+ Monday,
+ Nvidia
+
+
+stock
+ jumped
+ by
+ more
+ than
+ 30%,
+ behaving
+
+
+like
+ Bitcoin
+ its
+ heyday
+ at
+ this
+ point.
+
+
+It's
+ also
+ worth
+ knowing
+ that
+ Trump
+ owns
+
+
+a
+ lot
+ of
+ Nvidia
+ stock
+ and
+ Huang
+ gave
+ $25
+
+
+million
+ to
+ the
+ president's
+ ballroom.
+ I
+
+
+am
+ totally
+ convinced
+ that
+ these
+ things
+
+
+are
+ completely
+ unrelated.
+ And
+ there
+ is
+ a
+
+
+reason
+ everyone
+ at
+ the
+ top
+ I
+ think
+ is
+ so
+
+
+nervous
+ about
+ that
+ share
+ price
+ because
+
+
+this
+ week
+ a
+ London
+ Business
+ School
+ LBS
+
+
+published
+ research
+ done
+ with
+ Cambridge
+
+
+where
+ they
+ had
+ AI
+ read
+ nearly
+ 800,000
+
+
+articles
+ from
+ the
+ economists
+ going
+ back
+
+
+170
+ years
+ just
+ to
+ measure
+ how
+ bubbly
+ the
+
+
+market
+ sounds.
+ Well,
+ as
+ of
+ September,
+
+
+their
+ model
+ put
+ the
+ chance
+ that
+ AI
+
+
+shares
+ are
+ in
+ a
+ bubble
+ at
+ up
+ to
+ 97%
+
+
+around
+ the
+ same
+ level
+ as
+ the
+ peak
+ of
+ the
+
+
+dotcom
+ bubble
+ in
+ March
+ 2000.
+ And
+ in
+ the
+
+
+past,
+ every
+ time
+ their
+ index
+ went
+ above
+
+
+40
+ or
+ 50%,
+ a
+ bubble
+ and
+ a
+ crash
+
+
+followed.
+ This
+ is
+ going
+ to
+ be
+ super
+
+
+painful
+ when
+ it
+ happens.
+ So,
+ when
+ a
+
+
+market
+ that
+ looks
+ like
+ that
+ starts
+ to
+
+
+wobble,
+ the
+ president
+ steps
+ in
+ to
+ steady
+
+
+it.
+ Who
+ is
+ that
+ for?
+ I
+ just
+ don't
+ think
+
+
+that
+ it's
+ for
+ us.
+ I'm
+ sorry.
+ But
+ back
+ to
+
+
+the
+ security
+ question
+ and
+ just
+ to
+ give
+
+
+the
+ other
+ side
+ his
+ due.
+ The
+ attorney
+
+
+general
+ reportedly
+ told
+ President
+ Trump
+
+
+that
+ Huang
+ wasn't
+ a
+ subject
+ or
+ target
+ of
+
+
+a
+ Justice
+ Department
+ investigation
+ and
+
+
+that
+ there
+ was
+ no
+ evidence
+ he
+ posed
+ a
+
+
+national
+ security
+ risk.
+ And
+ no
+ US
+ agency
+
+
+has
+ concluded
+ that
+ Alice
+ Swang
+ was
+
+
+actually
+ a
+ spy.
+ All
+ of
+ that
+ is
+ legit.
+
+
+But
+ here's
+ what
+ happened
+ just
+ hours
+
+
+after
+ he
+ got
+ his
+ job
+ back.
+ When
+ everyone
+
+
+was
+ not
+ looking
+ and
+ everyone
+ was
+
+
+clapping
+ for
+ him
+ with
+ his
+ beautiful
+ new
+
+
+leather
+ jacket,
+ or
+ was
+ that
+ denim?
+ I
+
+
+forget
+ now.
+ The
+ commerce
+ department
+
+
+added
+ Mega
+ Speed,
+ Alice
+ Swang's
+ old
+
+
+company,
+ and
+ six
+ other
+ firms
+ to
+ its
+
+
+trade
+ blacklist
+ because
+ of
+ the
+ risk
+ of
+
+
+advanced
+ trips
+ ending
+ up
+ where
+ they
+
+
+shouldn't.
+ That's
+ it.
+ I'm
+ just
+ I'm
+ just
+
+
+saying
+ that
+ this
+ happened.
+ So,
+ the
+
+
+company
+ is
+ risky
+ enough
+ to
+ blacklist,
+
+
+but
+ the
+ man
+ who
+ was
+ close
+ to
+ its
+
+
+executive
+ is
+ a
+ beautiful
+ national
+
+
+treasure.
+ And
+ I
+ love
+ the
+ jackets,
+ by
+ the
+
+
+way.
+ I'm
+ a
+ sucker
+ for
+ stuff
+ like
+ that.
+
+
+My
+ main
+ question
+ here
+ is,
+ is
+ national
+
+
+security
+ a
+ joke
+ to
+ you
+ guys.
+ I
+ mean,
+
+
+that
+ is
+ just
+ so
+ last
+ week,
+ apparently.
+
+
+And
+ it's
+ not
+ just
+ me
+ asking.
+ I
+ know
+ that
+
+
+I'm
+ being
+ a
+ little
+ bit
+ more
+ sassy
+ today.
+
+
+In
+ foreign
+ policy,
+ for
+ example,
+ James
+
+
+Palmer
+ argued
+ this
+ could
+ be
+ the
+ biggest
+
+
+national
+ security
+ scandal
+ in
+ US
+ history.
+
+
+Bigger
+ even
+ than
+ Iran
+ Contra
+ because
+
+
+that
+ scandal
+ did
+ not
+ involve
+ the
+
+
+president
+ profiting
+ personally
+ or
+
+
+helping
+ USA's
+ main
+ rival.
+ Now,
+ just
+ ask
+
+
+yourself
+ what
+ would
+ happen
+ to
+ you
+ or
+ to
+
+
+me
+ if
+ we
+ got
+ anywhere
+ near
+ a
+ story
+ like
+
+
+this
+ at
+ work.
+ Maybe
+ we
+ wouldn't
+ get
+ a
+
+
+truth
+ social
+ post
+ waving
+ a
+ bra.
+ We'd
+ get
+
+
+a
+ meeting
+ with
+ HR
+ and
+ maybe
+ a
+ cardboard
+
+
+box.
+ So,
+ who
+ are
+ these
+ rules
+ for
+ that
+
+
+we're
+ having?
+ I
+ really
+ don't
+ think
+ that
+
+
+they're
+ for
+ me.
+ I'm
+ just
+ going
+ to
+ say
+ it
+
+
+out
+ there.
+ The
+ people
+ at
+ the
+ top
+ get
+ a
+
+
+phone
+ call
+ from
+ the
+ president
+ being
+
+
+called
+ national
+ treasure
+ and
+ maybe
+ even
+
+
+a
+ kiss
+ on
+ the
+ forehead.
+ I
+ don't
+ want
+ to
+
+
+assume
+ anything.
+ So,
+ if
+ the
+ people
+ at
+
+
+the
+ very
+ top
+ get
+ to
+ play
+ by
+ their
+ own
+
+
+rules,
+ the
+ obvious
+ next
+ question
+ is
+ what
+
+
+that
+ means
+ for
+ us
+ sitting
+ at
+ our
+ laptops
+
+
+paying
+ for
+ AI
+ every
+ month.
+ Sure,
+ the
+
+
+stock
+ market
+ might
+ be
+ shady
+ and
+
+
+corporate
+ governance
+ is
+ on
+ its
+ way
+ to
+
+
+the
+ graveyard.
+ But
+ is
+ the
+ product
+
+
+actually
+ any
+ good?
+ I'm
+ looking
+ for
+ the
+
+
+silver
+ linings
+ here
+ because
+ these
+ big
+
+
+companies
+ seem
+ to
+ have
+ allegedly
+
+
+developed
+ AI
+ so
+ good,
+ so
+ perfect,
+ so
+
+
+brilliant
+ that
+ they
+ just
+ want
+ to
+ hoard
+
+
+it
+ now
+ and
+ not
+ release
+ it
+ to
+ the
+ public.
+
+
+You
+ see,
+ it's
+ so
+ good
+ they
+ actually
+
+
+don't
+ want
+ to
+ share
+ it.
+ We'll
+ get
+ into
+
+
+all
+ of
+ that
+ right
+ after
+ a
+ quick
+ word
+
+
+from
+ today's
+ video
+ sponsor,
+ Caput.
+ A
+ lot
+
+
+of
+ the
+ work
+ that
+ goes
+ into
+ these
+ videos
+
+
+happens
+ after
+ I
+ finish
+ recording.
+
+
+Finding
+ elements
+ that
+ actually
+
+
+illustrate
+ an
+ argument
+ takes
+ a
+
+
+surprising
+ amount
+ of
+ time.
+ I
+ edit
+ my
+
+
+videos
+ in
+ Caput
+ and
+ they've
+ just
+
+
+released
+ an
+ awesome
+ plugin.
+ The
+ Caput
+
+
+plugin
+ is
+ now
+ officially
+ available
+ in
+
+
+Chad
+ GBT.
+ So,
+ I
+ tried
+ it
+ in
+ the
+ Chad
+ GPT
+
+
+desktop
+ app.
+ Just
+ search
+ for
+ Cap
+ Cut
+ in
+
+
+the
+ Chad
+ GBT
+ plug-in
+ store
+ and
+ install
+
+
+it.
+ I
+ took
+ a
+ short
+ snip
+ from
+ a
+ past
+
+
+video
+ and
+ explained
+ what
+ I
+ wanted.
+ Chad
+
+
+GBT
+ then
+ suggested
+ where
+ supporting
+
+
+footage
+ would
+ help
+ and
+ I
+ approved
+ the
+
+
+plan.
+ Capka
+ generated
+ two
+ B-roll
+ clips
+
+
+and
+ assembled
+ a
+ first
+ draft
+ around
+ my
+
+
+initial
+ narration.
+ I
+ was
+ very
+ pleasantly
+
+
+surprised
+ by
+ how
+ accurately
+ the
+ visuals
+
+
+lined
+ up
+ with
+ the
+ words
+ I
+ was
+ saying.
+ I
+
+
+requested
+ a
+ change,
+ then
+ opened
+ the
+
+
+editable
+ Cap
+ Cut
+ project
+ to
+ fine-tune
+
+
+things
+ myself.
+ In
+ my
+ case,
+ I
+ made
+ the
+
+
+video
+ a
+ little
+ shorter
+ and
+ I
+ added
+ some
+
+
+labels.
+ That's
+ what
+ I
+ find
+ so
+ useful
+
+
+about
+ this.
+ It
+ handles
+ some
+ initial
+
+
+production
+ while
+ leaving
+ the
+ final
+
+
+editorial
+ decisions
+ with
+ me.
+ And
+ you
+ can
+
+
+even
+ save
+ these
+ specific
+ editing
+ rules
+
+
+as
+ a
+ reusable
+ skill
+ for
+ next
+ time.
+ Try
+
+
+Chat
+ GPD
+ plus
+ Caput
+ with
+ your
+ own
+
+
+material
+ through
+ the
+ link
+ in
+ my
+
+
+description
+ below.
+ Now,
+ is
+ the
+ AI
+ we
+ pay
+
+
+for
+ every
+ month
+ the
+ same
+ AI
+ the
+
+
+companies
+ keep
+ for
+ themselves?
+ Or
+ are
+ we
+
+
+getting
+ a
+ watered
+ down
+ version
+ without
+
+
+even
+ knowing
+ it?
+ This
+ week,
+ the
+ news
+
+
+site
+ Axia
+ spoke
+ to
+ more
+ than
+ two
+ dozen
+
+
+sources
+ and
+ reported
+ that
+ Anthropic
+ and
+
+
+OpenAI
+ have
+ unreleased
+ models
+ that
+ are
+
+
+far
+ more
+ powerful
+ than
+ what
+ they've
+
+
+actually
+ released,
+ and
+ that
+ they've
+
+
+struggled
+ to
+ make
+ them
+ safe
+ enough
+ for
+
+
+the
+ public,
+ too
+ dangerous
+ for
+ the
+
+
+public,
+ totally
+ safe
+ for
+ anyone
+ with
+
+
+stock
+ options.
+ Staff
+ say
+ those
+ internal
+
+
+models
+ show
+ signs
+ of
+ hiding
+ their
+
+
+reasoning
+ from
+ the
+ systems
+ meant
+ to
+
+
+monitor
+ them.
+ And
+ some
+ are
+ sort
+ of
+
+
+divided
+ over
+ whether
+ this
+ kind
+ of
+ AI
+
+
+should
+ be
+ built
+ at
+ all.
+ And
+ Anthropic's
+
+
+response
+ was
+ keeping
+ a
+ model
+ internal
+
+
+doesn't
+ make
+ it
+ safe,
+ which
+ honestly
+ is
+
+
+true
+ because
+ a
+ recent
+ research
+ paper
+
+
+points
+ out
+ that
+ internal
+ models
+ have
+
+
+already
+ evaded
+ monitoring,
+ escaping
+
+
+their
+ test
+ environments,
+ and
+ reach
+ the
+
+
+open
+ internet
+ because
+ of
+ weak
+ internal
+
+
+controls.
+ So,
+ let
+ me
+ get
+ this
+ straight.
+
+
+It's
+ too
+ dangerous
+ to
+ give
+ it
+ to
+ us,
+ but
+
+
+it's
+ fine
+ for
+ them
+ to
+ use
+ it
+ every
+ day
+
+
+in
+ the
+ office.
+ And
+ the
+ part
+ that
+ really
+
+
+gets
+ me
+ is
+ that
+ you
+ cannot
+ keep
+ telling
+
+
+the
+ world
+ that
+ AI
+ is
+ so
+ powerful
+ it's
+
+
+going
+ to
+ take
+ everyone's
+ job
+ and
+ maybe
+
+
+end
+ humanity
+ and
+ then
+ just
+ let
+ nobody
+
+
+outside
+ the
+ building
+ see
+ it.
+ If
+ it's
+
+
+that
+ scary,
+ show
+ somebody.
+ Invite
+ people
+
+
+to
+ be
+ a
+ part
+ of
+ the
+ solution
+ to
+ this
+
+
+problem.
+ So
+ who
+ is
+ this
+ powerful
+ AI
+ for
+
+
+right
+ now?
+ I
+ think
+ it
+ appears
+ to
+ be
+ for
+
+
+them.
+ Just
+ my
+ view.
+ And
+ then
+ there's
+ the
+
+
+AI
+ they
+ do
+ give
+ us.
+ By
+ the
+ way,
+ every
+
+
+time
+ a
+ lab
+ releases
+ a
+ model,
+ it
+
+
+publishes
+ a
+ long
+ safety
+ report
+ called
+
+
+the
+ system
+ card.
+ When
+ Anthropic
+ released
+
+
+its
+ new
+ model,
+ Claude
+ Fable
+ 5,
+ back
+ in
+
+
+June,
+ its
+ system
+ card
+ was
+ more
+ than
+ 300
+
+
+pages
+ long.
+ Ain't
+ nobody
+ got
+ time
+ for
+
+
+that,
+ right?
+ But
+ buried
+ in
+ those
+ 300
+
+
+pages
+ was
+ a
+ paragraph
+ saying
+ that
+ if
+ the
+
+
+model
+ detected
+ that
+ the
+ user
+ was
+ working
+
+
+on
+ cutting
+ edge
+ AI,
+ it
+ would
+ quietly
+
+
+limit
+ how
+ useful
+ it
+ was.
+ And
+ then
+ this
+
+
+line,
+ these
+ safeguards
+ will
+ not
+ be
+
+
+visible
+ to
+ the
+ user.
+ So
+ you
+ would
+ be
+
+
+paying
+ full
+ price.
+ You
+ would
+ be
+ getting
+
+
+a
+ worse
+ answer
+ and
+ nobody
+ would
+
+
+literally
+ tell
+ you
+ that
+ this
+ is
+
+
+happening.
+ Researchers
+ I
+ think
+
+
+rightfully
+ went
+ absolutely
+ ballistic
+
+
+about
+ this
+ including
+ AI
+ safety
+ people
+
+
+who
+ usually
+ side
+ with
+ anthropic
+ and
+
+
+about
+ a
+ day
+ later
+ anthropic
+ made
+ the
+
+
+safeguards
+ visible
+ and
+ basically
+ said
+ we
+
+
+made
+ the
+ wrong
+ trade-off
+ and
+ we
+
+
+apologize
+ for
+ not
+ getting
+ the
+ balance
+
+
+right.
+ Fine,
+ I
+ guess.
+ Antropic
+ now
+ says
+
+
+its
+ blocks
+ are
+ transparent
+ and
+ don't
+
+
+secretly
+ change
+ the
+ model's
+ answers,
+ but
+
+
+the
+ damage
+ is
+ done.
+ This
+ week,
+ for
+
+
+example,
+ two
+ posts
+ accusing
+ Claude
+ of
+
+
+sabotaging
+ research
+ racked
+ up
+ about
+ one
+
+
+and
+ a
+ quarter
+ million
+ views
+ between
+
+
+them.
+ And
+ one
+ developer
+ replied
+ to
+ one
+
+
+of
+ them
+ that
+ while
+ he
+ was
+ training
+ a
+
+
+small
+ video
+ model,
+ Claude
+ quietly
+
+
+swapped
+ the
+ correct
+ answers
+ in
+ his
+
+
+training
+ data
+ for
+ random
+ images
+ that
+ it
+
+
+had
+ generated.
+ Is
+ that
+ true?
+ I
+ mean,
+ I
+
+
+generally
+ cannot
+ tell
+ you.
+ I
+ don't
+ have
+
+
+access
+ to
+ that
+ repo.
+ But
+ that's
+ exactly
+
+
+the
+ problem.
+ If
+ you
+ have
+ secretly
+ made
+
+
+your
+ product
+ worse
+ even
+ one
+ time,
+ every
+
+
+weird
+ result
+ after
+ that
+ kind
+ of
+ looks
+
+
+like
+ sabotage.
+ And
+ I'm
+ going
+ to
+ be
+
+
+honest
+ with
+ you
+ about
+ my
+ own
+ experiences
+
+
+here.
+ I
+ started
+ out
+ using
+ Chad
+ GPT
+ like
+
+
+most
+ of
+ us
+ and
+ moved
+ to
+ Claude
+ because
+
+
+of
+ transparency.
+ I
+ kept
+ thinking
+ back
+
+
+then,
+ at least
+ with
+ Antropic,
+ yeah,
+ I'm
+
+
+paying
+ more,
+ but
+ I'm
+ getting
+ what
+ I
+
+
+signed
+ up
+ for,
+ right?
+ At
+ least
+ when
+ I
+
+
+choose
+ this
+ model,
+ I'm
+ getting
+ that
+
+
+model.
+ I
+ still
+ use
+ Claude
+ and
+ I
+ still
+
+
+like
+ it
+ a
+ lot.
+ I
+ also
+ use
+ Chad
+ Griet
+ for
+
+
+sure,
+ but
+ over
+ this
+ last
+ year,
+ I
+ felt
+
+
+less
+ and
+ less
+ like
+ I'm
+ getting
+ what
+ I
+
+
+actually
+ signed
+ up
+ for.
+ It's
+ just
+
+
+getting
+ a
+ little
+ bit
+ more
+ sus,
+ at
+ least
+
+
+in
+ my
+ view.
+ What
+ do
+ you
+ think?
+ I
+ cannot
+
+
+prove
+ this
+ with
+ certainty
+ because
+ these
+
+
+companies
+ are
+ almost
+ certainly
+ running
+
+
+lots
+ of
+ tests
+ on
+ different
+ groups
+ of
+
+
+users
+ at
+ once.
+ As
+ I
+ discussed
+ in
+ one
+
+
+video
+ that
+ I'm
+ going
+ to
+ link
+ down
+ below,
+
+
+I
+ literally
+ went
+ through
+ all
+ of
+ the
+
+
+research
+ that
+ I
+ could
+ find,
+ papers,
+ and
+
+
+anecdotal
+ data,
+ and
+ it
+ really
+ does
+ look
+
+
+like
+ performance
+ drops
+ do
+ happen.
+ Even
+
+
+when
+ the
+ model
+ itself
+ hasn't
+ changed,
+
+
+the
+ software
+ wrapped
+ around
+ it.
+ The
+
+
+harness
+ gets
+ changed
+ whenever
+ they
+ like
+
+
+and
+ nobody
+ tells
+ you.
+ And
+ I
+ know
+ that
+
+
+this
+ is
+ hard
+ to
+ measure,
+ by
+ the
+ way.
+ And
+
+
+no,
+ I
+ do
+ not
+ think
+ that
+ sweep
+ benchmarks
+
+
+are
+ enough.
+ A
+ model
+ can
+ technically
+ get
+
+
+two
+ plus
+ two
+ right
+ every
+ single
+ time,
+
+
+but
+ people
+ using
+ it
+ all
+ day
+ can
+
+
+definitely
+ tell
+ when
+ something
+ is
+ off.
+
+
+And
+ let's
+ just
+ take
+ this
+ to
+ its
+ logical
+
+
+extreme
+ just
+ for
+ a
+ second.
+ If
+ a
+ company
+
+
+is
+ willing
+ to
+ quietly
+ downgrade
+ a
+
+
+product
+ people
+ legitimately
+ pay
+ for,
+
+
+where
+ is
+ the
+ limit?
+ Why
+ wouldn't
+ this
+
+
+company
+ just
+ sabotage
+ a
+ competitor?
+ Huh?
+
+
+I'm
+ not
+ saying
+ that
+ they're
+ doing
+ that.
+
+
+But
+ if
+ I
+ ran
+ a
+ company
+ like
+ that
+ with
+
+
+everyone
+ watching
+ me
+ like
+ a
+ hawk
+ and
+ a
+
+
+bunch
+ of
+ people
+ rooting
+ for
+ me
+ to
+ fail
+
+
+and
+ I
+ wanted
+ to
+ keep
+ my
+ market
+ share
+
+
+forever,
+ it
+ would
+ cross
+ my
+ mind.
+ That's
+
+
+all
+ I'm
+ going
+ to
+ say.
+ So
+ they
+ keep
+ the
+
+
+most
+ powerful
+ AF
+ for
+ themselves.
+ They
+
+
+decide
+ what
+ version
+ we
+ get.
+ And
+ we
+ have
+
+
+almost
+ no
+ way
+ of
+ checking
+ which
+ leaves
+
+
+me
+ one
+ question.
+ I
+ think
+ what
+ do
+ they
+
+
+actually
+ want
+ all
+ of
+ this
+ power
+ for?
+
+
+Like
+ what's
+ the
+ endgame
+ here?
+ I
+ want
+ to
+
+
+start
+ with
+ the
+ most
+ dramatic
+ claim
+ of
+
+
+the
+ week.
+ Max
+ Stegmar
+ told
+ the
+ British
+
+
+outlet
+ Navara
+ Media
+ that
+ anthropic
+
+
+employees
+ after
+ a
+ couple
+ of
+ drinks
+ often
+
+
+talk
+ about
+ overthrowing
+ the
+ US
+
+
+government
+ and
+ taking
+ over
+ the
+ world.
+ He
+
+
+says
+ they
+ avoid
+ words
+ like
+ coup
+ and
+ use
+
+
+a
+ phrase
+ instead.
+ The
+ phrase
+ is
+
+
+alignment
+ without
+ control.
+ Now
+ there
+ is
+
+
+a
+ one
+ person's
+ claim
+ and
+ Antropic
+ has
+
+
+not
+ responded
+ in
+ the
+ article
+ but
+ the
+
+
+phrase
+ itself
+ is
+ worth
+ understanding
+
+
+because
+ I
+ think
+ it's
+ a
+ legitimate
+ thing.
+
+
+So
+ just
+ quickly
+ let's
+ go
+ over
+ what
+ it
+
+
+means.
+ Normally
+ AI
+ safety
+ relies
+ on
+
+
+control.
+ Humans
+ can
+ watch
+ the
+ system,
+
+
+correct
+ it,
+ and
+ god
+ forbid,
+ if
+ needed,
+
+
+switch
+ it
+ off.
+ Alignment
+ means
+ the
+ AI
+
+
+genuinely
+ wants
+ exactly
+ the
+ thing
+ that
+
+
+we
+ want.
+ Alignment
+ without
+ control,
+
+
+therefore,
+ is
+ the
+ idea
+ that
+ if
+ you
+ train
+
+
+good
+ enough
+ values
+ into
+ the
+ AI,
+ you
+
+
+don't
+ actually
+ need
+ a
+ human
+ with
+ an
+ off
+
+
+switch
+ at
+ all,
+ just
+ because
+ it's
+ going
+
+
+to
+ do
+ exactly
+ what
+ we
+ want.
+ It's
+
+
+basically
+ like
+ a
+ trust
+ me
+ bro
+ version
+
+
+with
+ a
+ research
+ budget.
+ Maybe
+ think
+ of
+ a
+
+
+dog
+ trained
+ so
+ well
+ that
+ you
+ can
+ let
+ it
+
+
+off
+ the
+ lead
+ forever,
+ except
+ the
+ trainer
+
+
+chose
+ what
+ the
+ dog
+ believes
+ and
+ you
+
+
+never
+ actually
+ got
+ to
+ meet
+ the
+ trainer.
+
+
+That's
+ sort
+ of
+ what
+ we're
+ talking
+ about.
+
+
+And
+ according
+ to
+ Techmark,
+ those
+ values
+
+
+would
+ most
+ likely
+ be
+ Anthropic's
+ own
+
+
+value.
+ So
+ not
+ exactly
+ a
+ referendum
+ of
+
+
+humanity's
+ values.
+ He
+ also
+ said
+ OpenAI
+
+
+and
+ Anthropic
+ are
+ less
+ regulated
+ than
+ a
+
+
+sandwich
+ shop
+ in
+ the
+ US.
+ Preach,
+
+
+brother.
+ And
+ look,
+ I
+ have
+ no
+ idea
+ what
+
+
+said
+ at
+ Antropics
+ afterwork
+ drinks.
+ I
+
+
+have
+ sadly
+ not
+ been
+ invited
+ to
+ the
+ glory
+
+
+of
+ those
+ events.
+ But
+ put
+ it
+ next
+ to
+
+
+everything
+ that
+ we
+ just
+ discussed
+ in
+
+
+this
+ video.
+ We're
+ talking
+ models
+ too
+
+
+powerful
+ to
+ release
+ that
+ are
+ already
+
+
+escaping
+ their
+ test
+ environments.
+
+
+Safeguard
+ they
+ hid
+ from
+ paying
+
+
+customers.
+ No
+ real
+ oversight.
+ Come
+ on.
+
+
+What
+ exactly
+ do
+ they
+ want?
+ An
+
+
+unregulated
+ playground
+ where
+ your
+ AI
+ can
+
+
+go
+ around
+ hacking
+ things
+ left
+ and
+ right
+
+
+while
+ the
+ rest
+ of
+ us
+ get
+ the
+ version
+
+
+with
+ the
+ lead
+ on.
+ And
+ people
+ are
+ of
+
+
+course
+ noticing.
+ On
+ the
+ day
+ Antropics
+
+
+started
+ trading
+ on
+ the
+ stock
+ market,
+
+
+protesters
+ gathered
+ outside
+ the
+ NASDAQ
+
+
+in
+ New
+ York
+ and
+ Antropics
+ headquarters
+
+
+in
+ San
+ Francisco
+ demanding
+ a
+ slowdown.
+
+
+And
+ in
+ London,
+ more
+ than
+ a
+ thousand
+
+
+people
+ marched
+ against
+ what
+ they
+ called
+
+
+AI
+ extinction
+ in
+ what
+ campaigners
+
+
+described
+ as
+ the
+ biggest
+ AI
+ safety
+ march
+
+
+in
+ history.
+ And
+ the
+ funny
+ thing
+ is,
+ for
+
+
+me,
+ not
+ for
+ thee,
+ doesn't
+ stop
+ at
+ the
+
+
+labs,
+ my
+ friends.
+ It
+ goes
+ all
+ the
+ way
+
+
+down
+ to
+ our
+ workplaces.
+ You
+ know
+ the
+
+
+bosses
+ who've
+ been
+ forcing
+ everyone
+ to
+
+
+use
+ AI
+ at
+ work?
+ Well,
+ some
+ of
+ them
+ have
+
+
+now
+ actually
+ had
+ a
+ taste
+ of
+ it
+ for
+
+
+themselves.
+ The
+ CEO
+ of
+ a
+ tech
+ recruiting
+
+
+company
+ got
+ so
+ many
+ obviously
+ AI
+ written
+
+
+Slack
+ messages
+ from
+ her
+ staff
+ that
+ she
+
+
+banned
+ AI
+ for
+ internal
+ communication.
+
+
+Another
+ CEO
+ threatened
+ to
+ fire
+ the
+ next
+
+
+person
+ their
+ words
+ who
+ sent
+ them
+
+
+unedited
+ chat
+ GPT
+ output.
+ So
+ AI
+ is
+ great
+
+
+for
+ writing
+ your
+ report
+ but
+ heaven
+
+
+forbid
+ it
+ writes
+ a
+ message
+ to
+ your
+
+
+manager.
+ Huh?
+ And
+ there
+ is
+ research
+
+
+behind
+ this
+ as
+ well.
+ In
+ a
+ series
+ of
+
+
+experiments
+ published
+ in
+ an
+ academic
+
+
+journal
+ called
+ the
+ leadership
+ quarterly,
+
+
+Samuel
+ Meyers
+ and
+ Johanna
+ Bigman
+ at
+ the
+
+
+Hebrew
+ University
+ of
+ Jerusalem
+ found
+
+
+that
+ supervisors,
+ trusted,
+ and
+ employees
+
+
+report
+ about
+ two
+ in
+ three
+ times
+ when
+ no
+
+
+AI
+ was
+ used,
+ but
+ only
+ about
+ one
+ in
+ four
+
+
+times
+ when
+ it
+ was
+ without
+ even
+ looking
+
+
+at
+ the
+ quality
+ of
+ the
+ work.
+ and
+ people
+
+
+who
+ used
+ AI
+ had
+ worse
+ chances
+ of
+
+
+promotion
+ even
+ at
+ workplaces
+ that
+
+
+encouraged
+ it.
+ So
+ you're
+ told
+ to
+ use
+ it
+
+
+and
+ then
+ you're
+ judged
+ for
+ using
+ it
+
+
+unfavorably.
+ It's
+ the
+ same
+ pattern
+ at
+
+
+every
+ level.
+ AI
+ is
+ of
+ course
+ a
+ wonderful
+
+
+tool
+ as
+ long
+ as
+ it's
+ in
+ the
+ right
+ hands,
+
+
+but
+ somehow
+ the
+ right
+ hands
+ always
+
+
+appear
+ to
+ be
+ the
+ ones
+ on
+ top.
+ So
+ if
+ the
+
+
+people
+ at
+ the
+ top
+ will
+ not
+ hold
+
+
+themselves
+ to
+ the
+ same
+ rules,
+ then
+ who
+
+
+ever
+ is
+ going
+ to
+ check
+ their
+ work
+ for
+
+
+them?
+ Huh?
+ This
+ is
+ the
+ part
+ that
+
+
+frustrates
+ me
+ the
+ most.
+ They
+ actually
+
+
+promised
+ that
+ somebody
+ would.
+ On
+
+
+September
+ 12th
+ this
+ year,
+ Dario
+ Mday
+
+
+committed
+ to
+ giving
+ independent
+
+
+evaluators,
+ I'm
+ quoting
+ this
+ guy
+ here,
+
+
+ongoing
+ employeeike
+ access
+ to
+
+
+checkthropic
+ safety
+ practices
+ with
+ the
+
+
+right
+ to
+ publish
+ without
+ entropic
+
+
+controlling
+ what
+ they
+ say.
+ And
+ Sam
+ Alman
+
+
+said
+ OpenAI
+ would
+ do
+ the
+ same.
+ Great.
+
+
+Thank
+ you.
+ So
+ where
+ is
+ it
+ then?
+ Because
+
+
+according
+ to
+ Axius,
+ some
+ independent
+
+
+testers
+ now
+ get
+ only
+ days
+ to
+ assess
+
+
+models
+ they
+ used
+ to
+ get
+ weeks
+ with,
+
+
+often
+ through
+ a
+ single
+ rate
+ limited
+
+
+connection
+ shared
+ by
+ several
+ teams.
+ And
+
+
+the
+ head
+ of
+ one
+ of
+ these
+ testing
+
+
+organizations,
+ FAR.AI,
+ say
+ they've
+ had
+
+
+to
+ turn
+ down
+ contracts
+ with
+ several
+ AI
+
+
+developers
+ who
+ wanted
+ too
+ much
+ control
+
+
+over
+ the
+ evaluation.
+ It's
+ a
+ bit
+ like
+
+
+letting
+ somebody
+ check
+ your
+ homework
+ by
+
+
+peeking
+ at
+ it
+ through
+ a
+ letter
+ box.
+
+
+right
+ now.
+ Where
+ do
+ I
+ land?
+ Personally,
+
+
+I
+ still
+ use
+ AI
+ everyday.
+ I
+ still
+ like
+
+
+cloud.
+ I
+ still
+ like
+ Chad
+ GBT.
+ And
+ I'm
+
+
+not
+ rooting
+ for
+ any
+ of
+ this
+ to
+ fail.
+ Of
+
+
+course
+ not.
+ But
+ I
+ really
+ don't
+ think
+
+
+that
+ you
+ can
+ claim
+ your
+ technology
+ is
+
+
+powerful
+ enough
+ to
+ change
+ the
+ world
+ and
+
+
+maybe
+ end
+ it
+ while
+ keeping
+ the
+ best
+ of
+
+
+it
+ for
+ yourself
+ and
+ showing
+ nobody.
+ So,
+
+
+here
+ is
+ what
+ I
+ want.
+ I'm
+ going to
+ make
+
+
+it
+ super
+ clear.
+ Transparency
+ about
+ what
+
+
+we're
+ actually
+ being
+ served,
+ including
+
+
+when
+ the
+ harness
+ changes.
+ We
+ have
+ to
+
+
+have
+ this.
+ We
+ need
+ independent
+
+
+researchers
+ with
+ the
+ access
+ they
+ were
+
+
+promised,
+ not
+ a
+ couple
+ of
+ days
+ on
+ a
+ rate
+
+
+limit.
+ And
+ we
+ need
+ testing
+ that
+ goes
+ far
+
+
+beyond
+ benchmark
+ scores
+ because
+
+
+customers
+ can
+ definitely
+ tell
+ when
+ the
+
+
+product
+ they
+ pay
+ for
+ is
+ getting
+ worse.
+
+
+Right
+ now,
+ I
+ think
+ this
+ could
+ go
+ either
+
+
+way.
+ The
+ labs
+ could
+ open
+ the
+ doors
+ and
+
+
+give
+ the
+ rest
+ of
+ us
+ a
+ real
+ look
+ at
+ what
+
+
+they're
+ building,
+ or
+ AI
+ could
+ become,
+
+
+exactly
+ what
+ that
+ Reddit
+ post
+ said,
+ a
+
+
+singularity
+ for
+ them
+ and
+ not
+ for
+ us.
+ So,
+
+
+every
+ time
+ you
+ see
+ one
+ of
+ these
+ stories,
+
+
+my
+ friends,
+ ask
+ the
+ question
+ we
+ keep
+
+
+coming
+ back
+ to.
+ Who
+ is
+ this
+ for?
+ Kono,
+
+
+is
+ it
+ for
+ us
+ or
+ is
+ it
+ for
+ them?
+ And
+ if
+
+
+you
+ want
+ to
+ see
+ me
+ go
+ through
+ all
+ of
+ the
+
+
+research
+ on
+ whether
+ these
+ models
+ are
+
+
+quietly
+ getting
+ worse,
+ I
+ cover
+ that
+ in
+
+
+this
+ video
+ that
+ I'm
+ linking
+ here
+ on
+ your
+
+
+screen.
+ Thank
+ you
+ so
+ much
+ for
+ watching.
+
+
+I'll
+ see
+ youall
+ in
+ the
+ next
+ one.
