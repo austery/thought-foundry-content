@@ -1,0 +1,21295 @@
+We
+ have
+ a
+ a
+ company
+ data
+ set
+ of
+ 40
+
+
+million
+ companies.
+ You
+ can
+ imagine
+ just
+
+
+asking
+ a
+ question
+ like
+ is
+ this
+ customer
+
+
+a
+ good
+ fit
+ for
+ my
+ product
+ or
+ service
+ and
+
+
+you
+ could
+ run
+ that
+ across
+ every
+ company
+
+
+in
+ the
+ world
+ and
+ it
+ comes
+ out
+ to
+ I
+ think
+
+
+around
+ 1,500
+ bucks.
+ Our
+ users
+ hate
+ our
+
+
+model
+ selector.
+ I
+ think
+ most
+ most
+
+
+customers
+ like
+ don't
+ want
+ to
+ see
+ it.
+
+
+Like
+ they're
+ upset
+ when
+ they
+ see
+ it.
+ We
+
+
+explicitly
+ don't
+ want
+ our
+ agent
+ to
+ be
+
+
+marketkedly
+ better
+ than
+ just
+ using
+ clay
+
+
+and
+ cloud
+ code.
+ We
+ were
+ doing
+ some
+
+
+analysis
+ on
+ just
+ how
+ many
+ YC
+ companies
+
+
+are
+ using
+ clay.
+ We
+ just
+ asked
+ our
+ agent
+
+
+for
+ this
+ [music]
+ and
+ it
+ found
+ it
+ in
+ like
+
+
+60
+ seconds.
+ I
+ was
+ just
+ thinking
+ like
+ a
+
+
+year
+ ago
+ this
+ would
+ have
+ taken
+ so
+ much
+
+
+time
+ from
+ looking
+ through
+ so
+ many
+ agent
+
+
+traces
+ is
+ one
+ like
+ the
+ models
+ are
+ still
+
+
+kind
+ of
+ dumb.
+ Trying
+ CLI
+ commands
+ with
+
+
+the
+ same
+ inputs
+ over
+ and
+ over
+ again
+ and
+
+
+just
+ not
+ correcting
+ them.
+ We
+ were
+ one
+ of
+
+
+the
+ launch
+ partners
+ for
+ chatbt
+ apps
+
+
+[music]
+ probably
+ 25%
+ of
+ the
+ engineering
+
+
+team
+ for
+ a
+ month.
+ I
+ think
+ 2
+ days
+ before
+
+
+we
+ were
+ supposed
+ to
+ launch
+ they
+ were
+
+
+like
+ we're
+ going
+ to
+ postpone
+ this
+
+
+indefinitely.
+
+
+We
+ have
+ Jeff
+ Lar
+ here
+ from
+ Clay.
+ Um,
+ you
+
+
+are
+ the
+ head
+ of
+ AI.
+ Could
+ you
+ maybe
+
+
+introduce
+ yourself
+ and
+ the
+ business?
+
+
+>> Yeah,
+ absolutely.
+ Well,
+ first,
+ thanks
+
+
+thanks
+ for
+ having
+ me.
+ So,
+ yeah,
+ I'm
+ I'm
+
+
+Jeff.
+ Uh,
+ I've
+ been
+ at
+ Clay
+ for
+ about
+ 2
+
+
+years.
+ And
+ Clay,
+ we
+ like
+ to
+ think
+ of
+
+
+ourselves
+ as
+ a
+ creative
+ tool
+ for
+ growth.
+
+
+And
+ so,
+ really
+ what
+ that
+ means
+ is
+ we
+
+
+help
+ people
+ build
+ lists
+ of
+ companies
+ and
+
+
+contacts
+ um
+ for
+ the
+ purpose
+ of
+
+
+prospecting
+ or
+ getting
+ customers
+ or
+
+
+finding,
+ you
+ know,
+ new
+ and
+ great
+
+
+customers
+ for
+ their
+ business.
+ Um,
+ so
+ we
+
+
+help
+ qualify
+ those
+ lists
+ using
+ agents
+
+
+and
+ other
+ data
+ providers
+ to
+ basically,
+
+
+you
+ know,
+ add
+ data
+ points
+ like
+ the
+
+
+amount
+ of
+ revenue
+ or
+ funding
+ they've
+
+
+gotten
+ or
+ who
+ their
+ CEO
+ is
+ or
+ different
+
+
+locations
+ that
+ they
+ have
+ and
+ use
+ that
+ to
+
+
+basically
+ filter
+ down
+ to
+ figure
+ out
+ who
+
+
+their
+ best
+ customers
+ um
+ who
+ their
+ best
+
+
+customers
+ are.
+
+
+>> Uh,
+ for
+ those
+ watching
+ on
+ YouTube,
+ you
+
+
+are
+ actually
+ really
+ identified
+ with
+ this
+
+
+spreadsheet
+ for
+ some
+ reason.
+
+
+>> When
+ I
+ talk
+ about
+ when
+ I
+ talk
+ about
+ like
+
+
+the
+ spreadsheet
+ form
+ factor
+ with
+ other
+
+
+AI
+ builders,
+ they
+ usually
+ point
+ to
+ Clay
+
+
+as
+ the
+ the
+ success
+ example.
+
+
+>> Yes.
+ Uh,
+ and
+ yeah,
+ it's
+ funny.
+ I
+ mean,
+
+
+Clay
+ started
+ seven
+ years
+ ago
+ really
+ as
+ a
+
+
+low
+ code
+ tool
+ in
+ the
+ spreadsheet.
+ So,
+ it
+
+
+makes
+ a
+ lot
+ of
+ sense.
+ Uh,
+ you
+ know,
+
+
+we've
+ been
+ around
+ for
+ a
+ while
+ and
+ really
+
+
+have
+ built
+ up
+ on
+ on
+ that
+ spreadsheet.
+
+
+Yeah.
+
+
+>> Uh,
+ and
+ then
+ I'll
+ also
+ identify
+ you
+ said
+
+
+you
+ it's
+ a
+ creative
+ something.
+ There's
+
+
+nothing
+ nothing
+ creative
+ here.
+ It
+ says
+
+
+build
+ systems
+ to
+ grow
+ revenue.
+ That's
+
+
+that
+ sounds
+ a
+ lot
+ more
+ like
+ Yeah.
+ Like
+
+
+let's
+ make
+ money.
+
+
+>> So
+ creative.
+
+
+>> Yeah.
+ Actually,
+ like
+ let's
+ give
+ us
+ give
+
+
+us
+ two
+ set
+ two
+ uh
+ seconds
+ on
+ like
+ what
+
+
+why
+ are
+ you
+ guys
+ always
+ so
+ cheery
+ and
+ uh
+
+
+not
+ noticeable
+ like
+ like
+ Clay's
+ branding
+
+
+is
+ like
+ really
+ on
+ point.
+ Well,
+ I
+ do
+
+
+think
+ it's
+ it's
+ a
+ core
+ part
+ of
+ the
+
+
+thesis
+ um
+ that
+ go
+ to
+ market
+ really
+ is
+ a
+
+
+creative
+ endeavor.
+ And
+ I
+ don't
+ know,
+ I
+
+
+think
+ like
+ actually
+ none
+ of
+ our
+
+
+competitors
+ really
+ seem
+ to
+ believe
+ that
+
+
+or
+ or
+ try
+ to
+ do
+ that.
+
+
+>> And
+ I
+ think
+ it
+ just
+ um
+ you
+ know
+ adds
+ to
+
+
+the
+ ethos
+ is
+ like
+ I
+ think
+ it
+ it
+ helps
+ us
+
+
+build
+ you
+ know
+ this
+ community
+ of
+ people
+
+
+who
+ I
+ don't
+ know
+ try
+ really
+ cool
+ and
+
+
+creative
+ stuff
+ to
+ grow
+ their
+ companies.
+
+
+So
+
+
+>> did
+ you
+ guys
+ start
+ that
+ way
+ by
+ the
+ way
+
+
+like
+ the
+ business
+ was
+ always
+ this?
+ I
+
+
+think
+ we've
+ always
+ spent
+ a
+ lot
+ of
+ time
+
+
+thinking
+ about
+ brand
+ and
+ how,
+ you
+ know,
+
+
+we
+ present.
+ Um,
+ but
+ no,
+ like
+ we
+ we
+ we
+
+
+really
+ narrowed
+ in
+ on
+ go
+ to
+ market.
+ Um,
+
+
+this
+ was
+ before
+ I
+ joined
+ the
+ company,
+
+
+but
+ I
+ think
+ around
+ 3
+ years
+ ago,
+ we
+
+
+really
+ focused
+ in
+ on
+ we
+ were
+ deciding
+
+
+like,
+ oh,
+ should
+ we
+ focus
+ on
+ recruiting
+
+
+or
+ should
+ we
+ focus
+ on
+ go
+ to
+ market?
+
+
+Focus
+ on
+ go
+ to
+ market
+ and
+ then,
+ you
+
+
+know,
+ really
+ double
+ down
+ there.
+
+
+>> Yeah.
+ What
+ was
+ the
+ reason
+ for
+ that?
+ Just
+
+
+like
+ a
+ thesis.
+
+
+>> Um,
+ there's
+ this
+ like
+ little
+ nice
+
+
+history
+ chart.
+ Uh,
+ I
+ don't
+ know
+ what
+
+
+this
+ plays,
+ but
+
+
+>> Yeah.
+ [laughter]
+
+
+Yeah.
+ Yeah.
+ I
+ mean,
+ I
+ I
+ don't
+ know.
+ I
+
+
+mean,
+
+
+>> there
+ was
+ probably
+ a
+ lot
+ of
+ evolution
+ in
+
+
+the
+ in
+ the
+ 5
+ years
+ that
+ that
+ this
+
+
+started,
+ but
+
+
+>> um
+ you
+ know,
+ we
+ really
+ started
+ with
+ a
+
+
+bunch
+ of
+ different
+ kind
+ of
+ ways
+ to
+ think
+
+
+about
+ the
+ company
+ or
+ think
+ about
+ the
+
+
+business,
+
+
+>> but
+ it
+ started
+ very
+ horizontal
+ and
+ then
+
+
+I
+ think
+ we
+ just
+ really
+ wanted
+ to
+ focus
+
+
+in
+ on
+ kind
+ of
+ a
+ singular
+ persona.
+ Um
+ and
+
+
+that
+ helped
+ us
+ sort
+ of
+ build
+ the
+ things
+
+
+that
+ ended
+ up,
+ you
+ know,
+ really
+ making
+
+
+Clay
+ successful.
+
+
+>> Cool.
+ I
+ think
+ you
+ know
+ the
+ thing
+ that
+ a
+
+
+lot
+ of
+ people
+ tell
+ me
+ about
+ clay
+ uh
+ is
+
+
+that
+ there's
+ a
+ lot
+ of
+ parallels
+ with
+ how
+
+
+I
+ grew
+ lat
+ space
+ and
+ AIE
+ because
+ I
+
+
+identified
+ this
+ sort
+ of
+ segment
+ of
+ the
+
+
+market
+ called
+ that
+ I
+ call
+ the
+ AI
+
+
+engineer
+ and
+ I
+ really
+ focus
+ on
+ serving
+
+
+them
+ and
+ you
+ guys
+ are
+ basically
+
+
+synonymous
+ with
+ the
+ GTM
+ engineer
+ now
+ can
+
+
+you
+ describe
+ what
+ that
+ is
+ you
+ know
+ I
+
+
+think
+ this
+ is
+ one
+ of
+ the
+ reasons
+ why
+
+
+it's
+ interesting
+ for
+ Basil
+ and
+ I
+ to
+ be
+
+
+on
+ this
+ pod
+ because
+ Basil
+ is
+ focusing
+ on
+
+
+the
+ FTE
+ you
+ guys
+ are
+ on
+ the
+ GTME
+ and
+ I'm
+
+
+on
+ the
+ AIE
+ you
+ know
+ we
+ really
+ branded
+
+
+this
+ term
+ the
+ good
+ market
+ engineer
+ and
+
+
+the
+ idea
+ was
+ just
+ um
+ companies
+ in
+ let's
+
+
+say
+ the
+ 2010s
+ really
+ spent
+ a
+ lot
+ of
+ time
+
+
+trying
+ to
+ build
+ pipeline
+ or
+ trying
+ to
+
+
+you
+ know
+ grow
+ their
+ companies
+ through
+
+
+just
+ throwing
+ more
+ people
+ at
+ the
+ problem
+
+
+you
+ can
+ probably
+ just
+ engineer
+ a
+ lot
+ of
+
+
+these
+ problems
+ like
+ you
+ can
+ probably
+
+
+actually
+ build
+ systems
+ to
+ find
+ customers
+
+
+for
+ you
+ and
+ I
+ think
+ this
+ kind
+ of
+
+
+coincided
+ with
+ LLM
+ and
+ you
+ know
+ the
+ post
+
+
+chatbt
+ era
+ where
+ you
+ could
+ actually
+ have
+
+
+agents
+ go
+ and
+ crawl
+ the
+ web
+ or
+ you
+ know
+
+
+qualify
+ customers
+ and
+ basically
+ exert
+
+
+judgment
+ agement
+ um
+ for
+ finding
+
+
+potential
+ customers
+ in
+ a
+ scale
+ that
+ way.
+
+
+And
+ so,
+ you
+ know,
+ you
+ kind
+ of
+ had
+ this
+
+
+confluence
+ of
+ things
+ where
+ you
+ had
+ these
+
+
+new
+ systems
+ that
+ could
+ effectively
+
+
+qualify
+ or,
+ you
+ know,
+ score
+ accounts
+ for
+
+
+you
+ and
+ just
+ kind
+ of
+ a
+ continued
+ trend
+
+
+towards
+ automation
+ in
+ the
+ space
+ and
+ we
+
+
+were
+ seeing
+ more
+ people
+ basically
+
+
+engineering
+ go
+ to
+ market
+ systems
+ and
+
+
+tried
+ to,
+ you
+ know,
+ brand
+ that
+ term
+
+
+around
+ it.
+
+
+>> What
+ was
+ the
+ role
+ of
+ a
+ person
+ doing
+ that
+
+
+before?
+ I'm
+ sure
+ people
+ have
+ tried
+ to
+ do
+
+
+this
+ for
+ a
+ long
+ time,
+ but
+ I
+ I
+ think
+ it's
+
+
+sort
+ of,
+ you
+ know,
+ if
+ you
+ were
+ to
+ think
+
+
+about
+ the
+ different
+ disciplines
+ that
+ go
+
+
+into
+ good
+ to
+ market
+ engineering,
+ it's
+
+
+probably
+ some
+ agent
+ engineering
+ to
+
+
+figure
+ out
+ how
+ to
+ write
+ the
+ best
+ prompts
+
+
+to
+ actually
+ qualify
+ something,
+ right?
+
+
+So,
+ it's
+ actually,
+ you
+ know,
+
+
+understanding
+ LLM
+ systems.
+ There's
+
+
+probably
+ some
+ data
+ engineering
+ in
+ there,
+
+
+right?
+ Like
+ you're
+ actually
+ building
+ a
+
+
+bunch
+ of
+ lists,
+ you're
+ transforming
+
+
+them,
+ you're
+ enriching
+ them,
+ you're
+
+
+filtering
+ down
+ and
+ building
+ different
+
+
+views
+ on
+ top
+ of
+ that.
+ And
+ there's
+ sort
+
+
+of
+ just
+ regular
+ software
+ engineering
+
+
+built
+ in
+ there,
+ too,
+ right?
+ you're,
+ I
+
+
+don't
+ know,
+ actually
+ orchestrating
+
+
+systems
+ that
+ when
+ someone
+ fills
+ out
+ a
+
+
+get
+ in
+ touch
+ form
+ on
+ your
+ website,
+
+
+probably
+ research
+ that
+ company
+ and
+ then
+
+
+maybe
+ like
+ send
+ it
+ to
+ a
+ rep
+ or
+ send
+ it
+
+
+to
+ an
+ outbound
+ campaign,
+ right?
+ All
+
+
+these
+ sort
+ of
+ things
+ that
+ are
+ kind
+ of
+
+
+just
+ traditional
+ software
+ engineering.
+
+
+Yeah,
+ I
+ think
+ the
+ old
+ school
+ name
+ for
+
+
+this
+ might
+ be
+ marketing
+ engineer,
+ ops
+
+
+person,
+ I
+ may
+ even
+ heard
+ of
+ it,
+ software
+
+
+engineer
+ might
+ be
+ part
+ of
+ it,
+ but
+ a
+
+
+growth
+ engineer
+ might
+ as
+ well
+ be
+ a
+ part
+
+
+of
+ it.
+ But
+ growth
+ maybe
+ is
+ more
+ focused
+
+
+on
+ marketing
+ and
+ yours
+ is
+ more
+ sales,
+
+
+right?
+ Yeah,
+ I
+ I
+ think
+ probably
+ like
+
+
+this
+ function
+ would
+ have
+ fallen
+ into
+
+
+revenue
+ operations
+ like
+ that's
+ probably
+
+
+the
+ bucket
+ of
+ things
+ and
+ still
+ today
+ we
+
+
+sell
+ into
+ re
+ revenue
+ operations
+ teams
+
+
+but
+ yeah
+ I
+ think
+ it's
+ it's
+ somewhat
+
+
+distinct
+ as
+ a
+ discipline
+ like
+ I'd
+ say
+
+
+it's
+ it's
+ pretty
+ new.
+
+
+>> What
+ kinds
+ of
+ backgrounds
+ do
+ successful
+
+
+go
+ to
+ market
+ engineers
+ to
+ NAV?
+
+
+>> Oh
+ man,
+ it's
+ pretty
+ uh
+ it's
+ pretty
+
+
+across
+ the
+ board.
+ Uh
+ I
+ think
+ we've
+ seen
+
+
+a
+ lot
+ of
+ actually
+ a
+ lot
+ of
+ traditional
+
+
+software
+ engineers
+ move
+ into
+ the
+ role
+
+
+and
+ so
+ that's
+ been
+ pretty
+ interesting
+ to
+
+
+see
+ is
+ like
+ actually
+ just
+ people
+
+
+approaching
+ the
+ problem
+ from
+ like
+ very
+
+
+kind
+ of
+ first
+ principles
+ software
+
+
+engineering
+ uh
+ standpoints.
+ Um
+
+
+definitely
+ like
+ ambitious
+ RevOps
+ folks
+
+
+have
+ grown
+ into
+ the
+ role
+ as
+ well.
+ So
+
+
+we've
+ kind
+ of
+ seen
+ like
+ all
+ different
+
+
+directions
+ of
+ people
+ move
+ into
+ it.
+ Yeah.
+
+
+I
+ think
+ you
+ know
+ one
+ of
+ the
+ things
+ that
+
+
+people
+ who
+ have
+ never
+ done
+ this
+ job
+
+
+before
+ don't
+ really
+ appreciate
+ is
+ that
+
+
+basically
+ there
+ is
+ a
+ lot
+ of
+ data
+ mining
+
+
+and
+ entity
+ resolution
+ and
+ a
+ little
+ bit
+
+
+of
+ knowledge
+ grass
+ maybe
+ you
+ can
+ talk
+
+
+about
+ that
+ uh
+ just
+ to
+ get
+ all
+ this
+ kind
+
+
+of
+ lists
+ for
+ people
+ just
+ for
+
+
+prospecting.
+
+
+>> Yeah.
+
+
+>> Um
+ I'm
+ not
+ sure
+ like
+ I
+ think
+ there's
+
+
+probably
+ other
+ use
+ case
+ other
+ than
+
+
+prospecting.
+ Obviously
+ a
+ list
+ is
+ a
+ very
+
+
+powerful
+ thing
+ that
+ actually
+ combines
+ a
+
+
+lot
+ of
+ information
+ like
+ multiple
+ tens
+ of
+
+
+billions
+ of
+ dollar
+ companies
+ are
+ created
+
+
+just
+ as
+ a
+ database
+ that
+ feeds
+ into
+ clay
+
+
+right
+ uh
+ so
+ like
+ my
+ canonical
+ examples
+
+
+like
+ zoom
+ info
+ like
+ or
+ rocket
+ reach
+ like
+
+
+you've
+ you've
+ heard
+ of
+ all
+ these
+ things
+
+
+where
+ you
+ need
+ enrichment
+ from
+ like
+ I
+
+
+have
+ an
+ email
+ that's
+ all
+ I
+ have
+ to
+ like
+
+
+okay
+ what
+ company
+ do
+ they
+ work
+ at
+ what
+
+
+size
+ what
+ size
+ is
+ that
+ company
+ like
+ are
+
+
+they
+ the
+ buyer
+ did
+ they
+ just
+ move
+
+
+companies
+ like
+ I
+ don't
+ know
+ what
+ other
+
+
+details
+ are
+ relevant
+ there
+ you
+ know
+
+
+definitely
+ clay
+ We're
+ we're
+ clay
+ sits
+ in
+
+
+the
+ market.
+ We
+ work
+ with
+ a
+ bunch
+ of
+
+
+different
+ data
+ providers
+ and
+ and
+
+
+partners.
+ So
+ many
+ um
+
+
+>> I
+ number
+ but
+ you
+ know
+ in
+ the
+ hundreds
+ uh
+
+
+in
+ the
+ hundreds
+ for
+ sure
+ and
+ it's
+ really
+
+
+flexible
+ as
+ a
+ platform.
+ Like
+ if
+ I
+ think
+
+
+about
+ kind
+ of
+ again
+ back
+ to
+ like
+ other
+
+
+competitors
+ or
+ different
+ people
+ who
+ have
+
+
+tried
+ to
+ build
+ sales
+ tools
+ in
+ the
+ past.
+
+
+>> Um
+ I
+ think
+ a
+ lot
+ of
+ people
+ try
+ to
+ build
+
+
+point
+ solutions
+ and
+ clay
+ is
+ like
+ really
+
+
+generic,
+ right?
+ Like
+ to
+ your
+ point,
+ you
+
+
+can
+ build
+ a
+ lot
+ of
+ stuff
+ with
+ lists
+ and
+
+
+we've
+ seen
+ people
+ build
+ crazy
+ things
+ in
+
+
+clay
+ and
+ that's
+ intentional,
+ right?
+ And
+
+
+that
+ comes
+ with
+ a
+ bunch
+ of
+ trade-offs.
+ I
+
+
+think
+ it's
+ being
+ very
+ flexible
+ means
+
+
+there's
+ a
+ lot
+ of
+ ways
+ that
+ you
+ can
+ make
+
+
+mistakes.
+ There's
+ a
+ lot
+ of
+ different
+
+
+ways
+ that
+ you
+ can,
+ you
+ know,
+ build
+
+
+systems
+ that
+ that
+ don't
+ work
+ as
+ you'd
+
+
+expect,
+ but
+ it
+ it
+ becomes
+ really
+
+
+powerful.
+
+
+>> Can
+ we
+ take
+ a
+ step
+ back
+ to
+ when
+ you
+
+
+started
+ Avenue
+ and
+ then
+ maybe
+ like
+ how
+
+
+that
+ led
+ you
+ to
+ joining
+ Clay?
+ So,
+ yeah.
+
+
+Could
+ you
+ describe
+ Avenue
+ a
+ little
+ bit?
+
+
+>> So,
+ I
+ I
+ joined
+ Clay
+ through
+ the
+
+
+acquisition
+ of
+ my
+ previous
+ company
+ uh
+
+
+Avenue,
+ which
+ was
+ a
+ company
+ I
+ co-founded
+
+
+with
+ a
+ friend
+ of
+ mine
+ from
+ high
+ school
+
+
+>> in
+ it
+ up
+ on
+ screen.
+
+
+>> Yeah.
+ The
+ website's
+ still
+ up.
+ Yeah.
+ So,
+
+
+so
+ Avenue
+ was
+ a
+ company
+ uh
+ we
+ started
+ in
+
+
+uh
+ I
+ think
+ early
+ 2020.
+ And
+ Avenue,
+ you
+
+
+So,
+ I
+ built
+ this
+ with
+ a
+ friend
+ of
+ mine
+
+
+from
+ high
+ school.
+ We
+ actually
+ had
+ been
+
+
+building
+ apps
+ together
+ back
+ in
+ middle
+
+
+school
+ and
+ high
+ school.
+ So,
+ we
+ had
+ one
+
+
+of
+ the
+ first
+ 500
+ iPad
+ apps
+ on
+ the
+ iPad
+
+
+store
+ back
+ in
+ the
+ day.
+ And
+
+
+>> nice.
+ So,
+ we'd
+ always
+ been
+ kind
+ of
+
+
+tinkering
+ on
+ ideas
+ and
+ we
+ my
+ co-founder
+
+
+had
+ worked
+ at
+ Uber,
+ I
+ worked
+ at
+ Amazon
+
+
+out
+ of
+ school
+ and
+ we'
+ both
+ wanted
+ to
+
+
+start
+ something
+ together
+ and
+ both
+ kind
+
+
+of
+ had
+ the
+ idea
+ of
+ hey,
+ we're
+ kind
+ of
+
+
+working
+ on
+ different
+ types
+ of
+ ops
+
+
+problems
+ in
+ very
+ different
+ domains.
+ Um,
+
+
+but
+ kind
+ of
+ makes
+ sense
+ that
+ actually
+
+
+these
+ marketplace
+ operations
+ teams
+
+
+actually
+ need
+ observability
+ solutions
+
+
+like
+ engineering
+ would.
+ So
+ almost
+ like
+
+
+I'd
+ say
+ the
+ through
+ line
+ even
+ to
+ Clay
+ is
+
+
+there
+ were
+ a
+ lot
+ of
+ kind
+ of
+ you
+ know
+
+
+engineering
+ best
+ principles
+ that
+ we
+ were
+
+
+trying
+ to
+ build
+ to
+ oper
+ uh
+ bring
+ to
+
+
+operations
+ teams
+ and
+ um
+ but
+ yeah
+ so
+ we
+
+
+we
+ worked
+ on
+ this
+ for
+ about
+ four
+ and
+ a
+
+
+half
+ years.
+ We
+ went
+ through
+ YC,
+ we
+
+
+raised
+ from
+ Excel.
+ Um,
+ we
+ sold
+ to
+ a
+
+
+bunch
+ of
+ really
+ cool
+ companies
+ like
+
+
+Ramp,
+ Angelus,
+ Valon,
+ Door
+ Dash.
+ Um,
+ you
+
+
+know,
+ so
+ some
+ really
+ cool
+ and
+
+
+interesting
+ customers
+ to
+ work
+ with.
+ And
+
+
+yeah,
+ so
+ you
+ know,
+ in
+ late
+ 24,
+ we
+ ended
+
+
+up
+ uh,
+ you
+ know,
+ so
+ the
+ business
+ was
+
+
+growing
+ pretty
+ well.
+ We
+ ended
+ up
+ meeting
+
+
+Kareem
+ and
+ Verun
+ uh,
+ through
+ I
+ think
+ a
+
+
+mutual
+ connection.
+ Um,
+ but
+ at
+ the
+ time
+
+
+we
+ had
+ been
+ approached
+ by
+ some
+ other
+
+
+players
+ in
+ the
+ space.
+ some
+ other
+ um
+ I'd
+
+
+say
+ like
+ data
+ engineering
+ companies
+ and
+
+
+who'd
+ always
+ been
+ interested
+ in
+
+
+acquiring
+ the
+ business
+ and
+ so
+ uh
+ we
+ were
+
+
+kind
+ of
+ in
+ that
+ mindset
+ of
+ like
+ we
+ could
+
+
+raise
+ the
+ series
+ A.
+ Um
+ we're
+ pretty
+
+
+excited
+ about
+ the
+ business
+ growth
+ but
+
+
+weren't
+ necessarily
+ like
+ we
+ didn't
+ know
+
+
+if
+ like
+ this
+ was
+ going
+ to
+ be
+ then
+ you
+
+
+know
+ the
+ billion
+ dollar
+ outcome
+ that
+ you
+
+
+know
+ we
+ were
+ trying
+ to
+ to
+ get
+ to
+ when
+ we
+
+
+set
+ out
+ to
+ to
+ start
+ the
+ business.
+ Um,
+
+
+and
+ so
+ then
+ it
+ was
+ like,
+ well,
+ we
+ should
+
+
+probably
+ join
+ up
+ with
+ a
+ bigger
+ company
+
+
+that
+ already
+ has
+ more
+ traction.
+ And
+ it
+
+
+ended
+ up
+ just
+ really
+ connecting
+ with
+
+
+Kareem
+ and
+ Verun.
+
+
+>> So
+ they
+ already
+ had
+ a
+ lot
+ of
+ traction
+ at
+
+
+that
+ point.
+
+
+>> Yeah.
+ I
+ mean,
+ I
+ you
+ know,
+
+
+>> how
+ big
+ was
+ the
+ company
+ by
+ the
+ way?
+
+
+Sorry.
+
+
+>> It
+ was
+ I
+ think
+ we
+ joined
+ right
+ as
+ they
+
+
+were
+ 50
+ people
+
+
+>> and
+ you
+ were
+ how
+ many?
+
+
+>> We
+ were
+ five.
+
+
+>> Okay.
+ So
+ you
+ were
+ like
+ 10%
+ of
+ the
+
+
+company.
+
+
+>> Yeah.
+ I
+ think
+ I
+ think
+ we
+
+
+underappreciated
+ how
+ much
+ of
+ a
+ bet
+ they
+
+
+were
+ taking
+ on
+ us.
+ um
+ like
+ to
+ bring
+ in
+
+
+10%
+ of
+ the
+ company
+ in
+ just
+ like
+ one
+ in
+
+
+one
+ day
+ is
+ is
+ kind
+ of
+ a
+ Yeah,
+ it's
+ it's
+
+
+a
+ pretty
+ big
+ bet.
+
+
+>> Yeah.
+ Yeah.
+
+
+>> I
+ think
+ it's
+ nice
+ to
+ bring
+ in
+ a
+ scaled
+
+
+team
+ and
+ also
+ perhaps
+ like
+ you
+ guys
+ were
+
+
+more
+ on
+ the
+ automation
+ side
+ like
+ what
+ do
+
+
+you
+ what
+ do
+ you
+ think
+ you
+ spiked
+ more
+
+
+versus
+ the
+ original
+ Clay
+ team?
+
+
+>> Yeah.
+ I
+ mean
+ I
+ I
+ think
+ one
+ just
+ we
+ we're
+
+
+really
+ deep
+ in
+ in
+ building
+ I
+ don't
+ know
+
+
+just
+ like
+ very
+ robust
+ systems.
+ I
+ think
+
+
+like
+ maybe
+ the
+ the
+ story
+ I
+ like
+ to
+ tell
+
+
+is
+ like
+ Clay
+ was
+ really
+ focused
+ on
+ PLG
+
+
+and
+ they
+ had
+ really
+ nailed
+ the
+ PLG
+
+
+motion.
+ So
+ like
+ we
+ joined
+ the
+ company
+
+
+when
+ it
+ was
+ maybe
+ like
+ 15
+ to
+ 20
+ million
+
+
+in
+ in
+ revenue,
+ but
+ the
+ biggest
+ contract
+
+
+was
+ was
+ really
+ small.
+ Like
+ we
+ it
+ was
+
+
+just
+ like
+ so
+ many
+ companies
+ who
+ had
+
+
+found
+ Clay
+ and
+ had
+ just
+ you
+ know
+ signed
+
+
+up
+ and
+ you
+ know
+ ended
+ up
+ getting
+ value
+
+
+out
+ of
+ the
+ platform.
+ Um
+ but
+ they
+ hadn't
+
+
+really
+ moved
+ into
+ mid-market
+ or
+
+
+enterprise
+ sales
+ yet.
+ And
+ I
+ think
+ that
+
+
+was
+ something
+ that
+ we
+ we
+ really
+ knew
+ how
+
+
+to
+ do
+ uh
+ at
+ at
+ Avenue Avenue
+ was
+ hey
+
+
+build
+ systems
+ that
+ could
+ go
+ into
+ Door
+
+
+Dash
+ and
+ and
+ Angel
+ kind
+ of
+ more
+ scaled
+
+
+outcome
+ companies.
+
+
+>> Would
+ you
+ say
+ that
+ was
+ the
+ I
+ guess
+
+
+biggest
+ learning
+ that
+ you
+ took
+ from
+
+
+Avenue
+ and
+ then
+ applied
+ it
+ to
+ Clay?
+ One
+
+
+of
+ the
+ things
+ that
+ I
+ think
+ Clay
+ has
+ done
+
+
+really
+ well
+ is
+ focus
+ really
+ deeply
+ on
+
+
+one
+ customer
+ persona
+ like
+ the
+ good
+ to
+
+
+market
+ engineer.
+ And
+ I
+ feel
+ like
+
+
+everything
+ we
+ do
+ is
+ for
+ the
+ good
+ to
+
+
+market
+ engineer
+ and
+ I
+ think
+ at
+ Avenue
+ we
+
+
+you
+ know
+ we
+ had
+ some
+ commercial
+ traction
+
+
+but
+ we
+ never
+ really
+ figured
+ out
+ who
+ our
+
+
+core
+ customer
+ was
+ right
+ like
+ we
+ were
+
+
+kind
+ of
+ across
+ a
+ couple
+ of
+ different
+
+
+personas
+ like
+ different
+ company
+ types
+
+
+and
+ so
+ I
+ think
+ one
+ of
+ the
+ things
+ that
+ is
+
+
+really
+ impressed
+ about
+ Clay
+ is
+ the
+
+
+amount
+ of
+ focus
+ on
+ the
+ single
+ customer
+
+
+persona.
+
+
+>> Okay.
+ So
+ you
+ guys
+ join
+ like
+ what
+ was
+
+
+like
+ what
+ was
+ your
+ 90-day
+ plan
+ like
+ like
+
+
+can
+ you
+ maybe
+ like
+ paint
+ a
+ picture
+ of
+
+
+the
+ business
+ at
+ that
+ point
+ and
+ you
+ like
+
+
+okay
+ well
+ what's
+ the
+ plan
+ for
+ the
+ next
+
+
+six
+ months?
+ So
+ yeah,
+ so
+ so
+ we
+ joined
+ uh
+
+
+Clay
+ and
+ I
+ think
+ the
+ main
+ thing
+ that
+ we
+
+
+were
+ trying
+ to
+ do
+ at
+ Clay
+ when
+ we
+ joined
+
+
+was
+ Clay
+ had
+ a
+ really
+ good
+ business
+ on
+
+
+sort
+ of
+ static
+ lists,
+ right?
+ So
+ I
+ don't
+
+
+know,
+ you
+ throw
+ a
+ dinner,
+ you
+ want
+ to
+
+
+figure
+ out
+ if
+ any
+ of
+ the
+ people
+ who
+ came
+
+
+to
+ the
+ dinner
+ like
+ are
+ are
+ good
+
+
+customers
+ for
+ you
+ and
+ you
+ could
+ you
+ can
+
+
+do
+ that
+ in
+ clay
+ and
+ like
+ that
+ was
+ a
+ good
+
+
+business
+ for
+ them
+ at
+ the
+ time.
+ But
+ if
+
+
+you're
+ trying
+ to
+ build
+ revenue
+ systems,
+
+
+which
+ I
+ guess
+ now
+ it's,
+ you
+ know,
+ uh
+ now
+
+
+our
+ new
+ new
+ tagline,
+ but
+ if
+ you
+ wanted
+
+
+to
+ build
+ these
+ sort
+ of
+ online
+ systems
+ of
+
+
+someone
+ changes
+ jobs
+ and
+ like
+ you
+ know,
+
+
+they
+ had
+ bought
+ clay
+ at
+ their
+ previous
+
+
+company,
+ but
+ then
+ maybe
+ they
+ would
+ buy
+
+
+Clay
+ at
+ their
+ their
+ next
+ company
+ or
+
+
+like,
+ you
+ know,
+ you
+ kind
+ of
+ wanted
+ to
+
+
+build
+ these
+ online
+ systems
+ for
+ revenue.
+
+
+We
+ didn't
+ really
+ have
+ a
+ great
+ system
+ in
+
+
+place
+ to
+ do
+ that.
+ And
+ so
+ we
+ helped
+ build
+
+
+out
+ their
+ original
+ signals
+ product,
+
+
+which
+ was
+ effectively
+ that.
+ So
+ monitor
+
+
+for
+ new
+ hires,
+ monitor
+ for
+ things
+ like
+
+
+promotions,
+ like
+ any
+ of
+ these
+ events
+
+
+that
+ we
+ could
+ see
+ in
+ the
+ market
+ that
+ you
+
+
+might
+ want
+ to
+ act
+ on
+ and
+ build
+ plays
+ off
+
+
+of.
+ So
+ yeah,
+ so
+ we
+ spent
+ actually
+ the
+
+
+first
+ couple
+ of
+ months
+ doing
+ that
+ and
+
+
+there
+ was
+ a
+ lot
+ of
+ tech
+ overlap
+ with
+
+
+what
+ we
+ had
+ built
+ at
+ Avenue.
+ Like
+ we
+ had
+
+
+like
+ very
+ different
+ domains,
+ very
+
+
+different
+ product
+ spaces,
+ but
+ uh
+ it
+ just
+
+
+ended
+ up
+ being
+ a
+ pretty
+ similar
+ problem.
+
+
+Uh
+ because
+ it
+ was
+ kind
+ of
+ market
+
+
+observability,
+ wasn't
+ operational
+
+
+observability.
+ It
+ was
+ just
+ like,
+ hey,
+
+
+like
+ look
+ at
+ all
+ of
+ these
+ events
+ that
+ we
+
+
+can
+ see
+ in
+ the
+ market
+ and
+ be
+ able
+ to,
+
+
+you
+ know,
+ build
+ plays
+ off
+ off
+ of
+ that.
+
+
+>> What
+ was
+ the
+ hardest
+ part
+ about
+ building
+
+
+the
+ signals
+ product?
+
+
+>> There's
+ a
+ lot
+ of
+ things
+ that
+ were
+ were
+
+
+difficult
+ about
+ it
+ and
+ I
+ think
+ one
+ of
+
+
+the
+ things
+ that
+ we
+ didn't
+ appreciate
+
+
+kind
+ of
+ building
+ this
+ was
+ just
+ the
+
+
+diversity
+ of
+ customers
+ that
+ would
+ use
+
+
+it,
+ right?
+ Like
+ I
+ think
+ we've
+ been
+ used
+
+
+to
+ really
+ building
+ things
+ alongside
+ a
+
+
+core
+ set
+ of
+ design
+ partners,
+ but
+ Clay
+
+
+has
+ a
+ lot
+ of
+ different
+ customers
+ and
+
+
+they
+ just
+ have
+ a
+ lot
+ of
+ different
+ needs
+
+
+and
+ different
+ and
+ to
+ the
+ point
+ about
+
+
+good
+ to
+ market
+ engineers
+ like
+ they're
+
+
+really
+ creative
+ and
+ so
+ uh
+ people
+ were
+
+
+building
+ just
+ kind
+ of
+ crazy
+ stuff
+ on
+ top
+
+
+of
+ this
+
+
+>> like
+ what
+ are
+ some
+ examples
+ if
+ you
+ can
+
+
+share
+
+
+>> surprising
+ use
+ cases
+ maybe?
+ I
+ I
+ think
+ it
+
+
+was
+ just
+ like
+ some some
+ of
+ the
+ scale
+ was
+
+
+just
+ crazy
+ and
+ like
+ I
+ don't
+ I
+ don't
+
+
+remember
+ the
+ exact
+ numbers
+ but
+ you
+ know
+
+
+some
+ people
+ were
+ like
+ really
+ trying
+ to
+
+
+track
+ every
+ customer
+ that
+ they'd
+ ever
+
+
+talked
+ to
+ like
+ where
+ they
+ were
+ like
+ like
+
+
+their
+ career
+ progressions
+ like
+ different
+
+
+things
+ that
+ they
+ were
+ posting.
+ So
+ like
+
+
+news
+ articles
+ like
+ it
+ was
+ just
+ like
+ a
+
+
+very
+ scaled
+ out
+ um
+ scaled
+ out
+ thing.
+
+
+>> Okay.
+ Yeah.
+ Social
+ mentions,
+ product
+
+
+reviews,
+ gong
+ calls.
+
+
+>> Yeah.
+
+
+>> Okay.
+ [laughter]
+
+
+Website
+ visitors.
+ There's
+ just
+ a
+ lot.
+ I
+
+
+mean,
+ I
+ think
+ it's
+ one
+ of
+ those
+ things
+
+
+where
+ it's
+ easy
+ to
+ get
+ really
+ lost
+ if
+
+
+you
+ It's
+ easy
+ to
+ just
+ like
+ on
+ day
+ one
+ of
+
+
+play
+ just
+ go
+ like,
+ "Oh
+ my
+ god,
+ I
+ can
+ I
+
+
+can
+ like
+ react
+ to
+ all
+ these
+ things."
+ And
+
+
+then
+ you
+ just
+ stop
+ reacting
+ cuz
+ you
+ just
+
+
+drown
+ under
+ all
+ these
+ things.
+ Yeah.
+ I
+
+
+mean,
+ that
+ that's
+ the
+ kind
+ of
+ the
+ the
+
+
+beauty
+ and
+ the
+ the
+ scary
+ part
+ about
+ Clay
+
+
+is
+ just
+ like
+ there's
+ a
+ ton
+ you
+ can
+ do
+
+
+and
+ like
+ it's
+ a
+ really
+ powerful
+
+
+platform,
+ but
+ um
+ yeah,
+ it
+ can
+ be
+ a
+
+
+little
+ overwhelming.
+ So
+ did
+ you
+ join
+ as
+
+
+uh
+ like
+ an
+ engineering
+ manager
+ and
+ now
+
+
+you're
+ head
+ of
+ AI
+ like
+ like
+ when
+ did
+
+
+that
+ transition
+ happen?
+
+
+>> Yeah.
+ Yeah.
+ So
+ actually
+ I
+ you
+ know
+ so
+ I
+
+
+I
+ joined
+ to
+ build
+ out
+ uh
+ the
+ signals
+
+
+product
+ which
+ is
+ almost
+ not
+ not
+ really
+
+
+AI
+ right
+ it's
+ just
+ sort
+ of
+ you
+ know
+
+
+>> pipelines
+
+
+>> pipelines
+ yeah
+ it's
+ just
+ sort
+ of
+ a
+
+
+regular
+ system
+ that
+ you
+ might
+ build
+ at
+
+
+kind
+ of
+ any
+ company
+ I
+ would
+ say
+ a
+ lot
+ of
+
+
+people
+ used
+ to
+ use
+ Zapier
+ for
+ this
+ kind
+
+
+of
+ stuff
+ right
+
+
+>> yeah
+ and
+ but
+ like
+ Zapier
+ kind
+ of
+ let's
+
+
+just
+ call
+ it
+ politely
+ didn't
+ evolve
+
+
+[laughter]
+ with
+ the
+ times
+
+
+>> there's
+ all
+ sorts
+ of
+ advantages
+ of
+ kind
+
+
+of
+ building
+ the
+ system
+ with
+ all
+ of
+ the
+
+
+other
+ stuff
+ that
+ you
+ you
+ can
+ do
+ with
+
+
+clay
+ right
+ like
+ I
+ don't know
+ if
+ I
+ think
+
+
+of
+ a
+ zap
+ year
+ as
+ just
+
+
+A
+ to
+ B
+ data
+ movement,
+ right?
+ Like
+ if
+ you
+
+
+have
+ all
+ of
+ this
+ data
+ piped
+ into
+ the
+
+
+same
+ place,
+ you
+ can
+ kind
+ of
+ do
+ all
+ these
+
+
+interesting
+ things
+ where
+ it's
+ like,
+ hey,
+
+
+I
+ only
+ want
+ to
+ react
+ when
+ there's
+ like
+
+
+three
+ people
+ from
+ this
+ company
+ that
+ move
+
+
+to
+ the
+ same
+ same
+ company
+ or
+ something
+
+
+like
+ that,
+ right?
+ Like
+ um
+ you
+ kind
+ of
+
+
+have
+ the
+ statefulness
+ as
+ well.
+ It's
+ kind
+
+
+of
+ nice.
+
+
+>> Yeah.
+ Back
+ to
+ the
+ transition
+ to
+ like
+
+
+head
+ of
+ AI.
+ So
+ like
+ so
+ you
+ built
+ the
+
+
+signals
+ product.
+ What
+ now?
+
+
+>> Well,
+ yeah.
+ So
+ at
+ the
+ time,
+ I
+ mean,
+ you
+
+
+know,
+ we
+ joined
+ when
+ the
+ company
+ was
+ 50
+
+
+people,
+ engineering
+ team
+ was
+ about
+ 20
+ 20
+
+
+folks.
+ Um,
+ I
+ mean
+ Clay
+ at
+ the
+ time,
+
+
+yeah,
+ I
+ mean
+ to
+ this
+ day
+ there
+ was
+ a
+
+
+huge
+ part
+ of
+ the
+ business
+ was
+ using
+
+
+agents
+ to
+ qualify
+ and
+ enrich
+ stuff
+ like
+
+
+search
+ the
+ web,
+ find
+ data
+ points
+ about
+
+
+companies,
+ like
+ actually
+ use
+ those
+ data
+
+
+points
+ to
+ do
+ things.
+ And
+ at
+ the
+ time
+
+
+there
+ was
+ one
+ person
+ working
+ on
+ that
+ and
+
+
+so
+ I
+ think
+ he
+ was
+ maybe
+ 24
+ so
+ you
+ know
+
+
+like
+ pretty
+ fresh
+ out
+ of
+ school
+ and
+ he
+
+
+actually
+ ended
+ up
+ leaving
+ to
+ go
+ start
+ a
+
+
+company
+ of
+ his
+ own.
+ you
+ know,
+ was
+ super
+
+
+excited
+ for
+ him,
+ but
+ you
+ know,
+ we
+ were
+
+
+this,
+ you
+ know,
+ really
+ AI
+ forward
+
+
+company
+ that
+ had
+ zero
+ people
+ working
+ on
+
+
+AI.
+ So,
+ it
+ was
+ kind
+ of
+ scary.
+
+
+>> Yeah.
+
+
+>> Um,
+ and
+ so
+ like
+ we
+ were
+ basically
+ like,
+
+
+hey,
+ like
+ we
+ really
+ need
+ to
+ rep
+
+
+prioritize
+ like
+ make
+ sure
+ that
+ we're
+
+
+actually
+ investing
+ in
+ this.
+ And
+ there
+
+
+was
+ all
+ this
+ other
+ stuff
+ that
+ we
+ wanted
+
+
+to
+ do
+ in
+ AI
+ at
+ the
+ time.
+ Like
+ we
+ really
+
+
+just
+ had
+ AI
+ as
+ part
+ of
+ our
+ workflows,
+
+
+but
+ not
+ I
+ don't know
+ building
+ workflows
+
+
+or
+ sort
+ of
+ all
+ the
+ things
+ that
+ ended
+ up
+
+
+becoming
+ really
+ important
+ in
+ the
+ last
+
+
+year
+ and
+ a
+ half.
+ Um,
+ so
+ yeah,
+ so
+
+
+basically
+ I
+ shifted
+ my
+ attention
+ over
+ to
+
+
+one
+ just
+ kind
+ of
+ trying
+ to
+ get
+ that
+ into
+
+
+a
+ good
+ place
+ and
+ help
+ build
+ out
+ that
+
+
+team,
+ help
+ build
+ out
+ the
+ road
+ map
+ and
+
+
+figure
+ out
+ kind
+ of
+ what
+ we
+ wanted
+ to
+ do
+
+
+is
+ AI
+ and
+ agents
+ and
+ kind
+ of
+ build
+ out
+
+
+the
+ strategy.
+
+
+>> You
+ said
+ at
+ that
+ point
+ in
+ time
+ like
+ AI
+
+
+was
+ like
+ part
+ of
+ workflows.
+ It
+ wasn't
+
+
+really
+ a
+ big
+ part
+ of
+ it.
+
+
+>> What
+ were
+ those
+ things?
+ And
+ then
+ like
+
+
+what
+ was
+ on
+ your
+ road
+ map
+ that
+ you
+ were
+
+
+like,
+ "Oh,
+ we're
+ going
+ to
+ like
+ totally
+
+
+overhaul
+ this."
+
+
+>> You
+ know,
+ we
+ we
+ had
+ an
+ agent
+ product
+ in
+
+
+Clay
+ actually
+ really
+ early.
+ So
+ I
+ think
+
+
+like
+ November
+ of
+ 2023,
+ so
+ like
+ a
+ year
+
+
+after
+ chat
+ GBT,
+ we
+ had
+ an
+ agent
+ product
+
+
+that
+ would
+ search
+ the
+ web
+ like
+ actually
+
+
+structure
+ data
+ like
+ do
+ structured
+ data
+
+
+extraction
+ from
+ that
+ and
+ you
+ could
+ use
+
+
+that
+ in
+ your
+ clay
+ workflow.
+ So
+ you
+ could
+
+
+imagine
+ building
+ a
+ column
+ that's
+ like
+
+
+hey
+ who's
+ the
+ CEO
+ of
+ this
+ company
+ and
+ it
+
+
+would
+ go
+ off
+ and
+ search
+ the
+ web
+ and
+ kind
+
+
+of
+ structure
+ this
+ data
+ into
+ a
+ a
+ cell
+
+
+output.
+ And
+ I
+ think
+ I
+ mean
+ this
+ is
+ a
+
+
+huge
+ part
+ of
+ the
+ clay
+ business
+ to
+ this
+
+
+day,
+ but
+ it's
+ not
+ super
+ inspiring
+ as
+
+
+like
+ hey
+ AI
+ is
+ going
+ to
+ change
+ go
+ to
+
+
+market.
+ You
+ know
+ I'm
+ an
+ engineer
+ by
+
+
+background.
+ I
+ used
+ cursor
+ cloud
+ code
+
+
+came
+ out
+ in
+ February
+ of
+ 25
+ and
+ I
+ was
+
+
+like
+ you
+ know
+ this
+ is
+ a
+ pretty
+ different
+
+
+thing
+ than
+ what
+ engineers
+ had
+ been
+
+
+doing.
+ Um
+ and
+ so
+ you
+ we
+ were
+ like
+ hey
+
+
+this
+ is
+ clearly
+ the
+ direction
+ that
+
+
+engineering
+ is
+ going
+ and
+ you
+ know
+
+
+there's
+ probably
+ something
+ in
+ go
+ to
+
+
+market
+ as
+ well
+ that
+ we're
+ going
+ to
+ see
+
+
+as
+ well.
+ you
+ know
+ basically
+ trying
+ to
+
+
+bring
+ the
+ same
+ shift
+ um
+ you
+ know
+ that
+
+
+cursor
+ brought
+ to
+ engineering
+ actually
+
+
+to
+ go
+ to
+ market
+ in
+ that
+ domain
+ that
+ was
+
+
+the
+ majority
+ of
+ our
+ road
+ map
+ I
+ would
+ say
+
+
+was
+ actually
+ just
+ building
+ agents
+ into
+
+
+the
+ product
+ letting
+ people
+ build
+ and
+
+
+configure
+ go
+ to
+ market
+ plays
+ with
+ agents
+
+
+>> what
+ what's
+ the
+ first
+ thing
+ after
+
+
+signals
+ that
+ you
+ start
+ with
+ that
+ was
+
+
+like
+ a
+ real
+ hit
+
+
+>> yeah
+ so
+ we
+ launched
+ um
+ so
+ like
+ that
+ was
+
+
+the
+ direction
+ that
+ we
+ were
+ trying
+ to
+ go
+
+
+into
+ was
+ just
+ agents
+ building
+ more
+ of
+
+
+your
+ go
+ to
+ market
+ plays
+ and
+ you
+ know
+
+
+improving
+ them
+ over
+ time
+ but
+ that
+ that
+
+
+came
+ a
+ bit
+ later
+ but
+ We
+ launched
+
+
+sculptor.
+
+
+>> Oh,
+ sculptor
+ first.
+ Okay.
+ I
+ had
+ clients
+
+
+pulled
+ up.
+
+
+>> Yes.
+ Yes.
+ So,
+ clentions.
+ Clent
+ is
+ what
+
+
+we
+ had
+ in
+ in
+ workflows.
+ Yeah.
+ So,
+ it's
+
+
+just
+ like
+ clentions
+ were
+ basically
+ you
+
+
+would
+ have
+ an
+ agent
+ that
+ would
+ crawl
+ the
+
+
+web
+ like
+ structure
+ data
+ and
+ put
+ it
+ in
+ a
+
+
+table
+ and
+ it's
+ again
+ like
+ it's
+ a
+ huge
+
+
+part
+ of
+ the
+ clay
+ platform.
+ I
+ think
+
+
+actually
+ most
+ people
+ think
+ of
+ clay
+ as
+
+
+>> and
+ yeah,
+ we
+ we
+ did
+ a
+ ton
+ more
+ work
+ on
+
+
+client.
+ So,
+ I
+ I
+ don't
+ know.
+ I
+ mean
+ I
+ I
+
+
+we
+ basically
+ rebuilt
+ the
+ entire
+ client
+
+
+stack.
+ We
+ like
+ did
+ a
+ ton
+ of
+ work
+ to
+ just
+
+
+make
+ this
+ scale
+ to
+ the
+ level
+ that
+ it
+ is
+
+
+today.
+ I
+ mean
+ again
+ like
+ the
+ business
+
+
+has
+ basically
+ 10xed
+ since
+ we
+ joined
+ and
+
+
+like
+
+
+>> you
+ can
+ imagine
+ that
+ more
+ people
+ are
+
+
+actually
+ using
+ clay
+ agents
+ even
+ than
+ the
+
+
+business
+ growth
+ and
+ so
+ uh
+ there
+ was
+ just
+
+
+a
+ ton
+ of
+ work
+ to
+ get
+ that
+ into
+ a
+ good
+
+
+place.
+
+
+>> I
+ was
+ going
+ to
+ say
+ uh
+ you
+ know
+ you
+ made
+
+
+the
+ statement
+ about
+ the
+ business
+ 10x
+
+
+since
+ you
+ joined.
+ You
+ could
+ draw draw
+ a
+
+
+nice
+ chart
+ here
+ uh
+ was
+ like
+ you
+ know
+ uh
+
+
+Jeff
+ joins
+ here
+ and
+ look
+ [laughter]
+ look
+
+
+at
+ the
+ shareholder
+ value
+ that
+ we've
+
+
+added.
+ That's
+ right.
+
+
+>> Uh
+ where
+ is
+ it?
+ Yeah,
+
+
+[laughter]
+
+
+>> that's
+ right.
+ Yeah,
+ I
+ have
+ a
+ new
+
+
+acquisition.
+
+
+>> I
+ mean,
+ you
+ know,
+
+
+>> so
+ we're
+ here,
+ right?
+
+
+>> Yeah.
+ Was
+ I
+ I
+ [laughter]
+ uh
+ late
+ late
+
+
+24,
+ so
+ just
+ uh
+ very
+ uh
+
+
+>> Yeah.
+
+
+Okay.
+ Uh
+ yeah.
+ So
+ So
+ I
+ mean
+ Okay.
+ So
+ and
+
+
+again
+ uh
+ just
+ for
+ people
+ who
+ again
+ uh
+
+
+many
+ of
+ whom
+ they
+ are
+ engineers
+ uh
+ they
+
+
+or
+ they
+ are
+ new
+ to
+ the
+ overall
+ uh
+ GTME
+
+
+ecosystem.
+ Clay
+ agents
+ are
+ just
+
+
+basically
+ the
+ same
+ clay
+ interface
+ but
+
+
+everything
+ is
+ exposed
+ to
+ the
+ agent.
+
+
+Agent
+ can
+ do
+ everything
+ that
+ a
+ human
+
+
+could
+ do.
+
+
+>> Yeah.
+ I
+ I
+ I
+ would
+ almost
+ think
+ of
+ clay
+
+
+agents
+ as
+ like
+ what
+ sales
+ reps
+ would
+
+
+have
+ been
+ doing
+ like
+ a
+ few
+ years
+ ago,
+
+
+right?
+ which
+ is
+ like,
+ hey,
+ like
+ for
+ all
+
+
+of
+ my
+ leads,
+ I'm
+ going
+ to
+ go
+ figure
+ out
+
+
+like,
+ I
+ don't
+ know,
+ like
+ are
+ they
+ a
+
+
+plumbing
+ company
+ or
+ a
+ news
+ company,
+
+
+right?
+ Like
+ they'll
+ do
+ some
+
+
+categorization.
+ They
+ might
+ research
+
+
+like,
+ oh,
+ do
+ they
+ have
+ the
+ number
+ of
+
+
+employees
+ that
+ I
+ would
+ expect
+ to
+ be
+ able
+
+
+to
+ sell
+ to
+ this
+ company.
+ You
+ can
+ imagine
+
+
+they
+ have
+ access
+ to
+ all
+ of
+ the
+ things
+
+
+you
+ can
+ do
+ in
+ Clay.
+ They're
+ just
+
+
+natively
+ in
+ your
+ table
+ and
+ they
+ have
+
+
+access
+ to
+ the
+ web
+ as
+ well.
+
+
+>> Doesn't
+ that
+ data
+ come
+ from
+ like
+ Zoom
+
+
+Info
+ like
+ all
+ these
+ other
+ data
+
+
+providers?
+ I
+ would
+ almost
+ think
+ of
+
+
+clients
+ as
+ one
+ an
+ agentic
+ way
+ to
+ to
+ get
+
+
+some
+ of
+ this
+ data.
+ Um
+ but
+ primarily
+ it's
+
+
+the
+ public
+ web.
+ Okay.
+ So
+ yeah.
+
+
+>> And
+ then
+ so
+ sculpture.
+
+
+>> Yes.
+ So
+ sculpture
+ we
+ launched
+ I
+ think
+
+
+almost
+ just
+ about
+ a
+ year
+ ago.
+ Um
+ and
+ the
+
+
+idea
+ with
+ sculpture
+ was
+ like
+ hey
+ we
+ we
+
+
+can
+ go
+ like
+ one
+ level
+ of
+ abstraction
+ up
+
+
+which
+ is
+ like
+ you
+ know
+ clients
+ are
+ sort
+
+
+of
+ the
+ the
+ things
+ doing
+ each
+ of
+ the
+
+
+tasks
+ in
+ your
+ workflow
+ right
+ like
+
+
+they're
+ they're
+ qualifying
+ they're
+
+
+scoring
+ enriching
+ like
+ I
+ don't
+ know
+
+
+doing
+ copywriting.
+ Sculptor
+ is
+ the
+ thing
+
+
+that's
+ actually
+ building
+ those
+ workflows
+
+
+to
+ you
+ know
+ coordinate
+ these
+ clients
+
+
+together.
+
+
+>> Okay.
+
+
+>> You
+ can
+ think
+ of
+ it
+ almost
+ like
+
+
+>> orchestrator.
+
+
+>> Yeah.
+ Yeah.
+ Like
+ sculpture
+ is
+ like
+
+
+building
+ the
+ table
+ structure
+ and
+ then
+
+
+like
+ clients
+ are
+ filling
+ in
+ the
+ table
+
+
+table
+ cells.
+
+
+>> Can
+ you
+ talk
+ about
+ like
+ what
+ the
+ stack
+
+
+is
+ you
+ used
+ to
+ build
+ it?
+
+
+>> I
+ think
+ we
+ uh
+ I'll
+ describe
+ it.
+ I
+ I
+
+
+think
+ we
+ we
+ we've
+ just
+ learned
+ so
+ much
+
+
+since
+ then.
+ I
+ I
+ can
+ describe
+ sort
+ of
+
+
+what
+ we've
+
+
+>> maybe
+ like
+ talk
+ about
+ the
+ evolution.
+ I
+
+
+think
+ that
+ would
+ be
+ really
+ interesting.
+
+
+>> Yeah.
+ Yeah.
+ So,
+ so
+ we
+ we
+ we
+ launched
+
+
+Sculptor
+ in
+ September
+ of
+ last
+ year.
+ So,
+
+
+we
+ we
+ basically
+ were
+ building
+ it
+ through
+
+
+the
+ summer
+ of
+ last
+ year
+ and
+ I
+ think
+ at
+
+
+the
+ time,
+ you
+ know,
+ it
+ was
+ like
+ sonnet
+
+
+33
+ 35
+ or
+ maybe
+ it
+ was
+ around
+ then
+ I
+
+
+think,
+ you
+ know,
+ so
+ uh
+ the
+ models
+ were
+
+
+way
+ less
+ advanced.
+ I
+ think
+ like
+ people
+
+
+just
+ knew
+ less
+ about
+ how
+ to
+ build
+ agents
+
+
+properly.
+ This
+ is
+ like
+ really
+ figuring
+
+
+things
+ out.
+ Sculptor
+ ended
+ up
+ being,
+ you
+
+
+know,
+ we
+ had
+ a
+ bunch
+ of
+ different
+ tool
+
+
+interfaces
+ to,
+ you
+ know,
+ access,
+ read,
+
+
+update
+ the
+ clay
+ platform
+ and
+ we
+
+
+basically
+ gave
+ it
+ to
+ a
+ model
+ in
+ a
+ loop
+
+
+and,
+ you
+ know,
+ we
+ spent
+ a
+ lot
+ of
+ time
+ on
+
+
+sort
+ of
+ system
+ prop
+ optimization
+ and
+
+
+tool
+ definition
+ optimization
+ and,
+ you
+
+
+know,
+ I
+ think
+ it
+ it
+ it
+ came
+ out
+ well,
+
+
+but
+ it
+ was
+ way
+ less
+ expressive
+ than
+ I
+
+
+think
+ even
+ cloud
+ code
+ was
+ at
+ the
+ time
+
+
+and
+ definitely
+ like
+ the
+ agents
+ that
+
+
+people
+ are
+ building
+ now.
+ I
+ think
+ we
+ just
+
+
+had
+ way
+ less
+ ability
+ to
+ sort
+ of
+ do
+
+
+these,
+ I
+ don't
+ know,
+ long
+ horizon
+
+
+things.
+ too.
+ The
+ way
+ I
+ describe
+ it
+ is
+
+
+like
+ Sculptor
+ was
+ really
+ good
+ at
+ doing
+
+
+things
+ like,
+ "Hey,
+ add
+ this
+ column
+ that
+
+
+does,
+ you
+ know,
+ does
+ does
+ this."
+ It
+ was
+
+
+not
+ good
+ at
+ doing
+ things
+ like
+ build
+ me
+
+
+an
+ outbound
+ campaign
+ that's
+ going
+ to
+
+
+deliver
+ 10
+ qualified
+ meetings
+ on
+ on
+ my
+
+
+calendar.
+
+
+>> Well,
+ what
+ does
+ that
+ look
+ like
+ when
+ you
+
+
+say,
+ "Hey,
+ go
+ build
+ me
+ an
+ outbound
+
+
+campaign."
+ Like,
+ is
+ it
+ connected
+ to
+ your
+
+
+systems?
+
+
+>> Yeah.
+ I
+ mean,
+ yeah,
+ I
+ think
+ that
+ like
+ it
+
+
+wasn't.
+ I'd
+ say
+ like
+ I
+ think
+ that
+ was
+
+
+that
+ was
+ the
+ other
+ thing.
+ It
+ it
+ just
+
+
+lacked
+ a
+ lot
+ of
+ the
+ context
+ that
+ you
+
+
+know,
+ your
+ sales
+ reps
+ would
+ have.
+
+
+>> Okay.
+ So
+ that's
+ how
+ it
+ started.
+ Like
+
+
+what
+ would
+ you
+ say
+ were
+ the
+ biggest
+
+
+learnings
+ that
+ got
+ it
+ to
+ um
+ improve
+ over
+
+
+time?
+
+
+>> Again,
+ it
+ was
+ pretty
+ good.
+ Like
+ I
+ think
+
+
+it
+ it
+ accomplished
+ a
+ lot
+ of
+ the
+ things
+
+
+that
+ people
+ were
+ trying
+ to
+ do
+ with
+ it
+
+
+>> and
+ you
+ guys
+ were
+ running
+ emails
+ at
+ that
+
+
+point.
+
+
+>> Yes.
+ Yes.
+ Uh
+ we
+ were
+ running
+ writing
+
+
+writing
+ evals,
+ but
+ I
+ don't
+ think
+ we
+ were
+
+
+measuring
+ the
+ right
+ things.
+ So
+ like
+ we
+
+
+launched
+ it
+ and
+ immediately
+ we
+ saw
+ a
+ ton
+
+
+of
+ people
+ trying
+ to
+ just
+ do
+ analysis
+ on
+
+
+their
+ tables
+ and
+ we
+ were
+ like,
+ "Oh,
+ we
+
+
+didn't
+ plan
+ for
+ that."
+ And
+ I
+ don't
+ know
+
+
+like
+ a
+ bunch
+ of
+ the
+ evals
+ were
+ good
+ for
+
+
+small
+ companies
+ but
+ then
+ we
+ had
+
+
+enterprise
+ customers
+ who
+ had
+ like
+
+
+millions
+ of
+ records
+ in
+ their
+ tables
+ and
+
+
+like
+ things
+ would
+ break
+ down.
+ So
+ like
+
+
+all
+ these
+ sorts
+ of
+ things
+ that
+ were
+
+
+probably
+ predictable
+ in
+ advance
+ but
+ you
+
+
+know
+ we
+ I
+ don't
+ know
+ we
+ observed
+ them
+ in
+
+
+production.
+ So
+
+
+>> yeah
+ like
+ what
+ do
+ emails
+ even
+ look
+ like
+
+
+for
+ for
+ something
+ like
+ that?
+
+
+>> We
+ were
+ doing
+ pretty
+ standard
+ stuff
+ I'd
+
+
+say
+ of
+ like
+ just
+ looking
+ at
+ the
+ the
+
+
+outputs
+ like
+ judging
+ the
+ quality
+ of
+
+
+whether
+ the
+ suggestions
+ were
+ correct.
+
+
+Um,
+ so
+ like
+ LM
+ is
+ a
+ judge
+ basically,
+ you
+
+
+know,
+
+
+>> but
+ like
+ what
+ are
+ the
+ outputs
+ that
+
+
+you're
+ that
+ you're
+ measuring?
+
+
+>> It's
+ basically
+ the
+ the
+ actual
+ tools
+ that
+
+
+were
+ it
+ was
+ calling,
+ right?
+ So
+ it's
+ like
+
+
+hey,
+ like
+ if
+ it's
+ if
+ the
+ prompt
+ is
+ build
+
+
+a
+ table
+ to
+ do
+ these
+ things,
+ it
+ would
+ be
+
+
+like
+ did
+ it
+ actually
+ add
+ these
+ columns
+
+
+>> cuz
+ I
+ was
+ going
+ to
+ say
+ it
+ might
+ be
+ like
+
+
+in
+ in
+ this
+ context,
+ right?
+ Like
+ the
+
+
+ultimate
+ objective
+ is
+ to,
+ you
+ know,
+ hey,
+
+
+go
+ build
+ me
+ an
+ outbound
+ campaign
+ to
+ get
+
+
+me
+ customers.
+ Might
+ be
+ hard
+ to
+ get
+ that
+
+
+data.
+
+
+>> Yeah.
+ So
+ it's
+ like
+ very
+ unique
+ use
+ case
+
+
+of
+ emails.
+ I
+ guess
+
+
+>> this
+ is
+ probably
+ a
+ very
+ different
+ shift
+
+
+to
+ where
+ we
+ are
+ now.
+ I
+ think
+ like
+ now
+
+
+we're
+ doing
+ uh
+ I
+ don't
+ think
+ we're
+ at
+
+
+that
+ point
+ where
+ like
+ uh
+ we're
+ actually
+
+
+measuring
+ some
+ of
+ the
+ like
+ downstream
+
+
+effects
+ of
+ these
+ things,
+ but
+ we're
+
+
+definitely
+ I
+ think
+ doing
+ doing
+ a
+ much
+
+
+better
+ job
+ of
+ I
+ think
+ measuring
+ actual
+
+
+quality.
+
+
+>> So
+ you're
+ building
+ this
+ harness.
+ Um
+ why
+
+
+not
+ just
+ use
+ something
+ off
+ the
+ shelf?
+
+
+>> Yeah.
+ So
+ I
+ would
+ see
+ like
+ the
+ if
+ I
+ were
+
+
+to
+ summarize
+ the
+ learnings,
+ one
+ it
+ turns
+
+
+out
+ coding
+ agents
+ are
+ really
+ good
+ like
+
+
+the
+ models
+ are
+ really
+ good
+ at
+ you
+ know
+
+
+operating
+ in
+ coding
+ agents.
+ the
+ coding
+
+
+agents
+ are
+ really
+ good
+ at
+ using
+ things
+
+
+like
+ bash
+ or
+ using
+ things
+ like
+ Python
+ to
+
+
+actually
+ write
+ scripts
+ and
+ do
+ things.
+
+
+Two
+ was
+ like,
+ hey,
+ the
+ expressivity
+ of
+
+
+some
+ of
+ the
+ tools
+ that
+ we
+ had
+ was
+ just
+
+
+too
+ small.
+ Like
+ we
+ kind
+ of
+ needed
+
+
+actually
+ ways
+ for
+ the
+ agents
+ to
+ chain
+
+
+these
+ tools
+ together
+ or
+ like
+ I
+ don't
+
+
+know
+ build
+ five
+ columns
+ at
+ once
+ or
+ kind
+
+
+of
+ do
+ a
+ bunch
+ of
+ stuff.
+ And
+ then
+ I'd
+ say
+
+
+the
+ last
+ thing
+ is
+ um
+ I
+ I
+ think
+ it
+ was
+
+
+just
+ too
+ constrained
+ in
+ terms
+ of
+ the
+
+
+primitives
+ it
+ had
+ access
+ to.
+ to
+ your
+
+
+point
+ about
+ data
+ like
+ we
+ didn't
+ have
+ CRM
+
+
+data
+ and
+ we
+ didn't
+ have
+ you
+ know
+ if
+
+
+someone
+ was
+ going
+ to
+ send
+ a
+ campaign
+ we
+
+
+didn't
+ have
+ access
+ to
+ the
+ actual
+ results
+
+
+of
+ that
+ campaign
+ and
+ so
+ that
+ this
+ was
+
+
+like
+ a
+ platformwide
+ effort
+ where
+ we
+
+
+rebuilt
+ a
+ ton
+ of
+ parts
+ of
+ the
+ system
+
+
+where
+ like
+ we
+ now
+ have
+ a
+ core
+ data
+
+
+context
+ layer
+ where
+ it's
+ like
+ this
+ is
+
+
+called
+ audiences
+ like
+ we
+ bring
+ in
+ CRM
+
+
+data
+ we
+ bring
+ in
+ Gong
+ data
+ you
+ can
+
+
+entity
+ resolve
+ it
+ all
+ together
+ like
+ you
+
+
+can
+ imagine
+ it's
+ like
+ the
+ authoritative
+
+
+canonical
+ spreadsheet
+ of
+ like
+ your
+
+
+customers
+ and
+ contacts
+ can
+ ask
+ a
+ cheeky
+
+
+question
+ there
+ Yeah,
+
+
+>> a
+ lot
+ of
+ this
+ is
+ duplicate
+ work
+ across
+
+
+customers.
+ Do
+ you
+ multi-tenant
+ it
+ or
+ do
+
+
+you
+ have
+ like
+ single
+ tenants
+ guarantees?
+
+
+>> It
+ is
+ single
+ tenant.
+ So,
+ u
+ yes
+ for
+
+
+everyone.
+ Yes,
+ there's
+ there's
+ a
+ ton
+ of
+
+
+downsides
+ to
+ that
+ but
+ but
+ yes,
+ uh
+ we
+ we
+
+
+effectively
+ have
+
+
+>> because
+ you
+ know
+ and
+ for
+ the
+ audience
+
+
+you
+ can
+ save
+ a
+ ton
+ of
+ cost
+ because
+ you
+
+
+just
+ onboard
+ one
+ person
+ once
+ in
+ instead
+
+
+everyone
+ who's
+ scraping
+ google.com
+ has
+
+
+to
+ or
+ what
+ whatever
+ or
+ like
+ you
+ know
+ you
+
+
+scrape
+ openai
+ as
+ a
+ customer
+ well
+ you
+
+
+have
+ to
+ go
+ scrape
+ them
+ again.
+ Yes.
+ Yes.
+
+
+Yeah.
+ And
+ like
+ there's
+ a
+ lot
+ of
+
+
+downsides
+ of
+ doing
+ that,
+ but
+ I
+ think
+ it
+
+
+it
+ ends
+ up
+ being
+ both
+ simpler
+ and
+ then
+ I
+
+
+think
+ also
+ I
+ think
+ there's
+ less
+
+
+duplicative
+ work
+ than
+ you
+ would
+ think.
+
+
+Like
+ people
+ are
+ doing
+
+
+>> very
+ custom
+ things.
+
+
+>> Yeah.
+ Like
+
+
+>> I
+ want
+ to
+ find
+ out
+ I
+ want
+ to
+ find
+ out
+
+
+their
+ employee
+ size.
+ I
+ want
+ to
+ find
+ out
+
+
+like
+ their
+ phone
+ number,
+ name
+ of
+ their
+
+
+first
+ born,
+ like
+ [laughter]
+
+
+as
+ soon
+ as
+ you
+ get
+ to
+ that
+ part
+ then
+ you
+
+
+know
+ then
+ then
+ it
+ devolves
+ a
+ bit.
+ Uh
+ we
+
+
+do
+ have
+ our
+ our
+ own
+ data
+ sets
+ of
+
+
+companies
+ and
+ contacts
+ and
+ like
+ those
+
+
+are
+ out
+ of
+ the
+ box
+ right
+ like
+ you
+ can
+
+
+just
+ bring
+ them
+ in.
+ So
+ like
+ if
+ I
+ if
+ I
+
+
+just
+ want
+ to
+ start
+ with
+ a
+ list
+ of
+
+
+companies
+ like
+ we'll
+ help
+ you
+ build
+ that
+
+
+and
+ like
+ that
+ that
+ just
+ comes
+ from
+ our
+
+
+database
+ and
+ like
+ you
+ know
+
+
+>> there
+ is
+ not
+ there's
+ not
+ like
+ a
+ specific
+
+
+branding
+ behind
+ that.
+ I
+ can't
+
+
+>> uh
+ I
+ can't
+ see
+ it
+ on
+ the
+ data
+ market.
+ We
+
+
+brand
+ it
+ as
+ search
+ if
+ we
+ brand
+ it
+ as
+
+
+anything
+ but
+ the
+ idea
+ is
+ like
+ you
+ um
+
+
+>> there's
+ data
+ marketplace
+ there's
+ there's
+
+
+other
+ things
+ in
+ product
+ but
+ it's
+ not
+
+
+really
+ like
+ like
+ clay
+ itself
+ has
+ data
+
+
+instead
+ it
+ is
+ the
+ messaging
+ is
+ like
+ we
+
+
+have
+ all
+ these
+ integrations
+
+
+>> that's
+ right
+ yeah
+ we
+ we
+ do
+ have
+ a
+ data
+
+
+set
+ that
+ you
+ can
+ start
+ with
+ and
+ so
+ if
+
+
+I'm
+ just
+ like
+ hey
+ I
+ want
+ you
+ know
+
+
+>> I
+ mean
+ you
+ know
+ maybe
+ maybe
+ the
+ framing
+
+
+is
+ like
+ well
+ this
+ is
+ what
+ you'd
+ have
+ to
+
+
+do
+ if
+ you
+ built
+ it
+ in-house
+
+
+>> right
+ like
+ so
+ clay
+ is
+ simply
+ like
+ the
+
+
+the
+ software
+ as
+ a
+ service
+ that
+ you
+
+
+install
+ and
+ it
+
+
+house.
+ Yeah.
+ I
+ mean,
+ you
+ can
+ think
+ of
+ it
+
+
+as
+ like
+ just
+ an
+ infrastructure
+ provider
+
+
+like
+ go
+ to
+ market
+ flavored.
+
+
+>> Yeah.
+ I
+ guess
+ back
+ to
+ the
+ agency.
+ Okay.
+
+
+Um
+ you
+ said
+ you
+ started
+ with
+ whatever
+ it
+
+
+was
+ like
+ set
+ 35.
+ It
+ was
+ not
+ not
+ great.
+
+
+Obviously
+ like
+ models
+ are
+ getting
+
+
+insanely
+ good
+ now.
+ Also
+ open
+ source
+
+
+models
+ are
+ getting
+ really
+ good
+ now.
+ So
+
+
+are
+ you
+ guys,
+ you
+ know,
+ thinking
+ about
+
+
+that?
+ Are
+ you
+ guys,
+ you
+ know,
+
+
+fine-tuning
+ them?
+
+
+>> Starting
+ to
+ think
+ about
+ this
+ way
+ more.
+ I
+
+
+think
+ um
+ since
+ since
+ I've
+ been
+ at
+ Clay,
+
+
+I
+ think
+ we've
+ flirted
+ with
+ the
+ idea
+ of
+
+
+doing
+ post-
+ training
+ like
+ I
+ don't
+ know
+
+
+training
+ your
+ own
+ models
+ and
+ I
+ think
+ you
+
+
+know
+ it
+ just
+ realistically
+ hasn't
+ been
+
+
+viable
+ for
+ a
+ number
+ of
+ reasons
+ for
+ I'd
+
+
+say
+ the
+ past
+ or
+ like
+ the
+ first
+ 18
+ months
+
+
+uh
+ of
+ of
+ when
+ I
+ joined
+ Clay.
+ I'd
+ say
+ in
+
+
+the
+ past
+ couple
+ of
+ months
+ like
+ it's
+
+
+started
+ to
+ be
+ more
+ potentially
+ viable
+ in
+
+
+some
+ areas
+
+
+>> like
+ why
+ areas
+
+
+>> the
+ main
+ thing
+ I'd
+ say
+ this
+ is
+ true
+ for
+
+
+both
+ openw
+ weight
+ models
+ and
+ post
+
+
+training
+ but
+ I
+ I
+ think
+ just
+ call
+ savings
+
+
+once
+ you're
+ at
+ a
+ certain
+ level
+ of
+
+
+inference
+ like
+ you
+ can
+ get
+ pretty
+ good
+
+
+performance
+ and
+ just
+ go
+ a
+ model
+ class
+
+
+smaller
+ and
+ if
+ you're
+ post
+ training
+ on
+
+
+like
+ just
+ that
+ model
+ set
+ of
+ tools
+ or
+
+
+like
+ just
+ that
+ model's
+ you
+ know
+ the
+
+
+input
+ distribution
+ of
+ what
+ you
+ think
+
+
+like
+ what
+ queries
+ that
+ you
+ want
+ that
+ uh
+
+
+model
+ or
+ agent
+ to
+ be
+ optimized
+ I
+ think
+
+
+you
+ get
+ pretty
+ good
+ results.
+ Um,
+ we're
+
+
+pretty
+ early
+ here,
+ I'd
+ say,
+ on
+ the
+ post
+
+
+training
+ front.
+ Like
+ we're
+ starting
+ to
+
+
+explore.
+ I
+ think
+ we'll
+ launch
+ something
+
+
+pretty
+ soon
+ in
+ like
+ in
+ this
+ area.
+ Um,
+
+
+yeah.
+ Yeah.
+ Yeah.
+ Um,
+ the
+ general
+ goal
+
+
+is
+ to
+ keep
+ the
+ capabilities
+ constant
+ but
+
+
+reduce
+ cost
+ and
+ speed.
+ Uh,
+ increase
+
+
+speed.
+
+
+>> That's
+ right.
+ Yeah.
+
+
+>> Yeah.
+ And
+ like
+ what
+ do
+ you
+ think
+ is
+
+
+reasonable
+ for
+ other
+ heads
+ of
+ AI
+ let's
+
+
+say
+ exploring
+ this
+ process?
+ What
+ is
+ a
+
+
+good
+ goal?
+ It's
+ like
+ 50%
+ 75%.
+
+
+>> There's
+ kind
+ of
+ two
+ things
+ that
+ uh
+ you
+
+
+can
+ do.
+ So,
+ one
+ is
+ just
+ like
+
+
+offthe-shelf
+ openweight
+ models
+ are
+ are
+
+
+pretty
+ good
+ now.
+ Like
+ I
+ I
+ don't
+ know
+
+
+like
+ you
+ can
+ get
+ K3
+ at
+ like
+ decent
+
+
+prices.
+ Like
+ K3
+ is
+ still
+ pretty
+
+
+expensive
+ even
+ and
+ like
+ but
+ it's
+ pretty
+
+
+good.
+ Um
+ and
+ still
+ cheaper
+ than
+ Opus
+ by
+
+
+a
+ good
+ margin.
+ And
+ then
+ like
+ beyond
+ that
+
+
+it's
+ like
+ hey
+ you
+ can
+ probably
+ get
+
+
+actually
+ like
+ a
+ maybe
+ not
+ GLM
+ 53
+ flash
+
+
+but
+ like
+ a
+ smaller
+ weight
+ weight
+ class
+
+
+of
+ model
+ to
+ perform
+ at
+ like
+ opus
+ level.
+
+
+And
+ so
+ uh
+ there's
+ kind
+ of
+ two
+ jumps
+ in
+
+
+cost
+ reduction
+ that
+ I
+ think
+ you
+ can
+ you
+
+
+can
+ achieve.
+ I
+ don't
+ know.
+ I
+ think
+ like
+
+
+still
+ maybe
+ the
+ the
+ pitfalls
+ are
+ like
+
+
+what
+ I
+ see
+ people
+ doing
+ prematurely
+ is
+
+
+one
+ I
+ I
+ still
+ think
+ training
+ a
+ frontier
+
+
+model
+ is
+ really
+ hard.
+ So
+ like
+ if
+ you're
+
+
+trying
+ to
+ get
+ post
+ frontier
+ performance
+
+
+like
+ you're
+ trying
+ to
+ exceed
+ fable
+ like
+
+
+achieve
+ or
+ exceed
+ fable
+ level
+ for
+ like
+ a
+
+
+domain
+ even
+ it's
+ pretty
+ hard
+ and
+ I
+ think
+
+
+the
+ other
+ thing
+ is
+ like
+ hey
+ cost
+ savings
+
+
+are
+ great
+ but
+ you
+ have
+ to
+ kind
+ of
+ do
+
+
+that
+ on
+ a
+ substantial
+ enough
+ base
+ where
+
+
+the
+ cost
+ savings
+ are
+ actually
+ matter
+ for
+
+
+for
+ that.
+ And
+ so
+ I
+ don't
+ know
+ I
+ think a
+
+
+lot
+ of
+ companies
+ are
+ jumping
+ into
+ this
+
+
+just
+ too
+ early
+ right
+ like
+ they
+ don't
+
+
+have
+ enough
+ of
+ enough
+ inference
+ spend
+
+
+where
+ the
+ savings
+ are
+ going
+ to
+ you
+ know
+
+
+be
+ material
+ to
+ the
+ business.
+
+
+>> So
+ what
+ would
+ that
+ be
+ 10
+ million
+ 100
+
+
+million?
+
+
+>> It's
+ uh
+ you
+ know
+ somewhere
+ in
+ the
+ 10
+ to
+
+
+100
+ like
+ is
+ where
+ you
+ like
+ that
+ that
+
+
+starts
+ to
+ be
+ I
+ don't
+ know
+ chunky
+
+
+>> chunky
+ yeah
+ [laughter]
+
+
+you
+ know
+ I
+ think
+ that
+ is
+ in
+ line
+ with
+
+
+expectations.
+ I
+ think
+ you
+ know
+ maybe
+ u
+
+
+this
+ is
+ like
+ very
+ timely
+ cuz
+ uh
+ you
+ know
+
+
+a
+ week
+ ago
+ we
+ did
+ the
+ Jev
+ podcast
+ and
+
+
+Jev
+ is
+ all
+ all
+ talk
+ of
+ the
+ town.
+ But
+ you
+
+
+as
+ a
+ head
+ of
+ no
+ strangers
+ classifiers
+
+
+>> a
+ lot
+ of
+
+
+>> Yeah.
+ Yeah.
+ There's
+ a
+ lot
+ of
+ stuff.
+ Uh
+
+
+there's
+ a
+ lot
+ of
+ overlap
+ with
+ what
+ what
+
+
+we're
+ doing
+ and
+ uh
+ what
+ uh
+ you
+ know
+ the
+
+
+goals
+ of
+ Jeff.
+
+
+>> Is
+ it
+ actually
+ editive
+ or
+ were
+ you
+
+
+already
+ I
+ mean
+ you're
+ already
+ doing
+
+
+classification
+ right
+ in
+ like
+ spades.
+
+
+>> Yeah.
+ And
+ like
+ you
+ know
+
+
+>> we
+ haven't
+ done
+ anything
+ yet
+ with
+ Jev
+ in
+
+
+production.
+ I
+ I
+ think
+ um
+ I
+ do
+ think
+ the
+
+
+name
+ is
+ really
+ accurate
+ where
+ I
+ could
+
+
+imagine
+ people
+ just
+ use
+ Jev
+ way
+ more
+ and
+
+
+so
+ like
+ I
+ I
+ don't
+ know
+ people
+ people
+ do
+
+
+use
+ client
+ to
+ qualify
+ but
+ people
+ are
+
+
+still
+ restricting
+ their
+ list
+ of
+ like
+ oh
+
+
+maybe
+ you'll
+ like
+ take
+ 10,000
+ companies
+
+
+and
+ just
+ qualify
+ across
+ them
+ but
+ the
+
+
+thought
+ experiment
+ I
+ can
+ think
+ of
+ with
+
+
+Jev
+ is
+ like
+ we
+ have
+ a
+ a
+ company
+ data
+ set
+
+
+of
+ 40
+ million
+ companies
+ right
+ and
+ you
+
+
+can
+ imagine
+ that
+ I
+ don't
+ know
+ every
+
+
+company's
+ LinkedIn
+ is
+ maybe
+ like
+ a
+
+
+thousand
+ tokens
+ and
+ maybe
+ your
+ company's
+
+
+ICP
+ like
+ ideal
+ customer
+ profile
+ is
+ like
+
+
+500
+ tokens
+ and
+ so
+ it's
+ 1500
+ tokens
+
+
+across
+ your
+ ICP
+ and
+ their
+ um
+ you
+ know
+
+
+and
+ their
+ LinkedIn.
+ You
+ can
+ imagine
+ just
+
+
+asking
+ a
+ question
+ like,
+ is
+ this
+ customer
+
+
+a
+ good
+ fit
+ for
+ my
+ product
+ or
+ service?
+
+
+And
+ you
+ could
+ run
+ that
+ across
+ every
+
+
+company
+ in
+ the
+ world
+ and
+ it
+ comes
+ out
+ to
+
+
+I
+ think
+ around
+ 1,500
+ bucks,
+ right?
+ You
+
+
+just
+ multiply
+ 1,500
+ tokens
+ times
+ 42
+
+
+billion,
+ you
+ know,
+ $42
+ per
+ billion
+
+
+tokens.
+ It's
+ like
+ that's
+ crazy.
+ You
+ just
+
+
+kind
+ of
+ like
+ across
+ and
+ you
+ get
+ a
+
+
+probability
+ of
+ like
+ is
+ this
+ a
+ good
+
+
+customer
+ for
+ me
+ across
+ every
+ company
+ in
+
+
+the
+ world.
+ Um
+ pretty
+ like
+ a
+ pretty
+ cool
+
+
+starting
+ point.
+ In
+ clay,
+ what's
+ a
+ budget
+
+
+for
+ enrichment?
+ Now,
+ maybe
+ you
+ have
+ a
+
+
+target
+ for
+ that.
+
+
+>> It
+ varies
+ a
+ lot,
+ but
+ I'd
+ say
+ like,
+ you
+
+
+know,
+ $1
+ to
+ $10
+ per
+ qualified
+ lead
+ is
+
+
+like
+ a
+ pretty
+ good
+ range.
+ You
+ know,
+ if
+
+
+you're
+ booking
+ a
+ a
+ call
+ with
+ someone,
+
+
+it's
+ like,
+ you
+ know,
+ on
+ the
+ order
+ of
+ 10
+
+
+to
+ 100
+ is
+ not
+ crazy.
+
+
+>> So,
+ wow.
+
+
+>> 10
+ to
+ 100.
+
+
+>> Yeah.
+ [laughter]
+
+
+>> It
+ depends
+ on
+ the
+ type
+ of
+ business.
+
+
+>> It
+ totally
+ depends
+ on
+ Yeah.
+ the
+ type
+ of
+
+
+business
+ like
+ the
+ expected
+ value
+ of
+ like
+
+
+each
+ customer
+ for
+ for
+ someone.
+ But
+ uh
+
+
+>> maybe
+ one
+ thing
+ we
+ can
+ talk
+ about
+ is
+
+
+just
+ like
+ where
+ do
+ you
+ like
+ in
+ your
+
+
+agents
+ need
+ frontier
+ intelligence
+ and
+
+
+where
+ do
+ you
+ not
+ need
+ frontier
+
+
+intelligence?
+
+
+>> There
+ are
+ definitely
+ examples
+ of
+ um
+ to
+
+
+the
+ point
+ about
+ go
+ to
+ market
+ engineering
+
+
+being
+ engineering.
+ I
+ think
+ there's
+ a
+
+
+huge
+ variance
+ in
+ terms
+ of
+ how
+ you
+
+
+orchestrate
+ some
+ of
+ these
+ go
+ to
+ market
+
+
+plays
+ and
+ the
+ kind
+ of
+ intelligence
+ or
+
+
+reasoning
+ that
+ are
+ required
+ there.
+ And
+
+
+so
+ like
+ I
+ don't know
+ something
+
+
+sculptor-l
+ like
+ or
+ having
+ an
+ agent
+ that
+
+
+actually
+ builds
+ endto-end
+ plays
+ for
+ you
+
+
+is
+ something
+ where
+ still
+ I
+ think
+ like
+
+
+the
+ difference
+ between
+ the
+ best
+ and
+ the
+
+
+average
+ is
+ you
+ know
+ a
+ 10x
+ 100x
+ in
+ output
+
+
+like
+ variation
+ right
+ so
+ like
+ I
+ think
+
+
+like
+ kind
+ of
+ the
+ higher
+ level
+ of
+
+
+extraction
+ you
+ are
+ frontier
+ intelligence
+
+
+still
+ matters
+ the
+ stuff
+ on
+ like
+ task
+
+
+agents
+ or
+ you
+ know
+ the
+ qualification
+
+
+step
+ I
+ don't know
+ I
+ think
+ like
+ our
+ eval
+
+
+saturated
+ there
+ for
+ about
+ a
+ like
+ new
+
+
+models
+ come
+ out
+ and
+ like
+ they
+ might
+ be
+
+
+better
+ for
+ some
+ of
+ the
+ harder
+ tasks.
+ I
+
+
+actually
+ think
+ this
+ is
+ where
+ model
+
+
+routing
+ is
+ pretty
+ helpful
+ for
+ stuff
+ like
+
+
+Claggent
+ where
+ people
+ are
+ still
+ doing
+
+
+deep
+ research
+ tasks
+ and
+ trying
+ to
+
+
+prospect
+ into
+ companies
+ really
+ deeply
+
+
+and
+ they're
+ like
+ Fable
+ is
+ much
+ better
+ at
+
+
+than
+ something
+ like
+ I
+ don't
+ know
+ GLM
+ 5.3
+
+
+Flash
+ but
+ you
+ know
+ if
+ you're
+ just
+ trying
+
+
+to
+ get
+ I
+ don't
+ know
+ the
+ most
+ recent
+
+
+funding
+ announcement
+ for
+ a
+ company.
+ I
+
+
+mean
+ any
+ model
+ that's
+ come
+ out
+ in
+ the
+
+
+last
+ year
+ can
+ do
+ this
+ quite
+ effectively
+
+
+for
+ for
+ any
+ company
+ and
+ so
+ yeah
+ it's
+
+
+just
+ started
+ to
+ move
+ higher
+ up
+ the
+ stack
+
+
+I
+ think
+ right
+ like
+ the
+ more
+
+
+orchestration
+ level
+ things
+ or
+ the
+ more
+
+
+kind
+ of
+ creative
+ like
+ trying
+ to
+ break
+
+
+into
+ very
+ specific
+ types
+ of
+ companies
+
+
+right
+ like
+ you're
+ still
+ seeing
+ benefits
+
+
+from
+ frontier
+ level
+ intelligence
+ but
+
+
+yeah
+ yeah
+ you
+ said
+ model
+ routing
+ is
+
+
+important
+ uh
+ do
+ you
+ have
+ your
+ own
+ router
+
+
+or
+ is
+ there
+ what's
+ the
+ state
+ of the
+ art
+
+
+there
+
+
+>> we
+ will
+ we
+ will
+ launch
+ a
+ model
+ router
+
+
+quite
+ soon
+ yeah
+
+
+>> scooped
+ it
+ yeah
+ [laughter]
+
+
+>> I
+ think
+ uh
+ that's
+ one
+ of
+ those
+ things
+
+
+where
+ um
+ so
+ I
+ have
+ this
+ the thesis
+ about
+
+
+what
+ I
+ call
+ the
+ agent
+ labs
+ which
+ is
+
+
+where
+ you
+ know
+ look
+ like
+ your
+ customers
+
+
+are
+ not
+ necessarily
+ in
+ there
+ all
+ day
+
+
+like
+ clicking
+ the
+ model
+ toggle
+ and
+
+
+picking
+ models
+ and
+ like
+ some
+ of
+ them
+
+
+want
+ to
+ like
+ maybe
+ 5%
+ of
+ them
+ want
+ to
+
+
+the
+ rest
+ of
+ them
+ just
+ want
+ to
+ get
+ on
+
+
+with
+ their
+ jobs
+ and
+ they
+ trust
+ you
+ as
+
+
+the
+ technology
+ provider
+ to
+ choose
+ for
+ us
+
+
+right
+
+
+>> yeah
+ I
+ would
+ say
+ like
+ our
+ our
+ users
+ hate
+
+
+our
+ model
+ selector
+ like
+ they
+ hate
+ it
+
+
+like
+
+
+>> are
+ you
+ going
+ to
+ get
+ rid
+ of
+ it
+ or
+
+
+>> no
+ we'll
+ keep
+ it
+
+
+>> that's
+ the
+ aggressive
+ position
+ right
+
+
+>> yeah
+ [laughter]
+ I
+ think
+ most
+ Most
+
+
+customers
+ like
+ don't
+ want
+ to
+ see
+ it.
+
+
+Like
+ they're
+ upset
+ when
+ they
+ see
+ it.
+ And
+
+
+we
+ get
+ a
+ bunch
+ of
+ complaints
+ about
+ that.
+
+
+>> Yeah.
+ The
+ the
+ analogy
+ I've
+ had
+ recently
+
+
+is
+ um
+ you
+ got
+ Tesla
+ self-driving,
+ right?
+
+
+Uh
+ and
+ then
+ like
+ you
+ just
+ want
+ to
+ put
+ in
+
+
+a
+ self-driving
+ most
+ of
+ the
+ time,
+ but
+
+
+some
+ people
+ want
+ to
+ steer,
+ some
+ people
+
+
+want
+ uh
+ stick
+ shift,
+ all
+ more
+ power
+ to
+
+
+them.
+ Most
+ people
+ are
+ just
+ going
+ to
+ self
+
+
+drive.
+
+
+>> Yeah.
+ No,
+ I
+ I
+ [laughter]
+ think
+ it
+ makes
+
+
+sense.
+ Like
+ I
+ I
+ I
+ um
+ I
+ think
+ customers
+
+
+are
+ not
+ in
+ the
+ position
+ to
+ like
+ look
+ at
+
+
+the
+ eval
+ specific
+ use
+ case
+ for
+ every
+ new
+
+
+model
+ that
+ comes
+ out
+ like
+ it
+ just
+
+
+doesn't
+ make
+ sense
+ for
+ them
+ to
+ be
+ you
+
+
+know
+ and
+ I
+ mean
+ for
+ some
+ for
+ the
+
+
+customers
+ who
+ want
+ to
+ do
+ that
+ great
+ like
+
+
+you
+ know
+ we'll
+ keep
+ the
+ our
+ model
+
+
+selector
+ like
+ makes
+ sense
+ but
+
+
+>> yeah
+ yeah
+ so
+ like
+ I
+ think
+ uh
+ the
+ way
+
+
+that
+ for
+ example
+ Cognition
+ is
+ doing
+ it
+
+
+is
+ they
+ they
+ have
+ some
+ branding
+ around
+
+
+they
+ call
+ it
+ like
+ devon
+ fusion
+ or
+
+
+whatever
+ is
+ there
+ like
+ clay
+ fusion
+ or
+
+
+like
+ clay
+ one
+ model
+ or
+ whatever
+ you
+ want
+
+
+to
+ do.
+
+
+>> No
+ I
+ think
+ we'll
+ we'll
+ just
+ do
+ auto.
+
+
+Yeah.
+ Yeah.
+ Yeah.
+
+
+>> We're
+ not
+ trying
+ to
+ get
+ fancy
+ with
+ it.
+
+
+We
+ just
+ want
+ to
+ help
+ people
+ out.
+ I
+ think
+
+
+uh
+ Yeah.
+
+
+>> The
+ one
+ downfall,
+ which
+ I
+ don't
+ think
+ is
+
+
+a
+ huge
+ one,
+ but
+ you
+ want
+ to
+ watch
+ it,
+ is
+
+
+people
+ do
+ get
+ suspicious
+ of
+ like,
+ well,
+
+
+how
+ do
+ I
+ know
+ you're
+ spending
+ my
+ tokens?
+
+
+Well,
+ you
+ know,
+ like
+ it's
+ this
+ is
+
+
+basically
+ like
+ a
+ trust
+ as
+ mode,
+ and
+ then
+
+
+you
+ just
+ have
+ to
+ provide
+ analytics,
+ I
+
+
+guess.
+
+
+>> Yeah.
+ I
+ mean,
+ like
+ I
+ it's
+ totally
+ a
+ hard
+
+
+problem.
+ I
+ think
+ you
+ know
+ hopefully
+ we
+
+
+uh
+ you
+ know
+ we
+ build
+ enough
+ trust
+ with
+
+
+people
+ that
+ they
+ that
+ they
+ want
+ to
+ use
+
+
+auto
+ mode
+ actually
+ like
+ um
+ and
+ the
+ idea
+
+
+is
+ actually
+ it
+ should
+ be
+ better
+ than
+ you
+
+
+know
+ selecting
+ your
+ own
+ model
+ for
+ for
+
+
+different
+ things
+ because
+ like
+ hey
+ I
+ can
+
+
+actually
+ do
+ it
+ on
+ the
+ task
+ level.
+ It's
+
+
+like
+ hey
+ like
+ I
+ don't
+ know
+ finding
+ the
+
+
+CEO
+ of
+ Apple
+ is
+ very
+ different
+ than
+
+
+finding
+ the
+ CEO
+ of
+ like
+ a
+ random
+ company
+
+
+in
+ you
+ know
+ somewhere
+ that
+ is
+ not
+ so
+
+
+well
+ known.
+
+
+>> It's
+ actually
+ interesting
+ cuz
+ your
+ users
+
+
+are
+ I
+ would
+ think
+ like
+ power
+ users
+ kind
+
+
+of
+ right?
+ Um
+ they're
+ like
+ go
+ to
+ market
+
+
+engineers.
+ A
+ lot
+ of
+ your
+ customers
+ are
+
+
+agencies,
+ right?
+ Yes.
+ I
+ would
+ assume
+
+
+that
+ they
+ would
+ want
+ that
+ level
+ of
+
+
+control.
+
+
+>> Yes.
+ I
+ don't
+ think
+ the
+ agency
+ owners
+ uh
+
+
+will
+ stop
+ selecting
+ their
+ own
+ models.
+
+
+So,
+ yes.
+ Uh
+ I
+ think
+ this
+ is
+ actually
+
+
+just
+ for
+ kind
+ of
+ everyone
+ else,
+ right?
+
+
+Like
+ just
+ like
+ um
+ we
+ have
+ we
+ have a
+ ton
+
+
+of
+ customers
+ at
+ Clay.
+ We
+ have
+ a
+ ton
+ of
+
+
+people
+ who
+ come
+ to
+ Clay
+ with
+ some
+ idea
+
+
+of
+ go
+ to
+ market
+ engineering,
+ but
+ they're
+
+
+still
+ new
+ to
+ a
+ lot
+ of
+ this
+ stuff.
+
+
+>> What
+ percentage
+ would
+ you
+ say
+ is
+ like
+
+
+agency
+ customers
+ versus
+ everyone
+ else?
+
+
+>> Now,
+ I
+ think
+ it's
+ there's
+ a
+ lot
+ of
+ just
+
+
+the
+ everyone
+ else
+ category.
+ Like
+ there's
+
+
+a
+ lot
+ of
+ people
+ who
+ just
+ come
+ to
+ Clay
+
+
+and
+ find
+ Clay.
+ you know,
+ we
+ have a
+ lot
+
+
+of
+ brand
+ and
+ marketing
+ and
+ I
+ think
+ like
+
+
+a
+ lot
+ of
+ people
+ just
+ uh
+ find
+ us,
+ you
+
+
+know,
+ through
+ mouth.
+
+
+>> Can
+ we
+ go
+ back
+ to
+ emails
+ a
+ little
+ bit?
+
+
+So
+ maybe
+ we
+ can
+ talk
+ specifically
+ about
+
+
+sculptor.
+ So
+ for
+ sculptor
+ like
+ I'm
+
+
+assuming
+ you
+ have
+ buckets
+ of
+ like
+ the
+
+
+types
+ of
+ evals
+ that
+ you're
+ doing
+ like
+
+
+what
+ are
+ those
+ buckets?
+
+
+>> So
+ yes.
+ So
+ so
+ one
+ like
+ we
+ uh
+ we've
+ done
+
+
+a
+ ton
+ of
+ work
+ since
+ we
+ launched
+
+
+sculptor.
+ I
+ think
+ now
+ we're
+ uh
+ well
+ one
+
+
+we
+ we
+ basically
+ rebuilt
+ the
+ entire
+ agent
+
+
+architecture.
+ So
+ like
+ it
+ is
+ no
+ longer
+
+
+just
+ a
+ tool
+ loop
+ tool
+ loop
+ model.
+ It
+ is
+
+
+like
+ a
+ proper
+ coding
+ agent.
+ It
+ has
+ uh
+ we
+
+
+launched
+ our
+ CLI
+ um
+ publicly
+ and
+ the
+ new
+
+
+version
+ of
+ our
+ agent
+ uh
+ just
+ uses
+ a
+ CLI.
+
+
+It
+ uses
+ it
+ in
+ a
+ cloud
+ sandbox
+ and
+ it's
+
+
+just
+ way
+ more
+ expressive.
+ It
+ can
+ use
+
+
+like
+ all
+ different
+ parts
+ of
+ the
+ clay
+
+
+platform.
+ So
+ that's
+ uh
+ that's
+ one
+ thing.
+
+
+It's
+ just
+ like
+ we
+ completely
+ rebuilt
+ it
+
+
+from
+ the
+ ground
+ up
+ to
+ leverage
+ all
+ the
+
+
+clay
+ primitives.
+ In
+ terms
+ of
+ the
+
+
+categories
+ of
+ things
+ that
+ we're
+ looking
+
+
+at,
+ I
+ think
+ it's
+ largely
+ use
+ case
+ based
+
+
+still.
+ So
+ it's
+ like
+ the
+ types
+ of
+ things
+
+
+customers
+ do
+ in
+ Clay
+ or
+ try
+ to
+ use
+ our
+
+
+agent
+ for
+ and
+ then
+ trying
+ to
+ describe
+
+
+both
+ the
+ trajectories
+ that
+ we
+ think
+
+
+should
+ get
+ there.
+ It's
+ like
+ hey
+ like
+ it
+
+
+should
+ probably
+ use
+ you
+ know
+ if
+ it's
+
+
+asking
+ about
+ first
+ party
+ data
+ it
+ should
+
+
+probably
+ query
+ the
+ data
+ context
+ layer
+
+
+that
+ we
+ have
+ and
+ then
+ also
+ just
+ the
+
+
+actual
+ quality
+ of
+ the
+ response
+ and
+
+
+things
+ that
+ happen
+ right
+ so
+ we
+ measure
+
+
+like
+ hey
+ if
+ the
+ user
+ asked
+ to
+ build
+ a
+
+
+workflow
+ did
+ it
+ actually
+ build
+ that
+
+
+workflow
+ and
+ did
+ the
+ workflow
+ actually
+
+
+have
+ these
+ these
+ properties
+ about
+ it
+
+
+>> maybe
+ how
+ do
+ you
+ see
+ that
+ evolving
+ over
+
+
+the
+ next
+ I
+ don't know
+ 6
+ months
+
+
+>> it's
+ hard
+ to
+ know
+ I
+ think
+ yeah
+ um
+ I
+ I
+
+
+mean
+ I
+ I
+ really
+ would
+ love
+ to
+ get
+ um
+
+
+just
+ actually
+ synthetic
+ like
+ output
+
+
+generation
+ like
+ measuring
+ the
+ second
+
+
+order
+ effects
+ to
+ some
+ of
+ these
+ things
+
+
+would
+ be
+ really
+ cool.
+
+
+>> Like
+ second
+ order
+ effects,
+
+
+>> second
+ order
+ effects
+ as
+ in
+ like
+ if
+ it
+ if
+
+
+the
+ user
+ asked
+ to
+ build
+ an
+ outbound
+
+
+campaign
+ to
+ reach
+ out
+ to,
+ you
+ know,
+ this
+
+
+list
+ of
+ people,
+ it's
+ like
+ could
+ we
+
+
+measure
+ if
+ it
+ if
+ those
+ people
+ actually
+
+
+respond.
+ So
+ not
+ only
+ did
+ they
+ build
+ the
+
+
+list
+ and
+ not
+ only
+ did
+ they
+ build
+ the
+
+
+workflow
+ to
+ engage
+ with
+ those
+ people,
+
+
+but
+ like
+ did
+ that
+ actually
+ work?
+ You
+
+
+know,
+ did
+ uh
+ you
+ know,
+ and
+ and
+ ideally
+
+
+that's
+ the
+ metric
+ that
+ we
+ want
+ to
+
+
+improve
+ over
+ time
+ is
+ the
+ measured
+ output
+
+
+for
+ people.
+
+
+>> I
+ see.
+ But
+ you
+ can't
+ really
+ own
+ all
+ of
+
+
+that
+ because
+ some
+ of
+ it
+ is
+ my
+ skill
+
+
+issue,
+ right?
+ like
+ of
+ like
+ well
+ you
+ know
+
+
+maybe
+ I
+ don't
+ work
+ at
+ a
+ good
+ enough
+
+
+company
+ my
+ my
+ cold
+ email
+ wasn't
+ good
+
+
+enough
+ whatever
+
+
+>> that's
+ kind
+ of
+ the
+ trouble
+ with
+ some
+ of
+
+
+these
+ evals
+ broadly
+ like
+
+
+>> this
+ is
+ my
+ problem
+ with
+ like
+ people
+
+
+saying
+ like
+ real
+ money
+ is
+ the
+ real
+ eval
+
+
+and
+ I'm
+ like
+ yeah
+ well
+ that's
+ you
+ know
+
+
+that's
+ everybody's
+ a
+ real
+ eval
+ there's
+
+
+part
+ of
+ me
+ that
+ always
+ wants
+ to
+ build
+ an
+
+
+eval
+ platform
+ into
+ the
+ into
+ the
+ product
+
+
+too
+ or
+ something
+ that's
+ eval
+ like
+ either
+
+
+own
+ the
+ outcome
+ for
+ people
+ or
+ kind
+ of
+
+
+build
+ something
+ into
+ the
+ product
+ where
+
+
+they
+ can
+ start
+ to
+ build
+ these
+ tests
+ and
+
+
+like
+ build
+ that
+ assurance
+
+
+>> um
+ that's
+ actually
+ holding
+ you
+ back
+
+
+almost
+ as
+ as
+ a
+ company
+ because
+ you
+ can
+
+
+you
+ can
+ never
+ own
+ the
+ outcome
+ cuz
+ you
+
+
+are
+ a
+ tool
+ for
+ people
+ to
+ do
+ like
+ mass
+
+
+volume
+ basically.
+
+
+>> Yeah.
+ Well,
+
+
+>> which
+ is
+ fine
+ like
+ you're
+ like
+ you're
+
+
+you're
+ like
+ state
+ of the
+ art
+ in
+ your
+
+
+category
+ but
+ like
+ like
+ a
+ Sierra
+ will
+ be
+
+
+like
+ no
+ you
+ just
+ pay
+ us
+ for
+ outcomes
+
+
+that's
+ yes
+ that's
+ true.
+ No
+ I
+ I
+ I
+ I
+ don't
+
+
+think
+ we're
+ we're
+ trying
+ to
+ do
+ the
+ you
+
+
+know
+ full
+ outcome
+ based
+ type
+ of
+ thing
+
+
+>> but
+ even
+ Sierra
+ I
+ think
+ you
+ know
+ Sierra
+
+
+has
+ an
+ eval
+ platform
+ built
+ into
+ into
+
+
+Sierra.
+ So
+ I
+ think
+ uh
+ you
+ know
+ there's
+
+
+something
+ there
+ where
+ like
+ you
+ know
+ if
+
+
+something
+ can't
+ be
+ expressed
+ in
+ our
+
+
+internal
+ evals
+ it's
+ probably
+ like
+ a
+
+
+product
+ feature
+ to
+ be
+ built
+ around
+ it
+
+
+but
+ I
+ [snorts]
+ mean
+ it's
+ it's
+ a
+ bit
+
+
+tricky.
+ I
+ don't
+ know.
+
+
+>> So
+ what
+ is
+ your
+ like
+ team
+ composition
+
+
+look
+ like
+ maybe
+ like
+ do
+ you
+ have
+
+
+specific
+ people
+ working
+ on
+ evals
+ only
+
+
+and
+ do
+ they
+ happen
+ to
+ be
+ like
+ go
+ to
+
+
+market
+ engineers
+ like
+ yeah
+ what
+ does
+
+
+that
+ look
+ like?
+
+
+>> No
+ they're they're
+ mostly
+ mostly
+ just
+
+
+engineer
+ profile
+ like
+ I
+ think
+ uh
+ just
+ in
+
+
+terms
+ of
+ the
+ team
+ breakdown
+ I'd
+ say
+ it's
+
+
+probably
+ a
+ pretty
+ even
+ split.
+ We
+ have
+
+
+people
+ who
+ spike
+ in
+ kind
+ of
+ traditional
+
+
+machine
+ learning.
+ We
+ have
+ people
+ who
+ you
+
+
+would
+ probably
+ consider
+ like
+ applied
+ AI
+
+
+engineers.
+ So
+ like
+ people
+ who
+ have
+ built
+
+
+evals
+ and
+ like
+ kind
+ of
+ like
+ like
+ to
+ do
+
+
+that
+ type
+ of
+ work.
+ And
+ then
+ you
+ have
+
+
+just
+ the
+ sort
+ of
+ standard
+ software
+
+
+engineering
+ profile.
+ It's
+ like
+ hey
+ like
+
+
+I
+ don't
+ know
+ this
+ is
+ an
+ engineering
+
+
+system
+ and
+ you
+ can
+ like
+ build
+ a
+ bunch
+ of
+
+
+stuff
+ around
+ that.
+
+
+>> Do
+ you
+ have
+ different
+ titles
+ for
+ those
+
+
+different
+ people
+ or
+ are
+ they
+ all
+
+
+engineers?
+
+
+>> I
+ think
+ everyone's
+ just
+ a
+ software
+
+
+engineer.
+ Yeah.
+ Yeah.
+
+
+>> Nice.
+
+
+>> AI
+ engineer
+ now.
+
+
+>> Yeah.
+ [laughter]
+ Yeah.
+ Yeah.
+ Yeah.
+ What
+
+
+is
+ the
+ hardest
+ capability
+ to
+ hire
+ for?
+
+
+Like
+ let's
+ say
+ you're
+ you
+ would
+ like
+ to
+
+
+add
+ one
+ more
+ additional
+ person.
+ What
+ do
+
+
+you
+ wish
+ they
+ had?
+ I
+ mean
+ it's
+ it's
+
+
+really
+ hard
+ to
+ get
+ people
+ you
+ know
+ I
+ I
+
+
+don't
+ know
+ how
+ much
+ of
+ this
+ Clay's
+ in
+
+
+New
+ York
+ and
+ so
+ like
+ there's
+ there's
+ a
+
+
+sort
+ of
+ you
+ wish
+ they
+ joined
+ in
+ the
+ Bay
+
+
+Area.
+ [laughter]
+
+
+>> No
+ no
+ there's
+ just
+ a
+ different
+ set
+ of
+
+
+pro.
+ So
+ I
+ the
+ thing
+ that's
+ really
+ hard
+
+
+to
+ find
+ is
+ people
+ who
+ have
+ like
+ hands-on
+
+
+experience
+ building
+ production
+ agents
+
+
+>> and
+ New
+ York
+ doesn't
+ have
+ it.
+
+
+>> It's
+ just
+ it's
+ not
+ as
+ common.
+ [laughter]
+
+
+Yeah.
+ I
+ I
+ yeah
+ I I
+ I
+ think
+ it's
+ it's
+
+
+it's
+ harder
+ to
+ find
+ in
+ New
+ York.
+
+
+>> No,
+ no,
+ no,
+ no,
+ no.
+ Okay.
+ Well,
+ we
+ will
+
+
+we
+ will
+ strive
+ to
+ prove
+ you
+ wrong,
+ you
+
+
+know,
+ like
+ uh
+ you
+ know,
+ my
+ second
+
+
+largest
+ conference
+ is
+ AI
+ in
+ New
+ York.
+
+
+Like
+ like
+ we
+ are
+ gathering
+ all
+ these
+
+
+people
+ like
+ uh
+ No,
+ it's
+ very
+ sad
+ like
+
+
+like
+ you
+ know
+ how
+ many
+ people
+ New
+
+
+Yorkers
+ tell
+ me
+ like,
+ "Wow,
+ there's
+ just
+
+
+no
+ AI
+ scene
+ here."
+
+
+>> Yeah.
+ Yeah.
+ Yeah.
+ I
+ mean,
+
+
+>> it's
+ just
+ you
+ and
+ Moto
+ and
+ like
+ Runway
+
+
+and
+ that's
+ it.
+
+
+>> Yeah.
+ [laughter]
+ Ram
+ still
+ has
+ a
+ pretty
+
+
+big
+ presence.
+ Yeah.
+
+
+>> But
+ yeah.
+ No,
+ I
+ I
+ grew
+ up
+ in
+ New
+ York,
+
+
+so
+ I'm
+ I
+ I
+ love
+ New
+ York.
+ Uh
+
+
+>> Silicon
+ Alley
+ is
+ supposed
+ to
+ be
+ a
+ thing.
+
+
+>> I
+ know.
+ Well,
+ it's
+ it's
+ just
+ hard
+ to
+
+
+find
+ people
+ who
+ have
+ built
+ production
+
+
+agents,
+ you
+ know,
+ one,
+ it's
+ just
+ there's
+
+
+a
+ time
+ element
+ of
+ it,
+ right?
+ Like
+ TATBT
+
+
+is,
+ you
+ know,
+ still
+ only
+ four
+ years
+ old.
+
+
+So
+ like
+ I
+ don't
+ know
+ if
+ you've
+ spent
+ a
+
+
+year
+ working
+ in
+ agent
+ engineering,
+ it's
+
+
+got
+ a
+ lot
+ of,
+ you
+ know,
+ that's
+ kind
+ of
+
+
+limits
+ the
+ pool.
+
+
+>> Yeah.
+ I
+ mean
+ the
+ more
+ the
+ stack
+ and
+ you
+
+
+know
+ I
+ think
+ something
+ that
+ I'm
+ closer
+
+
+to
+ that
+ maybe
+ maybe
+ Basil
+ didn't
+ pick
+ up
+
+
+on
+ but
+ I
+ did
+ which
+ was
+ kind
+ of
+ like
+
+
+let's
+ call
+ it
+ workflows
+ and
+ pipelines
+
+
+batching
+ um
+ so
+ I
+ come
+ from
+ the
+ temporal
+
+
+background
+ you
+ work
+ temporal
+ uh
+ do
+ you
+
+
+use
+ that
+ do
+ you
+ use
+ something
+ else
+ as
+
+
+like
+ a
+ backend
+ orchestrator
+ anything
+ in
+
+
+the
+ reliability
+ orchestration
+ stack
+ that
+
+
+you
+ want
+ to
+ go
+ into
+
+
+>> I
+ feel
+ bad
+ we
+
+
+>> langraph
+
+
+>> uh
+ uh
+ no
+ langraph
+
+
+>> none
+ of
+ the
+ above
+ unfortunately
+ yeah
+
+
+handrolled
+
+
+>> no
+ hand
+ rolled
+ yeah
+ Yeah,
+ there's
+ a
+
+
+couple
+ different
+ parts
+ of
+ the
+ system
+ for
+
+
+some
+ of
+ the
+ agent
+ durability.
+ Um,
+ we
+
+
+have
+ still
+ gotten
+ away
+ to
+ the
+ large
+ for
+
+
+the
+ most
+ part
+ building
+ on
+ top
+ of
+ Bull
+ MQ
+
+
+the
+
+
+>> JavaScript.
+ Yep.
+
+
+>> Very
+ brave.
+
+
+>> Yep.
+
+
+>> Any
+ any
+ pain
+ points
+ or
+ all
+ good?
+
+
+>> For
+ the
+ most
+ part,
+ all
+ good.
+
+
+>> What?
+
+
+>> Yeah.
+ I
+ I
+ don't
+ know
+ if
+ we'll
+ survive
+
+
+another
+ 10x
+ on
+ BMQ,
+ but
+
+
+>> what's
+ the
+ most
+ likely
+ choke
+ point
+ if
+ it
+
+
+if
+ you
+ don't
+ survive?
+
+
+>> By
+ the
+ way,
+ I'm
+ I'm
+ like
+ a
+ huge
+ data
+
+
+stack
+ guy,
+ right?
+ Like
+ there's
+ this
+
+
+whole
+ like
+ you
+ like
+ you
+ embedded
+ inside
+
+
+of
+ you.
+ There's
+ a
+ whole
+ data
+ warehouse
+
+
+and
+ a
+ ETL
+ reverse
+ ETL
+ pipeline.
+
+
+>> Yeah.
+
+
+>> Right.
+ You
+ had
+ to
+ basically
+ subsume
+ all
+
+
+of
+ these
+ guys.
+
+
+>> Yes.
+ So
+ there's
+ [laughter]
+ a
+
+
+>> So
+ I
+ used
+ to
+ work
+ for
+ some
+ of
+ these,
+ you
+
+
+know,
+ and
+ they're
+ all
+ dead
+ basically
+ cuz
+
+
+you
+ can
+ just
+ vibe
+ code
+ your
+ I
+ mean
+ I
+
+
+would
+ say
+ like
+ we
+ you
+ know
+ a Avenue
+ was
+
+
+like
+ probably
+ like
+ we
+ we
+ sort
+ of
+ thought
+
+
+of
+ ourselves
+ as
+ kind
+ of
+ in
+ this
+ data
+
+
+monitoring
+ like
+ you
+ know
+ like
+ Meta
+ Plane
+
+
+like
+ this
+ was
+ like
+ sort
+ of
+ adjacent
+ to
+
+
+what
+ we
+ were
+ doing.
+
+
+>> Yeah.
+ Kevin
+ I
+ used
+ to
+ used
+ to
+ hang
+ out
+
+
+with
+ those
+ guys.
+
+
+>> Yeah.
+ Yeah.
+ I
+ mean
+ like
+ I
+ you
+ know
+ it's
+
+
+uh
+ it's
+ very
+ interesting
+ market.
+ I
+
+
+really
+ like
+ the
+ the
+ data
+ space.
+ Um
+
+
+>> Okay.
+ Wow.
+
+
+>> All
+ right.
+ That
+ was
+ a
+ very
+ short
+ answer.
+
+
+[laughter]
+
+
+>> Oh
+ no.
+ Uh
+
+
+>> no.
+ So
+ I
+ think
+ okay
+ like
+ uh
+ I
+ do
+ think
+
+
+like
+ uh
+ basically
+ the
+ the
+ former
+ data
+
+
+guys
+ let's
+ let's
+ I'll
+ put
+ like
+ myself
+
+
+I'll
+ give
+ myself
+ maybe
+ like
+ onethird
+
+
+credit
+ as
+ a
+ data
+ guy
+ you
+ are
+ basically
+
+
+subsumed
+ inside
+ the
+ AI
+ engineering
+ inume
+
+
+inside
+ the
+ app.
+ It
+ is
+ assumed
+ to
+ just
+
+
+work
+ but
+ you
+ know
+ that
+ you
+ have
+ to
+ build
+
+
+a
+ whole
+ context
+ layer
+ and
+ a
+ knowledge
+
+
+graph
+ and
+ like
+ do
+ all
+ these
+ pipelines
+
+
+and
+ like
+ sometimes
+ they
+ break
+ guys
+ and
+
+
+they
+ don't
+ just
+ magically
+ work.
+
+
+>> Uh
+ and
+ like
+ you
+ don't
+ you
+ you
+ do
+ all
+
+
+this
+ in
+ house.
+ We
+ use
+ click
+ house
+ a
+
+
+bunch
+ both
+ in
+ product
+ and
+ then
+ for
+ our
+
+
+own
+ stuff.
+ We're
+ snowflake
+ users
+ uh
+ for
+
+
+like
+ analytics
+ but
+ no
+ I
+ mean
+ like
+ most
+
+
+of
+ the
+ stuff
+ in
+ product
+ is
+ hand
+ rolled
+
+
+so
+ it's
+ on
+ top
+ of
+ postgress
+ on
+ top
+ of
+
+
+>> modern
+ data
+ stack
+ is
+ cooked
+ man
+
+
+[laughter]
+
+
+>> that's
+ all
+ I
+ can
+ say
+
+
+>> uh
+ look
+ at
+ this
+ yeah
+ um
+ no
+ I
+ mean
+ like
+
+
+you
+ know
+ for
+ for
+ some
+ of
+ for
+ some
+ of
+ our
+
+
+internal
+ data
+ sets
+ we
+ were
+ using
+ Dagster
+
+
+and
+ I
+ think
+ like
+ we're
+ we're
+ reworking
+
+
+some
+ of
+ that
+ some
+ of
+ that
+ but
+ um
+ yeah
+
+
+it's
+ uh
+
+
+>> Wow
+ [laughter]
+
+
+impressed
+ impressed
+ yeah
+ because
+ like
+
+
+you
+ I've
+ been
+ uh
+ maintaining
+ some
+ of
+
+
+these
+ things,
+ right?
+ All
+ the
+ connectors.
+
+
+It
+ used
+ to
+ be
+ a
+ huge
+ business.
+ Yeah.
+
+
+Just
+ maintaining
+ all
+ of
+ that.
+ And
+ I
+
+
+guess
+ like
+ now
+ you
+ don't
+ need
+ to
+ or
+ they
+
+
+all
+ have
+ MCPs
+ or
+ whatever.
+ I
+ don't
+ know.
+
+
+>> Yeah.
+ I
+ mean,
+ you
+ know,
+ I
+ I
+ don't
+ know.
+
+
+I
+ mean,
+ there
+ there
+ are
+ a
+ lot of
+ people
+
+
+who
+ work
+ who
+ work
+ who
+ work
+ quite
+ hard
+ at
+
+
+like
+ maintaining
+ and
+ building
+ these,
+ but
+
+
+but
+ yes,
+ I
+ it's
+ definitely
+ like
+ I
+ think
+
+
+they
+ the
+ team's
+ much
+ smaller
+ than
+ I
+
+
+think
+ you
+ would
+ expect.
+ And
+ like
+ I
+ I
+
+
+don't
+ know
+ like
+ we
+ just
+ launched
+ I
+ think
+
+
+like
+ 25
+ or
+ 30
+ new
+ integrations
+ and
+ like
+
+
+the
+ the
+ bottleneck
+ was
+ not
+ engineering
+
+
+work
+ right
+ it's
+ just
+ like
+ all
+ of
+ the
+
+
+contracting
+ and
+ the
+ stuff
+ around
+ it
+
+
+>> also
+ quality
+ control
+ right
+ like
+ it's
+
+
+good
+ to
+ it's
+ easy
+ to
+ get
+ a
+ basic
+
+
+integration
+ working
+ but
+ like
+ did
+ you
+
+
+really
+ test
+ it
+
+
+>> um
+ and
+ uh
+ yeah
+ I
+ don't know
+ I'll
+ shut
+ up
+
+
+my
+ former
+ employer
+ airte
+ and
+ there's
+
+
+there's
+ a
+ bunch
+ like
+ five
+ all
+ those
+ I
+
+
+have
+ a
+ couple
+ questions
+ on
+ like
+ what
+
+
+broke
+ with
+ your
+ agents
+ as
+ you
+ scaled
+
+
+>> yeah
+ so
+ yeah
+ what
+ broke
+ [laughter]
+
+
+>> oh
+ nothing
+ just
+
+
+>> yeah
+ so
+ when
+ I
+ joined
+ clay
+ like
+ the
+ the
+
+
+immediate
+ work
+ that
+ we
+ were
+ working
+ on
+
+
+was
+ claggent
+ and
+ claggent
+ I
+ think
+ is
+
+
+just
+ there
+ was
+ so
+ much
+ stuff
+ breaking
+
+
+one
+ like
+ we
+ didn't
+ have
+ great
+
+
+observability
+ for
+ what
+ was
+ happening
+ so
+
+
+I
+ don't
+ know
+ we
+ we
+ onboarded
+ lang
+ like
+
+
+very
+ helpful
+ I
+ think
+ just
+ to
+ understand
+
+
+what
+ was
+ like
+ what
+ the
+ agent
+ was
+ doing
+
+
+like
+ what
+ tools
+ was
+ it
+ calling
+ I
+ don't
+
+
+know
+ like
+ what
+ was
+ it
+ working
+ um
+ kind
+ of
+
+
+all
+ the
+ things
+ that
+ you
+ you'd
+ expect
+ I
+
+
+think
+ also
+ at
+ our
+ scale
+ because
+ people
+
+
+are
+ running
+ stuff
+ in
+ in
+ a
+ table
+ like
+ our
+
+
+inference
+ workloads
+ tend
+ to
+ be
+ quite
+
+
+spiky,
+ right?
+ So
+ it's
+ like
+ you
+ could
+
+
+imagine
+ someone
+ has
+ a
+ table
+ of
+ 50,000
+
+
+companies
+ that
+ they're
+ trying
+ to
+
+
+research
+ over
+ and
+ you
+ run
+ an
+ agent
+ for
+
+
+each
+ of
+ those
+ companies.
+ So
+ there's
+ just
+
+
+like
+ a
+ ton
+ of
+ inference
+ going
+ to
+ an
+
+
+inference
+ provider
+ like
+ I
+ don't
+ know
+
+
+like
+ quite
+ quickly.
+ Um
+ so
+ I
+ don't
+ know
+ a
+
+
+lot
+ of
+ the
+ work
+ was
+ around
+ throttling
+
+
+making
+ sure
+ that
+ we
+ were
+ actually
+ could
+
+
+fall
+ over
+ to
+ like
+ if
+ you
+ know
+ if
+ an
+
+
+inference
+ provider
+ went
+ down
+ or
+ it
+ was
+
+
+rate
+ limiting
+ us
+ we
+ could
+ kind
+ of
+ pause
+
+
+execution
+ and
+ resume
+ all
+ of
+ that
+ work
+ I
+
+
+think
+ was
+ we
+ spent
+ a
+ lot of
+ time
+
+
+>> across
+ uh
+ so
+ do
+ you
+ have
+ like
+ a
+ sort
+ of
+
+
+like
+ a
+ dual
+ sourcing
+ policy
+ for
+ all
+ all
+
+
+infrance
+
+
+>> uh
+ dual
+ sourcing
+ meaning
+ like
+ you
+ always
+
+
+have
+ a
+ fallback
+
+
+>> we
+ don't
+ um
+ and
+ yeah
+ like
+ for
+ for
+ a
+
+
+variety
+ of
+ reasons
+ we'll
+ we'll
+ probably
+
+
+do
+ this
+ now
+ is
+ more
+ just
+ like
+ because
+ of
+
+
+of
+ our
+ customer
+ distribution.
+ We
+ care
+ a
+
+
+lot
+ about
+ fairness.
+ So
+ like
+ I'm
+ trying
+
+
+to
+ think
+ of
+ a
+ customer
+ example
+ I
+ can
+
+
+name,
+ but
+ you
+ know
+ if
+ one
+ of
+ our
+ large
+
+
+enterprise
+ customers
+ runs
+ a
+ million
+
+
+things
+ that
+ they
+ want
+ to
+ uh
+ enrich,
+ we
+
+
+don't
+ want
+ that
+ to
+ you
+ know
+ crowd
+ out
+
+
+like
+ the
+ person
+ who
+ just
+ signs
+ up
+ for
+
+
+Clay
+ and
+ just
+ wants
+ to
+ do
+ like
+ a
+ 10erson
+
+
+workflow
+ or
+ something
+ like
+ that.
+
+
+>> Let's
+ call
+ it
+ noisy
+ neighbor.
+ Yes.
+ I
+
+
+don't
+ know if
+ that's
+ the
+ right
+ analogy,
+
+
+but
+
+
+>> I
+ think
+ that's
+ Yes.
+ Yeah.
+ And
+ a
+ shout
+
+
+out
+ to
+ your
+ uh
+ previous
+ talks
+ at
+ the
+
+
+Langmith
+ conferences
+ if
+ you
+ want
+ to
+
+
+check
+ into
+ those
+ things.
+ that
+ we
+ won't
+
+
+cover
+ those
+ in
+ detail,
+ but
+ uh
+ you
+ know
+
+
+they're
+ all
+ downstairs
+ neighbors
+ for
+
+
+now.
+
+
+>> Yeah.
+ [laughter]
+
+
+>> Um
+
+
+>> it's
+ interesting
+ also
+ this
+ this
+ whole
+
+
+like
+ dual
+ sourcing
+ thing
+ like
+ I
+ I'm
+
+
+basically
+ I'm
+ trying
+ to
+ basically
+
+
+distill
+ you're
+ you
+ know
+ you're
+ a
+ head
+ of
+
+
+a
+ uh
+ AI
+ at
+ at at
+ a
+ at
+ a
+ notable
+ um
+ AI
+
+
+vertical
+ company
+ and
+ like
+ there
+ I
+ meet
+
+
+like
+ a
+ lot
+ of
+ you
+ and
+ we
+ cover
+ a
+ lot
+ of
+
+
+you
+ in
+ your
+ peers
+ on
+ a
+ on
+ a
+ podcast
+ and
+
+
+I
+ see
+ the
+ same
+ patterns,
+ right?
+ I
+ see
+
+
+like
+ yes
+ actually
+ smaller
+ teams
+ can
+ do
+ a
+
+
+lot.
+ I
+ see.
+ Yes,
+ you
+ want
+ to
+ do
+ a
+
+
+router,
+ but
+ you
+ don't
+ want
+ to
+ take
+ away
+
+
+the
+ model
+ picker.
+ Yes,
+ I
+ see
+ that
+ you
+
+
+eventually
+ want
+ to
+ dual
+ source
+
+
+everything.
+ Yes,
+ I
+ see
+ that
+ you
+ want
+ to
+
+
+go
+ move
+ from
+ close
+ to
+ open
+ model
+ uh
+ open
+
+
+models.
+ You
+ know,
+ basically
+ I
+ like
+
+
+probably
+ we
+ can
+ build
+ out
+ this
+ handbook
+
+
+of
+ like
+ what
+ every
+ head
+ of
+ AI
+ needs
+ to
+
+
+know.
+ I
+ I
+ don't
+ Is
+ there
+ is
+ there
+
+
+anything
+ else
+ in
+ there?
+
+
+>> Those
+ are
+ all
+ good
+ starting
+ points.
+
+
+Yeah,
+ [laughter]
+
+
+>> I
+ do
+ think
+ that
+ a
+ lot
+ of
+ people
+ are
+
+
+exploring
+ uh
+ let's
+ call
+ it
+ their
+ let's
+
+
+in
+ their
+ agent
+ infrastructure
+ how
+ much
+
+
+power
+ they
+ want
+ to
+ give
+ the
+ agent.
+ what
+
+
+kind
+ of
+ sandboxing
+ you
+ want
+ to
+ give
+ the
+
+
+agent
+
+
+>> um
+ how
+ much
+ autonomy
+ yours
+ seems
+ more
+
+
+pipeliney
+ so
+ maybe
+ there
+ sort
+ of
+ more
+
+
+limited
+ autonomy
+ but
+ other
+ people
+ are
+
+
+exploring
+ like
+ effectively
+ complete
+ chbt
+
+
+clones
+ like
+ everything
+ chbt
+ can
+ do
+ or
+
+
+codex
+ can
+ do
+ uh
+ or
+ cloud
+ code
+ can
+ do
+
+
+like
+ we
+ will
+ just
+ basically
+ ship
+ a
+
+
+version
+ of
+ that
+ for
+ our
+ users
+
+
+>> this
+ is
+ like
+ a
+ very
+ interesting
+ one
+ so
+
+
+like
+ we
+ will
+ effectively
+ do
+ this
+
+
+>> because
+ we
+ started
+ out
+ saying
+ file
+
+
+systems
+ are
+ like
+ good
+ right
+ like
+ so
+
+
+that's
+ the
+ talk
+ track
+ for
+ everyone
+
+
+saying
+ the
+ same
+ thing
+
+
+>> yeah
+ no
+ like
+ we
+ will
+ effectively
+ do
+ this
+
+
+where
+ we
+ have
+ we'll
+ have
+ an
+ agent
+ in
+ the
+
+
+in
+ the
+ product
+ that
+ does
+ have
+ a
+ sandbox
+
+
+is
+ like
+ quite
+ unconstrained
+ in
+ terms
+ of
+
+
+what
+ you
+ can
+ do
+ and
+ you
+ know
+ has
+ access
+
+
+to
+ all
+ of
+ the
+ clay
+ primitives
+ but
+ I'd
+
+
+say
+ like
+ almost
+ our
+ our
+ ethos
+ and
+ I
+
+
+don't know
+ we
+ spent
+ a
+ lot
+ of
+ time
+
+
+thinking
+ about
+ the
+ right
+ way
+ to
+ engage
+
+
+with
+ this
+ but
+ we
+ want
+ the
+ clay
+ platform
+
+
+to
+ be
+ great
+ for
+ all
+ agents
+ like
+ whether
+
+
+it's
+ our
+ agent
+ or
+ external
+ agents
+ so
+
+
+like
+ we
+ explicitly
+ don't
+ want
+ our
+ agent
+
+
+to
+ be
+ marketkedly
+ better
+ than
+ just
+ using
+
+
+clay
+ and
+ cloud
+ code
+ like
+ if
+ you
+ use
+ clay
+
+
+and
+ cloud
+ code
+ that's
+ great
+ like
+
+
+>> is
+ that
+ clay
+ mcp
+ or
+ Clay
+ Clay
+ CLI.
+
+
+>> Clay
+ CLI.
+
+
+>> Yes.
+
+
+>> MCP
+ is
+ dead.
+
+
+>> I
+ I
+ don't
+ know.
+ Yeah.
+ [laughter]
+ Yeah.
+
+
+Yeah.
+ Uh
+ MCP
+
+
+>> making
+ a
+ comeback.
+
+
+>> It's
+ making
+ a
+ comeback.
+ Yeah.
+ I
+ I
+ uh
+
+
+It's
+ really
+ funny.
+ The
+ uh
+ the
+ team
+ who
+
+
+we
+ have
+ an
+ MCP
+ as
+ well.
+ Um
+ and
+ but
+ that
+
+
+team
+ basically
+ re
+ like
+ shifted
+ their
+
+
+focus
+ to
+ build
+ out
+ the
+ CLI.
+
+
+>> I
+ mean,
+ it's
+ just
+ integrations,
+ right?
+
+
+It's
+ just
+ like
+ here's
+ consumate
+ hardware
+
+
+like
+ API
+ uh
+ SDK,
+ CLI,
+ MCP.
+ Yeah.
+ Right.
+
+
+That's
+ the
+ forward
+ thing.
+
+
+>> Totally.
+ Like
+ it's
+ just
+ a
+ form
+ factor
+
+
+and
+ it
+ shouldn't
+ matter
+ that
+ much.
+ But
+
+
+yeah,
+ now
+ now
+ we're
+ like,
+ "Oh,
+ we
+ should
+
+
+probably
+
+
+>> People
+ get
+ really
+ religious
+ about
+ this
+
+
+stuff."
+
+
+>> Um,
+ yeah.
+ Okay.
+ No,
+ I
+ mean
+ it's
+ just
+
+
+cool.
+ I
+ think
+ it's
+ it's
+ like
+ good
+ to
+
+
+check
+ biases.
+ But
+ like
+ I
+ I
+ do
+ think
+ like
+
+
+uh
+ maybe
+ maybe
+ one
+ thing
+ to
+ check
+ is
+
+
+what's
+ the
+ market
+ share
+ I
+ guess
+ of
+ like
+
+
+clay
+ in
+ cloud
+ code
+ or
+ you
+ know
+ clay
+ in
+
+
+external
+ harness
+ versus
+ your
+ your
+ stuff.
+
+
+Yeah,
+ I
+ would
+ have
+ assumed
+ it
+ would
+ be
+
+
+more
+ the
+ clay
+ harness
+ and
+ I
+ think
+ I
+
+
+forget
+ the
+ exact
+ breakdown,
+ but
+ it
+ it's
+
+
+much
+ closer
+ to
+ 50/50
+ than
+ I
+ would
+ have
+
+
+thought
+ because
+ I
+ find
+ like
+ um
+ you
+ know
+
+
+I'm
+ I'm
+ dating
+ a
+ GTM
+ uh
+ person
+ and
+ she
+
+
+loves
+ Grockbot.
+
+
+>> Yeah.
+
+
+>> And
+ like
+ you're
+ never
+ going
+ to
+ ply
+ pry
+
+
+Grockbot
+ from
+ her
+ cold
+ dead
+ hands.
+
+
+>> Totally.
+
+
+>> And
+ so
+ why
+ not?
+
+
+>> And
+ and
+ and
+ we're
+ not
+ trying
+ to
+ I
+ think
+
+
+that's
+ the
+ that's
+ the
+ thing
+ that
+ like
+ I
+
+
+I
+ mean
+ we
+ spent
+ a
+ lot
+ of
+ time
+ just
+
+
+thinking
+ about
+ like
+ do
+ we
+ do
+ we
+ need
+ to
+
+
+own
+ the
+ surface
+ area
+ here?
+
+
+It's
+ really
+ okay
+ like
+ people
+ can
+ do
+ good
+
+
+go
+ to
+ marketing
+ rockbot
+ and
+ we
+ want
+ them
+
+
+to
+ have
+ all
+ the
+
+
+>> I
+ will
+ say
+ I
+ don't
+ know if
+ you
+ you
+ have
+
+
+any
+ like
+ thoughts
+ on
+ this
+ like
+ this
+ is
+
+
+another
+ thing
+ that
+ maybe
+ Mark
+ Benny
+ off
+
+
+at
+ Salesforce
+ had
+ also
+ come
+ to
+ sort
+ of
+
+
+that
+ religion
+ on
+ that
+ side
+ of
+ defense
+
+
+because
+ as
+ a
+ source
+ of
+ truth
+ or
+ as
+ like
+
+
+a
+ SAS
+ provider
+ you
+ can
+ just
+ be
+ like
+ no
+
+
+like
+ I
+ want
+ you
+ all
+ to
+ pay
+ my
+ $20
+ a
+
+
+month
+ $200
+ a
+ month
+ and
+ use
+ my
+ thing
+ but
+
+
+uh
+ exposing
+ yourself
+ as
+ an
+ API
+ basically
+
+
+means
+ you
+ lose
+ the
+ first
+ touch
+ interface
+
+
+But
+ then
+ you
+ just
+ make
+ your
+ API
+ really
+
+
+good.
+ Yeah.
+ I
+ mean
+ I
+ I
+ think
+ like
+ you
+
+
+know
+ I
+ we
+ spent
+ a
+ lot
+ of
+ time
+ on
+ our
+
+
+agent
+ harness
+ and
+ like
+ I
+ hope
+ people
+ use
+
+
+it.
+ Uh
+ that's
+ actually
+ not
+ the
+ point,
+
+
+you
+ know,
+ like
+ I
+ think
+ we
+ just
+ want
+ Clay
+
+
+to
+ be
+ this
+ agentic
+ go
+ to
+ market
+
+
+infrastructure
+ and
+ like
+ I
+ think
+ it'll
+ be
+
+
+valuable
+ in
+ a
+ lot
+ of
+ different
+ places.
+
+
+>> So
+ I
+ guess
+ would
+ you
+ say
+ you
+ guys
+ are
+
+
+trying
+ to
+ automate
+ go
+ to
+ market
+
+
+essentially?
+
+
+>> No,
+ I
+ mean
+ I
+ would
+ I
+ would
+ frame
+ it
+
+
+differently.
+ I
+ I
+ think
+ we're
+ trying
+ to
+
+
+do
+ the
+ same
+ thing,
+ you
+ know,
+ bring
+ the
+
+
+same
+ shift
+ that
+ claude
+ code
+ brought
+ to
+
+
+engineering.
+ So
+ it's
+ like
+ I
+ think
+ you
+
+
+know
+ go
+ to
+ market
+ will
+ you'll
+ still
+ have
+
+
+go
+ to
+ market
+ engineers
+ they'll
+ just
+ do
+
+
+way
+ more
+ they
+ will
+ I
+ don't
+ know
+ build
+ a
+
+
+bunch
+ of
+ plays
+ and
+ like
+ I
+ think
+ about
+
+
+this
+ from
+ the
+ perspective
+ of
+ Clay
+ where
+
+
+like
+ you
+ know
+ Clay
+ has
+ a
+ really
+ great
+ go
+
+
+to
+ market
+ team
+ maybe
+ maybe
+ intuitively
+
+
+but
+ there's
+ so
+ much
+ stuff
+ we're
+ not
+
+
+doing
+ like
+ I
+ I
+ don't
+ know
+ uh
+ we're
+ not
+
+
+running
+ a
+ bunch
+ of
+ different
+ go
+ to
+
+
+market
+ plays
+ that
+ like
+ I
+ could
+ probably
+
+
+think
+ of
+ 10
+ different
+ go
+ to
+ market
+ ideas
+
+
+that
+ we're
+ not
+ doing
+ right
+ now
+ and
+ I
+
+
+don't know
+ I
+ think
+ the
+ the
+ goal
+ of
+ Clay
+
+
+is
+ like
+ we'll
+ do
+ all
+ of
+ that
+ we'll
+ just
+
+
+Yeah,
+ one
+ thing
+ I
+ like
+ about
+ go
+ to
+
+
+market
+ businesses
+ is
+ that
+ your
+ basically
+
+
+your
+ GTM
+ team
+ can
+ just
+ tell
+ your
+ sales
+
+
+team
+ what
+ your
+ engineering
+ team
+ what
+ you
+
+
+need.
+
+
+>> Uh
+ what's
+ an
+ example
+ that's
+ come
+ from
+
+
+your
+ internal
+ needs
+ that
+ like
+ you
+ guys
+
+
+were
+ like
+ oh
+ yeah
+ that
+ really
+ makes
+
+
+sense.
+
+
+>> Yeah.
+ [laughter]
+ Yeah.
+
+
+>> I
+ mean
+ probably
+ the
+ CLI
+ was
+ like
+ a
+ big
+
+
+part
+ of
+ that.
+
+
+>> They
+ asked
+ you
+ for
+ it.
+
+
+>> Yes.
+
+
+>> Say
+ more.
+
+
+>> I
+ I
+ think
+ a
+ lot
+ of
+ people
+ were
+ just
+ in
+
+
+cursor
+ and
+ it
+ was
+ you
+ know
+ similar
+ to
+
+
+Grockpot
+ like
+ really
+ hard
+ to
+ pry
+ it
+ out
+
+
+of
+ their
+ hands.
+
+
+>> Wow.
+
+
+>> Yeah.
+ And
+ they
+ were
+ like
+ we
+ we
+ can't
+ you
+
+
+know.
+
+
+>> Yeah.
+ And
+ your
+ go
+ to
+ market
+ team
+ is
+
+
+mostly
+ engineers.
+
+
+>> Our
+ sales
+ team
+ is
+ in
+ codeex
+ doing
+ a
+
+
+bunch
+ of
+ stuff
+ on
+ like
+ deal
+ prep,
+ but
+
+
+no,
+ I
+ mean
+ like
+ we
+ do
+ have
+ a
+ go
+ to
+
+
+market
+ ops
+ team
+ that
+ it's
+ probably
+ like
+
+
+our
+ I
+ don't know
+ the
+ naming
+ is
+ a
+ bit
+
+
+confusing,
+ but
+ they're
+ probably
+ like
+
+
+what
+ we
+ would
+ call
+ a
+ go
+ to
+ market
+
+
+engineering
+ team.
+
+
+>> Just
+ cracked
+
+
+people.
+
+
+>> That's
+ like
+ the
+ profile
+ of
+ like
+ former
+
+
+engineers
+ doing
+ go
+ to
+ market
+ work
+ like
+
+
+building
+ out
+ a
+ bunch
+ of
+ internal
+ tools
+
+
+like
+ built
+ on
+ top
+ of
+ clay
+ um
+ for
+ our
+
+
+sales
+ team.
+
+
+>> Yeah,
+ that
+ makes
+ sense.
+ Yeah,
+ I
+ I
+ say
+
+
+it's
+ still
+ like
+ I'm
+ still
+ not
+ over
+ this
+
+
+whole
+ like
+ it's
+ 50/50
+ like
+ you
+ it's
+ not
+
+
+the
+ point
+ of
+ your
+ the
+ clay
+ harness
+ to
+
+
+beat
+ cloud
+ code
+ harness
+ then
+ like
+ why
+ do
+
+
+it
+ at
+ all?
+ Like
+ why
+ not
+ just
+ go
+ all
+ in
+
+
+on
+ on
+ like
+ just
+ being
+ the
+ best
+ uh
+ CLI
+
+
+MCP
+ for
+ agents?
+
+
+>> I
+ think
+ people
+ like
+ want
+ something
+ in
+
+
+Clay
+ like
+ people
+ are
+ in
+ in
+ the
+ Clay
+ UI
+
+
+building
+ stuff
+ and
+ would
+ want
+ to
+ use
+ an
+
+
+agent
+ there.
+ Yeah.
+
+
+>> Um,
+ so
+ it's
+ somewhat
+ just
+ following
+ the
+
+
+customer
+ demand
+ where
+ like
+
+
+>> you
+ could
+ ship
+ cloud
+ code
+ in
+ a
+
+
+container,
+ you
+ know,
+ like
+ totally
+ I
+ mean
+
+
+all right
+ pie
+ or
+ open
+ code
+ whatever
+ the
+
+
+open
+ source
+ one
+ is.
+
+
+>> I
+ feel
+ like
+ that's
+ effectively
+ what
+ a
+
+
+lot
+ of
+ these
+ are.
+ All right.
+ That's
+
+
+another
+ weird
+ thing
+ of
+ like
+ well
+ where
+
+
+you
+ know
+ what
+ are
+ the
+ sources
+ of
+ alpha
+
+
+in
+ harness
+ building
+ agent
+ building.
+ A
+
+
+lot
+ of
+ people
+ saying
+ there's
+ not
+ that
+
+
+much
+ on
+ top
+ of
+ what
+ everyone
+ already
+
+
+has.
+
+
+>> Yeah.
+
+
+>> And
+ like
+ wow.
+
+
+>> Yeah.
+ Yeah.
+ Our
+ agent
+ harness
+ is
+ built
+
+
+on
+ top
+ of
+ Pi
+ and
+ so
+ you
+ know
+ we're
+
+
+starting
+ with
+ Pi
+ and
+ you
+ know
+ it's
+ it's
+
+
+somewhat
+ more
+ you
+ know
+ built
+ out
+ and
+
+
+customized
+ on
+ top
+ of
+ it
+ but
+
+
+>> did
+ it
+ start
+ that
+ way?
+
+
+>> Yeah.
+
+
+>> Wow.
+
+
+>> Oh
+ like
+ in
+ a
+ post
+ sculpted
+ world
+ so
+ like
+
+
+after
+ we
+ yeah
+ we
+ uh
+
+
+>> yeah
+ it
+ seems
+ like
+ uh
+ and
+ by
+ the
+ way
+ Pi
+
+
+Python
+ you
+ seem
+ to
+ have
+ a
+ JavaScript
+
+
+stack.
+
+
+>> Yes.
+
+
+>> You
+ just
+ merge
+ languages
+ you
+ could
+ just
+
+
+rewrite
+ the
+ whole
+ thing.
+
+
+>> We
+ use
+ the
+ versel
+ AI
+ SDK.
+ Yeah.
+ Use
+ uh
+
+
+you
+ know
+ their
+ their
+ their
+ integration
+
+
+there.
+
+
+>> Yeah.
+ Yeah.
+ Yeah.
+ Very
+ cool.
+ I
+ think
+ one
+
+
+of
+ those
+ things
+ where
+ uh
+ we
+ we
+ come
+
+
+across
+ in
+ the
+ research
+ is
+ that
+ you
+
+
+always
+ talk
+ about
+ courage
+ and
+ emotional
+
+
+metabolism.
+ Can
+ you
+ talk
+ about
+ like
+ what
+
+
+that
+ looks
+ like
+ especially
+ with
+ with
+
+
+something
+ that
+ didn't
+ really
+ work?
+ I
+
+
+feel
+ very
+ strongly
+ that
+ you
+ know
+
+
+institutional
+ courage
+ is
+ probably
+ the
+
+
+most
+ important
+ thing
+ right
+ now
+ at
+
+
+companies.
+ Uh
+ and
+ it's
+ really
+ hard.
+ I
+ I
+
+
+don't
+ know
+ like
+ I
+ joined
+ Clay
+ at
+ 50
+
+
+people.
+ We're
+ now
+ probably
+ around
+ 600.
+
+
+it
+ changes
+ a
+ lot
+ like
+ the
+ momentum
+ is
+
+
+just
+ for
+ things
+ to
+ calcify
+ and
+ I
+ don't
+
+
+know
+ just
+ to
+ do
+ things
+ requires
+ more
+ and
+
+
+more
+ courage
+ so
+ I
+ don't
+ know
+ one
+ is
+ just
+
+
+as
+ a
+ as
+ a
+ principle
+ I
+ think
+ it's
+ is
+
+
+quite
+ important
+ two
+ I
+ I
+ don't
+ know
+ I
+
+
+think
+ there's
+ a
+ lot
+ of
+ uncertainty
+ as
+
+
+things
+ change
+ a
+ lot
+ and
+ so
+ um
+ I
+ I
+ can
+
+
+think
+ of
+ a
+ couple
+ examples
+ so
+ one
+ like
+
+
+we
+ um
+ uh
+ I
+ think
+ I've
+ posted
+ about
+ this
+
+
+before
+ but
+ we
+ were
+ one
+ of
+ the
+ launch
+
+
+partners
+ for
+ chatbt
+ apps
+ or
+ like
+ the
+
+
+kind
+ of
+ the
+ first
+ wave
+ of
+ of
+ business
+
+
+apps
+ on
+ chatbt
+ and
+ you
+ know
+ we
+
+
+loosely
+ been
+ working
+ with
+ the
+ team
+ uh
+ on
+
+
+like
+ on
+ supporting
+ this
+ uh
+ and
+ then
+ I
+
+
+think
+ maybe
+ you
+ know
+ so
+ we
+ basically
+ rep
+
+
+prioritized
+ I
+ mean
+ probably
+ 25%
+ of
+ the
+
+
+engineering
+ team
+ for
+ a
+ month
+ like
+
+
+midquarter
+ to
+ to
+ get
+ this
+ done
+ it
+ was
+
+
+like
+ a
+ huge
+ sprint
+ to
+ like
+ you
+ know
+
+
+integrate
+ with
+ chatbt
+ and
+ you
+ know
+
+
+chatbt
+ is
+ has
+ a
+ ton
+ of
+ demand
+ like
+ so
+
+
+there's
+ a
+ lot
+ of
+ you
+ know
+ incentive
+ for
+
+
+us
+ to
+ do
+ it
+ but
+ basically
+ the
+ team
+ was
+
+
+giving
+ us
+ kind
+ of
+ no
+ indication
+ of
+
+
+whether
+ this
+ was
+ going
+ to
+ work
+ or
+ not
+
+
+they
+ were
+ just
+ like
+ hey
+ maybe
+ maybe
+ if
+
+
+it's
+ cool
+ like
+ we'll
+ we'll
+ launch
+ with
+
+
+that
+ And
+ uh
+ so
+ we
+ rep
+ prioritized
+ like
+ a
+
+
+quarter
+ of
+ the
+ company
+ basically
+ to
+ work
+
+
+on
+ this.
+ I
+ think
+ 2
+ days
+ before
+ we
+ were
+
+
+supposed
+ to
+ launch
+ they
+ were
+ like
+ we're
+
+
+going
+ to
+ cancel
+ it.
+ We're
+ going
+ to
+ just
+
+
+uh
+ we're
+ going
+ to
+ postpone
+ this
+
+
+indefinitely.
+ We'll
+ let
+ you
+ know
+ if
+ we
+
+
+we
+ do
+ this
+ again.
+ So
+ I
+ think
+ it
+ was
+ like
+
+
+>> sorry
+ made
+ that
+ decision.
+ Yes.
+ So
+ we
+
+
+were
+ like
+ oh
+ man
+
+
+>> that's
+ [laughter]
+ you
+ know
+ TLDDR
+ is
+ a
+
+
+dick
+ move
+ right
+ cuz
+ but
+ like
+ I
+ I
+ assume
+
+
+they
+ didn't
+ make
+ that
+ decision
+ lightly
+
+
+and
+ like
+ you
+ know
+ they
+ have
+ other
+
+
+balancing
+ priorities.
+
+
+>> One
+ would
+ hope.
+
+
+>> Um
+ [laughter]
+
+
+no
+ I
+ I
+ think
+ I
+ think
+ that's
+ right.
+ I
+ I
+ I
+
+
+don't
+ actually
+ exactly
+ know
+ what
+
+
+happened,
+ but
+ you
+ know,
+ like
+ we
+ uh
+ we
+
+
+were
+ just
+ of
+ course
+ a
+ little
+ bummed
+ out,
+
+
+but
+ I
+ think
+ we
+ were
+ just
+ like,
+ hey,
+ like
+
+
+this
+ bet
+ still
+ made
+ sense.
+ Like
+ we
+ we
+
+
+just
+ needed
+ to
+ do
+ it
+ and
+ actually
+ just
+
+
+kept
+ working
+ on
+ it
+ with
+ the
+ assumption
+
+
+like
+ they'll
+ probably
+ change
+ their
+
+
+minds.
+
+
+>> And
+ I
+ think
+ like
+ 3
+ or
+ 4
+ days
+ later,
+ they
+
+
+they
+ changed
+ their
+ minds.
+ Like
+ we
+
+
+actually
+ like
+ needed
+ to
+ keep
+ working.
+
+
+>> They
+ changed
+ their
+ minds
+ in
+ 3
+ days.
+
+
+Yeah.
+
+
+>> After
+ a
+ very
+ public
+ cancellation,
+ like
+
+
+what?
+
+
+>> Uh
+ well,
+ they
+ they
+ just
+ told
+ us
+ they
+
+
+were
+ canceling,
+ so
+ I
+ don't
+ know.
+ You
+
+
+know
+ that
+
+
+>> I
+ mean
+ no
+ even
+ making
+ that
+ decision
+ to
+
+
+tell
+ you
+ they're
+ cancelling
+ is
+ like
+
+
+>> yeah
+ a
+ very
+ intentional
+ thing.
+
+
+>> Do
+ you
+ have
+ a
+ hypothesis
+ for
+ like
+ why
+
+
+they
+ changed
+ their
+ minds?
+
+
+>> Maybe
+ enough
+ people
+ were
+ like
+ you
+
+
+like
+ [laughter]
+ I
+ already
+ engineered
+ all
+
+
+this
+ stuff.
+
+
+I
+ think
+ it's
+ just
+ like
+ everything
+ I
+ mean
+
+
+I
+ don't
+ know
+ I
+ it's
+ hard
+ for
+ me
+ to
+
+
+speculate
+ but
+ it's
+ like
+ I
+ think
+ things
+
+
+are
+ just
+ very
+ dynamic
+ right
+ now
+ and
+ so
+
+
+the
+ decision-m
+ processes
+ around
+ that
+ are
+
+
+very
+ dynamic
+ as
+ well
+ and
+ that
+ that
+ has
+
+
+through
+ you
+ know
+ like
+ anyone
+ who's
+ dealt
+
+
+with
+ the
+ labs
+ they're
+ like
+ [laughter]
+
+
+>> they
+ have
+ a
+ lot
+ of
+ stuff
+ going
+ on
+ it's
+
+
+it's
+ it's
+ chaotic
+ inside
+ we
+ have
+
+
+sympathy
+ for
+ them
+ they're
+ trying
+ they're
+
+
+trying
+ to
+ do
+ their
+ best
+
+
+>> which
+ totally
+ makes
+ sense
+ like
+ um
+
+
+>> could
+ be
+ better
+ but
+ look
+ we're
+ in
+ we're
+
+
+in
+ AI
+ times
+ like
+ things
+ are
+ moving
+
+
+>> it
+ was
+ probably
+ one
+ of
+ [clears throat]
+
+
+20
+ priorities
+ for
+ us
+ and
+ it
+ was
+ like
+ one
+
+
+of
+ our
+ top
+ priorities.
+
+
+Okay.
+ Actually,
+ I
+ question
+ uh
+ if
+ I
+ were
+
+
+had
+ been
+ you,
+ I
+ would
+ have
+ questioned
+
+
+why
+ you
+ made
+ it
+ the
+ top
+ priority.
+ Yeah.
+
+
+You
+ know,
+ let's
+ call
+ it
+ every
+ single
+ dev
+
+
+day,
+ you
+ know,
+ recording
+ this
+ on
+ the
+ eve
+
+
+of
+ uh
+ the
+ fourth
+ dev
+ day.
+ They've
+ always
+
+
+tried
+ to
+ launch
+ some
+ kind
+ of
+ marketplace
+
+
+thing.
+ It's
+ always
+ flopped
+ and
+ like
+ why
+
+
+make
+ this
+ top
+ priority?
+ [laughter]
+
+
+This
+ is
+ probably
+ at
+ the
+ beginning
+ of
+
+
+when
+ we
+ were
+ figuring
+ out
+ like
+ the
+ the
+
+
+same
+ surface
+ area
+ questions
+ about
+ the
+
+
+CLI.
+ It's
+ like
+ where
+ where
+ do
+ we
+ want
+ to
+
+
+play
+ with
+ this?
+ like
+ do
+ we
+ want
+ to
+ have
+
+
+a
+ full
+ chatbt
+ clone
+ in
+ clay
+ and
+ like
+
+
+that
+ might
+ make
+ sense
+ but
+ like
+ it
+
+
+probably
+ makes
+ sense
+ to
+ leverage
+ the
+
+
+things
+ that
+ exist
+ as
+ well.
+ So,
+ I
+ think
+
+
+one
+ it
+ was
+ just
+ like
+ I
+ don't
+ know.
+ It
+
+
+felt
+ like
+ the
+ right
+ bet
+ to
+ try.
+
+
+>> It's
+ like
+ a
+ game
+ theory
+ thing,
+ right?
+
+
+It's
+ like,
+ oh,
+ if
+ you
+ have
+ a
+ competitor
+
+
+that
+ does
+ it
+ and
+ this
+ time
+ it
+ actually
+
+
+Yeah.
+ Yeah.
+ I
+ will
+ say
+ each
+ year
+ it
+ does
+
+
+get
+ better.
+
+
+>> It
+ does.
+ They
+ It's
+ more
+ polished.
+ It
+
+
+just
+ No,
+ it's
+ not
+ going
+ to
+ take
+ over
+ the
+
+
+world
+ by
+ storm.
+ Like,
+ but
+ it
+ is
+ very
+
+
+valuable
+ to
+ be
+ page
+ one.
+
+
+>> Yeah.
+ I
+ will
+ say
+ that.
+ I
+ mean,
+ I
+ think,
+
+
+you
+ know,
+ I
+ this
+ is
+ like
+ back
+ to
+ the
+
+
+iPad
+ development
+ days.
+ is
+ like,
+ you
+
+
+know,
+ I
+ was
+ one
+ of
+ the
+ first
+ 500
+ iPad
+
+
+apps
+ on
+ the
+ store
+ and
+ it's
+ like
+ this
+
+
+feels
+ like
+ a
+ similar
+ moment
+ where
+ like
+
+
+AI
+ is
+ clearly
+ a
+ platform
+ shift
+ in
+ some
+
+
+ways
+ and
+ like
+ but
+ I
+ don't
+ know if
+ like
+
+
+people
+ have
+ figured
+ out
+ the
+ platform
+
+
+part
+ yet
+ like
+ people
+ have
+ figured
+ out
+
+
+the
+ sort
+ of
+ the
+ like
+ AI
+ shift
+ but
+ yeah
+
+
+>> I
+ mean
+ in
+ some
+ ways
+ you
+ know
+ I
+ think
+
+
+everyone
+ has
+ their
+ sort
+ of
+ single
+ pane
+
+
+of
+ glass
+ that
+ they
+ want
+ to
+ be
+ the
+
+
+platform
+ you
+ are
+ the
+ platform
+ for
+ a
+ lot
+
+
+other
+ people
+ like
+ a
+ lot
+ of
+ people
+
+
+prioritize
+ you
+ as
+ like
+ we
+ will
+ make
+ it
+
+
+big
+ by
+ demoing
+ our
+ integrations.
+ uh
+ you
+
+
+have
+ your
+ event
+ coming
+ up
+ presumably
+ a
+
+
+bunch
+ of
+ your
+ partners
+ are
+ going
+ to
+ make
+
+
+that
+ same
+ announcement.
+ Don't
+ cancel
+ on
+
+
+them.
+ [laughter]
+
+
+>> But
+ no,
+ I
+ I
+ think
+ I
+ think
+ that's
+ uh
+
+
+that's
+ great.
+ That's
+ it.
+ Like
+ emotional
+
+
+metabolism
+ basically
+ just
+ like
+ take
+ hits
+
+
+as
+ they
+ come.
+ I
+ guess
+
+
+>> having
+ courage.
+ Yeah.
+
+
+>> Yeah.
+ I
+ I
+ think
+ you
+ need
+ it
+ like
+ I
+ don't
+
+
+know
+ like
+ it's
+ uh
+ just
+ very
+ easy
+ to
+ make
+
+
+wrong
+ decisions
+ right
+ now.
+ That's
+ the
+
+
+reality.
+ And
+ like
+ you
+ just
+ have
+ to
+ keep
+
+
+moving
+ like
+
+
+>> so
+ first
+ of
+ all
+ there
+ there
+ is
+ a
+ version
+
+
+of
+ founder
+ mode
+ as
+ well
+ like
+ you
+ know
+
+
+one
+ of
+ the
+ reasons
+ to
+ acquire
+ a
+ company
+
+
+when
+ you
+ know
+ you're
+ 50
+ people
+ and
+ you
+
+
+got
+ five
+ is
+ they
+ just
+ like
+ they
+ need
+ to
+
+
+keep
+ injecting
+ the
+ founder
+ mode
+ energy
+
+
+of
+ like
+ look
+ I
+ didn't
+ come
+ here
+ as
+ a
+
+
+regular
+ employee
+ I
+ can
+ like
+ shake
+ things
+
+
+up.
+ I
+ was
+ hired
+ with
+ the
+ mandate
+ to
+
+
+shake
+ things
+ up
+ and
+ I
+ can
+ go
+ do
+ that.
+
+
+Presumably
+ Clay
+ has
+ done
+ other
+
+
+acquisitions
+ where
+ they've
+ this
+ has
+
+
+happened.
+
+
+>> Yes.
+ Yeah.
+
+
+>> Right.
+ Um
+ yeah
+ this
+ is
+ a
+ very
+ standard
+
+
+reason
+ to
+ acquire.
+ It's
+ just
+ like
+ well
+
+
+like
+ the
+ people
+ I
+ get
+ into
+ the
+ regular
+
+
+door
+ just
+ want
+ things
+ to
+ stay
+ the
+ same
+
+
+and
+ I
+ don't
+ as
+ a
+ founder.
+ [laughter]
+
+
+I
+ think
+ the
+ other
+ thing
+ that
+ I
+ think
+ is
+
+
+really
+ interesting
+ in
+ my
+ let's
+ call
+ it
+ 5
+
+
+years
+ uh
+ doing
+ latent
+ space
+ and
+ whatever
+
+
+is
+ like
+ I
+ see
+ the
+ let's
+ call
+ it
+ the
+
+
+courage
+ of
+ your
+ convictions
+ like
+ like
+
+
+sometimes
+ you
+ think
+ a
+ thing
+ is
+ right
+ on
+
+
+first
+ principles
+ and
+ it
+ doesn't
+ work
+
+
+doesn't
+ work
+ doesn't
+ work
+ doesn't
+ work
+
+
+just
+ hang
+ on
+ it
+ it
+ works
+ eventually.
+
+
+>> Yeah.
+ I
+ mean
+ like
+ one
+ just
+ like
+ the
+
+
+whole
+ history
+ of
+ Clay.
+ I
+ mean
+ Kareem
+ was
+
+
+building
+ this
+ company
+ for
+ 5
+ years
+ with
+
+
+basically
+ nothing
+ working.
+ So
+ like
+ I
+
+
+think
+ just
+ deep
+ in
+ his
+ soul
+ he
+ kind
+ of
+
+
+feels
+ that
+ you
+ know
+ things
+ will
+ work
+ if
+
+
+you
+ just
+ keep
+ pushing
+ long
+ enough.
+ And
+ I
+
+
+don't
+ know
+ I
+ think
+ we
+ have
+ plenty
+ of
+
+
+examples
+ of
+ products
+ that
+ like
+ when
+ when
+
+
+we
+ first
+ launched
+ them
+ it
+ just
+ didn't
+
+
+make
+ sense.
+ We
+ just
+ launched
+ our
+
+
+workflows
+ product
+ and
+ uh
+ I
+ think
+ a
+ lot
+
+
+of
+ agency
+ owners
+ are
+ really
+ really
+
+
+liking
+ it.
+ There's
+ just
+ organic
+
+
+excitement
+ about
+ the
+ feature
+ but
+ when
+ we
+
+
+first
+ showed
+ it
+ to
+ people
+ did
+ not
+
+
+understand
+ it.
+ They
+ were
+ confused.
+ They
+
+
+were
+ in
+ some
+ cases
+ just
+ upset.
+ They
+ were
+
+
+like
+ they
+ they
+ were
+ like
+ why
+ are
+ you
+
+
+doing
+ this?
+ Just
+ give
+ me
+ list.
+ We
+ like
+
+
+the
+ spreadsheet.
+ Why
+ are
+ you
+ doing
+
+
+worthless?
+
+
+>> This
+ is
+ I
+ mean
+ this
+ is
+ Zapier,
+ right?
+
+
+>> Yes.
+ I
+ I
+ would
+ say
+ yeah.
+ I
+ mean
+ there
+
+
+probably
+ things
+ that
+ you
+ know
+ I'd
+ say
+ we
+
+
+we
+ do
+ differently
+ and
+ and
+ you
+ know
+ if
+
+
+Zap
+ year
+ was
+ built
+ today
+ there's
+ you
+
+
+know
+ probably
+ things
+ that
+ would
+ would
+ be
+
+
+incorporated
+ like
+ this.
+ Uh
+ you
+ know
+ this
+
+
+is
+ also
+ sort
+ of
+ you
+ know
+ it's
+ agent
+
+
+first
+ CLI
+ first.
+ That's
+ the
+ majority
+
+
+like
+ majority
+ of
+ workflows
+ are
+ built
+
+
+with
+ the
+ CLI
+ or
+ or
+ agent.
+ Yeah,
+ I
+ would
+
+
+say
+ you
+ know
+ like
+ and
+ and
+ for
+ workflows
+
+
+again
+ something
+ I've
+ I've
+ worked
+ in
+
+
+quite
+ a
+ bit.
+ This
+ is
+ always
+ the
+ dream
+
+
+like
+ you
+ know
+ uh
+ one
+ of
+ the
+ statements
+
+
+of
+ Clay
+ is
+ like
+ to
+ give
+ everybody
+ the
+
+
+you
+ the
+ ability
+ to
+ program
+ and
+ like
+ do
+
+
+that
+ stuff
+ including
+ GTM
+ engineers
+ and
+
+
+maybe
+ they're
+ not
+ Python
+ gods
+ maybe
+ they
+
+
+are
+ not
+ cannot
+ be
+ trusted
+ in
+ cursor
+
+
+right
+ because
+ like
+ they
+ should
+ not
+ have
+
+
+access
+ to
+ all
+ the
+ infra
+ but
+ here
+ here's
+
+
+like
+ a
+ a
+ blessed
+ place
+ where
+ you
+ can
+ all
+
+
+your
+ tools
+ all
+ your
+ data
+ all
+ in
+ one
+
+
+place
+ and
+ it's
+ made
+ for
+ you
+ to
+ just
+ go
+
+
+nuts
+
+
+>> I
+ think
+ it's
+ changing
+ how
+ we
+ do
+ stuff
+
+
+internally
+ at
+ clay
+ too
+ we
+ were
+ doing
+
+
+some
+ analysis
+ on
+ just
+ how
+ many
+ YCU
+
+
+companies
+ are
+ using
+ clay.
+ Um,
+
+
+>> how
+ many?
+
+
+>> It
+ must
+ be
+ really
+ high.
+
+
+>> All
+ them.
+ It
+ uh
+ it
+ it
+ is
+ it
+ is
+ high.
+ A
+
+
+good
+ ballpark
+ is
+ like
+ let's
+ let's
+ call
+ I
+
+
+think
+ superbase
+ has
+ a
+ number
+ of
+ like
+ 70%
+
+
+of
+ each
+ batch
+ is
+ superbase.
+
+
+>> Yeah.
+ All
+ right.
+ I
+ I
+ won't
+ disclose
+ the
+
+
+number
+ but
+ [laughter]
+ uh
+ uh
+ but
+ it
+ but
+
+
+uh
+ you
+ know
+ it's
+ it's
+ a
+ healthy
+ number
+
+
+but
+ I
+ I
+ was
+ just
+ like
+ we
+ just
+ asked
+ our
+
+
+agent
+ for
+ this
+ and
+ it
+ found
+ it
+ in
+ like
+
+
+60
+ seconds.
+ M
+
+
+>> it's
+ like
+ oh
+ man
+ this
+ I
+ was
+ just
+
+
+thinking
+ like
+ a
+ year
+ ago
+ this
+ would
+ have
+
+
+taken
+ so
+ much
+ time
+ I
+ would
+ need
+ to
+ find
+
+
+and
+ scrape
+ the
+ YC
+ batch
+ into
+ some
+ CSV
+ on
+
+
+my
+ computer
+ then
+ I
+ would
+ need
+ to
+ get
+
+
+snowflake
+ access
+ somehow
+ and
+ you
+ know
+
+
+cross
+ reference
+ there
+ to
+ be
+ like
+ are
+
+
+they
+ a
+ customer
+ or
+ like
+ maybe
+ Salesforce
+
+
+you
+ know
+ just
+ like
+ all
+ these
+ different
+
+
+systems
+ and
+ you
+ don't
+ need
+ any
+ of
+ that
+
+
+you
+ can
+ just
+ like
+ ask
+ Clay
+ it'll
+ like
+
+
+you
+ know
+ pull
+ the
+ list
+ it'll
+ you
+ know
+
+
+cross
+ reference
+ everything
+ the
+ beautiful
+
+
+thing
+ about
+ the
+ domain
+ that
+ you're
+ in
+
+
+that
+ other
+ people
+ don't
+ have
+ the
+
+
+privilege
+ of
+ is
+ that
+ most
+ of
+ your
+ stuff
+
+
+is
+ publicish,
+ like
+ there's
+ no
+
+
+sensitivity
+ if
+ one
+ one
+ employee
+ sees
+
+
+another
+ thing
+ that
+ they
+ don't
+
+
+necessarily
+ have
+ access
+ to.
+ It's
+ all
+
+
+publicish,
+ right?
+ Um
+ whereas
+ other
+
+
+people
+ they're
+ like,
+ "No,
+ absolutely
+
+
+not.
+ What
+ do
+ you
+ mean
+ you
+ have
+ like
+ free
+
+
+reign
+ into
+ my
+ my
+ snowflake?"
+
+
+>> Yeah.
+
+
+>> Like,
+ [laughter]
+
+
+>> yeah.
+ Yeah.
+
+
+>> This
+ is
+ somewhat
+ relevant
+ to
+ us.
+ Like
+
+
+it's
+ not
+ like
+ there
+ they're there
+
+
+definitely
+ companies
+ where
+ they
+ want,
+
+
+you
+ know,
+ more
+ fine
+ grain
+ permissions.
+
+
+But
+ yeah,
+ for
+ the
+ most
+ part,
+ I
+ mean,
+ I
+
+
+think
+ that's
+ the
+ the
+ advantage
+ also
+ of
+
+
+having
+ the
+ data
+ context
+ layer
+ is
+ like
+
+
+you
+ can
+ bring
+ in
+ just
+ the
+ information
+
+
+that's
+ relevant
+ for
+ for
+ good
+ market.
+ You
+
+
+don't
+ need
+ everything.
+
+
+>> When
+ did
+ you
+ launch
+ the
+ workflows
+
+
+product?
+
+
+>> Uh,
+ this
+ was
+ earlier
+ this
+ summer.
+ So,
+ we
+
+
+we
+ did
+ 12
+ launches
+ in
+ 12
+ weeks.
+ I
+ don't
+
+
+know
+ why
+ we
+ did
+ this
+ in
+ the
+ summer
+
+
+instead
+ of
+ I
+ don't
+ know,
+ but
+ uh
+ so
+ uh
+
+
+yes,
+ we
+ did
+ 12
+ launches
+ in
+ 12
+ weeks.
+ Uh
+
+
+this
+ was
+ this
+ was
+ one
+ of the
+ launches.
+
+
+>> And
+ how's
+ it
+ going?
+
+
+>> Uh
+ it's
+ going
+ great.
+ Yeah.
+
+
+>> What
+ metrics
+ do
+ you
+ guys
+ look
+ at
+ for
+
+
+this?
+
+
+>> Yeah,
+ I
+ mean
+ there's
+ there's
+ a
+ bunch
+ of
+
+
+things
+ that
+ we're
+ tracking.
+ Um,
+ one
+ of
+
+
+the
+ things
+ that's
+ cool
+ is
+ just
+ the
+
+
+percentage
+ of
+ things
+ people
+ are
+ doing
+ in
+
+
+workflows
+ versus
+ tables.
+ So
+ like
+ you
+
+
+know
+ again
+ like
+ people
+ think
+ of
+ Clay
+ as
+
+
+the
+ spreadsheet
+ tool
+ and
+ that's
+ like
+ the
+
+
+core
+ of
+ the
+ product
+ and
+ we're
+ seeing
+ a
+
+
+lot
+ of
+ people
+ just
+ switch
+ to
+ workflows
+
+
+basically
+ as
+ their
+ primary
+ mode.
+ Um,
+ so
+
+
+both
+ on
+ a
+ per
+ customer
+ basis
+ but
+ just
+
+
+like
+ as
+ a
+ percentage
+ of
+ like
+ tables
+
+
+versus
+ workflows,
+ we're
+ seeing
+ that
+ like
+
+
+grow
+ pretty
+ quickly.
+ So
+ there's
+ a
+
+
+potential
+ this
+ could
+ become
+ the
+ like
+
+
+main
+ interface.
+
+
+>> I
+ think
+ there's
+ Yes.
+ I
+ mean
+ like
+ there
+
+
+there's
+ there's
+ for
+ sure
+ potential
+
+
+there.
+ Yeah.
+
+
+>> Are
+ there
+ any
+ product
+ launches
+ or
+ things
+
+
+that
+ you're
+ working
+ on
+ right
+ now
+ that
+
+
+you're
+ like
+ particularly
+ excited
+ about?
+
+
+>> Yes.
+
+
+>> That
+ you
+ can
+ talk
+ about.
+
+
+>> Yes.
+ Yes.
+ [laughter]
+ Um
+ so
+ one
+ uh
+ our
+
+
+rearchitecture
+ of
+ sculpture
+ uh
+ this
+ is
+
+
+live
+ in
+ some
+ limited
+ forms
+ in
+ our
+
+
+product
+ now
+ but
+ we
+ are
+ going
+ to
+ launch
+
+
+that
+ broadly
+ for
+ everyone
+ across
+ every
+
+
+surface
+ and
+ clay.
+ This
+ is
+ like
+ our
+ first
+
+
+party
+ agent.
+ Um,
+ that's
+ probably
+ what
+
+
+I'm
+ most
+ excited
+ about.
+ That's,
+ uh,
+ yes,
+
+
+we'll
+ launch
+ this
+ very
+ soon.
+
+
+>> Why
+ does
+ it
+ have
+ to
+ be
+ rearchitected?
+
+
+>> Uh,
+ this
+ is
+ the,
+ you
+ know,
+ the
+ all
+ of
+
+
+the
+ rearchitecture
+ work
+ that
+ we've
+ done
+
+
+to
+ rebuild
+ it
+ around
+ a
+ coding
+ agent
+ and,
+
+
+um,
+ you
+ know,
+ all
+ Yeah.
+ Yeah.
+
+
+>> It's
+ just
+ more
+ powerful.
+
+
+>> This
+ is
+ the
+ this
+ is
+ the
+ agent
+ that
+ uh
+
+
+told
+ us
+ how
+ many
+ people
+ were
+ how
+ many
+
+
+how
+ much
+ of
+ the
+ YC
+ batch
+ was
+ using
+ clay
+
+
+and
+ you
+ know,
+ you
+ could
+ do
+ that.
+
+
+>> What
+ do
+ you
+ expect
+ the
+ outcomes
+ of
+ the
+
+
+like
+ rearchitecture
+ to
+ be?
+ Oh,
+ I
+ mean
+
+
+just
+ anecdotally
+ it's
+ it's
+ just
+ more
+
+
+usage,
+ right?
+ It's
+ unbelievably
+ more
+
+
+expressive
+ and
+ and
+ useful,
+
+
+>> more
+ extensible,
+
+
+>> higher
+ NR.
+
+
+>> Yeah.
+ [laughter]
+ Yeah.
+ No,
+ I
+ think
+ like
+
+
+one
+ one
+ of
+ the
+ things
+ like
+ uh
+ that
+ it
+
+
+could
+ be
+ interesting
+ to
+ analyze
+ which
+ I
+
+
+don't
+ know
+ if
+ you
+ you
+ probably
+ have
+
+
+enough
+ data
+ is
+ how
+ it
+ changes
+ the
+ type
+
+
+of
+ questions
+ people
+ ask,
+ right?
+ Like
+ one
+
+
+of
+ my
+ I
+ guess
+ biggest
+ regrets
+ is
+ like
+
+
+let's
+ call
+ it
+ I
+ had
+ the
+ chance
+ to
+ invest
+
+
+in
+ perplexity
+ very
+ early
+ on
+ and
+ I
+ didn't
+
+
+really
+ get
+ it.
+ I
+ was
+ like
+ I'm
+ going
+ to
+
+
+stuck
+ to
+ my
+ Google.
+ Oh,
+ I
+ don't
+ need
+ an
+
+
+LLM
+ call
+ for
+ my
+ every
+ search.
+ But
+ then
+
+
+like
+ when
+ you
+ have
+ an
+ LM
+ call
+ for
+ every
+
+
+search,
+ you
+ ask
+ different
+ questions.
+
+
+>> Yeah,
+
+
+totally.
+ Yeah,
+ I'm
+ most
+ excited
+ for
+ just
+
+
+the
+ like
+ kind
+ of
+ weird
+ weird
+ go
+ to
+
+
+market
+ ideas
+ that
+ people
+ start
+ building.
+
+
+Uh
+ cuz
+ I
+ feel
+ like
+ that's
+ again
+ like
+
+
+just
+ there's
+ stuff
+ at
+ Clay
+ where
+ we're
+
+
+not,
+ you
+ know,
+ uh
+ so
+ I
+ did
+ this
+ YC
+ this
+
+
+like
+ YC
+ analysis
+ and
+ I
+ was
+ like
+ for
+
+
+everyone
+ that's
+ not,
+ you
+ know,
+ that's
+
+
+not
+ currently
+ customer
+ like
+ what
+ Yeah.
+
+
+What
+ are
+ they
+ doing?
+ Like
+ why
+ why
+ are
+
+
+they
+ not
+ using
+ clay?
+ And
+ it's
+ like
+ we're
+
+
+not
+ really
+ systematically
+ doing
+ that
+
+
+right
+ now.
+ And
+ like
+ we
+ should
+ just
+ have
+
+
+the
+ agent
+ do
+ that
+ like
+ just
+ tell
+ it
+ like
+
+
+hey
+ every
+ week
+ like
+ check
+ in
+ with
+ them
+
+
+[laughter]
+ like
+ just
+ why
+ are
+ you
+ not
+
+
+using
+ clay?
+
+
+>> Do
+ you
+ guys
+ have
+ data
+ on
+ like
+ the
+ growth
+
+
+of
+ the
+ YC
+ companies
+ that
+ use
+ clay
+ versus
+
+
+don't
+ use
+ clay?
+
+
+>> Oh
+ we
+ should
+ do
+ that.
+ That's
+ [laughter]
+
+
+>> trying
+ to
+ get
+ the
+ ones
+ that
+ don't
+
+
+man
+ true.
+ It's
+ true.
+ This
+ is
+ a
+ thing
+
+
+that
+ Stripe
+ does
+ and
+ I
+ think
+ even
+ at
+
+
+Cognition
+ we
+ we
+ did
+ this
+ but
+ it's
+
+
+definitely
+ self-
+ selecting
+ for
+ like
+
+
+people
+ that
+ are
+ more
+ tech
+ native
+ which
+
+
+are
+ going
+ to
+ grow
+ faster.
+ It's
+ like
+ the
+
+
+you're
+ basically
+ you're
+ basically
+
+
+confusing
+ correlation
+ with
+ causation,
+
+
+right?
+
+
+>> Yeah.
+
+
+>> That's
+ a
+ way
+ to
+ get
+ the
+ the
+ companies
+
+
+that
+ are
+ not
+ on
+ it
+ on
+ it,
+ right?
+
+
+>> Yeah.
+ But
+ like
+ Okay.
+ Anyway,
+ it's
+ not
+
+
+just
+ [laughter]
+ just
+ because
+ you
+ adopt
+
+
+clay
+ doesn't
+ mean
+ like
+ you
+ will
+ become
+ a
+
+
+clay
+ model
+ customer,
+ but
+ yes,
+ it
+ is
+ a
+
+
+step.
+
+
+>> There's
+ a
+ potential.
+
+
+>> Yes,
+ it
+ is.
+ [laughter]
+
+
+>> Totally.
+ Yeah.
+ I
+ mean,
+ it's
+ almost
+ like
+
+
+I
+ there's
+ probably
+ a
+ reason
+ why
+ we
+ don't
+
+
+like
+ really
+ focus
+ in
+ on
+ on
+ YC,
+ but
+ it's
+
+
+like
+ I
+ know
+ why
+ not,
+ you
+ know,
+ like
+
+
+that's
+ kind
+ of
+ where
+ that's
+ where
+ I'm
+
+
+excited
+ for,
+ you
+ know,
+ the
+ agent
+ to
+ just
+
+
+take
+ some
+ of
+ these
+ things
+ and
+ just
+ do
+
+
+them.
+
+
+>> Is
+ there
+ a
+ um
+ model
+ capability?
+ Let's
+
+
+say,
+ you
+ know,
+ we
+ have
+ G6
+ now
+ and,
+ you
+
+
+know,
+ the
+ the
+ 55
+ series
+ for
+ cloud.
+ Uh
+
+
+let's
+ say
+ the
+ nextG,
+ is
+ there
+ something
+
+
+that
+ you're
+ holding
+ back
+ on
+ that
+ you
+
+
+would
+ love
+ to
+ build
+ and
+ it's
+ not
+ ready?
+
+
+>> Oh,
+ it's
+ a
+ great
+ question.
+ You
+ know,
+ I
+ I
+
+
+mean,
+ one
+ of
+ the
+ things
+ that
+ just
+ from
+
+
+looking
+ through
+ so
+ many
+ agent
+ traces
+ is
+
+
+one
+ like
+ the
+ models
+ are
+ still
+ kind
+ of
+
+
+dumb.
+ Like
+ there
+
+
+>> Yeah.
+ What's
+ what's
+ an
+ example
+ that
+
+
+comes
+ to
+ mind?
+ I
+ can
+
+
+>> just
+ like,
+ you
+ know,
+ like
+ trying
+ CLI
+
+
+commands
+ with
+ the
+ same
+ inputs
+ over
+ and
+
+
+over
+ again
+ and
+ just
+ not
+ correcting
+ them,
+
+
+you
+ know,
+ it's
+ like
+ things
+ that
+ aren't
+
+
+it's
+ not
+ rocket
+ science,
+ but
+ I'm
+ like,
+
+
+oh,
+ there's
+ still
+ room
+ just
+ even
+ on
+ the
+
+
+the
+ kind
+ of
+ basic
+ kind
+ of
+ what
+ you
+ would
+
+
+think
+ is
+ solved.
+
+
+>> Do
+ you
+ have
+ lab
+ partnerships?
+ Like
+ I
+
+
+assume
+ you
+ share
+ Slack
+ with
+ all
+ these
+
+
+guys,
+ right?
+ you
+ just
+ give
+ them
+ like
+ a
+
+
+lagmith
+ like
+ thread
+ ID
+ and
+ just
+ go
+ like
+
+
+hey
+ yeah
+ I
+ mean
+ it's
+ always
+ an
+
+
+interesting
+ relationship
+ we
+ probably
+
+
+could
+ do
+ that
+ I
+ think
+ this
+
+
+>> yeah
+ yeah
+ this
+ is
+ how
+ like
+ they
+ ask
+ for
+
+
+feedback
+ right
+ they
+ just
+ go
+ like
+ give
+ me
+
+
+the
+ the
+ feedback
+ ID
+ but
+ I
+ do
+ think
+ like
+
+
+you
+ guys
+ as
+ agent
+ builders
+ basically
+
+
+need
+ your
+ own
+ version
+ of
+ that
+ to
+ share
+
+
+back
+ with
+ the
+ labs
+ and
+ then
+ the
+ the
+ more
+
+
+powerful
+ version
+ of
+ this
+ is
+ you
+ wrap
+ all
+
+
+your
+ bug
+ reports
+ up
+ and
+ call
+ it
+ a
+
+
+benchmark
+
+
+>> and
+ then
+ just
+ be
+ like
+ look
+ you
+ guys
+ are
+
+
+bad
+ on
+ this
+
+
+>> yeah
+ what
+ do
+ what
+ do
+ you
+ think
+ about
+
+
+that
+
+
+>> I
+ think
+ it's
+ good
+ it
+ look
+ it
+ takes
+ a
+ bit
+
+
+more
+ work,
+ but
+ you
+ could
+ probably
+ have
+
+
+like
+ a
+ grad
+ student
+ work
+ on
+ it
+ with
+ you.
+
+
+Yeah.
+ And
+ just
+ go
+ like,
+ "Hey,
+ like
+ these
+
+
+are
+ my
+ past
+ like
+ 500
+ bug
+ reports."
+ Like
+
+
+categorize
+ them
+ up,
+ group
+ them
+ up,
+ clean
+
+
+them
+ up,
+ remove
+ PII,
+ and
+ that's
+ a
+
+
+benchmark.
+ And
+ that's
+ a
+ paper
+ for
+ you.
+
+
+>> Yeah.
+ Yeah.
+ Yeah.
+ This
+ is
+ like
+ an
+ area
+
+
+where
+ I
+ mean,
+ we're
+ thinking
+ about
+ this.
+
+
+Uh
+ I
+ think
+ it's
+ a
+ great
+ area
+ to
+ partner
+
+
+with
+ companies
+ like
+ I
+ feel
+ like
+ there
+
+
+companies
+ do
+ this
+ all
+ day
+ and
+ like
+
+
+>> like
+ Sierra
+ was
+ super
+ early
+ to
+ this
+
+
+because
+ obviously
+ Cartek
+ was
+ GPT3
+ and
+
+
+like
+ they
+ were
+ like
+ okay
+ like
+ each
+ of
+
+
+our
+ main
+ verticals
+ we
+ do
+ tobench
+ airline
+
+
+retail
+ telecom
+ and
+ like
+ please
+ optimize
+
+
+for
+ this
+ and
+ like
+ like
+ it's
+ basically
+
+
+the
+ please
+ make
+ my
+ business
+ better
+ for
+
+
+me
+ thanks
+
+
+>> yeah
+ I
+ mean
+ we
+ we
+ do
+ spend
+ some
+ time
+
+
+thinking
+ about
+ like
+ what
+ does
+
+
+performance
+ in
+ go
+ to
+ market
+ or
+
+
+performance
+ in
+ sales
+ look
+ like
+ kind
+ of
+
+
+what
+ is
+ you
+ know
+ what
+ would
+ a
+ sales
+
+
+optimized
+ model
+ look
+ like
+ but
+ Yeah,
+ I
+
+
+mean
+ we're
+ we're
+ early
+ on
+ like
+ we
+
+
+haven't
+ looked
+ into
+ doing
+ a
+ public
+
+
+benchmark,
+ but
+ I
+ think
+ it
+ could
+ make
+
+
+sense.
+
+
+>> Yeah.
+ No,
+ I
+ think
+ the
+ grad
+ students
+ will
+
+
+love
+ to
+ work
+ with
+ you
+ and
+ look,
+ New
+ York
+
+
+has
+ tons
+ of
+ them
+ like
+ Yeah,
+ you'll
+ find
+
+
+you'll
+ find
+ somebody.
+ I
+ just
+ think
+ like
+
+
+this
+ is
+ one
+ of
+ those
+ things
+ where
+ like
+
+
+uh
+ as
+ a
+ marketing
+ guy
+ and
+ you
+ know,
+ I'm
+
+
+primarily
+ a
+ marketing
+ guy
+ and
+ maybe
+ a
+
+
+bit
+ of
+ community,
+ maybe
+ a
+ bit
+ of
+ like
+
+
+content
+ and
+ and
+ all
+ that.
+ Um
+ this
+
+
+achieves
+ your
+ goals
+ and
+ it
+ achieves
+ the
+
+
+the
+ lab's
+ goals.
+ This
+ is
+ like
+ a
+ very
+
+
+much
+ a
+ win-win
+ uh
+ win
+ in
+ terms
+ of
+
+
+community
+ understanding
+ of
+ your
+ problems
+
+
+too.
+ So
+ this
+ is
+ one
+ of
+ those
+ things
+ that
+
+
+if
+ I
+ can
+ encourage
+ you
+ to
+ publish
+ those
+
+
+kind
+ of
+ things,
+ you
+ know,
+ it's
+ it
+ can
+ be
+
+
+high
+ leverage.
+
+
+>> You'll
+ get
+ all
+ the
+ engineers
+ in
+ New
+ York
+
+
+to
+ like
+ come
+ out
+ of
+ their
+ den,
+ you
+ can
+
+
+[laughter]
+ do
+ that.
+
+
+>> Yeah.
+ Yeah.
+ Yeah.
+ I
+ mean,
+ it's
+ it's
+ it
+
+
+is
+ just
+ another
+ way
+ of
+ like
+ forcing
+ them
+
+
+to
+ look
+ at
+ data
+ and
+ like
+ do
+ evals
+ and
+
+
+label
+ them
+ and
+ uh
+ which
+ they
+ don't
+ want
+
+
+to
+ do.
+ So
+ you
+ have
+ to
+ come
+ up
+ with
+
+
+creative
+ ways
+ to
+ make
+ them
+ enjoy
+ their
+
+
+work
+ that
+ they
+ actually
+ normally
+
+
+wouldn't
+ do.
+
+
+>> Yeah.
+ [laughter]
+
+
+Yeah.
+ I
+ I
+ do
+ think
+ we
+ have
+ a
+ good
+
+
+flywheel
+ of
+ this
+ internally
+ where
+ like
+
+
+we
+ have
+ real
+ good
+ market
+ engineers
+ who
+
+
+like
+ you
+ know
+ spend
+ a
+ lot
+ of
+ time
+
+
+thinking
+ about
+ like
+ oh
+ like
+ like
+ how
+
+
+would
+ we
+ find
+ pockets
+ of
+ customers
+ that
+
+
+we
+ should
+ reach
+ out
+ to
+ or
+ like
+ okay
+ who
+
+
+like
+ how
+ would
+ I
+ build
+ scoring
+ for
+ my
+
+
+customers
+ or
+ whatever
+ like
+ all
+ these
+
+
+things
+ and
+ so
+ have
+ some
+ in-house
+ talent
+
+
+there
+ but
+ we
+ probably
+ haven't
+ connected
+
+
+that
+ flywheel
+ as
+ much
+ as
+ we
+ should.
+ Um,
+
+
+actually
+ you
+ talked
+ about
+ coding
+ agents
+
+
+a
+ lot.
+ Do
+ you
+ have
+ any,
+ you
+ know,
+ things
+
+
+you
+ want
+ coding
+ agents
+ to
+ get
+ a
+ lot
+
+
+better
+ at
+ over
+ the
+ next,
+ you
+ know,
+ six
+
+
+months,
+ 12
+ months,
+ and
+ that
+ would
+ help
+
+
+the
+ Clay
+ CLI?
+
+
+>> Uh,
+ yes.
+ And
+ maybe
+ this
+ connects
+ the
+
+
+question,
+ but
+ like
+ model
+ capability
+ is
+
+
+being
+ able
+ to
+ look
+ at
+ an
+ agent
+ trace
+ and
+
+
+figure
+ out
+ what's
+ wrong
+ with
+ it.
+ I
+ mean,
+
+
+maybe
+ it's
+ just
+ like
+ too
+
+
+self-reflective,
+ but
+ it
+ still
+ really
+
+
+doesn't
+ work.
+ So,
+ like
+ we're
+ trying
+ to
+
+
+build,
+ you
+ know,
+ the
+ the
+ loose
+ forms
+ of
+
+
+continual
+ improvement,
+ but
+ it's
+ not
+ even
+
+
+continual
+ improvement,
+ but
+ like,
+ hey,
+
+
+here's
+ a
+ trace.
+ It
+ was
+ really
+ long.
+ The
+
+
+agent
+ probably
+ got
+ confused.
+ Can
+ you
+
+
+tell
+ me
+ where
+ it
+ got
+ confused?
+ And
+ I
+
+
+think
+ agents
+ are
+ still
+ not
+ good
+ at
+ this.
+
+
+Like,
+ they
+ just
+ are
+ they
+ have
+ the
+ wrong
+
+
+intuition
+ about
+ what's
+ wrong.
+ They're
+
+
+like,
+ "Oh,
+ well,
+ like
+ this
+ took
+ a
+ long
+
+
+time."
+ And
+ it's
+ like,
+ "No,
+ no,
+ that
+ that
+
+
+makes
+ sense."
+ It's
+ just
+ like
+ completely
+
+
+wrong,
+ I
+ think,
+ most
+ of
+ the
+ time.
+ Um
+ and
+
+
+so
+ if
+ like
+ you
+ try
+ to
+ connect
+ it
+ the
+
+
+whole
+ way
+ where
+ it's
+ like
+ hey
+ just
+
+
+download
+ the
+ bad
+ bad
+ traces
+ like
+ have
+
+
+agents
+ look
+ at
+ those
+ and
+ then
+ you
+ know
+
+
+improve
+ those
+ over
+ time
+ that
+ just
+ like
+
+
+doesn't
+ work.
+ I
+ think
+ it
+ you
+ know
+
+
+similarly
+ like
+ you
+ know
+ agents
+ writing
+
+
+their
+ own
+ prompts
+ maybe
+ works
+ in
+ some
+
+
+sense
+ but
+ like
+ if
+ you're
+ just
+ like
+ hey
+
+
+fix
+ the
+ agent
+ performance
+ based
+ on
+ this
+
+
+thing
+ that
+ doesn't
+ really
+ work.
+ So
+ like
+
+
+I
+ don't
+ know
+ we're
+ still
+ handwriting
+ a
+
+
+lot
+ of
+ skills
+ like
+ we're
+ doing
+ a
+ lot
+ of
+
+
+stuff
+ there
+ and
+ like
+ that
+ feels
+ like
+ a
+
+
+tractable
+ solvable
+ problem
+ too.
+ Uh
+ you
+
+
+guys
+ have
+ [snorts]
+ uh
+ sculpt
+ I
+ think
+
+
+coming
+ up.
+ Yes.
+
+
+>> Is
+ there
+ anything
+ that
+ you
+ are
+ going
+ to
+
+
+be
+ launching
+ that
+ you
+ could
+ potentially
+
+
+tease?
+
+
+>> Clearly
+ sculptor.
+ [laughter]
+
+
+>> Uh
+ in
+ 10
+ days.
+ [gasps]
+
+
+>> Yes.
+ So
+ uh
+ I
+ do
+ think
+ we
+ uh
+ will
+ launch
+
+
+a
+ a
+ whole
+ host
+ of
+ new
+ features
+ for
+ our
+
+
+bet
+ on
+ the
+ good
+ market
+ engineer
+ and
+ so
+
+
+giving
+ them
+ I
+ would
+ say
+ new
+ new
+ tools
+ in
+
+
+their
+ toolbox.
+
+
+>> All
+ right.
+ Do
+ you
+ have
+ anything?
+ I
+ think
+
+
+no
+ I
+ think
+ it's
+ really
+ you've
+ been
+
+
+really
+ open
+ about
+ your
+ journey.
+ Um
+ I
+ I
+ I
+
+
+think
+ like
+ people
+ who
+ who
+ haven't
+ tried
+
+
+clay
+ you
+ know
+ honestly
+ I
+ conceptually
+
+
+understood
+ clay
+ I
+ didn't
+ understand
+ the
+
+
+depth
+ I
+ didn't
+ understand
+ the
+ work
+ that
+
+
+you've
+ done.
+ I
+ have
+ use
+ cases
+ now
+ for
+ uh
+
+
+my
+ two
+ businesses
+ and
+ you
+ know
+ what
+ is
+
+
+like
+ when
+ you
+ explain
+ clay
+ to
+ an
+
+
+engineer
+ friend
+ what
+ do
+ you
+ usually
+ tell
+
+
+them
+ to
+ try?
+ I
+ don't know.
+ I
+ I
+ think
+
+
+it's
+ like
+ kind
+ of
+ the
+ stuff
+ that
+ you're
+
+
+trying
+ to
+ do
+ in
+ go
+ to
+ market
+ like
+ I
+
+
+would
+ just
+ try
+ asking
+ Clay
+ like
+ try
+
+
+asking
+ the
+ agent
+ to
+ build
+ that.
+
+
+>> Yeah.
+
+
+>> And
+ and
+ see
+ what
+ happens.
+ Yeah.
+
+
+>> See
+ what
+ happens.
+ All
+ right.
+ Well,
+ thank
+
+
+you
+ so
+ much
+ for
+ spending
+ some
+ time
+ with
+
+
+us
+ and
+ good
+ luck
+ for
+ your
+ uh
+ big
+
+
+conference.
+
+
+>> Thank
+ you
+ so
+ much.
+ Thank
+ you.
+ Thanks.
+
+
+>> [music]
