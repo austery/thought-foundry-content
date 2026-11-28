@@ -1,0 +1,236 @@
+I think a lot of mosquitoes
+are actually quite pretty.
+If you put a mosquito
+under the stereoscope
+and you get to, like, zoom in,
+you first see the whole body.
+And then you zoom in more --
+you get to the eyes --
+they have all these little facets,
+and it's just really beautiful
+how those are arranged.
+And then, you can zoom in
+even more on the mouthparts,
+and you see all the scales
+and the hair sticking out.
+I think that just looks amazing.
+You know, it's a slender,
+beautiful insect.
+(Music)
+My name is Felix Hol,
+and I’m a mosquito biotechnologist.
+(Music)
+Everybody, like, has some relation
+to mosquitoes, right?
+Most people hate them.
+In a way, they are scary and dangerous.
+Not the animal itself,
+but when a mosquito
+takes a blood meal from a person,
+and that person would be carrying
+a particular disease,
+then a mosquito can get
+infected by that pathogen,
+and it could transmit it to another human.
+So that aspect of the mosquito,
+yeah, of course can be dangerous,
+[and] can also be a bit scary.
+(Ominous music)
+They have this humongous impact
+on society, on humans,
+but while they're omnipresent,
+there [are] a lot of things that we really
+don’t understand about them.
+In order to actually understand the animal
+well, you cannot just think, like,
+"Oh, it's a superannoying animal
+that I hate," right?
+You kind of have to crawl
+inside the skin of the subject
+that you're trying to understand.
+I think a certain fascination,
+or maybe, if you would call it, love,
+is at least in my case required
+to really get deeply
+into understanding how it works.
+There's about 3,500 species,
+but only a small subset,
+around 90, feed on humans.
+So basically, I'm sitting here,
+breathing out a bunch of CO2,
+and mosquitoes can really
+smell that from far away,
+like, tens of meters.
+That activates them. They start flying,
+and then, they kind of surge
+and cast through a CO2 plume.
+When they get closer to me,
+they switch to more, like,
+smelling body odors,
+so basically just my sweaty smell.
+When [they] get even closer,
+the body heat that my body radiates,
+that becomes a much more important cue,
+and of course also visual cues.
+They also have taste
+and smell receptors on their feet,
+so when they’re walking on your skin,
+they can taste the surface of your skin.
+The mosquito will tap the skin
+with the proboscis,
+and then it will slide in
+both a food canal and a salivary duct.
+And the food canal will then,
+actually, just, in your skin,
+search for a blood vessel,
+and it will start drinking.
+Mosquitoes feed off of humans for about,
+the quickest ones would be
+20 seconds or so, maybe 30,
+and then other species
+may take a bit longer, like a minute
+or a minute and a half or so.
+They have an interest [in doing]
+this quickly,
+because we may just notice them,
+slap them and then it’s over.
+So that'd be sad for the mosquito.
+So they're really good
+at doing this very stealthily
+and very quickly.
+Whatever we do that was intended
+to prevent them from biting us,
+they will probably find
+ways around this, right?
+Mosquitoes are adapting really rapidly
+to the pressures
+that we as humans put on them.
+I think we really have to keep that
+in mind when we're trying to,
+you know, reduce the burden
+of mosquito-borne diseases.
+Insecticides, of course,
+are designed to kill mosquitoes.
+But given that they've been
+in the environment so much,
+mosquitoes are now
+[becoming] resistant to them.
+And we've actually done some recent work
+where we have preliminary data
+that suggests that mosquitoes,
+when they don't die
+of some of these insecticides,
+it makes them hyperactive.
+So they start actually flying more.
+So we don't know yet
+if that also translates
+into the mosquitoes biting more people,
+but you can imagine
+that when they're hyperactive,
+they may fly more and bite more people.
+So like that, you can see that, sometimes,
+an intervention
+that is intended to do one thing
+may even actually induce
+another type of behavior
+in an insect like a mosquito
+that is actually counterproductive.
+The lab is located in Nijmegen,
+in the Netherlands,
+at Radboud University Medical Center.
+We are trying to build new technology
+to make, like, unknown biology
+of mosquitoes visible.
+One of the interesting things
+we built is the biteOscope.
+It is a kind of like an imaging setup
+in which we built a thing
+we like to think of as a skin mimic.
+So to you and me, it will just look
+like a piece of plastic,
+but for a mosquito, it actually
+just has all the key components
+that the mosquito needs
+to think that it's like real skin.
+So they can land on this,
+they can walk around, they can bite it,
+and then when they bite it,
+they actually slide their mouthparts
+into this artificial blood meal.
+And we can film them
+while they're doing this.
+And we can get
+really high-resolution footage.
+And then, we can really
+accurately study their behavior.
+For instance, how do they bite?
+How often do they bite?
+Does that depend
+on whether they're infected?
+Does that depend on particular compounds
+that we can put on this fake skin surface?
+In the lab, those mosquitoes
+are very standardized.
+We can get lots of them,
+and we know exactly under what conditions
+they were, basically, raised.
+But of course, they're a bit far
+from what we find in real nature.
+We really want to address these questions
+in as many endemic settings as possible.
+So when we do fieldwork, we collect
+mosquitoes straight from the field.
+So what we typically
+do is visit people's houses,
+[and] we ask if we’re allowed,
+to collect mosquitoes at their houses.
+So you just go into a house
+early in the morning.
+Mosquitoes are still
+kind of like resting on the wall.
+I come in with my little vacuum,
+we vacuum the mosquitoes off the wall
+and then we take them to the field lab.
+We practice everything
+in an open-science fashion.
+All the code, we make
+all of that available, open source,
+and we just mainly use
+as-cheap-as-possible components.
+It really works best
+if others just start using our tools.
+So open source and cheap,
+that's the main way
+to get it into people's hands.
+(Music)
+About half a million people
+die of a mosquito-borne disease each year,
+and the number is actually rising.
+Since they don't affect people
+in, for instance, Europe
+or North America that much,
+they seem to be getting much less
+attention than they maybe should.
+My hope for the future
+is that we'll be able to use insights
+about how mosquitoes actually work
+to reduce the burden
+of mosquito-borne diseases.
+So while I find mosquitoes
+very fascinating and intriguing,
+I do want them to stop,
+like, actually making people sick.
+So it's not just putting out
+the next insecticide
+that, in a couple of years,
+they'll be resistant to again.
+We can use everything
+that we've learned about them
+to come up with strategies that allow us
+to really, sustainably, curb the spread.
+We've learned a lot over the past, like,
+decades or even longer.
+But with every single thing we learn,
+that will pull open another 70 questions.
+So in that sense, yeah,
+this is a never-ending story.
