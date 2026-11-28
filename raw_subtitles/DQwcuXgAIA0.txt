@@ -1,0 +1,2420 @@
+[music]
+
+
+>> Good
+ afternoon,
+ everybody.
+ I
+ am
+ Brian
+
+
+Kennedy.
+ I'm
+ an
+ engineer
+ on
+ ZoomInfo's
+
+
+agentic
+ platform.
+
+
+Now,
+
+
+I
+ want
+ to
+ start
+ with
+ showing
+ you
+
+
+something
+ one
+ of
+ our
+ agents
+ wrote.
+
+
+This
+ is
+ a real
+ output
+ from
+ our
+ product.
+
+
+The
+ agent's
+ job
+ was
+ to
+ schedule
+ an
+ email
+
+
+for
+ a
+ customer.
+
+
+And
+ this
+ is
+ what
+ it
+ reported
+ back.
+
+
+[clears throat]
+ It said
+ it
+ scheduled
+ the
+
+
+email,
+ it
+ queued
+ it
+ up,
+ and
+ that
+ it
+ was
+
+
+going
+ to
+ go
+ out
+ on
+ Tuesday.
+
+
+We
+ don't
+ just
+ trust
+ the
+ agent,
+ though.
+ A
+
+
+second
+ model
+ checks
+ the
+ agent's
+ work.
+
+
+I'm
+ going
+ to call
+ this
+ one
+ the
+ judge.
+
+
+The
+ judge
+ read
+ this
+ and
+ it
+ accepted
+ it.
+
+
+Great.
+
+
+Now,
+ here's
+ the
+ problem.
+
+
+And
+ this
+ is
+ what
+ it
+ actually
+ happened.
+
+
+Their
+ uh these
+ are the
+ tool
+ results,
+ the
+
+
+record
+ of
+ what
+ actually
+ ran
+ when
+ the
+
+
+agent
+ called
+ the
+ tools.
+ I'm
+ going
+ to
+
+
+call
+ these
+ the
+ receipts.
+
+
+The agent
+ tried
+ to
+ create
+ a record
+ in
+
+
+Salesforce
+ and
+ it
+ failed.
+ The
+ error
+
+
+message
+ that
+ came
+ back
+ says
+ the
+ record
+
+
+was
+ not
+ created
+ and
+ it
+ tells
+ the
+ agent
+
+
+not
+ to
+ report
+ a
+ success
+ or
+ even
+ make
+ up
+
+
+a
+ record.
+
+
+We
+ wrote
+ this
+ message
+ ourselves
+ for
+
+
+exactly
+ this
+ situation.
+
+
+The
+ agent
+ tried
+ again.
+ It
+ created
+ a
+
+
+task,
+ which
+ is
+ a
+ to-do.
+
+
+No
+ email
+ was
+ ever
+ scheduled.
+ The
+ agent
+
+
+doesn't
+ even
+ have
+ a
+ tool
+ that
+ can
+ send
+
+
+an
+ email.
+ The
+ agent
+ made
+ it
+ up
+ and
+ the
+
+
+judge
+ approved
+ it.
+
+
+So
+ that's
+ two
+ failures.
+
+
+The
+ agent
+ fabricated
+ a
+ send
+
+
+and
+ the judge
+ rubber
+ stamped
+ it,
+
+
+approved
+ uh
+ a
+ claim
+ that
+ never
+ actually
+
+
+checked.
+
+
+So
+ if
+ you build
+ agents,
+ you
+ probably
+
+
+have
+ run
+ into
+ this
+ and
+ you
+ probably
+ have
+
+
+a judge
+ like
+ this.
+ It might
+ be
+ a
+ code
+
+
+reviewer
+ or
+ a grader
+ of your
+ evals
+ or
+ a
+
+
+supervisor
+ in
+ your
+ loop.
+
+
+Anytime
+ a model
+ decides
+ whether
+ another
+
+
+model's
+ work
+ is
+ good,
+ this
+ can
+ happen.
+
+
+About
+ for
+ the
+ next
+ 10
+ minutes,
+ I'll
+ show
+
+
+you
+ how
+ we
+ caught
+ this
+ and
+ we did
+ about
+
+
+it.
+
+
+First,
+ some
+ quick
+ background.
+
+
+My
+ team
+ at
+ Zoom
+ Info
+
+
+is
+ called
+ Agent
+ Teams.
+ We
+ announced
+ this
+
+
+last
+ week.
+ It's
+ a multi-agent
+
+
+orchestration
+ layer
+ that
+ lives
+ in
+ Zoom
+
+
+Info's
+ GTM
+ Studio.
+
+
+It
+ coordinates
+ a
+ team
+ of
+ specialized
+
+
+agents
+ across
+ the
+ company's
+ systems
+ to
+
+
+run
+ GTM
+ workflows.
+ For
+ example,
+ find
+
+
+companies,
+ research
+ them,
+ write
+ an
+
+
+email,
+ log
+ it
+ into
+ their
+ CRM.
+ Each
+ agent
+
+
+has
+ its
+ own
+ roles
+ and
+ instructions
+ like
+
+
+and
+ tools
+ like
+ Salesforce,
+ HubSpot,
+
+
+Slack.
+
+
+These
+ agents
+ make
+ real
+ decisions
+ and
+
+
+take
+ real
+ actions
+ in
+ the
+ customer's
+
+
+systems.
+ They
+ write
+ records
+ and
+ they
+
+
+send
+ messages.
+
+
+Every
+ team
+ and
+ every
+ agent
+ finishes
+ a
+
+
+step.
+ A
+ second
+ model
+ checks
+ its
+ work.
+
+
+That's
+ the
+ judge
+ and
+ it
+ has
+ three
+
+
+options
+ to
+ move
+ on,
+ to
+ redo
+ the
+ step
+ or
+
+
+to
+ stop
+ the
+ job
+ altogether.
+
+
+You
+ probably
+ heard
+ this
+ called
+ LLM
+ as
+ a
+
+
+judge.
+ It's
+ the
+ same
+ idea
+ as
+ a
+ code
+
+
+reviewer
+ or
+ an
+ eval
+ grader.
+
+
+Now,
+ the
+ hard
+ part
+ for
+ us
+ is
+ that
+ it's
+
+
+one
+ model
+ and
+ it
+ has
+ to
+ grade
+ every
+ kind
+
+
+of
+ agent
+ that
+ we're
+ running
+ through
+ it.
+
+
+Our
+ customers
+ build
+ their
+ own
+ workflows
+
+
+with
+ any
+ agent
+ and
+ any
+ tool
+ in
+ any
+
+
+order.
+ So
+ the
+ permutations
+ are
+ almost
+
+
+infinite.
+
+
+So the
+ list
+ of
+ jobs
+ for
+ the
+ judge
+ has
+ to
+
+
+grow
+ with
+ it.
+
+
+The
+ judge
+ can
+ tell
+ whether
+ the
+ work
+
+
+looks
+ finished,
+ but
+ what
+ it
+ can't
+ tell
+
+
+is
+ whether
+ the
+ work
+ was
+ right
+
+
+because
+ that
+ depends
+ on
+ what
+ right
+ means
+
+
+for
+ each
+ job
+ and
+ we're
+ asking
+ it
+ the
+
+
+same
+ question
+ for
+ all
+ of
+ them.
+
+
+So
+ here's
+ where
+ we're
+ going.
+
+
+First,
+ I'll
+ talk
+ about
+ what
+ we
+ found
+
+
+when
+ we
+ checked
+ the
+ judge.
+
+
+Then
+ what
+ we
+ chose
+ instead
+
+
+and
+ what
+ you
+ can
+ do
+ today
+ with
+ your
+ own
+
+
+agents.
+
+
+To start,
+ we
+ ran
+ offline
+ evals.
+ We
+ took
+
+
+500
+ real
+ steps
+ from
+ production,
+
+
+each
+ with
+ a
+ decision
+ that
+ the judge
+ had
+
+
+made.
+
+
+Then
+ we took
+ a
+ larger
+ frontier
+ model
+ and
+
+
+regraded
+ every
+ one
+ of
+ those
+ to
+ come
+ back
+
+
+with
+ an
+ accept
+ or
+ send
+ back.
+
+
+Then
+ we
+ hand
+ checked
+ each
+ of
+ those
+
+
+samples
+ and
+ we checked
+ the grades.
+ Where
+
+
+we
+ disagreed
+ with
+ the
+ model,
+ we
+ went
+
+
+with
+ our
+ call.
+
+
+This
+ gave
+ us
+ a
+ reference
+ label
+ for
+ all
+
+
+500
+ steps.
+
+
+And
+ it turned
+ out
+ the
+ judge
+ was
+ right
+
+
+65%
+ of the
+ time,
+ so
+ more
+ or
+ less
+ a coin
+
+
+flip.
+
+
+It
+ accepted
+ 118
+ steps
+ that
+ it
+ should
+
+
+have
+ sent
+ back.
+ That's
+ more
+ than
+ one
+ in
+
+
+four
+ of
+ everything
+ that
+ it accepted.
+
+
+Pretty
+ bad.
+
+
+And
+ when
+ we
+ read
+ through
+ those,
+ the
+ most
+
+
+common
+ problem
+ was
+ that
+
+
+similar
+ to
+ the
+ email
+ at
+ the start,
+ the
+
+
+agent
+ reported
+ that
+ it
+ did
+ something
+
+
+like
+ send
+ a message
+ and
+ no
+ tool
+ call
+ had
+
+
+ever
+ done
+ that.
+
+
+So
+ to
+ see
+ why
+ the
+ judge
+ had
+ accepted
+ it,
+
+
+let's
+ go
+ back
+ to
+ the
+ email
+ example
+ and
+
+
+look
+ at what
+ the
+ judge
+ was
+ given.
+
+
+On
+ the
+ left,
+ you
+ have
+ what
+ the
+ agent's
+
+
+own
+ summary
+ Think
+ of
+ it
+ as
+ like
+ a
+ story.
+
+
+It's
+ confident,
+ it's
+ well
+ written.
+ It
+
+
+says
+ the
+ email
+ was
+ scheduled.
+
+
+Now
+ on the
+ right,
+ you
+ have
+ the
+ receipts.
+
+
+This
+ is
+ the
+ actual
+ tool
+ results.
+ There
+
+
+are
+ errors,
+ failed
+ to create
+ messages
+
+
+telling
+ the
+ agent
+ not
+ to
+ make
+ up
+ the
+
+
+record.
+
+
+Now
+ the
+ judge
+ had
+ both
+ of
+ these
+ and
+ it
+
+
+went
+ with
+ the
+ story.
+ The work
+ looked
+
+
+fine
+ on
+ the
+ surface,
+ so
+ it
+ accepted
+ it.
+
+
+Now
+ this
+ isn't
+ only
+ our
+ judge.
+ You
+ can
+
+
+think
+ of
+ a
+ code
+ review
+ agent
+ that
+ reads
+
+
+the
+ PR
+ description
+ before
+ it
+ looks
+ at
+
+
+the
+ diff.
+ It's
+ a similar
+ kind
+ of
+
+
+problem.
+ If
+ the
+ description
+ says
+ I
+ fixed
+
+
+the
+ bug,
+ added
+ tests,
+ the
+ agent
+ is
+ going
+
+
+to
+ lean
+ on
+ that
+ when
+ it
+ reads
+ the
+ code.
+
+
+So
+ the
+ obvious
+ fix
+ at
+ the
+ start
+ was
+ to
+
+
+tune
+ the
+ judge
+ and
+ write
+ a
+ better
+
+
+prompt.
+ For
+ us,
+ that
+ was
+ going
+ to be
+ a
+
+
+significant
+ amount
+ of
+ work.
+ Our
+ agents
+
+
+write
+ sales
+ emails,
+ update
+ CRMs,
+ do
+
+
+research,
+
+
+and
+ to
+ judge
+ each
+ of
+ these
+ well,
+ we'd
+
+
+have
+ to
+ figure
+ out
+ what
+ it
+ was
+ that
+ the
+
+
+user
+ was
+ asking.
+ Give
+ the
+ judge
+ the
+
+
+right
+ rules
+ for
+ every
+ kind
+ of
+ work
+ and
+
+
+keep
+ it
+ all
+ up
+ to
+ date.
+
+
+That's
+ basically
+ a custom
+ judge
+ for
+
+
+every
+ use
+ case.
+
+
+What
+ we
+ went
+ with,
+ we
+ went
+ a
+ different
+
+
+direction.
+ We
+ stopped
+ asking
+ one
+ big
+
+
+general
+ question,
+ is
+ this
+ good?
+ And
+ we
+
+
+started
+ asking
+ a
+ short
+ list
+ of small
+ yes
+
+
+or
+ no
+ questions.
+
+
+They're
+ the
+ same
+ questions
+ for
+ every
+
+
+step
+ and
+ each
+ one
+ is
+ small
+ enough
+ to
+
+
+answer
+ by
+ looking
+ at
+ the
+ receipts.
+
+
+The
+ first
+ option
+ here
+ is
+ basically
+ a
+
+
+prompt
+ tuning
+ project
+ that
+ never
+ ends,
+
+
+whereas
+ the
+ second
+ one
+ is
+ a
+ small
+
+
+handful
+ of
+ small
+ checks.
+
+
+Now
+ to
+ answer
+ those
+ questions,
+ we
+ used
+
+
+Jev.
+ You've
+ heard
+ a
+ lot
+ about
+ Jev
+ today,
+
+
+so
+ I'll
+ skip
+ that
+ and
+ keep
+ that
+ short.
+
+
+It's
+ a
+ type
+ decision
+ model,
+ not
+ a
+
+
+generative
+ model.
+
+
+Uh
+ for
+ mom
+ at
+ home
+ watching,
+ just
+ ask
+
+
+Claude.
+
+
+And
+ we'll
+ send
+ it
+ structured
+ facts,
+ you
+
+
+know,
+ about
+ the
+ step
+ and
+ listed
+ a
+ type
+
+
+of
+ questions.
+ A
+ type
+ question
+ is
+ a
+ yes
+
+
+or no
+ question
+ or
+ a
+ choice
+ with
+ from
+ a
+
+
+fixed
+ list
+ of
+ options.
+ It
+ sends
+ back
+ a
+
+
+probability
+ for
+ each
+ answer
+ and
+ it
+
+
+answers
+ all
+ the
+ questions
+ in
+ one
+ call.
+
+
+We
+ gave
+ it
+ four
+ things,
+ the
+
+
+instructions,
+ the
+ uh
+ input,
+ the
+
+
+receipts,
+ uh
+ meaning
+ every
+ tool
+ call,
+
+
+and
+ whether
+ it
+ was
+ successful
+ or
+ failed,
+
+
+and
+ the
+ agent's
+ report.
+
+
+Then
+ we
+ asked
+ for
+ one
+ choice,
+ which
+ was
+
+
+accept,
+ redo,
+ or
+ stop.
+
+
+And
+ that
+ choice
+ makes
+ the
+ decision.
+
+
+But
+ then
+ we
+ also
+ asked
+ seven
+ yes
+ or
+ no
+
+
+questions.
+ Those
+ seven
+ questions
+ tell
+ us
+
+
+the
+ why.
+
+
+They
+ decide
+ between
+ a redo
+ and
+ a
+ stop.
+
+
+And
+ they
+ go
+ into
+ the
+ feedback
+ that
+ the
+
+
+agent
+ gets
+ when
+ it
+ actually
+ has
+ to
+ redo
+
+
+a
+ step.
+
+
+Now
+ back
+ to
+ the
+ email.
+ The
+ LLM
+ judge
+
+
+accepted
+ it
+ and
+ it took
+ about
+ two
+ and
+ a
+
+
+half
+ seconds.
+
+
+Jev
+ gave
+ us
+ a probability
+ for
+ each
+
+
+option.
+
+
+For
+ this
+ step,
+ it
+ accepted
+ 0%,
+ redo
+ 97%
+
+
+and
+ stop
+ at 3%.
+ And
+ it
+ took
+ about
+ a
+
+
+fifth
+ of
+ a
+ second.
+
+
+We
+ make
+ the
+ decision
+ from
+ the
+
+
+probability
+ of
+ accept.
+ At
+ 30%
+ or
+ higher,
+
+
+we
+ accept
+ that.
+ At
+ 5%
+ or
+ lower,
+ we
+ redo
+
+
+or
+ stop.
+
+
+And
+ anything
+ in between
+ means
+ Jev
+ isn't
+
+
+sure,
+ so
+ we
+ kick
+ it
+ to
+ an
+ LLM
+ judge.
+
+
+We
+ pick
+ those
+ cutoffs
+ from
+ testing
+ the
+
+
+500
+ labels
+ that
+ we
+ had
+ at
+ the
+ beginning.
+
+
+Now,
+ to
+ test
+ whether
+ what
+ whether
+ or
+ not
+
+
+this
+ works
+ better,
+ we
+ took
+ two
+ different
+
+
+routes.
+ The
+ first
+ test
+ used
+ the
+ same
+ 500
+
+
+production
+ steps
+ from
+ the
+ offline
+ eval.
+
+
+Jev
+ was
+ confident
+ enough
+ in
+ about
+ seven
+
+
+out
+ of
+ 10
+ of
+ them.
+
+
+One
+ of
+ those
+ steps,
+
+
+uh
+ the
+ LLM
+ judge
+ had
+ accepted
+ 82
+ that
+
+
+should
+ have
+ been
+ sent
+ back.
+ Each
+ red
+
+
+square
+ here
+ is
+ one
+ of
+ those.
+
+
+Jev
+ successfully
+ caught
+ 74
+ of those.
+ The
+
+
+blue
+ squares
+ are
+ the ones
+ that
+ Jev
+ would
+
+
+have
+ sent
+ back.
+
+
+Now,
+ the
+ second
+ test
+ is
+ what
+ we
+ called
+
+
+shadow
+ mode.
+
+
+Both
+ judges
+ look
+ at
+ every
+ step,
+ but
+ only
+
+
+the
+ LLM
+ judge
+ uh
+ that
+ decision
+ counts.
+
+
+So
+ we
+ saved
+ Jev
+ what
+ would
+ have
+ done,
+
+
+and
+ we
+ don't
+ let
+ it
+ affect
+ the
+ actual
+
+
+run.
+ That
+ gave
+ us
+ 37,000
+ decisions
+ to
+
+
+mine
+ for
+ insights.
+
+
+And
+ in
+ that
+ time,
+ there
+ were
+ 728
+ steps
+
+
+where
+ a
+ tool
+ had
+ clearly
+ failed.
+
+
+The
+ LLM
+ caught
+
+
+294
+ of them.
+ Jev
+ caught
+ 623.
+
+
+And
+ the
+ fake
+ email
+ from
+ the
+ beginning,
+
+
+it
+ wasn't
+ a
+ one-off
+ thing
+ either.
+ The
+
+
+same
+ step
+ ran
+ 1,081
+ times,
+ and
+ almost
+
+
+every
+ time
+ the
+ agent
+ said
+ it
+ had
+
+
+scheduled
+ an
+ email,
+ the
+ LLM
+ judge
+ only
+
+
+caught
+ it
+ once.
+ Jev
+ caught
+ that
+ 876
+
+
+times.
+
+
+And
+ when
+ you have
+ a
+ judge,
+ every
+ step
+
+
+waits.
+
+
+Jev
+ was
+ 10
+ times
+ faster
+ and
+ 40
+ times
+
+
+cheaper.
+
+
+At
+ this
+ scale,
+ it
+ is
+ massive.
+
+
+[snorts]
+
+
+So
+ what's
+ next?
+
+
+Right
+ now,
+ every
+ step
+ goes
+ with
+ the
+ same
+
+
+seven
+ questions.
+ They
+ go
+ into
+ Jev
+ along
+
+
+with
+ the
+ facts,
+ and
+ Jev
+ gives
+ us
+ an
+
+
+accept,
+ redo,
+ or
+ stop.
+
+
+But
+ next,
+ we're
+ adding
+ post-condition
+
+
+checks,
+ which
+ are
+ questions
+ that
+ depend
+
+
+on
+ which
+ tool
+ called
+ uh
+ was
+ within
+ the
+
+
+step.
+
+
+So
+ we don't
+ have
+ to
+ guess.
+ Uh
+ we
+ know
+
+
+the
+ step
+ upfront
+ because
+ the
+ tool
+ tells
+
+
+us.
+
+
+If
+ a step
+ called
+ let's
+ say
+ a
+ send
+ tool,
+
+
+we
+ also
+ ask
+ whether
+ the
+ message
+ was
+
+
+delivered.
+
+
+If
+ it
+ wrote
+ a record,
+ we
+ ask
+ whether
+ the
+
+
+record
+ exists.
+
+
+And
+ those
+ go
+ into
+ Jev
+ with
+ the
+ same
+
+
+seven
+ questions
+ in the
+ same
+ call.
+
+
+Now
+ what
+ can
+ you
+ do
+ today
+ with
+ your
+
+
+agents?
+
+
+First,
+ pick
+ one
+ judgment.
+ Somewhere
+ in
+
+
+your
+ systems
+ there
+ is
+ an
+ LLM
+ deciding
+
+
+whether
+ or not
+ something
+ is
+ good.
+ It
+
+
+might
+ be
+ reviewing
+ code,
+ grading
+ an
+
+
+eval.
+ Pick
+ one
+ of
+ those
+ and
+ rewrite
+ it
+
+
+as
+ a few
+ simple
+ yes
+ or
+ no
+ questions
+ that
+
+
+can
+ be
+ answered
+ from
+ the
+ evidence.
+
+
+Second
+ is
+ build
+ it.
+
+
+This
+ is
+ the
+ easy
+ part
+ honestly.
+ We
+ used
+
+
+Jev
+ and
+ ours
+ was
+ seven
+ questions.
+
+
+Then
+ the
+ third,
+ ship
+ it
+ in
+ shadow
+ mode.
+
+
+Run
+ it
+ next
+ to
+ what
+ you
+ already
+ have,
+
+
+but
+ don't
+ let
+ it
+ make
+ the
+ decisions
+ yet.
+
+
+Just
+ save
+ it
+ uh
+ and
+ then
+ you
+ can
+ analyze
+
+
+it
+ later.
+
+
+Then
+ read
+ the
+ cases
+ and
+ see
+ where
+ the
+
+
+two
+ disagree.
+ And
+ don't
+ overthink
+ it,
+
+
+just
+ start
+ small.
+
+
+We
+ had
+ trusted
+ our
+ judge
+ until
+ we
+
+
+measured
+ it.
+
+
+Measure
+ yours.
+ Run
+ a
+ second
+ check.
+ Run
+
+
+it
+ in
+ shadow
+ mode
+ and
+ see
+ where
+ it
+
+
+disagrees.
+ You
+ may
+ be
+ surprised
+ with
+
+
+what
+ you
+ find.
+
+
+Thank
+ you.
